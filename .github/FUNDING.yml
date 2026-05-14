@@ -1,0 +1,11 @@
+# These are supported funding model platforms
+# Configures the "💖 Sponsor" button shown on the repository page.
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+ko_fi: juricodejp
+
+# Future activations (uncomment when each platform's account is ready):
+# github: MasahiroSato-0111   # GitHub Sponsors — pending approval
+# polar: JuriCode-JP          # Polar.sh — to be set up later
+
+custom: ['https://ko-fi.com/juricodejp']
