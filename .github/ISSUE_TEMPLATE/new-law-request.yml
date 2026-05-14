@@ -1,0 +1,65 @@
+name: 新法令の追加リクエスト / Request New Law
+description: JuriCode-JPで構造化してほしい法令をリクエスト / Request structuring of a new law
+title: "[request] "
+labels:
+  - new-law-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        構造化を希望する法令をリクエストしてください。**Phase 1 = 警察関連法令**を最優先で進めています。
+        - Phase 1 (2026-2027): 警察関連法令
+        - Phase 2 (2027-2028): 民事・商事法令
+        - Phase 3 (2028-2030): 全領域
+
+  - type: input
+    id: law-name
+    attributes:
+      label: 法令名 / Law name
+      description: 正式名称
+      placeholder: 刑法
+    validations:
+      required: true
+
+  - type: input
+    id: law-id
+    attributes:
+      label: e-Gov 法令ID / e-Gov law ID
+      description: 13桁の正規ID(分かれば)
+      placeholder: 140AC0000000045
+    validations:
+      required: false
+
+  - type: dropdown
+    id: phase
+    attributes:
+      label: 該当Phase / Target phase
+      options:
+        - Phase 1 (警察関連法令)
+        - Phase 2 (民事・商事法令)
+        - Phase 3 (その他)
+        - 判断不能
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: 追加を希望する理由 / Why this law?
+      description: ユースケース、社会課題への関連性など
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: 優先したい条文 / Priority articles
+      description: 法令全体か、特定の条文か
+      placeholder: "例: 第36条(正当防衛), 第199条(殺人) を優先"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 補足 / Additional context

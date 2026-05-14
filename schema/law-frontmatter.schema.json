@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/law-frontmatter.schema.json",
+  "title": "JuriCode-JP Law Article Frontmatter",
+  "description": "YAML frontmatter schema for a single law article file in JuriCode-JP. Version 0.1 (draft).",
+  "type": "object",
+  "required": [
+    "law_id",
+    "law_name_ja",
+    "law_name_en",
+    "article_number",
+    "article_id",
+    "version_date",
+    "source_url",
+    "last_verified",
+    "license",
+    "translation_status"
+  ],
+  "properties": {
+    "law_id": {
+      "type": "string",
+      "description": "e-Gov法令ID(法令番号の正規ID)。例: 140AC0000000045"
+    },
+    "law_name_ja": {
+      "type": "string",
+      "description": "法令の正式名称(日本語)"
+    },
+    "law_name_en": {
+      "type": "string",
+      "description": "法令の正式名称(英語、公定訳優先)"
+    },
+    "article_number": {
+      "type": "string",
+      "description": "条番号(枝番含む)。例: '36', '36-2', '199'",
+      "pattern": "^[0-9]+(-[0-9]+)*$"
+    },
+    "article_id": {
+      "type": "string",
+      "description": "条文の一意ID。[law-abbrev]-art-[N] 形式",
+      "pattern": "^[a-z][a-z0-9-]*-art-[0-9]+(-[0-9]+)*$"
+    },
+    "version_date": {
+      "type": "string",
+      "format": "date",
+      "description": "現行条文の施行日 (YYYY-MM-DD)"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "e-Gov 法令APIまたは該当条文ページのURL"
+    },
+    "source_format": {
+      "type": "string",
+      "enum": ["e-gov-xml", "e-gov-html", "lawtext", "manual"],
+      "description": "元データの形式"
+    },
+    "last_verified": {
+      "type": "string",
+      "format": "date",
+      "description": "最後に原典と突き合わせた日 (YYYY-MM-DD)"
+    },
+    "license": {
+      "type": "string",
+      "description": "このファイルのライセンス",
+      "examples": ["MIT", "CC0", "CC-BY-4.0"]
+    },
+    "translation_status": {
+      "type": "string",
+      "enum": ["official", "community", "draft", "none"],
+      "description": "英訳の出典・信頼度。official=政府公定訳, community=コミュニティ翻訳(レビュー済), draft=未レビュー, none=未翻訳"
+    },
+    "machine_translated": {
+      "type": "boolean",
+      "description": "英訳がMT由来かどうか",
+      "default": false
+    },
+    "parent_section": {
+      "type": "object",
+      "description": "編・章・節情報",
+      "properties": {
+        "hen": { "type": ["string", "number"] },
+        "hen_name_ja": { "type": "string" },
+        "hen_name_en": { "type": "string" },
+        "shou": { "type": ["string", "number"] },
+        "shou_name_ja": { "type": "string" },
+        "shou_name_en": { "type": "string" },
+        "setsu": { "type": ["string", "number"] },
+        "setsu_name_ja": { "type": "string" },
+        "setsu_name_en": { "type": "string" },
+        "kan": { "type": ["string", "number"] },
+        "kan_name_ja": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "paragraphs": {
+      "type": "array",
+      "description": "項のメタデータ",
+      "items": {
+        "type": "object",
+        "required": ["number"],
+        "properties": {
+          "number": { "type": "integer", "minimum": 1 },
+          "has_proviso": { "type": "boolean", "default": false },
+          "has_items": { "type": "boolean", "default": false },
+          "is_added_by_amendment": { "type": "boolean", "default": false },
+          "notes": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "cases": {
+      "type": "array",
+      "description": "判例リンク",
+      "items": { "$ref": "./case-link.schema.json" }
+    },
+    "amendments": {
+      "type": "array",
+      "description": "改正履歴(直近の改正を必須、過去全履歴は任意)",
+      "items": {
+        "type": "object",
+        "required": ["effective_date", "law_no", "summary"],
+        "properties": {
+          "effective_date": { "type": "string", "format": "date" },
+          "law_no": { "type": "string", "description": "改正法の法令番号。例: 令和4年法律第67号" },
+          "summary": { "type": "string", "description": "改正の概要" },
+          "diff_summary": { "type": "string", "description": "条文差分の概要" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "フリータグ。例: ['正当防衛', 'phase1-police']"
+    },
+    "notes": {
+      "type": "string",
+      "description": "構造化注記。法令工学的に重要な点や、フォーマットの注意点"
+    }
+  },
+  "additionalProperties": false
+}

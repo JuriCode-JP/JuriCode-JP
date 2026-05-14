@@ -1,0 +1,54 @@
+# --- JuriCode-JP project-specific ---
+
+# 応募準備・内部メモ(Tokyo Award等)はpublic repoから除外
+awards/
+
+# ローカルキャッシュ(e-Gov APIダウンロード等)
+tools/**/cache/
+tools/**/downloads/
+tools/**/_local/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node (補助スクリプトを置いた場合) ---
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Obsidian ---
+.obsidian/
+.trash/
+
+# --- Local secrets ---
+*.env
+*.env.local
+.secrets/
+credentials.json

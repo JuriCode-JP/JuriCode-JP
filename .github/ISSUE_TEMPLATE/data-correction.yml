@@ -1,0 +1,58 @@
+name: 法令データの修正報告 / Law Data Correction
+description: 法令本文・項番号・引用情報などの誤りを報告 / Report errors in law text, paragraph numbering, or citations
+title: "[data] "
+labels:
+  - data-correction
+body:
+  - type: markdown
+    attributes:
+      value: |
+        JuriCode-JPの法令データの誤りを報告してください。法令本文は **e-Gov 公式テキストとの一字一句一致** が原則です。
+
+  - type: input
+    id: file-path
+    attributes:
+      label: 該当ファイル / Affected file
+      description: "例: data/phase1-police/keihou/keihou-article-36.md"
+      placeholder: data/phase1-police/keihou/keihou-article-36.md
+    validations:
+      required: true
+
+  - type: dropdown
+    id: error-type
+    attributes:
+      label: 誤りの種類 / Type of error
+      options:
+        - 法令本文の不一致 (Law text mismatch with e-Gov)
+        - 項番号・条番号の誤り (Paragraph/article number error)
+        - 改正履歴の漏れ (Missing amendment)
+        - 出典URLの破損 (Broken source URL)
+        - frontmatterフィールドの誤り (Frontmatter field error)
+        - その他 (Other)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 誤りの内容 / Description of the error
+      description: 具体的にどこが、どう誤っているか
+      placeholder: |
+        例: 第2項の「情状により」が「情状に依り」と記載されているが、e-Gov公式では「情状により」が正
+    validations:
+      required: true
+
+  - type: input
+    id: source-url
+    attributes:
+      label: 正しい情報の出典 / Source URL for the correct information
+      description: e-Gov法令APIのURL等
+      placeholder: https://laws.e-gov.go.jp/law/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: 補足 / Additional context
+      description: その他関連情報

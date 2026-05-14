@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: フォーマット仕様への質問 / Format specification questions
+    url: https://github.com/JuriCode-JP/JuriCode-JP/blob/main/docs/format-spec.md
+    about: 法令データフォーマットについては format-spec.md を参照ください
+  - name: 議論・提案 / Discussions
+    url: https://github.com/JuriCode-JP/JuriCode-JP/discussions
+    about: Issueにする前のアイデア共有や質問はDiscussionsで

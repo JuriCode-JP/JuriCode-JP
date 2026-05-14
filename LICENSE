@@ -1,0 +1,47 @@
+MIT License
+
+Copyright (c) 2026 CHOKAI Co.,Ltd.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+# 補足 / Notes on Scope
+
+このMITライセンスは、本リポジトリにおける **構造化レイヤー**
+(YAML frontmatter、JSON Schema、スクリプト、ドキュメント、英訳のうち
+JuriCode-JP コミュニティによる翻訳成果物)に適用されます。
+
+This MIT License applies to the **structuring layer** of this repository
+(YAML frontmatter, JSON Schemas, scripts, documentation, and community
+translations contributed to JuriCode-JP).
+
+法令本文(日本国の法令の条文)および判例本文・判例要旨等は、各原典
+(e-Gov法令検索 / 裁判所Webサイト / 判例集)からの引用範囲として
+収録しているものであり、それぞれの原著作・原出典の取扱いに従います。
+日本国の著作権法第13条(権利の目的とならない著作物)により、法令の
+条文そのものに著作権は発生しませんが、配布にあたっては出典明示の
+原則(CLAUDE.md §4.2)を遵守してください。
+
+The Japanese statutory texts and judicial opinions reproduced in this
+repository are quoted from their authoritative sources (e-Gov Laws and
+Regulations Database / Courts in Japan website / official case reporters).
+Under Article 13 of the Japanese Copyright Act, the texts of statutes
+themselves are not subject to copyright; nonetheless, redistribution must
+follow the source-attribution principle described in CLAUDE.md §4.2.

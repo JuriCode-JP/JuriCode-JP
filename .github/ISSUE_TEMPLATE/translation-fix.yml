@@ -1,0 +1,62 @@
+name: 英訳の修正提案 / Translation Improvement
+description: 英訳の改善・修正を提案 / Suggest improvements to English translations
+title: "[translation] "
+labels:
+  - translation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        英訳の改善提案を歓迎します。可能であれば**政府公定訳(日本法令外国語訳DB)**との比較も参照してください。
+
+  - type: input
+    id: file-path
+    attributes:
+      label: 該当ファイル / Affected file
+      placeholder: data/phase1-police/keihou/keihou-article-36.md
+    validations:
+      required: true
+
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: 提案の種類 / Type of suggestion
+      options:
+        - 公定訳への置き換え (Replace with official translation)
+        - ドラフト訳の修正 (Improve draft translation)
+        - 新規英訳の追加 (Add new translation)
+        - 用語選択の修正 (Terminology correction)
+        - その他 (Other)
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-text
+    attributes:
+      label: 現在の英訳 / Current translation
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed-text
+    attributes:
+      label: 提案する英訳 / Proposed translation
+    validations:
+      required: true
+
+  - type: input
+    id: source-url
+    attributes:
+      label: 出典 / Translation source
+      description: 政府公定訳(JLT-DB)、専門書、独自翻訳など
+      placeholder: http://www.japaneselawtranslation.go.jp/...
+    validations:
+      required: false
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: 提案理由 / Rationale
+      description: なぜこの修正が必要か
+    validations:
+      required: true

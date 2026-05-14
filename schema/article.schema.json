@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/article.schema.json",
+  "title": "JuriCode-JP Article (Parsed Representation)",
+  "description": "Parsed representation of a single law article including frontmatter and body sections. Used as the canonical in-memory model after parsing the Markdown file.",
+  "type": "object",
+  "required": ["frontmatter", "title", "body"],
+  "properties": {
+    "frontmatter": {
+      "$ref": "./law-frontmatter.schema.json"
+    },
+    "title": {
+      "type": "string",
+      "description": "H1 heading. Example: '刑法 第36条(正当防衛)'"
+    },
+    "body": {
+      "type": "object",
+      "required": ["original_ja"],
+      "properties": {
+        "original_ja": {
+          "type": "object",
+          "description": "Section: 原文 (日本語)",
+          "required": ["paragraphs"],
+          "properties": {
+            "paragraphs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["number", "text"],
+                "properties": {
+                  "number": { "type": "integer", "minimum": 1 },
+                  "text": { "type": "string", "description": "Verbatim text from e-Gov. NO modifications allowed." },
+                  "heading": { "type": "string", "description": "Markdown sub-heading, e.g., '第三十六条第二項'" }
+                },
+                "additionalProperties": false
+              },
+              "minItems": 1
+            }
+          }
+        },
+        "translation_en": {
+          "type": "object",
+          "description": "Section: English Translation",
+          "properties": {
+            "source_note": { "type": "string", "description": "Provenance note shown above the translation (e.g., 'Official translation by MOJ')" },
+            "paragraphs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["number", "text"],
+                "properties": {
+                  "number": { "type": "integer", "minimum": 1 },
+                  "text": { "type": "string" },
+                  "heading": { "type": "string" }
+                },
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        "case_law": {
+          "type": "object",
+          "description": "Section: 判例リンク",
+          "properties": {
+            "entries": {
+              "type": "array",
+              "items": { "$ref": "./case-link.schema.json" }
+            }
+          }
+        },
+        "amendments": {
+          "type": "object",
+          "description": "Section: 改正履歴",
+          "properties": {
+            "entries": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "effective_date": { "type": "string", "format": "date" },
+                  "law_no": { "type": "string" },
+                  "summary": { "type": "string" }
+                }
+              }
+            }
+          }
+        },
+        "notes": {
+          "type": "string",
+          "description": "Section: 注記。学説・実務上の補足コメント(出典付き)"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

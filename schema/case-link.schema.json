@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/case-link.schema.json",
+  "title": "JuriCode-JP Case Link",
+  "description": "Single case law entry linked to an article. Version 0.1 (draft).",
+  "type": "object",
+  "required": [
+    "case_id",
+    "court",
+    "decision_date",
+    "citation",
+    "case_name_ja",
+    "url",
+    "relevance"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "description": "判例ID。最高裁: scj-YYYY-MM-DD-[citation-shortcode], 高裁: hcj-..., 地裁: dcj-...",
+      "pattern": "^(scj|hcj|dcj|fcj|smc)-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$"
+    },
+    "court": {
+      "type": "string",
+      "description": "裁判所(日本語、正式名称)"
+    },
+    "court_en": {
+      "type": "string",
+      "description": "裁判所(英語)"
+    },
+    "decision_date": {
+      "type": "string",
+      "format": "date",
+      "description": "判決(決定)の日 (YYYY-MM-DD)"
+    },
+    "citation": {
+      "type": "string",
+      "description": "判例集等の掲載情報。例: '刑集23巻12号1573頁'"
+    },
+    "case_name_ja": {
+      "type": "string",
+      "description": "判例の通称・要点(日本語)"
+    },
+    "case_name_en": {
+      "type": "string",
+      "description": "判例の通称・要点(英語、可能なら)"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "裁判所Webサイト等のpermalink URL"
+    },
+    "relevance": {
+      "type": "string",
+      "enum": ["high", "medium", "low"],
+      "description": "該当条文への関連度"
+    },
+    "relevant_paragraph": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "この判例が関連する項番号(任意)"
+    },
+    "summary_ja": {
+      "type": "string",
+      "description": "判旨の要約(日本語、引用範囲)"
+    },
+    "summary_en": {
+      "type": "string",
+      "description": "判旨の要約(英語)"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}
