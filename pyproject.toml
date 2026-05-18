@@ -1,0 +1,133 @@
+# JuriCode-JP — monorepo level pyproject.toml
+#
+# This is the **monorepo-level** project file. Individual tool packages
+# (`tools/shared/`, `tools/validate/`, etc.) each have their own pyproject.toml
+# with their own dependencies and tests.
+#
+# This file provides:
+#   - One-command dev environment setup for contributors
+#       (`pip install -e ".[dev]"`)
+#   - Centralized lint/format/test configuration (ruff, pytest)
+#   - Stable entry point for pre-commit hooks and CI
+#
+# See:
+#   - tools/shared/pyproject.toml      — IR Pydantic package
+#   - tools/validate/pyproject.toml    — Validation CLI package (planned)
+#   - tools/fetch-egov/pyproject.toml  — e-Gov API client (planned)
+
+[project]
+name = "juricode-jp"
+version = "0.1.0"
+description = "JuriCode-JP monorepo: AI/LLM-ready Japanese legal data infrastructure"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+authors = [
+    { name = "CHOKAI Co.,Ltd.", email = "sato@chokaijp.com" },
+]
+keywords = ["legal", "japan", "ai", "llm", "open-source", "legaltech"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Legal Industry",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Japanese",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Markup",
+]
+
+# Top-level package is empty on purpose — actual code lives in tools/*/src/
+dependencies = []
+
+[project.optional-dependencies]
+# Pull in every workspace package via editable installs.
+# Contributors run `pip install -e ".[dev]"` to get the full toolchain.
+dev = [
+    # Workspace packages (editable installs handled outside pyproject for now)
+    "pydantic>=2.7.0",
+    "pyyaml>=6.0",
+    # Dev tooling
+    "pytest>=8.0.0",
+    "ruff>=0.4.0",
+    "pre-commit>=3.0.0",
+    # JSON Schema validation (used by tools/validate and external consumers)
+    "jsonschema>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/JuriCode-JP/JuriCode-JP"
+Documentation = "https://github.com/JuriCode-JP/JuriCode-JP/tree/main/docs"
+Issues = "https://github.com/JuriCode-JP/JuriCode-JP/issues"
+
+# --- Build / setuptools ---
+# This monorepo root is intentionally not a "real" buildable package.
+# Individual sub-packages handle their own builds.
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+# Tell setuptools we don't have any installable code at the root.
+packages = []
+include-package-data = false
+
+# --- pytest (monorepo-wide test discovery) ---
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = [
+    "tools/shared/tests",
+    "tools/validate/tests",
+]
+pythonpath = [
+    "tools/shared/src",
+    "tools/validate",
+]
+# Don't auto-collect __pycache__ files left in mounted dirs
+addopts = "--strict-markers"
+filterwarnings = [
+    # Pydantic / cryptography emit deprecation warnings on Python 3.10
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+
+# --- ruff (lint + format) ---
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = [
+    "awards",      # internal working drafts, not shipped
+    "business",    # internal advisor materials (.gitignored)
+    ".git",
+    "__pycache__",
+    "*.egg-info",
+]
+
+[tool.ruff.lint]
+# Conservative set: stylistic + obvious bugs, no opinionated rules
+select = [
+    "E",      # pycodestyle errors
+    "W",      # pycodestyle warnings
+    "F",      # pyflakes
+    "I",      # isort (import sorting)
+    "UP",     # pyupgrade
+    "B",      # flake8-bugbear (likely bugs)
+    "RUF",    # ruff-specific suggestions
+]
+ignore = [
+    "E501",   # line too long (handled by formatter)
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests can use longer descriptive names and assert without typing strictness
+"**/tests/**" = ["B", "RUF"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"

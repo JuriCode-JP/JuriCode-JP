@@ -1,0 +1,60 @@
+# JuriCode-JP — pre-commit hooks
+#
+# Local install (one-time):
+#   pip install pre-commit
+#   pre-commit install
+#
+# Manual run on all files:
+#   pre-commit run --all-files
+#
+# CI runs the same hooks via .github/workflows/.
+
+repos:
+  # --- Basic hygiene ---
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: ^awards/|^business/
+      - id: end-of-file-fixer
+        exclude: ^awards/|^business/
+      - id: check-yaml
+        exclude: ^awards/
+      - id: check-json
+      - id: check-toml
+      - id: check-merge-conflict
+      - id: check-added-large-files
+        args: [--maxkb=2048]
+      - id: mixed-line-ending
+        args: [--fix=lf]
+
+  # --- Python: ruff (lint + format) ---
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.9
+    hooks:
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+      - id: ruff-format
+
+  # --- JuriCode-JP custom: validate law data files ---
+  - repo: local
+    hooks:
+      - id: juricode-validate
+        name: JuriCode-JP — validate law data files
+        entry: python tools/validate/validate-all.py
+        language: system
+        pass_filenames: false
+        # Run when any .md file under data/ or examples/ changes,
+        # or when the schema/validator/IR changes.
+        files: ^(data|examples|tools/shared/src|tools/validate)/.*\.(md|py)$
+        stages: [pre-commit]
+        require_serial: true
+
+      - id: juricode-pytest
+        name: JuriCode-JP — pytest (tools/shared + tools/validate)
+        entry: python -m pytest tools/shared/tests tools/validate/tests -q
+        language: system
+        pass_filenames: false
+        files: ^(tools/shared|tools/validate)/.*\.py$
+        stages: [pre-commit]
+        require_serial: true

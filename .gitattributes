@@ -1,0 +1,60 @@
+# JuriCode-JP — Git attributes
+#
+# 目的:
+#   - Windows / macOS / Linux 間で改行コードを統一する (LF)
+#   - 自動生成される JSON Schema (schema/juricode-article.schema.json) が
+#     CI の drift 検査で誤検知されないようにする
+#   - 法令本文 (Markdown) が改行差異で diff 汚染されるのを防ぐ
+#
+# 既存のリポジトリに後から追加する場合、初回 commit 後に再正規化が必要:
+#   git add --renormalize .
+#   git commit -m "chore: normalize line endings to LF"
+
+# Default: auto-detect text vs binary, force LF for text
+* text=auto eol=lf
+
+# Explicit text files - always LF
+*.md         text eol=lf
+*.txt        text eol=lf
+*.py         text eol=lf
+*.json       text eol=lf
+*.yaml       text eol=lf
+*.yml        text eol=lf
+*.toml       text eol=lf
+*.cfg        text eol=lf
+*.ini        text eol=lf
+*.sh         text eol=lf eol=lf
+*.html       text eol=lf
+*.css        text eol=lf
+*.js         text eol=lf
+*.xml        text eol=lf
+LICENSE      text eol=lf
+README*      text eol=lf
+CLAUDE.md    text eol=lf
+Makefile     text eol=lf
+
+# Binary - never touch
+*.pdf        binary
+*.docx       binary
+*.xlsx       binary
+*.pptx       binary
+*.png        binary
+*.jpg        binary
+*.jpeg       binary
+*.gif        binary
+*.ico        binary
+*.zip        binary
+*.tar        binary
+*.gz         binary
+*.woff       binary
+*.woff2      binary
+*.ttf        binary
+*.otf        binary
+
+# GitHub linguist hints (statistics on language detection)
+# Mark generated / vendor / docs to keep language stats focused on Python
+schema/*.json    linguist-generated=true
+*.html           linguist-documentation=true
+docs/*           linguist-documentation=true
+awards/*         linguist-vendored=true
+business/*       linguist-vendored=true

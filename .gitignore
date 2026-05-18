@@ -3,10 +3,18 @@
 # 応募準備・内部メモ(Tokyo Award等)はpublic repoから除外
 awards/
 
+# 内部業務文書(税務・アドバイザー紹介依頼・コードレビュー詳細など機密)
+business/
+
 # ローカルキャッシュ(e-Gov APIダウンロード等)
 tools/**/cache/
 tools/**/downloads/
 tools/**/_local/
+
+# 一時ファイル・テスト副産物
+*.tmp
+pytest-cache-files-*/
+test-write-permission.tmp
 
 # --- Python ---
 __pycache__/
