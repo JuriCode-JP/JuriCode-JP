@@ -1,0 +1,34 @@
+# --- e-Gov API キャッシュ(取得した XML はリポジトリに含めない) ---
+cache/
+*.xml
+*.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --- 仮想環境 ---
+.venv/
+venv/
+env/
+
+# --- テスト・カバレッジ ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- 型・lint ---
+.mypy_cache/
+.ruff_cache/
+
+# --- エディタ ---
+.vscode/
+.idea/
+
+# --- uv ---
+# uv.lock はコミットする(再現可能性のため)
