@@ -49,4 +49,24 @@ jobs:
 
 ## 実装ステータス
 
-**未着手**(2026-05-14時点)。最初のサンプル法令(刑法第36条)の検証目的で早期着手予定。
+**v0.1 実装完了**(2026-05-18)。
+
+- `_validate.py` — 検証ロジック(共通)
+- `validate-file.py` — 単一/複数ファイル検証 CLI
+- `validate-all.py` — `data/` + `examples/` 配下の全条文ファイル一括検証 CLI
+- `tests/test_validate.py` — 8 件のテスト(`pytest tools/validate/tests/ -v`)
+
+### 実装済み検証項目
+
+1. ファイル存在・拡張子(`.md`)
+2. YAML frontmatter のパース可能性
+3. Pydantic IR (`JuriCodeArticle`) によるスキーマ検証(`tools/shared/` 連携)
+4. ファイル名と `article_id` の整合(`{law-abbrev}-article-{N}.md`)
+5. 本文必須セクション(`## 原文`)の存在
+6. 警告レベル: `translation_status != none` のとき `## English Translation` セクション存在確認、`cases` 宣言があるとき `## 判例リンク` セクション存在確認
+
+### 将来追加予定
+
+- `check-case-urls.py` — 判例 URL の生存確認(`--since-days` で差分検出)
+- `verify-source.py` — e-Gov 公式テキストとの原典忠実性検証
+- GitHub Actions 連携(PR 時自動検証)
