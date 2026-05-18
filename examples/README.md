@@ -6,7 +6,8 @@
 
 | ファイル | 法令・条文 | 構造的なポイント |
 |---|---|---|
-| [keihou/keihou-article-36.md](./keihou/keihou-article-36.md) | 刑法 第36条(正当防衛) | 2項構造、有名判例リンク、政府公定訳 |
+| [keihou/keihou-article-36.md](./keihou/keihou-article-36.md) | 刑法 第36条(正当防衛) | 2 項構造、`parent_section`(編・章)、判例リンク 1 件、draft 英訳、改正履歴サンプル |
+| [keiji-soshou-hou/keiji-soshou-hou-article-198.md](./keiji-soshou-hou/keiji-soshou-hou-article-198.md) | 刑事訴訟法 第198条(被疑者の取調) | **5 項構造**、**但書あり(第 1 項・第 5 項)**、Phase 1 警察関連法令の中核条文、判例リンク 1 件、draft 英訳 |
 
 ## サンプルファイルの位置づけ
 

@@ -52,9 +52,10 @@ cases:
       - 急迫性
 amendments: []
 tags:
-  - phase1-police
-  - 正当防衛
-  - 違法性阻却事由
+  - phase1-police     # カテゴリA: フェーズ
+  - 刑事法            # カテゴリB: 法分類 (必須)
+  - 正当防衛          # カテゴリC: 概念
+  - 違法性阻却事由    # カテゴリC: 概念
   - sample
 notes: |
   これはJuriCode-JPの法令データフォーマットを示すサンプルファイルです。

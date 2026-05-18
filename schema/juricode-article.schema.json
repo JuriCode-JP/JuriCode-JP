@@ -1,0 +1,760 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/juricode-article.schema.json",
+  "title": "JuriCode-JP Article (IR-derived canonical schema)",
+  "description": "Auto-generated JSON Schema from Pydantic IR (juricode_shared.ir.JuriCodeArticle). This is the canonical schema for v0.1 onwards. Edit the Pydantic models in tools/shared/src/juricode_shared/ir.py instead of this file. Original IR description: 1 つの条文を表す中間表現. 最上位エンティティ.",
+  "$defs": {
+    "Amendment": {
+      "additionalProperties": false,
+      "description": "この条文の改正履歴 (1 件).",
+      "properties": {
+        "effective_date": {
+          "description": "改正の施行日",
+          "format": "date",
+          "title": "Effective Date",
+          "type": "string"
+        },
+        "law_num": {
+          "description": "改正法の法令番号",
+          "title": "Law Num",
+          "type": "string"
+        },
+        "law_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "改正法の名称",
+          "title": "Law Name"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "改正の概要",
+          "title": "Description"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "改正情報の出典 URL",
+          "title": "Source Url"
+        }
+      },
+      "required": [
+        "effective_date",
+        "law_num"
+      ],
+      "title": "Amendment",
+      "type": "object"
+    },
+    "CaseReference": {
+      "additionalProperties": false,
+      "description": "判例リンク.",
+      "properties": {
+        "case_id": {
+          "description": "判例の一意 ID",
+          "pattern": "^[a-z][a-z0-9-]{2,9}-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$",
+          "title": "Case Id",
+          "type": "string"
+        },
+        "court": {
+          "description": "裁判所 (日本語)",
+          "title": "Court",
+          "type": "string"
+        },
+        "court_en": {
+          "description": "裁判所 (英語)",
+          "title": "Court En",
+          "type": "string"
+        },
+        "decision_date": {
+          "description": "判決日",
+          "format": "date",
+          "title": "Decision Date",
+          "type": "string"
+        },
+        "citation": {
+          "description": "掲載誌・巻号",
+          "title": "Citation",
+          "type": "string"
+        },
+        "case_name_ja": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "事件名 (日本語)",
+          "title": "Case Name Ja"
+        },
+        "case_name_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "事件名 (英語)",
+          "title": "Case Name En"
+        },
+        "url": {
+          "description": "裁判所 Web の permalink",
+          "title": "Url",
+          "type": "string"
+        },
+        "relevance": {
+          "$ref": "#/$defs/Relevance",
+          "description": "この条文との関連度"
+        },
+        "relevant_paragraph": {
+          "anyOf": [
+            {
+              "minimum": 1,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "関連する項番号 (任意)",
+          "title": "Relevant Paragraph"
+        },
+        "summary_ja": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "判例要旨 (日本語)",
+          "title": "Summary Ja"
+        },
+        "summary_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "判例要旨 (英語)",
+          "title": "Summary En"
+        },
+        "tags": {
+          "description": "判例タグ (任意)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Tags",
+          "type": "array"
+        }
+      },
+      "required": [
+        "case_id",
+        "court",
+        "court_en",
+        "decision_date",
+        "citation",
+        "url",
+        "relevance"
+      ],
+      "title": "CaseReference",
+      "type": "object"
+    },
+    "EnglishItem": {
+      "additionalProperties": false,
+      "description": "英訳の号.",
+      "properties": {
+        "number": {
+          "minimum": 1,
+          "title": "Number",
+          "type": "integer"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "number",
+        "text"
+      ],
+      "title": "EnglishItem",
+      "type": "object"
+    },
+    "EnglishParagraph": {
+      "additionalProperties": false,
+      "description": "英訳の項.",
+      "properties": {
+        "number": {
+          "minimum": 1,
+          "title": "Number",
+          "type": "integer"
+        },
+        "text": {
+          "title": "Text",
+          "type": "string"
+        },
+        "items": {
+          "items": {
+            "$ref": "#/$defs/EnglishItem"
+          },
+          "title": "Items",
+          "type": "array"
+        }
+      },
+      "required": [
+        "number",
+        "text"
+      ],
+      "title": "EnglishParagraph",
+      "type": "object"
+    },
+    "EnglishTranslation": {
+      "additionalProperties": false,
+      "description": "英訳本文.",
+      "properties": {
+        "paragraphs": {
+          "description": "項単位の英訳",
+          "items": {
+            "$ref": "#/$defs/EnglishParagraph"
+          },
+          "title": "Paragraphs",
+          "type": "array"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "英訳の出典",
+          "title": "Source"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "出典 URL",
+          "title": "Source Url"
+        }
+      },
+      "required": [
+        "paragraphs"
+      ],
+      "title": "EnglishTranslation",
+      "type": "object"
+    },
+    "Item": {
+      "additionalProperties": false,
+      "description": "号 (項内の列挙).",
+      "properties": {
+        "number": {
+          "description": "号番号 (1 始まり)",
+          "minimum": 1,
+          "title": "Number",
+          "type": "integer"
+        },
+        "text": {
+          "default": "",
+          "description": "号の本文 (frontmatter では空、body から埋める)",
+          "title": "Text",
+          "type": "string"
+        }
+      },
+      "required": [
+        "number"
+      ],
+      "title": "Item",
+      "type": "object"
+    },
+    "Paragraph": {
+      "additionalProperties": false,
+      "description": "項.",
+      "properties": {
+        "number": {
+          "description": "項番号 (1 始まり)",
+          "minimum": 1,
+          "title": "Number",
+          "type": "integer"
+        },
+        "text": {
+          "default": "",
+          "description": "項の本文 (frontmatter では空、body から埋める)",
+          "title": "Text",
+          "type": "string"
+        },
+        "has_proviso": {
+          "default": false,
+          "description": "但書を含むか",
+          "title": "Has Proviso",
+          "type": "boolean"
+        },
+        "has_items": {
+          "default": false,
+          "description": "各号 (列挙) を含むか",
+          "title": "Has Items",
+          "type": "boolean"
+        },
+        "is_added_by_amendment": {
+          "default": false,
+          "description": "改正で追加された項か",
+          "title": "Is Added By Amendment",
+          "type": "boolean"
+        },
+        "items": {
+          "description": "号 (列挙) があれば一覧",
+          "items": {
+            "$ref": "#/$defs/Item"
+          },
+          "title": "Items",
+          "type": "array"
+        }
+      },
+      "required": [
+        "number"
+      ],
+      "title": "Paragraph",
+      "type": "object"
+    },
+    "ParentSection": {
+      "additionalProperties": false,
+      "description": "親階層 (編・章・節・款・目).",
+      "properties": {
+        "hen": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "編番号",
+          "title": "Hen"
+        },
+        "hen_name_ja": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "編名 (日本語)",
+          "title": "Hen Name Ja"
+        },
+        "hen_name_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "編名 (英語)",
+          "title": "Hen Name En"
+        },
+        "shou": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "章番号",
+          "title": "Shou"
+        },
+        "shou_name_ja": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "章名 (日本語)",
+          "title": "Shou Name Ja"
+        },
+        "shou_name_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "章名 (英語)",
+          "title": "Shou Name En"
+        },
+        "setsu": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "節番号",
+          "title": "Setsu"
+        },
+        "setsu_name_ja": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "節名 (日本語)",
+          "title": "Setsu Name Ja"
+        },
+        "setsu_name_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "節名 (英語)",
+          "title": "Setsu Name En"
+        },
+        "kan": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "款番号",
+          "title": "Kan"
+        },
+        "kan_name_ja": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "款名 (日本語)",
+          "title": "Kan Name Ja"
+        },
+        "kan_name_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "款名 (英語)",
+          "title": "Kan Name En"
+        },
+        "moku": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "目番号",
+          "title": "Moku"
+        },
+        "moku_name_ja": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "目名 (日本語)",
+          "title": "Moku Name Ja"
+        },
+        "moku_name_en": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "目名 (英語)",
+          "title": "Moku Name En"
+        }
+      },
+      "title": "ParentSection",
+      "type": "object"
+    },
+    "Relevance": {
+      "description": "判例と条文の関連度.",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "title": "Relevance",
+      "type": "string"
+    },
+    "TranslationStatus": {
+      "description": "英訳の出所.",
+      "enum": [
+        "official",
+        "community",
+        "draft",
+        "none"
+      ],
+      "title": "TranslationStatus",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "law_id": {
+      "description": "e-Gov 法令ID",
+      "title": "Law Id",
+      "type": "string"
+    },
+    "law_name_ja": {
+      "description": "法令名 (日本語)",
+      "title": "Law Name Ja",
+      "type": "string"
+    },
+    "law_name_en": {
+      "description": "法令名 (英語)",
+      "title": "Law Name En",
+      "type": "string"
+    },
+    "article_number": {
+      "description": "条番号",
+      "pattern": "^[0-9]+(-[0-9]+)*$",
+      "title": "Article Number",
+      "type": "string"
+    },
+    "article_id": {
+      "description": "条文 ID",
+      "pattern": "^[a-z][a-z0-9-]*-art-[0-9]+(-[0-9]+)*$",
+      "title": "Article Id",
+      "type": "string"
+    },
+    "version_date": {
+      "description": "現行条文の施行日",
+      "format": "date",
+      "title": "Version Date",
+      "type": "string"
+    },
+    "article_caption": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "条見出し",
+      "title": "Article Caption"
+    },
+    "article_title": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "条のタイトル",
+      "title": "Article Title"
+    },
+    "parent_section": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/ParentSection"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "編・章・節の親階層"
+    },
+    "paragraphs": {
+      "items": {
+        "$ref": "#/$defs/Paragraph"
+      },
+      "title": "Paragraphs",
+      "type": "array"
+    },
+    "translation_status": {
+      "$ref": "#/$defs/TranslationStatus",
+      "description": "英訳の出所"
+    },
+    "machine_translated": {
+      "default": false,
+      "title": "Machine Translated",
+      "type": "boolean"
+    },
+    "english_translation": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/EnglishTranslation"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "cases": {
+      "items": {
+        "$ref": "#/$defs/CaseReference"
+      },
+      "title": "Cases",
+      "type": "array"
+    },
+    "amendments": {
+      "items": {
+        "$ref": "#/$defs/Amendment"
+      },
+      "title": "Amendments",
+      "type": "array"
+    },
+    "source_url": {
+      "description": "e-Gov 法令API の参照 URL",
+      "title": "Source Url",
+      "type": "string"
+    },
+    "source_format": {
+      "default": "e-gov-xml",
+      "enum": [
+        "e-gov-xml",
+        "e-gov-html",
+        "manual",
+        "import-lawtext"
+      ],
+      "title": "Source Format",
+      "type": "string"
+    },
+    "last_verified": {
+      "description": "原典との突合日",
+      "format": "date",
+      "title": "Last Verified",
+      "type": "string"
+    },
+    "license": {
+      "default": "MIT",
+      "title": "License",
+      "type": "string"
+    },
+    "tags": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "notes": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Notes"
+    }
+  },
+  "required": [
+    "law_id",
+    "law_name_ja",
+    "law_name_en",
+    "article_number",
+    "article_id",
+    "version_date",
+    "translation_status",
+    "source_url",
+    "last_verified"
+  ],
+  "type": "object"
+}
