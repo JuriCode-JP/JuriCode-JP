@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>lawqa_jp 統合設計ノート</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", system-ui, sans-serif; background: #fdfdfd; color: #1a202c; line-height: 1.75; margin: 0 auto; padding: 32px 24px 80px; max-width: 1040px; font-size: 14.5px; }
+h1 { font-size: 2em; color: #0369a1; border-bottom: 3px solid #0369a1; padding-bottom: 12px; margin: 0 0 6px; }
+h1 .subtitle { display: block; font-size: 0.55em; color: #718096; margin-top: 8px; font-weight: normal; }
+h2 { font-size: 1.45em; margin: 48px 0 18px; padding: 10px 16px; background: linear-gradient(to right, #dbeafe, transparent 70%); border-left: 5px solid #0369a1; border-radius: 0 6px 6px 0; }
+h3 { font-size: 1.15em; color: #0369a1; margin: 28px 0 10px; padding-bottom: 4px; border-bottom: 1px dashed #e2e8f0; }
+h4 { font-size: 1em; margin: 18px 0 8px; }
+code { font-family: "Consolas", "Monaco", monospace; font-size: 0.85em; background: #f1f5f9; color: #0369a1; padding: 1px 6px; border-radius: 3px; }
+pre { background: #1e293b; color: #e2e8f0; padding: 16px 20px; border-radius: 8px; overflow-x: auto; margin: 14px 0; font-family: "Consolas", "Monaco", monospace; font-size: 0.82em; line-height: 1.6; }
+pre code { background: transparent; color: inherit; padding: 0; }
+table { width: 100%; border-collapse: collapse; margin: 14px 0; background: white; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; font-size: 0.92em; }
+th, td { padding: 9px 14px; text-align: left; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+th { background: #f3f4f6; font-weight: 700; font-size: 0.88em; }
+tr:last-child td { border-bottom: none; }
+.meta-card { background: #dbeafe; border: 1px solid #93c5fd; border-radius: 8px; padding: 16px 20px; margin: 16px 0 28px; }
+.info-banner { background: #eff6ff; border-left: 4px solid #0369a1; border-radius: 0 6px 6px 0; padding: 12px 18px; margin: 14px 0; font-size: 0.92em; }
+.good-banner { background: #ecfdf5; border-left: 4px solid #059669; border-radius: 0 6px 6px 0; padding: 12px 18px; margin: 14px 0; font-size: 0.92em; }
+.warn-banner { background: #fef3c7; border-left: 4px solid #d97706; border-radius: 0 6px 6px 0; padding: 12px 18px; margin: 14px 0; font-size: 0.92em; }
+ul, ol { padding-left: 26px; } li { margin: 5px 0; }
+a { color: #0369a1; text-decoration: none; } a:hover { text-decoration: underline; }
+.footer { margin-top: 60px; padding: 20px; border-top: 1px solid #e2e8f0; color: #718096; font-size: 0.85em; text-align: center; }
+@media print { body { padding: 0; font-size: 10.5pt; } pre { background: #f1f5f9 !important; color: #1a202c !important; } pre code { color: #1a202c !important; } }
+</style>
+</head>
+<body>
+
+<h1>lawqa_jp 統合設計ノート
+<span class="subtitle">v0.1 / 2026-05-18 / デジタル庁公開 QA データセットを JuriCode-JP の検証ベンチマークとして取り込む</span></h1>
+
+<div class="meta-card">
+<strong>位置づけ</strong>: デジタル庁公開 QA データセット <code>lawqa_jp</code>(2025-10 公開)を JuriCode-JP の検証ベンチマークとして取り込む設計。<br>
+関連: <a href="architecture.html">architecture.html §7 テスト戦略</a> / <a href="ir-spec.html">ir-spec.html</a> / <a href="tag-vocabulary.html">tag-vocabulary.html</a><br>
+出典: <a href="https://github.com/digital-go-jp/lawqa_jp/" target="_blank">github.com/digital-go-jp/lawqa_jp</a> ★ 265
+</div>
+
+<h2>1. lawqa_jp とは</h2>
+<ul>
+<li><strong>正式名称</strong>: 日本の法令に関する多肢選択式 QA データセット</li>
+<li><strong>公開元</strong>: デジタル庁(<code>digital-go-jp/lawqa_jp</code>)</li>
+<li><strong>公開時期</strong>: 2025 年 10 月</li>
+<li><strong>ライセンス</strong>: 公共データ利用規約(Public Data License v1.0)</li>
+<li><strong>規模</strong>: 12 commits、★ 265、Fork 6</li>
+</ul>
+
+<h3>1.1 想定活用例(公式)</h3>
+<ul>
+<li>法令分野における多肢選択 Q&A システムの学習・評価</li>
+<li><strong>法令文書に対する RAG パイプラインの検証</strong> ← JuriCode-JP の主要用途</li>
+<li>複数 LLM による正解生成・集約手法の研究</li>
+</ul>
+
+<h2>2. データ構成</h2>
+
+<h3>2.1 data/ ディレクトリ</h3>
+<table>
+<thead><tr><th>ファイル</th><th>内容</th></tr></thead>
+<tbody>
+<tr><td><code>law_list.json</code></td><td>設問で参照されている法令の一覧</td></tr>
+<tr><td><code>selection.json</code></td><td><strong>元データ</strong>。各問題のコンテキスト・設問・選択肢・正答を構造化 JSON で</td></tr>
+<tr><td><code>selection.csv</code></td><td>同内容の CSV 版</td></tr>
+<tr><td><code>selection_randomized.json</code></td><td>選択肢 a〜d を 4 通りにランダマイズ(順序依存性評価用)</td></tr>
+<tr><td><code>selection_with_reference_randomized.json</code></td><td>外部法令参照を含む設問のみ + ランダマイズ</td></tr>
+</tbody>
+</table>
+
+<h3>2.2 各エントリの構造</h3>
+<pre><code>{
+  "ファイル名": "金商法_第2章_選択式_関連法令_問題番号57",
+  "回答オーダーマップ番号": "1",
+  "コンテキスト": "## 金融商品取引法\n### 第5条\n#### 第6項\n...",
+  "指示": "<following_context>以下の問題文に対する回答を,選択肢a,b,c,dの中から1つ選んでください.",
+  "問題文": "金融商品取引法第5条第6項により,...",
+  "選択肢": "a ~\nb ~\nc ~\nd ~",
+  "output": "c",
+  "references": ["https://laws.e-gov.go.jp/law/323AC0000000025"]
+}</code></pre>
+
+<h3>2.3 コンテキストの Markdown 構造</h3>
+<pre><code>## 法令名(例: 金融商品取引法)
+### 第N条
+#### 第N項
+##### 第N号</code></pre>
+
+<div class="good-banner">
+これは <strong>JuriCode-JP の格納フォーマットと階層構造が一致</strong>する(完全な相互運用性あり)。
+</div>
+
+<h2>3. JuriCode-JP との接続点</h2>
+
+<h3>3.1 直接マッピング可能なフィールド</h3>
+<table>
+<thead><tr><th>lawqa_jp フィールド</th><th>JuriCode-JP の対応</th></tr></thead>
+<tbody>
+<tr><td><code>references[]</code> の URL</td><td><code>JuriCodeArticle.source_url</code>(完全一致でルックアップ可能)</td></tr>
+<tr><td>コンテキストの <code>## 法令名</code></td><td><code>law_name_ja</code></td></tr>
+<tr><td>コンテキストの <code>### 第N条</code></td><td><code>article_number</code>(漢数字 → 算用数字変換が必要)</td></tr>
+<tr><td>コンテキストの <code>#### 第N項</code></td><td><code>paragraphs[N].number</code></td></tr>
+<tr><td>コンテキストの <code>##### 第N号</code></td><td><code>paragraphs[N].items[M].number</code></td></tr>
+</tbody>
+</table>
+
+<h3>3.2 Phase 1(警察関連法令)の対象</h3>
+<p>lawqa_jp は法分野横断的だが、<code>law_list.json</code> の中に Phase 1 法令(刑法・刑訴法・警察法・警職法)を含む問題があれば、JuriCode-JP の評価データとして直接使える。</p>
+
+<h2>4. 評価フレームワーク設計</h2>
+
+<h3>4.1 評価モード(3 種類)</h3>
+<table>
+<thead><tr><th>モード</th><th>内容</th><th>JuriCode-JP との関係</th></tr></thead>
+<tbody>
+<tr><td><strong>A. 知識テスト</strong></td><td>コンテキストなしで LLM の既存知識を測定</td><td>JuriCode-JP は不使用(LLM 単体評価)</td></tr>
+<tr><td><strong>B. 読解テスト</strong></td><td>コンテキスト(法令本文)あり、設問に回答</td><td><strong>JuriCode-JP のコンテキスト品質を測定</strong></td></tr>
+<tr><td><strong>C. 実務応用テスト</strong></td><td>RAG 検索能力を測定</td><td><strong>JuriCode-JP の検索精度を測定</strong>(最重要)</td></tr>
+</tbody>
+</table>
+
+<h3>4.2 A/B 検証設計(JuriCode-JP の付加価値の実証)</h3>
+<p><strong>JuriCode-JP がデジタル庁源内 Lawsy への上位データ層になる根拠</strong> = 「e-Gov 生 XML 単独」vs 「JuriCode-JP 構造化データ」の精度差を数値で示すこと。</p>
+<table>
+<thead><tr><th>評価ペア</th><th>A 群</th><th>B 群</th><th>期待結果</th></tr></thead>
+<tbody>
+<tr><td><strong>検索精度</strong></td><td>e-Gov XML 全文を embedding</td><td>JuriCode-JP の条文単位 IR</td><td>B が高 Top-K accuracy</td></tr>
+<tr><td><strong>回答精度</strong></td><td>A の検索結果を LLM に渡す</td><td>B の検索結果 + 判例リンクを LLM に渡す</td><td>B が選択肢正答率向上</td></tr>
+<tr><td><strong>引用精度</strong></td><td>A は条文番号の引用が曖昧</td><td>B は <code>article_id</code> で正確に引用</td><td>B が引用検証 100%</td></tr>
+</tbody>
+</table>
+
+<div class="info-banner">
+これを <strong>NLnet Section H</strong> と <strong>Tokyo Award</strong> で「JuriCode-JP が源内 Lawsy への上位互換」のエビデンスとして提示できる。
+</div>
+
+<h2>5. 実装設計</h2>
+
+<h3>5.1 配置場所</h3>
+<pre><code>tools/validate/
+├── src/juricode_validate/
+│   ├── lawqa_loader.py        ← lawqa_jp data/ を読み込む
+│   ├── lawqa_eval.py          ← JuriCode-JP RAG で QA に回答 → 正答率測定
+│   └── ab_compare.py          ← e-Gov XML vs JuriCode-JP の比較
+└── tests/
+    └── test_lawqa_loader.py</code></pre>
+
+<h3>5.2 lawqa_loader.py の設計</h3>
+<pre><code>from pathlib import Path
+from pydantic import BaseModel
+
+class LawqaEntry(BaseModel):
+    """lawqa_jp の 1 問を表す."""
+    file_name: str
+    order_map_no: str
+    context: str
+    instruction: str
+    question: str
+    choices: str
+    answer: str
+    references: list[str]
+
+def load_lawqa(data_dir: Path) -> list[LawqaEntry]:
+    """data/selection.json を読み込む."""
+    ...
+
+def filter_by_law_ids(
+    entries: list[LawqaEntry],
+    law_ids: list[str],
+) -> list[LawqaEntry]:
+    """references URL から特定法令の問題だけ抽出.
+
+    例: filter_by_law_ids(entries, ["140AC0000000045"]) → 刑法の問題のみ
+    """
+    ...</code></pre>
+
+<h3>5.3 lawqa_eval.py の評価フロー</h3>
+<pre><code>1. lawqa_loader.load_lawqa() で全問題ロード
+2. filter_by_law_ids() で Phase 1 法令の問題に絞る
+3. 各問題について:
+   a. 問題文を JuriCode-JP コーパスで RAG 検索
+   b. Top-K チャンクを LLM(Claude)に渡す
+   c. 多肢選択回答を生成
+   d. lawqa_jp の output と比較
+4. 集計:
+   - 正答率(accuracy)
+   - 引用精度(検索結果に references[] の URL が含まれる割合)
+   - Top-K recall(references[] が Top-K に含まれる割合)</code></pre>
+
+<h3>5.4 ab_compare.py の差分比較</h3>
+<pre><code>1. 同じ問題を 2 つの RAG で解かせる:
+   - A 群: e-Gov 生 XML 全文をベクトル化したベースライン
+   - B 群: JuriCode-JP 構造化データ(条文単位 + メタタグ + 判例リンク)
+2. 両群の正答率・引用精度を比較
+3. 差分を JSON でエクスポート → デジタル庁公式 note 用エビデンス</code></pre>
+
+<h2>6. 取り込み時の注意点</h2>
+
+<h3>6.1 ライセンス互換性</h3>
+<table>
+<tbody>
+<tr><td>lawqa_jp のライセンス</td><td>公共データ利用規約 v1.0</td></tr>
+<tr><td>JuriCode-JP のライセンス</td><td>MIT</td></tr>
+<tr><td>互換性</td><td><strong>OK</strong>(公共データは MIT プロジェクトでも利用可、出典明記必須)</td></tr>
+<tr><td>取り込み方法</td><td>lawqa_jp を JuriCode-JP リポに<strong>含めない</strong>、別途 git clone で取得する設計</td></tr>
+</tbody>
+</table>
+
+<h3>6.2 法令番号(law_id)の対応</h3>
+<p><code>references</code> の URL 形式: <code>https://laws.e-gov.go.jp/law/323AC0000000025</code><br>
+→ パスの最終要素が e-Gov 法令 ID。<code>tools/fetch-egov/law_id_map.py</code> の <code>LAW_ID_MAP</code> と突合可能。</p>
+
+<h3>6.3 漢数字変換</h3>
+<p>コンテキストの <code>### 第5条</code> は算用数字、<code>### 第三十六条</code> は漢数字。JuriCode-JP の <code>article_number</code> は算用数字統一(<code>"36"</code>)なので、<code>tools/transform/normalize_article_number()</code> で正規化してから突合。</p>
+
+<h3>6.4 機械的に弱い箇所</h3>
+<ul>
+<li><code>選択肢</code> フィールドが改行区切り文字列 → パースが必要</li>
+<li><code>回答オーダーマップ番号</code> の意味は要確認(randomized 版との対応?)</li>
+<li><code>指示</code> フィールドは <code>&lt;following_context&gt;</code> 等の特殊トークン含む → 解析時に除外</li>
+</ul>
+
+<h2>7. 実装スケジュール</h2>
+
+<table>
+<thead><tr><th>時期</th><th>アクション</th></tr></thead>
+<tbody>
+<tr><td>2026-08 中旬</td><td>lawqa_jp リポを clone、<code>law_list.json</code> を確認して Phase 1 法令の問題数を把握</td></tr>
+<tr><td>2026-09 上旬</td><td><code>tools/validate/lawqa_loader.py</code> 実装 + テスト</td></tr>
+<tr><td>2026-09 下旬</td><td><code>tools/validate/lawqa_eval.py</code> 実装、Claude API 経由で初回評価</td></tr>
+<tr><td>2026-10 中旬</td><td><code>ab_compare.py</code> 実装、e-Gov XML vs JuriCode-JP の A/B 検証エビデンス取得</td></tr>
+<tr><td>2026-11 上旬</td><td>デジタル庁公式 note への投稿準備、Phase 1 MVP リリースと同時に発信</td></tr>
+</tbody>
+</table>
+
+<h3>7.1 早期着手のオプション(NLnet 提出前、5/19-27)</h3>
+<div class="warn-banner">
+<strong>5/19-22 中</strong>: lawqa_jp リポを <code>git clone</code> してデータ確認 → Phase 1 法令の問題数だけでも把握。<br>
+<strong>NLnet draft Section B/H に追記</strong>: 「Validation will use lawqa_jp(Digital Agency Oct 2025 release)— first benchmark dataset designed specifically for Japanese law RAG. We will publish A/B comparison results (e-Gov raw vs JuriCode-JP) post-MVP.」
+</div>
+
+<h2>8. 戦略的含意</h2>
+
+<h3>8.1 「デジタル庁の正解データで評価」という強さ</h3>
+<p>JuriCode-JP の品質を <strong>第三者作成のベンチマークで客観的に評価できる</strong>こと自体が、grant 応募ナラティブで強力。</p>
+<table>
+<thead><tr><th>文脈</th><th>訴求点</th></tr></thead>
+<tbody>
+<tr><td>NLnet</td><td>「Evaluation against Digital Agency's official QA benchmark, not our own metrics」</td></tr>
+<tr><td>Tokyo Award</td><td>「都の課題解決に資する AI 基盤の精度を、国の公式データセットで検証」</td></tr>
+<tr><td>デジタル庁 note</td><td>「同じデジタル庁の lawqa_jp でテスト → JuriCode-JP のデータ層が源内 Lawsy 互換」</td></tr>
+</tbody>
+</table>
+
+<h3>8.2 既存プロジェクトとの差別化エビデンス</h3>
+<table>
+<thead><tr><th>プロジェクト</th><th>lawqa_jp での評価可能性</th></tr></thead>
+<tbody>
+<tr><td>gitlaw-jp(aluqas)</td><td>条文構造化なし、RAG 評価不可</td></tr>
+<tr><td>Lawtext(yamachig)</td><td>プレーンテキスト、RAG 評価可能だがメタタグなし</td></tr>
+<tr><td>ja-law-parser(takuyaa)</td><td>パーサのみ、RAG パイプライン不在</td></tr>
+<tr><td>e-Gov MCP(ryoooo)</td><td>リアルタイム取得、ベンチマーク評価には不向き</td></tr>
+<tr><td><strong>JuriCode-JP</strong></td><td><strong>lawqa_jp で end-to-end 評価可能、A/B 検証エビデンス取得可能</strong></td></tr>
+</tbody>
+</table>
+
+<h2>9. 出典</h2>
+<ul>
+<li><a href="https://github.com/digital-go-jp/lawqa_jp" target="_blank">GitHub: digital-go-jp/lawqa_jp</a></li>
+<li><a href="https://www.digital.go.jp/news/382c3937-f43c-4452-ae27-2ea7bb66ec75" target="_blank">デジタル庁: 政府等が保有するデータの AI 学習データへの変換に係る調査研究</a></li>
+<li><a href="https://www.anlp.jp/proceedings/annual_meeting/2025/pdf_dir/Q6-3.pdf" target="_blank">植松幸生・大杉直也, 複数の LLM を用いた法令 QA タスクの Ground Truth Curation, NLP2025</a></li>
+<li><a href="https://digital-gov.note.jp/n/n6395fb0ad874" target="_blank">デジタル庁公式 note</a></li>
+<li><a href="https://zenn.dev/aidemy/articles/8878361e861b99" target="_blank">Zenn: lawqa_jp で RAG 性能評価フレームワーク</a></li>
+</ul>
+
+<div class="footer">
+<p>JuriCode-JP / 株式会社 CHOKAI / 最終更新 2026-05-18</p>
+<p>関連: <a href="architecture.html">architecture.html</a> / <a href="ir-spec.html">ir-spec.html</a> / <a href="format-spec.html">format-spec.html</a> / <a href="tag-vocabulary.html">tag-vocabulary.html</a></p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JuriCode IR(中間表現)仕様</title>
+<style>
+  * { box-sizing: border-box; }
+  :root {
+    --bg: #fdfdfd;
+    --card: #ffffff;
+    --text: #1a202c;
+    --text-dim: #4a5568;
+    --text-muted: #718096;
+    --border: #e2e8f0;
+    --border-strong: #cbd5e0;
+    --primary: #1e40af;
+    --primary-light: #dbeafe;
+    --code-bg: #1e293b;
+    --code-fg: #e2e8f0;
+    --code-keyword: #f472b6;
+    --code-string: #86efac;
+    --code-number: #fde68a;
+    --code-comment: #94a3b8;
+    --code-class: #fde68a;
+    --code-decorator: #c4b5fd;
+    --good: #059669;
+    --good-bg: #ecfdf5;
+    --warn: #d97706;
+    --warn-bg: #fef3c7;
+    --accent: #7c3aed;
+    --info: #0369a1;
+    --info-bg: #eff6ff;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    margin: 0;
+    padding: 32px 24px 80px;
+    max-width: 1040px;
+    margin: 0 auto;
+    font-size: 14.5px;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0 0 6px;
+    color: var(--accent);
+    letter-spacing: -0.01em;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 12px;
+  }
+  h1 .subtitle {
+    display: block;
+    font-size: 0.55em;
+    font-weight: normal;
+    color: var(--text-muted);
+    margin-top: 8px;
+    letter-spacing: 0;
+  }
+  h2 {
+    font-size: 1.45em;
+    color: var(--text);
+    margin: 48px 0 18px;
+    padding: 10px 16px;
+    background: linear-gradient(to right, #ede9fe, transparent 70%);
+    border-left: 5px solid var(--accent);
+    border-radius: 0 6px 6px 0;
+  }
+  h3 {
+    font-size: 1.15em;
+    margin: 28px 0 10px;
+    color: var(--accent);
+    padding-bottom: 4px;
+    border-bottom: 1px dashed var(--border);
+  }
+  h4 {
+    font-size: 1.0em;
+    margin: 18px 0 8px;
+    color: var(--text);
+  }
+  p { margin: 10px 0; }
+  ul, ol { margin: 10px 0; padding-left: 26px; }
+  li { margin: 5px 0; }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 36px 0;
+  }
+  code {
+    font-family: "Consolas", "Monaco", "Menlo", monospace;
+    font-size: 0.85em;
+    background: #f1f5f9;
+    color: var(--accent);
+    padding: 1px 6px;
+    border-radius: 3px;
+  }
+  pre {
+    background: var(--code-bg);
+    color: var(--code-fg);
+    padding: 16px 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 14px 0;
+    font-family: "Consolas", "Monaco", "Menlo", monospace;
+    font-size: 0.82em;
+    line-height: 1.6;
+  }
+  pre code {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    font-size: inherit;
+  }
+  pre.tree {
+    background: #f8fafc;
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+    font-size: 0.82em;
+  }
+  pre.diagram {
+    background: #f8fafc;
+    color: var(--text);
+    border: 1px solid var(--border);
+    font-size: 0.78em;
+    line-height: 1.4;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    background: var(--card);
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    font-size: 0.92em;
+  }
+  th, td {
+    padding: 9px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    background: #f3f4f6;
+    color: var(--text);
+    font-weight: 700;
+    font-size: 0.88em;
+  }
+  tr:last-child td { border-bottom: none; }
+  .meta-card {
+    background: #ede9fe;
+    border: 1px solid #c4b5fd;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0 28px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 6px 24px;
+    font-size: 0.92em;
+  }
+  .meta-card .item { display: flex; gap: 8px; align-items: baseline; }
+  .meta-card .label {
+    color: var(--text-muted);
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 0.88em;
+  }
+  .meta-card .value { color: var(--text); font-weight: 600; }
+  .toc {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 22px;
+    margin: 0 0 32px;
+  }
+  .toc-title {
+    font-weight: 700;
+    color: var(--text-muted);
+    font-size: 0.85em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .toc ol {
+    columns: 2;
+    column-gap: 30px;
+    margin: 0;
+    padding-left: 22px;
+  }
+  .toc li { break-inside: avoid; font-size: 0.92em; margin: 3px 0; }
+  .toc a { color: var(--accent); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  .info-banner {
+    background: var(--info-bg);
+    border: 1px solid var(--primary-light);
+    border-left: 4px solid var(--info);
+    border-radius: 0 6px 6px 0;
+    padding: 12px 18px;
+    margin: 14px 0;
+    font-size: 0.92em;
+  }
+  .warning-banner {
+    background: var(--warn-bg);
+    border: 1px solid #fcd34d;
+    border-left: 4px solid var(--warn);
+    border-radius: 0 6px 6px 0;
+    padding: 12px 18px;
+    margin: 14px 0;
+    font-size: 0.92em;
+  }
+  .model-box {
+    background: var(--card);
+    border: 1px solid var(--border-strong);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: 16px 0;
+  }
+  .model-box .model-name {
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 1.05em;
+    margin-bottom: 6px;
+    font-family: "Consolas", "Monaco", monospace;
+  }
+  .model-box .model-desc {
+    color: var(--text-dim);
+    font-size: 0.92em;
+    margin-bottom: 10px;
+  }
+  blockquote {
+    margin: 14px 0;
+    padding: 8px 16px;
+    border-left: 4px solid var(--border-strong);
+    color: var(--text-dim);
+    background: #f8fafc;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.92em;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+  .badge {
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 4px;
+    font-size: 0.78em;
+    font-weight: 700;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  .badge-required { background: var(--good); color: white; }
+  .badge-optional { background: var(--text-muted); color: white; }
+  .badge-warn { background: var(--warn); color: white; }
+  .footer {
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.85em;
+    text-align: center;
+  }
+  /* シンタックスハイライト(Python) */
+  .py-kw { color: #f472b6; }
+  .py-str { color: #86efac; }
+  .py-num { color: #fde68a; }
+  .py-cmt { color: #94a3b8; font-style: italic; }
+  .py-cls { color: #fde68a; }
+  .py-dec { color: #c4b5fd; }
+  .py-builtin { color: #67e8f9; }
+  @media print {
+    body { padding: 0; max-width: none; font-size: 10.5pt; }
+    h2 { page-break-after: avoid; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    pre, table, .meta-card, .info-banner, .warning-banner, .model-box { page-break-inside: avoid; }
+    pre { background: #f1f5f9 !important; color: var(--text) !important; border: 1px solid var(--border); }
+    pre code, .py-kw, .py-str, .py-num, .py-cmt, .py-cls, .py-dec, .py-builtin { color: var(--text) !important; }
+    .toc { page-break-after: always; }
+    a { color: var(--text) !important; }
+    .badge { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<h1>
+  JuriCode IR(中間表現)仕様
+  <span class="subtitle">v0.1 / 2026-05-18 初版 / Pydantic ベース構造化データ型</span>
+</h1>
+
+<div class="meta-card">
+  <div class="item"><span class="label">バージョン</span><span class="value">v0.1</span></div>
+  <div class="item"><span class="label">実装場所</span><span class="value"><code>tools/shared/src/juricode_shared/ir.py</code></span></div>
+  <div class="item"><span class="label">関連</span><span class="value"><a href="architecture.html">architecture.html</a> / <a href="format-spec.md">format-spec.md</a></span></div>
+  <div class="item"><span class="label">最終更新</span><span class="value">2026-05-18</span></div>
+</div>
+
+<div class="toc">
+  <div class="toc-title">目次</div>
+  <ol>
+    <li><a href="#sec1">概要</a></li>
+    <li><a href="#sec2">データモデル全体図</a></li>
+    <li><a href="#sec3">各モデルの詳細</a></li>
+    <li><a href="#sec4">ID 規約</a></li>
+    <li><a href="#sec5">検証ルール</a></li>
+    <li><a href="#sec6">シリアライゼーション</a></li>
+    <li><a href="#sec7">利用例</a></li>
+    <li><a href="#sec8">バージョニング</a></li>
+    <li><a href="#sec9">関連</a></li>
+  </ol>
+</div>
+
+<h2 id="sec1">1. 概要</h2>
+
+<p>JuriCode IR は、e-Gov XML(<code>Law</code> ja-law-parser モデル)と最終出力(YAML frontmatter + Markdown)の中間に位置する <strong>Pydantic ベースの構造化データ型</strong>。</p>
+
+<h3>1.1 なぜ IR が必要か</h3>
+<table>
+  <thead><tr><th>要件</th><th>IR がない場合</th><th>IR がある場合</th></tr></thead>
+  <tbody>
+    <tr><td>ステージ間の型安全性</td><td>各ステージで dict や独自型を扱う、型不整合の温床</td><td>Pydantic の型チェックで保証</td></tr>
+    <tr><td>法令単位 vs 条文単位の境界</td><td>各ツールが独自に分割</td><td><code>tools/transform/</code> で 1 回だけ条文単位に分割</td></tr>
+    <tr><td>英訳・判例の付加</td><td>XML を直接いじる or 後付け</td><td>IR の <code>english_translation</code>, <code>cases</code> フィールドに統合</td></tr>
+    <tr><td>テスト容易性</td><td>XML 文字列を作成必要</td><td>Pydantic オブジェクトを直接インスタンス化</td></tr>
+    <tr><td>将来の出力形式拡張</td><td>YAML+MD 専用ロジック</td><td>IR から JSON-LD、Schema.org Legislation 等への変換が可能</td></tr>
+  </tbody>
+</table>
+
+<h3>1.2 IR のスコープ</h3>
+<ul>
+  <li><strong>単位</strong>: 1 つの <code>JuriCodeArticle</code> インスタンス = 1 つの条文(1 ファイルに対応)</li>
+  <li><strong>言語</strong>: 日本語原文 + 英訳(任意)を併記</li>
+  <li><strong>メタデータ</strong>: e-Gov 法令ID、施行日、出典 URL、判例リンク、改正履歴 を含む</li>
+</ul>
+
+<h2 id="sec2">2. データモデル全体図</h2>
+
+<pre class="diagram">JuriCodeArticle
+├── 基本メタデータ(law_id, law_name_ja, law_name_en, article_number, article_id, ...)
+├── 本文構造
+│   ├── article_caption: str | None        # "(正当防衛)"
+│   ├── article_title: str | None          # "第三十六条"
+│   ├── parent_section: ParentSection | None  # 編・章・節情報
+│   └── paragraphs: list[Paragraph]
+│       ├── number: int
+│       ├── text: str                       # 本文
+│       ├── has_proviso: bool
+│       └── items: list[Item]               # 各号
+│           ├── number: int
+│           └── text: str
+├── 翻訳
+│   ├── translation_status: TranslationStatus
+│   ├── machine_translated: bool
+│   └── english_translation: EnglishTranslation | None
+├── 判例リンク
+│   └── cases: list[CaseReference]
+│       ├── case_id, court, decision_date, citation, ...
+│       ├── relevance: Relevance
+│       └── summary_ja, summary_en
+├── 改正履歴
+│   └── amendments: list[Amendment]
+└── その他
+    ├── version_date, source_url, source_format, last_verified
+    ├── license, tags, notes</pre>
+
+<h2 id="sec3">3. 各モデルの詳細</h2>
+
+<div class="model-box">
+  <div class="model-name">JuriCodeArticle</div>
+  <div class="model-desc">最上位エンティティ。1 つの条文 = 1 ファイル。</div>
+</div>
+
+<pre><code><span class="py-kw">from</span> datetime <span class="py-kw">import</span> date
+<span class="py-kw">from</span> pydantic <span class="py-kw">import</span> BaseModel, ConfigDict, Field, field_validator
+<span class="py-kw">from</span> typing <span class="py-kw">import</span> Literal
+
+<span class="py-kw">class</span> <span class="py-cls">JuriCodeArticle</span>(BaseModel):
+    <span class="py-str">"""1 つの条文を表す中間表現."""</span>
+
+    model_config = ConfigDict(extra=<span class="py-str">"forbid"</span>)  <span class="py-cmt"># 不明なフィールドは禁止(IR は厳密)</span>
+
+    <span class="py-cmt"># ---- 基本メタデータ ----</span>
+    law_id: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"e-Gov 法令ID(例: 140AC0000000045)"</span>)
+    law_name_ja: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"法令名(日本語、例: 刑法)"</span>)
+    law_name_en: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"法令名(英語、政府公定訳優先)"</span>)
+    article_number: <span class="py-builtin">str</span> = Field(
+        ...,
+        pattern=<span class="py-str">r"^[0-9]+(-[0-9]+)*$"</span>,
+        description=<span class="py-str">"条番号. 算用数字、枝番ハイフン区切り(例: '36', '36-2')"</span>,
+    )
+    article_id: <span class="py-builtin">str</span> = Field(
+        ...,
+        pattern=<span class="py-str">r"^[a-z][a-z0-9-]*-art-[0-9]+(-[0-9]+)*$"</span>,
+        description=<span class="py-str">"条文の一意 ID(例: 'keihou-art-36', 'keihou-art-36-2')"</span>,
+    )
+    version_date: date = Field(..., description=<span class="py-str">"現行条文の施行日"</span>)
+
+    <span class="py-cmt"># ---- 本文構造 ----</span>
+    article_caption: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"条見出し(例: '(正当防衛)')"</span>)
+    article_title: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"条のタイトル(例: '第三十六条')"</span>)
+    parent_section: <span class="py-str">"ParentSection | None"</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"編・章・節の親階層情報"</span>)
+    paragraphs: <span class="py-builtin">list</span>[<span class="py-str">"Paragraph"</span>] = Field(default_factory=<span class="py-builtin">list</span>, description=<span class="py-str">"項の一覧"</span>)
+
+    <span class="py-cmt"># ---- 翻訳 ----</span>
+    translation_status: <span class="py-str">"TranslationStatus"</span> = Field(..., description=<span class="py-str">"英訳の出所"</span>)
+    machine_translated: <span class="py-builtin">bool</span> = Field(<span class="py-kw">False</span>, description=<span class="py-str">"機械翻訳が含まれているか"</span>)
+    english_translation: <span class="py-str">"EnglishTranslation | None"</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"英訳本文(全体)"</span>)
+
+    <span class="py-cmt"># ---- 判例リンク・改正履歴 ----</span>
+    cases: <span class="py-builtin">list</span>[<span class="py-str">"CaseReference"</span>] = Field(default_factory=<span class="py-builtin">list</span>, description=<span class="py-str">"関連判例の一覧"</span>)
+    amendments: <span class="py-builtin">list</span>[<span class="py-str">"Amendment"</span>] = Field(default_factory=<span class="py-builtin">list</span>, description=<span class="py-str">"改正履歴"</span>)
+
+    <span class="py-cmt"># ---- 出典・メタ ----</span>
+    source_url: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"e-Gov 法令API の参照 URL"</span>)
+    source_format: Literal[<span class="py-str">"e-gov-xml"</span>, <span class="py-str">"manual"</span>, <span class="py-str">"import-lawtext"</span>] = Field(<span class="py-str">"e-gov-xml"</span>)
+    last_verified: date = Field(..., description=<span class="py-str">"原典との突合日"</span>)
+    license: <span class="py-builtin">str</span> = Field(<span class="py-str">"MIT"</span>, description=<span class="py-str">"このファイルのライセンス"</span>)
+
+    <span class="py-cmt"># ---- タグ・注記 ----</span>
+    tags: <span class="py-builtin">list</span>[<span class="py-builtin">str</span>] = Field(default_factory=<span class="py-builtin">list</span>, description=<span class="py-str">"自由なタグ"</span>)
+    notes: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"本文外の補足説明"</span>)
+
+    <span class="py-dec">@field_validator</span>(<span class="py-str">"article_id"</span>)
+    <span class="py-dec">@classmethod</span>
+    <span class="py-kw">def</span> <span class="py-builtin">article_id_matches_number</span>(cls, v: <span class="py-builtin">str</span>, info) -&gt; <span class="py-builtin">str</span>:
+        <span class="py-str">"""article_id と article_number の整合性を検証."""</span>
+        <span class="py-kw">if</span> <span class="py-str">"article_number"</span> <span class="py-kw">in</span> info.data:
+            num = info.data[<span class="py-str">"article_number"</span>]
+            <span class="py-kw">if</span> <span class="py-kw">not</span> v.endswith(<span class="py-str">f"-art-{num}"</span>):
+                <span class="py-kw">raise</span> ValueError(
+                    <span class="py-str">f"article_id ({v}) must end with '-art-{num}'"</span>
+                )
+        <span class="py-kw">return</span> v</code></pre>
+
+<div class="model-box">
+  <div class="model-name">Paragraph(項)</div>
+  <div class="model-desc">条文を構成する項単位。</div>
+</div>
+
+<pre><code><span class="py-kw">class</span> <span class="py-cls">Paragraph</span>(BaseModel):
+    <span class="py-str">"""項."""</span>
+    model_config = ConfigDict(extra=<span class="py-str">"forbid"</span>)
+
+    number: <span class="py-builtin">int</span> = Field(..., ge=<span class="py-num">1</span>, description=<span class="py-str">"項番号(1 始まり)"</span>)
+    text: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"項の本文"</span>)
+    has_proviso: <span class="py-builtin">bool</span> = Field(<span class="py-kw">False</span>, description=<span class="py-str">"但書を含むか"</span>)
+    items: <span class="py-builtin">list</span>[<span class="py-str">"Item"</span>] = Field(default_factory=<span class="py-builtin">list</span>, description=<span class="py-str">"号があれば一覧"</span>)
+
+<span class="py-kw">class</span> <span class="py-cls">Item</span>(BaseModel):
+    <span class="py-str">"""号(項内の列挙)."""</span>
+    model_config = ConfigDict(extra=<span class="py-str">"forbid"</span>)
+    number: <span class="py-builtin">int</span> = Field(..., ge=<span class="py-num">1</span>, description=<span class="py-str">"号番号(1 始まり)"</span>)
+    text: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"号の本文"</span>)</code></pre>
+
+<div class="model-box">
+  <div class="model-name">ParentSection(編・章・節情報)</div>
+  <div class="model-desc">条文が属する親階層構造。</div>
+</div>
+
+<pre><code><span class="py-kw">class</span> <span class="py-cls">ParentSection</span>(BaseModel):
+    <span class="py-str">"""親階層(編・章・節・款・目)."""</span>
+    model_config = ConfigDict(extra=<span class="py-str">"forbid"</span>)
+
+    hen: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"編名(例: '第一編 総則')"</span>)
+    shou: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"章名(例: '第七章 犯罪の不成立及び刑の減免')"</span>)
+    setsu: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"節名"</span>)
+    kan: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"款名"</span>)
+    moku: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"目名"</span>)</code></pre>
+
+<div class="model-box">
+  <div class="model-name">TranslationStatus(列挙)</div>
+  <div class="model-desc">英訳の出所を 4 段階で明示。</div>
+</div>
+
+<pre><code><span class="py-kw">from</span> enum <span class="py-kw">import</span> StrEnum
+
+<span class="py-kw">class</span> <span class="py-cls">TranslationStatus</span>(StrEnum):
+    <span class="py-str">"""英訳の出所."""</span>
+    OFFICIAL = <span class="py-str">"official"</span>      <span class="py-cmt"># 法務省 JLT-DB の公定訳</span>
+    COMMUNITY = <span class="py-str">"community"</span>    <span class="py-cmt"># コミュニティ訳(CC BY 4.0 推奨)</span>
+    DRAFT = <span class="py-str">"draft"</span>            <span class="py-cmt"># 機械翻訳・ドラフト</span>
+    NONE = <span class="py-str">"none"</span>              <span class="py-cmt"># 英訳なし</span></code></pre>
+
+<div class="model-box">
+  <div class="model-name">EnglishTranslation(英訳)</div>
+  <div class="model-desc">条文の英訳。項・号構造を保持。</div>
+</div>
+
+<pre><code><span class="py-kw">class</span> <span class="py-cls">EnglishTranslation</span>(BaseModel):
+    <span class="py-str">"""英訳本文."""</span>
+    model_config = ConfigDict(extra=<span class="py-str">"forbid"</span>)
+
+    paragraphs: <span class="py-builtin">list</span>[<span class="py-str">"EnglishParagraph"</span>] = Field(..., description=<span class="py-str">"項単位の英訳"</span>)
+    source: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"英訳の出典"</span>)
+    source_url: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"出典 URL"</span>)
+
+<span class="py-kw">class</span> <span class="py-cls">EnglishParagraph</span>(BaseModel):
+    model_config = ConfigDict(extra=<span class="py-str">"forbid"</span>)
+    number: <span class="py-builtin">int</span> = Field(..., ge=<span class="py-num">1</span>)
+    text: <span class="py-builtin">str</span>
+    items: <span class="py-builtin">list</span>[<span class="py-str">"EnglishItem"</span>] = Field(default_factory=<span class="py-builtin">list</span>)
+
+<span class="py-kw">class</span> <span class="py-cls">EnglishItem</span>(BaseModel):
+    model_config = ConfigDict(extra=<span class="py-str">"forbid"</span>)
+    number: <span class="py-builtin">int</span> = Field(..., ge=<span class="py-num">1</span>)
+    text: <span class="py-builtin">str</span></code></pre>
+
+<div class="model-box">
+  <div class="model-name">CaseReference(判例リンク)</div>
+  <div class="model-desc">関連する判例 1 件を表す。判例本文は転載せず、リンクと要旨のみ。</div>
+</div>
+
+<pre><code><span class="py-kw">class</span> <span class="py-cls">CaseReference</span>(BaseModel):
+    <span class="py-str">"""判例リンク."""</span>
+    model_config = ConfigDict(extra=<span class="py-str">"forbid"</span>)
+
+    case_id: <span class="py-builtin">str</span> = Field(
+        ...,
+        pattern=<span class="py-str">r"^[a-z]{3,5}-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$"</span>,
+        description=<span class="py-str">"判例の一意 ID. 形式: '{court-abbrev}-{YYYY}-{MM}-{DD}-{citation-slug}'"</span>,
+    )
+    court: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"裁判所(日本語)"</span>)
+    court_en: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"裁判所(英語)"</span>)
+    decision_date: date = Field(..., description=<span class="py-str">"判決日"</span>)
+    citation: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"掲載誌・巻号(例: '刑集23巻12号1573頁')"</span>)
+    case_name_ja: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"事件名(日本語)"</span>)
+    case_name_en: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"事件名(英語)"</span>)
+    url: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"裁判所 Web の permalink"</span>)
+    relevance: <span class="py-str">"Relevance"</span> = Field(..., description=<span class="py-str">"この条文との関連度"</span>)
+    relevant_paragraph: <span class="py-builtin">int</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, ge=<span class="py-num">1</span>, description=<span class="py-str">"関連する項番号"</span>)
+    summary_ja: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"判例要旨(日本語)"</span>)
+    summary_en: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"判例要旨(英語)"</span>)
+
+<span class="py-kw">class</span> <span class="py-cls">Relevance</span>(StrEnum):
+    HIGH = <span class="py-str">"high"</span>
+    MEDIUM = <span class="py-str">"medium"</span>
+    LOW = <span class="py-str">"low"</span></code></pre>
+
+<div class="model-box">
+  <div class="model-name">Amendment(改正履歴)</div>
+  <div class="model-desc">この条文が経た改正 1 件。</div>
+</div>
+
+<pre><code><span class="py-kw">class</span> <span class="py-cls">Amendment</span>(BaseModel):
+    <span class="py-str">"""この条文の改正履歴(1 件)."""</span>
+    model_config = ConfigDict(extra=<span class="py-str">"forbid"</span>)
+
+    effective_date: date = Field(..., description=<span class="py-str">"改正の施行日"</span>)
+    law_num: <span class="py-builtin">str</span> = Field(..., description=<span class="py-str">"改正法の法令番号(例: '令和7年法律第15号')"</span>)
+    law_name: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"改正法の名称"</span>)
+    description: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"改正の概要"</span>)
+    source_url: <span class="py-builtin">str</span> | <span class="py-kw">None</span> = Field(<span class="py-kw">None</span>, description=<span class="py-str">"改正情報の出典 URL"</span>)</code></pre>
+
+<h2 id="sec4">4. ID 規約</h2>
+
+<h3>4.1 <code>article_id</code></h3>
+<p>形式: <code>{law-abbrev}-art-{article_number}</code></p>
+<table>
+  <thead><tr><th>例</th><th>意味</th></tr></thead>
+  <tbody>
+    <tr><td><code>keihou-art-36</code></td><td>刑法 第 36 条</td></tr>
+    <tr><td><code>keihou-art-36-2</code></td><td>刑法 第 36 条の 2</td></tr>
+    <tr><td><code>keiji-soshou-hou-art-203</code></td><td>刑事訴訟法 第 203 条</td></tr>
+    <tr><td><code>kenpou-art-9</code></td><td>日本国憲法 第 9 条</td></tr>
+  </tbody>
+</table>
+<p>検証ロジック: <code>tools/shared/src/juricode_shared/ids.py::make_article_id()</code> で生成、<code>article_number</code> と一致する正規表現でバリデート。</p>
+
+<h3>4.2 <code>case_id</code></h3>
+<p>形式: <code>{court-abbrev}-{YYYY}-{MM}-{DD}-{citation-slug}</code></p>
+<table>
+  <thead><tr><th>例</th><th>意味</th></tr></thead>
+  <tbody>
+    <tr><td><code>scj-1969-12-04-keishu-23-12-1573</code></td><td>最高裁 1969-12-04 / 刑集 23 巻 12 号 1573 頁</td></tr>
+    <tr><td><code>oh-2010-03-25-hanji-2080-65</code></td><td>大阪高裁 2010-03-25 / 判時 2080 号 65 頁</td></tr>
+    <tr><td><code>tdc-2024-01-15-keishu-78-1-12</code></td><td>東京地裁 2024-01-15 / 刑集 78 巻 1 号 12 頁</td></tr>
+  </tbody>
+</table>
+
+<h4>裁判所略号</h4>
+<table>
+  <tbody>
+    <tr><td><code>scj</code></td><td>Supreme Court of Japan(最高裁判所)</td></tr>
+    <tr><td><code>scj-gb</code></td><td>Grand Bench(大法廷)</td></tr>
+    <tr><td><code>scj-pb1</code> / <code>scj-pb2</code> / <code>scj-pb3</code></td><td>第一/二/三小法廷</td></tr>
+    <tr><td><code>oh</code> / <code>nh</code> / <code>th</code> 等</td><td>高等裁判所(大阪・名古屋・東京)</td></tr>
+    <tr><td><code>tdc</code> / <code>odc</code> 等</td><td>地方裁判所(東京・大阪)</td></tr>
+  </tbody>
+</table>
+
+<h4>citation-slug</h4>
+<ul>
+  <li>掲載誌略号 + 巻号(例: <code>keishu-23-12-1573</code>)</li>
+  <li>全部小文字、ハイフン区切り</li>
+  <li>判例集略号は <code>docs/glossary.md §3</code> 参照</li>
+</ul>
+
+<h2 id="sec5">5. 検証ルール</h2>
+
+<h3>5.1 必須フィールド一覧</h3>
+<table>
+  <thead><tr><th>フィールド</th><th>必須</th><th>検証</th></tr></thead>
+  <tbody>
+    <tr><td><code>law_id</code></td><td><span class="badge badge-required">必須</span></td><td>非空、英数 13 桁 or 特例</td></tr>
+    <tr><td><code>law_name_ja</code></td><td><span class="badge badge-required">必須</span></td><td>非空</td></tr>
+    <tr><td><code>law_name_en</code></td><td><span class="badge badge-required">必須</span></td><td>非空</td></tr>
+    <tr><td><code>article_number</code></td><td><span class="badge badge-required">必須</span></td><td><code>^[0-9]+(-[0-9]+)*$</code></td></tr>
+    <tr><td><code>article_id</code></td><td><span class="badge badge-required">必須</span></td><td>パターン一致 + <code>article_number</code> と整合</td></tr>
+    <tr><td><code>version_date</code></td><td><span class="badge badge-required">必須</span></td><td>ISO 8601 date</td></tr>
+    <tr><td><code>source_url</code></td><td><span class="badge badge-required">必須</span></td><td>URL 形式</td></tr>
+    <tr><td><code>last_verified</code></td><td><span class="badge badge-required">必須</span></td><td>ISO 8601、<code>version_date</code> 以降</td></tr>
+    <tr><td><code>translation_status</code></td><td><span class="badge badge-required">必須</span></td><td>TranslationStatus 列挙のいずれか</td></tr>
+    <tr><td><code>paragraphs</code></td><td><span class="badge badge-optional">空 OK</span></td><td>各項の <code>number</code> は 1 始まり連番</td></tr>
+    <tr><td><code>cases</code></td><td><span class="badge badge-optional">空 OK</span></td><td><code>case_id</code> 重複禁止</td></tr>
+    <tr><td><code>amendments</code></td><td><span class="badge badge-optional">空 OK</span></td><td><code>effective_date</code> 昇順推奨</td></tr>
+  </tbody>
+</table>
+
+<h3>5.2 整合性ルール</h3>
+<ul>
+  <li><code>article_id</code> は <code>{law-abbrev}-art-{article_number}</code> のパターンと一致</li>
+  <li><code>last_verified &gt;= version_date</code></li>
+  <li><code>paragraphs</code> の <code>number</code> は 1, 2, 3, ... と連番</li>
+  <li><code>english_translation</code> が存在する場合、<code>translation_status != NONE</code></li>
+  <li><code>machine_translated == True</code> の場合、<code>translation_status</code> は <code>DRAFT</code> 推奨</li>
+  <li><code>cases[].relevant_paragraph</code> がある場合、<code>paragraphs</code> のいずれかの <code>number</code> と一致</li>
+</ul>
+
+<h3>5.3 警告(エラーではないが推奨)</h3>
+<ul>
+  <li><span class="badge badge-warn">警告</span> <code>translation_status == OFFICIAL</code> で <code>english_translation.source</code> が空</li>
+  <li><span class="badge badge-warn">警告</span> <code>cases[].url</code> の生存確認(別ジョブで <code>tools/validate/case_url_check.py</code>)</li>
+  <li><span class="badge badge-warn">警告</span> <code>notes</code> が 500 字超 → 構造化を再検討すべき</li>
+</ul>
+
+<h2 id="sec6">6. シリアライゼーション</h2>
+
+<p>IR は通常 in-memory で扱うが、デバッグ用に JSON シリアライズ可能:</p>
+
+<pre><code>article = JuriCodeArticle(...)
+json_str = article.model_dump_json(indent=<span class="py-num">2</span>, exclude_none=<span class="py-kw">True</span>)
+<span class="py-cmt"># → JSON で保存(`tools/pipeline/--dump-ir` で使用)</span></code></pre>
+
+<h3>6.1 YAML frontmatter とのマッピング</h3>
+<table>
+  <thead><tr><th>IR フィールド</th><th>YAML frontmatter キー</th><th>備考</th></tr></thead>
+  <tbody>
+    <tr><td><code>law_id</code></td><td><code>law_id</code></td><td>そのまま</td></tr>
+    <tr><td><code>law_name_ja</code></td><td><code>law_name_ja</code></td><td>そのまま</td></tr>
+    <tr><td><code>law_name_en</code></td><td><code>law_name_en</code></td><td>そのまま</td></tr>
+    <tr><td><code>article_number</code></td><td><code>article_number</code></td><td>クォート必須(<code>"36"</code>)</td></tr>
+    <tr><td><code>article_id</code></td><td><code>article_id</code></td><td>そのまま</td></tr>
+    <tr><td><code>version_date</code></td><td><code>version_date</code></td><td>ISO 8601</td></tr>
+    <tr><td><code>source_url</code></td><td><code>source_url</code></td><td>そのまま</td></tr>
+    <tr><td><code>last_verified</code></td><td><code>last_verified</code></td><td>ISO 8601</td></tr>
+    <tr><td><code>license</code></td><td><code>license</code></td><td>そのまま</td></tr>
+    <tr><td><code>translation_status</code></td><td><code>translation_status</code></td><td>StrEnum → string</td></tr>
+    <tr><td><code>machine_translated</code></td><td><code>machine_translated</code></td><td>bool</td></tr>
+    <tr><td><code>paragraphs[]</code></td><td><code>paragraphs[]</code></td><td><code>number</code> と <code>has_proviso</code> のみ frontmatter、本文は MD 内</td></tr>
+    <tr><td><code>cases[]</code></td><td><code>cases[]</code></td><td>全部 frontmatter</td></tr>
+    <tr><td><code>amendments[]</code></td><td><code>amendments[]</code></td><td>全部 frontmatter</td></tr>
+    <tr><td><code>tags</code></td><td><code>tags</code></td><td>そのまま</td></tr>
+    <tr><td><code>parent_section</code></td><td><code>parent_section</code></td><td>任意</td></tr>
+  </tbody>
+</table>
+
+<p>本文(Markdown body)に出力されるのは:</p>
+<ul>
+  <li><code>## 原文(日本語)</code> セクション ← <code>paragraphs[].text</code></li>
+  <li><code>## English Translation</code> セクション ← <code>english_translation.paragraphs[].text</code></li>
+  <li><code>## 判例リンク</code> セクション ← <code>cases[]</code> の人間可読版</li>
+  <li><code>## 改正履歴</code> セクション ← <code>amendments[]</code> の人間可読版</li>
+  <li><code>## 注記</code> セクション ← <code>notes</code></li>
+</ul>
+
+<div class="info-banner">
+  詳細は <a href="format-spec.md">format-spec.md</a> を参照。
+</div>
+
+<h2 id="sec7">7. 利用例</h2>
+
+<h3>7.1 刑法 36 条の IR インスタンス例</h3>
+
+<pre><code><span class="py-kw">from</span> datetime <span class="py-kw">import</span> date
+<span class="py-kw">from</span> juricode_shared.ir <span class="py-kw">import</span> (
+    JuriCodeArticle, Paragraph, ParentSection,
+    TranslationStatus, EnglishTranslation, EnglishParagraph,
+    CaseReference, Relevance,
+)
+
+article = JuriCodeArticle(
+    law_id=<span class="py-str">"140AC0000000045"</span>,
+    law_name_ja=<span class="py-str">"刑法"</span>,
+    law_name_en=<span class="py-str">"Penal Code"</span>,
+    article_number=<span class="py-str">"36"</span>,
+    article_id=<span class="py-str">"keihou-art-36"</span>,
+    version_date=date(<span class="py-num">2007</span>, <span class="py-num">6</span>, <span class="py-num">12</span>),
+    article_caption=<span class="py-str">"(正当防衛)"</span>,
+    article_title=<span class="py-str">"第三十六条"</span>,
+    parent_section=ParentSection(
+        hen=<span class="py-str">"第一編 総則"</span>,
+        shou=<span class="py-str">"第七章 犯罪の不成立及び刑の減免"</span>,
+    ),
+    paragraphs=[
+        Paragraph(
+            number=<span class="py-num">1</span>,
+            text=<span class="py-str">"急迫不正の侵害に対して、自己又は他人の権利を防衛するため、やむを得ずにした行為は、罰しない。"</span>,
+            has_proviso=<span class="py-kw">False</span>,
+        ),
+        Paragraph(
+            number=<span class="py-num">2</span>,
+            text=<span class="py-str">"防衛の程度を超えた行為は、情状により、その刑を減軽し、又は免除することができる。"</span>,
+            has_proviso=<span class="py-kw">False</span>,
+        ),
+    ],
+    translation_status=TranslationStatus.OFFICIAL,
+    machine_translated=<span class="py-kw">False</span>,
+    english_translation=EnglishTranslation(
+        paragraphs=[
+            EnglishParagraph(
+                number=<span class="py-num">1</span>,
+                text=(
+                    <span class="py-str">"An act unavoidably performed to defend the rights of "</span>
+                    <span class="py-str">"oneself or any other person against imminent and "</span>
+                    <span class="py-str">"unlawful infringement is not punishable."</span>
+                ),
+            ),
+            EnglishParagraph(
+                number=<span class="py-num">2</span>,
+                text=(
+                    <span class="py-str">"An act exceeding the limits of defense may lead to "</span>
+                    <span class="py-str">"the punishment being reduced or exonerated in light "</span>
+                    <span class="py-str">"of the circumstances."</span>
+                ),
+            ),
+        ],
+        source=<span class="py-str">"Japanese Law Translation Database, Ministry of Justice"</span>,
+        source_url=<span class="py-str">"http://www.japaneselawtranslation.go.jp/..."</span>,
+    ),
+    cases=[
+        CaseReference(
+            case_id=<span class="py-str">"scj-pb1-1969-12-04-keishu-23-12-1573"</span>,
+            court=<span class="py-str">"最高裁判所第一小法廷"</span>,
+            court_en=<span class="py-str">"Supreme Court of Japan, First Petty Bench"</span>,
+            decision_date=date(<span class="py-num">1969</span>, <span class="py-num">12</span>, <span class="py-num">4</span>),
+            citation=<span class="py-str">"刑集23巻12号1573頁"</span>,
+            case_name_ja=<span class="py-str">"急迫不正の侵害の意義"</span>,
+            case_name_en=<span class="py-str">"Meaning of 'imminent and unjust infringement'"</span>,
+            url=<span class="py-str">"https://www.courts.go.jp/app/hanrei_jp/detail2?id=..."</span>,
+            relevance=Relevance.HIGH,
+            relevant_paragraph=<span class="py-num">1</span>,
+            summary_ja=<span class="py-str">"..."</span>,
+            summary_en=<span class="py-str">"..."</span>,
+        ),
+    ],
+    amendments=[],
+    source_url=<span class="py-str">"https://laws.e-gov.go.jp/law/140AC0000000045"</span>,
+    source_format=<span class="py-str">"e-gov-xml"</span>,
+    last_verified=date(<span class="py-num">2026</span>, <span class="py-num">5</span>, <span class="py-num">14</span>),
+    license=<span class="py-str">"MIT"</span>,
+    tags=[<span class="py-str">"phase1-police"</span>, <span class="py-str">"正当防衛"</span>, <span class="py-str">"違法性阻却事由"</span>],
+)</code></pre>
+
+<h3>7.2 IR → YAML+MD への変換</h3>
+<p><code>tools/render/</code> の責任。IR を Pydantic で構築 → <code>juricode_render.render_yaml(article)</code> で YAML 文字列、<code>render_markdown(article)</code> で MD 文字列を生成。</p>
+<p><code>examples/keihou/keihou-article-36.md</code> がこの変換の正解出力。</p>
+
+<h2 id="sec8">8. バージョニング</h2>
+
+<p>IR スキーマ自体のバージョンを <code>juricode_shared.__version__</code> で管理。</p>
+<ul>
+  <li>破壊的変更(必須フィールドの追加・型変更)→ メジャー版アップ</li>
+  <li>後方互換な拡張(任意フィールドの追加)→ マイナー版アップ</li>
+  <li>ドキュメント・コメント変更 → パッチ版アップ</li>
+</ul>
+
+<p><code>data/</code> 配下の各 Markdown ファイル frontmatter にも <code>ir_version: "0.1"</code> を含める提案(将来仕様)。</p>
+
+<h2 id="sec9">9. 関連</h2>
+<ul>
+  <li><a href="architecture.html">architecture.html</a> — 全体アーキテクチャ</li>
+  <li><a href="format-spec.md">format-spec.md</a> — 最終 YAML+Markdown 出力フォーマット</li>
+  <li><a href="glossary.md">glossary.md</a> — 日英用語集、法令略称、判例集略号</li>
+</ul>
+
+<div class="footer">
+  <p>JuriCode-JP / 株式会社 CHOKAI / 最終更新 2026-05-18</p>
+  <p>次回更新の目安: <code>tools/shared/src/juricode_shared/ir.py</code> 実装時、Pydantic で実体化したらドキュメントと突合</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JuriCode-JP 法令データフォーマット仕様</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", system-ui, sans-serif; background: #fdfdfd; color: #1a202c; line-height: 1.75; margin: 0 auto; padding: 32px 24px 80px; max-width: 1040px; font-size: 14.5px; }
+h1 { font-size: 2em; color: #047857; border-bottom: 3px solid #047857; padding-bottom: 12px; margin: 0 0 6px; }
+h1 .subtitle { display: block; font-size: 0.55em; color: #718096; margin-top: 8px; font-weight: normal; }
+h2 { font-size: 1.45em; margin: 48px 0 18px; padding: 10px 16px; background: linear-gradient(to right, #d1fae5, transparent 70%); border-left: 5px solid #047857; border-radius: 0 6px 6px 0; }
+h3 { font-size: 1.15em; color: #047857; margin: 28px 0 10px; padding-bottom: 4px; border-bottom: 1px dashed #e2e8f0; }
+h4 { font-size: 1em; margin: 18px 0 8px; }
+code { font-family: "Consolas", "Monaco", monospace; font-size: 0.85em; background: #f1f5f9; color: #047857; padding: 1px 6px; border-radius: 3px; }
+pre { background: #1e293b; color: #e2e8f0; padding: 16px 20px; border-radius: 8px; overflow-x: auto; margin: 14px 0; font-family: "Consolas", "Monaco", monospace; font-size: 0.82em; line-height: 1.6; }
+pre code { background: transparent; color: inherit; padding: 0; }
+pre.tree { background: #f8fafc; color: #4a5568; border: 1px solid #e2e8f0; }
+table { width: 100%; border-collapse: collapse; margin: 14px 0; background: white; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; font-size: 0.92em; }
+th, td { padding: 9px 14px; text-align: left; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+th { background: #f3f4f6; font-weight: 700; font-size: 0.88em; }
+tr:last-child td { border-bottom: none; }
+.meta-card { background: #ecfdf5; border: 1px solid #6ee7b7; border-radius: 8px; padding: 16px 20px; margin: 16px 0 28px; }
+.info-banner { background: #eff6ff; border: 1px solid #dbeafe; border-left: 4px solid #0369a1; border-radius: 0 6px 6px 0; padding: 12px 18px; margin: 14px 0; font-size: 0.92em; }
+.warn-banner { background: #fef3c7; border: 1px solid #fcd34d; border-left: 4px solid #d97706; border-radius: 0 6px 6px 0; padding: 12px 18px; margin: 14px 0; font-size: 0.92em; }
+ul, ol { padding-left: 26px; } li { margin: 5px 0; }
+a { color: #047857; text-decoration: none; } a:hover { text-decoration: underline; }
+.footer { margin-top: 60px; padding: 20px; border-top: 1px solid #e2e8f0; color: #718096; font-size: 0.85em; text-align: center; }
+@media print { body { padding: 0; font-size: 10.5pt; } pre { background: #f1f5f9 !important; color: #1a202c !important; border: 1px solid #e2e8f0; } pre code { color: #1a202c !important; } }
+</style>
+</head>
+<body>
+
+<h1>JuriCode-JP 法令データフォーマット仕様
+<span class="subtitle">v0.1 draft / 最終更新 2026-05-18 / Phase 1 の実データ整備中に固める</span></h1>
+
+<div class="meta-card">
+<strong>位置づけ</strong>: JuriCode-JP リポジトリで採用する<strong>法令データの正規フォーマット</strong>を定義する。<br>
+スキーマ検証用 JSON Schema は <code>/schema/</code>、参照実装サンプルは <code>/examples/keihou/keihou-article-36.md</code>。<br>
+関連: <a href="architecture.html">architecture.html</a> / <a href="ir-spec.html">ir-spec.html</a> / <a href="tag-vocabulary.html">tag-vocabulary.html</a>
+</div>
+
+<h2>1. 設計原則</h2>
+<ol>
+<li><strong>AI/LLM 最適化</strong> — 1 ファイル = 1 条文、フロントマター + Markdown 本文。LLM が単一チャンクで条文・項・判例・英訳を同時に把握できる。</li>
+<li><strong>Diffability</strong> — 条文・判例・英訳がプレーンテキストでバージョン管理され、改正履歴が git log で追える。</li>
+<li><strong>多言語併記</strong> — 日本語原文と英訳を同一ファイル内で並列保持。今後の多言語追加はセクション追加で拡張。</li>
+<li><strong>検証可能性</strong> — frontmatter は JSON Schema で機械検証可能。出典(URL・施行日)を必須項目に。</li>
+<li><strong>原典忠実性</strong> — 法令本文は e-Gov 公式テキストの完全コピー。改変・要約・修辞を一切加えない。</li>
+</ol>
+
+<h2>2. 単位(1 ファイル = 何にするか)</h2>
+<p>JuriCode-JP は <strong>1 ファイル = 1 条</strong>を基本単位とする。</p>
+<table>
+<thead><tr><th>単位案</th><th>長所</th><th>短所</th><th>採否</th></tr></thead>
+<tbody>
+<tr><td>1 法令 = 1 ファイル</td><td>編集が一括</td><td>巨大化、判例リンクが薄まる、LLM チャンク不適</td><td>✗</td></tr>
+<tr><td><strong>1 条 = 1 ファイル</strong></td><td>LLM チャンク最適、判例リンクが密、diff が細かい</td><td>ファイル数が多い</td><td><strong>○ 採用</strong></td></tr>
+<tr><td>1 項 = 1 ファイル</td><td>さらに細粒度</td><td>条文の文脈が壊れる、判例は条単位が多い</td><td>✗</td></tr>
+</tbody>
+</table>
+<p><strong>例外</strong>: 短い法令(条文 10 条以下)は 1 法令 = 1 ファイルとしてもよい。各条を <code>## 第 N 条</code> で見出し分割。</p>
+
+<h2>3. ディレクトリ・ファイル命名</h2>
+<pre class="tree">data/
+└── phase1-police/
+    └── keihou/                          # 法令略称ローマ字
+        ├── _meta.yaml                   # 法令全体メタデータ(任意)
+        ├── README.md                    # 法令の概要・収録状況
+        ├── keihou-article-1.md
+        ├── keihou-article-36.md
+        └── ...</pre>
+<ul>
+<li>ファイル名: <code>[law-abbrev]-article-[N].md</code></li>
+<li>N は半角アラビア数字。枝番付き条(36 条の 2 など)は <code>keihou-article-36-2.md</code></li>
+<li>法令略称は <a href="glossary.md">docs/glossary.md</a> に登録されているローマ字短縮名を使用</li>
+</ul>
+
+<h2>4. YAML frontmatter 仕様</h2>
+
+<h3>4.1 必須フィールド</h3>
+<table>
+<thead><tr><th>フィールド</th><th>型</th><th>説明</th><th>例</th></tr></thead>
+<tbody>
+<tr><td><code>law_id</code></td><td>string</td><td>e-Gov 法令 ID(13 桁の正規 ID)</td><td><code>140AC0000000045</code></td></tr>
+<tr><td><code>law_name_ja</code></td><td>string</td><td>法令正式名称(日本語)</td><td>刑法</td></tr>
+<tr><td><code>law_name_en</code></td><td>string</td><td>法令正式名称(英語、公定訳優先)</td><td>Penal Code</td></tr>
+<tr><td><code>article_number</code></td><td>string</td><td>条番号</td><td><code>"36"</code>, <code>"36-2"</code></td></tr>
+<tr><td><code>article_id</code></td><td>string</td><td>条文の一意 ID</td><td><code>keihou-art-36</code></td></tr>
+<tr><td><code>version_date</code></td><td>YYYY-MM-DD</td><td>現行条文の施行日</td><td>2025-06-01</td></tr>
+<tr><td><code>source_url</code></td><td>URL</td><td>e-Gov 法令 API または該当条文ページの URL</td><td>—</td></tr>
+<tr><td><code>last_verified</code></td><td>YYYY-MM-DD</td><td>原典との突合を最後に行った日</td><td>2026-05-14</td></tr>
+<tr><td><code>license</code></td><td>string</td><td>このファイルのライセンス</td><td>MIT</td></tr>
+<tr><td><code>translation_status</code></td><td>enum</td><td>英訳の信頼度</td><td><code>official</code>/<code>community</code>/<code>draft</code>/<code>none</code></td></tr>
+</tbody>
+</table>
+
+<h3>4.2 推奨フィールド</h3>
+<table>
+<thead><tr><th>フィールド</th><th>型</th><th>説明</th></tr></thead>
+<tbody>
+<tr><td><code>parent_section</code></td><td>object</td><td>編・章・節情報 <code>{hen, shou, setsu, kan}</code></td></tr>
+<tr><td><code>paragraphs</code></td><td>array</td><td>項のメタデータ(後述)</td></tr>
+<tr><td><code>cases</code></td><td>array</td><td>判例リンク(後述)</td></tr>
+<tr><td><code>amendments</code></td><td>array</td><td>改正履歴(後述)</td></tr>
+<tr><td><code>tags</code></td><td>array of string</td><td>統制語彙(<a href="tag-vocabulary.html">tag-vocabulary.html</a> 参照)</td></tr>
+<tr><td><code>machine_translated</code></td><td>boolean</td><td>英訳が MT 由来か</td></tr>
+<tr><td><code>notes</code></td><td>string</td><td>構造化注記</td></tr>
+</tbody>
+</table>
+
+<h3>4.3 paragraphs(項のメタデータ)</h3>
+<pre><code>paragraphs:
+  - number: 1
+    has_proviso: false        # 但書を含むか
+    has_items: false          # 各号(列挙)を含むか
+    is_added_by_amendment: false  # 改正で追加された項か
+  - number: 2
+    has_proviso: false
+    has_items: false</code></pre>
+
+<h3>4.4 cases(判例リンク)</h3>
+<pre><code>cases:
+  - case_id: scj-1969-12-04-keishu-23-12-1573
+    court: 最高裁判所第一小法廷
+    court_en: Supreme Court of Japan, First Petty Bench
+    decision_date: 1969-12-04
+    citation: 刑集23巻12号1573頁
+    case_name_ja: 急迫不正の侵害の意義
+    case_name_en: Meaning of "imminent and unjust infringement"
+    url: https://www.courts.go.jp/app/hanrei_jp/detail2?id=...
+    relevance: high           # high | medium | low
+    relevant_paragraph: 1
+    summary_ja: |
+      最高裁が「急迫不正の侵害」の意義について判示した事例。
+    summary_en: |
+      ...</code></pre>
+
+<p><strong>case_id の命名規則:</strong></p>
+<ul>
+<li>最高裁: <code>scj-YYYY-MM-DD-[citation-shortcode]</code> 例: <code>scj-1969-12-04-keishu-23-12-1573</code></li>
+<li>高裁: <code>hcj-[city]-YYYY-MM-DD-...</code></li>
+<li>地裁: <code>dcj-[city]-YYYY-MM-DD-...</code></li>
+</ul>
+
+<h3>4.5 amendments(改正履歴)</h3>
+<pre><code>amendments:
+  - effective_date: 2025-06-01
+    law_no: 令和4年法律第67号
+    summary: 懲役・禁錮を「拘禁刑」に統一する刑法改正の施行
+    diff_summary: |
+      旧文「死刑又は無期若しくは…の懲役」→ 新文「死刑又は無期若しくは…の拘禁刑」</code></pre>
+
+<h3>4.5.1 Phase 1 スコープ(2026-05-18 確定)</h3>
+<table>
+<thead><tr><th>項目</th><th>Phase 1 の方針</th></tr></thead>
+<tbody>
+<tr><td>格納対象</td><td><strong>その条文に直接適用された改正のみ</strong>(法令全体の改正ではなく、当該条文に影響した改正だけ)</td></tr>
+<tr><td>過去遡及</td><td><strong>直近 5 年程度</strong>(2020 年以降の改正を目安)、それ以前の改正は対象外</td></tr>
+<tr><td>改正前の条文本文</td><td><strong>保持しない</strong>(<code>amendments[].diff_summary</code> で要点のみ記載)</td></tr>
+<tr><td>過去版アーカイブ</td><td><code>archive/</code> ディレクトリは Phase 1 では使用しない(将来仕様)</td></tr>
+<tr><td>改正記録の出典</td><td>e-Gov 法令 API v2 <code>GET /law_revisions/{law_id_or_num}</code> から自動抽出</td></tr>
+<tr><td>必須性</td><td><code>amendments</code> は<strong>任意フィールド</strong></td></tr>
+</tbody>
+</table>
+
+<div class="info-banner">
+<strong>4.5.2 Phase 2 以降の拡張</strong>: 全改正履歴の保持(<code>archive/</code>)、改正前後の本文 diff 構造化、改正法令本体へのクロスリンク。
+</div>
+
+<h2>5. 本文構造(Markdown)</h2>
+
+<h3>5.1 セクション順序(固定)</h3>
+<ol>
+<li><code># 法令名 第 N 条(通称)</code> — H1 見出し</li>
+<li><code>## 原文 (日本語)</code> — 必須</li>
+<li><code>## English Translation</code> — 推奨</li>
+<li><code>## 判例リンク (Case Law)</code> — 任意</li>
+<li><code>## 改正履歴 (Amendments)</code> — 直近の改正があれば</li>
+<li><code>## 注記 (Notes)</code> — 任意</li>
+</ol>
+
+<h3>5.2 サンプル(刑法 36 条)</h3>
+<pre><code># 刑法 第36条(正当防衛)
+
+## 原文 (日本語)
+
+### 第三十六条
+急迫不正の侵害に対して、自己又は他人の権利を防衛するため、やむを得ずにした行為は、罰しない。
+
+### 第三十六条第二項
+防衛の程度を超えた行為は、情状により、その刑を減軽し、又は免除することができる。
+
+## English Translation
+
+> Note: Official translation from JLT-DB, Ministry of Justice.
+
+### Article 36 (Paragraph 1)
+An act unavoidably performed to protect the rights of oneself or another person against imminent and unjust infringement shall not be punishable.
+
+### Article 36 (Paragraph 2)
+An act exceeding the limit of defense may be subject to a reduction or remission of punishment in accordance with the circumstances.
+
+## 判例リンク (Case Law)
+
+- **[最判 1969-12-04 刑集23巻12号1573頁]** 急迫不正の侵害の意義
+  - 該当: 第1項
+  - 関連度: high
+  - URL: https://www.courts.go.jp/app/hanrei_jp/detail2?id=...
+
+## 改正履歴 (Amendments)
+
+- **2025-06-01** (令和4年法律第67号)
+  - 懲役・禁錮を「拘禁刑」に統一する刑法改正の施行
+
+## 注記 (Notes)
+
+- 第1項は違法性阻却事由としての正当防衛、第2項は責任阻却・違法性減少事由としての過剰防衛を規定する。</code></pre>
+
+<h2>6. 検証</h2>
+
+<h3>6.1 機械検証</h3>
+<pre><code># frontmatter のスキーマ検証(将来 tools/validate/ で実装)
+uv run juricode validate data/phase1-police/keihou/keihou-article-36.md
+
+# 全データ検証
+uv run juricode validate --strict</code></pre>
+
+<h3>6.2 人間レビュー必須項目</h3>
+<ul>
+<li>法令本文が e-Gov 公式テキストと <strong>1 字一句一致</strong>しているか</li>
+<li><code>source_url</code> のリンクが生きているか</li>
+<li>判例の citation が正確か(掲載誌・巻号・頁)</li>
+<li>英訳の出典(政府公定訳/コミュニティ訳/draft)が明示されているか</li>
+</ul>
+
+<h2>7. 将来拡張</h2>
+<ul>
+<li><strong>多言語追加</strong>: 中国語・韓国語等は <code>## Translation (zh-CN)</code> のようなセクション追加</li>
+<li><strong>チャンクメタデータ</strong>: <code>chunks:</code> フィールドに LLM 向け埋め込み用テキスト</li>
+<li><strong>改正版アーカイブ</strong>: <code>archive/keihou/keihou-article-36@2024-01-01.md</code></li>
+<li><strong>法令間リンク</strong>: <code>references:</code> フィールドで他条文・他法令への参照を構造化</li>
+</ul>
+<p>これらは Phase 1 完了時点で再評価。</p>
+
+<h2>8. 仕様の改訂方針</h2>
+<ul>
+<li>仕様変更は必ず PR で行い、<code>docs:</code> または <code>schema:</code> スコープでコミット</li>
+<li>バージョンは セマンティック・バージョニング: v0.1 → v0.2(フィールド追加)→ v1.0(Phase 1 完了時固定)</li>
+<li>破壊的変更は <code>data/</code> 全体のマイグレーションを伴うため、Phase 境界でのみ実施</li>
+</ul>
+
+<div class="footer">
+<p>JuriCode-JP / 株式会社 CHOKAI / 最終更新 2026-05-18</p>
+<p>関連: <a href="architecture.html">architecture.html</a> / <a href="ir-spec.html">ir-spec.html</a> / <a href="tag-vocabulary.html">tag-vocabulary.html</a> / <a href="lawqa-jp-integration-notes.html">lawqa-jp-integration-notes.html</a></p>
+</div>
+
+</body>
+</html>

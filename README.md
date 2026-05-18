@@ -7,6 +7,14 @@
 *日本の法令をAI時代に最適化する*  
 *Making Japanese legislation AI-ready for the age of AI.*
 
+[![CI](https://github.com/JuriCode-JP/JuriCode-JP/actions/workflows/ci.yml/badge.svg)](https://github.com/JuriCode-JP/JuriCode-JP/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/tests-46%20passing-brightgreen)](./tools/shared/tests)
+[![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12-blue)](https://www.python.org/)
+[![Pydantic v2](https://img.shields.io/badge/pydantic-v2-e92063)](https://docs.pydantic.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Status: Phase 0](https://img.shields.io/badge/status-Phase%200-orange)](./docs/strategy.md)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+
 </div>
 
 ---
@@ -62,6 +70,45 @@ Through structured legal data, case law links, and bilingual annotation, we serv
 | Phase 3 | Full coverage | Citizens, government, international |
 
 Currently in **Phase 0 — Project design and community research**.
+
+---
+
+## Phase 1 ロードマップ / Phase 1 Roadmap
+
+### 期間 / Timeline
+**2026 — 2027**:刑事手続関連法令(criminal procedure law)の構造化を完了させる。
+
+### 成果物 / Deliverables
+- 刑法・刑事訴訟法・警察法・警察官職務執行法の主要条文を 1 条 = 1 ファイルの YAML frontmatter + Markdown 形式で構造化
+- 日本語原文と公定英訳の併記、最高裁判例リンク(出典 URL 付き)を各条文に統合
+- e-Gov 法令 API v2 からの自動取得・スキーマ検証・中間表現(IR)変換の完全パイプライン
+- JSON Schema による機械検証 + Pydantic IR による型安全なデータアクセス
+
+### 現在の実装状況 / Current Implementation Status
+| 項目 | 状況 |
+|---|---|
+| データフォーマット仕様 v0.1 | ✅ [docs/format-spec.md](docs/format-spec.md) |
+| アーキテクチャ全体像 | ✅ [docs/architecture.md](docs/architecture.md) |
+| 中間表現(IR)仕様 | ✅ [docs/ir-spec.md](docs/ir-spec.md) |
+| メタタグ標準語彙 | ✅ [docs/tag-vocabulary.md](docs/tag-vocabulary.md) |
+| 正規参考例(刑法 36 条) | ✅ [examples/keihou/keihou-article-36.md](examples/keihou/keihou-article-36.md) |
+| Pydantic IR パッケージ | ✅ [tools/shared/](tools/shared/) (38 tests passing) |
+| 検証 CLI | ✅ [tools/validate/](tools/validate/) (8 tests passing) |
+| JSON Schema 自動生成 | ✅ [schema/juricode-article.schema.json](schema/juricode-article.schema.json) ([export-schema.py](tools/shared/scripts/export-schema.py)) |
+| GitHub Actions CI | ✅ [.github/workflows/ci.yml](.github/workflows/ci.yml) (lint + pytest + validate + schema drift check) |
+| e-Gov 法令 API v2 クライアント | 🟡 スケルトン実装済 [tools/fetch-egov/](tools/fetch-egov/) |
+| 第二参考例(刑訴法 198 条) | ✅ [examples/keiji-soshou-hou/keiji-soshou-hou-article-198.md](examples/keiji-soshou-hou/keiji-soshou-hou-article-198.md) |
+| Phase 1 法令スコープ(4 法令) | ✅ [data/phase1-police/](data/phase1-police/) |
+| データ本体(条文構造化) | 🔴 着手前(2026-Q3 〜 Q4) |
+
+### ドキュメント / Documentation
+- [docs/format-spec.md](docs/format-spec.md) — 法令データフォーマット仕様
+- [docs/architecture.md](docs/architecture.md) — 全体アーキテクチャ(6 段階パイプライン)
+- [docs/ir-spec.md](docs/ir-spec.md) — 中間表現(IR)詳細仕様
+- [docs/tag-vocabulary.md](docs/tag-vocabulary.md) — メタタグ標準語彙
+- [docs/strategy.md](docs/strategy.md) — 段階戦略
+- [docs/differentiation.md](docs/differentiation.md) — 先行 OSS との関係
+- [docs/follow-ups.md](docs/follow-ups.md) — 既知の改善余地・将来タスク
 
 ---
 

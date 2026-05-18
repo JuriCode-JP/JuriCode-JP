@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JuriCode-JP メタタグ標準語彙</title>
+<style>
+* { box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", system-ui, sans-serif; background: #fdfdfd; color: #1a202c; line-height: 1.75; margin: 0 auto; padding: 32px 24px 80px; max-width: 1040px; font-size: 14.5px; }
+h1 { font-size: 2em; color: #b45309; border-bottom: 3px solid #b45309; padding-bottom: 12px; margin: 0 0 6px; }
+h1 .subtitle { display: block; font-size: 0.55em; color: #718096; margin-top: 8px; font-weight: normal; }
+h2 { font-size: 1.45em; margin: 48px 0 18px; padding: 10px 16px; background: linear-gradient(to right, #fef3c7, transparent 70%); border-left: 5px solid #b45309; border-radius: 0 6px 6px 0; }
+h3 { font-size: 1.15em; color: #b45309; margin: 28px 0 10px; padding-bottom: 4px; border-bottom: 1px dashed #e2e8f0; }
+h4 { font-size: 1em; margin: 18px 0 8px; color: #1a202c; }
+code { font-family: "Consolas", "Monaco", monospace; font-size: 0.85em; background: #f1f5f9; color: #b45309; padding: 1px 6px; border-radius: 3px; }
+pre { background: #1e293b; color: #e2e8f0; padding: 16px 20px; border-radius: 8px; overflow-x: auto; margin: 14px 0; font-family: "Consolas", "Monaco", monospace; font-size: 0.82em; line-height: 1.6; }
+pre code { background: transparent; color: inherit; padding: 0; }
+table { width: 100%; border-collapse: collapse; margin: 14px 0; background: white; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0; font-size: 0.92em; }
+th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+th { background: #f3f4f6; font-weight: 700; font-size: 0.85em; }
+tr:last-child td { border-bottom: none; }
+.meta-card { background: #fef3c7; border: 1px solid #fcd34d; border-radius: 8px; padding: 16px 20px; margin: 16px 0 28px; }
+.info-banner { background: #eff6ff; border-left: 4px solid #0369a1; border-radius: 0 6px 6px 0; padding: 12px 18px; margin: 14px 0; font-size: 0.92em; }
+.cat-card { background: white; border: 1px solid #e2e8f0; border-left: 4px solid #b45309; border-radius: 0 8px 8px 0; padding: 14px 18px; margin: 14px 0; }
+.cat-card .cat-name { font-weight: 700; font-size: 1.05em; }
+.cat-card .cat-req { display: inline-block; padding: 1px 8px; border-radius: 11px; font-size: 0.75em; font-weight: 700; margin-left: 8px; }
+.req-required { background: #059669; color: white; }
+.req-optional { background: #718096; color: white; }
+.tag-pill { display: inline-block; background: #fef3c7; color: #92400e; padding: 2px 8px; border-radius: 11px; font-size: 0.85em; margin: 2px 3px; }
+ul, ol { padding-left: 26px; } li { margin: 5px 0; }
+a { color: #b45309; text-decoration: none; } a:hover { text-decoration: underline; }
+.footer { margin-top: 60px; padding: 20px; border-top: 1px solid #e2e8f0; color: #718096; font-size: 0.85em; text-align: center; }
+@media print { body { padding: 0; font-size: 10.5pt; } pre { background: #f1f5f9 !important; color: #1a202c !important; } pre code { color: #1a202c !important; } }
+</style>
+</head>
+<body>
+
+<h1>JuriCode-JP メタタグ標準語彙
+<span class="subtitle">v0.1 / 2026-05-18 初版 / RAG 精度向上のための統制語彙集</span></h1>
+
+<div class="meta-card">
+<strong>位置づけ</strong>: 各条文ファイルの YAML frontmatter <code>tags:</code> フィールドで使う統制語彙。<br>
+RAG の Chunk Augmentation で検索精度を上げるため、自由文字列ではなく統制された語彙を使う。<br>
+関連: <a href="format-spec.html">format-spec.html</a> / <a href="ir-spec.html">ir-spec.html</a> / <a href="glossary.md">glossary.md</a>
+</div>
+
+<h2>1. なぜ統制語彙が必要か</h2>
+<p>RAG の精度向上には <strong>Chunk Augmentation</strong>(チャンクへのメタタグ付与)が決定的に効く。<code>tags:</code> を自由文字列のままにすると:</p>
+<ul>
+<li>同義語の揺れ(「正当防衛」「緊急行為」「違法性阻却」)で検索性が落ちる</li>
+<li>上位下位概念の整理ができない</li>
+<li>ベクトル検索とキーワード検索のハイブリッドが弱くなる</li>
+</ul>
+<p>JuriCode-JP は <strong>5 種類のタグカテゴリ</strong>を定義し、各条文に最低 1 個ずつ付与する規約を設ける。</p>
+
+<h2>2. タグ規約</h2>
+
+<h3>2.1 命名規則</h3>
+<ul>
+<li><strong>文字種</strong>: 日本語(漢字・ひらがな・カタカナ)、または ASCII 小文字 + ハイフン</li>
+<li><strong>空白</strong>: なし(<code>正当防衛</code> は OK、<code>正当 防衛</code> は NG)</li>
+<li><strong>接頭辞</strong>: カテゴリを示すプレフィックスは付けない(複合タグは例外)</li>
+<li><strong>複数語</strong>: ハイフン区切り</li>
+</ul>
+
+<h3>2.2 1 つの条文に必須カテゴリ</h3>
+<table>
+<thead><tr><th>カテゴリ</th><th>説明</th><th>必須</th><th>例</th></tr></thead>
+<tbody>
+<tr><td><strong>A. フェーズ</strong></td><td>JuriCode-JP のロードマップ上の位置づけ</td><td>✅</td><td><code>phase1-police</code></td></tr>
+<tr><td><strong>B. 法分類</strong></td><td>法令の大分類(刑事/民事/商事/憲法/行政)</td><td>✅</td><td><code>刑事法</code></td></tr>
+<tr><td><strong>C. 概念</strong></td><td>条文が扱う中核概念</td><td>✅(1 個以上)</td><td><code>正当防衛</code></td></tr>
+<tr><td><strong>D. 手続き</strong></td><td>関連する手続き種別</td><td>任意</td><td><code>捜査</code></td></tr>
+<tr><td><strong>E. ステークホルダー</strong></td><td>主体・対象</td><td>任意</td><td><code>警察</code></td></tr>
+</tbody>
+</table>
+
+<h2>3. カテゴリ別 統制語彙集</h2>
+
+<div class="cat-card">
+<div class="cat-name">A. フェーズタグ<span class="cat-req req-required">必須</span></div>
+<p><span class="tag-pill">phase1-police</span> Phase 1(2026-2027、警察関連法令)<br>
+<span class="tag-pill">phase2-civil</span> Phase 2(2027-2028、民事・商事)<br>
+<span class="tag-pill">phase3-all</span> Phase 3(2028-2030、全領域)</p>
+</div>
+
+<div class="cat-card">
+<div class="cat-name">B. 法分類タグ<span class="cat-req req-required">必須・1 個</span></div>
+<table>
+<thead><tr><th>タグ</th><th>意味</th><th>Phase 1 対象?</th></tr></thead>
+<tbody>
+<tr><td><code>憲法</code></td><td>憲法</td><td>(将来)</td></tr>
+<tr><td><code>刑事法</code></td><td>刑法・刑訴法・特別刑法</td><td>✅</td></tr>
+<tr><td><code>警察法</code></td><td>警察法・警職法</td><td>✅</td></tr>
+<tr><td><code>民事法</code></td><td>民法・特別民法</td><td>Phase 2</td></tr>
+<tr><td><code>商事法</code></td><td>商法・会社法</td><td>Phase 2</td></tr>
+<tr><td><code>行政法</code></td><td>行政手続法・行政組織法</td><td>Phase 3</td></tr>
+<tr><td><code>労働法</code></td><td>労基法・労働契約法</td><td>Phase 3</td></tr>
+<tr><td><code>税法</code></td><td>所得税法・法人税法</td><td>Phase 3</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="cat-card">
+<div class="cat-name">C. 概念タグ<span class="cat-req req-required">必須・1 個以上</span></div>
+
+<h4>C-1. 刑法総則関連</h4>
+<p>
+<span class="tag-pill">罪刑法定主義</span>
+<span class="tag-pill">因果関係</span>
+<span class="tag-pill">故意</span>
+<span class="tag-pill">過失</span>
+<span class="tag-pill">責任能力</span>
+<span class="tag-pill">違法性阻却事由</span>
+<span class="tag-pill">責任阻却事由</span>
+<span class="tag-pill">正当防衛</span>
+<span class="tag-pill">緊急避難</span>
+<span class="tag-pill">過剰防衛</span>
+<span class="tag-pill">未遂</span>
+<span class="tag-pill">既遂</span>
+<span class="tag-pill">共犯</span>
+<span class="tag-pill">共同正犯</span>
+<span class="tag-pill">教唆</span>
+<span class="tag-pill">幇助</span>
+<span class="tag-pill">刑罰</span>
+<span class="tag-pill">量刑</span>
+</p>
+
+<h4>C-2. 刑法各論関連</h4>
+<p>
+<span class="tag-pill">生命に対する罪</span>
+<span class="tag-pill">身体に対する罪</span>
+<span class="tag-pill">自由に対する罪</span>
+<span class="tag-pill">名誉に対する罪</span>
+<span class="tag-pill">財産に対する罪</span>
+<span class="tag-pill">公共危険罪</span>
+<span class="tag-pill">公務妨害</span>
+<span class="tag-pill">偽証罪</span>
+</p>
+
+<h4>C-3. 刑事訴訟法関連</h4>
+<p>
+<span class="tag-pill">捜査手続</span>
+<span class="tag-pill">逮捕</span>
+<span class="tag-pill">勾留</span>
+<span class="tag-pill">取調べ</span>
+<span class="tag-pill">黙秘権</span>
+<span class="tag-pill">弁護人選任権</span>
+<span class="tag-pill">捜索差押</span>
+<span class="tag-pill">通信傍受</span>
+<span class="tag-pill">供述調書</span>
+<span class="tag-pill">公訴提起</span>
+<span class="tag-pill">公判手続</span>
+<span class="tag-pill">自白</span>
+<span class="tag-pill">証拠能力</span>
+<span class="tag-pill">伝聞法則</span>
+<span class="tag-pill">裁判員制度</span>
+<span class="tag-pill">控訴</span>
+<span class="tag-pill">上告</span>
+<span class="tag-pill">再審</span>
+</p>
+
+<h4>C-4. 警察法・警職法関連</h4>
+<p>
+<span class="tag-pill">警察組織</span>
+<span class="tag-pill">警察の責務</span>
+<span class="tag-pill">職権発動</span>
+<span class="tag-pill">職務質問</span>
+<span class="tag-pill">保護</span>
+<span class="tag-pill">避難等の措置</span>
+<span class="tag-pill">武器使用</span>
+</p>
+
+<h4>C-5. 横断的概念</h4>
+<p>
+<span class="tag-pill">人権</span>
+<span class="tag-pill">適正手続</span>
+<span class="tag-pill">比例原則</span>
+<span class="tag-pill">令状主義</span>
+<span class="tag-pill">任意性</span>
+<span class="tag-pill">強制処分</span>
+</p>
+</div>
+
+<div class="cat-card">
+<div class="cat-name">D. 手続きタグ<span class="cat-req req-optional">任意</span></div>
+<p>
+<span class="tag-pill">捜査</span>
+<span class="tag-pill">逮捕</span>
+<span class="tag-pill">勾留</span>
+<span class="tag-pill">取調べ</span>
+<span class="tag-pill">送致</span>
+<span class="tag-pill">起訴</span>
+<span class="tag-pill">公判</span>
+<span class="tag-pill">判決</span>
+<span class="tag-pill">執行</span>
+<span class="tag-pill">更生</span>
+</p>
+<p style="font-size: 0.88em; color: #718096; margin-top: 8px;">カテゴリ C との重複があるが、C は概念ラベル・D は手続きフローのラベルとして使い分ける。</p>
+</div>
+
+<div class="cat-card">
+<div class="cat-name">E. ステークホルダータグ<span class="cat-req req-optional">任意</span></div>
+<p>
+<span class="tag-pill">市民</span>
+<span class="tag-pill">被疑者</span>
+<span class="tag-pill">被害者</span>
+<span class="tag-pill">弁護人</span>
+<span class="tag-pill">警察</span>
+<span class="tag-pill">検察</span>
+<span class="tag-pill">裁判官</span>
+<span class="tag-pill">裁判員</span>
+<span class="tag-pill">行政機関</span>
+<span class="tag-pill">海外</span>
+</p>
+</div>
+
+<h2>4. 付与例</h2>
+
+<h3>例 1: 刑法 36 条(正当防衛)</h3>
+<pre><code>tags:
+  - phase1-police         # A. フェーズ
+  - 刑事法                 # B. 法分類
+  - 違法性阻却事由         # C. 概念(上位)
+  - 正当防衛               # C. 概念(中位)
+  - 過剰防衛               # C. 概念(2項関連)
+  - 市民                   # E. ステークホルダー(防衛の主体)</code></pre>
+
+<h3>例 2: 刑事訴訟法 198 条(取調べ)</h3>
+<pre><code>tags:
+  - phase1-police
+  - 刑事法
+  - 取調べ                 # C. 概念
+  - 黙秘権                 # C. 概念
+  - 捜査                   # D. 手続き
+  - 被疑者                 # E. ステークホルダー
+  - 警察                   # E. ステークホルダー
+  - 任意性                 # C. 横断的概念</code></pre>
+
+<h3>例 3: 警察官職務執行法 2 条(職務質問)</h3>
+<pre><code>tags:
+  - phase1-police
+  - 警察法
+  - 職務質問               # C. 概念
+  - 職権発動               # C. 概念
+  - 任意性                 # C. 横断的
+  - 強制処分               # C. 横断的
+  - 警察                   # E. ステークホルダー
+  - 市民                   # E. ステークホルダー</code></pre>
+
+<h2>5. 運用ルール</h2>
+
+<h3>5.1 タグ追加のプロセス</h3>
+<ol>
+<li>既存語彙で表現困難な概念に遭遇 → Issue で議論</li>
+<li>合意形成 → 本ファイル(<code>docs/tag-vocabulary.md</code>)に追記する PR</li>
+<li>PR 通過後に対象条文の <code>tags:</code> に追加</li>
+</ol>
+
+<h3>5.2 検証ルール(<code>tools/validate/</code>)</h3>
+<ul>
+<li>✅ 各条文に <strong>カテゴリ A・B・C のタグが最低 1 個ずつ</strong>ある</li>
+<li>✅ すべてのタグが本ファイルの統制語彙集に存在する</li>
+<li>⚠️ 警告: 1 条文のタグが 10 個超(過剰)、または 3 個未満(過少)</li>
+</ul>
+
+<h3>5.3 検索・RAG での活用</h3>
+<div class="info-banner">
+<strong>メタタグフィルタ検索</strong>: ユーザが「正当防衛について教えて」と質問 → <code>正当防衛</code> タグを持つ条文だけに絞り込み → そこから cos 類似度で検索 → 精度向上<br>
+<strong>Top-K 戦略</strong>: 同じタグを持つ条文を関連条文として複数同時取得<br>
+<strong>カテゴリ別ルーティング(Self-route)</strong>: 質問内容から推定したカテゴリでフィルタした上で検索
+</div>
+
+<h2>6. RAG 動画からの示唆</h2>
+<table>
+<thead><tr><th>動画の指摘</th><th>本仕様での対応</th></tr></thead>
+<tbody>
+<tr><td>「メタタグ付与で検索精度が上がる」</td><td>カテゴリ A-E の 5 軸タグ体系</td></tr>
+<tr><td>「カテゴリ別ルーティング(Self-route)」</td><td>カテゴリ B(法分類)が一次フィルタとして機能</td></tr>
+<tr><td>「Chunk-to-Question」</td><td><code>article_caption</code>(「(正当防衛)」等)が事実上これに相当</td></tr>
+<tr><td>「テストデータ重要」</td><td>デジタル庁 lawqa_jp とのマッピングは <a href="lawqa-jp-integration-notes.html">lawqa-jp-integration-notes.html</a></td></tr>
+</tbody>
+</table>
+
+<h2>7. バージョン管理</h2>
+<ul>
+<li>v0.1 (2026-05-18): 初版、Phase 1 警察関連法令向けの語彙を定義</li>
+<li>v0.2(将来): Phase 2 開始時に民事・商事概念を追加</li>
+<li>v0.3(将来): Phase 3 全領域カバレッジ</li>
+</ul>
+
+<div class="footer">
+<p>JuriCode-JP / 株式会社 CHOKAI / 最終更新 2026-05-18</p>
+<p>関連: <a href="architecture.html">architecture.html</a> / <a href="ir-spec.html">ir-spec.html</a> / <a href="format-spec.html">format-spec.html</a> / <a href="lawqa-jp-integration-notes.html">lawqa-jp-integration-notes.html</a></p>
+</div>
+
+</body>
+</html>

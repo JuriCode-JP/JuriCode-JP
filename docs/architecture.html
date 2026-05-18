@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JuriCode-JP アーキテクチャ設計</title>
+<style>
+  * { box-sizing: border-box; }
+  :root {
+    --bg: #fdfdfd;
+    --card: #ffffff;
+    --text: #1a202c;
+    --text-dim: #4a5568;
+    --text-muted: #718096;
+    --border: #e2e8f0;
+    --border-strong: #cbd5e0;
+    --primary: #1e40af;
+    --primary-light: #dbeafe;
+    --code-bg: #1e293b;
+    --code-fg: #e2e8f0;
+    --code-comment: #94a3b8;
+    --code-keyword: #f472b6;
+    --code-string: #86efac;
+    --code-number: #fde68a;
+    --good: #059669;
+    --good-bg: #ecfdf5;
+    --warn: #d97706;
+    --warn-bg: #fef3c7;
+    --info: #0369a1;
+    --info-bg: #eff6ff;
+    --accent: #7c3aed;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    margin: 0;
+    padding: 32px 24px 80px;
+    max-width: 1040px;
+    margin: 0 auto;
+    font-size: 14.5px;
+  }
+  h1 {
+    font-size: 2em;
+    margin: 0 0 6px;
+    color: var(--primary);
+    letter-spacing: -0.01em;
+    border-bottom: 3px solid var(--primary);
+    padding-bottom: 12px;
+  }
+  h1 .subtitle {
+    display: block;
+    font-size: 0.55em;
+    font-weight: normal;
+    color: var(--text-muted);
+    margin-top: 8px;
+    letter-spacing: 0;
+  }
+  h2 {
+    font-size: 1.45em;
+    color: var(--text);
+    margin: 48px 0 18px;
+    padding: 10px 16px;
+    background: linear-gradient(to right, var(--primary-light), transparent 70%);
+    border-left: 5px solid var(--primary);
+    border-radius: 0 6px 6px 0;
+  }
+  h3 {
+    font-size: 1.15em;
+    margin: 28px 0 10px;
+    color: var(--primary);
+    padding-bottom: 4px;
+    border-bottom: 1px dashed var(--border);
+  }
+  h4 {
+    font-size: 1.0em;
+    margin: 18px 0 8px;
+    color: var(--text);
+  }
+  p { margin: 10px 0; }
+  ul, ol { margin: 10px 0; padding-left: 26px; }
+  li { margin: 5px 0; }
+  hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 36px 0;
+  }
+  code {
+    font-family: "Consolas", "Monaco", "Menlo", monospace;
+    font-size: 0.85em;
+    background: #f1f5f9;
+    color: var(--accent);
+    padding: 1px 6px;
+    border-radius: 3px;
+  }
+  pre {
+    background: var(--code-bg);
+    color: var(--code-fg);
+    padding: 16px 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 14px 0;
+    font-family: "Consolas", "Monaco", "Menlo", monospace;
+    font-size: 0.82em;
+    line-height: 1.6;
+  }
+  pre code {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    font-size: inherit;
+  }
+  pre.tree {
+    background: #f8fafc;
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+  }
+  pre.flow {
+    background: #f8fafc;
+    color: var(--text);
+    border: 1px solid var(--border);
+    font-family: "Consolas", "Monaco", monospace;
+    font-size: 0.8em;
+    line-height: 1.5;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    background: var(--card);
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    font-size: 0.92em;
+  }
+  th, td {
+    padding: 9px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    background: #f3f4f6;
+    color: var(--text);
+    font-weight: 700;
+    font-size: 0.88em;
+  }
+  tr:last-child td { border-bottom: none; }
+  .meta-card {
+    background: var(--info-bg);
+    border: 1px solid var(--primary-light);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 16px 0 28px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 6px 24px;
+    font-size: 0.92em;
+  }
+  .meta-card .item { display: flex; gap: 8px; align-items: baseline; }
+  .meta-card .label {
+    color: var(--text-muted);
+    font-weight: 600;
+    white-space: nowrap;
+    font-size: 0.88em;
+  }
+  .meta-card .value { color: var(--text); font-weight: 600; }
+  .toc {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px 22px;
+    margin: 0 0 32px;
+  }
+  .toc-title {
+    font-weight: 700;
+    color: var(--text-muted);
+    font-size: 0.85em;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .toc ol {
+    columns: 2;
+    column-gap: 30px;
+    margin: 0;
+    padding-left: 22px;
+  }
+  .toc li { break-inside: avoid; font-size: 0.92em; margin: 3px 0; }
+  .toc a { color: var(--primary); text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  .info-banner {
+    background: var(--info-bg);
+    border: 1px solid var(--primary-light);
+    border-left: 4px solid var(--info);
+    border-radius: 0 6px 6px 0;
+    padding: 12px 18px;
+    margin: 14px 0;
+    font-size: 0.92em;
+  }
+  .warning-banner {
+    background: var(--warn-bg);
+    border: 1px solid #fcd34d;
+    border-left: 4px solid var(--warn);
+    border-radius: 0 6px 6px 0;
+    padding: 12px 18px;
+    margin: 14px 0;
+    font-size: 0.92em;
+  }
+  .good-banner {
+    background: var(--good-bg);
+    border: 1px solid #6ee7b7;
+    border-left: 4px solid var(--good);
+    border-radius: 0 6px 6px 0;
+    padding: 12px 18px;
+    margin: 14px 0;
+    font-size: 0.92em;
+  }
+  .status-done { color: var(--good); font-weight: 700; }
+  .status-todo { color: var(--warn); font-weight: 700; }
+  .status-design { color: var(--accent); font-weight: 700; }
+  .badge {
+    display: inline-block;
+    padding: 1px 8px;
+    border-radius: 4px;
+    font-size: 0.78em;
+    font-weight: 700;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+  .badge-done { background: var(--good); color: white; }
+  .badge-todo { background: var(--warn); color: white; }
+  .badge-design { background: var(--accent); color: white; }
+  blockquote {
+    margin: 14px 0;
+    padding: 8px 16px;
+    border-left: 4px solid var(--border-strong);
+    color: var(--text-dim);
+    background: #f8fafc;
+    border-radius: 0 4px 4px 0;
+    font-size: 0.92em;
+  }
+  a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+  .footer {
+    margin-top: 60px;
+    padding: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 0.85em;
+    text-align: center;
+  }
+  /* 印刷 */
+  @media print {
+    body { padding: 0; max-width: none; font-size: 10.5pt; }
+    h2 { page-break-after: avoid; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    pre, table, .meta-card, .info-banner, .warning-banner, .good-banner { page-break-inside: avoid; }
+    pre { background: #f1f5f9 !important; color: var(--text) !important; border: 1px solid var(--border); }
+    pre code { color: var(--text) !important; }
+    .toc { page-break-after: always; }
+    a { color: var(--text) !important; }
+    .badge { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<h1>
+  JuriCode-JP アーキテクチャ設計
+  <span class="subtitle">v0.1 / 2026-05-18 初版 / Phase 1 実装の青写真</span>
+</h1>
+
+<div class="meta-card">
+  <div class="item"><span class="label">バージョン</span><span class="value">v0.1</span></div>
+  <div class="item"><span class="label">対象</span><span class="value">Phase 1(2026-2027、警察関連法令)</span></div>
+  <div class="item"><span class="label">関連</span><span class="value"><a href="ir-spec.html">ir-spec.html</a> / <a href="format-spec.md">format-spec.md</a> / <a href="strategy.md">strategy.md</a></span></div>
+  <div class="item"><span class="label">最終更新</span><span class="value">2026-05-18</span></div>
+</div>
+
+<div class="toc">
+  <div class="toc-title">目次</div>
+  <ol>
+    <li><a href="#sec1">概要</a></li>
+    <li><a href="#sec2">リポジトリ全体構造</a></li>
+    <li><a href="#sec3">tools/ サブパッケージ詳細</a></li>
+    <li><a href="#sec4">データフロー詳細</a></li>
+    <li><a href="#sec5">ストレージレイアウト</a></li>
+    <li><a href="#sec6">パイプライン CLI 設計</a></li>
+    <li><a href="#sec7">テスト戦略</a></li>
+    <li><a href="#sec8">依存関係</a></li>
+    <li><a href="#sec9">バージョニング</a></li>
+    <li><a href="#sec10">Phase 2/3 への拡張</a></li>
+    <li><a href="#sec11">関連メモリ・記録</a></li>
+  </ol>
+</div>
+
+<h2 id="sec1">1. 概要</h2>
+
+<p>JuriCode-JP は <strong>e-Gov 法令API から取得した XML を、LLM/RAG 最適化された YAML+Markdown コーパスに変換する</strong>パイプラインを核とする。本書はその実装アーキテクチャを定義する。</p>
+
+<h3>1.1 設計原則</h3>
+<ol>
+  <li><strong>段階分離(Stage Separation)</strong>: 取得 → パース → 変換 → 翻訳 → 出力 → 検証 を独立したステージに分離。各ステージは入出力契約だけで結合する。</li>
+  <li><strong>共通中間表現(IR)</strong>: ja-law-parser の <code>Law</code> Pydantic モデルから、JuriCode 独自の <code>JuriCodeArticle</code> IR に変換し、以降の処理は全て IR を流す。詳細は <a href="ir-spec.html">ir-spec.html</a>。</li>
+  <li><strong>車輪の再発明禁止</strong>: e-Gov XML パースは <code>ja-law-parser</code>(takuyaa)に依存、フォーマット変換は将来 <code>Lawtext</code>(yamachig)との相互運用も視野。</li>
+  <li><strong>MIT ライセンス・OSS 原則</strong>: 全コードは MIT、外部依存も MIT/BSD/Apache 互換のみ。</li>
+  <li><strong>テスタブル</strong>: 各ステージはモック可能、ライブ API テストは別レイヤ。</li>
+</ol>
+
+<h3>1.2 高レベルアーキテクチャ図</h3>
+
+<pre class="flow">┌─────────────────────────────────────────────────────────────┐
+│                    e-Gov 法令API v2                          │
+│         https://laws.e-gov.go.jp/api/2/                     │
+└──────────────────────────┬──────────────────────────────────┘
+                           │ XML (標準法 XML スキーマ v3)
+                           ▼
+                ┌──────────────────────┐
+                │   tools/fetch-egov   │  HTTP クライアント + キャッシュ
+                │   ✅ 完成 (v0.1.0)    │
+                └──────────┬───────────┘
+                           │ cache/laws/{law_id}.xml
+                           ▼
+                ┌──────────────────────┐
+                │     tools/parse      │  XML → ja-law-parser Pydantic
+                │   🟡 未着手(takuyaa  │
+                │       依存)          │
+                └──────────┬───────────┘
+                           │ Law (ja_law_parser.model.Law)
+                           ▼
+                ┌──────────────────────┐
+                │   tools/transform    │  Law → JuriCode IR (条文単位)
+                │   ★ 設計済・未実装    │
+                └──────────┬───────────┘
+                           │ list[JuriCodeArticle]
+                           ▼
+            ┌──────────────────────────┐
+            │     tools/translate      │  IR + 公定訳 → IR(英訳統合)
+            │   🟡 未着手(法務省 JLT)  │
+            └──────────┬───────────────┘
+                           │ list[JuriCodeArticle](英訳付き)
+                           ▼
+                ┌──────────────────────┐
+                │     tools/render     │  IR → YAML frontmatter + MD
+                │   ★ 設計済・未実装    │
+                └──────────┬───────────┘
+                           │ data/phase1-police/keihou/keihou-article-36.md
+                           ▼
+                ┌──────────────────────┐
+                │    tools/validate    │  ファイル → schema/*.schema.json 検証
+                │   🟡 未着手           │
+                └──────────────────────┘
+                           │
+                           ▼
+                    ✅ Phase 1 MVP</pre>
+
+<h2 id="sec2">2. リポジトリ全体構造(Phase 1 実装後)</h2>
+
+<p>凡例: <span class="badge badge-done">✅</span> 実装済 / <span class="badge badge-todo">🟡</span> 計画あり未着手 / <span class="badge badge-design">★</span> 設計済・未実装</p>
+
+<pre class="tree">JuriCode-JP/
+├── README.md
+├── CLAUDE.md
+├── LICENSE
+├── .gitignore
+├── docs/
+│   ├── architecture.md             ★ 本書
+│   ├── ir-spec.md                  ★ 中間表現詳細
+│   ├── format-spec.md              ✅ 最終出力フォーマット
+│   ├── strategy.md                 ✅ 段階戦略
+│   ├── differentiation.md          ✅ 先行 OSS との関係
+│   └── glossary.md                 ✅ 日英用語集
+├── schema/
+│   ├── law-frontmatter.schema.json ✅
+│   ├── article.schema.json         ✅
+│   └── case-link.schema.json       ✅
+├── examples/
+│   └── keihou/keihou-article-36.md ✅ 正規参考例
+├── data/
+│   └── phase1-police/              🟡 順次量産
+│       ├── keihou/
+│       │   ├── keihou-article-1.md
+│       │   ├── ... (主要 100-150 条)
+│       │   └── archive/             ← 過去版(将来仕様)
+│       ├── keiji-soshou-hou/
+│       ├── keisatsu-hou/
+│       └── keisatsukan-shokumu-shikkou-hou/
+├── tools/
+│   ├── README.md
+│   ├── shared/                     ★ 新規: 共通モデル
+│   ├── fetch-egov/                 ✅ 完成
+│   ├── parse/                      🟡 ja-law-parser ラッパ
+│   ├── transform/                  ★ 新規
+│   ├── translate/                  🟡 公定訳取り込み
+│   ├── render/                     ★ 新規: IR → YAML+MD
+│   ├── validate/                   🟡 schema 検証
+│   ├── pipeline/                   ★ 新規: オーケストレーション
+│   └── tests/                      ← 統合テスト
+└── .github/
+    ├── ISSUE_TEMPLATE/
+    └── workflows/                  ← CI(将来)</pre>
+
+<h2 id="sec3">3. tools/ サブパッケージ詳細</h2>
+
+<h3>3.1 <code>tools/shared/</code> — 共通モデル・ユーティリティ</h3>
+<p>すべての tools が依存する共通ライブラリ。Pydantic IR、ID 規約、ファイル配置ルールを集約。</p>
+<p><strong>主な公開 API</strong>:</p>
+<ul>
+  <li><code>juricode_shared.ir.JuriCodeArticle</code> — 条文単位の IR</li>
+  <li><code>juricode_shared.ir.CaseReference</code> — 判例リンクの IR</li>
+  <li><code>juricode_shared.ids.make_article_id(law_abbrev, number)</code> — <code>keihou-art-36</code> を生成</li>
+  <li><code>juricode_shared.paths.article_path(law_abbrev, number)</code> — 出力先パスを生成</li>
+</ul>
+<p>依存: pydantic のみ(他の tools/ には依存しない)</p>
+
+<h3>3.2 <code>tools/fetch-egov/</code> <span class="badge badge-done">✅ 完成</span></h3>
+<p>本書 v0.1.0 時点で完成済。詳細は <code>tools/fetch-egov/README.md</code></p>
+
+<h3>3.3 <code>tools/parse/</code></h3>
+<p><strong>役割</strong>: e-Gov XML を <code>ja-law-parser</code>(takuyaa)でパースし、<code>Law</code> Pydantic オブジェクトに変換 → さらに JuriCode IR に変換。</p>
+<p><strong>主な公開 API</strong>:</p>
+<ul>
+  <li><code>juricode_parse.parse_xml(xml: str) -> ja_law_parser.model.Law</code></li>
+  <li><code>juricode_parse.law_to_ir(law: Law, law_abbrev: str) -> list[JuriCodeArticle]</code></li>
+</ul>
+<p>依存: <code>ja-law-parser&gt;=0.3.0</code>, <code>juricode-shared</code>, <code>pydantic</code></p>
+<div class="info-banner">
+  <strong>takuyaa 氏との関係</strong>: <code>jp-oss-outreach.md §4</code> で打診中。<code>ja-law-parser</code> が e-Gov API v2 未対応の場合は、JuriCode-JP 側で PR を出すか、fork メンテを検討。
+</div>
+
+<h3>3.4 <code>tools/transform/</code></h3>
+<p><strong>役割</strong>: Law(法令単位)を Article(条文単位)に分割し、表記揺れを正規化。</p>
+<p><strong>主な公開 API</strong>:</p>
+<ul>
+  <li><code>juricode_transform.split_articles(law: Law) -> list[Article]</code></li>
+  <li><code>juricode_transform.normalize_article_number("第三十六条") -> "36"</code>(漢数字変換)</li>
+  <li><code>juricode_transform.normalize_paragraph_number("２") -> "2"</code>(全角→半角)</li>
+</ul>
+<p>依存: <code>juricode-shared</code></p>
+
+<h3>3.5 <code>tools/translate/</code></h3>
+<p><strong>役割</strong>: 法務省「日本法令外国語訳DB」(JLT-DB)から公定訳を取得し、JuriCode IR にマージ。</p>
+<p><strong>主な公開 API</strong>:</p>
+<ul>
+  <li><code>juricode_translate.fetch_official_translation(law_id, article_number)</code></li>
+  <li><code>juricode_translate.merge_translation(article, translation)</code></li>
+</ul>
+<p>依存: <code>httpx</code>, <code>juricode-shared</code>, <code>juricode-fetch-egov</code></p>
+<div class="warning-banner">
+  <strong>JLT-DB の特殊性</strong>: API がなく、Web スクレイピングまたは一括ダウンロードのみ。翻訳が古いまま放置されている法令も多い(<code>translation_status</code> で明示)。公定訳がない場合は <code>translation_status: draft</code> で <code>machine_translated: true</code> のドラフトを生成。
+</div>
+
+<h3>3.6 <code>tools/render/</code></h3>
+<p><strong>役割</strong>: JuriCode IR を YAML frontmatter + Markdown 形式の最終ファイルに変換。</p>
+<p><strong>主な公開 API</strong>:</p>
+<ul>
+  <li><code>juricode_render.render_yaml(article) -> str</code></li>
+  <li><code>juricode_render.render_markdown(article) -> str</code></li>
+  <li><code>juricode_render.write_file(article, root) -> Path</code></li>
+</ul>
+<p>依存: <code>pyyaml</code>, <code>juricode-shared</code>, <code>jinja2</code></p>
+<p><strong>出力テンプレート</strong>: <code>examples/keihou/keihou-article-36.md</code> をベースに jinja2 化。</p>
+
+<h3>3.7 <code>tools/validate/</code></h3>
+<p><strong>役割</strong>: 生成された Markdown ファイルが schema を満たすか検証。</p>
+<p><strong>主な公開 API</strong>:</p>
+<ul>
+  <li><code>juricode_validate.check_file(path) -> ValidationResult</code></li>
+  <li><code>juricode_validate.check_all(root) -> list[ValidationResult]</code></li>
+  <li><code>juricode_validate.check_case_urls(article)</code>(判例 URL 生存確認、ネット必要)</li>
+</ul>
+<p>依存: <code>jsonschema</code>, <code>pyyaml</code>, <code>httpx</code>, <code>juricode-shared</code></p>
+
+<h3>3.8 <code>tools/pipeline/</code></h3>
+<p><strong>役割</strong>: 全ステージを連結するオーケストレーション。</p>
+
+<pre><code># 刑法を fetch → parse → transform → translate → render → validate
+uv run juricode build keihou
+
+# 刑法 36 条のみ
+uv run juricode build keihou --article 36
+
+# Phase 1 全 4 法令を一括ビルド
+uv run juricode build-phase1
+
+# 既存データの再検証のみ
+uv run juricode validate</code></pre>
+
+<p><strong>主な公開 API</strong>: <code>juricode_pipeline.run(law_abbrev, articles=None) -> BuildResult</code></p>
+<p>依存: 上記すべての tools/</p>
+
+<h2 id="sec4">4. データフロー詳細</h2>
+
+<h3>4.1 標準パイプライン(6 ステージ)</h3>
+<table>
+  <thead><tr><th>#</th><th>ステージ</th><th>入力</th><th>出力</th><th>永続化?</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>fetch</td><td>law_id, as_of</td><td>XML 文字列</td><td>✅ cache/laws/</td></tr>
+    <tr><td>2</td><td>parse</td><td>XML 文字列</td><td><code>Law</code> (Pydantic)</td><td>❌ in-memory</td></tr>
+    <tr><td>3</td><td>transform</td><td><code>Law</code></td><td><code>list[JuriCodeArticle]</code></td><td>❌ in-memory</td></tr>
+    <tr><td>4</td><td>translate</td><td><code>JuriCodeArticle</code></td><td><code>JuriCodeArticle</code>(英訳追加)</td><td>❌ in-memory</td></tr>
+    <tr><td>5</td><td>render</td><td><code>JuriCodeArticle</code></td><td><code>Path</code>(書き出し済)</td><td>✅ data/</td></tr>
+    <tr><td>6</td><td>validate</td><td><code>Path</code></td><td><code>ValidationResult</code></td><td>❌(レポートのみ)</td></tr>
+  </tbody>
+</table>
+
+<p>中間ステージは in-memory パス。デバッグ時のみ <code>--dump-ir</code> 等で JSON 出力可能。</p>
+
+<h3>4.2 エラーハンドリング方針</h3>
+<table>
+  <thead><tr><th>エラー</th><th>対応</th></tr></thead>
+  <tbody>
+    <tr><td>fetch: 404 / 5xx</td><td>リトライ 3 回 → 失敗時は警告ログ + 該当法令スキップ</td></tr>
+    <tr><td>parse: XML 構造異常</td><td>エラー詳細を JSON でダンプ、ja-law-parser に Issue 報告候補</td></tr>
+    <tr><td>transform: 想定外の構造(N段ロケット等)</td><td>スキップして警告、<code>tools/manual-review/</code> に隔離</td></tr>
+    <tr><td>translate: 公定訳なし</td><td><code>translation_status: draft</code> で続行</td></tr>
+    <tr><td>render: I/O エラー</td><td>即座に fail-fast</td></tr>
+    <tr><td>validate: schema 違反</td><td>エラー詳細出力、CI 失敗</td></tr>
+  </tbody>
+</table>
+
+<h2 id="sec5">5. ストレージレイアウト</h2>
+
+<h3>5.1 ローカルキャッシュ(.gitignore 対象)</h3>
+<pre class="tree">tools/fetch-egov/cache/
+├── laws/
+│   └── {law_id}.xml          # 最新版
+└── snapshots/
+    └── {law_id}__{date}.xml  # 特定時点</pre>
+
+<h3>5.2 生成物(コミット対象)</h3>
+<pre class="tree">data/phase1-police/{law-abbrev}/
+├── README.md                          ← 各法令の進捗概要
+├── {law-abbrev}-article-{N}.md        ← 主要条文(最新版)
+└── archive/                            ← 過去版(将来仕様)
+    └── {date}/
+        └── {law-abbrev}-article-{N}.md</pre>
+
+<h3>5.3 一時ファイル(.gitignore 対象)</h3>
+<pre class="tree">tools/pipeline/.work/
+├── ir-dump/                  # --dump-ir で出力された JSON
+├── validation-reports/       # 検証結果レポート
+└── logs/                     # パイプライン実行ログ</pre>
+
+<h2 id="sec6">6. パイプライン CLI 設計</h2>
+
+<h3>6.1 基本コマンド</h3>
+<pre><code># 単一法令のビルド
+uv run juricode build keihou
+
+# 単一条文のビルド(デバッグ・テスト用)
+uv run juricode build keihou --article 36
+
+# Phase 1 全 4 法令を並列ビルド
+uv run juricode build-phase1 --parallel
+
+# 特定時点取得
+uv run juricode build keihou --as-of 2020-01-01
+
+# 既存データの再検証のみ
+uv run juricode validate
+uv run juricode validate data/phase1-police/keihou/
+
+# 個別ステージのみ実行(デバッグ用)
+uv run juricode fetch keihou           # → cache/ にのみ保存
+uv run juricode parse keihou --dump-ir # → IR を JSON で出力
+uv run juricode render keihou          # → cache/ からのみ render</code></pre>
+
+<h3>6.2 CI 用コマンド</h3>
+<pre><code># 全データの schema 検証
+uv run juricode validate --strict --exit-on-error
+
+# 全データの判例 URL 生存確認(週次実行)
+uv run juricode validate --check-urls</code></pre>
+
+<h2 id="sec7">7. テスト戦略</h2>
+
+<h3>7.1 単体テスト(各 tools/{X}/tests/)</h3>
+<ul>
+  <li><code>tools/fetch-egov/tests/</code> — モック HTTP、ライブ API なし(✅ 実装済 10 テスト)</li>
+  <li><code>tools/parse/tests/</code> — ja-law-parser の動作を含むサンプル XML テスト</li>
+  <li><code>tools/transform/tests/</code> — 漢数字変換、条文分割の境界条件</li>
+  <li><code>tools/render/tests/</code> — IR → 既知の Markdown 出力の一致確認</li>
+  <li><code>tools/validate/tests/</code> — schema 違反検出の精度</li>
+</ul>
+
+<h3>7.2 統合テスト(tools/tests/integration/)</h3>
+<p>実 API・実データを使うテスト。手動実行(CI では skip):</p>
+<pre><code># 刑法 36 条が「正しく」生成される end-to-end テスト
+uv run pytest tools/tests/integration/test_build_keihou_36.py</code></pre>
+<p>このテストは <code>examples/keihou/keihou-article-36.md</code> を期待値として比較し、パイプライン全体の動作を保証。</p>
+
+<h3>7.3 CI で実行するテスト</h3>
+<table>
+  <thead><tr><th>ワークフロー</th><th>内容</th></tr></thead>
+  <tbody>
+    <tr><td><code>.github/workflows/test.yml</code></td><td>全 tools/ 単体テスト + ruff lint + mypy 型チェック</td></tr>
+    <tr><td><code>.github/workflows/validate-data.yml</code></td><td>全 data/ のスキーマ検証、main ブランチで失敗するとマージ不可</td></tr>
+  </tbody>
+</table>
+
+<h2 id="sec8">8. 依存関係(外部 OSS)</h2>
+
+<h3>8.1 必須依存</h3>
+<table>
+  <thead><tr><th>パッケージ</th><th>用途</th><th>バージョン</th><th>ライセンス</th><th>確保状況</th></tr></thead>
+  <tbody>
+    <tr><td><code>ja-law-parser</code></td><td>XML パース</td><td>&gt;=0.3.0</td><td>MIT</td><td>takuyaa 氏に打診中</td></tr>
+    <tr><td><code>pydantic</code></td><td>データモデル</td><td>&gt;=2.7</td><td>MIT</td><td>安定</td></tr>
+    <tr><td><code>httpx</code></td><td>HTTP クライアント</td><td>&gt;=0.27</td><td>BSD-3</td><td>安定</td></tr>
+    <tr><td><code>click</code></td><td>CLI</td><td>&gt;=8.1</td><td>BSD-3</td><td>安定</td></tr>
+    <tr><td><code>pyyaml</code></td><td>YAML 入出力</td><td>&gt;=6.0</td><td>MIT</td><td>安定</td></tr>
+    <tr><td><code>jinja2</code></td><td>レンダリング</td><td>&gt;=3.1</td><td>BSD-3</td><td>安定</td></tr>
+    <tr><td><code>jsonschema</code></td><td>スキーマ検証</td><td>&gt;=4.0</td><td>MIT</td><td>安定</td></tr>
+  </tbody>
+</table>
+
+<h3>8.2 任意依存</h3>
+<table>
+  <thead><tr><th>パッケージ</th><th>用途</th></tr></thead>
+  <tbody>
+    <tr><td><code>Lawtext</code>(yamachig)</td><td>双方向変換(将来 <code>tools/convert/lawtext/</code>)</td></tr>
+    <tr><td><code>e-Gov MCP</code>(ryoooo)</td><td>リアルタイム法令取得との相互参照(README リンクのみ)</td></tr>
+    <tr><td><code>gitlaw-jp</code>(aluqas)</td><td>設計参考、直接依存なし</td></tr>
+  </tbody>
+</table>
+
+<h3>8.3 開発依存</h3>
+<p><code>pytest</code>, <code>pytest-mock</code>, <code>respx</code>, <code>ruff</code>, <code>mypy</code></p>
+
+<h2 id="sec9">9. バージョニング</h2>
+<p>各 tools/ サブパッケージは独立した SemVer(例: <code>fetch-egov-0.1.0</code>)。</p>
+<p>破壊的変更:</p>
+<ul>
+  <li>IR スキーマの破壊的変更 → <code>juricode-shared</code> のメジャー版アップ</li>
+  <li>出力フォーマットの破壊的変更 → <code>format-spec.md</code> のバージョンアップ + <code>juricode-render</code> のメジャー版アップ</li>
+</ul>
+
+<h2 id="sec10">10. 拡張(Phase 2/3 への備え)</h2>
+
+<h3>10.1 Phase 2(民事・商事、2027〜)で何が変わるか</h3>
+<ul>
+  <li>新法令の追加 → <code>LAW_ID_MAP</code> 拡張、<code>data/phase2-civil/</code> 新設</li>
+  <li><strong>民事判決オープン化(2026 年度運用開始)との接続</strong> → <code>tools/fetch-judgments/</code> 新規パッケージ</li>
+  <li>判例リンクの量が爆発的に増える → IR の <code>cases:</code> フィールドのスケール対応</li>
+</ul>
+
+<h3>10.2 Phase 3(全領域、2028-2030)で何が変わるか</h3>
+<ul>
+  <li>全領域カバー → 並列ビルド最適化、データ量の分割管理</li>
+  <li>国際展開 → <code>legalize.dev</code> 互換のエクスポート機能(<code>tools/export/legalize-dev/</code>)</li>
+  <li>源内 Lawsy-BQ への投入 → <code>tools/export/lawsy-bq/</code></li>
+</ul>
+
+<div class="good-banner">
+  これらすべて、現状のパイプライン構造を拡張する形で実装可能。設計の段階分離が Phase 2/3 でも効きます。
+</div>
+
+<h2 id="sec11">11. 関連メモリ・記録</h2>
+<ul>
+  <li><code>_SESSION_BRIEFING.md</code>(Vault)— 日々の進捗</li>
+  <li><code>business/phase1-implementation-plan-2026.md</code> — 5/28 〜 11 月の月別マイルストン</li>
+  <li>メモリ <code>project_juricode_phase_balance.md</code> — 対外フレーミング vs 内部目標のバランス</li>
+  <li><code>awards/applications/jp-oss-outreach.md</code> — OSS 4 メンテナへの打診戦略</li>
+</ul>
+
+<div class="footer">
+  <p>JuriCode-JP / 株式会社 CHOKAI / 最終更新 2026-05-18</p>
+  <p>次回更新の目安: tools/parse/ 実装着手時、IR スキーマが確定したタイミング</p>
+</div>
+
+</body>
+</html>
