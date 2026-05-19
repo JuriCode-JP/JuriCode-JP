@@ -1,0 +1,39 @@
+---
+law_id: 129AC0000000089
+law_name_ja: 民法
+law_name_en: Civil Code
+article_number: '645'
+article_id: minpou-art-645
+version_date: '1896-04-27'
+source_url: https://laws.e-gov.go.jp/law/129AC0000000089
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-practitioner
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　債権
+  shou: 2
+  shou_name_ja: 第二章　契約
+  setsu: 10
+  setsu_name_ja: 第十節　委任
+---
+
+# 民法 第645条(（受任者による報告）)
+
+## 原文 (日本語)
+
+### 第六百四十五条
+
+受任者は、委任者の請求があるときは、いつでも委任事務の処理の状況を報告し、委任が終了した後は、遅滞なくその経過及び結果を報告しなければならない。

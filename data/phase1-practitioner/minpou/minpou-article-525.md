@@ -1,0 +1,57 @@
+---
+law_id: 129AC0000000089
+law_name_ja: 民法
+law_name_en: Civil Code
+article_number: '525'
+article_id: minpou-art-525
+version_date: '1896-04-27'
+source_url: https://laws.e-gov.go.jp/law/129AC0000000089
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-practitioner
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　債権
+  shou: 2
+  shou_name_ja: 第二章　契約
+  setsu: 1
+  setsu_name_ja: 第一節　総則
+  kan: 1
+  kan_name_ja: 第一款　契約の成立
+---
+
+# 民法 第525条(（承諾の期間の定めのない申込み）)
+
+## 原文 (日本語)
+
+### 第五百二十五条第一項
+
+承諾の期間を定めないでした申込みは、申込者が承諾の通知を受けるのに相当な期間を経過するまでは、撤回することができない。ただし、申込者が撤回をする権利を留保したときは、この限りでない。
+
+### 第五百二十五条第二項
+
+対話者に対してした前項の申込みは、同項の規定にかかわらず、その対話が継続している間は、いつでも撤回することができる。
+
+### 第五百二十五条第三項
+
+対話者に対してした第一項の申込みに対して対話が継続している間に申込者が承諾の通知を受けなかったときは、その申込みは、その効力を失う。ただし、申込者が対話の終了後もその申込みが効力を失わない旨を表示したときは、この限りでない。
