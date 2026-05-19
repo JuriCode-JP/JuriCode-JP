@@ -60,3 +60,6 @@ desktop.ini
 *.env.local
 .secrets/
 credentials.json
+
+# e-Gov XML ローカルキャッシュ (リポ直下)
+/cache/
