@@ -91,7 +91,7 @@ def get_law(
 
     cache: FileCache = ctx.obj["cache"]
     with EGovClient(cache=cache) as client:
-        xml = client.get_law(name_or_id, as_of=as_of, force_refresh=force_refresh)
+        xml = client.get_law(name_or_id, asof=as_of, force_refresh=force_refresh)
 
     if output:
         output.write_text(xml, encoding="utf-8")

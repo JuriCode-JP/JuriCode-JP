@@ -1,0 +1,92 @@
+[
+  {
+    "name": "article_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "JuriCode-JP article unique ID, e.g. 'keihou-art-36'."
+  },
+  {
+    "name": "law_id",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "e-Gov 法令ID (e.g. '140AC0000000045')."
+  },
+  {
+    "name": "law_name_ja",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Law name in Japanese (e.g. '刑法')."
+  },
+  {
+    "name": "law_name_en",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Law name in English (e.g. 'Penal Code'). May be null."
+  },
+  {
+    "name": "article_number",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Article number as a string to preserve forms like '36-2'."
+  },
+  {
+    "name": "paragraph_number",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Paragraph number (1-based). Null when chunk_type='article'."
+  },
+  {
+    "name": "chunk_type",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "Chunk granularity: 'article' or 'paragraph'."
+  },
+  {
+    "name": "text",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "The actual Japanese statutory text content (Markdown stripped)."
+  },
+  {
+    "name": "source_url",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "e-Gov source URL for the law."
+  },
+  {
+    "name": "source_format",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Origin format: 'e-gov-xml' / 'e-gov-html' / 'manual' / 'import-lawtext'."
+  },
+  {
+    "name": "version_date",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Effective date of the current article text (ISO yyyy-mm-dd)."
+  },
+  {
+    "name": "last_verified",
+    "type": "DATE",
+    "mode": "NULLABLE",
+    "description": "Date the article was last cross-checked against the original."
+  },
+  {
+    "name": "license",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "License of this JuriCode-JP record (typically 'MIT')."
+  },
+  {
+    "name": "translation_status",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Translation status: 'official' / 'community' / 'draft' / 'none'."
+  },
+  {
+    "name": "tags",
+    "type": "STRING",
+    "mode": "REPEATED",
+    "description": "Topic tags (phase, law category, concept, procedure, stakeholder)."
+  }
+]

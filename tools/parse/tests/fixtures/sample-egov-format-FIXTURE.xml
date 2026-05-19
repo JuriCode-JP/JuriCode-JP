@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ⚠️  TEST FIXTURE — NOT REAL LAW TEXT  ⚠️
+
+  これは tools/parse/parse-egov.py の動作確認のためだけの合成 XML です.
+  本文は実際の法令ではなく、明らかにダミーとわかる "テスト用文" のみ.
+  data/ 配下には絶対に投入しないでください.
+
+  実 e-Gov XML を取得するには、手元で:
+    cd tools/fetch-egov
+    uv run fetch-egov get-law keisatsukan-shokumu-shikkou-hou \
+        -o ../../cache/323AC0000000136.xml
+
+  その後 tools/parse/parse-egov.py に食わせてください.
+-->
+<Law Era="Showa" Year="23" LawType="Act" Num="136"
+     PromulgateMonth="07" PromulgateDay="12">
+  <LawNum>昭和二十三年法律第百三十六号(テスト用フィクスチャ)</LawNum>
+  <LawBody>
+    <LawTitle>JuriCode-JP テスト用ダミー法令</LawTitle>
+    <MainProvision>
+      <Article Num="1">
+        <ArticleCaption>(この法律の目的)</ArticleCaption>
+        <ArticleTitle>第一条</ArticleTitle>
+        <Paragraph Num="1">
+          <ParagraphNum/>
+          <ParagraphSentence>
+            <Sentence>これはテスト用ダミー条文の第一条第一項です。parse-egov.pyの動作確認に用います。</Sentence>
+          </ParagraphSentence>
+        </Paragraph>
+      </Article>
+      <Article Num="2">
+        <ArticleCaption>(二項構造のテスト)</ArticleCaption>
+        <ArticleTitle>第二条</ArticleTitle>
+        <Paragraph Num="1">
+          <ParagraphNum/>
+          <ParagraphSentence>
+            <Sentence>これは第二条第一項のテスト用ダミーテキストです。複数項の処理が正しく動くか確認します。</Sentence>
+          </ParagraphSentence>
+        </Paragraph>
+        <Paragraph Num="2">
+          <ParagraphNum>2</ParagraphNum>
+          <ParagraphSentence>
+            <Sentence>これは第二条第二項のテスト用ダミーテキストです。改行と前後空白の正規化を確認します。</Sentence>
+          </ParagraphSentence>
+        </Paragraph>
+      </Article>
+      <Article Num="3">
+        <ArticleTitle>第三条</ArticleTitle>
+        <Paragraph Num="1">
+          <ParagraphNum/>
+          <ParagraphSentence>
+            <Sentence>これは第三条のテスト用ダミーテキストです。ArticleCaptionがない条文の処理を確認します。</Sentence>
+          </ParagraphSentence>
+        </Paragraph>
+      </Article>
+    </MainProvision>
+  </LawBody>
+</Law>

@@ -59,6 +59,12 @@ jobs:
       - name: Validate all law data files
         run: python tools/validate/validate-all.py
 
+      - name: Verify source-manifest hashes (parse pipeline / Layer 3)
+        # data/ 配下の _source-manifest.json と Markdown 本文の hash 整合確認.
+        # 法令本文の改変・誤転記を CI で機械的に検知する.
+        # 詳細: docs/verification-framework.md
+        run: python tools/parse/verify.py --path data
+
       - name: Regenerate JSON Schema and check for drift
         run: |
           python tools/shared/scripts/export-schema.py

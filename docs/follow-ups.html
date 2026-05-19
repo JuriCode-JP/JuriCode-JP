@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JuriCode-JP Follow-up Tracker (v0.3)</title>
+<style>
+:root {
+  --c-bg: #fafaf7;
+  --c-surface: #ffffff;
+  --c-text: #2b2b2b;
+  --c-text-soft: #585858;
+  --c-border: #e2e2dc;
+  --c-link: #0b66c3;
+  --c-link-hover: #084a8e;
+  --c-code-bg: #f2f1ec;
+  --c-p0: #c0392b;
+  --c-p0-bg: #fdecea;
+  --c-p1: #d68910;
+  --c-p1-bg: #fdf2e2;
+  --c-p2: #117a65;
+  --c-p2-bg: #e6f4f1;
+  --c-p3: #34495e;
+  --c-p3-bg: #ecf0f3;
+  --c-done: #2e7d32;
+  --c-done-bg: #e8f5e9;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic UI", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.75;
+  font-feature-settings: "palt";
+}
+.layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  max-width: 1320px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+nav.toc {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding: 28px 18px 28px 24px;
+  border-right: 1px solid var(--c-border);
+  background: var(--c-surface);
+  overflow-y: auto;
+  font-size: 13px;
+}
+nav.toc .toctitle {
+  font-weight: 600;
+  margin-bottom: 12px;
+  letter-spacing: 0.06em;
+  color: var(--c-text-soft);
+  text-transform: uppercase;
+  font-size: 11px;
+}
+nav.toc .toc > ul { padding-left: 0; }
+nav.toc ul { list-style: none; padding-left: 14px; margin: 0; }
+nav.toc > .toc > ul > li > a { font-weight: 600; }
+nav.toc li { margin: 1px 0; }
+nav.toc a {
+  color: var(--c-text-soft);
+  text-decoration: none;
+  display: block;
+  padding: 3px 6px;
+  border-radius: 4px;
+  line-height: 1.4;
+}
+nav.toc a:hover { color: var(--c-link); background: var(--c-code-bg); }
+nav.toc .toc > ul > li > ul > li > a { font-weight: 500; color: #444; }
+main {
+  padding: 32px 56px 80px;
+  background: var(--c-surface);
+  max-width: 980px;
+  margin: 0 auto;
+  width: 100%;
+}
+.header {
+  border-bottom: 2px solid var(--c-border);
+  margin-bottom: 28px;
+  padding-bottom: 18px;
+}
+.header .meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 12px;
+  color: var(--c-text-soft);
+  align-items: center;
+}
+.header .pill {
+  display: inline-block;
+  padding: 3px 11px;
+  border-radius: 999px;
+  background: var(--c-code-bg);
+  font-weight: 500;
+}
+.header .pill.p0 { background: var(--c-p0-bg); color: var(--c-p0); }
+.header .pill.p1 { background: var(--c-p1-bg); color: var(--c-p1); }
+.header .pill.p2 { background: var(--c-p2-bg); color: var(--c-p2); }
+.header .pill.p3 { background: var(--c-p3-bg); color: var(--c-p3); }
+h1 { font-size: 28px; margin: 0; line-height: 1.3; }
+h2 {
+  font-size: 22px;
+  margin: 56px 0 14px;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border-left: 5px solid var(--c-border);
+  background: var(--c-code-bg);
+}
+h2[id^="p0"] { border-left-color: var(--c-p0); background: var(--c-p0-bg); }
+h2[id^="p1"] { border-left-color: var(--c-p1); background: var(--c-p1-bg); }
+h2[id^="p2"] { border-left-color: var(--c-p2); background: var(--c-p2-bg); }
+h2[id^="p3"] { border-left-color: var(--c-p3); background: var(--c-p3-bg); }
+h2[id^="_"], h2[id^="2026"] { border-left-color: var(--c-done); background: var(--c-done-bg); }
+h3 {
+  font-size: 16px;
+  margin: 28px 0 8px;
+  padding: 6px 0 6px 12px;
+  border-left: 3px solid var(--c-border);
+  font-weight: 600;
+}
+h3[id^="fu-p0"] { border-left-color: var(--c-p0); }
+h3[id^="fu-0"] { border-left-color: var(--c-p1); }
+h3[id^="fu-1"] { border-left-color: var(--c-p2); }
+h3[id^="fu-2"] { border-left-color: var(--c-p3); }
+.cb {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  border-radius: 3px;
+  border: 1.5px solid var(--c-text-soft);
+  background: var(--c-surface);
+  color: transparent;
+  margin-right: 8px;
+  vertical-align: -2px;
+  font-size: 13px;
+}
+.cb.done {
+  border-color: var(--c-done);
+  background: var(--c-done);
+  color: white;
+}
+.fuid {
+  font-family: "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  font-size: 13px;
+  padding: 1px 7px;
+  background: var(--c-code-bg);
+  border-radius: 3px;
+  margin-right: 8px;
+  font-weight: 500;
+}
+h3[id^="fu-p0"] .fuid { background: var(--c-p0-bg); color: var(--c-p0); }
+h3[id^="fu-0"] .fuid { background: var(--c-p1-bg); color: var(--c-p1); }
+h3[id^="fu-1"] .fuid { background: var(--c-p2-bg); color: var(--c-p2); }
+h3[id^="fu-2"] .fuid { background: var(--c-p3-bg); color: var(--c-p3); }
+p, ul, ol { margin: 10px 0; }
+ul li, ol li { margin: 4px 0; }
+hr {
+  border: 0;
+  height: 1px;
+  background: var(--c-border);
+  margin: 36px 0;
+}
+a { color: var(--c-link); text-decoration: none; }
+a:hover { color: var(--c-link-hover); text-decoration: underline; }
+code {
+  background: var(--c-code-bg);
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-family: "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+  font-size: 0.88em;
+}
+pre {
+  background: #1f2430;
+  color: #e6e6e6;
+  padding: 14px 18px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 1.55;
+}
+pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+  font-size: inherit;
+}
+.hl .k, .hl .kn, .hl .kd { color: #c792ea; }
+.hl .s, .hl .s1, .hl .s2 { color: #c3e88d; }
+.hl .nb { color: #82aaff; }
+.hl .mi, .hl .mf { color: #f78c6c; }
+.hl .c, .hl .c1 { color: #6e7d8a; font-style: italic; }
+.hl .nf, .hl .nc { color: #82aaff; }
+.hl .o { color: #89ddff; }
+blockquote {
+  border-left: 3px solid var(--c-border);
+  margin: 14px 0;
+  padding: 8px 16px;
+  color: var(--c-text-soft);
+  background: var(--c-code-bg);
+  border-radius: 0 4px 4px 0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 14px 0;
+  font-size: 14px;
+}
+table th {
+  background: var(--c-code-bg);
+  text-align: left;
+  font-weight: 600;
+}
+table th, table td {
+  border: 1px solid var(--c-border);
+  padding: 7px 12px;
+  vertical-align: top;
+}
+table tr:nth-child(even) td { background: #fafafa; }
+strong { color: var(--c-text); }
+em { color: var(--c-text-soft); }
+.footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  border-top: 1px solid var(--c-border);
+  color: var(--c-text-soft);
+  font-size: 12px;
+}
+@media (max-width: 920px) {
+  .layout { grid-template-columns: 1fr; }
+  nav.toc { position: static; height: auto; max-height: 320px; border-right: none; border-bottom: 1px solid var(--c-border); }
+  main { padding: 24px 18px 60px; }
+}
+@media print {
+  body { background: white; font-size: 11pt; }
+  .layout { display: block; }
+  nav.toc { display: none; }
+  main { max-width: 100%; padding: 0; }
+  h2, h3 { break-after: avoid; }
+  pre, table { break-inside: avoid; }
+  a { color: black; text-decoration: none; }
+}
+</style>
+</head>
+<body>
+<div class="layout">
+  <nav class="toc">
+    <div class="toctitle">目次</div>
+    <div class="toc">
+<ul>
+<li><a href="#follow-up-tracker-known-limitations-future-work">Follow-up Tracker — Known Limitations &amp; Future Work</a><ul>
+<li><a href="#p0-phase-1-gate-keeper-528">P0 — Phase 1 ロールアウト gate-keeper (5/28 提出後すぐ着手)</a><ul>
+<li><a href="#fu-p0-1-toolsparse-mvp-nlnet-m2">[ ] FU-P0-1: tools/parse/ MVP の設計と着手 (NLnet M2)</a></li>
+<li><a href="#fu-p0-2-phase-1-2026-05-19">[ ] FU-P0-2: 自治体ユース対応の追加法令を Phase 1 スコープに含める (2026-05-19 追加)</a></li>
+<li><a href="#fu-p0-3-toolsexportlawsy-bq-nlnet-m5">[ ] FU-P0-3: tools/export/lawsy-bq/ の骨子設計 (NLnet M5)</a></li>
+<li><a href="#fu-p0-4-source">[ ] FU-P0-4: データ source の法的整合性レビュー</a></li>
+<li><a href="#fu-p0-5-phase-1">[ ] FU-P0-5: Phase 1 の人月配分・外注/コントリビューター動員設計</a></li>
+</ul>
+</li>
+<li><a href="#p1-phase-1-2026-06">P1 — Phase 1 着手前 (〜2026-06 末)</a><ul>
+<li><a href="#fu-001-case_id">[ ] FU-001: case_id の命名規約を確定する</a></li>
+<li><a href="#fu-002-pathspy">[ ] FU-002: ファイル名規約を paths.py に集約する</a></li>
+<li><a href="#fu-003-pydantic-validationerror-structured">[ ] FU-003: Pydantic ValidationError の structured 出力化</a></li>
+<li><a href="#fu-004">[ ] FU-004: 失敗ケーステスト追加</a></li>
+<li><a href="#fu-005-ir-specmd-53">[ ] FU-005: ir-spec.md §5.3 警告の実装</a></li>
+<li><a href="#fu-006-2026-05-19">[ ] FU-006: 法令改正の追跡メカニズム設計 (2026-05-19 追加)</a></li>
+</ul>
+</li>
+<li><a href="#p2-phase-1-2026-0709">P2 — Phase 1 中期 (2026-07〜09)</a><ul>
+<li><a href="#fu-101-article_id_pattern">[ ] FU-101: ARTICLE_ID_PATTERN の特殊条文対応</a></li>
+<li><a href="#fu-102-cli-pyprojecttoml-entry-point">[ ] FU-102: CLI を pyproject.toml の entry point 化</a></li>
+<li><a href="#fu-103-juricode-shared-proper-installable">[ ] FU-103: juricode-shared を proper installable に</a></li>
+<li><a href="#fu-104-source_url-pydantichttpurl">[ ] FU-104: source_url を pydantic.HttpUrl 化</a></li>
+<li><a href="#fu-105-law_id-regex">[ ] FU-105: law_id フォーマット regex 化</a></li>
+<li><a href="#fu-106-2026-05-19">[ ] FU-106: 判例リンク取得自動化の方針決定 (2026-05-19 追加)</a></li>
+<li><a href="#fu-107-toolstranslate-mvp-fu-p0-2-2026-05-19">[ ] FU-107: tools/translate/ MVP (旧 FU-P0-2 から降格, 2026-05-19)</a></li>
+</ul>
+</li>
+<li><a href="#p3-phase-1-2026-10-phase-2">P3 — Phase 1 後期以降 (2026-10〜) / Phase 2 検討</a><ul>
+<li><a href="#fu-201-parentsection">[ ] FU-201: ParentSection を多言語対応構造に変更</a></li>
+<li><a href="#fu-202-paragraphtext-spec">[ ] FU-202: Paragraph.text の設計を spec で明文化</a></li>
+<li><a href="#fu-203-frontmatter">[ ] FU-203: frontmatter ダンプ順序の制御</a></li>
+<li><a href="#fu-204-field_validator-info-validationinfo">[ ] FU-204: field_validator の info を ValidationInfo 型に</a></li>
+<li><a href="#fu-205-url">[ ] FU-205: 判例 URL 生存確認スクリプト</a></li>
+<li><a href="#fu-206-ir-2026-05-19">[ ] FU-206: 条文間クロスリファレンスの IR 拡張 (2026-05-19 追加)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+  </nav>
+  <main>
+    <div class="header">
+      <h1>JuriCode-JP Follow-up Tracker</h1>
+      <div class="meta">
+        <span class="pill">v0.3</span>
+        <span>Last updated: 2026-05-19 (2回目)</span>
+        <span>CHOKAI Co.,Ltd.</span>
+        <span class="pill p0">P0 × 5</span>
+        <span class="pill p1">P1 × 6</span>
+        <span class="pill p2">P2 × 7</span>
+        <span class="pill p3">P3 × 6</span>
+      </div>
+    </div>
+    <h1 id="follow-up-tracker-known-limitations-future-work">Follow-up Tracker — Known Limitations &amp; Future Work</h1>
+<blockquote>
+<p>JuriCode-JP の現バージョン (v0.1, 2026-05-18) で<strong>意図的に未実装としている項目</strong>および<strong>改善余地</strong>を一覧化する。</p>
+<p>このファイルは外部コントリビューターと将来の自分への "TODO" 兼 "なぜ今こうなっているか" の説明.
+完了した項目はチェックを入れて行内に commit hash / PR 番号を残す.</p>
+<p><strong>凡例</strong>:
+- <strong>P0</strong> = Phase 1 ロールアウト成立性に関わる gate-keeper. 5/28 NLnet 提出前は文書/設計面、採択結果が出る ~2026-08 までに 1st pass MVP 必須
+- <strong>P1</strong> = Phase 1 着手前 (〜2026-06 末) に潰したい
+- <strong>P2</strong> = Phase 1 中期 (2026-07〜09) に対応
+- <strong>P3</strong> = Phase 1 後期 (2026-10〜) に対応、または Phase 2 で見直し</p>
+</blockquote>
+<hr />
+<h2 id="p0-phase-1-gate-keeper-528">P0 — Phase 1 ロールアウト gate-keeper (5/28 提出後すぐ着手)</h2>
+<blockquote>
+<p>2026-05-19 追加 / 同日に方針調整. NLnet 申請書で約束した Phase 1 deliverable と現状実装の乖離を埋める設計判断.
+同日, ターゲットを「警察」から「警察 + 自治体 + 法律実務家」へ拡大 ([[project-juricode-target-users]]), 英訳系 (旧 FU-P0-2) は P2 (FU-107) に降格, 代わりに自治体ユース対応の追加法令 (新 FU-P0-2) を P0 に組み入れ.
+5/28 NLnet 提出までは<strong>設計と着手判断</strong>まで, 採択結果が出る ~2026-08 までに<strong>1st pass MVP</strong>を目標.</p>
+</blockquote>
+<h3 id="fu-p0-1-toolsparse-mvp-nlnet-m2"><span class="cb">☐</span> <span class="fuid">FU-P0-1</span> <code>tools/parse/</code> MVP の設計と着手 (NLnet M2)</h3>
+<p><strong>現状</strong>: <code>tools/parse/</code> は README のみ, コードゼロ.</p>
+<p><strong>問題</strong>: NLnet M2 (€7,000) で「e-Gov XML → JuriCode-JP Markdown converter, 刑法 264 条カバー」を約束しているが,
+12 ヶ月で 264 条を手作業 Markdown 化することは佐藤さん一人では不可能. 自動 converter が<strong>Phase 1 全体の律速</strong>.</p>
+<p><strong>やること</strong>:</p>
+<ol>
+<li>既存 OSS の活用判断: <a href="https://github.com/takuyaa/ja-law-parser">ja-law-parser (takuyaa)</a> と <a href="https://github.com/yamachig/Lawtext">Lawtext (yamachig)</a> の AST が JuriCode-JP IR に変換できるか調査. ゼロから書くより wrapper 化を優先</li>
+<li>最小動作版: 刑法第 36 条 1 件で round-trip (e-Gov XML → IR → Markdown → IR) が通ることを示す</li>
+<li>1st pass MVP: 刑法 1〜10 条が変換できる状態, 残り 254 条は反復で潰す</li>
+</ol>
+<p><strong>スケジュール目処</strong>: 6 月設計, 7 月 MVP, 8〜11 月で 264 条網羅.</p>
+<p><strong>関連</strong>: [[reference-jp-oss-projects]] (OSS 4 名打診戦略, [FU-P0-2] と並列に進める)</p>
+<hr />
+<h3 id="fu-p0-2-phase-1-2026-05-19"><span class="cb">☐</span> <span class="fuid">FU-P0-2</span> 自治体ユース対応の追加法令を Phase 1 スコープに含める (2026-05-19 追加)</h3>
+<p><strong>現状</strong>: data/phase1-police/ は警察用法令 (刑法/刑訴法/警察法/警職法) のみを想定. 自治体ユースに必要な法令が Phase 1 スコープ外.</p>
+<p><strong>問題</strong>: 2026-05-19 にターゲットを「警察」から「警察 + 自治体 + 法律実務家」へ拡大決定 ([[project-juricode-target-users]]). 自治体実務で日常的に参照される
+<strong>行政手続法 / 地方自治法 / 行政不服審査法</strong> が Phase 1 スコープに入っていないと, 8-9 月の「自治体ユース起動」が成立しない.</p>
+<p><strong>やること</strong>:</p>
+<ol>
+<li><code>data/phase1-police/</code> を <code>data/phase1-domestic/</code> 等にリネーム検討 (もしくは並列に <code>data/phase1-administrative/</code> を新設)</li>
+<li>追加対象法令の条文インベントリ作成:
+   - <strong>行政手続法</strong> (88 条)
+   - <strong>地方自治法</strong> (主要条のみ抜粋: 自治体組織・条例制定権・住民監査請求等の核条文)
+   - <strong>行政不服審査法</strong> (主要条)</li>
+<li>追加法令の <code>law_id</code> / 略称 / 英訳 (英訳は枠だけ) を <code>docs/glossary.md</code> に登録</li>
+<li>Phase 1 タイムテーブル更新: 7 月警察, 8-9 月自治体, 10-11 月実務家 (民法主要条 + 検索 UI)</li>
+</ol>
+<p><strong>スケジュール目処</strong>: 6 月中にスコープ確定とインベントリ, 8 月に取得・構造化着手.</p>
+<p><strong>関連</strong>: [[project-juricode-target-users]] — 三本柱の二本目を支える法令データ.</p>
+<hr />
+<h3 id="fu-p0-3-toolsexportlawsy-bq-nlnet-m5"><span class="cb">☐</span> <span class="fuid">FU-P0-3</span> <code>tools/export/lawsy-bq/</code> の骨子設計 (NLnet M5)</h3>
+<p><strong>現状</strong>: <code>tools/export/lawsy-bq/</code> ディレクトリ<strong>未作成</strong>. 設計メモすらない.</p>
+<p><strong>問題</strong>: NLnet M5 (€5,000) で「源内 Lawsy-Custom-BQ exporter + A/B ベンチマーク」を約束. これは JuriCode-JP の対外証明力で
+<strong>最も強い deliverable</strong> (政府 OSS との接続を実物で示す). この実装がないと「Phase 0 plumbing は揃ったが downstream への接続は妄想」
+と取られる. Anthropic OSS Program 再応募 (2026-09) の hedge clause 主張材料にもなる.</p>
+<p><strong>やること</strong>:</p>
+<ol>
+<li>源内 Lawsy-Custom-BQ の BigQuery スキーマ把握 (<code>digital-go-jp/genai-ai-api</code> リポを読む)</li>
+<li>JuriCode-JP Markdown → BigQuery 投入用 JSON-L 変換スクリプト</li>
+<li>ベンチマーク設計: e-Gov 単体 vs JuriCode-JP 拡張の RAG 回答精度比較プロトコル</li>
+<li>ローカル / GCP 個人アカウントで Lawsy-Custom-BQ を動かし, 最初の 10 条で A/B 取れる状態</li>
+</ol>
+<p><strong>スケジュール目処</strong>: 7-8 月設計, 9-10 月ベンチマーク, 11 月に Qiita/note で公開.</p>
+<p><strong>関連</strong>: [[reference-gennai-digital-agency]] (源内エコシステムは Phase 1 の最有力ダウンストリーム)</p>
+<hr />
+<h3 id="fu-p0-4-source"><span class="cb">☐</span> <span class="fuid">FU-P0-4</span> データ source の法的整合性レビュー</h3>
+<p><strong>現状</strong>: e-Gov 利用規約 / 法務省「日本法令外国語訳 DB」利用規約 / 裁判所判決要旨の OSS 配布可否を<strong>法務的にレビューしていない</strong>.</p>
+<p><strong>問題</strong>: MIT 公開と上記 source の規約整合に gray zone がある可能性. 法令本文は政府著作物 (著作権法 13 条) で著作権なしだが,
+(a) e-Gov 利用規約 (再配布条件・帰属表示要求), (b) 法務省訳の community/draft 取込時のクレジット表記, (c) 裁判所サイトの判決全文・要旨の引用範囲 — 各々が MIT 公開と整合するかを<strong>専門家の判断</strong>を仰ぐ必要. 既に違反していると分かった時点で
+Phase 1 deliverable の構成が大きく変わる可能性があり, <strong>Phase 1 着手前に確定</strong>が必要.</p>
+<p><strong>やること</strong>:</p>
+<ol>
+<li>松尾研出身 AI 法務弁護士 (5/17 紹介済) にチケット化</li>
+<li>e-Gov / 法務省 / 裁判所 各々の利用規約原文を整理し相談ペーパーを作成</li>
+<li>レビュー結果を <code>docs/legal-review.md</code> (or 同等) として記録. 必要なら README に "Data Sources &amp; Attribution" セクション追記</li>
+</ol>
+<p><strong>期限</strong>: Phase 1 本格着手 (~2026-07) 前.</p>
+<p><strong>関連</strong>: [[project-juricode-advisory]] (アドバイザー三角形構築中, このタスクは法務弁護士の最初の本気依頼として位置付け)</p>
+<hr />
+<h3 id="fu-p0-5-phase-1"><span class="cb">☐</span> <span class="fuid">FU-P0-5</span> Phase 1 の人月配分・外注/コントリビューター動員設計</h3>
+<p><strong>現状</strong>: 75 条 + tooling 一式を 12 ヶ月 / €30,000 (~480 万円) で仕上げる前提だが, <strong>誰がどれをやるかの内部試算がない</strong>.</p>
+<p><strong>問題</strong>: 佐藤さん一人で全部やる前提だと, CLAUDE.md ポリシー (1 コミット数条 + 検証挟む) で月 6-7 条が上限. 75 条 + parse/translate/lawsy-bq の tooling は破綻する. 一方で 4 名の OSS コントリビューター打診 ([[project-juricode-oss-outreach-strategy]]) や,
+翻訳・判例リサーチ外注の検討は今まで「やる」だけで具体的工数試算がない.</p>
+<p><strong>やること</strong>:</p>
+<ol>
+<li>M1-M6 deliverable ごとの工数試算 (条文整備, parse 実装, translate 実装, lawsy-bq, 判例リサーチ, ドキュメント)</li>
+<li>内製 / 外注 / コントリビューター動員の配分マトリクス</li>
+<li>€30,000 の内訳明細 (外注予算が NLnet 規約上どこまで使えるかの確認含む)</li>
+<li>コントリビューター打診を「採択前提のスケジュール」に統合 (今は別軸で進行中)</li>
+</ol>
+<p><strong>期限</strong>: NLnet 採択結果が出る ~2026-08 までに完成. 採択された日から逆算して動けるように.</p>
+<p><strong>関連</strong>: [[project-juricode-oss-outreach-strategy]], [[project-juricode-anthropic-oss-program]] (依存実績作りの一環としてもこの設計は重要)</p>
+<hr />
+<h2 id="p1-phase-1-2026-06">P1 — Phase 1 着手前 (〜2026-06 末)</h2>
+<h3 id="fu-001-case_id"><span class="cb">☐</span> <span class="fuid">FU-001</span> <code>case_id</code> の命名規約を確定する</h3>
+<p><strong>現状</strong>: サンプルファイル内で 2 種類の表記が混在.</p>
+<ul>
+<li><code>examples/keihou/keihou-article-36.md</code> → <code>scj-1969-12-04-keishu-23-12-1573</code> (法廷略号なし)</li>
+<li><code>tools/shared/tests/test_ir.py</code> 内のテストデータ → <code>scj-pb1-1969-12-04-keishu-23-12-1573</code> (法廷略号 <code>pb1</code> あり)</li>
+<li><code>tools/shared/src/juricode_shared/ids.py</code> の <code>make_case_id()</code> docstring → 法廷略号あり</li>
+</ul>
+<p><strong>両方とも <code>CASE_ID_PATTERN</code> を通る</strong>ため IR validation では落ちないが、コミュニティが追加する判例リンクで規約が拡散する.</p>
+<p><strong>やること</strong>:</p>
+<ol>
+<li><code>docs/ir-spec.md §4.2</code> (<code>case_id</code> セクション) で<strong>正規パターンを明示</strong></li>
+<li>推奨案: 法廷略号は <code>case_id</code> に埋め込まず、別フィールド (<code>bench_abbrev: "first-petty"</code> 等) で持つ. ID は機械的に決まるべき</li>
+<li>既存サンプルとテストデータを統一</li>
+</ol>
+<p><strong>関連</strong>: <code>docs/glossary.md</code> (裁判所略号一覧追加検討)</p>
+<hr />
+<h3 id="fu-002-pathspy"><span class="cb">☐</span> <span class="fuid">FU-002</span> ファイル名規約を <code>paths.py</code> に集約する</h3>
+<p><strong>現状</strong>: <code>{law-abbrev}-article-{N}.md</code> パターンが 3 箇所に重複.</p>
+<ul>
+<li><code>tools/shared/src/juricode_shared/paths.py:29</code> の <code>article_path()</code></li>
+<li><code>tools/validate/_validate.py:84-85</code> の filename mismatch チェック</li>
+<li><code>data/phase1-police/*/README.md</code> の docstring (4 ファイル)</li>
+</ul>
+<p>規約変更時に drift しやすい.</p>
+<p><strong>やること</strong>:</p>
+<div class="hl"><pre><span></span><code><span class="c1"># paths.py に追加</span>
+<span class="k">def</span> <span class="nf">article_filename</span><span class="p">(</span><span class="n">law_abbrev</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">article_number</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
+    <span class="k">return</span> <span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">law_abbrev</span><span class="si">}</span><span class="s2">-article-</span><span class="si">{</span><span class="n">article_number</span><span class="si">}</span><span class="s2">.md&quot;</span>
+</code></pre></div>
+
+<p><code>_validate.py</code> の該当箇所を <code>paths.article_filename()</code> 呼び出しに置き換え.</p>
+<hr />
+<h3 id="fu-003-pydantic-validationerror-structured"><span class="cb">☐</span> <span class="fuid">FU-003</span> <code>Pydantic ValidationError</code> の structured 出力化</h3>
+<p><strong>現状</strong>: <code>tools/validate/_validate.py:78</code> で Pydantic の <code>ValidationError</code> を文字列化してそのまま users に返している. 技術者には読めるが、新規 contributor には厳しい.</p>
+<p><strong>やること</strong>:</p>
+<div class="hl"><pre><span></span><code><span class="k">except</span> <span class="n">ValidationError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">err</span> <span class="ow">in</span> <span class="n">e</span><span class="o">.</span><span class="n">errors</span><span class="p">():</span>
+        <span class="n">loc</span> <span class="o">=</span> <span class="s2">&quot;.&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">err</span><span class="p">[</span><span class="s2">&quot;loc&quot;</span><span class="p">])</span>
+        <span class="n">msg</span> <span class="o">=</span> <span class="n">err</span><span class="p">[</span><span class="s2">&quot;msg&quot;</span><span class="p">]</span>
+        <span class="n">errors</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;field &#39;</span><span class="si">{</span><span class="n">loc</span><span class="si">}</span><span class="s2">&#39; — </span><span class="si">{</span><span class="n">msg</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+</code></pre></div>
+
+<p>フィールドパス + 短い説明の形式に整形.</p>
+<hr />
+<h3 id="fu-004"><span class="cb">☐</span> <span class="fuid">FU-004</span> 失敗ケーステスト追加</h3>
+<p><strong>現状</strong>: 41 件のテストはあるが、以下の failure path が未カバー.</p>
+<ul>
+<li>空 frontmatter (<code>---\n---</code>)</li>
+<li>frontmatter デリミタ 1 つだけ</li>
+<li>不正 YAML (<code>key: : value</code> 等)</li>
+<li>ParentSection 全 5 レベル (hen/shou/setsu/kan/moku) 同時指定</li>
+<li><code>english_translation.paragraphs</code> の長さが <code>paragraphs</code> と異なるケース</li>
+</ul>
+<p><strong>やること</strong>: 上記を <code>tests/test_ir.py</code> / <code>tests/test_frontmatter.py</code> に追加.</p>
+<hr />
+<h3 id="fu-005-ir-specmd-53"><span class="cb">☐</span> <span class="fuid">FU-005</span> <code>ir-spec.md §5.3</code> 警告の実装</h3>
+<p><strong>現状</strong>: 仕様にある以下の warning が未実装.</p>
+<ul>
+<li><code>translation_status == OFFICIAL</code> で <code>english_translation.source</code> が空 → 警告</li>
+<li><code>notes</code> が 500 字超 → 警告</li>
+</ul>
+<p><strong>やること</strong>: <code>tools/validate/_validate.py</code> に warning 出力ロジック追加.</p>
+<hr />
+<h3 id="fu-006-2026-05-19"><span class="cb">☐</span> <span class="fuid">FU-006</span> 法令改正の追跡メカニズム設計 (2026-05-19 追加)</h3>
+<p><strong>現状</strong>: <code>JuriCodeArticle.amendments[]</code> フィールドは IR にあるが, e-Gov 法令 API の change feed を購読して <code>version_date</code> を
+自動更新する仕組みがない. 現状は「公開時点の現行条文を手動でコピー」している.</p>
+<p><strong>問題</strong>: Phase 1 で「現行条文」を看板にする以上, 改正後 1〜2 週でデータが古くなる構造リスク. Phase 2 (民法 ~1,050 条 + 商法 ~850 条) のスケールでは
+手動チェックは破綻する. 月次 diff スクリプトを Phase 1 中期までに用意したい.</p>
+<p><strong>やること</strong>:</p>
+<ol>
+<li>e-Gov 法令 API の更新通知 / 差分取得手法を調査 (RSS / Atom / API polling)</li>
+<li><code>tools/track-amendments/</code> (or 同等) スクリプト: 全 JuriCode-JP 条文 vs 最新 e-Gov を月次 diff</li>
+<li>改正検知時に GitHub Issue 自動起票 → コントリビューターが PR で <code>amendments[]</code> を追記する運用</li>
+</ol>
+<p><strong>関連</strong>: [FU-P0-1] (<code>tools/parse/</code>) と base コードを共有できる可能性.</p>
+<hr />
+<h2 id="p2-phase-1-2026-0709">P2 — Phase 1 中期 (2026-07〜09)</h2>
+<h3 id="fu-101-article_id_pattern"><span class="cb">☐</span> <span class="fuid">FU-101</span> <code>ARTICLE_ID_PATTERN</code> の特殊条文対応</h3>
+<p><strong>現状</strong>: <code>r"^[a-z][a-z0-9-]*-art-[0-9]+(-[0-9]+)*$"</code> は附則・経過措置を弾く.</p>
+<p><strong>やること</strong>: パターンを <code>r"^[a-z][a-z0-9-]*-art-([a-z0-9]+)(-[a-z0-9]+)*$"</code> に緩める. または <code>docs/format-spec.md</code> に「Phase 1 では本則のみ、附則は Phase 2」と明記.</p>
+<hr />
+<h3 id="fu-102-cli-pyprojecttoml-entry-point"><span class="cb">☐</span> <span class="fuid">FU-102</span> CLI を <code>pyproject.toml</code> の entry point 化</h3>
+<p><strong>現状</strong>: <code>tools/validate/validate-file.py</code> 等がハイフン命名で Python module としては import できない. <code>sys.path</code> パッチで回避.</p>
+<p><strong>やること</strong>: <code>pyproject.toml</code> に <code>[project.scripts]</code> を追加.</p>
+<div class="hl"><pre><span></span><code><span class="k">[project.scripts]</span><span class="w"></span>
+<span class="n">juricode-validate-file</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;juricode_validate.cli:validate_file_main&quot;</span><span class="w"></span>
+<span class="n">juricode-validate-all</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;juricode_validate.cli:validate_all_main&quot;</span><span class="w"></span>
+</code></pre></div>
+
+<p><code>pip install -e ".[dev]"</code> 後にどこからでも <code>juricode-validate-file path.md</code> で動く.</p>
+<hr />
+<h3 id="fu-103-juricode-shared-proper-installable"><span class="cb">☐</span> <span class="fuid">FU-103</span> <code>juricode-shared</code> を proper installable に</h3>
+<p><strong>現状</strong>: <code>tools/validate/_validate.py</code> に <code>sys.path.insert</code> でパス追加. monorepo の構造変更で壊れやすい.</p>
+<p><strong>やること</strong>: workspace 化. uv または pip-tools で <code>tools/shared</code>, <code>tools/validate</code>, <code>tools/fetch-egov</code> を editable install で一括管理.</p>
+<hr />
+<h3 id="fu-104-source_url-pydantichttpurl"><span class="cb">☐</span> <span class="fuid">FU-104</span> <code>source_url</code> を <code>pydantic.HttpUrl</code> 化</h3>
+<p><strong>現状</strong>: <code>str</code> のみ. URL でない値も通る.</p>
+<p><strong>やること</strong>: <code>tools/shared/src/juricode_shared/ir.py</code> の <code>JuriCodeArticle.source_url</code> を <code>HttpUrl</code> に. 既存サンプルが通るかは事前に検証.</p>
+<hr />
+<h3 id="fu-105-law_id-regex"><span class="cb">☐</span> <span class="fuid">FU-105</span> <code>law_id</code> フォーマット regex 化</h3>
+<p><strong>現状</strong>: <code>str</code> のみ. e-Gov 法令 ID 形式 (例: <code>140AC0000000045</code> = <code>[元号略][年]AC[type][番号]</code>) を強制していない.</p>
+<p><strong>やること</strong>: 正確な形式を <code>docs/ir-spec.md</code> に書いた上で regex 化.</p>
+<hr />
+<h3 id="fu-106-2026-05-19"><span class="cb">☐</span> <span class="fuid">FU-106</span> 判例リンク取得自動化の方針決定 (2026-05-19 追加)</h3>
+<p><strong>現状</strong>: 判例リンクは「裁判所 Web の永続 URL を手動でコピー」する想定. 取得自動化は未設計, 商用 DB との関係も未整理.</p>
+<p><strong>問題</strong>: NLnet M3 (€6,000) で「判例キュレーション・パイプライン」を約束しているが, 実装方針が決まっていない. 選択肢:</p>
+<ul>
+<li>(a) 裁判所サイト (<code>courts.go.jp</code>) HTML スクレイピング — permalink あり, ただし全文検索 API なし, スクレイピング規約要確認</li>
+<li>(b) 商用 DB 経由 (LIC 判例秘書, TKC LEX/DB) — メタデータは取れる可能性あるが MIT 公開との整合要レビュー</li>
+<li>(c) 手動キュレーション + コミュニティ動員 — Phase 1 では現実的, ただし Phase 2 でスケールせず</li>
+</ul>
+<p><strong>やること</strong>:</p>
+<ol>
+<li>各選択肢の (i) 法的整合性, (ii) スケール, (iii) 工数 を一覧化</li>
+<li>Phase 1 の方針 (おそらく (c) ベース) と Phase 2 へのスケール戦略を <code>docs/case-law-strategy.md</code> (or 同等) に明記</li>
+<li>FU-P0-4 (法務レビュー) と連動: 判決全文・要旨の OSS 配布範囲の判断材料を法務弁護士に確認</li>
+</ol>
+<p><strong>関連</strong>: [FU-205] (判例 URL 生存確認スクリプト) はこの方針が決まってから設計.</p>
+<hr />
+<h3 id="fu-107-toolstranslate-mvp-fu-p0-2-2026-05-19"><span class="cb">☐</span> <span class="fuid">FU-107</span> <code>tools/translate/</code> MVP (旧 FU-P0-2 から降格, 2026-05-19)</h3>
+<p><strong>降格理由</strong>: 2026-05-19 にターゲットを国内三本柱 (警察 + 自治体 + 法律実務家) に再定義 ([[project-juricode-target-users]]).
+英訳は国際拡張側の deliverable であり, 国内ユース (源内接続・自治体・法律実務家) には必須でない. NLnet ナラティブには残すが,
+実装優先度は Phase 1 中期 (2026-07〜09) に降格. spec の <code>english_translation</code> フィールドは枠だけ残し中身は空で運用可能.</p>
+<p><strong>現状</strong>: <code>tools/translate/</code> は README のみ, コードゼロ.</p>
+<p><strong>やること</strong>:</p>
+<ol>
+<li>法務省「日本法令外国語訳 DB」の取得手法決定 (API か, スクレイピングか, バルクダウンロードか)</li>
+<li>公定訳と JuriCode-JP IR のマッピング (Paragraph 単位 / 条文単位の粒度)</li>
+<li>draft 訳パイプライン: Claude API で生成 → <code>translation_status: draft</code> + <code>machine_translated: true</code> で書き出し</li>
+<li>PR レビュー時のチェック: <code>translation_status: official</code> 主張なら公定訳 source URL 必須 (FU-005 の warning と統合)</li>
+</ol>
+<p><strong>NLnet M4 (€5,000) との関係</strong>: NLnet 採択時の進捗報告では「英訳パイプラインは Phase 1 中で MVP, 充実化は Phase 2 (2027〜)」と説明可能.</p>
+<hr />
+<h2 id="p3-phase-1-2026-10-phase-2">P3 — Phase 1 後期以降 (2026-10〜) / Phase 2 検討</h2>
+<h3 id="fu-201-parentsection"><span class="cb">☐</span> <span class="fuid">FU-201</span> <code>ParentSection</code> を多言語対応構造に変更</h3>
+<p><strong>現状</strong>: <code>hen: int + hen_name_ja + hen_name_en</code> flat 構造. 中国語・韓国語追加時にフィールドが増殖.</p>
+<p><strong>Phase 2 でやること</strong> (Phase 1 中は不要):</p>
+<div class="hl"><pre><span></span><code><span class="k">class</span> <span class="nc">ParentLevel</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">number</span><span class="p">:</span> <span class="nb">int</span>
+    <span class="n">names</span><span class="p">:</span> <span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]</span>  <span class="c1"># {&quot;ja&quot;: &quot;第一編 総則&quot;, &quot;en&quot;: &quot;Part I&quot;, ...}</span>
+
+<span class="k">class</span> <span class="nc">ParentSection</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">hen</span><span class="p">:</span> <span class="n">ParentLevel</span> <span class="o">|</span> <span class="kc">None</span>
+    <span class="n">shou</span><span class="p">:</span> <span class="n">ParentLevel</span> <span class="o">|</span> <span class="kc">None</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p>ただし Phase 1 では JA/EN のみで足りるため、データマイグレーションコストとのトレードオフで判断.</p>
+<hr />
+<h3 id="fu-202-paragraphtext-spec"><span class="cb">☐</span> <span class="fuid">FU-202</span> <code>Paragraph.text</code> の設計を spec で明文化</h3>
+<p><strong>現状</strong>: <code>text</code> は frontmatter には含まれず Markdown body から <code>tools/parse/</code> で埋める設計だが、ir.py の docstring にしか書かれていない. 外部の IR JSON 利用者は気付けない.</p>
+<p><strong>やること</strong>: <code>docs/ir-spec.md §3.2</code> に「frontmatter には text を載せない、body から populate される」を明記. 必要なら <code>IRMetaOnly</code> / <code>IRWithBody</code> の型分離も検討.</p>
+<hr />
+<h3 id="fu-203-frontmatter"><span class="cb">☐</span> <span class="fuid">FU-203</span> frontmatter ダンプ順序の制御</h3>
+<p><strong>現状</strong>: <code>frontmatter.dump_frontmatter()</code> は Pydantic model 定義順で出力. canonical sample のキー順と微妙にずれる可能性. round-trip 自体は問題ないが PR diff が肥大化する.</p>
+<p><strong>やること</strong>: 重要度低. canonical なフィールド順序を <code>_FIELD_ORDER</code> リストで明示制御.</p>
+<hr />
+<h3 id="fu-204-field_validator-info-validationinfo"><span class="cb">☐</span> <span class="fuid">FU-204</span> <code>field_validator</code> の <code>info</code> を <code>ValidationInfo</code> 型に</h3>
+<p><strong>現状</strong>: <code>info: Any</code> で書いている (Pydantic v2 の型を明示していない).</p>
+<p><strong>やること</strong>:</p>
+<div class="hl"><pre><span></span><code><span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">ValidationInfo</span>
+
+<span class="nd">@field_validator</span><span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">some_validator</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">info</span><span class="p">:</span> <span class="n">ValidationInfo</span><span class="p">):</span>
+    <span class="o">...</span>
+</code></pre></div>
+
+<p>mypy / pyright で型がより厳密に追える.</p>
+<hr />
+<h3 id="fu-205-url"><span class="cb">☐</span> <span class="fuid">FU-205</span> 判例 URL 生存確認スクリプト</h3>
+<p><strong>現状</strong>: <code>tools/validate/</code> の README で予告済みだが未実装.</p>
+<p><strong>やること</strong>: <code>tools/validate/check-case-urls.py</code> を実装. <code>--since-days 30</code> で過去 30 日以内に未確認の URL を再検証. 503/404 を warning にする.</p>
+<hr />
+<h3 id="fu-206-ir-2026-05-19"><span class="cb">☐</span> <span class="fuid">FU-206</span> 条文間クロスリファレンスの IR 拡張 (2026-05-19 追加)</h3>
+<p><strong>現状</strong>: Pydantic IR は「1 条」単位での構造化に閉じていて, 条文間の参照 (例: 刑法 36 条 1 項 ↔ 刑法 36 条 2 項, 刑法 36 条 ↔ 刑事訴訟法 198 条) を機械可読に表現する仕組みがない.</p>
+<p><strong>問題</strong>: Phase 1 (4 法令 ~75 条) では影響小. ただし Phase 2 (民法・商法) で他法律への参照が爆発的に増えると, RAG 用途で「関連条文を辿る」探索クエリが弱くなる. 後付け改修は IR 破壊変更で migration コスト大.</p>
+<p><strong>やること</strong> (Phase 2 着手前 or 必要が出たタイミング):</p>
+<div class="hl"><pre><span></span><code><span class="k">class</span> <span class="nc">ArticleReference</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="n">law_id</span><span class="p">:</span> <span class="nb">str</span>         <span class="c1"># 参照先法令ID</span>
+    <span class="n">article_id</span><span class="p">:</span> <span class="nb">str</span>     <span class="c1"># 参照先 article_id</span>
+    <span class="n">paragraph</span><span class="p">:</span> <span class="nb">int</span> <span class="o">|</span> <span class="kc">None</span>  <span class="c1"># 参照先項番号 (任意)</span>
+    <span class="n">relation</span><span class="p">:</span> <span class="n">Literal</span><span class="p">[</span><span class="s2">&quot;see-also&quot;</span><span class="p">,</span> <span class="s2">&quot;supersedes&quot;</span><span class="p">,</span> <span class="s2">&quot;supersededby&quot;</span><span class="p">,</span> <span class="s2">&quot;implements&quot;</span><span class="p">,</span> <span class="o">...</span><span class="p">]</span>
+
+<span class="k">class</span> <span class="nc">JuriCodeArticle</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
+    <span class="o">...</span>
+    <span class="n">references</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="n">ArticleReference</span><span class="p">]</span> <span class="o">=</span> <span class="n">Field</span><span class="p">(</span><span class="n">default_factory</span><span class="o">=</span><span class="nb">list</span><span class="p">)</span>
+</code></pre></div>
+
+<p>graph traversal を考慮するなら別途グラフ DB (Neo4j 等) への export 検討.</p>
+<p><strong>関連</strong>: [FU-201] (ParentSection 多言語化) と</p>
+    <div class="footer">
+      Generated from <code>docs/follow-ups.md</code> v0.3 / 親文書: <a href="follow-ups.md">follow-ups.md</a>
+    </div>
+  </main>
+</div>
+</body>
+</html>
