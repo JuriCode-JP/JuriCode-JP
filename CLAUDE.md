@@ -99,6 +99,10 @@ JuriCode-JP/
 | 民法 | `minpou` |
 | 商法 | `shouhou` |
 | 会社法 | `kaisha-hou` |
+| 国税通則法 | `kokuzei-tsuusoku-hou` |
+| 法人税法 | `houjin-zei-hou` |
+| 所得税法 | `shotoku-zei-hou` |
+| 消費税法 | `shouhi-zei-hou` |
 
 新法令を追加するときは `docs/glossary.md` に略称を登録してから作業すること。
 

@@ -32,6 +32,15 @@ LAW_ID_MAP: dict[str, str] = {
     "commercial-code": "132AC0000000048",
     "kaisha-hou": "417AC0000000086",
     "companies-act": "417AC0000000086",
+    # 税法 (Phase 1 拡張: 税理士向け)
+    "kokuzei-tsuusoku-hou": "337AC0000000066",
+    "act-on-general-rules-for-national-taxes": "337AC0000000066",
+    "houjin-zei-hou": "340AC0000000034",
+    "corporation-tax-act": "340AC0000000034",
+    "shotoku-zei-hou": "340AC0000000033",
+    "income-tax-act": "340AC0000000033",
+    "shouhi-zei-hou": "363AC0000000108",
+    "consumption-tax-act": "363AC0000000108",
     # その他
     "dokusen-kinshi-hou": "322AC0000000054",
     "antimonopoly-act": "322AC0000000054",

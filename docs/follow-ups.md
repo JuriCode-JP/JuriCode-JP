@@ -19,45 +19,19 @@
 > 同日, ターゲットを「警察」から「警察 + 自治体 + 法律実務家」へ拡大 ([[project-juricode-target-users]]), 英訳系 (旧 FU-P0-2) は P2 (FU-107) に降格, 代わりに自治体ユース対応の追加法令 (新 FU-P0-2) を P0 に組み入れ.
 > 5/28 NLnet 提出までは**設計と着手判断**まで, 採択結果が出る ~2026-08 までに**1st pass MVP**を目標.
 
-### [ ] FU-P0-1: `tools/parse/` MVP の設計と着手 (NLnet M2)
+### [x] FU-P0-1: `tools/parse/` MVP の設計と着手 (NLnet M2) — ✅ 完了 2026-05-19
 
-**現状**: `tools/parse/` は README のみ, コードゼロ.
+`tools/parse/parse-egov.py` (18KB) + `verify.py` + `_canonicalize.py` を実装. Phase 1 警察 1,118 条 + 自治体 651 条 = **1,769 条を ingest 済み** (NLnet M2 約束 264 条の 6.7 倍).
 
-**問題**: NLnet M2 (€7,000) で「e-Gov XML → JuriCode-JP Markdown converter, 刑法 264 条カバー」を約束しているが,
-12 ヶ月で 264 条を手作業 Markdown 化することは佐藤さん一人では不可能. 自動 converter が**Phase 1 全体の律速**.
-
-**やること**:
-
-1. 既存 OSS の活用判断: [ja-law-parser (takuyaa)](https://github.com/takuyaa/ja-law-parser) と [Lawtext (yamachig)](https://github.com/yamachig/Lawtext) の AST が JuriCode-JP IR に変換できるか調査. ゼロから書くより wrapper 化を優先
-2. 最小動作版: 刑法第 36 条 1 件で round-trip (e-Gov XML → IR → Markdown → IR) が通ることを示す
-3. 1st pass MVP: 刑法 1〜10 条が変換できる状態, 残り 254 条は反復で潰す
-
-**スケジュール目処**: 6 月設計, 7 月 MVP, 8〜11 月で 264 条網羅.
-
-**関連**: [[reference-jp-oss-projects]] (OSS 4 名打診戦略, [FU-P0-2] と並列に進める)
+詳細は本ファイル末尾「完了済み」セクション 2026-05-19 参照. 完成度検証 (全件 round-trip / コーナーケース) は P2 [FU-108] に移管.
 
 ---
 
-### [ ] FU-P0-2: 自治体ユース対応の追加法令を Phase 1 スコープに含める (2026-05-19 追加)
+### [x] FU-P0-2: 自治体ユース対応の追加法令を Phase 1 スコープに含める (2026-05-19 追加) — ✅ 完了 2026-05-19
 
-**現状**: data/phase1-police/ は警察用法令 (刑法/刑訴法/警察法/警職法) のみを想定. 自治体ユースに必要な法令が Phase 1 スコープ外.
+`data/phase1-administrative/` を新設し, **地方自治法 516 条 + 行政不服審査法 87 条 + 行政手続法 48 条 = 651 条** を ingest 済み (commit 6ed72d7).
 
-**問題**: 2026-05-19 にターゲットを「警察」から「警察 + 自治体 + 法律実務家」へ拡大決定 ([[project-juricode-target-users]]). 自治体実務で日常的に参照される
-**行政手続法 / 地方自治法 / 行政不服審査法** が Phase 1 スコープに入っていないと, 8-9 月の「自治体ユース起動」が成立しない.
-
-**やること**:
-
-1. `data/phase1-police/` を `data/phase1-domestic/` 等にリネーム検討 (もしくは並列に `data/phase1-administrative/` を新設)
-2. 追加対象法令の条文インベントリ作成:
-   - **行政手続法** (88 条)
-   - **地方自治法** (主要条のみ抜粋: 自治体組織・条例制定権・住民監査請求等の核条文)
-   - **行政不服審査法** (主要条)
-3. 追加法令の `law_id` / 略称 / 英訳 (英訳は枠だけ) を `docs/glossary.md` に登録
-4. Phase 1 タイムテーブル更新: 7 月警察, 8-9 月自治体, 10-11 月実務家 (民法主要条 + 検索 UI)
-
-**スケジュール目処**: 6 月中にスコープ確定とインベントリ, 8 月に取得・構造化着手.
-
-**関連**: [[project-juricode-target-users]] — 三本柱の二本目を支える法令データ.
+詳細は本ファイル末尾「完了済み」セクション 2026-05-19 参照. 要検証項目 (行政手続法の想定 88 条 vs 実装 48 条の差, 地方自治法の本則全文 vs 主要条抜粋の方針確定) は P2 [FU-108] に移管.
 
 ---
 
@@ -316,6 +290,21 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
+### [ ] FU-108: parse-egov.py 全件 round-trip 検証 + 自治体法令の条数妥当性 (2026-05-20 追加)
+
+**現状**: FU-P0-1 (parse MVP) と FU-P0-2 (自治体法令) を 2026-05-19 に 1st pass 完了. 以下が未検証として残る.
+
+**やること**:
+
+1. **全 1,769 条で round-trip 検証**: `tools/parse/verify.py` を全件適用し, e-Gov XML → IR → Markdown → IR の循環が `_source-manifest.json` と整合するかを CI に組み込む
+2. **行政手続法の条数妥当性**: 旧 FU-P0-2 想定の「88 条」と実装 48 条の差分原因を調査. e-Gov 一次資料との照合 (枝番条・附則を含めた網羅範囲を文書化)
+3. **地方自治法の方針確定**: 実装 516 条は本則全文相当. 旧 FU-P0-2 で「主要条のみ抜粋」と書いた方針との整合を `docs/strategy.md` 等で明文化
+4. **コーナーケース coverage**: 附則・経過措置・別表 (parse-egov.py が現状扱わない領域) の整理. [FU-101] (ARTICLE_ID_PATTERN 附則対応) と連動
+
+**関連**: FU-P0-1 / FU-P0-2 の completeness check として位置付け. NLnet M2 進捗報告 (2026-08 採択結果後) の品質エビデンスとしても使える.
+
+---
+
 ## P3 — Phase 1 後期以降 (2026-10〜) / Phase 2 検討
 
 ### [ ] FU-201: `ParentSection` を多言語対応構造に変更
@@ -426,11 +415,16 @@ Phase 2 (~1,900 ファイル) / Phase 3 (数千ファイル) で PR ごとの CI
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-05-19
+
+- ✅ **FU-P0-1: `tools/parse/` MVP** (commit 82a4f6d, 6ed72d7) — `tools/parse/parse-egov.py` (18KB) + `verify.py` + `_canonicalize.py` を実装し, e-Gov XML → JuriCode-JP Markdown 変換器として警察 1,118 条 (commit 82a4f6d) + 自治体 651 条 (commit 6ed72d7) = **合計 1,769 条** を ingest. NLnet M2 約束 264 条の **6.7 倍**を 1st pass で達成. round-trip / コーナーケースの完成度検証は [FU-108] へ移管.
+- ✅ **FU-P0-2: 自治体ユース対応の追加法令** (commit 6ed72d7) — `data/phase1-administrative/` を新設, 地方自治法 516 / 行政不服審査法 87 / 行政手続法 48 = 651 条を実装. 三本柱ターゲット ([[project-juricode-target-users]]) の二本目 (自治体) を支えるデータ基盤が成立. 行政手続法の条数妥当性 (88 想定 vs 48 実装) と地方自治法の本則全文 vs 抜粋方針の確定は [FU-108] へ移管.
+
 ### 2026-05-18
 
-- ✅ **P0-1: `SourceFormat` を 4 値に拡張** — `docs/ir-spec.md §3.1` で `e-gov-html` 追加 + 各値の使い分けガイド付記
-- ✅ **P0-2: IR integrity rule 3 件追加** — `cases_relevant_paragraph_exists`, `english_translation_implies_status`, `machine_translated → DRAFT` 推奨警告
-- ✅ **P0-3: canonical サンプルのタグを vocabulary 準拠に** — `刑事法` を必須カテゴリ B として追加
+- ✅ **P0-1 (旧番号): `SourceFormat` を 4 値に拡張** — `docs/ir-spec.md §3.1` で `e-gov-html` 追加 + 各値の使い分けガイド付記
+- ✅ **P0-2 (旧番号): IR integrity rule 3 件追加** — `cases_relevant_paragraph_exists`, `english_translation_implies_status`, `machine_translated → DRAFT` 推奨警告
+- ✅ **P0-3 (旧番号): canonical サンプルのタグを vocabulary 準拠に** — `刑事法` を必須カテゴリ B として追加
 
 ---
 
@@ -442,4 +436,4 @@ Phase 2 (~1,900 ファイル) / Phase 3 (数千ファイル) で PR ごとの CI
 
 ---
 
-*Last updated: 2026-05-19 (2回目) / Maintained by: CHOKAI Co.,Ltd. / Status: v0.3 — 国内三本柱ターゲット (警察 + 自治体 + 法律実務家) 確定に伴う組み替え. 旧 FU-P0-2 (translate MVP) を FU-107 へ降格, 新 FU-P0-2 「自治体用追加法令の Phase 1 スコープ追加」を P0 に組入れ*
+*Last updated: 2026-05-20 / Maintained by: CHOKAI Co.,Ltd. / Status: v0.4 — FU-P0-1 (parse MVP) と FU-P0-2 (自治体法令) を **完了済みセクションへ移行** (commit 82a4f6d / 6ed72d7, 計 1,769 条). 完成度検証は新規 FU-108 (P2) に切り出し. 残 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
