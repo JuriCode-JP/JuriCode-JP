@@ -7,6 +7,7 @@ verify.py で本文改変を検知する.
 
 詳細設計: docs/verification-framework.md
 """
+
 from __future__ import annotations
 
 import argparse
@@ -15,9 +16,8 @@ import json
 import re
 import sys
 import warnings
-from datetime import date, datetime, timezone
+from datetime import UTC, date, datetime
 from pathlib import Path
-from typing import Any
 
 try:
     import yaml
@@ -28,18 +28,21 @@ except ImportError:
 # bomb. Falls back to stdlib xml.etree with a loud warning.
 try:
     import defusedxml.ElementTree as ET  # type: ignore
+
     _USING_DEFUSEDXML = True
 except ImportError:
     import xml.etree.ElementTree as ET  # type: ignore
+
     _USING_DEFUSEDXML = False
     warnings.warn(
         "defusedxml not installed. Falling back to xml.etree.ElementTree. "
         "Install via: pip install defusedxml",
-        RuntimeWarning, stacklevel=2,
+        RuntimeWarning,
+        stacklevel=2,
     )
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _canonicalize import canonicalize  # noqa: E402
+from _canonicalize import canonicalize
 
 PARSER_VERSION = "tools/parse/parse-egov.py@0.2.0"
 
@@ -56,8 +59,7 @@ LAW_NAME_EN = {
     "417AC0000000086": "Companies Act",
 }
 
-ERA_OFFSET = {"Meiji": 1867, "Taisho": 1911, "Showa": 1925,
-              "Heisei": 1988, "Reiwa": 2018}
+ERA_OFFSET = {"Meiji": 1867, "Taisho": 1911, "Showa": 1925, "Heisei": 1988, "Reiwa": 2018}
 
 KANSUJI = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"]
 
@@ -142,7 +144,8 @@ def parse_egov_xml(xml_text):
         try:
             promulgation = date(
                 ERA_OFFSET.get(era or "", 0) + int(year),
-                int(month), int(day),
+                int(month),
+                int(day),
             )
         except (ValueError, TypeError):
             promulgation = None
@@ -162,10 +165,16 @@ def _walk_articles(elem, parent_stack):
     """Recurse to collect <Article> entries, tracking parent sections."""
     results = []
     structural = {
-        "Part": "hen", "Chapter": "shou", "Section": "setsu",
-        "Subsection": "kan", "Division": "moku",
-        "Hen": "hen", "Shou": "shou", "Setsu": "setsu",
-        "Kan": "kan", "Moku": "moku",
+        "Part": "hen",
+        "Chapter": "shou",
+        "Section": "setsu",
+        "Subsection": "kan",
+        "Division": "moku",
+        "Hen": "hen",
+        "Shou": "shou",
+        "Setsu": "setsu",
+        "Kan": "kan",
+        "Moku": "moku",
     }
     for child in elem:
         if child.tag == "Article":
@@ -177,8 +186,7 @@ def _walk_articles(elem, parent_stack):
             num = get_int_attribute(child, "Num", default=len(parent_stack) + 1)
             title_tag = child.find(f"{child.tag}Title")
             name = (extract_all_text(title_tag) or "").strip()
-            results.extend(_walk_articles(
-                child, parent_stack + [(kind, num, name)]))
+            results.extend(_walk_articles(child, [*parent_stack, (kind, num, name)]))
         else:
             results.extend(_walk_articles(child, parent_stack))
     return results
@@ -196,9 +204,7 @@ def _extract_article(art, parent_stack):
     # not a semantic one. CLAUDE.md §3.1 example explicitly says "36-2".
     num = (art.get("Num") or "").strip().replace("_", "-")
     if not num:
-        raise ValueError(
-            "<Article> element missing or empty 'Num' attribute"
-        )
+        raise ValueError("<Article> element missing or empty 'Num' attribute")
 
     # Skip range articles (e.g. Num="73:76" meaning "Articles 73 through 76").
     # e-Gov uses colon notation when a contiguous block of articles is deleted
@@ -221,14 +227,16 @@ def _extract_article(art, parent_stack):
         if not ptext:
             warnings.warn(
                 f"Article {num} paragraph {p_num}: empty text after extraction.",
-                RuntimeWarning, stacklevel=2,
+                RuntimeWarning,
+                stacklevel=2,
             )
         paragraphs.append({"number": p_num, "text": ptext})
 
     if not paragraphs:
         warnings.warn(
             f"Article {num}: no <Paragraph> elements found.",
-            RuntimeWarning, stacklevel=2,
+            RuntimeWarning,
+            stacklevel=2,
         )
 
     parent = {}
@@ -236,7 +244,9 @@ def _extract_article(art, parent_stack):
         parent[kind] = n
         parent[f"{kind}_name_ja"] = name
     return {
-        "number": num, "caption": caption, "title": title,
+        "number": num,
+        "caption": caption,
+        "title": title,
         "paragraphs": paragraphs,
         "parent_section": parent if parent else None,
     }
@@ -313,8 +323,12 @@ def article_to_markdown(article, law_id, law_abbrev, law_name_ja, version_date):
         "translation_status": "none",
         "machine_translated": False,
         "paragraphs": [
-            {"number": p["number"], "has_proviso": False,
-             "has_items": False, "is_added_by_amendment": False}
+            {
+                "number": p["number"],
+                "has_proviso": False,
+                "has_items": False,
+                "is_added_by_amendment": False,
+            }
             for p in article["paragraphs"]
         ],
         "cases": [],
@@ -337,9 +351,11 @@ def _infer_law_id(abbrev):
     """Look up law_id by abbreviation via fetch-egov map. Returns None if unknown."""
     try:
         sys.path.insert(
-            0, str(Path(__file__).parent.parent / "fetch-egov" / "src"),
+            0,
+            str(Path(__file__).parent.parent / "fetch-egov" / "src"),
         )
         from fetch_egov.law_id_map import LAW_ID_MAP
+
         return LAW_ID_MAP.get(abbrev)
     except Exception:
         return None
@@ -369,17 +385,17 @@ def _resolve_version_date(args_version_date, parsed_promulgation):
         return date.fromisoformat(args_version_date)
     if parsed_promulgation:
         return parsed_promulgation
-    raise ValueError(
-        "--version-date required (could not infer from XML)"
-    )
+    raise ValueError("--version-date required (could not infer from XML)")
 
 
-def _emit_article(article, law_id, law_abbrev, law_name_ja,
-                  version_date, output_dir, force):
+def _emit_article(article, law_id, law_abbrev, law_name_ja, version_date, output_dir, force):
     """Write one article Markdown to disk, return manifest entry dict."""
     filename, md_text = article_to_markdown(
-        article, law_id=law_id, law_abbrev=law_abbrev,
-        law_name_ja=law_name_ja, version_date=version_date,
+        article,
+        law_id=law_id,
+        law_abbrev=law_abbrev,
+        law_name_ja=law_name_ja,
+        version_date=version_date,
     )
     out_path = output_dir / filename
     if out_path.exists() and not force:
@@ -400,8 +416,9 @@ def _emit_article(article, law_id, law_abbrev, law_name_ja,
     }
 
 
-def _build_manifest(law_id, law_name_ja, law_abbrev, xml_path, xml_text,
-                    xml_sha, version_date, article_entries):
+def _build_manifest(
+    law_id, law_name_ja, law_abbrev, xml_path, xml_text, xml_sha, version_date, article_entries
+):
     """Assemble the _source-manifest.json payload. Side-effect free."""
     return {
         "schema_version": "1.0",
@@ -415,7 +432,7 @@ def _build_manifest(law_id, law_name_ja, law_abbrev, xml_path, xml_text,
         "source_fetched_at": date.today().isoformat(),
         "parser": "tools/parse/parse-egov.py",
         "parser_version": PARSER_VERSION,
-        "parsed_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "parsed_at": datetime.now(UTC).isoformat(timespec="seconds"),
         "version_date": version_date.isoformat(),
         "article_count": len(article_entries),
         "articles": article_entries,
@@ -427,12 +444,14 @@ def _build_argparser():
     ap = argparse.ArgumentParser(
         description="e-Gov XML to JuriCode-JP Markdown + verification manifest"
     )
-    ap.add_argument("--input", type=Path, required=True,
-                    help="e-Gov XML file path")
-    ap.add_argument("--output", type=Path, required=True,
-                    help="Output directory")
-    ap.add_argument("--abbrev", type=str, required=True,
-                    help="Law abbreviation (lowercase a-z 0-9 -, max 64 chars)")
+    ap.add_argument("--input", type=Path, required=True, help="e-Gov XML file path")
+    ap.add_argument("--output", type=Path, required=True, help="Output directory")
+    ap.add_argument(
+        "--abbrev",
+        type=str,
+        required=True,
+        help="Law abbreviation (lowercase a-z 0-9 -, max 64 chars)",
+    )
     ap.add_argument("--law-id", type=str, default=None)
     ap.add_argument("--version-date", type=str, default=None)
     ap.add_argument("--force", action="store_true")
@@ -481,29 +500,38 @@ def main():
     article_entries = []
     for article in parsed["articles"]:
         entry = _emit_article(
-            article, law_id=law_id, law_abbrev=args.abbrev,
-            law_name_ja=parsed["law_name_ja"], version_date=version_date,
-            output_dir=args.output, force=args.force,
+            article,
+            law_id=law_id,
+            law_abbrev=args.abbrev,
+            law_name_ja=parsed["law_name_ja"],
+            version_date=version_date,
+            output_dir=args.output,
+            force=args.force,
         )
         article_entries.append(entry)
 
     manifest = _build_manifest(
-        law_id=law_id, law_name_ja=parsed["law_name_ja"],
-        law_abbrev=args.abbrev, xml_path=args.input,
-        xml_text=xml_text, xml_sha=xml_sha,
-        version_date=version_date, article_entries=article_entries,
+        law_id=law_id,
+        law_name_ja=parsed["law_name_ja"],
+        law_abbrev=args.abbrev,
+        xml_path=args.input,
+        xml_text=xml_text,
+        xml_sha=xml_sha,
+        version_date=version_date,
+        article_entries=article_entries,
     )
     manifest_path = args.output / "_source-manifest.json"
     manifest_path.write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    print(f"WROTE {manifest_path} ({len(article_entries)} article(s))",
-          file=sys.stderr)
-    print(f"OK: {len(article_entries)} article(s). "
-          f"Run verify.py to confirm hashes. "
-          f"(XML guard: {'defusedxml' if _USING_DEFUSEDXML else 'stdlib (unsafe!)'})",
-          file=sys.stderr)
+    print(f"WROTE {manifest_path} ({len(article_entries)} article(s))", file=sys.stderr)
+    print(
+        f"OK: {len(article_entries)} article(s). "
+        f"Run verify.py to confirm hashes. "
+        f"(XML guard: {'defusedxml' if _USING_DEFUSEDXML else 'stdlib (unsafe!)'})",
+        file=sys.stderr,
+    )
     return 0
 
 

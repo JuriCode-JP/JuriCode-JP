@@ -33,11 +33,14 @@ Requires: pip install pyyaml
 from __future__ import annotations
 
 import argparse
+import contextlib
 import json
 import re
 import sys
+from collections.abc import Iterator
 from datetime import date
 from pathlib import Path
+from typing import TextIO
 
 try:
     import yaml
@@ -51,9 +54,7 @@ except ImportError:
 
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
 
-JA_SECTION_RE = re.compile(
-    r"##\s*原文\s*\(?日本語\)?\s*\n(.*?)(?=\n##\s|\Z)", re.DOTALL
-)
+JA_SECTION_RE = re.compile(r"##\s*原文\s*\(?日本語\)?\s*\n(.*?)(?=\n##\s|\Z)", re.DOTALL)
 
 # Paragraph heading inside the Japanese-original section, e.g.
 #   "### 第三十六条"          -> paragraph 1 (implicit)
@@ -66,9 +67,18 @@ PARAGRAPH_HEADING_RE = re.compile(
 )
 
 KANSUJI_BASIC = {
-    "〇": 0, "零": 0,
-    "一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
-    "六": 6, "七": 7, "八": 8, "九": 9, "十": 10,
+    "〇": 0,
+    "零": 0,
+    "一": 1,
+    "二": 2,
+    "三": 3,
+    "四": 4,
+    "五": 5,
+    "六": 6,
+    "七": 7,
+    "八": 8,
+    "九": 9,
+    "十": 10,
 }
 
 
@@ -175,31 +185,31 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
     base = base_record(fm)
 
     if chunk_mode == "article":
-        return [{
-            **base,
-            "chunk_type": "article",
-            "paragraph_number": None,
-            "text": ja_body,
-        }]
+        return [
+            {
+                **base,
+                "chunk_type": "article",
+                "paragraph_number": None,
+                "text": ja_body,
+            }
+        ]
 
     records = []
     for para_num, text in split_paragraphs(ja_body):
-        records.append({
-            **base,
-            "chunk_type": "paragraph",
-            "paragraph_number": para_num,
-            "text": text,
-        })
+        records.append(
+            {
+                **base,
+                "chunk_type": "paragraph",
+                "paragraph_number": para_num,
+                "text": text,
+            }
+        )
     return records
 
 
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
-
-
-import contextlib
-from typing import Iterator, TextIO
 
 
 @contextlib.contextmanager
@@ -227,20 +237,26 @@ def _build_argparser() -> argparse.ArgumentParser:
     """Construct the CLI argument parser. No side effects."""
     ap = argparse.ArgumentParser(
         description="JuriCode-JP Markdown → BigQuery JSON Lines (NDJSON) "
-                    "exporter for 'Lawsy-Custom-BQ' (GENAI) ingestion."
+        "exporter for 'Lawsy-Custom-BQ' (GENAI) ingestion."
     )
     ap.add_argument(
-        "--input", type=Path, default=Path("examples"),
+        "--input",
+        type=Path,
+        default=Path("examples"),
         help="Directory to search for *-article-*.md files (default: examples)",
     )
     ap.add_argument(
-        "--output", type=Path, default=None,
+        "--output",
+        type=Path,
+        default=None,
         help="Output file path. If omitted, writes JSONL to stdout.",
     )
     ap.add_argument(
-        "--chunk", choices=["article", "paragraph"], default="article",
+        "--chunk",
+        choices=["article", "paragraph"],
+        default="article",
         help="Chunk granularity: 'article' (1 record/条) or "
-             "'paragraph' (1 record/項). Default: article.",
+        "'paragraph' (1 record/項). Default: article.",
     )
     return ap
 
@@ -250,18 +266,15 @@ def main() -> int:
     args = _build_argparser().parse_args()
 
     if not args.input.exists():
-        print(f"ERROR: input path does not exist: {args.input}",
-              file=sys.stderr)
+        print(f"ERROR: input path does not exist: {args.input}", file=sys.stderr)
         return 1
     if not args.input.is_dir():
-        print(f"ERROR: --input must be a directory: {args.input}",
-              file=sys.stderr)
+        print(f"ERROR: --input must be a directory: {args.input}", file=sys.stderr)
         return 1
 
     md_files = sorted(args.input.rglob("*-article-*.md"))
     if not md_files:
-        print(f"ERROR: no '*-article-*.md' files found under {args.input}",
-              file=sys.stderr)
+        print(f"ERROR: no '*-article-*.md' files found under {args.input}", file=sys.stderr)
         return 1
 
     count = 0
@@ -271,9 +284,7 @@ def main() -> int:
             try:
                 parsed = parse_markdown_article(path)
                 for record in to_bq_records(parsed, args.chunk):
-                    out_handle.write(
-                        json.dumps(record, ensure_ascii=False) + "\n"
-                    )
+                    out_handle.write(json.dumps(record, ensure_ascii=False) + "\n")
                     count += 1
             except (ValueError, OSError, UnicodeDecodeError) as e:
                 # Narrow exception list: catch parse / IO failures only,
@@ -281,9 +292,11 @@ def main() -> int:
                 print(f"WARN: skipping {path}: {e}", file=sys.stderr)
                 skipped += 1
 
-    print(f"OK: {count} record(s) written from {len(md_files) - skipped}/"
-          f"{len(md_files)} file(s) in chunk={args.chunk} mode",
-          file=sys.stderr)
+    print(
+        f"OK: {count} record(s) written from {len(md_files) - skipped}/"
+        f"{len(md_files)} file(s) in chunk={args.chunk} mode",
+        file=sys.stderr,
+    )
     return 0
 
 

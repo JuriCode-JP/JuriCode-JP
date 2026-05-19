@@ -11,6 +11,7 @@
 
 設計: docs/verification-framework.md (Layer 3)
 """
+
 from __future__ import annotations
 
 import argparse
@@ -27,7 +28,7 @@ except ImportError:
     sys.exit("ERROR: pyyaml not installed. Run: pip install pyyaml")
 
 sys.path.insert(0, str(Path(__file__).parent))
-from _canonicalize import canonicalize  # noqa: E402
+from _canonicalize import canonicalize
 
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
 JA_SECTION_RE = re.compile(
@@ -45,11 +46,19 @@ PARAGRAPH_HEADING_RE = re.compile(
 )
 
 REQUIRED_MANIFEST_FIELDS = (
-    "schema_version", "law_id", "law_name_ja", "law_abbrev",
-    "source_xml_sha256", "article_count", "articles",
+    "schema_version",
+    "law_id",
+    "law_name_ja",
+    "law_abbrev",
+    "source_xml_sha256",
+    "article_count",
+    "articles",
 )
 REQUIRED_ARTICLE_MANIFEST_FIELDS = (
-    "article_id", "article_number", "filename", "ja_text_sha256",
+    "article_id",
+    "article_number",
+    "filename",
+    "ja_text_sha256",
 )
 
 # Security: filename entries must be plain filenames with no traversal.
@@ -66,6 +75,7 @@ def _is_safe_filename(name: str) -> bool:
 @dataclass
 class CheckResult:
     """Per-article verification result."""
+
     manifest_path: Path
     article_id: str
     filename: str
@@ -120,9 +130,7 @@ def verify_one_article(manifest_entry, md_path, manifest_path):
     fname = manifest_entry.get("filename", "")
     if not _is_safe_filename(fname):
         result.passed = False
-        result.messages.append(
-            f"UNSAFE FILENAME in manifest: {fname!r}"
-        )
+        result.messages.append(f"UNSAFE FILENAME in manifest: {fname!r}")
         return result
 
     if not md_path.exists():
@@ -146,9 +154,7 @@ def verify_one_article(manifest_entry, md_path, manifest_path):
 
     if not isinstance(fm, dict):
         result.passed = False
-        result.messages.append(
-            f"FRONTMATTER not a mapping (got {type(fm).__name__})"
-        )
+        result.messages.append(f"FRONTMATTER not a mapping (got {type(fm).__name__})")
         return result
 
     expected_id = manifest_entry["article_id"]
@@ -186,8 +192,7 @@ def verify_one_article(manifest_entry, md_path, manifest_path):
         if pc_md != pc_manifest:
             result.passed = False
             result.messages.append(
-                f"paragraph_count MISMATCH: manifest={pc_manifest}, "
-                f"markdown extracted={pc_md}"
+                f"paragraph_count MISMATCH: manifest={pc_manifest}, markdown extracted={pc_md}"
             )
 
     return result
@@ -198,16 +203,25 @@ def verify_manifest(manifest_path):
     try:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError, UnicodeDecodeError) as e:
-        return [CheckResult(
-            manifest_path=manifest_path, article_id="<MANIFEST>", filename="-",
-            passed=False, messages=[f"MANIFEST PARSE ERROR: {e}"],
-        )]
+        return [
+            CheckResult(
+                manifest_path=manifest_path,
+                article_id="<MANIFEST>",
+                filename="-",
+                passed=False,
+                messages=[f"MANIFEST PARSE ERROR: {e}"],
+            )
+        ]
     if not isinstance(manifest, dict):
-        return [CheckResult(
-            manifest_path=manifest_path, article_id="<MANIFEST>", filename="-",
-            passed=False,
-            messages=[f"MANIFEST is not a JSON object (got {type(manifest).__name__})"],
-        )]
+        return [
+            CheckResult(
+                manifest_path=manifest_path,
+                article_id="<MANIFEST>",
+                filename="-",
+                passed=False,
+                messages=[f"MANIFEST is not a JSON object (got {type(manifest).__name__})"],
+            )
+        ]
 
     missing = [f for f in REQUIRED_MANIFEST_FIELDS if f not in manifest]
     schema_errs = []
@@ -216,14 +230,17 @@ def verify_manifest(manifest_path):
     for art in manifest.get("articles", []):
         miss_a = [f for f in REQUIRED_ARTICLE_MANIFEST_FIELDS if f not in art]
         if miss_a:
-            schema_errs.append(
-                f"MANIFEST article {art.get('article_id', '?')} missing: {miss_a}"
-            )
+            schema_errs.append(f"MANIFEST article {art.get('article_id', '?')} missing: {miss_a}")
     if schema_errs:
-        return [CheckResult(
-            manifest_path=manifest_path, article_id="<MANIFEST>", filename="-",
-            passed=False, messages=schema_errs,
-        )]
+        return [
+            CheckResult(
+                manifest_path=manifest_path,
+                article_id="<MANIFEST>",
+                filename="-",
+                passed=False,
+                messages=schema_errs,
+            )
+        ]
 
     dir_ = manifest_path.parent
     md_files_on_disk = sorted(p.name for p in dir_.glob("*-article-*.md"))
@@ -238,10 +255,15 @@ def verify_manifest(manifest_path):
         results.append(verify_one_article(art, dir_ / art["filename"], manifest_path))
 
     if count_msgs:
-        results.append(CheckResult(
-            manifest_path=manifest_path, article_id="<COUNT>", filename="-",
-            passed=False, messages=count_msgs,
-        ))
+        results.append(
+            CheckResult(
+                manifest_path=manifest_path,
+                article_id="<COUNT>",
+                filename="-",
+                passed=False,
+                messages=count_msgs,
+            )
+        )
     return results
 
 
@@ -253,12 +275,9 @@ def find_manifests(root):
 def _build_argparser():
     """Construct the CLI argument parser."""
     ap = argparse.ArgumentParser(description="JuriCode-JP data verifier (Layer 3)")
-    ap.add_argument("--path", type=Path, default=Path("data"),
-                    help="検索対象ディレクトリ")
-    ap.add_argument("--strict", action="store_true",
-                    help="マニフェストが無い場合も fail")
-    ap.add_argument("--json", dest="as_json", action="store_true",
-                    help="JSON 出力")
+    ap.add_argument("--path", type=Path, default=Path("data"), help="検索対象ディレクトリ")
+    ap.add_argument("--strict", action="store_true", help="マニフェストが無い場合も fail")
+    ap.add_argument("--json", dest="as_json", action="store_true", help="JSON 出力")
     return ap
 
 
@@ -283,8 +302,13 @@ def _emit_json_report(all_results, manifests_count):
     out = {
         "summary": {"passed": passed, "failed": failed, "manifests": manifests_count},
         "results": [
-            {"manifest": str(r.manifest_path), "article_id": r.article_id,
-             "filename": r.filename, "passed": r.passed, "messages": r.messages}
+            {
+                "manifest": str(r.manifest_path),
+                "article_id": r.article_id,
+                "filename": r.filename,
+                "passed": r.passed,
+                "messages": r.messages,
+            }
             for r in all_results
         ],
     }

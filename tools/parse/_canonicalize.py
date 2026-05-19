@@ -16,7 +16,6 @@ from __future__ import annotations
 import hashlib
 import re
 
-
 _TRAILING_WS = re.compile(r"[ \t]+$", re.MULTILINE)
 _MULTI_BLANK = re.compile(r"\n{3,}")
 
