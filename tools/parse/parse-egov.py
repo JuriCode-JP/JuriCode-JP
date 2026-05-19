@@ -57,6 +57,9 @@ LAW_NAME_EN = {
     "129AC0000000089": "Civil Code",
     "132AC0000000048": "Commercial Code",
     "417AC0000000086": "Companies Act",
+    "405AC0000000088": "Administrative Procedure Act",
+    "322AC0000000067": "Local Autonomy Act",
+    "426AC0000000068": "Administrative Complaint Review Act",
 }
 
 ERA_OFFSET = {"Meiji": 1867, "Taisho": 1911, "Showa": 1925, "Heisei": 1988, "Reiwa": 2018}

@@ -1,0 +1,39 @@
+---
+law_id: 322AC0000000067
+law_name_ja: 地方自治法
+law_name_en: Local Autonomy Act
+article_number: 252-45
+article_id: chihou-jichi-hou-art-252-45
+version_date: '1947-04-17'
+source_url: https://laws.e-gov.go.jp/law/322AC0000000067
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-administrative
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　普通地方公共団体
+  shou: 15
+  shou_name_ja: 第十五章　外部監査契約に基づく監査
+  setsu: 4
+  setsu_name_ja: 第四節　雑則
+---
+
+# 地方自治法 第252-45条(（一部事務組合等に関する特例）)
+
+## 原文 (日本語)
+
+### 第二百五十二条の四十五
+
+一部事務組合又は広域連合に係る包括外部監査契約に基づく監査については、一部事務組合又は広域連合を第二百五十二条の三十六第一項第二号に掲げる市以外の市又は町村とみなして、第二節（同項を除く。）の規定を準用する。

@@ -1,0 +1,402 @@
+{
+  "schema_version": "1.0",
+  "law_id": "405AC0000000088",
+  "law_name_ja": "行政手続法",
+  "law_abbrev": "gyousei-tetsuzuki-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/405AC0000000088",
+  "source_xml_path": "cache\\405AC0000000088.xml",
+  "source_xml_sha256": "b55c7d70119f9e0caabdd26540d03aa140eed7ed44a74703e533969702d8e68f",
+  "source_xml_bytes": 139019,
+  "source_fetched_at": "2026-05-19",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-19T02:24:31+00:00",
+  "version_date": "1993-11-12",
+  "article_count": 48,
+  "articles": [
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-1",
+      "article_number": "1",
+      "filename": "gyousei-tetsuzuki-hou-article-1.md",
+      "ja_text_sha256": "f8dbaccec2105a098964882c14ef94e681f3c68364af6927cf9fd19851f49953",
+      "ja_text_bytes": 713,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-2",
+      "article_number": "2",
+      "filename": "gyousei-tetsuzuki-hou-article-2.md",
+      "ja_text_sha256": "1baed7c4408881c809b6b1758c70aaabfd926e0b77b575678ec519dfdc225f1d",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-3",
+      "article_number": "3",
+      "filename": "gyousei-tetsuzuki-hou-article-3.md",
+      "ja_text_sha256": "0d73ba3932799295f5c7feb9543ce68a92aeea65c46509c0fb4d9a692576a796",
+      "ja_text_bytes": 751,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-4",
+      "article_number": "4",
+      "filename": "gyousei-tetsuzuki-hou-article-4.md",
+      "ja_text_sha256": "a050acef818bc40ef95276111689913461831a037673026fbdd4b10013e3c1f0",
+      "ja_text_bytes": 1893,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-5",
+      "article_number": "5",
+      "filename": "gyousei-tetsuzuki-hou-article-5.md",
+      "ja_text_sha256": "0a7f612989db153b037fef3ce3037f3bd780962dee1dbf4a7a93e8c5a0fb5d1a",
+      "ja_text_bytes": 475,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-6",
+      "article_number": "6",
+      "filename": "gyousei-tetsuzuki-hou-article-6.md",
+      "ja_text_sha256": "6b4cc0c8d922c9a7ffec07b3b50acc12da0339b8112eae0fa4bdc0dfeac11bde",
+      "ja_text_bytes": 687,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-7",
+      "article_number": "7",
+      "filename": "gyousei-tetsuzuki-hou-article-7.md",
+      "ja_text_sha256": "c72942cb86e7f175be06554b84175f569aa90662c758c2d0afe8b2efed0b0154",
+      "ja_text_bytes": 666,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-8",
+      "article_number": "8",
+      "filename": "gyousei-tetsuzuki-hou-article-8.md",
+      "ja_text_sha256": "ccb24a052f168360cbe6f26ec0d17bd2ea11e2120d792c49d6a24de7b5a98c41",
+      "ja_text_bytes": 737,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-9",
+      "article_number": "9",
+      "filename": "gyousei-tetsuzuki-hou-article-9.md",
+      "ja_text_sha256": "e8f41e546aebab75e8edde7ab667db5039280430690cc104348fa927e10fdb6d",
+      "ja_text_bytes": 410,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-10",
+      "article_number": "10",
+      "filename": "gyousei-tetsuzuki-hou-article-10.md",
+      "ja_text_sha256": "6e954fe5c93117390a24390ddebecb8a9367d55fcbe9595b8640d08b37dd7e68",
+      "ja_text_bytes": 378,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-11",
+      "article_number": "11",
+      "filename": "gyousei-tetsuzuki-hou-article-11.md",
+      "ja_text_sha256": "afe58c9850e28e52bd2ef54138fe032f0dea22b1f9feea0d9771ded2bc46cc9a",
+      "ja_text_bytes": 689,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-12",
+      "article_number": "12",
+      "filename": "gyousei-tetsuzuki-hou-article-12.md",
+      "ja_text_sha256": "9372dd21512f05d61417958340e8f3e0e067afd185d13fbe2991a69dfda0d98e",
+      "ja_text_bytes": 281,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-13",
+      "article_number": "13",
+      "filename": "gyousei-tetsuzuki-hou-article-13.md",
+      "ja_text_sha256": "60b99a7b24e01e4d6ff619720054b3c23c1d8ffa24754bef3359cda80d7feae3",
+      "ja_text_bytes": 395,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-14",
+      "article_number": "14",
+      "filename": "gyousei-tetsuzuki-hou-article-14.md",
+      "ja_text_sha256": "7e2927b41c1a174e531ba6d9418ff032b9a0707f85a4dd21b659d7c3ea44a80e",
+      "ja_text_bytes": 709,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-15",
+      "article_number": "15",
+      "filename": "gyousei-tetsuzuki-hou-article-15.md",
+      "ja_text_sha256": "8f8d0e5570c072591f45580dd33d62e99181655a81dea53b46f2447a2956038c",
+      "ja_text_bytes": 946,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-16",
+      "article_number": "16",
+      "filename": "gyousei-tetsuzuki-hou-article-16.md",
+      "ja_text_sha256": "d941c7962880b4add2b1daa7fbd524d919b87633fb57c50998793c75606a6ca8",
+      "ja_text_bytes": 582,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-17",
+      "article_number": "17",
+      "filename": "gyousei-tetsuzuki-hou-article-17.md",
+      "ja_text_sha256": "4d4f30a9d1d289477556b8cbf690d87a9f3ca6d358398575277477bc0c5d5b8d",
+      "ja_text_bytes": 952,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-18",
+      "article_number": "18",
+      "filename": "gyousei-tetsuzuki-hou-article-18.md",
+      "ja_text_sha256": "7c9a8d030badfb7ad28c36680e716006fa37a65b75d20f757e23e1d1df4c7068",
+      "ja_text_bytes": 949,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-19",
+      "article_number": "19",
+      "filename": "gyousei-tetsuzuki-hou-article-19.md",
+      "ja_text_sha256": "d359f9b9e5fb5d3582b0f3df579948843e9183fa4e853c43920b25e527352927",
+      "ja_text_bytes": 188,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-20",
+      "article_number": "20",
+      "filename": "gyousei-tetsuzuki-hou-article-20.md",
+      "ja_text_sha256": "4d7b96392416b2dd08bd150473cbeaf4cef1c6438c95bb00ce4e9bd045c02275",
+      "ja_text_bytes": 1207,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-21",
+      "article_number": "21",
+      "filename": "gyousei-tetsuzuki-hou-article-21.md",
+      "ja_text_sha256": "1bfbe4255ca38b0c4da5d7f919bf180972a145bcc88a8a60918bc5e9949cae90",
+      "ja_text_bytes": 341,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-22",
+      "article_number": "22",
+      "filename": "gyousei-tetsuzuki-hou-article-22.md",
+      "ja_text_sha256": "23f547ed67390c8044298f42167919f43670125c4044a895764101920bd2939f",
+      "ja_text_bytes": 1150,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-23",
+      "article_number": "23",
+      "filename": "gyousei-tetsuzuki-hou-article-23.md",
+      "ja_text_sha256": "0d1f3c6c20ea46e29bfb738e5c8e06fe17b1dfe60bad92c6c2c165956052c05a",
+      "ja_text_bytes": 1001,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-24",
+      "article_number": "24",
+      "filename": "gyousei-tetsuzuki-hou-article-24.md",
+      "ja_text_sha256": "9aae5a8d2a97421a0de2c167203dddf8d81051ae085dd81c1308ceddb322bacf",
+      "ja_text_bytes": 873,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-25",
+      "article_number": "25",
+      "filename": "gyousei-tetsuzuki-hou-article-25.md",
+      "ja_text_sha256": "e0bb3ef0dfede74c437882db16f3c87a705a6c1c839addd2f0c12214d8f63a89",
+      "ja_text_bytes": 345,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-26",
+      "article_number": "26",
+      "filename": "gyousei-tetsuzuki-hou-article-26.md",
+      "ja_text_sha256": "dbfd1299400811cc14e06171769158a779c784de12c4e493601c895617f2dfdd",
+      "ja_text_bytes": 234,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-27",
+      "article_number": "27",
+      "filename": "gyousei-tetsuzuki-hou-article-27.md",
+      "ja_text_sha256": "be547844ebb20dab9cac9b14b9d156641d184ad58bb5938e87a70e53b7a001be",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-28",
+      "article_number": "28",
+      "filename": "gyousei-tetsuzuki-hou-article-28.md",
+      "ja_text_sha256": "e7705a20b68fcdf5c16022d8ecb5e3bcfcea4bab3232a48238d6045238cb31b0",
+      "ja_text_bytes": 1019,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-29",
+      "article_number": "29",
+      "filename": "gyousei-tetsuzuki-hou-article-29.md",
+      "ja_text_sha256": "b72a446da8cf816dea39265bd6fa29f62f3e308d8bc67fcd0824b691671e4dbb",
+      "ja_text_bytes": 260,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-30",
+      "article_number": "30",
+      "filename": "gyousei-tetsuzuki-hou-article-30.md",
+      "ja_text_sha256": "9bcf232df8d567613ee5737039c829e874adf261f326a98ccbaf5c803ea182a7",
+      "ja_text_bytes": 294,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-31",
+      "article_number": "31",
+      "filename": "gyousei-tetsuzuki-hou-article-31.md",
+      "ja_text_sha256": "af0826d54b2d16a90f935c343be72748eb30ae4e833a50cdb388e0dd5c3fc820",
+      "ja_text_bytes": 522,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-32",
+      "article_number": "32",
+      "filename": "gyousei-tetsuzuki-hou-article-32.md",
+      "ja_text_sha256": "ca0f65c0e0827677e3d68be1b9155e0b511fe7b4d9bbce1713d55c59180c0c3e",
+      "ja_text_bytes": 494,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-33",
+      "article_number": "33",
+      "filename": "gyousei-tetsuzuki-hou-article-33.md",
+      "ja_text_sha256": "2676c213318cc9f72d54983ddc79786f87b1a0b17f02d784abbf6817b8cefe19",
+      "ja_text_bytes": 345,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-34",
+      "article_number": "34",
+      "filename": "gyousei-tetsuzuki-hou-article-34.md",
+      "ja_text_sha256": "e6abb06315a9a1590ce69bfe3825cee235b21d7f33411f5a60775b84fc7e885f",
+      "ja_text_bytes": 459,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-35",
+      "article_number": "35",
+      "filename": "gyousei-tetsuzuki-hou-article-35.md",
+      "ja_text_sha256": "e1ea395c3af53f50ff3b5faf64cf9e33f202db8164cf71f0646cf0b42b597f6c",
+      "ja_text_bytes": 837,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-36",
+      "article_number": "36",
+      "filename": "gyousei-tetsuzuki-hou-article-36.md",
+      "ja_text_sha256": "56823786c31127333b26ad421a87d1c474f7928e7d8605103b6fc6e4ca0cb018",
+      "ja_text_bytes": 318,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-36-2",
+      "article_number": "36-2",
+      "filename": "gyousei-tetsuzuki-hou-article-36-2.md",
+      "ja_text_sha256": "34238b6124076232ca9af2223c3d9016e7ce746ecd1382f8f250e50a4f89d254",
+      "ja_text_bytes": 1015,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-36-3",
+      "article_number": "36-3",
+      "filename": "gyousei-tetsuzuki-hou-article-36-3.md",
+      "ja_text_sha256": "e5e41b8c37f25a2bac8e4c2241ab03e0b6daadca6f41b27840e06f06787327c1",
+      "ja_text_bytes": 853,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-37",
+      "article_number": "37",
+      "filename": "gyousei-tetsuzuki-hou-article-37.md",
+      "ja_text_sha256": "49003f124fef9de6f445d35465aeda0844e8840a4988637ab3609b652e43ee34",
+      "ja_text_bytes": 408,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-38",
+      "article_number": "38",
+      "filename": "gyousei-tetsuzuki-hou-article-38.md",
+      "ja_text_sha256": "3505b2298aa8a2e465367a2f6cf1c64276e40770350b011987a5ec7f9beacd33",
+      "ja_text_bytes": 677,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-39",
+      "article_number": "39",
+      "filename": "gyousei-tetsuzuki-hou-article-39.md",
+      "ja_text_sha256": "067d49e81e03c35f4130c2bf703b2403ecdb502a067af46646bce0a26b9ed20c",
+      "ja_text_bytes": 966,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-40",
+      "article_number": "40",
+      "filename": "gyousei-tetsuzuki-hou-article-40.md",
+      "ja_text_sha256": "2aef400eb6286cfaf3f2ab5bc10223e7b2e50a5eed91c00e5c5e8dfe566caa49",
+      "ja_text_bytes": 800,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-41",
+      "article_number": "41",
+      "filename": "gyousei-tetsuzuki-hou-article-41.md",
+      "ja_text_sha256": "424fc42862f7f0e19713eb550e522f7fbfab990802c10e15e55191815a4838a1",
+      "ja_text_bytes": 300,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-42",
+      "article_number": "42",
+      "filename": "gyousei-tetsuzuki-hou-article-42.md",
+      "ja_text_sha256": "5a95d3dd6a15e5a4fe3eb6d66b95aa7d242395303aaa533ce839ce6acb9165da",
+      "ja_text_bytes": 303,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-43",
+      "article_number": "43",
+      "filename": "gyousei-tetsuzuki-hou-article-43.md",
+      "ja_text_sha256": "cd15e1434aafe87e5895b5cb7460d246ad21d625eb1347267a5abfca48eb2f13",
+      "ja_text_bytes": 1979,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-44",
+      "article_number": "44",
+      "filename": "gyousei-tetsuzuki-hou-article-44.md",
+      "ja_text_sha256": "c5fb3a8a545649f94d35ad294656785aa578fee8c3cd0f97f0dd1b6465a5bbbc",
+      "ja_text_bytes": 1089,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-45",
+      "article_number": "45",
+      "filename": "gyousei-tetsuzuki-hou-article-45.md",
+      "ja_text_sha256": "6642a6a65ba69c458279e9066cc5844843332681bfeb92621696f7abe1d8773d",
+      "ja_text_bytes": 443,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "gyousei-tetsuzuki-hou-art-46",
+      "article_number": "46",
+      "filename": "gyousei-tetsuzuki-hou-article-46.md",
+      "ja_text_sha256": "7a29a9949179ccb3c3eefb5b1ecfe067b1ad7494111c7b99367969f36e9d9561",
+      "ja_text_bytes": 417,
+      "paragraph_count": 1
+    }
+  ]
+}

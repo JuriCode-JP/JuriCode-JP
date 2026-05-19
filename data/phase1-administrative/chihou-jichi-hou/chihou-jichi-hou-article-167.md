@@ -1,0 +1,57 @@
+---
+law_id: 322AC0000000067
+law_name_ja: 地方自治法
+law_name_en: Local Autonomy Act
+article_number: '167'
+article_id: chihou-jichi-hou-art-167
+version_date: '1947-04-17'
+source_url: https://laws.e-gov.go.jp/law/322AC0000000067
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-administrative
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　普通地方公共団体
+  shou: 7
+  shou_name_ja: 第七章　執行機関
+  setsu: 2
+  setsu_name_ja: 第二節　普通地方公共団体の長
+  kan: 3
+  kan_name_ja: 第三款　補助機関
+---
+
+# 地方自治法 第167条
+
+## 原文 (日本語)
+
+### 第百六十七条第一項
+
+副知事及び副市町村長は、普通地方公共団体の長を補佐し、普通地方公共団体の長の命を受け政策及び企画をつかさどり、その補助機関である職員の担任する事務を監督し、別に定めるところにより、普通地方公共団体の長の職務を代理する。
+
+### 第百六十七条第二項
+
+前項に定めるもののほか、副知事及び副市町村長は、普通地方公共団体の長の権限に属する事務の一部について、第百五十三条第一項の規定により委任を受け、その事務を執行する。
+
+### 第百六十七条第三項
+
+前項の場合においては、普通地方公共団体の長は、直ちに、その旨を告示しなければならない。
