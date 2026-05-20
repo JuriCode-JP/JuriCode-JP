@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 """JuriCode-JP Top-K Retrieval Tester.
 
-Loads embedding artefacts produced by embed.py (.npy + .meta.jsonl + .vec.pkl),
-encodes each query in eval-set JSONL using the SAME provider that built the
-corpus, and reports Recall@1 / Recall@3 / Recall@10 + MRR.
-
-Provider is detected from the .vec.pkl bundle so users do not pass --provider.
+Provider is detected from .vec.pkl. Supports tfidf / openai / gemini.
 """
 
 from __future__ import annotations
@@ -38,7 +34,7 @@ def _load_artefacts(prefix):
             records.append(json.loads(line))
 
     with vec_path.open("rb") as fh:
-        state = pickle.load(fh)  # noqa: S301 — local artefact
+        state = pickle.load(fh)  # noqa: S301
     return matrix, records, state
 
 
@@ -56,6 +52,7 @@ def _load_queries(eval_set_paths):
 
 def _encode_queries(questions, state):
     provider = state.get("provider")
+
     if provider == "tfidf":
         v = state["vectorizer"]
         return v.transform(questions).astype(np.float32).toarray()
@@ -73,6 +70,24 @@ def _encode_queries(questions, state):
         resp = client.embeddings.create(model=model, input=questions)
         return np.asarray([item.embedding for item in resp.data], dtype=np.float32)
 
+    if provider == "gemini":
+        try:
+            from google import genai
+            from google.genai import types
+        except ImportError:
+            sys.exit("ERROR: google-genai package not installed. Run: pip install google-genai")
+        api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+        if not api_key:
+            sys.exit("ERROR: GEMINI_API_KEY (or GOOGLE_API_KEY) environment variable not set")
+        client = genai.Client(api_key=api_key)
+        model = state["model"]
+        resp = client.models.embed_content(
+            model=model,
+            contents=questions,
+            config=types.EmbedContentConfig(task_type="RETRIEVAL_QUERY"),
+        )
+        return np.asarray([emb.values for emb in resp.embeddings], dtype=np.float32)
+
     sys.exit(f"ERROR: unsupported provider in artefacts: {provider!r}")
 
 
@@ -85,7 +100,7 @@ def _cosine_topk(query_matrix, corpus_matrix, top_k):
     cn[cn == 0] = 1.0
     cnorm = corpus_matrix / cn
 
-    sims = qnorm @ cnorm.T  # (Q, N)
+    sims = qnorm @ cnorm.T
     top_idx = np.argsort(-sims, axis=1)[:, :top_k]
     return sims, top_idx
 
@@ -159,15 +174,11 @@ def main():
                 lawname = law_name_ja[idx] or ""
                 artnum = article_number[idx] or ""
                 marker = " OK" if aid in expected else ""
-                print(
-                    f"   [{i}] {aid:48s} {score:.3f}  {lawname} 第{artnum}条{marker}",
-                    file=sys.stderr,
-                )
+                print(f"   [{i}] {aid:48s} {score:.3f}  {lawname} 第{artnum}条{marker}", file=sys.stderr)
             print("", file=sys.stderr)
 
     n = len(queries)
     if n == 0:
-        print("ERROR: no queries loaded.", file=sys.stderr)
         return 1
     mrr = sum((1.0 / r) if r is not None else 0.0 for r in ranks) / n
 
