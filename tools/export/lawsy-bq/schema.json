@@ -112,5 +112,23 @@
     "type": "STRING",
     "mode": "REQUIRED",
     "description": "How token_count was computed. 'tiktoken-o200k_base' (precise, used when tiktoken is installed) or 'char-based-fallback' (len(text)//2, used when tiktoken is unavailable). Treat token_count as approximate when this is 'char-based-fallback'."
+  },
+  {
+    "name": "has_cases",
+    "type": "BOOLEAN",
+    "mode": "REQUIRED",
+    "description": "True iff the source article frontmatter declares one or more case-law links in its `cases:` list. Use as a fast retrieval filter when 'case-backed' authority is required."
+  },
+  {
+    "name": "case_count",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": "Number of entries in the source article's `cases:` list. Counts raw entries listed (including any that lack case_id). 0 when there are no case links."
+  },
+  {
+    "name": "case_ids",
+    "type": "STRING",
+    "mode": "REPEATED",
+    "description": "Flattened list of case_id values from the source article's `cases:` list. Use as a join key against an external case-law index. May be shorter than case_count when some entries lack a case_id."
   }
 ]

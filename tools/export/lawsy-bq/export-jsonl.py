@@ -28,6 +28,7 @@ Usage:
     python tools/export/lawsy-bq/export-jsonl.py --input examples
 
 Requires: pip install pyyaml
+Optional (for precise token counts): pip install ".[rag-export]"
 """
 
 from __future__ import annotations
@@ -223,6 +224,32 @@ def base_record(fm: dict) -> dict:
     }
 
 
+def _extract_case_metadata(fm: dict) -> dict:
+    """Lift case-link metadata from frontmatter into RAG-friendly fields.
+
+    Surfaces three derived fields so RAG retrievers can filter by "has case
+    law" without re-parsing the nested `cases:` list:
+
+      - has_cases : bool — true iff at least one entry is present
+      - case_count: int  — len(cases)
+      - case_ids  : list[str] — flattened case_id values (drops malformed)
+
+    Articles whose `cases:` field is missing or null are treated as empty.
+    Entries lacking `case_id` are silently dropped from case_ids but still
+    counted in case_count (so the count reflects "raw entries listed" and
+    case_ids reflects "actionable references").
+    """
+    raw = fm.get("cases") or []
+    if not isinstance(raw, list):
+        return {"has_cases": False, "case_count": 0, "case_ids": []}
+    case_ids = [c.get("case_id") for c in raw if isinstance(c, dict) and c.get("case_id")]
+    return {
+        "has_cases": len(raw) > 0,
+        "case_count": len(raw),
+        "case_ids": case_ids,
+    }
+
+
 def _build_chunk_id(article_id: str | None, paragraph_number: int | None) -> str | None:
     """Return a stable, unique chunk identifier.
 
@@ -239,11 +266,7 @@ def _build_chunk_id(article_id: str | None, paragraph_number: int | None) -> str
 
 
 def _chunk_size_fields(text: str) -> dict:
-    """Return a dict of {char_count, token_count, token_method}.
-
-    Encapsulating this here keeps `to_bq_records` simple and keeps the
-    fallback path in one location (see top-of-file `count_tokens`).
-    """
+    """Return a dict of {char_count, token_count, token_method}."""
     return {
         "char_count": len(text),
         "token_count": count_tokens(text),
@@ -256,6 +279,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
     ja_body = extract_japanese_body(parsed["body"])
     base = base_record(fm)
     article_id = base.get("article_id")
+    case_meta = _extract_case_metadata(fm)
 
     if chunk_mode == "article":
         return [
@@ -266,6 +290,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
                 "chunk_id": _build_chunk_id(article_id, None),
                 "text": ja_body,
                 **_chunk_size_fields(ja_body),
+                **case_meta,
             }
         ]
 
@@ -279,6 +304,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
                 "chunk_id": _build_chunk_id(article_id, para_num),
                 "text": text,
                 **_chunk_size_fields(text),
+                **case_meta,
             }
         )
     return records
