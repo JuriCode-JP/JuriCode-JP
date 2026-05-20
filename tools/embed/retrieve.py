@@ -1,27 +1,18 @@
 #!/usr/bin/env python3
-"""
-JuriCode-JP Top-K Retrieval Tester
-===================================
+"""JuriCode-JP Top-K Retrieval Tester.
 
-Loads the embedding artefacts produced by `embed.py` (a .npy matrix, a
-.meta.jsonl sidecar, and a .vec.pkl vectorizer), encodes each query in an
-eval-set JSONL with the SAME vectorizer, and reports:
+Loads embedding artefacts produced by embed.py (.npy + .meta.jsonl + .vec.pkl),
+encodes each query in eval-set JSONL using the SAME provider that built the
+corpus, and reports Recall@1 / Recall@3 / Recall@10 + MRR.
 
-  - Per-question top-K results (with the expected article highlighted)
-  - Aggregate Recall@1 / Recall@3 / Recall@10 and MRR
-
-Usage:
-    python tools/embed/retrieve.py \\
-        --embedded build/juricode-bq-embedded \\
-        --eval-set data/eval-set/*.jsonl \\
-        --top-k 10 \\
-        --show-per-query
+Provider is detected from the .vec.pkl bundle so users do not pass --provider.
 """
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
 import pickle
 import sys
 from pathlib import Path
@@ -29,19 +20,16 @@ from pathlib import Path
 import numpy as np
 
 
-def _load_artefacts(prefix: Path):
-    """Load .npy + .meta.jsonl + .vec.pkl for a given output prefix."""
+def _load_artefacts(prefix):
     npy_path = prefix.with_suffix(".npy")
     meta_path = prefix.with_suffix(".meta.jsonl")
     vec_path = prefix.with_suffix(".vec.pkl")
-
-    if not all(p.exists() for p in (npy_path, meta_path, vec_path)):
-        missing = [str(p) for p in (npy_path, meta_path, vec_path) if not p.exists()]
+    missing = [str(p) for p in (npy_path, meta_path, vec_path) if not p.exists()]
+    if missing:
         raise FileNotFoundError(f"Missing artefact(s): {missing}")
 
     matrix = np.load(npy_path)
-
-    records: list[dict] = []
+    records = []
     with meta_path.open(encoding="utf-8") as fh:
         for line in fh:
             line = line.strip()
@@ -50,14 +38,12 @@ def _load_artefacts(prefix: Path):
             records.append(json.loads(line))
 
     with vec_path.open("rb") as fh:
-        bundle = pickle.load(fh)  # noqa: S301
-    vectorizer = bundle["vectorizer"]
-
-    return matrix, records, vectorizer
+        state = pickle.load(fh)  # noqa: S301 — local artefact
+    return matrix, records, state
 
 
-def _load_queries(eval_set_paths: list[Path]) -> list[dict]:
-    out: list[dict] = []
+def _load_queries(eval_set_paths):
+    out = []
     for p in eval_set_paths:
         with p.open(encoding="utf-8") as fh:
             for line in fh:
@@ -68,71 +54,89 @@ def _load_queries(eval_set_paths: list[Path]) -> list[dict]:
     return out
 
 
-def _cosine_similarity_batch(query_vec: np.ndarray, matrix: np.ndarray) -> np.ndarray:
-    qn = float(np.linalg.norm(query_vec))
-    if qn == 0:
-        return np.zeros(matrix.shape[0], dtype=np.float32)
-    q = (query_vec / qn).astype(np.float32)
-    norms = np.linalg.norm(matrix, axis=1)
-    norms[norms == 0] = 1.0
-    normed = matrix / norms[:, None]
-    return (normed @ q).astype(np.float32)
+def _encode_queries(questions, state):
+    provider = state.get("provider")
+    if provider == "tfidf":
+        v = state["vectorizer"]
+        return v.transform(questions).astype(np.float32).toarray()
+
+    if provider == "openai":
+        try:
+            from openai import OpenAI
+        except ImportError:
+            sys.exit("ERROR: openai package not installed. Run: pip install openai")
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            sys.exit("ERROR: OPENAI_API_KEY environment variable not set")
+        client = OpenAI(api_key=api_key)
+        model = state["model"]
+        resp = client.embeddings.create(model=model, input=questions)
+        return np.asarray([item.embedding for item in resp.data], dtype=np.float32)
+
+    sys.exit(f"ERROR: unsupported provider in artefacts: {provider!r}")
 
 
-def _rank_of_first_match(ranked_ids: list[str], expected: set[str]) -> int | None:
+def _cosine_topk(query_matrix, corpus_matrix, top_k):
+    qn = np.linalg.norm(query_matrix, axis=1, keepdims=True)
+    qn[qn == 0] = 1.0
+    qnorm = query_matrix / qn
+
+    cn = np.linalg.norm(corpus_matrix, axis=1, keepdims=True)
+    cn[cn == 0] = 1.0
+    cnorm = corpus_matrix / cn
+
+    sims = qnorm @ cnorm.T  # (Q, N)
+    top_idx = np.argsort(-sims, axis=1)[:, :top_k]
+    return sims, top_idx
+
+
+def _rank_of_first_match(ranked_ids, expected):
     for i, aid in enumerate(ranked_ids, start=1):
         if aid in expected:
             return i
     return None
 
 
-def main() -> int:
+def main():
     ap = argparse.ArgumentParser(description="Top-K retrieval test on JuriCode-JP.")
-    ap.add_argument(
-        "--embedded",
-        type=Path,
-        required=True,
-        help="Output prefix used by embed.py (e.g. build/juricode-bq-embedded)",
-    )
+    ap.add_argument("--embedded", type=Path, required=True)
     ap.add_argument("--eval-set", type=Path, nargs="+", required=True)
     ap.add_argument("--top-k", type=int, default=10)
     ap.add_argument("--show-per-query", action="store_true")
     args = ap.parse_args()
 
     try:
-        matrix, records, vectorizer = _load_artefacts(args.embedded)
+        matrix, records, state = _load_artefacts(args.embedded)
     except FileNotFoundError as e:
         print(f"ERROR: {e}", file=sys.stderr)
         return 1
 
     print(
-        f"Corpus: {len(records):,} record(s), embedding dim {matrix.shape[1]:,}",
+        f"Corpus: {len(records):,} record(s), dim {matrix.shape[1]:,}, "
+        f"provider={state.get('provider')} model={state.get('model')}",
         file=sys.stderr,
     )
 
     queries = _load_queries(args.eval_set)
-    print(f"Queries: {len(queries):,}", file=sys.stderr)
-    print("", file=sys.stderr)
+    print(f"Queries: {len(queries):,}\n", file=sys.stderr)
+
+    questions = [q["question"] for q in queries]
+    query_matrix = _encode_queries(questions, state)
+
+    sims, top_idx = _cosine_topk(query_matrix, matrix, args.top_k)
 
     article_ids = [r.get("article_id") for r in records]
     law_name_ja = [r.get("law_name_ja") for r in records]
     article_number = [r.get("article_number") for r in records]
 
-    ranks: list[int | None] = []
-    recall_1 = 0
-    recall_3 = 0
-    recall_10 = 0
+    ranks = []
+    recall_1 = recall_3 = recall_10 = 0
 
-    for q in queries:
+    for qi, q in enumerate(queries):
         question = q["question"]
         expected = set(q["expected_article_ids"])
-
-        qmatrix = vectorizer.transform([question]).astype(np.float32).toarray()
-        query_vec = qmatrix[0]
-
-        sims = _cosine_similarity_batch(query_vec, matrix)
-        top_idx = np.argsort(-sims)[: args.top_k]
-        top_ids = [article_ids[i] for i in top_idx]
+        idx_row = top_idx[qi]
+        top_ids = [article_ids[i] for i in idx_row]
 
         rank = _rank_of_first_match(top_ids, expected)
         ranks.append(rank)
@@ -149,12 +153,12 @@ def main() -> int:
             print(f"=== {q['id']}: {question}", file=sys.stderr)
             print(f"   expected: {sorted(expected)}", file=sys.stderr)
             print(f"   first match rank: {rank}", file=sys.stderr)
-            for i, idx in enumerate(top_idx[:5], 1):
+            for i, idx in enumerate(idx_row[:5], 1):
                 aid = article_ids[idx]
-                score = float(sims[idx])
+                score = float(sims[qi, idx])
                 lawname = law_name_ja[idx] or ""
                 artnum = article_number[idx] or ""
-                marker = " ✅" if aid in expected else ""
+                marker = " OK" if aid in expected else ""
                 print(
                     f"   [{i}] {aid:48s} {score:.3f}  {lawname} 第{artnum}条{marker}",
                     file=sys.stderr,
