@@ -1,0 +1,45 @@
+{
+  "run_id": "2026-05-20-gemini-6984",
+  "date": "2026-05-20",
+  "dataset_b": "juricode-jp (Phase 1 expanded + Phase 2 preview, 6,984 articles, 18 statutes)",
+  "phase_distribution": {
+    "phase1-foundational": 103,
+    "phase1-police": 1473,
+    "phase1-administrative": 651,
+    "phase1-practitioner": 1165,
+    "phase1-tax": 2260,
+    "phase2-commercial": 1332
+  },
+  "embedding_model": "gemini-embedding-001",
+  "embedding_provider": "Google Gemini (free tier)",
+  "embedding_dim": 3072,
+  "corpus_size": 6984,
+  "eval_set_version": "v0.1 (8 samples across 4 pillars)",
+  "top_k": 10,
+  "wall_clock_seconds_embedding": 219,
+  "wall_clock_seconds_retrieval_avg_ms_per_query": null,
+  "metrics": {
+    "recall_at_1": 0.75,
+    "recall_at_3": 1.00,
+    "recall_at_10": 1.00,
+    "mrr": 0.875
+  },
+  "comparison_to_3772_corpus": {
+    "previous_run_id": "2026-05-20-gemini-embedding-001",
+    "previous_corpus_size": 3772,
+    "delta_corpus_size": 3212,
+    "delta_corpus_pct": "+85.2%",
+    "delta_recall_at_1": "0.0 (no change)",
+    "delta_recall_at_3": "0.0 (no change)",
+    "delta_recall_at_10": "0.0 (no change)",
+    "delta_mrr": "0.0 (no change)",
+    "note": "Doubling the corpus did not degrade retrieval accuracy. Semantic embedding scales gracefully."
+  },
+  "notes": [
+    "Same 8-query eval-set used in both runs to enable apples-to-apples comparison.",
+    "All 8 expected articles still ranked in top-3; same 6 queries ranked at #1.",
+    "Two municipal queries (eval-municipal-001, eval-municipal-002) consistently rank at #2 — semantically adjacent but not the expected article. Eval-set expansion to 30+ items planned (FU follow-up).",
+    "Char-based-fallback used for token_count metadata (sandbox tiktoken offline); does not affect retrieval scores."
+  ],
+  "per_question_results_summary": "See benchmarks/results/2026-05-20-gemini-6984.txt for the full --show-per-query output."
+}
