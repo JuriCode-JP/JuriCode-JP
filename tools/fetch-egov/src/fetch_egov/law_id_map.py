@@ -41,6 +41,14 @@ LAW_ID_MAP: dict[str, str] = {
     "income-tax-act": "340AC0000000033",
     "shouhi-zei-hou": "363AC0000000108",
     "consumption-tax-act": "363AC0000000108",
+    # 税法 追加 (2026-05-20)
+    "souzoku-zei-hou": "325AC0000000073",
+    "inheritance-tax-act": "325AC0000000073",
+    "chihou-zei-hou": "325AC0000000226",
+    "local-tax-act": "325AC0000000226",
+    # 警察柱 拡張 (2026-05-20): 道路交通法
+    "douro-koutsuu-hou": "335AC0000000105",
+    "road-traffic-act": "335AC0000000105",
     # その他
     "dokusen-kinshi-hou": "322AC0000000054",
     "antimonopoly-act": "322AC0000000054",
