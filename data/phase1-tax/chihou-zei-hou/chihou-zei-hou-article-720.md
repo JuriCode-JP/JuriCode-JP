@@ -1,0 +1,53 @@
+---
+law_id: 325AC0000000226
+law_name_ja: 地方税法
+law_name_en: (English name pending)
+article_number: '720'
+article_id: chihou-zei-hou-art-720
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325AC0000000226
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　目的税
+  setsu: 7
+  setsu_name_ja: 第七節　水利地益税、共同施設税、宅地開発税及び国民健康保険税
+---
+
+# 地方税法 第720条(（水利地益税等に係る不足金額及びその延滞金の徴収）)
+
+## 原文 (日本語)
+
+### 第七百二十条第一項
+
+徴税吏員は、前条第一項から第三項までの規定による更正又は決定があつた場合において、不足金額（更正に因る納入金の不足額又は決定に因る納入金額をいう。以下水利地益税等について同様とする。）があるときは、同条第四項の通知をした日から一月を経過した日を納期限として、これを徴収しなければならない。
+
+### 第七百二十条第二項
+
+前項の場合においては、その不足金額に第七百十八条第二項の納期限（納期限の延長があつたときは、その延長された納期限とする。以下水利地益税等について同様とする。）の翌日から納入の日までの期間の日数に応じ、年十四・六パーセント（前項の納期限までの期間又は当該納期限の翌日から一月を経過する日までの期間については、年七・三パーセント）の割合を乗じて計算した金額に相当する延滞金額を加算して徴収しなければならない。
+
+### 第七百二十条第三項
+
+地方団体の長は、特別徴収義務者が前条第一項又は第二項の規定による更正又は決定を受けたことについてやむを得ない事由があると認める場合においては、前項の延滞金額を減免することができる。

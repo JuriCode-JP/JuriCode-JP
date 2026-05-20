@@ -1,0 +1,39 @@
+---
+law_id: 132AC0000000048
+law_name_ja: 商法
+law_name_en: Commercial Code
+article_number: '612'
+article_id: shouhou-art-612
+version_date: '1899-03-09'
+source_url: https://laws.e-gov.go.jp/law/132AC0000000048
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　商行為
+  shou: 9
+  shou_name_ja: 第九章　寄託
+  setsu: 2
+  setsu_name_ja: 第二節　倉庫営業
+---
+
+# 商法 第612条(（寄託物の返還の制限）)
+
+## 原文 (日本語)
+
+### 第六百十二条
+
+当事者が寄託物の保管期間を定めなかったときは、倉庫営業者は、寄託物の入庫の日から六箇月を経過した後でなければ、その返還をすることができない。ただし、やむを得ない事由があるときは、この限りでない。

@@ -1,0 +1,39 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '941'
+article_id: kaisha-hou-art-941
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 7
+  hen_name_ja: 第七編　雑則
+  shou: 5
+  shou_name_ja: 第五章　公告
+  setsu: 2
+  setsu_name_ja: 第二節　電子公告調査機関
+---
+
+# 会社法 第941条(（電子公告調査）)
+
+## 原文 (日本語)
+
+### 第九百四十一条
+
+この法律又は他の法律の規定による公告（第四百四十条第一項の規定による公告を除く。以下この節において同じ。）を電子公告によりしようとする会社は、公告期間中、当該公告の内容である情報が不特定多数の者が提供を受けることができる状態に置かれているかどうかについて、法務省令で定めるところにより、法務大臣の登録を受けた者（以下この節において「調査機関」という。）に対し、調査を行うことを求めなければならない。

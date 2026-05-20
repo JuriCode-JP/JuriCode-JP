@@ -1,0 +1,71 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '593'
+article_id: kaisha-hou-art-593
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　持分会社
+  shou: 3
+  shou_name_ja: 第三章　管理
+  setsu: 2
+  setsu_name_ja: 第二節　業務を執行する社員
+---
+
+# 会社法 第593条(（業務を執行する社員と持分会社との関係）)
+
+## 原文 (日本語)
+
+### 第五百九十三条第一項
+
+業務を執行する社員は、善良な管理者の注意をもって、その職務を行う義務を負う。
+
+### 第五百九十三条第二項
+
+業務を執行する社員は、法令及び定款を遵守し、持分会社のため忠実にその職務を行わなければならない。
+
+### 第五百九十三条第三項
+
+業務を執行する社員は、持分会社又は他の社員の請求があるときは、いつでもその職務の執行の状況を報告し、その職務が終了した後は、遅滞なくその経過及び結果を報告しなければならない。
+
+### 第五百九十三条第四項
+
+民法第六百四十六条から第六百五十条までの規定は、業務を執行する社員と持分会社との関係について準用する。この場合において、同法第六百四十六条第一項、第六百四十八条第二項、第六百四十八条の二、第六百四十九条及び第六百五十条中「委任事務」とあるのは「その職務」と、同法第六百四十八条第三項第一号中「委任事務」とあり、及び同項第二号中「委任」とあるのは「前項の職務」と読み替えるものとする。
+
+### 第五百九十三条第五項
+
+前二項の規定は、定款で別段の定めをすることを妨げない。

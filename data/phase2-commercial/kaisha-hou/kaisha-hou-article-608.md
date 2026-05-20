@@ -1,0 +1,71 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '608'
+article_id: kaisha-hou-art-608
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　持分会社
+  shou: 4
+  shou_name_ja: 第四章　社員の加入及び退社
+  setsu: 2
+  setsu_name_ja: 第二節　社員の退社
+---
+
+# 会社法 第608条(（相続及び合併の場合の特則）)
+
+## 原文 (日本語)
+
+### 第六百八条第一項
+
+持分会社は、その社員が死亡した場合又は合併により消滅した場合における当該社員の相続人その他の一般承継人が当該社員の持分を承継する旨を定款で定めることができる。
+
+### 第六百八条第二項
+
+第六百四条第二項の規定にかかわらず、前項の規定による定款の定めがある場合には、同項の一般承継人（社員以外のものに限る。）は、同項の持分を承継した時に、当該持分を有する社員となる。
+
+### 第六百八条第三項
+
+第一項の定款の定めがある場合には、持分会社は、同項の一般承継人が持分を承継した時に、当該一般承継人に係る定款の変更をしたものとみなす。
+
+### 第六百八条第四項
+
+第一項の一般承継人（相続により持分を承継したものであって、出資に係る払込み又は給付の全部又は一部を履行していないものに限る。）が二人以上ある場合には、各一般承継人は、連帯して当該出資に係る払込み又は給付の履行をする責任を負う。
+
+### 第六百八条第五項
+
+第一項の一般承継人（相続により持分を承継したものに限る。）が二人以上ある場合には、各一般承継人は、承継した持分についての権利を行使する者一人を定めなければ、当該持分についての権利を行使することができない。ただし、持分会社が当該権利を行使することに同意した場合は、この限りでない。

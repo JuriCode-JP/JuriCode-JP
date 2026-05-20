@@ -1,0 +1,57 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '254'
+article_id: kaisha-hou-art-254
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　株式会社
+  shou: 3
+  shou_name_ja: 第三章　新株予約権
+  setsu: 4
+  setsu_name_ja: 第四節　新株予約権の譲渡等
+  kan: 1
+  kan_name_ja: 第一款　新株予約権の譲渡
+---
+
+# 会社法 第254条(（新株予約権の譲渡）)
+
+## 原文 (日本語)
+
+### 第二百五十四条第一項
+
+新株予約権者は、その有する新株予約権を譲渡することができる。
+
+### 第二百五十四条第二項
+
+前項の規定にかかわらず、新株予約権付社債に付された新株予約権のみを譲渡することはできない。ただし、当該新株予約権付社債についての社債が消滅したときは、この限りでない。
+
+### 第二百五十四条第三項
+
+新株予約権付社債についての社債のみを譲渡することはできない。ただし、当該新株予約権付社債に付された新株予約権が消滅したときは、この限りでない。

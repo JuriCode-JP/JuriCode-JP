@@ -1,0 +1,71 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '40'
+article_id: kaisha-hou-art-40
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　株式会社
+  shou: 1
+  shou_name_ja: 第一章　設立
+  setsu: 4
+  setsu_name_ja: 第四節　設立時役員等の選任及び解任
+---
+
+# 会社法 第40条(（設立時役員等の選任の方法）)
+
+## 原文 (日本語)
+
+### 第四十条第一項
+
+設立時役員等の選任は、発起人の議決権の過半数をもって決定する。
+
+### 第四十条第二項
+
+前項の場合には、発起人は、出資の履行をした設立時発行株式一株につき一個の議決権を有する。ただし、単元株式数を定款で定めている場合には、一単元の設立時発行株式につき一個の議決権を有する。
+
+### 第四十条第三項
+
+前項の規定にかかわらず、設立しようとする株式会社が種類株式発行会社である場合において、取締役の全部又は一部の選任について議決権を行使することができないものと定められた種類の設立時発行株式を発行するときは、当該種類の設立時発行株式については、発起人は、当該取締役となる設立時取締役の選任についての議決権を行使することができない。
+
+### 第四十条第四項
+
+設立しようとする株式会社が監査等委員会設置会社である場合における前項の規定の適用については、同項中「、取締役」とあるのは「、監査等委員である取締役又はそれ以外の取締役」と、「当該取締役」とあるのは「これらの取締役」とする。
+
+### 第四十条第五項
+
+第三項の規定は、設立時会計参与、設立時監査役及び設立時会計監査人の選任について準用する。

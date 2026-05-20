@@ -1,0 +1,71 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '454'
+article_id: kaisha-hou-art-454
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　株式会社
+  shou: 5
+  shou_name_ja: 第五章　計算等
+  setsu: 4
+  setsu_name_ja: 第四節　剰余金の配当
+---
+
+# 会社法 第454条(（剰余金の配当に関する事項の決定）)
+
+## 原文 (日本語)
+
+### 第四百五十四条第一項
+
+株式会社は、前条の規定による剰余金の配当をしようとするときは、その都度、株主総会の決議によって、次に掲げる事項を定めなければならない。
+
+### 第四百五十四条第二項
+
+前項に規定する場合において、剰余金の配当について内容の異なる二以上の種類の株式を発行しているときは、株式会社は、当該種類の株式の内容に応じ、同項第二号に掲げる事項として、次に掲げる事項を定めることができる。
+
+### 第四百五十四条第三項
+
+第一項第二号に掲げる事項についての定めは、株主（当該株式会社及び前項第一号の種類の株式の株主を除く。）の有する株式の数（前項第二号に掲げる事項についての定めがある場合にあっては、各種類の株式の数）に応じて配当財産を割り当てることを内容とするものでなければならない。
+
+### 第四百五十四条第四項
+
+配当財産が金銭以外の財産であるときは、株式会社は、株主総会の決議によって、次に掲げる事項を定めることができる。ただし、第一号の期間の末日は、第一項第三号の日以前の日でなければならない。
+
+### 第四百五十四条第五項
+
+取締役会設置会社は、一事業年度の途中において一回に限り取締役会の決議によって剰余金の配当（配当財産が金銭であるものに限る。以下この項において「中間配当」という。）をすることができる旨を定款で定めることができる。この場合における中間配当についての第一項の規定の適用については、同項中「株主総会」とあるのは、「取締役会」とする。

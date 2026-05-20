@@ -1,0 +1,79 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '374'
+article_id: kaisha-hou-art-374
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　株式会社
+  shou: 4
+  shou_name_ja: 第四章　機関
+  setsu: 6
+  setsu_name_ja: 第六節　会計参与
+---
+
+# 会社法 第374条(（会計参与の権限）)
+
+## 原文 (日本語)
+
+### 第三百七十四条第一項
+
+会計参与は、取締役と共同して、計算書類（第四百三十五条第二項に規定する計算書類をいう。以下この章において同じ。）及びその附属明細書、臨時計算書類（第四百四十一条第一項に規定する臨時計算書類をいう。以下この章において同じ。）並びに連結計算書類（第四百四十四条第一項に規定する連結計算書類をいう。第三百九十六条第一項において同じ。）を作成する。この場合において、会計参与は、法務省令で定めるところにより、会計参与報告を作成しなければならない。
+
+### 第三百七十四条第二項
+
+会計参与は、いつでも、次に掲げるものの閲覧及び謄写をし、又は取締役及び支配人その他の使用人に対して会計に関する報告を求めることができる。
+
+### 第三百七十四条第三項
+
+会計参与は、その職務を行うため必要があるときは、会計参与設置会社の子会社に対して会計に関する報告を求め、又は会計参与設置会社若しくはその子会社の業務及び財産の状況の調査をすることができる。
+
+### 第三百七十四条第四項
+
+前項の子会社は、正当な理由があるときは、同項の報告又は調査を拒むことができる。
+
+### 第三百七十四条第五項
+
+会計参与は、その職務を行うに当たっては、第三百三十三条第三項第二号又は第三号に掲げる者を使用してはならない。
+
+### 第三百七十四条第六項
+
+指名委員会等設置会社における第一項及び第二項の規定の適用については、第一項中「取締役」とあるのは「執行役」と、第二項中「取締役及び」とあるのは「執行役及び取締役並びに」とする。
