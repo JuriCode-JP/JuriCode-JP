@@ -80,8 +80,18 @@ PARAGRAPH_HEADING_RE = re.compile(
 )
 
 KANSUJI_BASIC = {
-    "〇": 0, "零": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
-    "六": 6, "七": 7, "八": 8, "九": 9, "十": 10,
+    "〇": 0,
+    "零": 0,
+    "一": 1,
+    "二": 2,
+    "三": 3,
+    "四": 4,
+    "五": 5,
+    "六": 6,
+    "七": 7,
+    "八": 8,
+    "九": 9,
+    "十": 10,
 }
 
 
@@ -333,12 +343,19 @@ def _build_argparser() -> argparse.ArgumentParser:
         description="JuriCode-JP Markdown → BigQuery JSON Lines (NDJSON) "
         "exporter for 'Lawsy-Custom-BQ' (GENAI) ingestion."
     )
-    ap.add_argument("--input", type=Path, default=Path("examples"),
-                    help="Directory to search for *-article-*.md files")
-    ap.add_argument("--output", type=Path, default=None,
-                    help="Output file path (default: stdout)")
-    ap.add_argument("--chunk", choices=["article", "paragraph"], default="article",
-                    help="Chunk granularity (default: article)")
+    ap.add_argument(
+        "--input",
+        type=Path,
+        default=Path("examples"),
+        help="Directory to search for *-article-*.md files",
+    )
+    ap.add_argument("--output", type=Path, default=None, help="Output file path (default: stdout)")
+    ap.add_argument(
+        "--chunk",
+        choices=["article", "paragraph"],
+        default="article",
+        help="Chunk granularity (default: article)",
+    )
     return ap
 
 
