@@ -80,7 +80,7 @@
   {
     "name": "translation_status",
     "type": "STRING",
-    "mode": "NULLABLE",
+    "mode": "REQUIRED",
     "description": "Translation status: 'official' / 'community' / 'draft' / 'none'."
   },
   {
@@ -99,36 +99,72 @@
     "name": "char_count",
     "type": "INTEGER",
     "mode": "REQUIRED",
-    "description": "Character count of the chunk text (Python len()). Useful for size budgeting before token counts are precise."
+    "description": "Character count of the chunk text (Python len())."
   },
   {
     "name": "token_count",
     "type": "INTEGER",
     "mode": "REQUIRED",
-    "description": "Token count of the chunk text. Method recorded in token_method. Use this to budget retrieval against the LLM context window."
+    "description": "Token count of the chunk text. Method recorded in token_method."
   },
   {
     "name": "token_method",
     "type": "STRING",
     "mode": "REQUIRED",
-    "description": "How token_count was computed. 'tiktoken-o200k_base' (precise, used when tiktoken is installed) or 'char-based-fallback' (len(text)//2, used when tiktoken is unavailable). Treat token_count as approximate when this is 'char-based-fallback'."
+    "description": "How token_count was computed. 'tiktoken-o200k_base' (precise) or 'char-based-fallback' (len(text)//2)."
   },
   {
     "name": "has_cases",
     "type": "BOOLEAN",
     "mode": "REQUIRED",
-    "description": "True iff the source article frontmatter declares one or more case-law links in its `cases:` list. Use as a fast retrieval filter when 'case-backed' authority is required."
+    "description": "True iff the source article frontmatter declares one or more case-law links in its `cases:` list."
   },
   {
     "name": "case_count",
     "type": "INTEGER",
     "mode": "REQUIRED",
-    "description": "Number of entries in the source article's `cases:` list. Counts raw entries listed (including any that lack case_id). 0 when there are no case links."
+    "description": "Number of entries in the source article's `cases:` list."
   },
   {
     "name": "case_ids",
     "type": "STRING",
     "mode": "REPEATED",
-    "description": "Flattened list of case_id values from the source article's `cases:` list. Use as a join key against an external case-law index. May be shorter than case_count when some entries lack a case_id."
+    "description": "Flattened list of case_id values from the source article's `cases:` list."
+  },
+  {
+    "name": "hen",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "編 (Part) number from parent_section. Null when the article is not nested under a 編."
+  },
+  {
+    "name": "hen_name_ja",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "編 (Part) name in Japanese (e.g. '第一編 総則'). Null when hen is null."
+  },
+  {
+    "name": "shou",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "章 (Chapter) number from parent_section. Null when the article is not nested under a 章."
+  },
+  {
+    "name": "shou_name_ja",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "章 (Chapter) name in Japanese. Null when shou is null."
+  },
+  {
+    "name": "setsu",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "節 (Section) number from parent_section. Null when the article is not nested under a 節."
+  },
+  {
+    "name": "setsu_name_ja",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "節 (Section) name in Japanese. Null when setsu is null."
   }
 ]

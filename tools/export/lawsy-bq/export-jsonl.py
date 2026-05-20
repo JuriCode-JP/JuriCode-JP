@@ -56,10 +56,6 @@ except ImportError:
 # to a character-based approximation. The exporter does not hard-fail without
 # tiktoken — it simply emits less precise token counts and records that fact
 # in the `token_method` field so downstream consumers can detect this.
-#
-# To get precise token counts:
-#   pip install ".[rag-export]"
-# which installs tiktoken as declared in pyproject.toml.
 
 _TIKTOKEN_ENCODING_NAME = "o200k_base"
 
@@ -70,26 +66,14 @@ try:
     _TOKEN_METHOD = f"tiktoken-{_TIKTOKEN_ENCODING_NAME}"
 
     def count_tokens(text: str) -> int:
-        """Return precise token count using tiktoken o200k_base.
-
-        o200k_base is the encoding used by GPT-4o, o1, o3, and Claude 3.5+.
-        It is a reasonable default for "what token count will downstream
-        RAG-consuming LLMs likely see."
-        """
+        """Return precise token count using tiktoken o200k_base."""
         return len(_ENCODING.encode(text))
 
 except ImportError:
     _TOKEN_METHOD = "char-based-fallback"
 
     def count_tokens(text: str) -> int:
-        """Fallback when tiktoken is unavailable.
-
-        Approximates token count by dividing character count by 2. This is
-        a rough heuristic for Japanese text where the ratio averages around
-        1.5-2.5 chars per token depending on content. Downstream consumers
-        should treat `token_count` as approximate when `token_method` is
-        'char-based-fallback'.
-        """
+        """Fallback when tiktoken is unavailable. Approximates as len(text)//2."""
         return max(1, len(text) // 2)
 
 
@@ -101,10 +85,7 @@ FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
 
 JA_SECTION_RE = re.compile(r"##\s*原文\s*\(?日本語\)?\s*\n(.*?)(?=\n##\s|\Z)", re.DOTALL)
 
-# Paragraph heading inside the Japanese-original section, e.g.
-#   "### 第三十六条"          -> paragraph 1 (implicit)
-#   "### 第三十六条第二項"     -> paragraph 2
-#   "### 第百九十八条第3項"    -> paragraph 3
+# Paragraph heading inside the Japanese-original section.
 PARAGRAPH_HEADING_RE = re.compile(
     r"^###\s+第[一二三四五六七八九十百千0-9]+条"
     r"(?:第([一二三四五六七八九十百千0-9]+)項)?\s*$",
@@ -112,18 +93,8 @@ PARAGRAPH_HEADING_RE = re.compile(
 )
 
 KANSUJI_BASIC = {
-    "〇": 0,
-    "零": 0,
-    "一": 1,
-    "二": 2,
-    "三": 3,
-    "四": 4,
-    "五": 5,
-    "六": 6,
-    "七": 7,
-    "八": 8,
-    "九": 9,
-    "十": 10,
+    "〇": 0, "零": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
+    "六": 6, "七": 7, "八": 8, "九": 9, "十": 10,
 }
 
 
@@ -146,12 +117,7 @@ def kansuji_to_int(s: str) -> int:
 
 
 def clean_text(text: str) -> str:
-    """Strip trailing horizontal rules ('---') and surrounding whitespace.
-
-    The Japanese-original section often ends with '---' as a Markdown
-    horizontal rule before the next section. Strip those so they don't
-    leak into the RAG-ready text content.
-    """
+    """Strip trailing horizontal rules ('---') and surrounding whitespace."""
     lines = text.splitlines()
     while lines and (not lines[-1].strip() or set(lines[-1].strip()) <= {"-"}):
         lines.pop()
@@ -233,11 +199,6 @@ def _extract_case_metadata(fm: dict) -> dict:
       - has_cases : bool — true iff at least one entry is present
       - case_count: int  — len(cases)
       - case_ids  : list[str] — flattened case_id values (drops malformed)
-
-    Articles whose `cases:` field is missing or null are treated as empty.
-    Entries lacking `case_id` are silently dropped from case_ids but still
-    counted in case_count (so the count reflects "raw entries listed" and
-    case_ids reflects "actionable references").
     """
     raw = fm.get("cases") or []
     if not isinstance(raw, list):
@@ -250,13 +211,44 @@ def _extract_case_metadata(fm: dict) -> dict:
     }
 
 
+def _extract_section_metadata(fm: dict) -> dict:
+    """Lift parent_section (hen/shou/setsu) for filterable retrieval.
+
+    The JuriCode-JP frontmatter encodes statutory hierarchy as a nested
+    `parent_section:` dict. We flatten the top three levels (編 / 章 / 節)
+    into six top-level fields so RAG retrievers can filter by part/chapter
+    without parsing the nested object:
+
+      - hen          : int or None  — 編 number
+      - hen_name_ja  : str or None  — 編 name in Japanese
+      - shou         : int or None  — 章 number
+      - shou_name_ja : str or None  — 章 name in Japanese
+      - setsu        : int or None  — 節 number (rare)
+      - setsu_name_ja: str or None  — 節 name in Japanese (rare)
+
+    Missing levels yield None — null-safe at every step. Lower levels
+    (款 / 目) are intentionally not surfaced to keep the schema flat;
+    consumers needing those should parse the source frontmatter directly.
+    """
+    ps = fm.get("parent_section") or {}
+    if not isinstance(ps, dict):
+        ps = {}
+    return {
+        "hen": ps.get("hen"),
+        "hen_name_ja": ps.get("hen_name_ja"),
+        "shou": ps.get("shou"),
+        "shou_name_ja": ps.get("shou_name_ja"),
+        "setsu": ps.get("setsu"),
+        "setsu_name_ja": ps.get("setsu_name_ja"),
+    }
+
+
 def _build_chunk_id(article_id: str | None, paragraph_number: int | None) -> str | None:
     """Return a stable, unique chunk identifier.
 
     For article chunks the chunk_id equals the article_id (e.g. 'minpou-art-90').
     For paragraph chunks we suffix '-pN' (e.g. 'minpou-art-90-p2'). When
-    article_id is missing the chunk_id is None — downstream consumers should
-    treat this as a data-quality signal worth investigating.
+    article_id is missing the chunk_id is None — a data-quality signal.
     """
     if not article_id:
         return None
@@ -280,6 +272,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
     base = base_record(fm)
     article_id = base.get("article_id")
     case_meta = _extract_case_metadata(fm)
+    section_meta = _extract_section_metadata(fm)
 
     if chunk_mode == "article":
         return [
@@ -291,6 +284,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
                 "text": ja_body,
                 **_chunk_size_fields(ja_body),
                 **case_meta,
+                **section_meta,
             }
         ]
 
@@ -305,6 +299,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
                 "text": text,
                 **_chunk_size_fields(text),
                 **case_meta,
+                **section_meta,
             }
         )
     return records
@@ -317,17 +312,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
 
 @contextlib.contextmanager
 def _open_output(path: Path | None) -> Iterator[TextIO]:
-    """Yield an output file handle, falling back to stdout when path is None.
-
-    The context manager closes the file on exit, but never closes stdout.
-    This ensures clean handling even when an exception is raised mid-write.
-
-    Args:
-        path: Output file path, or None for stdout.
-
-    Yields:
-        A writable text stream.
-    """
+    """Yield an output file handle, falling back to stdout when path is None."""
     if path is None:
         yield sys.stdout
         return
@@ -390,8 +375,6 @@ def main() -> int:
                     out_handle.write(json.dumps(record, ensure_ascii=False) + "\n")
                     count += 1
             except (ValueError, OSError, UnicodeDecodeError) as e:
-                # Narrow exception list: catch parse / IO failures only,
-                # let unexpected errors (e.g. KeyboardInterrupt) propagate.
                 print(f"WARN: skipping {path}: {e}", file=sys.stderr)
                 skipped += 1
 
