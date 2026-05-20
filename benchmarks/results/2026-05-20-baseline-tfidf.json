@@ -1,0 +1,100 @@
+{
+  "run_id": "2026-05-20-baseline-tfidf",
+  "date": "2026-05-20",
+  "dataset_a": null,
+  "dataset_b": "juricode-jp@0ae5329 (eval-set v0.1, 8 samples)",
+  "embedding_model": "tfidf-char-2to3gram-d5000",
+  "embedding_provider": "sklearn TfidfVectorizer (char_wb, ngram=(2,3), max_features=5000, min_df=2)",
+  "corpus_size": 3772,
+  "eval_set_version": "v0.1 (8 samples across 4 pillars)",
+  "top_k": 10,
+  "metrics": {
+    "dataset_b": {
+      "recall_at_1": 0.0,
+      "recall_at_3": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "per_question_results": [
+    {
+      "question_id": "eval-municipal-001",
+      "question": "住民監査請求はどのような手続きで行うのか?",
+      "expected": ["chihou-jichi-hou-art-242"],
+      "rank_in_b": null,
+      "top1_id": "gyousei-fufuku-shinsa-hou-art-12",
+      "top1_score": 0.283
+    },
+    {
+      "question_id": "eval-municipal-002",
+      "question": "行政不服審査の請求期間はどれくらいか?",
+      "expected": ["gyousei-fufuku-shinsa-hou-art-18"],
+      "rank_in_b": null,
+      "top1_id": "kokuzei-tsuusoku-hou-art-112",
+      "top1_score": 0.360
+    },
+    {
+      "question_id": "eval-police-001",
+      "question": "正当防衛が成立する要件は何か?",
+      "expected": ["keihou-art-36"],
+      "rank_in_b": null,
+      "top1_id": "minpou-art-450",
+      "top1_score": 0.314
+    },
+    {
+      "question_id": "eval-police-002",
+      "question": "職務質問はどのような場合に行うことができるか?",
+      "expected": ["keisatsukan-shokumu-shikkou-hou-art-2"],
+      "rank_in_b": null,
+      "top1_id": "keiji-soshou-hou-art-195",
+      "top1_score": 0.300
+    },
+    {
+      "question_id": "eval-practitioner-001",
+      "question": "契約を解除すると、解除前に行った給付はどうなるか?",
+      "expected": ["minpou-art-545"],
+      "rank_in_b": null,
+      "top1_id": "minpou-art-547",
+      "top1_score": 0.289
+    },
+    {
+      "question_id": "eval-practitioner-002",
+      "question": "公序良俗に反する契約はどうなるか?",
+      "expected": ["minpou-art-90"],
+      "rank_in_b": null,
+      "top1_id": "chihou-jichi-hou-art-234-3",
+      "top1_score": 0.308
+    },
+    {
+      "question_id": "eval-tax-001",
+      "question": "納税申告に誤りがあった場合、納税者が自ら正すための手続きは?",
+      "expected": ["kokuzei-tsuusoku-hou-art-23"],
+      "rank_in_b": null,
+      "top1_id": "kokuzei-tsuusoku-hou-art-17",
+      "top1_score": 0.360
+    },
+    {
+      "question_id": "eval-tax-002",
+      "question": "給与所得の金額はどのように計算するか?",
+      "expected": ["shotoku-zei-hou-art-28"],
+      "rank_in_b": null,
+      "top1_id": "shotoku-zei-hou-art-69",
+      "top1_score": 0.377
+    }
+  ],
+  "interpretation": {
+    "summary": "TF-IDF (char n-gram baseline) cannot retrieve any expected article in top-10 across all 8 eval queries. Recall@10 = 0%.",
+    "root_cause": "Semantic gap between question vocabulary and statutory text. Questions use everyday legal terms (正当防衛, 公序良俗, 住民監査請求) while statutes use more formal phrasing (急迫不正の侵害, 公の秩序又は善良の風俗, 監査委員に対する請求). Character n-gram lexical matching cannot cross this gap.",
+    "implications": [
+      "Data preparation alone (the 3,772 corpus) is insufficient for RAG.",
+      "Embedding model choice is decisive. A multilingual semantic embedding (e.g. multilingual-e5, OpenAI text-embedding-3) is expected to bridge the gap.",
+      "This baseline result validates the project's roadmap: Phase 1 後半 priorities should include real embedding model evaluation, not just data expansion."
+    ],
+    "next_runs_planned": [
+      "intfloat/multilingual-e5-large (HuggingFace, OSS, multilingual)",
+      "pkshatech/GLuCoSE-base-ja (HuggingFace, Japanese-specialised)",
+      "OpenAI text-embedding-3-small (commercial, baseline for ML community comparability)"
+    ]
+  },
+  "notes": "Run executed in JuriCode-JP sandbox env. sentence-transformers / torch could not be installed within sandbox time budget, so TF-IDF used as a controlled baseline. Sandbox: scikit-learn 1.7.2, numpy 2.2.6. Wall clock: embed.py ~16s, retrieve.py < 5s."
+}
