@@ -49,6 +49,50 @@ except ImportError:
 
 
 # ---------------------------------------------------------------------------
+# Tokenizer (optional dependency)
+# ---------------------------------------------------------------------------
+# tiktoken is loaded lazily and is OPTIONAL. When unavailable, we fall back
+# to a character-based approximation. The exporter does not hard-fail without
+# tiktoken — it simply emits less precise token counts and records that fact
+# in the `token_method` field so downstream consumers can detect this.
+#
+# To get precise token counts:
+#   pip install ".[rag-export]"
+# which installs tiktoken as declared in pyproject.toml.
+
+_TIKTOKEN_ENCODING_NAME = "o200k_base"
+
+try:
+    import tiktoken
+
+    _ENCODING = tiktoken.get_encoding(_TIKTOKEN_ENCODING_NAME)
+    _TOKEN_METHOD = f"tiktoken-{_TIKTOKEN_ENCODING_NAME}"
+
+    def count_tokens(text: str) -> int:
+        """Return precise token count using tiktoken o200k_base.
+
+        o200k_base is the encoding used by GPT-4o, o1, o3, and Claude 3.5+.
+        It is a reasonable default for "what token count will downstream
+        RAG-consuming LLMs likely see."
+        """
+        return len(_ENCODING.encode(text))
+
+except ImportError:
+    _TOKEN_METHOD = "char-based-fallback"
+
+    def count_tokens(text: str) -> int:
+        """Fallback when tiktoken is unavailable.
+
+        Approximates token count by dividing character count by 2. This is
+        a rough heuristic for Japanese text where the ratio averages around
+        1.5-2.5 chars per token depending on content. Downstream consumers
+        should treat `token_count` as approximate when `token_method` is
+        'char-based-fallback'.
+        """
+        return max(1, len(text) // 2)
+
+
+# ---------------------------------------------------------------------------
 # Frontmatter / body parsing
 # ---------------------------------------------------------------------------
 
@@ -179,10 +223,39 @@ def base_record(fm: dict) -> dict:
     }
 
 
+def _build_chunk_id(article_id: str | None, paragraph_number: int | None) -> str | None:
+    """Return a stable, unique chunk identifier.
+
+    For article chunks the chunk_id equals the article_id (e.g. 'minpou-art-90').
+    For paragraph chunks we suffix '-pN' (e.g. 'minpou-art-90-p2'). When
+    article_id is missing the chunk_id is None — downstream consumers should
+    treat this as a data-quality signal worth investigating.
+    """
+    if not article_id:
+        return None
+    if paragraph_number is None:
+        return article_id
+    return f"{article_id}-p{paragraph_number}"
+
+
+def _chunk_size_fields(text: str) -> dict:
+    """Return a dict of {char_count, token_count, token_method}.
+
+    Encapsulating this here keeps `to_bq_records` simple and keeps the
+    fallback path in one location (see top-of-file `count_tokens`).
+    """
+    return {
+        "char_count": len(text),
+        "token_count": count_tokens(text),
+        "token_method": _TOKEN_METHOD,
+    }
+
+
 def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
     fm = parsed["frontmatter"]
     ja_body = extract_japanese_body(parsed["body"])
     base = base_record(fm)
+    article_id = base.get("article_id")
 
     if chunk_mode == "article":
         return [
@@ -190,7 +263,9 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
                 **base,
                 "chunk_type": "article",
                 "paragraph_number": None,
+                "chunk_id": _build_chunk_id(article_id, None),
                 "text": ja_body,
+                **_chunk_size_fields(ja_body),
             }
         ]
 
@@ -201,7 +276,9 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
                 **base,
                 "chunk_type": "paragraph",
                 "paragraph_number": para_num,
+                "chunk_id": _build_chunk_id(article_id, para_num),
                 "text": text,
+                **_chunk_size_fields(text),
             }
         )
     return records

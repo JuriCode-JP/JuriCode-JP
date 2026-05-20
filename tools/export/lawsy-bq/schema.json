@@ -88,5 +88,29 @@
     "type": "STRING",
     "mode": "REPEATED",
     "description": "Topic tags (phase, law category, concept, procedure, stakeholder)."
+  },
+  {
+    "name": "chunk_id",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Unique chunk identifier. Equals article_id for chunk_type='article', or '<article_id>-p<N>' for chunk_type='paragraph'. Null only when source article_id is missing (data-quality signal)."
+  },
+  {
+    "name": "char_count",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": "Character count of the chunk text (Python len()). Useful for size budgeting before token counts are precise."
+  },
+  {
+    "name": "token_count",
+    "type": "INTEGER",
+    "mode": "REQUIRED",
+    "description": "Token count of the chunk text. Method recorded in token_method. Use this to budget retrieval against the LLM context window."
+  },
+  {
+    "name": "token_method",
+    "type": "STRING",
+    "mode": "REQUIRED",
+    "description": "How token_count was computed. 'tiktoken-o200k_base' (precise, used when tiktoken is installed) or 'char-based-fallback' (len(text)//2, used when tiktoken is unavailable). Treat token_count as approximate when this is 'char-based-fallback'."
   }
 ]

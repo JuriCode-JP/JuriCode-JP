@@ -57,6 +57,15 @@ dev = [
     "jsonschema>=4.0",
 ]
 
+# Optional extras for tools/export/lawsy-bq RAG-ready exporter.
+# Install via `pip install ".[rag-export]"` to get precise token counts via
+# tiktoken (o200k_base). When this extra is NOT installed, the exporter falls
+# back to len(text)//2 and records token_method='char-based-fallback' so
+# downstream RAG consumers can detect approximate counts.
+rag-export = [
+    "tiktoken>=0.7.0",
+]
+
 [project.urls]
 Homepage = "https://github.com/JuriCode-JP/JuriCode-JP"
 Documentation = "https://github.com/JuriCode-JP/JuriCode-JP/tree/main/docs"
