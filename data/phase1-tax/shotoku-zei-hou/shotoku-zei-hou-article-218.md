@@ -1,0 +1,37 @@
+---
+law_id: 340AC0000000033
+law_name_ja: 所得税法
+law_name_en: (English name pending)
+article_number: '218'
+article_id: shotoku-zei-hou-art-218
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 4
+  hen_name_ja: 第四編　源泉徴収
+  shou: 6
+  shou_name_ja: 第六章　源泉徴収に係る所得税の納期の特例
+---
+
+# 所得税法 第218条(（納期の特例の要件を欠いた場合の届出）)
+
+## 原文 (日本語)
+
+### 第二百十八条
+
+第二百十六条（源泉徴収に係る所得税の納期の特例）の承認を受けた者は、その承認に係る事務所等において給与等の支払を受ける者が常時十人未満でなくなつた場合には、遅滞なく、その旨その他財務省令で定める事項を記載した届出書を当該事務所等の所在地の所轄税務署長に提出しなければならない。この場合において、その届出書の提出があつたときは、その提出の日の属する同条に規定する期間以後の期間については、その承認は、その効力を失うものとする。

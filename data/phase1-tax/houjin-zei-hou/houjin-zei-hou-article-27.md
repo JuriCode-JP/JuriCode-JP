@@ -1,0 +1,43 @@
+---
+law_id: 340AC0000000034
+law_name_ja: 法人税法
+law_name_en: (English name pending)
+article_number: '27'
+article_id: houjin-zei-hou-art-27
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　内国法人の法人税
+  shou: 1
+  shou_name_ja: 第一章　各事業年度の所得に対する法人税
+  setsu: 1
+  setsu_name_ja: 第一節　課税標準及びその計算
+  kan: 3
+  kan_name_ja: 第三款　益金の額の計算
+  moku: 4
+  moku_name_ja: 第四目　還付金等
+---
+
+# 法人税法 第27条(（中間申告における繰戻しによる還付に係る災害損失欠損金額の益金算入）)
+
+## 原文 (日本語)
+
+### 第二十七条
+
+内国法人の第八十条第五項（欠損金の繰戻しによる還付）に規定する中間期間において生じた同項に規定する災害損失欠損金額（以下この条において「災害損失欠損金額」という。）について当該内国法人（当該内国法人が通算法人である場合には、他の通算法人を含む。）が第八十条の規定の適用を受けた場合には、同項に規定する仮決算の中間申告書の提出により還付を受けるべき金額の計算の基礎となつた災害損失欠損金額（当該内国法人が通算法人である場合には、同条第十三項の規定により還付を受けるべき金額の計算の基礎となつた金額とされた金額）に相当する金額は、当該中間期間の属する事業年度の所得の金額の計算上、益金の額に算入する。

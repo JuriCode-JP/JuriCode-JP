@@ -1,0 +1,41 @@
+---
+law_id: 340AC0000000034
+law_name_ja: 法人税法
+law_name_en: (English name pending)
+article_number: 144-9
+article_id: houjin-zei-hou-art-144-9
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　外国法人の法人税
+  shou: 2
+  shou_name_ja: 第二章　各事業年度の所得に対する法人税
+  setsu: 3
+  setsu_name_ja: 第三節　申告、納付及び還付等
+  kan: 3
+  kan_name_ja: 第三款　納付
+---
+
+# 法人税法 第144-9条(（中間申告による納付）)
+
+## 原文 (日本語)
+
+### 第百四十四条の九
+
+中間申告書を提出した外国法人である普通法人は、当該申告書に記載した第百四十四条の三第一項第一号（中間申告）に掲げる金額（第百四十四条の四第一項各号（仮決算をした場合の中間申告書の記載事項等）に掲げる事項を記載した中間申告書を提出した場合には、同項第七号に掲げる金額）又は第百四十四条の三第二項第一号に掲げる金額（第百四十四条の四第二項各号に掲げる事項を記載した中間申告書を提出した場合には、同項第二号に掲げる金額）があるときは、当該申告書の提出期限までに、これらの金額に相当する法人税を国に納付しなければならない。

@@ -1,0 +1,39 @@
+---
+law_id: 340AC0000000033
+law_name_ja: 所得税法
+law_name_en: (English name pending)
+article_number: '193'
+article_id: shotoku-zei-hou-art-193
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 4
+  hen_name_ja: 第四編　源泉徴収
+  shou: 2
+  shou_name_ja: 第二章　給与所得に係る源泉徴収
+  setsu: 2
+  setsu_name_ja: 第二節　年末調整
+---
+
+# 所得税法 第193条(（年末調整の細目）)
+
+## 原文 (日本語)
+
+### 第百九十三条
+
+第百九十一条（過納額の還付）に規定する過納額の還付の手続、前条第二項に規定する承認の手続その他これらの規定の適用に関し必要な事項は、政令で定める。

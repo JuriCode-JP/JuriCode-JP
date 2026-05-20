@@ -1,0 +1,35 @@
+---
+law_id: 340AC0000000034
+law_name_ja: 法人税法
+law_name_en: (English name pending)
+article_number: '162'
+article_id: houjin-zei-hou-art-162
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 5
+  hen_name_ja: 第五編　罰則
+---
+
+# 法人税法 第162条
+
+## 原文 (日本語)
+
+### 第百六十二条
+
+第七十一条第一項（中間申告）の規定による申告書で第七十二条第一項各号（仮決算をした場合の中間申告書の記載事項等）に掲げる事項を記載したもの、第八十八条（退職年金等積立金に係る中間申告）（第百四十五条の十三（申告及び納付）において準用する場合を含む。）の規定による申告書若しくは第百四十四条の三第一項（中間申告）の規定による申告書で第百四十四条の四第一項各号（仮決算をした場合の中間申告書の記載事項等）に掲げる事項を記載したもの若しくは第百四十四条の三第二項の規定による申告書で第百四十四条の四第二項各号に掲げる事項を記載したもの（当該申告書に係る期限後申告書を含む。）に偽りの記載をして税務署長に提出した場合又は第百五十条の三第一項若しくは第四項（特定多国籍企業グループ等に係る報告事項等の提供）の規定による電子情報処理組織を使用する方法により偽りの事項を税務署長に提供した場合の法人の代表者、代理人、使用人その他の従業者でその違反行為をした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。

@@ -1,0 +1,53 @@
+---
+law_id: 337AC0000000066
+law_name_ja: 国税通則法
+law_name_en: (English name pending)
+article_number: '5'
+article_id: kokuzei-tsuusoku-hou-art-5
+version_date: '1962-04-02'
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 1
+  shou_name_ja: 第一章　総則
+  setsu: 2
+  setsu_name_ja: 第二節　国税の納付義務の承継等
+---
+
+# 国税通則法 第5条(（相続による国税の納付義務の承継）)
+
+## 原文 (日本語)
+
+### 第五条第一項
+
+相続（包括遺贈を含む。以下同じ。）があつた場合には、相続人（包括受遺者を含む。以下同じ。）又は民法（明治二十九年法律第八十九号）第九百五十一条（相続財産法人の成立）の法人は、その被相続人（包括遺贈者を含む。以下同じ。）に課されるべき、又はその被相続人が納付し、若しくは徴収されるべき国税（その滞納処分費を含む。次章、第三章第一節（国税の納付）、第六章（附帯税）、第七章第一節（国税の更正、決定等の期間制限）、第七章の二（国税の調査）及び第十一章（犯則事件の調査及び処分）を除き、以下同じ。）を納める義務を承継する。この場合において、相続人が限定承認をしたときは、その相続人は、相続によつて得た財産の限度においてのみその国税を納付する責めに任ずる。
+
+### 第五条第二項
+
+前項前段の場合において、相続人が二人以上あるときは、各相続人が同項前段の規定により承継する国税の額は、同項の国税の額を民法第九百条から第九百二条まで（法定相続分・代襲相続人の相続分・遺言による相続分の指定）の規定によるその相続分により按あん分して計算した額とする。
+
+### 第五条第三項
+
+前項の場合において、相続人のうちに相続によつて得た財産の価額が同項の規定により計算した国税の額を超える者があるときは、その相続人は、その超える価額を限度として、他の相続人が前二項の規定により承継する国税を納付する責めに任ずる。
