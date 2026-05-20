@@ -124,16 +124,13 @@ def _openai_embed(records, text_field, model, batch_size, max_retries):
 
 # ---------- Provider: Gemini ----------
 
-def _gemini_embed(records, text_field, model, batch_size, max_retries):
-    """Encode via Google Gemini embedding API.
+def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec):
+    """Encode via Google Gemini embedding API with throttling for free tier.
 
-    Requires:
-      `pip install google-genai` (the new SDK).
-      GEMINI_API_KEY or GOOGLE_API_KEY env var (free tier on aistudio.google.com).
-
+    Free tier: 100 RPM. With sleep_sec=0.7 we cap ourselves at ~85 RPM.
     Model names:
       gemini-embedding-001            (new, default, 768/1536/3072 dim)
-      models/text-embedding-004       (legacy, 768 dim)
+      models/text-embedding-004       (legacy, 768 dim, separate quota)
     """
     try:
         from google import genai
@@ -150,7 +147,7 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries):
     n = len(corpus)
 
     vectors = []
-    print(f"Encoding {n:,} records via Gemini {model} (batch={batch_size})", file=sys.stderr)
+    print(f"Encoding {n:,} records via Gemini {model} (batch={batch_size}, sleep={sleep_sec}s)", file=sys.stderr)
     start = time.time()
 
     for batch_start in range(0, n, batch_size):
@@ -166,22 +163,33 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries):
                 )
                 break
             except Exception as e:  # noqa: BLE001
+                err_str = str(e)
+                if "RESOURCE_EXHAUSTED" in err_str or "429" in err_str:
+                    wait = 30 if attempt < max_retries else 60
+                    print(f"WARN: batch {batch_start} attempt {attempt} hit rate limit; sleeping {wait}s", file=sys.stderr)
+                else:
+                    if attempt == max_retries:
+                        print(f"ERROR: batch {batch_start} failed after {max_retries} retries: {e}", file=sys.stderr)
+                        raise
+                    wait = 2 ** attempt
+                    print(f"WARN: batch {batch_start} attempt {attempt} failed: {e}; retrying in {wait}s", file=sys.stderr)
                 if attempt == max_retries:
-                    print(f"ERROR: batch {batch_start} failed after {max_retries} retries: {e}", file=sys.stderr)
+                    print(f"ERROR: batch {batch_start} exhausted retries", file=sys.stderr)
                     raise
-                wait = 2 ** attempt
-                print(f"WARN: batch {batch_start} attempt {attempt} failed: {e}; retrying in {wait}s", file=sys.stderr)
                 time.sleep(wait)
 
         for emb in resp.embeddings:
             vectors.append(emb.values)
 
         done = batch_start + len(batch)
-        if done % (batch_size * 10) == 0 or done == n:
+        if done % (batch_size * 5) == 0 or done == n:
             elapsed = time.time() - start
             rate = done / elapsed if elapsed > 0 else 0
             eta = (n - done) / rate if rate > 0 else 0
             print(f"  progress: {done:,}/{n:,}  ({100*done/n:.0f}%)  rate={rate:.1f}/s  ETA={eta:.0f}s", file=sys.stderr)
+
+        if sleep_sec > 0 and done < n:
+            time.sleep(sleep_sec)
 
     dense = np.asarray(vectors, dtype=np.float32)
     state = {"provider": "gemini", "model": model}
@@ -212,6 +220,12 @@ def main():
         help="Gemini batch size (free tier: 100 is safe; check current quotas).",
     )
     ap.add_argument("--gemini-max-retries", type=int, default=5)
+    ap.add_argument(
+        "--gemini-sleep-between-batches",
+        type=float,
+        default=0.7,
+        help="(gemini only) Sleep seconds between batches to respect free-tier RPM (default: 0.7 ≈ 85 RPM).",
+    )
 
     args = ap.parse_args()
 
@@ -236,6 +250,7 @@ def main():
         dense, model_name, state = _gemini_embed(
             records, args.text_field, args.gemini_model,
             args.gemini_batch_size, args.gemini_max_retries,
+            args.gemini_sleep_between_batches,
         )
     else:
         return 1
