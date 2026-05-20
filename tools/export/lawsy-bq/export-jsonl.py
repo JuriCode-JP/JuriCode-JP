@@ -40,28 +40,71 @@ except ImportError:
 
 
 # ---------------------------------------------------------------------------
-# Tokenizer (optional dependency)
+# Tokenizer (optional dependency, robust to environment differences)
 # ---------------------------------------------------------------------------
-# tiktoken is loaded lazily and is OPTIONAL. When unavailable, we fall back
-# to a character-based approximation.
+# Three-tier fallback so the export never crashes on environment differences:
+#
+#   Tier 1: tiktoken o200k_base   (GPT-4o / Claude 3 era, most accurate for
+#                                  modern LLMs; requires a newer tiktoken
+#                                  release AND a one-time BPE download).
+#   Tier 2: tiktoken cl100k_base  (GPT-4 / GPT-3.5; older but cached in nearly
+#                                  every tiktoken install, so it usually works
+#                                  even when the o200k BPE file cannot be
+#                                  fetched — e.g. behind a corporate proxy or
+#                                  in an air-gapped sandbox).
+#   Tier 3: char-based fallback   (1 token ~= 2 chars; no dependency, no
+#                                  network, always works. Token counts are
+#                                  approximate but RAG context budgeting still
+#                                  works at order-of-magnitude accuracy).
+#
+# The selected method is recorded per record in the `token_method` field so
+# downstream consumers know whether to trust the absolute number or only the
+# relative ordering.
 
-_TIKTOKEN_ENCODING_NAME = "o200k_base"
+_TOKEN_METHOD: str = "char-based-fallback"
+_ENCODING = None
 
-try:
+
+def _try_tiktoken(encoding_name: str):
+    """Attempt to load a tiktoken encoding. Returns the Encoding or raises.
+
+    A dummy `encode("test")` is performed to surface any deferred BPE-download
+    failure (`requests` ProxyError, OSError, etc.) up-front rather than at the
+    first real `count_tokens` call.
+    """
     import tiktoken
 
-    _ENCODING = tiktoken.get_encoding(_TIKTOKEN_ENCODING_NAME)
-    _TOKEN_METHOD = f"tiktoken-{_TIKTOKEN_ENCODING_NAME}"
+    enc = tiktoken.get_encoding(encoding_name)
+    enc.encode("test")  # force BPE materialization
+    return enc
+
+
+for _candidate in ("o200k_base", "cl100k_base"):
+    try:
+        _ENCODING = _try_tiktoken(_candidate)
+        _TOKEN_METHOD = f"tiktoken-{_candidate}"
+        break
+    except Exception as _exc:
+        print(
+            f"WARN: tiktoken {_candidate!r} unavailable ({type(_exc).__name__}: {_exc}); "
+            f"trying next tier",
+            file=sys.stderr,
+        )
+
+if _ENCODING is not None:
 
     def count_tokens(text: str) -> int:
-        """Return precise token count using tiktoken o200k_base."""
+        """Return precise token count using the resolved tiktoken encoding."""
         return len(_ENCODING.encode(text))
-
-except ImportError:
-    _TOKEN_METHOD = "char-based-fallback"
+else:
+    print(
+        "WARN: no tiktoken encoding available; using char-based fallback "
+        "(token_count is approximate ~= len(text)//2).",
+        file=sys.stderr,
+    )
 
     def count_tokens(text: str) -> int:
-        """Fallback when tiktoken is unavailable. Approximates as len(text)//2."""
+        """Final fallback: approximate 1 token as 2 characters."""
         return max(1, len(text) // 2)
 
 

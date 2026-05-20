@@ -135,6 +135,34 @@ bq query --use_legacy_sql=false '
 
 ---
 
+## トークン数カウント (三段フォールバック)
+
+`token_count` フィールドは LLM コンテキスト予算計算に使う重要メタデータだが、
+`tiktoken` ライブラリの可用性は環境ごとに異なるため、export は次の順で自動的に
+フォールバックする。実際に使われた方式は **`token_method`** フィールドに記録される。
+
+| Tier | 方式 | `token_method` 値 | 条件 |
+|---|---|---|---|
+| 1 | tiktoken `o200k_base` (GPT-4o / Claude 3 era) | `tiktoken-o200k_base` | tiktoken >= 0.7 + BPE ファイル取得可 |
+| 2 | tiktoken `cl100k_base` (GPT-4 / GPT-3.5) | `tiktoken-cl100k_base` | tiktoken 任意バージョン + BPE が cache 済 |
+| 3 | 文字数推定 (1 token ≒ 2 chars) | `char-based-fallback` | tiktoken 未インストール、または BPE が取得不能 |
+
+実行時、上位 tier の取得に失敗すると stderr に
+`WARN: tiktoken 'xxx' unavailable (...); trying next tier` が出力され、
+自動的に下位 tier に移行する。 ベンチマーク結果は `token_method` で必ず付帯記録
+されるため、後から「どの環境で作られたデータか」を逆引きできる。
+
+精度の目安 (`正当防衛は刑法36条` という 10 文字の例):
+
+- `tiktoken-o200k_base` -> 約 7 tokens
+- `tiktoken-cl100k_base` -> 約 10 tokens
+- `char-based-fallback` -> 5 tokens (= 10 文字 / 2)
+
+絶対値は方式ごとに差があるが相対順序 (短い条文 < 長い条文) は保たれるので、
+RAG のチャンク予算計算は order-of-magnitude で問題なく機能する。
+
+---
+
 ## 関連
 
 - **源内 (GENAI)**: https://www.digital.go.jp/en/policies/genai
