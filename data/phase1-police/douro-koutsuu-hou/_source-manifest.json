@@ -1,0 +1,2858 @@
+{
+  "schema_version": "1.0",
+  "law_id": "335AC0000000105",
+  "law_name_ja": "道路交通法",
+  "law_abbrev": "douro-koutsuu-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/335AC0000000105",
+  "source_xml_path": "C:\\Users\\sala.sa\\Documents\\juricode-vault\\JuriCode-JP\\JuriCode-JP\\cache\\laws\\335AC0000000105.xml",
+  "source_xml_sha256": "a733862b77dc34011413859aa832cc55da6d85253add71dfbeac8a8b3b5927ec",
+  "source_xml_bytes": 1452077,
+  "source_fetched_at": "2026-05-20",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-20T07:34:05+00:00",
+  "version_date": "1960-06-25",
+  "article_count": 355,
+  "articles": [
+    {
+      "article_id": "douro-koutsuu-hou-art-1",
+      "article_number": "1",
+      "filename": "douro-koutsuu-hou-article-1.md",
+      "ja_text_sha256": "26a829164bd554e34397a9e37baa388f004e9b536508579352ae1f5960bacd84",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-2",
+      "article_number": "2",
+      "filename": "douro-koutsuu-hou-article-2.md",
+      "ja_text_sha256": "dd98c1c428ffa199d6ad394686dba239ad2db035f57c9872337dd98b743125d0",
+      "ja_text_bytes": 448,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-3",
+      "article_number": "3",
+      "filename": "douro-koutsuu-hou-article-3.md",
+      "ja_text_sha256": "e882a9f1a464dc8742d2a81456f51bd8148a50777dff4e70fe59b07773bffff6",
+      "ja_text_bytes": 417,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-4",
+      "article_number": "4",
+      "filename": "douro-koutsuu-hou-article-4.md",
+      "ja_text_sha256": "434d92448f715a3bbb69a645b6e1f0eca87d89014cc167c7b34a22f4d45df114",
+      "ja_text_bytes": 2138,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-5",
+      "article_number": "5",
+      "filename": "douro-koutsuu-hou-article-5.md",
+      "ja_text_sha256": "76a72f85c8b55c271fd7fb6fb3a06c3d5068f89d6e070ee3647b58d13550a316",
+      "ja_text_bytes": 380,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-6",
+      "article_number": "6",
+      "filename": "douro-koutsuu-hou-article-6.md",
+      "ja_text_sha256": "b469bf03b0d53a6da67b99bb320119652f664ed418cc1848a5fe72324f60da0c",
+      "ja_text_bytes": 2150,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-7",
+      "article_number": "7",
+      "filename": "douro-koutsuu-hou-article-7.md",
+      "ja_text_sha256": "1ecc3e9341cceb6ef0540d2e7efa13b34ece483d7a52789964924d7162ece729",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-8",
+      "article_number": "8",
+      "filename": "douro-koutsuu-hou-article-8.md",
+      "ja_text_sha256": "efd798a1009106b7344c22f313ef8568a819eda7e00425e6383e7ecd3b5a40f4",
+      "ja_text_bytes": 985,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-9",
+      "article_number": "9",
+      "filename": "douro-koutsuu-hou-article-9.md",
+      "ja_text_sha256": "a11d5bb3808dd6af392d2b77911fe9dca506134c7f396d03ad5b732d72b4150a",
+      "ja_text_bytes": 435,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-10",
+      "article_number": "10",
+      "filename": "douro-koutsuu-hou-article-10.md",
+      "ja_text_sha256": "debd23f02b5c0c5118cd1547b538fc4e7ef2d7158c59225542083bc48f84d59b",
+      "ja_text_bytes": 1000,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-11",
+      "article_number": "11",
+      "filename": "douro-koutsuu-hou-article-11.md",
+      "ja_text_sha256": "8b8db5367b652ad31ba255fc4cd737744135f4c1c4118007ca58ad004108b20b",
+      "ja_text_bytes": 1204,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-12",
+      "article_number": "12",
+      "filename": "douro-koutsuu-hou-article-12.md",
+      "ja_text_sha256": "717ee92cc91b4c4c91f417a0f7e831e55f3a54b8371de691c31cee7e3da3343c",
+      "ja_text_bytes": 395,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-13",
+      "article_number": "13",
+      "filename": "douro-koutsuu-hou-article-13.md",
+      "ja_text_sha256": "fcb575d58cc07e7bd094f56995b5e623dc22dcbbefcb384a198b662c1d514d6a",
+      "ja_text_bytes": 452,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-13-2",
+      "article_number": "13-2",
+      "filename": "douro-koutsuu-hou-article-13-2.md",
+      "ja_text_sha256": "6fed547c4a09adcaff22a0fcb0b39bf237c1ef1ae4e5f8a699178739e9569e30",
+      "ja_text_bytes": 213,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-14",
+      "article_number": "14",
+      "filename": "douro-koutsuu-hou-article-14.md",
+      "ja_text_sha256": "c6ce8fc95e37899b1b339b0e8189c11e550704b5bdc58d118bc6517c1b197cd1",
+      "ja_text_bytes": 1991,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-14-2",
+      "article_number": "14-2",
+      "filename": "douro-koutsuu-hou-article-14-2.md",
+      "ja_text_sha256": "484449d0dfbe1d006cf8d5c7b851b2921de1184d520e33ca4c92fc4afcdb3567",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-14-3",
+      "article_number": "14-3",
+      "filename": "douro-koutsuu-hou-article-14-3.md",
+      "ja_text_sha256": "5043753b9df9da33a9d68f99de65a70bd714034c150e90e435ca8a58fdc92712",
+      "ja_text_bytes": 384,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-14-4",
+      "article_number": "14-4",
+      "filename": "douro-koutsuu-hou-article-14-4.md",
+      "ja_text_sha256": "a2b3256b0253c6b3cb6ea7a7191496531f896dfb885c53b7e4f90e83d73a2d9f",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-15",
+      "article_number": "15",
+      "filename": "douro-koutsuu-hou-article-15.md",
+      "ja_text_sha256": "d03b7c5afa732fe686d6cd51686ada6ac2e2ea774408ea09dbee3aacfa24067b",
+      "ja_text_bytes": 450,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-15-2",
+      "article_number": "15-2",
+      "filename": "douro-koutsuu-hou-article-15-2.md",
+      "ja_text_sha256": "edf9f659c995d147d18cfb64e369f2cb11062051137ac10ebcbca1d3e4057f87",
+      "ja_text_bytes": 462,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-15-3",
+      "article_number": "15-3",
+      "filename": "douro-koutsuu-hou-article-15-3.md",
+      "ja_text_sha256": "ff17af8366f5b5eb84035fd79b0564ccdf6c710e927fbebc5625dcb8404bc156",
+      "ja_text_bytes": 1021,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-15-4",
+      "article_number": "15-4",
+      "filename": "douro-koutsuu-hou-article-15-4.md",
+      "ja_text_sha256": "c04efb18808841a49193709b174700bb1172a99caae1165c1b13c5982e49a7cb",
+      "ja_text_bytes": 291,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-15-5",
+      "article_number": "15-5",
+      "filename": "douro-koutsuu-hou-article-15-5.md",
+      "ja_text_sha256": "081a93f0b6d09ee885a52b715b56cd3ba5fbb801cbb780f7b0155aaff914de3b",
+      "ja_text_bytes": 811,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-15-6",
+      "article_number": "15-6",
+      "filename": "douro-koutsuu-hou-article-15-6.md",
+      "ja_text_sha256": "fc81e3c1897b2e4494bd00076512f8bb2cdbe2bc9f81aee46b66bdd3b95be6d9",
+      "ja_text_bytes": 780,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-16",
+      "article_number": "16",
+      "filename": "douro-koutsuu-hou-article-16.md",
+      "ja_text_sha256": "3b2062ec15d4432809da99b8564c6b1a9e92bef24ea1b23b920a5227001c6221",
+      "ja_text_bytes": 732,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-17",
+      "article_number": "17",
+      "filename": "douro-koutsuu-hou-article-17.md",
+      "ja_text_sha256": "1add4449e79df4336ee6a13f356d066e3c5101ca352c712667f2b576c6edc4fd",
+      "ja_text_bytes": 2584,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-17-2",
+      "article_number": "17-2",
+      "filename": "douro-koutsuu-hou-article-17-2.md",
+      "ja_text_sha256": "1e32852d38ae0fd6fa98e5b9856b966b5989957fd3ea7d6b2deb7cfe2682c4e5",
+      "ja_text_bytes": 1433,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-17-3",
+      "article_number": "17-3",
+      "filename": "douro-koutsuu-hou-article-17-3.md",
+      "ja_text_sha256": "9463a2ef66ad732cc1dd616bdea589240670105de0377bb0816227a42c06240a",
+      "ja_text_bytes": 617,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-18",
+      "article_number": "18",
+      "filename": "douro-koutsuu-hou-article-18.md",
+      "ja_text_sha256": "e764a3342a84cd1081f71ae175fe6dab5ac8517e41570e0be879feebdcee8f01",
+      "ja_text_bytes": 1854,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-19",
+      "article_number": "19",
+      "filename": "douro-koutsuu-hou-article-19.md",
+      "ja_text_sha256": "1ace2ee02a6463f7333c1573b3c944ebda2b0d9388ed8d5cf7b38dd2126bc9c6",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-20",
+      "article_number": "20",
+      "filename": "douro-koutsuu-hou-article-20.md",
+      "ja_text_sha256": "77ecaa3f315e8979d6707797ba378c869c86644e29fd8aecb0e3f3668ce795d9",
+      "ja_text_bytes": 1735,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-20-2",
+      "article_number": "20-2",
+      "filename": "douro-koutsuu-hou-article-20-2.md",
+      "ja_text_sha256": "9d09b21eb508114a231abca46e0f5ac42bd0e0c7f1f84dd2a934a7169ff1432f",
+      "ja_text_bytes": 1454,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-21",
+      "article_number": "21",
+      "filename": "douro-koutsuu-hou-article-21.md",
+      "ja_text_sha256": "eecc7d2015ffc6c12e706ce8772c44851e054d4cb13aa22f12fdb2306acdb57d",
+      "ja_text_bytes": 850,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-22",
+      "article_number": "22",
+      "filename": "douro-koutsuu-hou-article-22.md",
+      "ja_text_sha256": "e414ebcc59250c4a19f630b905655b8a87c9c177effa388b1037226da8d6ec9c",
+      "ja_text_bytes": 755,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-22-2",
+      "article_number": "22-2",
+      "filename": "douro-koutsuu-hou-article-22-2.md",
+      "ja_text_sha256": "33b5d3cc06025ce742a85b1ddc536cbdccbf0e4536abf22630332c9bdad325d7",
+      "ja_text_bytes": 1439,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-23",
+      "article_number": "23",
+      "filename": "douro-koutsuu-hou-article-23.md",
+      "ja_text_sha256": "239858d4a15c91370a4c12044ce6aa2fa20055e2de833945ebbbd598ad2464e6",
+      "ja_text_bytes": 384,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-24",
+      "article_number": "24",
+      "filename": "douro-koutsuu-hou-article-24.md",
+      "ja_text_sha256": "6b98b9448986fb2067263b79a6559320f575f06677b5c07b8ef49da34610d4e7",
+      "ja_text_bytes": 237,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-25",
+      "article_number": "25",
+      "filename": "douro-koutsuu-hou-article-25.md",
+      "ja_text_sha256": "06a0c223e18a52a4b0504d0ca142954e9ac3c45aa8fc5377dbdf962dc477beaa",
+      "ja_text_bytes": 985,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-25-2",
+      "article_number": "25-2",
+      "filename": "douro-koutsuu-hou-article-25-2.md",
+      "ja_text_sha256": "cba7758892cfaca182e081b28b56176f1734bdde6e204445a4d2edc77f5b4dfa",
+      "ja_text_bytes": 434,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-26",
+      "article_number": "26",
+      "filename": "douro-koutsuu-hou-article-26.md",
+      "ja_text_sha256": "2512295ad3bf4704eec4ff8d0017bc2d2efbbad5bb87c8424814498850198054",
+      "ja_text_bytes": 294,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-26-2",
+      "article_number": "26-2",
+      "filename": "douro-koutsuu-hou-article-26-2.md",
+      "ja_text_sha256": "842e520c31b3e890c575ff6d74cae00e58218eb8c9aa87773dcbd785f31db8e8",
+      "ja_text_bytes": 676,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-27",
+      "article_number": "27",
+      "filename": "douro-koutsuu-hou-article-27.md",
+      "ja_text_sha256": "564c286045c5d890f7ebf02b921ba6b005bda165754d651426af1202ea515f72",
+      "ja_text_bytes": 1796,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-28",
+      "article_number": "28",
+      "filename": "douro-koutsuu-hou-article-28.md",
+      "ja_text_sha256": "9440791a06451916d0421226a0e8f38f6b2b31118436b3c86c45bb44611593b6",
+      "ja_text_bytes": 1224,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-29",
+      "article_number": "29",
+      "filename": "douro-koutsuu-hou-article-29.md",
+      "ja_text_sha256": "425378aa8e190f2e021640aa132322ec2b87e564413dd6f79853cba5fc0a6ae0",
+      "ja_text_bytes": 144,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-30",
+      "article_number": "30",
+      "filename": "douro-koutsuu-hou-article-30.md",
+      "ja_text_sha256": "46126da8bd6eb5dd82de2c16da453194be6e3ef7576c363d57a28d7ab45cb338",
+      "ja_text_bytes": 315,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-31",
+      "article_number": "31",
+      "filename": "douro-koutsuu-hou-article-31.md",
+      "ja_text_sha256": "6de62ace7a8c2ee94a1a1dadd85a4abbefd8a1ce542fad0c5b9a31c7c3de4dd9",
+      "ja_text_bytes": 789,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-31-2",
+      "article_number": "31-2",
+      "filename": "douro-koutsuu-hou-article-31-2.md",
+      "ja_text_sha256": "512326fa51d0109048906852d061e1f6625d1323750d92e0badba32e4674b72b",
+      "ja_text_bytes": 420,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-32",
+      "article_number": "32",
+      "filename": "douro-koutsuu-hou-article-32.md",
+      "ja_text_sha256": "3e83d1999713d16ae54e61afa04d7e9e99f142d340f001847f8fd6a835a7d0f9",
+      "ja_text_bytes": 435,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-33",
+      "article_number": "33",
+      "filename": "douro-koutsuu-hou-article-33.md",
+      "ja_text_sha256": "9f82b1e6199d2bd63a9c5cddde3ea578e6045ff741a63d9a59c020669beb5bbf",
+      "ja_text_bytes": 1186,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-34",
+      "article_number": "34",
+      "filename": "douro-koutsuu-hou-article-34.md",
+      "ja_text_sha256": "bcad18befaa3d36cc1064e9776d2b3cfce460e7b1c9ef7b99b6743ce231cd711",
+      "ja_text_bytes": 2884,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-35",
+      "article_number": "35",
+      "filename": "douro-koutsuu-hou-article-35.md",
+      "ja_text_sha256": "073d5bff294e481eb380ecab8bf6eb84104ffaf8fd358da931ff9a58b1c245d7",
+      "ja_text_bytes": 956,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-35-2",
+      "article_number": "35-2",
+      "filename": "douro-koutsuu-hou-article-35-2.md",
+      "ja_text_sha256": "1d19abdafdc6ab47e08e2e530741c11cff6e42d9db176ccffff25745da616d9f",
+      "ja_text_bytes": 839,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-36",
+      "article_number": "36",
+      "filename": "douro-koutsuu-hou-article-36.md",
+      "ja_text_sha256": "4e2aceafeeba020de081f0f3100f75e453a93622510d68325534e8b20df6e506",
+      "ja_text_bytes": 1707,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-37",
+      "article_number": "37",
+      "filename": "douro-koutsuu-hou-article-37.md",
+      "ja_text_sha256": "7639e710ffcd7bdaa1f6068be6c5a82503d5ccfbd59ad56abed8e1e18efa9309",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-37-2",
+      "article_number": "37-2",
+      "filename": "douro-koutsuu-hou-article-37-2.md",
+      "ja_text_sha256": "d2b8da12068138bac726edf1ebcc5c2d1033d4cbf678f211416f030c22a1e3d6",
+      "ja_text_bytes": 865,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-38",
+      "article_number": "38",
+      "filename": "douro-koutsuu-hou-article-38.md",
+      "ja_text_sha256": "42288b51a433ea192ad6d39a226ee70d4aa0414c44a1320c284c9b4dbc4bfc28",
+      "ja_text_bytes": 1816,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-38-2",
+      "article_number": "38-2",
+      "filename": "douro-koutsuu-hou-article-38-2.md",
+      "ja_text_sha256": "87c6f0c79f99a2e75a6fd4d17825d9870ebb799d5a2bac1d33462fc9961493ba",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-39",
+      "article_number": "39",
+      "filename": "douro-koutsuu-hou-article-39.md",
+      "ja_text_sha256": "5feb1b74f8558e0e2baebc4a7d37a0ad9523b43d6e2a42e566c0152a6b77fe98",
+      "ja_text_bytes": 734,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-40",
+      "article_number": "40",
+      "filename": "douro-koutsuu-hou-article-40.md",
+      "ja_text_sha256": "f54df5b5e6ca131d594f945848fbe6ccae687479d489c6c6f4aa4031ba6e01d4",
+      "ja_text_bytes": 689,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-41",
+      "article_number": "41",
+      "filename": "douro-koutsuu-hou-article-41.md",
+      "ja_text_sha256": "795875661e439d36496b7c06f03582a65de482e7ec867deabec201cf9b90247a",
+      "ja_text_bytes": 1485,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-41-2",
+      "article_number": "41-2",
+      "filename": "douro-koutsuu-hou-article-41-2.md",
+      "ja_text_sha256": "ac858deea938bc53c16f6d0697cd5dac070a8817da5c9a5fcfab329ad17aac4e",
+      "ja_text_bytes": 1278,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-42",
+      "article_number": "42",
+      "filename": "douro-koutsuu-hou-article-42.md",
+      "ja_text_sha256": "dfd592e96d1d9429ebe769a9deeec25aa8b37d0a34014a33aa473659709baf4c",
+      "ja_text_bytes": 213,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-43",
+      "article_number": "43",
+      "filename": "douro-koutsuu-hou-article-43.md",
+      "ja_text_sha256": "f3bdd2ded78b9fdc5ef9c20a2552bd903656afe618210f4358cc538413b4a296",
+      "ja_text_bytes": 579,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-44",
+      "article_number": "44",
+      "filename": "douro-koutsuu-hou-article-44.md",
+      "ja_text_sha256": "d2c51c3de3420227019426f220e88ee474a9356429c0da27dbfc0da590906454",
+      "ja_text_bytes": 404,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-45",
+      "article_number": "45",
+      "filename": "douro-koutsuu-hou-article-45.md",
+      "ja_text_sha256": "a57e5a1b06127bfd589b2e29bd7729cbb8d3c34c8464f87cd16bef4b0f51735e",
+      "ja_text_bytes": 1081,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-45-2",
+      "article_number": "45-2",
+      "filename": "douro-koutsuu-hou-article-45-2.md",
+      "ja_text_sha256": "e9ed538fd8ce4346cb00219375a5224be1818e084097f750cb976742a07da5b8",
+      "ja_text_bytes": 2030,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-46",
+      "article_number": "46",
+      "filename": "douro-koutsuu-hou-article-46.md",
+      "ja_text_sha256": "52d1cc0b07664337be578484c2ef47be3b30da0a948b09548a9b2dcda49f057f",
+      "ja_text_bytes": 441,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-47",
+      "article_number": "47",
+      "filename": "douro-koutsuu-hou-article-47.md",
+      "ja_text_sha256": "a56507cd044ebdba8f5c6dd2cb0ce6980e6142674b5dc72220a7d460626bee71",
+      "ja_text_bytes": 865,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-48",
+      "article_number": "48",
+      "filename": "douro-koutsuu-hou-article-48.md",
+      "ja_text_sha256": "c1f1c20b74028b3fc001dfcc5d3d41311b593cacba56d89334f91bb21ccfaba1",
+      "ja_text_bytes": 213,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-49",
+      "article_number": "49",
+      "filename": "douro-koutsuu-hou-article-49.md",
+      "ja_text_sha256": "72e4cb28383e9963e9499c59f66c758dc6a9e20eba1ac269e1047cb3d2d75b05",
+      "ja_text_bytes": 1510,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-49-2",
+      "article_number": "49-2",
+      "filename": "douro-koutsuu-hou-article-49-2.md",
+      "ja_text_sha256": "15df326ed614837ec654837e86601f0f872b5ed2862523a5c2df5af97a0b3cb9",
+      "ja_text_bytes": 345,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-49-3",
+      "article_number": "49-3",
+      "filename": "douro-koutsuu-hou-article-49-3.md",
+      "ja_text_sha256": "dad23e7174172530d19b358a3598ee37ba51168572d8608b1008d86608319c89",
+      "ja_text_bytes": 1992,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-49-4",
+      "article_number": "49-4",
+      "filename": "douro-koutsuu-hou-article-49-4.md",
+      "ja_text_sha256": "6bff99ca706143533d01d5ee92208e0e0dcd3065ca5e26c7650143c2a57b100f",
+      "ja_text_bytes": 153,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-49-5",
+      "article_number": "49-5",
+      "filename": "douro-koutsuu-hou-article-49-5.md",
+      "ja_text_sha256": "33640795e3e68935e3b612d35969da3709b964e17be61c8ace5bae6cf5eea6b0",
+      "ja_text_bytes": 834,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-49-6",
+      "article_number": "49-6",
+      "filename": "douro-koutsuu-hou-article-49-6.md",
+      "ja_text_sha256": "88791f43eb97ffbb17c50296a6793cb65aae11e1ae57ac35796fee6927635287",
+      "ja_text_bytes": 324,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-49-7",
+      "article_number": "49-7",
+      "filename": "douro-koutsuu-hou-article-49-7.md",
+      "ja_text_sha256": "be21475be0bc8aa0a4b1a1a4e2da0fe08269fc6ff7d96f0a6279e4b09ec14add",
+      "ja_text_bytes": 1288,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-50",
+      "article_number": "50",
+      "filename": "douro-koutsuu-hou-article-50.md",
+      "ja_text_sha256": "65603c99b582bc8bf0512e3dc0dcdee97994754880d5b56ab9eac05e749b85be",
+      "ja_text_bytes": 899,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-50-2",
+      "article_number": "50-2",
+      "filename": "douro-koutsuu-hou-article-50-2.md",
+      "ja_text_sha256": "8e5d92fa23188b949079965666c631ce2032d93c81299da8c52222ef5da37cab",
+      "ja_text_bytes": 504,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51",
+      "article_number": "51",
+      "filename": "douro-koutsuu-hou-article-51.md",
+      "ja_text_sha256": "5d2b7ae4936f3471e0d61069e08b9c37011339e0c876c9e61f48e76f0d1a77c9",
+      "ja_text_bytes": 10374,
+      "paragraph_count": 22
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-2",
+      "article_number": "51-2",
+      "filename": "douro-koutsuu-hou-article-51-2.md",
+      "ja_text_sha256": "35f9fa94c91b570cd85b55ce796547308ef577bb395b1b98a7bd77305ca2d1c4",
+      "ja_text_bytes": 689,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-3",
+      "article_number": "51-3",
+      "filename": "douro-koutsuu-hou-article-51-3.md",
+      "ja_text_sha256": "07961f438dc50369debe3839040981023c7aea23b6b7a3848c23c63ce6770128",
+      "ja_text_bytes": 737,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-4",
+      "article_number": "51-4",
+      "filename": "douro-koutsuu-hou-article-51-4.md",
+      "ja_text_sha256": "ae816532fab7686b349505bfc33301cf78de091f09151e267078ec25f1d4a81a",
+      "ja_text_bytes": 6727,
+      "paragraph_count": 18
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-5",
+      "article_number": "51-5",
+      "filename": "douro-koutsuu-hou-article-51-5.md",
+      "ja_text_sha256": "ff89929682c16333c3401cc894615d81c16cf95f835c1fe1e694042a67cb966c",
+      "ja_text_bytes": 509,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-6",
+      "article_number": "51-6",
+      "filename": "douro-koutsuu-hou-article-51-6.md",
+      "ja_text_sha256": "f4edf0ea353516598773fcb79722fee08fef6c116dbe7b3a7dcea2813e39a3e0",
+      "ja_text_bytes": 1427,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-7",
+      "article_number": "51-7",
+      "filename": "douro-koutsuu-hou-article-51-7.md",
+      "ja_text_sha256": "6dacba00f9733196a9856b66696ce3a6393e647833f2b4cca2b6a58fcb3d8d5d",
+      "ja_text_bytes": 1394,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-8",
+      "article_number": "51-8",
+      "filename": "douro-koutsuu-hou-article-51-8.md",
+      "ja_text_sha256": "f09b6f2a5ba515f3646e5bc41b61e45308d9c440163de1c1609d0ff683040350",
+      "ja_text_bytes": 1266,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-9",
+      "article_number": "51-9",
+      "filename": "douro-koutsuu-hou-article-51-9.md",
+      "ja_text_sha256": "896eb29cfd4853f98ef298e5e5e222240546239c09c65bb89e4c7a697b6563b3",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-10",
+      "article_number": "51-10",
+      "filename": "douro-koutsuu-hou-article-51-10.md",
+      "ja_text_sha256": "0fb8202b5d7e558a9f90c67f56653e876552a78c2c331b0e4d1037e2019825db",
+      "ja_text_bytes": 150,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-11",
+      "article_number": "51-11",
+      "filename": "douro-koutsuu-hou-article-51-11.md",
+      "ja_text_sha256": "2bb4933f5e7cc81b1a54ea82aebf12604cccc5ddfd44f9f5310b170a8b0e3de7",
+      "ja_text_bytes": 706,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-12",
+      "article_number": "51-12",
+      "filename": "douro-koutsuu-hou-article-51-12.md",
+      "ja_text_sha256": "0b7091181cb1a0edb617e9336b1bdf0d20b117e7894f7ebf66db890e16db4d4b",
+      "ja_text_bytes": 2039,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-13",
+      "article_number": "51-13",
+      "filename": "douro-koutsuu-hou-article-51-13.md",
+      "ja_text_sha256": "3c1d34fcf2e7818d3a956414840af5040e24ebd5fe76cfc98632b9a725c76710",
+      "ja_text_bytes": 353,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-14",
+      "article_number": "51-14",
+      "filename": "douro-koutsuu-hou-article-51-14.md",
+      "ja_text_sha256": "5dc37f1ec2eda7f51d18facf5ac9dcdaca8c1f6fc1fe32aea8ac25780b30f02a",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-51-15",
+      "article_number": "51-15",
+      "filename": "douro-koutsuu-hou-article-51-15.md",
+      "ja_text_sha256": "7605880ba0ea6f5913b893984c72cc0aadc1add738791225dad7cd2f589caf4a",
+      "ja_text_bytes": 470,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-52",
+      "article_number": "52",
+      "filename": "douro-koutsuu-hou-article-52.md",
+      "ja_text_sha256": "dcdaa0174ad7771b886340d3f1a53cbbde5957510afc5b219e868a64de6b47a1",
+      "ja_text_bytes": 794,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-53",
+      "article_number": "53",
+      "filename": "douro-koutsuu-hou-article-53.md",
+      "ja_text_sha256": "685f7854051a6bae3db2b8cba09a1064f4e7b47088f317553a8b43421ebfcfe3",
+      "ja_text_bytes": 1197,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-54",
+      "article_number": "54",
+      "filename": "douro-koutsuu-hou-article-54.md",
+      "ja_text_sha256": "8d37372072de6c6a5f96d00f52e7a6a46e8968775ad50752a2084b9f38e2b011",
+      "ja_text_bytes": 479,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-55",
+      "article_number": "55",
+      "filename": "douro-koutsuu-hou-article-55.md",
+      "ja_text_sha256": "6263b923d1a011c9b04905e8ec70a163d4cdeda9f9521982703cf42ad1d27ae5",
+      "ja_text_bytes": 1153,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-56",
+      "article_number": "56",
+      "filename": "douro-koutsuu-hou-article-56.md",
+      "ja_text_sha256": "0961cc914669f1ca1cb16e890f5b062675d22b043079c2445aab4cf576f2bbf3",
+      "ja_text_bytes": 875,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-57",
+      "article_number": "57",
+      "filename": "douro-koutsuu-hou-article-57.md",
+      "ja_text_sha256": "5c20d8ca602b40fa72905783c39bdb27be1cd99e08002fb7be34dc145e5e54ee",
+      "ja_text_bytes": 1528,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-58",
+      "article_number": "58",
+      "filename": "douro-koutsuu-hou-article-58.md",
+      "ja_text_sha256": "5a1b73b91cb744eca7dce81b271877482bac26345ad3ed1d070ccb5416f2f1f7",
+      "ja_text_bytes": 774,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-58-2",
+      "article_number": "58-2",
+      "filename": "douro-koutsuu-hou-article-58-2.md",
+      "ja_text_sha256": "4527dbbcbfc9ba1e3fcfc890e5a7e93b41af4718dffd070eab2725a8d108802f",
+      "ja_text_bytes": 501,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-58-3",
+      "article_number": "58-3",
+      "filename": "douro-koutsuu-hou-article-58-3.md",
+      "ja_text_sha256": "4b10e5be94f908b61013022aa7a504d1d8e66cf5c3c835b2e17dccba7ece1428",
+      "ja_text_bytes": 1815,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-58-4",
+      "article_number": "58-4",
+      "filename": "douro-koutsuu-hou-article-58-4.md",
+      "ja_text_sha256": "344c06b8acc166f23e2575b2f69eb1bf6d45210f5c96fc09dfd1d01c6f928917",
+      "ja_text_bytes": 735,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-58-5",
+      "article_number": "58-5",
+      "filename": "douro-koutsuu-hou-article-58-5.md",
+      "ja_text_sha256": "a286ad38798f7a38a104f86387261eefb351ddadfda2b9312edd29d7f31e1d13",
+      "ja_text_bytes": 512,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-59",
+      "article_number": "59",
+      "filename": "douro-koutsuu-hou-article-59.md",
+      "ja_text_sha256": "f9830b4687a5e2e3ad8dbf281f25a2e9e5001c445f6acf5c3c42c1a5e87efb0c",
+      "ja_text_bytes": 1751,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-60",
+      "article_number": "60",
+      "filename": "douro-koutsuu-hou-article-60.md",
+      "ja_text_sha256": "c7679f955217b38f02c81ca1ed93b6dabdd7816e8711ae94755efa37f111b916",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-61",
+      "article_number": "61",
+      "filename": "douro-koutsuu-hou-article-61.md",
+      "ja_text_sha256": "7a52cb9dd113419184f48434c8c708f0ad87bdc1ec1873fb2169e804c9b183bf",
+      "ja_text_bytes": 402,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-62",
+      "article_number": "62",
+      "filename": "douro-koutsuu-hou-article-62.md",
+      "ja_text_sha256": "1d19608319794f11154f375056c131cdaed74dde48ee4f3259f4dac0b0e96c5c",
+      "ja_text_bytes": 819,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63",
+      "article_number": "63",
+      "filename": "douro-koutsuu-hou-article-63.md",
+      "ja_text_sha256": "51ee842bff8b9fe491e9f7e5b5f8c704b98c90db801cfd70a2b52421cb6b8413",
+      "ja_text_bytes": 3491,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-2",
+      "article_number": "63-2",
+      "filename": "douro-koutsuu-hou-article-63-2.md",
+      "ja_text_sha256": "0a38fa57599f286ffd9ee6578b1b0c31ef51371ef99c8fb88b120d1fc976941d",
+      "ja_text_bytes": 851,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-2-2",
+      "article_number": "63-2-2",
+      "filename": "douro-koutsuu-hou-article-63-2-2.md",
+      "ja_text_sha256": "4bdfed1c8e298dfe61d1b6eb70bff035dfdd93755bbda6625d7c7d196ade2a04",
+      "ja_text_bytes": 602,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-3",
+      "article_number": "63-3",
+      "filename": "douro-koutsuu-hou-article-63-3.md",
+      "ja_text_sha256": "1aa6481de49b5d11b81d86c86feaa20d30c0829abb8d38979d1dfbef2fa65c25",
+      "ja_text_bytes": 456,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-4",
+      "article_number": "63-4",
+      "filename": "douro-koutsuu-hou-article-63-4.md",
+      "ja_text_sha256": "0dbc8a7a1e2a7a99320b9f972e2d70b8c62acfa9ba9bc48ea47e6d44569dd09a",
+      "ja_text_bytes": 1109,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-5",
+      "article_number": "63-5",
+      "filename": "douro-koutsuu-hou-article-63-5.md",
+      "ja_text_sha256": "b5042ee942c0cbe518d0ebaa3e23687a604905ecdfcfc5a4f73f971c0adf8bdf",
+      "ja_text_bytes": 339,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-6",
+      "article_number": "63-6",
+      "filename": "douro-koutsuu-hou-article-63-6.md",
+      "ja_text_sha256": "ec3f5817ed062b7a302e6af242b7af2e2f61e43632495c6831da5d049194a450",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-7",
+      "article_number": "63-7",
+      "filename": "douro-koutsuu-hou-article-63-7.md",
+      "ja_text_sha256": "e72e5441b051aeb35e087df2c9ee99ff820b13ed2bfb3da5547ed5b27cee2599",
+      "ja_text_bytes": 605,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-8",
+      "article_number": "63-8",
+      "filename": "douro-koutsuu-hou-article-63-8.md",
+      "ja_text_sha256": "7ebf13af046a02e7c59364768ed75d2726c56d612c625415645a0dba7b0eea3c",
+      "ja_text_bytes": 429,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-9",
+      "article_number": "63-9",
+      "filename": "douro-koutsuu-hou-article-63-9.md",
+      "ja_text_sha256": "5a1c9a8fd7d51947ef8c331fd6d82e717eb4bb36385fd370a0d66912a4867f88",
+      "ja_text_bytes": 539,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-10",
+      "article_number": "63-10",
+      "filename": "douro-koutsuu-hou-article-63-10.md",
+      "ja_text_sha256": "b4ee47eab4e78b22021f3fe28827cf1a34f816af0c1b243eb9a10aff60431f2a",
+      "ja_text_bytes": 791,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-63-11",
+      "article_number": "63-11",
+      "filename": "douro-koutsuu-hou-article-63-11.md",
+      "ja_text_sha256": "c1f9f2a31dd7093a45f9c42706619534b8f7d8451c03c4c60d48ec8ffcc9cefb",
+      "ja_text_bytes": 505,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-64",
+      "article_number": "64",
+      "filename": "douro-koutsuu-hou-article-64.md",
+      "ja_text_sha256": "e73fbcdc32ad2cb04031050e4cd54dd0801a121132e5e5af527a14246ba91c43",
+      "ja_text_bytes": 1792,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-64-2",
+      "article_number": "64-2",
+      "filename": "douro-koutsuu-hou-article-64-2.md",
+      "ja_text_sha256": "37fe13ebf090fef06ddb29c657838b1e9c24350d0988ed87674d93b054f4817f",
+      "ja_text_bytes": 299,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-65",
+      "article_number": "65",
+      "filename": "douro-koutsuu-hou-article-65.md",
+      "ja_text_sha256": "35e253eea6c029ab88f82bbad0dba63c5b6c479445cc5df40a40bfd7c44827a3",
+      "ja_text_bytes": 1053,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-66",
+      "article_number": "66",
+      "filename": "douro-koutsuu-hou-article-66.md",
+      "ja_text_sha256": "f92e37226922e1c45218e42d256ba7b2835c8534c8938157109a6f8f1db2c641",
+      "ja_text_bytes": 222,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-66-2",
+      "article_number": "66-2",
+      "filename": "douro-koutsuu-hou-article-66-2.md",
+      "ja_text_sha256": "00230906291f775e4e6b15f7ab9fb3f8a7c97a101eb4b3063860ee44dffdb45d",
+      "ja_text_bytes": 1010,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-67",
+      "article_number": "67",
+      "filename": "douro-koutsuu-hou-article-67.md",
+      "ja_text_sha256": "bc571956921dffb4abfad9b2e14a5a521b6aa46e40af95ca9c1de4b006936d18",
+      "ja_text_bytes": 2589,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-68",
+      "article_number": "68",
+      "filename": "douro-koutsuu-hou-article-68.md",
+      "ja_text_sha256": "6c3f6fab22c7f87759e02eaf188046a1a33b10f028d34a0779b0d4dd2a7b95a6",
+      "ja_text_bytes": 372,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-69",
+      "article_number": "69",
+      "filename": "douro-koutsuu-hou-article-69.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-70",
+      "article_number": "70",
+      "filename": "douro-koutsuu-hou-article-70.md",
+      "ja_text_sha256": "b2416d58643d4f37a5692613a281fc8ec21e7a9d28eb819e86dd301008abbddc",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-71",
+      "article_number": "71",
+      "filename": "douro-koutsuu-hou-article-71.md",
+      "ja_text_sha256": "20c6b3061bb2c4ada272679a93480d68c33efcf183c36dd3db5d1337069b74f6",
+      "ja_text_bytes": 84,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-71-2",
+      "article_number": "71-2",
+      "filename": "douro-koutsuu-hou-article-71-2.md",
+      "ja_text_sha256": "8cc2f3c21ea921ef25269e32029179bf7f5400b9527b8f727a67f37d918faa65",
+      "ja_text_bytes": 594,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-71-3",
+      "article_number": "71-3",
+      "filename": "douro-koutsuu-hou-article-71-3.md",
+      "ja_text_sha256": "4e0b659fb5939f3604c24a9bac9505a86ee38a405dee3e953485b4ca2cac599e",
+      "ja_text_bytes": 2158,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-71-4",
+      "article_number": "71-4",
+      "filename": "douro-koutsuu-hou-article-71-4.md",
+      "ja_text_sha256": "02706b55d746299c91859947f8c47192a7a6468be1187885b752000a081e4409",
+      "ja_text_bytes": 3587,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-71-4-2",
+      "article_number": "71-4-2",
+      "filename": "douro-koutsuu-hou-article-71-4-2.md",
+      "ja_text_sha256": "faeb05b36b85621e5290a56e8811f43a20691ce26daf09c2cae543951c86df24",
+      "ja_text_bytes": 539,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-71-5",
+      "article_number": "71-5",
+      "filename": "douro-koutsuu-hou-article-71-5.md",
+      "ja_text_sha256": "8037e8eee37346cb8540c56fa1d9525e2d8d72e6e5dcfca44373c55627677bd0",
+      "ja_text_bytes": 3024,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-71-6",
+      "article_number": "71-6",
+      "filename": "douro-koutsuu-hou-article-71-6.md",
+      "ja_text_sha256": "8f58ecbc3dd540d58c4fa2a70d537f616e50054f5b24b0a5adc84794a0657e2b",
+      "ja_text_bytes": 1336,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-72",
+      "article_number": "72",
+      "filename": "douro-koutsuu-hou-article-72.md",
+      "ja_text_sha256": "930047d3d63fb927f7fbd74b205cc9af4ee2f3c944a998fca6408aeed1e1ec82",
+      "ja_text_bytes": 2304,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-72-2",
+      "article_number": "72-2",
+      "filename": "douro-koutsuu-hou-article-72-2.md",
+      "ja_text_sha256": "d74e463bacfda61f6d50a6fa0b6bb46e9063a2b0c846ee78f0a3d8e424ded351",
+      "ja_text_bytes": 3271,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-73",
+      "article_number": "73",
+      "filename": "douro-koutsuu-hou-article-73.md",
+      "ja_text_sha256": "9b6e7f71282373d1fa930411fc42747ca36331196d510fa31a6936e6411e9d54",
+      "ja_text_bytes": 366,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-74",
+      "article_number": "74",
+      "filename": "douro-koutsuu-hou-article-74.md",
+      "ja_text_sha256": "76a888a38a25db48814055b6d65b3a5aa0a5523b88d2408bc8a6ff2b86e268be",
+      "ja_text_bytes": 1117,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-74-2",
+      "article_number": "74-2",
+      "filename": "douro-koutsuu-hou-article-74-2.md",
+      "ja_text_sha256": "1c495241706e67dc8f965b58fa9784c154947790969a137faeab1bfb40eca145",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-74-3",
+      "article_number": "74-3",
+      "filename": "douro-koutsuu-hou-article-74-3.md",
+      "ja_text_sha256": "48743e593f2c408989af0009ce4beafc565a5a8ce7f56014600d4a0d3ad46be1",
+      "ja_text_bytes": 3361,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75",
+      "article_number": "75",
+      "filename": "douro-koutsuu-hou-article-75.md",
+      "ja_text_sha256": "701302443688a0ee55650600a8daf045b9a343c949ab0d275d8ede4002a98642",
+      "ja_text_bytes": 4022,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-2",
+      "article_number": "75-2",
+      "filename": "douro-koutsuu-hou-article-75-2.md",
+      "ja_text_sha256": "31421341f30795e1949b3c2e1ce77d50805730b67b7fd7239370b588336ac9bc",
+      "ja_text_bytes": 1738,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-2-2",
+      "article_number": "75-2-2",
+      "filename": "douro-koutsuu-hou-article-75-2-2.md",
+      "ja_text_sha256": "9fa5b3f35c90491ab0cb82504ad03ded904621ff9a1705ba51d9d9c76240ffe3",
+      "ja_text_bytes": 782,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-2-3",
+      "article_number": "75-2-3",
+      "filename": "douro-koutsuu-hou-article-75-2-3.md",
+      "ja_text_sha256": "2cebb28b27ab2d692c866257079e45d20e439f62c6b0102430a136ae49b95088",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-3",
+      "article_number": "75-3",
+      "filename": "douro-koutsuu-hou-article-75-3.md",
+      "ja_text_sha256": "a1ff31744a39ceb3a09cb77551a6a506c46ba7c032049c86ec3769b1004b1862",
+      "ja_text_bytes": 987,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-4",
+      "article_number": "75-4",
+      "filename": "douro-koutsuu-hou-article-75-4.md",
+      "ja_text_sha256": "1eec5ffa636536a80b75a88c36ef2212cff087f6c56c767a6d9f1c08b8bbff10",
+      "ja_text_bytes": 468,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-5",
+      "article_number": "75-5",
+      "filename": "douro-koutsuu-hou-article-75-5.md",
+      "ja_text_sha256": "2f2641aa421ced1b02c3347a47d3c5244f3aa9ae0bc1df28a8f69aef0b804e38",
+      "ja_text_bytes": 105,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-6",
+      "article_number": "75-6",
+      "filename": "douro-koutsuu-hou-article-75-6.md",
+      "ja_text_sha256": "346773f0e791016e5afff7f6eef31659a48ed55c325d376387ac02e7415b4c8b",
+      "ja_text_bytes": 773,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-7",
+      "article_number": "75-7",
+      "filename": "douro-koutsuu-hou-article-75-7.md",
+      "ja_text_sha256": "e65f0fe85e8f90c4f2be5c81ae4b16ba84f2dfffd2cfb8752facde2a12140b0e",
+      "ja_text_bytes": 512,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-8",
+      "article_number": "75-8",
+      "filename": "douro-koutsuu-hou-article-75-8.md",
+      "ja_text_sha256": "9b03830559fffac2f41e3b2312e44e067d792eec64f7dfe92805bcb9c081498e",
+      "ja_text_bytes": 1759,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-8-2",
+      "article_number": "75-8-2",
+      "filename": "douro-koutsuu-hou-article-75-8-2.md",
+      "ja_text_sha256": "7bad86ef763d3bac84ecbe73f0c252a74156800daac736528ca736c466b5989f",
+      "ja_text_bytes": 2013,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-9",
+      "article_number": "75-9",
+      "filename": "douro-koutsuu-hou-article-75-9.md",
+      "ja_text_sha256": "856ce141041b1ec990518a1e552c2b09a3b29b9284637440caa81e6337a3d01b",
+      "ja_text_bytes": 488,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-10",
+      "article_number": "75-10",
+      "filename": "douro-koutsuu-hou-article-75-10.md",
+      "ja_text_sha256": "7d792785bb6f9e2130c3a629057a7042bfb4f85e4a2b918287bde9d2ea68e3ae",
+      "ja_text_bytes": 588,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-11",
+      "article_number": "75-11",
+      "filename": "douro-koutsuu-hou-article-75-11.md",
+      "ja_text_sha256": "fba4c5e04b69bfee4e23621ddc5318ff2a52e931a00281d7697742b860cbda81",
+      "ja_text_bytes": 779,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-12",
+      "article_number": "75-12",
+      "filename": "douro-koutsuu-hou-article-75-12.md",
+      "ja_text_sha256": "a96a1bd226afa81d238ff1812323ecb92104357b7da3dea0e3c2f420ecf3dbf1",
+      "ja_text_bytes": 625,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-13",
+      "article_number": "75-13",
+      "filename": "douro-koutsuu-hou-article-75-13.md",
+      "ja_text_sha256": "158d08cc6c38ac28bedda9fa5c15ba30ee94094e7490693561e706100569b718",
+      "ja_text_bytes": 518,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-14",
+      "article_number": "75-14",
+      "filename": "douro-koutsuu-hou-article-75-14.md",
+      "ja_text_sha256": "55aa906c1832825e09873e83742e6372017f691a307a4d8a39b9319d95a190c9",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-15",
+      "article_number": "75-15",
+      "filename": "douro-koutsuu-hou-article-75-15.md",
+      "ja_text_sha256": "f72a6835fc8a1cfa055971593a99d4238feda9f48f129fb00d5e697012dbd801",
+      "ja_text_bytes": 539,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-16",
+      "article_number": "75-16",
+      "filename": "douro-koutsuu-hou-article-75-16.md",
+      "ja_text_sha256": "4d95f4fd8084f8f4fadc5e3c1ebdc5ac45456321468375ed7853870165c9d175",
+      "ja_text_bytes": 990,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-17",
+      "article_number": "75-17",
+      "filename": "douro-koutsuu-hou-article-75-17.md",
+      "ja_text_sha256": "319761baeb7f4afacc45cc944b40a1ba8b3c3c14ddcd45c70e07ab897468cb7e",
+      "ja_text_bytes": 198,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-18",
+      "article_number": "75-18",
+      "filename": "douro-koutsuu-hou-article-75-18.md",
+      "ja_text_sha256": "84b425f1669b136c5977fe52764ce0a3cb82a22a71a8df7aea159a6172d50765",
+      "ja_text_bytes": 708,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-19",
+      "article_number": "75-19",
+      "filename": "douro-koutsuu-hou-article-75-19.md",
+      "ja_text_sha256": "68143520c1741508b7aab848734a64e9dc7479999cd0076dec55d0525961fbc0",
+      "ja_text_bytes": 1699,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-20",
+      "article_number": "75-20",
+      "filename": "douro-koutsuu-hou-article-75-20.md",
+      "ja_text_sha256": "c3f4d999f3ebc967e7c903ebbada962d6d2c69776545c0b292dbae1cfd106cca",
+      "ja_text_bytes": 434,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-21",
+      "article_number": "75-21",
+      "filename": "douro-koutsuu-hou-article-75-21.md",
+      "ja_text_sha256": "7a83b9146c2a98b8afbdac264fa083f842cfc9b21f30fe57b9bdeb16fb8071d4",
+      "ja_text_bytes": 977,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-22",
+      "article_number": "75-22",
+      "filename": "douro-koutsuu-hou-article-75-22.md",
+      "ja_text_sha256": "e818b9dc888ed7b56a91ab090126a90974d61b5cffe0c7bb27f7303b71d8e900",
+      "ja_text_bytes": 1285,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-23",
+      "article_number": "75-23",
+      "filename": "douro-koutsuu-hou-article-75-23.md",
+      "ja_text_sha256": "6c2ff00f10b8498b6cd098cf3168a1351fc6e3f3532b06ce434b16e42f748ccb",
+      "ja_text_bytes": 4336,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-24",
+      "article_number": "75-24",
+      "filename": "douro-koutsuu-hou-article-75-24.md",
+      "ja_text_sha256": "151bbd3b7c90b8629653020fd66df99e315a8052d111a9478ece644485b84382",
+      "ja_text_bytes": 348,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-25",
+      "article_number": "75-25",
+      "filename": "douro-koutsuu-hou-article-75-25.md",
+      "ja_text_sha256": "7c8aa53b7b238005c10541d293a9b90c04098839788d482b6f0676eefbbea843",
+      "ja_text_bytes": 948,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-26",
+      "article_number": "75-26",
+      "filename": "douro-koutsuu-hou-article-75-26.md",
+      "ja_text_sha256": "fbbec4fe999ae4dfad1e7aa22b4de49547af811d5897bd56db75eac6139f5755",
+      "ja_text_bytes": 1235,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-27",
+      "article_number": "75-27",
+      "filename": "douro-koutsuu-hou-article-75-27.md",
+      "ja_text_sha256": "f1e60e4e111b044058b80e1aec51549518c6ce413b95b0e144dcc419602257fc",
+      "ja_text_bytes": 598,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-28",
+      "article_number": "75-28",
+      "filename": "douro-koutsuu-hou-article-75-28.md",
+      "ja_text_sha256": "594d507becff301a5a76ca30bdf32dff6dee4cc83810ec032ce09b71d0241dfe",
+      "ja_text_bytes": 1325,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-75-29",
+      "article_number": "75-29",
+      "filename": "douro-koutsuu-hou-article-75-29.md",
+      "ja_text_sha256": "b80e913d3ffd33c39b2a32fd85e8a732eec13dcaf3acb263df92f0205e753534",
+      "ja_text_bytes": 444,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-76",
+      "article_number": "76",
+      "filename": "douro-koutsuu-hou-article-76.md",
+      "ja_text_sha256": "e6654eea38daffcf8e75511f5bab09349d3354c4fa7ae62873dce6891b4fb5b3",
+      "ja_text_bytes": 465,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-77",
+      "article_number": "77",
+      "filename": "douro-koutsuu-hou-article-77.md",
+      "ja_text_sha256": "c68226e11a8ea26c7abe0adaa2f243916599a402fddb002238e221e3b46db4c7",
+      "ja_text_bytes": 2511,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-78",
+      "article_number": "78",
+      "filename": "douro-koutsuu-hou-article-78.md",
+      "ja_text_sha256": "87486d51bee1cc4e27c505369347cc70687fce9b7ba7c2d36c2cf53f1a91f5fc",
+      "ja_text_bytes": 1381,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-79",
+      "article_number": "79",
+      "filename": "douro-koutsuu-hou-article-79.md",
+      "ja_text_sha256": "5fccbc613dccfa1b87d3c1ee0a64c241e4f94c04dcb86beac4c7c3287075ab9a",
+      "ja_text_bytes": 330,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-80",
+      "article_number": "80",
+      "filename": "douro-koutsuu-hou-article-80.md",
+      "ja_text_sha256": "ba171e3c269ad66212833052c30b8244643961301c9dc339b0c42e0d567bbe75",
+      "ja_text_bytes": 374,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-81",
+      "article_number": "81",
+      "filename": "douro-koutsuu-hou-article-81.md",
+      "ja_text_sha256": "d85a6ab767af3be3eefe714fde63b55322acc0dc4ad3f2d24d0dad6a0ca9e9a4",
+      "ja_text_bytes": 4267,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-81-2",
+      "article_number": "81-2",
+      "filename": "douro-koutsuu-hou-article-81-2.md",
+      "ja_text_sha256": "811e48753386acc2b1e9767b2b52ed1b97a9493f089946788989bd5c4daaaf7d",
+      "ja_text_bytes": 1321,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-82",
+      "article_number": "82",
+      "filename": "douro-koutsuu-hou-article-82.md",
+      "ja_text_sha256": "bde35934a34d47ed8e8b55b79204d5f0e9b5c1dab7803986c7b7ad34ec8d1fde",
+      "ja_text_bytes": 1027,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-83",
+      "article_number": "83",
+      "filename": "douro-koutsuu-hou-article-83.md",
+      "ja_text_sha256": "d853371aaa5fa5ab2acfca767900c7b2d9e8e40432e8e8cc29a0259d67279729",
+      "ja_text_bytes": 1099,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-84",
+      "article_number": "84",
+      "filename": "douro-koutsuu-hou-article-84.md",
+      "ja_text_sha256": "100c8eb7f9cf83e2c3b1d84a38ae494dd90568de1d773c2845dd7fc3159587f1",
+      "ja_text_bytes": 1958,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-85",
+      "article_number": "85",
+      "filename": "douro-koutsuu-hou-article-85.md",
+      "ja_text_sha256": "21dc5e948e33efe6514e3a0e6d453c9af09771a570a04b3c0988700e6a329c2c",
+      "ja_text_bytes": 5032,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-86",
+      "article_number": "86",
+      "filename": "douro-koutsuu-hou-article-86.md",
+      "ja_text_sha256": "1271077dc8d8d45eb83fc1f1fd17554c919c9e9d73287bf508d2ed7b44393b07",
+      "ja_text_bytes": 2305,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-87",
+      "article_number": "87",
+      "filename": "douro-koutsuu-hou-article-87.md",
+      "ja_text_sha256": "9ac03050755e215da378ca143e140c6b25e1a0e73894d1fd21fc9dbfdb649c19",
+      "ja_text_bytes": 3688,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-88",
+      "article_number": "88",
+      "filename": "douro-koutsuu-hou-article-88.md",
+      "ja_text_sha256": "a6756913a0316eef94aeff60f36a1aa54fa392b66c664421fda12092e26274ec",
+      "ja_text_bytes": 595,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-89",
+      "article_number": "89",
+      "filename": "douro-koutsuu-hou-article-89.md",
+      "ja_text_sha256": "fc4414d18db5032716e4f77b9eb64f7533ff2b09892855bd6732150454a8f484",
+      "ja_text_bytes": 1879,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-90",
+      "article_number": "90",
+      "filename": "douro-koutsuu-hou-article-90.md",
+      "ja_text_sha256": "68270b48b9377167a0e206cb703111b71d7818f16547b397554d0583b5d1fc5f",
+      "ja_text_bytes": 5885,
+      "paragraph_count": 14
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-90-2",
+      "article_number": "90-2",
+      "filename": "douro-koutsuu-hou-article-90-2.md",
+      "ja_text_sha256": "f817296582363ee9bc247327ff3c25b9d3e6d43e1ecc5a270dfdd8bba8fcd50e",
+      "ja_text_bytes": 575,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-91",
+      "article_number": "91",
+      "filename": "douro-koutsuu-hou-article-91.md",
+      "ja_text_sha256": "f51afe6381479bce786ed534aa5f0e6faf3bd624dfb09b1828c451fc2cc20eb4",
+      "ja_text_bytes": 456,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-91-2",
+      "article_number": "91-2",
+      "filename": "douro-koutsuu-hou-article-91-2.md",
+      "ja_text_sha256": "1277708ead4dd1a342d68ae721f00dfdad6d076135fb67f868500c155e23f2b4",
+      "ja_text_bytes": 1140,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-92",
+      "article_number": "92",
+      "filename": "douro-koutsuu-hou-article-92.md",
+      "ja_text_sha256": "ab1db74102879f0a6c111e1e3d400ec2e991dae7eb350c02f9c6662d0b24631e",
+      "ja_text_bytes": 755,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-93",
+      "article_number": "93",
+      "filename": "douro-koutsuu-hou-article-93.md",
+      "ja_text_sha256": "38863109cf6b0dcf57d43fe08cdbbcec6e96b400705e0d6bd6ff0d42804f8e51",
+      "ja_text_bytes": 718,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-93-2",
+      "article_number": "93-2",
+      "filename": "douro-koutsuu-hou-article-93-2.md",
+      "ja_text_sha256": "21c45e0cf19da39055a33fb6b5d272faf61ec579d44d2cd27400a7680d434385",
+      "ja_text_bytes": 435,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-94",
+      "article_number": "94",
+      "filename": "douro-koutsuu-hou-article-94.md",
+      "ja_text_sha256": "61b9a739556d43dfa51ee6e919f4643c894dcb53a08f509540232c4bcf166f3c",
+      "ja_text_bytes": 1255,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-95",
+      "article_number": "95",
+      "filename": "douro-koutsuu-hou-article-95.md",
+      "ja_text_sha256": "c8849df40c0540b38e56fade530789b207d40323643fac48ee5f4bb461a5bc07",
+      "ja_text_bytes": 395,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-95-2",
+      "article_number": "95-2",
+      "filename": "douro-koutsuu-hou-article-95-2.md",
+      "ja_text_sha256": "0eea01bf5fc2a2f98f85f34d3986480aaaed9aa01b461e18f5c42562478677cf",
+      "ja_text_bytes": 3934,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-95-3",
+      "article_number": "95-3",
+      "filename": "douro-koutsuu-hou-article-95-3.md",
+      "ja_text_sha256": "0e734afdf2ab59b04a117b02cba87bb141e3e059cfa650e2396e68598487782a",
+      "ja_text_bytes": 1209,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-95-4",
+      "article_number": "95-4",
+      "filename": "douro-koutsuu-hou-article-95-4.md",
+      "ja_text_sha256": "013d53773b68f79f36ca3f8b2918485c9bc61d734786c13092e14c9b0b7a4433",
+      "ja_text_bytes": 1070,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-95-5",
+      "article_number": "95-5",
+      "filename": "douro-koutsuu-hou-article-95-5.md",
+      "ja_text_sha256": "2fa7ba21648246b3c822b02031524c290a2563aebacefc41c58b2db9d071907d",
+      "ja_text_bytes": 1572,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-95-6",
+      "article_number": "95-6",
+      "filename": "douro-koutsuu-hou-article-95-6.md",
+      "ja_text_sha256": "e48fa6dcead2b1ed8a69036ed97ff0a9a2cdb875f510248c7f0e434eb56d162c",
+      "ja_text_bytes": 2182,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-96",
+      "article_number": "96",
+      "filename": "douro-koutsuu-hou-article-96.md",
+      "ja_text_sha256": "433ebc7603246d7a1297eebef006922e845f10b58fbe539bfcb499988c4c01eb",
+      "ja_text_bytes": 2385,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-96-2",
+      "article_number": "96-2",
+      "filename": "douro-koutsuu-hou-article-96-2.md",
+      "ja_text_sha256": "47908d09ceabbdb8330a99a527e750fa9f3f4ab018771e74614e3b9eee567658",
+      "ja_text_bytes": 855,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-96-3",
+      "article_number": "96-3",
+      "filename": "douro-koutsuu-hou-article-96-3.md",
+      "ja_text_sha256": "32dd70e2d01954303b6247ff73b5aa3ababe5ba070f4821c6f37d4e3c7d9af4f",
+      "ja_text_bytes": 2606,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-97",
+      "article_number": "97",
+      "filename": "douro-koutsuu-hou-article-97.md",
+      "ja_text_sha256": "c2a7062cf5844eb6575c403ed8c32675b993a3657df8ec96a636f1edf27fb546",
+      "ja_text_bytes": 1113,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-97-2",
+      "article_number": "97-2",
+      "filename": "douro-koutsuu-hou-article-97-2.md",
+      "ja_text_sha256": "4771f786c61f22005da8c1afc75fb18b81bd39c8477ce3ee65b0f47f27e3cc90",
+      "ja_text_bytes": 1359,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-97-3",
+      "article_number": "97-3",
+      "filename": "douro-koutsuu-hou-article-97-3.md",
+      "ja_text_sha256": "6ecc0028b1c0eefa3c79a03828cbb10ccbce8593601959d2d2516be4a739466c",
+      "ja_text_bytes": 742,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-98",
+      "article_number": "98",
+      "filename": "douro-koutsuu-hou-article-98.md",
+      "ja_text_sha256": "fd75f06dd3581bca868cb476c30980c905fc280ea82546b83807368607e301d2",
+      "ja_text_bytes": 1697,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-99",
+      "article_number": "99",
+      "filename": "douro-koutsuu-hou-article-99.md",
+      "ja_text_sha256": "fba16021ab12d2d25114381fcf0fe6498fa68a0289cbea415d6b694cc09a8faf",
+      "ja_text_bytes": 818,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-99-2",
+      "article_number": "99-2",
+      "filename": "douro-koutsuu-hou-article-99-2.md",
+      "ja_text_sha256": "c9a952bb0eca756512ecc803135434b1452ee84630d7da64c75e7bca7e76a513",
+      "ja_text_bytes": 973,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-99-3",
+      "article_number": "99-3",
+      "filename": "douro-koutsuu-hou-article-99-3.md",
+      "ja_text_sha256": "4ce910d6aa138a7e7829585d1904e1ffa354e5b8cd635e415b00259a29595f02",
+      "ja_text_bytes": 860,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-99-4",
+      "article_number": "99-4",
+      "filename": "douro-koutsuu-hou-article-99-4.md",
+      "ja_text_sha256": "2eb69ea455d3b1ac28b210f5f140625baf7dd5b3298826b97d719c2f72338b8c",
+      "ja_text_bytes": 288,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-99-5",
+      "article_number": "99-5",
+      "filename": "douro-koutsuu-hou-article-99-5.md",
+      "ja_text_sha256": "4d089b1cfb0db9cfe8959f60c3328445a9e1449a67f4f85e46b4a47f3306132c",
+      "ja_text_bytes": 1661,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-99-6",
+      "article_number": "99-6",
+      "filename": "douro-koutsuu-hou-article-99-6.md",
+      "ja_text_sha256": "25d85ba6e8cca2491af67c44aa3062d1a482ade5dc7f8b3d12d7a6181f2087c1",
+      "ja_text_bytes": 754,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-99-7",
+      "article_number": "99-7",
+      "filename": "douro-koutsuu-hou-article-99-7.md",
+      "ja_text_sha256": "12587268fbe3e13399f49dd61a7a7cc6ee9b3e803f2f8fff28320cbd0ea1cb65",
+      "ja_text_bytes": 677,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-100",
+      "article_number": "100",
+      "filename": "douro-koutsuu-hou-article-100.md",
+      "ja_text_sha256": "142597e10abc48073b1541f4ef9a297c765e569e196108181fd53efb8e2172f8",
+      "ja_text_bytes": 1214,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-100-2",
+      "article_number": "100-2",
+      "filename": "douro-koutsuu-hou-article-100-2.md",
+      "ja_text_sha256": "5c43fc7294c8cb958a0d5a5684f5f1ddd315372624f6772d70c31da335d63038",
+      "ja_text_bytes": 2621,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-100-3",
+      "article_number": "100-3",
+      "filename": "douro-koutsuu-hou-article-100-3.md",
+      "ja_text_sha256": "5af3093434262517ee292bf882c4269d76fae68a7789a478b926e0700a1b8ecb",
+      "ja_text_bytes": 1554,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-101",
+      "article_number": "101",
+      "filename": "douro-koutsuu-hou-article-101.md",
+      "ja_text_sha256": "288180eafa0c40a7bc670d9f89b3f5ab099f60df760f519e608ba00f2695365e",
+      "ja_text_bytes": 4457,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-101-2",
+      "article_number": "101-2",
+      "filename": "douro-koutsuu-hou-article-101-2.md",
+      "ja_text_sha256": "2c2a91e19c9795271482be1be6171ac6d4eaccbfa7a473404ca43af41f1af48a",
+      "ja_text_bytes": 1993,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-101-2-2",
+      "article_number": "101-2-2",
+      "filename": "douro-koutsuu-hou-article-101-2-2.md",
+      "ja_text_sha256": "295a4a3dbde27415fad2ef381a8c7096f0bf5f3440541b0a71357eab5cd7db67",
+      "ja_text_bytes": 2819,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-101-3",
+      "article_number": "101-3",
+      "filename": "douro-koutsuu-hou-article-101-3.md",
+      "ja_text_sha256": "5b022915c796cfe9ceb0679d42a3fb6f223d6bff37b55f987f1422ebc7eb7553",
+      "ja_text_bytes": 1664,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-101-4",
+      "article_number": "101-4",
+      "filename": "douro-koutsuu-hou-article-101-4.md",
+      "ja_text_sha256": "e325e607dc40c575b02b496e02f60eb031e90e033853a90ad411371803ebac7a",
+      "ja_text_bytes": 2681,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-101-4-2",
+      "article_number": "101-4-2",
+      "filename": "douro-koutsuu-hou-article-101-4-2.md",
+      "ja_text_sha256": "8650326174c8fd9269b0c8542ab5ddd9ad42fad7edd0c9a9ccf129a7904c7411",
+      "ja_text_bytes": 1325,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-101-5",
+      "article_number": "101-5",
+      "filename": "douro-koutsuu-hou-article-101-5.md",
+      "ja_text_sha256": "3d3aabced5e40522ae033379b0f0385224862dcf441b7636c7d20334a0cc247a",
+      "ja_text_bytes": 324,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-101-6",
+      "article_number": "101-6",
+      "filename": "douro-koutsuu-hou-article-101-6.md",
+      "ja_text_sha256": "f62392e2b1bfaea4f941129a5c9a31734965eba067ea13a77e0ad9fde4801d35",
+      "ja_text_bytes": 1263,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-101-7",
+      "article_number": "101-7",
+      "filename": "douro-koutsuu-hou-article-101-7.md",
+      "ja_text_sha256": "d2b74d4a2d28e3126354f81ac735b915de8b1fd6345e6083d210e3ce9faaaca2",
+      "ja_text_bytes": 2794,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-102",
+      "article_number": "102",
+      "filename": "douro-koutsuu-hou-article-102.md",
+      "ja_text_sha256": "b24c4316b4282a79f44b60a4395ffb0f9d593f6a022ef4d74761e4ebc185b9e2",
+      "ja_text_bytes": 3878,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-102-2",
+      "article_number": "102-2",
+      "filename": "douro-koutsuu-hou-article-102-2.md",
+      "ja_text_sha256": "8961c5ed6408529452d71091f75b79b073b023451ea58e0117d2a3f84853feef",
+      "ja_text_bytes": 852,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-102-3",
+      "article_number": "102-3",
+      "filename": "douro-koutsuu-hou-article-102-3.md",
+      "ja_text_sha256": "6b72931f5bc2a68a216b92d01639a72aff895668eddcd39ceecd05e8f55f921b",
+      "ja_text_bytes": 2064,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-103",
+      "article_number": "103",
+      "filename": "douro-koutsuu-hou-article-103.md",
+      "ja_text_sha256": "19306885309d741872110a11495e05979d773e83afd676c54e58fbb97a5bff50",
+      "ja_text_bytes": 5091,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-103-2",
+      "article_number": "103-2",
+      "filename": "douro-koutsuu-hou-article-103-2.md",
+      "ja_text_sha256": "b4abc6ea2644a500e3295a0322e5f9dc0d56f6fdfbd4eb7964f8a393d0fbc29b",
+      "ja_text_bytes": 2354,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-104",
+      "article_number": "104",
+      "filename": "douro-koutsuu-hou-article-104.md",
+      "ja_text_sha256": "8f12368de7e133d94e138f0bd2ab7ae51de700ce96b6d3b1c75a5a340a227276",
+      "ja_text_bytes": 2519,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-104-2",
+      "article_number": "104-2",
+      "filename": "douro-koutsuu-hou-article-104-2.md",
+      "ja_text_sha256": "94ddbeb37f6d0e3b1377e51bffb7f5978337105ffe060910632c338b168903ca",
+      "ja_text_bytes": 1586,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-104-2-2",
+      "article_number": "104-2-2",
+      "filename": "douro-koutsuu-hou-article-104-2-2.md",
+      "ja_text_sha256": "fafd91c7e54854d8c5f9c45d26ca81f88e1390efeea0cc7aa277e74d2062edbd",
+      "ja_text_bytes": 2169,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-104-2-3",
+      "article_number": "104-2-3",
+      "filename": "douro-koutsuu-hou-article-104-2-3.md",
+      "ja_text_sha256": "2db98c6e32e3dbf08ea0321a09df2aa3668dcdd37ec478c83e1a68d91eb9f519",
+      "ja_text_bytes": 6092,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-104-2-4",
+      "article_number": "104-2-4",
+      "filename": "douro-koutsuu-hou-article-104-2-4.md",
+      "ja_text_sha256": "8fa16eeb73f48394ee21b63830d32bb2e67a44dd5b6951362e83f0265de4d32c",
+      "ja_text_bytes": 4029,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-104-3",
+      "article_number": "104-3",
+      "filename": "douro-koutsuu-hou-article-104-3.md",
+      "ja_text_sha256": "f313b5657f1fcfe634f6465f1bb587dad31b0c6789b8061399ca39165256eb83",
+      "ja_text_bytes": 1654,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-104-4",
+      "article_number": "104-4",
+      "filename": "douro-koutsuu-hou-article-104-4.md",
+      "ja_text_sha256": "3f1d6d1b301f7bf94eada7ea41269a8b6ec88e8a7743c898c74e58cce3bdb549",
+      "ja_text_bytes": 1703,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-105",
+      "article_number": "105",
+      "filename": "douro-koutsuu-hou-article-105.md",
+      "ja_text_sha256": "4cac397921cd98fe9164392f7ec0682276e7c252c569aeb9683c66dbb4f0defb",
+      "ja_text_bytes": 330,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-105-2",
+      "article_number": "105-2",
+      "filename": "douro-koutsuu-hou-article-105-2.md",
+      "ja_text_sha256": "a68c94f636ebb4c12485fc809e2f219eed40553d80f652bfec38d74d00b49973",
+      "ja_text_bytes": 2174,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-106",
+      "article_number": "106",
+      "filename": "douro-koutsuu-hou-article-106.md",
+      "ja_text_sha256": "fd0a5f5245cd12c706d2b1d10942e95f1f392f728f5d03ae2d4b790f8d3cdb30",
+      "ja_text_bytes": 2892,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-106-2",
+      "article_number": "106-2",
+      "filename": "douro-koutsuu-hou-article-106-2.md",
+      "ja_text_sha256": "2c0d4e3c3dce48df50ad570402b242f7125da60dd168a09b916809061bc090a1",
+      "ja_text_bytes": 1880,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-106-3",
+      "article_number": "106-3",
+      "filename": "douro-koutsuu-hou-article-106-3.md",
+      "ja_text_sha256": "95847cc84399edbbb1faab39028bff84b1cc7f9f9d1e5d2f55fb29335d968e3a",
+      "ja_text_bytes": 2023,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-106-4",
+      "article_number": "106-4",
+      "filename": "douro-koutsuu-hou-article-106-4.md",
+      "ja_text_sha256": "88f48fa022d21b04ef589164da8f96cb5b893abdfbc6c5817d55a4d5c3c5ed9d",
+      "ja_text_bytes": 1262,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-106-5",
+      "article_number": "106-5",
+      "filename": "douro-koutsuu-hou-article-106-5.md",
+      "ja_text_sha256": "01102f1b1b03fa1fe1f53871cf831569e1b5ae70cb66d4f2a5922023c89fe48f",
+      "ja_text_bytes": 756,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-106-6",
+      "article_number": "106-6",
+      "filename": "douro-koutsuu-hou-article-106-6.md",
+      "ja_text_sha256": "8a25359fb83c9b9842c4d54c9f2db55f8dbc26ad919d03be260ae7cbdb1d7ff6",
+      "ja_text_bytes": 408,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107",
+      "article_number": "107",
+      "filename": "douro-koutsuu-hou-article-107.md",
+      "ja_text_sha256": "b01f2285e8750837e58c8fe809b61b6e630e51e81b98a184c21769a2ba975361",
+      "ja_text_bytes": 1098,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-2",
+      "article_number": "107-2",
+      "filename": "douro-koutsuu-hou-article-107-2.md",
+      "ja_text_sha256": "490ce0d1e1f9b61448564386434cb3366a379a8d9e7610c140bae8e3e0a2a639",
+      "ja_text_bytes": 2904,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-3",
+      "article_number": "107-3",
+      "filename": "douro-koutsuu-hou-article-107-3.md",
+      "ja_text_sha256": "d80e081689e4bbef1621cc206424d66f90b7ecb91a414efbed972f6bb54d8cd4",
+      "ja_text_bytes": 261,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-3-2",
+      "article_number": "107-3-2",
+      "filename": "douro-koutsuu-hou-article-107-3-2.md",
+      "ja_text_sha256": "032df2333d53fa0f9fbe1cdd9d55448b8df0250de419d0f0f6fd86675b8e341e",
+      "ja_text_bytes": 516,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-4",
+      "article_number": "107-4",
+      "filename": "douro-koutsuu-hou-article-107-4.md",
+      "ja_text_sha256": "e16758310212f2d1329c71426003fb6d1ea8763e915250d33e34f0610ed01df0",
+      "ja_text_bytes": 1302,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-4-2",
+      "article_number": "107-4-2",
+      "filename": "douro-koutsuu-hou-article-107-4-2.md",
+      "ja_text_sha256": "49586078d66ce2c25048f049b108963ec83caa5634729140292bf1bfa7e4a723",
+      "ja_text_bytes": 219,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-5",
+      "article_number": "107-5",
+      "filename": "douro-koutsuu-hou-article-107-5.md",
+      "ja_text_sha256": "46395887e1ae8da9ce1036ec3b47d8ee99f3d45825cc9b8b9612e2cff7d756c7",
+      "ja_text_bytes": 8954,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-6",
+      "article_number": "107-6",
+      "filename": "douro-koutsuu-hou-article-107-6.md",
+      "ja_text_sha256": "8e56674e3e93082cfd65c2b459234fa83da0c8e2b82276f5e3c35dfe9999d757",
+      "ja_text_bytes": 810,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-7",
+      "article_number": "107-7",
+      "filename": "douro-koutsuu-hou-article-107-7.md",
+      "ja_text_sha256": "3cd24d0156522762b7eb7b14a59e014c976b240f333e1194b6430caf7a54e30a",
+      "ja_text_bytes": 1464,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-8",
+      "article_number": "107-8",
+      "filename": "douro-koutsuu-hou-article-107-8.md",
+      "ja_text_sha256": "b78ab2e0f03e33a92523a0c2112eaef1b37d94af308081a2e94666006b27ce7d",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-9",
+      "article_number": "107-9",
+      "filename": "douro-koutsuu-hou-article-107-9.md",
+      "ja_text_sha256": "4a620d863540ef88bcd7aa6bfbce0227de13de3fbe4911fd0aa64a4fc8849a9c",
+      "ja_text_bytes": 326,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-107-10",
+      "article_number": "107-10",
+      "filename": "douro-koutsuu-hou-article-107-10.md",
+      "ja_text_sha256": "d6acf2dad84695cd0a75826dc8aaa7f59886b5d2d6f8122036404f7bae555eb6",
+      "ja_text_bytes": 1294,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108",
+      "article_number": "108",
+      "filename": "douro-koutsuu-hou-article-108.md",
+      "ja_text_sha256": "4cbbbbb07623d91c7feb14f0cded6a303fa300f9b92634dcdb80bef6805aae91",
+      "ja_text_bytes": 734,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-2",
+      "article_number": "108-2",
+      "filename": "douro-koutsuu-hou-article-108-2.md",
+      "ja_text_sha256": "a043776e27287c26ecd53a484847421bed2d2bfd936dfafbde0a741cb505e451",
+      "ja_text_bytes": 613,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-3",
+      "article_number": "108-3",
+      "filename": "douro-koutsuu-hou-article-108-3.md",
+      "ja_text_sha256": "bd657dc418e717976faa05b9a3ce3cfc1da0b8093c925b0bc9405fec564b4e37",
+      "ja_text_bytes": 851,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-3-2",
+      "article_number": "108-3-2",
+      "filename": "douro-koutsuu-hou-article-108-3-2.md",
+      "ja_text_sha256": "80f3fec8c9ad8bbea7ef1f2ece88301600a78a9068df62cd946c3dd0cf174dc6",
+      "ja_text_bytes": 423,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-3-3",
+      "article_number": "108-3-3",
+      "filename": "douro-koutsuu-hou-article-108-3-3.md",
+      "ja_text_sha256": "2fc8a70b84fba25e4d44ae09da648f1cce3a99760a441b9a82d42642c17fc9f2",
+      "ja_text_bytes": 564,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-3-4",
+      "article_number": "108-3-4",
+      "filename": "douro-koutsuu-hou-article-108-3-4.md",
+      "ja_text_sha256": "ffba8aa4d8eeaffebc8b26627cbc62887cee2359773faf101081aab8e3667dd8",
+      "ja_text_bytes": 503,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-3-5",
+      "article_number": "108-3-5",
+      "filename": "douro-koutsuu-hou-article-108-3-5.md",
+      "ja_text_sha256": "0d6cc5f6a24a15b719ecf07c8c8880d6262233752b04049c2cc2e149867e83cf",
+      "ja_text_bytes": 1796,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-3-6",
+      "article_number": "108-3-6",
+      "filename": "douro-koutsuu-hou-article-108-3-6.md",
+      "ja_text_sha256": "1d46175cf2e80a6fd049e0ec6e64cba1f4dedb6e47317f2dad2985257f6e8f12",
+      "ja_text_bytes": 732,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-4",
+      "article_number": "108-4",
+      "filename": "douro-koutsuu-hou-article-108-4.md",
+      "ja_text_sha256": "95dae257edd6dd97a4078a632a3a3d240f7f07e1878ad5bcd2cc032eeb5f214f",
+      "ja_text_bytes": 717,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-5",
+      "article_number": "108-5",
+      "filename": "douro-koutsuu-hou-article-108-5.md",
+      "ja_text_sha256": "f3cdcc396c18b667af61adadf06ba661b385376d37535cf38dd7490aa2894196",
+      "ja_text_bytes": 646,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-6",
+      "article_number": "108-6",
+      "filename": "douro-koutsuu-hou-article-108-6.md",
+      "ja_text_sha256": "d9f9e5cdda945146a33b7e47b14e9d5fb0babcd30f5d12fbd57b99ff8389f8b6",
+      "ja_text_bytes": 380,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-7",
+      "article_number": "108-7",
+      "filename": "douro-koutsuu-hou-article-108-7.md",
+      "ja_text_sha256": "d3873f5510360ed31e3050cd9a72ff5b61de192322d6ea88df1a44800b5603e0",
+      "ja_text_bytes": 482,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-8",
+      "article_number": "108-8",
+      "filename": "douro-koutsuu-hou-article-108-8.md",
+      "ja_text_sha256": "314299ce353d5234024b0c1c83087be9294265afa073df160124ba7fdbbd75a9",
+      "ja_text_bytes": 587,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-9",
+      "article_number": "108-9",
+      "filename": "douro-koutsuu-hou-article-108-9.md",
+      "ja_text_sha256": "d697625c1126cfdf0312a0a49e5af3a69200ef33a9b415e0736ce2748ff56672",
+      "ja_text_bytes": 369,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-10",
+      "article_number": "108-10",
+      "filename": "douro-koutsuu-hou-article-108-10.md",
+      "ja_text_sha256": "028cf02b439085dd3844a1a09dff012089b3a90831261381b2b93f5e41fbcd47",
+      "ja_text_bytes": 156,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-11",
+      "article_number": "108-11",
+      "filename": "douro-koutsuu-hou-article-108-11.md",
+      "ja_text_sha256": "7003f6b356154a89423f185c45a967b2360130274515a494fdf54f842cac195a",
+      "ja_text_bytes": 380,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-12",
+      "article_number": "108-12",
+      "filename": "douro-koutsuu-hou-article-108-12.md",
+      "ja_text_sha256": "8afee8209c7f77cc029e2e5d63f785aa142acbf87299c995f2e7a2198e65880e",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-13",
+      "article_number": "108-13",
+      "filename": "douro-koutsuu-hou-article-108-13.md",
+      "ja_text_sha256": "c9ea3711746f7b3e619b960a65f3afd560791b6c37d4fa19ae79b473de87a858",
+      "ja_text_bytes": 1107,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-14",
+      "article_number": "108-14",
+      "filename": "douro-koutsuu-hou-article-108-14.md",
+      "ja_text_sha256": "470e39aec9e508bd9d100be0f9eb7d54ff7555ed6e8e0ed2154efee601848af0",
+      "ja_text_bytes": 72,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-15",
+      "article_number": "108-15",
+      "filename": "douro-koutsuu-hou-article-108-15.md",
+      "ja_text_sha256": "6ff9c245f3131ab5db04592bccf6a0da8ea984c736aef01b39ff97aa559b8a72",
+      "ja_text_bytes": 446,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-16",
+      "article_number": "108-16",
+      "filename": "douro-koutsuu-hou-article-108-16.md",
+      "ja_text_sha256": "76a3c2b03d16ceb31e3cf170697e9c209fe3c71cbbbdf63750c05f62d7afe282",
+      "ja_text_bytes": 638,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-17",
+      "article_number": "108-17",
+      "filename": "douro-koutsuu-hou-article-108-17.md",
+      "ja_text_sha256": "3f75abee1953ce11636e18108e4656c550df0f3f586ae14d2257fb35cf8fc3c5",
+      "ja_text_bytes": 1150,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-18",
+      "article_number": "108-18",
+      "filename": "douro-koutsuu-hou-article-108-18.md",
+      "ja_text_sha256": "f4ccca24fc06150cc228be8499321a5d30213d23265e82cd209645409124e8e6",
+      "ja_text_bytes": 219,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-19",
+      "article_number": "108-19",
+      "filename": "douro-koutsuu-hou-article-108-19.md",
+      "ja_text_sha256": "5d9f114a741719f6358d7595c73369131425cf933fb4eb4c122d50e7e74ebbee",
+      "ja_text_bytes": 330,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-20",
+      "article_number": "108-20",
+      "filename": "douro-koutsuu-hou-article-108-20.md",
+      "ja_text_sha256": "cd67cd1b3eb40e12f0402c837bc44ab5642cdc18c185a3f6e496ddc775432f3a",
+      "ja_text_bytes": 473,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-21",
+      "article_number": "108-21",
+      "filename": "douro-koutsuu-hou-article-108-21.md",
+      "ja_text_sha256": "d844c92acf875680ac80338bf3a2317b2067e3ff750169daf0a1a6790740fc7e",
+      "ja_text_bytes": 679,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-22",
+      "article_number": "108-22",
+      "filename": "douro-koutsuu-hou-article-108-22.md",
+      "ja_text_sha256": "5b62d429f5aa5900549da822399addc4b19818e46076eea50525e50792cb323b",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-23",
+      "article_number": "108-23",
+      "filename": "douro-koutsuu-hou-article-108-23.md",
+      "ja_text_sha256": "17434be5c4d2b9905e48b39b95b1ea4686ab9c96327fa4a82d29908ee35fdd1d",
+      "ja_text_bytes": 404,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-24",
+      "article_number": "108-24",
+      "filename": "douro-koutsuu-hou-article-108-24.md",
+      "ja_text_sha256": "02d7308734a1e321cb9e9494e1bbf846ff3f6da85832bf06aa3f6b61ac1edbf2",
+      "ja_text_bytes": 228,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-25",
+      "article_number": "108-25",
+      "filename": "douro-koutsuu-hou-article-108-25.md",
+      "ja_text_sha256": "609fbf65a1b8c80230496c66e88dd81fc1802818a2966156283515fa44cb223c",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-26",
+      "article_number": "108-26",
+      "filename": "douro-koutsuu-hou-article-108-26.md",
+      "ja_text_sha256": "853c8d34845f557822b6fa3eafa0cd26b116dfe696d454f191b25886fd43f2ef",
+      "ja_text_bytes": 770,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-27",
+      "article_number": "108-27",
+      "filename": "douro-koutsuu-hou-article-108-27.md",
+      "ja_text_sha256": "979cfdb3139b16bfe269314f8d7df459da360d96524cbb0932f25d74bd5138d5",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-28",
+      "article_number": "108-28",
+      "filename": "douro-koutsuu-hou-article-108-28.md",
+      "ja_text_sha256": "8f13f06d4611dd890f2b99f04730877694d6ff922a4c7902cd5696581fc2db82",
+      "ja_text_bytes": 1470,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-29",
+      "article_number": "108-29",
+      "filename": "douro-koutsuu-hou-article-108-29.md",
+      "ja_text_sha256": "4733ea2f75140a729d5caf7c3adcb2d0865d78be6d721fd0c0d31a40bcc74ff1",
+      "ja_text_bytes": 790,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-30",
+      "article_number": "108-30",
+      "filename": "douro-koutsuu-hou-article-108-30.md",
+      "ja_text_sha256": "c258601721ef0da08a0c2fdc33748e52d4e76ab02cdb2cf67e80924141848866",
+      "ja_text_bytes": 1044,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-31",
+      "article_number": "108-31",
+      "filename": "douro-koutsuu-hou-article-108-31.md",
+      "ja_text_sha256": "baf072f3f9132a509070e499e408e8c275a6e9a020090f14a5ea4130b3f85ddb",
+      "ja_text_bytes": 1856,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-32",
+      "article_number": "108-32",
+      "filename": "douro-koutsuu-hou-article-108-32.md",
+      "ja_text_sha256": "46160d055ce9cf49114df1370ccd198373c899a83318ec4187b20ce9822b48da",
+      "ja_text_bytes": 1093,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-32-2",
+      "article_number": "108-32-2",
+      "filename": "douro-koutsuu-hou-article-108-32-2.md",
+      "ja_text_sha256": "121b25bbd28b88e6b5a606deefab4de0f0136da97b542903645baf9b33096269",
+      "ja_text_bytes": 2188,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-32-3",
+      "article_number": "108-32-3",
+      "filename": "douro-koutsuu-hou-article-108-32-3.md",
+      "ja_text_sha256": "e32ab4013a34b2cd21834e0e6ade51aaf7f2c9b7ec3c59e4ee26e9d5ef6dcb5b",
+      "ja_text_bytes": 1499,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-32-4",
+      "article_number": "108-32-4",
+      "filename": "douro-koutsuu-hou-article-108-32-4.md",
+      "ja_text_sha256": "789109f7073db52948f440341f206320dae814e10d8cafbad28cdb6a8ea67d54",
+      "ja_text_bytes": 363,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-33",
+      "article_number": "108-33",
+      "filename": "douro-koutsuu-hou-article-108-33.md",
+      "ja_text_sha256": "6b34998e14a7e4d720dda49941396e5e2d90404f5aece1e4110ac169cf54a5ad",
+      "ja_text_bytes": 984,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-108-34",
+      "article_number": "108-34",
+      "filename": "douro-koutsuu-hou-article-108-34.md",
+      "ja_text_sha256": "1000ef8241259c90fa9c6c44aa430114448dc753971fe57e7a5e9a8ee11600f9",
+      "ja_text_bytes": 861,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-109",
+      "article_number": "109",
+      "filename": "douro-koutsuu-hou-article-109.md",
+      "ja_text_sha256": "0dfe7011a76b667dc4cec59e062b31f3245af8c88e71284f2ce7ecbe519300bb",
+      "ja_text_bytes": 504,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-109-2",
+      "article_number": "109-2",
+      "filename": "douro-koutsuu-hou-article-109-2.md",
+      "ja_text_sha256": "b70881b68037872bc9ce5e04b220b7524e5ad1d58ea9171eafd3d111365047d4",
+      "ja_text_bytes": 1194,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-109-3",
+      "article_number": "109-3",
+      "filename": "douro-koutsuu-hou-article-109-3.md",
+      "ja_text_sha256": "ae34e7acfd5c3505204b083fd069d703691d42359bcdf0fbde9b1c70e466a1d4",
+      "ja_text_bytes": 1569,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-110",
+      "article_number": "110",
+      "filename": "douro-koutsuu-hou-article-110.md",
+      "ja_text_sha256": "ca2e3875353f00e45f49396c6f9c2274983b6622d92d51941c39c3b145494a87",
+      "ja_text_bytes": 950,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-110-2",
+      "article_number": "110-2",
+      "filename": "douro-koutsuu-hou-article-110-2.md",
+      "ja_text_sha256": "155f5adfe5d91783dc82273f0af6e56773905ae1495308f6657d9863a421ba45",
+      "ja_text_bytes": 5073,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-111",
+      "article_number": "111",
+      "filename": "douro-koutsuu-hou-article-111.md",
+      "ja_text_sha256": "f1a841870ae7d77cfa26bcac7f1bbe1eb39cb84e21cafdd824f2af1c99391691",
+      "ja_text_bytes": 979,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-112",
+      "article_number": "112",
+      "filename": "douro-koutsuu-hou-article-112.md",
+      "ja_text_sha256": "c425946ce18507e96b8bda18e06efcea69b4a478b45d4f9abc3420a5a039a781",
+      "ja_text_bytes": 881,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-113",
+      "article_number": "113",
+      "filename": "douro-koutsuu-hou-article-113.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-113-2",
+      "article_number": "113-2",
+      "filename": "douro-koutsuu-hou-article-113-2.md",
+      "ja_text_sha256": "86f120a0b0a5e1cd8d32713c7a5774ce89946e8d044f7d509bd5fd97f7e5a044",
+      "ja_text_bytes": 2133,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-113-3",
+      "article_number": "113-3",
+      "filename": "douro-koutsuu-hou-article-113-3.md",
+      "ja_text_sha256": "7c37a2f38b05c7cfc1b103bdfb90bdc9dc87fe7950d85a038acee7bb1cb739dd",
+      "ja_text_bytes": 141,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-113-4",
+      "article_number": "113-4",
+      "filename": "douro-koutsuu-hou-article-113-4.md",
+      "ja_text_sha256": "9488d7a4ab3a302aa083bd0ac9fc51d55c9d55c326bec9d2348c51e471189f3b",
+      "ja_text_bytes": 288,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-114",
+      "article_number": "114",
+      "filename": "douro-koutsuu-hou-article-114.md",
+      "ja_text_sha256": "c77a88695625eb0283acda563f57e8b3c794743ec30ba1767ab531c6b9570745",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-114-2",
+      "article_number": "114-2",
+      "filename": "douro-koutsuu-hou-article-114-2.md",
+      "ja_text_sha256": "28db49bc376d4dee4abb8ccee0eaf9ab18318a81bf80144d15e828acd86f14f7",
+      "ja_text_bytes": 590,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-114-3",
+      "article_number": "114-3",
+      "filename": "douro-koutsuu-hou-article-114-3.md",
+      "ja_text_sha256": "87f28c3d985c86288c53fb919de72e317d541e8476641422e4b819fab6c395e6",
+      "ja_text_bytes": 321,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-114-4",
+      "article_number": "114-4",
+      "filename": "douro-koutsuu-hou-article-114-4.md",
+      "ja_text_sha256": "4a7fc022de68868e3342081453174a9060e163045d5a89edcaf6f9e6b14d6b66",
+      "ja_text_bytes": 942,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-114-5",
+      "article_number": "114-5",
+      "filename": "douro-koutsuu-hou-article-114-5.md",
+      "ja_text_sha256": "4a738c373d807a848a8637c553b4f947f95a5c22dd4948d83a20ced356887845",
+      "ja_text_bytes": 2753,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-114-6",
+      "article_number": "114-6",
+      "filename": "douro-koutsuu-hou-article-114-6.md",
+      "ja_text_sha256": "c8345cadd63fe69092996e6dd44f2ef3dfed6b618ea64b9f7f86af6bcf0804e0",
+      "ja_text_bytes": 483,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-114-7",
+      "article_number": "114-7",
+      "filename": "douro-koutsuu-hou-article-114-7.md",
+      "ja_text_sha256": "fc555e63cbc616ef10d0c2b5c433c3ad9e0c2816b230aa1c0b5c145a52ea0179",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-115",
+      "article_number": "115",
+      "filename": "douro-koutsuu-hou-article-115.md",
+      "ja_text_sha256": "a4e6d4b72246aa96c4edd6f057da0218a47e6ed1c0362a44f08ac657b5bf5d71",
+      "ja_text_bytes": 369,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-116",
+      "article_number": "116",
+      "filename": "douro-koutsuu-hou-article-116.md",
+      "ja_text_sha256": "bffd781c210be80bec887fcd7b6ebfb4a6c4d32b45f553c78b5c277135a2fb02",
+      "ja_text_bytes": 506,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-117",
+      "article_number": "117",
+      "filename": "douro-koutsuu-hou-article-117.md",
+      "ja_text_sha256": "4718987a1e6fe20dd8299e0dbe30ce748f9b1f91e883809eefa45fcf7014091e",
+      "ja_text_bytes": 1006,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-117-2",
+      "article_number": "117-2",
+      "filename": "douro-koutsuu-hou-article-117-2.md",
+      "ja_text_sha256": "868a0fc82f7398949351dbc3e97bd118ad48749bfcca566bb8b162d8ce5cf475",
+      "ja_text_bytes": 284,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-117-2-2",
+      "article_number": "117-2-2",
+      "filename": "douro-koutsuu-hou-article-117-2-2.md",
+      "ja_text_sha256": "e316b12c3366abbf9062d118d5228b0ac3e353893bebc329982d1165c2f771f9",
+      "ja_text_bytes": 290,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-117-3",
+      "article_number": "117-3",
+      "filename": "douro-koutsuu-hou-article-117-3.md",
+      "ja_text_sha256": "49bc146ea692e142959a3b28483dfd8f4fc129d36b386e1272fd5b3794f0a912",
+      "ja_text_bytes": 156,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-117-3-2",
+      "article_number": "117-3-2",
+      "filename": "douro-koutsuu-hou-article-117-3-2.md",
+      "ja_text_sha256": "b1e3b5f77ecb408acecb777220a13fe71f6639ed8648276e3fdb69e65aa2cb57",
+      "ja_text_bytes": 123,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-117-4",
+      "article_number": "117-4",
+      "filename": "douro-koutsuu-hou-article-117-4.md",
+      "ja_text_sha256": "0a008f3360b7a8263aa5be83cfe474fa7e83859405b141593e950296b2244bf5",
+      "ja_text_bytes": 335,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-117-5",
+      "article_number": "117-5",
+      "filename": "douro-koutsuu-hou-article-117-5.md",
+      "ja_text_sha256": "99a480c75fbb25649dd8b1206fd306c4f2bd9fc914e714ef212b1d8cfab492b3",
+      "ja_text_bytes": 491,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-118",
+      "article_number": "118",
+      "filename": "douro-koutsuu-hou-article-118.md",
+      "ja_text_sha256": "f8e4cd6b2b3de06e14ce9fa463d6c5efdada033fc26915a56c9376be1336036f",
+      "ja_text_bytes": 415,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-118-2",
+      "article_number": "118-2",
+      "filename": "douro-koutsuu-hou-article-118-2.md",
+      "ja_text_sha256": "55f70c6e911291c3cd358382c613c7076a04002cfeb1d01e7ebb9e8b9c542aa0",
+      "ja_text_bytes": 195,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-118-3",
+      "article_number": "118-3",
+      "filename": "douro-koutsuu-hou-article-118-3.md",
+      "ja_text_sha256": "de20dcca151c2c4ef8021b4e8f94f23f4691b24c53a2c8bcaf4724fb602ced95",
+      "ja_text_bytes": 249,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-119",
+      "article_number": "119",
+      "filename": "douro-koutsuu-hou-article-119.md",
+      "ja_text_sha256": "549efac5becde2654be5404488f337f19c4ad7ec6caef3a31bd2ce15a6a0c240",
+      "ja_text_bytes": 526,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-119-2",
+      "article_number": "119-2",
+      "filename": "douro-koutsuu-hou-article-119-2.md",
+      "ja_text_sha256": "977873a2b3c5744326402da92f85028c090e3c8478e7134d1b2d70e6c41365b4",
+      "ja_text_bytes": 300,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-119-2-2",
+      "article_number": "119-2-2",
+      "filename": "douro-koutsuu-hou-article-119-2-2.md",
+      "ja_text_sha256": "f45886537a5a2987b8462d0e2f7c1e7b1ddd29250ff4f13255284bc83995f00b",
+      "ja_text_bytes": 135,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-119-2-3",
+      "article_number": "119-2-3",
+      "filename": "douro-koutsuu-hou-article-119-2-3.md",
+      "ja_text_sha256": "72a35d366b8f4e387387d8d981051bea63b0736d649ebf1a8910e3840c82d71d",
+      "ja_text_bytes": 135,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-119-2-4",
+      "article_number": "119-2-4",
+      "filename": "douro-koutsuu-hou-article-119-2-4.md",
+      "ja_text_sha256": "1df7cfecc60cea82cc6a2bce407d0c3f9c7f10214dd06a8523fb8b0e0977b97a",
+      "ja_text_bytes": 676,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-119-3",
+      "article_number": "119-3",
+      "filename": "douro-koutsuu-hou-article-119-3.md",
+      "ja_text_sha256": "0d42434ca3ee23dfc75b71bf141cfc6e515bfad06e1dc035c3607f9b03be2f1a",
+      "ja_text_bytes": 469,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-120",
+      "article_number": "120",
+      "filename": "douro-koutsuu-hou-article-120.md",
+      "ja_text_sha256": "3b154798b707b031f01a13bd15069bb08c8850a37db47007f871835fed1f32a6",
+      "ja_text_bytes": 364,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-121",
+      "article_number": "121",
+      "filename": "douro-koutsuu-hou-article-121.md",
+      "ja_text_sha256": "ae2a97c8d79eb2ce962e0ef20d82244e3f5e937343b9d357b3bbca7bb7f5dc4b",
+      "ja_text_bytes": 382,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-122",
+      "article_number": "122",
+      "filename": "douro-koutsuu-hou-article-122.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-123",
+      "article_number": "123",
+      "filename": "douro-koutsuu-hou-article-123.md",
+      "ja_text_sha256": "8fd0bdf46c63beb7226cb46c84f73466751eff0c62e4bc5124c07e4e94904247",
+      "ja_text_bytes": 705,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-123-2",
+      "article_number": "123-2",
+      "filename": "douro-koutsuu-hou-article-123-2.md",
+      "ja_text_sha256": "24ff990a145f7257dce089c8c19fc1c11eb7df19d6e03528a14241d011b54040",
+      "ja_text_bytes": 90,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-124",
+      "article_number": "124",
+      "filename": "douro-koutsuu-hou-article-124.md",
+      "ja_text_sha256": "85d495e3d38df6d96831d77c69f85bc3e0f4b7b7d5a7d1b44e2e4ad4eccf4141",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-125",
+      "article_number": "125",
+      "filename": "douro-koutsuu-hou-article-125.md",
+      "ja_text_sha256": "91c735a83d2a93921e0c66ba866e2811cad0ac269a88c1c9941b33bfc2c82c32",
+      "ja_text_bytes": 667,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-126",
+      "article_number": "126",
+      "filename": "douro-koutsuu-hou-article-126.md",
+      "ja_text_sha256": "04f3d9c1997a120dee6a6736cc4cb4a723d557270200dcfed4ad78021f65e6ab",
+      "ja_text_bytes": 1656,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-127",
+      "article_number": "127",
+      "filename": "douro-koutsuu-hou-article-127.md",
+      "ja_text_sha256": "6ba1836819a0bd1853a1d0d107ba18ec116c97c0c25f00e7b41160fa1e24fd03",
+      "ja_text_bytes": 1525,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-128",
+      "article_number": "128",
+      "filename": "douro-koutsuu-hou-article-128.md",
+      "ja_text_sha256": "f9fca1ea31a0d227e875adda936018d2decbc99bedad9edb01f15d75cd56b2cf",
+      "ja_text_bytes": 842,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-129",
+      "article_number": "129",
+      "filename": "douro-koutsuu-hou-article-129.md",
+      "ja_text_sha256": "2cb0096c3dbf9259f16c2306aa02b55a42bb794172dfdff13aa365c0b95fc892",
+      "ja_text_bytes": 1299,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-129-2",
+      "article_number": "129-2",
+      "filename": "douro-koutsuu-hou-article-129-2.md",
+      "ja_text_sha256": "bcd8af6b5a921c7c93331801872e075be755b2118ed6b055e4f0bad093801df1",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-130",
+      "article_number": "130",
+      "filename": "douro-koutsuu-hou-article-130.md",
+      "ja_text_sha256": "242ea0aeac1d4a82c13b56ce0334c2c403bbfb6e6fab3d46c660f6f5425019a8",
+      "ja_text_bytes": 510,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-130-2",
+      "article_number": "130-2",
+      "filename": "douro-koutsuu-hou-article-130-2.md",
+      "ja_text_sha256": "d2de2371fd94c77a946773224117cf5c5de2cd49ee085ff610232a9adf6aa8ed",
+      "ja_text_bytes": 1003,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-131",
+      "article_number": "131",
+      "filename": "douro-koutsuu-hou-article-131.md",
+      "ja_text_sha256": "4aa6fd6f8c3c6a45a4acff5cd87a1c66aee902babcd5fbc36950e1ebe3585b40",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "douro-koutsuu-hou-art-132",
+      "article_number": "132",
+      "filename": "douro-koutsuu-hou-article-132.md",
+      "ja_text_sha256": "e1da1773ce82687c86306a0a1c1b2a68ade4f27cda9ef1f50df0c5ffa9105ea7",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    }
+  ]
+}

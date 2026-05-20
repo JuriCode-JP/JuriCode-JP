@@ -1,0 +1,842 @@
+{
+  "schema_version": "1.0",
+  "law_id": "321CONSTITUTION",
+  "law_name_ja": "日本国憲法",
+  "law_abbrev": "kenpou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/321CONSTITUTION",
+  "source_xml_path": "C:\\Users\\sala.sa\\Documents\\juricode-vault\\JuriCode-JP\\JuriCode-JP\\cache\\laws\\321CONSTITUTION.xml",
+  "source_xml_sha256": "ecbba0777389ea4143c9a63460c9516031f6e4410f0ab58f42c32ccfc704a4b8",
+  "source_xml_bytes": 77463,
+  "source_fetched_at": "2026-05-20",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-20T07:34:02+00:00",
+  "version_date": "1946-11-03",
+  "article_count": 103,
+  "articles": [
+    {
+      "article_id": "kenpou-art-1",
+      "article_number": "1",
+      "filename": "kenpou-article-1.md",
+      "ja_text_sha256": "bbf049494296465b6be857c9a95ac5e483bb635ab975adf9f93d1436b088bda1",
+      "ja_text_bytes": 150,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-2",
+      "article_number": "2",
+      "filename": "kenpou-article-2.md",
+      "ja_text_sha256": "81fc2b300327255081d9577e83132fe233917f707a9c46d7d8d791e8e047e551",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-3",
+      "article_number": "3",
+      "filename": "kenpou-article-3.md",
+      "ja_text_sha256": "9324adf72c4635cda1e4ce7b47f8e3629aab50628ebc8262b35cfe204d89859a",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-4",
+      "article_number": "4",
+      "filename": "kenpou-article-4.md",
+      "ja_text_sha256": "f43528c9dd19092cabc0be88b776458b2c9683e92d40fd23cb895c2d6a8cfc1f",
+      "ja_text_bytes": 239,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-5",
+      "article_number": "5",
+      "filename": "kenpou-article-5.md",
+      "ja_text_sha256": "531560c6887a05ba5f29b2afb4d39df063abb4c1216cfe4b95fc57f8fa6a231c",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-6",
+      "article_number": "6",
+      "filename": "kenpou-article-6.md",
+      "ja_text_sha256": "8de016746a4027235bd9589529bf8c0a88b035a5fa0ca03ac321ec08397c7846",
+      "ja_text_bytes": 176,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-7",
+      "article_number": "7",
+      "filename": "kenpou-article-7.md",
+      "ja_text_sha256": "912c2b5f13c0b80f477ffc7f5ce5a1e681d5814e3124b2bb01c9338aee4d85b6",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-8",
+      "article_number": "8",
+      "filename": "kenpou-article-8.md",
+      "ja_text_sha256": "29e89711fc5193bf35562236ff82f8a2c9e0dcc52eaf8166fc01c2fbda1ebe7a",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-9",
+      "article_number": "9",
+      "filename": "kenpou-article-9.md",
+      "ja_text_sha256": "88d3f9a955c8cd01d0bbcd9fad7895aa38076e264da221d08eb2739b2e7b27bd",
+      "ja_text_bytes": 395,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-10",
+      "article_number": "10",
+      "filename": "kenpou-article-10.md",
+      "ja_text_sha256": "381cd5115236d1c73cf96c775cd375b6d76f9caf51c881a0eeed1c2fdf57084c",
+      "ja_text_bytes": 60,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-11",
+      "article_number": "11",
+      "filename": "kenpou-article-11.md",
+      "ja_text_sha256": "96591f07ecd7df97f0f9517c44546f2e99c16bda239782b8e4bd7cca4fd3b29f",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-12",
+      "article_number": "12",
+      "filename": "kenpou-article-12.md",
+      "ja_text_sha256": "235479f4358bb0c9537fd1fb081c9af9cc32e4d0eea7dc03b329f0af95b4c63f",
+      "ja_text_bytes": 288,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-13",
+      "article_number": "13",
+      "filename": "kenpou-article-13.md",
+      "ja_text_sha256": "fc5a8bfe9e955e9713d13eb3eb9ebd495d028936fb398e579e76129b7a24c151",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-14",
+      "article_number": "14",
+      "filename": "kenpou-article-14.md",
+      "ja_text_sha256": "a1f6bb5e52ef285a9d4503690417247ad2684647559d78d49fd3f3d9b672f031",
+      "ja_text_bytes": 475,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-15",
+      "article_number": "15",
+      "filename": "kenpou-article-15.md",
+      "ja_text_sha256": "83ff9b24e282341c59a3236b68734e0a5693f7f54eda6f02aa2dddf1b1eb9b54",
+      "ja_text_bytes": 447,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kenpou-art-16",
+      "article_number": "16",
+      "filename": "kenpou-article-16.md",
+      "ja_text_sha256": "c419b897e119ddf5ebe25ddc594fa7298725907acc7d60113c41ed84da698dfd",
+      "ja_text_bytes": 264,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-17",
+      "article_number": "17",
+      "filename": "kenpou-article-17.md",
+      "ja_text_sha256": "25c1fd05dbb0d1de30471ae2f7bb233abb2dbe429700922db75801cc2fb17fc0",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-18",
+      "article_number": "18",
+      "filename": "kenpou-article-18.md",
+      "ja_text_sha256": "295652dcbf3d2ead4ca828ae441c6f1aecef03675fc3183a3154c636cb646f05",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-19",
+      "article_number": "19",
+      "filename": "kenpou-article-19.md",
+      "ja_text_sha256": "73d3117ee441f3d45175ede3e05a3bc8c586cc681cf8d5ecd21b4669d6dabe5a",
+      "ja_text_bytes": 69,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-20",
+      "article_number": "20",
+      "filename": "kenpou-article-20.md",
+      "ja_text_sha256": "24493c58274d450828f4338d72bf82908ed627b7e4b89f8208b00132ff5989e5",
+      "ja_text_bytes": 391,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-21",
+      "article_number": "21",
+      "filename": "kenpou-article-21.md",
+      "ja_text_sha256": "cd1129ffc221ad240c02336d99611454ba42e4968cafa464ebbfe5daa821fb21",
+      "ja_text_bytes": 203,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-22",
+      "article_number": "22",
+      "filename": "kenpou-article-22.md",
+      "ja_text_sha256": "3df592d9eddb4401e5227944078fc7be11fcdecc181ea1205eaa048382084db6",
+      "ja_text_bytes": 197,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-23",
+      "article_number": "23",
+      "filename": "kenpou-article-23.md",
+      "ja_text_sha256": "de77553370e3a32f9b5a67618d5fc823bb1fb18d9e456ccbf55b899cd35ea8a1",
+      "ja_text_bytes": 45,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-24",
+      "article_number": "24",
+      "filename": "kenpou-article-24.md",
+      "ja_text_sha256": "974ec9baffd7e9a7b216bf2c88a4e452d3d08765ca1462d6c29583ea0989d1b3",
+      "ja_text_bytes": 440,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-25",
+      "article_number": "25",
+      "filename": "kenpou-article-25.md",
+      "ja_text_sha256": "8bffe962f33f2227e16947b650714c813ec1cbcee43f928699bec00abc27c349",
+      "ja_text_bytes": 245,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-26",
+      "article_number": "26",
+      "filename": "kenpou-article-26.md",
+      "ja_text_sha256": "144145df744fe7a3c3736ebab1954e97aa3a4d068892196e1f2c52bb528513a3",
+      "ja_text_bytes": 320,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-27",
+      "article_number": "27",
+      "filename": "kenpou-article-27.md",
+      "ja_text_sha256": "9a94e7d10b807b07e9d018bb8c0d2cd6f1face26d2e1b1f0faf8bfb2b94fa145",
+      "ja_text_bytes": 229,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-28",
+      "article_number": "28",
+      "filename": "kenpou-article-28.md",
+      "ja_text_sha256": "3d3841d7a9c3dc9a474b12bdc28ca865944a3c33a44e058a057773fb035440a8",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-29",
+      "article_number": "29",
+      "filename": "kenpou-article-29.md",
+      "ja_text_sha256": "de58eeaef9ea982a8c0b942e31234fc9b10e94442cf79957c912442a8795509c",
+      "ja_text_bytes": 253,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-30",
+      "article_number": "30",
+      "filename": "kenpou-article-30.md",
+      "ja_text_sha256": "8eb2609e3d3e97bddfe7da6d28a17d251c0cf49dcd3899a03f3912259c067eb7",
+      "ja_text_bytes": 78,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-31",
+      "article_number": "31",
+      "filename": "kenpou-article-31.md",
+      "ja_text_sha256": "fa09716f55f5abba59506089f9884d1566950024910c14848712f1cb9b11aa17",
+      "ja_text_bytes": 153,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-32",
+      "article_number": "32",
+      "filename": "kenpou-article-32.md",
+      "ja_text_sha256": "27e481f6fd8314b520fa5fdbbd506f16532a7e60a909551b71117b6de92dbb10",
+      "ja_text_bytes": 78,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-33",
+      "article_number": "33",
+      "filename": "kenpou-article-33.md",
+      "ja_text_sha256": "819f2b64b6799b9d0e4c0ba5750d96b7206c7499e36728929a0aacd3ac9fd772",
+      "ja_text_bytes": 213,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-34",
+      "article_number": "34",
+      "filename": "kenpou-article-34.md",
+      "ja_text_sha256": "3da13110bd8a2e982c269a8400470cfd67e1dc710e74b620dac0afae9c736acb",
+      "ja_text_bytes": 369,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-35",
+      "article_number": "35",
+      "filename": "kenpou-article-35.md",
+      "ja_text_sha256": "6c0d1ba661894a8e76d8185f30840caec142518bf31f653789ac2f2f36ff4c11",
+      "ja_text_bytes": 428,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-36",
+      "article_number": "36",
+      "filename": "kenpou-article-36.md",
+      "ja_text_sha256": "07cfb86f4c10c2c6452bf80c6cecd6227705555f4ea387bef3aad0435d4b6833",
+      "ja_text_bytes": 81,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-37",
+      "article_number": "37",
+      "filename": "kenpou-article-37.md",
+      "ja_text_sha256": "25ebf244e9f7ffd2ed3d0a73afda157300410fe84cea629a892054453baff025",
+      "ja_text_bytes": 535,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-38",
+      "article_number": "38",
+      "filename": "kenpou-article-38.md",
+      "ja_text_sha256": "3bbc7253ee1f6f59a42ef94277d166f3bf0805983d18c6832d7c229c921e779f",
+      "ja_text_bytes": 379,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-39",
+      "article_number": "39",
+      "filename": "kenpou-article-39.md",
+      "ja_text_sha256": "4bf593bf01acfd679c8cf5b695485ce8a4e818418d0940442e6495c8eb8e352b",
+      "ja_text_bytes": 228,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-40",
+      "article_number": "40",
+      "filename": "kenpou-article-40.md",
+      "ja_text_sha256": "a79ac30cfdec4f893ff5b0d25bebc97c614848f4caaac8f91175be4a402305f6",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-41",
+      "article_number": "41",
+      "filename": "kenpou-article-41.md",
+      "ja_text_sha256": "b8c2e1f9baa5535294f23480652d47ffd2a9d1102cd735906f71b8a0a77703fa",
+      "ja_text_bytes": 87,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-42",
+      "article_number": "42",
+      "filename": "kenpou-article-42.md",
+      "ja_text_sha256": "9804aa976e492f3ec58f07ac48486e99ac609db4f4cb42a85a9b63d9870e702c",
+      "ja_text_bytes": 75,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-43",
+      "article_number": "43",
+      "filename": "kenpou-article-43.md",
+      "ja_text_sha256": "a6b3a37801d749c943b12084e26cd94729a31fff19f27a47c453ed40a0205be0",
+      "ja_text_bytes": 152,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-44",
+      "article_number": "44",
+      "filename": "kenpou-article-44.md",
+      "ja_text_sha256": "8c0cbce0d6e766f7afec5132f81fcc9320ff9d9eb9ca84b5920811acaae82534",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-45",
+      "article_number": "45",
+      "filename": "kenpou-article-45.md",
+      "ja_text_sha256": "218a58f92cafc39bb63cf901aee901d8659022100696ad96048a165a2ccd2a18",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-46",
+      "article_number": "46",
+      "filename": "kenpou-article-46.md",
+      "ja_text_sha256": "bcc2ac45ffa675a744e839c3b08c8b112a2939ad9f865bbfb853bcf16cc1609f",
+      "ja_text_bytes": 93,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-47",
+      "article_number": "47",
+      "filename": "kenpou-article-47.md",
+      "ja_text_sha256": "00a65adc74dcfbab24b7f2a04dfa4aaef405c93e9cd220cb71587484089f2acc",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-48",
+      "article_number": "48",
+      "filename": "kenpou-article-48.md",
+      "ja_text_sha256": "bd49744a37fec661fc9eccd3e2c5faa6c130c39212f68802cdd1650b7deac69e",
+      "ja_text_bytes": 69,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-49",
+      "article_number": "49",
+      "filename": "kenpou-article-49.md",
+      "ja_text_sha256": "a39403af48193502fc9cc2df9a8f02f6967f6c21208b5c53026bd6d204068274",
+      "ja_text_bytes": 108,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-50",
+      "article_number": "50",
+      "filename": "kenpou-article-50.md",
+      "ja_text_sha256": "45a2cc9bf58b596217817158d82619835c7d2d673b970f1957505c0ca4527f1e",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-51",
+      "article_number": "51",
+      "filename": "kenpou-article-51.md",
+      "ja_text_sha256": "ba2239dbdb2fe06df21c80539096b49932951436e6a98980b59727b6e31f847b",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-52",
+      "article_number": "52",
+      "filename": "kenpou-article-52.md",
+      "ja_text_sha256": "e8a8ea4f3bf363045e60f564c3f4df5f4ba0413e582bcc536adbb5ed6a9bc7fc",
+      "ja_text_bytes": 57,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-53",
+      "article_number": "53",
+      "filename": "kenpou-article-53.md",
+      "ja_text_sha256": "e9c305c6b86a2a6ee3937f469385278c859806f907b0d73f83d7fdd238701ba0",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-54",
+      "article_number": "54",
+      "filename": "kenpou-article-54.md",
+      "ja_text_sha256": "cac799776317717da6933446074ebc4b43e0eb398c8b9fc3b19457a3f57d1d20",
+      "ja_text_bytes": 613,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-55",
+      "article_number": "55",
+      "filename": "kenpou-article-55.md",
+      "ja_text_sha256": "7c43c4c20e36a1007fea24e81725e3cbabd7055db8dd2b2a2b8927c5021b230a",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-56",
+      "article_number": "56",
+      "filename": "kenpou-article-56.md",
+      "ja_text_sha256": "acda109f493501a67065495264d302843b8dd9770b3ab8562b0a05404cda6306",
+      "ja_text_bytes": 332,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-57",
+      "article_number": "57",
+      "filename": "kenpou-article-57.md",
+      "ja_text_sha256": "9ca1239f6967c5c31b0fe91b8d692670f653da73eba87d2748e1ff1ff31e5b2b",
+      "ja_text_bytes": 517,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-58",
+      "article_number": "58",
+      "filename": "kenpou-article-58.md",
+      "ja_text_sha256": "d8482b53273fdedb4d396d32ede43e8d6a0deb49dd0eb10b714f3b2843c83f8d",
+      "ja_text_bytes": 368,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-59",
+      "article_number": "59",
+      "filename": "kenpou-article-59.md",
+      "ja_text_sha256": "5840d2c01213763c1a97f4c2427b884acfb69a4c5eb2ec438ba856463a9bfa5a",
+      "ja_text_bytes": 720,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kenpou-art-60",
+      "article_number": "60",
+      "filename": "kenpou-article-60.md",
+      "ja_text_sha256": "764bd25255448493f5163cbdfe076ee7d9ea40a2b7d8771823810b9ccdf6ec64",
+      "ja_text_bytes": 470,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-61",
+      "article_number": "61",
+      "filename": "kenpou-article-61.md",
+      "ja_text_sha256": "8b76031e9fdf040e88ad9f2f7f7f388be9b65d94da3b563e7bec91675eb470db",
+      "ja_text_bytes": 102,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-62",
+      "article_number": "62",
+      "filename": "kenpou-article-62.md",
+      "ja_text_sha256": "d8f589c3ad5ffcb731b745191e52d071d3b3b2978ab872f47c27cb30f5ca6a4b",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-63",
+      "article_number": "63",
+      "filename": "kenpou-article-63.md",
+      "ja_text_sha256": "978a56a34e7f23e6d6450bef0921c780a8998f5010f8947c66fa701d9b814b0f",
+      "ja_text_bytes": 318,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-64",
+      "article_number": "64",
+      "filename": "kenpou-article-64.md",
+      "ja_text_sha256": "fb39be1dbe40048a6fa54bea6459cafff4b0bfc254b5297be8cbd41f2ef76505",
+      "ja_text_bytes": 197,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-65",
+      "article_number": "65",
+      "filename": "kenpou-article-65.md",
+      "ja_text_sha256": "62a20cbe8e1c1faf7639667b363388e89cb9bec67c61300853785a267060ff0d",
+      "ja_text_bytes": 36,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-66",
+      "article_number": "66",
+      "filename": "kenpou-article-66.md",
+      "ja_text_sha256": "062f04832d77d6fffd7d365affd29a46e8410d9f6b36c8c5cd28c78e029a2f6e",
+      "ja_text_bytes": 322,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-67",
+      "article_number": "67",
+      "filename": "kenpou-article-67.md",
+      "ja_text_sha256": "d0ceed8eeee4d63d0d0adbf10a43ad23eec7c0a4aabe59d231fe4a5b88fb8a4e",
+      "ja_text_bytes": 560,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-68",
+      "article_number": "68",
+      "filename": "kenpou-article-68.md",
+      "ja_text_sha256": "c6a77d1e40cdf33c2175a64d4167e4a01d7fc1717f7c359a35efe8541cb6ce7f",
+      "ja_text_bytes": 227,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-69",
+      "article_number": "69",
+      "filename": "kenpou-article-69.md",
+      "ja_text_sha256": "d92c34a9e480ab6cf17defd14264f712c4beab82873110b542c1aa7613326751",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-70",
+      "article_number": "70",
+      "filename": "kenpou-article-70.md",
+      "ja_text_sha256": "e1dffb676d29ec59706012c9a9fb3c3cc6f5ae8bcbb9ffed720e96a747b7a9aa",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-71",
+      "article_number": "71",
+      "filename": "kenpou-article-71.md",
+      "ja_text_sha256": "b0cf84b0c41f540dffd5d1d4332127ea80092bc1190ae6731befa906a3b3db2c",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-72",
+      "article_number": "72",
+      "filename": "kenpou-article-72.md",
+      "ja_text_sha256": "21c3bac0a7a0f5be992f1668ebe7b6cad9d673a536aa33f4b91ff40acb59d7a3",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-73",
+      "article_number": "73",
+      "filename": "kenpou-article-73.md",
+      "ja_text_sha256": "4735e3a3a947fc0f975d84eb27d4543efd05c3fb4c2e48d3eefb3a850aa6e48e",
+      "ja_text_bytes": 69,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-74",
+      "article_number": "74",
+      "filename": "kenpou-article-74.md",
+      "ja_text_sha256": "49fdad7a5cc87ac208edc647a13e657700ba71b8539205b9454b73e906d4ff7e",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-75",
+      "article_number": "75",
+      "filename": "kenpou-article-75.md",
+      "ja_text_sha256": "ff475378340c4f003c5ce30536b05f9c06f496197b6364893e0b69fcd81f91d3",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-76",
+      "article_number": "76",
+      "filename": "kenpou-article-76.md",
+      "ja_text_sha256": "08be1cfa5871f970f66f35edeadcbdf153cd123cd944768f3ad878075e640bc6",
+      "ja_text_bytes": 397,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-77",
+      "article_number": "77",
+      "filename": "kenpou-article-77.md",
+      "ja_text_sha256": "3a5224a3aad4a0308e540819a3c2d97d7885b0b16d8644ea4cfd9c0d7ae593e4",
+      "ja_text_bytes": 397,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kenpou-art-78",
+      "article_number": "78",
+      "filename": "kenpou-article-78.md",
+      "ja_text_sha256": "18252235019dbb4abf022db9c53a9c569ec18dd7f6454af2607cec6d0b7d0ebd",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-79",
+      "article_number": "79",
+      "filename": "kenpou-article-79.md",
+      "ja_text_sha256": "4c91b9448931248a7144d08ecb65d531c0d5bc47609e5ed1171b232963d546ea",
+      "ja_text_bytes": 931,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kenpou-art-80",
+      "article_number": "80",
+      "filename": "kenpou-article-80.md",
+      "ja_text_sha256": "313195f9d85e01e436bead9f020d0b5d9c37dfe6395d7f3636ab0bd9167de6c2",
+      "ja_text_bytes": 434,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-81",
+      "article_number": "81",
+      "filename": "kenpou-article-81.md",
+      "ja_text_sha256": "d4021bb6f522918173f217b43805be7db06420458edecd1ba7b5b210568da21f",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-82",
+      "article_number": "82",
+      "filename": "kenpou-article-82.md",
+      "ja_text_sha256": "368cb60609196cc2355538f11367abdbc0157a14f7ffa89dca8d4483280b4e59",
+      "ja_text_bytes": 467,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-83",
+      "article_number": "83",
+      "filename": "kenpou-article-83.md",
+      "ja_text_sha256": "342ec120d0fa87f974457889d3b9a1f58b0c8d9adaff1278abf82d1ae4ef7ebc",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-84",
+      "article_number": "84",
+      "filename": "kenpou-article-84.md",
+      "ja_text_sha256": "9a75b4a95406a90ff11a2154a30bac9a9eef76ac8e4b5b2fb320319450cf7ac3",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-85",
+      "article_number": "85",
+      "filename": "kenpou-article-85.md",
+      "ja_text_sha256": "1767ec548641484df981c944e439e5c4b01da0daf33a2b0bdd3110c68268f220",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-86",
+      "article_number": "86",
+      "filename": "kenpou-article-86.md",
+      "ja_text_sha256": "ba724860017e31898ad0cb44f876168966f8f9fad077426130593ced5f98c085",
+      "ja_text_bytes": 135,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-87",
+      "article_number": "87",
+      "filename": "kenpou-article-87.md",
+      "ja_text_sha256": "2341a9b0466d43950ee32d1ff8820f3f174cfd709a6cbdb52fa4a4bc7017ccce",
+      "ja_text_bytes": 275,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-88",
+      "article_number": "88",
+      "filename": "kenpou-article-88.md",
+      "ja_text_sha256": "71c5d0ce6e4e423fde06f1bb1ccd9928592a368ef73c80178cb6fdd481d0eb15",
+      "ja_text_bytes": 144,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-89",
+      "article_number": "89",
+      "filename": "kenpou-article-89.md",
+      "ja_text_sha256": "0d21d26c1c1352f17f71ad0c81bca7d3cccc0e07ac1f4ed823e58c02de3f0389",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-90",
+      "article_number": "90",
+      "filename": "kenpou-article-90.md",
+      "ja_text_sha256": "0f43971995abb1e92b6e28fb75f3285c2aa98d8b449b3a684a0cf5bc23e724cb",
+      "ja_text_bytes": 278,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-91",
+      "article_number": "91",
+      "filename": "kenpou-article-91.md",
+      "ja_text_sha256": "cfec84191ad007573075e7c2d86760ee246b7125fa685cd83c654c86fc7a3c85",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-92",
+      "article_number": "92",
+      "filename": "kenpou-article-92.md",
+      "ja_text_sha256": "6ac9c363a3e3491c31b1dbcebb8e55cc900876ada7781bc4a27d8c61c4f45ff4",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-93",
+      "article_number": "93",
+      "filename": "kenpou-article-93.md",
+      "ja_text_sha256": "4279d9d1466e0772687a3af857c46a30adcbbacdcd0487818ea629b85b4aa1ce",
+      "ja_text_bytes": 284,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-94",
+      "article_number": "94",
+      "filename": "kenpou-article-94.md",
+      "ja_text_sha256": "78a2734bca3b7e38f56380a751530cfb075441726ea26e37aeb5f7a92a77eef9",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-95",
+      "article_number": "95",
+      "filename": "kenpou-article-95.md",
+      "ja_text_sha256": "213371b2e5fb9719faae13db3cbf9c8f5cc35cf93c96ee04e09235d4d8b2f6ef",
+      "ja_text_bytes": 258,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-96",
+      "article_number": "96",
+      "filename": "kenpou-article-96.md",
+      "ja_text_sha256": "668d3ed608ed704b5ed7d7daa55e1427f7169f17fcef669bb64eb4bcb593e880",
+      "ja_text_bytes": 512,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-97",
+      "article_number": "97",
+      "filename": "kenpou-article-97.md",
+      "ja_text_sha256": "9d0c8d6b6c23ee7f986e8039260157faddf78c2b2019d42da4d182b366ab4741",
+      "ja_text_bytes": 315,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-98",
+      "article_number": "98",
+      "filename": "kenpou-article-98.md",
+      "ja_text_sha256": "68e0428d0aa0c6181761bf12db9d647793dc69fab82918404e633c1f0491471c",
+      "ja_text_bytes": 326,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-99",
+      "article_number": "99",
+      "filename": "kenpou-article-99.md",
+      "ja_text_sha256": "5691e43db8b738bc96df412aa5cfdc4f5a606b9f79c1de4eaa217c70c712013a",
+      "ja_text_bytes": 144,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-100",
+      "article_number": "100",
+      "filename": "kenpou-article-100.md",
+      "ja_text_sha256": "8c779b881df58bf8c5d7aadc2270bec1324b6d643e0af0ead04db49189e25090",
+      "ja_text_bytes": 365,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kenpou-art-101",
+      "article_number": "101",
+      "filename": "kenpou-article-101.md",
+      "ja_text_sha256": "91256428711d6f0a4b928a6883f60eb35052f9b5106e00ee277bceec84267e92",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-102",
+      "article_number": "102",
+      "filename": "kenpou-article-102.md",
+      "ja_text_sha256": "021d6f05044fc9e6dfc90c619590446a4bbd3e698c0630c69c18d250a698bc06",
+      "ja_text_bytes": 198,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kenpou-art-103",
+      "article_number": "103",
+      "filename": "kenpou-article-103.md",
+      "ja_text_sha256": "6b1209556b1a728f722a09c5f997b73846f873c8f973020e31b20991b8f1ca23",
+      "ja_text_bytes": 456,
+      "paragraph_count": 1
+    }
+  ]
+}
