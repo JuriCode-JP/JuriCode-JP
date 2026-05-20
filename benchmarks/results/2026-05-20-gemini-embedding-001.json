@@ -1,0 +1,118 @@
+{
+  "run_id": "2026-05-20-gemini-embedding-001",
+  "date": "2026-05-20",
+  "dataset_b": "juricode-jp (Phase 1 four-pillar, 3,772 articles, 12 statutes)",
+  "embedding_model": "gemini-embedding-001",
+  "embedding_provider": "Google Gemini (free tier)",
+  "embedding_dim": 3072,
+  "corpus_size": 3772,
+  "eval_set_version": "v0.1 (8 samples across 4 pillars)",
+  "top_k": 10,
+  "wall_clock_seconds_embedding": 90,
+  "metrics": {
+    "dataset_b": {
+      "recall_at_1": 0.75,
+      "recall_at_3": 1.00,
+      "recall_at_10": 1.00,
+      "mrr": 0.875
+    }
+  },
+  "per_question_results": [
+    {
+      "question_id": "eval-municipal-001",
+      "question": "住民監査請求はどのような手続きで行うのか?",
+      "expected": ["chihou-jichi-hou-art-242"],
+      "rank_in_b": 2,
+      "top1_id": "chihou-jichi-hou-art-75",
+      "top1_score": 0.792,
+      "expected_top_score": 0.784
+    },
+    {
+      "question_id": "eval-municipal-002",
+      "question": "行政不服審査の請求期間はどれくらいか?",
+      "expected": ["gyousei-fufuku-shinsa-hou-art-18"],
+      "rank_in_b": 2,
+      "top1_id": "kokuzei-tsuusoku-hou-art-77",
+      "top1_score": 0.766,
+      "expected_top_score": 0.758
+    },
+    {
+      "question_id": "eval-police-001",
+      "question": "正当防衛が成立する要件は何か?",
+      "expected": ["keihou-art-36"],
+      "rank_in_b": 1,
+      "top1_id": "keihou-art-36",
+      "top1_score": 0.697
+    },
+    {
+      "question_id": "eval-police-002",
+      "question": "職務質問はどのような場合に行うことができるか?",
+      "expected": ["keisatsukan-shokumu-shikkou-hou-art-2"],
+      "rank_in_b": 1,
+      "top1_id": "keisatsukan-shokumu-shikkou-hou-art-2",
+      "top1_score": 0.709
+    },
+    {
+      "question_id": "eval-practitioner-001",
+      "question": "契約を解除すると、解除前に行った給付はどうなるか?",
+      "expected": ["minpou-art-545"],
+      "rank_in_b": 1,
+      "top1_id": "minpou-art-545",
+      "top1_score": 0.757
+    },
+    {
+      "question_id": "eval-practitioner-002",
+      "question": "公序良俗に反する契約はどうなるか?",
+      "expected": ["minpou-art-90"],
+      "rank_in_b": 1,
+      "top1_id": "minpou-art-90",
+      "top1_score": 0.771
+    },
+    {
+      "question_id": "eval-tax-001",
+      "question": "納税申告に誤りがあった場合、納税者が自ら正すための手続きは?",
+      "expected": ["kokuzei-tsuusoku-hou-art-23"],
+      "rank_in_b": 1,
+      "top1_id": "kokuzei-tsuusoku-hou-art-23",
+      "top1_score": 0.740
+    },
+    {
+      "question_id": "eval-tax-002",
+      "question": "給与所得の金額はどのように計算するか?",
+      "expected": ["shotoku-zei-hou-art-28"],
+      "rank_in_b": 1,
+      "top1_id": "shotoku-zei-hou-art-28",
+      "top1_score": 0.769
+    }
+  ],
+  "comparison_vs_baseline": {
+    "baseline_run_id": "2026-05-20-baseline-tfidf",
+    "baseline_model": "tfidf-char-2to3gram-d5000",
+    "baseline_metrics": {
+      "recall_at_1": 0.0,
+      "recall_at_3": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    },
+    "delta": {
+      "recall_at_1": "+75.0 points",
+      "recall_at_3": "+100.0 points",
+      "recall_at_10": "+100.0 points",
+      "mrr": "+0.875"
+    }
+  },
+  "interpretation": {
+    "summary": "Gemini gemini-embedding-001 (multilingual semantic embedding) lifts Recall@10 from 0% (TF-IDF baseline) to 100% across all 8 eval queries, with 6 of 8 questions answered correctly at rank 1.",
+    "what_this_demonstrates": [
+      "The 3,772-article JuriCode-JP corpus contains the right answers — TF-IDF failed because of vocabulary mismatch, not because the data was missing.",
+      "A modern multilingual embedding model + 1-条 chunking + cosine retrieval is sufficient to bridge the layperson-vs-statutory phrasing gap on the eval set.",
+      "Free-tier Gemini (100 RPM, throttled to ~85 RPM via 0.7s inter-batch sleep) embeds the entire corpus in ~90 seconds at zero cost."
+    ],
+    "caveats": [
+      "Eval set is small (N=8). Stable estimates will require expansion to 30+ questions with legal-expert review.",
+      "Two questions (住民監査請求 / 行政不服審査の請求期間) landed at rank 2, indicating the top-1 score is sensitive to surface-level overlap with adjacent articles. Future work: re-ranking or hybrid (BM25 + dense).",
+      "Embedding cost on free tier limits throughput; production at scale would need paid tier or self-hosted multilingual-e5."
+    ]
+  },
+  "notes": "Wall-clock for embed.py with --gemini-sleep-between-batches=0.7: ~90 seconds for 3,772 records, 38 API requests at ~85 RPM. Output: 44.2 MB float32 .npy (3,772 x 3,072)."
+}
