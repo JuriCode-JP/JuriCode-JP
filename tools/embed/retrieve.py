@@ -34,7 +34,7 @@ def _load_artefacts(prefix):
             records.append(json.loads(line))
 
     with vec_path.open("rb") as fh:
-        state = pickle.load(fh)  # noqa: S301
+        state = pickle.load(fh)
     return matrix, records, state
 
 
@@ -174,7 +174,10 @@ def main():
                 lawname = law_name_ja[idx] or ""
                 artnum = article_number[idx] or ""
                 marker = " OK" if aid in expected else ""
-                print(f"   [{i}] {aid:48s} {score:.3f}  {lawname} 第{artnum}条{marker}", file=sys.stderr)
+                print(
+                    f"   [{i}] {aid:48s} {score:.3f}  {lawname} 第{artnum}条{marker}",
+                    file=sys.stderr,
+                )
             print("", file=sys.stderr)
 
     n = len(queries)

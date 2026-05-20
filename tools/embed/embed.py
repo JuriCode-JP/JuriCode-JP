@@ -54,6 +54,7 @@ def _read_records(path, limit):
 
 # ---------- Provider: TF-IDF ----------
 
+
 def _tfidf_embed(records, text_field, max_features):
     from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -72,6 +73,7 @@ def _tfidf_embed(records, text_field, max_features):
 
 
 # ---------- Provider: OpenAI ----------
+
 
 def _openai_embed(records, text_field, model, batch_size, max_retries):
     try:
@@ -99,12 +101,18 @@ def _openai_embed(records, text_field, model, batch_size, max_retries):
             try:
                 resp = client.embeddings.create(model=model, input=batch)
                 break
-            except Exception as e:  # noqa: BLE001
+            except Exception as e:
                 if attempt == max_retries:
-                    print(f"ERROR: batch {batch_start} failed after {max_retries} retries: {e}", file=sys.stderr)
+                    print(
+                        f"ERROR: batch {batch_start} failed after {max_retries} retries: {e}",
+                        file=sys.stderr,
+                    )
                     raise
-                wait = 2 ** attempt
-                print(f"WARN: batch {batch_start} attempt {attempt} failed: {e}; retrying in {wait}s", file=sys.stderr)
+                wait = 2**attempt
+                print(
+                    f"WARN: batch {batch_start} attempt {attempt} failed: {e}; retrying in {wait}s",
+                    file=sys.stderr,
+                )
                 time.sleep(wait)
 
         for item in resp.data:
@@ -115,7 +123,10 @@ def _openai_embed(records, text_field, model, batch_size, max_retries):
             elapsed = time.time() - start
             rate = done / elapsed if elapsed > 0 else 0
             eta = (n - done) / rate if rate > 0 else 0
-            print(f"  progress: {done:,}/{n:,}  ({100*done/n:.0f}%)  rate={rate:.1f}/s  ETA={eta:.0f}s", file=sys.stderr)
+            print(
+                f"  progress: {done:,}/{n:,}  ({100 * done / n:.0f}%)  rate={rate:.1f}/s  ETA={eta:.0f}s",
+                file=sys.stderr,
+            )
 
     dense = np.asarray(vectors, dtype=np.float32)
     state = {"provider": "openai", "model": model}
@@ -123,6 +134,7 @@ def _openai_embed(records, text_field, model, batch_size, max_retries):
 
 
 # ---------- Provider: Gemini ----------
+
 
 def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec):
     """Encode via Google Gemini embedding API with throttling for free tier.
@@ -147,7 +159,10 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
     n = len(corpus)
 
     vectors = []
-    print(f"Encoding {n:,} records via Gemini {model} (batch={batch_size}, sleep={sleep_sec}s)", file=sys.stderr)
+    print(
+        f"Encoding {n:,} records via Gemini {model} (batch={batch_size}, sleep={sleep_sec}s)",
+        file=sys.stderr,
+    )
     start = time.time()
 
     for batch_start in range(0, n, batch_size):
@@ -162,17 +177,26 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
                     config=types.EmbedContentConfig(task_type="RETRIEVAL_DOCUMENT"),
                 )
                 break
-            except Exception as e:  # noqa: BLE001
+            except Exception as e:
                 err_str = str(e)
                 if "RESOURCE_EXHAUSTED" in err_str or "429" in err_str:
                     wait = 30 if attempt < max_retries else 60
-                    print(f"WARN: batch {batch_start} attempt {attempt} hit rate limit; sleeping {wait}s", file=sys.stderr)
+                    print(
+                        f"WARN: batch {batch_start} attempt {attempt} hit rate limit; sleeping {wait}s",
+                        file=sys.stderr,
+                    )
                 else:
                     if attempt == max_retries:
-                        print(f"ERROR: batch {batch_start} failed after {max_retries} retries: {e}", file=sys.stderr)
+                        print(
+                            f"ERROR: batch {batch_start} failed after {max_retries} retries: {e}",
+                            file=sys.stderr,
+                        )
                         raise
-                    wait = 2 ** attempt
-                    print(f"WARN: batch {batch_start} attempt {attempt} failed: {e}; retrying in {wait}s", file=sys.stderr)
+                    wait = 2**attempt
+                    print(
+                        f"WARN: batch {batch_start} attempt {attempt} failed: {e}; retrying in {wait}s",
+                        file=sys.stderr,
+                    )
                 if attempt == max_retries:
                     print(f"ERROR: batch {batch_start} exhausted retries", file=sys.stderr)
                     raise
@@ -186,7 +210,10 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
             elapsed = time.time() - start
             rate = done / elapsed if elapsed > 0 else 0
             eta = (n - done) / rate if rate > 0 else 0
-            print(f"  progress: {done:,}/{n:,}  ({100*done/n:.0f}%)  rate={rate:.1f}/s  ETA={eta:.0f}s", file=sys.stderr)
+            print(
+                f"  progress: {done:,}/{n:,}  ({100 * done / n:.0f}%)  rate={rate:.1f}/s  ETA={eta:.0f}s",
+                file=sys.stderr,
+            )
 
         if sleep_sec > 0 and done < n:
             time.sleep(sleep_sec)
@@ -197,6 +224,7 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
 
 
 # ---------- CLI ----------
+
 
 def main():
     ap = argparse.ArgumentParser(description="Generate embeddings for JuriCode-JP NDJSON.")
@@ -243,13 +271,19 @@ def main():
         dense, model_name, state = _tfidf_embed(records, args.text_field, args.max_features)
     elif args.provider == "openai":
         dense, model_name, state = _openai_embed(
-            records, args.text_field, args.openai_model,
-            args.openai_batch_size, args.openai_max_retries,
+            records,
+            args.text_field,
+            args.openai_model,
+            args.openai_batch_size,
+            args.openai_max_retries,
         )
     elif args.provider == "gemini":
         dense, model_name, state = _gemini_embed(
-            records, args.text_field, args.gemini_model,
-            args.gemini_batch_size, args.gemini_max_retries,
+            records,
+            args.text_field,
+            args.gemini_model,
+            args.gemini_batch_size,
+            args.gemini_max_retries,
             args.gemini_sleep_between_batches,
         )
     else:

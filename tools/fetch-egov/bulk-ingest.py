@@ -38,7 +38,7 @@ REPO_ROOT = SCRIPT_DIR.parent.parent
 sys.path.insert(0, str(SCRIPT_DIR / "src"))
 
 try:
-    from fetch_egov.law_id_map import LAW_ID_MAP, resolve_law_id
+    from fetch_egov.law_id_map import resolve_law_id
 except ImportError as e:
     sys.exit(f"ERROR: cannot import law_id_map: {e}")
 
@@ -117,9 +117,7 @@ def fetch_law_xml(law_id: str, cache_dir: Path, force: bool = False) -> Path:
             # nested
             xml = xml.get("law_full_text") or xml.get("LawFullText")
         if not xml:
-            raise RuntimeError(
-                f"JSON envelope unexpected for {law_id}: keys={list(env.keys())}"
-            )
+            raise RuntimeError(f"JSON envelope unexpected for {law_id}: keys={list(env.keys())}")
         out_path.write_text(xml, encoding="utf-8")
     else:
         out_path.write_text(text, encoding="utf-8")
@@ -173,7 +171,7 @@ def run_validate(data_root: Path) -> bool:
         if cands:
             validate_script = cands[0]
         else:
-            print(f"  [warn] validate-all script not found, skipping")
+            print("  [warn] validate-all script not found, skipping")
             return True
     print(f"\n=== running {validate_script.name} ===")
     proc = subprocess.run(
@@ -184,7 +182,10 @@ def run_validate(data_root: Path) -> bool:
 
 
 def main():
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
     ap.add_argument(
         "--laws",
         nargs="+",
@@ -209,9 +210,22 @@ def main():
         default="phase1-misc",
         help="PHASE_MAP に無い略称のフォールバック Phase",
     )
-    ap.add_argument("--force-fetch", action="store_true", help="キャッシュ無視で再取得")
-    ap.add_argument("--skip-validate", action="store_true", help="最後の validate-all をスキップ")
-    ap.add_argument("--sleep-between", type=float, default=2.0, help="法令間の待機秒数 (default 2.0)")
+    ap.add_argument(
+        "--force-fetch",
+        action="store_true",
+        help="キャッシュ無視で再取得",
+    )
+    ap.add_argument(
+        "--skip-validate",
+        action="store_true",
+        help="最後の validate-all をスキップ",
+    )
+    ap.add_argument(
+        "--sleep-between",
+        type=float,
+        default=2.0,
+        help="法令間の待機秒数 (default 2.0)",
+    )
     args = ap.parse_args()
 
     print(f"REPO_ROOT     = {REPO_ROOT}")

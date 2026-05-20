@@ -60,7 +60,7 @@ def _load_artefacts(prefix: Path) -> tuple[np.ndarray, list[dict], dict]:
             records.append(json.loads(line))
 
     with vec_path.open("rb") as fh:
-        state = pickle.load(fh)  # noqa: S301
+        state = pickle.load(fh)
     return matrix, records, state
 
 
@@ -142,7 +142,7 @@ def _topk(question: str, k: int = 10) -> list[dict]:
 class Handler(BaseHTTPRequestHandler):
     server_version = "JuriCodeSearchUI/0.1"
 
-    def log_message(self, fmt, *args):  # noqa: A003
+    def log_message(self, fmt, *args):
         sys.stderr.write(f"[{self.log_date_time_string()}] {fmt % args}\n")
 
     def _send_json(self, code: int, payload: dict | list) -> None:
@@ -167,7 +167,7 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
-    def do_GET(self):  # noqa: N802
+    def do_GET(self):
         parsed = urlparse(self.path)
         if parsed.path in ("/", "/index.html"):
             self._send_html(INDEX_HTML)
@@ -206,7 +206,9 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main():
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     ap.add_argument(
         "--embedded",
         type=Path,
