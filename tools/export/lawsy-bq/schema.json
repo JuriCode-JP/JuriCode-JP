@@ -93,7 +93,7 @@
     "name": "chunk_id",
     "type": "STRING",
     "mode": "NULLABLE",
-    "description": "Unique chunk identifier. Equals article_id for chunk_type='article', or '<article_id>-p<N>' for chunk_type='paragraph'. Null only when source article_id is missing (data-quality signal)."
+    "description": "Unique chunk identifier. Equals article_id for chunk_type='article', or '<article_id>-p<N>' for chunk_type='paragraph'."
   },
   {
     "name": "char_count",
@@ -117,54 +117,72 @@
     "name": "has_cases",
     "type": "BOOLEAN",
     "mode": "REQUIRED",
-    "description": "True iff the source article frontmatter declares one or more case-law links in its `cases:` list."
+    "description": "True iff the source article frontmatter declares one or more case-law links."
   },
   {
     "name": "case_count",
     "type": "INTEGER",
     "mode": "REQUIRED",
-    "description": "Number of entries in the source article's `cases:` list."
+    "description": "Number of entries in the source article's cases: list."
   },
   {
     "name": "case_ids",
     "type": "STRING",
     "mode": "REPEATED",
-    "description": "Flattened list of case_id values from the source article's `cases:` list."
+    "description": "Flattened list of case_id values from the source article's cases: list."
   },
   {
     "name": "hen",
     "type": "INTEGER",
     "mode": "NULLABLE",
-    "description": "編 (Part) number from parent_section. Null when the article is not nested under a 編."
+    "description": "編 (Part) number from parent_section."
   },
   {
     "name": "hen_name_ja",
     "type": "STRING",
     "mode": "NULLABLE",
-    "description": "編 (Part) name in Japanese (e.g. '第一編 総則'). Null when hen is null."
+    "description": "編 (Part) name in Japanese (e.g. '第一編 総則')."
   },
   {
     "name": "shou",
     "type": "INTEGER",
     "mode": "NULLABLE",
-    "description": "章 (Chapter) number from parent_section. Null when the article is not nested under a 章."
+    "description": "章 (Chapter) number from parent_section."
   },
   {
     "name": "shou_name_ja",
     "type": "STRING",
     "mode": "NULLABLE",
-    "description": "章 (Chapter) name in Japanese. Null when shou is null."
+    "description": "章 (Chapter) name in Japanese."
   },
   {
     "name": "setsu",
     "type": "INTEGER",
     "mode": "NULLABLE",
-    "description": "節 (Section) number from parent_section. Null when the article is not nested under a 節."
+    "description": "節 (Section) number from parent_section."
   },
   {
     "name": "setsu_name_ja",
     "type": "STRING",
     "mode": "NULLABLE",
-    "description": "節 (Section) name in Japanese. Null when setsu is null."
+    "description": "節 (Section) name in Japanese."
+  },
+  {
+    "name": "version_year",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Year extracted from version_date. Use as a filter for 'recently amended' queries."
+  },
+  {
+    "name": "has_english_translation",
+    "type": "BOOLEAN",
+    "mode": "REQUIRED",
+    "description": "True iff translation_status is not 'none'. Use as a filter for international-facing retrievals."
+  },
+  {
+    "name": "phase_category",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "JuriCode-JP phase tag matching /^phase\\d+-[a-z]+$/, e.g. 'phase1-police', 'phase1-tax'. The first match from the tags array, or null if no such tag is present."
   }
 ]

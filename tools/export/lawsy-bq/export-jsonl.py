@@ -9,23 +9,13 @@ JSON Lines (NDJSON) 形式で出力する。これにより以下が同時に実
   1. デジタル庁「源内 (GENAI)」の法制度 AI アプリ Lawsy-Custom-BQ への接続
   2. RAG (Retrieval-Augmented Generation) ready なデータ形式への変換
 
-各 Markdown ファイル (例: examples/keihou/keihou-article-36.md) から、
-条文単位 (--chunk=article) または項単位 (--chunk=paragraph) の
-レコードを抽出して出力する。
-
 Usage:
-    # 既存サンプル 2 件 (刑法36条 + 刑訴法198条) を条文単位で書き出し
     python tools/export/lawsy-bq/export-jsonl.py \\
         --input examples \\
         --output build/juricode-bq.jsonl
 
-    # 項単位 (RAG 用にチャンクを細かくしたい場合)
     python tools/export/lawsy-bq/export-jsonl.py \\
-        --input examples \\
-        --chunk paragraph
-
-    # 標準出力にそのまま流す (パイプ用)
-    python tools/export/lawsy-bq/export-jsonl.py --input examples
+        --input examples --chunk paragraph
 
 Requires: pip install pyyaml
 Optional (for precise token counts): pip install ".[rag-export]"
@@ -53,9 +43,7 @@ except ImportError:
 # Tokenizer (optional dependency)
 # ---------------------------------------------------------------------------
 # tiktoken is loaded lazily and is OPTIONAL. When unavailable, we fall back
-# to a character-based approximation. The exporter does not hard-fail without
-# tiktoken — it simply emits less precise token counts and records that fact
-# in the `token_method` field so downstream consumers can detect this.
+# to a character-based approximation.
 
 _TIKTOKEN_ENCODING_NAME = "o200k_base"
 
@@ -85,7 +73,6 @@ FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
 
 JA_SECTION_RE = re.compile(r"##\s*原文\s*\(?日本語\)?\s*\n(.*?)(?=\n##\s|\Z)", re.DOTALL)
 
-# Paragraph heading inside the Japanese-original section.
 PARAGRAPH_HEADING_RE = re.compile(
     r"^###\s+第[一二三四五六七八九十百千0-9]+条"
     r"(?:第([一二三四五六七八九十百千0-9]+)項)?\s*$",
@@ -117,7 +104,7 @@ def kansuji_to_int(s: str) -> int:
 
 
 def clean_text(text: str) -> str:
-    """Strip trailing horizontal rules ('---') and surrounding whitespace."""
+    """Strip trailing horizontal rules and surrounding whitespace."""
     lines = text.splitlines()
     while lines and (not lines[-1].strip() or set(lines[-1].strip()) <= {"-"}):
         lines.pop()
@@ -147,7 +134,6 @@ def split_paragraphs(ja_body: str) -> list[tuple[int, str]]:
     headings = list(PARAGRAPH_HEADING_RE.finditer(ja_body))
     if not headings:
         return [(1, ja_body.strip())]
-
     paragraphs: list[tuple[int, str]] = []
     for i, h in enumerate(headings):
         para_str = h.group(1)
@@ -191,15 +177,7 @@ def base_record(fm: dict) -> dict:
 
 
 def _extract_case_metadata(fm: dict) -> dict:
-    """Lift case-link metadata from frontmatter into RAG-friendly fields.
-
-    Surfaces three derived fields so RAG retrievers can filter by "has case
-    law" without re-parsing the nested `cases:` list:
-
-      - has_cases : bool — true iff at least one entry is present
-      - case_count: int  — len(cases)
-      - case_ids  : list[str] — flattened case_id values (drops malformed)
-    """
+    """Lift case-link metadata from frontmatter into RAG-friendly fields."""
     raw = fm.get("cases") or []
     if not isinstance(raw, list):
         return {"has_cases": False, "case_count": 0, "case_ids": []}
@@ -212,24 +190,7 @@ def _extract_case_metadata(fm: dict) -> dict:
 
 
 def _extract_section_metadata(fm: dict) -> dict:
-    """Lift parent_section (hen/shou/setsu) for filterable retrieval.
-
-    The JuriCode-JP frontmatter encodes statutory hierarchy as a nested
-    `parent_section:` dict. We flatten the top three levels (編 / 章 / 節)
-    into six top-level fields so RAG retrievers can filter by part/chapter
-    without parsing the nested object:
-
-      - hen          : int or None  — 編 number
-      - hen_name_ja  : str or None  — 編 name in Japanese
-      - shou         : int or None  — 章 number
-      - shou_name_ja : str or None  — 章 name in Japanese
-      - setsu        : int or None  — 節 number (rare)
-      - setsu_name_ja: str or None  — 節 name in Japanese (rare)
-
-    Missing levels yield None — null-safe at every step. Lower levels
-    (款 / 目) are intentionally not surfaced to keep the schema flat;
-    consumers needing those should parse the source frontmatter directly.
-    """
+    """Lift parent_section (hen/shou/setsu) for filterable retrieval."""
     ps = fm.get("parent_section") or {}
     if not isinstance(ps, dict):
         ps = {}
@@ -243,13 +204,55 @@ def _extract_section_metadata(fm: dict) -> dict:
     }
 
 
-def _build_chunk_id(article_id: str | None, paragraph_number: int | None) -> str | None:
-    """Return a stable, unique chunk identifier.
+_PHASE_TAG_RE = re.compile(r"^phase[0-9]+-[a-z]+$")
 
-    For article chunks the chunk_id equals the article_id (e.g. 'minpou-art-90').
-    For paragraph chunks we suffix '-pN' (e.g. 'minpou-art-90-p2'). When
-    article_id is missing the chunk_id is None — a data-quality signal.
+
+def _extract_facet_metadata(fm: dict) -> dict:
+    """Lift filterable facet fields useful for RAG retrieval.
+
+    Three derived booleans / numerics that turn frequently-asked filters
+    into single-column lookups:
+
+      - version_year         : year(version_date) as int, or None
+                                "条文の最新改正年". Useful for "show me
+                                articles amended since 2020" queries.
+      - has_english_translation: translation_status != 'none'
+                                Useful for international-facing retrievals.
+      - phase_category       : the first tag matching /^phase\\d+-[a-z]+$/
+                                e.g. 'phase1-police', 'phase1-tax'. None
+                                if no such tag is present.
     """
+    # version_year
+    vd = fm.get("version_date")
+    if isinstance(vd, date):
+        version_year = vd.year
+    elif isinstance(vd, str) and len(vd) >= 4 and vd[:4].isdigit():
+        version_year = int(vd[:4])
+    else:
+        version_year = None
+
+    # has_english_translation
+    ts = fm.get("translation_status", "none")
+    has_english_translation = ts not in (None, "", "none")
+
+    # phase_category — first tag matching the phase pattern
+    tags = fm.get("tags") or []
+    phase_category = None
+    if isinstance(tags, list):
+        for tag in tags:
+            if isinstance(tag, str) and _PHASE_TAG_RE.match(tag):
+                phase_category = tag
+                break
+
+    return {
+        "version_year": version_year,
+        "has_english_translation": has_english_translation,
+        "phase_category": phase_category,
+    }
+
+
+def _build_chunk_id(article_id: str | None, paragraph_number: int | None) -> str | None:
+    """Return a stable, unique chunk identifier."""
     if not article_id:
         return None
     if paragraph_number is None:
@@ -273,6 +276,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
     article_id = base.get("article_id")
     case_meta = _extract_case_metadata(fm)
     section_meta = _extract_section_metadata(fm)
+    facet_meta = _extract_facet_metadata(fm)
 
     if chunk_mode == "article":
         return [
@@ -285,6 +289,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
                 **_chunk_size_fields(ja_body),
                 **case_meta,
                 **section_meta,
+                **facet_meta,
             }
         ]
 
@@ -300,6 +305,7 @@ def to_bq_records(parsed: dict, chunk_mode: str) -> list[dict]:
                 **_chunk_size_fields(text),
                 **case_meta,
                 **section_meta,
+                **facet_meta,
             }
         )
     return records
@@ -322,49 +328,33 @@ def _open_output(path: Path | None) -> Iterator[TextIO]:
 
 
 def _build_argparser() -> argparse.ArgumentParser:
-    """Construct the CLI argument parser. No side effects."""
+    """Construct the CLI argument parser."""
     ap = argparse.ArgumentParser(
         description="JuriCode-JP Markdown → BigQuery JSON Lines (NDJSON) "
         "exporter for 'Lawsy-Custom-BQ' (GENAI) ingestion."
     )
-    ap.add_argument(
-        "--input",
-        type=Path,
-        default=Path("examples"),
-        help="Directory to search for *-article-*.md files (default: examples)",
-    )
-    ap.add_argument(
-        "--output",
-        type=Path,
-        default=None,
-        help="Output file path. If omitted, writes JSONL to stdout.",
-    )
-    ap.add_argument(
-        "--chunk",
-        choices=["article", "paragraph"],
-        default="article",
-        help="Chunk granularity: 'article' (1 record/条) or "
-        "'paragraph' (1 record/項). Default: article.",
-    )
+    ap.add_argument("--input", type=Path, default=Path("examples"),
+                    help="Directory to search for *-article-*.md files")
+    ap.add_argument("--output", type=Path, default=None,
+                    help="Output file path (default: stdout)")
+    ap.add_argument("--chunk", choices=["article", "paragraph"], default="article",
+                    help="Chunk granularity (default: article)")
     return ap
 
 
 def main() -> int:
     """CLI driver. Returns process exit code."""
     args = _build_argparser().parse_args()
-
     if not args.input.exists():
         print(f"ERROR: input path does not exist: {args.input}", file=sys.stderr)
         return 1
     if not args.input.is_dir():
         print(f"ERROR: --input must be a directory: {args.input}", file=sys.stderr)
         return 1
-
     md_files = sorted(args.input.rglob("*-article-*.md"))
     if not md_files:
         print(f"ERROR: no '*-article-*.md' files found under {args.input}", file=sys.stderr)
         return 1
-
     count = 0
     skipped = 0
     with _open_output(args.output) as out_handle:
@@ -377,7 +367,6 @@ def main() -> int:
             except (ValueError, OSError, UnicodeDecodeError) as e:
                 print(f"WARN: skipping {path}: {e}", file=sys.stderr)
                 skipped += 1
-
     print(
         f"OK: {count} record(s) written from {len(md_files) - skipped}/"
         f"{len(md_files)} file(s) in chunk={args.chunk} mode",
