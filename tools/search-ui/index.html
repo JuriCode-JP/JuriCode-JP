@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>JuriCode-JP 検索 (プロトタイプ)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --fg: #1c1c1c;
+    --muted: #6b7280;
+    --bg: #fafafa;
+    --card: #ffffff;
+    --border: #e5e7eb;
+    --accent: #1e40af;
+    --accent-soft: #dbeafe;
+    --warn: #b45309;
+    --shadow: 0 1px 2px rgba(0,0,0,.04), 0 4px 12px rgba(0,0,0,.06);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; font-family: -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif; color: var(--fg); background: var(--bg); }
+  header { padding: 18px 24px; border-bottom: 1px solid var(--border); background: var(--card); }
+  header h1 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: .02em; }
+  header .sub { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  main { max-width: 960px; margin: 0 auto; padding: 24px; }
+  .panel { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 18px; box-shadow: var(--shadow); margin-bottom: 16px; }
+  .search-row { display: flex; gap: 8px; align-items: center; }
+  input[type=text] { flex: 1; font-size: 16px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 6px; outline: none; }
+  input[type=text]:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+  input[type=number] { width: 70px; font-size: 16px; padding: 10px 8px; border: 1px solid var(--border); border-radius: 6px; }
+  button { font-size: 16px; padding: 10px 18px; background: var(--accent); color: white; border: 0; border-radius: 6px; cursor: pointer; font-weight: 600; }
+  button:disabled { opacity: .6; cursor: progress; }
+  button:hover:not(:disabled) { background: #1e3a8a; }
+  .meta { display: flex; gap: 20px; font-size: 12px; color: var(--muted); margin-top: 12px; flex-wrap: wrap; }
+  .meta span b { color: var(--fg); font-weight: 600; }
+  .examples { margin-top: 8px; font-size: 13px; color: var(--muted); }
+  .examples a { color: var(--accent); text-decoration: none; margin-right: 14px; cursor: pointer; }
+  .examples a:hover { text-decoration: underline; }
+  .results { display: flex; flex-direction: column; gap: 10px; }
+  .result { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; box-shadow: var(--shadow); }
+  .result .top { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+  .rank { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 28px; }
+  .law { font-weight: 600; font-size: 15px; }
+  .art { color: var(--accent); font-weight: 600; font-size: 15px; }
+  .score { margin-left: auto; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .breadcrumb { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .ids { font-size: 11px; color: var(--muted); font-family: ui-monospace, SFMono-Regular, Menlo, monospace; margin-top: 6px; }
+  .ids a { color: var(--accent); text-decoration: none; }
+  .ids a:hover { text-decoration: underline; }
+  .empty, .loading, .err { padding: 30px; text-align: center; color: var(--muted); }
+  .err { color: var(--warn); }
+  footer { text-align: center; padding: 24px; font-size: 12px; color: var(--muted); }
+  kbd { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; background: #f3f4f6; border: 1px solid #d1d5db; border-radius: 3px; padding: 1px 5px; }
+  .phase-pill { display: inline-block; font-size: 10px; padding: 1px 6px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin-left: 6px; vertical-align: middle; }
+</style>
+</head>
+<body>
+<header>
+  <h1>JuriCode-JP 検索プロトタイプ</h1>
+  <div class="sub">日本の法令を AI/LLM 時代に最適化された形で構造化 / Phase 1 完了状態 — プロトタイプ表示</div>
+</header>
+<main>
+  <div class="panel">
+    <form id="searchForm" class="search-row">
+      <input type="text" id="q" placeholder="例: 正当防衛の要件は？" autocomplete="off" autofocus>
+      <input type="number" id="k" value="10" min="1" max="50" title="top-K">
+      <button type="submit" id="searchBtn">検索</button>
+    </form>
+    <div class="examples">
+      例:
+      <a data-q="正当防衛が成立する要件は何か?">正当防衛</a>
+      <a data-q="懲役と禁錮の違いは?">懲役と禁錮</a>
+      <a data-q="警察官が職務質問をできる場合は?">職務質問</a>
+      <a data-q="自治体が条例を制定できる根拠は?">条例制定</a>
+      <a data-q="法人税の課税対象は何か?">法人税の課税対象</a>
+      <a data-q="消費税の納税義務者は誰か?">消費税の納税義務者</a>
+      <a data-q="意思表示の錯誤による取消は?">意思表示の錯誤</a>
+      <a data-q="不法行為に基づく損害賠償の要件は?">不法行為</a>
+    </div>
+    <div class="meta" id="info">読み込み中…</div>
+  </div>
+  <div class="results" id="results"></div>
+</main>
+<footer>
+  JuriCode-JP / 株式会社CHOKAI / MIT License<br>
+  本検索結果は AI による参照支援であり、法的助言ではありません。
+</footer>
+
+<script>
+const $ = (sel) => document.querySelector(sel);
+const resultsEl = $('#results');
+const qEl = $('#q');
+const kEl = $('#k');
+const btn = $('#searchBtn');
+
+async function loadInfo() {
+  try {
+    const r = await fetch('/api/info');
+    const j = await r.json();
+    $('#info').innerHTML =
+      `<span>provider: <b>${j.provider}</b></span>` +
+      `<span>model: <b>${j.model ?? '(none)'}</b></span>` +
+      `<span>次元: <b>${j.dim.toLocaleString()}</b></span>` +
+      `<span>コーパス: <b>${j.corpus_size.toLocaleString()}</b> 件</span>`;
+  } catch (e) {
+    $('#info').textContent = 'info 取得に失敗: ' + e;
+  }
+}
+
+function escHtml(s) {
+  if (s == null) return '';
+  return String(s).replace(/[&<>"']/g, (c) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+function renderResults(data) {
+  if (!data.results || data.results.length === 0) {
+    resultsEl.innerHTML = '<div class="empty">該当する条文が見つかりませんでした。</div>';
+    return;
+  }
+  const html = data.results.map((r) => {
+    const breadcrumb = [r.hen_name_ja, r.shou_name_ja].filter(Boolean).join(' › ');
+    const phase = r.phase_category ? `<span class="phase-pill">${escHtml(r.phase_category)}</span>` : '';
+    return `
+      <div class="result">
+        <div class="top">
+          <div class="rank">#${r.rank}</div>
+          <div class="law">${escHtml(r.law_name_ja || '(不明)')}${phase}</div>
+          <div class="art">第${escHtml(r.article_number || '?')}条</div>
+          <div class="score">cos ${r.score.toFixed(3)}</div>
+        </div>
+        ${breadcrumb ? `<div class="breadcrumb">${escHtml(breadcrumb)}</div>` : ''}
+        <div class="ids">
+          <code>${escHtml(r.article_id)}</code>
+          ${r.source_url ? ` · <a href="${escHtml(r.source_url)}" target="_blank" rel="noopener">e-Gov で開く ↗</a>` : ''}
+        </div>
+      </div>`;
+  }).join('');
+  resultsEl.innerHTML = html;
+}
+
+async function doSearch(q) {
+  if (!q || !q.trim()) return;
+  btn.disabled = true;
+  resultsEl.innerHTML = '<div class="loading">検索中…</div>';
+  try {
+    const k = parseInt(kEl.value, 10) || 10;
+    const r = await fetch(`/api/search?q=${encodeURIComponent(q)}&k=${k}`);
+    const j = await r.json();
+    if (!r.ok) {
+      resultsEl.innerHTML = `<div class="err">エラー: ${escHtml(j.error || r.statusText)}</div>`;
+      return;
+    }
+    renderResults(j);
+  } catch (e) {
+    resultsEl.innerHTML = `<div class="err">通信エラー: ${escHtml(String(e))}</div>`;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+$('#searchForm').addEventListener('submit', (e) => {
+  e.preventDefault();
+  doSearch(qEl.value);
+});
+
+document.querySelectorAll('.examples a[data-q]').forEach((a) => {
+  a.addEventListener('click', (e) => {
+    e.preventDefault();
+    qEl.value = a.dataset.q;
+    doSearch(qEl.value);
+  });
+});
+
+loadInfo();
+</script>
+</body>
+</html>
