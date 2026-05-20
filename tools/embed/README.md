@@ -1,0 +1,98 @@
+# tools/embed/ — Embedding Generation Pipeline
+
+JuriCode-JP の法令データを embedding 化し、RAG retrieval で使える形にするツール群です。
+
+## 目的
+
+`tools/export/lawsy-bq/` が生成する 31 フィールドの NDJSON レコード(条文テキスト + メタデータ)に対して、**文字列ベクトル (embedding)** を付与し、ベクトル類似検索による retrieval を可能にします。
+
+```
+data/phase1-*/<law>/*.md      [JuriCode-JP Markdown]
+        │
+        ▼
+tools/export/lawsy-bq/        [31 フィールド NDJSON]
+        │  + 各レコードに text フィールド
+        ▼
+tools/embed/                  ← このディレクトリ
+        │  + embedding ベクトルを各レコードに追加
+        ▼
+出力 (例: build/juricode-bq-with-embeddings.jsonl)
+        │  各レコードに embedding: [0.123, -0.456, ...] が付与
+        ▼
+BigQuery Vector Search / FAISS / pgvector 等
+```
+
+## 設計方針
+
+### 1. 複数モデル対応
+
+embedding モデルは「正解」がないので、複数の選択肢を CLI フラグで切り替えられる設計とします:
+
+| モデル | 次元 | 想定用途 |
+|---|---|---|
+| OpenAI `text-embedding-3-small` | 1536 | 軽量、コスト効率良い |
+| OpenAI `text-embedding-3-large` | 3072 | 高精度、コスト高 |
+| Cohere `embed-multilingual-v3.0` | 1024 | 日本語含む多言語 |
+| `intfloat/multilingual-e5-large` (HF) | 1024 | OSS、ローカル実行可 |
+| `pkshatech/GLuCoSE-base-ja` (HF) | 768 | 日本語特化 OSS |
+
+### 2. 出力フォーマット
+
+入力 NDJSON の各レコードに `embedding` と `embedding_model` フィールドを追加して出力:
+
+```jsonc
+{
+  // 既存 31 フィールド
+  "article_id": "minpou-art-90",
+  "text": "公の秩序又は善良の風俗に反する...",
+  ...
+  // 新規追加
+  "embedding": [0.123, -0.456, 0.789, ...],  // 数百-数千次元
+  "embedding_model": "text-embedding-3-small",
+  "embedding_generated_at": "2026-05-21T10:30:00Z"
+}
+```
+
+### 3. 生成済みベクトルの配布
+
+生成済みベクトルは**サイズが大きい**(3,772 条 × 1536 次元 × 8 byte ≈ 46 MB)ため、GitHub には含めず別途配布します:
+
+| 配布チャネル | 対象 |
+|---|---|
+| Hugging Face Datasets (`JuriCode-JP/embeddings`) | 主要モデル(OpenAI 3-small, e5-large 等)の生成済みベクトル |
+| GitHub Releases | バージョンタグ付きで rebrand リリース時に同梱 |
+| ローカル生成 | 個別モデル / 機密用途は `tools/embed/` で利用者が再生成 |
+
+### 4. 設定ファイル
+
+```yaml
+# tools/embed/configs/openai-small.yaml
+model_provider: openai
+model_name: text-embedding-3-small
+input_field: text         # NDJSON のどのフィールドを embedding 対象にするか
+batch_size: 100
+rate_limit_rpm: 3000
+output_dim: 1536
+```
+
+## 実装スケジュール (予定)
+
+| ステップ | 内容 | 状態 |
+|---|---|---|
+| 1 | README (本ファイル) | ✅ |
+| 2 | CLI スケルトン (`embed.py`) | 未着手 |
+| 3 | OpenAI provider 実装 | 未着手 |
+| 4 | HuggingFace provider 実装 | 未着手 |
+| 5 | バッチ処理 + retry | 未着手 |
+| 6 | 評価セット (`data/eval-set/`) との連携テスト | 未着手 |
+| 7 | benchmarks/ 結果出力 | 未着手 |
+
+## 関連ファイル
+
+- 評価セット: [`../../data/eval-set/`](../../data/eval-set/)
+- ベンチマーク結果: [`../../benchmarks/`](../../benchmarks/)
+- 上流 NDJSON 生成: [`../export/lawsy-bq/`](../export/lawsy-bq/)
+
+---
+
+*作成: 2026-05-20 / MIT License / 株式会社CHOKAI*

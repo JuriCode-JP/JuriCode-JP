@@ -1,0 +1,2 @@
+# benchmark 結果はこのディレクトリに `YYYY-MM-DD-<run-id>.json` 形式で保存します
+# (`.gitkeep` はディレクトリを git 管理下に置くためのプレースホルダ)
