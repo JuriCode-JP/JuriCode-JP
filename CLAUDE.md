@@ -17,11 +17,11 @@
 
 | Phase | 期間 | 対象 |
 |---|---|---|
-| Phase 1 | 2026-2027 | 警察関連法令(刑法・刑訴法・警察法など) |
-| Phase 2 | 2027-2028 | 民事・商事法令 |
-| Phase 3 | 2028-2030 | 全領域(行政法・税法・労働法など) |
+| Phase 1 | 2026-2027 | 憲法 + 警察関連 + 行政 + 民法 + 税法 (四本柱完成) |
+| Phase 2 | 2027-2028 | 商法・会社法 ほか民事・商事法令 |
+| Phase 3 | 2028-2030 | 全領域(労働法・知財・行政個別法など) |
 
-詳細は `docs/strategy.md` を参照してください。
+2026-05-20 時点で Phase 1 拡大完了: **6,984 条 / 18 法令** 投入済 (Phase 2 の商法・会社法を bulk-ingest 先取り投入を含む). 詳細は `docs/strategy.md` を参照。
 
 ---
 
@@ -48,10 +48,14 @@ JuriCode-JP/
 │   ├── law-frontmatter.schema.json
 │   ├── article.schema.json
 │   └── case-link.schema.json
-├── data/                  # 構造化済み法令データ(本体)
+├── data/                  # 構造化済み法令データ(本体) — 2026-05-20 時点 6,984 条 / 18 法令
 │   ├── README.md
-│   └── phase1-police/     # 警察関連法令(Phase 1)
-│       └── README.md
+│   ├── phase1-foundational/      # 憲法 (103 条)
+│   ├── phase1-police/            # 刑法・刑訴法・警察法・警職法・道交法 (1,473 条)
+│   ├── phase1-administrative/    # 地方自治法・行政手続法・行政不服審査法 (651 条)
+│   ├── phase1-practitioner/      # 民法 (1,165 条)
+│   ├── phase1-tax/               # 国税通則法・法人税法・所得税法・消費税法・相続税法・地方税法 (2,260 条)
+│   └── phase2-commercial/        # 商法・会社法 (1,332 条, Phase 2 先取り)
 ├── examples/              # スキーマを満たすサンプル法令
 │   ├── README.md
 │   └── keihou/            # 刑法のサンプル

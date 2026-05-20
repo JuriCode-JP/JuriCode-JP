@@ -5,7 +5,7 @@
 | Provider | フラグ | API key | コスト | 想定用途 |
 |---|---|---|---|---|
 | `tfidf` (default) | `--provider tfidf` | 不要 | 無料 | 開発・ベースライン |
-| `openai` | `--provider openai` | `OPENAI_API_KEY` | 約 $0.02 (3,772 条) | 本番・NLnet ベンチマーク |
+| `openai` | `--provider openai` | `OPENAI_API_KEY` | 約 $0.02 (6,984 条) | 本番・NLnet ベンチマーク |
 
 将来追加予定:
 - `huggingface-e5` (multilingual-e5-large、OSS、ローカル GPU 推奨)
@@ -76,7 +76,7 @@ $env:OPENAI_API_KEY = "sk-...あなたのキー..."
 pip install openai
 # または uv pip install openai
 
-# 全 3,772 条で embedding 生成
+# 全 6,984 条で embedding 生成
 python tools/embed/embed.py \
     --provider openai \
     --openai-model text-embedding-3-small \
@@ -92,12 +92,12 @@ python tools/embed/retrieve.py \
 
 ### 2.4 コスト見積もり
 
-| モデル | 単価 (per 1M tokens) | 3,772 条のコスト | 評価セット 30 件 | 合計 |
+| モデル | 単価 (per 1M tokens) | 6,984 条のコスト | 評価セット 30 件 | 合計 |
 |---|---|---|---|---|
 | `text-embedding-3-small` | $0.020 | 約 $0.02 | < $0.001 | **約 $0.02** |
 | `text-embedding-3-large` | $0.130 | 約 $0.13 | < $0.001 | 約 $0.13 |
 
-(token 数: 3,772 条 × 平均 255 tokens ≈ 96 万 tokens)
+(token 数: 6,984 条 × 平均 255 tokens ≈ 178 万 tokens)
 
 ### 2.5 期待される改善
 

@@ -101,7 +101,7 @@ relevance ("high" / "medium" / "low") を重み付けして評価する場合に
 
 ## 関連リソース
 
-- データ本体: [`../phase1-*/`](../) (全 3,772 条)
+- データ本体: [`../phase1-*/`](../), [`../phase2-*/`](../) (全 6,984 条 / 18 法令)
 - RAG 出力ツール: [`../../tools/export/lawsy-bq/`](../../tools/export/lawsy-bq/)
 - embedding 生成: [`../../tools/embed/`](../../tools/embed/) (整備中)
 - ベンチマーク結果: [`../../benchmarks/`](../../benchmarks/) (整備中)
