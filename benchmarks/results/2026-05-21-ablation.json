@@ -1,0 +1,88 @@
+{
+  "run_id": "ablation-20260521-144924",
+  "date": "2026-05-21",
+  "eval_set_paths": [
+    "data\\eval-set\\police.jsonl",
+    "data\\eval-set\\municipal.jsonl",
+    "data\\eval-set\\practitioner.jsonl",
+    "data\\eval-set\\tax.jsonl",
+    "data\\eval-set\\lawqa-jp\\commercial-kinsho.jsonl",
+    "data\\eval-set\\lawqa-jp\\pharma.jsonl",
+    "data\\eval-set\\lawqa-jp\\real-estate.jsonl",
+    "data\\eval-set\\municipal-extended\\governance.jsonl",
+    "data\\eval-set\\municipal-extended\\admin-procedure.jsonl",
+    "data\\eval-set\\municipal-extended\\admin-appeals.jsonl",
+    "data\\eval-set\\municipal-extended\\records-disclosure.jsonl",
+    "data\\eval-set\\municipal-extended\\personal-info.jsonl",
+    "data\\eval-set\\municipal-extended\\civil-service.jsonl",
+    "data\\eval-set\\municipal-extended\\digital-society.jsonl"
+  ],
+  "embedded": "build\\juricode-bq-11760-embedded",
+  "bm25_corpus": "build\\juricode-bq-11760.jsonl",
+  "results": [
+    {
+      "label": "baseline",
+      "settings": {
+        "normalize_query": false,
+        "hybrid_bm25": false,
+        "rrf_k": null
+      },
+      "n_queries": 172,
+      "recall_at_1": 0.593,
+      "recall_at_3": 0.727,
+      "recall_at_10": 0.7909999999999999,
+      "mrr": 0.661,
+      "recall_at_1_count": 102,
+      "recall_at_3_count": 125,
+      "recall_at_10_count": 136
+    },
+    {
+      "label": "normalize-query",
+      "settings": {
+        "normalize_query": true,
+        "hybrid_bm25": false,
+        "rrf_k": null
+      },
+      "n_queries": 172,
+      "recall_at_1": 0.599,
+      "recall_at_3": 0.733,
+      "recall_at_10": 0.785,
+      "mrr": 0.666,
+      "recall_at_1_count": 103,
+      "recall_at_3_count": 126,
+      "recall_at_10_count": 135
+    },
+    {
+      "label": "hybrid-bm25",
+      "settings": {
+        "normalize_query": false,
+        "hybrid_bm25": true,
+        "rrf_k": 60
+      },
+      "n_queries": 172,
+      "recall_at_1": 0.39,
+      "recall_at_3": 0.581,
+      "recall_at_10": 0.762,
+      "mrr": 0.509,
+      "recall_at_1_count": 67,
+      "recall_at_3_count": 100,
+      "recall_at_10_count": 131
+    },
+    {
+      "label": "normalize+hybrid",
+      "settings": {
+        "normalize_query": true,
+        "hybrid_bm25": true,
+        "rrf_k": 60
+      },
+      "n_queries": 172,
+      "recall_at_1": 0.395,
+      "recall_at_3": 0.605,
+      "recall_at_10": 0.7559999999999999,
+      "mrr": 0.515,
+      "recall_at_1_count": 68,
+      "recall_at_3_count": 104,
+      "recall_at_10_count": 130
+    }
+  ]
+}

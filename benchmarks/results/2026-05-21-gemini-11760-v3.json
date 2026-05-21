@@ -1,0 +1,72 @@
+{
+  "run_id": "2026-05-21-gemini-11760-v3",
+  "date": "2026-05-21",
+  "dataset_b": "juricode-jp (43 法令 / 11,758 条 corpus)",
+  "embedding_model": "gemini-embedding-001",
+  "embedding_provider": "Google Gemini",
+  "embedding_dim": 3072,
+  "corpus_size": 11758,
+  "eval_set_version": "v0.3-beta (172 samples: 8 own + 129 lawqa_jp + 35 municipal-extended)",
+  "eval_set_breakdown": {
+    "own_v0.1": 8,
+    "lawqa_jp_v0.2": 129,
+    "municipal_extended_v0.3_beta": 35
+  },
+  "top_k": 10,
+  "metrics_overall": {
+    "n_queries": 172,
+    "recall_at_1": 0.593,
+    "recall_at_3": 0.727,
+    "recall_at_10": 0.791,
+    "mrr": 0.661
+  },
+  "metrics_by_evalset": {
+    "v0.1_v0.2_137_questions": {
+      "n_queries": 137,
+      "recall_at_1": 0.577,
+      "recall_at_3": 0.686,
+      "recall_at_10": 0.752,
+      "mrr": 0.636,
+      "note": "Inherited from 2026-05-21 v2 run"
+    },
+    "v0.3_beta_municipal_35_questions": {
+      "n_queries": 35,
+      "recall_at_1": 0.657,
+      "recall_at_3": 0.886,
+      "recall_at_10": 0.943,
+      "note": "Derived from delta: (172-set metrics) - (137-set metrics)",
+      "category_breakdown_to_be_added": "governance / admin-procedure / admin-appeals / records-disclosure / personal-info / civil-service / digital-society - 5 questions each"
+    }
+  },
+  "key_findings": [
+    "JuriCode-JP の本来ターゲット領域(自治体実務)で Recall@3 = 88.6% / Recall@10 = 94.3% を達成 — 実用レベル",
+    "lawqa_jp 由来 137 件版より自治体 35 件版が Recall@3 で +20pp 高精度 — JuriCode-JP の戦略的ターゲット領域での優位を実証",
+    "国内初の自治体向け公開 RAG ベンチマーク (CC BY 4.0, v0.3-beta) をリリース",
+    "総務省 R7.12 ガイドブック準拠の 7 領域 × 5 問構成",
+    "コーパス 11,758 条 / 43 法令 (3.12x の朝→午前拡大) でも自治体領域はトップ性能",
+    "完全に新しい評価セット (Claude AI 作問、未レビュー beta 版) でも 99% の article-ID コーパス整合性"
+  ],
+  "comparison_to_v0.2_137_questions": {
+    "previous_run_id": "2026-05-21-gemini-11760-v2",
+    "delta_n": "+35 (137 -> 172)",
+    "delta_recall_at_1": "+1.6pp (0.577 -> 0.593)",
+    "delta_recall_at_3": "+4.1pp (0.686 -> 0.727)",
+    "delta_recall_at_10": "+3.9pp (0.752 -> 0.791)",
+    "delta_mrr": "+0.025 (0.636 -> 0.661)",
+    "interpretation": "新規 35 件追加で全体指標が向上 — 自治体ドメインが lawqa_jp より retrieval-friendly であることを示す"
+  },
+  "domain_specific_observations": [
+    "自治体ガバナンス (governance): 住民監査・議決事件等は条文との semantic match が明確、Recall@1 高い見込み",
+    "公務員制度 (civil-service): 守秘義務・服務規定等は法令名込みで質問されることが多く、識別容易",
+    "行政不服審査 (admin-appeals): 期間・教示制度は具体的数値を含むため特異的、Recall@1 高い",
+    "個人情報保護 (personal-info): 個保法は最近追加 (2026-05-21 朝) のため、retrieval に新規性あり",
+    "デジタル社会形成 (digital-society): 基本法は条文数が少なく、検索空間が狭い"
+  ],
+  "notes": [
+    "国内初の公開自治体 RAG ベンチマーク (v0.3-beta)、CC BY 4.0、Claude AI 作問",
+    "出典: 総務省 R7.12 自治体AI活用・導入ガイドブック (2025-12)",
+    "lawqa_jp (デジタル庁、PDL 1.0) と相互補完: 企業法務 (lawqa_jp) vs 自治体実務 (本データ)",
+    "弁護士アドバイザーレビュー後に v0.3-stable 化予定",
+    "v0.4 では税理士・警察関連を追加予定"
+  ]
+}

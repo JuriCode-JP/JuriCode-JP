@@ -1,0 +1,109 @@
+Run: 2026-05-21-gemini-8022
+Date: 2026-05-21
+Corpus: juricode-jp (Phase 1 expanded 2nd wave + Phase 2 preview + Phase 3 preview)
+  - corpus_size: 8,022 articles across 30 statutes
+  - phase1-foundational: 103
+  - phase1-police: 1,636
+  - phase1-administrative: 1,227
+  - phase1-practitioner: 1,165
+  - phase1-tax: 2,260
+  - phase2-commercial: 1,509
+  - phase3-labor: 122
+Embedding: gemini-embedding-001, dim=3,072, provider=Gemini
+Saved .npy: build/juricode-bq-8022-embedded.npy (94.0 MB)
+
+Corpus: 8,022 record(s), dim 3,072, provider=gemini model=gemini-embedding-001
+Queries: 8
+
+=== eval-police-001: 正当防衛が成立する要件は何か?
+   expected: ['keihou-art-36']
+   first match rank: 1
+   [1] keihou-art-36                                    0.697  刑法 第36条 OK
+   [2] minpou-art-720                                   0.670  民法 第720条
+   [3] keisatsukan-shokumu-shikkou-hou-art-7            0.658  警察官職務執行法 第7条
+   [4] keihou-art-37                                    0.654  刑法 第37条
+   [5] keiji-soshou-hou-art-337                         0.640  刑事訴訟法 第337条
+
+=== eval-police-002: 職務質問はどのような場合に行うことができるか?
+   expected: ['keisatsukan-shokumu-shikkou-hou-art-2']
+   first match rank: 1
+   [1] keisatsukan-shokumu-shikkou-hou-art-2            0.709  警察官職務執行法 第2条 OK
+   [2] roudou-kijun-hou-art-101                         0.705  労働基準法 第101条       ← 5/21 新規追加が distractor として #2 に
+   [3] kokuzei-tsuusoku-hou-art-131                     0.696  国税通則法 第131条
+   [4] chihou-zei-hou-art-22-3                          0.695  地方税法 第22-3条
+   [5] kokuzei-tsuusoku-hou-art-74-13                   0.694  国税通則法 第74-13条
+
+=== eval-municipal-001: 住民監査請求はどのような手続きで行うのか?
+   expected: ['chihou-jichi-hou-art-242']
+   first match rank: 2
+   [1] chihou-jichi-hou-art-75                          0.792  地方自治法 第75条
+   [2] chihou-jichi-hou-art-242                         0.784  地方自治法 第242条 OK
+   [3] chihou-jichi-hou-art-252-43                      0.764  地方自治法 第252-43条
+   [4] chihou-jichi-hou-art-242-2                       0.741  地方自治法 第242-2条
+   [5] chihou-jichi-hou-art-12                          0.737  地方自治法 第12条
+
+=== eval-municipal-002: 行政不服審査の請求期間はどれくらいか?
+   expected: ['gyousei-fufuku-shinsa-hou-art-18']
+   first match rank: 2
+   [1] kokuzei-tsuusoku-hou-art-77                      0.766  国税通則法 第77条
+   [2] gyousei-fufuku-shinsa-hou-art-18                 0.758  行政不服審査法 第18条 OK
+   [3] kokka-koumuin-hou-art-90-2                       0.757  国家公務員法 第90-2条     ← 5/21 新規追加が distractor として #3 に
+   [4] chihou-koumuin-hou-art-49-3                      0.757  地方公務員法 第49-3条     ← 5/21 新規追加が distractor として #4 に
+   [5] gyousei-fufuku-shinsa-hou-art-2                  0.746  行政不服審査法 第2条
+
+=== eval-practitioner-001: 契約を解除すると、解除前に行った給付はどうなるか?
+   expected: ['minpou-art-545']
+   first match rank: 1
+   [1] minpou-art-545                                   0.757  民法 第545条 OK
+   [2] minpou-art-557                                   0.755  民法 第557条
+   [3] minpou-art-425-3                                 0.742  民法 第425-3条
+   [4] minpou-art-425-2                                 0.732  民法 第425-2条
+   [5] minpou-art-550                                   0.724  民法 第550条
+
+=== eval-practitioner-002: 公序良俗に反する契約はどうなるか?
+   expected: ['minpou-art-90']
+   first match rank: 1
+   [1] minpou-art-90                                    0.771  民法 第90条 OK
+   [2] minpou-art-132                                   0.706  民法 第132条
+   [3] minpou-art-92                                    0.692  民法 第92条
+   [4] minpou-art-91                                    0.688  民法 第91条
+   [5] minpou-art-412-2                                 0.684  民法 第412-2条
+
+=== eval-tax-001: 納税申告に誤りがあった場合、納税者が自ら正すための手続きは?
+   expected: ['kokuzei-tsuusoku-hou-art-23']
+   first match rank: 1
+   [1] kokuzei-tsuusoku-hou-art-23                      0.740  国税通則法 第23条 OK
+   [2] kokuzei-tsuusoku-hou-art-19                      0.738  国税通則法 第19条
+   [3] chihou-zei-hou-art-20-9-3                        0.734  地方税法 第20-9-3条
+   [4] shotoku-zei-hou-art-153                          0.730  所得税法 第153条
+   [5] shotoku-zei-hou-art-152                          0.728  所得税法 第152条
+
+=== eval-tax-002: 給与所得の金額はどのように計算するか?
+   expected: ['shotoku-zei-hou-art-28']
+   first match rank: 1
+   [1] shotoku-zei-hou-art-28                           0.769  所得税法 第28条 OK
+   [2] houjin-zei-hou-art-34                            0.716  法人税法 第34条
+   [3] shotoku-zei-hou-art-185                          0.711  所得税法 第185条
+   [4] shotoku-zei-hou-art-30                           0.708  所得税法 第30条
+   [5] shotoku-zei-hou-art-186                          0.708  所得税法 第186条
+
+=== Aggregate metrics ===
+  N (queries)  : 8
+  Recall@1     : 6/8 = 75.0%
+  Recall@3     : 8/8 = 100.0%
+  Recall@10    : 8/8 = 100.0%
+  MRR          : 0.875
+
+=== Comparison ===
+                       3,772 (5/20 朝)  6,984 (5/20 夜)  8,022 (5/21)
+  corpus growth ratio  1.00x            1.85x            2.13x
+  Recall@1             75.0%            75.0%            75.0%   ← 不変
+  Recall@3             100.0%           100.0%           100.0%  ← 不変 ★
+  Recall@10            100.0%           100.0%           100.0%  ← 不変
+  MRR                  0.875            0.875            0.875   ← 不変
+
+Conclusion: 2.13x corpus scale-up に対して全 4 指標完全維持。
+新規 1,040 条が distractor として top-5 内に登場(roudou-kijun-hou-art-101,
+kokka-koumuin-hou-art-90-2, chihou-koumuin-hou-art-49-3)ことから、embedding
+モデルが新コーパスを「無視」したのではなく、適切に類似度計算した上で正解
+を維持していることが確認できる。

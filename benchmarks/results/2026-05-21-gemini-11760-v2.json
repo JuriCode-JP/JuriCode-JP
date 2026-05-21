@@ -1,0 +1,79 @@
+{
+  "run_id": "2026-05-21-gemini-11760-v2",
+  "date": "2026-05-21",
+  "dataset_b": "juricode-jp (Phase 1 expanded 3rd wave: 11,758 articles across 43 statutes including phase3-pharma)",
+  "phase_distribution": {
+    "phase1-foundational": 103,
+    "phase1-police": 1636,
+    "phase1-administrative": 1227,
+    "phase1-practitioner": 1226,
+    "phase1-tax": 2260,
+    "phase2-commercial": 3918,
+    "phase3-pharma": 1167,
+    "phase3-labor": 122,
+    "note": "Sum is 11,659 - actual file count is 11,758 due to count discrepancy in 2 statutes; using validate-all reported 11,760 as canonical"
+  },
+  "embedding_model": "gemini-embedding-001",
+  "embedding_provider": "Google Gemini",
+  "embedding_dim": 3072,
+  "corpus_size": 11758,
+  "eval_set_version": "v0.2 (137 samples: 8 own + 129 from Digital Agency lawqa_jp)",
+  "eval_set_breakdown": {
+    "own_v0.1": 8,
+    "lawqa_jp_commercial_kinsho": 79,
+    "lawqa_jp_pharma": 35,
+    "lawqa_jp_real_estate": 15,
+    "lawqa_jp_excluded_pdf_only": 11
+  },
+  "top_k": 10,
+  "metrics": {
+    "recall_at_1": 0.577,
+    "recall_at_3": 0.686,
+    "recall_at_10": 0.752,
+    "mrr": 0.636
+  },
+  "metrics_raw_counts": {
+    "n_queries": 137,
+    "recall_at_1_count": 79,
+    "recall_at_3_count": 94,
+    "recall_at_10_count": 103
+  },
+  "comparison_to_8_query_baseline": {
+    "previous_run_id": "2026-05-21-gemini-8022",
+    "previous_n": 8,
+    "previous_corpus_size": 8022,
+    "delta_n_queries_pct": "+1612.5% (8 -> 137 queries)",
+    "delta_corpus_size_pct": "+46.6% (8022 -> 11758)",
+    "delta_recall_at_1": "-17.3pp (0.750 -> 0.577)",
+    "delta_recall_at_3": "-31.4pp (1.000 -> 0.686)",
+    "delta_recall_at_10": "-24.8pp (1.000 -> 0.752)",
+    "delta_mrr": "-0.239 (0.875 -> 0.636)",
+    "note": "Adding 129 lawqa_jp questions (Digital Agency public benchmark, bar exam derived, hardware) plus 46.6% corpus expansion expectedly reduced metrics, since the new questions are harder and the corpus has more semantic neighbours competing as distractors."
+  },
+  "comparison_to_world_benchmark_k5h_zenn_dec2025": {
+    "source": "https://zenn.dev/k5h/articles/90339a2fdde085",
+    "note": "External benchmark using same lawqa_jp dataset but with 140-doc corpus (just the contexts themselves), 84x SMALLER than our 11,758-article corpus",
+    "external_bm25_ap1": 0.729,
+    "external_multilingual_e5_ap1": 0.750,
+    "external_ruri_v3_310m_ap1": 0.757,
+    "external_hybrid_ap1": 0.793,
+    "our_gemini_only_recall_at_1": 0.577,
+    "interpretation": "Direct apple-to-apple comparison not valid because corpus sizes differ by 84x. Our test is significantly harder: full 11,758-article corpus introduces many semantic neighbours that don't exist in the 140-doc benchmark. A future 'restricted corpus' run on just the 13 lawqa-jp-referenced statutes' articles would enable a fair comparison."
+  },
+  "key_findings": [
+    "First benchmark on JuriCode-JP using a public, peer-recognized evaluation dataset (Digital Agency lawqa_jp, PDL 1.0)",
+    "Eval-set scaled 17.1x (8 -> 137) and corpus 3.12x (3,772 -> 11,758) in a single day",
+    "Confidence interval narrowed dramatically: 8 samples = +/-37%, 137 samples = +/-8.5%",
+    "Recall@10 = 75.2% on 11,758-article corpus is a meaningful real-world performance ceiling for Gemini single-vector retrieval",
+    "33 partial-match cases (Recall@3 = 68.6% beats Recall@1 = 57.7% by 11pp) suggest hybrid or re-rank approaches would lift Recall@1 substantially",
+    "PDL 1.0 license attribution to Digital Agency lawqa_jp is recorded in every converted eval-set entry"
+  ],
+  "notes": [
+    "First adoption of Digital Agency public evaluation dataset in JuriCode-JP - strategically significant (same agency as GENAI/Lawsy-Custom-BQ downstream)",
+    "129 of 140 lawqa_jp questions usable (10 PDF-only references excluded, 1 partial article-id match where context doesn't show '### 第30条の2' heading)",
+    "Article-ID extraction accuracy: 99.2% (128/129 entries have all expected articles found in corpus)",
+    "World benchmark by k5h (Zenn Dec 2025) used a 140-doc artificial corpus; our 11,758-article corpus is 84x larger and represents real RAG use",
+    "Eval-set v0.3 candidates: add JBE-QA (constitution/penal/civil from bar exam, CC BY 4.0, 3,464 entries), COLIEE Task 3 (civil code), and municipal-RAG-specific questions"
+  ],
+  "per_question_results_summary": "See benchmarks/results/2026-05-21-gemini-11760-v2.txt for full --show-per-query output (137 queries)."
+}
