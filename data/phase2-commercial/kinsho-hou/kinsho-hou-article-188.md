@@ -1,0 +1,35 @@
+---
+law_id: 323AC0000000025
+law_name_ja: 金融商品取引法
+law_name_en: (English name pending)
+article_number: '188'
+article_id: kinsho-hou-art-188
+version_date: '1948-04-13'
+source_url: https://laws.e-gov.go.jp/law/323AC0000000025
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 7
+  shou_name_ja: 第七章　雑則
+---
+
+# 金融商品取引法 第188条(（金融商品取引業者の業務等に関する書類の作成、保存及び報告の義務）)
+
+## 原文 (日本語)
+
+### 第百八十八条
+
+金融商品取引業者等、指定親会社、特例業務届出者、海外投資家等特例業務届出者、金融商品仲介業者、信用格付業者、高速取引行為者、投資運用関係業務受託業者、認可金融商品取引業協会、第七十八条第二項に規定する認定金融商品取引業協会、投資者保護基金、金融商品取引所若しくはその会員等、第八十五条第一項に規定する自主規制法人、金融商品取引所持株会社、外国金融商品取引所若しくはその外国金融商品取引所参加者、金融商品取引清算機関若しくはその清算参加者、外国金融商品取引清算機関若しくはその清算参加者、証券金融会社、第百五十六条の三十八第一項に規定する指定紛争解決機関、取引情報蓄積機関又は特定金融指標算出者は、別にこの法律で定める場合のほか、内閣府令（投資者保護基金については、内閣府令・財務省令）で定めるところにより、帳簿、計算書、通信文、伝票その他業務に関する書類を作成し、これを保存し、又は業務に関する報告を提出しなければならない。

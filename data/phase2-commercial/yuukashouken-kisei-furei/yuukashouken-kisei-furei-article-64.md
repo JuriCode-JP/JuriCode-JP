@@ -1,0 +1,35 @@
+---
+law_id: 419M60000002059
+law_name_ja: 有価証券の取引等の規制に関する内閣府令
+law_name_en: (English name pending)
+article_number: '64'
+article_id: yuukashouken-kisei-furei-art-64
+version_date: '2007-08-08'
+source_url: https://laws.e-gov.go.jp/law/419M60000002059
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 8
+  shou_name_ja: 第八章　不特定多数者向け勧誘等を行う際の表示
+---
+
+# 有価証券の取引等の規制に関する内閣府令 第64条(（有利買付け等の表示禁止の適用除外）)
+
+## 原文 (日本語)
+
+### 第六十四条
+
+法第百七十条に規定する内閣府令で定める有価証券は、次に掲げるものとする。

@@ -1,0 +1,35 @@
+---
+law_id: 420M60000002078
+law_name_ja: 証券情報等の提供又は公表に関する内閣府令
+law_name_en: (English name pending)
+article_number: '16'
+article_id: shouken-jouhou-furei-art-16
+version_date: '2008-12-05'
+source_url: https://laws.e-gov.go.jp/law/420M60000002078
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　外国証券情報の提供又は公表
+---
+
+# 証券情報等の提供又は公表に関する内閣府令 第16条(（投資者保護に欠けることがないものとして認められる場合）)
+
+## 原文 (日本語)
+
+### 第十六条
+
+法第二十七条の三十二の二第二項ただし書に規定する内閣府令で定める場合は、次の各号に掲げる場合とする。

@@ -1,0 +1,77 @@
+---
+law_id: 340CO0000000321
+law_name_ja: 金融商品取引法施行令
+law_name_en: (English name pending)
+article_number: 14-3-4
+article_id: kinsho-hou-shikkourei-art-14-3-4
+version_date: '1965-09-30'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000321
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　公開買付けに関する開示
+  setsu: 2
+  setsu_name_ja: 第二節　発行者による上場株券等の公開買付け
+---
+
+# 金融商品取引法施行令 第14-3-4条(（公開買付開始公告等）)
+
+## 原文 (日本語)
+
+### 第十四条の三の四第一項
+
+法第二十七条の二十二の二第二項において準用する法第二十七条の三第一項、第二十七条の六第二項、第二十七条の八第十一項、第二十七条の十一第二項及び第二十七条の十三第一項の規定による公告は、次のいずれかの方法によりしなければならない。
+
+### 第十四条の三の四第二項
+
+前項の公告のうち法第二十七条の二十二の二第二項において準用する法第二十七条の八第十一項本文の規定によるものは、同項の訂正届出書を提出した後直ちにしなければならない。
+
+### 第十四条の三の四第三項
+
+第一項の規定により電子公告による公告をする者は、内閣府令で定めるところにより、当該公告をした後遅滞なく、当該公告をした旨を、時事に関する事項を掲載する日刊新聞紙に掲載しなければならない。
+
+### 第十四条の三の四第四項
+
+第一項の規定により電子公告による公告をする者は、次の各号に掲げる公告の区分に応じ、当該各号に定める日までの間、継続して電子公告をしなければならない。
+
+### 第十四条の三の四第五項
+
+第四条の二の四第三項及び第四項の規定は、第一項の規定により電子公告による公告をする者について準用する。この場合において、同条第三項中「同項第二号」とあるのは「第十四条の三の四第一項第二号」と、同条第四項中「第二項」とあるのは「第十四条の三の四第四項」と読み替えるものとする。
+
+### 第十四条の三の四第六項
+
+第九条の四の規定は、法第二十七条の二十二の二第二項において準用する法第二十七条の十三第一項の規定による公表について準用する。

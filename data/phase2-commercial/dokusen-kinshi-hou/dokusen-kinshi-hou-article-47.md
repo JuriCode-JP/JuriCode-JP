@@ -1,0 +1,61 @@
+---
+law_id: 322AC0000000054
+law_name_ja: 昭和二十二年法律第五十四号（私的独占の禁止及び公正取引の確保に関する法律）
+law_name_en: (English name pending)
+article_number: '47'
+article_id: dokusen-kinshi-hou-art-47
+version_date: '1947-04-14'
+source_url: https://laws.e-gov.go.jp/law/322AC0000000054
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 8
+  shou_name_ja: 第八章　公正取引委員会
+  setsu: 2
+  setsu_name_ja: 第二節　手続
+---
+
+# 昭和二十二年法律第五十四号（私的独占の禁止及び公正取引の確保に関する法律） 第47条
+
+## 原文 (日本語)
+
+### 第四十七条第一項
+
+公正取引委員会は、事件について必要な調査をするため、次に掲げる処分をすることができる。
+
+### 第四十七条第二項
+
+公正取引委員会が相当と認めるときは、政令で定めるところにより、公正取引委員会の職員を審査官に指定し、前項の処分をさせることができる。
+
+### 第四十七条第三項
+
+前項の規定により職員に立入検査をさせる場合においては、これに身分を示す証明書を携帯させ、関係者に提示させなければならない。
+
+### 第四十七条第四項
+
+第一項の規定による処分の権限は、犯罪捜査のために認められたものと解釈してはならない。

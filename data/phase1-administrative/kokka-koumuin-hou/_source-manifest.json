@@ -1,0 +1,1490 @@
+{
+  "schema_version": "1.0",
+  "law_id": "322AC0000000120",
+  "law_name_ja": "国家公務員法",
+  "law_abbrev": "kokka-koumuin-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/322AC0000000120",
+  "source_xml_path": "cache\\laws\\322AC0000000120.xml",
+  "source_xml_sha256": "fca8d6b359890ed48a05333557061d975d148a861d24340f0eb3397b39310ee3",
+  "source_xml_bytes": 667877,
+  "source_fetched_at": "2026-05-21",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-21T02:23:05+00:00",
+  "version_date": "1947-10-21",
+  "article_count": 184,
+  "articles": [
+    {
+      "article_id": "kokka-koumuin-hou-art-1",
+      "article_number": "1",
+      "filename": "kokka-koumuin-hou-article-1.md",
+      "ja_text_sha256": "469977a8604620d4841899e5e13937278cd47d4833a9d18c038d56da9b3d7851",
+      "ja_text_bytes": 1349,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-2",
+      "article_number": "2",
+      "filename": "kokka-koumuin-hou-article-2.md",
+      "ja_text_sha256": "6a5253bb71bea4872416963295cb4399a9798efcd6da482a6af9ee5ab98a3cb5",
+      "ja_text_bytes": 1068,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-3",
+      "article_number": "3",
+      "filename": "kokka-koumuin-hou-article-3.md",
+      "ja_text_sha256": "99bf554453dd14a9df3389efbb5ed9734d6774825df33b167699f40092cea7bf",
+      "ja_text_bytes": 1836,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-3-2",
+      "article_number": "3-2",
+      "filename": "kokka-koumuin-hou-article-3-2.md",
+      "ja_text_sha256": "59ec57f9ad5e67ea8c0b3281e7d14081740a0c491f1de7052e5a48bca7ca46b7",
+      "ja_text_bytes": 362,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-4",
+      "article_number": "4",
+      "filename": "kokka-koumuin-hou-article-4.md",
+      "ja_text_sha256": "2b1406221be6c49678235051f0f189da67a22bee139b44ff2070d47c98f00186",
+      "ja_text_bytes": 435,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-5",
+      "article_number": "5",
+      "filename": "kokka-koumuin-hou-article-5.md",
+      "ja_text_sha256": "ccaf31d7fa9d6d8a7d28fbce9d5b167c7e143d62812fb6da3974db2c02a8f6db",
+      "ja_text_bytes": 1001,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-6",
+      "article_number": "6",
+      "filename": "kokka-koumuin-hou-article-6.md",
+      "ja_text_sha256": "c0aa1ac5903655d1946a8003de90b5c977922d253753fe4135edee5df3104b19",
+      "ja_text_bytes": 281,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-7",
+      "article_number": "7",
+      "filename": "kokka-koumuin-hou-article-7.md",
+      "ja_text_sha256": "c6f9ca51b01e7e4cda619ea6c433ca3505af86d4cf083ccb1d88c7e81e1dfee2",
+      "ja_text_bytes": 391,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-8",
+      "article_number": "8",
+      "filename": "kokka-koumuin-hou-article-8.md",
+      "ja_text_sha256": "5e3daa0b1f3463c32d3ca3d2c050b981fe8f6090c11648ab71722326bfd2e3bc",
+      "ja_text_bytes": 576,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-9",
+      "article_number": "9",
+      "filename": "kokka-koumuin-hou-article-9.md",
+      "ja_text_sha256": "e00153036ad0f5d7cd316bb26cf4ccb7a3211865ce9df3b87859ebcf08a926ec",
+      "ja_text_bytes": 906,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-10",
+      "article_number": "10",
+      "filename": "kokka-koumuin-hou-article-10.md",
+      "ja_text_sha256": "c12ef0425810f3d08578a5ae9d7fcccc805511ad6879cc14f0ff47f7baa60903",
+      "ja_text_bytes": 51,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-11",
+      "article_number": "11",
+      "filename": "kokka-koumuin-hou-article-11.md",
+      "ja_text_sha256": "5f9e6eed26ee32224eacc3fd9d0e05511d7bc619e9792527c652c497b4b9e7d9",
+      "ja_text_bytes": 292,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-12",
+      "article_number": "12",
+      "filename": "kokka-koumuin-hou-article-12.md",
+      "ja_text_sha256": "7f6b2c760b86aa551f3cb68ffe9ead1e95aa23eea461f05af212cce3e3d32f60",
+      "ja_text_bytes": 658,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-13",
+      "article_number": "13",
+      "filename": "kokka-koumuin-hou-article-13.md",
+      "ja_text_sha256": "a74aaf6b74fa9bc74cf524e03aa8a4054c38770ae793243e791043a006a4e7d8",
+      "ja_text_bytes": 959,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-14",
+      "article_number": "14",
+      "filename": "kokka-koumuin-hou-article-14.md",
+      "ja_text_sha256": "7ee1ae4dde0f549c89c623bc2a6a9cbca4863ade88eb063f48a77b352c81017e",
+      "ja_text_bytes": 303,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-15",
+      "article_number": "15",
+      "filename": "kokka-koumuin-hou-article-15.md",
+      "ja_text_sha256": "2127c9ac0e9c8aab58e009ac41d2611be1e35c410dacadab6cbe6987911878fc",
+      "ja_text_bytes": 75,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-16",
+      "article_number": "16",
+      "filename": "kokka-koumuin-hou-article-16.md",
+      "ja_text_sha256": "c64fdabb060d8d62a27d14ec27b8cda4d8e713a782dd2b63aefb929190475d3b",
+      "ja_text_bytes": 538,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-17",
+      "article_number": "17",
+      "filename": "kokka-koumuin-hou-article-17.md",
+      "ja_text_sha256": "a21ad153597804124ff8373bb02238bff5b06a51b47f6ec9f5a7ba3aef7e9bea",
+      "ja_text_bytes": 1235,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-17-2",
+      "article_number": "17-2",
+      "filename": "kokka-koumuin-hou-article-17-2.md",
+      "ja_text_sha256": "2b6519d77d24f005cbb4e5276106b82fcce262515811d9ccb66947f9d7d22ff6",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-18",
+      "article_number": "18",
+      "filename": "kokka-koumuin-hou-article-18.md",
+      "ja_text_sha256": "0dff1e0da3ae8c3e33a380ce7efdd10288a195d75245a716d75c3260cca7714c",
+      "ja_text_bytes": 191,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-18-2",
+      "article_number": "18-2",
+      "filename": "kokka-koumuin-hou-article-18-2.md",
+      "ja_text_sha256": "8aaf1f967ab5be9bc0007523793ac40459f586995ab680e834a0dce8d7500d22",
+      "ja_text_bytes": 1538,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-18-3",
+      "article_number": "18-3",
+      "filename": "kokka-koumuin-hou-article-18-3.md",
+      "ja_text_sha256": "d8d34d8fbd3ca2012620b7c08954efe2a5b03231937b2c0e7256150b3e418b83",
+      "ja_text_bytes": 1130,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-18-4",
+      "article_number": "18-4",
+      "filename": "kokka-koumuin-hou-article-18-4.md",
+      "ja_text_sha256": "a1e01959003bd5fc5989a9ac95e02b320466e39d9e21b315ecdbccb674195f7a",
+      "ja_text_bytes": 102,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-18-5",
+      "article_number": "18-5",
+      "filename": "kokka-koumuin-hou-article-18-5.md",
+      "ja_text_sha256": "4afc0e45574758d7da562c76d271a7f839d68417b146db79ba0c7ca111329485",
+      "ja_text_bytes": 620,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-18-6",
+      "article_number": "18-6",
+      "filename": "kokka-koumuin-hou-article-18-6.md",
+      "ja_text_sha256": "a7c5012cc2eb7b08b2efe1ef3b73b83f5574faa2f5b2a4d171116886c9e2998c",
+      "ja_text_bytes": 251,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-18-7",
+      "article_number": "18-7",
+      "filename": "kokka-koumuin-hou-article-18-7.md",
+      "ja_text_sha256": "29da773a7aed4b799070b773479de0da6e585d9990995b1d10ba2316c7175a19",
+      "ja_text_bytes": 1341,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-19",
+      "article_number": "19",
+      "filename": "kokka-koumuin-hou-article-19.md",
+      "ja_text_sha256": "e0805ffe56703bc3e2313221a4bc4e06ab0dc686ac48a48fa866d944a1e5343a",
+      "ja_text_bytes": 726,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-20",
+      "article_number": "20",
+      "filename": "kokka-koumuin-hou-article-20.md",
+      "ja_text_sha256": "f74dc1c50ecab822ba7c7b778bd51ca898deb9b5b1c696683ba20ee42f38037d",
+      "ja_text_bytes": 368,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-21",
+      "article_number": "21",
+      "filename": "kokka-koumuin-hou-article-21.md",
+      "ja_text_sha256": "effde89821f9b62fe5cb584ed5a01f909b827dc63f10cb91b42445831c7d2861",
+      "ja_text_bytes": 363,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-22",
+      "article_number": "22",
+      "filename": "kokka-koumuin-hou-article-22.md",
+      "ja_text_sha256": "ef7ab6daa31eb8d46a3e3f92fed9185d3c7b61740ee3c4e7a424013de0272a96",
+      "ja_text_bytes": 227,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-23",
+      "article_number": "23",
+      "filename": "kokka-koumuin-hou-article-23.md",
+      "ja_text_sha256": "7e4086b4c4cdbfb472ec73aa9df77be1649c157ca30de128f6a2c29c985841e6",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-23-2",
+      "article_number": "23-2",
+      "filename": "kokka-koumuin-hou-article-23-2.md",
+      "ja_text_sha256": "9ba1940ca8eb5eb36fd50738e3a6e6124d236ff41e17fa6bfc81602c611c35b3",
+      "ja_text_bytes": 341,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-24",
+      "article_number": "24",
+      "filename": "kokka-koumuin-hou-article-24.md",
+      "ja_text_sha256": "022b4e2c69fb45e3ec96dea9f04d86e18329b8fcbc2631d65110af043e56ba85",
+      "ja_text_bytes": 176,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-25",
+      "article_number": "25",
+      "filename": "kokka-koumuin-hou-article-25.md",
+      "ja_text_sha256": "4cb8eaf3af6bc967c4d1315b59d1cfd5a0c8cce2767b05609e33aca318c1e4ab",
+      "ja_text_bytes": 443,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-26",
+      "article_number": "26",
+      "filename": "kokka-koumuin-hou-article-26.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-27",
+      "article_number": "27",
+      "filename": "kokka-koumuin-hou-article-27.md",
+      "ja_text_sha256": "27e8f8fde895f1152a12c4d0e1a3b4cdd10a6281cb2a855d39ce355937904fe1",
+      "ja_text_bytes": 294,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-27-2",
+      "article_number": "27-2",
+      "filename": "kokka-koumuin-hou-article-27-2.md",
+      "ja_text_sha256": "c9d40c7182e43a9d06b1a9f667d065ab09c531cb645e8a8fbbe133269aba41b9",
+      "ja_text_bytes": 447,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-28",
+      "article_number": "28",
+      "filename": "kokka-koumuin-hou-article-28.md",
+      "ja_text_sha256": "314fed250d472d40f31ad1a7513a0f38d5edeaf1c319dc933ade0fe82163e4e5",
+      "ja_text_bytes": 797,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-33",
+      "article_number": "33",
+      "filename": "kokka-koumuin-hou-article-33.md",
+      "ja_text_sha256": "99483c67496f83daad4a69803d34ebbda5a68b59f42d8d40ff5cbf36dae52e01",
+      "ja_text_bytes": 735,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-33-2",
+      "article_number": "33-2",
+      "filename": "kokka-koumuin-hou-article-33-2.md",
+      "ja_text_sha256": "184c0f56dbbf15a816238063318d3512957f6a3953e616cb0afa454325eb7833",
+      "ja_text_bytes": 405,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-34",
+      "article_number": "34",
+      "filename": "kokka-koumuin-hou-article-34.md",
+      "ja_text_sha256": "64d79b07dd2f023122cbc554af2e72e3b0bb3b40d160cbef7fe520e00b8d71f4",
+      "ja_text_bytes": 299,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-35",
+      "article_number": "35",
+      "filename": "kokka-koumuin-hou-article-35.md",
+      "ja_text_sha256": "ddd7af6e2752b8c2204d275373aa3850885d1fa45a3d799c095692ed956ffd74",
+      "ja_text_bytes": 393,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-36",
+      "article_number": "36",
+      "filename": "kokka-koumuin-hou-article-36.md",
+      "ja_text_sha256": "cc6685d7d82bad75e74fbae7babb8ea9d2964a2f583451029992681064482922",
+      "ja_text_bytes": 570,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-37",
+      "article_number": "37",
+      "filename": "kokka-koumuin-hou-article-37.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-38",
+      "article_number": "38",
+      "filename": "kokka-koumuin-hou-article-38.md",
+      "ja_text_sha256": "4e102f9d7630f72e28ce7566d433681db83a620589fe4a443094e3ea3bcc993f",
+      "ja_text_bytes": 141,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-39",
+      "article_number": "39",
+      "filename": "kokka-koumuin-hou-article-39.md",
+      "ja_text_sha256": "c5f3b7660e5f5f5f8aba0ccd213089b05ff8a08399c786e1db007694db1301f1",
+      "ja_text_bytes": 465,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-40",
+      "article_number": "40",
+      "filename": "kokka-koumuin-hou-article-40.md",
+      "ja_text_sha256": "4428779c00e1b01c89bd2012297e8ac1f454174ae32e17801b06803c78f4125d",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-41",
+      "article_number": "41",
+      "filename": "kokka-koumuin-hou-article-41.md",
+      "ja_text_sha256": "f5ced6f74e4779caa7b68bba699ed56f7dbee3861d423b17bef17ed3c072d963",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-42",
+      "article_number": "42",
+      "filename": "kokka-koumuin-hou-article-42.md",
+      "ja_text_sha256": "f95a5843b300419e023a854c2806e2fa954afe474fbd6013f023a408145809bc",
+      "ja_text_bytes": 99,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-43",
+      "article_number": "43",
+      "filename": "kokka-koumuin-hou-article-43.md",
+      "ja_text_sha256": "2c1c947d1398e5af846aa2bb3cd3f99ccdc083f6484d9cce71cef908828dfc64",
+      "ja_text_bytes": 144,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-44",
+      "article_number": "44",
+      "filename": "kokka-koumuin-hou-article-44.md",
+      "ja_text_sha256": "7d3e57aa5f71d9cee9b8a8b235e9cbb231bcf21827e14136b95ae8cb907554e5",
+      "ja_text_bytes": 228,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-45",
+      "article_number": "45",
+      "filename": "kokka-koumuin-hou-article-45.md",
+      "ja_text_sha256": "7fa66fa2f82980d45c16ee561ff5635bc09089cc731fab71e7d52fa8d435b56f",
+      "ja_text_bytes": 291,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-45-2",
+      "article_number": "45-2",
+      "filename": "kokka-koumuin-hou-article-45-2.md",
+      "ja_text_sha256": "00e3ddf21f1f22c5f78eaf74f36a933c41a76245d534b21daaa6bb55da12f06f",
+      "ja_text_bytes": 375,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-45-3",
+      "article_number": "45-3",
+      "filename": "kokka-koumuin-hou-article-45-3.md",
+      "ja_text_sha256": "d5ea132371d8b65110870ba04c5363a31b560886072d0264e5c8a2c37619ad15",
+      "ja_text_bytes": 273,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-46",
+      "article_number": "46",
+      "filename": "kokka-koumuin-hou-article-46.md",
+      "ja_text_sha256": "43da033d95f15f37d96591d632c723fbef21401ae2033b8d48746575f0cd44e9",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-47",
+      "article_number": "47",
+      "filename": "kokka-koumuin-hou-article-47.md",
+      "ja_text_sha256": "744f7ff12b9011851f5a17b8a72943969f0ba6c2b1b15a77c5a5b9991c977f2d",
+      "ja_text_bytes": 950,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-48",
+      "article_number": "48",
+      "filename": "kokka-koumuin-hou-article-48.md",
+      "ja_text_sha256": "59e92662ad0421813834d98bafd5b7c624d6c4d738c03c97f14ce3bde15c12fe",
+      "ja_text_bytes": 123,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-49",
+      "article_number": "49",
+      "filename": "kokka-koumuin-hou-article-49.md",
+      "ja_text_sha256": "a29c835f9309c5fd827aad7dfaf8ee5cc68394601e4d5fa8f2ed798f9e5db655",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-50",
+      "article_number": "50",
+      "filename": "kokka-koumuin-hou-article-50.md",
+      "ja_text_sha256": "c6f72cdf42151c6c85c8f4ba899dc25fdf6ecff45ab83b2d5ba133fc0ec3f43d",
+      "ja_text_bytes": 156,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-51",
+      "article_number": "51",
+      "filename": "kokka-koumuin-hou-article-51.md",
+      "ja_text_sha256": "ebe305e73c47dcb0c20a42a7514c10c86f4f388a2eddfd22bb028f53fa2fcbef",
+      "ja_text_bytes": 195,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-52",
+      "article_number": "52",
+      "filename": "kokka-koumuin-hou-article-52.md",
+      "ja_text_sha256": "2fe4d9cfb53c5875d5ecc3bdf0c2913c023c8006cfd5c5855f94f32019a28808",
+      "ja_text_bytes": 144,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-53",
+      "article_number": "53",
+      "filename": "kokka-koumuin-hou-article-53.md",
+      "ja_text_sha256": "5512f1b25eb978fb2594c263666a826f0aaddb1807592c767e9cb1c723ba808b",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-54",
+      "article_number": "54",
+      "filename": "kokka-koumuin-hou-article-54.md",
+      "ja_text_sha256": "495091a6ef05f97d6f2e434882c6ae8cbf5cb76f5ce364e9d5d47d8d9ba47942",
+      "ja_text_bytes": 1312,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-55",
+      "article_number": "55",
+      "filename": "kokka-koumuin-hou-article-55.md",
+      "ja_text_sha256": "50406288241623d7e470188598555801e98d033697d720f2844e76b2b9611c26",
+      "ja_text_bytes": 1459,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-56",
+      "article_number": "56",
+      "filename": "kokka-koumuin-hou-article-56.md",
+      "ja_text_sha256": "d44d7847c8e014fd26a5f8d0c50ab4eb222b9a6147f8b52dabd19e5b84767d3c",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-57",
+      "article_number": "57",
+      "filename": "kokka-koumuin-hou-article-57.md",
+      "ja_text_sha256": "2b688c97802888e9469d886290fbccd8e30242547c9d16ca4e207e70f343ad46",
+      "ja_text_bytes": 369,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-58",
+      "article_number": "58",
+      "filename": "kokka-koumuin-hou-article-58.md",
+      "ja_text_sha256": "9ed79f8d68ab979f07d2fb69bcc8214ac9ffdeec47e00678f333c878f89bdd67",
+      "ja_text_bytes": 1390,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-59",
+      "article_number": "59",
+      "filename": "kokka-koumuin-hou-article-59.md",
+      "ja_text_sha256": "a40168b95b5f3936fb022fa55e8a5e3735fa54a6817590dc42e9162d2795f77f",
+      "ja_text_bytes": 683,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-60",
+      "article_number": "60",
+      "filename": "kokka-koumuin-hou-article-60.md",
+      "ja_text_sha256": "507e03ef267a9d25d2865a422757ad59c15dbc7a7908a529c227468504f2a7aa",
+      "ja_text_bytes": 1013,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-60-2",
+      "article_number": "60-2",
+      "filename": "kokka-koumuin-hou-article-60-2.md",
+      "ja_text_sha256": "8ef3c9a1ae9bb2c694490e82a8edf85aab038bc814e6bfbc58318a7bec820e13",
+      "ja_text_bytes": 3456,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61",
+      "article_number": "61",
+      "filename": "kokka-koumuin-hou-article-61.md",
+      "ja_text_sha256": "a6f7943139d4021eeaf86ed555ff5770e573de6274d3103594f5998a1dac9f48",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-2",
+      "article_number": "61-2",
+      "filename": "kokka-koumuin-hou-article-61-2.md",
+      "ja_text_sha256": "8de488b6cf951b67578596eaa740661acf41a2499bec2efd8635b5b7275438d8",
+      "ja_text_bytes": 1774,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-3",
+      "article_number": "61-3",
+      "filename": "kokka-koumuin-hou-article-61-3.md",
+      "ja_text_sha256": "a08863a8f617f13b328f8dc6d913e4ff6f09c90c17740991c37ae5e24312da4e",
+      "ja_text_bytes": 1476,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-4",
+      "article_number": "61-4",
+      "filename": "kokka-koumuin-hou-article-61-4.md",
+      "ja_text_sha256": "c610c6c4cd90c6e86268164fa268957361253865b5375f295aab0a9255eeb4b3",
+      "ja_text_bytes": 1950,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-5",
+      "article_number": "61-5",
+      "filename": "kokka-koumuin-hou-article-61-5.md",
+      "ja_text_sha256": "2577c424bd6cb130ee2cb47888fad936c3ffd9a0157bfbf65bf861eb8a4b3793",
+      "ja_text_bytes": 491,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-6",
+      "article_number": "61-6",
+      "filename": "kokka-koumuin-hou-article-61-6.md",
+      "ja_text_sha256": "8ccee81172e11d9a3dfac52273effa64c2617e65d2d4a28e68aec77b59930ef8",
+      "ja_text_bytes": 339,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-7",
+      "article_number": "61-7",
+      "filename": "kokka-koumuin-hou-article-61-7.md",
+      "ja_text_sha256": "c754f19848f2eb52c02b4727e3da00880972fbbc5e1937c43f7d193546211369",
+      "ja_text_bytes": 599,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-8",
+      "article_number": "61-8",
+      "filename": "kokka-koumuin-hou-article-61-8.md",
+      "ja_text_sha256": "8177d43c9c9b078c6cdc4bc4ce6abe02aba2b162fddf6cd8f0688563c0169cf4",
+      "ja_text_bytes": 4987,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-9",
+      "article_number": "61-9",
+      "filename": "kokka-koumuin-hou-article-61-9.md",
+      "ja_text_sha256": "7fafd1d3e5165d6a80558cff13e69804321442a043d3528633a5a773accc878d",
+      "ja_text_bytes": 935,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-10",
+      "article_number": "61-10",
+      "filename": "kokka-koumuin-hou-article-61-10.md",
+      "ja_text_sha256": "6da228560c0fa43856cf2f396236772b733df60e98fb8dacc5fdfb46370f97d0",
+      "ja_text_bytes": 563,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-61-11",
+      "article_number": "61-11",
+      "filename": "kokka-koumuin-hou-article-61-11.md",
+      "ja_text_sha256": "4c07b618698d906b27b11dd70cd3606a2b66e4c16ddd2bfefb71b70081c81770",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-62",
+      "article_number": "62",
+      "filename": "kokka-koumuin-hou-article-62.md",
+      "ja_text_sha256": "e2e42d80269536cc968c3d2aac8161d1694cd3a69c8099559178ef02950a318c",
+      "ja_text_bytes": 81,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-63",
+      "article_number": "63",
+      "filename": "kokka-koumuin-hou-article-63.md",
+      "ja_text_sha256": "433f82d5b177a1c620f6001ea50ead5fbad99e5f6adc9bb28833e0e5e4dd279f",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-64",
+      "article_number": "64",
+      "filename": "kokka-koumuin-hou-article-64.md",
+      "ja_text_sha256": "8fd6d23d58a4c12b42804fdf4c0acecebe56a05104d38bac0aab8588c3a1e92f",
+      "ja_text_bytes": 362,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-65",
+      "article_number": "65",
+      "filename": "kokka-koumuin-hou-article-65.md",
+      "ja_text_sha256": "792a9ef87bf0f4fd94f8003fbdc91b3ff75d7058cfe313d0bbee771841c7c7cd",
+      "ja_text_bytes": 269,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-66",
+      "article_number": "66",
+      "filename": "kokka-koumuin-hou-article-66.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-67",
+      "article_number": "67",
+      "filename": "kokka-koumuin-hou-article-67.md",
+      "ja_text_sha256": "a861e37b4a1ccdbff528f31312b53f512efe07ce288885435351fe4dc743e38c",
+      "ja_text_bytes": 321,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-68",
+      "article_number": "68",
+      "filename": "kokka-koumuin-hou-article-68.md",
+      "ja_text_sha256": "bac67894695b448ba9646df523f48ae01c38fcb593cb488639a9875122216be4",
+      "ja_text_bytes": 361,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-69",
+      "article_number": "69",
+      "filename": "kokka-koumuin-hou-article-69.md",
+      "ja_text_sha256": "ac1cc3215181628cd7b2d5c7c156a47ca5d14c3b65411fe9fdc94ff0a839d085",
+      "ja_text_bytes": 264,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-70",
+      "article_number": "70",
+      "filename": "kokka-koumuin-hou-article-70.md",
+      "ja_text_sha256": "9cef8db9fb69094aaf5c92522ef4aedd834a09f8779037886848eb749a50b152",
+      "ja_text_bytes": 387,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-70-2",
+      "article_number": "70-2",
+      "filename": "kokka-koumuin-hou-article-70-2.md",
+      "ja_text_sha256": "d0a0f0c497673f3bc5419a2ff265297d69a994ea140c9e7a6154affd948395f6",
+      "ja_text_bytes": 72,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-70-3",
+      "article_number": "70-3",
+      "filename": "kokka-koumuin-hou-article-70-3.md",
+      "ja_text_sha256": "3e36f7b786fab00e7ceddfe7090ea15b7c5a4a18dd5f7cedbc375a84866b3420",
+      "ja_text_bytes": 278,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-70-4",
+      "article_number": "70-4",
+      "filename": "kokka-koumuin-hou-article-70-4.md",
+      "ja_text_sha256": "ef58bab2393cca323e735c9ab98fc40353596afdc84df7a0284375f17c9b3d57",
+      "ja_text_bytes": 368,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-70-5",
+      "article_number": "70-5",
+      "filename": "kokka-koumuin-hou-article-70-5.md",
+      "ja_text_sha256": "587501e83fcf683ad93c428de29468089456282762f5b25a36437234126bd579",
+      "ja_text_bytes": 721,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-70-6",
+      "article_number": "70-6",
+      "filename": "kokka-koumuin-hou-article-70-6.md",
+      "ja_text_sha256": "9c23a46e1f67c4e156e3578b044c94ab936d23bf6ac671451265db65f5acacdc",
+      "ja_text_bytes": 1100,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-70-7",
+      "article_number": "70-7",
+      "filename": "kokka-koumuin-hou-article-70-7.md",
+      "ja_text_sha256": "2a8f3555fd609802ef1e8c9768c4d617fb330f04d5768e86ae9531a492e072f0",
+      "ja_text_bytes": 437,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-71",
+      "article_number": "71",
+      "filename": "kokka-koumuin-hou-article-71.md",
+      "ja_text_sha256": "4abf8a5c60f37ad7e14f57a5404d6378b85b9a02793f1581c8b88842bf09fd49",
+      "ja_text_bytes": 433,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-72",
+      "article_number": "72",
+      "filename": "kokka-koumuin-hou-article-72.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-73",
+      "article_number": "73",
+      "filename": "kokka-koumuin-hou-article-73.md",
+      "ja_text_sha256": "bf2c2fa822c5c303d2e0443967c9035406287b0f6b5b56ecebf01c8e45826223",
+      "ja_text_bytes": 362,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-73-2",
+      "article_number": "73-2",
+      "filename": "kokka-koumuin-hou-article-73-2.md",
+      "ja_text_sha256": "09de19c6fa84d97acc40f6f7dbc31809379945d0e225ebbcaa4a3e338a8d7303",
+      "ja_text_bytes": 357,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-74",
+      "article_number": "74",
+      "filename": "kokka-koumuin-hou-article-74.md",
+      "ja_text_sha256": "42caa5162f2dd4b715ff896c4fa0f21860ab7f246251a2a0e193fe6f7b20fa8b",
+      "ja_text_bytes": 260,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-75",
+      "article_number": "75",
+      "filename": "kokka-koumuin-hou-article-75.md",
+      "ja_text_sha256": "42618f7f87452908078519154a3cd0b78e61a25060e6e244196abcbe04dbf854",
+      "ja_text_bytes": 308,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-76",
+      "article_number": "76",
+      "filename": "kokka-koumuin-hou-article-76.md",
+      "ja_text_sha256": "f6e0f693be4654eb53eb12d664101a36c24d7cd11ab9661f2d09d1c76ef751f8",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-77",
+      "article_number": "77",
+      "filename": "kokka-koumuin-hou-article-77.md",
+      "ja_text_sha256": "63a75631894813beac35f2a0aab280d29cb8937dad9841ceb1b4e71c38347076",
+      "ja_text_bytes": 96,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-78",
+      "article_number": "78",
+      "filename": "kokka-koumuin-hou-article-78.md",
+      "ja_text_sha256": "3d7b6a95060ea97ed85ce10e81ba519a8411c1cdb6d3e453780593dd9bc256c2",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-78-2",
+      "article_number": "78-2",
+      "filename": "kokka-koumuin-hou-article-78-2.md",
+      "ja_text_sha256": "8a3d070fdea6a0c06328156243d9faaad6fafaad4b76c33ca63bf9a36e7a992f",
+      "ja_text_bytes": 558,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-79",
+      "article_number": "79",
+      "filename": "kokka-koumuin-hou-article-79.md",
+      "ja_text_sha256": "cbf8121630f8cf7a865fcaa3e25c957513104c227976d89b40a3a2003fb4856b",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-80",
+      "article_number": "80",
+      "filename": "kokka-koumuin-hou-article-80.md",
+      "ja_text_sha256": "7f5612bb0c4308af19ebcf4d056e2606c114f913e2668e5028fb2a48048f1514",
+      "ja_text_bytes": 708,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-81",
+      "article_number": "81",
+      "filename": "kokka-koumuin-hou-article-81.md",
+      "ja_text_sha256": "ae7f4d589b106dea16351cde0b6cb0c9d9f530ab98508ca2a99b1592a795836d",
+      "ja_text_bytes": 419,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-81-2",
+      "article_number": "81-2",
+      "filename": "kokka-koumuin-hou-article-81-2.md",
+      "ja_text_sha256": "fd8c6a6fb1d0076a7de75dcc1e626f6631be708f81ddf25e9962f2bdd8143ce8",
+      "ja_text_bytes": 2422,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-81-3",
+      "article_number": "81-3",
+      "filename": "kokka-koumuin-hou-article-81-3.md",
+      "ja_text_sha256": "4855653520da1f6a15f5bd6d1a0ae4e63725514645db9e9d9fb299f0580836c7",
+      "ja_text_bytes": 510,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-81-4",
+      "article_number": "81-4",
+      "filename": "kokka-koumuin-hou-article-81-4.md",
+      "ja_text_sha256": "aa430561b083ed631085d3e826f8207ec5dd88d5890e516533ea05827de36ffd",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-81-5",
+      "article_number": "81-5",
+      "filename": "kokka-koumuin-hou-article-81-5.md",
+      "ja_text_sha256": "67981a74bf3ae9a5a7f6e87917e537f44f4db8f700c415fb1e5920033d33eb43",
+      "ja_text_bytes": 4139,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-81-6",
+      "article_number": "81-6",
+      "filename": "kokka-koumuin-hou-article-81-6.md",
+      "ja_text_sha256": "bed16cbecfdc1a86c176b0b7f331d7e3c80a31399190e4ad7647cc8a9f8da4df",
+      "ja_text_bytes": 1093,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-81-7",
+      "article_number": "81-7",
+      "filename": "kokka-koumuin-hou-article-81-7.md",
+      "ja_text_sha256": "fac86cbc6af71aeb333c256283e66e8475501d14a2ca237009390fafb0ecd3a3",
+      "ja_text_bytes": 1909,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-81-8",
+      "article_number": "81-8",
+      "filename": "kokka-koumuin-hou-article-81-8.md",
+      "ja_text_sha256": "f8776c3acd1b789771ec09024ff179fe3af47ca52fc0d0a88ed279fb35f139f1",
+      "ja_text_bytes": 354,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-82",
+      "article_number": "82",
+      "filename": "kokka-koumuin-hou-article-82.md",
+      "ja_text_sha256": "288740f999e57b7376ab7ccc359eb8a6063771aa50c14e245a64263c366f52ff",
+      "ja_text_bytes": 1982,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-83",
+      "article_number": "83",
+      "filename": "kokka-koumuin-hou-article-83.md",
+      "ja_text_sha256": "e86e486fbe61d7df2efe630909faf9a429a51c2b1fb860803212a52a66c0c302",
+      "ja_text_bytes": 323,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-84",
+      "article_number": "84",
+      "filename": "kokka-koumuin-hou-article-84.md",
+      "ja_text_sha256": "0ee1f58e231d5a6d4d40a67d19fc4603773cf06b5ca7a3bffd9cf12ab935bdfc",
+      "ja_text_bytes": 170,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-84-2",
+      "article_number": "84-2",
+      "filename": "kokka-koumuin-hou-article-84-2.md",
+      "ja_text_sha256": "161b088858c67fe8ccc7fec20a3c2a2910b13a1c652f7d7b64b3e03991ff83f4",
+      "ja_text_bytes": 345,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-85",
+      "article_number": "85",
+      "filename": "kokka-koumuin-hou-article-85.md",
+      "ja_text_sha256": "2151b8eb571bbdcb23a63da3ad1314ec861c6a91b6685e9f2fd2af29a86fbb64",
+      "ja_text_bytes": 393,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-86",
+      "article_number": "86",
+      "filename": "kokka-koumuin-hou-article-86.md",
+      "ja_text_sha256": "673802f36a22ef8c4d0249cc1159ab25bf3cd304d9db91c185a709d29124b604",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-87",
+      "article_number": "87",
+      "filename": "kokka-koumuin-hou-article-87.md",
+      "ja_text_sha256": "247a105a0757115cd08c45077c65535318cbab96acf1d705e8deb086176b2ff0",
+      "ja_text_bytes": 315,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-88",
+      "article_number": "88",
+      "filename": "kokka-koumuin-hou-article-88.md",
+      "ja_text_sha256": "f177df5d93013214963f0a37f53ffd4c2490053e6e266f7d64eadc807dcc54ea",
+      "ja_text_bytes": 351,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-89",
+      "article_number": "89",
+      "filename": "kokka-koumuin-hou-article-89.md",
+      "ja_text_sha256": "f95d0d7eda631f4b3665bc7cc70e1053bef5c1dac55bd4ca3ae665c07afacb15",
+      "ja_text_bytes": 865,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-90",
+      "article_number": "90",
+      "filename": "kokka-koumuin-hou-article-90.md",
+      "ja_text_sha256": "b3232d19a468e51ac003e84d23fd059ec315aaef32bb8e885c3868a354149114",
+      "ja_text_bytes": 511,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-90-2",
+      "article_number": "90-2",
+      "filename": "kokka-koumuin-hou-article-90-2.md",
+      "ja_text_sha256": "44107756fd0c5eba9ba5a36049db5e681b3d576c50005e0822b273c59ffa2bbe",
+      "ja_text_bytes": 261,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-91",
+      "article_number": "91",
+      "filename": "kokka-koumuin-hou-article-91.md",
+      "ja_text_sha256": "3e6a65673e60e25e80abfa8053c122d4cec8adc1fc0622e840bd6b7f98257dda",
+      "ja_text_bytes": 918,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-92",
+      "article_number": "92",
+      "filename": "kokka-koumuin-hou-article-92.md",
+      "ja_text_sha256": "e412d697a1dcc2c59fa4d02db4b8facde3cf1af77b6f5de5ec0d6ea19fc561d8",
+      "ja_text_bytes": 868,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-92-2",
+      "article_number": "92-2",
+      "filename": "kokka-koumuin-hou-article-92-2.md",
+      "ja_text_sha256": "fca970b24cfe06fedb813e5c67cc39c59c81bda397977f5532d2b6565e1df15c",
+      "ja_text_bytes": 258,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-93",
+      "article_number": "93",
+      "filename": "kokka-koumuin-hou-article-93.md",
+      "ja_text_sha256": "814a594fe2624f2c83b59e4cb87f1ff40b002ac4699c4e1df6a7cd45b9f2c0b2",
+      "ja_text_bytes": 404,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-94",
+      "article_number": "94",
+      "filename": "kokka-koumuin-hou-article-94.md",
+      "ja_text_sha256": "0505bb6b64a7761ccb463066b3f1a357ba6fd5146db6e7cc2e2ccfaa58339a44",
+      "ja_text_bytes": 84,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-95",
+      "article_number": "95",
+      "filename": "kokka-koumuin-hou-article-95.md",
+      "ja_text_sha256": "17dc62695b00b5b9d3e5408a872874ea23e4e5dfe959f2e36200b148e1946aa0",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-96",
+      "article_number": "96",
+      "filename": "kokka-koumuin-hou-article-96.md",
+      "ja_text_sha256": "0b1c809a9d75dde16391a64345531c376c2480143ed1b8586c36be6a6e9b6355",
+      "ja_text_bytes": 392,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-97",
+      "article_number": "97",
+      "filename": "kokka-koumuin-hou-article-97.md",
+      "ja_text_sha256": "941920fed24c324483a4e342a07a7c5c1c22799e5c65db3d254f8b5e9c812297",
+      "ja_text_bytes": 99,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-98",
+      "article_number": "98",
+      "filename": "kokka-koumuin-hou-article-98.md",
+      "ja_text_sha256": "a4c92b36c86a39b878ca25821f9ea71ccc5b6ac4d29da4618dcff9a6fcc24276",
+      "ja_text_bytes": 772,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-99",
+      "article_number": "99",
+      "filename": "kokka-koumuin-hou-article-99.md",
+      "ja_text_sha256": "c4a14a3062a7a5125890c89c62aa94256d9b2ff8f6de951bbe3c0a5d33b5a77b",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-100",
+      "article_number": "100",
+      "filename": "kokka-koumuin-hou-article-100.md",
+      "ja_text_sha256": "f3f4da93143a275f13f715477f7da8999c9d3ec0aa710823f31bf6aaf5f24d17",
+      "ja_text_bytes": 1502,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-101",
+      "article_number": "101",
+      "filename": "kokka-koumuin-hou-article-101.md",
+      "ja_text_sha256": "aed5f92904e7220ddd526cff99fd164153ff78ab5594d7e9780295c7219b7f69",
+      "ja_text_bytes": 632,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-102",
+      "article_number": "102",
+      "filename": "kokka-koumuin-hou-article-102.md",
+      "ja_text_sha256": "ef1873a4fe076e36e57c367caf13102bd42321d53d090031de48bdf697940b16",
+      "ja_text_bytes": 559,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-103",
+      "article_number": "103",
+      "filename": "kokka-koumuin-hou-article-103.md",
+      "ja_text_sha256": "35f7d291b721ac34a68d07a5eeecf96e2b46c9a081770a360c6e33b0d48f76e8",
+      "ja_text_bytes": 1929,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-104",
+      "article_number": "104",
+      "filename": "kokka-koumuin-hou-article-104.md",
+      "ja_text_sha256": "6ac24733d35e944b4640699364bd95a0b90ef1b730ecb8369f72217c82bee629",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-105",
+      "article_number": "105",
+      "filename": "kokka-koumuin-hou-article-105.md",
+      "ja_text_sha256": "49d475c4e358f81e0880cc78923ed2100f2d29e09243b3b027833cbd72accb20",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106",
+      "article_number": "106",
+      "filename": "kokka-koumuin-hou-article-106.md",
+      "ja_text_sha256": "739a75b556521cdf045509fdb9401d912bd0e22d2341c07c4c1586c7b4ffbfaf",
+      "ja_text_bytes": 239,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-2",
+      "article_number": "106-2",
+      "filename": "kokka-koumuin-hou-article-106-2.md",
+      "ja_text_sha256": "5e496dd54cdf5e5ffd7c7e32fffcfe8e4e8767655f5b2f8cbb1dc3f3d6364dfa",
+      "ja_text_bytes": 2643,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-3",
+      "article_number": "106-3",
+      "filename": "kokka-koumuin-hou-article-106-3.md",
+      "ja_text_sha256": "13c31471a79a9ca0be44483c0c358f9b3597d2bab3c6e94d329d1c1c81f69323",
+      "ja_text_bytes": 1184,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-4",
+      "article_number": "106-4",
+      "filename": "kokka-koumuin-hou-article-106-4.md",
+      "ja_text_sha256": "ba60b534ab12cdb7e748f2fd68df25d6dcc4c4b92363d6f835f961df3be50485",
+      "ja_text_bytes": 4849,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-5",
+      "article_number": "106-5",
+      "filename": "kokka-koumuin-hou-article-106-5.md",
+      "ja_text_sha256": "971678c73f9d2999ae8598477e34c411e24b8bbdad1e7289de79918107f60052",
+      "ja_text_bytes": 152,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-6",
+      "article_number": "106-6",
+      "filename": "kokka-koumuin-hou-article-106-6.md",
+      "ja_text_sha256": "5bd3fce93b971d3957104b0435315a5ef5e55fcbd9b089b3b5a71624eea91e88",
+      "ja_text_bytes": 75,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-7",
+      "article_number": "106-7",
+      "filename": "kokka-koumuin-hou-article-106-7.md",
+      "ja_text_sha256": "7b737e6ee4bbdf472e30b1b6ea1b02b11a29e306feede9491f4c1496eee1a572",
+      "ja_text_bytes": 285,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-8",
+      "article_number": "106-8",
+      "filename": "kokka-koumuin-hou-article-106-8.md",
+      "ja_text_sha256": "e000ed64df9ab9fb237e485d0fd3eb45bc2898625507e8e3aaa7e5b1c95b0aff",
+      "ja_text_bytes": 1117,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-9",
+      "article_number": "106-9",
+      "filename": "kokka-koumuin-hou-article-106-9.md",
+      "ja_text_sha256": "736473c096d7f9abc952fcfc89b6b1dc6a52cde3f6a0e801964d4617e8dfffd4",
+      "ja_text_bytes": 388,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-10",
+      "article_number": "106-10",
+      "filename": "kokka-koumuin-hou-article-106-10.md",
+      "ja_text_sha256": "40f02c6e33c1a8753cd09bf9018b01a8c2fb53796a33a8ab188bf2a72c6c3946",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-11",
+      "article_number": "106-11",
+      "filename": "kokka-koumuin-hou-article-106-11.md",
+      "ja_text_sha256": "3062ad244017eefd3a0b84b93e4a722bf4d4fd16c0e9bb3256e9bec8b571baa3",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-12",
+      "article_number": "106-12",
+      "filename": "kokka-koumuin-hou-article-106-12.md",
+      "ja_text_sha256": "ffb1bcf0a00e18c92b96e8f0ca29395d39ef1307178a0b44af656f1984e476c1",
+      "ja_text_bytes": 538,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-13",
+      "article_number": "106-13",
+      "filename": "kokka-koumuin-hou-article-106-13.md",
+      "ja_text_sha256": "150db7daa153fd772979997246a95be5d0e1ab91efb7e28e82fd3e62899edb2c",
+      "ja_text_bytes": 63,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-14",
+      "article_number": "106-14",
+      "filename": "kokka-koumuin-hou-article-106-14.md",
+      "ja_text_sha256": "67af75d3d864d3f6a34e5a1104758707e6d2d4a486f9cf894d190e371a575e45",
+      "ja_text_bytes": 611,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-15",
+      "article_number": "106-15",
+      "filename": "kokka-koumuin-hou-article-106-15.md",
+      "ja_text_sha256": "9a0ca473a0542f492b19ecd165e82ab729fb83441097a84f5b007829d81271ef",
+      "ja_text_bytes": 220,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-16",
+      "article_number": "106-16",
+      "filename": "kokka-koumuin-hou-article-106-16.md",
+      "ja_text_sha256": "785945438384a06f01f7e5d5edb2b8c7025681cbb4e92a34fd8dec1062478817",
+      "ja_text_bytes": 309,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-17",
+      "article_number": "106-17",
+      "filename": "kokka-koumuin-hou-article-106-17.md",
+      "ja_text_sha256": "c9d35445ed1973b002a52bb6ac3dfbb7db7ba73b396c87aa4673ef0fd89e7359",
+      "ja_text_bytes": 574,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-18",
+      "article_number": "106-18",
+      "filename": "kokka-koumuin-hou-article-106-18.md",
+      "ja_text_sha256": "8ed5843e8d94367223b15fb218fb32b3c4896105b1145c42ac07d69a62a467bc",
+      "ja_text_bytes": 476,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-19",
+      "article_number": "106-19",
+      "filename": "kokka-koumuin-hou-article-106-19.md",
+      "ja_text_sha256": "12e277a262fb7c147fe0e575f7a5e5e1c5809ac4e2370fa7cf50e9613f4957f5",
+      "ja_text_bytes": 324,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-20",
+      "article_number": "106-20",
+      "filename": "kokka-koumuin-hou-article-106-20.md",
+      "ja_text_sha256": "a7e2e08c986a91cb5501d393fea1d656eff8c3c61c46d94e314d4988deec8be4",
+      "ja_text_bytes": 664,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-21",
+      "article_number": "106-21",
+      "filename": "kokka-koumuin-hou-article-106-21.md",
+      "ja_text_sha256": "f0ec6951174145bc62297fe13a571011ec2c7e673a02c3cd7f7ab9445a2fe76b",
+      "ja_text_bytes": 805,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-22",
+      "article_number": "106-22",
+      "filename": "kokka-koumuin-hou-article-106-22.md",
+      "ja_text_sha256": "22b1c50e728f487525fed4f8914d6766c781f570b7832a695624898063c4503c",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-23",
+      "article_number": "106-23",
+      "filename": "kokka-koumuin-hou-article-106-23.md",
+      "ja_text_sha256": "5c1884b415b9757f0b95c30277adc269f204d53d06dcf97c65f592bd823bffec",
+      "ja_text_bytes": 802,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-24",
+      "article_number": "106-24",
+      "filename": "kokka-koumuin-hou-article-106-24.md",
+      "ja_text_sha256": "be45c77df097dc093ea61fde2906c393a2878acdff9f6922f451193fa5600b98",
+      "ja_text_bytes": 1145,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-25",
+      "article_number": "106-25",
+      "filename": "kokka-koumuin-hou-article-106-25.md",
+      "ja_text_sha256": "0735bedf9490519c036e05c52715792d4b8712a5c8fc8c23a216c7f898f490f1",
+      "ja_text_bytes": 368,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-26",
+      "article_number": "106-26",
+      "filename": "kokka-koumuin-hou-article-106-26.md",
+      "ja_text_sha256": "f08a663706fb6d7cd941912fd8f15e0a80aad74e3486446a238c7e5f8b264e13",
+      "ja_text_bytes": 702,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-106-27",
+      "article_number": "106-27",
+      "filename": "kokka-koumuin-hou-article-106-27.md",
+      "ja_text_sha256": "e99c011640d4d9fee8998ea73a59f4fe6125a908525ccca77082236ff800aca1",
+      "ja_text_bytes": 597,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-107",
+      "article_number": "107",
+      "filename": "kokka-koumuin-hou-article-107.md",
+      "ja_text_sha256": "bb4fe8cc9ddc37d235aec7bdf74485e083211c03869afc2efb26ad06ea9cf24d",
+      "ja_text_bytes": 765,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-108",
+      "article_number": "108",
+      "filename": "kokka-koumuin-hou-article-108.md",
+      "ja_text_sha256": "4f6e428705578e8603d60018a01465651de3423776e4f1bf40e3207bd921ae72",
+      "ja_text_bytes": 141,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-108-2",
+      "article_number": "108-2",
+      "filename": "kokka-koumuin-hou-article-108-2.md",
+      "ja_text_sha256": "a008054a7e041b12951ca5256e17bb9a174ead0391436d9e19cedf411510384a",
+      "ja_text_bytes": 1748,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-108-3",
+      "article_number": "108-3",
+      "filename": "kokka-koumuin-hou-article-108-3.md",
+      "ja_text_sha256": "f329c5f901db91c2f94898d8a474fb55d880b1502128591f94d119a7080e2ce2",
+      "ja_text_bytes": 4329,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-108-4",
+      "article_number": "108-4",
+      "filename": "kokka-koumuin-hou-article-108-4.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-108-5",
+      "article_number": "108-5",
+      "filename": "kokka-koumuin-hou-article-108-5.md",
+      "ja_text_sha256": "af9581ecb75496d19f362c7908572e7b1260bccbcee8f5b1f4a22b419145aacf",
+      "ja_text_bytes": 2110,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-108-5-2",
+      "article_number": "108-5-2",
+      "filename": "kokka-koumuin-hou-article-108-5-2.md",
+      "ja_text_sha256": "f1492bce393ff8fc4e9762e39b37b4cac73b3769363ac12fe463bd9ec5240cbf",
+      "ja_text_bytes": 395,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-108-6",
+      "article_number": "108-6",
+      "filename": "kokka-koumuin-hou-article-108-6.md",
+      "ja_text_sha256": "1936558549734ea78d4c691eb28049f6d2c46f6514509395b85cb9c2f9a58ff7",
+      "ja_text_bytes": 1552,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-108-7",
+      "article_number": "108-7",
+      "filename": "kokka-koumuin-hou-article-108-7.md",
+      "ja_text_sha256": "e0e45ff83b13159f2e434caf9ca44631b0ca1dca819d9a94faf4886b36bc5ca8",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-109",
+      "article_number": "109",
+      "filename": "kokka-koumuin-hou-article-109.md",
+      "ja_text_sha256": "9e7a2fe3bfc54486c65d63edc1d4cfd8fb1ef441b2624b44d7418407694024be",
+      "ja_text_bytes": 123,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-110",
+      "article_number": "110",
+      "filename": "kokka-koumuin-hou-article-110.md",
+      "ja_text_sha256": "14a94cf63dece2b471f8fcde65c334eb1a30ac030d6d9489d239887ecaba6a07",
+      "ja_text_bytes": 326,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-111",
+      "article_number": "111",
+      "filename": "kokka-koumuin-hou-article-111.md",
+      "ja_text_sha256": "280848de4160a461f7101978aadbbbf679e7c2cdb5700a0600c1bfee96a75659",
+      "ja_text_bytes": 351,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-112",
+      "article_number": "112",
+      "filename": "kokka-koumuin-hou-article-112.md",
+      "ja_text_sha256": "b06ef8daf63f5fdeaa849294402f43f4b1d75c4118ce62502ad9cfa8a61047cc",
+      "ja_text_bytes": 198,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokka-koumuin-hou-art-113",
+      "article_number": "113",
+      "filename": "kokka-koumuin-hou-article-113.md",
+      "ja_text_sha256": "24ff990a145f7257dce089c8c19fc1c11eb7df19d6e03528a14241d011b54040",
+      "ja_text_bytes": 90,
+      "paragraph_count": 1
+    }
+  ]
+}

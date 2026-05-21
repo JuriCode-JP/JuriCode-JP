@@ -1,0 +1,1434 @@
+{
+  "schema_version": "1.0",
+  "law_id": "322AC0000000054",
+  "law_name_ja": "昭和二十二年法律第五十四号（私的独占の禁止及び公正取引の確保に関する法律）",
+  "law_abbrev": "dokusen-kinshi-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/322AC0000000054",
+  "source_xml_path": "cache\\laws\\322AC0000000054.xml",
+  "source_xml_sha256": "9bf432dc47cd4eb6e2035fe4df1b5c335f39e896e54ef3d5248d439746258d8e",
+  "source_xml_bytes": 848777,
+  "source_fetched_at": "2026-05-21",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-21T02:22:56+00:00",
+  "version_date": "1947-04-14",
+  "article_count": 177,
+  "articles": [
+    {
+      "article_id": "dokusen-kinshi-hou-art-1",
+      "article_number": "1",
+      "filename": "dokusen-kinshi-hou-article-1.md",
+      "ja_text_sha256": "c3e3e733e76fbe4b6d6eafe07146803ca464383b0e2ef46c81af23dc5f8bd98c",
+      "ja_text_bytes": 624,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-2",
+      "article_number": "2",
+      "filename": "dokusen-kinshi-hou-article-2.md",
+      "ja_text_sha256": "1fa99591bd6a6abfffd2f7cea5d3c476552afa704febf5b5b246264e96995e6b",
+      "ja_text_bytes": 3760,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-2-2",
+      "article_number": "2-2",
+      "filename": "dokusen-kinshi-hou-article-2-2.md",
+      "ja_text_sha256": "4cbc1e582c7d0db0057a3a72d5d55d277dd25087395e74de4b6302a09964192d",
+      "ja_text_bytes": 7627,
+      "paragraph_count": 15
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-3",
+      "article_number": "3",
+      "filename": "dokusen-kinshi-hou-article-3.md",
+      "ja_text_sha256": "5a0574007f2fc9f81be7ee39a370c282682c4b3f1ee734c4b1b8c74e3f461ec5",
+      "ja_text_bytes": 81,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-6",
+      "article_number": "6",
+      "filename": "dokusen-kinshi-hou-article-6.md",
+      "ja_text_sha256": "a6e97072cf909ec71ab621b311074a0c7e68940b05cba43c2d99dc6721cff45f",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-7",
+      "article_number": "7",
+      "filename": "dokusen-kinshi-hou-article-7.md",
+      "ja_text_sha256": "36af4f263d24c81a3b79d4384d7a42a203d3738b19b6f500b3965f99b74f9f82",
+      "ja_text_bytes": 887,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-7-2",
+      "article_number": "7-2",
+      "filename": "dokusen-kinshi-hou-article-7-2.md",
+      "ja_text_sha256": "b693a1222eea9bce510dc239a5722edd4e6026799d2dbb1817c09c922bdb7f93",
+      "ja_text_bytes": 2383,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-7-3",
+      "article_number": "7-3",
+      "filename": "dokusen-kinshi-hou-article-7-3.md",
+      "ja_text_sha256": "5eae6ce44a81f5ba136000e6d347908eb7fbc059e8b03742708c707353f89697",
+      "ja_text_bytes": 1327,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-7-4",
+      "article_number": "7-4",
+      "filename": "dokusen-kinshi-hou-article-7-4.md",
+      "ja_text_sha256": "7dc0cec2cc450f71ea4dd18a41e124c112f6e936546d47043d82f703e43ca8b1",
+      "ja_text_bytes": 3894,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-7-5",
+      "article_number": "7-5",
+      "filename": "dokusen-kinshi-hou-article-7-5.md",
+      "ja_text_sha256": "0f63cf7e34c29b714d8a034a179e116e9423f487d32ecd41061960cd4a3df036",
+      "ja_text_bytes": 4823,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-7-6",
+      "article_number": "7-6",
+      "filename": "dokusen-kinshi-hou-article-7-6.md",
+      "ja_text_sha256": "f6f0ddcb3297c6b933b0723c3040bb96ada74ce56ef88efb286b71a19969c88b",
+      "ja_text_bytes": 567,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-7-7",
+      "article_number": "7-7",
+      "filename": "dokusen-kinshi-hou-article-7-7.md",
+      "ja_text_sha256": "1e6c38dee345ae93480bd5618e6505cb0ca04c5e28376cc1bd573c1f9ddb0f52",
+      "ja_text_bytes": 1450,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-7-8",
+      "article_number": "7-8",
+      "filename": "dokusen-kinshi-hou-article-7-8.md",
+      "ja_text_sha256": "f636774ec2c1c1a1a5dc34d80290072198f4892dbd82a97f5f64caf2c31ba6ca",
+      "ja_text_bytes": 3169,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-7-9",
+      "article_number": "7-9",
+      "filename": "dokusen-kinshi-hou-article-7-9.md",
+      "ja_text_sha256": "51a9dad600851dea45bf66c0553b2bb27a3d589738ffeb0b1247a7af6157b61d",
+      "ja_text_bytes": 3630,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-8",
+      "article_number": "8",
+      "filename": "dokusen-kinshi-hou-article-8.md",
+      "ja_text_sha256": "781381536d9829c4b944f5dab52d30cfbd6482a8ade6af89a00570eb54940efe",
+      "ja_text_bytes": 96,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-8-2",
+      "article_number": "8-2",
+      "filename": "dokusen-kinshi-hou-article-8-2.md",
+      "ja_text_sha256": "5ec357ffe806262eb113f84586d4c69ea48d65cb73e9f00e47f6f62b5b21a2d8",
+      "ja_text_bytes": 1108,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-8-3",
+      "article_number": "8-3",
+      "filename": "dokusen-kinshi-hou-article-8-3.md",
+      "ja_text_sha256": "f09fbb9b6503096f28a8cac944788a8d2071e73dfe10600a3da003eced22c083",
+      "ja_text_bytes": 744,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-8-4",
+      "article_number": "8-4",
+      "filename": "dokusen-kinshi-hou-article-8-4.md",
+      "ja_text_sha256": "b3c154892eb394b75af512f1b9623a392328baed45f6e0bd557ebfe437f77e43",
+      "ja_text_bytes": 1058,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-9",
+      "article_number": "9",
+      "filename": "dokusen-kinshi-hou-article-9.md",
+      "ja_text_sha256": "b4e59d336f71c22013e01285c6f126c87c4750eff3e040e1d4b3e00484b1820f",
+      "ja_text_bytes": 3498,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-10",
+      "article_number": "10",
+      "filename": "dokusen-kinshi-hou-article-10.md",
+      "ja_text_sha256": "dbd525e60a43cb1575615643eb8d0dbfa453523006ed7afc25edf56ca9dee13b",
+      "ja_text_bytes": 12386,
+      "paragraph_count": 14
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-11",
+      "article_number": "11",
+      "filename": "dokusen-kinshi-hou-article-11.md",
+      "ja_text_sha256": "401a8057f8c223364056631196a9d08def736b15125ba8a93af97d7838644044",
+      "ja_text_bytes": 1734,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-12",
+      "article_number": "12",
+      "filename": "dokusen-kinshi-hou-article-12.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-13",
+      "article_number": "13",
+      "filename": "dokusen-kinshi-hou-article-13.md",
+      "ja_text_sha256": "a25fdbc17a32698a6427bb0b603b19f478808fb2627e9dd0a8e7c0bf8712f2a9",
+      "ja_text_bytes": 707,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-14",
+      "article_number": "14",
+      "filename": "dokusen-kinshi-hou-article-14.md",
+      "ja_text_sha256": "bf1cb359f55df2d6cf080d5d9a77028531ac0d4d9c74a1579d753dee7168e859",
+      "ja_text_bytes": 348,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-15",
+      "article_number": "15",
+      "filename": "dokusen-kinshi-hou-article-15.md",
+      "ja_text_sha256": "63fbb174255741cf34e47256777a033ce5dc165d71edd9d61550ca960db11030",
+      "ja_text_bytes": 1534,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-15-2",
+      "article_number": "15-2",
+      "filename": "dokusen-kinshi-hou-article-15-2.md",
+      "ja_text_sha256": "5777cb9611fad20f49200af24173d750ccab23b71d7133135701e44a10637143",
+      "ja_text_bytes": 2013,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-15-3",
+      "article_number": "15-3",
+      "filename": "dokusen-kinshi-hou-article-15-3.md",
+      "ja_text_sha256": "0ef5f82ed852b55a5104c696b1507f87c74d3639cd526cf9b67b1e2890e4c60b",
+      "ja_text_bytes": 1741,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-16",
+      "article_number": "16",
+      "filename": "dokusen-kinshi-hou-article-16.md",
+      "ja_text_sha256": "1d54f21eff494aaaa34cf5a1028b89cd6fbd786aeca35560ca8e5a4fbbb669da",
+      "ja_text_bytes": 1669,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-17",
+      "article_number": "17",
+      "filename": "dokusen-kinshi-hou-article-17.md",
+      "ja_text_sha256": "d3a25b8715c7ecc39d633cd96071f5f217ba754e17754d59a3f6b00809a59e23",
+      "ja_text_bytes": 156,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-17-2",
+      "article_number": "17-2",
+      "filename": "dokusen-kinshi-hou-article-17-2.md",
+      "ja_text_sha256": "76087936cec35c8a653a3ad9522f7bee4690c39537c6f36f43bc62f5b7598daf",
+      "ja_text_bytes": 923,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-18",
+      "article_number": "18",
+      "filename": "dokusen-kinshi-hou-article-18.md",
+      "ja_text_sha256": "8d9aade69c9272bbb0c3decd15751ab25cb7fdee77b3dcfd40b5f4cdfe03ca8c",
+      "ja_text_bytes": 1063,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-18-2",
+      "article_number": "18-2",
+      "filename": "dokusen-kinshi-hou-article-18-2.md",
+      "ja_text_sha256": "ac4d49fa1df56c1ac82cfe10a69340fc7d97efea5adbe54e8d193dbdaf177eaf",
+      "ja_text_bytes": 1556,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-19",
+      "article_number": "19",
+      "filename": "dokusen-kinshi-hou-article-19.md",
+      "ja_text_sha256": "8a8481675a68de491623168b830aefb41082e7e1176504351b8b033022e4976f",
+      "ja_text_bytes": 69,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-20",
+      "article_number": "20",
+      "filename": "dokusen-kinshi-hou-article-20.md",
+      "ja_text_sha256": "dc876867b2a12a57c51d49c09d369af5c6ab7ab40b0558e09788f5e9b97f707f",
+      "ja_text_bytes": 386,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-20-2",
+      "article_number": "20-2",
+      "filename": "dokusen-kinshi-hou-article-20-2.md",
+      "ja_text_sha256": "de5cc95061ef9e73ffd41cbb1dd65d4a8dd5f301dbc488a04afff1ad4113944f",
+      "ja_text_bytes": 2280,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-20-3",
+      "article_number": "20-3",
+      "filename": "dokusen-kinshi-hou-article-20-3.md",
+      "ja_text_sha256": "813874a3f42c693cd40426035494c5a16cd03752aaa6800fdd1c7c45d2593a71",
+      "ja_text_bytes": 1179,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-20-4",
+      "article_number": "20-4",
+      "filename": "dokusen-kinshi-hou-article-20-4.md",
+      "ja_text_sha256": "e2f56f4cb6034444c5b1939a5ec533e49c1eb037a4b881d7a049564a5a1fdc81",
+      "ja_text_bytes": 1113,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-20-5",
+      "article_number": "20-5",
+      "filename": "dokusen-kinshi-hou-article-20-5.md",
+      "ja_text_sha256": "ba7215be421d0fade2ae5f814e268a82f84eedf1d659dce469b0a5033f12388f",
+      "ja_text_bytes": 1101,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-20-6",
+      "article_number": "20-6",
+      "filename": "dokusen-kinshi-hou-article-20-6.md",
+      "ja_text_sha256": "49b12df544f981b8cd151298acc4336da85241565f8a0786219547cc387d96a1",
+      "ja_text_bytes": 1104,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-20-7",
+      "article_number": "20-7",
+      "filename": "dokusen-kinshi-hou-article-20-7.md",
+      "ja_text_sha256": "97db6847d03eabe807df0e4adb179a38582487615f35d9b3487819d65fa20ac7",
+      "ja_text_bytes": 405,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-21",
+      "article_number": "21",
+      "filename": "dokusen-kinshi-hou-article-21.md",
+      "ja_text_sha256": "617ea258ca512d41b24bd1878776448d636aa4e0942f8f9562807c4f2500b53b",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-22",
+      "article_number": "22",
+      "filename": "dokusen-kinshi-hou-article-22.md",
+      "ja_text_sha256": "b17edd0c7858511807430ec4d5b80e8fe6d4677c189b3a04f43198563a7d1c80",
+      "ja_text_bytes": 435,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-23",
+      "article_number": "23",
+      "filename": "dokusen-kinshi-hou-article-23.md",
+      "ja_text_sha256": "ffc9707a1497275e7d123da09eadd1e1886190e76559a372c8ad5313a5ceeac9",
+      "ja_text_bytes": 2446,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-24",
+      "article_number": "24",
+      "filename": "dokusen-kinshi-hou-article-24.md",
+      "ja_text_sha256": "28752d54d194298d0a50d95c939d06e645effa30d9e55734b51586379e0bed34",
+      "ja_text_bytes": 459,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-25",
+      "article_number": "25",
+      "filename": "dokusen-kinshi-hou-article-25.md",
+      "ja_text_sha256": "687901b4c0b56614c755498c8ffd70873567443fcf704f5581899e4e67e4e4b3",
+      "ja_text_bytes": 614,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-26",
+      "article_number": "26",
+      "filename": "dokusen-kinshi-hou-article-26.md",
+      "ja_text_sha256": "673798d24ae4ad0104927a35c18e4a836fa5e91d827b2f495bef2968b63644cd",
+      "ja_text_bytes": 605,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-27",
+      "article_number": "27",
+      "filename": "dokusen-kinshi-hou-article-27.md",
+      "ja_text_sha256": "34183f81d8b567c61fa3b1bd6c8245f154879894e7a0796f8e6701154ac87937",
+      "ja_text_bytes": 272,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-27-2",
+      "article_number": "27-2",
+      "filename": "dokusen-kinshi-hou-article-27-2.md",
+      "ja_text_sha256": "ff2031f9710fc69af9263fe4c5047f57d54c3008e4e43872f5ef084ab04c891b",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-28",
+      "article_number": "28",
+      "filename": "dokusen-kinshi-hou-article-28.md",
+      "ja_text_sha256": "f39f8cb4fef6ce2b40d18c7c2c69d69a6bb84b139e2d02d8cea8a96442cad64c",
+      "ja_text_bytes": 87,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-29",
+      "article_number": "29",
+      "filename": "dokusen-kinshi-hou-article-29.md",
+      "ja_text_sha256": "1b55e97b74007401bb48e0ea5c32d8be2fcbfa1d906d9bf2a6b498271605f591",
+      "ja_text_bytes": 420,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-30",
+      "article_number": "30",
+      "filename": "dokusen-kinshi-hou-article-30.md",
+      "ja_text_sha256": "ef9ee7e1514bfec2fcd39b9ea8921174abbabe37da7f82e6d3c0192692044b4f",
+      "ja_text_bytes": 774,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-31",
+      "article_number": "31",
+      "filename": "dokusen-kinshi-hou-article-31.md",
+      "ja_text_sha256": "40f02c6e33c1a8753cd09bf9018b01a8c2fb53796a33a8ab188bf2a72c6c3946",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-32",
+      "article_number": "32",
+      "filename": "dokusen-kinshi-hou-article-32.md",
+      "ja_text_sha256": "35d86b41333ad0d9d8f62a852a9f537a260ff97e1ad17ea02373e25413240afb",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-33",
+      "article_number": "33",
+      "filename": "dokusen-kinshi-hou-article-33.md",
+      "ja_text_sha256": "b85de249a6ca5fc10ccb8a413f1bf7f836501d0f1c5db96591d469ee4edf6b90",
+      "ja_text_bytes": 275,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-34",
+      "article_number": "34",
+      "filename": "dokusen-kinshi-hou-article-34.md",
+      "ja_text_sha256": "a0c5d59d467440fd3fff5d9bb13383e1c8399d825dd1aee05fbbdca40656ac58",
+      "ja_text_bytes": 663,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-35",
+      "article_number": "35",
+      "filename": "dokusen-kinshi-hou-article-35.md",
+      "ja_text_sha256": "1f2e3c8f68f5632509058d6a0d60718a8548a92ccc59f5d4a9b94af009bc2997",
+      "ja_text_bytes": 803,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-35-2",
+      "article_number": "35-2",
+      "filename": "dokusen-kinshi-hou-article-35-2.md",
+      "ja_text_sha256": "d8ca29bb73c5b59881e2820dfe2e3e34051f916ad0953871785466c33cad1283",
+      "ja_text_bytes": 420,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-36",
+      "article_number": "36",
+      "filename": "dokusen-kinshi-hou-article-36.md",
+      "ja_text_sha256": "eb8969ac93c92a1ed778dbaf34a4ec24b744ac7d83b1d2a048a4e4849f70a302",
+      "ja_text_bytes": 170,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-37",
+      "article_number": "37",
+      "filename": "dokusen-kinshi-hou-article-37.md",
+      "ja_text_sha256": "07d293ec558e64315aca798cf3b85b33ea9491e5e38eda6fcca26107673c6942",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-38",
+      "article_number": "38",
+      "filename": "dokusen-kinshi-hou-article-38.md",
+      "ja_text_sha256": "90cbad8c006abe4759e9360543a0cc4497605b87a9a65da296abd146809c6174",
+      "ja_text_bytes": 315,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-39",
+      "article_number": "39",
+      "filename": "dokusen-kinshi-hou-article-39.md",
+      "ja_text_sha256": "f78e46b4d833769a85205c021911d3162978af32846469a2cc6d3e3e7ef48060",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-40",
+      "article_number": "40",
+      "filename": "dokusen-kinshi-hou-article-40.md",
+      "ja_text_sha256": "76db1f9d3f3e0d933cc18264b677a150085650ec42fb719c91a66a6a275d8b00",
+      "ja_text_bytes": 327,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-41",
+      "article_number": "41",
+      "filename": "dokusen-kinshi-hou-article-41.md",
+      "ja_text_sha256": "35433efd72fb94c02a2b9e7ee047eb5318139096dae50d42726be5cdd314ea4e",
+      "ja_text_bytes": 285,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-42",
+      "article_number": "42",
+      "filename": "dokusen-kinshi-hou-article-42.md",
+      "ja_text_sha256": "2fd23fa8a7386c1a576bfec68d5081d37f8c688b49249e61261bfb39d8f5f10e",
+      "ja_text_bytes": 153,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-43",
+      "article_number": "43",
+      "filename": "dokusen-kinshi-hou-article-43.md",
+      "ja_text_sha256": "b80ea2a745bb82297dda97df2086515f5d2ed587f8f1c0e1cb3bcd3613336288",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-43-2",
+      "article_number": "43-2",
+      "filename": "dokusen-kinshi-hou-article-43-2.md",
+      "ja_text_sha256": "656cb426646547a1619a0797d3ef7fee6373f1718b4c01fc782b259a15034406",
+      "ja_text_bytes": 991,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-44",
+      "article_number": "44",
+      "filename": "dokusen-kinshi-hou-article-44.md",
+      "ja_text_sha256": "3b29bb647e3a9649b5ecdcee86a40593e0f32a2346902e786e8bd10dac6e5711",
+      "ja_text_bytes": 350,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-45",
+      "article_number": "45",
+      "filename": "dokusen-kinshi-hou-article-45.md",
+      "ja_text_sha256": "293d039990d72259fb0f0ac4559f1ead24c2f1abb720ea6134cf1832c4dc73f6",
+      "ja_text_bytes": 990,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-46",
+      "article_number": "46",
+      "filename": "dokusen-kinshi-hou-article-46.md",
+      "ja_text_sha256": "3c76dad2c68f71a20a6c17201e1131e65001a398295edd1f6a5feff88b8bd9a2",
+      "ja_text_bytes": 563,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-47",
+      "article_number": "47",
+      "filename": "dokusen-kinshi-hou-article-47.md",
+      "ja_text_sha256": "bb5e25c8a79c5743ccdbfa3d1fc95cdb20bbcf3395d688cfb1a67786f9d2690f",
+      "ja_text_bytes": 642,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-48",
+      "article_number": "48",
+      "filename": "dokusen-kinshi-hou-article-48.md",
+      "ja_text_sha256": "766b8ec3921d90c021f835b39fc904f0f9206e42ec39d0e9bc5b0361a86b801a",
+      "ja_text_bytes": 288,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-48-2",
+      "article_number": "48-2",
+      "filename": "dokusen-kinshi-hou-article-48-2.md",
+      "ja_text_sha256": "74668e0f55dd44c74504d7357b999388ee818da776a177223f1f4c3f8cb814a3",
+      "ja_text_bytes": 837,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-48-3",
+      "article_number": "48-3",
+      "filename": "dokusen-kinshi-hou-article-48-3.md",
+      "ja_text_sha256": "36f0e8307d6d14d24935f3ee24affaefeb0d59ac1b4b4bc6cfad283b5cc3d6bc",
+      "ja_text_bytes": 2146,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-48-4",
+      "article_number": "48-4",
+      "filename": "dokusen-kinshi-hou-article-48-4.md",
+      "ja_text_sha256": "1e518bca268c8cf4d49535d18a2a3f7713cc7cc7834f20683a6029262dde858d",
+      "ja_text_bytes": 906,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-48-5",
+      "article_number": "48-5",
+      "filename": "dokusen-kinshi-hou-article-48-5.md",
+      "ja_text_sha256": "845723ca71f94706a39d7f8fc021798237a2da829ce5ffb83d0826dde5a7584b",
+      "ja_text_bytes": 1965,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-48-6",
+      "article_number": "48-6",
+      "filename": "dokusen-kinshi-hou-article-48-6.md",
+      "ja_text_sha256": "c6d2fc7a5a61ba79a02c7966fe6873cf4586e0d85a3676ae2fe59807a95b1bf4",
+      "ja_text_bytes": 585,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-48-7",
+      "article_number": "48-7",
+      "filename": "dokusen-kinshi-hou-article-48-7.md",
+      "ja_text_sha256": "9e592b65f3780a7f6e8ccaef806a7c7fba2f3aea3ddd28eb900803ac80fd1bda",
+      "ja_text_bytes": 2021,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-48-8",
+      "article_number": "48-8",
+      "filename": "dokusen-kinshi-hou-article-48-8.md",
+      "ja_text_sha256": "74be3a0a82236b9322c108cd478b42543c76bc245609e5b3d391dbbef4b05b86",
+      "ja_text_bytes": 891,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-48-9",
+      "article_number": "48-9",
+      "filename": "dokusen-kinshi-hou-article-48-9.md",
+      "ja_text_sha256": "fe6825d0d7324fdc19c38b9aabfac70a5976f65856f823e5d2682aad20c7b427",
+      "ja_text_bytes": 1965,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-49",
+      "article_number": "49",
+      "filename": "dokusen-kinshi-hou-article-49.md",
+      "ja_text_sha256": "d91b82b72e49e0283117321718768394dced11bbe613bdbd0d64d4b02fe63db2",
+      "ja_text_bytes": 483,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-50",
+      "article_number": "50",
+      "filename": "dokusen-kinshi-hou-article-50.md",
+      "ja_text_sha256": "a3a40430eeb7137333e27b1398d043172f918a190567efedb431898a5fe0423a",
+      "ja_text_bytes": 380,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-51",
+      "article_number": "51",
+      "filename": "dokusen-kinshi-hou-article-51.md",
+      "ja_text_sha256": "d43bda4c581838ed0a2476b2ce011d4356fd6949e17b0bd4d0bee16e576fae61",
+      "ja_text_bytes": 284,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-52",
+      "article_number": "52",
+      "filename": "dokusen-kinshi-hou-article-52.md",
+      "ja_text_sha256": "10693fa4d661ac10b84878403871f3bf645a5477bbfc33a7b2f3e5c2d5e95592",
+      "ja_text_bytes": 1132,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-53",
+      "article_number": "53",
+      "filename": "dokusen-kinshi-hou-article-53.md",
+      "ja_text_sha256": "a3cd3271a67dd6b87673c3faf8018d30c5451fa7d6271f3f54203dbb0a35f484",
+      "ja_text_bytes": 428,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-54",
+      "article_number": "54",
+      "filename": "dokusen-kinshi-hou-article-54.md",
+      "ja_text_sha256": "1bd71a3334c21f03cb2b1f2a6e76a80c3283ab7dfe15bff65dff042c9f3addba",
+      "ja_text_bytes": 1218,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-55",
+      "article_number": "55",
+      "filename": "dokusen-kinshi-hou-article-55.md",
+      "ja_text_sha256": "91183c3f52585a7cb55c412f4b6e4a5d85cf79c018de13415cf39006294addda",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-56",
+      "article_number": "56",
+      "filename": "dokusen-kinshi-hou-article-56.md",
+      "ja_text_sha256": "03cf3330bafb95d10650769c5b5cc80bbeba1b278e40a7041f5a4f7d7ae07aff",
+      "ja_text_bytes": 713,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-57",
+      "article_number": "57",
+      "filename": "dokusen-kinshi-hou-article-57.md",
+      "ja_text_sha256": "81937ddfb82e85c250fff4d6d66c8737e2e2c9af5983cbb0c1df3b69f662f215",
+      "ja_text_bytes": 827,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-58",
+      "article_number": "58",
+      "filename": "dokusen-kinshi-hou-article-58.md",
+      "ja_text_sha256": "9337d01db82ee1995290f132e95675764bdcacd10907638ae5fb5f21ce6180c6",
+      "ja_text_bytes": 1244,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-59",
+      "article_number": "59",
+      "filename": "dokusen-kinshi-hou-article-59.md",
+      "ja_text_sha256": "4d4ef0b356c311cb0f67565dac15f350251acd48071768dae723dacaa35787cc",
+      "ja_text_bytes": 356,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-60",
+      "article_number": "60",
+      "filename": "dokusen-kinshi-hou-article-60.md",
+      "ja_text_sha256": "b3ea54633d7ec48d4d066c46c4c01f2657ddbe19061711914c71366904f55884",
+      "ja_text_bytes": 234,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-61",
+      "article_number": "61",
+      "filename": "dokusen-kinshi-hou-article-61.md",
+      "ja_text_sha256": "91b78508c5621d449feba7fe2fd7524fc1e5e9151bc01f6b53300d34e820ce33",
+      "ja_text_bytes": 569,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-62",
+      "article_number": "62",
+      "filename": "dokusen-kinshi-hou-article-62.md",
+      "ja_text_sha256": "ebc0459e44d026746811f4d8cd6c96ee4b17c5eda47283946541537f34a34d76",
+      "ja_text_bytes": 2019,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-63",
+      "article_number": "63",
+      "filename": "dokusen-kinshi-hou-article-63.md",
+      "ja_text_sha256": "93209109e8f1cf66babfafa83a2807550960b7fce7e3ee6e0d1d066c0a9e1a24",
+      "ja_text_bytes": 1787,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-64",
+      "article_number": "64",
+      "filename": "dokusen-kinshi-hou-article-64.md",
+      "ja_text_sha256": "498aab6bbcf75b0a07e5f2467849ec2f9cf83f4627cc32cec975c475653af192",
+      "ja_text_bytes": 1133,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-65",
+      "article_number": "65",
+      "filename": "dokusen-kinshi-hou-article-65.md",
+      "ja_text_sha256": "a6d9af8d57fa6ff96c99edd8d0324921ab24a2ff3015b39f8b40898969351ef0",
+      "ja_text_bytes": 640,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-66",
+      "article_number": "66",
+      "filename": "dokusen-kinshi-hou-article-66.md",
+      "ja_text_sha256": "1433dd60de20265a213e8d1f3cec08c96f09facbafced5e681f4c606a8f3a4bb",
+      "ja_text_bytes": 54,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-67",
+      "article_number": "67",
+      "filename": "dokusen-kinshi-hou-article-67.md",
+      "ja_text_sha256": "cbb383bc7718068c67977d07b6904cb79dc254ad4319db405a926ad46f6c5126",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-68",
+      "article_number": "68",
+      "filename": "dokusen-kinshi-hou-article-68.md",
+      "ja_text_sha256": "d292bb69f9fe217aa7b7c2e4d57f9ae50991b5626e53ab924e65c943e3110b91",
+      "ja_text_bytes": 1117,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-69",
+      "article_number": "69",
+      "filename": "dokusen-kinshi-hou-article-69.md",
+      "ja_text_sha256": "f3699671d24dafcce80e5cb55747d02347cc6baab5339c042adf5cdf04f64417",
+      "ja_text_bytes": 1232,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70",
+      "article_number": "70",
+      "filename": "dokusen-kinshi-hou-article-70.md",
+      "ja_text_sha256": "5caf2d33602f85052dd9f5633eb54a16254b052041da430a9c14143d8914c924",
+      "ja_text_bytes": 1237,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-2",
+      "article_number": "70-2",
+      "filename": "dokusen-kinshi-hou-article-70-2.md",
+      "ja_text_sha256": "0684d5bf55325357c6cb71da379e1cc47c1b7554943593ff7e5230f1c8105d26",
+      "ja_text_bytes": 448,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-3",
+      "article_number": "70-3",
+      "filename": "dokusen-kinshi-hou-article-70-3.md",
+      "ja_text_sha256": "df2b6d70ba924f42b32629ba611bcb6d50297f27261eef93cf391f9fbb7f26de",
+      "ja_text_bytes": 951,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-4",
+      "article_number": "70-4",
+      "filename": "dokusen-kinshi-hou-article-70-4.md",
+      "ja_text_sha256": "9af699d21624482cd3a6afb752128242468e0848072e66dad083ff35c4708092",
+      "ja_text_bytes": 797,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-5",
+      "article_number": "70-5",
+      "filename": "dokusen-kinshi-hou-article-70-5.md",
+      "ja_text_sha256": "465b02ef23bfe00d1c7dcf2fffe3e571e8353c606d455fb4649466c28b64c028",
+      "ja_text_bytes": 691,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-6",
+      "article_number": "70-6",
+      "filename": "dokusen-kinshi-hou-article-70-6.md",
+      "ja_text_sha256": "bf355e5d89b6e4f80ae2422663344cae4a685d680eecc567a20f01716364c1ce",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-7",
+      "article_number": "70-7",
+      "filename": "dokusen-kinshi-hou-article-70-7.md",
+      "ja_text_sha256": "fec0924c3cffc1948472d9d07aaeb9369d13d45a922e6644054e1fc8728ffc1a",
+      "ja_text_bytes": 501,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-8",
+      "article_number": "70-8",
+      "filename": "dokusen-kinshi-hou-article-70-8.md",
+      "ja_text_sha256": "927687e9d20079730f77da83920585f0547546812b4c0afb6920051a20e3071a",
+      "ja_text_bytes": 903,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-9",
+      "article_number": "70-9",
+      "filename": "dokusen-kinshi-hou-article-70-9.md",
+      "ja_text_sha256": "8662e6150592c5d0e6e892bd1f96da03692c3c5ca5e8d2b80fb5355dc95163cf",
+      "ja_text_bytes": 1008,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-10",
+      "article_number": "70-10",
+      "filename": "dokusen-kinshi-hou-article-70-10.md",
+      "ja_text_sha256": "d8e8de9f32af4c02fcf599304b3348dbec7666e29190528ee98a92e4c560ed63",
+      "ja_text_bytes": 213,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-11",
+      "article_number": "70-11",
+      "filename": "dokusen-kinshi-hou-article-70-11.md",
+      "ja_text_sha256": "413953d80b70decf547f05608d47839d130aa3b2a95b34a8b7d53901e5487847",
+      "ja_text_bytes": 516,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-70-12",
+      "article_number": "70-12",
+      "filename": "dokusen-kinshi-hou-article-70-12.md",
+      "ja_text_sha256": "eca9722322adbb93c89b7d0b6b05ccbdfa6b66fb0c3016105ead64eac0080198",
+      "ja_text_bytes": 372,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-71",
+      "article_number": "71",
+      "filename": "dokusen-kinshi-hou-article-71.md",
+      "ja_text_sha256": "822dd5c4e0ca6e8bd11dbfbe45b65330a5ec4c11952174197c6f63647f5d6621",
+      "ja_text_bytes": 417,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-72",
+      "article_number": "72",
+      "filename": "dokusen-kinshi-hou-article-72.md",
+      "ja_text_sha256": "6b8f15127c84943d2784aa64e4b120500515f0f744237e97e1779615d7dd4a4a",
+      "ja_text_bytes": 93,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-73",
+      "article_number": "73",
+      "filename": "dokusen-kinshi-hou-article-73.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-74",
+      "article_number": "74",
+      "filename": "dokusen-kinshi-hou-article-74.md",
+      "ja_text_sha256": "63db2a871952feadcb3796e8b74d47ffcf11d9338acf776f9e5467f3ade13f31",
+      "ja_text_bytes": 649,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-75",
+      "article_number": "75",
+      "filename": "dokusen-kinshi-hou-article-75.md",
+      "ja_text_sha256": "68cf9e0c7d0a95be4ca65e5bae0edb8e59e962d7a19518805db68f0086be1b50",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-76",
+      "article_number": "76",
+      "filename": "dokusen-kinshi-hou-article-76.md",
+      "ja_text_sha256": "d7dea91213b7ef369a4236b3da6e78eab08184f614d0968365f5dd3278292782",
+      "ja_text_bytes": 761,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-77",
+      "article_number": "77",
+      "filename": "dokusen-kinshi-hou-article-77.md",
+      "ja_text_sha256": "f84db5b0ab59a62a2df4583cf23616087f2139f63176be93b42c9c6189a2aea1",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-78",
+      "article_number": "78",
+      "filename": "dokusen-kinshi-hou-article-78.md",
+      "ja_text_sha256": "23510e9235da73d6b339967e09bc04adfd6e076b46e492a8ba9e057ff39e1b42",
+      "ja_text_bytes": 506,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-79",
+      "article_number": "79",
+      "filename": "dokusen-kinshi-hou-article-79.md",
+      "ja_text_sha256": "fc8ad3178b76f80677d94dd2285fb228b7c6c263524594fd495fcf4be9d08025",
+      "ja_text_bytes": 664,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-80",
+      "article_number": "80",
+      "filename": "dokusen-kinshi-hou-article-80.md",
+      "ja_text_sha256": "482aa083bca62ebead1e19737816ea81ab2d4d9c57e8bbb807a45d32876b4d01",
+      "ja_text_bytes": 1992,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-81",
+      "article_number": "81",
+      "filename": "dokusen-kinshi-hou-article-81.md",
+      "ja_text_sha256": "639d089701225f0146e3fe37adb469208da8db264ef2d7fb7eb681e31db30362",
+      "ja_text_bytes": 2024,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-82",
+      "article_number": "82",
+      "filename": "dokusen-kinshi-hou-article-82.md",
+      "ja_text_sha256": "523cd5f9d479979c782e9a01715fc7c401ef4fe464151dcc513994c7a9992b4d",
+      "ja_text_bytes": 1280,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-83",
+      "article_number": "83",
+      "filename": "dokusen-kinshi-hou-article-83.md",
+      "ja_text_sha256": "0c348bcd29fd361c3ef2c410c439e5163fc459b8967ebe9eb04799a2a95729a7",
+      "ja_text_bytes": 1390,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-84",
+      "article_number": "84",
+      "filename": "dokusen-kinshi-hou-article-84.md",
+      "ja_text_sha256": "3ae0f7bb375327aff7b9ff5c5e110d701f21ae1ba8765fe76f8a2ce265d81c0e",
+      "ja_text_bytes": 422,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-84-2",
+      "article_number": "84-2",
+      "filename": "dokusen-kinshi-hou-article-84-2.md",
+      "ja_text_sha256": "925c5da3ad60203eb29c32a6bf5ec1c4954a8f08890d0413a1c48a5bc7d1beca",
+      "ja_text_bytes": 770,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-84-3",
+      "article_number": "84-3",
+      "filename": "dokusen-kinshi-hou-article-84-3.md",
+      "ja_text_sha256": "0aa6f323818ce1d79d6757477ed432e36f74e6dd98f1a6074d5f1f5653e6afe7",
+      "ja_text_bytes": 123,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-84-4",
+      "article_number": "84-4",
+      "filename": "dokusen-kinshi-hou-article-84-4.md",
+      "ja_text_sha256": "01df93d8ff713e68b471e2b12fe3cde5d43f66c090e40800da11c1768f7ff64f",
+      "ja_text_bytes": 339,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-85",
+      "article_number": "85",
+      "filename": "dokusen-kinshi-hou-article-85.md",
+      "ja_text_sha256": "71461bba83ad24dea05a8bf676d96d4308080320393abdb09731cbe3b4e093dd",
+      "ja_text_bytes": 87,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-85-2",
+      "article_number": "85-2",
+      "filename": "dokusen-kinshi-hou-article-85-2.md",
+      "ja_text_sha256": "770bf05cbb3c4c49e725a5729b56f87ea20ff5eaf04b22b4e004cd5d21e30db1",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-86",
+      "article_number": "86",
+      "filename": "dokusen-kinshi-hou-article-86.md",
+      "ja_text_sha256": "8de2e52d86baf434e0ac039c05f956e5e115f2cdd27c6993366f82a7c664c248",
+      "ja_text_bytes": 556,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-87",
+      "article_number": "87",
+      "filename": "dokusen-kinshi-hou-article-87.md",
+      "ja_text_sha256": "4785a76e0f055f12af387dae7ccf86e590de2cf69e7a33cee3348a9945f5559a",
+      "ja_text_bytes": 489,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-87-2",
+      "article_number": "87-2",
+      "filename": "dokusen-kinshi-hou-article-87-2.md",
+      "ja_text_sha256": "bb5a03aab71a0167cab0c60d6756927f6a780859a3bed59ce2cd8346c42a56d5",
+      "ja_text_bytes": 669,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-88",
+      "article_number": "88",
+      "filename": "dokusen-kinshi-hou-article-88.md",
+      "ja_text_sha256": "96feec9b5d02f974926226e848a9b686d5d95211296f29d18cccac758d664975",
+      "ja_text_bytes": 297,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-88-2",
+      "article_number": "88-2",
+      "filename": "dokusen-kinshi-hou-article-88-2.md",
+      "ja_text_sha256": "e44897f65ba407568c20690b5daebceaad1e523c2d0ff77bd01e4df80409b69f",
+      "ja_text_bytes": 369,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-89",
+      "article_number": "89",
+      "filename": "dokusen-kinshi-hou-article-89.md",
+      "ja_text_sha256": "928de076af5c73513cfae6aa70c0f901f1d2f008de4cb1e602cd1d87ed0b4412",
+      "ja_text_bytes": 164,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-90",
+      "article_number": "90",
+      "filename": "dokusen-kinshi-hou-article-90.md",
+      "ja_text_sha256": "cdd3f614b526ecabb184f951a5ed192d3aa391d25561497eda510d3643a3eb8e",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-91",
+      "article_number": "91",
+      "filename": "dokusen-kinshi-hou-article-91.md",
+      "ja_text_sha256": "d97661d45beadd21304d8d92e15677bd68844b3931a239f790d52eba50999474",
+      "ja_text_bytes": 348,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-91-2",
+      "article_number": "91-2",
+      "filename": "dokusen-kinshi-hou-article-91-2.md",
+      "ja_text_sha256": "1775d87319e5bdae4021b4826a9a075f2824453aafde3ce6d501107da86aec6d",
+      "ja_text_bytes": 93,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-92",
+      "article_number": "92",
+      "filename": "dokusen-kinshi-hou-article-92.md",
+      "ja_text_sha256": "cfb1ae14e4b16001d93ce7ca67e3b8bbde1b68cccba65ac894bba4c8bda1c5b5",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-93",
+      "article_number": "93",
+      "filename": "dokusen-kinshi-hou-article-93.md",
+      "ja_text_sha256": "63950bcb12ae559dcede8ef5c4dbffd6df12fc2f2a1cbb748cd1b28d7502a7ee",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-94",
+      "article_number": "94",
+      "filename": "dokusen-kinshi-hou-article-94.md",
+      "ja_text_sha256": "4c86a01fa76a09cdcb8541257fc2de39e13c0a725e2363e3621d2a5a2cd5c2a2",
+      "ja_text_bytes": 123,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-94-2",
+      "article_number": "94-2",
+      "filename": "dokusen-kinshi-hou-article-94-2.md",
+      "ja_text_sha256": "2d739ce2669dcfb958ae3c1d0b850b664f10abf44188b36e586dcf18a52507e1",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-94-3",
+      "article_number": "94-3",
+      "filename": "dokusen-kinshi-hou-article-94-3.md",
+      "ja_text_sha256": "a1069b6d861695afecd974c24a54d0a34e5b2fb7fb9232472c1a5a39eb06ebd3",
+      "ja_text_bytes": 328,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-95",
+      "article_number": "95",
+      "filename": "dokusen-kinshi-hou-article-95.md",
+      "ja_text_sha256": "3d96f34331e85e27a3ba20ec517165337a9f695efa4c525192948f75794fff59",
+      "ja_text_bytes": 1672,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-95-2",
+      "article_number": "95-2",
+      "filename": "dokusen-kinshi-hou-article-95-2.md",
+      "ja_text_sha256": "46ccd5407af937b2233f65c0cc11ff461109fb7bfc219666f1826754c4b56726",
+      "ja_text_bytes": 531,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-95-3",
+      "article_number": "95-3",
+      "filename": "dokusen-kinshi-hou-article-95-3.md",
+      "ja_text_sha256": "4ce6e839992a9e50b8b7d4c2bf777fb8569d88b83fab9fa3ea4cb91554805e90",
+      "ja_text_bytes": 869,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-95-4",
+      "article_number": "95-4",
+      "filename": "dokusen-kinshi-hou-article-95-4.md",
+      "ja_text_sha256": "4a6a9f91b99325197e1daeb74229ad4050d457b6b3ff46446d7acd5c0c567cde",
+      "ja_text_bytes": 413,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-96",
+      "article_number": "96",
+      "filename": "dokusen-kinshi-hou-article-96.md",
+      "ja_text_sha256": "f7c0b21657972d60af7ae0196e4a8d83f854b0baaeb7f55b77475fb199755acb",
+      "ja_text_bytes": 567,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-97",
+      "article_number": "97",
+      "filename": "dokusen-kinshi-hou-article-97.md",
+      "ja_text_sha256": "6d51de377c9b710ab8d0f8be381f7d5fc8df9e55ff43cb4c88b53293a3ff94f5",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-98",
+      "article_number": "98",
+      "filename": "dokusen-kinshi-hou-article-98.md",
+      "ja_text_sha256": "89c9e11c82013e2e755bf52e62c07ee3f4614913201f7b522c280f2c31cdebe6",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-99",
+      "article_number": "99",
+      "filename": "dokusen-kinshi-hou-article-99.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-100",
+      "article_number": "100",
+      "filename": "dokusen-kinshi-hou-article-100.md",
+      "ja_text_sha256": "5690175de018f28565f417225a72a5461986bec47a921ab9b69899c844b7a696",
+      "ja_text_bytes": 724,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-101",
+      "article_number": "101",
+      "filename": "dokusen-kinshi-hou-article-101.md",
+      "ja_text_sha256": "d42871d4077dd71f8b661e36e6b467e174c45657fa0bc55031cf79b37d53f650",
+      "ja_text_bytes": 866,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-102",
+      "article_number": "102",
+      "filename": "dokusen-kinshi-hou-article-102.md",
+      "ja_text_sha256": "b6979f534bd17e8103dc22b71af257c2a37e041aab184c14599d87a8bfd6bed1",
+      "ja_text_bytes": 3279,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-103",
+      "article_number": "103",
+      "filename": "dokusen-kinshi-hou-article-103.md",
+      "ja_text_sha256": "7fc18d3d033bba211a16b8223bc8a89f575f921daeba390cf864a2ec87db1255",
+      "ja_text_bytes": 1069,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-103-2",
+      "article_number": "103-2",
+      "filename": "dokusen-kinshi-hou-article-103-2.md",
+      "ja_text_sha256": "e470880505bdb58b917e50c637627a23525d9b402bee26e20ee2e48ab17ee6d1",
+      "ja_text_bytes": 1345,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-103-3",
+      "article_number": "103-3",
+      "filename": "dokusen-kinshi-hou-article-103-3.md",
+      "ja_text_sha256": "b438ae3d8fddca173292665cc294e4cf88d45156f323e6e30b9706bf2eb101f3",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-104",
+      "article_number": "104",
+      "filename": "dokusen-kinshi-hou-article-104.md",
+      "ja_text_sha256": "7e52be4567a799cedbe5a9224b9ea016e3b5b8ed6b3f32a01fd56eeca53b9c49",
+      "ja_text_bytes": 389,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-105",
+      "article_number": "105",
+      "filename": "dokusen-kinshi-hou-article-105.md",
+      "ja_text_sha256": "f3fb9dfff69ab141f0ccee43335c54e541f448449b8712032b4be4b44ac3a891",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-106",
+      "article_number": "106",
+      "filename": "dokusen-kinshi-hou-article-106.md",
+      "ja_text_sha256": "7910bc5809ae52a08bda7e294ab8baa2dab28cd0f1dee23a5ab9cc4d870509f9",
+      "ja_text_bytes": 282,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-107",
+      "article_number": "107",
+      "filename": "dokusen-kinshi-hou-article-107.md",
+      "ja_text_sha256": "a3bae466758199c5b1d5ff527f2c4d89f3457d8fb938e63455982de943a488b8",
+      "ja_text_bytes": 335,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-107-2",
+      "article_number": "107-2",
+      "filename": "dokusen-kinshi-hou-article-107-2.md",
+      "ja_text_sha256": "6e082fff272bd350bc65f46d0bb68fc69818de6823b2f2cc0773239d1c2ec9e6",
+      "ja_text_bytes": 288,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-108",
+      "article_number": "108",
+      "filename": "dokusen-kinshi-hou-article-108.md",
+      "ja_text_sha256": "5d741bd8833abd3ffa90c544ff27e871fc0218968d5b575f7aeedf847e36a716",
+      "ja_text_bytes": 270,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-109",
+      "article_number": "109",
+      "filename": "dokusen-kinshi-hou-article-109.md",
+      "ja_text_sha256": "8ce6b340ce71abf938b884e1dde7d31b1ac728e8f9ab97c212c4b2811a0c0bc0",
+      "ja_text_bytes": 886,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-110",
+      "article_number": "110",
+      "filename": "dokusen-kinshi-hou-article-110.md",
+      "ja_text_sha256": "1a29cd61786bee2d1425ad228a7220149d0cdfb947e67e8e57b02b5c5aa4866d",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-111",
+      "article_number": "111",
+      "filename": "dokusen-kinshi-hou-article-111.md",
+      "ja_text_sha256": "824fe952184e2f7b949295c1048c63e9db92f03a0f7f20113679b5ca924b8860",
+      "ja_text_bytes": 534,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-112",
+      "article_number": "112",
+      "filename": "dokusen-kinshi-hou-article-112.md",
+      "ja_text_sha256": "6f1ad0cd97240a184ff14e6b5bf4f681be338ede9830f1b01578f88654f0491b",
+      "ja_text_bytes": 399,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-113",
+      "article_number": "113",
+      "filename": "dokusen-kinshi-hou-article-113.md",
+      "ja_text_sha256": "a22bc24577b246f1808690cf4cc886bcf0cd767fa31a47cd95e0c9f06bc29940",
+      "ja_text_bytes": 261,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-114",
+      "article_number": "114",
+      "filename": "dokusen-kinshi-hou-article-114.md",
+      "ja_text_sha256": "32b1dc803da9a3f7abfe43ec54ee356348ae1a916a5674196e6ce66099d10ce8",
+      "ja_text_bytes": 781,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-114-2",
+      "article_number": "114-2",
+      "filename": "dokusen-kinshi-hou-article-114-2.md",
+      "ja_text_sha256": "4bc15f805f92239362bcb4b123f3930c07ca79c1cfec652c26c0d7b9af8c16dd",
+      "ja_text_bytes": 805,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-114-3",
+      "article_number": "114-3",
+      "filename": "dokusen-kinshi-hou-article-114-3.md",
+      "ja_text_sha256": "fdda4e652d6a1318098197bb1ebbb6aee9c4e685132aef21ac825b6a1e53f227",
+      "ja_text_bytes": 1331,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-115",
+      "article_number": "115",
+      "filename": "dokusen-kinshi-hou-article-115.md",
+      "ja_text_sha256": "b08e8d62f98b176fb86f45a3d6e0ef5b0873f2dc1cd5e7b3e0177eb3cb4964c7",
+      "ja_text_bytes": 144,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-116",
+      "article_number": "116",
+      "filename": "dokusen-kinshi-hou-article-116.md",
+      "ja_text_sha256": "b4a6228009b77f9d5540c27c6314612411bf14201aab2e8c2af56a98648da6a7",
+      "ja_text_bytes": 835,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-117",
+      "article_number": "117",
+      "filename": "dokusen-kinshi-hou-article-117.md",
+      "ja_text_sha256": "63a1c00cb9282b1e4ca2629036b529ff78ca71ae0a5872e827fad52af7d5e4ab",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "dokusen-kinshi-hou-art-118",
+      "article_number": "118",
+      "filename": "dokusen-kinshi-hou-article-118.md",
+      "ja_text_sha256": "18880fa9334fb687b5cc557fae203471459a3e60cb10a82ca255baa92a69b41d",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    }
+  ]
+}

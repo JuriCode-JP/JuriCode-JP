@@ -1,0 +1,506 @@
+{
+  "schema_version": "1.0",
+  "law_id": "403AC0000000090",
+  "law_name_ja": "借地借家法",
+  "law_abbrev": "shakuchi-shakka-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/403AC0000000090",
+  "source_xml_path": "cache\\laws\\403AC0000000090.xml",
+  "source_xml_sha256": "269cbfc9e025becc3f675143b85423dc4d68fe83e8151c8a897135c403ca5612",
+  "source_xml_bytes": 120724,
+  "source_fetched_at": "2026-05-21",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-21T03:53:37+00:00",
+  "version_date": "1991-10-04",
+  "article_count": 61,
+  "articles": [
+    {
+      "article_id": "shakuchi-shakka-hou-art-1",
+      "article_number": "1",
+      "filename": "shakuchi-shakka-hou-article-1.md",
+      "ja_text_sha256": "97d2a57b820a4d6699e4628ac4621e69f3f5a3a74ed33bd716a2647dd41fbae1",
+      "ja_text_bytes": 309,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-2",
+      "article_number": "2",
+      "filename": "shakuchi-shakka-hou-article-2.md",
+      "ja_text_sha256": "1baed7c4408881c809b6b1758c70aaabfd926e0b77b575678ec519dfdc225f1d",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-3",
+      "article_number": "3",
+      "filename": "shakuchi-shakka-hou-article-3.md",
+      "ja_text_sha256": "3d6a99308b9b4025868c607c1578049722e5d9a1450a5c21738903800daf887c",
+      "ja_text_bytes": 144,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-4",
+      "article_number": "4",
+      "filename": "shakuchi-shakka-hou-article-4.md",
+      "ja_text_sha256": "3636a49e0b2988b03e7a1ff80f6ab6c74bad4a13f35f928b005b7cb2560194eb",
+      "ja_text_bytes": 285,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-5",
+      "article_number": "5",
+      "filename": "shakuchi-shakka-hou-article-5.md",
+      "ja_text_sha256": "1ee20c58b306ebd73a991cb11290213c9c5493c15eb1d92715576adcdeeae66f",
+      "ja_text_bytes": 796,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-6",
+      "article_number": "6",
+      "filename": "shakuchi-shakka-hou-article-6.md",
+      "ja_text_sha256": "58d383bbcc6b8682ae66a6500a6fb03a2575d688ea0237a90adc2c34a117cb12",
+      "ja_text_bytes": 564,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-7",
+      "article_number": "7",
+      "filename": "shakuchi-shakka-hou-article-7.md",
+      "ja_text_sha256": "68e65de318e2101daeb88f09c00d170081892a7f7a77e8a2e6625dfceb46478c",
+      "ja_text_bytes": 1537,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-8",
+      "article_number": "8",
+      "filename": "shakuchi-shakka-hou-article-8.md",
+      "ja_text_sha256": "44cc148e5cb6f02da67cba6a325979530605f088837861ac5e5cffa7314a0ad6",
+      "ja_text_bytes": 1238,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-9",
+      "article_number": "9",
+      "filename": "shakuchi-shakka-hou-article-9.md",
+      "ja_text_sha256": "22f59585df719c6154573d30620f4e1059eb46cd0c4de6e8113d63bde038ccf4",
+      "ja_text_bytes": 93,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-10",
+      "article_number": "10",
+      "filename": "shakuchi-shakka-hou-article-10.md",
+      "ja_text_sha256": "c13540d2c2a0901a07d60bfbb61350f3d407e9b7ce0efd6cf3644e448234d403",
+      "ja_text_bytes": 701,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-11",
+      "article_number": "11",
+      "filename": "shakuchi-shakka-hou-article-11.md",
+      "ja_text_sha256": "eb10b23292f45123490a650735eb50fc7fd9423792b87fc7d9542bf8f87ba3c1",
+      "ja_text_bytes": 1591,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-12",
+      "article_number": "12",
+      "filename": "shakuchi-shakka-hou-article-12.md",
+      "ja_text_sha256": "e753dba4fecdd663d6a416a3bae36718322aadd055a4c69186bca32de952d9bf",
+      "ja_text_bytes": 714,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-13",
+      "article_number": "13",
+      "filename": "shakuchi-shakka-hou-article-13.md",
+      "ja_text_sha256": "dbeba456d6e729c7091fee20fe1ccc24e309d1acc85cb990fbe02d202f59924c",
+      "ja_text_bytes": 826,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-14",
+      "article_number": "14",
+      "filename": "shakuchi-shakka-hou-article-14.md",
+      "ja_text_sha256": "f1f39456e65bda54dbb1532bc5466f4963e26e663322f4b53b8a66bae4d2fcb5",
+      "ja_text_bytes": 444,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-15",
+      "article_number": "15",
+      "filename": "shakuchi-shakka-hou-article-15.md",
+      "ja_text_sha256": "95b5a1d73db057917e0366b60048d17b63cc6ed042b65822654cfd43c89f3494",
+      "ja_text_bytes": 350,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-16",
+      "article_number": "16",
+      "filename": "shakuchi-shakka-hou-article-16.md",
+      "ja_text_sha256": "8e7ac0eb3e62beb12b5166d5e7fe21a58374e59e1681d8b67534335038822162",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-17",
+      "article_number": "17",
+      "filename": "shakuchi-shakka-hou-article-17.md",
+      "ja_text_sha256": "c37a28c5fad346922fbb1bc5a0a5b24f15b5e1bee9d5717a6b07dfb38634608c",
+      "ja_text_bytes": 1804,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-18",
+      "article_number": "18",
+      "filename": "shakuchi-shakka-hou-article-18.md",
+      "ja_text_sha256": "8131a9219b892b354b51adeffa0642d30fc6156743bfded9e0fbc52ebef65c27",
+      "ja_text_bytes": 1321,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-19",
+      "article_number": "19",
+      "filename": "shakuchi-shakka-hou-article-19.md",
+      "ja_text_sha256": "9e5f9e205085c6fdc28d341b4c5c17056ce9157847fddddf905e8f991b287d53",
+      "ja_text_bytes": 2247,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-20",
+      "article_number": "20",
+      "filename": "shakuchi-shakka-hou-article-20.md",
+      "ja_text_sha256": "e01eafbab3d2d17edad416f616865146bb5bf34294d19fee087aba350d567678",
+      "ja_text_bytes": 1364,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-21",
+      "article_number": "21",
+      "filename": "shakuchi-shakka-hou-article-21.md",
+      "ja_text_sha256": "98d31bdb436e1f8e379c37aa6f7a82bf8d7182fc0e2d6cc58adf2f9710aeb950",
+      "ja_text_bytes": 141,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-22",
+      "article_number": "22",
+      "filename": "shakuchi-shakka-hou-article-22.md",
+      "ja_text_sha256": "24f7ed6ee0c595755e3c1268c56879955bea29c3c90d0fd4213472d31d282c6b",
+      "ja_text_bytes": 1085,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-23",
+      "article_number": "23",
+      "filename": "shakuchi-shakka-hou-article-23.md",
+      "ja_text_sha256": "861e5795d5a89ee58a92c22977867797f53b9ace579ec4bc2d4334eee959f6b7",
+      "ja_text_bytes": 892,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-24",
+      "article_number": "24",
+      "filename": "shakuchi-shakka-hou-article-24.md",
+      "ja_text_sha256": "6239374247ba033bfdb744408cc2ad5e8783d843d92ba55fc16e27160c5b3b03",
+      "ja_text_bytes": 1303,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-25",
+      "article_number": "25",
+      "filename": "shakuchi-shakka-hou-article-25.md",
+      "ja_text_sha256": "caa24dc86338e4f2fa101d9f6dd31be7ba3bf8566a0798c0b4dcdca7d1b34285",
+      "ja_text_bytes": 261,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-26",
+      "article_number": "26",
+      "filename": "shakuchi-shakka-hou-article-26.md",
+      "ja_text_sha256": "6e1501292fbbdfb8d4d07175decf61f75b24dfe1db3bd0975a5906336e24104e",
+      "ja_text_bytes": 958,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-27",
+      "article_number": "27",
+      "filename": "shakuchi-shakka-hou-article-27.md",
+      "ja_text_sha256": "0405cbd5fbe172e8a9ac2808485d6a24696d052c7676ebd49ed372bdd3ed8340",
+      "ja_text_bytes": 326,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-28",
+      "article_number": "28",
+      "filename": "shakuchi-shakka-hou-article-28.md",
+      "ja_text_sha256": "522447671437c6a7638a519ed4f3acbfcb439be9859a341221ca61544d0d8db0",
+      "ja_text_bytes": 678,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-29",
+      "article_number": "29",
+      "filename": "shakuchi-shakka-hou-article-29.md",
+      "ja_text_sha256": "e77bdb7ec58863a1ec866cfdf9485499964e75ff9057fca07106a27589220688",
+      "ja_text_bytes": 248,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-30",
+      "article_number": "30",
+      "filename": "shakuchi-shakka-hou-article-30.md",
+      "ja_text_sha256": "6a091a8ebbb755a7581ece51f3ca5e60bd610b074f10ad13d5eb84a2489c02c6",
+      "ja_text_bytes": 99,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-31",
+      "article_number": "31",
+      "filename": "shakuchi-shakka-hou-article-31.md",
+      "ja_text_sha256": "71a7ab46fa2f761ed27a658cef916a8d39b6aaaa0cc9878ff8d7f37c470b72fc",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-32",
+      "article_number": "32",
+      "filename": "shakuchi-shakka-hou-article-32.md",
+      "ja_text_sha256": "f64b52e04e292fd4cdd2c4ec57c0fe7a6bc694a0312956e488b9d787320aed2d",
+      "ja_text_bytes": 1582,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-33",
+      "article_number": "33",
+      "filename": "shakuchi-shakka-hou-article-33.md",
+      "ja_text_sha256": "4e43c914780aec828c0b16f52a6dabc544be76608777720b6a36e48d039a8088",
+      "ja_text_bytes": 617,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-34",
+      "article_number": "34",
+      "filename": "shakuchi-shakka-hou-article-34.md",
+      "ja_text_sha256": "5bdb7337cb7e27a9630f76b5a4f24c03c599ee18d6d0a4786d46001306370cd1",
+      "ja_text_bytes": 479,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-35",
+      "article_number": "35",
+      "filename": "shakuchi-shakka-hou-article-35.md",
+      "ja_text_sha256": "6085dd25651580b0a77a530964149a8e2e1b8fc484555ca04d8e6dd4d3fe54e9",
+      "ja_text_bytes": 722,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-36",
+      "article_number": "36",
+      "filename": "shakuchi-shakka-hou-article-36.md",
+      "ja_text_sha256": "c04d46dc207ec5da586b829346e10b520e89c952569bc5533af9fb5a983b77ad",
+      "ja_text_bytes": 710,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-37",
+      "article_number": "37",
+      "filename": "shakuchi-shakka-hou-article-37.md",
+      "ja_text_sha256": "78869ef47624495850643f80f6636cc293ca0fe4e52df5a6a396df280fff52d8",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-38",
+      "article_number": "38",
+      "filename": "shakuchi-shakka-hou-article-38.md",
+      "ja_text_sha256": "4b8fa7c3057938e6db57c516e31a0dcc0b63d39c867c460a2fb68cedb092b551",
+      "ja_text_bytes": 3262,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-39",
+      "article_number": "39",
+      "filename": "shakuchi-shakka-hou-article-39.md",
+      "ja_text_sha256": "e7664820fab6110dc5a6b57d10fbccdb46a494e6b4bff8c211e3af1b7f52dd63",
+      "ja_text_bytes": 685,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-40",
+      "article_number": "40",
+      "filename": "shakuchi-shakka-hou-article-40.md",
+      "ja_text_sha256": "cac4f1fd6fa661e9e58f4ac7411fefbede62f3f6591996f5b1a38ce1df83046a",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-41",
+      "article_number": "41",
+      "filename": "shakuchi-shakka-hou-article-41.md",
+      "ja_text_sha256": "4d74da63c8d183ee559c57c1f23d17d23e84c4a594b8a4ea33ed061fde2f1684",
+      "ja_text_bytes": 753,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-42",
+      "article_number": "42",
+      "filename": "shakuchi-shakka-hou-article-42.md",
+      "ja_text_sha256": "292e2253ea952d33c5441d7cb16e6cadadaac586ad6377d4c95b41a1d25ef831",
+      "ja_text_bytes": 347,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-43",
+      "article_number": "43",
+      "filename": "shakuchi-shakka-hou-article-43.md",
+      "ja_text_sha256": "d1f0ab41d992369aad1138e6072082b8c270cfaf8ce1c9e0165d7ee63ebd2c96",
+      "ja_text_bytes": 370,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-44",
+      "article_number": "44",
+      "filename": "shakuchi-shakka-hou-article-44.md",
+      "ja_text_sha256": "d67076cfc52d8a662d9b7a37414f7189f8987767c935fbb8e206019316476c6d",
+      "ja_text_bytes": 371,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-45",
+      "article_number": "45",
+      "filename": "shakuchi-shakka-hou-article-45.md",
+      "ja_text_sha256": "30319d6dd11070074abf548a5d421a4c116e9568b9272a54376910e7ded3dcc3",
+      "ja_text_bytes": 653,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-46",
+      "article_number": "46",
+      "filename": "shakuchi-shakka-hou-article-46.md",
+      "ja_text_sha256": "4f77235f0938a61974ff12564f1e917d8797249ddbaf1a87c7aa2c16f62b63e2",
+      "ja_text_bytes": 443,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-47",
+      "article_number": "47",
+      "filename": "shakuchi-shakka-hou-article-47.md",
+      "ja_text_sha256": "18bcfa7f012818176fc1b896ad48bdfd96777858653647eb80d76779393f9e5b",
+      "ja_text_bytes": 373,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-48",
+      "article_number": "48",
+      "filename": "shakuchi-shakka-hou-article-48.md",
+      "ja_text_sha256": "21d3f23199dc8e841cd97348df34415ca649c1b83afa6be0b582b61da5d91b51",
+      "ja_text_bytes": 240,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-49",
+      "article_number": "49",
+      "filename": "shakuchi-shakka-hou-article-49.md",
+      "ja_text_sha256": "d2329500994710046b27bad8f9a7ddac5075033add8dc2a50e4fb0503b5c8cfa",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-50",
+      "article_number": "50",
+      "filename": "shakuchi-shakka-hou-article-50.md",
+      "ja_text_sha256": "9f30f10325886f919a12a213e876fca56b0f5e2bfadd13bf6fe15f8b97c58aee",
+      "ja_text_bytes": 371,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-51",
+      "article_number": "51",
+      "filename": "shakuchi-shakka-hou-article-51.md",
+      "ja_text_sha256": "ae46714f55e3c3f1aaad4bbaac1b0869871f56ce5ea731432cb3f8778efe09bf",
+      "ja_text_bytes": 170,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-52",
+      "article_number": "52",
+      "filename": "shakuchi-shakka-hou-article-52.md",
+      "ja_text_sha256": "c60ea4c590bcb87a36089ccfa833f3dd66adc4828fe2408347374ec09fd74dac",
+      "ja_text_bytes": 330,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-53",
+      "article_number": "53",
+      "filename": "shakuchi-shakka-hou-article-53.md",
+      "ja_text_sha256": "92117811f174901ea4354b9128291a2c5cde86e39741daf7bbf4ea8fb9bbe91a",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-54",
+      "article_number": "54",
+      "filename": "shakuchi-shakka-hou-article-54.md",
+      "ja_text_sha256": "553778d31478265257cb63f16f6f417483dac3a2314c91e88f9c35a3d9c10533",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-55",
+      "article_number": "55",
+      "filename": "shakuchi-shakka-hou-article-55.md",
+      "ja_text_sha256": "d25e24703c3935555f818bbc4c37511494e22c3d0f6ba15084126e9b19afe1c4",
+      "ja_text_bytes": 695,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-56",
+      "article_number": "56",
+      "filename": "shakuchi-shakka-hou-article-56.md",
+      "ja_text_sha256": "1e4b2f41193ebcdc1505d7f1f8309be192a49a663502fc35347ee95d5d3e985f",
+      "ja_text_bytes": 75,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-57",
+      "article_number": "57",
+      "filename": "shakuchi-shakka-hou-article-57.md",
+      "ja_text_sha256": "9f10740938cf674e8671d840d5ee1c9fc7bd94640ca91584442e4548b895d4f6",
+      "ja_text_bytes": 150,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-58",
+      "article_number": "58",
+      "filename": "shakuchi-shakka-hou-article-58.md",
+      "ja_text_sha256": "33a0ddd4507c8aa9b30bf8c4f16ee321da4dd14b0743956765e3c78baf62b72f",
+      "ja_text_bytes": 540,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-59",
+      "article_number": "59",
+      "filename": "shakuchi-shakka-hou-article-59.md",
+      "ja_text_sha256": "ea551993ad656a9edb178ef4e18b796fb74ecc6df061c338ef004d35e1af250f",
+      "ja_text_bytes": 339,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-60",
+      "article_number": "60",
+      "filename": "shakuchi-shakka-hou-article-60.md",
+      "ja_text_sha256": "cdf0b367427f529d48f4dcb4cf4f282761fce0e820dfc260a2be99e0af5135c4",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shakuchi-shakka-hou-art-61",
+      "article_number": "61",
+      "filename": "shakuchi-shakka-hou-article-61.md",
+      "ja_text_sha256": "c77a423fd742716e7c67933a3368a7ec4d268eea01d67f435ecd83a67afc1ed1",
+      "ja_text_bytes": 2934,
+      "paragraph_count": 1
+    }
+  ]
+}

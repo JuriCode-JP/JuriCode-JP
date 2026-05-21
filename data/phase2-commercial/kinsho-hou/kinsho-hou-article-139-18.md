@@ -1,0 +1,49 @@
+---
+law_id: 323AC0000000025
+law_name_ja: 金融商品取引法
+law_name_en: (English name pending)
+article_number: 139-18
+article_id: kinsho-hou-art-139-18
+version_date: '1948-04-13'
+source_url: https://laws.e-gov.go.jp/law/323AC0000000025
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　金融商品取引所
+  setsu: 4
+  setsu_name_ja: 第四節　金融商品取引所の解散等
+  kan: 2
+  kan_name_ja: 第二款　合併
+  moku: 5
+  moku_name_ja: 第五目　株式会社金融商品取引所の合併の手続
+---
+
+# 金融商品取引法 第139-18条(（新株予約権買取請求）)
+
+## 原文 (日本語)
+
+### 第百三十九条の十八第一項
+
+新設合併をする場合には、新設合併消滅株式会社金融商品取引所の新株予約権の新株予約権者は、新設合併消滅株式会社金融商品取引所に対し、自己の有する新株予約権を公正な価格で買い取ることを請求することができる。
+
+### 第百三十九条の十八第二項
+
+会社法第八百八条第五項から第十項まで、第八百九条、第八百六十八条第一項、第八百七十条第二項（第二号に係る部分に限る。）、第八百七十条の二、第八百七十一条本文、第八百七十二条（第五号に係る部分に限る。）、第八百七十二条の二、第八百七十三条本文、第八百七十五条及び第八百七十六条の規定は、前項の規定による請求について準用する。この場合において、必要な技術的読替えは、政令で定める。

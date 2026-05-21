@@ -1,0 +1,45 @@
+---
+law_id: 415AC0000000057
+law_name_ja: 個人情報の保護に関する法律
+law_name_en: (English name pending)
+article_number: '138'
+article_id: kojin-jouhou-hogo-hou-art-138
+version_date: '2003-05-30'
+source_url: https://laws.e-gov.go.jp/law/415AC0000000057
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 6
+  shou_name_ja: 第六章　個人情報保護委員会
+  setsu: 1
+  setsu_name_ja: 第一節　設置等
+---
+
+# 個人情報の保護に関する法律 第138条(（委員長）)
+
+## 原文 (日本語)
+
+### 第百三十八条第一項
+
+委員長は、委員会の会務を総理し、委員会を代表する。
+
+### 第百三十八条第二項
+
+委員会は、あらかじめ常勤の委員のうちから、委員長に事故がある場合に委員長を代理する者を定めておかなければならない。

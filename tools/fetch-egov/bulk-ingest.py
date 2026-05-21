@@ -70,6 +70,37 @@ PHASE_MAP: dict[str, str] = {
     "chihou-jichi-hou": "phase1-administrative",
     "gyousei-tetsuzuki-hou": "phase1-administrative",
     "gyousei-fufuku-shinsa-hou": "phase1-administrative",
+    # 行政柱 拡張 (2026-05-21): AI ガバナンス・公文書・情報公開・公務員
+    "kojin-jouhou-hogo-hou": "phase1-administrative",
+    "koubunsho-kanri-hou": "phase1-administrative",
+    "jouhou-koukai-hou": "phase1-administrative",
+    "kokka-koumuin-hou": "phase1-administrative",
+    "chihou-koumuin-hou": "phase1-administrative",
+    "digital-shakai-keisei-kihon-hou": "phase1-administrative",
+    # 警察柱 拡張 (2026-05-21): 風営法・犯罪収益移転防止法
+    "fueihou": "phase1-police",
+    "hanzai-shueki-iten-boushi-hou": "phase1-police",
+    # 商事/独禁 (2026-05-21)
+    "dokusen-kinshi-hou": "phase2-commercial",
+    # Phase 3 先取り (2026-05-21): 労働基準法
+    "roudou-kijun-hou": "phase3-labor",
+    # 2026-05-21 lawqa_jp 対応 (13 法令)
+    # 商事 (Phase 2): 金商法 + 関連内閣府令・施行令
+    "kinsho-hou": "phase2-commercial",
+    "kinsho-hou-shikkourei": "phase2-commercial",
+    "kigyou-kaiji-furei": "phase2-commercial",
+    "koukai-kaitsuke-furei": "phase2-commercial",
+    "kinsho-teigi-furei": "phase2-commercial",
+    "kinsho-kachoukin-furei": "phase2-commercial",
+    "kinsho-gyou-furei": "phase2-commercial",
+    "yuukashouken-kisei-furei": "phase2-commercial",
+    "shouken-jouhou-furei": "phase2-commercial",
+    "juuyou-jouhou-furei": "phase2-commercial",
+    # 民事 (Phase 1 拡張)
+    "shakuchi-shakka-hou": "phase1-practitioner",
+    # Phase 3 新規 pharma: 薬機法 + 施行規則
+    "yakkihou": "phase3-pharma",
+    "yakkihou-shikoukisoku": "phase3-pharma",
 }
 
 EGOV_API_BASE = "https://laws.e-gov.go.jp/api/2/law_data/"
@@ -261,7 +292,6 @@ def main():
 
         if i < len(args.laws) and args.sleep_between > 0:
             time.sleep(args.sleep_between)
-
     print("\n" + "=" * 70)
     print("INGESTION SUMMARY")
     print("=" * 70)

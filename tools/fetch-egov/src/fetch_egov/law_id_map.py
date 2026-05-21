@@ -54,6 +54,46 @@ LAW_ID_MAP: dict[str, str] = {
     "antimonopoly-act": "322AC0000000054",
     "kojin-jouhou-hogo-hou": "415AC0000000057",
     "personal-information-protection-act": "415AC0000000057",
+    # 行政柱 拡張 (2026-05-21): AI ガバナンス・公文書・情報公開・公務員
+    "koubunsho-kanri-hou": "421AC0000000066",
+    "public-records-management-act": "421AC0000000066",
+    "jouhou-koukai-hou": "411AC0000000042",
+    "act-on-access-to-information-held-by-administrative-organs": "411AC0000000042",
+    "kokka-koumuin-hou": "322AC0000000120",
+    "national-public-service-act": "322AC0000000120",
+    "chihou-koumuin-hou": "325AC0000000261",
+    "local-public-service-act": "325AC0000000261",
+    "digital-shakai-keisei-kihon-hou": "503AC0000000035",
+    "digital-society-formation-basic-act": "503AC0000000035",
+    # 警察柱 拡張 (2026-05-21): 風営法・犯罪収益移転防止法
+    "fueihou": "323AC0000000122",
+    "act-on-control-and-improvement-of-amusement-business": "323AC0000000122",
+    "hanzai-shueki-iten-boushi-hou": "419AC0000000022",
+    "act-on-prevention-of-transfer-of-criminal-proceeds": "419AC0000000022",
+    # Phase 3 先取り (2026-05-21): 労働基準法
+    "roudou-kijun-hou": "322AC0000000049",
+    "labor-standards-act": "322AC0000000049",
+    # 2026-05-21 lawqa_jp 対応: e-Gov 取得可能 13 法令を一気投入
+    # 商事 (Phase 2): 金商法本体 + 関連内閣府令・施行令 計 10 件
+    "kinsho-hou": "323AC0000000025",
+    "financial-instruments-and-exchange-act": "323AC0000000025",
+    "kinsho-hou-shikkourei": "340CO0000000321",
+    "kinsho-shikkourei": "340CO0000000321",
+    "kigyou-kaiji-furei": "348M50000040005",
+    "koukai-kaitsuke-furei": "402M50000040038",
+    "kinsho-teigi-furei": "405M50000040014",
+    "kinsho-kachoukin-furei": "417M60000002017",
+    "kinsho-gyou-furei": "419M60000002052",
+    "yuukashouken-kisei-furei": "419M60000002059",
+    "shouken-jouhou-furei": "420M60000002078",
+    "juuyou-jouhou-furei": "429M60000002054",
+    # 民事 (Phase 1 拡張): 借地借家法
+    "shakuchi-shakka-hou": "403AC0000000090",
+    "land-and-house-lease-act": "403AC0000000090",
+    # 医薬品・医療機器 (Phase 3 新規 pharma): 薬機法 + 施行規則
+    "yakkihou": "335AC0000000145",
+    "act-on-securing-quality-efficacy-safety-of-pharmaceuticals": "335AC0000000145",
+    "yakkihou-shikoukisoku": "336M50000100001",
 }
 
 

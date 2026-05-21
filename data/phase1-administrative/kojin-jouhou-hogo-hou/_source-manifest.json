@@ -1,0 +1,1498 @@
+{
+  "schema_version": "1.0",
+  "law_id": "415AC0000000057",
+  "law_name_ja": "個人情報の保護に関する法律",
+  "law_abbrev": "kojin-jouhou-hogo-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/415AC0000000057",
+  "source_xml_path": "cache\\laws\\415AC0000000057.xml",
+  "source_xml_sha256": "1201f57671c63aefe01cb2e7ebdd6c1e9fdb66ff84a89f0571edf04390cc584f",
+  "source_xml_bytes": 541659,
+  "source_fetched_at": "2026-05-21",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-21T02:22:48+00:00",
+  "version_date": "2003-05-30",
+  "article_count": 185,
+  "articles": [
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-1",
+      "article_number": "1",
+      "filename": "kojin-jouhou-hogo-hou-article-1.md",
+      "ja_text_sha256": "68e9bb54d3f4b8445c1f4e147797b5f76ea1256c7e6978912070a35008122fd3",
+      "ja_text_bytes": 960,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-2",
+      "article_number": "2",
+      "filename": "kojin-jouhou-hogo-hou-article-2.md",
+      "ja_text_sha256": "4e4f50d1b7cb04e5e837f7665144aa46e9d0fb1b67f2e98245d5749edacb8be5",
+      "ja_text_bytes": 2414,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-3",
+      "article_number": "3",
+      "filename": "kojin-jouhou-hogo-hou-article-3.md",
+      "ja_text_sha256": "85128b642f2c24a64b97f2eda747b4f953850462cadff70cafc563c83c97e203",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-4",
+      "article_number": "4",
+      "filename": "kojin-jouhou-hogo-hou-article-4.md",
+      "ja_text_sha256": "70e04b454ef4ef40657fd78cf6d17ed04789363fd3a0a22b97e8a49b75153e94",
+      "ja_text_bytes": 315,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-5",
+      "article_number": "5",
+      "filename": "kojin-jouhou-hogo-hou-article-5.md",
+      "ja_text_sha256": "b35b0886dca638753e2a23dffea10fcdf9677bfcfc3a9d571061637f47123337",
+      "ja_text_bytes": 402,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-6",
+      "article_number": "6",
+      "filename": "kojin-jouhou-hogo-hou-article-6.md",
+      "ja_text_sha256": "24bed64de7a6675f8a0a593212deb3bd176d5e33f31039ad28d381a1a80eb892",
+      "ja_text_bytes": 576,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-7",
+      "article_number": "7",
+      "filename": "kojin-jouhou-hogo-hou-article-7.md",
+      "ja_text_sha256": "601a88e2b42c7b0ef29cb4ccd996da5bbbd1039b60f88c09e6832bf734de1188",
+      "ja_text_bytes": 686,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-8",
+      "article_number": "8",
+      "filename": "kojin-jouhou-hogo-hou-article-8.md",
+      "ja_text_sha256": "a1694ad12678f82e42d07ad6b9f30b416dac7f13fdd45186bc536d0fdb94c790",
+      "ja_text_bytes": 305,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-9",
+      "article_number": "9",
+      "filename": "kojin-jouhou-hogo-hou-article-9.md",
+      "ja_text_sha256": "a4c764d19742e8bfcf229fa2d4914b91ffe3cf197821da652f2ba80f07bbb94a",
+      "ja_text_bytes": 417,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-10",
+      "article_number": "10",
+      "filename": "kojin-jouhou-hogo-hou-article-10.md",
+      "ja_text_sha256": "eb5221741c57761b98dd93b5b852793279e517e46c11ed62f92feb0b1c82fb57",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-11",
+      "article_number": "11",
+      "filename": "kojin-jouhou-hogo-hou-article-11.md",
+      "ja_text_sha256": "d14b50a54025579a43ddf86f4eb9e4459cfe9c9cccc8a488d932315159d315d8",
+      "ja_text_bytes": 419,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-12",
+      "article_number": "12",
+      "filename": "kojin-jouhou-hogo-hou-article-12.md",
+      "ja_text_sha256": "ff6a2bc3e243beb67884f2172e6e4236d89517498016a775c6c4ff76676efc82",
+      "ja_text_bytes": 359,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-13",
+      "article_number": "13",
+      "filename": "kojin-jouhou-hogo-hou-article-13.md",
+      "ja_text_sha256": "9218c103c546c34426656011c83bcadd63cd764600f3cd8b40d9e4f2c6f9f5c6",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-14",
+      "article_number": "14",
+      "filename": "kojin-jouhou-hogo-hou-article-14.md",
+      "ja_text_sha256": "4b500ac4a99275b3237dc102a7e0158ccb8509d0538da0837a911ad656254c4d",
+      "ja_text_bytes": 270,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-15",
+      "article_number": "15",
+      "filename": "kojin-jouhou-hogo-hou-article-15.md",
+      "ja_text_sha256": "7c6c9b6db2b4e7fa17186e9d8fc5d1a08039ee5b572af713c44b5fe33c1c192e",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-16",
+      "article_number": "16",
+      "filename": "kojin-jouhou-hogo-hou-article-16.md",
+      "ja_text_sha256": "bcec564863429fec7f0df52067feda58e17f1d769a37ba19f55d245d9563fae9",
+      "ja_text_bytes": 3161,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-17",
+      "article_number": "17",
+      "filename": "kojin-jouhou-hogo-hou-article-17.md",
+      "ja_text_sha256": "b8f2bf9a54eed317e749ddaed2e8a5cdb4b04c40338448ebef5e46bb1ace7993",
+      "ja_text_bytes": 398,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-18",
+      "article_number": "18",
+      "filename": "kojin-jouhou-hogo-hou-article-18.md",
+      "ja_text_sha256": "d7e0181d1ccc63f95070461868a803c71829a0b68b1d31d7cf568c5a99cd0d68",
+      "ja_text_bytes": 688,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-19",
+      "article_number": "19",
+      "filename": "kojin-jouhou-hogo-hou-article-19.md",
+      "ja_text_sha256": "0c132081bbdaed21e51d2eabbfb63475b0abf902f74a9c93b7b0d28bb2c821bb",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-20",
+      "article_number": "20",
+      "filename": "kojin-jouhou-hogo-hou-article-20.md",
+      "ja_text_sha256": "b261c6831e8658c08d3085a06095fa5fdd5605e8dee1202dab257bfc355def89",
+      "ja_text_bytes": 293,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-21",
+      "article_number": "21",
+      "filename": "kojin-jouhou-hogo-hou-article-21.md",
+      "ja_text_sha256": "4d018090d12a9d06f771815b5b0aef04e04fb9916b9fa0b63542cf1311c5ef49",
+      "ja_text_bytes": 1122,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-22",
+      "article_number": "22",
+      "filename": "kojin-jouhou-hogo-hou-article-22.md",
+      "ja_text_sha256": "68408fc99191b751dcc914b7ea9657050da3a8ef4a750b0fdc19b21664d0acf4",
+      "ja_text_bytes": 294,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-23",
+      "article_number": "23",
+      "filename": "kojin-jouhou-hogo-hou-article-23.md",
+      "ja_text_sha256": "fbbe78c90a03b74ee116c106475832b690d4082335b2439b62f26d62484e0332",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-24",
+      "article_number": "24",
+      "filename": "kojin-jouhou-hogo-hou-article-24.md",
+      "ja_text_sha256": "89cfe4752333cef69457d29343278bcba1c155b25716937b7ec306f85e61af00",
+      "ja_text_bytes": 258,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-25",
+      "article_number": "25",
+      "filename": "kojin-jouhou-hogo-hou-article-25.md",
+      "ja_text_sha256": "4702481c5b4287519a471d5998f37238fe698877f7a6110fed414c823d272868",
+      "ja_text_bytes": 291,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-26",
+      "article_number": "26",
+      "filename": "kojin-jouhou-hogo-hou-article-26.md",
+      "ja_text_sha256": "6b080dcab4be926686e2e08dd436b26484903359b88d7db09698d0aad005650f",
+      "ja_text_bytes": 1370,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-27",
+      "article_number": "27",
+      "filename": "kojin-jouhou-hogo-hou-article-27.md",
+      "ja_text_sha256": "867fec6cd83fd1fd79b3117a7de069ed2744e68e2550af22831550d9539db1be",
+      "ja_text_bytes": 2728,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-28",
+      "article_number": "28",
+      "filename": "kojin-jouhou-hogo-hou-article-28.md",
+      "ja_text_sha256": "6e036c2e61c71555e1ff2ffa4b452e3936105802c95afa3485d6a4c1d6bc9c9c",
+      "ja_text_bytes": 2134,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-29",
+      "article_number": "29",
+      "filename": "kojin-jouhou-hogo-hou-article-29.md",
+      "ja_text_sha256": "f2971521e89c1c172cb1a0342fe97570f579c4e99f9e528a8967f9e9060143ef",
+      "ja_text_bytes": 1019,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-30",
+      "article_number": "30",
+      "filename": "kojin-jouhou-hogo-hou-article-30.md",
+      "ja_text_sha256": "3c8bc7c9db46d9f71936f55804cef1a540471251c91099b937f6750667d00bb0",
+      "ja_text_bytes": 1155,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-31",
+      "article_number": "31",
+      "filename": "kojin-jouhou-hogo-hou-article-31.md",
+      "ja_text_sha256": "3f37b978976468761a7e06da16a25049321059e62af437f559be67192e98817f",
+      "ja_text_bytes": 1273,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-32",
+      "article_number": "32",
+      "filename": "kojin-jouhou-hogo-hou-article-32.md",
+      "ja_text_sha256": "8f97454726263c8faaa58848c01548cfb083ca224655b106fec10aa94565781b",
+      "ja_text_bytes": 808,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-33",
+      "article_number": "33",
+      "filename": "kojin-jouhou-hogo-hou-article-33.md",
+      "ja_text_sha256": "7e7bb3ae4c135a00acce622ed4df2970ac9a3274ebefe9faff83bfaa397c9441",
+      "ja_text_bytes": 2042,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-34",
+      "article_number": "34",
+      "filename": "kojin-jouhou-hogo-hou-article-34.md",
+      "ja_text_sha256": "ca0adb59b621485c51b17cd3ac5d9fb5c511d70ae78f503b5481ac44271c85a7",
+      "ja_text_bytes": 1108,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-35",
+      "article_number": "35",
+      "filename": "kojin-jouhou-hogo-hou-article-35.md",
+      "ja_text_sha256": "dd318434a667375a3bd99a62c2dd4aaed2ecb319ac2e9976f274f3f63fbb8e9c",
+      "ja_text_bytes": 3885,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-36",
+      "article_number": "36",
+      "filename": "kojin-jouhou-hogo-hou-article-36.md",
+      "ja_text_sha256": "b1988316683abb22cc021ac88b31406b10079e07f1f65d5d4bc3978499334a2e",
+      "ja_text_bytes": 519,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-37",
+      "article_number": "37",
+      "filename": "kojin-jouhou-hogo-hou-article-37.md",
+      "ja_text_sha256": "24d9f72f2904b4bb3682b7f0aa8aae06197de3178c64c24280d565473c935b65",
+      "ja_text_bytes": 1623,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-38",
+      "article_number": "38",
+      "filename": "kojin-jouhou-hogo-hou-article-38.md",
+      "ja_text_sha256": "0845f3b3f13c86f305e428c2148de0336a3f94d51c789751d0353568e723018f",
+      "ja_text_bytes": 518,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-39",
+      "article_number": "39",
+      "filename": "kojin-jouhou-hogo-hou-article-39.md",
+      "ja_text_sha256": "ed9db65827ff1e00c88beed9fb36cbb73ad7ba44ab3a4c21bf88745577132d7d",
+      "ja_text_bytes": 883,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-40",
+      "article_number": "40",
+      "filename": "kojin-jouhou-hogo-hou-article-40.md",
+      "ja_text_sha256": "129bd2158c50df8da7bc6817ea884ebeb6692c5ab57c9b2519dfffe52089bf14",
+      "ja_text_bytes": 275,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-41",
+      "article_number": "41",
+      "filename": "kojin-jouhou-hogo-hou-article-41.md",
+      "ja_text_sha256": "8682d64e3b8409e9104983d892ab1061a63ca02403a7cf76a91e8e74f951ef06",
+      "ja_text_bytes": 4849,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-42",
+      "article_number": "42",
+      "filename": "kojin-jouhou-hogo-hou-article-42.md",
+      "ja_text_sha256": "d40d21cb353147783542546f5d20280af03db4896c7d6722fd280f9268987937",
+      "ja_text_bytes": 1471,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-43",
+      "article_number": "43",
+      "filename": "kojin-jouhou-hogo-hou-article-43.md",
+      "ja_text_sha256": "ac93a71f353ecdc169f82405ef543a92cbf75c6cf41465d8983535a8d4762c43",
+      "ja_text_bytes": 2452,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-44",
+      "article_number": "44",
+      "filename": "kojin-jouhou-hogo-hou-article-44.md",
+      "ja_text_sha256": "1e53e4acca576421b3daa49b105155d2a116cc29d9b1ad9653b683d3005e9838",
+      "ja_text_bytes": 573,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-45",
+      "article_number": "45",
+      "filename": "kojin-jouhou-hogo-hou-article-45.md",
+      "ja_text_sha256": "b793ad7661c7e80a61c604d73105be740bd3c6897c78e8864ec675e5e9f9f377",
+      "ja_text_bytes": 567,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-46",
+      "article_number": "46",
+      "filename": "kojin-jouhou-hogo-hou-article-46.md",
+      "ja_text_sha256": "6445259f88d8ee7bc6a47b2256c64677d32360c1bb96568e42adcf662de6b0e4",
+      "ja_text_bytes": 363,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-47",
+      "article_number": "47",
+      "filename": "kojin-jouhou-hogo-hou-article-47.md",
+      "ja_text_sha256": "e017615cbcca8a8922d261d8ea01227dab6efec83bbd430ec3d9742caa76a8f0",
+      "ja_text_bytes": 1179,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-48",
+      "article_number": "48",
+      "filename": "kojin-jouhou-hogo-hou-article-48.md",
+      "ja_text_sha256": "71639338b596df62552923dac6467f4f47fb590f3fff047871c7d4963a1a68ab",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-49",
+      "article_number": "49",
+      "filename": "kojin-jouhou-hogo-hou-article-49.md",
+      "ja_text_sha256": "f217e4e187f328a38d26601a39ababbba892a08e7d04114c8bee2fb53420273c",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-50",
+      "article_number": "50",
+      "filename": "kojin-jouhou-hogo-hou-article-50.md",
+      "ja_text_sha256": "62c8d4319e3544c94cab59493dae49641d79c44e4ae0af2c01a0766fa642eb21",
+      "ja_text_bytes": 602,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-51",
+      "article_number": "51",
+      "filename": "kojin-jouhou-hogo-hou-article-51.md",
+      "ja_text_sha256": "70523ec59efcf1d05e497435cf622b251726a30aa43f931c277b450acb9ffd28",
+      "ja_text_bytes": 617,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-52",
+      "article_number": "52",
+      "filename": "kojin-jouhou-hogo-hou-article-52.md",
+      "ja_text_sha256": "bdbf1d1615777e6d579341a47afab3c36481d361ecaa06a8609dff72de7d22f5",
+      "ja_text_bytes": 590,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-53",
+      "article_number": "53",
+      "filename": "kojin-jouhou-hogo-hou-article-53.md",
+      "ja_text_sha256": "b57e3bb343740318d23e8861cccba97359087ad926898b4a2b72c7dcd07b88f3",
+      "ja_text_bytes": 874,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-54",
+      "article_number": "54",
+      "filename": "kojin-jouhou-hogo-hou-article-54.md",
+      "ja_text_sha256": "5ce20da6784772edfb21e550bef8c2862e60bfad1a14227726f1a022ad93e685",
+      "ja_text_bytes": 1548,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-55",
+      "article_number": "55",
+      "filename": "kojin-jouhou-hogo-hou-article-55.md",
+      "ja_text_sha256": "dfe31425c7e4037baaf3168d5df884f4f9c78171b43961627b4fe99baa399e22",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-56",
+      "article_number": "56",
+      "filename": "kojin-jouhou-hogo-hou-article-56.md",
+      "ja_text_sha256": "3260a0fc08aedb8713cac38c8f9950b133fe71b02756faee99d6632f4e2e30e8",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-57",
+      "article_number": "57",
+      "filename": "kojin-jouhou-hogo-hou-article-57.md",
+      "ja_text_sha256": "c19ef33abbe3b9405e8a359dd6f6000cda736944ef055b0dbecf2f97ccebb237",
+      "ja_text_bytes": 976,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-58",
+      "article_number": "58",
+      "filename": "kojin-jouhou-hogo-hou-article-58.md",
+      "ja_text_sha256": "0480569c5db1a90e3c1f79cd8d597e19d5ce2ebec15bb53fff449838fc8fa08b",
+      "ja_text_bytes": 713,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-59",
+      "article_number": "59",
+      "filename": "kojin-jouhou-hogo-hou-article-59.md",
+      "ja_text_sha256": "b2692f54eec28f53e307c6b605bdd78da3bd01d975bfea23166f2ba3b21dbc88",
+      "ja_text_bytes": 333,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-60",
+      "article_number": "60",
+      "filename": "kojin-jouhou-hogo-hou-article-60.md",
+      "ja_text_sha256": "76a2b5175ecca01740ee12b3ee0079f02690a8da7f60a58e5ab1983aae40a9bb",
+      "ja_text_bytes": 3716,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-61",
+      "article_number": "61",
+      "filename": "kojin-jouhou-hogo-hou-article-61.md",
+      "ja_text_sha256": "83ade0b005d6c7e90f512a8278e221cc47dd2a6499986a3c4926e83c7fe73c0c",
+      "ja_text_bytes": 760,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-62",
+      "article_number": "62",
+      "filename": "kojin-jouhou-hogo-hou-article-62.md",
+      "ja_text_sha256": "1c93e998050ea28963ed0678d8e3b56ec98da27a55236275f789342c7f7e4ee0",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-63",
+      "article_number": "63",
+      "filename": "kojin-jouhou-hogo-hou-article-63.md",
+      "ja_text_sha256": "8e9ff3f2ec3f2a4388d932b1a68b95821fdd87e06d95f97767f3e60c84dd8d14",
+      "ja_text_bytes": 537,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-64",
+      "article_number": "64",
+      "filename": "kojin-jouhou-hogo-hou-article-64.md",
+      "ja_text_sha256": "098afd723cedb9d2e9b9dd0ca5a8fa55e2f117925d93f20204d546a5259d2671",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-65",
+      "article_number": "65",
+      "filename": "kojin-jouhou-hogo-hou-article-65.md",
+      "ja_text_sha256": "8be3d66618bb3833132f284cae5cc75eccbff138f49543e7deb59727f94e0f3e",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-66",
+      "article_number": "66",
+      "filename": "kojin-jouhou-hogo-hou-article-66.md",
+      "ja_text_sha256": "6aad93f99f2410cd86d49b6083dcfa8274c97c57d1b575dd96f0deb51bdbe65d",
+      "ja_text_bytes": 368,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-67",
+      "article_number": "67",
+      "filename": "kojin-jouhou-hogo-hou-article-67.md",
+      "ja_text_sha256": "814d426680514bd9a06f67fac3a3f8e0515ab03d0c2e3984d8ae6128c2ac51cc",
+      "ja_text_bytes": 753,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-68",
+      "article_number": "68",
+      "filename": "kojin-jouhou-hogo-hou-article-68.md",
+      "ja_text_sha256": "36dffb07e177d6bd915f21a95223ca74d2a206d057e75ca24580bff340950811",
+      "ja_text_bytes": 761,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-69",
+      "article_number": "69",
+      "filename": "kojin-jouhou-hogo-hou-article-69.md",
+      "ja_text_sha256": "1eb132a28f8799fcab47cd940770a122b42b8f69e8fd07be60c0a4010bcd83df",
+      "ja_text_bytes": 1119,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-70",
+      "article_number": "70",
+      "filename": "kojin-jouhou-hogo-hou-article-70.md",
+      "ja_text_sha256": "f47c64d0168532f6a7a7beca551773561e305041d68e775da29bcd5a513e40c8",
+      "ja_text_bytes": 546,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-71",
+      "article_number": "71",
+      "filename": "kojin-jouhou-hogo-hou-article-71.md",
+      "ja_text_sha256": "268de457f939f94e96a213bc217a20fcfc1770a7135b74c7d1135e3986be2f71",
+      "ja_text_bytes": 2278,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-72",
+      "article_number": "72",
+      "filename": "kojin-jouhou-hogo-hou-article-72.md",
+      "ja_text_sha256": "381d188e7c0617b7754990f61501f03182142d8e787b157cf6cb2d3bf07df47e",
+      "ja_text_bytes": 570,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-73",
+      "article_number": "73",
+      "filename": "kojin-jouhou-hogo-hou-article-73.md",
+      "ja_text_sha256": "0262c300d29108f0d151de5d3b1ca7538c2c3543ce965d1bbcfe7b4769c83a32",
+      "ja_text_bytes": 2117,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-74",
+      "article_number": "74",
+      "filename": "kojin-jouhou-hogo-hou-article-74.md",
+      "ja_text_sha256": "ffb32167903a81a2d99e6c27367d56fd5c0f5877055330890c36060dab384a9e",
+      "ja_text_bytes": 823,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-75",
+      "article_number": "75",
+      "filename": "kojin-jouhou-hogo-hou-article-75.md",
+      "ja_text_sha256": "0d3c2f7454424d5d884c612fc8315afdb2961c3fa3b842b05551c58784b17fc5",
+      "ja_text_bytes": 1796,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-76",
+      "article_number": "76",
+      "filename": "kojin-jouhou-hogo-hou-article-76.md",
+      "ja_text_sha256": "c4cb26b0122d6fd0481e97ee2d237c7d715d568bf12e32fe38e2ec9b3bc97897",
+      "ja_text_bytes": 596,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-77",
+      "article_number": "77",
+      "filename": "kojin-jouhou-hogo-hou-article-77.md",
+      "ja_text_sha256": "291a3221be5730e6b93211e004d3f344aac8eb781667664be29c59113c6caa02",
+      "ja_text_bytes": 1009,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-78",
+      "article_number": "78",
+      "filename": "kojin-jouhou-hogo-hou-article-78.md",
+      "ja_text_sha256": "2d8c784e344930c616abfdec46d85650d0736166508c928338d54f5d69a30a1e",
+      "ja_text_bytes": 998,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-79",
+      "article_number": "79",
+      "filename": "kojin-jouhou-hogo-hou-article-79.md",
+      "ja_text_sha256": "49f1bdf365025a13d69a1e6673b2e5befbf6eef4f34ae4b9c497e38ce4e4ce11",
+      "ja_text_bytes": 1004,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-80",
+      "article_number": "80",
+      "filename": "kojin-jouhou-hogo-hou-article-80.md",
+      "ja_text_sha256": "00bfe098c6ac5df37b77717485c733d03b9ca27b6e3b42a3b4d1d3e70bc29739",
+      "ja_text_bytes": 303,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-81",
+      "article_number": "81",
+      "filename": "kojin-jouhou-hogo-hou-article-81.md",
+      "ja_text_sha256": "8092b7a9e9224807f3535df3a9d8ecdf0802d4b62778ed25e19ffba0b3d5a5f1",
+      "ja_text_bytes": 324,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-82",
+      "article_number": "82",
+      "filename": "kojin-jouhou-hogo-hou-article-82.md",
+      "ja_text_sha256": "698162ebe844e1494b6666d00ea62aa82ef1b50ad013ddbd901738887e9fe873",
+      "ja_text_bytes": 866,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-83",
+      "article_number": "83",
+      "filename": "kojin-jouhou-hogo-hou-article-83.md",
+      "ja_text_sha256": "c0c9fd2e17a626526c644561fd58f792e1a1882664ea8ca966a80eb6d508803d",
+      "ja_text_bytes": 677,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-84",
+      "article_number": "84",
+      "filename": "kojin-jouhou-hogo-hou-article-84.md",
+      "ja_text_sha256": "4056411b24b127c55dade6585c15feaaae5eea1d69f58bf3f3a536128db3dd10",
+      "ja_text_bytes": 750,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-85",
+      "article_number": "85",
+      "filename": "kojin-jouhou-hogo-hou-article-85.md",
+      "ja_text_sha256": "12670c40e46b509f87d82436fa45c6af5b4815540e125006d036701f79a4a129",
+      "ja_text_bytes": 1405,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-86",
+      "article_number": "86",
+      "filename": "kojin-jouhou-hogo-hou-article-86.md",
+      "ja_text_sha256": "4fa8ec8b64007335cefdf27773cf0737382c1e4c47a1e6a501526dc7d8bf6b5f",
+      "ja_text_bytes": 1795,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-87",
+      "article_number": "87",
+      "filename": "kojin-jouhou-hogo-hou-article-87.md",
+      "ja_text_sha256": "9787620900c6e7d2a6fa6185a51ae6f664034e909d67927ad72d9129c9ae0cdc",
+      "ja_text_bytes": 1410,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-88",
+      "article_number": "88",
+      "filename": "kojin-jouhou-hogo-hou-article-88.md",
+      "ja_text_sha256": "2ac540634fa287067baebc56a4b4817353fe13feb1516b329b4e774426846950",
+      "ja_text_bytes": 788,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-89",
+      "article_number": "89",
+      "filename": "kojin-jouhou-hogo-hou-article-89.md",
+      "ja_text_sha256": "aefb312ee7f6a2c00090777aa70a3ae267a2cc1472af7d41f875a42670cf794e",
+      "ja_text_bytes": 1444,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-90",
+      "article_number": "90",
+      "filename": "kojin-jouhou-hogo-hou-article-90.md",
+      "ja_text_sha256": "f21558d1e7c9dc4aa5f74d4aeb7027483c484ff734f0bd79119c846ff463e8b0",
+      "ja_text_bytes": 922,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-91",
+      "article_number": "91",
+      "filename": "kojin-jouhou-hogo-hou-article-91.md",
+      "ja_text_sha256": "d22d6d1ce8e8f4e8b78dd7b6f2a024c802d3d9a3e78b3cf2cf1a1aed019f7b15",
+      "ja_text_bytes": 844,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-92",
+      "article_number": "92",
+      "filename": "kojin-jouhou-hogo-hou-article-92.md",
+      "ja_text_sha256": "33ace1346724e27dc9037f774312c6b4696d3eb3fb29041fd761e2ba85997d70",
+      "ja_text_bytes": 294,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-93",
+      "article_number": "93",
+      "filename": "kojin-jouhou-hogo-hou-article-93.md",
+      "ja_text_sha256": "a3c14214ab472f16439fabaf65983b7a0beea01f21b8983b7fc1bb309d4ecc0b",
+      "ja_text_bytes": 431,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-94",
+      "article_number": "94",
+      "filename": "kojin-jouhou-hogo-hou-article-94.md",
+      "ja_text_sha256": "10d18a18082e8bbe096d03d21875834f68f39844c022ff876f2796a9e0bdbef9",
+      "ja_text_bytes": 749,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-95",
+      "article_number": "95",
+      "filename": "kojin-jouhou-hogo-hou-article-95.md",
+      "ja_text_sha256": "9643719088f35ac07a203926886f4928805323025e06bdcf21371e385f45e0ec",
+      "ja_text_bytes": 393,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-96",
+      "article_number": "96",
+      "filename": "kojin-jouhou-hogo-hou-article-96.md",
+      "ja_text_sha256": "7a87479a52b790ce24897df3a1b22f16cb73d06634ac9f52b3eff17f9baee73d",
+      "ja_text_bytes": 1276,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-97",
+      "article_number": "97",
+      "filename": "kojin-jouhou-hogo-hou-article-97.md",
+      "ja_text_sha256": "d8c543b53226fc7d951a79d55712571423b2e4963706bfee5b84b745101ddcd0",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-98",
+      "article_number": "98",
+      "filename": "kojin-jouhou-hogo-hou-article-98.md",
+      "ja_text_sha256": "df1f4479914f7777678efa1e58bbdf087cc61169fabf7bc58d0f21d92a09f757",
+      "ja_text_bytes": 901,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-99",
+      "article_number": "99",
+      "filename": "kojin-jouhou-hogo-hou-article-99.md",
+      "ja_text_sha256": "6b1df5542ed8e5bccdc4ac6b19359aed834af08d8e0967c745595c2962e75656",
+      "ja_text_bytes": 898,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-100",
+      "article_number": "100",
+      "filename": "kojin-jouhou-hogo-hou-article-100.md",
+      "ja_text_sha256": "1dae763264b8cb630e40b8102b451349f348a9bebe377ced6cb6a35467d6cae4",
+      "ja_text_bytes": 690,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-101",
+      "article_number": "101",
+      "filename": "kojin-jouhou-hogo-hou-article-101.md",
+      "ja_text_sha256": "4aefc603f9e28e631562cee6c1b43531303e255a4c4b9dc1299bdc73fe5f7b4f",
+      "ja_text_bytes": 467,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-102",
+      "article_number": "102",
+      "filename": "kojin-jouhou-hogo-hou-article-102.md",
+      "ja_text_sha256": "15c808bce0077210b9cf3b03e825be2b2451d45bd6586dda5e5dab8b657a9fc0",
+      "ja_text_bytes": 767,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-103",
+      "article_number": "103",
+      "filename": "kojin-jouhou-hogo-hou-article-103.md",
+      "ja_text_sha256": "a5995ee5a22b72ad5f93d961231daa4f236d4b3844ae7add38e32ed6f31d6e1b",
+      "ja_text_bytes": 411,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-104",
+      "article_number": "104",
+      "filename": "kojin-jouhou-hogo-hou-article-104.md",
+      "ja_text_sha256": "a83337c4ecbc00642fa975d4fbfb8e5eb12d3341987781c73b1a4dfa1e1d5e15",
+      "ja_text_bytes": 2444,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-105",
+      "article_number": "105",
+      "filename": "kojin-jouhou-hogo-hou-article-105.md",
+      "ja_text_sha256": "cb1691984d19126052c3ceee4cbb30573316e95ad10ca2af94cb36eb345e2fb7",
+      "ja_text_bytes": 1195,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-106",
+      "article_number": "106",
+      "filename": "kojin-jouhou-hogo-hou-article-106.md",
+      "ja_text_sha256": "074389e14058b7b6e6b808dffdf5110ef2f2877ef7328d79359620415fe4a703",
+      "ja_text_bytes": 944,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-107",
+      "article_number": "107",
+      "filename": "kojin-jouhou-hogo-hou-article-107.md",
+      "ja_text_sha256": "90282615fd3abd35bac46f5eb178504e1ba7ca3340ce3079dcb0b8ce41a7a4ff",
+      "ja_text_bytes": 521,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-108",
+      "article_number": "108",
+      "filename": "kojin-jouhou-hogo-hou-article-108.md",
+      "ja_text_sha256": "987599e721843a2e0c17bf9be724e11ba56c00d3c6fb5be8c2dd52f0c84927cb",
+      "ja_text_bytes": 291,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-109",
+      "article_number": "109",
+      "filename": "kojin-jouhou-hogo-hou-article-109.md",
+      "ja_text_sha256": "c29fa9fb4b23ab4c1f1f603d718bedc792dbdbcfbe8f72807b27b84f0b5b1041",
+      "ja_text_bytes": 849,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-110",
+      "article_number": "110",
+      "filename": "kojin-jouhou-hogo-hou-article-110.md",
+      "ja_text_sha256": "613e9d146800a06e0225bd657fc37b67387fcd0cb96c40e69f4daa3d6d60a9b1",
+      "ja_text_bytes": 573,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-111",
+      "article_number": "111",
+      "filename": "kojin-jouhou-hogo-hou-article-111.md",
+      "ja_text_sha256": "46f1de2a5daa0dfbe4b293d3e73441ae8cf825d7c33725e05acd880a51f1c35f",
+      "ja_text_bytes": 420,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-112",
+      "article_number": "112",
+      "filename": "kojin-jouhou-hogo-hou-article-112.md",
+      "ja_text_sha256": "8a980b62be7acfbfe00f97888a91c2961eef5ba65cb4b102566f8df1b592d26a",
+      "ja_text_bytes": 652,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-113",
+      "article_number": "113",
+      "filename": "kojin-jouhou-hogo-hou-article-113.md",
+      "ja_text_sha256": "71dbe56867c29a32edf4fd8f6b0e118dcf2671b32f16f44564d070862362ae3f",
+      "ja_text_bytes": 108,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-114",
+      "article_number": "114",
+      "filename": "kojin-jouhou-hogo-hou-article-114.md",
+      "ja_text_sha256": "54f9645dff6ee6677f3428379f3c04840cfa70ad5f030d74c0f2c2dbd3a8d82f",
+      "ja_text_bytes": 904,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-115",
+      "article_number": "115",
+      "filename": "kojin-jouhou-hogo-hou-article-115.md",
+      "ja_text_sha256": "fb3adbe6bad9f0a3786bfe8462de9385739778cbe7600406b1470937cb57dbcf",
+      "ja_text_bytes": 258,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-116",
+      "article_number": "116",
+      "filename": "kojin-jouhou-hogo-hou-article-116.md",
+      "ja_text_sha256": "c16d664ebe306da762fda518e33f2394613bf67001236c46a3af6256b29c71bf",
+      "ja_text_bytes": 632,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-117",
+      "article_number": "117",
+      "filename": "kojin-jouhou-hogo-hou-article-117.md",
+      "ja_text_sha256": "ac22aa74fe4d8d5c63b4e0b1cd51007bb368a2568f2c991855c5e679398c839c",
+      "ja_text_bytes": 621,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-118",
+      "article_number": "118",
+      "filename": "kojin-jouhou-hogo-hou-article-118.md",
+      "ja_text_sha256": "688a55be6d33b9c4b5e1eb039fee6e836db65b048772e4eac41edc5defdeff2d",
+      "ja_text_bytes": 1673,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-119",
+      "article_number": "119",
+      "filename": "kojin-jouhou-hogo-hou-article-119.md",
+      "ja_text_sha256": "b287e6bb4bbc8e5cb48c645cb5bbdd8fe9a589b600c8fa16da8c5df847e6b24d",
+      "ja_text_bytes": 2454,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-120",
+      "article_number": "120",
+      "filename": "kojin-jouhou-hogo-hou-article-120.md",
+      "ja_text_sha256": "8cbfe4e8570038d6d6c77c41a67525cff3fdbe876fba05587a1c91b5bee7acf4",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-121",
+      "article_number": "121",
+      "filename": "kojin-jouhou-hogo-hou-article-121.md",
+      "ja_text_sha256": "7716fa831035c709b00bb91bd50d60acb353d178db7bbd09e69be3f26529e7d8",
+      "ja_text_bytes": 1117,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-122",
+      "article_number": "122",
+      "filename": "kojin-jouhou-hogo-hou-article-122.md",
+      "ja_text_sha256": "593c313cd21dc377e96ed1cba894d135409ae8a46144fc89efe7f16481d205f1",
+      "ja_text_bytes": 561,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-123",
+      "article_number": "123",
+      "filename": "kojin-jouhou-hogo-hou-article-123.md",
+      "ja_text_sha256": "a4d80f93c4e599ef2c97e4732bdc668c94f0a2907fffb0c8d50c969547521135",
+      "ja_text_bytes": 1542,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-124",
+      "article_number": "124",
+      "filename": "kojin-jouhou-hogo-hou-article-124.md",
+      "ja_text_sha256": "26e085c45cc51098a37d8b44ed7515220230cc80d11e2025bd2bd2b4a3bb9fef",
+      "ja_text_bytes": 1085,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-125",
+      "article_number": "125",
+      "filename": "kojin-jouhou-hogo-hou-article-125.md",
+      "ja_text_sha256": "47f40e402ad7fcf04b9617ceb51fa0ba0a6316cbafae4f37b6df3e4b0b5cb0eb",
+      "ja_text_bytes": 2167,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-126",
+      "article_number": "126",
+      "filename": "kojin-jouhou-hogo-hou-article-126.md",
+      "ja_text_sha256": "275ff63f7dd3bd7b2e4d1fe5d19a694f0c52eb7fda7cdec38415b8f83c0f3265",
+      "ja_text_bytes": 351,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-127",
+      "article_number": "127",
+      "filename": "kojin-jouhou-hogo-hou-article-127.md",
+      "ja_text_sha256": "8c14729208cf39e6fd2ba8227b8a2fde8e33725753f1ccc5872d49fcaa5670d1",
+      "ja_text_bytes": 594,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-128",
+      "article_number": "128",
+      "filename": "kojin-jouhou-hogo-hou-article-128.md",
+      "ja_text_sha256": "9885b02cb228e00369e87056346038574bf8b1d3fb41576858adfd40b1f7235c",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-129",
+      "article_number": "129",
+      "filename": "kojin-jouhou-hogo-hou-article-129.md",
+      "ja_text_sha256": "1dc3d476302cfcb3aaf4665de89ce09b21071abe74a4821527b4388446656a1f",
+      "ja_text_bytes": 378,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-130",
+      "article_number": "130",
+      "filename": "kojin-jouhou-hogo-hou-article-130.md",
+      "ja_text_sha256": "9b14c11432189f4fa5706e376c765fe9b1183cbd71195da0b06c202bb7c46259",
+      "ja_text_bytes": 206,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-131",
+      "article_number": "131",
+      "filename": "kojin-jouhou-hogo-hou-article-131.md",
+      "ja_text_sha256": "83ebdb66c89b98a20b25f3f6e87ac9a4ec0b1940881bc2fa60d69a99e784240c",
+      "ja_text_bytes": 843,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-132",
+      "article_number": "132",
+      "filename": "kojin-jouhou-hogo-hou-article-132.md",
+      "ja_text_sha256": "4b84508df731a3b42e64b30542fcd0bfe7b7ffdb6e0c90e57ceaa710f30bf044",
+      "ja_text_bytes": 96,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-133",
+      "article_number": "133",
+      "filename": "kojin-jouhou-hogo-hou-article-133.md",
+      "ja_text_sha256": "5bd3fce93b971d3957104b0435315a5ef5e55fcbd9b089b3b5a71624eea91e88",
+      "ja_text_bytes": 75,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-134",
+      "article_number": "134",
+      "filename": "kojin-jouhou-hogo-hou-article-134.md",
+      "ja_text_sha256": "f0095d781699a820976a50601f691d0c30f7f7bf00dddd3d33dde384c2d0fc77",
+      "ja_text_bytes": 852,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-135",
+      "article_number": "135",
+      "filename": "kojin-jouhou-hogo-hou-article-135.md",
+      "ja_text_sha256": "040e18a2ad8736bc9964703b94cab0b8f3ab1de2e05a5694a463ddbc700a56d7",
+      "ja_text_bytes": 1091,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-136",
+      "article_number": "136",
+      "filename": "kojin-jouhou-hogo-hou-article-136.md",
+      "ja_text_sha256": "40f02c6e33c1a8753cd09bf9018b01a8c2fb53796a33a8ab188bf2a72c6c3946",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-137",
+      "article_number": "137",
+      "filename": "kojin-jouhou-hogo-hou-article-137.md",
+      "ja_text_sha256": "3062ad244017eefd3a0b84b93e4a722bf4d4fd16c0e9bb3256e9bec8b571baa3",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-138",
+      "article_number": "138",
+      "filename": "kojin-jouhou-hogo-hou-article-138.md",
+      "ja_text_sha256": "7b892e67c3df4e914a6204395cf28fe0d3d9f259c44d55625f594803c35359b1",
+      "ja_text_bytes": 248,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-139",
+      "article_number": "139",
+      "filename": "kojin-jouhou-hogo-hou-article-139.md",
+      "ja_text_sha256": "42b4e39278260d5f1b1b702dec12f59dbecdc076dee283c5f4e45779b1d66c9f",
+      "ja_text_bytes": 662,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-140",
+      "article_number": "140",
+      "filename": "kojin-jouhou-hogo-hou-article-140.md",
+      "ja_text_sha256": "150c3632b224bbff248ca5ce1512b715aa1aa5842cdf13e4a90f2b21022d3181",
+      "ja_text_bytes": 348,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-141",
+      "article_number": "141",
+      "filename": "kojin-jouhou-hogo-hou-article-141.md",
+      "ja_text_sha256": "0ecbd0da61bb586bd4936dd5409fcf33cc74d35bb86a9b5882ff17c3b41713d9",
+      "ja_text_bytes": 211,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-142",
+      "article_number": "142",
+      "filename": "kojin-jouhou-hogo-hou-article-142.md",
+      "ja_text_sha256": "56e8480c8fedfc78387df6b07d9d49e896c323a2e6fd4ae2eab0db1fbd488ca8",
+      "ja_text_bytes": 410,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-143",
+      "article_number": "143",
+      "filename": "kojin-jouhou-hogo-hou-article-143.md",
+      "ja_text_sha256": "eced01aa3234134e9a42f9cf2043d426d98cd142ceaed316dadb80289e784b43",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-144",
+      "article_number": "144",
+      "filename": "kojin-jouhou-hogo-hou-article-144.md",
+      "ja_text_sha256": "150db7daa153fd772979997246a95be5d0e1ab91efb7e28e82fd3e62899edb2c",
+      "ja_text_bytes": 63,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-145",
+      "article_number": "145",
+      "filename": "kojin-jouhou-hogo-hou-article-145.md",
+      "ja_text_sha256": "f432cf48ac86738550728558f443cbaaf2adc17d1e53e9c5b8d98292515929a0",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-146",
+      "article_number": "146",
+      "filename": "kojin-jouhou-hogo-hou-article-146.md",
+      "ja_text_sha256": "1ddb2d24d8dccae53c49229aa7d8f9beed94f6c84405421303c3c23a70a51d3b",
+      "ja_text_bytes": 1237,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-147",
+      "article_number": "147",
+      "filename": "kojin-jouhou-hogo-hou-article-147.md",
+      "ja_text_sha256": "7f0a1c5cbb799885481dc2010b8b4d117b41649e7a82fe3c096ae1b095c4a87c",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-148",
+      "article_number": "148",
+      "filename": "kojin-jouhou-hogo-hou-article-148.md",
+      "ja_text_sha256": "170b0c3308b920cc7b70846f98244a633907d177f69b103002bbefae3a8c655c",
+      "ja_text_bytes": 4137,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-149",
+      "article_number": "149",
+      "filename": "kojin-jouhou-hogo-hou-article-149.md",
+      "ja_text_sha256": "38f559a1228bbc18786634e72b84f4241a4fe7090ea171659ebdbfce8e6945bd",
+      "ja_text_bytes": 662,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-150",
+      "article_number": "150",
+      "filename": "kojin-jouhou-hogo-hou-article-150.md",
+      "ja_text_sha256": "04b3b0acac413cd90f903011b86fec2a3eec40d62d27debc7af4c183b452c8b0",
+      "ja_text_bytes": 2830,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-151",
+      "article_number": "151",
+      "filename": "kojin-jouhou-hogo-hou-article-151.md",
+      "ja_text_sha256": "b873a146ffc53bbc94b27107a72266bd18ceed4ce34d218525bf67d185714c55",
+      "ja_text_bytes": 390,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-152",
+      "article_number": "152",
+      "filename": "kojin-jouhou-hogo-hou-article-152.md",
+      "ja_text_sha256": "7f8c04a0cf91755b6e27847c5ee59dbe6759a91b70d6b4a2d6b22a70987d873f",
+      "ja_text_bytes": 81,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-153",
+      "article_number": "153",
+      "filename": "kojin-jouhou-hogo-hou-article-153.md",
+      "ja_text_sha256": "db561c372fec05f850505fbe212a1ae3831ea3086db7cb88b373a6e72ab6e1ec",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-154",
+      "article_number": "154",
+      "filename": "kojin-jouhou-hogo-hou-article-154.md",
+      "ja_text_sha256": "a462fec872b635f8034c41476021f0bbd76a97f040b6a3dd738967653dd6140a",
+      "ja_text_bytes": 279,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-155",
+      "article_number": "155",
+      "filename": "kojin-jouhou-hogo-hou-article-155.md",
+      "ja_text_sha256": "2765e44fabdf558adfddab36281e90bf5e6707435c9f2a86f2cce0caeca657e9",
+      "ja_text_bytes": 275,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-156",
+      "article_number": "156",
+      "filename": "kojin-jouhou-hogo-hou-article-156.md",
+      "ja_text_sha256": "9ba4ec3e5e468afd2fe133dec57bdb53214174d69b81c53b3837d2b2241590d4",
+      "ja_text_bytes": 420,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-157",
+      "article_number": "157",
+      "filename": "kojin-jouhou-hogo-hou-article-157.md",
+      "ja_text_sha256": "b756561001fbebef8533b8c5fc4f91969133874b54f10af9aff1a6623a76042d",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-158",
+      "article_number": "158",
+      "filename": "kojin-jouhou-hogo-hou-article-158.md",
+      "ja_text_sha256": "d3dd95a85f4a46208fedb564daa6c22808f5eb1b725f1746d8642e9df3d30dfb",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-159",
+      "article_number": "159",
+      "filename": "kojin-jouhou-hogo-hou-article-159.md",
+      "ja_text_sha256": "b16fd8969fc2f2a7d4c3d5cc73216a357252a469ec5061da03523040591b7469",
+      "ja_text_bytes": 228,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-160",
+      "article_number": "160",
+      "filename": "kojin-jouhou-hogo-hou-article-160.md",
+      "ja_text_sha256": "53a40c4bb003975bb68d553326eb7ede3c8502671a4966913ddea78c5a36a1bd",
+      "ja_text_bytes": 357,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-161",
+      "article_number": "161",
+      "filename": "kojin-jouhou-hogo-hou-article-161.md",
+      "ja_text_sha256": "7cbad6696a316072c42bddc60bdaaa42185227d43b0855ce57a97865ae030d27",
+      "ja_text_bytes": 998,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-162",
+      "article_number": "162",
+      "filename": "kojin-jouhou-hogo-hou-article-162.md",
+      "ja_text_sha256": "dd8d3e7086cd7aeb88e79b8f8eea47451f72049e86d9ca43a9f779698365ca8d",
+      "ja_text_bytes": 492,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-163",
+      "article_number": "163",
+      "filename": "kojin-jouhou-hogo-hou-article-163.md",
+      "ja_text_sha256": "ed54b010cd77e49a96632e9bf829beb3ae2e74d96d10fec02603512acd9dbeca",
+      "ja_text_bytes": 525,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-164",
+      "article_number": "164",
+      "filename": "kojin-jouhou-hogo-hou-article-164.md",
+      "ja_text_sha256": "7304113d5ac3eecc862528601814d95950ed5467b4a6a18521f2b72133fc092e",
+      "ja_text_bytes": 846,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-165",
+      "article_number": "165",
+      "filename": "kojin-jouhou-hogo-hou-article-165.md",
+      "ja_text_sha256": "16938b72848c408479bd76916ab0525a582871f553e8bbcdb8c90e620c49837e",
+      "ja_text_bytes": 239,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-166",
+      "article_number": "166",
+      "filename": "kojin-jouhou-hogo-hou-article-166.md",
+      "ja_text_sha256": "5e8c97ccaf9cd75eae17cdb3b0978c02062c795befc45ea046dfb3f75b180d02",
+      "ja_text_bytes": 449,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-167",
+      "article_number": "167",
+      "filename": "kojin-jouhou-hogo-hou-article-167.md",
+      "ja_text_sha256": "bdbe96226390f78812605bf568266108c6dec5933e708120ab229e6c08cd550f",
+      "ja_text_bytes": 595,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-168",
+      "article_number": "168",
+      "filename": "kojin-jouhou-hogo-hou-article-168.md",
+      "ja_text_sha256": "a4cfc254cc4d1311bd57d82e81ad70d9a47ba7ee97663e80a3ae079276f9aa02",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-169",
+      "article_number": "169",
+      "filename": "kojin-jouhou-hogo-hou-article-169.md",
+      "ja_text_sha256": "f6cc1538bdee38f126276e85ac7cea0c09603a8574cb16a7ebc8c3aac1fd1388",
+      "ja_text_bytes": 123,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-170",
+      "article_number": "170",
+      "filename": "kojin-jouhou-hogo-hou-article-170.md",
+      "ja_text_sha256": "d6c76974a03abb0d7297aeab77b101c0427eff96603cc35ea5049cb5d200c8df",
+      "ja_text_bytes": 327,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-171",
+      "article_number": "171",
+      "filename": "kojin-jouhou-hogo-hou-article-171.md",
+      "ja_text_sha256": "4ec9b44e8136876cbca231825254ae2e1c3cd029acf7756ddfb712f6a99388fb",
+      "ja_text_bytes": 537,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-172",
+      "article_number": "172",
+      "filename": "kojin-jouhou-hogo-hou-article-172.md",
+      "ja_text_sha256": "08fb3fd72fe175ff1d75cbb2b405952e8c823cc05c81762524e9a69c8d53ded9",
+      "ja_text_bytes": 1422,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-173",
+      "article_number": "173",
+      "filename": "kojin-jouhou-hogo-hou-article-173.md",
+      "ja_text_sha256": "e3902eb6d73ce258a23356523071f74cb5d53e2e5973feebf41e451fd3c5c0f8",
+      "ja_text_bytes": 240,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-174",
+      "article_number": "174",
+      "filename": "kojin-jouhou-hogo-hou-article-174.md",
+      "ja_text_sha256": "3785195486178f85ac202ba773dc6e5c68fac0797915a98b9fc22b471464bce4",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-175",
+      "article_number": "175",
+      "filename": "kojin-jouhou-hogo-hou-article-175.md",
+      "ja_text_sha256": "5cd2f504bd226cea6e202d6bab671554792a6b63631ba852bcd21224a5a52763",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-176",
+      "article_number": "176",
+      "filename": "kojin-jouhou-hogo-hou-article-176.md",
+      "ja_text_sha256": "154f387e71e6408ce034350c35a5f09ecf09a3dd8b95f00a2e7ed006a4dcd1e4",
+      "ja_text_bytes": 786,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-177",
+      "article_number": "177",
+      "filename": "kojin-jouhou-hogo-hou-article-177.md",
+      "ja_text_sha256": "7e6a49f3b0827c5f2a93befc1add1d947025500c13b15e169ad7fdd7976373f4",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-178",
+      "article_number": "178",
+      "filename": "kojin-jouhou-hogo-hou-article-178.md",
+      "ja_text_sha256": "4b3e5206fedb01185dde838055d3bc909377fd42936e7e13d20e455935be1d97",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-179",
+      "article_number": "179",
+      "filename": "kojin-jouhou-hogo-hou-article-179.md",
+      "ja_text_sha256": "390fc951addb94b82e76e9bc6e1ed27712f9ee868c7b8136a45891a0bada6054",
+      "ja_text_bytes": 657,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-180",
+      "article_number": "180",
+      "filename": "kojin-jouhou-hogo-hou-article-180.md",
+      "ja_text_sha256": "9c9c39eabb1dec91a69e8d4538e480a2b3f3a9be17335e95a969d3af5e1f577c",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-181",
+      "article_number": "181",
+      "filename": "kojin-jouhou-hogo-hou-article-181.md",
+      "ja_text_sha256": "96c746124cfb1ab236479016d4228be75f8be7613d88acd597474154f568bb4e",
+      "ja_text_bytes": 300,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-182",
+      "article_number": "182",
+      "filename": "kojin-jouhou-hogo-hou-article-182.md",
+      "ja_text_sha256": "b0fbb78bde48c241ba287ff78d90c33450c1c0c1cda268ee7228ba2d47c670d5",
+      "ja_text_bytes": 135,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-183",
+      "article_number": "183",
+      "filename": "kojin-jouhou-hogo-hou-article-183.md",
+      "ja_text_sha256": "8734b7ae0c9d3064b860a0250c839b0075088dc5721f19eede3207bdd7188596",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-184",
+      "article_number": "184",
+      "filename": "kojin-jouhou-hogo-hou-article-184.md",
+      "ja_text_sha256": "af3bf50583747434bd18e41a7de7ae7021dd1d0d1842a729e311a02caf636638",
+      "ja_text_bytes": 647,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kojin-jouhou-hogo-hou-art-185",
+      "article_number": "185",
+      "filename": "kojin-jouhou-hogo-hou-article-185.md",
+      "ja_text_sha256": "24ff990a145f7257dce089c8c19fc1c11eb7df19d6e03528a14241d011b54040",
+      "ja_text_bytes": 90,
+      "paragraph_count": 1
+    }
+  ]
+}

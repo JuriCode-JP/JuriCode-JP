@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "law_id": "429M60000002054",
+  "law_name_ja": "金融商品取引法第二章の六の規定による重要情報の公表に関する内閣府令",
+  "law_abbrev": "juuyou-jouhou-furei",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/429M60000002054",
+  "source_xml_path": "cache\\laws\\429M60000002054.xml",
+  "source_xml_sha256": "e81a037d981c3221653604558e50a3d787a49395c38db3b5ffa3d1469e5cd4c5",
+  "source_xml_bytes": 47561,
+  "source_fetched_at": "2026-05-21",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-21T03:53:34+00:00",
+  "version_date": "2017-12-27",
+  "article_count": 12,
+  "articles": [
+    {
+      "article_id": "juuyou-jouhou-furei-art-1",
+      "article_number": "1",
+      "filename": "juuyou-jouhou-furei-article-1.md",
+      "ja_text_sha256": "88b6c5b823d1d6367366963dab0d268fd78d06ae1a596cd998cd211510cc3ccd",
+      "ja_text_bytes": 1348,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-2",
+      "article_number": "2",
+      "filename": "juuyou-jouhou-furei-article-2.md",
+      "ja_text_sha256": "bb421fdb04c047cfb7e1db256fda4fd25d42a769dea54677e1332fa48af75cbe",
+      "ja_text_bytes": 1279,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-3",
+      "article_number": "3",
+      "filename": "juuyou-jouhou-furei-article-3.md",
+      "ja_text_sha256": "b5c874b4fd31d0544a344ab0e47a0a6bef367002768f1b4478d907dca6ca849b",
+      "ja_text_bytes": 798,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-4",
+      "article_number": "4",
+      "filename": "juuyou-jouhou-furei-article-4.md",
+      "ja_text_sha256": "56ad732ca6fc5784406c755dd64b7914007e40bddd59bc2c5bcee50ea3d6feec",
+      "ja_text_bytes": 222,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-5",
+      "article_number": "5",
+      "filename": "juuyou-jouhou-furei-article-5.md",
+      "ja_text_sha256": "1dd3e9ec8b08477ad3b5a1de415aada5446952aa592972d01a73d184c9d8d043",
+      "ja_text_bytes": 903,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-6",
+      "article_number": "6",
+      "filename": "juuyou-jouhou-furei-article-6.md",
+      "ja_text_sha256": "f02aad7852a8a86b368aac7e157859a91b2a0120e3891df7f5d0a0efdd696cfe",
+      "ja_text_bytes": 489,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-7",
+      "article_number": "7",
+      "filename": "juuyou-jouhou-furei-article-7.md",
+      "ja_text_sha256": "d8eae762eab8ea9f7c61cd1a7b265883f96fcd020d74b6933a474fa109d3ba6b",
+      "ja_text_bytes": 588,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-8",
+      "article_number": "8",
+      "filename": "juuyou-jouhou-furei-article-8.md",
+      "ja_text_sha256": "0e54d8451b54b65916c7e7cdb089525261e62dcf18749960e16574f556f1fb4d",
+      "ja_text_bytes": 153,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-9",
+      "article_number": "9",
+      "filename": "juuyou-jouhou-furei-article-9.md",
+      "ja_text_sha256": "a96b9e1c2c93e133f150afbc2b03adb9165bc694422be07d4f06f10842bc6f62",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-10",
+      "article_number": "10",
+      "filename": "juuyou-jouhou-furei-article-10.md",
+      "ja_text_sha256": "14f92d1eff09292daa42d8300f6f06ec79b81229939b9a3a54361576765aa24e",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-11",
+      "article_number": "11",
+      "filename": "juuyou-jouhou-furei-article-11.md",
+      "ja_text_sha256": "a92e33b94a255e2d06df3c5e42bb229f4a9573e7d8bde4fe133350c628d39345",
+      "ja_text_bytes": 1131,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "juuyou-jouhou-furei-art-12",
+      "article_number": "12",
+      "filename": "juuyou-jouhou-furei-article-12.md",
+      "ja_text_sha256": "f336224fc75a990cc02e77e0a2630d2aa0ef29fdc6dc0e226e751efcc97e843b",
+      "ja_text_bytes": 347,
+      "paragraph_count": 2
+    }
+  ]
+}

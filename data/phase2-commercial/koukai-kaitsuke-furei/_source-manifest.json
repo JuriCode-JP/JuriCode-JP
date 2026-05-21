@@ -1,0 +1,442 @@
+{
+  "schema_version": "1.0",
+  "law_id": "402M50000040038",
+  "law_name_ja": "発行者以外の者による株券等の公開買付けの開示に関する内閣府令",
+  "law_abbrev": "koukai-kaitsuke-furei",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/402M50000040038",
+  "source_xml_path": "cache\\laws\\402M50000040038.xml",
+  "source_xml_sha256": "8e6fccef8329a2ddfb676c1167cd960677b02ab884f580484e2167ed8ff08105",
+  "source_xml_bytes": 326166,
+  "source_fetched_at": "2026-05-21",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-21T03:53:15+00:00",
+  "version_date": "1990-11-26",
+  "article_count": 53,
+  "articles": [
+    {
+      "article_id": "koukai-kaitsuke-furei-art-1",
+      "article_number": "1",
+      "filename": "koukai-kaitsuke-furei-article-1.md",
+      "ja_text_sha256": "8e0b8f30f709ff6b06681b25449fc76e2323053c4485d125f929848935c269aa",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-2",
+      "article_number": "2",
+      "filename": "koukai-kaitsuke-furei-article-2.md",
+      "ja_text_sha256": "a5fd727fbd887b1d2df0ee71f04b7208fdfa11f66d54937a0c25813d79ea200e",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-2-2",
+      "article_number": "2-2",
+      "filename": "koukai-kaitsuke-furei-article-2-2.md",
+      "ja_text_sha256": "c1deddd2512591842811b572bc61855fd6a2121920e0d9bc338786fe1898796d",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-2-2-2",
+      "article_number": "2-2-2",
+      "filename": "koukai-kaitsuke-furei-article-2-2-2.md",
+      "ja_text_sha256": "c5cb138e5ce998632fef4cfba448afcd255a4ac4c2f303461f48246488aacbf7",
+      "ja_text_bytes": 390,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-2-2-3",
+      "article_number": "2-2-3",
+      "filename": "koukai-kaitsuke-furei-article-2-2-3.md",
+      "ja_text_sha256": "5ae97101c9fddfbdb0a8825856fee96207c03d6d979998262be5edb7b354e89a",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-2-3",
+      "article_number": "2-3",
+      "filename": "koukai-kaitsuke-furei-article-2-3.md",
+      "ja_text_sha256": "f6ae3c7654e240dc97ab82fcbee8c42589027f587430af4e710fab67d813c26e",
+      "ja_text_bytes": 1220,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-2-4",
+      "article_number": "2-4",
+      "filename": "koukai-kaitsuke-furei-article-2-4.md",
+      "ja_text_sha256": "cd2f454c79a1cfb3f1e61b66a6bfe46a59813f539d378c916fbc27b792fc8450",
+      "ja_text_bytes": 599,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-2-5",
+      "article_number": "2-5",
+      "filename": "koukai-kaitsuke-furei-article-2-5.md",
+      "ja_text_sha256": "bf6cb96a78b064eb0055e6ed54f586a6ae4bbf33c006fb77e8c8bfc946875be4",
+      "ja_text_bytes": 1463,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-2-6",
+      "article_number": "2-6",
+      "filename": "koukai-kaitsuke-furei-article-2-6.md",
+      "ja_text_sha256": "7dbdc054473048244f47e4e97ea9ec8af244f6472ebc7ccd95586f85fbda91c9",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-2-7",
+      "article_number": "2-7",
+      "filename": "koukai-kaitsuke-furei-article-2-7.md",
+      "ja_text_sha256": "f29777df86147283e13e5d23aaa81fbe57e37d4dbc313997a209053eae679e08",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-3",
+      "article_number": "3",
+      "filename": "koukai-kaitsuke-furei-article-3.md",
+      "ja_text_sha256": "21390ae7cf96efdbb0d1bd81923d90eaca15b8516d3116286f45f39bd367c677",
+      "ja_text_bytes": 990,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-3-2",
+      "article_number": "3-2",
+      "filename": "koukai-kaitsuke-furei-article-3-2.md",
+      "ja_text_sha256": "47bae778e18b0345f77fd23a156bd8d6c4fe0f3692ebc07ebc853b67e2a9ef51",
+      "ja_text_bytes": 846,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-4",
+      "article_number": "4",
+      "filename": "koukai-kaitsuke-furei-article-4.md",
+      "ja_text_sha256": "bd86f1c01f720a7ebb0b72092e2ba4d1ce9f8c392070e3aa37333e77232db6ee",
+      "ja_text_bytes": 426,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-5",
+      "article_number": "5",
+      "filename": "koukai-kaitsuke-furei-article-5.md",
+      "ja_text_sha256": "b94590904a9a66bbacda519907eabf9d529fc82287505b10e9e6cdc2fe8c5fd3",
+      "ja_text_bytes": 2617,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-6",
+      "article_number": "6",
+      "filename": "koukai-kaitsuke-furei-article-6.md",
+      "ja_text_sha256": "4684b3f9ca28ba2320f654b82d3076c9e4916a534329d2d263fef0296b38bd62",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-7",
+      "article_number": "7",
+      "filename": "koukai-kaitsuke-furei-article-7.md",
+      "ja_text_sha256": "1536a131f3638e752536abe6c84c5f2baf04525fb50ca320b909040d168c8d05",
+      "ja_text_bytes": 788,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-8",
+      "article_number": "8",
+      "filename": "koukai-kaitsuke-furei-article-8.md",
+      "ja_text_sha256": "a872118c9e5e49b25265fbe3cac6d34137a2c18a63d02644f51c687a7981ff57",
+      "ja_text_bytes": 1532,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-9",
+      "article_number": "9",
+      "filename": "koukai-kaitsuke-furei-article-9.md",
+      "ja_text_sha256": "409ad94a6a3ec8f46abaf74b8b3d43dcc387b4772e68d850644dd10bb73ae6a9",
+      "ja_text_bytes": 3385,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-9-2",
+      "article_number": "9-2",
+      "filename": "koukai-kaitsuke-furei-article-9-2.md",
+      "ja_text_sha256": "6e14c8d9871d855370c736391fbcc6c328e29e7db47bdc7b5db5ae99e9252ab0",
+      "ja_text_bytes": 282,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-9-3",
+      "article_number": "9-3",
+      "filename": "koukai-kaitsuke-furei-article-9-3.md",
+      "ja_text_sha256": "c365115f5fc3062be82f27a32f4ecf30c7e206c5803ced13ecfe6043b3bda0d8",
+      "ja_text_bytes": 410,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-9-4",
+      "article_number": "9-4",
+      "filename": "koukai-kaitsuke-furei-article-9-4.md",
+      "ja_text_sha256": "b1c0f93c3e05b041989f7d93a76f7d17de9b199b4a3321d4bc78c3649909e417",
+      "ja_text_bytes": 255,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-9-5",
+      "article_number": "9-5",
+      "filename": "koukai-kaitsuke-furei-article-9-5.md",
+      "ja_text_sha256": "c8502843c3325b4e959f5427d0d7e255df25538c4aa691905401ed52230fcc3f",
+      "ja_text_bytes": 2153,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-9-6",
+      "article_number": "9-6",
+      "filename": "koukai-kaitsuke-furei-article-9-6.md",
+      "ja_text_sha256": "3b5e7caf19b681021923f272d4a791974bda4c28b0572b2c6382c70bce2e639a",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-10",
+      "article_number": "10",
+      "filename": "koukai-kaitsuke-furei-article-10.md",
+      "ja_text_sha256": "97bf8438aad6b0b5caac4a2eacc113bb04f6e0a57381e8bae7ced0f2989fa3e0",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-11",
+      "article_number": "11",
+      "filename": "koukai-kaitsuke-furei-article-11.md",
+      "ja_text_sha256": "76c4f8b78ca56eb9e58e085243aeb974641002289828b1620119f1e6ad236d1d",
+      "ja_text_bytes": 558,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-12",
+      "article_number": "12",
+      "filename": "koukai-kaitsuke-furei-article-12.md",
+      "ja_text_sha256": "0a61be60e580f3d5653e11789468e483357894bfe2a7345e0e9645ffb57472fe",
+      "ja_text_bytes": 234,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-13",
+      "article_number": "13",
+      "filename": "koukai-kaitsuke-furei-article-13.md",
+      "ja_text_sha256": "2b3fe3a7bd93cdc90a4a6507551b6a83452a0a0e359d033550b3326f8e0dacc9",
+      "ja_text_bytes": 260,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-14",
+      "article_number": "14",
+      "filename": "koukai-kaitsuke-furei-article-14.md",
+      "ja_text_sha256": "9ba32e255feb522490cae64b8a73f7b1a090507aeed21b835faa095986fb821f",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-15",
+      "article_number": "15",
+      "filename": "koukai-kaitsuke-furei-article-15.md",
+      "ja_text_sha256": "453b8f44f4dee33e5a44131f9dc724cf537d782d2bb9f2738b4f3aa4e596dea9",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-16",
+      "article_number": "16",
+      "filename": "koukai-kaitsuke-furei-article-16.md",
+      "ja_text_sha256": "18df9876853e1c396a6e0192d191e6a1e1b5b04de8e15cc0487b0678884929b5",
+      "ja_text_bytes": 432,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-17",
+      "article_number": "17",
+      "filename": "koukai-kaitsuke-furei-article-17.md",
+      "ja_text_sha256": "55b6dbb55c55638107aca545e5362c54e314c733e3bda975d19e6b2485f2fd7b",
+      "ja_text_bytes": 282,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-18",
+      "article_number": "18",
+      "filename": "koukai-kaitsuke-furei-article-18.md",
+      "ja_text_sha256": "d47d09882776b348874dfe1191cc3a8ca7382104dcac200dc0bba7f8b02d5ef4",
+      "ja_text_bytes": 405,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-19",
+      "article_number": "19",
+      "filename": "koukai-kaitsuke-furei-article-19.md",
+      "ja_text_sha256": "b68d7b45c9a1d8ece097a314500dc7e777ab66e7b0cdde2cb7ed84147f0e613b",
+      "ja_text_bytes": 547,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-20",
+      "article_number": "20",
+      "filename": "koukai-kaitsuke-furei-article-20.md",
+      "ja_text_sha256": "e5db11d2e095b59b33f0349c3495ea5ea90a3fb9116a6190202a9d41ae196f22",
+      "ja_text_bytes": 531,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-21",
+      "article_number": "21",
+      "filename": "koukai-kaitsuke-furei-article-21.md",
+      "ja_text_sha256": "9bf75a730d37dbaa59ba0c35bc8276af3ea0a767ca82dbe699549036efb0cc38",
+      "ja_text_bytes": 1534,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-22",
+      "article_number": "22",
+      "filename": "koukai-kaitsuke-furei-article-22.md",
+      "ja_text_sha256": "effbcf9490c2e34a206fc99dd0e352f20be5a8d88ab59776a6ebacfa440af001",
+      "ja_text_bytes": 844,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-23",
+      "article_number": "23",
+      "filename": "koukai-kaitsuke-furei-article-23.md",
+      "ja_text_sha256": "db4d29547b0d4ece0d10bbd80b3978667f15276fb6799d7c2a907c44ac51e755",
+      "ja_text_bytes": 195,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-24",
+      "article_number": "24",
+      "filename": "koukai-kaitsuke-furei-article-24.md",
+      "ja_text_sha256": "42b199c1564d96faf0fbd477cfdf8555131afe1b739740a3c39f83bba20666ee",
+      "ja_text_bytes": 2423,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-25",
+      "article_number": "25",
+      "filename": "koukai-kaitsuke-furei-article-25.md",
+      "ja_text_sha256": "c180cebae48bebb091f65b499f42d6b6aea4076143522d4f449dee399a18e3e9",
+      "ja_text_bytes": 714,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-25-2",
+      "article_number": "25-2",
+      "filename": "koukai-kaitsuke-furei-article-25-2.md",
+      "ja_text_sha256": "556ec9b0b397329abe806f18a970d42381f83fddf282f10743a39e3e948b8a53",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-26",
+      "article_number": "26",
+      "filename": "koukai-kaitsuke-furei-article-26.md",
+      "ja_text_sha256": "6953f7b85cf946ab879c08f1d46d69677d8f82fae5fb8c30ccffc7005da750f1",
+      "ja_text_bytes": 932,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-27",
+      "article_number": "27",
+      "filename": "koukai-kaitsuke-furei-article-27.md",
+      "ja_text_sha256": "664b0ef692b8d46abc3f8df5f042848bed338fc6ca5a3f4f04f04f09eeba83df",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-28",
+      "article_number": "28",
+      "filename": "koukai-kaitsuke-furei-article-28.md",
+      "ja_text_sha256": "1ef3054fbc02c34ab101e8ab6b5b17e22b3c7ee74d4d5673684c24e62fdb5d00",
+      "ja_text_bytes": 249,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-29",
+      "article_number": "29",
+      "filename": "koukai-kaitsuke-furei-article-29.md",
+      "ja_text_sha256": "25ce1afde531116135d6c05eb69732306e436d1585766c6f1f76da25aa32d81e",
+      "ja_text_bytes": 240,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-30",
+      "article_number": "30",
+      "filename": "koukai-kaitsuke-furei-article-30.md",
+      "ja_text_sha256": "606be33331114ffe209d53d9125977bfd3735abbd5640db8a92d445f11ebcb38",
+      "ja_text_bytes": 533,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-30-2",
+      "article_number": "30-2",
+      "filename": "koukai-kaitsuke-furei-article-30-2.md",
+      "ja_text_sha256": "8ab84e8ccd273dba50cfa563974d6d6b2199ae3ff8d30a728d7329631be1bb35",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-31",
+      "article_number": "31",
+      "filename": "koukai-kaitsuke-furei-article-31.md",
+      "ja_text_sha256": "1700fdcb148e55467456bf9e6fba2fe3b095b41f7e3e5756e4d276667d851a7e",
+      "ja_text_bytes": 237,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-32",
+      "article_number": "32",
+      "filename": "koukai-kaitsuke-furei-article-32.md",
+      "ja_text_sha256": "3b34e61a632203f2941cae64f983071b1a32baf533c2760bb956f71c913cf65b",
+      "ja_text_bytes": 1791,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-33",
+      "article_number": "33",
+      "filename": "koukai-kaitsuke-furei-article-33.md",
+      "ja_text_sha256": "717e033211fcd19bed8f7728499f526b6f7b4968741eb9b6da04fb07fa4a9f97",
+      "ja_text_bytes": 2265,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-33-2",
+      "article_number": "33-2",
+      "filename": "koukai-kaitsuke-furei-article-33-2.md",
+      "ja_text_sha256": "3d887fd334923b5fff72a6c4cc238529847ab45677b6cbdb745470d054195b13",
+      "ja_text_bytes": 1974,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-33-3",
+      "article_number": "33-3",
+      "filename": "koukai-kaitsuke-furei-article-33-3.md",
+      "ja_text_sha256": "b6ed49ff1a95dfdebbe187b892cf2f138098e96671299c319cc3c9f26d2350e6",
+      "ja_text_bytes": 1567,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-33-4",
+      "article_number": "33-4",
+      "filename": "koukai-kaitsuke-furei-article-33-4.md",
+      "ja_text_sha256": "0822058de6c398a15cd73a6510ccb288b58481015bba97a61a833c0541deb9e8",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "koukai-kaitsuke-furei-art-34",
+      "article_number": "34",
+      "filename": "koukai-kaitsuke-furei-article-34.md",
+      "ja_text_sha256": "7f794b1316b89e96df8e54c45adfc863ab2c32be1db74a208c6a3849a353971c",
+      "ja_text_bytes": 491,
+      "paragraph_count": 2
+    }
+  ]
+}

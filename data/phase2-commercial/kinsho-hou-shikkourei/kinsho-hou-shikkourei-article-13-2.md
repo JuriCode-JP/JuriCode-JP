@@ -1,0 +1,45 @@
+---
+law_id: 340CO0000000321
+law_name_ja: 金融商品取引法施行令
+law_name_en: (English name pending)
+article_number: 13-2
+article_id: kinsho-hou-shikkourei-art-13-2
+version_date: '1965-09-30'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000321
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　公開買付けに関する開示
+  setsu: 1
+  setsu_name_ja: 第一節　発行者以外の者による株券等の公開買付け
+---
+
+# 金融商品取引法施行令 第13-2条(（意見表明報告書等を提出すべき期間等）)
+
+## 原文 (日本語)
+
+### 第十三条の二第一項
+
+法第二十七条の十第一項に規定する政令で定める期間は、十日（行政機関の休日の日数は、算入しない。）とする。
+
+### 第十三条の二第二項
+
+法第二十七条の十第十一項に規定する政令で定める期間は、五日（行政機関の休日の日数は、算入しない。）とする。

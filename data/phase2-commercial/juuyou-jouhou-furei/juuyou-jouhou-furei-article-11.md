@@ -1,0 +1,32 @@
+---
+law_id: 429M60000002054
+law_name_ja: 金融商品取引法第二章の六の規定による重要情報の公表に関する内閣府令
+law_name_en: (English name pending)
+article_number: '11'
+article_id: juuyou-jouhou-furei-art-11
+version_date: '2017-12-27'
+source_url: https://laws.e-gov.go.jp/law/429M60000002054
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+---
+
+# 金融商品取引法第二章の六の規定による重要情報の公表に関する内閣府令 第11条(（令第四十一条の三第一項に規定する内閣府令で定める会社）)
+
+## 原文 (日本語)
+
+### 第十一条
+
+令第四十一条の三第一項に規定する内閣府令で定めるものは、特定有価証券の内容等の開示に関する内閣府令（平成五年大蔵省令第二十二号。以下この条において「特定有価証券開示府令」という。）第一条第二号の二ロに規定する内国投資証券、同条第四号の二イに規定する内国信託社債券、同条第六号に規定する特定有価証券信託受益証券（投資証券又は同条第四号の二に規定する信託社債券を受託有価証券（令第二条の三第三号に規定する受託有価証券をいう。）とするものに限る。）及び特定有価証券開示府令第一条第六号の二に規定する特定預託証券（外国投資証券又は同条第四号の二ロに規定する外国信託社債券に係る権利を表示するものに限る。）の発行者（法第二条第五項に規定する発行者をいう。）である内国会社（令第三十九条第一項に規定する内国会社をいい、これらの有価証券を発行するものに限る。）とする。

@@ -1,0 +1,43 @@
+---
+law_id: 336M50000100001
+law_name_ja: 医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律施行規則
+law_name_en: (English name pending)
+article_number: '157'
+article_id: yakkihou-shikoukisoku-art-157
+version_date: '1961-02-01'
+source_url: https://laws.e-gov.go.jp/law/336M50000100001
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　医薬品、医療機器及び再生医療等製品の販売業等
+---
+
+# 医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律施行規則 第157条(（試験検査の実施方法）)
+
+## 原文 (日本語)
+
+### 第百五十七条第一項
+
+卸売販売業者は、医薬品営業所管理者が医薬品の適切な管理のために必要と認める医薬品の試験検査を、医薬品営業所管理者に行わせなければならない。ただし、当該営業所の設備及び器具を用いて試験検査を行うことが困難であると医薬品営業所管理者が認めた場合には、卸売販売業者は、当該卸売販売業者の他の試験検査設備又は登録試験検査機関を利用して試験検査を行うことができる。
+
+### 第百五十七条第二項
+
+卸売販売業者は、前項ただし書により試験検査を行つた場合は、医薬品営業所管理者に試験検査の結果を確認させなければならない。

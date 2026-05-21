@@ -1,0 +1,45 @@
+---
+law_id: 323AC0000000025
+law_name_ja: 金融商品取引法
+law_name_en: (English name pending)
+article_number: 79-50
+article_id: kinsho-hou-art-79-50
+version_date: '1948-04-13'
+source_url: https://laws.e-gov.go.jp/law/323AC0000000025
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 42
+  shou_name_ja: 第四章の二　投資者保護基金
+  setsu: 5
+  setsu_name_ja: 第五節　業務
+---
+
+# 金融商品取引法 第79-50条(（業務の委託）)
+
+## 原文 (日本語)
+
+### 第七十九条の五十第一項
+
+基金は、あらかじめ内閣総理大臣及び財務大臣の認可を受けて、金融商品取引業協会（認可金融商品取引業協会又は第七十八条第二項に規定する認定金融商品取引業協会をいう。次項において同じ。）又は金融商品取引業者に対し、その業務の一部を委託することができる。
+
+### 第七十九条の五十第二項
+
+前項に規定する認可があつたときは、金融商品取引業協会及び金融商品取引業者は、この法律又は他の法令の規定にかかわらず、当該認可に係る業務を受託し、当該業務を行うことができる。

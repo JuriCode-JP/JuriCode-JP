@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0",
+  "law_id": "405M50000040014",
+  "law_name_ja": "金融商品取引法第二条に規定する定義に関する内閣府令",
+  "law_abbrev": "kinsho-teigi-furei",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/405M50000040014",
+  "source_xml_path": "cache\\laws\\405M50000040014.xml",
+  "source_xml_sha256": "d39d669d1ac628619f94b3eeaed113212573d0ae812bbaf4b0a5733e56bc075e",
+  "source_xml_bytes": 533021,
+  "source_fetched_at": "2026-05-21",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-05-21T03:53:18+00:00",
+  "version_date": "1993-03-03",
+  "article_count": 40,
+  "articles": [
+    {
+      "article_id": "kinsho-teigi-furei-art-1",
+      "article_number": "1",
+      "filename": "kinsho-teigi-furei-article-1.md",
+      "ja_text_sha256": "3b959ae41cdad4e3f64e1c266b27404b2e26a387c390aa49d9e6518912554649",
+      "ja_text_bytes": 1804,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-2",
+      "article_number": "2",
+      "filename": "kinsho-teigi-furei-article-2.md",
+      "ja_text_sha256": "ebd81e4a0158daff34143284af20e2dfffb99028ed39015a0f3944e27adb92e2",
+      "ja_text_bytes": 270,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-3",
+      "article_number": "3",
+      "filename": "kinsho-teigi-furei-article-3.md",
+      "ja_text_sha256": "2d46f9d035bcaebaef4af041f25ca50088e199c4a9f52ffa1b5bb9a8d868e472",
+      "ja_text_bytes": 318,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-4",
+      "article_number": "4",
+      "filename": "kinsho-teigi-furei-article-4.md",
+      "ja_text_sha256": "6d4d1398421668c95323b70fae455bcc74e55a5894f38c6646e770a1fec793ca",
+      "ja_text_bytes": 105,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-4-2",
+      "article_number": "4-2",
+      "filename": "kinsho-teigi-furei-article-4-2.md",
+      "ja_text_sha256": "1795fccecb6e208bf63feb4c1f1fb6284aa6beafe85089bf7c3b031eef4a7108",
+      "ja_text_bytes": 696,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-5",
+      "article_number": "5",
+      "filename": "kinsho-teigi-furei-article-5.md",
+      "ja_text_sha256": "9831645a8589d9879b5903bd89fb4996e562406b934fd76966f84e9071899c1d",
+      "ja_text_bytes": 102,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-6",
+      "article_number": "6",
+      "filename": "kinsho-teigi-furei-article-6.md",
+      "ja_text_sha256": "d1d387896f5ea7ecad473bfba96ff1f216a9afdf6519abb57708cdb7c72ef674",
+      "ja_text_bytes": 958,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-7",
+      "article_number": "7",
+      "filename": "kinsho-teigi-furei-article-7.md",
+      "ja_text_sha256": "6f2cc759e12270ed94fca2e3e06ace1a46c41fd4726775e8fc184ea664bc6a6a",
+      "ja_text_bytes": 224,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-8",
+      "article_number": "8",
+      "filename": "kinsho-teigi-furei-article-8.md",
+      "ja_text_sha256": "aa083dba8c1dc61ce2c6b807e4a1da0cb27de76057c928405bcb32d8c15cbce2",
+      "ja_text_bytes": 233,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-9",
+      "article_number": "9",
+      "filename": "kinsho-teigi-furei-article-9.md",
+      "ja_text_sha256": "92819f5bed5eb734cd6748b58b784d80c80946bc360d3b7e28ee3b3d41015abc",
+      "ja_text_bytes": 198,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-9-2",
+      "article_number": "9-2",
+      "filename": "kinsho-teigi-furei-article-9-2.md",
+      "ja_text_sha256": "b143a72f05853e29e3daaf397c160e95255c726740b5d8b4ed6cc353841e7747",
+      "ja_text_bytes": 611,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-10",
+      "article_number": "10",
+      "filename": "kinsho-teigi-furei-article-10.md",
+      "ja_text_sha256": "cb3f6ab929bc10b000614eecc8f4b980a02dc2af3fe85723f890605e6b50a9fc",
+      "ja_text_bytes": 7296,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-10-2",
+      "article_number": "10-2",
+      "filename": "kinsho-teigi-furei-article-10-2.md",
+      "ja_text_sha256": "26c93c729a4650d59570dfd545dbe6dae9c8852bf096b4214e7bacaaa37d3704",
+      "ja_text_bytes": 1501,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-11",
+      "article_number": "11",
+      "filename": "kinsho-teigi-furei-article-11.md",
+      "ja_text_sha256": "c97cd982c59f9ac9827aeb8cafcd2295cb5f865a6a1e54ee2024a9a8a3f8ce41",
+      "ja_text_bytes": 2373,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-11-2",
+      "article_number": "11-2",
+      "filename": "kinsho-teigi-furei-article-11-2.md",
+      "ja_text_sha256": "48c43ce8a5db4eff951a6d0022ea6e33676c13cdd56ca9162ff123cf6428c354",
+      "ja_text_bytes": 2096,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-12",
+      "article_number": "12",
+      "filename": "kinsho-teigi-furei-article-12.md",
+      "ja_text_sha256": "9c27eeaaa149f6d119d676745b6797a951c4c3b45025e05cdb4d9d3027049e2a",
+      "ja_text_bytes": 2236,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-13",
+      "article_number": "13",
+      "filename": "kinsho-teigi-furei-article-13.md",
+      "ja_text_sha256": "34f985d98f46471926da9f6984f46a79d69fde1a94057ee525563dabf262210c",
+      "ja_text_bytes": 2582,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-13-2",
+      "article_number": "13-2",
+      "filename": "kinsho-teigi-furei-article-13-2.md",
+      "ja_text_sha256": "da9f662a12cb1d374b895368d4c628ddeca88273c04e2347eddba882a009f984",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-13-3",
+      "article_number": "13-3",
+      "filename": "kinsho-teigi-furei-article-13-3.md",
+      "ja_text_sha256": "5b2e0555f1de140d5183a6e896bd873b7d189b7202a8b744700302c1e57b2388",
+      "ja_text_bytes": 482,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-13-4",
+      "article_number": "13-4",
+      "filename": "kinsho-teigi-furei-article-13-4.md",
+      "ja_text_sha256": "527e25e3b8ad94764688df99b371be46c5c2431cbc36b0543bad025789b62473",
+      "ja_text_bytes": 2385,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-13-5",
+      "article_number": "13-5",
+      "filename": "kinsho-teigi-furei-article-13-5.md",
+      "ja_text_sha256": "b140822113f743bfdbce1b74e724208b234511b0ba047f57bb7e647404e452e3",
+      "ja_text_bytes": 721,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-13-6",
+      "article_number": "13-6",
+      "filename": "kinsho-teigi-furei-article-13-6.md",
+      "ja_text_sha256": "184585008f9ec6200665f4f2c23059c8fc0447880c6a73665ae479a7c1e75943",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-13-7",
+      "article_number": "13-7",
+      "filename": "kinsho-teigi-furei-article-13-7.md",
+      "ja_text_sha256": "2599d8ff60f32310e521ea015de2d0e1f7b1fa7756a962bc098c024d6f82fc47",
+      "ja_text_bytes": 3030,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-14",
+      "article_number": "14",
+      "filename": "kinsho-teigi-furei-article-14.md",
+      "ja_text_sha256": "1f99e6eda58e09480b7d28c3657c1622a0f36890edf0cf7d4b2d899820ef7adb",
+      "ja_text_bytes": 1089,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-14-2",
+      "article_number": "14-2",
+      "filename": "kinsho-teigi-furei-article-14-2.md",
+      "ja_text_sha256": "041ed2c15a33e19130d050116273503c68d06a54b2d30ae3d9fce43e0454145d",
+      "ja_text_bytes": 242,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-15",
+      "article_number": "15",
+      "filename": "kinsho-teigi-furei-article-15.md",
+      "ja_text_sha256": "b100e2cfd463f564c9410d3bfa6fa8c872f51574bc4a0565c4da52ba759c99e3",
+      "ja_text_bytes": 242,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-16",
+      "article_number": "16",
+      "filename": "kinsho-teigi-furei-article-16.md",
+      "ja_text_sha256": "235702b36be3d4d48b097c3e15b9486e0dcf0eb3c9eca702d63809765d52b593",
+      "ja_text_bytes": 2294,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-16-2",
+      "article_number": "16-2",
+      "filename": "kinsho-teigi-furei-article-16-2.md",
+      "ja_text_sha256": "65900f003c12274208c40045b4101d8d8e7e1127641b02687773de72c106fdaa",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-17",
+      "article_number": "17",
+      "filename": "kinsho-teigi-furei-article-17.md",
+      "ja_text_sha256": "0c4cf4ceb6fb082e1ed76cee1106589965c2a994149d11cf326f92eeeba4d5a5",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-18",
+      "article_number": "18",
+      "filename": "kinsho-teigi-furei-article-18.md",
+      "ja_text_sha256": "a50235bfbd6eaaa74e92f55ef9278acaa8cce4e031d025d24c8ef227dc005652",
+      "ja_text_bytes": 240,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-19",
+      "article_number": "19",
+      "filename": "kinsho-teigi-furei-article-19.md",
+      "ja_text_sha256": "0d65cc03f22c7ad4486ee001988158bb62deed3d223bd035cf994a41756d95aa",
+      "ja_text_bytes": 240,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-20",
+      "article_number": "20",
+      "filename": "kinsho-teigi-furei-article-20.md",
+      "ja_text_sha256": "c7f94d0f65afcecc6a6c130200f30a59195c1dae8badc51dd6dd6b5267fbbe91",
+      "ja_text_bytes": 291,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-21",
+      "article_number": "21",
+      "filename": "kinsho-teigi-furei-article-21.md",
+      "ja_text_sha256": "f203dcb0ca5f468e44ac7f8b249a27edbfce61f33a4e5a1f65acc4955b6514e3",
+      "ja_text_bytes": 213,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-21-2",
+      "article_number": "21-2",
+      "filename": "kinsho-teigi-furei-article-21-2.md",
+      "ja_text_sha256": "68fc46280d3649972db34f7fd7d3d3736b4067bcc0573a6594b6078397b9bce2",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-21-3",
+      "article_number": "21-3",
+      "filename": "kinsho-teigi-furei-article-21-3.md",
+      "ja_text_sha256": "30b4a0900ae54184e194d3511b8b024e56a0aa7fe563665434365aab2d61fe30",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-22",
+      "article_number": "22",
+      "filename": "kinsho-teigi-furei-article-22.md",
+      "ja_text_sha256": "12dcce90bd29a35d33b4a19722d17b3e9ace9c81216330877c68ccbc412d13ab",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-23",
+      "article_number": "23",
+      "filename": "kinsho-teigi-furei-article-23.md",
+      "ja_text_sha256": "1aea234785ed5f50d2f01b3938c35732cae574658c8db185aa64193d201a30ce",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-24",
+      "article_number": "24",
+      "filename": "kinsho-teigi-furei-article-24.md",
+      "ja_text_sha256": "c53918d766f562754dfa59dbdfee42f55262d725a939a5b8911ff872107b68cc",
+      "ja_text_bytes": 520,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-25",
+      "article_number": "25",
+      "filename": "kinsho-teigi-furei-article-25.md",
+      "ja_text_sha256": "9f8f98b21a58bb2c226426a61543852614f916f30c4a2811b1da3f9540d44bbd",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-teigi-furei-art-26",
+      "article_number": "26",
+      "filename": "kinsho-teigi-furei-article-26.md",
+      "ja_text_sha256": "6fe7cebaed6a2301faa87c3f7bf81d6e89038b66cbef55dbad618a29061e78ad",
+      "ja_text_bytes": 416,
+      "paragraph_count": 2
+    }
+  ]
+}

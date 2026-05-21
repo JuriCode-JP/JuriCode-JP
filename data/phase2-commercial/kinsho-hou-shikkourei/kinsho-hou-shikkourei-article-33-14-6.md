@@ -1,0 +1,51 @@
+---
+law_id: 340CO0000000321
+law_name_ja: 金融商品取引法施行令
+law_name_en: (English name pending)
+article_number: 33-14-6
+article_id: kinsho-hou-shikkourei-art-33-14-6
+version_date: '1965-09-30'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000321
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 62
+  shou_name_ja: 第六章の二　課徴金
+---
+
+# 金融商品取引法施行令 第33-14-6条(（売付等数量から除くもの）)
+
+## 原文 (日本語)
+
+### 第三十三条の十四の六第一項
+
+法第百七十四条の三第八項に規定する政令で定める取引をしている場合は、特定関係者が自己の計算において、有価証券を有しないで若しくは借り入れて当該有価証券の売付けをしている場合又は商品を有しないで当該商品の売付け（市場デリバティブ取引（法第二条第二十一項第一号に掲げる取引に限る。）による売付けに限る。）をしている場合とする。
+
+### 第三十三条の十四の六第二項
+
+法第百七十四条の三第八項に規定する政令で定める取引は、特定関係者が自己の計算において約定している第三十三条の十四の二第二号から第六号までに掲げる取引とする。
+
+### 第三十三条の十四の六第三項
+
+法第百七十四条の三第八項に規定する政令で定めるところにより算定する数量は、第三十三条の十四の八第二項各号に掲げる取引の区分に応じ、当該各号に定めるものとする。
