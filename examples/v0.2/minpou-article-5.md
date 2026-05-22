@@ -58,8 +58,8 @@ paragraphs:
 cases: []
 amendments:
   - effective_date: '2022-04-01'
-    law_no: 平成30年法律第59号
-    summary: 民法改正により成年年齢が 20 歳から 18 歳に引下げ (本条そのものの文言は変わらず、定義の「未成年者」の年齢が変動)
+    law_num: 平成30年法律第59号
+    description: 民法改正により成年年齢が 20 歳から 18 歳に引下げ (本条そのものの文言は変わらず、定義の「未成年者」の年齢が変動)
 tags:
   - phase1-practitioner
   - 民事法

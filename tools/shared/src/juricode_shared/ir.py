@@ -40,6 +40,24 @@ class Item(BaseModel):
     text: str = Field("", description="号の本文 (frontmatter では空、body から埋める)")
 
 
+class Penalty(BaseModel):
+    """刑罰の構造化情報 (Segment 単位で付随).
+
+    主に刑事法で「○年以下の拘禁刑」「○万円以下の罰金」等を構造化するため.
+    """
+
+    model_config = ConfigDict(extra="forbid")
+
+    type: str = Field(
+        ...,
+        description="刑種: kinkokei (拘禁刑) / bakkin (罰金) / karyou (科料) / shukei (主刑) / 等",
+    )
+    max_years: int | None = Field(None, description="最長刑期 (年)")
+    min_years: int | None = Field(None, description="最短刑期 (年)")
+    max_amount: int | None = Field(None, description="最高額 (円)")
+    min_amount: int | None = Field(None, description="最低額 (円)")
+
+
 class Segment(BaseModel):
     """v0.2 セグメント (項を更に細かく分解した単位: 本文/ただし書/柱書/号/前段/後段/特則/準用 等).
 
@@ -61,6 +79,10 @@ class Segment(BaseModel):
     applies_provisions: list[str] = Field(default_factory=list, description="準用先の規定")
     references: list[str] = Field(default_factory=list, description="参照する条文 ID")
     depends_on: str | None = Field(None, description="依存する別 segment ID")
+    condition: str | None = Field(
+        None, description="この segment が発動する条件 (e.g. '請託を受けたとき')"
+    )
+    penalty: Penalty | None = Field(None, description="付随する刑罰の構造化情報")
 
 
 class Paragraph(BaseModel):
@@ -189,6 +211,9 @@ class JuriCodeArticle(BaseModel):
 
     cases: list[CaseReference] = Field(default_factory=list)
     amendments: list[Amendment] = Field(default_factory=list)
+    amendments_summary: str | None = Field(
+        None, description="改正履歴の自由記述サマリ (paragraph 単位でない総括コメント用)"
+    )
 
     source_url: str = Field(..., description="e-Gov 法令API の参照 URL")
     source_format: SourceFormat = Field("e-gov-xml")

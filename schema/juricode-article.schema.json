@@ -570,6 +570,74 @@
       "title": "ParentSection",
       "type": "object"
     },
+    "Penalty": {
+      "additionalProperties": false,
+      "description": "刑罰の構造化情報 (Segment 単位で付随).\n\n主に刑事法で「○年以下の拘禁刑」「○万円以下の罰金」等を構造化するため.",
+      "properties": {
+        "type": {
+          "description": "刑種: kinkokei (拘禁刑) / bakkin (罰金) / karyou (科料) / shukei (主刑) / 等",
+          "title": "Type",
+          "type": "string"
+        },
+        "max_years": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "最長刑期 (年)",
+          "title": "Max Years"
+        },
+        "min_years": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "最短刑期 (年)",
+          "title": "Min Years"
+        },
+        "max_amount": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "最高額 (円)",
+          "title": "Max Amount"
+        },
+        "min_amount": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "最低額 (円)",
+          "title": "Min Amount"
+        }
+      },
+      "required": [
+        "type"
+      ],
+      "title": "Penalty",
+      "type": "object"
+    },
     "Relevance": {
       "description": "判例と条文の関連度.",
       "enum": [
@@ -660,6 +728,31 @@
           "default": null,
           "description": "依存する別 segment ID",
           "title": "Depends On"
+        },
+        "condition": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "この segment が発動する条件 (e.g. '請託を受けたとき')",
+          "title": "Condition"
+        },
+        "penalty": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Penalty"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "付随する刑罰の構造化情報"
         }
       },
       "required": [
@@ -795,6 +888,19 @@
       },
       "title": "Amendments",
       "type": "array"
+    },
+    "amendments_summary": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "改正履歴の自由記述サマリ (paragraph 単位でない総括コメント用)",
+      "title": "Amendments Summary"
     },
     "source_url": {
       "description": "e-Gov 法令API の参照 URL",
