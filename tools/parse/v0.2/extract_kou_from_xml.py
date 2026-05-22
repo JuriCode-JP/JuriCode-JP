@@ -16,7 +16,6 @@ import argparse
 import json
 import re
 import sys
-from collections import Counter
 from pathlib import Path
 
 try:
@@ -218,7 +217,11 @@ def detect_modality_from_text(text: str) -> str:
         return "kanou_kenri"
     if text.endswith("することができない。") or text.endswith("できない。"):
         return "kanou_negative"
-    if text.endswith("しなければならない。") or text.endswith("するものとする。") or text.endswith("とする。"):
+    if (
+        text.endswith("しなければならない。")
+        or text.endswith("するものとする。")
+        or text.endswith("とする。")
+    ):
         return "gimu"
     if text.endswith("無効とする。"):
         return "koka_mukou"
@@ -237,11 +240,10 @@ def main():
     ap.add_argument("--chunks-dir", type=Path, default=Path("build/chunks"))
     ap.add_argument("--data-dir", type=Path, default=Path("data"))
     ap.add_argument("--dry-run", action="store_true")
-    ap.add_argument("--law-only", default=None,
-                    help="特定の law_abbrev だけ処理 (テスト用)")
+    ap.add_argument("--law-only", default=None, help="特定の law_abbrev だけ処理 (テスト用)")
     args = ap.parse_args()
 
-    print(f"Building law_abbrev -> (law_id, phase) map ...", file=sys.stderr)
+    print("Building law_abbrev -> (law_id, phase) map ...", file=sys.stderr)
     law_map = build_law_abbrev_to_id_phase(args.data_dir)
     print(f"  {len(law_map)} laws found in data/", file=sys.stderr)
 
@@ -274,6 +276,7 @@ def main():
 
         # article_id 別に grouping して既存 .chunks.jsonl に append
         from collections import defaultdict
+
         by_article: dict[str, list[dict]] = defaultdict(list)
         for c in chunks:
             by_article[c["article_id"]].append(c)
@@ -281,7 +284,11 @@ def main():
         for article_id, art_chunks in by_article.items():
             # article_id は "{law}-art-{N}" 形式、ファイル名は "{law}-article-{N}.chunks.jsonl"
             article_num_part = article_id.replace(f"{law_abbrev}-art-", "")
-            chunk_file = args.chunks_dir / law_abbrev / f"{law_abbrev}-article-{article_num_part}.chunks.jsonl"
+            chunk_file = (
+                args.chunks_dir
+                / law_abbrev
+                / f"{law_abbrev}-article-{article_num_part}.chunks.jsonl"
+            )
             if not chunk_file.exists():
                 # 親が存在しない条 (Article XML にあるが v0.1 .md なし) はスキップ
                 continue
@@ -320,20 +327,13 @@ def main():
                         fh.write(json.dumps(c, ensure_ascii=False) + "\n")
                         total_chunks += 1
 
-    print(f"\n=== Summary ===", file=sys.stderr)
+    print("\n=== Summary ===", file=sys.stderr)
     print(f"Laws processed: {laws_processed}", file=sys.stderr)
     print(f"Laws skipped (no XML): {len(laws_skipped_no_xml)}", file=sys.stderr)
     for abbrev, lid in laws_skipped_no_xml:
         print(f"  - {abbrev}: {lid}", file=sys.stderr)
     print(f"Total kou chunks added: {total_chunks}", file=sys.stderr)
-    print(f"\nTop 10 laws by kou chunks added:", file=sys.stderr)
-    for law, n in sorted(new_chunks_per_law.items(), key=lambda x: -x[1])[:10]:
-        print(f"  {law:35s}: {n}", file=sys.stderr)
-
-
-if __name__ == "__main__":
-    sys.exit(main())
- added:", file=sys.stderr)
+    print("\nTop 10 laws by kou chunks added:", file=sys.stderr)
     for law, n in sorted(new_chunks_per_law.items(), key=lambda x: -x[1])[:10]:
         print(f"  {law:35s}: {n}", file=sys.stderr)
 

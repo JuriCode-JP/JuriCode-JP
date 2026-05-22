@@ -16,9 +16,8 @@ import argparse
 import json
 import re
 import sys
-from dataclasses import dataclass, asdict, field
+from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Optional
 
 try:
     import yaml
@@ -52,13 +51,31 @@ MODALITY_PATTERNS = [
     ("koka_mukou", re.compile(r"無効とする[。」]?$")),
     ("koka_torikeshi", re.compile(r"取り消すことができる[。」]?$")),
     ("gimu_kei", re.compile(r"処する[。」]?$|の刑に処する[。」]?$|罰する[。」]?$")),
-    ("gimu_negative", re.compile(r"罰しない[。」]?$|処罰しない[。」]?$|してはならない[。」]?$|してはいけない[。」]?$")),
+    (
+        "gimu_negative",
+        re.compile(
+            r"罰しない[。」]?$|処罰しない[。」]?$|してはならない[。」]?$|してはいけない[。」]?$"
+        ),
+    ),
     ("kanou_negative", re.compile(r"することができない[。」]?$|できない[。」]?$")),
-    ("doryoku_gimu", re.compile(r"努めなければならない[。」]?$|努めるものとする[。」]?$|努める[。」]?$")),
-    ("gimu", re.compile(r"しなければならない[。」]?$|なければならない[。」]?$|するものとする[。」]?$|とする[。」]?$")),
+    (
+        "doryoku_gimu",
+        re.compile(r"努めなければならない[。」]?$|努めるものとする[。」]?$|努める[。」]?$"),
+    ),
+    (
+        "gimu",
+        re.compile(
+            r"しなければならない[。」]?$|なければならない[。」]?$|するものとする[。」]?$|とする[。」]?$"
+        ),
+    ),
     ("kanou_kenri", re.compile(r"することができる[。」]?$|ができる[。」]?$")),
     ("teigi", re.compile(r"をいう[。」]?$|という[。」]?$")),  # 定義条文
-    ("tetsuduki", re.compile(r"通知する[。」]?$|公示する[。」]?$|公表する[。」]?$|送付する[。」]?$|提出する[。」]?$|交付する[。」]?$")),  # 手続的義務
+    (
+        "tetsuduki",
+        re.compile(
+            r"通知する[。」]?$|公示する[。」]?$|公表する[。」]?$|送付する[。」]?$|提出する[。」]?$|交付する[。」]?$"
+        ),
+    ),  # 手続的義務
 ]
 
 # 相対参照 (絶対参照化のため)
@@ -67,14 +84,27 @@ RELATIVE_REF_PATTERN = re.compile(
 )
 
 # 項見出し (v0.1 形式)
-PARAGRAPH_HEADING_PATTERN = re.compile(r"^### 第([零〇一二三四五六七八九十百千万]+)条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第([零〇一二三四五六七八九十百千万]+)項)?\s*$")
+PARAGRAPH_HEADING_PATTERN = re.compile(
+    r"^### 第([零〇一二三四五六七八九十百千万]+)条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第([零〇一二三四五六七八九十百千万]+)項)?\s*$"
+)
 
 # 漢数字 → アラビア数字
 KANSUJI_TO_INT = {
-    "零": 0, "〇": 0,
-    "一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
-    "六": 6, "七": 7, "八": 8, "九": 9,
-    "十": 10, "百": 100, "千": 1000, "万": 10000,
+    "零": 0,
+    "〇": 0,
+    "一": 1,
+    "二": 2,
+    "三": 3,
+    "四": 4,
+    "五": 5,
+    "六": 6,
+    "七": 7,
+    "八": 8,
+    "九": 9,
+    "十": 10,
+    "百": 100,
+    "千": 1000,
+    "万": 10000,
 }
 
 
@@ -101,19 +131,21 @@ def kansuji_to_int(s: str) -> int:
 # データ型
 # ============================================================
 
+
 @dataclass
 class Segment:
     """1 つの segment (本文/ただし書/柱書/号/前段/後段/特則/準用)."""
+
     id: str
     type: str  # simple | honbun | tadashi | zen_dan | kou_dan | hashira | kou | tokusoku | junyou
     text: str
     modality: str = "unspecified"
-    item_number: Optional[int] = None
+    item_number: int | None = None
     override_flag: bool = False
     override_target: list[str] = field(default_factory=list)
     applies_provisions: list[str] = field(default_factory=list)
     references: list[str] = field(default_factory=list)
-    depends_on: Optional[str] = None
+    depends_on: str | None = None
 
     def to_dict(self) -> dict:
         """YAML/JSON 出力用に空フィールドを省略."""
@@ -136,6 +168,7 @@ class Segment:
 @dataclass
 class ParagraphV02:
     """v0.2 paragraph (segments を持つ)."""
+
     number: int
     has_proviso: bool
     has_items: bool
@@ -155,6 +188,7 @@ class ParagraphV02:
 # ============================================================
 # 段落解析: paragraph body → segments
 # ============================================================
+
 
 def detect_modality(text: str) -> str:
     """text の文末から modality を判定."""
@@ -314,6 +348,7 @@ def split_paragraph_segments(
 # v0.1 .md → v0.2 IR (in-memory)
 # ============================================================
 
+
 def parse_v01_md(md_path: Path) -> tuple[dict, list[ParagraphV02], str]:
     """v0.1 .md を読み、 (frontmatter, paragraphs_v02, body_after_frontmatter) を返す."""
     raw = md_path.read_text(encoding="utf-8")
@@ -333,7 +368,11 @@ def parse_v01_md(md_path: Path) -> tuple[dict, list[ParagraphV02], str]:
 
     # 「### 第N条第N項」「### 第N条の二第N項」「### 第N条」見出しを境に body を分割
     # 枝番付き条 (第一条の二、第百九十七条の三) も対応
-    sections = re.split(r"^### 第[零〇一二三四五六七八九十百千万]+条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第[零〇一二三四五六七八九十百千万]+項)?\s*$", body, flags=re.MULTILINE)
+    sections = re.split(
+        r"^### 第[零〇一二三四五六七八九十百千万]+条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第[零〇一二三四五六七八九十百千万]+項)?\s*$",
+        body,
+        flags=re.MULTILINE,
+    )
     # 最初の要素は見出し前 (通常 ## 原文 などの導入部)
     # sections[0] は捨てて、sections[1:] が各段落本文
     paragraph_bodies = sections[1:]
@@ -356,7 +395,9 @@ def parse_v01_md(md_path: Path) -> tuple[dict, list[ParagraphV02], str]:
 
         # has_proviso / has_items を segment から再計算
         has_proviso = any(s.type == "tadashi" for s in segments)
-        has_items = any(s.type == "hashira" for s in segments) or bool(HASHIRA_PATTERN.search(body_text))
+        has_items = any(s.type == "hashira" for s in segments) or bool(
+            HASHIRA_PATTERN.search(body_text)
+        )
 
         para_v02 = ParagraphV02(
             number=pnum,
@@ -429,6 +470,7 @@ def render_v02_md(
 # .chunks.jsonl 生成
 # ============================================================
 
+
 def render_chunks_jsonl(
     frontmatter: dict,
     paragraphs_v02: list[ParagraphV02],
@@ -475,6 +517,7 @@ def render_chunks_jsonl(
 # ============================================================
 # main
 # ============================================================
+
 
 def process_file(
     md_path: Path,
@@ -526,17 +569,18 @@ def process_file(
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
-    parser.add_argument("--input", type=Path, required=True,
-                        help="v0.1 .md ファイル or ディレクトリ")
-    parser.add_argument("--output-md-dir", type=Path, required=True,
-                        help="v0.2 .md 出力先")
-    parser.add_argument("--output-chunks-dir", type=Path, required=True,
-                        help=".chunks.jsonl 出力先")
-    parser.add_argument("--dry-run", action="store_true",
-                        help="書き込みなし、統計のみ")
-    parser.add_argument("--limit", type=int, default=None,
-                        help="処理ファイル数の上限 (デバッグ)")
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawTextHelpFormatter
+    )
+    parser.add_argument(
+        "--input", type=Path, required=True, help="v0.1 .md ファイル or ディレクトリ"
+    )
+    parser.add_argument("--output-md-dir", type=Path, required=True, help="v0.2 .md 出力先")
+    parser.add_argument(
+        "--output-chunks-dir", type=Path, required=True, help=".chunks.jsonl 出力先"
+    )
+    parser.add_argument("--dry-run", action="store_true", help="書き込みなし、統計のみ")
+    parser.add_argument("--limit", type=int, default=None, help="処理ファイル数の上限 (デバッグ)")
     args = parser.parse_args()
 
     # 入力ファイル列挙
@@ -579,13 +623,13 @@ def main():
             errors.append(result)
 
     # サマリ
-    print(f"\n=== Summary ===", file=sys.stderr)
+    print("\n=== Summary ===", file=sys.stderr)
     print(f"OK: {ok_count}, Error: {len(errors)}", file=sys.stderr)
     print(f"Total segments: {total_segments}", file=sys.stderr)
-    print(f"\nSegment types:", file=sys.stderr)
+    print("\nSegment types:", file=sys.stderr)
     for t, c in sorted(total_type_counts.items(), key=lambda x: -x[1]):
         print(f"  {t:12s}: {c}", file=sys.stderr)
-    print(f"\nModality:", file=sys.stderr)
+    print("\nModality:", file=sys.stderr)
     for mod, c in sorted(total_modality_counts.items(), key=lambda x: -x[1]):
         print(f"  {mod:18s}: {c}", file=sys.stderr)
     print(f"\nOverride (nikakawarazu): {total_override}", file=sys.stderr)
@@ -593,18 +637,6 @@ def main():
 
     if errors:
         print(f"\n=== Errors ({len(errors)}) ===", file=sys.stderr)
-        for e in errors[:10]:
-            print(f"  {e['path']}: {e['error']}", file=sys.stderr)
-
-
-if __name__ == "__main__":
-    sys.exit(main())
-)
-
-
-if __name__ == "__main__":
-    sys.exit(main())
-   print(f"\n=== Errors ({len(errors)}) ===", file=sys.stderr)
         for e in errors[:10]:
             print(f"  {e['path']}: {e['error']}", file=sys.stderr)
 
