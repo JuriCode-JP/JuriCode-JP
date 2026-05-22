@@ -100,13 +100,22 @@ SEGMENT_TYPE_LABEL = {
 
 # Fix 1: supplproviso 固有フィールドを flatten_chunk で pass-through
 SUPPLPROVISO_FIELDS = (
-    "supplproviso_id", "supplproviso_label",
-    "amend_law_num", "amend_era", "amend_year_gengo",
-    "amend_year_seireki", "amend_month", "amend_day", "amend_law_num_int",
-    "enforcement_date", "effective_status",
-    "supplproviso_article_number", "supplproviso_article_caption",
+    "supplproviso_id",
+    "supplproviso_label",
+    "amend_law_num",
+    "amend_era",
+    "amend_year_gengo",
+    "amend_year_seireki",
+    "amend_month",
+    "amend_day",
+    "amend_law_num_int",
+    "enforcement_date",
+    "effective_status",
+    "supplproviso_article_number",
+    "supplproviso_article_caption",
     "topic",
-    "target_main_articles_raw", "target_main_article_ids",
+    "target_main_articles_raw",
+    "target_main_article_ids",
 )
 
 
@@ -224,8 +233,11 @@ def main():
     ap.add_argument("--chunks-dir", type=Path, default=Path("build/chunks"))
     ap.add_argument("--data-dir", type=Path, default=Path("data"))
     ap.add_argument("--output", type=Path, default=Path("build/corpus-v0.2.jsonl"))
-    ap.add_argument("--augment", action="store_true",
-                    help="text に [法令名 第N条 (見出し) 第N項 segment_label] prefix を付加")
+    ap.add_argument(
+        "--augment",
+        action="store_true",
+        help="text に [法令名 第N条 (見出し) 第N項 segment_label] prefix を付加",
+    )
     args = ap.parse_args()
 
     if not args.chunks_dir.exists():
@@ -277,14 +289,20 @@ def main():
                     if args.augment and flat.get("article_caption"):
                         augmented_with_caption += 1
 
-    print(f"\n=== Merge summary ===", file=sys.stderr)
+    print("\n=== Merge summary ===", file=sys.stderr)
     print(f"Total chunks: {total_chunks}", file=sys.stderr)
-    print(f"Output: {args.output} ({args.output.stat().st_size / 1024 / 1024:.1f} MB)", file=sys.stderr)
+    print(
+        f"Output: {args.output} ({args.output.stat().st_size / 1024 / 1024:.1f} MB)",
+        file=sys.stderr,
+    )
     if args.augment:
-        print(f"Augment: ON  (chunks with caption: {augmented_with_caption}/{total_chunks})", file=sys.stderr)
+        print(
+            f"Augment: ON  (chunks with caption: {augmented_with_caption}/{total_chunks})",
+            file=sys.stderr,
+        )
     else:
-        print(f"Augment: OFF (raw segment text)", file=sys.stderr)
-    print(f"\nSegment type distribution:", file=sys.stderr)
+        print("Augment: OFF (raw segment text)", file=sys.stderr)
+    print("\nSegment type distribution:", file=sys.stderr)
     for t, c in type_counts.most_common():
         print(f"  {t:12s}: {c:6d}", file=sys.stderr)
         print(f"  {t:12s}: {c:6d}", file=sys.stderr)

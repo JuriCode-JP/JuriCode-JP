@@ -87,8 +87,17 @@ ERA_OFFSET = {
 }
 
 KANSUJI_DIGITS = {
-    "零": 0, "〇": 0, "一": 1, "二": 2, "三": 3, "四": 4,
-    "五": 5, "六": 6, "七": 7, "八": 8, "九": 9,
+    "零": 0,
+    "〇": 0,
+    "一": 1,
+    "二": 2,
+    "三": 3,
+    "四": 4,
+    "五": 5,
+    "六": 6,
+    "七": 7,
+    "八": 8,
+    "九": 9,
 }
 
 
@@ -195,7 +204,9 @@ def make_enforcement_date(amend_info: dict) -> str | None:
         return None
 
 
-def classify_effective_status(enforcement_date_str: str | None, amend_year_seireki: int | None) -> str:
+def classify_effective_status(
+    enforcement_date_str: str | None, amend_year_seireki: int | None
+) -> str:
     """effective_status を判定.
 
     - current: 直近 5 年以内に施行
@@ -252,11 +263,16 @@ def detect_topic_from_text(text: str) -> str:
     if not text:
         return "unspecified"
     # 施行期日
-    if any(p in text for p in ["公布の日から起算して", "から施行する", "から、これを施行する", "から施行"]):
+    if any(
+        p in text
+        for p in ["公布の日から起算して", "から施行する", "から、これを施行する", "から施行"]
+    ):
         if not any(p in text for p in ["については、なお", "経過措置"]):
             return "施行期日"
     # 経過措置
-    if any(p in text for p in ["なお従前の例による", "については、この法律施行前", "については、新法"]):
+    if any(
+        p in text for p in ["なお従前の例による", "については、この法律施行前", "については、新法"]
+    ):
         return "経過措置"
     # 罰則
     if "罰則の適用" in text or "の刑に処する" in text:
@@ -358,6 +374,7 @@ def build_target_article_ids(text: str, law_abbrev: str) -> list[str]:
 # XML utilities
 # ============================================================
 
+
 def get_text_recursive(elem) -> str:
     """Element の全 text content を recursive に結合 (Rt は skip)."""
     if elem is None:
@@ -384,6 +401,7 @@ def normalize_caption(caption: str) -> str:
 # ============================================================
 # law_abbrev → law_id mapping
 # ============================================================
+
 
 def build_law_abbrev_to_id_phase(data_dir: Path) -> dict[str, tuple[str, str]]:
     out: dict[str, tuple[str, str]] = {}
@@ -483,6 +501,7 @@ def make_chunk(
 # 1 XML から SupplProvision chunks を抽出
 # ============================================================
 
+
 def extract_supplproviso_chunks(
     xml_path: Path,
     law_abbrev: str,
@@ -502,9 +521,7 @@ def extract_supplproviso_chunks(
         amend_law_num = sp.get("AmendLawNum", "")
         amend_info = parse_amend_law_num(amend_law_num)
         enforcement_date = make_enforcement_date(amend_info)
-        eff_status = classify_effective_status(
-            enforcement_date, amend_info.get("year_seireki")
-        )
+        eff_status = classify_effective_status(enforcement_date, amend_info.get("year_seireki"))
         sp_label_elem = sp.find("SupplProvisionLabel")
         sp_label = get_text_recursive(sp_label_elem).strip() if sp_label_elem is not None else ""
 
@@ -557,7 +574,11 @@ def extract_supplproviso_chunks(
                 text = get_text_recursive(para).strip()
                 if not text:
                     continue
-                topic = topic_from_cap if topic_from_cap != "unspecified" else detect_topic_from_text(text)
+                topic = (
+                    topic_from_cap
+                    if topic_from_cap != "unspecified"
+                    else detect_topic_from_text(text)
+                )
                 targets_raw = extract_main_article_refs(text)
                 target_ids = build_target_article_ids(text, law_abbrev)
                 chunk_id = f"{law_abbrev}-supplproviso-{sp_idx}-art{art_num}-p{p_idx}"
@@ -620,10 +641,9 @@ def extract_supplproviso_chunks(
 # main
 # ============================================================
 
+
 def main():
-    ap = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawTextHelpFormatter
-    )
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument("--xml-dir", type=Path, default=Path("cache/laws"))
     ap.add_argument("--chunks-dir", type=Path, default=Path("build/chunks"))
     ap.add_argument("--data-dir", type=Path, default=Path("data"))

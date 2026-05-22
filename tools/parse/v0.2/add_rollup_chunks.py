@@ -22,9 +22,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from collections import defaultdict
 from pathlib import Path
-
 
 # segment_type 順 (display 順、rollup 内で意味のある並び)
 SEGMENT_TYPE_ORDER = {
@@ -139,12 +137,12 @@ def main():
                 fh.write(json.dumps(rollup, ensure_ascii=False) + "\n")
         added += 1
 
-    print(f"\n=== Summary ===", file=sys.stderr)
+    print("\n=== Summary ===", file=sys.stderr)
     print(f"Rollup added:        {added}", file=sys.stderr)
     print(f"Skipped (existing):  {skipped_existing}", file=sys.stderr)
     print(f"Skipped (empty):     {skipped_empty}", file=sys.stderr)
     if args.dry_run:
-        print(f"(dry-run, no files modified)", file=sys.stderr)
+        print("(dry-run, no files modified)", file=sys.stderr)
 
 
 if __name__ == "__main__":
