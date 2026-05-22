@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JuriCode-JP 法令データフォーマット仕様 v0.2 (Draft v1.0)</title>
+<style>
+:root {
+  --text: #1a1a1a;
+  --text-muted: #555;
+  --bg: #ffffff;
+  --bg-code: #f4f6f8;
+  --bg-quote: #f8f9fa;
+  --border: #e1e4e8;
+  --link: #0366d6;
+  --link-hover: #024aab;
+  --accent: #c1272d;  /* JuriCode-JP red */
+  --accent-bg: #fef0f0;
+  --table-head: #f1f3f5;
+  --table-stripe: #fafbfc;
+}
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Yu Gothic UI",
+               "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.75;
+  color: var(--text);
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2rem 2.5rem 4rem;
+}
+.header {
+  border-bottom: 3px solid var(--accent);
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+.header .brand {
+  font-size: 0.9rem;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.header .subtitle {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-top: 0.4rem;
+}
+.status-pill {
+  display: inline-block;
+  background: var(--accent-bg);
+  color: var(--accent);
+  padding: 0.15rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+.toc {
+  background: var(--bg-quote);
+  border-left: 3px solid var(--accent);
+  padding: 1rem 1.2rem 1rem 2.2rem;
+  margin: 1.5rem 0 2.5rem;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.93rem;
+}
+.toc-title {
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+  margin-left: -1rem;
+  color: var(--text);
+}
+.toc ul { margin: 0.3rem 0; padding-left: 1.2rem; }
+.toc li { margin: 0.1rem 0; }
+.toc a { color: var(--text); text-decoration: none; }
+.toc a:hover { color: var(--accent); }
+h1, h2, h3, h4 {
+  color: var(--text);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+h2 {
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.3rem;
+  margin-top: 2.5rem;
+}
+h3 { font-size: 1.2rem; color: var(--text); margin-top: 1.8rem; }
+h4 { font-size: 1.05rem; color: var(--text-muted); }
+p { margin: 0.8rem 0; }
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
+strong { color: var(--accent); font-weight: 700; }
+code {
+  font-family: "SF Mono", Menlo, Monaco, "Source Code Pro", "Courier New", monospace;
+  background: var(--bg-code);
+  padding: 0.15rem 0.4rem;
+  border-radius: 3px;
+  font-size: 0.88em;
+  color: #c7254e;
+}
+pre {
+  background: var(--bg-code);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+  font-size: 0.85rem;
+  line-height: 1.55;
+  margin: 1rem 0;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  color: var(--text);
+  font-size: inherit;
+}
+blockquote {
+  border-left: 4px solid var(--accent);
+  background: var(--bg-quote);
+  padding: 0.6rem 1.2rem;
+  margin: 1rem 0;
+  color: var(--text-muted);
+  border-radius: 0 4px 4px 0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.2rem 0;
+  font-size: 0.93rem;
+}
+table th, table td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+table th {
+  background: var(--table-head);
+  font-weight: 700;
+}
+table tr:nth-child(even) td { background: var(--table-stripe); }
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+ul, ol { padding-left: 1.5rem; }
+li { margin: 0.2rem 0; }
+.footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-align: center;
+}
+@media print {
+  body { font-size: 11pt; }
+  .container { max-width: none; padding: 0.5cm 1.5cm; }
+  pre, blockquote { page-break-inside: avoid; }
+  h1, h2 { page-break-after: avoid; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+  <div class="brand">JuriCode-JP — LegalTech 設計ドキュメント</div>
+  <div class="subtitle">CHOKAI Co.,Ltd. (株式会社CHOKAI) / 法令データ AI/LLM 最適化基盤</div>
+</div>
+
+<div class="toc">
+  <div class="toc-title">目次</div>
+<div class="toc">
+<ul>
+<li><a href="#juricode-jp-v02">JuriCode-JP 法令データフォーマット仕様 v0.2</a><ul>
+<li><a href="#0-v01">0. v0.1 からの主な変更</a></li>
+<li><a href="#1-option-a">1. ファイル単位の決定 (Option A)</a></li>
+<li><a href="#2-yaml-frontmatter-v02">2. YAML frontmatter v0.2</a><ul>
+<li><a href="#21-v01">2.1 v0.1 互換フィールド (変更なし)</a></li>
+<li><a href="#22-paragraphs-v02">2.2 paragraphs[] の v0.2 拡張</a></li>
+<li><a href="#23-segment-type">2.3 segment の type 列挙</a></li>
+<li><a href="#24-segment-modality">2.4 segment の modality 列挙</a></li>
+<li><a href="#25-segment">2.5 segment の追加フィールド</a></li>
+<li><a href="#26-frontmatter">2.6 完全な frontmatter 例</a></li>
+</ul>
+</li>
+<li><a href="#3-markdown">3. 本文 Markdown 規約</a><ul>
+<li><a href="#31-v01">3.1 セクション順序 (v0.1 と同じ)</a></li>
+<li><a href="#32-v01">3.2 項の見出し (v0.1 互換)</a></li>
+<li><a href="#33-segment-v02">3.3 segment の見出し (v0.2 新規)</a></li>
+<li><a href="#34-html-parser">3.4 HTML コメントによる parser ヒント (推奨)</a></li>
+</ul>
+</li>
+<li><a href="#4-chunksjsonl">4. .chunks.jsonl フォーマット</a></li>
+<li><a href="#5-parser">5. parser の入出力契約 (実装ガイド)</a></li>
+<li><a href="#6-v01-v02">6. v0.1 → v0.2 移行ガイド</a><ul>
+<li><a href="#61">6.1 段階的移行</a></li>
+<li><a href="#62-content">6.2 各号の content 復元</a></li>
+<li><a href="#63-has_proviso-has_items">6.3 has_proviso / has_items の正確化</a></li>
+</ul>
+</li>
+<li><a href="#7-v02">7. 検証規則 v0.2</a></li>
+<li><a href="#8-open-question-phase-1">8. 残る Open Question (Phase 1 中に検討)</a></li>
+<li><a href="#9">9. 関連文書</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<h1 id="juricode-jp-v02">JuriCode-JP 法令データフォーマット仕様 v0.2</h1>
+<p><strong>バージョン:</strong> v0.2 Draft v1.0
+<strong>作成日:</strong> 2026-05-22
+<strong>ステータス:</strong> Draft (parser 実装と並行して育てる)
+<strong>先行版:</strong> <code>docs/format-spec.md</code> (v0.1)
+<strong>前提文書:</strong> <code>business/japanese-law-rag-design-blueprint-2026-05-22.md</code></p>
+<hr />
+<h2 id="0-v01">0. v0.1 からの主な変更</h2>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>v0.1</th>
+<th>v0.2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ファイル単位</td>
+<td>1 条 = 1 file</td>
+<td><strong>維持</strong> (Option A 採用、2026-05-22 決定)</td>
+</tr>
+<tr>
+<td>frontmatter <code>paragraphs[]</code></td>
+<td>number / has_proviso / has_items</td>
+<td><strong><code>segments[]</code> を追加</strong></td>
+</tr>
+<tr>
+<td>本文 Markdown</td>
+<td><code>### 第N項</code></td>
+<td><code>### 第N項</code> + segment 見出し <code>### 第N項 本文 / ただし書 / 第M号</code></td>
+</tr>
+<tr>
+<td>segment 構造</td>
+<td>なし</td>
+<td>前段/後段、本文/ただし書、柱書/各号、にかかわらず、準用 を構造化</td>
+</tr>
+<tr>
+<td>modality flag</td>
+<td>なし</td>
+<td>義務 / 権限 / 禁止 / 努力義務 を frontmatter で明示</td>
+</tr>
+<tr>
+<td>数量条件</td>
+<td>なし</td>
+<td><code>quantitative_conditions[]</code> で metadata 化</td>
+</tr>
+<tr>
+<td>override 表現</td>
+<td>なし</td>
+<td><code>override_flag</code> + <code>override_target[]</code></td>
+</tr>
+<tr>
+<td>retrieval 出力</td>
+<td>(なし、.md を直接 embed)</td>
+<td>parser が <code>.chunks.jsonl</code> を別途生成</td>
+</tr>
+</tbody>
+</table>
+<p>v0.1 の必須/推奨フィールドは v0.2 でも維持。<strong>後方互換</strong> (v0.1 を読むコードは v0.2 でも動く)。</p>
+<hr />
+<h2 id="1-option-a">1. ファイル単位の決定 (Option A)</h2>
+<div class="codehilite"><pre><span></span><code>data/v0.2/{phase}/{law}/{law}-article-{N}.md         ← 人間用 (v0.1 互換)
+build/chunks/{law}/{law}-article-{N}.chunks.jsonl    ← retrieval 用 (parser 自動生成)
+</code></pre></div>
+
+<ul>
+<li><code>.md</code> は git に commit、人間が読み書きする「真実」</li>
+<li><code>.chunks.jsonl</code> は parser の build artifact、CI で再生成可能</li>
+<li>Phase 1 では <code>.chunks.jsonl</code> も git に含める (利用者の負担最小化)。Phase 2 で .gitignore 化を検討</li>
+</ul>
+<hr />
+<h2 id="2-yaml-frontmatter-v02">2. YAML frontmatter v0.2</h2>
+<h3 id="21-v01">2.1 v0.1 互換フィールド (変更なし)</h3>
+<p><code>law_id</code>, <code>law_name_ja</code>, <code>law_name_en</code>, <code>article_number</code>, <code>article_id</code>, <code>version_date</code>,
+<code>source_url</code>, <code>source_format</code>, <code>last_verified</code>, <code>license</code>, <code>translation_status</code>,
+<code>machine_translated</code>, <code>parent_section</code>, <code>cases</code>, <code>amendments</code>, <code>tags</code>, <code>notes</code></p>
+<h3 id="22-paragraphs-v02">2.2 <code>paragraphs[]</code> の v0.2 拡張</h3>
+<div class="codehilite"><pre><span></span><code><span class="nt">paragraphs</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">number</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">1</span><span class="w"></span>
+<span class="w">    </span><span class="nt">has_proviso</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">        </span><span class="c1"># 既存 (v0.2 では正しく検出)</span><span class="w"></span>
+<span class="w">    </span><span class="nt">has_items</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span><span class="w">         </span><span class="c1"># 既存 (v0.2 では正しく検出)</span><span class="w"></span>
+<span class="w">    </span><span class="nt">is_added_by_amendment</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">false</span><span class="w">  </span><span class="c1"># 既存</span><span class="w"></span>
+<span class="w">    </span><span class="nt">segments</span><span class="p">:</span><span class="w">                </span><span class="c1"># ★v0.2 新規</span><span class="w"></span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">art-415-p1-honbun</span><span class="w"></span>
+<span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">honbun</span><span class="w"></span>
+<span class="w">        </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;債務者がその債務の本旨に従った履行をしないとき…損害の賠償を請求することができる。&#39;</span><span class="w"></span>
+<span class="w">        </span><span class="nt">modality</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">kanou_kenri</span><span class="w">    </span><span class="c1"># する権利あり (することができる)</span><span class="w"></span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">art-415-p1-tadashi</span><span class="w"></span>
+<span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tadashi</span><span class="w"></span>
+<span class="w">        </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;ただし、その債務の不履行が…この限りでない。&#39;</span><span class="w"></span>
+<span class="w">        </span><span class="nt">modality</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">jogai</span><span class="w">          </span><span class="c1"># 例外</span><span class="w"></span>
+</code></pre></div>
+
+<h3 id="23-segment-type">2.3 segment の <code>type</code> 列挙</h3>
+<table>
+<thead>
+<tr>
+<th>type</th>
+<th>意味</th>
+<th>検出ヒント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>simple</code></td>
+<td>単一ルール、段分割なし</td>
+<td>「ただし、」「次に掲げる」を含まない</td>
+</tr>
+<tr>
+<td><code>honbun</code></td>
+<td>本文</td>
+<td>(tadashi と対)</td>
+</tr>
+<tr>
+<td><code>tadashi</code></td>
+<td>ただし書</td>
+<td>「ただし、」で始まる</td>
+</tr>
+<tr>
+<td><code>zen_dan</code></td>
+<td>前段</td>
+<td>1 つの項を「。」で区切った前半</td>
+</tr>
+<tr>
+<td><code>kou_dan</code></td>
+<td>後段</td>
+<td>「この場合において」「前段の場合において」で始まることが多い</td>
+</tr>
+<tr>
+<td><code>hashira</code></td>
+<td>柱書</td>
+<td>「次に掲げる」「次の各号」を含む、号より前の文</td>
+</tr>
+<tr>
+<td><code>kou</code></td>
+<td>号</td>
+<td><code>item_number</code> も必須</td>
+</tr>
+<tr>
+<td><code>tokusoku</code></td>
+<td>特則</td>
+<td>「にかかわらず」を含む、override 性質</td>
+</tr>
+<tr>
+<td><code>junyou</code></td>
+<td>準用</td>
+<td>「準用する」を含む</td>
+</tr>
+</tbody>
+</table>
+<h3 id="24-segment-modality">2.4 segment の <code>modality</code> 列挙</h3>
+<table>
+<thead>
+<tr>
+<th>modality</th>
+<th>意味</th>
+<th>検出ヒント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>gimu</code></td>
+<td>義務</td>
+<td>「しなければならない」</td>
+</tr>
+<tr>
+<td><code>gimu_negative</code></td>
+<td>義務的禁止</td>
+<td>「してはならない」「しない」(否定)</td>
+</tr>
+<tr>
+<td><code>kanou_kenri</code></td>
+<td>権限・裁量</td>
+<td>「することができる」</td>
+</tr>
+<tr>
+<td><code>kanou_negative</code></td>
+<td>禁止</td>
+<td>「することができない」</td>
+</tr>
+<tr>
+<td><code>doryoku_gimu</code></td>
+<td>努力義務</td>
+<td>「努めなければならない」「努める」</td>
+</tr>
+<tr>
+<td><code>gimu_kei</code></td>
+<td>義務的刑罰</td>
+<td>「処する」</td>
+</tr>
+<tr>
+<td><code>koka_mukou</code></td>
+<td>効果: 無効</td>
+<td>「無効とする」</td>
+</tr>
+<tr>
+<td><code>koka_torikeshi</code></td>
+<td>効果: 取消し</td>
+<td>「取り消すことができる」</td>
+</tr>
+<tr>
+<td><code>jogai</code></td>
+<td>例外</td>
+<td>「この限りでない」</td>
+</tr>
+<tr>
+<td><code>unspecified</code></td>
+<td>不明 / 該当なし</td>
+<td>(上記いずれにも該当しない)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="25-segment">2.5 segment の追加フィールド</h3>
+<div class="codehilite"><pre><span></span><code><span class="nt">segments</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">art-23-p6</span><span class="w"></span>
+<span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">tokusoku</span><span class="w"></span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;輸入品に係る…第一項の規定にかかわらず、税関長に対し、するものとする。&#39;</span><span class="w"></span>
+<span class="w">    </span><span class="nt">modality</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gimu</span><span class="w"></span>
+<span class="w">    </span><span class="nt">override_flag</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">true</span><span class="w">                       </span><span class="c1"># ★にかかわらず</span><span class="w"></span>
+<span class="w">    </span><span class="nt">override_target</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">kokuzei-tsuusoku-hou-art-23-p1-hashira</span><span class="p p-Indicator">]</span><span class="w"></span>
+
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">art-23-p7</span><span class="w"></span>
+<span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">junyou</span><span class="w"></span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;前二条の規定は、更正の請求について準用する。&#39;</span><span class="w"></span>
+<span class="w">    </span><span class="nt">applies_provisions</span><span class="p">:</span><span class="w">                       </span><span class="c1"># ★準用先 (絶対参照化済み)</span><span class="w"></span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">kokuzei-tsuusoku-hou-art-21</span><span class="w"></span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">kokuzei-tsuusoku-hou-art-22</span><span class="w"></span>
+
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">art-23-p1-hashira</span><span class="w"></span>
+<span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">hashira</span><span class="w"></span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;納税申告書を提出した者は、次の各号のいずれかに該当する場合には、…五年(法人税については十年)以内に限り…&#39;</span><span class="w"></span>
+<span class="w">    </span><span class="nt">quantitative_conditions</span><span class="p">:</span><span class="w">                  </span><span class="c1"># ★数量境界</span><span class="w"></span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">period</span><span class="w"></span>
+<span class="w">        </span><span class="nt">normal</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> value</span><span class="p">:</span><span class="w"> </span><span class="nv">5</span><span class="p p-Indicator">,</span><span class="nt"> unit</span><span class="p">:</span><span class="w"> </span><span class="nv">years</span><span class="w"> </span><span class="p p-Indicator">}</span><span class="w"></span>
+<span class="w">        </span><span class="nt">exception</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">{</span><span class="nt"> value</span><span class="p">:</span><span class="w"> </span><span class="nv">10</span><span class="p p-Indicator">,</span><span class="nt"> unit</span><span class="p">:</span><span class="w"> </span><span class="nv">years</span><span class="p p-Indicator">,</span><span class="nt"> condition</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;法人税に係る場合&#39;</span><span class="w"> </span><span class="p p-Indicator">}</span><span class="w"></span>
+
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">id</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">art-415-p2-hashira</span><span class="w"></span>
+<span class="w">    </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">hashira</span><span class="w"></span>
+<span class="w">    </span><span class="nt">text</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;前項の規定により損害賠償の請求をすることができる場合において…&#39;</span><span class="w"></span>
+<span class="w">    </span><span class="nt">references</span><span class="p">:</span><span class="w">                               </span><span class="c1"># ★相対参照を絶対参照化</span><span class="w"></span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">minpou-art-415-p1-honbun</span><span class="w"></span>
+</code></pre></div>
+
+<h3 id="26-frontmatter">2.6 完全な frontmatter 例</h3>
+<p><code>examples/v0.2/</code> 配下の golden sample を参照:
+- <code>minpou-article-90-v0.2.md</code> (simple)
+- <code>keihou-article-197-v0.2.md</code> (zen_dan + kou_dan)
+- <code>minpou-article-415-v0.2.md</code> (honbun + tadashi + hashira + kou)
+- <code>minpou-article-5-v0.2.md</code> (にかかわらず)</p>
+<hr />
+<h2 id="3-markdown">3. 本文 Markdown 規約</h2>
+<h3 id="31-v01">3.1 セクション順序 (v0.1 と同じ)</h3>
+<ol>
+<li><code># 法令名 第N条(通称)</code> — H1 見出し</li>
+<li><code>## 原文 (日本語)</code> — 必須</li>
+<li><code>## English Translation</code> — 推奨</li>
+<li><code>## 判例リンク (Case Law)</code> — 任意</li>
+<li><code>## 改正履歴 (Amendments)</code> — 任意</li>
+<li><code>## 注記 (Notes)</code> — 任意</li>
+</ol>
+<h3 id="32-v01">3.2 項の見出し (v0.1 互換)</h3>
+<div class="codehilite"><pre><span></span><code><span class="gu">### 第N項</span>
+</code></pre></div>
+
+<h3 id="33-segment-v02">3.3 segment の見出し (v0.2 新規)</h3>
+<p>項の見出しの下に segment 見出しを置く。<strong>項が単一 segment (<code>type: simple</code>) の場合は segment 見出しを省略可</strong>。</p>
+<div class="codehilite"><pre><span></span><code><span class="gu">### 第N項</span>
+<span class="gu">#### 本文</span>
+本文テキスト...
+
+<span class="gu">#### ただし書</span>
+ただし、...
+</code></pre></div>
+
+<p>または:</p>
+<div class="codehilite"><pre><span></span><code><span class="gu">### 第N項 (柱書+号)</span>
+<span class="gu">#### 柱書</span>
+柱書テキスト...
+
+<span class="gu">#### 第一号</span>
+号 1 のテキスト
+
+<span class="gu">#### 第二号</span>
+号 2 のテキスト
+</code></pre></div>
+
+<h3 id="34-html-parser">3.4 HTML コメントによる parser ヒント (推奨)</h3>
+<div class="codehilite"><pre><span></span><code><span class="gu">### 第百九十七条第一項</span>
+&lt;!-- segment: zen_dan id: keihou-art-197-p1-zen --&gt;
+公務員が、その職務に関し、賄賂を収受し、又はその要求若しくは約束をしたときは、五年以下の拘禁刑に処する。
+&lt;!-- segment: kou_dan id: keihou-art-197-p1-kou depends_on: keihou-art-197-p1-zen --&gt;
+この場合において、請託を受けたときは、七年以下の拘禁刑に処する。
+</code></pre></div>
+
+<p>HTML コメントは GitHub Markdown でも表示されないので、人間の閲覧体験を損なわない。</p>
+<hr />
+<h2 id="4-chunksjsonl">4. <code>.chunks.jsonl</code> フォーマット</h2>
+<p><code>build/chunks/{law}/{law}-article-{N}.chunks.jsonl</code> には 1 行 = 1 segment chunk。</p>
+<div class="codehilite"><pre><span></span><code><span class="p">{</span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minpou-art-415-p1-honbun&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;article_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minpou-art-415&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;law_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;129AC0000000089&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;law_name_ja&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;民法&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;article_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;415&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;paragraph_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;segment_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;honbun&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;modality&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;kanou_kenri&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;債務者がその債務の本旨に従った履行をしないとき…損害の賠償を請求することができる。&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;parent_section&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;hen&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;shou&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;setsu&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;kan&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">}}</span><span class="w"></span>
+<span class="p">{</span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minpou-art-415-p1-tadashi&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;article_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;minpou-art-415&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;law_id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;129AC0000000089&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;law_name_ja&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;民法&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;article_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;415&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;paragraph_number&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;segment_type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;tadashi&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;modality&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;jogai&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;ただし、その債務の不履行が…この限りでない。&quot;</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;parent_section&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="nt">&quot;hen&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;shou&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;setsu&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="nt">&quot;kan&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">}}</span><span class="w"></span>
+</code></pre></div>
+
+<p>各 row は以下を含む (詳細スキーマは <code>schema/segment-chunk.schema.json</code> 別途):
+- <code>id</code>: segment の一意 ID
+- <code>article_id</code> / <code>law_id</code> / <code>law_name_ja</code> / <code>article_number</code> / <code>paragraph_number</code>
+- <code>segment_type</code> / <code>modality</code>
+- <code>text</code>: segment 本文
+- <code>parent_section</code>: 階層パス
+- (任意) <code>override_flag</code> / <code>override_target</code> / <code>applies_provisions</code> / <code>references</code> / <code>quantitative_conditions</code></p>
+<p>これは Gemini / source-genai / 自治体 RAG が直接 ingest できる形式。</p>
+<hr />
+<h2 id="5-parser">5. parser の入出力契約 (実装ガイド)</h2>
+<div class="codehilite"><pre><span></span><code>入力:
+  - e-Gov XML (一次)
+  - または v0.1 .md (既存 corpus からの migration)
+
+出力:
+  - data/v0.2/{phase}/{law}/{law}-article-{N}.md
+  - build/chunks/{law}/{law}-article-{N}.chunks.jsonl
+</code></pre></div>
+
+<p>parser は以下を検出:
+- 段構造: 「ただし、」「次に掲げる」「この場合において」「前段」「後段」
+- override: 「〜の規定にかかわらず」
+- 準用: 「〜について準用する」
+- modality: 文末 (「しなければならない」「することができる」「処する」等)
+- 相対参照: 「前項」「前二条」「同項」 → 絶対参照化
+- 数量条件: 数字 + 「年」「月」「日」「歳」「以上」「以下」「超」「未満」 + パターン</p>
+<p>優先順位:
+1. <strong>rule-based を最大化</strong> (高速 + 決定的)
+2. <strong>edge case のみ LLM</strong> (Claude API or Gemini で補完)</p>
+<hr />
+<h2 id="6-v01-v02">6. v0.1 → v0.2 移行ガイド</h2>
+<h3 id="61">6.1 段階的移行</h3>
+<ol>
+<li>v0.1 の <code>data/</code> はそのまま維持</li>
+<li>v0.2 の <code>data/v0.2/</code> を新規作成 (parallel)</li>
+<li>v0.2 corpus 完成後、利用者は <code>data/v0.2/</code> に切り替え</li>
+<li>Phase 1 完了時に v0.1 を <code>archive/v0.1/</code> へ移動</li>
+</ol>
+<h3 id="62-content">6.2 各号の content 復元</h3>
+<p>v0.1 では各号 content が欠落しているため、e-Gov XML から再取得して segment 化。</p>
+<h3 id="63-has_proviso-has_items">6.3 has_proviso / has_items の正確化</h3>
+<p>v0.1 parser バグで全て false 固定の問題を、v0.2 parser で正しく検出。</p>
+<hr />
+<h2 id="7-v02">7. 検証規則 v0.2</h2>
+<p>v0.1 規則 + 以下の追加:</p>
+<ul>
+<li><code>segments[]</code> が空でない (paragraph に少なくとも 1 segment)</li>
+<li><code>segment.id</code> は法令内で一意 (cross-paragraph 重複禁止)</li>
+<li><code>override_flag: true</code> なら <code>override_target</code> 必須</li>
+<li><code>type: junyou</code> なら <code>applies_provisions</code> 必須</li>
+<li><code>type: kou</code> なら <code>item_number</code> 必須</li>
+<li><code>.chunks.jsonl</code> の生成結果が <code>.md</code> の <code>segments[]</code> と一致 (CI で再生成して diff)</li>
+</ul>
+<hr />
+<h2 id="8-open-question-phase-1">8. 残る Open Question (Phase 1 中に検討)</h2>
+<ul>
+<li><code>modality</code> の列挙はこれで網羅的か (例: 「処する」と「処せられる」の違い)</li>
+<li>接続詞階層 AST (及び/並びに、若しくは/又は) の表現方法</li>
+<li>章 scope 定義 (「以下この章において同じ」) の metadata 表現</li>
+<li>不確定法概念 (「みだりに」「正当な理由なく」) の判例リンク方法</li>
+</ul>
+<p>これらは民法 PoC の効果測定後に判断。</p>
+<hr />
+<h2 id="9">9. 関連文書</h2>
+<ul>
+<li>設計図: <code>business/japanese-law-rag-design-blueprint-2026-05-22.md</code></li>
+<li>データ品質発見: <code>business/data-quality-finding-2026-05-22.md</code></li>
+<li>ファイル単位決定: <code>business/file-unit-decision-aid-2026-05-22.md</code></li>
+<li>v0.1 仕様書: <code>docs/format-spec.md</code></li>
+<li>v0.1 IR 仕様書: <code>docs/ir-spec.md</code></li>
+</ul>
+<hr />
+<p><em>Last updated: 2026-05-22 (v1.0 initial draft, parser 実装と並行して育てる)</em></p>
+
+<div class="footer">
+  生成: 2026-05-22 / 株式会社CHOKAI JuriCode-JP / Draft v1.0
+  &middot; <a href="https://github.com/JuriCode-JP/JuriCode-JP">github.com/JuriCode-JP</a>
+</div>
+</div>
+</body>
+</html>
