@@ -1,0 +1,40 @@
+---
+law_id: 419M60000002052
+law_name_ja: 金融商品取引業等に関する内閣府令
+law_name_en: (English name pending)
+article_number: 92-3
+article_id: kinsho-gyou-furei-art-92-3
+version_date: '2007-08-06'
+source_url: https://laws.e-gov.go.jp/law/419M60000002052
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　金融商品取引業者等
+  setsu: 2
+  setsu_name_ja: 第二節　業務
+  kan: 1
+  kan_name_ja: 第一款　通則
+---
+
+# 金融商品取引業等に関する内閣府令 第92-3条(（上場有価証券等売買等に係る契約締結前交付書面の記載事項の特則）)
+
+## 原文 (日本語)
+
+### 第九十二条の三
+
+その締結しようとする金融商品取引契約が上場有価証券等売買等に係るものである場合における法第三十七条の三第一項第七号に規定する内閣府令で定める事項は、第八十二条から前条までの規定にかかわらず、第八十二条第一号、第三号、第五号、第十一号、第十四号及び第十五号並びに第八十三条第一項第八号に掲げる事項とする。

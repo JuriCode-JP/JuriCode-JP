@@ -1,0 +1,59 @@
+---
+law_id: 337AC0000000066
+law_name_ja: 国税通則法
+law_name_en: (English name pending)
+article_number: '131'
+article_id: kokuzei-tsuusoku-hou-art-131
+version_date: '1962-04-02'
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-131-p1
+    type: simple
+    text: 国税庁等の当該職員（以下第百五十二条（調書の作成）まで及び第百五十五条（間接国税以外の国税に関する犯則事件等についての告発）において「当該職員」という。）は、国税に関する犯則事件（第百三十五条（現行犯事件の臨検、捜索又は差押え）及び第百五十三条第二項（調査の管轄及び引継ぎ）を除き、以下この節において「犯則事件」という。）を調査するため必要があるときは、犯則嫌疑者若しくは参考人（以下この項及び次条第一項において「犯則嫌疑者等」という。）に対して出頭を求め、犯則嫌疑者等に対して質問し、犯則嫌疑者等が所持し、若しくは置き去つた物件を検査し、又は犯則嫌疑者等が任意に提出し、若しくは置き去つた物件を領置することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-131-p2
+    type: simple
+    text: 当該職員は、犯則事件の調査について、官公署又は公私の団体に照会して必要な事項の報告を求めることができる。
+    modality: kanou_kenri
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 11
+  shou_name_ja: 第十一章　犯則事件の調査及び処分
+  setsu: 1
+  setsu_name_ja: 第一節　犯則事件の調査
+---
+
+# 国税通則法 第131条(（質問、検査又は領置等）)
+
+## 原文 (日本語)
+
+### 第百三十一条第一項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-art-131-p1 -->
+国税庁等の当該職員（以下第百五十二条（調書の作成）まで及び第百五十五条（間接国税以外の国税に関する犯則事件等についての告発）において「当該職員」という。）は、国税に関する犯則事件（第百三十五条（現行犯事件の臨検、捜索又は差押え）及び第百五十三条第二項（調査の管轄及び引継ぎ）を除き、以下この節において「犯則事件」という。）を調査するため必要があるときは、犯則嫌疑者若しくは参考人（以下この項及び次条第一項において「犯則嫌疑者等」という。）に対して出頭を求め、犯則嫌疑者等に対して質問し、犯則嫌疑者等が所持し、若しくは置き去つた物件を検査し、又は犯則嫌疑者等が任意に提出し、若しくは置き去つた物件を領置することができる。
+
+### 第百三十一条第二項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-art-131-p2 -->
+当該職員は、犯則事件の調査について、官公署又は公私の団体に照会して必要な事項の報告を求めることができる。

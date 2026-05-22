@@ -1,0 +1,137 @@
+---
+law_id: 322AC0000000067
+law_name_ja: 地方自治法
+law_name_en: Local Autonomy Act
+article_number: '102'
+article_id: chihou-jichi-hou-art-102
+version_date: '1947-04-17'
+source_url: https://laws.e-gov.go.jp/law/322AC0000000067
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-102-p1
+    type: simple
+    text: 普通地方公共団体の議会は、定例会及び臨時会とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-102-p2
+    type: simple
+    text: 定例会は、毎年、条例で定める回数これを招集しなければならない。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-102-p3
+    type: simple
+    text: 臨時会は、必要がある場合において、その事件に限りこれを招集する。
+    modality: unspecified
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-102-p4
+    type: simple
+    text: 臨時会に付議すべき事件は、普通地方公共団体の長があらかじめこれを告示しなければならない。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-102-p5
+    type: tokusoku
+    text: 前条第五項又は第六項の場合においては、前項の規定にかかわらず、議長が、同条第二項又は第三項の規定による請求において示された会議に付議すべき事件を臨時会に付議すべき事件として、あらかじめ告示しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
+    - 前条
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-102-p6
+    type: simple
+    text: 臨時会の開会中に緊急を要する事件があるときは、前三項の規定にかかわらず、直ちにこれを会議に付議することができる。
+    modality: kanou_kenri
+    references:
+    - 前三項
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-102-p7
+    type: simple
+    text: 普通地方公共団体の議会の会期及びその延長並びにその開閉に関する事項は、議会がこれを定める。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-administrative
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　普通地方公共団体
+  shou: 6
+  shou_name_ja: 第六章　議会
+  setsu: 3
+  setsu_name_ja: 第三節　招集及び会期
+---
+
+# 地方自治法 第102条
+
+## 原文 (日本語)
+
+### 第百二条第一項
+
+<!-- segment: simple id: chihou-jichi-hou-art-102-p1 -->
+普通地方公共団体の議会は、定例会及び臨時会とする。
+
+### 第百二条第二項
+
+<!-- segment: simple id: chihou-jichi-hou-art-102-p2 -->
+定例会は、毎年、条例で定める回数これを招集しなければならない。
+
+### 第百二条第三項
+
+<!-- segment: simple id: chihou-jichi-hou-art-102-p3 -->
+臨時会は、必要がある場合において、その事件に限りこれを招集する。
+
+### 第百二条第四項
+
+<!-- segment: simple id: chihou-jichi-hou-art-102-p4 -->
+臨時会に付議すべき事件は、普通地方公共団体の長があらかじめこれを告示しなければならない。
+
+### 第百二条第五項
+
+<!-- segment: tokusoku id: chihou-jichi-hou-art-102-p5 override_flag: true override_target: 前項 -->
+前条第五項又は第六項の場合においては、前項の規定にかかわらず、議長が、同条第二項又は第三項の規定による請求において示された会議に付議すべき事件を臨時会に付議すべき事件として、あらかじめ告示しなければならない。
+
+### 第百二条第六項
+
+<!-- segment: simple id: chihou-jichi-hou-art-102-p6 -->
+臨時会の開会中に緊急を要する事件があるときは、前三項の規定にかかわらず、直ちにこれを会議に付議することができる。
+
+### 第百二条第七項
+
+<!-- segment: simple id: chihou-jichi-hou-art-102-p7 -->
+普通地方公共団体の議会の会期及びその延長並びにその開閉に関する事項は、議会がこれを定める。

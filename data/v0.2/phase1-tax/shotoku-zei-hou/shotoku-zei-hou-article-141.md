@@ -1,0 +1,96 @@
+---
+law_id: 340AC0000000033
+law_name_ja: 所得税法
+law_name_en: (English name pending)
+article_number: '141'
+article_id: shotoku-zei-hou-art-141
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-141-p1
+    type: simple
+    text: 第百二十五条第一項、第三項又は第五項（年の中途で死亡した場合の確定申告）の規定に該当してこれらの規定に規定する申告書（青色申告書に限る。）を提出する者は、当該申告書に記載すべきその年において生じた純損失の金額がある場合には、政令で定めるところにより、当該申告書の提出と同時に、当該申告書に係る所得税の納税地の所轄税務署長に対し、第一号に掲げる金額から第二号に掲げる金額を控除した金額に相当する所得税の還付を請求することができる。
+    modality: kanou_kenri
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-141-p2
+    type: junyou
+    text: 前条第二項及び第三項の規定は、前項の場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 前条
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-141-p3
+    type: simple
+    text: 第一項の規定は、同項第一号に規定する死亡をした居住者がその年の前年分の所得税につき青色申告書を提出している場合であつて、同項に規定する申告書を提出する者が当該申告書をその提出期限までに提出した場合（税務署長においてやむを得ない事情があると認める場合には、当該申告書をその提出期限後に提出した場合を含む。）に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-141-p4
+    type: simple
+    text: 居住者が死亡した場合において、その死亡の日の属する年の前年において生じたその者に係る純損失の金額（第七十条第一項（純損失の繰越控除）の規定により同日の属する年において控除されたもの及び次条第二項の規定により還付を受けるべき金額の計算の基礎となつたものを除く。）があるときは、その相続人は、その居住者の同日の属する年の前年分及び前前年分の所得税につき青色申告書が提出されている場合に限り、政令で定めるところにより、その居住者の同日の属する年分の所得税に係る確定申告期限までに、当該所得税の納税地の所轄税務署長に対し、当該純損失の金額につき第一項及び第二項の規定に準じて計算した金額に相当する所得税の還付を請求することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 5
+  shou_name_ja: 第五章　申告、納付及び還付
+  setsu: 2
+  setsu_name_ja: 第二節　確定申告並びにこれに伴う納付及び還付
+  kan: 6
+  kan_name_ja: 第六款　還付
+---
+
+# 所得税法 第141条(（相続人等の純損失の繰戻しによる還付の請求）)
+
+## 原文 (日本語)
+
+### 第百四十一条第一項
+
+<!-- segment: simple id: shotoku-zei-hou-art-141-p1 -->
+第百二十五条第一項、第三項又は第五項（年の中途で死亡した場合の確定申告）の規定に該当してこれらの規定に規定する申告書（青色申告書に限る。）を提出する者は、当該申告書に記載すべきその年において生じた純損失の金額がある場合には、政令で定めるところにより、当該申告書の提出と同時に、当該申告書に係る所得税の納税地の所轄税務署長に対し、第一号に掲げる金額から第二号に掲げる金額を控除した金額に相当する所得税の還付を請求することができる。
+
+### 第百四十一条第二項
+
+<!-- segment: junyou id: shotoku-zei-hou-art-141-p2 -->
+前条第二項及び第三項の規定は、前項の場合について準用する。
+
+### 第百四十一条第三項
+
+<!-- segment: simple id: shotoku-zei-hou-art-141-p3 -->
+第一項の規定は、同項第一号に規定する死亡をした居住者がその年の前年分の所得税につき青色申告書を提出している場合であつて、同項に規定する申告書を提出する者が当該申告書をその提出期限までに提出した場合（税務署長においてやむを得ない事情があると認める場合には、当該申告書をその提出期限後に提出した場合を含む。）に限り、適用する。
+
+### 第百四十一条第四項
+
+<!-- segment: simple id: shotoku-zei-hou-art-141-p4 -->
+居住者が死亡した場合において、その死亡の日の属する年の前年において生じたその者に係る純損失の金額（第七十条第一項（純損失の繰越控除）の規定により同日の属する年において控除されたもの及び次条第二項の規定により還付を受けるべき金額の計算の基礎となつたものを除く。）があるときは、その相続人は、その居住者の同日の属する年の前年分及び前前年分の所得税につき青色申告書が提出されている場合に限り、政令で定めるところにより、その居住者の同日の属する年分の所得税に係る確定申告期限までに、当該所得税の納税地の所轄税務署長に対し、当該純損失の金額につき第一項及び第二項の規定に準じて計算した金額に相当する所得税の還付を請求することができる。

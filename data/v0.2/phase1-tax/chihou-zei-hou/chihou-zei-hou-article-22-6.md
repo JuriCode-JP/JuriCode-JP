@@ -1,0 +1,58 @@
+---
+law_id: 325AC0000000226
+law_name_ja: 地方税法
+law_name_en: (English name pending)
+article_number: 22-6
+article_id: chihou-zei-hou-art-22-6
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325AC0000000226
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 1
+  shou_name_ja: 第一章　総則
+  setsu: 16
+  setsu_name_ja: 第十六節　犯則事件の調査及び処分
+  kan: 1
+  kan_name_ja: 第一款　犯則事件の調査
+---
+
+# 地方税法 第22-6条(（通信履歴の電磁的記録の保全要請）)
+
+## 原文 (日本語)
+
+### 第二十二条の六第一項
+
+当該徴税吏員は、差押え又は記録命令付差押えをするため必要があるときは、電気通信を行うための設備を他人の通信の用に供する事業を営む者又は自己の業務のために不特定若しくは多数の者の通信を媒介することのできる電気通信を行うための設備を設置している者に対し、その業務上記録している電気通信の送信元、送信先、通信日時その他の通信履歴の電磁的記録のうち必要なものを特定し、三十日を超えない期間を定めて、これを消去しないよう、書面で求めることができる。この場合において、当該電磁的記録について差押え又は記録命令付差押えをする必要がないと認めるに至つたときは、当該求めを取り消さなければならない。
+
+### 第二十二条の六第二項
+
+当該徴税吏員は、前項の規定により消去しないよう求める期間については、特に必要があるときは、三十日を超えない範囲内で延長することができる。ただし、消去しないよう求める期間は、通じて六十日を超えることができない。
+
+### 第二十二条の六第三項
+
+当該徴税吏員は、第一項の規定による求めを行う場合において、必要があるときは、みだりに当該求めに関する事項を漏らさないよう求めることができる。

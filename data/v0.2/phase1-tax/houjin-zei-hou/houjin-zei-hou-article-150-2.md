@@ -1,0 +1,45 @@
+---
+law_id: 340AC0000000034
+law_name_ja: 法人税法
+law_name_en: (English name pending)
+article_number: 150-2
+article_id: houjin-zei-hou-art-150-2
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 4
+  hen_name_ja: 第四編　雑則
+---
+
+# 法人税法 第150-2条(（帳簿書類の備付け等）)
+
+## 原文 (日本語)
+
+### 第百五十条の二第一項
+
+普通法人、協同組合等並びに収益事業を行う公益法人等及び人格のない社団等（青色申告書を提出することにつき税務署長の承認を受けているものを除く。次項において「普通法人等」という。）は、財務省令で定めるところにより、帳簿を備え付けてこれにその取引（恒久的施設を有する外国法人にあつては、第百三十八条第一項第一号（国内源泉所得）に規定する内部取引に該当するものを含む。以下この項において同じ。）を財務省令で定める簡易な方法により記録し、かつ、当該帳簿（当該取引に関して作成し、又は受領した書類及び決算に関して作成した書類で財務省令で定めるものを含む。次項において同じ。）を保存しなければならない。
+
+### 第百五十条の二第二項
+
+国税庁、国税局又は税務署の当該職員は、普通法人等の法人税（各対象会計年度の国際最低課税額に対する法人税及び各対象会計年度の国際最低課税残余額に対する法人税を除く。）に関する調査に際しては、前項の帳簿を検査するものとする。ただし、当該帳簿の検査を困難とする事情があるときは、この限りでない。

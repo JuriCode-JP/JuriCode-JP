@@ -1,0 +1,89 @@
+---
+law_id: 337AC0000000066
+law_name_ja: 国税通則法
+law_name_en: (English name pending)
+article_number: '101'
+article_id: kokuzei-tsuusoku-hou-art-101
+version_date: '1962-04-02'
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-101-p1-hashira
+    type: hashira
+    text: 裁決は、次に掲げる事項を記載し、国税不服審判所長が記名押印した裁決書によりしなければならない。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-101-p2
+    type: junyou
+    text: 第八十四条第八項（決定の手続等）の規定は、前項の裁決について準用する。
+    modality: unspecified
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-101-p3
+    type: simple
+    text: 裁決は、審査請求人（当該審査請求が処分の相手方以外の者のしたものである場合における第九十八条第三項（裁決）の規定による裁決にあつては、審査請求人及び処分の相手方）に裁決書の謄本が送達された時に、その効力を生ずる。
+    modality: unspecified
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-101-p4
+    type: simple
+    text: 国税不服審判所長は、裁決書の謄本を参加人及び原処分庁（第七十五条第二項（第一号に係る部分に限る。）（国税に関する処分についての不服申立て）に規定する処分に係る審査請求にあつては、当該処分に係る税務署長を含む。）に送付しなければならない。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 8
+  shou_name_ja: 第八章　不服審査及び訴訟
+  setsu: 1
+  setsu_name_ja: 第一節　不服審査
+  kan: 3
+  kan_name_ja: 第三款　審査請求
+---
+
+# 国税通則法 第101条(（裁決の方式等）)
+
+## 原文 (日本語)
+
+### 第百一条第一項
+
+<!-- segment: hashira id: kokuzei-tsuusoku-hou-art-101-p1-hashira -->
+裁決は、次に掲げる事項を記載し、国税不服審判所長が記名押印した裁決書によりしなければならない。
+
+### 第百一条第二項
+
+<!-- segment: junyou id: kokuzei-tsuusoku-hou-art-101-p2 -->
+第八十四条第八項（決定の手続等）の規定は、前項の裁決について準用する。
+
+### 第百一条第三項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-art-101-p3 -->
+裁決は、審査請求人（当該審査請求が処分の相手方以外の者のしたものである場合における第九十八条第三項（裁決）の規定による裁決にあつては、審査請求人及び処分の相手方）に裁決書の謄本が送達された時に、その効力を生ずる。
+
+### 第百一条第四項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-art-101-p4 -->
+国税不服審判所長は、裁決書の謄本を参加人及び原処分庁（第七十五条第二項（第一号に係る部分に限る。）（国税に関する処分についての不服申立て）に規定する処分に係る審査請求にあつては、当該処分に係る税務署長を含む。）に送付しなければならない。

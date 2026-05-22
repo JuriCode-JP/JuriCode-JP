@@ -1,0 +1,288 @@
+---
+law_id: 322AC0000000067
+law_name_ja: 地方自治法
+law_name_en: Local Autonomy Act
+article_number: '199'
+article_id: chihou-jichi-hou-art-199
+version_date: '1947-04-17'
+source_url: https://laws.e-gov.go.jp/law/322AC0000000067
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p1
+    type: simple
+    text: 監査委員は、普通地方公共団体の財務に関する事務の執行及び普通地方公共団体の経営に係る事業の管理を監査する。
+    modality: unspecified
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p2-zen
+    type: zen_dan
+    text: 監査委員は、前項に定めるもののほか、必要があると認めるときは、普通地方公共団体の事務（自治事務にあつては労働委員会及び収用委員会の権限に属する事務で政令で定めるものを除き、法定受託事務にあつては国の安全を害するおそれがあることその他の事由により監査委員の監査の対象とすることが適当でないものとして政令で定めるものを除く。）の執行について監査をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-199-p2-kou
+    type: kou_dan
+    text: この場合において、当該監査の実施に関し必要な事項は、政令で定める。
+    modality: unspecified
+    depends_on: chihou-jichi-hou-art-199-p2-zen
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p3
+    type: simple
+    text: 監査委員は、第一項又は前項の規定による監査をするに当たつては、当該普通地方公共団体の財務に関する事務の執行及び当該普通地方公共団体の経営に係る事業の管理又は同項に規定する事務の執行が第二条第十四項及び第十五項の規定の趣旨にのつとつてなされているかどうかについて、特に、意を用いなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p4
+    type: simple
+    text: 監査委員は、毎会計年度少なくとも一回以上期日を定めて第一項の規定による監査をしなければならない。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p5
+    type: simple
+    text: 監査委員は、前項に定める場合のほか、必要があると認めるときは、いつでも第一項の規定による監査をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p6
+    type: simple
+    text: 監査委員は、当該普通地方公共団体の長から当該普通地方公共団体の事務の執行に関し監査の要求があつたときは、その要求に係る事項について監査をしなければならない。
+    modality: gimu
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p7
+    type: simple
+    text: 監査委員は、必要があると認めるとき、又は普通地方公共団体の長の要求があるときは、当該普通地方公共団体が補助金、交付金、負担金、貸付金、損失補償、利子補給その他の財政的援助を与えているものの出納その他の事務の執行で当該財政的援助に係るものを監査することができる。当該普通地方公共団体が出資しているもので政令で定めるもの、当該普通地方公共団体が借入金の元金又は利子の支払を保証しているもの、当該普通地方公共団体が受益権を有する信託で政令で定めるものの受託者及び当該普通地方公共団体が第二百四十四条の二第三項の規定に基づき公の施設の管理を行わせているものについても、同様とする。
+    modality: gimu
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p8
+    type: simple
+    text: 監査委員は、監査のため必要があると認めるときは、関係人の出頭を求め、若しくは関係人について調査し、若しくは関係人に対し帳簿、書類その他の記録の提出を求め、又は学識経験を有する者等から意見を聴くことができる。
+    modality: kanou_kenri
+- number: 9
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p9
+    type: simple
+    text: 監査委員は、第九十八条第二項の請求若しくは第六項の要求に係る事項についての監査又は第一項、第二項若しくは第七項の規定による監査について、監査の結果に関する報告を決定し、これを普通地方公共団体の議会及び長並びに関係のある教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員に提出するとともに、これを公表しなければならない。
+    modality: gimu
+- number: 10
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p10-zen
+    type: zen_dan
+    text: 監査委員は、監査の結果に基づいて必要があると認めるときは、当該普通地方公共団体の組織及び運営の合理化に資するため、第七十五条第三項又は前項の規定による監査の結果に関する報告に添えてその意見を提出することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-199-p10-kou
+    type: kou_dan
+    text: この場合において、監査委員は、当該意見の内容を公表しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-199-p10-zen
+- number: 11
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p11-zen
+    type: zen_dan
+    text: 監査委員は、第七十五条第三項の規定又は第九項の規定による監査の結果に関する報告のうち、普通地方公共団体の議会、長、教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員において特に措置を講ずる必要があると認める事項については、その者に対し、理由を付して、必要な措置を講ずべきことを勧告することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-199-p11-kou
+    type: kou_dan
+    text: この場合において、監査委員は、当該勧告の内容を公表しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-199-p11-zen
+- number: 12
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p12
+    type: simple
+    text: 第九項の規定による監査の結果に関する報告の決定、第十項の規定による意見の決定又は前項の規定による勧告の決定は、監査委員の合議によるものとする。
+    modality: gimu
+    references:
+    - 前項
+- number: 13
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p13
+    type: simple
+    text: 監査委員は、第九項の規定による監査の結果に関する報告の決定について、各監査委員の意見が一致しないことにより、前項の合議により決定することができない事項がある場合には、その旨及び当該事項についての各監査委員の意見を普通地方公共団体の議会及び長並びに関係のある教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員に提出するとともに、これらを公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
+- number: 14
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p14-zen
+    type: zen_dan
+    text: 監査委員から第七十五条第三項の規定又は第九項の規定による監査の結果に関する報告の提出があつた場合において、当該監査の結果に関する報告の提出を受けた普通地方公共団体の議会、長、教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員は、当該監査の結果に基づき、又は当該監査の結果を参考として措置（次項に規定する措置を除く。以下この項において同じ。）を講じたときは、当該措置の内容を監査委員に通知しなければならない。
+    modality: gimu
+    references:
+    - 次項
+  - id: chihou-jichi-hou-art-199-p14-kou
+    type: kou_dan
+    text: この場合において、監査委員は、当該措置の内容を公表しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-199-p14-zen
+- number: 15
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-199-p15-zen
+    type: zen_dan
+    text: 監査委員から第十一項の規定による勧告を受けた普通地方公共団体の議会、長、教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員は、当該勧告に基づき必要な措置を講ずるとともに、当該措置の内容を監査委員に通知しなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-199-p15-kou
+    type: kou_dan
+    text: この場合において、監査委員は、当該措置の内容を公表しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-199-p15-zen
+cases: []
+amendments: []
+tags:
+- phase1-administrative
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　普通地方公共団体
+  shou: 7
+  shou_name_ja: 第七章　執行機関
+  setsu: 3
+  setsu_name_ja: 第三節　委員会及び委員
+  kan: 5
+  kan_name_ja: 第五款　監査委員
+---
+
+# 地方自治法 第199条
+
+## 原文 (日本語)
+
+### 第百九十九条第一項
+
+<!-- segment: simple id: chihou-jichi-hou-art-199-p1 -->
+監査委員は、普通地方公共団体の財務に関する事務の執行及び普通地方公共団体の経営に係る事業の管理を監査する。
+
+### 第百九十九条第二項
+
+<!-- segment: zen_dan id: chihou-jichi-hou-art-199-p2-zen -->
+監査委員は、前項に定めるもののほか、必要があると認めるときは、普通地方公共団体の事務（自治事務にあつては労働委員会及び収用委員会の権限に属する事務で政令で定めるものを除き、法定受託事務にあつては国の安全を害するおそれがあることその他の事由により監査委員の監査の対象とすることが適当でないものとして政令で定めるものを除く。）の執行について監査をすることができる。<!-- segment: kou_dan id: chihou-jichi-hou-art-199-p2-kou depends_on: chihou-jichi-hou-art-199-p2-zen -->
+この場合において、当該監査の実施に関し必要な事項は、政令で定める。
+
+### 第百九十九条第三項
+
+<!-- segment: simple id: chihou-jichi-hou-art-199-p3 -->
+監査委員は、第一項又は前項の規定による監査をするに当たつては、当該普通地方公共団体の財務に関する事務の執行及び当該普通地方公共団体の経営に係る事業の管理又は同項に規定する事務の執行が第二条第十四項及び第十五項の規定の趣旨にのつとつてなされているかどうかについて、特に、意を用いなければならない。
+
+### 第百九十九条第四項
+
+<!-- segment: simple id: chihou-jichi-hou-art-199-p4 -->
+監査委員は、毎会計年度少なくとも一回以上期日を定めて第一項の規定による監査をしなければならない。
+
+### 第百九十九条第五項
+
+<!-- segment: simple id: chihou-jichi-hou-art-199-p5 -->
+監査委員は、前項に定める場合のほか、必要があると認めるときは、いつでも第一項の規定による監査をすることができる。
+
+### 第百九十九条第六項
+
+<!-- segment: simple id: chihou-jichi-hou-art-199-p6 -->
+監査委員は、当該普通地方公共団体の長から当該普通地方公共団体の事務の執行に関し監査の要求があつたときは、その要求に係る事項について監査をしなければならない。
+
+### 第百九十九条第七項
+
+<!-- segment: simple id: chihou-jichi-hou-art-199-p7 -->
+監査委員は、必要があると認めるとき、又は普通地方公共団体の長の要求があるときは、当該普通地方公共団体が補助金、交付金、負担金、貸付金、損失補償、利子補給その他の財政的援助を与えているものの出納その他の事務の執行で当該財政的援助に係るものを監査することができる。当該普通地方公共団体が出資しているもので政令で定めるもの、当該普通地方公共団体が借入金の元金又は利子の支払を保証しているもの、当該普通地方公共団体が受益権を有する信託で政令で定めるものの受託者及び当該普通地方公共団体が第二百四十四条の二第三項の規定に基づき公の施設の管理を行わせているものについても、同様とする。
+
+### 第百九十九条第八項
+
+<!-- segment: simple id: chihou-jichi-hou-art-199-p8 -->
+監査委員は、監査のため必要があると認めるときは、関係人の出頭を求め、若しくは関係人について調査し、若しくは関係人に対し帳簿、書類その他の記録の提出を求め、又は学識経験を有する者等から意見を聴くことができる。
+
+### 第百九十九条第九項
+
+<!-- segment: simple id: chihou-jichi-hou-art-199-p9 -->
+監査委員は、第九十八条第二項の請求若しくは第六項の要求に係る事項についての監査又は第一項、第二項若しくは第七項の規定による監査について、監査の結果に関する報告を決定し、これを普通地方公共団体の議会及び長並びに関係のある教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員に提出するとともに、これを公表しなければならない。
+
+### 第百九十九条第十項
+
+<!-- segment: zen_dan id: chihou-jichi-hou-art-199-p10-zen -->
+監査委員は、監査の結果に基づいて必要があると認めるときは、当該普通地方公共団体の組織及び運営の合理化に資するため、第七十五条第三項又は前項の規定による監査の結果に関する報告に添えてその意見を提出することができる。<!-- segment: kou_dan id: chihou-jichi-hou-art-199-p10-kou depends_on: chihou-jichi-hou-art-199-p10-zen -->
+この場合において、監査委員は、当該意見の内容を公表しなければならない。
+
+### 第百九十九条第十一項
+
+<!-- segment: zen_dan id: chihou-jichi-hou-art-199-p11-zen -->
+監査委員は、第七十五条第三項の規定又は<!-- segment: simple id: chihou-jichi-hou-art-199-p12 -->
+第九項の規定による監査の結果に関する報告のうち、普通地方公共団体の議会、長、教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員において特に措置を講ずる必要があると認める事項については、その者に対し、理由を付して、必要な措置を講ずべきことを勧告することができる。<!-- segment: kou_dan id: chihou-jichi-hou-art-199-p11-kou depends_on: chihou-jichi-hou-art-199-p11-zen -->
+この場合において、監査委員は、当該勧告の内容を公表しなければならない。
+
+### 第百九十九条第十二項
+
+第九項の規定による監査の結果に関する報告の決定、第十項の規定による意見の決定又は前項の規定による勧告の決定は、監査委員の合議によるものとする。
+
+### 第百九十九条第十三項
+
+<!-- segment: simple id: chihou-jichi-hou-art-199-p13 -->
+監査委員は、第九項の規定による監査の結果に関する報告の決定について、各監査委員の意見が一致しないことにより、前項の合議により決定することができない事項がある場合には、その旨及び当該事項についての各監査委員の意見を普通地方公共団体の議会及び長並びに関係のある教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員に提出するとともに、これらを公表しなければならない。
+
+### 第百九十九条第十四項
+
+<!-- segment: zen_dan id: chihou-jichi-hou-art-199-p14-zen -->
+監査委員から第七十五条第三項の規定又は第九項の規定による監査の結果に関する報告の提出があつた場合において、当該監査の結果に関する報告の提出を受けた普通地方公共団体の議会、長、教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員は、当該監査の結果に基づき、又は当該監査の結果を参考として措置（次項に規定する措置を除く。以下この項において同じ。）を講じたときは、当該措置の内容を監査委員に通知しなければならない。<!-- segment: kou_dan id: chihou-jichi-hou-art-199-p14-kou depends_on: chihou-jichi-hou-art-199-p14-zen -->
+<!-- segment: kou_dan id: chihou-jichi-hou-art-199-p15-kou depends_on: chihou-jichi-hou-art-199-p15-zen -->
+この場合において、監査委員は、当該措置の内容を公表しなければならない。
+
+### 第百九十九条第十五項
+
+<!-- segment: zen_dan id: chihou-jichi-hou-art-199-p15-zen -->
+監査委員から第十一項の規定による勧告を受けた普通地方公共団体の議会、長、教育委員会、選挙管理委員会、人事委員会若しくは公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会又は委員は、当該勧告に基づき必要な措置を講ずるとともに、当該措置の内容を監査委員に通知しなければならない。この場合において、監査委員は、当該措置の内容を公表しなければならない。

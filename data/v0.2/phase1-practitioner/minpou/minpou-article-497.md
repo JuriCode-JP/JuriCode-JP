@@ -1,0 +1,49 @@
+---
+law_id: 129AC0000000089
+law_name_ja: 民法
+law_name_en: Civil Code
+article_number: '497'
+article_id: minpou-art-497
+version_date: '1896-04-27'
+source_url: https://laws.e-gov.go.jp/law/129AC0000000089
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-497-p1-hashira
+    type: hashira
+    text: 弁済者は、次に掲げる場合には、裁判所の許可を得て、弁済の目的物を競売に付し、その代金を供託することができる。
+    modality: kanou_kenri
+cases: []
+amendments: []
+tags:
+- phase1-practitioner
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　債権
+  shou: 1
+  shou_name_ja: 第一章　総則
+  setsu: 6
+  setsu_name_ja: 第六節　債権の消滅
+  kan: 1
+  kan_name_ja: 第一款　弁済
+  moku: 2
+  moku_name_ja: 第二目　弁済の目的物の供託
+---
+
+# 民法 第497条(（供託に適しない物等）)
+
+## 原文 (日本語)
+
+### 第四百九十七条
+
+<!-- segment: hashira id: minpou-art-497-p1-hashira -->
+弁済者は、次に掲げる場合には、裁判所の許可を得て、弁済の目的物を競売に付し、その代金を供託することができる。

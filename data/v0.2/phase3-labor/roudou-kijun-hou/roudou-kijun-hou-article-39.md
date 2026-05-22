@@ -1,0 +1,205 @@
+---
+law_id: 322AC0000000049
+law_name_ja: 労働基準法
+law_name_en: (English name pending)
+article_number: '39'
+article_id: roudou-kijun-hou-art-39
+version_date: '1947-04-07'
+source_url: https://laws.e-gov.go.jp/law/322AC0000000049
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p1
+    type: simple
+    text: 使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない。
+    modality: gimu
+- number: 2
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p2-honbun
+    type: honbun
+    text: 使用者は、一年六箇月以上継続勤務した労働者に対しては、雇入れの日から起算して六箇月を超えて継続勤務する日（以下「六箇月経過日」という。）から起算した継続勤務年数一年ごとに、前項の日数に、次の表の上欄に掲げる六箇月経過日から起算した継続勤務年数の区分に応じ同表の下欄に掲げる労働日を加算した有給休暇を与えなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: roudou-kijun-hou-art-39-p2-tadashi
+    type: tadashi
+    text: ただし、継続勤務した期間を六箇月経過日から一年ごとに区分した各期間（最後に一年未満の期間を生じたときは、当該期間）の初日の前日の属する期間において出勤した日数が全労働日の八割未満である者に対しては、当該初日以後の一年間においては有給休暇を与えることを要しない。
+    modality: unspecified
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p3-hashira
+    type: hashira
+    text: 次に掲げる労働者（一週間の所定労働時間が厚生労働省令で定める時間以上の者を除く。）の有給休暇の日数については、前二項の規定にかかわらず、これらの規定による有給休暇の日数を基準とし、通常の労働者の一週間の所定労働日数として厚生労働省令で定める日数（第一号において「通常の労働者の週所定労働日数」という。）と当該労働者の一週間の所定労働日数又は一週間当たりの平均所定労働日数との比率を考慮して厚生労働省令で定める日数とする。
+    modality: gimu
+    references:
+    - 前二項
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p4-hashira
+    type: hashira
+    text: 使用者は、当該事業場に、労働者の過半数で組織する労働組合があるときはその労働組合、労働者の過半数で組織する労働組合がないときは労働者の過半数を代表する者との書面による協定により、次に掲げる事項を定めた場合において、第一号に掲げる労働者の範囲に属する労働者が有給休暇を時間を単位として請求したときは、前三項の規定による有給休暇の日数のうち第二号に掲げる日数については、これらの規定にかかわらず、当該協定で定めるところにより時間を単位として有給休暇を与えることができる。
+    modality: kanou_kenri
+    references:
+    - 前三項
+- number: 5
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p5-honbun
+    type: honbun
+    text: 使用者は、前各項の規定による有給休暇を労働者の請求する時季に与えなければならない。
+    modality: gimu
+  - id: roudou-kijun-hou-art-39-p5-tadashi
+    type: tadashi
+    text: ただし、請求された時季に有給休暇を与えることが事業の正常な運営を妨げる場合においては、他の時季にこれを与えることができる。
+    modality: kanou_kenri
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p6
+    type: tokusoku
+    text: 使用者は、当該事業場に、労働者の過半数で組織する労働組合がある場合においてはその労働組合、労働者の過半数で組織する労働組合がない場合においては労働者の過半数を代表する者との書面による協定により、第一項から第三項までの規定による有給休暇を与える時季に関する定めをしたときは、これらの規定による有給休暇の日数のうち五日を超える部分については、前項の規定にかかわらず、その定めにより有給休暇を与えることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
+- number: 7
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p7-honbun
+    type: honbun
+    text: 使用者は、第一項から第三項までの規定による有給休暇（これらの規定により使用者が与えなければならない有給休暇の日数が十労働日以上である労働者に係るものに限る。以下この項及び次項において同じ。）の日数のうち五日については、基準日（継続勤務した期間を六箇月経過日から一年ごとに区分した各期間（最後に一年未満の期間を生じたときは、当該期間）の初日をいう。以下この項において同じ。）から一年以内の期間に、労働者ごとにその時季を定めることにより与えなければならない。
+    modality: gimu
+    references:
+    - 次項
+  - id: roudou-kijun-hou-art-39-p7-tadashi
+    type: tadashi
+    text: ただし、第一項から第三項までの規定による有給休暇を当該有給休暇に係る基準日より前の日から与えることとしたときは、厚生労働省令で定めるところにより、労働者ごとにその時季を定めることにより与えなければならない。
+    modality: gimu
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p8
+    type: tokusoku
+    text: 前項の規定にかかわらず、第五項又は第六項の規定により第一項から第三項までの規定による有給休暇を与えた場合においては、当該与えた有給休暇の日数（当該日数が五日を超える場合には、五日とする。）分については、時季を定めることにより与えることを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
+- number: 9
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p9-honbun
+    type: honbun
+    text: 使用者は、第一項から第三項までの規定による有給休暇の期間又は第四項の規定による有給休暇の時間については、就業規則その他これに準ずるもので定めるところにより、それぞれ、平均賃金若しくは所定労働時間労働した場合に支払われる通常の賃金又はこれらの額を基準として厚生労働省令で定めるところにより算定した額の賃金を支払わなければならない。
+    modality: gimu
+  - id: roudou-kijun-hou-art-39-p9-tadashi
+    type: tadashi
+    text: ただし、当該事業場に、労働者の過半数で組織する労働組合がある場合においてはその労働組合、労働者の過半数で組織する労働組合がない場合においては労働者の過半数を代表する者との書面による協定により、その期間又はその時間について、それぞれ、健康保険法（大正十一年法律第七十号）第四十条第一項に規定する標準報酬月額の三十分の一に相当する金額（その金額に、五円未満の端数があるときは、これを切り捨て、五円以上十円未満の端数があるときは、これを十円に切り上げるものとする。）又は当該金額を基準として厚生労働省令で定めるところにより算定した金額を支払う旨を定めたときは、これによらなければならない。
+    modality: gimu
+- number: 10
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-39-p10
+    type: simple
+    text: 労働者が業務上負傷し、又は疾病にかかり療養のために休業した期間及び育児休業、介護休業等育児又は家族介護を行う労働者の福祉に関する法律第二条第一号に規定する育児休業又は同条第二号に規定する介護休業をした期間並びに産前産後の女性が第六十五条の規定によつて休業した期間は、第一項及び第二項の規定の適用については、これを出勤したものとみなす。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　労働時間、休憩、休日及び年次有給休暇
+---
+
+# 労働基準法 第39条(（年次有給休暇）)
+
+## 原文 (日本語)
+
+### 第三十九条第一項
+
+<!-- segment: simple id: roudou-kijun-hou-art-39-p1 -->
+使用者は、その雇入れの日から起算して六箇月間継続勤務し全労働日の八割以上出勤した労働者に対して、継続し、又は分割した十労働日の有給休暇を与えなければならない。
+
+### 第三十九条第二項
+
+<!-- segment: honbun id: roudou-kijun-hou-art-39-p2-honbun -->
+使用者は、一年六箇月以上継続勤務した労働者に対しては、雇入れの日から起算して六箇月を超えて継続勤務する日（以下「六箇月経過日」という。）から起算した継続勤務年数一年ごとに、前項の日数に、次の表の上欄に掲げる六箇月経過日から起算した継続勤務年数の区分に応じ同表の下欄に掲げる労働日を加算した有給休暇を与えなければならない。<!-- segment: tadashi id: roudou-kijun-hou-art-39-p2-tadashi -->
+ただし、継続勤務した期間を六箇月経過日から一年ごとに区分した各期間（最後に一年未満の期間を生じたときは、当該期間）の初日の前日の属する期間において出勤した日数が全労働日の八割未満である者に対しては、当該初日以後の一年間においては有給休暇を与えることを要しない。
+
+### 第三十九条第三項
+
+<!-- segment: hashira id: roudou-kijun-hou-art-39-p3-hashira -->
+次に掲げる労働者（一週間の所定労働時間が厚生労働省令で定める時間以上の者を除く。）の有給休暇の日数については、前二項の規定にかかわらず、これらの規定による有給休暇の日数を基準とし、通常の労働者の一週間の所定労働日数として厚生労働省令で定める日数（第一号において「通常の労働者の週所定労働日数」という。）と当該労働者の一週間の所定労働日数又は一週間当たりの平均所定労働日数との比率を考慮して厚生労働省令で定める日数とする。
+
+### 第三十九条第四項
+
+<!-- segment: hashira id: roudou-kijun-hou-art-39-p4-hashira -->
+<!-- segment: tokusoku id: roudou-kijun-hou-art-39-p6 override_flag: true override_target: 前項 -->
+使用者は、当該事業場に、労働者の過半数で組織する労働組合があるときはその労働組合、労働者の過半数で組織する労働組合がないときは労働者の過半数を代表する者との書面による協定により、次に掲げる事項を定めた場合において、第一号に掲げる労働者の範囲に属する労働者が有給休暇を時間を単位として請求したときは、前三項の規定による有給休暇の日数のうち第二号に掲げる日数については、これらの規定にかかわらず、当該協定で定めるところにより時間を単位として有給休暇を与えることができる。
+
+### 第三十九条第五項
+
+<!-- segment: honbun id: roudou-kijun-hou-art-39-p5-honbun -->
+使用者は、前各項の規定による有給休暇を労働者の請求する時季に与えなければならない。<!-- segment: tadashi id: roudou-kijun-hou-art-39-p5-tadashi -->
+ただし、請求された時季に有給休暇を与えることが事業の正常な運営を妨げる場合においては、他の時季にこれを与えることができる。
+
+### 第三十九条第六項
+
+使用者は、当該事業場に、労働者の過半数で組織する労働組合がある場合においてはその労働組合、労働者の過半数で組織する労働組合がない場合においては労働者の過半数を代表する者との書面による協定により、第一項から第三項までの規定による有給休暇を与える時季に関する定めをしたときは、これらの規定による有給休暇の日数のうち五日を超える部分については、前項の規定にかかわらず、その定めにより有給休暇を与えることができる。
+
+### 第三十九条第七項
+
+<!-- segment: honbun id: roudou-kijun-hou-art-39-p7-honbun -->
+<!-- segment: honbun id: roudou-kijun-hou-art-39-p9-honbun -->
+使用者は、第一項から第三項までの規定による有給休暇（これらの規定により使用者が与えなければならない有給休暇の日数が十労働日以上である労働者に係るものに限る。以下この項及び次項において同じ。）の日数のうち五日については、基準日（継続勤務した期間を六箇月経過日から一年ごとに区分した各期間（最後に一年未満の期間を生じたときは、当該期間）の初日をいう。以下この項において同じ。）から一年以内の期間に、労働者ごとにその時季を定めることにより与えなければならない。<!-- segment: tadashi id: roudou-kijun-hou-art-39-p7-tadashi -->
+ただし、第一項から第三項までの規定による有給休暇を当該有給休暇に係る基準日より前の日から与えることとしたときは、厚生労働省令で定めるところにより、労働者ごとにその時季を定めることにより与えなければならない。
+
+### 第三十九条第八項
+
+<!-- segment: tokusoku id: roudou-kijun-hou-art-39-p8 override_flag: true override_target: 前項 -->
+前項の規定にかかわらず、第五項又は第六項の規定により第一項から第三項までの規定による有給休暇を与えた場合においては、当該与えた有給休暇の日数（当該日数が五日を超える場合には、五日とする。）分については、時季を定めることにより与えることを要しない。
+
+### 第三十九条第九項
+
+使用者は、第一項から第三項までの規定による有給休暇の期間又は第四項の規定による有給休暇の時間については、就業規則その他これに準ずるもので定めるところにより、それぞれ、平均賃金若しくは所定労働時間労働した場合に支払われる通常の賃金又はこれらの額を基準として厚生労働省令で定めるところにより算定した額の賃金を支払わなければならない。<!-- segment: tadashi id: roudou-kijun-hou-art-39-p9-tadashi -->
+ただし、当該事業場に、労働者の過半数で組織する労働組合がある場合においてはその労働組合、労働者の過半数で組織する労働組合がない場合においては労働者の過半数を代表する者との書面による協定により、その期間又はその時間について、それぞれ、健康保険法（大正十一年法律第七十号）第四十条第一項に規定する標準報酬月額の三十分の一に相当する金額（その金額に、五円未満の端数があるときは、これを切り捨て、五円以上十円未満の端数があるときは、これを十円に切り上げるものとする。）又は当該金額を基準として厚生労働省令で定めるところにより算定した金額を支払う旨を定めたときは、これによらなければならない。
+
+### 第三十九条第十項
+
+<!-- segment: simple id: roudou-kijun-hou-art-39-p10 -->
+労働者が業務上負傷し、又は疾病にかかり療養のために休業した期間及び育児休業、介護休業等育児又は家族介護を行う労働者の福祉に関する法律第二条第一号に規定する育児休業又は同条第二号に規定する介護休業をした期間並びに産前産後の女性が第六十五条の規定によつて休業した期間は、第一項及び第二項の規定の適用については、これを出勤したものとみなす。

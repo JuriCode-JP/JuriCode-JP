@@ -1,0 +1,57 @@
+---
+law_id: 322AC0000000067
+law_name_ja: 地方自治法
+law_name_en: Local Autonomy Act
+article_number: '15'
+article_id: chihou-jichi-hou-art-15
+version_date: '1947-04-17'
+source_url: https://laws.e-gov.go.jp/law/322AC0000000067
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-15-p1
+    type: simple
+    text: 普通地方公共団体の長は、法令に違反しない限りにおいて、その権限に属する事務に関し、規則を制定することができる。
+    modality: kanou_kenri
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-jichi-hou-art-15-p2
+    type: simple
+    text: 普通地方公共団体の長は、法令に特別の定めがあるものを除くほか、普通地方公共団体の規則中に、規則に違反した者に対し、五万円以下の過料を科する旨の規定を設けることができる。
+    modality: kanou_kenri
+cases: []
+amendments: []
+tags:
+- phase1-administrative
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　普通地方公共団体
+  shou: 3
+  shou_name_ja: 第三章　条例及び規則
+---
+
+# 地方自治法 第15条
+
+## 原文 (日本語)
+
+### 第十五条第一項
+
+<!-- segment: simple id: chihou-jichi-hou-art-15-p1 -->
+普通地方公共団体の長は、法令に違反しない限りにおいて、その権限に属する事務に関し、規則を制定することができる。
+
+### 第十五条第二項
+
+<!-- segment: simple id: chihou-jichi-hou-art-15-p2 -->
+普通地方公共団体の長は、法令に特別の定めがあるものを除くほか、普通地方公共団体の規則中に、規則に違反した者に対し、五万円以下の過料を科する旨の規定を設けることができる。

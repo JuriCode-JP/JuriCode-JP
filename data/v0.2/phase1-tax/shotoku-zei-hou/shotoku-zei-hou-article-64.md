@@ -1,0 +1,81 @@
+---
+law_id: 340AC0000000033
+law_name_ja: 所得税法
+law_name_en: (English name pending)
+article_number: '64'
+article_id: shotoku-zei-hou-art-64
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-64-p1
+    type: simple
+    text: その年分の各種所得の金額（事業所得の金額を除く。以下この項において同じ。）の計算の基礎となる収入金額若しくは総収入金額（不動産所得又は山林所得を生ずべき事業から生じたものを除く。以下この項において同じ。）の全部若しくは一部を回収することができないこととなつた場合又は政令で定める事由により当該収入金額若しくは総収入金額の全部若しくは一部を返還すべきこととなつた場合には、政令で定めるところにより、当該各種所得の金額の合計額のうち、その回収することができないこととなつた金額又は返還すべきこととなつた金額に対応する部分の金額は、当該各種所得の金額の計算上、なかつたものとみなす。
+    modality: unspecified
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-64-p2
+    type: simple
+    text: 保証債務を履行するため資産（第三十三条第二項第一号（譲渡所得に含まれない所得）の規定に該当するものを除く。）の譲渡（同条第一項に規定する政令で定める行為を含む。）があつた場合において、その履行に伴う求償権の全部又は一部を行使することができないこととなつたときは、その行使することができないこととなつた金額（不動産所得の金額、事業所得の金額又は山林所得の金額の計算上必要経費に算入される金額を除く。）を前項に規定する回収することができないこととなつた金額とみなして、同項の規定を適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-64-p3
+    type: simple
+    text: 前項の規定は、確定申告書、修正申告書又は更正請求書に同項の規定の適用を受ける旨の記載があり、かつ、同項の譲渡をした資産の種類その他財務省令で定める事項を記載した書類の添付がある場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 2
+  shou_name_ja: 第二章　課税標準及びその計算並びに所得控除
+  setsu: 2
+  setsu_name_ja: 第二節　各種所得の金額の計算
+  kan: 6
+  kan_name_ja: 第六款　事業を廃止した場合等の所得計算の特例
+---
+
+# 所得税法 第64条(（資産の譲渡代金が回収不能となつた場合等の所得計算の特例）)
+
+## 原文 (日本語)
+
+### 第六十四条第一項
+
+<!-- segment: simple id: shotoku-zei-hou-art-64-p1 -->
+その年分の各種所得の金額（事業所得の金額を除く。以下この項において同じ。）の計算の基礎となる収入金額若しくは総収入金額（不動産所得又は山林所得を生ずべき事業から生じたものを除く。以下この項において同じ。）の全部若しくは一部を回収することができないこととなつた場合又は政令で定める事由により当該収入金額若しくは総収入金額の全部若しくは一部を返還すべきこととなつた場合には、政令で定めるところにより、当該各種所得の金額の合計額のうち、その回収することができないこととなつた金額又は返還すべきこととなつた金額に対応する部分の金額は、当該各種所得の金額の計算上、なかつたものとみなす。
+
+### 第六十四条第二項
+
+<!-- segment: simple id: shotoku-zei-hou-art-64-p2 -->
+保証債務を履行するため資産（第三十三条第二項第一号（譲渡所得に含まれない所得）の規定に該当するものを除く。）の譲渡（同条第一項に規定する政令で定める行為を含む。）があつた場合において、その履行に伴う求償権の全部又は一部を行使することができないこととなつたときは、その行使することができないこととなつた金額（不動産所得の金額、事業所得の金額又は山林所得の金額の計算上必要経費に算入される金額を除く。）を前項に規定する回収することができないこととなつた金額とみなして、同項の規定を適用する。
+
+### 第六十四条第三項
+
+<!-- segment: simple id: shotoku-zei-hou-art-64-p3 -->
+前項の規定は、確定申告書、修正申告書又は更正請求書に同項の規定の適用を受ける旨の記載があり、かつ、同項の譲渡をした資産の種類その他財務省令で定める事項を記載した書類の添付がある場合に限り、適用する。

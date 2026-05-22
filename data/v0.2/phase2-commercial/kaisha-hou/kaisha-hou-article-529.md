@@ -1,0 +1,52 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '529'
+article_id: kaisha-hou-art-529
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-529-p1-honbun
+    type: honbun
+    text: 監督委員が二人以上あるときは、共同してその職務を行う。
+    modality: unspecified
+  - id: kaisha-hou-art-529-p1-tadashi
+    type: tadashi
+    text: ただし、裁判所の許可を得て、それぞれ単独にその職務を行い、又は職務を分掌することができる。
+    modality: kanou_kenri
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　株式会社
+  shou: 9
+  shou_name_ja: 第九章　清算
+  setsu: 2
+  setsu_name_ja: 第二節　特別清算
+  kan: 4
+  kan_name_ja: 第四款　監督委員
+---
+
+# 会社法 第529条(（二人以上の監督委員の職務執行）)
+
+## 原文 (日本語)
+
+### 第五百二十九条
+
+<!-- segment: honbun id: kaisha-hou-art-529-p1-honbun -->
+監督委員が二人以上あるときは、共同してその職務を行う。<!-- segment: tadashi id: kaisha-hou-art-529-p1-tadashi -->
+ただし、裁判所の許可を得て、それぞれ単独にその職務を行い、又は職務を分掌することができる。

@@ -1,0 +1,96 @@
+---
+law_id: 340AC0000000034
+law_name_ja: 法人税法
+law_name_en: (English name pending)
+article_number: '13'
+article_id: houjin-zei-hou-art-13
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-13-p1-honbun
+    type: honbun
+    text: この法律において「事業年度」とは、法人の財産及び損益の計算の単位となる期間（以下この章において「会計期間」という。）で、法令で定めるもの又は法人の定款、寄附行為、規則、規約その他これらに準ずるもの（以下この章において「定款等」という。）に定めるものをいい、法令又は定款等に会計期間の定めがない場合には、次項の規定により納税地の所轄税務署長に届け出た会計期間又は第三項の規定により納税地の所轄税務署長が指定した会計期間若しくは第四項に規定する期間をいう。
+    modality: teigi
+    references:
+    - 次項
+  - id: houjin-zei-hou-art-13-p1-tadashi
+    type: tadashi
+    text: ただし、これらの期間が一年を超える場合は、当該期間をその開始の日以後一年ごとに区分した各期間（最後に一年未満の期間を生じたときは、その一年未満の期間）をいう。
+    modality: teigi
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-13-p2-hashira
+    type: hashira
+    text: 法令及び定款等に会計期間の定めがない法人は、次の各号に掲げる法人の区分に応じ当該各号に定める日以後二月以内に、会計期間を定めてこれを納税地の所轄税務署長に届け出なければならない。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-13-p3
+    type: simple
+    text: 前項の規定による届出をすべき法人（人格のない社団等を除く。）がその届出をしない場合には、納税地の所轄税務署長は、その会計期間を指定し、当該法人に対し、書面によりその旨を通知する。
+    modality: tetsuduki
+    references:
+    - 前項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-13-p4
+    type: simple
+    text: 第二項の規定による届出をすべき人格のない社団等がその届出をしない場合には、その人格のない社団等の会計期間は、その年の一月一日（同項第一号イに定める日又は同項第二号に規定する国内源泉所得のうち収益事業から生ずるものを有することとなつた日の属する年については、これらの日）から十二月三十一日までの期間とする。
+    modality: gimu
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 1
+  hen_name_ja: 第一編　総則
+  shou: 5
+  shou_name_ja: 第五章　事業年度等
+---
+
+# 法人税法 第13条(（事業年度の意義）)
+
+## 原文 (日本語)
+
+### 第十三条第一項
+
+<!-- segment: honbun id: houjin-zei-hou-art-13-p1-honbun -->
+この法律において「事業年度」とは、法人の財産及び損益の計算の単位となる期間（以下この章において「会計期間」という。）で、法令で定めるもの又は法人の定款、寄附行為、規則、規約その他これらに準ずるもの（以下この章において「定款等」という。）に定めるものをいい、法令又は定款等に会計期間の定めがない場合には、次項の規定により納税地の所轄税務署長に届け出た会計期間又は第三項の規定により納税地の所轄税務署長が指定した会計期間若しくは第四項に規定する期間をいう。<!-- segment: tadashi id: houjin-zei-hou-art-13-p1-tadashi -->
+ただし、これらの期間が一年を超える場合は、当該期間をその開始の日以後一年ごとに区分した各期間（最後に一年未満の期間を生じたときは、その一年未満の期間）をいう。
+
+### 第十三条第二項
+
+<!-- segment: hashira id: houjin-zei-hou-art-13-p2-hashira -->
+法令及び定款等に会計期間の定めがない法人は、次の各号に掲げる法人の区分に応じ当該各号に定める日以後二月以内に、会計期間を定めてこれを納税地の所轄税務署長に届け出なければならない。
+
+### 第十三条第三項
+
+<!-- segment: simple id: houjin-zei-hou-art-13-p3 -->
+前項の規定による届出をすべき法人（人格のない社団等を除く。）がその届出をしない場合には、納税地の所轄税務署長は、その会計期間を指定し、当該法人に対し、書面によりその旨を通知する。
+
+### 第十三条第四項
+
+<!-- segment: simple id: houjin-zei-hou-art-13-p4 -->
+第二項の規定による届出をすべき人格のない社団等がその届出をしない場合には、その人格のない社団等の会計期間は、その年の一月一日（同項第一号イに定める日又は同項第二号に規定する国内源泉所得のうち収益事業から生ずるものを有することとなつた日の属する年については、これらの日）から十二月三十一日までの期間とする。

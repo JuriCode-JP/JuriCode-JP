@@ -1,0 +1,67 @@
+---
+law_id: 129AC0000000089
+law_name_ja: 民法
+law_name_en: Civil Code
+article_number: '443'
+article_id: minpou-art-443
+version_date: '1896-04-27'
+source_url: https://laws.e-gov.go.jp/law/129AC0000000089
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-443-p1-zen
+    type: zen_dan
+    text: 他の連帯債務者があることを知りながら、連帯債務者の一人が共同の免責を得ることを他の連帯債務者に通知しないで弁済をし、その他自己の財産をもって共同の免責を得た場合において、他の連帯債務者は、債権者に対抗することができる事由を有していたときは、その負担部分について、その事由をもってその免責を得た連帯債務者に対抗することができる。
+    modality: kanou_kenri
+  - id: minpou-art-443-p1-kou
+    type: kou_dan
+    text: この場合において、相殺をもってその免責を得た連帯債務者に対抗したときは、その連帯債務者は、債権者に対し、相殺によって消滅すべきであった債務の履行を請求することができる。
+    modality: kanou_kenri
+    depends_on: minpou-art-443-p1-zen
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-443-p2
+    type: simple
+    text: 弁済をし、その他自己の財産をもって共同の免責を得た連帯債務者が、他の連帯債務者があることを知りながらその免責を得たことを他の連帯債務者に通知することを怠ったため、他の連帯債務者が善意で弁済その他自己の財産をもって免責を得るための行為をしたときは、当該他の連帯債務者は、その免責を得るための行為を有効であったものとみなすことができる。
+    modality: kanou_kenri
+cases: []
+amendments: []
+tags:
+- phase1-practitioner
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　債権
+  shou: 1
+  shou_name_ja: 第一章　総則
+  setsu: 3
+  setsu_name_ja: 第三節　多数当事者の債権及び債務
+  kan: 4
+  kan_name_ja: 第四款　連帯債務
+---
+
+# 民法 第443条(（通知を怠った連帯債務者の求償の制限）)
+
+## 原文 (日本語)
+
+### 第四百四十三条第一項
+
+<!-- segment: zen_dan id: minpou-art-443-p1-zen -->
+他の連帯債務者があることを知りながら、連帯債務者の一人が共同の免責を得ることを他の連帯債務者に通知しないで<!-- segment: simple id: minpou-art-443-p2 -->
+弁済をし、その他自己の財産をもって共同の免責を得た場合において、他の連帯債務者は、債権者に対抗することができる事由を有していたときは、その負担部分について、その事由をもってその免責を得た連帯債務者に対抗することができる。<!-- segment: kou_dan id: minpou-art-443-p1-kou depends_on: minpou-art-443-p1-zen -->
+この場合において、相殺をもってその免責を得た連帯債務者に対抗したときは、その連帯債務者は、債権者に対し、相殺によって消滅すべきであった債務の履行を請求することができる。
+
+### 第四百四十三条第二項
+
+弁済をし、その他自己の財産をもって共同の免責を得た連帯債務者が、他の連帯債務者があることを知りながらその免責を得たことを他の連帯債務者に通知することを怠ったため、他の連帯債務者が善意で弁済その他自己の財産をもって免責を得るための行為をしたときは、当該他の連帯債務者は、その免責を得るための行為を有効であったものとみなすことができる。

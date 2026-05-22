@@ -1,0 +1,605 @@
+---
+law_id: 325AC0000000073
+law_name_ja: 相続税法
+law_name_en: (English name pending)
+article_number: '42'
+article_id: souzoku-zei-hou-art-42
+version_date: '1950-03-31'
+source_url: https://laws.e-gov.go.jp/law/325AC0000000073
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p1
+    type: simple
+    text: 前条第一項の規定による物納の許可を申請しようとする者は、その物納を求めようとする相続税の納期限までに、又は納付すべき日に、金銭で納付することを困難とする金額及びその困難とする事由、物納を求めようとする税額、物納に充てようとする財産の種類及び価額その他の財務省令で定める事項を記載した申請書に物納の手続に必要な書類として財務省令で定めるもの（以下この章において「物納手続関係書類」という。）を添付し、これを納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p2
+    type: simple
+    text: 税務署長は、前項の規定による申請書の提出があつた場合においては、当該申請者及び当該申請に係る事項について前条の規定に該当するか否かの調査を行い、その調査に基づき、当該申請書の提出期限の翌日から起算して三月以内に当該申請に係る税額の全部又は一部について物納財産ごとに当該申請に係る物納の許可をし、又は当該申請の却下をする。
+    modality: unspecified
+    references:
+    - 前項
+    - 前条
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p3
+    type: simple
+    text: 税務署長は、前項の規定により許可をし、又は却下をした場合においては、当該許可に係る税額及び物納財産又は当該却下をした旨及びその理由を記載した書面により、これを当該申請者に通知する。
+    modality: tetsuduki
+    references:
+    - 前項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p4-zen
+    type: zen_dan
+    text: 前条第一項の規定による物納の許可を申請しようとする者は、物納手続関係書類の全部又は一部を第一項の申請書の提出期限までに当該申請書に添付して提出することができない場合には、政令で定めるところにより、その旨、当該物納手続関係書類を提出する日その他財務省令で定める事項を記載した届出書（次項及び第十五項において「物納手続関係書類提出期限延長届出書」という。）を納税地の所轄税務署長に提出することができる。
+    modality: kanou_kenri
+    references:
+    - 次項
+    - 前条
+  - id: souzoku-zei-hou-art-42-p4-kou
+    type: kou_dan
+    text: この場合において、当該提出する日が記載されていないときは、当該提出期限の翌日から起算して三月を経過する日が記載されているものとみなす。
+    modality: unspecified
+    depends_on: souzoku-zei-hou-art-42-p4-zen
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p5
+    type: simple
+    text: 前項の規定により当該申請者が物納手続関係書類提出期限延長届出書を提出した場合には、物納手続関係書類（当該物納手続関係書類提出期限延長届出書に係るものに限る。次項において同じ。）の提出期限は、当該物納手続関係書類提出期限延長届出書に記載された当該物納手続関係書類を提出する日（その日が前項の提出期限の翌日から起算して三月を経過する日後である場合には、当該経過する日）とする。
+    modality: gimu
+    references:
+    - 前項
+    - 次項
+- number: 6
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p6-honbun
+    type: honbun
+    text: 前二項（この項の規定により読み替えて適用する場合を含む。）の規定の適用を受けた者が前項に規定する提出する日までに物納手続関係書類を提出することができない場合における第四項の規定の適用については、同項中「第一項の申請書の提出期限までに当該申請書に添付して提出することができない場合」とあるのは、「次項に規定する提出する日までに同項の物納手続関係書類を提出することができない場合」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前二項
+    - 前項
+    - 次項
+  - id: souzoku-zei-hou-art-42-p6-tadashi
+    type: tadashi
+    text: ただし、当該物納手続関係書類の提出期限は、第一項の申請書の提出期限の翌日から起算して一年を経過する日後とすることはできない。
+    modality: kanou_negative
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p7
+    type: simple
+    text: 前三項の規定の適用がある場合における第二項の規定の適用については、同項中「当該申請書」とあるのは、「物納手続関係書類（第四項の物納手続関係書類提出期限延長届出書に係るものに限る。）」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前三項
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p8
+    type: simple
+    text: 税務署長は、第一項の規定による申請書の提出があつた場合において、当該申請書についてその記載に不備があること又は物納手続関係書類についてその記載に不備があること若しくはその提出がないことその他の政令で定める事由があるときは、当該申請者に対して当該申請書の訂正又は当該物納手続関係書類の訂正若しくは提出を求めることができる。
+    modality: kanou_kenri
+- number: 9
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p9
+    type: simple
+    text: 税務署長は、前項の規定により申請書の訂正又は物納手続関係書類の訂正若しくは提出を求める場合においては、その旨及びその理由を記載した書面により、これを当該申請者に通知する。
+    modality: tetsuduki
+    references:
+    - 前項
+- number: 10
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p10-zen
+    type: zen_dan
+    text: 第八項の規定により申請書の訂正又は物納手続関係書類の訂正若しくは提出を求められた当該申請者は、前項の規定による通知を受けた日の翌日から起算して二十日以内に当該申請書の訂正又は当該物納手続関係書類の訂正若しくは提出をしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: souzoku-zei-hou-art-42-p10-kou
+    type: kou_dan
+    text: この場合において、当該期間内に当該申請書の訂正又は当該物納手続関係書類の訂正若しくは提出をしなかつたときは、当該申請者は、当該期間を経過した日において物納の申請を取り下げたものとみなす。
+    modality: unspecified
+    depends_on: souzoku-zei-hou-art-42-p10-zen
+- number: 11
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p11-zen
+    type: zen_dan
+    text: 第八項の規定により物納手続関係書類の訂正又は提出を求められた当該申請者は、前項の経過した日の前日までに当該物納手続関係書類の訂正又は提出をすることができない場合には、政令で定めるところにより、その旨、当該物納手続関係書類の訂正又は提出をする日その他財務省令で定める事項を記載した届出書（次項において「物納手続関係書類補完期限延長届出書」という。）を納税地の所轄税務署長に提出することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 次項
+  - id: souzoku-zei-hou-art-42-p11-kou
+    type: kou_dan
+    text: この場合において、当該訂正又は提出をする日が記載されていないときは、当該経過した日から起算して三月を経過する日が記載されているものとみなす。
+    modality: unspecified
+    depends_on: souzoku-zei-hou-art-42-p11-zen
+- number: 12
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p12
+    type: simple
+    text: 前項の規定により当該申請者が物納手続関係書類補完期限延長届出書を提出した場合には、物納手続関係書類（当該物納手続関係書類補完期限延長届出書に係るものに限る。次項において同じ。）の訂正又は提出の期限は、当該物納手続関係書類補完期限延長届出書に記載された当該物納手続関係書類の訂正又は提出をする日（その日が前項の経過した日から起算して三月を経過する日後である場合には、当該経過する日）とする。
+    modality: gimu
+    references:
+    - 前項
+    - 次項
+- number: 13
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p13-honbun
+    type: honbun
+    text: 前二項（この項の規定により読み替えて適用する場合を含む。）の規定の適用を受けた者が前項に規定する訂正又は提出をする日までに物納手続関係書類の訂正又は提出をすることができない場合における第十一項の規定の適用については、同項中「前項の経過した日の前日」とあるのは、「次項に規定する訂正又は提出をする日」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前二項
+    - 前項
+    - 次項
+  - id: souzoku-zei-hou-art-42-p13-tadashi
+    type: tadashi
+    text: ただし、当該物納手続関係書類の訂正又は提出の期限は、第九項の規定による通知を受けた日の翌日から起算して一年を経過する日後とすることはできない。
+    modality: kanou_negative
+- number: 14
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p14
+    type: simple
+    text: 第八項又は前三項の規定の適用がある場合における第二項の規定の適用については、同項中「以内」とあるのは、「に第九項の規定による通知を申請者が受けた日の翌日から申請書（第八項の規定に係るものに限る。）の訂正の期限又は物納手続関係書類（第八項の規定に係るものに限る。）若しくは物納手続関係書類（第十一項の物納手続関係書類補完期限延長届出書に係るものに限る。）の訂正若しくは提出の期限（以下この項において「申請書等の提出期限」という。）までの期間（第九項の規定による通知が複数ある場合には、それぞれの通知を受けた日の翌日から当該それぞれの通知に係る申請書等の提出期限までの期間を合算した期間（これらの期間のうち重複する期間がある場合には、当該重複する期間を合算した期間を除いた期間）とする。）を加算した期間内」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前三項
+- number: 15
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p15
+    type: simple
+    text: 第八項の規定により物納手続関係書類の訂正又は提出が求められている場合において、当該物納手続関係書類に係る物納財産についての物納手続関係書類提出期限延長届出書が提出されているときは、第十二項及び第十三項ただし書の規定の適用については、第十二項中「前項の経過した日から起算して三月を経過する日後である場合には、当該経過する日」とあるのは「当該訂正又は提出が求められている物納手続関係書類に係る物納財産についての第四項の物納手続関係書類提出期限延長届出書による期限後である場合には、当該期限」と、第十三項ただし書中「第九項の規定による通知を受けた日の翌日から起算して一年を経過する日」とあるのは「当該訂正又は提出が求められている物納手続関係書類に係る物納財産についての第四項の物納手続関係書類提出期限延長届出書による期限」とする。
+    modality: gimu
+    references:
+    - 前項
+- number: 16
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p16
+    type: simple
+    text: 第二項の規定により、税務署長が、同項の調査を行う場合において、同項の申請書に係る物納財産が多数であることその他の事由により当該調査に三月を超える期間を要すると認めるときにおける同項の規定の適用については、同項中「三月」とあるのは、「六月」とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 17
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p17
+    type: simple
+    text: 第二項の規定により、税務署長が、同項の調査を行う場合において、積雪その他これに準ずる事由により当該調査に六月を超える期間を要すると認めるときにおける前項の規定の適用については、同項中「六月」とあるのは、「九月」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+- number: 18
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p18
+    type: simple
+    text: 第二項の規定により税務署長が同項の調査を行う場合において、国税通則法第十一条（災害等による期限の延長）に規定する災害その他やむを得ない理由が生じたとき、又は第二十八項第二号に規定する政令で定めるやむを得ない事由が生じたときにおける第二項の規定の適用については、同項中「三月以内」とあるのは、「三月（第十六項の規定の適用がある場合には六月とし、第十七項の規定の適用がある場合には九月とする。）に第二十八項第一号の規定により読み替えて適用する第六項ただし書に規定する災害等延長期間又は第二十八項第二号に規定する政令で定める期間を加算した期間内」とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 19
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p19
+    type: simple
+    text: 税務署長は、前三項の規定の適用がある場合においては、その旨を記載した書面により、これを当該申請者に通知する。
+    modality: tetsuduki
+    references:
+    - 前三項
+- number: 20
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p20
+    type: simple
+    text: 税務署長は、第二項の許可をしようとするときは、当該申請者に対し、一年を超えない範囲内で期限を定めて廃棄物の撤去その他の物納財産を収納するために必要な措置をとることを命ずることができる。
+    modality: kanou_kenri
+- number: 21
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p21
+    type: simple
+    text: 税務署長は、前項の規定により措置をとることを命ずる場合においては、その旨を記載した書面により、これを当該申請者に通知する。
+    modality: tetsuduki
+    references:
+    - 前項
+- number: 22
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p22
+    type: simple
+    text: 税務署長は、第二十項の措置をとることを命じた場合において、当該措置が同項の期限（次項の収納関係措置期限延長届出書が提出されている場合には、第二十四項に規定する期限）までにとられないときは、第二項の規定により物納の申請の却下をすることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 次項
+- number: 23
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p23-zen
+    type: zen_dan
+    text: 第二十項の規定により同項の措置をとることを命じられた申請者は、同項の期限までに当該措置をとることができない場合には、政令で定めるところにより、その旨、当該措置をとる日その他財務省令で定める事項を記載した届出書（次項において「収納関係措置期限延長届出書」という。）を納税地の所轄税務署長に提出することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 次項
+  - id: souzoku-zei-hou-art-42-p23-kou
+    type: kou_dan
+    text: この場合において、当該措置をとる日が記載されていないときは、当該期限の翌日から起算して三月を経過する日が記載されているものとみなす。
+    modality: unspecified
+    depends_on: souzoku-zei-hou-art-42-p23-zen
+- number: 24
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p24
+    type: simple
+    text: 前項の規定により当該申請者が収納関係措置期限延長届出書を提出した場合には、第二十項の措置（当該収納関係措置期限延長届出書に係るものに限る。次項において同じ。）の第二十項の期限は、当該収納関係措置期限延長届出書に記載された当該措置をとる日（その日が前項の期限の翌日から起算して三月を経過する日（その日が第二十一項の規定による通知を受けた日の翌日から起算して一年を経過する日後である場合には、当該経過する日）後である場合には、当該三月を経過する日）とする。
+    modality: gimu
+    references:
+    - 前項
+    - 次項
+- number: 25
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p25-honbun
+    type: honbun
+    text: 前二項（この項の規定により読み替えて適用する場合を含む。）の規定の適用を受けた者が前項に規定する当該措置をとる日までに第二十項の措置をとることができない場合における第二十三項の規定の適用については、同項中「同項の期限」とあるのは、「次項に規定する当該措置をとる日」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前二項
+    - 前項
+    - 次項
+  - id: souzoku-zei-hou-art-42-p25-tadashi
+    type: tadashi
+    text: ただし、第二十項の期限は、第二十一項の規定による通知を受けた日の翌日から起算して一年を経過する日後とすることはできない。
+    modality: kanou_negative
+- number: 26
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p26
+    type: simple
+    text: 第二十項又は前三項の規定の適用がある場合における第二項の規定の適用については、同項中「以内」とあるのは、「に第二十一項の規定による通知を受けた日の翌日から第二十項の期限（第二十三項の収納関係措置期限延長届出書が提出されている場合には、第二十四項に規定する期限）までの期間を加算した期間内」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前三項
+- number: 27
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p27
+    type: simple
+    text: 第二十項の措置をとつた場合には、当該申請者は、遅滞なく、その旨その他の財務省令で定める事項を記載した届出書を納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+- number: 28
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p28-hashira
+    type: hashira
+    text: 次の各号に掲げる場合における物納の許可の申請に係る手続をその期限までに行うことができない者に係るこの条の規定の適用については、当該各号に掲げる場合の区分に応じ、当該各号に定めるところによる。
+    modality: unspecified
+- number: 29
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p29
+    type: simple
+    text: 前項の規定の適用がある場合において、第七項の規定により読み替えられた第二項の規定を適用するときは、第十八項の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前項
+- number: 30
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p30-zen
+    type: zen_dan
+    text: 税務署長は、第二項の規定により物納の許可をする場合において、物納財産の性質その他の事情に照らし必要があると認めるときは、必要な限度において当該許可に条件を付することができる。
+    modality: kanou_kenri
+  - id: souzoku-zei-hou-art-42-p30-kou
+    type: kou_dan
+    text: この場合において、当該許可に付した条件を記載した書面により、これを当該申請者に通知する。
+    modality: tetsuduki
+    depends_on: souzoku-zei-hou-art-42-p30-zen
+- number: 31
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p31
+    type: simple
+    text: 第二項に規定する期間内（第七項、第十四項、第十六項（第十七項の規定により読み替えて適用する場合を含む。）、第十八項又は第二十六項の規定の適用がある場合には、これらの規定により読み替えて適用する第二項に規定する期間内）に税務署長が物納の許可又は当該物納の申請の却下をしない場合には、当該物納の許可があつたものとみなす。
+    modality: unspecified
+- number: 32
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p32
+    type: junyou
+    text: 第四十条第一項の規定は、第一項の規定による申請書の提出があつた場合について準用する。
+    modality: unspecified
+- number: 33
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-art-42-p33
+    type: simple
+    text: 前各項に定めるもののほか、物納に関する手続その他物納に関し必要な事項は、政令で定める。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 6
+  shou_name_ja: 第六章　延納及び物納
+---
+
+# 相続税法 第42条(（物納手続）)
+
+## 原文 (日本語)
+
+### 第四十二条第一項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p1 -->
+<!-- segment: zen_dan id: souzoku-zei-hou-art-42-p4-zen -->
+前条第一項の規定による物納の許可を申請しようとする者は、その物納を求めようとする相続税の納期限までに、又は納付すべき日に、金銭で納付することを困難とする金額及びその困難とする事由、物納を求めようとする税額、物納に充てようとする財産の種類及び価額その他の財務省令で定める事項を記載した申請書に物納の手続に必要な書類として財務省令で定めるもの（以下この章において「物納手続関係書類」という。）を添付し、これを納税地の所轄税務署長に提出しなければならない。
+
+### 第四十二条第二項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p2 -->
+税務署長は、前項の規定による申請書の提出があつた場合においては、当該申請者及び当該申請に係る事項について前条の規定に該当するか否かの調査を行い、その調査に基づき、当該申請書の提出期限の翌日から起算して三月以内に当該申請に係る税額の全部又は一部について物納財産ごとに当該申請に係る物納の許可をし、又は当該申請の却下をする。
+
+### 第四十二条第三項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p3 -->
+税務署長は、前項の規定により許可をし、又は却下をした場合においては、当該許可に係る税額及び物納財産又は当該却下をした旨及びその理由を記載した書面により、これを当該申請者に通知する。
+
+### 第四十二条第四項
+
+前条第一項の規定による物納の許可を申請しようとする者は、物納手続関係書類の全部又は一部を第一項の申請書の提出期限までに当該申請書に添付して提出することができない場合には、政令で定めるところにより、その旨、当該物納手続関係書類を提出する日その他財務省令で定める事項を記載した届出書（次項及び第十五項において「物納手続関係書類提出期限延長届出書」という。）を納税地の所轄税務署長に提出することができる。<!-- segment: kou_dan id: souzoku-zei-hou-art-42-p4-kou depends_on: souzoku-zei-hou-art-42-p4-zen -->
+この場合において、当該提出する日が記載されていないときは、当該提出期限の翌日から起算して三月を経過する日が記載されているものとみなす。
+
+### 第四十二条第五項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p5 -->
+<!-- segment: simple id: souzoku-zei-hou-art-42-p12 -->
+前項の規定により当該申請者が物納手続関係書類提出期限延長届出書を提出した場合には、物納手続関係書類（当該物納手続関係書類提出期限延長届出書に係るものに限る。次項において同じ。）の提出期限は、当該物納手続関係書類提出期限延長届出書に記載された当該物納手続関係書類を提出する日（その日が前項の提出期限の翌日から起算して三月を経過する日後である場合には、当該経過する日）とする。
+
+### 第四十二条第六項
+
+<!-- segment: honbun id: souzoku-zei-hou-art-42-p6-honbun -->
+<!-- segment: honbun id: souzoku-zei-hou-art-42-p13-honbun -->
+<!-- segment: honbun id: souzoku-zei-hou-art-42-p25-honbun -->
+前二項（この項の規定により読み替えて適用する場合を含む。）の規定の適用を受けた者が前項に規定する提出する日までに物納手続関係書類を提出することができない場合における第四項の規定の適用については、同項中「第一項の申請書の提出期限までに当該申請書に添付して提出することができない場合」とあるのは、「次項に規定する提出する日までに同項の物納手続関係書類を提出することができない場合」とする。<!-- segment: tadashi id: souzoku-zei-hou-art-42-p6-tadashi -->
+ただし、当該物納手続関係書類の提出期限は、第一項の申請書の提出期限の翌日から起算して一年を経過する日後とすることはできない。
+
+### 第四十二条第七項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p7 -->
+前三項の規定の適用がある場合における第二項の規定の適用については、同項中「当該申請書」とあるのは、「物納手続関係書類（第四項の物納手続関係書類提出期限延長届出書に係るものに限る。）」とする。
+
+### 第四十二条第八項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p8 -->
+税務署長は、第一項の規定による申請書の提出があつた場合において、当該申請書についてその記載に不備があること又は物納手続関係書類についてその記載に不備があること若しくはその提出がないことその他の政令で定める事由があるときは、当該申請者に対して当該申請書の訂正又は当該物納手続関係書類の訂正若しくは提出を求めることができる。
+
+### 第四十二条第九項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p9 -->
+税務署長は、前項の規定により申請書の訂正又は物納手続関係書類の訂正若しくは提出を求める場合においては、その旨及びその理由を記載した書面により、これを当該申請者に通知する。
+
+### 第四十二条第十項
+
+<!-- segment: zen_dan id: souzoku-zei-hou-art-42-p10-zen -->
+第八項の規定により申請書の訂正又は物納手続関係書類の訂正若しくは提出を求められた当該申請者は、前項の規定による通知を受けた日の翌日から起算して二十日以内に当該申請書の訂正又は当該物納手続関係書類の訂正若しくは提出をしなければならない。<!-- segment: kou_dan id: souzoku-zei-hou-art-42-p10-kou depends_on: souzoku-zei-hou-art-42-p10-zen -->
+この場合において、当該期間内に当該申請書の訂正又は当該物納手続関係書類の訂正若しくは提出をしなかつたときは、当該申請者は、当該期間を経過した日において物納の申請を取り下げたものとみなす。
+
+### 第四十二条第十一項
+
+<!-- segment: zen_dan id: souzoku-zei-hou-art-42-p11-zen -->
+<!-- segment: simple id: souzoku-zei-hou-art-42-p15 -->
+第八項の規定により物納手続関係書類の訂正又は提出を求められた当該申請者は、前項の経過した日の前日までに当該物納手続関係書類の訂正又は提出をすることができない場合には、政令で定めるところにより、その旨、当該物納手続関係書類の訂正又は提出をする日その他財務省令で定める事項を記載した届出書（次項において「物納手続関係書類補完期限延長届出書」という。）を納税地の所轄税務署長に提出することができる。<!-- segment: kou_dan id: souzoku-zei-hou-art-42-p11-kou depends_on: souzoku-zei-hou-art-42-p11-zen -->
+この場合において、当該訂正又は提出をする日が記載されていないときは、当該経過した日から起算して三月を経過する日が記載されているものとみなす。
+
+### 第四十二条第十二項
+
+前項の規定により当該申請者が物納手続関係書類補完期限延長届出書を提出した場合には、物納手続関係書類（当該物納手続関係書類補完期限延長届出書に係るものに限る。次項において同じ。）の訂正又は提出の期限は、当該物納手続関係書類補完期限延長届出書に記載された当該物納手続関係書類の訂正又は提出をする日（その日が前項の経過した日から起算して三月を経過する日後である場合には、当該経過する日）とする。
+
+### 第四十二条第十三項
+
+前二項（この項の規定により読み替えて適用する場合を含む。）の規定の適用を受けた者が前項に規定する訂正又は提出をする日までに物納手続関係書類の訂正又は提出をすることができない場合における第十一項の規定の適用については、同項中「前項の経過した日の前日」とあるのは、「次項に規定する訂正又は提出をする日」とする。<!-- segment: tadashi id: souzoku-zei-hou-art-42-p13-tadashi -->
+ただし、当該物納手続関係書類の訂正又は提出の期限は、第九項の規定による通知を受けた日の翌日から起算して一年を経過する日後とすることはできない。
+
+### 第四十二条第十四項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p14 -->
+第八項又は前三項の規定の適用がある場合における第二項の規定の適用については、同項中「以内」とあるのは、「に第九項の規定による通知を申請者が受けた日の翌日から申請書（第八項の規定に係るものに限る。）の訂正の期限又は物納手続関係書類（第八項の規定に係るものに限る。）若しくは物納手続関係書類（第十一項の物納手続関係書類補完期限延長届出書に係るものに限る。）の訂正若しくは提出の期限（以下この項において「申請書等の提出期限」という。）までの期間（第九項の規定による通知が複数ある場合には、それぞれの通知を受けた日の翌日から当該それぞれの通知に係る申請書等の提出期限までの期間を合算した期間（これらの期間のうち重複する期間がある場合には、当該重複する期間を合算した期間を除いた期間）とする。）を加算した期間内」とする。
+
+### 第四十二条第十五項
+
+第八項の規定により物納手続関係書類の訂正又は提出が求められている場合において、当該物納手続関係書類に係る物納財産についての物納手続関係書類提出期限延長届出書が提出されているときは、第十二項及び第十三項ただし書の規定の適用については、第十二項中「前項の経過した日から起算して三月を経過する日後である場合には、当該経過する日」とあるのは「当該訂正又は提出が求められている物納手続関係書類に係る物納財産についての第四項の物納手続関係書類提出期限延長届出書による期限後である場合には、当該期限」と、第十三項ただし書中「第九項の規定による通知を受けた日の翌日から起算して一年を経過する日」とあるのは「当該訂正又は提出が求められている物納手続関係書類に係る物納財産についての第四項の物納手続関係書類提出期限延長届出書による期限」とする。
+
+### 第四十二条第十六項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p16 -->
+<!-- segment: simple id: souzoku-zei-hou-art-42-p17 -->
+第二項の規定により、税務署長が、同項の調査を行う場合において、同項の申請書に係る物納財産が多数であることその他の事由により当該調査に三月を超える期間を要すると認めるときにおける同項の規定の適用については、同項中「三月」とあるのは、「六月」とする。
+
+### 第四十二条第十七項
+
+第二項の規定により、税務署長が、同項の調査を行う場合において、積雪その他これに準ずる事由により当該調査に六月を超える期間を要すると認めるときにおける前項の規定の適用については、同項中「六月」とあるのは、「九月」とする。
+
+### 第四十二条第十八項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p18 -->
+第二項の規定により税務署長が同項の調査を行う場合において、国税通則法第十一条（災害等による期限の延長）に規定する災害その他やむを得ない理由が生じたとき、又は第二十八項第二号に規定する政令で定めるやむを得ない事由が生じたときにおける第二項の規定の適用については、同項中「三月以内」とあるのは、「三月（第十六項の規定の適用がある場合には六月とし、第十七項の規定の適用がある場合には九月とする。）に第二十八項第一号の規定により読み替えて適用する第六項ただし書に規定する災害等延長期間又は第二十八項第二号に規定する政令で定める期間を加算した期間内」とする。
+
+### 第四十二条第十九項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p19 -->
+税務署長は、前三項の規定の適用がある場合においては、その旨を記載した書面により、これを当該申請者に通知する。
+
+### 第四十二条第二十項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p20 -->
+税務署長は、第二項の許可をしようとするときは、当該申請者に対し、一年を超えない範囲内で期限を定めて廃棄物の撤去その他の物納財産を収納するために必要な措置をとることを命ずることができる。
+
+### 第四十二条第二十一項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p21 -->
+税務署長は、前項の規定により措置をとることを命ずる場合においては、その旨を記載した書面により、これを当該申請者に通知する。
+
+### 第四十二条第二十二項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p22 -->
+税務署長は、第二十項の措置をとることを命じた場合において、当該措置が同項の期限（次項の収納関係措置期限延長届出書が提出されている場合には、第二十四項に規定する期限）までにとられないときは、第二項の規定により物納の申請の却下をすることができる。
+
+### 第四十二条第二十三項
+
+<!-- segment: zen_dan id: souzoku-zei-hou-art-42-p23-zen -->
+第二十項の規定により同項の措置をとることを命じられた申請者は、同項の期限までに当該措置をとることができない場合には、政令で定めるところにより、その旨、当該措置をとる日その他財務省令で定める事項を記載した届出書（次項において「収納関係措置期限延長届出書」という。）を納税地の所轄税務署長に提出することができる。<!-- segment: kou_dan id: souzoku-zei-hou-art-42-p23-kou depends_on: souzoku-zei-hou-art-42-p23-zen -->
+この場合において、当該措置をとる日が記載されていないときは、当該期限の翌日から起算して三月を経過する日が記載されているものとみなす。
+
+### 第四十二条第二十四項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p24 -->
+前項の規定により当該申請者が収納関係措置期限延長届出書を提出した場合には、第二十項の措置（当該収納関係措置期限延長届出書に係るものに限る。次項において同じ。）の第二十項の期限は、当該収納関係措置期限延長届出書に記載された当該措置をとる日（その日が前項の期限の翌日から起算して三月を経過する日（その日が第二十一項の規定による通知を受けた日の翌日から起算して一年を経過する日後である場合には、当該経過する日）後である場合には、当該三月を経過する日）とする。
+
+### 第四十二条第二十五項
+
+前二項（この項の規定により読み替えて適用する場合を含む。）の規定の適用を受けた者が前項に規定する当該措置をとる日までに第二十項の措置をとることができない場合における第二十三項の規定の適用については、同項中「同項の期限」とあるのは、「次項に規定する当該措置をとる日」とする。<!-- segment: tadashi id: souzoku-zei-hou-art-42-p25-tadashi -->
+ただし、第二十項の期限は、第二十一項の規定による通知を受けた日の翌日から起算して一年を経過する日後とすることはできない。
+
+### 第四十二条第二十六項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p26 -->
+第二十項又は前三項の規定の適用がある場合における第二項の規定の適用については、同項中「以内」とあるのは、「に第二十一項の規定による通知を受けた日の翌日から第二十項の期限（第二十三項の収納関係措置期限延長届出書が提出されている場合には、第二十四項に規定する期限）までの期間を加算した期間内」とする。
+
+### 第四十二条第二十七項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p27 -->
+第二十項の措置をとつた場合には、当該申請者は、遅滞なく、その旨その他の財務省令で定める事項を記載した届出書を納税地の所轄税務署長に提出しなければならない。
+
+### 第四十二条第二十八項
+
+<!-- segment: hashira id: souzoku-zei-hou-art-42-p28-hashira -->
+次の各号に掲げる場合における物納の許可の申請に係る手続をその期限までに行うことができない者に係るこの条の規定の適用については、当該各号に掲げる場合の区分に応じ、当該各号に定めるところによる。
+
+### 第四十二条第二十九項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p29 -->
+前項の規定の適用がある場合において、第七項の規定により読み替えられた第二項の規定を適用するときは、第十八項の規定は、適用しない。
+
+### 第四十二条第三十項
+
+<!-- segment: zen_dan id: souzoku-zei-hou-art-42-p30-zen -->
+税務署長は、第二項の規定により物納の許可をする場合において、物納財産の性質その他の事情に照らし必要があると認めるときは、必要な限度において当該許可に条件を付することができる。<!-- segment: kou_dan id: souzoku-zei-hou-art-42-p30-kou depends_on: souzoku-zei-hou-art-42-p30-zen -->
+この場合において、当該許可に付した条件を記載した書面により、これを当該申請者に通知する。
+
+### 第四十二条第三十一項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p31 -->
+第二項に規定する期間内（第七項、第十四項、第十六項（第十七項の規定により読み替えて適用する場合を含む。）、第十八項又は第二十六項の規定の適用がある場合には、これらの規定により読み替えて適用する第二項に規定する期間内）に税務署長が物納の許可又は当該物納の申請の却下をしない場合には、当該物納の許可があつたものとみなす。
+
+### 第四十二条第三十二項
+
+<!-- segment: junyou id: souzoku-zei-hou-art-42-p32 -->
+第四十条第一項の規定は、第一項の規定による申請書の提出があつた場合について準用する。
+
+### 第四十二条第三十三項
+
+<!-- segment: simple id: souzoku-zei-hou-art-42-p33 -->
+前各項に定めるもののほか、物納に関する手続その他物納に関し必要な事項は、政令で定める。

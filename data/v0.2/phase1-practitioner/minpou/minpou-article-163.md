@@ -1,0 +1,47 @@
+---
+law_id: 129AC0000000089
+law_name_ja: 民法
+law_name_en: Civil Code
+article_number: '163'
+article_id: minpou-art-163
+version_date: '1896-04-27'
+source_url: https://laws.e-gov.go.jp/law/129AC0000000089
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-163-p1
+    type: simple
+    text: 所有権以外の財産権を、自己のためにする意思をもって、平穏に、かつ、公然と行使する者は、前条の区別に従い二十年又は十年を経過した後、その権利を取得する。
+    modality: unspecified
+    references:
+    - 前条
+cases: []
+amendments: []
+tags:
+- phase1-practitioner
+- auto-generated
+parent_section:
+  hen: 1
+  hen_name_ja: 第一編　総則
+  shou: 7
+  shou_name_ja: 第七章　時効
+  setsu: 2
+  setsu_name_ja: 第二節　取得時効
+---
+
+# 民法 第163条(（所有権以外の財産権の取得時効）)
+
+## 原文 (日本語)
+
+### 第百六十三条
+
+<!-- segment: simple id: minpou-art-163-p1 -->
+所有権以外の財産権を、自己のためにする意思をもって、平穏に、かつ、公然と行使する者は、前条の区別に従い二十年又は十年を経過した後、その権利を取得する。

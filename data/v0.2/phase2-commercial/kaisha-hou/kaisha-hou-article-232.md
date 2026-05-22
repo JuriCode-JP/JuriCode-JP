@@ -1,0 +1,63 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '232'
+article_id: kaisha-hou-art-232
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-232-p1
+    type: simple
+    text: 株券発行会社が株券喪失登録者に対してする通知又は催告は、株券喪失登録簿に記載し、又は記録した当該株券喪失登録者の住所（当該株券喪失登録者が別に通知又は催告を受ける場所又は連絡先を株券発行会社に通知した場合にあっては、その場所又は連絡先）にあてて発すれば足りる。
+    modality: unspecified
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-232-p2
+    type: simple
+    text: 前項の通知又は催告は、その通知又は催告が通常到達すべきであった時に、到達したものとみなす。
+    modality: unspecified
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　株式会社
+  shou: 2
+  shou_name_ja: 第二章　株式
+  setsu: 9
+  setsu_name_ja: 第九節　株券
+  kan: 3
+  kan_name_ja: 第三款　株券喪失登録
+---
+
+# 会社法 第232条(（株券喪失登録者に対する通知等）)
+
+## 原文 (日本語)
+
+### 第二百三十二条第一項
+
+<!-- segment: simple id: kaisha-hou-art-232-p1 -->
+株券発行会社が株券喪失登録者に対してする通知又は催告は、株券喪失登録簿に記載し、又は記録した当該株券喪失登録者の住所（当該株券喪失登録者が別に通知又は催告を受ける場所又は連絡先を株券発行会社に通知した場合にあっては、その場所又は連絡先）にあてて発すれば足りる。
+
+### 第二百三十二条第二項
+
+<!-- segment: simple id: kaisha-hou-art-232-p2 -->
+前項の通知又は催告は、その通知又は催告が通常到達すべきであった時に、到達したものとみなす。

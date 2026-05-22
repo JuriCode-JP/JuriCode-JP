@@ -1,0 +1,47 @@
+---
+law_id: 129AC0000000089
+law_name_ja: 民法
+law_name_en: Civil Code
+article_number: '322'
+article_id: minpou-art-322
+version_date: '1896-04-27'
+source_url: https://laws.e-gov.go.jp/law/129AC0000000089
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-322-p1
+    type: simple
+    text: 種苗又は肥料の供給の先取特権は、種苗又は肥料の代価及びその利息に関し、その種苗又は肥料を用いた後一年以内にこれを用いた土地から生じた果実（蚕種又は蚕の飼養に供した桑葉の使用によって生じた物を含む。）について存在する。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-practitioner
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　物権
+  shou: 8
+  shou_name_ja: 第八章　先取特権
+  setsu: 2
+  setsu_name_ja: 第二節　先取特権の種類
+  kan: 2
+  kan_name_ja: 第二款　動産の先取特権
+---
+
+# 民法 第322条(（種苗又は肥料の供給の先取特権）)
+
+## 原文 (日本語)
+
+### 第三百二十二条
+
+<!-- segment: simple id: minpou-art-322-p1 -->
+種苗又は肥料の供給の先取特権は、種苗又は肥料の代価及びその利息に関し、その種苗又は肥料を用いた後一年以内にこれを用いた土地から生じた果実（蚕種又は蚕の飼養に供した桑葉の使用によって生じた物を含む。）について存在する。

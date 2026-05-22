@@ -1,0 +1,86 @@
+---
+law_id: 340AC0000000033
+law_name_ja: 所得税法
+law_name_en: (English name pending)
+article_number: '134'
+article_id: shotoku-zei-hou-art-134
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-134-p1
+    type: simple
+    text: 第百三十二条第一項（延払条件付譲渡に係る所得税額の延納）の規定による延納の許可を受けた居住者は、同項に規定する延払条件付譲渡に係る契約において定められている賦払金の支払の期日の変更その他の事由が生じたことにより当該許可に係る延納の条件について変更を求めようとする場合には、その変更を求めようとする条件その他財務省令で定める事項を記載した申請書を納税地の所轄税務署長に提出することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-134-p2
+    type: junyou
+    text: 前条第二項及び第四項の規定は、前項の申請書の提出があつた場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 前条
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-134-p3-zen
+    type: zen_dan
+    text: 税務署長は、第百三十二条第一項に規定する延払条件付譲渡に係る契約において定められている賦払金の支払の期日の変更、その支払の期日前における当該賦払金の支払その他の事由が生じたことにより当該許可に係る延納の条件を変更する必要があると認める場合には、延納の期間の短縮その他延納の条件の変更をすることができる。
+    modality: kanou_kenri
+  - id: shotoku-zei-hou-art-134-p3-kou
+    type: kou_dan
+    text: この場合においては、国税通則法第四十九条第二項及び第三項（納税の猶予の取消し等の場合の弁明の聴取及び通知）の規定を準用する。
+    modality: unspecified
+    depends_on: shotoku-zei-hou-art-134-p3-zen
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 5
+  shou_name_ja: 第五章　申告、納付及び還付
+  setsu: 2
+  setsu_name_ja: 第二節　確定申告並びにこれに伴う納付及び還付
+  kan: 4
+  kan_name_ja: 第四款　延納
+---
+
+# 所得税法 第134条(（延払条件付譲渡に係る所得税額の延納条件の変更）)
+
+## 原文 (日本語)
+
+### 第百三十四条第一項
+
+<!-- segment: simple id: shotoku-zei-hou-art-134-p1 -->
+第百三十二条第一項（延払条件付譲渡に係る所得税額の延納）の規定による延納の許可を受けた居住者は、同項に規定する延払条件付譲渡に係る契約において定められている賦払金の支払の期日の変更その他の事由が生じたことにより当該許可に係る延納の条件について変更を求めようとする場合には、その変更を求めようとする条件その他財務省令で定める事項を記載した申請書を納税地の所轄税務署長に提出することができる。
+
+### 第百三十四条第二項
+
+<!-- segment: junyou id: shotoku-zei-hou-art-134-p2 -->
+前条第二項及び第四項の規定は、前項の申請書の提出があつた場合について準用する。
+
+### 第百三十四条第三項
+
+<!-- segment: zen_dan id: shotoku-zei-hou-art-134-p3-zen -->
+税務署長は、第百三十二条第一項に規定する延払条件付譲渡に係る契約において定められている賦払金の支払の期日の変更、その支払の期日前における当該賦払金の支払その他の事由が生じたことにより当該許可に係る延納の条件を変更する必要があると認める場合には、延納の期間の短縮その他延納の条件の変更をすることができる。<!-- segment: kou_dan id: shotoku-zei-hou-art-134-p3-kou depends_on: shotoku-zei-hou-art-134-p3-zen -->
+この場合においては、国税通則法第四十九条第二項及び第三項（納税の猶予の取消し等の場合の弁明の聴取及び通知）の規定を準用する。

@@ -1,0 +1,121 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '425'
+article_id: kaisha-hou-art-425
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-425-p1
+    type: tokusoku
+    text: 前条の規定にかかわらず、第四百二十三条第一項の責任は、当該役員等が職務を行うにつき善意でかつ重大な過失がないときは、賠償の責任を負う額から次に掲げる額の合計額（第四百二十七条第一項において「最低責任限度額」という。）を控除して得た額を限度として、株主総会（株式会社に最終完全親会社等（第八百四十七条の三第一項に規定する最終完全親会社等をいう。以下この節において同じ。）がある場合において、当該責任が特定責任（第八百四十七条の三第四項に規定する特定責任をいう。以下この節において同じ。）であるときにあっては、当該株式会社及び当該最終完全親会社等の株主総会。以下この条において同じ。）の決議によって免除することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-425-p2-hashira
+    type: hashira
+    text: 前項の場合には、取締役（株式会社に最終完全親会社等がある場合において、同項の規定により免除しようとする責任が特定責任であるときにあっては、当該株式会社及び当該最終完全親会社等の取締役）は、同項の株主総会において次に掲げる事項を開示しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-425-p3-hashira
+    type: hashira
+    text: 監査役設置会社、監査等委員会設置会社又は指名委員会等設置会社においては、取締役（これらの会社に最終完全親会社等がある場合において、第一項の規定により免除しようとする責任が特定責任であるときにあっては、当該会社及び当該最終完全親会社等の取締役）は、第四百二十三条第一項の責任の免除（取締役（監査等委員又は監査委員であるものを除く。）及び執行役の責任の免除に限る。）に関する議案を株主総会に提出するには、次の各号に掲げる株式会社の区分に応じ、当該各号に定める者の同意を得なければならない。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-425-p4
+    type: simple
+    text: 第一項の決議があった場合において、株式会社が当該決議後に同項の役員等に対し退職慰労金その他の法務省令で定める財産上の利益を与えるときは、株主総会の承認を受けなければならない。当該役員等が同項第二号の新株予約権を当該決議後に行使し、又は譲渡するときも同様とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-425-p5-zen
+    type: zen_dan
+    text: 第一項の決議があった場合において、当該役員等が前項の新株予約権を表示する新株予約権証券を所持するときは、当該役員等は、遅滞なく、当該新株予約権証券を株式会社に対し預託しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kaisha-hou-art-425-p5-kou
+    type: kou_dan
+    text: この場合において、当該役員等は、同項の譲渡について同項の承認を受けた後でなければ、当該新株予約権証券の返還を求めることができない。
+    modality: kanou_negative
+    references:
+    - 同項
+    depends_on: kaisha-hou-art-425-p5-zen
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　株式会社
+  shou: 4
+  shou_name_ja: 第四章　機関
+  setsu: 11
+  setsu_name_ja: 第十一節　役員等の損害賠償責任
+---
+
+# 会社法 第425条(（責任の一部免除）)
+
+## 原文 (日本語)
+
+### 第四百二十五条第一項
+
+<!-- segment: tokusoku id: kaisha-hou-art-425-p1 override_flag: true override_target: 前条 -->
+前条の規定にかかわらず、第四百二十三条第一項の責任は、当該役員等が職務を行うにつき善意でかつ重大な過失がないときは、賠償の責任を負う額から次に掲げる額の合計額（第四百二十七条第一項において「最低責任限度額」という。）を控除して得た額を限度として、株主総会（株式会社に最終完全親会社等（第八百四十七条の三第一項に規定する最終完全親会社等をいう。以下この節において同じ。）がある場合において、当該責任が特定責任（第八百四十七条の三第四項に規定する特定責任をいう。以下この節において同じ。）であるときにあっては、当該株式会社及び当該最終完全親会社等の株主総会。以下この条において同じ。）の決議によって免除することができる。
+
+### 第四百二十五条第二項
+
+<!-- segment: hashira id: kaisha-hou-art-425-p2-hashira -->
+前項の場合には、取締役（株式会社に最終完全親会社等がある場合において、同項の規定により免除しようとする責任が特定責任であるときにあっては、当該株式会社及び当該最終完全親会社等の取締役）は、同項の株主総会において次に掲げる事項を開示しなければならない。
+
+### 第四百二十五条第三項
+
+<!-- segment: hashira id: kaisha-hou-art-425-p3-hashira -->
+監査役設置会社、監査等委員会設置会社又は指名委員会等設置会社においては、取締役（これらの会社に最終完全親会社等がある場合において、第一項の規定により免除しようとする責任が特定責任であるときにあっては、当該会社及び当該最終完全親会社等の取締役）は、第四百二十三条第一項の責任の免除（取締役（監査等委員又は監査委員であるものを除く。）及び執行役の責任の免除に限る。）に関する議案を株主総会に提出するには、次の各号に掲げる株式会社の区分に応じ、当該各号に定める者の同意を得なければならない。
+
+### 第四百二十五条第四項
+
+<!-- segment: simple id: kaisha-hou-art-425-p4 -->
+第一項の決議があった場合において、株式会社が当該決議後に同項の役員等に対し退職慰労金その他の法務省令で定める財産上の利益を与えるときは、株主総会の承認を受けなければならない。当該役員等が同項第二号の新株予約権を当該決議後に行使し、又は譲渡するときも同様とする。
+
+### 第四百二十五条第五項
+
+<!-- segment: zen_dan id: kaisha-hou-art-425-p5-zen -->
+第一項の決議があった場合において、当該役員等が前項の新株予約権を表示する新株予約権証券を所持するときは、当該役員等は、遅滞なく、当該新株予約権証券を株式会社に対し預託しなければならない。<!-- segment: kou_dan id: kaisha-hou-art-425-p5-kou depends_on: kaisha-hou-art-425-p5-zen -->
+この場合において、当該役員等は、同項の譲渡について同項の承認を受けた後でなければ、当該新株予約権証券の返還を求めることができない。

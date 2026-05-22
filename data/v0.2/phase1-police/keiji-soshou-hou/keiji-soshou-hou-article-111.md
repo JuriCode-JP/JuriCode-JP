@@ -1,0 +1,59 @@
+---
+law_id: 323AC0000000131
+law_name_ja: 刑事訴訟法
+law_name_en: Code of Criminal Procedure
+article_number: '111'
+article_id: keiji-soshou-hou-art-111
+version_date: '1948-07-10'
+source_url: https://laws.e-gov.go.jp/law/323AC0000000131
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: keiji-soshou-hou-art-111-p1
+    type: simple
+    text: 差押状、記録命令付差押状又は捜索状の執行については、錠をはずし、封を開き、その他必要な処分をすることができる。公判廷で差押え、記録命令付差押え又は捜索をする場合も、同様である。
+    modality: unspecified
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: keiji-soshou-hou-art-111-p2
+    type: simple
+    text: 前項の処分は、押収物についても、これをすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 1
+  hen_name_ja: 第一編　総則
+  shou: 9
+  shou_name_ja: 第九章　押収及び捜索
+---
+
+# 刑事訴訟法 第111条
+
+## 原文 (日本語)
+
+### 第百十一条第一項
+
+<!-- segment: simple id: keiji-soshou-hou-art-111-p1 -->
+差押状、記録命令付差押状又は捜索状の執行については、錠をはずし、封を開き、その他必要な処分をすることができる。公判廷で差押え、記録命令付差押え又は捜索をする場合も、同様である。
+
+### 第百十一条第二項
+
+<!-- segment: simple id: keiji-soshou-hou-art-111-p2 -->
+前項の処分は、押収物についても、これをすることができる。

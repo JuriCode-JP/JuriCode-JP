@@ -1,0 +1,45 @@
+---
+law_id: 419M60000002052
+law_name_ja: 金融商品取引業等に関する内閣府令
+law_name_en: (English name pending)
+article_number: '57'
+article_id: kinsho-gyou-furei-art-57
+version_date: '2007-08-06'
+source_url: https://laws.e-gov.go.jp/law/419M60000002052
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: kinsho-gyou-furei-art-57-p1-hashira
+    type: hashira
+    text: 令第十五条の二十二第一項及び第十五条の二十三第一項の規定により示すべき方法の種類及び内容は、次に掲げる事項とする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　金融商品取引業者等
+  setsu: 1
+  setsu_name_ja: 第一節　総則
+  kan: 5
+  kan_name_ja: 第五款　特定投資家
+---
+
+# 金融商品取引業等に関する内閣府令 第57条(（電磁的方法の種類及び内容）)
+
+## 原文 (日本語)
+
+### 第五十七条
+
+<!-- segment: hashira id: kinsho-gyou-furei-art-57-p1-hashira -->
+令第十五条の二十二第一項及び第十五条の二十三第一項の規定により示すべき方法の種類及び内容は、次に掲げる事項とする。

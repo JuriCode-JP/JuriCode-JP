@@ -1,0 +1,63 @@
+---
+law_id: 417AC0000000086
+law_name_ja: 会社法
+law_name_en: Companies Act
+article_number: '518'
+article_id: kaisha-hou-art-518
+version_date: '2005-07-26'
+source_url: https://laws.e-gov.go.jp/law/417AC0000000086
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-518-p1-hashira
+    type: hashira
+    text: 清算株式会社に対して債務を負担する者は、次に掲げる場合には、相殺をすることができない。
+    modality: kanou_negative
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: kaisha-hou-art-518-p2-hashira
+    type: hashira
+    text: 前項第二号から第四号までの規定は、これらの規定に規定する協定債権の取得が次に掲げる原因のいずれかに基づく場合には、適用しない。
+    modality: jogai
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　株式会社
+  shou: 9
+  shou_name_ja: 第九章　清算
+  setsu: 2
+  setsu_name_ja: 第二節　特別清算
+  kan: 1
+  kan_name_ja: 第一款　特別清算の開始
+---
+
+# 会社法 第518条
+
+## 原文 (日本語)
+
+### 第五百十八条第一項
+
+<!-- segment: hashira id: kaisha-hou-art-518-p1-hashira -->
+清算株式会社に対して債務を負担する者は、次に掲げる場合には、相殺をすることができない。
+
+### 第五百十八条第二項
+
+<!-- segment: hashira id: kaisha-hou-art-518-p2-hashira -->
+前項第二号から第四号までの規定は、これらの規定に規定する協定債権の取得が次に掲げる原因のいずれかに基づく場合には、適用しない。

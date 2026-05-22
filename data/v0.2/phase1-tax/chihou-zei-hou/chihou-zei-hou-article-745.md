@@ -1,0 +1,87 @@
+---
+law_id: 325AC0000000226
+law_name_ja: 地方税法
+law_name_en: (English name pending)
+article_number: '745'
+article_id: chihou-zei-hou-art-745
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325AC0000000226
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-art-745-p1-zen
+    type: zen_dan
+    text: 大規模の償却資産に対して道府県が課する固定資産税の賦課徴収等に関しては、この節に特別の定めがあるものを除くほか、第三百四十一条第四号及び第五号、第三百四十三条第一項、第三百五十三条から第三百五十九条まで、第三百六十二条、第三百六十四条（第三項、第四項及び第十項を除く。）、第三百六十四条の二から第三百六十七条まで、第三百六十九条、第三百七十一条から第三百七十六条まで、第三百八十三条、第三百八十五条、第三百八十六条並びに第四百三条の規定を準用する。
+    modality: unspecified
+  - id: chihou-zei-hou-art-745-p1-kou
+    type: kou_dan
+    text: この場合において、これらの規定中「市町村」とあるのは「道府県」と、「市町村長」とあるのは「道府県知事」と読み替えるものとする。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-745-p1-zen
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-art-745-p2-zen
+    type: zen_dan
+    text: 道府県知事は、第三百八十三条若しくは前項において準用する第三百八十三条の規定によつて市町村長若しくは道府県知事に申告をする義務がある者又は第三百九十四条の規定によつて道府県知事若しくは総務大臣に申告をする義務がある者がそのすべき申告をしなかつたこと又は虚偽の申告をしたことにより第四百十七条又は第七百四十三条第二項の規定によつて当該償却資産の価格を決定し、又は修正したことに基づいてその者に係る固定資産税額に不足税額があることを発見した場合においては、直ちにその不足税額を追徴しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-745-p2-kou
+    type: kou_dan
+    text: この場合において、不足税額のうち、第三百六十八条第一項ただし書の規定によつて市町村長が追徴することができる額があるときは、道府県知事の追徴すべき額は、当該不足税額から当該市町村長が追徴することができる額を控除した額とする。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-745-p2-zen
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-art-745-p3
+    type: junyou
+    text: 第三百六十八条第二項及び第三項の規定は、前項の規定によつて道府県知事が不足税額を追徴する場合について準用する。この場合において、同条第二項中「市町村」とあるのは「道府県」と、同条第三項中「市町村長」とあるのは「道府県知事」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　都等の特例等
+  setsu: 3
+  setsu_name_ja: 第三節　固定資産税の特例
+---
+
+# 地方税法 第745条(（道府県が課する固定資産税の賦課徴収等）)
+
+## 原文 (日本語)
+
+### 第七百四十五条第一項
+
+<!-- segment: zen_dan id: chihou-zei-hou-art-745-p1-zen -->
+大規模の償却資産に対して道府県が課する固定資産税の賦課徴収等に関しては、この節に特別の定めがあるものを除くほか、第三百四十一条第四号及び第五号、第三百四十三条第一項、第三百五十三条から第三百五十九条まで、第三百六十二条、第三百六十四条（第三項、第四項及び第十項を除く。）、第三百六十四条の二から第三百六十七条まで、第三百六十九条、第三百七十一条から第三百七十六条まで、第三百八十三条、第三百八十五条、第三百八十六条並びに第四百三条の規定を準用する。<!-- segment: kou_dan id: chihou-zei-hou-art-745-p1-kou depends_on: chihou-zei-hou-art-745-p1-zen -->
+この場合において、これらの規定中「市町村」とあるのは「道府県」と、「市町村長」とあるのは「道府県知事」と読み替えるものとする。
+
+### 第七百四十五条第二項
+
+<!-- segment: zen_dan id: chihou-zei-hou-art-745-p2-zen -->
+道府県知事は、第三百八十三条若しくは前項において準用する第三百八十三条の規定によつて市町村長若しくは道府県知事に申告をする義務がある者又は第三百九十四条の規定によつて道府県知事若しくは総務大臣に申告をする義務がある者がそのすべき申告をしなかつたこと又は虚偽の申告をしたことにより第四百十七条又は第七百四十三条第二項の規定によつて当該償却資産の価格を決定し、又は修正したことに基づいてその者に係る固定資産税額に不足税額があることを発見した場合においては、直ちにその不足税額を追徴しなければならない。<!-- segment: kou_dan id: chihou-zei-hou-art-745-p2-kou depends_on: chihou-zei-hou-art-745-p2-zen -->
+この場合において、不足税額のうち、第三百六十八条第一項ただし書の規定によつて市町村長が追徴することができる額があるときは、道府県知事の追徴すべき額は、当該不足税額から当該市町村長が追徴することができる額を控除した額とする。
+
+### 第七百四十五条第三項
+
+<!-- segment: junyou id: chihou-zei-hou-art-745-p3 -->
+第三百六十八条第二項及び第三項の規定は、前項の規定によつて道府県知事が不足税額を追徴する場合について準用する。この場合において、同条第二項中「市町村」とあるのは「道府県」と、同条第三項中「市町村長」とあるのは「道府県知事」と読み替えるものとする。

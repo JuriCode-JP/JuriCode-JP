@@ -1,0 +1,75 @@
+---
+law_id: 340AC0000000033
+law_name_ja: 所得税法
+law_name_en: (English name pending)
+article_number: '73'
+article_id: shotoku-zei-hou-art-73
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-73-p1
+    type: simple
+    text: 居住者が、各年において、自己又は自己と生計を一にする配偶者その他の親族に係る医療費を支払つた場合において、その年中に支払つた当該医療費の金額（保険金、損害賠償金その他これらに類するものにより補てんされる部分の金額を除く。）の合計額がその居住者のその年分の総所得金額、退職所得金額及び山林所得金額の合計額の百分の五に相当する金額（当該金額が十万円を超える場合には、十万円）を超えるときは、その超える部分の金額（当該金額が二百万円を超える場合には、二百万円）を、その居住者のその年分の総所得金額、退職所得金額又は山林所得金額から控除する。
+    modality: unspecified
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-73-p2
+    type: simple
+    text: 前項に規定する医療費とは、医師又は歯科医師による診療又は治療、治療又は療養に必要な医薬品の購入その他医療又はこれに関連する人的役務の提供の対価のうち通常必要であると認められるものとして政令で定めるものをいう。
+    modality: teigi
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-73-p3
+    type: simple
+    text: 第一項の規定による控除は、医療費控除という。
+    modality: teigi
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 2
+  shou_name_ja: 第二章　課税標準及びその計算並びに所得控除
+  setsu: 4
+  setsu_name_ja: 第四節　所得控除
+---
+
+# 所得税法 第73条(（医療費控除）)
+
+## 原文 (日本語)
+
+### 第七十三条第一項
+
+<!-- segment: simple id: shotoku-zei-hou-art-73-p1 -->
+居住者が、各年において、自己又は自己と生計を一にする配偶者その他の親族に係る医療費を支払つた場合において、その年中に支払つた当該医療費の金額（保険金、損害賠償金その他これらに類するものにより補てんされる部分の金額を除く。）の合計額がその居住者のその年分の総所得金額、退職所得金額及び山林所得金額の合計額の百分の五に相当する金額（当該金額が十万円を超える場合には、十万円）を超えるときは、その超える部分の金額（当該金額が二百万円を超える場合には、二百万円）を、その居住者のその年分の総所得金額、退職所得金額又は山林所得金額から控除する。
+
+### 第七十三条第二項
+
+<!-- segment: simple id: shotoku-zei-hou-art-73-p2 -->
+前項に規定する医療費とは、医師又は歯科医師による診療又は治療、治療又は療養に必要な医薬品の購入その他医療又はこれに関連する人的役務の提供の対価のうち通常必要であると認められるものとして政令で定めるものをいう。
+
+### 第七十三条第三項
+
+<!-- segment: simple id: shotoku-zei-hou-art-73-p3 -->
+第一項の規定による控除は、医療費控除という。

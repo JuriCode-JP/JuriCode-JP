@@ -1,0 +1,117 @@
+---
+law_id: 426AC0000000068
+law_name_ja: 行政不服審査法
+law_name_en: Administrative Complaint Review Act
+article_number: '78'
+article_id: gyousei-fufuku-shinsa-hou-art-78
+version_date: '2014-06-13'
+source_url: https://laws.e-gov.go.jp/law/426AC0000000068
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: gyousei-fufuku-shinsa-hou-art-78-p1-zen
+    type: zen_dan
+    text: 審査関係人は、審査会に対し、審査会に提出された主張書面若しくは資料の閲覧（電磁的記録にあっては、記録された事項を審査会が定める方法により表示したものの閲覧）又は当該主張書面若しくは当該資料の写し若しくは当該電磁的記録に記録された事項を記載した書面の交付を求めることができる。
+    modality: kanou_kenri
+  - id: gyousei-fufuku-shinsa-hou-art-78-p1-kou
+    type: kou_dan
+    text: この場合において、審査会は、第三者の利益を害するおそれがあると認めるとき、その他正当な理由があるときでなければ、その閲覧又は交付を拒むことができない。
+    modality: kanou_negative
+    depends_on: gyousei-fufuku-shinsa-hou-art-78-p1-zen
+- number: 2
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: gyousei-fufuku-shinsa-hou-art-78-p2-honbun
+    type: honbun
+    text: 審査会は、前項の規定による閲覧をさせ、又は同項の規定による交付をしようとするときは、当該閲覧又は交付に係る主張書面又は資料の提出人の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+  - id: gyousei-fufuku-shinsa-hou-art-78-p2-tadashi
+    type: tadashi
+    text: ただし、審査会が、その必要がないと認めるときは、この限りでない。
+    modality: jogai
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: gyousei-fufuku-shinsa-hou-art-78-p3
+    type: simple
+    text: 審査会は、第一項の規定による閲覧について、日時及び場所を指定することができる。
+    modality: kanou_kenri
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: gyousei-fufuku-shinsa-hou-art-78-p4
+    type: simple
+    text: 第一項の規定による交付を受ける審査請求人又は参加人は、政令で定めるところにより、実費の範囲内において政令で定める額の手数料を納めなければならない。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: gyousei-fufuku-shinsa-hou-art-78-p5
+    type: simple
+    text: 審査会は、経済的困難その他特別の理由があると認めるときは、政令で定めるところにより、前項の手数料を減額し、又は免除することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-administrative
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　行政不服審査会等
+  setsu: 1
+  setsu_name_ja: 第一節　行政不服審査会
+  kan: 2
+  kan_name_ja: 第二款　審査会の調査審議の手続
+---
+
+# 行政不服審査法 第78条(（提出資料の閲覧等）)
+
+## 原文 (日本語)
+
+### 第七十八条第一項
+
+<!-- segment: zen_dan id: gyousei-fufuku-shinsa-hou-art-78-p1-zen -->
+審査関係人は、審査会に対し、審査会に提出された主張書面若しくは資料の閲覧（電磁的記録にあっては、記録された事項を審査会が定める方法により表示したものの閲覧）又は当該主張書面若しくは当該資料の写し若しくは当該電磁的記録に記録された事項を記載した書面の交付を求めることができる。<!-- segment: kou_dan id: gyousei-fufuku-shinsa-hou-art-78-p1-kou depends_on: gyousei-fufuku-shinsa-hou-art-78-p1-zen -->
+この場合において、審査会は、第三者の利益を害するおそれがあると認めるとき、その他正当な理由があるときでなければ、その閲覧又は交付を拒むことができない。
+
+### 第七十八条第二項
+
+<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-78-p2-honbun -->
+審査会は、前項の規定による閲覧をさせ、又は同項の規定による交付をしようとするときは、当該閲覧又は交付に係る主張書面又は資料の提出人の意見を聴かなければならない。<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-78-p2-tadashi -->
+ただし、審査会が、その必要がないと認めるときは、この限りでない。
+
+### 第七十八条第三項
+
+<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-78-p3 -->
+審査会は、第一項の規定による閲覧について、日時及び場所を指定することができる。
+
+### 第七十八条第四項
+
+<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-78-p4 -->
+第一項の規定による交付を受ける審査請求人又は参加人は、政令で定めるところにより、実費の範囲内において政令で定める額の手数料を納めなければならない。
+
+### 第七十八条第五項
+
+<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-78-p5 -->
+審査会は、経済的困難その他特別の理由があると認めるときは、政令で定めるところにより、前項の手数料を減額し、又は免除することができる。

@@ -1,0 +1,46 @@
+---
+law_id: 340AC0000000033
+law_name_ja: 所得税法
+law_name_en: (English name pending)
+article_number: '241'
+article_id: shotoku-zei-hou-art-241
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-241-p1-honbun
+    type: honbun
+    text: 正当な理由がなくて第百二十条第一項（確定所得申告）、第百二十五条第一項（年の中途で死亡した場合の確定申告）、第百二十七条第一項（年の中途で出国をする場合の確定申告）、第百五十一条の四第一項若しくは第二項（相続により取得した有価証券等の取得費の額に変更があつた場合等の修正申告の特例）、第百五十一条の五第一項（遺産分割等があつた場合の期限後申告等の特例）若しくは第百五十一条の六第一項（遺産分割等があつた場合の修正申告の特例）（これらの規定を第百六十六条（申告、納付及び還付）において準用する場合を含む。）又は第百七十二条第一項（給与等につき源泉徴収を受けない場合の申告）の規定による申告書をその提出期限までに提出しなかつた者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
+  - id: shotoku-zei-hou-art-241-p1-tadashi
+    type: tadashi
+    text: ただし、情状により、その刑を免除することができる。
+    modality: kanou_kenri
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 6
+  hen_name_ja: 第六編　罰則
+---
+
+# 所得税法 第241条
+
+## 原文 (日本語)
+
+### 第二百四十一条
+
+<!-- segment: honbun id: shotoku-zei-hou-art-241-p1-honbun -->
+正当な理由がなくて第百二十条第一項（確定所得申告）、第百二十五条第一項（年の中途で死亡した場合の確定申告）、第百二十七条第一項（年の中途で出国をする場合の確定申告）、第百五十一条の四第一項若しくは第二項（相続により取得した有価証券等の取得費の額に変更があつた場合等の修正申告の特例）、第百五十一条の五第一項（遺産分割等があつた場合の期限後申告等の特例）若しくは第百五十一条の六第一項（遺産分割等があつた場合の修正申告の特例）（これらの規定を第百六十六条（申告、納付及び還付）において準用する場合を含む。）又は第百七十二条第一項（給与等につき源泉徴収を受けない場合の申告）の規定による申告書をその提出期限までに提出しなかつた者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。<!-- segment: tadashi id: shotoku-zei-hou-art-241-p1-tadashi -->
+ただし、情状により、その刑を免除することができる。

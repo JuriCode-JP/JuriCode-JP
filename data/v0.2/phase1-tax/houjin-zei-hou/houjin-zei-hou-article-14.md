@@ -1,0 +1,159 @@
+---
+law_id: 340AC0000000034
+law_name_ja: 法人税法
+law_name_en: (English name pending)
+article_number: '14'
+article_id: houjin-zei-hou-art-14
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-14-p1
+    type: tokusoku
+    text: 次の各号に掲げる事実が生じた場合には、その事実が生じた法人の事業年度は、前条第一項の規定にかかわらず、当該各号に定める日に終了し、これに続く事業年度は、第二号又は第五号に掲げる事実が生じた場合を除き、同日の翌日から開始するものとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-14-p2
+    type: tokusoku
+    text: 通算親法人について第六十四条の十第五項又は第六項（第三号、第四号又は第七号に係る部分に限る。）（通算制度の取りやめ等）の規定により第六十四条の九第一項（通算承認）の規定による承認が効力を失つた場合には、当該通算親法人であつた内国法人の事業年度は、前条第一項の規定にかかわらず、その効力を失つた日の前日に終了し、これに続く事業年度は、当該効力を失つた日から開始するものとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-14-p3
+    type: simple
+    text: 通算子法人で当該通算子法人に係る通算親法人の事業年度開始の時に当該通算親法人との間に通算完全支配関係があるものの事業年度は、当該開始の日に開始するものとし、通算子法人で当該通算子法人に係る通算親法人の事業年度終了の時に当該通算親法人との間に通算完全支配関係があるものの事業年度は、当該終了の日に終了するものとする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-14-p4-hashira
+    type: hashira
+    text: 次の各号に掲げる事実が生じた場合には、その事実が生じた内国法人の事業年度は、当該各号に定める日の前日に終了し、これに続く事業年度は、第二号の内国法人の合併による解散又は残余財産の確定に基因して同号に掲げる事実が生じた場合を除き、当該各号に定める日から開始するものとする。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-14-p5-hashira
+    type: hashira
+    text: 次の各号に掲げる内国法人の事業年度は、当該各号に定める日の前日に終了し、これに続く事業年度は、当該各号に定める日から開始するものとする。
+    modality: gimu
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-14-p6
+    type: simple
+    text: 前項の場合において、同項各号に掲げる内国法人が第六十四条の九第一項の規定による承認を受けなかつたとき、又は前項各号に掲げる内国法人が同条第十項第一号若しくは第十二項第一号に掲げる法人に該当するときは、これらの内国法人の前項各号に定める日から開始する事業年度は、申請特例年度終了の日（同日前にこれらの内国法人の合併による解散又は残余財産の確定により当該各号の親法人との間に完全支配関係を有しなくなつた場合（以下この項において「合併による解散等の場合」という。）には、その有しなくなつた日の前日。次項において「終了等の日」という。）に終了し、これに続く事業年度は、合併による解散等の場合を除き、当該申請特例年度終了の日の翌日から開始するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+    - 次項
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-14-p7
+    type: simple
+    text: 内国法人の通算子法人に該当する期間（第五項各号に掲げる内国法人の当該各号に定める日から終了等の日までの期間を含む。）については、前条第一項及び第一項の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前条
+- number: 8
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-14-p8-hashira
+    type: hashira
+    text: 内国法人が、通算親法人との間に当該通算親法人による完全支配関係を有することとなり、又は親法人の申請特例年度の期間内に当該親法人との間に当該親法人による完全支配関係を有することとなつた場合において、当該内国法人のこの項の規定の適用がないものとした場合に加入日（これらの完全支配関係を有することとなつた日をいう。第一号において同じ。）の前日の属する事業年度に係る第七十四条第一項（確定申告）の規定による申告書の提出期限となる日までに、当該通算親法人又は親法人（第一号において「通算親法人等」という。）がこの項の規定の適用を受ける旨、同号イ又はロに掲げる期間その他財務省令で定める事項を記載した書類を納税地の所轄税務署長に提出したときは、第四項（第一号に係る部分に限る。）、第五項（第二号に係る部分に限る。）及び前二項の規定の適用については、次の各号に掲げる場合の区分に応じ当該各号に定めるところによる。
+    modality: unspecified
+    references:
+    - 前二項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 1
+  hen_name_ja: 第一編　総則
+  shou: 5
+  shou_name_ja: 第五章　事業年度等
+---
+
+# 法人税法 第14条(（事業年度の特例）)
+
+## 原文 (日本語)
+
+### 第十四条第一項
+
+<!-- segment: tokusoku id: houjin-zei-hou-art-14-p1 override_flag: true override_target: 前条 -->
+<!-- segment: hashira id: houjin-zei-hou-art-14-p4-hashira -->
+次の各号に掲げる事実が生じた場合には、その事実が生じた法人の事業年度は、前条第一項の規定にかかわらず、当該各号に定める日に終了し、これに続く事業年度は、第二号又は第五号に掲げる事実が生じた場合を除き、同日の翌日から開始するものとする。
+
+### 第十四条第二項
+
+<!-- segment: tokusoku id: houjin-zei-hou-art-14-p2 override_flag: true override_target: 前条 -->
+通算親法人について第六十四条の十第五項又は第六項（第三号、第四号又は第七号に係る部分に限る。）（通算制度の取りやめ等）の規定により第六十四条の九第一項（通算承認）の規定による承認が効力を失つた場合には、当該通算親法人であつた内国法人の事業年度は、前条第一項の規定にかかわらず、その効力を失つた日の前日に終了し、これに続く事業年度は、当該効力を失つた日から開始するものとする。
+
+### 第十四条第三項
+
+<!-- segment: simple id: houjin-zei-hou-art-14-p3 -->
+通算子法人で当該通算子法人に係る通算親法人の事業年度開始の時に当該通算親法人との間に通算完全支配関係があるものの事業年度は、当該開始の日に開始するものとし、通算子法人で当該通算子法人に係る通算親法人の事業年度終了の時に当該通算親法人との間に通算完全支配関係があるものの事業年度は、当該終了の日に終了するものとする。
+
+### 第十四条第四項
+
+次の各号に掲げる事実が生じた場合には、その事実が生じた内国法人の事業年度は、当該各号に定める日の前日に終了し、これに続く事業年度は、第二号の内国法人の合併による解散又は残余財産の確定に基因して同号に掲げる事実が生じた場合を除き、当該各号に定める日から開始するものとする。
+
+### 第十四条第五項
+
+<!-- segment: hashira id: houjin-zei-hou-art-14-p5-hashira -->
+次の各号に掲げる内国法人の事業年度は、当該各号に定める日の前日に終了し、これに続く事業年度は、当該各号に定める日から開始するものとする。
+
+### 第十四条第六項
+
+<!-- segment: simple id: houjin-zei-hou-art-14-p6 -->
+前項の場合において、同項各号に掲げる内国法人が第六十四条の九第一項の規定による承認を受けなかつたとき、又は前項各号に掲げる内国法人が同条第十項第一号若しくは第十二項第一号に掲げる法人に該当するときは、これらの内国法人の前項各号に定める日から開始する事業年度は、申請特例年度終了の日（同日前にこれらの内国法人の合併による解散又は残余財産の確定により当該各号の親法人との間に完全支配関係を有しなくなつた場合（以下この項において「合併による解散等の場合」という。）には、その有しなくなつた日の前日。次項において「終了等の日」という。）に終了し、これに続く事業年度は、合併による解散等の場合を除き、当該申請特例年度終了の日の翌日から開始するものとする。
+
+### 第十四条第七項
+
+<!-- segment: simple id: houjin-zei-hou-art-14-p7 -->
+内国法人の通算子法人に該当する期間（第五項各号に掲げる内国法人の当該各号に定める日から終了等の日までの期間を含む。）については、前条第一項及び第一項の規定は、適用しない。
+
+### 第十四条第八項
+
+<!-- segment: hashira id: houjin-zei-hou-art-14-p8-hashira -->
+内国法人が、通算親法人との間に当該通算親法人による完全支配関係を有することとなり、又は親法人の申請特例年度の期間内に当該親法人との間に当該親法人による完全支配関係を有することとなつた場合において、当該内国法人のこの項の規定の適用がないものとした場合に加入日（これらの完全支配関係を有することとなつた日をいう。第一号において同じ。）の前日の属する事業年度に係る第七十四条第一項（確定申告）の規定による申告書の提出期限となる日までに、当該通算親法人又は親法人（第一号において「通算親法人等」という。）がこの項の規定の適用を受ける旨、同号イ又はロに掲げる期間その他財務省令で定める事項を記載した書類を納税地の所轄税務署長に提出したときは、第四項（第一号に係る部分に限る。）、第五項（第二号に係る部分に限る。）及び前二項の規定の適用については、次の各号に掲げる場合の区分に応じ当該各号に定めるところによる。

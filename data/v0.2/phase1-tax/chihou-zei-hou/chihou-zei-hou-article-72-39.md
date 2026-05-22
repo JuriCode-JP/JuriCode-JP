@@ -1,0 +1,58 @@
+---
+law_id: 325AC0000000226
+law_name_ja: 地方税法
+law_name_en: (English name pending)
+article_number: 72-39
+article_id: chihou-zei-hou-art-72-39
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325AC0000000226
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　道府県の普通税
+  setsu: 2
+  setsu_name_ja: 第二節　事業税
+  kan: 2
+  kan_name_ja: 第二款　法人の事業税に係る課税標準及び税率等
+---
+
+# 地方税法 第72-39条(（法人税の更正、決定等に係る課税標準を基準とする所得割の更正及び決定）)
+
+## 原文 (日本語)
+
+### 第七十二条の三十九第一項
+
+道府県知事は、事業を行う法人で事業税の納税義務があるもの（第七十二条の四十一第一項第一号に掲げる法人を除く。）が申告書又は修正申告書を提出した場合において、当該申告又は修正申告に係る所得割の課税標準である所得が、当該法人の当該所得割の計算の基礎となつた事業年度に係る法人税の申告若しくは修正申告又は更正若しくは決定において課税標準とされた所得（以下この条において「法人税の課税標準」という。）を基準として算定した所得割の課税標準である所得（以下この項において「所得割の基準課税標準」という。）と異なることを発見したときは、当該所得割の基準課税標準により、当該申告又は修正申告に係る所得割の計算の基礎となつた所得及び所得割額を更正するものとし、申告書又は修正申告書に記載された所得割額の算定について誤りがあることを発見したときは、所得割額を更正するものとする。
+
+### 第七十二条の三十九第二項
+
+道府県知事は、前項の法人が申告書を提出しなかつた場合（第七十二条の二十六第五項の規定により申告書の提出があつたものとみなされる場合を除く。）において、当該法人の当該事業年度に係る法人税の課税標準があるときは、当該法人税の課税標準を基準として、当該法人の所得割に係る所得及び所得割額を決定するものとする。
+
+### 第七十二条の三十九第三項
+
+道府県知事は、前二項又はこの項の規定により当該法人の当該所得割に係る所得及び所得割額を更正し、又は決定した場合において、法人税に係る更正又は修正申告があつたことにより当該更正又は決定の基準となつた当該法人の法人税の課税標準が増加し、又は減少したときは、当該増加し、又は減少した法人税の課税標準を基準として、当該所得割に係る所得及び所得割額を更正するものとし、当該更正し、又は決定した所得割額の算定について誤りがあることを発見したときは、当該所得割額を更正するものとする。

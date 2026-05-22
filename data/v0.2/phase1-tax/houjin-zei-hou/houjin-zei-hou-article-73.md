@@ -1,0 +1,47 @@
+---
+law_id: 340AC0000000034
+law_name_ja: 法人税法
+law_name_en: (English name pending)
+article_number: '73'
+article_id: houjin-zei-hou-art-73
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000034
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-art-73-p1
+    type: simple
+    text: 中間申告書を提出すべき内国法人である普通法人がその中間申告書をその提出期限までに提出しなかつた場合には、その普通法人については、その提出期限において、税務署長に対し第七十一条第一項各号（前期の実績による中間申告書の記載事項）に掲げる事項を記載した中間申告書の提出があつたものとみなして、この法律の規定を適用する。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　内国法人の法人税
+  shou: 1
+  shou_name_ja: 第一章　各事業年度の所得に対する法人税
+  setsu: 3
+  setsu_name_ja: 第三節　申告、納付及び還付等
+  kan: 1
+  kan_name_ja: 第一款　中間申告
+---
+
+# 法人税法 第73条(（中間申告書の提出がない場合の特例）)
+
+## 原文 (日本語)
+
+### 第七十三条
+
+<!-- segment: simple id: houjin-zei-hou-art-73-p1 -->
+中間申告書を提出すべき内国法人である普通法人がその中間申告書をその提出期限までに提出しなかつた場合には、その普通法人については、その提出期限において、税務署長に対し第七十一条第一項各号（前期の実績による中間申告書の記載事項）に掲げる事項を記載した中間申告書の提出があつたものとみなして、この法律の規定を適用する。

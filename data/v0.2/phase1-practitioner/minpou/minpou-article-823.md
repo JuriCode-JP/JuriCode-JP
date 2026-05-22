@@ -1,0 +1,61 @@
+---
+law_id: 129AC0000000089
+law_name_ja: 民法
+law_name_en: Civil Code
+article_number: '823'
+article_id: minpou-art-823
+version_date: '1896-04-27'
+source_url: https://laws.e-gov.go.jp/law/129AC0000000089
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-823-p1
+    type: simple
+    text: 子は、親権を行う者の許可を得なければ、職業を営むことができない。
+    modality: kanou_negative
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-823-p2
+    type: simple
+    text: 親権を行う者は、第六条第二項の場合には、前項の許可を取り消し、又はこれを制限することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-practitioner
+- auto-generated
+parent_section:
+  hen: 4
+  hen_name_ja: 第四編　親族
+  shou: 4
+  shou_name_ja: 第四章　親権
+  setsu: 2
+  setsu_name_ja: 第二節　親権の効力
+---
+
+# 民法 第823条(（職業の許可）)
+
+## 原文 (日本語)
+
+### 第八百二十三条第一項
+
+<!-- segment: simple id: minpou-art-823-p1 -->
+子は、親権を行う者の許可を得なければ、職業を営むことができない。
+
+### 第八百二十三条第二項
+
+<!-- segment: simple id: minpou-art-823-p2 -->
+親権を行う者は、第六条第二項の場合には、前項の許可を取り消し、又はこれを制限することができる。

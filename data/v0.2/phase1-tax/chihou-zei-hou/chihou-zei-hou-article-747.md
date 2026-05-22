@@ -1,0 +1,51 @@
+---
+law_id: 325AC0000000226
+law_name_ja: 地方税法
+law_name_en: (English name pending)
+article_number: '747'
+article_id: chihou-zei-hou-art-747
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325AC0000000226
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-art-747-p1-zen
+    type: zen_dan
+    text: 第三百四十九条の四、第三百四十九条の五及び第七百四十条から前条までの規定は、一月二日以後四月一日以前において地方自治法第二百五十二条の十九第一項の規定により指定された市に所在する大規模の償却資産に対して課する固定資産税については、当該指定された日（以下「指定日」という。）の属する年の四月一日の属する年度分の固定資産税に限り、適用しないものとする。
+    modality: gimu
+    references:
+    - 前条
+  - id: chihou-zei-hou-art-747-p1-kou
+    type: kou_dan
+    text: この場合において、指定日前に当該固定資産税について第七百四十三条第一項若しくは第二項又は第七百四十五条の規定により道府県知事又は道府県の徴税吏員がした行為及び納税義務者が道府県知事に対してした行為は第三章第二節の規定により当該市の長又は徴税吏員がした行為及び当該市の長に対してした行為と、指定日前における当該償却資産の価格等の決定又は修正に対する審査請求は第四百三十二条第一項の規定による審査の申出と、指定日前における当該審査請求に対する裁決は第四百三十三条第一項の規定による審査の決定とみなす。
+    modality: unspecified
+    depends_on: chihou-zei-hou-art-747-p1-zen
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　都等の特例等
+  setsu: 3
+  setsu_name_ja: 第三節　固定資産税の特例
+---
+
+# 地方税法 第747条(（指定都市の指定があつた場合の大規模の償却資産に対する固定資産税の特例）)
+
+## 原文 (日本語)
+
+### 第七百四十七条
+
+<!-- segment: zen_dan id: chihou-zei-hou-art-747-p1-zen -->
+第三百四十九条の四、第三百四十九条の五及び第七百四十条から前条までの規定は、一月二日以後四月一日以前において地方自治法第二百五十二条の十九第一項の規定により指定された市に所在する大規模の償却資産に対して課する固定資産税については、当該指定された日（以下「指定日」という。）の属する年の四月一日の属する年度分の固定資産税に限り、適用しないものとする。<!-- segment: kou_dan id: chihou-zei-hou-art-747-p1-kou depends_on: chihou-zei-hou-art-747-p1-zen -->
+この場合において、指定日前に当該固定資産税について第七百四十三条第一項若しくは第二項又は第七百四十五条の規定により道府県知事又は道府県の徴税吏員がした行為及び納税義務者が道府県知事に対してした行為は第三章第二節の規定により当該市の長又は徴税吏員がした行為及び当該市の長に対してした行為と、指定日前における当該償却資産の価格等の決定又は修正に対する審査請求は第四百三十二条第一項の規定による審査の申出と、指定日前における当該審査請求に対する裁決は第四百三十三条第一項の規定による審査の決定とみなす。

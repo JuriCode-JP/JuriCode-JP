@@ -1,0 +1,55 @@
+---
+law_id: 322AC0000000049
+law_name_ja: 労働基準法
+law_name_en: (English name pending)
+article_number: '83'
+article_id: roudou-kijun-hou-art-83
+version_date: '1947-04-07'
+source_url: https://laws.e-gov.go.jp/law/322AC0000000049
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-83-p1
+    type: simple
+    text: 補償を受ける権利は、労働者の退職によつて変更されることはない。
+    modality: unspecified
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: roudou-kijun-hou-art-83-p2
+    type: simple
+    text: 補償を受ける権利は、これを譲渡し、又は差し押えてはならない。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 8
+  shou_name_ja: 第八章　災害補償
+---
+
+# 労働基準法 第83条(（補償を受ける権利）)
+
+## 原文 (日本語)
+
+### 第八十三条第一項
+
+<!-- segment: simple id: roudou-kijun-hou-art-83-p1 -->
+補償を受ける権利は、労働者の退職によつて変更されることはない。
+
+### 第八十三条第二項
+
+<!-- segment: simple id: roudou-kijun-hou-art-83-p2 -->
+補償を受ける権利は、これを譲渡し、又は差し押えてはならない。

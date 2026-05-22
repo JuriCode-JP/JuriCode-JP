@@ -1,0 +1,135 @@
+---
+law_id: 340AC0000000033
+law_name_ja: 所得税法
+law_name_en: (English name pending)
+article_number: '52'
+article_id: shotoku-zei-hou-art-52
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340AC0000000033
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-52-p1-honbun
+    type: honbun
+    text: 不動産所得、事業所得又は山林所得を生ずべき事業を営む居住者が、その有する売掛金、貸付金、前渡金その他これらに準ずる金銭債権（債券に表示されるべきものを除く。次項において同じ。）で当該事業の遂行上生じたもの（以下この項において「貸金等」という。）のうち、更生計画認可の決定に基づいて弁済を猶予され、又は賦払により弁済されることその他の政令で定める事実が生じていることによりその一部につき貸倒れその他これに類する事由による損失が見込まれるもの（当該貸金等に係る債務者に対する他の貸金等がある場合には、当該他の貸金等を含む。以下この項及び次項において「個別評価貸金等」という。）のその損失の見込額として、各年（事業の全部を譲渡し、又は廃止した日の属する年を除く。次項において同じ。）において貸倒引当金勘定に繰り入れた金額については、当該金額のうち、その年十二月三十一日（その者が年の中途において死亡した場合には、その死亡の時。次項において同じ。）において当該個別評価貸金等の取立て又は弁済の見込みがないと認められる部分の金額を基礎として政令で定めるところにより計算した金額に達するまでの金額は、その者のその年分の不動産所得、事業所得又は山林所得の金額の計算上、必要経費に算入する。
+    modality: unspecified
+    references:
+    - 次項
+  - id: shotoku-zei-hou-art-52-p1-tadashi
+    type: tadashi
+    text: ただし、その者が死亡した場合において、その相続人が当該事業を承継しなかつたときは、この限りでない。
+    modality: jogai
+- number: 2
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-52-p2-honbun
+    type: honbun
+    text: 青色申告書を提出する居住者で事業所得を生ずべき事業を営むものが、その有する売掛金、貸付金その他これらに準ずる金銭債権で当該事業の遂行上生じたもの（個別評価貸金等を除く。以下この項において「一括評価貸金」という。）の貸倒れによる損失の見込額として、各年において貸倒引当金勘定に繰り入れた金額については、当該金額のうち、その年十二月三十一日において有する一括評価貸金の額を基礎として政令で定めるところにより計算した金額に達するまでの金額は、その者のその年分の事業所得の金額の計算上、必要経費に算入する。
+    modality: unspecified
+  - id: shotoku-zei-hou-art-52-p2-tadashi
+    type: tadashi
+    text: ただし、その者が死亡した場合において、その相続人が当該事業を承継しなかつたとき、その他政令で定める場合は、この限りでない。
+    modality: jogai
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-52-p3
+    type: simple
+    text: 前二項の規定によりその繰入れをした年分の不動産所得の金額、事業所得の金額又は山林所得の金額の計算上必要経費に算入された貸倒引当金勘定の金額は、その繰入れをした年の翌年分の不動産所得の金額、事業所得の金額又は山林所得の金額の計算上、総収入金額に算入する。
+    modality: unspecified
+    references:
+    - 前二項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-52-p4
+    type: simple
+    text: 第一項及び第二項の規定は、確定申告書に貸倒引当金勘定に繰り入れた金額の必要経費への算入に関する明細の記載がある場合に限り、適用する。
+    modality: unspecified
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-52-p5
+    type: simple
+    text: 税務署長は、前項の記載がない確定申告書の提出があつた場合においても、その記載がなかつたことについてやむを得ない事情があると認めるときは、第一項又は第二項の規定を適用することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-art-52-p6
+    type: simple
+    text: 第一項又は第二項に規定する居住者が死亡した場合において、これらの規定によりその者の死亡の日の属する年分の不動産所得の金額、事業所得の金額又は山林所得の金額の計算上必要経費に算入された貸倒引当金勘定の金額があるときにおける当該貸倒引当金勘定の金額の処理に関し必要な事項は、政令で定める。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 2
+  shou_name_ja: 第二章　課税標準及びその計算並びに所得控除
+  setsu: 2
+  setsu_name_ja: 第二節　各種所得の金額の計算
+  kan: 4
+  kan_name_ja: 第四款　必要経費等の計算
+  moku: 4
+  moku_name_ja: 第四目　引当金
+---
+
+# 所得税法 第52条(（貸倒引当金）)
+
+## 原文 (日本語)
+
+### 第五十二条第一項
+
+<!-- segment: honbun id: shotoku-zei-hou-art-52-p1-honbun -->
+不動産所得、事業所得又は山林所得を生ずべき事業を営む居住者が、その有する売掛金、貸付金、前渡金その他これらに準ずる金銭債権（債券に表示されるべきものを除く。次項において同じ。）で当該事業の遂行上生じたもの（以下この項において「貸金等」という。）のうち、更生計画認可の決定に基づいて弁済を猶予され、又は賦払により弁済されることその他の政令で定める事実が生じていることによりその一部につき貸倒れその他これに類する事由による損失が見込まれるもの（当該貸金等に係る債務者に対する他の貸金等がある場合には、当該他の貸金等を含む。以下この項及び次項において「個別評価貸金等」という。）のその損失の見込額として、各年（事業の全部を譲渡し、又は廃止した日の属する年を除く。次項において同じ。）において貸倒引当金勘定に繰り入れた金額については、当該金額のうち、その年十二月三十一日（その者が年の中途において死亡した場合には、その死亡の時。次項において同じ。）において当該個別評価貸金等の取立て又は弁済の見込みがないと認められる部分の金額を基礎として政令で定めるところにより計算した金額に達するまでの金額は、その者のその年分の不動産所得、事業所得又は山林所得の金額の計算上、必要経費に算入する。<!-- segment: tadashi id: shotoku-zei-hou-art-52-p1-tadashi -->
+<!-- segment: tadashi id: shotoku-zei-hou-art-52-p2-tadashi -->
+ただし、その者が死亡した場合において、その相続人が当該事業を承継しなかつたときは、この限りでない。
+
+### 第五十二条第二項
+
+<!-- segment: honbun id: shotoku-zei-hou-art-52-p2-honbun -->
+青色申告書を提出する居住者で事業所得を生ずべき事業を営むものが、その有する売掛金、貸付金その他これらに準ずる金銭債権で当該事業の遂行上生じたもの（個別評価貸金等を除く。以下この項において「一括評価貸金」という。）の貸倒れによる損失の見込額として、各年において貸倒引当金勘定に繰り入れた金額については、当該金額のうち、その年十二月三十一日において有する一括評価貸金の額を基礎として政令で定めるところにより計算した金額に達するまでの金額は、その者のその年分の事業所得の金額の計算上、必要経費に算入する。ただし、その者が死亡した場合において、その相続人が当該事業を承継しなかつたとき、その他政令で定める場合は、この限りでない。
+
+### 第五十二条第三項
+
+<!-- segment: simple id: shotoku-zei-hou-art-52-p3 -->
+前二項の規定によりその繰入れをした年分の不動産所得の金額、事業所得の金額又は山林所得の金額の計算上必要経費に算入された貸倒引当金勘定の金額は、その繰入れをした年の翌年分の不動産所得の金額、事業所得の金額又は山林所得の金額の計算上、総収入金額に算入する。
+
+### 第五十二条第四項
+
+<!-- segment: simple id: shotoku-zei-hou-art-52-p4 -->
+第一項及び第二項の規定は、確定申告書に貸倒引当金勘定に繰り入れた金額の必要経費への算入に関する明細の記載がある場合に限り、適用する。
+
+### 第五十二条第五項
+
+<!-- segment: simple id: shotoku-zei-hou-art-52-p5 -->
+税務署長は、前項の記載がない確定申告書の提出があつた場合においても、その記載がなかつたことについてやむを得ない事情があると認めるときは、第一項又は第二項の規定を適用することができる。
+
+### 第五十二条第六項
+
+<!-- segment: simple id: shotoku-zei-hou-art-52-p6 -->
+第一項又は第二項に規定する居住者が死亡した場合において、これらの規定によりその者の死亡の日の属する年分の不動産所得の金額、事業所得の金額又は山林所得の金額の計算上必要経費に算入された貸倒引当金勘定の金額があるときにおける当該貸倒引当金勘定の金額の処理に関し必要な事項は、政令で定める。

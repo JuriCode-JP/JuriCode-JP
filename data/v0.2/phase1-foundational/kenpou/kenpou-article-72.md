@@ -1,0 +1,41 @@
+---
+law_id: 321CONSTITUTION
+law_name_ja: 日本国憲法
+law_name_en: (English name pending)
+article_number: '72'
+article_id: kenpou-art-72
+version_date: '1946-11-03'
+source_url: https://laws.e-gov.go.jp/law/321CONSTITUTION
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kenpou-art-72-p1
+    type: simple
+    text: 内閣総理大臣は、内閣を代表して議案を国会に提出し、一般国務及び外交関係について国会に報告し、並びに行政各部を指揮監督する。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　内閣
+---
+
+# 日本国憲法 第72条
+
+## 原文 (日本語)
+
+### 第七十二条
+
+<!-- segment: simple id: kenpou-art-72-p1 -->
+内閣総理大臣は、内閣を代表して議案を国会に提出し、一般国務及び外交関係について国会に報告し、並びに行政各部を指揮監督する。

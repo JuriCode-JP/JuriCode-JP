@@ -1,0 +1,57 @@
+---
+law_id: 129AC0000000089
+law_name_ja: 民法
+law_name_en: Civil Code
+article_number: '88'
+article_id: minpou-art-88
+version_date: '1896-04-27'
+source_url: https://laws.e-gov.go.jp/law/129AC0000000089
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-88-p1
+    type: simple
+    text: 物の用法に従い収取する産出物を天然果実とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-88-p2
+    type: simple
+    text: 物の使用の対価として受けるべき金銭その他の物を法定果実とする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-practitioner
+- auto-generated
+parent_section:
+  hen: 1
+  hen_name_ja: 第一編　総則
+  shou: 4
+  shou_name_ja: 第四章　物
+---
+
+# 民法 第88条(（天然果実及び法定果実）)
+
+## 原文 (日本語)
+
+### 第八十八条第一項
+
+<!-- segment: simple id: minpou-art-88-p1 -->
+物の用法に従い収取する産出物を天然果実とする。
+
+### 第八十八条第二項
+
+<!-- segment: simple id: minpou-art-88-p2 -->
+物の使用の対価として受けるべき金銭その他の物を法定果実とする。

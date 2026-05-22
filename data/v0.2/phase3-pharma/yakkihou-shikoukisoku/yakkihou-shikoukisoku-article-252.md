@@ -1,0 +1,41 @@
+---
+law_id: 336M50000100001
+law_name_ja: 医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律施行規則
+law_name_en: (English name pending)
+article_number: '252'
+article_id: yakkihou-shikoukisoku-art-252
+version_date: '1961-02-01'
+source_url: https://laws.e-gov.go.jp/law/336M50000100001
+source_format: e-gov-xml
+last_verified: '2026-05-21'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: yakkihou-shikoukisoku-art-252-p1
+    type: simple
+    text: 法第七十七条の五の規定による希少疾病用医薬品、希少疾病用医療機器若しくは希少疾病用再生医療等製品、先駆的医薬品、先駆的医療機器若しくは先駆的再生医療等製品又は特定用途医薬品、特定用途医療機器若しくは特定用途再生医療等製品の試験研究又は製造販売若しくは製造の中止の届出は、様式第百八による届書を提出することによつて行うものとする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-police
+- auto-generated
+parent_section:
+  shou: 13
+  shou_name_ja: 第十三章　希少疾病用医薬品、希少疾病用医療機器及び希少疾病用再生医療等製品等の指定等
+---
+
+# 医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律施行規則 第252条(（試験研究等の中止の届出）)
+
+## 原文 (日本語)
+
+### 第二百五十二条
+
+<!-- segment: simple id: yakkihou-shikoukisoku-art-252-p1 -->
+法第七十七条の五の規定による希少疾病用医薬品、希少疾病用医療機器若しくは希少疾病用再生医療等製品、先駆的医薬品、先駆的医療機器若しくは先駆的再生医療等製品又は特定用途医薬品、特定用途医療機器若しくは特定用途再生医療等製品の試験研究又は製造販売若しくは製造の中止の届出は、様式第百八による届書を提出することによつて行うものとする。

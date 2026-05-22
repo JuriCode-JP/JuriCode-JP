@@ -1,0 +1,48 @@
+---
+law_id: 129AC0000000089
+law_name_ja: 民法
+law_name_en: Civil Code
+article_number: '949'
+article_id: minpou-art-949
+version_date: '1896-04-27'
+source_url: https://laws.e-gov.go.jp/law/129AC0000000089
+source_format: e-gov-xml
+last_verified: '2026-05-19'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: minpou-art-949-p1-honbun
+    type: honbun
+    text: 相続人は、その固有財産をもって相続債権者若しくは受遺者に弁済をし、又はこれに相当の担保を供して、財産分離の請求を防止し、又はその効力を消滅させることができる。
+    modality: kanou_kenri
+  - id: minpou-art-949-p1-tadashi
+    type: tadashi
+    text: ただし、相続人の債権者が、これによって損害を受けるべきことを証明して、異議を述べたときは、この限りでない。
+    modality: jogai
+cases: []
+amendments: []
+tags:
+- phase1-practitioner
+- auto-generated
+parent_section:
+  hen: 5
+  hen_name_ja: 第五編　相続
+  shou: 5
+  shou_name_ja: 第五章　財産分離
+---
+
+# 民法 第949条(（財産分離の請求の防止等）)
+
+## 原文 (日本語)
+
+### 第九百四十九条
+
+<!-- segment: honbun id: minpou-art-949-p1-honbun -->
+相続人は、その固有財産をもって相続債権者若しくは受遺者に弁済をし、又はこれに相当の担保を供して、財産分離の請求を防止し、又はその効力を消滅させることができる。<!-- segment: tadashi id: minpou-art-949-p1-tadashi -->
+ただし、相続人の債権者が、これによって損害を受けるべきことを証明して、異議を述べたときは、この限りでない。

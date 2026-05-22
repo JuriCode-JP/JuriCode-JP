@@ -1,0 +1,50 @@
+---
+law_id: 337AC0000000066
+law_name_ja: 国税通則法
+law_name_en: (English name pending)
+article_number: '25'
+article_id: kokuzei-tsuusoku-hou-art-25
+version_date: '1962-04-02'
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-25-p1-honbun
+    type: honbun
+    text: 税務署長は、納税申告書を提出する義務があると認められる者が当該申告書を提出しなかつた場合には、その調査により、当該申告書に係る課税標準等及び税額等を決定する。
+    modality: unspecified
+  - id: kokuzei-tsuusoku-hou-art-25-p1-tadashi
+    type: tadashi
+    text: ただし、決定により納付すべき税額及び還付金の額に相当する税額が生じないときは、この限りでない。
+    modality: jogai
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　国税の納付義務の確定
+  setsu: 2
+  setsu_name_ja: 第二節　申告納税方式による国税に係る税額等の確定手続
+  kan: 3
+  kan_name_ja: 第三款　更正又は決定
+---
+
+# 国税通則法 第25条(（決定）)
+
+## 原文 (日本語)
+
+### 第二十五条
+
+<!-- segment: honbun id: kokuzei-tsuusoku-hou-art-25-p1-honbun -->
+税務署長は、納税申告書を提出する義務があると認められる者が当該申告書を提出しなかつた場合には、その調査により、当該申告書に係る課税標準等及び税額等を決定する。<!-- segment: tadashi id: kokuzei-tsuusoku-hou-art-25-p1-tadashi -->
+ただし、決定により納付すべき税額及び還付金の額に相当する税額が生じないときは、この限りでない。

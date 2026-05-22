@@ -1,0 +1,92 @@
+---
+law_id: 337AC0000000066
+law_name_ja: 国税通則法
+law_name_en: (English name pending)
+article_number: '90'
+article_id: kokuzei-tsuusoku-hou-art-90
+version_date: '1962-04-02'
+source_url: https://laws.e-gov.go.jp/law/337AC0000000066
+source_format: e-gov-xml
+last_verified: '2026-05-20'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-90-p1
+    type: simple
+    text: 更正決定等（源泉徴収等による国税に係る納税の告知を含む。以下この条、第百四条（併合審理等）及び第百十五条第一項第二号（不服申立ての前置等）において同じ。）について審査請求がされている場合において、当該更正決定等に係る国税の課税標準等又は税額等（その国税に係る附帯税の額を含む。以下この条、第百四条及び第百十五条第一項第二号において同じ。）についてされた他の更正決定等について税務署長、国税局長又は税関長に対し再調査の請求がされたときは、当該再調査の請求がされた税務署長、国税局長又は税関長は、その再調査の請求書等を国税不服審判所長に送付し、かつ、その旨を再調査の請求人に通知しなければならない。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-90-p2
+    type: simple
+    text: 更正決定等について税務署長、国税局長又は税関長に対し再調査の請求がされている場合において、当該更正決定等に係る国税の課税標準等又は税額等についてされた他の更正決定等について審査請求がされたときは、当該再調査の請求がされている税務署長、国税局長又は税関長は、その再調査の請求書等を国税不服審判所長に送付し、かつ、その旨を再調査の請求人及び参加人に通知しなければならない。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-90-p3
+    type: simple
+    text: 前二項の規定により再調査の請求書等が国税不服審判所長に送付された場合には、その送付がされた日に、国税不服審判所長に対し、当該再調査の請求に係る処分についての審査請求がされたものとみなす。
+    modality: unspecified
+    references:
+    - 前二項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-90-p4
+    type: junyou
+    text: 前条第二項の規定は第一項又は第二項の通知に係る書面について、同条第三項後段の規定は前項の場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 前条
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 8
+  shou_name_ja: 第八章　不服審査及び訴訟
+  setsu: 1
+  setsu_name_ja: 第一節　不服審査
+  kan: 3
+  kan_name_ja: 第三款　審査請求
+---
+
+# 国税通則法 第90条(（他の審査請求に伴うみなす審査請求）)
+
+## 原文 (日本語)
+
+### 第九十条第一項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-art-90-p1 -->
+更正決定等（源泉徴収等による国税に係る納税の告知を含む。以下この条、第百四条（併合審理等）及び第百十五条第一項第二号（不服申立ての前置等）において同じ。）について審査請求がされている場合において、当該更正決定等に係る国税の課税標準等又は税額等（その国税に係る附帯税の額を含む。以下この条、第百四条及び第百十五条第一項第二号において同じ。）についてされた他の<!-- segment: simple id: kokuzei-tsuusoku-hou-art-90-p2 -->
+更正決定等について税務署長、国税局長又は税関長に対し再調査の請求がされたときは、当該再調査の請求がされた税務署長、国税局長又は税関長は、その再調査の請求書等を国税不服審判所長に送付し、かつ、その旨を再調査の請求人に通知しなければならない。
+
+### 第九十条第二項
+
+更正決定等について税務署長、国税局長又は税関長に対し再調査の請求がされている場合において、当該更正決定等に係る国税の課税標準等又は税額等についてされた他の更正決定等について審査請求がされたときは、当該再調査の請求がされている税務署長、国税局長又は税関長は、その再調査の請求書等を国税不服審判所長に送付し、かつ、その旨を再調査の請求人及び参加人に通知しなければならない。
+
+### 第九十条第三項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-art-90-p3 -->
+前二項の規定により再調査の請求書等が国税不服審判所長に送付された場合には、その送付がされた日に、国税不服審判所長に対し、当該再調査の請求に係る処分についての審査請求がされたものとみなす。
+
+### 第九十条第四項
+
+<!-- segment: junyou id: kokuzei-tsuusoku-hou-art-90-p4 -->
+前条第二項の規定は第一項又は第二項の通知に係る書面について、同条第三項後段の規定は前項の場合について準用する。
