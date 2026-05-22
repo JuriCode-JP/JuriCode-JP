@@ -94,23 +94,64 @@ SEGMENT_TYPE_LABEL = {
     "kou": "号",  # item_number で具体化
     "tokusoku": "特則",
     "junyou": "準用",
+    "rollup": "全文",  # 本則 rollup chunk (add_rollup_chunks.py)
 }
+
+
+# Fix 1: supplproviso 固有フィールドを flatten_chunk で pass-through
+SUPPLPROVISO_FIELDS = (
+    "supplproviso_id", "supplproviso_label",
+    "amend_law_num", "amend_era", "amend_year_gengo",
+    "amend_year_seireki", "amend_month", "amend_day", "amend_law_num_int",
+    "enforcement_date", "effective_status",
+    "supplproviso_article_number", "supplproviso_article_caption",
+    "topic",
+    "target_main_articles_raw", "target_main_article_ids",
+)
 
 
 def make_augmented_text(chunk: dict, caption: str | None) -> str:
     """segment text に context prefix を付加."""
     law_name = chunk.get("law_name_ja") or ""
+    segment_type = chunk.get("segment_type") or ""
+    text = chunk.get("text") or ""
+
+    # Fix 2: 附則 (supplproviso / supplproviso_rollup) 用 prefix
+    if segment_type in ("supplproviso", "supplproviso_rollup"):
+        parts: list[str] = []
+        if law_name:
+            parts.append(law_name)
+        parts.append("附則")
+        amend_law_num = chunk.get("amend_law_num")
+        if amend_law_num:
+            parts.append(f"({amend_law_num})")
+        sp_art = chunk.get("supplproviso_article_number")
+        if sp_art:
+            parts.append(f"第{sp_art}条")
+        sp_cap = chunk.get("supplproviso_article_caption")
+        if sp_cap:
+            parts.append(f"({sp_cap})")
+        para = chunk.get("paragraph_number")
+        if para and segment_type == "supplproviso":
+            parts.append(f"第{para}項")
+        topic = chunk.get("topic")
+        if topic and topic not in ("unspecified", "rollup"):
+            parts.append(f"[{topic}]")
+        prefix = " ".join(parts) if parts else ""
+        if prefix:
+            return f"{prefix}\n{text}"
+        return text
+
+    # 本則 (article-based segments) 用 prefix (既存ロジック)
     article_number = chunk.get("article_number") or ""
     paragraph_number = chunk.get("paragraph_number")
-    segment_type = chunk.get("segment_type") or ""
     item_number = chunk.get("item_number")
-    text = chunk.get("text") or ""
 
     seg_label = SEGMENT_TYPE_LABEL.get(segment_type, segment_type)
     if segment_type == "kou" and item_number is not None:
         seg_label = f"第{item_number}号"
 
-    parts: list[str] = []
+    parts = []
     if law_name:
         parts.append(law_name)
     if article_number:
@@ -171,6 +212,10 @@ def flatten_chunk(
         "depends_on": chunk.get("depends_on"),
         "item_number": chunk.get("item_number"),
     }
+    # Fix 1: supplproviso 固有フィールドを pass-through
+    for f in SUPPLPROVISO_FIELDS:
+        if f in chunk:
+            flat[f] = chunk[f]
     return flat
 
 

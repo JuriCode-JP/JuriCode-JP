@@ -67,7 +67,7 @@ RELATIVE_REF_PATTERN = re.compile(
 )
 
 # 項見出し (v0.1 形式)
-PARAGRAPH_HEADING_PATTERN = re.compile(r"^### 第([零〇一二三四五六七八九十百千万]+)条(?:第([零〇一二三四五六七八九十百千万]+)項)?\s*$")
+PARAGRAPH_HEADING_PATTERN = re.compile(r"^### 第([零〇一二三四五六七八九十百千万]+)条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第([零〇一二三四五六七八九十百千万]+)項)?\s*$")
 
 # 漢数字 → アラビア数字
 KANSUJI_TO_INT = {
@@ -331,8 +331,9 @@ def parse_v01_md(md_path: Path) -> tuple[dict, list[ParagraphV02], str]:
     paragraphs_v02: list[ParagraphV02] = []
     paragraph_meta = frontmatter.get("paragraphs", []) or []
 
-    # 「### 第N条第N項」または「### 第N条」見出しを境に body を分割
-    sections = re.split(r"^### 第[零〇一二三四五六七八九十百千万]+条(?:第[零〇一二三四五六七八九十百千万]+項)?\s*$", body, flags=re.MULTILINE)
+    # 「### 第N条第N項」「### 第N条の二第N項」「### 第N条」見出しを境に body を分割
+    # 枝番付き条 (第一条の二、第百九十七条の三) も対応
+    sections = re.split(r"^### 第[零〇一二三四五六七八九十百千万]+条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第[零〇一二三四五六七八九十百千万]+項)?\s*$", body, flags=re.MULTILINE)
     # 最初の要素は見出し前 (通常 ## 原文 などの導入部)
     # sections[0] は捨てて、sections[1:] が各段落本文
     paragraph_bodies = sections[1:]
@@ -599,6 +600,13 @@ def main():
 if __name__ == "__main__":
     sys.exit(main())
 )
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+   print(f"\n=== Errors ({len(errors)}) ===", file=sys.stderr)
+        for e in errors[:10]:
+            print(f"  {e['path']}: {e['error']}", file=sys.stderr)
 
 
 if __name__ == "__main__":
