@@ -351,6 +351,14 @@
           },
           "title": "Items",
           "type": "array"
+        },
+        "segments": {
+          "description": "v0.2 セグメント分解 (空 list の場合は未分解、または分解不要な項)",
+          "items": {
+            "$ref": "#/$defs/Segment"
+          },
+          "title": "Segments",
+          "type": "array"
         }
       },
       "required": [
@@ -571,6 +579,96 @@
       ],
       "title": "Relevance",
       "type": "string"
+    },
+    "Segment": {
+      "additionalProperties": false,
+      "description": "v0.2 セグメント (項を更に細かく分解した単位: 本文/ただし書/柱書/号/前段/後段/特則/準用 等).\n\n`tools/parse/v0.2/segment_parser.py` の `Segment` dataclass と 1:1 対応する Pydantic モデル.",
+      "properties": {
+        "id": {
+          "description": "セグメントの一意 ID",
+          "title": "Id",
+          "type": "string"
+        },
+        "type": {
+          "description": "simple | honbun | tadashi | zen_dan | kou_dan | hashira | kou | tokusoku | junyou",
+          "title": "Type",
+          "type": "string"
+        },
+        "text": {
+          "description": "セグメントの本文",
+          "title": "Text",
+          "type": "string"
+        },
+        "modality": {
+          "default": "unspecified",
+          "description": "モダリティ (義務 / 禁止 / 許可 等)",
+          "title": "Modality",
+          "type": "string"
+        },
+        "item_number": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "号番号 (type=kou のとき)",
+          "title": "Item Number"
+        },
+        "override_flag": {
+          "default": false,
+          "description": "読み替え / みなす規定か",
+          "title": "Override Flag",
+          "type": "boolean"
+        },
+        "override_target": {
+          "description": "読み替え対象の参照",
+          "items": {
+            "type": "string"
+          },
+          "title": "Override Target",
+          "type": "array"
+        },
+        "applies_provisions": {
+          "description": "準用先の規定",
+          "items": {
+            "type": "string"
+          },
+          "title": "Applies Provisions",
+          "type": "array"
+        },
+        "references": {
+          "description": "参照する条文 ID",
+          "items": {
+            "type": "string"
+          },
+          "title": "References",
+          "type": "array"
+        },
+        "depends_on": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "依存する別 segment ID",
+          "title": "Depends On"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "text"
+      ],
+      "title": "Segment",
+      "type": "object"
     },
     "TranslationStatus": {
       "description": "英訳の出所.",

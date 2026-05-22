@@ -40,6 +40,29 @@ class Item(BaseModel):
     text: str = Field("", description="号の本文 (frontmatter では空、body から埋める)")
 
 
+class Segment(BaseModel):
+    """v0.2 セグメント (項を更に細かく分解した単位: 本文/ただし書/柱書/号/前段/後段/特則/準用 等).
+
+    `tools/parse/v0.2/segment_parser.py` の `Segment` dataclass と 1:1 対応する Pydantic モデル.
+    """
+
+    model_config = ConfigDict(extra="forbid")
+
+    id: str = Field(..., description="セグメントの一意 ID")
+    type: str = Field(
+        ...,
+        description="simple | honbun | tadashi | zen_dan | kou_dan | hashira | kou | tokusoku | junyou",
+    )
+    text: str = Field(..., description="セグメントの本文")
+    modality: str = Field("unspecified", description="モダリティ (義務 / 禁止 / 許可 等)")
+    item_number: int | None = Field(None, description="号番号 (type=kou のとき)")
+    override_flag: bool = Field(False, description="読み替え / みなす規定か")
+    override_target: list[str] = Field(default_factory=list, description="読み替え対象の参照")
+    applies_provisions: list[str] = Field(default_factory=list, description="準用先の規定")
+    references: list[str] = Field(default_factory=list, description="参照する条文 ID")
+    depends_on: str | None = Field(None, description="依存する別 segment ID")
+
+
 class Paragraph(BaseModel):
     """項."""
 
@@ -51,6 +74,10 @@ class Paragraph(BaseModel):
     has_items: bool = Field(False, description="各号 (列挙) を含むか")
     is_added_by_amendment: bool = Field(False, description="改正で追加された項か")
     items: list[Item] = Field(default_factory=list, description="号 (列挙) があれば一覧")
+    segments: list[Segment] = Field(
+        default_factory=list,
+        description="v0.2 セグメント分解 (空 list の場合は未分解、または分解不要な項)",
+    )
 
 
 class ParentSection(BaseModel):
