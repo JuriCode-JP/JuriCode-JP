@@ -292,9 +292,10 @@ def main():
     print(f"Embeddings: shape={dense.shape}, model={model_name}", file=sys.stderr)
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    npy = args.output.with_suffix(".npy")
-    meta = args.output.with_suffix(".meta.jsonl")
-    vec = args.output.with_suffix(".vec.pkl")
+    # NOTE: with_suffix() は "v0.2-gemini-17967" のようなドット含み名で壊れるので文字列連結を使う。
+    npy = args.output.parent / (args.output.name + ".npy")
+    meta = args.output.parent / (args.output.name + ".meta.jsonl")
+    vec = args.output.parent / (args.output.name + ".vec.pkl")
 
     np.save(npy, dense)
     print(f"Saved .npy:  {npy} ({dense.nbytes / 1024 / 1024:.1f} MB)", file=sys.stderr)

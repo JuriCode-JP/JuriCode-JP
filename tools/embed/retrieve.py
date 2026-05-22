@@ -397,9 +397,11 @@ def rrf_combine_per_query(dense_top_idx, bm25_top_idx, top_k, k_rrf=60):
 
 
 def _load_artefacts(prefix):
-    npy_path = prefix.with_suffix(".npy")
-    meta_path = prefix.with_suffix(".meta.jsonl")
-    vec_path = prefix.with_suffix(".vec.pkl")
+    # NOTE: with_suffix() は "v0.2-gemini-17967" のようなドット含み名で
+    # ".2-gemini-17967" を suffix と解釈して壊す。文字列連結で回避。
+    npy_path = prefix.parent / (prefix.name + ".npy")
+    meta_path = prefix.parent / (prefix.name + ".meta.jsonl")
+    vec_path = prefix.parent / (prefix.name + ".vec.pkl")
     missing = [str(p) for p in (npy_path, meta_path, vec_path) if not p.exists()]
     if missing:
         raise FileNotFoundError(f"Missing artefact(s): {missing}")
@@ -515,6 +517,41 @@ def _rank_of_first_match(ranked_ids, expected):
     return None
 
 
+def dedup_by_article(top_idx_wide, article_ids, k):
+    """各 query で article_id でユニーク化、上位の rank を維持して unique articles 上位 K 個を返す.
+
+    v0.2 segment-level retrieval を v0.1 article-level Recall と公平比較する用途.
+    同じ article の複数 segment が top に来た場合、最初の (=top rank) segment のみ保持.
+
+    Args:
+        top_idx_wide: (N_queries, M) — dense top-M segment indices (M > K 推奨)
+        article_ids: list[str] — corpus record (segment) 順の article_id
+        k: target number of unique articles to return
+
+    Returns:
+        np.ndarray (N_queries, K) — dedup 後の上位 K segment indices (代表 segment)
+    """
+    n_queries = top_idx_wide.shape[0]
+    out = np.full((n_queries, k), -1, dtype=np.int64)
+    for qi in range(n_queries):
+        seen = set()
+        kept = []
+        for idx in top_idx_wide[qi]:
+            idx_int = int(idx)
+            if idx_int < 0:
+                continue
+            aid = article_ids[idx_int]
+            if aid in seen:
+                continue
+            seen.add(aid)
+            kept.append(idx_int)
+            if len(kept) >= k:
+                break
+        for i, idx_int in enumerate(kept):
+            out[qi, i] = idx_int
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description="Top-K retrieval test on JuriCode-JP.")
     ap.add_argument("--embedded", type=Path, required=True)
@@ -564,6 +601,11 @@ def main():
         default=30,
         help="reranker に渡す dense top-N の N (default: 30)",
     )
+    ap.add_argument(
+        "--dedup-by-article",
+        action="store_true",
+        help="v0.2 segment retrieval を article-level Recall として測定 (同じ article の重複 segment を 1 つにまとめる)",
+    )
     args = ap.parse_args()
 
     try:
@@ -592,30 +634,44 @@ def main():
 
     print("", file=sys.stderr)
 
-    # Dense retrieval
+    # article_ids を先に展開 (dedup_by_article で使う)
+    article_ids = [r.get("article_id") for r in records]
+
+    # Dense retrieval — dedup_by_article 時は候補プールを広めに取る
+    candidate_pool = max(args.top_k * 10, 100) if args.dedup_by_article else max(args.top_k * 3, 30)
     query_matrix = _encode_queries(questions, state)
-    dense_sims, dense_top_idx = _cosine_topk(query_matrix, matrix, max(args.top_k * 3, 30))
+    dense_sims, dense_top_idx = _cosine_topk(query_matrix, matrix, candidate_pool)
 
     # Hybrid (BM25 + Dense via RRF)
+    # dedup_by_article 併用時は wide な候補を維持して後段 dedup に渡す
+    wide_pool = max(args.top_k * 10, 100) if args.dedup_by_article else max(args.top_k * 3, 30)
     if args.hybrid_bm25:
         if not args.bm25_corpus:
             sys.exit("ERROR: --hybrid-bm25 requires --bm25-corpus <path>")
         print(f"Building BM25 index from {args.bm25_corpus} ...", file=sys.stderr)
         index_info, tfidf_matrix, _bm25_article_ids = build_tfidf_index(args.bm25_corpus)
         _bm25_sims, bm25_top_idx = bm25_topk_per_query(
-            questions, index_info, tfidf_matrix, max(args.top_k * 3, 30)
+            questions, index_info, tfidf_matrix, wide_pool
         )
-        # RRF combine
-        top_idx = rrf_combine_per_query(
-            dense_top_idx[:, : max(args.top_k * 3, 30)],
+        # RRF combine — dedup する場合は wide な top_idx_wide を出力
+        result_k = wide_pool if args.dedup_by_article else args.top_k
+        top_idx_wide = rrf_combine_per_query(
+            dense_top_idx[:, :wide_pool],
             bm25_top_idx,
-            args.top_k,
+            result_k,
             k_rrf=args.rrf_k,
         )
+        top_idx = top_idx_wide[:, : args.top_k]
         sims = dense_sims  # for display
     else:
+        top_idx_wide = dense_top_idx
         top_idx = dense_top_idx[:, : args.top_k]
         sims = dense_sims
+
+    # Article-level dedup — hybrid 適用後の top_idx_wide を使う (バグ修正 2026-05-22)
+    if args.dedup_by_article:
+        top_idx = dedup_by_article(top_idx_wide, article_ids, args.top_k)
+        print(f"  [dedup-by-article] top-{args.top_k} = {args.top_k} unique articles", file=sys.stderr)
 
     # Reranker (Cross-encoder)
     if args.reranker:
@@ -636,7 +692,7 @@ def main():
         )
         sims = dense_sims  # for display
 
-    article_ids = [r.get("article_id") for r in records]
+    # article_ids は既に上で展開済
     law_name_ja = [r.get("law_name_ja") for r in records]
     article_number = [r.get("article_number") for r in records]
 
@@ -692,14 +748,17 @@ def main():
 
     # Settings tag for log-friendliness
     settings = []
+    settings = []
     if args.normalize_query:
         settings.append("normalize-query")
     if args.hybrid_bm25:
         settings.append(f"hybrid-bm25(rrf-k={args.rrf_k})")
     if args.reranker:
         settings.append(f"reranker({args.reranker_model.split('/')[-1]})")
+    if args.dedup_by_article:
+        settings.append("dedup-by-article")
     if settings:
-        print(f"  Settings     : {', '.join(settings)}", file=sys.stderr)
+        print(f"  Settings     : {','.join(settings)}", file=sys.stderr)
 
     return 0
 
