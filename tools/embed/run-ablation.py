@@ -28,9 +28,20 @@ from datetime import datetime
 from pathlib import Path
 
 
-def run_one(label, embedded, eval_set, top_k, normalize, hybrid, bm25_corpus, rrf_k,
-            reranker=False, reranker_corpus=None, reranker_model="BAAI/bge-reranker-v2-m3",
-            reranker_candidates=30):
+def run_one(
+    label,
+    embedded,
+    eval_set,
+    top_k,
+    normalize,
+    hybrid,
+    bm25_corpus,
+    rrf_k,
+    reranker=False,
+    reranker_corpus=None,
+    reranker_model="BAAI/bge-reranker-v2-m3",
+    reranker_candidates=30,
+):
     """retrieve.py を 1 設定で実行し、metrics を抽出."""
     cmd = [
         sys.executable,
@@ -97,16 +108,29 @@ def main():
     ap = argparse.ArgumentParser(description="Ablation runner for retrieve.py.")
     ap.add_argument("--embedded", type=Path, required=True)
     ap.add_argument("--eval-set", type=Path, nargs="+", required=True)
-    ap.add_argument("--bm25-corpus", type=Path, required=True,
-                    help="BM25/reranker 用 corpus jsonl (text を読み込む)")
+    ap.add_argument(
+        "--bm25-corpus",
+        type=Path,
+        required=True,
+        help="BM25/reranker 用 corpus jsonl (text を読み込む)",
+    )
     ap.add_argument("--top-k", type=int, default=10)
     ap.add_argument("--rrf-k", type=int, default=60)
-    ap.add_argument("--reranker-corpus", type=Path, default=None,
-                    help="Reranker 用 corpus (デフォルトは --bm25-corpus を流用)")
-    ap.add_argument("--reranker-model", type=str, default="BAAI/bge-reranker-v2-m3",
-                    help="Cross-encoder model ID")
-    ap.add_argument("--reranker-candidates", type=int, default=30,
-                    help="reranker に渡す dense top-N の N")
+    ap.add_argument(
+        "--reranker-corpus",
+        type=Path,
+        default=None,
+        help="Reranker 用 corpus (デフォルトは --bm25-corpus を流用)",
+    )
+    ap.add_argument(
+        "--reranker-model",
+        type=str,
+        default="BAAI/bge-reranker-v2-m3",
+        help="Cross-encoder model ID",
+    )
+    ap.add_argument(
+        "--reranker-candidates", type=int, default=30, help="reranker に渡す dense top-N の N"
+    )
     ap.add_argument("--output", type=Path, default=Path("benchmarks/results/ablation.json"))
     args = ap.parse_args()
 
@@ -138,7 +162,9 @@ def main():
 
     # Pretty print summary table
     print("\n" + "=" * 90, file=sys.stderr)
-    print(f"  {'Setting':22} {'N':>4} {'R@1':>8} {'R@3':>8} {'R@10':>8} {'MRR':>8}", file=sys.stderr)
+    print(
+        f"  {'Setting':22} {'N':>4} {'R@1':>8} {'R@3':>8} {'R@10':>8} {'MRR':>8}", file=sys.stderr
+    )
     print("=" * 90, file=sys.stderr)
     baseline = results[0]
     for r in results:

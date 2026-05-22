@@ -23,10 +23,13 @@ from pathlib import Path
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawTextHelpFormatter
+    )
     parser.add_argument("--training-data", type=Path, required=True)
-    parser.add_argument("--base-model", required=True,
-                        help="local path or HF model id of base cross-encoder")
+    parser.add_argument(
+        "--base-model", required=True, help="local path or HF model id of base cross-encoder"
+    )
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--epochs", type=int, default=2)
     parser.add_argument("--batch-size", type=int, default=16)
@@ -35,17 +38,22 @@ def main():
     parser.add_argument("--warmup-ratio", type=float, default=0.1)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--device", default="cuda")
-    parser.add_argument("--limit", type=int, default=None,
-                        help="limit number of training examples (debug)")
+    parser.add_argument(
+        "--limit", type=int, default=None, help="limit number of training examples (debug)"
+    )
     args = parser.parse_args()
 
     # Import inside main so script can show --help without heavy deps
-    import torch
     from sentence_transformers import CrossEncoder, InputExample
+
     try:
-        from sentence_transformers.cross_encoder.evaluation import CrossEncoderClassificationEvaluator as _Eval
+        from sentence_transformers.cross_encoder.evaluation import (
+            CrossEncoderClassificationEvaluator as _Eval,
+        )
     except ImportError:
-        from sentence_transformers.cross_encoder.evaluation import CEBinaryClassificationEvaluator as _Eval
+        from sentence_transformers.cross_encoder.evaluation import (
+            CEBinaryClassificationEvaluator as _Eval,
+        )
     from torch.utils.data import DataLoader
 
     print(f"=== Loading training data from {args.training_data} ===", file=sys.stderr)
@@ -78,6 +86,7 @@ def main():
 
     # 8:2 split
     import random
+
     random.seed(args.seed)
     random.shuffle(examples)
     split = int(len(examples) * 0.9)
@@ -86,8 +95,9 @@ def main():
     print(f"  train: {len(train_examples)}, eval: {len(eval_examples)}", file=sys.stderr)
 
     print(f"=== Loading base model from {args.base_model} ===", file=sys.stderr)
-    model = CrossEncoder(args.base_model, num_labels=1, device=args.device,
-                         max_length=args.max_length)
+    model = CrossEncoder(
+        args.base_model, num_labels=1, device=args.device, max_length=args.max_length
+    )
     print(f"  device: {model.model.device}", file=sys.stderr)
 
     train_dl = DataLoader(train_examples, shuffle=True, batch_size=args.batch_size)
@@ -95,14 +105,18 @@ def main():
     eval_q = [(ex.texts[0], ex.texts[1]) for ex in eval_examples]
     eval_labels = [int(ex.label) for ex in eval_examples]
     evaluator = _Eval(
-        sentence_pairs=eval_q, labels=eval_labels, name="dev",
+        sentence_pairs=eval_q,
+        labels=eval_labels,
+        name="dev",
     )
 
     args.output_dir.expanduser().mkdir(parents=True, exist_ok=True)
     output_path = str(args.output_dir.expanduser())
 
-    print(f"=== Training: epochs={args.epochs}, batch={args.batch_size}, lr={args.learning_rate} ===",
-          file=sys.stderr)
+    print(
+        f"=== Training: epochs={args.epochs}, batch={args.batch_size}, lr={args.learning_rate} ===",
+        file=sys.stderr,
+    )
     model.fit(
         train_dataloader=train_dl,
         epochs=args.epochs,

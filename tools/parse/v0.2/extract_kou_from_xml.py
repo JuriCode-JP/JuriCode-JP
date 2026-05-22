@@ -122,7 +122,6 @@ def extract_kou_chunks(
     def find_section_path(article_elem) -> dict:
         """Article の祖先から Part/Chapter/Section/Subsection を集める."""
         path = {}
-        node = article_elem
         # ElementTree は親情報を持たないので、別途 parent map を作る必要があるが、
         # ここでは簡易的に空でも OK (parent_section は augmentation 用)
         return path
@@ -135,12 +134,10 @@ def extract_kou_chunks(
         article_id = f"{law_abbrev}-art-{article_num}"
 
         article_caption_elem = article.find("ArticleCaption")
-        article_caption = ""
         if article_caption_elem is not None:
             cap_text = get_text_recursive(article_caption_elem).strip()
             # 「（〜）」を剥く
             cap_text = re.sub(r"^[\(（](.*)[\)）]$", r"\1", cap_text).strip()
-            article_caption = cap_text
 
         for paragraph in article.findall("Paragraph"):
             para_num_str = paragraph.get("Num", "1")

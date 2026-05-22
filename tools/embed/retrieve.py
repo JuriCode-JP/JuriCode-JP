@@ -21,12 +21,22 @@ from pathlib import Path
 
 import numpy as np
 
-
 # =====================================================
 # Query normalization (法令名・条番号の正規化)
 # =====================================================
 
-KANJI_DIGIT = {"〇": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+KANJI_DIGIT = {
+    "〇": 0,
+    "一": 1,
+    "二": 2,
+    "三": 3,
+    "四": 4,
+    "五": 5,
+    "六": 6,
+    "七": 7,
+    "八": 8,
+    "九": 9,
+}
 
 # 略称 → (略称をそのまま残しつつ) 正式名称も付加することで両方で hit させる
 LAW_ABBREV_EXPANSIONS = {
@@ -78,6 +88,7 @@ def _kanji_to_int(s: str) -> int | None:
 
 def _arabic_version_of_article_numbers(text: str) -> str:
     """漢数字の条番号をアラビア数字に変換した版を生成 (置換せず別バージョン)."""
+
     def repl(m):
         main_kanji = m.group(1)
         sub_kanji = m.group(2)
@@ -96,6 +107,7 @@ def _arabic_version_of_article_numbers(text: str) -> str:
 
 def _kanji_version_of_article_numbers(text: str) -> str:
     """アラビア数字の条番号を漢数字に変換した版を生成 (corpus body マッチ用)."""
+
     def int_to_kanji(n: int) -> str:
         # Simple int -> kanji for numbers up to 9999
         if n == 0:
@@ -185,6 +197,7 @@ def _tokenize_chargram(text: str, ngrams=(2, 3)) -> list[str]:
 def build_tfidf_index(corpus_jsonl: Path, text_field: str = "text"):
     """corpus jsonl から純 numpy/scipy で TF-IDF インデックスを構築 (sklearn 非依存)."""
     from collections import Counter, defaultdict
+
     from scipy.sparse import csr_matrix
 
     texts = []
@@ -237,6 +250,7 @@ def build_tfidf_index(corpus_jsonl: Path, text_field: str = "text"):
 
     # TF-IDF matrix: row-wise multiply tf by idf
     from scipy.sparse import diags as sp_diags
+
     tfidf_matrix = tf @ sp_diags(idf)
 
     print(f"  [bm25] TF-IDF index built: {tfidf_matrix.shape}, vocab={n_vocab}", file=sys.stderr)
@@ -246,6 +260,7 @@ def build_tfidf_index(corpus_jsonl: Path, text_field: str = "text"):
 def _l2_normalize_sparse(sparse_matrix):
     """純 scipy/numpy で L2 正規化."""
     from scipy.sparse import diags
+
     sq = sparse_matrix.multiply(sparse_matrix)
     sq_sum = np.array(sq.sum(axis=1)).flatten()
     norms = np.sqrt(sq_sum)
@@ -257,7 +272,9 @@ def _l2_normalize_sparse(sparse_matrix):
 def _vectorize_query_with_index(queries, index_info, n_vocab):
     """クエリを TF-IDF インデックスにマッチさせて sparse 行列にする."""
     from collections import Counter
+
     from scipy.sparse import csr_matrix
+
     vocab = index_info["vocab"]
     idf = index_info["idf"]
     rows, cols, vals = [], [], []
@@ -330,13 +347,15 @@ def rerank_with_cross_encoder(
         from sentence_transformers import CrossEncoder
     except ImportError:
         sys.exit(
-            "ERROR: sentence-transformers not installed. "
-            "Run: pip install sentence-transformers"
+            "ERROR: sentence-transformers not installed. Run: pip install sentence-transformers"
         )
 
     print(f"  [reranker] loading {model_name} ...", file=sys.stderr)
     model = CrossEncoder(model_name, max_length=max_length)
-    print(f"  [reranker] re-ranking {len(queries)} queries x {candidates_per_query.shape[1]} candidates ...", file=sys.stderr)
+    print(
+        f"  [reranker] re-ranking {len(queries)} queries x {candidates_per_query.shape[1]} candidates ...",
+        file=sys.stderr,
+    )
 
     n_queries = len(queries)
     reranked = np.zeros((n_queries, top_k_final), dtype=np.int64)
@@ -361,16 +380,15 @@ def rerank_with_cross_encoder(
 
         scores = model.predict(pairs, batch_size=batch_size, show_progress_bar=False)
         # Sort by score descending
-        sorted_pairs = sorted(zip(scores, valid_cand), key=lambda x: -x[0])
+        sorted_pairs = sorted(zip(scores, valid_cand, strict=False), key=lambda x: -x[0])
         sorted_indices = [int(c) for s, c in sorted_pairs][:top_k_final]
         # Pad if fewer than top_k_final
         while len(sorted_indices) < top_k_final:
             sorted_indices.append(-1)
         reranked[qi] = sorted_indices
 
-    print(f"  [reranker] done.", file=sys.stderr)
+    print("  [reranker] done.", file=sys.stderr)
     return reranked
-
 
 
 def rrf_combine_per_query(dense_top_idx, bm25_top_idx, top_k, k_rrf=60):
@@ -467,6 +485,7 @@ def _encode_queries(questions, state):
         MAX_RETRIES = 5
         all_embeddings = []
         import time as _time
+
         for batch_start in range(0, len(questions), BATCH_SIZE):
             batch = questions[batch_start : batch_start + BATCH_SIZE]
             last_err = None
@@ -482,14 +501,17 @@ def _encode_queries(questions, state):
                 except Exception as e:
                     last_err = e
                     if attempt < MAX_RETRIES:
-                        wait = 1.5 ** attempt
+                        wait = 1.5**attempt
                         print(
                             f"  [gemini retry {attempt}/{MAX_RETRIES}] {type(e).__name__}: {e} - waiting {wait:.1f}s",
                             file=sys.stderr,
                         )
                         _time.sleep(wait)
                     else:
-                        print(f"  [gemini FAILED after {MAX_RETRIES} retries] {last_err}", file=sys.stderr)
+                        print(
+                            f"  [gemini FAILED after {MAX_RETRIES} retries] {last_err}",
+                            file=sys.stderr,
+                        )
                         raise
         return np.asarray(all_embeddings, dtype=np.float32)
 
@@ -627,7 +649,7 @@ def main():
     questions_orig = [q["question"] for q in queries]
     if args.normalize_query:
         questions = [normalize_legal_query(q) for q in questions_orig]
-        n_changed = sum(1 for a, b in zip(questions_orig, questions) if a != b)
+        n_changed = sum(1 for a, b in zip(questions_orig, questions, strict=False) if a != b)
         print(f"  [normalize-query] {n_changed}/{len(questions)} queries modified", file=sys.stderr)
     else:
         questions = questions_orig
@@ -671,7 +693,9 @@ def main():
     # Article-level dedup — hybrid 適用後の top_idx_wide を使う (バグ修正 2026-05-22)
     if args.dedup_by_article:
         top_idx = dedup_by_article(top_idx_wide, article_ids, args.top_k)
-        print(f"  [dedup-by-article] top-{args.top_k} = {args.top_k} unique articles", file=sys.stderr)
+        print(
+            f"  [dedup-by-article] top-{args.top_k} = {args.top_k} unique articles", file=sys.stderr
+        )
 
     # Reranker (Cross-encoder)
     if args.reranker:

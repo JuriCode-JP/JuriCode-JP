@@ -34,8 +34,8 @@ from pathlib import Path
 
 import numpy as np
 
-
 # -------- Gemini setup --------
+
 
 def _gemini_client():
     try:
@@ -69,8 +69,9 @@ GENERATE_PROMPT = """以下の日本の法令条文を読み、自治体職員�
 """
 
 
-def generate_questions(client, model: str, law_name: str, text: str, n: int,
-                       max_retries: int = 5) -> list[str]:
+def generate_questions(
+    client, model: str, law_name: str, text: str, n: int, max_retries: int = 5
+) -> list[str]:
     prompt = GENERATE_PROMPT.format(n=n, law_name=law_name, text=text[:1800])
     last_err = None
     for attempt in range(1, max_retries + 1):
@@ -88,15 +89,18 @@ def generate_questions(client, model: str, law_name: str, text: str, n: int,
         except Exception as e:
             last_err = e
             if attempt < max_retries:
-                wait = 1.5 ** attempt
-                print(f"    [retry {attempt}/{max_retries}] {type(e).__name__}: {e} - wait {wait:.1f}s",
-                      file=sys.stderr)
+                wait = 1.5**attempt
+                print(
+                    f"    [retry {attempt}/{max_retries}] {type(e).__name__}: {e} - wait {wait:.1f}s",
+                    file=sys.stderr,
+                )
                 time.sleep(wait)
     print(f"    [FAILED after {max_retries}] {last_err}", file=sys.stderr)
     return []
 
 
 # -------- Corpus loading --------
+
 
 def load_corpus(jsonl_path: Path) -> list[dict]:
     """corpus 全件を順番通りにロード (idx は embedded 行と一致する前提)."""
@@ -118,6 +122,7 @@ def load_embeddings(embedded_prefix: Path):
 
 # -------- Hard negative selection --------
 
+
 def find_hard_negatives_per_idx(positive_idx: int, matrix, top_k: int = 10) -> list[int]:
     q = matrix[positive_idx]
     qn = np.linalg.norm(q)
@@ -136,8 +141,11 @@ def find_hard_negatives_per_idx(positive_idx: int, matrix, top_k: int = 10) -> l
 
 # -------- Main --------
 
+
 def main():
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
+    parser = argparse.ArgumentParser(
+        description=__doc__, formatter_class=argparse.RawTextHelpFormatter
+    )
     parser.add_argument("--corpus", type=Path, required=True)
     parser.add_argument("--embedded", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
@@ -162,8 +170,10 @@ def main():
     matrix = load_embeddings(args.embedded)
     print(f"  matrix shape: {matrix.shape}", file=sys.stderr)
     if matrix.shape[0] != len(all_records):
-        print(f"WARNING: matrix rows ({matrix.shape[0]}) != corpus rows ({len(all_records)})",
-              file=sys.stderr)
+        print(
+            f"WARNING: matrix rows ({matrix.shape[0]}) != corpus rows ({len(all_records)})",
+            file=sys.stderr,
+        )
 
     # idx → record の単純な配列 (embedded 行と corpus jsonl 行が一致と仮定)
     all_records_by_idx: list[dict] = all_records
@@ -172,8 +182,7 @@ def main():
     candidates = list(range(len(all_records)))
     if args.phases:
         phase_set = set(args.phases)
-        candidates = [i for i in candidates
-                      if all_records[i].get("phase_category") in phase_set]
+        candidates = [i for i in candidates if all_records[i].get("phase_category") in phase_set]
         print(f"  after phase filter {args.phases}: {len(candidates)} articles", file=sys.stderr)
 
     # law_id でグルーピング + cap
@@ -182,12 +191,14 @@ def main():
         for i in candidates:
             per_law.setdefault(all_records[i].get("law_id", ""), []).append(i)
         capped: list[int] = []
-        for lid, idxs in per_law.items():
+        for _lid, idxs in per_law.items():
             random.shuffle(idxs)
             capped.extend(idxs[: args.limit_per_law])
         candidates = capped
-        print(f"  after limit-per-law={args.limit_per_law}: {len(candidates)} articles",
-              file=sys.stderr)
+        print(
+            f"  after limit-per-law={args.limit_per_law}: {len(candidates)} articles",
+            file=sys.stderr,
+        )
 
     # text が短すぎる article は除外
     candidates = [i for i in candidates if len(all_records[i].get("text", "")) >= 30]
@@ -235,12 +246,16 @@ def main():
             text = rec.get("text", "")
             law_name = rec.get("law_name_ja", "")
 
-            print(f"  [{cnt}/{len(candidates)}] {aid} ({law_name}, {len(text)} chars) ...",
-                  file=sys.stderr)
+            print(
+                f"  [{cnt}/{len(candidates)}] {aid} ({law_name}, {len(text)} chars) ...",
+                file=sys.stderr,
+            )
 
             questions = generate_questions(
-                client=client, model=args.model,
-                law_name=law_name, text=text,
+                client=client,
+                model=args.model,
+                law_name=law_name,
+                text=text,
                 n=args.questions_per_article,
             )
             if not questions:
@@ -270,7 +285,7 @@ def main():
             n_done += 1
             time.sleep(args.sleep_between_articles)
 
-    print(f"\n=== DONE ===", file=sys.stderr)
+    print("\n=== DONE ===", file=sys.stderr)
     print(f"  articles processed: {n_done}", file=sys.stderr)
     print(f"  articles failed:    {n_failed}", file=sys.stderr)
     print(f"  articles skipped:   {n_skipped}", file=sys.stderr)

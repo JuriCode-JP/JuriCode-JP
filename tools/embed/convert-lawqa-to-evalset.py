@@ -82,7 +82,18 @@ ABBREV_TO_CATEGORY: dict[str, str] = {
 }
 
 # 漢数字 → アラビア数字 (簡易版、本格的には日本語数値パーサ要)
-KANJI_DIGIT = {"〇": 0, "一": 1, "二": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+KANJI_DIGIT = {
+    "〇": 0,
+    "一": 1,
+    "二": 2,
+    "三": 3,
+    "四": 4,
+    "五": 5,
+    "六": 6,
+    "七": 7,
+    "八": 8,
+    "九": 9,
+}
 
 
 def kanji_to_int(s: str) -> int | None:
@@ -90,7 +101,9 @@ def kanji_to_int(s: str) -> int | None:
     if not s:
         return None
     # 全角数字対応
-    s_normalized = s.translate(str.maketrans("\uff10\uff11\uff12\uff13\uff14\uff15\uff16\uff17\uff18\uff19", "0123456789"))
+    s_normalized = s.translate(
+        str.maketrans("\uff10\uff11\uff12\uff13\uff14\uff15\uff16\uff17\uff18\uff19", "0123456789")
+    )
     if s_normalized.isdigit():
         return int(s_normalized)
 
@@ -112,7 +125,9 @@ def kanji_to_int(s: str) -> int | None:
 
 def _normalize_digits(s: str) -> str:
     """全角数字を半角に変換."""
-    return s.translate(str.maketrans("\uff10\uff11\uff12\uff13\uff14\uff15\uff16\uff17\uff18\uff19", "0123456789"))
+    return s.translate(
+        str.maketrans("\uff10\uff11\uff12\uff13\uff14\uff15\uff16\uff17\uff18\uff19", "0123456789")
+    )
 
 
 def parse_article_number(text: str) -> str | None:
@@ -127,7 +142,10 @@ def parse_article_number(text: str) -> str | None:
             return f"{main}-{sub}"
         return main
     # 漢数字版: 第三条 or 第三条の二
-    m = re.search(r"第\s*([〇一二三四五六七八九十百千万]+)\s*条(?:の\s*([〇一二三四五六七八九十百千万]+))?", text)
+    m = re.search(
+        r"第\s*([〇一二三四五六七八九十百千万]+)\s*条(?:の\s*([〇一二三四五六七八九十百千万]+))?",
+        text,
+    )
     if m:
         main_num = kanji_to_int(m.group(1))
         sub_num = kanji_to_int(m.group(2)) if m.group(2) else None
@@ -221,7 +239,7 @@ def build_eval_entry(orig: dict, idx: int) -> tuple[str, dict]:
         "relevance": "high" if expected_article_ids else "unknown",
         "difficulty": "medium",  # lawqa_jp 全体が中難度想定
         "topic_tags": [refs[0][0]] if refs else [],
-        "notes": f"Converted from Digital Agency lawqa_jp. References extracted from Context Markdown headings.",
+        "notes": "Converted from Digital Agency lawqa_jp. References extracted from Context Markdown headings.",
         "source": "Digital Agency lawqa_jp",
         "source_license": "PDL 1.0 (CC BY 4.0 compatible)",
         "source_url": "https://github.com/digital-go-jp/lawqa_jp",
@@ -234,9 +252,13 @@ def build_eval_entry(orig: dict, idx: int) -> tuple[str, dict]:
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Convert lawqa_jp selection.json to JuriCode-JP eval-set format.")
+    ap = argparse.ArgumentParser(
+        description="Convert lawqa_jp selection.json to JuriCode-JP eval-set format."
+    )
     ap.add_argument("--input", type=Path, required=True, help="Path to lawqa_jp selection.json")
-    ap.add_argument("--output-dir", type=Path, required=True, help="Output directory for jsonl files")
+    ap.add_argument(
+        "--output-dir", type=Path, required=True, help="Output directory for jsonl files"
+    )
     ap.add_argument("--dry-run", action="store_true", help="Print stats without writing files")
     args = ap.parse_args()
 
@@ -264,7 +286,7 @@ def main():
             unmapped_count += 1
         buckets.setdefault(category, []).append(entry)
 
-    print(f"\n=== Distribution ===")
+    print("\n=== Distribution ===")
     for cat, entries in sorted(buckets.items()):
         with_refs = sum(1 for e in entries if e["expected_article_ids"])
         print(f"  {cat:30s} : {len(entries):3d} entries ({with_refs} with article refs)")

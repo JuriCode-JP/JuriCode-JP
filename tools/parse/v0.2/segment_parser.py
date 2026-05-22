@@ -246,7 +246,6 @@ def split_paragraph_segments(
         return []
 
     seg_prefix = f"{article_id}-p{paragraph_number}"
-    segments: list[Segment] = []
 
     # 1. 準用判定 (項全体が準用)
     if JUNYOU_PATTERN.search(body):
