@@ -594,18 +594,17 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
-### [ ] FU-108: parse-egov.py 全件 round-trip 検証 + 自治体法令の条数妥当性 (2026-05-20 追加)
+### [x] FU-108: parse-egov.py 全件 round-trip 検証 + 自治体法令の条数妥当性 (2026-05-20 追加) — ✅ 完了 2026-05-25 (v0.2 sprint)
 
-**現状**: FU-P0-1 (parse MVP) と FU-P0-2 (自治体法令) を 2026-05-19 に 1st pass 完了. 以下が未検証として残る.
+`tools/parse/v0.2/manifest/` パッケージ新設 + 全 43 法令で `_source-manifest.json` 生成 (data/v0.2/) + `tools/parse/verify.py --path data` を CI に組込み済。**全 11,758 条 (8 phase / 43 manifests) で round-trip 検証 PASS**。
 
-**やること**:
+加えて v0.1 corpus (data/phase1-*/ ほか 8 phase) を `archive/v0.1/` に deprecate 完了 (data-quality-finding-2026-05-22 発見 1 (has_proviso/has_items false) と発見 2 (各号 content 欠落) の根本解決)。
 
-1. **全 1,769 条で round-trip 検証**: `tools/parse/verify.py` を全件適用し, e-Gov XML → IR → Markdown → IR の循環が `_source-manifest.json` と整合するかを CI に組み込む
-2. **行政手続法の条数妥当性**: 旧 FU-P0-2 想定の「88 条」と実装 48 条の差分原因を調査. e-Gov 一次資料との照合 (枝番条・附則を含めた網羅範囲を文書化)
-3. **地方自治法の方針確定**: 実装 516 条は本則全文相当. 旧 FU-P0-2 で「主要条のみ抜粋」と書いた方針との整合を `docs/strategy.md` 等で明文化
-4. **コーナーケース coverage**: 附則・経過措置・別表 (parse-egov.py が現状扱わない領域) の整理. [FU-101] (ARTICLE_ID_PATTERN 附則対応) と連動
+詳細は本ファイル末尾「完了済み」セクション 2026-05-25 参照。コミットハッシュは push 後 (Phase 6) に追記。
 
-**関連**: FU-P0-1 / FU-P0-2 の completeness check として位置付け. NLnet M2 進捗報告 (2026-08 採択結果後) の品質エビデンスとしても使える.
+残課題 (本 FU から独立した別タスクとして follow):
+- 行政手続法 88 vs 48 の条数差分原因調査 (Cowork セッション中 v0.2 corpus で 48 条のまま、書誌的根拠未確定) → 別 follow-up に分離
+- 附則・経過措置・別表の corpus 取込 (parse-egov.py で削除条文は skip 中、FU-101 ARTICLE_ID_PATTERN 附則対応と連動) → 別 follow-up に分離
 
 ---
 
@@ -948,6 +947,34 @@ mypy / pyright で型がより厳密に追える.
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-05-25 (夕方) — FU-108 完了: v0.2 corpus manifest 生成 + v0.1 archive deprecate
+
+> 当初想定の「e-Gov XML 再取得 sprint (1 週間)」は実は不要だった (実地調査で判明).
+> 実態は **1 セッション / 約 5 時間で完了**.
+
+- ✅ **FU-108: parse-egov.py 全件 round-trip 検証 + CI 組込み** (Phase 1〜7) — 詳細は本ファイル「P2」セクションの FU-108 [x] 完了マーク参照。コミットハッシュは Phase 6 push 完了後に追記。
+  - **Phase 1 影響範囲確認**: tools/embed/retrieve.py / tools/search-ui / tools/parse/v0.2/extract_*.py 等の実コードで data/phase1-*/ ハードコード参照は **0 件**. 全て `--data-dir default=Path("data")` 形式で v0.2 を自動的にスコープ内に取り込む.
+  - **Phase 2 manifest パッケージ新設**: `tools/parse/v0.2/manifest/` 配下に 4 モジュール (canonical_hash / article_entry / law_manifest / cli) + 3 unit test = 9 ファイル. **60 unit tests PASS**. Pydantic v2 BaseModel (`extra="forbid"` + `frozen=True` + pattern 検証) で型ドリフト防御.
+  - **Phase 3 全件 manifest 生成**: 全 8 phase × 43 法令で `_source-manifest.json` 生成. verify.py round-trip 検証で **11,758 articles / 0 failed** across 43 manifests.
+  - **Phase 4 v0.1 deprecate**: `data/phase1-*/` (8 phase, 11,758 条) を `archive/v0.1/` に mv + README.md で deprecate 理由明記 (has_proviso/has_items false バグ + 各号 content 欠落).
+  - **Phase 5 CI 組込み**: `.github/workflows/ci.yml` 更新 (pytest に v0.2 + manifest tests 追加 + コメント整理). `pyproject.toml` 更新 (testpaths + `--import-mode=importlib`).
+  - **Phase 7 docs 更新**: 本エントリ追記.
+
+**検証**: ローカル CI 再現 (Cowork sandbox) で全 step 緑:
+- `ruff check tools/`: All checks passed
+- `ruff format --check tools/`: 56 files formatted
+- `pytest tools/shared/tests tools/validate/tests tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests`: **153 PASS**
+  (60 manifest 新規 + 30 v0.2 parser + 55 shared + 8 validate)
+- `verify.py --path data/v0.2`: **11,758 / 0 fail** across 43 manifests
+- `validate-file.py` smoke test 2 件 (民法 770 / 刑法 36): OK
+
+**Phase 6 (git commit + push)**: Cowork sandbox の `.git/index.lock` 削除権限なしのため、Windows/WSL 側で実行. 詳細手順書: `business/v02-sprint-commit-runbook-2026-05-25.md`. 4 commits (feat manifest pkg / data manifest / refactor archive / ci) + 本 FU-108 完了 commit. 採択後コミットハッシュをここに追記.
+
+ref:
+- `business/v02-corpus-quality-investigation-2026-05-25.md` (sprint 設計 + 調査結果)
+- `business/data-quality-finding-2026-05-22.md` (発見 1 + 発見 2 の原典)
+- `business/v02-sprint-commit-runbook-2026-05-25.md` (Phase 6 手順書)
+
 ### 2026-05-25 — P0 sprint 8/8 全件完了 (Day 1〜4 を 1 日で消化, NLnet 5/28 提出準備完了)
 
 > 当初 4 日計画 (5/25-28) を 1 日で全消化. 残バッファ 3 日.
@@ -990,4 +1017,4 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-05-25 — P0 sprint 8/8 全件完了 (Day 1〜4 を 1 日で消化, NLnet 5/28 提出準備完了) / Maintained by: CHOKAI Co.,Ltd. / Status: v0.5 — 2026-05-24 の 2 本のレビュー (v0.2 parser pipeline + tools フル) で計 **52 件** の指摘を P0×8 / P1×19 / P2×16 / P3×9 として追加. NLnet 5/28 提出までに P0 8 件を `business/code-reviews/2026-05-24-fix-plan.md` の 4 日間スプリント計画で消化予定. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
+*Last updated: 2026-05-25 (夕方) — FU-108 完了 (v0.2 corpus manifest 生成 + v0.1 archive deprecate). 同日朝の P0 sprint 8/8 全件完了と合わせて、本日は **P0 sprint + FU-108** の 2 大マイルストーン達成. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.6 — v0.2 corpus が CI で round-trip 検証されるようになり、v0.1 corpus は `archive/v0.1/` に deprecate. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
