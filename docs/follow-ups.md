@@ -103,21 +103,19 @@ Phase 1 deliverable の構成が大きく変わる可能性があり, **Phase 1 
 
 ---
 
-### [ ] FU-301: PARAGRAPH_HEADING_PATTERN の 2 重定義集約 (2026-05-24 追加)
+### [x] FU-301: PARAGRAPH_HEADING_PATTERN の 2 重定義集約 (2026-05-24 追加) — ✅ 完了 2026-05-25 (commit `bf773b58` + test `1861d26b`)
 
-**場所**: `tools/parse/v0.2/segment_parser.py:87-89` と `:370-374` で同じ paragraph 見出し regex を 2 重定義.
+`tools/parse/v0.2/segment_parser.py` の paragraph 見出し regex 2 重定義を module-level `PARAGRAPH_HEADING_PATTERN` に集約。枝番条網羅テスト `tests/test_paragraph_heading_pattern.py` を新規追加 (`第三条` / `第三条の二` / `第百九十七条の三第二項` / `第三条第一項` をカバー)。
 
-**問題**: 既知事故 (g) 4,810 件 empty chunks bug と完全に同型の再発条件. AI が「regex を直して」と指示されたとき片方しか直さない事故が確実に起きる.
-
-**やること**: 1 つの module-level `PARAGRAPH_HEADING_PATTERN` に集約 + `tests/test_paragraph_heading_pattern.py` で枝番条網羅テスト (`第三条` / `第三条の二` / `第百九十七条の三第二項` / `第三条第一項`).
-
-**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §D-01 / `business/code-reviews/2026-05-24-fix-plan.md` Day 1.B
+詳細は本ファイル末尾「完了済み」セクション 2026-05-25 参照.
 
 ---
 
-### [~] FU-302: 全 parser に write 後 sanity check を追加 (2026-05-24 追加, 2026-05-25 実装完了・commit 待ち)
+### [x] FU-302: 全 parser に write 後 sanity check を追加 (2026-05-24 追加) — ✅ 完了 2026-05-25 (commit `094fcfdd` + `bf773b58`)
 
-**実装状況**: `tools/shared/src/juricode_shared/safe_write.py` を新設 (89 行) + `tools/shared/tests/test_safe_write.py` で **17 件 unit test 全 pass**. 5 parser (`segment_parser.py` / `extract_kou_from_xml.py` / `extract_supplproviso_from_xml.py` / `add_rollup_chunks.py` / `parse-egov.py`) の write 経路を `safe_write_text` / `safe_write_jsonl` / `safe_append_jsonl_records` に置換済. `tools/shared` 全 55 件 PASS / `tools/parse/v0.2/tests` 29/30 PASS (残 1 件は FU-304 未実装が要因, 別件).
+`tools/shared/src/juricode_shared/safe_write.py` を新設 (atomic write + NUL/末尾改行/UTF-8/JSONL 各行 json.loads 可を assert) + `tools/shared/tests/test_safe_write.py` で 17 件 unit test 全 pass. 5 parser の write 経路を `safe_write_text` / `safe_write_jsonl` / `safe_append_jsonl_records` に置換.
+
+詳細は本ファイル末尾「完了済み」セクション 2026-05-25 参照.
 
 **場所**: `tools/parse/v0.2/{segment_parser,extract_kou_from_xml,extract_supplproviso_from_xml,add_rollup_chunks}.py` および `tools/parse/parse-egov.py` の write_text / fh.write 直後.
 
@@ -133,43 +131,29 @@ Phase 1 deliverable の構成が大きく変わる可能性があり, **Phase 1 
 
 ---
 
-### [ ] FU-303: segment marker `replace(..., 1)` のスコープ限定 (2026-05-24 追加)
+### [x] FU-303: segment marker `replace(..., 1)` のスコープ限定 (2026-05-24 追加) — ✅ 完了 2026-05-25 (commit `bf773b58` + test `1861d26b`)
 
-**場所**: `tools/parse/v0.2/segment_parser.py:461-463`. `body.replace(seg.text[:20], MARKER, 1)` で「## English Translation」セクションにも誤置換 / `\n` を含むと no-hit でサイレント失敗.
+paragraph 見出し直下から「次の paragraph 見出しまたは `## ` まで」のスコープに限定して挿入。失敗時は `parsing_warnings: list[str]` に記録 (silent fail 阻止). `tests/test_render_v02_md_scope.py` 7 件 PASS。
 
-**問題**: 静かに壊れたサンプル (英訳セクションが marker で破損) が release に紛れ込む.
-
-**やること**: paragraph 見出し直下から「次の paragraph 見出しまたは `## ` まで」のスコープに限定して挿入. 失敗時は `parsing_warnings: list[str]` に記録.
-
-**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §D-03 / Day 2.B
+詳細は本ファイル末尾「完了済み」セクション 2026-05-25 参照.
 
 ---
 
-### [ ] FU-304: AmendLawNum regex を literal alternation 化 (2026-05-24 追加)
+### [x] FU-304: AmendLawNum regex を literal alternation 化 (2026-05-24 追加) — ✅ 完了 2026-05-25 (commit `50b9408a` + test `1861d26b`)
 
-**場所**: `tools/parse/v0.2/extract_supplproviso_from_xml.py:148`. `r"(?:[^第]*第([零〇一二三四五六七八九十百千万\d]+)号)?"` の greedy match で「規則」「告示」等の前置にも誤検出.
+`AMEND_LAW_NUM_PATTERN` を greedy match `(?:[^第]*第N号)?` から literal alternation `(?:(?:法律|政令|規則|省令|府令|告示|条約)第N号)?` に置換。「雑種」等未対応 prefix は law_num=None として下流で安全に弾けるように。Why コメント 6 行追加. `tests/test_amend_law_num_pattern.py` 10/10 PASS.
 
-**問題**: 附則 metadata の `amend_law_num` フィールドに誤った法令種別が記録される.
-
-**やること**: `r"(?:(?:法律|政令|規則|省令|府令|告示|条約)第([零〇一二三四五六七八九十百千万\d]+)号)?"` に置換. Why コメント追加.
-
-**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §D-04 / Day 2.A
+詳細は本ファイル末尾「完了済み」セクション 2026-05-25 参照.
 
 ---
 
-### [ ] FU-401: parse-egov.py phase tag のハードコード解消 (2026-05-24 追加)
+### [x] FU-401: parse-egov.py phase tag のハードコード解消 (2026-05-24 追加) — ✅ 完了 2026-05-25 (commit `787203e8`)
 
-**場所**: `tools/parse/parse-egov.py:339`. `"tags": ["phase1-police", "auto-generated"],` で固定. 既知事故 (d) bulk-ingest phase tag bug の**真因**.
+`parse-egov.py` に `--phase-tag` を必須引数として追加 (default なし、未指定で argparse exit 2)。`article_to_markdown` / `_emit_article` / `main` の call chain で `phase_tag` を透過。`bulk-ingest.py:171-183` の subprocess cmd 構築に `["--phase-tag", phase]` を追加 (PHASE_MAP の既存値を渡す).
 
-**問題**: bulk-ingest.py の `PHASE_MAP` は出力ディレクトリ決定にしか使われず、生成 .md の `tags` には届かない. つまり `phase1-tax/` 配下の .md にも `tags: [phase1-police, ...]` が記録される潜伏 bug 状態. 単独実行や外部寄稿者の手元実行で再発確実.
+副次発見: 既存 corpus に `tag[0] = phase1-police` のままになっているファイルが多数 (phase2-commercial/* 全件、phase1-tax/chihou-zei-hou ほか). sweep は FU-415 (P1, 6 月集中) で別途対応.
 
-**やること**:
-1. `parse-egov.py` に `--phase-tag` を必須引数として追加 (default なし、未指定でエラー化)
-2. L339 を `args.phase_tag` 参照に変更
-3. `tools/fetch-egov/bulk-ingest.py:171-183` の subprocess cmd 構築に `["--phase-tag", phase]` を追加
-4. 既存 30 法令の sweep は別途 FU-415 で対応
-
-**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §C-01 / §7 (事故 d 真因) / Day 4.A
+詳細は本ファイル末尾「完了済み」セクション 2026-05-25 参照.
 
 ---
 
@@ -185,9 +169,11 @@ Phase 1 deliverable の構成が大きく変わる可能性があり, **Phase 1 
 
 ---
 
-### [~] FU-403: validate-all.py に argparse 追加 (2026-05-24 追加, 2026-05-25 実装完了・commit 待ち)
+### [x] FU-403: validate-all.py に argparse 追加 (2026-05-24 追加) — ✅ 完了 2026-05-25 (commit `2150bd89`)
 
-**実装状況**: `tools/validate/validate-all.py` を argparse 化 (`--path`, `--verbose` を `verify.py` と命名揃え, 旧 REPO_ROOT 固定を解除). `--path /tmp/empty_dir` で「0 files」エラー化 (silent ignore 解消, exit 1). `tools/fetch-egov/bulk-ingest.py:209` の subprocess.run 呼び出しを `--data-root` から `--path` に追従修正済.
+`tools/validate/validate-all.py` を argparse 化 (`--path`, `--verbose` を `verify.py` と命名揃え, 旧 REPO_ROOT 固定を解除). `--path /tmp/empty_dir` で「0 files」エラー化 (silent ignore 解消, exit 1). `tools/fetch-egov/bulk-ingest.py:209` の subprocess.run 呼び出しを `--data-root` から `--path` に追従修正済.
+
+詳細は本ファイル末尾「完了済み」セクション 2026-05-25 参照.
 
 **場所**: `tools/validate/validate-all.py` は argparse なし、`sys.argv` を読まず `REPO_ROOT` 固定. `tools/fetch-egov/bulk-ingest.py:209` が `--data-root` 引数を渡すが silently 無視.
 
@@ -962,6 +948,23 @@ mypy / pyright で型がより厳密に追える.
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-05-25 — P0 sprint 8/8 全件完了 (Day 1〜4 を 1 日で消化, NLnet 5/28 提出準備完了)
+
+> 当初 4 日計画 (5/25-28) を 1 日で全消化. 残バッファ 3 日.
+
+- ✅ **FU-301: PARAGRAPH_HEADING_PATTERN 2 重定義集約** (commit `bf773b58` + test `1861d26b`) — segment_parser.py で paragraph 見出し regex を module-level に集約. 枝番条網羅テスト 8 件追加. 既知事故 (g) 4,810 empty chunks の再発条件を構造的に阻止.
+- ✅ **FU-302: 全 parser に write 後 sanity check** (commit `094fcfdd` module + `bf773b58` integration) — `tools/shared/src/juricode_shared/safe_write.py` を新設 (atomic write + NUL/末尾改行/UTF-8/JSONL 各行 json.loads 可 を assert). `safe_write_text` / `safe_write_jsonl` / `safe_append_jsonl_records` の 3 関数を 5 parser に適用. 17 件 unit test 全 pass. 既知事故 (a) WSL ruff corruption / (b) NUL padding / (c) heredoc 二重貼り付け の再発検知機構が完成. 本セッション中にも 7 ファイルで Cowork Edit ツールが末尾切断する事故が発生したが、safe_write は今後同種の事故を assert で即停止する設計.
+- ✅ **FU-303: segment marker scope 限定** (commit `bf773b58` + test `1861d26b`) — `render_v02_md` の marker 挿入を paragraph 見出し直下スコープに限定. 失敗時に `parsing_warnings: list[str]` に記録 (silent fail 阻止). 7 件 unit test PASS.
+- ✅ **FU-304: AmendLawNum regex literal alternation 化** (commit `50b9408a` + test `1861d26b`) — `AMEND_LAW_NUM_PATTERN` を greedy match から `(?:法律|政令|規則|省令|府令|告示|条約)` の 7 種限定 alternation に変更. 「雑種」等未対応 prefix は law_num=None として安全に弾く. 10/10 test PASS.
+- ✅ **FU-401: parse-egov.py --phase-tag 必須化** (commit `787203e8`) — P0 sprint 最後の gate-keeper. ハードコード `"phase1-police"` を排除し `--phase-tag` を required 引数化. `article_to_markdown` / `_emit_article` / `main` の call chain で透過. bulk-ingest.py の subprocess cmd にも `["--phase-tag", phase]` を追加. 既存 corpus の sweep は [FU-415] (P1) に分離.
+- ✅ **FU-402: settings 重複削除** (commit `b091c3e7`, 5/25 朝 Day 1.A push) — `tools/embed/retrieve.py:774-775` の dead code 削除.
+- ✅ **FU-403: validate-all に argparse + bulk-ingest --path 追従** (commit `2150bd89`) — 旧 REPO_ROOT 固定で `--data-root` を silently 無視していた偽 green CI 源を解消. `--path /tmp/empty_dir` で exit 1.
+- ✅ **FU-404: search-ui with_suffix bug 修正** (commit `b091c3e7`, 5/25 朝 Day 1.A push) — `tools/search-ui/server.py:46-48` の `prefix.with_suffix(".npy")` を文字列連結に修正.
+
+**検証**: 全件 push 後の GitHub Actions CI が green を維持。`pytest tools/shared/tests + tools/validate/tests` 63 件 PASS、`pytest tools/parse/v0.2/tests` 30 件 PASS (合計 **93 件**)、validate-all (11,758 条 / 23,522 files)、verify.py (source-manifest hash 整合)、schema drift 全て緑。
+
+ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
+
 ### 2026-05-19
 
 - ✅ **FU-P0-1: `tools/parse/` MVP** (commit 82a4f6d, 6ed72d7) — `tools/parse/parse-egov.py` (18KB) + `verify.py` + `_canonicalize.py` を実装し, e-Gov XML → JuriCode-JP Markdown 変換器として警察 1,118 条 (commit 82a4f6d) + 自治体 651 条 (commit 6ed72d7) = **合計 1,769 条** を ingest. NLnet M2 約束 264 条の **6.7 倍**を 1st pass で達成. round-trip / コーナーケースの完成度検証は [FU-108] へ移管.
@@ -987,4 +990,4 @@ mypy / pyright で型がより厳密に追える.
 
 ---
 
-*Last updated: 2026-05-25 (Day 3: FU-302 + FU-403 実装完了, commit 待ち) / Maintained by: CHOKAI Co.,Ltd. / Status: v0.5 — 2026-05-24 の 2 本のレビュー (v0.2 parser pipeline + tools フル) で計 **52 件** の指摘を P0×8 / P1×19 / P2×16 / P3×9 として追加. NLnet 5/28 提出までに P0 8 件を `business/code-reviews/2026-05-24-fix-plan.md` の 4 日間スプリント計画で消化予定. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
+*Last updated: 2026-05-25 — P0 sprint 8/8 全件完了 (Day 1〜4 を 1 日で消化, NLnet 5/28 提出準備完了) / Maintained by: CHOKAI Co.,Ltd. / Status: v0.5 — 2026-05-24 の 2 本のレビュー (v0.2 parser pipeline + tools フル) で計 **52 件** の指摘を P0×8 / P1×19 / P2×16 / P3×9 として追加. NLnet 5/28 提出までに P0 8 件を `business/code-reviews/2026-05-24-fix-plan.md` の 4 日間スプリント計画で消化予定. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
