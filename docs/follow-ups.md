@@ -115,7 +115,9 @@ Phase 1 deliverable の構成が大きく変わる可能性があり, **Phase 1 
 
 ---
 
-### [ ] FU-302: 全 parser に write 後 sanity check を追加 (2026-05-24 追加)
+### [~] FU-302: 全 parser に write 後 sanity check を追加 (2026-05-24 追加, 2026-05-25 実装完了・commit 待ち)
+
+**実装状況**: `tools/shared/src/juricode_shared/safe_write.py` を新設 (89 行) + `tools/shared/tests/test_safe_write.py` で **17 件 unit test 全 pass**. 5 parser (`segment_parser.py` / `extract_kou_from_xml.py` / `extract_supplproviso_from_xml.py` / `add_rollup_chunks.py` / `parse-egov.py`) の write 経路を `safe_write_text` / `safe_write_jsonl` / `safe_append_jsonl_records` に置換済. `tools/shared` 全 55 件 PASS / `tools/parse/v0.2/tests` 29/30 PASS (残 1 件は FU-304 未実装が要因, 別件).
 
 **場所**: `tools/parse/v0.2/{segment_parser,extract_kou_from_xml,extract_supplproviso_from_xml,add_rollup_chunks}.py` および `tools/parse/parse-egov.py` の write_text / fh.write 直後.
 
@@ -183,7 +185,9 @@ Phase 1 deliverable の構成が大きく変わる可能性があり, **Phase 1 
 
 ---
 
-### [ ] FU-403: validate-all.py に argparse 追加 (2026-05-24 追加)
+### [~] FU-403: validate-all.py に argparse 追加 (2026-05-24 追加, 2026-05-25 実装完了・commit 待ち)
+
+**実装状況**: `tools/validate/validate-all.py` を argparse 化 (`--path`, `--verbose` を `verify.py` と命名揃え, 旧 REPO_ROOT 固定を解除). `--path /tmp/empty_dir` で「0 files」エラー化 (silent ignore 解消, exit 1). `tools/fetch-egov/bulk-ingest.py:209` の subprocess.run 呼び出しを `--data-root` から `--path` に追従修正済.
 
 **場所**: `tools/validate/validate-all.py` は argparse なし、`sys.argv` を読まず `REPO_ROOT` 固定. `tools/fetch-egov/bulk-ingest.py:209` が `--data-root` 引数を渡すが silently 無視.
 
@@ -983,4 +987,4 @@ mypy / pyright で型がより厳密に追える.
 
 ---
 
-*Last updated: 2026-05-24 / Maintained by: CHOKAI Co.,Ltd. / Status: v0.5 — 2026-05-24 の 2 本のレビュー (v0.2 parser pipeline + tools フル) で計 **52 件** の指摘を P0×8 / P1×19 / P2×16 / P3×9 として追加. NLnet 5/28 提出までに P0 8 件を `business/code-reviews/2026-05-24-fix-plan.md` の 4 日間スプリント計画で消化予定. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
+*Last updated: 2026-05-25 (Day 3: FU-302 + FU-403 実装完了, commit 待ち) / Maintained by: CHOKAI Co.,Ltd. / Status: v0.5 — 2026-05-24 の 2 本のレビュー (v0.2 parser pipeline + tools フル) で計 **52 件** の指摘を P0×8 / P1×19 / P2×16 / P3×9 として追加. NLnet 5/28 提出までに P0 8 件を `business/code-reviews/2026-05-24-fix-plan.md` の 4 日間スプリント計画で消化予定. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
