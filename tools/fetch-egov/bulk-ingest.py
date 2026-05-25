@@ -165,7 +165,13 @@ def parse_one(
     data_root: Path,
     phase: str,
 ) -> tuple[int, Path]:
-    """parse-egov.py を呼び出して Markdown を生成. 生成条文数を返す."""
+    """parse-egov.py を呼び出して Markdown を生成. 生成条文数を返す.
+
+    FU-401: --phase-tag を必須引数として明示渡し。PHASE_MAP から取得した
+    `phase` (= 出力ディレクトリ名) と frontmatter `tags[0]` を必ず一致させる。
+    旧版は parse-egov.py 側で 'phase1-police' ハードコードだったため、
+    phase1-tax/ 配下にも tags: [phase1-police, ...] が記録される潜伏 bug だった。
+    """
     out_dir = data_root / phase / abbrev
     parse_script = REPO_ROOT / "tools" / "parse" / "parse-egov.py"
     cmd = [
@@ -179,6 +185,8 @@ def parse_one(
         abbrev,
         "--law-id",
         law_id,
+        "--phase-tag",
+        phase,
         "--force",
     ]
     print(f"  [parse] -> {out_dir}")

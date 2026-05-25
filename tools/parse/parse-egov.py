@@ -276,7 +276,7 @@ def _int_to_kansuji(n):
     return str(n)
 
 
-def article_to_markdown(article, law_id, law_abbrev, law_name_ja, version_date):
+def article_to_markdown(article, law_id, law_abbrev, law_name_ja, version_date, phase_tag):
     """Build (filename, markdown_text) for one article.
 
     Output Markdown layout:
@@ -343,7 +343,9 @@ def article_to_markdown(article, law_id, law_abbrev, law_name_ja, version_date):
         ],
         "cases": [],
         "amendments": [],
-        "tags": ["phase1-police", "auto-generated"],
+        # FU-401: phase_tag は呼び出し元 (CLI args.phase_tag → _emit_article → 当関数)
+        # 必須引数として伝播。'phase1-police' ハードコードを排除し、tag/dir 不整合を防ぐ。
+        "tags": [phase_tag, "auto-generated"],
     }
     if article.get("parent_section"):
         fm["parent_section"] = article["parent_section"]
@@ -398,7 +400,16 @@ def _resolve_version_date(args_version_date, parsed_promulgation):
     raise ValueError("--version-date required (could not infer from XML)")
 
 
-def _emit_article(article, law_id, law_abbrev, law_name_ja, version_date, output_dir, force):
+def _emit_article(
+    article,
+    law_id,
+    law_abbrev,
+    law_name_ja,
+    version_date,
+    output_dir,
+    force,
+    phase_tag,
+):
     """Write one article Markdown to disk, return manifest entry dict."""
     filename, md_text = article_to_markdown(
         article,
@@ -406,6 +417,7 @@ def _emit_article(article, law_id, law_abbrev, law_name_ja, version_date, output
         law_abbrev=law_abbrev,
         law_name_ja=law_name_ja,
         version_date=version_date,
+        phase_tag=phase_tag,
     )
     out_path = output_dir / filename
     if out_path.exists() and not force:
@@ -466,6 +478,19 @@ def _build_argparser():
         required=True,
         help="Law abbreviation (lowercase a-z 0-9 -, max 64 chars)",
     )
+    ap.add_argument(
+        "--phase-tag",
+        type=str,
+        required=True,
+        help=(
+            "Phase directory tag for frontmatter `tags[0]` "
+            "(e.g. phase1-police / phase1-tax / phase2-commercial). "
+            "FU-401: previously hard-coded to 'phase1-police', causing silent "
+            "tag/dir mismatches when bulk-ingest placed laws in non-police "
+            "phase dirs. Now mandatory; bulk-ingest.py passes its PHASE_MAP "
+            "value through here."
+        ),
+    )
     ap.add_argument("--law-id", type=str, default=None)
     ap.add_argument("--version-date", type=str, default=None)
     ap.add_argument("--force", action="store_true")
@@ -521,6 +546,7 @@ def main():
             version_date=version_date,
             output_dir=args.output,
             force=args.force,
+            phase_tag=args.phase_tag,
         )
         article_entries.append(entry)
 
