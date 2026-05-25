@@ -53,16 +53,25 @@ jobs:
         run: ruff format --check tools/
 
       - name: Pytest (all workspace packages)
+        # 2026-05-25: tools/parse/v0.2/tests と manifest/tests を追加.
+        # v0.2 corpus + manifest 生成パッケージのテストを CI で常時実行する.
         run: |
-          pytest tools/shared/tests tools/validate/tests -v
+          pytest tools/shared/tests tools/validate/tests tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests -v
 
       - name: Validate all law data files
+        # 2026-05-25: data/phase1-*/ (v0.1) を archive/v0.1/ に deprecate 済.
+        # 本コマンドは data/ 配下のみ走査する (archive/ は対象外、
+        # find_data_files() が data/ + examples/ のみを見るため).
+        # 結果として v0.2 corpus (data/v0.2/) のみが検証対象になる.
         run: python tools/validate/validate-all.py
 
       - name: Verify source-manifest hashes (parse pipeline / Layer 3)
         # data/ 配下の _source-manifest.json と Markdown 本文の hash 整合確認.
         # 法令本文の改変・誤転記を CI で機械的に検知する.
-        # 詳細: docs/verification-framework.md
+        # 2026-05-25: v0.1 corpus を archive/v0.1/ に deprecate. data/v0.2/ 配下の
+        # 43 manifests (11,758 articles) が対象となる. archive/ は CI 対象外.
+        # 詳細: docs/verification-framework.md /
+        #       business/v02-corpus-quality-investigation-2026-05-25.md
         run: python tools/parse/verify.py --path data
 
       - name: Regenerate JSON Schema and check for drift
