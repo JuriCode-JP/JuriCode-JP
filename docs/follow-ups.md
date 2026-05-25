@@ -1,6 +1,6 @@
 # Follow-up Tracker — Known Limitations & Future Work
 
-> JuriCode-JP の現バージョン (v0.1, 2026-05-18) で**意図的に未実装としている項目**および**改善余地**を一覧化する。
+> JuriCode-JP の現バージョン (v0.2.1, 2026-05-22) で**意図的に未実装としている項目**および**改善余地**を一覧化する。
 >
 > このファイルは外部コントリビューターと将来の自分への "TODO" 兼 "なぜ今こうなっているか" の説明.
 > 完了した項目はチェックを入れて行内に commit hash / PR 番号を残す.
@@ -10,6 +10,11 @@
 > - **P1** = Phase 1 着手前 (〜2026-06 末) に潰したい
 > - **P2** = Phase 1 中期 (2026-07〜09) に対応
 > - **P3** = Phase 1 後期 (2026-10〜) に対応、または Phase 2 で見直し
+>
+> **FU 番号体系**:
+> - `FU-001..006` / `FU-101..108` / `FU-201..207` / `FU-P0-1..5` — 初期 + 2026-05-19/20 追加分
+> - `FU-301..321` — 2026-05-24 v0.2 parser pipeline + shared レビュー由来 (`business/code-reviews/2026-05-24-v02-parser-pipeline-review.md`)
+> - `FU-401..431` — 2026-05-24 tools/ フルレビュー由来 (`business/code-reviews/2026-05-24-full-tools-review.md`)
 
 ---
 
@@ -18,6 +23,8 @@
 > 2026-05-19 追加 / 同日に方針調整. NLnet 申請書で約束した Phase 1 deliverable と現状実装の乖離を埋める設計判断.
 > 同日, ターゲットを「警察」から「警察 + 自治体 + 法律実務家」へ拡大 ([[project-juricode-target-users]]), 英訳系 (旧 FU-P0-2) は P2 (FU-107) に降格, 代わりに自治体ユース対応の追加法令 (新 FU-P0-2) を P0 に組み入れ.
 > 5/28 NLnet 提出までは**設計と着手判断**まで, 採択結果が出る ~2026-08 までに**1st pass MVP**を目標.
+>
+> 2026-05-24 追加: 2 本のコードレビューで判明した「再現性ある事故源」8 件を FU-301..304 / FU-401..404 として追加. NLnet 5/28 提出までの 4 日間スプリントで全件解消予定. 詳細計画は `business/code-reviews/2026-05-24-fix-plan.md`.
 
 ### [x] FU-P0-1: `tools/parse/` MVP の設計と着手 (NLnet M2) — ✅ 完了 2026-05-19
 
@@ -93,6 +100,113 @@ Phase 1 deliverable の構成が大きく変わる可能性があり, **Phase 1 
 **期限**: NLnet 採択結果が出る ~2026-08 までに完成. 採択された日から逆算して動けるように.
 
 **関連**: [[project-juricode-oss-outreach-strategy]], [[project-juricode-anthropic-oss-program]] (依存実績作りの一環としてもこの設計は重要)
+
+---
+
+### [ ] FU-301: PARAGRAPH_HEADING_PATTERN の 2 重定義集約 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/segment_parser.py:87-89` と `:370-374` で同じ paragraph 見出し regex を 2 重定義.
+
+**問題**: 既知事故 (g) 4,810 件 empty chunks bug と完全に同型の再発条件. AI が「regex を直して」と指示されたとき片方しか直さない事故が確実に起きる.
+
+**やること**: 1 つの module-level `PARAGRAPH_HEADING_PATTERN` に集約 + `tests/test_paragraph_heading_pattern.py` で枝番条網羅テスト (`第三条` / `第三条の二` / `第百九十七条の三第二項` / `第三条第一項`).
+
+**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §D-01 / `business/code-reviews/2026-05-24-fix-plan.md` Day 1.B
+
+---
+
+### [ ] FU-302: 全 parser に write 後 sanity check を追加 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/{segment_parser,extract_kou_from_xml,extract_supplproviso_from_xml,add_rollup_chunks}.py` および `tools/parse/parse-egov.py` の write_text / fh.write 直後.
+
+**問題**: 既知事故 (a) WSL ruff corruption / (b) Edit/Write NUL padding / (c) cat heredoc 二重貼り付け のいずれも parser 側に検知機構がない. 静かに壊れた `.md` / `.chunks.jsonl` が増産される.
+
+**やること**: 共有ヘルパー `tools/shared/src/juricode_shared/safe_write.py` を新設.
+
+- `safe_write_text(path, content)`: NUL バイト不在 / 末尾改行 / UTF-8 valid を assert
+- `safe_write_jsonl(path, records)`: 各行 `json.loads` 可を assert
+- 違反時は `.tmp` を残して元ファイル維持 (atomic write パターン)
+
+**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §D-02 / Day 3.A
+
+---
+
+### [ ] FU-303: segment marker `replace(..., 1)` のスコープ限定 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/segment_parser.py:461-463`. `body.replace(seg.text[:20], MARKER, 1)` で「## English Translation」セクションにも誤置換 / `\n` を含むと no-hit でサイレント失敗.
+
+**問題**: 静かに壊れたサンプル (英訳セクションが marker で破損) が release に紛れ込む.
+
+**やること**: paragraph 見出し直下から「次の paragraph 見出しまたは `## ` まで」のスコープに限定して挿入. 失敗時は `parsing_warnings: list[str]` に記録.
+
+**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §D-03 / Day 2.B
+
+---
+
+### [ ] FU-304: AmendLawNum regex を literal alternation 化 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/extract_supplproviso_from_xml.py:148`. `r"(?:[^第]*第([零〇一二三四五六七八九十百千万\d]+)号)?"` の greedy match で「規則」「告示」等の前置にも誤検出.
+
+**問題**: 附則 metadata の `amend_law_num` フィールドに誤った法令種別が記録される.
+
+**やること**: `r"(?:(?:法律|政令|規則|省令|府令|告示|条約)第([零〇一二三四五六七八九十百千万\d]+)号)?"` に置換. Why コメント追加.
+
+**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §D-04 / Day 2.A
+
+---
+
+### [ ] FU-401: parse-egov.py phase tag のハードコード解消 (2026-05-24 追加)
+
+**場所**: `tools/parse/parse-egov.py:339`. `"tags": ["phase1-police", "auto-generated"],` で固定. 既知事故 (d) bulk-ingest phase tag bug の**真因**.
+
+**問題**: bulk-ingest.py の `PHASE_MAP` は出力ディレクトリ決定にしか使われず、生成 .md の `tags` には届かない. つまり `phase1-tax/` 配下の .md にも `tags: [phase1-police, ...]` が記録される潜伏 bug 状態. 単独実行や外部寄稿者の手元実行で再発確実.
+
+**やること**:
+1. `parse-egov.py` に `--phase-tag` を必須引数として追加 (default なし、未指定でエラー化)
+2. L339 を `args.phase_tag` 参照に変更
+3. `tools/fetch-egov/bulk-ingest.py:171-183` の subprocess cmd 構築に `["--phase-tag", phase]` を追加
+4. 既存 30 法令の sweep は別途 FU-415 で対応
+
+**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §C-01 / §7 (事故 d 真因) / Day 4.A
+
+---
+
+### [ ] FU-402: retrieve.py `settings = []` 2 重代入を削除 (2026-05-24 追加)
+
+**場所**: `tools/embed/retrieve.py:774-775`. `settings = []` が 2 行連続. dead code.
+
+**問題**: レビューを通過した証拠 (品質意識への直接の信号). ruff F841 でも引っかかる可能性.
+
+**やること**: 1 行削除. CI の ruff check を強制 (現状 follow-up 中).
+
+**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §D-01 / Day 1.A
+
+---
+
+### [ ] FU-403: validate-all.py に argparse 追加 (2026-05-24 追加)
+
+**場所**: `tools/validate/validate-all.py` は argparse なし、`sys.argv` を読まず `REPO_ROOT` 固定. `tools/fetch-egov/bulk-ingest.py:209` が `--data-root` 引数を渡すが silently 無視.
+
+**問題**: 非標準 data-root での bulk-ingest 検証は「実は何も検証していない」状態. 偽の green CI が出る.
+
+**やること**:
+1. `validate-all.py` に argparse を追加 (`--path`, `--verbose` を `verify.py` と命名揃え)
+2. `bulk-ingest.py:209` を `--path str(data_root)` に修正
+3. 検証: `python validate-all.py --path /tmp/empty_dir` で「0 files」エラー (silent ignore でない)
+
+**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §D-02 / Day 3.B
+
+---
+
+### [ ] FU-404: search-ui/server.py の `with_suffix()` バグ修正 (2026-05-24 追加)
+
+**場所**: `tools/search-ui/server.py:46-48`. `prefix.with_suffix(".npy")` 等 3 行が、ドット入り prefix (`v0.2-gemini-17967`) で `build/v0.npy` に化ける.
+
+**問題**: `tools/embed/embed.py` と `tools/embed/retrieve.py` は既に「文字列連結」パターンに修正済. search-ui のみ取り残し. v0.2 corpus で検索 UI を立ち上げた瞬間 silent fail.
+
+**やること**: 3 行を embed.py/retrieve.py と同じ `prefix.parent / (prefix.name + ".npy")` パターンに置換.
+
+**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §D-03 / Day 1.A
 
 ---
 
@@ -201,6 +315,206 @@ except ValidationError as e:
 
 ---
 
+### [ ] FU-305: segment_parser.py を 5 module に分割 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/segment_parser.py` (644 行). detector regex / kansuji / Segment dataclass / paragraph 分割 / md レンダ / chunks レンダ / CLI が同居.
+
+**やること**: `detectors.py` / `splitter.py` / `renderer_md.py` / `renderer_chunks.py` / `cli.py` に分割. Segment dataclass は `tools/shared` の Pydantic Segment と統合.
+
+**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §A-01 / 計画 §4 Week 1
+
+---
+
+### [ ] FU-306: `make_chunk` 17 引数を context dataclass に (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/extract_supplproviso_from_xml.py:436-497`. 引数 17 個 (位置/キーワード混在).
+
+**やること**: `SupplProvisionContext` dataclass (law_id, law_abbrev, law_name_ja, sp_idx, sp_label, amend_*, enforcement_date, effective_status) を導入し `make_chunk(ctx, chunk_id, text, ...)` に集約.
+
+**関連**: §A-02 / 計画 §4 Week 1
+
+---
+
+### [ ] FU-307: `build_law_abbrev_to_id_phase` 重複排除 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/extract_kou_from_xml.py:64-86` と `extract_supplproviso_from_xml.py:406-426` でほぼ同一定義.
+
+**問題**: 既知事故 (d) と同型. 片方を直して片方忘れる risk.
+
+**やること**: `tools/shared/src/juricode_shared/law_index.py` に `build_law_index(data_dir) -> dict[abbrev, LawIndexEntry]` を一本化. `LawIndexEntry` に law_id / phase / law_name_ja を持たせる.
+
+**関連**: §A-03 / 計画 §4 Week 1
+
+---
+
+### [ ] FU-308: parser dataclass → Pydantic Segment 統合 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/segment_parser.py:135-165` (dataclass) と `tools/shared/src/juricode_shared/ir.py:61-85` (Pydantic) で同概念二重定義.
+
+**問題**: IR を「正規」にしたい意図と矛盾. parser 出力が `extra="forbid"` Pydantic で validate されない → 型ドリフトが入り放題.
+
+**やること**: parser dataclass を Pydantic `Segment` に置換、`Segment(...).model_dump(exclude_none=True)` で `to_dict` を完全置き換え.
+
+**関連**: §B-01 §B-03 / 計画 §4 Week 2
+
+---
+
+### [ ] FU-309: ET element の None ガード統一 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/extract_kou_from_xml.py:89, 122` で `elem` 型注釈なし. None を受けると AttributeError.
+
+**やること**: 型を `xml.etree.ElementTree.Element | None` と明示、冒頭 `if elem is None: return ""` を追加 (supplproviso 側と一貫化).
+
+**関連**: §B-02 / 計画 §4 Week 2
+
+---
+
+### [ ] FU-310: modality 優先順位 Why コメント追加 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/segment_parser.py:48-79`. `MODALITY_PATTERNS` の優先順位コメントが「より specific を先に」のみで根拠なし.
+
+**問題**: 法令言語ルールの根幹なのに Why が `business/japanese-law-rag-design-blueprint-2026-05-22.md` まで飛ばないと分からない. AI 修正で順序を崩しても気付けない.
+
+**やること**: 各 modality 行に「例: 〜の限りでない (刑法第N条) — 但書は最初に検出すべき (本文 modality を上書きするため)」等の 1 行根拠コメント.
+
+**関連**: §C-01 §C-02 / 計画 §4 Week 3
+
+---
+
+### [ ] FU-311: `MAX_TEXT_LEN` を shared 定数化 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/extract_supplproviso_from_xml.py:433` `MAX_TEXT_LEN = 6000`. Gemini model 切替時の紐付けが弱い.
+
+**やること**: `tools/shared/src/juricode_shared/embedding_limits.py` に `GEMINI_EMBEDDING_001_MAX_CHARS = 6000  # 8192 token を日本語 1.35 token/char で逆算、20% 安全マージン` として移し、各 parser から import.
+
+**関連**: §C-03 / 計画 §4 Week 3
+
+---
+
+### [ ] FU-312: v0.2 parser まとめ系修正 (2026-05-24 追加)
+
+**場所**: 複数箇所をまとめて 1 PR で対応:
+
+1. `segment_parser.py:370-377` `parse_v01_md` の off-by-one ガード追加 + `parsing_warnings` 戻り値 (§C-06)
+2. `extract_kou_from_xml.py:294-315` `chunk_file.open()` 3 回を 1 回 open に削減 (§D-05)
+3. `extract_*.py` の `except Exception` を具体例外に分割 (§D-06)
+4. `examples/v0.2/keihou-article-36.md` の paragraph 見出し統一 (§D-07)
+5. `extract_*.py` の `ET.parse(xml_path)` への law_id path traversal 防御 (§D-08)
+
+**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §C-06 §D-05〜D-08 / 計画 §4 Week 4
+
+---
+
+### [ ] FU-405: PARAGRAPH_HEADING_RE / 漢数字変換を shared 化 (2026-05-24 追加)
+
+**場所**: `tools/parse/verify.py:38-46`, `tools/export/lawsy-bq/export-jsonl.py:119-123` 等で同種 regex が複数ファイル別実装、枝番条対応有無で乖離.
+
+**やること**: `tools/shared/src/juricode_shared/markdown_regex.py` に `PARAGRAPH_HEADING_PATTERN`, `kansuji_to_int` を共通化、全ファイルから import. FU-301 完了後に着手.
+
+**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §D-05 / 計画 §4 Week 3
+
+---
+
+### [ ] FU-406: retrieve.py main を RetrievalPipeline クラスに分解 (2026-05-24 追加)
+
+**場所**: `tools/embed/retrieve.py:577-787` (main 211 行で 4 つの責務同居).
+
+**やること**: `RetrievalPipeline` クラスに `dense_retrieve / hybrid_combine / dedup_by_article / rerank / aggregate_metrics` を分割. main は CLI parsing + pipeline 実行のみ (50 行以下).
+
+**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §A-01 / 計画 §4 Week 1
+
+---
+
+### [ ] FU-407: `dedup_by_article` の unit test 追加 (2026-05-24 追加)
+
+**場所**: `tools/embed/retrieve.py:542-574`. 既知事故 (f) の修正は入っているが test 0 件.
+
+**やること**: `tools/embed/tests/test_retrieve.py` を新設、`article_ids = ["A", "A", "B", "C", "C", "D"]` 等の fixture で純関数 unit test.
+
+**関連**: §7 (事故 f 残存リスク) / 計画 §4 Week 1
+
+---
+
+### [ ] FU-408: `parse_egov_xml` 戻り値を dataclass 化 (2026-05-24 追加)
+
+**場所**: `tools/parse/parse-egov.py:110-164`. `dict` (Any) を返し下流が `article["paragraphs"]` 等にキーアクセス.
+
+**やること**: `@dataclass` で `ParsedLaw / ParsedArticle / ParsedParagraph` を定義. Pydantic IR と二重化を避けるため `tools/shared` に置く判断もあり.
+
+**関連**: §B-01 / 計画 §4 Week 2
+
+---
+
+### [ ] FU-409: embed.py state を Union 型化 (2026-05-24 追加)
+
+**場所**: `tools/embed/embed.py:71, 132, 222` の `state: dict` が provider 別 schema を持つが型不明.
+
+**やること**: `TfidfState / OpenAIState / GeminiState` の `@dataclass`、`Union` で型付け. pickle の schema バージョンも frontmatter に記録.
+
+**関連**: §B-02 / 計画 §4 Week 2
+
+---
+
+### [ ] FU-410: parse-egov.py `warnings.warn` → `logger.warning` (2026-05-24 追加)
+
+**場所**: `tools/parse/parse-egov.py:231-236, 239-242`. bulk-ingest 経由で stderr が膨大化、本物のエラーが埋もれる.
+
+**やること**: `logger.warning` に置換 + `--strict-paragraphs` flag で error 化を選択可能に.
+
+**関連**: §D-08 / 計画 §4 Week 3
+
+---
+
+### [ ] FU-411: Gemini `except Exception` 分割 (2026-05-24 追加)
+
+**場所**: `tools/finetune/generate-training-data.py:68, 89, 224`. retry すべき例外と即 fail すべき例外を区別していない.
+
+**やること**: `RateLimitError / InvalidArgumentError / RetryableError` 等を handler 別に分ける.
+
+**関連**: §D-06 / 計画 §4 Week 3
+
+---
+
+### [ ] FU-412: BM25 index pickle キャッシュ (2026-05-24 追加)
+
+**場所**: `tools/embed/retrieve.py:670-677`. `--hybrid-bm25` 時に毎回 full rebuild、17,967 segments で数十秒〜分.
+
+**やること**: `.bm25.pkl` でキャッシュ、mtime 比較で再構築判定.
+
+**関連**: §D-07 / 計画 §4 Week 4
+
+---
+
+### [ ] FU-413: `_extract_law_name` を defusedxml ElementTree.find に (2026-05-24 追加)
+
+**場所**: `tools/fetch-egov/src/fetch_egov/client.py:239-245`. 文字列 find で `<LawTitle>` を抜くため、属性付きや empty タグで破綻.
+
+**やること**: `defusedxml.ElementTree.fromstring(xml).find(".//LawTitle")` 化.
+
+**関連**: §D-09 / 計画 §4 Week 3
+
+---
+
+### [ ] FU-414: search-ui に `--allow-external` flag (2026-05-24 追加)
+
+**場所**: `tools/search-ui/server.py:1-30`. CORS / auth なし、`--host 0.0.0.0` で誤公開リスク.
+
+**やること**: `--host` を 127.0.0.1 で hard pin、`--allow-external` 明示同意時のみ 0.0.0.0 許可 + warning ログ.
+
+**関連**: §D-10 / 計画 §4 Week 3
+
+---
+
+### [ ] FU-415: phase tag sweep script (FU-401 完了後) (2026-05-24 追加)
+
+**場所**: FU-401 で `--phase-tag` 必須化した後、既存 `data/**/*.md` の `tags[0]` が古い `phase1-police` のままになっている可能性. path-based phase で書き換えるバッチ.
+
+**やること**: `scripts/fix-phase-tags.py` を新設、`--dry-run` mode で diff 確認後に apply. 失敗時は `git checkout HEAD -- data/` で revert (既知事故 (d) で実証済).
+
+**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §7 (事故 d) / 計画 §4 Week 4
+
+---
+
 ## P2 — Phase 1 中期 (2026-07〜09)
 
 ### [ ] FU-101: `ARTICLE_ID_PATTERN` の特殊条文対応
@@ -305,6 +619,166 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
+### [ ] FU-313: `process_file` の parse / write / stats 分離 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/segment_parser.py:521-567`. parse → write 2 ファイル → 統計集計を 1 関数で実施、dry_run / test が書きづらい.
+
+**やること**: `parse_file()` (純粋関数、結果 dataclass 返却) と `write_outputs()` を分離.
+
+**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §A-04
+
+---
+
+### [ ] FU-314: rollup 生成経路の統合 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/extract_supplproviso_from_xml.py:608-635` の inline rollup と `add_rollup_chunks.py` が別経路で rollup 生成.
+
+**やること**: `add_rollup_chunks.py` で `supplproviso_rollup` も統一処理. 当面は README に「rollup 生成は 2 箇所」を明記.
+
+**関連**: §A-05
+
+---
+
+### [ ] FU-315: `Any` / `dict` 戻り値の TypedDict 化 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/segment_parser.py:150, 178`, `add_rollup_chunks.py:41`, `extract_kou_from_xml.py:104`, `extract_supplproviso_from_xml.py:436`. `dict` / `list[dict]` がジェネリック未指定.
+
+**やること**: `ChunkDict / SegmentDict / SupplProvisoChunk` を `TypedDict` で定義、もしくは Pydantic `Chunk` model 化.
+
+**関連**: §B-01 §B-05
+
+---
+
+### [ ] FU-316: `kansuji_to_int` 統一 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/segment_parser.py:111-127` (失敗時 0 返却) と `extract_supplproviso_from_xml.py:104-139` (失敗時 None 返却) で挙動差.
+
+**やること**: `tools/shared/src/juricode_shared/kansuji.py` に統一、戻り値を `int | None` に揃え、call site で `or 0` フォールバック.
+
+**関連**: §B-06
+
+---
+
+### [ ] FU-317: BOM / Windows path 対応 (2026-05-24 追加)
+
+**場所**: `tools/shared/src/juricode_shared/frontmatter.py:24` で BOM 付き UTF-8 即 ValueError. `paths.py:23-27` docstring が PosixPath.
+
+**やること**: `text.lstrip("\ufeff")` を冒頭で 1 行追加. paths.py docstring を Path() に.
+
+**関連**: §D-09 §D-10
+
+---
+
+### [ ] FU-318: rollup chunk の retrieval filter 設計 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/add_rollup_chunks.py:79-89`. rollup chunk が `paragraph_number: None` のため、retrieval 側の filter が常に除外/常に含むの二択になる.
+
+**やること**: `is_rollup: True` flag を追加、または `segment_type == "rollup"` を retrieve 側標準 filter に.
+
+**関連**: §D-11
+
+---
+
+### [ ] FU-416: parse-egov.py `article_to_markdown` を IR 経由化 (2026-05-24 追加)
+
+**場所**: `tools/parse/parse-egov.py:272-345`. IR 生成と frontmatter YAML 出力が同関数内.
+
+**やること**: `article_to_ir(article, ...) -> JuriCodeArticle` と `ir_to_markdown(ir) -> (filename, text)` の 2 関数に分割.
+
+**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §A-02
+
+---
+
+### [ ] FU-417: bulk-ingest.py を EGovClient + FileCache 利用化 (2026-05-24 追加)
+
+**場所**: `tools/fetch-egov/bulk-ingest.py:115-212`. urllib 直叩きで `EGovClient` を使っていない (両者の挙動 drift).
+
+**やること**: `EGovClient` + `FileCache` を直接利用、urllib コードパスを削除.
+
+**関連**: §A-03
+
+---
+
+### [ ] FU-418: search-ui の検索ロジックを retrieve.py から import (2026-05-24 追加)
+
+**場所**: `tools/search-ui/server.py:45-200`. cosine top-k を retrieve.py と 2 箇所で実装.
+
+**やること**: `retrieve.py` の `_cosine_topk` + `_encode_queries` を共有モジュール化、search-ui はそれを import.
+
+**関連**: §A-04
+
+---
+
+### [ ] FU-419: generate-training-data.py を TrainingDataGenerator に分割 (2026-05-24 追加)
+
+**場所**: `tools/finetune/generate-training-data.py:145-293`. main 内で corpus 読み込み〜Gemini 呼び出しまで直列.
+
+**やること**: `TrainingDataGenerator` クラスに責務分割、CLI から library API を露出.
+
+**関連**: §A-05
+
+---
+
+### [ ] FU-420: retrieve.py / generate-training-data.py の型注釈追加 (2026-05-24 追加)
+
+**場所**: `tools/embed/retrieve.py:453-518` (`_encode_queries` 型注釈なし)、`tools/finetune/generate-training-data.py` 全般.
+
+**やること**: `-> np.ndarray` 明示 + shape を docstring に. corpus は `TypedDict` で.
+
+**関連**: §B-03 §B-05
+
+---
+
+### [ ] FU-421: bulk-ingest.py `summary` を IngestionResult dataclass 化 (2026-05-24 追加)
+
+**場所**: `tools/fetch-egov/bulk-ingest.py:268`. `list[tuple[str, str, int, str]]` で 4-tuple ハード.
+
+**やること**: `IngestionResult` dataclass.
+
+**関連**: §B-04
+
+---
+
+### [ ] FU-422: bulk-ingest.py PHASE_MAP の各 phase 定義を docstring 化 (2026-05-24 追加)
+
+**場所**: `tools/fetch-egov/bulk-ingest.py:46-104`. 1 行コメントのみで分類根拠が断片的.
+
+**やること**: 各 phase の定義 (例: `phase3-pharma = 薬機法系の規制業種法令`) をモジュール冒頭 docstring に.
+
+**関連**: §C-03
+
+---
+
+### [ ] FU-423: train-reranker.py docstring の `/home/masa/...` を HF model ID に (2026-05-24 追加)
+
+**場所**: `tools/finetune/train-reranker.py:10`. 環境固有パスを example に残すと AI が hard-code する.
+
+**やること**: HF model ID (例: `hotchpotch/japanese-reranker-cross-encoder-small-v1`) に置換、local path は optional override 扱い.
+
+**関連**: §C-05
+
+---
+
+### [ ] FU-424: train-reranker.py で fit 終了後に metrics サマリ出力 (2026-05-24 追加)
+
+**場所**: `tools/finetune/train-reranker.py:131`. 成功時 save パスのみ表示、metrics サマリなし.
+
+**やること**: `evaluator` の最終スコア (`fit` 戻り値) を必ず print.
+
+**関連**: §D-11
+
+---
+
+### [ ] FU-425: retrieve.py hybrid + rerank 連動修正 (2026-05-24 追加)
+
+**場所**: `tools/embed/retrieve.py:707-716`. `--hybrid-bm25 --reranker` 併用時、rerank が dense top-N しか見ず hybrid の RRF 結果が捨てられる.
+
+**やること**: rerank も `top_idx_wide` (hybrid 後) を candidate にする option を追加.
+
+**関連**: §D-14
+
+---
+
 ## P3 — Phase 1 後期以降 (2026-10〜) / Phase 2 検討
 
 ### [ ] FU-201: `ParentSection` を多言語対応構造に変更
@@ -372,25 +846,11 @@ mypy / pyright で型がより厳密に追える.
 
 ### [ ] FU-206: 条文間クロスリファレンスの IR 拡張 (2026-05-19 追加)
 
-**現状**: Pydantic IR は「1 条」単位での構造化に閉じていて, 条文間の参照 (例: 刑法 36 条 1 項 ↔ 刑法 36 条 2 項, 刑法 36 条 ↔ 刑事訴訟法 198 条) を機械可読に表現する仕組みがない.
+**現状**: Pydantic IR は「1 条」単位での構造化に閉じていて, 条文間の参照を機械可読に表現する仕組みがない.
 
 **問題**: Phase 1 (4 法令 ~75 条) では影響小. ただし Phase 2 (民法・商法) で他法律への参照が爆発的に増えると, RAG 用途で「関連条文を辿る」探索クエリが弱くなる. 後付け改修は IR 破壊変更で migration コスト大.
 
-**やること** (Phase 2 着手前 or 必要が出たタイミング):
-
-```python
-class ArticleReference(BaseModel):
-    law_id: str         # 参照先法令ID
-    article_id: str     # 参照先 article_id
-    paragraph: int | None  # 参照先項番号 (任意)
-    relation: Literal["see-also", "supersedes", "supersededby", "implements", ...]
-
-class JuriCodeArticle(BaseModel):
-    ...
-    references: list[ArticleReference] = Field(default_factory=list)
-```
-
-graph traversal を考慮するなら別途グラフ DB (Neo4j 等) への export 検討.
+**やること** (Phase 2 着手前 or 必要が出たタイミング): `ArticleReference` モデルを `JuriCodeArticle.references` に追加. graph traversal を考慮するなら別途グラフ DB (Neo4j 等) への export 検討.
 
 **関連**: [FU-201] (ParentSection 多言語化) と同じく Phase 2 着手時の大きな IR 進化検討.
 
@@ -398,16 +858,99 @@ graph traversal を考慮するなら別途グラフ DB (Neo4j 等) への expor
 
 ### [ ] FU-207: CI / validate-all.py の差分検証・並列化 (2026-05-19 追加)
 
-**現状**: CI ジョブ "Validate all law data files" は `tools/validate/validate-all.py` で全ファイルを線形ループ. Phase 1 (~75 ファイル) では問題ないが,
-Phase 2 (~1,900 ファイル) / Phase 3 (数千ファイル) で PR ごとの CI 時間が膨らむ.
+**現状**: CI ジョブ "Validate all law data files" は全ファイルを線形ループ. Phase 2 (~1,900 ファイル) / Phase 3 (数千ファイル) で PR ごとの CI 時間が膨らむ.
 
-**やること** (Phase 2 着手前):
+**やること** (Phase 2 着手前): `--changed-since GITREF` 等の差分モード追加. CI 上で `pull_request` イベントの場合は変更ファイルのみ検証. 並列化.
 
-1. `validate-all.py` に `--changed-since GITREF` 等の差分モードを追加
-2. CI 上で `pull_request` イベントの場合は変更ファイルのみ検証, `push to main` のときだけ全件検証
-3. 並列化 (Python `multiprocessing` or pytest-xdist 流用)
+---
 
-**関連**: Phase 2 着手前にやらないと, データ追加が増えるほど PR レビューの待ち時間が増える.
+### [ ] FU-319: `SEGMENT_TYPE_ORDER` の Why コメント (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/add_rollup_chunks.py:28-38`. tie-breaker の根拠と並びの安定性が不明.
+
+**やること**: 「同一 paragraph 内では honbun → tadashi / zen_dan → kou_dan / hashira → kou1 → kou2 の順を保証. honbun と zen_dan は同 paragraph 共存なしで 0 重複 OK」を明記.
+
+**関連**: `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` §C-04
+
+---
+
+### [ ] FU-320: `KOU_DAN_LEADER` anchor 意図明文化 (2026-05-24 追加)
+
+**場所**: `tools/parse/v0.2/segment_parser.py:35`. anchor 混在の意図が不明.
+
+**やること**: 意図ありなら「前段の場合において は段落先頭にしか現れない」をコメント、事故ならアンカー削除.
+
+**関連**: §C-05
+
+---
+
+### [ ] FU-321: Penalty model parser 実装 (2026-05-24 追加)
+
+**場所**: `tools/shared/src/juricode_shared/ir.py:43-58` で定義済だが parser で生成箇所なし.
+
+**やること**: 刑罰検出を v0.3+ で実装. それまで IR に枠だけ残す.
+
+**関連**: §D-12
+
+---
+
+### [ ] FU-426: `dedup_by_article` docstring に Why 追記 (2026-05-24 追加)
+
+**場所**: `tools/embed/retrieve.py:542-574`. 「v0.1 比較用」のみで「top rank 保持」根拠なし.
+
+**やること**: 「上位 rank の segment が最も relevance 高、後続は同 article 内の関係ない条文の可能性が高い」を docstring に.
+
+**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §C-02
+
+---
+
+### [ ] FU-427: retrieve.py rrf_combine の dense 側を candidate_pool で渡す (2026-05-24 追加)
+
+**場所**: `tools/embed/retrieve.py:680-685`. dense top が wide_pool で絞られ低 rank dense + 高 rank bm25 が取り逃される.
+
+**やること**: dense 側を `candidate_pool` (= top_k*10) で渡す.
+
+**関連**: §D-12
+
+---
+
+### [ ] FU-428: generate-training-data.py resume の挙動 docstring 明文化 (2026-05-24 追加)
+
+**場所**: `tools/finetune/generate-training-data.py:215-226`. resume 挙動と docstring の一致が曖昧.
+
+**やること**: docstring で resume の単位 (positive_id 単位) を明示.
+
+**関連**: §D-13
+
+---
+
+### [ ] FU-429: retrieve.py rerank candidate に top_idx_wide option (2026-05-24 追加)
+
+**場所**: `tools/embed/retrieve.py:707-716`. FU-425 (P2) の P3 fallback 案、option として実装するパターン.
+
+**やること**: `--rerank-candidates {dense,hybrid}` で選べる.
+
+**関連**: §D-14
+
+---
+
+### [ ] FU-430: bulk-ingest.py subprocess の `--quiet` 化 (2026-05-24 追加)
+
+**場所**: `tools/fetch-egov/bulk-ingest.py:185`. 民法 1,165 条等で stdout buffer 膨大化、OOM の可能性.
+
+**やること**: parse-egov.py を `--quiet` 化、または log file redirect.
+
+**関連**: §D-15
+
+---
+
+### [ ] FU-431: parse-egov.py 削除条文範囲を manifest 記録 (2026-05-24 追加)
+
+**場所**: `tools/parse/parse-egov.py:212-218`. `<Article Num="73:76">` 範囲を None で flatten 削除し痕跡を失う.
+
+**やること**: `deleted_articles` リストを `_source-manifest.json` に記録.
+
+**関連**: §D-16
 
 ---
 
@@ -430,10 +973,14 @@ Phase 2 (~1,900 ファイル) / Phase 3 (数千ファイル) で PR ごとの CI
 
 ## 関連
 
-- 内部レビュー文書 (gitignored): `business/code-reviews/2026-05-18-tools-and-schema-review.md`
-- 仕様書: [docs/ir-spec.md](./ir-spec.md), [docs/format-spec.md](./format-spec.md), [docs/tag-vocabulary.md](./tag-vocabulary.md)
+- 内部レビュー文書 (gitignored):
+  - `business/code-reviews/2026-05-18-tools-and-schema-review.md` (初回)
+  - `business/code-reviews/2026-05-24-v02-parser-pipeline-review.md` (v0.2 + shared レビュー, FU-301..321)
+  - `business/code-reviews/2026-05-24-full-tools-review.md` (tools/ フルレビュー, FU-401..431)
+  - `business/code-reviews/2026-05-24-fix-plan.md` (P0 4 日間スプリント詳細 + P1-P3 概観)
+- 仕様書: [docs/ir-spec.md](./ir-spec.md), [docs/format-spec.md](./format-spec.md), [docs/tag-vocabulary.md](./tag-vocabulary.md), [docs/format-spec-v0.2.md](./format-spec-v0.2.md)
 - 検証ツール: [tools/validate/README.md](../tools/validate/README.md)
 
 ---
 
-*Last updated: 2026-05-20 / Maintained by: CHOKAI Co.,Ltd. / Status: v0.4 — FU-P0-1 (parse MVP) と FU-P0-2 (自治体法令) を **完了済みセクションへ移行** (commit 82a4f6d / 6ed72d7, 計 1,769 条). 完成度検証は新規 FU-108 (P2) に切り出し. 残 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
+*Last updated: 2026-05-24 / Maintained by: CHOKAI Co.,Ltd. / Status: v0.5 — 2026-05-24 の 2 本のレビュー (v0.2 parser pipeline + tools フル) で計 **52 件** の指摘を P0×8 / P1×19 / P2×16 / P3×9 として追加. NLnet 5/28 提出までに P0 8 件を `business/code-reviews/2026-05-24-fix-plan.md` の 4 日間スプリント計画で消化予定. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
