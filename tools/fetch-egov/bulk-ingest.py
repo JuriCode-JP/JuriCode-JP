@@ -205,8 +205,11 @@ def run_validate(data_root: Path) -> bool:
             print("  [warn] validate-all script not found, skipping")
             return True
     print(f"\n=== running {validate_script.name} ===")
+    # FU-403: 旧版は `--data-root` を渡していたが validate-all.py 側は argparse
+    # なしで silently 無視していた (偽の green CI 源). 命名を `--path` に揃え、
+    # 非標準 data-root でも実体を検証するように修正.
     proc = subprocess.run(
-        [sys.executable, str(validate_script), "--data-root", str(data_root)],
+        [sys.executable, str(validate_script), "--path", str(data_root)],
         capture_output=False,
     )
     return proc.returncode == 0
