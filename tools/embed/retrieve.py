@@ -771,8 +771,7 @@ def main():
     print(f"  MRR          : {mrr:.3f}", file=sys.stderr)
 
     # Settings tag for log-friendliness
-    settings = []
-    settings = []
+    settings: list[str] = []
     if args.normalize_query:
         settings.append("normalize-query")
     if args.hybrid_bm25:

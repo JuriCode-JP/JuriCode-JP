@@ -43,9 +43,12 @@ _NORM_MATRIX: np.ndarray | None = None  # pre-normalized for fast cosine
 
 
 def _load_artefacts(prefix: Path) -> tuple[np.ndarray, list[dict], dict]:
-    npy_path = prefix.with_suffix(".npy")
-    meta_path = prefix.with_suffix(".meta.jsonl")
-    vec_path = prefix.with_suffix(".vec.pkl")
+    # NOTE: with_suffix() は "v0.2-gemini-17967" のようなドット含み名で
+    # ".2-gemini-17967" を suffix と解釈して壊す。文字列連結で回避。
+    # embed.py:295 / retrieve.py:418 と同じパターン (FU-404).
+    npy_path = prefix.parent / (prefix.name + ".npy")
+    meta_path = prefix.parent / (prefix.name + ".meta.jsonl")
+    vec_path = prefix.parent / (prefix.name + ".vec.pkl")
     missing = [str(p) for p in (npy_path, meta_path, vec_path) if not p.exists()]
     if missing:
         raise FileNotFoundError(f"Missing artefact(s): {missing}")
