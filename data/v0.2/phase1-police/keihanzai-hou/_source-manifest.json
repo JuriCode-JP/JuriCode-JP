@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "law_id": "323AC0000000039",
+  "law_name_ja": "軽犯罪法",
+  "law_abbrev": "keihanzai-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/323AC0000000039",
+  "source_xml_path": "../../../cache/laws/323AC0000000039.xml",
+  "source_xml_sha256": "6b8f7acda147098ea2969e91ceb9ada7e52eb35b535f907bc85ed415e08670e3",
+  "source_xml_bytes": 18954,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:26:47+00:00",
+  "version_date": "1948-05-01",
+  "article_count": 4,
+  "articles": [
+    {
+      "article_id": "keihanzai-hou-art-1",
+      "article_number": "1",
+      "filename": "keihanzai-hou-article-1.md",
+      "ja_text_sha256": "f3e2d2a1820590f4fb5c4aff4c0e5d21ebd0fca385d9972e96d38516d27abd67",
+      "ja_text_bytes": 136,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keihanzai-hou-art-2",
+      "article_number": "2",
+      "filename": "keihanzai-hou-article-2.md",
+      "ja_text_sha256": "7510a5abbbd4566b83c227d9e8d4f26dc4e2629b7b8d41c1866dc8ab2ff0a07a",
+      "ja_text_bytes": 199,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keihanzai-hou-art-3",
+      "article_number": "3",
+      "filename": "keihanzai-hou-article-3.md",
+      "ja_text_sha256": "12d415fe6fdff409f393d75482587311b33569e135a906708d131f34263198bc",
+      "ja_text_bytes": 130,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keihanzai-hou-art-4",
+      "article_number": "4",
+      "filename": "keihanzai-hou-article-4.md",
+      "ja_text_sha256": "024b5f633793a3c85d0966ac099aee995d9227521b7c14cb3109478ed158ed47",
+      "ja_text_bytes": 283,
+      "paragraph_count": 1
+    }
+  ]
+}

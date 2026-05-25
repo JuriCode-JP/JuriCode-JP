@@ -1,0 +1,1570 @@
+{
+  "schema_version": "1.0",
+  "law_id": "337AC0000000066",
+  "law_name_ja": "国税通則法",
+  "law_abbrev": "kokuzei-tsuusoku-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/337AC0000000066",
+  "source_xml_path": "../../../cache/laws/337AC0000000066.xml",
+  "source_xml_sha256": "2051affbcb463a0b4b14acaf75a893696dc7e71ae30cff685bfbce44be4f3253",
+  "source_xml_bytes": 934385,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:27:13+00:00",
+  "version_date": "1962-04-02",
+  "article_count": 194,
+  "articles": [
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-1",
+      "article_number": "1",
+      "filename": "kokuzei-tsuusoku-hou-article-1.md",
+      "ja_text_sha256": "913d12f2b2fe98c62b63243693245eb2e8d003b62c9181c6bdb2e3d173677260",
+      "ja_text_bytes": 407,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-10",
+      "article_number": "10",
+      "filename": "kokuzei-tsuusoku-hou-article-10.md",
+      "ja_text_sha256": "3fdcaf2344f530f40e805559b7332c0ce2ff31cb02f94ca338ecb617302d815e",
+      "ja_text_bytes": 743,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-100",
+      "article_number": "100",
+      "filename": "kokuzei-tsuusoku-hou-article-100.md",
+      "ja_text_sha256": "fe2f6523b6ec6a2f1f408b4d3afe1383ad5c65b66e12e2af734e6ce7adaa97ae",
+      "ja_text_bytes": 67,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-101",
+      "article_number": "101",
+      "filename": "kokuzei-tsuusoku-hou-article-101.md",
+      "ja_text_sha256": "de48229b320034796a92e18ec68b45604581406ec2ab748a6425545ae29a6403",
+      "ja_text_bytes": 1177,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-102",
+      "article_number": "102",
+      "filename": "kokuzei-tsuusoku-hou-article-102.md",
+      "ja_text_sha256": "f24f90035516b36454f532a9cef45d02380c870317adfdb65ff50f72fe81fd0f",
+      "ja_text_bytes": 1405,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-103",
+      "article_number": "103",
+      "filename": "kokuzei-tsuusoku-hou-article-103.md",
+      "ja_text_sha256": "ae4bf828891b8f3540ff46662f9ecb02726139825b9481ccced83ddffa5de0e8",
+      "ja_text_bytes": 523,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-104",
+      "article_number": "104",
+      "filename": "kokuzei-tsuusoku-hou-article-104.md",
+      "ja_text_sha256": "5091f52880e28ea04f49907cbf27a17dda399589cb0239592677880848c1a906",
+      "ja_text_bytes": 1689,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-105",
+      "article_number": "105",
+      "filename": "kokuzei-tsuusoku-hou-article-105.md",
+      "ja_text_sha256": "7611d25dbd77eaafc808b449dbf06638e86d2c082100b5a8d8195a7a57c77af6",
+      "ja_text_bytes": 5427,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-106",
+      "article_number": "106",
+      "filename": "kokuzei-tsuusoku-hou-article-106.md",
+      "ja_text_sha256": "34ab856a65cb42a8f2dc73e14844f7fdc4bc8bc1025da1f8a3b9b858152bbe61",
+      "ja_text_bytes": 1617,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-107",
+      "article_number": "107",
+      "filename": "kokuzei-tsuusoku-hou-article-107.md",
+      "ja_text_sha256": "95ab62c2d057875a5f7d947667c254b28798bbd0db91af2364964d63e4dc5cdc",
+      "ja_text_bytes": 744,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-108",
+      "article_number": "108",
+      "filename": "kokuzei-tsuusoku-hou-article-108.md",
+      "ja_text_sha256": "fd54aaf9ed5af1cf0709c1b19b6975bb28040eaa1a5c3f7a254e56a4ce9ccd0c",
+      "ja_text_bytes": 1696,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-109",
+      "article_number": "109",
+      "filename": "kokuzei-tsuusoku-hou-article-109.md",
+      "ja_text_sha256": "e62b17b0b5e76ed761ed5d3956176c4a673d137ee98ea3f7c4004dff03ec6465",
+      "ja_text_bytes": 904,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-11",
+      "article_number": "11",
+      "filename": "kokuzei-tsuusoku-hou-article-11.md",
+      "ja_text_sha256": "f18ed755116245f5e1dfd6b8f0efebe50718238cb50099e9e5607bf4fd762a7f",
+      "ja_text_bytes": 561,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-110",
+      "article_number": "110",
+      "filename": "kokuzei-tsuusoku-hou-article-110.md",
+      "ja_text_sha256": "79be70f176c8c5150f55d511689d1be14626b9c91cf52d0e426b6551ed5c5936",
+      "ja_text_bytes": 598,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-111",
+      "article_number": "111",
+      "filename": "kokuzei-tsuusoku-hou-article-111.md",
+      "ja_text_sha256": "d065d0a1ef9ddbf99b80fffcacfd2c7701c2f5febb456564b06886ccf08a2918",
+      "ja_text_bytes": 811,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-112",
+      "article_number": "112",
+      "filename": "kokuzei-tsuusoku-hou-article-112.md",
+      "ja_text_sha256": "b9787f99b0133adc92e8397bd9bf573ff91dcee8ffe8eae6d05f3ed50555749d",
+      "ja_text_bytes": 2820,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-113-2",
+      "article_number": "113-2",
+      "filename": "kokuzei-tsuusoku-hou-article-113-2.md",
+      "ja_text_sha256": "5c554ede08829c9ceac2f02a5dd9cb105101a46c6f5bd7190a4881d69642f285",
+      "ja_text_bytes": 1625,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-113",
+      "article_number": "113",
+      "filename": "kokuzei-tsuusoku-hou-article-113.md",
+      "ja_text_sha256": "9c2f7742b34b7b507a53a095d73951b9d0f2b4cabd7008968c937331cc800e4d",
+      "ja_text_bytes": 235,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-114",
+      "article_number": "114",
+      "filename": "kokuzei-tsuusoku-hou-article-114.md",
+      "ja_text_sha256": "b695eb2711509c2d33675ee86d0538eeb7bc9d1923af165eebef27f597d1bada",
+      "ja_text_bytes": 388,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-115",
+      "article_number": "115",
+      "filename": "kokuzei-tsuusoku-hou-article-115.md",
+      "ja_text_sha256": "e89ae989672cb3f249e25117b4a1a775369e2843dd6cba1e09f89cc900f0953a",
+      "ja_text_bytes": 967,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-116",
+      "article_number": "116",
+      "filename": "kokuzei-tsuusoku-hou-article-116.md",
+      "ja_text_sha256": "d2e5e13cb0b39c64e6581fba4584c7f3fdbaf0f060019d8785860c32ab4567f9",
+      "ja_text_bytes": 1581,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-117",
+      "article_number": "117",
+      "filename": "kokuzei-tsuusoku-hou-article-117.md",
+      "ja_text_sha256": "57bd4c0a73cbcf7364e94126b9662ef8516ad2fe74681c1c1f5c2db8a4b0d3c7",
+      "ja_text_bytes": 4399,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-118",
+      "article_number": "118",
+      "filename": "kokuzei-tsuusoku-hou-article-118.md",
+      "ja_text_sha256": "628e06c478c8fa0e01ee6c83ac2ad75abe51c70f1b3b58c19ca3bb67d06eb121",
+      "ja_text_bytes": 1202,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-119",
+      "article_number": "119",
+      "filename": "kokuzei-tsuusoku-hou-article-119.md",
+      "ja_text_sha256": "61282e6b388b5752f14270d55adf6596ff70ac9d9defa6ccae7fbdafa5f8565b",
+      "ja_text_bytes": 1502,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-12",
+      "article_number": "12",
+      "filename": "kokuzei-tsuusoku-hou-article-12.md",
+      "ja_text_sha256": "a3770969bf2a49122b11f6114cf79fba1dd68b35c7dd90232f7eb6683bfa80b9",
+      "ja_text_bytes": 2566,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-120",
+      "article_number": "120",
+      "filename": "kokuzei-tsuusoku-hou-article-120.md",
+      "ja_text_sha256": "70b1fd075380381a335c0af7b0ca73c34a991214d7546bbc1fc4f85ee6fb54a8",
+      "ja_text_bytes": 916,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-121",
+      "article_number": "121",
+      "filename": "kokuzei-tsuusoku-hou-article-121.md",
+      "ja_text_sha256": "570ac67e7ddfef17c62692971e3d959261a2314eaa7e7ebbb314174f4ca413cf",
+      "ja_text_bytes": 355,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-122",
+      "article_number": "122",
+      "filename": "kokuzei-tsuusoku-hou-article-122.md",
+      "ja_text_sha256": "0b20c0e914f681f63d6262e144c53bc156ae3a5835c0771d5aa433fa1fce6f05",
+      "ja_text_bytes": 361,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-123",
+      "article_number": "123",
+      "filename": "kokuzei-tsuusoku-hou-article-123.md",
+      "ja_text_sha256": "e6c61028b7a03992bff2fb749bf006bf47b5ee952b7149ee98867180df9b2867",
+      "ja_text_bytes": 643,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-124",
+      "article_number": "124",
+      "filename": "kokuzei-tsuusoku-hou-article-124.md",
+      "ja_text_sha256": "9a9edd7e113178da0ecda0ac9a69eb480d12f617850cb25773595feb59905f83",
+      "ja_text_bytes": 1497,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-125",
+      "article_number": "125",
+      "filename": "kokuzei-tsuusoku-hou-article-125.md",
+      "ja_text_sha256": "c5a07c77a4f8c8d6f0e6622404fd6733a7467521f21396a3bad673a36c60c071",
+      "ja_text_bytes": 325,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-126",
+      "article_number": "126",
+      "filename": "kokuzei-tsuusoku-hou-article-126.md",
+      "ja_text_sha256": "bbdae3dbe37c9ba961c3b2b5a34feab13921ff3879b3024749b75625f60eec01",
+      "ja_text_bytes": 691,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-127",
+      "article_number": "127",
+      "filename": "kokuzei-tsuusoku-hou-article-127.md",
+      "ja_text_sha256": "90256d6c17f5cad8474a3165b58ef7643cbda013c09db95f6e6fe18e0732face",
+      "ja_text_bytes": 979,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-128",
+      "article_number": "128",
+      "filename": "kokuzei-tsuusoku-hou-article-128.md",
+      "ja_text_sha256": "f5af03735bb0b97ad22085e4e3cbf6c6d5ffb5de56427dc0b53e80245f0c7bcc",
+      "ja_text_bytes": 193,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-129",
+      "article_number": "129",
+      "filename": "kokuzei-tsuusoku-hou-article-129.md",
+      "ja_text_sha256": "b72fd5868ba8328ced4a7225162da60ba41e4c399b0c95f25dead00c75b3894d",
+      "ja_text_bytes": 684,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-13",
+      "article_number": "13",
+      "filename": "kokuzei-tsuusoku-hou-article-13.md",
+      "ja_text_sha256": "8c42ad15eec7607b825dc2e9749dc09c5746be28468553a6537853a819947a42",
+      "ja_text_bytes": 2202,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-130",
+      "article_number": "130",
+      "filename": "kokuzei-tsuusoku-hou-article-130.md",
+      "ja_text_sha256": "39b221bf28d9dc0b0a9e01372b96942a976774c2d75349be75c7afffe964238b",
+      "ja_text_bytes": 787,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-131",
+      "article_number": "131",
+      "filename": "kokuzei-tsuusoku-hou-article-131.md",
+      "ja_text_sha256": "a5a47408d57d93a81a408885ff01c5733eea75ab4ff6eef6db683e8ef39c6285",
+      "ja_text_bytes": 1207,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-132",
+      "article_number": "132",
+      "filename": "kokuzei-tsuusoku-hou-article-132.md",
+      "ja_text_sha256": "a70c2052367e09c4ceceb4f9688c20d9411a4a5516c38e7a3f5c784d12e49ea7",
+      "ja_text_bytes": 4011,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-133",
+      "article_number": "133",
+      "filename": "kokuzei-tsuusoku-hou-article-133.md",
+      "ja_text_sha256": "dd6e46ffd8759b6cdabc4c18a775be6427fe3282066f7df49f4b95f1e5654606",
+      "ja_text_bytes": 1320,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-134",
+      "article_number": "134",
+      "filename": "kokuzei-tsuusoku-hou-article-134.md",
+      "ja_text_sha256": "fa234dc129b5afd9222b70f197344611f15552dab378fa59a9e0412e663747d3",
+      "ja_text_bytes": 1721,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-135",
+      "article_number": "135",
+      "filename": "kokuzei-tsuusoku-hou-article-135.md",
+      "ja_text_sha256": "36cc0d20eab70d50e86f073d1549acd07e7ddfec96cc43c53dfb64ac866d7ed8",
+      "ja_text_bytes": 1474,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-136",
+      "article_number": "136",
+      "filename": "kokuzei-tsuusoku-hou-article-136.md",
+      "ja_text_sha256": "4de51cf624d9eb530e3ef1c132db11561c44db188d0238d05e1d31b3ab667ab1",
+      "ja_text_bytes": 256,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-137",
+      "article_number": "137",
+      "filename": "kokuzei-tsuusoku-hou-article-137.md",
+      "ja_text_sha256": "ce085aaf64e26b2c5d96d5753067274752325f3897694c048716504ae6053f76",
+      "ja_text_bytes": 454,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-138",
+      "article_number": "138",
+      "filename": "kokuzei-tsuusoku-hou-article-138.md",
+      "ja_text_sha256": "434620df8aa27540179c5bc66df6d8061eff606b5dcc33dc9dcfbafeaf59acc8",
+      "ja_text_bytes": 346,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-139",
+      "article_number": "139",
+      "filename": "kokuzei-tsuusoku-hou-article-139.md",
+      "ja_text_sha256": "f8ce25dde0f305072abf55988d9b42454bf49ebead713787d261951f6d4cc3f9",
+      "ja_text_bytes": 208,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-14",
+      "article_number": "14",
+      "filename": "kokuzei-tsuusoku-hou-article-14.md",
+      "ja_text_sha256": "19e74297b57a041223f261919b9bb4e93d6e560cf33fc83b03eba62cc31cefb7",
+      "ja_text_bytes": 997,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-140",
+      "article_number": "140",
+      "filename": "kokuzei-tsuusoku-hou-article-140.md",
+      "ja_text_sha256": "78b0e69732f4c29b67c51bc9ebb90d8175d1f9fcbab4c799ddd6ad4ce8317a86",
+      "ja_text_bytes": 343,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-141",
+      "article_number": "141",
+      "filename": "kokuzei-tsuusoku-hou-article-141.md",
+      "ja_text_sha256": "1609b21ebfc29b7d411ceb0ef03c9cce8cce37a66032de22d5421529dc62cf1a",
+      "ja_text_bytes": 232,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-142",
+      "article_number": "142",
+      "filename": "kokuzei-tsuusoku-hou-article-142.md",
+      "ja_text_sha256": "f4cd9f980f7896fc7323dac34661dee0919174613abddd94e313df2bfbec7a21",
+      "ja_text_bytes": 1440,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-143",
+      "article_number": "143",
+      "filename": "kokuzei-tsuusoku-hou-article-143.md",
+      "ja_text_sha256": "d4a526a619f4d8814d9115708a8ba819eae0c1ff761fd3d9e8a1e1c32777bee6",
+      "ja_text_bytes": 529,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-144",
+      "article_number": "144",
+      "filename": "kokuzei-tsuusoku-hou-article-144.md",
+      "ja_text_sha256": "c4cd19b21e69d73f3ff4daeb0102153678f9de89cb249dbf4a550d301546fff8",
+      "ja_text_bytes": 706,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-145",
+      "article_number": "145",
+      "filename": "kokuzei-tsuusoku-hou-article-145.md",
+      "ja_text_sha256": "74c70401b89184d4163f7427f18de6e1bc1bea7416678697be0b14280e6b0980",
+      "ja_text_bytes": 997,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-146",
+      "article_number": "146",
+      "filename": "kokuzei-tsuusoku-hou-article-146.md",
+      "ja_text_sha256": "46e22b5681786b0699ddbcb1b7e7a4f62c448a3b7a42888dff2ff2a83fd17332",
+      "ja_text_bytes": 1051,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-147",
+      "article_number": "147",
+      "filename": "kokuzei-tsuusoku-hou-article-147.md",
+      "ja_text_sha256": "fbb0df67acd4a2c283b693ae7684124dfe7b24e25606b8b655992097759139d1",
+      "ja_text_bytes": 1636,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-148",
+      "article_number": "148",
+      "filename": "kokuzei-tsuusoku-hou-article-148.md",
+      "ja_text_sha256": "9c7d1a568889abbbeb05f8bd9e275c54ba7b0ab8e446d37309fa1d5ad82211b6",
+      "ja_text_bytes": 1050,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-149",
+      "article_number": "149",
+      "filename": "kokuzei-tsuusoku-hou-article-149.md",
+      "ja_text_sha256": "67583b940cb51d48a49449442875cd050456cfd78891a33548e8fbbfa3c11cd0",
+      "ja_text_bytes": 328,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-15",
+      "article_number": "15",
+      "filename": "kokuzei-tsuusoku-hou-article-15.md",
+      "ja_text_sha256": "7492fa7fc7ccf4376ecb9db14020e331df41cbd6b86c72bd6c5d055edccbd3b5",
+      "ja_text_bytes": 1069,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-150",
+      "article_number": "150",
+      "filename": "kokuzei-tsuusoku-hou-article-150.md",
+      "ja_text_sha256": "81a0336f53bf2925b47dddb9d8e5aa64dcb14f1fe77e4ff5b90ed51d9d3a0b1d",
+      "ja_text_bytes": 298,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-151",
+      "article_number": "151",
+      "filename": "kokuzei-tsuusoku-hou-article-151.md",
+      "ja_text_sha256": "d6c84274424f2934b2ca8f260dfb8fda919e8fbf40917cb6d513f8705367352a",
+      "ja_text_bytes": 256,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-152",
+      "article_number": "152",
+      "filename": "kokuzei-tsuusoku-hou-article-152.md",
+      "ja_text_sha256": "e2b98ac7fbaf62ec622320a353ba3cf51e3d1eebad5fc44f00937536c4e23737",
+      "ja_text_bytes": 1433,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-153",
+      "article_number": "153",
+      "filename": "kokuzei-tsuusoku-hou-article-153.md",
+      "ja_text_sha256": "32bac075f4c1d99a6dee8622515d2c8bdfc63ca604f5b9e9eec61b5edddb4889",
+      "ja_text_bytes": 1772,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-154",
+      "article_number": "154",
+      "filename": "kokuzei-tsuusoku-hou-article-154.md",
+      "ja_text_sha256": "70c092f8228232a9e76a8868a583c10573629bfbdb7720d49a183c41e359cb9f",
+      "ja_text_bytes": 772,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-155",
+      "article_number": "155",
+      "filename": "kokuzei-tsuusoku-hou-article-155.md",
+      "ja_text_sha256": "0589bbaffb92f7fad4fa5977b165c0d1e5724fa89eccb4f08633a6af21fbfa2a",
+      "ja_text_bytes": 223,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-156",
+      "article_number": "156",
+      "filename": "kokuzei-tsuusoku-hou-article-156.md",
+      "ja_text_sha256": "db5f7c07ecadbfd7e53345ea905f36c98433e0c03f63a384f91ca546f3197cee",
+      "ja_text_bytes": 975,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-157",
+      "article_number": "157",
+      "filename": "kokuzei-tsuusoku-hou-article-157.md",
+      "ja_text_sha256": "fbe77008bbeab3b2d8f89f36c17e544c7fba75e59463fdfb0bdd29b0703e1a12",
+      "ja_text_bytes": 2601,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-158",
+      "article_number": "158",
+      "filename": "kokuzei-tsuusoku-hou-article-158.md",
+      "ja_text_sha256": "e45b948f678fadfca61d6654024f8f37abd2b8f17e37238ea2867cda42d1fc7f",
+      "ja_text_bytes": 957,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-159",
+      "article_number": "159",
+      "filename": "kokuzei-tsuusoku-hou-article-159.md",
+      "ja_text_sha256": "55469dc4da62f6e1df6b5540b035facd5aeb610be8daacb143d2749a2933620c",
+      "ja_text_bytes": 1996,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-16",
+      "article_number": "16",
+      "filename": "kokuzei-tsuusoku-hou-article-16.md",
+      "ja_text_sha256": "a6efbb799caceac6e4becdf58240188f479c7030e66c36a43f39db6757b744be",
+      "ja_text_bytes": 596,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-160",
+      "article_number": "160",
+      "filename": "kokuzei-tsuusoku-hou-article-160.md",
+      "ja_text_sha256": "a7d229f3f7ae5f5224efc3a0d7e14896411e455c28cac6bf060322f2e34bc88d",
+      "ja_text_bytes": 537,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-17",
+      "article_number": "17",
+      "filename": "kokuzei-tsuusoku-hou-article-17.md",
+      "ja_text_sha256": "e8ba46b7904b453054fa6d8bf7366840b999884c1d540f7d415e0c28e9e14936",
+      "ja_text_bytes": 413,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-18",
+      "article_number": "18",
+      "filename": "kokuzei-tsuusoku-hou-article-18.md",
+      "ja_text_sha256": "253da46f9d14e9e43b9816b86e1e1eb38617cb83cc503dc487eccdfeb9053fe9",
+      "ja_text_bytes": 1669,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-19",
+      "article_number": "19",
+      "filename": "kokuzei-tsuusoku-hou-article-19.md",
+      "ja_text_sha256": "5db29ed1dac4cc0a7c7fadeceebed2ccacfa8762e492f5924a5e8a7dc6b2db5a",
+      "ja_text_bytes": 2400,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-2",
+      "article_number": "2",
+      "filename": "kokuzei-tsuusoku-hou-article-2.md",
+      "ja_text_sha256": "d099d2122f510fa21c90bd2462777dfa29ba1bfa7ba7dca188a91caa9d58963a",
+      "ja_text_bytes": 185,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-20",
+      "article_number": "20",
+      "filename": "kokuzei-tsuusoku-hou-article-20.md",
+      "ja_text_sha256": "b982131c396524b8df23d40bcde8dcb97cd4b8d293d4b6481cf2bab477831bb2",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-21",
+      "article_number": "21",
+      "filename": "kokuzei-tsuusoku-hou-article-21.md",
+      "ja_text_sha256": "08e8898a857b999258ff910e793bccf7b93390d3f41c1d1612e14d30a375a2cc",
+      "ja_text_bytes": 2170,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-22",
+      "article_number": "22",
+      "filename": "kokuzei-tsuusoku-hou-article-22.md",
+      "ja_text_sha256": "01bf8da3173e4d7b48e9834d9a999c42db42342646c1952c58dc6d8b8e0096ef",
+      "ja_text_bytes": 687,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-23",
+      "article_number": "23",
+      "filename": "kokuzei-tsuusoku-hou-article-23.md",
+      "ja_text_sha256": "c513fb3ec3c70554c1dc68ae33846480299cad96c44bdcb31be22f13c56877e7",
+      "ja_text_bytes": 3366,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-24",
+      "article_number": "24",
+      "filename": "kokuzei-tsuusoku-hou-article-24.md",
+      "ja_text_sha256": "73b887f62463d645920126475a4042491c8a98cbd59baaa067cf897317193d60",
+      "ja_text_bytes": 480,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-25",
+      "article_number": "25",
+      "filename": "kokuzei-tsuusoku-hou-article-25.md",
+      "ja_text_sha256": "bc3b7bb3ec13b42a644bfb2a2fec53a37c6e7f23bbffde7ce342a6f0946520ec",
+      "ja_text_bytes": 514,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-26",
+      "article_number": "26",
+      "filename": "kokuzei-tsuusoku-hou-article-26.md",
+      "ja_text_sha256": "96cf95b453c6d806aa1cef59765210034bdaedc190fad10109f4453d669633de",
+      "ja_text_bytes": 381,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-27",
+      "article_number": "27",
+      "filename": "kokuzei-tsuusoku-hou-article-27.md",
+      "ja_text_sha256": "ef7f6c437283c872f5977df31906efc584d25d75a91ae92d3a0a2978aced75b1",
+      "ja_text_bytes": 300,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-28",
+      "article_number": "28",
+      "filename": "kokuzei-tsuusoku-hou-article-28.md",
+      "ja_text_sha256": "b6969ad7497d28a17194fc1c0f9d2c019b2fedd07b4e5b425a214b5cc6953444",
+      "ja_text_bytes": 1027,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-29",
+      "article_number": "29",
+      "filename": "kokuzei-tsuusoku-hou-article-29.md",
+      "ja_text_sha256": "53ff60a27705a8f6935d2fe5629c16b6ae4a1d2ce828a5db71677f9ff6bd30da",
+      "ja_text_bytes": 979,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-3",
+      "article_number": "3",
+      "filename": "kokuzei-tsuusoku-hou-article-3.md",
+      "ja_text_sha256": "ae6113c8c6e17907133dc4b440682442f9b36640bc314eff7d2a2fd099717ded",
+      "ja_text_bytes": 266,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-30",
+      "article_number": "30",
+      "filename": "kokuzei-tsuusoku-hou-article-30.md",
+      "ja_text_sha256": "9e74d0550f24114f83eb29c7ccda633952c18b4c5c254fa80c76bfd8fc225303",
+      "ja_text_bytes": 2324,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-31",
+      "article_number": "31",
+      "filename": "kokuzei-tsuusoku-hou-article-31.md",
+      "ja_text_sha256": "4d76a8eb48da42ef8c532118b0931ea1a91ecdb81c9c0643b785e255fdb1afeb",
+      "ja_text_bytes": 608,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-32",
+      "article_number": "32",
+      "filename": "kokuzei-tsuusoku-hou-article-32.md",
+      "ja_text_sha256": "8f4d4a2811cb0bc61029728e49660c2303e6c8ffaca46d232f24b67089d82084",
+      "ja_text_bytes": 1823,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-33",
+      "article_number": "33",
+      "filename": "kokuzei-tsuusoku-hou-article-33.md",
+      "ja_text_sha256": "32008a9851ef5726c9456fc62f3fedb1ae1200cb852507d9cd2957c2f17e32d0",
+      "ja_text_bytes": 3086,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-34-2",
+      "article_number": "34-2",
+      "filename": "kokuzei-tsuusoku-hou-article-34-2.md",
+      "ja_text_sha256": "daec5fae1bba913c7fd6972f400df59e20542595dba9f381eb48567034742f14",
+      "ja_text_bytes": 968,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-34-3",
+      "article_number": "34-3",
+      "filename": "kokuzei-tsuusoku-hou-article-34-3.md",
+      "ja_text_sha256": "e237c831d4fef14f22171e964961d5e4c5400cabe140df11f106b866245eadc2",
+      "ja_text_bytes": 548,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-34-4",
+      "article_number": "34-4",
+      "filename": "kokuzei-tsuusoku-hou-article-34-4.md",
+      "ja_text_sha256": "7bf526b36cd243420b861d60f701a8afe0d226a28a338555d85dbc216ae3051f",
+      "ja_text_bytes": 1104,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-34-5",
+      "article_number": "34-5",
+      "filename": "kokuzei-tsuusoku-hou-article-34-5.md",
+      "ja_text_sha256": "c055de5609730a03566560f0e558c348d7d806947fc770571c3307202b4595df",
+      "ja_text_bytes": 1176,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-34-6",
+      "article_number": "34-6",
+      "filename": "kokuzei-tsuusoku-hou-article-34-6.md",
+      "ja_text_sha256": "29279e593ac0d903fd1843340eecd1fa2eed0501970144db023e67f4b1261e33",
+      "ja_text_bytes": 1636,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-34-7",
+      "article_number": "34-7",
+      "filename": "kokuzei-tsuusoku-hou-article-34-7.md",
+      "ja_text_sha256": "28f38b15d00d289a62b1398cfa08e99052af7a890e195e17f5895448bbf5c942",
+      "ja_text_bytes": 347,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-34",
+      "article_number": "34",
+      "filename": "kokuzei-tsuusoku-hou-article-34.md",
+      "ja_text_sha256": "a8e0dff408a8ac8f2adbaaba148e6f6b4789e6f0e1b01e2a711c58c1129d03d8",
+      "ja_text_bytes": 4299,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-35",
+      "article_number": "35",
+      "filename": "kokuzei-tsuusoku-hou-article-35.md",
+      "ja_text_sha256": "0f1cf7257557df7b3d44cc5531393e9de202d14e467ead349b47885a65c4e822",
+      "ja_text_bytes": 1435,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-36",
+      "article_number": "36",
+      "filename": "kokuzei-tsuusoku-hou-article-36.md",
+      "ja_text_sha256": "3db584f59d440eb0ef929fd8a734b16d67214dbcfd9a3d069af81aee6e37027f",
+      "ja_text_bytes": 891,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-37",
+      "article_number": "37",
+      "filename": "kokuzei-tsuusoku-hou-article-37.md",
+      "ja_text_sha256": "8dcae30b7b54e6f5ffd2f7fb8e0438481b509f44727a675e0f86146ec8f0b207",
+      "ja_text_bytes": 1384,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-38",
+      "article_number": "38",
+      "filename": "kokuzei-tsuusoku-hou-article-38.md",
+      "ja_text_sha256": "4a20a7d06ac04bf60914290a91faf623082ba0ed4fdadb3995df9086fc646d82",
+      "ja_text_bytes": 2136,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-39",
+      "article_number": "39",
+      "filename": "kokuzei-tsuusoku-hou-article-39.md",
+      "ja_text_sha256": "ccb310f36e0dcdba9a3c76c2edc40bd80ebd49b1b66b5b30f022c9c3b60a9dcb",
+      "ja_text_bytes": 1477,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-4",
+      "article_number": "4",
+      "filename": "kokuzei-tsuusoku-hou-article-4.md",
+      "ja_text_sha256": "44bcd360f6e57e6bca8d99f192cfa09d3e180ab533f6c3927bb3c94cfc0e387d",
+      "ja_text_bytes": 200,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-40",
+      "article_number": "40",
+      "filename": "kokuzei-tsuusoku-hou-article-40.md",
+      "ja_text_sha256": "6c09ccaa9eb9c31ed16c1e29671cc6ab66b2ba70355ba23c8df2f8a5009ec36b",
+      "ja_text_bytes": 519,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-41",
+      "article_number": "41",
+      "filename": "kokuzei-tsuusoku-hou-article-41.md",
+      "ja_text_sha256": "9d24971a7fe0d9242984e3221cb5f99d1ddf57cc780bac348fa5e62b4e03b944",
+      "ja_text_bytes": 1124,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-42",
+      "article_number": "42",
+      "filename": "kokuzei-tsuusoku-hou-article-42.md",
+      "ja_text_sha256": "8747b3725bea4d23bef8623966cf77942787ed98bc1ae36b8602fd98a260a0f2",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-43",
+      "article_number": "43",
+      "filename": "kokuzei-tsuusoku-hou-article-43.md",
+      "ja_text_sha256": "4ee9e2ecb34a4b3500895b5b99e5b3a6d5586206b10209fdaecfff2f88f6cb56",
+      "ja_text_bytes": 2151,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-44",
+      "article_number": "44",
+      "filename": "kokuzei-tsuusoku-hou-article-44.md",
+      "ja_text_sha256": "d9a3da1f4b7b292423444c03a3622eafd7905d66a133e545e89bf270f79f745e",
+      "ja_text_bytes": 1097,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-45",
+      "article_number": "45",
+      "filename": "kokuzei-tsuusoku-hou-article-45.md",
+      "ja_text_sha256": "d03d18c06fdc558744da1c2bf7b47e98e4ec6b43c0311a06e0a222b8c9c4f59b",
+      "ja_text_bytes": 1994,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-46-2",
+      "article_number": "46-2",
+      "filename": "kokuzei-tsuusoku-hou-article-46-2.md",
+      "ja_text_sha256": "9e7d37442ac0eada2de143b2d2ee45ab69afdc7a8c4b8c54031b81b0f40dcb53",
+      "ja_text_bytes": 6249,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-46",
+      "article_number": "46",
+      "filename": "kokuzei-tsuusoku-hou-article-46.md",
+      "ja_text_sha256": "ab1058ad81792a79e7cb6bfa4246cf4c8ec98835cd76e8e21892320ed207caea",
+      "ja_text_bytes": 7095,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-47",
+      "article_number": "47",
+      "filename": "kokuzei-tsuusoku-hou-article-47.md",
+      "ja_text_sha256": "c8cdf322929028ca5eec9cb59c12940c204f0b711cded0c48ab6783f0f10a20e",
+      "ja_text_bytes": 1106,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-48",
+      "article_number": "48",
+      "filename": "kokuzei-tsuusoku-hou-article-48.md",
+      "ja_text_sha256": "78b25a2399914d6a5c0d5271b561a6a22d68a555b6395dfc7c583b15b0a3e05f",
+      "ja_text_bytes": 1883,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-49",
+      "article_number": "49",
+      "filename": "kokuzei-tsuusoku-hou-article-49.md",
+      "ja_text_sha256": "96118d162fdd02095c67e77c1d8b476ed61b732b022e92e439a65f63776a12f4",
+      "ja_text_bytes": 1067,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-5",
+      "article_number": "5",
+      "filename": "kokuzei-tsuusoku-hou-article-5.md",
+      "ja_text_sha256": "050aba8e9805a96d23a28006e298bbfac432bd832bf52d0eda4268cac71ecdbb",
+      "ja_text_bytes": 2000,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-50",
+      "article_number": "50",
+      "filename": "kokuzei-tsuusoku-hou-article-50.md",
+      "ja_text_sha256": "b8aa7ee6377f2235cd9e64cd6a6741763371bd0141b4c39a6caf31d15c32ff1f",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-51",
+      "article_number": "51",
+      "filename": "kokuzei-tsuusoku-hou-article-51.md",
+      "ja_text_sha256": "25221b67537a68f91c680362c8a6b7c6410b904268961deaa73798bca2e2e6ee",
+      "ja_text_bytes": 952,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-52",
+      "article_number": "52",
+      "filename": "kokuzei-tsuusoku-hou-article-52.md",
+      "ja_text_sha256": "bfb12553c9d9a2094eb3d48ca6def458741e6a628b1b638a1c8115b1632586c6",
+      "ja_text_bytes": 3442,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-53",
+      "article_number": "53",
+      "filename": "kokuzei-tsuusoku-hou-article-53.md",
+      "ja_text_sha256": "77f87cede65e3fd2bf67c6a5cc4caf3e5fc2e6ee99e66223465f487799f206e3",
+      "ja_text_bytes": 657,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-54",
+      "article_number": "54",
+      "filename": "kokuzei-tsuusoku-hou-article-54.md",
+      "ja_text_sha256": "83ec4660769d95d30ad9b645dbe66b470e2ed29b8c493d4e3a059c559718523f",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-55",
+      "article_number": "55",
+      "filename": "kokuzei-tsuusoku-hou-article-55.md",
+      "ja_text_sha256": "c2ccc33e0b126a7eea871ebf2c8138d94329d507e61756956aa0ea6c1a9bcc74",
+      "ja_text_bytes": 1950,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-56",
+      "article_number": "56",
+      "filename": "kokuzei-tsuusoku-hou-article-56.md",
+      "ja_text_sha256": "6cd6a19ff929b1ccf9f536211ac43c369e4b7d6dec669e8860b2797c2efc535a",
+      "ja_text_bytes": 551,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-57",
+      "article_number": "57",
+      "filename": "kokuzei-tsuusoku-hou-article-57.md",
+      "ja_text_sha256": "05ec444c2c024bdf5dacbf76f0b2fc2458e113629ac69e0bf0c26b8c6a5a8b71",
+      "ja_text_bytes": 1705,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-58",
+      "article_number": "58",
+      "filename": "kokuzei-tsuusoku-hou-article-58.md",
+      "ja_text_sha256": "97f2d1d4e00517156cb54156604bc542f72ee8754c5c7cda2d324638a5fffd66",
+      "ja_text_bytes": 2858,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-59",
+      "article_number": "59",
+      "filename": "kokuzei-tsuusoku-hou-article-59.md",
+      "ja_text_sha256": "fdff0f831e7249006d7c612b88d6cc22be25c44b806592923ad379c50ae989b0",
+      "ja_text_bytes": 665,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-6",
+      "article_number": "6",
+      "filename": "kokuzei-tsuusoku-hou-article-6.md",
+      "ja_text_sha256": "dce13efaf021cddcd30bea15e231b367917bd981ac7562a42d52bc4d03694953",
+      "ja_text_bytes": 380,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-60",
+      "article_number": "60",
+      "filename": "kokuzei-tsuusoku-hou-article-60.md",
+      "ja_text_sha256": "5c7a195bdbc2094c98a2b647829e298b518051d94f49c26f7843540e2a0548ae",
+      "ja_text_bytes": 1951,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-61",
+      "article_number": "61",
+      "filename": "kokuzei-tsuusoku-hou-article-61.md",
+      "ja_text_sha256": "0bc7986aafe4295d8879b4ce8587aa3b4deaa05c4162a5e4d3566dc5aae8e4f0",
+      "ja_text_bytes": 3182,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-62",
+      "article_number": "62",
+      "filename": "kokuzei-tsuusoku-hou-article-62.md",
+      "ja_text_sha256": "164b21b7727a628cc172ed006ec5e417f70e01f560c2da38dcf8d91b38c91af4",
+      "ja_text_bytes": 722,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-63",
+      "article_number": "63",
+      "filename": "kokuzei-tsuusoku-hou-article-63.md",
+      "ja_text_sha256": "3d8b155b3a63693cb72fc7c9cc777a07fe166c6029174c84d7a13a3f7e2d68d4",
+      "ja_text_bytes": 6020,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-64",
+      "article_number": "64",
+      "filename": "kokuzei-tsuusoku-hou-article-64.md",
+      "ja_text_sha256": "b24fc0e32c7f91bd4a3ed46b9dce799bf1d01cb83eb85020d1203b6db73d1d1a",
+      "ja_text_bytes": 1564,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-65",
+      "article_number": "65",
+      "filename": "kokuzei-tsuusoku-hou-article-65.md",
+      "ja_text_sha256": "942309879a4fbdb4fbd9a986b0ae48c7169d8d2962cbabad8eab38ed84848887",
+      "ja_text_bytes": 4962,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-66",
+      "article_number": "66",
+      "filename": "kokuzei-tsuusoku-hou-article-66.md",
+      "ja_text_sha256": "08f5ef392f7a010e82e098f723b2dfe703c97084c64341576e23d56c7a28f1ed",
+      "ja_text_bytes": 7682,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-67",
+      "article_number": "67",
+      "filename": "kokuzei-tsuusoku-hou-article-67.md",
+      "ja_text_sha256": "446c1cf9471418ce5806bd3168c6adc39ffd883d0f112c3f5237a2e76b9ec766",
+      "ja_text_bytes": 2019,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-68",
+      "article_number": "68",
+      "filename": "kokuzei-tsuusoku-hou-article-68.md",
+      "ja_text_sha256": "701be5779a2de4e988a4a45262a12a7bc4a341fb1603420ff5e2804950f994b3",
+      "ja_text_bytes": 4509,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-69",
+      "article_number": "69",
+      "filename": "kokuzei-tsuusoku-hou-article-69.md",
+      "ja_text_sha256": "8d47e1c93909bd5151084a33b62ef63064928bcf8a4ba054dabf87446d3cc5a2",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-7-2",
+      "article_number": "7-2",
+      "filename": "kokuzei-tsuusoku-hou-article-7-2.md",
+      "ja_text_sha256": "3917d1b60685bc9e40840fdad9931147b7454f142585a21276d6e18e93241a81",
+      "ja_text_bytes": 2935,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-7",
+      "article_number": "7",
+      "filename": "kokuzei-tsuusoku-hou-article-7.md",
+      "ja_text_sha256": "94f1a31ebe73360f6befa6b269431b967b10a05ca45a2900b686a17c90d4963c",
+      "ja_text_bytes": 623,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-70",
+      "article_number": "70",
+      "filename": "kokuzei-tsuusoku-hou-article-70.md",
+      "ja_text_sha256": "835eb5dce7bda05d2ba909782ef0b33f199dd168c5045571e8e00e43a4e499b2",
+      "ja_text_bytes": 2491,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-71",
+      "article_number": "71",
+      "filename": "kokuzei-tsuusoku-hou-article-71.md",
+      "ja_text_sha256": "4771055b5207a7a9a30228010804b9be94435beeac86714ef9c5915b21731787",
+      "ja_text_bytes": 2177,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-72",
+      "article_number": "72",
+      "filename": "kokuzei-tsuusoku-hou-article-72.md",
+      "ja_text_sha256": "ff001acae37266904944c6449fe6a2a0572e845449836f87962cb816d8575f08",
+      "ja_text_bytes": 1717,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-73",
+      "article_number": "73",
+      "filename": "kokuzei-tsuusoku-hou-article-73.md",
+      "ja_text_sha256": "dedbc17b45f764c73416491bbaa60fcbce50578c2e4c21f09968307f1953dd46",
+      "ja_text_bytes": 2698,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-10",
+      "article_number": "74-10",
+      "filename": "kokuzei-tsuusoku-hou-article-74-10.md",
+      "ja_text_sha256": "b218fa4471b86f18abb4dbb848f6063b4737017c7a1bd5aeb8ae82ba569e1be6",
+      "ja_text_bytes": 606,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-11",
+      "article_number": "74-11",
+      "filename": "kokuzei-tsuusoku-hou-article-74-11.md",
+      "ja_text_sha256": "550a191a26d7c6ecbed3e87167a729a982c217c6c7e5eab011f0157c519e8356",
+      "ja_text_bytes": 2714,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-12",
+      "article_number": "74-12",
+      "filename": "kokuzei-tsuusoku-hou-article-74-12.md",
+      "ja_text_sha256": "5ae4fcaf7f7f851fc45042f5e27efe4dfa21867dfca9c2bde587ae5a132d3c03",
+      "ja_text_bytes": 827,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-13-2",
+      "article_number": "74-13-2",
+      "filename": "kokuzei-tsuusoku-hou-article-74-13-2.md",
+      "ja_text_sha256": "32fb73d5fdb7dee944eea6da02e954c20219a71fad62ed836615fd08ae0ce313",
+      "ja_text_bytes": 1233,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-13-3",
+      "article_number": "74-13-3",
+      "filename": "kokuzei-tsuusoku-hou-article-74-13-3.md",
+      "ja_text_sha256": "904f897543ae69641274b76918f7951bdb4b0c0adbd0c7fd9921fa83d2c65e17",
+      "ja_text_bytes": 960,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-13-4",
+      "article_number": "74-13-4",
+      "filename": "kokuzei-tsuusoku-hou-article-74-13-4.md",
+      "ja_text_sha256": "b87592cc5bd9d6fdabcb0ca823f67028bad50bc452d69d22eb6960aa36a9706d",
+      "ja_text_bytes": 1445,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-13",
+      "article_number": "74-13",
+      "filename": "kokuzei-tsuusoku-hou-article-74-13.md",
+      "ja_text_sha256": "0faeb086eddbcfa8da544c9456e7c86652ecf73256b4984b94aefd87bb19ef16",
+      "ja_text_bytes": 477,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-14",
+      "article_number": "74-14",
+      "filename": "kokuzei-tsuusoku-hou-article-74-14.md",
+      "ja_text_sha256": "2465201e181a4a4fe78fb8be1a1b9c1e051988be4340ced20dc2d13676bd1576",
+      "ja_text_bytes": 1546,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-2",
+      "article_number": "74-2",
+      "filename": "kokuzei-tsuusoku-hou-article-74-2.md",
+      "ja_text_sha256": "63b0a9c7c4f19c09fd1ba74096f5a2edb41d4f3a53e977b81b6b8f0650803acb",
+      "ja_text_bytes": 5483,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-3",
+      "article_number": "74-3",
+      "filename": "kokuzei-tsuusoku-hou-article-74-3.md",
+      "ja_text_sha256": "6e83884f9a4555975ed05cbda89d8db489db5cc3b9813a0c9d0f5174d9ef45d4",
+      "ja_text_bytes": 2238,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-4",
+      "article_number": "74-4",
+      "filename": "kokuzei-tsuusoku-hou-article-74-4.md",
+      "ja_text_sha256": "bb9f1a21a99a53741d1d0be22e820f2d23185d52a9774b3b3221e30b23c29eac",
+      "ja_text_bytes": 2846,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-5",
+      "article_number": "74-5",
+      "filename": "kokuzei-tsuusoku-hou-article-74-5.md",
+      "ja_text_sha256": "96008e5bcbcce2e191ca4b318052ad6702acc25230251e6f537aada497dfe6ee",
+      "ja_text_bytes": 435,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-6",
+      "article_number": "74-6",
+      "filename": "kokuzei-tsuusoku-hou-article-74-6.md",
+      "ja_text_sha256": "5704c4b802378048bd07be0dff145df4a21d859b57014c06c9a53f2d7c261eea",
+      "ja_text_bytes": 1787,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-7-2",
+      "article_number": "74-7-2",
+      "filename": "kokuzei-tsuusoku-hou-article-74-7-2.md",
+      "ja_text_sha256": "c2ddf3bdb142c275eea9db83882c24c1a4328249eeb02e84cefc5c9d1cbe02d0",
+      "ja_text_bytes": 1441,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-7",
+      "article_number": "74-7",
+      "filename": "kokuzei-tsuusoku-hou-article-74-7.md",
+      "ja_text_sha256": "2333942142697b05c1e1256875f31c38f174142280e1ec5adc92c7ef51da10bc",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-8",
+      "article_number": "74-8",
+      "filename": "kokuzei-tsuusoku-hou-article-74-8.md",
+      "ja_text_sha256": "6ae4e1c635e9a84fd5f8f872d0a0a6ef9efeeee7a2a5e3a814a15d7131b644a0",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-9",
+      "article_number": "74-9",
+      "filename": "kokuzei-tsuusoku-hou-article-74-9.md",
+      "ja_text_sha256": "357eba6d10a0556cbe53ff099a6f55f283652ad667f1ad743794e9ec42f42266",
+      "ja_text_bytes": 2614,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74",
+      "article_number": "74",
+      "filename": "kokuzei-tsuusoku-hou-article-74.md",
+      "ja_text_sha256": "2ba0733951fb402e4b435247d1264c708d3295abdafc8849687d7e367049b044",
+      "ja_text_bytes": 452,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-75",
+      "article_number": "75",
+      "filename": "kokuzei-tsuusoku-hou-article-75.md",
+      "ja_text_sha256": "efcd89e6414afa293d9d7ff41d0fa556c6b02bb28365c2793ac2abfa47f8b09c",
+      "ja_text_bytes": 2477,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-76",
+      "article_number": "76",
+      "filename": "kokuzei-tsuusoku-hou-article-76.md",
+      "ja_text_sha256": "518069d279d54f6908df592ec35fa37d829e8c2c9e3fad221985eb4410589e4c",
+      "ja_text_bytes": 431,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-77-2",
+      "article_number": "77-2",
+      "filename": "kokuzei-tsuusoku-hou-article-77-2.md",
+      "ja_text_sha256": "bc180a7852689d0d21ba64b9a9d575e792d982341f4be683fd7df0bed3c2eb77",
+      "ja_text_bytes": 444,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-77",
+      "article_number": "77",
+      "filename": "kokuzei-tsuusoku-hou-article-77.md",
+      "ja_text_sha256": "e801b07221e8ab6f424f897f1f6bbd8f6bc4cf8f20d9530c7170c9d89a32d821",
+      "ja_text_bytes": 1656,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-78",
+      "article_number": "78",
+      "filename": "kokuzei-tsuusoku-hou-article-78.md",
+      "ja_text_sha256": "8215e80126c076d0ea7f68fee9eef53d17c1422587cdae14ac2e5ede54d88080",
+      "ja_text_bytes": 1235,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-79",
+      "article_number": "79",
+      "filename": "kokuzei-tsuusoku-hou-article-79.md",
+      "ja_text_sha256": "519b5a48a8fb2218cfb46f08e2c6355541d9304ae873b3787affb653fdcb94c4",
+      "ja_text_bytes": 922,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-8",
+      "article_number": "8",
+      "filename": "kokuzei-tsuusoku-hou-article-8.md",
+      "ja_text_sha256": "a2f69fab0c60319a4a668c2854ce04cc676fad27aa8fb908a0c6ed08ebf851e6",
+      "ja_text_bytes": 326,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-80",
+      "article_number": "80",
+      "filename": "kokuzei-tsuusoku-hou-article-80.md",
+      "ja_text_sha256": "da9d692b9942753f5ee086330ab19e1ff70bff37961233edff3fc1289c61cda2",
+      "ja_text_bytes": 1192,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-81",
+      "article_number": "81",
+      "filename": "kokuzei-tsuusoku-hou-article-81.md",
+      "ja_text_sha256": "8f73b5015e2e7c327e7c1a8e94def24e08d2d2f9614211fb607635b424015a75",
+      "ja_text_bytes": 2306,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-82",
+      "article_number": "82",
+      "filename": "kokuzei-tsuusoku-hou-article-82.md",
+      "ja_text_sha256": "b8b3572f7162eeccdd45f234ef6f20c76ab5c5c55c92879f6d93a90c431342de",
+      "ja_text_bytes": 1114,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-83",
+      "article_number": "83",
+      "filename": "kokuzei-tsuusoku-hou-article-83.md",
+      "ja_text_sha256": "105015e4746ba2df8ec2ceb2750f6c552a28d2c85b6947b4870470b479dec0ec",
+      "ja_text_bytes": 887,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-84",
+      "article_number": "84",
+      "filename": "kokuzei-tsuusoku-hou-article-84.md",
+      "ja_text_sha256": "1dfbd6649a1072704fb8f006a3fdfcfef9ad34faa0f9d998abafb427e5f96c44",
+      "ja_text_bytes": 4289,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-85",
+      "article_number": "85",
+      "filename": "kokuzei-tsuusoku-hou-article-85.md",
+      "ja_text_sha256": "636c892442316257eaaa0ae0d2f083688545886cc29c8be67206bbd66270f328",
+      "ja_text_bytes": 3114,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-86",
+      "article_number": "86",
+      "filename": "kokuzei-tsuusoku-hou-article-86.md",
+      "ja_text_sha256": "21d774e1cab76cae49202776c8e08d324bd3434c10dfd24071c180cd2b05579b",
+      "ja_text_bytes": 1627,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-87",
+      "article_number": "87",
+      "filename": "kokuzei-tsuusoku-hou-article-87.md",
+      "ja_text_sha256": "18913f0f8ea3ae13aae5a099de2efb482fd6a8291219263ed663e91b7457613c",
+      "ja_text_bytes": 979,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-88",
+      "article_number": "88",
+      "filename": "kokuzei-tsuusoku-hou-article-88.md",
+      "ja_text_sha256": "f63b8bc7066ab6538a7a6b460b30344da25179ace7189e92eba6c1dabd706385",
+      "ja_text_bytes": 961,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-89",
+      "article_number": "89",
+      "filename": "kokuzei-tsuusoku-hou-article-89.md",
+      "ja_text_sha256": "f00f3d03e8784fcf06ba13c514b183d2f5d11e5212baf6f8273a86e3d049002c",
+      "ja_text_bytes": 1453,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-9-2",
+      "article_number": "9-2",
+      "filename": "kokuzei-tsuusoku-hou-article-9-2.md",
+      "ja_text_sha256": "831cfb22462930ca37c8ac057fc37d379c8ff1673907fbf259e5fb289c64c524",
+      "ja_text_bytes": 606,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-9-3",
+      "article_number": "9-3",
+      "filename": "kokuzei-tsuusoku-hou-article-9-3.md",
+      "ja_text_sha256": "95cfddc38535551e013e691b9184f097929f112e79692a99a36bd5bb87dbabd3",
+      "ja_text_bytes": 1068,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-9",
+      "article_number": "9",
+      "filename": "kokuzei-tsuusoku-hou-article-9.md",
+      "ja_text_sha256": "d0aa8a654e84f6e4fc2ecce92eccc37b12c675d2012dda2e365e16ab5ac05387",
+      "ja_text_bytes": 200,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-90",
+      "article_number": "90",
+      "filename": "kokuzei-tsuusoku-hou-article-90.md",
+      "ja_text_sha256": "812534a3e07409068afbbacbc07e2746ec1c25b014824fd787983ac367139b4e",
+      "ja_text_bytes": 2133,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-91",
+      "article_number": "91",
+      "filename": "kokuzei-tsuusoku-hou-article-91.md",
+      "ja_text_sha256": "fcc889a39d5aaa66a93fc3c8a59fd43bc9c60bc6e2075fb7daa912f5769fe67a",
+      "ja_text_bytes": 1019,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-92-2",
+      "article_number": "92-2",
+      "filename": "kokuzei-tsuusoku-hou-article-92-2.md",
+      "ja_text_sha256": "7b2d507379b18fbb369f0261cb2be57d2ef3e349059a90d75ff38459433eb17b",
+      "ja_text_bytes": 330,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-92",
+      "article_number": "92",
+      "filename": "kokuzei-tsuusoku-hou-article-92.md",
+      "ja_text_sha256": "786810936786d75cc5274ca14ce797fee15cc8c219b7dd4a6663b26412e889b2",
+      "ja_text_bytes": 641,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-93",
+      "article_number": "93",
+      "filename": "kokuzei-tsuusoku-hou-article-93.md",
+      "ja_text_sha256": "d6e78fbff384bdbb5175c8cec3db58d9d4ffdb70a772260361fad869f3782e86",
+      "ja_text_bytes": 1348,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-94",
+      "article_number": "94",
+      "filename": "kokuzei-tsuusoku-hou-article-94.md",
+      "ja_text_sha256": "bb748113dce7436d41d9e88204f963e0ed000a464f49fb27b524bec83a3d329a",
+      "ja_text_bytes": 437,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-95-2",
+      "article_number": "95-2",
+      "filename": "kokuzei-tsuusoku-hou-article-95-2.md",
+      "ja_text_sha256": "b55047f21c920ada2ddedc3daa9aa5ea0b8fc3f4252ed67323e50e010688433a",
+      "ja_text_bytes": 1389,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-95",
+      "article_number": "95",
+      "filename": "kokuzei-tsuusoku-hou-article-95.md",
+      "ja_text_sha256": "07331e58cb02ff6783c3bfe11f475d625bbf86299e1c859c57d6f7baab5c3926",
+      "ja_text_bytes": 1642,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-96",
+      "article_number": "96",
+      "filename": "kokuzei-tsuusoku-hou-article-96.md",
+      "ja_text_sha256": "19dd2de45c37dbbc14440ecc18003c19dbc67c3955ab516826ec9a8811325ddd",
+      "ja_text_bytes": 646,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-97-2",
+      "article_number": "97-2",
+      "filename": "kokuzei-tsuusoku-hou-article-97-2.md",
+      "ja_text_sha256": "325a71237981cd57ae40e0a1625e82730fd11c61a427c188997f62690d903c56",
+      "ja_text_bytes": 1390,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-97-3",
+      "article_number": "97-3",
+      "filename": "kokuzei-tsuusoku-hou-article-97-3.md",
+      "ja_text_sha256": "aae09d346f3d019f44deebbd5d4154bcdde06e2f00f17f0196540aba4ba09d99",
+      "ja_text_bytes": 1772,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-97-4",
+      "article_number": "97-4",
+      "filename": "kokuzei-tsuusoku-hou-article-97-4.md",
+      "ja_text_sha256": "48d0b079b7384ee2ece4f4796a39039f627fa912f80057fc2168662186c920b4",
+      "ja_text_bytes": 469,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-97",
+      "article_number": "97",
+      "filename": "kokuzei-tsuusoku-hou-article-97.md",
+      "ja_text_sha256": "068c4f475a94c0b6a84c23853f6a8651addcabf98ce94adfb222c27b80f3dcf5",
+      "ja_text_bytes": 1679,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-98",
+      "article_number": "98",
+      "filename": "kokuzei-tsuusoku-hou-article-98.md",
+      "ja_text_sha256": "7c0ca9775499a6f2047ffd32cf57c77775c36acb1d6b8a9a6882ea44fbd8a967",
+      "ja_text_bytes": 1225,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-99",
+      "article_number": "99",
+      "filename": "kokuzei-tsuusoku-hou-article-99.md",
+      "ja_text_sha256": "e6f8503a63288148c62344008d69c102ca9e34c889c3a7817b0aa613458d7d98",
+      "ja_text_bytes": 1132,
+      "paragraph_count": 3
+    }
+  ]
+}

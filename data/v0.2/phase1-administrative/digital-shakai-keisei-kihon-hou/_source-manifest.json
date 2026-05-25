@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0",
+  "law_id": "503AC0000000035",
+  "law_name_ja": "デジタル社会形成基本法",
+  "law_abbrev": "digital-shakai-keisei-kihon-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/503AC0000000035",
+  "source_xml_path": "../../../cache/laws/503AC0000000035.xml",
+  "source_xml_sha256": "4e1f25cf2ca840f6a3278562aa28894705e5563d9ca9440562ae8633ede44411",
+  "source_xml_bytes": 55927,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:26:39+00:00",
+  "version_date": "2021-05-19",
+  "article_count": 40,
+  "articles": [
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-1",
+      "article_number": "1",
+      "filename": "digital-shakai-keisei-kihon-hou-article-1.md",
+      "ja_text_sha256": "6046630a044d3b182aed41b9dd59345f4cb4b17753fd7aa6aa1337b61eccbef0",
+      "ja_text_bytes": 898,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-10",
+      "article_number": "10",
+      "filename": "digital-shakai-keisei-kihon-hou-article-10.md",
+      "ja_text_sha256": "6dd97710eb627d2146380b6821f4ede7b58687eb42f50d5fdc841a77ed795f67",
+      "ja_text_bytes": 545,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-11",
+      "article_number": "11",
+      "filename": "digital-shakai-keisei-kihon-hou-article-11.md",
+      "ja_text_sha256": "fae46c62805f7a08b1fb5cd1568867c7b69a34b1b92b745cbe9a679174a6f501",
+      "ja_text_bytes": 221,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-12",
+      "article_number": "12",
+      "filename": "digital-shakai-keisei-kihon-hou-article-12.md",
+      "ja_text_sha256": "903856a1a5e312f182d54a176c9ee6777f80f153d76218626292fed964d33aa4",
+      "ja_text_bytes": 404,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-13",
+      "article_number": "13",
+      "filename": "digital-shakai-keisei-kihon-hou-article-13.md",
+      "ja_text_sha256": "9cbf380d8c741dc28e1b03322cf3299fafc3f88b01e82909f29092a762a3d24f",
+      "ja_text_bytes": 311,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-14",
+      "article_number": "14",
+      "filename": "digital-shakai-keisei-kihon-hou-article-14.md",
+      "ja_text_sha256": "e7b02fa7903f39818a9ef8ec966c4901a311472571c343054c99b99d34d2fb42",
+      "ja_text_bytes": 341,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-15",
+      "article_number": "15",
+      "filename": "digital-shakai-keisei-kihon-hou-article-15.md",
+      "ja_text_sha256": "ce5407e87ae78d838a2a8f170acf5d167bab66fafd3cb819570ac1791cf7509e",
+      "ja_text_bytes": 251,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-16",
+      "article_number": "16",
+      "filename": "digital-shakai-keisei-kihon-hou-article-16.md",
+      "ja_text_sha256": "f1c34784dcb044a18a91ddb86998cb9b22945d4ac4b30ca8e70d05b0efbcedf3",
+      "ja_text_bytes": 362,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-17",
+      "article_number": "17",
+      "filename": "digital-shakai-keisei-kihon-hou-article-17.md",
+      "ja_text_sha256": "b4e6762d9a9f75a8c3d15dc24ae99e070d7906c612dc54bf0d06cd0c39e52d8a",
+      "ja_text_bytes": 245,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-18",
+      "article_number": "18",
+      "filename": "digital-shakai-keisei-kihon-hou-article-18.md",
+      "ja_text_sha256": "e97f07182fd5e064a2a09728bc3ae7094927f9792fe3844e7d7f598c3aee25cd",
+      "ja_text_bytes": 296,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-19",
+      "article_number": "19",
+      "filename": "digital-shakai-keisei-kihon-hou-article-19.md",
+      "ja_text_sha256": "bbfaba5df91e9e90e9a06adf0f558354abdb305b6a85324edefc6cef09598734",
+      "ja_text_bytes": 371,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-2",
+      "article_number": "2",
+      "filename": "digital-shakai-keisei-kihon-hou-article-2.md",
+      "ja_text_sha256": "059e6617d0a1a458963f881bda12cf58397fba8aea0349712a07f0c3fd214b4e",
+      "ja_text_bytes": 1366,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-20",
+      "article_number": "20",
+      "filename": "digital-shakai-keisei-kihon-hou-article-20.md",
+      "ja_text_sha256": "4b1b90e2b61b2b530b1caef5d417218fccca3eec8999e2e7195ae0d08adc2acb",
+      "ja_text_bytes": 620,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-21",
+      "article_number": "21",
+      "filename": "digital-shakai-keisei-kihon-hou-article-21.md",
+      "ja_text_sha256": "f1897958eac097df894a5d941d8834181cb3ef2d1ac26cbc45fe5c1439848359",
+      "ja_text_bytes": 440,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-22",
+      "article_number": "22",
+      "filename": "digital-shakai-keisei-kihon-hou-article-22.md",
+      "ja_text_sha256": "942346ed8fcb46d31bc118098196450993ded608daafdb6671762b2893d9a569",
+      "ja_text_bytes": 929,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-23",
+      "article_number": "23",
+      "filename": "digital-shakai-keisei-kihon-hou-article-23.md",
+      "ja_text_sha256": "0ff21b91355738bb3801649c0d819c09f2d835bb1acb55d5ccd2eb941501a83a",
+      "ja_text_bytes": 569,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-24",
+      "article_number": "24",
+      "filename": "digital-shakai-keisei-kihon-hou-article-24.md",
+      "ja_text_sha256": "0afbfda71cfe885776ffa2d45961e9ed43a5041418e9eb0a1483fc02c76b0753",
+      "ja_text_bytes": 491,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-25",
+      "article_number": "25",
+      "filename": "digital-shakai-keisei-kihon-hou-article-25.md",
+      "ja_text_sha256": "268ce2060fdbcd1eca5845d4a6be1c94dddb990a159ec014a04e6818a4946f64",
+      "ja_text_bytes": 674,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-26",
+      "article_number": "26",
+      "filename": "digital-shakai-keisei-kihon-hou-article-26.md",
+      "ja_text_sha256": "a4582a1035e4b5e37f1fd2411c981774359b52e41e6d392a03642fe54f029fc2",
+      "ja_text_bytes": 668,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-27",
+      "article_number": "27",
+      "filename": "digital-shakai-keisei-kihon-hou-article-27.md",
+      "ja_text_sha256": "558870096cd07059c2e5b059ef7c9f8029550ac8fbe8f90ab9d298b15af6950f",
+      "ja_text_bytes": 575,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-28",
+      "article_number": "28",
+      "filename": "digital-shakai-keisei-kihon-hou-article-28.md",
+      "ja_text_sha256": "0ad0beff707dae73facb2ab352700defc1d60e4beb00ea5e512cdb476ca62f53",
+      "ja_text_bytes": 722,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-29",
+      "article_number": "29",
+      "filename": "digital-shakai-keisei-kihon-hou-article-29.md",
+      "ja_text_sha256": "655cb395c2c54c2eb285c22698495c7eae59b5feabd21fd2ca19e1f93ce743e4",
+      "ja_text_bytes": 1025,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-3",
+      "article_number": "3",
+      "filename": "digital-shakai-keisei-kihon-hou-article-3.md",
+      "ja_text_sha256": "b3dee056ad0987a3a4d3c4e5e67757d42013c2928e6c7123e4fce82e1ebe77af",
+      "ja_text_bytes": 586,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-30",
+      "article_number": "30",
+      "filename": "digital-shakai-keisei-kihon-hou-article-30.md",
+      "ja_text_sha256": "fe60347982c18935d82d3adad8558d95d7099ff7faf0c679428e5de2b915b0ee",
+      "ja_text_bytes": 617,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-31",
+      "article_number": "31",
+      "filename": "digital-shakai-keisei-kihon-hou-article-31.md",
+      "ja_text_sha256": "35cb4655d0a51af0eb3f875c8ea4dd016818a30e41a67f30b1d8675facb9c4ca",
+      "ja_text_bytes": 794,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-32",
+      "article_number": "32",
+      "filename": "digital-shakai-keisei-kihon-hou-article-32.md",
+      "ja_text_sha256": "48e1717fa46a76fc8f5f4b08c219d1c30f4f0de90ee6c968ba48cbaf3bbd98d7",
+      "ja_text_bytes": 431,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-33",
+      "article_number": "33",
+      "filename": "digital-shakai-keisei-kihon-hou-article-33.md",
+      "ja_text_sha256": "a617b552ea6ea9ba57dd42e029745887be8b1e89b3306d739896a0139a1b291d",
+      "ja_text_bytes": 851,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-34",
+      "article_number": "34",
+      "filename": "digital-shakai-keisei-kihon-hou-article-34.md",
+      "ja_text_sha256": "31382a370ccbb546391ab5040dba93ba6f3956c4c1ffdd52e59bf73d11827c34",
+      "ja_text_bytes": 620,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-35",
+      "article_number": "35",
+      "filename": "digital-shakai-keisei-kihon-hou-article-35.md",
+      "ja_text_sha256": "ec8552e9ba8e39ea5535785cbe252f1443ece3569f6bcb05e4193154a61fdb54",
+      "ja_text_bytes": 725,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-36",
+      "article_number": "36",
+      "filename": "digital-shakai-keisei-kihon-hou-article-36.md",
+      "ja_text_sha256": "002138fa4db78af311d0e947b63eaae8e9f733bbe2351c38e7564782ee824112",
+      "ja_text_bytes": 821,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-37",
+      "article_number": "37",
+      "filename": "digital-shakai-keisei-kihon-hou-article-37.md",
+      "ja_text_sha256": "577f5292dfd8f31b6b8cdb7af39472e0ce378d53a1afec4ed65f150241ffd69a",
+      "ja_text_bytes": 554,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-38",
+      "article_number": "38",
+      "filename": "digital-shakai-keisei-kihon-hou-article-38.md",
+      "ja_text_sha256": "f8806825ead8bb4e3b4bfd91472bde7f6c8a59a6c762224934577a7fa1b5ea5b",
+      "ja_text_bytes": 389,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-39",
+      "article_number": "39",
+      "filename": "digital-shakai-keisei-kihon-hou-article-39.md",
+      "ja_text_sha256": "cea5abad71fe1cfef75fdc51bfab049b1306becb683ce9c58317c1a7453d89cc",
+      "ja_text_bytes": 2322,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-4",
+      "article_number": "4",
+      "filename": "digital-shakai-keisei-kihon-hou-article-4.md",
+      "ja_text_sha256": "2f53927987a8a63608019688cbf6325bcfef52cd64697d779dabb64340230838",
+      "ja_text_bytes": 622,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-40",
+      "article_number": "40",
+      "filename": "digital-shakai-keisei-kihon-hou-article-40.md",
+      "ja_text_sha256": "96dbbd9152329b15a4d7f46f92c8262c7e353d18654904cdfa68e70c89e2deed",
+      "ja_text_bytes": 203,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-5",
+      "article_number": "5",
+      "filename": "digital-shakai-keisei-kihon-hou-article-5.md",
+      "ja_text_sha256": "fcea58e758a7e6f9b51b7bc2aa141c37bdaad9d3c9a8c4e967ad9ad7ea225e8d",
+      "ja_text_bytes": 640,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-6",
+      "article_number": "6",
+      "filename": "digital-shakai-keisei-kihon-hou-article-6.md",
+      "ja_text_sha256": "8b95f81fea97c4aea687167f16a682091c9bae48f735ebf8188e57fd5745fe5d",
+      "ja_text_bytes": 622,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-7",
+      "article_number": "7",
+      "filename": "digital-shakai-keisei-kihon-hou-article-7.md",
+      "ja_text_sha256": "b80d51d6e5103f3406bef1480548bf89312da53d1684eb2b8c74288cfbddf859",
+      "ja_text_bytes": 601,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-8",
+      "article_number": "8",
+      "filename": "digital-shakai-keisei-kihon-hou-article-8.md",
+      "ja_text_sha256": "462bf024bd4280e5de8b14b0bbb52a9f522c96abed29bc548e586dd40c016328",
+      "ja_text_bytes": 562,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "digital-shakai-keisei-kihon-hou-art-9",
+      "article_number": "9",
+      "filename": "digital-shakai-keisei-kihon-hou-article-9.md",
+      "ja_text_sha256": "98337d937c903ea9c228dc3e6be7d2eaedefdc0c52e751155e9d61e20cb7ae33",
+      "ja_text_bytes": 856,
+      "paragraph_count": 1
+    }
+  ]
+}

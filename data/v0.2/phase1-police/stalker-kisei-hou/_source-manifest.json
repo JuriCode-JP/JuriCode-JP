@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "law_id": "412AC0100000081",
+  "law_name_ja": "ストーカー行為等の規制等に関する法律",
+  "law_abbrev": "stalker-kisei-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/412AC0100000081",
+  "source_xml_path": "../../../cache/laws/412AC0100000081.xml",
+  "source_xml_sha256": "606963399b106597d5d04719eac63ac42c9306fbb3c38b4cc4b8d72a365e4655",
+  "source_xml_bytes": 74591,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:26:54+00:00",
+  "version_date": "2000-05-24",
+  "article_count": 21,
+  "articles": [
+    {
+      "article_id": "stalker-kisei-hou-art-1",
+      "article_number": "1",
+      "filename": "stalker-kisei-hou-article-1.md",
+      "ja_text_sha256": "c830569a2e4a3f8d23f26895611a7404d94790cc7db884c3f68be852304a1fc5",
+      "ja_text_bytes": 425,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-10",
+      "article_number": "10",
+      "filename": "stalker-kisei-hou-article-10.md",
+      "ja_text_sha256": "cc20c1338473296f60d5e7320e0bc7e3c3a3c522e0b7607f88254f6c023fb3e7",
+      "ja_text_bytes": 321,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-11",
+      "article_number": "11",
+      "filename": "stalker-kisei-hou-article-11.md",
+      "ja_text_sha256": "6f548ff6339a87b2c41848fe3e95ef6c62535babc0689f4d11aa7397e50a4d33",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-12",
+      "article_number": "12",
+      "filename": "stalker-kisei-hou-article-12.md",
+      "ja_text_sha256": "798fa67f03ab1e6dc2fda8028f6d852b55badeae3c65b50a8f433474ffbe9d71",
+      "ja_text_bytes": 363,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-13",
+      "article_number": "13",
+      "filename": "stalker-kisei-hou-article-13.md",
+      "ja_text_sha256": "7fa29a49164f2e74eb7fd03215172a02a63dbfd76870c1b2d832d17594fdd8a5",
+      "ja_text_bytes": 1010,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-14",
+      "article_number": "14",
+      "filename": "stalker-kisei-hou-article-14.md",
+      "ja_text_sha256": "861b82c18a0ba83366d26b444080d3ed07dcd2443b5ad25575b609493541ee3e",
+      "ja_text_bytes": 1685,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-15",
+      "article_number": "15",
+      "filename": "stalker-kisei-hou-article-15.md",
+      "ja_text_sha256": "6005299714c5a8d1bd6af868a69e6a81bb5e0bf596944ad1df18508f960b11b2",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-16",
+      "article_number": "16",
+      "filename": "stalker-kisei-hou-article-16.md",
+      "ja_text_sha256": "8118d502a12caa587667a5d3a2874e244dec75e3c70125d202ad5e9c0d9d3d0a",
+      "ja_text_bytes": 219,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-17",
+      "article_number": "17",
+      "filename": "stalker-kisei-hou-article-17.md",
+      "ja_text_sha256": "03cc109439f29fc476fa23d5486ee9fdf4e725a4a72a9a2d6de83ca45a6ad8a2",
+      "ja_text_bytes": 440,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-18",
+      "article_number": "18",
+      "filename": "stalker-kisei-hou-article-18.md",
+      "ja_text_sha256": "7029c086e55d1c9006d6cbe7dd538991b7a18ee23d0cd54e28c684efcf708227",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-19",
+      "article_number": "19",
+      "filename": "stalker-kisei-hou-article-19.md",
+      "ja_text_sha256": "dcbd57a3e28d4672e609e2b9995ccba83907f9ca55cc98c1e93f4932c253f4d6",
+      "ja_text_bytes": 548,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-2",
+      "article_number": "2",
+      "filename": "stalker-kisei-hou-article-2.md",
+      "ja_text_sha256": "131113f88b42211b8c43b6ba2e6914d70a10284131e974ef8e619c4d2912f223",
+      "ja_text_bytes": 1937,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-20",
+      "article_number": "20",
+      "filename": "stalker-kisei-hou-article-20.md",
+      "ja_text_sha256": "31f38576e0d4418ed70d8c706ec83a5ea2fa5f663cf5e103993370f1e2a8a459",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-21",
+      "article_number": "21",
+      "filename": "stalker-kisei-hou-article-21.md",
+      "ja_text_sha256": "90cc78131a93a90b1d4c3ed032b9c09008bb3f4beb1aad68e5dc9cbf8b61064f",
+      "ja_text_bytes": 288,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-3",
+      "article_number": "3",
+      "filename": "stalker-kisei-hou-article-3.md",
+      "ja_text_sha256": "0238e59ee923a5e47fa45895fe5486b5684e9edba8de4659eaeb22c91acb7b13",
+      "ja_text_bytes": 308,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-4",
+      "article_number": "4",
+      "filename": "stalker-kisei-hou-article-4.md",
+      "ja_text_sha256": "e2405069aac37e5de04d2e239157fe11e9a13b73f598d81591de206c8578ef6f",
+      "ja_text_bytes": 1926,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-5",
+      "article_number": "5",
+      "filename": "stalker-kisei-hou-article-5.md",
+      "ja_text_sha256": "919be45516ea178850192e67e13bbf04ad7ee3bc4934100831e5938c995e3d88",
+      "ja_text_bytes": 7314,
+      "paragraph_count": 15
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-6",
+      "article_number": "6",
+      "filename": "stalker-kisei-hou-article-6.md",
+      "ja_text_sha256": "8dabf48d04645c2e6a8f20df912c700ab77f644717ba6f9ccdef0ad8fbb755c2",
+      "ja_text_bytes": 1810,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-7",
+      "article_number": "7",
+      "filename": "stalker-kisei-hou-article-7.md",
+      "ja_text_sha256": "0aae60aa8692eab5246690c995024932feb7d8651881ee958db7dfad7359f89e",
+      "ja_text_bytes": 1214,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-8",
+      "article_number": "8",
+      "filename": "stalker-kisei-hou-article-8.md",
+      "ja_text_sha256": "1059dc53f7c8680108d08301185035a3f3d44f74f9a61212e207b2b1aa860832",
+      "ja_text_bytes": 982,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "stalker-kisei-hou-art-9",
+      "article_number": "9",
+      "filename": "stalker-kisei-hou-article-9.md",
+      "ja_text_sha256": "08e4d006baf1ea833c7620d27401130b15799d995832a49e13eb9bd6f4018b75",
+      "ja_text_bytes": 1069,
+      "paragraph_count": 3
+    }
+  ]
+}

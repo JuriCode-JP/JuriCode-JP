@@ -1,0 +1,994 @@
+{
+  "schema_version": "1.0",
+  "law_id": "322AC0000000049",
+  "law_name_ja": "労働基準法",
+  "law_abbrev": "roudou-kijun-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/322AC0000000049",
+  "source_xml_path": "../../../cache/laws/322AC0000000049.xml",
+  "source_xml_sha256": "0d33ccba0a0d7ba441aeab9a9ed94d4afdb5235a29d8f7580bd0efc4602aba24",
+  "source_xml_bytes": 401565,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:28:42+00:00",
+  "version_date": "1947-04-07",
+  "article_count": 122,
+  "articles": [
+    {
+      "article_id": "roudou-kijun-hou-art-1",
+      "article_number": "1",
+      "filename": "roudou-kijun-hou-article-1.md",
+      "ja_text_sha256": "981768a813dd03a86fb26cadaec65ff5771f8c2c0ac51f5a9bcfa833e87ceda1",
+      "ja_text_bytes": 520,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-10",
+      "article_number": "10",
+      "filename": "roudou-kijun-hou-article-10.md",
+      "ja_text_sha256": "5afa52de063d12686394e650d92cf4f271bffe5dafeb24cf6a231026699848b7",
+      "ja_text_bytes": 257,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-100",
+      "article_number": "100",
+      "filename": "roudou-kijun-hou-article-100.md",
+      "ja_text_sha256": "04838268cd3398242033e9f3ac3e832f2daf3f58d1546d9b5e3bdc8bfd6991c3",
+      "ja_text_bytes": 1300,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-101",
+      "article_number": "101",
+      "filename": "roudou-kijun-hou-article-101.md",
+      "ja_text_sha256": "015ffa6a9e78ea60c602ecc803fae2af3473131e8f659de2a6596b844a9ddc6e",
+      "ja_text_bytes": 458,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-102",
+      "article_number": "102",
+      "filename": "roudou-kijun-hou-article-102.md",
+      "ja_text_sha256": "ef2860e79c54d5b6de11dd7b2e8479c6b16dfbd0db9ddd3b50052afa1b00ea28",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-103",
+      "article_number": "103",
+      "filename": "roudou-kijun-hou-article-103.md",
+      "ja_text_sha256": "7c4e1aa12a67dbec6ba05240e5c84f47dcf13d48c5e8603af9218d9cbc8542fe",
+      "ja_text_bytes": 372,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-104-2",
+      "article_number": "104-2",
+      "filename": "roudou-kijun-hou-article-104-2.md",
+      "ja_text_sha256": "c371f57c6fae87a2ed8bd726764962e69ba740ac92eea77aa20eeaa472bac17b",
+      "ja_text_bytes": 470,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-104",
+      "article_number": "104",
+      "filename": "roudou-kijun-hou-article-104.md",
+      "ja_text_sha256": "65a6d6cf08e0f376168554d585d4978e65e80bbaabc0189c235776648dd634c3",
+      "ja_text_bytes": 494,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-105-2",
+      "article_number": "105-2",
+      "filename": "roudou-kijun-hou-article-105-2.md",
+      "ja_text_sha256": "a162ac4180b9fa4d3ede1aedbf857ec3e80973c8dd98d1c9d69ef4d984143f7a",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-105",
+      "article_number": "105",
+      "filename": "roudou-kijun-hou-article-105.md",
+      "ja_text_sha256": "ac25690375b155801bf2450862649c4b7cf64bb68edcbc06c5e6312403f37bc5",
+      "ja_text_bytes": 213,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-106",
+      "article_number": "106",
+      "filename": "roudou-kijun-hou-article-106.md",
+      "ja_text_sha256": "b4f1f8a7ad982c4797b080206b695867dc9288ef702326714ce24371a99961d5",
+      "ja_text_bytes": 1376,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-107",
+      "article_number": "107",
+      "filename": "roudou-kijun-hou-article-107.md",
+      "ja_text_sha256": "ea9c1cf09511502c7476b4bc5024394ff280cff837dfb399f30725a17f21899d",
+      "ja_text_bytes": 521,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-108",
+      "article_number": "108",
+      "filename": "roudou-kijun-hou-article-108.md",
+      "ja_text_sha256": "839ec0cd63d45e46ce997652d9950d6344133ee21b5bef962bd80a44f393197b",
+      "ja_text_bytes": 291,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-109",
+      "article_number": "109",
+      "filename": "roudou-kijun-hou-article-109.md",
+      "ja_text_sha256": "8c66befa3bfb9f6ac44fe3a23009f77def1b63e400224ad61c9eb65ff63e167e",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-11",
+      "article_number": "11",
+      "filename": "roudou-kijun-hou-article-11.md",
+      "ja_text_sha256": "aa79adb0df3397b2565bf201773f7d6ded3fa8ff447973411d90625c79119df9",
+      "ja_text_bytes": 245,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-110",
+      "article_number": "110",
+      "filename": "roudou-kijun-hou-article-110.md",
+      "ja_text_sha256": "d7345079e5741b03201411860579848d0fac62223b9e15c0d1e39719adf76540",
+      "ja_text_bytes": 63,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-111",
+      "article_number": "111",
+      "filename": "roudou-kijun-hou-article-111.md",
+      "ja_text_sha256": "9c0e1af11e4c7c50b0e6bc0f1766f401408ffb5994ad4820154199e5e702176f",
+      "ja_text_bytes": 390,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-112",
+      "article_number": "112",
+      "filename": "roudou-kijun-hou-article-112.md",
+      "ja_text_sha256": "b5602e4f00b2496dc484404c9b4edf5960803c3f8abac948d5701a3421fa11e2",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-113",
+      "article_number": "113",
+      "filename": "roudou-kijun-hou-article-113.md",
+      "ja_text_sha256": "b6bf494c2be39460b72fd3800a56eccc3ceea9cb22344a2f92db3e52f721bb2f",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-114",
+      "article_number": "114",
+      "filename": "roudou-kijun-hou-article-114.md",
+      "ja_text_sha256": "12b2dd061aa405a965db0683be3ae307e949b623cc5a227091b1c487da3f2714",
+      "ja_text_bytes": 655,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-115-2",
+      "article_number": "115-2",
+      "filename": "roudou-kijun-hou-article-115-2.md",
+      "ja_text_sha256": "4e58a55219aaef8a1d1368338012773c49958a9d273035dc37161053a6fd03dc",
+      "ja_text_bytes": 297,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-115",
+      "article_number": "115",
+      "filename": "roudou-kijun-hou-article-115.md",
+      "ja_text_sha256": "9856c050ff4fc3bef0f084c13c7589509926fc7adc800e9096cd9a9630cb8600",
+      "ja_text_bytes": 396,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-116",
+      "article_number": "116",
+      "filename": "roudou-kijun-hou-article-116.md",
+      "ja_text_sha256": "528fcfe35037a5f53547234192fdfadb1b427ea86bb38dde409685b3a2aeef34",
+      "ja_text_bytes": 506,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-117",
+      "article_number": "117",
+      "filename": "roudou-kijun-hou-article-117.md",
+      "ja_text_sha256": "138480130ffaa36ca6b5b8a4eda4f53b9e3979a8f3fc118b53ea6f61b60c64d4",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-118",
+      "article_number": "118",
+      "filename": "roudou-kijun-hou-article-118.md",
+      "ja_text_sha256": "958e0a85724d0ce89f0b772d293ecc93060cf120e077116312d2d202ab02f87a",
+      "ja_text_bytes": 497,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-119",
+      "article_number": "119",
+      "filename": "roudou-kijun-hou-article-119.md",
+      "ja_text_sha256": "1dac2f1fc6f3137224a4432379c4f1273034df4775a1ee7c9656419a0e49a18d",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-12",
+      "article_number": "12",
+      "filename": "roudou-kijun-hou-article-12.md",
+      "ja_text_sha256": "049dbcd1e7d3dc0b419fe57522094a8eac496671577fb279dd4800b7978ec893",
+      "ja_text_bytes": 1986,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-120",
+      "article_number": "120",
+      "filename": "roudou-kijun-hou-article-120.md",
+      "ja_text_sha256": "a3c4ce1ff04c74c281e4b51bd1b4c119d27f0f4381971c76caca28b74d08fa0a",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-121",
+      "article_number": "121",
+      "filename": "roudou-kijun-hou-article-121.md",
+      "ja_text_sha256": "7be3421f1b3c44d2cb60d274e4b157912bad07cfd341ae6e01a87623415673f2",
+      "ja_text_bytes": 1194,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-13",
+      "article_number": "13",
+      "filename": "roudou-kijun-hou-article-13.md",
+      "ja_text_sha256": "273c92fcd11214fd0e869de88866410393e500a8c5030705cb6edb591e378642",
+      "ja_text_bytes": 396,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-14",
+      "article_number": "14",
+      "filename": "roudou-kijun-hou-article-14.md",
+      "ja_text_sha256": "55b9828eff90db62ac774a05b6a5dc6e661f6abc42b363b634e3c75024d9504b",
+      "ja_text_bytes": 1024,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-15",
+      "article_number": "15",
+      "filename": "roudou-kijun-hou-article-15.md",
+      "ja_text_sha256": "2854adb694602a585fdfcab65b7b7467392f0db68e070a4dd589b41592010ed1",
+      "ja_text_bytes": 1043,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-16",
+      "article_number": "16",
+      "filename": "roudou-kijun-hou-article-16.md",
+      "ja_text_sha256": "af243cfbd7c75ce56196463d03767a2dd545c474e3ad50b63c183db06a3ade8d",
+      "ja_text_bytes": 197,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-17",
+      "article_number": "17",
+      "filename": "roudou-kijun-hou-article-17.md",
+      "ja_text_sha256": "2efa79c023e97f0ce70d7a41965843750d7046c3a83f4bbe129b7838d9819e6f",
+      "ja_text_bytes": 182,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-18",
+      "article_number": "18",
+      "filename": "roudou-kijun-hou-article-18.md",
+      "ja_text_sha256": "b22099e98ae880e3cb109bbee046ff9cd599290f70b3ce2bccb3076763381dfd",
+      "ja_text_bytes": 2547,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-19",
+      "article_number": "19",
+      "filename": "roudou-kijun-hou-article-19.md",
+      "ja_text_sha256": "35d0e474c462abedac9773bde0166f7ee2cae421d71ec0f6b0655d0c42cef6f7",
+      "ja_text_bytes": 840,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-2",
+      "article_number": "2",
+      "filename": "roudou-kijun-hou-article-2.md",
+      "ja_text_sha256": "8390252eb8c3f18060b073ad7ce4e533f98925e954f5ef7cb564d90eb745be0d",
+      "ja_text_bytes": 373,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-20",
+      "article_number": "20",
+      "filename": "roudou-kijun-hou-article-20.md",
+      "ja_text_sha256": "049d2b55d893549336add0318f5bc046ecaeb758af58d8c583eb5c9ba41d4f9f",
+      "ja_text_bytes": 892,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-21",
+      "article_number": "21",
+      "filename": "roudou-kijun-hou-article-21.md",
+      "ja_text_sha256": "f90f1c1262435e1b7458cc0d12a15edb7174618fc9715a9c7cd16a444290f1d0",
+      "ja_text_bytes": 527,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-22",
+      "article_number": "22",
+      "filename": "roudou-kijun-hou-article-22.md",
+      "ja_text_sha256": "b5a53dee75046297f7244199289d2ed6f80ff129cd3210903f58e5632fa4417c",
+      "ja_text_bytes": 1541,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-23",
+      "article_number": "23",
+      "filename": "roudou-kijun-hou-article-23.md",
+      "ja_text_sha256": "0ec5f2d9504ef1d1617cb6e844ee608ad0cfec0f9e9aa04c06d3c2960b006951",
+      "ja_text_bytes": 612,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-24",
+      "article_number": "24",
+      "filename": "roudou-kijun-hou-article-24.md",
+      "ja_text_sha256": "0139d705c60ade193d2fe3c043cee5c434633cd6dd4269170305e32222610875",
+      "ja_text_bytes": 1329,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-25",
+      "article_number": "25",
+      "filename": "roudou-kijun-hou-article-25.md",
+      "ja_text_sha256": "e751c8fb8cc7ab1d74ec11ce28d98c007d22447700c6c96974902c31cb9bebb3",
+      "ja_text_bytes": 332,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-26",
+      "article_number": "26",
+      "filename": "roudou-kijun-hou-article-26.md",
+      "ja_text_sha256": "cb10eaf420a5d1afaefcdc4737d8eb2195730b6f8e83820dda5d46eca4a7f506",
+      "ja_text_bytes": 275,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-27",
+      "article_number": "27",
+      "filename": "roudou-kijun-hou-article-27.md",
+      "ja_text_sha256": "be888f1433c20c0563ba45d8149354a57b6f2e9d68d6bf6fbdf5e7d58477362d",
+      "ja_text_bytes": 230,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-28",
+      "article_number": "28",
+      "filename": "roudou-kijun-hou-article-28.md",
+      "ja_text_sha256": "c9238a27e224f377bc8728209ff1ffb52064ddbb211ee874263913a067cc091a",
+      "ja_text_bytes": 191,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-3",
+      "article_number": "3",
+      "filename": "roudou-kijun-hou-article-3.md",
+      "ja_text_sha256": "4f44d9684c9cde376f2d4295165f77f18f19a71b909b9beff61e9dde0817263d",
+      "ja_text_bytes": 241,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-32-2",
+      "article_number": "32-2",
+      "filename": "roudou-kijun-hou-article-32-2.md",
+      "ja_text_sha256": "ee542de27c60d63d39712420fc6c60c3ee87319eb1ae99d276176f789927b88c",
+      "ja_text_bytes": 872,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-32-3-2",
+      "article_number": "32-3-2",
+      "filename": "roudou-kijun-hou-article-32-3-2.md",
+      "ja_text_sha256": "09280747ff53e37bcc6a39523bce0f07fbcb0538522ee0320d122bd37b28c11f",
+      "ja_text_bytes": 597,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-32-3",
+      "article_number": "32-3",
+      "filename": "roudou-kijun-hou-article-32-3.md",
+      "ja_text_sha256": "cd766ee44bf71525b0069d7083c08d4b43e4dda1eb9174f7aa75f3ad7ca4b90f",
+      "ja_text_bytes": 2724,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-32-4-2",
+      "article_number": "32-4-2",
+      "filename": "roudou-kijun-hou-article-32-4-2.md",
+      "ja_text_sha256": "b2ff27ca01e8c0222030a28ef605c19eb8a0a35bb866ef0fc35cf94ed9ff2cef",
+      "ja_text_bytes": 522,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-32-4",
+      "article_number": "32-4",
+      "filename": "roudou-kijun-hou-article-32-4.md",
+      "ja_text_sha256": "f2d274768d5b38b32df2ce00e430f2fcb962a1cb45a4c504e00586516ac41abc",
+      "ja_text_bytes": 2226,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-32-5",
+      "article_number": "32-5",
+      "filename": "roudou-kijun-hou-article-32-5.md",
+      "ja_text_sha256": "c2fe88827ab698dfa9b547c3b2054b6cbb1d973969fb6c4dea4f272c764cf8f3",
+      "ja_text_bytes": 1207,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-32",
+      "article_number": "32",
+      "filename": "roudou-kijun-hou-article-32.md",
+      "ja_text_sha256": "66179aea2fd3808334eb7984241fa979a5fd6fcf3fe9b5dbf26eaf3e22ed5ba7",
+      "ja_text_bytes": 408,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-33",
+      "article_number": "33",
+      "filename": "roudou-kijun-hou-article-33.md",
+      "ja_text_sha256": "33dacd2bac535463aad780d4ccf8d9dbf725e962cd52599a33d5a99b4d915dcb",
+      "ja_text_bytes": 1496,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-34",
+      "article_number": "34",
+      "filename": "roudou-kijun-hou-article-34.md",
+      "ja_text_sha256": "52afd7cdd3be3cc845d0d3b3703186599d949c911241ab647b0f6be40213a88e",
+      "ja_text_bytes": 961,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-35",
+      "article_number": "35",
+      "filename": "roudou-kijun-hou-article-35.md",
+      "ja_text_sha256": "abe6a29a7cc33bef43ef662cf7d23a870c9fa915746a938200add0897b8832f2",
+      "ja_text_bytes": 336,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-36",
+      "article_number": "36",
+      "filename": "roudou-kijun-hou-article-36.md",
+      "ja_text_sha256": "566229f9212b47f85396d059ba3698513bde41e39ab8262a09b86f3788128019",
+      "ja_text_bytes": 5151,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-37",
+      "article_number": "37",
+      "filename": "roudou-kijun-hou-article-37.md",
+      "ja_text_sha256": "a1e6bee6b4bc765cfeaacf57d4dea365d26d26d79339ade007aa96346c822298",
+      "ja_text_bytes": 2799,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-38-2",
+      "article_number": "38-2",
+      "filename": "roudou-kijun-hou-article-38-2.md",
+      "ja_text_sha256": "bed8c7047d555f210c36f138726248844f051d59902871d8ea7381412796b5ad",
+      "ja_text_bytes": 1108,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-38-3",
+      "article_number": "38-3",
+      "filename": "roudou-kijun-hou-article-38-3.md",
+      "ja_text_sha256": "d191ff0b76cdda2aeb88124efb26fee0fa30a31aa096a2dc5707b8a9ac4bf347",
+      "ja_text_bytes": 593,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-38-4",
+      "article_number": "38-4",
+      "filename": "roudou-kijun-hou-article-38-4.md",
+      "ja_text_sha256": "e7350d1d01531e96a7169ee65d931b85d9938753223b02b9263f383065401844",
+      "ja_text_bytes": 3884,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-38",
+      "article_number": "38",
+      "filename": "roudou-kijun-hou-article-38.md",
+      "ja_text_sha256": "617e5c941b4e1c331a464e72bc9c3cbadd51e6853c9a01dc393c073928ca1e27",
+      "ja_text_bytes": 537,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-39",
+      "article_number": "39",
+      "filename": "roudou-kijun-hou-article-39.md",
+      "ja_text_sha256": "cf8096a75083d18a04225c729486b3abcb49995ff2fcd06e0a05476dd64fa9d9",
+      "ja_text_bytes": 7553,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-4",
+      "article_number": "4",
+      "filename": "roudou-kijun-hou-article-4.md",
+      "ja_text_sha256": "8facd6eac3bf564388059e61dd1e3deda06299c9682d482263e9365ad8af0530",
+      "ja_text_bytes": 199,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-40",
+      "article_number": "40",
+      "filename": "roudou-kijun-hou-article-40.md",
+      "ja_text_sha256": "e44b9d76a0a3fab890c4c3e5aabaf545888c8469126d1239f1d500f7e33ec24a",
+      "ja_text_bytes": 750,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-41-2",
+      "article_number": "41-2",
+      "filename": "roudou-kijun-hou-article-41-2.md",
+      "ja_text_sha256": "d191257aeeb97a9499b20bd14db39b7c34d4081dd50ae21b3d817febdc6d1376",
+      "ja_text_bytes": 1991,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-41",
+      "article_number": "41",
+      "filename": "roudou-kijun-hou-article-41.md",
+      "ja_text_sha256": "4bbcc808339b2514b7d92509bad264074d894cb12a8fb4198c2914f9613ce92d",
+      "ja_text_bytes": 251,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-42",
+      "article_number": "42",
+      "filename": "roudou-kijun-hou-article-42.md",
+      "ja_text_sha256": "7c21df0540ea80e0236cf76956a2f23ecf4a72aa313b13b662db66887dd3e43b",
+      "ja_text_bytes": 203,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-5",
+      "article_number": "5",
+      "filename": "roudou-kijun-hou-article-5.md",
+      "ja_text_sha256": "98865ff2f7e92e6b0b4870d43b6721415ca71c21efda74d23649033fa80a1907",
+      "ja_text_bytes": 244,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-56",
+      "article_number": "56",
+      "filename": "roudou-kijun-hou-article-56.md",
+      "ja_text_sha256": "b7eb3979ec91351dcc6b31e87fc754d4d701e544a1a9c4d00f0ffc78a5413635",
+      "ja_text_bytes": 799,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-57",
+      "article_number": "57",
+      "filename": "roudou-kijun-hou-article-57.md",
+      "ja_text_sha256": "3bf008d1a094e7b9edcd1ccd3e01f17684a0887055668f8620c09373f27f6892",
+      "ja_text_bytes": 522,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-58",
+      "article_number": "58",
+      "filename": "roudou-kijun-hou-article-58.md",
+      "ja_text_sha256": "73facb562f6afd2fc4339f4b05131e021bb85bb55035003b22fa9e84684e400f",
+      "ja_text_bytes": 408,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-59",
+      "article_number": "59",
+      "filename": "roudou-kijun-hou-article-59.md",
+      "ja_text_sha256": "52c02ea0ad63aa3165a00b55db25fe0e8fde0f9ad12b97a16962b9b09f6e54af",
+      "ja_text_bytes": 224,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-6",
+      "article_number": "6",
+      "filename": "roudou-kijun-hou-article-6.md",
+      "ja_text_sha256": "0f2226784e3553fb924a1a93f2bb7cd217d8990b0c2ae37d9e7337ebe66f3ac9",
+      "ja_text_bytes": 187,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-60",
+      "article_number": "60",
+      "filename": "roudou-kijun-hou-article-60.md",
+      "ja_text_sha256": "a28c732848d68477d2c0d80c545bb722eb0947dd52a3dfd9b7cdf9012f420fb1",
+      "ja_text_bytes": 1181,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-61",
+      "article_number": "61",
+      "filename": "roudou-kijun-hou-article-61.md",
+      "ja_text_sha256": "45e6dea04e89c3f8f0efc7761f8908a8a391ff312fb541b7672ef815f551b7e8",
+      "ja_text_bytes": 1667,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-62",
+      "article_number": "62",
+      "filename": "roudou-kijun-hou-article-62.md",
+      "ja_text_sha256": "24a1ab29c612c8e90f98842b6a927375d727d89433a8152579d03fd7afe5db13",
+      "ja_text_bytes": 1270,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-63",
+      "article_number": "63",
+      "filename": "roudou-kijun-hou-article-63.md",
+      "ja_text_sha256": "b5bfce6dadf6c12aa5a379141a7c2a1abd9acfa7e261fe88d187ba7c553047a1",
+      "ja_text_bytes": 146,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-64-2",
+      "article_number": "64-2",
+      "filename": "roudou-kijun-hou-article-64-2.md",
+      "ja_text_sha256": "569b3eacf325c8df6da1d132498ba31b123b94ad13c27436fc0a2ad661504674",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-64-3",
+      "article_number": "64-3",
+      "filename": "roudou-kijun-hou-article-64-3.md",
+      "ja_text_sha256": "66f81e308bcf9c1acb37b56b14afd7612f2a2ab1251c4b3a8d3dbb6d1e488704",
+      "ja_text_bytes": 712,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-64",
+      "article_number": "64",
+      "filename": "roudou-kijun-hou-article-64.md",
+      "ja_text_sha256": "4e81d63799d76b0201d01835f1059796e58034dfcac3cbc9880cd7569a64c3fc",
+      "ja_text_bytes": 515,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-65",
+      "article_number": "65",
+      "filename": "roudou-kijun-hou-article-65.md",
+      "ja_text_sha256": "204a458d2d800bf92691e5be67bd200e76d5d8219120920fcc147e2a030d9a94",
+      "ja_text_bytes": 874,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-66",
+      "article_number": "66",
+      "filename": "roudou-kijun-hou-article-66.md",
+      "ja_text_sha256": "653976eb638a857579a4f60592ec9a2bf034682afcc7967894606f46bf16a6c7",
+      "ja_text_bytes": 981,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-67",
+      "article_number": "67",
+      "filename": "roudou-kijun-hou-article-67.md",
+      "ja_text_sha256": "8c98098e607508993c944e8f9e084ef64c7e82ecc86b5d2fd1d71fc926e847c6",
+      "ja_text_bytes": 426,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-68",
+      "article_number": "68",
+      "filename": "roudou-kijun-hou-article-68.md",
+      "ja_text_sha256": "a491bb9221f66913b4e3755cf9624923c7f29ec5acb60af0a9cab9dea975aa28",
+      "ja_text_bytes": 209,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-69",
+      "article_number": "69",
+      "filename": "roudou-kijun-hou-article-69.md",
+      "ja_text_sha256": "01cc42e508deef108c86f0e4cecd96b8887458aa8fbc66b46fa6bd487d5e1d58",
+      "ja_text_bytes": 459,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-7",
+      "article_number": "7",
+      "filename": "roudou-kijun-hou-article-7.md",
+      "ja_text_sha256": "cccfaa631b72e4b83de47c4fcb3b86a096a80b883b7d76d941e616f113be51ee",
+      "ja_text_bytes": 418,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-70",
+      "article_number": "70",
+      "filename": "roudou-kijun-hou-article-70.md",
+      "ja_text_sha256": "307b0ad3df3f043dbb305a8554a7b3982dcb49e3488810c87e16d1de4b6d8065",
+      "ja_text_bytes": 992,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-71",
+      "article_number": "71",
+      "filename": "roudou-kijun-hou-article-71.md",
+      "ja_text_sha256": "c4f98e9c697afd6163ae82e06a5210384fcacdb9bd90b03dccc20d98f0879ff9",
+      "ja_text_bytes": 317,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-72",
+      "article_number": "72",
+      "filename": "roudou-kijun-hou-article-72.md",
+      "ja_text_sha256": "0571bffe1aa849ddef3656fa52f5a1a1bbd84b2c35d6fb94be23a18bb98ce6e9",
+      "ja_text_bytes": 389,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-73",
+      "article_number": "73",
+      "filename": "roudou-kijun-hou-article-73.md",
+      "ja_text_sha256": "1ca8a9e211a324ea3b910083d53d532b16de7915f916694edcd73bd4275d2ccb",
+      "ja_text_bytes": 284,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-74",
+      "article_number": "74",
+      "filename": "roudou-kijun-hou-article-74.md",
+      "ja_text_sha256": "fcbc690cba9947a458361d94492f53595f15ffdaf33322949417e78360bcd8fa",
+      "ja_text_bytes": 62,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-75",
+      "article_number": "75",
+      "filename": "roudou-kijun-hou-article-75.md",
+      "ja_text_sha256": "1ded9ae789a6d0df5d9a60408200e30487452ed1ed8e3e78d9c5b05aa0797e59",
+      "ja_text_bytes": 423,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-76",
+      "article_number": "76",
+      "filename": "roudou-kijun-hou-article-76.md",
+      "ja_text_sha256": "98f3e0077f1fcbf8a5fac3b2f9327400fa4bc5130ef0280fd762ae03e260b7f1",
+      "ja_text_bytes": 2035,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-77",
+      "article_number": "77",
+      "filename": "roudou-kijun-hou-article-77.md",
+      "ja_text_sha256": "b85d222be33987030384fbf2d9875fb485da1a7d52c4cc81c37f2d3d289376b3",
+      "ja_text_bytes": 362,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-78",
+      "article_number": "78",
+      "filename": "roudou-kijun-hou-article-78.md",
+      "ja_text_sha256": "2fe2f11c9c1815781ef2eb20ce3e627a915cd724859d9acad6783af98a3a039d",
+      "ja_text_bytes": 302,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-79",
+      "article_number": "79",
+      "filename": "roudou-kijun-hou-article-79.md",
+      "ja_text_sha256": "65ce2e1f324c924cdf8c3c6a0ec6c15b000a24715e1c5ca853f8e1cc45b03422",
+      "ja_text_bytes": 224,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-8",
+      "article_number": "8",
+      "filename": "roudou-kijun-hou-article-8.md",
+      "ja_text_sha256": "d21a438461215154e948810832b1c0fde1aa28dfaabe9502fe14416620907c0a",
+      "ja_text_bytes": 61,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-80",
+      "article_number": "80",
+      "filename": "roudou-kijun-hou-article-80.md",
+      "ja_text_sha256": "fb385db15ea9e5d6723e0da21f884f02a6c3833212e261d5d0db78896bebe0ff",
+      "ja_text_bytes": 239,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-81",
+      "article_number": "81",
+      "filename": "roudou-kijun-hou-article-81.md",
+      "ja_text_sha256": "baa95698709f55cd5d652df0329faa57ca75a1902dcadea83e70c992f37b8508",
+      "ja_text_bytes": 374,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-82",
+      "article_number": "82",
+      "filename": "roudou-kijun-hou-article-82.md",
+      "ja_text_sha256": "61404043a05eab46d9714899c43223fcedb7bc9d4a3d268a23053fd2c22f6801",
+      "ja_text_bytes": 386,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-83",
+      "article_number": "83",
+      "filename": "roudou-kijun-hou-article-83.md",
+      "ja_text_sha256": "1e9ded0c8fbfe195c96cfe315b49d3226fd4d5f8f96978cb380fdacd6a53baf3",
+      "ja_text_bytes": 297,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-84",
+      "article_number": "84",
+      "filename": "roudou-kijun-hou-article-84.md",
+      "ja_text_sha256": "4e878b48904e8adf7277b0e9bc66e531c6b853168161f9f2ac5b56bb911c73bd",
+      "ja_text_bytes": 654,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-85",
+      "article_number": "85",
+      "filename": "roudou-kijun-hou-article-85.md",
+      "ja_text_sha256": "a76aeabd8ddadb27e0ed24a867c48a5b1df450339abb6ddb2d7954bca8a29be4",
+      "ja_text_bytes": 1347,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-86",
+      "article_number": "86",
+      "filename": "roudou-kijun-hou-article-86.md",
+      "ja_text_sha256": "ffdd5b055d029d4722ac2bcc8eae16c77a686bf98fd5b0418aba5cddae3d75c0",
+      "ja_text_bytes": 420,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-87",
+      "article_number": "87",
+      "filename": "roudou-kijun-hou-article-87.md",
+      "ja_text_sha256": "a96646117ad5b8c75010204d971c259ffa08bc42555f02b2224ad72e35af5775",
+      "ja_text_bytes": 1066,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-88",
+      "article_number": "88",
+      "filename": "roudou-kijun-hou-article-88.md",
+      "ja_text_sha256": "9a5e86961a4d67b86946d2d55f20c1f798a6f756d112029acd6e2ef98037a1d2",
+      "ja_text_bytes": 155,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-89",
+      "article_number": "89",
+      "filename": "roudou-kijun-hou-article-89.md",
+      "ja_text_sha256": "2e0e596fc5c482797d41b630aa6b44b5ef552a56932219e66a0e03356ce7fd9c",
+      "ja_text_bytes": 314,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-9",
+      "article_number": "9",
+      "filename": "roudou-kijun-hou-article-9.md",
+      "ja_text_sha256": "5591b3b792420f06e56d75564b20628028e7f8e3e55c45dd70f93e0ccded8f24",
+      "ja_text_bytes": 247,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-90",
+      "article_number": "90",
+      "filename": "roudou-kijun-hou-article-90.md",
+      "ja_text_sha256": "34a2fdd77ae5e03277ffa3f5f472f706c6f2171c740df9eb513aac45ab0fd960",
+      "ja_text_bytes": 600,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-91",
+      "article_number": "91",
+      "filename": "roudou-kijun-hou-article-91.md",
+      "ja_text_sha256": "a07ed10384f350a83a012e684e320bece7e6431daf2b336dc760630367634ec7",
+      "ja_text_bytes": 323,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-92",
+      "article_number": "92",
+      "filename": "roudou-kijun-hou-article-92.md",
+      "ja_text_sha256": "a81d14dcc227c9182c049bcf2a36548c1f49734549fce903a3f797997d1b30aa",
+      "ja_text_bytes": 339,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-93",
+      "article_number": "93",
+      "filename": "roudou-kijun-hou-article-93.md",
+      "ja_text_sha256": "98ea9a46ca325afe6aa41d1931a89f15b918165068883ddbb70bffed96bef6e3",
+      "ja_text_bytes": 218,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-94",
+      "article_number": "94",
+      "filename": "roudou-kijun-hou-article-94.md",
+      "ja_text_sha256": "e483af44767e1353530242124a7e4bb2e9557e35b504ae65d69af5a3eb2908d8",
+      "ja_text_bytes": 351,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-95",
+      "article_number": "95",
+      "filename": "roudou-kijun-hou-article-95.md",
+      "ja_text_sha256": "4d8d11c1bbd34edf900e213310befea35244b9b93ed30012c1b4c00981b29184",
+      "ja_text_bytes": 935,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-96-2",
+      "article_number": "96-2",
+      "filename": "roudou-kijun-hou-article-96-2.md",
+      "ja_text_sha256": "543101493c74711e1103a262646331db4f8247837645c5d99c54a6e69880a542",
+      "ja_text_bytes": 656,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-96-3",
+      "article_number": "96-3",
+      "filename": "roudou-kijun-hou-article-96-3.md",
+      "ja_text_sha256": "998832c6afd9330de6428f7393b47ae1060a38069b6a80a9fcb44b5d508353b3",
+      "ja_text_bytes": 437,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-96",
+      "article_number": "96",
+      "filename": "roudou-kijun-hou-article-96.md",
+      "ja_text_sha256": "11a93007598c85baa15105944f1ff81a7133ca751a53a2671160ff0993634dee",
+      "ja_text_bytes": 489,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-97",
+      "article_number": "97",
+      "filename": "roudou-kijun-hou-article-97.md",
+      "ja_text_sha256": "2c15a99a36bcc7d355cdefb2a4ae6e353609a5c23a0c3fb7b63863088ccadc91",
+      "ja_text_bytes": 1372,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-98",
+      "article_number": "98",
+      "filename": "roudou-kijun-hou-article-98.md",
+      "ja_text_sha256": "fae47d768bb8e879bd2792d7a68ffbf9a5fec813aea85e6c69a4d7b8e165747b",
+      "ja_text_bytes": 62,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "roudou-kijun-hou-art-99",
+      "article_number": "99",
+      "filename": "roudou-kijun-hou-article-99.md",
+      "ja_text_sha256": "707a6828d189af03ca56412fb0feb1b6490bc2237f8c869658e37fb8052d9e93",
+      "ja_text_bytes": 1571,
+      "paragraph_count": 4
+    }
+  ]
+}

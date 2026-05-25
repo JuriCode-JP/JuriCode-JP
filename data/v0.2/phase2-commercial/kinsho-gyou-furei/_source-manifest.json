@@ -1,0 +1,4458 @@
+{
+  "schema_version": "1.0",
+  "law_id": "419M60000002052",
+  "law_name_ja": "金融商品取引業等に関する内閣府令",
+  "law_abbrev": "kinsho-gyou-furei",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/419M60000002052",
+  "source_xml_path": "../../../cache/laws/419M60000002052.xml",
+  "source_xml_sha256": "3ccca4f3f3ddaf6ab52d87bfc0de84d9b37623eaf8797d469520e3b5c0e43e5a",
+  "source_xml_bytes": 4376187,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:28:28+00:00",
+  "version_date": "2007-08-06",
+  "article_count": 555,
+  "articles": [
+    {
+      "article_id": "kinsho-gyou-furei-art-1",
+      "article_number": "1",
+      "filename": "kinsho-gyou-furei-article-1.md",
+      "ja_text_sha256": "32c87033c7113357698f5fad305f248728cc7684d00d367d44d7bf0baf3d1a57",
+      "ja_text_bytes": 3578,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-10",
+      "article_number": "10",
+      "filename": "kinsho-gyou-furei-article-10.md",
+      "ja_text_sha256": "d614712a500e5a5933646a1a33831a2a95f6c23045462262f27e9e8ccf944386",
+      "ja_text_bytes": 674,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-100",
+      "article_number": "100",
+      "filename": "kinsho-gyou-furei-article-100.md",
+      "ja_text_sha256": "deb3814ecf4db42ed7b39c169a8924b77e7ee943fd6aab5b3f5df5f244a021b7",
+      "ja_text_bytes": 4404,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-101",
+      "article_number": "101",
+      "filename": "kinsho-gyou-furei-article-101.md",
+      "ja_text_sha256": "e11aec6529fe0e60b02ade53b901a3695fad4eb0d31c315b4bf7d993a2b1c182",
+      "ja_text_bytes": 864,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-102",
+      "article_number": "102",
+      "filename": "kinsho-gyou-furei-article-102.md",
+      "ja_text_sha256": "0927e914a09b509a6a03352656ab61d3994465e014f30eaef5b4de2222ecb933",
+      "ja_text_bytes": 1117,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-103",
+      "article_number": "103",
+      "filename": "kinsho-gyou-furei-article-103.md",
+      "ja_text_sha256": "c7df5b14b68eeddd1d8e09868e0405b5bd946674a52373c6deb2a929d0dce5c3",
+      "ja_text_bytes": 709,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-104",
+      "article_number": "104",
+      "filename": "kinsho-gyou-furei-article-104.md",
+      "ja_text_sha256": "808d3024b86c51b4909dfe1db21de8bf84730a4cfc090a48c122406527883731",
+      "ja_text_bytes": 676,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-105",
+      "article_number": "105",
+      "filename": "kinsho-gyou-furei-article-105.md",
+      "ja_text_sha256": "9e3f3dce5c21d0b6fd68a564bc9b92d24ba1efdd3727be3fc0fcaa64fc9d459d",
+      "ja_text_bytes": 934,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-106",
+      "article_number": "106",
+      "filename": "kinsho-gyou-furei-article-106.md",
+      "ja_text_sha256": "01d9cdedf36503d42ec61deaf030facf448ff6aab2e0e759c880e5ef28e6f698",
+      "ja_text_bytes": 955,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-107",
+      "article_number": "107",
+      "filename": "kinsho-gyou-furei-article-107.md",
+      "ja_text_sha256": "010225ba0be3f394cd692326a5206476cb2c8ac7326c755da3ffd938aa7551e8",
+      "ja_text_bytes": 793,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-108",
+      "article_number": "108",
+      "filename": "kinsho-gyou-furei-article-108.md",
+      "ja_text_sha256": "20946ffd2040ac9eab6d8689c66e9051869be6b50fe6ca054b6477e19aaabacc",
+      "ja_text_bytes": 5085,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-109",
+      "article_number": "109",
+      "filename": "kinsho-gyou-furei-article-109.md",
+      "ja_text_sha256": "6a39296ee3858fcb832c2608152761a365806bad651fdde4f6ae35248c518f9c",
+      "ja_text_bytes": 229,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-11",
+      "article_number": "11",
+      "filename": "kinsho-gyou-furei-article-11.md",
+      "ja_text_sha256": "8b8d7cce8948ee7e3b8aca79c3f184b6b8ce0fd2286d0167878a104510072c08",
+      "ja_text_bytes": 345,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-110",
+      "article_number": "110",
+      "filename": "kinsho-gyou-furei-article-110.md",
+      "ja_text_sha256": "a9369222ade4f14fea43e0b5a51039164acf0a9f977b26f86290e962c482ab51",
+      "ja_text_bytes": 1084,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-111",
+      "article_number": "111",
+      "filename": "kinsho-gyou-furei-article-111.md",
+      "ja_text_sha256": "40ff6d0db33cfc1125152267a63642c70c0002c941f8106b48535664a6d33b6e",
+      "ja_text_bytes": 241,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-112",
+      "article_number": "112",
+      "filename": "kinsho-gyou-furei-article-112.md",
+      "ja_text_sha256": "37b4c660c22f4520c5b07d5278ed8ae73c8dd373a66b924555ab4e93363b2a9b",
+      "ja_text_bytes": 262,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-113",
+      "article_number": "113",
+      "filename": "kinsho-gyou-furei-article-113.md",
+      "ja_text_sha256": "104b42141054fa5b63d08a15e7e11d0ed32246f8cd1e5b4571e7c863298daab4",
+      "ja_text_bytes": 346,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-114",
+      "article_number": "114",
+      "filename": "kinsho-gyou-furei-article-114.md",
+      "ja_text_sha256": "23cd70143ebb2bc1f353765b94ee342f397a17f219297b1c1081b05aefbbc9ba",
+      "ja_text_bytes": 412,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-115-2",
+      "article_number": "115-2",
+      "filename": "kinsho-gyou-furei-article-115-2.md",
+      "ja_text_sha256": "4ef3bab33fb8d0fb8c22fe4960ac88c8eb9900c05c1d593cf1607d6b37016045",
+      "ja_text_bytes": 404,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-115-3",
+      "article_number": "115-3",
+      "filename": "kinsho-gyou-furei-article-115-3.md",
+      "ja_text_sha256": "b6208171028be0978262c95c29557e64a8adf8bbe3d6323ab062b087f8c0ffbd",
+      "ja_text_bytes": 676,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-115",
+      "article_number": "115",
+      "filename": "kinsho-gyou-furei-article-115.md",
+      "ja_text_sha256": "66d22b722e1733832c261882168bf309e3aa174f49d30359f8af7ca0b709b4dc",
+      "ja_text_bytes": 250,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-116-2",
+      "article_number": "116-2",
+      "filename": "kinsho-gyou-furei-article-116-2.md",
+      "ja_text_sha256": "e3d2fcd623b85320c74e5c0516b62b0c4b2d875b863bca064c3ab8a646f0166f",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-116-3",
+      "article_number": "116-3",
+      "filename": "kinsho-gyou-furei-article-116-3.md",
+      "ja_text_sha256": "a042a762f2bbcfd2217e852eeab27eff61c90810cf1b6606c72d9593daa98318",
+      "ja_text_bytes": 779,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-116-4",
+      "article_number": "116-4",
+      "filename": "kinsho-gyou-furei-article-116-4.md",
+      "ja_text_sha256": "c1fb96e3769e3328248fd0b2679a84e742a7ba1fcf91738d98e3b66413871574",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-116",
+      "article_number": "116",
+      "filename": "kinsho-gyou-furei-article-116.md",
+      "ja_text_sha256": "8ddf4e1a77b53909df3f66d652ad959157c9b75012bcdcd2b7498572c4293f9f",
+      "ja_text_bytes": 484,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-117",
+      "article_number": "117",
+      "filename": "kinsho-gyou-furei-article-117.md",
+      "ja_text_sha256": "fd31c284feb949776a791bb39781be4deb55c2c35f34d37c4aaab17b3dd129a5",
+      "ja_text_bytes": 25446,
+      "paragraph_count": 56
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-118",
+      "article_number": "118",
+      "filename": "kinsho-gyou-furei-article-118.md",
+      "ja_text_sha256": "86184d56da2b0aa08f7c749bb8448cb53c51cf9a5b100ef177a9227745da4fc9",
+      "ja_text_bytes": 178,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-119-2",
+      "article_number": "119-2",
+      "filename": "kinsho-gyou-furei-article-119-2.md",
+      "ja_text_sha256": "0ff773ee8c3b5460dc0d11297f5e4e49f5e61540e019f76e59c22f136a9ab7d7",
+      "ja_text_bytes": 504,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-119",
+      "article_number": "119",
+      "filename": "kinsho-gyou-furei-article-119.md",
+      "ja_text_sha256": "ac502b23c9c2ce17f52f98f83fb99617139926a41577a55700e760257f83c374",
+      "ja_text_bytes": 1728,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-12",
+      "article_number": "12",
+      "filename": "kinsho-gyou-furei-article-12.md",
+      "ja_text_sha256": "0020ea65729be80426a6a0473f1f766ac968420dec7be2161c65a59244b5a2da",
+      "ja_text_bytes": 510,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-120",
+      "article_number": "120",
+      "filename": "kinsho-gyou-furei-article-120.md",
+      "ja_text_sha256": "cbffc79cc2e31e934cc1c49a0ef4a68a5cc1ebc2c4c488a7c0807bba2dac28ad",
+      "ja_text_bytes": 421,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-121",
+      "article_number": "121",
+      "filename": "kinsho-gyou-furei-article-121.md",
+      "ja_text_sha256": "b24f58369b8b15b30f02b0fd042cd39f4542e7c8d21fc3b81ff4f6be8dcf6010",
+      "ja_text_bytes": 178,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-122",
+      "article_number": "122",
+      "filename": "kinsho-gyou-furei-article-122.md",
+      "ja_text_sha256": "e57f5ce2e8212d0184ab3f75f9ec0d386b27ceca91ec455e65449f845f0a3613",
+      "ja_text_bytes": 505,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-123",
+      "article_number": "123",
+      "filename": "kinsho-gyou-furei-article-123.md",
+      "ja_text_sha256": "42d7a878c02c269f60557db91377ede17353b01cd7f1d75271fc005c4fdd8acd",
+      "ja_text_bytes": 7363,
+      "paragraph_count": 16
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-124",
+      "article_number": "124",
+      "filename": "kinsho-gyou-furei-article-124.md",
+      "ja_text_sha256": "017a5f390854961e38c2799825200d5130736f84a6d005541730a8805b131b0b",
+      "ja_text_bytes": 3134,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-125-2-2",
+      "article_number": "125-2-2",
+      "filename": "kinsho-gyou-furei-article-125-2-2.md",
+      "ja_text_sha256": "57e28e22e64046a7bb0dfa947b2a93bf37ca104abf7a8065caf49afb77333e86",
+      "ja_text_bytes": 921,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-125-2",
+      "article_number": "125-2",
+      "filename": "kinsho-gyou-furei-article-125-2.md",
+      "ja_text_sha256": "2ef2af229a72beeadf14d8a93d65e26f0ff5f677804d144ea6c687ed4193be4f",
+      "ja_text_bytes": 414,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-125-3",
+      "article_number": "125-3",
+      "filename": "kinsho-gyou-furei-article-125-3.md",
+      "ja_text_sha256": "9fd120be344fc512066ec90b67596d7e173099010bab2444b8df7940d7962b5f",
+      "ja_text_bytes": 105,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-125-4",
+      "article_number": "125-4",
+      "filename": "kinsho-gyou-furei-article-125-4.md",
+      "ja_text_sha256": "74355f5e32622ea40450cd840eeb840a9f6f5b72cd603b005213146f4d78816e",
+      "ja_text_bytes": 248,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-125-5",
+      "article_number": "125-5",
+      "filename": "kinsho-gyou-furei-article-125-5.md",
+      "ja_text_sha256": "d02e614fb9f9ee893299bb9406e9b4c371a37820bc2f14a919ef4ad38ef0d027",
+      "ja_text_bytes": 1123,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-125-6",
+      "article_number": "125-6",
+      "filename": "kinsho-gyou-furei-article-125-6.md",
+      "ja_text_sha256": "42ce57247fdb728e183f1bb8cbff31b14b9987cc63925a1e8fdf986001f3cc0b",
+      "ja_text_bytes": 239,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-125-7",
+      "article_number": "125-7",
+      "filename": "kinsho-gyou-furei-article-125-7.md",
+      "ja_text_sha256": "8ecac7323e3e207de3bd053ed061ba85628edd3658e9c6ce2ec39daf4ec3016f",
+      "ja_text_bytes": 1034,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-125-8",
+      "article_number": "125-8",
+      "filename": "kinsho-gyou-furei-article-125-8.md",
+      "ja_text_sha256": "10b882149af2387f389cf4169602979774d8e884b7c2921ecb1d55626a169d9f",
+      "ja_text_bytes": 1013,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-125",
+      "article_number": "125",
+      "filename": "kinsho-gyou-furei-article-125.md",
+      "ja_text_sha256": "ce5d92e561dd989d77ece2cbc0d4e8df9f30afdc8b90ae919efb0fceff07dee1",
+      "ja_text_bytes": 823,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-126-2",
+      "article_number": "126-2",
+      "filename": "kinsho-gyou-furei-article-126-2.md",
+      "ja_text_sha256": "d06f1039e56350b4647cc0b2322028f9d127714d07b57401a713cc63f3809b93",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-126",
+      "article_number": "126",
+      "filename": "kinsho-gyou-furei-article-126.md",
+      "ja_text_sha256": "baeaae1e157646e63cd845984319fec14fceaf57b260d089a50f1344a7c8dc34",
+      "ja_text_bytes": 184,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-127-2",
+      "article_number": "127-2",
+      "filename": "kinsho-gyou-furei-article-127-2.md",
+      "ja_text_sha256": "0c685a16ee1742abffe3dfcf587dc4d99c8b02a104be4a765de7e24bd086c6a7",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-127",
+      "article_number": "127",
+      "filename": "kinsho-gyou-furei-article-127.md",
+      "ja_text_sha256": "084e7c61fa2fd3094d588b07f914f1a9133a247f8e1e7ca960821529bc30a370",
+      "ja_text_bytes": 193,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-128",
+      "article_number": "128",
+      "filename": "kinsho-gyou-furei-article-128.md",
+      "ja_text_sha256": "760bfe4579a05e347056109946a3312cff8c408456fdcf289ffab46445f676cd",
+      "ja_text_bytes": 202,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-129-2",
+      "article_number": "129-2",
+      "filename": "kinsho-gyou-furei-article-129-2.md",
+      "ja_text_sha256": "cf69b29273c3ead599c9ba488275ee6cd6d894161eaeed3c4b9006ac5cdac743",
+      "ja_text_bytes": 513,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-129",
+      "article_number": "129",
+      "filename": "kinsho-gyou-furei-article-129.md",
+      "ja_text_sha256": "e98d27ee0df7e4f09a0b8d0596d460090e40c8ab6d9f34e0b086463fab9d6ceb",
+      "ja_text_bytes": 664,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-13-2",
+      "article_number": "13-2",
+      "filename": "kinsho-gyou-furei-article-13-2.md",
+      "ja_text_sha256": "6c2f62180578d624b4efdf955104bd580ca3e8183ecedb531d49616ae5365554",
+      "ja_text_bytes": 291,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-13",
+      "article_number": "13",
+      "filename": "kinsho-gyou-furei-article-13.md",
+      "ja_text_sha256": "186a2aeed62286a8848e05ef2c12544de70f8c4fb559a093292954e33f91cd2c",
+      "ja_text_bytes": 279,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-130",
+      "article_number": "130",
+      "filename": "kinsho-gyou-furei-article-130.md",
+      "ja_text_sha256": "c4ff7bda132890a9e96c18a47cc6b24ae5ce1f8ab834d3e89045f05a95957b64",
+      "ja_text_bytes": 2242,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-131",
+      "article_number": "131",
+      "filename": "kinsho-gyou-furei-article-131.md",
+      "ja_text_sha256": "8005e5d97cc1e36cf0ce144e54d44adec36a574356b0e268b25be5f25fd60f14",
+      "ja_text_bytes": 478,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-132",
+      "article_number": "132",
+      "filename": "kinsho-gyou-furei-article-132.md",
+      "ja_text_sha256": "23f48e765dab653c96f3f8fd546f36e27d8254a7541897da9a5798afe9ce0684",
+      "ja_text_bytes": 1394,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-133",
+      "article_number": "133",
+      "filename": "kinsho-gyou-furei-article-133.md",
+      "ja_text_sha256": "d7b982258688dd5a8af7371e26135c78089dc05d57b741aab9faace7f61b5767",
+      "ja_text_bytes": 295,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-134-2",
+      "article_number": "134-2",
+      "filename": "kinsho-gyou-furei-article-134-2.md",
+      "ja_text_sha256": "4f3cd49e6f790b4b62ed8a5fe1108d8cadb6a884f6025896348ef94206ab79b1",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-134",
+      "article_number": "134",
+      "filename": "kinsho-gyou-furei-article-134.md",
+      "ja_text_sha256": "d9b4229b8728a702cf1716e95a599af18c15f78ad82f2f39b834a71c85f68ada",
+      "ja_text_bytes": 2790,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-135",
+      "article_number": "135",
+      "filename": "kinsho-gyou-furei-article-135.md",
+      "ja_text_sha256": "e4e8d12b4cd1c6f21cca284442299759de051c523b36066c11ab31ceac3e1ffd",
+      "ja_text_bytes": 643,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-136",
+      "article_number": "136",
+      "filename": "kinsho-gyou-furei-article-136.md",
+      "ja_text_sha256": "e3e452db867ea35abc6a1ca25503a0993bf5ba66158dfcd371d3f4938102c83e",
+      "ja_text_bytes": 695,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-137-2",
+      "article_number": "137-2",
+      "filename": "kinsho-gyou-furei-article-137-2.md",
+      "ja_text_sha256": "52c31b50a45c35f76f12630db60c43c3cb4cea19e7fff98a2df517f875af5d95",
+      "ja_text_bytes": 474,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-137",
+      "article_number": "137",
+      "filename": "kinsho-gyou-furei-article-137.md",
+      "ja_text_sha256": "eb70bba900e94e0f959a5281c361c342a47e2919e07eb7957abb1f7b831a19c5",
+      "ja_text_bytes": 313,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-138",
+      "article_number": "138",
+      "filename": "kinsho-gyou-furei-article-138.md",
+      "ja_text_sha256": "acd15f8bac8ca0024a2b213865f046c8dbfc5ca63a778fa409d1f602de36844a",
+      "ja_text_bytes": 538,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-139",
+      "article_number": "139",
+      "filename": "kinsho-gyou-furei-article-139.md",
+      "ja_text_sha256": "21fa4cab02266c8c8a72704d58dd0c1761ebc6c39fb7a10dc01026d866be149e",
+      "ja_text_bytes": 773,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-14-2",
+      "article_number": "14-2",
+      "filename": "kinsho-gyou-furei-article-14-2.md",
+      "ja_text_sha256": "ff1316dc7cf9039271401f1ab5c73d5be0cc405edc97d17d94c91e103e9b8de9",
+      "ja_text_bytes": 408,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-14",
+      "article_number": "14",
+      "filename": "kinsho-gyou-furei-article-14.md",
+      "ja_text_sha256": "78455b6a0e373d0b770c10fb6c5e1738b5412d879834bde03c0966853d5072ff",
+      "ja_text_bytes": 946,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-140-2",
+      "article_number": "140-2",
+      "filename": "kinsho-gyou-furei-article-140-2.md",
+      "ja_text_sha256": "77f6538f938335f7368c4d486e4bc4bec3af3be51024ae9427ae8d84c084a22d",
+      "ja_text_bytes": 621,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-140-3",
+      "article_number": "140-3",
+      "filename": "kinsho-gyou-furei-article-140-3.md",
+      "ja_text_sha256": "7cbd3321ac9f5a413be05e98db5e0699200c3ddbb499bd044359e790c7fd1296",
+      "ja_text_bytes": 1643,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-140",
+      "article_number": "140",
+      "filename": "kinsho-gyou-furei-article-140.md",
+      "ja_text_sha256": "a920ea4ea3d92a4ae7024a5efa1160d744a298792129b2d5df9d36cfd94eac7e",
+      "ja_text_bytes": 2314,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-141-2",
+      "article_number": "141-2",
+      "filename": "kinsho-gyou-furei-article-141-2.md",
+      "ja_text_sha256": "8048873ed1da2feb32519291ac1f1ce7c7bb4f6aac02b75c78b1b537c6a8efd5",
+      "ja_text_bytes": 551,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-141-3",
+      "article_number": "141-3",
+      "filename": "kinsho-gyou-furei-article-141-3.md",
+      "ja_text_sha256": "4c9fef4cab2b7fa029767762fc8a5ae99c8975cbf91e4413d98ac5d4b73924eb",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-141",
+      "article_number": "141",
+      "filename": "kinsho-gyou-furei-article-141.md",
+      "ja_text_sha256": "b3e7947c6213b6a5fe67ee58d864c7692e5ff236d42ce9c60c1ddf47baff39cf",
+      "ja_text_bytes": 2716,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-142-2",
+      "article_number": "142-2",
+      "filename": "kinsho-gyou-furei-article-142-2.md",
+      "ja_text_sha256": "b5c3b9e87bab2296e3496bf3ac0c590e6896aa50b5954031cf39e0e1333c7816",
+      "ja_text_bytes": 381,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-142-3",
+      "article_number": "142-3",
+      "filename": "kinsho-gyou-furei-article-142-3.md",
+      "ja_text_sha256": "006ebeff2d22559a659d2c9324dfb7863a8e2fd1ebc322b45757a30d99cb1b6f",
+      "ja_text_bytes": 952,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-142-4",
+      "article_number": "142-4",
+      "filename": "kinsho-gyou-furei-article-142-4.md",
+      "ja_text_sha256": "8fc21ca68bf14ad882c68486751dd96977d09a2c044f1e665b178fe31a0b7888",
+      "ja_text_bytes": 1720,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-142-5",
+      "article_number": "142-5",
+      "filename": "kinsho-gyou-furei-article-142-5.md",
+      "ja_text_sha256": "a0456b1b4f795c3bbcf2a93456081d9193b4122a7129bbfe1fdb520759022184",
+      "ja_text_bytes": 984,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-142",
+      "article_number": "142",
+      "filename": "kinsho-gyou-furei-article-142.md",
+      "ja_text_sha256": "0ad5ac2e4d14e704802c935ab57900e9bce82d127a3075834d73678a4c0ceb1b",
+      "ja_text_bytes": 1042,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-143-2",
+      "article_number": "143-2",
+      "filename": "kinsho-gyou-furei-article-143-2.md",
+      "ja_text_sha256": "f579d914673acb7d7b47f0918e10e8d1579ff136aed80041da42bb5c6c269c4e",
+      "ja_text_bytes": 2013,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-143-3",
+      "article_number": "143-3",
+      "filename": "kinsho-gyou-furei-article-143-3.md",
+      "ja_text_sha256": "2da9c6b6a3816c6aadf61df503d3ed4ef4026ba036c5354528641383ff35d7f5",
+      "ja_text_bytes": 488,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-143",
+      "article_number": "143",
+      "filename": "kinsho-gyou-furei-article-143.md",
+      "ja_text_sha256": "65dcba5467f6833bf8c38f1c7909ac0ca3c37eedee0422a5f50b9afa08979903",
+      "ja_text_bytes": 1441,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-144",
+      "article_number": "144",
+      "filename": "kinsho-gyou-furei-article-144.md",
+      "ja_text_sha256": "cbecef910c1d7d10da2e1cdc017d6d604c6033415b666a020bac6955fc1f7c20",
+      "ja_text_bytes": 1433,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-145",
+      "article_number": "145",
+      "filename": "kinsho-gyou-furei-article-145.md",
+      "ja_text_sha256": "b501657d548d947a8c35a222e8293a26339ab43b3e4ba090cd4d66bf8fae636d",
+      "ja_text_bytes": 703,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-146-2",
+      "article_number": "146-2",
+      "filename": "kinsho-gyou-furei-article-146-2.md",
+      "ja_text_sha256": "643eafafb6cf2dd0049caf49aab3d608ec3bf2abaa74369894d9d74b909fe013",
+      "ja_text_bytes": 1623,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-146-3",
+      "article_number": "146-3",
+      "filename": "kinsho-gyou-furei-article-146-3.md",
+      "ja_text_sha256": "4998ba68be124b81853c551e167a5e9c387c29583bef31d08a7b5ae3f38f8187",
+      "ja_text_bytes": 991,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-146-4",
+      "article_number": "146-4",
+      "filename": "kinsho-gyou-furei-article-146-4.md",
+      "ja_text_sha256": "49097beef1d2333a69e59e812f64803c32109c55817513378d27605c74fd07bf",
+      "ja_text_bytes": 812,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-146-5",
+      "article_number": "146-5",
+      "filename": "kinsho-gyou-furei-article-146-5.md",
+      "ja_text_sha256": "0899af8f2dcfce675db77f42e02acb26009cc0bc08e5885c1ca65cb517e064b5",
+      "ja_text_bytes": 195,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-146",
+      "article_number": "146",
+      "filename": "kinsho-gyou-furei-article-146.md",
+      "ja_text_sha256": "8c891358e42adcfdf698103fbea4ca38a096395eb40028a412ccfd5f3f598e58",
+      "ja_text_bytes": 1589,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-147",
+      "article_number": "147",
+      "filename": "kinsho-gyou-furei-article-147.md",
+      "ja_text_sha256": "39a533a5f82aa8e9b1c8f52b0be45570e045b1164e4237131bd885b42d4ee369",
+      "ja_text_bytes": 178,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-148",
+      "article_number": "148",
+      "filename": "kinsho-gyou-furei-article-148.md",
+      "ja_text_sha256": "4b7ddaacdfaf4c55bd1ebba8ba045614e999e90b7211323562d2c19d6a617559",
+      "ja_text_bytes": 328,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-149-2",
+      "article_number": "149-2",
+      "filename": "kinsho-gyou-furei-article-149-2.md",
+      "ja_text_sha256": "2eba1763c2c1fe3a1cf31dc8a211239c979544ab215aa44d5c0a4556a45f245f",
+      "ja_text_bytes": 261,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-149",
+      "article_number": "149",
+      "filename": "kinsho-gyou-furei-article-149.md",
+      "ja_text_sha256": "e6bb34c0ecd8b2c4ceff73a37a06aff780e7ff1f3ba0d37aa12c588e7234902a",
+      "ja_text_bytes": 193,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-15-2",
+      "article_number": "15-2",
+      "filename": "kinsho-gyou-furei-article-15-2.md",
+      "ja_text_sha256": "6af1a08469d7a576ffb3284fd7b622bd46bdaab416c675dbbb224d8e42e3f5bf",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-15",
+      "article_number": "15",
+      "filename": "kinsho-gyou-furei-article-15.md",
+      "ja_text_sha256": "912e547db4c2f8aa6e0e5cfadc46382b3c6f8ba18e44d8e8e7a19805d1f4ae54",
+      "ja_text_bytes": 258,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-150",
+      "article_number": "150",
+      "filename": "kinsho-gyou-furei-article-150.md",
+      "ja_text_sha256": "fef353cb3cf10697479c5976ae8d59f3d3a8ed1f01a738c0166935d4d59353ce",
+      "ja_text_bytes": 193,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-153",
+      "article_number": "153",
+      "filename": "kinsho-gyou-furei-article-153.md",
+      "ja_text_sha256": "53ab2e1c3c9c62b6349d98295c0df147d0b722eaa954ba5bcb1391091b9717cb",
+      "ja_text_bytes": 1267,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-154",
+      "article_number": "154",
+      "filename": "kinsho-gyou-furei-article-154.md",
+      "ja_text_sha256": "e16491446061df82ea5605ff8feb63fb69c617d6f3d2020aa56613517adecd02",
+      "ja_text_bytes": 193,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-155",
+      "article_number": "155",
+      "filename": "kinsho-gyou-furei-article-155.md",
+      "ja_text_sha256": "77aa804c84c77a38819be208110e5ec201decb73dd88f8ae6604333d4b4c10bf",
+      "ja_text_bytes": 64,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-156",
+      "article_number": "156",
+      "filename": "kinsho-gyou-furei-article-156.md",
+      "ja_text_sha256": "8b961854cae7a509fa9119de9b85a8866e93dfc54100876f269e2db3346b98fa",
+      "ja_text_bytes": 241,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-157",
+      "article_number": "157",
+      "filename": "kinsho-gyou-furei-article-157.md",
+      "ja_text_sha256": "9bcf093470d1dec6576f3c415ec56d349e23bb539252515435847075c0b3cade",
+      "ja_text_bytes": 1944,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-158-2",
+      "article_number": "158-2",
+      "filename": "kinsho-gyou-furei-article-158-2.md",
+      "ja_text_sha256": "e0db1dba44b0ceffcf2b48ae0456d229271fae0ca57400cbaac307252bad5839",
+      "ja_text_bytes": 351,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-158-3",
+      "article_number": "158-3",
+      "filename": "kinsho-gyou-furei-article-158-3.md",
+      "ja_text_sha256": "a2871dc5b11f6d27eb7c0fa3cd730c320968202ae4bd61b80867f667d94849af",
+      "ja_text_bytes": 693,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-158-4",
+      "article_number": "158-4",
+      "filename": "kinsho-gyou-furei-article-158-4.md",
+      "ja_text_sha256": "a2997ab2d9a26ea57d672df62428579e22098460fdf7d10c23fdf25ba273ea6f",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-158",
+      "article_number": "158",
+      "filename": "kinsho-gyou-furei-article-158.md",
+      "ja_text_sha256": "9cdb096fc4889e6f6e07fd1710217c7a03adf944f8f5e3e7c434c99557a99f05",
+      "ja_text_bytes": 2362,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-159",
+      "article_number": "159",
+      "filename": "kinsho-gyou-furei-article-159.md",
+      "ja_text_sha256": "71b31afb0e7c357b9337d85bfd8956f38e450516e9243f476dcd28b134e497c7",
+      "ja_text_bytes": 1405,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-16-2",
+      "article_number": "16-2",
+      "filename": "kinsho-gyou-furei-article-16-2.md",
+      "ja_text_sha256": "f49a1f4c4f995ff5030e993355126f960b9e85b03b7042c19d89189a7a1c7cbc",
+      "ja_text_bytes": 1332,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-16-3",
+      "article_number": "16-3",
+      "filename": "kinsho-gyou-furei-article-16-3.md",
+      "ja_text_sha256": "7c6f48eb0e01106f6158c7c107e816776e97adffa5609d1e7e2f00b4d126a10d",
+      "ja_text_bytes": 844,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-16-4",
+      "article_number": "16-4",
+      "filename": "kinsho-gyou-furei-article-16-4.md",
+      "ja_text_sha256": "51758f3812c07a7dc3562d0f54e540a1edba9cfc8dd0788de17770268446ee61",
+      "ja_text_bytes": 338,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-16-5",
+      "article_number": "16-5",
+      "filename": "kinsho-gyou-furei-article-16-5.md",
+      "ja_text_sha256": "63fe799099221df8bfdf979f588ee37b1a6861fd00475506fc29cf2a37f4d5c4",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-16-6",
+      "article_number": "16-6",
+      "filename": "kinsho-gyou-furei-article-16-6.md",
+      "ja_text_sha256": "ceb21ee10dadf685d19b04ec2626d67ae615fe6d3e3d512e79ed0cb0a2be84c6",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-16-7",
+      "article_number": "16-7",
+      "filename": "kinsho-gyou-furei-article-16-7.md",
+      "ja_text_sha256": "224c98cc46cec06dbece11545ba3b463f14344acd22bf6babbb7983a8ce121f9",
+      "ja_text_bytes": 744,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-16",
+      "article_number": "16",
+      "filename": "kinsho-gyou-furei-article-16.md",
+      "ja_text_sha256": "43049ff7d107027e7197cb87b4f6e79bc9b204af6143f1458f68a5e20fd06a49",
+      "ja_text_bytes": 2197,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-160",
+      "article_number": "160",
+      "filename": "kinsho-gyou-furei-article-160.md",
+      "ja_text_sha256": "7e0f54c3d9d2468c8b3e8fd16936bae525a05cf49b506f59fc27efe0c990e9ab",
+      "ja_text_bytes": 346,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-161",
+      "article_number": "161",
+      "filename": "kinsho-gyou-furei-article-161.md",
+      "ja_text_sha256": "59dc553244e65a4ac18d8117e67a87dd8a9cbe8f746e6f795d29c9c35f088cd7",
+      "ja_text_bytes": 367,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-162",
+      "article_number": "162",
+      "filename": "kinsho-gyou-furei-article-162.md",
+      "ja_text_sha256": "5dab1e0c2079b8e60b85f3f45a84d9f9a4dce49be13ccab27f4c593d5917ec94",
+      "ja_text_bytes": 1048,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-163",
+      "article_number": "163",
+      "filename": "kinsho-gyou-furei-article-163.md",
+      "ja_text_sha256": "c4f8b4d6481148e6845786255f6d5a73bb015feee25b13d7aea386b71741f478",
+      "ja_text_bytes": 877,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-164",
+      "article_number": "164",
+      "filename": "kinsho-gyou-furei-article-164.md",
+      "ja_text_sha256": "824dafb30986aaf36fc246ac5506d001d34f97c5c5bff869fd1fcc545e6f8193",
+      "ja_text_bytes": 763,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-165",
+      "article_number": "165",
+      "filename": "kinsho-gyou-furei-article-165.md",
+      "ja_text_sha256": "d8973253598db82c0dbab3a87d2a52f7ae6ff0dce8d9b66a9e680a4dae59baec",
+      "ja_text_bytes": 979,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-166",
+      "article_number": "166",
+      "filename": "kinsho-gyou-furei-article-166.md",
+      "ja_text_sha256": "26212bc7ff7695e450e512ad1e1ed81be292a6028cce75a188130cbb8974ec58",
+      "ja_text_bytes": 949,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-167",
+      "article_number": "167",
+      "filename": "kinsho-gyou-furei-article-167.md",
+      "ja_text_sha256": "c3344fda49b8d6f4bcef9077a7b603b6c03bd050a03da25b94c6099c598a9376",
+      "ja_text_bytes": 628,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-168-2",
+      "article_number": "168-2",
+      "filename": "kinsho-gyou-furei-article-168-2.md",
+      "ja_text_sha256": "a6c4251a9add6996f003be9c258aac6adf7f44d57cea622daf788e55ecedc5a0",
+      "ja_text_bytes": 360,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-168",
+      "article_number": "168",
+      "filename": "kinsho-gyou-furei-article-168.md",
+      "ja_text_sha256": "d01d1c4fe1a3b5aa076cdf9dc14bd0f79b0554342c25efbd57b02511afee71e5",
+      "ja_text_bytes": 697,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-169",
+      "article_number": "169",
+      "filename": "kinsho-gyou-furei-article-169.md",
+      "ja_text_sha256": "02baee8f8f3aa33a2bb1cccfa4ade6825856efd2b810b4bb06e464e6339b4b54",
+      "ja_text_bytes": 337,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-17",
+      "article_number": "17",
+      "filename": "kinsho-gyou-furei-article-17.md",
+      "ja_text_sha256": "9e1e1fb5209c6f60a01cea6d39190245bf686dde7453234571b1b921fb2142d9",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-170",
+      "article_number": "170",
+      "filename": "kinsho-gyou-furei-article-170.md",
+      "ja_text_sha256": "420fe8b9cab22a29f6c79a934cd53536de3c246ffc733daf7e83ffc421828cff",
+      "ja_text_bytes": 1075,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-171",
+      "article_number": "171",
+      "filename": "kinsho-gyou-furei-article-171.md",
+      "ja_text_sha256": "f7a7484bdcb7a3d2072264ece7356e1147f71c75738431246b3fe2d42b1259c0",
+      "ja_text_bytes": 1768,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-172",
+      "article_number": "172",
+      "filename": "kinsho-gyou-furei-article-172.md",
+      "ja_text_sha256": "35b8da4aa1a9095f85104f58acc94a932e31d02b1d5a83a46aec92158ec134ac",
+      "ja_text_bytes": 469,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-173",
+      "article_number": "173",
+      "filename": "kinsho-gyou-furei-article-173.md",
+      "ja_text_sha256": "9b0f2499ab1fbf27b4035d7671223aab3b6b9d120fc8899039df7deb57e86fa1",
+      "ja_text_bytes": 526,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-174-2",
+      "article_number": "174-2",
+      "filename": "kinsho-gyou-furei-article-174-2.md",
+      "ja_text_sha256": "5c37a541777e9ed8fb3170ce3c07d6beadde7e9d7431daac33ae87c317572ca2",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-174",
+      "article_number": "174",
+      "filename": "kinsho-gyou-furei-article-174.md",
+      "ja_text_sha256": "065469705bc0d52b7852151edae229f867d4478b89378daf4a1785a314eea10b",
+      "ja_text_bytes": 175,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-175",
+      "article_number": "175",
+      "filename": "kinsho-gyou-furei-article-175.md",
+      "ja_text_sha256": "c2ed2824a62e98374bb4b9af03dfa7f23927a594f00f69cc94658b08026acb49",
+      "ja_text_bytes": 811,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-176",
+      "article_number": "176",
+      "filename": "kinsho-gyou-furei-article-176.md",
+      "ja_text_sha256": "5d2635ceb498b3373240fcad5620508b0581f1cb323dd3e8efd3511f9b03b8bc",
+      "ja_text_bytes": 2677,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-177",
+      "article_number": "177",
+      "filename": "kinsho-gyou-furei-article-177.md",
+      "ja_text_sha256": "9590535e8d1f21c06d58c5f0a85d92aba4c60c7fe9af250a0d440980ee4c8cb2",
+      "ja_text_bytes": 2137,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-178",
+      "article_number": "178",
+      "filename": "kinsho-gyou-furei-article-178.md",
+      "ja_text_sha256": "7c8dece6a894f19c51ff1b20d66be5c5a99d8a4c8ef01eac16c34cdb419058b1",
+      "ja_text_bytes": 559,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-179",
+      "article_number": "179",
+      "filename": "kinsho-gyou-furei-article-179.md",
+      "ja_text_sha256": "4af017ec595955776be334a48376343f4ed0fb1ed244e88be219192e4f859ac1",
+      "ja_text_bytes": 1624,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-18",
+      "article_number": "18",
+      "filename": "kinsho-gyou-furei-article-18.md",
+      "ja_text_sha256": "3edd6895292d2bc5db0f018340aa344a59984df138420701a5ea9705c4bb7264",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-180",
+      "article_number": "180",
+      "filename": "kinsho-gyou-furei-article-180.md",
+      "ja_text_sha256": "08ce861159a158733d1c4867ef9ecbb2ddd3c8e6f7d8a20e7a4798c3405d9ac6",
+      "ja_text_bytes": 985,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-181",
+      "article_number": "181",
+      "filename": "kinsho-gyou-furei-article-181.md",
+      "ja_text_sha256": "729cae1f1a5a74760f20679ad2f2d5ec68a7547bede10ede0626e9dd378160bc",
+      "ja_text_bytes": 3684,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-182",
+      "article_number": "182",
+      "filename": "kinsho-gyou-furei-article-182.md",
+      "ja_text_sha256": "70671a266b759ed3b0fbd2d3fb39428725f22b4039b5cd170878345f71e89be8",
+      "ja_text_bytes": 736,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-183",
+      "article_number": "183",
+      "filename": "kinsho-gyou-furei-article-183.md",
+      "ja_text_sha256": "d76d8c499c0f1fa76d73475745c9aba2cc03b5da053b85db4be3f8b61bf7f3ba",
+      "ja_text_bytes": 886,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-184",
+      "article_number": "184",
+      "filename": "kinsho-gyou-furei-article-184.md",
+      "ja_text_sha256": "6b54adb9f3edf5fa8e1595204de6309c473e3a28cb4a66e7590ff1071fd77081",
+      "ja_text_bytes": 1492,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-185",
+      "article_number": "185",
+      "filename": "kinsho-gyou-furei-article-185.md",
+      "ja_text_sha256": "2bd3430c40fdfe96550a049417c207666135fdcee0deb5c5038d3b1b9e1e60bf",
+      "ja_text_bytes": 592,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-186",
+      "article_number": "186",
+      "filename": "kinsho-gyou-furei-article-186.md",
+      "ja_text_sha256": "72466a964dbbdc68c7ddfb8e1b41eb0dc48755f55b7282e8805bd00093399db3",
+      "ja_text_bytes": 730,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-187",
+      "article_number": "187",
+      "filename": "kinsho-gyou-furei-article-187.md",
+      "ja_text_sha256": "9901b037f11bac58ca9342ff22217ec8687ceb00c42d777d2ccefa9ba2c33376",
+      "ja_text_bytes": 232,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-188",
+      "article_number": "188",
+      "filename": "kinsho-gyou-furei-article-188.md",
+      "ja_text_sha256": "d9bc0a6975c21862b885dd7d7ef4086b004417d6bf8a7e1ad181d0fcb822aed9",
+      "ja_text_bytes": 289,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-189",
+      "article_number": "189",
+      "filename": "kinsho-gyou-furei-article-189.md",
+      "ja_text_sha256": "51bac7067ea925c5d370d1c0d8216291327be9dbd6cfaee34dbd26d3bdf074be",
+      "ja_text_bytes": 799,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-19",
+      "article_number": "19",
+      "filename": "kinsho-gyou-furei-article-19.md",
+      "ja_text_sha256": "b2c807e0f054165ff8d0b833b0f40f4b08b33a9c19b51c1e5f9e87fcfcbcfec9",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-190",
+      "article_number": "190",
+      "filename": "kinsho-gyou-furei-article-190.md",
+      "ja_text_sha256": "c30ad3e2632d65ef2ec92814c96ff1788c7c90d5caa190f33c9f67174ff025ec",
+      "ja_text_bytes": 2179,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-191",
+      "article_number": "191",
+      "filename": "kinsho-gyou-furei-article-191.md",
+      "ja_text_sha256": "3f9dabe17d47b75b8b91b338a1e323af62abb65befa012740e4640192b14337c",
+      "ja_text_bytes": 2203,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-192",
+      "article_number": "192",
+      "filename": "kinsho-gyou-furei-article-192.md",
+      "ja_text_sha256": "15dc8fe3a6913f0cfeb866cdcd008ff298fe34efd0b2c4e13ebda5cf1450645d",
+      "ja_text_bytes": 2062,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-193",
+      "article_number": "193",
+      "filename": "kinsho-gyou-furei-article-193.md",
+      "ja_text_sha256": "1336633ab5171305434c0a1a120ad191f1a44e04da81af62d518f9c4a50517d8",
+      "ja_text_bytes": 1003,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-194",
+      "article_number": "194",
+      "filename": "kinsho-gyou-furei-article-194.md",
+      "ja_text_sha256": "d58970bc69369e0ca16109e8fcadf4c50bc9707fb6b3968d8e03a47b6e034a3d",
+      "ja_text_bytes": 864,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-195",
+      "article_number": "195",
+      "filename": "kinsho-gyou-furei-article-195.md",
+      "ja_text_sha256": "2f1a36faca591628187784e7fda4ed4820a3fd4ff67bde935c47af4ef45162b3",
+      "ja_text_bytes": 391,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-196",
+      "article_number": "196",
+      "filename": "kinsho-gyou-furei-article-196.md",
+      "ja_text_sha256": "1f1ea9e2ceaabede8af208070cd91a38fd2ec27f9729d3d9dd7c7dc7f8fda235",
+      "ja_text_bytes": 394,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-197",
+      "article_number": "197",
+      "filename": "kinsho-gyou-furei-article-197.md",
+      "ja_text_sha256": "6665375917fcd119d44d3d3978365ce4014be9c005bb3c3ac792050043de2deb",
+      "ja_text_bytes": 232,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-198",
+      "article_number": "198",
+      "filename": "kinsho-gyou-furei-article-198.md",
+      "ja_text_sha256": "aec0fbaf31dad04bb736a468d09775d8378add97a63a0ea3a33b94036679447a",
+      "ja_text_bytes": 379,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-199",
+      "article_number": "199",
+      "filename": "kinsho-gyou-furei-article-199.md",
+      "ja_text_sha256": "092d613e6f7957acd988c53280b191bfcd1d44f1dbd3d556f547ceea86ecd13c",
+      "ja_text_bytes": 226,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-2",
+      "article_number": "2",
+      "filename": "kinsho-gyou-furei-article-2.md",
+      "ja_text_sha256": "00e6fb4e86a2ef2e30a0712113ed687bbcb54ba349e7dfc9b85731b1a18176bf",
+      "ja_text_bytes": 1942,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-20-2",
+      "article_number": "20-2",
+      "filename": "kinsho-gyou-furei-article-20-2.md",
+      "ja_text_sha256": "69c6c3eb4be2774fd78b7d2dd0460eacb1c05038f5e981449389ae8ea48bb807",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-20",
+      "article_number": "20",
+      "filename": "kinsho-gyou-furei-article-20.md",
+      "ja_text_sha256": "2d377e02c817df3b4c4d129d3963b212917c1afd06a80a15025a2eec9a1729d8",
+      "ja_text_bytes": 1660,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-200",
+      "article_number": "200",
+      "filename": "kinsho-gyou-furei-article-200.md",
+      "ja_text_sha256": "1fc27cf5a319346272a06b2ea605b1b962fa85583acf8449d4b41f03ed4cc672",
+      "ja_text_bytes": 220,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-201",
+      "article_number": "201",
+      "filename": "kinsho-gyou-furei-article-201.md",
+      "ja_text_sha256": "8cacf8b8033220309fbb8df6da9ebe516d8eab6c31e3cfc90b260171d2b43756",
+      "ja_text_bytes": 328,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-202",
+      "article_number": "202",
+      "filename": "kinsho-gyou-furei-article-202.md",
+      "ja_text_sha256": "6ed809d7fbeae47e45ec7a16cc9d1c45f8e86422a5281ea3b8fc287f83f389a2",
+      "ja_text_bytes": 406,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-203",
+      "article_number": "203",
+      "filename": "kinsho-gyou-furei-article-203.md",
+      "ja_text_sha256": "99800ffe081e1e44540cf8be16e0d24905b998424a67699aa3247e03a3efa0db",
+      "ja_text_bytes": 677,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-204",
+      "article_number": "204",
+      "filename": "kinsho-gyou-furei-article-204.md",
+      "ja_text_sha256": "98fbdaddc473c18588ee1af80686286aa7eca6c502a21c2daeb15585001029ea",
+      "ja_text_bytes": 526,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-205",
+      "article_number": "205",
+      "filename": "kinsho-gyou-furei-article-205.md",
+      "ja_text_sha256": "262d76237f43830b0093471c03566ba1de5e0750f4812ed0aeaf7ed85ae40706",
+      "ja_text_bytes": 1695,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-206",
+      "article_number": "206",
+      "filename": "kinsho-gyou-furei-article-206.md",
+      "ja_text_sha256": "f0aede5aa0989e92eaeb270caa606a2e930dc3882fda58fda7aec8b3d69ac660",
+      "ja_text_bytes": 193,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-207",
+      "article_number": "207",
+      "filename": "kinsho-gyou-furei-article-207.md",
+      "ja_text_sha256": "bae221eb2e3572e507642f4bbe1d0e0c63165df63567dfe2019938555baf470d",
+      "ja_text_bytes": 220,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-10",
+      "article_number": "208-10",
+      "filename": "kinsho-gyou-furei-article-208-10.md",
+      "ja_text_sha256": "bcc5e39b30760ea56bef40744b77cf5b620a08953a5e574ff35439577b827cd2",
+      "ja_text_bytes": 311,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-11",
+      "article_number": "208-11",
+      "filename": "kinsho-gyou-furei-article-208-11.md",
+      "ja_text_sha256": "6ecf4bc828d764763af45236f9cd412561ba079248e9c03b7953bdd02f38e79e",
+      "ja_text_bytes": 2177,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-12",
+      "article_number": "208-12",
+      "filename": "kinsho-gyou-furei-article-208-12.md",
+      "ja_text_sha256": "a38a85f7679a50feb9bc2d88e711c8d39ce3f6493c4d97c734331f4808cda8e2",
+      "ja_text_bytes": 401,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-13-2",
+      "article_number": "208-13-2",
+      "filename": "kinsho-gyou-furei-article-208-13-2.md",
+      "ja_text_sha256": "8fd221c2d2faa349d982fcb2c01496c11098c46c7cad6ed25aa00ba001479bac",
+      "ja_text_bytes": 273,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-13",
+      "article_number": "208-13",
+      "filename": "kinsho-gyou-furei-article-208-13.md",
+      "ja_text_sha256": "ecad3034f7334c07279992480736eb9c4e8c76711e64ae86160631a35c1c2cf0",
+      "ja_text_bytes": 108,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-14",
+      "article_number": "208-14",
+      "filename": "kinsho-gyou-furei-article-208-14.md",
+      "ja_text_sha256": "4765d0def0e31e4b8714c04a6b9212bf58c5f3ddf2fef3963d4448e40f3cc061",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-15",
+      "article_number": "208-15",
+      "filename": "kinsho-gyou-furei-article-208-15.md",
+      "ja_text_sha256": "96cf3b5938cefc0a45645ad2857c865e3ac8aa58d021dc0b5829982e667a5e6a",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-16",
+      "article_number": "208-16",
+      "filename": "kinsho-gyou-furei-article-208-16.md",
+      "ja_text_sha256": "d84a0c0cd79a3a08b75ee4ca50c1f98665b07e39bdfb855935fe8c0e40201574",
+      "ja_text_bytes": 93,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-17",
+      "article_number": "208-17",
+      "filename": "kinsho-gyou-furei-article-208-17.md",
+      "ja_text_sha256": "e6faa3c026395527ba53a553283769e9aac421027592f23de94a3dc79d712b33",
+      "ja_text_bytes": 135,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-18",
+      "article_number": "208-18",
+      "filename": "kinsho-gyou-furei-article-208-18.md",
+      "ja_text_sha256": "37200046fbb32e79758d3b8735f47c92c0e87ad1eb5d3faf68e36f9cd05bb0ca",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-19",
+      "article_number": "208-19",
+      "filename": "kinsho-gyou-furei-article-208-19.md",
+      "ja_text_sha256": "5b7eff78431e87a3879e0e63855ebb4d6f833e614e7d36698e386fab5a96e31f",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-2",
+      "article_number": "208-2",
+      "filename": "kinsho-gyou-furei-article-208-2.md",
+      "ja_text_sha256": "7517103829f09ae04e74ba2035d7b00377bc2f7964711a36260099aa4138fa98",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-20",
+      "article_number": "208-20",
+      "filename": "kinsho-gyou-furei-article-208-20.md",
+      "ja_text_sha256": "ad806565f97a73fd1e50587028aa51a7bad165d59bfea70018db08aba91cea6c",
+      "ja_text_bytes": 102,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-21",
+      "article_number": "208-21",
+      "filename": "kinsho-gyou-furei-article-208-21.md",
+      "ja_text_sha256": "643f52709f0f75e1b3fb0c581627b0779d4953703a5eb579633823036371a962",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-22",
+      "article_number": "208-22",
+      "filename": "kinsho-gyou-furei-article-208-22.md",
+      "ja_text_sha256": "690e06111f90b3693d0e74de8a2da3bc7d10fa3ad27a4c4c6adfa019f1253f36",
+      "ja_text_bytes": 474,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-23",
+      "article_number": "208-23",
+      "filename": "kinsho-gyou-furei-article-208-23.md",
+      "ja_text_sha256": "a1216e3a7a1c69f42308d4ede170fa09ee861e94f51d8db57197f323dd09e782",
+      "ja_text_bytes": 386,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-24",
+      "article_number": "208-24",
+      "filename": "kinsho-gyou-furei-article-208-24.md",
+      "ja_text_sha256": "b3105d2b2ed06ec73d84940106b659a3a45a9d70b3cd61d9b4813539309cab7b",
+      "ja_text_bytes": 2199,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-25",
+      "article_number": "208-25",
+      "filename": "kinsho-gyou-furei-article-208-25.md",
+      "ja_text_sha256": "53c3aded32ab7e09036dd456dd4b4b686e350affca499885bfc93f002181be28",
+      "ja_text_bytes": 2509,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-26-2",
+      "article_number": "208-26-2",
+      "filename": "kinsho-gyou-furei-article-208-26-2.md",
+      "ja_text_sha256": "47da1caabca00d17fdaa8c4e0aa2b0657073ffcdc799b7778c583014c9bb24ab",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-26",
+      "article_number": "208-26",
+      "filename": "kinsho-gyou-furei-article-208-26.md",
+      "ja_text_sha256": "3489c85f251998b0573369d2d03977307e3febfa48ca26be4f2ca9a22b30d53b",
+      "ja_text_bytes": 111,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-27",
+      "article_number": "208-27",
+      "filename": "kinsho-gyou-furei-article-208-27.md",
+      "ja_text_sha256": "7027dd830c0e1eacd562d0abd684bc643e2022845046ade8c1ec6c82ae14cb56",
+      "ja_text_bytes": 2019,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-28",
+      "article_number": "208-28",
+      "filename": "kinsho-gyou-furei-article-208-28.md",
+      "ja_text_sha256": "34c6e99436d8396b3316229c821c19b498b79925ff9d23540fab19bc2653a09e",
+      "ja_text_bytes": 2687,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-29",
+      "article_number": "208-29",
+      "filename": "kinsho-gyou-furei-article-208-29.md",
+      "ja_text_sha256": "582189de8694c84726882f26de65bfb2fbb37d80375bdcd1539a82d17c9c806a",
+      "ja_text_bytes": 2256,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-3",
+      "article_number": "208-3",
+      "filename": "kinsho-gyou-furei-article-208-3.md",
+      "ja_text_sha256": "eded93afd7dcb79af02f545ed1fba13e79f0624b2686ef56cbd0a6f547dbee4e",
+      "ja_text_bytes": 1083,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-30",
+      "article_number": "208-30",
+      "filename": "kinsho-gyou-furei-article-208-30.md",
+      "ja_text_sha256": "1a9fae4e9e49a7f80092680ce77846ed0da1799db45b46035b72df87a05d1157",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-31",
+      "article_number": "208-31",
+      "filename": "kinsho-gyou-furei-article-208-31.md",
+      "ja_text_sha256": "57574789a91ac5b091a59d2ac22084d5ac494b4503a0833209c7f37961b8f578",
+      "ja_text_bytes": 401,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-32",
+      "article_number": "208-32",
+      "filename": "kinsho-gyou-furei-article-208-32.md",
+      "ja_text_sha256": "7c8ff55db7851b8a7a9f4b63670e857d305088b4d1a7384d37fbcd00300486bc",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-33",
+      "article_number": "208-33",
+      "filename": "kinsho-gyou-furei-article-208-33.md",
+      "ja_text_sha256": "92be654f6062c5707120649cc75b32af3a9ff47315907c08e6145e8d80a48b59",
+      "ja_text_bytes": 407,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-34",
+      "article_number": "208-34",
+      "filename": "kinsho-gyou-furei-article-208-34.md",
+      "ja_text_sha256": "f2572f04e999c2e09261b27542ed4b63912580dcc9fc53d1773ba372f889a65e",
+      "ja_text_bytes": 99,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-35",
+      "article_number": "208-35",
+      "filename": "kinsho-gyou-furei-article-208-35.md",
+      "ja_text_sha256": "7d96b5435047285fb17d9890f946d3160084dc01a72bad186bff55ec88c7b083",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-36",
+      "article_number": "208-36",
+      "filename": "kinsho-gyou-furei-article-208-36.md",
+      "ja_text_sha256": "83723ca0aa7867683d6972b91f225745da1807f4060edaa069bafe87d44739d6",
+      "ja_text_bytes": 198,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-4",
+      "article_number": "208-4",
+      "filename": "kinsho-gyou-furei-article-208-4.md",
+      "ja_text_sha256": "0f26f2fac1efe1c5d2f72df2ab0384f12792187fc9724e6498c8fc833a020904",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-5",
+      "article_number": "208-5",
+      "filename": "kinsho-gyou-furei-article-208-5.md",
+      "ja_text_sha256": "a6f30d0013cee562b6924ca9c910a3a5ee636c3318c8cf1b09823fbea892dd94",
+      "ja_text_bytes": 150,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-6",
+      "article_number": "208-6",
+      "filename": "kinsho-gyou-furei-article-208-6.md",
+      "ja_text_sha256": "2f3a6ab98e1e06af358cf39c7f5655b9cfbf005eea1cfe189091da449c906152",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-7",
+      "article_number": "208-7",
+      "filename": "kinsho-gyou-furei-article-208-7.md",
+      "ja_text_sha256": "4be435126344943eb02191fdcf5a455efbcddb4a00f3e5af0ecc13b01e93b257",
+      "ja_text_bytes": 711,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-8",
+      "article_number": "208-8",
+      "filename": "kinsho-gyou-furei-article-208-8.md",
+      "ja_text_sha256": "9fcc2667ffc9c494ab581bbf9b0a46f422ce85f7c88485007624fd87f552448d",
+      "ja_text_bytes": 153,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208-9",
+      "article_number": "208-9",
+      "filename": "kinsho-gyou-furei-article-208-9.md",
+      "ja_text_sha256": "3b3a1aed8e692cb2e33b4d3483af7d02e2b5715046f55eca4c03c79ff48d2a04",
+      "ja_text_bytes": 375,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-208",
+      "article_number": "208",
+      "filename": "kinsho-gyou-furei-article-208.md",
+      "ja_text_sha256": "5771611d64eab269865b189e0baf4e754bdbdf0c563697d18e5494f69518b739",
+      "ja_text_bytes": 301,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-209",
+      "article_number": "209",
+      "filename": "kinsho-gyou-furei-article-209.md",
+      "ja_text_sha256": "bf680507e8dadcc70ad67ff5ce1dc1904586d6388afadeb6c3d3b90b336f112d",
+      "ja_text_bytes": 349,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-21",
+      "article_number": "21",
+      "filename": "kinsho-gyou-furei-article-21.md",
+      "ja_text_sha256": "8787d0ca546d3a54942c6a9c92ce89f8455109680b541d22bae5266e686ca25b",
+      "ja_text_bytes": 651,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-210",
+      "article_number": "210",
+      "filename": "kinsho-gyou-furei-article-210.md",
+      "ja_text_sha256": "931b8f1abfbd67acf8954ee7ee95b3c9d2ef8f04e17d7cb49adb64142b2b3dae",
+      "ja_text_bytes": 211,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-211",
+      "article_number": "211",
+      "filename": "kinsho-gyou-furei-article-211.md",
+      "ja_text_sha256": "f301a4d8beab55b112e48a0af20d548dad3c5e6a93f8fc1d8b547f5a146f30e1",
+      "ja_text_bytes": 181,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-212",
+      "article_number": "212",
+      "filename": "kinsho-gyou-furei-article-212.md",
+      "ja_text_sha256": "770f53815a5bde2902aea353701aeeb8b6f85235a7aee9fd093cdab5144cd9d7",
+      "ja_text_bytes": 373,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-213",
+      "article_number": "213",
+      "filename": "kinsho-gyou-furei-article-213.md",
+      "ja_text_sha256": "22ef133c4fcbb42c471b6b63beefcf0d2a1d493818a686ee86f17eda594d0fde",
+      "ja_text_bytes": 421,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-214",
+      "article_number": "214",
+      "filename": "kinsho-gyou-furei-article-214.md",
+      "ja_text_sha256": "96968be899a3c9c0bc865fa704b53bb61198e91efb2912d31c00c1ecd05b8aea",
+      "ja_text_bytes": 973,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-215",
+      "article_number": "215",
+      "filename": "kinsho-gyou-furei-article-215.md",
+      "ja_text_sha256": "a56a418687f9ccdb52383781b531967544397b5e5edb4af1c525b26773287afa",
+      "ja_text_bytes": 295,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-216",
+      "article_number": "216",
+      "filename": "kinsho-gyou-furei-article-216.md",
+      "ja_text_sha256": "f8d42ad2e9fa26e07cea98d3012430efdc01b083ad9f3e35cf857057edec934f",
+      "ja_text_bytes": 181,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-217",
+      "article_number": "217",
+      "filename": "kinsho-gyou-furei-article-217.md",
+      "ja_text_sha256": "b6d1908641a07e655bd33ad81a8804d696e81a85786c08197f6a23fcfc55c600",
+      "ja_text_bytes": 400,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-218",
+      "article_number": "218",
+      "filename": "kinsho-gyou-furei-article-218.md",
+      "ja_text_sha256": "44eb9357362297e2dc986cc4411b78a07c8665ed66007ca6f197ade4829556fd",
+      "ja_text_bytes": 409,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-219",
+      "article_number": "219",
+      "filename": "kinsho-gyou-furei-article-219.md",
+      "ja_text_sha256": "52ed20ef12c9f19dcf1e3433e3881c74e01a3b9a32168906d109900dc3d24eda",
+      "ja_text_bytes": 319,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-22",
+      "article_number": "22",
+      "filename": "kinsho-gyou-furei-article-22.md",
+      "ja_text_sha256": "fb72538578a95749084b09a27d6b1b6429b22a883c097fb53b8148b947b4d7eb",
+      "ja_text_bytes": 1051,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-220",
+      "article_number": "220",
+      "filename": "kinsho-gyou-furei-article-220.md",
+      "ja_text_sha256": "04a1ccd9f2b5701a000fb910ad23555ec046f266ec4868aec5986092ad17461c",
+      "ja_text_bytes": 190,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-221",
+      "article_number": "221",
+      "filename": "kinsho-gyou-furei-article-221.md",
+      "ja_text_sha256": "48455565dd5ff05f8945f354a368526a92883cbbcb52b0298a3f79ac5826118b",
+      "ja_text_bytes": 190,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-222",
+      "article_number": "222",
+      "filename": "kinsho-gyou-furei-article-222.md",
+      "ja_text_sha256": "b27011da8241e53f8690506722c9ce723bb70144cec128c7ac729390edb14e81",
+      "ja_text_bytes": 532,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-223",
+      "article_number": "223",
+      "filename": "kinsho-gyou-furei-article-223.md",
+      "ja_text_sha256": "bd801242deb00103dc9266806997837ac6d8bbc06251fe963d56f7805bd1fdd2",
+      "ja_text_bytes": 181,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-224",
+      "article_number": "224",
+      "filename": "kinsho-gyou-furei-article-224.md",
+      "ja_text_sha256": "4188c1399555d429d2f6a29d944be86558fe7faebb399b31027964841be8162c",
+      "ja_text_bytes": 406,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-225",
+      "article_number": "225",
+      "filename": "kinsho-gyou-furei-article-225.md",
+      "ja_text_sha256": "dff6121aa88baebfe07b196c983fba2a09d2f30ceb86e75b377b2cc29075363c",
+      "ja_text_bytes": 1210,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-226",
+      "article_number": "226",
+      "filename": "kinsho-gyou-furei-article-226.md",
+      "ja_text_sha256": "1162b93c913789d30438e22c90fc68239a833cdfe70cead819a670d817c44a06",
+      "ja_text_bytes": 241,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-227",
+      "article_number": "227",
+      "filename": "kinsho-gyou-furei-article-227.md",
+      "ja_text_sha256": "4d1fe289479cef414ee968c59cfa747f3999255a4b96798e7826ca958a20e2c3",
+      "ja_text_bytes": 1942,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-228",
+      "article_number": "228",
+      "filename": "kinsho-gyou-furei-article-228.md",
+      "ja_text_sha256": "34a53cce220b31f5e5270184b24381b8946c240a5113d4affec2e13f51986216",
+      "ja_text_bytes": 1960,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-229",
+      "article_number": "229",
+      "filename": "kinsho-gyou-furei-article-229.md",
+      "ja_text_sha256": "114322bd9805a84a3365c1d276a37a60cbe4e6774f51032239639be7bddb7c77",
+      "ja_text_bytes": 1290,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-23",
+      "article_number": "23",
+      "filename": "kinsho-gyou-furei-article-23.md",
+      "ja_text_sha256": "899d1b1e5f21499a9418f8d08b0e62d3ed38589442f79c1f2f0d60d162a6883e",
+      "ja_text_bytes": 599,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-230-2",
+      "article_number": "230-2",
+      "filename": "kinsho-gyou-furei-article-230-2.md",
+      "ja_text_sha256": "fbf65cbb75f609f9ed3d716ccb5e6434b47eb70ac0ae64b5adbca83181d14a5e",
+      "ja_text_bytes": 315,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-230-3",
+      "article_number": "230-3",
+      "filename": "kinsho-gyou-furei-article-230-3.md",
+      "ja_text_sha256": "4d84f22538619fd7601163e35a5aa7204db81b1be059fe77f425f0d59883c983",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-230",
+      "article_number": "230",
+      "filename": "kinsho-gyou-furei-article-230.md",
+      "ja_text_sha256": "8329029e7edf227ef4c2e58063d1f85c2f805ac2b2af1b938cc8780f0bc5ca5f",
+      "ja_text_bytes": 157,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-231",
+      "article_number": "231",
+      "filename": "kinsho-gyou-furei-article-231.md",
+      "ja_text_sha256": "78d01a270ef9c41079c96b6e2fae115fabd60f7e82d553918c85cb0370c21081",
+      "ja_text_bytes": 994,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-10",
+      "article_number": "232-10",
+      "filename": "kinsho-gyou-furei-article-232-10.md",
+      "ja_text_sha256": "b45355465697e3161a5a4cb74e5bf86da80ac358d935c76d77c13b83d91ed390",
+      "ja_text_bytes": 830,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-11",
+      "article_number": "232-11",
+      "filename": "kinsho-gyou-furei-article-232-11.md",
+      "ja_text_sha256": "2031d915a1402b477644de81103fc6be9037d4365caa9422fa0058516d63e7b4",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-12",
+      "article_number": "232-12",
+      "filename": "kinsho-gyou-furei-article-232-12.md",
+      "ja_text_sha256": "318a7bdccb5776470938dcb223ccb556a84cdc066481b19b186b02fcf29f1415",
+      "ja_text_bytes": 1728,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-13",
+      "article_number": "232-13",
+      "filename": "kinsho-gyou-furei-article-232-13.md",
+      "ja_text_sha256": "1d54c9cd0affc8b3fa3ac9b95960f59bd9f442517b37a1c35f16c9ec596536db",
+      "ja_text_bytes": 1746,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-14",
+      "article_number": "232-14",
+      "filename": "kinsho-gyou-furei-article-232-14.md",
+      "ja_text_sha256": "ab01afd31fb7abca05a86f4abb391f86222aeb5d747b10d195ca3fa7a1e9c4cd",
+      "ja_text_bytes": 1553,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-15",
+      "article_number": "232-15",
+      "filename": "kinsho-gyou-furei-article-232-15.md",
+      "ja_text_sha256": "6faf24d16483179736eebad3a32913122f5783f21cb9298e857b7d7a4bc5bc76",
+      "ja_text_bytes": 156,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-16",
+      "article_number": "232-16",
+      "filename": "kinsho-gyou-furei-article-232-16.md",
+      "ja_text_sha256": "af7a9d36f2b38b2661dc2a959a82f832d030f4417d8802f10e99353e4ec05738",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-17",
+      "article_number": "232-17",
+      "filename": "kinsho-gyou-furei-article-232-17.md",
+      "ja_text_sha256": "12d9684bf2cb2b8339ccdf9476201a8618c83f6603076620734b5cccff26e568",
+      "ja_text_bytes": 213,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-2",
+      "article_number": "232-2",
+      "filename": "kinsho-gyou-furei-article-232-2.md",
+      "ja_text_sha256": "d0cf18e7e5ec040b5466d7a1d11967ee3fe1391968d3f8b643d648d69fd1bd20",
+      "ja_text_bytes": 477,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-3",
+      "article_number": "232-3",
+      "filename": "kinsho-gyou-furei-article-232-3.md",
+      "ja_text_sha256": "122a2fb70bb3c74b881e6344ebcb82931f6eda3e23844cfb1ce55430997f36a2",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-4",
+      "article_number": "232-4",
+      "filename": "kinsho-gyou-furei-article-232-4.md",
+      "ja_text_sha256": "26475392aa888cebdef8fb41a77007f8b7b24bd62e671358aac34a43c9544f6d",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-5",
+      "article_number": "232-5",
+      "filename": "kinsho-gyou-furei-article-232-5.md",
+      "ja_text_sha256": "2f6c0691bc55229874a2eb82e11d75c30863576130378c0e938508a980de46a2",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-6",
+      "article_number": "232-6",
+      "filename": "kinsho-gyou-furei-article-232-6.md",
+      "ja_text_sha256": "6a38201c5bbe9d23b942eebbf11b9e1e589f5c88acfcd875c34325ead770c3c9",
+      "ja_text_bytes": 405,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-7",
+      "article_number": "232-7",
+      "filename": "kinsho-gyou-furei-article-232-7.md",
+      "ja_text_sha256": "0421711ff6379c709ac8670d8eb56ea93f85b9328677b19944df14de40d7bf59",
+      "ja_text_bytes": 543,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-8",
+      "article_number": "232-8",
+      "filename": "kinsho-gyou-furei-article-232-8.md",
+      "ja_text_sha256": "4efbe3cec1496a8ca617d2b260576225965d957cf31a241e4bbc3c7fc0ebddc9",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232-9",
+      "article_number": "232-9",
+      "filename": "kinsho-gyou-furei-article-232-9.md",
+      "ja_text_sha256": "e13d9f1b7768b3cfa89db6342f4d777e7fa1baf7c17ee23e07a45f2d9916f814",
+      "ja_text_bytes": 411,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-232",
+      "article_number": "232",
+      "filename": "kinsho-gyou-furei-article-232.md",
+      "ja_text_sha256": "f439dd8c5346556f5a7893e58b3b76f027f04f9a02cc9f03dd577518c05f7f1a",
+      "ja_text_bytes": 223,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-233-2",
+      "article_number": "233-2",
+      "filename": "kinsho-gyou-furei-article-233-2.md",
+      "ja_text_sha256": "0fbda39f8e20ea9d8e5f6c4bd89d28c37339e3893f4dd50aede5423843a5021a",
+      "ja_text_bytes": 1564,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-233-3",
+      "article_number": "233-3",
+      "filename": "kinsho-gyou-furei-article-233-3.md",
+      "ja_text_sha256": "d2234f9cbe7739805b5e132cf63976084b7ec977744afdfa241ec6e7fdfb9bd5",
+      "ja_text_bytes": 264,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-233-4",
+      "article_number": "233-4",
+      "filename": "kinsho-gyou-furei-article-233-4.md",
+      "ja_text_sha256": "d101cf5e00d18244a72d0d8d8297413357b99b1c3450e7daea382616f55f7210",
+      "ja_text_bytes": 1062,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-233",
+      "article_number": "233",
+      "filename": "kinsho-gyou-furei-article-233.md",
+      "ja_text_sha256": "2cd618901743476f1621ef2216e2d649516e6d111671a1c93669ef937730711e",
+      "ja_text_bytes": 535,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-234-2",
+      "article_number": "234-2",
+      "filename": "kinsho-gyou-furei-article-234-2.md",
+      "ja_text_sha256": "34c908ba9c5324f57331cba050aec2dca1866ad1b54bdae948dac69f84ee2d7f",
+      "ja_text_bytes": 722,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-234",
+      "article_number": "234",
+      "filename": "kinsho-gyou-furei-article-234.md",
+      "ja_text_sha256": "e814b88f9604f4319b43d51993f22f33380e93abcd939f83ec48eda001a034c2",
+      "ja_text_bytes": 337,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-235",
+      "article_number": "235",
+      "filename": "kinsho-gyou-furei-article-235.md",
+      "ja_text_sha256": "0a3e5c0d6559a12ebed4468016590f65a16eee071154e36b980a2933145bfaa4",
+      "ja_text_bytes": 184,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-236",
+      "article_number": "236",
+      "filename": "kinsho-gyou-furei-article-236.md",
+      "ja_text_sha256": "3da4b373407fa7754d89e5352943dc2df7673e9f024cc9bf02d299a98e599c29",
+      "ja_text_bytes": 937,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-237",
+      "article_number": "237",
+      "filename": "kinsho-gyou-furei-article-237.md",
+      "ja_text_sha256": "06fe0b123043210b2e9199d1a563f543c8bb34c41911535aac3c4d8ba0606dbe",
+      "ja_text_bytes": 556,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-238-2",
+      "article_number": "238-2",
+      "filename": "kinsho-gyou-furei-article-238-2.md",
+      "ja_text_sha256": "cd55b83f1cf92ddf60a5aea9f01d3f40c308b2a2711287a68240204de7595c46",
+      "ja_text_bytes": 386,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-238-3",
+      "article_number": "238-3",
+      "filename": "kinsho-gyou-furei-article-238-3.md",
+      "ja_text_sha256": "dfe49d6488a1315212b2426c1061211a613e8fa32ba6bcae36a6e1895b90ac59",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-238-4",
+      "article_number": "238-4",
+      "filename": "kinsho-gyou-furei-article-238-4.md",
+      "ja_text_sha256": "f51be3827332bcb9e0c503331248e10b5bf5b687c740303c72d496167fb66821",
+      "ja_text_bytes": 1238,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-238-5",
+      "article_number": "238-5",
+      "filename": "kinsho-gyou-furei-article-238-5.md",
+      "ja_text_sha256": "ee325607a4dc3f4d9282dfc84a7028e1721711b19b28c02a005864aaf6dede80",
+      "ja_text_bytes": 883,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-238",
+      "article_number": "238",
+      "filename": "kinsho-gyou-furei-article-238.md",
+      "ja_text_sha256": "a9b0be47bf1c042e1beb1b28979fb6d80030053c9f2daeadde1868ec28de340b",
+      "ja_text_bytes": 187,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-239-2",
+      "article_number": "239-2",
+      "filename": "kinsho-gyou-furei-article-239-2.md",
+      "ja_text_sha256": "7a81c0ce3fac9776e264b0fedff787977d158b3ef06bbe5b5a226c699bc9e377",
+      "ja_text_bytes": 3094,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-239",
+      "article_number": "239",
+      "filename": "kinsho-gyou-furei-article-239.md",
+      "ja_text_sha256": "c210374e8311b7510c4828a68cb5ed4f1f3613c69409b4cd117825efcc1d83a8",
+      "ja_text_bytes": 1357,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-24-2",
+      "article_number": "24-2",
+      "filename": "kinsho-gyou-furei-article-24-2.md",
+      "ja_text_sha256": "9fea4f33f22486e4c9bc100304a8abcacbce2128242192391c2d5fd79f9ec4fb",
+      "ja_text_bytes": 219,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-24-3",
+      "article_number": "24-3",
+      "filename": "kinsho-gyou-furei-article-24-3.md",
+      "ja_text_sha256": "af2a5a87dce64c1b82bb07c1a4b582514eaf5b8b40fb3372215f929204f171b5",
+      "ja_text_bytes": 564,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-24",
+      "article_number": "24",
+      "filename": "kinsho-gyou-furei-article-24.md",
+      "ja_text_sha256": "1ccfeeae97896299bd8d6d66c671cd54eeb15c76603f11cd3e57b454a8c590f6",
+      "ja_text_bytes": 285,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-240",
+      "article_number": "240",
+      "filename": "kinsho-gyou-furei-article-240.md",
+      "ja_text_sha256": "44f5904185d563f6cb6594845a4eb6692b71295d949c1c7b1704a1831a23f17c",
+      "ja_text_bytes": 463,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-241-2",
+      "article_number": "241-2",
+      "filename": "kinsho-gyou-furei-article-241-2.md",
+      "ja_text_sha256": "7fb09a70d28d79bf5cf59ad1331924ce20fd06b2af351a83f89bcc3d2ca78015",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-241",
+      "article_number": "241",
+      "filename": "kinsho-gyou-furei-article-241.md",
+      "ja_text_sha256": "440db12827222417d666f13af525e8077bdc97e832134fef0b8f650dc53a8dbc",
+      "ja_text_bytes": 760,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-242-2",
+      "article_number": "242-2",
+      "filename": "kinsho-gyou-furei-article-242-2.md",
+      "ja_text_sha256": "2acca1ebacacbb5ba589c8c40fb5e545302b2422de965e47251566cea41af896",
+      "ja_text_bytes": 377,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-242",
+      "article_number": "242",
+      "filename": "kinsho-gyou-furei-article-242.md",
+      "ja_text_sha256": "6ffa7d33365129ca0ef1cb2ce6826c16624b23690308e30ace368202d649553a",
+      "ja_text_bytes": 475,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-243",
+      "article_number": "243",
+      "filename": "kinsho-gyou-furei-article-243.md",
+      "ja_text_sha256": "a3276dcfdc664eadbc9bbcb4a0adfc5c30137ad93203eb74c689b1c3f6244d74",
+      "ja_text_bytes": 886,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-244-2",
+      "article_number": "244-2",
+      "filename": "kinsho-gyou-furei-article-244-2.md",
+      "ja_text_sha256": "372f9e16e402fddc401a7f31d5d72e182ff8dee0895ece9a52fe3af0ee1d2b3f",
+      "ja_text_bytes": 429,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-244",
+      "article_number": "244",
+      "filename": "kinsho-gyou-furei-article-244.md",
+      "ja_text_sha256": "0d397f92fe109411e64f43efccae8eb0701ba6fe490ba43cfafbb31fa786e9f1",
+      "ja_text_bytes": 847,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-245",
+      "article_number": "245",
+      "filename": "kinsho-gyou-furei-article-245.md",
+      "ja_text_sha256": "a344252f8f5a5dd885de08e89073dfceceefeefe547b4c87928225befd6863be",
+      "ja_text_bytes": 385,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-10",
+      "article_number": "246-10",
+      "filename": "kinsho-gyou-furei-article-246-10.md",
+      "ja_text_sha256": "801f1b8ae8001e5c98b2934d8a73a99feee2ac6d208fdbb03bf8a61e3da1fad2",
+      "ja_text_bytes": 529,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-11",
+      "article_number": "246-11",
+      "filename": "kinsho-gyou-furei-article-246-11.md",
+      "ja_text_sha256": "cd3eba8d6d7a5519f0ec22ade7b58f8afd02d34a446a3302ed6ed6e0073ba649",
+      "ja_text_bytes": 659,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-12",
+      "article_number": "246-12",
+      "filename": "kinsho-gyou-furei-article-246-12.md",
+      "ja_text_sha256": "db144ce15d3eb2c16e5c4c7e3c3a1ccd5d7126168e128ee4e903e8be3ebd0d57",
+      "ja_text_bytes": 452,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-13",
+      "article_number": "246-13",
+      "filename": "kinsho-gyou-furei-article-246-13.md",
+      "ja_text_sha256": "27164ee7eea6d0cafa84970867a525382cdc84c62a797ba33b608a8d55c749e6",
+      "ja_text_bytes": 285,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-14",
+      "article_number": "246-14",
+      "filename": "kinsho-gyou-furei-article-246-14.md",
+      "ja_text_sha256": "18dfe07b0e6bcf65a9ebaf1c795a2e9fa4a8494643d5bbab4eac29ef196cc05c",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-15",
+      "article_number": "246-15",
+      "filename": "kinsho-gyou-furei-article-246-15.md",
+      "ja_text_sha256": "7fe7e67e2796690c4f7934a9c2709e1b1d0029e619aad470856dff2d593dfdfc",
+      "ja_text_bytes": 206,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-16",
+      "article_number": "246-16",
+      "filename": "kinsho-gyou-furei-article-246-16.md",
+      "ja_text_sha256": "cb382b2e4bca822c8b78c6370a73e8022fbc83b5a28740d5cf2048b7d988a5ee",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-17",
+      "article_number": "246-17",
+      "filename": "kinsho-gyou-furei-article-246-17.md",
+      "ja_text_sha256": "64acde726ea5d593e14aa309aeb6276223a14c45cfee689a76ee15b7960e2a2c",
+      "ja_text_bytes": 1316,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-18",
+      "article_number": "246-18",
+      "filename": "kinsho-gyou-furei-article-246-18.md",
+      "ja_text_sha256": "5e87bafa9753e425ebfe57ed9fd223f9fbfbe52aa6eeb7dab6c453627017550a",
+      "ja_text_bytes": 1144,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-19",
+      "article_number": "246-19",
+      "filename": "kinsho-gyou-furei-article-246-19.md",
+      "ja_text_sha256": "da6c65e3a06ad9d68c28dd01a8c9996eb6ac29f755ceabfcf77591ecb346446f",
+      "ja_text_bytes": 426,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-2",
+      "article_number": "246-2",
+      "filename": "kinsho-gyou-furei-article-246-2.md",
+      "ja_text_sha256": "0a77bae8bda406b2f03073e1380c8f03fe5fb5a0afe6f8a04e948777ea9f0eb5",
+      "ja_text_bytes": 832,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-20",
+      "article_number": "246-20",
+      "filename": "kinsho-gyou-furei-article-246-20.md",
+      "ja_text_sha256": "e12f0dbffbaa31c59980f9dbca3b2360dfaf76aeb4f95c19ce1a050217be89b1",
+      "ja_text_bytes": 1230,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-21",
+      "article_number": "246-21",
+      "filename": "kinsho-gyou-furei-article-246-21.md",
+      "ja_text_sha256": "a3e0d8f55082ef90d2904b3266de4e9268dea6174d84f813700bba8ec45f705e",
+      "ja_text_bytes": 386,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-22",
+      "article_number": "246-22",
+      "filename": "kinsho-gyou-furei-article-246-22.md",
+      "ja_text_sha256": "6738ac759cc719cc52aae678c928fe2d82fa273cdfcda06068853498e4e56701",
+      "ja_text_bytes": 604,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-23",
+      "article_number": "246-23",
+      "filename": "kinsho-gyou-furei-article-246-23.md",
+      "ja_text_sha256": "557927c3c6d7c8bfd2d3204fff7ab48693cb1304c3a6b3cb5ce0f67d3000ee56",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-24",
+      "article_number": "246-24",
+      "filename": "kinsho-gyou-furei-article-246-24.md",
+      "ja_text_sha256": "0a0ea2550da3d76e1002205fd0ed14f99356674ec812b51d66c7fb21d186cb05",
+      "ja_text_bytes": 386,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-25",
+      "article_number": "246-25",
+      "filename": "kinsho-gyou-furei-article-246-25.md",
+      "ja_text_sha256": "9d4b6e0b618c8bff568761ea0e2d90e0bc36d1e00db9b01c58919e66dedce0b0",
+      "ja_text_bytes": 395,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-26",
+      "article_number": "246-26",
+      "filename": "kinsho-gyou-furei-article-246-26.md",
+      "ja_text_sha256": "a7e61541d2a5ec45430b97b0962cabeaf8a17fbd1b725aa83697eb3bb5190200",
+      "ja_text_bytes": 755,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-27",
+      "article_number": "246-27",
+      "filename": "kinsho-gyou-furei-article-246-27.md",
+      "ja_text_sha256": "2ee5f27d240944d3d1b336d5723c73a00d865d4ab8975d738da85e691b1325a8",
+      "ja_text_bytes": 760,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-28",
+      "article_number": "246-28",
+      "filename": "kinsho-gyou-furei-article-246-28.md",
+      "ja_text_sha256": "745181685253b1268a311be9a0661415f1eed7407d8267599e3744885481e820",
+      "ja_text_bytes": 441,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-29",
+      "article_number": "246-29",
+      "filename": "kinsho-gyou-furei-article-246-29.md",
+      "ja_text_sha256": "32e376004a83c12b613caa473314fa30a254dd6828b07f4dfc473ce619d50585",
+      "ja_text_bytes": 327,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-3",
+      "article_number": "246-3",
+      "filename": "kinsho-gyou-furei-article-246-3.md",
+      "ja_text_sha256": "84e0abde0e8624c1e9710e39eb07e44417420076b071594814989cbcf73e57b7",
+      "ja_text_bytes": 2293,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-30",
+      "article_number": "246-30",
+      "filename": "kinsho-gyou-furei-article-246-30.md",
+      "ja_text_sha256": "d16d6b78ee29cf5d872e58f0a224330f20d059c6a287c1dbe8bd4ae91b40e739",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-31",
+      "article_number": "246-31",
+      "filename": "kinsho-gyou-furei-article-246-31.md",
+      "ja_text_sha256": "a7f9a12b47526a748a730105f827177def201c94075c0d9958e104582ae60a51",
+      "ja_text_bytes": 524,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-32",
+      "article_number": "246-32",
+      "filename": "kinsho-gyou-furei-article-246-32.md",
+      "ja_text_sha256": "9099e179947bd26df8638eea6beaeee693a85835f9e18af6180b601afe490229",
+      "ja_text_bytes": 877,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-33",
+      "article_number": "246-33",
+      "filename": "kinsho-gyou-furei-article-246-33.md",
+      "ja_text_sha256": "a9eca2621bf4a724b01e40639f79d8b29b8d189be9772d5baee29ae3216574a9",
+      "ja_text_bytes": 1696,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-34",
+      "article_number": "246-34",
+      "filename": "kinsho-gyou-furei-article-246-34.md",
+      "ja_text_sha256": "b53eab2abae4505a70fd6c8b660c7fa02da78d74f32eb0b3307a537fd84d7cfa",
+      "ja_text_bytes": 2609,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-35",
+      "article_number": "246-35",
+      "filename": "kinsho-gyou-furei-article-246-35.md",
+      "ja_text_sha256": "81dd8570c06274170a869043c9224131fbef4d1d7b2bb24e30648b2cab37be5d",
+      "ja_text_bytes": 1453,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-36",
+      "article_number": "246-36",
+      "filename": "kinsho-gyou-furei-article-246-36.md",
+      "ja_text_sha256": "ed743eaca49986d97bdf68c83e86a03888447a14d4638c9e8a54687770dddbef",
+      "ja_text_bytes": 2426,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-37",
+      "article_number": "246-37",
+      "filename": "kinsho-gyou-furei-article-246-37.md",
+      "ja_text_sha256": "1b3f634921991dc3b986e4b3b40f3e44f282af0506370b567ec55e448b30a869",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-4",
+      "article_number": "246-4",
+      "filename": "kinsho-gyou-furei-article-246-4.md",
+      "ja_text_sha256": "38a97c92741c7b015c65cb14dc12beec61f59bb66bdddf20cfad816bdf147094",
+      "ja_text_bytes": 2432,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-5",
+      "article_number": "246-5",
+      "filename": "kinsho-gyou-furei-article-246-5.md",
+      "ja_text_sha256": "45f6efff20b2cd0042fd6c00f0628f4f046c5315ca77ff0a538d8bbef0586185",
+      "ja_text_bytes": 1246,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-6",
+      "article_number": "246-6",
+      "filename": "kinsho-gyou-furei-article-246-6.md",
+      "ja_text_sha256": "88730c29ca136662752e516d419df20720628ef7826119423abb3432c435be40",
+      "ja_text_bytes": 2270,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-7",
+      "article_number": "246-7",
+      "filename": "kinsho-gyou-furei-article-246-7.md",
+      "ja_text_sha256": "ffd8dd6134a13b5cbf217e10dce0c236cf1fd30d921e33bec42291ebe5eb7180",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-8",
+      "article_number": "246-8",
+      "filename": "kinsho-gyou-furei-article-246-8.md",
+      "ja_text_sha256": "218f118528a62a5a0ca1e1ac39849aff6e02493ea6733eba44a83878250f69fe",
+      "ja_text_bytes": 528,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246-9",
+      "article_number": "246-9",
+      "filename": "kinsho-gyou-furei-article-246-9.md",
+      "ja_text_sha256": "3d9ef43c95a096995cc4d0cbef8fcbbe9d25c541e29cd5a750d4c58a2f54aa5f",
+      "ja_text_bytes": 123,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-246",
+      "article_number": "246",
+      "filename": "kinsho-gyou-furei-article-246.md",
+      "ja_text_sha256": "8ee373519da3421c8bd1356f31dfd7f355fedacbe029a813fcd29bf57539ab4d",
+      "ja_text_bytes": 394,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-247",
+      "article_number": "247",
+      "filename": "kinsho-gyou-furei-article-247.md",
+      "ja_text_sha256": "4e063f6b94f6dfcf2faa03228e1ca3ed714e5b429367c2548c33a71490dd281b",
+      "ja_text_bytes": 178,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-248",
+      "article_number": "248",
+      "filename": "kinsho-gyou-furei-article-248.md",
+      "ja_text_sha256": "5d6d15cd7bc1d56d3d26244c65753b27e9b85cc70352d990dfad91e04dffa7d1",
+      "ja_text_bytes": 532,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-249",
+      "article_number": "249",
+      "filename": "kinsho-gyou-furei-article-249.md",
+      "ja_text_sha256": "c0a5f8baaa7646868f098dd74f06a7a29a2997d248be4fe794713c6effbaf432",
+      "ja_text_bytes": 430,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-25",
+      "article_number": "25",
+      "filename": "kinsho-gyou-furei-article-25.md",
+      "ja_text_sha256": "cf6bce2d1a1bd5f9bc00116080a3c8d11d6ac6a1dee3612d8d772564808f6fa7",
+      "ja_text_bytes": 1087,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-250",
+      "article_number": "250",
+      "filename": "kinsho-gyou-furei-article-250.md",
+      "ja_text_sha256": "8a56adf57ffab1c1f75f69b7b52c42e90e330cce66c2929973cec7dd15085b99",
+      "ja_text_bytes": 349,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-251",
+      "article_number": "251",
+      "filename": "kinsho-gyou-furei-article-251.md",
+      "ja_text_sha256": "4a1e050c945016a7167b27843b70ae15e401e68f27629c7e758ce9c6e93aae18",
+      "ja_text_bytes": 178,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-252",
+      "article_number": "252",
+      "filename": "kinsho-gyou-furei-article-252.md",
+      "ja_text_sha256": "0b6b032caeb7912534da70cd4b62b7c7dfbfac2bc7b4f6c03f1a76addeffa4a0",
+      "ja_text_bytes": 1294,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-253",
+      "article_number": "253",
+      "filename": "kinsho-gyou-furei-article-253.md",
+      "ja_text_sha256": "2e88565d2a0d8c5fb63e70786a22597e9b99a049430f94772b2d829bff79e569",
+      "ja_text_bytes": 448,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-254",
+      "article_number": "254",
+      "filename": "kinsho-gyou-furei-article-254.md",
+      "ja_text_sha256": "a34b393cfc7c94beebdee634a3479f08ecf2f7da2d6301826b47546b18939743",
+      "ja_text_bytes": 448,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-255",
+      "article_number": "255",
+      "filename": "kinsho-gyou-furei-article-255.md",
+      "ja_text_sha256": "30f82fb3336d52343b3afe4ed99b76d6fb7e3d299bfec37487fc6950645e2ff8",
+      "ja_text_bytes": 559,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-256",
+      "article_number": "256",
+      "filename": "kinsho-gyou-furei-article-256.md",
+      "ja_text_sha256": "b618d7b48122a0dd1fea3bd57d9d76da300757b6ea8da0ca12df03f711133452",
+      "ja_text_bytes": 157,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-257",
+      "article_number": "257",
+      "filename": "kinsho-gyou-furei-article-257.md",
+      "ja_text_sha256": "9a4498942849736130b12f8faa99406484bb867ba3d99f67018efeaa01274690",
+      "ja_text_bytes": 691,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-258",
+      "article_number": "258",
+      "filename": "kinsho-gyou-furei-article-258.md",
+      "ja_text_sha256": "5c3bbdd4700deffde6ddb5aa14b177e18152d8500e2988d87d81045aeef44753",
+      "ja_text_bytes": 193,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-259",
+      "article_number": "259",
+      "filename": "kinsho-gyou-furei-article-259.md",
+      "ja_text_sha256": "059f1b6db5564fd8d8299981100ab7826e828c9b9b002b9a1d7f4432ece39f19",
+      "ja_text_bytes": 193,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-26",
+      "article_number": "26",
+      "filename": "kinsho-gyou-furei-article-26.md",
+      "ja_text_sha256": "51324ad811e9faceba7207d338c0f44d316a4e800f4d2e05d18a66849bf68434",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-260",
+      "article_number": "260",
+      "filename": "kinsho-gyou-furei-article-260.md",
+      "ja_text_sha256": "9cd48122723cfa1ef463f70d027309cf48d698c35d2920048dbbf9fa984392ed",
+      "ja_text_bytes": 193,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-261",
+      "article_number": "261",
+      "filename": "kinsho-gyou-furei-article-261.md",
+      "ja_text_sha256": "676d180a4666e14548d1fc9baa57b5b8aec559ca382f2fafbec57af832fb41db",
+      "ja_text_bytes": 241,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-262",
+      "article_number": "262",
+      "filename": "kinsho-gyou-furei-article-262.md",
+      "ja_text_sha256": "0079f6aaf85d905935ce0e630b461721f2ad441679e54b1f0bc66e993e4aade7",
+      "ja_text_bytes": 511,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-263",
+      "article_number": "263",
+      "filename": "kinsho-gyou-furei-article-263.md",
+      "ja_text_sha256": "762414037c2e31dd6efb582d80307d8ef7b5f2b9165a635a1aa49fd6acedde05",
+      "ja_text_bytes": 1471,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-264",
+      "article_number": "264",
+      "filename": "kinsho-gyou-furei-article-264.md",
+      "ja_text_sha256": "b4ce71618be3c6d30f9bd3f786d9f7fad1c809c4628737b929864a443a2e29c5",
+      "ja_text_bytes": 430,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-265",
+      "article_number": "265",
+      "filename": "kinsho-gyou-furei-article-265.md",
+      "ja_text_sha256": "2b639854b9d0d0e95821bff2953ba551ec219f20be4a866770dfd25dc6002957",
+      "ja_text_bytes": 880,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-266",
+      "article_number": "266",
+      "filename": "kinsho-gyou-furei-article-266.md",
+      "ja_text_sha256": "662303aedb525e4473fdcb08f8fbde7af9b1a3dea4ac1a91419ccc69d6e3a418",
+      "ja_text_bytes": 457,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-267",
+      "article_number": "267",
+      "filename": "kinsho-gyou-furei-article-267.md",
+      "ja_text_sha256": "7633aaffa0ebe0c4d7b2a044872f2b4ced09e364507fc55bb2b544cf2b037071",
+      "ja_text_bytes": 1580,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-268",
+      "article_number": "268",
+      "filename": "kinsho-gyou-furei-article-268.md",
+      "ja_text_sha256": "9e6b197951015f5d99e57cae479a486cbdc3b8cf22fa3568c45448eb07f1931a",
+      "ja_text_bytes": 2463,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-269",
+      "article_number": "269",
+      "filename": "kinsho-gyou-furei-article-269.md",
+      "ja_text_sha256": "bc06fb1c4f957cbc259ede73ecea64c8d126dfb6a68da7119d721f450e472de2",
+      "ja_text_bytes": 184,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-27",
+      "article_number": "27",
+      "filename": "kinsho-gyou-furei-article-27.md",
+      "ja_text_sha256": "aeba590dd3066f030ed4ee18ec6bc44309a2a57c9bfc8bfe6439c0fa77aaed28",
+      "ja_text_bytes": 1800,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-270",
+      "article_number": "270",
+      "filename": "kinsho-gyou-furei-article-270.md",
+      "ja_text_sha256": "afaa73ec32e86ed6de47fff9fa959bbb1f3fa09fd4793386ed3d03d7766ea29b",
+      "ja_text_bytes": 403,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-271",
+      "article_number": "271",
+      "filename": "kinsho-gyou-furei-article-271.md",
+      "ja_text_sha256": "843990060b4333df1f67ec909b21a61c408ff8d0f86c3ee78f2eedf52cb00ca6",
+      "ja_text_bytes": 184,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-272",
+      "article_number": "272",
+      "filename": "kinsho-gyou-furei-article-272.md",
+      "ja_text_sha256": "9cf016e540e8636273aeb773ca6ce5de047ff8722ffcdfc5d85f867fb6c80677",
+      "ja_text_bytes": 187,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-273",
+      "article_number": "273",
+      "filename": "kinsho-gyou-furei-article-273.md",
+      "ja_text_sha256": "9f6e3f3d43de20445f49d6f7241bf0915a657a3b2907d65481cca2bbf3b6e50d",
+      "ja_text_bytes": 196,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-274",
+      "article_number": "274",
+      "filename": "kinsho-gyou-furei-article-274.md",
+      "ja_text_sha256": "43875b38d385f6ddf0bac3f106103d9a433ae4aa6fcff22621d0def19cae5062",
+      "ja_text_bytes": 409,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-275-2",
+      "article_number": "275-2",
+      "filename": "kinsho-gyou-furei-article-275-2.md",
+      "ja_text_sha256": "a22edd613906712c0a9a85eb2334702693937835bc1efb7dc73aa4fa984ef4b8",
+      "ja_text_bytes": 933,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-275-3",
+      "article_number": "275-3",
+      "filename": "kinsho-gyou-furei-article-275-3.md",
+      "ja_text_sha256": "5c2d41e6e43fd6efe16ca3e162b755fea6f19ef4133e726bed1393139c87e83d",
+      "ja_text_bytes": 426,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-275",
+      "article_number": "275",
+      "filename": "kinsho-gyou-furei-article-275.md",
+      "ja_text_sha256": "9b51e628b127cd8da550b2b39640079b77a537050563173ce46ad08b98883e69",
+      "ja_text_bytes": 1201,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-276",
+      "article_number": "276",
+      "filename": "kinsho-gyou-furei-article-276.md",
+      "ja_text_sha256": "667ed8d457e77caec9c64e7bd6d1141ef821939c99ec2c5f70199c12d7ded87b",
+      "ja_text_bytes": 553,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-277-2",
+      "article_number": "277-2",
+      "filename": "kinsho-gyou-furei-article-277-2.md",
+      "ja_text_sha256": "e9722ee202414613aca6b68fb7e088ed52d9205124c353bb0d4722ab9e113294",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-277",
+      "article_number": "277",
+      "filename": "kinsho-gyou-furei-article-277.md",
+      "ja_text_sha256": "4bf80c1f84704ce43facea37282e6c1802f2767dc46297731e5c72a3309098e9",
+      "ja_text_bytes": 1854,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-278",
+      "article_number": "278",
+      "filename": "kinsho-gyou-furei-article-278.md",
+      "ja_text_sha256": "ab970457ad4e216f19c9ea636d7ecc93a3149955a9ab8630d564038f92aa17ba",
+      "ja_text_bytes": 472,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-279",
+      "article_number": "279",
+      "filename": "kinsho-gyou-furei-article-279.md",
+      "ja_text_sha256": "40edf4009bbede7a231eb102be99407a8e9517ccd119b6acd3ebf1215c7f14fb",
+      "ja_text_bytes": 229,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-28",
+      "article_number": "28",
+      "filename": "kinsho-gyou-furei-article-28.md",
+      "ja_text_sha256": "dffc620a213d86191d0422b98f6aa14b1c9e03f021e16ff57df5893d17f64c8f",
+      "ja_text_bytes": 291,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-280",
+      "article_number": "280",
+      "filename": "kinsho-gyou-furei-article-280.md",
+      "ja_text_sha256": "6b1cae715f053b26bcb4fbd13c5dbb4ef261ce680cdf7c4d85057dd71a5e0f97",
+      "ja_text_bytes": 607,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-281-2",
+      "article_number": "281-2",
+      "filename": "kinsho-gyou-furei-article-281-2.md",
+      "ja_text_sha256": "5f2153abf49e0f8725399297a55b2dea71179ec4ac8be0e90af5da03dc408e05",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-281-3",
+      "article_number": "281-3",
+      "filename": "kinsho-gyou-furei-article-281-3.md",
+      "ja_text_sha256": "ffa3b1c5dfac5c0d4720fecd542384d82dcbfcded2fa10cbb916bf8e7b2aba8c",
+      "ja_text_bytes": 857,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-281-4",
+      "article_number": "281-4",
+      "filename": "kinsho-gyou-furei-article-281-4.md",
+      "ja_text_sha256": "3009af5486fb0442a9642a6d12f8e42dd405ea4160c5e0080ea7f34759a01f32",
+      "ja_text_bytes": 252,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-281",
+      "article_number": "281",
+      "filename": "kinsho-gyou-furei-article-281.md",
+      "ja_text_sha256": "03615a866b80576bed8ce3de15696b6b2a026c5bd7eac68670c1ae2b1b041809",
+      "ja_text_bytes": 226,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-282",
+      "article_number": "282",
+      "filename": "kinsho-gyou-furei-article-282.md",
+      "ja_text_sha256": "1b9a2b54bb794c0494eaf23e1c49f9638b5e47ec624a793ccfa0d25530ca595e",
+      "ja_text_bytes": 460,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-283",
+      "article_number": "283",
+      "filename": "kinsho-gyou-furei-article-283.md",
+      "ja_text_sha256": "307493630b1ec52620a725f6acf3f88f87167aea880f9298684cb84d6bed5b18",
+      "ja_text_bytes": 901,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-284",
+      "article_number": "284",
+      "filename": "kinsho-gyou-furei-article-284.md",
+      "ja_text_sha256": "e954ed148909219b759dd33b8faafec7a5722fc9bcd478d9a235da20dd313638",
+      "ja_text_bytes": 1024,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-285",
+      "article_number": "285",
+      "filename": "kinsho-gyou-furei-article-285.md",
+      "ja_text_sha256": "b31f513c1d2c2e2b3190cb134d30b3ca0e1c6fcfaf76247351b1edc53c515b68",
+      "ja_text_bytes": 538,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-286",
+      "article_number": "286",
+      "filename": "kinsho-gyou-furei-article-286.md",
+      "ja_text_sha256": "bb09041594ddc2d86568b1667f9c7487cd17c31002b682a536242c4cdf4b8087",
+      "ja_text_bytes": 637,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-287",
+      "article_number": "287",
+      "filename": "kinsho-gyou-furei-article-287.md",
+      "ja_text_sha256": "51370b254a9c37d397a11c5b504554936a69842c5b73ab1dbc148d705eed10aa",
+      "ja_text_bytes": 232,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-288",
+      "article_number": "288",
+      "filename": "kinsho-gyou-furei-article-288.md",
+      "ja_text_sha256": "31d8c7855f2f06f932af389dfa483764db7ef5f18ce6ca43313fd4e7e093912e",
+      "ja_text_bytes": 502,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-289",
+      "article_number": "289",
+      "filename": "kinsho-gyou-furei-article-289.md",
+      "ja_text_sha256": "aea3a07f75212897fe6a2269c93fd8a4e79fc73c84fdc02883e25b773bb78bf9",
+      "ja_text_bytes": 616,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-29",
+      "article_number": "29",
+      "filename": "kinsho-gyou-furei-article-29.md",
+      "ja_text_sha256": "054d7dcb6ebf27fe40647c8a77a9754a9e560d77cf1f7a90c6ca854baa5bcfa5",
+      "ja_text_bytes": 483,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-290",
+      "article_number": "290",
+      "filename": "kinsho-gyou-furei-article-290.md",
+      "ja_text_sha256": "ab699dc2f9847d61c7fff3382273b6a1928bcb4c775ed9f139e0ea0d68b0079c",
+      "ja_text_bytes": 403,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-291",
+      "article_number": "291",
+      "filename": "kinsho-gyou-furei-article-291.md",
+      "ja_text_sha256": "1128ec5db11a90f2cd907b98ac32a618696f5ba0799ef2c35240991efeb291db",
+      "ja_text_bytes": 232,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-292",
+      "article_number": "292",
+      "filename": "kinsho-gyou-furei-article-292.md",
+      "ja_text_sha256": "de68c5597193878fead143b263985d5410dcf3e0a901226d47becc01a3519200",
+      "ja_text_bytes": 1417,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-293",
+      "article_number": "293",
+      "filename": "kinsho-gyou-furei-article-293.md",
+      "ja_text_sha256": "ef7d5acd4b14aa6f28d07e9f1e02a5f696d447de96da0c18fc32fd6198b77919",
+      "ja_text_bytes": 424,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-294",
+      "article_number": "294",
+      "filename": "kinsho-gyou-furei-article-294.md",
+      "ja_text_sha256": "fd743a4b7f3f6b0ab7fade1f0b6564aa9cf910ddf4c11f4c0e8c5aef7fb2719d",
+      "ja_text_bytes": 610,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-295",
+      "article_number": "295",
+      "filename": "kinsho-gyou-furei-article-295.md",
+      "ja_text_sha256": "8e26874d631c48ea0871379eac9f415f07a72c6b63491cd93f73e624c5ec0d2d",
+      "ja_text_bytes": 877,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-296",
+      "article_number": "296",
+      "filename": "kinsho-gyou-furei-article-296.md",
+      "ja_text_sha256": "46edab6664ef56e14ec418fd80ab1d14b103eeb8674a7b0468d37de7891adbb7",
+      "ja_text_bytes": 463,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-297",
+      "article_number": "297",
+      "filename": "kinsho-gyou-furei-article-297.md",
+      "ja_text_sha256": "eae066913520ca663c1d5dde30e4c7725ea1103b2d84ed9872ca6e908a3db40a",
+      "ja_text_bytes": 505,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-298",
+      "article_number": "298",
+      "filename": "kinsho-gyou-furei-article-298.md",
+      "ja_text_sha256": "482fb0d166c8bc0fe40a437447b2c4bcda14fea6259526f8b142a78133eaa246",
+      "ja_text_bytes": 199,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-299",
+      "article_number": "299",
+      "filename": "kinsho-gyou-furei-article-299.md",
+      "ja_text_sha256": "33f9e69546879526838a67f3bd6704a025e50ea67fa22b1af9dde1e127a7f477",
+      "ja_text_bytes": 199,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-3",
+      "article_number": "3",
+      "filename": "kinsho-gyou-furei-article-3.md",
+      "ja_text_sha256": "f78841a568b5296dc3ba9497a1c0f9c5f71da78ed58a92c82a5c7f09579b3a80",
+      "ja_text_bytes": 386,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-30",
+      "article_number": "30",
+      "filename": "kinsho-gyou-furei-article-30.md",
+      "ja_text_sha256": "36cdca86c9c91c26db8856cb0eca81934db62f32cd8483bf0c511ddf6b806303",
+      "ja_text_bytes": 997,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-300",
+      "article_number": "300",
+      "filename": "kinsho-gyou-furei-article-300.md",
+      "ja_text_sha256": "20a72c28ea152fc3dd614e53771f3238f31c1974da72fca2468c9019726d599a",
+      "ja_text_bytes": 1198,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-301",
+      "article_number": "301",
+      "filename": "kinsho-gyou-furei-article-301.md",
+      "ja_text_sha256": "afd75bc6b461958320025749f103ec3484dca34649e6b5e3fd479c8883ee4c15",
+      "ja_text_bytes": 247,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-302-2",
+      "article_number": "302-2",
+      "filename": "kinsho-gyou-furei-article-302-2.md",
+      "ja_text_sha256": "12e971f57abebd0865476543a7ef8d0da74abe16edfac1a8940e62547e46ea1c",
+      "ja_text_bytes": 288,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-302",
+      "article_number": "302",
+      "filename": "kinsho-gyou-furei-article-302.md",
+      "ja_text_sha256": "59f9c765b3203a357d242215cdebfa5d79adc6851a2841cb1f637301592a2eee",
+      "ja_text_bytes": 232,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-303",
+      "article_number": "303",
+      "filename": "kinsho-gyou-furei-article-303.md",
+      "ja_text_sha256": "6400028416cdeb0c582f41f4cf0bcda0f0fa08d962150616acee9cbefe10c84c",
+      "ja_text_bytes": 877,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-304",
+      "article_number": "304",
+      "filename": "kinsho-gyou-furei-article-304.md",
+      "ja_text_sha256": "685b49bb0020569cdbfe98eae6f030d8adf772403f581cf4aaa7380534a1ce5e",
+      "ja_text_bytes": 679,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-305",
+      "article_number": "305",
+      "filename": "kinsho-gyou-furei-article-305.md",
+      "ja_text_sha256": "55272c3ebd64104977af76c5c67b767c7be55f6355cf5815e3dd411869c2a13b",
+      "ja_text_bytes": 424,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-306",
+      "article_number": "306",
+      "filename": "kinsho-gyou-furei-article-306.md",
+      "ja_text_sha256": "41c6f96721742284cf3a8c0db7a246a5f32b3d19d3fa19f3252c7b583536080b",
+      "ja_text_bytes": 3580,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-307",
+      "article_number": "307",
+      "filename": "kinsho-gyou-furei-article-307.md",
+      "ja_text_sha256": "64cc1cc8fb6f875c37905a204688b49dffb0b7db7691e1261cc1b00afe4fadf9",
+      "ja_text_bytes": 1874,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-308",
+      "article_number": "308",
+      "filename": "kinsho-gyou-furei-article-308.md",
+      "ja_text_sha256": "f6190f51f7b95425b04446133b83767c38f2e66817591463c9f2d24c066045f4",
+      "ja_text_bytes": 733,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-309",
+      "article_number": "309",
+      "filename": "kinsho-gyou-furei-article-309.md",
+      "ja_text_sha256": "bfa24af0e8e183094c29ddeee12144a564d5d7b216f96affd8a92134961ec0ab",
+      "ja_text_bytes": 190,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-31",
+      "article_number": "31",
+      "filename": "kinsho-gyou-furei-article-31.md",
+      "ja_text_sha256": "4bf6a1b1afde087dc7dfcc7b9f4a88378862cd670ba7df422b6cba342d8d7adc",
+      "ja_text_bytes": 1000,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-310",
+      "article_number": "310",
+      "filename": "kinsho-gyou-furei-article-310.md",
+      "ja_text_sha256": "2d523b706d2d3d0d4df47bd9bc48990c98077f634f3857d3d47891ba232dc6d8",
+      "ja_text_bytes": 190,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-311",
+      "article_number": "311",
+      "filename": "kinsho-gyou-furei-article-311.md",
+      "ja_text_sha256": "146627f71cd512f84deadbe757b660a0a6a0e7f9e9356770ab1f40284b550dcc",
+      "ja_text_bytes": 406,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-312",
+      "article_number": "312",
+      "filename": "kinsho-gyou-furei-article-312.md",
+      "ja_text_sha256": "1213f0209d233eef07f1ef3d67de39df1eaa7ca26a5b7193245551c042a9bf3a",
+      "ja_text_bytes": 190,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-313",
+      "article_number": "313",
+      "filename": "kinsho-gyou-furei-article-313.md",
+      "ja_text_sha256": "9b050678f4052b3aefd69d12e943329bf6f5d6586e2e1e49465b677320640d45",
+      "ja_text_bytes": 541,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-314",
+      "article_number": "314",
+      "filename": "kinsho-gyou-furei-article-314.md",
+      "ja_text_sha256": "9038a66b999e9c9805034a5cbefb62a8f00b200ece10df3011c882b3d411d7b1",
+      "ja_text_bytes": 1194,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-315",
+      "article_number": "315",
+      "filename": "kinsho-gyou-furei-article-315.md",
+      "ja_text_sha256": "567d463b83970a2231542906e784bfcc1edca2ff46580830c35417b42376988c",
+      "ja_text_bytes": 814,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-316",
+      "article_number": "316",
+      "filename": "kinsho-gyou-furei-article-316.md",
+      "ja_text_sha256": "e488389f33c4ab8a5b77a9f61190679ebee28f2e13e7794006a088b5096a464d",
+      "ja_text_bytes": 460,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-317",
+      "article_number": "317",
+      "filename": "kinsho-gyou-furei-article-317.md",
+      "ja_text_sha256": "332504626dc3e7a9d10bed5b93e63da7cc946cc92323971153c322089a6013bc",
+      "ja_text_bytes": 1942,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-318",
+      "article_number": "318",
+      "filename": "kinsho-gyou-furei-article-318.md",
+      "ja_text_sha256": "b5cf69eebe855ff1a8387f5e147734edeff7eb538d67a8a2f92c9bc1ed7614c9",
+      "ja_text_bytes": 181,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-319",
+      "article_number": "319",
+      "filename": "kinsho-gyou-furei-article-319.md",
+      "ja_text_sha256": "0068b3d2212b869032783b17740cc1001efe4dfec8a2524b84509bdf133933b9",
+      "ja_text_bytes": 835,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-32",
+      "article_number": "32",
+      "filename": "kinsho-gyou-furei-article-32.md",
+      "ja_text_sha256": "229142457da27f98e8d455cc1ff4e6b41901f49500c3f286864df189af431956",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-320",
+      "article_number": "320",
+      "filename": "kinsho-gyou-furei-article-320.md",
+      "ja_text_sha256": "be84955d74e65eb8884372478629efc741a522c43fdf332ae36e29fcd052d5a6",
+      "ja_text_bytes": 2062,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-321",
+      "article_number": "321",
+      "filename": "kinsho-gyou-furei-article-321.md",
+      "ja_text_sha256": "3e9cf915330731f3b8f0e5b3e01f0197606653aba6877b6506732d9d5c90e019",
+      "ja_text_bytes": 523,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-322",
+      "article_number": "322",
+      "filename": "kinsho-gyou-furei-article-322.md",
+      "ja_text_sha256": "7d8d6811853a92539c42ebefac9691b76ec6317dd7167d8a6881116d986ff608",
+      "ja_text_bytes": 415,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-323",
+      "article_number": "323",
+      "filename": "kinsho-gyou-furei-article-323.md",
+      "ja_text_sha256": "d83782844061bda96279cd2612f95c964b02aa01daf27126d6f233b314a5c1c8",
+      "ja_text_bytes": 166,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-324",
+      "article_number": "324",
+      "filename": "kinsho-gyou-furei-article-324.md",
+      "ja_text_sha256": "cd9ff9d638e52ba08765f36e5082ead9f7b4327d241950bb070fab38fb5b6e9a",
+      "ja_text_bytes": 154,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-325",
+      "article_number": "325",
+      "filename": "kinsho-gyou-furei-article-325.md",
+      "ja_text_sha256": "bd5fb033c9d91114d316dffe795dbb6de97535e50123367209f8ca63a64de02a",
+      "ja_text_bytes": 385,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-326",
+      "article_number": "326",
+      "filename": "kinsho-gyou-furei-article-326.md",
+      "ja_text_sha256": "e55081464a574ed64d4d7d514249cd1446f3a6452a0a29dc20ef85771c327318",
+      "ja_text_bytes": 1036,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-327",
+      "article_number": "327",
+      "filename": "kinsho-gyou-furei-article-327.md",
+      "ja_text_sha256": "0d93412651f1e1d2de91712145f2a52d27f062049aebc64b4d432a04e44b30e6",
+      "ja_text_bytes": 199,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-328",
+      "article_number": "328",
+      "filename": "kinsho-gyou-furei-article-328.md",
+      "ja_text_sha256": "7f9f7348aa891d7cadcfbb69c5dff4cf02138c3d77c4073f329faed72f8350f9",
+      "ja_text_bytes": 199,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-329",
+      "article_number": "329",
+      "filename": "kinsho-gyou-furei-article-329.md",
+      "ja_text_sha256": "09702647d723940c1b231e0beebb55b01465aa8461831352b6b670f79aefa013",
+      "ja_text_bytes": 685,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-33",
+      "article_number": "33",
+      "filename": "kinsho-gyou-furei-article-33.md",
+      "ja_text_sha256": "32697e7b4a6da57c620a60853efaa98b71c2195f618a85f9ddbc382fd2248c21",
+      "ja_text_bytes": 1641,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-330",
+      "article_number": "330",
+      "filename": "kinsho-gyou-furei-article-330.md",
+      "ja_text_sha256": "c2c683a06dcb5ef5abf678eeedf0a350b033cd5cce746f72f2fe4c2f6c5b50a9",
+      "ja_text_bytes": 247,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-331",
+      "article_number": "331",
+      "filename": "kinsho-gyou-furei-article-331.md",
+      "ja_text_sha256": "5a6e5ae58426cadca5605976f3e0107ecd7689121f8a3ba79b4ade1f45abd07a",
+      "ja_text_bytes": 502,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-332-2",
+      "article_number": "332-2",
+      "filename": "kinsho-gyou-furei-article-332-2.md",
+      "ja_text_sha256": "c9ec526b0ad4ee5433ef606e910d06e9319159ad5295f0bf412502e4c934800d",
+      "ja_text_bytes": 294,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-332",
+      "article_number": "332",
+      "filename": "kinsho-gyou-furei-article-332.md",
+      "ja_text_sha256": "466c135072387eedcab1579e2c53c5fa35286ecd6128ff6aa3fbfe9ca7795dda",
+      "ja_text_bytes": 385,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-333",
+      "article_number": "333",
+      "filename": "kinsho-gyou-furei-article-333.md",
+      "ja_text_sha256": "dfa135320d61b842775c5edf068b2adc3c13e7fadb472162d2d793d167faaab2",
+      "ja_text_bytes": 214,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-334",
+      "article_number": "334",
+      "filename": "kinsho-gyou-furei-article-334.md",
+      "ja_text_sha256": "ce7c96c750da950e60fcc97952ce02c672ce94296b7738fdffeb5316bdd6e695",
+      "ja_text_bytes": 1990,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-335",
+      "article_number": "335",
+      "filename": "kinsho-gyou-furei-article-335.md",
+      "ja_text_sha256": "f1f72467f0954e21eff94ba7e3b97c6901d8ed2b88550c3f0d0f73e6e78b8479",
+      "ja_text_bytes": 685,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-336",
+      "article_number": "336",
+      "filename": "kinsho-gyou-furei-article-336.md",
+      "ja_text_sha256": "c523f91e299e65a038616abaf26c8640314a3a6f90ee6c017d0fd44a776f4f33",
+      "ja_text_bytes": 256,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-337",
+      "article_number": "337",
+      "filename": "kinsho-gyou-furei-article-337.md",
+      "ja_text_sha256": "c2856ece98331c8dcc09f2c74ef5f3cfe4a36683fa701b9a3005bd41c29e2c76",
+      "ja_text_bytes": 190,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-338",
+      "article_number": "338",
+      "filename": "kinsho-gyou-furei-article-338.md",
+      "ja_text_sha256": "bc00053788a5e8faa9858706cf0623792890b5fc5756a06f14a21f45a6bb19e2",
+      "ja_text_bytes": 2974,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-339",
+      "article_number": "339",
+      "filename": "kinsho-gyou-furei-article-339.md",
+      "ja_text_sha256": "896db6b1e323284156339b6080029f5bacc395f47e29e229093c83c742c6ed72",
+      "ja_text_bytes": 904,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-34",
+      "article_number": "34",
+      "filename": "kinsho-gyou-furei-article-34.md",
+      "ja_text_sha256": "baf9b35283cfdd1c10f1749c62cb15ee73d6386b9689a54219c41f62278191fe",
+      "ja_text_bytes": 549,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-340",
+      "article_number": "340",
+      "filename": "kinsho-gyou-furei-article-340.md",
+      "ja_text_sha256": "d958d4f26e8f4bba2c5a5662097ab7746c8b3a4a30fef053165e931e91304ae6",
+      "ja_text_bytes": 2326,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-341",
+      "article_number": "341",
+      "filename": "kinsho-gyou-furei-article-341.md",
+      "ja_text_sha256": "d95c62e54c77f409ea74babad90a92a181ed02529505634c64aff529902ef41a",
+      "ja_text_bytes": 187,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-342",
+      "article_number": "342",
+      "filename": "kinsho-gyou-furei-article-342.md",
+      "ja_text_sha256": "0f4e2a40be31b103c7c3319bc682b1f6fd77777fb53c603f7ba9b2b2c32fb37a",
+      "ja_text_bytes": 451,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-343",
+      "article_number": "343",
+      "filename": "kinsho-gyou-furei-article-343.md",
+      "ja_text_sha256": "eaedbba0b49f7c0169040c6ecb6c0e47f493f9d61366a38dded0dd0ad6b0f35b",
+      "ja_text_bytes": 463,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-344",
+      "article_number": "344",
+      "filename": "kinsho-gyou-furei-article-344.md",
+      "ja_text_sha256": "1398ff979d9c3c240fcbf6ee09ed1c77ebbf7f0656f185759707102e3c9f2f0c",
+      "ja_text_bytes": 700,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-345",
+      "article_number": "345",
+      "filename": "kinsho-gyou-furei-article-345.md",
+      "ja_text_sha256": "4c0db65098a56a98ed5dbc98d58b7692e18f6d6e2a82faace80e861f6e451f55",
+      "ja_text_bytes": 166,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-346",
+      "article_number": "346",
+      "filename": "kinsho-gyou-furei-article-346.md",
+      "ja_text_sha256": "f5deb664519bcee6daf504ca8f8bd8507a1a8e55b9aad8a018c270e501ed476c",
+      "ja_text_bytes": 157,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-347",
+      "article_number": "347",
+      "filename": "kinsho-gyou-furei-article-347.md",
+      "ja_text_sha256": "b6aa0ad13c578b3408ad262b1e999802040b54b354598157200cf180967cc1bd",
+      "ja_text_bytes": 466,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-348",
+      "article_number": "348",
+      "filename": "kinsho-gyou-furei-article-348.md",
+      "ja_text_sha256": "c81f7a5d9a767a47e7e1bd945579b40d6f5e00e2b2b763ee2111a85c94d5f0b2",
+      "ja_text_bytes": 457,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-349",
+      "article_number": "349",
+      "filename": "kinsho-gyou-furei-article-349.md",
+      "ja_text_sha256": "b9c84a293c94ed66eea677d26b0b816ff46290d944ae99772c2b265df111cdb7",
+      "ja_text_bytes": 199,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-35",
+      "article_number": "35",
+      "filename": "kinsho-gyou-furei-article-35.md",
+      "ja_text_sha256": "e0ecca35ec52b68b5e490d54d2fce1848afd9c441ea199f5b1796a3490449891",
+      "ja_text_bytes": 723,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-350",
+      "article_number": "350",
+      "filename": "kinsho-gyou-furei-article-350.md",
+      "ja_text_sha256": "8cda2850990210099f31d79f0fa944eba69d23bc4931e0cbaf38bcec4570906d",
+      "ja_text_bytes": 685,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-351",
+      "article_number": "351",
+      "filename": "kinsho-gyou-furei-article-351.md",
+      "ja_text_sha256": "8dda518d38ab1f3d2a8bd5a619fc1fb1ec024a2de6ae78ec1f162871b3b4ee8a",
+      "ja_text_bytes": 247,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-352",
+      "article_number": "352",
+      "filename": "kinsho-gyou-furei-article-352.md",
+      "ja_text_sha256": "48ff0b61421c21887a2e7ea67da8aa9325c11a0735aaae8955938835193d53e0",
+      "ja_text_bytes": 274,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-353",
+      "article_number": "353",
+      "filename": "kinsho-gyou-furei-article-353.md",
+      "ja_text_sha256": "0df39e048516e7f97d5cf0350351419da193b85059c496a74bbfe73f6308f3e4",
+      "ja_text_bytes": 361,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-354",
+      "article_number": "354",
+      "filename": "kinsho-gyou-furei-article-354.md",
+      "ja_text_sha256": "3c9b652477059be8e4c2ae9c13c44b66575b6570b6f17c98bdd0d7044e317a0c",
+      "ja_text_bytes": 367,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-355",
+      "article_number": "355",
+      "filename": "kinsho-gyou-furei-article-355.md",
+      "ja_text_sha256": "d79126ff753bdfa93aecde724844abfd9d8c4e95f62296f2a2f000925b9964ac",
+      "ja_text_bytes": 697,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-356",
+      "article_number": "356",
+      "filename": "kinsho-gyou-furei-article-356.md",
+      "ja_text_sha256": "c840acc7c1f25b6c20f9365d64d4d65bd3551ddd4ab1f2499faacbc2640b9f60",
+      "ja_text_bytes": 550,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-357",
+      "article_number": "357",
+      "filename": "kinsho-gyou-furei-article-357.md",
+      "ja_text_sha256": "a17aaac76bf4ed2aa4edf32538686ff4656d4554582090dd486fe4b7ede0477c",
+      "ja_text_bytes": 898,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-358",
+      "article_number": "358",
+      "filename": "kinsho-gyou-furei-article-358.md",
+      "ja_text_sha256": "1b6f8ddd76aeec2761316ba3dbe38db0da5098d1025f7be590f8780ba83f847a",
+      "ja_text_bytes": 271,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-359",
+      "article_number": "359",
+      "filename": "kinsho-gyou-furei-article-359.md",
+      "ja_text_sha256": "304afd2c5215ba30185b104def9cc011417bd43f0ee4815ee7555bd675c78c4e",
+      "ja_text_bytes": 460,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-36",
+      "article_number": "36",
+      "filename": "kinsho-gyou-furei-article-36.md",
+      "ja_text_sha256": "a88d849d554d17a95c05beea60fd544b72366f8295645222c3d1842cb152e2a8",
+      "ja_text_bytes": 1065,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-360",
+      "article_number": "360",
+      "filename": "kinsho-gyou-furei-article-360.md",
+      "ja_text_sha256": "10b5d04eabc6d10a808d6435097e041cbe2069e9868d6bb76bee86d99cb4c196",
+      "ja_text_bytes": 502,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-361",
+      "article_number": "361",
+      "filename": "kinsho-gyou-furei-article-361.md",
+      "ja_text_sha256": "3d5ab4aa702e02f2e51551ca986281bb6dc3c877cf566a4249bc7c32d02facbf",
+      "ja_text_bytes": 781,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-362",
+      "article_number": "362",
+      "filename": "kinsho-gyou-furei-article-362.md",
+      "ja_text_sha256": "6ff26af18c25bf2215ab2a0bf21347b08ce7ee4d7030bcfb19291b398689f5e0",
+      "ja_text_bytes": 2167,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-363",
+      "article_number": "363",
+      "filename": "kinsho-gyou-furei-article-363.md",
+      "ja_text_sha256": "95bef41d1c04f0a3883b1620bda1487ae7ea6535eece5af4cf4579caa4114111",
+      "ja_text_bytes": 526,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-364",
+      "article_number": "364",
+      "filename": "kinsho-gyou-furei-article-364.md",
+      "ja_text_sha256": "d78665032940b53e257f1f7ec35fec9e5e4e94b72a47e138a5249de8df3268d5",
+      "ja_text_bytes": 166,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-365",
+      "article_number": "365",
+      "filename": "kinsho-gyou-furei-article-365.md",
+      "ja_text_sha256": "7feac03e40b6c3456491c065d22ec658cd95a76d25569ae96aa8e2fa6e7c8638",
+      "ja_text_bytes": 157,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-366",
+      "article_number": "366",
+      "filename": "kinsho-gyou-furei-article-366.md",
+      "ja_text_sha256": "6c82b092c496da91d674bced674276e2ebe523d86e1906d24521c3125a8a3f50",
+      "ja_text_bytes": 715,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-367",
+      "article_number": "367",
+      "filename": "kinsho-gyou-furei-article-367.md",
+      "ja_text_sha256": "9335aab6546a56b0b9cd4e43339e1b16537efb3d0d286871cdbc654678d3a6c0",
+      "ja_text_bytes": 196,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-368",
+      "article_number": "368",
+      "filename": "kinsho-gyou-furei-article-368.md",
+      "ja_text_sha256": "9305b791986a79db09cf9e63e8b944acbaad0134c261400fc7883f87ead0bcfa",
+      "ja_text_bytes": 3685,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-369",
+      "article_number": "369",
+      "filename": "kinsho-gyou-furei-article-369.md",
+      "ja_text_sha256": "967d53ef83083cdca110a1eee14f328e17c96bb6b28001f2cd84e29d81e298b6",
+      "ja_text_bytes": 304,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-37",
+      "article_number": "37",
+      "filename": "kinsho-gyou-furei-article-37.md",
+      "ja_text_sha256": "0f96b47a8807a0be51ff33bcabfe9bc8e48868ab56335c05a0ea805f354290b0",
+      "ja_text_bytes": 1122,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-370",
+      "article_number": "370",
+      "filename": "kinsho-gyou-furei-article-370.md",
+      "ja_text_sha256": "451790c863fc04240efb5c60003d8c04e177837eb7fc0bda880681ae4b1ed242",
+      "ja_text_bytes": 508,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-38-2",
+      "article_number": "38-2",
+      "filename": "kinsho-gyou-furei-article-38-2.md",
+      "ja_text_sha256": "9377290845d93aebaf779d6dfaeb3303824ffab882b24659516fa52be6c526bd",
+      "ja_text_bytes": 753,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-38-3",
+      "article_number": "38-3",
+      "filename": "kinsho-gyou-furei-article-38-3.md",
+      "ja_text_sha256": "01c24c07657e182bf2d13eef09e2c8021f3c31afb2436bfcceed33da2fe70125",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-38-4",
+      "article_number": "38-4",
+      "filename": "kinsho-gyou-furei-article-38-4.md",
+      "ja_text_sha256": "dfec0036b518d1e39a88c6e68bda43dfb6dc6c5ef7c7595c735e8377f773060a",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-38-5",
+      "article_number": "38-5",
+      "filename": "kinsho-gyou-furei-article-38-5.md",
+      "ja_text_sha256": "525d28de414218070d4a4129c4a2162d5fbef06a44732a245374ec0b972ff3dd",
+      "ja_text_bytes": 630,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-38",
+      "article_number": "38",
+      "filename": "kinsho-gyou-furei-article-38.md",
+      "ja_text_sha256": "1e133264ca55059cc6d8b6bafca314f1401fb55840e7310930508c6a40563313",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-39",
+      "article_number": "39",
+      "filename": "kinsho-gyou-furei-article-39.md",
+      "ja_text_sha256": "8d5b156e1e08995443230ad0f99a12182f519a6e287d10b9e5d7bdbbded44ecc",
+      "ja_text_bytes": 312,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-4-2",
+      "article_number": "4-2",
+      "filename": "kinsho-gyou-furei-article-4-2.md",
+      "ja_text_sha256": "74f6e651896209c2fe9af586ffa3d181384b1f73f23bb82b5afb90dc19b7c563",
+      "ja_text_bytes": 254,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-4",
+      "article_number": "4",
+      "filename": "kinsho-gyou-furei-article-4.md",
+      "ja_text_sha256": "8947e36c7f9735ce14adaeb271dc1ec845d8225735f480f5e3a613dc81c34ba8",
+      "ja_text_bytes": 470,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-40",
+      "article_number": "40",
+      "filename": "kinsho-gyou-furei-article-40.md",
+      "ja_text_sha256": "15cb1b56eaf8411d16cac60e7379153946d25e47faa54f3198b8570631a3210b",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-41",
+      "article_number": "41",
+      "filename": "kinsho-gyou-furei-article-41.md",
+      "ja_text_sha256": "d44252ba94fba7f2c2f54e45a8210c435085a9c80b596da3d5f493911b1794ed",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-42",
+      "article_number": "42",
+      "filename": "kinsho-gyou-furei-article-42.md",
+      "ja_text_sha256": "b82aacee90def615a5ef8a5f10743c32046caaee56ff6ef7ab18c6ecb6a56c98",
+      "ja_text_bytes": 663,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-43",
+      "article_number": "43",
+      "filename": "kinsho-gyou-furei-article-43.md",
+      "ja_text_sha256": "af02875c6808fa4e3d20a4d6ba963d7028db44c61cf91eed2fe18ede4da31342",
+      "ja_text_bytes": 603,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-44-2",
+      "article_number": "44-2",
+      "filename": "kinsho-gyou-furei-article-44-2.md",
+      "ja_text_sha256": "c7d9d720be3c6dc401fb965e79772db359f71d89ce69286c04c52a7e68e45552",
+      "ja_text_bytes": 588,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-44",
+      "article_number": "44",
+      "filename": "kinsho-gyou-furei-article-44.md",
+      "ja_text_sha256": "b37d7a643a5b61cdba11e161937d535160828a753a891423b3cb2c125ff0d3f4",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-45",
+      "article_number": "45",
+      "filename": "kinsho-gyou-furei-article-45.md",
+      "ja_text_sha256": "cc21910121f7e39f005e3feab6720dfe1dcbdf4f3d8445ee0cdb2ed86ac3c063",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-46",
+      "article_number": "46",
+      "filename": "kinsho-gyou-furei-article-46.md",
+      "ja_text_sha256": "358fe57803feb69792990b447564459ef89792a60b88a9f852aa454fa22dbe5f",
+      "ja_text_bytes": 315,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-47",
+      "article_number": "47",
+      "filename": "kinsho-gyou-furei-article-47.md",
+      "ja_text_sha256": "75df47a2914c6939f953e8c5e67066ca6e4fb38578ccbd32dec8ef003f771b2a",
+      "ja_text_bytes": 569,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-48",
+      "article_number": "48",
+      "filename": "kinsho-gyou-furei-article-48.md",
+      "ja_text_sha256": "7687f22330ed68a52df81378ad5b87242044ae9fec2e4a3065ff41427b998957",
+      "ja_text_bytes": 402,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-49",
+      "article_number": "49",
+      "filename": "kinsho-gyou-furei-article-49.md",
+      "ja_text_sha256": "fdd20df30dab5e02af1224883a94c932b7b1daf29833b36e2245d08792890f76",
+      "ja_text_bytes": 195,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-5",
+      "article_number": "5",
+      "filename": "kinsho-gyou-furei-article-5.md",
+      "ja_text_sha256": "56f54f590315907b01004532f2b452e396930aafa7f2e4283fbc3dd1c6cfa099",
+      "ja_text_bytes": 770,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-50",
+      "article_number": "50",
+      "filename": "kinsho-gyou-furei-article-50.md",
+      "ja_text_sha256": "2566baba364172b7d59a667bc2c9d948ac74b43f1e60af1b5426037abb8f24eb",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-51",
+      "article_number": "51",
+      "filename": "kinsho-gyou-furei-article-51.md",
+      "ja_text_sha256": "997138ed5bee9fd32b4f735fc647599457d4b1a6796e24f0e69ddd2ee79f63c7",
+      "ja_text_bytes": 1633,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-52",
+      "article_number": "52",
+      "filename": "kinsho-gyou-furei-article-52.md",
+      "ja_text_sha256": "55f349bd5d0622c0acbd01e70f52dfcf829664fe9ac1e1fe3174df5454631b75",
+      "ja_text_bytes": 669,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-53",
+      "article_number": "53",
+      "filename": "kinsho-gyou-furei-article-53.md",
+      "ja_text_sha256": "f6a079304d1227c2b34757364a4fcdbabad5db6ba8f57b13984938ea52b0dcd8",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-54",
+      "article_number": "54",
+      "filename": "kinsho-gyou-furei-article-54.md",
+      "ja_text_sha256": "58f1f800b099f1efe65eadc9e745d470b1f80071862bd4beda9118c57116d0de",
+      "ja_text_bytes": 63,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-55",
+      "article_number": "55",
+      "filename": "kinsho-gyou-furei-article-55.md",
+      "ja_text_sha256": "7776b68a8e6293dfdd0bb5e2aeb9e90b37f1e68368ac5f9a0285151eb638b23f",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-56",
+      "article_number": "56",
+      "filename": "kinsho-gyou-furei-article-56.md",
+      "ja_text_sha256": "09d9b183390380907414a50ac40d3e61e15b650e331eb073cf3f349f53746a14",
+      "ja_text_bytes": 1147,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-57-2",
+      "article_number": "57-2",
+      "filename": "kinsho-gyou-furei-article-57-2.md",
+      "ja_text_sha256": "a917d376731707ec9b3ba991dfb9a30f50d6aefaf54086baa9aebe8b2f0d1fa1",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-57-3",
+      "article_number": "57-3",
+      "filename": "kinsho-gyou-furei-article-57-3.md",
+      "ja_text_sha256": "e7935143c1137597c3d716dcb16fbb51ccf7a4312c6f38c083d85bead186bada",
+      "ja_text_bytes": 793,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-57",
+      "article_number": "57",
+      "filename": "kinsho-gyou-furei-article-57.md",
+      "ja_text_sha256": "1790b55999aabbebc64aa267150f5ea9f27e4d30af85d69c8ac6fbc31a007843",
+      "ja_text_bytes": 237,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-58",
+      "article_number": "58",
+      "filename": "kinsho-gyou-furei-article-58.md",
+      "ja_text_sha256": "ca8824bda277f5333e2e7edb58a66a41e7d74a0d284e4ab33c6061c356ded3b9",
+      "ja_text_bytes": 830,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-59",
+      "article_number": "59",
+      "filename": "kinsho-gyou-furei-article-59.md",
+      "ja_text_sha256": "fd721765fc41ac11956b366fd44d30d5fa6f31e02981aacc32262e31fbd57a05",
+      "ja_text_bytes": 794,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-6-2",
+      "article_number": "6-2",
+      "filename": "kinsho-gyou-furei-article-6-2.md",
+      "ja_text_sha256": "97389adbb61682fe75558daf59009a33f57e433341c19133325670250ef25fab",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-6-3",
+      "article_number": "6-3",
+      "filename": "kinsho-gyou-furei-article-6-3.md",
+      "ja_text_sha256": "071af96898d1a30efe7d16553bc0319fc39da94a58224a19b173f9905e3e8a82",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-6-4",
+      "article_number": "6-4",
+      "filename": "kinsho-gyou-furei-article-6-4.md",
+      "ja_text_sha256": "5e81f4a32384dae3d4bc8ccb968a64be158546de2e19c90c83b4439ef38ea865",
+      "ja_text_bytes": 369,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-6-5",
+      "article_number": "6-5",
+      "filename": "kinsho-gyou-furei-article-6-5.md",
+      "ja_text_sha256": "54b84f036a26192015f7d1ad3d0b3b4fa3aadd25044204f1f6cd8e962f01740c",
+      "ja_text_bytes": 567,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-6-6",
+      "article_number": "6-6",
+      "filename": "kinsho-gyou-furei-article-6-6.md",
+      "ja_text_sha256": "43b5c573da71fa84111f29f5f1113492ee2e086b1e5e5f065bc1e15bc741fce0",
+      "ja_text_bytes": 1152,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-6",
+      "article_number": "6",
+      "filename": "kinsho-gyou-furei-article-6.md",
+      "ja_text_sha256": "0b46cb70f2814b0749ccd2b7c44c2f93aa7662f016450c1bd1f901c871c58014",
+      "ja_text_bytes": 504,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-60-2",
+      "article_number": "60-2",
+      "filename": "kinsho-gyou-furei-article-60-2.md",
+      "ja_text_sha256": "aaf2aa153ca0cf00cc37defc6e1452c72579927035300dec17075b8720da5dbc",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-60",
+      "article_number": "60",
+      "filename": "kinsho-gyou-furei-article-60.md",
+      "ja_text_sha256": "8cf2f55eb2912c8e93e598bbe5e28d6127ecf21eb2126ab97e231f22bd89636d",
+      "ja_text_bytes": 515,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-61",
+      "article_number": "61",
+      "filename": "kinsho-gyou-furei-article-61.md",
+      "ja_text_sha256": "85937c6dd70e9ef6a830672b8869012582a37615b5896285dbb29b177f3df5bc",
+      "ja_text_bytes": 419,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-62",
+      "article_number": "62",
+      "filename": "kinsho-gyou-furei-article-62.md",
+      "ja_text_sha256": "7b51ee302ff6c0dfeb0c2200830446e4920a3c3a045440a6838a19a695de0c5b",
+      "ja_text_bytes": 856,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-63",
+      "article_number": "63",
+      "filename": "kinsho-gyou-furei-article-63.md",
+      "ja_text_sha256": "d2fb3e8c03f8e31c6a64b2f1b3f75313f3ccf04ff031e0b4d993d2f75d70d1ff",
+      "ja_text_bytes": 815,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-64-2",
+      "article_number": "64-2",
+      "filename": "kinsho-gyou-furei-article-64-2.md",
+      "ja_text_sha256": "7596357616ec4a52aca93ad73f35652b6bd652c337011642fb5cbe4a9f1df772",
+      "ja_text_bytes": 506,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-64-3",
+      "article_number": "64-3",
+      "filename": "kinsho-gyou-furei-article-64-3.md",
+      "ja_text_sha256": "c0ced54b8b688c14a6df867f664ba0ea8b7575a66f73c82c6614a500803766a4",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-64",
+      "article_number": "64",
+      "filename": "kinsho-gyou-furei-article-64.md",
+      "ja_text_sha256": "9e206a49a727015b755fa74478638fa4deb052654afa0643d1a6fd7ac6e4634e",
+      "ja_text_bytes": 809,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-65",
+      "article_number": "65",
+      "filename": "kinsho-gyou-furei-article-65.md",
+      "ja_text_sha256": "316fee5ccaa3c030c8786a306f93a1d37ffe6a76ec470c4270f0d0aebab133bf",
+      "ja_text_bytes": 213,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-66-2",
+      "article_number": "66-2",
+      "filename": "kinsho-gyou-furei-article-66-2.md",
+      "ja_text_sha256": "20cfd0946bb2c2b0488e758a16cdb8aca4c13b4d22cab43b4bd231e24e4686ce",
+      "ja_text_bytes": 753,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-66",
+      "article_number": "66",
+      "filename": "kinsho-gyou-furei-article-66.md",
+      "ja_text_sha256": "b0103fc7d6a41ffdeb687d872d82dc062bd1329f1d45d890d197174294ce8c0f",
+      "ja_text_bytes": 237,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-67",
+      "article_number": "67",
+      "filename": "kinsho-gyou-furei-article-67.md",
+      "ja_text_sha256": "f1b4311dc712d8f706648efd7d117ee01421feee65a458f02f63b9ef6aae7da7",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-68",
+      "article_number": "68",
+      "filename": "kinsho-gyou-furei-article-68.md",
+      "ja_text_sha256": "76f53e0a53006600fe0e51754ef4912f47a5e1602e375d52a9019c80df3d6580",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-69",
+      "article_number": "69",
+      "filename": "kinsho-gyou-furei-article-69.md",
+      "ja_text_sha256": "b8f6e81fa06c15f8fb9e873b532e8c8e1dc9c254aac78a0f05e63ff689e0e6d1",
+      "ja_text_bytes": 465,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-7",
+      "article_number": "7",
+      "filename": "kinsho-gyou-furei-article-7.md",
+      "ja_text_sha256": "c9da75810c1e06440d3ffb292c21d4a9f9f567a3250fd9b282000c8d010f7eab",
+      "ja_text_bytes": 194,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-70-2",
+      "article_number": "70-2",
+      "filename": "kinsho-gyou-furei-article-70-2.md",
+      "ja_text_sha256": "c467145f1ac14c7df7b51970bbb76c73f9ebb9bcdde59d48e352190ff6cf7ca5",
+      "ja_text_bytes": 8091,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-70-3",
+      "article_number": "70-3",
+      "filename": "kinsho-gyou-furei-article-70-3.md",
+      "ja_text_sha256": "23f2e7e9defc2fc356aeb34afa50f7ddf54826ad8583e95a2a771b15d78b86da",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-70-4",
+      "article_number": "70-4",
+      "filename": "kinsho-gyou-furei-article-70-4.md",
+      "ja_text_sha256": "5648774038617ae8c7a582511638f1ce9bd7c2b3003247a4a98eaf578b078629",
+      "ja_text_bytes": 1060,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-70",
+      "article_number": "70",
+      "filename": "kinsho-gyou-furei-article-70.md",
+      "ja_text_sha256": "93f5c402bb3d55af05ba360e048255c0156e75506f4d9a48cb3798dbf1021996",
+      "ja_text_bytes": 455,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-71",
+      "article_number": "71",
+      "filename": "kinsho-gyou-furei-article-71.md",
+      "ja_text_sha256": "cfce5a45c1dd051876536eff009044ab5bceb9d7e644b2554eeeb2badcccd80f",
+      "ja_text_bytes": 924,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-72",
+      "article_number": "72",
+      "filename": "kinsho-gyou-furei-article-72.md",
+      "ja_text_sha256": "d65e42d25e69b8c7c496605ff4d0de4056c3c8add711f667ced7eeb64c6c08c3",
+      "ja_text_bytes": 993,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-73",
+      "article_number": "73",
+      "filename": "kinsho-gyou-furei-article-73.md",
+      "ja_text_sha256": "23233a0d091fbbfd2e9d0845d3cf39d496f1556fdb2038721701861c7fd13d71",
+      "ja_text_bytes": 2006,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-74",
+      "article_number": "74",
+      "filename": "kinsho-gyou-furei-article-74.md",
+      "ja_text_sha256": "ac4d3a05a878d2ab63fa6b8d6b86e5fb2e4ba63336324d95c513c9a168425704",
+      "ja_text_bytes": 2764,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-75",
+      "article_number": "75",
+      "filename": "kinsho-gyou-furei-article-75.md",
+      "ja_text_sha256": "f894005d5e6db585ebd1c14c83e2e4dfa024489e82a4a21a48f17a4980cb4b70",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-76",
+      "article_number": "76",
+      "filename": "kinsho-gyou-furei-article-76.md",
+      "ja_text_sha256": "af3e86bc61b7c0d80bc30622fefda15efd70f09e45a2aa356cb36615256f14b4",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-77",
+      "article_number": "77",
+      "filename": "kinsho-gyou-furei-article-77.md",
+      "ja_text_sha256": "702c1604f199f6e7671b24cfe34eeb2d95857ca4e63f1a40d9462ef3cc5c329f",
+      "ja_text_bytes": 395,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-78",
+      "article_number": "78",
+      "filename": "kinsho-gyou-furei-article-78.md",
+      "ja_text_sha256": "5e10826cfbcf5c3bba449f5fc62416865122b624db86afb27d3438bb0f726b8b",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-79",
+      "article_number": "79",
+      "filename": "kinsho-gyou-furei-article-79.md",
+      "ja_text_sha256": "99a3059684f3604bf20e9ad25a29ed5a9ec3212bbe287cbc2fe14d1f0de0a863",
+      "ja_text_bytes": 3479,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-8",
+      "article_number": "8",
+      "filename": "kinsho-gyou-furei-article-8.md",
+      "ja_text_sha256": "8388d54210bec826ff4304969cdb641f0aef910669c819009e8e46d7d1c207b7",
+      "ja_text_bytes": 191,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-80",
+      "article_number": "80",
+      "filename": "kinsho-gyou-furei-article-80.md",
+      "ja_text_sha256": "17a1b6c8e6761200b140cd43f1726854c1296e5ff9a49d7e57187cdbb81ae57f",
+      "ja_text_bytes": 2188,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-81",
+      "article_number": "81",
+      "filename": "kinsho-gyou-furei-article-81.md",
+      "ja_text_sha256": "ee9aaa0c5abbf29f08cf497c83fe0e49ede2aa2e12beb85751bd81654c7abf61",
+      "ja_text_bytes": 1203,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-82",
+      "article_number": "82",
+      "filename": "kinsho-gyou-furei-article-82.md",
+      "ja_text_sha256": "bec70a77ff660183dd0ef30b52224cfee1d05cb268fb1ef5ee629aaf3fdae05c",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-83",
+      "article_number": "83",
+      "filename": "kinsho-gyou-furei-article-83.md",
+      "ja_text_sha256": "caded4d51a134c962fe27e2c8716265354275b81c176df044beda8921e2f07b3",
+      "ja_text_bytes": 3200,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-84",
+      "article_number": "84",
+      "filename": "kinsho-gyou-furei-article-84.md",
+      "ja_text_sha256": "94cde1625aff8a3247791572d212a5fab1afdf33a9ac95edac09d5f9426c7834",
+      "ja_text_bytes": 1255,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-85",
+      "article_number": "85",
+      "filename": "kinsho-gyou-furei-article-85.md",
+      "ja_text_sha256": "ea23894738e827b948a10adfda86d3785549b83e8422760ba95ad86872147f91",
+      "ja_text_bytes": 1165,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-86",
+      "article_number": "86",
+      "filename": "kinsho-gyou-furei-article-86.md",
+      "ja_text_sha256": "0979381c30797c1c431b629861765aa7df7f6765dca0012e5c64752f75ffb839",
+      "ja_text_bytes": 976,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-87",
+      "article_number": "87",
+      "filename": "kinsho-gyou-furei-article-87.md",
+      "ja_text_sha256": "5b85dc9dc3146103b13f8fb7a66890e7d050ff19779207e239069acbb450dc70",
+      "ja_text_bytes": 1090,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-88",
+      "article_number": "88",
+      "filename": "kinsho-gyou-furei-article-88.md",
+      "ja_text_sha256": "a602c13a759ef120c66512ba052f37d94d554b62a0f8eab14c95ca0a9961be15",
+      "ja_text_bytes": 1090,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-89",
+      "article_number": "89",
+      "filename": "kinsho-gyou-furei-article-89.md",
+      "ja_text_sha256": "8bfc0c96e66a104caaf20461ff5429945c6253686150a3dea4df3e6c99062237",
+      "ja_text_bytes": 3130,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-9",
+      "article_number": "9",
+      "filename": "kinsho-gyou-furei-article-9.md",
+      "ja_text_sha256": "f60dab5a4b1f5dab4e310ce01b5cbe8c3879473169b9ea4b4160c3acaa75372a",
+      "ja_text_bytes": 191,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-90",
+      "article_number": "90",
+      "filename": "kinsho-gyou-furei-article-90.md",
+      "ja_text_sha256": "40c344c5493b8e0830b079adb1419117c8ca12383482a71b846398301e4c5cf1",
+      "ja_text_bytes": 3118,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-91",
+      "article_number": "91",
+      "filename": "kinsho-gyou-furei-article-91.md",
+      "ja_text_sha256": "1db2f48e12c52621bab1c28cc95ad38c5149facfe4d236bcb186509f27af1314",
+      "ja_text_bytes": 1420,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-92-2",
+      "article_number": "92-2",
+      "filename": "kinsho-gyou-furei-article-92-2.md",
+      "ja_text_sha256": "f76a9f0f899dbc914a9d17e70e790a5111704e9ffb4255ba9aa7d8da61677f7e",
+      "ja_text_bytes": 1684,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-92-3",
+      "article_number": "92-3",
+      "filename": "kinsho-gyou-furei-article-92-3.md",
+      "ja_text_sha256": "bf2b6fe2939ec5c83ba8628333b2cfa073ed771e7fd252bf966b1cc2a030ade9",
+      "ja_text_bytes": 453,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-92",
+      "article_number": "92",
+      "filename": "kinsho-gyou-furei-article-92.md",
+      "ja_text_sha256": "d893cfdaa66c09b4a48090039d599b4c109c0757331246577911528eaea57843",
+      "ja_text_bytes": 1252,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-93",
+      "article_number": "93",
+      "filename": "kinsho-gyou-furei-article-93.md",
+      "ja_text_sha256": "e31ce80db840a138127f52d9a7e96022673eb835c008d1d6e8f086c63dbe3df0",
+      "ja_text_bytes": 665,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-94",
+      "article_number": "94",
+      "filename": "kinsho-gyou-furei-article-94.md",
+      "ja_text_sha256": "2454c2dbcf57416e4d63d52b8c7ea4ed275db04b505cf96c0448c40961ca6ed8",
+      "ja_text_bytes": 656,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-95",
+      "article_number": "95",
+      "filename": "kinsho-gyou-furei-article-95.md",
+      "ja_text_sha256": "a35ed6d7122e38977d1c8e7a775ed493b090eeb972ead3e0edf1cf6c2c6ed38e",
+      "ja_text_bytes": 940,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-96-2",
+      "article_number": "96-2",
+      "filename": "kinsho-gyou-furei-article-96-2.md",
+      "ja_text_sha256": "bd62805ae79103d3c403ecd1e874f1d2f578ce30c0f1a78ebcff6a0a43cc157c",
+      "ja_text_bytes": 290,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-96",
+      "article_number": "96",
+      "filename": "kinsho-gyou-furei-article-96.md",
+      "ja_text_sha256": "212b09bc73394a947e84743e3aa6a27ee1f83ca926720222bbd8c0f2a3161847",
+      "ja_text_bytes": 1767,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-97-2",
+      "article_number": "97-2",
+      "filename": "kinsho-gyou-furei-article-97-2.md",
+      "ja_text_sha256": "c09612330398fb69f5ded127dfd8e87c39ed487f9eecba6cc52efb832c5e4650",
+      "ja_text_bytes": 381,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-97",
+      "article_number": "97",
+      "filename": "kinsho-gyou-furei-article-97.md",
+      "ja_text_sha256": "5d3c291014968ef3bbc6d52c8525a6386432f51ada9a283b389dd8ee1aa3c602",
+      "ja_text_bytes": 249,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-98-2",
+      "article_number": "98-2",
+      "filename": "kinsho-gyou-furei-article-98-2.md",
+      "ja_text_sha256": "c3804776bd11a8921e28eb90f34ff3a527d9349560ac66f8fb180a6f96f34305",
+      "ja_text_bytes": 461,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-98",
+      "article_number": "98",
+      "filename": "kinsho-gyou-furei-article-98.md",
+      "ja_text_sha256": "97fc595374acd72e395045fa97f16a84dc6628b0278ff7633b4d18cea8bf5c94",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "kinsho-gyou-furei-art-99",
+      "article_number": "99",
+      "filename": "kinsho-gyou-furei-article-99.md",
+      "ja_text_sha256": "284150dd270a386621096079a589ed8e2780a44e61906d3d3d268568fe1a4d0d",
+      "ja_text_bytes": 1763,
+      "paragraph_count": 2
+    }
+  ]
+}

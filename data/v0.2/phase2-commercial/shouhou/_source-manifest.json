@@ -1,0 +1,2058 @@
+{
+  "schema_version": "1.0",
+  "law_id": "132AC0000000048",
+  "law_name_ja": "商法",
+  "law_abbrev": "shouhou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/132AC0000000048",
+  "source_xml_path": "../../../cache/laws/132AC0000000048.xml",
+  "source_xml_sha256": "514b20923352b283870f98f2f48120201d7068155d245671815cb6a1d0e41725",
+  "source_xml_bytes": 561801,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:28:40+00:00",
+  "version_date": "1899-03-09",
+  "article_count": 255,
+  "articles": [
+    {
+      "article_id": "shouhou-art-1",
+      "article_number": "1",
+      "filename": "shouhou-article-1.md",
+      "ja_text_sha256": "1e8b0ca368e580132af8433abe48723c8a0af1476a600a499b7c45ad257110b2",
+      "ja_text_bytes": 466,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-10",
+      "article_number": "10",
+      "filename": "shouhou-article-10.md",
+      "ja_text_sha256": "8bb54b01c37771c80df25ea1cf1794b7cbba8986f0f0ae3700e8bb7b8e8593e4",
+      "ja_text_bytes": 257,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-11",
+      "article_number": "11",
+      "filename": "shouhou-article-11.md",
+      "ja_text_sha256": "f8ebc6adfde79110974c19b0674dd9c73330e9f8da2eaae9abb75c642ec9c5f7",
+      "ja_text_bytes": 339,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-12",
+      "article_number": "12",
+      "filename": "shouhou-article-12.md",
+      "ja_text_sha256": "078589a98e741eb3dbd836136f1a2b3f598df387b4a3d42f8f90625e5a70dcd7",
+      "ja_text_bytes": 564,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-13",
+      "article_number": "13",
+      "filename": "shouhou-article-13.md",
+      "ja_text_sha256": "c005e5482f03d92c6a836b232a40dff567a23e31bddfca39d41faf017aa39a78",
+      "ja_text_bytes": 134,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-14",
+      "article_number": "14",
+      "filename": "shouhou-article-14.md",
+      "ja_text_sha256": "baa7935ec13d61ce3fc09246a9aa7fc8d623c235628de09eb0348697965e164c",
+      "ja_text_bytes": 350,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-15",
+      "article_number": "15",
+      "filename": "shouhou-article-15.md",
+      "ja_text_sha256": "10d46c7d5ef437555412b0f6ce54d76354a8caad5571afb097976f15c148c81e",
+      "ja_text_bytes": 345,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-16",
+      "article_number": "16",
+      "filename": "shouhou-article-16.md",
+      "ja_text_sha256": "05db759ce21ec08583cb4b67da490661bd96a5254b4bb8f22b1cfa4570772447",
+      "ja_text_bytes": 1018,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-17",
+      "article_number": "17",
+      "filename": "shouhou-article-17.md",
+      "ja_text_sha256": "13c084f08a90905c81ca0727b08c366af0d61566223fdbdfb2678657cbcdc6c8",
+      "ja_text_bytes": 1346,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-18-2",
+      "article_number": "18-2",
+      "filename": "shouhou-article-18-2.md",
+      "ja_text_sha256": "9399ab26817675d8b3e097eabc08c52046fc3d10d2aa298e69876547ded9bf76",
+      "ja_text_bytes": 1207,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-18",
+      "article_number": "18",
+      "filename": "shouhou-article-18.md",
+      "ja_text_sha256": "e1fc39d61be27478e9884189e561eae3fe869f245b968fd3b5a2def9fa1e00ba",
+      "ja_text_bytes": 660,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-19",
+      "article_number": "19",
+      "filename": "shouhou-article-19.md",
+      "ja_text_sha256": "9931800fb21a032f7ee20afd06aac836385ff711167eb2a9c01eeadc5a1b3786",
+      "ja_text_bytes": 875,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-2",
+      "article_number": "2",
+      "filename": "shouhou-article-2.md",
+      "ja_text_sha256": "431e6e863daadfbb21b4aed993504bc21ce7e8a5e930c43abdb2f101d27aabfb",
+      "ja_text_bytes": 187,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-20",
+      "article_number": "20",
+      "filename": "shouhou-article-20.md",
+      "ja_text_sha256": "cae4bb87158958723bd260e5f1f334bed52805b80be761cc95931bb377d6ccef",
+      "ja_text_bytes": 161,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-21",
+      "article_number": "21",
+      "filename": "shouhou-article-21.md",
+      "ja_text_sha256": "c98a328697dac796a606f851094f522276cb34cc9d7f965a9d1eb342b74be8bd",
+      "ja_text_bytes": 463,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-22",
+      "article_number": "22",
+      "filename": "shouhou-article-22.md",
+      "ja_text_sha256": "78f3e38d3bd32b9547f33aea275b0c106df06d7ae32c37997619e57f257e4fe9",
+      "ja_text_bytes": 203,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-23",
+      "article_number": "23",
+      "filename": "shouhou-article-23.md",
+      "ja_text_sha256": "cc05721244771028d05fffef31a998e778fb222b158e169d37aea39e9a7c4d7e",
+      "ja_text_bytes": 426,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-24",
+      "article_number": "24",
+      "filename": "shouhou-article-24.md",
+      "ja_text_sha256": "9e7e4cdf628e6a75aae64a402ef8e6f9222d6bf3ed161fdf56f2427e1daba5da",
+      "ja_text_bytes": 395,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-25",
+      "article_number": "25",
+      "filename": "shouhou-article-25.md",
+      "ja_text_sha256": "22a2b9b32c7552ff5799114317974f930191a437771ff56b5e25735ccdd9afb4",
+      "ja_text_bytes": 384,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-26",
+      "article_number": "26",
+      "filename": "shouhou-article-26.md",
+      "ja_text_sha256": "b13a451d61a94f8c17f7d75ff01c8eab6965afccca138447444d77717acf4ee8",
+      "ja_text_bytes": 440,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-27",
+      "article_number": "27",
+      "filename": "shouhou-article-27.md",
+      "ja_text_sha256": "b77857555429707356c92f650c81e08ddc30891766f02efac41259323c03547d",
+      "ja_text_bytes": 398,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-28",
+      "article_number": "28",
+      "filename": "shouhou-article-28.md",
+      "ja_text_sha256": "cdf4ce5de2c93950eedbb39de6622e3dfd5e535c06ae0569573596d7c7747880",
+      "ja_text_bytes": 426,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-29",
+      "article_number": "29",
+      "filename": "shouhou-article-29.md",
+      "ja_text_sha256": "464e6dc69db63eb4ea7eee0f2b8242f5b08714e22839c503b20581ccda7b6abb",
+      "ja_text_bytes": 221,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-3",
+      "article_number": "3",
+      "filename": "shouhou-article-3.md",
+      "ja_text_sha256": "1dc05fd52d36487fa77f5684793dd56dcc5ce1e45ebd7d7957f77c1768cf6ab1",
+      "ja_text_bytes": 382,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-30",
+      "article_number": "30",
+      "filename": "shouhou-article-30.md",
+      "ja_text_sha256": "816bf07290bba675fab0275a179808148ca0fe245550bb94268f2ff555ba895a",
+      "ja_text_bytes": 466,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-31",
+      "article_number": "31",
+      "filename": "shouhou-article-31.md",
+      "ja_text_sha256": "aa27b4687a84f4208ad71de59d44fd16a156f9427356308ba776d573dbc406ab",
+      "ja_text_bytes": 470,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-4",
+      "article_number": "4",
+      "filename": "shouhou-article-4.md",
+      "ja_text_sha256": "be0b3f4b8f4e825b410fc4d8eab7261167f2f1d083a8638c7eaec150193d48c6",
+      "ja_text_bytes": 439,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-5",
+      "article_number": "5",
+      "filename": "shouhou-article-5.md",
+      "ja_text_sha256": "85383af29bf769dafa6bf63c33e5139e4e07bb8c5d5f3904900e9a7b9208d6cc",
+      "ja_text_bytes": 142,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-501",
+      "article_number": "501",
+      "filename": "shouhou-article-501.md",
+      "ja_text_sha256": "bca2e835aa102071bbca9c32b3f7663f8fa70c663ba9fd12ebe173a489329acf",
+      "ja_text_bytes": 105,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-502",
+      "article_number": "502",
+      "filename": "shouhou-article-502.md",
+      "ja_text_sha256": "6e08eabd68af4739d8afbf5f06dfb9dfdf5dfea5e2a3a37b994c151cfe633672",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-503",
+      "article_number": "503",
+      "filename": "shouhou-article-503.md",
+      "ja_text_sha256": "90754290195a4ff08539904715012e35c11f1f681ec80bdfc6891c98650840c8",
+      "ja_text_bytes": 245,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-504",
+      "article_number": "504",
+      "filename": "shouhou-article-504.md",
+      "ja_text_sha256": "eeff9ac1248a18dfb9998d0cb2b1fa94e40c04cb55eed5bc2b422b525b595861",
+      "ja_text_bytes": 457,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-505",
+      "article_number": "505",
+      "filename": "shouhou-article-505.md",
+      "ja_text_sha256": "0acf14ae88b558a63fd5adc6aca2a8a9bcd80dc47bf0a975252310bfab79a46a",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-506",
+      "article_number": "506",
+      "filename": "shouhou-article-506.md",
+      "ja_text_sha256": "cf3134842e48a7ce8ad94ebeb5fd7fc5746fcfdbf8fbe223f123cff3f5d863ec",
+      "ja_text_bytes": 141,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-507",
+      "article_number": "507",
+      "filename": "shouhou-article-507.md",
+      "ja_text_sha256": "6ece1c86c650e5bd1bf8c22da6f3d673c166ef930def310b212ae55d8e8848c4",
+      "ja_text_bytes": 54,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-508",
+      "article_number": "508",
+      "filename": "shouhou-article-508.md",
+      "ja_text_sha256": "fb8936f39886f5f6676605e89a9425b8cd21b64630d5caeff7a4988d1bbf8ba2",
+      "ja_text_bytes": 449,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-509",
+      "article_number": "509",
+      "filename": "shouhou-article-509.md",
+      "ja_text_sha256": "dfd281da7e97b09c81e35f060136c2aa13ad6e78ae5246632ee2efba7dc8024a",
+      "ja_text_bytes": 455,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-510",
+      "article_number": "510",
+      "filename": "shouhou-article-510.md",
+      "ja_text_sha256": "9096cbb893e0d0eee794b0b539595c0b9c529155dc713987a637dc1d56edb323",
+      "ja_text_bytes": 586,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-511",
+      "article_number": "511",
+      "filename": "shouhou-article-511.md",
+      "ja_text_sha256": "697ab70c1ca30eb0445bca3acaa596550365ec5b9fd11f08e6e101c9d65c92be",
+      "ja_text_bytes": 602,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-512",
+      "article_number": "512",
+      "filename": "shouhou-article-512.md",
+      "ja_text_sha256": "b26f807d19cbb91c6bcd530aa41f67fc20f533cdd59c5a3025ce29a4c68359c2",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-513",
+      "article_number": "513",
+      "filename": "shouhou-article-513.md",
+      "ja_text_sha256": "4b3b7700bf0e02da9a946c8fff861cd42536f0b8abb726988211f44dc14b798b",
+      "ja_text_bytes": 401,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-514",
+      "article_number": "514",
+      "filename": "shouhou-article-514.md",
+      "ja_text_sha256": "c3b2f4f80932026983b2dae21b0db251d662dab96738e481286d95280e08c80f",
+      "ja_text_bytes": 54,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-515",
+      "article_number": "515",
+      "filename": "shouhou-article-515.md",
+      "ja_text_sha256": "cefe219ea7e0487125a58819c9f9cf09064fb55e7d5a6faf0e8b987b01f4bbd5",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-516",
+      "article_number": "516",
+      "filename": "shouhou-article-516.md",
+      "ja_text_sha256": "b898e133738f39006a352192b45015a158244be6d336e2043374fa430d7cdf79",
+      "ja_text_bytes": 471,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-521",
+      "article_number": "521",
+      "filename": "shouhou-article-521.md",
+      "ja_text_sha256": "f49372c30d3fa422976efc581bb270078c4365e9af3139473d4edb81a63a5f92",
+      "ja_text_bytes": 553,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-524",
+      "article_number": "524",
+      "filename": "shouhou-article-524.md",
+      "ja_text_sha256": "39d286211f30188ef3ff14f2b880be21a97b2815e8ee3bd5121d373b8abb1d58",
+      "ja_text_bytes": 1136,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-525",
+      "article_number": "525",
+      "filename": "shouhou-article-525.md",
+      "ja_text_sha256": "17153490bc600256c19a51965156ffaaa4964db9c2058f99204268831d31da58",
+      "ja_text_bytes": 477,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-526",
+      "article_number": "526",
+      "filename": "shouhou-article-526.md",
+      "ja_text_sha256": "f1cb0726eb6e4239928b7a3c483947b95d27cbb8cf69bcad38ff1bb79df6b4a9",
+      "ja_text_bytes": 1189,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-527",
+      "article_number": "527",
+      "filename": "shouhou-article-527.md",
+      "ja_text_sha256": "ceef093d82053ec82d6e0083d6e3246c4d08bfe05dec91db1d0e5403667471a3",
+      "ja_text_bytes": 1195,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-528",
+      "article_number": "528",
+      "filename": "shouhou-article-528.md",
+      "ja_text_sha256": "c561970e2d7481865a250e810bc4a689c8d26b8429d76dc67f4f50268146c10e",
+      "ja_text_bytes": 417,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-529",
+      "article_number": "529",
+      "filename": "shouhou-article-529.md",
+      "ja_text_sha256": "90b55c39fb35cc8e3b073933de0a7c33e13849f522a7aa875e6b7a2eb793a8d8",
+      "ja_text_bytes": 354,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-530",
+      "article_number": "530",
+      "filename": "shouhou-article-530.md",
+      "ja_text_sha256": "715b315a7007047e6b0cba58c65176a155f659acef85dd3aff829651341163bd",
+      "ja_text_bytes": 327,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-531",
+      "article_number": "531",
+      "filename": "shouhou-article-531.md",
+      "ja_text_sha256": "fcf418df37761c6289ae84cdb69390eb170097468c8494e80eaf21300dc88ec3",
+      "ja_text_bytes": 156,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-532",
+      "article_number": "532",
+      "filename": "shouhou-article-532.md",
+      "ja_text_sha256": "2ff243e1efa2532e7521a62305af38da795b36e371602851cc95b82a0b502eb1",
+      "ja_text_bytes": 385,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-533",
+      "article_number": "533",
+      "filename": "shouhou-article-533.md",
+      "ja_text_sha256": "eabfd97eafa1f0fa6fec70206233ac07e95205046e99a26fd11c4accd980f15b",
+      "ja_text_bytes": 407,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-534",
+      "article_number": "534",
+      "filename": "shouhou-article-534.md",
+      "ja_text_sha256": "4fe58a6b5db6b7050f9b89538bd9c63b5b6da5bc82faced6e6c1ac2d8a433432",
+      "ja_text_bytes": 378,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-535",
+      "article_number": "535",
+      "filename": "shouhou-article-535.md",
+      "ja_text_sha256": "787ec7184163a2e01b1ee1f85865a8269290c8ce9ce7dad1d8d871838dfc5791",
+      "ja_text_bytes": 252,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-536",
+      "article_number": "536",
+      "filename": "shouhou-article-536.md",
+      "ja_text_sha256": "732c774b72c75773e205e6f0eb855eb68c9bca93f01948abf738a49ea696c3d5",
+      "ja_text_bytes": 585,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-537",
+      "article_number": "537",
+      "filename": "shouhou-article-537.md",
+      "ja_text_sha256": "7ab55f6f6fd73486882ecd621d926c1d87c7a07bf668ade063a7b6984aa079b9",
+      "ja_text_bytes": 354,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-538",
+      "article_number": "538",
+      "filename": "shouhou-article-538.md",
+      "ja_text_sha256": "09cc1951d28d517dbfe49002aa73710a1ead172eec32b15808856affb124e9ff",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-539",
+      "article_number": "539",
+      "filename": "shouhou-article-539.md",
+      "ja_text_sha256": "aed2faef41ebd6d1b4e56522d44dae68a6024d5a93ff2ce34b5a98d1d446363a",
+      "ja_text_bytes": 724,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-540",
+      "article_number": "540",
+      "filename": "shouhou-article-540.md",
+      "ja_text_sha256": "968ae3012e254c145b174dc8dc39681df6dafd9c82f6cdd0d87002e28fc328c1",
+      "ja_text_bytes": 711,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-541",
+      "article_number": "541",
+      "filename": "shouhou-article-541.md",
+      "ja_text_sha256": "1dfe300649d25a37c41e8c1402b9caec4b220cf6dbf535167fa9bf1abac4916d",
+      "ja_text_bytes": 156,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-542",
+      "article_number": "542",
+      "filename": "shouhou-article-542.md",
+      "ja_text_sha256": "5b9a873ee85455cf438fbb5beaff64df0b773684ddd1e656acec66a5855bc11c",
+      "ja_text_bytes": 355,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-543",
+      "article_number": "543",
+      "filename": "shouhou-article-543.md",
+      "ja_text_sha256": "e4c863f50c62c4d716cf479215d37b5be45afeef6dba014098eb15908370a4e6",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-544",
+      "article_number": "544",
+      "filename": "shouhou-article-544.md",
+      "ja_text_sha256": "02446043c597edf02dede438ecca0187ddcfc57ba9c5f86d6329daac22be2f8d",
+      "ja_text_bytes": 376,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-545",
+      "article_number": "545",
+      "filename": "shouhou-article-545.md",
+      "ja_text_sha256": "aea90ed8e6fc52d723a1d67883c766ae26e6dee85077c4958d122141a4587878",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-546",
+      "article_number": "546",
+      "filename": "shouhou-article-546.md",
+      "ja_text_sha256": "18994e30ab5f73b226e140abfbb6f54da6d450f54fb5f846810a5af4d70aaef8",
+      "ja_text_bytes": 985,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-547",
+      "article_number": "547",
+      "filename": "shouhou-article-547.md",
+      "ja_text_sha256": "9b14b2eeb1a2a4056cb572b60f85fd32fdb385de5041ad223ca848a5194636c6",
+      "ja_text_bytes": 401,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-548",
+      "article_number": "548",
+      "filename": "shouhou-article-548.md",
+      "ja_text_sha256": "3a0c958e956a4cc3fa051e3c52501a4917ce841907b8fa4446707110b40dc7ff",
+      "ja_text_bytes": 282,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-549",
+      "article_number": "549",
+      "filename": "shouhou-article-549.md",
+      "ja_text_sha256": "3f6068401cac18017dbcd324d3d9f8140d63ddb580a126bea24c58a8bb67273d",
+      "ja_text_bytes": 219,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-550",
+      "article_number": "550",
+      "filename": "shouhou-article-550.md",
+      "ja_text_sha256": "02df3b6ff6f6866513e6ee294a556bfb37d7e2da7557db45945a36f51e87e98d",
+      "ja_text_bytes": 299,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-551",
+      "article_number": "551",
+      "filename": "shouhou-article-551.md",
+      "ja_text_sha256": "7b53bae74303d53ac269ebb9c698ec52001732ced7f67884f388e52ae5b1d022",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-552",
+      "article_number": "552",
+      "filename": "shouhou-article-552.md",
+      "ja_text_sha256": "6c577e531f99251f5d3f222c60074d5688874bfc3b80f2927dc72f713a0f8b4b",
+      "ja_text_bytes": 383,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-553",
+      "article_number": "553",
+      "filename": "shouhou-article-553.md",
+      "ja_text_sha256": "a6781d6be239a99849e4ab79ce0fd10a653dbedcb9413cdfb962a8bb88b46a6b",
+      "ja_text_bytes": 391,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-554",
+      "article_number": "554",
+      "filename": "shouhou-article-554.md",
+      "ja_text_sha256": "938157236cf79729272977cdf9e84450bab6b7476f153112ec6f7fda2a1db390",
+      "ja_text_bytes": 309,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-555",
+      "article_number": "555",
+      "filename": "shouhou-article-555.md",
+      "ja_text_sha256": "77bf7be191b05d0e418ca35f0c380bfe4e9da4f79f746f67f08500d08e694ac3",
+      "ja_text_bytes": 626,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-556",
+      "article_number": "556",
+      "filename": "shouhou-article-556.md",
+      "ja_text_sha256": "224cde4700e0ff7f143329f027dfc85b0b35135fff6eab48b4536a1856b15e69",
+      "ja_text_bytes": 270,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-557",
+      "article_number": "557",
+      "filename": "shouhou-article-557.md",
+      "ja_text_sha256": "3913346bb5653ea9e72882313e786a8bfafda3c042a19c97c4787a61f647e771",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-558",
+      "article_number": "558",
+      "filename": "shouhou-article-558.md",
+      "ja_text_sha256": "e63559eaca169ff22a47d7c52fc5fa54dde9e9fbde20de8dd5c2a8d66332f41e",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-559",
+      "article_number": "559",
+      "filename": "shouhou-article-559.md",
+      "ja_text_sha256": "461ffab689bf70b5dd8c85915e3cea0705f307e3a6636a5715c68b6fe18da8ad",
+      "ja_text_bytes": 407,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-560",
+      "article_number": "560",
+      "filename": "shouhou-article-560.md",
+      "ja_text_sha256": "d697ef1377959149142fc40ebbd057ad443f914385519b97f17607879d947d2e",
+      "ja_text_bytes": 643,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-561",
+      "article_number": "561",
+      "filename": "shouhou-article-561.md",
+      "ja_text_sha256": "62a4b0e840efde3cbfaab7620643707220a043cbadcad65d23142a6b8d66a4f1",
+      "ja_text_bytes": 383,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-562",
+      "article_number": "562",
+      "filename": "shouhou-article-562.md",
+      "ja_text_sha256": "582634e65fcb5c8b9a09847b4d4ba079804b5eb68597487e33b3a59f71fdf47a",
+      "ja_text_bytes": 273,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-563",
+      "article_number": "563",
+      "filename": "shouhou-article-563.md",
+      "ja_text_sha256": "e76430e83f44ceef4749db7459db1b5f01227b9f059ae91a17cf1ad5ad16e711",
+      "ja_text_bytes": 503,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-564",
+      "article_number": "564",
+      "filename": "shouhou-article-564.md",
+      "ja_text_sha256": "27fdba66cbf7269521f4becce73504a91724fd70cd8bc09f013b5fe8065438d5",
+      "ja_text_bytes": 771,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-569",
+      "article_number": "569",
+      "filename": "shouhou-article-569.md",
+      "ja_text_sha256": "df1cd2614803055494e2c8e11ac430e4fe846603964394c1389ead430206c814",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-570",
+      "article_number": "570",
+      "filename": "shouhou-article-570.md",
+      "ja_text_sha256": "586b23fd2694ca6511c29d23f9a672d0e1eade90157a5a1b6bb9b0e96912094b",
+      "ja_text_bytes": 318,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-571",
+      "article_number": "571",
+      "filename": "shouhou-article-571.md",
+      "ja_text_sha256": "bebb8e8db421d98c08671f06a1a8b5c1463e1e5357cc3563562ae2c283de91a8",
+      "ja_text_bytes": 869,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-572",
+      "article_number": "572",
+      "filename": "shouhou-article-572.md",
+      "ja_text_sha256": "5ca42026f0dac6ff7fbb0bd25ed1b24c517ad460baf850b8761d2450b04e4c3f",
+      "ja_text_bytes": 354,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-573",
+      "article_number": "573",
+      "filename": "shouhou-article-573.md",
+      "ja_text_sha256": "b3151702642ca7752a3385193a49a94fdfb255bf98bb38eae86b13b5c3621404",
+      "ja_text_bytes": 368,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-574",
+      "article_number": "574",
+      "filename": "shouhou-article-574.md",
+      "ja_text_sha256": "94adcca7507c201be5c22ff97612dcd31cb55d7f6dfdb1b2a808bb4f77437a80",
+      "ja_text_bytes": 312,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-575",
+      "article_number": "575",
+      "filename": "shouhou-article-575.md",
+      "ja_text_sha256": "b8f82f35c00baac32addbd265a15bd9f94eff68de31d93a225e60732e0c78226",
+      "ja_text_bytes": 574,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-576",
+      "article_number": "576",
+      "filename": "shouhou-article-576.md",
+      "ja_text_sha256": "590572be1f5d68b61594f2b00f2021aacaadc5a3c4c848aeeed45a05a21b4922",
+      "ja_text_bytes": 923,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-577",
+      "article_number": "577",
+      "filename": "shouhou-article-577.md",
+      "ja_text_sha256": "8f22cec659cb4224cd58d8135bd14f47a2eba2fb92196b99e20d6321930f3c9f",
+      "ja_text_bytes": 437,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-578",
+      "article_number": "578",
+      "filename": "shouhou-article-578.md",
+      "ja_text_sha256": "a3f5179ca4962a0b8f1a481ef9829c2e361b23d075265c253a0ace1a34c8fde6",
+      "ja_text_bytes": 788,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-579",
+      "article_number": "579",
+      "filename": "shouhou-article-579.md",
+      "ja_text_sha256": "7f7aa82dcc99bcdaa8da8fd0aa93293d07281f490efe0777de7350d4c1a2fc1f",
+      "ja_text_bytes": 861,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-580",
+      "article_number": "580",
+      "filename": "shouhou-article-580.md",
+      "ja_text_sha256": "ae118a5c50a547360421b0a4f05b200dd526b637710dbe8905e7177a95939b69",
+      "ja_text_bytes": 477,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-581",
+      "article_number": "581",
+      "filename": "shouhou-article-581.md",
+      "ja_text_sha256": "a446d3a8d7aa1acc8c988cff7d719f7f14a6b6f7019ea83c0efd141af6f383a4",
+      "ja_text_bytes": 643,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-582",
+      "article_number": "582",
+      "filename": "shouhou-article-582.md",
+      "ja_text_sha256": "5eaab6f8ba977628cbd0704dd652278b63917e4ae3a6dcdf6cb3a524e9786842",
+      "ja_text_bytes": 1335,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shouhou-art-583",
+      "article_number": "583",
+      "filename": "shouhou-article-583.md",
+      "ja_text_sha256": "c5c1433250cc167a3d8e3296677a078bca1156064850eb50497414cb70abcbf6",
+      "ja_text_bytes": 552,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-584",
+      "article_number": "584",
+      "filename": "shouhou-article-584.md",
+      "ja_text_sha256": "bfbbd428224affe0bd773fb5b96bb7f546855daef2982583ec4f3990ef7f6ba6",
+      "ja_text_bytes": 1208,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-585",
+      "article_number": "585",
+      "filename": "shouhou-article-585.md",
+      "ja_text_sha256": "b86611291e5f906a6f5eb7138532f2274d269a6c1229098cc2b8bd047ddf53ae",
+      "ja_text_bytes": 952,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-586",
+      "article_number": "586",
+      "filename": "shouhou-article-586.md",
+      "ja_text_sha256": "308910ca9e1c03ca35c2ddce78d009aee45ba0fa0893c4692d3abe9929746d8b",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-587",
+      "article_number": "587",
+      "filename": "shouhou-article-587.md",
+      "ja_text_sha256": "1c12e252b8166bf266534445019f43b23d6f1eb26957c25be6b12d1d0b9952fa",
+      "ja_text_bytes": 585,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-588",
+      "article_number": "588",
+      "filename": "shouhou-article-588.md",
+      "ja_text_sha256": "d5718e6be765ed69e71bfa397b206d28efea391230a7c321a469db0c4d640bf8",
+      "ja_text_bytes": 653,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-589",
+      "article_number": "589",
+      "filename": "shouhou-article-589.md",
+      "ja_text_sha256": "095aeea6ed55ecc272d8a9b35d38c325cbbcfc7c7135b0245fd9fb36db79c8cc",
+      "ja_text_bytes": 252,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-590",
+      "article_number": "590",
+      "filename": "shouhou-article-590.md",
+      "ja_text_sha256": "17e43d81eee2ae3d80e9a1f978f9cedf90cbaf667890a2aadf80a1e7539d0827",
+      "ja_text_bytes": 325,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-591",
+      "article_number": "591",
+      "filename": "shouhou-article-591.md",
+      "ja_text_sha256": "2b1ca424a6de6d5df003979a907de269a8abba61d1ceef1ee778656627758699",
+      "ja_text_bytes": 383,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-592",
+      "article_number": "592",
+      "filename": "shouhou-article-592.md",
+      "ja_text_sha256": "ea09e736c33f2d4d31f6d4e99ab49f99307076c05a9a1b3deef0d3115a992b12",
+      "ja_text_bytes": 1778,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "shouhou-art-593",
+      "article_number": "593",
+      "filename": "shouhou-article-593.md",
+      "ja_text_sha256": "ab84f20537b863c579a7b6185acc31602efe85a68f8d5c5a19d0b8c9c37b49a8",
+      "ja_text_bytes": 1568,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-594",
+      "article_number": "594",
+      "filename": "shouhou-article-594.md",
+      "ja_text_sha256": "275d80ccf8a4c9b8fde00d793781e219758b4a3a322a9a54066dda150d71cd10",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-595",
+      "article_number": "595",
+      "filename": "shouhou-article-595.md",
+      "ja_text_sha256": "c301f2ce2a420d110b1d3a3cef9b613198971a7235a89f8b87344f0a04680782",
+      "ja_text_bytes": 261,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-596",
+      "article_number": "596",
+      "filename": "shouhou-article-596.md",
+      "ja_text_sha256": "3dbe0e20785280ae72acd9379a69e17fd30452b2fd1db9d52cf9a8b1822a5e6b",
+      "ja_text_bytes": 973,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-597",
+      "article_number": "597",
+      "filename": "shouhou-article-597.md",
+      "ja_text_sha256": "463f6618388657bb2a558cea8f3de27cfc14321afc300fb100b751e7de7b7cea",
+      "ja_text_bytes": 321,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-598",
+      "article_number": "598",
+      "filename": "shouhou-article-598.md",
+      "ja_text_sha256": "4f5be9eaa02bb1c61ea265c9ecd9eb471e1dc8cc0a1d9ef7fa417a20ff50e4f7",
+      "ja_text_bytes": 581,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-599",
+      "article_number": "599",
+      "filename": "shouhou-article-599.md",
+      "ja_text_sha256": "a99bf5d2d2d73c03a0c972c45c5d304f969005332887ab282d8276d06988e25c",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-6",
+      "article_number": "6",
+      "filename": "shouhou-article-6.md",
+      "ja_text_sha256": "bc8b976bba0c1c43d097b09042920db183b103b96e92e11368c55b090620e507",
+      "ja_text_bytes": 316,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-600",
+      "article_number": "600",
+      "filename": "shouhou-article-600.md",
+      "ja_text_sha256": "2e72952c3682b1a931c86906d5c66c3e6c2e61fd5b7be9f3e7918b06308c5ae9",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-601",
+      "article_number": "601",
+      "filename": "shouhou-article-601.md",
+      "ja_text_sha256": "2e67434f3aea64da92c55ca9cabfe0af1ff4030637282395aec1f4428575db5e",
+      "ja_text_bytes": 219,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-602",
+      "article_number": "602",
+      "filename": "shouhou-article-602.md",
+      "ja_text_sha256": "fae26e19485e83950013629e64642ab78716046f6d56ae0ea26591425e4976aa",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-603",
+      "article_number": "603",
+      "filename": "shouhou-article-603.md",
+      "ja_text_sha256": "edffd81cf0fe43da095126642ce675e98d021e8960b95fdd39e15b6531a80190",
+      "ja_text_bytes": 605,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-604",
+      "article_number": "604",
+      "filename": "shouhou-article-604.md",
+      "ja_text_sha256": "91b715a5fd09a051045c3f5c048c0749d78e4aa13c13865ef7cc50660210c6bc",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-605",
+      "article_number": "605",
+      "filename": "shouhou-article-605.md",
+      "ja_text_sha256": "1570078e8ab1b93e3c62003a6d9c4bd4c783b9d61c1252659746aae97cb61ebb",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-606",
+      "article_number": "606",
+      "filename": "shouhou-article-606.md",
+      "ja_text_sha256": "ad6f0496f932eb8bd6e7be166890b7e2ce56f656fcde325dfd9176672a6cb15e",
+      "ja_text_bytes": 358,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-607",
+      "article_number": "607",
+      "filename": "shouhou-article-607.md",
+      "ja_text_sha256": "1d2ec8bb815fba8aad31888a630d75df1435452f1f42d21aef97e9cdeb2735e2",
+      "ja_text_bytes": 300,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-608",
+      "article_number": "608",
+      "filename": "shouhou-article-608.md",
+      "ja_text_sha256": "ad7605ce316dc023884c128a29f4ef0fe861c41eb0702196127342f76677094c",
+      "ja_text_bytes": 402,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-609",
+      "article_number": "609",
+      "filename": "shouhou-article-609.md",
+      "ja_text_sha256": "e2d0e7613eb6ee03dcda699d9a4637250f1b46bd737bee2a92924445dbe705de",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-610",
+      "article_number": "610",
+      "filename": "shouhou-article-610.md",
+      "ja_text_sha256": "24cbfd31010d8e46944efed5b4f35e35063dcb8d877fbb5e4c7a9c28901445cc",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-611",
+      "article_number": "611",
+      "filename": "shouhou-article-611.md",
+      "ja_text_sha256": "bad3e2994a33aed1ca3df8d479208a0df923fcd000dd71f005152775eead758c",
+      "ja_text_bytes": 499,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-612",
+      "article_number": "612",
+      "filename": "shouhou-article-612.md",
+      "ja_text_sha256": "39bbf50869088685657fe6adaa037ef8f0d1782aa6f429a07cbc2512d3bb565d",
+      "ja_text_bytes": 403,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-613",
+      "article_number": "613",
+      "filename": "shouhou-article-613.md",
+      "ja_text_sha256": "566ba685cf248fbf6c12eeb042c03b2bcaa5ec7c7b3062fe0ea9c2ff2db92544",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-614",
+      "article_number": "614",
+      "filename": "shouhou-article-614.md",
+      "ja_text_sha256": "b36e35dd3cc4e2998d61c1b272ec9574a6f4ddc603ef1af574c887b8e4a6617c",
+      "ja_text_bytes": 576,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-615",
+      "article_number": "615",
+      "filename": "shouhou-article-615.md",
+      "ja_text_sha256": "33afeed2ac528d12e399414695a72a3a24775bbf75c3afb82d22e7623688f31d",
+      "ja_text_bytes": 261,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-616",
+      "article_number": "616",
+      "filename": "shouhou-article-616.md",
+      "ja_text_sha256": "dac61411847cf7594c9f7e274463ac1327b6f7ce6c0b15077b2adf844d033f08",
+      "ja_text_bytes": 834,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-617",
+      "article_number": "617",
+      "filename": "shouhou-article-617.md",
+      "ja_text_sha256": "fb06bf395c5e57011bb90625f1f9e465683e283dde5d0283cda2ec3c35d72690",
+      "ja_text_bytes": 763,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-684",
+      "article_number": "684",
+      "filename": "shouhou-article-684.md",
+      "ja_text_sha256": "c3d42910141b4274698ab4e4fa98225c77cefb24b89718fe0308ffdc1d853dee",
+      "ja_text_bytes": 324,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-685",
+      "article_number": "685",
+      "filename": "shouhou-article-685.md",
+      "ja_text_sha256": "bc89c1496a176945128d274ccb2f693501e0d80ac66bd107e24e59d66c10e22b",
+      "ja_text_bytes": 233,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-686",
+      "article_number": "686",
+      "filename": "shouhou-article-686.md",
+      "ja_text_sha256": "69f3ae644d4179a06ee719194d92e8e912b7086972ba2d0d96d0ec935c517e89",
+      "ja_text_bytes": 389,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-687",
+      "article_number": "687",
+      "filename": "shouhou-article-687.md",
+      "ja_text_sha256": "10037a743ca4e8f68cb985e34344a779fabb0391c5d39ed0988ae7d4f5f907a6",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-688",
+      "article_number": "688",
+      "filename": "shouhou-article-688.md",
+      "ja_text_sha256": "3aaf7ebdb695a664776f65bac13410d0fa41010686a20291fddbd1debf952e1e",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-689",
+      "article_number": "689",
+      "filename": "shouhou-article-689.md",
+      "ja_text_sha256": "b958a7e037361b7b43b25cc7ff2d66de39ae51d5f6793033f9340f545a4ad191",
+      "ja_text_bytes": 258,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-690",
+      "article_number": "690",
+      "filename": "shouhou-article-690.md",
+      "ja_text_sha256": "d8e85e61da85197922f9b7c7a27a4d515e0e1efa83a3db9d66dbe1dd5e8674d9",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-691",
+      "article_number": "691",
+      "filename": "shouhou-article-691.md",
+      "ja_text_sha256": "d1623d64ff10916854a25955bb01d71d9e6fdd65cc63161c5acd7561825b3a32",
+      "ja_text_bytes": 342,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-692",
+      "article_number": "692",
+      "filename": "shouhou-article-692.md",
+      "ja_text_sha256": "d86abd815d1c733295ca02ff28fa257ec0d1ce7bb4adf53f5f2f0f63cbe60186",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-693",
+      "article_number": "693",
+      "filename": "shouhou-article-693.md",
+      "ja_text_sha256": "08cf3d3534613b2b35a9038d7da10431b1f68ceba2b4c72e5419fbc72ee690ea",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-694",
+      "article_number": "694",
+      "filename": "shouhou-article-694.md",
+      "ja_text_sha256": "7a65553d4d0e9d1ca4416151787a79319342faad3e16f19d42f522c95750c2d2",
+      "ja_text_bytes": 680,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-695",
+      "article_number": "695",
+      "filename": "shouhou-article-695.md",
+      "ja_text_sha256": "e1322f5bfd5112574f1b75d50772371110fc467f2c19de544aaabd41108e8180",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-696",
+      "article_number": "696",
+      "filename": "shouhou-article-696.md",
+      "ja_text_sha256": "34d894f079156d30f4111e61ba54e7558f61ee91b373e8b39363fdf3b55e8fb4",
+      "ja_text_bytes": 551,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-697",
+      "article_number": "697",
+      "filename": "shouhou-article-697.md",
+      "ja_text_sha256": "744b5b8bc2fb39ad3d29031a0851ec47ec9179950cf12d418f86f664986b0323",
+      "ja_text_bytes": 687,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-698",
+      "article_number": "698",
+      "filename": "shouhou-article-698.md",
+      "ja_text_sha256": "a94a43fd142f0e0ae120185f3337c1084c434cf80c20ea94808c42dafdc562db",
+      "ja_text_bytes": 398,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-699",
+      "article_number": "699",
+      "filename": "shouhou-article-699.md",
+      "ja_text_sha256": "512257cbded90bddf9bc1ab640ab06bb4e4e4ec2151b7779be341326e154b408",
+      "ja_text_bytes": 398,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-7",
+      "article_number": "7",
+      "filename": "shouhou-article-7.md",
+      "ja_text_sha256": "dc37145bea479f1f527f6336a5e36dff02bce3f731c04ff4490baad5254399ce",
+      "ja_text_bytes": 409,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-700",
+      "article_number": "700",
+      "filename": "shouhou-article-700.md",
+      "ja_text_sha256": "20f49699f632f9eb2209827529e09af0f6a72ed9d42f9497b3eb3ed6569d22a7",
+      "ja_text_bytes": 315,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-701",
+      "article_number": "701",
+      "filename": "shouhou-article-701.md",
+      "ja_text_sha256": "ac2497ea53034f885a253837ebd473362580f4b36d7bba4a29185acad76516bb",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-702",
+      "article_number": "702",
+      "filename": "shouhou-article-702.md",
+      "ja_text_sha256": "0372495d88ad88f709228ebb30314a3204bc63a805342d07fb48181fcd8210af",
+      "ja_text_bytes": 490,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-703",
+      "article_number": "703",
+      "filename": "shouhou-article-703.md",
+      "ja_text_sha256": "25d40ac0d36f3be66b43c088748259ba214c58a7365e8437654ebfbb5ffeaec3",
+      "ja_text_bytes": 672,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-704",
+      "article_number": "704",
+      "filename": "shouhou-article-704.md",
+      "ja_text_sha256": "6feca3713fe6ab13bac3b774bebdf34618b30f34f628eb0a8f33c0b5ca2ddfc8",
+      "ja_text_bytes": 351,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-705",
+      "article_number": "705",
+      "filename": "shouhou-article-705.md",
+      "ja_text_sha256": "ee63ebe4fa9bb5ee587c3b7027ad35d4757b245f694dcbd1d51928cd8e69d268",
+      "ja_text_bytes": 370,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-706",
+      "article_number": "706",
+      "filename": "shouhou-article-706.md",
+      "ja_text_sha256": "53e712411d8bd59f0a30fd625ec3bd29376a8e349834f9864e8a1ea4d01f15e6",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-707",
+      "article_number": "707",
+      "filename": "shouhou-article-707.md",
+      "ja_text_sha256": "0a8f2709f66ba9907b68355cf7ba96b47dd259362e5f484eb290d51b9ad51eb8",
+      "ja_text_bytes": 660,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-708",
+      "article_number": "708",
+      "filename": "shouhou-article-708.md",
+      "ja_text_sha256": "d59408fd5bf3bc71fd273095265282c6e4c9a231f43070722f6c41f96ed22431",
+      "ja_text_bytes": 410,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-709",
+      "article_number": "709",
+      "filename": "shouhou-article-709.md",
+      "ja_text_sha256": "a0ac8df6cbf9481be97159e5d7919f8757c39501c09c5e45804c385795584120",
+      "ja_text_bytes": 501,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-710",
+      "article_number": "710",
+      "filename": "shouhou-article-710.md",
+      "ja_text_sha256": "feda3809390a6d9759a1670a713db599467a47063abfaa4d547a0833b2a22627",
+      "ja_text_bytes": 123,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-711",
+      "article_number": "711",
+      "filename": "shouhou-article-711.md",
+      "ja_text_sha256": "e7b572f8c22cd5f8b9fba3853f89e7cc24be04a2d19d0dd9b385bd82b966b5a0",
+      "ja_text_bytes": 723,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-712",
+      "article_number": "712",
+      "filename": "shouhou-article-712.md",
+      "ja_text_sha256": "e9d12b80d2ee3dbdfc4d761265796beea291142e821b40da983eceb565711306",
+      "ja_text_bytes": 506,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-713",
+      "article_number": "713",
+      "filename": "shouhou-article-713.md",
+      "ja_text_sha256": "45e5c6e677f67992b7abbcadb1f8fc169b2201ba5d634086602e0d938f01e2fa",
+      "ja_text_bytes": 385,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-714",
+      "article_number": "714",
+      "filename": "shouhou-article-714.md",
+      "ja_text_sha256": "05a69f2b2fea3cd1905017e7c10e605da017d256ca71192d3fc9545ecde13346",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-715",
+      "article_number": "715",
+      "filename": "shouhou-article-715.md",
+      "ja_text_sha256": "9e52a0888360a124d4ff388a2ac21b6258c17c0eaa5bd311bce4d80065542a17",
+      "ja_text_bytes": 933,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-737",
+      "article_number": "737",
+      "filename": "shouhou-article-737.md",
+      "ja_text_sha256": "2b6413c45d164504732b835b81d4325dad8acbea955904c4119464ebb7fc0cbd",
+      "ja_text_bytes": 821,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-738",
+      "article_number": "738",
+      "filename": "shouhou-article-738.md",
+      "ja_text_sha256": "b2d62675f1b31ed506690ec0940bebf582faff3a335ba9a3340300ccfa50de80",
+      "ja_text_bytes": 156,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-739",
+      "article_number": "739",
+      "filename": "shouhou-article-739.md",
+      "ja_text_sha256": "1a71bdc010737262209b2ae5aa7f1d249d33a1b92085a557eeabc1d559e89ed9",
+      "ja_text_bytes": 545,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-740",
+      "article_number": "740",
+      "filename": "shouhou-article-740.md",
+      "ja_text_sha256": "24b18773e2ce9b900e7bf954b825c4dd54344ce73890e7e9676f9e2aac068c73",
+      "ja_text_bytes": 766,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-741",
+      "article_number": "741",
+      "filename": "shouhou-article-741.md",
+      "ja_text_sha256": "e60942493259506bd4e52432e711bcf619bcdf2b7181a09ac8525317f275c53c",
+      "ja_text_bytes": 467,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-742",
+      "article_number": "742",
+      "filename": "shouhou-article-742.md",
+      "ja_text_sha256": "da106744c54905791123f3bfc006f2bc9fa743702c9d8b6c734a6f0ef94ac31e",
+      "ja_text_bytes": 373,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-743",
+      "article_number": "743",
+      "filename": "shouhou-article-743.md",
+      "ja_text_sha256": "21a28c6ffdb0cbbb53109a1fa2e1f2b6784383609f29aeab47c074ad5fb0ebbc",
+      "ja_text_bytes": 873,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-744",
+      "article_number": "744",
+      "filename": "shouhou-article-744.md",
+      "ja_text_sha256": "9fdb0c8b26baae9c936017f89333e74a72c7220f40c13fa68983b11e904a9932",
+      "ja_text_bytes": 249,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-745",
+      "article_number": "745",
+      "filename": "shouhou-article-745.md",
+      "ja_text_sha256": "f972f480fa1d4dca67a2d3139d28353c43fcae5887966d051a81dff2c2631c24",
+      "ja_text_bytes": 363,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-746",
+      "article_number": "746",
+      "filename": "shouhou-article-746.md",
+      "ja_text_sha256": "a571d62a0193ab1be2963c7b26868836284c2b7b702561d06f7b5dcaeabe04a2",
+      "ja_text_bytes": 228,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-747",
+      "article_number": "747",
+      "filename": "shouhou-article-747.md",
+      "ja_text_sha256": "0480c641d9b9a5b9c8682621befb3bfe098acf1a4f9284e0eb6c3766a152d485",
+      "ja_text_bytes": 441,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-748",
+      "article_number": "748",
+      "filename": "shouhou-article-748.md",
+      "ja_text_sha256": "c609ae68097d71ebce33fda1568185b3a226c3cab82c754fd24d70c8bfa4a649",
+      "ja_text_bytes": 1057,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-749",
+      "article_number": "749",
+      "filename": "shouhou-article-749.md",
+      "ja_text_sha256": "4d975990ff3f48fe7aba128215b261e2203cf02ecb3096185dbe1141aed92fda",
+      "ja_text_bytes": 512,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-750",
+      "article_number": "750",
+      "filename": "shouhou-article-750.md",
+      "ja_text_sha256": "fbe7025a2ea3251af0e68a0a8eeb371e0da9b5e63182770fbd3b9c17a9434782",
+      "ja_text_bytes": 572,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-751",
+      "article_number": "751",
+      "filename": "shouhou-article-751.md",
+      "ja_text_sha256": "b1eea05bac459635665471503b453b7be2aa7f4b3282613adaf8c75d692363d8",
+      "ja_text_bytes": 387,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-752",
+      "article_number": "752",
+      "filename": "shouhou-article-752.md",
+      "ja_text_sha256": "7a96ecc119f3e105b1ee6ad5ec1da36bb4a923f5f7e96c017affd253c65fe4d5",
+      "ja_text_bytes": 913,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-753",
+      "article_number": "753",
+      "filename": "shouhou-article-753.md",
+      "ja_text_sha256": "c40bcd698f4acdc77373cfc0dab341c316b61952d48ffd76c39f2788360d0b0c",
+      "ja_text_bytes": 1148,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-754",
+      "article_number": "754",
+      "filename": "shouhou-article-754.md",
+      "ja_text_sha256": "accb49ec4ba8d841481b23edf3f36e39113250aaaa13a5d5408a23329765fb1b",
+      "ja_text_bytes": 303,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-755",
+      "article_number": "755",
+      "filename": "shouhou-article-755.md",
+      "ja_text_sha256": "5fd68efc833f3aa9addb61d79d30189ae74f702c70921f14552184d614eed20a",
+      "ja_text_bytes": 474,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-756",
+      "article_number": "756",
+      "filename": "shouhou-article-756.md",
+      "ja_text_sha256": "1d39391c8cce354604efa88c5355f055836940308471b99c2fa1be9e3f0f296a",
+      "ja_text_bytes": 989,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-757",
+      "article_number": "757",
+      "filename": "shouhou-article-757.md",
+      "ja_text_sha256": "547ac52047368a4ca43cc8d3e061b91ed0d8c74b2b139130046113ffb09246fe",
+      "ja_text_bytes": 1018,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-758",
+      "article_number": "758",
+      "filename": "shouhou-article-758.md",
+      "ja_text_sha256": "ff9025f2de13d1910694493ca067810473ecec808ae5e8015684cba7ed6a35eb",
+      "ja_text_bytes": 833,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-759",
+      "article_number": "759",
+      "filename": "shouhou-article-759.md",
+      "ja_text_sha256": "0d62140ca94155894caee4f2c406b83cb1fa34d46409daadc09ee3d44b55e382",
+      "ja_text_bytes": 934,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-760",
+      "article_number": "760",
+      "filename": "shouhou-article-760.md",
+      "ja_text_sha256": "7f1e3f15a9af96d37052bb0026adbedffe6f69a02d79cb2d472a9e9fa19f1766",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-761",
+      "article_number": "761",
+      "filename": "shouhou-article-761.md",
+      "ja_text_sha256": "48c36d52c060f5f0c3db975d4faaee66c731630d16776c04deff1d0ed85e7dd9",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-762",
+      "article_number": "762",
+      "filename": "shouhou-article-762.md",
+      "ja_text_sha256": "e48ae7b0aae19141ed019f234a03ddef5bcb437e8a4e5dfb29c4da6626f9a424",
+      "ja_text_bytes": 358,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-763",
+      "article_number": "763",
+      "filename": "shouhou-article-763.md",
+      "ja_text_sha256": "6fd45a8f977efe058566fc240a7a1ffab672f8fc7edb028e3618f781ad99ba4d",
+      "ja_text_bytes": 300,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-764",
+      "article_number": "764",
+      "filename": "shouhou-article-764.md",
+      "ja_text_sha256": "83eadafe1eb1d7cda5f3d9948f8818625d7c6e2d276fce7a5b87c82bf7c52a3e",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-765",
+      "article_number": "765",
+      "filename": "shouhou-article-765.md",
+      "ja_text_sha256": "954e2849c26e588b92486b6f80dd51ba99e902cd3bf7b1ae5848b2d0d88f47a5",
+      "ja_text_bytes": 452,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-766",
+      "article_number": "766",
+      "filename": "shouhou-article-766.md",
+      "ja_text_sha256": "a51e26e25b6eb60adce56a74bc5ea2d56e594615483e319a75e67b7b4393b74d",
+      "ja_text_bytes": 285,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-767",
+      "article_number": "767",
+      "filename": "shouhou-article-767.md",
+      "ja_text_sha256": "5947bb71caefa479305fab695d15826291af74df07bfb2784b6670dca616232f",
+      "ja_text_bytes": 880,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-768",
+      "article_number": "768",
+      "filename": "shouhou-article-768.md",
+      "ja_text_sha256": "58d3bbf2b84cb3c7509bca7e2f549d5b7507b7683d8b8943a7f428396645d79e",
+      "ja_text_bytes": 375,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-769",
+      "article_number": "769",
+      "filename": "shouhou-article-769.md",
+      "ja_text_sha256": "9e0b62fb56ebb2e7892d6b49cc969354bb8001d28d20cbc3bfaf7971c9ed65e8",
+      "ja_text_bytes": 911,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-770",
+      "article_number": "770",
+      "filename": "shouhou-article-770.md",
+      "ja_text_sha256": "41b09f1a70a5df4f6ee49bc6f505064c7a020d65093c496170591f40c4250687",
+      "ja_text_bytes": 1281,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-788",
+      "article_number": "788",
+      "filename": "shouhou-article-788.md",
+      "ja_text_sha256": "f233351d3995927bbd00631b0981c8935e1ccb7b5ec7d38e478e830c2267d9a4",
+      "ja_text_bytes": 738,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-789",
+      "article_number": "789",
+      "filename": "shouhou-article-789.md",
+      "ja_text_sha256": "0bb6742806f472246b02816be19428d18283387c439f9961afabe022b8338e03",
+      "ja_text_bytes": 288,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-790",
+      "article_number": "790",
+      "filename": "shouhou-article-790.md",
+      "ja_text_sha256": "7ac147cbdde6dc738b8a9a739d1cf24a8ab31756947302fb2b315f127f72976d",
+      "ja_text_bytes": 393,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-791",
+      "article_number": "791",
+      "filename": "shouhou-article-791.md",
+      "ja_text_sha256": "d2bac7d18f9237edc0ba092d8d452dfc3e87f1622033b0b7de37018071a8e36e",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-792",
+      "article_number": "792",
+      "filename": "shouhou-article-792.md",
+      "ja_text_sha256": "e3616e577fa465e42ec3a1ee2f0e5e75a0bc15ab4bc022438bf20f4c4a8254e3",
+      "ja_text_bytes": 668,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-793",
+      "article_number": "793",
+      "filename": "shouhou-article-793.md",
+      "ja_text_sha256": "001ed2ebbf1abc7bf5d94f7c6e1eb682d1577bef32d5424f1c7e17cb028f6f7d",
+      "ja_text_bytes": 378,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-794",
+      "article_number": "794",
+      "filename": "shouhou-article-794.md",
+      "ja_text_sha256": "772eb667245f555b2d3b7b4ae1fde5ab66c652d2dbcf83cc73fdb865f667f155",
+      "ja_text_bytes": 384,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-795",
+      "article_number": "795",
+      "filename": "shouhou-article-795.md",
+      "ja_text_sha256": "32e85df8255f7e417fa79cf44aea27d19f2568e62db280e54eb10463f05af0af",
+      "ja_text_bytes": 228,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-796",
+      "article_number": "796",
+      "filename": "shouhou-article-796.md",
+      "ja_text_sha256": "304914f1fbc5a3387a281f1ca55bac9e0af387140b00d8a2685076558e3986b3",
+      "ja_text_bytes": 479,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-797",
+      "article_number": "797",
+      "filename": "shouhou-article-797.md",
+      "ja_text_sha256": "73edff61e64691a97af1c53064532130941b166ae7a09f2c578aede64ebda89c",
+      "ja_text_bytes": 1349,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shouhou-art-798",
+      "article_number": "798",
+      "filename": "shouhou-article-798.md",
+      "ja_text_sha256": "33e3e1234cb6e40c31af981a3a9fe7d80e1bf64307cfadf8f8268eaf8d4766a7",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-799",
+      "article_number": "799",
+      "filename": "shouhou-article-799.md",
+      "ja_text_sha256": "3fd4f6c12bd162e3f9ef4f350a0665dfcd579865ed35e66144a080a3ed4fb683",
+      "ja_text_bytes": 865,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-8",
+      "article_number": "8",
+      "filename": "shouhou-article-8.md",
+      "ja_text_sha256": "e5345813007e393cad08f4370dbc1635ea5aeb49ffffd89b97c23c072b76b455",
+      "ja_text_bytes": 268,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-800",
+      "article_number": "800",
+      "filename": "shouhou-article-800.md",
+      "ja_text_sha256": "02bc23e6c3fe7e79f286903336621d903b7fbd8ab7ab5fdad81ecb0e0174831d",
+      "ja_text_bytes": 482,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-801",
+      "article_number": "801",
+      "filename": "shouhou-article-801.md",
+      "ja_text_sha256": "c001962558b3de8a95ce26219044c102e9c29f4a0418cfdb4f6a281957246e16",
+      "ja_text_bytes": 150,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-802",
+      "article_number": "802",
+      "filename": "shouhou-article-802.md",
+      "ja_text_sha256": "4ee35859b0365d773e961fba93249562d9b371cf0c583ddf22961a65f1473f20",
+      "ja_text_bytes": 353,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-803",
+      "article_number": "803",
+      "filename": "shouhou-article-803.md",
+      "ja_text_sha256": "e4657f2db4678333f1f468bb38dae1adbeedf09655318ac1c0fc6307d62f78bb",
+      "ja_text_bytes": 870,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-804",
+      "article_number": "804",
+      "filename": "shouhou-article-804.md",
+      "ja_text_sha256": "f0ae56cc623865c8900ad4d1f080e3599814c2b5b672494f1423650f42a75c54",
+      "ja_text_bytes": 225,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-805",
+      "article_number": "805",
+      "filename": "shouhou-article-805.md",
+      "ja_text_sha256": "4dc95d53ef89c5eb68b9f24340334e927d75d5ddc29f588e69bebdb7c32ebd4e",
+      "ja_text_bytes": 2168,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shouhou-art-806",
+      "article_number": "806",
+      "filename": "shouhou-article-806.md",
+      "ja_text_sha256": "ceed8cc41a7eedbb21c5c3a09747ec2a63219f6832b72f64080108cf732107f1",
+      "ja_text_bytes": 207,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-807",
+      "article_number": "807",
+      "filename": "shouhou-article-807.md",
+      "ja_text_sha256": "414db92d7bddb6009e57eba1a69e2182c46a0509de9b0054cf4c98b5c86bbf91",
+      "ja_text_bytes": 183,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-808",
+      "article_number": "808",
+      "filename": "shouhou-article-808.md",
+      "ja_text_sha256": "104b81b96911b2c93fb22b5f206ea69060ca914c33952cfee4846e305c58cebd",
+      "ja_text_bytes": 563,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-809",
+      "article_number": "809",
+      "filename": "shouhou-article-809.md",
+      "ja_text_sha256": "be85a7181a3e30bb68bc31c3df619c5e662ccda97dbd7d9fd25a3de117daadc8",
+      "ja_text_bytes": 1162,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-810",
+      "article_number": "810",
+      "filename": "shouhou-article-810.md",
+      "ja_text_sha256": "de46d9b71b0c6b2f0289f1a60cafb8c66186ff65923484f25ef911f1a2608018",
+      "ja_text_bytes": 1587,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shouhou-art-811",
+      "article_number": "811",
+      "filename": "shouhou-article-811.md",
+      "ja_text_sha256": "bb34b8226b175c464ac36006bf6003585502eebdafaf332cc3656917ee023094",
+      "ja_text_bytes": 303,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-812",
+      "article_number": "812",
+      "filename": "shouhou-article-812.md",
+      "ja_text_sha256": "7b9c00bd58e1f4d0f434bd28bbd21a920de1859082c1f8a8065c14f63c28a4f1",
+      "ja_text_bytes": 198,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-815",
+      "article_number": "815",
+      "filename": "shouhou-article-815.md",
+      "ja_text_sha256": "e5182c97f55cc8d5594a471d477bdc134f3bd368fc113d0aecb10c99d662b8ac",
+      "ja_text_bytes": 653,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-816",
+      "article_number": "816",
+      "filename": "shouhou-article-816.md",
+      "ja_text_sha256": "3fead12446f223764b43fd4a36a2d77e604c41f91d695cb732442fdfe03326b1",
+      "ja_text_bytes": 294,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-817",
+      "article_number": "817",
+      "filename": "shouhou-article-817.md",
+      "ja_text_sha256": "ef1e634ac7c3465a4c5644e066bbafda90fbb1d7426aa3d1c82086783c9e1458",
+      "ja_text_bytes": 575,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-818",
+      "article_number": "818",
+      "filename": "shouhou-article-818.md",
+      "ja_text_sha256": "e9dca45d98aa77daa602df92b50a457d3ea7b222662cbfcd89b474ba9d6ab0a5",
+      "ja_text_bytes": 270,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-819",
+      "article_number": "819",
+      "filename": "shouhou-article-819.md",
+      "ja_text_sha256": "c8139004f523ddda2647724349ac77304b1e448be15ebe29c26a333da8a6819a",
+      "ja_text_bytes": 345,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-820",
+      "article_number": "820",
+      "filename": "shouhou-article-820.md",
+      "ja_text_sha256": "9b5e2c3d74b1fa3d4a5cb76232c5d90a6b2bd512eec6c5aa8c5190c9c83b7953",
+      "ja_text_bytes": 369,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-821",
+      "article_number": "821",
+      "filename": "shouhou-article-821.md",
+      "ja_text_sha256": "a89229453b44a0979b880dcf268ee8990b564d66c2c972034a317dc53003ef6a",
+      "ja_text_bytes": 345,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-822",
+      "article_number": "822",
+      "filename": "shouhou-article-822.md",
+      "ja_text_sha256": "3806ffde1d70b6be3b034711d3a60b0de5506e9054a2029bcc9d90c564126666",
+      "ja_text_bytes": 869,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-823",
+      "article_number": "823",
+      "filename": "shouhou-article-823.md",
+      "ja_text_sha256": "273d4138d8d11a5414a8b3f8f0b3dc891f0ef6148f1eb6579f200abb09f9b06f",
+      "ja_text_bytes": 465,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-824",
+      "article_number": "824",
+      "filename": "shouhou-article-824.md",
+      "ja_text_sha256": "6da6a93a1c359307c086da04c49a2aded798d3ace049833cb29a6669e4d19cd9",
+      "ja_text_bytes": 463,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-825",
+      "article_number": "825",
+      "filename": "shouhou-article-825.md",
+      "ja_text_sha256": "a95b39dd142116327f421114de171ac2b283a421778be2dd9dcc9908f36c323f",
+      "ja_text_bytes": 1021,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-826",
+      "article_number": "826",
+      "filename": "shouhou-article-826.md",
+      "ja_text_sha256": "38f084c7cc958263fefdb41de96c63c7859a64743dea70846310e066d2f8c1f1",
+      "ja_text_bytes": 363,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-827",
+      "article_number": "827",
+      "filename": "shouhou-article-827.md",
+      "ja_text_sha256": "4f979baaabea5418fc198295eecaaa53e6f74e24bdb0cfb6c30594b3fbd22e1a",
+      "ja_text_bytes": 387,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-828",
+      "article_number": "828",
+      "filename": "shouhou-article-828.md",
+      "ja_text_sha256": "c7e40a7a884579410dae8fb8afea3f221dc9e962a5bd9ab7f0ada70cc0efd3a6",
+      "ja_text_bytes": 279,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-829",
+      "article_number": "829",
+      "filename": "shouhou-article-829.md",
+      "ja_text_sha256": "1531c16098ffa814e32c0a1d77bda1fcccf3b3ac2fdd0e54307a19615e35d4c6",
+      "ja_text_bytes": 624,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-830",
+      "article_number": "830",
+      "filename": "shouhou-article-830.md",
+      "ja_text_sha256": "b6e54fd15bcceb063d90bd4775ce00b49f7cca3ebb78302dbf11b4586d478018",
+      "ja_text_bytes": 195,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-842",
+      "article_number": "842",
+      "filename": "shouhou-article-842.md",
+      "ja_text_sha256": "afe84cc5f3cef541f607743dbf5ba657234478a809c106d8114207f081f38a9f",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-843",
+      "article_number": "843",
+      "filename": "shouhou-article-843.md",
+      "ja_text_sha256": "cdeadcba8b43cb3a405abc5d87c18ecbfe184f6dabcbeaa2de6f492c9e103646",
+      "ja_text_bytes": 1075,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-844",
+      "article_number": "844",
+      "filename": "shouhou-article-844.md",
+      "ja_text_sha256": "aacd7bd76a3a2a40b7bed2b39c792e66747ffdf7f0791d8c7e8a2501a5c1a593",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-845",
+      "article_number": "845",
+      "filename": "shouhou-article-845.md",
+      "ja_text_sha256": "d1465699c7997f48232abb1ef5d35f04892cef90df8debd4abe865aa3520e8b0",
+      "ja_text_bytes": 665,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-846",
+      "article_number": "846",
+      "filename": "shouhou-article-846.md",
+      "ja_text_sha256": "eb43550dcd221158e30ef5613ea4241b2b251ec4363e11c892376f68d412faf4",
+      "ja_text_bytes": 135,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-847",
+      "article_number": "847",
+      "filename": "shouhou-article-847.md",
+      "ja_text_sha256": "b18f87d4229fb18c5605b18008b0e2926f3131c0efd505dca07b1daedba82b6c",
+      "ja_text_bytes": 949,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shouhou-art-848",
+      "article_number": "848",
+      "filename": "shouhou-article-848.md",
+      "ja_text_sha256": "3eecf928707570db9d2210ca13fa57e8788307df2048ea4ac0f53c9437c0f845",
+      "ja_text_bytes": 455,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shouhou-art-849",
+      "article_number": "849",
+      "filename": "shouhou-article-849.md",
+      "ja_text_sha256": "7e0ceecaf4b31e56b87b662754eae4d72383bab39e0169a8d2af89c213670525",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-850",
+      "article_number": "850",
+      "filename": "shouhou-article-850.md",
+      "ja_text_sha256": "35194bc465165636a6219fde19fef06e336921eaadd0358880eadd4680f242ef",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shouhou-art-9",
+      "article_number": "9",
+      "filename": "shouhou-article-9.md",
+      "ja_text_sha256": "23dd202d956b5666566e333632f9c69870762291aebba8955221b5175c0dfd88",
+      "ja_text_bytes": 574,
+      "paragraph_count": 2
+    }
+  ]
+}

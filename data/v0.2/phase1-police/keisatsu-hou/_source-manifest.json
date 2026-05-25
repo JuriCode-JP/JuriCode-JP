@@ -1,0 +1,802 @@
+{
+  "schema_version": "1.0",
+  "law_id": "329AC0000000162",
+  "law_name_ja": "警察法",
+  "law_abbrev": "keisatsu-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/329AC0000000162",
+  "source_xml_path": "../../../cache/laws/329AC0000000162.xml",
+  "source_xml_sha256": "a792585e63e86420f538d2aaf2dace807e468cd5df0a146a3f6464a80267a407",
+  "source_xml_bytes": 268929,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:26:53+00:00",
+  "version_date": "1954-06-08",
+  "article_count": 98,
+  "articles": [
+    {
+      "article_id": "keisatsu-hou-art-1",
+      "article_number": "1",
+      "filename": "keisatsu-hou-article-1.md",
+      "ja_text_sha256": "ebc970be11881100fb1e605d81ff3e707d98deefc12053b4423d992926d60e60",
+      "ja_text_bytes": 339,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-10",
+      "article_number": "10",
+      "filename": "keisatsu-hou-article-10.md",
+      "ja_text_sha256": "3f88ae4dd92a82701170b1d9ee22e851d70e1f04d085d3fcd1ef686d1e9f9c8c",
+      "ja_text_bytes": 1504,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-11",
+      "article_number": "11",
+      "filename": "keisatsu-hou-article-11.md",
+      "ja_text_sha256": "b0021906e30082e628600adc65d98fca5a04c08aa837341568b0e02b4bf1a0d7",
+      "ja_text_bytes": 817,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-12-2",
+      "article_number": "12-2",
+      "filename": "keisatsu-hou-article-12-2.md",
+      "ja_text_sha256": "9472fb366c1f14d51ddf021da2c9745567a461b791692e34c3bafc836cfd0161",
+      "ja_text_bytes": 667,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-12-3",
+      "article_number": "12-3",
+      "filename": "keisatsu-hou-article-12-3.md",
+      "ja_text_sha256": "588e71b68aa397de63b7bb3bbd7d926a62aa2f539704ae8fd41a00b7f10ec933",
+      "ja_text_bytes": 999,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-12-4",
+      "article_number": "12-4",
+      "filename": "keisatsu-hou-article-12-4.md",
+      "ja_text_sha256": "f96c94a22dad52b9f0a2a08a656e354cd570599fd469c68396c99a64b4f16666",
+      "ja_text_bytes": 653,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-12",
+      "article_number": "12",
+      "filename": "keisatsu-hou-article-12.md",
+      "ja_text_sha256": "3c35e9d295536ead2027ed73bbe7f5458357e729187a894ecc5dba5bdbc0cf64",
+      "ja_text_bytes": 244,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-13",
+      "article_number": "13",
+      "filename": "keisatsu-hou-article-13.md",
+      "ja_text_sha256": "3ae54ad4cd9f5d1c8c25ad4aa15968f7f3816a5eb9c52ff8eb1df1986cbad101",
+      "ja_text_bytes": 124,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-14",
+      "article_number": "14",
+      "filename": "keisatsu-hou-article-14.md",
+      "ja_text_sha256": "fd4fdc22bbbc53566b62b2d0daee56d072bf2266589ef962186195566b1f5d54",
+      "ja_text_bytes": 187,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-15",
+      "article_number": "15",
+      "filename": "keisatsu-hou-article-15.md",
+      "ja_text_sha256": "21cfba8221e2fe1b51fdad7e1900761170a111da756d9b5fb081c24c61152263",
+      "ja_text_bytes": 100,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-16",
+      "article_number": "16",
+      "filename": "keisatsu-hou-article-16.md",
+      "ja_text_sha256": "c8338f658689395c60b5ded240fa6ff031ccd7a226967b2c6bde043650f511bf",
+      "ja_text_bytes": 532,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-17",
+      "article_number": "17",
+      "filename": "keisatsu-hou-article-17.md",
+      "ja_text_sha256": "0c505c2725bec57a5ac0ddb2f221cfad28b0dd6a2c967c02eb6a6f65b735718d",
+      "ja_text_bytes": 283,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-18",
+      "article_number": "18",
+      "filename": "keisatsu-hou-article-18.md",
+      "ja_text_sha256": "5ead1ce17c63d79d036e6147c660cd643affaed4933ab665aef5812a1c8b7f2b",
+      "ja_text_bytes": 244,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-19",
+      "article_number": "19",
+      "filename": "keisatsu-hou-article-19.md",
+      "ja_text_sha256": "fc614afcd0ee69a73f316e56887c60e880f691021ece68872e10ccd2e4ed7f02",
+      "ja_text_bytes": 262,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-2",
+      "article_number": "2",
+      "filename": "keisatsu-hou-article-2.md",
+      "ja_text_sha256": "13dc284094d9a6dc41375efebd9bbc7f829eba30f862f38d310fde05b2b04b55",
+      "ja_text_bytes": 680,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-20",
+      "article_number": "20",
+      "filename": "keisatsu-hou-article-20.md",
+      "ja_text_sha256": "c8d369bbbcc9d72701dc00de166af67f044f2e5b9d2a03f1f0f700d75e06c472",
+      "ja_text_bytes": 445,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-21",
+      "article_number": "21",
+      "filename": "keisatsu-hou-article-21.md",
+      "ja_text_sha256": "fe1920aa45124b5fb7021a9315b5ff7529f4f2088763234eb70774f8a4e75128",
+      "ja_text_bytes": 169,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-22",
+      "article_number": "22",
+      "filename": "keisatsu-hou-article-22.md",
+      "ja_text_sha256": "b71d51b51cee009d605035e81ee321cff69cfc059b45ce8ea3a978d589bce0cd",
+      "ja_text_bytes": 172,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-23-2",
+      "article_number": "23-2",
+      "filename": "keisatsu-hou-article-23-2.md",
+      "ja_text_sha256": "a11d7c487462dc84ad531aee78d824a19155d0faa0cd47edb352160930969ef1",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-23",
+      "article_number": "23",
+      "filename": "keisatsu-hou-article-23.md",
+      "ja_text_sha256": "46bc8333762afb2eb56a72fc01310ddc33d1a91c17e237d80da1b24a9f592d79",
+      "ja_text_bytes": 412,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-24",
+      "article_number": "24",
+      "filename": "keisatsu-hou-article-24.md",
+      "ja_text_sha256": "d2bd5957e60ab8731568abba9fe624f347e8f2e7ed204df7ccbc932a03075641",
+      "ja_text_bytes": 559,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-25",
+      "article_number": "25",
+      "filename": "keisatsu-hou-article-25.md",
+      "ja_text_sha256": "facbfe805c1b3acff12dcca28a76dfe7fa6c964141df958d09232eba2936ec2a",
+      "ja_text_bytes": 178,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-26",
+      "article_number": "26",
+      "filename": "keisatsu-hou-article-26.md",
+      "ja_text_sha256": "f91104a6aadae1ed3f38cae76322100125832c7e6870e6935844e7b60094d378",
+      "ja_text_bytes": 718,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-27",
+      "article_number": "27",
+      "filename": "keisatsu-hou-article-27.md",
+      "ja_text_sha256": "b972386f3d9320972408602ee5ef742f7a69ec9cef6a5887e9e02e6e2f23bcd2",
+      "ja_text_bytes": 532,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-28",
+      "article_number": "28",
+      "filename": "keisatsu-hou-article-28.md",
+      "ja_text_sha256": "6162a83e8fb3294efcccce8eca5f22e734b35f946b750f2e14c8e994bc7ed088",
+      "ja_text_bytes": 463,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-29",
+      "article_number": "29",
+      "filename": "keisatsu-hou-article-29.md",
+      "ja_text_sha256": "36f971986b5beedee28fd3e8c8e475f271e7e5f39f519152198cc135d0e223f0",
+      "ja_text_bytes": 736,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "keisatsu-hou-art-3",
+      "article_number": "3",
+      "filename": "keisatsu-hou-article-3.md",
+      "ja_text_sha256": "c27f06c925b3467194238cbcdd722b32dcb8b0c1f8b78ea70e11b860dd91205a",
+      "ja_text_bytes": 270,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-30-2",
+      "article_number": "30-2",
+      "filename": "keisatsu-hou-article-30-2.md",
+      "ja_text_sha256": "1a16c0b6ecded2944d5301d757c955580836354d0009389a31286b31d871d349",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-30",
+      "article_number": "30",
+      "filename": "keisatsu-hou-article-30.md",
+      "ja_text_sha256": "2dca13607d6284a0cf2748f2460a4b57753bb9b9c7a7ac4c09f1851f1123aa7a",
+      "ja_text_bytes": 505,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-31-2",
+      "article_number": "31-2",
+      "filename": "keisatsu-hou-article-31-2.md",
+      "ja_text_sha256": "72945e2be9ee4d9d5911fefb18fc6ce9605288c9394118790ace3ccd9f2bfedb",
+      "ja_text_bytes": 321,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-31",
+      "article_number": "31",
+      "filename": "keisatsu-hou-article-31.md",
+      "ja_text_sha256": "83156383d609186b705a56854c79f70eed2feff7c8ea177b11169bfe02b46f8e",
+      "ja_text_bytes": 565,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-32",
+      "article_number": "32",
+      "filename": "keisatsu-hou-article-32.md",
+      "ja_text_sha256": "9a22d6ca0cb35ed4d5e9bafb31a949a334221261bee6b9a5297851ee2d235d5b",
+      "ja_text_bytes": 517,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-33",
+      "article_number": "33",
+      "filename": "keisatsu-hou-article-33.md",
+      "ja_text_sha256": "be277520c79901ce41ebd611c9bc07b5750e9591ffb76666a1bdf459a9397337",
+      "ja_text_bytes": 572,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-34",
+      "article_number": "34",
+      "filename": "keisatsu-hou-article-34.md",
+      "ja_text_sha256": "62862716b1a1bc104c41c25b04666f1b1b03151b469abf3416e2c16309e3e4a4",
+      "ja_text_bytes": 529,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-35",
+      "article_number": "35",
+      "filename": "keisatsu-hou-article-35.md",
+      "ja_text_sha256": "75c686e2d9ef8370bdc89ad5d0cdd63fad825509d29c2a63f140de02a96f430d",
+      "ja_text_bytes": 58,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-36",
+      "article_number": "36",
+      "filename": "keisatsu-hou-article-36.md",
+      "ja_text_sha256": "ccd7aeaabd7f214996d5acad0774c9dc8d3a2c66b02afd3ac1f8ac28a56ecdf1",
+      "ja_text_bytes": 250,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-37",
+      "article_number": "37",
+      "filename": "keisatsu-hou-article-37.md",
+      "ja_text_sha256": "edc8e214e35fe3f88bc35804ae95c18d6a2b32414f6425af9c7c30e8a0c03f0e",
+      "ja_text_bytes": 625,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-38",
+      "article_number": "38",
+      "filename": "keisatsu-hou-article-38.md",
+      "ja_text_sha256": "2b65ccadb436c2761e88c4ca960547499c8fbb8a7aa91f52123bfe88d858bbb5",
+      "ja_text_bytes": 1306,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "keisatsu-hou-art-39",
+      "article_number": "39",
+      "filename": "keisatsu-hou-article-39.md",
+      "ja_text_sha256": "4e6ec20f3021b621b4b79e571c191c89df648bb66f9cc7b7d556a69c7e17067c",
+      "ja_text_bytes": 1248,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-4",
+      "article_number": "4",
+      "filename": "keisatsu-hou-article-4.md",
+      "ja_text_sha256": "895a0aa73db1f271f4f1329fec5a5814bcd063384356fbe2ed3e29bcba865923",
+      "ja_text_bytes": 260,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-40",
+      "article_number": "40",
+      "filename": "keisatsu-hou-article-40.md",
+      "ja_text_sha256": "6642a52f12469fa3bebff1b46f520f09a4eade4da0616e5468f37a7bfc69f996",
+      "ja_text_bytes": 277,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-41",
+      "article_number": "41",
+      "filename": "keisatsu-hou-article-41.md",
+      "ja_text_sha256": "0330ca7989100ef6deb268ce2d7d8fb4097c0c9c627d19af082e1bf39fdd8714",
+      "ja_text_bytes": 2170,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "keisatsu-hou-art-42",
+      "article_number": "42",
+      "filename": "keisatsu-hou-article-42.md",
+      "ja_text_sha256": "a23bfe067981fd4c6dde226421130bf9fd7970c57b20f6ef628f47876d1e3f35",
+      "ja_text_bytes": 919,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-43-2",
+      "article_number": "43-2",
+      "filename": "keisatsu-hou-article-43-2.md",
+      "ja_text_sha256": "dee87b8f831cb6eabc18d76a0dc9d62bc83b1005e562593a0f121e7a7844058f",
+      "ja_text_bytes": 880,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-43",
+      "article_number": "43",
+      "filename": "keisatsu-hou-article-43.md",
+      "ja_text_sha256": "c621c284500c9ae945d7f4126e68fce20bb3faab2b44c2f0362417cc2caa2db9",
+      "ja_text_bytes": 400,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-44",
+      "article_number": "44",
+      "filename": "keisatsu-hou-article-44.md",
+      "ja_text_sha256": "d1dbb3cfe3da24a297e8a0059b1607341750f18c5ad7a20f1d6d54da5e14f7d1",
+      "ja_text_bytes": 157,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-45",
+      "article_number": "45",
+      "filename": "keisatsu-hou-article-45.md",
+      "ja_text_sha256": "ef49b4c9a971eda5f4669953d610ca934f5713a66d56d51ce503967953695096",
+      "ja_text_bytes": 199,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-46-2",
+      "article_number": "46-2",
+      "filename": "keisatsu-hou-article-46-2.md",
+      "ja_text_sha256": "c525ca395a0f07f31e6dad7dc85217304ab406902f0289c4a6ea93d7098b8877",
+      "ja_text_bytes": 360,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-46",
+      "article_number": "46",
+      "filename": "keisatsu-hou-article-46.md",
+      "ja_text_sha256": "ae41dbd0882db368bce40365aff708ea1f13d55e36fe7bedc3197d1957f38500",
+      "ja_text_bytes": 904,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-47",
+      "article_number": "47",
+      "filename": "keisatsu-hou-article-47.md",
+      "ja_text_sha256": "13797b4d3091f16510eaab410f1fc025166498522e4a113ebc8989744a032d57",
+      "ja_text_bytes": 838,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-48",
+      "article_number": "48",
+      "filename": "keisatsu-hou-article-48.md",
+      "ja_text_sha256": "e6d6c7fda9daa81c384c477e2cd40b9c1ff0efa9d38d126f53488a3a4190e90a",
+      "ja_text_bytes": 493,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-49",
+      "article_number": "49",
+      "filename": "keisatsu-hou-article-49.md",
+      "ja_text_sha256": "2e5cc588254aee8a382fd3c1ef7845f9e68aa3fe3ee93313e18b52fcc553d17e",
+      "ja_text_bytes": 385,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-5",
+      "article_number": "5",
+      "filename": "keisatsu-hou-article-5.md",
+      "ja_text_sha256": "ad067ca89c8aa378324a37ff466fd217356622cf67b66be3127887cbf3c8dba6",
+      "ja_text_bytes": 2082,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "keisatsu-hou-art-50",
+      "article_number": "50",
+      "filename": "keisatsu-hou-article-50.md",
+      "ja_text_sha256": "fafbecdedc17f96a83cb1659880c8f9b7565fecce2c5be4002782ecc5429987d",
+      "ja_text_bytes": 364,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-51",
+      "article_number": "51",
+      "filename": "keisatsu-hou-article-51.md",
+      "ja_text_sha256": "56902c3a5fceca0e8b7cdaffd3bd6f12de6b6a8c32e1a7c23aee619b789b84f8",
+      "ja_text_bytes": 1135,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "keisatsu-hou-art-52",
+      "article_number": "52",
+      "filename": "keisatsu-hou-article-52.md",
+      "ja_text_sha256": "8941154409d93dad9875ce9275c50185ca113fa199b5872019a23d921d7c8e64",
+      "ja_text_bytes": 502,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-53-2",
+      "article_number": "53-2",
+      "filename": "keisatsu-hou-article-53-2.md",
+      "ja_text_sha256": "0655ede1782d2aa5028d0642d789712419aa1f7d56f65d69131c1986a8d31f94",
+      "ja_text_bytes": 729,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-53",
+      "article_number": "53",
+      "filename": "keisatsu-hou-article-53.md",
+      "ja_text_sha256": "b983638584de139a36a4693fdb1ab41d7f126ae60b7943727fdaba8b741b1c1e",
+      "ja_text_bytes": 817,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "keisatsu-hou-art-54",
+      "article_number": "54",
+      "filename": "keisatsu-hou-article-54.md",
+      "ja_text_sha256": "89ff2f8376336812d5098ffee360b9a15500b2c62852b82b4ee1c5fb6a1dc9b7",
+      "ja_text_bytes": 571,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-55",
+      "article_number": "55",
+      "filename": "keisatsu-hou-article-55.md",
+      "ja_text_sha256": "efe9759dd1e05422ed337cc719479910d6e40dc157c593f4cc7f97947f5126ec",
+      "ja_text_bytes": 1117,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-56-2",
+      "article_number": "56-2",
+      "filename": "keisatsu-hou-article-56-2.md",
+      "ja_text_sha256": "d71732151ee2a04328702807f74142743cf9ffd0efa8baae3941a9ae009fecb8",
+      "ja_text_bytes": 2519,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "keisatsu-hou-art-56-3",
+      "article_number": "56-3",
+      "filename": "keisatsu-hou-article-56-3.md",
+      "ja_text_sha256": "bba81ff843e5a70f10086ac6895a49cfb478c90cd243bb977fa16b72d835959c",
+      "ja_text_bytes": 2205,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-56-4",
+      "article_number": "56-4",
+      "filename": "keisatsu-hou-article-56-4.md",
+      "ja_text_sha256": "466f43c955fb1a02699e6309df7a16dc5e3081e35bd9195e2fe31452f9c386da",
+      "ja_text_bytes": 1547,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-56-5",
+      "article_number": "56-5",
+      "filename": "keisatsu-hou-article-56-5.md",
+      "ja_text_sha256": "4449e9d90333c17b3d941b89cb13b79b99a12e5e59b063665eb13a86ae823c91",
+      "ja_text_bytes": 2913,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-56",
+      "article_number": "56",
+      "filename": "keisatsu-hou-article-56.md",
+      "ja_text_sha256": "a915cc796cb259a0a86f5e39c4de082263a0cb817dbb4a370aafd9da148786c5",
+      "ja_text_bytes": 1309,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-57",
+      "article_number": "57",
+      "filename": "keisatsu-hou-article-57.md",
+      "ja_text_sha256": "00c48bd1cfb5765d0446100bbcf72021ab2bfc0596f0a0853684ba1337770aa0",
+      "ja_text_bytes": 606,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-58",
+      "article_number": "58",
+      "filename": "keisatsu-hou-article-58.md",
+      "ja_text_sha256": "6847c3399cdaeeb24df0e8ec1e0c2a2c2ad0181d04ce62e515f416d0076d2083",
+      "ja_text_bytes": 166,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-59",
+      "article_number": "59",
+      "filename": "keisatsu-hou-article-59.md",
+      "ja_text_sha256": "3aaf570d74818f75505b431feaddfded58767bbe030ea6b069ed6e4e9ce6869f",
+      "ja_text_bytes": 115,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-6",
+      "article_number": "6",
+      "filename": "keisatsu-hou-article-6.md",
+      "ja_text_sha256": "08c85971c782e2c07a9b2bc6eef7cc3d8f3ebfffa4fae5a9da2210e6892bbfc4",
+      "ja_text_bytes": 469,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-60-2",
+      "article_number": "60-2",
+      "filename": "keisatsu-hou-article-60-2.md",
+      "ja_text_sha256": "284883507e1ca3e9ad5915e4b8484dd47c53bc31adb777fa23dfc5e1038522ed",
+      "ja_text_bytes": 477,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-60-3",
+      "article_number": "60-3",
+      "filename": "keisatsu-hou-article-60-3.md",
+      "ja_text_sha256": "ace33ae3545c26f35ad7347f10aeb849c213d99bd9038e632bb04806e310b799",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-60",
+      "article_number": "60",
+      "filename": "keisatsu-hou-article-60.md",
+      "ja_text_sha256": "85a7f6659d52cd8997d7f335f908f5bb89327ca7d4ebf23d8b2a39a391b44585",
+      "ja_text_bytes": 889,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-61-2",
+      "article_number": "61-2",
+      "filename": "keisatsu-hou-article-61-2.md",
+      "ja_text_sha256": "feecd80f72ea51f5f04c0c362d4f90cc28a21e2c9505ba74d6d8748d42d3f688",
+      "ja_text_bytes": 976,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-61-3",
+      "article_number": "61-3",
+      "filename": "keisatsu-hou-article-61-3.md",
+      "ja_text_sha256": "f22f81372441879751c14f9e9dc8550c13246fe5c62b0ae53668390cc631cc22",
+      "ja_text_bytes": 1848,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsu-hou-art-61",
+      "article_number": "61",
+      "filename": "keisatsu-hou-article-61.md",
+      "ja_text_sha256": "b89c9fc5dc8b0a13549edc00967dd806583028fa16d0d5457182c735fd31c42a",
+      "ja_text_bytes": 412,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-62",
+      "article_number": "62",
+      "filename": "keisatsu-hou-article-62.md",
+      "ja_text_sha256": "6d532c0feb2bd4d238f43b6d708c1bbeb2368267e7787521d291fd82ab69613e",
+      "ja_text_bytes": 217,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-63",
+      "article_number": "63",
+      "filename": "keisatsu-hou-article-63.md",
+      "ja_text_sha256": "146051e290a30d717e6bbb95fac553a2419610d0bf02a79d1733c9b8aa8e23d1",
+      "ja_text_bytes": 133,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-64",
+      "article_number": "64",
+      "filename": "keisatsu-hou-article-64.md",
+      "ja_text_sha256": "02c9e2cf2a997ccc41773f11671de5fabc3d325ba932a4eb5b100acfeed0e68e",
+      "ja_text_bytes": 547,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-65",
+      "article_number": "65",
+      "filename": "keisatsu-hou-article-65.md",
+      "ja_text_sha256": "a4c081d7942ad8013f2987f66e76e2f40383e580e2d48e55a6eca1f00bdad8e5",
+      "ja_text_bytes": 295,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-66",
+      "article_number": "66",
+      "filename": "keisatsu-hou-article-66.md",
+      "ja_text_sha256": "3317bdaf65ffabe5a6443e4c3d35b823351c0f72708965d74c1d8e506e31accf",
+      "ja_text_bytes": 1027,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-67",
+      "article_number": "67",
+      "filename": "keisatsu-hou-article-67.md",
+      "ja_text_sha256": "0097fd7cdfa4c058c7cee193e6e34e3b81a9def654b4a0cea924900a5fd5d10d",
+      "ja_text_bytes": 145,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-68",
+      "article_number": "68",
+      "filename": "keisatsu-hou-article-68.md",
+      "ja_text_sha256": "32bd3a9a10deacf54293f33e3d79eaba9183875ab953ebe4d5c6ff390814d600",
+      "ja_text_bytes": 511,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-69",
+      "article_number": "69",
+      "filename": "keisatsu-hou-article-69.md",
+      "ja_text_sha256": "8340d502d16ef7beddd233343ab93d2d3d06efae6451e75414d54cec3597f1c8",
+      "ja_text_bytes": 2162,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "keisatsu-hou-art-7",
+      "article_number": "7",
+      "filename": "keisatsu-hou-article-7.md",
+      "ja_text_sha256": "3f823c7be1488b82247d255580e150898ea7c7f1ba4d79632bd607de8d7140a3",
+      "ja_text_bytes": 1455,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "keisatsu-hou-art-70",
+      "article_number": "70",
+      "filename": "keisatsu-hou-article-70.md",
+      "ja_text_sha256": "d16117c476632344daa08458bf8ad90cbc62b2952f106be3ab180aa5ac109149",
+      "ja_text_bytes": 166,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-71",
+      "article_number": "71",
+      "filename": "keisatsu-hou-article-71.md",
+      "ja_text_sha256": "eefe175d5749f62650714265131e0d50728cbe656e5f68954bc7b0b51d81eaa8",
+      "ja_text_bytes": 535,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-72",
+      "article_number": "72",
+      "filename": "keisatsu-hou-article-72.md",
+      "ja_text_sha256": "c0f24e520a92d9d207bca1d1f1a97ffe8ee420b8a2857fa485d1c152f0655f10",
+      "ja_text_bytes": 501,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-73",
+      "article_number": "73",
+      "filename": "keisatsu-hou-article-73.md",
+      "ja_text_sha256": "2c16bcf2c6ac7fbc1612f08f96b10dedcd10ea263720e24689f831c5e52e7f2f",
+      "ja_text_bytes": 1171,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-74",
+      "article_number": "74",
+      "filename": "keisatsu-hou-article-74.md",
+      "ja_text_sha256": "7dd6d25b4cb08c03e1a1e25cdf2f24e6a5177cfdd44b8e8d28fc8dc99e1c8d05",
+      "ja_text_bytes": 811,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-75",
+      "article_number": "75",
+      "filename": "keisatsu-hou-article-75.md",
+      "ja_text_sha256": "5a2bd6caa5fac9bf5b117b6681f0dec79edc1607f8001eacc7c905516c944d0d",
+      "ja_text_bytes": 235,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-76",
+      "article_number": "76",
+      "filename": "keisatsu-hou-article-76.md",
+      "ja_text_sha256": "3133a29990fbad7e36f4d4c22153145cc30417f38fd6eb187767cd4938127c04",
+      "ja_text_bytes": 328,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-77",
+      "article_number": "77",
+      "filename": "keisatsu-hou-article-77.md",
+      "ja_text_sha256": "a5d10611b8ee0adcfbf6966a1cf8f8db696647275e15d9afe25055f09892d58f",
+      "ja_text_bytes": 1153,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-78",
+      "article_number": "78",
+      "filename": "keisatsu-hou-article-78.md",
+      "ja_text_sha256": "9196442d07fea21425227c6135329045e1f73b48ccac8bc4e579328a92f0e5fd",
+      "ja_text_bytes": 851,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-79",
+      "article_number": "79",
+      "filename": "keisatsu-hou-article-79.md",
+      "ja_text_sha256": "576f7cab9f47814ef7ab18cd3580016f1ade1027f6b534f8384bfb94ce148cc1",
+      "ja_text_bytes": 1159,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "keisatsu-hou-art-8",
+      "article_number": "8",
+      "filename": "keisatsu-hou-article-8.md",
+      "ja_text_sha256": "15bac4b539e736825625e9a0faa3777bf39add4c59ecaf62fd2b94de9c5660f8",
+      "ja_text_bytes": 275,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsu-hou-art-80",
+      "article_number": "80",
+      "filename": "keisatsu-hou-article-80.md",
+      "ja_text_sha256": "ebcf737b11566e5e176bf702343c93918fe9c924b345c9b431b0add3b75d0a52",
+      "ja_text_bytes": 811,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-81",
+      "article_number": "81",
+      "filename": "keisatsu-hou-article-81.md",
+      "ja_text_sha256": "a1cb4e58f88a30b7e19feaf81c67dce5fc6ce555a53bc41bb38c7081da3c7a4f",
+      "ja_text_bytes": 181,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsu-hou-art-9",
+      "article_number": "9",
+      "filename": "keisatsu-hou-article-9.md",
+      "ja_text_sha256": "c1b5b5542a497392acdf349727f953b795d0a7c119bfe523bd037ac23fa9bca2",
+      "ja_text_bytes": 1061,
+      "paragraph_count": 5
+    }
+  ]
+}

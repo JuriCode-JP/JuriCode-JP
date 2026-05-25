@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "law_id": "323AC0000000136",
+  "law_name_ja": "警察官職務執行法",
+  "law_abbrev": "keisatsukan-shokumu-shikkou-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/323AC0000000136",
+  "source_xml_path": "../../../cache/laws/323AC0000000136.xml",
+  "source_xml_sha256": "3d2a7887aef074e98a68f9372584a7d71cc00fb96e3006f37b86be05e57078a6",
+  "source_xml_bytes": 21629,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:26:54+00:00",
+  "version_date": "1948-07-12",
+  "article_count": 8,
+  "articles": [
+    {
+      "article_id": "keisatsukan-shokumu-shikkou-hou-art-1",
+      "article_number": "1",
+      "filename": "keisatsukan-shokumu-shikkou-hou-article-1.md",
+      "ja_text_sha256": "9ff61213770cd10808ee306c7f2f9fd65728965232fdfa1e819cb8d9186ba12f",
+      "ja_text_bytes": 682,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsukan-shokumu-shikkou-hou-art-2",
+      "article_number": "2",
+      "filename": "keisatsukan-shokumu-shikkou-hou-article-2.md",
+      "ja_text_sha256": "078001c3f723c7960f93d44e28fa460a7cf27fd6306b5e946d1b1cc1d6a2d73c",
+      "ja_text_bytes": 1423,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsukan-shokumu-shikkou-hou-art-3",
+      "article_number": "3",
+      "filename": "keisatsukan-shokumu-shikkou-hou-article-3.md",
+      "ja_text_sha256": "a86a4c0bef1523a9dd93dd117d76a0193e2d0dc8f82350129bf9a1e065b2f883",
+      "ja_text_bytes": 2251,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "keisatsukan-shokumu-shikkou-hou-art-4",
+      "article_number": "4",
+      "filename": "keisatsukan-shokumu-shikkou-hou-article-4.md",
+      "ja_text_sha256": "3195cb49cd41e6d3eb8b2484f2e69e9d83d879b42f6531cd00f039f5c2c815a6",
+      "ja_text_bytes": 1479,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "keisatsukan-shokumu-shikkou-hou-art-5",
+      "article_number": "5",
+      "filename": "keisatsukan-shokumu-shikkou-hou-article-5.md",
+      "ja_text_sha256": "8119304650d4f935714fc5bb524821467dabaeedfcc386778a65c9f07e409875",
+      "ja_text_bytes": 445,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsukan-shokumu-shikkou-hou-art-6",
+      "article_number": "6",
+      "filename": "keisatsukan-shokumu-shikkou-hou-article-6.md",
+      "ja_text_sha256": "9cac9245367bee461f4587f7c6a24df76694a4b18218432aa3af0d96c2a74f3b",
+      "ja_text_bytes": 1516,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "keisatsukan-shokumu-shikkou-hou-art-7",
+      "article_number": "7",
+      "filename": "keisatsukan-shokumu-shikkou-hou-article-7.md",
+      "ja_text_sha256": "153392e97d3257741da235820b9a592323f4b2c52e3be26bd98b95c865b61a2f",
+      "ja_text_bytes": 709,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "keisatsukan-shokumu-shikkou-hou-art-8",
+      "article_number": "8",
+      "filename": "keisatsukan-shokumu-shikkou-hou-article-8.md",
+      "ja_text_sha256": "1c4948e95b9e67859b38014c6885a251d97271c44d9daaa86bbb08ee0e94e238",
+      "ja_text_bytes": 241,
+      "paragraph_count": 1
+    }
+  ]
+}

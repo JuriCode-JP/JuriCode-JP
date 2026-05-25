@@ -1,0 +1,690 @@
+{
+  "schema_version": "1.0",
+  "law_id": "419M60000002059",
+  "law_name_ja": "有価証券の取引等の規制に関する内閣府令",
+  "law_abbrev": "yuukashouken-kisei-furei",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/419M60000002059",
+  "source_xml_path": "../../../cache/laws/419M60000002059.xml",
+  "source_xml_sha256": "cfe22fc537db6ef69fab959571e91f6cd5cd9750daec756ba9e2bd8f7b395f32",
+  "source_xml_bytes": 741394,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:28:41+00:00",
+  "version_date": "2007-08-08",
+  "article_count": 84,
+  "articles": [
+    {
+      "article_id": "yuukashouken-kisei-furei-art-1",
+      "article_number": "1",
+      "filename": "yuukashouken-kisei-furei-article-1.md",
+      "ja_text_sha256": "fa595ee35e38aa966d2405b54fd73e7ea0efd2de7d290b791a3e73d7ebf9e0f3",
+      "ja_text_bytes": 1498,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-10",
+      "article_number": "10",
+      "filename": "yuukashouken-kisei-furei-article-10.md",
+      "ja_text_sha256": "d4c2d44f7ecc5fb35472fadc478b79bc4b83c1bd83a247151cc058a2867ebc22",
+      "ja_text_bytes": 217,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-11",
+      "article_number": "11",
+      "filename": "yuukashouken-kisei-furei-article-11.md",
+      "ja_text_sha256": "5676cc0ab950127ebbb1a04d415499169ba5f5787601ca684a7b7e9428ab7c13",
+      "ja_text_bytes": 781,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-12",
+      "article_number": "12",
+      "filename": "yuukashouken-kisei-furei-article-12.md",
+      "ja_text_sha256": "72f19492f0c14bbb7f2ad9d05ef8b63902c60c7f283ed25998a6c0112c240f44",
+      "ja_text_bytes": 3349,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-13",
+      "article_number": "13",
+      "filename": "yuukashouken-kisei-furei-article-13.md",
+      "ja_text_sha256": "22f2539f4bcf58cd0130ac77344dab4e25092f2df8f5e0265784c1e4d082e733",
+      "ja_text_bytes": 3760,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-14",
+      "article_number": "14",
+      "filename": "yuukashouken-kisei-furei-article-14.md",
+      "ja_text_sha256": "a332a0052679cb9fabe4831de0ac6c7daf6620f56db645971a11f10980a0b675",
+      "ja_text_bytes": 4132,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-15-2",
+      "article_number": "15-2",
+      "filename": "yuukashouken-kisei-furei-article-15-2.md",
+      "ja_text_sha256": "4cd96f2f4d3ca7724dba5db39aa51240ee3f6573a20913b6f20b52acc8e5fb1b",
+      "ja_text_bytes": 5101,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-15-3",
+      "article_number": "15-3",
+      "filename": "yuukashouken-kisei-furei-article-15-3.md",
+      "ja_text_sha256": "9d9ca68e17ad545b760ea3efb3320ceb65146c201d628b4a17aca6be9d806660",
+      "ja_text_bytes": 1933,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-15-4",
+      "article_number": "15-4",
+      "filename": "yuukashouken-kisei-furei-article-15-4.md",
+      "ja_text_sha256": "9feaaae54deaf271630e09b99752cb12ee0b4da230407d02fa467bb4649a97f4",
+      "ja_text_bytes": 589,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-15-5",
+      "article_number": "15-5",
+      "filename": "yuukashouken-kisei-furei-article-15-5.md",
+      "ja_text_sha256": "d8ec33b34813a63b923a53407e961e61647b210c570ef7fd4f8a95fb4b67b492",
+      "ja_text_bytes": 1398,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-15-6",
+      "article_number": "15-6",
+      "filename": "yuukashouken-kisei-furei-article-15-6.md",
+      "ja_text_sha256": "fc2f969823122c57427993989444d1bef79a251e167122ac622b6d7eb7617987",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-15-7",
+      "article_number": "15-7",
+      "filename": "yuukashouken-kisei-furei-article-15-7.md",
+      "ja_text_sha256": "3be80702a39110577d2184bff03788ae450f5bf8b3a306454dc17bdea9186834",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-15-8",
+      "article_number": "15-8",
+      "filename": "yuukashouken-kisei-furei-article-15-8.md",
+      "ja_text_sha256": "57fdccebab535e95284a332a7234502f3e5fd4d3477f42a212dcba114e165caa",
+      "ja_text_bytes": 156,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-15",
+      "article_number": "15",
+      "filename": "yuukashouken-kisei-furei-article-15.md",
+      "ja_text_sha256": "4175fb92ce2c87f132586ebce62be4e8063a7c9dcebba8d942b4dc189ab27e1c",
+      "ja_text_bytes": 652,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-16",
+      "article_number": "16",
+      "filename": "yuukashouken-kisei-furei-article-16.md",
+      "ja_text_sha256": "22cb31249ec83cbae272d41b5f0ccdb43e01f96867a1675cae3044fcaf3d5a75",
+      "ja_text_bytes": 184,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-17",
+      "article_number": "17",
+      "filename": "yuukashouken-kisei-furei-article-17.md",
+      "ja_text_sha256": "d47581cc99a4c9e56b8bb9d83276ebd02190120a9f9ac8770b1f563ec203b41f",
+      "ja_text_bytes": 811,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-18",
+      "article_number": "18",
+      "filename": "yuukashouken-kisei-furei-article-18.md",
+      "ja_text_sha256": "6423303b297d1fbac8515678dbf57cc943019d8ad209a135e1e2fb1c0e84b24f",
+      "ja_text_bytes": 1042,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-19",
+      "article_number": "19",
+      "filename": "yuukashouken-kisei-furei-article-19.md",
+      "ja_text_sha256": "4fbbc662e1ffe5b52c8719ad6459510f4a472cc4068bff2f5051a388905c5878",
+      "ja_text_bytes": 1468,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-2",
+      "article_number": "2",
+      "filename": "yuukashouken-kisei-furei-article-2.md",
+      "ja_text_sha256": "51881e0f7f0ced512fdf9c11fa5adc067d6c6cf293cc8bd3859967de270b5b9c",
+      "ja_text_bytes": 435,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-20",
+      "article_number": "20",
+      "filename": "yuukashouken-kisei-furei-article-20.md",
+      "ja_text_sha256": "42edbbfdf345b8b187a5f4d6e1f6ba3c4760ebebd44fe096723b70dbae551b20",
+      "ja_text_bytes": 1081,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-21",
+      "article_number": "21",
+      "filename": "yuukashouken-kisei-furei-article-21.md",
+      "ja_text_sha256": "1216a1941643b412a7672031ee8883ec458848d49f7da5e7a2d05cdbfb40a576",
+      "ja_text_bytes": 448,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-22",
+      "article_number": "22",
+      "filename": "yuukashouken-kisei-furei-article-22.md",
+      "ja_text_sha256": "5bac6c625fbbcc90dbe150ba620caae5d01b6b56b33f41f2998c248c5240e33d",
+      "ja_text_bytes": 859,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-23",
+      "article_number": "23",
+      "filename": "yuukashouken-kisei-furei-article-23.md",
+      "ja_text_sha256": "6c0bb9e256f97986418520a59406c66e81e56e9fb90b955af619d6f37c4fe79b",
+      "ja_text_bytes": 664,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-24",
+      "article_number": "24",
+      "filename": "yuukashouken-kisei-furei-article-24.md",
+      "ja_text_sha256": "021163efb91a6b67c681a41c7821c3351fb8d993a92422606bd181b8a1325be4",
+      "ja_text_bytes": 265,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-25",
+      "article_number": "25",
+      "filename": "yuukashouken-kisei-furei-article-25.md",
+      "ja_text_sha256": "0eef9cdbe5ac676e6fc7f60e3bc9e203f8a1406de6b22bb47fe89764a765584b",
+      "ja_text_bytes": 1693,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-26",
+      "article_number": "26",
+      "filename": "yuukashouken-kisei-furei-article-26.md",
+      "ja_text_sha256": "f0495a6a6aee8cf6389daec5c683306e239bf1cad907df6fb2541262f9668fb2",
+      "ja_text_bytes": 250,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-27",
+      "article_number": "27",
+      "filename": "yuukashouken-kisei-furei-article-27.md",
+      "ja_text_sha256": "1f219a9adfb7bba52eed7a9e908917c2156ad34e00dc56d19524f9442cbf90e5",
+      "ja_text_bytes": 250,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-28",
+      "article_number": "28",
+      "filename": "yuukashouken-kisei-furei-article-28.md",
+      "ja_text_sha256": "16042c1939390a110b893dad8f6ec0734389d12ccdb3ab2cdb37dd5b6ea3c690",
+      "ja_text_bytes": 1108,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-29",
+      "article_number": "29",
+      "filename": "yuukashouken-kisei-furei-article-29.md",
+      "ja_text_sha256": "5098b4f821340bd913edccbdce72be62cbaa1b5fc145626330355d2c563a1925",
+      "ja_text_bytes": 1784,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-3",
+      "article_number": "3",
+      "filename": "yuukashouken-kisei-furei-article-3.md",
+      "ja_text_sha256": "2479026f33e81d9f1d07f2ae37847c5a56a60c838b8a1e67a6ef38b9f041d48e",
+      "ja_text_bytes": 648,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-30",
+      "article_number": "30",
+      "filename": "yuukashouken-kisei-furei-article-30.md",
+      "ja_text_sha256": "56cf664de69a42a18ce85d72cb0709be08671ae36c7e5fa24abf391a97681549",
+      "ja_text_bytes": 433,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-31",
+      "article_number": "31",
+      "filename": "yuukashouken-kisei-furei-article-31.md",
+      "ja_text_sha256": "c3d049a1cdcbd0cdb5a15f09c34483874aed44f27ea4bb6f39aef91bbc000106",
+      "ja_text_bytes": 259,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-32",
+      "article_number": "32",
+      "filename": "yuukashouken-kisei-furei-article-32.md",
+      "ja_text_sha256": "a9aeb6a6c86a050c60a965c25eb611582a616e0476f8846ad6ffd5502c06a8df",
+      "ja_text_bytes": 208,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-33",
+      "article_number": "33",
+      "filename": "yuukashouken-kisei-furei-article-33.md",
+      "ja_text_sha256": "be51454c7d8e151f8045a37b18f187bb100d29ab13a35d881856f2b3b1c571af",
+      "ja_text_bytes": 202,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-34",
+      "article_number": "34",
+      "filename": "yuukashouken-kisei-furei-article-34.md",
+      "ja_text_sha256": "8474044e5e164bb47ba51230ed4a95b32e7fba5b895f3939e5e3e4dea8fc7804",
+      "ja_text_bytes": 2859,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-35",
+      "article_number": "35",
+      "filename": "yuukashouken-kisei-furei-article-35.md",
+      "ja_text_sha256": "ed2af0d786f3974597a077110e2a7629b6e3c64741341d3367194a85fa06dc59",
+      "ja_text_bytes": 751,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-36",
+      "article_number": "36",
+      "filename": "yuukashouken-kisei-furei-article-36.md",
+      "ja_text_sha256": "9a11c9186728b8ed54018a3a6afa5d7cafa4aea0b4c4c960e7798ebfc74bb2e8",
+      "ja_text_bytes": 295,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-37",
+      "article_number": "37",
+      "filename": "yuukashouken-kisei-furei-article-37.md",
+      "ja_text_sha256": "05f80a34ddefc0e1862bec52e9304741ed20f4c445e580260d7d4b388a18f552",
+      "ja_text_bytes": 361,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-38",
+      "article_number": "38",
+      "filename": "yuukashouken-kisei-furei-article-38.md",
+      "ja_text_sha256": "e3b116d51482bd435e6fc6bfee2771be4c9daa0fbd1858fe8a01769f8bd98ec1",
+      "ja_text_bytes": 394,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-39",
+      "article_number": "39",
+      "filename": "yuukashouken-kisei-furei-article-39.md",
+      "ja_text_sha256": "773415b3d6f586ad739171ef104503acf538adc8f0b22d98d4e695b4dfd19e28",
+      "ja_text_bytes": 370,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-4",
+      "article_number": "4",
+      "filename": "yuukashouken-kisei-furei-article-4.md",
+      "ja_text_sha256": "d13e7ef9a793790d60d169a06fde332270639a37a2b03484aa207ffe5d8c7df1",
+      "ja_text_bytes": 740,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-40",
+      "article_number": "40",
+      "filename": "yuukashouken-kisei-furei-article-40.md",
+      "ja_text_sha256": "7f5e069f2402ea38112c61b5b4074ec1c3a71afc7b96e2e6412c6d9a1511e8ee",
+      "ja_text_bytes": 1294,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-41",
+      "article_number": "41",
+      "filename": "yuukashouken-kisei-furei-article-41.md",
+      "ja_text_sha256": "c698bf18fc885a01f216a1783ba5dfe6d6a9dc9a54deb9e5f9d9f7166dcbf73b",
+      "ja_text_bytes": 1805,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-42",
+      "article_number": "42",
+      "filename": "yuukashouken-kisei-furei-article-42.md",
+      "ja_text_sha256": "ec08858987e826c1d5f795d6e6b2ef13d73939d270a0215bd95d41a6690013e0",
+      "ja_text_bytes": 319,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-43",
+      "article_number": "43",
+      "filename": "yuukashouken-kisei-furei-article-43.md",
+      "ja_text_sha256": "f4af75418c3d74f8398cc557b13ba06502a3c887f5f7cd069649bcf3a6824701",
+      "ja_text_bytes": 319,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-44",
+      "article_number": "44",
+      "filename": "yuukashouken-kisei-furei-article-44.md",
+      "ja_text_sha256": "9850ec1cce17628abc661e02943aa48dc4e878912a7e95b366f7e52a9eb9bf48",
+      "ja_text_bytes": 223,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-45",
+      "article_number": "45",
+      "filename": "yuukashouken-kisei-furei-article-45.md",
+      "ja_text_sha256": "3dadb47f3336161b57c7ef537e7f75b3be878d63da03b867f46cf85c3e97e7b1",
+      "ja_text_bytes": 211,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-46",
+      "article_number": "46",
+      "filename": "yuukashouken-kisei-furei-article-46.md",
+      "ja_text_sha256": "38bc09e37de98120075e9693d5198a32f90dc31fdcfef74d488c47e58e239811",
+      "ja_text_bytes": 2871,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-47",
+      "article_number": "47",
+      "filename": "yuukashouken-kisei-furei-article-47.md",
+      "ja_text_sha256": "6d244a4c970a45be8cbf13a50ad35cafb137388d7195d1649bb7d9bae491e527",
+      "ja_text_bytes": 1468,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-48",
+      "article_number": "48",
+      "filename": "yuukashouken-kisei-furei-article-48.md",
+      "ja_text_sha256": "6e373d8d52b39ac500f94cda03a4820bab3ad56ee043364feb9f9c0242e4150a",
+      "ja_text_bytes": 676,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-49",
+      "article_number": "49",
+      "filename": "yuukashouken-kisei-furei-article-49.md",
+      "ja_text_sha256": "33112d1c552c204b1e8349c871f777fe6fa1bd136dfd0b53b3f45558ace2f879",
+      "ja_text_bytes": 1546,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-5",
+      "article_number": "5",
+      "filename": "yuukashouken-kisei-furei-article-5.md",
+      "ja_text_sha256": "3c5157ffc241ff40c6905bafd5b2726d8f437b6e94f6d3bbf2c641b35d7dd4d1",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-50",
+      "article_number": "50",
+      "filename": "yuukashouken-kisei-furei-article-50.md",
+      "ja_text_sha256": "5e8f50a62c1f3d40859e86514865a04a1cad6b7229caa966ef961204449629da",
+      "ja_text_bytes": 373,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-51",
+      "article_number": "51",
+      "filename": "yuukashouken-kisei-furei-article-51.md",
+      "ja_text_sha256": "6af2c8f1f0d4eadfdfcdcb263cb22cb4444c88fcf036bab561fb484a18c9ea9b",
+      "ja_text_bytes": 826,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-52",
+      "article_number": "52",
+      "filename": "yuukashouken-kisei-furei-article-52.md",
+      "ja_text_sha256": "2075c4b9b5d4e44410ab8d344055e6ef3115c70b13ac1ec3c64663d51a5f9f37",
+      "ja_text_bytes": 877,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-53",
+      "article_number": "53",
+      "filename": "yuukashouken-kisei-furei-article-53.md",
+      "ja_text_sha256": "cfaf9c5ae87c0ccbdf12d39d46bb2611c1444efccceed125708c83f82dfb710b",
+      "ja_text_bytes": 877,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-54",
+      "article_number": "54",
+      "filename": "yuukashouken-kisei-furei-article-54.md",
+      "ja_text_sha256": "45aaf86efabea94a676bcc0c5ab05497582a60fd760b638f93bb23a214173f05",
+      "ja_text_bytes": 436,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-55-2",
+      "article_number": "55-2",
+      "filename": "yuukashouken-kisei-furei-article-55-2.md",
+      "ja_text_sha256": "65fdf499c411932cd2d636b6af04e15b3abf993581dea035c2069b7de2af5e70",
+      "ja_text_bytes": 300,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-55-3",
+      "article_number": "55-3",
+      "filename": "yuukashouken-kisei-furei-article-55-3.md",
+      "ja_text_sha256": "5427a4ba2aae156f69a8323bcfa15d1d708af66b751eeb09c7759458a98b8235",
+      "ja_text_bytes": 1360,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-55-4",
+      "article_number": "55-4",
+      "filename": "yuukashouken-kisei-furei-article-55-4.md",
+      "ja_text_sha256": "8e7a7d6dae390a25a5d9ec438877abd9311549aca85d8d328948883ee05be5d1",
+      "ja_text_bytes": 396,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-55-5",
+      "article_number": "55-5",
+      "filename": "yuukashouken-kisei-furei-article-55-5.md",
+      "ja_text_sha256": "f6e4412512bf456a977b85325c8a6946702d829949aca30862bee496cf77e939",
+      "ja_text_bytes": 788,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-55-6",
+      "article_number": "55-6",
+      "filename": "yuukashouken-kisei-furei-article-55-6.md",
+      "ja_text_sha256": "37aa17027b0a04883d03475b54c3ae1cf69caffbb18053e875b5e58faadf7599",
+      "ja_text_bytes": 740,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-55-7",
+      "article_number": "55-7",
+      "filename": "yuukashouken-kisei-furei-article-55-7.md",
+      "ja_text_sha256": "46be3e3b679e9b421e99c029492f937d919e939bc128c39eb97cc651ae417807",
+      "ja_text_bytes": 2648,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-55-8",
+      "article_number": "55-8",
+      "filename": "yuukashouken-kisei-furei-article-55-8.md",
+      "ja_text_sha256": "4a1cd4c0d7d5d3f84b5b1e74c57eeb8b0155de8667c57eb0c60f26451d063331",
+      "ja_text_bytes": 941,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-55",
+      "article_number": "55",
+      "filename": "yuukashouken-kisei-furei-article-55.md",
+      "ja_text_sha256": "0e31f5ab084c6b55e647dab31edb67b524e96b88447572e690d8c909228bfeb9",
+      "ja_text_bytes": 925,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-56",
+      "article_number": "56",
+      "filename": "yuukashouken-kisei-furei-article-56.md",
+      "ja_text_sha256": "af0113c966fd4802dced6c7b64ec776fa1a7fc0d05dc1f6ec0620f405157bb93",
+      "ja_text_bytes": 2467,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-57",
+      "article_number": "57",
+      "filename": "yuukashouken-kisei-furei-article-57.md",
+      "ja_text_sha256": "0f550827398d0c5ddbc066f8d9a66c52218ddb910e56d967deff97a72ae999fa",
+      "ja_text_bytes": 2218,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-58-2",
+      "article_number": "58-2",
+      "filename": "yuukashouken-kisei-furei-article-58-2.md",
+      "ja_text_sha256": "d2818a9399b46a5a49885b85c1eb8e1f6e1a56814e1cfa50a386f7c8b425acfd",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-58",
+      "article_number": "58",
+      "filename": "yuukashouken-kisei-furei-article-58.md",
+      "ja_text_sha256": "496e17f89699b29219d005abe133f637da57f679ce16199ba18a56159282c3b6",
+      "ja_text_bytes": 637,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-59",
+      "article_number": "59",
+      "filename": "yuukashouken-kisei-furei-article-59.md",
+      "ja_text_sha256": "388f14da7a06dc8b7dfda116a39f82ec233a186969b8a21e1983d23135383063",
+      "ja_text_bytes": 877,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-6",
+      "article_number": "6",
+      "filename": "yuukashouken-kisei-furei-article-6.md",
+      "ja_text_sha256": "934534fa247e13af91c1b48cc6dfa0706e02405d7bc3269e3a59ce7bcc744cee",
+      "ja_text_bytes": 429,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-60",
+      "article_number": "60",
+      "filename": "yuukashouken-kisei-furei-article-60.md",
+      "ja_text_sha256": "15e706ad0013e65dfdd92833015f87fd52a5bacf552a5e00dae2c84c99e12e29",
+      "ja_text_bytes": 244,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-61",
+      "article_number": "61",
+      "filename": "yuukashouken-kisei-furei-article-61.md",
+      "ja_text_sha256": "14ee8f1d9b76107a251d730049eda3748373eb39403e5a7b754723027066f47a",
+      "ja_text_bytes": 244,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-62-2",
+      "article_number": "62-2",
+      "filename": "yuukashouken-kisei-furei-article-62-2.md",
+      "ja_text_sha256": "8dc70beee7ed2b18be643f3c67d353049bd321d21aadfeef730eeeaf19dc71a0",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-62",
+      "article_number": "62",
+      "filename": "yuukashouken-kisei-furei-article-62.md",
+      "ja_text_sha256": "a8e987c911ce51d87f519877712b3dda9aefc523094d644b6c65cbb89e8584ab",
+      "ja_text_bytes": 1834,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-63",
+      "article_number": "63",
+      "filename": "yuukashouken-kisei-furei-article-63.md",
+      "ja_text_sha256": "b522ee25c2066f255bb180ddfb17035f35178c558f1c6ded7495adb8576765e3",
+      "ja_text_bytes": 853,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-64",
+      "article_number": "64",
+      "filename": "yuukashouken-kisei-furei-article-64.md",
+      "ja_text_sha256": "e6bbffdd9da19eafbe9189a0c8ab710070802b2988ed3dfbbe8e177e4017fcc7",
+      "ja_text_bytes": 181,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-65",
+      "article_number": "65",
+      "filename": "yuukashouken-kisei-furei-article-65.md",
+      "ja_text_sha256": "dc5717f6d979e39b708f1fd6606e3fda223e993ca850d674018e60369782067d",
+      "ja_text_bytes": 184,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-66",
+      "article_number": "66",
+      "filename": "yuukashouken-kisei-furei-article-66.md",
+      "ja_text_sha256": "d38571dd64bb50618e0e19deddc8845ea64b7006e950fc1978d53e5e92725406",
+      "ja_text_bytes": 205,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-7",
+      "article_number": "7",
+      "filename": "yuukashouken-kisei-furei-article-7.md",
+      "ja_text_sha256": "616f61424000a19babd3b2807a0948641bbd5f2a377a2b0b8a50575dc4dc5018",
+      "ja_text_bytes": 1576,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-8",
+      "article_number": "8",
+      "filename": "yuukashouken-kisei-furei-article-8.md",
+      "ja_text_sha256": "ceb0bf3697becdac8354bb56bd8266886dcc4aafd132227f75f787dcfbb55c0d",
+      "ja_text_bytes": 698,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-9-2",
+      "article_number": "9-2",
+      "filename": "yuukashouken-kisei-furei-article-9-2.md",
+      "ja_text_sha256": "532308d76deb836180eff2294fce2991f0b69c38987b427b47422c00f6541afa",
+      "ja_text_bytes": 309,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-9-3",
+      "article_number": "9-3",
+      "filename": "yuukashouken-kisei-furei-article-9-3.md",
+      "ja_text_sha256": "317cd26a4b2ef61c10eb2f5a86419e3c70f9089d9188b431885bca7b5b3d221d",
+      "ja_text_bytes": 1576,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "yuukashouken-kisei-furei-art-9",
+      "article_number": "9",
+      "filename": "yuukashouken-kisei-furei-article-9.md",
+      "ja_text_sha256": "d03d66ed2e7e2dc1d3d2b7a84178cac2ac3968aa211076d46a4eca014ca6ab0f",
+      "ja_text_bytes": 1016,
+      "paragraph_count": 2
+    }
+  ]
+}

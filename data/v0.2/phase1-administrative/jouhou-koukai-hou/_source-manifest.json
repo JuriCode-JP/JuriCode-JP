@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "law_id": "411AC0000000042",
+  "law_name_ja": "行政機関の保有する情報の公開に関する法律",
+  "law_abbrev": "jouhou-koukai-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/411AC0000000042",
+  "source_xml_path": "../../../cache/laws/411AC0000000042.xml",
+  "source_xml_sha256": "d081cf5200773b160c14d53861ac8e645c0f4981e473e89a5e579548a2a9e120",
+  "source_xml_bytes": 94786,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:26:40+00:00",
+  "version_date": "1999-05-14",
+  "article_count": 27,
+  "articles": [
+    {
+      "article_id": "jouhou-koukai-hou-art-1",
+      "article_number": "1",
+      "filename": "jouhou-koukai-hou-article-1.md",
+      "ja_text_sha256": "ef75e2ac525e2f11f701d085b5e51edd699ec7a91ae2a972f65bf3be6bd77419",
+      "ja_text_bytes": 500,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-10",
+      "article_number": "10",
+      "filename": "jouhou-koukai-hou-article-10.md",
+      "ja_text_sha256": "1bc6142227c556def68e30d22d98efdbf63c4077eb1899045815f7f6de614f6c",
+      "ja_text_bytes": 949,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-11",
+      "article_number": "11",
+      "filename": "jouhou-koukai-hou-article-11.md",
+      "ja_text_sha256": "a791159efc7b12c30ff9ca4dfb97dbdf8af6da446456872c93dfe18485ed7a57",
+      "ja_text_bytes": 832,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-12-2",
+      "article_number": "12-2",
+      "filename": "jouhou-koukai-hou-article-12-2.md",
+      "ja_text_sha256": "b363ccc48ac665dd2ea68c5d545bc8aef638d0287182d53805db0d29f17567aa",
+      "ja_text_bytes": 1906,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-12",
+      "article_number": "12",
+      "filename": "jouhou-koukai-hou-article-12.md",
+      "ja_text_sha256": "e82475b9710344bfb1272ab944fc947df1f76ad3864851dfc762f8c2a3966483",
+      "ja_text_bytes": 1783,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-13",
+      "article_number": "13",
+      "filename": "jouhou-koukai-hou-article-13.md",
+      "ja_text_sha256": "f8323731e6ad8928e9dc4ea21a339c843d6ad97aab86def04640f8f831b89dfd",
+      "ja_text_bytes": 1948,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-14",
+      "article_number": "14",
+      "filename": "jouhou-koukai-hou-article-14.md",
+      "ja_text_sha256": "bf5bf84f552d6ad175749a112df73e6125dadfba06ea9168e5646dacd4a95242",
+      "ja_text_bytes": 1871,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-15",
+      "article_number": "15",
+      "filename": "jouhou-koukai-hou-article-15.md",
+      "ja_text_sha256": "124b3f7441273587e3c2866bd83816e0c1a3991fded92de15935199701e35931",
+      "ja_text_bytes": 948,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-16",
+      "article_number": "16",
+      "filename": "jouhou-koukai-hou-article-16.md",
+      "ja_text_sha256": "a6ae0862e7478b90a47196c801834cc13b3e67a7e2fff966968aac46d7a46306",
+      "ja_text_bytes": 814,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-17",
+      "article_number": "17",
+      "filename": "jouhou-koukai-hou-article-17.md",
+      "ja_text_sha256": "dc9cb2a076afa973068f17f69577bc358e66f9b639187041bfde85e1ba3e3af0",
+      "ja_text_bytes": 333,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-18",
+      "article_number": "18",
+      "filename": "jouhou-koukai-hou-article-18.md",
+      "ja_text_sha256": "3a44199dd0bb86d190a676b299c84178d20497e5a51ce19dbdd29a3b62646bc9",
+      "ja_text_bytes": 2228,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-19",
+      "article_number": "19",
+      "filename": "jouhou-koukai-hou-article-19.md",
+      "ja_text_sha256": "4241e5e1bb70a9905e9cf197f07f98004042d6a2465b905f4d424e744dc7afef",
+      "ja_text_bytes": 752,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-2",
+      "article_number": "2",
+      "filename": "jouhou-koukai-hou-article-2.md",
+      "ja_text_sha256": "194495f63b22b122980a3e4f9c8c11c9780fc85e8f83c3910c1279a1981da1ff",
+      "ja_text_bytes": 714,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-20",
+      "article_number": "20",
+      "filename": "jouhou-koukai-hou-article-20.md",
+      "ja_text_sha256": "3845735cba732cad38e6a80ff520a8a50b7786302f4df815f96c701fb731d488",
+      "ja_text_bytes": 458,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-21",
+      "article_number": "21",
+      "filename": "jouhou-koukai-hou-article-21.md",
+      "ja_text_sha256": "2b8d4a438f50f7d027da906714bafd7261e189533bb33bab2b49ed9f0a5c736b",
+      "ja_text_bytes": 1791,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-22",
+      "article_number": "22",
+      "filename": "jouhou-koukai-hou-article-22.md",
+      "ja_text_sha256": "b12a3e0b2b358709d4606da8057b7f4e15b9466204f0178d300833494d7720cc",
+      "ja_text_bytes": 683,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-23",
+      "article_number": "23",
+      "filename": "jouhou-koukai-hou-article-23.md",
+      "ja_text_sha256": "da9c4cc12597b1443630fd56d522265316d3eb634142a5a58736fbf89dcdf16d",
+      "ja_text_bytes": 356,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-24",
+      "article_number": "24",
+      "filename": "jouhou-koukai-hou-article-24.md",
+      "ja_text_sha256": "82d9ab79cf14f98902cae9cf5162f55cfb75174310d77cc1111078355eab3b2e",
+      "ja_text_bytes": 354,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-25",
+      "article_number": "25",
+      "filename": "jouhou-koukai-hou-article-25.md",
+      "ja_text_sha256": "f310553b979d455dfdadb81e18e78cb16c0c35a5bc0db05a90e097e579bd19f2",
+      "ja_text_bytes": 258,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-26",
+      "article_number": "26",
+      "filename": "jouhou-koukai-hou-article-26.md",
+      "ja_text_sha256": "390a3f260604d89a026e86d64a277d493416d80d88112d33f37e67b4b544490a",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-3",
+      "article_number": "3",
+      "filename": "jouhou-koukai-hou-article-3.md",
+      "ja_text_sha256": "73df7515d9260bf75a702eae0013f9d8df57f07465a8955ebc153c9424eb8e37",
+      "ja_text_bytes": 392,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-4",
+      "article_number": "4",
+      "filename": "jouhou-koukai-hou-article-4.md",
+      "ja_text_sha256": "bfb6afd14ba26dbe7d8d0e0a57a6b87ccb538f6b86546b39bd6c5bb37c4f25d1",
+      "ja_text_bytes": 883,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-5",
+      "article_number": "5",
+      "filename": "jouhou-koukai-hou-article-5.md",
+      "ja_text_sha256": "a86483a163bf912638757e74b88e142d1b8dc4058764642a85637ea301d38ad0",
+      "ja_text_bytes": 377,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-6",
+      "article_number": "6",
+      "filename": "jouhou-koukai-hou-article-6.md",
+      "ja_text_sha256": "7f3b042ac863540ee0e3f70a957732796d7de256933114e569855ee37fc7599a",
+      "ja_text_bytes": 1233,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-7",
+      "article_number": "7",
+      "filename": "jouhou-koukai-hou-article-7.md",
+      "ja_text_sha256": "092f3721d892164913b4db2ca2c367c664df5a28ec9634f379c51505600ba862",
+      "ja_text_bytes": 374,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-8",
+      "article_number": "8",
+      "filename": "jouhou-koukai-hou-article-8.md",
+      "ja_text_sha256": "06664e7a44a691a070be563ab2555494a7052dfc01403e1854c190081815d6ac",
+      "ja_text_bytes": 365,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "jouhou-koukai-hou-art-9",
+      "article_number": "9",
+      "filename": "jouhou-koukai-hou-article-9.md",
+      "ja_text_sha256": "03cebbaeb2563e43b74205b188e9b3703f5ad31c38a487928ac444df92daec78",
+      "ja_text_bytes": 759,
+      "paragraph_count": 2
+    }
+  ]
+}

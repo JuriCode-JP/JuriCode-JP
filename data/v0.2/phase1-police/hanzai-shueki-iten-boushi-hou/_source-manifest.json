@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0",
+  "law_id": "419AC0000000022",
+  "law_name_ja": "犯罪による収益の移転防止に関する法律",
+  "law_abbrev": "hanzai-shueki-iten-boushi-hou",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/419AC0000000022",
+  "source_xml_path": "../../../cache/laws/419AC0000000022.xml",
+  "source_xml_sha256": "88fba423b4d8fb9263b13a9bc75b15cfa27123b7b68f4d6dc87c49bed1421172",
+  "source_xml_bytes": 253453,
+  "source_fetched_at": "2026-05-25",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-05-25T11:26:46+00:00",
+  "version_date": "2007-03-31",
+  "article_count": 39,
+  "articles": [
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-1",
+      "article_number": "1",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-1.md",
+      "ja_text_sha256": "738b31ff50d5861f1cbf8f6760776cf2329983e04de3dddbfc19a59cd5ad1893",
+      "ja_text_bytes": 1748,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-10-2",
+      "article_number": "10-2",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-10-2.md",
+      "ja_text_sha256": "333672da0d21b879935c23edc5840ae31aa13f4d5e08463718db8f7b2de85294",
+      "ja_text_bytes": 1344,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-10-3",
+      "article_number": "10-3",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-10-3.md",
+      "ja_text_sha256": "385587392583abdbdc6b884683440cf7373fd6130e9c837bb7dd656c7707b7ae",
+      "ja_text_bytes": 2087,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-10-4",
+      "article_number": "10-4",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-10-4.md",
+      "ja_text_sha256": "dc02308b2db18f0cf1e9ff04643e09fd8c0a315f7d8848209b030bdedd22c2a8",
+      "ja_text_bytes": 894,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-10-5",
+      "article_number": "10-5",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-10-5.md",
+      "ja_text_sha256": "080a82fdd88555db9f26ea36838b4930269efa48e92d0768629724cd030560c5",
+      "ja_text_bytes": 1949,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-10",
+      "article_number": "10",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-10.md",
+      "ja_text_sha256": "259baf2f0b568ae3d7bdf5e96c9cedfca325cf11dbea59335b0b4f0c24124e95",
+      "ja_text_bytes": 2307,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-11",
+      "article_number": "11",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-11.md",
+      "ja_text_sha256": "dd33167d04bd30d53cb96fb2d5340965fe9b640837e9b4ea2ff4081a2bccf98d",
+      "ja_text_bytes": 492,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-12",
+      "article_number": "12",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-12.md",
+      "ja_text_sha256": "13017769740cbe0ae2128f6f8da92d0dc31d2292fd574e2d1d00cf71a01e8570",
+      "ja_text_bytes": 913,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-13",
+      "article_number": "13",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-13.md",
+      "ja_text_sha256": "5d2d5960c76f15a50828d792ea288c06c25dd5cccc279ebabc73ae73a613c2f4",
+      "ja_text_bytes": 1793,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-14",
+      "article_number": "14",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-14.md",
+      "ja_text_sha256": "35b8bc64253fc596000fae346359a1771c4f8269f1c1f4f626a521b20a0180e3",
+      "ja_text_bytes": 2345,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-15",
+      "article_number": "15",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-15.md",
+      "ja_text_sha256": "378865145ba22450a0fa64d9c81cbc304f0a15de8de0a0a790b0b497b20a7c78",
+      "ja_text_bytes": 246,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-16",
+      "article_number": "16",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-16.md",
+      "ja_text_sha256": "b69eaafb849a6077450f972045291987e9507590bcfe5bf5c78281e8679d6f28",
+      "ja_text_bytes": 975,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-17",
+      "article_number": "17",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-17.md",
+      "ja_text_sha256": "ecd940fe159a76d04837509ac882aed04663963965ddf8fb0c03224c6bcaba13",
+      "ja_text_bytes": 321,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-18",
+      "article_number": "18",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-18.md",
+      "ja_text_sha256": "708628afe345355d27baf45a364d2b8d4948aff858a73022e5d2926fe4bb1c51",
+      "ja_text_bytes": 588,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-19",
+      "article_number": "19",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-19.md",
+      "ja_text_sha256": "81a8b7b60ba305931aa255ad07a84ecc5b77606bb72b760fdd60498b9b56cf93",
+      "ja_text_bytes": 2729,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-2",
+      "article_number": "2",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-2.md",
+      "ja_text_sha256": "ac8e82a53d25a13a3f6cbc5daa56bb060b7145b4ad8145c1ab6107ab080c82df",
+      "ja_text_bytes": 733,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-20",
+      "article_number": "20",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-20.md",
+      "ja_text_sha256": "7b68d08e94536a76dd813f9df425fea69ef8ae8fb3af96b92ed1548cfcf5fe7e",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-21",
+      "article_number": "21",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-21.md",
+      "ja_text_sha256": "ca4ea0b6de4be7bfc5e9c6c9727c21710817d5c94619be5618b7ceb33a10c458",
+      "ja_text_bytes": 414,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-22",
+      "article_number": "22",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-22.md",
+      "ja_text_sha256": "561f59acb6c0fddd20082982aeaf6feac59060e76be0e675442b4d7393e5ea43",
+      "ja_text_bytes": 4231,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-23",
+      "article_number": "23",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-23.md",
+      "ja_text_sha256": "f69bf2869d79ff3da96e05eeb07717fbeb950822039c593f30ea9e7b248271da",
+      "ja_text_bytes": 449,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-24",
+      "article_number": "24",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-24.md",
+      "ja_text_sha256": "017b3ee3f120d8ded5386eb32bc5b18bfdedd26c4cdc1106ce302eff4296d360",
+      "ja_text_bytes": 354,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-25",
+      "article_number": "25",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-25.md",
+      "ja_text_sha256": "f93f53bb7bd1dcf4f487ddfc6dd80a1e49d4f2ad46a481e5c694127a570bf09b",
+      "ja_text_bytes": 273,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-26",
+      "article_number": "26",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-26.md",
+      "ja_text_sha256": "951b4e0b4aeb021e74dd36e783b5e785467bdc39a0139648e7346efb9076d133",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-27",
+      "article_number": "27",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-27.md",
+      "ja_text_sha256": "c909a32f34e3dd0ea29e7ea6a9d5ece8d383f6552b276c51644a6cf80e152cf9",
+      "ja_text_bytes": 438,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-28-2",
+      "article_number": "28-2",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-28-2.md",
+      "ja_text_sha256": "2e4d4529237d92fd8a96f153b10cf8c581ee3ea650ac27b4942e4f87542abeb4",
+      "ja_text_bytes": 2238,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-28",
+      "article_number": "28",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-28.md",
+      "ja_text_sha256": "d638915764dd63c6ab71f630db40bc489e2d45b22f5095d9037d7fb7f3d98906",
+      "ja_text_bytes": 2364,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-29-2",
+      "article_number": "29-2",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-29-2.md",
+      "ja_text_sha256": "b4a77fb058624d05c405e6ace5e352520ae3083b8bd9093d12d0d0913b27c0ad",
+      "ja_text_bytes": 2226,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-29-3",
+      "article_number": "29-3",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-29-3.md",
+      "ja_text_sha256": "f806e70d372a0651f7641b12ea6407c3faee9b437c17775f10302334ebc0b8d5",
+      "ja_text_bytes": 2061,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-29",
+      "article_number": "29",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-29.md",
+      "ja_text_sha256": "a581cf170aed867ab5a16a8c857f4c8da761407de1ba58731cff25994e69737c",
+      "ja_text_bytes": 2091,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-3",
+      "article_number": "3",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-3.md",
+      "ja_text_sha256": "245345f0bd3ba8e6bca07567d23c3a1d8b30602937978a5ee8252fa6ce0316dc",
+      "ja_text_bytes": 2307,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-30",
+      "article_number": "30",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-30.md",
+      "ja_text_sha256": "3b1513c975d6fb9e289f594b5ec896bc0bf27590c7184aaf6d0c1b4c951be2eb",
+      "ja_text_bytes": 2016,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-31",
+      "article_number": "31",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-31.md",
+      "ja_text_sha256": "4484ef3bb637d9cc69309053beea78ec517756c77021cf4c726c0d473eb87563",
+      "ja_text_bytes": 438,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-32",
+      "article_number": "32",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-32.md",
+      "ja_text_sha256": "b96d7ac8c99d1854663cf21b6b3798e7088da23961c9dca84b4dcbc8afee7b15",
+      "ja_text_bytes": 261,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-4",
+      "article_number": "4",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-4.md",
+      "ja_text_sha256": "ba63896f8ee00b5be1b01354cfe4a5fa9af6ad57b2e98c58d2918f6243294cfb",
+      "ja_text_bytes": 4546,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-5",
+      "article_number": "5",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-5.md",
+      "ja_text_sha256": "fac06ac07cc1c5de91dc965f8fb1ac1302c43970cdf645166bfbffea5e5bc1dc",
+      "ja_text_bytes": 335,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-6",
+      "article_number": "6",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-6.md",
+      "ja_text_sha256": "9f7e220db9823280844e9de447645c5070df8a95b0dba88146762f626d64da3d",
+      "ja_text_bytes": 663,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-7",
+      "article_number": "7",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-7.md",
+      "ja_text_sha256": "f85b7005ea67645615cba23e6ea2efcbac80c52704480e8aacec48cd7a0501b4",
+      "ja_text_bytes": 1603,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-8",
+      "article_number": "8",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-8.md",
+      "ja_text_sha256": "06adf1332206405a673eecdc832be9435f21122e712d4bf767d848860aa23485",
+      "ja_text_bytes": 3502,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "hanzai-shueki-iten-boushi-hou-art-9",
+      "article_number": "9",
+      "filename": "hanzai-shueki-iten-boushi-hou-article-9.md",
+      "ja_text_sha256": "1589ab004c8868c9f559ea5fcb6fb07e5e81c2995a61c7895bce691335532b66",
+      "ja_text_bytes": 722,
+      "paragraph_count": 1
+    }
+  ]
+}
