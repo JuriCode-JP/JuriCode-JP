@@ -44,6 +44,13 @@ except ImportError:
 sys.path.insert(0, str(Path(__file__).parent))
 from _canonicalize import canonicalize
 
+# tools/shared/src を sys.path に追加して juricode_shared を import 可能にする
+_SHARED_SRC = Path(__file__).resolve().parent.parent / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+
+from juricode_shared import safe_write_text  # noqa: E402  (must follow sys.path tweak)
+
 PARSER_VERSION = "tools/parse/parse-egov.py@0.2.0"
 
 # Security: --abbrev becomes a path component. Restrict to safe charset.
@@ -404,7 +411,11 @@ def _emit_article(article, law_id, law_abbrev, law_name_ja, version_date, output
     if out_path.exists() and not force:
         print(f"SKIP existing: {out_path}", file=sys.stderr)
     else:
-        out_path.write_text(md_text, encoding="utf-8")
+        # FU-302: NUL byte / 末尾改行 / atomic write を保証.
+        # Phase 1 で 11,758 条を再生成する際の事故 (a)(b)(c) 防止.
+        if md_text and not md_text.endswith("\n"):
+            md_text += "\n"
+        safe_write_text(out_path, md_text)
         print(f"WROTE {out_path}", file=sys.stderr)
 
     canon = extract_canonical_text(article)
@@ -524,9 +535,11 @@ def main():
         article_entries=article_entries,
     )
     manifest_path = args.output / "_source-manifest.json"
-    manifest_path.write_text(
+    # FU-302: manifest が壊れると verify.py の本文改変検知が無効化されるため、
+    # atomic write + NUL/末尾改行検証を必ず通す.
+    safe_write_text(
+        manifest_path,
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
     )
     print(f"WROTE {manifest_path} ({len(article_entries)} article(s))", file=sys.stderr)
     print(

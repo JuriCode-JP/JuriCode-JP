@@ -24,6 +24,13 @@ import json
 import sys
 from pathlib import Path
 
+# tools/shared/src を sys.path に追加して juricode_shared を import 可能にする
+_SHARED_SRC = Path(__file__).resolve().parent.parent.parent.parent / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+
+from juricode_shared import safe_append_jsonl_records  # noqa: E402, I001  (must follow sys.path tweak)
+
 # segment_type 順 (display 順、rollup 内で意味のある並び)
 SEGMENT_TYPE_ORDER = {
     "honbun": 0,
@@ -133,8 +140,10 @@ def main():
             continue
 
         if not args.dry_run:
-            with f.open("a", encoding="utf-8") as fh:
-                fh.write(json.dumps(rollup, ensure_ascii=False) + "\n")
+            # FU-302: append mode は既存 jsonl が壊れていても気付けないため、
+            # safe_append_jsonl_records で「読み直し + 全レコード検証 + 書き直し」する.
+            # 既存事故 (g) 4,810 empty chunks 紛れ込み防止.
+            safe_append_jsonl_records(f, [rollup])
         added += 1
 
     print("\n=== Summary ===", file=sys.stderr)

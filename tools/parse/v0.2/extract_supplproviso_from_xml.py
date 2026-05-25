@@ -13,7 +13,6 @@
 from __future__ import annotations
 
 import argparse
-import json
 import re
 import sys
 from collections import Counter
@@ -24,6 +23,13 @@ try:
     import defusedxml.ElementTree as ET
 except ImportError:
     import xml.etree.ElementTree as ET
+
+# tools/shared/src を sys.path に追加して juricode_shared を import 可能にする
+_SHARED_SRC = Path(__file__).resolve().parent.parent.parent.parent / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+
+from juricode_shared import safe_write_jsonl  # noqa: E402, I001  (must follow sys.path tweak)
 
 
 # ============================================================
@@ -696,9 +702,9 @@ def main():
         out_file = out_dir / f"{law_abbrev}-supplproviso.chunks.jsonl"
         if not args.dry_run:
             out_dir.mkdir(parents=True, exist_ok=True)
-            with out_file.open("w", encoding="utf-8") as fh:
-                for c in chunks:
-                    fh.write(json.dumps(c, ensure_ascii=False) + "\n")
+            # FU-302: safe_write_jsonl で atomic write + 各レコード json.loads 検証.
+            # 既存事故 (a) WSL ruff corruption / (b) NUL padding の再発防止.
+            safe_write_jsonl(out_file, chunks)
 
     # ---- Summary ----
     print("\n=== Summary ===", file=sys.stderr)

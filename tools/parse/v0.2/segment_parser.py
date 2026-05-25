@@ -19,6 +19,13 @@ import sys
 from dataclasses import dataclass, field
 from pathlib import Path
 
+# tools/shared/src を sys.path に追加して juricode_shared を import 可能にする
+_SHARED_SRC = Path(__file__).resolve().parent.parent.parent.parent / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+
+from juricode_shared import safe_write_text  # noqa: E402
+
 try:
     import yaml
 except ImportError:
@@ -83,9 +90,20 @@ RELATIVE_REF_PATTERN = re.compile(
     r"(前項|同項|次項|前条|次条|本条|前[二三四五六七八九十]項|前[二三四五六七八九十]条)"
 )
 
-# 項見出し (v0.1 形式)
+# 項見出し (v0.1 形式) — 単一の真実源として module level に集約 (FU-301).
+#
+# 設計上の Why:
+# - re.split / re.match の両方で使うため re.MULTILINE フラグ付き
+#   (re.match は MULTILINE の影響を受けないので、両方安全に共有可能)
+# - capture group なし (re.split で使うとき、capture group があると分割結果に
+#   group 値が混入して下流の zip ロジックが壊れる)
+# - 「第N条」「第N条のM」(枝番条)、「第N条第K項」「第N条のM第K項」を全て match
+# - 既知事故 (g) 4,810 件 empty chunks bug の再発条件 (regex 2 重定義) を解消
+#
+# テスト: tools/parse/v0.2/tests/test_paragraph_heading_pattern.py
 PARAGRAPH_HEADING_PATTERN = re.compile(
-    r"^### 第([零〇一二三四五六七八九十百千万]+)条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第([零〇一二三四五六七八九十百千万]+)項)?\s*$"
+    r"^### 第[零〇一二三四五六七八九十百千万]+条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第[零〇一二三四五六七八九十百千万]+項)?\s*$",
+    re.MULTILINE,
 )
 
 # 漢数字 → アラビア数字
@@ -367,11 +385,8 @@ def parse_v01_md(md_path: Path) -> tuple[dict, list[ParagraphV02], str]:
 
     # 「### 第N条第N項」「### 第N条の二第N項」「### 第N条」見出しを境に body を分割
     # 枝番付き条 (第一条の二、第百九十七条の三) も対応
-    sections = re.split(
-        r"^### 第[零〇一二三四五六七八九十百千万]+条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第[零〇一二三四五六七八九十百千万]+項)?\s*$",
-        body,
-        flags=re.MULTILINE,
-    )
+    # FU-301: module level の PARAGRAPH_HEADING_PATTERN を再利用 (regex 2 重定義を解消)
+    sections = PARAGRAPH_HEADING_PATTERN.split(body)
     # 最初の要素は見出し前 (通常 ## 原文 などの導入部)
     # sections[0] は捨てて、sections[1:] が各段落本文
     paragraph_bodies = sections[1:]
@@ -431,20 +446,78 @@ def render_v02_md(
     frontmatter: dict,
     paragraphs_v02: list[ParagraphV02],
     original_body: str,
+    parsing_warnings: list[str] | None = None,
 ) -> str:
-    """v0.2 .md を生成."""
-    # frontmatter 更新
+    """v0.2 .md を生成 (FU-303: scope 限定 + warnings 記録).
+
+    Args:
+        frontmatter: v0.1 frontmatter dict.
+        paragraphs_v02: v0.2 paragraph (segments を含む) のリスト.
+        original_body: v0.1 .md の本文.
+        parsing_warnings: マーカー挿入失敗時に追記される警告リスト. None 可.
+
+    FU-303 設計:
+        旧実装は body 全体に対し replace していたため、(a) 「## English
+        Translation」セクションに同じ search_str があれば英訳に marker が
+        誤挿入、(b) search_str に改行が混じると strip() でマッチが消えて
+        サイレント失敗、の 2 種類の事故が起きた。
+
+        修正: body を intro / paragraph slices / trailing (英訳以降) に分解し、
+        marker 挿入は対応する paragraph slice 内のみに限定。失敗時は
+        parsing_warnings に詳細を追記してサイレント失敗を阻止する。
+
+    関連: business/code-reviews/2026-05-24-v02-parser-pipeline-review.md §D-03
+    """
+    warnings = parsing_warnings if parsing_warnings is not None else []
+
     new_fm = dict(frontmatter)
     new_fm["paragraphs"] = [p.to_dict() for p in paragraphs_v02]
-
-    # YAML 出力
     fm_yaml = yaml.dump(new_fm, allow_unicode=True, sort_keys=False, width=200)
 
-    # body: v0.1 と同様の構造を維持 + segment marker をコメントで追加
-    # 簡略化: 既存 body の paragraph 見出し直下に segment marker を挿入
-    new_body = original_body
+    # ---- scope 分解: intro / paragraph slices / English (or other H2) 以降 ----
+    # 「## 原文 (日本語)」セクションは本文を含むので boundary ではない.
+    # その後に現れる H2 (## English Translation / ## 注記 / ## 判例 等) を
+    # 「日本語本文終端」と見なす. これにより英訳側への marker 誤挿入を防ぐ.
+    gen_match = re.search(r"^##\s+原文", original_body, re.MULTILINE)
+    if gen_match:
+        next_h2 = re.search(r"^##\s+", original_body[gen_match.end() :], re.MULTILINE)
+        ja_end = gen_match.end() + next_h2.start() if next_h2 else len(original_body)
+    else:
+        # 「## 原文」セクションがない場合は body 全体を JA とみなす
+        ja_end = len(original_body)
+    ja_body = original_body[:ja_end]
+    trailing = original_body[ja_end:]
 
+    headings = list(PARAGRAPH_HEADING_PATTERN.finditer(ja_body))
+    has_any_segments = any(p.segments for p in paragraphs_v02)
+    if not headings and has_any_segments:
+        warnings.append(
+            "render_v02_md: no paragraph headings found in body; "
+            "segment markers will be skipped (no safe scope to insert into)"
+        )
+        return f"---\n{fm_yaml}---\n{original_body}"
+
+    intro = ja_body[: headings[0].start()] if headings else ja_body
+    heading_texts: list[str] = []
+    para_bodies: list[str] = []
+    for i, h in enumerate(headings):
+        heading_texts.append(ja_body[h.start() : h.end()])
+        start = h.end()
+        end = headings[i + 1].start() if i + 1 < len(headings) else len(ja_body)
+        para_bodies.append(ja_body[start:end])
+
+    # ---- segment marker 挿入 (paragraph slice 内のみ) ----
     for p in paragraphs_v02:
+        pnum = p.number
+        pidx = pnum - 1  # 1-indexed
+        if pidx < 0 or pidx >= len(para_bodies):
+            for seg in p.segments:
+                warnings.append(
+                    f"render_v02_md: paragraph_number={pnum} out of range "
+                    f"(have {len(para_bodies)} slices); segment {seg.id!r} marker skipped"
+                )
+            continue
+
         for seg in p.segments:
             marker_attrs = [f"segment: {seg.type}", f"id: {seg.id}"]
             if seg.override_flag:
@@ -455,13 +528,30 @@ def render_v02_md(
                 marker_attrs.append(f"depends_on: {seg.depends_on}")
             if seg.applies_provisions:
                 marker_attrs.append(f"applies_provisions: {','.join(seg.applies_provisions)}")
-            # コメント形式
             marker = f"<!-- {' '.join(marker_attrs)} -->"
-            # text の最初の 20 文字を検索して直前に挿入
-            search_str = seg.text[:20].strip()
-            if search_str and search_str in new_body:
-                new_body = new_body.replace(search_str, f"{marker}\n{search_str}", 1)
 
+            # text 先頭 20 文字 (ただし改行までで切る — 改行入り substring は body に存在しない)
+            raw_text = seg.text
+            nl_idx = raw_text.find("\n")
+            head = raw_text if nl_idx < 0 else raw_text[:nl_idx]
+            search_str = head[:20].strip()
+
+            if not search_str:
+                warnings.append(
+                    f"render_v02_md: segment {seg.id!r}: empty search_str "
+                    f"(seg.text 先頭が空白のみ); marker skipped"
+                )
+                continue
+            if search_str not in para_bodies[pidx]:
+                warnings.append(
+                    f"render_v02_md: segment {seg.id!r}: search_str {search_str!r} "
+                    f"not found in paragraph {pnum} scope; marker skipped"
+                )
+                continue
+            para_bodies[pidx] = para_bodies[pidx].replace(search_str, f"{marker}\n{search_str}", 1)
+
+    rebuilt_ja = intro + "".join(h + b for h, b in zip(heading_texts, para_bodies, strict=True))
+    new_body = rebuilt_ja + trailing
     return f"---\n{fm_yaml}---\n{new_body}"
 
 
@@ -534,11 +624,19 @@ def process_file(
     out_md = output_md_dir / md_path.name
     out_chunks = output_chunks_dir / f"{md_path.stem}.chunks.jsonl"
 
+    # FU-303: render_v02_md がマーカー挿入失敗を warnings に記録する
+    parsing_warnings: list[str] = []
+    rendered_md = render_v02_md(
+        frontmatter, paragraphs_v02, body, parsing_warnings=parsing_warnings
+    )
+
     if not dry_run:
-        out_md.parent.mkdir(parents=True, exist_ok=True)
-        out_chunks.parent.mkdir(parents=True, exist_ok=True)
-        out_md.write_text(render_v02_md(frontmatter, paragraphs_v02, body), encoding="utf-8")
-        out_chunks.write_text(render_chunks_jsonl(frontmatter, paragraphs_v02), encoding="utf-8")
+        safe_write_text(out_md, rendered_md, encoding="utf-8")
+        safe_write_text(
+            out_chunks,
+            render_chunks_jsonl(frontmatter, paragraphs_v02),
+            encoding="utf-8",
+        )
 
     # 統計
     total_segments = sum(len(p.segments) for p in paragraphs_v02)
@@ -564,6 +662,7 @@ def process_file(
         "modality_counts": modality_counts,
         "override_count": override_count,
         "junyou_count": junyou_count,
+        "parsing_warnings": parsing_warnings,  # FU-303: marker 挿入失敗等
     }
 
 
@@ -638,6 +737,8 @@ def main():
         print(f"\n=== Errors ({len(errors)}) ===", file=sys.stderr)
         for e in errors[:10]:
             print(f"  {e['path']}: {e['error']}", file=sys.stderr)
+
+    return 0
 
 
 if __name__ == "__main__":

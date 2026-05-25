@@ -23,6 +23,13 @@ try:
 except ImportError:
     import xml.etree.ElementTree as ET
 
+# tools/shared/src を sys.path に追加して juricode_shared を import 可能にする
+_SHARED_SRC = Path(__file__).resolve().parent.parent.parent.parent / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+
+from juricode_shared import safe_append_jsonl_records  # noqa: E402, I001  (must follow sys.path tweak)
+
 
 # 法令名 ja マッピング (簡易)
 LAW_NAME_JA = {
@@ -315,14 +322,19 @@ def main():
                         continue
 
             if not args.dry_run:
-                with chunk_file.open("a", encoding="utf-8") as fh:
-                    for c in art_chunks:
-                        if c["id"] in existing_ids:
-                            continue
-                        if parent_section:
-                            c["parent_section"] = parent_section
-                        fh.write(json.dumps(c, ensure_ascii=False) + "\n")
-                        total_chunks += 1
+                # FU-302: safe_append_jsonl_records で atomic append + 既存 jsonl の
+                # 健全性検証 (corrupt line 検知). 既存事故 (g) 4,810 empty chunks の
+                # 再発防止のため、raw fh.write は使わない.
+                new_records: list[dict] = []
+                for c in art_chunks:
+                    if c["id"] in existing_ids:
+                        continue
+                    if parent_section:
+                        c["parent_section"] = parent_section
+                    new_records.append(c)
+                    total_chunks += 1
+                if new_records:
+                    safe_append_jsonl_records(chunk_file, new_records)
 
     print("\n=== Summary ===", file=sys.stderr)
     print(f"Laws processed: {laws_processed}", file=sys.stderr)
