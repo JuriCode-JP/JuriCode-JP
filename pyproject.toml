@@ -91,13 +91,22 @@ minversion = "8.0"
 testpaths = [
     "tools/shared/tests",
     "tools/validate/tests",
+    # 2026-05-25: v0.2 parser tests + manifest 生成パッケージ tests を追加.
+    # ディレクトリ名にドットを含むため `python -m manifest.cli` 形式の import が
+    # 必要で、各 test ファイル内で sys.path manipulation を行う pattern.
+    "tools/parse/v0.2/tests",
+    "tools/parse/v0.2/manifest/tests",
 ]
 pythonpath = [
     "tools/shared/src",
     "tools/validate",
 ]
-# Don't auto-collect __pycache__ files left in mounted dirs
-addopts = "--strict-markers"
+# Don't auto-collect __pycache__ files left in mounted dirs.
+# --import-mode=importlib: 2026-05-25 追加. 複数の `tests/` ディレクトリが
+# 同名 package として衝突するのを回避 (tools/parse/v0.2/tests と
+# tools/parse/v0.2/manifest/tests が両方 __init__.py を持つため).
+# Pytest 公式推奨 import mode (https://docs.pytest.org/en/stable/explanation/pythonpath.html).
+addopts = "--strict-markers --import-mode=importlib"
 filterwarnings = [
     # Pydantic / cryptography emit deprecation warnings on Python 3.10
     "ignore::DeprecationWarning",
