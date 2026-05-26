@@ -136,6 +136,10 @@ select = [
     "UP",     # pyupgrade
     "B",      # flake8-bugbear (likely bugs)
     "RUF",    # ruff-specific suggestions
+    "RET503", # flake8-return RET503: 'return 0 forget' を catch して false-green guard.
+              # FU-503 で導入. main() の implicit None 戻りを lint 段階で検知し、
+              # FU-502/504 と同型の false-green guarantee を構造的に防止.
+              # RET504-508 (stylistic) は scope 外として除外.
 ]
 ignore = [
     "E501",    # line too long (handled by formatter)
