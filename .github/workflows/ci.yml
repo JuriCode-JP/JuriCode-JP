@@ -74,6 +74,16 @@ jobs:
         #       business/v02-corpus-quality-investigation-2026-05-25.md
         run: python tools/parse/verify.py --path data
 
+      - name: Phase tag consistency check (FU-415 guard, FU-502)
+        # 2026-05-26 FU-502: tags[0] が path-derived な phase と一致するかを
+        # CI で機械的に検知する. fix-phase-tags.py --check-only は mismatch
+        # 1 件でも exit 1 で fail.
+        # 過去の bulk-ingest で tags[0] が phase1-police にハードコードされた
+        # bug (FU-401 で修正、FU-415 で sweep 完了) の退行を防ぐ.
+        # 実 CLI 起動は tools/shared/tests/test_fix_phase_tags_cli.py が
+        # smoke test として担保 (FU-504 entry point 修復後の退行検知).
+        run: python tools/scripts/fix-phase-tags.py --path data/v0.2 --check-only
+
       - name: Regenerate JSON Schema and check for drift
         run: |
           python tools/shared/scripts/export-schema.py
