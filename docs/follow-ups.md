@@ -1008,6 +1008,40 @@ ref:
 - search UI の phase pill 表示が正常化
 - `generate-training-data.py --phases <X>` 絞り込みが意味を持つ
 
+**訂正 (2026-05-26 夕方追記)**:
+
+本完了エントリの「副次効果」記述および計画書 §1.8
+(`business/fu-415-phase-tag-sweep-plan-2026-05-26.md`) で
+「下流 5 コンポーネントが正常化される」と記述したが、call graph を
+追跡し直した結果、**直接の受益者は `tools/export/lawsy-bq/export-jsonl.py`
+1 つのみ** であることが判明.
+
+他 4 コンポーネントの実際の挙動:
+
+| component | phase_category の取得元 | FU-415 sweep の効果 |
+|---|---|---|
+| `build-v0.2-corpus.py` | ディレクトリ構造 (`data/v0.2/<phase>/<abbrev>/`) | ❌ 影響なし |
+| `embed.py` | corpus.jsonl のフィールド (← 上の生成物) | ❌ 影響なし |
+| `generate-training-data.py --phases` | corpus.jsonl のフィールド | ❌ 影響なし |
+| `search-ui` | corpus.jsonl のフィールド | ❌ 影響なし |
+| `lawsy-bq/export-jsonl.py` | **frontmatter の tags[0] を正規表現抽出** | ✅ 影響あり |
+
+FU-415 sweep の依然として正当な価値:
+
+1. **frontmatter 一貫性** — `tags[0] = path-derived phase` が `bulk-ingest.py`
+   の PHASE_MAP と一致する schema 適合性
+2. **FU-P0-3 (Lawsy-Custom-BQ exporter) の前提条件** — まだ未実装だが、
+   実装時に正しい phase で BigQuery export できる
+3. **将来 contributor 向け** — frontmatter を直接読むツールを新規に書く際の
+   正しい source of truth
+4. **`docs/tag-vocabulary.md` カテゴリ A (フェーズ) の準拠**
+
+つまり sweep は依然として正しい作業だが、「副次効果として複数下流が一斉に直る」
+という主張は overstatement だった. 計画書テンプレへの学びは
+`business/fu-415-followup-fixes-plan-2026-05-26.md` §6 に記録.
+
+ref: `business/fu-415-followup-fixes-plan-2026-05-26.md` §1.2 Problem B
+
 ### 2026-05-25 (夕方) — FU-108 完了: v0.2 corpus manifest 生成 + v0.1 archive deprecate
 
 > 当初想定の「e-Gov XML 再取得 sprint (1 週間)」は実は不要だった (実地調査で判明).
