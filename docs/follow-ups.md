@@ -1194,4 +1194,4 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-05-26 — FU-415 完了 (phase tag sweep, 7,468 files rewritten). data/v0.2/ corpus が 100% in-spec (tags[0] = path-derived phase), verify.py 11,758/0 fail 維持. 下流の `phase_category` 抽出パイプラインが構造的に正しく動作するようになった. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7 — corpus 品質改善ラインで「FU-401 (parse-egov 必須化) → FU-108 (manifest) → FU-415 (sweep)」の 3 ステップが揃った. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
+*Last updated: 2026-05-26 (夕方) — FU-415 merge 直後の post-merge レビューで判明した 3 件 (FU-501..503) を反映、計画書 §1.8 の overstatement を訂正. FU-415 完了済エントリに訂正コメント追記済. corpus 品質改善ラインの本体は完了済 (FU-401 / FU-108 / FU-415), 残るは CI 統合と監視の強化のみ. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.1 / 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
