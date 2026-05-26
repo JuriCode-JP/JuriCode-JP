@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""fix-phase-tags.py — v0.2 corpus の tags[0] を path-derived phase に揃える sweep driver.
+"""fix-phase-tags.py -- v0.2 corpus の tags[0] を path-derived phase に揃える sweep driver.
 
 FU-415 実装. FU-401 以前の parse-egov.py がハードコードしていた tags[0]
 = "phase1-police" が、phase1-police 以外の phase ディレクトリ配下の 7,468
@@ -468,3 +468,9 @@ def main() -> int:
     _print_summary(report, mode, verbose=args.verbose)
     if apply_errors > 0:
         print(f"\nWARNING: {apply_errors} file(s) failed to apply.", file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
