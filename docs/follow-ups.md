@@ -790,37 +790,29 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
-### [ ] FU-501: build-v0.2-corpus.py の stale 経路 + 重複 print + chunk 件数差 (2026-05-26 追加)
+### [x] FU-501: build-v0.2-corpus.py の stale 経路 + 重複 print + chunk 件数差認識訂正 (2026-05-26 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
 
 **場所**: `tools/embed/build-v0.2-corpus.py`.
 
-**現状**: FU-415 (2026-05-26) merge 後の embed corpus 再構築で 3 件の問題を発見:
+`tools/embed/build-v0.2-corpus.py` の `--data-dir` デフォルトを `Path("data/v0.2")` に更新 (line 234) + 関連 docstring/コメント (line 31, 50) を v0.2 に揃える + 重複 print bug 削除 (旧 line 307-308). 計画書: `business/fu-501-build-v02-corpus-fix-plan-2026-05-26.md`.
 
-1. **`--data-dir` デフォルトが stale**: `build_law_to_phase()` (32-41) が
-   `Path("data")` を iterdir() するが、FU-108 (2026-05-25 完了) で corpus を
-   `data/v0.2/phase*/` へ移動済. 結果として `--data-dir` 未指定だと
-   **`law -> phase mapping: 0 laws`** となり、全 chunks の `phase_category`
-   が `"unknown"` になる. 手動で `--data-dir data/v0.2` を渡せば回避可能だが、
-   デフォルトを更新すべき.
-2. **重複 print bug**: `build-v0.2-corpus.py:307-308` で
-   `print(f"  {t:12s}: {c:6d}", file=sys.stderr)` が 2 行連続. segment type
-   distribution が全件 2 重出力される. 動作影響なし、ログのみ.
-3. **chunk files の 42 件差**: `chunk files found: 11,800` vs
-   `data/v0.2/*.md: 11,758`. `build/chunks/` 配下に corpus 外の古いファイル
-   混入の可能性. `backup not in str(f).lower()` filter (257) では捕捉できなかった
-   ケースを要調査.
+**Issue 3 (42 件差) は認識訂正**: 「`build/chunks/` 配下に corpus 外の古いファイル混入の可能性」と書いていたが、call graph を実コードで追跡した結果 (planning-checklist §1 適用)、**42 件差の正体は v0.2 設計通りの `{law}-supplproviso.chunks.jsonl` × 42** (43 法令 − kenpou 1 = 42) と判明. backup filter (line 257) は適切に機能しており、コード修正不要. follow-ups.md の認識訂正のみ.
 
-**問題**: FU-108 の移行作業で連動更新が漏れた箇所. embed corpus 再構築の信頼性に
-直接影響する.
+**検証コマンド** (Cowork sandbox):
+```bash
+for d in build/chunks/*/; do
+  name=$(basename "$d")
+  [ "$name" = "build-chunks-backup" ] && continue
+  chunks=$(find "$d" -type f -name "*.chunks.jsonl" | wc -l)
+  articles=$(find "data/v0.2" -type d -name "$name" -exec find {} -name "*-article-*.md" \; | wc -l)
+  diff=$((chunks - articles))
+  [ "$diff" != "0" ] && echo "$name: chunks=$chunks articles=$articles diff=$diff"
+done | wc -l   # → 42 法令 (kenpou 以外) で +1
+```
 
-**やること**:
-1. `--data-dir` デフォルトを `Path("data/v0.2")` に更新 (line 234)
-2. 行 307-308 の重複 `print(...)` を 1 行に修正
-3. `build/chunks/` 配下を `ls | wc` 系で精査し、42 件差の出所を特定.
-   backup filter を強化するか、もしくは古いファイルを移動
+詳細は本ファイル末尾「完了済み」セクション 2026-05-26 参照.
 
-**関連**: FU-108 (data/v0.2 移行), FU-415 (sweep 後の確認で顕在化),
-FU-503 (CI 組込み の前提条件)
+**関連**: FU-108 (data/v0.2 移行、本 Issue 1 の遺漏元), FU-415 (sweep 後の確認で顕在化), FU-503 (CI 組込み の前提条件として依然有効), `business/planning-checklist.md` §1 (call graph 追跡の適用事例)
 
 ---
 
@@ -1050,6 +1042,37 @@ mypy / pyright で型がより厳密に追える.
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-05-26 (夕方) — FU-501 完了: build-v0.2-corpus.py 修正 + Issue 3 認識訂正
+
+> FU-415 post-merge レビューで発覚した 3 件のうち FU-501 を 1 セッションで完走.
+> **最大の価値は Issue 3 の認識訂正** — planning-checklist §1 (call graph 追跡) を実コードで適用した結果、「古いファイル混入の可能性」が overstatement だったと判明.
+
+- ✅ **FU-501: build-v0.2-corpus.py 修正 + 認識訂正** — 計画書 `business/fu-501-build-v02-corpus-fix-plan-2026-05-26.md` (gitignored).
+  - **Issue 1 (--data-dir default stale)**: `tools/embed/build-v0.2-corpus.py:234` の `default=Path("data")` を `default=Path("data/v0.2")` に修正. FU-108 (2026-05-25 完了) で corpus を `data/v0.2/phase*/` に移動した際の遺漏修復. `build_law_to_phase` 関連 docstring/コメント (line 31, 50) も `v0.1` → `v0.2` に揃え. 呼び出し元 0 件 (CI 未統合 / import 0 件 / README.md 引用なし) のため後方互換破壊リスクなし.
+  - **Issue 2 (重複 print)**: `tools/embed/build-v0.2-corpus.py:307-308` の同一 `print(f"  {t:12s}: {c:6d}", file=sys.stderr)` 2 行連続を 1 行に統一. segment type distribution が 2 重出力されなくなった.
+  - **Issue 3 (42 件差) — 認識訂正**: 「`build/chunks/` 配下に corpus 外の古いファイル混入の可能性」と書いていたが、call graph 検証 (`for d in build/chunks/*/; do ... done`) の結果、**42 件差の正体は v0.2 設計通りの `{law}-supplproviso.chunks.jsonl` × 42** と判明. 43 法令 − kenpou 1 = 42 で計算完全一致. supplproviso chunks は附則条文を含む正規データ (合計 23,463 chunks). backup filter (line 257) は適切に機能しており、**コード修正不要**.
+  - **Phase 6 (git commit + push)**: Cowork sandbox の git lock 削除権限なしのため Windows/WSL 側で実行予定. コミット粒度 3 分割: `fix(embed): default --data-dir to data/v0.2` / `style(embed): remove duplicate segment-type print` / `docs(follow-ups): correct FU-501 Issue 3 misdiagnosis`. 採択後コミットハッシュをここに追記.
+
+**Cowork sandbox で踏んだ既知事故 (再発 + 復旧)**:
+- Edit 後の build-v0.2-corpus.py に末尾 48 NUL byte padding が発生 (Cowork sandbox 既知事故、CLAUDE.md §10.2 で既出). bash + Python 経由の atomic write (`.tmp` → `.replace`) + `ast.parse` 事前検証で完全に復旧. 同種事故を 4/24 / 5/25 / 5/26 と 3 度踏んでいるため、FU-302 `safe_write_text` を本ファイルにも将来適用する余地あり (本 sprint scope 外).
+
+**検証** (Cowork sandbox):
+- `python3 -c "import ast; ast.parse(open('tools/embed/build-v0.2-corpus.py').read())"`: OK
+- NUL byte count: 0 (Python `data.count(b'\x00')`)
+- `ruff check tools/embed/build-v0.2-corpus.py`: All checks passed
+- `ruff format --check tools/embed/build-v0.2-corpus.py`: already formatted
+- CLI smoke test (本 Phase 3): `python tools/embed/build-v0.2-corpus.py --output /tmp/fu501-smoke.jsonl` で `law -> phase mapping: 43 laws` + segment type distribution 単一出力 + 全 chunks に正しい phase_category を確認 (実行ログは本セッション末尾).
+
+**planning-checklist 適用事例**:
+- §1 (call graph 追跡): Issue 3 で claim「古いファイル混入」を実コードで verify → overstatement と判明 → 「コード修正不要、認識訂正のみ」にダウングレード. **FU-415 で踏んだ overstatement 失敗を本 sprint では未然回避できた最初の事例**.
+- §2 (post-merge dry-run): Phase 3 smoke test で実装後の動作を planning 段階に走らせて期待出力を verify.
+- §4 (主張は控えめ): 「下流が直る」とは書かず、「embed corpus 再構築の手動運用が壊れていた状態の修復 + FU-503 (CI ガード) の前提整備」と限定表現.
+
+ref:
+- `business/fu-501-build-v02-corpus-fix-plan-2026-05-26.md` (本 sprint 計画書)
+- `business/planning-checklist.md` §1 §2 §4 (適用事例として参照)
+- `business/fu-415-followup-fixes-plan-2026-05-26.md` §1.2 Problem A/A2/A3 (本 FU の起点)
+
 ### 2026-05-26 — FU-415 完了: phase tag sweep (7,468 files rewritten)
 
 > 計画書設計 4 ラウンドレビュー (v0 → v3) を経て 1 セッションで完走.
@@ -1194,4 +1217,4 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-05-26 (夕方) — FU-415 merge 直後の post-merge レビューで判明した 3 件 (FU-501..503) を反映、計画書 §1.8 の overstatement を訂正. FU-415 完了済エントリに訂正コメント追記済. corpus 品質改善ラインの本体は完了済 (FU-401 / FU-108 / FU-415), 残るは CI 統合と監視の強化のみ. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.1 / 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
+*Last updated: 2026-05-26 (夕方 v2) — FU-501 完了 (build-v0.2-corpus.py の --data-dir default 修正 + 重複 print 削除 + Issue 3 認識訂正). planning-checklist §1 を初めて未然回避に活用した事例. corpus 品質改善ラインの本体は完了済 (FU-401 / FU-108 / FU-415 / FU-501), 残るは FU-502 / FU-503 の CI 統合のみ. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.2 / 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
