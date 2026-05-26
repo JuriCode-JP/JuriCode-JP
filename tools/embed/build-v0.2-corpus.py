@@ -28,7 +28,7 @@ from collections import Counter
 from pathlib import Path
 
 
-# law_abbrev → phase の mapping を v0.1 ディレクトリから構築
+# law_abbrev → phase の mapping を v0.2 ディレクトリから構築
 def build_law_to_phase(data_dir: Path) -> dict[str, str]:
     mapping = {}
     for phase_dir in data_dir.iterdir():
@@ -41,13 +41,13 @@ def build_law_to_phase(data_dir: Path) -> dict[str, str]:
     return mapping
 
 
-# article_id → article_caption の mapping を v0.1 .md の H1 から抽出
+# article_id → article_caption の mapping を v0.2 .md の H1 から抽出
 # 例: "# 民法 第415条(債務不履行による損害賠償)" → "債務不履行による損害賠償"
 H1_PATTERN = re.compile(r"^#\s+.+?第[\d\-]+条(?:の[\d\-]+)?\s*[(\(（](.+?)[)\)）]")
 
 
 def build_article_to_caption(data_dir: Path) -> dict[str, str]:
-    """v0.1 .md の H1 から article_caption を抽出."""
+    """v0.2 .md の H1 から article_caption を抽出."""
     mapping: dict[str, str] = {}
     for md_path in data_dir.rglob("*-article-*.md"):
         article_id = None
@@ -231,7 +231,7 @@ def flatten_chunk(
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument("--chunks-dir", type=Path, default=Path("build/chunks"))
-    ap.add_argument("--data-dir", type=Path, default=Path("data"))
+    ap.add_argument("--data-dir", type=Path, default=Path("data/v0.2"))
     ap.add_argument("--output", type=Path, default=Path("build/corpus-v0.2.jsonl"))
     ap.add_argument(
         "--augment",
@@ -304,7 +304,6 @@ def main():
         print("Augment: OFF (raw segment text)", file=sys.stderr)
     print("\nSegment type distribution:", file=sys.stderr)
     for t, c in type_counts.most_common():
-        print(f"  {t:12s}: {c:6d}", file=sys.stderr)
         print(f"  {t:12s}: {c:6d}", file=sys.stderr)
     if missing_phase:
         print(f"\nWARNING: missing phase for laws: {sorted(missing_phase)}", file=sys.stderr)
