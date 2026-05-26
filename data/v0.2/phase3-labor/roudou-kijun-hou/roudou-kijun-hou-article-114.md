@@ -28,7 +28,7 @@ paragraphs:
 cases: []
 amendments: []
 tags:
-- phase1-police
+- phase3-labor
 - auto-generated
 parent_section:
   shou: 12

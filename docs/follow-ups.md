@@ -495,13 +495,34 @@ except ValidationError as e:
 
 ---
 
-### [ ] FU-415: phase tag sweep script (FU-401 完了後) (2026-05-24 追加)
+### [x] FU-415: phase tag sweep script (FU-401 完了後) (2026-05-24 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
 
-**場所**: FU-401 で `--phase-tag` 必須化した後、既存 `data/**/*.md` の `tags[0]` が古い `phase1-police` のままになっている可能性. path-based phase で書き換えるバッチ.
+`tools/scripts/fix-phase-tags.py` (driver) + `juricode_shared/phase_tag.py` (純関数) + 37 unit tests を新設. v0.2 corpus 11,758 ファイル中 7,468 ファイル (64%) の `tags[0]` を path-derived phase に書き換え完了.
 
-**やること**: `scripts/fix-phase-tags.py` を新設、`--dry-run` mode で diff 確認後に apply. 失敗時は `git checkout HEAD -- data/` で revert (既知事故 (d) で実証済).
+検証:
+- `verify.py --path data/v0.2`: **11,758 / 0 fail** across 43 manifests (manifest hash 完全に不変、計画書 §1.5 の主張が実証)
+- `pytest tools/shared/tests/`: 92 件 PASS (既存 55 + 新規 phase_tag 37)
+- `ruff check`: All checks passed
+- NUL byte sanity: 0 files
+- 全 8 phase で 100% in-spec を確認 (tags[0] = path-derived)
 
-**関連**: `business/code-reviews/2026-05-24-full-tools-review.md` §7 (事故 d) / 計画 §4 Week 4
+書き換え内訳 (phase / law / 件数):
+- phase1-administrative: chihou-koumuin-hou 106 / digital-shakai-keisei-kihon-hou 40 / jouhou-koukai-hou 27 / kojin-jouhou-hogo-hou 185 / kokka-koumuin-hou 184 / koubunsho-kanri-hou 34 = 576
+- phase1-foundational: kenpou 103
+- phase1-practitioner: shakuchi-shakka-hou 61
+- phase1-tax: chihou-zei-hou 1,313 / souzoku-zei-hou 109 = 1,422
+- phase2-commercial: 11 法令 = 4,017
+- phase3-labor: roudou-kijun-hou 122
+- phase3-pharma: yakkihou 356 / yakkihou-shikoukisoku 811 = 1,167
+- **total: 7,468 files written**
+
+副次効果 (本 sweep で初めて正常化された下流):
+- `tools/embed/build-v0.2-corpus.py` → `phase_category` フィールドが path-derived な値に揃う (要 corpus 再構築 5-15 分)
+- `tools/finetune/generate-training-data.py --phases <X>` 絞り込みが意味を持つ (sweep 前は phase2-commercial 指定で 0 件返り)
+- `tools/search-ui/` UI の phase pill 表示が正しくなる
+- `tools/export/lawsy-bq/export-jsonl.py` BigQuery export の phase_category が正しくなる (FU-P0-3 lawsy-bq exporter 着手時に活きる)
+
+詳細設計: `business/fu-415-phase-tag-sweep-plan-2026-05-26.md` (v3、設計レビュー 4 ラウンド経由). コミット粒度 3 分割 (shared module + driver + data sweep), 詳細は本ファイル末尾「完了済み」セクション 2026-05-26 参照.
 
 ---
 
@@ -947,6 +968,46 @@ mypy / pyright で型がより厳密に追える.
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-05-26 — FU-415 完了: phase tag sweep (7,468 files rewritten)
+
+> 計画書設計 4 ラウンドレビュー (v0 → v3) を経て 1 セッションで完走.
+> Cowork sandbox 既知事故 (Write 末尾切断 + NUL padding) を 2 件踏みつつ FU-302 safe_write_text の assert 機構で検知・復旧.
+
+- ✅ **FU-415: phase tag sweep** — `tools/scripts/fix-phase-tags.py` (driver, 約 350 行) + `juricode_shared/phase_tag.py` (純関数 module 純関数 2 つ + 5 種 ValueError 分類タグ) + `tools/shared/tests/test_phase_tag.py` (37 unit tests) を新設.
+  - **Phase 1 (純関数 + tests)**: `resolve_phase_from_path` / `rewrite_tags0_in_text` 2 つの純関数. frontmatter デリミタで text を 3 分割してから regex 適用する設計で body の `notes: \|` 巻き込み事故を構造的にゼロ化. BOM 検知時は `[BOM_DETECTED]` で停止 (FU-317 P2 とスコープ分離、option b). 37 tests PASS (基本動作 13 + frontmatter scope 3 + BOM 1 + CRLF round-trip 2 + safe_write 2 + PHASE_DIR_RE 16).
+  - **Phase 2 (driver)**: `tools/scripts/fix-phase-tags.py` を新設. `--dry-run` / `--apply` / `--check-only` の 3 モード, `--max-errors N` ハードリミット, 集計フォーマットで stderr 膨張 (FU-410 系) 防御. `FileResult` (frozen dataclass) + `SweepReport` の責任分離.
+  - **Phase 3 (dry-run 検証)**: `data/v0.2/` で 7,468 mismatches / 4,290 in-spec / 0 BOM / 0 errors 検出. 計画書 §1.3 と完全一致.
+  - **Phase 4 (apply)**: Cowork sandbox 45s timeout に阻まれ 5 cycles で完走 (冪等設計のため再実行で skip / 続行). 全 7,468 ファイル書き込み完了.
+  - **Phase 5 (検証)**: `verify.py --path data/v0.2`: 11,758 / 0 fail across 43 manifests. `pytest tools/shared/tests/`: 92 PASS. `ruff check`: All passed. NUL byte 0 files. 全 8 phase で 100% in-spec.
+
+**検証** (ローカル CI 再現、Cowork sandbox):
+- `ruff check tools/shared/src/juricode_shared/phase_tag.py tools/scripts/fix-phase-tags.py tools/shared/tests/test_phase_tag.py tools/shared/src/juricode_shared/__init__.py`: All checks passed
+- `pytest tools/shared/tests/ -q`: **92 PASS** (既存 55 + 新規 phase_tag 37)
+- `verify.py --path data/v0.2`: **11,758 / 0 fail** across 43 manifests (manifest hash 完全に不変、計画書 §1.5 の主張が実証)
+- `validate-file.py` 5-file smoke test (各 phase 代表サンプル): 全 OK
+- NUL byte sanity: 0 files in data/v0.2/
+
+**Cowork sandbox で踏んだ既知事故 (再発 + 復旧)**:
+- Write tool の末尾切断 (phase_tag.py / fix-phase-tags.py / __init__.py で計 3 回発生) → bash + Python 経由の atomic write で完全に書き直し
+- ruff auto-fix が test_phase_tag.py に NUL byte (11 個) 残置 → 専用クリーンアップスクリプトで除去
+- FU-302 で導入した `safe_write_text` の post-write verification (NUL byte / 末尾改行 / UTF-8 等) が機能し、本 corpus 側には NUL byte が 1 件も漏れていない (sweep 適用後の全 .md スキャンで 0 件)
+
+**Phase 6 (git commit + push)**: Cowork sandbox の git lock 削除権限なしのため Windows/WSL 側で実行. 詳細手順書: `business/fu-415-commit-runbook-2026-05-26.md` (採択後コミットハッシュをここに追記).
+
+**コミット粒度 3 分割** (計画書 §5.1 準拠、Conventional Commits):
+1. `feat(shared): add phase_tag utility module and TDD tests`
+2. `feat(scripts): add fix-phase-tags.py sweep driver`
+3. `data(v0.2): sweep deprecated phase1-police tags in 7,468 files`
+
+ref:
+- `business/fu-415-phase-tag-sweep-plan-2026-05-26.md` (設計 v3)
+- `business/fu-415-commit-runbook-2026-05-26.md` (Phase 6 手順書、別ファイルで作成)
+
+**副次効果 (merge 後の運用作業)**:
+- `tools/embed/build-v0.2-corpus.py` を 1 回再実行 (5-15 分) — embed corpus JSONL の `phase_category` を新 phase 値で再生成
+- search UI の phase pill 表示が正常化
+- `generate-training-data.py --phases <X>` 絞り込みが意味を持つ
+
 ### 2026-05-25 (夕方) — FU-108 完了: v0.2 corpus manifest 生成 + v0.1 archive deprecate
 
 > 当初想定の「e-Gov XML 再取得 sprint (1 週間)」は実は不要だった (実地調査で判明).
@@ -1017,4 +1078,4 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-05-25 (夕方) — FU-108 完了 (v0.2 corpus manifest 生成 + v0.1 archive deprecate). 同日朝の P0 sprint 8/8 全件完了と合わせて、本日は **P0 sprint + FU-108** の 2 大マイルストーン達成. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.6 — v0.2 corpus が CI で round-trip 検証されるようになり、v0.1 corpus は `archive/v0.1/` に deprecate. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
+*Last updated: 2026-05-26 — FU-415 完了 (phase tag sweep, 7,468 files rewritten). data/v0.2/ corpus が 100% in-spec (tags[0] = path-derived phase), verify.py 11,758/0 fail 維持. 下流の `phase_category` 抽出パイプラインが構造的に正しく動作するようになった. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7 — corpus 品質改善ラインで「FU-401 (parse-egov 必須化) → FU-108 (manifest) → FU-415 (sweep)」の 3 ステップが揃った. 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*

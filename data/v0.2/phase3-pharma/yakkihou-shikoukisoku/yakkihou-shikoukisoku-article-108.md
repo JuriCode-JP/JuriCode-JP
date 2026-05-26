@@ -47,7 +47,7 @@ paragraphs:
 cases: []
 amendments: []
 tags:
-- phase1-police
+- phase3-pharma
 - auto-generated
 parent_section:
   shou: 2
