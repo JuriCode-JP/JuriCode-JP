@@ -849,27 +849,42 @@ FU-415 sprint で `fix-phase-tags.py` を Cowork sandbox で開発した際の W
 
 ---
 
-### [ ] FU-503: build-v0.2-corpus.py を CI に組み込み (2026-05-26 追加)
+### [x] FU-503: build-v0.2-corpus.py --validate-only mode + CI 統合 (2026-05-26 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
 
-**場所**: `tools/embed/build-v0.2-corpus.py` + `.github/workflows/ci.yml`.
+**場所**: `tools/embed/build-v0.2-corpus.py` + `tools/shared/tests/test_build_v02_corpus_cli.py` + `.github/workflows/ci.yml` + `pyproject.toml`.
 
-**現状**: embed corpus 再構築 (`build/corpus-v0.2.jsonl`) は「merge 後の手動運用
-作業」で、忘れると下流の `phase_category` 等が古い状態で運用される fragile な
-運用. FU-415 でも merge 後に手動再実行が必要で、その際 FU-501 bug 1
-(`--data-dir` 取りこぼし) も顕在化した.
+`build-v0.2-corpus.py` に `--validate-only` mode を追加 (Option α: mapping-only validation). `data/v0.2/` から 43 laws / 8 phases / 9825 captions が抽出できることを CI で機械的に検知. `build/chunks/` は `.gitignore` 対象で CI 不在のため、chunk merge は走らせず mapping check のみに scope を絞る.
+
+外部レビュー指摘により **3 層防御** を導入:
+- **Layer 1 (構造)**: `pyproject.toml` の ruff `[tool.ruff.lint] select` に `"RET"` (flake8-return) を追加. RET503 が `main()` の implicit None 戻りを静的検査で検知し、FU-502/504 と同型の false-green guarantee を構造的に防止.
+- **Layer 2 (runtime)**: `tools/shared/tests/test_build_v02_corpus_cli.py` に 5 件の subprocess based smoke test を新設. 特に **既存 merge mode の exit 0 を初めて runtime verify** (`test_merge_mode_exits_zero_with_minimal_fixture`).
+- **Layer 3 (code review)**: `main()` の全 code path で `return 0`/`return 1` を「意地悪なほど明示的に」書く checklist を Phase A 実装に組み込み.
+
+詳細は本ファイル末尾「完了済み」セクション 2026-05-26 参照.
+
+**関連**: FU-415 (sweep), FU-501 (build-v0.2-corpus.py の `--data-dir` default 修正), FU-502 (CI guard pattern), FU-504 (entry point 修復), `business/fu-503-investigation-2026-05-26.md` (調査+実装計画書 v3, 3 層防御確定), `business/planning-checklist.md` §1 §2 §4 (適用済)
+
+---
+
+### [ ] FU-505: project-wide 15 scripts の em dash — `--` 一括置換 (2026-05-26 追加)
+
+**場所**: `tools/` 配下の 15 個の CLI script (`embed/convert-lawqa-to-evalset.py`, `embed/run-ablation.py`, `validate/validate-all.py`, `parse/parse-egov.py`, `parse/verify.py`, `parse/v0.2/add_rollup_chunks.py`, `parse/v0.2/extract_kou_from_xml.py`, `parse/v0.2/extract_supplproviso_from_xml.py`, `parse/v0.2/segment_parser.py`, `parse/v0.2/manifest/cli.py`, `finetune/generate-training-data.py`, `finetune/train-reranker.py`, `fetch-egov/bulk-ingest.py`, `search-ui/server.py`) の docstring 1 行目.
+
+**現状**: FU-502 で `fix-phase-tags.py`、FU-503 で `build-v0.2-corpus.py` の 2 scripts は em dash → `--` 置換済. 残り 15 scripts は project-wide convention として em dash を含んだままで、**Windows cp932 console で `python <script> --help` を実行すると `UnicodeEncodeError` で crash する**.
+
+**問題**: 新規 CLI smoke test (特に `test_help_runs_without_crash` 系) を追加するたびに同じ事故が発生する構造的 bug. FU-502/503 で 24 時間以内に 2 度同じ事故を踏んだ. 個別の smoke test 追加時に都度修復するより、project-wide 一括置換で構造的にゼロ化する方が長期的に効率的.
 
 **やること**:
-1. `build-v0.2-corpus.py` に `--validate-only` モードを追加 (corpus を出力せず、
-   phase mapping 完備 + chunk parse 成功 + 全 43 法令カバレッジ を assert)
-2. CI で `--validate-only` を走らせ、phase mapping 漏れ / corpus 生成失敗を
-   PR ガード
-3. (将来検討) `build/corpus-v0.2.jsonl` を CI artifact として upload し、
-   merge 直後の自動再生成を検討. 現状は build/ が .gitignore 対象なので
-   git LFS or release artifact が必要.
+1. `sed -i 's/— /-- /g'` 相当を全 15 scripts の docstring 1 行目に適用 (line 1 のみ、本文の em dash は touch しない)
+2. ruff check + format で構造を verify
+3. 各 script の `--help` を一通り実行して exit 0 確認 (もしくは検出 script で project-wide pre-check)
+4. CI で全 step が通ることを確認
 
-**前提**: FU-501 (デフォルト修正) を先に解消すること.
+**実行時間**: 15 file の 1 char 置換 + verify、約 30 分.
 
-**関連**: FU-415 (sweep), FU-501 (build-v0.2-corpus.py の他 bug)
+**前提**: NLnet 5/28 提出後の sprint で着手 (今は FU-503 の完走優先).
+
+**関連**: FU-502 (fix-phase-tags.py 個別修復), FU-503 (build-v0.2-corpus.py 個別修復), `business/planning-checklist.md` §5 (新規 CLI smoke test の precondition), memory `feedback_windows_cp932_em_dash` (FU-502/503 で 2 度踏んだ事故の教訓)
 
 ---
 
@@ -1051,6 +1066,69 @@ mypy / pyright で型がより厳密に追える.
 ## 完了済み
 
 完了した項目はここに timestamp 付きで移動する.
+
+### 2026-05-26 (夕方 v3) — FU-503 完了: build-v0.2-corpus.py --validate-only + CI 統合 + 3 層防御
+
+> v0.2 corpus 品質改善ラインの本体最終 sprint. レビュアー指摘により 3 層防御を導入し、main() return 忘れによる false-green guarantee を構造的にゼロ化.
+> Option α (mapping-only validation) で scope を最小化しつつ、レビュー指摘の Layer 2 (merge mode runtime test) は維持. **計画 v3 通り 5 commits / +約 250 行で完走**.
+
+- ✅ **FU-503: --validate-only mode + CI 統合 + 3 層防御** — 計画書 `business/fu-503-investigation-2026-05-26.md` v3 (Option α + 3 層防御 + smoke test 5 件確定).
+  - **Phase A1 (Layer 1 構造防御)**: `pyproject.toml` の `[tool.ruff.lint] select` に `"RET"` (flake8-return) を追加. RET503 が `main()` の implicit None 戻りを lint 段階で検知し、FU-502/504 と同型の false-green を構造的にゼロ化. 既存 codebase に 0 violation 確認済 (migration cost なし).
+  - **Phase A2 (--validate-only mode + return 整備)**: `tools/embed/build-v0.2-corpus.py` に以下を追加:
+    - argparse に `--validate-only` flag 追加
+    - 新規関数 `_run_validate_only(data_dir: Path) -> int` (43 laws / 8 phases / 9000+ captions / 0 dangling を assert、return 0 or 1)
+    - 既存 merge mode 末尾に `return 0` を明示 (Layer 3「意地悪なほど明示的に」原則, `business/planning-checklist.md`)
+    - `args.chunks_dir.exists() == False` の `sys.exit("ERROR: ...")` も `print(stderr) + return 1` に統一
+  - **Phase B (Layer 2 runtime smoke test)**: `tools/shared/tests/test_build_v02_corpus_cli.py` を新設 (5 tests):
+    - `test_validate_only_exits_zero_on_clean_corpus` (Core: happy path)
+    - `test_validate_only_no_output_file` (副: 副作用なし)
+    - `test_validate_only_exits_one_on_missing_data_dir` (Core: error path)
+    - `test_help_runs_without_crash` (副: argparse sanity)
+    - `test_merge_mode_exits_zero_with_minimal_fixture` (**Core レビュー指摘**: 既存 merge mode の exit 0 を初めて runtime verify、Layer 2 の核)
+  - **Phase C (CI 統合)**: `.github/workflows/ci.yml` の `Phase tag consistency check (FU-502)` step の直後に新 step を追加. `python tools/embed/build-v0.2-corpus.py --validate-only` を実行し、mapping 不備 1 件でも exit 1 で CI fail. CI step 総数: 10 -> 11.
+  - **Phase D (docs 訂正)**: 本 entry + footer v0.7.3 -> v0.7.4 bump.
+
+**検証** (Cowork sandbox):
+- `ast.parse` (build-v0.2-corpus.py): OK
+- NUL byte count: 全 4 ファイルで 0
+- `ruff check tools/` (RET 有効化後): All checks passed
+- `ruff format --check`: all formatted
+- `python tools/embed/build-v0.2-corpus.py --validate-only`:
+  - `law -> phase mapping: 43 laws, 8 phases`
+  - `caption mapping: 9825 captions`
+  - `=== Validate OK ===`
+  - exit code: 0
+  - 実行時間: 13.6 秒 (想定 5 秒よりやや長いが許容範囲)
+- `pytest tools/shared/tests/test_build_v02_corpus_cli.py -v`: **5 passed in 27.16s**
+- `yaml.safe_load(ci.yml)`: 11 steps、`Validate v0.2 corpus phase mapping (FU-503)` 含む
+
+**Cowork sandbox で踏んだ既知事故 (再発 + 復旧)**:
+- `pyproject.toml` の Edit が中途切断 (TOML parse error) -> Python atomic write + tomllib verify で復旧
+- `build-v0.2-corpus.py` の Edit 後 ruff format で 1 度整形が必要 -> ruff format で自動修復
+
+**planning-checklist 適用事例**:
+- §1 (call graph 追跡 Layer 4): main() return 忘れリスクを事前発見し、レビュー指摘で 3 層防御に拡張
+- §2 (post-merge dry-run 自動化): Phase B smoke test 5 件で `--validate-only` / merge mode / error path / help を自動検証
+- §4 (主張は控えめ): Option α (mapping-only) で scope を最小化し、「mapping 漏れ検知」と限定表現
+- **新 learning**: 外部レビュー由来の「3 層防御」(static lint + runtime test + explicit code review) を memory `feedback_planning_call_graph_audit` に追記候補
+
+**未然回避された潜在影響**:
+- 計画 v1 (Layer 2/3 のみ): main() return 漏れがあっても CI が検知できず、運用後に下流で初めて顕在化 -> 訂正 PR + 周辺修正の手戻り
+- 計画 v3 (3 層防御): Layer 1 RET503 が lint で即検知、Layer 2 smoke test が runtime で再確認、Layer 3 checklist で実装時の意識付け
+
+**Phase 6 (git commit + push)**: Cowork sandbox の git lock 削除権限なしのため Windows/WSL 側で実行予定. コミット粒度 5 分割:
+1. `chore(lint): enable RET503 (flake8-return) for false-green guard`
+2. `feat(embed): add --validate-only mode + explicit return at all main paths (FU-503)`
+3. `test(shared): add CLI smoke tests for build-v0.2-corpus.py (5 tests)`
+4. `ci: add v0.2 corpus phase mapping validation (FU-503)`
+5. `docs(follow-ups): mark FU-503 complete + record reviewer feedback`
+
+詳細手順書: `business/fu-503-commit-runbook-2026-05-26.md` (本 sprint 完了時に作成).
+
+ref:
+- `business/fu-503-investigation-2026-05-26.md` (調査+実装計画書 v3)
+- `business/planning-checklist.md` §1 §2 §4
+- 起点: FU-502 完了直後の P2 最後の follow-up 着手
 
 ### 2026-05-26 (夕方 v2) — FU-502 + FU-504 完了: fix-phase-tags.py entry point 修復 + CI guard 追加
 
@@ -1286,4 +1364,4 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-05-26 (夕方 v3) — FU-502 + FU-504 完了 (fix-phase-tags.py entry point 修復 + CI guard 追加 + smoke test 新設). planning-checklist §1 (call graph 追跡 Layer 4) で false-green guarantee を未然回避した 2 つ目の事例. corpus 品質改善ラインの本体は完了済 (FU-401 / FU-108 / FU-415 / FU-501 / FU-502 / FU-504), 残るは FU-503 (build-v0.2-corpus.py --validate-only + CI 統合) のみ. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.3 / 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
+*Last updated: 2026-05-26 (夕方 v4) — FU-503 完了 (build-v0.2-corpus.py --validate-only + CI 統合 + 3 層防御). レビュアー指摘により Layer 1 (RET503 静的検査) + Layer 2 (merge mode runtime smoke test) + Layer 3 (explicit return checklist) の 3 層で false-green guarantee を構造的にゼロ化. **v0.2 corpus 品質改善ラインの本体は完全完了** (FU-401 / FU-108 / FU-415 / FU-501 / FU-502 / FU-504 / FU-503). 残既存 P0 のみ: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.4*
