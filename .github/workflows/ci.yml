@@ -84,6 +84,19 @@ jobs:
         # smoke test として担保 (FU-504 entry point 修復後の退行検知).
         run: python tools/scripts/fix-phase-tags.py --path data/v0.2 --check-only
 
+      - name: Validate v0.2 corpus phase mapping (FU-503)
+        # 2026-05-26 FU-503: build-v0.2-corpus.py の build_law_to_phase /
+        # build_article_to_caption が data/v0.2/ から想定の 43 laws / 8 phases /
+        # 9000+ captions を抽出できることを assert.
+        # build/chunks/ は .gitignore 対象で CI に不在のため、chunk merge は
+        # 走らせず mapping check のみ (Option α).
+        # 過去の bug: FU-108 で corpus 移動した際 --data-dir default が data/
+        # のままで law -> phase mapping: 0 laws となった (FU-501 で修復). 同種の
+        # 退行 (新 phase 追加時の build_law_to_phase 不対応等) を CI で検知.
+        # 実 CLI 起動は tools/shared/tests/test_build_v02_corpus_cli.py が
+        # smoke test として担保 (Layer 1 RET503 + Layer 2 smoke test の 3 層防御).
+        run: python tools/embed/build-v0.2-corpus.py --validate-only
+
       - name: Regenerate JSON Schema and check for drift
         run: |
           python tools/shared/scripts/export-schema.py
