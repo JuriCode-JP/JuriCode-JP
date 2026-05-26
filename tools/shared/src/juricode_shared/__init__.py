@@ -23,6 +23,12 @@ from juricode_shared.safe_write import (
     safe_write_jsonl,
     safe_append_jsonl_records,
 )
+from juricode_shared.phase_tag import (
+    DEPRECATED_PHASE_TAG,
+    PHASE_DIR_RE,
+    resolve_phase_from_path,
+    rewrite_tags0_in_text,
+)
 
 __version__ = "0.1.0"
 
@@ -46,5 +52,9 @@ __all__ = [
     "safe_write_text",
     "safe_write_jsonl",
     "safe_append_jsonl_records",
+    "DEPRECATED_PHASE_TAG",
+    "PHASE_DIR_RE",
+    "resolve_phase_from_path",
+    "rewrite_tags0_in_text",
     "__version__",
 ]
