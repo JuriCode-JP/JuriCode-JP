@@ -30,7 +30,7 @@ paragraphs:
 cases: []
 amendments: []
 tags:
-- phase1-police
+- phase1-administrative
 - auto-generated
 parent_section:
   shou: 3

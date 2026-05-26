@@ -77,7 +77,7 @@ paragraphs:
 cases: []
 amendments: []
 tags:
-- phase1-police
+- phase1-tax
 - auto-generated
 parent_section:
   shou: 4
