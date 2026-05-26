@@ -15,6 +15,7 @@
 > - `FU-001..006` / `FU-101..108` / `FU-201..207` / `FU-P0-1..5` — 初期 + 2026-05-19/20 追加分
 > - `FU-301..321` — 2026-05-24 v0.2 parser pipeline + shared レビュー由来 (`business/code-reviews/2026-05-24-v02-parser-pipeline-review.md`)
 > - `FU-401..431` — 2026-05-24 tools/ フルレビュー由来 (`business/code-reviews/2026-05-24-full-tools-review.md`)
+> - `FU-501..503` — 2026-05-26 FU-415 sweep + embed corpus 再構築で発覚した stale 経路・CI 統合余地
 
 ---
 
@@ -786,6 +787,87 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 **やること**: rerank も `top_idx_wide` (hybrid 後) を candidate にする option を追加.
 
 **関連**: §D-14
+
+---
+
+### [ ] FU-501: build-v0.2-corpus.py の stale 経路 + 重複 print + chunk 件数差 (2026-05-26 追加)
+
+**場所**: `tools/embed/build-v0.2-corpus.py`.
+
+**現状**: FU-415 (2026-05-26) merge 後の embed corpus 再構築で 3 件の問題を発見:
+
+1. **`--data-dir` デフォルトが stale**: `build_law_to_phase()` (32-41) が
+   `Path("data")` を iterdir() するが、FU-108 (2026-05-25 完了) で corpus を
+   `data/v0.2/phase*/` へ移動済. 結果として `--data-dir` 未指定だと
+   **`law -> phase mapping: 0 laws`** となり、全 chunks の `phase_category`
+   が `"unknown"` になる. 手動で `--data-dir data/v0.2` を渡せば回避可能だが、
+   デフォルトを更新すべき.
+2. **重複 print bug**: `build-v0.2-corpus.py:307-308` で
+   `print(f"  {t:12s}: {c:6d}", file=sys.stderr)` が 2 行連続. segment type
+   distribution が全件 2 重出力される. 動作影響なし、ログのみ.
+3. **chunk files の 42 件差**: `chunk files found: 11,800` vs
+   `data/v0.2/*.md: 11,758`. `build/chunks/` 配下に corpus 外の古いファイル
+   混入の可能性. `backup not in str(f).lower()` filter (257) では捕捉できなかった
+   ケースを要調査.
+
+**問題**: FU-108 の移行作業で連動更新が漏れた箇所. embed corpus 再構築の信頼性に
+直接影響する.
+
+**やること**:
+1. `--data-dir` デフォルトを `Path("data/v0.2")` に更新 (line 234)
+2. 行 307-308 の重複 `print(...)` を 1 行に修正
+3. `build/chunks/` 配下を `ls | wc` 系で精査し、42 件差の出所を特定.
+   backup filter を強化するか、もしくは古いファイルを移動
+
+**関連**: FU-108 (data/v0.2 移行), FU-415 (sweep 後の確認で顕在化),
+FU-503 (CI 組込み の前提条件)
+
+---
+
+### [ ] FU-502: fix-phase-tags.py --check-only を CI に追加 (2026-05-26 追加)
+
+**場所**: `.github/workflows/ci.yml`.
+
+**現状**: FU-401 (2026-05-25) で `parse-egov.py --phase-tag` が必須化された
+ため新規 ingest は安全. ただし将来 contributor が手動編集で `tags[0]` を
+誤った phase に書き戻すなど、CI で検知すべき退行リスクが残る. FU-415
+(2026-05-26) で `tools/scripts/fix-phase-tags.py --check-only` モード
+(mismatch 1 件でも exit 1) を実装済だが CI に未統合.
+
+**やること**: `.github/workflows/ci.yml` に以下を追加:
+
+```yaml
+- name: Phase tag consistency check (FU-415 guard)
+  run: python tools/scripts/fix-phase-tags.py --path data/v0.2 --data-root data/v0.2 --check-only
+```
+
+実行時間は 5-10 秒程度 (11,758 ファイル 1 周). 既存 CI step との並列実行も可能.
+
+**関連**: FU-415 (sweep)
+
+---
+
+### [ ] FU-503: build-v0.2-corpus.py を CI に組み込み (2026-05-26 追加)
+
+**場所**: `tools/embed/build-v0.2-corpus.py` + `.github/workflows/ci.yml`.
+
+**現状**: embed corpus 再構築 (`build/corpus-v0.2.jsonl`) は「merge 後の手動運用
+作業」で、忘れると下流の `phase_category` 等が古い状態で運用される fragile な
+運用. FU-415 でも merge 後に手動再実行が必要で、その際 FU-501 bug 1
+(`--data-dir` 取りこぼし) も顕在化した.
+
+**やること**:
+1. `build-v0.2-corpus.py` に `--validate-only` モードを追加 (corpus を出力せず、
+   phase mapping 完備 + chunk parse 成功 + 全 43 法令カバレッジ を assert)
+2. CI で `--validate-only` を走らせ、phase mapping 漏れ / corpus 生成失敗を
+   PR ガード
+3. (将来検討) `build/corpus-v0.2.jsonl` を CI artifact として upload し、
+   merge 直後の自動再生成を検討. 現状は build/ が .gitignore 対象なので
+   git LFS or release artifact が必要.
+
+**前提**: FU-501 (デフォルト修正) を先に解消すること.
+
+**関連**: FU-415 (sweep), FU-501 (build-v0.2-corpus.py の他 bug)
 
 ---
 
