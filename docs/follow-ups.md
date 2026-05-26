@@ -816,26 +816,36 @@ done | wc -l   # → 42 法令 (kenpou 以外) で +1
 
 ---
 
-### [ ] FU-502: fix-phase-tags.py --check-only を CI に追加 (2026-05-26 追加)
+### [x] FU-502: fix-phase-tags.py --check-only を CI に追加 (2026-05-26 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
 
 **場所**: `.github/workflows/ci.yml`.
 
-**現状**: FU-401 (2026-05-25) で `parse-egov.py --phase-tag` が必須化された
-ため新規 ingest は安全. ただし将来 contributor が手動編集で `tags[0]` を
-誤った phase に書き戻すなど、CI で検知すべき退行リスクが残る. FU-415
-(2026-05-26) で `tools/scripts/fix-phase-tags.py --check-only` モード
-(mismatch 1 件でも exit 1) を実装済だが CI に未統合.
+`.github/workflows/ci.yml` の `Verify source-manifest hashes` step 直後に `Phase tag consistency check (FU-415 guard, FU-502)` step を追加. `python tools/scripts/fix-phase-tags.py --path data/v0.2 --check-only` を実行し、tags[0] が path-derived な phase と一致しない `.md` ファイルが 1 件でもあれば CI fail.
 
-**やること**: `.github/workflows/ci.yml` に以下を追加:
+**前提条件として FU-504 を同 PR で同時に修復** (entry point 欠落 bug). 詳細は本ファイル末尾「完了済み」セクション 2026-05-26 参照.
 
-```yaml
-- name: Phase tag consistency check (FU-415 guard)
-  run: python tools/scripts/fix-phase-tags.py --path data/v0.2 --data-root data/v0.2 --check-only
-```
+**関連**: FU-415 (sweep), FU-504 (本 sprint で同時修復された fix-phase-tags.py entry point 欠落 bug), `business/fu-502-investigation-2026-05-26.md` (調査+実装計画書), `business/planning-checklist.md` §1 (false-green guarantee の未然回避事例)
 
-実行時間は 5-10 秒程度 (11,758 ファイル 1 周). 既存 CI step との並列実行も可能.
+---
 
-**関連**: FU-415 (sweep)
+### [x] FU-504: fix-phase-tags.py に `__main__` entry point 追加 (2026-05-26 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
+
+**場所**: `tools/scripts/fix-phase-tags.py`.
+
+`tools/scripts/fix-phase-tags.py` (FU-415, commit `ea8c6752` で導入) は `if __name__ == "__main__": sys.exit(main())` ブロックを欠いていたため、`python <script>` 経由で実行しても `main()` が呼ばれず silently exit 0 する false guarantee 状態だった. FU-502 (CI ガード) を計画通り追加すると常に PASS を返す step になることが planning-checklist §1 (call graph 追跡) を実コードで適用した結果判明 (2026-05-26 夕方、Cowork セッション中).
+
+**修正**:
+- entry point 末尾に `if __name__ == "__main__": sys.exit(main())` 3 行追加
+- `main()` の戻り値整備 (apply エラー時 `return 1`、正常完了時 `return 0` を明示)
+- subprocess based smoke test `tools/shared/tests/test_fix_phase_tags_cli.py` を新設 (3 件: `--check-only` / `--dry-run` / `--help`) で実 CLI 起動を CI で常時担保
+
+**Why entry point 欠落の発生原因**:
+FU-415 sprint で `fix-phase-tags.py` を Cowork sandbox で開発した際の Write/Edit 末尾切断事故 (CLAUDE.md §10.2 既出) が `__main__` ブロックを丸ごと削除したまま commit された. 「Write tool の末尾切断 → bash + Python 経由 atomic write で完全に書き直し」と FU-415 完了 entry に記載されているが、**復旧が不完全だった** ことが判明. unit test は pure functions (`juricode_shared.phase_tag`) のみカバーし、driver の CLI 起動を test していなかったため約 1 ヶ月 silently false-green 状態で潜伏.
+
+**Why FU-415 sweep は 7,468 files 書き換えに成功したのか**:
+未解明だが、Cowork セッション中は `__main__` block が存在した(commit 前の Write/Edit 事故で消えた)、または別経路 (`python -c "from importlib.util import ...; mod.main()"`) で main() を直接呼んだ、のどちらか.
+
+**関連**: FU-415 (entry point 欠落の起点), FU-502 (本 fix の動機 = CI ガードの実効性担保), `business/fu-502-investigation-2026-05-26.md` (調査+実装計画書 §1, §5 Phase A/B), `feedback_cli_entry_point_verification` memory (新規追加候補)
 
 ---
 
@@ -1042,6 +1052,65 @@ mypy / pyright で型がより厳密に追える.
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-05-26 (夕方 v2) — FU-502 + FU-504 完了: fix-phase-tags.py entry point 修復 + CI guard 追加
+
+> FU-501 完了の延長で着手した FU-502 調査中に発覚した **fix-phase-tags.py entry point 欠落 bug** を同 PR で修復し、CI ガードを追加.
+> planning-checklist §1 (call graph 追跡) を Layer 4 まで適用したことで、計画通り FU-502 を ship していたら false-green guarantee になっていた状況を **未然回避** できた 2 つ目の事例 (FU-501 Issue 3 に続く).
+
+- ✅ **FU-504: fix-phase-tags.py に `__main__` entry point 追加** — 計画書 `business/fu-502-investigation-2026-05-26.md` §5 Phase A.
+  - `tools/scripts/fix-phase-tags.py` 末尾に `if __name__ == "__main__": sys.exit(main())` 3 行追加 + `main()` 戻り値整備 (apply エラー時 `return 1` / 正常時 `return 0`).
+  - **Why 必要だった**: FU-415 (2026-05-26 朝、commit `ea8c6752`) で当 script を新設した際、Cowork sandbox の Write/Edit 末尾切断事故で entry point block が丸ごと削除されたまま commit. unit test は pure functions のみカバーし、driver の CLI 起動を test していなかったため、約 1 ヶ月 silently false-green 状態で潜伏 (`python <script> --check-only` 実行で 0.2 秒で exit 0、何も走らない).
+  - **発見契機**: FU-502 計画書を書く前に planning-checklist §1 (call graph 追跡) を実コードで Layer 4 まで verify (CI step → script invocation → main 呼出有無 → exit code 評価) した結果、「CI guard が常に PASS を返す」と判明.
+
+- ✅ **FU-502: fix-phase-tags.py --check-only を CI に追加** — 計画書 §5 Phase C.
+  - `.github/workflows/ci.yml` の `Verify source-manifest hashes` step 直後に `Phase tag consistency check (FU-415 guard, FU-502)` step を追加.
+  - 実行コマンド: `python tools/scripts/fix-phase-tags.py --path data/v0.2 --check-only` (`--data-root` は default が `Path("data/v0.2")` のため省略).
+  - mismatch 1 件でも `exit 1` で CI fail. tags[0] 退行 (将来 contributor の手動編集 / 新 ingest tool の遺漏) を機械的に検知.
+
+- ✅ **smoke test 新設** (FU-504 と同 sprint、計画書 §5 Phase B):
+  - `tools/shared/tests/test_fix_phase_tags_cli.py` を新設 (3 件: `--check-only` / `--dry-run` / `--help`).
+  - subprocess で実 CLI 起動 + exit code + stdout marker を assert. FU-504 entry point 欠落の再発を CI で即検知する仕組み.
+  - `--check-only` test は 11,758 files 走査 (16-17 秒) + summary marker assert. `--dry-run` test は idempotent state メッセージ assert. `--help` test は最軽量で entry point sanity check.
+
+**検証** (Cowork sandbox):
+- `ast.parse` (fix-phase-tags.py): OK
+- NUL byte count: 0 (途中 52 NUL padding 事故あり、atomic rewrite で復旧)
+- `ruff check tools/scripts/fix-phase-tags.py`: All checks passed
+- `ruff format --check`: already formatted (ruff format で smoke test ファイルを 1 度整形)
+- `python3 -m pytest tools/shared/tests/test_fix_phase_tags_cli.py -v`: **3 passed in 33.22s**
+- `python tools/scripts/fix-phase-tags.py --path data/v0.2 --check-only`:
+  - Scanned: **11,758 files** (修正前: 0 files = 何も走らず)
+  - Total in-spec: 11,758 / mismatches: 0 / errors: 0
+  - exit code: 0
+- `yaml.safe_load(ci.yml)`: 10 steps (修正前 9 + 新規 `Phase tag consistency check`)
+
+**Cowork sandbox で踏んだ既知事故 (再発 + 復旧)**:
+- Edit 後の fix-phase-tags.py に末尾 52 NUL byte padding 発生 → Python atomic write で復旧
+- Edit/Write が ci.yml と docs/follow-ups.md でディスクに反映されない / トランケート事故が複数回発生 → Python 経由 atomic write で完全に書き直し
+- これらは FU-501 で踏んだ事故と同パターン. FU-302 `safe_write_text` を将来 tools/embed/ / tools/scripts/ にも適用する余地あり (本 sprint scope 外)
+
+**Phase 6 (git commit + push)**: Cowork sandbox の git lock 削除権限なしのため Windows/WSL 側で実行予定. コミット粒度 4 分割:
+1. `fix(scripts): add __main__ entry point to fix-phase-tags.py (FU-504)`
+2. `test(shared): add CLI smoke test for fix-phase-tags.py --check-only`
+3. `ci: add phase tag consistency check (FU-502)`
+4. `docs(follow-ups): mark FU-502/FU-504 complete + record FU-415 retrospective`
+
+詳細手順書: `business/fu-502-commit-runbook-2026-05-26.md` (本 sprint 完了時に作成予定).
+
+**planning-checklist 適用事例**:
+- §1 (call graph 追跡): Layer 4 まで verify することで false-green を未然発見 → FU-504 として scope 内に取り込み → ship 前に修復.
+- §2 (post-merge dry-run): Phase B smoke test を Phase A と同時に追加 → CI で自動化、手動 dry-run も Phase A 後に 1 回実行で完走確認.
+- §4 (主張は控えめ): 「`tags[0]` 退行を検知する guard」と限定表現. 直接効果 / 副次効果 / 波及的価値を分離記述.
+
+**未然回避された潜在影響**:
+- FU-502 を計画通り ship → CI guard が常に PASS = false guarantee → tags[0] 退行が発生しても検知できない → 数週間後に下流 (lawsy-bq exporter 等) で初めて顕在化 → 訂正 PR + tag 修復 sweep の手戻り
+- 推定回避コスト: 訂正 PR 1 本 + 周辺メモリ更新 + planning-checklist §1 への新事例追記の手戻り工数
+
+ref:
+- `business/fu-502-investigation-2026-05-26.md` (調査+実装計画書)
+- `business/planning-checklist.md` §1 §2 §4 (適用済)
+- 起点: FU-501 完了直後の P2 follow-up 着手
+
 ### 2026-05-26 (夕方) — FU-501 完了: build-v0.2-corpus.py 修正 + Issue 3 認識訂正
 
 > FU-415 post-merge レビューで発覚した 3 件のうち FU-501 を 1 セッションで完走.
@@ -1217,4 +1286,4 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-05-26 (夕方 v2) — FU-501 完了 (build-v0.2-corpus.py の --data-dir default 修正 + 重複 print 削除 + Issue 3 認識訂正). planning-checklist §1 を初めて未然回避に活用した事例. corpus 品質改善ラインの本体は完了済 (FU-401 / FU-108 / FU-415 / FU-501), 残るは FU-502 / FU-503 の CI 統合のみ. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.2 / 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
+*Last updated: 2026-05-26 (夕方 v3) — FU-502 + FU-504 完了 (fix-phase-tags.py entry point 修復 + CI guard 追加 + smoke test 新設). planning-checklist §1 (call graph 追跡 Layer 4) で false-green guarantee を未然回避した 2 つ目の事例. corpus 品質改善ラインの本体は完了済 (FU-401 / FU-108 / FU-415 / FU-501 / FU-502 / FU-504), 残るは FU-503 (build-v0.2-corpus.py --validate-only + CI 統合) のみ. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.3 / 残既存 P0: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計)*
