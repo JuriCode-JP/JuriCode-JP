@@ -409,6 +409,15 @@ commit 前に 4 観点で自己レビュー: (1) SOLID リファクタリング 
 | 2026-05-24 | `business/code-reviews/2026-05-24-full-tools-review.md` | tools/ フルレビュー、FU-401..431 (31 件) として `docs/follow-ups.md` に転載 |
 | 2026-05-25 朝 | P0 sprint 8/8 全件完了 (commit `b091c3e7` → `787203e8`) | FU-301/302/303/304/401/402/403/404 を 1 日で全消化、pytest 93 件 PASS、CI green 維持 |
 | 2026-05-25 夕方 | FU-108 v0.2 manifest sprint 完了 (commit `e3656241` / `77767071` 含む 5 commits) | `tools/parse/v0.2/manifest/` 新設 (4 module + 60 unit tests) + 43 manifests 生成 + v0.1 を `archive/v0.1/` に deprecate + CI を data/v0.2/ に切替. 153 tests PASS / 11,758 articles round-trip 検証 |
+| 2026-05-26 | FU-415 phase tag sweep + FU-501..503 docs corrections (commits `a51e8e99` / `ea8c6752` / `a5d536e7` / `e67bc1ea` / `dcc3b67f` / `1709c784` / `ca143631` 含む 7 commits + 2 PR merges) | `tools/scripts/fix-phase-tags.py` + `juricode_shared/phase_tag.py` 新設、7,468 ファイル swept、CI green 維持. post-merge レビューで §1.8 overstatement 発覚 → docs-only 訂正 PR で修復 + FU-501..503 (P2) を新規 follow-up として追記. planning learnings は `business/planning-checklist.md` (gitignored) に構造化 |
+
+---
+
+### 11.4 計画書作成チェックリスト (内部、gitignored)
+
+- **`business/planning-checklist.md`** — 大きめ sprint (sweep / migration / refactor / 新機能) の計画書を書く前に必ず開いて、過去の planning failure 由来の learnings を全項目通過させてから着手する内部チェックリスト. 4 つの主要項目を収録 (call graph 追跡 / post-merge dry-run / MERGE FIRST 明示 / 主張を控えめに).
+- 新たな learning が見つかったら同ファイル末尾の §99 履歴に timestamp 付きで追記し、次以降の sprint で活かす. 累積知識のリビング・ドキュメント.
+- 2026-05-26 FU-415 §1.8 overstatement 由来. 詳細は `business/fu-415-followup-fixes-plan-2026-05-26.md` §6 + PR #2 (commit `dcc3b67f`) 参照.
 
 ---
 
