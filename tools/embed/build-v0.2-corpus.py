@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""build-v0.2-corpus.py — v0.2 chunks を 1 つの corpus JSONL に merge.
+"""build-v0.2-corpus.py -- v0.2 chunks を 1 つの corpus JSONL に merge.
 
 build/chunks/{law}/{law}-article-{N}.chunks.jsonl を全てまとめ、
 embed.py が期待するフィールド (chunk_id, phase_category, hen_name_ja 等) を
@@ -238,10 +238,23 @@ def main():
         action="store_true",
         help="text に [法令名 第N条 (見出し) 第N項 segment_label] prefix を付加",
     )
+    ap.add_argument(
+        "--validate-only",
+        action="store_true",
+        help="phase mapping + caption mapping の整合性のみ check (CI 用). "
+        "build/chunks/ 不要、出力ファイル作成なし.",
+    )
     args = ap.parse_args()
 
+    # FU-503: validate-only mode は build/chunks/ 不要、mapping check のみ.
+    # Why: build/chunks/ は .gitignore 対象で CI runner に不在のため、
+    # merge ロジック全体は走らせず、mapping 漏れ検知に scope を絞る.
+    if args.validate_only:
+        return _run_validate_only(args.data_dir)
+
     if not args.chunks_dir.exists():
-        sys.exit(f"ERROR: chunks dir not found: {args.chunks_dir}")
+        print(f"ERROR: chunks dir not found: {args.chunks_dir}", file=sys.stderr)
+        return 1
 
     law_to_phase = build_law_to_phase(args.data_dir)
     print(f"law -> phase mapping: {len(law_to_phase)} laws", file=sys.stderr)
@@ -307,6 +320,76 @@ def main():
         print(f"  {t:12s}: {c:6d}", file=sys.stderr)
     if missing_phase:
         print(f"\nWARNING: missing phase for laws: {sorted(missing_phase)}", file=sys.stderr)
+
+    # FU-503: main() の全 code path で明示的 return を強制 (RET503 + 意地悪な明示).
+    # Why: sys.exit(None) は exit 0 になる仕様. 既存 merge mode で implicit None を
+    # 返していた状態は FU-502/504 で踏んだ false-green guarantee と同型のリスク.
+    return 0
+
+
+def _run_validate_only(data_dir: Path) -> int:
+    """phase mapping + caption mapping の整合性 check のみ実行 (CI 用).
+
+    Why: build-v0.2-corpus.py 全体実行は build/chunks/ (gitignored, CI 不在)
+    が前提だが、mapping 部分だけは data/v0.2/ のみで検証可能.
+    FU-108 で corpus 移動した際の --data-dir default 遺漏 (FU-501 で修復) と
+    同種の退行を CI で機械的に検知する.
+
+    Args:
+        data_dir: v0.2 corpus root (default: data/v0.2).
+
+    Returns:
+        0 if all checks pass, 1 on any failure.
+    """
+    if not data_dir.exists():
+        print(f"ERROR: data dir not found: {data_dir}", file=sys.stderr)
+        return 1
+
+    errors: list[str] = []
+
+    # 1. phase mapping check
+    mapping = build_law_to_phase(data_dir)
+    phases = set(mapping.values())
+    print(
+        f"law -> phase mapping: {len(mapping)} laws, {len(phases)} phases",
+        file=sys.stderr,
+    )
+    if len(mapping) < 43:
+        errors.append(f"laws mapped {len(mapping)} < 43 (expected >= 43)")
+    if len(phases) < 6:
+        errors.append(f"phases mapped {len(phases)} < 6 (expected >= 6)")
+
+    # 2. dangling law dir check (phase 外の law dir が無いこと)
+    dangling: list[str] = []
+    for entry in data_dir.iterdir():
+        if not entry.is_dir() or entry.name.startswith("phase"):
+            continue
+        # phase 外の dir の中に law dir っぽい構造があるか確認
+        for sub in entry.iterdir():
+            if sub.is_dir():
+                dangling.append(f"{entry.name}/{sub.name}")
+    if dangling:
+        errors.append(f"dangling law dirs (phase 外): {dangling}")
+
+    # 3. caption mapping check (H1_PATTERN 破壊検知)
+    captions = build_article_to_caption(data_dir)
+    print(f"caption mapping: {len(captions)} captions", file=sys.stderr)
+    if len(captions) < 9000:
+        errors.append(f"captions {len(captions)} < 9000 (regex 破壊か corpus 縮小の可能性)")
+
+    # 4. 結果出力
+    if errors:
+        print("\n=== Validate FAIL ===", file=sys.stderr)
+        for e in errors:
+            print(f"  - {e}", file=sys.stderr)
+        return 1
+
+    print("\n=== Validate OK ===", file=sys.stderr)
+    print(
+        f"  {len(mapping)} laws / {len(phases)} phases / {len(captions)} captions / 0 dangling",
+        file=sys.stderr,
+    )
+    return 0
 
 
 if __name__ == "__main__":
