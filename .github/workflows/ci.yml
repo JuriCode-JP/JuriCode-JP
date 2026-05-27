@@ -97,6 +97,13 @@ jobs:
         # smoke test として担保 (Layer 1 RET503 + Layer 2 smoke test の 3 層防御).
         run: python tools/embed/build-v0.2-corpus.py --validate-only
 
+      - name: Check cp932-safe (FU-505)
+        # 2026-05-27 FU-505: tools/ 配下の全 .py (tests/ / __pycache__ / venv 除外) を
+        # scan し、cp932-unsafe 文字 (em dash 等) がないことを assert.
+        # Windows cp932 console での argparse `--help` UnicodeEncodeError crash を
+        # 新規 script への再発から構造的に予防する (Layer 1 静的検査).
+        run: python tools/scripts/check-cp932-safe.py --path tools
+
       - name: Regenerate JSON Schema and check for drift
         run: |
           python tools/shared/scripts/export-schema.py
