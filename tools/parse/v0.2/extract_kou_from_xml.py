@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""extract_kou_from_xml.py — e-Gov XML から各号 (Item) content を抽出.
+"""extract_kou_from_xml.py -- e-Gov XML から各号 (Item) content を抽出.
 
 v0.1 parser がスキップしていた各号 content を補完。
 existing build/chunks/{law}/{law}-article-{N}.chunks.jsonl に append.

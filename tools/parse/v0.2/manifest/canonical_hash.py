@@ -1,4 +1,4 @@
-"""canonical_hash — v0.2 .md → canonical 日本語本文 → SHA-256 + バイト数.
+"""canonical_hash -- v0.2 .md -> canonical 日本語本文 -> SHA-256 + バイト数.
 
 責務 (バイブコーディング 3 原則 #1):
   本 module は「.md ファイル 1 つから (sha256_hex, byte_count, paragraph_count)
@@ -40,7 +40,7 @@ if str(_PARSE_DIR) not in sys.path:
 from _canonicalize import canonicalize  # noqa: E402  (must follow sys.path tweak)
 
 # ---------------------------------------------------------------------
-# Regex 定義 — verify.py:33-46 と**文字列レベルで完全一致**を維持すること.
+# Regex 定義 -- verify.py:33-46 と**文字列レベルで完全一致**を維持すること.
 # 1 文字違うと hash が変わって CI が落ちる. FU-405 で shared 化予定.
 # ---------------------------------------------------------------------
 

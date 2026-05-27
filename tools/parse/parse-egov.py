@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""parse-egov.py — e-Gov 法令 XML to JuriCode-JP Markdown 変換器.
+"""parse-egov.py -- e-Gov 法令 XML to JuriCode-JP Markdown 変換器.
 
 e-Gov 法令API v2 から取得した法令 XML を JuriCode-JP の 1 条 1 ファイル
 Markdown 形式に変換する. _source-manifest.json も同時生成し, Layer 3 の
@@ -219,7 +219,7 @@ def _extract_article(art, parent_stack):
     # Skip range articles (e.g. Num="73:76" meaning "Articles 73 through 76").
     # e-Gov uses colon notation when a contiguous block of articles is deleted
     # (e.g. 刑法73~76条 大逆罪削除). The body is just "削除" and they don't
-    # represent any single article — including them would force an arbitrary
+    # represent any single article -- including them would force an arbitrary
     # numbering choice and confuse downstream consumers.
     if ":" in num:
         return None  # caller filters None
@@ -343,7 +343,7 @@ def article_to_markdown(article, law_id, law_abbrev, law_name_ja, version_date, 
         ],
         "cases": [],
         "amendments": [],
-        # FU-401: phase_tag は呼び出し元 (CLI args.phase_tag → _emit_article → 当関数)
+        # FU-401: phase_tag は呼び出し元 (CLI args.phase_tag -> _emit_article -> 当関数)
         # 必須引数として伝播。'phase1-police' ハードコードを排除し、tag/dir 不整合を防ぐ。
         "tags": [phase_tag, "auto-generated"],
     }

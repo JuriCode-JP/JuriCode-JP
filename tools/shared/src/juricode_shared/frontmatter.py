@@ -1,4 +1,4 @@
-"""YAML frontmatter ヘルパ: Markdown ファイル ↔ Python dict ↔ JuriCodeArticle."""
+"""YAML frontmatter ヘルパ: Markdown ファイル <-> Python dict <-> JuriCodeArticle."""
 
 from __future__ import annotations
 

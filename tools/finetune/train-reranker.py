@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""train-reranker.py — JuriCode-JP 専用 reranker を fine-tune.
+"""train-reranker.py -- JuriCode-JP 専用 reranker を fine-tune.
 
 generate-training-data.py が生成した triple jsonl を使い、
 既存の Japanese cross-encoder reranker を継続学習する.

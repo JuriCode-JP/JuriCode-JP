@@ -1,4 +1,4 @@
-"""law_manifest — 1 法令分の Pydantic LawManifest モデル + assembly + write.
+"""law_manifest -- 1 法令分の Pydantic LawManifest モデル + assembly + write.
 
 責務 (バイブコーディング 3 原則 #1):
   「1 つの law_dir (e.g. data/v0.2/phase1-practitioner/minpou/) 配下の全 .md」と
@@ -56,7 +56,7 @@ if str(_SHARED_SRC) not in sys.path:
 from juricode_shared import safe_write_text  # noqa: E402  (must follow sys.path tweak)
 
 # ---------------------------------------------------------------------
-# Constants — verify.py の SAFE/required と一致させる
+# Constants -- verify.py の SAFE/required と一致させる
 # ---------------------------------------------------------------------
 
 _PARSER_NAME = "tools/parse/v0.2/segment_parser.py"

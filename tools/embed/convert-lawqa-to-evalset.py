@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""convert-lawqa-to-evalset.py — デジタル庁 lawqa_jp を JuriCode-JP eval-set 形式に変換.
+"""convert-lawqa-to-evalset.py -- デジタル庁 lawqa_jp を JuriCode-JP eval-set 形式に変換.
 
 入力:
     selection.json (lawqa_jp の元データ, PDL 1.0 ライセンス)

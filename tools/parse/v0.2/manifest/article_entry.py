@@ -1,4 +1,4 @@
-"""article_entry — 1 条分の Pydantic ArticleEntry モデル + 生成関数.
+"""article_entry -- 1 条分の Pydantic ArticleEntry モデル + 生成関数.
 
 責務 (バイブコーディング 3 原則 #1):
   「v0.2 .md ファイル 1 つ」と「frontmatter dict」から ArticleEntry Pydantic

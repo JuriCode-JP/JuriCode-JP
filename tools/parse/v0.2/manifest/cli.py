@@ -1,4 +1,4 @@
-"""cli — argparse + 全 law_dir 走査 + main エントリポイント.
+"""cli -- argparse + 全 law_dir 走査 + main エントリポイント.
 
 責務 (バイブコーディング 3 原則 #1):
   「コマンドライン引数を parse して、data/v0.2 配下の全 law_dir に対して

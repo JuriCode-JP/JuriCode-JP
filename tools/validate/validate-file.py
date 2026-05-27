@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""validate-file.py — 単一の法令データファイルを検証する.
+"""validate-file.py -- 単一の法令データファイルを検証する.
 
 Usage:
     python tools/validate/validate-file.py <path-to-md> [<path-to-md> ...]

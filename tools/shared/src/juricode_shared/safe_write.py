@@ -1,4 +1,4 @@
-"""safe_write.py — Safety-guaranteed file writing utility.
+"""safe_write.py -- Safety-guaranteed file writing utility.
 
 Provides functions to prevent corruption (e.g. NUL byte injection, missing newlines,
 half-written files, or invalid JSON Lines) through atomic writes and post-write validation.

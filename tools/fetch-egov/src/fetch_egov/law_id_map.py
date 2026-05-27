@@ -1,4 +1,4 @@
-"""法令略称 ↔ e-Gov 法令 ID マッピング.
+"""法令略称 <-> e-Gov 法令 ID マッピング.
 
 JuriCode-JP の docs/glossary.md と同期する. 新法令追加時は本ファイルにも
 登録すること.

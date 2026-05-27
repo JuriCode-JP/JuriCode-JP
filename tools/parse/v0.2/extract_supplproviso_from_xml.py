@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""extract_supplproviso_from_xml.py — e-Gov XML から附則 (SupplProvision) を抽出 v2.
+"""extract_supplproviso_from_xml.py -- e-Gov XML から附則 (SupplProvision) を抽出 v2.
 
 ご提示の設計 (4 観点) に基づく:
   1. 構造ベースのチャンク化: Article (or Paragraph) 単位
   2. メタデータ豊富化: target_main_articles, topic, amend_law_num 等
   3. Parent-Child: 子 chunk (Paragraph) + 親 rollup chunk (SupplProvision 全体)
-  4. 元号 → 西暦変換 (前処理の一部、enforcement_date 推定)
+  4. 元号 -> 西暦変換 (前処理の一部、enforcement_date 推定)
 
 出力: build/chunks/{law}/{law}-supplproviso.chunks.jsonl (flat 配置)
 """
@@ -35,12 +35,12 @@ from juricode_shared import safe_write_jsonl  # noqa: E402, I001  (must follow s
 # ============================================================
 # 法令名マッピング (v0.1 .md frontmatter から動的構築)
 # ============================================================
-# Fix 3: ハードコーディング 30 法令 → data/{phase}/{law}/ の v0.1 .md から動的取得
+# Fix 3: ハードコーディング 30 法令 -> data/{phase}/{law}/ の v0.1 .md から動的取得
 # Note: build_law_id_to_name_ja() を main() で呼び出して埋める
 
 
 def build_law_id_to_name_ja(data_dir: Path) -> dict[str, str]:
-    """各法令の law_id → law_name_ja を v0.1 .md frontmatter から取得.
+    """各法令の law_id -> law_name_ja を v0.1 .md frontmatter から取得.
 
     全 43 法令 (含む新規 fetch した 5 法令) を網羅。
     """
@@ -81,7 +81,7 @@ LAW_NAME_JA: dict[str, str] = {}
 
 
 # ============================================================
-# 元号 → 西暦変換
+# 元号 -> 西暦変換
 # ============================================================
 
 ERA_OFFSET = {
@@ -139,7 +139,7 @@ def kansuji_to_int(s: str) -> int | None:
             total += current * unit
             current = 0
         else:
-            # 想定外の文字 → 中止
+            # 想定外の文字 -> 中止
             return None
     total += current
     return total if total > 0 else None
@@ -324,7 +324,7 @@ def extract_main_article_refs(text: str) -> list[str]:
     return out
 
 
-# Fix 4: 表記揺れ正規化 — 「第二十六条第二項」 → article_id "{law}-art-26"
+# Fix 4: 表記揺れ正規化 -- 「第二十六条第二項」 -> article_id "{law}-art-26"
 NORMALIZE_REF_PATTERN = re.compile(
     r"^第([零〇一二三四五六七八九十百千万\d]+)条"
     r"(?:[ノの]([零〇一二三四五六七八九十百千万\d]+))?"
@@ -362,9 +362,9 @@ def normalize_article_ref(ref: str) -> dict | None:
 
 
 def build_target_article_ids(text: str, law_abbrev: str) -> list[str]:
-    """text 内の本則参照 → article_id 形式に正規化したリスト.
+    """text 内の本則参照 -> article_id 形式に正規化したリスト.
 
-    例: 「第二十六条第二項...第三十四条ノ二の改正...」 (law: keihou) →
+    例: 「第二十六条第二項...第三十四条ノ二の改正...」 (law: keihou) ->
         ["keihou-art-26", "keihou-art-34-2"]
     """
     refs = extract_main_article_refs(text)
@@ -410,7 +410,7 @@ def normalize_caption(caption: str) -> str:
 
 
 # ============================================================
-# law_abbrev → law_id mapping
+# law_abbrev -> law_id mapping
 # ============================================================
 
 

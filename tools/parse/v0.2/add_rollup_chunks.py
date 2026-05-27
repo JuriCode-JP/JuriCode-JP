@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""add_rollup_chunks.py — 各 article に rollup chunk を追加.
+"""add_rollup_chunks.py -- 各 article に rollup chunk を追加.
 
 v0.2 の segment 分割は retrieval で「条全体」query に弱い。各 article に
 「全 segment 結合 chunk」(rollup) を追加することで article-level retrieval を

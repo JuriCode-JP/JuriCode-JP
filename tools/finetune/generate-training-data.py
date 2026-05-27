@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""generate-training-data.py — JuriCode-JP corpus から reranker 訓練データを合成生成.
+"""generate-training-data.py -- JuriCode-JP corpus から reranker 訓練データを合成生成.
 
 各 article について Gemini で 3 件の質問を生成し、
 hard negative として dense embedding で類似する別 article を選定する.

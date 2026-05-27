@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""bulk-ingest.py — 複数法令を一括で fetch + parse + validate.
+"""bulk-ingest.py -- 複数法令を一括で fetch + parse + validate.
 
 使い方:
     cd JuriCode-JP
@@ -14,12 +14,12 @@
     3. tools/validate/validate-all.py で全データ検証
 
 phase-dir は法令略称から推論:
-    kenpou                       → phase1-foundational
-    douro-koutsuu-hou            → phase1-police
-    keihanzai-hou, stalker-*     → phase1-police
-    shouhou, kaisha-hou          → phase2-commercial
-    souzoku-zei-hou, chihou-zei-hou → phase1-tax
-    (それ以外) → --default-phase 指定値、未指定なら phase1-misc
+    kenpou                       -> phase1-foundational
+    douro-koutsuu-hou            -> phase1-police
+    keihanzai-hou, stalker-*     -> phase1-police
+    shouhou, kaisha-hou          -> phase2-commercial
+    souzoku-zei-hou, chihou-zei-hou -> phase1-tax
+    (それ以外) -> --default-phase 指定値、未指定なら phase1-misc
 """
 
 from __future__ import annotations
@@ -42,7 +42,7 @@ try:
 except ImportError as e:
     sys.exit(f"ERROR: cannot import law_id_map: {e}")
 
-# 法令略称 → Phase ディレクトリ
+# 法令略称 -> Phase ディレクトリ
 PHASE_MAP: dict[str, str] = {
     # 憲法
     "kenpou": "phase1-foundational",

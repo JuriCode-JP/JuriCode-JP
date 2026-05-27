@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""verify.py — JuriCode-JP データ検証 (Layer 3).
+"""verify.py -- JuriCode-JP データ検証 (Layer 3).
 
 `data/` 配下を走査し, `_source-manifest.json` ごとに以下を確認する:
 

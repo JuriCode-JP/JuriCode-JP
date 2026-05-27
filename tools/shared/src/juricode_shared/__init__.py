@@ -1,4 +1,4 @@
-"""juricode_shared — JuriCode-JP 共通モデル.
+"""juricode_shared -- JuriCode-JP 共通モデル.
 
 Pydantic IR(JuriCodeArticle 等)、ID 規約、ファイル配置ルール、frontmatter ヘルパ.
 """

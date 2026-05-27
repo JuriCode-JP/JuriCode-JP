@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""validate-all.py — data/ および examples/ 配下の全条文ファイルを検証する.
+"""validate-all.py -- data/ および examples/ 配下の全条文ファイルを検証する.
 
 Usage:
     python tools/validate/validate-all.py                   # repo root を自動検出
@@ -35,7 +35,7 @@ from _validate import (
 def _build_argparser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(
         description=(
-            "JuriCode-JP data validator (Layer 4 — frontmatter / IR / filename / "
+            "JuriCode-JP data validator (Layer 4 -- frontmatter / IR / filename / "
             "Markdown sections)."
         )
     )

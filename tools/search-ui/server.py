@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""JuriCode-JP 検索 UI プロトタイプ — ローカル HTTP サーバ.
+"""JuriCode-JP 検索 UI プロトタイプ -- ローカル HTTP サーバ.
 
 ゼロ依存の Python stdlib http.server で動作 (Gemini provider のときだけ
 google-genai が必要).
@@ -236,7 +236,7 @@ def main():
     )
 
     if not INDEX_HTML.exists():
-        print(f"WARN: {INDEX_HTML} not found — UI will be unavailable", file=sys.stderr)
+        print(f"WARN: {INDEX_HTML} not found -- UI will be unavailable", file=sys.stderr)
 
     httpd = ThreadingHTTPServer((args.host, args.port), Handler)
     url = f"http://{args.host}:{args.port}/"

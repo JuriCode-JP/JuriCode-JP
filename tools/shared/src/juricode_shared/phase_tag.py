@@ -1,4 +1,4 @@
-"""phase_tag — v0.2 corpus の frontmatter `tags[0]` を path-derived phase に揃える純関数群.
+"""phase_tag -- v0.2 corpus の frontmatter `tags[0]` を path-derived phase に揃える純関数群.
 
 責務 (バイブコーディング 3 原則 #1):
   本 module は I/O を一切持たない純関数だけを提供:
@@ -30,7 +30,7 @@ Why in-memory text が LF (\\n) 正規化されている前提に依存するか
 
 Why BOM を厳格に拒否するか (option b、2026-05-26 決定):
   本 sweep のスコープを「phase tag 書き換え」だけに純粋に保つため、UTF-8 BOM
-  への透過対応は FU-317 (P2) で別途行い、本 module では BOM 検知 → ValueError
+  への透過対応は FU-317 (P2) で別途行い、本 module では BOM 検知 -> ValueError
   で停止する. 現状 corpus に BOM ファイルは parse-egov.py + safe_write_text
   経由で生成されたものなので存在しないはずだが、混入時は重大事故の前兆として
   即停止し手動レビューに回す.
@@ -67,7 +67,7 @@ phase1-police 配下のファイルでは正規値であり書き換え対象外
 phase ディレクトリ配下で tags[0] にこの値があれば sweep 対象となる.
 """
 
-_BOM_CHAR: str = "﻿"
+_BOM_CHAR: str = "\ufeff"
 """UTF-8 BOM. Path.read_text() は BOM を strip しないため明示検知が必要."""
 
 # frontmatter デリミタ. Markdown YAML frontmatter 標準の `---` を改行付きで保持.
@@ -76,7 +76,7 @@ _FM_CLOSE: str = "\n---\n"
 
 # tags[0] が phase1-police の場合に matching する正規表現.
 # Why MULTILINE + literal `\n`: §1.5.1 の不変条件 (LF 正規化済) に依存し、
-# frontmatter 範囲内で「行頭 tags: → 次行が `- phase1-police` で始まる」を
+# frontmatter 範囲内で「行頭 tags: -> 次行が `- phase1-police` で始まる」を
 # pin point に検出する.
 _TAGS_BLOCK_LEGACY_RE: re.Pattern[str] = re.compile(
     rf"^tags:\n- {re.escape(DEPRECATED_PHASE_TAG)}\n",
@@ -106,7 +106,7 @@ def resolve_phase_from_path(md_path: Path, data_root: Path) -> str:
                     (新規 phase 追加時の typo 早期検知).
 
     Why path-derived を正とするか:
-        bulk-ingest.py の PHASE_MAP は法令略称 → phase の写像で、最終的に
+        bulk-ingest.py の PHASE_MAP は法令略称 -> phase の写像で、最終的に
         ファイルを置くディレクトリを決定する. corpus のディレクトリ構造は
         その「最終結果」であり、tags[0] はそれに従うべき (drift しない設計).
 
@@ -158,7 +158,7 @@ def rewrite_tags0_in_text(text: str, new_phase: str) -> tuple[str, bool]:
     Returns:
         (new_text, changed) のタプル.
         - changed=False: 既に tags[0] == new_phase の場合 (idempotent).
-        - changed=True: phase1-police → new_phase の置換が発生した場合.
+        - changed=True: phase1-police -> new_phase の置換が発生した場合.
 
     Raises:
         ValueError("[BOM_DETECTED] ..."):

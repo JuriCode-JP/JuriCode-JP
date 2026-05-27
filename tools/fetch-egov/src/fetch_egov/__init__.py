@@ -1,4 +1,4 @@
-"""fetch-egov — e-Gov 法令API v2 クライアント.
+"""fetch-egov -- e-Gov 法令API v2 クライアント.
 
 JuriCode-JP のデータ取得層. e-Gov 法令API v2 (https://laws.e-gov.go.jp/api/2/)
 から法令 XML を取得し、ローカルキャッシュに保存する.

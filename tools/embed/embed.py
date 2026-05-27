@@ -7,9 +7,9 @@ Pluggable provider design:
   --provider gemini  : Google Gemini embedding (needs GEMINI_API_KEY or GOOGLE_API_KEY)
 
 Outputs:
-  <output>.npy        — float32 (N, D) numpy matrix
-  <output>.meta.jsonl — per-record metadata (article_id, law_name, etc.)
-  <output>.vec.pkl    — provider state needed for retrieve.py to encode queries
+  <output>.npy        : float32 (N, D) numpy matrix
+  <output>.meta.jsonl : per-record metadata (article_id, law_name, etc.)
+  <output>.vec.pkl    : provider state needed for retrieve.py to encode queries
 """
 
 from __future__ import annotations
@@ -252,7 +252,7 @@ def main():
         "--gemini-sleep-between-batches",
         type=float,
         default=0.7,
-        help="(gemini only) Sleep seconds between batches to respect free-tier RPM (default: 0.7 ≈ 85 RPM).",
+        help="(gemini only) Sleep seconds between batches to respect free-tier RPM (default: 0.7 ~= 85 RPM).",
     )
 
     args = ap.parse_args()

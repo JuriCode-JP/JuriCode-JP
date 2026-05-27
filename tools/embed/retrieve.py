@@ -4,7 +4,7 @@
 Provider is detected from .vec.pkl. Supports tfidf / openai / gemini.
 
 新規拡張 (2026-05-21):
-- --normalize-query: 法令略称展開 + 漢数字→アラビア数字正規化
+- --normalize-query: 法令略称展開 + 漢数字->アラビア数字正規化
 - --hybrid-bm25: TF-IDF (char 2-3gram) と Dense を RRF (k=60) で結合
 - --bm25-corpus: BM25 用の corpus jsonl パス (text フィールド)
 """
@@ -38,7 +38,7 @@ KANJI_DIGIT = {
     "九": 9,
 }
 
-# 略称 → (略称をそのまま残しつつ) 正式名称も付加することで両方で hit させる
+# 略称 -> (略称をそのまま残しつつ) 正式名称も付加することで両方で hit させる
 LAW_ABBREV_EXPANSIONS = {
     "地公法": "地方公務員法",
     "国公法": "国家公務員法",
@@ -68,7 +68,7 @@ def _normalize_fullwidth_digits(s: str) -> str:
 
 
 def _kanji_to_int(s: str) -> int | None:
-    """漢数字 → 整数. 「百二十三」 -> 123."""
+    """漢数字 -> 整数. 「百二十三」 -> 123."""
     if not s:
         return None
     total = 0
@@ -155,10 +155,10 @@ def _expand_law_abbreviations_list(text: str) -> list[str]:
 def normalize_legal_query(query: str) -> str:
     """法令名・条番号の総合正規化(置換ではなく追加で複数バージョンを構築).
 
-    e-Gov 法令本文は漢数字を使用するため、半角→漢数字版も追加することで
+    e-Gov 法令本文は漢数字を使用するため、半角->漢数字版も追加することで
     corpus body の embedding マッチを強化する.
     """
-    # 全角→半角
+    # 全角->半角
     base = _normalize_fullwidth_digits(query)
 
     additions = []
@@ -546,12 +546,12 @@ def dedup_by_article(top_idx_wide, article_ids, k):
     同じ article の複数 segment が top に来た場合、最初の (=top rank) segment のみ保持.
 
     Args:
-        top_idx_wide: (N_queries, M) — dense top-M segment indices (M > K 推奨)
-        article_ids: list[str] — corpus record (segment) 順の article_id
+        top_idx_wide: (N_queries, M) -- dense top-M segment indices (M > K 推奨)
+        article_ids: list[str] -- corpus record (segment) 順の article_id
         k: target number of unique articles to return
 
     Returns:
-        np.ndarray (N_queries, K) — dedup 後の上位 K segment indices (代表 segment)
+        np.ndarray (N_queries, K) -- dedup 後の上位 K segment indices (代表 segment)
     """
     n_queries = top_idx_wide.shape[0]
     out = np.full((n_queries, k), -1, dtype=np.int64)
@@ -659,7 +659,7 @@ def main():
     # article_ids を先に展開 (dedup_by_article で使う)
     article_ids = [r.get("article_id") for r in records]
 
-    # Dense retrieval — dedup_by_article 時は候補プールを広めに取る
+    # Dense retrieval -- dedup_by_article 時は候補プールを広めに取る
     candidate_pool = max(args.top_k * 10, 100) if args.dedup_by_article else max(args.top_k * 3, 30)
     query_matrix = _encode_queries(questions, state)
     dense_sims, dense_top_idx = _cosine_topk(query_matrix, matrix, candidate_pool)
@@ -675,7 +675,7 @@ def main():
         _bm25_sims, bm25_top_idx = bm25_topk_per_query(
             questions, index_info, tfidf_matrix, wide_pool
         )
-        # RRF combine — dedup する場合は wide な top_idx_wide を出力
+        # RRF combine -- dedup する場合は wide な top_idx_wide を出力
         result_k = wide_pool if args.dedup_by_article else args.top_k
         top_idx_wide = rrf_combine_per_query(
             dense_top_idx[:, :wide_pool],
@@ -690,7 +690,7 @@ def main():
         top_idx = dense_top_idx[:, : args.top_k]
         sims = dense_sims
 
-    # Article-level dedup — hybrid 適用後の top_idx_wide を使う (バグ修正 2026-05-22)
+    # Article-level dedup -- hybrid 適用後の top_idx_wide を使う (バグ修正 2026-05-22)
     if args.dedup_by_article:
         top_idx = dedup_by_article(top_idx_wide, article_ids, args.top_k)
         print(

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""segment_parser.py — JuriCode-JP v0.1 → v0.2 segment-aware migrator.
+"""segment_parser.py -- JuriCode-JP v0.1 -> v0.2 segment-aware migrator.
 
 入力: v0.1 .md ファイル (既存 corpus)
 出力:
@@ -90,7 +90,7 @@ RELATIVE_REF_PATTERN = re.compile(
     r"(前項|同項|次項|前条|次条|本条|前[二三四五六七八九十]項|前[二三四五六七八九十]条)"
 )
 
-# 項見出し (v0.1 形式) — 単一の真実源として module level に集約 (FU-301).
+# 項見出し (v0.1 形式) -- 単一の真実源として module level に集約 (FU-301).
 #
 # 設計上の Why:
 # - re.split / re.match の両方で使うため re.MULTILINE フラグ付き
@@ -106,7 +106,7 @@ PARAGRAPH_HEADING_PATTERN = re.compile(
     re.MULTILINE,
 )
 
-# 漢数字 → アラビア数字
+# 漢数字 -> アラビア数字
 KANSUJI_TO_INT = {
     "零": 0,
     "〇": 0,
@@ -204,7 +204,7 @@ class ParagraphV02:
 
 
 # ============================================================
-# 段落解析: paragraph body → segments
+# 段落解析: paragraph body -> segments
 # ============================================================
 
 
@@ -252,12 +252,12 @@ def split_paragraph_segments(
     """paragraph body を segment 群に分割.
 
     優先順位:
-      1. 「準用する」 → type: junyou (項全体)
-      2. 「にかかわらず」 → type: tokusoku (項全体 or 該当 segment)
-      3. 「次に掲げる」 → type: hashira + (各号は v0.1 では body に欠落しているため hashira のみ)
-      4. 「この場合において」 → 前段 + 後段
-      5. 「ただし、」 → 本文 + ただし書
-      6. その他 → simple
+      1. 「準用する」 -> type: junyou (項全体)
+      2. 「にかかわらず」 -> type: tokusoku (項全体 or 該当 segment)
+      3. 「次に掲げる」 -> type: hashira + (各号は v0.1 では body に欠落しているため hashira のみ)
+      4. 「この場合において」 -> 前段 + 後段
+      5. 「ただし、」 -> 本文 + ただし書
+      6. その他 -> simple
     """
     body = body.strip()
     if not body:
@@ -362,7 +362,7 @@ def split_paragraph_segments(
 
 
 # ============================================================
-# v0.1 .md → v0.2 IR (in-memory)
+# v0.1 .md -> v0.2 IR (in-memory)
 # ============================================================
 
 
@@ -530,7 +530,7 @@ def render_v02_md(
                 marker_attrs.append(f"applies_provisions: {','.join(seg.applies_provisions)}")
             marker = f"<!-- {' '.join(marker_attrs)} -->"
 
-            # text 先頭 20 文字 (ただし改行までで切る — 改行入り substring は body に存在しない)
+            # text 先頭 20 文字 (ただし改行までで切る -- 改行入り substring は body に存在しない)
             raw_text = seg.text
             nl_idx = raw_text.find("\n")
             head = raw_text if nl_idx < 0 else raw_text[:nl_idx]
@@ -614,7 +614,7 @@ def process_file(
     output_chunks_dir: Path,
     dry_run: bool = False,
 ) -> dict:
-    """1 ファイルを v0.1 → v0.2 に変換."""
+    """1 ファイルを v0.1 -> v0.2 に変換."""
     try:
         frontmatter, paragraphs_v02, body = parse_v01_md(md_path)
     except Exception as e:

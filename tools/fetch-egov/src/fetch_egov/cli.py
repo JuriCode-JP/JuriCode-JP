@@ -32,7 +32,7 @@ def _setup_logging(verbose: bool) -> None:
     )
 
 
-@click.group(help="e-Gov 法令API v2 クライアント — JuriCode-JP のデータ取得層")
+@click.group(help="e-Gov 法令API v2 クライアント -- JuriCode-JP のデータ取得層")
 @click.version_option(version=__version__, prog_name="fetch-egov")
 @click.option(
     "--cache-dir",
@@ -95,7 +95,7 @@ def get_law(
 
     if output:
         output.write_text(xml, encoding="utf-8")
-        click.echo(f"✅ {len(xml):,} chars → {output}", err=True)
+        click.echo(f"OK {len(xml):,} chars -> {output}", err=True)
     else:
         click.echo(xml)
 
@@ -120,12 +120,12 @@ def clear_cache(ctx: click.Context, yes: bool) -> None:
         click.confirm("キャッシュを全削除しますか?", abort=True)
     cache: FileCache = ctx.obj["cache"]
     count = cache.clear()
-    click.echo(f"✅ {count} ファイルを削除しました.", err=True)
+    click.echo(f"OK {count} ファイルを削除しました.", err=True)
 
 
 @cli.command("list-abbrev", help="登録されている略称一覧.")
 def list_abbrev() -> None:
-    """略称 ↔ 法令ID マップを表示."""
+    """略称 <-> 法令ID マップを表示."""
     # 重複した law_id を避けて整理
     seen: dict[str, list[str]] = {}
     for abbrev, law_id in LAW_ID_MAP.items():

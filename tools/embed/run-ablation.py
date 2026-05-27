@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""run-ablation.py — 4 設定 (baseline / +normalize / +reranker / +both) を一気実行.
+"""run-ablation.py -- 4 設定 (baseline / +normalize / +reranker / +both) を一気実行.
 
 設定:
     1. baseline           : Gemini dense 単独

@@ -1,7 +1,7 @@
-"""manifest — v0.2 corpus 用 _source-manifest.json 生成パッケージ.
+"""manifest -- v0.2 corpus 用 _source-manifest.json 生成パッケージ.
 
 責務分離 (バイブコーディング 3 原則):
-  - canonical_hash: v0.2 .md → canonical 日本語本文 → SHA-256 + バイト数
+  - canonical_hash: v0.2 .md -> canonical 日本語本文 -> SHA-256 + バイト数
   - article_entry:  1 条分の Pydantic ArticleEntry モデル + 生成関数
   - law_manifest:   1 法令分の Pydantic LawManifest モデル + assembly + write
   - cli:            argparse + 全 law_dir 走査 + main()

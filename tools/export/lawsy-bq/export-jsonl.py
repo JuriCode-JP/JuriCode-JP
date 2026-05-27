@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-JuriCode-JP → BigQuery (Lawsy-Custom-BQ) JSON Lines Exporter
+JuriCode-JP -> BigQuery (Lawsy-Custom-BQ) JSON Lines Exporter
 =============================================================
 
 JuriCode-JP の法令データ Markdown ファイルを読み込み、BigQuery 投入用の
@@ -50,7 +50,7 @@ except ImportError:
 #   Tier 2: tiktoken cl100k_base  (GPT-4 / GPT-3.5; older but cached in nearly
 #                                  every tiktoken install, so it usually works
 #                                  even when the o200k BPE file cannot be
-#                                  fetched — e.g. behind a corporate proxy or
+#                                  fetched -- e.g. behind a corporate proxy or
 #                                  in an air-gapped sandbox).
 #   Tier 3: char-based fallback   (1 token ~= 2 chars; no dependency, no
 #                                  network, always works. Token counts are
@@ -288,7 +288,7 @@ def _extract_facet_metadata(fm: dict) -> dict:
     ts = fm.get("translation_status", "none")
     has_english_translation = ts not in (None, "", "none")
 
-    # phase_category — first tag matching the phase pattern
+    # phase_category -- first tag matching the phase pattern
     tags = fm.get("tags") or []
     phase_category = None
     if isinstance(tags, list):
@@ -383,7 +383,7 @@ def _open_output(path: Path | None) -> Iterator[TextIO]:
 def _build_argparser() -> argparse.ArgumentParser:
     """Construct the CLI argument parser."""
     ap = argparse.ArgumentParser(
-        description="JuriCode-JP Markdown → BigQuery JSON Lines (NDJSON) "
+        description="JuriCode-JP Markdown -> BigQuery JSON Lines (NDJSON) "
         "exporter for 'Lawsy-Custom-BQ' (GENAI) ingestion."
     )
     ap.add_argument(
