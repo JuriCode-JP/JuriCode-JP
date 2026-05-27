@@ -529,7 +529,7 @@ except ValidationError as e:
 
 ## P2 — Phase 1 中期 (2026-07〜09)
 
-### [ ] FU-506: heavy import script の Lazy Import 化 (2026-05-27 追加)
+### [x] FU-506: heavy import script の Lazy Import 化 (2026-05-27 追加) — ✅ 完了 2026-05-28 (commits 425dde03 / 45743df5)
 
 **場所**: `tools/finetune/train-reranker.py`, `tools/finetune/generate-training-data.py`, `tools/embed/convert-lawqa-to-evalset.py`, `tools/embed/run-ablation.py`, `tools/embed/embed.py` 等の `torch` / `sentence-transformers` / `google-generativeai` 依存 scripts.
 
@@ -1083,6 +1083,27 @@ mypy / pyright で型がより厳密に追える.
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-05-28 — FU-506 完了: tools/ 配下 全 CLI scripts の top-level heavy import Lazy Import 化
+
+> FU-505 で確立した smoke test + cp932 guard の後続 sprint. numpy / httpx 等 heavy deps の
+> top-level import を Lazy Import 化 (TYPE_CHECKING + 関数内 local import) し、minimal install
+> 環境 (CI / Windows ユーザ) での `--help` crash を根本解決.
+
+- ✅ **FU-506 hotfix (425dde03)**: FU-505 post-merge で CI #56 fail. 根本原因は 3 scripts の top-level heavy import.
+  - `server.py`: `import numpy as np` -> TYPE_CHECKING + 4 関数 local import
+  - `generate-training-data.py`: 同上 -> 2 関数 local import
+  - `fetch_egov/__init__.py`: top-level re-export 完全削除 (利用側は submodule から直接 import)
+- ✅ **FU-506 本体 (45743df5)**: 残対象 4 scripts 完遂.
+  - `embed.py`: `import numpy as np` -> 4 関数 local import
+  - `retrieve.py`: 同上 -> 10 関数 local import
+  - `client.py`: `import httpx` -> TYPE_CHECKING + `__init__` local import
+  - `cli.py`: `from fetch_egov.client import EGovClient` -> `get_law` 関数内 local import
+
+**検証**: ruff check / format clean, pytest 214 PASS, cp932-safe 42 files.
+**計画書**: `business/fu-506-investigation-2026-05-28.md` (v2、外部レビュー 3 件反映済)
+
+---
+
 ### 2026-05-27 — FU-505 完了: project-wide em dash ASCII 置換 + cp932 CI guard + smoke test
 
 > FU-502/503 で 2 度踏んだ Windows cp932 `--help` crash を project-wide に構造的ゼロ化した sprint.
@@ -1400,4 +1421,4 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-05-27 — FU-505 完了 (project-wide em dash ASCII 置換 + `check-cp932-safe.py` 新設 + parametrize smoke test 13 件 + CI step 12 追加). FU-502/503 で 2 度踏んだ Windows cp932 --help crash を構造的にゼロ化. FU-506 (heavy import Lazy Import 化, P2) を新規登録. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.5*
+*Last updated: 2026-05-28 — FU-506 完了 (tools/ 配下 7 scripts の top-level heavy import Lazy Import 化: numpy / httpx 未 install 環境での --help crash を根本解決. commits 425dde03 / 45743df5). FU-505 完了 (2026-05-27). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.6*
