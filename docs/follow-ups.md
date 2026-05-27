@@ -529,6 +529,22 @@ except ValidationError as e:
 
 ## P2 — Phase 1 中期 (2026-07〜09)
 
+### [ ] FU-506: heavy import script の Lazy Import 化 (2026-05-27 追加)
+
+**場所**: `tools/finetune/train-reranker.py`, `tools/finetune/generate-training-data.py`, `tools/embed/convert-lawqa-to-evalset.py`, `tools/embed/run-ablation.py`, `tools/embed/embed.py` 等の `torch` / `sentence-transformers` / `google-generativeai` 依存 scripts.
+
+**現状**: top-level import のため `--help` 実行時にも重い依存 package を import する. CI smoke test の依存環境が揃っていれば問題ないが、clean install 環境では `ModuleNotFoundError` で `--help` が失敗する.
+
+**やること**: `if TYPE_CHECKING:` / 関数スコープ内 import / `importlib.import_module()` 等の Lazy Import 化で `--help` 時の依存最小化.
+
+**前提**: FU-505 完了 (em dash 置換 + smoke test 確立) 後に着手.
+
+**由来**: 2026-05-27 外部レビューで Lazy Import 化提案あり. FU-505 scope creep 回避のため別 FU 分離 (`business/fu-505-investigation-2026-05-27.md` §14 参照).
+
+**関連**: FU-505 (完了), `business/planning-checklist.md` §1 (依存 call graph 追跡必要)
+
+---
+
 ### [ ] FU-101: `ARTICLE_ID_PATTERN` の特殊条文対応
 
 **現状**: `r"^[a-z][a-z0-9-]*-art-[0-9]+(-[0-9]+)*$"` は附則・経過措置を弾く.
@@ -866,7 +882,7 @@ FU-415 sprint で `fix-phase-tags.py` を Cowork sandbox で開発した際の W
 
 ---
 
-### [ ] FU-505: project-wide 15 scripts の em dash — `--` 一括置換 (2026-05-26 追加)
+### [x] FU-505: project-wide em dash ASCII 置換 + cp932 CI guard (2026-05-27 完了)
 
 **場所**: `tools/` 配下の 15 個の CLI script (`embed/convert-lawqa-to-evalset.py`, `embed/run-ablation.py`, `validate/validate-all.py`, `parse/parse-egov.py`, `parse/verify.py`, `parse/v0.2/add_rollup_chunks.py`, `parse/v0.2/extract_kou_from_xml.py`, `parse/v0.2/extract_supplproviso_from_xml.py`, `parse/v0.2/segment_parser.py`, `parse/v0.2/manifest/cli.py`, `finetune/generate-training-data.py`, `finetune/train-reranker.py`, `fetch-egov/bulk-ingest.py`, `search-ui/server.py`) の docstring 1 行目.
 
@@ -1066,6 +1082,26 @@ mypy / pyright で型がより厳密に追える.
 ## 完了済み
 
 完了した項目はここに timestamp 付きで移動する.
+
+### 2026-05-27 — FU-505 完了: project-wide em dash ASCII 置換 + cp932 CI guard + smoke test
+
+> FU-502/503 で 2 度踏んだ Windows cp932 `--help` crash を project-wide に構造的ゼロ化した sprint.
+> 17 scripts の em dash/arrow を ASCII 化 + `check-cp932-safe.py` 新設 (CI step 12 追加) + parametrize smoke test 13 件 PASS.
+> planning-checklist §5 (新規 CLI smoke test の precondition) を本 sprint で解消し、構造的に再発不可能となった.
+
+- ✅ **FU-505: project-wide em dash ASCII 置換 + cp932 CI guard** — 計画書 `business/fu-505-investigation-2026-05-27.md` v2 (Tier 1-4 = 17 scripts + Phase A-E 5 commits).
+  - **Phase A (機械的置換)**: Tier 1+2+3+4 = 17 scripts + 追加発見の module-only ファイル (`phase_tag.py`, `frontmatter.py`, `law_id_map.py`, `canonical_hash.py`, `law_manifest.py`, `article_entry.py`, `__init__.py`, `cli.py` 等) の em dash (U+2014) / arrow (U+2192) / approx (U+2248) / check mark (U+2705) / bidirectional arrow (U+2194) / BOM (U+FEFF) を全件 ASCII 化. `tools/` 配下 42 files cp932-safe.
+  - **Phase B (detection script)**: `tools/scripts/check-cp932-safe.py` 新設. `--path tools` で 42 files scan、tests/ / __pycache__ / .venv 等は除外. exit 0 で `=== cp932-safe: N files scanned ===`. 自己 smoke test 3 件 PASS.
+  - **Phase C (parametrize smoke test)**: `tools/shared/tests/test_cli_help_smoke.py` 新設. manifest/cli.py (相対 import 制約で直接実行不可) を除く 13 scripts の `--help` を `PYTHONIOENCODING=cp932` + `PYTHONPATH` 設定で runtime verify. 13 tests PASS.
+  - **Phase D (CI 統合)**: `.github/workflows/ci.yml` に `Check cp932-safe (FU-505)` step 追加. CI step 総数: 11 -> 12.
+  - **Phase E (docs)**: follow-ups.md FU-505 完了化 + FU-506 (Lazy Import 化, P2) 新規登録.
+
+**検証**:
+- `python tools/scripts/check-cp932-safe.py --path tools`: `=== cp932-safe: 42 files scanned ===` (exit 0)
+- `pytest tools/shared/tests/test_check_cp932_safe.py -v`: 3 passed
+- `pytest tools/shared/tests/test_cli_help_smoke.py -v`: 13 passed
+
+---
 
 ### 2026-05-26 (夕方 v3) — FU-503 完了: build-v0.2-corpus.py --validate-only + CI 統合 + 3 層防御
 
@@ -1364,4 +1400,4 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-05-26 (夕方 v4) — FU-503 完了 (build-v0.2-corpus.py --validate-only + CI 統合 + 3 層防御). レビュアー指摘により Layer 1 (RET503 静的検査) + Layer 2 (merge mode runtime smoke test) + Layer 3 (explicit return checklist) の 3 層で false-green guarantee を構造的にゼロ化. **v0.2 corpus 品質改善ラインの本体は完全完了** (FU-401 / FU-108 / FU-415 / FU-501 / FU-502 / FU-504 / FU-503). 残既存 P0 のみ: FU-P0-3 (Lawsy-Custom-BQ exporter), FU-P0-4 (法的整合性レビュー), FU-P0-5 (人月配分・外注設計). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.4*
+*Last updated: 2026-05-27 — FU-505 完了 (project-wide em dash ASCII 置換 + `check-cp932-safe.py` 新設 + parametrize smoke test 13 件 + CI step 12 追加). FU-502/503 で 2 度踏んだ Windows cp932 --help crash を構造的にゼロ化. FU-506 (heavy import Lazy Import 化, P2) を新規登録. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.5*
