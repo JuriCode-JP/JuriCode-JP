@@ -19,7 +19,6 @@ import click
 
 from fetch_egov import __version__
 from fetch_egov.cache import FileCache
-from fetch_egov.client import EGovClient
 from fetch_egov.law_id_map import LAW_ID_MAP, resolve_law_id
 
 
@@ -90,6 +89,8 @@ def get_law(
             raise click.BadParameter(f"--at-date は YYYY-MM-DD 形式で: {at_date}") from exc
 
     cache: FileCache = ctx.obj["cache"]
+    from fetch_egov.client import EGovClient  # lazy import (FU-506)
+
     with EGovClient(cache=cache) as client:
         xml = client.get_law(name_or_id, asof=as_of, force_refresh=force_refresh)
 

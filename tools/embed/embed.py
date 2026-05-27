@@ -22,8 +22,6 @@ import sys
 import time
 from pathlib import Path
 
-import numpy as np
-
 _META_FIELDS = (
     "article_id",
     "law_id",
@@ -56,6 +54,7 @@ def _read_records(path, limit):
 
 
 def _tfidf_embed(records, text_field, max_features):
+    import numpy as np  # lazy import (FU-506)
     from sklearn.feature_extraction.text import TfidfVectorizer
 
     corpus = [(r.get(text_field) or "") for r in records]
@@ -76,6 +75,8 @@ def _tfidf_embed(records, text_field, max_features):
 
 
 def _openai_embed(records, text_field, model, batch_size, max_retries):
+    import numpy as np  # lazy import (FU-506)
+
     try:
         from openai import OpenAI
     except ImportError:
@@ -144,6 +145,8 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
       gemini-embedding-001            (new, default, 768/1536/3072 dim)
       models/text-embedding-004       (legacy, 768 dim, separate quota)
     """
+    import numpy as np  # lazy import (FU-506)
+
     try:
         from google import genai
         from google.genai import types
@@ -227,6 +230,8 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
 
 
 def main():
+    import numpy as np  # lazy import (FU-506)
+
     ap = argparse.ArgumentParser(description="Generate embeddings for JuriCode-JP NDJSON.")
     ap.add_argument("--input", type=Path, required=True)
     ap.add_argument("--output", type=Path, required=True)

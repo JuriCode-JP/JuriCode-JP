@@ -16,9 +16,10 @@ from __future__ import annotations
 import logging
 import time
 from datetime import date
-from typing import Any, Literal
+from typing import TYPE_CHECKING, Any, Literal
 
-import httpx
+if TYPE_CHECKING:
+    import httpx  # type hints only; runtime import inside __init__
 
 from fetch_egov.cache import FileCache
 from fetch_egov.law_id_map import resolve_law_id
@@ -48,6 +49,8 @@ class EGovClient:
         rate_limit_seconds: float = DEFAULT_RATE_LIMIT_SECONDS,
         http_client: httpx.Client | None = None,
     ) -> None:
+        import httpx  # lazy import (FU-506)
+
         self.cache = cache
         self.base_url = base_url.rstrip("/")
         self.rate_limit_seconds = rate_limit_seconds

@@ -19,8 +19,6 @@ import re
 import sys
 from pathlib import Path
 
-import numpy as np
-
 # =====================================================
 # Query normalization (法令名・条番号の正規化)
 # =====================================================
@@ -198,6 +196,7 @@ def build_tfidf_index(corpus_jsonl: Path, text_field: str = "text"):
     """corpus jsonl から純 numpy/scipy で TF-IDF インデックスを構築 (sklearn 非依存)."""
     from collections import Counter, defaultdict
 
+    import numpy as np  # lazy import (FU-506)
     from scipy.sparse import csr_matrix
 
     texts = []
@@ -259,6 +258,7 @@ def build_tfidf_index(corpus_jsonl: Path, text_field: str = "text"):
 
 def _l2_normalize_sparse(sparse_matrix):
     """純 scipy/numpy で L2 正規化."""
+    import numpy as np  # lazy import (FU-506)
     from scipy.sparse import diags
 
     sq = sparse_matrix.multiply(sparse_matrix)
@@ -273,6 +273,7 @@ def _vectorize_query_with_index(queries, index_info, n_vocab):
     """クエリを TF-IDF インデックスにマッチさせて sparse 行列にする."""
     from collections import Counter
 
+    import numpy as np  # lazy import (FU-506)
     from scipy.sparse import csr_matrix
 
     vocab = index_info["vocab"]
@@ -292,6 +293,8 @@ def _vectorize_query_with_index(queries, index_info, n_vocab):
 
 def bm25_topk_per_query(queries, index_info, tfidf_matrix, top_k):
     """各クエリの BM25 top-K インデックス (np.ndarray (N, K))."""
+    import numpy as np  # lazy import (FU-506)
+
     n_vocab = tfidf_matrix.shape[1]
     q_mat = _vectorize_query_with_index(queries, index_info, n_vocab)
     q_norm = _l2_normalize_sparse(q_mat)
@@ -343,6 +346,8 @@ def rerank_with_cross_encoder(
     Returns:
         np.ndarray (N, top_k_final): re-rank された候補インデックス
     """
+    import numpy as np  # lazy import (FU-506)
+
     try:
         from sentence_transformers import CrossEncoder
     except ImportError:
@@ -393,6 +398,8 @@ def rerank_with_cross_encoder(
 
 def rrf_combine_per_query(dense_top_idx, bm25_top_idx, top_k, k_rrf=60):
     """各クエリで dense top-N と bm25 top-N を RRF で結合し top-K を返す."""
+    import numpy as np  # lazy import (FU-506)
+
     n_queries = dense_top_idx.shape[0]
     combined = np.zeros((n_queries, top_k), dtype=np.int64)
     for qi in range(n_queries):
@@ -415,6 +422,8 @@ def rrf_combine_per_query(dense_top_idx, bm25_top_idx, top_k, k_rrf=60):
 
 
 def _load_artefacts(prefix):
+    import numpy as np  # lazy import (FU-506)
+
     # NOTE: with_suffix() は "v0.2-gemini-17967" のようなドット含み名で
     # ".2-gemini-17967" を suffix と解釈して壊す。文字列連結で回避。
     npy_path = prefix.parent / (prefix.name + ".npy")
@@ -451,6 +460,8 @@ def _load_queries(eval_set_paths):
 
 
 def _encode_queries(questions, state):
+    import numpy as np  # lazy import (FU-506)
+
     provider = state.get("provider")
 
     if provider == "tfidf":
@@ -519,6 +530,8 @@ def _encode_queries(questions, state):
 
 
 def _cosine_topk(query_matrix, corpus_matrix, top_k):
+    import numpy as np  # lazy import (FU-506)
+
     qn = np.linalg.norm(query_matrix, axis=1, keepdims=True)
     qn[qn == 0] = 1.0
     qnorm = query_matrix / qn
@@ -553,6 +566,8 @@ def dedup_by_article(top_idx_wide, article_ids, k):
     Returns:
         np.ndarray (N_queries, K) -- dedup 後の上位 K segment indices (代表 segment)
     """
+    import numpy as np  # lazy import (FU-506)
+
     n_queries = top_idx_wide.shape[0]
     out = np.full((n_queries, k), -1, dtype=np.int64)
     for qi in range(n_queries):
