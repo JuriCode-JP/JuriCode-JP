@@ -17,15 +17,17 @@ import sys
 from pathlib import Path
 
 # 仮想環境 / キャッシュ / ビルド生成物を除外
-EXCLUDE_PARTS = frozenset({
-    "tests",
-    "__pycache__",
-    ".venv",
-    "venv",
-    ".tox",
-    "build",
-    "dist",
-})
+EXCLUDE_PARTS = frozenset(
+    {
+        "tests",
+        "__pycache__",
+        ".venv",
+        "venv",
+        ".tox",
+        "build",
+        "dist",
+    }
+)
 
 
 def is_cp932_safe(c: str) -> bool:
