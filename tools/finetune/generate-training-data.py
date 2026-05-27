@@ -32,8 +32,6 @@ import sys
 import time
 from pathlib import Path
 
-import numpy as np
-
 # -------- Gemini setup --------
 
 
@@ -115,6 +113,8 @@ def load_corpus(jsonl_path: Path) -> list[dict]:
 
 
 def load_embeddings(embedded_prefix: Path):
+    import numpy as np  # lazy import (FU-506)
+
     npy_path = Path(str(embedded_prefix) + ".npy")
     matrix = np.load(str(npy_path), mmap_mode="r")
     return matrix
@@ -124,6 +124,8 @@ def load_embeddings(embedded_prefix: Path):
 
 
 def find_hard_negatives_per_idx(positive_idx: int, matrix, top_k: int = 10) -> list[int]:
+    import numpy as np  # lazy import (FU-506)
+
     q = matrix[positive_idx]
     qn = np.linalg.norm(q)
     if qn == 0:

@@ -28,9 +28,11 @@ import pickle
 import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from typing import TYPE_CHECKING
 from urllib.parse import parse_qs, urlparse
 
-import numpy as np
+if TYPE_CHECKING:
+    import numpy as np  # type hints only; runtime import inside functions
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 INDEX_HTML = SCRIPT_DIR / "index.html"
@@ -43,6 +45,8 @@ _NORM_MATRIX: np.ndarray | None = None  # pre-normalized for fast cosine
 
 
 def _load_artefacts(prefix: Path) -> tuple[np.ndarray, list[dict], dict]:
+    import numpy as np  # lazy import (FU-506)
+
     # NOTE: with_suffix() は "v0.2-gemini-17967" のようなドット含み名で
     # ".2-gemini-17967" を suffix と解釈して壊す。文字列連結で回避。
     # embed.py:295 / retrieve.py:418 と同じパターン (FU-404).
@@ -68,6 +72,8 @@ def _load_artefacts(prefix: Path) -> tuple[np.ndarray, list[dict], dict]:
 
 
 def _normalize(m: np.ndarray) -> np.ndarray:
+    import numpy as np  # lazy import (FU-506)
+
     n = np.linalg.norm(m, axis=1, keepdims=True)
     n[n == 0] = 1.0
     return m / n
@@ -75,6 +81,8 @@ def _normalize(m: np.ndarray) -> np.ndarray:
 
 def _encode_query(question: str) -> np.ndarray:
     """1 件のクエリを embedding に変換 (1, dim) の ndarray."""
+    import numpy as np  # lazy import (FU-506)
+
     state = _STATE
     assert state is not None
     provider = state.get("provider")
@@ -112,6 +120,8 @@ def _encode_query(question: str) -> np.ndarray:
 
 
 def _topk(question: str, k: int = 10) -> list[dict]:
+    import numpy as np  # lazy import (FU-506)
+
     assert _MATRIX is not None and _RECORDS is not None and _NORM_MATRIX is not None
     q_mat = _encode_query(question)
     q_norm = _normalize(q_mat)  # (1, dim)
