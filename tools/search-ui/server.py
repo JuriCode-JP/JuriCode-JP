@@ -59,6 +59,7 @@ if TYPE_CHECKING:
 SCRIPT_DIR = Path(__file__).resolve().parent
 INDEX_HTML = SCRIPT_DIR / "index.html"
 MAX_BODY_BYTES = 256 * 1024  # 256KB: question/comment text only (DOS guard)
+_LOOPBACK = frozenset({"127.0.0.1", "localhost", "::1"})  # FU-414: safe bind hosts
 
 # Make juricode_shared importable (same sys.path pattern as other runtime tools)
 _SHARED_SRC = SCRIPT_DIR.parent / "shared" / "src"
@@ -417,6 +418,21 @@ class Handler(BaseHTTPRequestHandler):
             return False
 
 
+def _check_host(host: str, allow_external: bool) -> bool:
+    """Return is_external. Raise ValueError on a non-loopback bind without --allow-external.
+
+    Why (FU-414 / R5): raw query を記録する UI を誤って 0.0.0.0 / :: 等で外部公開し漏洩
+    する事故を構造的に防ぐ. loopback 以外への bind は --allow-external を必須にする.
+    """
+    is_external = host not in _LOOPBACK
+    if is_external and not allow_external:
+        raise ValueError(
+            f"refusing to bind non-loopback host {host!r} without --allow-external "
+            "(search-ui records query text; see CLAUDE.md local-only rule)"
+        )
+    return is_external
+
+
 def main():
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
@@ -440,8 +456,25 @@ def main():
         help="質問ログ SQLite のパス (default build/search-ui-logs.db)",
     )
     ap.add_argument("--host", type=str, default="127.0.0.1")
+    ap.add_argument(
+        "--allow-external",
+        action="store_true",
+        help="loopback 以外の host への bind を許可 (query text を記録するため既定で禁止)",
+    )
     ap.add_argument("--port", type=int, default=8765)
     args = ap.parse_args()
+
+    # Fail-fast: validate the bind host before the heavy artefact load (R5 / FU-414).
+    try:
+        external = _check_host(args.host, args.allow_external)
+    except ValueError as e:
+        sys.exit(f"ERROR: {e}")
+    if external:
+        print(
+            "[security] WARNING: --allow-external set; UI is exposed to non-loopback "
+            "interfaces. Do NOT run on untrusted networks (query text is recorded).",
+            file=sys.stderr,
+        )
 
     global _MATRIX, _RECORDS, _STATE, _NORM_MATRIX, _LOG_DB, _CORPUS_VERSION
     print(f"[startup] loading artefacts from {args.embedded}.*", file=sys.stderr)
@@ -462,8 +495,8 @@ def main():
         f"[startup] question log -> {_LOG_DB} (corpus_version={_CORPUS_VERSION})", file=sys.stderr
     )
     print(
-        "[security] LOCAL-ONLY: question text is stored raw (PII filter pending). "
-        "Do NOT expose this server externally until the notice banner and PII filter ship.",
+        "[security] LOCAL-ONLY by default (127.0.0.1). Question text is PII-filtered "
+        "before storage (raw dropped on detection). Use --allow-external only on trusted networks.",
         file=sys.stderr,
     )
 
