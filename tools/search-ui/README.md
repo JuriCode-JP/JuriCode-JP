@@ -102,6 +102,24 @@ OPENAI_API_KEY=xxx python tools/search-ui/server.py \
 | 認証 / レートリミット | ☐ Hosted ティア化のときに |
 | Pro ティア向け Multi-tenancy | ☐ Phase 2 |
 
+## 質問ログ (v0.3 柱5)
+
+検索 UI は PoC 利用時に 4 原材料 (質問文 / 👍👎 feedback / クリックした条文 / 滞在時間) を
+SQLite (`build/search-ui-logs.db`, gitignore 対象) に記録し、柱1 reranker fine-tune の学習データ
+基盤 (data moat) を作る.
+
+- **API**: `POST /api/question` (検索 + 記録、question_id 返却) / `POST /api/feedback`
+  (👍👎、per-question) / `POST /api/click` (clicked rank + article_id + dwell) / `GET /api/health`.
+- **起動**: `python tools/search-ui/server.py --embedded build/juricode-bq-embedded --corpus-version v0.2 --port 8765`.
+  `--corpus-version` 必須、`--log-db` で DB パス変更可.
+- **PII**: ingest 時に Tier 1 正規表現で PII (email / 電話 / 郵便番号 / カード / マイナンバー / URL) を
+  検出. 検出時は質問文 raw を保存せず匿名化版 + 検出パターン名のみ記録. 既存行の匿名化列は
+  `python tools/search-ui/anonymize-batch.py --db build/search-ui-logs.db --dry-run|--apply` で後追い fill.
+- **セキュリティ (重要)**: 既定で 127.0.0.1 ローカル限定. **外部公開 (`--host 0.0.0.0` 等) は
+  `--allow-external` が必須**で、PII フィルタが動作していても質問文 raw が漏洩するリスクがあるため、
+  信頼できるネットワーク内でのみ公開すること. 技術規律の詳細は repo `CLAUDE.md`
+  の「やってはいけないこと」を参照.
+
 ## 関連
 
 - `tools/embed/` — embedding 生成パイプライン

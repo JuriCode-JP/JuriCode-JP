@@ -54,9 +54,12 @@ jobs:
 
       - name: Pytest (all workspace packages)
         # 2026-05-25: tools/parse/v0.2/tests と manifest/tests を追加.
-        # v0.2 corpus + manifest 生成パッケージのテストを CI で常時実行する.
+        # 2026-05-30: tools/search-ui/tests を追加 (柱5 質問ログ: endpoints / html smoke / server_main).
+        # PYTHONPATH を明示し juricode_shared 解決を rootdir 依存から切り離す (belt-and-suspenders).
+        env:
+          PYTHONPATH: tools/shared/src
         run: |
-          pytest tools/shared/tests tools/validate/tests tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests -v
+          pytest tools/shared/tests tools/validate/tests tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests tools/search-ui/tests -v
 
       - name: Validate all law data files
         # 2026-05-25: data/phase1-*/ (v0.1) を archive/v0.1/ に deprecate 済.

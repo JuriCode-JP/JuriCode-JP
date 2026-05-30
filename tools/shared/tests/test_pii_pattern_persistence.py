@@ -57,7 +57,9 @@ def test_non_pii_row_keeps_raw_null_pattern(tmp_path: Path) -> None:
     q = _q(question_text="正当防衛の要件", pii_detected=0)
     store.record_question(db, q)
     con = sqlite3.connect(db)
-    row = con.execute("SELECT question_text, pii_detected, pii_pattern_matched FROM questions").fetchone()
+    row = con.execute(
+        "SELECT question_text, pii_detected, pii_pattern_matched FROM questions"
+    ).fetchone()
     con.close()
     assert row[0] == "正当防衛の要件"
     assert row[1] == 0

@@ -261,7 +261,7 @@ def test_e15_pii_question_not_stored_raw(srv) -> None:
         "SELECT question_text, pii_detected, pii_pattern_matched FROM questions"
     ).fetchone()
     con.close()
-    assert row[0] is None              # raw not stored
+    assert row[0] is None  # raw not stored
     assert row[1] == 1
     assert "phone_jp" in row[2]
 
