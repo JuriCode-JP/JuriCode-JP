@@ -111,3 +111,36 @@ def count_questions(db_path: Path) -> int:
     """Return the number of question rows (admin / health)."""
     with closing(_connect(db_path)) as conn:
         return conn.execute("SELECT COUNT(*) FROM questions").fetchone()[0]
+
+
+def record_question_with_results(
+    db_path: Path, question: QuestionLog, results: list[ResultEntry]
+) -> None:
+    """Insert a question and its results in one transaction (atomic).
+
+    Why (TXN2): record_question + record_results を別 transaction にすると, 間で
+    失敗時に結果ゼロの幽霊質問が残る. 1 つの with conn: で親子を束ね, どちらかが
+    失敗すれば両方 rollback する (実測: results 違反時に question も未挿入).
+    """
+    with closing(_connect(db_path)) as conn, conn:
+        conn.execute(
+            "INSERT INTO questions (id, session_id, asked_at, question_text, "
+            "question_text_anonymized, pii_detected, pii_pattern_matched, k, embedder, "
+            "corpus_version) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+            (
+                question.id,
+                question.session_id,
+                question.asked_at,
+                question.question_text,
+                question.question_text_anonymized,
+                question.pii_detected,
+                question.pii_pattern_matched,
+                question.k,
+                question.embedder,
+                question.corpus_version,
+            ),
+        )
+        conn.executemany(
+            "INSERT INTO results (question_id, rank, article_id, score) VALUES (?, ?, ?, ?)",
+            [(question.id, r.rank, r.article_id, r.score) for r in results],
+        )

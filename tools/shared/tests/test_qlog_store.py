@@ -286,3 +286,29 @@ def test_s22_param_question_id_binds_all_rows(db: Path) -> None:
     con.close()
     assert stored_qid == q.id  # param bound to row; ResultEntry carries no question_id
     assert "question_id" not in ResultEntry.model_fields  # non-destructive contract (v5)
+
+
+def test_s23_question_with_results_atomic(db: Path) -> None:
+    q = a_question()
+    rows = [
+        ResultEntry(rank=1, article_id="a", score=0.1),
+        ResultEntry(rank=1, article_id="b", score=0.2),  # duplicate (question_id, rank) PK
+    ]
+    with pytest.raises(sqlite3.IntegrityError):
+        store.record_question_with_results(db, q, rows)
+    con = sqlite3.connect(db)
+    assert (
+        con.execute("SELECT COUNT(*) FROM questions").fetchone()[0] == 0
+    )  # parent rolled back too
+    assert con.execute("SELECT COUNT(*) FROM results").fetchone()[0] == 0
+    con.close()
+
+
+def test_s24_question_with_results_happy(db: Path) -> None:
+    q = a_question()
+    rows = [ResultEntry(rank=i, article_id=f"a{i}", score=0.1 * i) for i in (1, 2, 3)]
+    store.record_question_with_results(db, q, rows)
+    con = sqlite3.connect(db)
+    assert con.execute("SELECT COUNT(*) FROM questions").fetchone()[0] == 1
+    assert con.execute("SELECT COUNT(*) FROM results").fetchone()[0] == 3
+    con.close()
