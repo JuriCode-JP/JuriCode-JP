@@ -26,6 +26,7 @@ TIER12_SCRIPTS = [
     "tools/embed/run-ablation.py",
     "tools/fetch-egov/bulk-ingest.py",
     "tools/search-ui/server.py",
+    "tools/search-ui/anonymize-batch.py",
 ]
 
 

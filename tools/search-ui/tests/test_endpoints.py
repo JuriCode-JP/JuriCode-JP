@@ -249,3 +249,30 @@ def test_e14_click_without_dwell(srv) -> None:
         None,
     )
     con.close()
+
+
+def test_e15_pii_question_not_stored_raw(srv) -> None:
+    base, db = srv
+    code, body = _ask(base, question="私の電話は090-1234-5678です")
+    assert code == 200, body
+    assert body["pii_detected"] is True
+    con = sqlite3.connect(db)
+    row = con.execute(
+        "SELECT question_text, pii_detected, pii_pattern_matched FROM questions"
+    ).fetchone()
+    con.close()
+    assert row[0] is None              # raw not stored
+    assert row[1] == 1
+    assert "phone_jp" in row[2]
+
+
+def test_e16_clean_question_stores_raw(srv) -> None:
+    base, db = srv
+    code, body = _ask(base, question="正当防衛の要件は")
+    assert code == 200, body
+    assert body["pii_detected"] is False
+    con = sqlite3.connect(db)
+    row = con.execute("SELECT question_text, pii_detected FROM questions").fetchone()
+    con.close()
+    assert row[0] == "正当防衛の要件は"
+    assert row[1] == 0

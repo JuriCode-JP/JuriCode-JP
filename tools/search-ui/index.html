@@ -205,7 +205,10 @@ function renderResults(data) {
         <div class="ids"><code>${escHtml(r.article_id)}</code>${egov}</div>
       </div>`;
   }).join('');
-  resultsEl.innerHTML = fbbar + cards;
+  const piiWarn = data.pii_detected
+    ? '<div class="notice">個人情報の可能性を検出したため、質問文は原文を保存せず匿名化版のみ記録しました。</div>'
+    : '';
+  resultsEl.innerHTML = piiWarn + fbbar + cards;
 }
 
 // per-question feedback (good/bad). FeedbackEntry has no rank -> not per-card.

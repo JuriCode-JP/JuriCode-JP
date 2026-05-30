@@ -65,6 +65,7 @@ _SHARED_SRC = SCRIPT_DIR.parent / "shared" / "src"
 if str(_SHARED_SRC) not in sys.path:
     sys.path.insert(0, str(_SHARED_SRC))
 
+from juricode_shared.anonymize import anonymize_text, detect_pii  # noqa: E402
 from juricode_shared.qlog import store  # noqa: E402
 from juricode_shared.qlog.schema import (  # noqa: E402
     ClickEntry,
@@ -326,13 +327,18 @@ class Handler(BaseHTTPRequestHandler):
         assert _STATE is not None
         qid = str(uuid.uuid4())
         now = datetime.now(UTC).isoformat()
+        # Tier 1 PII gating (Phase D): on detection, do NOT store raw; keep only the
+        # anonymized version + the matched pattern names (V2-3). Search still runs.
+        detected, patterns = detect_pii(question)
         try:
             qlog = QuestionLog(
                 id=qid,
                 session_id=body.get("session_id"),
                 asked_at=now,
-                question_text=question,
-                pii_detected=0,  # PII filter は Phase D
+                question_text=None if detected else question,
+                question_text_anonymized=anonymize_text(question) if detected else None,
+                pii_detected=1 if detected else 0,
+                pii_pattern_matched=",".join(patterns) if detected else None,
                 k=actual_k,
                 embedder=_STATE.get("provider") or "unknown",
                 corpus_version=_CORPUS_VERSION or "unknown",
@@ -346,7 +352,9 @@ class Handler(BaseHTTPRequestHandler):
             return
         if not self._record(store.record_question_with_results, _LOG_DB, qlog, results):
             return
-        self._send_json(200, {"question_id": qid, "k": actual_k, "results": topk})
+        self._send_json(
+            200, {"question_id": qid, "k": actual_k, "results": topk, "pii_detected": detected}
+        )
 
     def _handle_feedback(self, body: dict) -> None:
         try:
