@@ -53,30 +53,42 @@ APPLIES_PROVISIONS_PATTERN = re.compile(
 
 # modality detectors (文末から判定)
 MODALITY_PATTERNS = [
-    # 優先順位順 (より specific なものを先に判定)
+    # 優先順位順: より specific なものを先に判定。順序の根拠は各行 +
+    # business/japanese-law-rag-design-blueprint-2026-05-22.md 参照。
+    # 但書・例外節。本文の modality を上書きするため最優先で検出する。
     ("jogai", re.compile(r"この限りでない[。」]?$|妨げない[。」]?$|適用しない[。」]?$")),
+    # 法律効果 (無効)。specific な文末表現。
     ("koka_mukou", re.compile(r"無効とする[。」]?$")),
+    # 法律効果 (取消)。「できる」を含むが kanou_kenri より先に「効果」として判定する。
     ("koka_torikeshi", re.compile(r"取り消すことができる[。」]?$")),
+    # 刑罰の文末 (処する/罰する)。specific。
     ("gimu_kei", re.compile(r"処する[。」]?$|の刑に処する[。」]?$|罰する[。」]?$")),
+    # 禁止・否定 (してはならない 等)。gimu より前に置き、否定形を義務と誤判定しない。
     (
         "gimu_negative",
         re.compile(
             r"罰しない[。」]?$|処罰しない[。」]?$|してはならない[。」]?$|してはいけない[。」]?$"
         ),
     ),
+    # 不能 (できない)。kanou_kenri (できる) より前に否定形を先取りする。
     ("kanou_negative", re.compile(r"することができない[。」]?$|できない[。」]?$")),
+    # 努力義務 (努めなければならない 等)。gimu の「なければならない」が誤包含するため gimu の前。
     (
         "doryoku_gimu",
         re.compile(r"努めなければならない[。」]?$|努めるものとする[。」]?$|努める[。」]?$"),
     ),
+    # 一般義務 (しなければならない/とする)。
     (
         "gimu",
         re.compile(
             r"しなければならない[。」]?$|なければならない[。」]?$|するものとする[。」]?$|とする[。」]?$"
         ),
     ),
+    # 権能・権利 (できる)。否定形を先に処理した後の肯定形。
     ("kanou_kenri", re.compile(r"することができる[。」]?$|ができる[。」]?$")),
+    # 定義条文 (をいう/という)。
     ("teigi", re.compile(r"をいう[。」]?$|という[。」]?$")),  # 定義条文
+    # 手続的義務 (通知/公示/提出 等)。一般的動詞で広く拾うため最後に判定。
     (
         "tetsuduki",
         re.compile(
