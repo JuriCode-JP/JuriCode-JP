@@ -364,7 +364,7 @@ except ValidationError as e:
 
 ---
 
-### [ ] FU-310: modality 優先順位 Why コメント追加 (2026-05-24 追加)
+### [x] FU-310: modality 優先順位 Why コメント追加 (2026-05-24 追加) — ✅ 完了 2026-05-31 (commit 695e6a11, main 4582a6ed)
 
 **場所**: `tools/parse/v0.2/segment_parser.py:48-79`. `MODALITY_PATTERNS` の優先順位コメントが「より specific を先に」のみで根拠なし.
 
