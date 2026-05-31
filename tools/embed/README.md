@@ -22,6 +22,24 @@ tools/embed/                  ← このディレクトリ
 BigQuery Vector Search / FAISS / pgvector 等
 ```
 
+## Retrieval 構成の推奨 (2026-05-31 ablation)
+
+**現行パラメータ (BM25 char 2-3gram + RRF k=60) における推奨構成は dense-only** です。
+
+ablation (2026-05-31, eval-set 172 queries):
+
+| 構成 | R@1 | R@3 | R@10 |
+|---|---|---|---|
+| dense-only | 59.3% | **72.7%** | 79.1% |
+| hybrid (BM25+dense RRF) | 39.0% | 57.6% | 76.2% |
+| hybrid + reranker | 44.2% | 57.6% | 69.8% |
+
+現行設定の hybrid は dense を劣化させ、cross-encoder reranker でも回復しません (R@3 は hybrid と同値、R@10 は悪化)。
+このため `--hybrid-bm25` / `--reranker` は **既定オフ・実験的扱い** とします。
+
+ただしこれは **現行の BM25 トークナイザ / RRF 融合パラメータにおける** 暫定結論です。トークナイザや融合比・k の
+是正により hybrid が dense を上回る余地はあります (`docs/follow-ups.md` FU-512)。
+
 ## 設計方針
 
 ### 1. 複数モデル対応

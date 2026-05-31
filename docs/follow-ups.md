@@ -410,7 +410,7 @@ except ValidationError as e:
 
 ---
 
-### [ ] FU-406: retrieve.py main を RetrievalPipeline クラスに分解 (2026-05-24 追加)
+### [x] FU-406: retrieve.py main を RetrievalPipeline クラスに分解 (2026-05-24 追加) — ✅ 完了 2026-05-31 (柱1-A, commit 6a5d39c2, main c8399333)
 
 **場所**: `tools/embed/retrieve.py:577-787` (main 211 行で 4 つの責務同居).
 
@@ -420,7 +420,7 @@ except ValidationError as e:
 
 ---
 
-### [ ] FU-407: `dedup_by_article` の unit test 追加 (2026-05-24 追加)
+### [x] FU-407: `dedup_by_article` の unit test 追加 (2026-05-24 追加) — ✅ 完了 2026-05-31 (柱1-A, test_retrieve.py 17 tests, commit 6a5d39c2, main c8399333)
 
 **場所**: `tools/embed/retrieve.py:542-574`. 既知事故 (f) の修正は入っているが test 0 件.
 
@@ -780,7 +780,7 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
-### [ ] FU-423: train-reranker.py docstring の `/home/masa/...` を HF model ID に (2026-05-24 追加)
+### [x] FU-423: train-reranker.py docstring の `/home/masa/...` を HF model ID に (2026-05-24 追加) — ✅ 完了 2026-05-31 (柱1-C, commit: 本PR merge 後追記)
 
 **場所**: `tools/finetune/train-reranker.py:10`. 環境固有パスを example に残すと AI が hard-code する.
 
@@ -790,7 +790,7 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
-### [ ] FU-424: train-reranker.py で fit 終了後に metrics サマリ出力 (2026-05-24 追加)
+### [x] FU-424: train-reranker.py で fit 終了後に metrics サマリ出力 (2026-05-24 追加) — ✅ 完了 2026-05-31 (柱1-C, commit: 本PR merge 後追記)
 
 **場所**: `tools/finetune/train-reranker.py:131`. 成功時 save パスのみ表示、metrics サマリなし.
 
@@ -800,7 +800,7 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
-### [ ] FU-425: retrieve.py hybrid + rerank 連動修正 (2026-05-24 追加)
+### [x] FU-425: retrieve.py hybrid + rerank 連動修正 (2026-05-24 追加) — ✅ 完了 2026-05-31 (柱1-B, commit 6a5d39c2, main c8399333 — ただし ablation で真因は hybrid 品質劣化と判明、FU-512 参照)
 
 **場所**: `tools/embed/retrieve.py:707-716`. `--hybrid-bm25 --reranker` 併用時、rerank が dense top-N しか見ず hybrid の RRF 結果が捨てられる.
 
@@ -1456,6 +1456,16 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 **やること**: 現状 feedback は per-question. per-result 評価が必要なら FeedbackEntry に rank/article_id を追加 (schema 拡張).
 
 **関連**: 柱5 Phase C/D。
+
+### [ ] FU-512: hybrid(BM25 char-ngram + RRF) 品質劣化が R@3 regression の真因 (2026-05-31 追加, P2)
+
+**場所**: `tools/embed/retrieve.py` の hybrid 経路 (BM25 char 2-3gram + dense の RRF k=60)。
+
+**問題**: 柱1-B ablation (2026-05-31, 172 queries) で dense-only R@3=72.7% に対し hybrid 57.6% / hybrid+rerank 57.6% と劣化。R@10 はほぼ不変 (79.1%→76.2%) なのに R@1/R@3 が崩壊 = BM25 ノイズが RRF 融合で正解条文を降格させ、cross-encoder reranker でも回復しない。R@3 regression の真因は FU-425 の受け渡しバグではなく hybrid 品質。
+
+**やること**: (a) 当面 hybrid/reranker を既定オフ維持 (dense-only 推奨)。(b) BM25 トークナイザ (char-ngram → 形態素/別 n-gram) / RRF 融合比・k の是正を検討し、hybrid が dense を上回るか再 ablation。
+
+**関連**: 柱1-B / `business/v03-pillar1-B-ablation-findings-2026-05-31.md` (gitignored)。
 
 > 備考: FU-418 (cosine top-k 共通化、search-ui が retrieve.py から import) は柱5 sprint では未実施 (open のまま). search-ui の _topk は retrieve.py と重複するが機能影響なし、refactor 案件.
 

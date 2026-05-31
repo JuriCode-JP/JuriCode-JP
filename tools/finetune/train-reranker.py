@@ -7,11 +7,13 @@ generate-training-data.py が生成した triple jsonl を使い、
 使い方:
   python tools/finetune/train-reranker.py \\
     --training-data data/training/2026-05-21-reranker-train.jsonl \\
-    --base-model /home/masa/models/japanese-reranker-cross-encoder-small-v1 \\
+    --base-model BAAI/bge-reranker-v2-m3 \\
     --output-dir ~/models/juricode-reranker-v0.1 \\
     --epochs 2 \\
     --batch-size 16 \\
     --learning-rate 2e-5
+
+注: --base-model は HF model id (例: BAAI/bge-reranker-v2-m3) / ローカルパス両対応。
 """
 
 from __future__ import annotations
@@ -127,6 +129,28 @@ def main():
         output_path=output_path,
         show_progress_bar=True,
     )
+
+    # FU-424: fit が output_path に書き出した dev 評価結果の最終行を表示 (再計算しない)。
+    # CSV 名は ST バージョン差があるため決め打ちせず glob、更新日時で真の最新を確定。
+    # Windows のファイルロック等で読めない場合もアナウンスにフォールバックしクラッシュさせない。
+    try:
+        _eval_csvs = sorted(
+            Path(output_path).rglob("*results*.csv"), key=lambda f: f.stat().st_mtime
+        )
+        if _eval_csvs:
+            _latest = _eval_csvs[-1]
+            _lines = [ln for ln in _latest.read_text(encoding="utf-8").splitlines() if ln.strip()]
+            _msg = _lines[-1] if _lines else "(empty)"
+            print(f"=== dev eval (final, {_latest.name}): {_msg} ===", file=sys.stderr)
+        else:
+            print(
+                f"=== dev eval results: {output_path} 配下の eval CSV を参照 ===", file=sys.stderr
+            )
+    except Exception as _e:
+        print(
+            f"=== dev eval サマリ読取スキップ ({type(_e).__name__}); {output_path} 配下を参照 ===",
+            file=sys.stderr,
+        )
 
     print(f"\n=== Saved model to {output_path} ===", file=sys.stderr)
 
