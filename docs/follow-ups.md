@@ -780,7 +780,7 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
-### [x] FU-423: train-reranker.py docstring の `/home/masa/...` を HF model ID に (2026-05-24 追加) — ✅ 完了 2026-05-31 (柱1-C, commit: 本PR merge 後追記)
+### [x] FU-423: train-reranker.py docstring の `/home/masa/...` を HF model ID に (2026-05-24 追加) — ✅ 完了 2026-05-31 (柱1-C, commit a619bb64)
 
 **場所**: `tools/finetune/train-reranker.py:10`. 環境固有パスを example に残すと AI が hard-code する.
 
@@ -790,7 +790,7 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
-### [x] FU-424: train-reranker.py で fit 終了後に metrics サマリ出力 (2026-05-24 追加) — ✅ 完了 2026-05-31 (柱1-C, commit: 本PR merge 後追記)
+### [x] FU-424: train-reranker.py で fit 終了後に metrics サマリ出力 (2026-05-24 追加) — ✅ 完了 2026-05-31 (柱1-C, commit a619bb64)
 
 **場所**: `tools/finetune/train-reranker.py:131`. 成功時 save パスのみ表示、metrics サマリなし.
 
