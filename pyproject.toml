@@ -96,6 +96,8 @@ testpaths = [
     # 必要で、各 test ファイル内で sys.path manipulation を行う pattern.
     "tools/parse/v0.2/tests",
     "tools/parse/v0.2/manifest/tests",
+    # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
+    "tools/embed/tests",
 ]
 pythonpath = [
     "tools/shared/src",

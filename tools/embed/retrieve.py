@@ -397,22 +397,31 @@ def rerank_with_cross_encoder(
 
 
 def rrf_combine_per_query(dense_top_idx, bm25_top_idx, top_k, k_rrf=60):
-    """各クエリで dense top-N と bm25 top-N を RRF で結合し top-K を返す."""
+    """各クエリで dense top-N と bm25 top-N を RRF で結合し top-K を返す.
+
+    負 index (-1 padding) は寄与させず skip する (B7: 片側 0 件でも NaN・負 index 混入なし)。
+    同率スコアは index 昇順で tie-break して決定的にする (B8)。scores のキーは int(idx) で
+    構築するため (-score, index) タプル比較は型安全 (str/UUID 混入経路なし)。
+    """
     import numpy as np  # lazy import (FU-506)
 
     n_queries = dense_top_idx.shape[0]
-    combined = np.zeros((n_queries, top_k), dtype=np.int64)
+    combined = np.full((n_queries, top_k), -1, dtype=np.int64)
     for qi in range(n_queries):
-        scores = {}
+        scores: dict[int, float] = {}
         for rank, idx in enumerate(dense_top_idx[qi], 1):
-            scores[int(idx)] = scores.get(int(idx), 0.0) + 1.0 / (k_rrf + rank)
+            i = int(idx)
+            if i < 0:
+                continue
+            scores[i] = scores.get(i, 0.0) + 1.0 / (k_rrf + rank)
         for rank, idx in enumerate(bm25_top_idx[qi], 1):
-            scores[int(idx)] = scores.get(int(idx), 0.0) + 1.0 / (k_rrf + rank)
-        sorted_indices = sorted(scores.keys(), key=lambda x: -scores[x])[:top_k]
-        # pad if fewer than top_k
-        while len(sorted_indices) < top_k:
-            sorted_indices.append(-1)
-        combined[qi] = sorted_indices[:top_k]
+            i = int(idx)
+            if i < 0:
+                continue
+            scores[i] = scores.get(i, 0.0) + 1.0 / (k_rrf + rank)
+        sorted_indices = sorted(scores.keys(), key=lambda x: (-scores[x], x))[:top_k]
+        for j, idx_int in enumerate(sorted_indices):
+            combined[qi, j] = idx_int
     return combined
 
 
@@ -589,6 +598,83 @@ def dedup_by_article(top_idx_wide, article_ids, k):
     return out
 
 
+class RetrievalPipeline:
+    """Retrieval の各段 (dense / hybrid / dedup / rerank / metrics) を集約するクラス (FU-406).
+
+    LAZY 規律 (計画 §3.2): __init__ とモジュールレベルで torch / sentence_transformers を
+    import しない (cold start 再発防止)。重い import は rerank メソッド内に局所化し、
+    dense_retrieve / hybrid_combine / dedup_by_article / select_rerank_candidates /
+    aggregate_metrics は torch 非依存の純関数として sandbox unit test 可能にする。
+    """
+
+    def __init__(self, state: dict, records: list[dict]):
+        self.state = state
+        self.records = records
+        self.article_ids = [r.get("article_id") for r in records]
+        self.law_name_ja = [r.get("law_name_ja") for r in records]
+        self.article_number = [r.get("article_number") for r in records]
+
+    def dense_retrieve(self, query_matrix, corpus_matrix, top_k):
+        """cosine 類似度で各 query の top-K segment を返す (sims, top_idx)。torch 非依存。"""
+        return _cosine_topk(query_matrix, corpus_matrix, top_k)
+
+    def hybrid_combine(self, dense_top_idx, bm25_top_idx, top_k, rrf_k=60):
+        """dense と bm25 の rank list を RRF で結合し top-K を返す。torch 非依存。"""
+        return rrf_combine_per_query(dense_top_idx, bm25_top_idx, top_k, k_rrf=rrf_k)
+
+    def dedup_by_article(self, top_idx_wide, k):
+        """同一 article の重複 segment を除去し代表 (最上位 rank) のみ残す。torch 非依存。"""
+        return dedup_by_article(top_idx_wide, self.article_ids, k)
+
+    def select_rerank_candidates(self, dense_top_idx, top_idx_wide, hybrid_on, n_candidates, top_k):
+        """rerank に渡す candidate を選ぶ (FU-425 の候補選択を 1 箇所に局所化)。torch 非依存。
+
+        柱1-B 修正 (FU-425): hybrid on なら hybrid 後集合 (RRF = top_idx_wide) の上位
+        rerank_candidate_k 件を candidate にする (既定挙動、flag なし)。hybrid off は従来どおり
+        dense top-N。top_idx_wide の列数は main 側で rerank_candidate_k 以上に補正済。
+        スライスは列数に従うため実ヒット < k でも安全 (矩形維持・IndexError なし)。
+        """
+        k = max(n_candidates, top_k)
+        if hybrid_on:
+            return top_idx_wide[:, :k]
+        return dense_top_idx[:, :k]
+
+    def rerank(
+        self, questions, candidates, corpus_texts, top_k, model_name="BAAI/bge-reranker-v2-m3"
+    ):
+        """cross-encoder で candidate を re-rank。重い import はこのメソッド内のみ (LAZY 規律)。"""
+        return rerank_with_cross_encoder(
+            questions, candidates, corpus_texts, top_k, model_name=model_name
+        )
+
+    def aggregate_metrics(self, top_idx, expected_per_query):
+        """top_idx と各 query の expected 集合から R@1/3/10, MRR を計算 (純関数, torch 非依存)。"""
+        ranks = []
+        recall_1 = recall_3 = recall_10 = 0
+        for qi, expected in enumerate(expected_per_query):
+            idx_row = top_idx[qi]
+            top_ids = [self.article_ids[i] if i >= 0 else None for i in idx_row]
+            rank = _rank_of_first_match(top_ids, expected)
+            ranks.append(rank)
+            if rank is not None:
+                if rank <= 1:
+                    recall_1 += 1
+                if rank <= 3:
+                    recall_3 += 1
+                if rank <= 10:
+                    recall_10 += 1
+        n = len(expected_per_query)
+        mrr = sum((1.0 / r) if r is not None else 0.0 for r in ranks) / n if n else 0.0
+        return {
+            "n": n,
+            "recall_1": recall_1,
+            "recall_3": recall_3,
+            "recall_10": recall_10,
+            "mrr": mrr,
+            "ranks": ranks,
+        }
+
+
 def main():
     ap = argparse.ArgumentParser(description="Top-K retrieval test on JuriCode-JP.")
     ap.add_argument("--embedded", type=Path, required=True)
@@ -671,17 +757,21 @@ def main():
 
     print("", file=sys.stderr)
 
-    # article_ids を先に展開 (dedup_by_article で使う)
-    article_ids = [r.get("article_id") for r in records]
+    # FU-406: RetrievalPipeline に責務を集約 (article_ids 展開・各段の retrieval)
+    pipeline = RetrievalPipeline(state, records)
+    article_ids = pipeline.article_ids
 
-    # Dense retrieval -- dedup_by_article 時は候補プールを広めに取る
-    candidate_pool = max(args.top_k * 10, 100) if args.dedup_by_article else max(args.top_k * 3, 30)
+    # Dense retrieval -- dedup_by_article 時は候補プールを広めに取る。
+    # reranker on のときは rerank candidate (rerank_candidate_k) を賄える幅を母集団決定時点で保証 (FU-425/§5-3)。
+    rerank_k = max(args.reranker_candidates, args.top_k) if args.reranker else 0
+    base_pool = max(args.top_k * 10, 100) if args.dedup_by_article else max(args.top_k * 3, 30)
+    candidate_pool = max(base_pool, rerank_k)
     query_matrix = _encode_queries(questions, state)
-    dense_sims, dense_top_idx = _cosine_topk(query_matrix, matrix, candidate_pool)
+    dense_sims, dense_top_idx = pipeline.dense_retrieve(query_matrix, matrix, candidate_pool)
 
     # Hybrid (BM25 + Dense via RRF)
     # dedup_by_article 併用時は wide な候補を維持して後段 dedup に渡す
-    wide_pool = max(args.top_k * 10, 100) if args.dedup_by_article else max(args.top_k * 3, 30)
+    wide_pool = candidate_pool
     if args.hybrid_bm25:
         if not args.bm25_corpus:
             sys.exit("ERROR: --hybrid-bm25 requires --bm25-corpus <path>")
@@ -690,13 +780,14 @@ def main():
         _bm25_sims, bm25_top_idx = bm25_topk_per_query(
             questions, index_info, tfidf_matrix, wide_pool
         )
-        # RRF combine -- dedup する場合は wide な top_idx_wide を出力
+        # RRF combine -- dedup / reranker 時は wide な top_idx_wide を出力 (rerank_candidate_k 以上を保証)
         result_k = wide_pool if args.dedup_by_article else args.top_k
-        top_idx_wide = rrf_combine_per_query(
+        result_k = max(result_k, rerank_k)
+        top_idx_wide = pipeline.hybrid_combine(
             dense_top_idx[:, :wide_pool],
             bm25_top_idx,
             result_k,
-            k_rrf=args.rrf_k,
+            rrf_k=args.rrf_k,
         )
         top_idx = top_idx_wide[:, : args.top_k]
         sims = dense_sims  # for display
@@ -707,7 +798,7 @@ def main():
 
     # Article-level dedup -- hybrid 適用後の top_idx_wide を使う (バグ修正 2026-05-22)
     if args.dedup_by_article:
-        top_idx = dedup_by_article(top_idx_wide, article_ids, args.top_k)
+        top_idx = pipeline.dedup_by_article(top_idx_wide, args.top_k)
         print(
             f"  [dedup-by-article] top-{args.top_k} = {args.top_k} unique articles", file=sys.stderr
         )
@@ -719,10 +810,22 @@ def main():
             sys.exit("ERROR: --reranker requires --reranker-corpus (or --bm25-corpus) <path>")
         print(f"Loading corpus texts from {reranker_corpus_path} ...", file=sys.stderr)
         corpus_texts = _load_corpus_texts(reranker_corpus_path)
-        # Take dense top-N (e.g. 30) as candidates, then rerank to top-K
-        n_candidates = args.reranker_candidates
-        candidates = dense_top_idx[:, : max(n_candidates, args.top_k)]
-        top_idx = rerank_with_cross_encoder(
+        if args.dedup_by_article:
+            # dedup モード: rerank 前に各記事トップチャンク1件のみ残し、ユニーク記事を
+            # rerank_candidate_k 件集めてから rerank (RRF 上位が1記事のチャンクで偏った際の
+            # 出力枯渇 2-1 を構造的に防止)。
+            candidates = pipeline.dedup_by_article(top_idx_wide, rerank_k)
+        else:
+            # FU-425 の candidate 選択を 1 箇所に局所化 (select_rerank_candidates)。
+            # hybrid on なら hybrid 後集合 (top_idx_wide) の上位 rerank_candidate_k 件を candidate に。
+            candidates = pipeline.select_rerank_candidates(
+                dense_top_idx,
+                top_idx_wide,
+                hybrid_on=args.hybrid_bm25,
+                n_candidates=args.reranker_candidates,
+                top_k=args.top_k,
+            )
+        top_idx = pipeline.rerank(
             questions,
             candidates,
             corpus_texts,
@@ -731,34 +834,25 @@ def main():
         )
         sims = dense_sims  # for display
 
-    # article_ids は既に上で展開済
-    law_name_ja = [r.get("law_name_ja") for r in records]
-    article_number = [r.get("article_number") for r in records]
+    # article_ids は既に上で展開済 (pipeline.article_ids)
+    law_name_ja = pipeline.law_name_ja
+    article_number = pipeline.article_number
 
-    ranks = []
-    recall_1 = recall_3 = recall_10 = 0
+    expected_per_query = [set(q["expected_article_ids"]) for q in queries]
+    metrics = pipeline.aggregate_metrics(top_idx, expected_per_query)
+    n = metrics["n"]
+    if n == 0:
+        return 1
+    ranks = metrics["ranks"]
 
-    for qi, q in enumerate(queries):
-        question = questions[qi]
-        expected = set(q["expected_article_ids"])
-        idx_row = top_idx[qi]
-        top_ids = [article_ids[i] if i >= 0 else None for i in idx_row]
-
-        rank = _rank_of_first_match(top_ids, expected)
-        ranks.append(rank)
-
-        if rank is not None:
-            if rank <= 1:
-                recall_1 += 1
-            if rank <= 3:
-                recall_3 += 1
-            if rank <= 10:
-                recall_10 += 1
-
-        if args.show_per_query:
+    if args.show_per_query:
+        for qi, q in enumerate(queries):
+            question = questions[qi]
+            expected = expected_per_query[qi]
+            idx_row = top_idx[qi]
             print(f"=== {q['id']}: {question}", file=sys.stderr)
             print(f"   expected: {sorted(expected)}", file=sys.stderr)
-            print(f"   first match rank: {rank}", file=sys.stderr)
+            print(f"   first match rank: {ranks[qi]}", file=sys.stderr)
             for i, idx in enumerate(idx_row[:5], 1):
                 if idx < 0:
                     continue
@@ -773,17 +867,13 @@ def main():
                 )
             print("", file=sys.stderr)
 
-    n = len(queries)
-    if n == 0:
-        return 1
-    mrr = sum((1.0 / r) if r is not None else 0.0 for r in ranks) / n
-
+    recall_1, recall_3, recall_10 = metrics["recall_1"], metrics["recall_3"], metrics["recall_10"]
     print("=== Aggregate metrics ===", file=sys.stderr)
     print(f"  N (queries)  : {n}", file=sys.stderr)
     print(f"  Recall@1     : {recall_1}/{n} = {recall_1 / n:.1%}", file=sys.stderr)
     print(f"  Recall@3     : {recall_3}/{n} = {recall_3 / n:.1%}", file=sys.stderr)
     print(f"  Recall@10    : {recall_10}/{n} = {recall_10 / n:.1%}", file=sys.stderr)
-    print(f"  MRR          : {mrr:.3f}", file=sys.stderr)
+    print(f"  MRR          : {metrics['mrr']:.3f}", file=sys.stderr)
 
     # Settings tag for log-friendliness
     settings: list[str] = []
