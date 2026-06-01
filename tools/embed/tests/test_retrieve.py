@@ -14,6 +14,7 @@ Coverage:
 
 from __future__ import annotations
 
+import json
 import sys
 from pathlib import Path
 
@@ -24,6 +25,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from retrieve import (  # noqa: E402
     RetrievalPipeline,
+    _write_metrics_output,
     dedup_by_article,
     rrf_combine_per_query,
 )
@@ -213,3 +215,34 @@ def test_aggregate_metrics_recall_and_mrr():
     assert m["recall_10"] == 2
     assert abs(m["mrr"] - 0.75) < 1e-9  # (1/2 + 1/1) / 2
     assert m["ranks"] == [2, 1]
+
+
+# ============================================================
+# _write_metrics_output (FU-512 Phase 0: --output-file opt-in / makedirs / BOM なし)
+# ============================================================
+
+
+def test_write_metrics_output_creates_dir_and_bomless_json(tmp_path):
+    out_path = tmp_path / "sub" / "dir" / "metrics.json"  # 親ディレクトリは存在しない
+    metrics = {"n": 10, "recall_1": 5, "recall_3": 7, "recall_10": 9, "mrr": 0.6, "ranks": []}
+    settings = ["hybrid-bm25(rrf-k=60)"]
+    ret = _write_metrics_output(out_path, metrics, settings)
+    # 親ディレクトリ自動生成 + ファイル作成 (FileNotFoundError なし)
+    assert out_path.exists()
+    # BOM なし (utf-8, not utf-8-sig)
+    raw = out_path.read_bytes()
+    assert not raw.startswith(b"\xef\xbb\xbf")
+    data = json.loads(raw.decode("utf-8"))
+    assert data["n"] == 10
+    assert data["recall_at_3_count"] == 7
+    assert abs(data["recall_at_3"] - 0.7) < 1e-9
+    assert data["settings"] == ["hybrid-bm25(rrf-k=60)"]
+    assert ret["recall_at_3"] == data["recall_at_3"]
+
+
+def test_write_metrics_output_handles_zero_n(tmp_path):
+    out_path = tmp_path / "m.json"
+    metrics = {"n": 0, "recall_1": 0, "recall_3": 0, "recall_10": 0, "mrr": 0.0, "ranks": []}
+    ret = _write_metrics_output(out_path, metrics, [])
+    assert ret["recall_at_3"] == 0.0  # ゼロ除算なし
+    assert out_path.exists()

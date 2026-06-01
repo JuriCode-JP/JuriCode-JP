@@ -675,6 +675,33 @@ class RetrievalPipeline:
         }
 
 
+def _write_metrics_output(output_file, metrics, settings):
+    """metrics を UTF-8 (BOM なし) JSON でファイル出力 (FU-512 Phase 0, --output-file).
+
+    opt-in・additive: --output-file 指定時のみ呼ばれ、stderr 出力には影響しない。
+    親ディレクトリが無くても os.makedirs(exist_ok=True) で自動生成し FileNotFoundError を防ぐ。
+    Python の "utf-8" は BOM を書かない (utf-8-sig ではない) ため shell encoding に依存しない。
+    """
+    n = metrics["n"]
+    out = {
+        "n": n,
+        "recall_at_1": metrics["recall_1"] / n if n else 0.0,
+        "recall_at_3": metrics["recall_3"] / n if n else 0.0,
+        "recall_at_10": metrics["recall_10"] / n if n else 0.0,
+        "recall_at_1_count": metrics["recall_1"],
+        "recall_at_3_count": metrics["recall_3"],
+        "recall_at_10_count": metrics["recall_10"],
+        "mrr": metrics["mrr"],
+        "settings": list(settings),
+    }
+    parent = os.path.dirname(str(output_file))
+    os.makedirs(parent or ".", exist_ok=True)
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description="Top-K retrieval test on JuriCode-JP.")
     ap.add_argument("--embedded", type=Path, required=True)
@@ -728,6 +755,12 @@ def main():
         "--dedup-by-article",
         action="store_true",
         help="v0.2 segment retrieval を article-level Recall として測定 (同じ article の重複 segment を 1 つにまとめる)",
+    )
+    ap.add_argument(
+        "--output-file",
+        type=Path,
+        default=None,
+        help="metrics を UTF-8(BOMなし) JSON で書き出す (opt-in・additive、stderr 出力は不変)",
     )
     args = ap.parse_args()
 
@@ -887,6 +920,10 @@ def main():
         settings.append("dedup-by-article")
     if settings:
         print(f"  Settings     : {','.join(settings)}", file=sys.stderr)
+
+    # FU-512 Phase 0: opt-in・additive な metrics ファイル出力 (stderr 出力は上で不変)
+    if args.output_file:
+        _write_metrics_output(args.output_file, metrics, settings)
 
     return 0
 
