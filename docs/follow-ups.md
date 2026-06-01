@@ -1467,6 +1467,18 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **関連**: 柱1-B / `business/v03-pillar1-B-ablation-findings-2026-05-31.md` (gitignored)。
 
+### [ ] FU-513: 正準テキスト正規化を juricode_shared に集約 (2026-05-31 追加, P2)
+
+**場所**: クエリ側 `tools/embed/retrieve.py` (`normalize_legal_query`/`_tokenize_chargram`) / corpus 側 `tools/embed/build-v0.2-corpus.py` (`make_augmented_text`) / parser 側 (FU-205/405 の markdown_regex)。
+
+**問題**: テキスト正規化が各所でバラバラ (クエリ/corpus/書込/parser) で、新検索コンポーネント (dense→BM25→reranker→形態素) を足すたびに「テキストが汚い」を再発見する**再発クラス** (FU-512 §10)。dense は改行/空白ノイズを吸収するが BM25 char-ngram は吸収せず、同一 `text` を共有するため BM25 でのみ顕在化。
+
+**やること**: 正準正規化契約 (改行/空白/全角半角/漢数字/BOM 等) を `tools/shared/src/juricode_shared/` に1箇所定義し、クエリ側・BM25 側・(将来) 形態素側が同一契約を使う。FU-205/405 (markdown_regex 共有化) と統合検討。
+
+**破壊的変更注意**: corpus の canonical text を変える場合、現 dense 埋め込み (`build/*.npy`) とベンチ結果は現テキストに紐づくため**再埋め込み + ベンチ再測定が必須**。
+
+**関連**: FU-512 §10 / FU-205 / FU-405 / `business/v03-fu512-hybrid-bm25-plan-2026-05-31.md` (gitignored)。
+
 > 備考: FU-418 (cosine top-k 共通化、search-ui が retrieve.py から import) は柱5 sprint では未実施 (open のまま). search-ui の _topk は retrieve.py と重複するが機能影響なし、refactor 案件.
 
 ---
