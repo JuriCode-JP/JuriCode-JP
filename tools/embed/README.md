@@ -37,8 +37,8 @@ ablation (2026-05-31, eval-set 172 queries):
 現行設定の hybrid は dense を劣化させ、cross-encoder reranker でも回復しません (R@3 は hybrid と同値、R@10 は悪化)。
 このため `--hybrid-bm25` / `--reranker` は **既定オフ・実験的扱い** とします。
 
-ただしこれは **現行の BM25 トークナイザ / RRF 融合パラメータにおける** 暫定結論です。トークナイザや融合比・k の
-是正により hybrid が dense を上回る余地はあります (`docs/follow-ups.md` FU-512)。
+**FU-512 ablation (2026-05-31) で確定**: hybrid は全 RRF k (10〜200) で dense を下回り (最良 k=10 でも -10pt)、逐語型クエリでも悪化した。
+よって **dense-only を正式既定**とする。BM25 char-ngram / RRF / 正規化の抜本是正による hybrid 再評価は FU-513 (正準テキスト正規化の集約) に委譲する。
 
 ## 設計方針
 

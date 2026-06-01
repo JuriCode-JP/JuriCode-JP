@@ -1457,7 +1457,7 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **関連**: 柱5 Phase C/D。
 
-### [ ] FU-512: hybrid(BM25 char-ngram + RRF) 品質劣化が R@3 regression の真因 (2026-05-31 追加, P2)
+### [x] FU-512: hybrid(BM25 char-ngram + RRF) 品質劣化が R@3 regression の真因 (2026-05-31 追加, P2) — ✅ 結論 2026-05-31 (Phase A ablation): hybrid は全 RRF k で dense に -10pt・逐語型 (kinsho) も悪化 → **dense-only 正式既定で close**。BM25/正規化の抜本是正による hybrid 再評価は FU-513 へ委譲。詳細 `business/v03-fu512-hybrid-bm25-plan-2026-05-31.md` §9。
 
 **場所**: `tools/embed/retrieve.py` の hybrid 経路 (BM25 char 2-3gram + dense の RRF k=60)。
 
