@@ -1,0 +1,39 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: '93'
+article_id: shotoku-zei-hou-shikkourei-art-93
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 1
+  shou_name_ja: 第一章　課税標準の計算
+  setsu: 3
+  setsu_name_ja: 第三節　収入金額の計算
+---
+
+# 所得税法施行令 第93条(（収用に類するやむを得ない事由）)
+
+## 原文 (日本語)
+
+### 第九十三条
+
+法第四十四条（移転等の支出に充てるための交付金の総収入金額不算入）に規定する政令で定めるやむを得ない事由は、租税特別措置法第三十三条第一項各号（収用等に伴い代替資産を取得した場合の課税の特例）に規定する収用、買取り、換地処分、権利変換、買収若しくは権利の消滅、同条第四項第一号に規定する土地収用法等の規定に基づく使用、同項第二号に規定する事由に基づく同号に規定する資産の取壊し若しくは除去若しくは同項第三号に規定する事由に基づく同号に規定する資産の除却又はマンションの再生等の円滑化に関する法律（平成十四年法律第七十八号）第十五条の二第二項（賃貸借の終了請求）（同法第十五条の四第一項（配偶者居住権の消滅請求）において準用する場合を含む。）、第百二十二条第二項（賃貸借の終了請求）（同法第百二十四条第一項（配偶者居住権の消滅請求）において準用する場合を含む。）若しくは第百六十三条の十五第二項（賃貸借の終了請求）（同法第百六十三条の十七第一項（配偶者居住権の消滅請求）において準用する場合を含む。）の規定による賃貸借の終了若しくは配偶者居住権の消滅とする。

@@ -1,0 +1,45 @@
+---
+law_id: 325CO0000000245
+law_name_ja: 地方税法施行令
+law_name_en: (English name pending)
+article_number: 48-9-4
+article_id: chihou-zei-hou-shikkourei-art-48-9-4
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325CO0000000245
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　市町村の普通税
+  setsu: 1
+  setsu_name_ja: 第一節　市町村民税
+---
+
+# 地方税法施行令 第48-9-4条(（配当割額又は株式等譲渡所得割額の控除不足額の還付）)
+
+## 原文 (日本語)
+
+### 第四十八条の九の四第一項
+
+市町村長は、控除不足額のうち前条第一項及び第三項の規定による納付又は納入をすることができなかつた部分の金額があるときは、当該金額を還付するものとする。
+
+### 第四十八条の九の四第二項
+
+市町村長は、前項の規定による還付をしたときは、遅滞なく、その旨を当該還付に係る納税義務者に通知しなければならない。

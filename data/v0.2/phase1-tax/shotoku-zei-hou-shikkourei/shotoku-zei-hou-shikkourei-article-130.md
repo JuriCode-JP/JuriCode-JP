@@ -1,0 +1,229 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: '130'
+article_id: shotoku-zei-hou-shikkourei-art-130
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p1-hashira
+    type: hashira
+    text: 青色申告書を提出する居住者は、その有する減価償却資産が次に掲げる事由のいずれかに該当する場合において、その該当する減価償却資産の使用可能期間のうちいまだ経過していない期間（以下この項から第四項までにおいて「未経過使用可能期間」という。）を基礎としてその償却費の額を計算することについて納税地の所轄国税局長の承認を受けたときは、当該資産のその承認を受けた日の属する年分以後の各年分の償却費の額の計算については、その承認に係る未経過使用可能期間をもつて前条に規定する財務省令で定める耐用年数（以下この項において「法定耐用年数」という。）とみなす。
+    modality: unspecified
+    references:
+    - 前条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p2
+    type: simple
+    text: 前項の承認を受けようとする居住者は、同項の規定の適用を受けようとする減価償却資産の種類及び名称、その所在する場所、その使用可能期間、その未経過使用可能期間その他財務省令で定める事項を記載した申請書に当該資産が前項各号に掲げる事由のいずれかに該当することを証する書類を添付し、納税地の所轄税務署長を経由して、これを納税地の所轄国税局長に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p3
+    type: simple
+    text: 国税局長は、前項の申請書の提出があつた場合には、遅滞なく、これを審査し、その申請に係る減価償却資産の使用可能期間及び未経過使用可能期間を認め、若しくはその使用可能期間及び未経過使用可能期間を定めて第一項の承認をし、又はその申請を却下する。
+    modality: unspecified
+    references:
+    - 前項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p4
+    type: simple
+    text: 国税局長は、第一項の承認をした後、その承認に係る未経過使用可能期間により同項の減価償却資産の償却費の額の計算をすることを不適当とする特別の事由が生じたと認める場合には、その承認を取り消し、又はその承認に係る使用可能期間及び未経過使用可能期間を伸長することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p5
+    type: simple
+    text: 国税局長は、前二項の処分をするときは、その処分に係る居住者に対し、書面によりその旨を通知する。
+    modality: tetsuduki
+    references:
+    - 前二項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p6
+    type: simple
+    text: 第三項の承認の処分又は第四項の処分があつた場合には、その処分のあつた日の属する年分以後の各年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額を計算する場合のその処分に係る減価償却資産の償却費の額の計算についてその処分の効果が生ずるものとする。
+    modality: gimu
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p7-zen
+    type: zen_dan
+    text: 青色申告書を提出する居住者が、その有する第一項の承認に係る減価償却資産の一部についてこれに代わる新たな資産（以下この項において「更新資産」という。）と取り替えた場合その他の財務省令で定める場合において、当該更新資産を取得した日の属する年分の所得税に係る確定申告期限までに、当該更新資産の名称、その所在する場所その他財務省令で定める事項を記載した届出書を納税地の所轄税務署長を経由して納税地の所轄国税局長に提出したときは、当該届出書をもつて第二項の申請書とみなし、当該届出書の提出をもつて同日の属する年の十二月三十一日（その者が年の中途において死亡し又は出国をした場合には、その死亡又は出国の時。次項において同じ。）において第一項の承認があつたものとみなす。
+    modality: unspecified
+    references:
+    - 次項
+  - id: shotoku-zei-hou-shikkourei-art-130-p7-kou
+    type: kou_dan
+    text: この場合においては、第五項の規定は、適用しない。
+    modality: jogai
+    depends_on: shotoku-zei-hou-shikkourei-art-130-p7-zen
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p8-zen
+    type: zen_dan
+    text: 青色申告書を提出する居住者が、その有する第一項の承認（同項第一号に掲げる事由による承認その他財務省令で定める事由による承認に限る。）に係る減価償却資産と材質又は製作方法を同じくする減価償却資産（当該財務省令で定める事由による承認の場合には、財務省令で定める減価償却資産）を取得した場合において、その取得した日の属する年分の所得税に係る確定申告期限までに、その取得した減価償却資産の名称、その所在する場所その他財務省令で定める事項を記載した届出書を納税地の所轄税務署長を経由して納税地の所轄国税局長に提出したときは、当該届出書をもつて第二項の申請書とみなし、当該届出書の提出をもつて同日の属する年の十二月三十一日において第一項の承認があつたものとみなす。
+    modality: unspecified
+    references:
+    - 同項
+  - id: shotoku-zei-hou-shikkourei-art-130-p8-kou
+    type: kou_dan
+    text: この場合においては、第五項の規定は、適用しない。
+    modality: jogai
+    depends_on: shotoku-zei-hou-shikkourei-art-130-p8-zen
+- number: 9
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p9
+    type: simple
+    text: 青色申告書を提出する居住者が、その有する減価償却資産につき第一項の承認を受けた場合には、当該資産の第百二十条第一項第一号イ（１）若しくは第三号ハ又は第百二十条の二第一項第一号イ（１）若しくは第三号イ（２）若しくは第二項第一号（減価償却資産の償却の方法）に規定する取得価額には、当該資産の償却費として当該資産につきその承認を受けた日の属する年の前年分以前の各年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額の計算上必要経費に算入された金額の累積額を含まないものとする。
+    modality: gimu
+- number: 10
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p10
+    type: junyou
+    text: 第百三十四条第二項（減価償却資産の償却累積額による償却費の特例）の規定は、第一項の承認に係る減価償却資産（そのよるべき償却の方法として定率法を採用しているものに限る。）につきその承認を受けた日の属する年分において同項の規定を適用しないで計算した第百二十条の二第二項第二号イに規定する調整前償却額が前項の規定を適用しないで計算した同条第二項第一号に規定する償却保証額に満たない場合について準用する。この場合において、第百三十四条第二項中「同号イ又はハに定める金額及び」とあるのは「承認前償却累積額（第百三十条第九項の規定により取得価額に含まないものとされる金額をいう。）及び」と、「五で」とあるのは「第百三十条第一項に規定する未経過使用可能期間の年数で」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+- number: 11
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-130-p11-zen
+    type: zen_dan
+    text: 第一項の承認を受けた居住者が青色申告書の提出の承認を取り消され、又は青色申告書による申告をやめる旨の届出書の提出をした場合には、同項の承認は、その青色申告書の提出の承認の取消しの基因となつた事実のあつた日の属する年又はそのやめた年の一月一日においてその効力を失うものとする。
+    modality: gimu
+    references:
+    - 同項
+  - id: shotoku-zei-hou-shikkourei-art-130-p11-kou
+    type: kou_dan
+    text: この場合において、同日以後に同項の承認を受けたときは、その承認は、なかつたものとみなす。
+    modality: unspecified
+    references:
+    - 同項
+    depends_on: shotoku-zei-hou-shikkourei-art-130-p11-zen
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 1
+  shou_name_ja: 第一章　課税標準の計算
+  setsu: 4
+  setsu_name_ja: 第四節　必要経費等の計算
+  kan: 4
+  kan_name_ja: 第四款　減価償却資産の償却
+  moku: 2
+  moku_name_ja: 第二目　減価償却資産の取得価額等
+---
+
+# 所得税法施行令 第130条(（耐用年数の短縮）)
+
+## 原文 (日本語)
+
+### 第百三十条第一項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-130-p1-hashira -->
+青色申告書を提出する居住者は、その有する減価償却資産が次に掲げる事由のいずれかに該当する場合において、その該当する減価償却資産の使用可能期間のうちいまだ経過していない期間（以下この項から第四項までにおいて「未経過使用可能期間」という。）を基礎としてその償却費の額を計算することについて納税地の所轄国税局長の承認を受けたときは、当該資産のその承認を受けた日の属する年分以後の各年分の償却費の額の計算については、その承認に係る未経過使用可能期間をもつて前条に規定する財務省令で定める耐用年数（以下この項において「法定耐用年数」という。）とみなす。
+
+### 第百三十条第二項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-130-p2 -->
+前項の承認を受けようとする居住者は、同項の規定の適用を受けようとする減価償却資産の種類及び名称、その所在する場所、その使用可能期間、その未経過使用可能期間その他財務省令で定める事項を記載した申請書に当該資産が前項各号に掲げる事由のいずれかに該当することを証する書類を添付し、納税地の所轄税務署長を経由して、これを納税地の所轄国税局長に提出しなければならない。
+
+### 第百三十条第三項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-130-p3 -->
+国税局長は、前項の申請書の提出があつた場合には、遅滞なく、これを審査し、その申請に係る減価償却資産の使用可能期間及び未経過使用可能期間を認め、若しくはその使用可能期間及び未経過使用可能期間を定めて第一項の承認をし、又はその申請を却下する。
+
+### 第百三十条第四項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-130-p4 -->
+国税局長は、第一項の承認をした後、その承認に係る未経過使用可能期間により同項の減価償却資産の償却費の額の計算をすることを不適当とする特別の事由が生じたと認める場合には、その承認を取り消し、又はその承認に係る使用可能期間及び未経過使用可能期間を伸長することができる。
+
+### 第百三十条第五項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-130-p5 -->
+国税局長は、前二項の処分をするときは、その処分に係る居住者に対し、書面によりその旨を通知する。
+
+### 第百三十条第六項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-130-p6 -->
+第三項の承認の処分又は第四項の処分があつた場合には、その処分のあつた日の属する年分以後の各年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額を計算する場合のその処分に係る減価償却資産の償却費の額の計算についてその処分の効果が生ずるものとする。
+
+### 第百三十条第七項
+
+<!-- segment: zen_dan id: shotoku-zei-hou-shikkourei-art-130-p7-zen -->
+青色申告書を提出する居住者が、その有する第一項の承認に係る減価償却資産の一部についてこれに代わる新たな資産（以下この項において「更新資産」という。）と取り替えた場合その他の財務省令で定める場合において、当該更新資産を取得した日の属する年分の所得税に係る確定申告期限までに、当該更新資産の名称、その所在する場所その他財務省令で定める事項を記載した届出書を納税地の所轄税務署長を経由して納税地の所轄国税局長に提出したときは、当該届出書をもつて第二項の申請書とみなし、当該届出書の提出をもつて同日の属する年の十二月三十一日（その者が年の中途において死亡し又は出国をした場合には、その死亡又は出国の時。次項において同じ。）において第一項の承認があつたものとみなす。<!-- segment: kou_dan id: shotoku-zei-hou-shikkourei-art-130-p7-kou depends_on: shotoku-zei-hou-shikkourei-art-130-p7-zen -->
+この場合においては、第五項の規定は、適用しない。
+
+### 第百三十条第八項
+
+<!-- segment: zen_dan id: shotoku-zei-hou-shikkourei-art-130-p8-zen -->
+青色申告書を提出する居住者が、その有する第一項の承認（同項第一号に掲げる事由による承認その他財務省令で定める事由による承認に限る。）に係る減価償却資産と材質又は製作方法を同じくする減価償却資産（当該財務省令で定める事由による承認の場合には、財務省令で定める減価償却資産）を取得した場合において、その取得した日の属する年分の所得税に係る確定申告期限までに、その取得した減価償却資産の名称、その所在する場所その他財務省令で定める事項を記載した届出書を納税地の所轄税務署長を経由して納税地の所轄国税局長に提出したときは、当該届出書をもつて第二項の申請書とみなし、当該届出書の提出をもつて同日の属する年の十二月三十一日において第一項の承認があつたものとみなす。<!-- segment: kou_dan id: shotoku-zei-hou-shikkourei-art-130-p8-kou depends_on: shotoku-zei-hou-shikkourei-art-130-p8-zen -->
+この場合においては、第五項の規定は、適用しない。
+
+### 第百三十条第九項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-130-p9 -->
+青色申告書を提出する居住者が、その有する減価償却資産につき第一項の承認を受けた場合には、当該資産の第百二十条第一項第一号イ（１）若しくは第三号ハ又は第百二十条の二第一項第一号イ（１）若しくは第三号イ（２）若しくは第二項第一号（減価償却資産の償却の方法）に規定する取得価額には、当該資産の償却費として当該資産につきその承認を受けた日の属する年の前年分以前の各年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額の計算上必要経費に算入された金額の累積額を含まないものとする。
+
+### 第百三十条第十項
+
+<!-- segment: junyou id: shotoku-zei-hou-shikkourei-art-130-p10 -->
+第百三十四条第二項（減価償却資産の償却累積額による償却費の特例）の規定は、第一項の承認に係る減価償却資産（そのよるべき償却の方法として定率法を採用しているものに限る。）につきその承認を受けた日の属する年分において同項の規定を適用しないで計算した第百二十条の二第二項第二号イに規定する調整前償却額が前項の規定を適用しないで計算した同条第二項第一号に規定する償却保証額に満たない場合について準用する。この場合において、第百三十四条第二項中「同号イ又はハに定める金額及び」とあるのは「承認前償却累積額（第百三十条第九項の規定により取得価額に含まないものとされる金額をいう。）及び」と、「五で」とあるのは「第百三十条第一項に規定する未経過使用可能期間の年数で」と読み替えるものとする。
+
+### 第百三十条第十一項
+
+<!-- segment: zen_dan id: shotoku-zei-hou-shikkourei-art-130-p11-zen -->
+第一項の承認を受けた居住者が青色申告書の提出の承認を取り消され、又は青色申告書による申告をやめる旨の届出書の提出をした場合には、同項の承認は、その青色申告書の提出の承認の取消しの基因となつた事実のあつた日の属する年又はそのやめた年の一月一日においてその効力を失うものとする。<!-- segment: kou_dan id: shotoku-zei-hou-shikkourei-art-130-p11-kou depends_on: shotoku-zei-hou-shikkourei-art-130-p11-zen -->
+この場合において、同日以後に同項の承認を受けたときは、その承認は、なかつたものとみなす。

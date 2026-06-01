@@ -1,0 +1,55 @@
+---
+law_id: 325CO0000000245
+law_name_ja: 地方税法施行令
+law_name_en: (English name pending)
+article_number: 56-40
+article_id: chihou-zei-hou-shikkourei-art-56-40
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325CO0000000245
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-40-p1
+    type: simple
+    text: 法第七百一条の三十四第三項第二十四号に規定する専ら公衆の利用を目的として電気通信回線設備を設置して電気通信事業法第二条第三号に規定する電気通信役務を提供する同条第四号に規定する電気通信事業を営む者で政令で定めるものは、同法第百十七条第一項の規定による認定を受けた者のうち、同法第三十三条第二項に規定する第一種指定電気通信設備を設置する者及びこれに類する者として総務省令で定める要件に該当する者で、総務大臣が指定するものとする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-40-p2-hashira
+    type: hashira
+    text: 法第七百一条の三十四第三項第二十四号に規定する電気通信事業の用に供する施設で政令で定めるものは、同号に規定する電気通信回線設備を設置して電気通信事業法第二条第三号に規定する電気通信役務を提供する同条第四号に規定する電気通信事業の用に供する施設のうち次に掲げる施設以外の施設とする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 34
+  shou_name_ja: 第三章の四　事業所税
+---
+
+# 地方税法施行令 第56-40条(（法第七百一条の三十四第三項第二十四号の電気通信事業を営む者等）)
+
+## 原文 (日本語)
+
+### 第五十六条の四十第一項
+
+<!-- segment: simple id: chihou-zei-hou-shikkourei-art-56-40-p1 -->
+法第七百一条の三十四第三項第二十四号に規定する専ら公衆の利用を目的として電気通信回線設備を設置して電気通信事業法第二条第三号に規定する電気通信役務を提供する同条第四号に規定する電気通信事業を営む者で政令で定めるものは、同法第百十七条第一項の規定による認定を受けた者のうち、同法第三十三条第二項に規定する第一種指定電気通信設備を設置する者及びこれに類する者として総務省令で定める要件に該当する者で、総務大臣が指定するものとする。
+
+### 第五十六条の四十第二項
+
+<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-56-40-p2-hashira -->
+法第七百一条の三十四第三項第二十四号に規定する電気通信事業の用に供する施設で政令で定めるものは、同号に規定する電気通信回線設備を設置して電気通信事業法第二条第三号に規定する電気通信役務を提供する同条第四号に規定する電気通信事業の用に供する施設のうち次に掲げる施設以外の施設とする。

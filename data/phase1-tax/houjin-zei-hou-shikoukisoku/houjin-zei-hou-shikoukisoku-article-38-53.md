@@ -1,0 +1,41 @@
+---
+law_id: 340M50000040012
+law_name_ja: 法人税法施行規則
+law_name_en: (English name pending)
+article_number: 38-53
+article_id: houjin-zei-hou-shikoukisoku-art-38-53
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040012
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　内国法人の法人税
+  shou: 2
+  shou_name_ja: 第二章　各対象会計年度の国際最低課税額に対する法人税等
+  setsu: 3
+  setsu_name_ja: 第三節　各対象会計年度の国際最低課税残余額に対する法人税
+  kan: 2
+  kan_name_ja: 第二款　申告
+---
+
+# 法人税法施行規則 第38-53条(（電子情報処理組織による申告）)
+
+## 原文 (日本語)
+
+### 第三十八条の五十三
+
+第三十八条の四十八第一項（電子情報処理組織による申告）の規定は法第八十二条の十五第一項（電子情報処理組織による申告）の内国法人が同項の規定により電子情報処理組織（同項に規定する電子情報処理組織をいう。以下この条において同じ。）を使用して同項に規定する申告書記載事項又は添付書類記載事項（以下この条においてそれぞれ「申告書記載事項」又は「添付書類記載事項」という。）を提供しようとする場合における届出その他の手続について、第三十八条の四十八第二項の規定は法第八十二条の十五第一項に規定する財務省令で定める方法について、第三十八条の四十八第三項及び第六項の規定は当該内国法人が法第八十二条の十五第一項の規定により電子情報処理組織を使用して行う申告書記載事項又は添付書類記載事項の提供について、第三十八条の四十八第四項の規定は法第八十二条の十五第一項ただし書に規定する財務省令で定める記録用の媒体について、第三十八条の四十八第五項の規定は申告書記載事項又は添付書類記載事項の送信又は提出に関するファイル形式について、同条第七項の規定は電子情報処理組織の使用に係る手続に関し必要な事項及び手続の細目について、それぞれ準用する。

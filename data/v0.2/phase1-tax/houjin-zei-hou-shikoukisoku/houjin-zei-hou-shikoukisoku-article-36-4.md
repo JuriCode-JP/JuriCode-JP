@@ -1,0 +1,153 @@
+---
+law_id: 340M50000040012
+law_name_ja: 法人税法施行規則
+law_name_en: (English name pending)
+article_number: 36-4
+article_id: houjin-zei-hou-shikoukisoku-art-36-4
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040012
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-36-4-p1
+    type: simple
+    text: 法第七十五条の四第一項（電子情報処理組織による申告）の内国法人が同項の規定により同項に規定する電子情報処理組織を使用して同項に規定する申告書記載事項又は添付書類記載事項（以下この条においてそれぞれ「申告書記載事項」又は「添付書類記載事項」という。）を提供しようとする場合における届出その他の手続については、国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令（平成十五年財務省令第七十一号）第四条第一項から第三項まで、第六項及び第七項（事前届出等）の規定の例による。
+    modality: unspecified
+    references:
+    - 同項
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-36-4-p2-hashira
+    type: hashira
+    text: 前項の規定によりその例によるものとされる国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第四条第一項の届出は、内国法人（法第四条の三（受託法人等に関するこの法律の適用）に規定する受託法人を除く。以下この項において同じ。）が資本金の額又は出資金の額が一億円を超えることとなつた日（法第七十五条の四第二項に規定する特定法人でなかつた内国法人について法第六十四条の九第一項（通算承認）の規定による承認（以下この項において「通算承認」という。）の効力が生じた場合には、その効力が生じた日（同条第七項の規定の適用を受けて行つた同条第二項の申請につき当該内国法人に係る通算親法人が通算承認を受けた場合には、同日と当該通算承認の処分があつた日又は同条第九項の規定により当該通算承認があつたものとみなされた日とのうちいずれか遅い日）とする。）から一月以内（これらの内国法人が次の各号に掲げる法人に該当する場合には、当該各号に掲げる法人の区分に応じ当該各号に定める日から二月以内）に行わなければならない。
+    modality: gimu
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-36-4-p3-hashira
+    type: hashira
+    text: 法第七十五条の四第一項に規定する財務省令で定める方法は、次の各号に掲げる事項の区分に応じ当該各号に定める方法とする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-36-4-p4
+    type: simple
+    text: 法第七十五条の四第一項の内国法人が同項の規定により同項に規定する電子情報処理組織を使用して行う申告書記載事項又は添付書類記載事項の提供については、国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条第一項の定めるところにより、行わなければならない。
+    modality: gimu
+    references:
+    - 同項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-36-4-p5
+    type: simple
+    text: 法第七十五条の四第一項ただし書に規定する財務省令で定める記録用の媒体は、添付書類記載事項の情報通信技術を活用した行政の推進等に関する法律第三条第七号に規定する電磁的記録（当該電磁的記録をスキャナにより読み取る方法その他これに類する方法により作成した場合にあつては、国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条第二項各号に掲げる要件を満たすように読み取り、又は作成したものに限る。）を記録した光ディスク又は磁気ディスクとする。
+    modality: gimu
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-36-4-p6
+    type: simple
+    text: 申告書記載事項又は添付書類記載事項を第三項各号に定める方法又は法第七十五条の四第一項ただし書に規定する財務省令で定める記録用の媒体を提出する方法により送信し、又は提出する場合におけるその送信又は提出に関するファイル形式については、国税庁長官が定める。
+    modality: unspecified
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-36-4-p7
+    type: simple
+    text: 法第七十五条の四第一項の内国法人が同項の規定により同項に規定する電子情報処理組織を使用して申告書記載事項又は添付書類記載事項を提供する場合には、当該内国法人は、国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第六条第一項（第四号に係る部分を除く。）（申請等において氏名等を明らかにする措置）の規定の例により、その名称を明らかにしなければならない。
+    modality: gimu
+    references:
+    - 同項
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-36-4-p8
+    type: simple
+    text: 前各項に定めるもののほか、法第七十五条の四第一項に規定する電子情報処理組織の使用に係る手続に関し必要な事項及び手続の細目については、別に定めるところによる。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　内国法人の法人税
+  shou: 1
+  shou_name_ja: 第一章　各事業年度の所得に対する法人税
+  setsu: 3
+  setsu_name_ja: 第三節　申告、納付及び還付
+  kan: 22
+  kan_name_ja: 第二款の二　電子情報処理組織による申告の特例
+---
+
+# 法人税法施行規則 第36-4条(（電子情報処理組織による申告）)
+
+## 原文 (日本語)
+
+### 第三十六条の四第一項
+
+<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-36-4-p1 -->
+法第七十五条の四第一項（電子情報処理組織による申告）の内国法人が同項の規定により同項に規定する電子情報処理組織を使用して同項に規定する申告書記載事項又は添付書類記載事項（以下この条においてそれぞれ「申告書記載事項」又は「添付書類記載事項」という。）を提供しようとする場合における届出その他の手続については、国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令（平成十五年財務省令第七十一号）第四条第一項から第三項まで、第六項及び第七項（事前届出等）の規定の例による。
+
+### 第三十六条の四第二項
+
+<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-36-4-p2-hashira -->
+前項の規定によりその例によるものとされる国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第四条第一項の届出は、内国法人（法第四条の三（受託法人等に関するこの法律の適用）に規定する受託法人を除く。以下この項において同じ。）が資本金の額又は出資金の額が一億円を超えることとなつた日（法第七十五条の四第二項に規定する特定法人でなかつた内国法人について法第六十四条の九第一項（通算承認）の規定による承認（以下この項において「通算承認」という。）の効力が生じた場合には、その効力が生じた日（同条第七項の規定の適用を受けて行つた同条第二項の申請につき当該内国法人に係る通算親法人が通算承認を受けた場合には、同日と当該通算承認の処分があつた日又は同条第九項の規定により当該通算承認があつたものとみなされた日とのうちいずれか遅い日）とする。）から一月以内（これらの内国法人が次の各号に掲げる法人に該当する場合には、当該各号に掲げる法人の区分に応じ当該各号に定める日から二月以内）に行わなければならない。
+
+### 第三十六条の四第三項
+
+<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-36-4-p3-hashira -->
+法第七十五条の四第一項に規定する財務省令で定める方法は、次の各号に掲げる事項の区分に応じ当該各号に定める方法とする。
+
+### 第三十六条の四第四項
+
+<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-36-4-p4 -->
+法第七十五条の四第一項の内国法人が同項の規定により同項に規定する電子情報処理組織を使用して行う申告書記載事項又は添付書類記載事項の提供については、国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条第一項の定めるところにより、行わなければならない。
+
+### 第三十六条の四第五項
+
+<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-36-4-p5 -->
+法第七十五条の四第一項ただし書に規定する財務省令で定める記録用の媒体は、添付書類記載事項の情報通信技術を活用した行政の推進等に関する法律第三条第七号に規定する電磁的記録（当該電磁的記録をスキャナにより読み取る方法その他これに類する方法により作成した場合にあつては、国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条第二項各号に掲げる要件を満たすように読み取り、又は作成したものに限る。）を記録した光ディスク又は磁気ディスクとする。
+
+### 第三十六条の四第六項
+
+<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-36-4-p6 -->
+申告書記載事項又は添付書類記載事項を第三項各号に定める方法又は法第七十五条の四第一項ただし書に規定する財務省令で定める記録用の媒体を提出する方法により送信し、又は提出する場合におけるその送信又は提出に関するファイル形式については、国税庁長官が定める。
+
+### 第三十六条の四第七項
+
+<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-36-4-p7 -->
+法第七十五条の四第一項の内国法人が同項の規定により同項に規定する電子情報処理組織を使用して申告書記載事項又は添付書類記載事項を提供する場合には、当該内国法人は、国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第六条第一項（第四号に係る部分を除く。）（申請等において氏名等を明らかにする措置）の規定の例により、その名称を明らかにしなければならない。
+
+### 第三十六条の四第八項
+
+<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-36-4-p8 -->
+前各項に定めるもののほか、法第七十五条の四第一項に規定する電子情報処理組織の使用に係る手続に関し必要な事項及び手続の細目については、別に定めるところによる。

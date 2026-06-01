@@ -1,0 +1,123 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: '224'
+article_id: shotoku-zei-hou-shikkourei-art-224
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-224-p1
+    type: simple
+    text: 法第九十五条第二項（外国税額控除）に規定するその年に繰り越される部分として政令で定める金額は、その年の前年以前三年内の各年（次項及び次条第一項において「前三年以内の各年」という。）の国税の控除余裕額又は地方税の控除余裕額を、最も古い年のものから順次に、かつ、同一年のものについては国税の控除余裕額及び地方税の控除余裕額の順に、その年の控除限度超過額に充てるものとした場合に当該控除限度超過額に充てられることとなる当該国税の控除余裕額の合計額に相当する金額とする。
+    modality: gimu
+    references:
+    - 次項
+    - 次条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-224-p2
+    type: simple
+    text: 前三年以内の各年のうちいずれかの年において納付することとなつた法第九十五条第一項に規定する控除対象外国所得税の額（以下この条及び第二百二十六条において「控除対象外国所得税の額」という。）をその納付することとなつた年の不動産所得の金額、事業所得の金額、山林所得の金額若しくは雑所得の金額の計算上必要経費に算入し、又は一時所得の金額の計算上支出した金額に算入した場合には、当該年以前の各年の国税の控除余裕額及び地方税の控除余裕額は、前項に規定する国税の控除余裕額及び地方税の控除余裕額に含まれないものとして、同項の規定を適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-224-p3
+    type: simple
+    text: 法第九十五条第二項の規定の適用を受けることができる年後の各年に係る第一項及び次条第一項の規定の適用については、第一項の規定により当該適用を受けることができる年の控除限度超過額に充てられることとなる国税の控除余裕額及び地方税の控除余裕額並びにこれらの金額の合計額に相当する金額の当該控除限度超過額は、ないものとみなす。
+    modality: unspecified
+    references:
+    - 次条
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-224-p4
+    type: simple
+    text: 前三項に規定する国税の控除余裕額とは、その年において納付することとなる控除対象外国所得税の額がその年の国税の控除限度額（法第九十五条第一項に規定する控除限度額をいう。以下この条において同じ。）に満たない場合における当該国税の控除限度額から当該控除対象外国所得税の額を控除した金額に相当する金額をいう。
+    modality: teigi
+    references:
+    - 前三項
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-224-p5-hashira
+    type: hashira
+    text: 第一項から第三項までに規定する地方税の控除余裕額とは、次の各号に掲げる場合の区分に応じ当該各号に掲げる金額をいう。
+    modality: teigi
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-224-p6
+    type: simple
+    text: 第一項及び第三項に規定する控除限度超過額とは、その年において納付することとなる控除対象外国所得税の額がその年の国税の控除限度額と地方税の控除限度額との合計額を超える場合におけるその超える部分の金額に相当する金額をいう。
+    modality: teigi
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 3
+  shou_name_ja: 第三章　税額控除
+---
+
+# 所得税法施行令 第224条(（繰越控除限度額等）)
+
+## 原文 (日本語)
+
+### 第二百二十四条第一項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-224-p1 -->
+法第九十五条第二項（外国税額控除）に規定するその年に繰り越される部分として政令で定める金額は、その年の前年以前三年内の各年（次項及び次条第一項において「前三年以内の各年」という。）の国税の控除余裕額又は地方税の控除余裕額を、最も古い年のものから順次に、かつ、同一年のものについては国税の控除余裕額及び地方税の控除余裕額の順に、その年の控除限度超過額に充てるものとした場合に当該控除限度超過額に充てられることとなる当該国税の控除余裕額の合計額に相当する金額とする。
+
+### 第二百二十四条第二項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-224-p2 -->
+前三年以内の各年のうちいずれかの年において納付することとなつた法第九十五条第一項に規定する控除対象外国所得税の額（以下この条及び第二百二十六条において「控除対象外国所得税の額」という。）をその納付することとなつた年の不動産所得の金額、事業所得の金額、山林所得の金額若しくは雑所得の金額の計算上必要経費に算入し、又は一時所得の金額の計算上支出した金額に算入した場合には、当該年以前の各年の国税の控除余裕額及び地方税の控除余裕額は、前項に規定する国税の控除余裕額及び地方税の控除余裕額に含まれないものとして、同項の規定を適用する。
+
+### 第二百二十四条第三項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-224-p3 -->
+法第九十五条第二項の規定の適用を受けることができる年後の各年に係る第一項及び次条第一項の規定の適用については、第一項の規定により当該適用を受けることができる年の控除限度超過額に充てられることとなる国税の控除余裕額及び地方税の控除余裕額並びにこれらの金額の合計額に相当する金額の当該控除限度超過額は、ないものとみなす。
+
+### 第二百二十四条第四項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-224-p4 -->
+前三項に規定する国税の控除余裕額とは、その年において納付することとなる控除対象外国所得税の額がその年の国税の控除限度額（法第九十五条第一項に規定する控除限度額をいう。以下この条において同じ。）に満たない場合における当該国税の控除限度額から当該控除対象外国所得税の額を控除した金額に相当する金額をいう。
+
+### 第二百二十四条第五項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-224-p5-hashira -->
+第一項から第三項までに規定する地方税の控除余裕額とは、次の各号に掲げる場合の区分に応じ当該各号に掲げる金額をいう。
+
+### 第二百二十四条第六項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-224-p6 -->
+第一項及び第三項に規定する控除限度超過額とは、その年において納付することとなる控除対象外国所得税の額がその年の国税の控除限度額と地方税の控除限度額との合計額を超える場合におけるその超える部分の金額に相当する金額をいう。

@@ -1,0 +1,88 @@
+---
+law_id: 340M50000040012
+law_name_ja: 法人税法施行規則
+law_name_en: (English name pending)
+article_number: 26-3
+article_id: houjin-zei-hou-shikoukisoku-art-26-3
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040012
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-26-3-p1
+    type: simple
+    text: 内国法人が法第五十七条第一項（欠損金の繰越し）の規定の適用を受けようとする場合（当該内国法人が通算法人である場合には、他の通算法人が法第六十四条の七第一項（欠損金の通算）の規定により当該内国法人の法第五十七条第一項の欠損金額について同項の規定の適用を受けようとする場合を含む。）には、当該内国法人は、同項の欠損金額が生じた事業年度の第五十九条第一項各号（帳簿書類の整理保存）に掲げる帳簿書類（法第五十七条第二項の規定により当該内国法人の各事業年度において生じた欠損金額とみなされたものにあつては、当該帳簿書類又はその写し）を整理し、第五十九条第二項に規定する起算日から十年間、これを納税地（同条第一項第三号に掲げる書類又はその写しにあつては、当該納税地又は同号の取引に係る国内の事務所、事業所その他これらに準ずるものの所在地）に保存しなければならない。
+    modality: gimu
+    references:
+    - 同項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-26-3-p2
+    type: junyou
+    text: 第五十九条第三項から第六項までの規定は、前項に規定する帳簿書類の保存について準用する。
+    modality: unspecified
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-26-3-p3-zen
+    type: zen_dan
+    text: 第一項に規定する事業年度が青色申告書を提出する事業年度でない場合には、その事業年度に係る前二項の規定の適用については、第一項中「第五十九条第一項各号（帳簿書類の整理保存）に掲げる帳簿書類」とあるのは「第六十六条第一項（取引に関する帳簿及びその記載事項等）に規定する帳簿及び第六十七条第一項各号（帳簿書類の整理保存等）に掲げる書類」と、「当該帳簿書類」とあるのは「当該帳簿及び書類」と、「その写し）」とあるのは「これらの写し）」と、「同条第一項第三号」とあるのは「第六十七条第一項第一号」と、前項中「帳簿書類」とあるのは「帳簿及び書類」と、「準用する」とあるのは「準用する。
+    modality: unspecified
+    references:
+    - 前二項
+    - 前項
+  - id: houjin-zei-hou-shikoukisoku-art-26-3-p3-kou
+    type: kou_dan
+    text: この場合において、同条第四項中「別表二十四に定める記載事項」とあるのは「別表二十六の区分の欄に掲げる事項」と、「当該記載事項」とあるのは「当該事項」と読み替えるものとする」とする。
+    modality: gimu
+    depends_on: houjin-zei-hou-shikoukisoku-art-26-3-p3-zen
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　内国法人の法人税
+  shou: 1
+  shou_name_ja: 第一章　各事業年度の所得に対する法人税
+  setsu: 1
+  setsu_name_ja: 第一節　各事業年度の所得の金額の計算
+  kan: 7
+  kan_name_ja: 第七款　繰越欠損金
+---
+
+# 法人税法施行規則 第26-3条(（欠損金に係る帳簿書類の保存）)
+
+## 原文 (日本語)
+
+### 第二十六条の三第一項
+
+<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-26-3-p1 -->
+内国法人が法第五十七条第一項（欠損金の繰越し）の規定の適用を受けようとする場合（当該内国法人が通算法人である場合には、他の通算法人が法第六十四条の七第一項（欠損金の通算）の規定により当該内国法人の法第五十七条第一項の欠損金額について同項の規定の適用を受けようとする場合を含む。）には、当該内国法人は、同項の欠損金額が生じた事業年度の第五十九条第一項各号（帳簿書類の整理保存）に掲げる帳簿書類（法第五十七条第二項の規定により当該内国法人の各事業年度において生じた欠損金額とみなされたものにあつては、当該帳簿書類又はその写し）を整理し、第五十九条第二項に規定する起算日から十年間、これを納税地（同条第一項第三号に掲げる書類又はその写しにあつては、当該納税地又は同号の取引に係る国内の事務所、事業所その他これらに準ずるものの所在地）に保存しなければならない。
+
+### 第二十六条の三第二項
+
+<!-- segment: junyou id: houjin-zei-hou-shikoukisoku-art-26-3-p2 -->
+第五十九条第三項から第六項までの規定は、前項に規定する帳簿書類の保存について準用する。
+
+### 第二十六条の三第三項
+
+<!-- segment: zen_dan id: houjin-zei-hou-shikoukisoku-art-26-3-p3-zen -->
+第一項に規定する事業年度が青色申告書を提出する事業年度でない場合には、その事業年度に係る前二項の規定の適用については、第一項中「第五十九条第一項各号（帳簿書類の整理保存）に掲げる帳簿書類」とあるのは「第六十六条第一項（取引に関する帳簿及びその記載事項等）に規定する帳簿及び第六十七条第一項各号（帳簿書類の整理保存等）に掲げる書類」と、「当該帳簿書類」とあるのは「当該帳簿及び書類」と、「その写し）」とあるのは「これらの写し）」と、「同条第一項第三号」とあるのは「第六十七条第一項第一号」と、前項中「帳簿書類」とあるのは「帳簿及び書類」と、「準用する」とあるのは「準用する。<!-- segment: kou_dan id: houjin-zei-hou-shikoukisoku-art-26-3-p3-kou depends_on: houjin-zei-hou-shikoukisoku-art-26-3-p3-zen -->
+この場合において、同条第四項中「別表二十四に定める記載事項」とあるのは「別表二十六の区分の欄に掲げる事項」と、「当該記載事項」とあるのは「当該事項」と読み替えるものとする」とする。

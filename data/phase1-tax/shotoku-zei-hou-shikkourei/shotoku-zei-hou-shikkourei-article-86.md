@@ -1,0 +1,39 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: '86'
+article_id: shotoku-zei-hou-shikkourei-art-86
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 1
+  shou_name_ja: 第一章　課税標準の計算
+  setsu: 3
+  setsu_name_ja: 第三節　収入金額の計算
+---
+
+# 所得税法施行令 第86条(（自家消費の場合のたな卸資産に準ずる資産の範囲）)
+
+## 原文 (日本語)
+
+### 第八十六条
+
+法第三十九条（たな卸資産等の自家消費の場合の総収入金額算入）に規定する政令で定めるものは、第八十一条各号（譲渡所得の基因とされないたな卸資産に準ずる資産）に掲げる資産（山林を除く。）とする。

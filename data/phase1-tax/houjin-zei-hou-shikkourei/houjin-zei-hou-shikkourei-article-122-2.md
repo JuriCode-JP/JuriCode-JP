@@ -1,0 +1,43 @@
+---
+law_id: 340CO0000000097
+law_name_ja: 法人税法施行令
+law_name_en: (English name pending)
+article_number: 122-2
+article_id: houjin-zei-hou-shikkourei-art-122-2
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　内国法人の法人税
+  shou: 1
+  shou_name_ja: 第一章　各事業年度の所得に対する法人税
+  setsu: 1
+  setsu_name_ja: 第一節　各事業年度の所得の金額の計算
+  kan: 22
+  kan_name_ja: 第二款の二　利益の額又は損失の額の計算
+  moku: 4
+  moku_name_ja: 第四目　外貨建資産等の換算等
+---
+
+# 法人税法施行令 第122-2条(（外貨建資産等の評価換えをした場合のみなし取得による換算）)
+
+## 原文 (日本語)
+
+### 第百二十二条の二
+
+内国法人がその有する法第六十一条の九第一項（外貨建資産等の期末換算差益又は期末換算差損の益金又は損金算入等）に規定する外貨建資産等（次に掲げる資産又は負債を除く。以下この条及び次条において「外貨建資産等」という。）につき、評価換え等（法第二十五条第二項（資産の評価益）若しくは第三十三条第二項若しくは第三項（資産の評価損）の規定の適用を受ける評価換え又は民事再生等評価換え（第百十九条の三第二項（移動平均法を適用する有価証券について評価換え等があつた場合の一単位当たりの帳簿価額の算出の特例）に規定する民事再生等評価換えをいう。以下この条において同じ。）をいう。）又は非適格株式交換等時価評価（第百十九条の三第三項に規定する非適格株式交換等時価評価をいう。）若しくは時価評価（第百十九条の三第四項に規定する時価評価をいう。）をした場合には、その外貨建資産等の取得又は発生の基因となつた外貨建取引は、当該評価換え等又は非適格株式交換等時価評価若しくは時価評価に係る評価の時（当該評価換え等が民事再生等評価換えである場合には、法第二十五条第三項に規定する事実又は法第三十三条第四項に規定する事実が生じた時）において行つたものとみなして、法第六十一条の八第一項（外貨建取引の換算）及び第六十一条の九第一項の規定を適用する。

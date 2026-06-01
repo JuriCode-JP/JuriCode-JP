@@ -1,0 +1,69 @@
+---
+law_id: 337CO0000000135
+law_name_ja: 国税通則法施行令
+law_name_en: (English name pending)
+article_number: '8'
+article_id: kokuzei-tsuusoku-hou-shikkourei-art-8
+version_date: '1962-04-02'
+source_url: https://laws.e-gov.go.jp/law/337CO0000000135
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-8-p1
+    type: simple
+    text: 法第三十六条第一項各号（納税の告知）に掲げる国税につきその法定納期限後に納税の告知をする場合、国際観光旅客税法（平成三十年法律第十六号）第十八条第一項（国際観光旅客等による納付）の規定により納付すべき国際観光旅客税でその法定納期限までに納付されなかつたものにつきその法定納期限後に納税の告知をする場合又は過怠税につき納税の告知をする場合には、当該告知に係る納税告知書に記載すべき納期限は、当該告知書を発する日の翌日から起算して一月を経過する日（国税に関する法律の規定により一定の事実が生じた場合に直ちに徴収するものとされている国税については、当該告知書の送達に要すると見込まれる期間を経過した日）とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-8-p2
+    type: simple
+    text: 法第三十六条第二項ただし書に規定する政令で定める場合は、本邦に入国する者が入国の際に携帯して輸入する物品につき課する消費税等を税関の当該職員に即納させる場合その他特別の必要に基づき国税を当該職員に即納させる場合とする。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-8-p3
+    type: simple
+    text: 法第三十六条第二項ただし書の規定により当該職員が口頭で納税の告知をする場合には、他の当該職員の立会いを受けなければならない。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　国税の納付及び徴収
+---
+
+# 国税通則法施行令 第8条(（納税の告知に係る納期限等）)
+
+## 原文 (日本語)
+
+### 第八条第一項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-8-p1 -->
+法第三十六条第一項各号（納税の告知）に掲げる国税につきその法定納期限後に納税の告知をする場合、国際観光旅客税法（平成三十年法律第十六号）第十八条第一項（国際観光旅客等による納付）の規定により納付すべき国際観光旅客税でその法定納期限までに納付されなかつたものにつきその法定納期限後に納税の告知をする場合又は過怠税につき納税の告知をする場合には、当該告知に係る納税告知書に記載すべき納期限は、当該告知書を発する日の翌日から起算して一月を経過する日（国税に関する法律の規定により一定の事実が生じた場合に直ちに徴収するものとされている国税については、当該告知書の送達に要すると見込まれる期間を経過した日）とする。
+
+### 第八条第二項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-8-p2 -->
+法第三十六条第二項ただし書に規定する政令で定める場合は、本邦に入国する者が入国の際に携帯して輸入する物品につき課する消費税等を税関の当該職員に即納させる場合その他特別の必要に基づき国税を当該職員に即納させる場合とする。
+
+### 第八条第三項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-8-p3 -->
+法第三十六条第二項ただし書の規定により当該職員が口頭で納税の告知をする場合には、他の当該職員の立会いを受けなければならない。

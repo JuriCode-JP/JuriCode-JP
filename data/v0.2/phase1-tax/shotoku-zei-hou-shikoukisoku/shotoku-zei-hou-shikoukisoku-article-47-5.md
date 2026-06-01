@@ -1,0 +1,49 @@
+---
+law_id: 340M50000040011
+law_name_ja: 所得税法施行規則
+law_name_en: (English name pending)
+article_number: 47-5
+article_id: shotoku-zei-hou-shikoukisoku-art-47-5
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040011
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-47-5-p1
+    type: simple
+    text: 法第百二十二条第一項第四号（還付等を受けるための申告）に規定する財務省令で定める事項は、同項第一号から第三号までに掲げる金額又はこれらの金額の計算の基礎に関し、参考となるべき事項とする。
+    modality: gimu
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 3
+  shou_name_ja: 第三章　申告、納付及び還付
+  setsu: 2
+  setsu_name_ja: 第二節　確定申告並びにこれに伴う納付及び還付
+  kan: 1
+  kan_name_ja: 第一款　確定申告
+---
+
+# 所得税法施行規則 第47-5条(（還付を受けるための申告書の記載事項）)
+
+## 原文 (日本語)
+
+### 第四十七条の五
+
+<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-47-5-p1 -->
+法第百二十二条第一項第四号（還付等を受けるための申告）に規定する財務省令で定める事項は、同項第一号から第三号までに掲げる金額又はこれらの金額の計算の基礎に関し、参考となるべき事項とする。

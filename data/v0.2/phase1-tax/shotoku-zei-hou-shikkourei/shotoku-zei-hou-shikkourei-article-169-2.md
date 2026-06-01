@@ -1,0 +1,133 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: 169-2
+article_id: shotoku-zei-hou-shikkourei-art-169-2
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-169-2-p1-hashira
+    type: hashira
+    text: 法第六十条第三項第一号（贈与等により取得した資産の取得費等）に規定するその時における配偶者居住権の価額に相当する金額に対応する部分の金額として政令で定めるところにより計算した金額は、同号に規定する配偶者居住権の目的となつている建物の取得費の額として計算される金額に、第一号に掲げる価額が次に掲げる価額の合計額のうちに占める割合を乗じて計算した金額とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-169-2-p2
+    type: simple
+    text: 法第六十条第三項第一号に規定する配偶者居住権の存続する期間を基礎として政令で定めるところにより計算した金額は、前項の規定により計算した金額に、配偶者居住権を取得した時から当該配偶者居住権が消滅した時までの期間の年数（六月以上の端数は一年とし、六月に満たない端数は切り捨てる。）が相続税法第二十三条の二第一項第二号イに規定する配偶者居住権の存続年数のうちに占める割合（当該割合が一を超える場合には、一とする。）を乗じて計算した金額とする。
+    modality: gimu
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-169-2-p3-hashira
+    type: hashira
+    text: 法第六十条第三項第二号に規定するその時における配偶者居住権の目的となつている建物の敷地の用に供される土地（土地の上に存する権利を含む。以下この条において同じ。）を当該配偶者居住権に基づき使用する権利の価額に相当する金額に対応する部分の金額として政令で定めるところにより計算した金額は、同号に規定する配偶者居住権の目的となつている建物の敷地の用に供される土地の取得費の額として計算される金額に、第一号に掲げる価額が次に掲げる価額の合計額のうちに占める割合を乗じて計算した金額とする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-169-2-p4
+    type: simple
+    text: 法第六十条第三項第二号に規定する配偶者居住権の存続する期間を基礎として政令で定めるところにより計算した金額は、前項の規定により計算した金額に、配偶者居住権の目的となつている建物の敷地の用に供される土地を当該配偶者居住権に基づき使用する権利を取得した時から当該権利が消滅した時までの期間の年数（六月以上の端数は一年とし、六月に満たない端数は切り捨てる。）が相続税法第二十三条の二第一項第二号イに規定する配偶者居住権の存続年数のうちに占める割合（当該割合が一を超える場合には、一とする。）を乗じて計算した金額とする。
+    modality: gimu
+    references:
+    - 前項
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-169-2-p5-hashira
+    type: hashira
+    text: 法第六十条第一項第一号に掲げる相続又は遺贈により配偶者居住権の目的となつている建物を取得した居住者が、当該配偶者居住権が消滅した後に当該建物を譲渡した場合における当該建物の取得費については、次に定めるところによる。
+    modality: unspecified
+- number: 6
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-169-2-p6-hashira
+    type: hashira
+    text: 法第六十条第一項第一号に掲げる相続又は遺贈により配偶者居住権の目的となつている建物の敷地の用に供される土地を取得した居住者が、当該土地を当該配偶者居住権に基づき使用する権利が消滅した後に当該土地を譲渡した場合における当該土地の取得費については、次に定めるところによる。
+    modality: unspecified
+- number: 7
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-169-2-p7-hashira
+    type: hashira
+    text: 法第六十条第一項第一号に掲げる相続又は遺贈により取得した配偶者居住権を有する居住者が、その後において次の各号に掲げる資産を取得し、当該資産を譲渡した場合には、その者が当該資産を当該各号に掲げる資産の区分に応じ当該各号に定める金額をもつて取得したものとして、譲渡所得の金額を計算する。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 1
+  shou_name_ja: 第一章　課税標準の計算
+  setsu: 5
+  setsu_name_ja: 第五節　資産の譲渡に関する総収入金額並びに必要経費及び取得費の計算の特例
+---
+
+# 所得税法施行令 第169-2条(（贈与等により取得した資産の取得費等）)
+
+## 原文 (日本語)
+
+### 第百六十九条の二第一項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-169-2-p1-hashira -->
+法第六十条第三項第一号（贈与等により取得した資産の取得費等）に規定するその時における配偶者居住権の価額に相当する金額に対応する部分の金額として政令で定めるところにより計算した金額は、同号に規定する配偶者居住権の目的となつている建物の取得費の額として計算される金額に、第一号に掲げる価額が次に掲げる価額の合計額のうちに占める割合を乗じて計算した金額とする。
+
+### 第百六十九条の二第二項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-169-2-p2 -->
+法第六十条第三項第一号に規定する配偶者居住権の存続する期間を基礎として政令で定めるところにより計算した金額は、前項の規定により計算した金額に、配偶者居住権を取得した時から当該配偶者居住権が消滅した時までの期間の年数（六月以上の端数は一年とし、六月に満たない端数は切り捨てる。）が相続税法第二十三条の二第一項第二号イに規定する配偶者居住権の存続年数のうちに占める割合（当該割合が一を超える場合には、一とする。）を乗じて計算した金額とする。
+
+### 第百六十九条の二第三項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-169-2-p3-hashira -->
+法第六十条第三項第二号に規定するその時における配偶者居住権の目的となつている建物の敷地の用に供される土地（土地の上に存する権利を含む。以下この条において同じ。）を当該配偶者居住権に基づき使用する権利の価額に相当する金額に対応する部分の金額として政令で定めるところにより計算した金額は、同号に規定する配偶者居住権の目的となつている建物の敷地の用に供される土地の取得費の額として計算される金額に、第一号に掲げる価額が次に掲げる価額の合計額のうちに占める割合を乗じて計算した金額とする。
+
+### 第百六十九条の二第四項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-169-2-p4 -->
+法第六十条第三項第二号に規定する配偶者居住権の存続する期間を基礎として政令で定めるところにより計算した金額は、前項の規定により計算した金額に、配偶者居住権の目的となつている建物の敷地の用に供される土地を当該配偶者居住権に基づき使用する権利を取得した時から当該権利が消滅した時までの期間の年数（六月以上の端数は一年とし、六月に満たない端数は切り捨てる。）が相続税法第二十三条の二第一項第二号イに規定する配偶者居住権の存続年数のうちに占める割合（当該割合が一を超える場合には、一とする。）を乗じて計算した金額とする。
+
+### 第百六十九条の二第五項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-169-2-p5-hashira -->
+法第六十条第一項第一号に掲げる相続又は遺贈により配偶者居住権の目的となつている建物を取得した居住者が、当該配偶者居住権が消滅した後に当該建物を譲渡した場合における当該建物の取得費については、次に定めるところによる。
+
+### 第百六十九条の二第六項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-169-2-p6-hashira -->
+法第六十条第一項第一号に掲げる相続又は遺贈により配偶者居住権の目的となつている建物の敷地の用に供される土地を取得した居住者が、当該土地を当該配偶者居住権に基づき使用する権利が消滅した後に当該土地を譲渡した場合における当該土地の取得費については、次に定めるところによる。
+
+### 第百六十九条の二第七項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-169-2-p7-hashira -->
+法第六十条第一項第一号に掲げる相続又は遺贈により取得した配偶者居住権を有する居住者が、その後において次の各号に掲げる資産を取得し、当該資産を譲渡した場合には、その者が当該資産を当該各号に掲げる資産の区分に応じ当該各号に定める金額をもつて取得したものとして、譲渡所得の金額を計算する。

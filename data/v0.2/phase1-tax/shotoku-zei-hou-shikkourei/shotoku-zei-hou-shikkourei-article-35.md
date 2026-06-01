@@ -1,0 +1,97 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: '35'
+article_id: shotoku-zei-hou-shikkourei-art-35
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-35-p1
+    type: simple
+    text: 個人が法第十条第一項（障害者等の少額預金の利子所得等の非課税）の規定の適用を受けようとする預貯金等の預入等をする場合において、その預入等が普通預金その他の財務省令で定める預貯金等に係る契約（以下この条において「普通預金契約等」という。）に基づくものであるときは、その者がその預入等に際して提出する非課税貯蓄申込書には、前条第一項第四号に掲げる事項に代えて、その普通預金契約等に基づいて預入等をする当該財務省令で定める預貯金等の区分及びその預貯金等の現在高（有価証券については、額面金額等により計算した現在高。以下この条において同じ。）に係る限度額を記載することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-35-p2
+    type: simple
+    text: 前項の規定による記載をした非課税貯蓄申込書を提出した場合において、その預貯金等の現在高に係る限度額を変更する必要が生じたときは、その後に提出する非課税貯蓄申込書に変更後の限度額を記載するものとする。
+    modality: gimu
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-35-p3
+    type: tokusoku
+    text: 法第十条第一項の規定の適用を受けようとする預貯金等につき第一項の規定による記載をした非課税貯蓄申込書を提出した場合には、その預貯金等については、前条第二項の規定にかかわらず、その現在高がその記載をしたその預貯金等の現在高に係る限度額（前項の規定による記載をした非課税貯蓄申込書を提出した場合には、その提出後においては、変更後の限度額）に達するまでの間は、非課税貯蓄申込書の提出を要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
+    - 前項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-35-p4
+    type: simple
+    text: 第一項又は第二項の規定による記載をした非課税貯蓄申込書を提出した個人が、その提出後において障害者等に該当しないこととなつた場合には、その者は、遅滞なく、当該申込書を提出した金融機関の営業所等に、障害者等に該当しなくなつた旨その他財務省令で定める事項を記載した届出書を提出しなければならない。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 1
+  hen_name_ja: 第一編　総則
+  shou: 2
+  shou_name_ja: 第二章　課税所得の範囲
+  setsu: 3
+  setsu_name_ja: 第三節　障害者等の少額預金の利子所得等の非課税
+---
+
+# 所得税法施行令 第35条(（普通預金契約等についての非課税貯蓄申込書の特例）)
+
+## 原文 (日本語)
+
+### 第三十五条第一項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-35-p1 -->
+個人が法第十条第一項（障害者等の少額預金の利子所得等の非課税）の規定の適用を受けようとする預貯金等の預入等をする場合において、その預入等が普通預金その他の財務省令で定める預貯金等に係る契約（以下この条において「普通預金契約等」という。）に基づくものであるときは、その者がその預入等に際して提出する非課税貯蓄申込書には、前条第一項第四号に掲げる事項に代えて、その普通預金契約等に基づいて預入等をする当該財務省令で定める預貯金等の区分及びその預貯金等の現在高（有価証券については、額面金額等により計算した現在高。以下この条において同じ。）に係る限度額を記載することができる。
+
+### 第三十五条第二項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-35-p2 -->
+前項の規定による記載をした非課税貯蓄申込書を提出した場合において、その預貯金等の現在高に係る限度額を変更する必要が生じたときは、その後に提出する非課税貯蓄申込書に変更後の限度額を記載するものとする。
+
+### 第三十五条第三項
+
+<!-- segment: tokusoku id: shotoku-zei-hou-shikkourei-art-35-p3 override_flag: true override_target: 前条 -->
+法第十条第一項の規定の適用を受けようとする預貯金等につき第一項の規定による記載をした非課税貯蓄申込書を提出した場合には、その預貯金等については、前条第二項の規定にかかわらず、その現在高がその記載をしたその預貯金等の現在高に係る限度額（前項の規定による記載をした非課税貯蓄申込書を提出した場合には、その提出後においては、変更後の限度額）に達するまでの間は、非課税貯蓄申込書の提出を要しない。
+
+### 第三十五条第四項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-35-p4 -->
+第一項又は第二項の規定による記載をした非課税貯蓄申込書を提出した個人が、その提出後において障害者等に該当しないこととなつた場合には、その者は、遅滞なく、当該申込書を提出した金融機関の営業所等に、障害者等に該当しなくなつた旨その他財務省令で定める事項を記載した届出書を提出しなければならない。

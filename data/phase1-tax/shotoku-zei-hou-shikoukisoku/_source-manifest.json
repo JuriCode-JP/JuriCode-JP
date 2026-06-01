@@ -1,0 +1,2018 @@
+{
+  "schema_version": "1.0",
+  "law_id": "340M50000040011",
+  "law_name_ja": "所得税法施行規則",
+  "law_abbrev": "shotoku-zei-hou-shikoukisoku",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/340M50000040011",
+  "source_xml_path": "cache\\laws\\340M50000040011.xml",
+  "source_xml_sha256": "ad5fef17d2e4aa6db0696e6aa759cb40159b3421f86494aa1b5a94933c0f271e",
+  "source_xml_bytes": 2343518,
+  "source_fetched_at": "2026-06-01",
+  "parser": "tools/parse/parse-egov.py",
+  "parser_version": "tools/parse/parse-egov.py@0.2.0",
+  "parsed_at": "2026-06-01T08:22:00+00:00",
+  "version_date": "1965-03-31",
+  "article_count": 250,
+  "articles": [
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-1",
+      "article_number": "1",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-1.md",
+      "ja_text_sha256": "ce3e3fab5a3e028bf3b6483068849bd6a43c138a057228ae7d56a95a36207063",
+      "ja_text_bytes": 4737,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-1-2",
+      "article_number": "1-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-1-2.md",
+      "ja_text_sha256": "e82250e6ff49813786473b8d3e1e27d1759199815895cf63197c87bcc28aa42c",
+      "ja_text_bytes": 1185,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-1-3",
+      "article_number": "1-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-1-3.md",
+      "ja_text_sha256": "aad1dc6c63466d719413ca146a8e32bab07ac3b21da7d60e52594e2ada0d3b4c",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-1-4",
+      "article_number": "1-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-1-4.md",
+      "ja_text_sha256": "e8719324bee30c7f3eb44a462227573190e72b6f1a8091afb6413437e76e8723",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-1-5",
+      "article_number": "1-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-1-5.md",
+      "ja_text_sha256": "412b5c1bf8132099e393f37f8412a8c47b217e7e4ff98d19fb1430dc80e3d5c4",
+      "ja_text_bytes": 2936,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-2",
+      "article_number": "2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-2.md",
+      "ja_text_sha256": "f0b808faf39391e64d3d3d1a278bf1469314efe15dc27d1022578b7f33aa437a",
+      "ja_text_bytes": 1667,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-2-2",
+      "article_number": "2-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-2-2.md",
+      "ja_text_sha256": "1b3b6a6cb7c66387de1582caa30b40ede7efa1981eaab6fb6390891693074748",
+      "ja_text_bytes": 923,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-3",
+      "article_number": "3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-3.md",
+      "ja_text_sha256": "e12de81904092884ee6ea128be2bd8a9792ca4d7b937e9f8b81f5702a0460402",
+      "ja_text_bytes": 333,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-3-2",
+      "article_number": "3-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-3-2.md",
+      "ja_text_sha256": "7f0b2e649a8f3d2d8fff8f4e1dc73ec90bb8f2d8fb04b8677c680ee8974fe994",
+      "ja_text_bytes": 556,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-3-3",
+      "article_number": "3-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-3-3.md",
+      "ja_text_sha256": "202f029b4023f8bcdfd12ca9dc76e779292dcfcd12435d1a2cfde0ac60aed094",
+      "ja_text_bytes": 114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-4",
+      "article_number": "4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-4.md",
+      "ja_text_sha256": "d60af29e302dfc5798559fabd1e25649cc2eba9d79e63ccb556252aedf8e2dd2",
+      "ja_text_bytes": 141,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-5",
+      "article_number": "5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-5.md",
+      "ja_text_sha256": "fc91d5802f6c277f563eaf70266a6bb8338eae80f3e75897d005a20a244b7e33",
+      "ja_text_bytes": 1085,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-6",
+      "article_number": "6",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-6.md",
+      "ja_text_sha256": "e57b500d5a77073159e8f783c99a63a644b465692f5fc5ae48465607508ea1dd",
+      "ja_text_bytes": 320,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-6-2",
+      "article_number": "6-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-6-2.md",
+      "ja_text_sha256": "16ed7ffed82d01aa2d3550bf37c80725ccb9f9a01be57937a6b9980bfb92e9b2",
+      "ja_text_bytes": 1103,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-7",
+      "article_number": "7",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-7.md",
+      "ja_text_sha256": "8e6cf8eb719ef0f3ef85efead2e45b2c1626510f6ec72f229ee9092ba1342e7b",
+      "ja_text_bytes": 5799,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-8",
+      "article_number": "8",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-8.md",
+      "ja_text_sha256": "5e0c67b3e0e0a9954ce77254f54c5c6bf438d79f2ac0ad317b9ab58c3e75a864",
+      "ja_text_bytes": 1277,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-8-2",
+      "article_number": "8-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-8-2.md",
+      "ja_text_sha256": "0cfdcef6a6d91d424f40890c23f4358952765646e2386d955485960004423bfc",
+      "ja_text_bytes": 639,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-8-3",
+      "article_number": "8-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-8-3.md",
+      "ja_text_sha256": "3571013aef597a73e8b06855bf13d5d85afb43733dd0d5db502a6702752d44f6",
+      "ja_text_bytes": 186,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-9",
+      "article_number": "9",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-9.md",
+      "ja_text_sha256": "5f43b45254e2fbc26f375f473e6aff68c88092b27f03893ad8236c293ae3e866",
+      "ja_text_bytes": 260,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-10",
+      "article_number": "10",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-10.md",
+      "ja_text_sha256": "5bbdf40786c1d36e396453d60bb572ecbd026bc84aaf5a366bf64f2a64572b94",
+      "ja_text_bytes": 266,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-11",
+      "article_number": "11",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-11.md",
+      "ja_text_sha256": "e8b7368628d51a16e4a4e587f8b0e4b4420339bbf2eaffba1924e3847a4a3307",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-12",
+      "article_number": "12",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-12.md",
+      "ja_text_sha256": "92fad00d161ad53dcf046121765a3ee4b02e2112449c2b72e7de401c38238b23",
+      "ja_text_bytes": 2027,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-13",
+      "article_number": "13",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-13.md",
+      "ja_text_sha256": "8d20047838a0b99bd73a867a50820d6b5f7fee2039d9349b7b7b14ed916c2638",
+      "ja_text_bytes": 1081,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-14",
+      "article_number": "14",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-14.md",
+      "ja_text_sha256": "7bb28fbfff7774e37416dba8482dcba128f12e0c76aeb5ea066fba94bf4372e7",
+      "ja_text_bytes": 911,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-15",
+      "article_number": "15",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-15.md",
+      "ja_text_sha256": "5df3897206f90487b9af7c093431e9d8c1fc292db53d011cceee743402867e77",
+      "ja_text_bytes": 300,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-15-2",
+      "article_number": "15-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-15-2.md",
+      "ja_text_sha256": "a084c2394cbc8cdc52a08b6a729a9be39611ab3310c111cf2fa7ab915ce0352e",
+      "ja_text_bytes": 1340,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-16",
+      "article_number": "16",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-16.md",
+      "ja_text_sha256": "c51f34c37669c40d4a2bbac2514ed23ddbf443ace11f4d4be471b8cda827be76",
+      "ja_text_bytes": 1069,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-16-2",
+      "article_number": "16-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-16-2.md",
+      "ja_text_sha256": "f312ae8919c7ea79cdb3c7309aba965b6af2a2c1e821d7c581f10e269c8d9893",
+      "ja_text_bytes": 689,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-17",
+      "article_number": "17",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-17.md",
+      "ja_text_sha256": "639783302a377f78593c185abe7b1e59b3919fec11ff60a2cbf7e463bdd70bc9",
+      "ja_text_bytes": 833,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-18",
+      "article_number": "18",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-18.md",
+      "ja_text_sha256": "d7f18212a3457b7f0fd5a93c87a7c24e0f64a05daea8891687cd466e234ca63d",
+      "ja_text_bytes": 2338,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-18-2",
+      "article_number": "18-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-18-2.md",
+      "ja_text_sha256": "0bd1883c829c7f621a49d92db8843cad42d7583de4b2b494600c65626f520033",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-18-3",
+      "article_number": "18-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-18-3.md",
+      "ja_text_sha256": "960a1602f8b5876c64f46c9d7cc3c9d1fec743590003a1738ab943e83664acc3",
+      "ja_text_bytes": 845,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-18-4",
+      "article_number": "18-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-18-4.md",
+      "ja_text_sha256": "97dd3f97005c1db7023c7d777c1baacd6672f504af3638b2ce0c089437125a04",
+      "ja_text_bytes": 5723,
+      "paragraph_count": 14
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-18-5",
+      "article_number": "18-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-18-5.md",
+      "ja_text_sha256": "9f768a832576e925080c65f5be3a2eec85b833131efff006705206fe8724c7ad",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-19",
+      "article_number": "19",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-19.md",
+      "ja_text_sha256": "dc3a1720e76ec8448dba037f471cbc1e2a66b6578bc49b2dffd85afef23558e1",
+      "ja_text_bytes": 538,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-19-2",
+      "article_number": "19-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-19-2.md",
+      "ja_text_sha256": "d116ce6fb2273c07c34bbd79d6ff02da442cda840be153dd36ac8dedf682e2c6",
+      "ja_text_bytes": 1651,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-19-3",
+      "article_number": "19-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-19-3.md",
+      "ja_text_sha256": "741ef7b1cc52f9c12baaa4f86346b7a7975459bd44f3bdf6f8f42323a5ea64bd",
+      "ja_text_bytes": 189,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-19-4",
+      "article_number": "19-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-19-4.md",
+      "ja_text_sha256": "c4bc795c0be0901db248abb1495cbd82ed02d80d2df07471c36db65c8b3f48a1",
+      "ja_text_bytes": 575,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-20",
+      "article_number": "20",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-20.md",
+      "ja_text_sha256": "c0bbfd65fbb68d5d4360d0bb34b83ea3ac638f7d3d024534b470506c7a500045",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-21",
+      "article_number": "21",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-21.md",
+      "ja_text_sha256": "4b0510751482836002dbf30ab1f98cf7710169f3525a754955dced9bd2aabb26",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-21-2",
+      "article_number": "21-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-21-2.md",
+      "ja_text_sha256": "2d3292de4802739533dde9c0d0768838857e2b67afbe44c51541a758e5faf470",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-21-3",
+      "article_number": "21-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-21-3.md",
+      "ja_text_sha256": "4325ebd8c40aa37d56e986371200222378267c3c38c452bb915642e5c05788bb",
+      "ja_text_bytes": 366,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-22",
+      "article_number": "22",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-22.md",
+      "ja_text_sha256": "1641b8ea472d9cf15624bbf566e9f954ce64e7aa0ac853cf9699b9b3b519ceb6",
+      "ja_text_bytes": 351,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-23",
+      "article_number": "23",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-23.md",
+      "ja_text_sha256": "9198dcb079578633c60abf6521b9534f8e0cbefff163d4307b873012eef1ade0",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-23-2",
+      "article_number": "23-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-23-2.md",
+      "ja_text_sha256": "3aaf040a31603534c73f89a8628eaa51a6cd8d30c30973cf4897e2d4d8e2a4b7",
+      "ja_text_bytes": 516,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-23-3",
+      "article_number": "23-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-23-3.md",
+      "ja_text_sha256": "1a6c33167813d5c4e11c9048c8012aab52c3b12db93e988e6bf00f2c208b22c4",
+      "ja_text_bytes": 471,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-23-4",
+      "article_number": "23-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-23-4.md",
+      "ja_text_sha256": "2627bfc0bd365856fb223f272e6001de313446a88fe8396c8c423be9c542ec54",
+      "ja_text_bytes": 459,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-24",
+      "article_number": "24",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-24.md",
+      "ja_text_sha256": "022f12f0f19f0bb6a84dee311ff3557f5704f24bd968c4a497db980a0e1c6b25",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-24-2",
+      "article_number": "24-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-24-2.md",
+      "ja_text_sha256": "e00347fe7490ffefe784b0f71ab7c38b6497940eb88844882c79fb7e8234a0c7",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-25",
+      "article_number": "25",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-25.md",
+      "ja_text_sha256": "f4f7708f5e7ab97273abe9933dd471e79f6167fc09bcbbaef4663650d153bbff",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-25-2",
+      "article_number": "25-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-25-2.md",
+      "ja_text_sha256": "3587ccac4ac29beedfdd0de812031d8a0126594f2996d6c3b94e34695162bb90",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-26",
+      "article_number": "26",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-26.md",
+      "ja_text_sha256": "559ada3bc6a9758525ccce8b4d34f76fa64a0137c4c1e0f5eb6bbd926504abed",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-27",
+      "article_number": "27",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-27.md",
+      "ja_text_sha256": "879189be0b018dea1bcc0c6ff8cccebc10e9cd0c9d971f5712538cb8d258ab90",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-28",
+      "article_number": "28",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-28.md",
+      "ja_text_sha256": "69ced537d14ef3e60152d6dfe6f5f34c4f8f5cfcf3c7efc3f1767faadb484f70",
+      "ja_text_bytes": 243,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-29",
+      "article_number": "29",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-29.md",
+      "ja_text_sha256": "318c8ee4acec1074f178ef9d67d6f86e69b20e1340806c430653f11cbba15558",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-30",
+      "article_number": "30",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-30.md",
+      "ja_text_sha256": "57c9916ef9b25ad272cd67aec64ac83357ac63ee21aac88fdfb318c781ce89db",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-31",
+      "article_number": "31",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-31.md",
+      "ja_text_sha256": "a8c3045950831ed13a92a284dc605a205aadf6bd5b7564435636f7402137dae5",
+      "ja_text_bytes": 138,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-32",
+      "article_number": "32",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-32.md",
+      "ja_text_sha256": "847a0596a6573f08b3f2a2e7c064389b8f0f3c5a047e1877b87325cba89e36ed",
+      "ja_text_bytes": 654,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-33",
+      "article_number": "33",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-33.md",
+      "ja_text_sha256": "16baaaee8b274ef08ce95e4c1b5af82ddc7da2c739244d3406c52b764977e005",
+      "ja_text_bytes": 2140,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-34",
+      "article_number": "34",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-34.md",
+      "ja_text_sha256": "617193275774f1ff9f8b022d77ddc1a936888d41c395a319d5ae986bb56c7099",
+      "ja_text_bytes": 850,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-34-2",
+      "article_number": "34-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-34-2.md",
+      "ja_text_sha256": "51d01db52eb56e81bfa2c75a6ea6e05d53de17eaa71672b25720deb1203aae2f",
+      "ja_text_bytes": 1049,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-34-3",
+      "article_number": "34-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-34-3.md",
+      "ja_text_sha256": "69555fd9f68e957878c67e267d7c0b2db65fd7da834bd1a69cbff11c21924921",
+      "ja_text_bytes": 219,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-35",
+      "article_number": "35",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-35.md",
+      "ja_text_sha256": "9f91ad3953907be6765ded23cb899c51087bac85131b535cf329fe80e0ea5dee",
+      "ja_text_bytes": 327,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-35-2",
+      "article_number": "35-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-35-2.md",
+      "ja_text_sha256": "5449c22e021e1df2b628c8859352de2583589535ecd5172c026c0c9e4836489f",
+      "ja_text_bytes": 204,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-36",
+      "article_number": "36",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-36.md",
+      "ja_text_sha256": "9b3da84611c88abc430d516e9e14c53ae417c9cffc5b622dbd99c4f7e09a93c7",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-36-2",
+      "article_number": "36-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-36-2.md",
+      "ja_text_sha256": "49474e946cf02fe2544f782c3c05bb858e43ae2fd7ec5bba6a1b93e41a675a72",
+      "ja_text_bytes": 573,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-36-3",
+      "article_number": "36-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-36-3.md",
+      "ja_text_sha256": "adc9d8c1236990db3bef7e5f035bc10657d16c7ba010ff84313a2dbc3e1e55b6",
+      "ja_text_bytes": 678,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-36-4",
+      "article_number": "36-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-36-4.md",
+      "ja_text_sha256": "623df4c22edaafed8f4ea14f69ad557f7648c16c12bd241f0dbe6d39870eda8e",
+      "ja_text_bytes": 796,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-36-5",
+      "article_number": "36-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-36-5.md",
+      "ja_text_sha256": "7881b1625decb63249fc8bbc39a2012e47a61900181da0e65725eebb38909a9b",
+      "ja_text_bytes": 2392,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-36-6",
+      "article_number": "36-6",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-36-6.md",
+      "ja_text_sha256": "2fa69767faabb878d18c520fa862f533e8184a6c38fe963704f3c7530109e32e",
+      "ja_text_bytes": 2224,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-36-7",
+      "article_number": "36-7",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-36-7.md",
+      "ja_text_sha256": "c31cbe42103f5426529f1c35f8614f6561487540dd485ab08ba721ada3011efc",
+      "ja_text_bytes": 2143,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-36-8",
+      "article_number": "36-8",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-36-8.md",
+      "ja_text_sha256": "5acca6a5cd3093e3e7705a5b0a389b961409a0772147b29bbb29433e2dee8bb9",
+      "ja_text_bytes": 1915,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-37",
+      "article_number": "37",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-37.md",
+      "ja_text_sha256": "9bab37ad1842f14edb512994531b4efdce6731e5338db8a4071fc9fe20d5f187",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-37-2",
+      "article_number": "37-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-37-2.md",
+      "ja_text_sha256": "8de0441c1b0c97d0c6efe69176208e0d815461160c563f70af9c496a272c5c6a",
+      "ja_text_bytes": 5069,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-37-3",
+      "article_number": "37-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-37-3.md",
+      "ja_text_sha256": "4620a0e9751e4f340284bd4dcf1b1710bd6b41d9c82c75d28278918e6a55ec5b",
+      "ja_text_bytes": 2913,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-38",
+      "article_number": "38",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-38.md",
+      "ja_text_sha256": "bfdcacd3b6827ef24290ec5b8dc69ab1fdd44fcc54c6efc7d48aca63e3bf06c0",
+      "ja_text_bytes": 198,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-38-2",
+      "article_number": "38-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-38-2.md",
+      "ja_text_sha256": "9f5e78c28d2fa67da559d7f113d70990f032d511b244310fd89b9e28a4983464",
+      "ja_text_bytes": 1142,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-38-3",
+      "article_number": "38-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-38-3.md",
+      "ja_text_sha256": "b6bd5a4bccfd39e87c97b663fb45f0b17cfa205ee886033081a5d031147df049",
+      "ja_text_bytes": 1376,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-39",
+      "article_number": "39",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-39.md",
+      "ja_text_sha256": "96c968968fd58567f5e4aa24cb5f5f34be5f34bf4e868f1668eb6b436ca6aab0",
+      "ja_text_bytes": 393,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-39-2",
+      "article_number": "39-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-39-2.md",
+      "ja_text_sha256": "2c16707735b7885a9e39e2e7cb38850c90f2ad0559183508c2dc7b1b3737ae02",
+      "ja_text_bytes": 1362,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40",
+      "article_number": "40",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40.md",
+      "ja_text_sha256": "9dd4ff83b7dfb2b1479e748ad6198eaecaebef1eb4709c97332302412072d987",
+      "ja_text_bytes": 2187,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-2",
+      "article_number": "40-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-2.md",
+      "ja_text_sha256": "2d24d7ba16ce87fbfcb972dd9f9812192b3eeeb302c0750a01684ba380d49c31",
+      "ja_text_bytes": 308,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-3",
+      "article_number": "40-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-3.md",
+      "ja_text_sha256": "bf2c21babd5fc478dd03045560b287d1c7ad51ed5d6bb7a3634992894e5ad308",
+      "ja_text_bytes": 299,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-4",
+      "article_number": "40-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-4.md",
+      "ja_text_sha256": "f92fd3feb0e0c0e42e3287bf24dda3d71de2a8cad63a1c18ed0c39ec3c1558fa",
+      "ja_text_bytes": 642,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-5",
+      "article_number": "40-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-5.md",
+      "ja_text_sha256": "4c925203d6effd37c239c845edd0fa4a27e5a99237628c67589f1b7cf5088f5b",
+      "ja_text_bytes": 1415,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-6",
+      "article_number": "40-6",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-6.md",
+      "ja_text_sha256": "4732b81d371ca97e93e8bc0f98fa600917748ba8945780e25e3a6b94969bfc87",
+      "ja_text_bytes": 648,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-7",
+      "article_number": "40-7",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-7.md",
+      "ja_text_sha256": "05869ad91a69f4a3f4a09aec37969b2dfcd177277fc099ddc355df7dad7bf545",
+      "ja_text_bytes": 284,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-8",
+      "article_number": "40-8",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-8.md",
+      "ja_text_sha256": "5fb6cc475c10ce29b47a2095cfaf9d5885a7e6e0c3c6c7097f8e63327dded95e",
+      "ja_text_bytes": 777,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-9",
+      "article_number": "40-9",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-9.md",
+      "ja_text_sha256": "a7abe4ec144d986bccb129f8f1389d45db44d6d8d135591940eebf8db26e189c",
+      "ja_text_bytes": 671,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-10",
+      "article_number": "40-10",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-10.md",
+      "ja_text_sha256": "1d63d2aaad2dfb80743f8f7b214cf58c599df4482970354a7a3eb07b806287e6",
+      "ja_text_bytes": 462,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-11",
+      "article_number": "40-11",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-11.md",
+      "ja_text_sha256": "17cf0034830c2d0f628af3a517cc02f814d675cf8a806a3c811192842c27900d",
+      "ja_text_bytes": 192,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-12",
+      "article_number": "40-12",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-12.md",
+      "ja_text_sha256": "4ec0e7c1b09de0898732d44ed5d41a85d2be8bb2b9d77074459e6c43754e988f",
+      "ja_text_bytes": 252,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-13",
+      "article_number": "40-13",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-13.md",
+      "ja_text_sha256": "698e6ef602a24ae8d1a2e38f7361c36d2275224d0ff74f9065df8a1863a19527",
+      "ja_text_bytes": 674,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-14",
+      "article_number": "40-14",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-14.md",
+      "ja_text_sha256": "ce51f07b1a03c43a53c806921b909770257712674fcd328ec54ace6a3d954c7e",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-15",
+      "article_number": "40-15",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-15.md",
+      "ja_text_sha256": "b0a5441e02c06a52abe839ae4252e277d49a2de5e71fd514fd5150238e192548",
+      "ja_text_bytes": 210,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-16",
+      "article_number": "40-16",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-16.md",
+      "ja_text_sha256": "ed4261be470b5fe0c83f1fca7533874bc25bcb5eadcb1873ca9358c6811c7424",
+      "ja_text_bytes": 267,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-40-17",
+      "article_number": "40-17",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-40-17.md",
+      "ja_text_sha256": "440bb0d7c93c1df0d04407db584fc322ba78a9187f6d0285c78cc4a5dfbd20c8",
+      "ja_text_bytes": 2585,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-41",
+      "article_number": "41",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-41.md",
+      "ja_text_sha256": "26345e5f6ca266828f80b8a08ed00900bb0349db4a6301e68ff7694daa97634c",
+      "ja_text_bytes": 542,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-42",
+      "article_number": "42",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-42.md",
+      "ja_text_sha256": "e268c98903a73752d0a24d9925369c19220d0621c2b6f51efba50abd419df8a8",
+      "ja_text_bytes": 712,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-42-2",
+      "article_number": "42-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-42-2.md",
+      "ja_text_sha256": "ecb84a4775baa58ad606943c575c19efd662c4e9e6268826ca5b30e61f08148d",
+      "ja_text_bytes": 138,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-42-3",
+      "article_number": "42-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-42-3.md",
+      "ja_text_sha256": "87ee7545164f3345b70cbb8f4d36d4becd16e796bbebfc818a96b479bb937978",
+      "ja_text_bytes": 138,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-43",
+      "article_number": "43",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-43.md",
+      "ja_text_sha256": "b161ac48f4aa9a1525aa4c0c2687fc9b506818f7766751a834576aa19566fd33",
+      "ja_text_bytes": 987,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-44",
+      "article_number": "44",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-44.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-45",
+      "article_number": "45",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-45.md",
+      "ja_text_sha256": "54ff91e3b8145c38322b7891bab50de7a4e082d43dbfbc197177af3bb5429f66",
+      "ja_text_bytes": 144,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-46",
+      "article_number": "46",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-46.md",
+      "ja_text_sha256": "d0c73346f0bbdae0a30cd102a23cdff66dbe85d651ed4f0f4e476309ae4fe954",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-47",
+      "article_number": "47",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-47.md",
+      "ja_text_sha256": "a23d364d1205db8fd5833ad2fdb61fc98606ce75de5fa058c9830201cb052e96",
+      "ja_text_bytes": 1947,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-47-2",
+      "article_number": "47-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-47-2.md",
+      "ja_text_sha256": "10e8deddcd5fc02a2cdfc0fba064950d9521790a99887f5d50f856bbdb881761",
+      "ja_text_bytes": 5840,
+      "paragraph_count": 14
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-47-3",
+      "article_number": "47-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-47-3.md",
+      "ja_text_sha256": "e3c25777c0874d5eaf4d7fd1676e8b350593b1cbf56617fbae2f67d28c763a33",
+      "ja_text_bytes": 1307,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-47-4",
+      "article_number": "47-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-47-4.md",
+      "ja_text_sha256": "d298f5a0c1cd5b0ec2f21879bd84e5c6b2da4cff5fd1a6bea32d35ad3d4748d7",
+      "ja_text_bytes": 683,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-47-5",
+      "article_number": "47-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-47-5.md",
+      "ja_text_sha256": "58992308105627ce8beb71552452bf05f102b270ab9b093e60fe7d964612ad2b",
+      "ja_text_bytes": 279,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-48",
+      "article_number": "48",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-48.md",
+      "ja_text_sha256": "2a2fe3756ff3cce8d04f009266e71474e0c1522730adf49463dea87b5cd9ee39",
+      "ja_text_bytes": 1073,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-49",
+      "article_number": "49",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-49.md",
+      "ja_text_sha256": "deec76cce326f76e84ddfdade998842e3bf9994ba6b850f5fb20dce4c4c76ad2",
+      "ja_text_bytes": 491,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-50",
+      "article_number": "50",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-50.md",
+      "ja_text_sha256": "4287739638cdd1e4af96973fcb484baadbcbfb9082f41df610e44fbf5faaf514",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-51",
+      "article_number": "51",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-51.md",
+      "ja_text_sha256": "40673e6ec267535175fe4fafd3743bae0b73fa4fade7393e34a75f75c7fcc7de",
+      "ja_text_bytes": 180,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-52",
+      "article_number": "52",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-52.md",
+      "ja_text_sha256": "59ee2d47d1498b48e5dd555e1d12237c5f9be38a59a098036c058fba16898ebd",
+      "ja_text_bytes": 195,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-52-2",
+      "article_number": "52-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-52-2.md",
+      "ja_text_sha256": "d08459ff3eb05fd60eb2026ee29af1baef81ffeb4fb77049f896ceba31293898",
+      "ja_text_bytes": 2557,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-52-3",
+      "article_number": "52-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-52-3.md",
+      "ja_text_sha256": "18ce1434848e88e197f5c1fa3d76038b6de59dc321f835cdc920c4db31fedd93",
+      "ja_text_bytes": 1959,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-53",
+      "article_number": "53",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-53.md",
+      "ja_text_sha256": "42531895776b7d644cd3de123c908d12aa0688c9630a72b769445d03d2c41be0",
+      "ja_text_bytes": 2261,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-54",
+      "article_number": "54",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-54.md",
+      "ja_text_sha256": "ba86a91fce3237f20dc2b8cef1c36b0d140efe8f0313f1b033acbdae1e076769",
+      "ja_text_bytes": 1006,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-55",
+      "article_number": "55",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-55.md",
+      "ja_text_sha256": "777f6c87abd17235316fccd884ba24167eeaa3a46a113052d30b6cc0a71d65f6",
+      "ja_text_bytes": 141,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-56",
+      "article_number": "56",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-56.md",
+      "ja_text_sha256": "b27fff91259fef3d82dd3d2f8d201387e5d4350184e535c48ced32988d0d287f",
+      "ja_text_bytes": 1273,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-57",
+      "article_number": "57",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-57.md",
+      "ja_text_sha256": "6b64df56aa37eedcd1da0805436fa1238873a7b946494ac228378a3c175cbf89",
+      "ja_text_bytes": 983,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-58",
+      "article_number": "58",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-58.md",
+      "ja_text_sha256": "3b6f04107a497fbe795758b8497919f39012e4d14877732135d229bf0dfa6ff1",
+      "ja_text_bytes": 479,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-59",
+      "article_number": "59",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-59.md",
+      "ja_text_sha256": "61f26afce55be41ee9c915e1c0df79f1d200933c5f85f403aa4ec971ac0ed455",
+      "ja_text_bytes": 323,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-60",
+      "article_number": "60",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-60.md",
+      "ja_text_sha256": "e6abccf39d040cfc4bd3136b13a853526488ded715de3f63383200d3fc489a80",
+      "ja_text_bytes": 2944,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-61",
+      "article_number": "61",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-61.md",
+      "ja_text_sha256": "132e65c446bd5b355bf13bb2d368addf28a1bcee1895b9d5283428389f70beda",
+      "ja_text_bytes": 290,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-62",
+      "article_number": "62",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-62.md",
+      "ja_text_sha256": "10bf3c53372bd73f254e0237c28780e3c0d764ffb2f1b91a2569c9a7b683b78a",
+      "ja_text_bytes": 333,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-63",
+      "article_number": "63",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-63.md",
+      "ja_text_sha256": "0babebf3099bee9918921c015885498db6d4bb89017f7330f4b5e7107463b189",
+      "ja_text_bytes": 2511,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-64",
+      "article_number": "64",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-64.md",
+      "ja_text_sha256": "04f0c4c88b0cc860c8cf5807cfb87ad693c61911b6dad9b0a457282cfcc2be9d",
+      "ja_text_bytes": 339,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-65",
+      "article_number": "65",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-65.md",
+      "ja_text_sha256": "dfae402fc702d82db4b1a18ab8380f9a7d24da1d95926cab18d29d646cf335cc",
+      "ja_text_bytes": 1025,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66",
+      "article_number": "66",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66.md",
+      "ja_text_sha256": "a0687e00ea7a64fd0315c940ff8c37e45bf7031d8e0d52df2a2a3047c18226be",
+      "ja_text_bytes": 150,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66-2",
+      "article_number": "66-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66-2.md",
+      "ja_text_sha256": "8d932d56d123da3b3fceaa9b3f44b948320eb69da08e27a98ff0be7a92d9c581",
+      "ja_text_bytes": 276,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66-3",
+      "article_number": "66-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66-3.md",
+      "ja_text_sha256": "f7a85a748bf52e793e758baee7802dd6a527abfd7700b522f9d857c18892c0b3",
+      "ja_text_bytes": 273,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66-4",
+      "article_number": "66-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66-4.md",
+      "ja_text_sha256": "353c7eabc3dcb7807786e4ee9b81895fabc14eb8862fd4e7d5d6010b4e13d0ec",
+      "ja_text_bytes": 683,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66-5",
+      "article_number": "66-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66-5.md",
+      "ja_text_sha256": "1a401bb66050da8b081ff5d9aaf689e615c7015ef62d1d125b99f4afd443f06f",
+      "ja_text_bytes": 231,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66-6",
+      "article_number": "66-6",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66-6.md",
+      "ja_text_sha256": "4b9781a68a3b487cabeb5cd255612166be2c217dbe92884edcade601d7157f72",
+      "ja_text_bytes": 680,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66-7",
+      "article_number": "66-7",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66-7.md",
+      "ja_text_sha256": "d04acc0518db4237afd7ab27f1d526e62b8894c249206457abda7902a55c0eee",
+      "ja_text_bytes": 228,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66-7-2",
+      "article_number": "66-7-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66-7-2.md",
+      "ja_text_sha256": "e22051dfbc9add91cadaa226bf7b934aff883106a8285849b091fb7bdb953234",
+      "ja_text_bytes": 390,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66-8",
+      "article_number": "66-8",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66-8.md",
+      "ja_text_sha256": "fa6508210f2a6d6977bb57a284ecd33f4d0a07fef08209b497cc50d15cf19dfc",
+      "ja_text_bytes": 147,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-66-9",
+      "article_number": "66-9",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-66-9.md",
+      "ja_text_sha256": "27bf5e4da3b073bac1093e2991ffb8b84c6b772acdb75eaa37e879a1077749cf",
+      "ja_text_bytes": 537,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-67",
+      "article_number": "67",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-67.md",
+      "ja_text_sha256": "b98a707e7ec2679f7f29e233936b212307a7df29ddb875768c1fa6d782e26c7b",
+      "ja_text_bytes": 594,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-68",
+      "article_number": "68",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-68.md",
+      "ja_text_sha256": "19dd57060e7ac6d1303e2d7c938d3e81ec4ff87c9e3351f338f2485d9124c4a9",
+      "ja_text_bytes": 516,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-68-2",
+      "article_number": "68-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-68-2.md",
+      "ja_text_sha256": "a0fc4908e1bf291920d1bba27920764e29cab63225f5ead6dc6203e390e590f2",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-68-3",
+      "article_number": "68-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-68-3.md",
+      "ja_text_sha256": "57f2f62c38f8549e76008ae6ebb08d9fd0ac2f3b43095fe28e60d276b1486955",
+      "ja_text_bytes": 174,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-69",
+      "article_number": "69",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-69.md",
+      "ja_text_sha256": "473498c0a17c4eb4a0a660a28d4c438771abb28394de58494db2b4f07c0c632e",
+      "ja_text_bytes": 198,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-70",
+      "article_number": "70",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-70.md",
+      "ja_text_sha256": "98114b898c02d48f21b85d5264e53a58ebe3993d6ac3439ac28ababbb116b2f6",
+      "ja_text_bytes": 171,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-71",
+      "article_number": "71",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-71.md",
+      "ja_text_sha256": "bddbeb82a9957fac945d0a6bafe16eb7d64dd2f386ee5956390f09147e18f624",
+      "ja_text_bytes": 1082,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-72",
+      "article_number": "72",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-72.md",
+      "ja_text_sha256": "525d7b25fca28cda33447a4c5f441c345929c864757f1856cda0f32474bd3e5d",
+      "ja_text_bytes": 1232,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-72-2",
+      "article_number": "72-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-72-2.md",
+      "ja_text_sha256": "8625295f807a5a9313b788a1293199d5e5cd03a43c4570bfe18d4cb92a98df4f",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-72-3",
+      "article_number": "72-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-72-3.md",
+      "ja_text_sha256": "3d859d0c96c1b715ef0f52d95517d5e8c7d8ac04caf7604e9457e4b415809f73",
+      "ja_text_bytes": 168,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-72-4",
+      "article_number": "72-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-72-4.md",
+      "ja_text_sha256": "5b5dcc652de95a65aa1fa90deca94e887aaf69551d62387560a2081cffef58c2",
+      "ja_text_bytes": 3399,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-72-5",
+      "article_number": "72-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-72-5.md",
+      "ja_text_sha256": "00e5f20a6df465d1f4da1e19f246c589c92260401cdf5bdb6ee7e1ad3092f411",
+      "ja_text_bytes": 347,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-72-6",
+      "article_number": "72-6",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-72-6.md",
+      "ja_text_sha256": "ef43f8334d96d3f2cbba833aade58c41f88e4187254da55642a5295bbb73325c",
+      "ja_text_bytes": 2586,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-73",
+      "article_number": "73",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-73.md",
+      "ja_text_sha256": "cac5d22e3ea7c5ef6729834bfcf94cf88f92074ecd1fd290266f140909b38dfe",
+      "ja_text_bytes": 678,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-73-2",
+      "article_number": "73-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-73-2.md",
+      "ja_text_sha256": "cb0ccbcdbbd312ccf03101e14c59250264c85c1c461fdc4d695a49cac3e50c2b",
+      "ja_text_bytes": 1623,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-74",
+      "article_number": "74",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-74.md",
+      "ja_text_sha256": "4ad158fc87fa38cc6fd60fe204031a3d2385faf26bc7d2b6f8de86dc93ad5084",
+      "ja_text_bytes": 604,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-74-2",
+      "article_number": "74-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-74-2.md",
+      "ja_text_sha256": "9d459f7c9d5cd43747c66f5d24342d9e056fcea728a1a0c373dcbf31c3e4aa67",
+      "ja_text_bytes": 1569,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-74-3",
+      "article_number": "74-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-74-3.md",
+      "ja_text_sha256": "e312fb2ffe7cff3cac41db4e8c21f2c2726fe78245589e1772dc008920755881",
+      "ja_text_bytes": 428,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-74-4",
+      "article_number": "74-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-74-4.md",
+      "ja_text_sha256": "1bf25965e259f153a784b64b798150c204417b46d79cb9d107f25d761560926b",
+      "ja_text_bytes": 1662,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-74-5",
+      "article_number": "74-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-74-5.md",
+      "ja_text_sha256": "64f9c60314e88b9d396d679f71211371d0bf29208bd834aabb12da82cdfa15d8",
+      "ja_text_bytes": 434,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-74-6",
+      "article_number": "74-6",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-74-6.md",
+      "ja_text_sha256": "aaeec92d29e374636230e0bb25c0b34e737296c8b529b2d82033dd3065e39b5f",
+      "ja_text_bytes": 1533,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-74-7",
+      "article_number": "74-7",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-74-7.md",
+      "ja_text_sha256": "608e937668e37ccff4dd243c616c3dd43b2b8819a9424a81ee9ca8d8580b8c40",
+      "ja_text_bytes": 422,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-75",
+      "article_number": "75",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-75.md",
+      "ja_text_sha256": "04d0f5d40c3e8c4da00f1b12e961bab382f892ecc591f3cd9d3905216e1248f1",
+      "ja_text_bytes": 413,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-76",
+      "article_number": "76",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-76.md",
+      "ja_text_sha256": "716558d6fc1a92fabc06fbe351f931c1f50f7c173415d76e4d4388d1d0a8dfaa",
+      "ja_text_bytes": 3331,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-76-2",
+      "article_number": "76-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-76-2.md",
+      "ja_text_sha256": "6df965434b4e8d9a04a0447a64ec3d07afe00f0052b23bf076057785bd18d19c",
+      "ja_text_bytes": 3870,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-76-3",
+      "article_number": "76-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-76-3.md",
+      "ja_text_sha256": "1ec0ea19264935167b3856cca6f2a0db8647dada1d31f54351c7cca058ff5fe5",
+      "ja_text_bytes": 1584,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-77",
+      "article_number": "77",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-77.md",
+      "ja_text_sha256": "28daa498064f4959b0234e3b5eb3ec7986f2a3f8b7a9253326856be3437a5d2e",
+      "ja_text_bytes": 3330,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-77-2",
+      "article_number": "77-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-77-2.md",
+      "ja_text_sha256": "266c4e20cd43e2efce20376e42865b08c843d299eb3d81a6302612f8ecbae9ee",
+      "ja_text_bytes": 2776,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-77-3",
+      "article_number": "77-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-77-3.md",
+      "ja_text_sha256": "656b4054e21576c2509b988756f77bc1b7444e9aa3939a1475b59cf8b7519e03",
+      "ja_text_bytes": 1006,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-77-4",
+      "article_number": "77-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-77-4.md",
+      "ja_text_sha256": "93fe5eef7f6f1c6024c8f6c5355169c582614a2a78f6df91619446218fb3da34",
+      "ja_text_bytes": 4870,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-77-5",
+      "article_number": "77-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-77-5.md",
+      "ja_text_sha256": "1d28fec9ee947e300bfb6f9e356157cd1979344df9628d41e43c5dfadd008583",
+      "ja_text_bytes": 1611,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-77-6",
+      "article_number": "77-6",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-77-6.md",
+      "ja_text_sha256": "db1db38888ead36b62889a1a9da9a01d22011c119a2816f20b8fc686e2d2035e",
+      "ja_text_bytes": 521,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-77-7",
+      "article_number": "77-7",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-77-7.md",
+      "ja_text_sha256": "48ea731e5d944ae6bad65a8f6f3b32bfe91f7c3022ebd7ffbf2af2707e473500",
+      "ja_text_bytes": 329,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-78",
+      "article_number": "78",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-78.md",
+      "ja_text_sha256": "046fbc212d6c0024ad3479c84d5d2e0fa705d6b89b23ca65ca44beb3f8b860a7",
+      "ja_text_bytes": 165,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-79",
+      "article_number": "79",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-79.md",
+      "ja_text_sha256": "9d31f922659d3497dd61076d28cb1c7aa28c283df967b1e1bfbdf0014a16bfd7",
+      "ja_text_bytes": 162,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-80",
+      "article_number": "80",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-80.md",
+      "ja_text_sha256": "490dc305ca2489aa58749447ee5c0503604e8ba944e6044c7152d09137ef1256",
+      "ja_text_bytes": 177,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81",
+      "article_number": "81",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81.md",
+      "ja_text_sha256": "22a30057b21b7055582c9300c02d5b7000782424117205798a7561b5a303ed01",
+      "ja_text_bytes": 372,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-2",
+      "article_number": "81-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-2.md",
+      "ja_text_sha256": "da4dea7a39da45df64254908845bb8f0fe2ff7c0daf1c509afa8434bfd9deabe",
+      "ja_text_bytes": 965,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-3",
+      "article_number": "81-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-3.md",
+      "ja_text_sha256": "998be3e74ed0eb841d0d918bd1fc08a6f9b6935530f9c6352c5d011f261689f8",
+      "ja_text_bytes": 195,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-4",
+      "article_number": "81-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-4.md",
+      "ja_text_sha256": "71bf5da6394494911c08dfd69770d10a9c2abf0978f66904d15399f7110c483e",
+      "ja_text_bytes": 201,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-5",
+      "article_number": "81-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-5.md",
+      "ja_text_sha256": "824af07f6158683a367972a0e7a75fefcdedd0d033a0f8a06af1279479e839df",
+      "ja_text_bytes": 3379,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-6",
+      "article_number": "81-6",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-6.md",
+      "ja_text_sha256": "bb607b1f15ec818f913825ddb7842e374f51bb71fd632a17404838f0f7102498",
+      "ja_text_bytes": 4461,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-7",
+      "article_number": "81-7",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-7.md",
+      "ja_text_sha256": "cde84449dafe37f4ac2a7ea24ce561049a3377a3bfa6cb34b094b224e97a201b",
+      "ja_text_bytes": 3091,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-8",
+      "article_number": "81-8",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-8.md",
+      "ja_text_sha256": "9a88a8584dfe8c11dfc31ec22229d4b5091b31300d8381ca4d1c6f5916ec0998",
+      "ja_text_bytes": 3770,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-9",
+      "article_number": "81-9",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-9.md",
+      "ja_text_sha256": "8475df6f4855770ad0d56aca895e02074977dff3ca1055accaf114201db8c6a0",
+      "ja_text_bytes": 3511,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-10",
+      "article_number": "81-10",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-10.md",
+      "ja_text_sha256": "fbab5b6061f59a873df7a4787a9b54b9cfc9396d59277691d89b40aacce07dbe",
+      "ja_text_bytes": 2649,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-11",
+      "article_number": "81-11",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-11.md",
+      "ja_text_sha256": "34347d949b627c11c5efdc25994cf084edd4ec3456d34503880c8e65cd17a0ca",
+      "ja_text_bytes": 5448,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-12",
+      "article_number": "81-12",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-12.md",
+      "ja_text_sha256": "fc9f0b94f9d542298bd6349d6753af6338fb166c68c3628042ccae02b7efb18b",
+      "ja_text_bytes": 4392,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-17",
+      "article_number": "81-17",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-17.md",
+      "ja_text_sha256": "b2ae9b6886761c3496a84d3a40d53272fb023cee21a1c8deaee9190a99441a53",
+      "ja_text_bytes": 5798,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-18",
+      "article_number": "81-18",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-18.md",
+      "ja_text_sha256": "de21db6044d1a814eb5560c1fd305d145dc862e365d574bbb50aa7a78f92dacc",
+      "ja_text_bytes": 264,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-19",
+      "article_number": "81-19",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-19.md",
+      "ja_text_sha256": "a5509fe84e0c92e0092d61cfa55c7495bccdae5a2d35d86944e7d65688858418",
+      "ja_text_bytes": 426,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-20",
+      "article_number": "81-20",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-20.md",
+      "ja_text_sha256": "1c8f8d717a70dd08923355d886bfda2a9155266d592ae5fa6e3c8138e68b081b",
+      "ja_text_bytes": 2740,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-21",
+      "article_number": "81-21",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-21.md",
+      "ja_text_sha256": "8bd7c38f0638a6058d1c177c5655e19391a8e2258d01126e279c0fdab42d7b4f",
+      "ja_text_bytes": 4402,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-22",
+      "article_number": "81-22",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-22.md",
+      "ja_text_sha256": "14fc9c899b80a7de3310f51e95ff549ef9e4df2ce79badc6689f5abd9a05d6ee",
+      "ja_text_bytes": 1970,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-23",
+      "article_number": "81-23",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-23.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-24",
+      "article_number": "81-24",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-24.md",
+      "ja_text_sha256": "982cff2071232de1ae5a01fc7603cc6627d602b46bb0c7c90c0531188fcee571",
+      "ja_text_bytes": 306,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-25",
+      "article_number": "81-25",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-25.md",
+      "ja_text_sha256": "21147f080b1432ac198b7fc2139deed8cf825d8e40d03cf65ac83a516c9aea53",
+      "ja_text_bytes": 3301,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-26",
+      "article_number": "81-26",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-26.md",
+      "ja_text_sha256": "79e14368a3c57031a611648f77b7da80a3d6a3ee841a45e79510fd48c293322e",
+      "ja_text_bytes": 3555,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-27",
+      "article_number": "81-27",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-27.md",
+      "ja_text_sha256": "97412af913d8e2da795bfc23d687ce5d27b9e8e4046484812dcbcd16a2e7f015",
+      "ja_text_bytes": 2382,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-28",
+      "article_number": "81-28",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-28.md",
+      "ja_text_sha256": "2878489a0a87fc0ca365aaff6521275378ccf31008558f988b62c5e05db48ee7",
+      "ja_text_bytes": 303,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-29",
+      "article_number": "81-29",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-29.md",
+      "ja_text_sha256": "64f071b08f014563b780c9bc2a7c26f2450a8974388c0bcd8d1471b72a1e940e",
+      "ja_text_bytes": 3286,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-30",
+      "article_number": "81-30",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-30.md",
+      "ja_text_sha256": "b338726e2732f006e0279b8de2969166ab2f8d61b25f6631549e85b2903a9e2c",
+      "ja_text_bytes": 3516,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-31",
+      "article_number": "81-31",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-31.md",
+      "ja_text_sha256": "4922cf6ed5241b3faf28b11beefa8e0bc16f7406bb1cfed1f2897ed2c0103a3e",
+      "ja_text_bytes": 2364,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-32",
+      "article_number": "81-32",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-32.md",
+      "ja_text_sha256": "7e854c75c03ccf534c0ee1849bee97445e3cfaba1c1e75e85f3093f04da2b538",
+      "ja_text_bytes": 261,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-33",
+      "article_number": "81-33",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-33.md",
+      "ja_text_sha256": "23c54236080c2f07b0497f0b1128498005a316b8918befed2b5316d71fd62c0a",
+      "ja_text_bytes": 2788,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-34",
+      "article_number": "81-34",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-34.md",
+      "ja_text_sha256": "a6d1373ce45dc1e24465755d5fd15257db67c8aa386622e7de0be9f761dc7de3",
+      "ja_text_bytes": 3221,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-35",
+      "article_number": "81-35",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-35.md",
+      "ja_text_sha256": "8b35f1851ddfd7f7cd131cec1ff0e9b963688e2de0e7d4f365307d8a8398a960",
+      "ja_text_bytes": 1997,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-36",
+      "article_number": "81-36",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-36.md",
+      "ja_text_sha256": "25dc3568bed024d8dcc61573d8fc0cf437b9ad25bce35b605c90c21a5834d112",
+      "ja_text_bytes": 7061,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-37",
+      "article_number": "81-37",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-37.md",
+      "ja_text_sha256": "e697972f425e8954b4f05ab3105949093e9241f4d2376e6bfff7cb424fb99577",
+      "ja_text_bytes": 258,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-38",
+      "article_number": "81-38",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-38.md",
+      "ja_text_sha256": "350c0356bd3dd68d2278dec0802ba356f170c243a5af5d6906bc0d1b54d7dc7c",
+      "ja_text_bytes": 1826,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-39",
+      "article_number": "81-39",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-39.md",
+      "ja_text_sha256": "342f322f123c5a91f19a54b5a07fe801c2b419e6c0c439316dbe499c3f63bb7d",
+      "ja_text_bytes": 3347,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-81-40",
+      "article_number": "81-40",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-81-40.md",
+      "ja_text_sha256": "5ced762efc20a7d5ad6dea93ed10b878cc14f37004e217c28561eb66b3b50608",
+      "ja_text_bytes": 2027,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-82",
+      "article_number": "82",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-82.md",
+      "ja_text_sha256": "c4025d986234950f29d6a4d100c2fc619c192a948cafaa314cf1515631c9a532",
+      "ja_text_bytes": 1846,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-83",
+      "article_number": "83",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-83.md",
+      "ja_text_sha256": "a2805b6878b75ef156b1b48f48c43853bbb1b486c5002eb2f37fb355b9159e0f",
+      "ja_text_bytes": 4481,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-84",
+      "article_number": "84",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-84.md",
+      "ja_text_sha256": "da7611bee3503d2ffa58086d54af37764b2ed75acff692c44514c77a340eab41",
+      "ja_text_bytes": 965,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-84-2",
+      "article_number": "84-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-84-2.md",
+      "ja_text_sha256": "1d7d63d86ca997db57dbd7322fde0cedb8c068fe6b563b05a96ec4a5a8da0d45",
+      "ja_text_bytes": 1400,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-85",
+      "article_number": "85",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-85.md",
+      "ja_text_sha256": "fc2043afab24edc36e6b6b60fb5231a8adfc06d2453027303949a0ba48310687",
+      "ja_text_bytes": 1049,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-86",
+      "article_number": "86",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-86.md",
+      "ja_text_sha256": "d01544382d90b73e74a9e725c69d2b541d7b86e599baaf5dab7477bc1e5b1f2b",
+      "ja_text_bytes": 1741,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-87",
+      "article_number": "87",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-87.md",
+      "ja_text_sha256": "dee93dbb9b51ec53defc7b4ee34a8ea454b96cbd12432020ae4b0e3f890b4ca8",
+      "ja_text_bytes": 1918,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-88",
+      "article_number": "88",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-88.md",
+      "ja_text_sha256": "e1f31f91e18e49503ba30a15119ae8990ff0cb9a9f736a91f4844e64caccc25c",
+      "ja_text_bytes": 962,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-89",
+      "article_number": "89",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-89.md",
+      "ja_text_sha256": "7e2280c9bb352925e0b02561a8276bf98439c934a61b1fbdfee8223f8a61e4bd",
+      "ja_text_bytes": 1860,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-90",
+      "article_number": "90",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-90.md",
+      "ja_text_sha256": "9d0f70507c75e3fde665c9f9fdebe8499607ceb9b9174c8d6ef0e114b52924bd",
+      "ja_text_bytes": 1861,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-90-2",
+      "article_number": "90-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-90-2.md",
+      "ja_text_sha256": "5db855a69fbc250e7f6759ee5bbd18ec7dc273590ff7412ffb553769bfc38a40",
+      "ja_text_bytes": 2277,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-90-3",
+      "article_number": "90-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-90-3.md",
+      "ja_text_sha256": "b681125e015f9af683947e68ee111dcd7c9b2644a4331c333a3f71fc0e881380",
+      "ja_text_bytes": 1379,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-90-4",
+      "article_number": "90-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-90-4.md",
+      "ja_text_sha256": "e80a132b247508a9f5bde50e5fcc7c6c87de35a77901c28ff2c6c7be722d41a4",
+      "ja_text_bytes": 1139,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-90-5",
+      "article_number": "90-5",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-90-5.md",
+      "ja_text_sha256": "730f4b646c7dd8caa1b27d4bf23de3004f25656619458c4e1553948066de71f9",
+      "ja_text_bytes": 963,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-90-6",
+      "article_number": "90-6",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-90-6.md",
+      "ja_text_sha256": "c2fe746c353c978d54a91e0fb9138b5b1a0ffa804c8722c43afad9b9056a1e63",
+      "ja_text_bytes": 885,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-91",
+      "article_number": "91",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-91.md",
+      "ja_text_sha256": "77aafca1a4702a30e2b68b51153e618ebf1f02ceeac3f5f90a0c24752385bbba",
+      "ja_text_bytes": 159,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-92",
+      "article_number": "92",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-92.md",
+      "ja_text_sha256": "316d321e1eda289a1496a39360458a6197e260a515685b74c0633558e0a23fc1",
+      "ja_text_bytes": 1800,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-92-2",
+      "article_number": "92-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-92-2.md",
+      "ja_text_sha256": "f8ea4cd6cf7d49e894180c6186b6263ef8856fd1f9ddf69206c627283ccfdd46",
+      "ja_text_bytes": 266,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-92-3",
+      "article_number": "92-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-92-3.md",
+      "ja_text_sha256": "3d29f1e6042596f92e81c0e0b7254e047ea52a969037c67f2fe85fc541fccb94",
+      "ja_text_bytes": 899,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-93",
+      "article_number": "93",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-93.md",
+      "ja_text_sha256": "10204bb9ce8f8f0627c65c56feb47ec8e125a6588d131ece65e8f3849420d0c2",
+      "ja_text_bytes": 1353,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-94",
+      "article_number": "94",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-94.md",
+      "ja_text_sha256": "e29d52ad33406c8be382b31790859bfaeee85db20d6d2feeab528ce6e258aef0",
+      "ja_text_bytes": 1081,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-94-2",
+      "article_number": "94-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-94-2.md",
+      "ja_text_sha256": "8245305072436fb9e4246519bd1936ae3a4aeed12d9a1b5d9bf123166695ba02",
+      "ja_text_bytes": 1365,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-95",
+      "article_number": "95",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-95.md",
+      "ja_text_sha256": "f579f478b1e61c295229624d04eeddf1e2dc3793c7e0e683858f7e53c5a675ee",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-95-2",
+      "article_number": "95-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-95-2.md",
+      "ja_text_sha256": "e87756c0bed3cc9462073b76e2638c6cf35b791adf844f50ace664a40cbc461e",
+      "ja_text_bytes": 983,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-96",
+      "article_number": "96",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-96.md",
+      "ja_text_sha256": "0a0eff61d33fa8810d74e2712ad06a55ac6a0b2731b42382dceb2dc0f8c89603",
+      "ja_text_bytes": 1443,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-96-2",
+      "article_number": "96-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-96-2.md",
+      "ja_text_sha256": "4d536b9a5c3e806be52d01ebfba06d50040d8f6b9ff36a59aef016233e754e76",
+      "ja_text_bytes": 1688,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-97",
+      "article_number": "97",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-97.md",
+      "ja_text_sha256": "d39ebff364df48a9183b75d2a1134b3898f7bbd9ae25c4a4f9ef6ccbe15a075f",
+      "ja_text_bytes": 5493,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-97-2",
+      "article_number": "97-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-97-2.md",
+      "ja_text_sha256": "1fb16296455726a16b9055b5b74d0df2a47912e7880996dc6a6c38eaed9142fd",
+      "ja_text_bytes": 1823,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-97-3",
+      "article_number": "97-3",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-97-3.md",
+      "ja_text_sha256": "9431b9006d7c64656c252e904a6746a8f89f6db344ee57bb0bdb1648d2dad2b5",
+      "ja_text_bytes": 788,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-97-3-2",
+      "article_number": "97-3-2",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-97-3-2.md",
+      "ja_text_sha256": "b994b80eeb14e3e440be1adab8a2c17390952f367276ede832dc4bf3f5142fdc",
+      "ja_text_bytes": 1922,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-97-4",
+      "article_number": "97-4",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-97-4.md",
+      "ja_text_sha256": "b4950885838d8b539575d102090a44967016ba955076e86cfbcb131afd5db1e5",
+      "ja_text_bytes": 2478,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-98",
+      "article_number": "98",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-98.md",
+      "ja_text_sha256": "2553c7dc027f6088c54221a8bfed15a83d56705b2089e3d3738c5ad4545b85dc",
+      "ja_text_bytes": 693,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-99",
+      "article_number": "99",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-99.md",
+      "ja_text_sha256": "a17f2cf83b31b62e278865e6d30618f72b72b87fe920cd2b0051905a1491aa95",
+      "ja_text_bytes": 849,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-100",
+      "article_number": "100",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-100.md",
+      "ja_text_sha256": "5b77bbe7ee668ef9559d7c637ccd83e42d60670dbb2a3e69ed3880bc24993f1e",
+      "ja_text_bytes": 2642,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-101",
+      "article_number": "101",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-101.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-102",
+      "article_number": "102",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-102.md",
+      "ja_text_sha256": "aeda004630099ba4488109fcd3e896d0d46003f5d970cd5ab5fedda80e026080",
+      "ja_text_bytes": 4297,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-103",
+      "article_number": "103",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-103.md",
+      "ja_text_sha256": "9f3faae34c58b110e881a94f203fd7d54834060dbf076f673df0fa8686213f65",
+      "ja_text_bytes": 387,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "shotoku-zei-hou-shikoukisoku-art-104",
+      "article_number": "104",
+      "filename": "shotoku-zei-hou-shikoukisoku-article-104.md",
+      "ja_text_sha256": "5869cf52b133ec18935f6adef92fc74fa7111431ba7016a585ef5f890cedebb1",
+      "ja_text_bytes": 342,
+      "paragraph_count": 1
+    }
+  ]
+}

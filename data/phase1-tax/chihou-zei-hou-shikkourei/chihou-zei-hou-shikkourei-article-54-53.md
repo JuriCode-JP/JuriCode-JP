@@ -1,0 +1,37 @@
+---
+law_id: 325CO0000000245
+law_name_ja: 地方税法施行令
+law_name_en: (English name pending)
+article_number: 54-53
+article_id: chihou-zei-hou-shikkourei-art-54-53
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325CO0000000245
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　市町村の普通税
+  setsu: 5
+  setsu_name_ja: 第五節　特別土地保有税
+---
+
+# 地方税法施行令 第54-53条(（共有者等に係る遊休土地の判定に関する特例）)
+
+## 原文 (日本語)
+
+### 第五十四条の五十三
+
+第五十四条の三十六の規定（土地に対して課する特別土地保有税に係る部分に限る。）は、共有者等に係る遊休土地の判定について準用する。この場合において、同条中「法第五百九十五条の規定の適用については」とあるのは「法第六百二十一条に規定する遊休土地に該当するかどうかの判定については」と、同条第一項中「他に土地を」とあるのは「当該共有物である土地に隣接する土地を」と、同条第二項中「法第五百八十五条第四項」とあるのは「法第六百二十七条において準用する法第五百八十五条第四項」と、「他に土地を」とあるのは「当該共有物である土地に隣接する土地を」と、同条第四項中「の合計面積が基準面積（同条に規定する基準面積をいう。以下本項、第五十四条の三十九及び第五十四条の四十第二項において同じ。）に満たない」とあるのは「が同条に規定する遊休土地に該当しない」と、「基準面積の判定」とあるのは「同条に規定する遊休土地に該当するかどうかの判定」と読み替えるものとする。

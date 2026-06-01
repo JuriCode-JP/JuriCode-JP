@@ -1,0 +1,176 @@
+---
+law_id: 340M50000040011
+law_name_ja: 所得税法施行規則
+law_name_en: (English name pending)
+article_number: 77-4
+article_id: shotoku-zei-hou-shikoukisoku-art-77-4
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040011
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p1-hashira
+    type: hashira
+    text: 法第二百三条の六第一項第七号（公的年金等の受給者の扶養親族等申告書）に規定する財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p2
+    type: simple
+    text: 法第二百三条の六第一項の規定による申告書を受理した同項に規定する公的年金等の支払者は、当該申告書（同条第五項の規定の適用により当該公的年金等の支払者が提供を受けた当該申告書に記載すべき事項を含む。第九項において同じ。）に、当該公的年金等の支払者の法人番号を付記するものとする。
+    modality: gimu
+    references:
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p3
+    type: simple
+    text: 法第二百三条の六第七項に規定する公的年金等の支払者（次項、第六項及び第七項において「公的年金等の支払者」という。）が同条第七項の規定により帳簿を作成する場合には、その者は、当該帳簿に第七十六条の二第五項各号（給与所得者の源泉徴収に関する申告書に記載すべき事項の電磁的方法による提供等）に掲げる事項を記載しなければならない。
+    modality: gimu
+    references:
+    - 次項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p4
+    type: simple
+    text: 公的年金等の支払者は、前項の帳簿を、最後に法第二百三条の六第七項の規定の適用を受けて提出された同条第一項の規定による申告書に係る第九項ただし書の規定による期限まで保存しなければならない。
+    modality: gimu
+    references:
+    - 前項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p5
+    type: junyou
+    text: 第七十六条の二第七項から第九項までの規定は、法第二百三条の六第七項の規定の適用を受けて同条第一項の規定による申告書を提出した居住者が当該申告書に記載すべき氏名、住所又は個人番号を変更した場合について準用する。
+    modality: unspecified
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p6
+    type: simple
+    text: 法第二百三条の六第七項に規定する財務省令で定める者は、公的年金等の支払者に対して同項の規定による申告書を提出する者及び当該申告書を提出する者の扶養親族のうち法第八十五条第二項に規定する同居特別障害者若しくはその他の特別障害者又は特別障害者以外の障害者である者とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p7
+    type: simple
+    text: 公的年金等の支払者が、法第二百三条の六第一項の規定による申告書に記載されるべき第一項第一号に規定する申告者の氏名及び個人番号その他の事項を記載した帳簿であつて、当該申告書の提出の前に、行政手続における特定の個人を識別するための番号の利用等に関する法律第十四条第二項（提供の要求）の規定による求めに基づく機構保存本人確認情報（住民基本台帳法第三十条の七第四項（都道府県知事から機構への本人確認情報の通知等）に規定する機構保存本人確認情報をいう。）の提供を受けて作成されたものを備えている場合における法第二百三条の六第七項（当該申告者に係る部分に限る。）の規定の適用については、当該帳簿を同項に規定する帳簿に該当するものとして、同項の規定を適用することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p8
+    type: junyou
+    text: 第三項から第五項までの規定は、前項の規定により帳簿を作成する場合について準用する。この場合において、第三項中「第七十六条の二第五項各号（給与所得者の源泉徴収に関する申告書に記載すべき事項の電磁的方法による提供等）に掲げる事項」とあるのは「第七項に規定する機構保存本人確認情報として提供を受けた第一項第一号に規定する申告者の氏名、住所及び個人番号並びにその提供を受けた年月その他参考となるべき事項」と、第五項中「準用する。」とあるのは「準用する。この場合において、第七十六条の二第八項中「第五項各号に掲げる事項」とあるのは、「第七十七条の四第七項（公的年金等の受給者の扶養親族等申告書の記載事項等）に規定する機構保存本人確認情報として提供を受けた同条第一項第一号に規定する申告者の氏名、住所及び個人番号並びにその提供を受けた年月その他参考となるべき事項」と読み替えるものとする。」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+- number: 9
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p9-honbun
+    type: honbun
+    text: 法第二百三条の六第一項に規定する公的年金等の支払者がその公的年金等の支払を受ける居住者から同項の規定による申告書を受理した場合には、当該申告書を、同項に規定する税務署長が当該公的年金等の支払者に対しその提出を求めるまでの間、当該公的年金等の支払者が保存するものとする。
+    modality: gimu
+    references:
+    - 同項
+  - id: shotoku-zei-hou-shikoukisoku-art-77-4-p9-tadashi
+    type: tadashi
+    text: ただし、当該申告書に係る同項に規定する提出期限の属する年の翌年一月十日の翌日から七年を経過する日後においては、この限りでない。
+    modality: jogai
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 4
+  hen_name_ja: 第四編　源泉徴収
+  shou: 3
+  shou_name_ja: 第三章　公的年金等に係る源泉徴収
+---
+
+# 所得税法施行規則 第77-4条(（公的年金等の受給者の扶養親族等申告書の記載事項等）)
+
+## 原文 (日本語)
+
+### 第七十七条の四第一項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-77-4-p1-hashira -->
+法第二百三条の六第一項第七号（公的年金等の受給者の扶養親族等申告書）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+### 第七十七条の四第二項
+
+<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-77-4-p2 -->
+法第二百三条の六第一項の規定による申告書を受理した同項に規定する公的年金等の支払者は、当該申告書（同条第五項の規定の適用により当該公的年金等の支払者が提供を受けた当該申告書に記載すべき事項を含む。第九項において同じ。）に、当該公的年金等の支払者の法人番号を付記するものとする。
+
+### 第七十七条の四第三項
+
+<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-77-4-p3 -->
+法第二百三条の六第七項に規定する公的年金等の支払者（次項、第六項及び第七項において「公的年金等の支払者」という。）が同条第七項の規定により帳簿を作成する場合には、その者は、当該帳簿に第七十六条の二第五項各号（給与所得者の源泉徴収に関する申告書に記載すべき事項の電磁的方法による提供等）に掲げる事項を記載しなければならない。
+
+### 第七十七条の四第四項
+
+<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-77-4-p4 -->
+公的年金等の支払者は、前項の帳簿を、最後に法第二百三条の六第七項の規定の適用を受けて提出された同条第一項の規定による申告書に係る第九項ただし書の規定による期限まで保存しなければならない。
+
+### 第七十七条の四第五項
+
+<!-- segment: junyou id: shotoku-zei-hou-shikoukisoku-art-77-4-p5 -->
+第七十六条の二第七項から第九項までの規定は、法第二百三条の六第七項の規定の適用を受けて同条第一項の規定による申告書を提出した居住者が当該申告書に記載すべき氏名、住所又は個人番号を変更した場合について準用する。
+
+### 第七十七条の四第六項
+
+<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-77-4-p6 -->
+法第二百三条の六第七項に規定する財務省令で定める者は、公的年金等の支払者に対して同項の規定による申告書を提出する者及び当該申告書を提出する者の扶養親族のうち法第八十五条第二項に規定する同居特別障害者若しくはその他の特別障害者又は特別障害者以外の障害者である者とする。
+
+### 第七十七条の四第七項
+
+<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-77-4-p7 -->
+公的年金等の支払者が、法第二百三条の六第一項の規定による申告書に記載されるべき第一項第一号に規定する申告者の氏名及び個人番号その他の事項を記載した帳簿であつて、当該申告書の提出の前に、行政手続における特定の個人を識別するための番号の利用等に関する法律第十四条第二項（提供の要求）の規定による求めに基づく機構保存本人確認情報（住民基本台帳法第三十条の七第四項（都道府県知事から機構への本人確認情報の通知等）に規定する機構保存本人確認情報をいう。）の提供を受けて作成されたものを備えている場合における法第二百三条の六第七項（当該申告者に係る部分に限る。）の規定の適用については、当該帳簿を同項に規定する帳簿に該当するものとして、同項の規定を適用することができる。
+
+### 第七十七条の四第八項
+
+<!-- segment: junyou id: shotoku-zei-hou-shikoukisoku-art-77-4-p8 -->
+第三項から第五項までの規定は、前項の規定により帳簿を作成する場合について準用する。この場合において、第三項中「第七十六条の二第五項各号（給与所得者の源泉徴収に関する申告書に記載すべき事項の電磁的方法による提供等）に掲げる事項」とあるのは「第七項に規定する機構保存本人確認情報として提供を受けた第一項第一号に規定する申告者の氏名、住所及び個人番号並びにその提供を受けた年月その他参考となるべき事項」と、第五項中「準用する。」とあるのは「準用する。この場合において、第七十六条の二第八項中「第五項各号に掲げる事項」とあるのは、「第七十七条の四第七項（公的年金等の受給者の扶養親族等申告書の記載事項等）に規定する機構保存本人確認情報として提供を受けた同条第一項第一号に規定する申告者の氏名、住所及び個人番号並びにその提供を受けた年月その他参考となるべき事項」と読み替えるものとする。」と読み替えるものとする。
+
+### 第七十七条の四第九項
+
+<!-- segment: honbun id: shotoku-zei-hou-shikoukisoku-art-77-4-p9-honbun -->
+法第二百三条の六第一項に規定する公的年金等の支払者がその公的年金等の支払を受ける居住者から同項の規定による申告書を受理した場合には、当該申告書を、同項に規定する税務署長が当該公的年金等の支払者に対しその提出を求めるまでの間、当該公的年金等の支払者が保存するものとする。<!-- segment: tadashi id: shotoku-zei-hou-shikoukisoku-art-77-4-p9-tadashi -->
+ただし、当該申告書に係る同項に規定する提出期限の属する年の翌年一月十日の翌日から七年を経過する日後においては、この限りでない。

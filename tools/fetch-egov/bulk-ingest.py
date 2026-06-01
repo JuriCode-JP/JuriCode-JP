@@ -66,6 +66,19 @@ PHASE_MAP: dict[str, str] = {
     "shouhi-zei-hou": "phase1-tax",
     "souzoku-zei-hou": "phase1-tax",
     "chihou-zei-hou": "phase1-tax",
+    # 税法 施行令・施行規則 (Phase 5b 第1段)
+    "houjin-zei-hou-shikkourei": "phase1-tax",
+    "shotoku-zei-hou-shikkourei": "phase1-tax",
+    "shouhi-zei-hou-shikkourei": "phase1-tax",
+    "souzoku-zei-hou-shikkourei": "phase1-tax",
+    "kokuzei-tsuusoku-hou-shikkourei": "phase1-tax",
+    "chihou-zei-hou-shikkourei": "phase1-tax",
+    "houjin-zei-hou-shikoukisoku": "phase1-tax",
+    "shotoku-zei-hou-shikoukisoku": "phase1-tax",
+    "shouhi-zei-hou-shikoukisoku": "phase1-tax",
+    "souzoku-zei-hou-shikoukisoku": "phase1-tax",
+    "kokuzei-tsuusoku-hou-shikoukisoku": "phase1-tax",
+    "chihou-zei-hou-shikoukisoku": "phase1-tax",
     # 行政
     "chihou-jichi-hou": "phase1-administrative",
     "gyousei-tetsuzuki-hou": "phase1-administrative",
@@ -213,11 +226,10 @@ def run_validate(data_root: Path) -> bool:
             print("  [warn] validate-all script not found, skipping")
             return True
     print(f"\n=== running {validate_script.name} ===")
-    # FU-403: 旧版は `--data-root` を渡していたが validate-all.py 側は argparse
-    # なしで silently 無視していた (偽の green CI 源). 命名を `--path` に揃え、
-    # 非標準 data-root でも実体を検証するように修正.
+    # validate-all.py の --path は「data/ と examples/ を直下に持つ repo root」を期待。
+    # data_root (通常 data/) を渡すと data/data/ を探してヒットゼロになる。REPO_ROOT を渡す。
     proc = subprocess.run(
-        [sys.executable, str(validate_script), "--path", str(data_root)],
+        [sys.executable, str(validate_script), "--path", str(REPO_ROOT)],
         capture_output=False,
     )
     return proc.returncode == 0

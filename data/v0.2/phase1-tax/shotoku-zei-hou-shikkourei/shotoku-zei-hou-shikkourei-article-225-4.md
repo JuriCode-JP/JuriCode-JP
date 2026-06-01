@@ -1,0 +1,59 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: 225-4
+article_id: shotoku-zei-hou-shikkourei-art-225-4
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-225-4-p1-hashira
+    type: hashira
+    text: 法第九十五条第四項第三号（外国税額控除）に規定する国外にある資産の譲渡により生ずる所得として政令で定めるものは、次に掲げる資産の譲渡（第三号に掲げる資産については、伐採又は譲渡）により生ずる所得とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-225-4-p2-hashira
+    type: hashira
+    text: 前項第五号に規定する不動産関連法人とは、その有する資産の価額の総額のうちに次に掲げる資産の価額の合計額の占める割合が百分の五十以上である法人をいう。
+    modality: teigi
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 3
+  shou_name_ja: 第三章　税額控除
+---
+
+# 所得税法施行令 第225-4条(（国外にある資産の譲渡により生ずる所得）)
+
+## 原文 (日本語)
+
+### 第二百二十五条の四第一項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-225-4-p1-hashira -->
+法第九十五条第四項第三号（外国税額控除）に規定する国外にある資産の譲渡により生ずる所得として政令で定めるものは、次に掲げる資産の譲渡（第三号に掲げる資産については、伐採又は譲渡）により生ずる所得とする。
+
+### 第二百二十五条の四第二項
+
+<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-225-4-p2-hashira -->
+前項第五号に規定する不動産関連法人とは、その有する資産の価額の総額のうちに次に掲げる資産の価額の合計額の占める割合が百分の五十以上である法人をいう。

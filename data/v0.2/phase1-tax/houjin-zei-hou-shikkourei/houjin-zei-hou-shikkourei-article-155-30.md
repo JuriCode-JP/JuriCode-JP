@@ -1,0 +1,80 @@
+---
+law_id: 340CO0000000097
+law_name_ja: 法人税法施行令
+law_name_en: (English name pending)
+article_number: 155-30
+article_id: houjin-zei-hou-shikkourei-art-155-30
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-155-30-p1-hashira
+    type: hashira
+    text: 恒久的施設等を有する構成会社等の所在地国の租税に関する法令において、当該恒久的施設等に帰せられる所得について当該構成会社等の所得として法人税又は法人税に相当する税を課することとされている場合において、当該恒久的施設等の各対象会計年度に係る特例適用前個別計算所得等の金額（第百五十五条の十九から前条までの規定の適用がある場合には、その適用後の金額。以下この項及び次項において同じ。）が零を下回るときは、当該構成会社等及び当該恒久的施設等の当該対象会計年度に係る構成会社等個別計算所得等の金額の計算については、次に定めるところによる。
+    modality: unspecified
+    references:
+    - 前条
+    - 次項
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-155-30-p2-hashira
+    type: hashira
+    text: 各対象会計年度における過去対象会計年度において前項の規定の適用がある場合において、恒久的施設等の当該対象会計年度に係る特例適用前個別計算所得等の金額が零を超えるときは、当該恒久的施設等を有する構成会社等及び当該恒久的施設等の当該対象会計年度に係る構成会社等個別計算所得等の金額の計算については、次に定めるところによる。
+    modality: unspecified
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-155-30-p3
+    type: junyou
+    text: 前二項の規定は、恒久的施設等を有する共同支配会社等及び当該恒久的施設等の共同支配会社等個別計算所得等の金額の計算について準用する。この場合において、第一項中「第百五十五条の十九」とあるのは「第百五十五条の十八第一項第二号（個別計算所得等の金額の計算）に規定する特例適用前個別計算所得等の金額をいい、第百五十五条の十九」と、「金額。」とあるのは「金額とする。」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前二項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　内国法人の法人税
+  shou: 2
+  shou_name_ja: 第二章　各対象会計年度の国際最低課税額に対する法人税等
+  setsu: 1
+  setsu_name_ja: 第一節　総則
+---
+
+# 法人税法施行令 第155-30条(（恒久的施設等を有する構成会社等に係る個別計算所得等の金額の計算の特例）)
+
+## 原文 (日本語)
+
+### 第百五十五条の三十第一項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-155-30-p1-hashira -->
+恒久的施設等を有する構成会社等の所在地国の租税に関する法令において、当該恒久的施設等に帰せられる所得について当該構成会社等の所得として法人税又は法人税に相当する税を課することとされている場合において、当該恒久的施設等の各対象会計年度に係る特例適用前個別計算所得等の金額（第百五十五条の十九から前条までの規定の適用がある場合には、その適用後の金額。以下この項及び次項において同じ。）が零を下回るときは、当該構成会社等及び当該恒久的施設等の当該対象会計年度に係る構成会社等個別計算所得等の金額の計算については、次に定めるところによる。
+
+### 第百五十五条の三十第二項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-155-30-p2-hashira -->
+各対象会計年度における過去対象会計年度において前項の規定の適用がある場合において、恒久的施設等の当該対象会計年度に係る特例適用前個別計算所得等の金額が零を超えるときは、当該恒久的施設等を有する構成会社等及び当該恒久的施設等の当該対象会計年度に係る構成会社等個別計算所得等の金額の計算については、次に定めるところによる。
+
+### 第百五十五条の三十第三項
+
+<!-- segment: junyou id: houjin-zei-hou-shikkourei-art-155-30-p3 -->
+前二項の規定は、恒久的施設等を有する共同支配会社等及び当該恒久的施設等の共同支配会社等個別計算所得等の金額の計算について準用する。この場合において、第一項中「第百五十五条の十九」とあるのは「第百五十五条の十八第一項第二号（個別計算所得等の金額の計算）に規定する特例適用前個別計算所得等の金額をいい、第百五十五条の十九」と、「金額。」とあるのは「金額とする。」と読み替えるものとする。

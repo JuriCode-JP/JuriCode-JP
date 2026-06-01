@@ -1,0 +1,153 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: 120-3
+article_id: shotoku-zei-hou-shikkourei-art-120-3
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-120-3-p1
+    type: simple
+    text: 居住者は、その有する第六条第一号から第八号まで（減価償却資産の範囲）に掲げる減価償却資産（次条又は第百二十二条（特別な償却率による償却の方法）の規定の適用を受けるもの並びに第百二十条第一項第一号ロ及び第六号（減価償却資産の償却の方法）並びに前条第一項第一号ロ及び第六号に掲げる減価償却資産を除く。）の償却費の額を当該資産の区分に応じて定められている第百二十条第一項第一号から第五号まで又は前条第一項第一号から第五号までに定める償却の方法に代え当該償却の方法以外の償却の方法（同項第三号イに掲げる減価償却資産（第三項において「鉱業用建築物」という。）にあつては、定率法その他これに準ずる方法を除く。以下この項において同じ。）により計算することについて納税地の所轄税務署長の承認を受けた場合には、当該資産のその承認を受けた日の属する年分以後の各年分の償却費の額の計算については、その承認を受けた償却の方法を選定することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 同項
+    - 次条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-120-3-p2
+    type: simple
+    text: 前項の承認を受けようとする居住者は、その採用しようとする償却の方法の内容、その方法を採用しようとする理由、その方法により償却費の額の計算をしようとする資産の種類（償却の方法の選定の単位を設備の種類とされているものについては、設備の種類とし、二以上の事業所又は船舶を有する居住者で事業所又は船舶ごとに償却の方法を選定しようとする場合にあつては、事業所又は船舶ごとのこれらの種類とする。次項において同じ。）その他財務省令で定める事項を記載した申請書を納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-120-3-p3
+    type: simple
+    text: 税務署長は、前項の申請書の提出があつた場合には、遅滞なく、これを審査し、その申請に係る償却の方法及び資産の種類を承認し、又はその申請に係る償却の方法によつてはその居住者の各年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額の計算が適正に行われ難いと認めるとき（その申請に係る資産の種類が鉱業用建築物である場合に当該償却の方法が定率法その他これに準ずる方法であると認めるときを含む。）は、その申請を却下する。
+    modality: unspecified
+    references:
+    - 前項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-120-3-p4
+    type: simple
+    text: 税務署長は、第一項の承認をした後、その承認に係る償却の方法によりその承認に係る減価償却資産の償却費の額の計算をすることを不適当とする特別の事由が生じたと認める場合には、その承認を取り消すことができる。
+    modality: koka_torikeshi
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-120-3-p5
+    type: simple
+    text: 税務署長は、前二項の処分をするときは、その処分に係る居住者に対し、書面によりその旨を通知する。
+    modality: tetsuduki
+    references:
+    - 前二項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-120-3-p6
+    type: simple
+    text: 第四項の処分があつた場合には、その処分のあつた日の属する年分以後の各年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額を計算する場合のその処分に係る減価償却資産の償却費の額の計算についてその処分の効果が生ずるものとする。
+    modality: gimu
+- number: 7
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-120-3-p7-honbun
+    type: honbun
+    text: 居住者は、第四項の処分を受けた場合には、その処分を受けた日の属する年分の所得税に係る確定申告期限までに、その処分に係る減価償却資産につき、第百二十三条第一項（減価償却資産の償却の方法の選定）に規定する区分（二以上の事業所又は船舶を有する居住者で事業所又は船舶ごとに償却の方法を選定しようとする場合にあつては、事業所又は船舶ごとの当該区分）ごとに、第百二十条第一項又は前条第一項に規定する償却の方法のうちそのよるべき方法を書面により納税地の所轄税務署長に届け出なければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: shotoku-zei-hou-shikkourei-art-120-3-p7-tadashi
+    type: tadashi
+    text: ただし、第百二十条第一項第四号及び前条第一項第四号に掲げる無形固定資産については、この限りでない。
+    modality: jogai
+    references:
+    - 前条
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 1
+  shou_name_ja: 第一章　課税標準の計算
+  setsu: 4
+  setsu_name_ja: 第四節　必要経費等の計算
+  kan: 4
+  kan_name_ja: 第四款　減価償却資産の償却
+  moku: 1
+  moku_name_ja: 第一目　減価償却資産の償却の方法
+---
+
+# 所得税法施行令 第120-3条(（減価償却資産の特別な償却の方法）)
+
+## 原文 (日本語)
+
+### 第百二十条の三第一項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-120-3-p1 -->
+居住者は、その有する第六条第一号から第八号まで（減価償却資産の範囲）に掲げる減価償却資産（次条又は第百二十二条（特別な償却率による償却の方法）の規定の適用を受けるもの並びに第百二十条第一項第一号ロ及び第六号（減価償却資産の償却の方法）並びに前条第一項第一号ロ及び第六号に掲げる減価償却資産を除く。）の償却費の額を当該資産の区分に応じて定められている第百二十条第一項第一号から第五号まで又は前条第一項第一号から第五号までに定める償却の方法に代え当該償却の方法以外の償却の方法（同項第三号イに掲げる減価償却資産（第三項において「鉱業用建築物」という。）にあつては、定率法その他これに準ずる方法を除く。以下この項において同じ。）により計算することについて納税地の所轄税務署長の承認を受けた場合には、当該資産のその承認を受けた日の属する年分以後の各年分の償却費の額の計算については、その承認を受けた償却の方法を選定することができる。
+
+### 第百二十条の三第二項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-120-3-p2 -->
+前項の承認を受けようとする居住者は、その採用しようとする償却の方法の内容、その方法を採用しようとする理由、その方法により償却費の額の計算をしようとする資産の種類（償却の方法の選定の単位を設備の種類とされているものについては、設備の種類とし、二以上の事業所又は船舶を有する居住者で事業所又は船舶ごとに償却の方法を選定しようとする場合にあつては、事業所又は船舶ごとのこれらの種類とする。次項において同じ。）その他財務省令で定める事項を記載した申請書を納税地の所轄税務署長に提出しなければならない。
+
+### 第百二十条の三第三項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-120-3-p3 -->
+税務署長は、前項の申請書の提出があつた場合には、遅滞なく、これを審査し、その申請に係る償却の方法及び資産の種類を承認し、又はその申請に係る償却の方法によつてはその居住者の各年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額の計算が適正に行われ難いと認めるとき（その申請に係る資産の種類が鉱業用建築物である場合に当該償却の方法が定率法その他これに準ずる方法であると認めるときを含む。）は、その申請を却下する。
+
+### 第百二十条の三第四項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-120-3-p4 -->
+税務署長は、第一項の承認をした後、その承認に係る償却の方法によりその承認に係る減価償却資産の償却費の額の計算をすることを不適当とする特別の事由が生じたと認める場合には、その承認を取り消すことができる。
+
+### 第百二十条の三第五項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-120-3-p5 -->
+税務署長は、前二項の処分をするときは、その処分に係る居住者に対し、書面によりその旨を通知する。
+
+### 第百二十条の三第六項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-120-3-p6 -->
+第四項の処分があつた場合には、その処分のあつた日の属する年分以後の各年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額を計算する場合のその処分に係る減価償却資産の償却費の額の計算についてその処分の効果が生ずるものとする。
+
+### 第百二十条の三第七項
+
+<!-- segment: honbun id: shotoku-zei-hou-shikkourei-art-120-3-p7-honbun -->
+居住者は、第四項の処分を受けた場合には、その処分を受けた日の属する年分の所得税に係る確定申告期限までに、その処分に係る減価償却資産につき、第百二十三条第一項（減価償却資産の償却の方法の選定）に規定する区分（二以上の事業所又は船舶を有する居住者で事業所又は船舶ごとに償却の方法を選定しようとする場合にあつては、事業所又は船舶ごとの当該区分）ごとに、第百二十条第一項又は前条第一項に規定する償却の方法のうちそのよるべき方法を書面により納税地の所轄税務署長に届け出なければならない。<!-- segment: tadashi id: shotoku-zei-hou-shikkourei-art-120-3-p7-tadashi -->
+ただし、第百二十条第一項第四号及び前条第一項第四号に掲げる無形固定資産については、この限りでない。

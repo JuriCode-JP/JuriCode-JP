@@ -1,0 +1,40 @@
+---
+law_id: 325M50000040017
+law_name_ja: 相続税法施行規則
+law_name_en: (English name pending)
+article_number: '6'
+article_id: souzoku-zei-hou-shikoukisoku-art-6
+version_date: '1950-03-31'
+source_url: https://laws.e-gov.go.jp/law/325M50000040017
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikoukisoku-art-6-p1-hashira
+    type: hashira
+    text: 施行令第四条の十八第一項に規定する財務省令で定める書類は、同項に規定する事項のほか次に掲げる事項を記載した書類とする。
+    modality: gimu
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+---
+
+# 相続税法施行規則 第6条(（受託者の変更等があつた場合に提出すべき書類の記載事項）)
+
+## 原文 (日本語)
+
+### 第六条
+
+<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-6-p1-hashira -->
+施行令第四条の十八第一項に規定する財務省令で定める書類は、同項に規定する事項のほか次に掲げる事項を記載した書類とする。
