@@ -1,0 +1,67 @@
+---
+law_id: 325CO0000000071
+law_name_ja: 相続税法施行令
+law_name_en: (English name pending)
+article_number: '15'
+article_id: souzoku-zei-hou-shikkourei-art-15
+version_date: '1950-03-31'
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　延納及び物納
+---
+
+# 相続税法施行令 第15条(（担保提供関係書類提出期限延長届出書等の提出）)
+
+## 原文 (日本語)
+
+### 第十五条第一項
+
+法第三十九条第六項に規定する担保提供関係書類提出期限延長届出書を提出しようとする者は、当該担保提供関係書類提出期限延長届出書を同条第一項の申請書に添付して納税地の所轄税務署長に提出しなければならない。
+
+### 第十五条第二項
+
+法第三十九条第一項の規定により同項に規定する担保提供関係書類を同項の申請書に添付して提出した者は、当該申請書の提出後において当該担保提供関係書類の一部が不足していたことを知つた場合には、前項の規定にかかわらず、同条第六項に規定する担保提供関係書類提出期限延長届出書を当該申請書の提出期限の翌日から起算して一月以内に限り、納税地の所轄税務署長に提出することができる。ただし、同条第十一項の規定による当該担保提供関係書類の一部の提出を求める旨の通知があつた場合は、この限りでない。
+
+### 第十五条第三項
+
+法第三十九条第十三項に規定する担保提供関係書類補完期限延長届出書を提出しようとする者は、当該担保提供関係書類補完期限延長届出書を同条第十二項の経過した日の前日までに納税地の所轄税務署長に提出しなければならない。
+
+### 第十五条第四項
+
+法第三十九条第十八項に規定する変更担保提供関係書類提出期限延長届出書を提出しようとする者は、当該変更担保提供関係書類提出期限延長届出書を同条第五項に規定する期限までに納税地の所轄税務署長に提出しなければならない。
+
+### 第十五条第五項
+
+法第三十九条第二項ただし書の規定による担保の変更に係る同条第一項に規定する担保提供関係書類を同条第五項に規定する期限までに提出した者は、当該期限後において当該担保提供関係書類の一部が不足していたことを知つた場合には、前項の規定にかかわらず、同条第十八項に規定する変更担保提供関係書類提出期限延長届出書を同条第五項に規定する期限の翌日から起算して一月以内に限り、納税地の所轄税務署長に提出することができる。ただし、同条第十一項の規定による当該担保提供関係書類の一部の提出を求める旨の通知があつた場合は、この限りでない。

@@ -1,0 +1,37 @@
+---
+law_id: 325CO0000000245
+law_name_ja: 地方税法施行令
+law_name_en: (English name pending)
+article_number: 48-17
+article_id: chihou-zei-hou-shikkourei-art-48-17
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325CO0000000245
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　市町村の普通税
+  setsu: 1
+  setsu_name_ja: 第一節　市町村民税
+---
+
+# 地方税法施行令 第48-17条(（退職手当等に係る特別徴収税額の納期の特例）)
+
+## 原文 (日本語)
+
+### 第四十八条の十七
+
+第四十八条の九の十から第四十八条の九の十二までの規定は、法第三百二十八条の五第三項の規定を適用する場合について準用する。この場合において、第四十八条の九の十中「法第三百二十一条の五の二第一項」とあるのは「法第三百二十八条の五第三項において準用する法第三百二十一条の五の二第一項」と、「法第三百二十一条の五第一項又は第二項ただし書」とあるのは「法第三百二十八条の五第二項」と、「納入」とあるのは「申告納入」と、第四十八条の九の十一中「法第三百二十一条の五の二第一項」とあるのは「法第三百二十八条の五第三項において準用する法第三百二十一条の五の二第一項」と、第四十八条の九の十二中「第四十八条の九の十第三項」とあるのは「第四十八条の十七において準用する第四十八条の九の十第三項」と、「法第三百二十一条の五の二第一項」とあるのは「法第三百二十八条の五第三項において準用する法第三百二十一条の五の二第一項」と、「法第三百二十一条の五第一項又は第二項ただし書」とあるのは「法第三百二十八条の五第二項」と、それぞれ読み替えるものとする。

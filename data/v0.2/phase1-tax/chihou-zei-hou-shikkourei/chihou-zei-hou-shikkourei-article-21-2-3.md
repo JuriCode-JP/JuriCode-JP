@@ -1,0 +1,47 @@
+---
+law_id: 325CO0000000245
+law_name_ja: 地方税法施行令
+law_name_en: (English name pending)
+article_number: 21-2-3
+article_id: chihou-zei-hou-shikkourei-art-21-2-3
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325CO0000000245
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　道府県の普通税
+  setsu: 2
+  setsu_name_ja: 第二節　事業税
+---
+
+# 地方税法施行令 第21-2-3条(（損金の額に算入した分配時調整外国税相当額がある法人の所得の算定の特例）)
+
+## 原文 (日本語)
+
+### 第二十一条の二の三第一項
+
+法第七十二条の二十三第一項第一号の規定により内国法人の事業税の課税標準である各事業年度の所得を算定する場合において、当該内国法人が当該事業年度において法人税法第六十九条の二第一項に規定する分配時調整外国税相当額につき、同項（租税特別措置法第九条の三の二第七項、第九条の六第四項、第九条の六の二第四項、第九条の六の三第四項及び第九条の六の四第四項（これらの規定を同法第六十六条の七第三項の規定によりみなして適用する場合を含む。）の規定により読み替えて適用する場合を含む。）の規定の適用を受けないときは、当該内国法人の事業税の課税標準である各事業年度の所得の算定については、当該分配時調整外国税相当額を損金の額に算入しないものとする。
+
+### 第二十一条の二の三第二項
+
+法第七十二条の二十三第一項第二号の規定により外国法人の事業税の課税標準である各事業年度の所得を算定する場合において、当該外国法人が当該事業年度において法人税法第百四十四条の二の二第一項に規定する分配時調整外国税相当額につき、同項（租税特別措置法第九条の三の二第七項、第九条の六第四項、第九条の六の二第四項、第九条の六の三第四項及び第九条の六の四第四項（これらの規定を同法第六十六条の七第三項の規定によりみなして適用する場合を含む。）の規定により読み替えて適用する場合を含む。）の規定の適用を受けないときは、当該外国法人の事業税の課税標準である各事業年度の所得の算定については、当該分配時調整外国税相当額を損金の額に算入しないものとする。

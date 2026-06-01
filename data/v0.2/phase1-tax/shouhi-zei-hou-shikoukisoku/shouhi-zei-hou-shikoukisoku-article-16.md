@@ -1,0 +1,126 @@
+---
+law_id: 363M50000040053
+law_name_ja: 消費税法施行規則
+law_name_en: (English name pending)
+article_number: '16'
+article_id: shouhi-zei-hou-shikoukisoku-art-16
+version_date: '1988-12-30'
+source_url: https://laws.e-gov.go.jp/law/363M50000040053
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shouhi-zei-hou-shikoukisoku-art-16-p1
+    type: simple
+    text: 法第三十一条第一項に規定する財務省令で定めるところにより証明がされたときは、同項に規定する非課税資産の譲渡等のうち同項に規定する輸出取引等に該当するものを行つた事業者が、当該非課税資産の譲渡等につき、第五条第一項各号に掲げる場合の区分に応じ同項各号に定める書類又は帳簿を整理し、当該非課税資産の譲渡等を行つた日の属する課税期間の末日の翌日から二月（清算中の法人について残余財産が確定した場合には一月とする。次項及び第三項において同じ。）を経過した日から七年間、これを納税地又はその取引に係る事務所、事業所その他これらに準ずるもの（次項において「事務所等」という。）の所在地に保存することにより証明がされたときとする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shouhi-zei-hou-shikoukisoku-art-16-p2
+    type: simple
+    text: 法第三十一条第二項に規定する財務省令で定めるところにより証明がされたときは、同項に規定する資産の輸出をした事業者が、当該資産の輸出につき第五条第一項第一号に定める書類（関税法第七十六条第一項（郵便物の輸出入の簡易手続）に規定する郵便物として当該資産を輸出した場合には、第五条第一項第二号に定める書類）を整理し、当該資産の輸出をした日の属する課税期間の末日の翌日から二月を経過した日から七年間、これを納税地又はその取引に係る事務所等の所在地に保存することにより証明がされたときとする。
+    modality: gimu
+    references:
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shouhi-zei-hou-shikoukisoku-art-16-p3
+    type: simple
+    text: 第一項及び前項に規定する課税期間の末日の翌日から二月を経過した日から五年を経過した日以後の期間におけるこれらの規定による保存は、財務大臣の定める方法によることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shouhi-zei-hou-shikoukisoku-art-16-p4
+    type: simple
+    text: 第一項及び第二項に規定する書類には、これらの書類に係る電磁的記録を含むものとする。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shouhi-zei-hou-shikoukisoku-art-16-p5
+    type: simple
+    text: 第一項又は第二項の規定により前項に規定する電磁的記録を保存する事業者は、当該電磁的記録を、電子計算機を使用して作成する国税関係帳簿書類の保存方法等の特例に関する法律施行規則第四条第一項各号（電子取引の取引情報に係る電磁的記録の保存）に掲げる措置のいずれかを行い、同項に規定する要件に準ずる要件に従つて保存するものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shouhi-zei-hou-shikoukisoku-art-16-p6
+    type: tokusoku
+    text: 第一項、第二項及び前項の規定にかかわらず、これらの規定により第四項に規定する電磁的記録を保存する事業者は、当該電磁的記録を出力することにより作成した書面（整然とした形式及び明瞭な状態で出力したものに限る。）を保存する方法によることができる。この場合において、当該事業者は、当該書面を、第一項又は第二項の規定により保存すべき場所に、これらの規定により保存すべき期間、整理して保存しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　税額控除等
+---
+
+# 消費税法施行規則 第16条(（非課税資産の輸出等を行つた場合の証明）)
+
+## 原文 (日本語)
+
+### 第十六条第一項
+
+<!-- segment: simple id: shouhi-zei-hou-shikoukisoku-art-16-p1 -->
+法第三十一条第一項に規定する財務省令で定めるところにより証明がされたときは、同項に規定する非課税資産の譲渡等のうち同項に規定する輸出取引等に該当するものを行つた事業者が、当該非課税資産の譲渡等につき、第五条第一項各号に掲げる場合の区分に応じ同項各号に定める書類又は帳簿を整理し、当該非課税資産の譲渡等を行つた日の属する課税期間の末日の翌日から二月（清算中の法人について残余財産が確定した場合には一月とする。次項及び第三項において同じ。）を経過した日から七年間、これを納税地又はその取引に係る事務所、事業所その他これらに準ずるもの（次項において「事務所等」という。）の所在地に保存することにより証明がされたときとする。
+
+### 第十六条第二項
+
+<!-- segment: simple id: shouhi-zei-hou-shikoukisoku-art-16-p2 -->
+法第三十一条第二項に規定する財務省令で定めるところにより証明がされたときは、同項に規定する資産の輸出をした事業者が、当該資産の輸出につき第五条第一項第一号に定める書類（関税法第七十六条第一項（郵便物の輸出入の簡易手続）に規定する郵便物として当該資産を輸出した場合には、第五条第一項第二号に定める書類）を整理し、当該資産の輸出をした日の属する課税期間の末日の翌日から二月を経過した日から七年間、これを納税地又はその取引に係る事務所等の所在地に保存することにより証明がされたときとする。
+
+### 第十六条第三項
+
+<!-- segment: simple id: shouhi-zei-hou-shikoukisoku-art-16-p3 -->
+第一項及び前項に規定する課税期間の末日の翌日から二月を経過した日から五年を経過した日以後の期間におけるこれらの規定による保存は、財務大臣の定める方法によることができる。
+
+### 第十六条第四項
+
+<!-- segment: simple id: shouhi-zei-hou-shikoukisoku-art-16-p4 -->
+第一項及び第二項に規定する書類には、これらの書類に係る電磁的記録を含むものとする。
+
+### 第十六条第五項
+
+<!-- segment: simple id: shouhi-zei-hou-shikoukisoku-art-16-p5 -->
+第一項又は第二項の規定により前項に規定する電磁的記録を保存する事業者は、当該電磁的記録を、電子計算機を使用して作成する国税関係帳簿書類の保存方法等の特例に関する法律施行規則第四条第一項各号（電子取引の取引情報に係る電磁的記録の保存）に掲げる措置のいずれかを行い、同項に規定する要件に準ずる要件に従つて保存するものとする。
+
+### 第十六条第六項
+
+<!-- segment: tokusoku id: shouhi-zei-hou-shikoukisoku-art-16-p6 override_flag: true override_target: 前項 -->
+第一項、第二項及び前項の規定にかかわらず、これらの規定により第四項に規定する電磁的記録を保存する事業者は、当該電磁的記録を出力することにより作成した書面（整然とした形式及び明瞭な状態で出力したものに限る。）を保存する方法によることができる。この場合において、当該事業者は、当該書面を、第一項又は第二項の規定により保存すべき場所に、これらの規定により保存すべき期間、整理して保存しなければならない。

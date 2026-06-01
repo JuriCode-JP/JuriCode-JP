@@ -1,0 +1,68 @@
+---
+law_id: 329M50000002023
+law_name_ja: 地方税法施行規則
+law_name_en: (English name pending)
+article_number: 16-23
+article_id: chihou-zei-hou-shikoukisoku-art-16-23
+version_date: '1954-05-13'
+source_url: https://laws.e-gov.go.jp/law/329M50000002023
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-23-p1
+    type: simple
+    text: 政令第五十四条の四十六第二項第一号に規定する総務省令で定める土地は、第十六条の十四第二項に規定する土地とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-23-p2
+    type: simple
+    text: 政令第五十四条の四十六第五項の規定による申告書の提出は、当該申告書に記載した事項についての事実を証する書類を添付してしなければならない。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-23-p3
+    type: simple
+    text: 政令第五十四条の四十六第三項の規定によつて読み替えられた政令第五十四条の三十二第三項に規定する総務省令で定める土地は、同項第二号の最近の取得の第十六条の十四の二各号に掲げる区分に応じ、当該各号に定める土地とする。
+    modality: gimu
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+---
+
+# 地方税法施行規則 第16-23条(（政令第五十四条の四十六第二項第一号の土地等）)
+
+## 原文 (日本語)
+
+### 第十六条の二十三第一項
+
+<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-16-23-p1 -->
+政令第五十四条の四十六第二項第一号に規定する総務省令で定める土地は、第十六条の十四第二項に規定する土地とする。
+
+### 第十六条の二十三第二項
+
+<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-16-23-p2 -->
+政令第五十四条の四十六第五項の規定による申告書の提出は、当該申告書に記載した事項についての事実を証する書類を添付してしなければならない。
+
+### 第十六条の二十三第三項
+
+<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-16-23-p3 -->
+政令第五十四条の四十六第三項の規定によつて読み替えられた政令第五十四条の三十二第三項に規定する総務省令で定める土地は、同項第二号の最近の取得の第十六条の十四の二各号に掲げる区分に応じ、当該各号に定める土地とする。

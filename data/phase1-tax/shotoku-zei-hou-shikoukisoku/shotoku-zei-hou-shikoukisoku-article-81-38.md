@@ -1,0 +1,45 @@
+---
+law_id: 340M50000040011
+law_name_ja: 所得税法施行規則
+law_name_en: (English name pending)
+article_number: 81-38
+article_id: shotoku-zei-hou-shikoukisoku-art-81-38
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040011
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 5
+  hen_name_ja: 第五編　雑則
+  shou: 1
+  shou_name_ja: 第一章　支払調書の提出等の義務
+---
+
+# 所得税法施行規則 第81-38条(（金地金等の譲渡の対価の支払者に提示する書類の範囲等）)
+
+## 原文 (日本語)
+
+### 第八十一条の三十八第一項
+
+第八十一条の六第一項から第五項まで（貯蓄取扱機関等の営業所の長に提示する書類の範囲等）の規定は、令第三百五十条の九第二項（金地金等の譲渡の対価の受領者の告知に係る住民票の写しその他の書類の提示等）において準用する令第三百三十七条第二項各号（告知に係る住民票の写しその他の書類の提示等）に規定する財務省令で定める書類について準用する。この場合において、第八十一条の六第一項第三号中「第三百三十六条第四項（預貯金、株式等に係る利子、配当等の受領者の告知）」とあるのは「第三百五十条の八第四項（金地金等の譲渡の対価の受領者の告知）」と、同条第三項第二号中「第三百三十六条第四項」とあるのは「第三百五十条の八第四項」と、同条第五項中「同項から同条第三項まで」とあるのは「令第三百五十条の八」と、「第三百三十七条第一項」とあるのは「第三百五十条の九第一項（金地金等の譲渡の対価の受領者の告知に係る住民票の写しその他の書類の提示等）」と読み替えるものとする。
+
+### 第八十一条の三十八第二項
+
+法第二百二十四条の六（金地金等の譲渡の対価の受領者の告知）に規定する金地金等の譲渡の同条に規定する対価の同条に規定する支払者が令第三百五十条の八第四項（金地金等の譲渡の対価の受領者の告知）の規定により帳簿を作成する場合には、その者は、当該帳簿に第八十一条の六第八項各号に掲げる事項を記載しなければならない。この場合において、同条第九項の規定は、当該帳簿について準用する。

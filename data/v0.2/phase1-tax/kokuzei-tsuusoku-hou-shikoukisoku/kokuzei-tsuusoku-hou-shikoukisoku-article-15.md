@@ -1,0 +1,54 @@
+---
+law_id: 337M50000040028
+law_name_ja: 国税通則法施行規則
+law_name_en: (English name pending)
+article_number: '15'
+article_id: kokuzei-tsuusoku-hou-shikoukisoku-art-15
+version_date: '1962-04-02'
+source_url: https://laws.e-gov.go.jp/law/337M50000040028
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-shikoukisoku-art-15-p1
+    type: simple
+    text: 法第百二十四条（書類提出者の氏名、住所及び番号の記載）に規定する財務省令で定める書類は、納税申告書（法第二条第六号（定義）に規定する納税申告書をいう。）その他の個人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第五項（定義）に規定する個人番号をいう。）を記載すべき書類の提出に関連し、又はその後続の手続として提出される税務書類（法第百二十四条に規定する税務書類をいう。次項において同じ。）として国税庁長官が定める書類とする。
+    modality: gimu
+    references:
+    - 次項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: kokuzei-tsuusoku-hou-shikoukisoku-art-15-p2
+    type: simple
+    text: 法人課税信託（法人税法第二条第二十九号の二（定義）に規定する法人課税信託をいう。以下この項において同じ。）又は公益信託（公益信託に関する法律（令和六年法律第三十号）第二条第一項第一号（定義）に規定する公益信託をいう。以下この項において同じ。）の受託者が当該法人課税信託又は公益信託について、国税に関する法律に基づき税務署長その他の行政機関の長又はその職員に税務書類を提出する場合には、当該税務書類には、法第百二十四条の規定により記載すべき事項のほか、当該法人課税信託又は公益信託の名称を併せて記載しなければならない。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+---
+
+# 国税通則法施行規則 第15条(（個人番号の記載を要しない書類等）)
+
+## 原文 (日本語)
+
+### 第十五条第一項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-shikoukisoku-art-15-p1 -->
+法第百二十四条（書類提出者の氏名、住所及び番号の記載）に規定する財務省令で定める書類は、納税申告書（法第二条第六号（定義）に規定する納税申告書をいう。）その他の個人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第五項（定義）に規定する個人番号をいう。）を記載すべき書類の提出に関連し、又はその後続の手続として提出される税務書類（法第百二十四条に規定する税務書類をいう。次項において同じ。）として国税庁長官が定める書類とする。
+
+### 第十五条第二項
+
+<!-- segment: simple id: kokuzei-tsuusoku-hou-shikoukisoku-art-15-p2 -->
+法人課税信託（法人税法第二条第二十九号の二（定義）に規定する法人課税信託をいう。以下この項において同じ。）又は公益信託（公益信託に関する法律（令和六年法律第三十号）第二条第一項第一号（定義）に規定する公益信託をいう。以下この項において同じ。）の受託者が当該法人課税信託又は公益信託について、国税に関する法律に基づき税務署長その他の行政機関の長又はその職員に税務書類を提出する場合には、当該税務書類には、法第百二十四条の規定により記載すべき事項のほか、当該法人課税信託又は公益信託の名称を併せて記載しなければならない。

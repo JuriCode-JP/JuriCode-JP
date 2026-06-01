@@ -1,0 +1,53 @@
+---
+law_id: 340M50000040012
+law_name_ja: 法人税法施行規則
+law_name_en: (English name pending)
+article_number: 61-6
+article_id: houjin-zei-hou-shikoukisoku-art-61-6
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040012
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-61-6-p1-zen
+    type: zen_dan
+    text: 法第百四十四条の七（確定申告書の提出期限の延長）において準用する法第七十五条（確定申告書の提出期限の延長）の規定の適用に係る事項については、第三十六条（確定申告書の提出期限の延長申請書の記載事項）の規定を準用する。
+    modality: unspecified
+  - id: houjin-zei-hou-shikoukisoku-art-61-6-p1-kou
+    type: kou_dan
+    text: この場合において、同条第二号中「代表者の氏名」とあるのは、「代表者の氏名及び法第百四十一条各号（課税標準）に定める国内源泉所得に係る事業又は資産の経営又は管理の責任者の氏名」と読み替えるものとする。
+    modality: gimu
+    depends_on: houjin-zei-hou-shikoukisoku-art-61-6-p1-zen
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　外国法人の法人税
+  shou: 2
+  shou_name_ja: 第二章　各事業年度の所得に対する法人税
+  setsu: 4
+  setsu_name_ja: 第四節　申告、納付及び還付
+  kan: 2
+  kan_name_ja: 第二款　確定申告
+---
+
+# 法人税法施行規則 第61-6条(（確定申告書の提出期限の延長）)
+
+## 原文 (日本語)
+
+### 第六十一条の六
+
+<!-- segment: zen_dan id: houjin-zei-hou-shikoukisoku-art-61-6-p1-zen -->
+法第百四十四条の七（確定申告書の提出期限の延長）において準用する法第七十五条（確定申告書の提出期限の延長）の規定の適用に係る事項については、第三十六条（確定申告書の提出期限の延長申請書の記載事項）の規定を準用する。<!-- segment: kou_dan id: houjin-zei-hou-shikoukisoku-art-61-6-p1-kou depends_on: houjin-zei-hou-shikoukisoku-art-61-6-p1-zen -->
+この場合において、同条第二号中「代表者の氏名」とあるのは、「代表者の氏名及び法第百四十一条各号（課税標準）に定める国内源泉所得に係る事業又は資産の経営又は管理の責任者の氏名」と読み替えるものとする。

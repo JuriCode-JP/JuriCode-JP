@@ -1,0 +1,66 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: '138'
+article_id: shotoku-zei-hou-shikkourei-art-138
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-138-p1
+    type: simple
+    text: 居住者が不動産所得、事業所得、山林所得又は雑所得を生ずべき業務の用に供した減価償却資産（第百二十条第一項第六号及び第百二十条の二第一項第六号（減価償却資産の償却の方法）に掲げるものを除く。）で、取得価額（第百二十六条第一項各号又は第二項（減価償却資産の取得価額）の規定により計算した価額をいう。次条第一項において同じ。）が十万円未満であるもの（貸付け（主要な業務として行われるものを除く。）の用に供したものを除く。）又は第百八十一条第一号（資本的支出）に規定する使用可能期間が一年未満であるものについては、第四款（減価償却資産の償却）の規定にかかわらず、その取得価額に相当する金額を、その者のその業務の用に供した年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額の計算上、必要経費に算入する。
+    modality: unspecified
+    references:
+    - 次条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-138-p2
+    type: simple
+    text: 前項に規定する主要な業務として行われる貸付けに該当するかどうかの判定その他同項の規定の適用に関し必要な事項は、財務省令で定める。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　居住者の納税義務
+  shou: 1
+  shou_name_ja: 第一章　課税標準の計算
+  setsu: 4
+  setsu_name_ja: 第四節　必要経費等の計算
+  kan: 6
+  kan_name_ja: 第六款　少額の減価償却資産等の取得価額の必要経費算入
+---
+
+# 所得税法施行令 第138条(（少額の減価償却資産の取得価額の必要経費算入）)
+
+## 原文 (日本語)
+
+### 第百三十八条第一項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-138-p1 -->
+居住者が不動産所得、事業所得、山林所得又は雑所得を生ずべき業務の用に供した減価償却資産（第百二十条第一項第六号及び第百二十条の二第一項第六号（減価償却資産の償却の方法）に掲げるものを除く。）で、取得価額（第百二十六条第一項各号又は第二項（減価償却資産の取得価額）の規定により計算した価額をいう。次条第一項において同じ。）が十万円未満であるもの（貸付け（主要な業務として行われるものを除く。）の用に供したものを除く。）又は第百八十一条第一号（資本的支出）に規定する使用可能期間が一年未満であるものについては、第四款（減価償却資産の償却）の規定にかかわらず、その取得価額に相当する金額を、その者のその業務の用に供した年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額の計算上、必要経費に算入する。
+
+### 第百三十八条第二項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-138-p2 -->
+前項に規定する主要な業務として行われる貸付けに該当するかどうかの判定その他同項の規定の適用に関し必要な事項は、財務省令で定める。

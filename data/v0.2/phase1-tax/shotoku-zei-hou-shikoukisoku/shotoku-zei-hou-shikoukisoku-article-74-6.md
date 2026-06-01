@@ -1,0 +1,52 @@
+---
+law_id: 340M50000040011
+law_name_ja: 所得税法施行規則
+law_name_en: (English name pending)
+article_number: 74-6
+article_id: shotoku-zei-hou-shikoukisoku-art-74-6
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040011
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikoukisoku-art-74-6-p1-zen
+    type: zen_dan
+    text: 第四十七条の二第七項（確定所得申告書に添付すべき書類等）の規定は令第三百十八条の四第一号（給与所得者の特定親族特別控除申告書に関する書類の提出又は提示）に規定する財務省令で定める書類について、第四十七条の二第八項の規定は令第三百十八条の四第二号に規定する財務省令で定める書類について、それぞれ準用する。
+    modality: unspecified
+  - id: shotoku-zei-hou-shikoukisoku-art-74-6-p1-kou
+    type: kou_dan
+    text: この場合において、第四十七条の二第七項中「同項各号列記以外の部分に規定する国外居住扶養親族等（以下この項及び次項において「国外居住扶養親族等」という。）」とあるのは「令第三百十八条の四（給与所得者の特定親族特別控除申告書に関する書類の提出又は提示）に規定する記載がされた同条に規定する特定親族（以下この項及び次項において「特定親族」という。）」と、「国外居住扶養親族等が同条第四項の」とあるのは「特定親族が同条に規定する」と、同項第二号中「国外居住扶養親族等」とあるのは「特定親族」と、同条第八項中「同項の」とあるのは「令第三百十八条の四に規定する」と、「国外居住扶養親族等の」とあるのは「同条に規定する記載がされた特定親族の」と、同項各号中「国外居住扶養親族等」とあるのは「特定親族」と、それぞれ読み替えるものとする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
+    depends_on: shotoku-zei-hou-shikoukisoku-art-74-6-p1-zen
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 4
+  hen_name_ja: 第四編　源泉徴収
+  shou: 1
+  shou_name_ja: 第一章　給与所得に係る源泉徴収
+---
+
+# 所得税法施行規則 第74-6条(（給与所得者の特定親族特別控除申告書に添付すべき書類等）)
+
+## 原文 (日本語)
+
+### 第七十四条の六
+
+<!-- segment: zen_dan id: shotoku-zei-hou-shikoukisoku-art-74-6-p1-zen -->
+第四十七条の二第七項（確定所得申告書に添付すべき書類等）の規定は令第三百十八条の四第一号（給与所得者の特定親族特別控除申告書に関する書類の提出又は提示）に規定する財務省令で定める書類について、第四十七条の二第八項の規定は令第三百十八条の四第二号に規定する財務省令で定める書類について、それぞれ準用する。<!-- segment: kou_dan id: shotoku-zei-hou-shikoukisoku-art-74-6-p1-kou depends_on: shotoku-zei-hou-shikoukisoku-art-74-6-p1-zen -->
+この場合において、第四十七条の二第七項中「同項各号列記以外の部分に規定する国外居住扶養親族等（以下この項及び次項において「国外居住扶養親族等」という。）」とあるのは「令第三百十八条の四（給与所得者の特定親族特別控除申告書に関する書類の提出又は提示）に規定する記載がされた同条に規定する特定親族（以下この項及び次項において「特定親族」という。）」と、「国外居住扶養親族等が同条第四項の」とあるのは「特定親族が同条に規定する」と、同項第二号中「国外居住扶養親族等」とあるのは「特定親族」と、同条第八項中「同項の」とあるのは「令第三百十八条の四に規定する」と、「国外居住扶養親族等の」とあるのは「同条に規定する記載がされた特定親族の」と、同項各号中「国外居住扶養親族等」とあるのは「特定親族」と、それぞれ読み替えるものとする。

@@ -1,0 +1,95 @@
+---
+law_id: 340CO0000000096
+law_name_ja: 所得税法施行令
+law_name_en: (English name pending)
+article_number: 319-9
+article_id: shotoku-zei-hou-shikkourei-art-319-9
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000096
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-319-9-p1
+    type: simple
+    text: 法第二百三条の六第二項（公的年金等の受給者の扶養親族等申告書）に規定する公的年金等の支払者は、同項の規定による国税庁長官の承認を受けようとする場合には、その旨及び当該承認を受けようとする事由その他財務省令で定める事項を記載した申請書を、財務省令で定める日までに、当該公的年金等に係る所得税の法第十七条（源泉徴収に係る所得税の納税地）の規定による納税地（法第十八条第二項（納税地の指定）の規定による指定があつた場合には、その指定をされた納税地）の所轄税務署長を経由して、国税庁長官に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-319-9-p2
+    type: simple
+    text: 国税庁長官は、前項の規定による申請書の提出を受けた場合には、当該申請書を提出した同項の公的年金等の支払者が当該申請書を提出した日の属する年において受理した法第二百三条の六第一項の規定による申告書（以下この項において「公的年金等の受給者の扶養親族等申告書」という。）に記載された事項について各人別の記録があり、かつ、同条第二項の規定により提出することができる公的年金等の受給者の扶養親族等申告書（第四項において「簡易な公的年金等の受給者の扶養親族等申告書」という。）に基づき法第四編第三章の二（公的年金等に係る源泉徴収）の規定による源泉徴収を行うこととすることが適当であると認めるときは当該申請を承認し、これらの事由がないと認めるときは当該申請を却下する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-319-9-p3
+    type: simple
+    text: 国税庁長官は、前項の承認又は却下の処分をするときは、第一項の申請書を提出した同項の公的年金等の支払者に対し、書面によりその旨を通知する。
+    modality: tetsuduki
+    references:
+    - 同項
+    - 前項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-319-9-p4
+    type: junyou
+    text: 国税庁長官は、第二項の承認をした後、その承認を受けた第一項の公的年金等の支払者について簡易な公的年金等の受給者の扶養親族等申告書に基づいて法第四編第三章の二の規定による源泉徴収を行うことが適当でなくなつたと認める場合には、その承認を取り消すことができる。この場合において、前項の規定は、当該取消しについて準用する。
+    modality: unspecified
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 4
+  hen_name_ja: 第四編　源泉徴収
+  shou: 2
+  shou_name_ja: 第二章　公的年金等に係る源泉徴収
+---
+
+# 所得税法施行令 第319-9条(（簡易な公的年金等の受給者の扶養親族等申告書の提出に係る国税庁長官の承認に関する手続）)
+
+## 原文 (日本語)
+
+### 第三百十九条の九第一項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-319-9-p1 -->
+法第二百三条の六第二項（公的年金等の受給者の扶養親族等申告書）に規定する公的年金等の支払者は、同項の規定による国税庁長官の承認を受けようとする場合には、その旨及び当該承認を受けようとする事由その他財務省令で定める事項を記載した申請書を、財務省令で定める日までに、当該公的年金等に係る所得税の法第十七条（源泉徴収に係る所得税の納税地）の規定による納税地（法第十八条第二項（納税地の指定）の規定による指定があつた場合には、その指定をされた納税地）の所轄税務署長を経由して、国税庁長官に提出しなければならない。
+
+### 第三百十九条の九第二項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-319-9-p2 -->
+国税庁長官は、前項の規定による申請書の提出を受けた場合には、当該申請書を提出した同項の公的年金等の支払者が当該申請書を提出した日の属する年において受理した法第二百三条の六第一項の規定による申告書（以下この項において「公的年金等の受給者の扶養親族等申告書」という。）に記載された事項について各人別の記録があり、かつ、同条第二項の規定により提出することができる公的年金等の受給者の扶養親族等申告書（第四項において「簡易な公的年金等の受給者の扶養親族等申告書」という。）に基づき法第四編第三章の二（公的年金等に係る源泉徴収）の規定による源泉徴収を行うこととすることが適当であると認めるときは当該申請を承認し、これらの事由がないと認めるときは当該申請を却下する。
+
+### 第三百十九条の九第三項
+
+<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-319-9-p3 -->
+国税庁長官は、前項の承認又は却下の処分をするときは、第一項の申請書を提出した同項の公的年金等の支払者に対し、書面によりその旨を通知する。
+
+### 第三百十九条の九第四項
+
+<!-- segment: junyou id: shotoku-zei-hou-shikkourei-art-319-9-p4 -->
+国税庁長官は、第二項の承認をした後、その承認を受けた第一項の公的年金等の支払者について簡易な公的年金等の受給者の扶養親族等申告書に基づいて法第四編第三章の二の規定による源泉徴収を行うことが適当でなくなつたと認める場合には、その承認を取り消すことができる。この場合において、前項の規定は、当該取消しについて準用する。

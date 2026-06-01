@@ -1,0 +1,192 @@
+---
+law_id: 340CO0000000097
+law_name_ja: 法人税法施行令
+law_name_en: (English name pending)
+article_number: '178'
+article_id: houjin-zei-hou-shikkourei-art-178
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p1-hashira
+    type: hashira
+    text: 法第百三十八条第一項第三号（国内源泉所得）に規定する政令で定める所得は、次に掲げる所得とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p2
+    type: simple
+    text: 前項第四号イに規定する株式等の買集めとは、金融商品取引所（金融商品取引法第二条第十六項（定義）に規定する金融商品取引所をいう。第九項において同じ。）又は同条第十三項に規定する認可金融商品取引業協会がその会員（同条第十九項に規定する取引参加者を含む。）に対し特定の銘柄の株式につき価格の変動その他売買状況等に異常な動きをもたらす基因となると認められる相当数の株式の買集めがあり、又はその疑いがあるものとしてその売買内容等につき報告又は資料の提出を求めた場合における買集めその他これに類する買集めをいう。
+    modality: teigi
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p3
+    type: simple
+    text: 第一項第四号イに規定する特殊関係者とは、同号イの内国法人の役員又は主要な株主等（同号イに規定する株式等の買集めをした者から当該株式等を取得することによりその内国法人の主要な株主等となることとなる者を含む。）、これらの者の親族、これらの者の支配する法人、その内国法人の主要な取引先その他その内国法人とこれらに準ずる特殊の関係のある者をいう。
+    modality: teigi
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p4-hashira
+    type: hashira
+    text: 第一項第四号ロに規定する特殊関係株主等とは、次に掲げる者をいう。
+    modality: teigi
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p5-hashira
+    type: hashira
+    text: 前項第三号及び第十項第三号において、組合契約とは次の各号に掲げる契約をいい、組合財産とは当該各号に掲げる契約の区分に応じ当該各号に定めるものをいう。
+    modality: teigi
+    references:
+    - 前項
+- number: 6
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p6-hashira
+    type: hashira
+    text: 第一項第四号ロに規定する株式等の譲渡は、次に掲げる要件を満たす場合の同号ロの外国法人の当該譲渡の日の属する事業年度（以下この項及び第九項において「譲渡事業年度」という。）における第二号に規定する株式又は出資の譲渡に限るものとする。
+    modality: gimu
+- number: 7
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p7-hashira
+    type: hashira
+    text: 次に掲げる場合のいずれかに該当するときは、第一項第四号ロの外国法人を含む同号ロの内国法人の特殊関係株主等が前項第二号に掲げる要件を満たす同号に規定する株式又は出資の譲渡をしたものとして、同項の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+- number: 8
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p8-hashira
+    type: hashira
+    text: 第一項第五号に規定する不動産関連法人とは、その株式の譲渡の日から起算して三百六十五日前の日から当該譲渡の直前の時までの間のいずれかの時において、その有する資産の価額の総額のうちに次に掲げる資産の価額の合計額の占める割合が百分の五十以上である法人をいう。
+    modality: teigi
+- number: 9
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p9-hashira
+    type: hashira
+    text: 第一項第五号に規定する株式の譲渡は、次に掲げる株式又は出資の譲渡に限るものとする。
+    modality: gimu
+- number: 10
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p10-hashira
+    type: hashira
+    text: 前項に規定する特殊関係株主等とは、次に掲げる者をいう。
+    modality: teigi
+    references:
+    - 前項
+- number: 11
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-178-p11
+    type: simple
+    text: 第六項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　外国法人の法人税
+  shou: 1
+  shou_name_ja: 第一章　国内源泉所得
+---
+
+# 法人税法施行令 第178条(（国内にある資産の譲渡により生ずる所得）)
+
+## 原文 (日本語)
+
+### 第百七十八条第一項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-178-p1-hashira -->
+法第百三十八条第一項第三号（国内源泉所得）に規定する政令で定める所得は、次に掲げる所得とする。
+
+### 第百七十八条第二項
+
+<!-- segment: simple id: houjin-zei-hou-shikkourei-art-178-p2 -->
+前項第四号イに規定する株式等の買集めとは、金融商品取引所（金融商品取引法第二条第十六項（定義）に規定する金融商品取引所をいう。第九項において同じ。）又は同条第十三項に規定する認可金融商品取引業協会がその会員（同条第十九項に規定する取引参加者を含む。）に対し特定の銘柄の株式につき価格の変動その他売買状況等に異常な動きをもたらす基因となると認められる相当数の株式の買集めがあり、又はその疑いがあるものとしてその売買内容等につき報告又は資料の提出を求めた場合における買集めその他これに類する買集めをいう。
+
+### 第百七十八条第三項
+
+<!-- segment: simple id: houjin-zei-hou-shikkourei-art-178-p3 -->
+第一項第四号イに規定する特殊関係者とは、同号イの内国法人の役員又は主要な株主等（同号イに規定する株式等の買集めをした者から当該株式等を取得することによりその内国法人の主要な株主等となることとなる者を含む。）、これらの者の親族、これらの者の支配する法人、その内国法人の主要な取引先その他その内国法人とこれらに準ずる特殊の関係のある者をいう。
+
+### 第百七十八条第四項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-178-p4-hashira -->
+第一項第四号ロに規定する特殊関係株主等とは、次に掲げる者をいう。
+
+### 第百七十八条第五項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-178-p5-hashira -->
+前項第三号及び第十項第三号において、組合契約とは次の各号に掲げる契約をいい、組合財産とは当該各号に掲げる契約の区分に応じ当該各号に定めるものをいう。
+
+### 第百七十八条第六項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-178-p6-hashira -->
+第一項第四号ロに規定する株式等の譲渡は、次に掲げる要件を満たす場合の同号ロの外国法人の当該譲渡の日の属する事業年度（以下この項及び第九項において「譲渡事業年度」という。）における第二号に規定する株式又は出資の譲渡に限るものとする。
+
+### 第百七十八条第七項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-178-p7-hashira -->
+次に掲げる場合のいずれかに該当するときは、第一項第四号ロの外国法人を含む同号ロの内国法人の特殊関係株主等が前項第二号に掲げる要件を満たす同号に規定する株式又は出資の譲渡をしたものとして、同項の規定を適用する。
+
+### 第百七十八条第八項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-178-p8-hashira -->
+第一項第五号に規定する不動産関連法人とは、その株式の譲渡の日から起算して三百六十五日前の日から当該譲渡の直前の時までの間のいずれかの時において、その有する資産の価額の総額のうちに次に掲げる資産の価額の合計額の占める割合が百分の五十以上である法人をいう。
+
+### 第百七十八条第九項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-178-p9-hashira -->
+第一項第五号に規定する株式の譲渡は、次に掲げる株式又は出資の譲渡に限るものとする。
+
+### 第百七十八条第十項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-178-p10-hashira -->
+前項に規定する特殊関係株主等とは、次に掲げる者をいう。
+
+### 第百七十八条第十一項
+
+<!-- segment: simple id: houjin-zei-hou-shikkourei-art-178-p11 -->
+第六項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。

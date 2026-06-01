@@ -1,0 +1,205 @@
+---
+law_id: 325CO0000000071
+law_name_ja: 相続税法施行令
+law_name_en: (English name pending)
+article_number: '34'
+article_id: souzoku-zei-hou-shikkourei-art-34
+version_date: '1950-03-31'
+source_url: https://laws.e-gov.go.jp/law/325CO0000000071
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p1
+    type: simple
+    text: 法第六十六条の二第一項に規定する政令で定める金額は、第一号に掲げる金額から第二号に掲げる金額を控除した残額とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p2
+    type: simple
+    text: 前項第一号の財産の価額は、被相続人の相続開始の時における時価（地上権（法第二十三条に規定する地上権をいう。）、永小作権又は定期金給付契約に関する権利にあつては、同条から法第二十五条までの規定に準じて評価した金額）により、同項第二号イの債務の金額は、その時の現況による。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p3-hashira
+    type: hashira
+    text: 法第六十六条の二第一項及び第二項第二号に規定する政令で定める特殊の関係のある者は、次に掲げる者とする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p4-hashira
+    type: hashira
+    text: 法第六十六条の二第二項第一号に規定する政令で定める一般社団法人又は一般財団法人は、次に掲げるものとする。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p5
+    type: simple
+    text: 法第六十六条の二第二項第一号に規定する一般社団法人等が被相続人の相続の開始前五年以内に行われた合併に係る合併法人（一般社団法人及び一般財団法人に関する法律第二百四十四条第一号（吸収合併契約）に規定する吸収合併存続法人又は同法第二百五十四条第二号（新設合併契約）に規定する新設合併設立法人をいう。第七項において同じ。）である場合において、当該被相続人が当該期間内のいずれかの時において当該合併に係る被合併法人（一般社団法人及び一般財団法人に関する法律第二百四十四条第一号に規定する吸収合併消滅法人又は同法第二百五十四条第一号に規定する新設合併消滅法人をいう。次項及び第七項において同じ。）の理事であつたときは、法第六十六条の二第一項の規定の適用については、当該被相続人は当該一般社団法人等の理事でなくなつた日から五年を経過していない者とみなす。
+    modality: unspecified
+    references:
+    - 次項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p6
+    type: simple
+    text: 前項の場合における法第六十六条の二第二項第三号ロの規定の適用については、被合併法人同族理事（前項の合併に係る被合併法人の理事のうち、被相続人又は当該被相続人と第三項に規定する特殊の関係のある者をいう。）の数の理事の総数のうちに占める割合が二分の一を超える期間は、同号ロの二分の一を超える期間に該当するものとみなす。
+    modality: unspecified
+    references:
+    - 前項
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p7
+    type: simple
+    text: 法第六十六条の二第一項の規定の適用がある場合において、同項の特定一般社団法人等（被相続人の相続の開始前に当該特定一般社団法人等を合併法人とする合併があつた場合には、当該合併に係る被合併法人を含む。）が当該相続の開始前に贈与又は遺贈により取得した財産について法第六十六条第四項において準用する同条第一項又は第二項の規定により課された贈与税又は相続税（当該遺贈をした者の死亡につき当該特定一般社団法人等が法第六十六条の二第一項の規定の適用を受けた場合における当該相続税を除く。）の税額（法第六十六条第五項の規定による控除後の税額とし、延滞税、利子税、過少申告加算税、無申告加算税及び重加算税に相当する税額を除く。）に相当する金額（既に法第六十六条の二第三項の規定により控除された金額を除く。以下この項において「控除対象金額」という。）があるときは、法第六十六条の二第一項の規定により当該特定一般社団法人等に課される相続税の額については、当該控除対象金額（当該控除対象金額が当該相続税の額を超える場合には、当該相続税の額）を控除する。
+    modality: unspecified
+    references:
+    - 同項
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p8
+    type: simple
+    text: 法第六十六条の二第一項の規定により特定一般社団法人等に相続税が課される場合における当該特定一般社団法人等に係る法第二十七条第一項の規定の適用については、同項中「その相続の開始があつた」とあるのは、「当該被相続人が死亡した」とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 9
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p9
+    type: simple
+    text: 法第六十六条の二第一項の規定により特定一般社団法人等が遺贈により取得したものとみなされる財産については、法第六十六条第四項の規定は、適用しない。
+    modality: jogai
+- number: 10
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p10-zen
+    type: zen_dan
+    text: 法第六十六条の二第一項の規定の適用がある場合において、同項の特定一般社団法人等が被相続人から遺贈により取得した財産について法第六十六条第四項の規定の適用があるときは、当該特定一般社団法人等の相続税の額からの控除については、まず同条第五項の規定による控除をした後において、法第六十六条の二第三項の規定による控除をするものとする。
+    modality: gimu
+    references:
+    - 同項
+  - id: souzoku-zei-hou-shikkourei-art-34-p10-kou
+    type: kou_dan
+    text: この場合において、法第六十六条第五項の規定により控除をする金額は、同項の規定による控除前の相続税の額に、当該財産の価額が当該特定一般社団法人等に係る相続税の課税価格のうちに占める割合を乗じて計算した金額を限度とする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: souzoku-zei-hou-shikkourei-art-34-p10-zen
+- number: 11
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-34-p11
+    type: simple
+    text: 法第六十六条の二第一項の規定の適用がある場合において、同項の特定一般社団法人等が被相続人から遺贈により取得した財産があるとき（前項の規定に該当するときを除く。）は、当該財産の価額は、相続税の課税価格に算入しない。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 6
+  shou_name_ja: 第六章　雑則
+---
+
+# 相続税法施行令 第34条(（特定一般社団法人等の純資産額の算定等）)
+
+## 原文 (日本語)
+
+### 第三十四条第一項
+
+<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-34-p1 -->
+法第六十六条の二第一項に規定する政令で定める金額は、第一号に掲げる金額から第二号に掲げる金額を控除した残額とする。
+
+### 第三十四条第二項
+
+<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-34-p2 -->
+前項第一号の財産の価額は、被相続人の相続開始の時における時価（地上権（法第二十三条に規定する地上権をいう。）、永小作権又は定期金給付契約に関する権利にあつては、同条から法第二十五条までの規定に準じて評価した金額）により、同項第二号イの債務の金額は、その時の現況による。
+
+### 第三十四条第三項
+
+<!-- segment: hashira id: souzoku-zei-hou-shikkourei-art-34-p3-hashira -->
+法第六十六条の二第一項及び第二項第二号に規定する政令で定める特殊の関係のある者は、次に掲げる者とする。
+
+### 第三十四条第四項
+
+<!-- segment: hashira id: souzoku-zei-hou-shikkourei-art-34-p4-hashira -->
+法第六十六条の二第二項第一号に規定する政令で定める一般社団法人又は一般財団法人は、次に掲げるものとする。
+
+### 第三十四条第五項
+
+<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-34-p5 -->
+法第六十六条の二第二項第一号に規定する一般社団法人等が被相続人の相続の開始前五年以内に行われた合併に係る合併法人（一般社団法人及び一般財団法人に関する法律第二百四十四条第一号（吸収合併契約）に規定する吸収合併存続法人又は同法第二百五十四条第二号（新設合併契約）に規定する新設合併設立法人をいう。第七項において同じ。）である場合において、当該被相続人が当該期間内のいずれかの時において当該合併に係る被合併法人（一般社団法人及び一般財団法人に関する法律第二百四十四条第一号に規定する吸収合併消滅法人又は同法第二百五十四条第一号に規定する新設合併消滅法人をいう。次項及び第七項において同じ。）の理事であつたときは、法第六十六条の二第一項の規定の適用については、当該被相続人は当該一般社団法人等の理事でなくなつた日から五年を経過していない者とみなす。
+
+### 第三十四条第六項
+
+<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-34-p6 -->
+前項の場合における法第六十六条の二第二項第三号ロの規定の適用については、被合併法人同族理事（前項の合併に係る被合併法人の理事のうち、被相続人又は当該被相続人と第三項に規定する特殊の関係のある者をいう。）の数の理事の総数のうちに占める割合が二分の一を超える期間は、同号ロの二分の一を超える期間に該当するものとみなす。
+
+### 第三十四条第七項
+
+<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-34-p7 -->
+法第六十六条の二第一項の規定の適用がある場合において、同項の特定一般社団法人等（被相続人の相続の開始前に当該特定一般社団法人等を合併法人とする合併があつた場合には、当該合併に係る被合併法人を含む。）が当該相続の開始前に贈与又は遺贈により取得した財産について法第六十六条第四項において準用する同条第一項又は第二項の規定により課された贈与税又は相続税（当該遺贈をした者の死亡につき当該特定一般社団法人等が法第六十六条の二第一項の規定の適用を受けた場合における当該相続税を除く。）の税額（法第六十六条第五項の規定による控除後の税額とし、延滞税、利子税、過少申告加算税、無申告加算税及び重加算税に相当する税額を除く。）に相当する金額（既に法第六十六条の二第三項の規定により控除された金額を除く。以下この項において「控除対象金額」という。）があるときは、法第六十六条の二第一項の規定により当該特定一般社団法人等に課される相続税の額については、当該控除対象金額（当該控除対象金額が当該相続税の額を超える場合には、当該相続税の額）を控除する。
+
+### 第三十四条第八項
+
+<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-34-p8 -->
+法第六十六条の二第一項の規定により特定一般社団法人等に相続税が課される場合における当該特定一般社団法人等に係る法第二十七条第一項の規定の適用については、同項中「その相続の開始があつた」とあるのは、「当該被相続人が死亡した」とする。
+
+### 第三十四条第九項
+
+<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-34-p9 -->
+法第六十六条の二第一項の規定により特定一般社団法人等が遺贈により取得したものとみなされる財産については、法第六十六条第四項の規定は、適用しない。
+
+### 第三十四条第十項
+
+<!-- segment: zen_dan id: souzoku-zei-hou-shikkourei-art-34-p10-zen -->
+法第六十六条の二第一項の規定の適用がある場合において、同項の特定一般社団法人等が被相続人から遺贈により取得した財産について法第六十六条第四項の規定の適用があるときは、当該特定一般社団法人等の相続税の額からの控除については、まず同条第五項の規定による控除をした後において、法第六十六条の二第三項の規定による控除をするものとする。<!-- segment: kou_dan id: souzoku-zei-hou-shikkourei-art-34-p10-kou depends_on: souzoku-zei-hou-shikkourei-art-34-p10-zen -->
+この場合において、法第六十六条第五項の規定により控除をする金額は、同項の規定による控除前の相続税の額に、当該財産の価額が当該特定一般社団法人等に係る相続税の課税価格のうちに占める割合を乗じて計算した金額を限度とする。
+
+### 第三十四条第十一項
+
+<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-34-p11 -->
+法第六十六条の二第一項の規定の適用がある場合において、同項の特定一般社団法人等が被相続人から遺贈により取得した財産があるとき（前項の規定に該当するときを除く。）は、当該財産の価額は、相続税の課税価格に算入しない。

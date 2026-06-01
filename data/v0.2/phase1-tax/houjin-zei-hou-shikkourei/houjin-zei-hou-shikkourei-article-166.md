@@ -1,0 +1,60 @@
+---
+law_id: 340CO0000000097
+law_name_ja: 法人税法施行令
+law_name_en: (English name pending)
+article_number: '166'
+article_id: houjin-zei-hou-shikkourei-art-166
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-166-p1-hashira
+    type: hashira
+    text: 法第八十四条第二項第十号イ（退職年金等積立金の額の計算）に規定する政令で定めるところにより計算した金額は、同号イに規定する組合の当該事業年度開始の時における次に掲げる金額の合計額とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-166-p2
+    type: junyou
+    text: 前項の規定は、法第八十四条第二項第十号ロに規定する政令で定めるところにより計算した金額について準用する。この場合において、前項中「同号イに規定する組合」とあるのは「同号ロに規定する市町村連合会」と、同項第一号中「第二十四条の二」とあるのは「第三十八条第一項（準用規定）において準用する同法第二十四条の二」と、「第十六条の二第一項第一号」とあるのは「第二十条（準用規定）において準用する同令第十六条の二第一項第一号」と、同項第二号から第四号までの規定中「地方公務員等共済組合法施行令」とあるのは「地方公務員等共済組合法施行令第二十条において準用する同令」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　内国法人の法人税
+  shou: 3
+  shou_name_ja: 第三章　退職年金等積立金に対する法人税
+---
+
+# 法人税法施行令 第166条(（退職等年金給付組合積立金に係る退職年金等積立金額の計算）)
+
+## 原文 (日本語)
+
+### 第百六十六条第一項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-166-p1-hashira -->
+法第八十四条第二項第十号イ（退職年金等積立金の額の計算）に規定する政令で定めるところにより計算した金額は、同号イに規定する組合の当該事業年度開始の時における次に掲げる金額の合計額とする。
+
+### 第百六十六条第二項
+
+<!-- segment: junyou id: houjin-zei-hou-shikkourei-art-166-p2 -->
+前項の規定は、法第八十四条第二項第十号ロに規定する政令で定めるところにより計算した金額について準用する。この場合において、前項中「同号イに規定する組合」とあるのは「同号ロに規定する市町村連合会」と、同項第一号中「第二十四条の二」とあるのは「第三十八条第一項（準用規定）において準用する同法第二十四条の二」と、「第十六条の二第一項第一号」とあるのは「第二十条（準用規定）において準用する同令第十六条の二第一項第一号」と、同項第二号から第四号までの規定中「地方公務員等共済組合法施行令」とあるのは「地方公務員等共済組合法施行令第二十条において準用する同令」と読み替えるものとする。

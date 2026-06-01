@@ -1,0 +1,180 @@
+---
+law_id: 340CO0000000097
+law_name_ja: 法人税法施行令
+law_name_en: (English name pending)
+article_number: 4-4
+article_id: houjin-zei-hou-shikkourei-art-4-4
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-4-4-p1-hashira
+    type: hashira
+    text: 法第二条第十二号の十九イ（定義）に規定する政令で定める場所は、国内にある次に掲げる場所とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-4-4-p2
+    type: simple
+    text: 法第二条第十二号の十九ロに規定する政令で定めるものは、外国法人の国内にある長期建設工事現場等（外国法人が国内において長期建設工事等（建設若しくは据付けの工事又はこれらの指揮監督の役務の提供で一年を超えて行われるものをいう。以下この項及び第六項において同じ。）を行う場所をいい、外国法人の国内における長期建設工事等を含む。同項において同じ。）とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 3
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-4-4-p3-honbun
+    type: honbun
+    text: 前項の場合において、二以上に分割をして建設若しくは据付けの工事又はこれらの指揮監督の役務の提供（以下この項及び第五項において「建設工事等」という。）に係る契約が締結されたことにより前項の外国法人の国内における当該分割後の契約に係る建設工事等（以下この項において「契約分割後建設工事等」という。）が一年を超えて行われないこととなつたとき（当該契約分割後建設工事等を行う場所（当該契約分割後建設工事等を含む。）を前項に規定する長期建設工事現場等に該当しないこととすることが当該分割の主たる目的の一つであつたと認められるときに限る。）における当該契約分割後建設工事等が一年を超えて行われるものであるかどうかの判定は、当該契約分割後建設工事等の期間に国内における当該分割後の他の契約に係る建設工事等の期間（当該契約分割後建設工事等の期間と重複する期間を除く。）を加算した期間により行うものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: houjin-zei-hou-shikkourei-art-4-4-p3-tadashi
+    type: tadashi
+    text: ただし、正当な理由に基づいて契約を分割したときは、この限りでない。
+    modality: jogai
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-4-4-p4-hashira
+    type: hashira
+    text: 外国法人の国内における次の各号に掲げる活動の区分に応じ当該各号に定める場所（当該各号に掲げる活動を含む。）は、第一項に規定する政令で定める場所及び第二項に規定する政令で定めるものに含まれないものとする。ただし、当該各号に掲げる活動（第六号に掲げる活動にあつては、同号の場所における活動の全体）が、当該外国法人の事業の遂行にとつて準備的又は補助的な性格のものである場合に限るものとする。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-4-4-p5-hashira
+    type: hashira
+    text: 前項の規定は、次に掲げる場所については、適用しない。
+    modality: jogai
+    references:
+    - 前項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-4-4-p6
+    type: simple
+    text: 外国法人が長期建設工事現場等を有する場合には、当該長期建設工事現場等は第四項第四号から第六号までに規定する第一項各号に掲げる場所と、当該長期建設工事現場等に係る長期建設工事等を行う場所（当該長期建設工事等を含む。）は前項各号に規定する事業を行う一定の場所と、当該長期建設工事現場等を有する外国法人は同項各号に規定する事業を行う一定の場所を使用し、又は保有する第四項の外国法人と、当該長期建設工事等を行う場所において事業上の活動を行う場合（当該長期建設工事等を行う場合を含む。）は前項各号に規定する事業を行う一定の場所において事業上の活動を行う場合と、当該長期建設工事等を行う場所において行う事業上の活動（当該長期建設工事等を含む。）は同項各号に規定する事業を行う一定の場所において行う事業上の活動とそれぞれみなして、前二項の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+    - 前二項
+- number: 7
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-4-4-p7-hashira
+    type: hashira
+    text: 法第二条第十二号の十九ハに規定する政令で定める者は、国内において外国法人に代わつて、その事業に関し、反復して次に掲げる契約を締結し、又は当該外国法人によつて重要な修正が行われることなく日常的に締結される次に掲げる契約の締結のために反復して主要な役割を果たす者（当該者の国内における当該外国法人に代わつて行う活動（当該活動が複数の活動を組み合わせたものである場合にあつては、その組合せによる活動の全体）が、当該外国法人の事業の遂行にとつて準備的又は補助的な性格のもの（当該外国法人に代わつて行う活動を第五項各号の外国法人が同項各号の事業を行う一定の場所において行う事業上の活動とみなして同項の規定を適用した場合に同項の規定により当該事業を行う一定の場所につき第四項の規定を適用しないこととされるときにおける当該活動を除く。）のみである場合における当該者を除く。次項において「契約締結代理人等」という。）とする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
+- number: 8
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-4-4-p8-honbun
+    type: honbun
+    text: 国内において外国法人に代わつて行動する者が、その事業に係る業務を、当該外国法人に対し独立して行い、かつ、通常の方法により行う場合には、当該者は、契約締結代理人等に含まれないものとする。
+    modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-4-4-p8-tadashi
+    type: tadashi
+    text: ただし、当該者が、専ら又は主として一又は二以上の自己と特殊の関係にある者に代わつて行動する場合は、この限りでない。
+    modality: jogai
+- number: 9
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-4-4-p9
+    type: simple
+    text: 第五項第二号及び前項ただし書に規定する特殊の関係とは、一方の者が他方の法人の発行済株式又は出資（当該他方の法人が有する自己の株式又は出資を除く。）の総数又は総額の百分の五十を超える数又は金額の株式又は出資を直接又は間接に保有する関係その他の財務省令で定める特殊の関係をいう。
+    modality: teigi
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 1
+  hen_name_ja: 第一編　総則
+  shou: 1
+  shou_name_ja: 第一章　通則
+---
+
+# 法人税法施行令 第4-4条(（恒久的施設の範囲）)
+
+## 原文 (日本語)
+
+### 第四条の四第一項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-4-4-p1-hashira -->
+法第二条第十二号の十九イ（定義）に規定する政令で定める場所は、国内にある次に掲げる場所とする。
+
+### 第四条の四第二項
+
+<!-- segment: simple id: houjin-zei-hou-shikkourei-art-4-4-p2 -->
+法第二条第十二号の十九ロに規定する政令で定めるものは、外国法人の国内にある長期建設工事現場等（外国法人が国内において長期建設工事等（建設若しくは据付けの工事又はこれらの指揮監督の役務の提供で一年を超えて行われるものをいう。以下この項及び第六項において同じ。）を行う場所をいい、外国法人の国内における長期建設工事等を含む。同項において同じ。）とする。
+
+### 第四条の四第三項
+
+<!-- segment: honbun id: houjin-zei-hou-shikkourei-art-4-4-p3-honbun -->
+前項の場合において、二以上に分割をして建設若しくは据付けの工事又はこれらの指揮監督の役務の提供（以下この項及び第五項において「建設工事等」という。）に係る契約が締結されたことにより前項の外国法人の国内における当該分割後の契約に係る建設工事等（以下この項において「契約分割後建設工事等」という。）が一年を超えて行われないこととなつたとき（当該契約分割後建設工事等を行う場所（当該契約分割後建設工事等を含む。）を前項に規定する長期建設工事現場等に該当しないこととすることが当該分割の主たる目的の一つであつたと認められるときに限る。）における当該契約分割後建設工事等が一年を超えて行われるものであるかどうかの判定は、当該契約分割後建設工事等の期間に国内における当該分割後の他の契約に係る建設工事等の期間（当該契約分割後建設工事等の期間と重複する期間を除く。）を加算した期間により行うものとする。<!-- segment: tadashi id: houjin-zei-hou-shikkourei-art-4-4-p3-tadashi -->
+ただし、正当な理由に基づいて契約を分割したときは、この限りでない。
+
+### 第四条の四第四項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-4-4-p4-hashira -->
+外国法人の国内における次の各号に掲げる活動の区分に応じ当該各号に定める場所（当該各号に掲げる活動を含む。）は、第一項に規定する政令で定める場所及び第二項に規定する政令で定めるものに含まれないものとする。ただし、当該各号に掲げる活動（第六号に掲げる活動にあつては、同号の場所における活動の全体）が、当該外国法人の事業の遂行にとつて準備的又は補助的な性格のものである場合に限るものとする。
+
+### 第四条の四第五項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-4-4-p5-hashira -->
+前項の規定は、次に掲げる場所については、適用しない。
+
+### 第四条の四第六項
+
+<!-- segment: simple id: houjin-zei-hou-shikkourei-art-4-4-p6 -->
+外国法人が長期建設工事現場等を有する場合には、当該長期建設工事現場等は第四項第四号から第六号までに規定する第一項各号に掲げる場所と、当該長期建設工事現場等に係る長期建設工事等を行う場所（当該長期建設工事等を含む。）は前項各号に規定する事業を行う一定の場所と、当該長期建設工事現場等を有する外国法人は同項各号に規定する事業を行う一定の場所を使用し、又は保有する第四項の外国法人と、当該長期建設工事等を行う場所において事業上の活動を行う場合（当該長期建設工事等を行う場合を含む。）は前項各号に規定する事業を行う一定の場所において事業上の活動を行う場合と、当該長期建設工事等を行う場所において行う事業上の活動（当該長期建設工事等を含む。）は同項各号に規定する事業を行う一定の場所において行う事業上の活動とそれぞれみなして、前二項の規定を適用する。
+
+### 第四条の四第七項
+
+<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-4-4-p7-hashira -->
+法第二条第十二号の十九ハに規定する政令で定める者は、国内において外国法人に代わつて、その事業に関し、反復して次に掲げる契約を締結し、又は当該外国法人によつて重要な修正が行われることなく日常的に締結される次に掲げる契約の締結のために反復して主要な役割を果たす者（当該者の国内における当該外国法人に代わつて行う活動（当該活動が複数の活動を組み合わせたものである場合にあつては、その組合せによる活動の全体）が、当該外国法人の事業の遂行にとつて準備的又は補助的な性格のもの（当該外国法人に代わつて行う活動を第五項各号の外国法人が同項各号の事業を行う一定の場所において行う事業上の活動とみなして同項の規定を適用した場合に同項の規定により当該事業を行う一定の場所につき第四項の規定を適用しないこととされるときにおける当該活動を除く。）のみである場合における当該者を除く。次項において「契約締結代理人等」という。）とする。
+
+### 第四条の四第八項
+
+<!-- segment: honbun id: houjin-zei-hou-shikkourei-art-4-4-p8-honbun -->
+国内において外国法人に代わつて行動する者が、その事業に係る業務を、当該外国法人に対し独立して行い、かつ、通常の方法により行う場合には、当該者は、契約締結代理人等に含まれないものとする。<!-- segment: tadashi id: houjin-zei-hou-shikkourei-art-4-4-p8-tadashi -->
+ただし、当該者が、専ら又は主として一又は二以上の自己と特殊の関係にある者に代わつて行動する場合は、この限りでない。
+
+### 第四条の四第九項
+
+<!-- segment: simple id: houjin-zei-hou-shikkourei-art-4-4-p9 -->
+第五項第二号及び前項ただし書に規定する特殊の関係とは、一方の者が他方の法人の発行済株式又は出資（当該他方の法人が有する自己の株式又は出資を除く。）の総数又は総額の百分の五十を超える数又は金額の株式又は出資を直接又は間接に保有する関係その他の財務省令で定める特殊の関係をいう。

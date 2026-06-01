@@ -1,0 +1,147 @@
+---
+law_id: 325CO0000000245
+law_name_ja: 地方税法施行令
+law_name_en: (English name pending)
+article_number: 54-45
+article_id: chihou-zei-hou-shikkourei-art-54-45
+version_date: '1950-07-31'
+source_url: https://laws.e-gov.go.jp/law/325CO0000000245
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-45-p1
+    type: simple
+    text: 法第六百二条第一項第一号ロに規定する政令で定める土地の贈与による譲渡は、国又は地方公共団体（港湾法の規定による港務局を含む。以下この項において同じ。）に無償で譲渡することとされている土地で総務省令で定めるものの国又は地方公共団体に対する譲渡とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-45-p2-hashira
+    type: hashira
+    text: 法第六百二条第一項第一号ハに規定する宅地若しくは住宅の供給又は土地の先行取得の業務を行うことを目的とする法人として政令で定めるものは、次に掲げる法人とする。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-45-p3
+    type: simple
+    text: 法第六百二条第一項第一号ハに規定する政令で定める土地の譲渡は、公有地の拡大の推進に関する法律第十七条第一項第一号ニに掲げる土地の譲渡とする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-45-p4-hashira
+    type: hashira
+    text: 法第六百二条第一項第一号ニに規定する土地の譲渡で政令で定めるものは、次に掲げる土地の譲渡とする。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-45-p5-hashira
+    type: hashira
+    text: 次に掲げる宅地の譲渡は、前項第一号ロ、第二号ロ又は第四号ロの公募の方法により行われた譲渡に含まれるものとする。
+    modality: gimu
+    references:
+    - 前項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-45-p6
+    type: simple
+    text: 第四項第七号の宅地建物取引業者である土地の所有者等が法人である場合であつて、当該土地の所有者等が支出する負債の利子の額（各事業年度の所得の金額の計算上損金の額に算入されるものに限る。）で当該事業年度において譲渡をした居住用土地等のすべてに係るもののうち当該居住用土地等に係る部分の金額を合理的に計算して租税特別措置法施行令第三十八条の四第八項に規定する法人税申告書に記載した場合には、同号ハ（２）の規定にかかわらず、当該計算した金額をもつて同号ハ（２）に掲げる金額とすることができる。
+    modality: kanou_kenri
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-45-p7
+    type: simple
+    text: 法第六百二条第一項第二号及び第三号に規定する政令で定める土地は、これらの号に規定する被収用不動産等又は被買収不動産等に代わるものと市町村長が認める土地のうち、当該被収用不動産等又は被買収不動産等に係る補償金、対価又は移転補償金の額に対応するものとして総務省令で定める土地とする。
+    modality: gimu
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-45-p8
+    type: junyou
+    text: 第五十四条の四十二の規定は法第六百二条第一項に規定する納税義務の免除に係る期間の開始の日及び当該期間の決定、土地の譲渡に係る確認又は特別土地保有税に係る地方団体の徴収金で納税義務の免除に係る期間に係るものについて、第五十四条の四十三の規定は法第六百二条第二項において準用する法第六百一条第二項に規定する申請について、前条の規定は法第六百二条第二項において準用する法第六百一条第三項に規定する担保の提供を免除する場合の要件及び担保の提供手続について準用する。この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、同表の下欄に掲げる字句にそれぞれ読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　市町村の普通税
+  setsu: 5
+  setsu_name_ja: 第五節　特別土地保有税
+---
+
+# 地方税法施行令 第54-45条(（法第六百二条第一項第一号の土地の譲渡等）)
+
+## 原文 (日本語)
+
+### 第五十四条の四十五第一項
+
+<!-- segment: simple id: chihou-zei-hou-shikkourei-art-54-45-p1 -->
+法第六百二条第一項第一号ロに規定する政令で定める土地の贈与による譲渡は、国又は地方公共団体（港湾法の規定による港務局を含む。以下この項において同じ。）に無償で譲渡することとされている土地で総務省令で定めるものの国又は地方公共団体に対する譲渡とする。
+
+### 第五十四条の四十五第二項
+
+<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-54-45-p2-hashira -->
+法第六百二条第一項第一号ハに規定する宅地若しくは住宅の供給又は土地の先行取得の業務を行うことを目的とする法人として政令で定めるものは、次に掲げる法人とする。
+
+### 第五十四条の四十五第三項
+
+<!-- segment: simple id: chihou-zei-hou-shikkourei-art-54-45-p3 -->
+法第六百二条第一項第一号ハに規定する政令で定める土地の譲渡は、公有地の拡大の推進に関する法律第十七条第一項第一号ニに掲げる土地の譲渡とする。
+
+### 第五十四条の四十五第四項
+
+<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-54-45-p4-hashira -->
+法第六百二条第一項第一号ニに規定する土地の譲渡で政令で定めるものは、次に掲げる土地の譲渡とする。
+
+### 第五十四条の四十五第五項
+
+<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-54-45-p5-hashira -->
+次に掲げる宅地の譲渡は、前項第一号ロ、第二号ロ又は第四号ロの公募の方法により行われた譲渡に含まれるものとする。
+
+### 第五十四条の四十五第六項
+
+<!-- segment: simple id: chihou-zei-hou-shikkourei-art-54-45-p6 -->
+第四項第七号の宅地建物取引業者である土地の所有者等が法人である場合であつて、当該土地の所有者等が支出する負債の利子の額（各事業年度の所得の金額の計算上損金の額に算入されるものに限る。）で当該事業年度において譲渡をした居住用土地等のすべてに係るもののうち当該居住用土地等に係る部分の金額を合理的に計算して租税特別措置法施行令第三十八条の四第八項に規定する法人税申告書に記載した場合には、同号ハ（２）の規定にかかわらず、当該計算した金額をもつて同号ハ（２）に掲げる金額とすることができる。
+
+### 第五十四条の四十五第七項
+
+<!-- segment: simple id: chihou-zei-hou-shikkourei-art-54-45-p7 -->
+法第六百二条第一項第二号及び第三号に規定する政令で定める土地は、これらの号に規定する被収用不動産等又は被買収不動産等に代わるものと市町村長が認める土地のうち、当該被収用不動産等又は被買収不動産等に係る補償金、対価又は移転補償金の額に対応するものとして総務省令で定める土地とする。
+
+### 第五十四条の四十五第八項
+
+<!-- segment: junyou id: chihou-zei-hou-shikkourei-art-54-45-p8 applies_provisions: 前条 -->
+第五十四条の四十二の規定は法第六百二条第一項に規定する納税義務の免除に係る期間の開始の日及び当該期間の決定、土地の譲渡に係る確認又は特別土地保有税に係る地方団体の徴収金で納税義務の免除に係る期間に係るものについて、第五十四条の四十三の規定は法第六百二条第二項において準用する法第六百一条第二項に規定する申請について、前条の規定は法第六百二条第二項において準用する法第六百一条第三項に規定する担保の提供を免除する場合の要件及び担保の提供手続について準用する。この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、同表の下欄に掲げる字句にそれぞれ読み替えるものとする。

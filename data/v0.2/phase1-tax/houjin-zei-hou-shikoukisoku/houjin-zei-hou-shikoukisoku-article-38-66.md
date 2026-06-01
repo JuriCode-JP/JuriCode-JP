@@ -1,0 +1,75 @@
+---
+law_id: 340M50000040012
+law_name_ja: 法人税法施行規則
+law_name_en: (English name pending)
+article_number: 38-66
+article_id: houjin-zei-hou-shikoukisoku-art-38-66
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040012
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-66-p1-zen
+    type: zen_dan
+    text: 第三十八条の四十四第一項（収入金額等に関する適用免除基準）の規定は令第百五十五条の七十九第一項（収入金額等に関する適用免除基準）において準用する令第百五十五条の五十五第一項第一号（収入金額等に関する適用免除基準）に規定する財務省令で定めるところにより計算した金額について、第三十八条の四十四第二項の規定は令第百五十五条の七十九第一項において準用する令第百五十五条の五十五第一項に規定する直前二対象会計年度のうちに令第百五十五条の六十四第一項（構成会社等に係る再計算グループ国内最低課税額）又は第百五十五条の六十五第一項（不動産の譲渡に係る再計算グループ国内最低課税額の特例）の規定の適用がある対象会計年度がある場合について、第三十八条の四十四第三項の規定は令第百五十五条の七十九第一項において準用する令第百五十五条の五十五第一項及び第二項の規定の適用がある場合について、それぞれ準用する。
+    modality: unspecified
+  - id: houjin-zei-hou-shikoukisoku-art-38-66-p1-kou
+    type: kou_dan
+    text: この場合において、第三十八条の四十四第二項中「の第百五十五条の五十五第一項」とあるのは「の第百五十五条の七十九第一項（収入金額等に関する適用免除基準）において準用する第百五十五条の五十五第一項」と、同条第三項第一号中「）の所在地国を所在地国とする当該構成会社等の」とあるのは「）の」と、「属する」とあるのは「属する我が国を所在地国とする」と、同項第二号中「構成会社等（各種投資会社等を除く。）の所在地国」とあるのは「我が国」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: houjin-zei-hou-shikoukisoku-art-38-66-p1-zen
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-66-p2-zen
+    type: zen_dan
+    text: 第三十八条の四十四第四項の規定は法第八十二条の十九第九項（国内最低課税額）に規定する財務省令で定める構成会社等について、第三十八条の四十四第五項の規定は法第八十二条の十九第九項第一号イに規定する財務省令で定める事項について、それぞれ準用する。
+    modality: unspecified
+  - id: houjin-zei-hou-shikoukisoku-art-38-66-p2-kou
+    type: kou_dan
+    text: この場合において、第三十八条の四十四第四項第二号中「第百五十五条の五十五第三項第一号」とあるのは「第百五十五条の七十九第一項（収入金額等に関する適用免除基準）において準用する令第百五十五条の五十五第三項第一号」と、「の所在地国」とあるのは「の我が国」と読み替えるものとする。
+    modality: gimu
+    depends_on: houjin-zei-hou-shikoukisoku-art-38-66-p2-zen
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 2
+  hen_name_ja: 第二編　内国法人の法人税
+  shou: 2
+  shou_name_ja: 第二章　各対象会計年度の国際最低課税額に対する法人税等
+  setsu: 4
+  setsu_name_ja: 第四節　各対象会計年度の国内最低課税額に対する法人税
+  kan: 1
+  kan_name_ja: 第一款　国内最低課税額
+---
+
+# 法人税法施行規則 第38-66条(（収入金額等に関する適用免除基準）)
+
+## 原文 (日本語)
+
+### 第三十八条の六十六第一項
+
+<!-- segment: zen_dan id: houjin-zei-hou-shikoukisoku-art-38-66-p1-zen -->
+第三十八条の四十四第一項（収入金額等に関する適用免除基準）の規定は令第百五十五条の七十九第一項（収入金額等に関する適用免除基準）において準用する令第百五十五条の五十五第一項第一号（収入金額等に関する適用免除基準）に規定する財務省令で定めるところにより計算した金額について、第三十八条の四十四第二項の規定は令第百五十五条の七十九第一項において準用する令第百五十五条の五十五第一項に規定する直前二対象会計年度のうちに令第百五十五条の六十四第一項（構成会社等に係る再計算グループ国内最低課税額）又は第百五十五条の六十五第一項（不動産の譲渡に係る再計算グループ国内最低課税額の特例）の規定の適用がある対象会計年度がある場合について、第三十八条の四十四第三項の規定は令第百五十五条の七十九第一項において準用する令第百五十五条の五十五第一項及び第二項の規定の適用がある場合について、それぞれ準用する。<!-- segment: kou_dan id: houjin-zei-hou-shikoukisoku-art-38-66-p1-kou depends_on: houjin-zei-hou-shikoukisoku-art-38-66-p1-zen -->
+この場合において、第三十八条の四十四第二項中「の第百五十五条の五十五第一項」とあるのは「の第百五十五条の七十九第一項（収入金額等に関する適用免除基準）において準用する第百五十五条の五十五第一項」と、同条第三項第一号中「）の所在地国を所在地国とする当該構成会社等の」とあるのは「）の」と、「属する」とあるのは「属する我が国を所在地国とする」と、同項第二号中「構成会社等（各種投資会社等を除く。）の所在地国」とあるのは「我が国」と読み替えるものとする。
+
+### 第三十八条の六十六第二項
+
+<!-- segment: zen_dan id: houjin-zei-hou-shikoukisoku-art-38-66-p2-zen -->
+第三十八条の四十四第四項の規定は法第八十二条の十九第九項（国内最低課税額）に規定する財務省令で定める構成会社等について、第三十八条の四十四第五項の規定は法第八十二条の十九第九項第一号イに規定する財務省令で定める事項について、それぞれ準用する。<!-- segment: kou_dan id: houjin-zei-hou-shikoukisoku-art-38-66-p2-kou depends_on: houjin-zei-hou-shikoukisoku-art-38-66-p2-zen -->
+この場合において、第三十八条の四十四第四項第二号中「第百五十五条の五十五第三項第一号」とあるのは「第百五十五条の七十九第一項（収入金額等に関する適用免除基準）において準用する令第百五十五条の五十五第三項第一号」と、「の所在地国」とあるのは「の我が国」と読み替えるものとする。

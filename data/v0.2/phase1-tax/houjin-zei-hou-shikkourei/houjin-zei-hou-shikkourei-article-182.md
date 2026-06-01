@@ -1,0 +1,43 @@
+---
+law_id: 340CO0000000097
+law_name_ja: 法人税法施行令
+law_name_en: (English name pending)
+article_number: '182'
+article_id: houjin-zei-hou-shikkourei-art-182
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340CO0000000097
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-182-p1
+    type: simple
+    text: 法第百三十八条第三項（国内源泉所得）に規定する政令で定める所得は、外国法人が国内及び国外にわたつて船舶又は航空機による運送の事業を行うことにより生ずる所得のうち、船舶による運送の事業にあつては国内において乗船し又は船積みをした旅客又は貨物に係る収入金額を基準とし、航空機による運送の事業にあつてはその国内業務（国内において行う業務をいう。以下この条において同じ。）に係る収入金額又は経費、その国内業務の用に供する固定資産の価額その他その国内業務が当該運送の事業に係る所得の発生に寄与した程度を推測するに足りる要因を基準として判定したその外国法人の国内業務につき生ずべき所得とする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　外国法人の法人税
+  shou: 1
+  shou_name_ja: 第一章　国内源泉所得
+---
+
+# 法人税法施行令 第182条(（国際運輸業所得）)
+
+## 原文 (日本語)
+
+### 第百八十二条
+
+<!-- segment: simple id: houjin-zei-hou-shikkourei-art-182-p1 -->
+法第百三十八条第三項（国内源泉所得）に規定する政令で定める所得は、外国法人が国内及び国外にわたつて船舶又は航空機による運送の事業を行うことにより生ずる所得のうち、船舶による運送の事業にあつては国内において乗船し又は船積みをした旅客又は貨物に係る収入金額を基準とし、航空機による運送の事業にあつてはその国内業務（国内において行う業務をいう。以下この条において同じ。）に係る収入金額又は経費、その国内業務の用に供する固定資産の価額その他その国内業務が当該運送の事業に係る所得の発生に寄与した程度を推測するに足りる要因を基準として判定したその外国法人の国内業務につき生ずべき所得とする。

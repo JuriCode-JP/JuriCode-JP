@@ -1,0 +1,59 @@
+---
+law_id: 340M50000040012
+law_name_ja: 法人税法施行規則
+law_name_en: (English name pending)
+article_number: 61-9
+article_id: houjin-zei-hou-shikoukisoku-art-61-9
+version_date: '1965-03-31'
+source_url: https://laws.e-gov.go.jp/law/340M50000040012
+source_format: e-gov-xml
+last_verified: '2026-06-01'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-61-9-p1-hashira
+    type: hashira
+    text: 法第百四十五条の五（申告及び納付等）において準用する法第八十二条の十四第一項第三号（国際最低課税残余額に係る確定申告）に規定する財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-61-9-p2
+    type: simple
+    text: 法第二条第三十一号の三（定義）に規定する国際最低課税残余額確定申告書（当該申告書に係る修正申告書及び更正請求書を含む。）の記載事項及びこれに添付すべき書類の記載事項のうち別表二十一及び別表二十一付表（更正請求書にあつては、別表二十一を除く。）に定めるものの記載については、これらの表の書式によらなければならない。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  hen: 3
+  hen_name_ja: 第三編　外国法人の法人税
+  shou: 3
+  shou_name_ja: 第三章　各対象会計年度の国際最低課税残余額に対する法人税等
+  setsu: 1
+  setsu_name_ja: 第一節　各対象会計年度の国際最低課税残余額に対する法人税
+---
+
+# 法人税法施行規則 第61-9条(（国際最低課税残余額確定申告書の記載事項）)
+
+## 原文 (日本語)
+
+### 第六十一条の九第一項
+
+<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-61-9-p1-hashira -->
+法第百四十五条の五（申告及び納付等）において準用する法第八十二条の十四第一項第三号（国際最低課税残余額に係る確定申告）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+### 第六十一条の九第二項
+
+<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-61-9-p2 -->
+法第二条第三十一号の三（定義）に規定する国際最低課税残余額確定申告書（当該申告書に係る修正申告書及び更正請求書を含む。）の記載事項及びこれに添付すべき書類の記載事項のうち別表二十一及び別表二十一付表（更正請求書にあつては、別表二十一を除く。）に定めるものの記載については、これらの表の書式によらなければならない。
