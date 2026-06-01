@@ -63,3 +63,6 @@ credentials.json
 
 # e-Gov XML ローカルキャッシュ (リポ直下)
 /cache/
+
+# ablation / eval 出力ディレクトリ (FU-512 等の一時計測結果)
+/fu512/
