@@ -15,26 +15,22 @@ import argparse
 import json
 import os
 import pickle
-import re
 import sys
 from pathlib import Path
+
+from juricode_shared.text_norm import (
+    arabic_version_of_article_numbers as _arabic_version_of_article_numbers,
+)
+from juricode_shared.text_norm import (
+    kanji_version_of_article_numbers as _kanji_version_of_article_numbers,
+)
+from juricode_shared.text_norm import (
+    normalize_fullwidth_digits as _normalize_fullwidth_digits,
+)
 
 # =====================================================
 # Query normalization (法令名・条番号の正規化)
 # =====================================================
-
-KANJI_DIGIT = {
-    "〇": 0,
-    "一": 1,
-    "二": 2,
-    "三": 3,
-    "四": 4,
-    "五": 5,
-    "六": 6,
-    "七": 7,
-    "八": 8,
-    "九": 9,
-}
 
 # 略称 -> (略称をそのまま残しつつ) 正式名称も付加することで両方で hit させる
 LAW_ABBREV_EXPANSIONS = {
@@ -59,86 +55,6 @@ LAW_ABBREV_EXPANSIONS = {
     "警職法": "警察官職務執行法",
     "道交法": "道路交通法",
 }
-
-
-def _normalize_fullwidth_digits(s: str) -> str:
-    return s.translate(str.maketrans("０１２３４５６７８９", "0123456789"))
-
-
-def _kanji_to_int(s: str) -> int | None:
-    """漢数字 -> 整数. 「百二十三」 -> 123."""
-    if not s:
-        return None
-    total = 0
-    current = 0
-    unit_map = {"十": 10, "百": 100, "千": 1000, "万": 10000}
-    for ch in s:
-        if ch in KANJI_DIGIT:
-            current = current * 10 + KANJI_DIGIT[ch] if current else KANJI_DIGIT[ch]
-        elif ch in unit_map:
-            unit = unit_map[ch]
-            current = current if current else 1
-            total += current * unit
-            current = 0
-    total += current
-    return total if total > 0 else None
-
-
-def _arabic_version_of_article_numbers(text: str) -> str:
-    """漢数字の条番号をアラビア数字に変換した版を生成 (置換せず別バージョン)."""
-
-    def repl(m):
-        main_kanji = m.group(1)
-        sub_kanji = m.group(2)
-        main_num = _kanji_to_int(main_kanji)
-        if main_num is None:
-            return m.group(0)
-        if sub_kanji:
-            sub_num = _kanji_to_int(sub_kanji)
-            if sub_num is not None:
-                return f"第{main_num}条の{sub_num}"
-        return f"第{main_num}条"
-
-    pattern = r"第([〇一二三四五六七八九十百千万]+)条(?:の([〇一二三四五六七八九十百千万]+))?"
-    return re.sub(pattern, repl, text)
-
-
-def _kanji_version_of_article_numbers(text: str) -> str:
-    """アラビア数字の条番号を漢数字に変換した版を生成 (corpus body マッチ用)."""
-
-    def int_to_kanji(n: int) -> str:
-        # Simple int -> kanji for numbers up to 9999
-        if n == 0:
-            return "〇"
-        digits = "〇一二三四五六七八九"
-        result = ""
-        if n >= 1000:
-            d = n // 1000
-            result += (digits[d] if d > 1 else "") + "千"
-            n %= 1000
-        if n >= 100:
-            d = n // 100
-            result += (digits[d] if d > 1 else "") + "百"
-            n %= 100
-        if n >= 10:
-            d = n // 10
-            result += (digits[d] if d > 1 else "") + "十"
-            n %= 10
-        if n > 0:
-            result += digits[n]
-        return result
-
-    def repl(m):
-        main_num = int(m.group(1))
-        sub_str = m.group(2)
-        result = f"第{int_to_kanji(main_num)}条"
-        if sub_str:
-            sub_num = int(sub_str)
-            result += f"の{int_to_kanji(sub_num)}"
-        return result
-
-    pattern = r"第(\d+)条(?:の(\d+))?"
-    return re.sub(pattern, repl, text)
 
 
 def _expand_law_abbreviations_list(text: str) -> list[str]:
