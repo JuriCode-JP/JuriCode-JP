@@ -1467,7 +1467,7 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **関連**: 柱1-B / `business/v03-pillar1-B-ablation-findings-2026-05-31.md` (gitignored)。
 
-### [ ] FU-513: 正準テキスト正規化を juricode_shared に集約 (2026-05-31 追加, P2)
+### [x] FU-513: 正準テキスト正規化を juricode_shared に集約 (2026-05-31 追加, P2) — ✅ 完了 2026-06-01 (commit C1/C2/C3: `juricode_shared/text_norm.py` 新設 + `retrieve.py` import 置換。manifest hash 不変・R@3=72.7% 不変・337 tests PASS。D2 defer: corpus/parser 経路は FU-405 で別途)
 
 **場所**: クエリ側 `tools/embed/retrieve.py` (`normalize_legal_query`/`_tokenize_chargram`) / corpus 側 `tools/embed/build-v0.2-corpus.py` (`make_augmented_text`) / parser 側 (FU-205/405 の markdown_regex)。
 

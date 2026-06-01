@@ -29,6 +29,15 @@ from juricode_shared.phase_tag import (
     resolve_phase_from_path,
     rewrite_tags0_in_text,
 )
+from juricode_shared.text_norm import (
+    KANJI_DIGIT,
+    normalize_fullwidth_digits,
+    kanji_to_int,
+    int_to_kanji,
+    arabic_version_of_article_numbers,
+    kanji_version_of_article_numbers,
+    canonical_search_text,
+)
 
 __version__ = "0.1.0"
 
@@ -56,5 +65,12 @@ __all__ = [
     "PHASE_DIR_RE",
     "resolve_phase_from_path",
     "rewrite_tags0_in_text",
+    "KANJI_DIGIT",
+    "normalize_fullwidth_digits",
+    "kanji_to_int",
+    "int_to_kanji",
+    "arabic_version_of_article_numbers",
+    "kanji_version_of_article_numbers",
+    "canonical_search_text",
     "__version__",
 ]
