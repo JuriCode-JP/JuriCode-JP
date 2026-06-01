@@ -350,9 +350,7 @@ def extract_main_table_chunks(
             "law_name_ja": law_name_ja,
             "article_number": art_num,
         }
-        chunks = build_table_chunks_for_ts(
-            ts, leadin, article_id, meta, seq
-        )
+        chunks = build_table_chunks_for_ts(ts, leadin, article_id, meta, seq)
         if chunks:
             result.setdefault(art_num, []).extend(chunks)
 
@@ -500,9 +498,7 @@ def build_law_id_to_name_ja(data_dir: Path) -> dict[str, str]:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(
-        description=__doc__, formatter_class=argparse.RawTextHelpFormatter
-    )
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument("--xml-dir", type=Path, default=Path("cache/laws"))
     ap.add_argument("--chunks-dir", type=Path, default=Path("build/chunks"))
     ap.add_argument("--data-dir", type=Path, default=Path("data"))
@@ -543,9 +539,7 @@ def main() -> int:
 
         root = tree.getroot()
         # parent_map は表ごとに再解決に使う (ループ変数使い回し禁止 A-8 2-1)
-        parent_map: dict[Any, Any] = {
-            child: parent for parent in root.iter() for child in parent
-        }
+        parent_map: dict[Any, Any] = {child: parent for parent in root.iter() for child in parent}
 
         law_name_ja = law_name_ja_map.get(law_id, "")
         out_dir = args.chunks_dir / law_abbrev
