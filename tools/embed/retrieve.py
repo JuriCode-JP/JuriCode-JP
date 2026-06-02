@@ -124,7 +124,9 @@ def build_tfidf_index(corpus_jsonl: Path, text_field: str = "text"):
                 continue
             obj = json.loads(line)
             texts.append(obj.get(text_field, "") or "")
-            article_ids.append(obj.get("article_id", ""))
+            # R14: directive/taxanswer records have article_id=None; fall back to chunk_id
+            aid = obj.get("article_id") or obj.get("chunk_id") or ""
+            article_ids.append(aid)
 
     print(f"  [bm25] tokenizing {len(texts)} docs...", file=sys.stderr)
     docs_tokens = [_tokenize_chargram(t) for t in texts]
@@ -761,6 +763,10 @@ def main():
         did = q.get("expected_directive_id")
         if did:
             ids.add(did)
+        # TaxAnswer queries: expected_qa_code -> chunk_id form "hojin-taxanswer-NNNN"
+        qa_code = q.get("expected_qa_code")
+        if qa_code:
+            ids.add(f"hojin-taxanswer-{qa_code}")
         return ids
 
     expected_per_query = [_expected_ids(q) for q in queries]
@@ -790,9 +796,14 @@ def main():
                 directive_id = pipeline.records[idx].get("directive_id") or ""
                 match_key = aid if aid else (directive_id or chunk_id)
                 marker = " OK" if match_key in expected else ""
-                # Display: law article vs directive
+                # Display: law article vs directive vs taxanswer
+                seg_type = pipeline.records[idx].get("segment_type") or ""
                 if aid:
                     entity_desc = f"{lawname} 第{artnum}条"
+                elif seg_type == "taxanswer":
+                    qa_code = pipeline.records[idx].get("code") or chunk_id
+                    qa_title = pipeline.records[idx].get("title") or ""
+                    entity_desc = f"タックスアンサー No.{qa_code} {qa_title}"
                 else:
                     directive_num = pipeline.records[idx].get("directive_number") or directive_id
                     entity_desc = f"{lawname} {directive_num}"
