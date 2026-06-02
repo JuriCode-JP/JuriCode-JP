@@ -10,6 +10,12 @@ Outputs:
   <output>.npy        : float32 (N, D) numpy matrix
   <output>.meta.jsonl : per-record metadata (article_id, law_name, etc.)
   <output>.vec.pkl    : provider state needed for retrieve.py to encode queries
+
+Robustness (A-1/A-2/A-3):
+  - Index-assert: dense.shape[0] must equal len(records); per-batch count also verified.
+  - Resume: existing .meta.jsonl / .npy are loaded; already-processed records skipped.
+  - Atomic save: writes to .tmp files then os.replace() -- crash-safe.
+  - Checkpoint: Gemini provider saves every --checkpoint-every records (default 1000).
 """
 
 from __future__ import annotations
@@ -34,8 +40,8 @@ _META_FIELDS = (
 )
 
 
-def _read_records(path, limit):
-    records = []
+def _read_records(path: Path, limit: int | None) -> list[dict]:
+    records: list[dict] = []
     with path.open(encoding="utf-8") as fh:
         for i, line in enumerate(fh, 1):
             line = line.strip()
@@ -50,11 +56,109 @@ def _read_records(path, limit):
     return records
 
 
+# ============================================================
+# Robustness helpers (A-1 / A-2 / A-3)
+# ============================================================
+
+
+def _record_resume_key(r: dict) -> str:
+    """Unique resume key: chunk_id preferred, fallback to article_id."""
+    return str(r.get("chunk_id") or r.get("article_id") or "")
+
+
+def _assert_batch_count(expected: int, got: int, batch_start: int) -> None:
+    """Raise ValueError if batch response count != input count (A-1)."""
+    if got != expected:
+        raise ValueError(
+            f"Index integrity error at batch_start={batch_start}: "
+            f"sent {expected} texts, received {got} embeddings"
+        )
+
+
+def _check_index_integrity(dense: np.ndarray, n_records: int) -> None:  # noqa: F821
+    """Raise ValueError if dense row count != n_records (A-1)."""
+    if dense.shape[0] != n_records:
+        raise ValueError(
+            f"Index integrity error: dense has {dense.shape[0]} rows but expected {n_records}"
+        )
+
+
+def _load_resume_state(meta_path: Path, npy_path: Path) -> tuple[list[dict], np.ndarray | None]:  # noqa: F821
+    """Load existing meta records and embeddings for resume (A-2).
+
+    Returns (existing_records, existing_dense) or ([], None) if no prior state.
+    Raises ValueError if .npy row count != .meta.jsonl line count.
+    """
+    import numpy as np
+
+    if not meta_path.exists() or not npy_path.exists():
+        return [], None
+    existing_records: list[dict] = []
+    with meta_path.open(encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                existing_records.append(json.loads(line))
+            except json.JSONDecodeError:
+                pass
+    if not existing_records:
+        return [], None
+    existing_dense = np.load(npy_path)
+    if existing_dense.shape[0] != len(existing_records):
+        raise ValueError(
+            f"Resume integrity error: .npy has {existing_dense.shape[0]} rows but "
+            f".meta.jsonl has {len(existing_records)} entries. "
+            "Delete both files and re-run."
+        )
+    print(
+        f"Resume: loaded {len(existing_records):,} existing records from {meta_path.name}",
+        file=sys.stderr,
+    )
+    return existing_records, existing_dense
+
+
+def _save_atomic(
+    npy: Path,
+    meta: Path,
+    vec: Path,
+    dense: np.ndarray,  # noqa: F821
+    records: list[dict],
+    model_name: str,
+    state: dict,
+) -> None:
+    """Save all 3 output files atomically via .tmp → os.replace() (A-3)."""
+    import numpy as np
+
+    npy_tmp = npy.with_suffix(".tmp.npy")
+    meta_tmp = meta.parent / (meta.name + ".tmp")
+    vec_tmp = vec.parent / (vec.name + ".tmp")
+    try:
+        np.save(npy_tmp, dense)
+        with meta_tmp.open("w", encoding="utf-8") as fh:
+            for r in records:
+                m = {k: r.get(k) for k in _META_FIELDS}
+                # Preserve existing embedding_model on resumed records.
+                m["embedding_model"] = r.get("embedding_model") or model_name
+                fh.write(json.dumps(m, ensure_ascii=False) + "\n")
+        with vec_tmp.open("wb") as fh:
+            pickle.dump(state, fh)
+        os.replace(npy_tmp, npy)
+        os.replace(meta_tmp, meta)
+        os.replace(vec_tmp, vec)
+    except Exception:
+        for tmp in (npy_tmp, meta_tmp, vec_tmp):
+            if tmp.exists():
+                tmp.unlink()
+        raise
+
+
 # ---------- Provider: TF-IDF ----------
 
 
-def _tfidf_embed(records, text_field, max_features):
-    import numpy as np  # lazy import (FU-506)
+def _tfidf_embed(records: list[dict], text_field: str, max_features: int) -> tuple:
+    import numpy as np
     from sklearn.feature_extraction.text import TfidfVectorizer
 
     corpus = [(r.get(text_field) or "") for r in records]
@@ -74,8 +178,14 @@ def _tfidf_embed(records, text_field, max_features):
 # ---------- Provider: OpenAI ----------
 
 
-def _openai_embed(records, text_field, model, batch_size, max_retries):
-    import numpy as np  # lazy import (FU-506)
+def _openai_embed(
+    records: list[dict],
+    text_field: str,
+    model: str,
+    batch_size: int,
+    max_retries: int,
+) -> tuple:
+    import numpy as np
 
     try:
         from openai import OpenAI
@@ -90,7 +200,7 @@ def _openai_embed(records, text_field, model, batch_size, max_retries):
     corpus = [(r.get(text_field) or "") for r in records]
     n = len(corpus)
 
-    vectors = []
+    vectors: list = []
     print(f"Encoding {n:,} records via OpenAI {model} (batch={batch_size})", file=sys.stderr)
     start = time.time()
 
@@ -116,6 +226,8 @@ def _openai_embed(records, text_field, model, batch_size, max_retries):
                 )
                 time.sleep(wait)
 
+        # Per-batch integrity check (A-1)
+        _assert_batch_count(len(batch), len(resp.data), batch_start)
         for item in resp.data:
             vectors.append(item.embedding)
 
@@ -125,7 +237,8 @@ def _openai_embed(records, text_field, model, batch_size, max_retries):
             rate = done / elapsed if elapsed > 0 else 0
             eta = (n - done) / rate if rate > 0 else 0
             print(
-                f"  progress: {done:,}/{n:,}  ({100 * done / n:.0f}%)  rate={rate:.1f}/s  ETA={eta:.0f}s",
+                f"  progress: {done:,}/{n:,}  ({100 * done / n:.0f}%)  "
+                f"rate={rate:.1f}/s  ETA={eta:.0f}s",
                 file=sys.stderr,
             )
 
@@ -137,7 +250,16 @@ def _openai_embed(records, text_field, model, batch_size, max_retries):
 # ---------- Provider: Gemini ----------
 
 
-def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec):
+def _gemini_embed(
+    records: list[dict],
+    text_field: str,
+    model: str,
+    batch_size: int,
+    max_retries: int,
+    sleep_sec: float,
+    checkpoint_fn=None,
+    checkpoint_every: int = 0,
+) -> tuple:
     """Encode via Google Gemini embedding API with throttling for free tier.
 
     Free tier: 100 RPM. With sleep_sec=0.7 we cap ourselves at ~85 RPM.
@@ -145,7 +267,7 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
       gemini-embedding-001            (new, default, 768/1536/3072 dim)
       models/text-embedding-004       (legacy, 768 dim, separate quota)
     """
-    import numpy as np  # lazy import (FU-506)
+    import numpy as np
 
     try:
         from google import genai
@@ -160,8 +282,9 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
     client = genai.Client(api_key=api_key)
     corpus = [(r.get(text_field) or "") for r in records]
     n = len(corpus)
+    state = {"provider": "gemini", "model": model}
 
-    vectors = []
+    vectors: list = []
     print(
         f"Encoding {n:,} records via Gemini {model} (batch={batch_size}, sleep={sleep_sec}s)",
         file=sys.stderr,
@@ -185,7 +308,8 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
                 if "RESOURCE_EXHAUSTED" in err_str or "429" in err_str:
                     wait = 30 if attempt < max_retries else 60
                     print(
-                        f"WARN: batch {batch_start} attempt {attempt} hit rate limit; sleeping {wait}s",
+                        f"WARN: batch {batch_start} attempt {attempt} hit rate limit; "
+                        f"sleeping {wait}s",
                         file=sys.stderr,
                     )
                 else:
@@ -197,7 +321,8 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
                         raise
                     wait = 2**attempt
                     print(
-                        f"WARN: batch {batch_start} attempt {attempt} failed: {e}; retrying in {wait}s",
+                        f"WARN: batch {batch_start} attempt {attempt} failed: {e}; "
+                        f"retrying in {wait}s",
                         file=sys.stderr,
                     )
                 if attempt == max_retries:
@@ -205,32 +330,39 @@ def _gemini_embed(records, text_field, model, batch_size, max_retries, sleep_sec
                     raise
                 time.sleep(wait)
 
+        # Per-batch integrity check (A-1)
+        _assert_batch_count(len(batch), len(resp.embeddings), batch_start)
         for emb in resp.embeddings:
             vectors.append(emb.values)
 
-        done = batch_start + len(batch)
+        done = len(vectors)
         if done % (batch_size * 5) == 0 or done == n:
             elapsed = time.time() - start
             rate = done / elapsed if elapsed > 0 else 0
             eta = (n - done) / rate if rate > 0 else 0
             print(
-                f"  progress: {done:,}/{n:,}  ({100 * done / n:.0f}%)  rate={rate:.1f}/s  ETA={eta:.0f}s",
+                f"  progress: {done:,}/{n:,}  ({100 * done / n:.0f}%)  "
+                f"rate={rate:.1f}/s  ETA={eta:.0f}s",
                 file=sys.stderr,
             )
+
+        # Checkpoint (A-3): save partial results atomically every N records
+        if checkpoint_fn and checkpoint_every > 0 and done % checkpoint_every == 0:
+            partial = np.asarray(vectors, dtype=np.float32)
+            checkpoint_fn(partial, records[:done], state)
 
         if sleep_sec > 0 and done < n:
             time.sleep(sleep_sec)
 
     dense = np.asarray(vectors, dtype=np.float32)
-    state = {"provider": "gemini", "model": model}
     return dense, model, state
 
 
 # ---------- CLI ----------
 
 
-def main():
-    import numpy as np  # lazy import (FU-506)
+def main() -> int:
+    import numpy as np
 
     ap = argparse.ArgumentParser(description="Generate embeddings for JuriCode-JP NDJSON.")
     ap.add_argument("--input", type=Path, required=True)
@@ -238,6 +370,12 @@ def main():
     ap.add_argument("--provider", choices=["tfidf", "openai", "gemini"], default="tfidf")
     ap.add_argument("--text-field", default="text")
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument(
+        "--checkpoint-every",
+        type=int,
+        default=1000,
+        help="(gemini/openai) Save checkpoint every N records (0 = disabled).",
+    )
 
     ap.add_argument("--max-features", type=int, default=10000, help="(tfidf only)")
 
@@ -257,7 +395,7 @@ def main():
         "--gemini-sleep-between-batches",
         type=float,
         default=0.7,
-        help="(gemini only) Sleep seconds between batches to respect free-tier RPM (default: 0.7 ~= 85 RPM).",
+        help="(gemini only) Sleep seconds between batches to respect free-tier RPM.",
     )
 
     args = ap.parse_args()
@@ -272,48 +410,99 @@ def main():
         return 1
     print(f"Loaded {len(records):,} records", file=sys.stderr)
 
+    # Build output paths (must be done before resume check)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    # NOTE: with_suffix() breaks on dot-containing names like "v0.2-gemini-17967",
+    # so we use string concatenation.
+    npy = args.output.parent / (args.output.name + ".npy")
+    meta = args.output.parent / (args.output.name + ".meta.jsonl")
+    vec = args.output.parent / (args.output.name + ".vec.pkl")
+
+    # Resume: skip already-processed records (A-2)
+    existing_records, existing_dense = _load_resume_state(meta, npy)
+    if existing_records:
+        processed_keys = {_record_resume_key(r) for r in existing_records}
+        new_records = [r for r in records if _record_resume_key(r) not in processed_keys]
+        print(
+            f"Resume: {len(existing_records):,} already embedded, {len(new_records):,} remaining",
+            file=sys.stderr,
+        )
+        if not new_records:
+            print("All records already embedded. Done.", file=sys.stderr)
+            return 0
+    else:
+        new_records = records
+
     if args.provider == "tfidf":
-        dense, model_name, state = _tfidf_embed(records, args.text_field, args.max_features)
+        new_dense, model_name, state = _tfidf_embed(new_records, args.text_field, args.max_features)
     elif args.provider == "openai":
-        dense, model_name, state = _openai_embed(
-            records,
+        new_dense, model_name, state = _openai_embed(
+            new_records,
             args.text_field,
             args.openai_model,
             args.openai_batch_size,
             args.openai_max_retries,
         )
     elif args.provider == "gemini":
-        dense, model_name, state = _gemini_embed(
-            records,
+        model_name = args.gemini_model
+
+        def _checkpoint_fn(
+            partial_new_dense: np.ndarray,
+            partial_new_records: list[dict],
+            cp_state: dict,
+        ) -> None:
+            if existing_dense is not None:
+                combined = np.concatenate([existing_dense, partial_new_dense], axis=0)
+                combined_recs = existing_records + list(partial_new_records)
+            else:
+                combined = partial_new_dense
+                combined_recs = list(partial_new_records)
+            _save_atomic(npy, meta, vec, combined, combined_recs, model_name, cp_state)
+            print(
+                f"  Checkpoint: {combined.shape[0]:,} records saved to {npy.name}",
+                file=sys.stderr,
+            )
+
+        new_dense, model_name, state = _gemini_embed(
+            new_records,
             args.text_field,
-            args.gemini_model,
+            model_name,
             args.gemini_batch_size,
             args.gemini_max_retries,
             args.gemini_sleep_between_batches,
+            checkpoint_fn=_checkpoint_fn,
+            checkpoint_every=args.checkpoint_every,
         )
     else:
         return 1
 
-    print(f"Embeddings: shape={dense.shape}, model={model_name}", file=sys.stderr)
+    # Index integrity assert (A-1): must match before saving
+    _check_index_integrity(new_dense, len(new_records))
 
-    args.output.parent.mkdir(parents=True, exist_ok=True)
-    # NOTE: with_suffix() は "v0.2-gemini-17967" のようなドット含み名で壊れるので文字列連結を使う。
-    npy = args.output.parent / (args.output.name + ".npy")
-    meta = args.output.parent / (args.output.name + ".meta.jsonl")
-    vec = args.output.parent / (args.output.name + ".vec.pkl")
+    # Combine with existing embeddings from resume
+    if existing_dense is not None and len(existing_records) > 0:
+        combined_dense = np.concatenate([existing_dense, new_dense], axis=0)
+        combined_records = existing_records + new_records
+    else:
+        combined_dense = new_dense
+        combined_records = new_records
 
-    np.save(npy, dense)
-    print(f"Saved .npy:  {npy} ({dense.nbytes / 1024 / 1024:.1f} MB)", file=sys.stderr)
+    # Final sanity assert
+    assert combined_dense.shape[0] == len(combined_records)
 
-    with meta.open("w", encoding="utf-8") as fh:
-        for r in records:
-            m = {k: r.get(k) for k in _META_FIELDS}
-            m["embedding_model"] = model_name
-            fh.write(json.dumps(m, ensure_ascii=False) + "\n")
+    print(
+        f"Embeddings: shape={combined_dense.shape}, model={model_name}",
+        file=sys.stderr,
+    )
+
+    # Atomic save (A-3)
+    _save_atomic(npy, meta, vec, combined_dense, combined_records, model_name, state)
+
+    print(
+        f"Saved .npy:  {npy} ({combined_dense.nbytes / 1024 / 1024:.1f} MB)",
+        file=sys.stderr,
+    )
     print(f"Saved meta:  {meta}", file=sys.stderr)
-
-    with vec.open("wb") as fh:
-        pickle.dump(state, fh)
     print(f"Saved vec:   {vec}", file=sys.stderr)
     return 0
 

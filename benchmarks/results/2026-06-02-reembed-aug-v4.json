@@ -1,0 +1,153 @@
+{
+  "run_id": "2026-06-02-reembed-aug-v4",
+  "date": "2026-06-02",
+  "description": "Full re-embed after Phase 5b Stage 1 (12 tax enforcement orders/regulations + 446 inline table chunks). Corpus grew from 63,246 to 92,443 records.",
+  "embedding_model": "gemini-embedding-001",
+  "embedding_provider": "Google Gemini",
+  "embedding_dim": 3072,
+  "corpus_version": "v0.2-aug-v4",
+  "corpus_size": 92443,
+  "corpus_size_previous": 63246,
+  "corpus_delta": {
+    "total": 29197,
+    "breakdown": {
+      "tax_enforcement_orders_12_laws": 3167,
+      "inline_table_chunks": 446,
+      "kou_supplproviso_rollup": 25584
+    }
+  },
+  "augmentation": "prefix: [law_name article_number (title) paragraph_number segment_label]",
+  "augmentation_flag": "--augment",
+  "eval_sets": {
+    "main_172q": {
+      "path": "data/eval-set/",
+      "n_queries": 172,
+      "description": "lawqa_jp + municipal-extended + own queries"
+    },
+    "tax_table_12q": {
+      "path": "data/eval-set/tax-table.jsonl",
+      "n_queries": 12,
+      "description": "Inline table retrieval (new, 2026-06-02). 0% with prior dense v3."
+    }
+  },
+  "retrieval_settings": {
+    "hybrid_rrf_k": 60,
+    "normalize_query": true,
+    "eval_script": "run3_phaseD_eval.ps1"
+  },
+  "runs": {
+    "D1_172q_hybrid_new_v4": {
+      "eval_set": "main_172q",
+      "retriever": "hybrid",
+      "corpus": "v4_new_92443",
+      "n_queries": 172,
+      "recall_at_1": 0.448,
+      "recall_at_3": 0.564,
+      "recall_at_10": 0.634,
+      "mrr": 0.510
+    },
+    "D2_172q_hybrid_old_v3": {
+      "eval_set": "main_172q",
+      "retriever": "hybrid",
+      "corpus": "v3_old_63246",
+      "n_queries": 172,
+      "recall_at_1": 0.448,
+      "recall_at_3": 0.547,
+      "recall_at_10": 0.634,
+      "mrr": 0.504
+    },
+    "D3_tax12_hybrid_new_v4": {
+      "eval_set": "tax_table_12q",
+      "retriever": "hybrid",
+      "corpus": "v4_new_92443",
+      "n_queries": 12,
+      "recall_at_1": 0.333,
+      "recall_at_3": 0.500,
+      "recall_at_10": 0.833,
+      "mrr": 0.462
+    },
+    "D4_tax12_dense_new_v4": {
+      "eval_set": "tax_table_12q",
+      "retriever": "dense",
+      "corpus": "v4_new_92443",
+      "n_queries": 12,
+      "recall_at_1": 0.500,
+      "recall_at_3": 0.833,
+      "recall_at_10": 0.833,
+      "mrr": 0.667
+    },
+    "D5_tax12_hybrid_old_v3": {
+      "eval_set": "tax_table_12q",
+      "retriever": "hybrid",
+      "corpus": "v3_old_63246",
+      "n_queries": 12,
+      "recall_at_1": 0.0,
+      "recall_at_3": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    },
+    "D6_tax12_dense_old_v3": {
+      "eval_set": "tax_table_12q",
+      "retriever": "dense",
+      "corpus": "v3_old_63246",
+      "n_queries": 12,
+      "recall_at_1": 0.0,
+      "recall_at_3": 0.0,
+      "recall_at_10": 0.0,
+      "mrr": 0.0
+    }
+  },
+  "gate_results": {
+    "T2_table_hybrid": {
+      "status": "PASS",
+      "description": "tax-table hybrid R@3: 0% (v3) -> 50.0% (v4)",
+      "before": 0.0,
+      "after": 0.500
+    },
+    "T2D_table_dense": {
+      "status": "PASS",
+      "description": "tax-table dense R@3: 0% (v3) -> 83.3% (v4)",
+      "before": 0.0,
+      "after": 0.833
+    },
+    "T3_main_no_regression": {
+      "status": "PASS",
+      "description": "172q hybrid R@3: 54.7% (v3) -> 56.4% (v4), +1.7pp no regression",
+      "before": 0.547,
+      "after": 0.564,
+      "delta_pp": 1.7
+    }
+  },
+  "key_findings": [
+    "Re-embed success: tax-table dense R@3 improved from 0% to 83.3% (table chunks now retrievable)",
+    "Tax-table hybrid R@3 improved from 0% to 50.0% (RRF suppresses some correct answers vs dense)",
+    "Main 172q hybrid R@3 improved +1.7pp (54.7% -> 56.4%), no regression",
+    "Dense > hybrid for table queries: dense R@3=83.3% vs hybrid R@3=50.0% (both R@10=83.3%)",
+    "RRF with BM25 char-ngram demotes correct articles for table queries; follow-up needed (see FU-512)",
+    "embed.py robustness (index-assert/resume/atomic, commit e3f599d1) handled rate-limit recovery in production"
+  ],
+  "comparison_to_previous": {
+    "previous_run_id": "2026-05-21-gemini-11760-v3",
+    "delta_corpus_size": "+29,197 records (63,246 -> 92,443)",
+    "delta_172q_hybrid_recall_at_3": "+1.7pp (54.7% -> 56.4%)",
+    "delta_172q_hybrid_mrr": "+0.006 (0.504 -> 0.510)",
+    "tax_table_dense_r3": "0% -> 83.3% (new capability)"
+  },
+  "follow_ups": [
+    "FU-512: hybrid dense > hybrid for table queries; RRF weight / query-type routing investigation",
+    "Dense-only is now default; hybrid reactivation pending BM25 tokenizer improvement"
+  ],
+  "embed_robustness": {
+    "commit": "e3f599d1",
+    "features": ["index-assert (A-1)", "resume (A-2)", "atomic-save (A-3)"],
+    "checkpoint_every": 1000,
+    "rate_limit_recovery": "RESOURCE_EXHAUSTED 30s/60s backoff triggered and recovered"
+  },
+  "files": {
+    "dense_npy": "build/embeddings/v0.2-aug-v4-gemini.npy",
+    "meta_jsonl": "build/embeddings/v0.2-aug-v4-gemini.meta.jsonl",
+    "vec_pkl": "build/embeddings/v0.2-aug-v4-gemini.vec.pkl",
+    "corpus_jsonl": "build/corpus-v0.2-augmented-v4.jsonl",
+    "note": "build/ is gitignored; this JSON is the permanent record of evaluation results"
+  }
+}

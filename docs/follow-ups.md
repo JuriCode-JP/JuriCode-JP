@@ -1457,7 +1457,7 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **関連**: 柱5 Phase C/D。
 
-### [x] FU-512: hybrid(BM25 char-ngram + RRF) 品質劣化が R@3 regression の真因 (2026-05-31 追加, P2) — ✅ 結論 2026-05-31 (Phase A ablation): hybrid は全 RRF k で dense に -10pt・逐語型 (kinsho) も悪化 → **dense-only 正式既定で close**。BM25/正規化の抜本是正による hybrid 再評価は FU-513 へ委譲。詳細 `business/v03-fu512-hybrid-bm25-plan-2026-05-31.md` §9。
+### [x] FU-512: hybrid(BM25 char-ngram + RRF) 品質劣化が R@3 regression の真因 (2026-05-31 追加, P2) — ✅ 結論 2026-05-31 (Phase A ablation): hybrid は全 RRF k で dense に -10pt・逐語型 (kinsho) も悪化 → **dense-only 正式既定で close**。BM25/正規化の抜本是正による hybrid 再評価は FU-513 へ委譲。詳細 `business/v03-fu512-hybrid-bm25-plan-2026-05-31.md` §9。Phase D 追加知見 (2026-06-02): 表クエリでも dense>hybrid 逆転を確認 (dense R@3=83.3% vs hybrid R@3=50.0%、R@10 両者 83.3%)。RRF が BM25 ノイズで正解条文を top-3 外へ押し出す同一パターン。
 
 **場所**: `tools/embed/retrieve.py` の hybrid 経路 (BM25 char 2-3gram + dense の RRF k=60)。
 
@@ -1483,4 +1483,4 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-05-30 — 柱5 (v0.3 pillar5 質問ログ UI) sprint 完了: Phase A-F (qlog SQLite 永続化 / POST API / UI feedback+click+dwell / PII Tier1 + 匿名化 / --allow-external / CI+docs). commits 5e6281ce / 1177d178 / 3d597772 / 452253e5 / 3ce19b2c (+Phase F). FU-414 完了、FU-507..511 新規登録. / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.7*
+*Last updated: 2026-06-02 — Phase D 再embed 評価完了: corpus 92,443 records (旧 63,246 +29,197)、tax-table dense R@3 0%→83.3% (T2-D PASS)、172q hybrid R@3 +1.7pp 退行なし (T3 PASS)。benchmarks/results/2026-06-02-reembed-aug-v4.json に全結果を永続化。FU-512 に表クエリ dense>hybrid 逆転の知見を追記。 / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.8*
