@@ -4,6 +4,7 @@ docs/ir-spec.md および docs/format-spec.md の仕様を Pydantic v2 で実体
 すべての tools/ サブパッケージで共通利用される.
 
 1 つの JuriCodeArticle インスタンス = 1 つの条文 = 1 つの Markdown ファイル.
+1 つの TaxAnswerChunk インスタンス = 1 つのタックスアンサーページ (NTA HTML).
 
 設計判断 (2026-05-18):
 - `Paragraph.text` は default="" (空文字).
@@ -14,12 +15,21 @@ docs/ir-spec.md および docs/format-spec.md の仕様を Pydantic v2 で実体
 - 2026-05-18 P0-2 で 3 件の integrity rule を追加:
   - english_translation 存在時の translation_status チェック
   - cases[].relevant_paragraph の paragraph 存在チェック
+
+設計判断 (2026-06-02 TaxAnswerChunk):
+- `version_date` は Optional[str] (str のまま、date 変換しない).
+  chunk 内 "2025-04-01" は下流で未使用 (R30)、str で十分かつ型強制を回避.
+- 配管フィールド (segment_type/article_id/law_name_ja/law_name_ja_display/text) は
+  TaxAnswerChunk に含めない。model_dump() 後に parse-nta-taxanswer.py 側でマージ.
+  Why: これらは retrieval pipeline の都合であり、QA コンテンツの意味フィールドではない.
+- P6b: TaxAnswerChunk と将来の DirectiveChunk は source_url/license/attribution を
+  共通基底 ExternalSourceChunkBase にまとめられる構造 (本 PR は TaxAnswer のみ実装).
 """
 
 from __future__ import annotations
 
 from datetime import date
-from typing import Any, Literal
+from typing import Any, Literal, Optional
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
@@ -294,3 +304,78 @@ class JuriCodeArticle(BaseModel):
                 "Set translation_status to 'official', 'community', or 'draft'."
             )
         return v
+
+
+# ---------------------------------------------------------------------------
+# TaxAnswer IR (NTA タックスアンサー, 2026-06-02)
+# ---------------------------------------------------------------------------
+
+
+class TaxAnswerArticleRef(BaseModel):
+    """条文参照 (related_articles の 1 エントリ)."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    raw: str = Field(..., description="根拠法令等 raw token (e.g. '法法2')")
+    law_abbrev: str = Field(..., description="法令略称 (e.g. 'houjin-zei-hou')")
+    article_number: str = Field(..., description="条番号 (e.g. '2', '54-2')")
+    article_id: str = Field(..., description="条文 ID (e.g. 'houjin-zei-hou-art-2')")
+
+
+class TaxAnswerDirectiveRef(BaseModel):
+    """通達参照 (related_directives の 1 エントリ)."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    raw: str = Field(..., description="根拠法令等 raw token (e.g. '法基通9-2-9～11')")
+    directive_number: str = Field(..., description="通達番号 (e.g. '9-2-9')")
+    law_abbrev: str = Field(..., description="通達略称 (e.g. 'hojin-kihon-tsutatsu')")
+    directive_id: str = Field(..., description="通達 ID (e.g. 'hojin-kihon-tsutatsu-9-2-9')")
+
+
+class TaxAnswerUnlinkedRef(BaseModel):
+    """未リンク参照 (unlinked_refs の 1 エントリ)."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    raw: str = Field(..., description="根拠法令等 raw token")
+    reason: str = Field(
+        ..., description="未リンク理由 (e.g. 'kaisei_funsoku', 'tsutatsu_not_in_corpus')"
+    )
+
+
+TaxAnswerSourceFormat = Literal["nta-html"]
+
+
+class TaxAnswerChunk(BaseModel):
+    """NTA タックスアンサー 1 ページ分の意味フィールド.
+
+    配管フィールド (segment_type / article_id / law_name_ja / law_name_ja_display / text) は
+    parse-nta-taxanswer.py で model_dump() 後にマージする (retrieval pipeline 都合).
+    """
+
+    model_config = ConfigDict(extra="forbid")
+
+    id: str = Field(..., description="一意 ID (e.g. 'hojin-taxanswer-5200')")
+    code: str = Field(..., description="QA コード番号 (e.g. '5200')")
+    title: str = Field(..., description="タイトル (e.g. '役員の範囲')")
+    body: str = Field(..., description="本文 (Markdown)")
+    version_date: Optional[str] = Field(
+        None,
+        description="現在法令等の日付 (e.g. '2025-04-01', パース不能は None)",
+    )
+    related_articles: list[TaxAnswerArticleRef] = Field(
+        default_factory=list, description="根拠条文リスト"
+    )
+    related_directives: list[TaxAnswerDirectiveRef] = Field(
+        default_factory=list, description="根拠通達リスト"
+    )
+    unlinked_refs: list[TaxAnswerUnlinkedRef] = Field(
+        default_factory=list, description="未リンク参照リスト (改正附則・未取込通達)"
+    )
+    related_qa: list[str] = Field(default_factory=list, description="関連コード番号リスト")
+    kikon_raw: str = Field("", description="根拠法令等 raw text")
+    source_url: str = Field(..., description="NTA タックスアンサーの URL")
+    source_format: TaxAnswerSourceFormat = Field("nta-html")
+    license: str = Field("cc-by-jp-nta", description="ライセンス (CC BY)")
+    attribution: str = Field("国税庁タックスアンサー", description="帰属表示")
