@@ -125,6 +125,22 @@ def make_augmented_text(chunk: dict, caption: str | None) -> str:
     segment_type = chunk.get("segment_type") or ""
     text = chunk.get("text") or ""
 
+    # 通達 (tsutatsu) 用 prefix: 通達番号 + 見出しを前置き
+    if segment_type == "tsutatsu":
+        parts: list[str] = []
+        if law_name:
+            parts.append(law_name)
+        directive_num = chunk.get("directive_number") or ""
+        if directive_num:
+            parts.append(directive_num)
+        title = chunk.get("title") or ""
+        if title:
+            parts.append(title)
+        prefix = " ".join(parts)
+        if prefix:
+            return f"{prefix}\n{text}"
+        return text
+
     # Fix 2: 附則 (supplproviso / supplproviso_rollup) 用 prefix
     if segment_type in ("supplproviso", "supplproviso_rollup"):
         parts: list[str] = []
@@ -225,6 +241,18 @@ def flatten_chunk(
     for f in SUPPLPROVISO_FIELDS:
         if f in chunk:
             flat[f] = chunk[f]
+    # Pass-through tsutatsu-specific fields (R9: unique id for dedup safety)
+    for f in (
+        "directive_id",
+        "directive_number",
+        "title",
+        "amendment_note",
+        "related_articles",
+        "law_abbrev",
+        "law_name_ja_display",
+    ):
+        if f in chunk:
+            flat[f] = chunk[f]
     return flat
 
 
@@ -278,10 +306,18 @@ def main():
     missing_phase = set()
     augmented_with_caption = 0
 
+    # tsutatsu chunk files are identified by the .tsutatsu.chunks.jsonl suffix;
+    # they have no entry in law_to_phase (they live under build/chunks/, not data/v0.2/).
+    TSUTATSU_PHASE = "tsutatsu"
+
     with args.output.open("w", encoding="utf-8") as out:
         for f in chunk_files:
             law_abbrev = f.parent.name
-            phase = law_to_phase.get(law_abbrev, "unknown")
+            # Directive (tsutatsu) chunks: assign dedicated phase, skip law_to_phase lookup
+            if f.name.endswith(".tsutatsu.chunks.jsonl"):
+                phase = TSUTATSU_PHASE
+            else:
+                phase = law_to_phase.get(law_abbrev, "unknown")
             if phase == "unknown":
                 missing_phase.add(law_abbrev)
             with f.open(encoding="utf-8") as fh:

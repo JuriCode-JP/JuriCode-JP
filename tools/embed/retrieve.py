@@ -754,7 +754,16 @@ def main():
     law_name_ja = pipeline.law_name_ja
     article_number = pipeline.article_number
 
-    expected_per_query = [set(q["expected_article_ids"]) for q in queries]
+    # Support both article queries (expected_article_ids) and directive queries (expected_directive_id)
+    # R14: directive queries use chunk_id / directive_id as the match key
+    def _expected_ids(q: dict) -> set:
+        ids: set = set(q.get("expected_article_ids") or [])
+        did = q.get("expected_directive_id")
+        if did:
+            ids.add(did)
+        return ids
+
+    expected_per_query = [_expected_ids(q) for q in queries]
     metrics = pipeline.aggregate_metrics(top_idx, expected_per_query)
     n = metrics["n"]
     if n == 0:
@@ -776,9 +785,20 @@ def main():
                 score = float(sims[qi, idx]) if (sims is not None and idx >= 0) else 0.0
                 lawname = law_name_ja[idx] or ""
                 artnum = article_number[idx] or ""
-                marker = " OK" if aid in expected else ""
+                # R14: directive records have article_id=None; use chunk_id for match + display
+                chunk_id = pipeline.records[idx].get("chunk_id") or ""
+                directive_id = pipeline.records[idx].get("directive_id") or ""
+                match_key = aid if aid else (directive_id or chunk_id)
+                marker = " OK" if match_key in expected else ""
+                # Display: law article vs directive
+                if aid:
+                    entity_desc = f"{lawname} 第{artnum}条"
+                else:
+                    directive_num = pipeline.records[idx].get("directive_number") or directive_id
+                    entity_desc = f"{lawname} {directive_num}"
+                display_id = aid or directive_id or chunk_id
                 print(
-                    f"   [{i}] {aid:48s} {score:.3f}  {lawname} 第{artnum}条{marker}",
+                    f"   [{i}] {display_id:48s} {score:.3f}  {entity_desc}{marker}",
                     file=sys.stderr,
                 )
             print("", file=sys.stderr)
