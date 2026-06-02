@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/juricode-taxanswer.schema.json",
+  "title": "JuriCode-JP TaxAnswer Chunk (IR-derived canonical schema)",
+  "description": "Auto-generated JSON Schema from Pydantic IR (juricode_shared.ir.TaxAnswerChunk). Covers NTA TaxAnswer (タックスアンサー) semantic fields only. Pipeline fields (segment_type / article_id / law_name_ja / text) are excluded from this schema and merged post-dump by the parser. Edit the Pydantic models in tools/shared/src/juricode_shared/ir.py instead of this file. Original IR description: NTA タックスアンサー 1 ページ分の意味フィールド.\n\n配管フィールド (segment_type / article_id / law_name_ja / law_name_ja_display / text) は\nparse-nta-taxanswer.py で model_dump() 後にマージする (retrieval pipeline 都合).",
+  "$defs": {
+    "TaxAnswerArticleRef": {
+      "additionalProperties": false,
+      "description": "条文参照 (related_articles の 1 エントリ).",
+      "properties": {
+        "raw": {
+          "description": "根拠法令等 raw token (e.g. '法法2')",
+          "title": "Raw",
+          "type": "string"
+        },
+        "law_abbrev": {
+          "description": "法令略称 (e.g. 'houjin-zei-hou')",
+          "title": "Law Abbrev",
+          "type": "string"
+        },
+        "article_number": {
+          "description": "条番号 (e.g. '2', '54-2')",
+          "title": "Article Number",
+          "type": "string"
+        },
+        "article_id": {
+          "description": "条文 ID (e.g. 'houjin-zei-hou-art-2')",
+          "title": "Article Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "raw",
+        "law_abbrev",
+        "article_number",
+        "article_id"
+      ],
+      "title": "TaxAnswerArticleRef",
+      "type": "object"
+    },
+    "TaxAnswerDirectiveRef": {
+      "additionalProperties": false,
+      "description": "通達参照 (related_directives の 1 エントリ).",
+      "properties": {
+        "raw": {
+          "description": "根拠法令等 raw token (e.g. '法基通9-2-9～11')",
+          "title": "Raw",
+          "type": "string"
+        },
+        "directive_number": {
+          "description": "通達番号 (e.g. '9-2-9')",
+          "title": "Directive Number",
+          "type": "string"
+        },
+        "law_abbrev": {
+          "description": "通達略称 (e.g. 'hojin-kihon-tsutatsu')",
+          "title": "Law Abbrev",
+          "type": "string"
+        },
+        "directive_id": {
+          "description": "通達 ID (e.g. 'hojin-kihon-tsutatsu-9-2-9')",
+          "title": "Directive Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "raw",
+        "directive_number",
+        "law_abbrev",
+        "directive_id"
+      ],
+      "title": "TaxAnswerDirectiveRef",
+      "type": "object"
+    },
+    "TaxAnswerUnlinkedRef": {
+      "additionalProperties": false,
+      "description": "未リンク参照 (unlinked_refs の 1 エントリ).",
+      "properties": {
+        "raw": {
+          "description": "根拠法令等 raw token",
+          "title": "Raw",
+          "type": "string"
+        },
+        "reason": {
+          "description": "未リンク理由 (e.g. 'kaisei_funsoku', 'tsutatsu_not_in_corpus')",
+          "title": "Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "raw",
+        "reason"
+      ],
+      "title": "TaxAnswerUnlinkedRef",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "description": "一意 ID (e.g. 'hojin-taxanswer-5200')",
+      "title": "Id",
+      "type": "string"
+    },
+    "code": {
+      "description": "QA コード番号 (e.g. '5200')",
+      "title": "Code",
+      "type": "string"
+    },
+    "title": {
+      "description": "タイトル (e.g. '役員の範囲')",
+      "title": "Title",
+      "type": "string"
+    },
+    "body": {
+      "description": "本文 (Markdown)",
+      "title": "Body",
+      "type": "string"
+    },
+    "version_date": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "現在法令等の日付 (e.g. '2025-04-01', パース不能は None)",
+      "title": "Version Date"
+    },
+    "related_articles": {
+      "description": "根拠条文リスト",
+      "items": {
+        "$ref": "#/$defs/TaxAnswerArticleRef"
+      },
+      "title": "Related Articles",
+      "type": "array"
+    },
+    "related_directives": {
+      "description": "根拠通達リスト",
+      "items": {
+        "$ref": "#/$defs/TaxAnswerDirectiveRef"
+      },
+      "title": "Related Directives",
+      "type": "array"
+    },
+    "unlinked_refs": {
+      "description": "未リンク参照リスト (改正附則・未取込通達)",
+      "items": {
+        "$ref": "#/$defs/TaxAnswerUnlinkedRef"
+      },
+      "title": "Unlinked Refs",
+      "type": "array"
+    },
+    "related_qa": {
+      "description": "関連コード番号リスト",
+      "items": {
+        "type": "string"
+      },
+      "title": "Related Qa",
+      "type": "array"
+    },
+    "kikon_raw": {
+      "default": "",
+      "description": "根拠法令等 raw text",
+      "title": "Kikon Raw",
+      "type": "string"
+    },
+    "source_url": {
+      "description": "NTA タックスアンサーの URL",
+      "title": "Source Url",
+      "type": "string"
+    },
+    "source_format": {
+      "const": "nta-html",
+      "default": "nta-html",
+      "title": "Source Format",
+      "type": "string"
+    },
+    "license": {
+      "default": "cc-by-jp-nta",
+      "description": "ライセンス (CC BY)",
+      "title": "License",
+      "type": "string"
+    },
+    "attribution": {
+      "default": "国税庁タックスアンサー",
+      "description": "帰属表示",
+      "title": "Attribution",
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "code",
+    "title",
+    "body",
+    "source_url"
+  ],
+  "type": "object"
+}

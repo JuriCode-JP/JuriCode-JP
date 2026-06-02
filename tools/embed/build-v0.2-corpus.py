@@ -125,6 +125,20 @@ def make_augmented_text(chunk: dict, caption: str | None) -> str:
     segment_type = chunk.get("segment_type") or ""
     text = chunk.get("text") or ""
 
+    # タックスアンサー (taxanswer) 用 prefix: No.XXXX コード + タイトル
+    if segment_type == "taxanswer":
+        parts: list[str] = []
+        code = chunk.get("code") or ""
+        if code:
+            parts.append(f"タックスアンサー No.{code}")
+        title = chunk.get("title") or ""
+        if title:
+            parts.append(title)
+        prefix = " ".join(parts)
+        if prefix:
+            return f"{prefix}\n{text}"
+        return text
+
     # 通達 (tsutatsu) 用 prefix: 通達番号 + 見出しを前置き
     if segment_type == "tsutatsu":
         parts: list[str] = []
@@ -253,6 +267,20 @@ def flatten_chunk(
     ):
         if f in chunk:
             flat[f] = chunk[f]
+    # Pass-through taxanswer-specific fields
+    for f in (
+        "code",
+        "body",
+        "version_date",
+        "related_directives",
+        "related_qa",
+        "unlinked_refs",
+        "attribution",
+        "kikon_raw",
+        "law_name_ja_display",
+    ):
+        if f in chunk:
+            flat[f] = chunk[f]
     return flat
 
 
@@ -306,16 +334,19 @@ def main():
     missing_phase = set()
     augmented_with_caption = 0
 
-    # tsutatsu chunk files are identified by the .tsutatsu.chunks.jsonl suffix;
+    # tsutatsu/taxanswer chunk files are identified by suffix;
     # they have no entry in law_to_phase (they live under build/chunks/, not data/v0.2/).
     TSUTATSU_PHASE = "tsutatsu"
+    TAXANSWER_PHASE = "taxanswer"
 
     with args.output.open("w", encoding="utf-8") as out:
         for f in chunk_files:
             law_abbrev = f.parent.name
-            # Directive (tsutatsu) chunks: assign dedicated phase, skip law_to_phase lookup
+            # Directive/QA chunks: assign dedicated phase, skip law_to_phase lookup
             if f.name.endswith(".tsutatsu.chunks.jsonl"):
                 phase = TSUTATSU_PHASE
+            elif f.name.endswith(".taxanswer.chunks.jsonl"):
+                phase = TAXANSWER_PHASE
             else:
                 phase = law_to_phase.get(law_abbrev, "unknown")
             if phase == "unknown":
