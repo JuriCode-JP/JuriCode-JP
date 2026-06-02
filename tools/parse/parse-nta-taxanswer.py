@@ -41,6 +41,12 @@ try:
 except ImportError:
     sys.exit("ERROR: beautifulsoup4 not installed. Run: pip install beautifulsoup4")
 
+# juricode_shared is available once sys.path is patched in main(); lazy import at module level
+# would fail in test context -- defer import to _build_chunk_record() called from parse_file().
+_SHARED_SRC = Path(__file__).resolve().parents[1] / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -635,31 +641,87 @@ def parse_file(htm_path: Path, code: str, tax_category: str) -> dict:
     # related_qa from full HTML (関連コード section hrefs, R44)
     related_qa = extract_related_qa_from_html(text)
 
-    # Build record
+    # Build record via TaxAnswerChunk (type-safe IR)
     source_url = f"{SOURCE_URL_BASE}/{tax_category}/{code}.htm"
     record_id = f"hojin-taxanswer-{code}"
 
-    return {
-        "id": record_id,
-        "code": code,
-        "title": title,
-        "body": body,
-        "version_date": version_date,
-        "related_articles": related_result["related_articles"],
-        "related_directives": related_result["related_directives"],
-        "unlinked_refs": related_result["unlinked"],
-        "related_qa": related_qa,
-        "kikon_raw": kikon_raw,
-        "license": LICENSE,
-        "attribution": ATTRIBUTION,
-        "source_url": source_url,
-        "source_format": SOURCE_FORMAT,
+    return _build_chunk_record(
+        record_id=record_id,
+        code=code,
+        title=title,
+        body=body,
+        version_date=version_date,
+        related_articles=related_result["related_articles"],
+        related_directives=related_result["related_directives"],
+        unlinked_refs=related_result["unlinked"],
+        related_qa=related_qa,
+        kikon_raw=kikon_raw,
+        source_url=source_url,
+    )
+
+
+def _build_chunk_record(
+    *,
+    record_id: str,
+    code: str,
+    title: str,
+    body: str,
+    version_date: str | None,
+    related_articles: list[dict],
+    related_directives: list[dict],
+    unlinked_refs: list[dict],
+    related_qa: list[str],
+    kikon_raw: str,
+    source_url: str,
+) -> dict:
+    """Validate via TaxAnswerChunk Pydantic model and return JSONL-ready dict.
+
+    Why: Pydantic validation catches malformed related refs at parse time rather
+    than silently propagating bad data into the corpus. Pipeline fields
+    (segment_type / article_id / law_name_ja / law_name_ja_display / text) are
+    merged after model_dump to keep them out of the semantic IR layer.
+    """
+    from juricode_shared.ir import (
+        TaxAnswerArticleRef,
+        TaxAnswerChunk,
+        TaxAnswerDirectiveRef,
+        TaxAnswerUnlinkedRef,
+    )
+
+    article_refs = [TaxAnswerArticleRef(**a) for a in related_articles]
+    directive_refs = [TaxAnswerDirectiveRef(**d) for d in related_directives]
+    unlinked_ref_models = [TaxAnswerUnlinkedRef(**u) for u in unlinked_refs]
+
+    chunk = TaxAnswerChunk(
+        id=record_id,
+        code=code,
+        title=title,
+        body=body,
+        version_date=version_date,
+        related_articles=article_refs,
+        related_directives=directive_refs,
+        unlinked_refs=unlinked_ref_models,
+        related_qa=related_qa,
+        kikon_raw=kikon_raw,
+        source_url=source_url,
+        source_format=SOURCE_FORMAT,
+        license=LICENSE,
+        attribution=ATTRIBUTION,
+    )
+
+    # model_dump(mode="json") -> current json.dumps -> ensure key order matches original
+    semantic = chunk.model_dump(mode="json")
+
+    # Merge pipeline fields (retrieval pipeline convention, not part of semantic IR)
+    pipeline: dict = {
         "segment_type": "taxanswer",
         "article_id": None,  # retrieve.py compatibility
         "law_name_ja": "タックスアンサー",  # タックスアンサー
         "law_name_ja_display": f"タックスアンサー No.{code}",
         "text": body,  # for corpus embedding
     }
+
+    return {**semantic, **pipeline}
 
 
 def _table_to_markdown(table_tag) -> str:
@@ -801,7 +863,6 @@ def main(argv: list[str] | None = None) -> int:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     out_path = args.output_dir / f"{args.law_abbrev}.taxanswer.chunks.jsonl"
 
-    sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "shared" / "src"))
     from juricode_shared.safe_write import safe_write_jsonl
 
     safe_write_jsonl(out_path, all_items)
