@@ -1481,6 +1481,16 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 > 備考: FU-418 (cosine top-k 共通化、search-ui が retrieve.py から import) は柱5 sprint では未実施 (open のまま). search-ui の _topk は retrieve.py と重複するが機能影響なし、refactor 案件.
 
+### [ ] FU-514: 法人税基本通達 (Directive) を Pydantic IR 化 (2026-06-02 追加, P2)
+
+**場所**: `tools/parse/parse-nta-tsutatsu.py` (dict 実装) / `tools/shared/src/juricode_shared/ir.py` (Directive モデル未定義)。
+
+**問題**: PR #15 (commit `dc00d9e8`) で取込した通達チャンクは dict のまま出力しており、Pydantic バリデーションを通っていない。PR #16 で TaxAnswerChunk を Pydantic IR 化したが、Directive は同じパターンで未対応 (PR #15 は merge 済のため別 sprint)。
+
+**やること**: `tools/shared/src/juricode_shared/ir.py` に `DirectiveChunk` モデル (+ `DirectiveRelatedArticleRef` 等サブモデル) を追加。TaxAnswerChunk と共通化できるフィールド (source_url / license / attribution) は `ExternalSourceChunkBase` に括る検討 (P6b・FU-514)。`parse-nta-tsutatsu.py` を `DirectiveChunk.model_dump()` 経由に移行。`juricode-directive.schema.json` を生成・CI drift gate 対象に追加。
+
+**関連**: FU-512 (TaxAnswer Pydantic IR, PR #16 commit `8ebb7589`) / PR #15 (通達取込).
+
 ---
 
-*Last updated: 2026-06-02 — Phase D 再embed 評価完了: corpus 92,443 records (旧 63,246 +29,197)、tax-table dense R@3 0%→83.3% (T2-D PASS)、172q hybrid R@3 +1.7pp 退行なし (T3 PASS)。benchmarks/results/2026-06-02-reembed-aug-v4.json に全結果を永続化。FU-512 に表クエリ dense>hybrid 逆転の知見を追記。 / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.8*
+*Last updated: 2026-06-02 — FU-514 追加 (通達 Pydantic IR 化, PR #16 Pydantic 化3コミット完了に伴う follow-up 登録). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.8*
