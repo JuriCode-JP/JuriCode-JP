@@ -14,7 +14,7 @@ Outputs:
 Robustness (A-1/A-2/A-3):
   - Index-assert: dense.shape[0] must equal len(records); per-batch count also verified.
   - Resume: existing .meta.jsonl / .npy are loaded; already-processed records skipped.
-  - Atomic save: writes to .tmp files then os.replace() — crash-safe.
+  - Atomic save: writes to .tmp files then os.replace() -- crash-safe.
   - Checkpoint: Gemini provider saves every --checkpoint-every records (default 1000).
 """
 
