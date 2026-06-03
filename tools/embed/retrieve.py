@@ -531,6 +531,10 @@ class RetrievalPipeline:
         self.article_ids = [r.get("article_id") for r in records]
         self.law_name_ja = [r.get("law_name_ja") for r in records]
         self.article_number = [r.get("article_number") for r in records]
+        # Non-article entities (tsutatsu / taxanswer) have article_id=None;
+        # store fallback ids for aggregate_metrics matching.
+        self._directive_ids = [r.get("directive_id") for r in records]
+        self._chunk_ids = [r.get("chunk_id") for r in records]
 
     def dense_retrieve(self, query_matrix, corpus_matrix, top_k):
         """cosine 類似度で各 query の top-K segment を返す (sims, top_idx)。torch 非依存。"""
@@ -566,12 +570,27 @@ class RetrievalPipeline:
         )
 
     def aggregate_metrics(self, top_idx, expected_per_query):
-        """top_idx と各 query の expected 集合から R@1/3/10, MRR を計算 (純関数, torch 非依存)。"""
+        """top_idx と各 query の expected 集合から R@1/3/5/10/20, MRR を計算 (純関数, torch 非依存)。
+
+        Non-article entities (tsutatsu / taxanswer) は article_id=None のため、
+        article_id が None の行は directive_id → chunk_id の順でフォールバックして照合する。
+        これにより aggregate_metrics が per-query 表示 (797行) と対称になる。
+        """
         ranks = []
-        recall_1 = recall_3 = recall_10 = 0
+        recall_1 = recall_3 = recall_5 = recall_10 = recall_20 = 0
         for qi, expected in enumerate(expected_per_query):
             idx_row = top_idx[qi]
-            top_ids = [self.article_ids[i] if i >= 0 else None for i in idx_row]
+            top_ids = []
+            for i in idx_row:
+                if i < 0:
+                    top_ids.append(None)
+                    continue
+                aid = self.article_ids[i]
+                if aid is not None:
+                    top_ids.append(aid)
+                else:
+                    # Non-article fallback: directive_id then chunk_id (mirrors line 797)
+                    top_ids.append(self._directive_ids[i] or self._chunk_ids[i])
             rank = _rank_of_first_match(top_ids, expected)
             ranks.append(rank)
             if rank is not None:
@@ -579,15 +598,21 @@ class RetrievalPipeline:
                     recall_1 += 1
                 if rank <= 3:
                     recall_3 += 1
+                if rank <= 5:
+                    recall_5 += 1
                 if rank <= 10:
                     recall_10 += 1
+                if rank <= 20:
+                    recall_20 += 1
         n = len(expected_per_query)
         mrr = sum((1.0 / r) if r is not None else 0.0 for r in ranks) / n if n else 0.0
         return {
             "n": n,
             "recall_1": recall_1,
             "recall_3": recall_3,
+            "recall_5": recall_5,
             "recall_10": recall_10,
+            "recall_20": recall_20,
             "mrr": mrr,
             "ranks": ranks,
         }
@@ -814,12 +839,18 @@ def main():
                 )
             print("", file=sys.stderr)
 
-    recall_1, recall_3, recall_10 = metrics["recall_1"], metrics["recall_3"], metrics["recall_10"]
+    recall_1 = metrics["recall_1"]
+    recall_3 = metrics["recall_3"]
+    recall_5 = metrics["recall_5"]
+    recall_10 = metrics["recall_10"]
+    recall_20 = metrics["recall_20"]
     print("=== Aggregate metrics ===", file=sys.stderr)
     print(f"  N (queries)  : {n}", file=sys.stderr)
     print(f"  Recall@1     : {recall_1}/{n} = {recall_1 / n:.1%}", file=sys.stderr)
     print(f"  Recall@3     : {recall_3}/{n} = {recall_3 / n:.1%}", file=sys.stderr)
+    print(f"  Recall@5     : {recall_5}/{n} = {recall_5 / n:.1%}", file=sys.stderr)
     print(f"  Recall@10    : {recall_10}/{n} = {recall_10 / n:.1%}", file=sys.stderr)
+    print(f"  Recall@20    : {recall_20}/{n} = {recall_20 / n:.1%}", file=sys.stderr)
     print(f"  MRR          : {metrics['mrr']:.3f}", file=sys.stderr)
 
     # Settings tag for log-friendliness

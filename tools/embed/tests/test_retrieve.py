@@ -210,6 +210,68 @@ def test_aggregate_metrics_recall_and_mrr():
     assert m["n"] == 2
     assert m["recall_1"] == 1
     assert m["recall_3"] == 2
+    assert m["recall_5"] == 2
     assert m["recall_10"] == 2
+    assert m["recall_20"] == 2
     assert abs(m["mrr"] - 0.75) < 1e-9  # (1/2 + 1/1) / 2
     assert m["ranks"] == [2, 1]
+
+
+def test_aggregate_metrics_directive_fallback_rank1():
+    # tsutatsu: article_id=None, directive_id が照合キー。rank=1 になること。
+    records = [
+        {"article_id": None, "directive_id": "hojin-kihon-tsutatsu-9-2-9", "chunk_id": "c-001"},
+        {"article_id": "art-001", "directive_id": None, "chunk_id": "c-002"},
+    ]
+    pipe = RetrievalPipeline(state={}, records=records)
+    top_idx = np.array([[0, 1]], dtype=np.int64)
+    expected = [{"hojin-kihon-tsutatsu-9-2-9"}]
+    m = pipe.aggregate_metrics(top_idx, expected)
+    assert m["recall_1"] == 1
+    assert m["ranks"] == [1]
+
+
+def test_aggregate_metrics_taxanswer_chunk_id_fallback():
+    # taxanswer: article_id=None, directive_id=None, chunk_id が照合キー。
+    records = [
+        {"article_id": "art-x", "directive_id": None, "chunk_id": "c-other"},
+        {"article_id": None, "directive_id": None, "chunk_id": "hojin-taxanswer-5200"},
+    ]
+    pipe = RetrievalPipeline(state={}, records=records)
+    top_idx = np.array([[0, 1]], dtype=np.int64)
+    expected = [{"hojin-taxanswer-5200"}]
+    m = pipe.aggregate_metrics(top_idx, expected)
+    assert m["recall_1"] == 0
+    assert m["recall_3"] == 1
+    assert m["ranks"] == [2]
+
+
+def test_aggregate_metrics_mixed_article_and_directive():
+    # article クエリと directive クエリが混在しても両方正しく集計されること。
+    records = [
+        {"article_id": "art-A", "directive_id": None, "chunk_id": "c-A"},
+        {"article_id": None, "directive_id": "hojin-kihon-tsutatsu-9-2-9", "chunk_id": "c-B"},
+        {"article_id": "art-C", "directive_id": None, "chunk_id": "c-C"},
+    ]
+    pipe = RetrievalPipeline(state={}, records=records)
+    top_idx = np.array(
+        [[0, 1, 2], [1, 0, 2]],
+        dtype=np.int64,
+    )
+    expected = [{"art-A"}, {"hojin-kihon-tsutatsu-9-2-9"}]
+    m = pipe.aggregate_metrics(top_idx, expected)
+    assert m["recall_1"] == 2  # 両クエリとも rank=1
+    assert m["ranks"] == [1, 1]
+
+
+def test_aggregate_metrics_article_id_none_does_not_match_wrong_directive():
+    # article_id=None の行が、異なる directive_id を持つ別クエリの expected に誤ってマッチしない。
+    records = [
+        {"article_id": None, "directive_id": "hojin-kihon-tsutatsu-9-2-10", "chunk_id": "c-X"},
+    ]
+    pipe = RetrievalPipeline(state={}, records=records)
+    top_idx = np.array([[0]], dtype=np.int64)
+    expected = [{"hojin-kihon-tsutatsu-9-2-9"}]  # 違う directive
+    m = pipe.aggregate_metrics(top_idx, expected)
+    assert m["recall_1"] == 0
+    assert m["ranks"] == [None]
