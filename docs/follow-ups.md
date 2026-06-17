@@ -1493,4 +1493,29 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-06-02 — FU-514 追加 (通達 Pydantic IR 化, PR #16 Pydantic 化3コミット完了に伴う follow-up 登録). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.8*
+### [ ] FU-515: 本則条文の TableStruct (税率表等) が md/chunks に取りこぼし (2026-06-08 追加, P1)
+
+**場所**: `tools/parse/v0.2/segment_parser.py` (本則パース経路) / `tools/parse/v0.2/extract_table_from_xml.py` (表抽出モジュールは実在するが本則未適用・標準パイプライン未統合) / `data/v0.2/**` + `build/chunks/**`。
+
+**現状 (2026-06-08 grep 実測)**:
+
+- 地方税法 **52条 (道府県民均等割) / 312条 (市町村民均等割) / 72条の24の7 (事業税標準税率)** の `<TableStruct>` 内の税率表 (例: 312条 均等割 5万〜300万円の9区分) が、`data/v0.2/phase1-tax/chihou-zei-hou/chihou-zei-hou-article-312.md` の segment にも `build/chunks/` にも**存在しない**。md は表のリード文 (「次の表の上欄に掲げる…額とする。」) で途切れ、**表本体が欠落**。
+- `build/chunks` の `.table.chunks.jsonl` は **施行令/施行規則系で 82 件、本則系は 0 件**。
+- 表抽出モジュール `extract_table_from_xml.py` は実在するが production の呼び出し元が無く (module 単体 + tests のみ)、本則には未適用 (施行令分は ad-hoc 実行で生成された模様)。
+
+**問題**: 税率表・別表など `<TableStruct>` は条文の**実体的な法令内容**。本則で欠落すると「現行条文を構造化」の看板に対しデータが不完全。とくに税法 (52/312/72の24の7) は表が税率そのものであり、retrieval で条文を引いても税率値が得られない。
+
+**やること**:
+
+1. corpus 全体で本則 TableStruct の取りこぼし範囲を棚卸し (e-Gov XML に `<TableStruct>` を持つ本則条文を列挙し、対応 md/chunks に表があるか突合)。
+2. `extract_table_from_xml.py` を本則パース経路 (segment_parser / manifest cli) に統合し、標準パイプラインで本則表も pipe 直列化 + `.table.chunks.jsonl` 生成。
+3. 影響条文の md/chunks/manifest を再生成 (round-trip hash 再検証)。
+4. 本則表の round-trip 検証を CI に追加 (表欠落の再発防止)。
+
+**検証元**: e-Gov 法令 API v2 (`?elm=MainProvision-Article_312` 等) で本則 `<TableStruct>` の存在を確認済。下流の税法ユース検証中に発見 (2026-06-08)。
+
+**関連**: FU-108 (round-trip 検証) / FU-318 (rollup chunk filter) / `extract_table_from_xml.py` (既存の表抽出資産)。
+
+---
+
+*Last updated: 2026-06-08 — FU-515 追加 (本則 TableStruct 取りこぼし。下流の税法ユース検証で発覚、grep 実測で本則 table chunks=0/施行令系=82 を確認). 起票は Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.8*
