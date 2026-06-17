@@ -17,13 +17,19 @@ import tempfile
 from pathlib import Path
 
 
-def safe_write_text(path: Path, content: str, encoding: str = "utf-8") -> None:
+def safe_write_text(
+    path: Path, content: str, encoding: str = "utf-8", newline: str | None = None
+) -> None:
     """Write text atomically to disk with NUL byte and newline validations.
 
     Asserts:
       - Content has no NUL bytes (\\0).
       - Content ends with a trailing newline (\\n) (if not empty).
       - Atomic replacement: writes to a .tmp file, verifies read-back, then renames.
+
+    Why (newline): default stays ``None`` = current OS behavior (CRLF on Windows for
+    ``\\n``), so tracked md/manifest output is untouched (zero git diff noise). Callers
+    that need byte-stable LF output (e.g. jsonl chunks) pass ``newline="\\n"``.
     """
     # Validation checks
     assert "\0" not in content, f"NUL byte detected in content for {path}"
@@ -39,7 +45,7 @@ def safe_write_text(path: Path, content: str, encoding: str = "utf-8") -> None:
     temp_path = Path(temp_path_str)
 
     try:
-        with os.fdopen(fd, "w", encoding=encoding) as fh:
+        with os.fdopen(fd, "w", encoding=encoding, newline=newline) as fh:
             fh.write(content)
 
         # Verification check: read back and verify
@@ -60,8 +66,15 @@ def safe_write_text(path: Path, content: str, encoding: str = "utf-8") -> None:
         raise e
 
 
-def safe_write_jsonl(path: Path, records: list[dict], encoding: str = "utf-8") -> None:
-    """Serialize records to JSON Lines format, validate each, and write atomically."""
+def safe_write_jsonl(
+    path: Path, records: list[dict], encoding: str = "utf-8", newline: str | None = "\n"
+) -> None:
+    """Serialize records to JSON Lines format, validate each, and write atomically.
+
+    Why (newline default "\\n"): jsonl chunks live under build/chunks (gitignored), so
+    fixing LF here keeps byte-level idempotency stable across OSes without touching any
+    tracked file. Pass ``newline=None`` to fall back to OS-native line endings.
+    """
     lines = []
     for idx, record in enumerate(records):
         try:
@@ -73,13 +86,16 @@ def safe_write_jsonl(path: Path, records: list[dict], encoding: str = "utf-8") -
             raise ValueError(f"Failed to serialize/validate JSON record at index {idx}: {e}")
 
     content = "".join(lines)
-    safe_write_text(path, content, encoding=encoding)
+    safe_write_text(path, content, encoding=encoding, newline=newline)
 
 
-def safe_append_jsonl_records(path: Path, new_records: list[dict], encoding: str = "utf-8") -> None:
+def safe_append_jsonl_records(
+    path: Path, new_records: list[dict], encoding: str = "utf-8", newline: str | None = "\n"
+) -> None:
     """Read existing jsonl records, append new records, validate all, and rewrite atomically.
 
-    If file does not exist, behaves like safe_write_jsonl.
+    If file does not exist, behaves like safe_write_jsonl. ``newline`` defaults to "\\n"
+    for the same byte-stability reason as :func:`safe_write_jsonl`.
     """
     records = []
     if path.exists():
@@ -96,4 +112,4 @@ def safe_append_jsonl_records(path: Path, new_records: list[dict], encoding: str
                     )
 
     records.extend(new_records)
-    safe_write_jsonl(path, records, encoding=encoding)
+    safe_write_jsonl(path, records, encoding=encoding, newline=newline)
