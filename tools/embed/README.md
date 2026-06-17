@@ -93,6 +93,25 @@ rate_limit_rpm: 3000
 output_dim: 1536
 ```
 
+## 前処理: 本則 table chunks の生成 (FU-515, 必須 standard step)
+
+`build-v0.2-corpus.py` は `build/chunks/` 配下の `*.chunks.jsonl` を `rglob` で自動収集しますが、**本則の `<TableStruct>` (税率表等) は別ステップで生成**する必要があります。corpus rebuild / 増分 embed の **前段**で必ず以下を実行してください (実行しないと地方税法312条 均等割税率表などが retrieval に乗りません)。
+
+```bash
+# 1. 本則 table chunks を生成 (既定 --data-dir data/v0.2, 出力 build/chunks/)
+python tools/parse/v0.2/extract_table_from_xml.py
+#    -> Main table chunks: 296 / SupplProviso: 1046 / no-XML: 0 が想定
+
+# 2. (任意・cache/laws がある環境のみ) 取りこぼし再発防止 parity
+python tools/parse/v0.2/verify_table_parity.py
+#    -> PARITY OK (article-level coverage + no-drop)
+
+# 3. corpus を rebuild してから増分 embed
+python tools/embed/build-v0.2-corpus.py
+```
+
+`build/chunks/` は `.gitignore` 対象のため CI には乗りません。`verify_table_parity.py` は `cache/laws` (gitignored) を要するので CI ステップではなく、**push 前ローカル CI 再現** (`python tools/scripts/run-ci.py`) の optional step として走ります (`cache/laws` 不在時は自動 SKIP)。
+
 ## 実装スケジュール (予定)
 
 | ステップ | 内容 | 状態 |
