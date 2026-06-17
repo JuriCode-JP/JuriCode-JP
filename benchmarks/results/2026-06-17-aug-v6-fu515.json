@@ -1,0 +1,71 @@
+{
+  "run_id": "2026-06-17-aug-v6-fu515",
+  "date": "2026-06-17",
+  "description": "FU-515 Phase D: incremental embed of 196 restored main-text (本則) TableStruct chunks on top of aug-v5. Verifies no-regression vs aug-v5 and that tax-rate tables become retrievable. D-a scope = main tables only; 700 new 附則 (SupplProvision) table chunks deferred to D-b.",
+  "embedding_model": "gemini-embedding-001",
+  "embedding_provider": "Google Gemini",
+  "embedding_dim": 3072,
+  "corpus_version": "v0.2-aug-v6",
+  "corpus_size": 92682,
+  "corpus_size_previous": 92486,
+  "corpus_delta": {
+    "total": 196,
+    "breakdown": {
+      "main_table_chunks_new": 196
+    },
+    "notes": "build/chunks holds 296 main + 1046 supplproviso table chunks. 100 main + 346 supplproviso table chunks were already embedded in aug-v5 (施行令/施行規則 tables reachable by the pre-FU-515 default). D-a embeds the 196 genuinely-new main-text table chunks; the 700 new supplproviso table chunks are held for D-b pending eval."
+  },
+  "augmentation": "prefix: [law_name article_number (title) paragraph_number segment_label]",
+  "augmentation_flag": "--augment",
+  "retrieval_settings": {
+    "retriever": "dense",
+    "normalize_query": true,
+    "top_k": 10,
+    "eval_harness": "build/_fu515_phase_d_eval.py (encode once, score v5+v6 apples-to-apples)"
+  },
+  "pre_check": {
+    "harness": "build/_fu515_phase_d_precheck.py",
+    "result": "ALL GREEN",
+    "checks": {
+      "aug_v5_subset_of_v6": true,
+      "common_chunk_text_byte_equal": true,
+      "new_chunk_ids_all_table": true,
+      "no_new_duplicate_chunk_ids": true,
+      "duplicate_ids_pre_existing": 716,
+      "note": "716 duplicate chunk_ids are pre-existing in aug-v5 (kou/non-table); all already embedded, so resume skips them (no re-duplication). All 1342 table chunk_ids are unique. Worth a separate follow-up for corpus de-duplication."
+    }
+  },
+  "gates": {
+    "G1_no_regression_aggregate": {
+      "eval_set": "data/eval-set/ full union",
+      "n_queries": 211,
+      "v5": { "recall_at_1": 0.5498, "recall_at_3": 0.6493, "recall_at_5": 0.6919, "recall_at_10": 0.7062, "mrr": 0.6081 },
+      "v6": { "recall_at_1": 0.5498, "recall_at_3": 0.6493, "recall_at_5": 0.6919, "recall_at_10": 0.7062, "mrr": 0.6081 },
+      "pass": true,
+      "note": "v6 identical to v5 across all R@k (196 added table chunks displaced no existing gold answer)."
+    },
+    "G1b_per_query_rank_shift": {
+      "improved": 0,
+      "worsened": 0,
+      "top3_to_out_of_top3": 0,
+      "pass": true
+    },
+    "G2_tax_table_dense_r3": {
+      "eval_set": "data/eval-set/tax-table.jsonl",
+      "n_queries": 12,
+      "baseline": "D4_tax12_dense_new_v4 = 0.833",
+      "v5_recall_at_3": 0.833,
+      "v6_recall_at_3": 0.833,
+      "pass": true
+    },
+    "G3_fu515_value_probe": {
+      "description": "tax-rate table retrievable by natural-language probe (条文を引いて税率表)",
+      "probes": [
+        { "id": "g3-312-kintouwari", "query": "資本金等の額が一千万円以下で従業者数五十人以下の法人に対して課する市町村民税の均等割の標準税率の年額", "table_chunk_hit": "chihou-zei-hou-art-312-tbl1", "rank": 1 },
+        { "id": "g3-180-kouku", "query": "鉱区税の税率は試掘鉱区および採掘鉱区についてそれぞれいくらか", "table_chunk_hit": "chihou-zei-hou-art-180-tbl1", "rank": 1 }
+      ],
+      "pass": true
+    }
+  },
+  "all_gates_pass": true
+}
