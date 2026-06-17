@@ -22,6 +22,7 @@ Why this test exists:
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import pytest
@@ -221,3 +222,60 @@ def test_append_skips_blank_lines_in_existing(tmp_path: Path) -> None:
         {"b": 2},
         {"c": 3},
     ]
+
+
+# ===========================================================
+# T4 (FU-515) — newline discipline
+#
+# Why: build/chunks/*.table.chunks.jsonl idempotency byte-compares break when
+# CRLF leaks in on Windows. safe_write_jsonl / safe_append_jsonl_records must
+# emit LF on every OS, while safe_write_text default must NOT force LF (so
+# tracked md/manifest output stays OS-native = zero git diff noise).
+# ===========================================================
+
+
+def test_jsonl_output_has_no_cr_bytes(tmp_path: Path) -> None:
+    """safe_write_jsonl default must emit pure LF (no \\r) on every OS."""
+    p = tmp_path / "lf.jsonl"
+    safe_write_jsonl(p, [{"a": 1}, {"b": "二百円"}])
+
+    raw = p.read_bytes()
+    assert b"\r" not in raw, f"CR byte leaked into jsonl output: {raw!r}"
+    assert raw.endswith(b"\n")
+
+
+def test_jsonl_append_has_no_cr_bytes(tmp_path: Path) -> None:
+    """safe_append_jsonl_records default must also emit pure LF."""
+    p = tmp_path / "append-lf.jsonl"
+    safe_write_jsonl(p, [{"a": 1}])
+    safe_append_jsonl_records(p, [{"b": 2}])
+
+    raw = p.read_bytes()
+    assert b"\r" not in raw, f"CR byte leaked into appended jsonl: {raw!r}"
+
+
+def test_write_text_explicit_lf_has_no_cr_bytes(tmp_path: Path) -> None:
+    """safe_write_text(newline="\\n") forces LF regardless of OS."""
+    p = tmp_path / "explicit-lf.txt"
+    safe_write_text(p, "line1\nline2\n", newline="\n")
+
+    raw = p.read_bytes()
+    assert b"\r" not in raw, f"CR byte leaked despite newline='\\n': {raw!r}"
+
+
+def test_write_text_default_keeps_os_native_newline(tmp_path: Path) -> None:
+    """safe_write_text default (newline=None) must stay OS-native = unchanged md output.
+
+    On Windows (os.linesep == "\\r\\n") writing "\\n" yields "\\r\\n"; pinning this
+    proves we did NOT accidentally force LF on tracked md/manifest files. On LF-native
+    OSes the assertion is vacuous, so the meaningful md-unchanged guarantee is verified
+    on the commit platform (Windows, per CLAUDE.md §10.2).
+    """
+    p = tmp_path / "default.txt"
+    safe_write_text(p, "line1\nline2\n")
+
+    raw = p.read_bytes()
+    if os.linesep == "\r\n":
+        assert b"\r\n" in raw, "default newline should stay OS-native (CRLF on Windows)"
+    else:
+        assert b"\r" not in raw

@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import re
+import subprocess
 import sys
 from pathlib import Path
 from typing import Any
@@ -33,7 +34,10 @@ try:
 except ImportError:
     import xml.etree.ElementTree as ET  # type: ignore[no-redef]
 
-_SHARED_SRC = Path(__file__).resolve().parent.parent.parent.parent / "shared" / "src"
+# tools/parse/v0.2/extract_table_from_xml.py -> parent×3 = tools/ -> tools/shared/src
+# (旧コードは parent×4 = <root>/shared/src を指す誤りで、pip install -e 不在時に
+#  juricode_shared を import できなかった。FU-307 切り離しにより本ファイルのみ修正)
+_SHARED_SRC = Path(__file__).resolve().parent.parent.parent / "shared" / "src"
 if str(_SHARED_SRC) not in sys.path:
     sys.path.insert(0, str(_SHARED_SRC))
 
@@ -436,26 +440,90 @@ def extract_supplproviso_table_chunks(
 # ============================================================
 
 
+_LAW_ID_RE = re.compile(r"^law_id:\s*([A-Z0-9_]+)")
+
+
+def _extract_law_id(md_path: Path) -> str | None:
+    """先頭 md の frontmatter から law_id を行正規表現で抽出 (無ければ None).
+
+    Why: extract_table が md から消費するのは law_id / law_name_ja のみ
+    (briefing §2 call graph)。YAML パーサーでなく行正規表現で十分かつ高速。
+    """
+    try:
+        with md_path.open(encoding="utf-8") as fh:
+            for line in fh:
+                m = _LAW_ID_RE.match(line.strip())
+                if m:
+                    return m.group(1)
+    except OSError:
+        return None
+    return None
+
+
+def _git_last_commit_iso(path: Path) -> str:
+    """path の最終更新 commit 日時 (ISO) を返す。git 不在/履歴なしでも例外を出さない.
+
+    Why: duplicate law_abbrev 検出時、どちらの dir を残す/削除すべきかを人間が
+    判断できるよう各 dir の recency を併記する (briefing §4 / 第1巡 #1b)。診断専用。
+    """
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%ci", "--", str(path)],
+            capture_output=True,
+            text=True,
+            timeout=10,
+        )
+        return result.stdout.strip() or "(no git history)"
+    except Exception:
+        # 診断用ゆえ git 不在/タイムアウトでも握りつぶし placeholder を返す
+        return "(git unavailable)"
+
+
 def build_law_abbrev_to_id_phase(data_dir: Path) -> dict[str, tuple[str, str]]:
+    """data_dir 直下の phase* を走査し law_abbrev -> (law_id, phase) を構築.
+
+    Why: GO② により再帰両走査は採用せず phase* 直下のみ走査。
+    fail-loud 3 点: (1) 同一 law_abbrev の重複は片選び/skip 禁止
+    (skip は欠落 chunk を生む = 本 FU が直すバグそのもの)、
+    (2) md を持つ law_dir が law_id を生まない silent drop も禁止 (coverage 欠落防止)、
+    (3) 1 法令も発見できない (誤った --data-dir 等) も silent な 0 件出力を防ぐため fail-loud。
+    """
     out: dict[str, tuple[str, str]] = {}
-    for phase_dir in data_dir.iterdir():
+    seen_src: dict[str, Path] = {}
+    for phase_dir in sorted(data_dir.iterdir()):
         if not phase_dir.is_dir() or not phase_dir.name.startswith("phase"):
             continue
-        for law_dir in phase_dir.iterdir():
+        for law_dir in sorted(phase_dir.iterdir()):
             if not law_dir.is_dir():
                 continue
             mds = sorted(law_dir.glob("*-article-*.md"))
             if not mds:
                 continue
-            try:
-                with mds[0].open(encoding="utf-8") as fh:
-                    for line in fh:
-                        m = re.match(r"^law_id:\s*([A-Z0-9_]+)", line.strip())
-                        if m:
-                            out[law_dir.name] = (m.group(1), phase_dir.name)
-                            break
-            except Exception:
-                continue
+            law_id = _extract_law_id(mds[0])
+            if law_id is None:
+                raise ValueError(
+                    "law_id を frontmatter から抽出できません (silent-drop 防止):\n"
+                    f"  law_dir: {law_dir}\n"
+                    f"  先頭 md: {mds[0]}"
+                )
+            abbrev = law_dir.name
+            if abbrev in seen_src:
+                prev = seen_src[abbrev]
+                raise ValueError(
+                    "重複する law_abbrev を検出 (fail-loud / 片選び・skip 禁止):\n"
+                    f"  abbrev: {abbrev}\n"
+                    f"  (1) {prev}  [最終更新 {_git_last_commit_iso(prev)}]\n"
+                    f"  (2) {law_dir}  [最終更新 {_git_last_commit_iso(law_dir)}]\n"
+                    "  どちらを残すか判断のうえ一方を整理してください。"
+                )
+            seen_src[abbrev] = law_dir
+            out[abbrev] = (law_id, phase_dir.name)
+    if not out:
+        raise ValueError(
+            "phase* 直下に法令を 1 件も発見できません (silent な 0 件出力を防ぐ fail-loud):\n"
+            f"  data_dir: {data_dir}\n"
+            "  --data-dir が canonical corpus (phase* を直下に持つ) を指しているか確認してください。"
+        )
     return out
 
 
@@ -501,14 +569,19 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
     ap.add_argument("--xml-dir", type=Path, default=Path("cache/laws"))
     ap.add_argument("--chunks-dir", type=Path, default=Path("build/chunks"))
-    ap.add_argument("--data-dir", type=Path, default=Path("data"))
+    ap.add_argument(
+        "--data-dir",
+        type=Path,
+        default=Path("data/v0.2"),
+        help="phase* を直下に持つ corpus root (既定: data/v0.2 = canonical Master, GO②)",
+    )
     ap.add_argument("--law-only", default=None, help="特定 law_abbrev のみ処理 (テスト用)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
     print("Building law_abbrev -> (law_id, phase) map ...", file=sys.stderr)
     law_map = build_law_abbrev_to_id_phase(args.data_dir)
-    print(f"  {len(law_map)} laws found in data/", file=sys.stderr)
+    print(f"  {len(law_map)} laws found in {args.data_dir}", file=sys.stderr)
 
     print("Building law_id -> law_name_ja map ...", file=sys.stderr)
     law_name_ja_map = build_law_id_to_name_ja(args.data_dir)
