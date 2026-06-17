@@ -34,7 +34,10 @@ try:
 except ImportError:
     import xml.etree.ElementTree as ET  # type: ignore[no-redef]
 
-_SHARED_SRC = Path(__file__).resolve().parent.parent.parent.parent / "shared" / "src"
+# tools/parse/v0.2/extract_table_from_xml.py -> parent×3 = tools/ -> tools/shared/src
+# (旧コードは parent×4 = <root>/shared/src を指す誤りで、pip install -e 不在時に
+#  juricode_shared を import できなかった。FU-307 切り離しにより本ファイルのみ修正)
+_SHARED_SRC = Path(__file__).resolve().parent.parent.parent / "shared" / "src"
 if str(_SHARED_SRC) not in sys.path:
     sys.path.insert(0, str(_SHARED_SRC))
 
