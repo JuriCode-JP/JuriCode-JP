@@ -1497,6 +1497,8 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **DONE 2026-06-17** — Phase A-C (PR #19 `82156f7a`): 本則 table chunks 0→296・走査 data/v0.2 化・newline 根治・312/180 golden ロック。Phase D-a (PR #20 `dc086a9e`): 新規196本則 table を増分embed (corpus 92,486→92,682)・全eval PASS (G1 v5==v6/G2 R@3=0.833/G3 312・180 rank1)。Cowork が PR diff + 実artifact独立検証。
 
+**Phase D-b (附則700) = REJECT (2026-06-21・PR #23 `1795df4c`)**: 附則 (SupplProvision) table 700 件を aug-v6 に増分embed (実Gemini・有料/aug-v7 93,382) し採否を測定。**退行ゼロ** (G1 集計 v7==v6 完全一致・G1-local 10本則 primary の rank 不変=`shotoku-zei-hou` 445集中の**検索ジャック懸念を否定**・G2 R@3=0.833維持) だが、**附則 value 未達** (G3-sp 実rank: A-straight rank2 hit のみ・口語パラフレーズ rank11/17・B-straight rank6 → exact-match残響でなく真の semantic は引けない) → **aug-v7 非昇格・附則既定OFF・aug-v6 据え置き** (事前承認済の正当 REJECT)。G1-local 母数は実 **N=10** (計画 §2 の N=16=既存6+新規10 は誤記: 実 eval-set の本則参照は shotoku 1件のみ・chihou本則0件。REJECT基準は絶対数≥2でN非依存ゆえ無傷)。ロック golden (`data/eval-set/tax-honbun-local/` + `tax-supplproviso-probe/`) + reward-hacking checksum ゲート (`tools/scripts/verify-eval-set-checksum.py`・期待SHA256はrepo variable `EVALSET_GOLDEN_SHA256`=agent書込スコープ外・正当更新は人間限定 `approve-eval-set.sh`) を追加。
+
 **場所**: `tools/parse/v0.2/segment_parser.py` (本則パース経路) / `tools/parse/v0.2/extract_table_from_xml.py` (表抽出モジュールは実在するが本則未適用・標準パイプライン未統合) / `data/v0.2/**` + `build/chunks/**`。
 
 **現状 (2026-06-08 grep 実測)**:
@@ -1518,7 +1520,7 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **関連**: FU-108 (round-trip 検証) / FU-318 (rollup chunk filter) / `extract_table_from_xml.py` (既存の表抽出資産)。
 
-**残課題 (P2, FU-515 派生)**: (a) **D-b — 附則 (SupplProvision) table 700 件の embed 是非**。D-a (本則) eval が良好 (上記) のため次段候補だが、`shotoku-zei-hou` に 445 件集中する偏りが corpus noise になりうる。投入時は G1b per-query rank-shift で他条の押し出しを監視。(b) **Phase E — 表本体の md への反映 + manifest 再生成 (round-trip hash 再検証)**。現状 D-a は `build/chunks` (gitignored) のみへの反映で、canonical な `data/v0.2/**` md には表本体が未収録。**別 GO 必須** (md/manifest は locked corpus のため独立計画書 + user GO)。
+**残課題 (FU-515 派生)**: (a) **D-b = 完了 (REJECT, 上記 2026-06-21・PR #23)**。附則700の embed 是非は「退行ゼロだが value 未達」で aug-v6 据え置きに決着。再投入の余地は下記 **D-c** に継承。(b) **Phase E — 表本体の md への反映 + manifest 再生成 (round-trip hash 再検証)** (P2)。現状 D-a は `build/chunks` (gitignored) のみへの反映で、canonical な `data/v0.2/**` md には表本体が未収録。**別 GO 必須** (md/manifest は locked corpus のため独立計画書 + user GO)。
 
 ---
 
@@ -1546,4 +1548,16 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-*Last updated: 2026-06-17 — FU-515 完了マーク (Phase A-D, PR #19 + #20) + 派生 FU 登録 (FU-516 二重 git 管理 / FU-517 重複 chunk_id / FU-515 残=D-b・Phase E). 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+### [ ] FU-515 D-c: 附則 table の paraphrase recall 改善 → 再投入 (2026-06-21 追加, P3)
+
+**経緯**: FU-515 Phase D-b (PR #23) で附則 (SupplProvision) table 700 件の増分embed は **退行ゼロ** を確認したが、**口語パラフレーズでの retrieval が弱い** (G3-sp: A-straight rank2 hit に対し A-paraphrase rank11・B-straight rank6・B-paraphrase rank17) ため canonical 昇格を見送り (aug-v6 据え置き・附則既定OFF)。noise 懸念 (`shotoku-zei-hou` 445集中による既存劣化) は否定済 = **再投入は安全側**。
+
+**やること**: 附則 table の semantic (paraphrase) recall を上げる手段を検討し、value がロック基準 (G3-sp straight+paraphrase 両方 rank≤5) を満たせば aug-v7 を再評価・昇格。候補: (1) **reranker** (柱1) で附則 table 候補の rank を持ち上げる。(2) **附則専用 prefix / augmentation 見直し** (現状 prefix が附則の文脈 [読替表・経過措置] を表現しきれていない可能性)。(3) **chunk 設計の見直し** (親条文 prose と table chunk の結合度)。
+
+**流用可能資産**: 本 D-b の eval-set (`data/eval-set/tax-honbun-local/g1-local.jsonl` G1-local + `tax-supplproviso-probe/g3-sp.jsonl` G3-sp・**LOCKED**) と checksum ゲート (`tools/scripts/verify-eval-set-checksum.py` + `approve-eval-set.sh`) はそのまま再利用可能。増分embed 手順 (pre-check → tripwire → 実Gemini → vector health → eval gate) も `build/_fu515_phase_db_*.py` を雛形にできる。
+
+**関連**: FU-515 D-b (PR #23 `1795df4c`・REJECT 由来) / 柱1 reranker / `benchmarks/results/2026-06-21-aug-v7-fu515-supplproviso.json` (eval 記録)。
+
+---
+
+*Last updated: 2026-06-21 — FU-515 D-b 完了マーク (REJECT, PR #23 `1795df4c`: 退行ゼロだが附則 value 未達→aug-v7 非昇格) + FU-515 D-c 登録 (附則 paraphrase recall 改善→再投入, P3). 前回: 2026-06-17 FU-515 Phase A-D (PR #19+#20) + FU-516/517 登録. 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
