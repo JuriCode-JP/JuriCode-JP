@@ -1493,7 +1493,9 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-### [ ] FU-515: 本則条文の TableStruct (税率表等) が md/chunks に取りこぼし (2026-06-08 追加, P1)
+### [x] FU-515: 本則条文の TableStruct (税率表等) が md/chunks に取りこぼし (2026-06-08 追加, P1)
+
+**DONE 2026-06-17** — Phase A-C (PR #19 `82156f7a`): 本則 table chunks 0→296・走査 data/v0.2 化・newline 根治・312/180 golden ロック。Phase D-a (PR #20 `dc086a9e`): 新規196本則 table を増分embed (corpus 92,486→92,682)・全eval PASS (G1 v5==v6/G2 R@3=0.833/G3 312・180 rank1)。Cowork が PR diff + 実artifact独立検証。
 
 **場所**: `tools/parse/v0.2/segment_parser.py` (本則パース経路) / `tools/parse/v0.2/extract_table_from_xml.py` (表抽出モジュールは実在するが本則未適用・標準パイプライン未統合) / `data/v0.2/**` + `build/chunks/**`。
 
@@ -1516,6 +1518,32 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **関連**: FU-108 (round-trip 検証) / FU-318 (rollup chunk filter) / `extract_table_from_xml.py` (既存の表抽出資産)。
 
+**残課題 (P2, FU-515 派生)**: (a) **D-b — 附則 (SupplProvision) table 700 件の embed 是非**。D-a (本則) eval が良好 (上記) のため次段候補だが、`shotoku-zei-hou` に 445 件集中する偏りが corpus noise になりうる。投入時は G1b per-query rank-shift で他条の押し出しを監視。(b) **Phase E — 表本体の md への反映 + manifest 再生成 (round-trip hash 再検証)**。現状 D-a は `build/chunks` (gitignored) のみへの反映で、canonical な `data/v0.2/**` md には表本体が未収録。**別 GO 必須** (md/manifest は locked corpus のため独立計画書 + user GO)。
+
 ---
 
-*Last updated: 2026-06-08 — FU-515 追加 (本則 TableStruct 取りこぼし。下流の税法ユース検証で発覚、grep 実測で本則 table chunks=0/施行令系=82 を確認). 起票は Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.8*
+### [ ] FU-516: data/phase1-tax と data/v0.2/phase1-tax の二重 git 管理・divergent (2026-06-17 追加, P2)
+
+**場所**: `data/phase1-tax/**` (旧 top-level layout) と `data/v0.2/phase1-tax/**` (canonical layout)。
+
+**問題 (発見A)**: FU-515 の走査 default を `data/` → `data/v0.2` に是正した過程で発覚。税法 corpus が `data/phase1-tax` と `data/v0.2/phase1-tax` の **2 箇所で git 管理されており内容が divergent** (旧 layout は extract_table の旧 default が拾っていた経路)。canonical は `data/v0.2`但し、旧 `data/phase1-tax` が残存し二重管理・乖離リスク。
+
+**やること**: (1) 両者の diff を棚卸しし canonical (`data/v0.2`) を確定。(2) 旧 `data/phase1-tax` の deprecate/削除 or `archive/` 退避 (v0.1 同様)。(3) CI / 各 tool の走査 root が `data/v0.2` に統一されているか call graph 確認 (FU-307 の scan 統一と併せて検討)。
+
+**関連**: FU-515 (走査 default 是正) / FU-307 (kou/supplproviso/add_rollup の `_SHARED_SRC` + scan 統一) / FU-108 (v0.1 → archive deprecate の前例)。
+
+---
+
+### [ ] FU-517: corpus に 716 件の pre-existing 重複 chunk_id (2026-06-17 追加, P3)
+
+**場所**: `build/corpus-v0.2-augmented-*.jsonl` / `build/embeddings/*.meta.jsonl` (生成元は `build/chunks/**` の各 chunk ファイル)。
+
+**問題**: FU-515 Phase D-0 整合 pre-check で発覚。corpus に **716 件の重複 chunk_id** が存在 (例: `chihou-jichi-hou-art-1-p1-kou-N` 等の kou チャンク)。aug-v5 自体が同一 716 件を持って構築済 (embed は positional に重複許容のため meta が 92,486 行 / unique 89,389)。**table chunk 由来の重複はゼロ** (1,342 件すべて unique)・FU-515 は新規重複を導入していない。resume は重複 id を既 embed として skip するため当面の retrieval 健全性に実害は無いが、corpus の data hygiene として要 de-dup。
+
+**やること**: (1) 716 件の重複の生成元 chunk ファイルを特定 (どの抽出経路が同一 id を二重出力しているか)。(2) chunk id 採番 or merge ロジックを修正し dedupe。(3) 再 embed 時に重複ゼロを assert する guard 追加。
+
+**関連**: FU-515 (Phase D-0 pre-check で検知) / `build/_fu515_phase_d_precheck.py` (検知ハーネス・gitignored)。
+
+---
+
+*Last updated: 2026-06-17 — FU-515 完了マーク (Phase A-D, PR #19 + #20) + 派生 FU 登録 (FU-516 二重 git 管理 / FU-517 重複 chunk_id / FU-515 残=D-b・Phase E). 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
