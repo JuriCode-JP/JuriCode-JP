@@ -107,6 +107,20 @@ jobs:
         # 新規 script への再発から構造的に予防する (Layer 1 静的検査).
         run: python tools/scripts/check-cp932-safe.py --path tools
 
+      - name: Verify locked eval-set golden checksum (FU-515 D-b)
+        # 2026-06-21 FU-515 D-b: G1-local / G3-sp の golden answer key
+        # (data/eval-set/tax-honbun-local/, data/eval-set/tax-supplproviso-probe/)
+        # を AI agent が "eval を通すために" 改変する reward hacking を機械検知する.
+        # 期待 digest はリポ外 (agent 書込スコープ外) の repository variable
+        # EVALSET_GOLDEN_SHA256 から注入 (guard the guard / lock plan AC-7).
+        # 未設定なら gate INACTIVE (exit 0) = secret 設定前の最初の PR を塞がない
+        # ブリッジ. 正当な golden 更新は人間が tools/scripts/approve-eval-set.sh で
+        # 再ハッシュし variable を更新する (AC-12). workflow file 自体は branch
+        # protection で人間レビュー必須にすることで本ゲートの迂回を防ぐ.
+        env:
+          EVALSET_GOLDEN_SHA256: ${{ vars.EVALSET_GOLDEN_SHA256 }}
+        run: python tools/scripts/verify-eval-set-checksum.py
+
       - name: Regenerate JSON Schema and check for drift
         run: |
           python tools/shared/scripts/export-schema.py
