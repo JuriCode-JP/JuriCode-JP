@@ -1,0 +1,143 @@
+{
+  "run_id": "2026-06-21-aug-v7-fu515-supplproviso",
+  "date": "2026-06-21",
+  "description": "FU-515 Phase D-b: incremental embed of 700 附則 (SupplProvision) TableStruct chunks on top of aug-v6, then measure whether 附則 injection degrades existing retrieval (the core 採否 question). 附則 tables concentrate 445 in shotoku-zei-hou, a corpus-noise concern that held them back from D-a. Verdict is REJECT (pre-authorized): zero regression confirmed, but 附則 retrieval value did not clear the locked acceptance bar. aug-v6 stays canonical; aug-v7 is NOT promoted.",
+  "verdict": "REJECT",
+  "verdict_detail": "退行ゼロ (G1/G1b/G1-local/G2 すべて v7==v6・noise 懸念は解消) だが、附則 value がロック採用基準 (G3-sp straight+paraphrase 両方 rank<=5) に未達 (A-straight rank2 のみ hit / A-paraphrase rank11 / B-straight rank6 / B-paraphrase rank17)。semantic (口語パラフレーズ) retrieval が canonical 昇格を正当化するに不十分。aug-v6 据え置き・附則は既定 OFF。事前承認済みの正当な REJECT (briefing §5)。",
+  "embedding_model": "gemini-embedding-001",
+  "embedding_provider": "Google Gemini (paid tier)",
+  "embedding_dim": 3072,
+  "corpus_versions": { "v5": 92486, "v6": 92682, "v7": 93382 },
+  "corpus_delta_v7_v6": {
+    "total": 700,
+    "breakdown": { "supplproviso_table_chunks_new": 700 },
+    "notes": "All 700 new chunk_ids are segment_type=table and supplproviso-derived (no main/kou contamination). Verified by D-b-0 pre-check + write-zero tripwire (remaining==700) before the paid Gemini call."
+  },
+  "augmentation": "prefix: [law_name article_number (title) paragraph_number segment_label]",
+  "retrieval_settings": {
+    "retriever": "dense",
+    "normalize_query": true,
+    "top_k": 10,
+    "top_k_probe": 20,
+    "eval_harness": "build/_fu515_phase_db_eval.py (encode once, score v5/v6/v7 apples-to-apples)"
+  },
+  "pre_check": {
+    "harness": "build/_fu515_phase_db_precheck.py",
+    "result": "ALL GREEN",
+    "checks": {
+      "aug_v6_npy_eq_meta_eq_92682": true,
+      "aug_v6_dim_3072": true,
+      "corpus_v6_supersets_v5_byte_equal": true,
+      "increment_700_all_table_all_supplproviso": true,
+      "no_main_or_kou_contamination": true,
+      "716_duplicate_ids_all_pre_embedded_resume_skip": true,
+      "700_supplproviso_table_all_unique": true
+    }
+  },
+  "tripwire": {
+    "method": "write-zero standalone set-diff (embed.py NOT invoked) before paid Gemini call",
+    "remaining": 700,
+    "result": "OK (==700, paid-API misfire guard passed)"
+  },
+  "vector_health_v7": {
+    "shape": [93382, 3072],
+    "npy_eq_meta": true,
+    "dim_eq_v6": true,
+    "new_block_rows": 700,
+    "nan_or_inf": false,
+    "new_700_l2_norm": { "min": 1.0, "max": 1.0, "mean": 1.0, "max_abs_dev_from_1": 0.0 },
+    "g3sp_gold_chunks_embedded": true,
+    "notes": "embed.py has no provider auto-fallback (gemini failure raises), so gemini->tfidf chimera is structurally impossible; remaining risk is degenerate (NaN/zero) responses, which these checks rule out. gemini-embedding-001 returns L2-normalized vectors."
+  },
+  "gates": {
+    "G1_no_regression_aggregate": {
+      "eval_set": "data/eval-set/ full union (D-a と同一母数; 新設サブディレクトリは top-level glob 外)",
+      "n_queries": 211,
+      "v5": { "recall_at_1": 0.5498, "recall_at_3": 0.6493, "recall_at_5": 0.6919, "recall_at_10": 0.7062, "mrr": 0.6081 },
+      "v6": { "recall_at_1": 0.5498, "recall_at_3": 0.6493, "recall_at_5": 0.6919, "recall_at_10": 0.7062, "mrr": 0.6081 },
+      "v7": { "recall_at_1": 0.5498, "recall_at_3": 0.6493, "recall_at_5": 0.6919, "recall_at_10": 0.7062, "mrr": 0.6081 },
+      "delta_mrr_v7_v6": 0.0,
+      "rank_shift_net_balance": 0,
+      "improved": 0,
+      "worsened": 0,
+      "pass": true,
+      "note": "v7 identical to v6 across all R@k and MRR. The 700 附則 table chunks displaced no existing gold answer."
+    },
+    "G1b_per_query_rank_shift_v6_to_v7": {
+      "improved": 0,
+      "worsened": 0,
+      "top3_to_out_of_top3": 0,
+      "pass": true
+    },
+    "G1_local_search_jack_detection": {
+      "eval_set": "data/eval-set/tax-honbun-local/g1-local.jsonl (LOCKED 2026-06-20)",
+      "n_queries_actual": 10,
+      "n_queries_planned": 16,
+      "n_discrepancy_note": "Lock plan §2 assumed N=16 = 既存6 (shotoku本則2 + chihou本則4) + 新規10. Actual eval-set audit found only 1 existing shotoku 本則 query (eval-tax-002 = shotoku-zei-hou-art-28, identical to new query #1); existing chihou 本則 = 0 (tax-table chihou/shotoku refs are 施行令/施行規則, not 本則). The 'existing 6' is a §2 prose miscount; it does NOT touch any LOCKED expected value (§1 14 items). The REJECT threshold is an ABSOLUTE count (>=2), so it is robust to N. Actual母数 N=10 reported honestly (W4/W10).",
+      "scoring": "primary single gold (AC-10: #4 primary=120, #5 primary=183; related 125/127/184 are non-scoring context to detect 本則喪失)",
+      "v6": { "recall_at_1": 0.9, "recall_at_3": 1.0, "mrr": 0.95 },
+      "v7": { "recall_at_1": 0.9, "recall_at_3": 1.0, "mrr": 0.95 },
+      "r3_drop_queries": 0,
+      "reject_threshold": ">=2 R@3 drops",
+      "pass": true,
+      "per_query_primary_rank": [
+        { "id": "eval-g1local-001", "primary": "shotoku-zei-hou-art-28", "v6": 1, "v7": 1 },
+        { "id": "eval-g1local-002", "primary": "shotoku-zei-hou-art-9", "v6": 1, "v7": 1 },
+        { "id": "eval-g1local-003", "primary": "shotoku-zei-hou-art-74", "v6": 1, "v7": 1 },
+        { "id": "eval-g1local-004", "primary": "shotoku-zei-hou-art-120", "v6": 1, "v7": 1 },
+        { "id": "eval-g1local-005", "primary": "shotoku-zei-hou-art-183", "v6": 2, "v7": 2 },
+        { "id": "eval-g1local-006", "primary": "chihou-zei-hou-art-294", "v6": 1, "v7": 1 },
+        { "id": "eval-g1local-007", "primary": "chihou-zei-hou-art-343", "v6": 1, "v7": 1 },
+        { "id": "eval-g1local-008", "primary": "chihou-zei-hou-art-349", "v6": 1, "v7": 1 },
+        { "id": "eval-g1local-009", "primary": "chihou-zei-hou-art-10", "v6": 1, "v7": 1 },
+        { "id": "eval-g1local-010", "primary": "chihou-zei-hou-art-734", "v6": 1, "v7": 1 }
+      ],
+      "note": "shotoku-zei-hou 445 附則 table の検索ジャック懸念は否定された。全 10 本則 primary の rank が v6->v7 で不変。"
+    },
+    "G2_tax_table_dense_r3": {
+      "eval_set": "data/eval-set/tax-table.jsonl",
+      "n_queries": 12,
+      "baseline": "D4_tax12_dense_new_v4 = 0.833",
+      "v6_recall_at_3": 0.833,
+      "v7_recall_at_3": 0.833,
+      "pass": true
+    },
+    "G3_sp_supplproviso_value_probe": {
+      "eval_set": "data/eval-set/tax-supplproviso-probe/g3-sp.jsonl (LOCKED 2026-06-20)",
+      "method": "gold = chunk_id; record REAL rank in v7 (binary R@5 retired, AC-9); 附則 chunk は v7 のみ存在ゆえ v7 絶対 rank で評価",
+      "hit_threshold": "rank <= 5",
+      "probes": [
+        { "id": "eval-g3sp-A-straight", "variant": "straight", "gold_chunk": "shotoku-zei-hou-supplproviso-1-art4-p1-tbl1", "rank_v7": 2, "hit_at5": true },
+        { "id": "eval-g3sp-A-paraphrase", "variant": "paraphrase", "gold_chunk": "shotoku-zei-hou-supplproviso-1-art4-p1-tbl1", "rank_v7": 11, "hit_at5": false },
+        { "id": "eval-g3sp-B-straight", "variant": "straight", "gold_chunk": "chihou-zei-hou-supplproviso-1-art7_2-p2-tbl1", "rank_v7": 6, "hit_at5": false },
+        { "id": "eval-g3sp-B-paraphrase", "variant": "paraphrase", "gold_chunk": "chihou-zei-hou-supplproviso-1-art7_2-p2-tbl1", "rank_v7": 17, "hit_at5": false }
+      ],
+      "pair_value_straight_and_paraphrase_both_hit5": { "A": false, "B": false },
+      "value_demonstrated": false,
+      "note": "附則 table はストレートな表現では引ける (A-straight は親 chunk art4-p1 の直後 rank2)。だが口語パラフレーズでは届かない (rank 11/17)。exact-match 残響でなく真の semantic retrieval を測る paraphrase 基準 (AC-4) を満たさず、附則 value はロック採用バーに未達。"
+    }
+  },
+  "acceptance_criteria": {
+    "accept_if": "G1 no-regression (dMRR>=0 & net_balance>=0) AND G1b top3->out==0 AND G1-local R@3-drop<2 AND G2 R@3>=0.833 AND G3-sp locked probes (straight+paraphrase) hit@5",
+    "regression_gates_clean": true,
+    "g3sp_value_demonstrated": false,
+    "result": "REJECT"
+  },
+  "decision": {
+    "canonical_corpus": "aug-v6 (unchanged)",
+    "aug_v7_promoted": false,
+    "aug_v7_disposition": "build/ local only (gitignored), NOT committed, NOT set as retrieve default; 附則 既定 OFF",
+    "key_finding": "noise 懸念 (shotoku 445 集中による既存劣化) は完全に否定された (zero regression)。これは将来 附則を再投入する際の安全側の根拠。ただし現状の dense-only パイプラインでは 附則 table の semantic (paraphrase) retrieval が弱く、canonical 昇格の便益は実証されない。",
+    "followup": "FU-515 残課題: 附則 table の retrieval 価値を高める手段 (reranker / chunk augmentation の見直し / 附則専用 prefix) を D-c 候補として検討。再投入時は本 D-b の eval-set (G1-local + G3-sp) と checksum ゲートをそのまま流用可能。"
+  },
+  "reproducibility": {
+    "precheck": "build/_fu515_phase_db_precheck.py",
+    "embed_cmd": "python tools/embed/embed.py --provider gemini --gemini-model gemini-embedding-001 --input build/corpus-v0.2-augmented-v6.jsonl --output build/embeddings/v0.2-aug-v7-gemini  (auto-resume via seeded v7 path; NOTE: embed.py has no --resume flag, resume is automatic when output artefacts exist)",
+    "eval": "build/_fu515_phase_db_eval.py",
+    "locked_golden": ["data/eval-set/tax-honbun-local/g1-local.jsonl", "data/eval-set/tax-supplproviso-probe/g3-sp.jsonl"],
+    "golden_checksum_gate": "tools/scripts/verify-eval-set-checksum.py (CI; expected SHA256 in repo variable EVALSET_GOLDEN_SHA256, out of agent write scope)",
+    "golden_combined_sha256": "9cd056705cd0a207711cf32008225177c733e0b83fa820340f78c958e5404c1a"
+  },
+  "all_regression_gates_pass": true,
+  "accepted": false
+}
