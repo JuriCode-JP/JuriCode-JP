@@ -153,6 +153,17 @@ def test_main_provision_resolves_article_and_paragraph() -> None:
     assert resolve_article_and_paragraph(ts, pm) == ("312", 1)
 
 
+def test_branch_article_num_underscore_normalized_to_hyphen() -> None:
+    """XML Num の枝番条 underscore (72_24_7) は md 規約の hyphen (72-24-7) に正規化."""
+    root = ET.Element("Law")
+    mp = ET.SubElement(root, "MainProvision")
+    art = ET.SubElement(mp, "Article", Num="72_24_7")
+    para = ET.SubElement(art, "Paragraph", Num="2")
+    ts = ET.SubElement(para, "TableStruct")
+    pm = {c: p for p in root.iter() for c in p}
+    assert resolve_article_and_paragraph(ts, pm) == ("72-24-7", 2)
+
+
 # ===========================================================
 # golden: fixture 312 を合成 md に反映
 # ===========================================================

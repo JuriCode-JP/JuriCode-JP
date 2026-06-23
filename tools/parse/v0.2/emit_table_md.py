@@ -81,7 +81,10 @@ def resolve_article_and_paragraph(ts: Any, parent_map: dict[Any, Any]) -> tuple[
             except (ValueError, TypeError):
                 para_num = 1
         if current.tag == "Article" and not art_num:
-            art_num = current.get("Num", "")
+            # XML の Num は枝番条を underscore で表す (例 15_5) が、md ファイル名・
+            # frontmatter article_number は hyphen 形式 (15-5)。ここで正規化する
+            # (CLAUDE.md §3.1 / article_number pattern ^[0-9]+(-[0-9]+)*$)。
+            art_num = current.get("Num", "").replace("_", "-")
         if current.tag == "SupplProvision":
             # 附則配下はスコープ外: art_num を空にして呼び出し側が捨てる
             return "", 0
@@ -258,7 +261,8 @@ def main() -> int:
 
     articles: set[str] | None = None
     if args.articles:
-        articles = {a.strip() for a in args.articles.split(",") if a.strip()}
+        # underscore/hyphen どちらの入力でも hyphen 形式 (md 規約) に正規化して照合
+        articles = {a.strip().replace("_", "-") for a in args.articles.split(",") if a.strip()}
 
     law_map = build_law_abbrev_to_id_phase(args.data_dir)
     if args.law_only:
