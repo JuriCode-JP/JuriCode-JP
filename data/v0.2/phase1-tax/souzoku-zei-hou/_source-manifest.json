@@ -4,13 +4,13 @@
   "law_name_ja": "相続税法",
   "law_abbrev": "souzoku-zei-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000073",
-  "source_xml_path": "../../../cache/laws/325AC0000000073.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\325AC0000000073.xml",
   "source_xml_sha256": "93d72714085c038f382e8452ac14e75432a794eef2926b2f7e84b6a5179590bc",
   "source_xml_bytes": 845551,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:27:17+00:00",
+  "parsed_at": "2026-06-23T08:54:59+00:00",
   "version_date": "1950-03-31",
   "article_count": 109,
   "articles": [
@@ -106,8 +106,8 @@
       "article_id": "souzoku-zei-hou-art-16",
       "article_number": "16",
       "filename": "souzoku-zei-hou-article-16.md",
-      "ja_text_sha256": "204437099edd1d99be734790ed3fb65e1c11d4db1252125e742f3c011eced06b",
-      "ja_text_bytes": 892,
+      "ja_text_sha256": "91ebd6b75907d011decf93a43e354c2832232e3c197e0295f25debb8f8dbf048",
+      "ja_text_bytes": 1395,
       "paragraph_count": 1
     },
     {
@@ -314,8 +314,8 @@
       "article_id": "souzoku-zei-hou-art-21-7",
       "article_number": "21-7",
       "filename": "souzoku-zei-hou-article-21-7.md",
-      "ja_text_sha256": "44e5147b189269564799c5be33e56498870cb9fc525105a6bb5d3ad3d12df711",
-      "ja_text_bytes": 246,
+      "ja_text_sha256": "b2d3fa9e7289e4f5ba16968cbcc2bb6a83eb14ecf374fb377432d9befcf334b4",
+      "ja_text_bytes": 779,
       "paragraph_count": 1
     },
     {

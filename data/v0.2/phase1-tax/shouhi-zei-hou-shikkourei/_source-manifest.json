@@ -10,7 +10,7 @@
   "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-06-23T05:48:29+00:00",
+  "parsed_at": "2026-06-23T08:54:55+00:00",
   "version_date": "1988-12-30",
   "article_count": 126,
   "articles": [
@@ -986,8 +986,8 @@
       "article_id": "shouhi-zei-hou-shikkourei-art-76",
       "article_number": "76",
       "filename": "shouhi-zei-hou-shikkourei-article-76.md",
-      "ja_text_sha256": "6f3ab19c52977dfd94cac5a4f5c3542261cdffba6e11b56eb5e3a921e186b61d",
-      "ja_text_bytes": 5999,
+      "ja_text_sha256": "ed9ca1ff9f91b622d09e126721e45ee323a170b65b13cd30bf326e386263a0fa",
+      "ja_text_bytes": 17553,
       "paragraph_count": 11
     },
     {
