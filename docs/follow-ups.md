@@ -338,6 +338,8 @@ except ValidationError as e:
 
 **やること**: `tools/shared/src/juricode_shared/law_index.py` に `build_law_index(data_dir) -> dict[abbrev, LawIndexEntry]` を一本化. `LawIndexEntry` に law_id / phase / law_name_ja を持たせる.
 
+**FU-516 由来の追加スコープ (2026-06-23)**: `bulk-ingest.py` の既定 `--data-root` が `data` (top-level) のままで、税法を再 ingest すると旧 `data/phase1-tax` layout が再生する。既定を `data/v0.2` に統一し旧 layout 再生を防ぐ (call graph: `out_dir = data_root/phase/abbrev`)。
+
 **関連**: §A-03 / 計画 §4 Week 1
 
 ---
@@ -1087,6 +1089,10 @@ mypy / pyright で型がより厳密に追える.
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-06-23 — FU-516 完了: 税12施行令を v0.2 canonical へ一本化 (manifest 生成 + 旧 layout archive)
+
+- ✅ **FU-516 (PR #27 / commit `05e8102a`, main `0fa8c894`)**: 旧 `data/phase1-tax` と canonical `data/v0.2/phase1-tax` の二重管理・divergent を解消。12 施行令/施行規則の v0.2 形式 `_source-manifest.json` を生成 (3,167 条 round-trip 3,167/0 PASS、parser `segment_parser.py@0.1.0`)、旧 `data/phase1-tax` (3,179 tracked) を `git mv` で `archive/phase1-tax-pre-v0.2` へ退避 (削除でなく archive・CI 対象外)。本法 6 manifest は skip (`--force` 不使用)。CI 全 9 ステップ緑 (verify `--path data` 14,925/0/55 manifests)。Cowork が committed tree で独立検証 (12 added / 3,179 renamed / 0 modified)。**FU-515 Phase E の hard Entry Criteria を充足**。
+
 ### 2026-05-28 — FU-506 完了: tools/ 配下 全 CLI scripts の top-level heavy import Lazy Import 化
 
 > FU-505 で確立した smoke test + cp932 guard の後続 sprint. numpy / httpx 等 heavy deps の
@@ -1524,7 +1530,7 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 ---
 
-### [ ] FU-516: data/phase1-tax と data/v0.2/phase1-tax の二重 git 管理・divergent (2026-06-17 追加, P2)
+### [x] FU-516: data/phase1-tax と data/v0.2/phase1-tax の二重 git 管理・divergent (2026-06-17 追加, P2)
 
 **場所**: `data/phase1-tax/**` (旧 top-level layout) と `data/v0.2/phase1-tax/**` (canonical layout)。
 
@@ -1542,6 +1548,8 @@ round-trip 接地を失う）。正しい解消 = (a) v0.2 形式 manifest を 1
 round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria**（locked corpus 変更につき独立 GO 必須）。
 
 **関連**: FU-515 (走査 default 是正) / FU-307 (kou/supplproviso/add_rollup の `_SHARED_SRC` + scan 統一) / FU-108 (v0.1 → archive deprecate の前例)。
+
+**DONE 2026-06-23 (PR #27 / commit 05e8102a, main 0fa8c894)**: 12施行令の v0.2 `_source-manifest.json` 生成 (round-trip 3,167/0)＋旧 `data/phase1-tax` を `archive/phase1-tax-pre-v0.2` へ退避で `data/v0.2` 単一正本化。Cowork が committed tree で独立検証 (12 added / 3,179 renamed / 0 modified)。FU-515 Phase E の Entry Criteria 充足。
 
 ---
 
@@ -1569,4 +1577,4 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
-*Last updated: 2026-06-21 — FU-515 D-b 完了マーク (REJECT, PR #23 `1795df4c`: 退行ゼロだが附則 value 未達→aug-v7 非昇格) + FU-515 D-c 登録 (附則 paraphrase recall 改善→再投入, P3). 前回: 2026-06-17 FU-515 Phase A-D (PR #19+#20) + FU-516/517 登録. 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+*Last updated: 2026-06-23 — FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`: 税12施行令を v0.2 canonical へ一本化 + 旧 layout を archive 退避、round-trip 3,167/0) + FU-307 に bulk-ingest 既定 data-root 統一スコープを追記 (旧 layout 再生防止). 前回: 2026-06-21 FU-515 D-b 完了マーク (REJECT, PR #23 `1795df4c`) + FU-515 D-c 登録 (P3). 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
