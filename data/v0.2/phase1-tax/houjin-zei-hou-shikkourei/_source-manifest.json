@@ -1,0 +1,3690 @@
+{
+  "schema_version": "1.0",
+  "law_id": "340CO0000000097",
+  "law_name_ja": "法人税法施行令",
+  "law_abbrev": "houjin-zei-hou-shikkourei",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/340CO0000000097",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\340CO0000000097.xml",
+  "source_xml_sha256": "d727e349824300a82bbec048afe5f1357561e3ffa2839cc45c73eb3d000cc946",
+  "source_xml_bytes": 6124217,
+  "source_fetched_at": "2026-06-23",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-06-23T05:48:23+00:00",
+  "version_date": "1965-03-31",
+  "article_count": 459,
+  "articles": [
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-1",
+      "article_number": "1",
+      "filename": "houjin-zei-hou-shikkourei-article-1.md",
+      "ja_text_sha256": "0261dca5d46ed2f37a4a4abb387c666b83537ee544020db92d97d049b7ac9867",
+      "ja_text_bytes": 3586,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-10",
+      "article_number": "10",
+      "filename": "houjin-zei-hou-shikkourei-article-10.md",
+      "ja_text_sha256": "5283be3b37036b6f0af66b97000cfd48b36ea492f447e8a923beaeb51d7deacb",
+      "ja_text_bytes": 203,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-11",
+      "article_number": "11",
+      "filename": "houjin-zei-hou-shikkourei-article-11.md",
+      "ja_text_sha256": "7562fcf84993872eee4b0fcc83af49e4369a33762025daa73532b4f8cb4bf928",
+      "ja_text_bytes": 197,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-111-2",
+      "article_number": "111-2",
+      "filename": "houjin-zei-hou-shikkourei-article-111-2.md",
+      "ja_text_sha256": "60250c0d8835a716c717027257e5bf00e100612f16290dae1915848be5bc77d9",
+      "ja_text_bytes": 2286,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-111-3",
+      "article_number": "111-3",
+      "filename": "houjin-zei-hou-shikkourei-article-111-3.md",
+      "ja_text_sha256": "7fdc636c33eef264913ec0d5482efb7445960b4a65fa498dad359709337814fb",
+      "ja_text_bytes": 2484,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-111-4",
+      "article_number": "111-4",
+      "filename": "houjin-zei-hou-shikkourei-article-111-4.md",
+      "ja_text_sha256": "a9d3d8c56ad71b8b4a682814778c7409f957fbad0f65e3722e13aee11f72bce2",
+      "ja_text_bytes": 873,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-112-2",
+      "article_number": "112-2",
+      "filename": "houjin-zei-hou-shikkourei-article-112-2.md",
+      "ja_text_sha256": "14a189ef4f0b8794d06dd509060a63b24434efa834fa3e546a5c43b2f7933531",
+      "ja_text_bytes": 11095,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-112",
+      "article_number": "112",
+      "filename": "houjin-zei-hou-shikkourei-article-112.md",
+      "ja_text_sha256": "ec4434785494b3fa670f38fdafbeb6ea2079114defb24b901931c21a555563db",
+      "ja_text_bytes": 21632,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-113-2",
+      "article_number": "113-2",
+      "filename": "houjin-zei-hou-shikkourei-article-113-2.md",
+      "ja_text_sha256": "1ef1255597fae1417deb9d4fb3a77cff2e3bffa748b942eca1cfddb1c2b987a0",
+      "ja_text_bytes": 2435,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-113-3",
+      "article_number": "113-3",
+      "filename": "houjin-zei-hou-shikkourei-article-113-3.md",
+      "ja_text_sha256": "41065587e8766a50427b63a9fb0e75b13922bce137336dae6954668d0506b4a8",
+      "ja_text_bytes": 13108,
+      "paragraph_count": 21
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-113",
+      "article_number": "113",
+      "filename": "houjin-zei-hou-shikkourei-article-113.md",
+      "ja_text_sha256": "599cbb9026ddc7a81fe00fafd6a327cdd636e31de0e573c3b77ede858ce95f3b",
+      "ja_text_bytes": 11659,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-114",
+      "article_number": "114",
+      "filename": "houjin-zei-hou-shikkourei-article-114.md",
+      "ja_text_sha256": "6748c5885efb505df5a24a22472ef4a15d5697d50d1ac1cfaeda944e5f84ea9b",
+      "ja_text_bytes": 420,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-115",
+      "article_number": "115",
+      "filename": "houjin-zei-hou-shikkourei-article-115.md",
+      "ja_text_sha256": "795c8318c49c7ca9f492484deb9af00786ad288535f61267c6437faf4c6bd657",
+      "ja_text_bytes": 477,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-116-2",
+      "article_number": "116-2",
+      "filename": "houjin-zei-hou-shikkourei-article-116-2.md",
+      "ja_text_sha256": "bcd243c448091fdbdacfeb1ca82f3260c305544a68ce853e2409acaa54348132",
+      "ja_text_bytes": 398,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-116-3",
+      "article_number": "116-3",
+      "filename": "houjin-zei-hou-shikkourei-article-116-3.md",
+      "ja_text_sha256": "be80efa9b9d401455ccac4b53629d4f5882cd87f29881dd9c90c6c14febe0f41",
+      "ja_text_bytes": 977,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-116",
+      "article_number": "116",
+      "filename": "houjin-zei-hou-shikkourei-article-116.md",
+      "ja_text_sha256": "ec8b0123bf0ca8ef582828ec71d5697ab14620febc2231efb145cc90cb1a6fc7",
+      "ja_text_bytes": 525,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-117-2",
+      "article_number": "117-2",
+      "filename": "houjin-zei-hou-shikkourei-article-117-2.md",
+      "ja_text_sha256": "07d564dd6ce9a5ce65443554ba926c20977b40dedcecdf8a3d466d5e48fdb724",
+      "ja_text_bytes": 338,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-117-3",
+      "article_number": "117-3",
+      "filename": "houjin-zei-hou-shikkourei-article-117-3.md",
+      "ja_text_sha256": "d3114c012dce3237e6b5fdfe6b6d3e4d885d77b280ad985fa50d955299c8e23e",
+      "ja_text_bytes": 506,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-117-4",
+      "article_number": "117-4",
+      "filename": "houjin-zei-hou-shikkourei-article-117-4.md",
+      "ja_text_sha256": "7050d243ad437de4fe9d78711d40dc79a526f1c877aa711678203bd57bf0532a",
+      "ja_text_bytes": 605,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-117-5",
+      "article_number": "117-5",
+      "filename": "houjin-zei-hou-shikkourei-article-117-5.md",
+      "ja_text_sha256": "88830826b2bc66943489044638eb291335c7befc4f2864e3f73d6ce8a2794c89",
+      "ja_text_bytes": 650,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-117",
+      "article_number": "117",
+      "filename": "houjin-zei-hou-shikkourei-article-117.md",
+      "ja_text_sha256": "aaa4f0bd59c14c651e091267aec9ccdb3ed0536163121d9712040237704f1d12",
+      "ja_text_bytes": 396,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-10",
+      "article_number": "118-10",
+      "filename": "houjin-zei-hou-shikkourei-article-118-10.md",
+      "ja_text_sha256": "7d77aa606ffe4d0cd1a8f6d68cd1feed5127ec28abd3551b914b1e4c0c26b3e5",
+      "ja_text_bytes": 5458,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-11",
+      "article_number": "118-11",
+      "filename": "houjin-zei-hou-shikkourei-article-118-11.md",
+      "ja_text_sha256": "439184abcd69b3ca1af8d17103a1e2d1aef0ad20b592e34abcb3d1f5fd613dbf",
+      "ja_text_bytes": 4034,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-12",
+      "article_number": "118-12",
+      "filename": "houjin-zei-hou-shikkourei-article-118-12.md",
+      "ja_text_sha256": "781c37d958519997eddfaf6ee2c582e1e543966b2965959db38633ef048ea938",
+      "ja_text_bytes": 1526,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-2",
+      "article_number": "118-2",
+      "filename": "houjin-zei-hou-shikkourei-article-118-2.md",
+      "ja_text_sha256": "a0c4ba9c7d461a9a8fa2a8fa8ae1af473c2fc5e9128d032aa96c630e9548fc48",
+      "ja_text_bytes": 431,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-3",
+      "article_number": "118-3",
+      "filename": "houjin-zei-hou-shikkourei-article-118-3.md",
+      "ja_text_sha256": "c0e7f0f53da69b9b75f3dc7bee79c396a67bfeb2940618a45beb75fb0e63e536",
+      "ja_text_bytes": 4976,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-4",
+      "article_number": "118-4",
+      "filename": "houjin-zei-hou-shikkourei-article-118-4.md",
+      "ja_text_sha256": "7c10bcfe5d4565382080b142129385a9924bb77daf1c876c8f1c9cd25680bccd",
+      "ja_text_bytes": 248,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-5",
+      "article_number": "118-5",
+      "filename": "houjin-zei-hou-shikkourei-article-118-5.md",
+      "ja_text_sha256": "3e1ccaefa348ba4f812db29a3ca477ecf462a4c6702d74812f657cc020dfc04e",
+      "ja_text_bytes": 623,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-6",
+      "article_number": "118-6",
+      "filename": "houjin-zei-hou-shikkourei-article-118-6.md",
+      "ja_text_sha256": "eb8d437e00c94bcd3f90d95950c634a2d5df3b6e100079b7049fc2a09a30c24a",
+      "ja_text_bytes": 6255,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-7",
+      "article_number": "118-7",
+      "filename": "houjin-zei-hou-shikkourei-article-118-7.md",
+      "ja_text_sha256": "7c7adc0229dafd865d6bd37852c9eb3daac5e19359140f51114ebcf50076b375",
+      "ja_text_bytes": 3142,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-8",
+      "article_number": "118-8",
+      "filename": "houjin-zei-hou-shikkourei-article-118-8.md",
+      "ja_text_sha256": "5bb1af28cc8d846017b999a6a9fa58caf4f3ab4a114acd2a585657d3554f47b4",
+      "ja_text_bytes": 1281,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118-9",
+      "article_number": "118-9",
+      "filename": "houjin-zei-hou-shikkourei-article-118-9.md",
+      "ja_text_sha256": "2103acc961d59ad02e645da188f1fbe70a7fdf42a281f8392d84ed152993a8f2",
+      "ja_text_bytes": 3155,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-118",
+      "article_number": "118",
+      "filename": "houjin-zei-hou-shikkourei-article-118.md",
+      "ja_text_sha256": "cd09a95c6240f3059738cbbd98a75139ac7d6add6c23de5368b456bfb5e2848c",
+      "ja_text_bytes": 438,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-10",
+      "article_number": "119-10",
+      "filename": "houjin-zei-hou-shikkourei-article-119-10.md",
+      "ja_text_sha256": "f5ee9911e32cb8632469b39952382eee11d4cd4f780cc9a28620e6659f172a65",
+      "ja_text_bytes": 5613,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-11-2",
+      "article_number": "119-11-2",
+      "filename": "houjin-zei-hou-shikkourei-article-119-11-2.md",
+      "ja_text_sha256": "a7a5013c257cd46b01884a6377200f85808c243fe9edecffdad954bf94bd3687",
+      "ja_text_bytes": 2112,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-11",
+      "article_number": "119-11",
+      "filename": "houjin-zei-hou-shikkourei-article-119-11.md",
+      "ja_text_sha256": "94b614e0ac56ea113836a48705e8388bffabc1df661e86736c9f7ad2acac0719",
+      "ja_text_bytes": 3933,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-12",
+      "article_number": "119-12",
+      "filename": "houjin-zei-hou-shikkourei-article-119-12.md",
+      "ja_text_sha256": "d76af94466a26a62f2dfe86116caf36588b72e9d03d885d14cb88c2d223f3775",
+      "ja_text_bytes": 471,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-13",
+      "article_number": "119-13",
+      "filename": "houjin-zei-hou-shikkourei-article-119-13.md",
+      "ja_text_sha256": "0da63126f499b5cf46aa54b549dd058b527cfa472b782258be1b62fc11050bbd",
+      "ja_text_bytes": 1058,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-14",
+      "article_number": "119-14",
+      "filename": "houjin-zei-hou-shikkourei-article-119-14.md",
+      "ja_text_sha256": "1fa62be5a53a91839ab057ba7f3390ec352501d8994a779331403b109f83ad34",
+      "ja_text_bytes": 1299,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-15",
+      "article_number": "119-15",
+      "filename": "houjin-zei-hou-shikkourei-article-119-15.md",
+      "ja_text_sha256": "3d9ae4c159935c9140a6aa6cea5592ba6fba088b9c395cdf08a77c3efbb66723",
+      "ja_text_bytes": 5599,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-16",
+      "article_number": "119-16",
+      "filename": "houjin-zei-hou-shikkourei-article-119-16.md",
+      "ja_text_sha256": "98c509a1723e452f6d34364296d1498c5d8afc2f10275776965effc3931fd387",
+      "ja_text_bytes": 1550,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-2",
+      "article_number": "119-2",
+      "filename": "houjin-zei-hou-shikkourei-article-119-2.md",
+      "ja_text_sha256": "0e55515f9b7e9a88dfafa192f6145335a5b8d41d73273c79b797f4fefefe323f",
+      "ja_text_bytes": 1514,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-3",
+      "article_number": "119-3",
+      "filename": "houjin-zei-hou-shikkourei-article-119-3.md",
+      "ja_text_sha256": "de117bf5faa4e055600915d18e48774fb8e06b78cb451e2147ce3c4ff8f91dbd",
+      "ja_text_bytes": 32492,
+      "paragraph_count": 28
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-4",
+      "article_number": "119-4",
+      "filename": "houjin-zei-hou-shikkourei-article-119-4.md",
+      "ja_text_sha256": "3e3b767fe6815b4aab1d2470bf206b9f034298b645eb41f948c1c97b04772235",
+      "ja_text_bytes": 4696,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-5",
+      "article_number": "119-5",
+      "filename": "houjin-zei-hou-shikkourei-article-119-5.md",
+      "ja_text_sha256": "47f32b69316112ba09c1fb562b224a40197f65181b42245a50d487148cee8816",
+      "ja_text_bytes": 2097,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-6",
+      "article_number": "119-6",
+      "filename": "houjin-zei-hou-shikkourei-article-119-6.md",
+      "ja_text_sha256": "d366c8df560660b59cd79f9cc3151ff6a8274672faaa011a0f2db379a67875b3",
+      "ja_text_bytes": 3818,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-7-2",
+      "article_number": "119-7-2",
+      "filename": "houjin-zei-hou-shikkourei-article-119-7-2.md",
+      "ja_text_sha256": "32857641462099dbdd4b2ef1f68f88147ab6ec7f90fbd5805ebe508bc1409879",
+      "ja_text_bytes": 1376,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-7",
+      "article_number": "119-7",
+      "filename": "houjin-zei-hou-shikkourei-article-119-7.md",
+      "ja_text_sha256": "b16e2de45a8c9712255ff6041184dc7c4fca7b936774b578fcb07f204e732be2",
+      "ja_text_bytes": 1236,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-8-2",
+      "article_number": "119-8-2",
+      "filename": "houjin-zei-hou-shikkourei-article-119-8-2.md",
+      "ja_text_sha256": "bc7c1ccde72244d0548cce76494e3fb3469853e9b0f3e436fe8a06b61c990fe6",
+      "ja_text_bytes": 746,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-8-3",
+      "article_number": "119-8-3",
+      "filename": "houjin-zei-hou-shikkourei-article-119-8-3.md",
+      "ja_text_sha256": "0b2b025f309eb4b574ef9015519c87b0c42ef82765d54b42ee185d5cdf556048",
+      "ja_text_bytes": 468,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-8-4",
+      "article_number": "119-8-4",
+      "filename": "houjin-zei-hou-shikkourei-article-119-8-4.md",
+      "ja_text_sha256": "157a39248baa7aed274f63a671164fd47bb2fdd85380cd9c316af6af77c61108",
+      "ja_text_bytes": 1093,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-8",
+      "article_number": "119-8",
+      "filename": "houjin-zei-hou-shikkourei-article-119-8.md",
+      "ja_text_sha256": "a0b9c75f82699eff46110c3280e0bc81efc35abd65eabf40a76f0d008d0007c2",
+      "ja_text_bytes": 894,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-9-2",
+      "article_number": "119-9-2",
+      "filename": "houjin-zei-hou-shikkourei-article-119-9-2.md",
+      "ja_text_sha256": "bf212c0a32bc9902296c1bf155c677a22e08cb895c3203b2a44099412b02d2a7",
+      "ja_text_bytes": 1013,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119-9",
+      "article_number": "119-9",
+      "filename": "houjin-zei-hou-shikkourei-article-119-9.md",
+      "ja_text_sha256": "cdaa80c735231898e0e538c97ca2398b285e5ebf7498b70ec594efdcb6a1c4b6",
+      "ja_text_bytes": 1083,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-119",
+      "article_number": "119",
+      "filename": "houjin-zei-hou-shikkourei-article-119.md",
+      "ja_text_sha256": "196ec5d5e6be782e37848644be0a5e884ac0cde7ac60079d3a19bffd62f97027",
+      "ja_text_bytes": 1948,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-12",
+      "article_number": "12",
+      "filename": "houjin-zei-hou-shikkourei-article-12.md",
+      "ja_text_sha256": "94ee696c6d01305c23d78212bcd555aa1f7d883a6222230411c8139181eea360",
+      "ja_text_bytes": 353,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-120",
+      "article_number": "120",
+      "filename": "houjin-zei-hou-shikkourei-article-120.md",
+      "ja_text_sha256": "65212fa2e3f2659f00120e3807626d753dfa37a5060546e177c28c9aaba9153d",
+      "ja_text_bytes": 2773,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-10",
+      "article_number": "121-10",
+      "filename": "houjin-zei-hou-shikkourei-article-121-10.md",
+      "ja_text_sha256": "53ed8d99675c4407c3bd7e09f7a2cd1b078c7d197f6a0ac91242631846b227ca",
+      "ja_text_bytes": 2528,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-11",
+      "article_number": "121-11",
+      "filename": "houjin-zei-hou-shikkourei-article-121-11.md",
+      "ja_text_sha256": "788cf64cbe609e60d616c14ff9e02cf0fa4b28fa5a9102a77698f91d521afd16",
+      "ja_text_bytes": 4284,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-2",
+      "article_number": "121-2",
+      "filename": "houjin-zei-hou-shikkourei-article-121-2.md",
+      "ja_text_sha256": "ef6a54a2e83248f24c290935f7d103ffc28c9ddd97aa0075851f9433addec684",
+      "ja_text_bytes": 980,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-3-2",
+      "article_number": "121-3-2",
+      "filename": "houjin-zei-hou-shikkourei-article-121-3-2.md",
+      "ja_text_sha256": "7f1692d81d46725cfe89e2038c488597cee60fa50a3331d2eaf97a01212530df",
+      "ja_text_bytes": 5815,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-3",
+      "article_number": "121-3",
+      "filename": "houjin-zei-hou-shikkourei-article-121-3.md",
+      "ja_text_sha256": "007d6d00d661a4861964d1bc88de6469743805dbf4442897222c05ac16b67b5d",
+      "ja_text_bytes": 3779,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-4",
+      "article_number": "121-4",
+      "filename": "houjin-zei-hou-shikkourei-article-121-4.md",
+      "ja_text_sha256": "63bee31694bf84abefb0fc9ff9c9027fd146eed2a0472652d9da5beffc4be87b",
+      "ja_text_bytes": 5728,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-5",
+      "article_number": "121-5",
+      "filename": "houjin-zei-hou-shikkourei-article-121-5.md",
+      "ja_text_sha256": "3d239fea8487147da4de2f891566c2fc1c854904ca4dfae2fe5214f09a40dc2f",
+      "ja_text_bytes": 5288,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-6",
+      "article_number": "121-6",
+      "filename": "houjin-zei-hou-shikkourei-article-121-6.md",
+      "ja_text_sha256": "d1807783dc00e60649ebed00b0f620935075cfcd0839909efb2c69e55cb8bd13",
+      "ja_text_bytes": 1647,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-7",
+      "article_number": "121-7",
+      "filename": "houjin-zei-hou-shikkourei-article-121-7.md",
+      "ja_text_sha256": "d32dbc4a2a62d55922dfef7fe484b5dd632b9f3deda1de99a4708314c1e62e1f",
+      "ja_text_bytes": 4159,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-8",
+      "article_number": "121-8",
+      "filename": "houjin-zei-hou-shikkourei-article-121-8.md",
+      "ja_text_sha256": "43d1cd0701040ce648d5a56fb4ddb33ff74da7e07ddf40c0527e4b568eb0cb95",
+      "ja_text_bytes": 1010,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-9-2",
+      "article_number": "121-9-2",
+      "filename": "houjin-zei-hou-shikkourei-article-121-9-2.md",
+      "ja_text_sha256": "1d9cbe920e869da1e3a48cb6226b31adb3795335738deac5c8478dbb29fb1c26",
+      "ja_text_bytes": 4211,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121-9",
+      "article_number": "121-9",
+      "filename": "houjin-zei-hou-shikkourei-article-121-9.md",
+      "ja_text_sha256": "9696e82f4417aa8dc082ef75d567662356352faac3bc9d1e5c9124b956ddd925",
+      "ja_text_bytes": 656,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-121",
+      "article_number": "121",
+      "filename": "houjin-zei-hou-shikkourei-article-121.md",
+      "ja_text_sha256": "209c77a2f3f37a53afd7f3ddd66100344929f1a6f34968ce2c1cc51bf52befe8",
+      "ja_text_bytes": 5032,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-10",
+      "article_number": "122-10",
+      "filename": "houjin-zei-hou-shikkourei-article-122-10.md",
+      "ja_text_sha256": "ea7372d5203fc101d7d92723a98e2882d38c76dc06c11a1434cf21036eccdc76",
+      "ja_text_bytes": 1223,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-11",
+      "article_number": "122-11",
+      "filename": "houjin-zei-hou-shikkourei-article-122-11.md",
+      "ja_text_sha256": "b53ccf99a7e605c985be766c2301a9f4f450c8fa9a85263c76f3b97aab1766bc",
+      "ja_text_bytes": 1070,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-12",
+      "article_number": "122-12",
+      "filename": "houjin-zei-hou-shikkourei-article-122-12.md",
+      "ja_text_sha256": "1f445ff483b6218e94163204bd02318c4486323b2004c00f3b5bb43546358fc1",
+      "ja_text_bytes": 12781,
+      "paragraph_count": 19
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-13",
+      "article_number": "122-13",
+      "filename": "houjin-zei-hou-shikkourei-article-122-13.md",
+      "ja_text_sha256": "b20b9b351d7415b34b9be722a54daccb1c3a3a8e3789f2d9a14c582380d0b9a6",
+      "ja_text_bytes": 369,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-2",
+      "article_number": "122-2",
+      "filename": "houjin-zei-hou-shikkourei-article-122-2.md",
+      "ja_text_sha256": "7b7b2c5d42cf0148593d4d88f0988e98cd6cf9649d929baa80ad9657e5535775",
+      "ja_text_bytes": 1751,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-3",
+      "article_number": "122-3",
+      "filename": "houjin-zei-hou-shikkourei-article-122-3.md",
+      "ja_text_sha256": "329bb232ab6c3587309e7dc4a8ce9ff277233c616f866db11f325ad265d5aec5",
+      "ja_text_bytes": 1887,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-4",
+      "article_number": "122-4",
+      "filename": "houjin-zei-hou-shikkourei-article-122-4.md",
+      "ja_text_sha256": "73c97777b68282a64aedc49854054f16b5de3cae59e3a918436edacc298120ff",
+      "ja_text_bytes": 716,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-5",
+      "article_number": "122-5",
+      "filename": "houjin-zei-hou-shikkourei-article-122-5.md",
+      "ja_text_sha256": "1a23b67bdcbaead38f8e420c6e3a0c8d92da41b3b8f75abfcf09d11921f07947",
+      "ja_text_bytes": 1925,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-6",
+      "article_number": "122-6",
+      "filename": "houjin-zei-hou-shikkourei-article-122-6.md",
+      "ja_text_sha256": "bb081e17e247dd8c0d269bcc48b5cd215cc630085bc9768ced0e1fb84d9e87db",
+      "ja_text_bytes": 4040,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-7",
+      "article_number": "122-7",
+      "filename": "houjin-zei-hou-shikkourei-article-122-7.md",
+      "ja_text_sha256": "30473d5996c6af9c0406f3f68eb4b9af8b4b60edeaf5b326b395f359495cfbc8",
+      "ja_text_bytes": 473,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-8",
+      "article_number": "122-8",
+      "filename": "houjin-zei-hou-shikkourei-article-122-8.md",
+      "ja_text_sha256": "30a28f5ff7a6efa708c415b7bd49d098bb65d7464828b01f35a2613641b04509",
+      "ja_text_bytes": 4731,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122-9",
+      "article_number": "122-9",
+      "filename": "houjin-zei-hou-shikkourei-article-122-9.md",
+      "ja_text_sha256": "0a830f6b1656e021483ec1e110d09f2d81633d5aa2015227b6ed4c1f97ac7fab",
+      "ja_text_bytes": 1319,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-122",
+      "article_number": "122",
+      "filename": "houjin-zei-hou-shikkourei-article-122.md",
+      "ja_text_sha256": "7752c723e845b658348d8d0e9d9739acb80155838f730fe89cfa7b916bb70aea",
+      "ja_text_bytes": 2564,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-10",
+      "article_number": "123-10",
+      "filename": "houjin-zei-hou-shikkourei-article-123-10.md",
+      "ja_text_sha256": "292f650acf54773fdf66fb762a9d2f684033a20981b07f18d41d1aa7ae83948b",
+      "ja_text_bytes": 12564,
+      "paragraph_count": 17
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-11",
+      "article_number": "123-11",
+      "filename": "houjin-zei-hou-shikkourei-article-123-11.md",
+      "ja_text_sha256": "e45439c1dc3ff341ac833517cbe26791346a913df9c806d69a143db5bf783b54",
+      "ja_text_bytes": 4164,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-2",
+      "article_number": "123-2",
+      "filename": "houjin-zei-hou-shikkourei-article-123-2.md",
+      "ja_text_sha256": "799a7a1bc7f386941fdb280ebfa8539c7bd50ce2d1f21f9e43debf78748873d5",
+      "ja_text_bytes": 1823,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-3",
+      "article_number": "123-3",
+      "filename": "houjin-zei-hou-shikkourei-article-123-3.md",
+      "ja_text_sha256": "39161418cc1c8171987aef7c48089594295762eab8baf780144010df57039410",
+      "ja_text_bytes": 1867,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-4",
+      "article_number": "123-4",
+      "filename": "houjin-zei-hou-shikkourei-article-123-4.md",
+      "ja_text_sha256": "b3c0123b7abf1b377af620f8fb65a7736fbac3a2d4f3100e7b5422c2405cadeb",
+      "ja_text_bytes": 524,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-5",
+      "article_number": "123-5",
+      "filename": "houjin-zei-hou-shikkourei-article-123-5.md",
+      "ja_text_sha256": "7a58f4887781b4d188cc51d0f6febd16a90a5d22affa8c22276324207b504633",
+      "ja_text_bytes": 890,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-6",
+      "article_number": "123-6",
+      "filename": "houjin-zei-hou-shikkourei-article-123-6.md",
+      "ja_text_sha256": "36d74b34f01b46cbc596dae22410ffaad0d665d50023d9bfb1e4eb5a798dcfc2",
+      "ja_text_bytes": 591,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-7",
+      "article_number": "123-7",
+      "filename": "houjin-zei-hou-shikkourei-article-123-7.md",
+      "ja_text_sha256": "04d99426bb8b3ada0d748a8ba7f4ecc147e773a70225f498d5d00d7195c6adca",
+      "ja_text_bytes": 1016,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-8",
+      "article_number": "123-8",
+      "filename": "houjin-zei-hou-shikkourei-article-123-8.md",
+      "ja_text_sha256": "3d89557947f35379a966f793dcbd9183347f68e396f817e1375a72e8ba2287ba",
+      "ja_text_bytes": 10264,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123-9",
+      "article_number": "123-9",
+      "filename": "houjin-zei-hou-shikkourei-article-123-9.md",
+      "ja_text_sha256": "c38c66712395b8a85c844ae593359507ecab6e56c78eaf6100b6bd2ecfad4e71",
+      "ja_text_bytes": 12753,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-123",
+      "article_number": "123",
+      "filename": "houjin-zei-hou-shikkourei-article-123.md",
+      "ja_text_sha256": "f468e63b251d1abbf05d5c6b243a0e658518716494368c427bb671c6d124d878",
+      "ja_text_bytes": 2761,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-129",
+      "article_number": "129",
+      "filename": "houjin-zei-hou-shikkourei-article-129.md",
+      "ja_text_sha256": "1eec3201cb4e0916d8d8d9eb4cd65845529db62ce56c4c70c8e60ceaeac733f1",
+      "ja_text_bytes": 8124,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-13",
+      "article_number": "13",
+      "filename": "houjin-zei-hou-shikkourei-article-13.md",
+      "ja_text_sha256": "ff531e65a8e0bff18f631a947c8e4cd20eac35f40b57fa4d93fd1a9cd89bf9b1",
+      "ja_text_bytes": 380,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-130",
+      "article_number": "130",
+      "filename": "houjin-zei-hou-shikkourei-article-130.md",
+      "ja_text_sha256": "04030956bd7296cae1dccdff1cfcdb7e9442c6a8744d7a34a1adc6ef92ea908c",
+      "ja_text_bytes": 1031,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-10",
+      "article_number": "131-10",
+      "filename": "houjin-zei-hou-shikkourei-article-131-10.md",
+      "ja_text_sha256": "75220412ca4566486ffed9e62f75dad6f3bcff215671c5611d53354a69ac6680",
+      "ja_text_bytes": 929,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-11",
+      "article_number": "131-11",
+      "filename": "houjin-zei-hou-shikkourei-article-131-11.md",
+      "ja_text_sha256": "7a580cd2a94e48fb2b6ef8aa440168c8b53ce7794d451e8d988e8a5f468d6943",
+      "ja_text_bytes": 1738,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-12",
+      "article_number": "131-12",
+      "filename": "houjin-zei-hou-shikkourei-article-131-12.md",
+      "ja_text_sha256": "fd6418bc39582cb660e5c302a27f082908bef6c95073ac750436f902c77dfcfa",
+      "ja_text_bytes": 1603,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-13",
+      "article_number": "131-13",
+      "filename": "houjin-zei-hou-shikkourei-article-131-13.md",
+      "ja_text_sha256": "72495ec5039b5a290e768826df626d1fd9da50a05e5103270f31e00585aeb49b",
+      "ja_text_bytes": 610,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-14",
+      "article_number": "131-14",
+      "filename": "houjin-zei-hou-shikkourei-article-131-14.md",
+      "ja_text_sha256": "0d5611f14aec7bbc5d66169fc6c6c333c7d1307bcbc1d6175d816a96120bca56",
+      "ja_text_bytes": 1617,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-15",
+      "article_number": "131-15",
+      "filename": "houjin-zei-hou-shikkourei-article-131-15.md",
+      "ja_text_sha256": "8f32758988ce8b2a9f81438afda011a902bc10c354548ee17b31a738a8d33b78",
+      "ja_text_bytes": 4319,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-16",
+      "article_number": "131-16",
+      "filename": "houjin-zei-hou-shikkourei-article-131-16.md",
+      "ja_text_sha256": "640bf9971aefd08829c4b94061e714a6c0324ea155f882c4ab48458ecfeaf3d2",
+      "ja_text_bytes": 2763,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-17",
+      "article_number": "131-17",
+      "filename": "houjin-zei-hou-shikkourei-article-131-17.md",
+      "ja_text_sha256": "22ad6a6ef73f06c82031eac488e8309c1345550cd61efe58bd5f89a188f08722",
+      "ja_text_bytes": 2748,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-18",
+      "article_number": "131-18",
+      "filename": "houjin-zei-hou-shikkourei-article-131-18.md",
+      "ja_text_sha256": "e5af93eb981bee8d3a864dc147d84bade9318696042b61fc637a1554b137319f",
+      "ja_text_bytes": 2015,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-19",
+      "article_number": "131-19",
+      "filename": "houjin-zei-hou-shikkourei-article-131-19.md",
+      "ja_text_sha256": "974a226c15f5b68abe154ca2f41eb6f4c7d21281c5bd2d18c4feb4816c7fcc25",
+      "ja_text_bytes": 11892,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-2",
+      "article_number": "131-2",
+      "filename": "houjin-zei-hou-shikkourei-article-131-2.md",
+      "ja_text_sha256": "142ff45eba14945afb0e7c2694cd3580f6b0f2ec411bc2ba7a19a591523738c7",
+      "ja_text_bytes": 2005,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-3",
+      "article_number": "131-3",
+      "filename": "houjin-zei-hou-shikkourei-article-131-3.md",
+      "ja_text_sha256": "c9e0fa275609d776fd2c2414e5bb506c33d8a8709c8ddb926892ee0a7ba04409",
+      "ja_text_bytes": 3379,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-4",
+      "article_number": "131-4",
+      "filename": "houjin-zei-hou-shikkourei-article-131-4.md",
+      "ja_text_sha256": "f5a6c64b8da73ba19c0450d675235bb6368705c297d2b68e508f81efe07eaa84",
+      "ja_text_bytes": 2811,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-5",
+      "article_number": "131-5",
+      "filename": "houjin-zei-hou-shikkourei-article-131-5.md",
+      "ja_text_sha256": "0430773d6b45f1334bfcda9f000ce762755b64c45dea786acb96c39fb42f6902",
+      "ja_text_bytes": 12224,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-6",
+      "article_number": "131-6",
+      "filename": "houjin-zei-hou-shikkourei-article-131-6.md",
+      "ja_text_sha256": "37b79674453650b1c87f05502015ce3ee0e59c2eb0d6c9add627876d45b8a341",
+      "ja_text_bytes": 74,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-7",
+      "article_number": "131-7",
+      "filename": "houjin-zei-hou-shikkourei-article-131-7.md",
+      "ja_text_sha256": "7ff6e393d55311312793b9ce9160d2f9be1a7066a13ec616a50719d65cb6ff30",
+      "ja_text_bytes": 405,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-8",
+      "article_number": "131-8",
+      "filename": "houjin-zei-hou-shikkourei-article-131-8.md",
+      "ja_text_sha256": "976030b820c3048e9381131bfd02ab53f336ee7b133add607dd7112b4d9efdd2",
+      "ja_text_bytes": 9773,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131-9",
+      "article_number": "131-9",
+      "filename": "houjin-zei-hou-shikkourei-article-131-9.md",
+      "ja_text_sha256": "f4a2d392f7c6c67090349db5fa7d05e73f634bc9c88ff8afa775a5de180f7769",
+      "ja_text_bytes": 2162,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-131",
+      "article_number": "131",
+      "filename": "houjin-zei-hou-shikkourei-article-131.md",
+      "ja_text_sha256": "bf5d86689f3bcfd5cae835ccfdb7a6fc515212e702e758dfce9850806572b026",
+      "ja_text_bytes": 3380,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-132",
+      "article_number": "132",
+      "filename": "houjin-zei-hou-shikkourei-article-132.md",
+      "ja_text_sha256": "4656071c384ba43d5655773bc61af0aef95da94d2451ca8ac72bc8ad5b213358",
+      "ja_text_bytes": 489,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-133-2",
+      "article_number": "133-2",
+      "filename": "houjin-zei-hou-shikkourei-article-133-2.md",
+      "ja_text_sha256": "ff1a1d6cc7c33a467fc534a43e80e9c9ae82dbf23b0a2352e4946de967ff8d0b",
+      "ja_text_bytes": 10575,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-133",
+      "article_number": "133",
+      "filename": "houjin-zei-hou-shikkourei-article-133.md",
+      "ja_text_sha256": "8717261c467501c1c867c7e6b88f9ecc6d544a508ce6f3c14ae17a5809e9db03",
+      "ja_text_bytes": 1289,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-134",
+      "article_number": "134",
+      "filename": "houjin-zei-hou-shikkourei-article-134.md",
+      "ja_text_sha256": "5170033b22b4a5c4b564b942747bc55cf82f95a1ee0b6f09b88d065ea096d9a6",
+      "ja_text_bytes": 513,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-135",
+      "article_number": "135",
+      "filename": "houjin-zei-hou-shikkourei-article-135.md",
+      "ja_text_sha256": "774d7684f689296f292d42ebfdfbb7a556abdf7be57a1b8be37b158c3e337adf",
+      "ja_text_bytes": 600,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-136-2",
+      "article_number": "136-2",
+      "filename": "houjin-zei-hou-shikkourei-article-136-2.md",
+      "ja_text_sha256": "8945e71ecad1940cdcca897c0b6e7a3d1f6665b1c2fb802a86750488975b4e68",
+      "ja_text_bytes": 6489,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-136-3",
+      "article_number": "136-3",
+      "filename": "houjin-zei-hou-shikkourei-article-136-3.md",
+      "ja_text_sha256": "2d11b8270a1d47ecf49f07a5c610505a04b445cc4cc694c2e6ef70c469ed90c7",
+      "ja_text_bytes": 738,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-136",
+      "article_number": "136",
+      "filename": "houjin-zei-hou-shikkourei-article-136.md",
+      "ja_text_sha256": "f7ee19c1beef524085cc7119dd0bce2ffacd9c4e0c491a993cde974fd2121617",
+      "ja_text_bytes": 729,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-137",
+      "article_number": "137",
+      "filename": "houjin-zei-hou-shikkourei-article-137.md",
+      "ja_text_sha256": "a302d6455e38273d39ee2412cf817b790b78fca9833d5e8c09ce2f8b9296a98f",
+      "ja_text_bytes": 1137,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-138",
+      "article_number": "138",
+      "filename": "houjin-zei-hou-shikkourei-article-138.md",
+      "ja_text_sha256": "4c5972e28b47f6816af6a193a71eb5955c65703f87ed4ded4a1fc8b67cc5c08f",
+      "ja_text_bytes": 5076,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-10",
+      "article_number": "139-10",
+      "filename": "houjin-zei-hou-shikkourei-article-139-10.md",
+      "ja_text_sha256": "599134fef794914d44dc6691879a739b6633c34a2471df2a43997999a8f7e609",
+      "ja_text_bytes": 1796,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-2",
+      "article_number": "139-2",
+      "filename": "houjin-zei-hou-shikkourei-article-139-2.md",
+      "ja_text_sha256": "6ebb6b2b5bdbb02466aae72407dae51d919dabf0764cc3fc2280116decf4a0df",
+      "ja_text_bytes": 4081,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-3-2",
+      "article_number": "139-3-2",
+      "filename": "houjin-zei-hou-shikkourei-article-139-3-2.md",
+      "ja_text_sha256": "327410daadc3e1d28889988a8ee31350c990fd6c0e9b9c7fe03b98fd5b9bfd93",
+      "ja_text_bytes": 2937,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-3",
+      "article_number": "139-3",
+      "filename": "houjin-zei-hou-shikkourei-article-139-3.md",
+      "ja_text_sha256": "4880d84073a2a7c8fa11da83d736554c836248a7f6675c747702cbc8ff66837d",
+      "ja_text_bytes": 624,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-4",
+      "article_number": "139-4",
+      "filename": "houjin-zei-hou-shikkourei-article-139-4.md",
+      "ja_text_sha256": "e83ff82d18529644a556ffef88b2b46a64066a9d97dff295c994f1eeccdb183c",
+      "ja_text_bytes": 13125,
+      "paragraph_count": 16
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-5-2",
+      "article_number": "139-5-2",
+      "filename": "houjin-zei-hou-shikkourei-article-139-5-2.md",
+      "ja_text_sha256": "4f906739c17ab8ab46ccbe945fad33f6253e3c8665022a322e6246d0da95ed9d",
+      "ja_text_bytes": 2086,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-5",
+      "article_number": "139-5",
+      "filename": "houjin-zei-hou-shikkourei-article-139-5.md",
+      "ja_text_sha256": "dc72e79630f7f53f8008b71613cae314aa69d563e4e2902e1f93cbe81afd03f1",
+      "ja_text_bytes": 527,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-6",
+      "article_number": "139-6",
+      "filename": "houjin-zei-hou-shikkourei-article-139-6.md",
+      "ja_text_sha256": "333362fc026305d01498fb1de6ab1a6a62ad9269e0a8083f92486d2301366c7a",
+      "ja_text_bytes": 299,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-7",
+      "article_number": "139-7",
+      "filename": "houjin-zei-hou-shikkourei-article-139-7.md",
+      "ja_text_sha256": "6b95dd24c8fd0a19eb78bb1fe0d26ba4d57cb69c711b2af6edb31a33c6235bb1",
+      "ja_text_bytes": 2413,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-8",
+      "article_number": "139-8",
+      "filename": "houjin-zei-hou-shikkourei-article-139-8.md",
+      "ja_text_sha256": "0229303ca770c4c1cbc9b4abb97781e7c1197e1c1a4f876756e79e4f3fdbf26c",
+      "ja_text_bytes": 7645,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139-9",
+      "article_number": "139-9",
+      "filename": "houjin-zei-hou-shikkourei-article-139-9.md",
+      "ja_text_sha256": "facf6297404f680345369ef9296ba0aedacdd5127917cb53b15a54eb2ab41272",
+      "ja_text_bytes": 626,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-139",
+      "article_number": "139",
+      "filename": "houjin-zei-hou-shikkourei-article-139.md",
+      "ja_text_sha256": "4870bfcd2c10f1740f44c521e0b32669ce21bec4e60b2291fd41355d8cb460fe",
+      "ja_text_bytes": 1044,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-14-2",
+      "article_number": "14-2",
+      "filename": "houjin-zei-hou-shikkourei-article-14-2.md",
+      "ja_text_sha256": "edc20abab3059f8c6bebe91ac07f2269b8acf1bddcc493fc6541a207d33066ba",
+      "ja_text_bytes": 1261,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-14-3",
+      "article_number": "14-3",
+      "filename": "houjin-zei-hou-shikkourei-article-14-3.md",
+      "ja_text_sha256": "fa2c134fc6af1282f282218c847527ecb45b8f893ffb8a0ddbdeb8048d1323c3",
+      "ja_text_bytes": 973,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-14-4",
+      "article_number": "14-4",
+      "filename": "houjin-zei-hou-shikkourei-article-14-4.md",
+      "ja_text_sha256": "258ab6e4f19649c3c583bff7771c799c3d093f18d28cb8acd755c1f277668743",
+      "ja_text_bytes": 6287,
+      "paragraph_count": 16
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-14-5",
+      "article_number": "14-5",
+      "filename": "houjin-zei-hou-shikkourei-article-14-5.md",
+      "ja_text_sha256": "49c93075e8ef5ecc586cf86fa28675984d749ec4db77ac198c2b2e20ae1d304c",
+      "ja_text_bytes": 2731,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-14-6",
+      "article_number": "14-6",
+      "filename": "houjin-zei-hou-shikkourei-article-14-6.md",
+      "ja_text_sha256": "cc91b5cb544cda92239cc1a031a124e2f9167817e088341f488721c0ecdf1a63",
+      "ja_text_bytes": 8354,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-14-7",
+      "article_number": "14-7",
+      "filename": "houjin-zei-hou-shikkourei-article-14-7.md",
+      "ja_text_sha256": "2fa311bca881e98d3d8e0c2f83f3b44b0fb908aa2b42093681450631e2e2d413",
+      "ja_text_bytes": 2239,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-14",
+      "article_number": "14",
+      "filename": "houjin-zei-hou-shikkourei-article-14.md",
+      "ja_text_sha256": "4b5df82ad4d03a9426c85825c7ce477074d373b577c1a445b394fa82343da956",
+      "ja_text_bytes": 699,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-140-2",
+      "article_number": "140-2",
+      "filename": "houjin-zei-hou-shikkourei-article-140-2.md",
+      "ja_text_sha256": "7b0764701cb9746a9efd92a004d6693b6a2a10ccdb210ff94dd9836466e00100",
+      "ja_text_bytes": 7510,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-140",
+      "article_number": "140",
+      "filename": "houjin-zei-hou-shikkourei-article-140.md",
+      "ja_text_sha256": "cbde951dbc9d06f344f79f6e6f2ff39206afabdf07937e96aee6e28a212717f3",
+      "ja_text_bytes": 381,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-141-2",
+      "article_number": "141-2",
+      "filename": "houjin-zei-hou-shikkourei-article-141-2.md",
+      "ja_text_sha256": "c3621601b8aaa4f5140b46c14cde861d77f0a323ef31aa17bf6de2043ae6b83e",
+      "ja_text_bytes": 440,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-141-3",
+      "article_number": "141-3",
+      "filename": "houjin-zei-hou-shikkourei-article-141-3.md",
+      "ja_text_sha256": "c84c32a291428f0f0f9aab2a8a310d5d9343505b02bd609b852cd96614c2705c",
+      "ja_text_bytes": 4245,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-141-4",
+      "article_number": "141-4",
+      "filename": "houjin-zei-hou-shikkourei-article-141-4.md",
+      "ja_text_sha256": "f6a1e67ca98993573361620d52d15761318986bc89293bb171a6b3913c945533",
+      "ja_text_bytes": 8486,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-141-5",
+      "article_number": "141-5",
+      "filename": "houjin-zei-hou-shikkourei-article-141-5.md",
+      "ja_text_sha256": "ce5b7fc6238c6ad5c2e27f9a5d4b1a5093e0d7f3dd89c304e27662bbe546cf55",
+      "ja_text_bytes": 1956,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-141-6",
+      "article_number": "141-6",
+      "filename": "houjin-zei-hou-shikkourei-article-141-6.md",
+      "ja_text_sha256": "fad334a4d483753ed5a14d8c9959cd5fe55c02a44b19fc9924c7c5f83a1dda17",
+      "ja_text_bytes": 2873,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-141-7",
+      "article_number": "141-7",
+      "filename": "houjin-zei-hou-shikkourei-article-141-7.md",
+      "ja_text_sha256": "d26855fda45edaf30adc7ca175ed96ad6e53126cd3ef49ea2cfbfd18378618de",
+      "ja_text_bytes": 1570,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-141-8",
+      "article_number": "141-8",
+      "filename": "houjin-zei-hou-shikkourei-article-141-8.md",
+      "ja_text_sha256": "fc6b12ee919be6c7fc2e7b81fcaf3e101bc355fcdf37385a8782e044556b2ec2",
+      "ja_text_bytes": 2252,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-141",
+      "article_number": "141",
+      "filename": "houjin-zei-hou-shikkourei-article-141.md",
+      "ja_text_sha256": "707be42b1b73bd440f3f61a4f90dfbf2fcb94007dc66573f4b4722a39ff1dfcb",
+      "ja_text_bytes": 850,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-142-2",
+      "article_number": "142-2",
+      "filename": "houjin-zei-hou-shikkourei-article-142-2.md",
+      "ja_text_sha256": "3a1eb2e58516559e178fc36436e7c7678a7e71090172b34f67f5aa07bd36a2e0",
+      "ja_text_bytes": 5554,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-142",
+      "article_number": "142",
+      "filename": "houjin-zei-hou-shikkourei-article-142.md",
+      "ja_text_sha256": "a0aaadcb5201af2c54761b00fbaecac7a0f4b718781471a691cfc6db9f4843c0",
+      "ja_text_bytes": 4431,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-143",
+      "article_number": "143",
+      "filename": "houjin-zei-hou-shikkourei-article-143.md",
+      "ja_text_sha256": "d8a1e1296fb1002873bd1dcf844f9b5adbec535d9c5c3c18d216e64b6df99e7b",
+      "ja_text_bytes": 708,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-144",
+      "article_number": "144",
+      "filename": "houjin-zei-hou-shikkourei-article-144.md",
+      "ja_text_sha256": "b8de9d6253adfe9cf25b6b2aa54e38b5c5473b0f9f015f77bba9b2d6a3520bd9",
+      "ja_text_bytes": 4470,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-10",
+      "article_number": "145-10",
+      "filename": "houjin-zei-hou-shikkourei-article-145-10.md",
+      "ja_text_sha256": "659b097de8d74d1d4770de878dac68bb14aa6f61fc982eb4ad32fa1b3d30d722",
+      "ja_text_bytes": 342,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-11",
+      "article_number": "145-11",
+      "filename": "houjin-zei-hou-shikkourei-article-145-11.md",
+      "ja_text_sha256": "c0aa999e60b0d343671afa91366641315cb7f5251f8e22239cd7013c97cc4137",
+      "ja_text_bytes": 951,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-12",
+      "article_number": "145-12",
+      "filename": "houjin-zei-hou-shikkourei-article-145-12.md",
+      "ja_text_sha256": "a1c02a396f632d62c1935fd207b01f76e8c3cbac9cc2956e82993f4678d82290",
+      "ja_text_bytes": 273,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-13",
+      "article_number": "145-13",
+      "filename": "houjin-zei-hou-shikkourei-article-145-13.md",
+      "ja_text_sha256": "e2bf8069559731ebf25e1da3da01998492c7dc3ccdfad8b7a5e31f6c75041c72",
+      "ja_text_bytes": 222,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-14",
+      "article_number": "145-14",
+      "filename": "houjin-zei-hou-shikkourei-article-145-14.md",
+      "ja_text_sha256": "4603cc4177523796ae83879353ce3634ecefa858642ac888161c109c14740036",
+      "ja_text_bytes": 330,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-15",
+      "article_number": "145-15",
+      "filename": "houjin-zei-hou-shikkourei-article-145-15.md",
+      "ja_text_sha256": "1b008fb656127fdbe0201db5616383dbf6a19284c069962a53421cdcb54a23b7",
+      "ja_text_bytes": 1312,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-2",
+      "article_number": "145-2",
+      "filename": "houjin-zei-hou-shikkourei-article-145-2.md",
+      "ja_text_sha256": "e652a6058e63e5f3aeb2080f7cad0437f341b81b44c7e3649995b3d78762c7a0",
+      "ja_text_bytes": 1794,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-3",
+      "article_number": "145-3",
+      "filename": "houjin-zei-hou-shikkourei-article-145-3.md",
+      "ja_text_sha256": "ce4d3bff9b76acf846c31609c66bbe2143c45a7e763acdf686d594cbdc58d0ec",
+      "ja_text_bytes": 654,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-4",
+      "article_number": "145-4",
+      "filename": "houjin-zei-hou-shikkourei-article-145-4.md",
+      "ja_text_sha256": "1212e4f1da928f42dbf654f56ced23bfff56f63c9c5bdc0b99f331465f486a6c",
+      "ja_text_bytes": 684,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-5",
+      "article_number": "145-5",
+      "filename": "houjin-zei-hou-shikkourei-article-145-5.md",
+      "ja_text_sha256": "e324f12cda16a7ed0e839ead93588c0ea55aff5dd30b8d72b00de77247f6ec1e",
+      "ja_text_bytes": 218,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-6",
+      "article_number": "145-6",
+      "filename": "houjin-zei-hou-shikkourei-article-145-6.md",
+      "ja_text_sha256": "8b0d81998768cf8c5799c8f75f7613dc4a377d7a8255e11d762184fa61ab4a8d",
+      "ja_text_bytes": 2191,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-7",
+      "article_number": "145-7",
+      "filename": "houjin-zei-hou-shikkourei-article-145-7.md",
+      "ja_text_sha256": "f1ea97fdbf515ce7a24a099e15e8b3d9aca251a02732dfbf008c45c52e4c2927",
+      "ja_text_bytes": 825,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-8",
+      "article_number": "145-8",
+      "filename": "houjin-zei-hou-shikkourei-article-145-8.md",
+      "ja_text_sha256": "6ab9fa0465697b074badea6fc92b9435f4bf80ae5e928ff36b52b605016f1bdf",
+      "ja_text_bytes": 335,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145-9",
+      "article_number": "145-9",
+      "filename": "houjin-zei-hou-shikkourei-article-145-9.md",
+      "ja_text_sha256": "b2dac1ddf4ce8e5dd0c38ac9d09d4821012f516e3741b838401420fef6b5d1d7",
+      "ja_text_bytes": 506,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-145",
+      "article_number": "145",
+      "filename": "houjin-zei-hou-shikkourei-article-145.md",
+      "ja_text_sha256": "678e2f6d157b052abc04aa334955b27fa842ab21d80d9562fb74f14080c73002",
+      "ja_text_bytes": 3438,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-146",
+      "article_number": "146",
+      "filename": "houjin-zei-hou-shikkourei-article-146.md",
+      "ja_text_sha256": "6bb469c5a586edf99c3ddd988dcf436b9efcd24c70a4b13226283dff483c6162",
+      "ja_text_bytes": 14182,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-147",
+      "article_number": "147",
+      "filename": "houjin-zei-hou-shikkourei-article-147.md",
+      "ja_text_sha256": "f6cbd7451b85d2b671e2ed2a19f5d9f84c02449bcae59c103e3e4741ce68d2b1",
+      "ja_text_bytes": 7118,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-148",
+      "article_number": "148",
+      "filename": "houjin-zei-hou-shikkourei-article-148.md",
+      "ja_text_sha256": "8c066fdb30061cf37d744111fa76f4f2512a8927758427fd745d1f150ade6f04",
+      "ja_text_bytes": 5848,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-149",
+      "article_number": "149",
+      "filename": "houjin-zei-hou-shikkourei-article-149.md",
+      "ja_text_sha256": "e552fed0e212fef6818b457cf60528e7ebfc8d121eb6957155943db861e4bc0b",
+      "ja_text_bytes": 1108,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-15",
+      "article_number": "15",
+      "filename": "houjin-zei-hou-shikkourei-article-15.md",
+      "ja_text_sha256": "c67312a46cbf2efb67da38af0701ad37e71421d387d8e7e9eeaca14656d01e26",
+      "ja_text_bytes": 1818,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-150-2",
+      "article_number": "150-2",
+      "filename": "houjin-zei-hou-shikkourei-article-150-2.md",
+      "ja_text_sha256": "74ec5b0a7ed2cfe0806756573bbdd7b282288388f5e70c8bac1ee1297d73025b",
+      "ja_text_bytes": 4349,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-150-3",
+      "article_number": "150-3",
+      "filename": "houjin-zei-hou-shikkourei-article-150-3.md",
+      "ja_text_sha256": "a1bcbed75080ca3e85bcd62811f4f9e4f291e88dc3e540e9fac4d5c76b2e6eca",
+      "ja_text_bytes": 2253,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-150-4",
+      "article_number": "150-4",
+      "filename": "houjin-zei-hou-shikkourei-article-150-4.md",
+      "ja_text_sha256": "cad4d5b76e6ef7832c2ee29994536479c63a7e87f713334b37e55d63d2b808f7",
+      "ja_text_bytes": 581,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-150",
+      "article_number": "150",
+      "filename": "houjin-zei-hou-shikkourei-article-150.md",
+      "ja_text_sha256": "65e7033f920dec88be5051472428143b856012495d119f589a5c077603261e8d",
+      "ja_text_bytes": 72,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-151",
+      "article_number": "151",
+      "filename": "houjin-zei-hou-shikkourei-article-151.md",
+      "ja_text_sha256": "2532e0ce84a3982a3a94883267171defd49b6504f6b293fedf51664fe22dadca",
+      "ja_text_bytes": 621,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-152",
+      "article_number": "152",
+      "filename": "houjin-zei-hou-shikkourei-article-152.md",
+      "ja_text_sha256": "0f05387c169bc05cdff54af238e24d9abd761ce510c969ffd1c9f340462fa772",
+      "ja_text_bytes": 336,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-153",
+      "article_number": "153",
+      "filename": "houjin-zei-hou-shikkourei-article-153.md",
+      "ja_text_sha256": "2fba51be23a9a15d6ed50e89d7fe43c65bf6fdfeb44c0654cca5fa2c258f5241",
+      "ja_text_bytes": 492,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-154",
+      "article_number": "154",
+      "filename": "houjin-zei-hou-shikkourei-article-154.md",
+      "ja_text_sha256": "98262a27eeb454cff524e18a59ea1e09b9e5e7940d0cca0e4ab0e158c902be56",
+      "ja_text_bytes": 1025,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-10",
+      "article_number": "155-10",
+      "filename": "houjin-zei-hou-shikkourei-article-155-10.md",
+      "ja_text_sha256": "e49b01f55871540328910899f2c8f7f2ebd06e9b70aa57adfe75fcd8b785ec52",
+      "ja_text_bytes": 1010,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-11",
+      "article_number": "155-11",
+      "filename": "houjin-zei-hou-shikkourei-article-155-11.md",
+      "ja_text_sha256": "8ac60311f70bcc89f5771dc192b5523cd71cbe080e299747fa9cb23d375187cc",
+      "ja_text_bytes": 1492,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-12",
+      "article_number": "155-12",
+      "filename": "houjin-zei-hou-shikkourei-article-155-12.md",
+      "ja_text_sha256": "23620ca4fe5570dbb645afbf1ca48e201dbcf86772a1bca0093a9515f75bd243",
+      "ja_text_bytes": 1822,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-13",
+      "article_number": "155-13",
+      "filename": "houjin-zei-hou-shikkourei-article-155-13.md",
+      "ja_text_sha256": "b6fd4f63243ef75b5fdf6226458c3e7e1d2a21ec91de3165cba911314fcefff4",
+      "ja_text_bytes": 3793,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-14",
+      "article_number": "155-14",
+      "filename": "houjin-zei-hou-shikkourei-article-155-14.md",
+      "ja_text_sha256": "62ec0078ffceac406ba926ef8b372e5785bed73947aaf358826afcc8aa81aff0",
+      "ja_text_bytes": 510,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-15",
+      "article_number": "155-15",
+      "filename": "houjin-zei-hou-shikkourei-article-155-15.md",
+      "ja_text_sha256": "acab1720582bdfc0702c3c44e28e7582eaeae52df189facf55d2d4cfe743d02b",
+      "ja_text_bytes": 528,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-16",
+      "article_number": "155-16",
+      "filename": "houjin-zei-hou-shikkourei-article-155-16.md",
+      "ja_text_sha256": "6ec95975920b8e132955c79a3f8019272b7d4ac74fe86fafb490520d8f5a8707",
+      "ja_text_bytes": 13538,
+      "paragraph_count": 15
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-17",
+      "article_number": "155-17",
+      "filename": "houjin-zei-hou-shikkourei-article-155-17.md",
+      "ja_text_sha256": "65f2cc6c1c691a2dada22feeca357e456daf3af5e49e58fefba56037cc89da28",
+      "ja_text_bytes": 4905,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-18",
+      "article_number": "155-18",
+      "filename": "houjin-zei-hou-shikkourei-article-155-18.md",
+      "ja_text_sha256": "edb45a566b24b63a19c58001a548e4cdd4d78717fcefd5db78646936504be0b1",
+      "ja_text_bytes": 3416,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-19",
+      "article_number": "155-19",
+      "filename": "houjin-zei-hou-shikkourei-article-155-19.md",
+      "ja_text_sha256": "434c8af2d9e676b6c51d370a0a42931925b460d1314ffc1c42d1993dee0cba50",
+      "ja_text_bytes": 4487,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-2",
+      "article_number": "155-2",
+      "filename": "houjin-zei-hou-shikkourei-article-155-2.md",
+      "ja_text_sha256": "7fed702e13ae59a710e719a5ca1c076cb973e9eba31ed88d72c3d226dee1133d",
+      "ja_text_bytes": 1403,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-20",
+      "article_number": "155-20",
+      "filename": "houjin-zei-hou-shikkourei-article-155-20.md",
+      "ja_text_sha256": "dc00a9ce56ffc2f60621fff3e3997528a4d037293ad24ae595bc8f530625d6df",
+      "ja_text_bytes": 4810,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-21",
+      "article_number": "155-21",
+      "filename": "houjin-zei-hou-shikkourei-article-155-21.md",
+      "ja_text_sha256": "318dcc3ff8f8f51a7a41e2e9cf58dcbaef576d2c42976cb095e886c529291565",
+      "ja_text_bytes": 1238,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-22",
+      "article_number": "155-22",
+      "filename": "houjin-zei-hou-shikkourei-article-155-22.md",
+      "ja_text_sha256": "33febab1efb4d9234539447af12cb42a7f7207849ad2d8517a6a80b735042797",
+      "ja_text_bytes": 3169,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-23",
+      "article_number": "155-23",
+      "filename": "houjin-zei-hou-shikkourei-article-155-23.md",
+      "ja_text_sha256": "b9317f72ab697526e4eed91d507f1aff64c9dc0d4417ba8fd4c9f3455b462418",
+      "ja_text_bytes": 5733,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-24-2",
+      "article_number": "155-24-2",
+      "filename": "houjin-zei-hou-shikkourei-article-155-24-2.md",
+      "ja_text_sha256": "b01e1780138a4571ecca3e21df385e4b727d7391ba51b167d08d97f2af5a878f",
+      "ja_text_bytes": 6094,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-24",
+      "article_number": "155-24",
+      "filename": "houjin-zei-hou-shikkourei-article-155-24.md",
+      "ja_text_sha256": "819322acc3032a2ecc5a1b77a6417ab16816ea65380ef48449478e3848bb8519",
+      "ja_text_bytes": 8459,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-25",
+      "article_number": "155-25",
+      "filename": "houjin-zei-hou-shikkourei-article-155-25.md",
+      "ja_text_sha256": "55d6d1f1be4adfb88e78d4fa0c986192c9e367f375ee3fee4d9bad0f48f2cf1e",
+      "ja_text_bytes": 4511,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-26",
+      "article_number": "155-26",
+      "filename": "houjin-zei-hou-shikkourei-article-155-26.md",
+      "ja_text_sha256": "cd71e8fe762742af13bec2b71c3c89914923d8b2add360a35b594c4d12afc51e",
+      "ja_text_bytes": 3341,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-27",
+      "article_number": "155-27",
+      "filename": "houjin-zei-hou-shikkourei-article-155-27.md",
+      "ja_text_sha256": "d2e9a948c6da12e92b7e7c29d3c5c74414225fb1dd4a5d37323a4cbbfa6885a9",
+      "ja_text_bytes": 3122,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-28",
+      "article_number": "155-28",
+      "filename": "houjin-zei-hou-shikkourei-article-155-28.md",
+      "ja_text_sha256": "3c7cc475da8d0fc1c77ea5a7bc0d86f724b4f8eee8954bea6903f578a3467de5",
+      "ja_text_bytes": 1982,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-29",
+      "article_number": "155-29",
+      "filename": "houjin-zei-hou-shikkourei-article-155-29.md",
+      "ja_text_sha256": "1ad55f5309a695d0410b081abe6cfe691c02f8a7ea56534fc981ef747b978ab1",
+      "ja_text_bytes": 1715,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-3",
+      "article_number": "155-3",
+      "filename": "houjin-zei-hou-shikkourei-article-155-3.md",
+      "ja_text_sha256": "0ecbdd1e717db1b61e85585b6d108eb8c8730b74ab11b5f4b4ad1a8da1412642",
+      "ja_text_bytes": 2121,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-30",
+      "article_number": "155-30",
+      "filename": "houjin-zei-hou-shikkourei-article-155-30.md",
+      "ja_text_sha256": "30923d1e23f2a6817b0c9fdc652ea6580d68aac55c61370e5a9935963026c819",
+      "ja_text_bytes": 2074,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-31",
+      "article_number": "155-31",
+      "filename": "houjin-zei-hou-shikkourei-article-155-31.md",
+      "ja_text_sha256": "d083d1c61c14e85b7bba52d97af544d3b488131a972b82ded2b1dee5c33d6cc8",
+      "ja_text_bytes": 3943,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-32",
+      "article_number": "155-32",
+      "filename": "houjin-zei-hou-shikkourei-article-155-32.md",
+      "ja_text_sha256": "573aed50e7d7b02a5f8851c909737c9ff491a236a3bbe359a580beab4b812609",
+      "ja_text_bytes": 2964,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-33",
+      "article_number": "155-33",
+      "filename": "houjin-zei-hou-shikkourei-article-155-33.md",
+      "ja_text_sha256": "3ab1c54c82f41dca773e5e4c72f28f52abdcd0aca6a5ae10867e1bcb0499cf01",
+      "ja_text_bytes": 2692,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-34",
+      "article_number": "155-34",
+      "filename": "houjin-zei-hou-shikkourei-article-155-34.md",
+      "ja_text_sha256": "7f58b3660f027d760df9ebed03a40da47025b316ce487dbb91d80a1d61e86a48",
+      "ja_text_bytes": 362,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-35-2",
+      "article_number": "155-35-2",
+      "filename": "houjin-zei-hou-shikkourei-article-155-35-2.md",
+      "ja_text_sha256": "89c0d302e4fbc999012aa3a7a1de3b1703760788d65e82f0a560e92c8a090039",
+      "ja_text_bytes": 2374,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-35",
+      "article_number": "155-35",
+      "filename": "houjin-zei-hou-shikkourei-article-155-35.md",
+      "ja_text_sha256": "bb5ad0e9319e99e5d95aa2d3a079089dac84c9876973150268a2aa4d25e5bde2",
+      "ja_text_bytes": 7981,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-36",
+      "article_number": "155-36",
+      "filename": "houjin-zei-hou-shikkourei-article-155-36.md",
+      "ja_text_sha256": "09bc1b70a30147f39ed263440c7ac660f4586a7a68302a1ae473d2bf893d4cb0",
+      "ja_text_bytes": 1193,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-37",
+      "article_number": "155-37",
+      "filename": "houjin-zei-hou-shikkourei-article-155-37.md",
+      "ja_text_sha256": "1e4b2301daabd5704ca7b3a422349b4f4f539eee92d898c1bd4f2f02eaa441f8",
+      "ja_text_bytes": 10768,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-38",
+      "article_number": "155-38",
+      "filename": "houjin-zei-hou-shikkourei-article-155-38.md",
+      "ja_text_sha256": "461238b2bd70c96cfe19f77b86d3678a2e85b0dc60b884144eb8abd16a1f829a",
+      "ja_text_bytes": 3420,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-39",
+      "article_number": "155-39",
+      "filename": "houjin-zei-hou-shikkourei-article-155-39.md",
+      "ja_text_sha256": "dab11f9026d5b963bf9e0b21053fb4b732f46b9c5d16ed6b717014e47a9fd477",
+      "ja_text_bytes": 684,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-4",
+      "article_number": "155-4",
+      "filename": "houjin-zei-hou-shikkourei-article-155-4.md",
+      "ja_text_sha256": "2050d6b46bddb048f3b3177f3fe1b60beb524ba307d0220e99bd7183ab246e5d",
+      "ja_text_bytes": 1270,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-40",
+      "article_number": "155-40",
+      "filename": "houjin-zei-hou-shikkourei-article-155-40.md",
+      "ja_text_sha256": "40c66e0cd461c40b5a1745d3563481b4ae815a2b6571fcbb80b58aaaf4300754",
+      "ja_text_bytes": 1763,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-41",
+      "article_number": "155-41",
+      "filename": "houjin-zei-hou-shikkourei-article-155-41.md",
+      "ja_text_sha256": "03ec56b8f579328af43cd4f7a98d93ac2fce9f4fce2394da209fc51755d969f1",
+      "ja_text_bytes": 5555,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-42-2",
+      "article_number": "155-42-2",
+      "filename": "houjin-zei-hou-shikkourei-article-155-42-2.md",
+      "ja_text_sha256": "bb4a5e0a2b1cfda139d1a211f821162859277fd0fa01535f6be84372d176261a",
+      "ja_text_bytes": 4954,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-42",
+      "article_number": "155-42",
+      "filename": "houjin-zei-hou-shikkourei-article-155-42.md",
+      "ja_text_sha256": "fb80ccdacdf86bc9aea3c59ba114c3a2610dc3bf2afd639392db9f564b07e58d",
+      "ja_text_bytes": 1654,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-43",
+      "article_number": "155-43",
+      "filename": "houjin-zei-hou-shikkourei-article-155-43.md",
+      "ja_text_sha256": "c647887f87cf6ab9952b8cf3cc4d9d2c87c663e888f45b7ac550a05ba6e4fd49",
+      "ja_text_bytes": 570,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-44",
+      "article_number": "155-44",
+      "filename": "houjin-zei-hou-shikkourei-article-155-44.md",
+      "ja_text_sha256": "3ff5a00934ec6a2fb67ef8f5efadc66c095edaa4e3cd40cc46b0783c2cabccb9",
+      "ja_text_bytes": 8157,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-45",
+      "article_number": "155-45",
+      "filename": "houjin-zei-hou-shikkourei-article-155-45.md",
+      "ja_text_sha256": "14b0da25ec1e7782259329cd3cfd50c1ae4d5b583916fd5b3e82e30d5e2893a7",
+      "ja_text_bytes": 318,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-46",
+      "article_number": "155-46",
+      "filename": "houjin-zei-hou-shikkourei-article-155-46.md",
+      "ja_text_sha256": "b6312306f362ef7b42c099e1b67fff436d4520001377ee24f9cba06cbaa21e51",
+      "ja_text_bytes": 2442,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-47",
+      "article_number": "155-47",
+      "filename": "houjin-zei-hou-shikkourei-article-155-47.md",
+      "ja_text_sha256": "6b2ed6e327b8191dcae5573a01046587cf03b1242f7df95ec2aeb1e6300a0979",
+      "ja_text_bytes": 684,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-48",
+      "article_number": "155-48",
+      "filename": "houjin-zei-hou-shikkourei-article-155-48.md",
+      "ja_text_sha256": "d06d7a896799a809eb1c29001f56b36bbb2563718709ee1f0e3d9c8678440add",
+      "ja_text_bytes": 4591,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-49-2",
+      "article_number": "155-49-2",
+      "filename": "houjin-zei-hou-shikkourei-article-155-49-2.md",
+      "ja_text_sha256": "091a88c179e020696799307d099ec871fef10e8926edcae639506bc40b842000",
+      "ja_text_bytes": 3224,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-49",
+      "article_number": "155-49",
+      "filename": "houjin-zei-hou-shikkourei-article-155-49.md",
+      "ja_text_sha256": "102b22cfd12e47dd4c5c2e3ed9f71d3b6b8b1db0129db3c4acd74bb082363b8f",
+      "ja_text_bytes": 2604,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-5",
+      "article_number": "155-5",
+      "filename": "houjin-zei-hou-shikkourei-article-155-5.md",
+      "ja_text_sha256": "e7b29b455ac5162d24657d92623ad16c75ddc291d48efe933f76e72dfa90986e",
+      "ja_text_bytes": 521,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-50",
+      "article_number": "155-50",
+      "filename": "houjin-zei-hou-shikkourei-article-155-50.md",
+      "ja_text_sha256": "d58bb8554ae70cb37ed5df059402f028b59e07d855888180363c87003027fa6b",
+      "ja_text_bytes": 570,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-51",
+      "article_number": "155-51",
+      "filename": "houjin-zei-hou-shikkourei-article-155-51.md",
+      "ja_text_sha256": "f9fdba3e38177a59d66cdd4b632339846ad7c3431014ba372e9e3830a09277ab",
+      "ja_text_bytes": 3050,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-52",
+      "article_number": "155-52",
+      "filename": "houjin-zei-hou-shikkourei-article-155-52.md",
+      "ja_text_sha256": "8f040a1c475afc35c1c31b722c088c31eafe506b3c9da4e28487694d1496746f",
+      "ja_text_bytes": 324,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-53",
+      "article_number": "155-53",
+      "filename": "houjin-zei-hou-shikkourei-article-155-53.md",
+      "ja_text_sha256": "7761babddd7e2534bf3a97a21b6724fde9c708061eb3c39c6627bbdda5ae8e80",
+      "ja_text_bytes": 5686,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-54",
+      "article_number": "155-54",
+      "filename": "houjin-zei-hou-shikkourei-article-155-54.md",
+      "ja_text_sha256": "123861fd3cf00b1208602b193b11bcf73801313f4e45b638a47198e7bba246c5",
+      "ja_text_bytes": 721,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-55",
+      "article_number": "155-55",
+      "filename": "houjin-zei-hou-shikkourei-article-155-55.md",
+      "ja_text_sha256": "5ab3ff6eaa7d0344d19579a717d7fb4cdbcea6ee260ffe640e1c3df940fc63ce",
+      "ja_text_bytes": 4738,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-56",
+      "article_number": "155-56",
+      "filename": "houjin-zei-hou-shikkourei-article-155-56.md",
+      "ja_text_sha256": "a756493712998c0695f1ffeab394dcdd2ed80e40ad71850e95c4a7cfe87f5e5f",
+      "ja_text_bytes": 1311,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-57",
+      "article_number": "155-57",
+      "filename": "houjin-zei-hou-shikkourei-article-155-57.md",
+      "ja_text_sha256": "6326fae886fd9eaf0f48af94e5afd959f6a81520f4388bcfa501b065ad8f6593",
+      "ja_text_bytes": 666,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-58",
+      "article_number": "155-58",
+      "filename": "houjin-zei-hou-shikkourei-article-155-58.md",
+      "ja_text_sha256": "0257f8cd84b986cec6153a577b2341fe458f9bab4c00bcb456d27a68afe254d9",
+      "ja_text_bytes": 354,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-59",
+      "article_number": "155-59",
+      "filename": "houjin-zei-hou-shikkourei-article-155-59.md",
+      "ja_text_sha256": "c0ecbb820fac2211367df65b3462325116d8199781716161b1bdecf0badcd99a",
+      "ja_text_bytes": 4918,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-6",
+      "article_number": "155-6",
+      "filename": "houjin-zei-hou-shikkourei-article-155-6.md",
+      "ja_text_sha256": "5136f9f0962d89d32196463d625aeea4492a3af59beeb5580a430a94c24dcf3b",
+      "ja_text_bytes": 1401,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-60",
+      "article_number": "155-60",
+      "filename": "houjin-zei-hou-shikkourei-article-155-60.md",
+      "ja_text_sha256": "c9d036ebf21155fe8fecaa037d4f689e9ecc9d68ea8cc014c626c0a393621e3b",
+      "ja_text_bytes": 357,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-61",
+      "article_number": "155-61",
+      "filename": "houjin-zei-hou-shikkourei-article-155-61.md",
+      "ja_text_sha256": "78fa5bbdb5c4b50f1b022e3e5446ab545357fb9ae223bd5fa1771f6f0bacda9f",
+      "ja_text_bytes": 2635,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-62",
+      "article_number": "155-62",
+      "filename": "houjin-zei-hou-shikkourei-article-155-62.md",
+      "ja_text_sha256": "84d115e0b097385af9ce0d80f99d39eed5d2f8cadc898393a13150982036396c",
+      "ja_text_bytes": 572,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-63",
+      "article_number": "155-63",
+      "filename": "houjin-zei-hou-shikkourei-article-155-63.md",
+      "ja_text_sha256": "446c91b86c401d02f9d92b0fd89e39ed554581205a5fe2ed3a793e5bb2b2a9bf",
+      "ja_text_bytes": 711,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-64",
+      "article_number": "155-64",
+      "filename": "houjin-zei-hou-shikkourei-article-155-64.md",
+      "ja_text_sha256": "3c9c59446001cff0ac805943ecd069b15b7b4e2b19ae581a9f6c8cb90b348b4c",
+      "ja_text_bytes": 1598,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-65",
+      "article_number": "155-65",
+      "filename": "houjin-zei-hou-shikkourei-article-155-65.md",
+      "ja_text_sha256": "e61f55466e45d68d86801560689c02a1bd6a896d65888808c0219cac3418c1ea",
+      "ja_text_bytes": 5549,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-66",
+      "article_number": "155-66",
+      "filename": "houjin-zei-hou-shikkourei-article-155-66.md",
+      "ja_text_sha256": "b42b2b139b6356c747b03063c4d40fdc100c852024640beac0ed5c650e5e7489",
+      "ja_text_bytes": 581,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-67",
+      "article_number": "155-67",
+      "filename": "houjin-zei-hou-shikkourei-article-155-67.md",
+      "ja_text_sha256": "00e62c0762ef8a8b6c2ce3e406d1dea2f35f4208a09e3a8076798cb36e5152a2",
+      "ja_text_bytes": 795,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-68-2",
+      "article_number": "155-68-2",
+      "filename": "houjin-zei-hou-shikkourei-article-155-68-2.md",
+      "ja_text_sha256": "63ab89b71700be0a165a388377457f9c9b9a9cd8b937f173acbffa4cf207fc34",
+      "ja_text_bytes": 5051,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-68",
+      "article_number": "155-68",
+      "filename": "houjin-zei-hou-shikkourei-article-155-68.md",
+      "ja_text_sha256": "36c347ea2b54ffea484d9eba54309239978b33ed462facb07f07548446c5ac04",
+      "ja_text_bytes": 378,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-69",
+      "article_number": "155-69",
+      "filename": "houjin-zei-hou-shikkourei-article-155-69.md",
+      "ja_text_sha256": "d190a2f945cc4792f74e1a1e72ad5a1147b03533167037ae041887701247c408",
+      "ja_text_bytes": 429,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-7",
+      "article_number": "155-7",
+      "filename": "houjin-zei-hou-shikkourei-article-155-7.md",
+      "ja_text_sha256": "2b7e3cdef5a5d4af22971aff486e0b767cf2a709ae6174987c33d8eb4318ae39",
+      "ja_text_bytes": 197,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-70",
+      "article_number": "155-70",
+      "filename": "houjin-zei-hou-shikkourei-article-155-70.md",
+      "ja_text_sha256": "04b6d490241972047a3226336e0aae86c329455f12f8946a3eed72797e2d3eae",
+      "ja_text_bytes": 2752,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-71",
+      "article_number": "155-71",
+      "filename": "houjin-zei-hou-shikkourei-article-155-71.md",
+      "ja_text_sha256": "4b7cf45e3d38293938f5aedf2a8b6d277486fd6223ea3dfbc3feab8fe963af37",
+      "ja_text_bytes": 572,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-72",
+      "article_number": "155-72",
+      "filename": "houjin-zei-hou-shikkourei-article-155-72.md",
+      "ja_text_sha256": "e92637c7e22af93dab95d9a8a0078744ec543512ac30244323b66e07072fe850",
+      "ja_text_bytes": 711,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-73",
+      "article_number": "155-73",
+      "filename": "houjin-zei-hou-shikkourei-article-155-73.md",
+      "ja_text_sha256": "2b8f6facdf70a29d75147fdfea3ee1872668f297db97dcc79ff3e53d8ac053c4",
+      "ja_text_bytes": 4906,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-74",
+      "article_number": "155-74",
+      "filename": "houjin-zei-hou-shikkourei-article-155-74.md",
+      "ja_text_sha256": "824f69340b397864423f5094019b49b54afb992d8da6fc9f959b657a0e0f614a",
+      "ja_text_bytes": 581,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-75",
+      "article_number": "155-75",
+      "filename": "houjin-zei-hou-shikkourei-article-155-75.md",
+      "ja_text_sha256": "540ea56ac96f3b4bf4e9182e26ce8221f518f6c45da86c99f226bca87a5eb262",
+      "ja_text_bytes": 1020,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-76-2",
+      "article_number": "155-76-2",
+      "filename": "houjin-zei-hou-shikkourei-article-155-76-2.md",
+      "ja_text_sha256": "ad5ceea5e4a1900c585e1d67508481618185ea5d3fa94704dac57d6a4bb96b35",
+      "ja_text_bytes": 3200,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-76",
+      "article_number": "155-76",
+      "filename": "houjin-zei-hou-shikkourei-article-155-76.md",
+      "ja_text_sha256": "182c13d24ae30828698f68e2440da383cb0a30c0aa6ef0b7c74edda312a111b8",
+      "ja_text_bytes": 378,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-77",
+      "article_number": "155-77",
+      "filename": "houjin-zei-hou-shikkourei-article-155-77.md",
+      "ja_text_sha256": "afd6a0f8e226894203c01e1723068e08569aece59af67532cf3a86fc3fa7677c",
+      "ja_text_bytes": 429,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-78",
+      "article_number": "155-78",
+      "filename": "houjin-zei-hou-shikkourei-article-155-78.md",
+      "ja_text_sha256": "2e751f4907296fcfb94f44286be910a80fd4a121d1a3dc2fce076bfa08539cda",
+      "ja_text_bytes": 4699,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-79",
+      "article_number": "155-79",
+      "filename": "houjin-zei-hou-shikkourei-article-155-79.md",
+      "ja_text_sha256": "5d905a7ce852a68a2f6d743cc5b9a49e53e8ad71c411a6fe2bed26f2afb74dd7",
+      "ja_text_bytes": 4070,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-8",
+      "article_number": "155-8",
+      "filename": "houjin-zei-hou-shikkourei-article-155-8.md",
+      "ja_text_sha256": "0a535d8be59e61fdd0eff2594ce2310ec07703f8464fc2e7d7e65058b58afdd6",
+      "ja_text_bytes": 353,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-80",
+      "article_number": "155-80",
+      "filename": "houjin-zei-hou-shikkourei-article-155-80.md",
+      "ja_text_sha256": "eba8e134f671f8c759f8ec9facf697c869cf6e17a7a91e7d71334d775c09c21e",
+      "ja_text_bytes": 2478,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-81",
+      "article_number": "155-81",
+      "filename": "houjin-zei-hou-shikkourei-article-155-81.md",
+      "ja_text_sha256": "cd52b1e75d816338b884a8475686ea3531f5ab0f028bcdff6b8cca8e0ebd4f1f",
+      "ja_text_bytes": 612,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155-9",
+      "article_number": "155-9",
+      "filename": "houjin-zei-hou-shikkourei-article-155-9.md",
+      "ja_text_sha256": "961da276db1fdf9b2f24dfb29171d75263cd8b3cb6ed5998c6170dd9b70e6e1d",
+      "ja_text_bytes": 203,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-155",
+      "article_number": "155",
+      "filename": "houjin-zei-hou-shikkourei-article-155.md",
+      "ja_text_sha256": "36269be0f19e97b9aa3785e06dbabe503800c37b7cd7a77de2422cdba396665f",
+      "ja_text_bytes": 1028,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-156-2",
+      "article_number": "156-2",
+      "filename": "houjin-zei-hou-shikkourei-article-156-2.md",
+      "ja_text_sha256": "6ff730d2f33fb5ed199ff6ef1d256d50782d5f5432e80b4cebed16463815c14e",
+      "ja_text_bytes": 191,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-156-3",
+      "article_number": "156-3",
+      "filename": "houjin-zei-hou-shikkourei-article-156-3.md",
+      "ja_text_sha256": "aae5dfe8fe2de68ea0b5e6f174061311cd6d554d68096e2169614e4a8799fc4b",
+      "ja_text_bytes": 919,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-156-4",
+      "article_number": "156-4",
+      "filename": "houjin-zei-hou-shikkourei-article-156-4.md",
+      "ja_text_sha256": "3d0d7dad76027a662c7a9c9f9efcb2bdc33fdbed358f267222b2a7987992a881",
+      "ja_text_bytes": 2455,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-156",
+      "article_number": "156",
+      "filename": "houjin-zei-hou-shikkourei-article-156.md",
+      "ja_text_sha256": "de43b9891c476398c0678d008ef4c18d862d9b77ad973bb9ca214fb1c42681d0",
+      "ja_text_bytes": 357,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-157",
+      "article_number": "157",
+      "filename": "houjin-zei-hou-shikkourei-article-157.md",
+      "ja_text_sha256": "485467748e836463109082dd1077ff2055d58ed3b5cf84335b4d4f7dbaca4c6b",
+      "ja_text_bytes": 4019,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-158",
+      "article_number": "158",
+      "filename": "houjin-zei-hou-shikkourei-article-158.md",
+      "ja_text_sha256": "a9fa5e65688afb919987511076b216260365fc0771e9c0b9b428fa084762292e",
+      "ja_text_bytes": 2666,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-159",
+      "article_number": "159",
+      "filename": "houjin-zei-hou-shikkourei-article-159.md",
+      "ja_text_sha256": "440adace1c4034e1493265974e774c4528c43f594ff7f786c29ea6bb94b0529b",
+      "ja_text_bytes": 2690,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-16",
+      "article_number": "16",
+      "filename": "houjin-zei-hou-shikkourei-article-16.md",
+      "ja_text_sha256": "152cc4d0158c954c43f6c2a809ab566b636b1120aa17986ea3f16b129fc787de",
+      "ja_text_bytes": 263,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-160",
+      "article_number": "160",
+      "filename": "houjin-zei-hou-shikkourei-article-160.md",
+      "ja_text_sha256": "d9dca3d977416b983e6c0c1993a42e0a2d3ab56b1ab15a201d31857b6bfc68d5",
+      "ja_text_bytes": 2187,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-161",
+      "article_number": "161",
+      "filename": "houjin-zei-hou-shikkourei-article-161.md",
+      "ja_text_sha256": "b8eefb32ef0b76550020aa4200ff2959a1e11e1a2703cae58bc667c0288daaba",
+      "ja_text_bytes": 1890,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-162",
+      "article_number": "162",
+      "filename": "houjin-zei-hou-shikkourei-article-162.md",
+      "ja_text_sha256": "220e8180e82806559d4bb8d90c4d7313b2f08ba4d96be6ed13e40489d02caddf",
+      "ja_text_bytes": 1417,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-163",
+      "article_number": "163",
+      "filename": "houjin-zei-hou-shikkourei-article-163.md",
+      "ja_text_sha256": "83a72ba6bc9dc15e6fb53247624bf7c9410260a6294db8d2badf454062f52dc4",
+      "ja_text_bytes": 1680,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-164",
+      "article_number": "164",
+      "filename": "houjin-zei-hou-shikkourei-article-164.md",
+      "ja_text_sha256": "b9f1a546646596b7735ea5a6590aec1bbbfe89ab306b0ec5fc6bafb0c8460d54",
+      "ja_text_bytes": 348,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-165",
+      "article_number": "165",
+      "filename": "houjin-zei-hou-shikkourei-article-165.md",
+      "ja_text_sha256": "d0ff8baeaa2ebb09fb541677fb4288cbdbd84abc1288168cbe4e74604e06b614",
+      "ja_text_bytes": 351,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-166",
+      "article_number": "166",
+      "filename": "houjin-zei-hou-shikkourei-article-166.md",
+      "ja_text_sha256": "4bc2b9a32f8a45739fe5fd1ca5f999d1bde60742a8b927bed8e468f603f7c035",
+      "ja_text_bytes": 1286,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-167",
+      "article_number": "167",
+      "filename": "houjin-zei-hou-shikkourei-article-167.md",
+      "ja_text_sha256": "205df41f87e192ee3b834a1ed9c9278979aac5822004fca0bf0a411f8310c0ef",
+      "ja_text_bytes": 1635,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-168",
+      "article_number": "168",
+      "filename": "houjin-zei-hou-shikkourei-article-168.md",
+      "ja_text_sha256": "755402871f0caa5e55397978c01f1b4c06269bedc43ec59eb40262efe8a50f5a",
+      "ja_text_bytes": 354,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-169",
+      "article_number": "169",
+      "filename": "houjin-zei-hou-shikkourei-article-169.md",
+      "ja_text_sha256": "a35d68c259d67fc3e3a9d2ce6cd3585986b8083bab2a2f249070a97f250c1c0a",
+      "ja_text_bytes": 249,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-17",
+      "article_number": "17",
+      "filename": "houjin-zei-hou-shikkourei-article-17.md",
+      "ja_text_sha256": "04e3bf16a9d01ef9a34d3c09c8c2997bdb097bea3c35f8ab1e84e45d93d30b17",
+      "ja_text_bytes": 515,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-173-2",
+      "article_number": "173-2",
+      "filename": "houjin-zei-hou-shikkourei-article-173-2.md",
+      "ja_text_sha256": "eac191d3f8759655e5aff4f0f1365622e17cb52041e04d188d752e7623ce15da",
+      "ja_text_bytes": 395,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-173",
+      "article_number": "173",
+      "filename": "houjin-zei-hou-shikkourei-article-173.md",
+      "ja_text_sha256": "59c0a622bc8ad34189e1fa136d818ec7a88abb8c45e078e0eecc14fd2d324568",
+      "ja_text_bytes": 315,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-174",
+      "article_number": "174",
+      "filename": "houjin-zei-hou-shikkourei-article-174.md",
+      "ja_text_sha256": "99e325c7963d4719a5da24d057053f9d3b9c89189ba08363d059ec7c737a69c6",
+      "ja_text_bytes": 2046,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-175",
+      "article_number": "175",
+      "filename": "houjin-zei-hou-shikkourei-article-175.md",
+      "ja_text_sha256": "0451f1515191227dc777c3884f2bd3982776fad9b0cdfea30e7ae0a6a709de44",
+      "ja_text_bytes": 671,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-176",
+      "article_number": "176",
+      "filename": "houjin-zei-hou-shikkourei-article-176.md",
+      "ja_text_sha256": "bc64256206d163a537d519f2d78e388a7da3d916990c672b98bba69c50d145ac",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-177",
+      "article_number": "177",
+      "filename": "houjin-zei-hou-shikkourei-article-177.md",
+      "ja_text_sha256": "82e0ec72bbbe348b9851dc0abdf6f93ad9e1140dfe6186516b352beca5c4d744",
+      "ja_text_bytes": 659,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-178",
+      "article_number": "178",
+      "filename": "houjin-zei-hou-shikkourei-article-178.md",
+      "ja_text_sha256": "dea4fb60733445da0dd7a3a9d312b8917bd1bd429ba005b8d3f372818e26c47f",
+      "ja_text_bytes": 3904,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-179",
+      "article_number": "179",
+      "filename": "houjin-zei-hou-shikkourei-article-179.md",
+      "ja_text_sha256": "0b76b09a4fe65a1ec428162053c1cf68d21ee0340317f0db26ac7f2fd6dfaf62",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-18-2",
+      "article_number": "18-2",
+      "filename": "houjin-zei-hou-shikkourei-article-18-2.md",
+      "ja_text_sha256": "ef7cffde0680dcf7edc48eddb714377da1f8e78e8de5eac83ba7b69c1e422fe3",
+      "ja_text_bytes": 4474,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-18",
+      "article_number": "18",
+      "filename": "houjin-zei-hou-shikkourei-article-18.md",
+      "ja_text_sha256": "258571f662caf3267a2cc437fc1525e8fbce15de1332c0b3c436725a4930b7e8",
+      "ja_text_bytes": 299,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-180",
+      "article_number": "180",
+      "filename": "houjin-zei-hou-shikkourei-article-180.md",
+      "ja_text_sha256": "8898a550cfca41c69fa924c638471596b0b3878133478a03a83861fa46b2d240",
+      "ja_text_bytes": 216,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-181",
+      "article_number": "181",
+      "filename": "houjin-zei-hou-shikkourei-article-181.md",
+      "ja_text_sha256": "9aae885c7a65f65c901e15d47c55c8b8b0b6b5fed1dcad27a0888a404b9ae9da",
+      "ja_text_bytes": 327,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-182",
+      "article_number": "182",
+      "filename": "houjin-zei-hou-shikkourei-article-182.md",
+      "ja_text_sha256": "a3ecc424113cc189d054f13b0fc790a2836e74446e2591b68be57c2f85a080bf",
+      "ja_text_bytes": 936,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-183",
+      "article_number": "183",
+      "filename": "houjin-zei-hou-shikkourei-article-183.md",
+      "ja_text_sha256": "268ca178cdc94d67d2d134b39a1c3cf2fcb597e2710c86ae06254a936b870847",
+      "ja_text_bytes": 1339,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-184",
+      "article_number": "184",
+      "filename": "houjin-zei-hou-shikkourei-article-184.md",
+      "ja_text_sha256": "6a3f8ea7eff0a5875ae84c7cd10ccfba4730f1a6c17562cacfc0c536ad62af82",
+      "ja_text_bytes": 4321,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-185",
+      "article_number": "185",
+      "filename": "houjin-zei-hou-shikkourei-article-185.md",
+      "ja_text_sha256": "6b7e2c17d5291e3a343b45d5a5187fe78cd7db65def845e9c962d75c10ea1a9d",
+      "ja_text_bytes": 1325,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-186",
+      "article_number": "186",
+      "filename": "houjin-zei-hou-shikkourei-article-186.md",
+      "ja_text_sha256": "8bd4abae434838a2a008f068dbf87dc7d51fba9d256ba4a97f79536b5ed63cea",
+      "ja_text_bytes": 1454,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-187",
+      "article_number": "187",
+      "filename": "houjin-zei-hou-shikkourei-article-187.md",
+      "ja_text_sha256": "a8a28a0db01cf402529d73e350049687d21ffa8bbfdd2c28a2986adaa67bc2c6",
+      "ja_text_bytes": 1890,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-188",
+      "article_number": "188",
+      "filename": "houjin-zei-hou-shikkourei-article-188.md",
+      "ja_text_sha256": "b25682a83f1ab59932d1f03863079e15c2a43e08b1b27199d8602033c5dcba42",
+      "ja_text_bytes": 12132,
+      "paragraph_count": 15
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-189",
+      "article_number": "189",
+      "filename": "houjin-zei-hou-shikkourei-article-189.md",
+      "ja_text_sha256": "aaae792fd3144858aa831a950ef0029a0a3e7e8ee506b1c31e08b3babdfc86ac",
+      "ja_text_bytes": 1328,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-19",
+      "article_number": "19",
+      "filename": "houjin-zei-hou-shikkourei-article-19.md",
+      "ja_text_sha256": "ca51151db7baf6649f8cf567e7fa816912bdd6545c2f8732bb1ce72cb324362b",
+      "ja_text_bytes": 6932,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-190-2",
+      "article_number": "190-2",
+      "filename": "houjin-zei-hou-shikkourei-article-190-2.md",
+      "ja_text_sha256": "74a8372409de724394915fc40daccf8e83a4f6448d74fd4ab3425dfcf7b7b213",
+      "ja_text_bytes": 1197,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-190",
+      "article_number": "190",
+      "filename": "houjin-zei-hou-shikkourei-article-190.md",
+      "ja_text_sha256": "878a1aaf8b195e37abaa8380e149ce440e7c324c9b4a08bc2de3508d63a0e6ca",
+      "ja_text_bytes": 5343,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-191",
+      "article_number": "191",
+      "filename": "houjin-zei-hou-shikkourei-article-191.md",
+      "ja_text_sha256": "e324203fbbb8a330be5724c22dac197e92e20627dc62368296bcfd480ce28778",
+      "ja_text_bytes": 699,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-192-2",
+      "article_number": "192-2",
+      "filename": "houjin-zei-hou-shikkourei-article-192-2.md",
+      "ja_text_sha256": "dcd45803e32e9216803dd4efdfc0f1e968c906c9fb78ee4c3537bfe563a08a6c",
+      "ja_text_bytes": 623,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-192",
+      "article_number": "192",
+      "filename": "houjin-zei-hou-shikkourei-article-192.md",
+      "ja_text_sha256": "01a98baef4e9199b13aa1741285b5b162ed16c90cb1b8c9ca86a3d8d037011df",
+      "ja_text_bytes": 357,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-193",
+      "article_number": "193",
+      "filename": "houjin-zei-hou-shikkourei-article-193.md",
+      "ja_text_sha256": "65245f800b2922a83c7f9452247f976b84d4b0d522d473d1acd4c1439e1277cf",
+      "ja_text_bytes": 2388,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-194",
+      "article_number": "194",
+      "filename": "houjin-zei-hou-shikkourei-article-194.md",
+      "ja_text_sha256": "534450be1a39cd93c47262cef280b21da81174eab97c86cf3ad2072f50fd4246",
+      "ja_text_bytes": 3742,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-195-2",
+      "article_number": "195-2",
+      "filename": "houjin-zei-hou-shikkourei-article-195-2.md",
+      "ja_text_sha256": "98dc4b5827af1acf9f896ed40c0ace92ab439524fa2487b97e39372a05f7ffb8",
+      "ja_text_bytes": 560,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-195",
+      "article_number": "195",
+      "filename": "houjin-zei-hou-shikkourei-article-195.md",
+      "ja_text_sha256": "003f8b47ad36b56ea72ddbec71da21fd630e44157073907d33a359dd85e04d73",
+      "ja_text_bytes": 4491,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-196",
+      "article_number": "196",
+      "filename": "houjin-zei-hou-shikkourei-article-196.md",
+      "ja_text_sha256": "cee126b1e431daa1800c134e14bff7222e260e9e3278159e6acd85711c273cf0",
+      "ja_text_bytes": 687,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-197",
+      "article_number": "197",
+      "filename": "houjin-zei-hou-shikkourei-article-197.md",
+      "ja_text_sha256": "bf2bbc34cd7cac7f4105d2d42a0d5f0cb5be452d60716f812789256ac88408a6",
+      "ja_text_bytes": 3664,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-198",
+      "article_number": "198",
+      "filename": "houjin-zei-hou-shikkourei-article-198.md",
+      "ja_text_sha256": "9c808d5be803f3cd53ff7afb8918e27f9f4e994f9bca96ebbefdf4e50eca1427",
+      "ja_text_bytes": 3405,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-199",
+      "article_number": "199",
+      "filename": "houjin-zei-hou-shikkourei-article-199.md",
+      "ja_text_sha256": "da4095ecadf08eba42bc7e616091a1b9d414e04cff71f953708ebb90b5a81382",
+      "ja_text_bytes": 1137,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-2",
+      "article_number": "2",
+      "filename": "houjin-zei-hou-shikkourei-article-2.md",
+      "ja_text_sha256": "c44848de4c22fc5cb823ceabf5de2c5f4c0e70eb53f364fadf0d186cd358c295",
+      "ja_text_bytes": 1015,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-20",
+      "article_number": "20",
+      "filename": "houjin-zei-hou-shikkourei-article-20.md",
+      "ja_text_sha256": "cbc79df059dbf7c14b41c4a59e2fee1fe23ccca92947f9140403c4a48a4a9828",
+      "ja_text_bytes": 7334,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-200",
+      "article_number": "200",
+      "filename": "houjin-zei-hou-shikkourei-article-200.md",
+      "ja_text_sha256": "28de25ef1a590962a6d14d3424d7e70551c8f7f43f1f05b2b6d1b1669d288122",
+      "ja_text_bytes": 855,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-201-2",
+      "article_number": "201-2",
+      "filename": "houjin-zei-hou-shikkourei-article-201-2.md",
+      "ja_text_sha256": "44c19f01d3a319ad5ddee00f83b366e109ac48d7c29243055a37e313c2a38957",
+      "ja_text_bytes": 1408,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-201",
+      "article_number": "201",
+      "filename": "houjin-zei-hou-shikkourei-article-201.md",
+      "ja_text_sha256": "37931a13b0e1c9f56fc7b87ef66e80caa8e152ee2bb25f63618cb6ba9c283123",
+      "ja_text_bytes": 7352,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-202",
+      "article_number": "202",
+      "filename": "houjin-zei-hou-shikkourei-article-202.md",
+      "ja_text_sha256": "58261aad061a596d5c01912bfbfc99f9bdeeebe144ee6682080df054a9dd07c9",
+      "ja_text_bytes": 1865,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-203",
+      "article_number": "203",
+      "filename": "houjin-zei-hou-shikkourei-article-203.md",
+      "ja_text_sha256": "7f2a98010e7c8f268a3ffc9a8abb64dc464156c9bd763a7579cd725ff0091b40",
+      "ja_text_bytes": 1475,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-204",
+      "article_number": "204",
+      "filename": "houjin-zei-hou-shikkourei-article-204.md",
+      "ja_text_sha256": "50b021fcfcc6d43b810b7dbfd0e71350dbd8dd3eb888d4be92fbc10c3e909507",
+      "ja_text_bytes": 1965,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-205",
+      "article_number": "205",
+      "filename": "houjin-zei-hou-shikkourei-article-205.md",
+      "ja_text_sha256": "b95f01b5af7575ca85e13d88c2ba6b6877c652545501c9a6667cbbd91ff2801b",
+      "ja_text_bytes": 3469,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-206",
+      "article_number": "206",
+      "filename": "houjin-zei-hou-shikkourei-article-206.md",
+      "ja_text_sha256": "a819810c340afbfc444fc9198f249c8419d8dd42cb75290be35f1c5091993681",
+      "ja_text_bytes": 3437,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-207",
+      "article_number": "207",
+      "filename": "houjin-zei-hou-shikkourei-article-207.md",
+      "ja_text_sha256": "fead0e20c360e8e76057fde2a9e9214b75df1a3c9056b0b16f86766ea303f1ed",
+      "ja_text_bytes": 953,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-208",
+      "article_number": "208",
+      "filename": "houjin-zei-hou-shikkourei-article-208.md",
+      "ja_text_sha256": "784da424570341f4ab6fe1df9bd8e39abbabaf57f5396f0e917e3adc5c652393",
+      "ja_text_bytes": 4187,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-209",
+      "article_number": "209",
+      "filename": "houjin-zei-hou-shikkourei-article-209.md",
+      "ja_text_sha256": "75cd42000e6afedf48956f3d8e9df5008a12c302e8e4e3552f7397945eb73fb2",
+      "ja_text_bytes": 1499,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-21",
+      "article_number": "21",
+      "filename": "houjin-zei-hou-shikkourei-article-21.md",
+      "ja_text_sha256": "abf602e8a091acbae16e864510faab1d3245485b62c397a575d0cc01dac847bf",
+      "ja_text_bytes": 737,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-210",
+      "article_number": "210",
+      "filename": "houjin-zei-hou-shikkourei-article-210.md",
+      "ja_text_sha256": "8cb7323fc914f05e1324358b70eb720a242c895cffb1399f29b19f6d02a234a3",
+      "ja_text_bytes": 414,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-211",
+      "article_number": "211",
+      "filename": "houjin-zei-hou-shikkourei-article-211.md",
+      "ja_text_sha256": "547204a035e6247d25e8efbb903952399569cfe585d3fe374985b64e16b848c4",
+      "ja_text_bytes": 477,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-212",
+      "article_number": "212",
+      "filename": "houjin-zei-hou-shikkourei-article-212.md",
+      "ja_text_sha256": "e2fd6861c19b780ac7940451c73a92e75d39ce97d6283738071165d79984b85a",
+      "ja_text_bytes": 2371,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-213",
+      "article_number": "213",
+      "filename": "houjin-zei-hou-shikkourei-article-213.md",
+      "ja_text_sha256": "26213031cd0b10394c1d923b12a54e38914af13a240ccbc643643cb29a38ae2a",
+      "ja_text_bytes": 1820,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-214",
+      "article_number": "214",
+      "filename": "houjin-zei-hou-shikkourei-article-214.md",
+      "ja_text_sha256": "1298920098176d498b07d9b455353369adb280b25783f6dc773553b9cb676bb1",
+      "ja_text_bytes": 9051,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-22-2",
+      "article_number": "22-2",
+      "filename": "houjin-zei-hou-shikkourei-article-22-2.md",
+      "ja_text_sha256": "4c3230ac456cb81a4c1a05b5c039d438421aac2e62570231e76cb963d1418bbf",
+      "ja_text_bytes": 3235,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-22-3",
+      "article_number": "22-3",
+      "filename": "houjin-zei-hou-shikkourei-article-22-3.md",
+      "ja_text_sha256": "3eeb745663cb76195860ca93b8138186ec9fa08ac77275938839d24556bff663",
+      "ja_text_bytes": 1678,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-22-4",
+      "article_number": "22-4",
+      "filename": "houjin-zei-hou-shikkourei-article-22-4.md",
+      "ja_text_sha256": "720b027030dbd78a9519f6f8de167dd7ce16d108340d78964a52f0e3f3aa1196",
+      "ja_text_bytes": 5320,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-22",
+      "article_number": "22",
+      "filename": "houjin-zei-hou-shikkourei-article-22.md",
+      "ja_text_sha256": "61a9807846f3ca4b9cff960530a827aca74a3d162a71cc17190814b10eb3102d",
+      "ja_text_bytes": 2584,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-23",
+      "article_number": "23",
+      "filename": "houjin-zei-hou-shikkourei-article-23.md",
+      "ja_text_sha256": "2f21af2171a05aa585ea643a3d0fc1b99b533d3e66087e3753ce29c0358e87a5",
+      "ja_text_bytes": 5148,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-24-2",
+      "article_number": "24-2",
+      "filename": "houjin-zei-hou-shikkourei-article-24-2.md",
+      "ja_text_sha256": "f59156c943cf328f9ec1895344b2e72e96fe4c9af7a0357736133eb80c4423c0",
+      "ja_text_bytes": 1903,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-24-3",
+      "article_number": "24-3",
+      "filename": "houjin-zei-hou-shikkourei-article-24-3.md",
+      "ja_text_sha256": "679460f70466a34cf6c61a555af384bc44dfc008aef68fe187c8bc0908e497bc",
+      "ja_text_bytes": 913,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-24",
+      "article_number": "24",
+      "filename": "houjin-zei-hou-shikkourei-article-24.md",
+      "ja_text_sha256": "00570454fa4f71d02719db7d73bf65577a1d4a8ecf7a25aafd222b0cceeb1f76",
+      "ja_text_bytes": 323,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-25",
+      "article_number": "25",
+      "filename": "houjin-zei-hou-shikkourei-article-25.md",
+      "ja_text_sha256": "4f5ddf2bb61905a7095076755a82e7c31d156af448721ebb68642456259bfcab",
+      "ja_text_bytes": 1278,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-26",
+      "article_number": "26",
+      "filename": "houjin-zei-hou-shikkourei-article-26.md",
+      "ja_text_sha256": "38dd660ac240f1b2531e6e102cdedfb3aeff932af7a1ef45dd07a797396e7195",
+      "ja_text_bytes": 2269,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-27",
+      "article_number": "27",
+      "filename": "houjin-zei-hou-shikkourei-article-27.md",
+      "ja_text_sha256": "eb45cc6991843f5f1a873dcdd42e7894bf530abe26ba991937d4c7b9ac3ba683",
+      "ja_text_bytes": 71,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-28-2",
+      "article_number": "28-2",
+      "filename": "houjin-zei-hou-shikkourei-article-28-2.md",
+      "ja_text_sha256": "d16c81f536e2d4652e75618b13046e3f6bd0c853f274c1f394c946103c69ad24",
+      "ja_text_bytes": 3424,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-28",
+      "article_number": "28",
+      "filename": "houjin-zei-hou-shikkourei-article-28.md",
+      "ja_text_sha256": "0d6ebbc6d593861432ffd11c762c3a22f0a0ab1a95bc071d8dd4e561e27c23b8",
+      "ja_text_bytes": 2066,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-29",
+      "article_number": "29",
+      "filename": "houjin-zei-hou-shikkourei-article-29.md",
+      "ja_text_sha256": "d0051b1b66ce3aebd85a6ad86fb7b70daf278b5dd6774a066c2c269ee519b535",
+      "ja_text_bytes": 1971,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-3",
+      "article_number": "3",
+      "filename": "houjin-zei-hou-shikkourei-article-3.md",
+      "ja_text_sha256": "0e985a7b3c0e7847ae8856c67917b7e8328bcfb4bffd67cc70b913c36eb2ae08",
+      "ja_text_bytes": 1627,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-30",
+      "article_number": "30",
+      "filename": "houjin-zei-hou-shikkourei-article-30.md",
+      "ja_text_sha256": "75f4182426dabd7d6bca470ff70309a7e03ca508923185d977f535a0e494b86b",
+      "ja_text_bytes": 3383,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-31",
+      "article_number": "31",
+      "filename": "houjin-zei-hou-shikkourei-article-31.md",
+      "ja_text_sha256": "70c818c94cf98dd9329769a37eb6e9c6e5c083635c763a9396f58c4e6f4211a6",
+      "ja_text_bytes": 1395,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-32",
+      "article_number": "32",
+      "filename": "houjin-zei-hou-shikkourei-article-32.md",
+      "ja_text_sha256": "3732102030a889570c9317ba76d0004bfdc4f47c41c2647b67943e0497574bd0",
+      "ja_text_bytes": 2081,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-33",
+      "article_number": "33",
+      "filename": "houjin-zei-hou-shikkourei-article-33.md",
+      "ja_text_sha256": "4f019ff37cf00087bd30f9681376a6052fd6ed34b061f49de6c3476706e642df",
+      "ja_text_bytes": 4664,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-4-2",
+      "article_number": "4-2",
+      "filename": "houjin-zei-hou-shikkourei-article-4-2.md",
+      "ja_text_sha256": "658645fd3a2e26c9e300c4dbe8e463e6a172d5da6e4b6ae0a860a3a4a10aab4b",
+      "ja_text_bytes": 2510,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-4-3",
+      "article_number": "4-3",
+      "filename": "houjin-zei-hou-shikkourei-article-4-3.md",
+      "ja_text_sha256": "abb3c1802148edcb2d5e5408a70396cbd2277482cdb61e253cbaf079ec84adc2",
+      "ja_text_bytes": 16255,
+      "paragraph_count": 26
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-4-4",
+      "article_number": "4-4",
+      "filename": "houjin-zei-hou-shikkourei-article-4-4.md",
+      "ja_text_sha256": "bb863f6d84883f7bd1018bef4c5c21eea9a1264269ca0d7bacd2f1dab4ab7619",
+      "ja_text_bytes": 6588,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-4",
+      "article_number": "4",
+      "filename": "houjin-zei-hou-shikkourei-article-4.md",
+      "ja_text_sha256": "daa5ae42de687f6becea622a0cf8c6f02dc513e08fa19765851495929f91f660",
+      "ja_text_bytes": 2497,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-48-2",
+      "article_number": "48-2",
+      "filename": "houjin-zei-hou-shikkourei-article-48-2.md",
+      "ja_text_sha256": "7b3f2a129ff4f0ccef7ef3def10307505e6f913ae3e1e97027b85374646523a5",
+      "ja_text_bytes": 4375,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-48-3",
+      "article_number": "48-3",
+      "filename": "houjin-zei-hou-shikkourei-article-48-3.md",
+      "ja_text_sha256": "69686ef93be76de3a007d192d3b2d0f6d73962969753d44eabe3a3488884f754",
+      "ja_text_bytes": 1486,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-48-4",
+      "article_number": "48-4",
+      "filename": "houjin-zei-hou-shikkourei-article-48-4.md",
+      "ja_text_sha256": "7a64225bf36f15214b8748639911a8e377efc4943a611451f28b6400c829066a",
+      "ja_text_bytes": 5241,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-48",
+      "article_number": "48",
+      "filename": "houjin-zei-hou-shikkourei-article-48.md",
+      "ja_text_sha256": "c7a38edd3972cd7334ab039a4ee0df6d807226c10427d4afd8f2a92f3e0a2bb4",
+      "ja_text_bytes": 4255,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-49-2",
+      "article_number": "49-2",
+      "filename": "houjin-zei-hou-shikkourei-article-49-2.md",
+      "ja_text_sha256": "85bb2ed834061b0ff7d88c05bbdb862dddbbe2e1d21076e2dd110831f27347fa",
+      "ja_text_bytes": 6517,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-49",
+      "article_number": "49",
+      "filename": "houjin-zei-hou-shikkourei-article-49.md",
+      "ja_text_sha256": "bcaeec6ce075048e7ac5dba1c8d860d807cb051c60562b06b98ff93093d40779",
+      "ja_text_bytes": 3092,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-5",
+      "article_number": "5",
+      "filename": "houjin-zei-hou-shikkourei-article-5.md",
+      "ja_text_sha256": "b3b4de02e7b62c1840a71536be80730601a04dae2b9c996eaeb75d8e50ebf0b3",
+      "ja_text_bytes": 430,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-50",
+      "article_number": "50",
+      "filename": "houjin-zei-hou-shikkourei-article-50.md",
+      "ja_text_sha256": "c2c72e6baf99d1d165f5d2f03f1e55f4951e7113563f8cfb089f52435bb1a5ae",
+      "ja_text_bytes": 2491,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-51",
+      "article_number": "51",
+      "filename": "houjin-zei-hou-shikkourei-article-51.md",
+      "ja_text_sha256": "7da67ea6f88922645354a34d34c19536921a539149534fc5004c2df63993469e",
+      "ja_text_bytes": 6694,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-52",
+      "article_number": "52",
+      "filename": "houjin-zei-hou-shikkourei-article-52.md",
+      "ja_text_sha256": "f02e6095b74466ff3a9ef4a1ea4522601575af9302583bf4cde9acac8ba2464f",
+      "ja_text_bytes": 3854,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-53",
+      "article_number": "53",
+      "filename": "houjin-zei-hou-shikkourei-article-53.md",
+      "ja_text_sha256": "d19c5776130d6b9c1b11440a0956f31b36454e4dd1d7bc6056359aac712f74f9",
+      "ja_text_bytes": 365,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-54",
+      "article_number": "54",
+      "filename": "houjin-zei-hou-shikkourei-article-54.md",
+      "ja_text_sha256": "c2f0d23de6fd8a9946247e66b1bb29818d1516d1d0e819663fefa9e258c87c71",
+      "ja_text_bytes": 4217,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-55",
+      "article_number": "55",
+      "filename": "houjin-zei-hou-shikkourei-article-55.md",
+      "ja_text_sha256": "25831cd58050911f8654e7eef0350dc3c99148b08d5a41124b796e4d9e1235b7",
+      "ja_text_bytes": 4577,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-56",
+      "article_number": "56",
+      "filename": "houjin-zei-hou-shikkourei-article-56.md",
+      "ja_text_sha256": "9ef388205993159034d6f1213fb9b9da792844dee3f712368ab7901e3540427c",
+      "ja_text_bytes": 698,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-57",
+      "article_number": "57",
+      "filename": "houjin-zei-hou-shikkourei-article-57.md",
+      "ja_text_sha256": "d875e3710a352c33864619954aa121d0ed49b7e2d17f69c117cd5400d8bed1f3",
+      "ja_text_bytes": 9058,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-58",
+      "article_number": "58",
+      "filename": "houjin-zei-hou-shikkourei-article-58.md",
+      "ja_text_sha256": "5cf40cc69878efd976180fc0a72ef6f6f60b0f10ad722862e74fffb892e288f1",
+      "ja_text_bytes": 536,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-59",
+      "article_number": "59",
+      "filename": "houjin-zei-hou-shikkourei-article-59.md",
+      "ja_text_sha256": "7a1d862e2be4bbe40a2a7b04aa3979b7c489832086271e434f6115c440dab87d",
+      "ja_text_bytes": 586,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-6",
+      "article_number": "6",
+      "filename": "houjin-zei-hou-shikkourei-article-6.md",
+      "ja_text_sha256": "7c6af9b69715dda02707f6c29fa82091f66f2baef491f72976f9b85050abdaaf",
+      "ja_text_bytes": 286,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-60",
+      "article_number": "60",
+      "filename": "houjin-zei-hou-shikkourei-article-60.md",
+      "ja_text_sha256": "56436a3c80a82d36ba4f2f826a2914cf947f02ab87db657aeb9d5d188f73c07d",
+      "ja_text_bytes": 1878,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-61-2",
+      "article_number": "61-2",
+      "filename": "houjin-zei-hou-shikkourei-article-61-2.md",
+      "ja_text_sha256": "db5300501d4ffd0c7bacbdf386548f369b2bf28a0b7f489dfe575cc7299c33bf",
+      "ja_text_bytes": 3833,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-61-3",
+      "article_number": "61-3",
+      "filename": "houjin-zei-hou-shikkourei-article-61-3.md",
+      "ja_text_sha256": "37dd0773f41a5343a58a831590436e237a8ac22034af19bb6ea8293a44416b0f",
+      "ja_text_bytes": 733,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-61",
+      "article_number": "61",
+      "filename": "houjin-zei-hou-shikkourei-article-61.md",
+      "ja_text_sha256": "cedc43364becad07f610d5dc4318c3c00e50cca9d8a67363f1f562535e2b9e4e",
+      "ja_text_bytes": 3553,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-62",
+      "article_number": "62",
+      "filename": "houjin-zei-hou-shikkourei-article-62.md",
+      "ja_text_sha256": "4e5a94776613dad892226c1b71b1b1c83f25512cd42b6c6f411e1f162a814a5a",
+      "ja_text_bytes": 1443,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-63-2",
+      "article_number": "63-2",
+      "filename": "houjin-zei-hou-shikkourei-article-63-2.md",
+      "ja_text_sha256": "7ec41abf538e8877b01eed300f7b83bcde313eda8d8d9d9a0fb6d007b86eeea5",
+      "ja_text_bytes": 259,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-63",
+      "article_number": "63",
+      "filename": "houjin-zei-hou-shikkourei-article-63.md",
+      "ja_text_sha256": "0a77fe762a30e9fea6b6e7644a63b89c059a50df01322ba3d8f5ffdef8ce5ba0",
+      "ja_text_bytes": 1116,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-64-2",
+      "article_number": "64-2",
+      "filename": "houjin-zei-hou-shikkourei-article-64-2.md",
+      "ja_text_sha256": "7dafdaafab0a387c407df5596c142d90fcb028d3f58e28cf353b3a874b1f2881",
+      "ja_text_bytes": 478,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-64",
+      "article_number": "64",
+      "filename": "houjin-zei-hou-shikkourei-article-64.md",
+      "ja_text_sha256": "c529d70ad7d34d2efb59d46332574ea3fea6b3ee10d5910acd212c846ec716e2",
+      "ja_text_bytes": 2723,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-65",
+      "article_number": "65",
+      "filename": "houjin-zei-hou-shikkourei-article-65.md",
+      "ja_text_sha256": "1397aab16c6facd512c33a390cd2471bb5befd0f9b416706d328f3e1eadbf470",
+      "ja_text_bytes": 1347,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-66-2",
+      "article_number": "66-2",
+      "filename": "houjin-zei-hou-shikkourei-article-66-2.md",
+      "ja_text_sha256": "ed723eafd676842f7623d16d7f7d1484822de71bc1d48b79ada466718a6171d9",
+      "ja_text_bytes": 733,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-66",
+      "article_number": "66",
+      "filename": "houjin-zei-hou-shikkourei-article-66.md",
+      "ja_text_sha256": "1290802ed44418c741fe49f4812d5fd21969799caf59a92093538c348a804318",
+      "ja_text_bytes": 1016,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-67",
+      "article_number": "67",
+      "filename": "houjin-zei-hou-shikkourei-article-67.md",
+      "ja_text_sha256": "4c5eab60b2fdcde44d66fddca0cf38b07a6910079fc9bd517517f3052d284812",
+      "ja_text_bytes": 870,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-68-2",
+      "article_number": "68-2",
+      "filename": "houjin-zei-hou-shikkourei-article-68-2.md",
+      "ja_text_sha256": "4c136a1abeb98461039a7f8b9c08c5ceeaa6697cc68f85ce479576737cf1e070",
+      "ja_text_bytes": 1621,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-68-3",
+      "article_number": "68-3",
+      "filename": "houjin-zei-hou-shikkourei-article-68-3.md",
+      "ja_text_sha256": "c03cc4c305bb602874468c16f0a2055517d6ceecc028925d8b19cb9427e755e7",
+      "ja_text_bytes": 529,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-68",
+      "article_number": "68",
+      "filename": "houjin-zei-hou-shikkourei-article-68.md",
+      "ja_text_sha256": "015cf2ef8c2f0e6a2b312b09c6eec872b6165f62f1035ab17f0c7c0979be0515",
+      "ja_text_bytes": 1555,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-69",
+      "article_number": "69",
+      "filename": "houjin-zei-hou-shikkourei-article-69.md",
+      "ja_text_sha256": "607d8b94acf6b9e6a239561a8062a0cea7636b4438bc5e0cd4bb1d6f03a086f1",
+      "ja_text_bytes": 9242,
+      "paragraph_count": 21
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-7",
+      "article_number": "7",
+      "filename": "houjin-zei-hou-shikkourei-article-7.md",
+      "ja_text_sha256": "3d53cf2dfae174f99abf6b970eabfe443fe2f9c121c1568910bdfed3297b7fb8",
+      "ja_text_bytes": 190,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-70",
+      "article_number": "70",
+      "filename": "houjin-zei-hou-shikkourei-article-70.md",
+      "ja_text_sha256": "5a41aa0a171ef51207f524caeae9716db3eca4bfa2269dd4a6f18e63c6c1434f",
+      "ja_text_bytes": 227,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-71-2",
+      "article_number": "71-2",
+      "filename": "houjin-zei-hou-shikkourei-article-71-2.md",
+      "ja_text_sha256": "839f9babc1dbc4c979b03283379c82e60b0c6104707670ec773ab9f337375ba0",
+      "ja_text_bytes": 1465,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-71-3",
+      "article_number": "71-3",
+      "filename": "houjin-zei-hou-shikkourei-article-71-3.md",
+      "ja_text_sha256": "adbb464b5411cce24a784305e6d242fe2cc93df3dd3e91b1d4597ba96619beb6",
+      "ja_text_bytes": 2356,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-71",
+      "article_number": "71",
+      "filename": "houjin-zei-hou-shikkourei-article-71.md",
+      "ja_text_sha256": "19ade6bd5ee638411c4c85d2a94fe1cf3f049e65e75461f77542a3ac6b455f04",
+      "ja_text_bytes": 2111,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-72-2",
+      "article_number": "72-2",
+      "filename": "houjin-zei-hou-shikkourei-article-72-2.md",
+      "ja_text_sha256": "eea4583746928409ee7dd40d7afdcd5d20a08e8276f77a44bd5d94c2ce5917d8",
+      "ja_text_bytes": 1114,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-72-3",
+      "article_number": "72-3",
+      "filename": "houjin-zei-hou-shikkourei-article-72-3.md",
+      "ja_text_sha256": "8fcf00e90a59e4efdb72820c487c98b9b62a071afaab0f9a396ccc674249ada7",
+      "ja_text_bytes": 1351,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-72",
+      "article_number": "72",
+      "filename": "houjin-zei-hou-shikkourei-article-72.md",
+      "ja_text_sha256": "fe393e32374de112f3f2fef82b487c8703e7f5361d0ff85e86956e1ccd2e0ffa",
+      "ja_text_bytes": 242,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-73-2",
+      "article_number": "73-2",
+      "filename": "houjin-zei-hou-shikkourei-article-73-2.md",
+      "ja_text_sha256": "ff8fa58d5d98e028cc5910d61f3fc8b61b6b4f58c34e0a8e92c4cbaa3db49f14",
+      "ja_text_bytes": 1657,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-73",
+      "article_number": "73",
+      "filename": "houjin-zei-hou-shikkourei-article-73.md",
+      "ja_text_sha256": "733ba72ac7f8d2f8fefc7da8c122856a73f454a09e0c075f333ab720dc2297b0",
+      "ja_text_bytes": 1609,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-74",
+      "article_number": "74",
+      "filename": "houjin-zei-hou-shikkourei-article-74.md",
+      "ja_text_sha256": "09d562c83114a29f432c7fb5f82edd807be010240e99b3e053926774213e5394",
+      "ja_text_bytes": 776,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-75",
+      "article_number": "75",
+      "filename": "houjin-zei-hou-shikkourei-article-75.md",
+      "ja_text_sha256": "c33637c63c2626d2db9b3d1566903dedf320ccce8366289ab5e1f03d961df0b5",
+      "ja_text_bytes": 350,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-76",
+      "article_number": "76",
+      "filename": "houjin-zei-hou-shikkourei-article-76.md",
+      "ja_text_sha256": "14ca98c3a1d411841b2a6f79a793f295871258f7ea775814a433551f6b63edd4",
+      "ja_text_bytes": 236,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-77-2",
+      "article_number": "77-2",
+      "filename": "houjin-zei-hou-shikkourei-article-77-2.md",
+      "ja_text_sha256": "4d7417160666d3a080aa52616c609600b5529bf649408fd877994c8ea975ad2e",
+      "ja_text_bytes": 1324,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-77-3",
+      "article_number": "77-3",
+      "filename": "houjin-zei-hou-shikkourei-article-77-3.md",
+      "ja_text_sha256": "a285bb4724fdb7ac03cf733f08e052980692451f1f5a27691bbc802b40c01296",
+      "ja_text_bytes": 448,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-77",
+      "article_number": "77",
+      "filename": "houjin-zei-hou-shikkourei-article-77.md",
+      "ja_text_sha256": "1a2e64a0bbd4fe9bc8f0ae2f6507cbdac33248a4cd4559a113e5348314501ca4",
+      "ja_text_bytes": 212,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-78-2",
+      "article_number": "78-2",
+      "filename": "houjin-zei-hou-shikkourei-article-78-2.md",
+      "ja_text_sha256": "174e119199003ab7abd8409e1c577c8799c714daaa4d25ba3adf0e34e2082f71",
+      "ja_text_bytes": 481,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-78-3",
+      "article_number": "78-3",
+      "filename": "houjin-zei-hou-shikkourei-article-78-3.md",
+      "ja_text_sha256": "8a7063c501c6a4c4a82c35a554da9b53574303238d710cfc51408df05e96a870",
+      "ja_text_bytes": 1264,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-78",
+      "article_number": "78",
+      "filename": "houjin-zei-hou-shikkourei-article-78.md",
+      "ja_text_sha256": "fcc3aee66e57bbf27fff40711c10127d4fa505a311f11fd482fea47951414fee",
+      "ja_text_bytes": 284,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-79-2",
+      "article_number": "79-2",
+      "filename": "houjin-zei-hou-shikkourei-article-79-2.md",
+      "ja_text_sha256": "4c6bd2acc8c4936a20eb3663883d890785a6070f3dbfddb677c27802aed02162",
+      "ja_text_bytes": 652,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-79",
+      "article_number": "79",
+      "filename": "houjin-zei-hou-shikkourei-article-79.md",
+      "ja_text_sha256": "498e9a76219f95336dd97f3bbba34e8aca5aba369d1b8e5b4c346583f2d55573",
+      "ja_text_bytes": 338,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-8",
+      "article_number": "8",
+      "filename": "houjin-zei-hou-shikkourei-article-8.md",
+      "ja_text_sha256": "02301d68ed823b7a275423b4a8546d284e5eb40d19fca5238458ac015c23ac8d",
+      "ja_text_bytes": 7036,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-80-2",
+      "article_number": "80-2",
+      "filename": "houjin-zei-hou-shikkourei-article-80-2.md",
+      "ja_text_sha256": "80b2ff240b3d53c9a77ad55ca79e0cc483dafc2cad442a9a3dc358c82f763113",
+      "ja_text_bytes": 1540,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-80",
+      "article_number": "80",
+      "filename": "houjin-zei-hou-shikkourei-article-80.md",
+      "ja_text_sha256": "430d4c6204643e97877e1c275a7d0ba33240d6b7ecd8903a03e5edd996650466",
+      "ja_text_bytes": 617,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-81",
+      "article_number": "81",
+      "filename": "houjin-zei-hou-shikkourei-article-81.md",
+      "ja_text_sha256": "74249a1f486015b947ff0b3ab88cc6306f63a1642b01b617a32f51df08085d01",
+      "ja_text_bytes": 389,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-82-2",
+      "article_number": "82-2",
+      "filename": "houjin-zei-hou-shikkourei-article-82-2.md",
+      "ja_text_sha256": "6b162576659b62ac9f70cee8f05c7bf269ad0855291cce173818a7653dc6e32b",
+      "ja_text_bytes": 1426,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-82-3",
+      "article_number": "82-3",
+      "filename": "houjin-zei-hou-shikkourei-article-82-3.md",
+      "ja_text_sha256": "5f0996184ce3b6fc002926dac13d0db05d6885a98175b02861f34b8199ec9dd5",
+      "ja_text_bytes": 487,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-82",
+      "article_number": "82",
+      "filename": "houjin-zei-hou-shikkourei-article-82.md",
+      "ja_text_sha256": "3585ac9ecba22d989c4a7dd8a40f4ca401d8b2059b3a5a0b7a8b7f80b18983aa",
+      "ja_text_bytes": 782,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-83-2",
+      "article_number": "83-2",
+      "filename": "houjin-zei-hou-shikkourei-article-83-2.md",
+      "ja_text_sha256": "91b96cf0bec9fc0d4e1b4ca625c87662b18a3d1ef0d27b7f44e4cedac0232d4b",
+      "ja_text_bytes": 268,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-83-3",
+      "article_number": "83-3",
+      "filename": "houjin-zei-hou-shikkourei-article-83-3.md",
+      "ja_text_sha256": "4ad1b48b5889c4b606b0f4c433077d8be8708545284bd699610657d9c99e585c",
+      "ja_text_bytes": 1531,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-83-4",
+      "article_number": "83-4",
+      "filename": "houjin-zei-hou-shikkourei-article-83-4.md",
+      "ja_text_sha256": "2ba9a4ca861fa0c2d46a205458143dc6bb5c6187c490008d3bdaf7ea54ab3355",
+      "ja_text_bytes": 577,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-83-5",
+      "article_number": "83-5",
+      "filename": "houjin-zei-hou-shikkourei-article-83-5.md",
+      "ja_text_sha256": "54193f8e48094138c9abda7e201fe8dc68dfcadeb819ca1f6f333c2c6d863703",
+      "ja_text_bytes": 784,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-83",
+      "article_number": "83",
+      "filename": "houjin-zei-hou-shikkourei-article-83.md",
+      "ja_text_sha256": "a945f5682437630b81e5276d7400215e1e970524ae5284043d7ae166251112da",
+      "ja_text_bytes": 371,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-84-2",
+      "article_number": "84-2",
+      "filename": "houjin-zei-hou-shikkourei-article-84-2.md",
+      "ja_text_sha256": "5a3ed97a6d91261bcbcd4fc0a8d8df767ab9c7306f0e0f1113e4098d75a52a14",
+      "ja_text_bytes": 364,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-84",
+      "article_number": "84",
+      "filename": "houjin-zei-hou-shikkourei-article-84.md",
+      "ja_text_sha256": "e649b70506373181c419170cb4441afafd297128a96e51d7d3a94b477535e2dc",
+      "ja_text_bytes": 773,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-85",
+      "article_number": "85",
+      "filename": "houjin-zei-hou-shikkourei-article-85.md",
+      "ja_text_sha256": "552dee17b0c97036458c06f6aeb6d80c73428f369c8c32a6862c5fd25beaee13",
+      "ja_text_bytes": 1710,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-86",
+      "article_number": "86",
+      "filename": "houjin-zei-hou-shikkourei-article-86.md",
+      "ja_text_sha256": "a64a3333b23da9e9e8df7a2d28cf47d4e6d7ca6a6daeb979e0218395f3c0eb85",
+      "ja_text_bytes": 602,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-87-2",
+      "article_number": "87-2",
+      "filename": "houjin-zei-hou-shikkourei-article-87-2.md",
+      "ja_text_sha256": "1cf49a0e4848661ec315d7fd2f19b1ea0e8279c12b0047993b3cc6c875f030da",
+      "ja_text_bytes": 1687,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-87",
+      "article_number": "87",
+      "filename": "houjin-zei-hou-shikkourei-article-87.md",
+      "ja_text_sha256": "52271a468df49677776f7a4d46ea9b8d7cfd1214662df0e8a6eb91d1ef1da4ee",
+      "ja_text_bytes": 371,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-88-2",
+      "article_number": "88-2",
+      "filename": "houjin-zei-hou-shikkourei-article-88-2.md",
+      "ja_text_sha256": "73d4a3bdba3cc2adc2edf4f24d186208a633eac97f62afc7722869a093f4e0bd",
+      "ja_text_bytes": 976,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-88",
+      "article_number": "88",
+      "filename": "houjin-zei-hou-shikkourei-article-88.md",
+      "ja_text_sha256": "b6606c7481125f4258252aa89d717bbc404cc9a597454416fbfaa58a9e814e66",
+      "ja_text_bytes": 1634,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-89",
+      "article_number": "89",
+      "filename": "houjin-zei-hou-shikkourei-article-89.md",
+      "ja_text_sha256": "e11b5226c3c6ae3bff03c427d77cac9ff57dd12eefe3d63e6e9a1d36e6c90ea8",
+      "ja_text_bytes": 611,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-9",
+      "article_number": "9",
+      "filename": "houjin-zei-hou-shikkourei-article-9.md",
+      "ja_text_sha256": "48042cad3a45fa2fe754a0ba191cf1c14e72a2b7d77569ea97f0aba2e8025a77",
+      "ja_text_bytes": 793,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-90-2",
+      "article_number": "90-2",
+      "filename": "houjin-zei-hou-shikkourei-article-90-2.md",
+      "ja_text_sha256": "c25858366a1af6ea87d05db19209108c9c31af8b474c0a0c829595f3780e82bf",
+      "ja_text_bytes": 1198,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-90",
+      "article_number": "90",
+      "filename": "houjin-zei-hou-shikkourei-article-90.md",
+      "ja_text_sha256": "7ffb4bbf7ed0a8375d01601f644e124062528d55df04f25021a66d49d28b9045",
+      "ja_text_bytes": 386,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-91-2",
+      "article_number": "91-2",
+      "filename": "houjin-zei-hou-shikkourei-article-91-2.md",
+      "ja_text_sha256": "94997b3d452517a030c2e8616635a7ad1a56d3ed6b48ef8b6fedc33f1f72877e",
+      "ja_text_bytes": 1087,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-91",
+      "article_number": "91",
+      "filename": "houjin-zei-hou-shikkourei-article-91.md",
+      "ja_text_sha256": "260e8fca463d0ac3c7d746be7a6f1f2b963a26e4b8c7c67f139ca0ac8e75352b",
+      "ja_text_bytes": 1340,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-92-2",
+      "article_number": "92-2",
+      "filename": "houjin-zei-hou-shikkourei-article-92-2.md",
+      "ja_text_sha256": "25167d44695fd344214268b99cbdb3ac537894a45752d8745139a91105d16a56",
+      "ja_text_bytes": 1039,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-92-3",
+      "article_number": "92-3",
+      "filename": "houjin-zei-hou-shikkourei-article-92-3.md",
+      "ja_text_sha256": "853bf210333627498263e05f1187bc7c57209aad96f3877b0a3f92d743de758e",
+      "ja_text_bytes": 1003,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-92",
+      "article_number": "92",
+      "filename": "houjin-zei-hou-shikkourei-article-92.md",
+      "ja_text_sha256": "78458b88d908a782b010931a09a16d51d148e14029d109f4ca3a9ece7e61d9c7",
+      "ja_text_bytes": 1200,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-93",
+      "article_number": "93",
+      "filename": "houjin-zei-hou-shikkourei-article-93.md",
+      "ja_text_sha256": "598921d74678b2b18f0590abf271775c4d2a8ad28b2451a2e2d83aa615b75129",
+      "ja_text_bytes": 422,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-96",
+      "article_number": "96",
+      "filename": "houjin-zei-hou-shikkourei-article-96.md",
+      "ja_text_sha256": "c508f8d39838d761f45ba9bd2974de070378fe05174edf91e768feaa8d3b619c",
+      "ja_text_bytes": 4126,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-97",
+      "article_number": "97",
+      "filename": "houjin-zei-hou-shikkourei-article-97.md",
+      "ja_text_sha256": "5c81c723ac940b1b767bdd807c9cc750eb0944e879618660dadbc2f6d40a6000",
+      "ja_text_bytes": 4882,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-98",
+      "article_number": "98",
+      "filename": "houjin-zei-hou-shikkourei-article-98.md",
+      "ja_text_sha256": "cde5f53b49f079477eed6d3301bcd6dfcb2f3882e6efb13e2682b8dd56a814f6",
+      "ja_text_bytes": 683,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "houjin-zei-hou-shikkourei-art-99",
+      "article_number": "99",
+      "filename": "houjin-zei-hou-shikkourei-article-99.md",
+      "ja_text_sha256": "141e7efbc8c3061639c87e32ffe3ee228b176fcc3ad6c501b7689f2ea8a1e776",
+      "ja_text_bytes": 1004,
+      "paragraph_count": 1
+    }
+  ]
+}
