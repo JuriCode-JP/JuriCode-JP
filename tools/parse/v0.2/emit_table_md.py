@@ -162,6 +162,15 @@ def insert_tables_into_md(
                 f"{len(para_bodies)} の範囲外; 表 {len(grids)} 個スキップ"
             )
             continue
+        slice_text = para_bodies[pidx]
+        # 冪等性: 当該項に既にパイプ表があれば二重挿入しない (再実行・逐次展開で安全)。
+        if any(ln.lstrip().startswith("|") for ln in slice_text.splitlines()):
+            warnings.append(
+                f"emit_table_md: paragraph_number={para_num} に既存表あり; "
+                "二重挿入回避でスキップ (冪等)"
+            )
+            continue
+
         block_lines: list[str] = []
         for grid in grids:
             if block_lines:
@@ -170,7 +179,6 @@ def insert_tables_into_md(
         if not block_lines:
             continue
 
-        slice_text = para_bodies[pidx]
         content = slice_text.rstrip("\n")
         trailing = slice_text[len(content) :]  # 末尾の改行群を保存 (次見出しとの区切り)
         if not trailing:

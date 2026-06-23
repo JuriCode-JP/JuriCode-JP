@@ -102,6 +102,16 @@ def test_no_tables_is_noop_backward_compat() -> None:
     assert warnings == []
 
 
+def test_idempotent_skips_paragraph_with_existing_table() -> None:
+    """既に表がある項には二重挿入しない (再実行・逐次展開で安全)."""
+    warnings: list[str] = []
+    once = insert_tables_into_md(_SYNTH_MD, {1: [[["甲", "乙"], ["一", "二"]]]}, warnings)
+    twice = insert_tables_into_md(once, {1: [[["甲", "乙"], ["一", "二"]]]}, warnings)
+    assert twice == once  # 2 回目は no-op
+    assert once.count("| 甲 | 乙 |") == 1  # 表は 1 個のみ
+    assert any("冪等" in w for w in warnings)
+
+
 def test_out_of_range_paragraph_warns_not_crash() -> None:
     """見出し数を超える項番号は警告して skip (crash しない)."""
     warnings: list[str] = []
