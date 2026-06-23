@@ -481,6 +481,52 @@ def _rank_of_first_match(ranked_ids, expected):
     return None
 
 
+def _apply_hyde(
+    questions_raw, state, corpus_matrix, dense_sims, dense_top_idx, candidate_pool, args
+):
+    """HyDE 仮想文を生成/キャッシュ -> embed -> dense -> Late Fusion し dense 結果を置換して返す.
+
+    Why: dense_retrieve 直後・hybrid/rerank の前に dense_top_idx/dense_sims を差し替えることで
+    後段 (hybrid / dedup / rerank) を無改修で合成できる。融合は hyde.rrf_fuse / min_max_fuse のみ
+    (生スコア加算禁止・Bug5)。キャッシュは query_hash 照合・欠落は fail-loud (Bug9)。
+    """
+    import hyde as _hyde  # sibling module (sys.path に tools/embed/ が入っている前提)
+    import numpy as np  # lazy import (FU-506)
+
+    cache = _hyde.load_hyde_cache(args.hyde_cache)
+    missing = [q for q in questions_raw if _hyde.compute_query_hash(q) not in cache]
+    if missing:
+        # trial 1: 未生成のみ Gemini 生成 -> 永続化 (既存は再生成しない・Bug8)。
+        generate_fn = _hyde.make_gemini_generator(args.hyde_gen_model)
+        cache = _hyde.build_hyde_cache(questions_raw, generate_fn=generate_fn, existing=cache)
+        _hyde.save_hyde_cache(args.hyde_cache, cache)
+        print(f"  [hyde] generated {len(missing)} new doc(s) -> {args.hyde_cache}", file=sys.stderr)
+    else:
+        print(
+            f"  [hyde] all {len(questions_raw)} doc(s) from cache {args.hyde_cache}",
+            file=sys.stderr,
+        )
+
+    hyde_docs = _hyde.resolve_hypothetical_docs(questions_raw, cache)  # ID 照合・fail-loud
+    hyde_matrix = _encode_queries(hyde_docs, state)
+    hyde_sims, hyde_top_idx = _cosine_topk(hyde_matrix, corpus_matrix, candidate_pool)
+
+    if args.hyde_only:
+        # E3: HyDE 仮想文 dense のみ (原クエリと融合しない)。
+        return hyde_top_idx, hyde_sims
+
+    # E3': 原クエリ dense と HyDE dense の Late Fusion。
+    if args.hyde_fusion == "rrf":
+        fused = _hyde.rrf_fuse([dense_top_idx, hyde_top_idx], candidate_pool, k_rrf=args.rrf_k)
+    else:
+        score_o = np.take_along_axis(dense_sims, dense_top_idx, axis=1)
+        score_h = np.take_along_axis(hyde_sims, hyde_top_idx, axis=1)
+        fused = _hyde.min_max_fuse(
+            [dense_top_idx, hyde_top_idx], [score_o, score_h], candidate_pool
+        )
+    return fused, dense_sims
+
+
 def dedup_by_article(top_idx_wide, article_ids, k):
     """各 query で article_id でユニーク化、上位の rank を維持して unique articles 上位 K 個を返す.
 
@@ -674,7 +720,37 @@ def main():
         action="store_true",
         help="v0.2 segment retrieval を article-level Recall として測定 (同じ article の重複 segment を 1 つにまとめる)",
     )
+    ap.add_argument(
+        "--hyde",
+        action="store_true",
+        help="HyDE: 仮想法令条文を生成し 原クエリ dense と Late Fusion (E3')",
+    )
+    ap.add_argument(
+        "--hyde-only",
+        action="store_true",
+        help="HyDE 仮想文 dense のみ (原クエリと融合しない・E3)",
+    )
+    ap.add_argument(
+        "--hyde-fusion",
+        choices=["rrf", "minmax"],
+        default="rrf",
+        help="Late Fusion 方式: rrf(ランクベース) / minmax(各パス正規化後加算)。生スコア加算は不可 (default: rrf)",
+    )
+    ap.add_argument(
+        "--hyde-cache",
+        type=Path,
+        help="HyDE 仮想文キャッシュ jsonl (--hyde / --hyde-only で必須・query_hash 照合)",
+    )
+    ap.add_argument(
+        "--hyde-gen-model",
+        type=str,
+        default="gemini-2.5-flash",
+        help="仮想文生成 LLM (Gemini generation model, default: gemini-2.5-flash)",
+    )
     args = ap.parse_args()
+
+    if (args.hyde or args.hyde_only) and not args.hyde_cache:
+        sys.exit("ERROR: --hyde / --hyde-only requires --hyde-cache <path>")
 
     try:
         matrix, records, state = _load_artefacts(args.embedded)
@@ -713,6 +789,12 @@ def main():
     candidate_pool = max(base_pool, rerank_k)
     query_matrix = _encode_queries(questions, state)
     dense_sims, dense_top_idx = pipeline.dense_retrieve(query_matrix, matrix, candidate_pool)
+
+    # HyDE (柱1-D E3/E3'): 仮想文 dense で dense 結果を置換し後段に渡す (hybrid/rerank と合成)。
+    if args.hyde or args.hyde_only:
+        dense_top_idx, dense_sims = _apply_hyde(
+            questions_orig, state, matrix, dense_sims, dense_top_idx, candidate_pool, args
+        )
 
     # Hybrid (BM25 + Dense via RRF)
     # dedup_by_article 併用時は wide な候補を維持して後段 dedup に渡す
@@ -865,6 +947,10 @@ def main():
         settings.append(f"reranker({args.reranker_model.split('/')[-1]})")
     if args.dedup_by_article:
         settings.append("dedup-by-article")
+    if args.hyde_only:
+        settings.append(f"hyde-only(gen={args.hyde_gen_model})")
+    elif args.hyde:
+        settings.append(f"hyde({args.hyde_fusion},gen={args.hyde_gen_model})")
     if settings:
         print(f"  Settings     : {','.join(settings)}", file=sys.stderr)
 
