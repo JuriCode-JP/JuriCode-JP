@@ -42,6 +42,13 @@ try:
 except ImportError:
     sys.exit("ERROR: beautifulsoup4 not installed. Run: pip install beautifulsoup4")
 
+# juricode_shared を import 可能にする (DirectiveChunk による出力検証用)。
+# 取込ループは main() の sys.path patch より前に走るため module レベルで patch する
+# (parse-nta-taxanswer.py と同パターン)。
+_SHARED_SRC = Path(__file__).resolve().parents[1] / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -49,6 +56,27 @@ except ImportError:
 LAW_NAME_JA = "法人税基本通達"
 SOURCE_URL_BASE = "https://www.nta.go.jp/law/tsutatsu/kihon/hojin"
 LICENSE = "public-domain-13-2"
+
+# 出力 JSONL の chunk-level キー順マスタ (出力保持の正本・FU-514)。
+# DirectiveChunk.model_dump() (意味フィールド) + 配管フィールドをマージした後、
+# この順で再構築して現 dict の interleaved キー順をバイト再現する。
+# naive な {**semantic, **pipeline} は配管キーが末尾集中で順序が崩れる (Bug1)。
+DIRECTIVE_KEY_ORDER = [
+    "id",
+    "directive_id",
+    "law_name_ja",
+    "law_abbrev",
+    "directive_number",
+    "title",
+    "text",
+    "amendment_note",
+    "related_articles",
+    "source_url",
+    "license",
+    "segment_type",
+    "article_id",
+    "law_name_ja_display",
+]
 
 # Abbreviation prefix -> law_abbrev mapping (R2: 接頭辞明示のみ)
 LAW_PREFIX_MAP = {
@@ -141,10 +169,12 @@ def _extract_related_articles(text: str) -> list[dict]:
             )
             results.append(
                 {
+                    # disjoint Union の Unlinked 形に合わせ article_id キーは持たせない
+                    # (FU-514: DirectiveUnlinkedArticleRef は extra="forbid")。
+                    # 現コーパスは unlinked 0 件なので出力 byte は不変。
                     "raw": raw,
                     "law_abbrev": law_abbrev,
                     "article_number": article_number,
-                    "article_id": None,
                     "unlinked_reason": "corpus_unregistered",
                 }
             )
@@ -184,6 +214,56 @@ def _detect_charset(raw: bytes) -> str:
     return "cp932"
 
 
+def _build_directive_record(
+    *,
+    num: str,
+    title: str,
+    body: str,
+    amendment_note: str,
+    related: list[dict],
+    source_url: str,
+    law_abbrev: str,
+) -> dict:
+    """Validate via DirectiveChunk (Pydantic IR) and reconstruct the 14-key record.
+
+    Why: routing through DirectiveChunk catches malformed refs at parse time and
+    keeps the disjoint linked/unlinked Union honest, while the explicit
+    DIRECTIVE_KEY_ORDER reconstruction reproduces the historical interleaved key
+    order byte-for-byte. Pipeline fields (id / law_name_ja / law_name_ja_display
+    / segment_type / article_id) are merged post-dump (not part of the semantic
+    IR), and article_id is injected as None explicitly so the key is always
+    present (Bug29: never silently dropped via .get()).
+    """
+    from juricode_shared.ir import DirectiveChunk
+
+    directive_id = f"{law_abbrev}-{num}"
+    chunk = DirectiveChunk(
+        directive_id=directive_id,
+        directive_number=num,
+        law_abbrev=law_abbrev,
+        title=title,
+        text=body,
+        amendment_note=amendment_note,
+        related_articles=related,  # dict -> disjoint Union が linked/unlinked を判別
+        source_url=source_url,
+        license=LICENSE,
+    )
+    semantic = chunk.model_dump(mode="json")
+
+    # 配管フィールドを明示注入 (retrieve.py 互換)。article_id は None でも必ず入れる。
+    merged = {
+        **semantic,
+        "id": directive_id,
+        "law_name_ja": LAW_NAME_JA,
+        "law_name_ja_display": f"{LAW_NAME_JA} {num}",
+        "segment_type": "tsutatsu",
+        "article_id": None,
+    }
+
+    # キー順再構築: 全 14 キーが存在する前提 (欠落は KeyError で fail loud)。
+    return {k: merged[k] for k in DIRECTIVE_KEY_ORDER}
+
+
 def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: str) -> list[dict]:
     """Parse BeautifulSoup of a single htm page -> list of directive chunk dicts.
 
@@ -212,25 +292,17 @@ def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: s
         body = _normalize_text(body)
         related = _extract_related_articles(body)
 
-        directive_id = f"{law_abbrev}-{num}"
-        record = {
-            "id": directive_id,
-            "directive_id": directive_id,
-            "law_name_ja": LAW_NAME_JA,
-            "law_abbrev": law_abbrev,
-            "directive_number": num,
-            "title": title or "",
-            "text": body,
-            "amendment_note": amendment_note or "",
-            "related_articles": related,
-            "source_url": source_url,
-            "license": LICENSE,
-            "segment_type": "tsutatsu",
-            # retrieve.py compatibility: article_id=None, law_name_ja used for display
-            "article_id": None,
-            "law_name_ja_display": f"{LAW_NAME_JA} {num}",
-        }
-        items.append(record)
+        items.append(
+            _build_directive_record(
+                num=num,
+                title=title or "",
+                body=body,
+                amendment_note=amendment_note or "",
+                related=related,
+                source_url=source_url,
+                law_abbrev=law_abbrev,
+            )
+        )
 
     body_area = soup.find(id="bodyArea") or soup.find(id="contents")
     if body_area is None:
