@@ -4,13 +4,13 @@
   "law_name_ja": "風俗営業等の規制及び業務の適正化等に関する法律",
   "law_abbrev": "fueihou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/323AC0000000122",
-  "source_xml_path": "../../../cache/laws/323AC0000000122.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\323AC0000000122.xml",
   "source_xml_sha256": "e6a6f841dac9f226fbae3bde5b8063dd291477139fec2a495fb4431124dc4866",
   "source_xml_bytes": 452832,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:26:46+00:00",
+  "parsed_at": "2026-06-23T08:53:09+00:00",
   "version_date": "1948-07-10",
   "article_count": 99,
   "articles": [
@@ -370,8 +370,8 @@
       "article_id": "fueihou-art-31-23",
       "article_number": "31-23",
       "filename": "fueihou-article-31-23.md",
-      "ja_text_sha256": "a0cdc4f18ba0a5f15eaa0d833b1b5f132fa393976cc0ae13ee402bba1b293b59",
-      "ja_text_bytes": 798,
+      "ja_text_sha256": "449a0407276d35508515a96b11210fdf7c076eae59eacb2ffa015c51d5a36d19",
+      "ja_text_bytes": 4067,
       "paragraph_count": 1
     },
     {

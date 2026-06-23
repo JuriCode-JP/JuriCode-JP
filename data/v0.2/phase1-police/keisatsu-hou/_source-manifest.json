@@ -4,13 +4,13 @@
   "law_name_ja": "警察法",
   "law_abbrev": "keisatsu-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/329AC0000000162",
-  "source_xml_path": "../../../cache/laws/329AC0000000162.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\329AC0000000162.xml",
   "source_xml_sha256": "a792585e63e86420f538d2aaf2dace807e468cd5df0a146a3f6464a80267a407",
   "source_xml_bytes": 268929,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:26:53+00:00",
+  "parsed_at": "2026-06-23T08:53:22+00:00",
   "version_date": "1954-06-08",
   "article_count": 98,
   "articles": [
@@ -242,8 +242,8 @@
       "article_id": "keisatsu-hou-art-30",
       "article_number": "30",
       "filename": "keisatsu-hou-article-30.md",
-      "ja_text_sha256": "2dca13607d6284a0cf2748f2460a4b57753bb9b9c7a7ac4c09f1851f1123aa7a",
-      "ja_text_bytes": 505,
+      "ja_text_sha256": "6025c037ba23922b2f5e6099ffb0db97c229c0714683b7ca266a6be5def01676",
+      "ja_text_bytes": 1255,
       "paragraph_count": 2
     },
     {

@@ -4,13 +4,13 @@
   "law_name_ja": "犯罪による収益の移転防止に関する法律",
   "law_abbrev": "hanzai-shueki-iten-boushi-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/419AC0000000022",
-  "source_xml_path": "../../../cache/laws/419AC0000000022.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\419AC0000000022.xml",
   "source_xml_sha256": "88fba423b4d8fb9263b13a9bc75b15cfa27123b7b68f4d6dc87c49bed1421172",
   "source_xml_bytes": 253453,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:26:46+00:00",
+  "parsed_at": "2026-06-23T08:53:12+00:00",
   "version_date": "2007-03-31",
   "article_count": 39,
   "articles": [
@@ -282,8 +282,8 @@
       "article_id": "hanzai-shueki-iten-boushi-hou-art-4",
       "article_number": "4",
       "filename": "hanzai-shueki-iten-boushi-hou-article-4.md",
-      "ja_text_sha256": "ba63896f8ee00b5be1b01354cfe4a5fa9af6ad57b2e98c58d2918f6243294cfb",
-      "ja_text_bytes": 4546,
+      "ja_text_sha256": "6cc58b5c4c63750e734adeb72a5cc44b3d5df11e6e96e1b0e17b76368122b89c",
+      "ja_text_bytes": 6172,
       "paragraph_count": 6
     },
     {

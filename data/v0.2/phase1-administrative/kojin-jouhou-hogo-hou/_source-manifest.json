@@ -4,13 +4,13 @@
   "law_name_ja": "個人情報の保護に関する法律",
   "law_abbrev": "kojin-jouhou-hogo-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/415AC0000000057",
-  "source_xml_path": "../../../cache/laws/415AC0000000057.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\415AC0000000057.xml",
   "source_xml_sha256": "ec9e5e3dd21ea2d2e9d1041de817de74dc3f68b54ac4582d32b91b2c2c04e740",
   "source_xml_bytes": 548579,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:26:41+00:00",
+  "parsed_at": "2026-06-23T08:53:26+00:00",
   "version_date": "2003-05-30",
   "article_count": 185,
   "articles": [
@@ -82,8 +82,8 @@
       "article_id": "kojin-jouhou-hogo-hou-art-106",
       "article_number": "106",
       "filename": "kojin-jouhou-hogo-hou-article-106.md",
-      "ja_text_sha256": "fab36fc965fb54586c4251513f037837dfa17a77011087b0426890de93431547",
-      "ja_text_bytes": 1068,
+      "ja_text_sha256": "2b65d6631628e043e8e776300489c184d93de337347643de2edc1e5c678fac03",
+      "ja_text_bytes": 5206,
       "paragraph_count": 2
     },
     {
