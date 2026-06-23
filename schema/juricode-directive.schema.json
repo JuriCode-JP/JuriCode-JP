@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/juricode-directive.schema.json",
+  "title": "JuriCode-JP Directive Chunk (IR-derived canonical schema)",
+  "description": "Auto-generated JSON Schema from Pydantic IR (juricode_shared.ir.DirectiveChunk). Covers NTA directive (通達) semantic fields only. related_articles is a disjoint Union of linked / unlinked refs (rendered as anyOf). Pipeline fields (id / law_name_ja / law_name_ja_display / segment_type / article_id) are excluded from this schema and merged post-dump by the parser. Edit the Pydantic models in tools/shared/src/juricode_shared/ir.py instead of this file. Original IR description: NTA 通達 1 項分 (e.g. 法人税基本通達 9-2-9) の意味フィールド.\n\n配管フィールド (id / law_name_ja / law_name_ja_display / segment_type /\narticle_id) はモデルに含めず、parse-nta-tsutatsu.py で model_dump() 後に\nDIRECTIVE_KEY_ORDER で再構築マージする (出力保持・TaxAnswerChunk と同パターン).",
+  "$defs": {
+    "DirectiveLinkedArticleRef": {
+      "additionalProperties": false,
+      "description": "通達が参照する条文 (corpus 登録済 = リンク先 article_id あり).\n\nWhy: unlinked 形とキー集合を分離した disjoint Union の一方。相手の\nunlinked_reason を持たない (extra=\"forbid\" が判別子)。",
+      "properties": {
+        "raw": {
+          "description": "本文中の参照 raw token (e.g. '法第34条第4項')",
+          "title": "Raw",
+          "type": "string"
+        },
+        "law_abbrev": {
+          "description": "参照先法令略称 (e.g. 'houjin-zei-hou')",
+          "title": "Law Abbrev",
+          "type": "string"
+        },
+        "article_number": {
+          "description": "条番号 (e.g. '34', '2-2')",
+          "title": "Article Number",
+          "type": "string"
+        },
+        "article_id": {
+          "description": "条文 ID (e.g. 'houjin-zei-hou-art-34')",
+          "title": "Article Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "raw",
+        "law_abbrev",
+        "article_number",
+        "article_id"
+      ],
+      "title": "DirectiveLinkedArticleRef",
+      "type": "object"
+    },
+    "DirectiveUnlinkedArticleRef": {
+      "additionalProperties": false,
+      "description": "通達が参照する条文 (corpus 未登録 = リンク不能).\n\nWhy: linked 形とキー集合を分離した disjoint Union の一方。article_id を\n持たず unlinked_reason を持つ (extra=\"forbid\" が判別子)。",
+      "properties": {
+        "raw": {
+          "description": "本文中の参照 raw token",
+          "title": "Raw",
+          "type": "string"
+        },
+        "law_abbrev": {
+          "description": "参照先法令略称 (corpus 未登録)",
+          "title": "Law Abbrev",
+          "type": "string"
+        },
+        "article_number": {
+          "description": "条番号",
+          "title": "Article Number",
+          "type": "string"
+        },
+        "unlinked_reason": {
+          "description": "リンク不能の理由 (e.g. 'corpus_unregistered')",
+          "title": "Unlinked Reason",
+          "type": "string"
+        }
+      },
+      "required": [
+        "raw",
+        "law_abbrev",
+        "article_number",
+        "unlinked_reason"
+      ],
+      "title": "DirectiveUnlinkedArticleRef",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "directive_id": {
+      "description": "通達 ID (e.g. 'hojin-kihon-tsutatsu-9-2-9')",
+      "title": "Directive Id",
+      "type": "string"
+    },
+    "directive_number": {
+      "description": "通達番号 (e.g. '9-2-9')",
+      "title": "Directive Number",
+      "type": "string"
+    },
+    "law_abbrev": {
+      "description": "通達略称 (e.g. 'hojin-kihon-tsutatsu')",
+      "title": "Law Abbrev",
+      "type": "string"
+    },
+    "title": {
+      "default": "",
+      "description": "項見出し (e.g. '（給与としない経済的な利益）')",
+      "title": "Title",
+      "type": "string"
+    },
+    "text": {
+      "description": "本文 (Markdown)",
+      "title": "Text",
+      "type": "string"
+    },
+    "amendment_note": {
+      "default": "",
+      "description": "改正注記 raw (e.g. '（平19年課法2-3...）')",
+      "title": "Amendment Note",
+      "type": "string"
+    },
+    "related_articles": {
+      "description": "参照条文リスト (linked / unlinked の disjoint Union)",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/DirectiveLinkedArticleRef"
+          },
+          {
+            "$ref": "#/$defs/DirectiveUnlinkedArticleRef"
+          }
+        ]
+      },
+      "title": "Related Articles",
+      "type": "array"
+    },
+    "source_url": {
+      "description": "NTA 通達ページの URL",
+      "title": "Source Url",
+      "type": "string"
+    },
+    "license": {
+      "default": "public-domain-13-2",
+      "description": "ライセンス (著作権法 13 条)",
+      "title": "License",
+      "type": "string"
+    }
+  },
+  "required": [
+    "directive_id",
+    "directive_number",
+    "law_abbrev",
+    "text",
+    "source_url"
+  ],
+  "type": "object"
+}

@@ -9,6 +9,8 @@
 | Schema | 用途 | 出所 |
 |---|---|---|
 | [**juricode-article.schema.json**](./juricode-article.schema.json) | **条文 IR (Pydantic) の canonical schema (v0.1〜)** | **自動生成** ([export-schema.py](../tools/shared/scripts/export-schema.py)) |
+| [juricode-taxanswer.schema.json](./juricode-taxanswer.schema.json) | NTA タックスアンサー chunk の IR 派生 schema (意味フィールドのみ) | 自動生成 ([export-schema.py](../tools/shared/scripts/export-schema.py)) |
+| [juricode-directive.schema.json](./juricode-directive.schema.json) | NTA 通達 (法人税基本通達) chunk の IR 派生 schema (意味フィールドのみ・linked/unlinked は anyOf) | 自動生成 ([export-schema.py](../tools/shared/scripts/export-schema.py)) |
 | [law-frontmatter.schema.json](./law-frontmatter.schema.json) | YAML frontmatter のみの初期検証 (v0.0、参考) | 手書き |
 | [article.schema.json](./article.schema.json) | 条文全体の初期設計 (v0.0、参考) | 手書き |
 | [case-link.schema.json](./case-link.schema.json) | 判例リンク 1 件分の初期設計 (v0.0、参考) | 手書き |
