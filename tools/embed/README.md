@@ -112,6 +112,39 @@ python tools/embed/build-v0.2-corpus.py
 
 `build/chunks/` は `.gitignore` 対象のため CI には乗りません。`verify_table_parity.py` は `cache/laws` (gitignored) を要するので CI ステップではなく、**push 前ローカル CI 再現** (`python tools/scripts/run-ci.py`) の optional step として走ります (`cache/laws` 不在時は自動 SKIP)。
 
+## 柱1-D ablation 起動コマンド (E1-E3', m5 実行用)
+
+dense+rerank (BM25 除去) と HyDE の ablation を `retrieve.py` 単体で実行する。強 reranker (bge-v2-m3) は Windows CPU では非現実的 (15-20s/クエリ) なので **m5 MPS** で回す。本格 ablation 前に **MPS デバイス監査スモーク** (NotImplementedError/nan/silent CPU fallback の検知) を必ず通すこと。
+
+| # | 構成 | コマンド要点 |
+|---|---|---|
+| baseline | dense-only (= 新 baseline) | フラグなし |
+| E1 | dense → 強 rerank (hybrid off) | `--reranker --reranker-model BAAI/bge-reranker-v2-m3` (**`--hybrid-bm25` を付けない**) |
+| E2 | dense → 軽量 rerank (hybrid off) | `--reranker --reranker-model <japanese-reranker-small>` |
+| E3 | HyDE → dense | `--hyde-only --hyde-cache <path>` |
+| E3' | HyDE + 原クエリ Late Fusion | `--hyde --hyde-fusion rrf --hyde-cache <path>` (または `--hyde-fusion minmax`) |
+
+```bash
+# baseline (dense-only / 新 baseline をロックする実測)
+python tools/embed/retrieve.py --embedded <prefix> --eval-set data/eval-set/*.jsonl --top-k 10
+
+# E1: クリーン dense 候補に強 rerank (--hybrid-bm25 を付けない = select_rerank_candidates(hybrid_on=False))
+python tools/embed/retrieve.py --embedded <prefix> --eval-set data/eval-set/*.jsonl --top-k 10 \
+    --reranker --reranker-corpus <corpus.jsonl> --reranker-model BAAI/bge-reranker-v2-m3 --reranker-candidates 30
+
+# E3: HyDE 仮想文 dense のみ (trial 1 が cache を生成、trial 2/3 は ID 照合で再利用)
+GEMINI_API_KEY=... python tools/embed/retrieve.py --embedded <prefix> --eval-set data/eval-set/*.jsonl \
+    --hyde-only --hyde-cache build/hyde-cache.jsonl --hyde-gen-model gemini-2.5-flash
+
+# E3': HyDE + 原クエリ Late Fusion (RRF / 生スコア加算は不可)
+GEMINI_API_KEY=... python tools/embed/retrieve.py --embedded <prefix> --eval-set data/eval-set/*.jsonl \
+    --hyde --hyde-fusion rrf --hyde-cache build/hyde-cache.jsonl --hyde-gen-model gemini-2.5-flash
+```
+
+- **dense+rerank は新規コード不要**: `--reranker` を `--hybrid-bm25` なしで付けると `RetrievalPipeline.select_rerank_candidates(hybrid_on=False)` が **クリーンな dense top-N** をそのまま rerank に渡す (BM25 混入なし)。既存の `run-ablation.py` の `reranker` config がこれに相当。
+- **HyDE の融合は RRF / Min-Max 正規化のみ** (`hyde.rrf_fuse` / `hyde.min_max_fuse`)。生スコア加算・embedding 加算は禁止 (レンジ差で片方がサイレント抹殺される)。仮想文キャッシュは `query_hash` 照合で trial 跨ぎ再利用・欠落は fail-loud。
+- **per-domain 内訳**は eval-set ファイルを 1 本ずつ渡して実行する (各 `data/eval-set/*.jsonl` が 1 ドメイン)。**warm 定常 p95 / HyDE 誤誘導テール**の計測は m5 の cluster harness 側で行う (retrieve.py は R@1/3/5/10/20 + MRR を出力)。
+
 ## 実装スケジュール (予定)
 
 | ステップ | 内容 | 状態 |
