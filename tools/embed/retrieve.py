@@ -439,9 +439,11 @@ def _encode_queries(questions, state):
                 except Exception as e:
                     last_err = e
                     if attempt < MAX_RETRIES:
-                        wait = 1.5**attempt
+                        # 429 RESOURCE_EXHAUSTED: wait at least 65s for quota reset
+                        is_429 = "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e)
+                        wait = 65.0 if is_429 else 1.5**attempt
                         print(
-                            f"  [gemini retry {attempt}/{MAX_RETRIES}] {type(e).__name__}: {e} - waiting {wait:.1f}s",
+                            f"  [gemini retry {attempt}/{MAX_RETRIES}] {type(e).__name__}: waiting {wait:.1f}s",
                             file=sys.stderr,
                         )
                         _time.sleep(wait)
