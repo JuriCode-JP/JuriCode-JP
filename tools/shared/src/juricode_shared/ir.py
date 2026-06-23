@@ -379,3 +379,72 @@ class TaxAnswerChunk(BaseModel):
     source_format: TaxAnswerSourceFormat = Field("nta-html")
     license: str = Field("cc-by-jp-nta", description="ライセンス (CC BY)")
     attribution: str = Field("国税庁タックスアンサー", description="帰属表示")
+
+
+# ---------------------------------------------------------------------------
+# Directive IR (NTA 通達 / 法人税基本通達, 2026-06-23 FU-514)
+# ---------------------------------------------------------------------------
+#
+# 設計判断 (FU-514):
+# - related_articles の参照は **disjoint Union の 2 サブモデル** で表現する
+#   (DirectiveLinkedArticleRef / DirectiveUnlinkedArticleRef)。各サブモデルは
+#   自分のキーのみ持ち (相手フィールドを Optional にしない)、extra="forbid" が
+#   判別子として機能する -> dump で null 混入ゼロ・smart union の誤爆なし。
+#   Why: 単一 all-optional モデルだと unlinked 参照に article_id:null が混入し
+#   出力が変わる (出力保持 gate を破る)。disjoint は構造的に排他で None 削除不要。
+# - 配管フィールド (id / law_name_ja / law_name_ja_display / segment_type /
+#   article_id) は DirectiveChunk に持たせず、parse-nta-tsutatsu.py 側で
+#   model_dump() 後にマージする (TaxAnswerChunk と同パターン・retrieval 都合)。
+
+
+class DirectiveLinkedArticleRef(BaseModel):
+    """通達が参照する条文 (corpus 登録済 = リンク先 article_id あり).
+
+    Why: unlinked 形とキー集合を分離した disjoint Union の一方。相手の
+    unlinked_reason を持たない (extra="forbid" が判別子)。
+    """
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    raw: str = Field(..., description="本文中の参照 raw token (e.g. '法第34条第4項')")
+    law_abbrev: str = Field(..., description="参照先法令略称 (e.g. 'houjin-zei-hou')")
+    article_number: str = Field(..., description="条番号 (e.g. '34', '2-2')")
+    article_id: str = Field(..., description="条文 ID (e.g. 'houjin-zei-hou-art-34')")
+
+
+class DirectiveUnlinkedArticleRef(BaseModel):
+    """通達が参照する条文 (corpus 未登録 = リンク不能).
+
+    Why: linked 形とキー集合を分離した disjoint Union の一方。article_id を
+    持たず unlinked_reason を持つ (extra="forbid" が判別子)。
+    """
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    raw: str = Field(..., description="本文中の参照 raw token")
+    law_abbrev: str = Field(..., description="参照先法令略称 (corpus 未登録)")
+    article_number: str = Field(..., description="条番号")
+    unlinked_reason: str = Field(..., description="リンク不能の理由 (e.g. 'corpus_unregistered')")
+
+
+class DirectiveChunk(BaseModel):
+    """NTA 通達 1 項分 (e.g. 法人税基本通達 9-2-9) の意味フィールド.
+
+    配管フィールド (id / law_name_ja / law_name_ja_display / segment_type /
+    article_id) はモデルに含めず、parse-nta-tsutatsu.py で model_dump() 後に
+    DIRECTIVE_KEY_ORDER で再構築マージする (出力保持・TaxAnswerChunk と同パターン).
+    """
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    directive_id: str = Field(..., description="通達 ID (e.g. 'hojin-kihon-tsutatsu-9-2-9')")
+    directive_number: str = Field(..., description="通達番号 (e.g. '9-2-9')")
+    law_abbrev: str = Field(..., description="通達略称 (e.g. 'hojin-kihon-tsutatsu')")
+    title: str = Field("", description="項見出し (e.g. '（給与としない経済的な利益）')")
+    text: str = Field(..., description="本文 (Markdown)")
+    amendment_note: str = Field("", description="改正注記 raw (e.g. '（平19年課法2-3...）')")
+    related_articles: list[DirectiveLinkedArticleRef | DirectiveUnlinkedArticleRef] = Field(
+        default_factory=list, description="参照条文リスト (linked / unlinked の disjoint Union)"
+    )
+    source_url: str = Field(..., description="NTA 通達ページの URL")
+    license: str = Field("public-domain-13-2", description="ライセンス (著作権法 13 条)")
