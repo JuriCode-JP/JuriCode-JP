@@ -17,7 +17,7 @@ _SHARED_SRC = _REPO_ROOT / "tools" / "shared" / "src"
 if str(_SHARED_SRC) not in sys.path:
     sys.path.insert(0, str(_SHARED_SRC))
 
-from juricode_shared.ir import JuriCodeArticle, TaxAnswerChunk  # noqa: E402
+from juricode_shared.ir import DirectiveChunk, JuriCodeArticle, TaxAnswerChunk  # noqa: E402
 
 
 def _write_schema(schema: dict, output_path: Path) -> None:
@@ -94,6 +94,47 @@ def export_taxanswer_schema(output_dir: Path) -> Path:
     return output_path
 
 
+def export_directive_schema(output_dir: Path) -> Path:
+    """DirectiveChunk の JSON Schema を出力する (FU-514: NTA 通達用・別ファイル).
+
+    Why: TaxAnswer と同じく drift 検出専用の成果物。related_articles の disjoint
+    Union は JSON Schema 上 anyOf に展開されるが、この schema を実行時テーブル
+    マッピングとして消費する下流は存在しないため anyOf 容認 (平坦化しない・YAGNI)。
+    """
+    schema = DirectiveChunk.model_json_schema(
+        mode="validation",
+        ref_template="#/$defs/{model}",
+    )
+
+    original_desc = schema.get("description") or ""
+
+    ordered: dict = {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/juricode-directive.schema.json",
+        "title": "JuriCode-JP Directive Chunk (IR-derived canonical schema)",
+        "description": (
+            "Auto-generated JSON Schema from Pydantic IR "
+            "(juricode_shared.ir.DirectiveChunk). "
+            "Covers NTA directive (通達) semantic fields only. "
+            "related_articles is a disjoint Union of linked / unlinked refs "
+            "(rendered as anyOf). Pipeline fields (id / law_name_ja / "
+            "law_name_ja_display / segment_type / article_id) are excluded from "
+            "this schema and merged post-dump by the parser. "
+            "Edit the Pydantic models in tools/shared/src/juricode_shared/ir.py "
+            "instead of this file. "
+            f"Original IR description: {original_desc}"
+        ),
+    }
+    for k, v in schema.items():
+        if k not in ordered:
+            ordered[k] = v
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / "juricode-directive.schema.json"
+    _write_schema(ordered, output_path)
+    return output_path
+
+
 def main() -> int:
     schema_dir = _REPO_ROOT / "schema"
 
@@ -106,6 +147,11 @@ def main() -> int:
     rel_taxanswer = taxanswer_path.relative_to(_REPO_ROOT)
     print(f"Exported: {rel_taxanswer}")
     print(f"Size: {taxanswer_path.stat().st_size:,} bytes")
+
+    directive_path = export_directive_schema(schema_dir)
+    rel_directive = directive_path.relative_to(_REPO_ROOT)
+    print(f"Exported: {rel_directive}")
+    print(f"Size: {directive_path.stat().st_size:,} bytes")
 
     return 0
 

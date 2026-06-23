@@ -136,3 +136,9 @@ jobs:
             echo "Run 'python tools/shared/scripts/export-schema.py' locally and commit the result."
             exit 1
           }
+          git diff --exit-code schema/juricode-directive.schema.json || {
+            echo ""
+            echo "::error::schema/juricode-directive.schema.json is out of sync with the Pydantic IR."
+            echo "Run 'python tools/shared/scripts/export-schema.py' locally and commit the result."
+            exit 1
+          }
