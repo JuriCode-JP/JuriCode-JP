@@ -1532,6 +1532,15 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **やること**: (1) 両者の diff を棚卸しし canonical (`data/v0.2`) を確定。(2) 旧 `data/phase1-tax` の deprecate/削除 or `archive/` 退避 (v0.1 同様)。(3) CI / 各 tool の走査 root が `data/v0.2` に統一されているか call graph 確認 (FU-307 の scan 統一と併せて検討)。
 
+**スコープ精密化 (2026-06-23 実測)**: ファイル単位 diff = only_old 12（全部 施行令/施行規則の
+`_source-manifest.json`）/ only_new 2,266 / common 3,167（全件 v0.1↔v0.2 形式違いで sha 差分）。
+**重要発見**: この 12 施行令 manifest は Phase 5b（`dd875322` 2026-06-01
+"index 12 tax enforcement orders/regulations"）で**旧 layout にのみ生成**され、v0.2 は施行令 .md は
+在るが `_source-manifest.json` が **0 個 = round-trip 未検証**。⇒ **単純削除不可**（12 施行令の
+round-trip 接地を失う）。正しい解消 = (a) v0.2 形式 manifest を 12 施行令/施行規則に生成（`manifest.cli`）
+→ (b) round-trip 緑 → (c) 旧 `data/phase1-tax` 撤去 → (d) CI 緑。**副産物**: v0.2 税施行令の
+round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria**（locked corpus 変更につき独立 GO 必須）。
+
 **関連**: FU-515 (走査 default 是正) / FU-307 (kou/supplproviso/add_rollup の `_SHARED_SRC` + scan 統一) / FU-108 (v0.1 → archive deprecate の前例)。
 
 ---
