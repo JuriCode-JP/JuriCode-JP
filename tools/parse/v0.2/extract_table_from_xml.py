@@ -41,197 +41,38 @@ _SHARED_SRC = Path(__file__).resolve().parent.parent.parent / "shared" / "src"
 if str(_SHARED_SRC) not in sys.path:
     sys.path.insert(0, str(_SHARED_SRC))
 
+# 表直列化コアは table_core.py に一本化 (FU-515 Phase E / DRY)。本スクリプトの
+# 自ディレクトリを sys.path に入れて import する (script 実行・test import 双方に対応)。
+_HERE = Path(__file__).resolve().parent
+if str(_HERE) not in sys.path:
+    sys.path.insert(0, str(_HERE))
+
 from juricode_shared import safe_write_jsonl  # noqa: E402
 
+# 後方互換のため table_core のシンボルを本モジュールから re-export する
+# (既存テスト・verify_table_parity.py が extract_table_from_xml から import しているため)。
+from table_core import (  # noqa: E402, F401
+    MAX_LEADIN_LEN,
+    WHITESPACE_RE,
+    expand_virtual_grid,
+    get_leadin_for_table,
+    get_text_recursive,
+    grid_to_pipe_rows,
+    normalize_cell_text,
+    table_to_pipe_rows_safe,
+    trim_leadin,
+)
+
 # ============================================================
-# 定数
+# 定数 (windowing は chunk 固有なので本モジュールに残す)
 # ============================================================
 
-MAX_LEADIN_LEN: int = 250  # 導入文の最大文字数 (A-9②)
 MAX_ROWS_PER_CHUNK: int = 20  # 行ウィンドウ幅 (A-7④)
-WHITESPACE_RE = re.compile(r"\s+")
-
-# ============================================================
-# XML ユーティリティ
-# ============================================================
-
-
-def get_text_recursive(elem: Any) -> str:
-    """Element の全 text content を再帰結合 (Rt は skip)."""
-    if elem is None:
-        return ""
-    parts: list[str] = []
-    if elem.text:
-        parts.append(elem.text)
-    for child in elem:
-        if child.tag == "Rt":
-            continue
-        parts.append(get_text_recursive(child))
-        if child.tail:
-            parts.append(child.tail)
-    return "".join(parts)
-
-
-def normalize_cell_text(text: str) -> str:
-    """セルテキストを正規化: 空白折り畳み + | エスケープ."""
-    text = WHITESPACE_RE.sub(" ", text).strip()
-    text = text.replace("|", r"\|")
-    return text
-
-
-def trim_leadin(text: str) -> str:
-    """導入文を MAX_LEADIN_LEN 文字以内にトリム (A-9②).
-
-    読替構造「〜とあるのは〜とする」の末尾が失われないよう、
-    超過時は先頭 MAX_LEADIN_LEN 文字で切ってから警告を出す。
-    """
-    if len(text) <= MAX_LEADIN_LEN:
-        return text
-    trimmed = text[:MAX_LEADIN_LEN]
-    print(
-        f"WARN: leadin trimmed {len(text)} -> {MAX_LEADIN_LEN} chars: {text[:60]!r}...",
-        file=sys.stderr,
-    )
-    return trimmed
-
-
-# ============================================================
-# 仮想グリッド展開 (A-7③ / A-8 1-2)
-# ============================================================
-
-
-def expand_virtual_grid(
-    rows: list[Any],
-) -> list[list[str]]:
-    """TableRow のリストを仮想グリッドに展開し、テキスト行リストを返す.
-
-    rowspan/colspan を結合先セルに値を複製 (逐語複製) する。
-    不整合な colspan は寛容実装: warn + 素通し (クラッシュ禁止)。
-    """
-    # まず全行・全列のセルを収集し、最大列数を確定
-    raw_rows: list[list[tuple[str, int, int]]] = []  # (text, rowspan, colspan)
-    for row in rows:
-        cells_in_row: list[tuple[str, int, int]] = []
-        for cell in row:
-            raw_text = "".join(cell.itertext())
-            text = normalize_cell_text(raw_text)
-            try:
-                rs = max(1, int(cell.get("rowspan") or 1))
-            except (ValueError, TypeError):
-                rs = 1
-            try:
-                cs = max(1, int(cell.get("colspan") or 1))
-            except (ValueError, TypeError):
-                cs = 1
-            cells_in_row.append((text, rs, cs))
-        raw_rows.append(cells_in_row)
-
-    # 最大論理列数 (colspan 展開後)
-    max_cols = max(
-        (sum(cs for _, _, cs in row) for row in raw_rows if row),
-        default=1,
-    )
-
-    # 仮想グリッド構築
-    grid: list[list[str]] = []
-    # carry[col] = (text, remaining_rows)
-    carry: dict[int, tuple[str, int]] = {}
-
-    for row_data in raw_rows:
-        row_out: list[str] = [""] * max_cols
-        col_logical = 0
-        # carry をまず埋める
-        for c in range(max_cols):
-            if c in carry:
-                text, rem = carry[c]
-                row_out[c] = text
-                if rem - 1 > 0:
-                    carry[c] = (text, rem - 1)
-                else:
-                    del carry[c]
-
-        # 今行のセルを配置
-        for text, rs, cs in row_data:
-            # carry が使っていない空き列を探す
-            while col_logical < max_cols and row_out[col_logical] != "":
-                col_logical += 1
-            if col_logical >= max_cols:
-                print(
-                    f"WARN: table column overflow (max_cols={max_cols}), "
-                    f"cell dropped: {text[:30]!r}",
-                    file=sys.stderr,
-                )
-                break
-            # colspan 分を配置
-            for offset in range(cs):
-                target_col = col_logical + offset
-                if target_col >= max_cols:
-                    print(
-                        f"WARN: colspan overflow col={target_col}, max={max_cols}, "
-                        f"cell={text[:30]!r}",
-                        file=sys.stderr,
-                    )
-                    break
-                row_out[target_col] = text
-                if rs > 1:
-                    # rowspan 残り行への複製 (A-9③: 逐語複製)
-                    carry[target_col] = (text, rs - 1)
-            col_logical += cs
-
-        grid.append(row_out)
-
-    return grid
-
-
-def grid_to_pipe_rows(grid: list[list[str]]) -> list[str]:
-    """グリッドを「| A | B | C |」形式の行リストに変換."""
-    return ["| " + " | ".join(row) + " |" for row in grid]
-
-
-# ============================================================
-# 導入文の取得
-# ============================================================
-
-
-def get_leadin_for_table(ts: Any, parent_map: dict[Any, Any]) -> str:
-    """TableStruct の親 Paragraph から ParagraphSentence を取得してトリム."""
-    p = parent_map.get(ts)
-    if p is None:
-        return ""
-    # Paragraph 直下なら ParagraphSentence を探す
-    if p.tag == "Paragraph":
-        ps = p.find("ParagraphSentence")
-        if ps is not None:
-            leadin = get_text_recursive(ps).strip()
-            return trim_leadin(leadin)
-    # Item/QuoteStruct 等の場合は親を辿って Paragraph を探す
-    gp = parent_map.get(p)
-    if gp is not None and gp.tag == "Paragraph":
-        ps = gp.find("ParagraphSentence")
-        if ps is not None:
-            leadin = get_text_recursive(ps).strip()
-            return trim_leadin(leadin)
-    return ""
 
 
 # ============================================================
 # TableStruct → chunks
 # ============================================================
-
-
-def table_to_pipe_rows_safe(ts: Any) -> list[str]:
-    """TableStruct を pipe 行リストに変換 (A-9④: 例外時は plain dump フォールバック)."""
-    try:
-        table_elem = ts.find("Table") or ts
-        rows = list(table_elem.iter("TableRow"))
-        if not rows:
-            return []
-        grid = expand_virtual_grid(rows)
-        return grid_to_pipe_rows(grid)
-    except Exception as e:
-        print(f"WARN: table render failed ({e}), falling back to plain dump", file=sys.stderr)
-        raw = normalize_cell_text(get_text_recursive(ts))
-        return [raw] if raw else []
 
 
 def build_table_chunks_for_ts(
