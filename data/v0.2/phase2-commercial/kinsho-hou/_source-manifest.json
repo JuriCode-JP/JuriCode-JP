@@ -4,13 +4,13 @@
   "law_name_ja": "金融商品取引法",
   "law_abbrev": "kinsho-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/323AC0000000025",
-  "source_xml_path": "../../../cache/laws/323AC0000000025.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\323AC0000000025.xml",
   "source_xml_sha256": "c7e0749bd3ccd7427ce9da436dac74e01e27cbaabd6e7937a7a891198b65f19b",
   "source_xml_bytes": 4553018,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:28:35+00:00",
+  "parsed_at": "2026-06-23T08:55:40+00:00",
   "version_date": "1948-04-13",
   "article_count": 1101,
   "articles": [
@@ -3458,8 +3458,8 @@
       "article_id": "kinsho-hou-art-185-7",
       "article_number": "185-7",
       "filename": "kinsho-hou-article-185-7.md",
-      "ja_text_sha256": "939df9bba6c124f1db31c6000f6c851dc05a00b806beecf04f92057cbdef3d7c",
-      "ja_text_bytes": 27531,
+      "ja_text_sha256": "b23567b9338d4a17be0a798b1c5afb406ea7551465ea501be6033f79035b9523",
+      "ja_text_bytes": 41636,
       "paragraph_count": 31
     },
     {
@@ -4418,8 +4418,8 @@
       "article_id": "kinsho-hou-art-24-5",
       "article_number": "24-5",
       "filename": "kinsho-hou-article-24-5.md",
-      "ja_text_sha256": "5d121d334383ed5f2c15813963d68ecaadd1269bbc80ff0940fa012ddcf0d963",
-      "ja_text_bytes": 15346,
+      "ja_text_sha256": "4157800da25d369ae9186dfa09ab9b5a3b6500cbbdbb10868dc494d096b719fc",
+      "ja_text_bytes": 16841,
       "paragraph_count": 21
     },
     {

@@ -4,13 +4,13 @@
   "law_name_ja": "昭和二十二年法律第五十四号（私的独占の禁止及び公正取引の確保に関する法律）",
   "law_abbrev": "dokusen-kinshi-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/322AC0000000054",
-  "source_xml_path": "../../../cache/laws/322AC0000000054.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\322AC0000000054.xml",
   "source_xml_sha256": "f8af7108d855955c56d4c988cddc9c2f24bd2a9e2c8cafb3d5bcf06702319617",
   "source_xml_bytes": 859269,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:27:18+00:00",
+  "parsed_at": "2026-06-23T08:55:33+00:00",
   "version_date": "1947-04-14",
   "article_count": 177,
   "articles": [
@@ -386,8 +386,8 @@
       "article_id": "dokusen-kinshi-hou-art-20-7",
       "article_number": "20-7",
       "filename": "dokusen-kinshi-hou-article-20-7.md",
-      "ja_text_sha256": "97db6847d03eabe807df0e4adb179a38582487615f35d9b3487819d65fa20ac7",
-      "ja_text_bytes": 405,
+      "ja_text_sha256": "ef716391cf645304690feeef2bfa4ed72b045d0e31cfbe281530e4561ca9100c",
+      "ja_text_bytes": 3675,
       "paragraph_count": 1
     },
     {
@@ -954,8 +954,8 @@
       "article_id": "dokusen-kinshi-hou-art-7-9",
       "article_number": "7-9",
       "filename": "dokusen-kinshi-hou-article-7-9.md",
-      "ja_text_sha256": "51a9dad600851dea45bf66c0553b2bb27a3d589738ffeb0b1247a7af6157b61d",
-      "ja_text_bytes": 3630,
+      "ja_text_sha256": "3d9a9fa0d03289f4dd9bffdb2198df59302ad99fb9f7a3a535bfab5bc2a5d8d3",
+      "ja_text_bytes": 10615,
       "paragraph_count": 4
     },
     {
@@ -1146,8 +1146,8 @@
       "article_id": "dokusen-kinshi-hou-art-8-3",
       "article_number": "8-3",
       "filename": "dokusen-kinshi-hou-article-8-3.md",
-      "ja_text_sha256": "f09fbb9b6503096f28a8cac944788a8d2071e73dfe10600a3da003eced22c083",
-      "ja_text_bytes": 744,
+      "ja_text_sha256": "6f98489cde8ce15a76144336d6531f0ede4a24868261faf8e85ed05052a2ca55",
+      "ja_text_bytes": 7062,
       "paragraph_count": 1
     },
     {
