@@ -4,13 +4,13 @@
   "law_name_ja": "医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律施行規則",
   "law_abbrev": "yakkihou-shikoukisoku",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/336M50000100001",
-  "source_xml_path": "../../../cache/laws/336M50000100001.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\336M50000100001.xml",
   "source_xml_sha256": "74eb4754b50f7aeab41a0c4c3908ec6d0ea6d456ab4cec923b1920ff067e6179",
   "source_xml_bytes": 4580436,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:28:48+00:00",
+  "parsed_at": "2026-06-23T08:56:32+00:00",
   "version_date": "1961-02-01",
   "article_count": 811,
   "articles": [
@@ -386,8 +386,8 @@
       "article_id": "yakkihou-shikoukisoku-art-114-16",
       "article_number": "114-16",
       "filename": "yakkihou-shikoukisoku-article-114-16.md",
-      "ja_text_sha256": "c0a6a55980c2ac589d63e8c583a73bf7b6cc63251968f05116d39487c3465a99",
-      "ja_text_bytes": 398,
+      "ja_text_sha256": "692ded32f2aff28ea9dbac7a264241d78c2d8d71309f79d38fa011e63362cd72",
+      "ja_text_bytes": 2041,
       "paragraph_count": 2
     },
     {
@@ -1322,8 +1322,8 @@
       "article_id": "yakkihou-shikoukisoku-art-118",
       "article_number": "118",
       "filename": "yakkihou-shikoukisoku-article-118.md",
-      "ja_text_sha256": "eb3f3b269903c7d4273cbed54ff8ff6d69038fb36aab8767d084dce1596a3d48",
-      "ja_text_bytes": 1634,
+      "ja_text_sha256": "eedf09d8de980a1fab67fe8766261bb68ea80e487bd848e58e585a0a90019375",
+      "ja_text_bytes": 11840,
       "paragraph_count": 4
     },
     {
@@ -1650,8 +1650,8 @@
       "article_id": "yakkihou-shikoukisoku-art-137-20",
       "article_number": "137-20",
       "filename": "yakkihou-shikoukisoku-article-137-20.md",
-      "ja_text_sha256": "2e8c0eee9419c9271e7424f3fa2aae524510574d5bbe55af1a04629f6b11343f",
-      "ja_text_bytes": 347,
+      "ja_text_sha256": "7c5d24d83675d628b24f2c22c1227ac7b7d0de3f6337d68fbdd9f82046519984",
+      "ja_text_bytes": 4705,
       "paragraph_count": 2
     },
     {
@@ -3282,8 +3282,8 @@
       "article_id": "yakkihou-shikoukisoku-art-159-2",
       "article_number": "159-2",
       "filename": "yakkihou-shikoukisoku-article-159-2.md",
-      "ja_text_sha256": "2fcf9f2ae6d213fa25be59ecfb0fe1bceb66d3b4cec22921a6a0cf54ccfd4930",
-      "ja_text_bytes": 204,
+      "ja_text_sha256": "b24e5a4c058056a9adaff99d768d934a0c3bfaa17adeef64382470a6f81c65ac",
+      "ja_text_bytes": 1045,
       "paragraph_count": 1
     },
     {
@@ -4098,16 +4098,16 @@
       "article_id": "yakkihou-shikoukisoku-art-209-3",
       "article_number": "209-3",
       "filename": "yakkihou-shikoukisoku-article-209-3.md",
-      "ja_text_sha256": "89cb63daebded7967275d5ec1e72f78ddd3905cbdca0fb9db476818a0c5dcabe",
-      "ja_text_bytes": 740,
+      "ja_text_sha256": "2cc80e2ee7552655ec0acc53124a19b0bf84d952eefcb949baf22ff114dde662",
+      "ja_text_bytes": 885,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-shikoukisoku-art-209-4",
       "article_number": "209-4",
       "filename": "yakkihou-shikoukisoku-article-209-4.md",
-      "ja_text_sha256": "3eadc63f82da6415f57d44a020b369121183fe8df6353e6c47583d6e76ed98ad",
-      "ja_text_bytes": 638,
+      "ja_text_sha256": "4ae8a0055fb63198dc56e15a7e995d58af9b4e0b09e581308b3c7f0501c36f3a",
+      "ja_text_bytes": 987,
       "paragraph_count": 2
     },
     {
@@ -4154,8 +4154,8 @@
       "article_id": "yakkihou-shikoukisoku-art-211",
       "article_number": "211",
       "filename": "yakkihou-shikoukisoku-article-211.md",
-      "ja_text_sha256": "9a2724ff2874448abe4deaa171ebd985dcdb072582a6d1fd4ac7006793fbe365",
-      "ja_text_bytes": 1795,
+      "ja_text_sha256": "f60f230e380561bfd1faf1f8ff3250a97027dab34247650a76c8d5261e13444c",
+      "ja_text_bytes": 4619,
       "paragraph_count": 3
     },
     {
@@ -4202,8 +4202,8 @@
       "article_id": "yakkihou-shikoukisoku-art-215",
       "article_number": "215",
       "filename": "yakkihou-shikoukisoku-article-215.md",
-      "ja_text_sha256": "bffe382777cad63ed684c390f3b0df3222b99e3997a6ea6776451ab8784682d3",
-      "ja_text_bytes": 1386,
+      "ja_text_sha256": "33645cbcc61efa4c29d79610f296a73bcd26aba0644d1c573167fb0e37a6dee0",
+      "ja_text_bytes": 5986,
       "paragraph_count": 2
     },
     {
@@ -4218,8 +4218,8 @@
       "article_id": "yakkihou-shikoukisoku-art-216",
       "article_number": "216",
       "filename": "yakkihou-shikoukisoku-article-216.md",
-      "ja_text_sha256": "e9e24c321c89c86b581362415dbe689303ce3dc2b1fa021dff8e4d985cd4d743",
-      "ja_text_bytes": 1773,
+      "ja_text_sha256": "a51e82f18159d7e00968eea39513e4d3e586ec59687a858148325b5925c481ff",
+      "ja_text_bytes": 3610,
       "paragraph_count": 2
     },
     {
@@ -4250,8 +4250,8 @@
       "article_id": "yakkihou-shikoukisoku-art-218-2-4",
       "article_number": "218-2-4",
       "filename": "yakkihou-shikoukisoku-article-218-2-4.md",
-      "ja_text_sha256": "9a35366ea80611388242a17bcdbfccd68ab26bae0e70440ba46617029136fa0e",
-      "ja_text_bytes": 377,
+      "ja_text_sha256": "5294ace1f45fe3559edc33afa01c99a778aac383481895afa89f04c3be18447a",
+      "ja_text_bytes": 884,
       "paragraph_count": 2
     },
     {
@@ -4298,8 +4298,8 @@
       "article_id": "yakkihou-shikoukisoku-art-219-2",
       "article_number": "219-2",
       "filename": "yakkihou-shikoukisoku-article-219-2.md",
-      "ja_text_sha256": "fbb52ff269ef3bf81f9f32bc6f78f555bfcb3c5b131cdb6abd434d6e86999f0a",
-      "ja_text_bytes": 356,
+      "ja_text_sha256": "6adf715cd80633560d14a567c741f0d9d1a241eb96a2cdc8c405174a18013fe2",
+      "ja_text_bytes": 795,
       "paragraph_count": 2
     },
     {
@@ -4330,8 +4330,8 @@
       "article_id": "yakkihou-shikoukisoku-art-220-3",
       "article_number": "220-3",
       "filename": "yakkihou-shikoukisoku-article-220-3.md",
-      "ja_text_sha256": "4d530a628aa5082cf3b2b779dfcbde32e27bd3126fc7d525416d8b57a5565ae2",
-      "ja_text_bytes": 677,
+      "ja_text_sha256": "89b85cee9b0af0171c16d904c7308ca5fa7fac16aed3844e4d5bd114c3b37659",
+      "ja_text_bytes": 6752,
       "paragraph_count": 2
     },
     {
@@ -4354,8 +4354,8 @@
       "article_id": "yakkihou-shikoukisoku-art-221-3",
       "article_number": "221-3",
       "filename": "yakkihou-shikoukisoku-article-221-3.md",
-      "ja_text_sha256": "cd4a079138ef4b2783e847033e5c8ab32dc61450db93b2af785d5596ad0e9fc6",
-      "ja_text_bytes": 650,
+      "ja_text_sha256": "f3afbfaf225780ac1770f70d97484b04de5850644be8675c2fb6598c6a8b1737",
+      "ja_text_bytes": 6105,
       "paragraph_count": 2
     },
     {
@@ -4394,8 +4394,8 @@
       "article_id": "yakkihou-shikoukisoku-art-224",
       "article_number": "224",
       "filename": "yakkihou-shikoukisoku-article-224.md",
-      "ja_text_sha256": "4250d05618bb202e2e77ae8d210148b87769356e8553f1040c17e2252a68764a",
-      "ja_text_bytes": 4206,
+      "ja_text_sha256": "49e7b7a2e8771869345975442c03e839bef98ab4079e44cd5c9c634fc71febdb",
+      "ja_text_bytes": 6268,
       "paragraph_count": 8
     },
     {
@@ -4674,24 +4674,24 @@
       "article_id": "yakkihou-shikoukisoku-art-228-5",
       "article_number": "228-5",
       "filename": "yakkihou-shikoukisoku-article-228-5.md",
-      "ja_text_sha256": "3cc55ac89852107327fe9f6391810169b15297ca8b0e4e61bb1581f1cfa662ec",
-      "ja_text_bytes": 2277,
+      "ja_text_sha256": "141fa9affa4b1d4ba95ce2d938b8120486ff3be550b24e81dddca47158045aaa",
+      "ja_text_bytes": 3206,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-shikoukisoku-art-228-9",
       "article_number": "228-9",
       "filename": "yakkihou-shikoukisoku-article-228-9.md",
-      "ja_text_sha256": "61ad856169b8c60823e05ec20353d4ebd2c2b646dd5e1392cf8aaf678bb8d234",
-      "ja_text_bytes": 530,
+      "ja_text_sha256": "ae61ae992df8f2a4f85d46893f0a2cdc7f1c876f3d0ff770d7216705f8bb402e",
+      "ja_text_bytes": 7002,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-shikoukisoku-art-228",
       "article_number": "228",
       "filename": "yakkihou-shikoukisoku-article-228.md",
-      "ja_text_sha256": "49a16e73e5f9b7d672cbde56ea40a4c458cdd6924aaa04882a9edb6102aa749f",
-      "ja_text_bytes": 585,
+      "ja_text_sha256": "0befac8e5af625196c22ee8ad97cead7891f7ffd636546d0e3ea4b4a99d5b197",
+      "ja_text_bytes": 8688,
       "paragraph_count": 2
     },
     {
@@ -5490,8 +5490,8 @@
       "article_id": "yakkihou-shikoukisoku-art-284",
       "article_number": "284",
       "filename": "yakkihou-shikoukisoku-article-284.md",
-      "ja_text_sha256": "13d7a143c086fbf0546199fae40e14921e362224b42fa1fced675fc654473901",
-      "ja_text_bytes": 939,
+      "ja_text_sha256": "97745f849a9bae25ded85f1208eb62938909336fb9b42a74d846f6c7ea569bee",
+      "ja_text_bytes": 16904,
       "paragraph_count": 2
     },
     {
@@ -5642,16 +5642,16 @@
       "article_id": "yakkihou-shikoukisoku-art-37-3",
       "article_number": "37-3",
       "filename": "yakkihou-shikoukisoku-article-37-3.md",
-      "ja_text_sha256": "a22fe01910ea335d25ef4a71846418bda761c7738173c0ac5966ed63927089d5",
-      "ja_text_bytes": 434,
+      "ja_text_sha256": "6bf34d9c71838ec4f01ca71e209097ae252a57caa9b99d7adafcb042e1ac46ef",
+      "ja_text_bytes": 1948,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-shikoukisoku-art-37",
       "article_number": "37",
       "filename": "yakkihou-shikoukisoku-article-37.md",
-      "ja_text_sha256": "867de836a60af4fbb5411164812ab99dbb61b0680dd9500899e9d6a9ebbfc31a",
-      "ja_text_bytes": 700,
+      "ja_text_sha256": "341415070bb06f5eb21b0a09459a5048703b182ba0255b9b40f207f31e1f4dae",
+      "ja_text_bytes": 5568,
       "paragraph_count": 2
     },
     {

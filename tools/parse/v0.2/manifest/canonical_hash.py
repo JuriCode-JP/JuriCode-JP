@@ -39,6 +39,14 @@ if str(_PARSE_DIR) not in sys.path:
 
 from _canonicalize import canonicalize  # noqa: E402  (must follow sys.path tweak)
 
+# 表の GFM 区切り行除外は table_core に一本化し verify.py と共有する (案C・FU-515 E-4)。
+# table_core は tools/parse/v0.2/ にある (本 module の parent.parent)。
+_V02_DIR = Path(__file__).resolve().parent.parent
+if str(_V02_DIR) not in sys.path:
+    sys.path.insert(0, str(_V02_DIR))
+
+from table_core import is_gfm_separator_line  # noqa: E402
+
 # ---------------------------------------------------------------------
 # Regex 定義 -- verify.py:33-46 と**文字列レベルで完全一致**を維持すること.
 # 1 文字違うと hash が変わって CI が落ちる. FU-405 で shared 化予定.
@@ -95,6 +103,9 @@ def extract_ja_paragraphs(md_text: str) -> list[str]:
         end = headings[i + 1].start() if i + 1 < len(headings) else len(body)
         chunk = body[start:end]
         lines = chunk.splitlines()
+        # 案C (FU-515 E-4): GFM 表の区切り行 (| --- |) は描画用装飾なので hash から除外。
+        # 表セマンティクスを markdown 外見から切り離す。verify.py と同一処理 (table_core 共有)。
+        lines = [ln for ln in lines if not is_gfm_separator_line(ln)]
         # verify.py と同じく、末尾の空行・ハイフン区切り (---) を削る
         while lines and (not lines[-1].strip() or set(lines[-1].strip()) <= {"-"}):
             lines.pop()

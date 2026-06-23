@@ -30,6 +30,13 @@ except ImportError:
 sys.path.insert(0, str(Path(__file__).parent))
 from _canonicalize import canonicalize
 
+# 表の GFM 区切り行除外は table_core に一本化し canonical_hash.py と共有する
+# (案C・FU-515 E-4)。table_core は tools/parse/v0.2/ にある。
+_V02_DIR = Path(__file__).resolve().parent / "v0.2"
+if str(_V02_DIR) not in sys.path:
+    sys.path.insert(0, str(_V02_DIR))
+from table_core import is_gfm_separator_line  # noqa: E402
+
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
 JA_SECTION_RE = re.compile(
     r"##\s*原文\s*\(?日本語\)?\s*\n(.*?)(?=\n##\s|\Z)",
@@ -98,6 +105,9 @@ def extract_ja_paragraphs_from_md(md_text):
         end = headings[i + 1].start() if i + 1 < len(headings) else len(body)
         chunk = body[start:end]
         lines = chunk.splitlines()
+        # 案C (FU-515 E-4): GFM 表の区切り行 (| --- |) は描画用装飾なので hash から除外。
+        # canonical_hash.py と同一処理 (table_core 共有)。
+        lines = [ln for ln in lines if not is_gfm_separator_line(ln)]
         while lines and (not lines[-1].strip() or set(lines[-1].strip()) <= {"-"}):
             lines.pop()
         text = "\n".join(lines).strip()

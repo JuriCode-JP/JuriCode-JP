@@ -4,13 +4,13 @@
   "law_name_ja": "刑事訴訟法",
   "law_abbrev": "keiji-soshou-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/323AC0000000131",
-  "source_xml_path": "../../../cache/laws/323AC0000000131.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\323AC0000000131.xml",
   "source_xml_sha256": "1c74f936decfce2c9a51b7f7119b335c0c0189ed6c4cacee31400608e121e635",
   "source_xml_bytes": 1255839,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:26:53+00:00",
+  "parsed_at": "2026-06-23T08:53:17+00:00",
   "version_date": "1948-07-10",
   "article_count": 714,
   "articles": [
@@ -3098,8 +3098,8 @@
       "article_id": "keiji-soshou-hou-art-345-3",
       "article_number": "345-3",
       "filename": "keiji-soshou-hou-article-345-3.md",
-      "ja_text_sha256": "e91b8d8f632f376dbcd566e800fdefe46c2fe9e284b15806f095623f6d19cfdd",
-      "ja_text_bytes": 309,
+      "ja_text_sha256": "ad54848da84124438bacb59da403acea84b8a5e19fc08c0eac4013ff90cfbf5f",
+      "ja_text_bytes": 1276,
       "paragraph_count": 1
     },
     {
@@ -4714,8 +4714,8 @@
       "article_id": "keiji-soshou-hou-art-483-2",
       "article_number": "483-2",
       "filename": "keiji-soshou-hou-article-483-2.md",
-      "ja_text_sha256": "cff773877ca5a8532fc61625b7b480b8338fff5156e67cfff352fc3f22e0421c",
-      "ja_text_bytes": 504,
+      "ja_text_sha256": "13dfce3dd047adce15413abdce5304fb24691e4242762d23c3991a09a6d3bdb4",
+      "ja_text_bytes": 2260,
       "paragraph_count": 1
     },
     {
@@ -4858,8 +4858,8 @@
       "article_id": "keiji-soshou-hou-art-494-12",
       "article_number": "494-12",
       "filename": "keiji-soshou-hou-article-494-12.md",
-      "ja_text_sha256": "28cd2dd3a44546eb726a8111ca53404485171b042f9f779571f92f016cae3178",
-      "ja_text_bytes": 1327,
+      "ja_text_sha256": "fee72549bf22dfa98f659c0c6ffe361e3465745f4592945a9568e7550d72f5a9",
+      "ja_text_bytes": 3633,
       "paragraph_count": 3
     },
     {
@@ -4882,8 +4882,8 @@
       "article_id": "keiji-soshou-hou-art-494-2",
       "article_number": "494-2",
       "filename": "keiji-soshou-hou-article-494-2.md",
-      "ja_text_sha256": "5203a0b699f70b229fb317092c40104c3d9f370467ae168be78d069b10d42213",
-      "ja_text_bytes": 624,
+      "ja_text_sha256": "b178571a964cd98e8611433f582bc95fb519a7c95059d9236f9ca525201523f9",
+      "ja_text_bytes": 3991,
       "paragraph_count": 1
     },
     {
@@ -4898,8 +4898,8 @@
       "article_id": "keiji-soshou-hou-art-494-4",
       "article_number": "494-4",
       "filename": "keiji-soshou-hou-article-494-4.md",
-      "ja_text_sha256": "78c2e61a493ebf8e50fdb5f11181983c536fcd7223b2e85b18143973e736e21d",
-      "ja_text_bytes": 471,
+      "ja_text_sha256": "6c30727f41564611382f754e013cc2488863b0989395967d6f48e2d59c57fac7",
+      "ja_text_bytes": 2381,
       "paragraph_count": 1
     },
     {
@@ -4922,16 +4922,16 @@
       "article_id": "keiji-soshou-hou-art-494-7",
       "article_number": "494-7",
       "filename": "keiji-soshou-hou-article-494-7.md",
-      "ja_text_sha256": "45dc6d94b7eaed0dcd5b41923229e90ce21ca0ddb9f564abbeeb5fbb30b5b473",
-      "ja_text_bytes": 587,
+      "ja_text_sha256": "b12e8375df6739a11aa4e5b1420bede43e423ae802b2f97d1d9b449219a96d4b",
+      "ja_text_bytes": 1742,
       "paragraph_count": 2
     },
     {
       "article_id": "keiji-soshou-hou-art-494-8",
       "article_number": "494-8",
       "filename": "keiji-soshou-hou-article-494-8.md",
-      "ja_text_sha256": "0db868de4d4b53215c0fd065a1475b7a9915192dbf69fdc78849b1beaeaeda0f",
-      "ja_text_bytes": 935,
+      "ja_text_sha256": "52e5e34438cc0c2e85ca722793f2a86e50b9960034a293396d4b3466ee4157b3",
+      "ja_text_bytes": 2773,
       "paragraph_count": 2
     },
     {

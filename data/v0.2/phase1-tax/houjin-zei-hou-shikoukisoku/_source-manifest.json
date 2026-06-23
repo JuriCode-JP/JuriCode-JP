@@ -10,7 +10,7 @@
   "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-06-23T05:48:24+00:00",
+  "parsed_at": "2026-06-23T08:54:30+00:00",
   "version_date": "1965-03-31",
   "article_count": 293,
   "articles": [
@@ -114,8 +114,8 @@
       "article_id": "houjin-zei-hou-shikoukisoku-art-2-2",
       "article_number": "2-2",
       "filename": "houjin-zei-hou-shikoukisoku-article-2-2.md",
-      "ja_text_sha256": "954063c8ebb88756a81e4cb41f7c3ff528a074539ed6de0823ddcf3954cdd9ae",
-      "ja_text_bytes": 720,
+      "ja_text_sha256": "86131831e448e618f398185eb73b38e38cfdd1cfecebbf45d7daedb49bbaaa59",
+      "ja_text_bytes": 2115,
       "paragraph_count": 2
     },
     {
@@ -1898,8 +1898,8 @@
       "article_id": "houjin-zei-hou-shikoukisoku-art-59",
       "article_number": "59",
       "filename": "houjin-zei-hou-shikoukisoku-article-59.md",
-      "ja_text_sha256": "822696750321e551b2dc29692486af32b62bc229ff345c2145818c3527be5a91",
-      "ja_text_bytes": 2065,
+      "ja_text_sha256": "45b412df58fedf31b39eb6a614142564d9b1921202d7c6f528d01d04a32c45ea",
+      "ja_text_bytes": 2531,
       "paragraph_count": 6
     },
     {
@@ -1970,8 +1970,8 @@
       "article_id": "houjin-zei-hou-shikoukisoku-art-60-4",
       "article_number": "60-4",
       "filename": "houjin-zei-hou-shikoukisoku-article-60-4.md",
-      "ja_text_sha256": "e02c16b72e0c367eae22974b5cf6857b9a98c38d9e3555161397e29ab033546a",
-      "ja_text_bytes": 570,
+      "ja_text_sha256": "70a599b50c43016c542b783257ac6472fa9065f8551e6b4d59fe69a2a0126f10",
+      "ja_text_bytes": 4339,
       "paragraph_count": 1
     },
     {
@@ -2146,8 +2146,8 @@
       "article_id": "houjin-zei-hou-shikoukisoku-art-62",
       "article_number": "62",
       "filename": "houjin-zei-hou-shikoukisoku-article-62.md",
-      "ja_text_sha256": "4705939d1338672b4d145eae6f58c00255824c7890e2de73d8e7b31395978c96",
-      "ja_text_bytes": 708,
+      "ja_text_sha256": "d8fc87f10d9a0941411d3efc0adb973302d5b5831529240878d1bb0dc33ed076",
+      "ja_text_bytes": 5451,
       "paragraph_count": 1
     },
     {

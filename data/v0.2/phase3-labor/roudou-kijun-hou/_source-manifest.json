@@ -4,13 +4,13 @@
   "law_name_ja": "労働基準法",
   "law_abbrev": "roudou-kijun-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/322AC0000000049",
-  "source_xml_path": "../../../cache/laws/322AC0000000049.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\322AC0000000049.xml",
   "source_xml_sha256": "0d33ccba0a0d7ba441aeab9a9ed94d4afdb5235a29d8f7580bd0efc4602aba24",
   "source_xml_bytes": 401565,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:28:42+00:00",
+  "parsed_at": "2026-06-23T08:56:21+00:00",
   "version_date": "1947-04-07",
   "article_count": 122,
   "articles": [
@@ -522,8 +522,8 @@
       "article_id": "roudou-kijun-hou-art-39",
       "article_number": "39",
       "filename": "roudou-kijun-hou-article-39.md",
-      "ja_text_sha256": "cf8096a75083d18a04225c729486b3abcb49995ff2fcd06e0a05476dd64fa9d9",
-      "ja_text_bytes": 7553,
+      "ja_text_sha256": "e8043f3e6a9cd6f5271571d1c22991c419e522a9bebfcafbbdc2cc58f34df889",
+      "ja_text_bytes": 7787,
       "paragraph_count": 10
     },
     {

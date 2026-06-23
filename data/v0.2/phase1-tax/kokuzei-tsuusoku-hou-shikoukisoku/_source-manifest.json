@@ -10,7 +10,7 @@
   "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-06-23T05:48:25+00:00",
+  "parsed_at": "2026-06-23T08:54:34+00:00",
   "version_date": "1962-04-02",
   "article_count": 30,
   "articles": [
@@ -186,8 +186,8 @@
       "article_id": "kokuzei-tsuusoku-hou-shikoukisoku-art-16",
       "article_number": "16",
       "filename": "kokuzei-tsuusoku-hou-shikoukisoku-article-16.md",
-      "ja_text_sha256": "4e9b9e5fc834029a8f90b2dd16b6d0749c5d76927c5d1e66e89e327f5cfecf5b",
-      "ja_text_bytes": 1150,
+      "ja_text_sha256": "8d94a972fbba175a37709eb73635ab05d2aa504f7dbb52b25cdb6101a0cc7471",
+      "ja_text_bytes": 2276,
       "paragraph_count": 3
     },
     {

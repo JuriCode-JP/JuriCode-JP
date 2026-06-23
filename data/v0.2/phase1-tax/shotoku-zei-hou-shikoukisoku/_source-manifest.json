@@ -10,7 +10,7 @@
   "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-06-23T05:48:28+00:00",
+  "parsed_at": "2026-06-23T08:54:51+00:00",
   "version_date": "1965-03-31",
   "article_count": 250,
   "articles": [
@@ -1034,8 +1034,8 @@
       "article_id": "shotoku-zei-hou-shikoukisoku-art-63",
       "article_number": "63",
       "filename": "shotoku-zei-hou-shikoukisoku-article-63.md",
-      "ja_text_sha256": "6b859080956bf5fb6d1616659d739d515100365ef09dde96ade2059141b69c3c",
-      "ja_text_bytes": 3042,
+      "ja_text_sha256": "8503227d573bd5bf36c457c8ddd5755db7a70c3373e80e9bd2aa69273326207b",
+      "ja_text_bytes": 3457,
       "paragraph_count": 7
     },
     {
@@ -1138,8 +1138,8 @@
       "article_id": "shotoku-zei-hou-shikoukisoku-art-67",
       "article_number": "67",
       "filename": "shotoku-zei-hou-shikoukisoku-article-67.md",
-      "ja_text_sha256": "9173f63b972cbf4863a8516158110ed0fa5ca81c14eb9b735ec14f7ae8de5425",
-      "ja_text_bytes": 795,
+      "ja_text_sha256": "d10902d30418984721332170a43b6864b3c5f801eff6244eb68b02117ec12a27",
+      "ja_text_bytes": 4172,
       "paragraph_count": 1
     },
     {

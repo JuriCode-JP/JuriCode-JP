@@ -4,13 +4,13 @@
   "law_name_ja": "道路交通法",
   "law_abbrev": "douro-koutsuu-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/335AC0000000105",
-  "source_xml_path": "../../../cache/laws/335AC0000000105.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\335AC0000000105.xml",
   "source_xml_sha256": "94cdbe57b1fb73aadd6d77fca34742eacaf879b29ff61c0127965271d34784bb",
   "source_xml_bytes": 1469673,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:26:46+00:00",
+  "parsed_at": "2026-06-23T08:53:05+00:00",
   "version_date": "1960-06-25",
   "article_count": 355,
   "articles": [
@@ -2338,8 +2338,8 @@
       "article_id": "douro-koutsuu-hou-art-75-2",
       "article_number": "75-2",
       "filename": "douro-koutsuu-hou-article-75-2.md",
-      "ja_text_sha256": "31421341f30795e1949b3c2e1ce77d50805730b67b7fd7239370b588336ac9bc",
-      "ja_text_bytes": 1738,
+      "ja_text_sha256": "4d962e191869d8c34da6cb9ca05fac849394744db3001ad7d1b5f9f7de26fceb",
+      "ja_text_bytes": 2059,
       "paragraph_count": 3
     },
     {
@@ -2378,8 +2378,8 @@
       "article_id": "douro-koutsuu-hou-art-75-24",
       "article_number": "75-24",
       "filename": "douro-koutsuu-hou-article-75-24.md",
-      "ja_text_sha256": "151bbd3b7c90b8629653020fd66df99e315a8052d111a9478ece644485b84382",
-      "ja_text_bytes": 348,
+      "ja_text_sha256": "6ea37b4b024e9a79a3520c06b6bc120b3351eb109a1a845e29491ba94f8c749c",
+      "ja_text_bytes": 2725,
       "paragraph_count": 1
     },
     {
@@ -2586,16 +2586,16 @@
       "article_id": "douro-koutsuu-hou-art-85",
       "article_number": "85",
       "filename": "douro-koutsuu-hou-article-85.md",
-      "ja_text_sha256": "6f067b9a674c20239b4cab8d0567e02f2d0a3a620801156556982f1ad05c877a",
-      "ja_text_bytes": 6111,
+      "ja_text_sha256": "dd1bc6f813ffcc93540112d27c48bb50ca07b871d80f1db16ad41db82af3f3a5",
+      "ja_text_bytes": 7307,
       "paragraph_count": 12
     },
     {
       "article_id": "douro-koutsuu-hou-art-86",
       "article_number": "86",
       "filename": "douro-koutsuu-hou-article-86.md",
-      "ja_text_sha256": "6e1a13330d2cf64becd8e78d3ed9c57187c6961fd4d9261dbbf34cb8560ec706",
-      "ja_text_bytes": 2647,
+      "ja_text_sha256": "f574b67179f6a8d810676e26f52153a103cf5dbfc161a60f64ce4ddff737433d",
+      "ja_text_bytes": 2910,
       "paragraph_count": 6
     },
     {
@@ -2730,8 +2730,8 @@
       "article_id": "douro-koutsuu-hou-art-95-6",
       "article_number": "95-6",
       "filename": "douro-koutsuu-hou-article-95-6.md",
-      "ja_text_sha256": "e48fa6dcead2b1ed8a69036ed97ff0a9a2cdb875f510248c7f0e434eb56d162c",
-      "ja_text_bytes": 2182,
+      "ja_text_sha256": "7817ec5cc6fd3480a5d678a81d0e0a73d45973aee625fbc1d21a5586710cf82d",
+      "ja_text_bytes": 25004,
       "paragraph_count": 3
     },
     {

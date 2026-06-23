@@ -101,6 +101,72 @@ def test_extract_strips_trailing_horizontal_rule() -> None:
 
 
 # ============================================================
+# 案C (FU-515 E-4): 表の GFM 区切り行除外 + 隔離 + 後方互換
+# ============================================================
+
+_TABLE_MD = (
+    "---\n---\n\n## 原文 (日本語)\n\n"
+    "### 第一条\n\n"
+    "次の表のとおりとする。\n\n"
+    "| 区分 | 税率 |\n"
+    "| --- | --- |\n"
+    "| 一 | 五万円 |\n"
+    "| 二 | 十二万円 |\n"
+)
+
+
+def test_gfm_separator_excluded_from_paragraph() -> None:
+    """GFM 区切り行 (| --- |) は hash 対象テキストから除外される (案C・§3.5.7)."""
+    (para,) = extract_ja_paragraphs(_TABLE_MD)
+    assert "| --- |" not in para
+    # データ行・導入文・ヘッダ行は保持される
+    assert "次の表のとおりとする。" in para
+    assert "| 区分 | 税率 |" in para
+    assert "| 一 | 五万円 |" in para
+    assert "| 二 | 十二万円 |" in para
+
+
+def test_separator_does_not_affect_hash() -> None:
+    """区切り行の有無で hash が変わらない (markdown 外見への非依存)."""
+    md_without_sep = _TABLE_MD.replace("| --- | --- |\n", "")
+    a = extract_ja_paragraphs(_TABLE_MD)
+    b = extract_ja_paragraphs(md_without_sep)
+    assert a == b
+
+
+def test_data_rows_still_affect_hash() -> None:
+    """データセルが変われば抽出テキストは変わる (改変検知は生きている)."""
+    md2 = _TABLE_MD.replace("五万円", "六万円")
+    assert extract_ja_paragraphs(_TABLE_MD) != extract_ja_paragraphs(md2)
+
+
+def test_isolation_dash_cells_preserved() -> None:
+    """隔離 (Bug10): 全角ダッシュ ― / ASCII - を含むデータセルは除去されない."""
+    md = (
+        "---\n---\n\n## 原文 (日本語)\n\n### 第一条\n\n"
+        "次の表。\n\n"
+        "| 甲 | 乙 |\n"
+        "| --- | --- |\n"
+        "| ― | 二百円 |\n"
+        "| - | 四百円 |\n"
+    )
+    (para,) = extract_ja_paragraphs(md)
+    assert "| ― | 二百円 |" in para  # 全角ダッシュ行は保持
+    assert "| - | 四百円 |" in para  # ASCII ダッシュ"セル"も pipe 行なので保持
+    assert "| --- |" not in para  # 区切り行のみ除外
+
+
+def test_table_less_paragraph_unchanged_backward_compat() -> None:
+    """表を持たない条文の抽出テキストは案C 導入で不変 (後方互換)."""
+    md = (
+        "---\n---\n\n## 原文 (日本語)\n\n"
+        "### 第一条第一項\n\n本文 A。\n\n"
+        "### 第一条第二項\n\n本文 B。\n"
+    )
+    assert extract_ja_paragraphs(md) == ["本文 A。", "本文 B。"]
+
+
+# ============================================================
 # compute_ja_text_hash — file 経由 test
 # ============================================================
 
@@ -232,3 +298,17 @@ def test_hash_matches_verify_py_algorithm(tmp_path: Path) -> None:
         "canonical_hash.py が verify.py の hash 計算とドリフトしている. "
         "regex 文字列または canonicalize の挙動を点検すること."
     )
+
+
+def test_table_extraction_identical_to_verify_py() -> None:
+    """表を含む md で canonical_hash.extract_ja_paragraphs と
+    verify.py.extract_ja_paragraphs_from_md が **同一 list** を返す (文字列レベル一致).
+
+    Why critical: 案C (E-4) で両者に同じ区切り行除外を入れた. 片方だけ更新すると
+    表を持つ条文の round-trip が永久に赤くなる.
+    """
+    from verify import extract_ja_paragraphs_from_md
+
+    a = extract_ja_paragraphs(_TABLE_MD)
+    b = extract_ja_paragraphs_from_md(_TABLE_MD)
+    assert a == b, "canonical_hash と verify.py の表抽出がドリフトしている"

@@ -4,13 +4,13 @@
   "law_name_ja": "法人税法",
   "law_abbrev": "houjin-zei-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/340AC0000000034",
-  "source_xml_path": "../../../cache/laws/340AC0000000034.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\340AC0000000034.xml",
   "source_xml_sha256": "85f023adaf8d4934a5005f0f3cb221603294372975b93c78a415c0705b5b9a51",
   "source_xml_bytes": 3209478,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:27:12+00:00",
+  "parsed_at": "2026-06-23T08:54:17+00:00",
   "version_date": "1965-03-31",
   "article_count": 259,
   "articles": [
@@ -402,8 +402,8 @@
       "article_id": "houjin-zei-hou-art-144-3",
       "article_number": "144-3",
       "filename": "houjin-zei-hou-article-144-3.md",
-      "ja_text_sha256": "55f3b329debe2e6691d716aa5d02e96e228a782519f5db4170d7e9edb2deeb9d",
-      "ja_text_bytes": 4051,
+      "ja_text_sha256": "0371c7fe134a03290e294bef0548c1cd1b77a9c860d8a8919b1efb4b34befec3",
+      "ja_text_bytes": 5177,
       "paragraph_count": 6
     },
     {
@@ -578,8 +578,8 @@
       "article_id": "houjin-zei-hou-art-146",
       "article_number": "146",
       "filename": "houjin-zei-hou-article-146.md",
-      "ja_text_sha256": "671393cae9c231e1dfe0561d2f929e2bcdf84c18056abd4197c17db3cea0a7ab",
-      "ja_text_bytes": 607,
+      "ja_text_sha256": "b63ab54af98cdc3aadafca6e9b72ab2735e3f4231c4475c9416d0a3901cce26d",
+      "ja_text_bytes": 3566,
       "paragraph_count": 2
     },
     {
@@ -1594,8 +1594,8 @@
       "article_id": "houjin-zei-hou-art-69",
       "article_number": "69",
       "filename": "houjin-zei-hou-article-69.md",
-      "ja_text_sha256": "02b15263cef4625beb1ad2afb916156976a07ec840641d67a3fc11e10eb52807",
-      "ja_text_bytes": 28170,
+      "ja_text_sha256": "241dce5639d15dcf28392e36b5d62f75d8491262a165228eee49d025c80a9cc3",
+      "ja_text_bytes": 30242,
       "paragraph_count": 34
     },
     {

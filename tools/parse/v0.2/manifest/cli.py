@@ -107,6 +107,15 @@ def _build_argparser() -> argparse.ArgumentParser:
         help="既存 _source-manifest.json を上書きする (default: skip).",
     )
     ap.add_argument(
+        "--law-only",
+        default=None,
+        help=(
+            "特定 law_abbrev (= law_dir 名) のみ再生成する (アトミックな逐次展開用)。"
+            "manifest は生成のたび parsed_at/source_fetched_at を更新するため、"
+            "意図しない法令に手を入れないよう本フィルタで対象を絞る。"
+        ),
+    )
+    ap.add_argument(
         "--dry-run",
         action="store_true",
         help="manifest を組み立てるが write しない (検証用).",
@@ -130,6 +139,11 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     law_dirs = _find_law_dirs(args.data_dir)
+    if args.law_only:
+        law_dirs = [d for d in law_dirs if d.name == args.law_only]
+        if not law_dirs:
+            print(f"ERROR: --law-only law_dir not found: {args.law_only}", file=sys.stderr)
+            return 2
     print(f"Found {len(law_dirs)} law_dir(s) under {args.data_dir}", file=sys.stderr)
 
     successes: list[Path] = []
