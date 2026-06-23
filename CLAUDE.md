@@ -286,6 +286,7 @@ cases:
 - 推測・記憶からの判例追加は厳禁。出典(URL or 掲載誌・巻号)を必ず確認してから追加すること。
 - URLは追加時に実際にアクセスして存在確認すること。
 - `relevance` は本人の主観で構わないが、`high` の判例は学説・実務での重要性を要する。
+- 判例本文・要旨のライセンス（著作権法13条＝PD／要旨は改変禁止＝自前要約）の一覧は `docs/licensing.md` を参照。
 
 ---
 
@@ -302,6 +303,7 @@ cases:
 - 公定訳優先: 法務省「日本法令外国語訳データベース」(http://www.japaneselawtranslation.go.jp/) の訳がある場合はそれを採用し、`translation_status: official` を立てる
 - 公定訳がない場合: `translation_status: draft` または `community` で掲載、`machine_translated: true` を併用してよい
 - 英訳の改善はデータ修正とは別PRで歓迎する
+- 各ソース（JLT 英訳＝PDL1.0 等）のライセンスの一覧は `docs/licensing.md` を参照。
 
 ### 4.4 改正・施行日の追跡
 - 法令は頻繁に改正される。`version_date` は現行条文の施行日を明示

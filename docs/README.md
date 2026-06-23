@@ -10,6 +10,7 @@
 | [strategy.md](./strategy.md) | 段階戦略(Phase 1〜3)とマイルストーン |
 | [differentiation.md](./differentiation.md) | 先行OSSとの差別化と関係 |
 | [glossary.md](./glossary.md) | 法令略称・専門用語の日英対訳辞書 |
+| [licensing.md](./licensing.md) | データソース別ライセンス・マトリクス(e-Gov / JLT=PDL1.0 / 裁決=PDL1.0 / 判例=著作権法13条) |
 
 ## 文書追加時のルール
 
