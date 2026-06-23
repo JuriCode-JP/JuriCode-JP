@@ -188,8 +188,12 @@ def process_law(
     md_dir: Path,
     xml_dir: Path,
     dry_run: bool,
+    articles: set[str] | None = None,
 ) -> tuple[int, list[str]]:
-    """1 法令の本則表を全条文 md に反映. (反映条文数, 警告) を返す."""
+    """1 法令の本則表を条文 md に反映. (反映条文数, 警告) を返す.
+
+    articles: 指定時はその article_number のみ処理 (アトミックなパイロット/逐次展開用)。
+    """
     warnings: list[str] = []
     xml_path = xml_dir / f"{law_id}.xml"
     if not xml_path.exists():
@@ -204,6 +208,8 @@ def process_law(
 
     updated = 0
     for art_num, by_para in sorted(tables.items()):
+        if articles is not None and art_num not in articles:
+            continue
         md_path = md_dir / f"{law_abbrev}-article-{art_num}.md"
         if not md_path.exists():
             warnings.append(f"{law_abbrev} art {art_num}: md 不在 {md_path}")
@@ -234,8 +240,17 @@ def main() -> int:
     ap.add_argument("--data-dir", type=Path, default=Path("data/v0.2"))
     ap.add_argument("--xml-dir", type=Path, default=Path("cache/laws"))
     ap.add_argument("--law-only", default=None, help="特定 law_abbrev のみ処理")
+    ap.add_argument(
+        "--articles",
+        default=None,
+        help="カンマ区切りの article_number のみ処理 (アトミックなパイロット/逐次展開用)",
+    )
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+
+    articles: set[str] | None = None
+    if args.articles:
+        articles = {a.strip() for a in args.articles.split(",") if a.strip()}
 
     law_map = build_law_abbrev_to_id_phase(args.data_dir)
     if args.law_only:
@@ -251,7 +266,9 @@ def main() -> int:
         if md_dir is None:
             all_warnings.append(f"{law_abbrev}: md dir 不在")
             continue
-        updated, warnings = process_law(law_abbrev, law_id, md_dir, args.xml_dir, args.dry_run)
+        updated, warnings = process_law(
+            law_abbrev, law_id, md_dir, args.xml_dir, args.dry_run, articles=articles
+        )
         all_warnings.extend(warnings)
         if updated:
             print(f"  {law_abbrev}: {updated} 条文に表を反映", file=sys.stderr)
