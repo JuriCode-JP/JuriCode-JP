@@ -1089,6 +1089,8 @@ mypy / pyright で型がより厳密に追える.
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-06-23 — FU-515 Phase E 完了: 本則 TableStruct を canonical md に反映 (PR #29)
+
 ### 2026-06-23 — FU-516 完了: 税12施行令を v0.2 canonical へ一本化 (manifest 生成 + 旧 layout archive)
 
 - ✅ **FU-516 (PR #27 / commit `05e8102a`, main `0fa8c894`)**: 旧 `data/phase1-tax` と canonical `data/v0.2/phase1-tax` の二重管理・divergent を解消。12 施行令/施行規則の v0.2 形式 `_source-manifest.json` を生成 (3,167 条 round-trip 3,167/0 PASS、parser `segment_parser.py@0.1.0`)、旧 `data/phase1-tax` (3,179 tracked) を `git mv` で `archive/phase1-tax-pre-v0.2` へ退避 (削除でなく archive・CI 対象外)。本法 6 manifest は skip (`--force` 不使用)。CI 全 9 ステップ緑 (verify `--path data` 14,925/0/55 manifests)。Cowork が committed tree で独立検証 (12 added / 3,179 renamed / 0 modified)。**FU-515 Phase E の hard Entry Criteria を充足**。
@@ -1526,7 +1528,9 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **関連**: FU-108 (round-trip 検証) / FU-318 (rollup chunk filter) / `extract_table_from_xml.py` (既存の表抽出資産)。
 
-**残課題 (FU-515 派生)**: (a) **D-b = 完了 (REJECT, 上記 2026-06-21・PR #23)**。附則700の embed 是非は「退行ゼロだが value 未達」で aug-v6 据え置きに決着。再投入の余地は下記 **D-c** に継承。(b) **Phase E — 表本体の md への反映 + manifest 再生成 (round-trip hash 再検証)** (P2)。現状 D-a は `build/chunks` (gitignored) のみへの反映で、canonical な `data/v0.2/**` md には表本体が未収録。**別 GO 必須** (md/manifest は locked corpus のため独立計画書 + user GO)。
+**残課題 (FU-515 派生)**: (a) **D-b = 完了 (REJECT, 上記 2026-06-21・PR #23)**。附則700の embed 是非は「退行ゼロだが value 未達」で aug-v6 据え置きに決着。再投入の余地は下記 **D-c** に継承。(b) **Phase E — 表本体の md への反映 + manifest 再生成 (round-trip hash 再検証) = 完了 (下記 DONE)** (P2)。
+
+**Phase E DONE 2026-06-23 (PR #29 / main `51d9d1ef`)**: 212 本則表条文 (24法令) の TableStruct 本体を canonical `data/v0.2/**.md` に反映 + manifest 再生成 + round-trip。案C (セマンティック正準化) + 表 core 共通 lib (`table_core.py`) + 結合セル Option A (rowspan 値複製・罫線結合は空セル維持)。Cowork が committed tree で独立検証 (212 md / 24 manifest / 0 spurious・後方互換 hash 変化ちょうど 212・round-trip committed-`verify.py` 441・1313/0)。
 
 ---
 
@@ -1577,4 +1581,4 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
-*Last updated: 2026-06-23 — FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`: 税12施行令を v0.2 canonical へ一本化 + 旧 layout を archive 退避、round-trip 3,167/0) + FU-307 に bulk-ingest 既定 data-root 統一スコープを追記 (旧 layout 再生防止). 前回: 2026-06-21 FU-515 D-b 完了マーク (REJECT, PR #23 `1795df4c`) + FU-515 D-c 登録 (P3). 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+*Last updated: 2026-06-23 — FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`: 212 本則表条文/24法令の TableStruct を canonical md に反映 + manifest 再生成 + round-trip、案C セマンティック正準化 + table_core 共通 lib + 結合セル Option A). 前回同日: FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`: 税12施行令を v0.2 canonical へ一本化 + 旧 layout を archive 退避) + FU-307 に bulk-ingest 既定 data-root 統一スコープを追記. FU-517 (716 dedup・P3) と FU-515 D-c (附則 paraphrase・P3) は別件で open. 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
