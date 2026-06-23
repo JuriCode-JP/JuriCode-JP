@@ -184,6 +184,33 @@ def grid_to_pipe_rows(grid: list[list[str]]) -> list[str]:
     return ["| " + " | ".join(row) + " |" for row in grid]
 
 
+def is_gfm_separator_line(line: str) -> bool:
+    """GFM 表の区切り行 (例 `| --- | --- |`) かどうかを判定する.
+
+    Why (案C・§3.5.2/§3.5.7): 法令表に意味的ヘッダは無く、区切り行は GFM が表を
+    描画するための機械的装飾にすぎない。canonical_hash / 構造等価では区切り行を
+    正準化除外し、表セマンティクスを markdown 外見から切り離す (md→hash と
+    XML→hash を同一シーケンスに接地)。本判定を hash 側と verify 側の両方が import
+    して文字列レベル一致を保証する (二重実装で drift すると round-trip 永久赤)。
+
+    判定 (保守的): strip 後に `|` で開始・終了し、各セルが `-`/`:` のみ + 最低 1 つの
+    `-` から成る行のみ True。データセル (全角ダッシュ `―`・ASCII `-` を含む通常テキスト)
+    は False を返し、隔離 (Bug10) を保つ。e-Gov は空欄に全角 `―` を使い ASCII の
+    `-` だけのセルは生成しないため、誤検知は構造的に起きない。
+    """
+    s = line.strip()
+    if len(s) < 2 or not s.startswith("|") or not s.endswith("|"):
+        return False
+    cells = s[1:-1].split("|")
+    if not cells:
+        return False
+    for cell in cells:
+        c = cell.strip()
+        if not c or (set(c) - {"-", ":"}) or "-" not in c:
+            return False
+    return True
+
+
 # ============================================================
 # 導入文の取得
 # ============================================================
