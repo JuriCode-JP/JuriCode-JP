@@ -4,13 +4,13 @@
   "law_name_ja": "地方税法",
   "law_abbrev": "chihou-zei-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/325AC0000000226",
-  "source_xml_path": "../../../cache/laws/325AC0000000226.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\325AC0000000226.xml",
   "source_xml_sha256": "5392aed504e36ff409b6ea8a9492819cf82bb51c1639d1ac11b1d050ba2431b2",
   "source_xml_bytes": 12285885,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-06-23",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:27:10+00:00",
+  "parsed_at": "2026-06-23T08:38:30+00:00",
   "version_date": "1950-07-31",
   "article_count": 1313,
   "articles": [
@@ -2626,8 +2626,8 @@
       "article_id": "chihou-zei-hou-art-312",
       "article_number": "312",
       "filename": "chihou-zei-hou-article-312.md",
-      "ja_text_sha256": "b4a5ceff3c64bb7fc6b515529ab1718b99ee6dfee4ff0718dd93740a1f1437e0",
-      "ja_text_bytes": 3868,
+      "ja_text_sha256": "5df2be0156ce47f9ea08380588ea9edfab3771d7e33ccc863abcb08e9803a7e7",
+      "ja_text_bytes": 6914,
       "paragraph_count": 8
     },
     {
@@ -9314,8 +9314,8 @@
       "article_id": "chihou-zei-hou-art-734",
       "article_number": "734",
       "filename": "chihou-zei-hou-article-734.md",
-      "ja_text_sha256": "ec02daa1460cef3d0ff9c8c43e090cf4457abafb87f67d5fecff68a648e6a139",
-      "ja_text_bytes": 3581,
+      "ja_text_sha256": "2cd809025e63252eedb858748ad9a118a0adde9620c20fcd5a615a96dab5465b",
+      "ja_text_bytes": 6953,
       "paragraph_count": 6
     },
     {
