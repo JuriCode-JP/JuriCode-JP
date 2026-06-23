@@ -1089,6 +1089,10 @@ mypy / pyright で型がより厳密に追える.
 
 完了した項目はここに timestamp 付きで移動する.
 
+### 2026-06-23 — 柱1-D (reranker / HyDE) = 非昇格・凍結
+
+- ⏸️ **柱1-D 非昇格・凍結 (2026-06-23)**: Stage 1 ablation (新 index `build/embeddings/v0.2-aug-v7-gemini`・eval-set 55 サンプル / 7 ドメイン) で **dense baseline R@3 90.9% (50/55)** に対し **HyDE 全構成が gate (+2.0pt = 92.9%) 未達** (E3' rrf 90.9% = 利得ゼロ・E3 / E3' minmax は 87.3% に悪化・全構成で R@1 / MRR も劣化・誤誘導テールは降格 > 改善)。**rerank (E1/E2) は v7 meta provenance 欠陥で忠実実行不可** (→ FU-518) + 既往 priors が反 rerank (FU-512) + warm p95 計測に GPU 必須のため延期。⇒ **dense-only を既定として確定**、fine-tune を含め現エビデンスでは非正当化。所見: **条件付き HyDE (tsutatsu / taxanswer 限定)** は将来候補 (tax-tsutatsu 93.3%→100%・tax-taxanswer 90%→95% と設計対象では改善するが、tax-table 83%→58-75% の悪化で pooled が相殺されるため)。結果 JSON = `build/blane-stage1-results.json` (per-domain + HyDE 誤誘導テール完備・gitignored)。柱1 reranker 学習データ系 (FU-507 / 質問ログ) は logging 基盤として open のまま据え置き (本凍結で優先度低下)。
+
 ### 2026-06-23 — FU-515 Phase E 完了: 本則 TableStruct を canonical md に反映 (PR #29)
 
 ### 2026-06-23 — FU-516 完了: 税12施行令を v0.2 canonical へ一本化 (manifest 生成 + 旧 layout archive)
@@ -1489,7 +1493,7 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 > 備考: FU-418 (cosine top-k 共通化、search-ui が retrieve.py から import) は柱5 sprint では未実施 (open のまま). search-ui の _topk は retrieve.py と重複するが機能影響なし、refactor 案件.
 
-### [ ] FU-514: 法人税基本通達 (Directive) を Pydantic IR 化 (2026-06-02 追加, P2)
+### [x] FU-514: 法人税基本通達 (Directive) を Pydantic IR 化 (2026-06-02 追加, P2)
 
 **場所**: `tools/parse/parse-nta-tsutatsu.py` (dict 実装) / `tools/shared/src/juricode_shared/ir.py` (Directive モデル未定義)。
 
@@ -1498,6 +1502,8 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 **やること**: `tools/shared/src/juricode_shared/ir.py` に `DirectiveChunk` モデル (+ `DirectiveRelatedArticleRef` 等サブモデル) を追加。TaxAnswerChunk と共通化できるフィールド (source_url / license / attribution) は `ExternalSourceChunkBase` に括る検討 (P6b・FU-514)。`parse-nta-tsutatsu.py` を `DirectiveChunk.model_dump()` 経由に移行。`juricode-directive.schema.json` を生成・CI drift gate 対象に追加。
 
 **関連**: FU-512 (TaxAnswer Pydantic IR, PR #16 commit `8ebb7589`) / PR #15 (通達取込).
+
+**DONE 2026-06-23 (PR #31 / commit `31115d62`, main `7a28a0c4`)**: `DirectiveChunk` (disjoint Union: Linked / Unlinked) を追加 + `parse-nta-tsutatsu.py` を `model_dump()` 経由に移行 (出力 byte 保持) + `juricode-directive.schema.json` を生成し CI drift gate 対象に追加。Cowork 独立検証 = main / PR 両 parser を実走し出力 sha256 完全一致 (35 行)・data/build/schema 非接触。
 
 ---
 
@@ -1569,6 +1575,18 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [ ] FU-518: v7 embedding meta の provenance 欠陥 (rerank text 復元不可) (2026-06-23 追加, P3)
+
+**場所**: `build/embeddings/v0.2-aug-v7-gemini.meta.jsonl` (生成元 embed pipeline)。
+
+**問題**: 柱1-D Stage 1 で発覚。v7 の embedding meta が `segment_id` (一意キー) を持たず、`chunk_id` が非ユニーク (93,382 行 / unique 90,285、**691 件の chunk_id が複数の異なる text と衝突**。例: `…art-1-p1-kou-4` に 14 号分が同一 chunk_id・同一 meta フィールドで衝突)。さらに meta の行順が on-disk corpus (`corpus-v0.2-augmented-v6.jsonl`) と途中から乖離するため位置整合も不可。⇒ **embedded record から rerank 候補の正テキストを一意復元できず、cross-encoder reranker (E1/E2) を忠実実行できない** (誤テキストでの rerank を防ぐため driver は fail-loud ガードで停止)。FU-517 の重複 chunk_id と同根の data hygiene 問題で、その rerank 影響面。
+
+**やること**: (1) embed pipeline が meta に `segment_id` (一意キー) を出力するよう修正 or `chunk_id` を一意化 (FU-517 の dedupe と統合可)。(2) もしくは embed 時に order-aligned な text サイドカーを併出力し、再現可能な text 復元経路を確保。(3) 再生成後に「全 meta record が一意キーで source text に逆引き可能」を assert する guard 追加。
+
+**関連**: FU-517 (716 重複 chunk_id・同根) / 柱1-D rerank (本欠陥で延期、上記 2026-06-23 凍結エントリ) / `build/blane-stage1-results.json` (`E1_E2_status`)。
+
+---
+
 ### [ ] FU-515 D-c: 附則 table の paraphrase recall 改善 → 再投入 (2026-06-21 追加, P3)
 
 **経緯**: FU-515 Phase D-b (PR #23) で附則 (SupplProvision) table 700 件の増分embed は **退行ゼロ** を確認したが、**口語パラフレーズでの retrieval が弱い** (G3-sp: A-straight rank2 hit に対し A-paraphrase rank11・B-straight rank6・B-paraphrase rank17) ため canonical 昇格を見送り (aug-v6 据え置き・附則既定OFF)。noise 懸念 (`shotoku-zei-hou` 445集中による既存劣化) は否定済 = **再投入は安全側**。
@@ -1581,4 +1599,4 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
-*Last updated: 2026-06-23 — FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`: 212 本則表条文/24法令の TableStruct を canonical md に反映 + manifest 再生成 + round-trip、案C セマンティック正準化 + table_core 共通 lib + 結合セル Option A). 前回同日: FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`: 税12施行令を v0.2 canonical へ一本化 + 旧 layout を archive 退避) + FU-307 に bulk-ingest 既定 data-root 統一スコープを追記. FU-517 (716 dedup・P3) と FU-515 D-c (附則 paraphrase・P3) は別件で open. 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+*Last updated: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
