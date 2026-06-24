@@ -98,7 +98,7 @@ HOJIN_CONFIG = CircularConfig(
     corpus_unregistered=frozenset({"sochi-hou"}),
 )
 
-# --circular セレクタの登録簿。消費税 config は T-3 (実 URL/参照トークン確認後) で追加。
+# --circular セレクタの登録簿。消費税 config は別コミット (取込) で追加。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
 }
@@ -311,7 +311,13 @@ def _extract_directive_items(
     R4: handles multiple items per page.
     """
     items: list[dict] = []
+    # current_title = 直近に出現した見出し (h2) = 次に始まる項の見出し (pending)。
+    # current_item_title = いま蓄積中の項に確定済みの見出し。
+    # 番号検出時に current_title を current_item_title へ束縛することで「項に対し
+    # 直前の見出し」を正しく割当てる (旧実装は flush 時の current_title を使い、既に
+    # 次項の見出しへ進んでいたため +1 ズレていた)。
     current_title: str | None = None
+    current_item_title: str | None = None
     current_num: str | None = None
     current_body_parts: list[str] = []
     current_amendment: str | None = None
@@ -365,10 +371,15 @@ def _extract_directive_items(
             raw_num_text = _normalize_text(strong.get_text())
             num_match = _DIRECTIVE_NUM_RE.match(raw_num_text.strip())
             if num_match:
-                # Flush previous item
-                _flush(current_num, current_title, current_body_parts, current_amendment)
-                # Start new item
+                # CASE A: 番号全体が <strong> 内 (法人税通達・一部の消費税通達)。
+                # Flush previous item (確定済み見出し current_item_title を使う)。
+                _flush(current_num, current_item_title, current_body_parts, current_amendment)
+                # Start new item: この番号の直前見出しを確定束縛 (title-lag 修正)。
+                # 見出しは「直後の1番号」専用。束縛後 None に戻すことで、自前見出しの
+                # ない「削除」通達が前項の見出しを継承しない (第2エッジ・タイトルなし)。
                 current_num = num_match.group(1)
+                current_item_title = current_title
+                current_title = None
                 current_body_parts = []
                 current_amendment = None
                 # Get body text after the number (remove strong element text)
@@ -393,8 +404,8 @@ def _extract_directive_items(
             else:
                 current_body_parts.append(raw_text)
 
-    # Flush last item
-    _flush(current_num, current_title, current_body_parts, current_amendment)
+    # Flush last item (確定済み見出しを使う)。
+    _flush(current_num, current_item_title, current_body_parts, current_amendment)
 
     # Validate: 0 items = parse error
     if not items:
