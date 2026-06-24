@@ -55,6 +55,9 @@ dev = [
     "pre-commit>=3.0.0",
     # JSON Schema validation (used by tools/validate and external consumers)
     "jsonschema>=4.0",
+    # NTA 通達/タックスアンサー HTML パーサ (tools/parse/parse-nta-*.py) の必須依存。
+    # tools/parse/tests が CI で走るため dev に明示 (ハード依存・stdlib fallback なし)。
+    "beautifulsoup4>=4.12",
 ]
 
 # Optional extras for tools/export/lawsy-bq RAG-ready exporter.
