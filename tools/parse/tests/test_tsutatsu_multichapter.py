@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -31,6 +32,8 @@ _THIS = Path(__file__).resolve()
 _REPO_ROOT = _THIS.parents[3]
 _PARSER = _REPO_ROOT / "tools" / "parse" / "parse-nta-tsutatsu.py"
 _CH1_BASELINE = _THIS.parent / "fixtures" / "shouhi-kihon-tsutatsu.tsutatsu.chunks.baseline.jsonl"
+# 累積コーパス fixture (全章マージのスナップショット・バッチ毎に更新)。
+_CORPUS_BASELINE = _THIS.parent / "fixtures" / "shouhi-kihon-tsutatsu.corpus.chunks.baseline.jsonl"
 _SHOHI_CACHE = _REPO_ROOT / "cache" / "tsutatsu" / "shohi"
 
 
@@ -200,8 +203,9 @@ def test_excludes_preamble_and_archive(tmp_path: Path) -> None:
 def test_multichapter_over_real_cache_matches_committed_corpus(tmp_path: Path) -> None:
     """--cache-root で実キャッシュをマージした出力が committed corpus fixture と byte 一致.
 
-    corpus fixture が未作成の段階 (parser-only PR) では ch1 baseline と一致する
-    (キャッシュが ch1 のみのため)。corpus fixture 追加後はそちらと比較するよう更新する。
+    キャッシュ (gitignored) はバッチ毎に章が増え、corpus fixture も同時に更新される。
+    両者が同一 commit で byte 一致することで、parser の決定性とコーパスの完全性を pin する。
+    **落ちたら直すのはパーサ/キャッシュであって corpus fixture ではない**。
     """
     mod = _import_parser()
     out_dir = tmp_path / "out"
@@ -218,7 +222,41 @@ def test_multichapter_over_real_cache_matches_committed_corpus(tmp_path: Path) -
     assert rc == 0
     produced = out_dir / "shouhi-kihon-tsutatsu.tsutatsu.chunks.jsonl"
     assert produced.exists()
-    # 現キャッシュが ch1 のみなら ch1 baseline と一致するはず (corpus fixture 追加で更新)。
-    assert produced.read_bytes() == _CH1_BASELINE.read_bytes(), (
-        "実キャッシュ (現状 ch1 のみ) のマージ出力が ch1 baseline と byte 不一致"
+    assert produced.read_bytes() == _CORPUS_BASELINE.read_bytes(), (
+        "実キャッシュのマージ出力が corpus fixture と byte 不一致 "
+        "(キャッシュ更新時は fixture も再生成して同一 commit に含める)"
     )
+
+
+def test_corpus_fixture_ch1_prefix_matches_sentinel() -> None:
+    """corpus fixture の第1章部分が ch1 sentinel fixture と byte 一致 (ch1 不変の番人)."""
+    corpus = _CORPUS_BASELINE.read_bytes().splitlines(keepends=True)
+    ch1 = _CH1_BASELINE.read_bytes().splitlines(keepends=True)
+    assert corpus[: len(ch1)] == ch1, "corpus 先頭の第1章が sentinel と不一致 (ch1 が変化した)"
+
+
+def _numeric_key(num: str) -> tuple:
+    """parser の _sort_key と同等の数値タプルキー (テスト独立コピー)."""
+    parts: list[int] = []
+    for seg in num.split("-"):
+        for sub in re.split("の", seg):
+            parts.append(int(sub) if sub.isdigit() else 0)
+    while len(parts) < 6:
+        parts.append(0)
+    return tuple(parts)
+
+
+def test_corpus_fixture_globally_numeric_sorted_and_unique() -> None:
+    """corpus fixture が数値キーで全体ソート済 + directive_id ユニーク (査読 5b・章跨ぎ)."""
+    recs = [
+        json.loads(line)
+        for line in _CORPUS_BASELINE.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+    keys = [_numeric_key(r["directive_number"]) for r in recs]
+    assert keys == sorted(keys), "corpus が数値順に並んでいない"
+    ids = [r["directive_id"] for r in recs]
+    assert len(ids) == len(set(ids)), "corpus に directive_id 重複"
+    # 章プレフィックスは数値昇順 ("10" が "2" より後)。
+    chapters = [int(r["directive_number"].split("-")[0]) for r in recs]
+    assert chapters == sorted(chapters), "章プレフィックスが数値昇順でない"
