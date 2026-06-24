@@ -11,6 +11,7 @@
 | EDGE-003 | 目 (4 階層) の source_url | 第5/9/12/14章は `<章>/<節>/<目>.htm` (例 `09/01/01.htm`)。旧フラット式 `{base}/{chapter}/{stem}.htm` は目レベルを落とし誤 URL | 多章モードはファイルの cache-root 相対パスから source_url を再構築 (`_build_source_url`, `as_posix`)。HTML 見出し階層は h1/h2 のまま (目は file 分割のみ・新見出しレベルなし) | `test_tsutatsu_multichapter.py::test_moku_subpath_source_url_end_to_end` |
 | EDGE-004 | 章プレフィックス数値順 | 多章マージで naive 文字列ソートだと "10" < "2" となり第10章が第2章前に散る | 既存の数値タプルキー (`-`/`の` で分割し int 化) を全体ソートに再利用 | `test_tsutatsu_multichapter.py::test_cross_chapter_numeric_sort` |
 | EDGE-005 | 前文/旧版アーカイブ | root 直下 `02.htm` (前文・説明文=制定文) と `20230930/` (令和5年9月30日以前の旧通達) は通達項目でない | 多章 rglob で「章ディレクトリ = 2 桁」のみ採用 (`_CHAPTER_DIR_RE.fullmatch`) | `test_tsutatsu_multichapter.py::test_excludes_preamble_and_archive` |
+| EDGE-006 | 削除通達 + 参考注記 | 削除通達は通常 title 空・本文空・「（…課消…により削除）」を amendment_note へ分離。だが廃止に伴う経過措置等で末尾に「（参考）…」が続く稀ケース (例 9-3-7) では削除マーカーが本文先頭=末尾でないため amendment_note に入らず本文に残る | テキストは忠実に保持・title-lag なし・汚染なし=データ損失なし。amendment 正規表現は末尾アンカー (`\s*$`・hojin byte 不変のため維持)。1 record の整形差はコスメティックとして許容 (parser 非変更) | `test_tsutatsu_multichapter.py` 統計ゲート (review flag: empty-title & body>80) |
 | (note) | decode サニティ | 旧チェックは hojin 固有語 (経済的/役員/退職) 依存で他章に無関係な警告を量産しうる | U+FFFD (置換文字) 検出へ一般化 (circular 非依存・出力 byte 不変) | — |
 
 ## 既知の amendment_marker 表記揺れ (Bug43 棚卸し・課消)
