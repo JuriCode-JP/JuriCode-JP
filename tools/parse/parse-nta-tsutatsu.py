@@ -3,11 +3,13 @@
 
 Usage:
     python tools/parse/parse-nta-tsutatsu.py \\
+        --circular hojin \\
         --cache-dir cache/tsutatsu/hojin/09 \\
         --output-dir build/chunks/hojin-kihon-tsutatsu \\
-        --law-abbrev hojin-kihon-tsutatsu \\
-        --chapter 09 \\
-        --section 02
+        --chapter 09
+
+The circular's law_name / NTA URL base / reference-prefix map come from its
+CircularConfig (selected by --circular); law_abbrev is derived from that config.
 
 Output: build/chunks/hojin-kihon-tsutatsu/hojin-kihon-tsutatsu.tsutatsu.chunks.jsonl
 
@@ -35,6 +37,8 @@ import argparse
 import re
 import sys
 import warnings
+from collections.abc import Mapping
+from dataclasses import dataclass, field
 from pathlib import Path
 
 try:
@@ -53,9 +57,52 @@ if str(_SHARED_SRC) not in sys.path:
 # Constants
 # ---------------------------------------------------------------------------
 
-LAW_NAME_JA = "法人税基本通達"
-SOURCE_URL_BASE = "https://www.nta.go.jp/law/tsutatsu/kihon/hojin"
 LICENSE = "public-domain-13-2"
+
+
+# ---------------------------------------------------------------------------
+# Per-circular config (法人税 / 消費税 ... を 1 セレクタで切替・Bug37 回避)
+# ---------------------------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class CircularConfig:
+    """1 通達分の取込パラメータ (法人税固定の解消・FU-514 後段)。
+
+    Why: parser ロジックは通達非依存だが、通達名・NTA URL ベース・参照接頭辞マップ
+    だけが通達ごとに違う。これらをコード内 config 定数として束ね `--circular` で
+    選択する (CLI に dict を渡さない=デシリアライズ不要で型不整合 Bug を構造的に回避)。
+    ref_map は必須フィールド (mutable default を持たせない)。corpus 未登録の参照先は
+    corpus_unregistered に列挙し unlinked として扱う。
+    """
+
+    law_name_ja: str
+    law_abbrev: str
+    source_url_base: str
+    ref_map: Mapping[str, str]  # {"法": <law>, "令": <shikkourei>, "規": <shikoukisoku>, ...}
+    corpus_unregistered: frozenset[str] = field(default_factory=frozenset)
+    license: str = LICENSE
+
+
+# 法人税基本通達 (既定・byte 回帰で固定。値は移行前の module 定数と完全一致)。
+HOJIN_CONFIG = CircularConfig(
+    law_name_ja="法人税基本通達",
+    law_abbrev="hojin-kihon-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kihon/hojin",
+    ref_map={
+        "法": "houjin-zei-hou",
+        "令": "houjin-zei-hou-shikkourei",
+        "規": "houjin-zei-hou-shikoukisoku",
+        "措法": "sochi-hou",  # corpus 未収録 -> warn, no link
+    },
+    corpus_unregistered=frozenset({"sochi-hou"}),
+)
+
+# --circular セレクタの登録簿。消費税 config は T-3 (実 URL/参照トークン確認後) で追加。
+CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
+    "hojin": HOJIN_CONFIG,
+}
+
 
 # 出力 JSONL の chunk-level キー順マスタ (出力保持の正本・FU-514)。
 # DirectiveChunk.model_dump() (意味フィールド) + 配管フィールドをマージした後、
@@ -77,16 +124,6 @@ DIRECTIVE_KEY_ORDER = [
     "article_id",
     "law_name_ja_display",
 ]
-
-# Abbreviation prefix -> law_abbrev mapping (R2: 接頭辞明示のみ)
-LAW_PREFIX_MAP = {
-    "法": "houjin-zei-hou",
-    "令": "houjin-zei-hou-shikkourei",
-    "規": "houjin-zei-hou-shikoukisoku",
-    "措法": "sochi-hou",  # corpus 未収録 -> warn, no link
-}
-CORPUS_UNREGISTERED = {"sochi-hou"}  # R2: warn + skip link
-
 
 # ---------------------------------------------------------------------------
 # Text normalization helpers (R7, R10)
@@ -129,11 +166,12 @@ _LAW_REF_FULL_RE = re.compile(
 )
 
 
-def _extract_related_articles(text: str) -> list[dict]:
+def _extract_related_articles(text: str, config: CircularConfig) -> list[dict]:
     """Extract law article references from text (R2, R8, R12).
 
     Returns list of dicts with keys: raw, law_abbrev, article_number, article_id.
     Unresolved references (corpus未収録) are included with article_id=None + warn.
+    接頭辞 -> law_abbrev の対応と corpus 未登録判定は config に従う (通達ごとに切替)。
     """
     results: list[dict] = []
     seen_raw: set[str] = set()
@@ -149,7 +187,7 @@ def _extract_related_articles(text: str) -> list[dict]:
             continue
         seen_raw.add(raw)
 
-        law_abbrev = LAW_PREFIX_MAP.get(prefix)
+        law_abbrev = config.ref_map.get(prefix)
         if law_abbrev is None:
             # Unknown prefix: skip silently (R8: only explicit prefixes)
             continue
@@ -161,7 +199,7 @@ def _extract_related_articles(text: str) -> list[dict]:
         if branches:
             article_number = base_num + "-" + "-".join(branches)
 
-        if law_abbrev in CORPUS_UNREGISTERED:
+        if law_abbrev in config.corpus_unregistered:
             warnings.warn(
                 f"WARN: {raw!r} -> {law_abbrev} is not in corpus (corpus未収録). "
                 "Keeping raw reference without article_id link.",
@@ -222,7 +260,7 @@ def _build_directive_record(
     amendment_note: str,
     related: list[dict],
     source_url: str,
-    law_abbrev: str,
+    config: CircularConfig,
 ) -> dict:
     """Validate via DirectiveChunk (Pydantic IR) and reconstruct the 14-key record.
 
@@ -236,17 +274,17 @@ def _build_directive_record(
     """
     from juricode_shared.ir import DirectiveChunk
 
-    directive_id = f"{law_abbrev}-{num}"
+    directive_id = f"{config.law_abbrev}-{num}"
     chunk = DirectiveChunk(
         directive_id=directive_id,
         directive_number=num,
-        law_abbrev=law_abbrev,
+        law_abbrev=config.law_abbrev,
         title=title,
         text=body,
         amendment_note=amendment_note,
         related_articles=related,  # dict -> disjoint Union が linked/unlinked を判別
         source_url=source_url,
-        license=LICENSE,
+        license=config.license,
     )
     semantic = chunk.model_dump(mode="json")
 
@@ -254,8 +292,8 @@ def _build_directive_record(
     merged = {
         **semantic,
         "id": directive_id,
-        "law_name_ja": LAW_NAME_JA,
-        "law_name_ja_display": f"{LAW_NAME_JA} {num}",
+        "law_name_ja": config.law_name_ja,
+        "law_name_ja_display": f"{config.law_name_ja} {num}",
         "segment_type": "tsutatsu",
         "article_id": None,
     }
@@ -264,7 +302,9 @@ def _build_directive_record(
     return {k: merged[k] for k in DIRECTIVE_KEY_ORDER}
 
 
-def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: str) -> list[dict]:
+def _extract_directive_items(
+    soup: BeautifulSoup, source_url: str, config: CircularConfig
+) -> list[dict]:
     """Parse BeautifulSoup of a single htm page -> list of directive chunk dicts.
 
     One dict per directive item (e.g. 9-2-9, 9-2-10, ...).
@@ -290,7 +330,7 @@ def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: s
 
         # Normalize bars/whitespace in body
         body = _normalize_text(body)
-        related = _extract_related_articles(body)
+        related = _extract_related_articles(body, config)
 
         items.append(
             _build_directive_record(
@@ -300,7 +340,7 @@ def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: s
                 amendment_note=amendment_note or "",
                 related=related,
                 source_url=source_url,
-                law_abbrev=law_abbrev,
+                config=config,
             )
         )
 
@@ -363,7 +403,7 @@ def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: s
     return items
 
 
-def parse_file(htm_path: Path, law_abbrev: str, chapter: str, section: str) -> list[dict]:
+def parse_file(htm_path: Path, config: CircularConfig, chapter: str) -> list[dict]:
     """Parse a single cached HTML file -> list of directive chunk dicts."""
     raw = htm_path.read_bytes()
     enc = _detect_charset(raw)
@@ -387,9 +427,9 @@ def parse_file(htm_path: Path, law_abbrev: str, chapter: str, section: str) -> l
 
     # Build source URL from filename
     stem = htm_path.stem  # e.g. "09_02_02"
-    source_url = f"{SOURCE_URL_BASE}/{chapter}/{stem}.htm"
+    source_url = f"{config.source_url_base}/{chapter}/{stem}.htm"
 
-    items = _extract_directive_items(soup, source_url, law_abbrev)
+    items = _extract_directive_items(soup, source_url, config)
     return items
 
 
@@ -413,9 +453,10 @@ def main(argv: list[str] | None = None) -> int:
         help="Output directory for JSONL chunk file.",
     )
     ap.add_argument(
-        "--law-abbrev",
-        default="hojin-kihon-tsutatsu",
-        help="Abbreviation for this circular (used in directive_id prefix).",
+        "--circular",
+        choices=sorted(CIRCULAR_CONFIGS),
+        default="hojin",
+        help="Which circular's config to use (law_name / NTA URL base / ref_map).",
     )
     ap.add_argument("--chapter", default="09", help="Chapter directory name (e.g. '09').")
     ap.add_argument("--section", default="02", help="Section number prefix (e.g. '02').")
@@ -426,6 +467,8 @@ def main(argv: list[str] | None = None) -> int:
     )
     ap.add_argument("--verbose", action="store_true")
     args = ap.parse_args(argv)
+
+    config = CIRCULAR_CONFIGS[args.circular]
 
     if not args.cache_dir.exists():
         print(f"ERROR: cache-dir not found: {args.cache_dir}", file=sys.stderr)
@@ -444,7 +487,7 @@ def main(argv: list[str] | None = None) -> int:
 
     for htm_path in htm_files:
         try:
-            items = parse_file(htm_path, args.law_abbrev, args.chapter, args.section)
+            items = parse_file(htm_path, config, args.chapter)
         except Exception as e:
             msg = f"ERROR: failed to parse {htm_path.name}: {e}"
             print(msg, file=sys.stderr)
@@ -485,7 +528,7 @@ def main(argv: list[str] | None = None) -> int:
     all_items.sort(key=_sort_key)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    out_path = args.output_dir / f"{args.law_abbrev}.tsutatsu.chunks.jsonl"
+    out_path = args.output_dir / f"{config.law_abbrev}.tsutatsu.chunks.jsonl"
 
     # safe_write via juricode_shared
     sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "shared" / "src"))
