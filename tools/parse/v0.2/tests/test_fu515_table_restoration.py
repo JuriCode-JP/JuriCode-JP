@@ -11,7 +11,7 @@ Why this test exists:
     - T2 / T2b は cache/laws (gitignored・CI 不在) に依存しないよう、地方税法 312条/180条
       の <TableStruct> を含む最小 fixture XML をコミットし、実コードパス
       (extract_main_table_chunks) で検証する。
-    - golden 値 (T2 の 9 税率 / T2b の対応関係・3 値) は §7 で佐藤がロック済。
+    - golden 値 (T2 の 9 税率 / T2b の対応関係・3 値) は §7 で source-locked 済。
       **落ちたら直すのはコードであって expected ではない**。
 """
 
@@ -38,7 +38,7 @@ _FAKE_DATA = _FIXTURES / "fake_data"
 _GOLDEN_XML = _FIXTURES / "chihou-zei-hou_main_table_excerpt.xml"
 
 # ===========================================================
-# LOCKED golden expectations (§7・佐藤ロック・改変禁止)
+# LOCKED golden expectations (§7・source-lock・改変禁止)
 # 出典: e-Gov XML 325AC0000000226 第312条/第180条
 # ===========================================================
 
