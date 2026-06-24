@@ -35,6 +35,10 @@ JuriCode-JP への協力をありがとうございます。日本の法令を A
 - **私的解釈は本文・英訳に混ぜない**。注記セクションに出典付きで。
 - **出典明示**: 法令は `source_url`(e-Gov)、判例は永続 URL。
 - ライセンス: 構造化レイヤーは MIT。法令本文・判例は引用範囲。各ソースのライセンスは `docs/licensing.md` 参照。
+- **PR・コミットメッセージに個人名・内部ツール名・非公開プロセス名を書かない**。公開リポの履歴と PR は誰でも読めるため、レビュー担当者の個人名、社内のアドバイザ/自動化ツール名、社内レビュー工程名などは中立な技術ラベルに置き換える。
+  - 例: 「(担当者)目視ロック」→「source-locked against the official source」/「(ツール名)独立検証」→「independent verification」/「(担当者)裁定」→「scoped decision」/「title ↔ source verification」。
+  - 出典・検証手段は**何を**確認したか(一次資料・round-trip・テスト)で書き、**誰が/どのツールで**は書かない。
+  - English contributors: do not put personal names or internal/private tool or process names in public PR titles, PR bodies, or commit messages; use neutral technical labels instead.
 
 ## 5. 検証(PR 前にローカルで)
 このリポの CI が以下を自動チェックします。PR 前にローカルで通すとスムーズです:
