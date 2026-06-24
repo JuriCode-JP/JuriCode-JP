@@ -1607,17 +1607,21 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 - **コーパス完成: 全21章 / 661 DirectiveChunk**。directive_id 全件ユニーク・全体数値順・参照 960 linked / 0 unlinked (shouhi-zei-hou 711 / shikkourei 249)。削除通達 2 型 (見出しごと削除 / 見出し保持) を忠実処理、別表は inline 引用のみ (HTML table なし)。
 - 遭遇エッジは `tools/parse/edge_registry.md` (EDGE-001..007) に台帳化。`data/v0.2`・schema 非接触・dense 再embed なし・NTA HTML cp932 維持。raw HTML cache と provenance マニフェストは gitignored、committed 対象は corpus fixture スナップショット。
 
-**残課題**: 法人税通達の全体化 (現在 役員給与節のみ) / 所得税・相続税・国税通則通達 / FU-520 (taxanswer CI-safe 化)。
+**残課題**: 法人税通達の全体化 (現在 役員給与節のみ) / 所得税・相続税・国税通則通達。
 
 **関連**: PR #35 / 税務Juricode の消費税 retrieval 土台。
 
 ---
 
-### [ ] FU-520: test_taxanswer_related.py を skipif ガードで CI-safe 化 (2026-06-24 追加, P3)
+### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
-**経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 2 ファイルのみを CI 対象に限定した。
+**経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。
 
-**やること**: `build/chunks/` 不在時に `pytest.mark.skipif` でスキップするガードを追加し、CI に安全に配線する (または fixture 化して依存を切る)。`bs4` 依存は本 PR で dev extras に宣言済み (commit c26d9408)。
+**成果**: skipif でスキップするのでなく **最小 committed corpus fixture を注入して実走させる** hermetic 化を採用 (カバレッジを得る)。真因は `extract_related_from_kikon` が tsutatsu directive_id を `build/chunks/` の corpus 実行時参照で解決していたため CI では全 unlink → `got []` で失敗していた点。
+- `tools/parse/tests/fixtures/taxanswer-tsutatsu-corpus.min.jsonl` (新規): ロック済期待値がリンク必須とする最小 directive_number 集合 (9-2-9..9-2-38 の 12 件)。9-2-1 / 9-2-45 / 9-2-46 は意図的に不在 → unlinked 解決。実 `build/chunks` corpus と突合し結果同一を確認。
+- `_import_extractor()` が import 直後に module の `_TSUTATSU_CORPUS` キャッシュへ fixture set を注入 → `build/chunks` 非依存。`parse-nta-taxanswer.py` 本体とロック済期待値は不変。
+- `ci.yml` + `pyproject` の pytest リストに再追加。**hermetic 証明**: `build/chunks/` を退避してもテスト緑 (20/20)。fixture はロック扱い (落ちたら直すのはコードであって fixture/期待値ではない)。
+- CI 全9ステップ緑 (pytest 516)・`data/v0.2`/schema 非接触。
 
 ---
 
