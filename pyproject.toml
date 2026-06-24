@@ -104,6 +104,9 @@ testpaths = [
     # tsutatsu corpus 依存で CI 不在環境では解決不能なため除外 (ローカル限定ゲート)。
     "tools/parse/tests/test_tsutatsu_byte_regression.py",
     "tools/parse/tests/test_shouhi_tsutatsu.py",
+    # 2026-06-24 FU-519: 多章マージ orchestration (--cache-root) の合成 fixture テスト
+    # (章跨ぎ数値ソート / 目 source_url / dedup fail-loud / 前文・アーカイブ除外)。CI-safe。
+    "tools/parse/tests/test_tsutatsu_multichapter.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
 ]

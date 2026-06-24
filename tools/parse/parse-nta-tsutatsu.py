@@ -264,6 +264,25 @@ _DIRECTIVE_NUM_RE = re.compile(r"^(\d+-\d+-\d+(?:の\d+)*)\s*$")
 # CASE A (番号全体が strong) が外れたときのみ本パターンで段落先頭から番号を拾う。
 _LEADING_DIRECTIVE_RE = re.compile(r"^(\d+-\d+-\d+(?:の\d+)*)\s")
 
+# 多章モードで cache root 直下から「章ディレクトリ」だけを拾うフィルタ。
+# 章は 2 桁ゼロ詰め (01..21)。前文ページ (shohi/02.htm = root 直下の .htm で
+# parts[0]="02.htm" → 非該当) や旧版アーカイブ (shohi/20230930/ = 8 桁 → 非該当) を
+# fullmatch で機械的に除外する。
+_CHAPTER_DIR_RE = re.compile(r"\d{2}")
+
+# directive_id の命名規則 (ユニークさとは別の形式ゲート・査読項11)。
+# {law_abbrev}-{章}-{節}-{項}(の{枝番})* の形だけを許し、章跨ぎ取込で番号抽出が
+# 崩れた record (節欠落・全角混入等) を fail-loud で止める。
+_DIRECTIVE_ID_TAIL_RE = re.compile(r"\d+-\d+-\d+(?:の\d+)*")
+
+
+def _directive_id_ok(directive_id: str, config: CircularConfig) -> bool:
+    """True if directive_id == '{law_abbrev}-{N-N-N(のN)*}' (査読項11)."""
+    prefix = f"{config.law_abbrev}-"
+    if not directive_id.startswith(prefix):
+        return False
+    return _DIRECTIVE_ID_TAIL_RE.fullmatch(directive_id[len(prefix) :]) is not None
+
 
 def _detect_charset(raw: bytes) -> str:
     """Detect encoding from HTML meta tag or default to cp932 (R1)."""
@@ -459,8 +478,26 @@ def _extract_directive_items(
     return items
 
 
-def parse_file(htm_path: Path, config: CircularConfig, chapter: str) -> list[dict]:
-    """Parse a single cached HTML file -> list of directive chunk dicts."""
+def _build_source_url(config: CircularConfig, rel_path: Path) -> str:
+    """NTA source URL from a path relative to the chapter root.
+
+    Why: source_url must preserve the full chapter/section/目 sub-path so that
+    4-level files (e.g. 09/01/01.htm under 第9章第1節第1目) map to the correct NTA
+    URL. The old flat formula ``{base}/{chapter}/{stem}.htm`` dropped the 目 level
+    and would have produced /shohi/09/01.htm for 09/01/01.htm. as_posix() keeps the
+    URL separator '/' on every OS (Bug: Windows backslash leaking into URLs).
+    """
+    return f"{config.source_url_base}/{rel_path.as_posix()}"
+
+
+def parse_file(htm_path: Path, config: CircularConfig, source_url: str) -> list[dict]:
+    """Parse a single cached HTML file -> list of directive chunk dicts.
+
+    source_url is computed by the caller (single-chapter: from --chapter + stem;
+    multi-chapter: from the file path relative to the cache root via
+    _build_source_url, preserving the 目 sub-path). Passing it in keeps this
+    function path-policy-free and lets the single-chapter path stay byte-identical.
+    """
     raw = htm_path.read_bytes()
     enc = _detect_charset(raw)
     try:
@@ -471,20 +508,20 @@ def parse_file(htm_path: Path, config: CircularConfig, chapter: str) -> list[dic
         )
         text = raw.decode("cp932", errors="replace")
 
-    # Verify known text decoded correctly (R1 sanity check)
-    if "経済的" not in text and "役員" not in text and "退職" not in text:
+    # Decode sanity check (R1). cp932 decode with errors="replace" inserts U+FFFD
+    # on byte failure; a correctly-decoded NTA page has zero. The old check looked
+    # for hojin-specific keywords (経済的/役員/退職) which are absent in most 消費税
+    # chapters -> false-positive warnings that could mask a real decode failure.
+    # Replacement-char detection is circular-agnostic and fires only on real mojibake.
+    n_repl = text.count("\ufffd")
+    if n_repl:
         warnings.warn(
-            f"WARN: expected Japanese text not found after decode in {htm_path.name}. "
-            f"Charset detected: {enc}",
+            f"WARN: {n_repl} replacement char(s) after decode in {htm_path.name} "
+            f"(charset detected: {enc}) -- possible mojibake.",
             stacklevel=2,
         )
 
     soup = BeautifulSoup(text, "html.parser")
-
-    # Build source URL from filename
-    stem = htm_path.stem  # e.g. "09_02_02"
-    source_url = f"{config.source_url_base}/{chapter}/{stem}.htm"
-
     items = _extract_directive_items(soup, source_url, config)
     return items
 
@@ -500,7 +537,18 @@ def main(argv: list[str] | None = None) -> int:
         "--cache-dir",
         type=Path,
         default=Path("cache/tsutatsu/hojin/09"),
-        help="Directory containing cached .htm files.",
+        help="Single-chapter mode: directory of cached .htm files (uses --chapter for the URL).",
+    )
+    ap.add_argument(
+        "--cache-root",
+        type=Path,
+        default=None,
+        help=(
+            "Multi-chapter mode: root holding <chapter>/<...>.htm. When set, all chapters "
+            "under it are parsed, merged, globally numeric-sorted, and written to one file; "
+            "source_url is derived per-file from its path (preserves the 目 sub-path). "
+            "Takes precedence over --cache-dir/--chapter."
+        ),
     )
     ap.add_argument(
         "--output-dir",
@@ -526,16 +574,39 @@ def main(argv: list[str] | None = None) -> int:
 
     config = CIRCULAR_CONFIGS[args.circular]
 
-    if not args.cache_dir.exists():
-        print(f"ERROR: cache-dir not found: {args.cache_dir}", file=sys.stderr)
-        return 1
+    # 取込対象ファイルと、各ファイル -> source_url の解決方法をモード別に確定する。
+    # 単一章 (--cache-dir + --chapter): 非再帰 glob・URL は {base}/{chapter}/{stem}.htm
+    #   (従来式そのまま -> hojin / 消費税第1章 byte 不変)。
+    # 多章 (--cache-root): rglob・URL は root からの相対パス (目サブパス保持)。
+    if args.cache_root is not None:
+        root = args.cache_root
+        if not root.exists():
+            print(f"ERROR: cache-root not found: {root}", file=sys.stderr)
+            return 1
+        htm_files = sorted(
+            p
+            for p in root.rglob(args.glob_pattern)
+            if _CHAPTER_DIR_RE.fullmatch(p.relative_to(root).parts[0])
+        )
+        src_label = str(root)
 
-    htm_files = sorted(args.cache_dir.glob(args.glob_pattern))
+        def _src_url(p: Path) -> str:
+            return _build_source_url(config, p.relative_to(root))
+    else:
+        if not args.cache_dir.exists():
+            print(f"ERROR: cache-dir not found: {args.cache_dir}", file=sys.stderr)
+            return 1
+        htm_files = sorted(args.cache_dir.glob(args.glob_pattern))
+        src_label = str(args.cache_dir)
+
+        def _src_url(p: Path) -> str:
+            return _build_source_url(config, Path(args.chapter) / f"{p.stem}.htm")
+
     if not htm_files:
-        print(f"ERROR: no .htm files found in {args.cache_dir}", file=sys.stderr)
+        print(f"ERROR: no .htm files found in {src_label}", file=sys.stderr)
         return 1
 
-    print(f"Parsing {len(htm_files)} HTML file(s) from {args.cache_dir}", file=sys.stderr)
+    print(f"Parsing {len(htm_files)} HTML file(s) from {src_label}", file=sys.stderr)
 
     all_items: list[dict] = []
     seen_ids: set[str] = set()
@@ -543,7 +614,7 @@ def main(argv: list[str] | None = None) -> int:
 
     for htm_path in htm_files:
         try:
-            items = parse_file(htm_path, config, args.chapter)
+            items = parse_file(htm_path, config, _src_url(htm_path))
         except Exception as e:
             msg = f"ERROR: failed to parse {htm_path.name}: {e}"
             print(msg, file=sys.stderr)
@@ -555,6 +626,14 @@ def main(argv: list[str] | None = None) -> int:
 
         for item in items:
             did = item["directive_id"]
+            if not _directive_id_ok(did, config):
+                # 形式ゲート (査読項11): 番号抽出が崩れた record を fail-loud で止める。
+                print(
+                    f"ERROR: directive_id {did!r} from {htm_path.name} violates the naming "
+                    f"rule '{config.law_abbrev}-<chap>-<sec>-<item>(の<branch>)*'",
+                    file=sys.stderr,
+                )
+                return 1
             if did in seen_ids:
                 # fail-loud (Bug36): 「目」階層・枝番で directive_id が衝突すると
                 # サイレント上書き/欠落になる。重複は黙って捨てず即エラーで止める。
