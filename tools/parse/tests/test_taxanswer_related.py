@@ -1,8 +1,17 @@
 """test_taxanswer_related.py -- TDD tests for TaxAnswer related extraction.
 
-Expected values are LOCKED by owner (Sato-san) via lock table
-20_テスト期待値ロック表_タックスアンサーrelated抽出_2026-06-02.md.
-DO NOT modify expected values without owner approval (R40).
+Expected values are maintainer-locked (source-verified against NTA TaxAnswer).
+DO NOT modify expected values without maintainer approval (R40).
+
+Hermetic (FU-520): the tsutatsu directive corpus that extract_related_from_kikon
+checks membership against is normally loaded from build/chunks (gitignored, absent
+in CI). To run this test in CI without that runtime artifact, _import_extractor()
+injects a tiny committed corpus fixture (fixtures/taxanswer-tsutatsu-corpus.min.jsonl)
+into the module's corpus cache, so the test never touches build/chunks. The fixture
+is the minimal set of directive_numbers the locked expectations require to be linked
+(9-2-9..9-2-38 subset); 9-2-1 / 9-2-45 / 9-2-46 are intentionally absent so they
+resolve as unlinked. The fixture is locked: if this test fails, fix the code, not
+the fixture/expected values.
 """
 
 from __future__ import annotations
@@ -22,8 +31,30 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "shared" / "src"))
 # ---------------------------------------------------------------------------
 
 
+# Minimal committed tsutatsu corpus fixture (FU-520): the set of directive_numbers
+# the locked expectations require to be LINKED. Injected into the module's corpus
+# cache so the test is hermetic (no build/chunks dependency). Locked snapshot.
+_MIN_CORPUS = Path(__file__).resolve().parent / "fixtures" / "taxanswer-tsutatsu-corpus.min.jsonl"
+
+
+def _load_min_corpus() -> set[str]:
+    import json
+
+    nums: set[str] = set()
+    for line in _MIN_CORPUS.read_text(encoding="utf-8").splitlines():
+        if line.strip():
+            nums.add(json.loads(line)["directive_number"])
+    return nums
+
+
 def _import_extractor():
-    """Lazy import so test collection does not fail before module exists."""
+    """Lazy import + inject the committed corpus fixture (hermetic, FU-520).
+
+    The module caches its tsutatsu corpus in the module-global _TSUTATSU_CORPUS
+    (None until first _load_tsutatsu_corpus() call, which reads build/chunks). We set
+    it to the committed fixture set right after import, so extract_related_from_kikon
+    never touches build/chunks -- the test runs identically in CI and locally.
+    """
     import importlib.util
 
     spec = importlib.util.spec_from_file_location(
@@ -32,6 +63,7 @@ def _import_extractor():
     )
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
+    mod._TSUTATSU_CORPUS = _load_min_corpus()  # inject before any extraction call
     return mod
 
 
