@@ -482,5 +482,5 @@ uv run pytest tools/tests/integration/test_build_keihou_36.py
 
 ---
 
-*最終更新: 2026-05-18 / 作成者: Claude(Cowork セッション)*
+*最終更新: 2026-05-18 / 作成者: Claude(計画セッション)*
 *次回更新の目安: tools/parse/ 実装着手時、IR スキーマが確定したタイミング*
