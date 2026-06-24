@@ -3,11 +3,13 @@
 
 Usage:
     python tools/parse/parse-nta-tsutatsu.py \\
+        --circular hojin \\
         --cache-dir cache/tsutatsu/hojin/09 \\
         --output-dir build/chunks/hojin-kihon-tsutatsu \\
-        --law-abbrev hojin-kihon-tsutatsu \\
-        --chapter 09 \\
-        --section 02
+        --chapter 09
+
+The circular's law_name / NTA URL base / reference-prefix map come from its
+CircularConfig (selected by --circular); law_abbrev is derived from that config.
 
 Output: build/chunks/hojin-kihon-tsutatsu/hojin-kihon-tsutatsu.tsutatsu.chunks.jsonl
 
@@ -35,6 +37,8 @@ import argparse
 import re
 import sys
 import warnings
+from collections.abc import Mapping
+from dataclasses import dataclass, field
 from pathlib import Path
 
 try:
@@ -53,9 +57,72 @@ if str(_SHARED_SRC) not in sys.path:
 # Constants
 # ---------------------------------------------------------------------------
 
-LAW_NAME_JA = "法人税基本通達"
-SOURCE_URL_BASE = "https://www.nta.go.jp/law/tsutatsu/kihon/hojin"
 LICENSE = "public-domain-13-2"
+
+
+# ---------------------------------------------------------------------------
+# Per-circular config (法人税 / 消費税 ... を 1 セレクタで切替・Bug37 回避)
+# ---------------------------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class CircularConfig:
+    """1 通達分の取込パラメータ (法人税固定の解消・FU-514 後段)。
+
+    Why: parser ロジックは通達非依存だが、通達名・NTA URL ベース・参照接頭辞マップ
+    だけが通達ごとに違う。これらをコード内 config 定数として束ね `--circular` で
+    選択する (CLI に dict を渡さない=デシリアライズ不要で型不整合 Bug を構造的に回避)。
+    ref_map は必須フィールド (mutable default を持たせない)。corpus 未登録の参照先は
+    corpus_unregistered に列挙し unlinked として扱う。
+    """
+
+    law_name_ja: str
+    law_abbrev: str
+    source_url_base: str
+    ref_map: Mapping[str, str]  # {"法": <law>, "令": <shikkourei>, "規": <shikoukisoku>, ...}
+    corpus_unregistered: frozenset[str] = field(default_factory=frozenset)
+    license: str = LICENSE
+    # 本文末尾の改正注記を抽出する NTA 内部記号 (法人税="課法" / 消費税="課消")。
+    # 「（<元号><年>課<部門><番号>…）」形式。通達ごとに部門記号が違うため config 化。
+    amendment_marker: str = "課法"
+
+
+# 法人税基本通達 (既定・byte 回帰で固定。値は移行前の module 定数と完全一致)。
+HOJIN_CONFIG = CircularConfig(
+    law_name_ja="法人税基本通達",
+    law_abbrev="hojin-kihon-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kihon/hojin",
+    ref_map={
+        "法": "houjin-zei-hou",
+        "令": "houjin-zei-hou-shikkourei",
+        "規": "houjin-zei-hou-shikoukisoku",
+        "措法": "sochi-hou",  # corpus 未収録 -> warn, no link
+    },
+    corpus_unregistered=frozenset({"sochi-hou"}),
+)
+
+# 消費税法基本通達。source_url_base の NTA パスは "shohi" (実 URL で確認済・我々の
+# abbrev "shouhi" とは独立)。参照接頭辞は corpus 実在の shouhi-zei-hou 系に対応。
+# 第1章は 法/令 のみ参照 (規/措法なし) で全件 corpus 内 -> corpus_unregistered 空。
+SHOUHI_CONFIG = CircularConfig(
+    law_name_ja="消費税法基本通達",
+    law_abbrev="shouhi-kihon-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kihon/shohi",
+    ref_map={
+        "法": "shouhi-zei-hou",
+        "令": "shouhi-zei-hou-shikkourei",
+        "規": "shouhi-zei-hou-shikoukisoku",
+    },
+    corpus_unregistered=frozenset(),
+    amendment_marker="課消",  # 消費税通達の改正注記記号 (例: 平28課消1-57)
+)
+
+# --circular セレクタの登録簿。
+CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
+    "hojin": HOJIN_CONFIG,
+    "shouhi": SHOUHI_CONFIG,
+}
+
 
 # 出力 JSONL の chunk-level キー順マスタ (出力保持の正本・FU-514)。
 # DirectiveChunk.model_dump() (意味フィールド) + 配管フィールドをマージした後、
@@ -77,16 +144,6 @@ DIRECTIVE_KEY_ORDER = [
     "article_id",
     "law_name_ja_display",
 ]
-
-# Abbreviation prefix -> law_abbrev mapping (R2: 接頭辞明示のみ)
-LAW_PREFIX_MAP = {
-    "法": "houjin-zei-hou",
-    "令": "houjin-zei-hou-shikkourei",
-    "規": "houjin-zei-hou-shikoukisoku",
-    "措法": "sochi-hou",  # corpus 未収録 -> warn, no link
-}
-CORPUS_UNREGISTERED = {"sochi-hou"}  # R2: warn + skip link
-
 
 # ---------------------------------------------------------------------------
 # Text normalization helpers (R7, R10)
@@ -129,11 +186,12 @@ _LAW_REF_FULL_RE = re.compile(
 )
 
 
-def _extract_related_articles(text: str) -> list[dict]:
+def _extract_related_articles(text: str, config: CircularConfig) -> list[dict]:
     """Extract law article references from text (R2, R8, R12).
 
     Returns list of dicts with keys: raw, law_abbrev, article_number, article_id.
     Unresolved references (corpus未収録) are included with article_id=None + warn.
+    接頭辞 -> law_abbrev の対応と corpus 未登録判定は config に従う (通達ごとに切替)。
     """
     results: list[dict] = []
     seen_raw: set[str] = set()
@@ -149,7 +207,7 @@ def _extract_related_articles(text: str) -> list[dict]:
             continue
         seen_raw.add(raw)
 
-        law_abbrev = LAW_PREFIX_MAP.get(prefix)
+        law_abbrev = config.ref_map.get(prefix)
         if law_abbrev is None:
             # Unknown prefix: skip silently (R8: only explicit prefixes)
             continue
@@ -161,7 +219,7 @@ def _extract_related_articles(text: str) -> list[dict]:
         if branches:
             article_number = base_num + "-" + "-".join(branches)
 
-        if law_abbrev in CORPUS_UNREGISTERED:
+        if law_abbrev in config.corpus_unregistered:
             warnings.warn(
                 f"WARN: {raw!r} -> {law_abbrev} is not in corpus (corpus未収録). "
                 "Keeping raw reference without article_id link.",
@@ -200,6 +258,12 @@ def _extract_related_articles(text: str) -> list[dict]:
 # Full-width digits may appear; normalize before matching
 _DIRECTIVE_NUM_RE = re.compile(r"^(\d+-\d+-\d+(?:の\d+)*)\s*$")
 
+# 段落テキスト先頭の項番号 (split-strong 形式の検出用)。
+# NTA の消費税通達では番号が <strong>1</strong>－3－2 ... のように分割され、
+# strong だけでは番号全体にならない項がある (法人税通達は番号全体が strong 内)。
+# CASE A (番号全体が strong) が外れたときのみ本パターンで段落先頭から番号を拾う。
+_LEADING_DIRECTIVE_RE = re.compile(r"^(\d+-\d+-\d+(?:の\d+)*)\s")
+
 
 def _detect_charset(raw: bytes) -> str:
     """Detect encoding from HTML meta tag or default to cp932 (R1)."""
@@ -222,7 +286,7 @@ def _build_directive_record(
     amendment_note: str,
     related: list[dict],
     source_url: str,
-    law_abbrev: str,
+    config: CircularConfig,
 ) -> dict:
     """Validate via DirectiveChunk (Pydantic IR) and reconstruct the 14-key record.
 
@@ -236,17 +300,17 @@ def _build_directive_record(
     """
     from juricode_shared.ir import DirectiveChunk
 
-    directive_id = f"{law_abbrev}-{num}"
+    directive_id = f"{config.law_abbrev}-{num}"
     chunk = DirectiveChunk(
         directive_id=directive_id,
         directive_number=num,
-        law_abbrev=law_abbrev,
+        law_abbrev=config.law_abbrev,
         title=title,
         text=body,
         amendment_note=amendment_note,
         related_articles=related,  # dict -> disjoint Union が linked/unlinked を判別
         source_url=source_url,
-        license=LICENSE,
+        license=config.license,
     )
     semantic = chunk.model_dump(mode="json")
 
@@ -254,8 +318,8 @@ def _build_directive_record(
     merged = {
         **semantic,
         "id": directive_id,
-        "law_name_ja": LAW_NAME_JA,
-        "law_name_ja_display": f"{LAW_NAME_JA} {num}",
+        "law_name_ja": config.law_name_ja,
+        "law_name_ja_display": f"{config.law_name_ja} {num}",
         "segment_type": "tsutatsu",
         "article_id": None,
     }
@@ -264,14 +328,22 @@ def _build_directive_record(
     return {k: merged[k] for k in DIRECTIVE_KEY_ORDER}
 
 
-def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: str) -> list[dict]:
+def _extract_directive_items(
+    soup: BeautifulSoup, source_url: str, config: CircularConfig
+) -> list[dict]:
     """Parse BeautifulSoup of a single htm page -> list of directive chunk dicts.
 
     One dict per directive item (e.g. 9-2-9, 9-2-10, ...).
     R4: handles multiple items per page.
     """
     items: list[dict] = []
+    # current_title = 直近に出現した見出し (h2) = 次に始まる項の見出し (pending)。
+    # current_item_title = いま蓄積中の項に確定済みの見出し。
+    # 番号検出時に current_title を current_item_title へ束縛することで「項に対し
+    # 直前の見出し」を正しく割当てる (旧実装は flush 時の current_title を使い、既に
+    # 次項の見出しへ進んでいたため +1 ズレていた)。
     current_title: str | None = None
+    current_item_title: str | None = None
     current_num: str | None = None
     current_body_parts: list[str] = []
     current_amendment: str | None = None
@@ -280,17 +352,19 @@ def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: s
         if num is None:
             return
         body = "\n".join(parts).strip()
-        # Extract amendment note from end of body if not already found
+        # Extract amendment note from end of body if not already found.
+        # marker は通達ごと (課法/課消)。hojin の "課法" は従来正規表現と同一 -> byte 不変。
         amendment_note = amend
         if amendment_note is None:
-            amend_m = re.search(r"（[^）]*課法[^）]*）\s*$", body)
+            amend_re = rf"（[^）]*{re.escape(config.amendment_marker)}[^）]*）\s*$"
+            amend_m = re.search(amend_re, body)
             if amend_m:
                 amendment_note = amend_m.group(0)
                 body = body[: amend_m.start()].rstrip()
 
         # Normalize bars/whitespace in body
         body = _normalize_text(body)
-        related = _extract_related_articles(body)
+        related = _extract_related_articles(body, config)
 
         items.append(
             _build_directive_record(
@@ -300,7 +374,7 @@ def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: s
                 amendment_note=amendment_note or "",
                 related=related,
                 source_url=source_url,
-                law_abbrev=law_abbrev,
+                config=config,
             )
         )
 
@@ -325,16 +399,38 @@ def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: s
             raw_num_text = _normalize_text(strong.get_text())
             num_match = _DIRECTIVE_NUM_RE.match(raw_num_text.strip())
             if num_match:
-                # Flush previous item
-                _flush(current_num, current_title, current_body_parts, current_amendment)
-                # Start new item
+                # CASE A: 番号全体が <strong> 内 (法人税通達・一部の消費税通達)。
+                # Flush previous item (確定済み見出し current_item_title を使う)。
+                _flush(current_num, current_item_title, current_body_parts, current_amendment)
+                # Start new item: この番号の直前見出しを確定束縛 (title-lag 修正)。
+                # 見出しは「直後の1番号」専用。束縛後 None に戻すことで、自前見出しの
+                # ない「削除」通達が前項の見出しを継承しない (第2エッジ・タイトルなし)。
                 current_num = num_match.group(1)
+                current_item_title = current_title
+                current_title = None
                 current_body_parts = []
                 current_amendment = None
                 # Get body text after the number (remove strong element text)
                 strong.decompose()
                 # R13: explicit newline before text (inline -> block)
                 remaining = _normalize_text(tag.get_text(separator="\n")).strip()
+                if remaining:
+                    current_body_parts.append(remaining)
+                continue
+
+            # CASE B: split-strong (消費税通達 <strong>1</strong>－3－2 ...)。
+            # strong だけでは番号にならないため、段落テキスト先頭の番号を拾う。
+            # 番号を含まない段落 (indent2 の「(1)…」等) は先頭が番号にならず非該当。
+            plain = _normalize_text(tag.get_text()).strip()
+            lead_match = _LEADING_DIRECTIVE_RE.match(plain)
+            if lead_match:
+                _flush(current_num, current_item_title, current_body_parts, current_amendment)
+                current_num = lead_match.group(1)
+                current_item_title = current_title
+                current_title = None  # consume-once (第2エッジ: 削除通達はタイトルなし)
+                current_body_parts = []
+                current_amendment = None
+                remaining = plain[lead_match.end() :].strip()
                 if remaining:
                     current_body_parts.append(remaining)
                 continue
@@ -353,8 +449,8 @@ def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: s
             else:
                 current_body_parts.append(raw_text)
 
-    # Flush last item
-    _flush(current_num, current_title, current_body_parts, current_amendment)
+    # Flush last item (確定済み見出しを使う)。
+    _flush(current_num, current_item_title, current_body_parts, current_amendment)
 
     # Validate: 0 items = parse error
     if not items:
@@ -363,7 +459,7 @@ def _extract_directive_items(soup: BeautifulSoup, source_url: str, law_abbrev: s
     return items
 
 
-def parse_file(htm_path: Path, law_abbrev: str, chapter: str, section: str) -> list[dict]:
+def parse_file(htm_path: Path, config: CircularConfig, chapter: str) -> list[dict]:
     """Parse a single cached HTML file -> list of directive chunk dicts."""
     raw = htm_path.read_bytes()
     enc = _detect_charset(raw)
@@ -387,9 +483,9 @@ def parse_file(htm_path: Path, law_abbrev: str, chapter: str, section: str) -> l
 
     # Build source URL from filename
     stem = htm_path.stem  # e.g. "09_02_02"
-    source_url = f"{SOURCE_URL_BASE}/{chapter}/{stem}.htm"
+    source_url = f"{config.source_url_base}/{chapter}/{stem}.htm"
 
-    items = _extract_directive_items(soup, source_url, law_abbrev)
+    items = _extract_directive_items(soup, source_url, config)
     return items
 
 
@@ -413,9 +509,10 @@ def main(argv: list[str] | None = None) -> int:
         help="Output directory for JSONL chunk file.",
     )
     ap.add_argument(
-        "--law-abbrev",
-        default="hojin-kihon-tsutatsu",
-        help="Abbreviation for this circular (used in directive_id prefix).",
+        "--circular",
+        choices=sorted(CIRCULAR_CONFIGS),
+        default="hojin",
+        help="Which circular's config to use (law_name / NTA URL base / ref_map).",
     )
     ap.add_argument("--chapter", default="09", help="Chapter directory name (e.g. '09').")
     ap.add_argument("--section", default="02", help="Section number prefix (e.g. '02').")
@@ -426,6 +523,8 @@ def main(argv: list[str] | None = None) -> int:
     )
     ap.add_argument("--verbose", action="store_true")
     args = ap.parse_args(argv)
+
+    config = CIRCULAR_CONFIGS[args.circular]
 
     if not args.cache_dir.exists():
         print(f"ERROR: cache-dir not found: {args.cache_dir}", file=sys.stderr)
@@ -444,7 +543,7 @@ def main(argv: list[str] | None = None) -> int:
 
     for htm_path in htm_files:
         try:
-            items = parse_file(htm_path, args.law_abbrev, args.chapter, args.section)
+            items = parse_file(htm_path, config, args.chapter)
         except Exception as e:
             msg = f"ERROR: failed to parse {htm_path.name}: {e}"
             print(msg, file=sys.stderr)
@@ -457,10 +556,14 @@ def main(argv: list[str] | None = None) -> int:
         for item in items:
             did = item["directive_id"]
             if did in seen_ids:
+                # fail-loud (Bug36): 「目」階層・枝番で directive_id が衝突すると
+                # サイレント上書き/欠落になる。重複は黙って捨てず即エラーで止める。
                 print(
-                    f"  WARN: duplicate directive_id {did!r} from {htm_path.name}", file=sys.stderr
+                    f"ERROR: duplicate directive_id {did!r} from {htm_path.name} "
+                    "(directive_id must be unique across the circular)",
+                    file=sys.stderr,
                 )
-                continue
+                return 1
             seen_ids.add(did)
             all_items.append(item)
 
@@ -485,7 +588,7 @@ def main(argv: list[str] | None = None) -> int:
     all_items.sort(key=_sort_key)
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    out_path = args.output_dir / f"{args.law_abbrev}.tsutatsu.chunks.jsonl"
+    out_path = args.output_dir / f"{config.law_abbrev}.tsutatsu.chunks.jsonl"
 
     # safe_write via juricode_shared
     sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "shared" / "src"))

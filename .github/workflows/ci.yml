@@ -55,11 +55,15 @@ jobs:
       - name: Pytest (all workspace packages)
         # 2026-05-25: tools/parse/v0.2/tests と manifest/tests を追加.
         # 2026-05-30: tools/search-ui/tests を追加 (柱5 質問ログ: endpoints / html smoke / server_main).
+        # 2026-06-24: NTA 通達パーサの CI-safe な構造監査テストを 2 ファイル追加
+        # (法人税 byte 回帰 FU-514 / 消費税取込). byte 回帰層は cache 不在の CI では
+        # 自動 skip. 同 dir の test_taxanswer_related.py は build/chunks/ (gitignored)
+        # の tsutatsu corpus に依存し CI 不在環境では解決不能なため除外 (ローカル限定ゲート).
         # PYTHONPATH を明示し juricode_shared 解決を rootdir 依存から切り離す (belt-and-suspenders).
         env:
           PYTHONPATH: tools/shared/src
         run: |
-          pytest tools/shared/tests tools/validate/tests tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests tools/search-ui/tests -v
+          pytest tools/shared/tests tools/validate/tests tools/parse/tests/test_tsutatsu_byte_regression.py tools/parse/tests/test_shouhi_tsutatsu.py tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests tools/search-ui/tests -v
 
       - name: Validate all law data files
         # 2026-05-25: data/phase1-*/ (v0.1) を archive/v0.1/ に deprecate 済.

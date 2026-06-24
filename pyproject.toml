@@ -55,6 +55,9 @@ dev = [
     "pre-commit>=3.0.0",
     # JSON Schema validation (used by tools/validate and external consumers)
     "jsonschema>=4.0",
+    # NTA 通達/タックスアンサー HTML パーサ (tools/parse/parse-nta-*.py) の必須依存。
+    # tools/parse/tests が CI で走るため dev に明示 (ハード依存・stdlib fallback なし)。
+    "beautifulsoup4>=4.12",
 ]
 
 # Optional extras for tools/export/lawsy-bq RAG-ready exporter.
@@ -96,6 +99,11 @@ testpaths = [
     # 必要で、各 test ファイル内で sys.path manipulation を行う pattern.
     "tools/parse/v0.2/tests",
     "tools/parse/v0.2/manifest/tests",
+    # 2026-06-24: NTA 通達パーサの CI-safe テスト 2 ファイル (法人税 byte 回帰 FU-514 /
+    # 消費税取込). 同 dir の test_taxanswer_related.py は build/chunks/ (gitignored) の
+    # tsutatsu corpus 依存で CI 不在環境では解決不能なため除外 (ローカル限定ゲート)。
+    "tools/parse/tests/test_tsutatsu_byte_regression.py",
+    "tools/parse/tests/test_shouhi_tsutatsu.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
 ]
