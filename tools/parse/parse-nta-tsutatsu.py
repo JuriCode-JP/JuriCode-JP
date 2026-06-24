@@ -82,6 +82,9 @@ class CircularConfig:
     ref_map: Mapping[str, str]  # {"法": <law>, "令": <shikkourei>, "規": <shikoukisoku>, ...}
     corpus_unregistered: frozenset[str] = field(default_factory=frozenset)
     license: str = LICENSE
+    # 本文末尾の改正注記を抽出する NTA 内部記号 (法人税="課法" / 消費税="課消")。
+    # 「（<元号><年>課<部門><番号>…）」形式。通達ごとに部門記号が違うため config 化。
+    amendment_marker: str = "課法"
 
 
 # 法人税基本通達 (既定・byte 回帰で固定。値は移行前の module 定数と完全一致)。
@@ -98,9 +101,26 @@ HOJIN_CONFIG = CircularConfig(
     corpus_unregistered=frozenset({"sochi-hou"}),
 )
 
-# --circular セレクタの登録簿。消費税 config は別コミット (取込) で追加。
+# 消費税法基本通達。source_url_base の NTA パスは "shohi" (実 URL で確認済・我々の
+# abbrev "shouhi" とは独立)。参照接頭辞は corpus 実在の shouhi-zei-hou 系に対応。
+# 第1章は 法/令 のみ参照 (規/措法なし) で全件 corpus 内 -> corpus_unregistered 空。
+SHOUHI_CONFIG = CircularConfig(
+    law_name_ja="消費税法基本通達",
+    law_abbrev="shouhi-kihon-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kihon/shohi",
+    ref_map={
+        "法": "shouhi-zei-hou",
+        "令": "shouhi-zei-hou-shikkourei",
+        "規": "shouhi-zei-hou-shikoukisoku",
+    },
+    corpus_unregistered=frozenset(),
+    amendment_marker="課消",  # 消費税通達の改正注記記号 (例: 平28課消1-57)
+)
+
+# --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
+    "shouhi": SHOUHI_CONFIG,
 }
 
 
@@ -238,6 +258,12 @@ def _extract_related_articles(text: str, config: CircularConfig) -> list[dict]:
 # Full-width digits may appear; normalize before matching
 _DIRECTIVE_NUM_RE = re.compile(r"^(\d+-\d+-\d+(?:の\d+)*)\s*$")
 
+# 段落テキスト先頭の項番号 (split-strong 形式の検出用)。
+# NTA の消費税通達では番号が <strong>1</strong>－3－2 ... のように分割され、
+# strong だけでは番号全体にならない項がある (法人税通達は番号全体が strong 内)。
+# CASE A (番号全体が strong) が外れたときのみ本パターンで段落先頭から番号を拾う。
+_LEADING_DIRECTIVE_RE = re.compile(r"^(\d+-\d+-\d+(?:の\d+)*)\s")
+
 
 def _detect_charset(raw: bytes) -> str:
     """Detect encoding from HTML meta tag or default to cp932 (R1)."""
@@ -326,10 +352,12 @@ def _extract_directive_items(
         if num is None:
             return
         body = "\n".join(parts).strip()
-        # Extract amendment note from end of body if not already found
+        # Extract amendment note from end of body if not already found.
+        # marker は通達ごと (課法/課消)。hojin の "課法" は従来正規表現と同一 -> byte 不変。
         amendment_note = amend
         if amendment_note is None:
-            amend_m = re.search(r"（[^）]*課法[^）]*）\s*$", body)
+            amend_re = rf"（[^）]*{re.escape(config.amendment_marker)}[^）]*）\s*$"
+            amend_m = re.search(amend_re, body)
             if amend_m:
                 amendment_note = amend_m.group(0)
                 body = body[: amend_m.start()].rstrip()
@@ -386,6 +414,23 @@ def _extract_directive_items(
                 strong.decompose()
                 # R13: explicit newline before text (inline -> block)
                 remaining = _normalize_text(tag.get_text(separator="\n")).strip()
+                if remaining:
+                    current_body_parts.append(remaining)
+                continue
+
+            # CASE B: split-strong (消費税通達 <strong>1</strong>－3－2 ...)。
+            # strong だけでは番号にならないため、段落テキスト先頭の番号を拾う。
+            # 番号を含まない段落 (indent2 の「(1)…」等) は先頭が番号にならず非該当。
+            plain = _normalize_text(tag.get_text()).strip()
+            lead_match = _LEADING_DIRECTIVE_RE.match(plain)
+            if lead_match:
+                _flush(current_num, current_item_title, current_body_parts, current_amendment)
+                current_num = lead_match.group(1)
+                current_item_title = current_title
+                current_title = None  # consume-once (第2エッジ: 削除通達はタイトルなし)
+                current_body_parts = []
+                current_amendment = None
+                remaining = plain[lead_match.end() :].strip()
                 if remaining:
                     current_body_parts.append(remaining)
                 continue
@@ -511,10 +556,14 @@ def main(argv: list[str] | None = None) -> int:
         for item in items:
             did = item["directive_id"]
             if did in seen_ids:
+                # fail-loud (Bug36): 「目」階層・枝番で directive_id が衝突すると
+                # サイレント上書き/欠落になる。重複は黙って捨てず即エラーで止める。
                 print(
-                    f"  WARN: duplicate directive_id {did!r} from {htm_path.name}", file=sys.stderr
+                    f"ERROR: duplicate directive_id {did!r} from {htm_path.name} "
+                    "(directive_id must be unique across the circular)",
+                    file=sys.stderr,
                 )
-                continue
+                return 1
             seen_ids.add(did)
             all_items.append(item)
 
