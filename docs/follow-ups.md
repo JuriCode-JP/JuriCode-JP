@@ -1595,6 +1595,30 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 **流用可能資産**: 本 D-b の eval-set (`data/eval-set/tax-honbun-local/g1-local.jsonl` G1-local + `tax-supplproviso-probe/g3-sp.jsonl` G3-sp・**LOCKED**) と checksum ゲート (`tools/scripts/verify-eval-set-checksum.py` + `approve-eval-set.sh`) はそのまま再利用可能。増分embed 手順 (pre-check → tripwire → 実Gemini → vector health → eval gate) も `build/_fu515_phase_db_*.py` を雛形にできる。
 
+---
+
+### [ ] FU-519: 消費税法基本通達 残り18章/65節の取込 (2026-06-24 追加, P2)
+
+**経緯**: PR #35 (main 92e6a8ec) で消費税法基本通達の **第1章 (8節) → 93 DirectiveChunk** を取込み、parser の健全性 (title-lag/削除/CASE B split-strong/amendment_marker 課消) を実証済み。本通達は実測 **全19章/73節**。残り18章/65節が未取込。
+
+**やること**: 信頼済みの `parse-nta-tsutatsu.py --circular shouhi` を残り章に反復適用 (章ループ/`--chapter` 反復)。第1章で全ゲートを通過済みのため、残りは低リスク。各章で directive_id ユニーク assert・別表テキスト隔離・参照リンク (法/令/規→shouhi 系) を確認。NTA HTML は cp932。`cache/`・`build/chunks/` は gitignored、committed 対象は fixture スナップショット + glossary。
+
+**関連**: PR #35 / `business/tax-tsutatsu-shohi-ingest-plan-2026-06-24.md` (Rev.3) / 税務Juricode の消費税 retrieval 土台。
+
+---
+
+### [ ] FU-520: test_taxanswer_related.py を skipif ガードで CI-safe 化 (2026-06-24 追加, P3)
+
+**経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 2 ファイルのみを CI 対象に限定した。
+
+**やること**: `build/chunks/` 不在時に `pytest.mark.skipif` でスキップするガードを追加し、CI に安全に配線する (または fixture 化して依存を切る)。`bs4` 依存は本 PR で dev extras に宣言済み (commit c26d9408)。
+
+---
+
+### [x] 完了記録: 消費税法基本通達 第1章取込 + title-lag バグ根本修正 (2026-06-24, PR #35 / main 92e6a8ec)
+
+**成果**: (1) `parse-nta-tsutatsu.py` を `CircularConfig` + `--circular hojin|shouhi` でパラメータ化 (法人税 byte 不変)。(2) **title-lag バグを根本修正** (commit daf2c895): 各通達に直前見出しを束縛 (consume-once)、削除通達はタイトルなし。佐藤 NTA 原典ロック表 (`business/hojin-9-2-title-lock-table-2026-06-24.md`) と **全35件一致** (Cowork が committed fixture を独立検証=35/35・0 mismatch)。**法人税既存コーパスのタイトル 29/35 を訂正** = 公開データの品質改善。(3) 消費税第1章 → 93 DirectiveChunk (directive_id ユニーク・165 linked/0 unlinked・CASE B split-strong・amendment_marker 課消)。CI 全9ステップ緑・data/v0.2/schema 非接触・dense 再embed なし。残りは FU-519 (残18章) / FU-520 (taxanswer CI)。
+
 **関連**: FU-515 D-b (PR #23 `1795df4c`・REJECT 由来) / 柱1 reranker / `benchmarks/results/2026-06-21-aug-v7-fu515-supplproviso.json` (eval 記録)。
 
 ---
