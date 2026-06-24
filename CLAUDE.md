@@ -436,18 +436,18 @@ commit 前に 4 観点で自己レビュー: (1) SOLID リファクタリング 
 - **`--import-mode=importlib`**: 同名 `tests/` パッケージ衝突回避のため `pyproject.toml` で設定済 (新規 tests/ ディレクトリ追加時に動作確認)
 - **新規モジュールに `tests/test_*.py` 同時作成**: TDD でなくても unit test 必須
 
-### 10.3 Cowork と Claude Code の役割分担 (2026-05-27 採用)
+### 10.3 作業環境の役割分担 (2026-05-27 採用)
 
-ソースコード作業時のツール選択は、Cowork sandbox の構造的制約 (Edit/Write 末尾切断・git lock 残留・WSL `/mnt/c/` corruption) を回避するため、以下の方針で行う。詳細運用ルールは Vault 側 `CLAUDE.md` の「ツール別役割分担」セクションを参照 (Vault は非公開のため、本リポは要点のみ抜粋).
+ソースコード作業は二層運用: **実装は OS native の CLI 環境**、**計画策定・レビュー・ドキュメント管理は別の作業環境**で行う。詳細な運用ルールは非公開の運用ガイドで管理し、本リポは要点のみ記す。
 
-- **Claude Code (CLI) で行う作業**: 新規実装 / refactoring / pytest + ruff iterate ループ / git 操作 / 多 file 一括置換 / debug loop。これらは OS native 実行のため、Cowork sandbox の既知バグが構造的に発生しない
-- **Cowork で行う作業**: 計画書策定 (`business/`) / planning-checklist 通過確認 / レビュー / docs/follow-ups.md 更新 / memory 累積 / scheduled task。AskUserQuestion / Skills (docx/pdf/pptx/xlsx) / MCP 連携が Cowork 専有機能
+- **実装環境 (CLI) で行う作業**: 新規実装 / refactoring / pytest + ruff iterate ループ / git 操作 / 多 file 一括置換 / debug loop (OS native 実行)。
+- **計画環境で行う作業**: 計画書策定 (`business/`) / planning-checklist 通過確認 / レビュー / `docs/follow-ups.md` 更新 / memory 累積 / scheduled task。
 - **ファイル所有権の境界**:
-  - Cowork 専有: `business/` (gitignored)、Vault 側ファイル全般
-  - Claude Code 専有: `tools/` 配下のコード、`data/v0.2/` corpus、`.github/workflows/`、`tests/`
+  - 計画環境専有: `business/` (gitignored)、運用ガイド側ファイル
+  - 実装環境専有: `tools/` 配下のコード、`data/v0.2/` corpus、`.github/workflows/`、`tests/`
   - 両方触ってよい (但し同時編集禁止): `docs/follow-ups.md`、`CLAUDE.md`、`README.md`、`pyproject.toml`
-- **ハンドオフ**: Cowork で計画書策定 → execution briefing 生成 → Claude Code に切替 → 実装 + commit + push + PR → merge 後 Cowork に戻る (docs/memory/briefing 更新)
-- **例外的に Cowork で実装する場合** (単発 docs 修正等): 作業後に `wc -l` + `tail -3` + NUL byte count で末尾整合性を verify 必須
+- **ハンドオフ**: 計画環境で計画書策定 → execution briefing 生成 → 実装環境で実装 + commit + push + PR → merge 後に docs/memory/briefing 更新。
+- **例外的に計画環境で docs を直接編集した場合**: 作業後に `wc -l` + `tail -3` + NUL byte count で末尾整合性を verify する。
 
 ---
 

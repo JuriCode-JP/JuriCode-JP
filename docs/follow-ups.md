@@ -88,7 +88,7 @@ Phase 1 deliverable の構成が大きく変わる可能性があり, **Phase 1 
 
 **現状**: 75 条 + tooling 一式を 12 ヶ月 / €30,000 (~480 万円) で仕上げる前提だが, **誰がどれをやるかの内部試算がない**.
 
-**問題**: 佐藤さん一人で全部やる前提だと, CLAUDE.md ポリシー (1 コミット数条 + 検証挟む) で月 6-7 条が上限. 75 条 + parse/translate/lawsy-bq の tooling は破綻する. 一方で 4 名の OSS コントリビューター打診 ([[project-juricode-oss-outreach-strategy]]) や,
+**問題**: メンテナ一人で全部やる前提だと, CLAUDE.md ポリシー (1 コミット数条 + 検証挟む) で月 6-7 条が上限. 75 条 + parse/translate/lawsy-bq の tooling は破綻する. 一方で 4 名の OSS コントリビューター打診 ([[project-juricode-oss-outreach-strategy]]) や,
 翻訳・判例リサーチ外注の検討は今まで「やる」だけで具体的工数試算がない.
 
 **やること**:
@@ -502,7 +502,7 @@ except ValidationError as e:
 
 ---
 
-### [x] FU-415: phase tag sweep script (FU-401 完了後) (2026-05-24 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
+### [x] FU-415: phase tag sweep script (FU-401 完了後) (2026-05-24 追加) — ✅ 完了 2026-05-26 (計画セッション、commit hash は push 後追記)
 
 `tools/scripts/fix-phase-tags.py` (driver) + `juricode_shared/phase_tag.py` (純関数) + 37 unit tests を新設. v0.2 corpus 11,758 ファイル中 7,468 ファイル (64%) の `tags[0]` を path-derived phase に書き換え完了.
 
@@ -647,7 +647,7 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 詳細は本ファイル末尾「完了済み」セクション 2026-05-25 参照。コミットハッシュは push 後 (Phase 6) に追記。
 
 残課題 (本 FU から独立した別タスクとして follow):
-- 行政手続法 88 vs 48 の条数差分原因調査 (Cowork セッション中 v0.2 corpus で 48 条のまま、書誌的根拠未確定) → 別 follow-up に分離
+- 行政手続法 88 vs 48 の条数差分原因調査 (計画セッション中 v0.2 corpus で 48 条のまま、書誌的根拠未確定) → 別 follow-up に分離
 - 附則・経過措置・別表の corpus 取込 (parse-egov.py で削除条文は skip 中、FU-101 ARTICLE_ID_PATTERN 附則対応と連動) → 別 follow-up に分離
 
 ---
@@ -812,7 +812,7 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 ---
 
-### [x] FU-501: build-v0.2-corpus.py の stale 経路 + 重複 print + chunk 件数差認識訂正 (2026-05-26 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
+### [x] FU-501: build-v0.2-corpus.py の stale 経路 + 重複 print + chunk 件数差認識訂正 (2026-05-26 追加) — ✅ 完了 2026-05-26 (計画セッション、commit hash は push 後追記)
 
 **場所**: `tools/embed/build-v0.2-corpus.py`.
 
@@ -820,7 +820,7 @@ juricode-validate-all = "juricode_validate.cli:validate_all_main"
 
 **Issue 3 (42 件差) は認識訂正**: 「`build/chunks/` 配下に corpus 外の古いファイル混入の可能性」と書いていたが、call graph を実コードで追跡した結果 (planning-checklist §1 適用)、**42 件差の正体は v0.2 設計通りの `{law}-supplproviso.chunks.jsonl` × 42** (43 法令 − kenpou 1 = 42) と判明. backup filter (line 257) は適切に機能しており、コード修正不要. follow-ups.md の認識訂正のみ.
 
-**検証コマンド** (Cowork sandbox):
+**検証コマンド** (サンドボックス環境):
 ```bash
 for d in build/chunks/*/; do
   name=$(basename "$d")
@@ -838,7 +838,7 @@ done | wc -l   # → 42 法令 (kenpou 以外) で +1
 
 ---
 
-### [x] FU-502: fix-phase-tags.py --check-only を CI に追加 (2026-05-26 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
+### [x] FU-502: fix-phase-tags.py --check-only を CI に追加 (2026-05-26 追加) — ✅ 完了 2026-05-26 (計画セッション、commit hash は push 後追記)
 
 **場所**: `.github/workflows/ci.yml`.
 
@@ -850,11 +850,11 @@ done | wc -l   # → 42 法令 (kenpou 以外) で +1
 
 ---
 
-### [x] FU-504: fix-phase-tags.py に `__main__` entry point 追加 (2026-05-26 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
+### [x] FU-504: fix-phase-tags.py に `__main__` entry point 追加 (2026-05-26 追加) — ✅ 完了 2026-05-26 (計画セッション、commit hash は push 後追記)
 
 **場所**: `tools/scripts/fix-phase-tags.py`.
 
-`tools/scripts/fix-phase-tags.py` (FU-415, commit `ea8c6752` で導入) は `if __name__ == "__main__": sys.exit(main())` ブロックを欠いていたため、`python <script>` 経由で実行しても `main()` が呼ばれず silently exit 0 する false guarantee 状態だった. FU-502 (CI ガード) を計画通り追加すると常に PASS を返す step になることが planning-checklist §1 (call graph 追跡) を実コードで適用した結果判明 (2026-05-26 夕方、Cowork セッション中).
+`tools/scripts/fix-phase-tags.py` (FU-415, commit `ea8c6752` で導入) は `if __name__ == "__main__": sys.exit(main())` ブロックを欠いていたため、`python <script>` 経由で実行しても `main()` が呼ばれず silently exit 0 する false guarantee 状態だった. FU-502 (CI ガード) を計画通り追加すると常に PASS を返す step になることが planning-checklist §1 (call graph 追跡) を実コードで適用した結果判明 (2026-05-26 夕方、計画セッション中).
 
 **修正**:
 - entry point 末尾に `if __name__ == "__main__": sys.exit(main())` 3 行追加
@@ -862,16 +862,16 @@ done | wc -l   # → 42 法令 (kenpou 以外) で +1
 - subprocess based smoke test `tools/shared/tests/test_fix_phase_tags_cli.py` を新設 (3 件: `--check-only` / `--dry-run` / `--help`) で実 CLI 起動を CI で常時担保
 
 **Why entry point 欠落の発生原因**:
-FU-415 sprint で `fix-phase-tags.py` を Cowork sandbox で開発した際の Write/Edit 末尾切断事故 (CLAUDE.md §10.2 既出) が `__main__` ブロックを丸ごと削除したまま commit された. 「Write tool の末尾切断 → bash + Python 経由 atomic write で完全に書き直し」と FU-415 完了 entry に記載されているが、**復旧が不完全だった** ことが判明. unit test は pure functions (`juricode_shared.phase_tag`) のみカバーし、driver の CLI 起動を test していなかったため約 1 ヶ月 silently false-green 状態で潜伏.
+FU-415 sprint で `fix-phase-tags.py` を サンドボックス環境 で開発した際の Write/Edit 末尾切断事故 (CLAUDE.md §10.2 既出) が `__main__` ブロックを丸ごと削除したまま commit された. 「Write tool の末尾切断 → bash + Python 経由 atomic write で完全に書き直し」と FU-415 完了 entry に記載されているが、**復旧が不完全だった** ことが判明. unit test は pure functions (`juricode_shared.phase_tag`) のみカバーし、driver の CLI 起動を test していなかったため約 1 ヶ月 silently false-green 状態で潜伏.
 
 **Why FU-415 sweep は 7,468 files 書き換えに成功したのか**:
-未解明だが、Cowork セッション中は `__main__` block が存在した(commit 前の Write/Edit 事故で消えた)、または別経路 (`python -c "from importlib.util import ...; mod.main()"`) で main() を直接呼んだ、のどちらか.
+未解明だが、計画セッション中は `__main__` block が存在した(commit 前の Write/Edit 事故で消えた)、または別経路 (`python -c "from importlib.util import ...; mod.main()"`) で main() を直接呼んだ、のどちらか.
 
 **関連**: FU-415 (entry point 欠落の起点), FU-502 (本 fix の動機 = CI ガードの実効性担保), `business/fu-502-investigation-2026-05-26.md` (調査+実装計画書 §1, §5 Phase A/B), `feedback_cli_entry_point_verification` memory (新規追加候補)
 
 ---
 
-### [x] FU-503: build-v0.2-corpus.py --validate-only mode + CI 統合 (2026-05-26 追加) — ✅ 完了 2026-05-26 (Cowork セッション、commit hash は push 後追記)
+### [x] FU-503: build-v0.2-corpus.py --validate-only mode + CI 統合 (2026-05-26 追加) — ✅ 完了 2026-05-26 (計画セッション、commit hash は push 後追記)
 
 **場所**: `tools/embed/build-v0.2-corpus.py` + `tools/shared/tests/test_build_v02_corpus_cli.py` + `.github/workflows/ci.yml` + `pyproject.toml`.
 
@@ -1097,7 +1097,7 @@ mypy / pyright で型がより厳密に追える.
 
 ### 2026-06-23 — FU-516 完了: 税12施行令を v0.2 canonical へ一本化 (manifest 生成 + 旧 layout archive)
 
-- ✅ **FU-516 (PR #27 / commit `05e8102a`, main `0fa8c894`)**: 旧 `data/phase1-tax` と canonical `data/v0.2/phase1-tax` の二重管理・divergent を解消。12 施行令/施行規則の v0.2 形式 `_source-manifest.json` を生成 (3,167 条 round-trip 3,167/0 PASS、parser `segment_parser.py@0.1.0`)、旧 `data/phase1-tax` (3,179 tracked) を `git mv` で `archive/phase1-tax-pre-v0.2` へ退避 (削除でなく archive・CI 対象外)。本法 6 manifest は skip (`--force` 不使用)。CI 全 9 ステップ緑 (verify `--path data` 14,925/0/55 manifests)。Cowork が committed tree で独立検証 (12 added / 3,179 renamed / 0 modified)。**FU-515 Phase E の hard Entry Criteria を充足**。
+- ✅ **FU-516 (PR #27 / commit `05e8102a`, main `0fa8c894`)**: 旧 `data/phase1-tax` と canonical `data/v0.2/phase1-tax` の二重管理・divergent を解消。12 施行令/施行規則の v0.2 形式 `_source-manifest.json` を生成 (3,167 条 round-trip 3,167/0 PASS、parser `segment_parser.py@0.1.0`)、旧 `data/phase1-tax` (3,179 tracked) を `git mv` で `archive/phase1-tax-pre-v0.2` へ退避 (削除でなく archive・CI 対象外)。本法 6 manifest は skip (`--force` 不使用)。CI 全 9 ステップ緑 (verify `--path data` 14,925/0/55 manifests)。committed tree で独立検証 (12 added / 3,179 renamed / 0 modified)。**FU-515 Phase E の hard Entry Criteria を充足**。
 
 ### 2026-05-28 — FU-506 完了: tools/ 配下 全 CLI scripts の top-level heavy import Lazy Import 化
 
@@ -1161,7 +1161,7 @@ mypy / pyright で型がより厳密に追える.
   - **Phase C (CI 統合)**: `.github/workflows/ci.yml` の `Phase tag consistency check (FU-502)` step の直後に新 step を追加. `python tools/embed/build-v0.2-corpus.py --validate-only` を実行し、mapping 不備 1 件でも exit 1 で CI fail. CI step 総数: 10 -> 11.
   - **Phase D (docs 訂正)**: 本 entry + footer v0.7.3 -> v0.7.4 bump.
 
-**検証** (Cowork sandbox):
+**検証** (サンドボックス環境):
 - `ast.parse` (build-v0.2-corpus.py): OK
 - NUL byte count: 全 4 ファイルで 0
 - `ruff check tools/` (RET 有効化後): All checks passed
@@ -1175,7 +1175,7 @@ mypy / pyright で型がより厳密に追える.
 - `pytest tools/shared/tests/test_build_v02_corpus_cli.py -v`: **5 passed in 27.16s**
 - `yaml.safe_load(ci.yml)`: 11 steps、`Validate v0.2 corpus phase mapping (FU-503)` 含む
 
-**Cowork sandbox で踏んだ既知事故 (再発 + 復旧)**:
+**サンドボックス環境 で踏んだ既知事故 (再発 + 復旧)**:
 - `pyproject.toml` の Edit が中途切断 (TOML parse error) -> Python atomic write + tomllib verify で復旧
 - `build-v0.2-corpus.py` の Edit 後 ruff format で 1 度整形が必要 -> ruff format で自動修復
 
@@ -1189,7 +1189,7 @@ mypy / pyright で型がより厳密に追える.
 - 計画 v1 (Layer 2/3 のみ): main() return 漏れがあっても CI が検知できず、運用後に下流で初めて顕在化 -> 訂正 PR + 周辺修正の手戻り
 - 計画 v3 (3 層防御): Layer 1 RET503 が lint で即検知、Layer 2 smoke test が runtime で再確認、Layer 3 checklist で実装時の意識付け
 
-**Phase 6 (git commit + push)**: Cowork sandbox の git lock 削除権限なしのため Windows/WSL 側で実行予定. コミット粒度 5 分割:
+**Phase 6 (git commit + push)**: サンドボックス環境 の git lock 削除権限なしのため Windows/WSL 側で実行予定. コミット粒度 5 分割:
 1. `chore(lint): enable RET503 (flake8-return) for false-green guard`
 2. `feat(embed): add --validate-only mode + explicit return at all main paths (FU-503)`
 3. `test(shared): add CLI smoke tests for build-v0.2-corpus.py (5 tests)`
@@ -1210,7 +1210,7 @@ ref:
 
 - ✅ **FU-504: fix-phase-tags.py に `__main__` entry point 追加** — 計画書 `business/fu-502-investigation-2026-05-26.md` §5 Phase A.
   - `tools/scripts/fix-phase-tags.py` 末尾に `if __name__ == "__main__": sys.exit(main())` 3 行追加 + `main()` 戻り値整備 (apply エラー時 `return 1` / 正常時 `return 0`).
-  - **Why 必要だった**: FU-415 (2026-05-26 朝、commit `ea8c6752`) で当 script を新設した際、Cowork sandbox の Write/Edit 末尾切断事故で entry point block が丸ごと削除されたまま commit. unit test は pure functions のみカバーし、driver の CLI 起動を test していなかったため、約 1 ヶ月 silently false-green 状態で潜伏 (`python <script> --check-only` 実行で 0.2 秒で exit 0、何も走らない).
+  - **Why 必要だった**: FU-415 (2026-05-26 朝、commit `ea8c6752`) で当 script を新設した際、サンドボックス環境 の Write/Edit 末尾切断事故で entry point block が丸ごと削除されたまま commit. unit test は pure functions のみカバーし、driver の CLI 起動を test していなかったため、約 1 ヶ月 silently false-green 状態で潜伏 (`python <script> --check-only` 実行で 0.2 秒で exit 0、何も走らない).
   - **発見契機**: FU-502 計画書を書く前に planning-checklist §1 (call graph 追跡) を実コードで Layer 4 まで verify (CI step → script invocation → main 呼出有無 → exit code 評価) した結果、「CI guard が常に PASS を返す」と判明.
 
 - ✅ **FU-502: fix-phase-tags.py --check-only を CI に追加** — 計画書 §5 Phase C.
@@ -1223,7 +1223,7 @@ ref:
   - subprocess で実 CLI 起動 + exit code + stdout marker を assert. FU-504 entry point 欠落の再発を CI で即検知する仕組み.
   - `--check-only` test は 11,758 files 走査 (16-17 秒) + summary marker assert. `--dry-run` test は idempotent state メッセージ assert. `--help` test は最軽量で entry point sanity check.
 
-**検証** (Cowork sandbox):
+**検証** (サンドボックス環境):
 - `ast.parse` (fix-phase-tags.py): OK
 - NUL byte count: 0 (途中 52 NUL padding 事故あり、atomic rewrite で復旧)
 - `ruff check tools/scripts/fix-phase-tags.py`: All checks passed
@@ -1235,12 +1235,12 @@ ref:
   - exit code: 0
 - `yaml.safe_load(ci.yml)`: 10 steps (修正前 9 + 新規 `Phase tag consistency check`)
 
-**Cowork sandbox で踏んだ既知事故 (再発 + 復旧)**:
+**サンドボックス環境 で踏んだ既知事故 (再発 + 復旧)**:
 - Edit 後の fix-phase-tags.py に末尾 52 NUL byte padding 発生 → Python atomic write で復旧
 - Edit/Write が ci.yml と docs/follow-ups.md でディスクに反映されない / トランケート事故が複数回発生 → Python 経由 atomic write で完全に書き直し
 - これらは FU-501 で踏んだ事故と同パターン. FU-302 `safe_write_text` を将来 tools/embed/ / tools/scripts/ にも適用する余地あり (本 sprint scope 外)
 
-**Phase 6 (git commit + push)**: Cowork sandbox の git lock 削除権限なしのため Windows/WSL 側で実行予定. コミット粒度 4 分割:
+**Phase 6 (git commit + push)**: サンドボックス環境 の git lock 削除権限なしのため Windows/WSL 側で実行予定. コミット粒度 4 分割:
 1. `fix(scripts): add __main__ entry point to fix-phase-tags.py (FU-504)`
 2. `test(shared): add CLI smoke test for fix-phase-tags.py --check-only`
 3. `ci: add phase tag consistency check (FU-502)`
@@ -1271,12 +1271,12 @@ ref:
   - **Issue 1 (--data-dir default stale)**: `tools/embed/build-v0.2-corpus.py:234` の `default=Path("data")` を `default=Path("data/v0.2")` に修正. FU-108 (2026-05-25 完了) で corpus を `data/v0.2/phase*/` に移動した際の遺漏修復. `build_law_to_phase` 関連 docstring/コメント (line 31, 50) も `v0.1` → `v0.2` に揃え. 呼び出し元 0 件 (CI 未統合 / import 0 件 / README.md 引用なし) のため後方互換破壊リスクなし.
   - **Issue 2 (重複 print)**: `tools/embed/build-v0.2-corpus.py:307-308` の同一 `print(f"  {t:12s}: {c:6d}", file=sys.stderr)` 2 行連続を 1 行に統一. segment type distribution が 2 重出力されなくなった.
   - **Issue 3 (42 件差) — 認識訂正**: 「`build/chunks/` 配下に corpus 外の古いファイル混入の可能性」と書いていたが、call graph 検証 (`for d in build/chunks/*/; do ... done`) の結果、**42 件差の正体は v0.2 設計通りの `{law}-supplproviso.chunks.jsonl` × 42** と判明. 43 法令 − kenpou 1 = 42 で計算完全一致. supplproviso chunks は附則条文を含む正規データ (合計 23,463 chunks). backup filter (line 257) は適切に機能しており、**コード修正不要**.
-  - **Phase 6 (git commit + push)**: Cowork sandbox の git lock 削除権限なしのため Windows/WSL 側で実行予定. コミット粒度 3 分割: `fix(embed): default --data-dir to data/v0.2` / `style(embed): remove duplicate segment-type print` / `docs(follow-ups): correct FU-501 Issue 3 misdiagnosis`. 採択後コミットハッシュをここに追記.
+  - **Phase 6 (git commit + push)**: サンドボックス環境 の git lock 削除権限なしのため Windows/WSL 側で実行予定. コミット粒度 3 分割: `fix(embed): default --data-dir to data/v0.2` / `style(embed): remove duplicate segment-type print` / `docs(follow-ups): correct FU-501 Issue 3 misdiagnosis`. 採択後コミットハッシュをここに追記.
 
-**Cowork sandbox で踏んだ既知事故 (再発 + 復旧)**:
-- Edit 後の build-v0.2-corpus.py に末尾 48 NUL byte padding が発生 (Cowork sandbox 既知事故、CLAUDE.md §10.2 で既出). bash + Python 経由の atomic write (`.tmp` → `.replace`) + `ast.parse` 事前検証で完全に復旧. 同種事故を 4/24 / 5/25 / 5/26 と 3 度踏んでいるため、FU-302 `safe_write_text` を本ファイルにも将来適用する余地あり (本 sprint scope 外).
+**サンドボックス環境 で踏んだ既知事故 (再発 + 復旧)**:
+- Edit 後の build-v0.2-corpus.py に末尾 48 NUL byte padding が発生 (サンドボックス環境 既知事故、CLAUDE.md §10.2 で既出). bash + Python 経由の atomic write (`.tmp` → `.replace`) + `ast.parse` 事前検証で完全に復旧. 同種事故を 4/24 / 5/25 / 5/26 と 3 度踏んでいるため、FU-302 `safe_write_text` を本ファイルにも将来適用する余地あり (本 sprint scope 外).
 
-**検証** (Cowork sandbox):
+**検証** (サンドボックス環境):
 - `python3 -c "import ast; ast.parse(open('tools/embed/build-v0.2-corpus.py').read())"`: OK
 - NUL byte count: 0 (Python `data.count(b'\x00')`)
 - `ruff check tools/embed/build-v0.2-corpus.py`: All checks passed
@@ -1296,28 +1296,28 @@ ref:
 ### 2026-05-26 — FU-415 完了: phase tag sweep (7,468 files rewritten)
 
 > 計画書設計 4 ラウンドレビュー (v0 → v3) を経て 1 セッションで完走.
-> Cowork sandbox 既知事故 (Write 末尾切断 + NUL padding) を 2 件踏みつつ FU-302 safe_write_text の assert 機構で検知・復旧.
+> サンドボックス環境 既知事故 (Write 末尾切断 + NUL padding) を 2 件踏みつつ FU-302 safe_write_text の assert 機構で検知・復旧.
 
 - ✅ **FU-415: phase tag sweep** — `tools/scripts/fix-phase-tags.py` (driver, 約 350 行) + `juricode_shared/phase_tag.py` (純関数 module 純関数 2 つ + 5 種 ValueError 分類タグ) + `tools/shared/tests/test_phase_tag.py` (37 unit tests) を新設.
   - **Phase 1 (純関数 + tests)**: `resolve_phase_from_path` / `rewrite_tags0_in_text` 2 つの純関数. frontmatter デリミタで text を 3 分割してから regex 適用する設計で body の `notes: \|` 巻き込み事故を構造的にゼロ化. BOM 検知時は `[BOM_DETECTED]` で停止 (FU-317 P2 とスコープ分離、option b). 37 tests PASS (基本動作 13 + frontmatter scope 3 + BOM 1 + CRLF round-trip 2 + safe_write 2 + PHASE_DIR_RE 16).
   - **Phase 2 (driver)**: `tools/scripts/fix-phase-tags.py` を新設. `--dry-run` / `--apply` / `--check-only` の 3 モード, `--max-errors N` ハードリミット, 集計フォーマットで stderr 膨張 (FU-410 系) 防御. `FileResult` (frozen dataclass) + `SweepReport` の責任分離.
   - **Phase 3 (dry-run 検証)**: `data/v0.2/` で 7,468 mismatches / 4,290 in-spec / 0 BOM / 0 errors 検出. 計画書 §1.3 と完全一致.
-  - **Phase 4 (apply)**: Cowork sandbox 45s timeout に阻まれ 5 cycles で完走 (冪等設計のため再実行で skip / 続行). 全 7,468 ファイル書き込み完了.
+  - **Phase 4 (apply)**: サンドボックス環境 45s timeout に阻まれ 5 cycles で完走 (冪等設計のため再実行で skip / 続行). 全 7,468 ファイル書き込み完了.
   - **Phase 5 (検証)**: `verify.py --path data/v0.2`: 11,758 / 0 fail across 43 manifests. `pytest tools/shared/tests/`: 92 PASS. `ruff check`: All passed. NUL byte 0 files. 全 8 phase で 100% in-spec.
 
-**検証** (ローカル CI 再現、Cowork sandbox):
+**検証** (ローカル CI 再現、サンドボックス環境):
 - `ruff check tools/shared/src/juricode_shared/phase_tag.py tools/scripts/fix-phase-tags.py tools/shared/tests/test_phase_tag.py tools/shared/src/juricode_shared/__init__.py`: All checks passed
 - `pytest tools/shared/tests/ -q`: **92 PASS** (既存 55 + 新規 phase_tag 37)
 - `verify.py --path data/v0.2`: **11,758 / 0 fail** across 43 manifests (manifest hash 完全に不変、計画書 §1.5 の主張が実証)
 - `validate-file.py` 5-file smoke test (各 phase 代表サンプル): 全 OK
 - NUL byte sanity: 0 files in data/v0.2/
 
-**Cowork sandbox で踏んだ既知事故 (再発 + 復旧)**:
+**サンドボックス環境 で踏んだ既知事故 (再発 + 復旧)**:
 - Write tool の末尾切断 (phase_tag.py / fix-phase-tags.py / __init__.py で計 3 回発生) → bash + Python 経由の atomic write で完全に書き直し
 - ruff auto-fix が test_phase_tag.py に NUL byte (11 個) 残置 → 専用クリーンアップスクリプトで除去
 - FU-302 で導入した `safe_write_text` の post-write verification (NUL byte / 末尾改行 / UTF-8 等) が機能し、本 corpus 側には NUL byte が 1 件も漏れていない (sweep 適用後の全 .md スキャンで 0 件)
 
-**Phase 6 (git commit + push)**: Cowork sandbox の git lock 削除権限なしのため Windows/WSL 側で実行. 詳細手順書: `business/fu-415-commit-runbook-2026-05-26.md` (採択後コミットハッシュをここに追記).
+**Phase 6 (git commit + push)**: サンドボックス環境 の git lock 削除権限なしのため Windows/WSL 側で実行. 詳細手順書: `business/fu-415-commit-runbook-2026-05-26.md` (採択後コミットハッシュをここに追記).
 
 **コミット粒度 3 分割** (計画書 §5.1 準拠、Conventional Commits):
 1. `feat(shared): add phase_tag utility module and TDD tests`
@@ -1380,7 +1380,7 @@ ref: `business/fu-415-followup-fixes-plan-2026-05-26.md` §1.2 Problem B
   - **Phase 5 CI 組込み**: `.github/workflows/ci.yml` 更新 (pytest に v0.2 + manifest tests 追加 + コメント整理). `pyproject.toml` 更新 (testpaths + `--import-mode=importlib`).
   - **Phase 7 docs 更新**: 本エントリ追記.
 
-**検証**: ローカル CI 再現 (Cowork sandbox) で全 step 緑:
+**検証**: ローカル CI 再現 (サンドボックス環境) で全 step 緑:
 - `ruff check tools/`: All checks passed
 - `ruff format --check tools/`: 56 files formatted
 - `pytest tools/shared/tests tools/validate/tests tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests`: **153 PASS**
@@ -1388,7 +1388,7 @@ ref: `business/fu-415-followup-fixes-plan-2026-05-26.md` §1.2 Problem B
 - `verify.py --path data/v0.2`: **11,758 / 0 fail** across 43 manifests
 - `validate-file.py` smoke test 2 件 (民法 770 / 刑法 36): OK
 
-**Phase 6 (git commit + push)**: Cowork sandbox の `.git/index.lock` 削除権限なしのため、Windows/WSL 側で実行. 詳細手順書: `business/v02-sprint-commit-runbook-2026-05-25.md`. 4 commits (feat manifest pkg / data manifest / refactor archive / ci) + 本 FU-108 完了 commit. 採択後コミットハッシュをここに追記.
+**Phase 6 (git commit + push)**: サンドボックス環境 の `.git/index.lock` 削除権限なしのため、Windows/WSL 側で実行. 詳細手順書: `business/v02-sprint-commit-runbook-2026-05-25.md`. 4 commits (feat manifest pkg / data manifest / refactor archive / ci) + 本 FU-108 完了 commit. 採択後コミットハッシュをここに追記.
 
 ref:
 - `business/v02-corpus-quality-investigation-2026-05-25.md` (sprint 設計 + 調査結果)
@@ -1400,7 +1400,7 @@ ref:
 > 当初 4 日計画 (5/25-28) を 1 日で全消化. 残バッファ 3 日.
 
 - ✅ **FU-301: PARAGRAPH_HEADING_PATTERN 2 重定義集約** (commit `bf773b58` + test `1861d26b`) — segment_parser.py で paragraph 見出し regex を module-level に集約. 枝番条網羅テスト 8 件追加. 既知事故 (g) 4,810 empty chunks の再発条件を構造的に阻止.
-- ✅ **FU-302: 全 parser に write 後 sanity check** (commit `094fcfdd` module + `bf773b58` integration) — `tools/shared/src/juricode_shared/safe_write.py` を新設 (atomic write + NUL/末尾改行/UTF-8/JSONL 各行 json.loads 可 を assert). `safe_write_text` / `safe_write_jsonl` / `safe_append_jsonl_records` の 3 関数を 5 parser に適用. 17 件 unit test 全 pass. 既知事故 (a) WSL ruff corruption / (b) NUL padding / (c) heredoc 二重貼り付け の再発検知機構が完成. 本セッション中にも 7 ファイルで Cowork Edit ツールが末尾切断する事故が発生したが、safe_write は今後同種の事故を assert で即停止する設計.
+- ✅ **FU-302: 全 parser に write 後 sanity check** (commit `094fcfdd` module + `bf773b58` integration) — `tools/shared/src/juricode_shared/safe_write.py` を新設 (atomic write + NUL/末尾改行/UTF-8/JSONL 各行 json.loads 可 を assert). `safe_write_text` / `safe_write_jsonl` / `safe_append_jsonl_records` の 3 関数を 5 parser に適用. 17 件 unit test 全 pass. 既知事故 (a) WSL ruff corruption / (b) NUL padding / (c) heredoc 二重貼り付け の再発検知機構が完成. 本セッション中にも 7 ファイルで サンドボックスの Edit ツールが末尾切断する事故が発生したが、safe_write は今後同種の事故を assert で即停止する設計.
 - ✅ **FU-303: segment marker scope 限定** (commit `bf773b58` + test `1861d26b`) — `render_v02_md` の marker 挿入を paragraph 見出し直下スコープに限定. 失敗時に `parsing_warnings: list[str]` に記録 (silent fail 阻止). 7 件 unit test PASS.
 - ✅ **FU-304: AmendLawNum regex literal alternation 化** (commit `50b9408a` + test `1861d26b`) — `AMEND_LAW_NUM_PATTERN` を greedy match から `(?:法律|政令|規則|省令|府令|告示|条約)` の 7 種限定 alternation に変更. 「雑種」等未対応 prefix は law_num=None として安全に弾く. 10/10 test PASS.
 - ✅ **FU-401: parse-egov.py --phase-tag 必須化** (commit `787203e8`) — P0 sprint 最後の gate-keeper. ハードコード `"phase1-police"` を排除し `--phase-tag` を required 引数化. `article_to_markdown` / `_emit_article` / `main` の call chain で透過. bulk-ingest.py の subprocess cmd にも `["--phase-tag", phase]` を追加. 既存 corpus の sweep は [FU-415] (P1) に分離.
@@ -1503,13 +1503,13 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **関連**: FU-512 (TaxAnswer Pydantic IR, PR #16 commit `8ebb7589`) / PR #15 (通達取込).
 
-**DONE 2026-06-23 (PR #31 / commit `31115d62`, main `7a28a0c4`)**: `DirectiveChunk` (disjoint Union: Linked / Unlinked) を追加 + `parse-nta-tsutatsu.py` を `model_dump()` 経由に移行 (出力 byte 保持) + `juricode-directive.schema.json` を生成し CI drift gate 対象に追加。Cowork 独立検証 = main / PR 両 parser を実走し出力 sha256 完全一致 (35 行)・data/build/schema 非接触。
+**DONE 2026-06-23 (PR #31 / commit `31115d62`, main `7a28a0c4`)**: `DirectiveChunk` (disjoint Union: Linked / Unlinked) を追加 + `parse-nta-tsutatsu.py` を `model_dump()` 経由に移行 (出力 byte 保持) + `juricode-directive.schema.json` を生成し CI drift gate 対象に追加。独立検証 = main / PR 両 parser を実走し出力 sha256 完全一致 (35 行)・data/build/schema 非接触。
 
 ---
 
 ### [x] FU-515: 本則条文の TableStruct (税率表等) が md/chunks に取りこぼし (2026-06-08 追加, P1)
 
-**DONE 2026-06-17** — Phase A-C (PR #19 `82156f7a`): 本則 table chunks 0→296・走査 data/v0.2 化・newline 根治・312/180 golden ロック。Phase D-a (PR #20 `dc086a9e`): 新規196本則 table を増分embed (corpus 92,486→92,682)・全eval PASS (G1 v5==v6/G2 R@3=0.833/G3 312・180 rank1)。Cowork が PR diff + 実artifact独立検証。
+**DONE 2026-06-17** — Phase A-C (PR #19 `82156f7a`): 本則 table chunks 0→296・走査 data/v0.2 化・newline 根治・312/180 golden ロック。Phase D-a (PR #20 `dc086a9e`): 新規196本則 table を増分embed (corpus 92,486→92,682)・全eval PASS (G1 v5==v6/G2 R@3=0.833/G3 312・180 rank1)。担当者が PR diff + 実artifact独立検証。
 
 **Phase D-b (附則700) = REJECT (2026-06-21・PR #23 `1795df4c`)**: 附則 (SupplProvision) table 700 件を aug-v6 に増分embed (実Gemini・有料/aug-v7 93,382) し採否を測定。**退行ゼロ** (G1 集計 v7==v6 完全一致・G1-local 10本則 primary の rank 不変=`shotoku-zei-hou` 445集中の**検索ジャック懸念を否定**・G2 R@3=0.833維持) だが、**附則 value 未達** (G3-sp 実rank: A-straight rank2 hit のみ・口語パラフレーズ rank11/17・B-straight rank6 → exact-match残響でなく真の semantic は引けない) → **aug-v7 非昇格・附則既定OFF・aug-v6 据え置き** (事前承認済の正当 REJECT)。G1-local 母数は実 **N=10** (計画 §2 の N=16=既存6+新規10 は誤記: 実 eval-set の本則参照は shotoku 1件のみ・chihou本則0件。REJECT基準は絶対数≥2でN非依存ゆえ無傷)。ロック golden (`data/eval-set/tax-honbun-local/` + `tax-supplproviso-probe/`) + reward-hacking checksum ゲート (`tools/scripts/verify-eval-set-checksum.py`・期待SHA256はrepo variable `EVALSET_GOLDEN_SHA256`=agent書込スコープ外・正当更新は人間限定 `approve-eval-set.sh`) を追加。
 
@@ -1536,7 +1536,7 @@ ref: `business/code-reviews/2026-05-24-fix-plan.md` Day 1〜4 全 batch.
 
 **残課題 (FU-515 派生)**: (a) **D-b = 完了 (REJECT, 上記 2026-06-21・PR #23)**。附則700の embed 是非は「退行ゼロだが value 未達」で aug-v6 据え置きに決着。再投入の余地は下記 **D-c** に継承。(b) **Phase E — 表本体の md への反映 + manifest 再生成 (round-trip hash 再検証) = 完了 (下記 DONE)** (P2)。
 
-**Phase E DONE 2026-06-23 (PR #29 / main `51d9d1ef`)**: 212 本則表条文 (24法令) の TableStruct 本体を canonical `data/v0.2/**.md` に反映 + manifest 再生成 + round-trip。案C (セマンティック正準化) + 表 core 共通 lib (`table_core.py`) + 結合セル Option A (rowspan 値複製・罫線結合は空セル維持)。Cowork が committed tree で独立検証 (212 md / 24 manifest / 0 spurious・後方互換 hash 変化ちょうど 212・round-trip committed-`verify.py` 441・1313/0)。
+**Phase E DONE 2026-06-23 (PR #29 / main `51d9d1ef`)**: 212 本則表条文 (24法令) の TableStruct 本体を canonical `data/v0.2/**.md` に反映 + manifest 再生成 + round-trip。案C (セマンティック正準化) + 表 core 共通 lib (`table_core.py`) + 結合セル Option A (rowspan 値複製・罫線結合は空セル維持)。committed tree で独立検証 (212 md / 24 manifest / 0 spurious・後方互換 hash 変化ちょうど 212・round-trip committed-`verify.py` 441・1313/0)。
 
 ---
 
@@ -1559,7 +1559,7 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 **関連**: FU-515 (走査 default 是正) / FU-307 (kou/supplproviso/add_rollup の `_SHARED_SRC` + scan 統一) / FU-108 (v0.1 → archive deprecate の前例)。
 
-**DONE 2026-06-23 (PR #27 / commit 05e8102a, main 0fa8c894)**: 12施行令の v0.2 `_source-manifest.json` 生成 (round-trip 3,167/0)＋旧 `data/phase1-tax` を `archive/phase1-tax-pre-v0.2` へ退避で `data/v0.2` 単一正本化。Cowork が committed tree で独立検証 (12 added / 3,179 renamed / 0 modified)。FU-515 Phase E の Entry Criteria 充足。
+**DONE 2026-06-23 (PR #27 / commit 05e8102a, main 0fa8c894)**: 12施行令の v0.2 `_source-manifest.json` 生成 (round-trip 3,167/0)＋旧 `data/phase1-tax` を `archive/phase1-tax-pre-v0.2` へ退避で `data/v0.2` 単一正本化。committed tree で独立検証 (12 added / 3,179 renamed / 0 modified)。FU-515 Phase E の Entry Criteria 充足。
 
 ---
 
@@ -1617,10 +1617,10 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ### [x] 完了記録: 消費税法基本通達 第1章取込 + title-lag バグ根本修正 (2026-06-24, PR #35 / main 92e6a8ec)
 
-**成果**: (1) `parse-nta-tsutatsu.py` を `CircularConfig` + `--circular hojin|shouhi` でパラメータ化 (法人税 byte 不変)。(2) **title-lag バグを根本修正** (commit daf2c895): 各通達に直前見出しを束縛 (consume-once)、削除通達はタイトルなし。佐藤 NTA 原典ロック表 (`business/hojin-9-2-title-lock-table-2026-06-24.md`) と **全35件一致** (Cowork が committed fixture を独立検証=35/35・0 mismatch)。**法人税既存コーパスのタイトル 29/35 を訂正** = 公開データの品質改善。(3) 消費税第1章 → 93 DirectiveChunk (directive_id ユニーク・165 linked/0 unlinked・CASE B split-strong・amendment_marker 課消)。CI 全9ステップ緑・data/v0.2/schema 非接触・dense 再embed なし。残りは FU-519 (残18章) / FU-520 (taxanswer CI)。
+**成果**: (1) `parse-nta-tsutatsu.py` を `CircularConfig` + `--circular hojin|shouhi` でパラメータ化 (法人税 byte 不変)。(2) **title-lag バグを根本修正** (commit daf2c895): 各通達に直前見出しを束縛 (consume-once)、削除通達はタイトルなし。メンテナ NTA 原典ロック表 (`business/hojin-9-2-title-lock-table-2026-06-24.md`) と **全35件一致** (committed fixture を独立検証=35/35・0 mismatch)。**法人税既存コーパスのタイトル 29/35 を訂正** = 公開データの品質改善。(3) 消費税第1章 → 93 DirectiveChunk (directive_id ユニーク・165 linked/0 unlinked・CASE B split-strong・amendment_marker 課消)。CI 全9ステップ緑・data/v0.2/schema 非接触・dense 再embed なし。残りは FU-519 (残18章) / FU-520 (taxanswer CI)。
 
 **関連**: FU-515 D-b (PR #23 `1795df4c`・REJECT 由来) / 柱1 reranker / `benchmarks/results/2026-06-21-aug-v7-fu515-supplproviso.json` (eval 記録)。
 
 ---
 
-*Last updated: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは Cowork、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+*Last updated: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*

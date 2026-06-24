@@ -336,7 +336,7 @@ em { color: var(--c-text-soft); }
 <h3 id="fu-p0-1-toolsparse-mvp-nlnet-m2"><span class="cb">☐</span> <span class="fuid">FU-P0-1</span> <code>tools/parse/</code> MVP の設計と着手 (NLnet M2)</h3>
 <p><strong>現状</strong>: <code>tools/parse/</code> は README のみ, コードゼロ.</p>
 <p><strong>問題</strong>: NLnet M2 (€7,000) で「e-Gov XML → JuriCode-JP Markdown converter, 刑法 264 条カバー」を約束しているが,
-12 ヶ月で 264 条を手作業 Markdown 化することは佐藤さん一人では不可能. 自動 converter が<strong>Phase 1 全体の律速</strong>.</p>
+12 ヶ月で 264 条を手作業 Markdown 化することはメンテナ一人では不可能. 自動 converter が<strong>Phase 1 全体の律速</strong>.</p>
 <p><strong>やること</strong>:</p>
 <ol>
 <li>既存 OSS の活用判断: <a href="https://github.com/takuyaa/ja-law-parser">ja-law-parser (takuyaa)</a> と <a href="https://github.com/yamachig/Lawtext">Lawtext (yamachig)</a> の AST が JuriCode-JP IR に変換できるか調査. ゼロから書くより wrapper 化を優先</li>
@@ -394,7 +394,7 @@ Phase 1 deliverable の構成が大きく変わる可能性があり, <strong>Ph
 <hr />
 <h3 id="fu-p0-5-phase-1"><span class="cb">☐</span> <span class="fuid">FU-P0-5</span> Phase 1 の人月配分・外注/コントリビューター動員設計</h3>
 <p><strong>現状</strong>: 75 条 + tooling 一式を 12 ヶ月 / €30,000 (~480 万円) で仕上げる前提だが, <strong>誰がどれをやるかの内部試算がない</strong>.</p>
-<p><strong>問題</strong>: 佐藤さん一人で全部やる前提だと, CLAUDE.md ポリシー (1 コミット数条 + 検証挟む) で月 6-7 条が上限. 75 条 + parse/translate/lawsy-bq の tooling は破綻する. 一方で 4 名の OSS コントリビューター打診 ([[project-juricode-oss-outreach-strategy]]) や,
+<p><strong>問題</strong>: メンテナ一人で全部やる前提だと, CLAUDE.md ポリシー (1 コミット数条 + 検証挟む) で月 6-7 条が上限. 75 条 + parse/translate/lawsy-bq の tooling は破綻する. 一方で 4 名の OSS コントリビューター打診 ([[project-juricode-oss-outreach-strategy]]) や,
 翻訳・判例リサーチ外注の検討は今まで「やる」だけで具体的工数試算がない.</p>
 <p><strong>やること</strong>:</p>
 <ol>
