@@ -1597,13 +1597,19 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
-### [ ] FU-519: 消費税法基本通達 残り18章/65節の取込 (2026-06-24 追加, P2)
+### [x] FU-519: 消費税法基本通達 残り章の取込 — ✅ 完了 2026-06-25 (PR #36/#38/#41/#42/#43/#44, main a62fa1dd)
 
-**経緯**: PR #35 (main 92e6a8ec) で消費税法基本通達の **第1章 (8節) → 93 DirectiveChunk** を取込み、parser の健全性 (title-lag/削除/CASE B split-strong/amendment_marker 課消) を実証済み。本通達は実測 **全19章/73節**。残り18章/65節が未取込。
+**経緯**: PR #35 (main 92e6a8ec) で消費税法基本通達の **第1章 (8節) → 93 DirectiveChunk** を取込み、parser の健全性 (title-lag/削除/CASE B split-strong/amendment_marker 課消) を実証済み。残り章が未取込だった。
 
-**やること**: 信頼済みの `parse-nta-tsutatsu.py --circular shouhi` を残り章に反復適用 (章ループ/`--chapter` 反復)。第1章で全ゲートを通過済みのため、残りは低リスク。各章で directive_id ユニーク assert・別表テキスト隔離・参照リンク (法/令/規→shouhi 系) を確認。NTA HTML は cp932。`cache/`・`build/chunks/` は gitignored、committed 対象は fixture スナップショット + glossary。
+**成果**: NTA 一次目次を raw cp932 デコードで再確認した結果、現行は計画推定 (19章/73節) でなく **全21章 / 残り90セクションファイル** であることを確定 (前文 `02.htm`・旧版 `20230930/` は除外)。
+- **parser キーストーン (PR #36)**: 多章マージ `--cache-root` モード追加 (rglob → 全章マージ → 既存数値タプルキーで全体ソート)、目 (4階層) の source_url パス保持、directive_id 形式ゲート、前文/旧版除外フィルタ。法人税 + 第1章 byte 回帰不変 (blast-radius 0)。
+- **データ 5 バッチ** (トランクベース直列・各 CI 全9緑): B1 ch2-5 (PR #38・停止レビュー) / B2 ch6-8 (#41) / B3 ch9-11 (#42) / B4 ch12-14 (#43) / B5 ch15-21 (#44)。
+- **コーパス完成: 全21章 / 661 DirectiveChunk**。directive_id 全件ユニーク・全体数値順・参照 960 linked / 0 unlinked (shouhi-zei-hou 711 / shikkourei 249)。削除通達 2 型 (見出しごと削除 / 見出し保持) を忠実処理、別表は inline 引用のみ (HTML table なし)。
+- 遭遇エッジは `tools/parse/edge_registry.md` (EDGE-001..007) に台帳化。`data/v0.2`・schema 非接触・dense 再embed なし・NTA HTML cp932 維持。raw HTML cache と provenance マニフェストは gitignored、committed 対象は corpus fixture スナップショット。
 
-**関連**: PR #35 / `business/tax-tsutatsu-shohi-ingest-plan-2026-06-24.md` (Rev.3) / 税務Juricode の消費税 retrieval 土台。
+**残課題**: 法人税通達の全体化 (現在 役員給与節のみ) / 所得税・相続税・国税通則通達 / FU-520 (taxanswer CI-safe 化)。
+
+**関連**: PR #35 / 税務Juricode の消費税 retrieval 土台。
 
 ---
 
