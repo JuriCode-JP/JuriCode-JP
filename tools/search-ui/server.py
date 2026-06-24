@@ -40,7 +40,7 @@ import sys
 import uuid
 from datetime import datetime
 
-# Python 3.11+ exports `datetime.UTC`. Cowork sandbox uses 3.10 which lacks it.
+# Python 3.11+ exports `datetime.UTC`. The 3.10 runtime lacks it.
 # CI runs 3.11/3.12 where the direct import works. Backport keeps both happy.
 try:
     from datetime import UTC

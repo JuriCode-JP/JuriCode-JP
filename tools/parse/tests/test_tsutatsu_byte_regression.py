@@ -15,7 +15,7 @@ Why this test exists:
           assert。cache 不在の CI では skip する (FU-515 E-1 のフルコーパス byte-match と
           同型: 機械検証は push 前ローカル、CI 内はモデル単体 test + schema drift で担保)。
 
-    **落ちたら直すのはモデル/直列化であって baseline ではない** (briefing §1・佐藤ロック)。
+    **落ちたら直すのはモデル/直列化であって baseline ではない** (briefing §1・source-locked)。
     baseline は現 parser の LF 出力スナップショット (safe_write_jsonl が newline="\\n" で
     LF 強制するため、リファクタ後も LF。stale な CRLF 版は使わない)。
 """
@@ -35,7 +35,7 @@ _BASELINE = _THIS.parent / "fixtures" / "hojin-kihon-tsutatsu.tsutatsu.chunks.ba
 _PARSER = _REPO_ROOT / "tools" / "parse" / "parse-nta-tsutatsu.py"
 _CACHE_DIR = _REPO_ROOT / "cache" / "tsutatsu" / "hojin" / "09"
 
-# LOCKED (§佐藤ロック・改変禁止). 現 dict 出力のキー順 (parse-nta-tsutatsu.py:216-232).
+# LOCKED (§source-lock・改変禁止). 現 dict 出力のキー順 (parse-nta-tsutatsu.py:216-232).
 DIRECTIVE_KEY_ORDER = [
     "id",
     "directive_id",

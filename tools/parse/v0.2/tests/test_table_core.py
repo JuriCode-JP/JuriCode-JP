@@ -10,7 +10,7 @@ Why this test exists:
     gitignored ゆえサイレント・デグレし得る。フルコーパスのバイト一致は cache/laws
     を要するためローカル検証 (push 前)。CI 内では委員会済 fixture XML で
     table_to_pipe_rows_safe の出力を golden 固定し、コア直列化のデグレを検出する。
-    **落ちたら直すのはコードであって golden ではない** (§7 佐藤ロック)。
+    **落ちたら直すのはコードであって golden ではない** (§7 source-lock)。
 """
 
 from __future__ import annotations
@@ -34,7 +34,7 @@ from table_core import (  # noqa: E402
 _FIXTURES = Path(__file__).resolve().parent / "fixtures"
 _GOLDEN_XML = _FIXTURES / "chihou-zei-hou_main_table_excerpt.xml"
 
-# LOCKED golden (§7・佐藤ロック・改変禁止). 出典 e-Gov 325AC0000000226 第312条.
+# LOCKED golden (§7・source-lock・改変禁止). 出典 e-Gov 325AC0000000226 第312条.
 LOCKED_312_HEADER = "| 法人の区分 | 税率 |"
 LOCKED_312_RATES = (
     "五万円",
