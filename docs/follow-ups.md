@@ -1652,4 +1652,18 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
-*Last updated: 2026-06-25 — FU-521 完了マーク (法人税基本通達 全体化: parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main `3f2133be`: 9-2 節 35 chunk → 全25章 1,382 DirectiveChunk。章/節枝番・平文番号・直法マーカー・別表/入れ子修正 = EDGE-008..012)。前回: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+### [ ] FU-522: chunk 内に隣接 directive の本文が重複混入する corruption を検知するゲート (2026-06-25 追加)
+
+**経緯**: FU-521 #52 が、FU-519 が出荷していた **消費税 8-1-5の2 の corruption** (隣接する 8-1-6 / 8-1-7 の本文を 1 chunk 内に重複内包・3270 字) を掘当てた。この事故型は **directive_id ユニーク / コーパス byte 安定 / CI 全9ステップのどれでも検知されず、実出荷 1 件**に至った (FU-519 で公開済み corpus に混入)。具体原因 (NTA の malformed HTML = 別表 `<table>` 周辺の `<p>` 未閉鎖による後続通達の入れ子吸い込み) は **#52 で修正済**。本 FU は同型事故の再発に対する**二次防御 (取込パイプライン側の構造ゲート)**。
+
+**やること**:
+1. **本文長の異常検知**: 同一節 (同 chapter-section) 内で text 長が突出した chunk を flag (z-score / 中央値比など)。
+2. **隣接 directive の内包検知**: chunk の text が **隣接 directive_number の見出し/本文**を内包していないか (例: `8-1-5の2` の text に `8-1-6` の見出しが現れる) を検査。
+3. 上記いずれかを **取込パイプラインの fail-loud ゲート**に組み込む (silent-empty / silent-corruption を許さない既存方針と一体)。
+
+**留意**: 閾値ベース (1) は false-positive を生むため、まず (2) の構造検知を主軸にする方が確度が高い。`tools/parse/edge_registry.md` EDGE-012 (malformed nesting) が本事故の一次原因の記録。
+**関連**: FU-521 #52/#53 (一次修正・8-1-5の2 re-lock) / FU-302 (write 後 sanity check の系譜) / 税務通達コーパスの品質保証。
+
+---
+
+*Last updated: 2026-06-25 — FU-522 起票 (隣接 directive 本文の重複混入 corruption 検知ゲート・P2: FU-521 #52 が掘当てた消費税 8-1-5の2 の latent 破損が directive_id ユニーク/byte 安定/CI のどれでも検知されなかった事故型への二次防御)。同日: FU-521 完了マーク (法人税基本通達 全体化: parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main `3f2133be`: 9-2 節 35 chunk → 全25章 1,382 DirectiveChunk。章/節枝番・平文番号・直法マーカー・別表/入れ子修正 = EDGE-008..012)。前回: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
