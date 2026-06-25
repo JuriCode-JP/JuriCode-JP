@@ -284,13 +284,40 @@ def test_case_c_plain_number_without_strong(tmp_path: Path) -> None:
     assert recs[1]["text"].startswith("本文八")
 
 
+def test_chokuhou_trailing_amendment_extracted(tmp_path: Path) -> None:
+    """旧称「直法」の末尾改正注記を amendment_note に分離する (課法 と併用).
+
+    法人税基本通達は 2001 年 (平成13年) の組織改編で「直法」→「課法」に改称した。
+    旧章は末尾注記が「（昭55年直法2-8「七」により改正）」のように直法で書かれており、
+    課法のみだと取りこぼす。9-2 sentinel は末尾 直法 ゼロのため byte 不変 (回帰ゲートで実証)。
+    """
+    mod = _import_parser()
+    root = tmp_path / "hojin"
+    _write(
+        root / "02" / "02_02.htm",
+        _page(
+            ("2-2-1", "（甲）", "本文甲。（昭55年直法2-8「七」により改正）"),
+            ("2-2-2", "（乙）", "本文乙。（平19年課法2-3「二十二」により追加）"),
+        ),
+    )
+    rc, recs = _run_hojin(mod, root, tmp_path / "out")
+    assert rc == 0
+    by = {r["directive_number"]: r for r in recs}
+    assert by["2-2-1"]["amendment_note"] == "（昭55年直法2-8「七」により改正）"
+    assert by["2-2-1"]["text"] == "本文甲。"
+    # 課法 (現行記号) も従来どおり分離されることを確認 (回帰)。
+    assert by["2-2-2"]["amendment_note"] == "（平19年課法2-3「二十二」により追加）"
+    assert by["2-2-2"]["text"] == "本文乙。"
+
+
 def test_directive_id_format_gate_accepts_chapter_branch() -> None:
     """形式ゲートが章レベルの「の」を受理する (12の2-1-1) / 崩れた番号は拒否."""
     mod = _import_parser()
     cfg = mod.CIRCULAR_CONFIGS["hojin"]
     ok = mod._directive_id_ok
-    assert ok("hojin-kihon-tsutatsu-12の2-1-1", cfg)
-    assert ok("hojin-kihon-tsutatsu-9-2-12の2の3", cfg)
+    assert ok("hojin-kihon-tsutatsu-12の2-1-1", cfg)  # 章レベルの「の」
+    assert ok("hojin-kihon-tsutatsu-1-3の2-1", cfg)  # 節レベルの「の」(第1章第3節の2)
+    assert ok("hojin-kihon-tsutatsu-9-2-12の2の3", cfg)  # 項レベルの「の」
     assert ok("hojin-kihon-tsutatsu-20-4-1", cfg)
     assert not ok("hojin-kihon-tsutatsu-12の2-1", cfg)  # 項欠落
     assert not ok("shouhi-kihon-tsutatsu-1-1-1", cfg)  # 通達 prefix 不一致
