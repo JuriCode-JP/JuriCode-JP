@@ -39,6 +39,8 @@ JuriCode-JP への協力をありがとうございます。日本の法令を A
   - 例: 「(担当者)目視ロック」→「source-locked against the official source」/「(ツール名)独立検証」→「independent verification」/「(担当者)裁定」→「scoped decision」/「title ↔ source verification」。
   - 出典・検証手段は**何を**確認したか(一次資料・round-trip・テスト)で書き、**誰が/どのツールで**は書かない。
   - English contributors: do not put personal names or internal/private tool or process names in public PR titles, PR bodies, or commit messages; use neutral technical labels instead.
+- **内部の商用プロダクト名・未確定のビジネス主張を公開 docs / PR に書かない**。社内の商用プロダクト名(内部呼称)は公開すると内部ビジネス情報の漏洩になるため、一般的な技術ラベル(例:「下流の実務ツール」「ダウンストリーム消費者」)に置き換える。「我々が X の価値を押し上げる」式の未確定・presumptuous な主張は、検証可能な技術記述(retrieval 精度・データ品質など)に一般化する。
+  - English contributors: do not put internal commercial product names or unconfirmed business claims in public docs/PRs; use generic technical labels and verifiable technical statements.
 
 ## 5. 検証(PR 前にローカルで)
 このリポの CI が以下を自動チェックします。PR 前にローカルで通すとスムーズです:
