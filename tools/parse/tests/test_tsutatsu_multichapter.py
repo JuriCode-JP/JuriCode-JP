@@ -215,6 +215,81 @@ def _run_hojin(mod, cache_root: Path, out_dir: Path) -> tuple[int, list[dict]]:
     return rc, recs
 
 
+_RAW_PAGE = (
+    '<html><head><meta charset="shift_jis"></head><body><div id="bodyArea">\n{inner}\n'
+    "</div></body></html>"
+)
+
+
+def test_text_excluding_nested_blocks_fastpath_and_strip() -> None:
+    """入れ子ブロック除外ヘルパ: 入れ子なし=get_text 同一 / 入れ子あり=ブロック除外."""
+    mod = _import_parser()
+    from bs4 import BeautifulSoup
+
+    # fast path: 入れ子ブロックなし -> get_text と完全一致 (byte 不変の核)。
+    soup = BeautifulSoup("<p>甲<strong>乙</strong>丙</p>", "html.parser")
+    p = soup.find("p")
+    assert mod._text_excluding_nested_blocks(p) == p.get_text()
+    # strip path: 入れ子 <p>/<table> のテキストは除外し自段落のテキストのみ。
+    soup2 = BeautifulSoup(
+        "<div><p>own<p>nested</p><table><tr><td>cell</td></tr></table></p></div>", "html.parser"
+    )
+    outer = soup2.find("p")
+    txt = mod._text_excluding_nested_blocks(outer)
+    assert "own" in txt and "nested" not in txt and "cell" not in txt
+
+
+def test_table_captured_as_plaintext_body(tmp_path: Path) -> None:
+    """別表 <table> を現在の項のプレーンテキスト本文として取り込む (Bug55・本文非空)."""
+    mod = _import_parser()
+    root = tmp_path / "hojin"
+    inner = (
+        "<h2>（表のある通達）</h2>\n"
+        '<p class="indent1"><strong>9-3-5の2　</strong>本文。</p>\n'
+        "<table><tr><td>資産計上期間</td><td>資産計上額</td></tr>"
+        "<tr><td>10年</td><td>当期分の100分の40</td></tr></table>\n"
+        "<h2>（次の通達）</h2>\n"
+        '<p class="indent1"><strong>9-3-6　</strong>次の本文。</p>'
+    )
+    _write(root / "09" / "09_03.htm", _RAW_PAGE.format(inner=inner).encode("cp932"))
+    rc, recs = _run_hojin(mod, root, tmp_path / "out")
+    assert rc == 0
+    by = {r["directive_number"]: r for r in recs}
+    # 表は表の直前の項 (9-3-5の2) に取り込まれ、非空。
+    assert "資産計上額" in by["9-3-5の2"]["text"]
+    assert "当期分の100分の40" in by["9-3-5の2"]["text"]
+    # 表をまたいでも次項は自分の見出しを失わない。
+    assert by["9-3-6"]["title"] == "（次の通達）"
+
+
+def test_case_a_guard_rejects_nested_strong_number(tmp_path: Path) -> None:
+    """CASE-A ガード: 番号 <strong> が段落先頭でない (本文中の参照) なら項開始扱いしない.
+
+    malformed HTML で body 段落が後続通達を吸い込むと find('strong') が入れ子の番号を
+    拾い、本文段落を誤って項開始扱いして見出し脱落+重複を招く。番号が段落先頭にないとき
+    却下することで、真の通達だけが項になる (重複 fail-loud も回避)。
+    """
+    mod = _import_parser()
+    root = tmp_path / "hojin"
+    inner = (
+        "<h2>（甲）</h2>\n"
+        '<p class="indent1"><strong>9-3-5　</strong>リード甲。</p>\n'
+        '<p class="indent2">(1)　本文中に<strong>9-3-6</strong>への参照を含む段落。</p>\n'
+        "<h2>（乙）</h2>\n"
+        '<p class="indent1"><strong>9-3-6　</strong>本文乙。</p>'
+    )
+    _write(root / "09" / "09_03.htm", _RAW_PAGE.format(inner=inner).encode("cp932"))
+    rc, recs = _run_hojin(mod, root, tmp_path / "out")
+    assert rc == 0, "入れ子 strong を誤検出すると 9-3-6 重複で fail-loud (rc=1) になる"
+    by = {r["directive_number"]: r for r in recs}
+    assert list(by) == ["9-3-5", "9-3-6"], f"想定外の項: {list(by)}"
+    # (1) 段落は 9-3-5 の本文に取り込まれる (項開始でない)。
+    assert "への参照を含む段落" in by["9-3-5"]["text"]
+    # 真の 9-3-6 は自分の見出しを保持。
+    assert by["9-3-6"]["title"] == "（乙）"
+    assert by["9-3-6"]["text"] == "本文乙。"
+
+
 def test_chapter_filter_includes_branch_dirs_excludes_preamble() -> None:
     """章ディレクトリフィルタ: 12_2 / 20a を採用, zenbun / fusoku / アーカイブを除外."""
     mod = _import_parser()
@@ -354,9 +429,26 @@ def test_multichapter_over_real_cache_matches_committed_corpus(tmp_path: Path) -
     assert rc == 0
     produced = out_dir / "shouhi-kihon-tsutatsu.tsutatsu.chunks.jsonl"
     assert produced.exists()
-    assert produced.read_bytes() == _CORPUS_BASELINE.read_bytes(), (
-        "実キャッシュのマージ出力が corpus fixture と byte 不一致 "
-        "(キャッシュ更新時は fixture も再生成して同一 commit に含める)"
+    # nesting/別表 修正 (EDGE-012) は消費税 8-1-5の2 の latent な吸い込みバグ
+    # (8-1-6/8-1-7 を本文に重複) も是正する。8-1-5の2 の正しい姿への re-lock は別の
+    # shohi-corpus 修正 PR で行うため、本 PR では当該 1 行を strict byte 比較から除外し、
+    # 残り 660 行が byte 不変であることを確認する。re-lock PR で全行 strict に戻す。
+    _RELOCK_PENDING = "shouhi-kihon-tsutatsu-8-1-5の2"
+    prod_lines = [
+        line for line in produced.read_text(encoding="utf-8").splitlines() if line.strip()
+    ]
+    base_lines = [
+        line for line in _CORPUS_BASELINE.read_text(encoding="utf-8").splitlines() if line.strip()
+    ]
+    assert len(prod_lines) == len(base_lines), "corpus 行数が変化"
+    diffs = [
+        i
+        for i, (p, b) in enumerate(zip(prod_lines, base_lines))
+        if p != b and _RELOCK_PENDING not in p
+    ]
+    assert not diffs, (
+        "8-1-5の2 以外の行が byte 不一致 (整形済みページは不変のはず): "
+        f"{[json.loads(prod_lines[i])['directive_id'] for i in diffs[:5]]}"
     )
 
 

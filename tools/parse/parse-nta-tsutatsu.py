@@ -34,6 +34,7 @@ Each record has:
 from __future__ import annotations
 
 import argparse
+import copy
 import re
 import sys
 import warnings
@@ -357,6 +358,30 @@ def _build_directive_record(
     return {k: merged[k] for k in DIRECTIVE_KEY_ORDER}
 
 
+# 段落本文として取り込む際に「中に入れ子になったブロック要素」を除外するためのタグ集合。
+# NTA の一部ページ (例 09/09_03.htm) は別表 <table> の周辺で <p> が閉じられず、後続の
+# 通達 <p>/<h2>/<table> が body 段落の **子** として吸い込まれる (malformed HTML)。これらの
+# 入れ子ブロックは find_all で個別に巡回され各々処理されるため、親段落のテキストからは
+# 除外して二重計上を防ぐ。整形済みページ (入れ子なし) では fast-path で get_text と完全一致。
+_NESTED_BLOCK_TAGS = ("h1", "h2", "p", "table")
+
+
+def _text_excluding_nested_blocks(tag, separator: str = "") -> str:
+    """tag のテキストを、入れ子のブロック要素 (_NESTED_BLOCK_TAGS) を除いて取得する。
+
+    Why: malformed HTML で親 <p> が後続ブロックを吸い込んだとき、親段落の get_text は
+    子の通達本文まで含んでしまい二重計上になる。入れ子ブロックを除いた「その段落自身の
+    テキスト」だけを返すことで正しい帰属にする。**入れ子が無い整形済み段落では
+    get_text(separator) と同一文字列を返す** (= 既存コーパス byte 不変)。
+    """
+    if tag.find(_NESTED_BLOCK_TAGS) is None:
+        return tag.get_text(separator=separator)
+    clone = copy.copy(tag)  # bs4 は recursive copy。clone を破壊しても原木は不変。
+    for el in clone.find_all(_NESTED_BLOCK_TAGS):
+        el.decompose()
+    return clone.get_text(separator=separator)
+
+
 def _extract_directive_items(
     soup: BeautifulSoup, source_url: str, config: CircularConfig
 ) -> list[dict]:
@@ -414,8 +439,18 @@ def _extract_directive_items(
         warnings.warn(f"WARN: bodyArea not found in {source_url}", stacklevel=2)
         return items
 
-    for tag in body_area.find_all(["h1", "h2", "p"]):
+    for tag in body_area.find_all(["h1", "h2", "p", "table"]):
         tag_name = tag.name
+
+        if tag_name == "table":
+            # 別表/表: プレーンテキスト本文として現在の項に取り込む (Bug55・別表保持ゴール)。
+            # 完全構造化はスコープ外だが、税率表等を retrieval から落とさない (本文非空)。
+            # 整形済みページに <table> は無く (shohi/9-2/ch1-2 = 0 件)、出力 byte は不変。
+            if current_num is not None:
+                table_text = _normalize_text(tag.get_text(separator="\n")).strip()
+                if table_text:
+                    current_body_parts.append(table_text)
+            continue
 
         if tag_name in ("h1", "h2"):
             # h2 is the title before a directive item. e.g. "（債務の免除による利益...）"
@@ -429,7 +464,12 @@ def _extract_directive_items(
         if strong:
             raw_num_text = _normalize_text(strong.get_text())
             num_match = _DIRECTIVE_NUM_RE.match(raw_num_text.strip())
-            if num_match:
+            # ガード: 番号が段落の **先頭** にあるときのみ項開始とみなす。malformed HTML で
+            # body 段落が後続通達 <p> を吸い込むと tag.find("strong") が入れ子の番号
+            # (例 9-3-6) を拾い、本文段落を誤って項開始扱いして見出し脱落+本文混線を招く
+            # (例 09/09_03.htm)。段落テキストが番号で始まらなければ入れ子 strong として却下。
+            # 整形済みの真の項段落は番号が先頭にあるため no-op (既存コーパス byte 不変)。
+            if num_match and _normalize_text(tag.get_text()).strip().startswith(num_match.group(1)):
                 # CASE A: 番号全体が <strong> 内 (法人税通達・一部の消費税通達)。
                 # Flush previous item (確定済み見出し current_item_title を使う)。
                 _flush(current_num, current_item_title, current_body_parts, current_amendment)
@@ -443,8 +483,9 @@ def _extract_directive_items(
                 current_amendment = None
                 # Get body text after the number (remove strong element text)
                 strong.decompose()
-                # R13: explicit newline before text (inline -> block)
-                remaining = _normalize_text(tag.get_text(separator="\n")).strip()
+                # R13: explicit newline before text (inline -> block)。入れ子ブロックは
+                # 個別巡回されるため親段落テキストからは除外 (整形済みは get_text と同一)。
+                remaining = _normalize_text(_text_excluding_nested_blocks(tag, "\n")).strip()
                 if remaining:
                     current_body_parts.append(remaining)
                 continue
@@ -455,7 +496,7 @@ def _extract_directive_items(
         # (C) 古い節で番号が strong 無しの平文先頭にある法人税 (1-3の2-1　... / 1-8-1　...)。
         # 番号を含まない段落 (indent2 の「(1)…」等) は先頭が番号にならず非該当のため、
         # 本文段落を誤って項開始扱いしない (既存コーパスは byte 不変 = 回帰ゲートで実証)。
-        plain = _normalize_text(tag.get_text()).strip()
+        plain = _normalize_text(_text_excluding_nested_blocks(tag)).strip()
         lead_match = _LEADING_DIRECTIVE_RE.match(plain)
         if lead_match:
             _flush(current_num, current_item_title, current_body_parts, current_amendment)
@@ -469,19 +510,13 @@ def _extract_directive_items(
                 current_body_parts.append(remaining)
             continue
 
-        # Regular paragraph (indent1/indent2/other)
+        # Regular paragraph (indent1/indent2/other)。入れ子ブロック (malformed で吸い込まれた
+        # 後続通達 <p>/<table>) は除外し二重計上を防ぐ (整形済みは get_text と同一 = byte 不変)。
         if current_num is not None:
-            classes = tag.get("class") or []
-            raw_text = _normalize_text(tag.get_text(separator="\n")).strip()
+            raw_text = _normalize_text(_text_excluding_nested_blocks(tag, "\n")).strip()
             if not raw_text:
                 continue
-            if "indent2" in classes:
-                # R13: items as block lines
-                current_body_parts.append(raw_text)
-            elif "indent1" in classes:
-                current_body_parts.append(raw_text)
-            else:
-                current_body_parts.append(raw_text)
+            current_body_parts.append(raw_text)
 
     # Flush last item (確定済み見出しを使う)。
     _flush(current_num, current_item_title, current_body_parts, current_amendment)
