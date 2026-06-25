@@ -365,3 +365,74 @@ def test_corpus_fixture_globally_numeric_sorted_and_unique() -> None:
     # 章プレフィックスは数値昇順 ("10" が "2" より後)。
     chapters = [int(r["directive_number"].split("-")[0]) for r in recs]
     assert chapters == sorted(chapters), "章プレフィックスが数値昇順でない"
+
+
+# ===========================================================
+# 法人税 corpus fixture gates (FU-521 batches)
+# ===========================================================
+
+_HOJIN_CACHE = _REPO_ROOT / "cache" / "tsutatsu" / "hojin"
+_HOJIN_CORPUS = _THIS.parent / "fixtures" / "hojin-kihon-tsutatsu.corpus.chunks.baseline.jsonl"
+_HOJIN_SENTINEL = _THIS.parent / "fixtures" / "hojin-kihon-tsutatsu.tsutatsu.chunks.baseline.jsonl"
+
+
+def _hojin_corpus_records() -> list[dict]:
+    return [
+        json.loads(line)
+        for line in _HOJIN_CORPUS.read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+
+
+def test_hojin_corpus_globally_numeric_sorted_and_unique() -> None:
+    """法人税 corpus fixture が数値キーで全体ソート済 + directive_id ユニーク (章枝番含む)."""
+    recs = _hojin_corpus_records()
+    keys = [_numeric_key(r["directive_number"]) for r in recs]
+    assert keys == sorted(keys), "corpus が数値順に並んでいない"
+    ids = [r["directive_id"] for r in recs]
+    assert len(ids) == len(set(ids)), "corpus に directive_id 重複"
+
+
+def test_hojin_corpus_92_sentinel_slice_when_present() -> None:
+    """9-2 の 35 sentinel が corpus に揃ったら baseline と byte 一致 (exact-id スライス・Bug53)."""
+    base = _HOJIN_SENTINEL.read_bytes().splitlines()
+    base_ids = [json.loads(b)["directive_id"] for b in base]
+    by_id = {json.loads(b)["directive_id"]: b for b in _HOJIN_CORPUS.read_bytes().splitlines()}
+    if not all(i in by_id for i in base_ids):
+        pytest.skip("ch09 (9-2) はまだ corpus に未収録")
+    assert [by_id[i] for i in base_ids] == base, (
+        "9-2 sentinel スライスが baseline と byte 不一致 (直すのはパーサであって baseline ではない)"
+    )
+
+
+@pytest.mark.skipif(
+    not _HOJIN_CACHE.exists(),
+    reason="NTA HTML cache (cache/tsutatsu/hojin/, gitignored) 不在 -- push 前ローカル",
+)
+def test_hojin_corpus_reproduces_from_its_chapter_dirs(tmp_path: Path) -> None:
+    """corpus fixture が「自身が含む章ディレクトリ」を parse した出力と byte 一致.
+
+    fixture の source_url から章ディレクトリ集合を逆算し、その章だけを temp root に集めて
+    parse → fixture と byte 一致を検証する。ローカル cache が fixture より多くの章を持って
+    いても fixture の章だけで再現性を確認でき、バッチ毎の決定性を pin する。
+    **落ちたら直すのはパーサ/キャッシュであって fixture ではない**。
+    """
+    import shutil
+
+    recs = _hojin_corpus_records()
+    dirs = sorted({r["source_url"].split("/kihon/hojin/", 1)[1].split("/", 1)[0] for r in recs})
+    root = tmp_path / "cache"
+    root.mkdir()
+    for d in dirs:
+        src = _HOJIN_CACHE / d
+        if not src.exists():
+            pytest.skip(f"cache dir {d} 不在")
+        shutil.copytree(src, root / d)
+    mod = _import_parser()
+    out_dir = tmp_path / "out"
+    rc = mod.main(["--circular", "hojin", "--cache-root", str(root), "--output-dir", str(out_dir)])
+    assert rc == 0
+    produced = out_dir / "hojin-kihon-tsutatsu.tsutatsu.chunks.jsonl"
+    assert produced.read_bytes() == _HOJIN_CORPUS.read_bytes(), (
+        "corpus fixture が自身の章 parse 出力と byte 不一致 (cache 更新時は fixture も再生成)"
+    )
