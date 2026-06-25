@@ -82,9 +82,11 @@ class CircularConfig:
     ref_map: Mapping[str, str]  # {"法": <law>, "令": <shikkourei>, "規": <shikoukisoku>, ...}
     corpus_unregistered: frozenset[str] = field(default_factory=frozenset)
     license: str = LICENSE
-    # 本文末尾の改正注記を抽出する NTA 内部記号 (法人税="課法" / 消費税="課消")。
-    # 「（<元号><年>課<部門><番号>…）」形式。通達ごとに部門記号が違うため config 化。
-    amendment_marker: str = "課法"
+    # 本文末尾の改正注記を抽出する NTA 内部記号 (法人税="課法"+旧称"直法" / 消費税="課消")。
+    # 「（<元号><年><部門記号><番号>…）」形式。部門記号は通達ごと、かつ法人税は 2001 年
+    # (平成13年) の組織改編で「直法」→「課法」に改称したため旧章は "直法" を併用する。
+    # tuple で複数記号を許し、抽出正規表現はこれらの alternation で組む。
+    amendment_markers: tuple[str, ...] = ("課法",)
 
 
 # 法人税基本通達 (既定・byte 回帰で固定。値は移行前の module 定数と完全一致)。
@@ -99,6 +101,9 @@ HOJIN_CONFIG = CircularConfig(
         "措法": "sochi-hou",  # corpus 未収録 -> warn, no link
     },
     corpus_unregistered=frozenset({"sochi-hou"}),
+    # 課法 (現行) + 直法 (2001 年改編前の旧称)。旧章の末尾改正注記
+    # 「（昭55年直法2-8「十」…）」を取りこぼさない (9-2 sentinel は末尾 直法 ゼロ = byte 不変)。
+    amendment_markers=("課法", "直法"),
 )
 
 # 消費税法基本通達。source_url_base の NTA パスは "shohi" (実 URL で確認済・我々の
@@ -114,7 +119,7 @@ SHOUHI_CONFIG = CircularConfig(
         "規": "shouhi-zei-hou-shikoukisoku",
     },
     corpus_unregistered=frozenset(),
-    amendment_marker="課消",  # 消費税通達の改正注記記号 (例: 平28課消1-57)
+    amendment_markers=("課消",),  # 消費税通達の改正注記記号 (例: 平28課消1-57)
 )
 
 # --circular セレクタの登録簿。
@@ -377,10 +382,12 @@ def _extract_directive_items(
             return
         body = "\n".join(parts).strip()
         # Extract amendment note from end of body if not already found.
-        # marker は通達ごと (課法/課消)。hojin の "課法" は従来正規表現と同一 -> byte 不変。
+        # marker は通達ごと (課法[+直法]/課消)。複数記号を alternation で 1 本の正規表現に
+        # 束ねる。hojin に "直法" を足しても 9-2 sentinel は末尾 直法 ゼロ -> byte 不変。
         amendment_note = amend
         if amendment_note is None:
-            amend_re = rf"（[^）]*{re.escape(config.amendment_marker)}[^）]*）\s*$"
+            marker_alt = "|".join(re.escape(m) for m in config.amendment_markers)
+            amend_re = rf"（[^）]*(?:{marker_alt})[^）]*）\s*$"
             amend_m = re.search(amend_re, body)
             if amend_m:
                 amendment_note = amend_m.group(0)

@@ -177,11 +177,11 @@ def test_circular_config_registry() -> None:
     hojin = mod.CIRCULAR_CONFIGS["hojin"]
     shouhi = mod.CIRCULAR_CONFIGS["shouhi"]
     assert hojin.law_abbrev == "hojin-kihon-tsutatsu"
-    assert hojin.amendment_marker == "課法"
+    assert hojin.amendment_markers == ("課法", "直法")
     assert shouhi.law_abbrev == "shouhi-kihon-tsutatsu"
     assert shouhi.law_name_ja == "消費税法基本通達"
     assert shouhi.source_url_base == "https://www.nta.go.jp/law/tsutatsu/kihon/shohi"
-    assert shouhi.amendment_marker == "課消"
+    assert shouhi.amendment_markers == ("課消",)
     assert shouhi.ref_map["法"] == "shouhi-zei-hou"
     assert shouhi.ref_map["令"] == "shouhi-zei-hou-shikkourei"
 
