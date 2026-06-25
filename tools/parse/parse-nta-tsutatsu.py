@@ -442,22 +442,25 @@ def _extract_directive_items(
                     current_body_parts.append(remaining)
                 continue
 
-            # CASE B: split-strong (消費税通達 <strong>1</strong>－3－2 ...)。
-            # strong だけでは番号にならないため、段落テキスト先頭の番号を拾う。
-            # 番号を含まない段落 (indent2 の「(1)…」等) は先頭が番号にならず非該当。
-            plain = _normalize_text(tag.get_text()).strip()
-            lead_match = _LEADING_DIRECTIVE_RE.match(plain)
-            if lead_match:
-                _flush(current_num, current_item_title, current_body_parts, current_amendment)
-                current_num = lead_match.group(1)
-                current_item_title = current_title
-                current_title = None  # consume-once (第2エッジ: 削除通達はタイトルなし)
-                current_body_parts = []
-                current_amendment = None
-                remaining = plain[lead_match.end() :].strip()
-                if remaining:
-                    current_body_parts.append(remaining)
-                continue
+        # CASE B/C: 段落テキスト先頭が番号 (B=split-strong / C=strong 無しの平文番号)。
+        # CASE A で項を開始した段落は上で continue 済みなのでここには来ない。残るのは
+        # (B) strong はあるが番号全体にならない (消費税 <strong>1</strong>－3－2 ...) と
+        # (C) 古い節で番号が strong 無しの平文先頭にある法人税 (1-3の2-1　... / 1-8-1　...)。
+        # 番号を含まない段落 (indent2 の「(1)…」等) は先頭が番号にならず非該当のため、
+        # 本文段落を誤って項開始扱いしない (既存コーパスは byte 不変 = 回帰ゲートで実証)。
+        plain = _normalize_text(tag.get_text()).strip()
+        lead_match = _LEADING_DIRECTIVE_RE.match(plain)
+        if lead_match:
+            _flush(current_num, current_item_title, current_body_parts, current_amendment)
+            current_num = lead_match.group(1)
+            current_item_title = current_title
+            current_title = None  # consume-once (第2エッジ: 削除通達はタイトルなし)
+            current_body_parts = []
+            current_amendment = None
+            remaining = plain[lead_match.end() :].strip()
+            if remaining:
+                current_body_parts.append(remaining)
+            continue
 
         # Regular paragraph (indent1/indent2/other)
         if current_num is not None:

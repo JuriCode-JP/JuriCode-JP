@@ -256,6 +256,34 @@ def test_branch_chapter_numeric_sort(tmp_path: Path) -> None:
     ], f"章枝番の数値順が崩れた: {[r['directive_number'] for r in recs]}"
 
 
+_ITEM_PLAIN_TMPL = "<h2>{title}</h2>\n<p>{num}　{body}</p>"  # CASE C: 番号が strong 無しの平文
+
+
+def _page_plain(*items: tuple[str, str, str]) -> bytes:
+    """CASE C 用: 番号を <strong> で囲まず段落先頭の平文に置く NTA-like cp932 HTML."""
+    body = "\n".join(_ITEM_PLAIN_TMPL.format(num=n, title=t, body=b) for n, t, b in items)
+    return _PAGE_TMPL.format(items=body).encode("cp932")
+
+
+def test_case_c_plain_number_without_strong(tmp_path: Path) -> None:
+    """CASE C: 番号が <strong> 無しの平文先頭にある古い節 (1-3の2-1 / 1-8-1) を抽出する.
+
+    法人税 第1章第3節の2 (1-3の2-1) / 第8節 (1-8-1) は番号が strong でマークアップ
+    されず段落先頭の平文にある。strong 必須だと 0 directive で silent-empty 通過する
+    (P0-4 dry-run で検知) ため、strong 不在でも段落先頭番号を拾う。
+    """
+    mod = _import_parser()
+    root = tmp_path / "hojin"
+    _write(root / "01" / "01_08.htm", _page_plain(("1-8-1", "（その他）", "本文八。")))
+    _write(root / "01" / "01_03_02.htm", _page_plain(("1-3の2-1", "（支配関係）", "本文三の二。")))
+    rc, recs = _run_hojin(mod, root, tmp_path / "out")
+    assert rc == 0
+    assert [r["directive_number"] for r in recs] == ["1-3の2-1", "1-8-1"]
+    # 本文は番号自身を含まない (番号は consume される)。
+    assert recs[0]["text"].startswith("本文三の二")
+    assert recs[1]["text"].startswith("本文八")
+
+
 def test_directive_id_format_gate_accepts_chapter_branch() -> None:
     """形式ゲートが章レベルの「の」を受理する (12の2-1-1) / 崩れた番号は拒否."""
     mod = _import_parser()
