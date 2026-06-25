@@ -1613,6 +1613,25 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [x] FU-521: 法人税基本通達 全体化 — ✅ 完了 2026-06-25 (parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main 3f2133be)
+
+**経緯**: 法人税基本通達は **9-2 節 (役員給与) 35 chunk のみ** committed で、残り全章が未取込だった (税務深掘りラダー: 基本通達層 ~15%)。FU-519 (消費税通達) で確立した多章マージ手法を `--circular hojin` で流用し全体化。
+
+**成果**: NTA 一次目次を raw cp932 デコードで確定 → **全25章ディレクトリ / 253 セクションファイル** (第1-20章 + 章の枝番 第12章の2〜の7・第13章の2 + 第20章。前文 `zenbun/`・附則 `fusoku/` は除外)。**コーパス完成: 1,382 DirectiveChunk** (directive_id 全件ユニーク・全体数値順・参照 1,512 linked / 0 unlinked)。9-2 節 sentinel (35 ロック ID) は全工程 byte 不変。
+- **parser 機能拡張 (データ生成と分離した別 PR)**:
+  - **#49**: 章/節レベルの「の」枝番 (第12章の2 = `12の2-1-1`) に通達番号文法を一般化 + 多章ディレクトリフィルタを `_N`/`a` 接尾辞 (12_2..12_7・13_2・20a) へ拡張 (EDGE-008)。strong 無しの平文番号 (CASE C・第1章第8節 `1-8-1` 等) を検出 (EDGE-009)。
+  - **#51**: 改正記号に旧称「直法」(2001 年改編前) を追加し旧章の末尾注記を分離 (EDGE-011)。本文途中 (末尾でない) の改正注記抽出は 9-2 sentinel を変えるため将来の改正履歴レイヤーへ先送り (`edge_registry.md` スコープ外に記録)。
+  - **#52**: malformed HTML (別表 `<table>` 周辺で `<p>` 未閉鎖→後続通達の入れ子吸い込み) を是正。`<table>` をプレーンテキスト本文化 (別表保持)・CASE-A 番号先頭ガード・入れ子ブロック除外 (EDGE-012)。latent 破損 12 hojin chunk (ch.7/8/9/16/17) が title+別表 を回復。整形済み (shohi 660 / 9-2 sentinel / ch1-2) は byte 不変。
+  - **#53**: #52 が露見させた **消費税 8-1-5の2 の同型 latent バグ** (8-1-6/8-1-7 を本文に重複・3270→177字) を NTA 原典確認の上 1 行 re-lock。
+- **データ 5 バッチ** (トランクベース直列・各 CI 全9緑・累積コーパス fixture を blast-radius プレフィックスゲートで検証): B1 ch1-2 (#50・停止レビュー=title-lag 汎化を NTA 突合) / B2 ch3-9 (#54) / B3 ch10-13の2 (#55) / B4 ch14-16 (#56) / B5 ch17-20 (#57)。
+- 遭遇エッジは `tools/parse/edge_registry.md` (EDGE-008..012) に台帳化。`data/v0.2`・schema 非接触・dense 再embed なし・NTA HTML cp932 維持。committed 対象は corpus fixture スナップショット (raw HTML cache・provenance は gitignored)。
+
+**残課題**: 所得税基本通達 (順序2) / 相続税法・財産評価基本通達 (順序3) / タックスアンサー拡充 (順序4) / 租税特別措置法 (順序5・要独立計画書)。本文途中の改正注記の構造化は将来の改正履歴レイヤーで sentinel 正式 re-lock と一体実施。
+
+**関連**: FU-519 (消費税通達・同手法) / `business/tax-deepening-roadmap-2026-06-24.md` (深掘り順序) / 税務Juricode の税理士向け retrieval。
+
+---
+
 ### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
 **経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。
@@ -1633,4 +1652,4 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
-*Last updated: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+*Last updated: 2026-06-25 — FU-521 完了マーク (法人税基本通達 全体化: parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main `3f2133be`: 9-2 節 35 chunk → 全25章 1,382 DirectiveChunk。章/節枝番・平文番号・直法マーカー・別表/入れ子修正 = EDGE-008..012)。前回: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
