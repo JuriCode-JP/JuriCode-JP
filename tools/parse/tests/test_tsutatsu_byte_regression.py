@@ -33,7 +33,7 @@ _THIS = Path(__file__).resolve()
 _REPO_ROOT = _THIS.parents[3]
 _BASELINE = _THIS.parent / "fixtures" / "hojin-kihon-tsutatsu.tsutatsu.chunks.baseline.jsonl"
 _PARSER = _REPO_ROOT / "tools" / "parse" / "parse-nta-tsutatsu.py"
-_CACHE_DIR = _REPO_ROOT / "cache" / "tsutatsu" / "hojin" / "09"
+_HOJIN_CACHE = _REPO_ROOT / "cache" / "tsutatsu" / "hojin"
 
 # LOCKED (§source-lock・改変禁止). 現 dict 出力のキー順 (parse-nta-tsutatsu.py:216-232).
 DIRECTIVE_KEY_ORDER = [
@@ -125,18 +125,29 @@ def test_chunk_count_locked() -> None:
 
 
 @pytest.mark.skipif(
-    not _CACHE_DIR.exists(),
-    reason="NTA HTML cache (cache/tsutatsu/, gitignored) 不在 -- byte 回帰は push 前ローカルゲート",
+    not _HOJIN_CACHE.exists(),
+    reason="NTA HTML cache (cache/tsutatsu/, gitignored) 不在 -- 9-2 sentinel 回帰は push 前ローカルゲート",
 )
-def test_parser_output_byte_identical_to_baseline(tmp_path: Path) -> None:
-    """parser を現入力で再実行 -> 出力が baseline と **バイト一致** (出力保持の核)."""
+def test_92_sentinel_slice_byte_identical_to_baseline(tmp_path: Path) -> None:
+    """全章マージ後も 9-2 の 35 sentinel directive が baseline と **byte 一致**.
+
+    法人税基本通達は 9-2 節だけを手キャッシュした 35 chunk の baseline (FU-514) を持つ。
+    全章取込 (FU-521) 後は 9-2 節が完全版 (>35) になり 9-1/9-3.. も加わるため、出力全体は
+    baseline と一致しない。代わりに baseline の **35 個の exact directive_id** に属する行を
+    抽出して baseline と byte 一致を検証する (部分文字列スライス禁止 = 隣接章を巻き込まない・
+    査読 Bug53)。**落ちたら直すのはパーサであって baseline ではない**。
+    """
+    import json
+
     out_dir = tmp_path / "out"
     result = subprocess.run(
         [
             sys.executable,
             str(_PARSER),
-            "--cache-dir",
-            str(_CACHE_DIR),
+            "--circular",
+            "hojin",
+            "--cache-root",
+            str(_HOJIN_CACHE),
             "--output-dir",
             str(out_dir),
         ],
@@ -145,8 +156,6 @@ def test_parser_output_byte_identical_to_baseline(tmp_path: Path) -> None:
         text=True,
         encoding="utf-8",
         errors="replace",
-        # 子プロセスの stderr 日本語サマリを utf-8 で吐かせる (Windows の cp932
-        # デフォルトだと親側 utf-8 decode が 0x82 等で割れる)。
         env={**os.environ, "PYTHONIOENCODING": "utf-8"},
     )
     assert result.returncode == 0, f"parser 失敗 (rc={result.returncode}):\n{result.stderr}"
@@ -154,9 +163,13 @@ def test_parser_output_byte_identical_to_baseline(tmp_path: Path) -> None:
     produced = out_dir / "hojin-kihon-tsutatsu.tsutatsu.chunks.jsonl"
     assert produced.exists(), f"出力不在: {produced}\n{result.stderr}"
 
-    produced_bytes = produced.read_bytes()
-    baseline_bytes = _BASELINE.read_bytes()
-    assert produced_bytes == baseline_bytes, (
-        f"出力が baseline とバイト不一致 (produced={len(produced_bytes)}B "
-        f"baseline={len(baseline_bytes)}B). 直すのはモデル/直列化であって baseline ではない."
+    base_lines = _BASELINE.read_bytes().splitlines()
+    base_ids = [json.loads(b)["directive_id"] for b in base_lines]
+    out_by_id = {json.loads(b)["directive_id"]: b for b in produced.read_bytes().splitlines()}
+    missing = [i for i in base_ids if i not in out_by_id]
+    assert not missing, f"sentinel 9-2 directive が全章マージ出力から欠落: {missing}"
+    slice_lines = [out_by_id[i] for i in base_ids]
+    assert slice_lines == base_lines, (
+        "9-2 sentinel スライスが baseline と byte 不一致 "
+        "(直すのはパーサであって baseline ではない)."
     )

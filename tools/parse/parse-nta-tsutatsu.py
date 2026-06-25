@@ -254,26 +254,31 @@ def _extract_related_articles(text: str, config: CircularConfig) -> list[dict]:
 # HTML parsing
 # ---------------------------------------------------------------------------
 
-# Directive number pattern after normalization (all bars -> -)
-# Full-width digits may appear; normalize before matching
-_DIRECTIVE_NUM_RE = re.compile(r"^(\d+-\d+-\d+(?:の\d+)*)\s*$")
+# Directive number = 3 levels (章-節-項), each level may carry "の" branches.
+# 法人税基本通達の「章の枝番」(第12章の2 = 12の2-1-1) では **章レベル**に「の」が付く。
+# 消費税通達・法人税 9-2 は項レベルにしか「の」が付かない (9-2-12の2) ため、レベル毎に
+# (?:の\d+)* を許す本パターンは旧パターンの上位互換 (既存コーパスの番号・キャプチャは
+# 不変 = byte 回帰で実証)。Full-width digits may appear; normalize before matching.
+_LEVEL = r"\d+(?:の\d+)*"
+_DIRECTIVE_NUM_RE = re.compile(rf"^({_LEVEL}-{_LEVEL}-{_LEVEL})\s*$")
 
 # 段落テキスト先頭の項番号 (split-strong 形式の検出用)。
 # NTA の消費税通達では番号が <strong>1</strong>－3－2 ... のように分割され、
 # strong だけでは番号全体にならない項がある (法人税通達は番号全体が strong 内)。
 # CASE A (番号全体が strong) が外れたときのみ本パターンで段落先頭から番号を拾う。
-_LEADING_DIRECTIVE_RE = re.compile(r"^(\d+-\d+-\d+(?:の\d+)*)\s")
+_LEADING_DIRECTIVE_RE = re.compile(rf"^({_LEVEL}-{_LEVEL}-{_LEVEL})\s")
 
 # 多章モードで cache root 直下から「章ディレクトリ」だけを拾うフィルタ。
-# 章は 2 桁ゼロ詰め (01..21)。前文ページ (shohi/02.htm = root 直下の .htm で
-# parts[0]="02.htm" → 非該当) や旧版アーカイブ (shohi/20230930/ = 8 桁 → 非該当) を
-# fullmatch で機械的に除外する。
-_CHAPTER_DIR_RE = re.compile(r"\d{2}")
+# 章は 2 桁ゼロ詰め (01..21)。法人税基本通達は章の枝番ディレクトリ (12_2 = 第12章の2 ..
+# 13_2) と 20a (第20章) を持つため、`_\d+` / `a` 接尾辞も章として許す。前文 (zenbun/ ・
+# shohi/02.htm = root 直下の .htm で parts[0] が非 2桁) や 附則 (fusoku/)・旧版アーカイブ
+# (20230930/ = 8 桁) は fullmatch で機械的に除外する (shohi の選択集合は不変 = byte 回帰で実証)。
+_CHAPTER_DIR_RE = re.compile(r"\d{2}(?:_\d+|a)?")
 
 # directive_id の命名規則 (ユニークさとは別の形式ゲート・査読項11)。
-# {law_abbrev}-{章}-{節}-{項}(の{枝番})* の形だけを許し、章跨ぎ取込で番号抽出が
-# 崩れた record (節欠落・全角混入等) を fail-loud で止める。
-_DIRECTIVE_ID_TAIL_RE = re.compile(r"\d+-\d+-\d+(?:の\d+)*")
+# {law_abbrev}-{章}-{節}-{項} の形だけを許し (各レベルに「の」枝番可)、章跨ぎ取込で
+# 番号抽出が崩れた record (節欠落・全角混入等) を fail-loud で止める。
+_DIRECTIVE_ID_TAIL_RE = re.compile(rf"{_LEVEL}-{_LEVEL}-{_LEVEL}")
 
 
 def _directive_id_ok(directive_id: str, config: CircularConfig) -> bool:
@@ -437,22 +442,25 @@ def _extract_directive_items(
                     current_body_parts.append(remaining)
                 continue
 
-            # CASE B: split-strong (消費税通達 <strong>1</strong>－3－2 ...)。
-            # strong だけでは番号にならないため、段落テキスト先頭の番号を拾う。
-            # 番号を含まない段落 (indent2 の「(1)…」等) は先頭が番号にならず非該当。
-            plain = _normalize_text(tag.get_text()).strip()
-            lead_match = _LEADING_DIRECTIVE_RE.match(plain)
-            if lead_match:
-                _flush(current_num, current_item_title, current_body_parts, current_amendment)
-                current_num = lead_match.group(1)
-                current_item_title = current_title
-                current_title = None  # consume-once (第2エッジ: 削除通達はタイトルなし)
-                current_body_parts = []
-                current_amendment = None
-                remaining = plain[lead_match.end() :].strip()
-                if remaining:
-                    current_body_parts.append(remaining)
-                continue
+        # CASE B/C: 段落テキスト先頭が番号 (B=split-strong / C=strong 無しの平文番号)。
+        # CASE A で項を開始した段落は上で continue 済みなのでここには来ない。残るのは
+        # (B) strong はあるが番号全体にならない (消費税 <strong>1</strong>－3－2 ...) と
+        # (C) 古い節で番号が strong 無しの平文先頭にある法人税 (1-3の2-1　... / 1-8-1　...)。
+        # 番号を含まない段落 (indent2 の「(1)…」等) は先頭が番号にならず非該当のため、
+        # 本文段落を誤って項開始扱いしない (既存コーパスは byte 不変 = 回帰ゲートで実証)。
+        plain = _normalize_text(tag.get_text()).strip()
+        lead_match = _LEADING_DIRECTIVE_RE.match(plain)
+        if lead_match:
+            _flush(current_num, current_item_title, current_body_parts, current_amendment)
+            current_num = lead_match.group(1)
+            current_item_title = current_title
+            current_title = None  # consume-once (第2エッジ: 削除通達はタイトルなし)
+            current_body_parts = []
+            current_amendment = None
+            remaining = plain[lead_match.end() :].strip()
+            if remaining:
+                current_body_parts.append(remaining)
+            continue
 
         # Regular paragraph (indent1/indent2/other)
         if current_num is not None:
