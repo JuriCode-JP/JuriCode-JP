@@ -192,6 +192,83 @@ def test_excludes_preamble_and_archive(tmp_path: Path) -> None:
 
 
 # ===========================================================
+# 法人税の章の枝番 (第12章の2 = 12の2-1-1) + 章ディレクトリ拡張 (FU-521)
+# ===========================================================
+#
+# 法人税基本通達は「章の枝番」(12_2..12_7 = 第12章の2..の7・13_2・20a) を持ち、
+# 番号は **章レベルに「の」** が付く ("12の2-1-1")。消費税通達・法人税 9-2 は項レベル
+# だけ ("9-2-12の2")。本セクションは合成 cp932 fixture でこの新形式を pin する。
+
+
+def _run_hojin(mod, cache_root: Path, out_dir: Path) -> tuple[int, list[dict]]:
+    rc = mod.main(
+        ["--circular", "hojin", "--cache-root", str(cache_root), "--output-dir", str(out_dir)]
+    )
+    out = out_dir / "hojin-kihon-tsutatsu.tsutatsu.chunks.jsonl"
+    recs = []
+    if out.exists():
+        recs = [
+            json.loads(line)
+            for line in out.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+    return rc, recs
+
+
+def test_chapter_filter_includes_branch_dirs_excludes_preamble() -> None:
+    """章ディレクトリフィルタ: 12_2 / 20a を採用, zenbun / fusoku / アーカイブを除外."""
+    mod = _import_parser()
+    ok = mod._CHAPTER_DIR_RE.fullmatch
+    for d in ("01", "09", "12", "12_2", "12_7", "13_2", "20a"):
+        assert ok(d), f"内容章ディレクトリ {d!r} が除外された"
+    for d in ("zenbun", "fusoku", "20230930", "02.htm"):
+        assert not ok(d), f"非内容パス {d!r} が混入した"
+
+
+def test_chapter_level_no_branch_number(tmp_path: Path) -> None:
+    """第12章の2 の番号 "12の2-1-1" が章レベルの「の」付きで正しく抽出される."""
+    mod = _import_parser()
+    root = tmp_path / "hojin"
+    _write(root / "12_2" / "12_2_01.htm", _page(("12の2-1-1", "（通則）", "本文。")))
+    rc, recs = _run_hojin(mod, root, tmp_path / "out")
+    assert rc == 0, "章レベルの「の」付き番号が parse 失敗"
+    assert len(recs) == 1
+    assert recs[0]["directive_number"] == "12の2-1-1"
+    assert recs[0]["directive_id"] == "hojin-kihon-tsutatsu-12の2-1-1"
+    assert recs[0]["source_url"].endswith("/12_2/12_2_01.htm")
+
+
+def test_branch_chapter_numeric_sort(tmp_path: Path) -> None:
+    """章枝番の数値順: 12-1-9 < 12の2-1-1 < 12の7-3-4 < 13-1-1 (章レベルの数値順)."""
+    mod = _import_parser()
+    root = tmp_path / "hojin"
+    _write(root / "12" / "12_01.htm", _page(("12-1-9", "（a）", "A。")))
+    _write(root / "12_2" / "12_2_01.htm", _page(("12の2-1-1", "（b）", "B。")))
+    _write(root / "12_7" / "12_7_03.htm", _page(("12の7-3-4", "（c）", "C。")))
+    _write(root / "13" / "13_01.htm", _page(("13-1-1", "（d）", "D。")))
+    rc, recs = _run_hojin(mod, root, tmp_path / "out")
+    assert rc == 0
+    assert [r["directive_number"] for r in recs] == [
+        "12-1-9",
+        "12の2-1-1",
+        "12の7-3-4",
+        "13-1-1",
+    ], f"章枝番の数値順が崩れた: {[r['directive_number'] for r in recs]}"
+
+
+def test_directive_id_format_gate_accepts_chapter_branch() -> None:
+    """形式ゲートが章レベルの「の」を受理する (12の2-1-1) / 崩れた番号は拒否."""
+    mod = _import_parser()
+    cfg = mod.CIRCULAR_CONFIGS["hojin"]
+    ok = mod._directive_id_ok
+    assert ok("hojin-kihon-tsutatsu-12の2-1-1", cfg)
+    assert ok("hojin-kihon-tsutatsu-9-2-12の2の3", cfg)
+    assert ok("hojin-kihon-tsutatsu-20-4-1", cfg)
+    assert not ok("hojin-kihon-tsutatsu-12の2-1", cfg)  # 項欠落
+    assert not ok("shouhi-kihon-tsutatsu-1-1-1", cfg)  # 通達 prefix 不一致
+
+
+# ===========================================================
 # byte regression: multi-chapter over the real cache (local only)
 # ===========================================================
 
