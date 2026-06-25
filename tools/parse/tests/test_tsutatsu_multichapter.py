@@ -429,26 +429,9 @@ def test_multichapter_over_real_cache_matches_committed_corpus(tmp_path: Path) -
     assert rc == 0
     produced = out_dir / "shouhi-kihon-tsutatsu.tsutatsu.chunks.jsonl"
     assert produced.exists()
-    # nesting/別表 修正 (EDGE-012) は消費税 8-1-5の2 の latent な吸い込みバグ
-    # (8-1-6/8-1-7 を本文に重複) も是正する。8-1-5の2 の正しい姿への re-lock は別の
-    # shohi-corpus 修正 PR で行うため、本 PR では当該 1 行を strict byte 比較から除外し、
-    # 残り 660 行が byte 不変であることを確認する。re-lock PR で全行 strict に戻す。
-    _RELOCK_PENDING = "shouhi-kihon-tsutatsu-8-1-5の2"
-    prod_lines = [
-        line for line in produced.read_text(encoding="utf-8").splitlines() if line.strip()
-    ]
-    base_lines = [
-        line for line in _CORPUS_BASELINE.read_text(encoding="utf-8").splitlines() if line.strip()
-    ]
-    assert len(prod_lines) == len(base_lines), "corpus 行数が変化"
-    diffs = [
-        i
-        for i, (p, b) in enumerate(zip(prod_lines, base_lines))
-        if p != b and _RELOCK_PENDING not in p
-    ]
-    assert not diffs, (
-        "8-1-5の2 以外の行が byte 不一致 (整形済みページは不変のはず): "
-        f"{[json.loads(prod_lines[i])['directive_id'] for i in diffs[:5]]}"
+    assert produced.read_bytes() == _CORPUS_BASELINE.read_bytes(), (
+        "実キャッシュのマージ出力が corpus fixture と byte 不一致 "
+        "(キャッシュ更新時は fixture も再生成して同一 commit に含める)"
     )
 
 
