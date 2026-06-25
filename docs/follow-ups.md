@@ -1609,7 +1609,7 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 **残課題**: 法人税通達の全体化 (現在 役員給与節のみ) / 所得税・相続税・国税通則通達。
 
-**関連**: PR #35 / 税務Juricode の消費税 retrieval 土台。
+**関連**: PR #35 / 税務向け下流アプリの消費税 retrieval 土台。
 
 ---
 
@@ -1628,7 +1628,7 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 **残課題**: 所得税基本通達 (順序2) / 相続税法・財産評価基本通達 (順序3) / タックスアンサー拡充 (順序4) / 租税特別措置法 (順序5・要独立計画書)。本文途中の改正注記の構造化は将来の改正履歴レイヤーで sentinel 正式 re-lock と一体実施。
 
-**関連**: FU-519 (消費税通達・同手法) / `business/tax-deepening-roadmap-2026-06-24.md` (深掘り順序) / 税務Juricode の税理士向け retrieval。
+**関連**: FU-519 (消費税通達・同手法) / `business/tax-deepening-roadmap-2026-06-24.md` (深掘り順序) / 税務向け下流アプリの税理士向け retrieval。
 
 ---
 
