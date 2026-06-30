@@ -221,3 +221,52 @@ def test_amendment_marker_kansou_extracted(tmp_path: Path) -> None:
     assert rc == 0
     assert recs[0]["amendment_note"] == "（平30官総1-2により改正）"
     assert recs[0]["text"] == "住所の意義の本文。"
+
+
+def test_kyotsu_suffix_directive(tmp_path: Path) -> None:
+    """共通通達 (36・37共-1 など) を拾い、中点を "_" 正規化して共を保持する."""
+    mod = _import_parser()
+    root = tmp_path / "shotoku"
+    _write(
+        root / "05" / "11.htm",
+        _page(
+            "〔販売代金共通〕",
+            ("36・37共", "1", "（収入金額共通）", "事業を営む者の本文。"),
+            ("36・37共", "1の2", "（質屋営業）", "質屋営業の本文。"),
+        ),
+    )
+    rc, recs = _run(mod, root, tmp_path / "out")
+    assert rc == 0
+    assert [r["directive_number"] for r in recs] == ["36_37共-1", "36_37共-1の2"]
+    assert recs[0]["directive_id"] == "shotoku-kihon-tsutatsu-36_37共-1"
+
+
+def test_wave_dash_range_normalized_not_to_hyphen(tmp_path: Path) -> None:
+    """波ダッシュ条範囲 (23～35共-1) は "_" 正規化 (誤って "-" 化しレベルが崩れない)."""
+    mod = _import_parser()
+    root = tmp_path / "shotoku"
+    _write(
+        root / "04" / "10.htm",
+        _page(
+            "〔各種所得共通〕",
+            ("23～35共", "1", "（発明等の報償）", "業務上有益な発明の本文。"),
+        ),
+    )
+    rc, recs = _run(mod, root, tmp_path / "out")
+    assert rc == 0
+    # 波ダッシュは "_" へ (誤って "-" になると "23-35共-1" の 3 レベル化で形式ゲート違反)。
+    assert recs[0]["directive_number"] == "23_35共-1"
+    assert recs[0]["directive_id"] == "shotoku-kihon-tsutatsu-23_35共-1"
+
+
+def test_wave_dash_in_body_text_preserved(tmp_path: Path) -> None:
+    """本文中の波ダッシュ「1～3」は範囲表現として保持し "-" 化しない (本文非改変)."""
+    mod = _import_parser()
+    root = tmp_path / "shotoku"
+    _write(
+        root / "01" / "01.htm",
+        _page("〔居住者関係〕", ("2", "1", "（住所）", "第1号～第3号に掲げる本文。")),
+    )
+    rc, recs = _run(mod, root, tmp_path / "out")
+    assert rc == 0
+    assert "～" in recs[0]["text"], "本文の波ダッシュが失われた (グローバル正規化の誤適用)"
