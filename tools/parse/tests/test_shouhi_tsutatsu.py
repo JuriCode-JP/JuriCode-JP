@@ -173,17 +173,27 @@ def test_amendment_note_extracted_with_shouhi_marker() -> None:
 
 def test_circular_config_registry() -> None:
     mod = _import_parser()
-    assert set(mod.CIRCULAR_CONFIGS) == {"hojin", "shouhi"}
+    assert set(mod.CIRCULAR_CONFIGS) == {"hojin", "shouhi", "shotoku"}
     hojin = mod.CIRCULAR_CONFIGS["hojin"]
     shouhi = mod.CIRCULAR_CONFIGS["shouhi"]
     assert hojin.law_abbrev == "hojin-kihon-tsutatsu"
     assert hojin.amendment_markers == ("課法", "直法")
+    assert hojin.num_levels == 3  # 既定 (章-節-項)
     assert shouhi.law_abbrev == "shouhi-kihon-tsutatsu"
     assert shouhi.law_name_ja == "消費税法基本通達"
     assert shouhi.source_url_base == "https://www.nta.go.jp/law/tsutatsu/kihon/shohi"
     assert shouhi.amendment_markers == ("課消",)
+    assert shouhi.num_levels == 3
     assert shouhi.ref_map["法"] == "shouhi-zei-hou"
     assert shouhi.ref_map["令"] == "shouhi-zei-hou-shikkourei"
+    # 所得税基本通達は 2 レベル (条-番号) + 官総 を含む改正記号 (FU-523)。
+    shotoku = mod.CIRCULAR_CONFIGS["shotoku"]
+    assert shotoku.law_abbrev == "shotoku-kihon-tsutatsu"
+    assert shotoku.law_name_ja == "所得税法基本通達"
+    assert shotoku.source_url_base == "https://www.nta.go.jp/law/tsutatsu/kihon/shotoku"
+    assert shotoku.num_levels == 2
+    assert "官総" in shotoku.amendment_markers
+    assert shotoku.ref_map["法"] == "shotoku-zei-hou"
 
 
 def test_related_articles_use_config_refmap() -> None:

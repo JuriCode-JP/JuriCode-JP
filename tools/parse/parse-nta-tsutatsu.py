@@ -88,6 +88,10 @@ class CircularConfig:
     # (平成13年) の組織改編で「直法」→「課法」に改称したため旧章は "直法" を併用する。
     # tuple で複数記号を許し、抽出正規表現はこれらの alternation で組む。
     amendment_markers: tuple[str, ...] = ("課法",)
+    # 通達番号のレベル数。法人税/消費税は 3 レベル (章-節-項)、所得税基本通達は 2 レベル
+    # (条-番号 = "204-1")。番号検出正規表現と directive_id 形式ゲートをこの値で駆動する。
+    # 既定 3 で HOJIN/SHOUHI は移行前と完全一致 (byte 回帰で実証)。
+    num_levels: int = 3
 
 
 # 法人税基本通達 (既定・byte 回帰で固定。値は移行前の module 定数と完全一致)。
@@ -123,10 +127,28 @@ SHOUHI_CONFIG = CircularConfig(
     amendment_markers=("課消",),  # 消費税通達の改正注記記号 (例: 平28課消1-57)
 )
 
+# 所得税法基本通達。HOJIN/SHOUHI と違い番号は 2 レベル (条-番号 = "204-1")。NTA URL パスは
+# "shotoku"。改正記号は実測 8 値 + 官房総務課系 "官総"(×2)。条範囲の通達 (74・75-1 等) は
+# 番号先頭レベルに中点 "・"(U+30FB) を含み、取込時に "_" へ正規化する (74・75-1 -> 74_75-1)。
+SHOTOKU_CONFIG = CircularConfig(
+    law_name_ja="所得税法基本通達",
+    law_abbrev="shotoku-kihon-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kihon/shotoku",
+    ref_map={
+        "法": "shotoku-zei-hou",
+        "令": "shotoku-zei-hou-shikkourei",
+        "規": "shotoku-zei-hou-shikoukisoku",
+    },
+    corpus_unregistered=frozenset(),
+    amendment_markers=("課個", "直所", "直法", "直資", "課所", "課資", "課法", "課審", "官総"),
+    num_levels=2,
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
     "shouhi": SHOUHI_CONFIG,
+    "shotoku": SHOTOKU_CONFIG,
 }
 
 
@@ -260,19 +282,37 @@ def _extract_related_articles(text: str, config: CircularConfig) -> list[dict]:
 # HTML parsing
 # ---------------------------------------------------------------------------
 
-# Directive number = 3 levels (章-節-項), each level may carry "の" branches.
+# Directive number levels (章-節-項 = 3 / 条-番号 = 2)、各レベルは「の」枝番を持ち得る。
 # 法人税基本通達の「章の枝番」(第12章の2 = 12の2-1-1) では **章レベル**に「の」が付く。
 # 消費税通達・法人税 9-2 は項レベルにしか「の」が付かない (9-2-12の2) ため、レベル毎に
 # (?:の\d+)* を許す本パターンは旧パターンの上位互換 (既存コーパスの番号・キャプチャは
 # 不変 = byte 回帰で実証)。Full-width digits may appear; normalize before matching.
 _LEVEL = r"\d+(?:の\d+)*"
-_DIRECTIVE_NUM_RE = re.compile(rf"^({_LEVEL}-{_LEVEL}-{_LEVEL})\s*$")
+# 先頭レベルは条範囲 (所得税 74・75-1) を持ち得る。中点「・」(U+30FB) は全本文を変えない
+# よう **番号検出時だけ** 許し、record 生成前に取込側で "_" へ正規化する。HOJIN/SHOUHI の
+# 番号に「・」は無いため、本上位互換は非「・」入力で従来と同一キャプチャ (byte 回帰で実証)。
+_FIRST_LEVEL = rf"{_LEVEL}(?:・{_LEVEL})*"
 
-# 段落テキスト先頭の項番号 (split-strong 形式の検出用)。
-# NTA の消費税通達では番号が <strong>1</strong>－3－2 ... のように分割され、
-# strong だけでは番号全体にならない項がある (法人税通達は番号全体が strong 内)。
-# CASE A (番号全体が strong) が外れたときのみ本パターンで段落先頭から番号を拾う。
-_LEADING_DIRECTIVE_RE = re.compile(rf"^({_LEVEL}-{_LEVEL}-{_LEVEL})\s")
+
+def _directive_levels_re(config: CircularConfig) -> str:
+    """'{first}-{level}-...' を config.num_levels 個のレベルで組む (先頭は条範囲可)。"""
+    return "-".join([_FIRST_LEVEL] + [_LEVEL] * (config.num_levels - 1))
+
+
+def _build_directive_num_re(config: CircularConfig) -> re.Pattern:
+    """CASE A: 番号全体が <strong> 内 (法人税通達・一部の消費税通達)。末尾アンカー。"""
+    return re.compile(rf"^({_directive_levels_re(config)})\s*$")
+
+
+def _build_leading_directive_re(config: CircularConfig) -> re.Pattern:
+    """CASE B/C: 段落テキスト先頭の番号 (split-strong / strong 無し平文)。
+
+    NTA の消費税・所得税通達では番号が <strong>1</strong>－3－2 ... や <strong>204</strong>-1
+    のように分割され、strong だけでは番号全体にならない。CASE A が外れたときのみ本パターンで
+    段落先頭から番号を拾う。
+    """
+    return re.compile(rf"^({_directive_levels_re(config)})\s")
+
 
 # 多章モードで cache root 直下から「章ディレクトリ」だけを拾うフィルタ。
 # 章は 2 桁ゼロ詰め (01..21)。法人税基本通達は章の枝番ディレクトリ (12_2 = 第12章の2 ..
@@ -282,17 +322,23 @@ _LEADING_DIRECTIVE_RE = re.compile(rf"^({_LEVEL}-{_LEVEL}-{_LEVEL})\s")
 _CHAPTER_DIR_RE = re.compile(r"\d{2}(?:_\d+|a)?")
 
 # directive_id の命名規則 (ユニークさとは別の形式ゲート・査読項11)。
-# {law_abbrev}-{章}-{節}-{項} の形だけを許し (各レベルに「の」枝番可)、章跨ぎ取込で
-# 番号抽出が崩れた record (節欠落・全角混入等) を fail-loud で止める。
-_DIRECTIVE_ID_TAIL_RE = re.compile(rf"{_LEVEL}-{_LEVEL}-{_LEVEL}")
+# {law_abbrev}-{レベル}-... の形だけを許し (各レベルに「の」枝番可、先頭は条範囲 "_" 連結可)、
+# 章跨ぎ取込で番号抽出が崩れた record (レベル欠落・全角混入等) を fail-loud で止める。
+# 検証対象は正規化済 id ゆえ条範囲は "・" でなく "_" (74_75-1)。
+_ID_FIRST_LEVEL = rf"{_LEVEL}(?:_{_LEVEL})*"
+
+
+def _build_directive_id_tail_re(config: CircularConfig) -> re.Pattern:
+    """config.num_levels に応じた directive_id 末尾 (law_abbrev 除去後) の形式パターン。"""
+    return re.compile("-".join([_ID_FIRST_LEVEL] + [_LEVEL] * (config.num_levels - 1)))
 
 
 def _directive_id_ok(directive_id: str, config: CircularConfig) -> bool:
-    """True if directive_id == '{law_abbrev}-{N-N-N(のN)*}' (査読項11)."""
+    """True if directive_id == '{law_abbrev}-{レベル-...(のN)*}' (査読項11・num_levels 駆動)."""
     prefix = f"{config.law_abbrev}-"
     if not directive_id.startswith(prefix):
         return False
-    return _DIRECTIVE_ID_TAIL_RE.fullmatch(directive_id[len(prefix) :]) is not None
+    return _build_directive_id_tail_re(config).fullmatch(directive_id[len(prefix) :]) is not None
 
 
 def _detect_charset(raw: bytes) -> str:
@@ -402,6 +448,11 @@ def _extract_directive_items(
     current_body_parts: list[str] = []
     current_amendment: str | None = None
 
+    # 番号検出正規表現は config.num_levels 駆動 (3=章節項 / 2=条番号)。先頭レベルは条範囲
+    # (74・75) を許す。HOJIN/SHOUHI は非「・」入力ゆえ従来パターンと同一キャプチャ (byte 不変)。
+    case_a_re = _build_directive_num_re(config)
+    case_b_re = _build_leading_directive_re(config)
+
     def _flush(num: str | None, title: str | None, parts: list[str], amend: str | None) -> None:
         if num is None:
             return
@@ -463,7 +514,7 @@ def _extract_directive_items(
         strong = tag.find("strong")
         if strong:
             raw_num_text = _normalize_text(strong.get_text())
-            num_match = _DIRECTIVE_NUM_RE.match(raw_num_text.strip())
+            num_match = case_a_re.match(raw_num_text.strip())
             # ガード: 番号が段落の **先頭** にあるときのみ項開始とみなす。malformed HTML で
             # body 段落が後続通達 <p> を吸い込むと tag.find("strong") が入れ子の番号
             # (例 9-3-6) を拾い、本文段落を誤って項開始扱いして見出し脱落+本文混線を招く
@@ -476,7 +527,8 @@ def _extract_directive_items(
                 # Start new item: この番号の直前見出しを確定束縛 (title-lag 修正)。
                 # 見出しは「直後の1番号」専用。束縛後 None に戻すことで、自前見出しの
                 # ない「削除」通達が前項の見出しを継承しない (第2エッジ・タイトルなし)。
-                current_num = num_match.group(1)
+                # 条範囲の中点「・」は番号内だけ "_" へ正規化 (74・75-1 -> 74_75-1)。
+                current_num = num_match.group(1).replace("・", "_")
                 current_item_title = current_title
                 current_title = None
                 current_body_parts = []
@@ -497,10 +549,11 @@ def _extract_directive_items(
         # 番号を含まない段落 (indent2 の「(1)…」等) は先頭が番号にならず非該当のため、
         # 本文段落を誤って項開始扱いしない (既存コーパスは byte 不変 = 回帰ゲートで実証)。
         plain = _normalize_text(_text_excluding_nested_blocks(tag)).strip()
-        lead_match = _LEADING_DIRECTIVE_RE.match(plain)
+        lead_match = case_b_re.match(plain)
         if lead_match:
             _flush(current_num, current_item_title, current_body_parts, current_amendment)
-            current_num = lead_match.group(1)
+            # 条範囲の中点「・」は番号内だけ "_" へ正規化 (74・75-1 -> 74_75-1)。
+            current_num = lead_match.group(1).replace("・", "_")
             current_item_title = current_title
             current_title = None  # consume-once (第2エッジ: 削除通達はタイトルなし)
             current_body_parts = []
@@ -660,6 +713,7 @@ def main(argv: list[str] | None = None) -> int:
 
     all_items: list[dict] = []
     seen_ids: set[str] = set()
+    seen_text: dict[str, str] = {}  # directive_id -> 本文 (重複 dedup の本文一致判定用)
     errors: list[str] = []
 
     for htm_path in htm_files:
@@ -685,15 +739,26 @@ def main(argv: list[str] | None = None) -> int:
                 )
                 return 1
             if did in seen_ids:
-                # fail-loud (Bug36): 「目」階層・枝番で directive_id が衝突すると
-                # サイレント上書き/欠落になる。重複は黙って捨てず即エラーで止める。
+                # NTA は同一通達を隣接セクション両ページに重複掲載する (例 所得税 62-1/62-2 が
+                # 第60条関係 12/03.htm と 第62条関係 12/04.htm に本文一致で両載)。本文が完全一致
+                # なら安全に dedup (後勝ちでなく先勝ちで黙ってスキップ)。本文が **異なる** 同番号は
+                # 「目」階層・枝番のサイレント上書き (Bug36) ゆえ従来どおり fail-loud で止める。
+                if item["text"] == seen_text[did]:
+                    if args.verbose:
+                        print(
+                            f"  dedup: identical duplicate {did!r} from {htm_path.name} "
+                            "(same body, cross-section reprint)",
+                            file=sys.stderr,
+                        )
+                    continue
                 print(
-                    f"ERROR: duplicate directive_id {did!r} from {htm_path.name} "
-                    "(directive_id must be unique across the circular)",
+                    f"ERROR: duplicate directive_id {did!r} from {htm_path.name} with DIFFERENT "
+                    "body (directive_id must be unique across the circular)",
                     file=sys.stderr,
                 )
                 return 1
             seen_ids.add(did)
+            seen_text[did] = item["text"]
             all_items.append(item)
 
     if not all_items:
@@ -703,12 +768,18 @@ def main(argv: list[str] | None = None) -> int:
     # Sort by directive_number for deterministic output
     # e.g. "9-2-9" < "9-2-9の2" < "9-2-10" < "9-2-12の2"
     def _sort_key(item: dict) -> tuple:
-        num = item["directive_number"]  # e.g. "9-2-12の2の3"
+        num = item["directive_number"]  # e.g. "9-2-12の2の3" / 所得税 "74_75-1"
         # Split on hyphen first, then on "の" within each part
         parts: list[int] = []
         for segment in num.split("-"):
             for sub in re.split(r"の", segment):
-                parts.append(int(sub) if sub.isdigit() else 0)
+                if sub.isdigit():
+                    parts.append(int(sub))
+                else:
+                    # 条範囲 "74_75" 等は先頭の条番号で代表させ物理順を保つ (74_75 -> 74)。
+                    # HOJIN/SHOUHI は の-分割後すべて純数字ゆえこの枝に来ない (byte 不変)。
+                    m = re.match(r"\d+", sub)
+                    parts.append(int(m.group()) if m else 0)
         # Pad to fixed length for comparison
         while len(parts) < 6:
             parts.append(0)
