@@ -1632,6 +1632,23 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [x] FU-523: 所得税法基本通達 取込 — ✅ 完了 2026-06-30 (parser PR #63/#64 + data PR #65, main 57ca867c)
+
+**経緯**: FU-521 残課題の「所得税基本通達 (順序2)」。所得税通達は法人税/消費税と番号文法が異なり (3 レベル 章-節-項 でなく **2 レベル 条-番号** = `204-1`)、既存 parser では取り込めなかった。
+
+**成果**: NTA を完全列挙 (マスター索引依存を廃止し章ごと 404 プローブで列挙) → **全40章 / 134 セクション**を確定。**コーパス完成: 1,227 DirectiveChunk** (directive_id 全件ユニーク・全体数値順・形式ゲート 0 違反)。法人税/消費税 sentinel は全工程 byte 不変。
+- **parser 機能拡張 (データ生成と分離した別 PR)**:
+  - **#63**: `CircularConfig.num_levels` (既定 3 / 所得税 2) で番号検出 (CASE-A/B) と directive_id 形式ゲートを駆動化。split-strong CASE-B が 2 レベル番号 `204-1` を検出。条範囲の中点「・」(`74・75-1`) を番号内のみ `_` 正規化 (`74_75-1`・本文非改変)。隣接セクション両載の本文一致重複 (`62-1`/`62-2`) を dedup (本文相違の同番号は従来どおり fail-loud)。`SHOTOKU_CONFIG` 登録 (改正記号に官房総務課系「官総」を追加)。
+  - **#64**: 複数条にまたがる **共通通達 (「共」接尾**・`36_37共-1` / `181_223共-1`) と波ダッシュ範囲に対応。波ダッシュはグローバル正規化せず番号内のみ `_` 化 (本文非改変・レベル区切り衝突回避)。**0-directive セクションの実査読で 79 件の silent content loss を発見・回復 (1,148→1,227)**。残る 0-directive は 2 件のみ (制定について・附則 = 正当に非通達)。
+- **データ (PR #65)**: corpus fixture (1,227) + gate テスト `test_shotoku_corpus.py` (件数 1,227 / directive_id ユニーク / 全体数値ソート / 生範囲記号ゼロ / 中点範囲 20・共通通達 79・`_` 計 99 / `62-1`/`62-2` dedup / 134 セクション / 実 cache からの byte 再現)。CI 全 9 緑。`data/v0.2`・schema 非接触・dense 再embed なし・NTA HTML cp932 維持。committed = corpus fixture (raw HTML cache・provenance は gitignored)。
+- **規律所見**: fixture の byte 一致は *決定性* を示すが *完全性* は示さない — 0-directive セクションの中身を実査読して初めて共通通達の欠落が露見した (P0 計数 1,148 も同根で過少だった)。
+
+**残課題**: 相続税法・財産評価基本通達 (順序3) / タックスアンサー拡充 (順序4) / 租税特別措置法 (順序5・要独立計画書)。
+
+**関連**: FU-521 (法人税通達・同手法) / FU-519 (消費税通達) / `business/tax-deepening-roadmap-2026-06-24.md` (深掘り順序)。
+
+---
+
 ### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
 **経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。
