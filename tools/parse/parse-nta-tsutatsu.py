@@ -177,10 +177,19 @@ DIRECTIVE_KEY_ORDER = [
 # Text normalization helpers (R7, R10)
 # ---------------------------------------------------------------------------
 
-# All horizontal bar variants -> ASCII hyphen
+# All horizontal bar variants -> ASCII hyphen.
+# Wave dashes (U+301C / U+FF5E / U+007E) are intentionally NOT normalized here.
+# A wave dash in body text is kept as-is (no body mutation), and turning the range
+# mark of an article-range number into "-" would collide with the level separator
+# "-" and mis-level it. Wave dashes inside a number are normalized to "_" after the
+# number is matched, via _RANGE_SEP_RE (same approach as the middle dot).
 _BAR_RE = re.compile(r"[\-\uff0d\u2010\u30fc\u2212\u2014\u2015]")
 # Non-breaking space / full-width space -> regular space
 _NBSP_RE = re.compile("[\u00a0\u3000 ]")
+# Article-range separators (middle dot U+30FB / wave dash U+301C, U+FF5E, U+007E).
+# Kept inside the level while the number is matched, then normalized to '_' before
+# the record is built (74<dot>75-1 -> 74_75-1, 23<wave>35-kyo-1 -> 23_35-kyo-1).
+_RANGE_SEP_RE = re.compile(r"[\u30fb\u301c\uff5e~]")
 
 
 def _normalize_bars(s: str) -> str:
@@ -286,12 +295,14 @@ def _extract_related_articles(text: str, config: CircularConfig) -> list[dict]:
 # 法人税基本通達の「章の枝番」(第12章の2 = 12の2-1-1) では **章レベル**に「の」が付く。
 # 消費税通達・法人税 9-2 は項レベルにしか「の」が付かない (9-2-12の2) ため、レベル毎に
 # (?:の\d+)* を許す本パターンは旧パターンの上位互換 (既存コーパスの番号・キャプチャは
-# 不変 = byte 回帰で実証)。Full-width digits may appear; normalize before matching.
-_LEVEL = r"\d+(?:の\d+)*"
+# Full-width digits may appear; normalize before matching.
+# 所得税通達の共接尾 (36・37共-1 など) に対応: 末尾に (?:共)? を許す。
+# HOJIN/SHOUHI は「共」を持たないため、本上位互換は非「共」入力で従来と同一 (byte 不変)。
+_LEVEL = r"\d+(?:の\d+)*(?:共)?"
 # 先頭レベルは条範囲 (所得税 74・75-1) を持ち得る。中点「・」(U+30FB) は全本文を変えない
 # よう **番号検出時だけ** 許し、record 生成前に取込側で "_" へ正規化する。HOJIN/SHOUHI の
 # 番号に「・」は無いため、本上位互換は非「・」入力で従来と同一キャプチャ (byte 回帰で実証)。
-_FIRST_LEVEL = rf"{_LEVEL}(?:・{_LEVEL})*"
+_FIRST_LEVEL = rf"{_LEVEL}(?:[・〜～~]{_LEVEL})*"
 
 
 def _directive_levels_re(config: CircularConfig) -> str:
@@ -527,8 +538,8 @@ def _extract_directive_items(
                 # Start new item: この番号の直前見出しを確定束縛 (title-lag 修正)。
                 # 見出しは「直後の1番号」専用。束縛後 None に戻すことで、自前見出しの
                 # ない「削除」通達が前項の見出しを継承しない (第2エッジ・タイトルなし)。
-                # 条範囲の中点「・」は番号内だけ "_" へ正規化 (74・75-1 -> 74_75-1)。
-                current_num = num_match.group(1).replace("・", "_")
+                # 条範囲の区切り (中点・/波ダッシュ) は番号内だけ "_" へ正規化。
+                current_num = _RANGE_SEP_RE.sub("_", num_match.group(1))
                 current_item_title = current_title
                 current_title = None
                 current_body_parts = []
@@ -552,8 +563,8 @@ def _extract_directive_items(
         lead_match = case_b_re.match(plain)
         if lead_match:
             _flush(current_num, current_item_title, current_body_parts, current_amendment)
-            # 条範囲の中点「・」は番号内だけ "_" へ正規化 (74・75-1 -> 74_75-1)。
-            current_num = lead_match.group(1).replace("・", "_")
+            # 条範囲の区切り (中点・/波ダッシュ) は番号内だけ "_" へ正規化。
+            current_num = _RANGE_SEP_RE.sub("_", lead_match.group(1))
             current_item_title = current_title
             current_title = None  # consume-once (第2エッジ: 削除通達はタイトルなし)
             current_body_parts = []
