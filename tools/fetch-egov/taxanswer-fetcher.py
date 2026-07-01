@@ -106,6 +106,16 @@ CATEGORIES: dict[str, Category] = {
         path_segment="gensen",
         cache_dir=REPO_ROOT / "cache" / "taxanswer" / "gensen",
     ),
+    # 2026-07-01 FU-530: 所得税タックスアンサー (1000-3000 番台。最大ボリューム)。path
+    # '/taxanswer/shotoku/'。参照先は所得税バーティカル (所法/所令/所規=shotoku-* + 所基通=
+    # shotoku-kihon-tsutatsu[FU-523]。FU-529 で活性化済) + 復興特別所得税・措置法等 (UNREG)。
+    # hojin/sozoku/shohi/gensen と逐語同型 (discover/ソート/リダイレクト正規化/skip 共通)。
+    "shotoku": Category(
+        key="shotoku",
+        label="所得税タックスアンサー",
+        path_segment="shotoku",
+        cache_dir=REPO_ROOT / "cache" / "taxanswer" / "shotoku",
+    ),
 }
 
 

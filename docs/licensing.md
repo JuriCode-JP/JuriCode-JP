@@ -43,7 +43,7 @@ This page consolidates the **source** and **licensing terms** of each dataset Ju
 - 国税庁サイトは**政府標準利用規約準拠（CC BY 4.0 互換・PDL1.0 同等）**。出典明示で**複製・翻案・再配布（商用含む）可**。
 - **出典表記例**: 「出典：国税庁タックスアンサー」。IR では `license: cc-by-jp-nta` / `attribution: 国税庁タックスアンサー` で機械可読に保持。
 - タックスアンサーは Q&A 解説文であり e-Gov 法令のような本文非改変 round-trip の対象ではない。`source_url` に当該コードの nta.go.jp URL を必須記載。content 画像（計算表・フローチャート）は**改変せず絶対 URL で参照**（本文に `![alt](URL)` として引用）。
-- glossary は法令表（`law_id` 前提）ゆえ taxanswer 略称（`hojin-taxanswer`（法人税）・`sozoku-taxanswer`（相続・贈与、FU-527）・`shohi-taxanswer`（消費税、FU-528）・`gensen-taxanswer`（源泉所得税、FU-529）等）は非該当。data-source として本ページで記録する。
+- glossary は法令表（`law_id` 前提）ゆえ taxanswer 略称（`hojin-taxanswer`（法人税）・`sozoku-taxanswer`（相続・贈与、FU-527）・`shohi-taxanswer`（消費税、FU-528）・`gensen-taxanswer`（源泉所得税、FU-529）・`shotoku-taxanswer`（所得税、FU-530）等）は非該当。data-source として本ページで記録する。
 
 ### 4. 判例本文 — courts.go.jp（著作権法13条）
 - **著作権法13条3号**: 裁判所の判決・決定・命令は著作権の目的とならない＝パブリックドメイン。出典明示で引用・転載可。
