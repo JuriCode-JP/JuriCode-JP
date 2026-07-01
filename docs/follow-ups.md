@@ -1752,6 +1752,24 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [x] FU-530: タックスアンサー拡充 (所得税・1000番台最大) — ✅ 完了 2026-07-01 (PR #80, main 423f5604)
+
+**経緯**: 順序4 横展開5本目 = 所得税 (`/taxanswer/shotoku/`)。所-prefix は FU-529 で活性化済ゆえ**真の config-light・再ロックなし**（fetcher に Category 追加のみ・parser の所-prefix 非変更）。1000番台は**最大ボリューム 212 コード・枝番 6**。
+
+**成果**:
+- **所得税タックスアンサー 212 コード**を hermetic CI ガード付き corpus 化。所法/所令/所規=shotoku-zei-hou系・所基通=shotoku-kihon-tsutatsu(FU-523)へリアルリンク＝所得税バーティカル本体。config-light 横展開で taxanswer **5 カテゴリ (法人/相続贈与/消費/源泉/所得税) CI ガード済**。
+- **「additive」の額面を実コード検証で 2 点精緻化**（本 FU の実質価値）:
+  1. **中黒形通達の `_NOTICE_RE` 根因修正**（平12・6課… 等の中黒[・]形個別通達）。既存4カテゴリに **0 件を preflight 実測 → byte 不変を担保**（症状 guard でなく根因修正）。
+  2. **グローバル UNREG セットの衝突回避**: `耐令`/`地法`/租税条約 等を素朴に UNREG 登録すると**既存 locked baseline を変える**ため意図的に非登録（shotoku では継承で既に unlinked）。教訓: **新 prefix は全キャッシュに preflight してから global セットに追加**（グローバルマップは全カテゴリに効く・memory 記録）。
+- **査読5制約全採用**: 所-prefix 保護 / 越境 probe→UNREG / shotoku 固有 H2 サーベイ / テスト命名衝突回避 (`test_shotoku_taxanswer_corpus.py`) / 既存4カテゴリ byte 不変。
+- **品質ゲート**: 越境偽リンク 0・CI 全9 green (pytest 677)・GitHub CI 3.11/3.12 pass。
+
+**残課題**: 順序4 は概ね消化 (残＝譲渡[3000]・印紙他) / 租税特別措置法 (順序5・措法系 prefix は UNREG 予約済・要独立計画書)。
+
+**関連**: FU-529 (源泉 taxanswer・所-活性化) / FU-523 (所得税通達) / `business/fu-530-execution-prompt-FINAL-2026-07-01.md`。
+
+---
+
 ### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
 **経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。
