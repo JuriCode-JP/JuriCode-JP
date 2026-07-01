@@ -1649,6 +1649,40 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [x] FU-524: 相続税法基本通達 取込 (Phase 1) — ✅ 完了 2026-07-01 (PR #68, main 78ef4400)
+
+**経緯**: FU-523 残課題「相続税法・財産評価基本通達 (順序3)」の相続税法基本通達分。所得税と同じ 2 レベル (条-番号) 番号文法。
+
+**成果**: `SOUZOKU_CONFIG` を `parse-nta-tsutatsu.py` に追加 (`--circular souzoku`)。**445 DirectiveChunk** (33 source file・附則のみ通達ゼロ) を byte 再現可で取込。CI 全 9 緑・pytest 559 passed (souzoku gate + hojin/shohi/shotoku byte 回帰)。`data/v0.2`・schema 非接触。
+- **一次資料確認で修正**: `source_url_base` は `.../kihon/sisan/sozoku2` (`souzoku`/`sozoku` は 404。消費税 shohi≠shouhi と同型の非予測パス)。`num_levels=2`・`corpus_unregistered={sochi-hou, chika-zei-hou}` (相続税法本体/令/規・通則法・所得税法は corpus 実在ゆえリンク有効化)。
+- **参照接頭辞の config 駆動化**: 多字キー (措置法/通則法/所得税法/地価税法) が既存の単字前提正規表現で dead だったため `_build_law_ref_re` を config 駆動化。「措置法第N条」の相続税法への**偽リンク 21 件を sochi-hou に正解決**。既存 3 通達は byte 不変で実証。
+- **規律所見**: config にキーを足しても消費側コードが参照しなければ dead。CLI flag 名・config キーの liveness は実コードで裏取りしてから実装プロンプト化する ([[feedback_prompt_cli_and_config_key_liveness]])。
+
+**残課題 (別スプリント)**: 
+- **財産評価基本通達** → **✅ FU-525 で完了 (PR #70, main 5e1216cf)**。下記 FU-525 エントリ参照。
+- タックスアンサー拡充 (順序4) / 租税特別措置法 (順序5・要独立計画書)。
+- 別件 tech debt: `test_shotoku_corpus.py` (FU-523) が `ci.yml`/testpaths 未配線だった → **✅ CI 配線 DONE (PR #69・main synced)**。ci.yml と pyproject testpaths の両方に追加、CI 3.11/3.12 green・full pytest 547→559 (shotoku 12件)。これで税務通達4本 (消費税/法人税/所得税/相続税) 全て CI ガード。
+
+**関連**: FU-523 (所得税通達・同 2 レベル手法) / FU-521 (法人税通達) / FU-519 (消費税通達)。
+
+---
+
+### [x] FU-525: 財産評価基本通達 取込 (パーサー拡張) — ✅ 完了 2026-07-01 (PR #70, main 5e1216cf)
+
+**経緯**: FU-524 で分離・据置とした「財産評価基本通達」。番号体系が現行4通達と別物 (単発通し番号 1..215 + **任意**のダッシュ枝番) で、`num_levels` モデルではダッシュ必須ゆえ裸番号が約 292 件 silent drop していた。
+
+**成果**: 案A = `CircularConfig.num_style="flat_branch"` を新設し、番号正規表現を「先頭 + 任意の単一ダッシュ枝番」に分岐 (既存4通達は default `hierarchical` で byte 不変)。本文の全角 `－`(U+FF0D) を正規化。`HYOKA_CONFIG` (`--circular hyoka`, source_url_base `.../sisan/hyoka_new`, law_abbrev `zaisan-hyoka-kihon-tsutatsu`) 追加。
+- **baseline (source-locked・Cowork が NTA 目次 一次資料で独立突合)**: 総数 **313** / base番号 **1..215 完全欠落ゼロ** / 削除 **54** (base 49 + 枝番 5) / source file 35本 (37htm 中 附表 `02/07`・別表 `08/09` を 0 件除外) / dup 0・全体ソート済・偽リンク 0。参照リンク: 相続税法 18・地価税法 11(未収録 warn)・法人税法 5・所得税法 1。Cowork 突合で 1..215 全在 + 削除 54 が一次資料と完全一致。
+- **fetcher は既存**: `tsutatsu-fetcher.py CIRCULARS["hyoka"]` (leaf 37) を流用。削除エントリは既存踏襲で emit (`text:"削除"`+amendment_note)。附表/別表/参考は非 directive 除外。
+- **CI**: `test_hyoka_corpus.py` を hermetic 新設し ci.yml・pyproject testpaths 両所に配線。CI 全 9 緑。既存4通達 byte 回帰維持。
+- **査読 2 波を実 HTML/実コードで裁定** (Cowork): 却下 = fragment 404/桁数固定/schema 100%drift/0-chunk 自爆 (すべて実コードで反証)、採用 = 全角 `－` 正規化・附表境界・削除ストリーム境界・key/cache/abbrev 束縛定義。
+
+**残課題**: タックスアンサー拡充 (順序4) / 租税特別措置法 (順序5・要独立計画書)。
+
+**関連**: FU-524 (相続税通達) / FU-523 (所得税通達) / `business/fu-525-hyoka-parser-extension-plan-2026-07-01.md` (調査+設計+査読裁定) / `business/fu-525-hyoka-execution-briefing-2026-07-01.md`。
+
+---
+
 ### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
 **経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。

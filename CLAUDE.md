@@ -436,9 +436,10 @@ commit 前に 4 観点で自己レビュー: (1) SOLID リファクタリング 
 
 ### 11.4 計画書作成チェックリスト (内部、gitignored)
 
-- **`business/planning-checklist.md`** — 大きめ sprint (sweep / migration / refactor / 新機能) の計画書を書く前に必ず開いて、過去の planning failure 由来の learnings を全項目通過させてから着手する内部チェックリスト. 4 つの主要項目を収録 (call graph 追跡 / post-merge dry-run / MERGE FIRST 明示 / 主張を控えめに).
+- **`business/planning-checklist.md`** — 大きめ sprint (sweep / migration / refactor / 新機能) の計画書を書く前に必ず開いて、過去の planning failure 由来の learnings を全項目通過させてから着手する内部チェックリスト. 6 つのセクション収録 (call graph 追跡 / post-merge dry-run / MERGE FIRST 明示 / 主張を控えめに / CLI smoke test / 計算・集計・設計チェック).
 - 新たな learning が見つかったら同ファイル末尾の §99 履歴に timestamp 付きで追記し、次以降の sprint で活かす. 累積知識のリビング・ドキュメント.
-- 2026-05-26 FU-415 §1.8 overstatement 由来. 詳細は `business/fu-415-followup-fixes-plan-2026-05-26.md` §6 + PR #2 (commit `dcc3b67f`) 参照.
+- **計画書に §98「計画書作成前チェックリスト通過記録」を必須化** (2026-07-01 新設): 計画書の先頭（§0 直後）に §98 セクションを挿入し、planning-checklist.md §1-§6 の該当項目に ✓ を入れ、「この計画書のどの部分でそのルールが効いたか」を明記する。テンプレートは `business/planning-template-checklist-section.md` を参照。これにより「通したはず」が「本当に通した」に変わり、commit で追跡可能になる。
+- 背景: 2026-05-26 FU-415 §1.8 overstatement 由来. 詳細は `business/fu-415-followup-fixes-plan-2026-05-26.md` §6 + PR #2 (commit `dcc3b67f`) 参照. 2026-07-01 FU-524 検証で 5 つの正規表現バグが検出された際、「ルール存在 ≠ ルール実行の客観的証拠」という問題から §98 新設.
 
 ---
 
