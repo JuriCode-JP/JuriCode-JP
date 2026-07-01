@@ -1702,6 +1702,23 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [x] FU-527: タックスアンサー拡充 (相続・贈与) + 法令参照の多法令化 — ✅ 完了 2026-07-01 (PR #74)
+
+**経緯**: 順序4 横展開2本目 = 相続贈与 (`/taxanswer/sozoku/`)。相続税法+相続税通達(FU-524)+財産評価通達(FU-525) にリンクして「相続バーティカル」を仕上げる。実コード調査で **parser の法令参照解決が法人税ハードコード** (`LAW_PREFIX_MAP` 法法/法基通のみ・`_load_tsutatsu_corpus` hojin通達 hardcode flat set) と判明 → **本質は多法令化リファクタ** (以降カテゴリは純 config 化)。
+
+**成果**:
+- **多法令化**: `LAW_PREFIX_MAP` に相続 prefix (相法→souzoku-zei-hou / 相令 / 相規 / 相基通→souzoku-kihon-tsutatsu / 評基通→zaisan-hyoka-kihon-tsutatsu) + `_TSUTATSU_PREFIXES` 集合化 + `_load_tsutatsu_corpus` を **nested `{law_abbrev: 番号集合}`** 化 (相基通16-1 と 評基通16-1 の衝突防止) + directive_id の law_abbrev 化。probe 駆動で全 prefix 列挙・越境参照(措/所/通/民/郵政)を unregistered 記録・個別通達番号(直評/課評)を notice 判定・silent-drop 根絶。
+- **baseline (source-locked・Cowork が実ページ+リンク突合)**: sozoku taxanswer **52 chunks** / dup 0 / 枝番 0 / articles 154 (相法129/相令18/相規7) / **directives 57 (相基通46+評基通11=相続バーティアル完成)** / qa 133 / unlinked 161 (越境記録) / version_date None 0 / 欠落 0。
+- **多法令化が旧 hojin ロック fixture の 3 潜在バグを遡及発見 → 佐藤承認で hojin 再ロック**: (1) 5100 の `通法10`(国税通則法)を法人税へ誤リンク (EXPECTED_ARTICLES 222→221) (2) 越境参照 24 件 silent-drop を unlinked に記録 (UNLINKED 361→399) (3) 5927-3 の段落二重取得(mega-p) de-dup (BODY_MAX 8338→6418)。Cowork 一次突合で 12段落x2 重複・通法10=国税通則法・欠落ゼロを実証。
+- **設計原則**: 各 taxanswer カテゴリは自分の縦の法令を link・越境は記録して unlinked (hojin 通法 = sozoku 措/所/通/民 と一貫)。
+- **CI**: hermetic gate test 新設・ci.yml + pyproject 両所配線・glossary/licensing 更新。CI 全9 green (3.11/3.12)・pytest 614 passed・偽リンク 0・silent-drop 0。
+
+**残課題**: 順序4 の残カテゴリ (所得税/源泉/消費税 タックスアンサー = 多法令化基盤で prefix 追加の純 config 化) / 租税特別措置法 (順序5・要独立計画書)。
+
+**関連**: FU-526 (法人税 taxanswer) / FU-524 (相続税通達) / FU-525 (財産評価通達) / `business/fu-527-taxanswer-sozoku-plan-2026-07-01.md` / `business/fu-527-taxanswer-sozoku-execution-briefing-2026-07-01.md`。
+
+---
+
 ### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
 **経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。
