@@ -116,6 +116,17 @@ CATEGORIES: dict[str, Category] = {
         path_segment="shotoku",
         cache_dir=REPO_ROOT / "cache" / "taxanswer" / "shotoku",
     ),
+    # 2026-07-02 FU-531: 譲渡所得タックスアンサー (3000 番台)。path '/taxanswer/joto/'。
+    # 参照先は所得税バーティカル (所法/所規=shotoku-* + 所基通=shotoku-kihon-tsutatsu[FU-523]。
+    # FU-529/530 で活性化済) + 租税特別措置法系 (措法/措令/措通=UNREG 予約済・順序5 で link 化予定)
+    # + 復興特別所得税等 (UNREG)。hojin/sozoku/shohi/gensen/shotoku と逐語同型
+    # (discover/ソート/リダイレクト正規化/skip 共通)。
+    "joto": Category(
+        key="joto",
+        label="譲渡所得タックスアンサー",
+        path_segment="joto",
+        cache_dir=REPO_ROOT / "cache" / "taxanswer" / "joto",
+    ),
 }
 
 
