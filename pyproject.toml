@@ -125,6 +125,12 @@ testpaths = [
     # mega-<p> 異形ページ trailer 非漏洩回帰含む)。taxanswer parser 多法令化の証跡。
     # CI-safe (cache テストは skipif)。
     "tools/parse/tests/test_sozoku_taxanswer_corpus.py",
+    # 2026-07-01 FU-528: 消費税タックスアンサー corpus fixture ゲート (114 件・枝番 0・消費税
+    # バーティカルの通達リンク [消基通 54 -> FU-519 通達] を pin・法人税 cross-vertical [法法/
+    # 法令/法規 4]・越境偽リンクゼロ [輸徴法/旧消法/告示 は unlinked]・全角数字正規化 pin)。
+    # config-light (FU-527 多法令化基盤 + 消費税 prefix config + 告示 guard + 全角正規化)。
+    # CI-safe (cache テストは skipif)。
+    "tools/parse/tests/test_shohi_taxanswer_corpus.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
     # 2026-07-01 FU-524: NTA 通達 fetcher の目次リンク分類 (extract_links) hermetic test。

@@ -88,6 +88,15 @@ CATEGORIES: dict[str, Category] = {
         path_segment="sozoku",
         cache_dir=REPO_ROOT / "cache" / "taxanswer" / "sozoku",
     ),
+    # 2026-07-01 FU-528: 消費税タックスアンサー (6000 番台)。path '/taxanswer/shohi/'
+    # (消費税通達 FU-519 と同じ shohi セグメント。参照先 abbrev は u ありの shouhi-* 系だが
+    # taxanswer 側 abbrev は path 準拠で shohi-taxanswer)。hojin/sozoku と逐語同型。
+    "shohi": Category(
+        key="shohi",
+        label="消費税タックスアンサー",
+        path_segment="shohi",
+        cache_dir=REPO_ROOT / "cache" / "taxanswer" / "shohi",
+    ),
 }
 
 

@@ -75,12 +75,22 @@ LAW_PREFIX_MAP: dict[str, tuple[str, str]] = {
     "相規": ("souzoku-zei-hou-shikoukisoku", "souzoku-zei-hou-shikoukisoku-art"),  # 相規
     "相基通": ("souzoku-kihon-tsutatsu", "souzoku-kihon-tsutatsu"),  # 相基通
     "評基通": ("zaisan-hyoka-kihon-tsutatsu", "zaisan-hyoka-kihon-tsutatsu"),  # 評基通
+    # --- FU-528 消費税 (seed。全 prefix は fetch 後 probe で確定) ---
+    # Why: 参照先 corpus abbrev は u ありの shouhi-* (消費税通達 FU-519 の filename/law_abbrev
+    # 実測 = shouhi-kihon-tsutatsu)。taxanswer 側 abbrev shohi-taxanswer(u なし) との非対称を
+    # 厳守しキーを完全一致させる (誤って shohi-* と書くと通達ロード全滅)。
+    "消法": ("shouhi-zei-hou", "shouhi-zei-hou-art"),  # 消法
+    "消令": ("shouhi-zei-hou-shikkourei", "shouhi-zei-hou-shikkourei-art"),  # 消令
+    "消規": ("shouhi-zei-hou-shikoukisoku", "shouhi-zei-hou-shikoukisoku-art"),  # 消規
+    "消基通": ("shouhi-kihon-tsutatsu", "shouhi-kihon-tsutatsu"),  # 消基通
 }
 
 # tsutatsu (基本通達) 系の prefix。N-N-N 形式の通達番号として処理し、対応法令の通達番号
 # 集合に対して照合する。Why: 旧 `prefix == "法基通"` ハードコードでは 相基通/評基通 が
 # article 参照に誤分類された (FU-527)。
-_TSUTATSU_PREFIXES = frozenset({"法基通", "相基通", "評基通"})  # 法基通 相基通 評基通
+_TSUTATSU_PREFIXES = frozenset(
+    {"法基通", "相基通", "評基通", "消基通"}
+)  # 法基通 相基通 評基通 消基通
 
 # Prefixes that are not in corpus (unlinked + warn).
 # Why (FU-527): sozoku の 根拠法令等 に現れる他法令参照。corpus 未取込 or 別バーティカル
@@ -100,6 +110,13 @@ CORPUS_UNREGISTERED_PREFIXES = {
     "通令",  # 通令 (国税通則法施行令)
     "民法",  # 民法
     "郵政民営化法",  # 郵政民営化法
+    # --- FU-528 消費税 の 根拠法令等 に現れる別法令 (消費税バーティカル外)。
+    # probe で列挙。消法(article)の直後に来ると prefix 継承で偽リンクするため明示登録し、
+    # unlinked (corpus_unregistered) として記録する (hojin/sozoku には不在ゆえ byte 非影響)。
+    "輸徴法",  # 輸徴法 (輸入品に対する内国消費税の徴収等に関する法律)
+    "旧消法",  # 旧消法 (旧消費税法・現行条番号と不一致ゆえ link せず記録のみ)
+    "印法",  # 印法 (印紙税法)
+    "所規",  # 所規 (所得税法施行規則。所法/所令/所基通は FU-527 で登録済)
 }
 
 # Prefixes for 改正附則 (amendment proviso) - always unlinked
@@ -176,6 +193,18 @@ _NO_BRANCH_RE = re.compile(r"(\d+)(?:の(\d+))+")  # 54の2, 22の3, 71の2
 
 # Tokens that look like amendment proviso: 平N改正xxx附則
 _FUNSOKU_TOKEN_RE = re.compile(r"附則")  # 附則
+
+
+# 全角アラビア数字 (０-９) -> 半角 変換テーブル。Why (FU-528): 消費税タックスアンサーの
+# 根拠法令等は同一条を全角/半角混在で記す (例 消法2①九の二 が 6102=半角2・6303=全角２)。
+# article_id/directive_id を canonical 半角に統一し、同一参照が別 id になる不整合を排除する。
+# 号/別表等の非数字要素は保持 (佐藤裁定 2026-07-01: 全角数字のみ正規化)。number 文字列にのみ
+# 適用し、body・kikon_raw は原文保持 (hojin/sozoku は全角数字 ref=0 ゆえ byte 不変)。
+_FULLWIDTH_DIGITS = str.maketrans("０１２３４５６７８９", "0123456789")
+
+
+def _normalize_fullwidth_digits(s: str) -> str:
+    return s.translate(_FULLWIDTH_DIGITS)
 
 
 def _build_article_id(id_prefix: str, raw_num: str) -> str:
@@ -413,6 +442,15 @@ def extract_related_from_kikon(raw_kikon: str) -> dict:
                 unlinked.append({"raw": token, "reason": "corpus_unregistered_continuation"})
                 continue
 
+            # 告示 (厚生省告示/国税庁告示 等) は条番号ではないので記事 prefix を継承させず
+            # unlinked にする (FU-528)。Why: 消令等 (article) の直後に来ると条番号として
+            # 偽リンクする (例 6215: 平成3年厚生省告示第129号 -> shouhi-zei-hou-shikkourei-art-
+            # 平成3年厚生省告示第129号)。hojin の告示は UNREG 継承 (上の branch) で既に unlinked
+            # ゆえ本 guard は hojin/sozoku に非影響 (byte 不変)。
+            if "告示" in token:
+                unlinked.append({"raw": token, "reason": "nta_kokuji"})
+                continue
+
             # Inherit current prefix
             _process_remainder(
                 token,
@@ -448,6 +486,9 @@ def _process_remainder(
     remainder = remainder.strip()
     if not remainder:
         return
+
+    # FU-528: 条番号/通達番号の全角アラビア数字を半角へ正規化 (id を canonical に統一)。
+    remainder = _normalize_fullwidth_digits(remainder)
 
     is_tsutatsu = prefix in _TSUTATSU_PREFIXES  # 法基通/相基通/評基通
 
