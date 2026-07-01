@@ -97,6 +97,15 @@ CATEGORIES: dict[str, Category] = {
         path_segment="shohi",
         cache_dir=REPO_ROOT / "cache" / "taxanswer" / "shohi",
     ),
+    # 2026-07-01 FU-529: 源泉所得税タックスアンサー (2500-2900 番台)。path
+    # '/taxanswer/gensen/'。参照先は所得税バーティカル (所法/所令/所規=shotoku-* + 所基通=
+    # shotoku-kihon-tsutatsu[FU-523]) + 復興特別所得税 (UNREG)。hojin/sozoku/shohi と逐語同型。
+    "gensen": Category(
+        key="gensen",
+        label="源泉所得税タックスアンサー",
+        path_segment="gensen",
+        cache_dir=REPO_ROOT / "cache" / "taxanswer" / "gensen",
+    ),
 }
 
 

@@ -83,14 +83,22 @@ LAW_PREFIX_MAP: dict[str, tuple[str, str]] = {
     "消令": ("shouhi-zei-hou-shikkourei", "shouhi-zei-hou-shikkourei-art"),  # 消令
     "消規": ("shouhi-zei-hou-shikoukisoku", "shouhi-zei-hou-shikoukisoku-art"),  # 消規
     "消基通": ("shouhi-kihon-tsutatsu", "shouhi-kihon-tsutatsu"),  # 消基通
+    # --- FU-529 所得税バーティカル活性化 (源泉所得税タックスアンサー取込に伴い所法/所令/
+    # 所規を UNREG から MAP へ昇格・所基通は FU-523 の shotoku-kihon-tsutatsu corpus に link)。
+    # id_prefix は glossary 準拠 (所法=shotoku-zei-hou/所令=shikkourei/所規=shikoukisoku)。
+    # 所基通は tsutatsu ゆえ id_prefix == law_abbrev で _TSUTATSU_PREFIXES が分岐を持つ。
+    "所法": ("shotoku-zei-hou", "shotoku-zei-hou-art"),  # 所法
+    "所令": ("shotoku-zei-hou-shikkourei", "shotoku-zei-hou-shikkourei-art"),  # 所令
+    "所規": ("shotoku-zei-hou-shikoukisoku", "shotoku-zei-hou-shikoukisoku-art"),  # 所規
+    "所基通": ("shotoku-kihon-tsutatsu", "shotoku-kihon-tsutatsu"),  # 所基通
 }
 
 # tsutatsu (基本通達) 系の prefix。N-N-N 形式の通達番号として処理し、対応法令の通達番号
 # 集合に対して照合する。Why: 旧 `prefix == "法基通"` ハードコードでは 相基通/評基通 が
 # article 参照に誤分類された (FU-527)。
 _TSUTATSU_PREFIXES = frozenset(
-    {"法基通", "相基通", "評基通", "消基通"}
-)  # 法基通 相基通 評基通 消基通
+    {"法基通", "相基通", "評基通", "消基通", "所基通"}
+)  # 法基通 相基通 評基通 消基通 所基通
 
 # Prefixes that are not in corpus (unlinked + warn).
 # Why (FU-527): sozoku の 根拠法令等 に現れる他法令参照。corpus 未取込 or 別バーティカル
@@ -103,9 +111,6 @@ CORPUS_UNREGISTERED_PREFIXES = {
     "措令",  # 措令 (措置法施行令)
     "措規",  # 措規 (措置法施行規則)
     "措通",  # 措通 (措置法通達)
-    "所法",  # 所法 (所得税法・所得バーティカル)
-    "所令",  # 所令 (所得税法施行令)
-    "所基通",  # 所基通 (所得税基本通達)
     "通法",  # 通法 (国税通則法)
     "通令",  # 通令 (国税通則法施行令)
     "民法",  # 民法
@@ -116,7 +121,18 @@ CORPUS_UNREGISTERED_PREFIXES = {
     "輸徴法",  # 輸徴法 (輸入品に対する内国消費税の徴収等に関する法律)
     "旧消法",  # 旧消法 (旧消費税法・現行条番号と不一致ゆえ link せず記録のみ)
     "印法",  # 印法 (印紙税法)
-    "所規",  # 所規 (所得税法施行規則。所法/所令/所基通は FU-527 で登録済)
+    # --- FU-529 源泉所得税 の 根拠法令等 に現れる corpus 未取込法令 (所得税バーティカル外)。
+    # probe (66 htm 全走) で列挙。所法(article)等の直後に来ると prefix 継承で偽リンクする
+    # ため明示登録し unlinked (corpus_unregistered) として記録する。復興特別所得税は実測で
+    # 表記が復興財確法のみ (復財確法/復興特所法等の揺れは 0 件)。hojin/sozoku/shohi には
+    # 不在ゆえ byte 非影響。
+    "復興財確法",  # 復興財確法 (東日本大震災復興財源確保法・復興特別所得税の根拠)
+    "実施特例法",  # 実施特例法 (租税条約等実施特例法)
+    "実施特例省令",  # 実施特例省令 (同法の省令)
+    "国税オンライン化省令",  # 国税オンライン化省令
+    "特許法",  # 特許法
+    "災免法",  # 災免法 (災害被害者租税減免猶予法)
+    "外国居住者等所得相互免除法",  # 外国居住者等所得相互免除法
 }
 
 # Prefixes for 改正附則 (amendment proviso) - always unlinked
@@ -127,7 +143,13 @@ _KAISEI_RE = re.compile(
 # NTA 個別通達番号 (直評/課評/課資/直資 等)。年 (平元/令5) + 課室記号 + 番号 形式で
 # N-N-N の directive_number に解決できないため unlinked 扱い (FU-527: 平元直評5 /
 # 令5課評2-74)。改正附則と同じく後続の裸番号も unlinked に継承させる。
-_NOTICE_RE = re.compile(r"^(?:昭|平|令)(?:元|\d+)(?:直|課)")  # 平元直評 / 令5課評
+# FU-529: 年と課室記号の間に月 (.3 等) を挟む表記 (平元.3直法2-1 / 平元.1直法6-1) を追加。
+# Why: この `.月` 形は旧 regex が取りこぼし、所得税バーティカル活性化で 所令/所規 の直後に
+# 来ると条番号として偽リンクした (shohi 6921/6929 で実測)。月部分は optional でゼロ幅も許容
+# (平元直法 のドット無し形も従前どおり一致)。
+_NOTICE_RE = re.compile(
+    r"^(?:昭|平|令)(?:元|\d+)(?:[.．]\d+)?(?:直|課)"
+)  # 平元直評 / 令5課評 / 平元.3直法
 
 # ---------------------------------------------------------------------------
 # Text normalization (R7, R10) -- cp932-safe: use Unicode escapes
