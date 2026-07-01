@@ -33,8 +33,10 @@ from __future__ import annotations
 import argparse
 import re
 import sys
+import unicodedata
 import warnings
 from pathlib import Path
+from urllib.parse import urljoin
 
 try:
     from bs4 import BeautifulSoup
@@ -471,8 +473,11 @@ def _process_tsutatsu_remainder(
 # related_qa extraction (R44: href-based only)
 # ---------------------------------------------------------------------------
 
-_CODE_FROM_HREF_RE = re.compile(r"/(\d{4,5})\.htm$", re.I)
-_CODE_FROM_HREF_REL_RE = re.compile(r"^(\d{4,5})\.htm$", re.I)
+# Why: 枝番コード (base-branch, 例 '5364-2') への related_qa リンクを取りこぼさない
+# よう 1 段の枝番を許容する。メインコードはファイル名 stem 由来だが related_qa は
+# href 由来ゆえこの regex を通る。
+_CODE_FROM_HREF_RE = re.compile(r"/(\d{4,5}(?:-\d+)?)\.htm$", re.I)
+_CODE_FROM_HREF_REL_RE = re.compile(r"^(\d{4,5}(?:-\d+)?)\.htm$", re.I)
 
 
 def extract_related_qa_from_html(html_fragment: str) -> list[str]:
@@ -509,7 +514,7 @@ def extract_related_qa_from_html(html_fragment: str) -> list[str]:
         # No h2 section: scan all <a> tags with taxanswer hrefs
         for a in soup.find_all("a"):
             href = a.get("href", "")
-            if "taxanswer" in href or re.match(r"^\d{4,5}\.htm$", href):
+            if "taxanswer" in href or re.match(r"^\d{4,5}(?:-\d+)?\.htm$", href):
                 code = _extract_code_from_href(href)
                 if code and code not in seen:
                     seen.add(code)
@@ -519,7 +524,7 @@ def extract_related_qa_from_html(html_fragment: str) -> list[str]:
 
 
 def _extract_code_from_href(href: str) -> str | None:
-    """Extract 4-5 digit code from href like .../hojin/5210.htm."""
+    """Extract 4-5 digit code (optional 1-level branch) from href like .../hojin/5210.htm."""
     m = _CODE_FROM_HREF_RE.search(href)
     if m:
         return m.group(1)
@@ -529,20 +534,49 @@ def _extract_code_from_href(href: str) -> str | None:
     return None
 
 
+def _code_sort_key(code: str) -> tuple[int, int]:
+    """'5364-2' -> (5364, 2), '5200' -> (5200, 0)。枝番コードを数値順に並べる.
+
+    Why: all_items のソートで int(code) 直キャストは '5364-2' が ValueError。
+    base と枝番を分解して (base, branch) の辞書順で 5364 < 5364-2 < 5365 を得る。
+    """
+    if "-" in code:
+        base, branch = code.split("-", 1)
+        return (int(base), int(branch))
+    return (int(code), 0)
+
+
 # ---------------------------------------------------------------------------
 # HTML parsing: single TaxAnswer page
 # ---------------------------------------------------------------------------
 
-_BOILERPLATE_H2 = {
-    "お問い合わせ先",  # お問い合わせ先
-    "税の情報・手続・用紙",  # 税の情報・手続・用紙
-    "リンク集",  # リンク集
-}
 
-_BODY_H2_NAMES = {
-    "概要",  # 概要
-    "対象税目",  # 対象税目
-}
+def _norm_h2(s: str) -> str:
+    """h2 見出しを NFKC + 内部空白除去して正規化 (完全一致判定用).
+
+    Why: 部分一致 (`in`) は「リンク集」が「関連リンク集」を誤打ち切りする等の事故源。
+    全角/半角・空白ゆらぎを NFKC + 空白除去で吸収し、STOP 集合と完全一致で比較する。
+    """
+    return re.sub(r"\s+", "", unicodedata.normalize("NFKC", s))
+
+
+# 本文抽出は許可リストでなくブロックリスト設計 (FU-526 Phase 2)。
+# Why: 許可リスト {概要,対象税目} + 「in_body 中に別 h2 で停止」だと 計算方法/具体例/
+# 手続き 等の実体的コンテンツ節を本文ごと落としていた (税理士実務の核が欠落)。最初の
+# content h2 で in_body、根拠法令等/boilerplate で停止、それ以外の h2 (未知節含む) は
+# fail-open で本文に取り込む。ナビ/リンク列 (関連コード/関連リンク/QAリンク) は corpus
+# 構造上すべて 根拠法令等 より後ろに現れるため、この STOP 境界で自然に除外される
+# (2026-07-01 実測: 89/89 が根拠法令等の後方)。
+_STOP_H2_KEYS = frozenset(
+    _norm_h2(x)
+    for x in (
+        "根拠法令等",  # 根拠法令等 (本文の終端・必ず存在)
+        "お問い合わせ先",  # お問い合わせ先
+        "税の情報・手続・用紙",  # 税の情報・手続・用紙
+        "リンク集",  # リンク集 (実データには未出現だが将来の boilerplate 変種に備え保持)
+        "サイトマップ（コンテンツ一覧）",  # サイトマップ (NFKC で半角括弧に正規化)
+    )
+)
 
 
 def _detect_charset(raw: bytes) -> str:
@@ -570,32 +604,33 @@ def parse_file(htm_path: Path, code: str, tax_category: str) -> dict:
     # Title from h1
     h1 = soup.find("h1")
     title_raw = h1.get_text(strip=True) if h1 else ""
-    # Strip "No.NNNN " prefix if present
-    title = re.sub(r"^No\.\d+\s*", "", title_raw).strip()
+    # Strip "No.NNNN " prefix if present (枝番コードは "No.5364-2" ゆえ枝番も剥がす。
+    # Why: `^No\.\d+\s*` だと枝番 '-2' が title に残る。非枝番は optional 群が空で不変)。
+    title = re.sub(r"^No\.\d+(?:-\d+)?\s*", "", title_raw).strip()
 
     # version_date from full text (R23: Optional)
     full_text = soup.get_text()
     version_date = _parse_version_date(full_text)
 
     # Extract body sections (概要 and sub-h3 sections only)
+    page_url = f"{SOURCE_URL_BASE}/{tax_category}/{code}.htm"
     body_parts: list[str] = []
     in_body = False
-    for tag in soup.find_all(["h2", "h3", "p", "ul", "li", "table"]):
+    terminated = False  # 最初の STOP 見出し以降は trailer (関連コード/リンク/boilerplate)
+    for tag in soup.find_all(["h2", "h3", "p", "ul", "li", "table", "img"]):
         if tag.name == "h2":
-            tag_text = tag.get_text(strip=True)
-            if tag_text in _BODY_H2_NAMES:
+            # ブロックリスト: 最初の STOP 見出し (根拠法令等/boilerplate) で本文を終端し、
+            # 以降の h2 では本文を再開しない (根拠法令等の後方に来る 関連コード/関連リンク/
+            # QAリンク の trailer を取り込まないため)。それ以外の h2 は content として本文
+            # 開始 (fail-open)。h2 見出し自体は本文に含めない。
+            if terminated:
+                continue
+            if _norm_h2(tag.get_text(strip=True)) in _STOP_H2_KEYS:
+                in_body = False
+                terminated = True
+            else:
                 in_body = True
-                continue
-            elif tag_text == "根拠法令等":  # 根拠法令等
-                in_body = False
-                continue
-            elif tag_text in _BOILERPLATE_H2:
-                in_body = False
-                continue
-            elif in_body:
-                # Another h2 while in body - stop
-                in_body = False
-                continue
+            continue
         if not in_body:
             continue
 
@@ -615,6 +650,15 @@ def parse_file(htm_path: Path, code: str, tax_category: str) -> dict:
             t = _table_to_markdown(tag)
             if t:
                 body_parts.append(t)
+        elif tag.name == "img":
+            # content 画像 (計算表・別表・フローチャート) を選択的に保持。ナビ/装飾
+            # (/template/ 配下の navi_*.png 等) は drop する (無差別保持は全チャンクに
+            # ゴミを注入するため)。Why: 画像は法人税の計算例として意味を持つが alt
+            # のみでは失われるため絶対 URL の markdown 画像で残す。
+            src = tag.get("src", "")
+            if src and "/template/" not in src:
+                alt = _normalize_text(tag.get("alt") or "").strip() or "図表"
+                body_parts.append(f"![{alt}]({urljoin(page_url, src)})")
 
     body = "\n".join(body_parts).strip()
 
@@ -820,9 +864,13 @@ def main(argv: list[str] | None = None) -> int:
     unlinked_total = 0
 
     for htm_path in htm_files:
-        # Extract code from filename (e.g. 5200.htm -> "5200")
+        # Extract code from filename (e.g. 5200.htm -> "5200", 5364-2.htm -> "5364-2").
+        # Why: NTA は枝番コード (base-branch) を持つ (法人税で 5364-2 等 5 件)。base のみ
+        # 許容する `^\d{4,5}$` だと枝番ファイルを SKIP して silent に落とすため、1 段の
+        # 枝番を許容する。base と枝番のソートは _code_sort_key で数値順にする (int() 直
+        # キャストは '5364-2' で ValueError)。
         code = htm_path.stem
-        if not re.match(r"^\d{4,5}$", code):
+        if not re.match(r"^\d{4,5}(?:-\d+)?$", code):
             print(f"  SKIP: unexpected filename {htm_path.name}", file=sys.stderr)
             continue
 
@@ -857,8 +905,9 @@ def main(argv: list[str] | None = None) -> int:
         print("ERROR: no TaxAnswer items produced", file=sys.stderr)
         return 1
 
-    # Sort by code (numeric)
-    all_items.sort(key=lambda x: int(x["code"]))
+    # Sort by code (numeric, branch-aware). Why: int() on '5364-2' raises ValueError;
+    # split base/branch so 5364 < 5364-2 < 5365 sorts as intended.
+    all_items.sort(key=lambda x: _code_sort_key(x["code"]))
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
     out_path = args.output_dir / f"{args.law_abbrev}.taxanswer.chunks.jsonl"

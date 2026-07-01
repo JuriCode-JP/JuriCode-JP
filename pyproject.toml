@@ -115,6 +115,10 @@ testpaths = [
     # 2026-07-01 FU-525: 財産評価基本通達 corpus fixture ゲート (313 件・flat_branch 単発番号 +
     # 枝番・split-strong 非切詰・named-law 偽リンク回帰含む)。CI-safe (cache テストは skipif)。
     "tools/parse/tests/test_hyoka_corpus.py",
+    # 2026-07-01 FU-526: 法人税タックスアンサー corpus fixture ゲート (111 件・枝番 5・本文
+    # スコープ拡張 [計算方法/具体例] + trailer 非漏洩・content 画像 22・named-law 偽リンク回帰
+    # 含む)。CI-safe (cache テストは skipif)。
+    "tools/parse/tests/test_hojin_taxanswer_corpus.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
     # 2026-07-01 FU-524: NTA 通達 fetcher の目次リンク分類 (extract_links) hermetic test。

@@ -13,6 +13,7 @@ This page consolidates the **source** and **licensing terms** of each dataset Ju
 | **法令本文** | e-Gov 法令検索（laws.e-gov.go.jp） | e-Gov 利用規約 | 取得・構造化（本文非改変） | `source_url` 必須・round-trip hash で本文同一性を機械検証 |
 | **法令の英訳** | 法務省 日本法令外国語訳DB（JLT） | **PDL1.0**（公共データ利用規約 第1.0版） | 出典明示で**引用・複製・転載・再配布可** | 公式訳を `translation_status: official` で採用・出典明示。自前翻訳不要 |
 | **裁決（国税不服審判所）** | 国税不服審判所 公表裁決 | **PDL1.0** | 出典明示で**複製・転載可** | 税務ドメインで採用・出典明示 |
+| **タックスアンサー（税務Q&A）** | 国税庁（nta.go.jp/taxes/shiraberu/taxanswer） | **PDL1.0 準拠**（国税庁＝政府標準利用規約・CC BY 互換） | 出典明示で**複製・翻案・再配布可（商用含む）** | `hojin-taxanswer` 等を `build/chunks` に収録・`license: cc-by-jp-nta`・`attribution` 併記 |
 | **判例本文** | 裁判所（courts.go.jp） | **著作権法13条**（判決・決定・命令は著作権の目的外＝PD） | 出典明示で**引用・転載可** | `cases` の本文引用は出典必須・URL 実在確認 |
 | **判例の裁判要旨／判示事項** | 裁判所（courts.go.jp） | site 利用規約（**著作権法の範囲内・無断改変禁止**） | 出典付き引用・リンク・メタデータは可。**逐語コピー／翻訳改変は不可** | **自前要約＋公式ページへの `url` リンクを併置**（公式要旨は複製せずリンク参照。短い出典付き引用は可） |
 | **構造化レイヤー** | JuriCode-JP | **MIT** | 自由 | スキーマ・タグ・ツール・自前記述部分 |
@@ -36,6 +37,13 @@ This page consolidates the **source** and **licensing terms** of each dataset Ju
 
 ### 3. 裁決 — 国税不服審判所（PDL1.0）
 - 公表裁決の本文・要旨は PDL1.0。出典明示で複製・転載可。税務ドメインの否認リスク等のデータ土台。
+
+### 3.1 タックスアンサー — 国税庁（PDL1.0 準拠・政府標準利用規約）
+- 出所: 国税庁「タックスアンサー（税金の相談 Q&A）」（https://www.nta.go.jp/taxes/shiraberu/taxanswer/ ）。
+- 国税庁サイトは**政府標準利用規約準拠（CC BY 4.0 互換・PDL1.0 同等）**。出典明示で**複製・翻案・再配布（商用含む）可**。
+- **出典表記例**: 「出典：国税庁タックスアンサー」。IR では `license: cc-by-jp-nta` / `attribution: 国税庁タックスアンサー` で機械可読に保持。
+- タックスアンサーは Q&A 解説文であり e-Gov 法令のような本文非改変 round-trip の対象ではない。`source_url` に当該コードの nta.go.jp URL を必須記載。content 画像（計算表・フローチャート）は**改変せず絶対 URL で参照**（本文に `![alt](URL)` として引用）。
+- glossary は法令表（`law_id` 前提）ゆえ taxanswer 略称（`hojin-taxanswer` 等）は非該当。data-source として本ページで記録する。
 
 ### 4. 判例本文 — courts.go.jp（著作権法13条）
 - **著作権法13条3号**: 裁判所の判決・決定・命令は著作権の目的とならない＝パブリックドメイン。出典明示で引用・転載可。
