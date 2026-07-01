@@ -1683,6 +1683,25 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [x] FU-526: タックスアンサー拡充 (法人税・順序4 の第一歩) — ✅ 完了 2026-07-01 (PR #72, main 0c05e2fe)
+
+**経緯**: タックスアンサーは PoC (法人税 8 コードのみ) だった。順序4「タックスアンサー拡充」の第一歩として法人税(hojin)カテゴリを全コード取込 (パターン実証 → 横展開)。既存 `TaxAnswerChunk` IR・`parse-nta-taxanswer.py` を土台に、**fetcher を新設**。
+
+**成果**:
+- **fetcher 新設** `taxanswer-fetcher.py` (tsutatsu-fetcher 範=urllib 生バイト・skip-if-exists・timeout・全域 `<a>` /hojin/ スキャン・リダイレクト dedup)。`code/index.htm` から 115 コード発見 → soft-404 4 除外 → **111 取得** (既存 8 skip で byte 不変)。
+- **本文スコープ拡張** (佐藤 option2): 許可リスト `{概要,対象税目}`→**ブロックリスト** (根拠法令等/boilerplate まで全 h2 取込・未知節 fail-open) に反転。計算方法/具体例/手続き節を取込・trailer(関連コード等)非漏洩 (terminated ラッチ)・**content 画像 13→22 枚** (計算式 GIF 等)。既存 8 PoC byte 不変を最優先ゲートで実証。
+- **baseline (source-locked・Cowork が NTA 目次+実ページ突合)**: 111 chunks / dup 0 / 枝番 5 (5364-2,5400-2,5409-2,5927-2,5927-3) / links art 222・dir 28・qa 132・unlinked 361 / version_date None 0 (捏造なし) / content画像 22 / body chars 189-8338(mean 1777) / 偽リンク 0。母集団 115→soft-404 4 除外→111。
+- **ライセンス**: `docs/licensing.md` に タックスアンサー = PDL1.0 (政府標準利用規約・CC BY 互換・出典明示で商用/改変/再配布可) 追記。旧「営利お断り」は廃止携帯サイトの無効文言。
+- **CI**: corpus ゲートテストを ci.yml + pyproject 両所配線。CI 3.11/3.12 green。既存 38 テスト退行なし。
+- **査読 3 波を実コードで裁定** (Cowork): 却下=画像無差別保持(ナビゴミ注入)/version_date 捏造/404量産/並行衝突/桁数固定 (すべて実コードで反証)、採用=枝番 regex(related_qa)・生バイト fetcher・全域スキャン・dedup・NFKC 完全一致(部分一致却下)・不正 src ガード。
+- **実装時に Claude Code が捕捉した briefing 欠陥**: main の `^\d{4,5}$` ガード+int() ソートが枝番 5 件を落としていた (Cowork 裁定「main は stem 由来で枝番自然処理」がソート/フィルタ経路を追い切れず) → 修正。母集団ソース取り違え防止 (bunya-hojin.htm=0リンク→code/index.htm)。
+
+**残課題**: 順序4 の残カテゴリ (所得税/源泉/相続贈与/消費税 等のタックスアンサー) / 租税特別措置法 (順序5・要独立計画書)。
+
+**関連**: FU-520 (taxanswer CI hermetic 化) / FU-525 (財産評価通達) / `business/fu-526-taxanswer-hojin-plan-2026-07-01.md` / `business/fu-526-taxanswer-hojin-execution-briefing-2026-07-01.md`。
+
+---
+
 ### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
 **経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。
