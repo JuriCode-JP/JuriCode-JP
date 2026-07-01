@@ -110,6 +110,8 @@ testpaths = [
     "tools/parse/tests/test_taxanswer_related.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
+    # 2026-07-01 FU-524: NTA 通達 fetcher の目次リンク分類 (extract_links) hermetic test。
+    "tools/fetch-egov/tests/test_tsutatsu_fetcher.py",
 ]
 pythonpath = [
     "tools/shared/src",
