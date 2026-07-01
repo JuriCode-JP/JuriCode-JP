@@ -54,12 +54,19 @@ _HOJIN_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "hojin"
 #   3. body de-dup (5927-3 のみ): mega-<p> 異形構造で 12 段落が二重取得され trailer も漏れていた
 #      -> de-dup + trailer 除去で body 最大 8338->6418 (全 content 文 probe 検証で欠落ゼロ)。
 # directives/qa/title/version/images/total/branched は全 111 チャンク不変。
+# 2026-07-01 FU-529 再ロック (佐藤明示承認): 所得税バーティカル活性化 (源泉所得税タックス
+# アンサー取込に伴い 所法/所令/所規 を UNREG->LAW_PREFIX_MAP, 所基通 を tsutatsu 昇格) により、
+# 法人税タックスアンサーが引用する 所法系/所基通 参照が unlinked->linked に昇格した。
+#   - related_articles 221->233 (+12: 明示 所法/所令 4 件 + 継承裸番号 8 件)
+#   - related_directives 28->34 (+6: 所基通76-4 が 6 ページで shotoku-kihon-tsutatsu へ link)
+#   - unlinked_refs 399->381 (-18 昇格) の内訳変化。本文・title・qa・images・version は完全不変。
+# Cowork 独立カウント (baseline に眠る明示 所-prefix unlinked = 10ref/9chunk) と一致。
 EXPECTED_TOTAL = 111  # dedup 後のユニーク code 数 (母集団 115 - soft-404 4)
 EXPECTED_BRANCHED = frozenset({"5364-2", "5400-2", "5409-2", "5927-2", "5927-3"})  # 枝番 5 件
-EXPECTED_ARTICLES = 221  # related_articles 総数 (FU-527: 222->221, 通法10 偽リンク除去)
-EXPECTED_DIRECTIVES = 28  # related_directives 総数
+EXPECTED_ARTICLES = 233  # related_articles 総数 (FU-529: 221->233, 所法系昇格)
+EXPECTED_DIRECTIVES = 34  # related_directives 総数 (FU-529: 28->34, 所基通76-4 昇格)
 EXPECTED_QA = 132  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 399  # unlinked_refs 総数 (FU-527: 361->399, silent-drop 24 記録+reason 精緻化)
+EXPECTED_UNLINKED = 381  # unlinked_refs 総数 (FU-529: 399->381, 所法系 unlinked->linked 昇格)
 EXPECTED_IMAGES = 22  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 8  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -192,13 +199,22 @@ def test_no_nav_trailer_leak() -> None:
 
 
 def test_named_laws_not_false_linked() -> None:
-    """related_articles の法略称が houjin 系のみ・article_id が law_abbrev で前置される。
+    """related_articles の法略称が houjin 系 + 所得税 cross-vertical のみ・article_id が
+    law_abbrev で前置される。
 
     Why: LAW_PREFIX_MAP は裸 "法" を持たず 法法/法令/法規 の specific prefix のみゆえ、
-    会社法等の named-law が houjin へ偽リンクしない。全 article_id が対応略称で始まる
-    ことを機械検証 (偽リンク = 404 ゼロ)。
+    会社法等の named-law が houjin へ偽リンクしない。FU-529 で 所法/所令 (所得税法) が
+    LAW_PREFIX_MAP に加わり、法人税タックスアンサーが引用する所得税法参照が shotoku-* へ
+    正当に cross-vertical link する (越境ではなく実在 corpus への相互参照)。全 article_id が
+    対応略称で始まることを機械検証 (偽リンク = 404 ゼロ)。
     """
-    allowed = {"houjin-zei-hou", "houjin-zei-hou-shikkourei", "houjin-zei-hou-shikoukisoku"}
+    allowed = {
+        "houjin-zei-hou",
+        "houjin-zei-hou-shikkourei",
+        "houjin-zei-hou-shikoukisoku",
+        "shotoku-zei-hou",
+        "shotoku-zei-hou-shikkourei",
+    }
     bad = [
         (r["code"], a["law_abbrev"], a["article_id"])
         for r in _records()

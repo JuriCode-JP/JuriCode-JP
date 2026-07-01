@@ -47,12 +47,18 @@ _FIXTURE = _THIS.parent / "fixtures" / "sozoku-taxanswer.corpus.chunks.baseline.
 _SOZOKU_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "sozoku"
 
 # LOCKED 確定値 (実パーサ dry-run + 母集団突合で確定・佐藤ロック 2026-07-01・改変は明示承認必須)。
+#
+# 2026-07-01 FU-529 再ロック (佐藤明示承認): 所得税バーティカル活性化により、相続・贈与
+# タックスアンサーが引用する 所法系/所基通 参照が unlinked->linked に昇格 (相続税と所得税の
+# 二重課税調整文脈)。related_articles 154->157 (+3)・related_directives 57->61 (+4)・
+# unlinked 161->154 (-7)。本文・title・qa・images・version は完全不変。Cowork 独立カウント
+# (baseline に眠る明示 所-prefix unlinked = 5ref/3chunk) と一致。
 EXPECTED_TOTAL = 52  # dedup 後のユニーク code 数 (母集団 52 - soft-404 0)
 EXPECTED_BRANCHED: frozenset[str] = frozenset()  # 枝番コードなし
-EXPECTED_ARTICLES = 154  # related_articles 総数
-EXPECTED_DIRECTIVES = 57  # related_directives 総数
+EXPECTED_ARTICLES = 157  # related_articles 総数 (FU-529: 154->157, 所法系昇格)
+EXPECTED_DIRECTIVES = 61  # related_directives 総数 (FU-529: 57->61, 所基通昇格)
 EXPECTED_QA = 133  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 161  # unlinked_refs 総数
+EXPECTED_UNLINKED = 154  # unlinked_refs 総数 (FU-529: 161->154, 所法系 unlinked->linked 昇格)
 EXPECTED_IMAGES = 33  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 13  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -60,14 +66,18 @@ BODY_MIN, BODY_MAX = 211, 8738  # body 文字数の最小/最大
 EXPECTED_CACHE_HTM = 52  # 取得済 htm 数 (soft-404 0)
 
 # 相続バーティカルの article/directive リンク内訳 (多法令化の証跡・ロック)。
+# FU-529: 所得税 cross-vertical (所法/所令 -> shotoku-*・所基通 -> shotoku-kihon-tsutatsu) を追加。
 EXPECTED_ARTICLE_ABBREVS = {
     "souzoku-zei-hou": 129,
     "souzoku-zei-hou-shikkourei": 18,
     "souzoku-zei-hou-shikoukisoku": 7,
+    "shotoku-zei-hou": 2,
+    "shotoku-zei-hou-shikkourei": 1,
 }
 EXPECTED_DIRECTIVE_ABBREVS = {
     "souzoku-kihon-tsutatsu": 46,
     "zaisan-hyoka-kihon-tsutatsu": 11,
+    "shotoku-kihon-tsutatsu": 4,
 }
 _HOST = "https://www.nta.go.jp/"
 

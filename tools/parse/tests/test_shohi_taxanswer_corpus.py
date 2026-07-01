@@ -52,12 +52,22 @@ _FIXTURE = _THIS.parent / "fixtures" / "shohi-taxanswer.corpus.chunks.baseline.j
 _SHOHI_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "shohi"
 
 # LOCKED 確定値 (実パーサ dry-run + 母集団突合で確定・佐藤ロック 2026-07-01・改変は明示承認必須)。
+# 2026-07-01 FU-529 再ロック (佐藤明示承認): 所得税バーティカル活性化 + _NOTICE_RE ドット形
+# 修正の 2 効果。
+#   効果A (所法昇格): 消費税タックスアンサーが引用する 所法/所令/所規/所基通 が unlinked->
+#     linked へ昇格 -> related_articles +4 (395->399)・related_directives +1 (54->55)。
+#   効果B (_NOTICE_RE 修正): NTA個別通達番号の「元号.月 直/課」形 (平元.3直法2-1 等) を旧 regex
+#     が取りこぼし、所令/所規 の article prefix 昇格で 3 件が偽 article link 化していた
+#     (6921×2, 6929×1)。_NOTICE_RE に optional `.月` を追加して根因修正 -> 偽リンク 3 件を
+#     nta_notice(unlinked) に是正 + 既存の dot-form 通達の理由ラベルを nta_notice に正確化。
+#   合算: related_articles 395->399・directives 54->55・unlinked 336->331。本文・title・qa・
+#   images・version は完全不変。Cowork 独立カウント (明示 所-prefix unlinked = 4ref/3chunk) と一致。
 EXPECTED_TOTAL = 114  # dedup 後のユニーク code 数 (母集団 115 - soft-404 1[6950])
 EXPECTED_BRANCHED: frozenset[str] = frozenset()  # 枝番コードなし
-EXPECTED_ARTICLES = 395  # related_articles 総数
-EXPECTED_DIRECTIVES = 54  # related_directives 総数
+EXPECTED_ARTICLES = 399  # related_articles 総数 (FU-529: 395->399, 所法系昇格)
+EXPECTED_DIRECTIVES = 55  # related_directives 総数 (FU-529: 54->55, 所基通昇格)
 EXPECTED_QA = 151  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 336  # unlinked_refs 総数
+EXPECTED_UNLINKED = 331  # unlinked_refs 総数 (FU-529: 336->331, 所法系昇格-偽リンク是正の純減)
 EXPECTED_IMAGES = 22  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 8  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -66,6 +76,8 @@ EXPECTED_CACHE_HTM = 114  # 取得済 htm 数 (soft-404 1[6950] 除外後)
 
 # article/directive リンク内訳 (config-light 多法令化の証跡・ロック)。消費税ファミリ +
 # 法人税 cross-vertical (法法/法令/法規)。
+# FU-529: 所得税 cross-vertical (所法/所令/所規 -> shotoku-*・所基通 -> shotoku-kihon-tsutatsu)
+# を追加。消費税/法人税に加え所得税の相互参照も実在 corpus へ link する。
 EXPECTED_ARTICLE_ABBREVS = {
     "shouhi-zei-hou": 279,
     "shouhi-zei-hou-shikkourei": 93,
@@ -73,9 +85,13 @@ EXPECTED_ARTICLE_ABBREVS = {
     "houjin-zei-hou": 2,
     "houjin-zei-hou-shikkourei": 1,
     "houjin-zei-hou-shikoukisoku": 1,
+    "shotoku-zei-hou": 2,
+    "shotoku-zei-hou-shikkourei": 1,
+    "shotoku-zei-hou-shikoukisoku": 1,
 }
 EXPECTED_DIRECTIVE_ABBREVS = {
     "shouhi-kihon-tsutatsu": 54,
+    "shotoku-kihon-tsutatsu": 1,
 }
 _HOST = "https://www.nta.go.jp/"
 
@@ -210,10 +226,10 @@ def test_no_crossborder_false_links() -> None:
     """related_articles の law_abbrev が消費税/法人税ファミリのみ・article_id が law_abbrev で
     前置される (越境偽リンクゼロ)。
 
-    Why: 消費税バーティカル外の別法令 (輸徴法/旧消法/印法/所規/措/所/通/民) は UNREG で、
-    告示 (厚生省/国税庁) は article prefix を継承させない guard (FU-528) で unlinked に落ちる。
-    よって related_articles には消費税 (shouhi-*) と法人税 cross-vertical (houjin-*) しか
-    現れない。全 article_id が対応略称で前置されることも機械検証する。
+    Why: 消費税バーティカル外の別法令 (輸徴法/旧消法/印法/措/通/民) は UNREG で、告示
+    (厚生省/国税庁) は article prefix を継承させない guard (FU-528) で unlinked に落ちる。
+    よって related_articles には消費税 (shouhi-*)・法人税 (houjin-*)・所得税 (shotoku-*、
+    FU-529 cross-vertical) しか現れない。全 article_id が対応略称で前置されることも機械検証する。
     非標準 article_number (別表/号/31消令48) は消費税法内ゆえ id に日本語を含み得るが (佐藤
     裁定 (A)(C) で受容)、越境ではない。
     """
@@ -228,8 +244,13 @@ def test_no_crossborder_false_links() -> None:
 
 
 def test_no_foreign_law_tokens_in_links() -> None:
-    """越境法令名/告示が related_articles の raw に混入しない (unlinked に落ちている証跡)。"""
-    foreign = ("輸徴法", "旧消法", "印法", "所規", "措法", "措令", "措規", "措通", "告示", "民法")
+    """越境法令名/告示が related_articles の raw に混入しない (unlinked に落ちている証跡)。
+
+    Note: FU-529 で 所法/所令/所規 は所得税バーティカルとして LAW_PREFIX_MAP に加わったため
+    もはや foreign ではない (shotoku-* へ正当に link する)。ここでは消費税バーティカル外で
+    corpus 未取込のまま残る法令 (輸徴法/旧消法/印法/措 系) と 告示/民法 のみを検査する。
+    """
+    foreign = ("輸徴法", "旧消法", "印法", "措法", "措令", "措規", "措通", "告示", "民法")
     leaked = [
         (r["code"], a["raw"])
         for r in _records()
