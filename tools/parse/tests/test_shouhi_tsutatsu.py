@@ -173,7 +173,7 @@ def test_amendment_note_extracted_with_shouhi_marker() -> None:
 
 def test_circular_config_registry() -> None:
     mod = _import_parser()
-    assert set(mod.CIRCULAR_CONFIGS) == {"hojin", "shouhi", "shotoku", "souzoku"}
+    assert set(mod.CIRCULAR_CONFIGS) == {"hojin", "shouhi", "shotoku", "souzoku", "hyoka"}
     hojin = mod.CIRCULAR_CONFIGS["hojin"]
     shouhi = mod.CIRCULAR_CONFIGS["shouhi"]
     assert hojin.law_abbrev == "hojin-kihon-tsutatsu"
@@ -205,6 +205,21 @@ def test_circular_config_registry() -> None:
     assert souzoku.ref_map["法"] == "souzoku-zei-hou"
     assert souzoku.ref_map["措置法"] == "sochi-hou"
     assert souzoku.ref_map["通則法"] == "kokuzei-tsuusoku-hou"
+    # 財産評価基本通達 (FU-525)。num_style="flat_branch" (単発通し番号 + 任意枝番) +
+    # sisan/hyoka_new パス + 資産税系記号 (課評/直資) + 完全名のみの ref_map (裸 "法" を
+    # 入れず named-law 偽リンクを排除)。
+    hyoka = mod.CIRCULAR_CONFIGS["hyoka"]
+    assert hyoka.law_abbrev == "zaisan-hyoka-kihon-tsutatsu"
+    assert hyoka.law_name_ja == "財産評価基本通達"
+    assert hyoka.source_url_base == "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new"
+    assert hyoka.num_style == "flat_branch"
+    assert hyoka.amendment_markers == ("課評", "直資", "直評")
+    assert hyoka.ref_map["相続税法"] == "souzoku-zei-hou"
+    assert "法" not in hyoka.ref_map  # 裸接頭辞なし (named-law 偽リンク防止)
+    assert "chika-zei-hou" in hyoka.corpus_unregistered
+    # 既存 config は num_style 既定 hierarchical (byte 不変の担保)。
+    assert hojin.num_style == "hierarchical"
+    assert souzoku.num_style == "hierarchical"
     assert souzoku.corpus_unregistered == frozenset({"sochi-hou", "chika-zei-hou"})
 
 

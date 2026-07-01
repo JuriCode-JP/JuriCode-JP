@@ -112,6 +112,9 @@ testpaths = [
     "tools/parse/tests/test_shotoku_corpus.py",
     # 2026-07-01 FU-524: 相続税法基本通達 corpus fixture ゲート (445 件・偽リンク回帰含む)。
     "tools/parse/tests/test_souzoku_corpus.py",
+    # 2026-07-01 FU-525: 財産評価基本通達 corpus fixture ゲート (313 件・flat_branch 単発番号 +
+    # 枝番・split-strong 非切詰・named-law 偽リンク回帰含む)。CI-safe (cache テストは skipif)。
+    "tools/parse/tests/test_hyoka_corpus.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
     # 2026-07-01 FU-524: NTA 通達 fetcher の目次リンク分類 (extract_links) hermetic test。
