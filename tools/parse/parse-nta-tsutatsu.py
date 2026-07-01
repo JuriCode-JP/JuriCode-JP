@@ -40,6 +40,7 @@ import sys
 import warnings
 from collections.abc import Mapping
 from dataclasses import dataclass, field
+from functools import cache
 from pathlib import Path
 
 try:
@@ -144,11 +145,36 @@ SHOTOKU_CONFIG = CircularConfig(
     num_levels=2,
 )
 
+# 相続税法基本通達。num_levels=2 (目次の条-番号 2 レベル体系 "1の2-1" / "23の2-1" 等で確定・
+# 実パーサ dry-run で 445 directives 取得を実測)。NTA URL パスは "sisan/sozoku2" (実 URL で
+# 確認済・"souzoku"/"sozoku" は 404)。参照は相続税法系列 + 措置法(小規模宅地等) + 通則法 +
+# 所得税法 + 地価税法。措置法/地価税法は corpus 未収録 (unlinked)、他 5 法は data/v0.2/phase1-tax
+# に実在しリンク有効。接頭辞は _build_law_ref_re が長い順に組むので「措置法第N条」を「法」に
+# 潰さず正しく解決する。改正記号は資産税系 課資/直資/課審/課評 (実測 513/211/63/16)。
+SOUZOKU_CONFIG = CircularConfig(
+    law_name_ja="相続税法基本通達",
+    law_abbrev="souzoku-kihon-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2",
+    ref_map={
+        "措置法": "sochi-hou",  # 租税特別措置法 (corpus 未収録 -> warn, no link)
+        "通則法": "kokuzei-tsuusoku-hou",  # 国税通則法 (corpus 実在 -> link)
+        "所得税法": "shotoku-zei-hou",  # 所得税法 (corpus 実在 -> link)
+        "地価税法": "chika-zei-hou",  # 地価税法 (corpus 未収録 -> warn, no link)
+        "法": "souzoku-zei-hou",  # 相続税法 (corpus 実在 -> link)
+        "令": "souzoku-zei-hou-shikkourei",  # 相続税法施行令 (corpus 実在 -> link)
+        "規": "souzoku-zei-hou-shikoukisoku",  # 相続税法施行規則 (corpus 実在 -> link)
+    },
+    corpus_unregistered=frozenset({"sochi-hou", "chika-zei-hou"}),
+    amendment_markers=("課資", "直資", "課審", "課評"),
+    num_levels=2,
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
     "shouhi": SHOUHI_CONFIG,
     "shotoku": SHOTOKU_CONFIG,
+    "souzoku": SOUZOKU_CONFIG,
 }
 
 
@@ -216,11 +242,23 @@ def _normalize_text(s: str) -> str:
 _LAW_REF_RE = re.compile(
     r"(法|令|規|措法)第(\d+)条(?:の(\d+))*(?:第(\d+)項)?",
 )
-# The above only captures last の-branch. Use a more explicit form:
-_LAW_REF_FULL_RE = re.compile(
-    r"(法|令|規|措法)第(\d+)条((?:の\d+)*)"
-    r"(?:第(\d+)項)?",
-)
+# The above only captures last の-branch. 実際の抽出は config.ref_map のキーから
+# 組む _build_law_ref_re を使う (下記)。ハードコード (法|令|規|措法) では相続税通達の
+# 「措置法第N条」が内側の「法」に誤マッチして相続税法へ偽リンクするため、接頭辞集合を
+# config ごとに切り替える。既存 hojin/shohi/shotoku はキー集合が従来と同値 (または該当
+# 接頭辞が本文に不在) ゆえ byte 不変 (byte 回帰テストで実証)。
+
+
+@cache
+def _build_law_ref_re(prefixes: tuple[str, ...]) -> re.Pattern[str]:
+    """接頭辞集合から参照抽出正規表現を組む (長いキー優先で 措置法>法 を保証)。
+
+    Why: 参照接頭辞は通達ごとに異なる (相続税は措置法/通則法/所得税法/地価税法を完全形で
+    書く)。長い順の alternation にすることで「措置法第N条」を「法第N条」へ潰さず正しく
+    捕捉する。tuple 引数で lru_cache 可能 (config ごとに 1 回コンパイル)。
+    """
+    alt = "|".join(re.escape(p) for p in sorted(prefixes, key=len, reverse=True))
+    return re.compile(rf"({alt})第(\d+)条((?:の\d+)*)(?:第(\d+)項)?")
 
 
 def _extract_related_articles(text: str, config: CircularConfig) -> list[dict]:
@@ -233,8 +271,9 @@ def _extract_related_articles(text: str, config: CircularConfig) -> list[dict]:
     results: list[dict] = []
     seen_raw: set[str] = set()
 
-    for m in _LAW_REF_FULL_RE.finditer(text):
-        prefix = m.group(1)  # 法/令/規/措法
+    ref_re = _build_law_ref_re(tuple(config.ref_map))
+    for m in ref_re.finditer(text):
+        prefix = m.group(1)  # config.ref_map のキー (法/令/規/... 通達依存)
         base_num = m.group(2)  # e.g. "34"
         no_suffix = m.group(3) or ""  # e.g. "の2の2" or ""
         # para = m.group(4)  -- not used for article_id

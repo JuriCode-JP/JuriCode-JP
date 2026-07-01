@@ -3,13 +3,13 @@
 
 使い方:
     cd JuriCode-JP
-    python tools/fetch-egov/tsutatsu-fetcher.py                 # sozoku + hyoka 両方
-    python tools/fetch-egov/tsutatsu-fetcher.py --circular sozoku
+    python tools/fetch-egov/tsutatsu-fetcher.py                 # souzoku + hyoka 両方
+    python tools/fetch-egov/tsutatsu-fetcher.py --circular souzoku
     python tools/fetch-egov/tsutatsu-fetcher.py --force         # 既存 cache を上書き
 
 取得対象 (2026-07-01 実測でロック):
-    sozoku : 相続税法基本通達   /law/tsutatsu/kihon/sisan/sozoku2   -> cache/tsutatsu/sozoku
-    hyoka  : 財産評価基本通達   /law/tsutatsu/kihon/sisan/hyoka_new -> cache/tsutatsu/hyoka
+    souzoku : 相続税法基本通達   /law/tsutatsu/kihon/sisan/sozoku2   -> cache/tsutatsu/souzoku
+    hyoka   : 財産評価基本通達   /law/tsutatsu/kihon/sisan/hyoka_new -> cache/tsutatsu/hyoka
 
 Why (設計):
     - NTA は目次ディレクトリ ('.../<circular>/') を索引配信しない (302->404) が、
@@ -64,11 +64,11 @@ class Circular:
 
 
 CIRCULARS: dict[str, Circular] = {
-    "sozoku": Circular(
-        key="sozoku",
+    "souzoku": Circular(
+        key="souzoku",
         label="相続税法基本通達",
         base_path="/law/tsutatsu/kihon/sisan/sozoku2",
-        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sozoku",
+        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "souzoku",
         expected_leaves=34,
     ),
     "hyoka": Circular(

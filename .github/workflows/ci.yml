@@ -67,7 +67,7 @@ jobs:
         env:
           PYTHONPATH: tools/shared/src
         run: |
-          pytest tools/shared/tests tools/validate/tests tools/parse/tests/test_tsutatsu_byte_regression.py tools/parse/tests/test_shouhi_tsutatsu.py tools/parse/tests/test_tsutatsu_multichapter.py tools/parse/tests/test_taxanswer_related.py tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests tools/search-ui/tests tools/fetch-egov/tests/test_tsutatsu_fetcher.py -v
+          pytest tools/shared/tests tools/validate/tests tools/parse/tests/test_tsutatsu_byte_regression.py tools/parse/tests/test_shouhi_tsutatsu.py tools/parse/tests/test_tsutatsu_multichapter.py tools/parse/tests/test_taxanswer_related.py tools/parse/tests/test_souzoku_corpus.py tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests tools/search-ui/tests tools/fetch-egov/tests/test_tsutatsu_fetcher.py -v
 
       - name: Validate all law data files
         # 2026-05-25: data/phase1-*/ (v0.1) を archive/v0.1/ に deprecate 済.
