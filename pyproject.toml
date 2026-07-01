@@ -108,6 +108,8 @@ testpaths = [
     # 2026-06-25 FU-520: taxanswer related 抽出テスト。最小 committed corpus fixture を
     # 注入し build/chunks 非依存 (hermetic) 化したため CI に追加 (ロック済期待値は不変)。
     "tools/parse/tests/test_taxanswer_related.py",
+    # 2026-07-01 FU-523 遅延配線: 所得税法基本通達 corpus fixture ゲート (1,227 件・共通通達回復回帰含む)。CI-safe (cache テストは skipif)。
+    "tools/parse/tests/test_shotoku_corpus.py",
     # 2026-07-01 FU-524: 相続税法基本通達 corpus fixture ゲート (445 件・偽リンク回帰含む)。
     "tools/parse/tests/test_souzoku_corpus.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
