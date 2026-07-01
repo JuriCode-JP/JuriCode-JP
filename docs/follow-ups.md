@@ -1736,6 +1736,22 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [x] FU-529: タックスアンサー拡充 (源泉所得税) + 所得税バーティカル活性化 — ✅ 完了 2026-07-01 (PR #78, main b47ea37c)
+
+**経緯**: 順序4 横展開4本目 = 源泉所得税 (`/taxanswer/gensen/`)。**純 config でなく所得税バーティカル「活性化」案件**——源泉は 所法/所令/所基通 を core で引くが、これらは FU-527 で sozoku の越境として `CORPUS_UNREGISTERED_PREFIXES` に登録済だった。→ 所-prefix を `LAW_PREFIX_MAP` へ移動（活性化）し、既存 hojin/sozoku/shohi の 所法 参照が unlinked→real link へ昇格。
+
+**成果**:
+- **所得税バーティカル活性化**: 所法/所令/所規/所基通 を `CORPUS_UNREGISTERED_PREFIXES` → `LAW_PREFIX_MAP` へ移動（所基通→shotoku-kihon-tsutatsu[FU-523]・`_TSUTATSU_PREFIXES` にアトミック追記）。gensen: **129 directives → shotoku-kihon-tsutatsu (所基通→FU-523 所得税通達)・273 articles**。config-light 横展開で taxanswer 4 カテゴリ (法人/相続贈与/消費/源泉) CI ガード済。
+- **既存3 baseline 再ロック (佐藤 per-baseline 承認)**: 所-活性化で hojin/sozoku/shohi の 所法 refs が unlinked→linked 昇格 (**Effect A**・Cowork 独立カウント hojin 9ch/10ref・sozoku 3ch/5ref・shohi 3ch/4ref と完全一致・喪失ゼロ)。加えて既存 cache 再走で `_NOTICE_RE` の潜在バグ発見 (**Effect B**・ドット形個別通達の誤リンク): 根因修正 (`_NOTICE_RE` に optional `.月`) で shohi 偽リンク3件除去+理由ラベル是正・hojin 理由1件。**Effect A/B を分離提示→トークン一覧で個別通達確認→per-baseline 承認**の規律。
+- **査読 4 制約を実コード裁定・全採用**: _TSUTATSU_PREFIXES アトミック同期 / 既存3テスト内訳 assert 実測再ロック / 復興系略称 probe→UNREG (実測 0 件だったが予防登録) / 既存 cache 非再取得 (所法昇格 diff のみ抽出)。
+- **品質ゲート**: 全4 corpus 偽リンク 0・本文 byte 不変 (所-昇格/`_NOTICE_RE` 以外)・CI 全9 green。
+
+**残課題**: 順序4 の残 (所得税[1000番台・最大]/譲渡 タックスアンサー = 純 config 化済の基盤上) / 租税特別措置法 (順序5・要独立計画書)。
+
+**関連**: FU-528 (消費税 taxanswer) / FU-523 (所得税通達) / FU-527 (多法令化基盤) / `business/fu-529-execution-prompt-FINAL-2026-07-01.md`。
+
+---
+
 ### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
 **経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。
