@@ -1766,6 +1766,18 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 **残課題**: 順序4 は概ね消化 (残＝譲渡[3000]・印紙他) / 租税特別措置法 (順序5・措法系 prefix は UNREG 予約済・要独立計画書)。
 
+### [x] FU-531: タックスアンサー拡充 (譲渡所得・3000番台) — ✅ 完了 2026-07-01 (PR #82, main 9625aee9)
+
+**経緯**: 順序4 横展開6本目 = 譲渡所得 (`/taxanswer/joto/`)。所-prefix・措法系 UNREG は既に活性化/予約済ゆえ**最も config-light**（fetcher に Category(joto) 追加のみ・parser の既存 prefix 一切非変更）。譲渡は特例課税が中心ゆえ**措法系参照が多い**。
+
+**成果**:
+- **譲渡所得タックスアンサー 71 コード**を hermetic CI ガード付き corpus 化。所法/所基通へリアルリンク・措法系参照は UNREG として unlinked 記録（順序5 措置法取込時に link 化予定）。これで taxanswer **6 カテゴリ (法人111/相続贈与52/消費114/源泉66/所得212/譲渡71) = 626 chunks** が CI ガード済。
+- **越境 probe / 固有 H2 サーベイで新規 prefix・boilerplate 終端ゼロを実測**。既存5カテゴリ + 通達5本の corpus テスト全通過で **byte 不変（純アドオン）を事前実証**。
+- **査読添付スクリプト3本を実コードで却下**: (a) gitignored な build/chunks への `git diff` preflight（偽陽性・byte 不変検証は committed fixture 比較テストが正）(b) `git add -f build/chunks`（コミット正本は fixture であって生成物でない）(c) 存在しない pyproject アンカー参照。
+- **品質ゲート**: 越境偽リンク 0・既存10 corpus byte 不変・CI 全9 green (pytest 698)・GitHub CI pass。
+
+**残課題**: 順序4 完了（残＝印紙他・質疑応答事例は別途）/ **順序5 租税特別措置法**（措法/措令/措規/措通 は UNREG 予約済。タックスアンサーの多数の unlinked 措法参照〔譲渡だけで約239〕を link 化し各税目の特例レイヤーを一気に埋める・要独立計画書＋GO）。
+
 **関連**: FU-529 (源泉 taxanswer・所-活性化) / FU-523 (所得税通達) / `business/fu-530-execution-prompt-FINAL-2026-07-01.md`。
 
 ---
