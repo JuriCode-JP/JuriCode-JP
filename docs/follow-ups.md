@@ -1719,6 +1719,23 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [x] FU-528: タックスアンサー拡充 (消費税) — ✅ 完了 2026-07-01 (PR #76, commit 90b01fa0)
+
+**経緯**: 順序4 横展開3本目 = 消費税 (`/taxanswer/shohi/`)。**config-light 横展開の初事例**——FU-527 の多法令化基盤 (LAW_PREFIX_MAP / `_TSUTATSU_PREFIXES` / nested corpus loader / fetcher CATEGORIES) が main 在ゆえ、消費税は純 config 追加で済む。
+
+**成果**:
+- **config-light 実装**: fetcher に `Category(shohi)` 1件 + `LAW_PREFIX_MAP` に 消法/消令/消規/消基通 + `_TSUTATSU_PREFIXES` に 消基通。新規ロジックは告示 guard 1点のみ。**非対称厳守**: taxanswer 側 abbrev `shohi-taxanswer`(u なし) vs 参照先 `shouhi-*`(u あり)。
+- **消費税バーティカル完成**: /shohi/ **114 chunks** (索引 115→soft-404 1[6950]除外)。**directives 54 = 全て shouhi-kihon-tsutatsu (消基通→FU-519 消費税通達に実解決)**。articles 395 (消法279/消令93/消規19 + 法法2/法令1/法規1 = 法人税 corpus への cross-vertical)。qa 151 / unlinked 336 / 枝番 0 / dup id 0。
+- **越境偽リンク probe で 6 件発見・修正 → 0 化**: 輸徴法13/21①・旧消法16 → UNREG 登録、厚労省告示×3 → 告示 guard。hojin/sozoku byte 完全不変を実証。
+- **佐藤裁定 (baseline ロック)**: (B) 全角数字正規化を実装 (`消法２①九の二` の全角 ２ が art-２九-二/art-2九-二 で別 id になる不整合を統一・hojin byte 不変)。(A) 別表/号・(C) source 読点欠落 (消法30、31消令48) は既存挙動/忠実記録として受容ロック。Cowork 一次突合で 6303 の全角 ２ を実ページ確認。
+- **品質ゲート**: 越境偽リンク 0 / 段落二重取得 0 (重複 7 ページは全て生 NTA HTML に faithful=インボイス適格/簡易の正当 source 重複) / version_date None 0 / 画像 22枚8p / body 118-6449。CI 全9 green (3.11/3.12・pytest 635)。hermetic gate test 新設・CI 両所配線・licensing/glossary 更新。
+
+**残課題**: 順序4 の残カテゴリ (所得税/源泉 タックスアンサー = 純 config 化済の基盤上) / 租税特別措置法 (順序5・要独立計画書)。
+
+**関連**: FU-527 (相続贈与 taxanswer・多法令化基盤) / FU-519 (消費税通達) / `business/fu-528-taxanswer-shohi-plan-briefing-2026-07-01.md`。
+
+---
+
 ### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
 **経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。
