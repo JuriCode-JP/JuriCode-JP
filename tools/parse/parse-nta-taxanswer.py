@@ -59,22 +59,58 @@ ATTRIBUTION = "国税庁タックスアンサー"  # 国税庁タックスアン
 SOURCE_FORMAT = "nta-html"
 
 # Abbreviation prefix -> (law_abbrev, id_prefix) mapping
+#
+# 2026-07-01 FU-527: 法人税ハードコードから多法令化。相続バーティカル (相続税法 +
+# 相続税法基本通達 + 財産評価基本通達) の prefix を追加。以降カテゴリは純 config 追加で
+# 済む。tsutatsu 系 (法基通/相基通/評基通) は id_prefix == law_abbrev (directive_id は
+# `<law_abbrev>-<番号>` ゆえ -art サフィックス無し) で区別は _TSUTATSU_PREFIXES が持つ。
 LAW_PREFIX_MAP: dict[str, tuple[str, str]] = {
     "法法": ("houjin-zei-hou", "houjin-zei-hou-art"),  # 法法
     "法令": ("houjin-zei-hou-shikkourei", "houjin-zei-hou-shikkourei-art"),  # 法令
     "法規": ("houjin-zei-hou-shikoukisoku", "houjin-zei-hou-shikoukisoku-art"),  # 法規
     "法基通": ("hojin-kihon-tsutatsu", "hojin-kihon-tsutatsu"),  # 法基通
+    # --- FU-527 相続・贈与 (seed。全 prefix は fetch 後 probe で確定) ---
+    "相法": ("souzoku-zei-hou", "souzoku-zei-hou-art"),  # 相法
+    "相令": ("souzoku-zei-hou-shikkourei", "souzoku-zei-hou-shikkourei-art"),  # 相令
+    "相規": ("souzoku-zei-hou-shikoukisoku", "souzoku-zei-hou-shikoukisoku-art"),  # 相規
+    "相基通": ("souzoku-kihon-tsutatsu", "souzoku-kihon-tsutatsu"),  # 相基通
+    "評基通": ("zaisan-hyoka-kihon-tsutatsu", "zaisan-hyoka-kihon-tsutatsu"),  # 評基通
 }
 
-# Prefixes that are not in corpus (unlinked + warn)
+# tsutatsu (基本通達) 系の prefix。N-N-N 形式の通達番号として処理し、対応法令の通達番号
+# 集合に対して照合する。Why: 旧 `prefix == "法基通"` ハードコードでは 相基通/評基通 が
+# article 参照に誤分類された (FU-527)。
+_TSUTATSU_PREFIXES = frozenset({"法基通", "相基通", "評基通"})  # 法基通 相基通 評基通
+
+# Prefixes that are not in corpus (unlinked + warn).
+# Why (FU-527): sozoku の 根拠法令等 に現れる他法令参照。corpus 未取込 or 別バーティカル
+# ゆえ相続バーティカル (相法/相基通/評基通) には link せず、unlinked として「記録」する
+# (silent drop でも false link でもない)。全 prefix を probe で列挙してここに登録することで、
+# 未知 prefix が直前 prefix を継承して偽リンクする事故を構造的に防ぐ。措置法 (措法/措令/
+# 措規/措通) は順序5 で独立取込予定。
 CORPUS_UNREGISTERED_PREFIXES = {
-    "措法",  # 措法
+    "措法",  # 措法 (租税特別措置法・順序5)
+    "措令",  # 措令 (措置法施行令)
+    "措規",  # 措規 (措置法施行規則)
+    "措通",  # 措通 (措置法通達)
+    "所法",  # 所法 (所得税法・所得バーティカル)
+    "所令",  # 所令 (所得税法施行令)
+    "所基通",  # 所基通 (所得税基本通達)
+    "通法",  # 通法 (国税通則法)
+    "通令",  # 通令 (国税通則法施行令)
+    "民法",  # 民法
+    "郵政民営化法",  # 郵政民営化法
 }
 
 # Prefixes for 改正附則 (amendment proviso) - always unlinked
 _KAISEI_RE = re.compile(
     r"^(?:平\d+|令\d+)改正"  # 平N改正 or 令N改正
 )
+
+# NTA 個別通達番号 (直評/課評/課資/直資 等)。年 (平元/令5) + 課室記号 + 番号 形式で
+# N-N-N の directive_number に解決できないため unlinked 扱い (FU-527: 平元直評5 /
+# 令5課評2-74)。改正附則と同じく後続の裸番号も unlinked に継承させる。
+_NOTICE_RE = re.compile(r"^(?:昭|平|令)(?:元|\d+)(?:直|課)")  # 平元直評 / 令5課評
 
 # ---------------------------------------------------------------------------
 # Text normalization (R7, R10) -- cp932-safe: use Unicode escapes
@@ -211,34 +247,51 @@ def _expand_range(prefix_str: str, range_raw: str, law_abbrev: str, id_prefix: s
     return results
 
 
-# Known tsutatsu corpus (loaded at runtime from build/chunks if available)
-_TSUTATSU_CORPUS: set[str] | None = None
+# Known tsutatsu corpora (loaded at runtime from build/chunks if available).
+# 2026-07-01 FU-527: flat set[str] から nested {law_abbrev: set[directive_number]} へ。
+# Why: 相続バーティカルで 相基通 と 評基通 の通達番号 (例 16-1) が衝突し、flat set だと
+# どちらの参照も相手側 corpus に誤ヒットして偽リンクする。law_abbrev をキーにした
+# ネスト集合にすることで、相基通参照は souzoku 通達集合、評基通参照は hyoka 通達集合に
+# のみ照合する (誤リンク = 404 を構造的に排除)。
+_TSUTATSU_CORPUS: dict[str, set[str]] | None = None
+
+# build/chunks 配下の tsutatsu chunk ファイル名から law_abbrev を取り出す。
+# flat (souzoku-kihon-tsutatsu.tsutatsu.chunks.jsonl) と subdir
+# (hojin-kihon-tsutatsu/hojin-kihon-tsutatsu.tsutatsu.chunks.jsonl) の両形状を
+# ファイル名 (親ディレクトリ非依存) で吸収する。
+_TSUTATSU_FILE_RE = re.compile(r"^(?P<abbrev>.+)\.tsutatsu\.chunks\.jsonl$")
 
 
-def _load_tsutatsu_corpus() -> set[str]:
+def _load_tsutatsu_corpus() -> dict[str, set[str]]:
+    """build/chunks 配下の全 tsutatsu corpus を {law_abbrev: {directive_number}} で返す.
+
+    Why: 参照解決を法人税ハードコードから多法令化する (FU-527)。build/chunks は
+    gitignored ゆえ CI 不在時は空 dict (=全 unlinked) になるが、hermetic corpus test は
+    committed fixture を参照するため CI は割れない (byte 再現 test は cache skipif)。
+    """
     global _TSUTATSU_CORPUS
     if _TSUTATSU_CORPUS is not None:
         return _TSUTATSU_CORPUS
     import json
 
-    chunks = (
-        Path(__file__).resolve().parents[2]
-        / "build"
-        / "chunks"
-        / "hojin-kihon-tsutatsu"
-        / "hojin-kihon-tsutatsu.tsutatsu.chunks.jsonl"
-    )
-    nums: set[str] = set()
-    if chunks.exists():
-        for line in chunks.read_text(encoding="utf-8").splitlines():
-            if line.strip():
-                try:
-                    r = json.loads(line)
-                    nums.add(r["directive_number"])
-                except Exception:
-                    pass
-    _TSUTATSU_CORPUS = nums
-    return nums
+    chunks_root = Path(__file__).resolve().parents[2] / "build" / "chunks"
+    corpus: dict[str, set[str]] = {}
+    if chunks_root.exists():
+        for path in chunks_root.glob("**/*.tsutatsu.chunks.jsonl"):
+            m = _TSUTATSU_FILE_RE.match(path.name)
+            if not m:
+                continue
+            abbrev = m.group("abbrev")
+            nums = corpus.setdefault(abbrev, set())
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if line.strip():
+                    try:
+                        r = json.loads(line)
+                        nums.add(r["directive_number"])
+                    except Exception:
+                        pass
+    _TSUTATSU_CORPUS = corpus
+    return corpus
 
 
 def extract_related_from_kikon(raw_kikon: str) -> dict:
@@ -279,6 +332,15 @@ def extract_related_from_kikon(raw_kikon: str) -> dict:
             # Keep current_prefix (amendment prefix does not override, e.g. 改正法附則14、15)
             # But 15 after 改正法附則14 should also be unlinked (no prefix, inherit amendment)
             # We flag the prefix as "amendment" so continuation is also unlinked
+            current_prefix = "__amendment__"
+            current_law_abbrev = None
+            current_id_prefix = None
+            continue
+
+        # NTA 個別通達番号 (直評/課評 等) -> unlinked (FU-527)。amendment と同様に後続の
+        # 裸番号も unlinked に継承させる (__amendment__ context 共有)。
+        if _NOTICE_RE.match(token):
+            unlinked.append({"raw": token, "reason": "nta_notice"})
             current_prefix = "__amendment__"
             current_law_abbrev = None
             current_id_prefix = None
@@ -340,11 +402,11 @@ def extract_related_from_kikon(raw_kikon: str) -> dict:
         else:
             # No explicit prefix: inherit from current_prefix
             if current_prefix is None or current_prefix == "__amendment__":
-                # No known context -- skip with warn
-                warnings.warn(
-                    f"WARN: token {token!r} has no prefix and no prior context. Skipping.",
-                    stacklevel=2,
-                )
+                # No resolvable prefix/context -- RECORD as unlinked, never silently drop
+                # (FU-527/FU-523: silent drop hides coverage gaps; e.g. 別法令 耐令/旧法令/
+                # 租特透明化法, NTA notice 平元.3直法, 措法 article continuation split by an
+                # interspersed amendment token like 措法70の3、令5改正法附則19、70の3の2)。
+                unlinked.append({"raw": token, "reason": "unresolved_no_context"})
                 continue
 
             if current_prefix in CORPUS_UNREGISTERED_PREFIXES:
@@ -377,7 +439,7 @@ def _process_remainder(
     prefix: str,
     law_abbrev: str,
     id_prefix: str,
-    tsutatsu_corpus: set[str],
+    tsutatsu_corpus: dict[str, set[str]],
     related_articles: list,
     related_directives: list,
     unlinked: list,
@@ -387,11 +449,13 @@ def _process_remainder(
     if not remainder:
         return
 
-    is_tsutatsu = prefix == "法基通"  # 法基通
+    is_tsutatsu = prefix in _TSUTATSU_PREFIXES  # 法基通/相基通/評基通
 
     if is_tsutatsu:
+        # この通達の law_abbrev に対応する番号集合のみで照合 (相基通/評基通 の番号衝突を回避)。
+        law_directives = tsutatsu_corpus.get(law_abbrev, set())
         _process_tsutatsu_remainder(
-            remainder, raw_token, law_abbrev, tsutatsu_corpus, related_directives, unlinked
+            remainder, raw_token, law_abbrev, law_directives, related_directives, unlinked
         )
     else:
         # Article reference
@@ -589,8 +653,14 @@ def _detect_charset(raw: bytes) -> str:
     return "utf-8"
 
 
-def parse_file(htm_path: Path, code: str, tax_category: str) -> dict:
-    """Parse a single TaxAnswer HTML file -> dict record."""
+def parse_file(htm_path: Path, code: str, tax_category: str, law_abbrev: str) -> dict:
+    """Parse a single TaxAnswer HTML file -> dict record.
+
+    Why law_abbrev: record_id を `<law_abbrev>-<code>` で組む (FU-527)。旧実装は
+    `hojin-taxanswer-<code>` ハードコードで、sozoku 等の別カテゴリで誤 id を生む
+    silent bug だった (--law-abbrev は出力ファイル名にしか効いていなかった)。hojin は
+    既定 law_abbrev='hojin-taxanswer' ゆえ id は byte 不変。
+    """
     raw = htm_path.read_bytes()
     enc = _detect_charset(raw)
     try:
@@ -632,6 +702,15 @@ def parse_file(htm_path: Path, code: str, tax_category: str) -> dict:
                 in_body = True
             continue
         if not in_body:
+            continue
+
+        # 異形ページ対策 (FU-527): 単一の <p>/<ul>/<li> が section 見出し (<h2>) を入れ子で
+        # 内包する malformed ラッパ (NTA taxanswer 4103/4168 等・sozoku 7p/hojin 1p) は
+        # get_text が 根拠法令等 以降の trailer (関連コード/QAリンク/お問い合わせ/アンケート)
+        # まで丸ごと吐き、terminated latch (トップレベル h2 走査) を回避して本文に漏らす。
+        # content 段落は section 見出しを内包しないため、入れ子 <h2> を持つ container は skip
+        # し、その leaf 子要素 (find_all が個別走査し 根拠法令等 h2 で terminated) に委ねる。
+        if tag.name in ("p", "ul", "li") and tag.find("h2") is not None:
             continue
 
         if tag.name == "h3":
@@ -687,7 +766,7 @@ def parse_file(htm_path: Path, code: str, tax_category: str) -> dict:
 
     # Build record via TaxAnswerChunk (type-safe IR)
     source_url = f"{SOURCE_URL_BASE}/{tax_category}/{code}.htm"
-    record_id = f"hojin-taxanswer-{code}"
+    record_id = f"{law_abbrev}-{code}"
 
     return _build_chunk_record(
         record_id=record_id,
@@ -875,7 +954,7 @@ def main(argv: list[str] | None = None) -> int:
             continue
 
         try:
-            item = parse_file(htm_path, code, args.tax_category)
+            item = parse_file(htm_path, code, args.tax_category, args.law_abbrev)
         except Exception as e:
             msg = f"ERROR: failed to parse {htm_path.name}: {e}"
             print(msg, file=sys.stderr)

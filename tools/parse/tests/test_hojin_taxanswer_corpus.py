@@ -5,8 +5,9 @@ Why this test exists:
     `tools/parse/tests/fixtures/hojin-taxanswer.corpus.chunks.baseline.jsonl`
     (souzoku/hyoka と同じ場所・同じ規約)。本テストは佐藤ロック値 (全 111 件・枝番 5・
     links 222/28/132/361・content 画像 22・version_date None 0・body 189..8338) を fixture に
-    対して pin し、cache がある push 前ローカルでは parser が fixture を byte 再現することを
-    検証する。
+    対して pin し (links 221/28/132/399・content 画像 22・version_date None 0・body 189..6418,
+    2026-07-01 FU-527 再ロック済)、cache がある push 前ローカルでは parser が fixture を byte
+    再現することを検証する。
 
     母集団 (2026-07-01 実測・佐藤一次突合済でロック):
         code/index.htm の /taxanswer/hojin/ href = 115 codes
@@ -43,16 +44,26 @@ _FIXTURE = _THIS.parent / "fixtures" / "hojin-taxanswer.corpus.chunks.baseline.j
 _HOJIN_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "hojin"
 
 # LOCKED 確定値 (実パーサ dry-run + 母集団突合で確定・佐藤ロック 2026-07-01・改変は明示承認必須)。
+#
+# 2026-07-01 FU-527 再ロック (佐藤明示承認): taxanswer parser の多法令化 (相続バーティカル
+# 対応) が、旧ロック値に潜んでいた 3 つのバグを修正した (expected がバグだった時のみの再ロック)。
+#   1. 偽リンク除去 (5100): `通法10` (国税通則法10条) が houjin-zei-hou-shikoukisoku-art-通法10
+#      という壊れた article_id で誤リンクされていた -> related_articles 222->221。
+#   2. silent-drop 記録 (24 件): 耐令/旧法令/租特透明化法/NTA通達番号 等の越境参照が silent に
+#      捨てられていた -> unlinked_refs に記録 (reason 精緻化と併せ 361->399)。
+#   3. body de-dup (5927-3 のみ): mega-<p> 異形構造で 12 段落が二重取得され trailer も漏れていた
+#      -> de-dup + trailer 除去で body 最大 8338->6418 (全 content 文 probe 検証で欠落ゼロ)。
+# directives/qa/title/version/images/total/branched は全 111 チャンク不変。
 EXPECTED_TOTAL = 111  # dedup 後のユニーク code 数 (母集団 115 - soft-404 4)
 EXPECTED_BRANCHED = frozenset({"5364-2", "5400-2", "5409-2", "5927-2", "5927-3"})  # 枝番 5 件
-EXPECTED_ARTICLES = 222  # related_articles 総数
+EXPECTED_ARTICLES = 221  # related_articles 総数 (FU-527: 222->221, 通法10 偽リンク除去)
 EXPECTED_DIRECTIVES = 28  # related_directives 総数
 EXPECTED_QA = 132  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 361  # unlinked_refs 総数
+EXPECTED_UNLINKED = 399  # unlinked_refs 総数 (FU-527: 361->399, silent-drop 24 記録+reason 精緻化)
 EXPECTED_IMAGES = 22  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 8  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
-BODY_MIN, BODY_MAX = 189, 8338  # body 文字数の最小/最大 (スコープ拡張後)
+BODY_MIN, BODY_MAX = 189, 6418  # body 文字数の最小/最大 (FU-527: 8338->6418, 5927-3 de-dup)
 EXPECTED_CACHE_HTM = 111  # 取得済 htm 数 (soft-404 4 は保存されない)
 _HOST = "https://www.nta.go.jp/"
 
