@@ -137,6 +137,13 @@ testpaths = [
     # ドット形通達 [平元.3直法] の nta_notice 是正)。所法昇格で hojin/sozoku/shohi baseline も再ロック
     # (佐藤明示承認)。CI-safe (cache テストは skipif)。
     "tools/parse/tests/test_gensen_taxanswer_corpus.py",
+    # 2026-07-01 FU-530: 所得税タックスアンサー corpus fixture ゲート (212 件・枝番 6・最大ボリューム。
+    # 所得税ファミリ [所法/所令/所規->shotoku-* 469/192/40 + 所基通 123 -> shotoku-kihon-tsutatsu]・
+    # 法人税/相続税/消費税 cross-vertical [houjin/souzoku/shouhi + 相基通->souzoku-kihon-tsutatsu 1]・
+    # 越境偽リンクゼロ [措/通/震災特例法/復興系/実施特例/耐省令/条約 等は UNREG unlinked]・_NOTICE_RE
+    # 中黒形通達 [平12・6課所] の nta_notice 是正)。FU-529 の所得税バーティカル上の純 additive 取込
+    # (既存4カテゴリ byte 不変ゆえ再ロックなし)。CI-safe (cache テストは skipif)。
+    "tools/parse/tests/test_shotoku_taxanswer_corpus.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
     # 2026-07-01 FU-524: NTA 通達 fetcher の目次リンク分類 (extract_links) hermetic test。
