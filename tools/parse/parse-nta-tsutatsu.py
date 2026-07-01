@@ -42,6 +42,7 @@ from collections.abc import Mapping
 from dataclasses import dataclass, field
 from functools import cache
 from pathlib import Path
+from typing import Literal
 
 try:
     from bs4 import BeautifulSoup
@@ -91,8 +92,18 @@ class CircularConfig:
     amendment_markers: tuple[str, ...] = ("課法",)
     # 通達番号のレベル数。法人税/消費税は 3 レベル (章-節-項)、所得税基本通達は 2 レベル
     # (条-番号 = "204-1")。番号検出正規表現と directive_id 形式ゲートをこの値で駆動する。
-    # 既定 3 で HOJIN/SHOUHI は移行前と完全一致 (byte 回帰で実証)。
+    # 既定 3 で HOJIN/SHOUHI は移行前と完全一致 (byte 回帰で実証)。num_style="flat_branch"
+    # のときは num_levels は不使用 (flat_branch は単発番号 + 任意枝番でレベル数を持たない)。
     num_levels: int = 3
+    # 番号体系のスタイル。
+    #   "hierarchical" (既定): 階層番号 (章-節-項 / 条-番号)。レベルは "-" で必ず連結され、
+    #       この必須ハイフンが (注) 注記の平文 "1 …" を通達番号から弾く判別子になる。
+    #   "flat_branch": 財産評価基本通達型。章跨ぎの単発通し番号 (1..215) + 任意の単一ダッシュ
+    #       枝番 ("4-2")。単発番号は番号形だけでは注記・別表行と区別できないため、番号が
+    #       <strong> 内にある段落のみ通達開始とみなす (実 HTML で strong 付き 313 件が全 unique
+    #       な真通達・平文番号 40 件は全て (注)/別表 と確認済)。既定 hierarchical は全経路で
+    #       現行と完全一致 (byte 回帰で実証)。
+    num_style: Literal["hierarchical", "flat_branch"] = "hierarchical"
 
 
 # 法人税基本通達 (既定・byte 回帰で固定。値は移行前の module 定数と完全一致)。
@@ -169,12 +180,37 @@ SOUZOKU_CONFIG = CircularConfig(
     num_levels=2,
 )
 
+# 財産評価基本通達。num_style="flat_branch" (章跨ぎの単発通し番号 1..215 + 任意の単一ダッシュ
+# 枝番 "4-2"。実 HTML で strong 付き番号 313 件が全 unique な真通達・平文番号 40 件は全て (注)
+# 注記/別表行と実測確認)。NTA URL パスは "sisan/hyoka_new" (web_fetch 実確認・"hyoka"/"souzoku"
+# は 404)。改正記号は資産税系の実測 3 値 課評(492)/直資(152)/直評(63)。単発 "評" はゼロ (全て
+# 2 文字コードゆえ本文の "評価" を誤って改正注記と誤認しない)。参照は **完全名のみ** を key にする: 財産評価
+# 通達は "法第N条" の裸接頭辞を使わず 会社法/建築基準法/都市計画法/農地法等の named-law を多数
+# 引くため、裸 "法"/"令"/"規" を ref_map に入れると trailing 法 に誤マッチして相続税法へ偽リンク
+# する (実測: 建築基準法/会社法/地方税法等 ~30 件)。相続税法(実在→link)/所得税法/法人税法(実在)/
+# 地価税法(未収録→warn) の完全名だけを登録し偽リンクを構造的に排除する。
+HYOKA_CONFIG = CircularConfig(
+    law_name_ja="財産評価基本通達",
+    law_abbrev="zaisan-hyoka-kihon-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kihon/sisan/hyoka_new",
+    ref_map={
+        "相続税法": "souzoku-zei-hou",  # 相続税法 (corpus 実在 -> link)。評価通達の主法。
+        "所得税法": "shotoku-zei-hou",  # 所得税法 (corpus 実在 -> link)
+        "法人税法": "houjin-zei-hou",  # 法人税法 (corpus 実在 -> link)
+        "地価税法": "chika-zei-hou",  # 地価税法 (corpus 未収録 -> warn, no link)
+    },
+    corpus_unregistered=frozenset({"chika-zei-hou"}),
+    amendment_markers=("課評", "直資", "直評"),
+    num_style="flat_branch",
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
     "shouhi": SHOUHI_CONFIG,
     "shotoku": SHOTOKU_CONFIG,
     "souzoku": SOUZOKU_CONFIG,
+    "hyoka": HYOKA_CONFIG,
 }
 
 
@@ -345,7 +381,15 @@ _FIRST_LEVEL = rf"{_LEVEL}(?:[・〜～~]{_LEVEL})*"
 
 
 def _directive_levels_re(config: CircularConfig) -> str:
-    """'{first}-{level}-...' を config.num_levels 個のレベルで組む (先頭は条範囲可)。"""
+    """番号パターンを num_style で組む。
+
+    hierarchical: '{first}-{level}-...' を config.num_levels 個のレベルで (先頭は条範囲可)。
+    flat_branch:  '{first}(?:-{level})?' = 単発番号 + 任意の単一ダッシュ枝番 (財産評価型・
+                  貪欲で "4-2" を丸ごと、"4" を単独で取る)。num_levels は不使用。
+    hierarchical 経路は従来と完全に同一文字列を返す (byte 回帰で実証)。
+    """
+    if config.num_style == "flat_branch":
+        return rf"{_FIRST_LEVEL}(?:-{_LEVEL})?"
     return "-".join([_FIRST_LEVEL] + [_LEVEL] * (config.num_levels - 1))
 
 
@@ -377,9 +421,27 @@ _CHAPTER_DIR_RE = re.compile(r"\d{2}(?:_\d+|a)?")
 # 検証対象は正規化済 id ゆえ条範囲は "・" でなく "_" (74_75-1)。
 _ID_FIRST_LEVEL = rf"{_LEVEL}(?:_{_LEVEL})*"
 
+# flat_branch 専用: 構造境界マーカー (章/節/款/目 divider ・ 附表/別表/付表/別紙 見出し)。
+# 財産評価通達は単発通し番号ゆえ、節・章の見出しや附表見出しが通達間の平文段落として現れ、
+# そのままだと直前通達の本文へ吸い込まれる (例: "第5節 信託受益権" が 201 削除本文に混入、
+# "付表10 削除" が 43-4 本文に混入)。この境界に達したら現通達を確定し、次の通達開始まで本文
+# 蓄積を打ち切る。第N見出しは「第<番号><単位>」の直後が空白/全角空白のもののみに限定し、
+# 本文中の "第6章≪…≫" のような文中参照 (助詞や記号が続く) を誤検出しない。h1 見出しは元々
+# スキップされるため対象は <p> の平文見出しのみ。
+_FLAT_SECTION_BOUNDARY_RE = re.compile(
+    r"^(?:第[0-9０-９〇一二三四五六七八九十百千]+[編章節款目][\s　]"
+    r"|(?:附表|別表|付表|別紙)[0-9０-９\s　])"
+)
+
 
 def _build_directive_id_tail_re(config: CircularConfig) -> re.Pattern:
-    """config.num_levels に応じた directive_id 末尾 (law_abbrev 除去後) の形式パターン。"""
+    """directive_id 末尾 (law_abbrev 除去後) の形式パターンを num_style で組む。
+
+    hierarchical: num_levels 個のレベルを "-" 連結 (従来と完全同一)。
+    flat_branch:  '{first}(?:-{level})?' = 単発番号 + 任意枝番 ("100" / "4-2")。
+    """
+    if config.num_style == "flat_branch":
+        return re.compile(rf"{_ID_FIRST_LEVEL}(?:-{_LEVEL})?")
     return re.compile("-".join([_ID_FIRST_LEVEL] + [_LEVEL] * (config.num_levels - 1)))
 
 
@@ -558,6 +620,49 @@ def _extract_directive_items(
             # h1 is the section header - skip
             if tag_name == "h2":
                 current_title = tag.get_text(strip=True)
+            continue
+
+        # flat_branch (財産評価基本通達): 単発通し番号 + 任意の枝番。番号が <strong> 内に
+        # ある段落のみ通達開始とみなし、(注) 注記や別表の平文 "1 …" は本文として蓄積する
+        # (単発番号は番号形だけでは注記・別表行と区別できないため strong を必須ゲートにする。
+        # 実 HTML で strong 付き番号 313 件が全 unique な真通達・平文番号 40 件は全て注記/別表
+        # と確認済)。split-strong <strong>4</strong><strong>－2</strong> のため番号値は strong
+        # 単独でなく段落先頭の完全一致 (case_b_re) から取り "4" に切り詰めない。always-continue
+        # ゆえ以降の hierarchical 経路には落ちない (既存コーパスは num_style 既定で影響なし)。
+        if config.num_style == "flat_branch":
+            fb_strong = tag.find("strong")
+            fb_plain = _normalize_text(_text_excluding_nested_blocks(tag)).strip()
+            fb_stext = (
+                _normalize_text(fb_strong.get_text()).strip() if fb_strong is not None else ""
+            )
+            fb_lead = (
+                case_b_re.match(fb_plain)
+                if (fb_strong is not None and fb_stext and fb_plain.startswith(fb_stext))
+                else None
+            )
+            if fb_lead:
+                _flush(current_num, current_item_title, current_body_parts, current_amendment)
+                current_num = _RANGE_SEP_RE.sub("_", fb_lead.group(1))
+                current_item_title = current_title
+                current_title = None  # consume-once (削除通達はタイトルなし)
+                current_body_parts = []
+                current_amendment = None
+                remaining = fb_plain[fb_lead.end() :].strip()
+                if remaining:
+                    current_body_parts.append(remaining)
+            elif _FLAT_SECTION_BOUNDARY_RE.match(fb_plain):
+                # 構造境界 (章/節 divider ・ 附表/別表/付表 見出し): 現通達を確定し、以降の
+                # 付随構造ブロックは次の通達開始まで本文に取り込まない (吸い込み防止)。
+                _flush(current_num, current_item_title, current_body_parts, current_amendment)
+                current_num = None
+                current_item_title = None
+                current_body_parts = []
+                current_amendment = None
+            elif current_num is not None:
+                # (注) 注記 / 号 (1)(2) / 通常本文は現在の通達本文へ蓄積する。
+                raw_text = _normalize_text(_text_excluding_nested_blocks(tag, "\n")).strip()
+                if raw_text:
+                    current_body_parts.append(raw_text)
             continue
 
         # p tags: check if it starts a new directive item
