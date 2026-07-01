@@ -79,6 +79,15 @@ CATEGORIES: dict[str, Category] = {
         path_segment="hojin",
         cache_dir=REPO_ROOT / "cache" / "taxanswer" / "hojin",
     ),
+    # 2026-07-01 FU-527: 相続・贈与タックスアンサー (相続税 4100 番台 + 贈与税 4400 番台は
+    # 同一 path '/taxanswer/sozoku/' に同居する)。hojin と逐語同型 (discover/枝番ソート/
+    # リダイレクト正規化/skip-if-exists は共通実装)。
+    "sozoku": Category(
+        key="sozoku",
+        label="相続・贈与タックスアンサー",
+        path_segment="sozoku",
+        cache_dir=REPO_ROOT / "cache" / "taxanswer" / "sozoku",
+    ),
 }
 
 

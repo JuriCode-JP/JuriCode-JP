@@ -54,6 +54,11 @@ def _import_extractor():
     (None until first _load_tsutatsu_corpus() call, which reads build/chunks). We set
     it to the committed fixture set right after import, so extract_related_from_kikon
     never touches build/chunks -- the test runs identically in CI and locally.
+
+    2026-07-01 FU-527: _TSUTATSU_CORPUS is now nested {law_abbrev: {directive_number}}
+    (multi-law resolution). The locked LOCK_CASES all use 法基通 -> hojin-kihon-tsutatsu,
+    so we key the injected min-corpus under that abbrev. Expected values are unchanged;
+    only the corpus container shape adapts to the parser's new internal representation.
     """
     import importlib.util
 
@@ -63,7 +68,8 @@ def _import_extractor():
     )
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
-    mod._TSUTATSU_CORPUS = _load_min_corpus()  # inject before any extraction call
+    # inject before any extraction call (nested: 法基通 -> hojin-kihon-tsutatsu)
+    mod._TSUTATSU_CORPUS = {"hojin-kihon-tsutatsu": _load_min_corpus()}
     return mod
 
 

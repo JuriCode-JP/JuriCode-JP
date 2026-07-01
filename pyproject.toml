@@ -117,8 +117,14 @@ testpaths = [
     "tools/parse/tests/test_hyoka_corpus.py",
     # 2026-07-01 FU-526: 法人税タックスアンサー corpus fixture ゲート (111 件・枝番 5・本文
     # スコープ拡張 [計算方法/具体例] + trailer 非漏洩・content 画像 22・named-law 偽リンク回帰
-    # 含む)。CI-safe (cache テストは skipif)。
+    # 含む)。CI-safe (cache テストは skipif)。2026-07-01 FU-527 で多法令化に伴い再ロック
+    # (通法10 偽リンク除去 + silent-drop 24 記録 + 5927-3 段落 de-dup、佐藤明示承認)。
     "tools/parse/tests/test_hojin_taxanswer_corpus.py",
+    # 2026-07-01 FU-527: 相続・贈与タックスアンサー corpus fixture ゲート (52 件・枝番 0・
+    # 相続バーティカルの通達リンク [相基通 46 + 評基通 11] を pin・越境参照 unlinked 記録・
+    # mega-<p> 異形ページ trailer 非漏洩回帰含む)。taxanswer parser 多法令化の証跡。
+    # CI-safe (cache テストは skipif)。
+    "tools/parse/tests/test_sozoku_taxanswer_corpus.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
     # 2026-07-01 FU-524: NTA 通達 fetcher の目次リンク分類 (extract_links) hermetic test。
