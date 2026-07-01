@@ -144,6 +144,13 @@ testpaths = [
     # 中黒形通達 [平12・6課所] の nta_notice 是正)。FU-529 の所得税バーティカル上の純 additive 取込
     # (既存4カテゴリ byte 不変ゆえ再ロックなし)。CI-safe (cache テストは skipif)。
     "tools/parse/tests/test_shotoku_taxanswer_corpus.py",
+    # 2026-07-02 FU-531: 譲渡所得タックスアンサー corpus fixture ゲート (71 件・枝番 0・所得税
+    # ファミリ [所法/所令->shotoku-* 60/18 + 所基通 40 -> shotoku-kihon-tsutatsu[FU-523]]・消費税
+    # cross-vertical [消法/消令 2/1]・越境偽リンクゼロ [措法系=順序5 予約 UNREG /震災特例法/復興系/
+    # 実施特例/耐省令/条約 等は unlinked]・譲渡は措法特例参照が多く unlinked 大 [順序5 で link 化予定])。
+    # FU-529/530 の所得税バーティカル上の純 additive 取込 (parser 無変更・既存5カテゴリ byte 不変ゆえ
+    # 再ロックなし)。CI-safe (cache テストは skipif)。
+    "tools/parse/tests/test_joto_taxanswer_corpus.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
     # 2026-07-01 FU-524: NTA 通達 fetcher の目次リンク分類 (extract_links) hermetic test。
