@@ -94,7 +94,7 @@ def test_deeper_leaf_paths_are_leaves() -> None:
 
 def test_expected_leaf_counts_locked() -> None:
     """実測ロック値 (sozoku=34 / hyoka=37) が config に固定されている."""
-    assert _MOD.CIRCULARS["sozoku"].expected_leaves == 34
+    assert _MOD.CIRCULARS["souzoku"].expected_leaves == 34
     assert _MOD.CIRCULARS["hyoka"].expected_leaves == 37
-    assert _MOD.CIRCULARS["sozoku"].base_path.endswith("/sisan/sozoku2")
+    assert _MOD.CIRCULARS["souzoku"].base_path.endswith("/sisan/sozoku2")
     assert _MOD.CIRCULARS["hyoka"].base_path.endswith("/sisan/hyoka_new")

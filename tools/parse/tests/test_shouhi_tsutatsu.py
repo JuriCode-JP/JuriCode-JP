@@ -173,7 +173,7 @@ def test_amendment_note_extracted_with_shouhi_marker() -> None:
 
 def test_circular_config_registry() -> None:
     mod = _import_parser()
-    assert set(mod.CIRCULAR_CONFIGS) == {"hojin", "shouhi", "shotoku"}
+    assert set(mod.CIRCULAR_CONFIGS) == {"hojin", "shouhi", "shotoku", "souzoku"}
     hojin = mod.CIRCULAR_CONFIGS["hojin"]
     shouhi = mod.CIRCULAR_CONFIGS["shouhi"]
     assert hojin.law_abbrev == "hojin-kihon-tsutatsu"
@@ -194,6 +194,18 @@ def test_circular_config_registry() -> None:
     assert shotoku.num_levels == 2
     assert "官総" in shotoku.amendment_markers
     assert shotoku.ref_map["法"] == "shotoku-zei-hou"
+    # 相続税基本通達 (FU-524)。2 レベル (条-番号) + sisan/sozoku2 パス + 資産税系記号 +
+    # 多字接頭辞 (措置法/通則法/所得税法/地価税法) を config.ref_map で切替。
+    souzoku = mod.CIRCULAR_CONFIGS["souzoku"]
+    assert souzoku.law_abbrev == "souzoku-kihon-tsutatsu"
+    assert souzoku.law_name_ja == "相続税法基本通達"
+    assert souzoku.source_url_base == "https://www.nta.go.jp/law/tsutatsu/kihon/sisan/sozoku2"
+    assert souzoku.num_levels == 2
+    assert souzoku.amendment_markers == ("課資", "直資", "課審", "課評")
+    assert souzoku.ref_map["法"] == "souzoku-zei-hou"
+    assert souzoku.ref_map["措置法"] == "sochi-hou"
+    assert souzoku.ref_map["通則法"] == "kokuzei-tsuusoku-hou"
+    assert souzoku.corpus_unregistered == frozenset({"sochi-hou", "chika-zei-hou"})
 
 
 def test_related_articles_use_config_refmap() -> None:
@@ -204,6 +216,28 @@ def test_related_articles_use_config_refmap() -> None:
     shouhi = mod._extract_related_articles(text, mod.CIRCULAR_CONFIGS["shouhi"])
     assert {r["law_abbrev"] for r in hojin} == {"houjin-zei-hou", "houjin-zei-hou-shikkourei"}
     assert {r["law_abbrev"] for r in shouhi} == {"shouhi-zei-hou", "shouhi-zei-hou-shikkourei"}
+
+
+def test_build_law_ref_re_prefix_priority() -> None:
+    """config 駆動 ref 正規表現 (_build_law_ref_re) が長い接頭辞を優先する (FU-524).
+
+    Why: 措置法第N条 を「法」に潰さず 措置法 として捕捉するのが FU-524 の中核。
+    hojin のキー集合 {法,令,規,措法} では 措置法 は内側の「法」にマッチ (従来挙動 =
+    byte 不変)、souzoku のキー集合では 措置法/通則法 を独立接頭辞として捕捉する。
+    """
+    mod = _import_parser()
+    text = "措置法第70条の規定及び通則法第5条、法第9条による。"
+    # souzoku: 措置法/通則法 を独立接頭辞で解決 (法へ潰さない)
+    souzoku = mod._extract_related_articles(text, mod.CIRCULAR_CONFIGS["souzoku"])
+    got = {r["raw"]: r["law_abbrev"] for r in souzoku}
+    assert got.get("措置法第70条") == "sochi-hou"
+    assert got.get("通則法第5条") == "kokuzei-tsuusoku-hou"
+    assert got.get("法第9条") == "souzoku-zei-hou"
+    # hojin: 措置法 はキーに無いため内側の「法」= houjin-zei-hou に潰れる (従来挙動・byte 不変)
+    hojin = mod._extract_related_articles(text, mod.CIRCULAR_CONFIGS["hojin"])
+    hojin_raw = {r["raw"] for r in hojin}
+    assert "措置法第70条" not in hojin_raw  # 措置法 単位では拾わない
+    assert "法第70条" in hojin_raw  # 内側の「法第70条」として拾う (従来と同じ)
 
 
 # ===========================================================
