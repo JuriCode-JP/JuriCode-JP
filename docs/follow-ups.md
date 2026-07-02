@@ -1778,6 +1778,30 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 **残課題**: 順序4 完了（残＝印紙他・質疑応答事例は別途）/ **順序5 租税特別措置法**（措法/措令/措規/措通 は UNREG 予約済。タックスアンサーの多数の unlinked 措法参照〔譲渡だけで約239〕を link 化し各税目の特例レイヤーを一気に埋める・要独立計画書＋GO）。
 
+### [x] FU-532: タックスアンサー拡充 (印紙税・その他の国税・7000番台) — ✅ 完了 2026-07-02 (PR #84, main 502aafc8)
+
+**経緯**: タックスアンサー主要トラック締結 = 印紙税・その他の国税 (`/taxanswer/inshi/`)。印紙税・登録免許税は本文 corpus 未取込ゆえ参照はほぼ全 unlinked（設計どおり）。`印法` は UNREG 登録済 (FU-528)。
+
+**成果**:
+- **印紙税・その他の国税タックスアンサー 30 コード**を hermetic CI ガード付き corpus 化。これで taxanswer **7 カテゴリ (法人111/相続贈与52/消費114/源泉66/所得212/譲渡71/印紙30) = 656 chunks** が CI ガード済＝主要トラック締結。
+- **越境 probe → UNREG 9 prefix 追加のみ (印令/印規/印基通/旅客通達 等)**。parser の本文/リンクロジックは非変更。**FU-530 のグローバル衝突教訓を適用**し、追加前に全既存6キャッシュへ preflight (byte 不変・121件 green) で既存 locked baseline 無影響を実証。
+- **査読3件を実コードで裁定 (採用2/却下1)**: preflight スクリプト採用・CI 両所べき等自動配線スクリプト採用 (ci.yml:70/pyproject:153 アンカー実在確認)・`_table_to_markdown` の try/except swallow-all は却下 (反復処理でクラッシュせず `:954-991`・FU-411 で排除済アンチパターン)。
+- **品質ゲート**: 越境偽リンク 0・既存6カテゴリ byte 不変・CI 全9 green (pytest 719)・GitHub CI 3.11/3.12 pass。7ファイル差分・data/v0.2 無変更・glossary 非該当で licensing.md のみ。
+
+**案A でロックした既知事項 → follow-up FU 候補 (下記 FU-533/FU-534)**:
+
+### [ ] FU-533: `_table_to_markdown` 入れ子テーブル対応 (recursive=False)
+
+**背景**: 印紙税額一覧表 (inshi 7140/7141) はセル内に別表を内包する入れ子構造で、現行 `_table_to_markdown` (`parse-nta-taxanswer.py:952`) の `find_all("tr")` が再帰的ゆえ body 表 markdown が二重出力される (税額数値は保持・retrieval 可・クラッシュなし)。既存6カテゴリは入れ子表を持たず locked baseline 通過中ゆえ inshi で初顕在化。
+
+**対応方針**: `find_all("tr", recursive=False)` 化＋ body ループで「別表に内包された table」を skip。**共有パーサー変更ゆえ既存7カテゴリ全 baseline の byte 不変を再証明必須** (入れ子無しなら不変のはずだが preflight で実測)。inshi 7140/7141 の fixture は再ロック (佐藤承認)。優先度 P3 (retrieval は現状でも可能)。
+
+### [ ] FU-534: related_articles の項/号粒度正規化
+
+**背景**: 共有パーサーは参照の丸数字 (④=項) を除去する一方、漢字号 (一/三) を article_id 末尾に残す不整合がある (inshi 7131: 法法55④一→`houjin-zei-hou-art-55一` / 所法45①三→`shotoku-zei-hou-art-45三`)。法令特定は正しく越境偽リンクではないが、条-level id と一致しない。**既存挙動**で committed fixture に既に 9 件存在 (hojin:3/gensen:3/shohi:2/shotoku:1)＋inshi 2 件 = 全 11 件 (2026-07-02 実測)。
+
+**対応方針**: 号粒度を「条-level 統一 (号を落とす)」か「号を構造化メタデータ化」かの**設計判断**を要する。共有パーサー変更で既存 11 件の article_id が変わる＝**5カテゴリ再ロック前提** (hojin/gensen/shohi/shotoku/inshi・佐藤明示承認)。全カテゴリ横断の独立 FU として設計。優先度 P3。
+
 **関連**: FU-529 (源泉 taxanswer・所-活性化) / FU-523 (所得税通達) / `business/fu-530-execution-prompt-FINAL-2026-07-01.md`。
 
 ---
