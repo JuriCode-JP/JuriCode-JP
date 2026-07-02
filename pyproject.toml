@@ -151,6 +151,7 @@ testpaths = [
     # FU-529/530 の所得税バーティカル上の純 additive 取込 (parser 無変更・既存5カテゴリ byte 不変ゆえ
     # 再ロックなし)。CI-safe (cache テストは skipif)。
     "tools/parse/tests/test_joto_taxanswer_corpus.py",
+    "tools/parse/tests/test_inshi_taxanswer_corpus.py",
     # 2026-05-30: 柱1-A retrieve.py 純関数 unit test (dedup/RRF/candidate 選択).
     "tools/embed/tests",
     # 2026-07-01 FU-524: NTA 通達 fetcher の目次リンク分類 (extract_links) hermetic test。

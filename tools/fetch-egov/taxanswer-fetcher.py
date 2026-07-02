@@ -127,6 +127,18 @@ CATEGORIES: dict[str, Category] = {
         path_segment="joto",
         cache_dir=REPO_ROOT / "cache" / "taxanswer" / "joto",
     ),
+    # 2026-07-02 FU-532: 印紙税・その他の国税タックスアンサー (7000 番台 + その他)。
+    # path '/taxanswer/inshi/'。参照先の本文 corpus は無い (印紙税法/登録免許税法等は未取込)
+    # ため 根拠法令等 の参照は基本すべて unlinked 記録 (印法=UNREG 予約済[FU-528]、
+    # 措法系=UNREG 予約済、登免法/印令等の未知 prefix は Phase 1 probe→preflight→UNREG 登録)。
+    # hojin/sozoku/shohi/gensen/shotoku/joto と逐語同型
+    # (discover/ソート/リダイレクト正規化/skip 共通)。
+    "inshi": Category(
+        key="inshi",
+        label="印紙税・その他の国税タックスアンサー",
+        path_segment="inshi",
+        cache_dir=REPO_ROOT / "cache" / "taxanswer" / "inshi",
+    ),
 }
 
 
