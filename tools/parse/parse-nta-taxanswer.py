@@ -99,14 +99,21 @@ LAW_PREFIX_MAP: dict[str, tuple[str, str]] = {
     "措法": ("sochi-hou", "sochi-hou-art"),  # 措法
     "措令": ("sochi-hou-shikkourei", "sochi-hou-shikkourei-art"),  # 措令
     "措規": ("sochi-hou-shikoukisoku", "sochi-hou-shikoukisoku-art"),  # 措規
+    # --- FU-538 措通 (租税特別措置法関係通達・法人税編) の昇格。FU-536 で sochi-hojin-tsutatsu
+    # corpus (933 directive・畳み込み形 61の4-1-1 等) を設置ずみゆえ UNREG から昇格。tsutatsu ゆえ
+    # id_prefix == law_abbrev (directive_id は `<law_abbrev>-<番号>`) で分岐は _TSUTATSU_PREFIXES が
+    # 持つ。taxanswer 側は款括弧形 措通61の4(1)-1 で書くため、解決側で款(N)→-N 正規化を
+    # sochi-hojin-tsutatsu 限定 gate で適用する (_process_tsutatsu_remainder)。法人税編のみ設置ゆえ
+    # 他編 (譲渡/所得/相続編) の措通参照は番号 disjoint で自然に tsutatsu_not_in_corpus に落ちる。
+    "措通": ("sochi-hojin-tsutatsu", "sochi-hojin-tsutatsu"),  # 措通
 }
 
 # tsutatsu (基本通達) 系の prefix。N-N-N 形式の通達番号として処理し、対応法令の通達番号
 # 集合に対して照合する。Why: 旧 `prefix == "法基通"` ハードコードでは 相基通/評基通 が
 # article 参照に誤分類された (FU-527)。
 _TSUTATSU_PREFIXES = frozenset(
-    {"法基通", "相基通", "評基通", "消基通", "所基通"}
-)  # 法基通 相基通 評基通 消基通 所基通
+    {"法基通", "相基通", "評基通", "消基通", "所基通", "措通"}
+)  # 法基通 相基通 評基通 消基通 所基通 措通 (FU-538: 措通=sochi-hojin-tsutatsu)
 
 # 措法系 (租税特別措置法本文系) の law_abbrev。FU-537 の昇格に伴うガード3種
 # (D 継承 / A・B レンジ・等 / C 実在チェック) の scope 判定に使う。措法系のみに gate する
@@ -123,8 +130,9 @@ _SOCHI_ABBREVS = frozenset(
 # 措規/措通) は順序5 で独立取込予定。
 CORPUS_UNREGISTERED_PREFIXES = {
     # FU-537: 措法/措令/措規 は LAW_PREFIX_MAP へ昇格したため本集合から削除。
-    # 措通 は FU-536 保留ゆえ UNREG 据置 (措置法本文系のみの部分昇格)。
-    "措通",  # 措通 (措置法通達・FU-536 保留)
+    # FU-538: 措通 も LAW_PREFIX_MAP + _TSUTATSU_PREFIXES へ昇格 (sochi-hojin-tsutatsu corpus
+    # 設置ずみ) ゆえ本集合から削除。他編の措通参照は tsutatsu 経路で番号照合し disjoint ゆえ
+    # tsutatsu_not_in_corpus に落ちる (corpus_unregistered ではなくなる)。
     "通法",  # 通法 (国税通則法)
     "通令",  # 通令 (国税通則法施行令)
     "民法",  # 民法
@@ -682,6 +690,14 @@ def _process_tsutatsu_remainder(
     unlinked: list,
 ) -> None:
     """Process tsutatsu directive number (may include range like 9-2-9~11)."""
+    # FU-538 款正規化 (sochi-hojin-tsutatsu 限定 gate): taxanswer は措通を款括弧形
+    # 措通61の4(1)-1 で書くが、FU-536 corpus は款を畳み込んだ形 61の4-1-1 で持つ。解決側に
+    # 款 (N)/（N） -> -N の正規化を入れて corpus 形へ一致させる。Why gate: 法基通/所基通等の
+    # 他 tsutatsu は款括弧形を使わない (P2 で実証) が、gate を law_abbrev に絞ることで
+    # 万一他 prefix に (N) 形があっても一切触れない (非 cross-cutting・FU-537 _SOCHI_ABBREVS 同型)。
+    # range 経路(~)/単発経路の両方が本正規化後の remainder を使う。
+    if law_abbrev == "sochi-hojin-tsutatsu":
+        remainder = re.sub(r"[（(]([0-9]+)[)）]", r"-\1", remainder)
     # Check for range (~ after normalization)
     if "~" in remainder:
         expanded = _expand_range(law_abbrev, remainder, law_abbrev, law_abbrev)

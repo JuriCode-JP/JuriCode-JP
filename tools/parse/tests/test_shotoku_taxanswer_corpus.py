@@ -61,7 +61,8 @@ EXPECTED_ARTICLES = (
 EXPECTED_DIRECTIVES = 124  # related_directives 総数
 EXPECTED_QA = 637  # related_qa 総数 (href 由来・body 非依存)
 EXPECTED_UNLINKED = (
-    491  # unlinked_refs 総数 (FU-537: 935->491, 措法系 unlinked->linked 昇格・佐藤ロック)
+    515  # unlinked_refs 総数 (FU-538: 491->515, 措通昇格で他編措通参照が tsutatsu 経路の号単位に
+    # 展開され記録粒度が増加・法人税編と disjoint ゆえ全て tsutatsu_not_in_corpus・佐藤ロック 2026-07-03)
 )
 EXPECTED_IMAGES = 58  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 35  # content 画像を持つページ数
