@@ -1,0 +1,72 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 70-7-13
+article_id: sochi-hou-art-70-7-13
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　相続税法の特例
+---
+
+# 租税特別措置法 第70-7-13条(（医療法人の持分についての相続税の税額控除）)
+
+## 原文 (日本語)
+
+### 第七十条の七の十三第一項
+
+個人（以下この条において「相続人等」という。）が前条第二項に規定する経過措置医療法人（以下この項及び第三項において「経過措置医療法人」という。）の持分を有していた他の個人（第四項において「被相続人」という。）から相続又は遺贈により当該経過措置医療法人の持分を取得した場合において、当該経過措置医療法人が当該相続の開始の時において認定医療法人（当該相続に係る相続税の申告書の提出期限又は令和十一年十二月三十一日のいずれか早い日までに厚生労働大臣認定を受けた経過措置医療法人を含む。）であり、かつ、当該持分を取得した相続人等が当該相続の開始の時から当該相続に係る相続税の申告書の提出期限までの間にその有する当該経過措置医療法人で厚生労働大臣認定を受けたものの持分の全部又は一部を財務省令で定めるところにより放棄したときは、当該相続人等については、相続税法第十五条から第二十条の二まで及び第二十一条の十五第三項の規定により計算した金額から放棄相当相続税額を控除した残額をもつて、その納付すべき相続税額とする。
+
+### 第七十条の七の十三第二項
+
+前項に規定する放棄相当相続税額とは、同項の規定の適用に係る認定医療法人の持分の価額を同項の相続人等に係る相続税の課税価格とみなして政令で定めるところにより計算した金額のうち当該相続人等により放棄がされた部分に相当するものとして政令で定めるところにより計算した金額をいう。
+
+### 第七十条の七の十三第三項
+
+第一項の規定の適用を受けようとする相続人等が、同項の相続の開始の時から当該相続に係る相続税の申告書の提出期限までの間に、同項の経過措置医療法人の持分に基づき出資額に応じた払戻しを受けた場合又は当該持分の譲渡をした場合には、同項の規定は、適用しない。
+
+### 第七十条の七の十三第四項
+
+第一項の規定は、同項の規定の適用を受けようとする相続人等のその被相続人から相続又は遺贈により取得した同項の持分に係る相続税の申告書に、当該持分について同項の規定の適用を受けようとする旨の記載がない場合又は当該持分の明細及び同項の放棄相当相続税額の計算に関する明細その他財務省令で定める書類の添付がない場合には、適用しない。
+
+### 第七十条の七の十三第五項
+
+前二項に定めるもののほか、第一項の規定の適用に関し必要な事項は、政令で定める。

@@ -1,0 +1,115 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 67-5
+article_id: sochi-hou-art-67-5
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-5-p1-zen
+    type: zen_dan
+    text: 中小企業者等（第四十二条の四第十九項第七号に規定する中小企業者（同項第八号に規定する適用除外事業者に該当するものを除く。）又は同項第九号に規定する農業協同組合等で、青色申告書を提出するもの（事務負担に配慮する必要があるものとして政令で定めるものに限るものとし、通算法人及び第四十二条の十二の四第一項に規定する特定認定を受けた同項に規定する特定事業者等に該当するもののうち当該特定認定に係る同項に規定する特定経営力向上計画に同項第二号に掲げる減価償却資産が記載されているものを除く。）をいう。以下この項において同じ。）が、平成十八年四月一日から令和十一年三月三十一日までの間に取得し、又は製作し、若しくは建設し、かつ、当該中小企業者等の事業の用に供した減価償却資産で、その取得価額が四十万円未満であるもの（その取得価額が十万円未満であるもの及び第五十三条第一項各号に掲げる規定の適用を受けるものその他政令で定めるものを除く。以下この条において「少額減価償却資産」という。）を有する場合において、当該少額減価償却資産の取得価額に相当する金額につき当該中小企業者等の事業の用に供した日を含む事業年度において損金経理をしたときは、その損金経理をした金額は、当該事業年度の所得の金額の計算上、損金の額に算入する。
+    modality: unspecified
+    references:
+    - 同項
+  - id: sochi-hou-art-67-5-p1-kou
+    type: kou_dan
+    text: この場合において、当該中小企業者等の当該事業年度における少額減価償却資産の取得価額の合計額が三百万円（当該事業年度が一年に満たない場合には、三百万円を十二で除し、これに当該事業年度の月数を乗じて計算した金額。以下この項において同じ。）を超えるときは、その取得価額の合計額のうち三百万円に達するまでの少額減価償却資産の取得価額の合計額を限度とする。
+    modality: gimu
+    depends_on: sochi-hou-art-67-5-p1-zen
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-5-p2
+    type: simple
+    text: 前項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。
+    modality: gimu
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-5-p3
+    type: simple
+    text: 第一項の規定は、確定申告書等に同項の規定の適用を受ける少額減価償却資産の取得価額に関する明細書の添付がある場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-5-p4
+    type: simple
+    text: 第一項の規定の適用を受けた少額減価償却資産について法人税に関する法令の規定を適用する場合には、同項の規定により各事業年度の所得の金額の計算上損金の額に算入された金額は、当該少額減価償却資産の取得価額に算入しない。
+    modality: unspecified
+    references:
+    - 同項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-5-p5
+    type: simple
+    text: 前三項に定めるもののほか、第一項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前三項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　法人税法の特例
+  setsu: 8
+  setsu_name_ja: 第八節　その他の特例
+---
+
+# 租税特別措置法 第67-5条(（中小企業者等の少額減価償却資産の取得価額の損金算入の特例）)
+
+## 原文 (日本語)
+
+### 第六十七条の五第一項
+
+<!-- segment: zen_dan id: sochi-hou-art-67-5-p1-zen -->
+中小企業者等（第四十二条の四第十九項第七号に規定する中小企業者（同項第八号に規定する適用除外事業者に該当するものを除く。）又は同項第九号に規定する農業協同組合等で、青色申告書を提出するもの（事務負担に配慮する必要があるものとして政令で定めるものに限るものとし、通算法人及び第四十二条の十二の四第一項に規定する特定認定を受けた同項に規定する特定事業者等に該当するもののうち当該特定認定に係る同項に規定する特定経営力向上計画に同項第二号に掲げる減価償却資産が記載されているものを除く。）をいう。以下この項において同じ。）が、平成十八年四月一日から令和十一年三月三十一日までの間に取得し、又は製作し、若しくは建設し、かつ、当該中小企業者等の事業の用に供した減価償却資産で、その取得価額が四十万円未満であるもの（その取得価額が十万円未満であるもの及び第五十三条第一項各号に掲げる規定の適用を受けるものその他政令で定めるものを除く。以下この条において「少額減価償却資産」という。）を有する場合において、当該少額減価償却資産の取得価額に相当する金額につき当該中小企業者等の事業の用に供した日を含む事業年度において損金経理をしたときは、その損金経理をした金額は、当該事業年度の所得の金額の計算上、損金の額に算入する。<!-- segment: kou_dan id: sochi-hou-art-67-5-p1-kou depends_on: sochi-hou-art-67-5-p1-zen -->
+この場合において、当該中小企業者等の当該事業年度における少額減価償却資産の取得価額の合計額が三百万円（当該事業年度が一年に満たない場合には、三百万円を十二で除し、これに当該事業年度の月数を乗じて計算した金額。以下この項において同じ。）を超えるときは、その取得価額の合計額のうち三百万円に達するまでの少額減価償却資産の取得価額の合計額を限度とする。
+
+### 第六十七条の五第二項
+
+<!-- segment: simple id: sochi-hou-art-67-5-p2 -->
+前項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。
+
+### 第六十七条の五第三項
+
+<!-- segment: simple id: sochi-hou-art-67-5-p3 -->
+第一項の規定は、確定申告書等に同項の規定の適用を受ける少額減価償却資産の取得価額に関する明細書の添付がある場合に限り、適用する。
+
+### 第六十七条の五第四項
+
+<!-- segment: simple id: sochi-hou-art-67-5-p4 -->
+第一項の規定の適用を受けた少額減価償却資産について法人税に関する法令の規定を適用する場合には、同項の規定により各事業年度の所得の金額の計算上損金の額に算入された金額は、当該少額減価償却資産の取得価額に算入しない。
+
+### 第六十七条の五第五項
+
+<!-- segment: simple id: sochi-hou-art-67-5-p5 -->
+前三項に定めるもののほか、第一項の規定の適用に関し必要な事項は、政令で定める。

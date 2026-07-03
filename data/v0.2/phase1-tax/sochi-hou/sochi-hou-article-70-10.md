@@ -1,0 +1,106 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 70-10
+article_id: sochi-hou-art-70-10
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-10-p1
+    type: tokusoku
+    text: 税務署長は、相続税法第三十八条第一項の規定により相続税額について延納の許可をする場合において、第七十条の八の二第一項に規定する課税相続財産の価額のうちに不動産、所得税法第二条第一項第十九号に規定する減価償却資産で当該相続に係る被相続人の事業の用に供されていたものその他政令で定める財産の価額の合計額（以下この条において「不動産等の価額」という。）の占める割合が四分の三以上であるときは、当該延納を許可する相続税額のうち当該不動産等の価額に対応するものとして政令で定めるところにより計算した部分の税額（次項及び第三項において「不動産等部分の税額」という。）に係る延納期間については、納税義務者の申請により、相続税法第三十八条第一項の規定にかかわらず、二十年以内（同項に規定する延納税額が二百万円未満であるときは、当該延納税額を十万円で除して得た数（その数に一未満の端数があるときは、これを一とする。）に相当する年数以内）とすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第三十八条
+    references:
+    - 同項
+    - 次項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-10-p2
+    type: simple
+    text: 前項に規定する課税相続財産の価額のうちに不動産等の価額の占める割合が四分の三以上である場合には、当該延納税額のうち不動産等部分の税額についての相続税法第五十二条第一項の規定の適用については、同項第一号イ中「年五・四パーセント」とあるのは、「年三・六パーセント」とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-10-p3
+    type: junyou
+    text: 相続税法第五十二条第三項の規定は、延納の許可を受けた相続税額のうちに不動産等部分の税額とその他の部分の税額とがある場合について準用する。
+    modality: unspecified
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-10-p4
+    type: simple
+    text: 第一項又は第二項の規定の適用を受けようとする者は、相続税法第三十九条第一項に規定する申請書に、第一項に規定する不動産、減価償却資産その他の財産の明細書を添付して、これを納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-10-p5
+    type: junyou
+    text: 前各項の規定は、相続税法第四十四条第一項又は第四十七条第一項の規定により延納の許可を受けた者で、第一項に規定する課税相続財産の価額のうちに不動産等の価額の占める割合が四分の三以上であるものが当該許可により納付すべき相続税額に係る延納及び利子税について準用する。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　相続税法の特例
+---
+
+# 租税特別措置法 第70-10条(（不動産等に係る相続税の延納等の特例）)
+
+## 原文 (日本語)
+
+### 第七十条の十第一項
+
+<!-- segment: tokusoku id: sochi-hou-art-70-10-p1 override_flag: true override_target: 第三十八条 -->
+税務署長は、相続税法第三十八条第一項の規定により相続税額について延納の許可をする場合において、第七十条の八の二第一項に規定する課税相続財産の価額のうちに不動産、所得税法第二条第一項第十九号に規定する減価償却資産で当該相続に係る被相続人の事業の用に供されていたものその他政令で定める財産の価額の合計額（以下この条において「不動産等の価額」という。）の占める割合が四分の三以上であるときは、当該延納を許可する相続税額のうち当該不動産等の価額に対応するものとして政令で定めるところにより計算した部分の税額（次項及び第三項において「不動産等部分の税額」という。）に係る延納期間については、納税義務者の申請により、相続税法第三十八条第一項の規定にかかわらず、二十年以内（同項に規定する延納税額が二百万円未満であるときは、当該延納税額を十万円で除して得た数（その数に一未満の端数があるときは、これを一とする。）に相当する年数以内）とすることができる。
+
+### 第七十条の十第二項
+
+<!-- segment: simple id: sochi-hou-art-70-10-p2 -->
+前項に規定する課税相続財産の価額のうちに不動産等の価額の占める割合が四分の三以上である場合には、当該延納税額のうち不動産等部分の税額についての相続税法第五十二条第一項の規定の適用については、同項第一号イ中「年五・四パーセント」とあるのは、「年三・六パーセント」とする。
+
+### 第七十条の十第三項
+
+<!-- segment: junyou id: sochi-hou-art-70-10-p3 -->
+相続税法第五十二条第三項の規定は、延納の許可を受けた相続税額のうちに不動産等部分の税額とその他の部分の税額とがある場合について準用する。
+
+### 第七十条の十第四項
+
+<!-- segment: simple id: sochi-hou-art-70-10-p4 -->
+第一項又は第二項の規定の適用を受けようとする者は、相続税法第三十九条第一項に規定する申請書に、第一項に規定する不動産、減価償却資産その他の財産の明細書を添付して、これを納税地の所轄税務署長に提出しなければならない。
+
+### 第七十条の十第五項
+
+<!-- segment: junyou id: sochi-hou-art-70-10-p5 -->
+前各項の規定は、相続税法第四十四条第一項又は第四十七条第一項の規定により延納の許可を受けた者で、第一項に規定する課税相続財産の価額のうちに不動産等の価額の占める割合が四分の三以上であるものが当該許可により納付すべき相続税額に係る延納及び利子税について準用する。

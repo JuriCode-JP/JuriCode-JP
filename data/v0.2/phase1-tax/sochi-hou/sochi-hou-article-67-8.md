@@ -1,0 +1,59 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 67-8
+article_id: sochi-hou-art-67-8
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-8-p1
+    type: simple
+    text: 協同組合等の各事業年度において、その有する連合会等（農林中央金庫その他の協同組合等であつてその会員又は組合員が法人税法別表第三の下欄に掲げる根拠法の規定により他の協同組合等及びこれに準ずる法人に限られているものをいう。）に対する出資（協同組織金融機関の優先出資に関する法律に規定する優先出資に該当するものを除く。以下この項において「普通出資」という。）につき支払を受ける配当等の額（法人税法第二十三条第一項に規定する配当等の額をいう。）がある場合には、同条の規定の適用については、当該普通出資は、同条第四項から第六項までの規定にかかわらず、これらの規定に規定する関連法人株式等、完全子法人株式等及び非支配目的株式等のいずれにも該当しないものとする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-8-p2
+    type: simple
+    text: 前項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　法人税法の特例
+  setsu: 8
+  setsu_name_ja: 第八節　その他の特例
+---
+
+# 租税特別措置法 第67-8条(（協同組合等が有する普通出資に係る受取配当等の益金不算入の特例）)
+
+## 原文 (日本語)
+
+### 第六十七条の八第一項
+
+<!-- segment: simple id: sochi-hou-art-67-8-p1 -->
+協同組合等の各事業年度において、その有する連合会等（農林中央金庫その他の協同組合等であつてその会員又は組合員が法人税法別表第三の下欄に掲げる根拠法の規定により他の協同組合等及びこれに準ずる法人に限られているものをいう。）に対する出資（協同組織金融機関の優先出資に関する法律に規定する優先出資に該当するものを除く。以下この項において「普通出資」という。）につき支払を受ける配当等の額（法人税法第二十三条第一項に規定する配当等の額をいう。）がある場合には、同条の規定の適用については、当該普通出資は、同条第四項から第六項までの規定にかかわらず、これらの規定に規定する関連法人株式等、完全子法人株式等及び非支配目的株式等のいずれにも該当しないものとする。
+
+### 第六十七条の八第二項
+
+<!-- segment: simple id: sochi-hou-art-67-8-p2 -->
+前項の規定の適用に関し必要な事項は、政令で定める。

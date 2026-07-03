@@ -1,0 +1,117 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 70-8
+article_id: sochi-hou-art-70-8
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-8-p1
+    type: tokusoku
+    text: 第七十条の四第一項の規定の適用を受ける同項に規定する受贈者が同項の規定の適用を受ける同項に規定する農地等の全部又は一部につき第三十三条の四第一項に規定する収用交換等（第三項及び第四項において「収用交換等」という。）による譲渡をしたことにより、第七十条の四第三十五項第二号に掲げる場合に該当することとなつた場合には、同項の規定により当該受贈者の納付すべき利子税の額は、同項の規定にかかわらず、同項の規定により計算した金額の二分の一に相当する金額（平成二十六年四月一日から令和十三年三月三十一日までの間に当該受贈者が当該農地等の全部又は一部につき当該収用交換等による譲渡をしたことにより同号に掲げる場合に該当することとなつた場合には、零）とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-8-p2
+    type: simple
+    text: 前項の規定は、同項の受贈者が財務省令で定めるところにより同項の規定の適用を受けたい旨の届出書を第七十条の四第一項ただし書又は第四項の規定による納税の猶予に係る期限までに納税地の所轄税務署長に提出した場合（当該税務署長においてやむを得ない事情があると認める場合には、当該届出書を当該期限後に提出した場合を含む。）に限り、適用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-8-p3
+    type: tokusoku
+    text: 第七十条の六第一項の規定の適用を受ける同項に規定する農業相続人が同項に規定する特例農地等の全部又は一部につき収用交換等による譲渡をしたことにより、同条第四十項第二号に掲げる場合に該当することとなつた場合には、同項の規定により当該農業相続人の納付すべき利子税の額は、同項の規定にかかわらず、同項の規定により計算した金額の二分の一に相当する金額（平成二十六年四月一日から令和十三年三月三十一日までの間に当該農業相続人が当該特例農地等の全部又は一部につき当該収用交換等による譲渡をしたことにより同号に掲げる場合に該当することとなつた場合には、零）とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-8-p4
+    type: tokusoku
+    text: 第七十条の六の六第一項の規定の適用を受ける同項の林業経営相続人が同項に規定する特例山林の全部又は一部につき収用交換等による譲渡をしたことにより、同条第十九項の表の第二号の上欄に掲げる場合（同条第四項の規定の適用があつた場合に限る。）に該当することとなつた場合には、同条第十九項の規定により当該林業経営相続人の納付すべき利子税の額は、同項の規定にかかわらず、同項の規定により計算した金額の二分の一に相当する金額とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-8-p5
+    type: junyou
+    text: 第二項の規定は、前二項の規定を適用する場合について準用する。
+    modality: unspecified
+    references:
+    - 前二項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　相続税法の特例
+---
+
+# 租税特別措置法 第70-8条(（農地等についての贈与税の納税猶予等に係る利子税の特例）)
+
+## 原文 (日本語)
+
+### 第七十条の八第一項
+
+<!-- segment: tokusoku id: sochi-hou-art-70-8-p1 override_flag: true override_target: 同項 -->
+第七十条の四第一項の規定の適用を受ける同項に規定する受贈者が同項の規定の適用を受ける同項に規定する農地等の全部又は一部につき第三十三条の四第一項に規定する収用交換等（第三項及び第四項において「収用交換等」という。）による譲渡をしたことにより、第七十条の四第三十五項第二号に掲げる場合に該当することとなつた場合には、同項の規定により当該受贈者の納付すべき利子税の額は、同項の規定にかかわらず、同項の規定により計算した金額の二分の一に相当する金額（平成二十六年四月一日から令和十三年三月三十一日までの間に当該受贈者が当該農地等の全部又は一部につき当該収用交換等による譲渡をしたことにより同号に掲げる場合に該当することとなつた場合には、零）とする。
+
+### 第七十条の八第二項
+
+<!-- segment: simple id: sochi-hou-art-70-8-p2 -->
+前項の規定は、同項の受贈者が財務省令で定めるところにより同項の規定の適用を受けたい旨の届出書を第七十条の四第一項ただし書又は第四項の規定による納税の猶予に係る期限までに納税地の所轄税務署長に提出した場合（当該税務署長においてやむを得ない事情があると認める場合には、当該届出書を当該期限後に提出した場合を含む。）に限り、適用する。
+
+### 第七十条の八第三項
+
+<!-- segment: tokusoku id: sochi-hou-art-70-8-p3 override_flag: true override_target: 同項 -->
+第七十条の六第一項の規定の適用を受ける同項に規定する農業相続人が同項に規定する特例農地等の全部又は一部につき収用交換等による譲渡をしたことにより、同条第四十項第二号に掲げる場合に該当することとなつた場合には、同項の規定により当該農業相続人の納付すべき利子税の額は、同項の規定にかかわらず、同項の規定により計算した金額の二分の一に相当する金額（平成二十六年四月一日から令和十三年三月三十一日までの間に当該農業相続人が当該特例農地等の全部又は一部につき当該収用交換等による譲渡をしたことにより同号に掲げる場合に該当することとなつた場合には、零）とする。
+
+### 第七十条の八第四項
+
+<!-- segment: tokusoku id: sochi-hou-art-70-8-p4 override_flag: true override_target: 同項 -->
+第七十条の六の六第一項の規定の適用を受ける同項の林業経営相続人が同項に規定する特例山林の全部又は一部につき収用交換等による譲渡をしたことにより、同条第十九項の表の第二号の上欄に掲げる場合（同条第四項の規定の適用があつた場合に限る。）に該当することとなつた場合には、同条第十九項の規定により当該林業経営相続人の納付すべき利子税の額は、同項の規定にかかわらず、同項の規定により計算した金額の二分の一に相当する金額とする。
+
+### 第七十条の八第五項
+
+<!-- segment: junyou id: sochi-hou-art-70-8-p5 -->
+第二項の規定は、前二項の規定を適用する場合について準用する。

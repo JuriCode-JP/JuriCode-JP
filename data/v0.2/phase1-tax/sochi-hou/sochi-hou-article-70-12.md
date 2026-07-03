@@ -1,0 +1,66 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 70-12
+article_id: sochi-hou-art-70-12
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-12-p1
+    type: simple
+    text: 税務署長は、相続税法第四十一条第一項に規定する納税義務者が同項、同法第四十五条第一項又は第四十八条の二第一項の規定による物納の許可（以下この項において「物納の許可」という。）を申請しようとする場合において、当該物納に充てようとする財産が美術品の美術館における公開の促進に関する法律（平成十年法律第九十九号）第二条第三号に規定する登録美術品（当該物納の許可の申請に係る相続の開始時において既に同法第三条第一項に規定する登録を受けているものに限る。以下この項及び次項において「特定登録美術品」という。）であるときは、当該特定登録美術品については、当該納税義務者の申請により、相続税法第四十一条第五項（同法第四十五条第二項又は第四十八条の二第六項において準用する場合を含む。）の規定にかかわらず、物納の許可をすることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 次項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-70-12-p2-zen
+    type: zen_dan
+    text: 前項の規定の適用を受けようとする者は、相続税法第四十二条第一項（同法第四十五条第二項において準用する場合を含む。）又は第四十八条の二第二項に規定する申請書に、物納に充てようとする特定登録美術品の種類及び価額その他当該特定登録美術品に関する事項を記載した書類その他の財務省令で定める書類を添付して、これを納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: sochi-hou-art-70-12-p2-kou
+    type: kou_dan
+    text: この場合において、これらの書類は、同法第四十二条第一項に規定する物納手続関係書類とみなす。
+    modality: unspecified
+    depends_on: sochi-hou-art-70-12-p2-zen
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　相続税法の特例
+---
+
+# 租税特別措置法 第70-12条(（相続税の物納の特例）)
+
+## 原文 (日本語)
+
+### 第七十条の十二第一項
+
+<!-- segment: simple id: sochi-hou-art-70-12-p1 -->
+税務署長は、相続税法第四十一条第一項に規定する納税義務者が同項、同法第四十五条第一項又は第四十八条の二第一項の規定による物納の許可（以下この項において「物納の許可」という。）を申請しようとする場合において、当該物納に充てようとする財産が美術品の美術館における公開の促進に関する法律（平成十年法律第九十九号）第二条第三号に規定する登録美術品（当該物納の許可の申請に係る相続の開始時において既に同法第三条第一項に規定する登録を受けているものに限る。以下この項及び次項において「特定登録美術品」という。）であるときは、当該特定登録美術品については、当該納税義務者の申請により、相続税法第四十一条第五項（同法第四十五条第二項又は第四十八条の二第六項において準用する場合を含む。）の規定にかかわらず、物納の許可をすることができる。
+
+### 第七十条の十二第二項
+
+<!-- segment: zen_dan id: sochi-hou-art-70-12-p2-zen -->
+前項の規定の適用を受けようとする者は、相続税法第四十二条第一項（同法第四十五条第二項において準用する場合を含む。）又は第四十八条の二第二項に規定する申請書に、物納に充てようとする特定登録美術品の種類及び価額その他当該特定登録美術品に関する事項を記載した書類その他の財務省令で定める書類を添付して、これを納税地の所轄税務署長に提出しなければならない。<!-- segment: kou_dan id: sochi-hou-art-70-12-p2-kou depends_on: sochi-hou-art-70-12-p2-zen -->
+この場合において、これらの書類は、同法第四十二条第一項に規定する物納手続関係書類とみなす。

@@ -1,0 +1,63 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 70-6-5
+article_id: sochi-hou-art-70-6-5
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　相続税法の特例
+---
+
+# 租税特別措置法 第70-6-5条(（認定都市農地貸付け又は農園用地貸付けを行つた農地についての相続税の課税の特例）)
+
+## 原文 (日本語)
+
+### 第七十条の六の五第一項
+
+前条第二項第二号に規定する認定都市農地貸付け（以下この条において「認定都市農地貸付け」という。）又は同項第三号に規定する農園用地貸付け（以下この条において「農園用地貸付け」という。）を行つている者が死亡した場合において、その死亡した者の相続人がその死亡した者から当該認定都市農地貸付け又は農園用地貸付けを行つていた農地を相続又は遺贈により取得をしたときは、当該認定都市農地貸付け又は農園用地貸付けを行つていた農地はその死亡した者がその死亡の日まで農業の用に供していたものとみなして、第七十条の六の規定を適用する。
+
+### 第七十条の六の五第二項
+
+農業を営んでいた個人として政令で定める者（以下この項において「農業経営者」という。）又は第七十条の六第一項に規定する農業相続人（以下この項において「農業相続人」という。）が死亡した場合において、当該農業経営者又は農業相続人の相続人が当該農業経営者又は農業相続人から相続又は遺贈により取得をした農地について相続税法第二十七条第一項の規定による申告書の提出期限（次項において「相続税の申告期限」という。）までに認定都市農地貸付け又は農園用地貸付けを行つたときは、当該農地は当該相続人の農業の用に供する農地に該当するものとみなして、第七十条の六の規定を適用する。
+
+### 第七十条の六の五第三項
+
+第七十条の四第一項本文の規定の適用を受ける同項に規定する受贈者に係る贈与者が死亡した場合において、当該受贈者が同項本文の規定の適用を受ける同項に規定する農地等のうち農地について当該贈与者の死亡に係る相続税の申告期限において認定都市農地貸付け又は農園用地貸付けを行つているときは、当該農地は当該受贈者の農業の用に供する農地に該当するものとみなして、第七十条の六の規定を適用する。
+
+### 第七十条の六の五第四項
+
+前三項の規定の適用がある場合における前条の規定の適用に関し必要な事項は、政令で定める。
