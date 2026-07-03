@@ -1,0 +1,83 @@
+---
+law_id: 332CO0000000043
+law_name_ja: 租税特別措置法施行令
+law_name_en: (English name pending)
+article_number: 39-20-9
+article_id: sochi-hou-shikkourei-art-39-20-9
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　法人税法の特例
+  setsu: 85
+  setsu_name_ja: 第八節の五　特殊関係株主等である内国法人に係る外国関係法人に係る所得の課税の特例
+---
+
+# 租税特別措置法施行令 第39-20-9条(（特定関係の判定等）)
+
+## 原文 (日本語)
+
+### 第三十九条の二十の九第一項
+
+法第六十六条の九の二第一項、第八項又は第十項の規定を適用する場合において、内国法人が同条第二項第一号に規定する特定内国法人に該当するかどうかの判定については同条第一項に規定する特定関係の発生の基因となる事実が生ずる直前の現況によるものとし、その後に特殊関係株主等と特殊関係内国法人との間に当該特定関係があるかどうかの判定及び外国法人が同項に規定する外国関係法人（次項及び第三項において「外国関係法人」という。）に該当するかどうかの判定については当該特殊関係内国法人の各事業年度終了の時の現況による。
+
+### 第三十九条の二十の九第二項
+
+前項の規定により、特殊関係内国法人の各事業年度終了の時において、外国法人が外国関係法人に該当するものと判定された場合には、当該外国関係法人のその判定された日を含む各事業年度の適用対象金額、部分適用対象金額又は金融関係法人部分適用対象金額につき、法第六十六条の九の二の規定を適用する。
+
+### 第三十九条の二十の九第三項
+
+特殊関係内国法人に係る特殊関係株主等である内国法人が当該内国法人に係る外国関係法人の各事業年度終了の日以後四月を経過する日までの間に合併により解散した場合には、その直接及び間接に有する当該外国関係法人の株式等でその合併に係る合併法人（当該特殊関係内国法人に係る特殊関係株主等に該当するもの及びその合併により当該内国法人が直接及び間接に有する当該外国関係法人の株式等の移転を受けることにより当該特殊関係内国法人に係る特殊関係株主等に該当することとなるものに限る。以下この項において同じ。）が移転を受けたものは、その合併法人が当該外国関係法人の各事業年度終了の日において直接及び間接に有する株式等とみなす。
+
+### 第三十九条の二十の九第四項
+
+第三十九条の二十第三項及び第四項の規定は、法第六十六条の九の二第一項、第八項又は第十項の規定により特殊関係株主等である内国法人の益金の額に算入された金額がある場合の法人税法第六十七条第三項及び第五項の規定の適用並びに当該内国法人の利益積立金額の計算について準用する。
+
+### 第三十九条の二十の九第五項
+
+法人税法施行令第十四条の六第一項から第五項まで及び第七項から第十一項までの規定は、法第六十六条の九の二第十七項の規定を同条から法第六十六条の九の五までの規定及び第三十九条の二十の二からこの条までの規定において適用する場合について準用する。
+
+### 第三十九条の二十の九第六項
+
+前項に定めるもののほか、法人税法第四条の三に規定する受託法人又は法人課税信託の受益者についての法第六十六条の九の二から第六十六条の九の五までの規定又は第三十九条の二十の二からこの条までの規定の適用に関し必要な事項は、財務省令で定める。

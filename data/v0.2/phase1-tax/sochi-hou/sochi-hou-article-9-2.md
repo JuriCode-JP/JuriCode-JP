@@ -1,0 +1,127 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 9-2
+article_id: sochi-hou-art-9-2
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-9-2-p1
+    type: simple
+    text: 内国法人（所得税法別表第一に掲げる内国法人を除く。次項及び第四項において同じ。）は、昭和六十三年四月一日以後に支払を受けるべき国外において発行された株式（資産の流動化に関する法律第二条第五項に規定する優先出資を含む。）の剰余金の配当又は利益の配当（所得税法第二十四条第一項に規定する利益の配当をいう。）に係る同項に規定する配当等（国外において支払われるものに限る。以下この条において「国外株式の配当等」という。）につき、国内における支払の取扱者で政令で定めるもの（以下この条において「支払の取扱者」という。）を通じてその交付を受ける場合には、その支払を受けるべき国外株式の配当等について所得税を納める義務があるものとし、その支払を受けるべき金額について百分の二十の税率を適用して所得税を課する。
+    modality: unspecified
+    references:
+    - 同項
+    - 次項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-9-2-p2
+    type: simple
+    text: 昭和六十三年四月一日以後に居住者又は内国法人に対して支払われる国外株式の配当等の国内における支払の取扱者は、当該居住者又は内国法人に当該国外株式の配当等の交付をする際、その交付をする金額に百分の二十の税率を乗じて計算した金額の所得税を徴収し、その徴収の日の属する月の翌月十日までに、これを国に納付しなければならない。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-9-2-p3
+    type: simple
+    text: 前二項の場合において、国外株式の配当等の支払の際に徴収される所得税法第九十五条第一項に規定する外国所得税（政令で定めるものを含む。）の額があるときは、第一項に規定する支払を受けるべき金額及び前項に規定する交付をする金額は、当該国外株式の配当等の額から当該外国所得税の額に相当する金額を控除した後の金額とする。
+    modality: gimu
+    references:
+    - 前項
+    - 前二項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-9-2-p4-zen
+    type: zen_dan
+    text: 第二項の規定により徴収して納付すべき所得税は、所得税法第二条第一項第四十五号に規定する源泉徴収に係る所得税とみなして、同法、国税通則法及び国税徴収法の規定を適用する。
+    modality: unspecified
+  - id: sochi-hou-art-9-2-p4-kou
+    type: kou_dan
+    text: この場合において、国外株式の配当等の支払を受けるべき者が内国法人であるときは、当該内国法人に対する法人税法の規定の適用については、同法第六十八条第一項中「又は賞金」とあるのは「若しくは賞金又は租税特別措置法第九条の二第一項（国外で発行された株式の配当所得の源泉徴収等の特例）に規定する国外株式の配当等」と、「同法」とあるのは「所得税法又は租税特別措置法」とする。
+    modality: gimu
+    depends_on: sochi-hou-art-9-2-p4-zen
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-9-2-p5-hashira
+    type: hashira
+    text: 国外株式の配当等につき第二項の規定により所得税が徴収されるべき場合には、当該国外株式の配当等を有する居住者については、次に定めるところにより、第八条の五の規定を適用する。
+    modality: unspecified
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-9-2-p6
+    type: simple
+    text: 前二項に定めるもののほか、国外株式の配当等に係る所得税法第二百二十四条及び第二百二十五条の規定の特例その他第一項から第三項までの規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+  setsu: 1
+  setsu_name_ja: 第一節　利子所得及び配当所得
+---
+
+# 租税特別措置法 第9-2条(（国外で発行された株式の配当所得の源泉徴収等の特例）)
+
+## 原文 (日本語)
+
+### 第九条の二第一項
+
+<!-- segment: simple id: sochi-hou-art-9-2-p1 -->
+内国法人（所得税法別表第一に掲げる内国法人を除く。次項及び第四項において同じ。）は、昭和六十三年四月一日以後に支払を受けるべき国外において発行された株式（資産の流動化に関する法律第二条第五項に規定する優先出資を含む。）の剰余金の配当又は利益の配当（所得税法第二十四条第一項に規定する利益の配当をいう。）に係る同項に規定する配当等（国外において支払われるものに限る。以下この条において「国外株式の配当等」という。）につき、国内における支払の取扱者で政令で定めるもの（以下この条において「支払の取扱者」という。）を通じてその交付を受ける場合には、その支払を受けるべき国外株式の配当等について所得税を納める義務があるものとし、その支払を受けるべき金額について百分の二十の税率を適用して所得税を課する。
+
+### 第九条の二第二項
+
+<!-- segment: simple id: sochi-hou-art-9-2-p2 -->
+昭和六十三年四月一日以後に居住者又は内国法人に対して支払われる国外株式の配当等の国内における支払の取扱者は、当該居住者又は内国法人に当該国外株式の配当等の交付をする際、その交付をする金額に百分の二十の税率を乗じて計算した金額の所得税を徴収し、その徴収の日の属する月の翌月十日までに、これを国に納付しなければならない。
+
+### 第九条の二第三項
+
+<!-- segment: simple id: sochi-hou-art-9-2-p3 -->
+前二項の場合において、国外株式の配当等の支払の際に徴収される所得税法第九十五条第一項に規定する外国所得税（政令で定めるものを含む。）の額があるときは、第一項に規定する支払を受けるべき金額及び前項に規定する交付をする金額は、当該国外株式の配当等の額から当該外国所得税の額に相当する金額を控除した後の金額とする。
+
+### 第九条の二第四項
+
+<!-- segment: zen_dan id: sochi-hou-art-9-2-p4-zen -->
+第二項の規定により徴収して納付すべき所得税は、所得税法第二条第一項第四十五号に規定する源泉徴収に係る所得税とみなして、同法、国税通則法及び国税徴収法の規定を適用する。<!-- segment: kou_dan id: sochi-hou-art-9-2-p4-kou depends_on: sochi-hou-art-9-2-p4-zen -->
+この場合において、国外株式の配当等の支払を受けるべき者が内国法人であるときは、当該内国法人に対する法人税法の規定の適用については、同法第六十八条第一項中「又は賞金」とあるのは「若しくは賞金又は租税特別措置法第九条の二第一項（国外で発行された株式の配当所得の源泉徴収等の特例）に規定する国外株式の配当等」と、「同法」とあるのは「所得税法又は租税特別措置法」とする。
+
+### 第九条の二第五項
+
+<!-- segment: hashira id: sochi-hou-art-9-2-p5-hashira -->
+国外株式の配当等につき第二項の規定により所得税が徴収されるべき場合には、当該国外株式の配当等を有する居住者については、次に定めるところにより、第八条の五の規定を適用する。
+
+### 第九条の二第六項
+
+<!-- segment: simple id: sochi-hou-art-9-2-p6 -->
+前二項に定めるもののほか、国外株式の配当等に係る所得税法第二百二十四条及び第二百二十五条の規定の特例その他第一項から第三項までの規定の適用に関し必要な事項は、政令で定める。

@@ -1,0 +1,3218 @@
+{
+  "schema_version": "1.0",
+  "law_id": "332M50000040015",
+  "law_name_ja": "租税特別措置法施行規則",
+  "law_abbrev": "sochi-hou-shikoukisoku",
+  "source_url": "https://laws.e-gov.go.jp/api/2/law_data/332M50000040015",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\332M50000040015.xml",
+  "source_xml_sha256": "a1413d43a70978035a64b48e3e8024424750ab3cd47c3872edc5c947dab7833c",
+  "source_xml_bytes": 7939837,
+  "source_fetched_at": "2026-07-03",
+  "parser": "tools/parse/v0.2/segment_parser.py",
+  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
+  "parsed_at": "2026-07-03T03:38:15+00:00",
+  "version_date": "1957-03-31",
+  "article_count": 400,
+  "articles": [
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-1-2",
+      "article_number": "1-2",
+      "filename": "sochi-hou-shikoukisoku-article-1-2.md",
+      "ja_text_sha256": "ba197b26c60a77c4a2d731a9e127af14bd2fd8c20beb011a70b05b8ac9f8f662",
+      "ja_text_bytes": 336,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-1",
+      "article_number": "1",
+      "filename": "sochi-hou-shikoukisoku-article-1.md",
+      "ja_text_sha256": "572b606cd1df4f50d2b6054a7f1f27f7c9102f0863051e0a2eba123489136cd1",
+      "ja_text_bytes": 721,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-10",
+      "article_number": "10",
+      "filename": "sochi-hou-shikoukisoku-article-10.md",
+      "ja_text_sha256": "6da9858008564a49dd91feab6a30a0134391c409b3989a79f3d117d0a0113e6a",
+      "ja_text_bytes": 2597,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-11-2",
+      "article_number": "11-2",
+      "filename": "sochi-hou-shikoukisoku-article-11-2.md",
+      "ja_text_sha256": "74dbdcc25e1a0c9197302767fa534230ed68454cfd15a82c1e12eebe106b7d3e",
+      "ja_text_bytes": 820,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-11-3",
+      "article_number": "11-3",
+      "filename": "sochi-hou-shikoukisoku-article-11-3.md",
+      "ja_text_sha256": "85b145db765030406a6de647841f2cca40286e72bdfd3a0a629403336a62ff57",
+      "ja_text_bytes": 12896,
+      "paragraph_count": 19
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-11-4",
+      "article_number": "11-4",
+      "filename": "sochi-hou-shikoukisoku-article-11-4.md",
+      "ja_text_sha256": "e32d5a8574fddb244304ae7c103ca451d670308383683107a8f573cd1f95d0c1",
+      "ja_text_bytes": 1375,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-11",
+      "article_number": "11",
+      "filename": "sochi-hou-shikoukisoku-article-11.md",
+      "ja_text_sha256": "70efc3a865efa1c751cc18ab2eec2de5c42844f737757ebb680dd38bd54721af",
+      "ja_text_bytes": 1504,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-12",
+      "article_number": "12",
+      "filename": "sochi-hou-shikoukisoku-article-12.md",
+      "ja_text_sha256": "ef18ea70f2560eb0bf3748670606ea7457a88482625cc3676e2286e3f7b99759",
+      "ja_text_bytes": 450,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-13-2",
+      "article_number": "13-2",
+      "filename": "sochi-hou-shikoukisoku-article-13-2.md",
+      "ja_text_sha256": "80488f580af2d01874eb6f17ffd6fc953f4a801916d0faf6fe9b02efbbdf8f92",
+      "ja_text_bytes": 871,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-13-3",
+      "article_number": "13-3",
+      "filename": "sochi-hou-shikoukisoku-article-13-3.md",
+      "ja_text_sha256": "27449893d93068cdebf13117efeb88e4cb531f914d223e502270e597545a79de",
+      "ja_text_bytes": 9773,
+      "paragraph_count": 16
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-13-4",
+      "article_number": "13-4",
+      "filename": "sochi-hou-shikoukisoku-article-13-4.md",
+      "ja_text_sha256": "db589f38ca5582b75c4278842de8f18225ced76f5783fade724c2319a777fe65",
+      "ja_text_bytes": 955,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-13-5",
+      "article_number": "13-5",
+      "filename": "sochi-hou-shikoukisoku-article-13-5.md",
+      "ja_text_sha256": "e3ac68976695ee94c93076afb1bde5dfe02ccb437c1f18e83356cc40ba6fbc1a",
+      "ja_text_bytes": 1336,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-13",
+      "article_number": "13",
+      "filename": "sochi-hou-shikoukisoku-article-13.md",
+      "ja_text_sha256": "a4277f21bff0d6d566288e2fb89b429177ef79d182f10cf0535472958243fec7",
+      "ja_text_bytes": 1348,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-14-2",
+      "article_number": "14-2",
+      "filename": "sochi-hou-shikoukisoku-article-14-2.md",
+      "ja_text_sha256": "194e8f15c8da32da7cd5a508132417393a944801174d39ccdd0f9f14953e70dc",
+      "ja_text_bytes": 2352,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-14-3",
+      "article_number": "14-3",
+      "filename": "sochi-hou-shikoukisoku-article-14-3.md",
+      "ja_text_sha256": "b946a1deebfc01fe1a14d7fcd78521d06216682f9eb93d601b201ee1b8bff9b9",
+      "ja_text_bytes": 190,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-14",
+      "article_number": "14",
+      "filename": "sochi-hou-shikoukisoku-article-14.md",
+      "ja_text_sha256": "c717553c3e03185097d99c4a0d7483208d67dbc0c4bc42e447571972126940a0",
+      "ja_text_bytes": 6109,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-15",
+      "article_number": "15",
+      "filename": "sochi-hou-shikoukisoku-article-15.md",
+      "ja_text_sha256": "3f8486ed5969ecde8e7a38245dbace29437bd37e9269e035a8d04f505266bcd6",
+      "ja_text_bytes": 1364,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-16",
+      "article_number": "16",
+      "filename": "sochi-hou-shikoukisoku-article-16.md",
+      "ja_text_sha256": "04eed648da1b6be59c07bc4388a98a2b49b84b44f472462904e55b7a92044bd4",
+      "ja_text_bytes": 497,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-17-2",
+      "article_number": "17-2",
+      "filename": "sochi-hou-shikoukisoku-article-17-2.md",
+      "ja_text_sha256": "7835e958b1da2c9db8b092a95ed481306a7dc2a094771da60d68da4e4f79e0fd",
+      "ja_text_bytes": 8733,
+      "paragraph_count": 20
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-17",
+      "article_number": "17",
+      "filename": "sochi-hou-shikoukisoku-article-17.md",
+      "ja_text_sha256": "8da9989b8579c237b82e0b3b2a2cc00f64ab4d69f3d9e7d580544ac87ea6b7cd",
+      "ja_text_bytes": 423,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-10-2",
+      "article_number": "18-10-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-10-2.md",
+      "ja_text_sha256": "3e0cbf1f230dcc8188daa487414c7e2eba5aeba35c7f73f597261262f151c8f3",
+      "ja_text_bytes": 2643,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-10-3",
+      "article_number": "18-10-3",
+      "filename": "sochi-hou-shikoukisoku-article-18-10-3.md",
+      "ja_text_sha256": "5f08a78d2e005d6d5d803b9df4c58371ac53077f174ef51d4a3e606c7650e1c2",
+      "ja_text_bytes": 464,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-10",
+      "article_number": "18-10",
+      "filename": "sochi-hou-shikoukisoku-article-18-10.md",
+      "ja_text_sha256": "3707e1f666eff6b5aac1eed50d635e2031356e7a87bd16821898b9ca03d85c8c",
+      "ja_text_bytes": 1585,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-11",
+      "article_number": "18-11",
+      "filename": "sochi-hou-shikoukisoku-article-18-11.md",
+      "ja_text_sha256": "ee3da620018bf8ef7f6ed9324023abfc8e6a69ca7480f21777c518a5da28541b",
+      "ja_text_bytes": 17647,
+      "paragraph_count": 33
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-12-2",
+      "article_number": "18-12-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-12-2.md",
+      "ja_text_sha256": "4f8cdd907911af05b16dca1135703652fe944907eb57cb3665a347a44f34b8f2",
+      "ja_text_bytes": 705,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-12",
+      "article_number": "18-12",
+      "filename": "sochi-hou-shikoukisoku-article-18-12.md",
+      "ja_text_sha256": "85024316555276336c28a75311c8cafb36b55540de6b4d6e9401e7d047ff8da5",
+      "ja_text_bytes": 3156,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-13-2",
+      "article_number": "18-13-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-13-2.md",
+      "ja_text_sha256": "8355d8c6435eac4276c358b82e22bc2e0472fa913fdb74696d7cb01f5f9d6210",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-13-3",
+      "article_number": "18-13-3",
+      "filename": "sochi-hou-shikoukisoku-article-18-13-3.md",
+      "ja_text_sha256": "42a9e622edeeb07def0a0203e7479da8041b82c1379865ef68d7509e81821093",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-13-4",
+      "article_number": "18-13-4",
+      "filename": "sochi-hou-shikoukisoku-article-18-13-4.md",
+      "ja_text_sha256": "f46adce1629f29d9845ea4660ccd5e78ce228c08fe9ac4534e34b7b26015bf2e",
+      "ja_text_bytes": 2503,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-13-5",
+      "article_number": "18-13-5",
+      "filename": "sochi-hou-shikoukisoku-article-18-13-5.md",
+      "ja_text_sha256": "b3e908097a85f5470491a15f4816c4f0c1d92194d117010e89241a18289468b6",
+      "ja_text_bytes": 5904,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-13-6",
+      "article_number": "18-13-6",
+      "filename": "sochi-hou-shikoukisoku-article-18-13-6.md",
+      "ja_text_sha256": "960edbad8997ce6fec40e14f2fca2b3633deafb89460c0c7a51c88575c32ba8e",
+      "ja_text_bytes": 1475,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-13-7",
+      "article_number": "18-13-7",
+      "filename": "sochi-hou-shikoukisoku-article-18-13-7.md",
+      "ja_text_sha256": "dfe1e83bed71d6d375421e48d459b742a246267d35d32d560fd6e65af55e400d",
+      "ja_text_bytes": 2200,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-13",
+      "article_number": "18-13",
+      "filename": "sochi-hou-shikoukisoku-article-18-13.md",
+      "ja_text_sha256": "7fcced23531b35618d02ad1467d822d10ab1268901a26eef73a1dae630b6f1bd",
+      "ja_text_bytes": 1547,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-14-2",
+      "article_number": "18-14-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-14-2.md",
+      "ja_text_sha256": "25351bbf4e60934494948e17a449e633005e3e08698906a8280473f643a9eeec",
+      "ja_text_bytes": 4546,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-14",
+      "article_number": "18-14",
+      "filename": "sochi-hou-shikoukisoku-article-18-14.md",
+      "ja_text_sha256": "b248cdd2c34a98a48fbdb02a2f7464d7c9b1c1100bae22549548465e30af1aeb",
+      "ja_text_bytes": 3578,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-10",
+      "article_number": "18-15-10",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-10.md",
+      "ja_text_sha256": "4c5070096a47b4ca2ce5f520a3bfac974a6eac8bd04efe88fe816ca63155558c",
+      "ja_text_bytes": 16229,
+      "paragraph_count": 27
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-11",
+      "article_number": "18-15-11",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-11.md",
+      "ja_text_sha256": "b83c2f3e2952c5e30350f73d434e63f5ef34d2378db910b8dfef9e6070756780",
+      "ja_text_bytes": 2818,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-2-2",
+      "article_number": "18-15-2-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-2-2.md",
+      "ja_text_sha256": "98f849bbd7525b9b9a84afa496046b1708fb1597874538cd0dd5e7d427004621",
+      "ja_text_bytes": 5763,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-2",
+      "article_number": "18-15-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-2.md",
+      "ja_text_sha256": "04444a9aa92b8b8dc1d15f19bfea48b577e5c87659c9a38e5e57db9228a8161a",
+      "ja_text_bytes": 4311,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-3",
+      "article_number": "18-15-3",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-3.md",
+      "ja_text_sha256": "484f31cdc51e7a043e7e64f749fa1431c3c75d7cf1788637bdd3627c66ad6729",
+      "ja_text_bytes": 12848,
+      "paragraph_count": 41
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-4",
+      "article_number": "18-15-4",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-4.md",
+      "ja_text_sha256": "ab63f6ef4c56513bc0041b06f23dc4b323aa76ff20e81039ac4dca8218760143",
+      "ja_text_bytes": 869,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-5",
+      "article_number": "18-15-5",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-5.md",
+      "ja_text_sha256": "7e7975d00ecddf515c981cfdf3b7d685bad9795e06633b491a9b5316bba1347c",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-6",
+      "article_number": "18-15-6",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-6.md",
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-7",
+      "article_number": "18-15-7",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-7.md",
+      "ja_text_sha256": "ef62897ab29a75bf0dd020c9e1004f837abf5286b47735944fc1d0407c464832",
+      "ja_text_bytes": 581,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-8",
+      "article_number": "18-15-8",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-8.md",
+      "ja_text_sha256": "589ad346cb422febb7869f8701a85438186719d7d6d6fc319a4c19b4623a0071",
+      "ja_text_bytes": 2262,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15-9",
+      "article_number": "18-15-9",
+      "filename": "sochi-hou-shikoukisoku-article-18-15-9.md",
+      "ja_text_sha256": "0f48650e460ded8e1b4943922f858cd580f43e67706ffed472dc1cbe81436b2f",
+      "ja_text_bytes": 1191,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-15",
+      "article_number": "18-15",
+      "filename": "sochi-hou-shikoukisoku-article-18-15.md",
+      "ja_text_sha256": "17f95be7718a591bb56adfaa2222c4d0d07334ffed81a4bfd81707b8cb0e34de",
+      "ja_text_bytes": 7913,
+      "paragraph_count": 20
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-16",
+      "article_number": "18-16",
+      "filename": "sochi-hou-shikoukisoku-article-18-16.md",
+      "ja_text_sha256": "726c5ed91ab181297e9faca1c5cc57c056eabe4677ca05db4da6e68e7a2b9d1b",
+      "ja_text_bytes": 71,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-17",
+      "article_number": "18-17",
+      "filename": "sochi-hou-shikoukisoku-article-18-17.md",
+      "ja_text_sha256": "ec7f84590febf886a5b36c3bf1d1e659b31ecb2fb68fe3644050b2da90374280",
+      "ja_text_bytes": 2241,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-18",
+      "article_number": "18-18",
+      "filename": "sochi-hou-shikoukisoku-article-18-18.md",
+      "ja_text_sha256": "2bc691639ee8cfe6b778e9d870cb3973efc9baeeb61f32cfa5a247df18e45823",
+      "ja_text_bytes": 969,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-19-2",
+      "article_number": "18-19-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-19-2.md",
+      "ja_text_sha256": "b4ba7682414eb91c3e6b297173413ddff5ae832c3659777dec1dbc5035e4a848",
+      "ja_text_bytes": 1069,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-19-3",
+      "article_number": "18-19-3",
+      "filename": "sochi-hou-shikoukisoku-article-18-19-3.md",
+      "ja_text_sha256": "84323e25dfd7fb0ea9a1050b76e9c55a252b23c01851266fe24bc4b978dff45e",
+      "ja_text_bytes": 9474,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-19-4",
+      "article_number": "18-19-4",
+      "filename": "sochi-hou-shikoukisoku-article-18-19-4.md",
+      "ja_text_sha256": "1170a009c0565a3136298601c761528e53896da3dac68e0db8a11a52d2e52949",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-19",
+      "article_number": "18-19",
+      "filename": "sochi-hou-shikoukisoku-article-18-19.md",
+      "ja_text_sha256": "73299f8d32fbc701de9d791d171aa323795d517d3989c9ccba9026aa7190f67e",
+      "ja_text_bytes": 12985,
+      "paragraph_count": 37
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-2",
+      "article_number": "18-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-2.md",
+      "ja_text_sha256": "5e443319d8bced960a8cf1fc4b23f8655443e04cf70fdcb729db0f0abf0cb2c5",
+      "ja_text_bytes": 1519,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-20-2",
+      "article_number": "18-20-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-20-2.md",
+      "ja_text_sha256": "8f0b9b34088b22c65c0b2238123c259cc0ea767750695ec27abafe005473cbfc",
+      "ja_text_bytes": 14226,
+      "paragraph_count": 16
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-20",
+      "article_number": "18-20",
+      "filename": "sochi-hou-shikoukisoku-article-18-20.md",
+      "ja_text_sha256": "c5cb3161c55ae134e838954da4efb5f98f9c554bf1c2981354576e4af1e73cc2",
+      "ja_text_bytes": 23882,
+      "paragraph_count": 39
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-21",
+      "article_number": "18-21",
+      "filename": "sochi-hou-shikoukisoku-article-18-21.md",
+      "ja_text_sha256": "fc1a7099bf90bb3aba9c4f5e6e388050cddf4f460f0638684a0d1ba9c492529b",
+      "ja_text_bytes": 19174,
+      "paragraph_count": 30
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-22",
+      "article_number": "18-22",
+      "filename": "sochi-hou-shikoukisoku-article-18-22.md",
+      "ja_text_sha256": "4b753e58dd92f070b2b54a8233758383968aae6d504f572a5803eba2ead8496a",
+      "ja_text_bytes": 2947,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-23-2",
+      "article_number": "18-23-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-23-2.md",
+      "ja_text_sha256": "f0d8c0ab4acace18c9619e0ddcb56b35c41a09c1d07842155d2b4c405d0b3e10",
+      "ja_text_bytes": 346,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-23-3",
+      "article_number": "18-23-3",
+      "filename": "sochi-hou-shikoukisoku-article-18-23-3.md",
+      "ja_text_sha256": "63597ed7902bd815c26b63b9ea084ae6520a4907497856ddfbadcd778169664d",
+      "ja_text_bytes": 1410,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-23-4",
+      "article_number": "18-23-4",
+      "filename": "sochi-hou-shikoukisoku-article-18-23-4.md",
+      "ja_text_sha256": "37ef9c39406cf829e92263a7144335e48540299257822dbce048ab322247a4f6",
+      "ja_text_bytes": 1911,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-23-5",
+      "article_number": "18-23-5",
+      "filename": "sochi-hou-shikoukisoku-article-18-23-5.md",
+      "ja_text_sha256": "e56e46a20b7f1c5f51b1d67160f8c38793de7a57ec6696805227adca12bea7a7",
+      "ja_text_bytes": 5093,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-23-6",
+      "article_number": "18-23-6",
+      "filename": "sochi-hou-shikoukisoku-article-18-23-6.md",
+      "ja_text_sha256": "b48b5a4ff9d4ee6fce05b9aa9782092799eaca7be55d32d40ccab06e6463f1ed",
+      "ja_text_bytes": 5797,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-23-7",
+      "article_number": "18-23-7",
+      "filename": "sochi-hou-shikoukisoku-article-18-23-7.md",
+      "ja_text_sha256": "041b2aa41a8138cc422c2c18afad9bbeb872f29fcabf878fc9699d1d9f5109ce",
+      "ja_text_bytes": 371,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-23-8",
+      "article_number": "18-23-8",
+      "filename": "sochi-hou-shikoukisoku-article-18-23-8.md",
+      "ja_text_sha256": "b20b89f74c924cd72b7481e92dc7cd0c8fd7473c413d399b85b4f0b247bcfd48",
+      "ja_text_bytes": 4587,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-23",
+      "article_number": "18-23",
+      "filename": "sochi-hou-shikoukisoku-article-18-23.md",
+      "ja_text_sha256": "0fa3d5f7cbe83f746f0d7ca33d32505946f67bdecba94528581ae37599c1f34a",
+      "ja_text_bytes": 7027,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-24-2",
+      "article_number": "18-24-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-24-2.md",
+      "ja_text_sha256": "8c20188a2e5b883dd12fb61294efc90fbe2d3a2da9e00c44baf4c75f41cc475f",
+      "ja_text_bytes": 1368,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-24",
+      "article_number": "18-24",
+      "filename": "sochi-hou-shikoukisoku-article-18-24.md",
+      "ja_text_sha256": "c314b7474c44e14903d3202e4f69d7bf5cc756ac713687d86c1929179f46f315",
+      "ja_text_bytes": 993,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-25",
+      "article_number": "18-25",
+      "filename": "sochi-hou-shikoukisoku-article-18-25.md",
+      "ja_text_sha256": "c453e63d522646fe56c52404918a416b1fbb87782f80dbea501a24f6f36b0c64",
+      "ja_text_bytes": 8002,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-26",
+      "article_number": "18-26",
+      "filename": "sochi-hou-shikoukisoku-article-18-26.md",
+      "ja_text_sha256": "4c70af2656b5fce94cd41243a9acce31fd2504efb936bf683a05c1e3c8d7dbc7",
+      "ja_text_bytes": 6240,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-3-2",
+      "article_number": "18-3-2",
+      "filename": "sochi-hou-shikoukisoku-article-18-3-2.md",
+      "ja_text_sha256": "26517ed9a6d305ab82af9855b0eae20becf0d0698fced0561fbba9327c510ef2",
+      "ja_text_bytes": 117,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-3",
+      "article_number": "18-3",
+      "filename": "sochi-hou-shikoukisoku-article-18-3.md",
+      "ja_text_sha256": "f58bbb21e94d778f326c667fcddb97143bc2203fe2ee7f61384c32d721e12509",
+      "ja_text_bytes": 499,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-4",
+      "article_number": "18-4",
+      "filename": "sochi-hou-shikoukisoku-article-18-4.md",
+      "ja_text_sha256": "0d08c16a76ff68d3bdfe03b5d652c05742db977d70f955ad9b0b9012b4e19760",
+      "ja_text_bytes": 6090,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-5",
+      "article_number": "18-5",
+      "filename": "sochi-hou-shikoukisoku-article-18-5.md",
+      "ja_text_sha256": "453d9d05241fa64e6b780195253ba8a77b0df74695b21fd181058496575a2640",
+      "ja_text_bytes": 5819,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-6",
+      "article_number": "18-6",
+      "filename": "sochi-hou-shikoukisoku-article-18-6.md",
+      "ja_text_sha256": "10d7f066aefc70b36a9c224b276ce90b39a867cf2a0dbc2221f7c9eadcedb8f9",
+      "ja_text_bytes": 5140,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-7",
+      "article_number": "18-7",
+      "filename": "sochi-hou-shikoukisoku-article-18-7.md",
+      "ja_text_sha256": "6b9d73b5f0baa7cc82d79f55a43a3db5b89ae9695cc6b306260aca09b2bdf902",
+      "ja_text_bytes": 283,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-8",
+      "article_number": "18-8",
+      "filename": "sochi-hou-shikoukisoku-article-18-8.md",
+      "ja_text_sha256": "b74646aec20c0e7bdade7d6dd1a38977aa6157ffa07e52b47336ac5b53af1d6c",
+      "ja_text_bytes": 1843,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18-9",
+      "article_number": "18-9",
+      "filename": "sochi-hou-shikoukisoku-article-18-9.md",
+      "ja_text_sha256": "fc9ca12ce3974c86cf4dea5c596e2d92fd8f07be975eb6f7fd077a594c66aca2",
+      "ja_text_bytes": 2287,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-18",
+      "article_number": "18",
+      "filename": "sochi-hou-shikoukisoku-article-18.md",
+      "ja_text_sha256": "200d44256578ec0ff90f22304178cd3af70d4d7e655a1256f8cce2ad22f98ca0",
+      "ja_text_bytes": 900,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-10-2-2",
+      "article_number": "19-10-2-2",
+      "filename": "sochi-hou-shikoukisoku-article-19-10-2-2.md",
+      "ja_text_sha256": "92822c1c2c22f4ab5b2aad1dd9bc0be136ad4429f6958807aa7c16b92b2c140e",
+      "ja_text_bytes": 1202,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-10-2",
+      "article_number": "19-10-2",
+      "filename": "sochi-hou-shikoukisoku-article-19-10-2.md",
+      "ja_text_sha256": "312ddd8250de1a2bf0c23f1f85be82770d6037d09ed94d77b423a9488fbe1212",
+      "ja_text_bytes": 387,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-10-3",
+      "article_number": "19-10-3",
+      "filename": "sochi-hou-shikoukisoku-article-19-10-3.md",
+      "ja_text_sha256": "3a2cfbae21a54bbb7cdbf5e2d06335e817ea55db4a56ef47844b8223e5ccad26",
+      "ja_text_bytes": 1329,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-10-4",
+      "article_number": "19-10-4",
+      "filename": "sochi-hou-shikoukisoku-article-19-10-4.md",
+      "ja_text_sha256": "9cee1f757c557249063d81d7cd6bab4b6571b83438030e6fc3f848474e48a80d",
+      "ja_text_bytes": 585,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-10-5",
+      "article_number": "19-10-5",
+      "filename": "sochi-hou-shikoukisoku-article-19-10-5.md",
+      "ja_text_sha256": "ce5eafe82fb14d9927ce38e9dca1ebebb7da4e6e59843cc9161a5b5fd66ac521",
+      "ja_text_bytes": 5015,
+      "paragraph_count": 14
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-10-6",
+      "article_number": "19-10-6",
+      "filename": "sochi-hou-shikoukisoku-article-19-10-6.md",
+      "ja_text_sha256": "8819e1e2bfa89b37eeaa00e02c302b76672e3f762178a305fbc9d86cb12e33df",
+      "ja_text_bytes": 2753,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-10",
+      "article_number": "19-10",
+      "filename": "sochi-hou-shikoukisoku-article-19-10.md",
+      "ja_text_sha256": "c87ef695036a7c17a757598df5d937198d70f872000aa6b1079204934c272fc8",
+      "ja_text_bytes": 299,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-11-2",
+      "article_number": "19-11-2",
+      "filename": "sochi-hou-shikoukisoku-article-19-11-2.md",
+      "ja_text_sha256": "7ecadb2669c5055b651789a79d44dc1eeb542ed6672b5995147fc8aafea92654",
+      "ja_text_bytes": 1278,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-11-3",
+      "article_number": "19-11-3",
+      "filename": "sochi-hou-shikoukisoku-article-19-11-3.md",
+      "ja_text_sha256": "9c046a94fefdd4eebbf8770ed4a1d8e5cbf462ee5a29e7be6f22bb8fbd6f861d",
+      "ja_text_bytes": 5374,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-11-4",
+      "article_number": "19-11-4",
+      "filename": "sochi-hou-shikoukisoku-article-19-11-4.md",
+      "ja_text_sha256": "878e0be6df07536f3ada526fbc0ca74370a0e4fd5865ea52aa489d485169f8ec",
+      "ja_text_bytes": 1110,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-11-5",
+      "article_number": "19-11-5",
+      "filename": "sochi-hou-shikoukisoku-article-19-11-5.md",
+      "ja_text_sha256": "54d7d4fdd6ea6200ead4979bf5eddb655b1925b327261e915fbfd5410368aa1e",
+      "ja_text_bytes": 3237,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-11",
+      "article_number": "19-11",
+      "filename": "sochi-hou-shikoukisoku-article-19-11.md",
+      "ja_text_sha256": "a5749c6108da9ff8942e5fc1f4eb315a65055d19a5b2d54467fb8cd138444c4a",
+      "ja_text_bytes": 1472,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-12",
+      "article_number": "19-12",
+      "filename": "sochi-hou-shikoukisoku-article-19-12.md",
+      "ja_text_sha256": "131ad371c8d0a656ade5dcb725694ee9eaa9088c434567f6eee509afedeb6eca",
+      "ja_text_bytes": 6947,
+      "paragraph_count": 17
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-13",
+      "article_number": "19-13",
+      "filename": "sochi-hou-shikoukisoku-article-19-13.md",
+      "ja_text_sha256": "afbf88ce1deae67a844999f53b84733efdad817a0a49b7fee200ad1e47c0bf40",
+      "ja_text_bytes": 933,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-14-2",
+      "article_number": "19-14-2",
+      "filename": "sochi-hou-shikoukisoku-article-19-14-2.md",
+      "ja_text_sha256": "9148c55aef33b17774714de561a0b184ee9ec440a308770f879fc86b7fe4fd98",
+      "ja_text_bytes": 6954,
+      "paragraph_count": 19
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-14",
+      "article_number": "19-14",
+      "filename": "sochi-hou-shikoukisoku-article-19-14.md",
+      "ja_text_sha256": "0de953d9276080a2dcb15708db85e57af7577ca93d4fe094dc443ae7f9487e04",
+      "ja_text_bytes": 1318,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-15",
+      "article_number": "19-15",
+      "filename": "sochi-hou-shikoukisoku-article-19-15.md",
+      "ja_text_sha256": "2ed45789d265c1829e03f8baee470d17c1571c1144bb6d388bc3e99a43060f96",
+      "ja_text_bytes": 12078,
+      "paragraph_count": 25
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-16",
+      "article_number": "19-16",
+      "filename": "sochi-hou-shikoukisoku-article-19-16.md",
+      "ja_text_sha256": "cdecd71bc2c571bfcde97babfd4b0f5d738446a0047a817dcb856bea89023bf1",
+      "ja_text_bytes": 2840,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-2",
+      "article_number": "19-2",
+      "filename": "sochi-hou-shikoukisoku-article-19-2.md",
+      "ja_text_sha256": "2f6ef77f16347ecbd8dab1e75ac00e2d3991d1168456fe31fc1c3a6a39e563b8",
+      "ja_text_bytes": 10211,
+      "paragraph_count": 22
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-3",
+      "article_number": "19-3",
+      "filename": "sochi-hou-shikoukisoku-article-19-3.md",
+      "ja_text_sha256": "0d12d8b2da2d897b77e7be2bd15e2276e74a9527b6356873e02650061296bb06",
+      "ja_text_bytes": 1969,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-4",
+      "article_number": "19-4",
+      "filename": "sochi-hou-shikoukisoku-article-19-4.md",
+      "ja_text_sha256": "b728a2d669fbc6d6c4c04e12b11f690dbbcf9f21dbc40f0e8ea44a93e109c1cb",
+      "ja_text_bytes": 1705,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-5",
+      "article_number": "19-5",
+      "filename": "sochi-hou-shikoukisoku-article-19-5.md",
+      "ja_text_sha256": "99414b44272978cb1e8d3759b05d7d55539ca75836592259d9477f7a5318d763",
+      "ja_text_bytes": 2581,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-6",
+      "article_number": "19-6",
+      "filename": "sochi-hou-shikoukisoku-article-19-6.md",
+      "ja_text_sha256": "2a9f168f3a90a3a4b43ac1442cb0e0980727cc58084de99b8ed2738fc4a37aeb",
+      "ja_text_bytes": 3324,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-7",
+      "article_number": "19-7",
+      "filename": "sochi-hou-shikoukisoku-article-19-7.md",
+      "ja_text_sha256": "17b9ffa72f25bcc09c4da40cbe048228ac4c61b817edccf0ee2693796313f574",
+      "ja_text_bytes": 16466,
+      "paragraph_count": 22
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-8",
+      "article_number": "19-8",
+      "filename": "sochi-hou-shikoukisoku-article-19-8.md",
+      "ja_text_sha256": "9e218298b862fefe040cec65b23692ccf51f67ad2bfe0681dfa4caf51b90e151",
+      "ja_text_bytes": 1183,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-9-2",
+      "article_number": "19-9-2",
+      "filename": "sochi-hou-shikoukisoku-article-19-9-2.md",
+      "ja_text_sha256": "848524dd917dc9b3da064738b1344c08440de233831a7a6cf60df2a37313bfde",
+      "ja_text_bytes": 814,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19-9",
+      "article_number": "19-9",
+      "filename": "sochi-hou-shikoukisoku-article-19-9.md",
+      "ja_text_sha256": "e0d0b92d1393afb390327b42ac4d1fa5cec71dbb524d7cf781aa2690942c2e41",
+      "ja_text_bytes": 2599,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-19",
+      "article_number": "19",
+      "filename": "sochi-hou-shikoukisoku-article-19.md",
+      "ja_text_sha256": "3828c311863711f6d676cf24db0fd7adef5939d3b4be8ca88546d4631be97817",
+      "ja_text_bytes": 68,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-2-2",
+      "article_number": "2-2",
+      "filename": "sochi-hou-shikoukisoku-article-2-2.md",
+      "ja_text_sha256": "498b56243bc2bcaa3854b05db95d5cd3fcfd7481e86ba19b840761e7358a4580",
+      "ja_text_bytes": 2859,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-2-3",
+      "article_number": "2-3",
+      "filename": "sochi-hou-shikoukisoku-article-2-3.md",
+      "ja_text_sha256": "83a725d2e51790c37a54b325cb3afff754c18b52f9c1b916c5ef948d9cd818d2",
+      "ja_text_bytes": 845,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-2-4",
+      "article_number": "2-4",
+      "filename": "sochi-hou-shikoukisoku-article-2-4.md",
+      "ja_text_sha256": "5842b47edba543f8946b591245264e1a4c723e61c287d47df8d1f43d657ba7db",
+      "ja_text_bytes": 7184,
+      "paragraph_count": 14
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-2-5",
+      "article_number": "2-5",
+      "filename": "sochi-hou-shikoukisoku-article-2-5.md",
+      "ja_text_sha256": "0a6421cd514cff6f5c3548f549eb0622ef6ed6e118bb61bafb9e7d5bb5cd41a4",
+      "ja_text_bytes": 5234,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-2-6",
+      "article_number": "2-6",
+      "filename": "sochi-hou-shikoukisoku-article-2-6.md",
+      "ja_text_sha256": "2c546f91e6d77799028e7b08f302abd9a7d03dc6f33ce58c0bda3756c51cdf4c",
+      "ja_text_bytes": 1004,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-2",
+      "article_number": "2",
+      "filename": "sochi-hou-shikoukisoku-article-2.md",
+      "ja_text_sha256": "638c33c46b4dcc298b4710ebb22918b1f9052e71931ae808f74408285e812c13",
+      "ja_text_bytes": 886,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-10-2",
+      "article_number": "20-10-2",
+      "filename": "sochi-hou-shikoukisoku-article-20-10-2.md",
+      "ja_text_sha256": "a19314691733680d5a31a75d312a2eab6e71e9b17d5d1d9c8d4c1246953bf52c",
+      "ja_text_bytes": 3388,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-10",
+      "article_number": "20-10",
+      "filename": "sochi-hou-shikoukisoku-article-20-10.md",
+      "ja_text_sha256": "c671d891ac9f4e7c263051d2260cf67b28c556aa227fb2f5cadd82b94cda2be5",
+      "ja_text_bytes": 2159,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-11",
+      "article_number": "20-11",
+      "filename": "sochi-hou-shikoukisoku-article-20-11.md",
+      "ja_text_sha256": "53caf2bafa0499ed1926de8504416b15cd76cd043ef995446515695e986dbdc4",
+      "ja_text_bytes": 1164,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-12",
+      "article_number": "20-12",
+      "filename": "sochi-hou-shikoukisoku-article-20-12.md",
+      "ja_text_sha256": "2d21c9857748ead3e5ec9b7a7c2d0616bc9853f27b98fecdc4af421da29a35c4",
+      "ja_text_bytes": 443,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-13",
+      "article_number": "20-13",
+      "filename": "sochi-hou-shikoukisoku-article-20-13.md",
+      "ja_text_sha256": "6b766ce213ed7bf307cda20dda1a61b19afd302c6749486973787fd1fd2eec32",
+      "ja_text_bytes": 422,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-16",
+      "article_number": "20-16",
+      "filename": "sochi-hou-shikoukisoku-article-20-16.md",
+      "ja_text_sha256": "73ab2ca57a13efe2ece11e38007de9ffe08fa576829f9f068ff8372f7cdb9af9",
+      "ja_text_bytes": 3420,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-17",
+      "article_number": "20-17",
+      "filename": "sochi-hou-shikoukisoku-article-20-17.md",
+      "ja_text_sha256": "fcf6bcf9d958f7eab8a64977fb8e11e0862c3f282b1dfb82491afbc51af4f8cd",
+      "ja_text_bytes": 206,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-2",
+      "article_number": "20-2",
+      "filename": "sochi-hou-shikoukisoku-article-20-2.md",
+      "ja_text_sha256": "d233429e98dd2ea04ff68bd33eef42cff85a9f2915f31d5ec474881fe9278bbd",
+      "ja_text_bytes": 10684,
+      "paragraph_count": 24
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-20",
+      "article_number": "20-20",
+      "filename": "sochi-hou-shikoukisoku-article-20-20.md",
+      "ja_text_sha256": "e4b5e04b32e4c302bac57cd6cda7257c0c19468c9e1d252a4aaca14b4c7e1cd0",
+      "ja_text_bytes": 590,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-21",
+      "article_number": "20-21",
+      "filename": "sochi-hou-shikoukisoku-article-20-21.md",
+      "ja_text_sha256": "fcdc8c9d932c613cfa1163261af78952d82aae7504253e3cf2b89a2a79ec3819",
+      "ja_text_bytes": 654,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-22",
+      "article_number": "20-22",
+      "filename": "sochi-hou-shikoukisoku-article-20-22.md",
+      "ja_text_sha256": "e8f6ead18928a7f1adce6755a0cfdc266827d3ce14c5c93a7070c97ffbeb7a19",
+      "ja_text_bytes": 194,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-3",
+      "article_number": "20-3",
+      "filename": "sochi-hou-shikoukisoku-article-20-3.md",
+      "ja_text_sha256": "da898f8fed99cd22cd374e8781a97dd34f49934ae08136aeaccc509b28b0505a",
+      "ja_text_bytes": 2659,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-4",
+      "article_number": "20-4",
+      "filename": "sochi-hou-shikoukisoku-article-20-4.md",
+      "ja_text_sha256": "a15fac4da783e8b8bc4093de765b4c010784bf61cf3bdd984fc2c17dd3dc81a3",
+      "ja_text_bytes": 2779,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-5",
+      "article_number": "20-5",
+      "filename": "sochi-hou-shikoukisoku-article-20-5.md",
+      "ja_text_sha256": "3f50e45d11ab1e066e3801d580474e07f2fe55cf03f9bdbdbf76ee7386171d4b",
+      "ja_text_bytes": 1747,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-6",
+      "article_number": "20-6",
+      "filename": "sochi-hou-shikoukisoku-article-20-6.md",
+      "ja_text_sha256": "c3730ca2fcaa6d8fe31b24c4cf23fe6ce3032fc21098293ef115b577e419d254",
+      "ja_text_bytes": 700,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-7",
+      "article_number": "20-7",
+      "filename": "sochi-hou-shikoukisoku-article-20-7.md",
+      "ja_text_sha256": "8d66fd7b4eb51376baced01f2caaadcdd55a7750637c1d164d6af678f16738a8",
+      "ja_text_bytes": 3379,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-8",
+      "article_number": "20-8",
+      "filename": "sochi-hou-shikoukisoku-article-20-8.md",
+      "ja_text_sha256": "71a27dc6b2de205ebd43cd89e6323fc7a72632ba46119189ffb31123520c8a02",
+      "ja_text_bytes": 397,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20-9",
+      "article_number": "20-9",
+      "filename": "sochi-hou-shikoukisoku-article-20-9.md",
+      "ja_text_sha256": "de17b96a192c71ab915418a42a2b793078e68eada4ec596dcb402f01d8325a9f",
+      "ja_text_bytes": 2977,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-20",
+      "article_number": "20",
+      "filename": "sochi-hou-shikoukisoku-article-20.md",
+      "ja_text_sha256": "7ef4f28b2f22c447b43f64894833acdc053140ba5df729331c1c23eba8da1eb1",
+      "ja_text_bytes": 5155,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-12",
+      "article_number": "21-12",
+      "filename": "sochi-hou-shikoukisoku-article-21-12.md",
+      "ja_text_sha256": "3e54ac40c371daad3a2b8eb6cf7ace8b3c232e0892e2bb97f5db489a38188e3a",
+      "ja_text_bytes": 1051,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-13",
+      "article_number": "21-13",
+      "filename": "sochi-hou-shikoukisoku-article-21-13.md",
+      "ja_text_sha256": "ac326fd2aba74f5ce2259c929a484d1b49e03eb5f670bd64ab3e73d8e78a5f02",
+      "ja_text_bytes": 191,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-14",
+      "article_number": "21-14",
+      "filename": "sochi-hou-shikoukisoku-article-21-14.md",
+      "ja_text_sha256": "219e70cac2798fcd59b9e31fb9ace5c9d75bb02961b7a05892fe588cca64a78f",
+      "ja_text_bytes": 390,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-15",
+      "article_number": "21-15",
+      "filename": "sochi-hou-shikoukisoku-article-21-15.md",
+      "ja_text_sha256": "e7c516168d7af7a576a3c787641deaeff565e315e9de6da385484549ec796fb8",
+      "ja_text_bytes": 3860,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-16",
+      "article_number": "21-16",
+      "filename": "sochi-hou-shikoukisoku-article-21-16.md",
+      "ja_text_sha256": "6dc1687af87ee0f8eb7db598bca927680a840e4c28580dfdfbbb355bddfbadbc",
+      "ja_text_bytes": 227,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-17-2",
+      "article_number": "21-17-2",
+      "filename": "sochi-hou-shikoukisoku-article-21-17-2.md",
+      "ja_text_sha256": "916e358a21a4d6a473e6bc68068c99150283ccd26fb7ba3c637aebaf9b992138",
+      "ja_text_bytes": 10770,
+      "paragraph_count": 19
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-17-3",
+      "article_number": "21-17-3",
+      "filename": "sochi-hou-shikoukisoku-article-21-17-3.md",
+      "ja_text_sha256": "66e700ae2a86021996cb21e4d021a6f16f8db2ad7c32e95f95e0594c80a9d0dc",
+      "ja_text_bytes": 983,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-17",
+      "article_number": "21-17",
+      "filename": "sochi-hou-shikoukisoku-article-21-17.md",
+      "ja_text_sha256": "8d59561dbe73c16fe97414f18caff0dbb4dd1b69e3379510d9581a5986d5e337",
+      "ja_text_bytes": 3145,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-18-2",
+      "article_number": "21-18-2",
+      "filename": "sochi-hou-shikoukisoku-article-21-18-2.md",
+      "ja_text_sha256": "98f5b6bad81a2748f22e6fd40b18cbbbb17036dd0717e1af62450121965c22ad",
+      "ja_text_bytes": 1360,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-18-3",
+      "article_number": "21-18-3",
+      "filename": "sochi-hou-shikoukisoku-article-21-18-3.md",
+      "ja_text_sha256": "1687bdbc4ff03a29d7cdd0f00a14de39a0bd3065dcb974312ff5800e2d31f58c",
+      "ja_text_bytes": 1102,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-18-4",
+      "article_number": "21-18-4",
+      "filename": "sochi-hou-shikoukisoku-article-21-18-4.md",
+      "ja_text_sha256": "3a5d3dc84d6d6c847518043b7fd9beaf56fe025bde6dade70ee71738d3838c09",
+      "ja_text_bytes": 999,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-18",
+      "article_number": "21-18",
+      "filename": "sochi-hou-shikoukisoku-article-21-18.md",
+      "ja_text_sha256": "bd515e97b0c6b8a8f056c6ab7328c3a8c3f37e145b485c077b053d81d59f6f31",
+      "ja_text_bytes": 765,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-19",
+      "article_number": "21-19",
+      "filename": "sochi-hou-shikoukisoku-article-21-19.md",
+      "ja_text_sha256": "a0fb0da643ba0deeb310ae1f7c0ec7d9609d82caac4f16e4635cae51bcd7f73d",
+      "ja_text_bytes": 9046,
+      "paragraph_count": 18
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21-2",
+      "article_number": "21-2",
+      "filename": "sochi-hou-shikoukisoku-article-21-2.md",
+      "ja_text_sha256": "a53fd6b3996570e1148e13c5f82f9e679f5088d1a61141b1dd32ec013e88a1c9",
+      "ja_text_bytes": 1288,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-21",
+      "article_number": "21",
+      "filename": "sochi-hou-shikoukisoku-article-21.md",
+      "ja_text_sha256": "96660657f840d69a7339ddc3523abdd451fa3275bbf9da81931a6305c928f7f0",
+      "ja_text_bytes": 3059,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-10-2",
+      "article_number": "22-10-2",
+      "filename": "sochi-hou-shikoukisoku-article-22-10-2.md",
+      "ja_text_sha256": "8a18f01a831c21fcd55bb168e90f6d49339f8de9e33fbf6dd78458ff59e7abad",
+      "ja_text_bytes": 132,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-10-3",
+      "article_number": "22-10-3",
+      "filename": "sochi-hou-shikoukisoku-article-22-10-3.md",
+      "ja_text_sha256": "c847de90ef6af0fe0da369a459935dbfa28b27d1ad2cb857d5d8a8699129a46b",
+      "ja_text_bytes": 3623,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-10-4",
+      "article_number": "22-10-4",
+      "filename": "sochi-hou-shikoukisoku-article-22-10-4.md",
+      "ja_text_sha256": "930ee08c8c577007048b5cfdd6040fb43362172540550412b39624bb70931f91",
+      "ja_text_bytes": 3945,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-10-5",
+      "article_number": "22-10-5",
+      "filename": "sochi-hou-shikoukisoku-article-22-10-5.md",
+      "ja_text_sha256": "586848c567b414e85f27f01d15bf735cab3b7d84e136c7a53a33c86a4cf434a8",
+      "ja_text_bytes": 703,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-10-6",
+      "article_number": "22-10-6",
+      "filename": "sochi-hou-shikoukisoku-article-22-10-6.md",
+      "ja_text_sha256": "2f7341d7efaeff0e59a95b7b665b567b35d97655b038dd71d9643815745af1a7",
+      "ja_text_bytes": 1456,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-10-7",
+      "article_number": "22-10-7",
+      "filename": "sochi-hou-shikoukisoku-article-22-10-7.md",
+      "ja_text_sha256": "e1ea3d5e52a200e70d6ef9f3be7a5c8410e6bd737b715ed10fee7f6e4c9881c5",
+      "ja_text_bytes": 769,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-10",
+      "article_number": "22-10",
+      "filename": "sochi-hou-shikoukisoku-article-22-10.md",
+      "ja_text_sha256": "22c7ca23dd6a85b5e676627ab37514bd761490a8f9fb8796e94436e762a3a3a5",
+      "ja_text_bytes": 11536,
+      "paragraph_count": 14
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-11-2",
+      "article_number": "22-11-2",
+      "filename": "sochi-hou-shikoukisoku-article-22-11-2.md",
+      "ja_text_sha256": "c49ac197c758709b9b2087a9d2c8f4f43d201258a8a6e50a051ad33e085d8364",
+      "ja_text_bytes": 1004,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-11-3",
+      "article_number": "22-11-3",
+      "filename": "sochi-hou-shikoukisoku-article-22-11-3.md",
+      "ja_text_sha256": "6bc313ec6dd802116fcae47724d63890018d0c16ca4d0442337999ba728e66de",
+      "ja_text_bytes": 16016,
+      "paragraph_count": 17
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-11",
+      "article_number": "22-11",
+      "filename": "sochi-hou-shikoukisoku-article-22-11.md",
+      "ja_text_sha256": "8352628fb713089b5a7c63578b65d731ae5143247ec68ddf208f9b7cfa7406bc",
+      "ja_text_bytes": 31297,
+      "paragraph_count": 52
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-12",
+      "article_number": "22-12",
+      "filename": "sochi-hou-shikoukisoku-article-22-12.md",
+      "ja_text_sha256": "45faf3132e98e1e12a106fbd0d8333ed9a5498f0cf2a72766191f888806bdee3",
+      "ja_text_bytes": 617,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-13",
+      "article_number": "22-13",
+      "filename": "sochi-hou-shikoukisoku-article-22-13.md",
+      "ja_text_sha256": "7ae6e9a272bd40dd62307264095066dcc105e452177bb398bfb5cc4fb5e83798",
+      "ja_text_bytes": 6194,
+      "paragraph_count": 14
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-14",
+      "article_number": "22-14",
+      "filename": "sochi-hou-shikoukisoku-article-22-14.md",
+      "ja_text_sha256": "46699fe083c389c83ea7e9edf3ea1ab7a01a364c3980d50d673c8bb32c7009f8",
+      "ja_text_bytes": 398,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-15",
+      "article_number": "22-15",
+      "filename": "sochi-hou-shikoukisoku-article-22-15.md",
+      "ja_text_sha256": "cba3e917945e6d1cd8366a4fe45862896ed3469bea819f3fca4fef815173ebdf",
+      "ja_text_bytes": 1352,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-16",
+      "article_number": "22-16",
+      "filename": "sochi-hou-shikoukisoku-article-22-16.md",
+      "ja_text_sha256": "4c178adf83651f97e5c992f02def23896fc88810476234e25fbc7401c78dff64",
+      "ja_text_bytes": 1967,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-17",
+      "article_number": "22-17",
+      "filename": "sochi-hou-shikoukisoku-article-22-17.md",
+      "ja_text_sha256": "4c061aa7795a437711acce59a43c7a419b9b9c062c502c7ce1682c0606293417",
+      "ja_text_bytes": 890,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-18-2",
+      "article_number": "22-18-2",
+      "filename": "sochi-hou-shikoukisoku-article-22-18-2.md",
+      "ja_text_sha256": "ec8af7fce762bca1abc1cba8198f27c2a31f4b92fa06bd5dce54cd134eafb13a",
+      "ja_text_bytes": 2413,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-18-3",
+      "article_number": "22-18-3",
+      "filename": "sochi-hou-shikoukisoku-article-22-18-3.md",
+      "ja_text_sha256": "e918fb6f2a57b144a8b663a64f40e4844409b129aaada449ea74b52c06fe16d0",
+      "ja_text_bytes": 333,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-18-4",
+      "article_number": "22-18-4",
+      "filename": "sochi-hou-shikoukisoku-article-22-18-4.md",
+      "ja_text_sha256": "d6e62eeca4789e24b28950b301ba785001a93d376c0b6e7b40aa16bb1b801568",
+      "ja_text_bytes": 1854,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-18",
+      "article_number": "22-18",
+      "filename": "sochi-hou-shikoukisoku-article-22-18.md",
+      "ja_text_sha256": "d1b6c9540084476f69bbec46d4a6fc4cba6bbbd15f33eb76ae841f1612a4a1da",
+      "ja_text_bytes": 893,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-19-2",
+      "article_number": "22-19-2",
+      "filename": "sochi-hou-shikoukisoku-article-22-19-2.md",
+      "ja_text_sha256": "ee30425425ab6f6fc3c33fd718e0f23aa5e6d44e6ea261f5b796ff10fc08c30b",
+      "ja_text_bytes": 1706,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-19-3-2",
+      "article_number": "22-19-3-2",
+      "filename": "sochi-hou-shikoukisoku-article-22-19-3-2.md",
+      "ja_text_sha256": "e99d10dc0fef2e4a2a1be89e89203f57a6b034fe19701715539f7f07d80b3ed7",
+      "ja_text_bytes": 120,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-19-3",
+      "article_number": "22-19-3",
+      "filename": "sochi-hou-shikoukisoku-article-22-19-3.md",
+      "ja_text_sha256": "eb3bf22ea1b3b5380e001c5ca57fa87befd0d7dbd0a4906d664dd5c3991ae410",
+      "ja_text_bytes": 1001,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-19-4",
+      "article_number": "22-19-4",
+      "filename": "sochi-hou-shikoukisoku-article-22-19-4.md",
+      "ja_text_sha256": "55cfeb5ae194383ec87602ded9cd72519667c8057083f1d61aa945257b9c81a9",
+      "ja_text_bytes": 3324,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-19",
+      "article_number": "22-19",
+      "filename": "sochi-hou-shikoukisoku-article-22-19.md",
+      "ja_text_sha256": "858a46400fb6b12e38c3b4e93654df44285efa20c9a34b99db19f5e49c5cf718",
+      "ja_text_bytes": 7778,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-2",
+      "article_number": "22-2",
+      "filename": "sochi-hou-shikoukisoku-article-22-2.md",
+      "ja_text_sha256": "71469dd8769de81655954126997b9e163568f44873de156e3675ae61d3175096",
+      "ja_text_bytes": 6686,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-20-2",
+      "article_number": "22-20-2",
+      "filename": "sochi-hou-shikoukisoku-article-22-20-2.md",
+      "ja_text_sha256": "4fd97be1cebbebc54ff59d0bd3f7b8098f7928e7459ceaba6870ed9780d5a443",
+      "ja_text_bytes": 2243,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-20-3",
+      "article_number": "22-20-3",
+      "filename": "sochi-hou-shikoukisoku-article-22-20-3.md",
+      "ja_text_sha256": "fc2572394a81937660f1602b2af9ea80a581baeb35d8bf542a729f41f33a05b1",
+      "ja_text_bytes": 3248,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-20",
+      "article_number": "22-20",
+      "filename": "sochi-hou-shikoukisoku-article-22-20.md",
+      "ja_text_sha256": "aaee36da6eb80a4b4d195032317a93e571f9b84ad56f0f7350a7bed25b8ad114",
+      "ja_text_bytes": 1733,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-21",
+      "article_number": "22-21",
+      "filename": "sochi-hou-shikoukisoku-article-22-21.md",
+      "ja_text_sha256": "eb7f46853b3c9ab0ef09b78306363159fd8dc2c2043274c2c460bcfb5da1fb22",
+      "ja_text_bytes": 71,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-22",
+      "article_number": "22-22",
+      "filename": "sochi-hou-shikoukisoku-article-22-22.md",
+      "ja_text_sha256": "aff3d0a9f9ee8662a85f7e4bfb2bc5813c855b5c61c5a66db88f10cc3cea2f3b",
+      "ja_text_bytes": 1203,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-3",
+      "article_number": "22-3",
+      "filename": "sochi-hou-shikoukisoku-article-22-3.md",
+      "ja_text_sha256": "f8b2beb9459905e7f575e269c739768affc8618ca003a0fb4ce3663ed2c46bda",
+      "ja_text_bytes": 1765,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-4",
+      "article_number": "22-4",
+      "filename": "sochi-hou-shikoukisoku-article-22-4.md",
+      "ja_text_sha256": "88653a7e61302cc8e7347c4f4f367dac4a36c2df9871357da6ce13472e7bc8ed",
+      "ja_text_bytes": 772,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-5",
+      "article_number": "22-5",
+      "filename": "sochi-hou-shikoukisoku-article-22-5.md",
+      "ja_text_sha256": "409c67610f3b4e17ca2190eb08ed941d882718913286f0547084de5370aa654e",
+      "ja_text_bytes": 8571,
+      "paragraph_count": 20
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-6",
+      "article_number": "22-6",
+      "filename": "sochi-hou-shikoukisoku-article-22-6.md",
+      "ja_text_sha256": "55f2d02cd1f3965ab9ae6430cb792c1ca9ef7ff3036a2b3138a8c44820c1fdfa",
+      "ja_text_bytes": 913,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-7",
+      "article_number": "22-7",
+      "filename": "sochi-hou-shikoukisoku-article-22-7.md",
+      "ja_text_sha256": "e635ee50048947985918758af40ae4bffaae86595beb344fb11a28a71f261266",
+      "ja_text_bytes": 4699,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-8",
+      "article_number": "22-8",
+      "filename": "sochi-hou-shikoukisoku-article-22-8.md",
+      "ja_text_sha256": "6b67e761a831a751465f98f2bddf2e382da90ca47b23e8041b8310d226e685c7",
+      "ja_text_bytes": 541,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-9-2",
+      "article_number": "22-9-2",
+      "filename": "sochi-hou-shikoukisoku-article-22-9-2.md",
+      "ja_text_sha256": "1e203d40f6f8690208f6941018d3d6a12811f6fe7db3e337b5e6222b95cdc3ec",
+      "ja_text_bytes": 297,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22-9",
+      "article_number": "22-9",
+      "filename": "sochi-hou-shikoukisoku-article-22-9.md",
+      "ja_text_sha256": "579bcaaaa3b311d350bc0bad82f6dc4d9920555cef763d39802e0fceac99b894",
+      "ja_text_bytes": 1930,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-22",
+      "article_number": "22",
+      "filename": "sochi-hou-shikoukisoku-article-22.md",
+      "ja_text_sha256": "badce2d0ebb04f93a7e5e0aa4fb197127ace2210a68fee95416216455b47a515",
+      "ja_text_bytes": 632,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-10",
+      "article_number": "23-10",
+      "filename": "sochi-hou-shikoukisoku-article-23-10.md",
+      "ja_text_sha256": "f64d60658ea8472015b80a6721b512089905f20ca22d5a06478fe30b0a0b97f7",
+      "ja_text_bytes": 17818,
+      "paragraph_count": 52
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-11",
+      "article_number": "23-11",
+      "filename": "sochi-hou-shikoukisoku-article-23-11.md",
+      "ja_text_sha256": "0545a778e4a1ae270a8cfda02828b3ecd9fcac5a1b7d1f684bd09303ec0783a4",
+      "ja_text_bytes": 750,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12-10",
+      "article_number": "23-12-10",
+      "filename": "sochi-hou-shikoukisoku-article-23-12-10.md",
+      "ja_text_sha256": "acd9679581f2f7303d470ef3039ee0138a02c6dc1a008b6b97522353ffca6a07",
+      "ja_text_bytes": 597,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12-2",
+      "article_number": "23-12-2",
+      "filename": "sochi-hou-shikoukisoku-article-23-12-2.md",
+      "ja_text_sha256": "15180043a43af3e4abb08b2f275b21bfe2104c49fd5168c2fa0058190ca4803a",
+      "ja_text_bytes": 12557,
+      "paragraph_count": 35
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12-3",
+      "article_number": "23-12-3",
+      "filename": "sochi-hou-shikoukisoku-article-23-12-3.md",
+      "ja_text_sha256": "ef2cc1a6bed70d5a99fe587b78b9e2a756fd1635d7f9a319e74bd826ccbf2feb",
+      "ja_text_bytes": 12419,
+      "paragraph_count": 35
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12-4",
+      "article_number": "23-12-4",
+      "filename": "sochi-hou-shikoukisoku-article-23-12-4.md",
+      "ja_text_sha256": "e7ea0d417f713a2e99e48a7251a03c08dd7728c1ffe60aba916f3e823e187800",
+      "ja_text_bytes": 617,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12-5",
+      "article_number": "23-12-5",
+      "filename": "sochi-hou-shikoukisoku-article-23-12-5.md",
+      "ja_text_sha256": "ff20dbbec7c3624840f98fdd3d4332a61a4de0250838ca711b0fd273998b7ea4",
+      "ja_text_bytes": 7931,
+      "paragraph_count": 23
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12-6",
+      "article_number": "23-12-6",
+      "filename": "sochi-hou-shikoukisoku-article-23-12-6.md",
+      "ja_text_sha256": "ad9d1801e4deab2c671c5f155f0610c786c4995fb5c4e925fba110b90d45c3f6",
+      "ja_text_bytes": 2155,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12-7",
+      "article_number": "23-12-7",
+      "filename": "sochi-hou-shikoukisoku-article-23-12-7.md",
+      "ja_text_sha256": "d2398ab774cb62bc5a10144aa376b4e36cae146f5eb93cf7f49fd9c2fd7b29bb",
+      "ja_text_bytes": 551,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12-8",
+      "article_number": "23-12-8",
+      "filename": "sochi-hou-shikoukisoku-article-23-12-8.md",
+      "ja_text_sha256": "95813f03f91d73ed2f806e5971974230216850ad00b33c116c7d61e004b2e213",
+      "ja_text_bytes": 1592,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12-9",
+      "article_number": "23-12-9",
+      "filename": "sochi-hou-shikoukisoku-article-23-12-9.md",
+      "ja_text_sha256": "1a28e13357a7a0800ca0677710053665cbe68d50da49376ce6cf59e042d8373f",
+      "ja_text_bytes": 563,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-12",
+      "article_number": "23-12",
+      "filename": "sochi-hou-shikoukisoku-article-23-12.md",
+      "ja_text_sha256": "18410a5ba23ddccf1aee3af1777295d1dafa65a0242be237a16c652a2bf9192e",
+      "ja_text_bytes": 3935,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-13",
+      "article_number": "23-13",
+      "filename": "sochi-hou-shikoukisoku-article-23-13.md",
+      "ja_text_sha256": "7e75cb8f2452c54352fa2baa0e85bde809c06c64c091453a5b7aee3af16f559d",
+      "ja_text_bytes": 1562,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-14",
+      "article_number": "23-14",
+      "filename": "sochi-hou-shikoukisoku-article-23-14.md",
+      "ja_text_sha256": "ce1b2f8975b5986983fcbb1299951f8c2c96f71911cc6573ab6de0937d530bdf",
+      "ja_text_bytes": 1270,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-15",
+      "article_number": "23-15",
+      "filename": "sochi-hou-shikoukisoku-article-23-15.md",
+      "ja_text_sha256": "4d70d316115d9f6373bfad3c63fcaf3574b462d3c3a6089badaf9236844eea64",
+      "ja_text_bytes": 314,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-16",
+      "article_number": "23-16",
+      "filename": "sochi-hou-shikoukisoku-article-23-16.md",
+      "ja_text_sha256": "53b46de6493c8fe8ed65fac32efcdadf6a4601c8930a1984b564786bede7a259",
+      "ja_text_bytes": 197,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-17",
+      "article_number": "23-17",
+      "filename": "sochi-hou-shikoukisoku-article-23-17.md",
+      "ja_text_sha256": "316cf14f1999d06fb403bab48534850129aba0f69a1abf4bdc8dfe9114f49c14",
+      "ja_text_bytes": 752,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-2-2",
+      "article_number": "23-2-2",
+      "filename": "sochi-hou-shikoukisoku-article-23-2-2.md",
+      "ja_text_sha256": "afaabf582fbb6a93ea4f196e0e7be0e876c3d31c00f9cf14b7f50da5013dfc99",
+      "ja_text_bytes": 6074,
+      "paragraph_count": 14
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-2-3",
+      "article_number": "23-2-3",
+      "filename": "sochi-hou-shikoukisoku-article-23-2-3.md",
+      "ja_text_sha256": "16651fd6c57fc649a3126cf112b8d3804ecde9b6e41f344ded4ed82adfe5f857",
+      "ja_text_bytes": 696,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-2",
+      "article_number": "23-2",
+      "filename": "sochi-hou-shikoukisoku-article-23-2.md",
+      "ja_text_sha256": "b33f2a266001dde8c8bfe2dd4591fb5cec525b2f79506f365be550899f676961",
+      "ja_text_bytes": 3700,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-3",
+      "article_number": "23-3",
+      "filename": "sochi-hou-shikoukisoku-article-23-3.md",
+      "ja_text_sha256": "a3b34b0abfd53afa5a223de3ecfc41f8cab8e03437dd650b5af2a7d490d2d064",
+      "ja_text_bytes": 1078,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-4",
+      "article_number": "23-4",
+      "filename": "sochi-hou-shikoukisoku-article-23-4.md",
+      "ja_text_sha256": "752bec15715b04ed561c60534ee0ce0b176860e9653b0ad1f88f680a5209438b",
+      "ja_text_bytes": 544,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-5-2",
+      "article_number": "23-5-2",
+      "filename": "sochi-hou-shikoukisoku-article-23-5-2.md",
+      "ja_text_sha256": "1ea52017f779276bba4f8046bbd374e439b2b29d2b03199ee0d55107728de453",
+      "ja_text_bytes": 5464,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-5-3",
+      "article_number": "23-5-3",
+      "filename": "sochi-hou-shikoukisoku-article-23-5-3.md",
+      "ja_text_sha256": "56384c8e54582f001884139a8f0717e240c93f638fa245941c5ef552fd8656aa",
+      "ja_text_bytes": 9676,
+      "paragraph_count": 30
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-5-4",
+      "article_number": "23-5-4",
+      "filename": "sochi-hou-shikoukisoku-article-23-5-4.md",
+      "ja_text_sha256": "3e9ccbbc2e19893883817bbe755060f9a9aaa07114e5c0b3a2ab3a15b6875ef2",
+      "ja_text_bytes": 5840,
+      "paragraph_count": 23
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-5-5",
+      "article_number": "23-5-5",
+      "filename": "sochi-hou-shikoukisoku-article-23-5-5.md",
+      "ja_text_sha256": "f7276c8a2e84f8cbf886197e2d3a872603fb2b26c94dd84c7b776b8c65ea67a6",
+      "ja_text_bytes": 950,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-5-6",
+      "article_number": "23-5-6",
+      "filename": "sochi-hou-shikoukisoku-article-23-5-6.md",
+      "ja_text_sha256": "6813ec5b0efaf59d026075ffdbd5ff1c3f903e280db69b498f9104e272fee98c",
+      "ja_text_bytes": 840,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-5-7",
+      "article_number": "23-5-7",
+      "filename": "sochi-hou-shikoukisoku-article-23-5-7.md",
+      "ja_text_sha256": "60d1be9d3ad7cd6b7cf1012eab3fefdfbd7722677b6b990881c5d49c5e3dbad3",
+      "ja_text_bytes": 1236,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-5-8",
+      "article_number": "23-5-8",
+      "filename": "sochi-hou-shikoukisoku-article-23-5-8.md",
+      "ja_text_sha256": "125d8aebb72c114ea96b7a99f27b9cc76d1f634762a3ac89d2e5d6f67517a8c3",
+      "ja_text_bytes": 144,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-5",
+      "article_number": "23-5",
+      "filename": "sochi-hou-shikoukisoku-article-23-5.md",
+      "ja_text_sha256": "5e2ddf143f30e907d189e3450711b0cf8f2e186dd901f1240776a5f35a91339d",
+      "ja_text_bytes": 568,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-6-2",
+      "article_number": "23-6-2",
+      "filename": "sochi-hou-shikoukisoku-article-23-6-2.md",
+      "ja_text_sha256": "369a1251130e722acf28bf0106c87a6c4395d6b6c4be43cc3176691643bdc034",
+      "ja_text_bytes": 1619,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-6",
+      "article_number": "23-6",
+      "filename": "sochi-hou-shikoukisoku-article-23-6.md",
+      "ja_text_sha256": "1944a63aeab1902a4e26f0bf46ce7176922db38917102b18e420689ced5dfdc4",
+      "ja_text_bytes": 4126,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-7-2",
+      "article_number": "23-7-2",
+      "filename": "sochi-hou-shikoukisoku-article-23-7-2.md",
+      "ja_text_sha256": "9e1a8c574f76a4f0111a8298c31b02d21f979f30395d047040a807cbdbb862b2",
+      "ja_text_bytes": 3960,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-7",
+      "article_number": "23-7",
+      "filename": "sochi-hou-shikoukisoku-article-23-7.md",
+      "ja_text_sha256": "376871e7410871df3e855b6ad4cf6ed829b16613c0114d88300ff341a3b1a6b3",
+      "ja_text_bytes": 22154,
+      "paragraph_count": 46
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-8-2",
+      "article_number": "23-8-2",
+      "filename": "sochi-hou-shikoukisoku-article-23-8-2.md",
+      "ja_text_sha256": "fdb91533fb1e010706a0241d6e81dd72cd03e86f74d7df2baf577909fbb68494",
+      "ja_text_bytes": 2424,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-8-3",
+      "article_number": "23-8-3",
+      "filename": "sochi-hou-shikoukisoku-article-23-8-3.md",
+      "ja_text_sha256": "7f1c2e16b997329734ccca923828b1856dc686cfe712dbe23cee8e01c918ca9d",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-8-4",
+      "article_number": "23-8-4",
+      "filename": "sochi-hou-shikoukisoku-article-23-8-4.md",
+      "ja_text_sha256": "2f38d04e76ce49a0a3e1235ad6854aa613ab55683decd4c1de98e567dac88d3f",
+      "ja_text_bytes": 5398,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-8-5",
+      "article_number": "23-8-5",
+      "filename": "sochi-hou-shikoukisoku-article-23-8-5.md",
+      "ja_text_sha256": "b403a8fc2d86eec04af2034f87ae012d40b7115f5dd41ab32b69f0cdc0324d86",
+      "ja_text_bytes": 126,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-8-6",
+      "article_number": "23-8-6",
+      "filename": "sochi-hou-shikoukisoku-article-23-8-6.md",
+      "ja_text_sha256": "3dcdc7201278e174c69d0f2f8f3e69e2f46e7c782ef04fe2046f106de7ab688d",
+      "ja_text_bytes": 8247,
+      "paragraph_count": 31
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-8-7",
+      "article_number": "23-8-7",
+      "filename": "sochi-hou-shikoukisoku-article-23-8-7.md",
+      "ja_text_sha256": "736ced95908b4028ce7862d6aa4f1019e6c1ae2ca0e3264ff0b596023629ea4b",
+      "ja_text_bytes": 6324,
+      "paragraph_count": 16
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-8-8",
+      "article_number": "23-8-8",
+      "filename": "sochi-hou-shikoukisoku-article-23-8-8.md",
+      "ja_text_sha256": "0d279d44ffe7a4685c98e36ba67e4e12b4d4e96384d202364b30c3ae612e6c74",
+      "ja_text_bytes": 11070,
+      "paragraph_count": 31
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-8-9",
+      "article_number": "23-8-9",
+      "filename": "sochi-hou-shikoukisoku-article-23-8-9.md",
+      "ja_text_sha256": "e5113d580e89dbe7dc2628dd776105f3dfdefa9cc67fc1c90e3ed2ec8688a3a6",
+      "ja_text_bytes": 12323,
+      "paragraph_count": 29
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-8",
+      "article_number": "23-8",
+      "filename": "sochi-hou-shikoukisoku-article-23-8.md",
+      "ja_text_sha256": "e02546e95e9aadd1610a9e2413150258ffb290a22a91c50d7541abd0e22dcd15",
+      "ja_text_bytes": 36122,
+      "paragraph_count": 38
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23-9",
+      "article_number": "23-9",
+      "filename": "sochi-hou-shikoukisoku-article-23-9.md",
+      "ja_text_sha256": "e1058c314f3038d6b37d2556ca405844e3b71d959fa48861fd773379d635bf02",
+      "ja_text_bytes": 21829,
+      "paragraph_count": 54
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-23",
+      "article_number": "23",
+      "filename": "sochi-hou-shikoukisoku-article-23.md",
+      "ja_text_sha256": "e139e7b095ad9d624dac835937b01846436d29095601fb9af63866033703f55a",
+      "ja_text_bytes": 937,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-10",
+      "article_number": "24-10",
+      "filename": "sochi-hou-shikoukisoku-article-24-10.md",
+      "ja_text_sha256": "def20e6e2d7cffe6e2b38531176410abc3564263152ff7592edf784e69c49034",
+      "ja_text_bytes": 557,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-11",
+      "article_number": "24-11",
+      "filename": "sochi-hou-shikoukisoku-article-24-11.md",
+      "ja_text_sha256": "5de0713d1ab442f743671ab05fd3eba7efab8cb09fe8052324a415b26df142d9",
+      "ja_text_bytes": 1093,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-12",
+      "article_number": "24-12",
+      "filename": "sochi-hou-shikoukisoku-article-24-12.md",
+      "ja_text_sha256": "24292f5d43184617fc55159167abcbd589296a73ae356f591755234580b8e824",
+      "ja_text_bytes": 434,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-13",
+      "article_number": "24-13",
+      "filename": "sochi-hou-shikoukisoku-article-24-13.md",
+      "ja_text_sha256": "5245df05f4d5f0f64fff1b40dfdbb29bc038124b31c97f7cdb2338ed32603064",
+      "ja_text_bytes": 933,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-14",
+      "article_number": "24-14",
+      "filename": "sochi-hou-shikoukisoku-article-24-14.md",
+      "ja_text_sha256": "42e64ac7f8646aa9e72af7d628c94728175186181c80546a5cf10f09cf2fe2d9",
+      "ja_text_bytes": 371,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-2",
+      "article_number": "24-2",
+      "filename": "sochi-hou-shikoukisoku-article-24-2.md",
+      "ja_text_sha256": "b8b703594ffe28d2a58165eb550294dd472436e05f9dd9f73a384c15bae531bc",
+      "ja_text_bytes": 901,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-3",
+      "article_number": "24-3",
+      "filename": "sochi-hou-shikoukisoku-article-24-3.md",
+      "ja_text_sha256": "b463cea5415477ce173971571397a021b82dfa592ebf26b75eafffe0e49b1d85",
+      "ja_text_bytes": 217,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-4",
+      "article_number": "24-4",
+      "filename": "sochi-hou-shikoukisoku-article-24-4.md",
+      "ja_text_sha256": "bff284e8d51d3da2a4c818469446ed5f4eb82ae6f4e447904347c5135595bf87",
+      "ja_text_bytes": 2410,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-5",
+      "article_number": "24-5",
+      "filename": "sochi-hou-shikoukisoku-article-24-5.md",
+      "ja_text_sha256": "edd5525a14851aa356022f40c5fea0a59ac1e970adc575916a6bd7fe3a8484e3",
+      "ja_text_bytes": 451,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-6",
+      "article_number": "24-6",
+      "filename": "sochi-hou-shikoukisoku-article-24-6.md",
+      "ja_text_sha256": "749bf32b5b6a7044413719cdee3865d347dafdcc30384501b495ec388bfd186b",
+      "ja_text_bytes": 586,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-7",
+      "article_number": "24-7",
+      "filename": "sochi-hou-shikoukisoku-article-24-7.md",
+      "ja_text_sha256": "042b41c9fbe3f16c4c958f90a72ef3a6cd746eb0bfc0836630fefc27cd395c8f",
+      "ja_text_bytes": 469,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-8",
+      "article_number": "24-8",
+      "filename": "sochi-hou-shikoukisoku-article-24-8.md",
+      "ja_text_sha256": "09d265688f7c23e43ab514dbf1abd914c99092d6438717dab245731d75837f78",
+      "ja_text_bytes": 511,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24-9",
+      "article_number": "24-9",
+      "filename": "sochi-hou-shikoukisoku-article-24-9.md",
+      "ja_text_sha256": "0f3a5cce9622f0fae86019c6e99096887c7d40c45762a97cf1d325dd56bf7d21",
+      "ja_text_bytes": 649,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-24",
+      "article_number": "24",
+      "filename": "sochi-hou-shikoukisoku-article-24.md",
+      "ja_text_sha256": "d2d93f49f37ddeee7f53ceaeb2e20c1cbea7c98cb3a04a8ea5f1abb51e336f47",
+      "ja_text_bytes": 68,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-25-2",
+      "article_number": "25-2",
+      "filename": "sochi-hou-shikoukisoku-article-25-2.md",
+      "ja_text_sha256": "c9311d96f1a6b0b9144c1d20eb3b6b8b50409ae950eeea37e883956ca494b073",
+      "ja_text_bytes": 1369,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-25",
+      "article_number": "25",
+      "filename": "sochi-hou-shikoukisoku-article-25.md",
+      "ja_text_sha256": "56626a731dfc227f916c3af238869b29a77457ed3d2584641c5f63c63998d977",
+      "ja_text_bytes": 930,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-26-2",
+      "article_number": "26-2",
+      "filename": "sochi-hou-shikoukisoku-article-26-2.md",
+      "ja_text_sha256": "f91670507c18d29aad23a8243934fd311e548a61756194584d6f35059ad06598",
+      "ja_text_bytes": 2398,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-26-3",
+      "article_number": "26-3",
+      "filename": "sochi-hou-shikoukisoku-article-26-3.md",
+      "ja_text_sha256": "f8cbc7ec08260cb11f78286c6b39491150cd650f030d6314441b6bf02f78ebde",
+      "ja_text_bytes": 784,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-26",
+      "article_number": "26",
+      "filename": "sochi-hou-shikoukisoku-article-26.md",
+      "ja_text_sha256": "5b097403c482a708add6cbe3da397ad6ca8e2a3c7e81eea759424111c5655f52",
+      "ja_text_bytes": 1651,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-27",
+      "article_number": "27",
+      "filename": "sochi-hou-shikoukisoku-article-27.md",
+      "ja_text_sha256": "decae3c671d7f9d30ed1439faf67aac1d73285364c2f973a3deee75e0b7c6766",
+      "ja_text_bytes": 702,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-28",
+      "article_number": "28",
+      "filename": "sochi-hou-shikoukisoku-article-28.md",
+      "ja_text_sha256": "8e5a8ad091ea532b951fa5cefe795409285efbb673be6665008b4956db7af8ad",
+      "ja_text_bytes": 2666,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-29-2",
+      "article_number": "29-2",
+      "filename": "sochi-hou-shikoukisoku-article-29-2.md",
+      "ja_text_sha256": "022946990c400c33054e43b1a36b81570b07337950ea7f073a17f559e31824f0",
+      "ja_text_bytes": 787,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-29",
+      "article_number": "29",
+      "filename": "sochi-hou-shikoukisoku-article-29.md",
+      "ja_text_sha256": "8ed94b51393094573037650e4746701e552612d3891c89ba44a5b480724c5f88",
+      "ja_text_bytes": 629,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-10",
+      "article_number": "3-10",
+      "filename": "sochi-hou-shikoukisoku-article-3-10.md",
+      "ja_text_sha256": "79e3a1d412aab3dde0a807c75068ecc5ce7328954aeb01feca3fc6e1b1a52c96",
+      "ja_text_bytes": 970,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-11",
+      "article_number": "3-11",
+      "filename": "sochi-hou-shikoukisoku-article-3-11.md",
+      "ja_text_sha256": "223488fc12281a72a3ef726ae9840ad49cfbd2a26ba853eee374f6f24ce66f69",
+      "ja_text_bytes": 655,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-12",
+      "article_number": "3-12",
+      "filename": "sochi-hou-shikoukisoku-article-3-12.md",
+      "ja_text_sha256": "c54c602a9cbc9e9e87dc5d582d5fb59ec76a292e480f11d67033c586f9724951",
+      "ja_text_bytes": 4573,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-13",
+      "article_number": "3-13",
+      "filename": "sochi-hou-shikoukisoku-article-3-13.md",
+      "ja_text_sha256": "6136f6616a8bf66f0b6d7dc398da6c85699139af1f55ede428d0e0f88b4853e6",
+      "ja_text_bytes": 4660,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-14",
+      "article_number": "3-14",
+      "filename": "sochi-hou-shikoukisoku-article-3-14.md",
+      "ja_text_sha256": "5fca035288217faa070d216b907a55ba6932427feb78eab1183e853443d2765a",
+      "ja_text_bytes": 727,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-15",
+      "article_number": "3-15",
+      "filename": "sochi-hou-shikoukisoku-article-3-15.md",
+      "ja_text_sha256": "ea8eaedc8a45cb0a4e98737d9930f1558427ddd8c836aa294cc5bfcc8616bb50",
+      "ja_text_bytes": 8790,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-16-2",
+      "article_number": "3-16-2",
+      "filename": "sochi-hou-shikoukisoku-article-3-16-2.md",
+      "ja_text_sha256": "2f4c97c6986dcc96357cf8354d921e5e77077b57460976b03571f3d3cc6e47e2",
+      "ja_text_bytes": 25044,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-16",
+      "article_number": "3-16",
+      "filename": "sochi-hou-shikoukisoku-article-3-16.md",
+      "ja_text_sha256": "f6074cdcd8609809c74dc0c27d2fc7e57707cfd1e6dbec49da0b9f8018bbfbd1",
+      "ja_text_bytes": 949,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-17",
+      "article_number": "3-17",
+      "filename": "sochi-hou-shikoukisoku-article-3-17.md",
+      "ja_text_sha256": "278a2e3f67995ad7139d694076104bf3d5eb100f1b80df8c963d7652a111ab5d",
+      "ja_text_bytes": 7136,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-18",
+      "article_number": "3-18",
+      "filename": "sochi-hou-shikoukisoku-article-3-18.md",
+      "ja_text_sha256": "57dea7cb6bdfdcb9c86602ab4bcbf1ddc1f11cfbededbf23afbc6bf4751003cb",
+      "ja_text_bytes": 17547,
+      "paragraph_count": 36
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-19",
+      "article_number": "3-19",
+      "filename": "sochi-hou-shikoukisoku-article-3-19.md",
+      "ja_text_sha256": "fef488f42c1cd4dcde5ded251a3df03707275d94af86bc711b08bce34efbe06f",
+      "ja_text_bytes": 14504,
+      "paragraph_count": 22
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-2",
+      "article_number": "3-2",
+      "filename": "sochi-hou-shikoukisoku-article-3-2.md",
+      "ja_text_sha256": "96cb78ad682bbe66131518e2044871fd059734d081f94a3d2b495ff4a6ba76b5",
+      "ja_text_bytes": 222,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-20",
+      "article_number": "3-20",
+      "filename": "sochi-hou-shikoukisoku-article-3-20.md",
+      "ja_text_sha256": "59af94036f9190f827cc0f7a784e47629bf6306d853e5910a5a3920df060c9f1",
+      "ja_text_bytes": 15020,
+      "paragraph_count": 25
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-21",
+      "article_number": "3-21",
+      "filename": "sochi-hou-shikoukisoku-article-3-21.md",
+      "ja_text_sha256": "e054e081e71bd00a64516b8f63267d52ea9701655cd464fa7ffc3fd1fca56fe4",
+      "ja_text_bytes": 565,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-3",
+      "article_number": "3-3",
+      "filename": "sochi-hou-shikoukisoku-article-3-3.md",
+      "ja_text_sha256": "95833fc8007284d72ac9f3604e4bd979b7022fdd0980070261bc2f901ef6d235",
+      "ja_text_bytes": 321,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-4",
+      "article_number": "3-4",
+      "filename": "sochi-hou-shikoukisoku-article-3-4.md",
+      "ja_text_sha256": "f763393fcb3ff00d0c07d4dca113ac964615d41c77370ae38a472f57b09a74dd",
+      "ja_text_bytes": 339,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-5",
+      "article_number": "3-5",
+      "filename": "sochi-hou-shikoukisoku-article-3-5.md",
+      "ja_text_sha256": "715a4ccb535594a67843db9d358ff92be1c266fed82a9b050656d021f5326eaa",
+      "ja_text_bytes": 9124,
+      "paragraph_count": 21
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-6",
+      "article_number": "3-6",
+      "filename": "sochi-hou-shikoukisoku-article-3-6.md",
+      "ja_text_sha256": "f7c4c5f047e3100a7ba2a52cd3e5302fa03c2ead1c1ce191e437a6598a57058e",
+      "ja_text_bytes": 10668,
+      "paragraph_count": 12
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-7",
+      "article_number": "3-7",
+      "filename": "sochi-hou-shikoukisoku-article-3-7.md",
+      "ja_text_sha256": "4ca5f9f0cb3f6c093673e9d87a410c3da9037e38e33657954e0a0439c99b3acf",
+      "ja_text_bytes": 831,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-8",
+      "article_number": "3-8",
+      "filename": "sochi-hou-shikoukisoku-article-3-8.md",
+      "ja_text_sha256": "89f101909c3d02c0603e49d60243ae439812c88d9024e79c9ff9e9ef71750e8c",
+      "ja_text_bytes": 815,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3-9",
+      "article_number": "3-9",
+      "filename": "sochi-hou-shikoukisoku-article-3-9.md",
+      "ja_text_sha256": "66bab047aaf89c25e877796584743644cd97c2f4327c9be82132d861232a245b",
+      "ja_text_bytes": 470,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-3",
+      "article_number": "3",
+      "filename": "sochi-hou-shikoukisoku-article-3.md",
+      "ja_text_sha256": "810b7e055e63d74ca58b1b18357c0f25a8c50cdf8836306f4911a6aa4cee32ed",
+      "ja_text_bytes": 412,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-30-2",
+      "article_number": "30-2",
+      "filename": "sochi-hou-shikoukisoku-article-30-2.md",
+      "ja_text_sha256": "a565fe18b4607a8063b387d5e1065502f66b6408226b07203ca91c142da1741c",
+      "ja_text_bytes": 3259,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-30-3",
+      "article_number": "30-3",
+      "filename": "sochi-hou-shikoukisoku-article-30-3.md",
+      "ja_text_sha256": "4326b52b7b815c90ee9d9497b6f3cd1487ef0e4d6b37ca628c48b9946c91afc7",
+      "ja_text_bytes": 775,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-30-4",
+      "article_number": "30-4",
+      "filename": "sochi-hou-shikoukisoku-article-30-4.md",
+      "ja_text_sha256": "00e3613948030399884408f99718d66fb0929f1411017ca27c7e0945f0bedd39",
+      "ja_text_bytes": 787,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-30-5",
+      "article_number": "30-5",
+      "filename": "sochi-hou-shikoukisoku-article-30-5.md",
+      "ja_text_sha256": "7c701e06446edb280f855a819bd5691055b58b948e6e434822c6ff412e6681b2",
+      "ja_text_bytes": 1429,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-30",
+      "article_number": "30",
+      "filename": "sochi-hou-shikoukisoku-article-30.md",
+      "ja_text_sha256": "7ee7345a36531a3440fe04403ebe1590facf6a3db93c37027cfbd6c47de4c04f",
+      "ja_text_bytes": 305,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-10",
+      "article_number": "31-10",
+      "filename": "sochi-hou-shikoukisoku-article-31-10.md",
+      "ja_text_sha256": "82d943b21760171840d715ce46f688abbb9f9709a61e12e1d51eb349f3851226",
+      "ja_text_bytes": 338,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-2",
+      "article_number": "31-2",
+      "filename": "sochi-hou-shikoukisoku-article-31-2.md",
+      "ja_text_sha256": "12ffbcb6976639a741674413be16c8dd6e8f798a05e8af7136817df047626355",
+      "ja_text_bytes": 1927,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-3",
+      "article_number": "31-3",
+      "filename": "sochi-hou-shikoukisoku-article-31-3.md",
+      "ja_text_sha256": "3fe9599f5e3208cb3a1496dd3220fe5ce2ca6a5b77d372409341cf40ccc50e94",
+      "ja_text_bytes": 664,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-4-2",
+      "article_number": "31-4-2",
+      "filename": "sochi-hou-shikoukisoku-article-31-4-2.md",
+      "ja_text_sha256": "83823adbcdb93f825084ceecef41f37fa9bc2c501e592197ed2b938d6ee06513",
+      "ja_text_bytes": 1136,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-4",
+      "article_number": "31-4",
+      "filename": "sochi-hou-shikoukisoku-article-31-4.md",
+      "ja_text_sha256": "77bc0737d8493f75262b595a1bb67273c133ce6b8f41821a058694f0a99f9855",
+      "ja_text_bytes": 2980,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-5-2",
+      "article_number": "31-5-2",
+      "filename": "sochi-hou-shikoukisoku-article-31-5-2.md",
+      "ja_text_sha256": "939f197383bde093c71970769c5eebe56d7d659ca0144a2333b74b75ac107164",
+      "ja_text_bytes": 2808,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-5-3",
+      "article_number": "31-5-3",
+      "filename": "sochi-hou-shikoukisoku-article-31-5-3.md",
+      "ja_text_sha256": "c92a5fc828cdaf160fa52d6c5f0652f238ba35b4d7b7b3943bb856d9b4058c52",
+      "ja_text_bytes": 687,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-5",
+      "article_number": "31-5",
+      "filename": "sochi-hou-shikoukisoku-article-31-5.md",
+      "ja_text_sha256": "f2b564207acd9a1c0345bad19690c893b347d2af64126d96f01ac2a0f0bf80c0",
+      "ja_text_bytes": 2128,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-6",
+      "article_number": "31-6",
+      "filename": "sochi-hou-shikoukisoku-article-31-6.md",
+      "ja_text_sha256": "c8de302eae4708c0ae851deea95643c75c94a82d6cbcd5ebfdf002d9edb5e67b",
+      "ja_text_bytes": 760,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-7",
+      "article_number": "31-7",
+      "filename": "sochi-hou-shikoukisoku-article-31-7.md",
+      "ja_text_sha256": "30f021d09811906c2a47872012de3d03259aae55c5205b2e39bf2bd377cb1f65",
+      "ja_text_bytes": 1414,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-8",
+      "article_number": "31-8",
+      "filename": "sochi-hou-shikoukisoku-article-31-8.md",
+      "ja_text_sha256": "a5b6ff004e67f73ee07f4ad65ac76f18e83539cfbdef6ec0a58a07063e9f3eef",
+      "ja_text_bytes": 2884,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-9-2",
+      "article_number": "31-9-2",
+      "filename": "sochi-hou-shikoukisoku-article-31-9-2.md",
+      "ja_text_sha256": "e884a13a60c3b8fab08134ea2e9e0ab3731f4fb6bc43e723b7fa1330a14cc517",
+      "ja_text_bytes": 711,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31-9",
+      "article_number": "31-9",
+      "filename": "sochi-hou-shikoukisoku-article-31-9.md",
+      "ja_text_sha256": "dbccb3ea69b9eed98b0532bffcfe290b0d3b84d7fae5e3d3f02e739179baff99",
+      "ja_text_bytes": 487,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-31",
+      "article_number": "31",
+      "filename": "sochi-hou-shikoukisoku-article-31.md",
+      "ja_text_sha256": "0a1849a55ccfc6e6060cab2c0ee5f70617512d39c11c02c57154d28e774b92f6",
+      "ja_text_bytes": 2237,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-32",
+      "article_number": "32",
+      "filename": "sochi-hou-shikoukisoku-article-32.md",
+      "ja_text_sha256": "2243c9bebf1a313bfb564321eee816d7c135f527c6d281834b3c6fc19527cb71",
+      "ja_text_bytes": 524,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-33",
+      "article_number": "33",
+      "filename": "sochi-hou-shikoukisoku-article-33.md",
+      "ja_text_sha256": "46964622e9c0da94cf04376e6621936904e4134964ddb8c5000877eb26ff13ac",
+      "ja_text_bytes": 2119,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-34",
+      "article_number": "34",
+      "filename": "sochi-hou-shikoukisoku-article-34.md",
+      "ja_text_sha256": "8ec661af4013193111f3803ed783f88abd09f6a3c6a9a7205547a211cd79a4f3",
+      "ja_text_bytes": 842,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-35",
+      "article_number": "35",
+      "filename": "sochi-hou-shikoukisoku-article-35.md",
+      "ja_text_sha256": "8f681bc020681068e293f3c978c959b321cd961fa5d7e722f3f4c9b99e3b223b",
+      "ja_text_bytes": 485,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-36-2",
+      "article_number": "36-2",
+      "filename": "sochi-hou-shikoukisoku-article-36-2.md",
+      "ja_text_sha256": "45eb55898cafd0922c8bd2d5d4878394cbdfd549194f2001ff0d0b290e7c07a7",
+      "ja_text_bytes": 2105,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-36",
+      "article_number": "36",
+      "filename": "sochi-hou-shikoukisoku-article-36.md",
+      "ja_text_sha256": "9be09c0bd8614b64c979b21a35e3d94378a35ed238e7893e7e19c3dfb04986f9",
+      "ja_text_bytes": 3236,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-2",
+      "article_number": "37-2",
+      "filename": "sochi-hou-shikoukisoku-article-37-2.md",
+      "ja_text_sha256": "809302d03bcc607d56456b147f93d44dea4964a4c5e229d21644f01a06d42a2e",
+      "ja_text_bytes": 349,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-3-2",
+      "article_number": "37-3-2",
+      "filename": "sochi-hou-shikoukisoku-article-37-3-2.md",
+      "ja_text_sha256": "65d6e576aae7a43cc39a2e388ff4541c18aaed6ff60f133597f22faa63a18c83",
+      "ja_text_bytes": 251,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-3",
+      "article_number": "37-3",
+      "filename": "sochi-hou-shikoukisoku-article-37-3.md",
+      "ja_text_sha256": "634dc4d1209580ee4224bf3d8a5d2ce881e5c4c51cd276c71c38f18b60ec884e",
+      "ja_text_bytes": 2311,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-10",
+      "article_number": "37-4-10",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-10.md",
+      "ja_text_sha256": "25e51ffade1a179447701fd42803ccf91c79f8e4935862a9e619c4583202b05f",
+      "ja_text_bytes": 365,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-11",
+      "article_number": "37-4-11",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-11.md",
+      "ja_text_sha256": "2fb098f7328da9f1456a3b9198771913af4985c046ba75209c25c0e42aef965c",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-12",
+      "article_number": "37-4-12",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-12.md",
+      "ja_text_sha256": "a6dde477a3b001a2f1936dd0eb5f29b3a12b00a0918011a5083e70136b0f533f",
+      "ja_text_bytes": 1676,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-13",
+      "article_number": "37-4-13",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-13.md",
+      "ja_text_sha256": "9364ee9ae65d967cc1b92c9dddd926fbc068e7d9eef685e563b435a41bb4b6e8",
+      "ja_text_bytes": 255,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-14",
+      "article_number": "37-4-14",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-14.md",
+      "ja_text_sha256": "ed3dd88fe6f1ddc2782182129676ed4b8f04aa0215e7058f4f04f07e36f36d2e",
+      "ja_text_bytes": 468,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-15",
+      "article_number": "37-4-15",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-15.md",
+      "ja_text_sha256": "9cded555e5f2bcea937db45b6a2f920bc5032f1e4f488e629605cf00cdf9c26d",
+      "ja_text_bytes": 279,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-2",
+      "article_number": "37-4-2",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-2.md",
+      "ja_text_sha256": "b0f32fd5f7bec1f5a9d3ef14c0dbe87d6150d307bb5aa5b1697da041eeaf5f2d",
+      "ja_text_bytes": 596,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-3",
+      "article_number": "37-4-3",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-3.md",
+      "ja_text_sha256": "04aa02de9a21ee18103f089ca5aba7bab8c2c10e47dcf364cb528bdac109751c",
+      "ja_text_bytes": 129,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-4",
+      "article_number": "37-4-4",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-4.md",
+      "ja_text_sha256": "9f8445835e97fe3a2e5b521756dad86fb83e785cfc7bdd384128a5f4c9e6709b",
+      "ja_text_bytes": 1805,
+      "paragraph_count": 5
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-5",
+      "article_number": "37-4-5",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-5.md",
+      "ja_text_sha256": "634ba0675177f13bd40f095614aa7661a6459c2c1f3098aa213ea81dfaf7cc0b",
+      "ja_text_bytes": 3177,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-6",
+      "article_number": "37-4-6",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-6.md",
+      "ja_text_sha256": "d88c4b767ba75d3923140e3abf234f15f61e35ba86877870201b51f9e0ec3b53",
+      "ja_text_bytes": 2360,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-7",
+      "article_number": "37-4-7",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-7.md",
+      "ja_text_sha256": "a5aac41731e3155aad4e72427bff521b90d8c2670bfe2c7c4eb6ae4c38250bc2",
+      "ja_text_bytes": 4556,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-8",
+      "article_number": "37-4-8",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-8.md",
+      "ja_text_sha256": "e8c9d904079cdd5aef2f9bfde146cad29a591f899b94aa78322d1bb5964b2976",
+      "ja_text_bytes": 1423,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4-9",
+      "article_number": "37-4-9",
+      "filename": "sochi-hou-shikoukisoku-article-37-4-9.md",
+      "ja_text_sha256": "e9ff206777fb7e4549fa4bf5d8cb9650255fc97e8d779cdd04449fafa177d68a",
+      "ja_text_bytes": 384,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-4",
+      "article_number": "37-4",
+      "filename": "sochi-hou-shikoukisoku-article-37-4.md",
+      "ja_text_sha256": "c128b5ca44a88261ab31fa3e9aeeb4cd03b9d63452d5ddb8489b6912baff11c2",
+      "ja_text_bytes": 370,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-5-2",
+      "article_number": "37-5-2",
+      "filename": "sochi-hou-shikoukisoku-article-37-5-2.md",
+      "ja_text_sha256": "b4e939111247442f0752e8e468f1a8f9f9780f9ce1db9646248ca71b15caf37f",
+      "ja_text_bytes": 336,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-5-3",
+      "article_number": "37-5-3",
+      "filename": "sochi-hou-shikoukisoku-article-37-5-3.md",
+      "ja_text_sha256": "b6a12ba1c8d348b43b4af716573d419ff33b5431fca84f80bdd3a0c427232454",
+      "ja_text_bytes": 652,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-5",
+      "article_number": "37-5",
+      "filename": "sochi-hou-shikoukisoku-article-37-5.md",
+      "ja_text_sha256": "7869774f9dbb55904d156c0cbdad217e08a52497b491b5d4eb6100682d525e4e",
+      "ja_text_bytes": 511,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-6",
+      "article_number": "37-6",
+      "filename": "sochi-hou-shikoukisoku-article-37-6.md",
+      "ja_text_sha256": "16989828b1e5e77465c4683edac5f7fba3dc6c2d9a3727ac375c96eaa19c3e4d",
+      "ja_text_bytes": 1600,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37-7",
+      "article_number": "37-7",
+      "filename": "sochi-hou-shikoukisoku-article-37-7.md",
+      "ja_text_sha256": "a3193e6835b03b28348c9efb96cd4dbf8fe0b787bbd3781e6425965f0c21769a",
+      "ja_text_bytes": 190,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-37",
+      "article_number": "37",
+      "filename": "sochi-hou-shikoukisoku-article-37.md",
+      "ja_text_sha256": "5ddc5a6c2e0188a0e50ec0cce32e09bfad59039c1ab34f96b188e45406d82110",
+      "ja_text_bytes": 834,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-38-2",
+      "article_number": "38-2",
+      "filename": "sochi-hou-shikoukisoku-article-38-2.md",
+      "ja_text_sha256": "9e9951d8171c544509fece76e735361641d74cb20ca82d4c49141e0bb241a3f0",
+      "ja_text_bytes": 205,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-38-3",
+      "article_number": "38-3",
+      "filename": "sochi-hou-shikoukisoku-article-38-3.md",
+      "ja_text_sha256": "0d32806ab4864558a6ef52d7300740c0ba7141dc5a1cef20f4b3a1ac9cdb8d2f",
+      "ja_text_bytes": 1855,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-38",
+      "article_number": "38",
+      "filename": "sochi-hou-shikoukisoku-article-38.md",
+      "ja_text_sha256": "f0251210912e2de632173ad93ed75a6dc8d6fdc1ef5dc19f12258f4e7ad32551",
+      "ja_text_bytes": 489,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-10",
+      "article_number": "39-10",
+      "filename": "sochi-hou-shikoukisoku-article-39-10.md",
+      "ja_text_sha256": "8f8c358d839cd16c413013a3404abefb809f88b35d500d9ba417bfb9d1851614",
+      "ja_text_bytes": 194,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-11",
+      "article_number": "39-11",
+      "filename": "sochi-hou-shikoukisoku-article-39-11.md",
+      "ja_text_sha256": "988ed1d0914fbf25c9468f6b8f3d97c5a1bb0795df3e1e829822814b5c89706f",
+      "ja_text_bytes": 197,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-12",
+      "article_number": "39-12",
+      "filename": "sochi-hou-shikoukisoku-article-39-12.md",
+      "ja_text_sha256": "ea30c6be239b1aa8ac15e974351502e781e17ea5bd47425378c5c1f1ce567ed3",
+      "ja_text_bytes": 206,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-2",
+      "article_number": "39-2",
+      "filename": "sochi-hou-shikoukisoku-article-39-2.md",
+      "ja_text_sha256": "33eab7ae2387248b6b3534a45650162d7e43d51ffa94c15e00d3046fc0d42aa3",
+      "ja_text_bytes": 1870,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-3",
+      "article_number": "39-3",
+      "filename": "sochi-hou-shikoukisoku-article-39-3.md",
+      "ja_text_sha256": "0bdc87c58dbc641257a366b5368c6669a7c44be0b9b6839a411c75a1c17aff50",
+      "ja_text_bytes": 814,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-4",
+      "article_number": "39-4",
+      "filename": "sochi-hou-shikoukisoku-article-39-4.md",
+      "ja_text_sha256": "0c074af958ec279d50ea81bd71b54035e292753d9f8d484f252555c5b62debfb",
+      "ja_text_bytes": 1546,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-5",
+      "article_number": "39-5",
+      "filename": "sochi-hou-shikoukisoku-article-39-5.md",
+      "ja_text_sha256": "a10fcc81ef3bff5de5f9e469c53f735e50dc568cc5857938d8eeabc4589c1795",
+      "ja_text_bytes": 202,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-6",
+      "article_number": "39-6",
+      "filename": "sochi-hou-shikoukisoku-article-39-6.md",
+      "ja_text_sha256": "0236f594dbf1de14c1bb566248c568a536950994128d6c192113865f2b8205a3",
+      "ja_text_bytes": 211,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-7",
+      "article_number": "39-7",
+      "filename": "sochi-hou-shikoukisoku-article-39-7.md",
+      "ja_text_sha256": "620a74170bf47a84a3c617da62528d504de9bb2de85c54760cd09a6d1a744b47",
+      "ja_text_bytes": 1024,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-8",
+      "article_number": "39-8",
+      "filename": "sochi-hou-shikoukisoku-article-39-8.md",
+      "ja_text_sha256": "1677b0009413310ae6a27871805216791fc56aa5c91e06ef7562d1f374b2c5d2",
+      "ja_text_bytes": 187,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39-9",
+      "article_number": "39-9",
+      "filename": "sochi-hou-shikoukisoku-article-39-9.md",
+      "ja_text_sha256": "1e21365ee511816f942439b3ad377fb131cd2a62dc14b61dcf7911c0509591ed",
+      "ja_text_bytes": 202,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-39",
+      "article_number": "39",
+      "filename": "sochi-hou-shikoukisoku-article-39.md",
+      "ja_text_sha256": "3c0f5a0443cd287bffb7da1b9023884d9fbbb322c4c915606e25589b0ec5479a",
+      "ja_text_bytes": 377,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-4-2",
+      "article_number": "4-2",
+      "filename": "sochi-hou-shikoukisoku-article-4-2.md",
+      "ja_text_sha256": "680557612104ad94996e6fc1ecb984e6b54e9902da67e67805ec063d7f471209",
+      "ja_text_bytes": 822,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-4-3",
+      "article_number": "4-3",
+      "filename": "sochi-hou-shikoukisoku-article-4-3.md",
+      "ja_text_sha256": "d65ccfe3a8dd1f6532a9fb888fb799acc4cbbb85da173b7ec73db4d15025c28e",
+      "ja_text_bytes": 1325,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-4-4-2",
+      "article_number": "4-4-2",
+      "filename": "sochi-hou-shikoukisoku-article-4-4-2.md",
+      "ja_text_sha256": "65d813d4b64e004508eaa34f49ffb991985e12a4e82cc61b37108866b127b138",
+      "ja_text_bytes": 361,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-4-4",
+      "article_number": "4-4",
+      "filename": "sochi-hou-shikoukisoku-article-4-4.md",
+      "ja_text_sha256": "270c41f273a1456bcb58b0721ce4a63c23a0b02016716959f62ff2979cd9a64a",
+      "ja_text_bytes": 4000,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-4-5",
+      "article_number": "4-5",
+      "filename": "sochi-hou-shikoukisoku-article-4-5.md",
+      "ja_text_sha256": "9c9dc29b77d9de9a56a2a6a837e5bd4883adb83ab8d81bb794f72f5c9be4be00",
+      "ja_text_bytes": 399,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-4-6",
+      "article_number": "4-6",
+      "filename": "sochi-hou-shikoukisoku-article-4-6.md",
+      "ja_text_sha256": "575880881a0ab1e09b7800fdbb6d7cd1c7c7a4fcd0a93fd7fc601932c41a2211",
+      "ja_text_bytes": 645,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-4",
+      "article_number": "4",
+      "filename": "sochi-hou-shikoukisoku-article-4.md",
+      "ja_text_sha256": "c8e348a093ff0894efe79fb707ba60fcc236d290db38c9d28245fd3970ad3ab1",
+      "ja_text_bytes": 9301,
+      "paragraph_count": 13
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-40-2",
+      "article_number": "40-2",
+      "filename": "sochi-hou-shikoukisoku-article-40-2.md",
+      "ja_text_sha256": "28b302c89db94aafa7f84c1e9a33c8f10fc18f5bede65239b69167ff3a5c321e",
+      "ja_text_bytes": 8561,
+      "paragraph_count": 19
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-40-3",
+      "article_number": "40-3",
+      "filename": "sochi-hou-shikoukisoku-article-40-3.md",
+      "ja_text_sha256": "f7d247f700d2dda499dc2b3cdac08fc51cffb3b5d59e9e36458d5d683a7682e8",
+      "ja_text_bytes": 70,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-40-4",
+      "article_number": "40-4",
+      "filename": "sochi-hou-shikoukisoku-article-40-4.md",
+      "ja_text_sha256": "39eba807e77763b7b3536d7e5099287b02800151bfb97c3d8cb46b894002c038",
+      "ja_text_bytes": 16071,
+      "paragraph_count": 44
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-40-5",
+      "article_number": "40-5",
+      "filename": "sochi-hou-shikoukisoku-article-40-5.md",
+      "ja_text_sha256": "7d379568f965d848d5cb783c412eb2442fca83eeb2f36479a301168d7b199905",
+      "ja_text_bytes": 1198,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-40-6",
+      "article_number": "40-6",
+      "filename": "sochi-hou-shikoukisoku-article-40-6.md",
+      "ja_text_sha256": "c8a1e86a3705742f67a49131fc76ad9310894823d0c5fd8cb75eea4aeca42e35",
+      "ja_text_bytes": 1213,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-40-7",
+      "article_number": "40-7",
+      "filename": "sochi-hou-shikoukisoku-article-40-7.md",
+      "ja_text_sha256": "1fc83e13cb015562448b72ffeed4bcebd6239c3b1cb4d66d01ba332b253931f5",
+      "ja_text_bytes": 979,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-40-8",
+      "article_number": "40-8",
+      "filename": "sochi-hou-shikoukisoku-article-40-8.md",
+      "ja_text_sha256": "e54dc294638be1836c4fcb4991b7d31f280733df5680a2dd01e63b687c923273",
+      "ja_text_bytes": 1291,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-40",
+      "article_number": "40",
+      "filename": "sochi-hou-shikoukisoku-article-40.md",
+      "ja_text_sha256": "b22974d64fb4aa5fe0c47fe633042e8866671a3b849446e0de43816418249115",
+      "ja_text_bytes": 458,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-41",
+      "article_number": "41",
+      "filename": "sochi-hou-shikoukisoku-article-41.md",
+      "ja_text_sha256": "57312d31b18af021c157a1d0da960fdf7e77c4bddc730b3125ad81452827b95d",
+      "ja_text_bytes": 398,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-42",
+      "article_number": "42",
+      "filename": "sochi-hou-shikoukisoku-article-42.md",
+      "ja_text_sha256": "a547d07f73fe2bd0a6968bdb8b3685092c675bc67a1b8e547c84914a43da95d8",
+      "ja_text_bytes": 230,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-43",
+      "article_number": "43",
+      "filename": "sochi-hou-shikoukisoku-article-43.md",
+      "ja_text_sha256": "691fbdf6d78cfb41f6d0e06a208bf6e06b9e91d90c75ca47bc5ddb677ba6efef",
+      "ja_text_bytes": 723,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-44",
+      "article_number": "44",
+      "filename": "sochi-hou-shikoukisoku-article-44.md",
+      "ja_text_sha256": "2b687e8c007ea1610d41a27d0f35c65f4bf25ecb1dc8b937564e370958b6ba04",
+      "ja_text_bytes": 1610,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-45",
+      "article_number": "45",
+      "filename": "sochi-hou-shikoukisoku-article-45.md",
+      "ja_text_sha256": "d6815a7fa652cba2682d3ba4fed2bd6fe321f5ca0631c282cb8d4f4ff3788a28",
+      "ja_text_bytes": 260,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-10",
+      "article_number": "5-10",
+      "filename": "sochi-hou-shikoukisoku-article-5-10.md",
+      "ja_text_sha256": "eadab9d7a910591779e49f265e5562f4df7dfceed1ad3c4548e97394bb57ddec",
+      "ja_text_bytes": 70,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-11",
+      "article_number": "5-11",
+      "filename": "sochi-hou-shikoukisoku-article-5-11.md",
+      "ja_text_sha256": "be0f782131cf6102efb53d148bc097c40862f66669ed4de2a0fc44f3eedd387e",
+      "ja_text_bytes": 670,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-12-2",
+      "article_number": "5-12-2",
+      "filename": "sochi-hou-shikoukisoku-article-5-12-2.md",
+      "ja_text_sha256": "19be9487edd085b7551c3a757307307e3ac2da4e08a3e3507cae9e7b281b157e",
+      "ja_text_bytes": 386,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-12-3",
+      "article_number": "5-12-3",
+      "filename": "sochi-hou-shikoukisoku-article-5-12-3.md",
+      "ja_text_sha256": "ebfc5d6aba73c96a6e37e149f03e5093c820327101176b67ee6e628bd144317d",
+      "ja_text_bytes": 1070,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-12-4",
+      "article_number": "5-12-4",
+      "filename": "sochi-hou-shikoukisoku-article-5-12-4.md",
+      "ja_text_sha256": "f61b80f26dd642c6281c01f186d38df064a182396575cd8cda0341cd47daf0f9",
+      "ja_text_bytes": 405,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-12",
+      "article_number": "5-12",
+      "filename": "sochi-hou-shikoukisoku-article-5-12.md",
+      "ja_text_sha256": "dd53975e324a638dcb45d2ee55983ed7e0a413819bb203cb8bd84400f27b1af9",
+      "ja_text_bytes": 2266,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-13",
+      "article_number": "5-13",
+      "filename": "sochi-hou-shikoukisoku-article-5-13.md",
+      "ja_text_sha256": "35c584d92b8356c1ea5ae4266c533755d9475094d44eab8ba62e621bddd2486c",
+      "ja_text_bytes": 3518,
+      "paragraph_count": 10
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-14",
+      "article_number": "5-14",
+      "filename": "sochi-hou-shikoukisoku-article-5-14.md",
+      "ja_text_sha256": "ff39201ba23234a5ba6b0a6392a778179e53fb96edfd418ba9f6871937a1be38",
+      "ja_text_bytes": 199,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-15",
+      "article_number": "5-15",
+      "filename": "sochi-hou-shikoukisoku-article-5-15.md",
+      "ja_text_sha256": "5ec5d17f78c78e57ce449a47b97b88f74d5699ddad0b49eafbaf96c4c092d92e",
+      "ja_text_bytes": 610,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-2",
+      "article_number": "5-2",
+      "filename": "sochi-hou-shikoukisoku-article-5-2.md",
+      "ja_text_sha256": "d8dd82342003c0932516aa787fad9b6cd41aee3944eaf93cf7524f6f0437bb58",
+      "ja_text_bytes": 5680,
+      "paragraph_count": 16
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-3-2",
+      "article_number": "5-3-2",
+      "filename": "sochi-hou-shikoukisoku-article-5-3-2.md",
+      "ja_text_sha256": "ab01e867f3c8679ad555d0539b79088de5d296d31e103100a081ff0a9378d101",
+      "ja_text_bytes": 433,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-3",
+      "article_number": "5-3",
+      "filename": "sochi-hou-shikoukisoku-article-5-3.md",
+      "ja_text_sha256": "0a1f66114f4fde770e76e6819a2ffba33bb2aaf316b6c5553e9134ef85da2c3b",
+      "ja_text_bytes": 1951,
+      "paragraph_count": 6
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-4-2",
+      "article_number": "5-4-2",
+      "filename": "sochi-hou-shikoukisoku-article-5-4-2.md",
+      "ja_text_sha256": "28c127da45904e52778dad99ed99ce95d1ce030c9661a128bf62effe8e6df153",
+      "ja_text_bytes": 3260,
+      "paragraph_count": 11
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-4-3",
+      "article_number": "5-4-3",
+      "filename": "sochi-hou-shikoukisoku-article-5-4-3.md",
+      "ja_text_sha256": "026e8fc1928532c45993a6ea602a6d7a96dfd378460d9630971ccdd699d886db",
+      "ja_text_bytes": 1814,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-4-4",
+      "article_number": "5-4-4",
+      "filename": "sochi-hou-shikoukisoku-article-5-4-4.md",
+      "ja_text_sha256": "cccdf7f49ddb90f7f994790291c0c3f06b587d1c3565936de5449ffd8d5af2c3",
+      "ja_text_bytes": 2119,
+      "paragraph_count": 9
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-4-5",
+      "article_number": "5-4-5",
+      "filename": "sochi-hou-shikoukisoku-article-5-4-5.md",
+      "ja_text_sha256": "10cb98641d8f76eb7b80e6eeb1b32b217e8c9e895f2fa6c44e7b52ebbaa4396a",
+      "ja_text_bytes": 1724,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-4",
+      "article_number": "5-4",
+      "filename": "sochi-hou-shikoukisoku-article-5-4.md",
+      "ja_text_sha256": "6c15db70dfbbaff7f32b56f62f0f15686d3d9cf49e201575b7abf1d88164e1d0",
+      "ja_text_bytes": 1447,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-5-2",
+      "article_number": "5-5-2",
+      "filename": "sochi-hou-shikoukisoku-article-5-5-2.md",
+      "ja_text_sha256": "331cdf5b7fb3c3352772b722bc119143427de55ff716b7fda35d0b6bb0bde2a0",
+      "ja_text_bytes": 138,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-5-3",
+      "article_number": "5-5-3",
+      "filename": "sochi-hou-shikoukisoku-article-5-5-3.md",
+      "ja_text_sha256": "59cedb8838aec183ee035eb3e32b9ed9f419d9b09abfaa424c782059fa86a8b9",
+      "ja_text_bytes": 215,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-5",
+      "article_number": "5-5",
+      "filename": "sochi-hou-shikoukisoku-article-5-5.md",
+      "ja_text_sha256": "d1821825dbbb32edea7f020c27ac54a30882fca2c72af8aaa21583f30d071043",
+      "ja_text_bytes": 839,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-6",
+      "article_number": "5-6",
+      "filename": "sochi-hou-shikoukisoku-article-5-6.md",
+      "ja_text_sha256": "42a761724f8cd2f82be2db87ae9bcf4c1b2dea6de22528d0c54024f93b3f8596",
+      "ja_text_bytes": 1264,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-7",
+      "article_number": "5-7",
+      "filename": "sochi-hou-shikoukisoku-article-5-7.md",
+      "ja_text_sha256": "952195c0839182fe9358d0efd3613c4a29802aedc6d627875ef638bb5d72c77e",
+      "ja_text_bytes": 9964,
+      "paragraph_count": 24
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-8",
+      "article_number": "5-8",
+      "filename": "sochi-hou-shikoukisoku-article-5-8.md",
+      "ja_text_sha256": "4d8cb1ffb042d1a6825ddfd466c993a6a5d74f68f4a26921d35bf1c89de12d34",
+      "ja_text_bytes": 2735,
+      "paragraph_count": 8
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5-9",
+      "article_number": "5-9",
+      "filename": "sochi-hou-shikoukisoku-article-5-9.md",
+      "ja_text_sha256": "6bec117d6ef7201b733553e4f88a3b22f21be7edea2f5372901e854f25cae62f",
+      "ja_text_bytes": 2898,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-5",
+      "article_number": "5",
+      "filename": "sochi-hou-shikoukisoku-article-5.md",
+      "ja_text_sha256": "890fff5dd619210e75f6430552a8e43132a112531ec319216c3bd066390bdee9",
+      "ja_text_bytes": 838,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-6",
+      "article_number": "6",
+      "filename": "sochi-hou-shikoukisoku-article-6.md",
+      "ja_text_sha256": "7dd784de5c5185544514413873b0f45cca8b5705c5315c809b0cf23b0df9374e",
+      "ja_text_bytes": 622,
+      "paragraph_count": 2
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-7",
+      "article_number": "7",
+      "filename": "sochi-hou-shikoukisoku-article-7.md",
+      "ja_text_sha256": "2cfa806628b69e31666f2a77ce51aef6a6cf6be0a7ddb7f54ac0af586cdb2c85",
+      "ja_text_bytes": 184,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-8",
+      "article_number": "8",
+      "filename": "sochi-hou-shikoukisoku-article-8.md",
+      "ja_text_sha256": "a5836e62671f7204426cd189faf0398a0bed3ccf209b3609ae76b149864c7257",
+      "ja_text_bytes": 67,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9-10",
+      "article_number": "9-10",
+      "filename": "sochi-hou-shikoukisoku-article-9-10.md",
+      "ja_text_sha256": "e5894bbe451a9ddb691804efc23fcaedce7a6065712ea3114ab845f79c29de05",
+      "ja_text_bytes": 1768,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9-2",
+      "article_number": "9-2",
+      "filename": "sochi-hou-shikoukisoku-article-9-2.md",
+      "ja_text_sha256": "573ce98122e34797628c0687bc6782254c27d38462861010c41aedfa447b529c",
+      "ja_text_bytes": 222,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9-3",
+      "article_number": "9-3",
+      "filename": "sochi-hou-shikoukisoku-article-9-3.md",
+      "ja_text_sha256": "119a489537a6f894172773d5019af1b6fefe2bdf7ecf6192107e56f125a7539a",
+      "ja_text_bytes": 2235,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9-4",
+      "article_number": "9-4",
+      "filename": "sochi-hou-shikoukisoku-article-9-4.md",
+      "ja_text_sha256": "91a2aa241860c5f19685935c106084436d099ef57311a6301a2ff475fc8acfb6",
+      "ja_text_bytes": 1333,
+      "paragraph_count": 3
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9-5",
+      "article_number": "9-5",
+      "filename": "sochi-hou-shikoukisoku-article-9-5.md",
+      "ja_text_sha256": "7ca6ab30032e5e3e655a3b49ebea2389c916eb7661fb8e4ac2a3dd88dcfaacf7",
+      "ja_text_bytes": 2023,
+      "paragraph_count": 4
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9-6",
+      "article_number": "9-6",
+      "filename": "sochi-hou-shikoukisoku-article-9-6.md",
+      "ja_text_sha256": "585229ddc3949120b7dd2639174640db5e914bef79f383248f4cefbf73221e46",
+      "ja_text_bytes": 4890,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9-7",
+      "article_number": "9-7",
+      "filename": "sochi-hou-shikoukisoku-article-9-7.md",
+      "ja_text_sha256": "61efc1fc7a7a5d95bffa299205bf50012423f436f2ec83cfa9e5d7ffce367eb4",
+      "ja_text_bytes": 1026,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9-8",
+      "article_number": "9-8",
+      "filename": "sochi-hou-shikoukisoku-article-9-8.md",
+      "ja_text_sha256": "432c9c3ea1519e1cb1b9df4cc60cc8084849980122a9a4289c91195d0d4bc151",
+      "ja_text_bytes": 4467,
+      "paragraph_count": 7
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9-9",
+      "article_number": "9-9",
+      "filename": "sochi-hou-shikoukisoku-article-9-9.md",
+      "ja_text_sha256": "57b60e5b582353040e2fd4c94aae939de2ff541cb290e6c29d664faac6b28d8c",
+      "ja_text_bytes": 804,
+      "paragraph_count": 1
+    },
+    {
+      "article_id": "sochi-hou-shikoukisoku-art-9",
+      "article_number": "9",
+      "filename": "sochi-hou-shikoukisoku-article-9.md",
+      "ja_text_sha256": "4d488d56d617b2e1d655aeaaec8ea330e3694cf621917c451cbb49a0b023a01c",
+      "ja_text_bytes": 1072,
+      "paragraph_count": 1
+    }
+  ]
+}

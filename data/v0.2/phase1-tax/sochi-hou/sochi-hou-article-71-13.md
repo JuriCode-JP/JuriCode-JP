@@ -1,0 +1,74 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 71-13
+article_id: sochi-hou-art-71-13
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-71-13-p1
+    type: simple
+    text: 課税時期において工場立地法（昭和三十四年法律第二十四号）第四条第一項第一号に規定する環境施設の用に供されている土地等（地価税法別表第二第一号に掲げる土地等に該当するものを除く。）については、地価税法第六条から第八条まで及び附則第三条第二項の規定並びに第七十一条の二から第七十一条の六までの規定により地価税が非課税とされるもの並びに同法第十七条の規定及び第七十一条の七から前条までの規定に該当するものを除き、同法第十六条に規定する地価税の課税価格に算入すべき価額は、当該土地等の価額の三分の二に相当する金額とする。
+    modality: gimu
+    references:
+    - 前条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-71-13-p2
+    type: simple
+    text: 前項の規定の適用がある場合における地価税法の規定の適用については、同法第十八条第一項第二号中「前条」とあり、及び同法第二十九条中「第十七条」とあるのは「租税特別措置法第七十一条の十三第一項（環境施設の用に供されている土地等についての課税価格の計算の特例）」と、これらの規定中「二分の一」とあるのは「三分の二」と、同法第三十三条中「第十七条」とあるのは「第十七条及び租税特別措置法第七十一条の十三第一項（環境施設の用に供されている土地等についての課税価格の計算の特例）」とする。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-71-13-p3
+    type: junyou
+    text: 第七十一条の七第五項及び第六項の規定は、第一項の規定を適用する場合について準用する。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 42
+  shou_name_ja: 第四章の二　地価税法の特例
+---
+
+# 租税特別措置法 第71-13条(（環境施設の用に供されている土地等についての課税価格の計算の特例）)
+
+## 原文 (日本語)
+
+### 第七十一条の十三第一項
+
+<!-- segment: simple id: sochi-hou-art-71-13-p1 -->
+課税時期において工場立地法（昭和三十四年法律第二十四号）第四条第一項第一号に規定する環境施設の用に供されている土地等（地価税法別表第二第一号に掲げる土地等に該当するものを除く。）については、地価税法第六条から第八条まで及び附則第三条第二項の規定並びに第七十一条の二から第七十一条の六までの規定により地価税が非課税とされるもの並びに同法第十七条の規定及び第七十一条の七から前条までの規定に該当するものを除き、同法第十六条に規定する地価税の課税価格に算入すべき価額は、当該土地等の価額の三分の二に相当する金額とする。
+
+### 第七十一条の十三第二項
+
+<!-- segment: simple id: sochi-hou-art-71-13-p2 -->
+前項の規定の適用がある場合における地価税法の規定の適用については、同法第十八条第一項第二号中「前条」とあり、及び同法第二十九条中「第十七条」とあるのは「租税特別措置法第七十一条の十三第一項（環境施設の用に供されている土地等についての課税価格の計算の特例）」と、これらの規定中「二分の一」とあるのは「三分の二」と、同法第三十三条中「第十七条」とあるのは「第十七条及び租税特別措置法第七十一条の十三第一項（環境施設の用に供されている土地等についての課税価格の計算の特例）」とする。
+
+### 第七十一条の十三第三項
+
+<!-- segment: junyou id: sochi-hou-art-71-13-p3 -->
+第七十一条の七第五項及び第六項の規定は、第一項の規定を適用する場合について準用する。

@@ -1,0 +1,63 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 18-15-8
+article_id: sochi-hou-shikoukisoku-art-18-15-8
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+---
+
+# 租税特別措置法施行規則 第18-15-8条(（金融商品取引業者等の営業所における非課税口座に関する帳簿書類の整理保存等）)
+
+## 原文 (日本語)
+
+### 第十八条の十五の八第一項
+
+金融商品取引業者等の営業所の長は、次の各号に掲げる帳簿及び書類を各人別に整理し、当該各号に定める日の属する年の翌年から五年間保存しなければならない。
+
+### 第十八条の十五の八第二項
+
+法第三十七条の十四第六項、第十五項、第十八項、第二十項若しくは第二十八項又は施行令第二十五条の十三の二第六項若しくは第二十五条の十三の三第二項の規定により提供すべき氏名には、片仮名でふりがなを付さなければならない。
+
+### 第十八条の十五の八第三項
+
+非課税口座開設届出書、特定口座以外の他の保管口座への非課税口座内上場株式等移管依頼書、非課税口座内上場株式等移管依頼書、未成年者口座非課税口座間移管依頼書、施行令第二十五条の十三第十七項第二号の規定により提出する書類、勘定廃止通知書、非課税口座廃止通知書、第十八条の十五の三第十項に規定する財務省令で定める書類、金融商品取引業者等変更届出書、非課税口座廃止届出書、継続適用届出書、出国届出書、帰国届出書、施行令第二十五条の十三の二第一項後段又は第二項前段に規定する非課税口座異動届出書、非課税口座移管依頼書及び非課税口座開設者死亡届出書に記載すべき氏名には、片仮名でふりがなを付さなければならない。
+
+### 第十八条の十五の八第四項
+
+第一項第二号又は前項に規定する非課税口座開設届出書、特定口座以外の他の保管口座への非課税口座内上場株式等移管依頼書、非課税口座内上場株式等移管依頼書、未成年者口座非課税口座間移管依頼書、勘定廃止通知書、非課税口座廃止通知書、金融商品取引業者等変更届出書、非課税口座廃止届出書、継続適用届出書、出国届出書、帰国届出書、非課税口座異動届出書、非課税口座移管依頼書及び非課税口座開設者死亡届出書には、第十八条の十の三第一項第二号に規定する電磁的方法により提供されたこれらの届出書、依頼書又は通知書に記載すべき事項を記録した電磁的記録を含むものとする。

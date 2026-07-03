@@ -1,0 +1,167 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 84-7
+article_id: sochi-hou-art-84-7
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p1
+    type: simple
+    text: 株式会社産業再生機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社産業再生機構法（平成十五年法律第二十七号）第十八条第一項（登記）の委員」とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p2
+    type: simple
+    text: 日本郵政株式会社の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは郵政民営化法（平成十七年法律第九十七号）第四十六条第一項（登記）の委員」とする。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p3
+    type: simple
+    text: 株式会社地域経済活性化支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社地域経済活性化支援機構法（平成二十一年法律第六十三号）第二十条第一項（登記）の委員」とする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p4
+    type: simple
+    text: 株式会社産業革新投資機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは産業競争力強化法第九十九条第一項（委員の登記）の委員」とする。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p5
+    type: simple
+    text: 株式会社農林漁業成長産業化支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社農林漁業成長産業化支援機構法（平成二十四年法律第八十三号）第十九条第一項（登記）の委員」とする。
+    modality: gimu
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p6
+    type: simple
+    text: 株式会社海外需要開拓支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社海外需要開拓支援機構法（平成二十五年法律第五十一号）第二十条第一項（登記）の委員」とする。
+    modality: gimu
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p7
+    type: simple
+    text: 株式会社民間資金等活用事業推進機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは民間資金等の活用による公共施設等の整備等の促進に関する法律（平成十一年法律第百十七号）第五十条第一項（登記）の委員」とする。
+    modality: gimu
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p8
+    type: simple
+    text: 株式会社海外交通・都市開発事業支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社海外交通・都市開発事業支援機構法（平成二十六年法律第二十四号）第二十一条第一項（登記）の委員」とする。
+    modality: gimu
+- number: 9
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p9
+    type: simple
+    text: 株式会社海外通信・放送・郵便事業支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社海外通信・放送・郵便事業支援機構法（平成二十七年法律第三十五号）第二十一条第一項（登記）の委員」とする。
+    modality: gimu
+- number: 10
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-84-7-p10
+    type: simple
+    text: 株式会社脱炭素化支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは地球温暖化対策の推進に関する法律（平成十年法律第百十七号）第三十六条の二十一第一項（委員の登記）の委員」とする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　登録免許税法の特例
+---
+
+# 租税特別措置法 第84-7条(（産業再生委員会等の委員の登記に係る課税の特例）)
+
+## 原文 (日本語)
+
+### 第八十四条の七第一項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p1 -->
+株式会社産業再生機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社産業再生機構法（平成十五年法律第二十七号）第十八条第一項（登記）の委員」とする。
+
+### 第八十四条の七第二項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p2 -->
+日本郵政株式会社の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは郵政民営化法（平成十七年法律第九十七号）第四十六条第一項（登記）の委員」とする。
+
+### 第八十四条の七第三項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p3 -->
+株式会社地域経済活性化支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社地域経済活性化支援機構法（平成二十一年法律第六十三号）第二十条第一項（登記）の委員」とする。
+
+### 第八十四条の七第四項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p4 -->
+株式会社産業革新投資機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは産業競争力強化法第九十九条第一項（委員の登記）の委員」とする。
+
+### 第八十四条の七第五項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p5 -->
+株式会社農林漁業成長産業化支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社農林漁業成長産業化支援機構法（平成二十四年法律第八十三号）第十九条第一項（登記）の委員」とする。
+
+### 第八十四条の七第六項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p6 -->
+株式会社海外需要開拓支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社海外需要開拓支援機構法（平成二十五年法律第五十一号）第二十条第一項（登記）の委員」とする。
+
+### 第八十四条の七第七項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p7 -->
+株式会社民間資金等活用事業推進機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは民間資金等の活用による公共施設等の整備等の促進に関する法律（平成十一年法律第百十七号）第五十条第一項（登記）の委員」とする。
+
+### 第八十四条の七第八項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p8 -->
+株式会社海外交通・都市開発事業支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社海外交通・都市開発事業支援機構法（平成二十六年法律第二十四号）第二十一条第一項（登記）の委員」とする。
+
+### 第八十四条の七第九項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p9 -->
+株式会社海外通信・放送・郵便事業支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは株式会社海外通信・放送・郵便事業支援機構法（平成二十七年法律第三十五号）第二十一条第一項（登記）の委員」とする。
+
+### 第八十四条の七第十項
+
+<!-- segment: simple id: sochi-hou-art-84-7-p10 -->
+株式会社脱炭素化支援機構の登記に係る登録免許税については、登録免許税法別表第一第二十四号（一）カ中「若しくは特別取締役」とあるのは、「、特別取締役若しくは地球温暖化対策の推進に関する法律（平成十年法律第百十七号）第三十六条の二十一第一項（委員の登記）の委員」とする。

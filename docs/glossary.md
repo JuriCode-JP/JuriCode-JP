@@ -41,6 +41,9 @@ JuriCode-JPで使用する**法令略称・専門用語の日英対訳辞書**�
 | 相続税法施行規則 | Regulations for Enforcement of the Inheritance Tax Act | `souzoku-zei-hou-shikoukisoku` | 325M50000040017 |
 | 国税通則法施行規則 | Regulations for Enforcement of the Act on General Rules for National Taxes | `kokuzei-tsuusoku-hou-shikoukisoku` | 337M50000040028 |
 | 地方税法施行規則 | Regulations for Enforcement of the Local Tax Act | `chihou-zei-hou-shikoukisoku` | 329M50000002023 |
+| 租税特別措置法 | Act on Special Measures Concerning Taxation | `sochi-hou` | 332AC0000000026 |
+| 租税特別措置法施行令 | Order for Enforcement of the Act on Special Measures Concerning Taxation | `sochi-hou-shikkourei` | 332CO0000000043 |
+| 租税特別措置法施行規則 | Regulations for Enforcement of the Act on Special Measures Concerning Taxation | `sochi-hou-shikoukisoku` | 332M50000040015 |
 
 > **注**: e-Gov 法令ID(法令番号)は本表の参考値。実装時には e-Gov API のレスポンスで最終確認すること。
 

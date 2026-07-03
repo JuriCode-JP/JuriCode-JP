@@ -1,0 +1,113 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 33-2
+article_id: sochi-hou-art-33-2
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-33-2-p1-hashira
+    type: hashira
+    text: 個人の有する資産で次の各号に規定するものが当該各号に掲げる場合に該当することとなつた場合（当該各号に規定する資産とともに補償金、対価又は清算金（以下この款において「補償金等」という。）を取得した場合を含む。）には、その者については、その選択により、当該各号に規定する収用、買取り又は交換（以下この款において「交換処分等」という。）により譲渡した資産（当該各号に規定する資産とともに補償金等を取得した場合には、当該譲渡した資産のうち当該補償金等の額に対応する部分以外のものとして政令で定める部分）の譲渡がなかつたものとして、第二十八条の四、第三十一条若しくは第三十二条又は所得税法第二十七条、第三十二条、第三十三条若しくは第三十五条の規定を適用することができる。
+    modality: kanou_kenri
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-33-2-p2
+    type: junyou
+    text: 前条第一項から第四項までの規定は、個人の有する資産で前項各号に規定するものが当該各号に掲げる場合に該当することとなつた場合において、個人が、当該各号に規定する資産とともに補償金等を取得し、その額の全部若しくは一部に相当する金額をもつて代替資産の取得をしたとき、若しくは取得をする見込みであるとき、又は代替資産となるべき資産の取得をしたときについて準用する。この場合において、同条第一項中「当該譲渡した資産」とあるのは、「当該譲渡した資産のうち当該補償金等の額に対応するものとして政令で定める部分」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-33-2-p3
+    type: junyou
+    text: 前条第五項及び第六項の規定は、前二項の規定を適用する場合について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前二項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-33-2-p4
+    type: junyou
+    text: 前条第七項の規定は、前項において準用する同条第六項に規定する確定申告書を提出する者について準用する。この場合において、同条第七項中「代替資産」とあるのは、「交換処分等により取得した資産又は代替資産」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-33-2-p5
+    type: junyou
+    text: 前条第八項の規定は、第二項の規定を適用する場合について準用する。この場合において、同条第八項中「第三項」とあるのは、「次条第二項において準用する第三項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 次条
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+  setsu: 4
+  setsu_name_ja: 第四節　山林所得及び譲渡所得等
+  kan: 4
+  kan_name_ja: 第四款　収用等の場合の譲渡所得の特別控除等
+---
+
+# 租税特別措置法 第33-2条(（交換処分等に伴い資産を取得した場合の課税の特例）)
+
+## 原文 (日本語)
+
+### 第三十三条の二第一項
+
+<!-- segment: hashira id: sochi-hou-art-33-2-p1-hashira -->
+個人の有する資産で次の各号に規定するものが当該各号に掲げる場合に該当することとなつた場合（当該各号に規定する資産とともに補償金、対価又は清算金（以下この款において「補償金等」という。）を取得した場合を含む。）には、その者については、その選択により、当該各号に規定する収用、買取り又は交換（以下この款において「交換処分等」という。）により譲渡した資産（当該各号に規定する資産とともに補償金等を取得した場合には、当該譲渡した資産のうち当該補償金等の額に対応する部分以外のものとして政令で定める部分）の譲渡がなかつたものとして、第二十八条の四、第三十一条若しくは第三十二条又は所得税法第二十七条、第三十二条、第三十三条若しくは第三十五条の規定を適用することができる。
+
+### 第三十三条の二第二項
+
+<!-- segment: junyou id: sochi-hou-art-33-2-p2 -->
+前条第一項から第四項までの規定は、個人の有する資産で前項各号に規定するものが当該各号に掲げる場合に該当することとなつた場合において、個人が、当該各号に規定する資産とともに補償金等を取得し、その額の全部若しくは一部に相当する金額をもつて代替資産の取得をしたとき、若しくは取得をする見込みであるとき、又は代替資産となるべき資産の取得をしたときについて準用する。この場合において、同条第一項中「当該譲渡した資産」とあるのは、「当該譲渡した資産のうち当該補償金等の額に対応するものとして政令で定める部分」と読み替えるものとする。
+
+### 第三十三条の二第三項
+
+<!-- segment: junyou id: sochi-hou-art-33-2-p3 -->
+前条第五項及び第六項の規定は、前二項の規定を適用する場合について準用する。
+
+### 第三十三条の二第四項
+
+<!-- segment: junyou id: sochi-hou-art-33-2-p4 -->
+前条第七項の規定は、前項において準用する同条第六項に規定する確定申告書を提出する者について準用する。この場合において、同条第七項中「代替資産」とあるのは、「交換処分等により取得した資産又は代替資産」と読み替えるものとする。
+
+### 第三十三条の二第五項
+
+<!-- segment: junyou id: sochi-hou-art-33-2-p5 -->
+前条第八項の規定は、第二項の規定を適用する場合について準用する。この場合において、同条第八項中「第三項」とあるのは、「次条第二項において準用する第三項」と読み替えるものとする。

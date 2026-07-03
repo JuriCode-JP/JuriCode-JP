@@ -1,0 +1,107 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 69-3
+article_id: sochi-hou-art-69-3
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-69-3-p1
+    type: simple
+    text: 前条第一項の規定の適用を受けて同項に規定する相続又は遺贈に係る申告書を提出した者（その者の相続人及び包括受遺者を含む。）は、同項の規定の適用を受けた在外財産等について同項に規定する財務省令で定めるところによりその価額を算定することができることとなつた場合には、その算定することができることとなつた日の翌日から四月以内に修正申告書を提出し、かつ、当該期限内に当該修正申告書の提出により納付すべき税額を納付しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-69-3-p2
+    type: simple
+    text: 前条第一項の規定の適用を受けた者は、同項の規定の適用を受けた財産について同項に規定する財務省令で定めるところによりその価額を算定して相続税の課税価格に算入することにより相続税法第二十七条の規定による申告書を提出すべきこととなつた場合には、その算定することができることとなつた日の翌日から四月以内に期限後申告書を提出し、かつ、当該期限内に当該期限後申告書の提出により納付すべき税額を納付しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-69-3-p3
+    type: simple
+    text: 前二項の規定により申告書を提出すべき者がこれらの申告書を提出しなかつた場合には、税務署長は、これらの申告書に記載すべきであつた課税価格、相続税額その他の事項につき国税通則法第二十四条若しくは第二十六条の規定による更正又は同法第二十五条の規定による決定を行う。
+    modality: unspecified
+    references:
+    - 前二項
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-69-3-p4-hashira
+    type: hashira
+    text: 第一項の規定による修正申告書及び前項の更正（当該申告書を提出すべき者に係るものに限る。）に対する国税通則法の規定の適用については、次に定めるところによる。
+    modality: unspecified
+    references:
+    - 前項
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-69-3-p5-hashira
+    type: hashira
+    text: 第二項の規定による期限後申告書及び第三項の更正（当該申告書を提出すべき者に係るものに限る。）又は決定に対する国税通則法の規定の適用については、次に定めるところによる。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　相続税法の特例
+---
+
+# 租税特別措置法 第69-3条(（在外財産等の価額が算定可能となつた場合の修正申告等）)
+
+## 原文 (日本語)
+
+### 第六十九条の三第一項
+
+<!-- segment: simple id: sochi-hou-art-69-3-p1 -->
+前条第一項の規定の適用を受けて同項に規定する相続又は遺贈に係る申告書を提出した者（その者の相続人及び包括受遺者を含む。）は、同項の規定の適用を受けた在外財産等について同項に規定する財務省令で定めるところによりその価額を算定することができることとなつた場合には、その算定することができることとなつた日の翌日から四月以内に修正申告書を提出し、かつ、当該期限内に当該修正申告書の提出により納付すべき税額を納付しなければならない。
+
+### 第六十九条の三第二項
+
+<!-- segment: simple id: sochi-hou-art-69-3-p2 -->
+前条第一項の規定の適用を受けた者は、同項の規定の適用を受けた財産について同項に規定する財務省令で定めるところによりその価額を算定して相続税の課税価格に算入することにより相続税法第二十七条の規定による申告書を提出すべきこととなつた場合には、その算定することができることとなつた日の翌日から四月以内に期限後申告書を提出し、かつ、当該期限内に当該期限後申告書の提出により納付すべき税額を納付しなければならない。
+
+### 第六十九条の三第三項
+
+<!-- segment: simple id: sochi-hou-art-69-3-p3 -->
+前二項の規定により申告書を提出すべき者がこれらの申告書を提出しなかつた場合には、税務署長は、これらの申告書に記載すべきであつた課税価格、相続税額その他の事項につき国税通則法第二十四条若しくは第二十六条の規定による更正又は同法第二十五条の規定による決定を行う。
+
+### 第六十九条の三第四項
+
+<!-- segment: hashira id: sochi-hou-art-69-3-p4-hashira -->
+第一項の規定による修正申告書及び前項の更正（当該申告書を提出すべき者に係るものに限る。）に対する国税通則法の規定の適用については、次に定めるところによる。
+
+### 第六十九条の三第五項
+
+<!-- segment: hashira id: sochi-hou-art-69-3-p5-hashira -->
+第二項の規定による期限後申告書及び第三項の更正（当該申告書を提出すべき者に係るものに限る。）又は決定に対する国税通則法の規定の適用については、次に定めるところによる。

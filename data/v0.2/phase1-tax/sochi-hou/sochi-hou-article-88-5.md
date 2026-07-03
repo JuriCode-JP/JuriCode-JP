@@ -1,0 +1,45 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 88-5
+article_id: sochi-hou-art-88-5
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-88-5-p1
+    type: simple
+    text: この節において「揮発油」とは、揮発油税法第二条第一項に規定する揮発油（同法第六条又は次条の規定により揮発油とみなされる物を含む。）をいう。
+    modality: teigi
+    references:
+    - 次条
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 6
+  shou_name_ja: 第六章　消費税法等の特例
+  setsu: 3
+  setsu_name_ja: 第三節　揮発油税法及び地方揮発油税法の特例
+---
+
+# 租税特別措置法 第88-5条(（用語の意義）)
+
+## 原文 (日本語)
+
+### 第八十八条の五
+
+<!-- segment: simple id: sochi-hou-art-88-5-p1 -->
+この節において「揮発油」とは、揮発油税法第二条第一項に規定する揮発油（同法第六条又は次条の規定により揮発油とみなされる物を含む。）をいう。

@@ -1,0 +1,83 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 66-4-5
+article_id: sochi-hou-art-66-4-5
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　法人税法の特例
+  setsu: 72
+  setsu_name_ja: 第七節の二　国外関連者との取引に係る課税の特例等
+---
+
+# 租税特別措置法 第66-4-5条(（特定多国籍企業グループに係る事業概況報告事項の提供）)
+
+## 原文 (日本語)
+
+### 第六十六条の四の五第一項
+
+特定多国籍企業グループの構成会社等である内国法人又は当該構成会社等である恒久的施設を有する外国法人は、当該特定多国籍企業グループの各最終親会計年度に係る事業概況報告事項（特定多国籍企業グループの組織構造、事業の概要、財務状況その他の財務省令で定める事項をいう。次項及び第三項において同じ。）を、当該各最終親会計年度終了の日の翌日から一年以内に、財務省令で定めるところにより、特定電子情報処理組織を使用する方法により、当該内国法人にあつてはその本店又は主たる事務所の所在地、当該外国法人にあつてはその恒久的施設を通じて行う事業に係る事務所、事業所その他これらに準ずるものの所在地（これらが二以上ある場合には、主たるものの所在地）の所轄税務署長に提供しなければならない。
+
+### 第六十六条の四の五第二項
+
+前項の規定により同項の特定多国籍企業グループに係る事業概況報告事項を提供しなければならないこととされる内国法人及び恒久的施設を有する外国法人が複数ある場合において、同項の各最終親会計年度終了の日の翌日から一年以内に、特定電子情報処理組織を使用する方法により、当該内国法人及び恒久的施設を有する外国法人のうちいずれか一の法人がこれらの法人を代表して同項の規定による事業概況報告事項を提供する法人の名称その他の財務省令で定める事項を当該一の法人に係る同項に規定する所轄税務署長に提供したときは、同項の規定にかかわらず、同項の規定による事業概況報告事項を代表して提供するものとされた法人以外の法人は、同項の規定による事業概況報告事項を提供することを要しない。
+
+### 第六十六条の四の五第三項
+
+正当な理由がなくて第一項の規定による事業概況報告事項をその提供の期限までに税務署長に提供しなかつた場合には、法人の代表者（人格のない社団等の管理人を含む。次項において同じ。）、代理人、使用人その他の従業者でその違反行為をした者は、三十万円以下の罰金に処する。ただし、情状により、その刑を免除することができる。
+
+### 第六十六条の四の五第四項
+
+法人の代表者、代理人、使用人その他の従業者が、その法人の業務に関して前項の違反行為をしたときは、その行為者を罰するほか、その法人に対して同項の刑を科する。
+
+### 第六十六条の四の五第五項
+
+人格のない社団等について前項の規定の適用がある場合には、その代表者又は管理人がその訴訟行為につきその人格のない社団等を代表するほか、法人を被告人又は被疑者とする場合の刑事訴訟に関する法律の規定を準用する。
+
+### 第六十六条の四の五第六項
+
+前三項に定めるもののほか、第一項及び第二項の規定の適用に関し必要な事項は、政令で定める。

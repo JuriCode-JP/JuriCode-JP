@@ -1,0 +1,167 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 67-3
+article_id: sochi-hou-art-67-3
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-3-p1-hashira
+    type: hashira
+    text: 農地法第二条第三項に規定する農地所有適格法人が、昭和五十六年四月一日から令和十二年三月三十一日までの期間内の日を含む各事業年度において、当該期間内に次の各号に掲げる売却の方法により当該各号に定める肉用牛を売却した場合において、その売却した肉用牛のうちに免税対象飼育牛（家畜改良増殖法第三十二条の九第一項の規定による農林水産大臣の承認を受けた同項に規定する登録規程に基づく政令で定める登録がされている肉用牛又はその売却価額が百万円未満（その売却した肉用牛が、財務省令で定める交雑牛に該当する場合には八十万円未満とし、財務省令で定める乳牛に該当する場合には五十万円未満とする。）である肉用牛に該当するものをいう。以下この条において同じ。）があるときは、当該農地所有適格法人の当該免税対象飼育牛の当該売却による利益の額（当該売却をした日を含む事業年度において免税対象飼育牛に該当する肉用牛の頭数の合計が千五百頭を超える場合には、千五百頭を超える部分の売却による利益の額を除く。）に相当する金額は、当該売却をした日を含む事業年度の所得の金額の計算上、損金の額に算入する。
+    modality: unspecified
+    references:
+    - 同項
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-3-p2-hashira
+    type: hashira
+    text: 前項に規定する肉用牛とは、次に掲げる牛以外の牛をいう。
+    modality: teigi
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-3-p3-zen
+    type: zen_dan
+    text: 第一項の規定は、確定申告書等に同項の規定により損金の額に算入される金額の損金算入に関する申告の記載があり、かつ、当該確定申告書等にその損金の額に算入する金額の計算に関する明細書並びに免税対象飼育牛の売却が同項各号に掲げる売却の方法により行われたこと及びその売却価額その他財務省令で定める事項を証する書類の添付がある場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
+  - id: sochi-hou-art-67-3-p3-kou
+    type: kou_dan
+    text: この場合において、同項の規定により損金の額に算入される金額は、当該申告に係るその損金の額に算入されるべき金額に限るものとする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: sochi-hou-art-67-3-p3-zen
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-3-p4
+    type: simple
+    text: 税務署長は、前項の記載又は添付がない確定申告書等の提出があつた場合においても、その記載又は添付がなかつたことについてやむを得ない事情があると認めるときは、当該記載をした書類並びに同項の明細書及び証する書類の提出があつた場合に限り、第一項の規定を適用することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+    - 同項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-3-p5
+    type: simple
+    text: 事業年度が一年に満たない第一項の農地所有適格法人に対する同項の規定の適用については、同項中「が千五百頭」とあるのは「が千五百頭に当該事業年度の月数を乗じてこれを十二で除して計算した頭数」と、「、千五百頭」とあるのは「、当該計算した頭数」とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-3-p6
+    type: simple
+    text: 前項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。
+    modality: gimu
+    references:
+    - 前項
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-3-p7
+    type: simple
+    text: 第一項の規定の適用を受けた同項の農地所有適格法人の同項の規定により損金の額に算入された金額は、法人税法第六十七条第三項及び第五項の規定の適用については、これらの規定に規定する所得等の金額に含まれるものとする。
+    modality: gimu
+    references:
+    - 同項
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-67-3-p8
+    type: simple
+    text: 第二項から前項までに定めるもののほか、免税対象飼育牛の売却による利益の額の計算方法、第一項の規定の適用を受けた同項の農地所有適格法人の利益積立金額の計算その他同項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　法人税法の特例
+  setsu: 8
+  setsu_name_ja: 第八節　その他の特例
+---
+
+# 租税特別措置法 第67-3条(（農地所有適格法人の肉用牛の売却に係る所得の課税の特例）)
+
+## 原文 (日本語)
+
+### 第六十七条の三第一項
+
+<!-- segment: hashira id: sochi-hou-art-67-3-p1-hashira -->
+農地法第二条第三項に規定する農地所有適格法人が、昭和五十六年四月一日から令和十二年三月三十一日までの期間内の日を含む各事業年度において、当該期間内に次の各号に掲げる売却の方法により当該各号に定める肉用牛を売却した場合において、その売却した肉用牛のうちに免税対象飼育牛（家畜改良増殖法第三十二条の九第一項の規定による農林水産大臣の承認を受けた同項に規定する登録規程に基づく政令で定める登録がされている肉用牛又はその売却価額が百万円未満（その売却した肉用牛が、財務省令で定める交雑牛に該当する場合には八十万円未満とし、財務省令で定める乳牛に該当する場合には五十万円未満とする。）である肉用牛に該当するものをいう。以下この条において同じ。）があるときは、当該農地所有適格法人の当該免税対象飼育牛の当該売却による利益の額（当該売却をした日を含む事業年度において免税対象飼育牛に該当する肉用牛の頭数の合計が千五百頭を超える場合には、千五百頭を超える部分の売却による利益の額を除く。）に相当する金額は、当該売却をした日を含む事業年度の所得の金額の計算上、損金の額に算入する。
+
+### 第六十七条の三第二項
+
+<!-- segment: hashira id: sochi-hou-art-67-3-p2-hashira -->
+前項に規定する肉用牛とは、次に掲げる牛以外の牛をいう。
+
+### 第六十七条の三第三項
+
+<!-- segment: zen_dan id: sochi-hou-art-67-3-p3-zen -->
+第一項の規定は、確定申告書等に同項の規定により損金の額に算入される金額の損金算入に関する申告の記載があり、かつ、当該確定申告書等にその損金の額に算入する金額の計算に関する明細書並びに免税対象飼育牛の売却が同項各号に掲げる売却の方法により行われたこと及びその売却価額その他財務省令で定める事項を証する書類の添付がある場合に限り、適用する。<!-- segment: kou_dan id: sochi-hou-art-67-3-p3-kou depends_on: sochi-hou-art-67-3-p3-zen -->
+この場合において、同項の規定により損金の額に算入される金額は、当該申告に係るその損金の額に算入されるべき金額に限るものとする。
+
+### 第六十七条の三第四項
+
+<!-- segment: simple id: sochi-hou-art-67-3-p4 -->
+税務署長は、前項の記載又は添付がない確定申告書等の提出があつた場合においても、その記載又は添付がなかつたことについてやむを得ない事情があると認めるときは、当該記載をした書類並びに同項の明細書及び証する書類の提出があつた場合に限り、第一項の規定を適用することができる。
+
+### 第六十七条の三第五項
+
+<!-- segment: simple id: sochi-hou-art-67-3-p5 -->
+事業年度が一年に満たない第一項の農地所有適格法人に対する同項の規定の適用については、同項中「が千五百頭」とあるのは「が千五百頭に当該事業年度の月数を乗じてこれを十二で除して計算した頭数」と、「、千五百頭」とあるのは「、当該計算した頭数」とする。
+
+### 第六十七条の三第六項
+
+<!-- segment: simple id: sochi-hou-art-67-3-p6 -->
+前項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。
+
+### 第六十七条の三第七項
+
+<!-- segment: simple id: sochi-hou-art-67-3-p7 -->
+第一項の規定の適用を受けた同項の農地所有適格法人の同項の規定により損金の額に算入された金額は、法人税法第六十七条第三項及び第五項の規定の適用については、これらの規定に規定する所得等の金額に含まれるものとする。
+
+### 第六十七条の三第八項
+
+<!-- segment: simple id: sochi-hou-art-67-3-p8 -->
+第二項から前項までに定めるもののほか、免税対象飼育牛の売却による利益の額の計算方法、第一項の規定の適用を受けた同項の農地所有適格法人の利益積立金額の計算その他同項の規定の適用に関し必要な事項は、政令で定める。

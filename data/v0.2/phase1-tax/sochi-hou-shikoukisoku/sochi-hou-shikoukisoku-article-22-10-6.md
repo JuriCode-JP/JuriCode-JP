@@ -1,0 +1,54 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 22-10-6
+article_id: sochi-hou-shikoukisoku-art-22-10-6
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　法人税法の特例
+---
+
+# 租税特別措置法施行規則 第22-10-6条(（国外支配株主等に係る負債の利子等の課税の特例）)
+
+## 原文 (日本語)
+
+### 第二十二条の十の六第一項
+
+施行令第三十九条の十三第十項に規定する財務省令で定める金額は、同項の総負債の額に係る事業年度終了の日における貸借対照表に計上されている次に掲げる金額のうちいずれか少ない金額とする。
+
+### 第二十二条の十の六第二項
+
+施行令第三十九条の十三第二十九項に規定する所得税法第百六十四条第一項第一号イに掲げる国内源泉所得に係る施行令第三十九条の十三第二十九項に規定する財務省令で定める規定は、外国居住者等の所得に対する相互主義による所得税等の非課税等に関する法律第七条第一項及び第四項、第十一条第一項及び第三項、第十五条第一項、第二項、第五項、第六項、第十九項（第二号を除く。）及び第二十三項、第十九条第一項及び第四項並びに第二十条第一項の規定とする。
+
+### 第二十二条の十の六第三項
+
+施行令第三十九条の十三第二十九項に規定する法人税法第百四十一条第一号イに掲げる国内源泉所得に係る同項に規定する財務省令で定める規定は、外国居住者等の所得に対する相互主義による所得税等の非課税等に関する法律第七条第二項から第四項まで、第十一条第一項から第三項まで、第十五条第十九項（第一号を除く。）から第二十四項まで及び第十九条第二項から第四項までの規定とする。

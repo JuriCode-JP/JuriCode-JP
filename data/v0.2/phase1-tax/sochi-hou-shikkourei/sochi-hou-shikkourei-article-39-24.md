@@ -1,0 +1,59 @@
+---
+law_id: 332CO0000000043
+law_name_ja: 租税特別措置法施行令
+law_name_en: (English name pending)
+article_number: 39-24
+article_id: sochi-hou-shikkourei-art-39-24
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-39-24-p1
+    type: simple
+    text: 法第六十六条の十二第一項第一号に規定する政令で定めるものは、保険業法第二条第十項に規定する外国相互会社とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-39-24-p2
+    type: simple
+    text: 法第六十六条の十二第一項第三号に規定する政令で定めるものは、地方自治法第二百六十条の二第七項に規定する認可地縁団体、建物の区分所有等に関する法律第四十七条第二項に規定する管理組合法人及び同法第六十六条の規定により読み替えられた同項に規定する団地管理組合法人、政党交付金の交付を受ける政党等に対する法人格の付与に関する法律第七条の二第一項に規定する法人である政党等、密集市街地における防災街区の整備の促進に関する法律第百三十三条第一項に規定する防災街区整備事業組合、特定非営利活動促進法第二条第二項に規定する特定非営利活動法人並びにマンションの再生等の円滑化に関する法律第五条第一項に規定するマンション再生組合、同法第百九条に規定するマンション等売却組合、同法第百六十三条の二に規定するマンション除却組合及び同法第百六十四条に規定する敷地分割組合とする。
+    modality: gimu
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　法人税法の特例
+  setsu: 9
+  setsu_name_ja: 第九節　その他の特例
+---
+
+# 租税特別措置法施行令 第39-24条(（中小企業者の欠損金等以外の欠損金の繰戻しによる還付の不適用）)
+
+## 原文 (日本語)
+
+### 第三十九条の二十四第一項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-39-24-p1 -->
+法第六十六条の十二第一項第一号に規定する政令で定めるものは、保険業法第二条第十項に規定する外国相互会社とする。
+
+### 第三十九条の二十四第二項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-39-24-p2 -->
+法第六十六条の十二第一項第三号に規定する政令で定めるものは、地方自治法第二百六十条の二第七項に規定する認可地縁団体、建物の区分所有等に関する法律第四十七条第二項に規定する管理組合法人及び同法第六十六条の規定により読み替えられた同項に規定する団地管理組合法人、政党交付金の交付を受ける政党等に対する法人格の付与に関する法律第七条の二第一項に規定する法人である政党等、密集市街地における防災街区の整備の促進に関する法律第百三十三条第一項に規定する防災街区整備事業組合、特定非営利活動促進法第二条第二項に規定する特定非営利活動法人並びにマンションの再生等の円滑化に関する法律第五条第一項に規定するマンション再生組合、同法第百九条に規定するマンション等売却組合、同法第百六十三条の二に規定するマンション除却組合及び同法第百六十四条に規定する敷地分割組合とする。

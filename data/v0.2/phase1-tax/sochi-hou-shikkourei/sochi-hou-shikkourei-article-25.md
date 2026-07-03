@@ -1,0 +1,393 @@
+---
+law_id: 332CO0000000043
+law_name_ja: 租税特別措置法施行令
+law_name_en: (English name pending)
+article_number: '25'
+article_id: sochi-hou-shikkourei-art-25
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p1
+    type: simple
+    text: 法第三十七条第一項に規定する政令で定める棚卸資産に準ずる資産は、雑所得の基因となる土地及び土地の上に存する権利とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p2
+    type: simple
+    text: 法第三十七条第一項に規定する事業に準ずるものとして政令で定めるものは、事業と称するに至らない不動産又は船舶の貸付けその他これに類する行為で相当の対価を得て継続的に行うものとし、同項に規定する政令で定める譲渡は、代物弁済（金銭債務の弁済に代えてするものに限る。以下この項において同じ。）としての譲渡とし、同条第一項に規定する政令で定める取得は、代物弁済としての取得とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p3-hashira
+    type: hashira
+    text: 法第三十七条第一項の届出は、同項の表の各号の上欄に掲げる資産の同項に規定する譲渡の日（同日前に当該各号の下欄に掲げる資産の取得（建設及び製作を含む。第十三項第二号を除き、以下この条及び次条第六項において同じ。）をした場合（第二号ロにおいて「先行取得の場合」という。）には、当該資産の法第三十七条第一項に規定する取得の日）を含む三月期間（一月一日から三月三十一日まで、四月一日から六月三十日まで、七月一日から九月三十日まで及び十月一日から十二月三十一日までの各期間をいう。第二号において同じ。）の末日の翌日から二月以内に、同項の譲渡につき同項の規定の適用を受ける旨及び次に掲げる事項を記載した届出書により行わなければならない。
+    modality: gimu
+    references:
+    - 次条
+    - 同項
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p4-hashira
+    type: hashira
+    text: 譲渡（法第三十七条第一項（同条第三項及び第四項において準用する場合を含む。以下この項において同じ。）に規定する譲渡をいう。以下この条及び次条において同じ。）による収入金額が買換資産（法第三十七条第一項に規定する買換資産をいう。以下この条及び次条において同じ。）の取得価額以下である場合における同項に規定する政令で定める部分は、当該譲渡をした同項の表の各号の上欄に掲げる資産で同項に規定する事業の用に供しているもの（以下この条及び次条において「譲渡資産」という。）のうち、当該譲渡資産の価額の百分の二十に相当する金額（当該譲渡資産及び買換資産が次の各号に掲げる場合に該当する場合には、当該譲渡資産の価額に当該各号に掲げる場合の区分に応じ当該各号に定める割合を乗じて計算した金額）に相当する部分とする。
+    modality: gimu
+    references:
+    - 同項
+    - 次条
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p5
+    type: junyou
+    text: 前項の規定は、譲渡による収入金額が買換資産の取得価額を超える場合における法第三十七条第一項に規定する政令で定める部分について準用する。この場合において、前項中「譲渡資産の価額の百分の二十」とあるのは「譲渡による収入金額（当該譲渡の日の属する年中に二以上の譲渡資産の譲渡が行われた場合には、これらの譲渡資産の譲渡により取得した収入金額の合計額）から買換資産の取得価額（当該譲渡の日の属する年中に二以上の買換資産の同項に規定する取得が行われた場合には、これらの買換資産の取得価額の合計額）の百分の八十」と、「譲渡資産の価額に」とあるのは「買換資産の取得価額に」と、「金額）」とあるのは「金額）を控除した金額が当該収入金額のうちに占める割合を、当該譲渡資産の価額に乗じて計算した金額」と、同項第一号中「百分の四十」とあるのは「百分の六十」と、同項第二号イ中「百分の十」とあるのは「百分の九十」と、同号ロ中「百分の二十五」とあるのは「百分の七十五」と、同号ハ中「百分の三十」とあるのは「百分の七十」と、「百分の四十」とあるのは「百分の六十」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p6
+    type: simple
+    text: 法第三十七条第一項の表の第二号の上欄に規定する同欄のイからハまでに掲げる区域から除くものとして政令で定める区域は、同項の譲渡があつた日の属する年の十年前の年の翌年一月一日以後に公有水面埋立法（大正十年法律第五十七号）の規定による竣しゆん功認可のあつた埋立地の区域（次項において「埋立区域」という。）とする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p7
+    type: simple
+    text: 法第三十七条第一項の表の第二号の上欄のニに規定する政令で定める区域は、都市計画法第四条第一項に規定する都市計画に都市再開発法第二条の三第一項第二号に掲げる地区若しくは同条第二項に規定する地区の定められた市又は道府県庁所在の市の区域の都市計画法第四条第二項に規定する都市計画区域のうち最近の国勢調査の結果による人口集中地区の区域（同欄のイからハまでに掲げる区域（埋立区域を除く。）を除く。）とする。
+    modality: gimu
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p8
+    type: simple
+    text: 法第三十七条第一項の表の第二号の下欄に規定する政令で定める施策は、都市再開発法による市街地再開発事業（その施行される土地の区域の面積が五千平方メートル以上であるものに限る。）に関する都市計画とする。
+    modality: gimu
+- number: 9
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p9-hashira
+    type: hashira
+    text: 法第三十七条第一項の表の第二号の下欄に規定する政令で定めるものは、建物（その附属設備を含む。以下この項において同じ。）のうち次に掲げるもの（その敷地の用に供される土地等を含む。）とする。
+    modality: gimu
+- number: 10
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p10
+    type: simple
+    text: 法第三十七条第一項の表の第三号の下欄に規定する政令で定める施設は、事務所、工場、作業場、研究所、営業所、店舗、倉庫、住宅その他これらに類する施設（福利厚生施設に該当するものを除く。）とする。
+    modality: gimu
+- number: 11
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p11-hashira
+    type: hashira
+    text: 法第三十七条第一項の表の第三号の下欄に規定する政令で定めるやむを得ない事情は、次に掲げる手続その他の行為が進行中であることにつき財務省令で定める書類により明らかにされた事情とする。
+    modality: gimu
+- number: 12
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p12-hashira
+    type: hashira
+    text: 法第三十七条第一項の表の第四号の上欄に規定する政令で定める期間は、次の各号に掲げる船舶の区分に応じ当該各号に定める期間とし、同欄に規定する政令で定める事業は、建設業及びひき船業とする。
+    modality: gimu
+- number: 13
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p13-hashira
+    type: hashira
+    text: 法第三十七条第一項の表の第四号の下欄に規定する政令で定めるものは、次に掲げる船舶（その船舶に係る同項の譲渡をした資産に該当する船舶（第二号において「譲渡船舶」という。）に係る事業と同一の事業の用に供されるものに限る。）とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 14
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p14
+    type: simple
+    text: 法第三十七条第二項に規定する政令で定めるところにより計算した面積は、譲渡資産である土地等に係る面積に五を乗じて計算した面積とする。
+    modality: gimu
+- number: 15
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p15
+    type: simple
+    text: 法第三十七条第三項に規定する政令で定めるやむを得ない事情は、工場、事務所その他の建物、構築物又は機械及び装置で事業の用に供するもの（以下この項において「工場等」という。）の敷地の用に供するための宅地の造成並びに当該工場等の建設及び移転に要する期間が通常一年を超えると認められる事情その他これに準ずる事情とし、同条第三項に規定する政令で定める期間は、同項に規定する譲渡の日の属する年の前年以前二年の期間とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 16
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p16-hashira
+    type: hashira
+    text: 法第三十七条第三項の届出は、同条第一項の表の各号の下欄に掲げる資産の取得をした日の属する年の翌年三月十五日までに、当該資産につき同条第三項の規定の適用を受ける旨及び次に掲げる事項を記載した届出書により行わなければならない。
+    modality: gimu
+- number: 17
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p17
+    type: simple
+    text: 法第三十七条第三項において準用する同条第一項の規定を適用する場合において、買換資産が減価償却資産であり、かつ、当該資産につき譲渡資産の譲渡の日前に既に必要経費に算入された所得税法第四十九条第一項の規定による償却費の額があるときは、当該譲渡資産の収入金額のうち、当該償却費の額と当該償却費の額の計算の基礎となつた期間につき法第三十七条の三の規定を適用した場合に計算される同項の規定による償却費の額との差額に相当する金額については、当該譲渡資産の譲渡があつたものとし、当該譲渡があつたものとされる金額は、不動産所得、事業所得、山林所得又は雑所得に係る収入金額とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 18
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p18-hashira
+    type: hashira
+    text: 法第三十七条第四項の税務署長の承認を受けようとする者は、次に掲げる事項を記載した申請書を納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+- number: 19
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p19
+    type: simple
+    text: 法第三十七条第五項に規定するその年一月一日において所有期間（法第三十一条第二項に規定する所有期間をいう。以下この項において同じ。）が五年以下の土地等に含まれるその年中に取得をした土地等で政令で定めるものは、当該個人がその年中に取得をした土地等（当該土地等が第二十条第三項第一号又は第三号に掲げる土地等に該当するものである場合には、その年一月一日において所有期間が五年を超えるものを除く。）とする。
+    modality: gimu
+- number: 20
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p20-hashira
+    type: hashira
+    text: 法第三十七条第六項に規定する確定申告書を提出する者は、同条第九項において準用する法第三十三条第七項に規定する財務省令で定める書類を、次の各号に掲げる場合の区分に応じ当該各号に定める日（法第三十七条第七項の規定に該当してその日後において同項に規定する書類を提出する場合には、その提出の日）までに納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
+- number: 21
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p21
+    type: simple
+    text: 法第三十七条第八項に規定する政令で定める日は、同条第四項に規定する取得指定期間の末日の翌日から起算して二年以内の日で同条第八項に規定する資産の取得をすることができるものとして同項の所轄税務署長が認定した日とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 22
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p22
+    type: simple
+    text: 法第三十七条第一項（同条第三項及び第四項において準用する場合を含む。以下この項において同じ。）の譲渡をした資産が同条第一項の表の二以上の号の上欄に掲げる資産に該当する場合における同項の規定により譲渡がなかつたものとされる部分の金額の計算については、当該譲渡をした資産の全部又は一部は、当該個人の選択により、当該二以上の号のいずれかの号の上欄に掲げる資産にのみ該当するものとして、同項の規定を適用する。
+    modality: unspecified
+    references:
+    - 同項
+- number: 23
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p23
+    type: junyou
+    text: 前項の規定は、買換資産が法第三十七条第一項の表の二以上の号の下欄に掲げる資産に該当する場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
+- number: 24
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-25-p24
+    type: simple
+    text: 国土交通大臣は、第十三項各号の規定により船舶を指定したときは、これを告示する。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+  setsu: 8
+  setsu_name_ja: 第八節　譲渡所得等の課税の特例
+---
+
+# 租税特別措置法施行令 第25条(（特定の事業用資産の買換えの場合の譲渡所得の課税の特例）)
+
+## 原文 (日本語)
+
+### 第二十五条第一項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p1 -->
+法第三十七条第一項に規定する政令で定める棚卸資産に準ずる資産は、雑所得の基因となる土地及び土地の上に存する権利とする。
+
+### 第二十五条第二項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p2 -->
+法第三十七条第一項に規定する事業に準ずるものとして政令で定めるものは、事業と称するに至らない不動産又は船舶の貸付けその他これに類する行為で相当の対価を得て継続的に行うものとし、同項に規定する政令で定める譲渡は、代物弁済（金銭債務の弁済に代えてするものに限る。以下この項において同じ。）としての譲渡とし、同条第一項に規定する政令で定める取得は、代物弁済としての取得とする。
+
+### 第二十五条第三項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-25-p3-hashira -->
+法第三十七条第一項の届出は、同項の表の各号の上欄に掲げる資産の同項に規定する譲渡の日（同日前に当該各号の下欄に掲げる資産の取得（建設及び製作を含む。第十三項第二号を除き、以下この条及び次条第六項において同じ。）をした場合（第二号ロにおいて「先行取得の場合」という。）には、当該資産の法第三十七条第一項に規定する取得の日）を含む三月期間（一月一日から三月三十一日まで、四月一日から六月三十日まで、七月一日から九月三十日まで及び十月一日から十二月三十一日までの各期間をいう。第二号において同じ。）の末日の翌日から二月以内に、同項の譲渡につき同項の規定の適用を受ける旨及び次に掲げる事項を記載した届出書により行わなければならない。
+
+### 第二十五条第四項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-25-p4-hashira -->
+譲渡（法第三十七条第一項（同条第三項及び第四項において準用する場合を含む。以下この項において同じ。）に規定する譲渡をいう。以下この条及び次条において同じ。）による収入金額が買換資産（法第三十七条第一項に規定する買換資産をいう。以下この条及び次条において同じ。）の取得価額以下である場合における同項に規定する政令で定める部分は、当該譲渡をした同項の表の各号の上欄に掲げる資産で同項に規定する事業の用に供しているもの（以下この条及び次条において「譲渡資産」という。）のうち、当該譲渡資産の価額の百分の二十に相当する金額（当該譲渡資産及び買換資産が次の各号に掲げる場合に該当する場合には、当該譲渡資産の価額に当該各号に掲げる場合の区分に応じ当該各号に定める割合を乗じて計算した金額）に相当する部分とする。
+
+### 第二十五条第五項
+
+<!-- segment: junyou id: sochi-hou-shikkourei-art-25-p5 -->
+前項の規定は、譲渡による収入金額が買換資産の取得価額を超える場合における法第三十七条第一項に規定する政令で定める部分について準用する。この場合において、前項中「譲渡資産の価額の百分の二十」とあるのは「譲渡による収入金額（当該譲渡の日の属する年中に二以上の譲渡資産の譲渡が行われた場合には、これらの譲渡資産の譲渡により取得した収入金額の合計額）から買換資産の取得価額（当該譲渡の日の属する年中に二以上の買換資産の同項に規定する取得が行われた場合には、これらの買換資産の取得価額の合計額）の百分の八十」と、「譲渡資産の価額に」とあるのは「買換資産の取得価額に」と、「金額）」とあるのは「金額）を控除した金額が当該収入金額のうちに占める割合を、当該譲渡資産の価額に乗じて計算した金額」と、同項第一号中「百分の四十」とあるのは「百分の六十」と、同項第二号イ中「百分の十」とあるのは「百分の九十」と、同号ロ中「百分の二十五」とあるのは「百分の七十五」と、同号ハ中「百分の三十」とあるのは「百分の七十」と、「百分の四十」とあるのは「百分の六十」と読み替えるものとする。
+
+### 第二十五条第六項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p6 -->
+法第三十七条第一項の表の第二号の上欄に規定する同欄のイからハまでに掲げる区域から除くものとして政令で定める区域は、同項の譲渡があつた日の属する年の十年前の年の翌年一月一日以後に公有水面埋立法（大正十年法律第五十七号）の規定による竣しゆん功認可のあつた埋立地の区域（次項において「埋立区域」という。）とする。
+
+### 第二十五条第七項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p7 -->
+法第三十七条第一項の表の第二号の上欄のニに規定する政令で定める区域は、都市計画法第四条第一項に規定する都市計画に都市再開発法第二条の三第一項第二号に掲げる地区若しくは同条第二項に規定する地区の定められた市又は道府県庁所在の市の区域の都市計画法第四条第二項に規定する都市計画区域のうち最近の国勢調査の結果による人口集中地区の区域（同欄のイからハまでに掲げる区域（埋立区域を除く。）を除く。）とする。
+
+### 第二十五条第八項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p8 -->
+法第三十七条第一項の表の第二号の下欄に規定する政令で定める施策は、都市再開発法による市街地再開発事業（その施行される土地の区域の面積が五千平方メートル以上であるものに限る。）に関する都市計画とする。
+
+### 第二十五条第九項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-25-p9-hashira -->
+法第三十七条第一項の表の第二号の下欄に規定する政令で定めるものは、建物（その附属設備を含む。以下この項において同じ。）のうち次に掲げるもの（その敷地の用に供される土地等を含む。）とする。
+
+### 第二十五条第十項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p10 -->
+法第三十七条第一項の表の第三号の下欄に規定する政令で定める施設は、事務所、工場、作業場、研究所、営業所、店舗、倉庫、住宅その他これらに類する施設（福利厚生施設に該当するものを除く。）とする。
+
+### 第二十五条第十一項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-25-p11-hashira -->
+法第三十七条第一項の表の第三号の下欄に規定する政令で定めるやむを得ない事情は、次に掲げる手続その他の行為が進行中であることにつき財務省令で定める書類により明らかにされた事情とする。
+
+### 第二十五条第十二項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-25-p12-hashira -->
+法第三十七条第一項の表の第四号の上欄に規定する政令で定める期間は、次の各号に掲げる船舶の区分に応じ当該各号に定める期間とし、同欄に規定する政令で定める事業は、建設業及びひき船業とする。
+
+### 第二十五条第十三項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-25-p13-hashira -->
+法第三十七条第一項の表の第四号の下欄に規定する政令で定めるものは、次に掲げる船舶（その船舶に係る同項の譲渡をした資産に該当する船舶（第二号において「譲渡船舶」という。）に係る事業と同一の事業の用に供されるものに限る。）とする。
+
+### 第二十五条第十四項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p14 -->
+法第三十七条第二項に規定する政令で定めるところにより計算した面積は、譲渡資産である土地等に係る面積に五を乗じて計算した面積とする。
+
+### 第二十五条第十五項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p15 -->
+法第三十七条第三項に規定する政令で定めるやむを得ない事情は、工場、事務所その他の建物、構築物又は機械及び装置で事業の用に供するもの（以下この項において「工場等」という。）の敷地の用に供するための宅地の造成並びに当該工場等の建設及び移転に要する期間が通常一年を超えると認められる事情その他これに準ずる事情とし、同条第三項に規定する政令で定める期間は、同項に規定する譲渡の日の属する年の前年以前二年の期間とする。
+
+### 第二十五条第十六項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-25-p16-hashira -->
+法第三十七条第三項の届出は、同条第一項の表の各号の下欄に掲げる資産の取得をした日の属する年の翌年三月十五日までに、当該資産につき同条第三項の規定の適用を受ける旨及び次に掲げる事項を記載した届出書により行わなければならない。
+
+### 第二十五条第十七項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p17 -->
+法第三十七条第三項において準用する同条第一項の規定を適用する場合において、買換資産が減価償却資産であり、かつ、当該資産につき譲渡資産の譲渡の日前に既に必要経費に算入された所得税法第四十九条第一項の規定による償却費の額があるときは、当該譲渡資産の収入金額のうち、当該償却費の額と当該償却費の額の計算の基礎となつた期間につき法第三十七条の三の規定を適用した場合に計算される同項の規定による償却費の額との差額に相当する金額については、当該譲渡資産の譲渡があつたものとし、当該譲渡があつたものとされる金額は、不動産所得、事業所得、山林所得又は雑所得に係る収入金額とする。
+
+### 第二十五条第十八項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-25-p18-hashira -->
+法第三十七条第四項の税務署長の承認を受けようとする者は、次に掲げる事項を記載した申請書を納税地の所轄税務署長に提出しなければならない。
+
+### 第二十五条第十九項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p19 -->
+法第三十七条第五項に規定するその年一月一日において所有期間（法第三十一条第二項に規定する所有期間をいう。以下この項において同じ。）が五年以下の土地等に含まれるその年中に取得をした土地等で政令で定めるものは、当該個人がその年中に取得をした土地等（当該土地等が第二十条第三項第一号又は第三号に掲げる土地等に該当するものである場合には、その年一月一日において所有期間が五年を超えるものを除く。）とする。
+
+### 第二十五条第二十項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-25-p20-hashira -->
+法第三十七条第六項に規定する確定申告書を提出する者は、同条第九項において準用する法第三十三条第七項に規定する財務省令で定める書類を、次の各号に掲げる場合の区分に応じ当該各号に定める日（法第三十七条第七項の規定に該当してその日後において同項に規定する書類を提出する場合には、その提出の日）までに納税地の所轄税務署長に提出しなければならない。
+
+### 第二十五条第二十一項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p21 -->
+法第三十七条第八項に規定する政令で定める日は、同条第四項に規定する取得指定期間の末日の翌日から起算して二年以内の日で同条第八項に規定する資産の取得をすることができるものとして同項の所轄税務署長が認定した日とする。
+
+### 第二十五条第二十二項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p22 -->
+法第三十七条第一項（同条第三項及び第四項において準用する場合を含む。以下この項において同じ。）の譲渡をした資産が同条第一項の表の二以上の号の上欄に掲げる資産に該当する場合における同項の規定により譲渡がなかつたものとされる部分の金額の計算については、当該譲渡をした資産の全部又は一部は、当該個人の選択により、当該二以上の号のいずれかの号の上欄に掲げる資産にのみ該当するものとして、同項の規定を適用する。
+
+### 第二十五条第二十三項
+
+<!-- segment: junyou id: sochi-hou-shikkourei-art-25-p23 -->
+前項の規定は、買換資産が法第三十七条第一項の表の二以上の号の下欄に掲げる資産に該当する場合について準用する。
+
+### 第二十五条第二十四項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-25-p24 -->
+国土交通大臣は、第十三項各号の規定により船舶を指定したときは、これを告示する。

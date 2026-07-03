@@ -1,0 +1,78 @@
+---
+law_id: 332CO0000000043
+law_name_ja: 租税特別措置法施行令
+law_name_en: (English name pending)
+article_number: 26-14
+article_id: sochi-hou-shikkourei-art-26-14
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-26-14-p1
+    type: simple
+    text: 第二十六条の十二第二項又は前条第四項の規定を適用する場合において、法第四十一条の十二第五項又は第六項に規定する発行者（以下この条において「発行者」という。）が、法第四十一条の十二第五項又は第六項の規定による還付をすべきこととなつた日の属する月の翌月において第二十六条の十二第二項後段（前条第四項において準用する場合を含む。）の規定により控除することができない金額があるときは、法第四十一条の十二第五項又は第六項に規定する割引債の償還差益に係る所得税の第二十六条の十第二項に規定する納税地の所轄税務署長は、当該控除することができない金額を、当該発行者に還付する。
+    modality: unspecified
+    references:
+    - 前条
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-26-14-p2
+    type: simple
+    text: 前項の規定の適用を受けようとする発行者は、その旨を記載した書面に、法第四十一条の十二第五項又は第六項の規定による還付をすべき金額及び当該金額のうち前項に規定する控除することができない金額並びに当該還付が同条第五項又は第六項の規定のいずれに基づくものであるかその他の必要な事項を記載した明細書を添付して、これを前項の税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-26-14-p3
+    type: simple
+    text: 第一項の規定による還付金について国税通則法第五十八条第一項に規定する還付加算金を計算する場合には、その計算の基礎となる同項の期間は、前項の書面が提出された日の翌日以後一月を経過した日からその還付のための支払決定をする日又はその還付金につき充当する日（同日前に充当をするのに適することとなつた日がある場合には、その適することとなつた日）までの期間とする。
+    modality: gimu
+    references:
+    - 前項
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+  setsu: 10
+  setsu_name_ja: 第十節　その他の特例
+---
+
+# 租税特別措置法施行令 第26-14条(（割引債の発行者が還付する金額を納付すべき金額から控除できなかつた場合の処理）)
+
+## 原文 (日本語)
+
+### 第二十六条の十四第一項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-26-14-p1 -->
+第二十六条の十二第二項又は前条第四項の規定を適用する場合において、法第四十一条の十二第五項又は第六項に規定する発行者（以下この条において「発行者」という。）が、法第四十一条の十二第五項又は第六項の規定による還付をすべきこととなつた日の属する月の翌月において第二十六条の十二第二項後段（前条第四項において準用する場合を含む。）の規定により控除することができない金額があるときは、法第四十一条の十二第五項又は第六項に規定する割引債の償還差益に係る所得税の第二十六条の十第二項に規定する納税地の所轄税務署長は、当該控除することができない金額を、当該発行者に還付する。
+
+### 第二十六条の十四第二項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-26-14-p2 -->
+前項の規定の適用を受けようとする発行者は、その旨を記載した書面に、法第四十一条の十二第五項又は第六項の規定による還付をすべき金額及び当該金額のうち前項に規定する控除することができない金額並びに当該還付が同条第五項又は第六項の規定のいずれに基づくものであるかその他の必要な事項を記載した明細書を添付して、これを前項の税務署長に提出しなければならない。
+
+### 第二十六条の十四第三項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-26-14-p3 -->
+第一項の規定による還付金について国税通則法第五十八条第一項に規定する還付加算金を計算する場合には、その計算の基礎となる同項の期間は、前項の書面が提出された日の翌日以後一月を経過した日からその還付のための支払決定をする日又はその還付金につき充当する日（同日前に充当をするのに適することとなつた日がある場合には、その適することとなつた日）までの期間とする。

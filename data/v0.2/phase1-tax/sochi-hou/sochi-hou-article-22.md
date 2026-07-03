@@ -1,0 +1,146 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: '22'
+article_id: sochi-hou-art-22
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-22-p1
+    type: simple
+    text: 青色申告書を提出する個人で鉱業を営むものが、昭和四十年四月一日から令和十年三月三十一日までの期間（第一号において「指定期間」という。）内の日の属する各年（事業を廃止した日の属する年を除く。）において、安定的な供給を確保することが特に必要なものとして政令で定める鉱物に係る新鉱床探鉱費の支出に備えるため、同号及び第二号に掲げる金額のうちいずれか低い金額（その年の前年以前五年内の各年のいずれにおいても鉱物に係る新鉱床探鉱費の支出を行わなかつた場合には、当該いずれか低い金額から第三号に掲げる金額を控除した金額）以下の金額を探鉱準備金として積み立てたときは、その積み立てた金額は、その積立てをした年分の事業所得の金額の計算上、必要経費に算入する。
+    modality: unspecified
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-22-p2
+    type: simple
+    text: 前項に規定する新鉱床探鉱費とは、探鉱のための地質調査、ボーリング又は坑道の掘削に要する費用その他の探鉱のために要する費用で政令で定めるものをいう。
+    modality: teigi
+    references:
+    - 前項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-22-p3
+    type: simple
+    text: その年の十二月三十一日において、第一項に規定する個人の前年から繰り越された探鉱準備金の金額（同日までに次項の規定により総収入金額に算入された、若しくは算入されるべきこととなつた金額又はその年の前年の十二月三十一日までにこの項の規定により総収入金額に算入された金額がある場合には、これらの金額を控除した金額。以下この条において同じ。）のうちにその積立てをした年の翌年一月一日から五年を経過したものがある場合には、その五年を経過した探鉱準備金の金額は、その五年を経過した日の属する年分の事業所得の金額の計算上、総収入金額に算入する。
+    modality: unspecified
+    references:
+    - 次項
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-22-p4-hashira
+    type: hashira
+    text: 第一項の探鉱準備金を積み立てている個人が次の各号に掲げる場合に該当することとなつた場合には、当該各号に定める金額に相当する金額は、その該当することとなつた日の属する年分の事業所得の金額の計算上、総収入金額に算入する。この場合において、第二号に掲げる場合に該当するときは、同号に規定する探鉱準備金の金額をその積立てをした年別に区分した各金額のうち、その積立てをした年が最も古いものから順次総収入金額に算入されるものとする。
+    modality: gimu
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-22-p5-zen
+    type: zen_dan
+    text: 第一項の探鉱準備金を積み立てている個人が青色申告書の提出の承認を取り消され、又は青色申告書による申告をやめる旨の届出書の提出をした場合には、その承認の取消しの基因となつた事実のあつた日又はその届出書の提出をした日（その届出書の提出をした日が青色申告書による申告をやめた年の翌年である場合には、そのやめた年の十二月三十一日）における探鉱準備金の金額は、その日の属する年分の事業所得の金額の計算上、総収入金額に算入する。
+    modality: unspecified
+  - id: sochi-hou-art-22-p5-kou
+    type: kou_dan
+    text: この場合においては、前二項及び第七項の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前二項
+    depends_on: sochi-hou-art-22-p5-zen
+- number: 6
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-22-p6
+    type: junyou
+    text: 前条第七項の規定は、第一項の規定を適用する場合について準用する。
+    modality: unspecified
+    references:
+    - 前条
+- number: 7
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-22-p7
+    type: junyou
+    text: 前条第八項から第十項までの規定は、第一項の探鉱準備金を積み立てている個人の死亡により当該個人の相続人が同項の鉱業を承継した場合について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+  setsu: 2
+  setsu_name_ja: 第二節　不動産所得及び事業所得
+  kan: 3
+  kan_name_ja: 第三款　鉱業所得の課税の特例
+---
+
+# 租税特別措置法 第22条(（探鉱準備金）)
+
+## 原文 (日本語)
+
+### 第二十二条第一項
+
+<!-- segment: simple id: sochi-hou-art-22-p1 -->
+青色申告書を提出する個人で鉱業を営むものが、昭和四十年四月一日から令和十年三月三十一日までの期間（第一号において「指定期間」という。）内の日の属する各年（事業を廃止した日の属する年を除く。）において、安定的な供給を確保することが特に必要なものとして政令で定める鉱物に係る新鉱床探鉱費の支出に備えるため、同号及び第二号に掲げる金額のうちいずれか低い金額（その年の前年以前五年内の各年のいずれにおいても鉱物に係る新鉱床探鉱費の支出を行わなかつた場合には、当該いずれか低い金額から第三号に掲げる金額を控除した金額）以下の金額を探鉱準備金として積み立てたときは、その積み立てた金額は、その積立てをした年分の事業所得の金額の計算上、必要経費に算入する。
+
+### 第二十二条第二項
+
+<!-- segment: simple id: sochi-hou-art-22-p2 -->
+前項に規定する新鉱床探鉱費とは、探鉱のための地質調査、ボーリング又は坑道の掘削に要する費用その他の探鉱のために要する費用で政令で定めるものをいう。
+
+### 第二十二条第三項
+
+<!-- segment: simple id: sochi-hou-art-22-p3 -->
+その年の十二月三十一日において、第一項に規定する個人の前年から繰り越された探鉱準備金の金額（同日までに次項の規定により総収入金額に算入された、若しくは算入されるべきこととなつた金額又はその年の前年の十二月三十一日までにこの項の規定により総収入金額に算入された金額がある場合には、これらの金額を控除した金額。以下この条において同じ。）のうちにその積立てをした年の翌年一月一日から五年を経過したものがある場合には、その五年を経過した探鉱準備金の金額は、その五年を経過した日の属する年分の事業所得の金額の計算上、総収入金額に算入する。
+
+### 第二十二条第四項
+
+<!-- segment: hashira id: sochi-hou-art-22-p4-hashira -->
+第一項の探鉱準備金を積み立てている個人が次の各号に掲げる場合に該当することとなつた場合には、当該各号に定める金額に相当する金額は、その該当することとなつた日の属する年分の事業所得の金額の計算上、総収入金額に算入する。この場合において、第二号に掲げる場合に該当するときは、同号に規定する探鉱準備金の金額をその積立てをした年別に区分した各金額のうち、その積立てをした年が最も古いものから順次総収入金額に算入されるものとする。
+
+### 第二十二条第五項
+
+<!-- segment: zen_dan id: sochi-hou-art-22-p5-zen -->
+第一項の探鉱準備金を積み立てている個人が青色申告書の提出の承認を取り消され、又は青色申告書による申告をやめる旨の届出書の提出をした場合には、その承認の取消しの基因となつた事実のあつた日又はその届出書の提出をした日（その届出書の提出をした日が青色申告書による申告をやめた年の翌年である場合には、そのやめた年の十二月三十一日）における探鉱準備金の金額は、その日の属する年分の事業所得の金額の計算上、総収入金額に算入する。<!-- segment: kou_dan id: sochi-hou-art-22-p5-kou depends_on: sochi-hou-art-22-p5-zen -->
+この場合においては、前二項及び第七項の規定は、適用しない。
+
+### 第二十二条第六項
+
+<!-- segment: junyou id: sochi-hou-art-22-p6 -->
+前条第七項の規定は、第一項の規定を適用する場合について準用する。
+
+### 第二十二条第七項
+
+<!-- segment: junyou id: sochi-hou-art-22-p7 -->
+前条第八項から第十項までの規定は、第一項の探鉱準備金を積み立てている個人の死亡により当該個人の相続人が同項の鉱業を承継した場合について準用する。

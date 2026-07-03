@@ -1,0 +1,71 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 19-3
+article_id: sochi-hou-shikoukisoku-art-19-3
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-19-3-p1
+    type: simple
+    text: 施行令第二十六条の九第七項又は法第四十一条の十一の規定により所得税法第二百二十五条第一項の調書を同一の内国法人又は恒久的施設を有する外国法人に対する一回の支払ごとに作成し、提出する場合における所得税法施行規則第八十四条の二の規定の適用については、同条第一項第二号中「その年中に」とあるのは、「その」とするものとし、同条第二項第二号中「同一人に対するその年中の」とあるのは「同一の内国法人又は恒久的施設を有する外国法人に対するその」と、「三万円以下」とあるのは「一万円（当該給付補てん金、利息、利益又は差益の計算の基礎となつた期間が六月以上一年未満である場合には、五千円とし、当該期間が六月未満である場合には、二千五百円とする。）以下」とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-19-3-p2
+    type: simple
+    text: 施行令第二十六条の九第七項又は法第四十一条の十一の規定による所得税法第二百二十五条第一項の調書の提出は、金融機関（金融商品取引法第二条第九項に規定する金融商品取引業者（同法第二十八条第一項に規定する第一種金融商品取引業を行う者に限る。）、生命保険会社及び損害保険会社を含む。）又は抵当証券法（昭和六年法律第十五号）第一条第一項に規定する抵当証券の販売（販売の代理又は媒介を含む。）を業として行う者ごとに選択しなければならない。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-19-3-p3
+    type: simple
+    text: 前項の調書には、施行令第二十六条の九第七項又は法第四十一条の十一の規定によるものである旨を表示しなければならない。
+    modality: gimu
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+---
+
+# 租税特別措置法施行規則 第19-3条(（内国法人等に対して支払う懸賞金付預貯金等の懸賞金等及び定期積金の給付補てん金等に係る支払調書の特例）)
+
+## 原文 (日本語)
+
+### 第十九条の三第一項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-19-3-p1 -->
+施行令第二十六条の九第七項又は法第四十一条の十一の規定により所得税法第二百二十五条第一項の調書を同一の内国法人又は恒久的施設を有する外国法人に対する一回の支払ごとに作成し、提出する場合における所得税法施行規則第八十四条の二の規定の適用については、同条第一項第二号中「その年中に」とあるのは、「その」とするものとし、同条第二項第二号中「同一人に対するその年中の」とあるのは「同一の内国法人又は恒久的施設を有する外国法人に対するその」と、「三万円以下」とあるのは「一万円（当該給付補てん金、利息、利益又は差益の計算の基礎となつた期間が六月以上一年未満である場合には、五千円とし、当該期間が六月未満である場合には、二千五百円とする。）以下」とする。
+
+### 第十九条の三第二項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-19-3-p2 -->
+施行令第二十六条の九第七項又は法第四十一条の十一の規定による所得税法第二百二十五条第一項の調書の提出は、金融機関（金融商品取引法第二条第九項に規定する金融商品取引業者（同法第二十八条第一項に規定する第一種金融商品取引業を行う者に限る。）、生命保険会社及び損害保険会社を含む。）又は抵当証券法（昭和六年法律第十五号）第一条第一項に規定する抵当証券の販売（販売の代理又は媒介を含む。）を業として行う者ごとに選択しなければならない。
+
+### 第十九条の三第三項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-19-3-p3 -->
+前項の調書には、施行令第二十六条の九第七項又は法第四十一条の十一の規定によるものである旨を表示しなければならない。

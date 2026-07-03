@@ -1,0 +1,383 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 3-19
+article_id: sochi-hou-shikoukisoku-art-3-19
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p1-hashira
+    type: hashira
+    text: 法第五条の三第一項に規定する非課税適用申告書（以下この条において「非課税適用申告書」という。）に記載すべき財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p2-hashira
+    type: hashira
+    text: 施行令第三条の二第七項に規定する申請書に記載すべき財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p3-hashira
+    type: hashira
+    text: 施行令第三条の二第七項に規定する財務省令で定める書類は、次に掲げる書類とする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p4
+    type: junyou
+    text: 前条第八項及び第九項の規定は、施行令第三条の二第十一項において準用する施行令第三条第十六項の規定を適用する場合について準用する。この場合において、前条第八項第一号中「第三条第七項」とあるのは「第三条の二第七項」と、同号ロ中「前項各号」とあるのは「次条第三項各号」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
+    - 次条
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p5-hashira
+    type: hashira
+    text: 施行令第三条の二第十三項に規定する財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 6
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p6
+    type: junyou
+    text: 前条第八項及び第九項の規定は、施行令第三条の二第十六項において準用する施行令第三条第十六項の規定を適用する場合について準用する。この場合において、前条第八項第一号中「次に掲げる書類の区分に応じそれぞれ次に定める電磁的記録又は情報」とあるのは「イに定める電磁的記録」と、「第三条第七項」とあるのは「第三条の二第十三項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+- number: 7
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p7-hashira
+    type: hashira
+    text: 法第五条の三第七項に規定する財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p8
+    type: simple
+    text: 施行令第三条の二第十七項に規定する財務省令で定めるものは、法第五条の三第四項第二号に規定する特定口座管理機関（以下この項及び次項において「特定口座管理機関」という。）若しくは同条第四項第三号に規定する特定間接口座管理機関（以下この項及び次項において「特定間接口座管理機関」という。）又はその指定する者に設置される電子計算機と当該電子計算機の利用につき当該特定口座管理機関若しくは特定間接口座管理機関又はその指定する者と契約をした者の使用に係る入出力装置とを電気通信回線で接続した電子情報処理組織その他情報通信の技術を利用する方法（当該電子情報処理組織の参加者がそれぞれ特定の者に限定されていること又は暗号、記号その他特定の符号により、通知を受ける特定口座管理機関又は特定間接口座管理機関が、当該通知をした者が当該特定口座管理機関又は特定間接口座管理機関に係る適格外国仲介業者であることを確認できる方法に限る。）とする。
+    modality: gimu
+    references:
+    - 次項
+- number: 9
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p9
+    type: simple
+    text: 特定口座管理機関又は特定間接口座管理機関は、その受けた法第五条の三第七項の規定による通知が書面による方法で行われた場合にはその受理した書面を当該受理した日の属する年の翌年から五年間保存し、その受けた同項の規定による通知が施行令第三条の二第十七項に規定する方法で行われた場合には同条第十八項の規定により作成した書面又はマイクロフィルムを当該通知を受けた日の属する年の翌年から五年間保存しなければならない。
+    modality: gimu
+    references:
+    - 同項
+- number: 10
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p10
+    type: simple
+    text: 施行令第三条の二第十八項に規定する財務省令で定めるものは、第八項に規定する入出力装置とする。
+    modality: gimu
+- number: 11
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p11-hashira
+    type: hashira
+    text: 法第五条の三第八項に規定する財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 12
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p12-hashira
+    type: hashira
+    text: 施行令第三条の二第十九項に規定する財務省令で定めるものは、次の各号に掲げる場合の区分に応じ当該各号に定めるものとする。
+    modality: gimu
+- number: 13
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p13
+    type: simple
+    text: 支払者は、その受けた法第五条の三第八項の規定による通知が書面による方法で行われた場合にはその受理した書面を当該受理した日の属する年の翌年から五年間保存し、その受けた同項の規定による通知が施行令第三条の二第十九項に規定する方法で行われた場合には同条第二十項の規定により作成した書面又はマイクロフィルムを当該通知を受けた日の属する年の翌年から五年間保存しなければならない。
+    modality: gimu
+    references:
+    - 同項
+- number: 14
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p14
+    type: simple
+    text: 施行令第三条の二第二十項に規定する財務省令で定めるものは、第十二項各号に規定する入出力装置とする。
+    modality: gimu
+- number: 15
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p15
+    type: junyou
+    text: 前条第三項から第五項まで、第十項から第二十四項まで及び第二十九項から第三十六項までの規定は、法第五条の三第九項において準用する法第五条の二第二項から第四項まで、第六項、第八項から第十四項まで及び第十六項から第十九項までの規定並びに施行令第三条の二第二十一項において準用する施行令第三条第一項から第五項まで、第十項、第十七項から第二十一項まで及び第二十四項から第二十八項までの規定を適用する場合について準用する。この場合において、次の表の上欄に掲げる前条の規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+- number: 16
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p16-hashira
+    type: hashira
+    text: 施行令第三条の二第二十二項に規定する書類に記載すべき財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 17
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p17-hashira
+    type: hashira
+    text: 施行令第三条の二第二十三項に規定する財務省令で定める事項は、同項に規定する書類の提出をした者に係る次に掲げる事項とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 18
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p18
+    type: simple
+    text: 特定振替機関等又は適格外国仲介業者は、その受理した施行令第三条の二第二十三項に規定する書類（法第五条の三第十九項において準用する法第五条の二第十七項に規定する電磁的方法により提供された当該書類に記載すべき事項を記録した電磁的記録を含む。）を各人別に整理し、当該受理した日の属する年の翌年から五年間保存しなければならない。
+    modality: gimu
+- number: 19
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p19-hashira
+    type: hashira
+    text: 法第五条の三第十項に規定する書類に記載すべき財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 20
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p20-hashira
+    type: hashira
+    text: 施行令第三条の二第二十七項の規定により読み替えられた同条第二十三項に規定する書面又は電磁的方法により通知すべき財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+- number: 21
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p21
+    type: simple
+    text: 施行令第三条の二第二十七項の規定により読み替えられた同条第二十三項に規定する財務省令で定めるものは、特定振替機関又はその指定する者に設置される電子計算機と当該電子計算機の利用につき当該特定振替機関又はその指定する者と契約をした者の使用に係る入出力装置とを電気通信回線で接続した電子情報処理組織その他情報通信の技術を利用する方法（当該電子情報処理組織の参加者がそれぞれ特定の者に限定されていること又は暗号、記号その他特定の符号により、通知を受ける特定振替機関が、当該通知をした者が当該特定振替機関に係る特定受託者であることを確認できる方法に限る。）とする。
+    modality: gimu
+- number: 22
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-3-19-p22
+    type: simple
+    text: 施行令第三条の二第二十七項の規定により読み替えられた同条第二十三項の規定の適用がある場合における第十八項の規定の適用については、同項中「特定振替機関等」とあるのは、「法第五条の三第九項において準用する法第五条の二第十九項の規定により読み替えられた法第五条の三第一項に規定する特定受託者」とする。
+    modality: gimu
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+---
+
+# 租税特別措置法施行規則 第3-19条(（振替社債等の利子の課税の特例）)
+
+## 原文 (日本語)
+
+### 第三条の十九第一項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p1-hashira -->
+法第五条の三第一項に規定する非課税適用申告書（以下この条において「非課税適用申告書」という。）に記載すべき財務省令で定める事項は、次に掲げる事項とする。
+
+### 第三条の十九第二項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p2-hashira -->
+施行令第三条の二第七項に規定する申請書に記載すべき財務省令で定める事項は、次に掲げる事項とする。
+
+### 第三条の十九第三項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p3-hashira -->
+施行令第三条の二第七項に規定する財務省令で定める書類は、次に掲げる書類とする。
+
+### 第三条の十九第四項
+
+<!-- segment: junyou id: sochi-hou-shikoukisoku-art-3-19-p4 -->
+前条第八項及び第九項の規定は、施行令第三条の二第十一項において準用する施行令第三条第十六項の規定を適用する場合について準用する。この場合において、前条第八項第一号中「第三条第七項」とあるのは「第三条の二第七項」と、同号ロ中「前項各号」とあるのは「次条第三項各号」と読み替えるものとする。
+
+### 第三条の十九第五項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p5-hashira -->
+施行令第三条の二第十三項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+### 第三条の十九第六項
+
+<!-- segment: junyou id: sochi-hou-shikoukisoku-art-3-19-p6 -->
+前条第八項及び第九項の規定は、施行令第三条の二第十六項において準用する施行令第三条第十六項の規定を適用する場合について準用する。この場合において、前条第八項第一号中「次に掲げる書類の区分に応じそれぞれ次に定める電磁的記録又は情報」とあるのは「イに定める電磁的記録」と、「第三条第七項」とあるのは「第三条の二第十三項」と読み替えるものとする。
+
+### 第三条の十九第七項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p7-hashira -->
+法第五条の三第七項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+### 第三条の十九第八項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-3-19-p8 -->
+施行令第三条の二第十七項に規定する財務省令で定めるものは、法第五条の三第四項第二号に規定する特定口座管理機関（以下この項及び次項において「特定口座管理機関」という。）若しくは同条第四項第三号に規定する特定間接口座管理機関（以下この項及び次項において「特定間接口座管理機関」という。）又はその指定する者に設置される電子計算機と当該電子計算機の利用につき当該特定口座管理機関若しくは特定間接口座管理機関又はその指定する者と契約をした者の使用に係る入出力装置とを電気通信回線で接続した電子情報処理組織その他情報通信の技術を利用する方法（当該電子情報処理組織の参加者がそれぞれ特定の者に限定されていること又は暗号、記号その他特定の符号により、通知を受ける特定口座管理機関又は特定間接口座管理機関が、当該通知をした者が当該特定口座管理機関又は特定間接口座管理機関に係る適格外国仲介業者であることを確認できる方法に限る。）とする。
+
+### 第三条の十九第九項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-3-19-p9 -->
+特定口座管理機関又は特定間接口座管理機関は、その受けた法第五条の三第七項の規定による通知が書面による方法で行われた場合にはその受理した書面を当該受理した日の属する年の翌年から五年間保存し、その受けた同項の規定による通知が施行令第三条の二第十七項に規定する方法で行われた場合には同条第十八項の規定により作成した書面又はマイクロフィルムを当該通知を受けた日の属する年の翌年から五年間保存しなければならない。
+
+### 第三条の十九第十項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-3-19-p10 -->
+施行令第三条の二第十八項に規定する財務省令で定めるものは、第八項に規定する入出力装置とする。
+
+### 第三条の十九第十一項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p11-hashira -->
+法第五条の三第八項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+### 第三条の十九第十二項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p12-hashira -->
+施行令第三条の二第十九項に規定する財務省令で定めるものは、次の各号に掲げる場合の区分に応じ当該各号に定めるものとする。
+
+### 第三条の十九第十三項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-3-19-p13 -->
+支払者は、その受けた法第五条の三第八項の規定による通知が書面による方法で行われた場合にはその受理した書面を当該受理した日の属する年の翌年から五年間保存し、その受けた同項の規定による通知が施行令第三条の二第十九項に規定する方法で行われた場合には同条第二十項の規定により作成した書面又はマイクロフィルムを当該通知を受けた日の属する年の翌年から五年間保存しなければならない。
+
+### 第三条の十九第十四項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-3-19-p14 -->
+施行令第三条の二第二十項に規定する財務省令で定めるものは、第十二項各号に規定する入出力装置とする。
+
+### 第三条の十九第十五項
+
+<!-- segment: junyou id: sochi-hou-shikoukisoku-art-3-19-p15 -->
+前条第三項から第五項まで、第十項から第二十四項まで及び第二十九項から第三十六項までの規定は、法第五条の三第九項において準用する法第五条の二第二項から第四項まで、第六項、第八項から第十四項まで及び第十六項から第十九項までの規定並びに施行令第三条の二第二十一項において準用する施行令第三条第一項から第五項まで、第十項、第十七項から第二十一項まで及び第二十四項から第二十八項までの規定を適用する場合について準用する。この場合において、次の表の上欄に掲げる前条の規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+
+| 第三項第一号 | 特定振替機関等 | 特定振替機関等（法第五条の三第一項に規定する特定振替機関等をいう。以下この条において同じ。） |
+| --- | --- | --- |
+|  | 第五条の二第七項第二号 | 第五条の三第四項第二号 |
+|  | 第五条の二第七項第三号 | 第五条の三第四項第三号 |
+| 第三項第三号 | 特定振替社債等に係る確認 | 振替国債等に係る確認 |
+|  | 適格外国仲介業者の特定国外営業所等 | 法第五条の三第四項第四号に規定する適格外国仲介業者（以下この条において「適格外国仲介業者」という。）の同項第五号に規定する特定国外営業所等（以下この条において「特定国外営業所等」という。） |
+| 第十二項 | 第二項第一号 | 次条第一項第一号 |
+| 第十六項 | 第二項 | 次条第一項 |
+| 第二十二項第二号 | 同条第一項又は第五項後段 | 法第五条の三第一項又は第三項後段 |
+|  | 振替国債にあつては社債、株式等の振替に関する法律（平成十三年法律第七十五号）第九十一条第三項第二号に規定する銘柄をいい、振替地方債にあつては同法第百十三条において準用する同法第六十八条第三項第二号 | 次条第七項第二号 |
+| 第二十九項第三号 | 第五条の二第一項又は第五項後段 | 第五条の三第一項又は第三項後段 |
+| 第三十項第一号 | 第五条の二第十五項 | 第五条の三第七項又は第八項 |
+| 第三十項第三号 | 第二十五項第二号 | 次条第七項第二号及び第十一項第二号 |
+| 第三十五項 | 同条第一項の | 法第五条の三第一項の |
+|  | 第二項、 | 次条第一項、第十一項及び第十二項並びに |
+|  | ついては | ついては、同条第一項第三号中「特定振替機関等」とあるのは「特定受託者」と、同条第十一項第一号中「第五条の三第八項」とあるのは「第五条の三第九項において準用する法第五条の二第十九項の規定により読み替えて適用される法第五条の三第八項」と、「適格口座管理機関（同条第四項第八号に規定する適格口座管理機関をいう。次号及び次項において同じ。）」とあるのは「特定受託者」と、同項第二号中「適格口座管理機関」とあるのは「特定受託者に係る特定振替機関」と、同条第十二項第一号中「適格口座管理機関」とあるのは「特定受託者」とするほか |
+| 第三十五項の表第二項第二号の項 | 第二項第二号 | 次条第一項第二号 |
+| 第三十五項の表第二項第二号の項 | 第五条の二第一項に規定する特定振替機関等 | 第五条の三第一項に規定する特定振替機関等（次号及び第十八項 |
+|  | 第五条の二第十九項に規定する信託の受託者 | 第五条の三第九項において準用する法第五条の二第十九項の規定により読み替えられた法第五条の三第一項に規定する特定受託者（次号、第十一項及び第十二項 |
+|  | 第五条の二第七項第一号 | 第五条の三第四項第一号 |
+|  | 同条第四項 | 法第五条の二第四項 |
+|  | 同条第一項に規定する振替国債又は振替地方債の同条第七項第六号 | 法第五条の三第四項第七号に規定する特定振替社債等の同項第六号 |
+|  | 以下この条 | 第十一項第二号 |
+| 第三十五項の表第二項第三号及び第三項第一号の項 | 第二項第三号及び第三項第一号 | 第三項第一号 |
+| 第三十五項の表第二項第三号及び第三項第一号の項 | 特定振替機関等 | 特定振替機関等（法第五条の三第一項に規定する特定振替機関等 |
+| 第三十五項の表第二項第三号及び第三項第一号の項 | 特定受託者 | 特定受託者（法第五条の三第九項において準用する法第五条の二第十九項の規定により読み替えられた法第五条の三第一項に規定する特定受託者 |
+| 第三十五項の表第五項第四号の項 | 係る特定振替機関 | 係る法第五条の三第四項第一号に規定する特定振替機関（当該特定受託者が受託者である法第五条の二第四項に規定する信託の信託財産に属する法第五条の三第四項第七号に規定する特定振替社債等の同項第六号に規定する振替記載等に係る同項第一号に規定する特定振替機関に限る。以下この条において同じ。） |
+| 第三十六項 | 第五条の二第四項（ | 第五条の三第九項（振替社債等の利子の課税の特例）において準用する同法第五条の二第四項（ |
+|  | 第三条の十八第五項第三号 | 第三条の十九第十五項（振替社債等の利子の課税の特例）において準用する同令第三条の十八第五項第三号 |
+
+### 第三条の十九第十六項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p16-hashira -->
+施行令第三条の二第二十二項に規定する書類に記載すべき財務省令で定める事項は、次に掲げる事項とする。
+
+### 第三条の十九第十七項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p17-hashira -->
+施行令第三条の二第二十三項に規定する財務省令で定める事項は、同項に規定する書類の提出をした者に係る次に掲げる事項とする。
+
+### 第三条の十九第十八項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-3-19-p18 -->
+特定振替機関等又は適格外国仲介業者は、その受理した施行令第三条の二第二十三項に規定する書類（法第五条の三第十九項において準用する法第五条の二第十七項に規定する電磁的方法により提供された当該書類に記載すべき事項を記録した電磁的記録を含む。）を各人別に整理し、当該受理した日の属する年の翌年から五年間保存しなければならない。
+
+### 第三条の十九第十九項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p19-hashira -->
+法第五条の三第十項に規定する書類に記載すべき財務省令で定める事項は、次に掲げる事項とする。
+
+### 第三条の十九第二十項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-3-19-p20-hashira -->
+施行令第三条の二第二十七項の規定により読み替えられた同条第二十三項に規定する書面又は電磁的方法により通知すべき財務省令で定める事項は、次に掲げる事項とする。
+
+### 第三条の十九第二十一項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-3-19-p21 -->
+施行令第三条の二第二十七項の規定により読み替えられた同条第二十三項に規定する財務省令で定めるものは、特定振替機関又はその指定する者に設置される電子計算機と当該電子計算機の利用につき当該特定振替機関又はその指定する者と契約をした者の使用に係る入出力装置とを電気通信回線で接続した電子情報処理組織その他情報通信の技術を利用する方法（当該電子情報処理組織の参加者がそれぞれ特定の者に限定されていること又は暗号、記号その他特定の符号により、通知を受ける特定振替機関が、当該通知をした者が当該特定振替機関に係る特定受託者であることを確認できる方法に限る。）とする。
+
+### 第三条の十九第二十二項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-3-19-p22 -->
+施行令第三条の二第二十七項の規定により読み替えられた同条第二十三項の規定の適用がある場合における第十八項の規定の適用については、同項中「特定振替機関等」とあるのは、「法第五条の三第九項において準用する法第五条の二第十九項の規定により読み替えられた法第五条の三第一項に規定する特定受託者」とする。

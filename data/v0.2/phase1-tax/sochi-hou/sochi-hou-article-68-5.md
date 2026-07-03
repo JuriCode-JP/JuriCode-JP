@@ -1,0 +1,46 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 68-5
+article_id: sochi-hou-art-68-5
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-art-68-5-p1
+    type: tokusoku
+    text: 法人税法第八十四条第一項に規定する退職年金業務等（同法附則第二十条第二項の規定により退職年金業務等とみなされる業務を含む。）を行う法人の平成十一年四月一日から令和十一年三月三十一日までの間に開始する各事業年度の退職年金等積立金については、同法第七条又は第九条及び同法附則第二十条第一項の規定にかかわらず、退職年金等積立金に対する法人税を課さない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第二十条
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　法人税法の特例
+  setsu: 8
+  setsu_name_ja: 第八節　その他の特例
+---
+
+# 租税特別措置法 第68-5条(（退職年金等積立金に対する法人税の課税の停止）)
+
+## 原文 (日本語)
+
+### 第六十八条の五
+
+<!-- segment: tokusoku id: sochi-hou-art-68-5-p1 override_flag: true override_target: 第二十条 -->
+法人税法第八十四条第一項に規定する退職年金業務等（同法附則第二十条第二項の規定により退職年金業務等とみなされる業務を含む。）を行う法人の平成十一年四月一日から令和十一年三月三十一日までの間に開始する各事業年度の退職年金等積立金については、同法第七条又は第九条及び同法附則第二十条第一項の規定にかかわらず、退職年金等積立金に対する法人税を課さない。

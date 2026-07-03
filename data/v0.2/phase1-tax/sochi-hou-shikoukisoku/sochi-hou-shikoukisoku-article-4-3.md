@@ -1,0 +1,57 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 4-3
+article_id: sochi-hou-shikoukisoku-art-4-3
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-4-3-p1
+    type: simple
+    text: 施行令第四条の二第四項第二号に規定する財務省令で定める株式は、店頭売買登録銘柄（株式（投資信託及び投資法人に関する法律第二条第十四項に規定する投資口を含む。以下この項において同じ。）で、金融商品取引法第二条第十三項に規定する認可金融商品取引業協会が、その定める規則に従い、その店頭売買につき、その売買価格を発表し、かつ、当該株式の発行法人に関する資料を公開するものとして登録したものをいう。）として登録された株式とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-4-3-p2
+    type: simple
+    text: 法第八条の四第一項の規定の適用がある場合における所得税法施行規則第四十六条第二号の規定の適用については、同号中「の総所得金額」とあるのは「の総所得金額、租税特別措置法第八条の四第一項（上場株式等に係る配当所得等の課税の特例）に規定する上場株式等に係る配当所得等の金額」と、「課税総所得金額」とあるのは「課税総所得金額、同項に規定する上場株式等に係る課税配当所得等の金額」とする。
+    modality: gimu
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+---
+
+# 租税特別措置法施行規則 第4-3条(（上場株式等に係る配当所得等の課税の特例）)
+
+## 原文 (日本語)
+
+### 第四条の三第一項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-4-3-p1 -->
+施行令第四条の二第四項第二号に規定する財務省令で定める株式は、店頭売買登録銘柄（株式（投資信託及び投資法人に関する法律第二条第十四項に規定する投資口を含む。以下この項において同じ。）で、金融商品取引法第二条第十三項に規定する認可金融商品取引業協会が、その定める規則に従い、その店頭売買につき、その売買価格を発表し、かつ、当該株式の発行法人に関する資料を公開するものとして登録したものをいう。）として登録された株式とする。
+
+### 第四条の三第二項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-4-3-p2 -->
+法第八条の四第一項の規定の適用がある場合における所得税法施行規則第四十六条第二号の規定の適用については、同号中「の総所得金額」とあるのは「の総所得金額、租税特別措置法第八条の四第一項（上場株式等に係る配当所得等の課税の特例）に規定する上場株式等に係る配当所得等の金額」と、「課税総所得金額」とあるのは「課税総所得金額、同項に規定する上場株式等に係る課税配当所得等の金額」とする。

@@ -1,0 +1,72 @@
+---
+law_id: 332AC0000000026
+law_name_ja: 租税特別措置法
+law_name_en: (English name pending)
+article_number: 70-2-7
+article_id: sochi-hou-art-70-2-7
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332AC0000000026
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　相続税法の特例
+---
+
+# 租税特別措置法 第70-2-7条
+
+## 原文 (日本語)
+
+### 第七十条の二の七第一項
+
+贈与により第七十条の六の八第一項の規定の適用に係る特例受贈事業用資産（同項に規定する特例受贈事業用資産をいう。以下この項及び次項において同じ。）を取得した同条第一項の規定の適用を受ける特例事業受贈者（同条第二項第二号に規定する特例事業受贈者をいう。以下この条において同じ。）が贈与者（その贈与をした第七十条の六の八第一項に規定する贈与者をいう。以下この条において同じ。）の直系卑属である推定相続人以外の者（その贈与者の孫を除き、その年一月一日において十八歳以上である者に限る。）であり、かつ、その贈与者が同日において六十歳以上の者である場合には、その贈与により当該特例受贈事業用資産を取得した特例事業受贈者については、相続税法第二十一条の九の規定を準用する。
+
+### 第七十条の二の七第二項
+
+特例事業受贈者が贈与者（その年一月一日において六十歳以上の者に限る。）からの贈与により特例受贈事業用資産を取得した場合において、当該特例受贈事業用資産の取得の時前に当該贈与者からの贈与により取得した財産については、前項の規定の適用はないものとする。
+
+### 第七十条の二の七第三項
+
+第一項において準用する相続税法第二十一条の九第二項の届出書を提出した特例事業受贈者が、第七十条の六の八第四項に規定する猶予中贈与税額に相当する贈与税の全部につき納税の猶予に係る期限が確定した場合又は免除された場合においても、贈与者からの贈与により取得した財産については、第一項において準用する同法第二十一条の九第三項の規定の適用があるものとする。
+
+### 第七十条の二の七第四項
+
+第一項において準用する相続税法第二十一条の九第二項の届出書を提出した特例事業受贈者については同条第三項の規定の適用を受ける財産を取得した同条第五項に規定する相続時精算課税適用者と、贈与者については同条第三項の規定の適用を受ける財産の贈与をした同条第五項に規定する特定贈与者とそれぞれみなして、同法その他相続税又は贈与税に関する法令の規定を適用する。
+
+### 第七十条の二の七第五項
+
+前三項に定めるもののほか、第一項の規定の適用に関し必要な事項は、政令で定める。

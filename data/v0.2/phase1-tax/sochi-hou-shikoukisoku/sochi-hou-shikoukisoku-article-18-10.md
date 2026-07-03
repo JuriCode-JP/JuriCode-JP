@@ -1,0 +1,74 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 18-10
+article_id: sochi-hou-shikoukisoku-art-18-10
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-18-10-p1-hashira
+    type: hashira
+    text: 施行令第二十五条の九第二項第一号に規定する財務省令で定める株式等は、次に掲げるものとする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-18-10-p2
+    type: junyou
+    text: 前条第二項の規定は、施行令第二十五条の九第十三項において準用する施行令第二十五条の八第十四項の規定により確定申告書に添付すべき同項の明細書について準用する。この場合において、前条第二項中「第三十七条の十第一項に規定する一般株式等の譲渡」とあるのは「第三十七条の十一第一項に規定する上場株式等の譲渡」と、同項各号中「一般株式等」とあるのは「上場株式等」と、「第三十七条の十第一項」とあるのは「第三十七条の十一第二項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-18-10-p3
+    type: simple
+    text: 法第三十七条の十一第一項の規定の適用がある場合における所得税法施行規則第四十六条第二号の規定の適用については、同号中「の総所得金額」とあるのは「の総所得金額、租税特別措置法第三十七条の十一第一項（上場株式等に係る譲渡所得等の課税の特例）に規定する上場株式等に係る譲渡所得等の金額」と、「課税総所得金額」とあるのは「課税総所得金額、同項に規定する上場株式等に係る課税譲渡所得等の金額」とする。
+    modality: gimu
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+---
+
+# 租税特別措置法施行規則 第18-10条(（上場株式等に係る譲渡所得等の課税の特例）)
+
+## 原文 (日本語)
+
+### 第十八条の十第一項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-10-p1-hashira -->
+施行令第二十五条の九第二項第一号に規定する財務省令で定める株式等は、次に掲げるものとする。
+
+### 第十八条の十第二項
+
+<!-- segment: junyou id: sochi-hou-shikoukisoku-art-18-10-p2 -->
+前条第二項の規定は、施行令第二十五条の九第十三項において準用する施行令第二十五条の八第十四項の規定により確定申告書に添付すべき同項の明細書について準用する。この場合において、前条第二項中「第三十七条の十第一項に規定する一般株式等の譲渡」とあるのは「第三十七条の十一第一項に規定する上場株式等の譲渡」と、同項各号中「一般株式等」とあるのは「上場株式等」と、「第三十七条の十第一項」とあるのは「第三十七条の十一第二項」と読み替えるものとする。
+
+### 第十八条の十第三項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-10-p3 -->
+法第三十七条の十一第一項の規定の適用がある場合における所得税法施行規則第四十六条第二号の規定の適用については、同号中「の総所得金額」とあるのは「の総所得金額、租税特別措置法第三十七条の十一第一項（上場株式等に係る譲渡所得等の課税の特例）に規定する上場株式等に係る譲渡所得等の金額」と、「課税総所得金額」とあるのは「課税総所得金額、同項に規定する上場株式等に係る課税譲渡所得等の金額」とする。
