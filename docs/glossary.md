@@ -57,6 +57,7 @@ JuriCode-JPで使用する**法令略称・専門用語の日英対訳辞書**�
 | 消費税法基本通達 | Basic Circular on the Consumption Tax Act | `shouhi-kihon-tsutatsu` | NTA |
 | 相続税法基本通達 | Basic Circular on the Inheritance Tax Act | `souzoku-kihon-tsutatsu` | NTA |
 | 財産評価基本通達 | Basic Circular on Property Valuation | `zaisan-hyoka-kihon-tsutatsu` | NTA |
+| 租税特別措置法関係通達(法人税編) | Circular on the Act on Special Measures Concerning Taxation (Corporation Tax) | `sochi-hojin-tsutatsu` | NTA |
 
 ---
 

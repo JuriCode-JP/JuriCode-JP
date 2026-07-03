@@ -173,7 +173,14 @@ def test_amendment_note_extracted_with_shouhi_marker() -> None:
 
 def test_circular_config_registry() -> None:
     mod = _import_parser()
-    assert set(mod.CIRCULAR_CONFIGS) == {"hojin", "shouhi", "shotoku", "souzoku", "hyoka"}
+    assert set(mod.CIRCULAR_CONFIGS) == {
+        "hojin",
+        "shouhi",
+        "shotoku",
+        "souzoku",
+        "hyoka",
+        "sochi-hojin",
+    }
     hojin = mod.CIRCULAR_CONFIGS["hojin"]
     shouhi = mod.CIRCULAR_CONFIGS["shouhi"]
     assert hojin.law_abbrev == "hojin-kihon-tsutatsu"

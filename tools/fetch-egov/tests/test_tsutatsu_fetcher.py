@@ -93,8 +93,11 @@ def test_deeper_leaf_paths_are_leaves() -> None:
 
 
 def test_expected_leaf_counts_locked() -> None:
-    """実測ロック値 (sozoku=34 / hyoka=37) が config に固定されている."""
+    """実測ロック値 (sozoku=34 / hyoka=37 / sochi-hojin=130) が config に固定されている."""
     assert _MOD.CIRCULARS["souzoku"].expected_leaves == 34
     assert _MOD.CIRCULARS["hyoka"].expected_leaves == 37
     assert _MOD.CIRCULARS["souzoku"].base_path.endswith("/sisan/sozoku2")
     assert _MOD.CIRCULARS["hyoka"].base_path.endswith("/sisan/hyoka_new")
+    # FU-536: 措置法通達(法人税編) は個別通達ゆえ kobetsu/.../発遣日 750214・leaf 130。
+    assert _MOD.CIRCULARS["sochi-hojin"].expected_leaves == 130
+    assert _MOD.CIRCULARS["sochi-hojin"].base_path.endswith("/kobetsu/hojin/sochiho/750214")
