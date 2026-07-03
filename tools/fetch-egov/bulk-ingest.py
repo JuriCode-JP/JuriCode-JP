@@ -79,6 +79,10 @@ PHASE_MAP: dict[str, str] = {
     "souzoku-zei-hou-shikoukisoku": "phase1-tax",
     "kokuzei-tsuusoku-hou-shikoukisoku": "phase1-tax",
     "chihou-zei-hou-shikoukisoku": "phase1-tax",
+    # 租税特別措置法系 (順序5 FU-535)
+    "sochi-hou": "phase1-tax",
+    "sochi-hou-shikkourei": "phase1-tax",
+    "sochi-hou-shikoukisoku": "phase1-tax",
     # 行政
     "chihou-jichi-hou": "phase1-administrative",
     "gyousei-tetsuzuki-hou": "phase1-administrative",

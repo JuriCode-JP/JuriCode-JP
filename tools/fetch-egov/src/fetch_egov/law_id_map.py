@@ -63,6 +63,11 @@ LAW_ID_MAP: dict[str, str] = {
     "corporation-tax-act-regulation": "340M50000040012",
     "shotoku-zei-hou-shikoukisoku": "340M50000040011",
     "income-tax-act-regulation": "340M50000040011",
+    # 租税特別措置法系 (順序5 FU-535)
+    "sochi-hou": "332AC0000000026",
+    "act-on-special-measures-concerning-taxation": "332AC0000000026",
+    "sochi-hou-shikkourei": "332CO0000000043",
+    "sochi-hou-shikoukisoku": "332M50000040015",
     "shouhi-zei-hou-shikoukisoku": "363M50000040053",
     "consumption-tax-act-regulation": "363M50000040053",
     "souzoku-zei-hou-shikoukisoku": "325M50000040017",
