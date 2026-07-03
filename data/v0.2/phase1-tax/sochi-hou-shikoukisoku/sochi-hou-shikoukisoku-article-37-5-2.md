@@ -1,0 +1,36 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 37-5-2
+article_id: sochi-hou-shikoukisoku-art-37-5-2
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 6
+  shou_name_ja: 第六章　消費税法等の特例
+---
+
+# 租税特別措置法施行規則 第37-5-2条(（カーボンリサイクルエタノールの範囲）)
+
+## 原文 (日本語)
+
+### 第三十七条の五の二
+
+法第八十八条の七第一項第二号に規定する財務省令で定めるアルコールは、エネルギー源の環境適合利用に関する石油精製業者の判断の基準（令和五年経済産業省告示第三十二号）に規定するカーボンリサイクル技術を用いて製造されたものとする。

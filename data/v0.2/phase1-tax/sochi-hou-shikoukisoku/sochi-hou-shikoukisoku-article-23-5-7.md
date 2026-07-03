@@ -1,0 +1,36 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 23-5-7
+article_id: sochi-hou-shikoukisoku-art-23-5-7
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments: []
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　相続税法の特例
+---
+
+# 租税特別措置法施行規則 第23-5-7条
+
+## 原文 (日本語)
+
+### 第二十三条の五の七
+
+法第七十条の二の七第一項の規定の適用がある場合における相続税法施行規則第十一条第一項及び第二十九条第四項第三号の規定の適用については、同令第十一条第一項中「者の戸籍の謄本又は抄本その他の書類でその者の」とあるのは「者の」と、「の推定相続人に該当する」とあるのは「からの贈与により租税特別措置法第七十条の六の八第一項（個人の事業用資産についての贈与税の納税猶予及び免除）に規定する特例受贈事業用資産の取得をした」と、同号中「の推定相続人であつた場合」とあるのは「からの贈与により租税特別措置法第七十条の六の八第一項（個人の事業用資産についての贈与税の納税猶予及び免除）に規定する特例受贈事業用資産の取得をした場合」と、「戸籍の謄本又は抄本その他の書類で当該対象共同相続人等が当該被相続人の推定相続人であつた」とあるのは「当該贈与に係る契約書の写しその他の書類で当該対象共同相続人等が当該特例受贈事業用資産の取得をした」とする。

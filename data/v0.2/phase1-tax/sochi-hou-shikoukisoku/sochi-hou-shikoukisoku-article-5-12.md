@@ -1,0 +1,85 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 5-12
+article_id: sochi-hou-shikoukisoku-art-5-12
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-5-12-p1
+    type: simple
+    text: 法第十条の五の四第一項第二号ロに規定する財務省令で定める場合は、同号ロの認定が女性の職業生活における活躍の推進に関する法律に基づく一般事業主行動計画等に関する省令（平成二十七年厚生労働省令第百六十二号）第八条第一項第三号又は第三号の二に規定する事業主の類型に係るものである場合（その年十二月三十一日までに女性の職業生活における活躍の推進に関する法律（平成二十七年法律第六十四号）第十一条の規定により当該認定が取り消された場合を除く。）とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-5-12-p2-hashira
+    type: hashira
+    text: 法第十条の五の四第二項第二号イに規定する財務省令で定める場合は、同号イの認定が次に掲げるものである場合（その年十二月三十一日までに次世代育成支援対策推進法（平成十五年法律第百二十号）第十五条の規定により当該認定が取り消された場合を除く。）とする。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-5-12-p3
+    type: simple
+    text: 法第十条の五の四第二項第二号ハに規定する財務省令で定める場合は、同号ハの認定が女性の職業生活における活躍の推進に関する法律に基づく一般事業主行動計画等に関する省令第八条第一項第二号から第三号の二までに規定する事業主の類型に係るものである場合（その年十二月三十一日までに女性の職業生活における活躍の推進に関する法律第十一条の規定により当該認定が取り消された場合を除く。）とする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-5-12-p4-hashira
+    type: hashira
+    text: 施行令第五条の六の四第六項に規定する財務省令で定める者は、当該個人の就業規則において同項に規定する継続雇用制度を導入している旨の記載があり、かつ、次に掲げる書類のいずれかにその者が当該継続雇用制度に基づき雇用されている者である旨の記載がある場合のその者とする。
+    modality: gimu
+    references:
+    - 同項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+---
+
+# 租税特別措置法施行規則 第5-12条(（給与等の支給額が増加した場合の所得税額の特別控除）)
+
+## 原文 (日本語)
+
+### 第五条の十二第一項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-5-12-p1 -->
+法第十条の五の四第一項第二号ロに規定する財務省令で定める場合は、同号ロの認定が女性の職業生活における活躍の推進に関する法律に基づく一般事業主行動計画等に関する省令（平成二十七年厚生労働省令第百六十二号）第八条第一項第三号又は第三号の二に規定する事業主の類型に係るものである場合（その年十二月三十一日までに女性の職業生活における活躍の推進に関する法律（平成二十七年法律第六十四号）第十一条の規定により当該認定が取り消された場合を除く。）とする。
+
+### 第五条の十二第二項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-5-12-p2-hashira -->
+法第十条の五の四第二項第二号イに規定する財務省令で定める場合は、同号イの認定が次に掲げるものである場合（その年十二月三十一日までに次世代育成支援対策推進法（平成十五年法律第百二十号）第十五条の規定により当該認定が取り消された場合を除く。）とする。
+
+### 第五条の十二第三項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-5-12-p3 -->
+法第十条の五の四第二項第二号ハに規定する財務省令で定める場合は、同号ハの認定が女性の職業生活における活躍の推進に関する法律に基づく一般事業主行動計画等に関する省令第八条第一項第二号から第三号の二までに規定する事業主の類型に係るものである場合（その年十二月三十一日までに女性の職業生活における活躍の推進に関する法律第十一条の規定により当該認定が取り消された場合を除く。）とする。
+
+### 第五条の十二第四項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-5-12-p4-hashira -->
+施行令第五条の六の四第六項に規定する財務省令で定める者は、当該個人の就業規則において同項に規定する継続雇用制度を導入している旨の記載があり、かつ、次に掲げる書類のいずれかにその者が当該継続雇用制度に基づき雇用されている者である旨の記載がある場合のその者とする。

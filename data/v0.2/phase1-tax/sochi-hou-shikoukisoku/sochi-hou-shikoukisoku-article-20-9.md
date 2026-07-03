@@ -1,0 +1,101 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: 20-9
+article_id: sochi-hou-shikoukisoku-art-20-9
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-20-9-p1
+    type: simple
+    text: 法第四十二条の十二の四第一項第一号に規定する財務省令で定めるものは、中小企業等経営強化法施行規則第十六条第二項に規定する経営力向上に著しく資する設備等とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-20-9-p2
+    type: simple
+    text: 法第四十二条の十二の四第一項第二号に規定する経営の向上及び経営の規模の拡大に著しく資するものとして財務省令で定めるものは、中小企業等経営強化法施行規則第十六条第三項に規定する経営力向上及び経営の規模の拡大に著しく資する設備等とする。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-20-9-p3
+    type: simple
+    text: 法第四十二条の十二の四第一項に規定する中小企業者等（次項において「中小企業者等」という。）が同条第一項第二号に掲げる減価償却資産（建物及びその附属設備に限る。）を事業の用に供した場合において、その事業の用に供した事業年度が当該減価償却資産に係る投資計画（中小企業等経営強化法施行規則第十六条第三項に規定する投資計画をいう。次項及び第五項第二号ロにおいて同じ。）に記載された従業員の給与の支給額の増加に関する目標（以下この条において「給与支給額増加目標」という。）を達成した事業年度（当該給与支給額増加目標を達成したことにつき、第五項第二号ロに掲げる書類を確定申告書等に添付することにより証明がされた事業年度に限る。）に該当しないときは、当該減価償却資産は法第四十二条の十二の四第一項第二号に規定する経営の向上及び経営の規模の拡大に著しく資するものとして財務省令で定めるものに該当しないものとする。
+    modality: gimu
+    references:
+    - 次項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-20-9-p4
+    type: simple
+    text: 法第四十二条の十二の四第一項第二号ロに規定する財務省令で定めるものは、当該中小企業者等の同号に掲げる減価償却資産に係る投資計画に記載された給与支給額増加目標を達成するために必要不可欠な建物及びその附属設備で、当該中小企業者等の事業年度が給与支給額増加目標を達成し、かつ、給与の支給額が著しく増加した事業年度であることにつき、次項第二号ロに掲げる書類を確定申告書等に添付することにより証明がされた事業年度において事業の用に供されたものとする。
+    modality: gimu
+    references:
+    - 次項
+- number: 5
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-20-9-p5-hashira
+    type: hashira
+    text: 施行令第二十七条の十二の四第四項に規定する財務省令で定める書類は、次の各号に掲げる減価償却資産の区分に応じ当該各号に定める書類とする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 3
+  shou_name_ja: 第三章　法人税法の特例
+---
+
+# 租税特別措置法施行規則 第20-9条(（中小企業者等が特定経営力向上設備等を取得した場合の特別償却又は法人税額の特別控除）)
+
+## 原文 (日本語)
+
+### 第二十条の九第一項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-20-9-p1 -->
+法第四十二条の十二の四第一項第一号に規定する財務省令で定めるものは、中小企業等経営強化法施行規則第十六条第二項に規定する経営力向上に著しく資する設備等とする。
+
+### 第二十条の九第二項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-20-9-p2 -->
+法第四十二条の十二の四第一項第二号に規定する経営の向上及び経営の規模の拡大に著しく資するものとして財務省令で定めるものは、中小企業等経営強化法施行規則第十六条第三項に規定する経営力向上及び経営の規模の拡大に著しく資する設備等とする。
+
+### 第二十条の九第三項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-20-9-p3 -->
+法第四十二条の十二の四第一項に規定する中小企業者等（次項において「中小企業者等」という。）が同条第一項第二号に掲げる減価償却資産（建物及びその附属設備に限る。）を事業の用に供した場合において、その事業の用に供した事業年度が当該減価償却資産に係る投資計画（中小企業等経営強化法施行規則第十六条第三項に規定する投資計画をいう。次項及び第五項第二号ロにおいて同じ。）に記載された従業員の給与の支給額の増加に関する目標（以下この条において「給与支給額増加目標」という。）を達成した事業年度（当該給与支給額増加目標を達成したことにつき、第五項第二号ロに掲げる書類を確定申告書等に添付することにより証明がされた事業年度に限る。）に該当しないときは、当該減価償却資産は法第四十二条の十二の四第一項第二号に規定する経営の向上及び経営の規模の拡大に著しく資するものとして財務省令で定めるものに該当しないものとする。
+
+### 第二十条の九第四項
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-20-9-p4 -->
+法第四十二条の十二の四第一項第二号ロに規定する財務省令で定めるものは、当該中小企業者等の同号に掲げる減価償却資産に係る投資計画に記載された給与支給額増加目標を達成するために必要不可欠な建物及びその附属設備で、当該中小企業者等の事業年度が給与支給額増加目標を達成し、かつ、給与の支給額が著しく増加した事業年度であることにつき、次項第二号ロに掲げる書類を確定申告書等に添付することにより証明がされた事業年度において事業の用に供されたものとする。
+
+### 第二十条の九第五項
+
+<!-- segment: hashira id: sochi-hou-shikoukisoku-art-20-9-p5-hashira -->
+施行令第二十七条の十二の四第四項に規定する財務省令で定める書類は、次の各号に掲げる減価償却資産の区分に応じ当該各号に定める書類とする。

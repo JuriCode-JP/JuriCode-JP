@@ -1,0 +1,41 @@
+---
+law_id: 332M50000040015
+law_name_ja: 租税特別措置法施行規則
+law_name_en: (English name pending)
+article_number: '9'
+article_id: sochi-hou-shikoukisoku-art-9
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332M50000040015
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikoukisoku-art-9-p1
+    type: simple
+    text: 施行令第十四条第二項第三号に規定する財務省令で定める金額は、同号に規定する物品の販売による収入金額（当該物品の原材料として購入した鉱物（法第二十二条第一項に規定する鉱物をいう。以下この条において同じ。）又は鉱物に係る鉱さい、銅、鉛その他の金属のくず若しくは粗銅、粗鉛その他これらに準ずるもの（以下この条において「鉱物等」という。）がある場合には、当該鉱物等の取得に要した金額を控除した金額）に、第一号に掲げる金額が第二号に掲げる金額のうちに占める割合を乗じて計算した金額（当該計算した金額が当該物品の原材料である選鉱後の法第二十二条第一項に規定する個人の採掘した鉱物を販売するとした場合にその対価として通常受けるべき金額と著しく異なるときは、その通常受けるべき金額）とする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+---
+
+# 租税特別措置法施行規則 第9条(（探鉱準備金）)
+
+## 原文 (日本語)
+
+### 第九条
+
+<!-- segment: simple id: sochi-hou-shikoukisoku-art-9-p1 -->
+施行令第十四条第二項第三号に規定する財務省令で定める金額は、同号に規定する物品の販売による収入金額（当該物品の原材料として購入した鉱物（法第二十二条第一項に規定する鉱物をいう。以下この条において同じ。）又は鉱物に係る鉱さい、銅、鉛その他の金属のくず若しくは粗銅、粗鉛その他これらに準ずるもの（以下この条において「鉱物等」という。）がある場合には、当該鉱物等の取得に要した金額を控除した金額）に、第一号に掲げる金額が第二号に掲げる金額のうちに占める割合を乗じて計算した金額（当該計算した金額が当該物品の原材料である選鉱後の法第二十二条第一項に規定する個人の採掘した鉱物を販売するとした場合にその対価として通常受けるべき金額と著しく異なるときは、その通常受けるべき金額）とする。
