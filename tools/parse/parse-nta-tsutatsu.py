@@ -37,6 +37,7 @@ import argparse
 import copy
 import re
 import sys
+import unicodedata
 import warnings
 from collections.abc import Mapping
 from dataclasses import dataclass, field
@@ -103,7 +104,16 @@ class CircularConfig:
     #       <strong> 内にある段落のみ通達開始とみなす (実 HTML で strong 付き 313 件が全 unique
     #       な真通達・平文番号 40 件は全て (注)/別表 と確認済)。既定 hierarchical は全経路で
     #       現行と完全一致 (byte 回帰で実証)。
-    num_style: Literal["hierarchical", "flat_branch"] = "hierarchical"
+    #   "kan_paren": 租税特別措置法通達型 (FU-536)。条 と 項 の間に款マーカー (N)/（N） を持つ
+    #       (62の3（1）－1 = 62条の3 第1款 -1) ため階層に款レベルを畳み込む (62の3-1-1)。条跨ぎ
+    #       共通マーカー （共） も持つ (42の5～48（共）－1 -> 42の5_48共-1)。款の有無で dash-level
+    #       が 2 (条-項) / 3 (条-款-項) に変動するため num_levels ではなく可変 tail で検証する。
+    num_style: Literal["hierarchical", "flat_branch", "kan_paren"] = "hierarchical"
+    # 取込から除外するファイル名 (basename) の集合。既定は空 = 全ファイル取込 (byte 不変)。
+    # 措置法通達は改正で同一条番号に別制度が併載される事故があり (旧 02_57_4.htm 原子力発電施設
+    # 解体準備金 vs 新 02_57_4_2.htm 特定原子力施設炉心等除去準備金 = 同 id 異本文 fail-loud)、
+    # 旧版を basename で機械除外する。多章 (--cache-root) / 単章 (--cache-dir) 両モードで効く。
+    exclude_files: frozenset[str] = field(default_factory=frozenset)
 
 
 # 法人税基本通達 (既定・byte 回帰で固定。値は移行前の module 定数と完全一致)。
@@ -204,6 +214,31 @@ HYOKA_CONFIG = CircularConfig(
     num_style="flat_branch",
 )
 
+# 租税特別措置法関係通達 (法人税編)・FU-536。num_style="kan_paren" (款マーカー (N)/（N） +
+# 条跨ぎ （共）)。NTA URL は個別通達パス "kobetsu/hojin/sochiho/750214" (発遣 直法2-2・
+# 昭50.2.14・web_fetch 実確認)。改正記号は法人税系 課法/直法。ref_map は **実本文の表記を
+# probe-don't-guess で実測** して full 形で登録する (P0-3): 本体 措置法(724)・施行令 措置法令
+# (405・短縮形) ・施行規則 措置法規則、法人税法系は裸 法(882)/令(437)。_build_law_ref_re は
+# 長い接頭辞を優先するので「措置法令第N条」を「措置法」や裸「令」へ潰さず解決する。措置法系は
+# FU-535 で corpus 実在ゆえ全 link (corpus_unregistered 空)。旧 02_57_4.htm は除外 (exclude_files)。
+SOCHI_HOJIN_CONFIG = CircularConfig(
+    law_name_ja="租税特別措置法関係通達（法人税編）",
+    law_abbrev="sochi-hojin-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kobetsu/hojin/sochiho/750214",
+    ref_map={
+        "措置法令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (短縮形 措置法令・corpus 実在)
+        "措置法規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (corpus 実在)
+        "措置法": "sochi-hou",  # 租税特別措置法 (本体・corpus 実在)
+        "法": "houjin-zei-hou",  # 法人税法 (裸「法」)
+        "令": "houjin-zei-hou-shikkourei",  # 法人税法施行令 (裸「令」)
+        "規": "houjin-zei-hou-shikoukisoku",  # 法人税法施行規則 (裸「規」)
+    },
+    corpus_unregistered=frozenset(),
+    amendment_markers=("課法", "直法"),
+    num_style="kan_paren",
+    exclude_files=frozenset({"02_57_4.htm"}),
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
@@ -211,6 +246,7 @@ CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "shotoku": SHOTOKU_CONFIG,
     "souzoku": SOUZOKU_CONFIG,
     "hyoka": HYOKA_CONFIG,
+    "sochi-hojin": SOCHI_HOJIN_CONFIG,
 }
 
 
@@ -379,6 +415,49 @@ _LEVEL = r"\d+(?:の\d+)*(?:共)?"
 # 番号に「・」は無いため、本上位互換は非「・」入力で従来と同一キャプチャ (byte 回帰で実証)。
 _FIRST_LEVEL = rf"{_LEVEL}(?:[・〜～~]{_LEVEL})*"
 
+# kan_paren 専用: 条と項の間に入る款マーカー (N)/（N） または条跨ぎ共通マーカー （共）。
+# 半角/全角の丸括弧、内部は半角/全角数字か「共」。任意 (款のない条-項もあるため) で、
+# _directive_levels_re が款の後に必須の項ダッシュを続けて裸の号番号を通達開始と誤認しない。
+_KAN_PAREN_RE = r"(?:[（(](?:\d+|共)[）)])?"
+
+
+def _fold_kan_paren(num: str) -> str:
+    """措置法通達番号を数値主体の directive_id 末尾へ畳み込む (款->-N・（共）->共・の 保持)。
+
+    Why: 措通の番号は 条 と 項 の間に款マーカー (N)/（N） を持ち (62の3（1）－1)、条跨ぎ通達は
+    共通マーカー （共） を持つ (42の5～48（共）－1)。hierarchical/flat_branch は款を表現しない。
+    款は末尾の数値レベルへ (62の3-1-1)、（共） は範囲末尾レベルへ (48（共）->48共) 畳み込み、
+    条・号の枝番「の」は既存規約どおり保持する (例 hojin 9-2-12の2)。全角ハイフン・全角数字は
+    正規化する。未知の丸括弧内容 (数字でも「共」でもない) はそのまま残し、_directive_id_ok で
+    fail-loud させる (buggy な既定変換で黙って壊さない)。呼び出し時点で ・/〜/～ は _RANGE_SEP_RE
+    により既に "_" へ潰れている前提。
+    """
+    s = num.replace("　", "").strip()
+    s = re.sub(r"[（(]\s*共\s*[）)]", "共", s)  # （共）-> 共 (範囲末尾レベルへ)
+    s = re.sub(
+        r"[（(]\s*(\d+)\s*[）)]",
+        lambda m: "-" + unicodedata.normalize("NFKC", m.group(1)),
+        s,
+    )  # 款 (N)/（N）-> -N (半角化)
+    s = s.replace("－", "-")  # 全角ハイフン -> ASCII
+    s = re.sub(
+        r"[0-9０-９]+", lambda m: unicodedata.normalize("NFKC", m.group(0)), s
+    )  # 全角数字 -> 半角
+    return s
+
+
+def _normalize_directive_num(raw: str, config: CircularConfig) -> str:
+    """キャプチャ直後の番号文字列を directive_id 末尾形へ正規化する (num_style 駆動)。
+
+    Why: 全 num_style 共通で条範囲区切り (・/〜/～) を "_" に潰す (既存挙動)。kan_paren は
+    さらに _fold_kan_paren で款・（共）を畳み込む。hierarchical/flat_branch では _RANGE_SEP_RE
+    のみ適用され従来と同一文字列を返す (byte 回帰で実証)。
+    """
+    num = _RANGE_SEP_RE.sub("_", raw)
+    if config.num_style == "kan_paren":
+        num = _fold_kan_paren(num)
+    return num
+
 
 def _directive_levels_re(config: CircularConfig) -> str:
     """番号パターンを num_style で組む。
@@ -386,10 +465,15 @@ def _directive_levels_re(config: CircularConfig) -> str:
     hierarchical: '{first}-{level}-...' を config.num_levels 個のレベルで (先頭は条範囲可)。
     flat_branch:  '{first}(?:-{level})?' = 単発番号 + 任意の単一ダッシュ枝番 (財産評価型・
                   貪欲で "4-2" を丸ごと、"4" を単独で取る)。num_levels は不使用。
+    kan_paren:    '{first}{款?}[-－]{level}' = 条 + 任意の款 (N)/（N）/（共） + **必須**の項
+                  ダッシュ (措置法通達型)。項を必須にすることで本文中の裸号番号 (1/2/3) を
+                  通達開始と誤検出しない。ダッシュは全角/半角両対応。num_levels は不使用。
     hierarchical 経路は従来と完全に同一文字列を返す (byte 回帰で実証)。
     """
     if config.num_style == "flat_branch":
         return rf"{_FIRST_LEVEL}(?:-{_LEVEL})?"
+    if config.num_style == "kan_paren":
+        return rf"{_FIRST_LEVEL}{_KAN_PAREN_RE}[-－]{_LEVEL}"
     return "-".join([_FIRST_LEVEL] + [_LEVEL] * (config.num_levels - 1))
 
 
@@ -439,9 +523,14 @@ def _build_directive_id_tail_re(config: CircularConfig) -> re.Pattern:
 
     hierarchical: num_levels 個のレベルを "-" 連結 (従来と完全同一)。
     flat_branch:  '{first}(?:-{level})?' = 単発番号 + 任意枝番 ("100" / "4-2")。
+    kan_paren:    '{first}(?:-{level}){1,2}' = 条 + (款? + 項) の 2〜3 dash-level (款有無で
+                  可変)。畳み込み後は数値主体 (「の」は _LEVEL が許容) ゆえ num_levels 固定では
+                  なく可変個で検証する。
     """
     if config.num_style == "flat_branch":
         return re.compile(rf"{_ID_FIRST_LEVEL}(?:-{_LEVEL})?")
+    if config.num_style == "kan_paren":
+        return re.compile(rf"{_ID_FIRST_LEVEL}(?:-{_LEVEL}){{1,2}}")
     return re.compile("-".join([_ID_FIRST_LEVEL] + [_LEVEL] * (config.num_levels - 1)))
 
 
@@ -683,7 +772,7 @@ def _extract_directive_items(
                 # 見出しは「直後の1番号」専用。束縛後 None に戻すことで、自前見出しの
                 # ない「削除」通達が前項の見出しを継承しない (第2エッジ・タイトルなし)。
                 # 条範囲の区切り (中点・/波ダッシュ) は番号内だけ "_" へ正規化。
-                current_num = _RANGE_SEP_RE.sub("_", num_match.group(1))
+                current_num = _normalize_directive_num(num_match.group(1), config)
                 current_item_title = current_title
                 current_title = None
                 current_body_parts = []
@@ -708,7 +797,7 @@ def _extract_directive_items(
         if lead_match:
             _flush(current_num, current_item_title, current_body_parts, current_amendment)
             # 条範囲の区切り (中点・/波ダッシュ) は番号内だけ "_" へ正規化。
-            current_num = _RANGE_SEP_RE.sub("_", lead_match.group(1))
+            current_num = _normalize_directive_num(lead_match.group(1), config)
             current_item_title = current_title
             current_title = None  # consume-once (第2エッジ: 削除通達はタイトルなし)
             current_body_parts = []
@@ -845,6 +934,7 @@ def main(argv: list[str] | None = None) -> int:
             p
             for p in root.rglob(args.glob_pattern)
             if _CHAPTER_DIR_RE.fullmatch(p.relative_to(root).parts[0])
+            and p.name not in config.exclude_files
         )
         src_label = str(root)
 
@@ -854,7 +944,9 @@ def main(argv: list[str] | None = None) -> int:
         if not args.cache_dir.exists():
             print(f"ERROR: cache-dir not found: {args.cache_dir}", file=sys.stderr)
             return 1
-        htm_files = sorted(args.cache_dir.glob(args.glob_pattern))
+        htm_files = sorted(
+            p for p in args.cache_dir.glob(args.glob_pattern) if p.name not in config.exclude_files
+        )
         src_label = str(args.cache_dir)
 
         def _src_url(p: Path) -> str:

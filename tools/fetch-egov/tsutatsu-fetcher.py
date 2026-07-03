@@ -10,6 +10,9 @@
 取得対象 (2026-07-01 実測でロック):
     souzoku : 相続税法基本通達   /law/tsutatsu/kihon/sisan/sozoku2   -> cache/tsutatsu/souzoku
     hyoka   : 財産評価基本通達   /law/tsutatsu/kihon/sisan/hyoka_new -> cache/tsutatsu/hyoka
+追加 (2026-07-03・FU-536):
+    sochi-hojin : 租税特別措置法関係通達(法人税編) /law/tsutatsu/kobetsu/hojin/sochiho/750214
+                  -> cache/tsutatsu/sochi-hojin (個別通達・発遣日ルート・leaf 130)
 
 Why (設計):
     - NTA は目次ディレクトリ ('.../<circular>/') を索引配信しない (302->404) が、
@@ -77,6 +80,16 @@ CIRCULARS: dict[str, Circular] = {
         base_path="/law/tsutatsu/kihon/sisan/hyoka_new",
         cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "hyoka",
         expected_leaves=37,
+    ),
+    # 租税特別措置法関係通達(法人税編)・FU-536。個別通達ゆえ base は kobetsu/.../発遣日 750214。
+    # leaf 130 (数値12章 128 + bessi + zenbun・cache 実測ロック。soft-404 の欠番章は索引に leaf を
+    # 出さないので自然に除外される)。
+    "sochi-hojin": Circular(
+        key="sochi-hojin",
+        label="租税特別措置法関係通達（法人税編）",
+        base_path="/law/tsutatsu/kobetsu/hojin/sochiho/750214",
+        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-hojin",
+        expected_leaves=130,
     ),
 }
 
