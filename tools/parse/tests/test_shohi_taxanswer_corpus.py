@@ -64,10 +64,12 @@ _SHOHI_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "shohi"
 #   images・version は完全不変。Cowork 独立カウント (明示 所-prefix unlinked = 4ref/3chunk) と一致。
 EXPECTED_TOTAL = 114  # dedup 後のユニーク code 数 (母集団 115 - soft-404 1[6950])
 EXPECTED_BRANCHED: frozenset[str] = frozenset()  # 枝番コードなし
-EXPECTED_ARTICLES = 399  # related_articles 総数 (FU-529: 395->399, 所法系昇格)
+EXPECTED_ARTICLES = 402  # related_articles 総数 (FU-537: 399->402, 措法系昇格+ガード後・佐藤ロック)
 EXPECTED_DIRECTIVES = 55  # related_directives 総数 (FU-529: 54->55, 所基通昇格)
 EXPECTED_QA = 151  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 331  # unlinked_refs 総数 (FU-529: 336->331, 所法系昇格-偽リンク是正の純減)
+EXPECTED_UNLINKED = (
+    328  # unlinked_refs 総数 (FU-537: 331->328, 措法系 unlinked->linked 昇格・佐藤ロック)
+)
 EXPECTED_IMAGES = 22  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 8  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -88,6 +90,8 @@ EXPECTED_ARTICLE_ABBREVS = {
     "shotoku-zei-hou": 2,
     "shotoku-zei-hou-shikkourei": 1,
     "shotoku-zei-hou-shikoukisoku": 1,
+    # FU-537: 措法系昇格 (消費税タックスアンサーの特例参照が sochi-hou へ link)。
+    "sochi-hou": 3,
 }
 EXPECTED_DIRECTIVE_ABBREVS = {
     "shouhi-kihon-tsutatsu": 54,
@@ -250,7 +254,9 @@ def test_no_foreign_law_tokens_in_links() -> None:
     もはや foreign ではない (shotoku-* へ正当に link する)。ここでは消費税バーティカル外で
     corpus 未取込のまま残る法令 (輸徴法/旧消法/印法/措 系) と 告示/民法 のみを検査する。
     """
-    foreign = ("輸徴法", "旧消法", "印法", "措法", "措令", "措規", "措通", "告示", "民法")
+    # FU-537: 措法/措令/措規 は昇格し related_articles に正当に現れるため foreign から除外。
+    # 措通 は FU-536 保留ゆえ foreign 据置。
+    foreign = ("輸徴法", "旧消法", "印法", "措通", "告示", "民法")
     leaked = [
         (r["code"], a["raw"])
         for r in _records()

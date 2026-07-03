@@ -91,6 +91,14 @@ LAW_PREFIX_MAP: dict[str, tuple[str, str]] = {
     "所令": ("shotoku-zei-hou-shikkourei", "shotoku-zei-hou-shikkourei-art"),  # 所令
     "所規": ("shotoku-zei-hou-shikoukisoku", "shotoku-zei-hou-shikoukisoku-art"),  # 所規
     "所基通": ("shotoku-kihon-tsutatsu", "shotoku-kihon-tsutatsu"),  # 所基通
+    # --- FU-537 租税特別措置法本文系の昇格 (順序5)。措法/措令/措規 を UNREG から MAP へ。
+    # 措通は FU-536 保留ゆえ UNREG に据置 (部分昇格)。id_prefix は glossary.md:44-46 準拠。
+    # 綴り罠: 正は sochi-hou であり sochi-zei-hou ではない (ハイフン略記の混同を避ける)。
+    # 本3 prefix は _process_remainder のガード3種 (継承/レンジ・等/実在チェック) を伴い、
+    # _SOCHI_ABBREVS で gate する (措法系のみ = 非 cross-cutting)。
+    "措法": ("sochi-hou", "sochi-hou-art"),  # 措法
+    "措令": ("sochi-hou-shikkourei", "sochi-hou-shikkourei-art"),  # 措令
+    "措規": ("sochi-hou-shikoukisoku", "sochi-hou-shikoukisoku-art"),  # 措規
 }
 
 # tsutatsu (基本通達) 系の prefix。N-N-N 形式の通達番号として処理し、対応法令の通達番号
@@ -100,6 +108,13 @@ _TSUTATSU_PREFIXES = frozenset(
     {"法基通", "相基通", "評基通", "消基通", "所基通"}
 )  # 法基通 相基通 評基通 消基通 所基通
 
+# 措法系 (租税特別措置法本文系) の law_abbrev。FU-537 の昇格に伴うガード3種
+# (D 継承 / A・B レンジ・等 / C 実在チェック) の scope 判定に使う。措法系のみに gate する
+# ことで所法等の他 prefix を一切変えない (非 cross-cutting) ことを保証する。
+_SOCHI_ABBREVS = frozenset(
+    {"sochi-hou", "sochi-hou-shikkourei", "sochi-hou-shikoukisoku"}
+)  # 措法 措令 措規
+
 # Prefixes that are not in corpus (unlinked + warn).
 # Why (FU-527): sozoku の 根拠法令等 に現れる他法令参照。corpus 未取込 or 別バーティカル
 # ゆえ相続バーティカル (相法/相基通/評基通) には link せず、unlinked として「記録」する
@@ -107,10 +122,9 @@ _TSUTATSU_PREFIXES = frozenset(
 # 未知 prefix が直前 prefix を継承して偽リンクする事故を構造的に防ぐ。措置法 (措法/措令/
 # 措規/措通) は順序5 で独立取込予定。
 CORPUS_UNREGISTERED_PREFIXES = {
-    "措法",  # 措法 (租税特別措置法・順序5)
-    "措令",  # 措令 (措置法施行令)
-    "措規",  # 措規 (措置法施行規則)
-    "措通",  # 措通 (措置法通達)
+    # FU-537: 措法/措令/措規 は LAW_PREFIX_MAP へ昇格したため本集合から削除。
+    # 措通 は FU-536 保留ゆえ UNREG 据置 (措置法本文系のみの部分昇格)。
+    "措通",  # 措通 (措置法通達・FU-536 保留)
     "通法",  # 通法 (国税通則法)
     "通令",  # 通令 (国税通則法施行令)
     "民法",  # 民法
@@ -283,6 +297,17 @@ def _normalize_fullwidth_digits(s: str) -> str:
     return s.translate(_FULLWIDTH_DIGITS)
 
 
+def _starts_with_digit(s: str) -> bool:
+    """Return True if the first non-space char is an ASCII or fullwidth (０-９) digit.
+
+    Why (FU-537 D 継承ガード): 措法系 prefix を継承する裸トークンのうち、真正な条番号は
+    必ず数字で始まる (例 70の3)。非数字開始 (首都圏整備法/道路運送車両法施行規則 等) は
+    別法令名が prefix 継承で紛れ込んだもの。数字開始か否かで両者を分離する。
+    """
+    s = s.strip()
+    return bool(s) and unicodedata.normalize("NFKC", s[0]).isdigit()
+
+
 def _build_article_id(id_prefix: str, raw_num: str) -> str:
     """Build article_id from prefix and raw number like '54の2' -> '...art-54-2'."""
     # Normalize の -> - in article number
@@ -397,6 +422,37 @@ def _load_tsutatsu_corpus() -> dict[str, set[str]]:
                         pass
     _TSUTATSU_CORPUS = corpus
     return corpus
+
+
+# 措法系 corpus (FU-535・data/v0.2/phase1-tax) の article_id 集合。FU-537 C ガードの安全網。
+_SOCHI_CORPUS_IDS: set[str] | None = None
+
+
+def _load_sochi_corpus_ids() -> set[str]:
+    """措法系 corpus (FU-535) の全 article_id を集合で返す (FU-537 C ガード).
+
+    Why: prefix 昇格で 措法系参照が linked 化するが、現行 corpus に存在しない下位条
+    (例 措法10の4の2) や継承残りは dangling link (存在しない条への参照) を生む。生成した
+    article_id を本集合で照合し、不在なら unlink (corpus_gap) する最終安全網。措法系 3 prefix
+    のみに gate するため所法等の他 prefix には影響しない (非 cross-cutting)。data/v0.2 は
+    build/chunks と異なり gitignore 対象外ゆえ CI でも実在 (常に照合できる)。
+    """
+    global _SOCHI_CORPUS_IDS
+    if _SOCHI_CORPUS_IDS is not None:
+        return _SOCHI_CORPUS_IDS
+    ids: set[str] = set()
+    data_root = Path(__file__).resolve().parents[2] / "data" / "v0.2" / "phase1-tax"
+    for law in ("sochi-hou", "sochi-hou-shikkourei", "sochi-hou-shikoukisoku"):
+        law_dir = data_root / law
+        if not law_dir.exists():
+            continue
+        for md in law_dir.glob("*.md"):
+            for line in md.read_text(encoding="utf-8").splitlines():
+                if line.startswith("article_id:"):
+                    ids.add(line.split(":", 1)[1].strip())
+                    break
+    _SOCHI_CORPUS_IDS = ids
+    return ids
 
 
 def extract_related_from_kikon(raw_kikon: str) -> dict:
@@ -527,6 +583,16 @@ def extract_related_from_kikon(raw_kikon: str) -> dict:
                 unlinked.append({"raw": token, "reason": "nta_kokuji"})
                 continue
 
+            # FU-537 D 継承ガード: 措法系 prefix を継承する裸トークンが非数字開始
+            # (= 別法令名。例 首都圏整備法/道路運送車両法施行規則) なら継承させず unlink する。
+            # 告示ガード (上) と同一意味論 (current_prefix は保持) で、措法系のみに限定する。
+            # Why: 昇格前は 措法系が UNREG ゆえ corpus_unregistered_continuation として安全に
+            # unlinked だったが、昇格で継承経路が article link へ落ちるため別法令名が措置法条へ
+            # 化ける。数字開始でない継承トークンは真正な条番号でないので unlink する。
+            if current_law_abbrev in _SOCHI_ABBREVS and not _starts_with_digit(token):
+                unlinked.append({"raw": token, "reason": "inherited_cross_law"})
+                continue
+
             # Inherit current prefix
             _process_remainder(
                 token,
@@ -576,11 +642,27 @@ def _process_remainder(
         )
     else:
         # Article reference
+        # FU-537 A/B ガード (措法系のみ): レンジ (~) と 等 は単一条でないため展開せず unlink。
+        # 佐藤裁定 Q2=A (レンジは展開しない)。malformed な article_id を related_articles に
+        # 入れない (例 34~34の3・65の7等)。措法系のみに gate = 非 cross-cutting。
+        if law_abbrev in _SOCHI_ABBREVS:
+            if "~" in remainder or "～" in remainder or "〜" in remainder:
+                unlinked.append({"raw": raw_token, "reason": "malformed_range"})
+                return
+            if "等" in remainder:
+                unlinked.append({"raw": raw_token, "reason": "malformed_etc"})
+                return
         # Strip trailing 丸数字 (①②...) from remainder
         remainder = re.sub(
             r"[\u2460-\u2473\u24ff\u3251-\u3257\u3280-\u32b0]", "", remainder
         ).strip()
         article_id = _build_article_id(id_prefix, remainder)
+        # FU-537 C ガード (措法系のみ・最終安全網): 生成した措法系 article_id が FU-535 corpus
+        # に存在しなければ unlink (corpus_gap)。存在しない下位条 (措法10の4の2 等) や D/A/B の
+        # 取りこぼしを dangling link にせず記録する。措法系 3 prefix のみに gate = 非 cross-cutting。
+        if law_abbrev in _SOCHI_ABBREVS and article_id not in _load_sochi_corpus_ids():
+            unlinked.append({"raw": raw_token, "reason": "corpus_gap"})
+            return
         related_articles.append(
             {
                 "raw": raw_token,

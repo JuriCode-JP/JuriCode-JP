@@ -63,10 +63,12 @@ _HOJIN_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "hojin"
 # Cowork 独立カウント (baseline に眠る明示 所-prefix unlinked = 10ref/9chunk) と一致。
 EXPECTED_TOTAL = 111  # dedup 後のユニーク code 数 (母集団 115 - soft-404 4)
 EXPECTED_BRANCHED = frozenset({"5364-2", "5400-2", "5409-2", "5927-2", "5927-3"})  # 枝番 5 件
-EXPECTED_ARTICLES = 233  # related_articles 総数 (FU-529: 221->233, 所法系昇格)
+EXPECTED_ARTICLES = 411  # related_articles 総数 (FU-537: 233->411, 措法系昇格+ガード後・佐藤ロック)
 EXPECTED_DIRECTIVES = 34  # related_directives 総数 (FU-529: 28->34, 所基通76-4 昇格)
 EXPECTED_QA = 132  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 381  # unlinked_refs 総数 (FU-529: 399->381, 所法系 unlinked->linked 昇格)
+EXPECTED_UNLINKED = (
+    203  # unlinked_refs 総数 (FU-537: 381->203, 措法系 unlinked->linked 昇格・佐藤ロック)
+)
 EXPECTED_IMAGES = 22  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 8  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -214,6 +216,10 @@ def test_named_laws_not_false_linked() -> None:
         "houjin-zei-hou-shikoukisoku",
         "shotoku-zei-hou",
         "shotoku-zei-hou-shikkourei",
+        # FU-537: 措法系昇格で法人税タックスアンサーの特例参照が sochi-* へ正当に link。
+        "sochi-hou",
+        "sochi-hou-shikkourei",
+        "sochi-hou-shikoukisoku",
     }
     bad = [
         (r["code"], a["law_abbrev"], a["article_id"])

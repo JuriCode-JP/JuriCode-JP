@@ -55,10 +55,14 @@ EXPECTED_TOTAL = 212  # dedup 後のユニーク code 数 (母集団 212 - soft-
 EXPECTED_BRANCHED: frozenset[str] = frozenset(
     {"1211-1", "1211-2", "1211-3", "1211-4", "1211-5", "1525-2"}
 )  # 枝番コード 6 件 (母集団実測)
-EXPECTED_ARTICLES = 722  # related_articles 総数
+EXPECTED_ARTICLES = (
+    1166  # related_articles 総数 (FU-537: 722->1166, 措法系昇格+ガード後・佐藤ロック)
+)
 EXPECTED_DIRECTIVES = 124  # related_directives 総数
 EXPECTED_QA = 637  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 935  # unlinked_refs 総数
+EXPECTED_UNLINKED = (
+    491  # unlinked_refs 総数 (FU-537: 935->491, 措法系 unlinked->linked 昇格・佐藤ロック)
+)
 EXPECTED_IMAGES = 58  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 35  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -75,6 +79,10 @@ EXPECTED_ARTICLE_ABBREVS = {
     "shouhi-zei-hou": 7,
     "shouhi-zei-hou-shikkourei": 1,
     "shouhi-zei-hou-shikoukisoku": 4,
+    # FU-537: 措法系昇格 (所得税タックスアンサーの特例参照が sochi-* へ link・最大ボリューム)。
+    "sochi-hou": 282,
+    "sochi-hou-shikkourei": 97,
+    "sochi-hou-shikoukisoku": 65,
 }
 EXPECTED_DIRECTIVE_ABBREVS = {
     "shotoku-kihon-tsutatsu": 123,
@@ -237,9 +245,7 @@ def test_no_foreign_law_tokens_in_links() -> None:
     現れない = 継承偽リンクが構造的にゼロである証跡。
     """
     foreign = (
-        "措法",
-        "措令",
-        "措規",
+        # FU-537: 措法/措令/措規 は昇格し related_articles に正当に現れるため foreign から除外。
         "通法",
         "通令",
         "震災特例法",
