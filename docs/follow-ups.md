@@ -535,15 +535,13 @@ except ValidationError as e:
 
 ## P2 — Phase 1 中期 (2026-07〜09)
 
-### [ ] FU-538: 措通 prefix の taxanswer リンク化 (2026-07-03 追加・FU-536 後段)
+### [x] FU-538: 措通 prefix の taxanswer リンク化（完全版）— ✅ 完了 2026-07-03 (PR #91, main a0035f58)
 
-**経緯**: FU-536 で 措通 (法人税編) corpus (933 directive) が設置された。現状 taxanswer の「措通第N-M」参照は `_TSUTATSU_PREFIXES` に 措通 prefix が無いため UNREG (unlinked) のまま (FU-537 時点で措通 unlinked 83 据置)。措通 corpus が実在する今、これらを `sochi-hojin-tsutatsu` へ link 化できる。
+**成果**: 措通→`sochi-hojin-tsutatsu` 昇格（`LAW_PREFIX_MAP`＋`_TSUTATSU_PREFIXES`＋`CORPUS_UNREGISTERED_PREFIXES` から削除）＋**解決側 `parse-nta-taxanswer.py` に款(N)→-N 正規化を追加し `law_abbrev==sochi-hojin-tsutatsu` に gate**（法基通/所基通等は款括弧形を使わない＝非 cross-cutting・probe P2=0 で実証）。**hojin 20 link**（`EXPECTED_DIRECTIVES` 34→54・明示6＋継承（措通カンマ連続参照）3＋レンジ展開11＝法基通と同一記録方式・全て 933 corpus 実在）。**4 fixture（hojin/joto/shotoku/sozoku）を clean run 実測で再ロック**・gensen/inshi/shohi byte 不変・**誤リンク 0**（P3=0・編 disjoint）・CI 全9 green（pytest 742）。
 
-**やること**: `_TSUTATSU_PREFIXES` (または相当の ref_map) に 措通→`sochi-hojin-tsutatsu` を追加し、taxanswer baseline (hojin 他) の 措通参照を link 化して per-baseline 再ロック。FU-529/537 の prefix 昇格・ガードを precedent とし、dangling 0/over-guard 0 を実証。
+**設計教訓**: 款畳み込み正規化は corpus 構築側（`parse-nta-tsutatsu.py`）と参照解決側（`parse-nta-taxanswer.py`）の**両方に別実装で必要**（v1 計画はこれを解決側にも在ると誤認し +7 予測→config-only 実測 +3・完全版 +20）。他税目編（所得税/譲渡/相続編）の措通 corpus は未設置ゆえ当該編 措通参照（joto/shotoku/sozoku）は unlink 維持＝各編措通取込は将来 FU。
 
-**注意**: 措通は法人税編のみ設置済。他税目編 (所得税編等) の措通は未取込ゆえ、当該編への参照は corpus_gap ガードで unlink 維持 (FU-537 C ガード同型)。
-
-**関連**: FU-536 (措通 corpus) / FU-537 (措法系昇格) / FU-529 (所法昇格 precedent)。**要独立計画書＋佐藤 GO** (baseline 再ロックを伴うため)。
+**関連**: FU-536 (措通 corpus) / FU-537 (措法系昇格) / FU-529 (所法昇格 precedent)。
 
 ---
 
@@ -1884,4 +1882,4 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
-*Last updated: 2026-07-03 (2) — FU-536 完了マーク (租税特別措置法通達 法人税編 取込・新 num_style `kan_paren`: PR #89, main `9ff1274c`・933 directive/refs 1185 全 link/0 unlinked/既存5通達 byte 不変/CI green/pytest 738)。**順序5 (租税特別措置法) 完全クローズ = FU-535 措法本文 DONE (PR #86) / FU-536 措通 DONE (PR #89) / FU-537 昇格 DONE (PR #87)** = 3本全 DONE。FU-538 起票 (措通 prefix の taxanswer リンク化・P2)。前回同日: FU-537 完了マーク (措置法系 prefix 昇格＋parser ガード3種＋7 baseline 再ロック: PR #87, main `12192e7e`・dangling 0/over-guard 0/CI green/pytest 729)。前回: 2026-06-25 — FU-522 起票 (隣接 directive 本文の重複混入 corruption 検知ゲート・P2: FU-521 #52 が掘当てた消費税 8-1-5の2 の latent 破損が directive_id ユニーク/byte 安定/CI のどれでも検知されなかった事故型への二次防御)。同日: FU-521 完了マーク (法人税基本通達 全体化: parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main `3f2133be`: 9-2 節 35 chunk → 全25章 1,382 DirectiveChunk。章/節枝番・平文番号・直法マーカー・別表/入れ子修正 = EDGE-008..012)。前回: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+*Last updated: 2026-07-03 (3) — FU-538 完了マーク (措通 prefix の taxanswer リンク化・完全版: PR #91, main `a0035f58`・hojin 20 link/EXPECTED_DIRECTIVES 34→54/4 fixture 実測再ロック/誤リンク 0/CI green/pytest 742)。措通→sochi-hojin-tsutatsu 昇格＋解決側に款(N)→-N 正規化(sochi 限定 gate)。前回同日(2): FU-536 完了マーク (租税特別措置法通達 法人税編 取込・新 num_style `kan_paren`: PR #89, main `9ff1274c`・933 directive/refs 1185 全 link/0 unlinked/既存5通達 byte 不変/CI green/pytest 738)。**順序5 (租税特別措置法) 完全クローズ = FU-535 措法本文 DONE (PR #86) / FU-536 措通 DONE (PR #89) / FU-537 昇格 DONE (PR #87)** = 3本全 DONE。FU-538 起票 (措通 prefix の taxanswer リンク化・P2)。前回同日: FU-537 完了マーク (措置法系 prefix 昇格＋parser ガード3種＋7 baseline 再ロック: PR #87, main `12192e7e`・dangling 0/over-guard 0/CI green/pytest 729)。前回: 2026-06-25 — FU-522 起票 (隣接 directive 本文の重複混入 corruption 検知ゲート・P2: FU-521 #52 が掘当てた消費税 8-1-5の2 の latent 破損が directive_id ユニーク/byte 安定/CI のどれでも検知されなかった事故型への二次防御)。同日: FU-521 完了マーク (法人税基本通達 全体化: parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main `3f2133be`: 9-2 節 35 chunk → 全25章 1,382 DirectiveChunk。章/節枝番・平文番号・直法マーカー・別表/入れ子修正 = EDGE-008..012)。前回: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
