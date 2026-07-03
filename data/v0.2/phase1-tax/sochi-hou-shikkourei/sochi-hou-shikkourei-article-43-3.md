@@ -1,0 +1,178 @@
+---
+law_id: 332CO0000000043
+law_name_ja: 租税特別措置法施行令
+law_name_en: (English name pending)
+article_number: 43-3
+article_id: sochi-hou-shikkourei-art-43-3
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p1-hashira
+    type: hashira
+    text: 法第八十三条の三第一項に規定する契約のうち政令で定めるものは、不動産特定共同事業法第二条第三項第一号又は第二号に掲げる契約（以下この条において「事業契約」という。）の内容として次に掲げる事項の全てが定められているものとする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p2-hashira
+    type: hashira
+    text: 法第八十三条の三第一項第一号及び第二号に規定する建替えが必要な建築物として政令で定めるもの並びに同項第三号に規定する特定増築等をすることが必要な建築物として政令で定めるものは、次に掲げる建築物とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p3-hashira
+    type: hashira
+    text: 法第八十三条の三第一項第一号に規定する都市機能の向上に資する建築物として政令で定める建築物は、次に掲げる要件の全てを満たす耐火建築物（建築基準法第二条第九号の二に規定する耐火建築物をいう。）又は準耐火建築物（建築基準法第二条第九号の三に規定する準耐火建築物をいう。）であつて、建築基準法施行令第三章及び第五章の四の規定又は国土交通大臣が財務大臣と協議して定める地震に対する安全性に係る基準に適合するものとする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p4-hashira
+    type: hashira
+    text: 法第八十三条の三第一項第三号に規定する特定増築等は、同号の建築物につき行う増築、修繕又は模様替の工事（当該工事と併せて行う当該建築物と一体となつて効用を果たす設備の取替え又は取付けに係る工事を含む。）であつて、当該工事に要した費用の額（当該工事の費用に関し補助金等（国又は地方公共団体から交付される補助金又は給付金その他これらに準ずるものをいう。以下この項及び第九項において同じ。）の交付を受ける場合には、当該工事に要した費用の額から当該補助金等の額を控除した残額）が次に掲げる金額のうちいずれか多い金額を超えるものをいう。
+    modality: teigi
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p5
+    type: simple
+    text: 法第八十三条の三第一項第一号又は第四号に規定する土地で政令で定めるものは、同項第一号に規定する特定建築物の敷地の用に供することとされている土地にあつては、当該特定建築物の敷地の用に供されることが確実であると認められることにつき財務省令で定めるところにより国土交通大臣が証明したものであり、かつ、その面積（当該特定建築物に係る事業契約に基づき取得することとされている他の土地（土地の上に存する権利を含む。）と併せて一団の土地に該当することとなる場合には、これらの土地の面積の合計）が三百平方メートル以上であるものとし、同項第四号に規定する建築物の敷地の用に供されている土地にあつては、その面積（一棟の建物のうちの一部を同項に規定する不動産特定共同事業契約に係る不動産取引の目的とする場合には、当該土地の面積に当該一棟の建物の床面積の合計の面積のうちに当該不動産特定共同事業契約に係る不動産取引の目的となる部分の床面積の合計の面積の占める割合を乗じて計算した面積）が三百平方メートル以上であるものとする。
+    modality: gimu
+    references:
+    - 同項
+- number: 6
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p6-hashira
+    type: hashira
+    text: 法第八十三条の三第三項に規定する契約のうち政令で定めるものは、事業契約の内容として次に掲げる事項の全てが定められているものとする。
+    modality: gimu
+- number: 7
+  has_proviso: true
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p7-honbun
+    type: honbun
+    text: 法第八十三条の三第三項第一号に規定する政令で定める用途は、住宅、事務所、店舗、旅館、ホテル、料理店、駐車場、学校、病院、介護施設、保育所、図書館、博物館、会館、公会堂、劇場、映画館、遊技場又は倉庫とする。
+    modality: gimu
+  - id: sochi-hou-shikkourei-art-43-3-p7-tadashi
+    type: tadashi
+    text: ただし、風俗営業等の規制及び業務の適正化等に関する法律第二条第六項に規定する店舗型性風俗特殊営業及び同条第九項に規定する店舗型電話異性紹介営業の用を除くものとする。
+    modality: gimu
+- number: 8
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p8
+    type: simple
+    text: 法第八十三条の三第三項第一号に規定する建替えが必要な建築物として政令で定めるもの及び同項第二号に規定する特例増築等をすることが必要な建築物として政令で定めるものは、建築後使用されたことのある建築物とする。
+    modality: gimu
+    references:
+    - 同項
+- number: 9
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p9
+    type: simple
+    text: 法第八十三条の三第三項第二号に規定する特例増築等は、同号に掲げる建築物につき行う増築、修繕又は模様替の工事（当該工事と併せて行う当該建築物と一体となつて効用を果たす設備の取替え又は取付けに係る工事を含む。）であつて、当該工事に要した費用の額（当該工事の費用に関し補助金等の交付を受ける場合には、当該工事に要した費用の額から当該補助金等の額を控除した残額）が三百万円以上であるものとする。
+    modality: gimu
+- number: 10
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-43-3-p10
+    type: simple
+    text: 国土交通大臣は、第一項第四号の規定により事業契約に関する事項を定め、第三項の規定により基準を定め、又は第六項第四号の規定により事業契約に関する事項を定めたときは、これを告示する。
+    modality: unspecified
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 4
+  shou_name_ja: 第四章　登録免許税法の特例
+---
+
+# 租税特別措置法施行令 第43-3条(（登記の税率の軽減を受ける不動産特定共同事業契約の範囲等）)
+
+## 原文 (日本語)
+
+### 第四十三条の三第一項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-43-3-p1-hashira -->
+法第八十三条の三第一項に規定する契約のうち政令で定めるものは、不動産特定共同事業法第二条第三項第一号又は第二号に掲げる契約（以下この条において「事業契約」という。）の内容として次に掲げる事項の全てが定められているものとする。
+
+### 第四十三条の三第二項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-43-3-p2-hashira -->
+法第八十三条の三第一項第一号及び第二号に規定する建替えが必要な建築物として政令で定めるもの並びに同項第三号に規定する特定増築等をすることが必要な建築物として政令で定めるものは、次に掲げる建築物とする。
+
+### 第四十三条の三第三項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-43-3-p3-hashira -->
+法第八十三条の三第一項第一号に規定する都市機能の向上に資する建築物として政令で定める建築物は、次に掲げる要件の全てを満たす耐火建築物（建築基準法第二条第九号の二に規定する耐火建築物をいう。）又は準耐火建築物（建築基準法第二条第九号の三に規定する準耐火建築物をいう。）であつて、建築基準法施行令第三章及び第五章の四の規定又は国土交通大臣が財務大臣と協議して定める地震に対する安全性に係る基準に適合するものとする。
+
+### 第四十三条の三第四項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-43-3-p4-hashira -->
+法第八十三条の三第一項第三号に規定する特定増築等は、同号の建築物につき行う増築、修繕又は模様替の工事（当該工事と併せて行う当該建築物と一体となつて効用を果たす設備の取替え又は取付けに係る工事を含む。）であつて、当該工事に要した費用の額（当該工事の費用に関し補助金等（国又は地方公共団体から交付される補助金又は給付金その他これらに準ずるものをいう。以下この項及び第九項において同じ。）の交付を受ける場合には、当該工事に要した費用の額から当該補助金等の額を控除した残額）が次に掲げる金額のうちいずれか多い金額を超えるものをいう。
+
+### 第四十三条の三第五項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-43-3-p5 -->
+法第八十三条の三第一項第一号又は第四号に規定する土地で政令で定めるものは、同項第一号に規定する特定建築物の敷地の用に供することとされている土地にあつては、当該特定建築物の敷地の用に供されることが確実であると認められることにつき財務省令で定めるところにより国土交通大臣が証明したものであり、かつ、その面積（当該特定建築物に係る事業契約に基づき取得することとされている他の土地（土地の上に存する権利を含む。）と併せて一団の土地に該当することとなる場合には、これらの土地の面積の合計）が三百平方メートル以上であるものとし、同項第四号に規定する建築物の敷地の用に供されている土地にあつては、その面積（一棟の建物のうちの一部を同項に規定する不動産特定共同事業契約に係る不動産取引の目的とする場合には、当該土地の面積に当該一棟の建物の床面積の合計の面積のうちに当該不動産特定共同事業契約に係る不動産取引の目的となる部分の床面積の合計の面積の占める割合を乗じて計算した面積）が三百平方メートル以上であるものとする。
+
+### 第四十三条の三第六項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-43-3-p6-hashira -->
+法第八十三条の三第三項に規定する契約のうち政令で定めるものは、事業契約の内容として次に掲げる事項の全てが定められているものとする。
+
+### 第四十三条の三第七項
+
+<!-- segment: honbun id: sochi-hou-shikkourei-art-43-3-p7-honbun -->
+法第八十三条の三第三項第一号に規定する政令で定める用途は、住宅、事務所、店舗、旅館、ホテル、料理店、駐車場、学校、病院、介護施設、保育所、図書館、博物館、会館、公会堂、劇場、映画館、遊技場又は倉庫とする。<!-- segment: tadashi id: sochi-hou-shikkourei-art-43-3-p7-tadashi -->
+ただし、風俗営業等の規制及び業務の適正化等に関する法律第二条第六項に規定する店舗型性風俗特殊営業及び同条第九項に規定する店舗型電話異性紹介営業の用を除くものとする。
+
+### 第四十三条の三第八項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-43-3-p8 -->
+法第八十三条の三第三項第一号に規定する建替えが必要な建築物として政令で定めるもの及び同項第二号に規定する特例増築等をすることが必要な建築物として政令で定めるものは、建築後使用されたことのある建築物とする。
+
+### 第四十三条の三第九項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-43-3-p9 -->
+法第八十三条の三第三項第二号に規定する特例増築等は、同号に掲げる建築物につき行う増築、修繕又は模様替の工事（当該工事と併せて行う当該建築物と一体となつて効用を果たす設備の取替え又は取付けに係る工事を含む。）であつて、当該工事に要した費用の額（当該工事の費用に関し補助金等の交付を受ける場合には、当該工事に要した費用の額から当該補助金等の額を控除した残額）が三百万円以上であるものとする。
+
+### 第四十三条の三第十項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-43-3-p10 -->
+国土交通大臣は、第一項第四号の規定により事業契約に関する事項を定め、第三項の規定により基準を定め、又は第六項第四号の規定により事業契約に関する事項を定めたときは、これを告示する。

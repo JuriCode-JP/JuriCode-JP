@@ -1,0 +1,88 @@
+---
+law_id: 332CO0000000043
+law_name_ja: 租税特別措置法施行令
+law_name_en: (English name pending)
+article_number: 2-11
+article_id: sochi-hou-shikkourei-art-2-11
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-2-11-p1
+    type: simple
+    text: 法第四条の二第一項第三号に規定する額面金額に準ずる金額として政令で定めるものは、証券投資信託について、その設定又は追加設定があつた時において当該信託につき信託又は追加信託がされた金額をその時における当該信託又は追加信託についての受益権の口数で除して得た額を基礎として計算した金額とする。
+    modality: gimu
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-2-11-p2-hashira
+    type: hashira
+    text: 法第四条の二第一項第四号に規定する満期返戻金等として政令で定める一時金は、次に掲げるものとする。
+    modality: gimu
+- number: 3
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-2-11-p3
+    type: simple
+    text: 第二条の七第一項の規定による記載がされた財産形成非課税住宅貯蓄申込書に係る同項に規定する特定財産形成住宅貯蓄契約に基づいて預入等がされた財産形成住宅貯蓄については、当該申込書の提出があつた日以後においては、当該申込書を提出した者が引き続き当該申込書に記載された財産形成住宅貯蓄の同項に規定する現在高に係る限度額（同条第二項の規定による記載をした財産形成非課税住宅貯蓄申込書の提出があつた場合には、その提出があつた日以後においては、変更後の限度額）に相当する金額の当該申込書に係る財産形成住宅貯蓄を有しているものとみなして、法第四条の二第一項各号に規定する元本の合計額、額面金額等の合計額又は生命保険若しくは損害保険の払込保険料の金額若しくは生命共済の払込共済掛金の額の合計額（次項において「元本等の合計額」という。）を計算するものとする。
+    modality: gimu
+    references:
+    - 次項
+    - 同項
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-2-11-p4
+    type: simple
+    text: 個人が財産形成非課税住宅貯蓄申込書を提出して預入等をした財産形成住宅貯蓄の元本等の合計額が、その財産形成住宅貯蓄に係る利子若しくは収益の分配の計算期間又は生命保険若しくは損害保険の保険期間若しくは生命共済の共済期間を通じて法第四条の二第一項各号に規定する最高限度額を超えないかどうかは、その計算期間又は保険期間若しくは共済期間中のいずれの日においてもその財産形成住宅貯蓄の最終の第二条の七第一項に規定する現在高の合計額が当該最高限度額を超えていないかどうかにより、判定するものとする。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 2
+  shou_name_ja: 第二章　所得税法の特例
+  setsu: 1
+  setsu_name_ja: 第一節　利子所得及び配当所得の特例
+---
+
+# 租税特別措置法施行令 第2-11条(（財産形成住宅貯蓄に係る非課税限度額の計算等）)
+
+## 原文 (日本語)
+
+### 第二条の十一第一項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-2-11-p1 -->
+法第四条の二第一項第三号に規定する額面金額に準ずる金額として政令で定めるものは、証券投資信託について、その設定又は追加設定があつた時において当該信託につき信託又は追加信託がされた金額をその時における当該信託又は追加信託についての受益権の口数で除して得た額を基礎として計算した金額とする。
+
+### 第二条の十一第二項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-2-11-p2-hashira -->
+法第四条の二第一項第四号に規定する満期返戻金等として政令で定める一時金は、次に掲げるものとする。
+
+### 第二条の十一第三項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-2-11-p3 -->
+第二条の七第一項の規定による記載がされた財産形成非課税住宅貯蓄申込書に係る同項に規定する特定財産形成住宅貯蓄契約に基づいて預入等がされた財産形成住宅貯蓄については、当該申込書の提出があつた日以後においては、当該申込書を提出した者が引き続き当該申込書に記載された財産形成住宅貯蓄の同項に規定する現在高に係る限度額（同条第二項の規定による記載をした財産形成非課税住宅貯蓄申込書の提出があつた場合には、その提出があつた日以後においては、変更後の限度額）に相当する金額の当該申込書に係る財産形成住宅貯蓄を有しているものとみなして、法第四条の二第一項各号に規定する元本の合計額、額面金額等の合計額又は生命保険若しくは損害保険の払込保険料の金額若しくは生命共済の払込共済掛金の額の合計額（次項において「元本等の合計額」という。）を計算するものとする。
+
+### 第二条の十一第四項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-2-11-p4 -->
+個人が財産形成非課税住宅貯蓄申込書を提出して預入等をした財産形成住宅貯蓄の元本等の合計額が、その財産形成住宅貯蓄に係る利子若しくは収益の分配の計算期間又は生命保険若しくは損害保険の保険期間若しくは生命共済の共済期間を通じて法第四条の二第一項各号に規定する最高限度額を超えないかどうかは、その計算期間又は保険期間若しくは共済期間中のいずれの日においてもその財産形成住宅貯蓄の最終の第二条の七第一項に規定する現在高の合計額が当該最高限度額を超えていないかどうかにより、判定するものとする。

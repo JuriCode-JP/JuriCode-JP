@@ -1,0 +1,105 @@
+---
+law_id: 332CO0000000043
+law_name_ja: 租税特別措置法施行令
+law_name_en: (English name pending)
+article_number: 52-2
+article_id: sochi-hou-shikkourei-art-52-2
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-52-2-p1
+    type: simple
+    text: 法第九十一条の三第一項に規定する政令で定めるものは、都道府県から高等学校等（同項に規定する高等学校等をいう。）の生徒に対して無利息で行う学資としての資金の貸付けに係る事業の費用に充てるための資金の提供（当該資金の提供に当たり当該資金の貸付けの条件を当該都道府県が定めるもの（これに類する資金の提供として財務省令で定めるものを含む。）に限る。）を受けている法人として文部科学大臣が財務大臣と協議して指定したものとする。
+    modality: gimu
+    references:
+    - 同項
+- number: 2
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-52-2-p2
+    type: simple
+    text: 法第九十一条の三第二項に規定する政令で定める生徒又は学生は、独立行政法人日本学生支援機構法（平成十五年法律第九十四号）第十四条第三項の認定を受ける者と同程度の経済的理由により修学に困難があるもの（次項第一号において「生徒等」という。）とする。
+    modality: gimu
+    references:
+    - 次項
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-52-2-p3-hashira
+    type: hashira
+    text: 法第九十一条の三第二項に規定する政令で定める資金の貸付けは、次の各号のいずれにも該当するものであることにつき文部科学大臣の確認を受けたものとする。
+    modality: gimu
+- number: 4
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-52-2-p4
+    type: simple
+    text: 文部科学大臣は、前項の確認をする場合には、当該確認に三年以内の期限を付して、その確認を受ける者に書面で通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-52-2-p5
+    type: simple
+    text: 第三項の確認を受けた者は、当該確認に付された期限の翌日から七年間、前項の書面をその主たる事務所の所在地に保存しなければならない。
+    modality: gimu
+    references:
+    - 前項
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　消費税法等の特例
+---
+
+# 租税特別措置法施行令 第52-2条(（都道府県が行う高等学校の生徒に対する学資としての資金の貸付けに係る消費貸借契約書等の印紙税の非課税）)
+
+## 原文 (日本語)
+
+### 第五十二条の二第一項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-52-2-p1 -->
+法第九十一条の三第一項に規定する政令で定めるものは、都道府県から高等学校等（同項に規定する高等学校等をいう。）の生徒に対して無利息で行う学資としての資金の貸付けに係る事業の費用に充てるための資金の提供（当該資金の提供に当たり当該資金の貸付けの条件を当該都道府県が定めるもの（これに類する資金の提供として財務省令で定めるものを含む。）に限る。）を受けている法人として文部科学大臣が財務大臣と協議して指定したものとする。
+
+### 第五十二条の二第二項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-52-2-p2 -->
+法第九十一条の三第二項に規定する政令で定める生徒又は学生は、独立行政法人日本学生支援機構法（平成十五年法律第九十四号）第十四条第三項の認定を受ける者と同程度の経済的理由により修学に困難があるもの（次項第一号において「生徒等」という。）とする。
+
+### 第五十二条の二第三項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-52-2-p3-hashira -->
+法第九十一条の三第二項に規定する政令で定める資金の貸付けは、次の各号のいずれにも該当するものであることにつき文部科学大臣の確認を受けたものとする。
+
+### 第五十二条の二第四項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-52-2-p4 -->
+文部科学大臣は、前項の確認をする場合には、当該確認に三年以内の期限を付して、その確認を受ける者に書面で通知しなければならない。
+
+### 第五十二条の二第五項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-52-2-p5 -->
+第三項の確認を受けた者は、当該確認に付された期限の翌日から七年間、前項の書面をその主たる事務所の所在地に保存しなければならない。

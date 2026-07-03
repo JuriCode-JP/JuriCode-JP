@@ -1,0 +1,106 @@
+---
+law_id: 332CO0000000043
+law_name_ja: 租税特別措置法施行令
+law_name_en: (English name pending)
+article_number: 46-16
+article_id: sochi-hou-shikkourei-art-46-16
+version_date: '1957-03-31'
+source_url: https://laws.e-gov.go.jp/law/332CO0000000043
+source_format: e-gov-xml
+last_verified: '2026-07-03'
+license: MIT
+translation_status: none
+machine_translated: false
+paragraphs:
+- number: 1
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-46-16-p1-hashira
+    type: hashira
+    text: バイオエタノールをバイオエタノール等揮発油の製造者に譲渡する者又は証明済バイオエタノール等（法第八十八条の七第一項第二号に掲げる物品に係るものに限る。）の製造者、輸入者若しくは販売業者（次項において「バイオエタノールの譲渡者等」という。）は、次に掲げる事項を帳簿に記載しなければならない。ただし、これらの事項の全部又は一部がアルコール事業法（平成十二年法律第三十六号）第九条第一項（同法第二十条第一項及び第二十五条において準用する場合を含む。）の帳簿に記載されている場合は、当該全部又は一部の事項の帳簿への記載を省略することができる。
+    modality: kanou_kenri
+    references:
+    - 次項
+- number: 2
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-46-16-p2
+    type: junyou
+    text: バイオエタノールの譲渡者等が次に掲げる者である場合には、前項各号に掲げる事項のほか、次の各号に掲げる者の区分に応じ、当該各号に定める事項を帳簿に記載しなければならない。この場合において、同項ただし書の規定は、当該各号に定める事項について準用する。
+    modality: unspecified
+    references:
+    - 前項
+    - 同項
+- number: 3
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-46-16-p3-hashira
+    type: hashira
+    text: 証明済バイオエタノール等（法第八十八条の七第一項第三号に掲げる物品に係るものに限る。）の製造者、輸入者又は販売業者（次項において「証明済バイオエタノール等の製造者等」という。）は、次に掲げる事項を帳簿に記載しなければならない。
+    modality: gimu
+    references:
+    - 次項
+- number: 4
+  has_proviso: false
+  has_items: true
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-46-16-p4-hashira
+    type: hashira
+    text: 証明済バイオエタノール等の製造者等が次に掲げる者である場合には、前項各号に掲げる事項のほか、次の各号に掲げる者の区分に応じ、当該各号に定める事項を帳簿に記載しなければならない。
+    modality: gimu
+    references:
+    - 前項
+- number: 5
+  has_proviso: false
+  has_items: false
+  is_added_by_amendment: false
+  segments:
+  - id: sochi-hou-shikkourei-art-46-16-p5
+    type: simple
+    text: 前各項の場合において、当該バイオエタノール、当該カーボンリサイクルエタノール又は当該エチル―ターシャリ―ブチルエーテルが証明済バイオエタノール等であるときは、証明事項を付記しなければならない。
+    modality: gimu
+cases: []
+amendments: []
+tags:
+- phase1-tax
+- auto-generated
+parent_section:
+  shou: 5
+  shou_name_ja: 第五章　消費税法等の特例
+---
+
+# 租税特別措置法施行令 第46-16条(（バイオエタノールに係る記帳義務等）)
+
+## 原文 (日本語)
+
+### 第四十六条の十六第一項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-46-16-p1-hashira -->
+バイオエタノールをバイオエタノール等揮発油の製造者に譲渡する者又は証明済バイオエタノール等（法第八十八条の七第一項第二号に掲げる物品に係るものに限る。）の製造者、輸入者若しくは販売業者（次項において「バイオエタノールの譲渡者等」という。）は、次に掲げる事項を帳簿に記載しなければならない。ただし、これらの事項の全部又は一部がアルコール事業法（平成十二年法律第三十六号）第九条第一項（同法第二十条第一項及び第二十五条において準用する場合を含む。）の帳簿に記載されている場合は、当該全部又は一部の事項の帳簿への記載を省略することができる。
+
+### 第四十六条の十六第二項
+
+<!-- segment: junyou id: sochi-hou-shikkourei-art-46-16-p2 -->
+バイオエタノールの譲渡者等が次に掲げる者である場合には、前項各号に掲げる事項のほか、次の各号に掲げる者の区分に応じ、当該各号に定める事項を帳簿に記載しなければならない。この場合において、同項ただし書の規定は、当該各号に定める事項について準用する。
+
+### 第四十六条の十六第三項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-46-16-p3-hashira -->
+証明済バイオエタノール等（法第八十八条の七第一項第三号に掲げる物品に係るものに限る。）の製造者、輸入者又は販売業者（次項において「証明済バイオエタノール等の製造者等」という。）は、次に掲げる事項を帳簿に記載しなければならない。
+
+### 第四十六条の十六第四項
+
+<!-- segment: hashira id: sochi-hou-shikkourei-art-46-16-p4-hashira -->
+証明済バイオエタノール等の製造者等が次に掲げる者である場合には、前項各号に掲げる事項のほか、次の各号に掲げる者の区分に応じ、当該各号に定める事項を帳簿に記載しなければならない。
+
+### 第四十六条の十六第五項
+
+<!-- segment: simple id: sochi-hou-shikkourei-art-46-16-p5 -->
+前各項の場合において、当該バイオエタノール、当該カーボンリサイクルエタノール又は当該エチル―ターシャリ―ブチルエーテルが証明済バイオエタノール等であるときは、証明事項を付記しなければならない。
