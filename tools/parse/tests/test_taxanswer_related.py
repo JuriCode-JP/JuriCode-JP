@@ -426,3 +426,70 @@ def test_related_qa_no_false_positives_from_body():
     """
     qa = mod.extract_related_qa_from_html(html)
     assert qa == ["5210"], f"False positive in related_qa: {qa}"
+
+
+# ---------------------------------------------------------------------------
+# FU-538: 措通 (措置法通達・法人税編) の款(N)->-N 正規化 + gate (hermetic)
+# ---------------------------------------------------------------------------
+
+
+def _import_extractor_sochi():
+    """FU-538: inject a tiny sochi-hojin-tsutatsu corpus (畳み込み形) to pin 款正規化 hermetically.
+
+    taxanswer は措通を款括弧形 (措通61の4(1)-1) で書くが FU-536 corpus は畳み込み形 (61の4-1-1)。
+    解決側の款 (N)/（N） -> -N 正規化を sochi-hojin-tsutatsu 限定で当てる挙動を、build/chunks に
+    依存せず committed 集合で検証する (CI-safe)。
+    """
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location(
+        "parse_nta_taxanswer",
+        Path(__file__).resolve().parents[1] / "parse-nta-taxanswer.py",
+    )
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # NB: corpus は directive_number 形 (の 保持)。directive_id は _build_directive_id が の->- 変換。
+    mod._TSUTATSU_CORPUS = {
+        "sochi-hojin-tsutatsu": {
+            "61の4-1-1",
+            "61の4-1-2",
+            "64-2-1",
+            "64-2-2",
+            "67の5-1",
+        }
+    }
+    return mod
+
+
+def test_sochitsuu_kan_paren_single():
+    """措通61の4(1)-1 -> sochi-hojin-tsutatsu-61-4-1-1 (款(1)->-1)。継承した裸番号も正規化される。"""
+    mod = _import_extractor_sochi()
+    ids = _directive_ids(mod.extract_related_from_kikon("措通61の4(1)-1、61の4(1)-2"))
+    assert "sochi-hojin-tsutatsu-61-4-1-1" in ids
+    assert "sochi-hojin-tsutatsu-61-4-1-2" in ids  # 措通継承 + 款正規化
+
+
+def test_sochitsuu_kan_paren_range():
+    """措通64(2)-1~2 -> 64-2-1, 64-2-2 (款正規化後にレンジ展開)。"""
+    mod = _import_extractor_sochi()
+    ids = _directive_ids(mod.extract_related_from_kikon("措通64(2)-1~2"))
+    assert ids == {"sochi-hojin-tsutatsu-64-2-1", "sochi-hojin-tsutatsu-64-2-2"}, ids
+
+
+def test_kan_normalization_gated_to_sochi():
+    """gate: 款正規化は sochi-hojin-tsutatsu 限定。他 tsutatsu の同形は正規化しない (非 cross-cutting)。
+
+    同一の款括弧形 99(1)-1 + 同一 corpus {99-1-1} を prefix だけ変えて与える。sochi は正規化されて
+    99-1-1 に一致 -> link、法基通は正規化されず 99(1)-1 のまま -> 不一致で未リンク (gate 実証)。
+    """
+    mod = _import_extractor()
+    # sochi: 正規化 (1)->-1 で 99-1-1 に一致 -> link
+    mod._TSUTATSU_CORPUS = {"sochi-hojin-tsutatsu": {"99-1-1"}}
+    assert "sochi-hojin-tsutatsu-99-1-1" in _directive_ids(
+        mod.extract_related_from_kikon("措通99(1)-1")
+    )
+    # 法基通: 正規化されず 99(1)-1 のまま -> {99-1-1} に不一致で未リンク
+    mod._TSUTATSU_CORPUS = {"hojin-kihon-tsutatsu": {"99-1-1"}}
+    assert "hojin-kihon-tsutatsu-99-1-1" not in _directive_ids(
+        mod.extract_related_from_kikon("法基通99(1)-1")
+    )

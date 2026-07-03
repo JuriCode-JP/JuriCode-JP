@@ -64,11 +64,10 @@ _HOJIN_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "hojin"
 EXPECTED_TOTAL = 111  # dedup 後のユニーク code 数 (母集団 115 - soft-404 4)
 EXPECTED_BRANCHED = frozenset({"5364-2", "5400-2", "5409-2", "5927-2", "5927-3"})  # 枝番 5 件
 EXPECTED_ARTICLES = 411  # related_articles 総数 (FU-537: 233->411, 措法系昇格+ガード後・佐藤ロック)
-EXPECTED_DIRECTIVES = 34  # related_directives 総数 (FU-529: 28->34, 所基通76-4 昇格)
+EXPECTED_DIRECTIVES = 54  # related_directives 総数 (FU-538: 34->54, 措通昇格+款(N)->-N 正規化で
+# 措通 61の4(1)/64(2)/65の7(4)/67の5 系 20 link・全て sochi-hojin-tsutatsu corpus 実在・佐藤ロック 2026-07-03)
 EXPECTED_QA = 132  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = (
-    203  # unlinked_refs 総数 (FU-537: 381->203, 措法系 unlinked->linked 昇格・佐藤ロック)
-)
+EXPECTED_UNLINKED = 193  # unlinked_refs 総数 (FU-538: 203->193, 措通20参照が unlinked->linked 昇格・佐藤ロック 2026-07-03)
 EXPECTED_IMAGES = 22  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 8  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -157,6 +156,41 @@ def test_link_totals_locked() -> None:
     assert sum(len(r["related_directives"]) for r in recs) == EXPECTED_DIRECTIVES
     assert sum(len(r["related_qa"]) for r in recs) == EXPECTED_QA
     assert sum(len(r["unlinked_refs"]) for r in recs) == EXPECTED_UNLINKED
+
+
+EXPECTED_SOCHITSUU_LINKS = (
+    20  # FU-538: 措通->sochi-hojin-tsutatsu link 総数 (佐藤ロック 2026-07-03)
+)
+
+
+def test_sochitsuu_links_locked() -> None:
+    """FU-538: 措通参照が sochi-hojin-tsutatsu へ link される (款(N)->-N 正規化込み)。
+
+    Why: 措通は taxanswer で款括弧形 (措通61の4(1)-1) で書かれるが FU-536 corpus は畳み込み形
+    (61の4-1-1) で持つ。解決側の款正規化 (sochi-hojin-tsutatsu gate) で一致させた結果を pin する。
+    明示6 + 継承3 + レンジ展開11 = 20 (全て 933 corpus 実在・佐藤目視監査済)。落ちたら直すのは
+    パーサ/キャッシュであって fixture/期待値ではない (source-locked)。
+    """
+    recs = _records()
+    sochi = [
+        d
+        for r in recs
+        for d in r["related_directives"]
+        if d.get("law_abbrev") == "sochi-hojin-tsutatsu"
+    ]
+    assert len(sochi) == EXPECTED_SOCHITSUU_LINKS, f"措通 link 数: {len(sochi)}"
+    # 全 directive_id が sochi-hojin-tsutatsu で前置 (偽リンク = 404 ゼロ)
+    assert all(d["directive_id"].startswith("sochi-hojin-tsutatsu-") for d in sochi)
+    # 代表 id を pin (明示/継承/レンジ各系統): 61の4(1)-1・64(2)-1~9 展開端・67の5 レンジ・65の7(4)
+    ids = {d["directive_id"] for d in sochi}
+    for did in (
+        "sochi-hojin-tsutatsu-61-4-1-1",  # 5260 明示 (款(1)->-1)
+        "sochi-hojin-tsutatsu-64-2-1",  # 5650 レンジ端 (款(2)->-2 + 1~9 展開)
+        "sochi-hojin-tsutatsu-64-2-9",  # 5650 レンジ端
+        "sochi-hojin-tsutatsu-67-5-1",  # 5408 レンジ (款なし)
+        "sochi-hojin-tsutatsu-65-7-4-8",  # 5655 明示 (款(4)->-4)
+    ):
+        assert did in ids, f"期待した措通 link が無い: {did}"
 
 
 def test_version_date_none_count() -> None:
