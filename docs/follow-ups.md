@@ -1806,6 +1806,21 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
+### [x] FU-537: 措置法系 prefix 昇格＋parser ガード＋7 baseline 再ロック — ✅ 完了 2026-07-03 (PR #87, main 12192e7e)
+
+**経緯**: 順序5 租税特別措置法 の3本目・最後。FU-535 (措法本文 corpus) 上に、タックスアンサーの多数の unlinked 措法参照を link 化する。措法/措令/措規 を `LAW_PREFIX_MAP` へ昇格し、措通は FU-536 保留ゆえ UNREG 据置＝**本文系のみの部分昇格**。
+
+**成果**:
+- **措法/措令/措規 昇格＋parser ガード3種**: 生昇格は P0 実測で **dangling 31** (D 他法令偽リンク14 / A レンジ9 / B 等2 / C genuine gap6) を生むため、措法系 prefix 限定 (非 cross-cutting) のガードを追加＝(D 継承ガード[告示ガード同型・非数字開始の別法令名を unlink] / A・B レンジ`~`・`等` を unlink / C 措法系 corpus 実在チェック[corpus_gap])。
+- **7 taxanswer baseline を再生成・per-baseline 再ロック** (`EXPECTED_ARTICLES`/`EXPECTED_UNLINKED`、`EXPECTED_DIRECTIVES` 不変): hojin 411/203・sozoku 256/55・shohi 402/328・gensen 294/147・shotoku 1166/491・joto 243/77・inshi 14/119 (kept 措法系 links 919・生遷移 953)。
+- **品質ゲート**: **dangling 0・over-guard 0**・措通 unlinked 83 据置・kaisei_funsoku 不変・disjoint(article_id)。新規 `test_sochi_promotion_guards.py` で D/A/B/C・over-guard なし・境界を pin。CI 全9 green (**pytest 729**)・GitHub CI 3.11/3.12 pass。
+
+**順序5 (租税特別措置法) の状態**: **FU-535 措法本文 DONE (PR #86, main 555b3800) / FU-536 措通 保留 (P0 で純 config でないと判明・佐藤裁定待ち) / FU-537 昇格 DONE (PR #87, main 12192e7e)**。
+
+**関連**: FU-535 (措法本文 corpus) / FU-536 (措通・保留) / FU-529 (所法昇格・逐語 precedent) / FU-528 (告示ガード・D の同型)。
+
+---
+
 ### [x] FU-520: test_taxanswer_related.py を CI で実走 (hermetic 化) — ✅ 完了 2026-06-25 (PR #47, main 81c2b24a)
 
 **経緯**: PR #35 で `tools/parse/tests` を CI に配線した際、`test_taxanswer_related.py` が `build/chunks/` 依存 (gitignored・CI に存在しない) で CI-safe でないことが露見。暫定対応として CI-safe な 3 ファイルのみを CI 対象に限定していた。
@@ -1840,4 +1855,4 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
-*Last updated: 2026-06-25 — FU-522 起票 (隣接 directive 本文の重複混入 corruption 検知ゲート・P2: FU-521 #52 が掘当てた消費税 8-1-5の2 の latent 破損が directive_id ユニーク/byte 安定/CI のどれでも検知されなかった事故型への二次防御)。同日: FU-521 完了マーク (法人税基本通達 全体化: parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main `3f2133be`: 9-2 節 35 chunk → 全25章 1,382 DirectiveChunk。章/節枝番・平文番号・直法マーカー・別表/入れ子修正 = EDGE-008..012)。前回: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+*Last updated: 2026-07-03 — FU-537 完了マーク (措置法系 prefix 昇格＋parser ガード3種＋7 baseline 再ロック: PR #87, main `12192e7e`・dangling 0/over-guard 0/CI green/pytest 729)。**順序5 (租税特別措置法) クローズ = FU-535 措法本文 DONE (PR #86, main 555b3800) / FU-536 措通 保留 (P0 で純 config でないと判明) / FU-537 昇格 DONE (PR #87, main 12192e7e)**。前回: 2026-06-25 — FU-522 起票 (隣接 directive 本文の重複混入 corruption 検知ゲート・P2: FU-521 #52 が掘当てた消費税 8-1-5の2 の latent 破損が directive_id ユニーク/byte 安定/CI のどれでも検知されなかった事故型への二次防御)。同日: FU-521 完了マーク (法人税基本通達 全体化: parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main `3f2133be`: 9-2 節 35 chunk → 全25章 1,382 DirectiveChunk。章/節枝番・平文番号・直法マーカー・別表/入れ子修正 = EDGE-008..012)。前回: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
