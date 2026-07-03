@@ -55,10 +55,12 @@ _GENSEN_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "gensen"
 # LOCKED 確定値 (実パーサ dry-run + 母集団突合で確定・佐藤ロック 2026-07-01・改変は明示承認必須)。
 EXPECTED_TOTAL = 66  # dedup 後のユニーク code 数 (母集団 66 - soft-404 0)
 EXPECTED_BRANCHED: frozenset[str] = frozenset()  # 枝番コードなし
-EXPECTED_ARTICLES = 273  # related_articles 総数
+EXPECTED_ARTICLES = 294  # related_articles 総数 (FU-537: 273->294, 措法系昇格+ガード後・佐藤ロック)
 EXPECTED_DIRECTIVES = 129  # related_directives 総数
 EXPECTED_QA = 146  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 168  # unlinked_refs 総数
+EXPECTED_UNLINKED = (
+    147  # unlinked_refs 総数 (FU-537: 168->147, 措法系 unlinked->linked 昇格・佐藤ロック)
+)
 EXPECTED_IMAGES = 4  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 3  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -74,6 +76,10 @@ EXPECTED_ARTICLE_ABBREVS = {
     "houjin-zei-hou": 9,
     "houjin-zei-hou-shikkourei": 2,
     "houjin-zei-hou-shikoukisoku": 1,
+    # FU-537: 措法系昇格 (源泉所得税タックスアンサーの特例参照が sochi-* へ link)。
+    "sochi-hou": 17,
+    "sochi-hou-shikkourei": 2,
+    "sochi-hou-shikoukisoku": 2,
 }
 EXPECTED_DIRECTIVE_ABBREVS = {
     "shotoku-kihon-tsutatsu": 129,
@@ -238,9 +244,7 @@ def test_no_foreign_law_tokens_in_links() -> None:
         "特許法",
         "災免法",
         "外国居住者等",
-        "措法",
-        "措令",
-        "措規",
+        # FU-537: 措法/措令/措規 は昇格し related_articles に正当に現れるため foreign から除外。
         "通法",
         "通令",
         "告示",

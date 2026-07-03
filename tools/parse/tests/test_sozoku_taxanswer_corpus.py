@@ -55,10 +55,12 @@ _SOZOKU_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "sozoku"
 # (baseline に眠る明示 所-prefix unlinked = 5ref/3chunk) と一致。
 EXPECTED_TOTAL = 52  # dedup 後のユニーク code 数 (母集団 52 - soft-404 0)
 EXPECTED_BRANCHED: frozenset[str] = frozenset()  # 枝番コードなし
-EXPECTED_ARTICLES = 157  # related_articles 総数 (FU-529: 154->157, 所法系昇格)
+EXPECTED_ARTICLES = 256  # related_articles 総数 (FU-537: 157->256, 措法系昇格+ガード後・佐藤ロック)
 EXPECTED_DIRECTIVES = 61  # related_directives 総数 (FU-529: 57->61, 所基通昇格)
 EXPECTED_QA = 133  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 154  # unlinked_refs 総数 (FU-529: 161->154, 所法系 unlinked->linked 昇格)
+EXPECTED_UNLINKED = (
+    55  # unlinked_refs 総数 (FU-537: 154->55, 措法系 unlinked->linked 昇格・佐藤ロック)
+)
 EXPECTED_IMAGES = 33  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 13  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -73,6 +75,10 @@ EXPECTED_ARTICLE_ABBREVS = {
     "souzoku-zei-hou-shikoukisoku": 7,
     "shotoku-zei-hou": 2,
     "shotoku-zei-hou-shikkourei": 1,
+    # FU-537: 措法系昇格 (相続タックスアンサーの特例参照が sochi-* へ link)。
+    "sochi-hou": 67,
+    "sochi-hou-shikkourei": 16,
+    "sochi-hou-shikoukisoku": 16,
 }
 EXPECTED_DIRECTIVE_ABBREVS = {
     "souzoku-kihon-tsutatsu": 46,

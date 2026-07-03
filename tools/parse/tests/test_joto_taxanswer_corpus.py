@@ -51,10 +51,12 @@ _JOTO_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "joto"
 
 # LOCKED 確定値 (実パーサ dry-run + 母集団突合で確定・佐藤ロック 2026-07-02・改変は明示承認必須)。
 EXPECTED_TOTAL = 71  # dedup 後のユニーク code 数 (母集団 71 - soft-404 0)
-EXPECTED_ARTICLES = 81  # related_articles 総数
+EXPECTED_ARTICLES = 243  # related_articles 総数 (FU-537: 81->243, 措法系昇格+ガード後・佐藤ロック)
 EXPECTED_DIRECTIVES = 40  # related_directives 総数
 EXPECTED_QA = 181  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 239  # unlinked_refs 総数 (措法系特例参照が主・順序5 で link 化予定)
+EXPECTED_UNLINKED = (
+    77  # unlinked_refs 総数 (FU-537: 239->77, 措法系 unlinked->linked 昇格・佐藤ロック)
+)
 EXPECTED_IMAGES = 26  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 18  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -67,6 +69,10 @@ EXPECTED_ARTICLE_ABBREVS = {
     "shotoku-zei-hou-shikkourei": 18,
     "shouhi-zei-hou": 2,
     "shouhi-zei-hou-shikkourei": 1,
+    # FU-537: 措法系昇格 (譲渡・山林・株式等タックスアンサーの特例参照が sochi-* へ link)。
+    "sochi-hou": 105,
+    "sochi-hou-shikkourei": 37,
+    "sochi-hou-shikoukisoku": 20,
 }
 EXPECTED_DIRECTIVE_ABBREVS = {
     "shotoku-kihon-tsutatsu": 40,
@@ -224,9 +230,8 @@ def test_no_foreign_law_tokens_in_links() -> None:
     構造的にゼロである証跡。
     """
     foreign = (
-        "措法",
-        "措令",
-        "措規",
+        # FU-537: 措法/措令/措規 は昇格し related_articles に正当に現れるため foreign から除外。
+        # 措通 は FU-536 保留ゆえ foreign 据置。
         "措通",
         "通法",
         "通令",

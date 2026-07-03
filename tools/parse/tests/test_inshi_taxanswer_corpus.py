@@ -56,10 +56,12 @@ _INSHI_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "inshi"
 
 # LOCKED 確定値 (実パーサ dry-run + 母集団突合で確定・佐藤ロック 2026-07-02・改変は明示承認必須)。
 EXPECTED_TOTAL = 30  # dedup 後のユニーク code 数 (母集団 30 - soft-404 0)
-EXPECTED_ARTICLES = 2  # related_articles 総数 (7131 の 法法55/所法45 のみ)
+EXPECTED_ARTICLES = 14  # related_articles 総数 (FU-537: 2->14, 措法系昇格+ガード後・佐藤ロック)
 EXPECTED_DIRECTIVES = 0  # related_directives 総数 (印基通/旅客通達 等は全て UNREG ゆえ 0)
 EXPECTED_QA = 30  # related_qa 総数 (href 由来・body 非依存)
-EXPECTED_UNLINKED = 131  # unlinked_refs 総数 (印紙/登免/その他国税・措法系の本文なし参照が主)
+EXPECTED_UNLINKED = (
+    119  # unlinked_refs 総数 (FU-537: 131->119, 措法系 unlinked->linked 昇格・佐藤ロック)
+)
 EXPECTED_IMAGES = 16  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 3  # content 画像を持つページ数
 EXPECTED_VERSION_NONE = 0  # version_date が None のページ数 (捏造禁止 = パース不能なら None)
@@ -70,6 +72,8 @@ EXPECTED_CACHE_HTM = 30  # 取得済 htm 数 (soft-404 0)
 EXPECTED_ARTICLE_ABBREVS = {
     "houjin-zei-hou": 1,
     "shotoku-zei-hou": 1,
+    # FU-537: 措法系昇格 (印紙税/その他国税タックスアンサーの特例参照が sochi-hou へ link)。
+    "sochi-hou": 12,
 }
 EXPECTED_DIRECTIVE_ABBREVS: dict[str, int] = {}
 _HOST = "https://www.nta.go.jp/"
@@ -252,9 +256,8 @@ def test_no_foreign_law_tokens_in_links() -> None:
         "旅客法",
         "旅客令",
         "旅客通達",
-        "措法",
-        "措令",
-        "措規",
+        # FU-537: 措法/措令/措規 は昇格し related_articles に正当に現れるため foreign から除外。
+        # 措通 は FU-536 保留ゆえ foreign 据置。
         "措通",
         "登録免許税",
         "自動車重量税",
