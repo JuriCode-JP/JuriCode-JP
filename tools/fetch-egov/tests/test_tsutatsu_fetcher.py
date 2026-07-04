@@ -122,3 +122,7 @@ def test_expected_leaf_counts_locked() -> None:
             "57/13/02.htm",
         }
     )
+    # FU-541: 措置法通達(相続税法の特例関係)・発遣 080708・leaf 58 (soft-404 0=known_soft404 空)。
+    assert _MOD.CIRCULARS["sochi-sozoku"].expected_leaves == 58
+    assert _MOD.CIRCULARS["sochi-sozoku"].base_path.endswith("/kobetsu/sozoku/sochiho/080708")
+    assert _MOD.CIRCULARS["sochi-sozoku"].known_soft404 == frozenset()

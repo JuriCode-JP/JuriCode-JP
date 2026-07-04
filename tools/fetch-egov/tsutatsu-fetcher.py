@@ -134,6 +134,18 @@ CIRCULARS: dict[str, Circular] = {
             }
         ),
     ),
+    # 租税特別措置法関係通達(相続税法の特例関係)・FU-541。相続税分野の個別通達ゆえ base は
+    # sozoku/sochiho/発遣日 080708 (NTA sochiho landing 実確認・P0-1)。leaf 58 (単一/二段トップ
+    # 索引 01.htm+02.htm が全 leaf を 3 階層 '69_4/NN.htm' 等で直接列挙・多階層サブ索引なし=既存
+    # discover_leaves で全発見・P0-1 実測 58/58 取りこぼしなし)。soft-404 は 0 (全 58 leaf 実体あり
+    # ・P0-4 実測) ゆえ known_soft404 不要。corpus は STEP A parse で実測ロック (2 レベル現行分)。
+    "sochi-sozoku": Circular(
+        key="sochi-sozoku",
+        label="租税特別措置法関係通達（相続税法の特例関係）",
+        base_path="/law/tsutatsu/kobetsu/sozoku/sochiho/080708",
+        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-sozoku",
+        expected_leaves=58,
+    ),
 }
 
 
