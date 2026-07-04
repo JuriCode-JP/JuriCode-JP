@@ -108,7 +108,13 @@ class CircularConfig:
     #       (62の3（1）－1 = 62条の3 第1款 -1) ため階層に款レベルを畳み込む (62の3-1-1)。条跨ぎ
     #       共通マーカー （共） も持つ (42の5～48（共）－1 -> 42の5_48共-1)。款の有無で dash-level
     #       が 2 (条-項) / 3 (条-款-項) に変動するため num_levels ではなく可変 tail で検証する。
-    num_style: Literal["hierarchical", "flat_branch", "kan_paren"] = "hierarchical"
+    #   "hier_var": hierarchical の可変レベル版 (FU-543・sochi-sozoku 専用)。同一編内で 2 レベル
+    #       (条-通達 69の4-27) と 3 レベル (条-項-通達 70-1-3 = 70条1項 通達3) を混在させる編で、
+    #       num_levels 固定 2 では 3 レベルを、固定 3 では 2 レベルを取りこぼす。dash-level を
+    #       {1,2} の可変個 (先頭条レベルに続く 1〜2 個の "-N") で組み、款 fold も全角正規化もせず
+    #       (既定 _normalize_directive_num 経路 = _RANGE_SEP_RE のみ・全角 verbatim) hierarchical と
+    #       完全に同じ正規化を通す。旧法 (「旧」始まり) は数値開始の _FIRST_LEVEL に非マッチで自然除外。
+    num_style: Literal["hierarchical", "flat_branch", "kan_paren", "hier_var"] = "hierarchical"
     # 取込から除外するファイル名 (basename) の集合。既定は空 = 全ファイル取込 (byte 不変)。
     # 措置法通達は改正で同一条番号に別制度が併載される事故があり (旧 02_57_4.htm 原子力発電施設
     # 解体準備金 vs 新 02_57_4_2.htm 特定原子力施設炉心等除去準備金 = 同 id 異本文 fail-loud)、
@@ -330,9 +336,10 @@ SOCHI_SHOTOKU_CONFIG = CircularConfig(
     num_levels=2,
 )
 
-# 租税特別措置法関係通達 (相続税法の特例関係)・FU-541。sochi-joto (山林所得・譲渡所得編) を逐語
-# コピーし相続税分野の値へ変更。num_style は sochi-joto と同型の "hierarchical"・num_levels=2
-# (条-番号)。**probe-don't-guess (P0-2 実測)**: 番号は 款括弧 (N) を持たず 条-番号 の 2 レベル
+# 租税特別措置法関係通達 (相続税法の特例関係)・FU-541 取込 / FU-543 で hier_var 化。sochi-joto
+# (山林所得・譲渡所得編) を逐語コピーし相続税分野の値へ変更。num_style は当初 hierarchical・num_levels=2
+# (条-番号) だったが、2 レベルと 3 レベル混在ゆえ FU-543 で "hier_var" (可変 {1,2}) に切替 (下記
+# 「レベル混在」参照)。**probe-don't-guess (P0-2 実測)**: 番号は 款括弧 (N) を持たず 条-番号 の 2 レベル
 # (69の4-1 / 70の2の2-3の2 / 69の4-24の3)。条跨ぎ範囲は 中黒「・」(69の6・69の7共-1 /
 # 70の3の3・70の3の4-1) で既存 _RANGE_SEP_RE の ・->_ 正規化により追加コードなしで 69の6_69の7共-1
 # へ正規化され通過する (kan_paren は 0・〜range は 0=P0-2 実測)。ref_map は本文実測 (P0-2 probe):
@@ -348,16 +355,15 @@ SOCHI_SHOTOKU_CONFIG = CircularConfig(
 # 相続税法系/所得税法系/法人税法/通則法は data/v0.2/phase1-tax に実在 (link 有効)。改正記号は
 # 資産税系の実証セット (SOUZOKU と同一・probe 実測 課資/直資/課審/課評 は本セットの部分集合)。
 #
-# **既知の完全性ギャップ (num_levels=2 の構造的制約・FU-541 で佐藤へ停止報告→accept-gap 確定)**:
-# 本編は同一編内で 2 レベル (条-通達 69の4-27) と 3 レベル (条-項-通達) の番号を混在させる。
-# 措置法70条1項関係 (70-1-1..70-1-14 = 14 件) と 70条3項関係 (70-3-1..70-3-4 = 4 件) の現行 18 件は
-# 「条-項-通達」の 3 レベルゆえ num_levels=2 の hierarchical では捕捉できず未収録 (num_levels=3 に
-# すると 2 レベルの現行 963 件が全滅するため単一値では両立不能・FU-541 実測)。旧措置法70の3の3・
-# 70の3の4 系 7 件は「旧」始まりゆえ数値開始の _FIRST_LEVEL に非マッチで未収録 (旧法=現行条番号と
-# 不一致ゆえ除外が正しい)。よって本 corpus は 2 レベル現行分 963 件で確定 (leaf 58 中 54 が directive
-# 産出・70_1/01・70_3/01=3 レベル現行・70_3/03=旧法・70_7/fusoku=附則 の 4 leaf は上記理由で 0 産出)。
-# taxanswer 側で 措通70-1-3 (3 レベル・未収録) は tsutatsu_not_in_corpus で unlink 維持。3 レベル
-# 現行 18 件の可変 tail 対応は要 parser 拡張ゆえ follow-up (本 FU の純加算スコープ外)。
+# **レベル混在 (FU-541 で停止報告→FU-543 で num_style="hier_var" により捕捉・佐藤承認どおり)**:
+# 本編は同一編内で 2 レベル (条-通達 69の4-27) と 3 レベル (条-項-通達 70-1-3 = 70条1項 通達3) を
+# 混在させる。num_levels 固定 2 では 3 レベルを・固定 3 では 2 レベルを取りこぼす (FU-541 実測) ため、
+# FU-543 で dash-level を {1,2} で可変に組む gated num_style "hier_var" を導入し、現行 18 件
+# (措置法70条1項 70-1-1..70-1-14 = 14 件 + 70条3項 70-3-1..70-3-4 = 4 件) を捕捉する (corpus 963→981)。
+# taxanswer 側の 措通70-1-3 も link 可になる (FU-543)。旧措置法70の3の3・70の3の4 系 7 件は「旧」始まり
+# ゆえ数値開始の _FIRST_LEVEL に非マッチで除外維持 (旧法=現行条番号と不一致ゆえ除外が正しい)。
+# 69の4-28 のカンマ継続裸番号 (措通69の4-27、28) の resolver 側継続解決は別 follow-up。hier_var は
+# gated (sochi-sozoku 専用) ゆえ他 6 編の byte 出力は完全不変 (FU-543 で全編再パース byte 一致を実証)。
 SOCHI_SOZOKU_CONFIG = CircularConfig(
     law_name_ja="租税特別措置法関係通達（相続税法の特例関係）",
     law_abbrev="sochi-sozoku-tsutatsu",
@@ -432,7 +438,8 @@ SOCHI_SOZOKU_CONFIG = CircularConfig(
         }
     ),
     amendment_markers=("課資", "直資", "課審", "課評"),
-    num_levels=2,
+    num_style="hier_var",  # FU-543: 2 レベル (69の4-27) と 3 レベル (70-1-3) 混在ゆえ可変。
+    num_levels=2,  # hier_var では不使用 (可変 {1,2}) だが既定値として明示保持。
 )
 
 # --circular セレクタの登録簿。
@@ -669,12 +676,18 @@ def _directive_levels_re(config: CircularConfig) -> str:
     kan_paren:    '{first}{款?}[-－]{level}' = 条 + 任意の款 (N)/（N）/（共） + **必須**の項
                   ダッシュ (措置法通達型)。項を必須にすることで本文中の裸号番号 (1/2/3) を
                   通達開始と誤検出しない。ダッシュは全角/半角両対応。num_levels は不使用。
+    hier_var:     '{first}(?:-{level}){1,2}' = 条 + 1〜2 個の項ダッシュ (FU-543・sochi-sozoku)。
+                  貪欲で 3 レベル (70-1-3) を丸ごと、無ければ 2 レベル (69の4-27) を取る。行頭/
+                  末尾アンカー (_build_*_re) 下では 2 レベル既存分は従来と同一列を返す (下限 1 で
+                  一致・後続に "-N" が無いため 2 個目は非発火)。num_levels は不使用。
     hierarchical 経路は従来と完全に同一文字列を返す (byte 回帰で実証)。
     """
     if config.num_style == "flat_branch":
         return rf"{_FIRST_LEVEL}(?:-{_LEVEL})?"
     if config.num_style == "kan_paren":
         return rf"{_FIRST_LEVEL}{_KAN_PAREN_RE}[-－]{_LEVEL}"
+    if config.num_style == "hier_var":
+        return rf"{_FIRST_LEVEL}(?:-{_LEVEL}){{1,2}}"
     return "-".join([_FIRST_LEVEL] + [_LEVEL] * (config.num_levels - 1))
 
 
@@ -731,10 +744,13 @@ def _build_directive_id_tail_re(config: CircularConfig) -> re.Pattern:
     kan_paren:    '{first}(?:-{level}){1,2}' = 条 + (款? + 項) の 2〜3 dash-level (款有無で
                   可変)。畳み込み後は数値主体 (「の」は _LEVEL が許容) ゆえ num_levels 固定では
                   なく可変個で検証する。
+    hier_var:     '{first}(?:-{level}){1,2}' = 条 + 1〜2 dash-level (FU-543・sochi-sozoku)。
+                  2 レベル (69の4-27) と 3 レベル (70-1-3) を同一ゲートで受理 (kan_paren の tail
+                  と同形・款 fold なしで数値主体)。旧法 (「旧」始まり) は _ID_FIRST_LEVEL に非マッチ。
     """
     if config.num_style == "flat_branch":
         return re.compile(rf"{_ID_FIRST_LEVEL}(?:-{_LEVEL})?")
-    if config.num_style == "kan_paren":
+    if config.num_style in ("kan_paren", "hier_var"):
         return re.compile(rf"{_ID_FIRST_LEVEL}(?:-{_LEVEL}){{1,2}}")
     return re.compile("-".join([_ID_FIRST_LEVEL] + [_LEVEL] * (config.num_levels - 1)))
 

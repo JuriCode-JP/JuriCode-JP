@@ -10,16 +10,19 @@ Why this test exists:
 
     3 層構成:
       (1) committed baseline fixture (CI-safe) への構造監査: 14 キー順・disjoint Union・
-          directive_id ユニーク・件数 963・参照母集団 (linked 2197 / unlinked 78=named-law) を pin。
-      (2) hierarchical 固有ユニット (パーサ import・合成 HTML): 中黒範囲 + 共 (69の6・69の7共->
-          69の6_69の7共)・二重枝番 (70の2の2-3の2)・named-law の裸「法」偽マッチ回避。
+          directive_id ユニーク・件数 981・参照母集団 (linked 2228 / unlinked 80=named-law) を pin。
+      (2) hier_var 固有ユニット (パーサ import・合成 HTML): 中黒範囲 + 共 (69の6・69の7共->
+          69の6_69の7共)・二重枝番 (70の2の2-3の2)・2 レベル/3 レベル可変捕捉 (69の4-27 / 70-1-3)・
+          旧法除外・over-capture なし・named-law の裸「法」偽マッチ回避。
       (3) byte 回帰 (ローカル限定): NTA HTML cache (gitignored) が在れば parser を
           --circular sochi-sozoku で subprocess 実行し baseline と byte 一致を assert。
 
-    NB (既知の完全性ギャップ・佐藤へ停止報告→accept-gap 確定 2026-07-04): 本編は同一編内で 2 レベル
-    (条-通達 69の4-27) と 3 レベル (条-項-通達) を混在させる。措置法70条1項/3項関係の現行 18 件
-    (70-1-1..70-1-14 / 70-3-1..70-3-4) は 3 レベルゆえ num_levels=2 では未収録・旧措置法70の3の3系 7 件
-    は「旧」始まりで未収録。corpus は 2 レベル現行分 963 で確定 (3 レベル可変 tail 対応は follow-up)。
+    NB (レベル混在・FU-541 で停止報告→FU-543 で num_style="hier_var" 導入で捕捉・佐藤承認どおり):
+    本編は同一編内で 2 レベル (条-通達 69の4-27) と 3 レベル (条-項-通達 70-1-3 = 70条1項 通達3) を
+    混在させる。num_levels 固定では両立できないため、FU-543 で dash-level を {1,2} で可変に組む gated
+    num_style "hier_var" を導入し現行 18 件 (70条1項 70-1-1..14 = 14 件 + 70条3項 70-3-1..4 = 4 件) を
+    捕捉 (corpus 963->981)。旧措置法70の3の3系 7 件は「旧」始まりで除外維持 (旧法=現行条番号と不一致)。
+    hier_var は gated (sochi-sozoku 専用) ゆえ他 6 編の byte 出力は完全不変 (byte 回帰 test で実証)。
 
     **落ちたら直すのはパーサ/データであって期待値ではない** (期待値変更は人間承認)。
 """
@@ -60,13 +63,17 @@ DIRECTIVE_KEY_ORDER = [
 LINKED_REF_KEYS = {"raw", "law_abbrev", "article_number", "article_id"}
 UNLINKED_REF_KEYS = {"raw", "law_abbrev", "article_number", "unlinked_reason"}
 
-# P0-3 実測・佐藤ロック (2026-07-04)。58 leaf 中 54 が directive 産出 (soft-404 0)・2 レベル現行 963。
-_LOCKED_COUNT = 963
+# P0 実測・佐藤ロック (FU-543 2026-07-04)。58 leaf・hier_var で 2 レベル 963 + 3 レベル現行 18 = 981。
+_LOCKED_COUNT = 981
 _LOCKED_LINKED = (
-    2197  # 措置法系 + 相続税法系 + 所得税法系 + 法人税法 + 通則法 は全件 corpus 実在 -> link
+    2228  # 措置法系 + 相続税法系 + 所得税法系 + 法人税法 + 通則法 は全件 corpus 実在 -> link
 )
 _LOCKED_UNLINKED = (
-    78  # named-law (中小企業信用保険法/会社法/農地法 等) は corpus 未収録 -> unlinked 記録
+    80  # named-law (中小企業信用保険法/会社法/農地法 等) は corpus 未収録 -> unlinked 記録
+)
+# FU-543 hier_var で捕捉した現行 3 レベル 18 件 (措置法70条1項 14 + 70条3項 4)。
+_CURRENT_3LEVEL = frozenset(
+    [f"70-1-{i}" for i in range(1, 15)] + [f"70-3-{i}" for i in range(1, 5)]
 )
 _SOURCE_PREFIX = "https://www.nta.go.jp/law/tsutatsu/kobetsu/sozoku/sochiho/080708/"
 
@@ -167,7 +174,27 @@ def test_directive_id_unique() -> None:
 def test_chunk_count_locked() -> None:
     assert len(_read_baseline()) == _LOCKED_COUNT, (
         f"措置法通達 (相続税特例編) の chunk 数は {_LOCKED_COUNT} "
-        "(58 leaf・2 レベル現行分・3 レベル 18 件と旧法 7 件は num_levels=2 の構造制約で未収録)"
+        "(58 leaf・hier_var で 2 レベル 963 + 3 レベル現行 18 = 981・旧法 7 件は「旧」始まりで除外)"
+    )
+
+
+def test_current_3level_captured_and_old_excluded() -> None:
+    """FU-543 hier_var: 3 レベル現行 18 件 (70条1項/3項) を捕捉・旧法 (「旧」始まり) は除外・over-capture なし。
+
+    2 レベル既存分 (69の4-N 等) は下限 1 で従来同一列を返す (byte 回帰 test で 963 不変を実証済)。
+    本 test は 3 レベル現行 18 件が漏れなく収録され、かつ旧法が誤って混入しないことを pin する。
+    """
+    nums = {r["directive_number"] for r in _read_baseline()}
+    missing = _CURRENT_3LEVEL - nums
+    assert not missing, f"現行 3 レベル (70条1項/3項) が欠落: {sorted(missing)}"
+    old_law = {n for n in nums if n.startswith("旧")}
+    assert not old_law, f"旧法 (「旧」始まり) が誤収録 (除外すべき): {sorted(old_law)}"
+    # over-capture ガード: 3 レベル (dash 2 個) は 70条1項/3項 18 件のみ (他条は 2 レベル = dash 1 個)。
+    # 想定外の N-M-K を弾く (hier_var {1,2} の可変が 2 レベルを 3 レベル化していないことの証跡)。
+    three_level = {n for n in nums if n.count("-") == 2}
+    assert three_level == _CURRENT_3LEVEL, (
+        f"3 レベル directive が想定 (70条1項/3項 18 件) と不一致: "
+        f"想定外={sorted(three_level - _CURRENT_3LEVEL)} 欠落={sorted(_CURRENT_3LEVEL - three_level)}"
     )
 
 
@@ -246,9 +273,8 @@ def test_circular_config_sochi_sozoku() -> None:
     cfg = mod.CIRCULAR_CONFIGS["sochi-sozoku"]
     assert cfg.law_abbrev == "sochi-sozoku-tsutatsu"
     assert cfg.law_name_ja == "租税特別措置法関係通達（相続税法の特例関係）"
-    # 山林所得・譲渡所得編と同型 hierarchical・2 レベル (条-番号)。款括弧なし (P0-2)。
-    assert cfg.num_style == "hierarchical"
-    assert cfg.num_levels == 2
+    # FU-543: 2 レベル (69の4-27) と 3 レベル (70-1-3) 混在ゆえ hier_var (可変 {1,2})。款括弧なし (P0-2)。
+    assert cfg.num_style == "hier_var"
     assert cfg.exclude_files == frozenset()
     # named-law ガードで corpus_unregistered は非空 (裸「法/令」偽リンク回避)。
     assert cfg.corpus_unregistered == _NAMED_LAW_UNREG
@@ -263,15 +289,18 @@ def test_circular_config_sochi_sozoku() -> None:
     assert cfg.ref_map["会社法"] == "kaisha-hou"
 
 
-def test_directive_id_ok_hierarchical_forms() -> None:
-    """hierarchical 形式ゲート (num_levels=2): 条-番号・共・の 枝番を受理・裸番号を拒否."""
+def test_directive_id_ok_hier_var_forms() -> None:
+    """hier_var 形式ゲート (可変 {1,2}): 2 レベル/3 レベル・共・の 枝番を受理・裸番号を拒否."""
     mod = _import_parser()
     cfg = mod.CIRCULAR_CONFIGS["sochi-sozoku"]
     ok = mod._directive_id_ok
-    assert ok("sochi-sozoku-tsutatsu-69の4-27", cfg)  # 条-番号
+    assert ok("sochi-sozoku-tsutatsu-69の4-27", cfg)  # 2 レベル (条-番号)
+    assert ok("sochi-sozoku-tsutatsu-70-1-3", cfg)  # 3 レベル (条-項-通達・FU-543)
+    assert ok("sochi-sozoku-tsutatsu-70-3-4", cfg)  # 3 レベル (70条3項)
     assert ok("sochi-sozoku-tsutatsu-70の2の2-3の2", cfg)  # 二重枝番 (の 保持)
     assert ok("sochi-sozoku-tsutatsu-69の6_69の7共-1", cfg)  # 条跨ぎ範囲 (中黒) + 共
     assert not ok("sochi-sozoku-tsutatsu-69", cfg)  # 裸番号 (番号レベル欠落)
+    assert not ok("sochi-sozoku-tsutatsu-70-1-3-9", cfg)  # 4 レベル (over-capture 拒否)
     assert not ok("sochi-joto-tsutatsu-69の4-27", cfg)  # prefix 不一致
 
 
@@ -338,6 +367,45 @@ def test_double_branch_directive(tmp_path: Path) -> None:
     rc, recs = _run(mod, root, tmp_path / "out")
     assert rc == 0
     assert recs[0]["directive_number"] == "70の2の2-3の2"
+
+
+def test_hier_var_captures_2_and_3_levels(tmp_path: Path) -> None:
+    """hier_var (可変 {1,2}): 2 レベル (69の4-27) と 3 レベル (70-1-3 = 70条1項 通達3) を同一 config で捕捉。
+
+    FU-543 の本丸。num_levels 固定では両立できない 2/3 レベル混在を dash-level {1,2} で吸収する。
+    2 レベルが 3 レベル化しない (over-capture なし) ことも同時に pin。
+    """
+    mod = _import_parser()
+    root = tmp_path / "sochi"
+    _write(root / "69_4" / "01.htm", _page(("69の4－27", "（甲）", "2 レベル本文。")))
+    _write(root / "70_1" / "01.htm", _page(("70－1－3", "（乙）", "3 レベル本文。")))
+    rc, recs = _run(mod, root, tmp_path / "out")
+    assert rc == 0
+    nums = {r["directive_number"] for r in recs}
+    assert "69の4-27" in nums, "2 レベルが捕捉されていない"
+    assert "70-1-3" in nums, "3 レベル (70条1項 通達3) が捕捉されていない"
+
+
+def test_hier_var_excludes_old_law(tmp_path: Path) -> None:
+    """旧法 (「旧」始まり) は数値開始の _FIRST_LEVEL に非マッチで除外される (旧70の3の3・70の3の4-1)。
+
+    現行 directive (70-3-4) と旧法を同居させ、現行のみ捕捉・旧法は非収録を pin する (旧法単独ページは
+    「no directive」で parser が fail-loud になるため、現行と混在させて除外を検証する)。
+    """
+    mod = _import_parser()
+    root = tmp_path / "sochi"
+    _write(
+        root / "70_3" / "03.htm",
+        _page(
+            ("70－3－4", "（現行）", "現行3レベル本文。"),
+            ("旧70の3の3・70の3の4－1", "（丙）", "旧法本文。"),
+        ),
+    )
+    rc, recs = _run(mod, root, tmp_path / "out")
+    assert rc == 0
+    nums = {r["directive_number"] for r in recs}
+    assert "70-3-4" in nums, "現行 3 レベルが捕捉されていない"
+    assert not any(n.startswith("旧") for n in nums), f"旧法が誤収録: {sorted(nums)}"
 
 
 def test_named_law_not_falsely_linked_to_souzoku(tmp_path: Path) -> None:
