@@ -330,6 +330,111 @@ SOCHI_SHOTOKU_CONFIG = CircularConfig(
     num_levels=2,
 )
 
+# 租税特別措置法関係通達 (相続税法の特例関係)・FU-541。sochi-joto (山林所得・譲渡所得編) を逐語
+# コピーし相続税分野の値へ変更。num_style は sochi-joto と同型の "hierarchical"・num_levels=2
+# (条-番号)。**probe-don't-guess (P0-2 実測)**: 番号は 款括弧 (N) を持たず 条-番号 の 2 レベル
+# (69の4-1 / 70の2の2-3の2 / 69の4-24の3)。条跨ぎ範囲は 中黒「・」(69の6・69の7共-1 /
+# 70の3の3・70の3の4-1) で既存 _RANGE_SEP_RE の ・->_ 正規化により追加コードなしで 69の6_69の7共-1
+# へ正規化され通過する (kan_paren は 0・〜range は 0=P0-2 実測)。ref_map は本文実測 (P0-2 probe):
+# 措置法(2587)/措置法令(521)/措置法規則(140)・相続税法(148)/相続税法施行令(2)/施行規則(3)・
+# 所得税法(12)/施行令(1)・法人税法(8)・通則法(27)・租税特別措置法(7 full 形)・裸 法(10)=相続税法系
+# (相続税特例編ゆえ裸「法」は相続税法・裸 令/規 は 0)。named-law の裸「法」偽マッチを避けるため、
+# 本文に 第N条 で現れる別法令 (中小企業信用保険法/会社法/農地法/郵政民営化法/農業経営基盤強化促進法/
+# 森林法(施行規則)/生産緑地法/都市計画法/医療法/郵便局株式会社法/雇用保険法/不動産登記規則/
+# 会社計算規則/地方自治法/特定非営利活動促進法/借地借家法/市民農園整備促進法/文化財保護法/
+# 産業競争力強化法/地方税法/独立行政法人農業者年金基金法・旧/改正前措置法系) を full 形で登録し
+# corpus_unregistered に入れて unlinked 記録する (SOUZOKU/HYOKA/SHOTOKU 同型・_build_law_ref_re が
+# 長い接頭辞を優先するので named-law が裸「法」へ潰れない・parse dry-run で 偽リンク0 実証)。措置法系/
+# 相続税法系/所得税法系/法人税法/通則法は data/v0.2/phase1-tax に実在 (link 有効)。改正記号は
+# 資産税系の実証セット (SOUZOKU と同一・probe 実測 課資/直資/課審/課評 は本セットの部分集合)。
+#
+# **既知の完全性ギャップ (num_levels=2 の構造的制約・FU-541 で佐藤へ停止報告→accept-gap 確定)**:
+# 本編は同一編内で 2 レベル (条-通達 69の4-27) と 3 レベル (条-項-通達) の番号を混在させる。
+# 措置法70条1項関係 (70-1-1..70-1-14 = 14 件) と 70条3項関係 (70-3-1..70-3-4 = 4 件) の現行 18 件は
+# 「条-項-通達」の 3 レベルゆえ num_levels=2 の hierarchical では捕捉できず未収録 (num_levels=3 に
+# すると 2 レベルの現行 963 件が全滅するため単一値では両立不能・FU-541 実測)。旧措置法70の3の3・
+# 70の3の4 系 7 件は「旧」始まりゆえ数値開始の _FIRST_LEVEL に非マッチで未収録 (旧法=現行条番号と
+# 不一致ゆえ除外が正しい)。よって本 corpus は 2 レベル現行分 963 件で確定 (leaf 58 中 54 が directive
+# 産出・70_1/01・70_3/01=3 レベル現行・70_3/03=旧法・70_7/fusoku=附則 の 4 leaf は上記理由で 0 産出)。
+# taxanswer 側で 措通70-1-3 (3 レベル・未収録) は tsutatsu_not_in_corpus で unlink 維持。3 レベル
+# 現行 18 件の可変 tail 対応は要 parser 拡張ゆえ follow-up (本 FU の純加算スコープ外)。
+SOCHI_SOZOKU_CONFIG = CircularConfig(
+    law_name_ja="租税特別措置法関係通達（相続税法の特例関係）",
+    law_abbrev="sochi-sozoku-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kobetsu/sozoku/sochiho/080708",
+    ref_map={
+        "措置法施行規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (full 形・corpus 実在)
+        "措置法規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (短縮形 措置法規則)
+        "措置法令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (短縮形 措置法令・corpus 実在)
+        "租税特別措置法": "sochi-hou",  # 租税特別措置法 (full 形・corpus 実在)
+        "措置法": "sochi-hou",  # 租税特別措置法 (本体・corpus 実在)
+        "相続税法施行令": "souzoku-zei-hou-shikkourei",  # 相続税法施行令 (full 形・corpus 実在)
+        "相続税法施行規則": "souzoku-zei-hou-shikoukisoku",  # 相続税法施行規則 (full 形・corpus 実在)
+        "相続税法": "souzoku-zei-hou",  # 相続税法 (full 形・corpus 実在)
+        "所得税法施行令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (full 形・corpus 実在)
+        "所得税法": "shotoku-zei-hou",  # 所得税法 (full 形・corpus 実在)
+        "法人税法": "houjin-zei-hou",  # 法人税法 (full 形・corpus 実在)
+        "通則法": "kokuzei-tsuusoku-hou",  # 国税通則法 (corpus 実在)
+        # named-law ガード (裸「法/令/規」偽マッチ回避・corpus 未収録ゆえ unlinked 記録)。
+        "中小企業信用保険法": "chusho-kigyo-shinyou-hoken-hou",
+        "農業経営基盤強化促進法": "nogyo-keiei-kiban-kyouka-sokushin-hou",
+        "独立行政法人農業者年金基金法": "dokuritsu-gyousei-houjin-nougyousha-nenkin-kikin-hou",
+        "特定非営利活動促進法": "tokutei-hieiri-katsudou-sokushin-hou",
+        "市民農園整備促進法": "shimin-nouen-seibi-sokushin-hou",
+        "産業競争力強化法": "sangyou-kyousouryoku-kyouka-hou",
+        "郵便局株式会社法": "yuubinkyoku-kabushiki-gaisha-hou",
+        "郵政民営化法": "yuusei-mineika-hou",
+        "会社計算規則": "kaisha-keisan-kisoku",
+        "会社法": "kaisha-hou",
+        "農地法": "nouchi-hou",
+        "森林法施行規則": "shinrin-hou-shikoukisoku",
+        "森林法": "shinrin-hou",
+        "生産緑地法": "seisan-ryokuchi-hou",
+        "都市計画法": "toshi-keikaku-hou",
+        "医療法": "iryou-hou",
+        "雇用保険法": "koyou-hoken-hou",
+        "不動産登記規則": "fudousan-touki-kisoku",
+        "地方自治法": "chihou-jichi-hou",
+        "借地借家法": "shakuchi-shakuya-hou",
+        "文化財保護法": "bunkazai-hogo-hou",
+        "地方税法": "chihou-zei-hou",
+        "旧措置法": "kyu-sochi-hou",  # 旧租税特別措置法 (現行条番号と不一致ゆえ unlinked)
+        "特別措置法": "kyu-sochi-hou",  # 「特別措置法」単独表記 (旧法系・unlinked)
+        "法": "souzoku-zei-hou",  # 相続税法 (裸「法」= 相続税特例編ゆえ相続税法)
+        "令": "souzoku-zei-hou-shikkourei",  # 相続税法施行令 (裸「令」)
+        "規": "souzoku-zei-hou-shikoukisoku",  # 相続税法施行規則 (裸「規」)
+    },
+    corpus_unregistered=frozenset(
+        {
+            "chusho-kigyo-shinyou-hoken-hou",
+            "nogyo-keiei-kiban-kyouka-sokushin-hou",
+            "dokuritsu-gyousei-houjin-nougyousha-nenkin-kikin-hou",
+            "tokutei-hieiri-katsudou-sokushin-hou",
+            "shimin-nouen-seibi-sokushin-hou",
+            "sangyou-kyousouryoku-kyouka-hou",
+            "yuubinkyoku-kabushiki-gaisha-hou",
+            "yuusei-mineika-hou",
+            "kaisha-keisan-kisoku",
+            "kaisha-hou",
+            "nouchi-hou",
+            "shinrin-hou-shikoukisoku",
+            "shinrin-hou",
+            "seisan-ryokuchi-hou",
+            "toshi-keikaku-hou",
+            "iryou-hou",
+            "koyou-hoken-hou",
+            "fudousan-touki-kisoku",
+            "chihou-jichi-hou",
+            "shakuchi-shakuya-hou",
+            "bunkazai-hogo-hou",
+            "chihou-zei-hou",
+            "kyu-sochi-hou",
+        }
+    ),
+    amendment_markers=("課資", "直資", "課審", "課評"),
+    num_levels=2,
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
@@ -340,6 +445,7 @@ CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "sochi-hojin": SOCHI_HOJIN_CONFIG,
     "sochi-joto": SOCHI_JOTO_CONFIG,
     "sochi-shotoku": SOCHI_SHOTOKU_CONFIG,
+    "sochi-sozoku": SOCHI_SOZOKU_CONFIG,
 }
 
 
@@ -544,7 +650,9 @@ def _normalize_directive_num(raw: str, config: CircularConfig) -> str:
 
     Why: 全 num_style 共通で条範囲区切り (・/〜/～) を "_" に潰す (既存挙動)。kan_paren は
     さらに _fold_kan_paren で款・（共）を畳み込む。hierarchical/flat_branch では _RANGE_SEP_RE
-    のみ適用され従来と同一文字列を返す (byte 回帰で実証)。
+    のみ適用され従来と同一文字列を返す (byte 回帰で実証)。全角アラビア数字は NTA ソースの表記を
+    verbatim 保存する既存規約 (souzoku-kihon/sochi-shotoku の locked baseline は全角番号を含む・
+    FU-541 で確認) に従い hierarchical 経路では正規化しない (locked baseline を byte 不変に保つ)。
     """
     num = _RANGE_SEP_RE.sub("_", raw)
     if config.num_style == "kan_paren":

@@ -7,7 +7,9 @@ Why this test exists:
     (hojin/souzoku/hyoka と同じ場所・同じ規約)。本テストは佐藤ロック値 (全 52 件・枝番 0・
     links 154/57/133/161・content 画像 33・version_date None 0・body 211..8738) を fixture に
     対して pin し、cache がある push 前ローカルでは parser が fixture を byte 再現することを
-    検証する。
+    検証する。(FU-541 再ロック: 措置法通達 相続税特例編 sochi-sozoku-tsutatsu の設置に伴い、相続
+    タックスアンサーの 措通 69の4/70の3 系特例参照が unlinked->linked に昇格。related_directives
+    61->68 (+7 sochi-sozoku)・unlinked 55->48 (-7)。本文/title/qa/images/articles は完全不変。)
 
     母集団 (2026-07-01 実測・佐藤ロック):
         code/index.htm の /taxanswer/sozoku/ href = 52 codes
@@ -56,10 +58,12 @@ _SOZOKU_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "sozoku"
 EXPECTED_TOTAL = 52  # dedup 後のユニーク code 数 (母集団 52 - soft-404 0)
 EXPECTED_BRANCHED: frozenset[str] = frozenset()  # 枝番コードなし
 EXPECTED_ARTICLES = 256  # related_articles 総数 (FU-537: 157->256, 措法系昇格+ガード後・佐藤ロック)
-EXPECTED_DIRECTIVES = 61  # related_directives 総数 (FU-529: 57->61, 所基通昇格)
+EXPECTED_DIRECTIVES = (
+    68  # related_directives 総数 (FU-541: 61->68, 措通 69の4/70の3系 -> sochi-sozoku 7 件)
+)
 EXPECTED_QA = 133  # related_qa 総数 (href 由来・body 非依存)
 EXPECTED_UNLINKED = (
-    55  # unlinked_refs 総数 (FU-537: 154->55, 措法系 unlinked->linked 昇格・佐藤ロック)
+    48  # unlinked_refs 総数 (FU-541: 55->48, sochi-sozoku 措通 7 件が unlinked->linked・佐藤ロック)
 )
 EXPECTED_IMAGES = 33  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 13  # content 画像を持つページ数
@@ -84,6 +88,9 @@ EXPECTED_DIRECTIVE_ABBREVS = {
     "souzoku-kihon-tsutatsu": 46,
     "zaisan-hyoka-kihon-tsutatsu": 11,
     "shotoku-kihon-tsutatsu": 4,
+    # FU-541: 措置法通達(相続税特例編) 昇格。相続タックスアンサーの 措通 69の4/70の3 系特例参照が
+    # sochi-sozoku-tsutatsu へ link (category-priority = sozoku・自編一致ゆえ fallback 非発火)。
+    "sochi-sozoku-tsutatsu": 7,
 }
 _HOST = "https://www.nta.go.jp/"
 
