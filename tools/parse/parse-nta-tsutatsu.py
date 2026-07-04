@@ -442,6 +442,55 @@ SOCHI_SOZOKU_CONFIG = CircularConfig(
     num_levels=2,  # hier_var では不使用 (可変 {1,2}) だが既定値として明示保持。
 )
 
+# 租税特別措置法(株式等に係る譲渡所得等関係)の取扱い・FU-542。sochi-joto (山林所得・譲渡所得編) を
+# 逐語コピーし株式等譲渡分野の値へ変更。num_style は sochi-joto と同型の "hierarchical"・num_levels=2
+# (条-番号)。**probe-don't-guess (P0-2 実測)**: 番号は 款括弧 (N) を持たず 条-番号 の 2 レベル
+# (37の10-1 / 37の11の2-1 / 37の14の2-3の2)。混在レベル (条-項-通達) はなし=hier_var 不要 (P0-2)。
+# 条跨ぎ範囲は 中黒「・」(37の10・37の11共-1) で既存 _RANGE_SEP_RE の ・->_ 正規化により追加コード
+# なしで 37の10_37の11共-1 へ正規化され通過する (kan_paren は 0・〜range は 0=P0-2 実測)。ref_map は
+# 本文実測 (P0-2 probe): 措置法(306)/措置法令(70)/措置法規則(15)・所得税法(42)/所得税法令(58=施行令の
+# NTA 短縮表記「所得税法令第N条」実確認)・法人税法(3)/法人税法施行令(1)・通則法(2)・租税特別措置法
+# (2 full 形)・裸 令(1)=所得税法系 (株式譲渡は所得税分野ゆえ裸「法」は所得税法)。named-law の裸「法」
+# 偽マッチを避けるため、本文に 第N条 で現れる別法令 (金融商品取引法/会社法/内閣府令) を full 形で登録し
+# corpus_unregistered に入れて unlinked 記録する (SOUZOKU/SHOTOKU 同型・_build_law_ref_re が長い接頭辞を
+# 優先するので named-law が裸「法」へ潰れない・parse dry-run で 偽リンク0 実証)。措置法系/所得税法系/
+# 法人税法系/通則法は data/v0.2/phase1-tax に実在 (link 有効)。改正記号は所得税/資産税系の実証セット
+# (SHOTOKU/JOTO と同一)。
+SOCHI_KABUSHIKI_CONFIG = CircularConfig(
+    law_name_ja="租税特別措置法（株式等に係る譲渡所得等関係）の取扱い",
+    law_abbrev="sochi-kabushiki-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/020624/sanrin",
+    ref_map={
+        "措置法施行規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (full 形・corpus 実在)
+        "措置法規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (短縮形 措置法規則)
+        "措置法令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (短縮形 措置法令・corpus 実在)
+        "租税特別措置法": "sochi-hou",  # 租税特別措置法 (full 形・corpus 実在)
+        "措置法": "sochi-hou",  # 租税特別措置法 (本体・corpus 実在)
+        "所得税法施行令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (full 形・corpus 実在)
+        "所得税法令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (NTA 短縮表記 所得税法令・corpus 実在)
+        "所得税法": "shotoku-zei-hou",  # 所得税法 (full 形・corpus 実在)
+        "法人税法施行令": "houjin-zei-hou-shikkourei",  # 法人税法施行令 (full 形・corpus 実在)
+        "法人税法": "houjin-zei-hou",  # 法人税法 (full 形・corpus 実在)
+        "通則法": "kokuzei-tsuusoku-hou",  # 国税通則法 (corpus 実在)
+        # named-law ガード (裸「法/令」偽マッチ回避・corpus 未収録ゆえ unlinked 記録)。
+        "金融商品取引法": "kinyuu-shouhin-torihiki-hou",
+        "会社法": "kaisha-hou",
+        "内閣府令": "naikakufu-rei",
+        "法": "shotoku-zei-hou",  # 所得税法 (裸「法」= 株式譲渡は所得税分野ゆえ所得税法)
+        "令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (裸「令」)
+        "規": "shotoku-zei-hou-shikoukisoku",  # 所得税法施行規則 (裸「規」)
+    },
+    corpus_unregistered=frozenset(
+        {
+            "kinyuu-shouhin-torihiki-hou",
+            "kaisha-hou",
+            "naikakufu-rei",
+        }
+    ),
+    amendment_markers=("課個", "直所", "直法", "直資", "課所", "課資", "課法", "課審", "官総"),
+    num_levels=2,
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
@@ -453,6 +502,7 @@ CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "sochi-joto": SOCHI_JOTO_CONFIG,
     "sochi-shotoku": SOCHI_SHOTOKU_CONFIG,
     "sochi-sozoku": SOCHI_SOZOKU_CONFIG,
+    "sochi-kabushiki": SOCHI_KABUSHIKI_CONFIG,
 }
 
 
@@ -715,7 +765,14 @@ def _build_leading_directive_re(config: CircularConfig) -> re.Pattern:
 # (soti30..soti41)。additive に `soti\d+` を許す (既存 6 通達の cache に soti* ディレクトリは
 # 皆無ゆえ選択集合は不変 = sochi-hojin 再パース byte 回帰で実証)。fusoku (附則) は他通達と同じく
 # 非マッチで自然除外される (taxanswer が引くのは本則 soti 章の通達で附則は経過規定)。
-_CHAPTER_DIR_RE = re.compile(r"\d{2}(?:_\d+|a)?|soti\d+")
+# FU-542: 措置法通達(株式等譲渡・020624)は cache 直下に 4 桁の tree code dir (1273) を持ち、その下に
+# 条 dir (37_10 等) が入れ子になる。additive に `\d{4}` を許す (既存 9 通達の cache に 4 桁 top-dir は
+# 皆無・8 桁アーカイブ (20230930) は fullmatch で除外維持ゆえ選択集合は不変 = 既存編 再パース byte 回帰
+# で実証)。**接尾 `_\d` は付けない**: 兄弟 dir `1273_1` は「平成14年11月27日付改正以前のもの」= 旧版
+# アーカイブで現行 1273 と同一 directive_number を異本文で重複させる (fail-loud 検知・P0-1)。旧版は
+# `\d{4}` (接尾なし fullmatch) で機械除外する (現行 1273 のみ収録)。tree code 下の zenbun (前文) は
+# 0 directive で自然除外される。
+_CHAPTER_DIR_RE = re.compile(r"\d{2}(?:_\d+|a)?|soti\d+|\d{4}")
 
 # directive_id の命名規則 (ユニークさとは別の形式ゲート・査読項11)。
 # {law_abbrev}-{レベル}-... の形だけを許し (各レベルに「の」枝番可、先頭は条範囲 "_" 連結可)、
