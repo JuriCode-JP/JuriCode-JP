@@ -53,15 +53,15 @@ _JOTO_CACHE = _REPO_ROOT / "cache" / "taxanswer" / "joto"
 EXPECTED_TOTAL = 71  # dedup 後のユニーク code 数 (母集団 71 - soft-404 0)
 EXPECTED_ARTICLES = 243  # related_articles 総数 (FU-537: 81->243, 措法系昇格+ガード後・佐藤ロック)
 EXPECTED_DIRECTIVES = (
-    102  # related_directives 総数 (FU-539: 40->102, joto 措通参照が sochi-joto-tsutatsu へ link 化・
-    # +62・clean run 実測を佐藤ロック 2026-07-04)
+    103  # related_directives 総数 (FU-540: 102->103, 多編 fallback 活性化で joto の 措通41-17 が
+    # 申告所得税編 sochi-shotoku-tsutatsu へ cross-domain link・+1・clean run 実測を佐藤ロック 2026-07-04)
+    # 前身 (FU-539: 40->102, joto 措通参照が sochi-joto-tsutatsu へ link 化・+62)
 )
 EXPECTED_QA = 181  # related_qa 総数 (href 由来・body 非依存)
 EXPECTED_UNLINKED = (
-    22  # unlinked_refs 総数 (FU-539: 84->22, joto 措通参照 62 が sochi-joto-tsutatsu へ link 化し
-    # tsutatsu_not_in_corpus 68->6・clean run 実測を佐藤ロック 2026-07-04)
-    # 前身 (FU-538: 77->84, 措通昇格で他編措通参照が tsutatsu 経路の号単位に
-    # 展開され記録粒度が増加・法人税編と disjoint ゆえ全て tsutatsu_not_in_corpus・佐藤ロック 2026-07-03)
+    21  # unlinked_refs 総数 (FU-540: 22->21, 措通41-17 が sochi-shotoku へ fallback link し tsutatsu_
+    # not_in_corpus -1・clean run 実測を佐藤ロック 2026-07-04)
+    # 前身 (FU-539: 84->22, joto 措通参照 62 が sochi-joto-tsutatsu へ link 化・FU-538: 77->84)
 )
 EXPECTED_IMAGES = 26  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 18  # content 画像を持つページ数
@@ -83,8 +83,11 @@ EXPECTED_ARTICLE_ABBREVS = {
 EXPECTED_DIRECTIVE_ABBREVS = {
     "shotoku-kihon-tsutatsu": 40,
     # FU-539: joto 措通参照 (山林所得・譲渡所得編) が sochi-joto-tsutatsu corpus へ link 化。
-    # カテゴリ厳格 (joto カテゴリのみ sochi-joto へ解決)・中点 条-join 正規化 (31・32共->31_32共)。
+    # 優先編 (joto カテゴリ→sochi-joto)・中点 条-join 正規化 (31・32共->31_32共)。
     "sochi-joto-tsutatsu": 62,
+    # FU-540: 多編 fallback。joto の 措通41-17 (申告所得税編の規定) が優先編 sochi-joto に無く
+    # sochi-shotoku-tsutatsu へ fallback link (双方向 cross-domain・実際に一致した編を動的バインド)。
+    "sochi-shotoku-tsutatsu": 1,
 }
 _HOST = "https://www.nta.go.jp/"
 

@@ -546,18 +546,101 @@ def test_sochitsuu_joto_range():
     assert ids == {"sochi-joto-tsutatsu-31-3-7", "sochi-joto-tsutatsu-31-3-8"}, ids
 
 
-def test_joto_edition_strict_by_category():
-    """gate: 措通 の解決編はカテゴリ厳格。横断 fallback しない (佐藤裁定 2026-07-04)。
+def test_joto_edition_category_priority_with_fallback():
+    """gate: 措通 は優先編 (カテゴリ由来) → 他編 fallback (FU-540・佐藤 GO 2026-07-04)。
 
     同一 corpus {sochi-joto-tsutatsu: {41の5-1}} + 同一 措通41の5-1 を、カテゴリだけ変えて与える。
-    joto カテゴリは sochi-joto 編へ解決 -> link。shotoku カテゴリは既定 sochi-hojin 編へ解決され
-    (sochi-joto へ fallback しない) 未注入 corpus に無く未リンク (「他編 unlink 維持」を実証)。
+    joto カテゴリは優先編 sochi-joto で一致 -> link。shotoku カテゴリは優先編 sochi-shotoku
+    (本 corpus 未注入=空) に無く sochi-joto へ **fallback** し、実際に一致した編の law_abbrev を
+    動的バインドして sochi-joto-tsutatsu-41-5-1 に link する (FU-540 cross-domain・幽霊 ID を作らない)。
     """
     mod = _import_extractor_joto()
-    # joto: sochi-joto 編へ解決 -> link (directive_id は の->- 変換形)
+    # joto: 優先編 sochi-joto で一致 -> link (directive_id は の->- 変換形)
     assert "sochi-joto-tsutatsu-41-5-1" in _directive_ids(
         mod.extract_related_from_kikon("措通41の5-1", "joto")
     )
-    # shotoku: 既定 sochi-hojin 編へ解決・sochi-joto へ fallback しない -> 未リンク
+    # shotoku: 優先編 sochi-shotoku に無し -> sochi-joto へ fallback -> link (動的 law_abbrev=sochi-joto)。
+    # current-context (sochi-shotoku) を前置した幽霊 ID は生成されない。
     ids_shotoku = _directive_ids(mod.extract_related_from_kikon("措通41の5-1", "shotoku"))
-    assert "sochi-joto-tsutatsu-41-5-1" not in ids_shotoku, ids_shotoku
+    assert "sochi-joto-tsutatsu-41-5-1" in ids_shotoku, ids_shotoku
+    assert "sochi-shotoku-tsutatsu-41-5-1" not in ids_shotoku, ids_shotoku
+
+
+# ---------------------------------------------------------------------------
+# FU-540: 措通 多編 fallback (category-priority + fallback) + 申告所得税編 (hermetic)
+# ---------------------------------------------------------------------------
+
+
+def _import_extractor_multi():
+    """FU-540: inject sochi-shotoku + sochi-joto editions (disjoint) to pin fallback hermetically.
+
+    申告所得税編 (sochi-shotoku=41-17 等) と 山林所得・譲渡所得編 (sochi-joto=41の5-1 等) を
+    番号 disjoint で注入する。優先編ヒット (shotoku の 41-17) と fallback (shotoku の 41の5 ->
+    sochi-joto) の両方を build/chunks 非依存で検証する。
+    """
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location(
+        "parse_nta_taxanswer",
+        Path(__file__).resolve().parents[1] / "parse-nta-taxanswer.py",
+    )
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    mod._TSUTATSU_CORPUS = {
+        "sochi-shotoku-tsutatsu": {"41-17", "41-23", "25の2-1", "29の2-5"},
+        "sochi-joto-tsutatsu": {"41の5-1", "41の5-1の2"},
+    }
+    return mod
+
+
+def test_shotoku_preferred_edition_link():
+    """shotoku カテゴリ: 41系/25の2/29の2 は優先編 sochi-shotoku で一致 -> link (fallback 非発火)。"""
+    mod = _import_extractor_multi()
+    ids = _directive_ids(mod.extract_related_from_kikon("措通41-17、25の2-1、29の2-5", "shotoku"))
+    assert "sochi-shotoku-tsutatsu-41-17" in ids, ids
+    assert "sochi-shotoku-tsutatsu-25-2-1" in ids, ids
+    assert "sochi-shotoku-tsutatsu-29-2-5" in ids, ids
+
+
+def test_shotoku_41no5_cross_domain_fallback_to_joto():
+    """shotoku カテゴリ: 41の5 系は優先編 sochi-shotoku に無く sochi-joto へ fallback (タックスアンサー 3382)。"""
+    mod = _import_extractor_multi()
+    ids = _directive_ids(mod.extract_related_from_kikon("措通41の5-1、41の5-1の2", "shotoku"))
+    # 実際に一致した編 (sochi-joto) を動的バインド。current-context (sochi-shotoku) の幽霊 ID は不可。
+    assert "sochi-joto-tsutatsu-41-5-1" in ids, ids
+    assert "sochi-joto-tsutatsu-41-5-1-2" in ids, ids
+    assert not any(i.startswith("sochi-shotoku-tsutatsu-41-5") for i in ids), ids
+
+
+def test_joto_41_17_cross_domain_fallback_to_shotoku():
+    """joto カテゴリ: 申告所得税編の 措通41-17 は優先編 sochi-joto に無く sochi-shotoku へ fallback (双方向)。"""
+    mod = _import_extractor_multi()
+    ids = _directive_ids(mod.extract_related_from_kikon("措通41-17", "joto"))
+    assert "sochi-shotoku-tsutatsu-41-17" in ids, ids
+
+
+def test_multi_edition_37_series_stays_unlinked():
+    """どの取込済編にも無い 37系 (株式等譲渡=020624 未取込) は unlinked 維持 (FU-542 予約)。"""
+    mod = _import_extractor_multi()
+    result = mod.extract_related_from_kikon("措通37の10", "shotoku")
+    assert _directive_ids(result) == set(), _directive_ids(result)
+    assert "措通37の10" in _unlinked_raws(result)
+
+
+def test_multi_edition_disjoint_break_fail_loud():
+    """同一番号が複数編に実在 (disjoint 破れ) したら fail-loud (SystemExit) で止める。"""
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location(
+        "parse_nta_taxanswer",
+        Path(__file__).resolve().parents[1] / "parse-nta-taxanswer.py",
+    )
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    # 同一 41-17 を 2 編に注入 (P0-5 前提違反の合成) -> fail-loud を要求。
+    mod._TSUTATSU_CORPUS = {
+        "sochi-shotoku-tsutatsu": {"41-17"},
+        "sochi-joto-tsutatsu": {"41-17"},
+    }
+    with pytest.raises(SystemExit):
+        mod.extract_related_from_kikon("措通41-17", "shotoku")

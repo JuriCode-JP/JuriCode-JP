@@ -181,6 +181,7 @@ def test_circular_config_registry() -> None:
         "hyoka",
         "sochi-hojin",
         "sochi-joto",  # FU-539: 措置法通達(山林所得・譲渡所得編)
+        "sochi-shotoku",  # FU-540: 措置法通達(申告所得税編)
     }
     hojin = mod.CIRCULAR_CONFIGS["hojin"]
     shouhi = mod.CIRCULAR_CONFIGS["shouhi"]
