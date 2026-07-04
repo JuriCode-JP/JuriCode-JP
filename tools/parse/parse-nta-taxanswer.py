@@ -139,6 +139,7 @@ _SOCHI_TSUTATSU_EDITIONS = (
     "sochi-shotoku-tsutatsu",  # 申告所得税編 (FU-540)
     "sochi-sozoku-tsutatsu",  # 相続税特例編 (FU-541)
     "sochi-kabushiki-tsutatsu",  # 株式等譲渡編 (FU-542)
+    "sochi-gensen-tsutatsu",  # 源泉所得税編 (FU-546)
 )
 
 # 措法系 (租税特別措置法本文系) の law_abbrev。FU-537 の昇格に伴うガード3種
@@ -728,11 +729,12 @@ def _normalize_edition_remainder(remainder: str, edition: str) -> str:
 
     Why: 措通は編ごとに番号表記が違う。法人税編 (sochi-hojin) は款括弧 措通61の4(1)-1 を corpus
     畳み込み形 61の4-1-1 へ ((N)/（N） -> -N)、山林所得・譲渡所得編 (sochi-joto)・相続税特例編
-    (sochi-sozoku)・株式等譲渡編 (sochi-kabushiki) は条跨ぎ共通の中黒 措通31・32共-1 /
-    69の6・69の7共-1 / 37の10・37の11共-1 を 31_32共-1 / 69の6_69の7共-1 / 37の10_37の11共-1 へ
-    (・ -> _)。申告所得税編 (sochi-shotoku) は款括弧も中黒も持たず (P0-2 実測) 正規化なし。gate を編
-    (law_abbrev) に絞ることで、非該当編には一切触れない (非 cross-cutting・FU-538/539/541/542 の款/
-    中黒 gate を統合)。法基通等の単一 corpus 系はこの分岐に該当せず素通し (byte 不変)。
+    (sochi-sozoku)・株式等譲渡編 (sochi-kabushiki)・源泉所得税編 (sochi-gensen) は条跨ぎ共通の中黒
+    措通31・32共-1 / 69の6・69の7共-1 / 37の10・37の11共-1 / 41の10・41の12共-1 を 31_32共-1 /
+    69の6_69の7共-1 / 37の10_37の11共-1 / 41の10_41の12共-1 へ (・ -> _)。申告所得税編 (sochi-shotoku)
+    は款括弧も中黒も持たず (P0-2 実測) 正規化なし。gate を編 (law_abbrev) に絞ることで、非該当編には
+    一切触れない (非 cross-cutting・FU-538/539/541/542/546 の款/中黒 gate を統合)。法基通等の単一
+    corpus 系はこの分岐に該当せず素通し (byte 不変)。
     """
     if edition == "sochi-hojin-tsutatsu":
         return re.sub(r"[（(]([0-9]+)[)）]", r"-\1", remainder)
@@ -740,6 +742,7 @@ def _normalize_edition_remainder(remainder: str, edition: str) -> str:
         "sochi-joto-tsutatsu",
         "sochi-sozoku-tsutatsu",
         "sochi-kabushiki-tsutatsu",
+        "sochi-gensen-tsutatsu",
     ):
         return remainder.replace("・", "_")
     return remainder

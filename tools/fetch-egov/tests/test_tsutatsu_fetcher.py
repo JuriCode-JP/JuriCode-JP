@@ -132,3 +132,9 @@ def test_expected_leaf_counts_locked() -> None:
         "/kobetsu/shotoku/sochiho/020624/sanrin"
     )
     assert _MOD.CIRCULARS["sochi-kabushiki"].known_soft404 == frozenset()
+    # FU-546: 措置法通達(源泉所得税)・発遣 880331/gensen/58・leaf 18 (soft-404 0=known_soft404 空)。
+    assert _MOD.CIRCULARS["sochi-gensen"].expected_leaves == 18
+    assert _MOD.CIRCULARS["sochi-gensen"].base_path.endswith(
+        "/kobetsu/shotoku/sochiho/880331/gensen/58"
+    )
+    assert _MOD.CIRCULARS["sochi-gensen"].known_soft404 == frozenset()

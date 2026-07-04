@@ -59,15 +59,15 @@ EXPECTED_ARTICLES = (
     1166  # related_articles 総数 (FU-537: 722->1166, 措法系昇格+ガード後・佐藤ロック)
 )
 EXPECTED_DIRECTIVES = (
-    218  # related_directives 総数 (FU-542: 195->218, 株式等譲渡編 sochi-kabushiki-tsutatsu 取込 + 多編
-    # fallback で 措通 37系 (37の10/37の11/37の13 系) が sochi-kabushiki へ cross-domain fallback (+23)・
-    # clean run 実測を佐藤ロック 2026-07-04。前身 (FU-540: 124->195, 申告所得税編取込 +69・41の5 +2)
+    221  # related_directives 総数 (FU-546: 218->221, 源泉編 sochi-gensen-tsutatsu 取込 + 多編 fallback
+    # で 1190 の 措通3-1+41の10・41の12共-1 と 1520 の 41の10・41の12共-1 が源泉編へ cross-domain (+3)・
+    # clean run 実測を佐藤ロック 2026-07-04。前身 (FU-542: 195->218, 株式等譲渡編取込 +23)
 )
 EXPECTED_QA = 637  # related_qa 総数 (href 由来・body 非依存)
 EXPECTED_UNLINKED = (
-    421  # unlinked_refs 総数 (FU-542: 444->421, 措通 37系が sochi-kabushiki へ link 化し
-    # tsutatsu_not_in_corpus -23・clean run 実測を佐藤ロック 2026-07-04。joto の 37-N は自編で解決=不変)
-    # 前身 (FU-540: 515->444, 措通 41系/25/29/41の5 が link 化し -71)
+    418  # unlinked_refs 総数 (FU-546: 421->418, 措通3-1/41の10・41の12共-1 が源泉編へ link 化し
+    # tsutatsu_not_in_corpus -3・clean run 実測を佐藤ロック 2026-07-04)
+    # 前身 (FU-542: 444->421, 措通 37系が sochi-kabushiki へ link 化し -23)
 )
 EXPECTED_IMAGES = 58  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 35  # content 画像を持つページ数
@@ -101,6 +101,9 @@ EXPECTED_DIRECTIVE_ABBREVS = {
     # FU-542: 37系 (株式等譲渡 37の10/37の11/37の13) は sochi-kabushiki(020624) へ cross-domain
     # fallback link (near-pattern: joto の 37-N とは別 directive_number ゆえ非衝突)。
     "sochi-kabushiki-tsutatsu": 23,
+    # FU-546: 源泉編 措通 (3-1 利子所得分離課税・41の10・41の12共-1 給付補てん金) が sochi-gensen-
+    # tsutatsu へ cross-domain fallback link (1190 に 3-1+共・1520 に 共・中黒 gate で解決)。
+    "sochi-gensen-tsutatsu": 3,
 }
 _HOST = "https://www.nta.go.jp/"
 

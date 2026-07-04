@@ -491,6 +491,64 @@ SOCHI_KABUSHIKI_CONFIG = CircularConfig(
     num_levels=2,
 )
 
+# 租税特別措置法に係る所得税の取扱い(源泉所得税関係)・FU-546。sochi-kabushiki (株式等譲渡編・
+# 所得税分野・hierarchical・num_levels=2) を逐語コピーし源泉所得税分野の値へ変更。
+# **probe-don't-guess (P0-2 実測)**: 番号は 款括弧 (N) を持たず 条-番号 の 2 レベル
+# (4の2-1 / 8の2-1 / 9の2-1 / 29の3-2 / 41の9-4 / 41の22-1)。混在レベル (条-項-通達) は
+# なし=hier_var 不要。条跨ぎ共通は 中黒「・」+「共」(41の10・41の12共-1) で既存 _RANGE_SEP_RE の
+# ・->_ 正規化により追加コードなしで 41の10_41の12共-1 へ通過する (kabushiki と同一・kan_paren 0)。
+# ref_map は本文実測 (P0-2 probe): 措置法(117)/措置法令(69)/措置法規則(4)/措置法施行令(1)・
+# 所得税法(15)/所得税法施行令(1)・裸 法/令/規=所得税法系 (源泉は所得税分野)。同法(9)/同令(29) は
+# 照応参照で既存所得税編 (kabushiki/shotoku/joto=20/24/56 件) と同様に bare 法/令 経由で
+# 所得税法系へ解決される既存挙動 (追加コードなし)。named-law の裸「法/令」偽マッチを避けるため、
+# 本文に 第N条 で現れる別法令 (財形法/財形法令/外為法/外為令/外為省令/外国貿易法/外国為替令/
+# 賃金支払確保法) を full 形で登録し corpus_unregistered に入れて unlinked 記録する (KABUSHIKI/
+# SOZOKU 同型・_build_law_ref_re が長い接頭辞を優先するので named-law が裸「法」へ潰れない・
+# parse dry-run で 偽リンク0 実証)。改正記号は所得税/資産税系の実証セット (KABUSHIKI と同一)。
+SOCHI_GENSEN_CONFIG = CircularConfig(
+    law_name_ja="租税特別措置法に係る所得税の取扱い（源泉所得税関係）",
+    law_abbrev="sochi-gensen-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/880331/gensen/58",
+    ref_map={
+        "措置法施行規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (full 形・corpus 実在)
+        "措置法規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (短縮形 措置法規則)
+        "措置法令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (短縮形 措置法令・corpus 実在)
+        "租税特別措置法": "sochi-hou",  # 租税特別措置法 (full 形・corpus 実在)
+        "措置法": "sochi-hou",  # 租税特別措置法 (本体・corpus 実在)
+        "所得税法施行令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (full 形・corpus 実在)
+        "所得税法令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (NTA 短縮表記 所得税法令)
+        "所得税法": "shotoku-zei-hou",  # 所得税法 (full 形・corpus 実在)
+        "法人税法施行令": "houjin-zei-hou-shikkourei",  # 法人税法施行令 (full 形・corpus 実在)
+        "法人税法": "houjin-zei-hou",  # 法人税法 (full 形・corpus 実在)
+        "通則法": "kokuzei-tsuusoku-hou",  # 国税通則法 (corpus 実在)
+        # named-law ガード (裸「法/令」偽マッチ回避・corpus 未収録ゆえ unlinked 記録・P0-2 実測)。
+        "財形法施行令": "kinrousha-zaisan-keisei-sokushin-hou-shikkourei",  # 財形法令 full 形
+        "財形法令": "kinrousha-zaisan-keisei-sokushin-hou-shikkourei",  # 勤労者財産形成促進法施行令
+        "財形法": "kinrousha-zaisan-keisei-sokushin-hou",  # 勤労者財産形成促進法
+        "外国為替令": "gaikoku-kawase-rei",  # 外国為替令 (full 形)
+        "外為省令": "gaikoku-kawase-shourei",  # 外国為替に関する省令
+        "外為令": "gaikoku-kawase-rei",  # 外国為替令 (短縮形 外為令)
+        "外為法": "gaikoku-kawase-oyobi-gaikoku-boueki-hou",  # 外国為替及び外国貿易法
+        "外国貿易法": "gaikoku-kawase-oyobi-gaikoku-boueki-hou",  # 外国為替及び外国貿易法 (末尾)
+        "賃金支払確保法": "chingin-shiharai-kakuho-hou",  # 賃金の支払の確保等に関する法律
+        "法": "shotoku-zei-hou",  # 所得税法 (裸「法」= 源泉所得税は所得税分野ゆえ所得税法)
+        "令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (裸「令」)
+        "規": "shotoku-zei-hou-shikoukisoku",  # 所得税法施行規則 (裸「規」)
+    },
+    corpus_unregistered=frozenset(
+        {
+            "kinrousha-zaisan-keisei-sokushin-hou-shikkourei",
+            "kinrousha-zaisan-keisei-sokushin-hou",
+            "gaikoku-kawase-rei",
+            "gaikoku-kawase-shourei",
+            "gaikoku-kawase-oyobi-gaikoku-boueki-hou",
+            "chingin-shiharai-kakuho-hou",
+        }
+    ),
+    amendment_markers=("課個", "直所", "直法", "直資", "課所", "課資", "課法", "課審", "官総"),
+    num_levels=2,
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
@@ -503,6 +561,7 @@ CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "sochi-shotoku": SOCHI_SHOTOKU_CONFIG,
     "sochi-sozoku": SOCHI_SOZOKU_CONFIG,
     "sochi-kabushiki": SOCHI_KABUSHIKI_CONFIG,
+    "sochi-gensen": SOCHI_GENSEN_CONFIG,  # FU-546
 }
 
 
