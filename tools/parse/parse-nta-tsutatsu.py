@@ -549,6 +549,78 @@ SOCHI_GENSEN_CONFIG = CircularConfig(
     num_levels=2,
 )
 
+# 租税特別措置法関係通達 (第40条 取扱い)・FU-547。800423 (直資2-181・昭55.4.23・措法40条1項後段の
+# 譲渡所得等の非課税取扱い)。所得税(譲渡所得)分野の個別通達。num_style は HYOKA と同じ "flat_branch"
+# (財産評価型・単発通し番号 + の枝番)。**probe-don't-guess (PS-3 実測)**: 番号は 01.htm=目次が列挙する
+# flat 通し 1..52 + の枝番 8 (19の2/20の2/20の3/23の2/23の3/23の4/24の2/27の2) = 60。「40条」は
+# directive 番号でなく h2 セクション見出し〔措置法第40条第N項関係〕にのみ現れる (hierarchical ではない)。
+# 本文は 02..23.htm の content ページで <h2>(title) + <p><strong>N</strong>本文 の既存 flat_branch が
+# 処理する markup。strong-gate が (注) 平文番号 "1"/"2" を排除するので num_levels=1 の膨張を起こさない
+# (60 unique・dup 0・_directive_id_ok 全通過=PS 実測)。附則 22.htm は <li> 構造ゆえ <p><strong> 抽出に
+# 非該当で自然に 0 件 (dup "1" 自動回避)。ref_map は全 content 本文実測 (PS-6 probe): 措置法(99)/措令
+# (71・短縮形)/措置法施行令/措置法施行規則/措規・所得税法(3)/裸 法=所得税分野・法人税法(3)/法人税法
+# 施行令(2)・通則法。同法(29)/同令 は照応参照で既存所得税編と同様に bare 法/令 経由で所得税法系へ解決
+# される既存挙動 (追加コードなし)。named-law の裸「法」偽マッチを避けるため、本文に 第N条 で現れる別法令
+# (一般社団・財団法人法/公益認定法/整備法/社会福祉法/医療法(施行規則)/更生保護事業法/博物館法/学校教育
+# 法/児童福祉法/介護保険法/特定非営利活動促進法) を full 形で登録し corpus_unregistered に入れて unlinked
+# 記録する (SOZOKU/KABUSHIKI/GENSEN 同型・_build_law_ref_re が長い接頭辞を優先するので named-law が裸
+# 「法」へ潰れない・parse dry-run で 誤リンク0 実証)。措置法系/所得税法系/法人税法系/通則法は
+# data/v0.2/phase1-tax に実在 (link 有効)。改正記号は所得税/資産税系の実証セット (GENSEN と同一)。
+SOCHI_40JOU_CONFIG = CircularConfig(
+    law_name_ja="租税特別措置法関係通達（第40条 取扱い）",
+    law_abbrev="sochi-40jou-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/800423",
+    ref_map={
+        "措置法施行規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (full 形・corpus 実在)
+        "措置法施行令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (full 形・corpus 実在)
+        "租税特別措置法施行令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (最長 full 形)
+        "租税特別措置法": "sochi-hou",  # 租税特別措置法 (full 形・corpus 実在)
+        "措置法令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (短縮形 措置法令)
+        "措置法": "sochi-hou",  # 租税特別措置法 (本体・corpus 実在)
+        "措令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (NTA 短縮表記 措令・PS-6: 71 件)
+        "措規": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (短縮形 措規)
+        "所得税法施行令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (full 形・corpus 実在)
+        "所得税法": "shotoku-zei-hou",  # 所得税法 (full 形・corpus 実在)
+        "法人税法施行令": "houjin-zei-hou-shikkourei",  # 法人税法施行令 (full 形・corpus 実在)
+        "法人税法": "houjin-zei-hou",  # 法人税法 (full 形・corpus 実在)
+        "通則法": "kokuzei-tsuusoku-hou",  # 国税通則法 (corpus 実在)
+        # named-law ガード (裸「法」偽マッチ回避・corpus 未収録ゆえ unlinked 記録・PS-6 実測)。
+        "一般社団・財団法人法": "ippan-shadan-zaidan-houjin-hou",  # 一般社団法人及び一般財団法人に関する法律 (略称)
+        "公益認定法": "koueki-nintei-hou",  # 公益社団法人及び公益財団法人の認定等に関する法律 (略称)
+        "整備法": "seibi-hou",  # 一般社団・財団法人法等の施行に伴う関係法律の整備等に関する法律 (略称)
+        "社会福祉法": "shakai-fukushi-hou",
+        "医療法施行規則": "iryou-hou-shikoukisoku",  # 医療法施行規則 (施行規則ゆえ裸接頭辞に非該当だが full 登録)
+        "医療法": "iryou-hou",
+        "更生保護事業法": "kousei-hogo-jigyou-hou",
+        "博物館法": "hakubutsukan-hou",
+        "学校教育法": "gakkou-kyouiku-hou",
+        "児童福祉法": "jidou-fukushi-hou",
+        "介護保険法": "kaigo-hoken-hou",
+        "特定非営利活動促進法": "tokutei-hieiri-katsudou-sokushin-hou",
+        "法": "shotoku-zei-hou",  # 所得税法 (裸「法」= 40条は譲渡所得ゆえ所得税分野)
+        "令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (裸「令」)
+        "規": "shotoku-zei-hou-shikoukisoku",  # 所得税法施行規則 (裸「規」)
+    },
+    corpus_unregistered=frozenset(
+        {
+            "ippan-shadan-zaidan-houjin-hou",
+            "koueki-nintei-hou",
+            "seibi-hou",
+            "shakai-fukushi-hou",
+            "iryou-hou-shikoukisoku",
+            "iryou-hou",
+            "kousei-hogo-jigyou-hou",
+            "hakubutsukan-hou",
+            "gakkou-kyouiku-hou",
+            "jidou-fukushi-hou",
+            "kaigo-hoken-hou",
+            "tokutei-hieiri-katsudou-sokushin-hou",
+        }
+    ),
+    amendment_markers=("課個", "直所", "直法", "直資", "課所", "課資", "課法", "課審", "官総"),
+    num_style="flat_branch",
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
@@ -562,6 +634,7 @@ CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "sochi-sozoku": SOCHI_SOZOKU_CONFIG,
     "sochi-kabushiki": SOCHI_KABUSHIKI_CONFIG,
     "sochi-gensen": SOCHI_GENSEN_CONFIG,  # FU-546
+    "sochi-40jou": SOCHI_40JOU_CONFIG,  # FU-547
 }
 
 
