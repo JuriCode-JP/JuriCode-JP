@@ -145,11 +145,19 @@ def test_expected_leaf_counts_locked() -> None:
     assert _MOD.CIRCULARS["sochi-40jou"].known_soft404 == frozenset()
     assert _MOD.CIRCULARS["sochi-40jou"].toc_content is True
 
+    # FU-551: 措置法通達(間接諸税関係)・発遣 990625・TOC->content モード・content ページ 14
+    # (01.htm=目次・02..08.htm 系=本文)。soft-404 0 (全 14 ページ実体あり)=known_soft404 空。
+    assert _MOD.CIRCULARS["sochi-kansetsu"].expected_leaves == 14
+    assert _MOD.CIRCULARS["sochi-kansetsu"].base_path.endswith("/kobetsu/kansetsu/sochiho/990625")
+    assert _MOD.CIRCULARS["sochi-kansetsu"].known_soft404 == frozenset()
+    assert _MOD.CIRCULARS["sochi-kansetsu"].toc_content is True
+
 
 def test_toc_content_flag_backward_compat() -> None:
-    """toc_content は sochi-40jou のみ True。既存 7 Circular は False (discover 経路不変)."""
+    """toc_content は TOC->content 型 (sochi-40jou/sochi-kansetsu) のみ True。既存 BFS 型は False."""
+    toc_content_keys = {"sochi-40jou", "sochi-kansetsu"}
     for key, circ in _MOD.CIRCULARS.items():
-        expected = key == "sochi-40jou"
+        expected = key in toc_content_keys
         assert circ.toc_content is expected, (
             f"{key} の toc_content が想定外: {circ.toc_content} (期待 {expected})"
         )

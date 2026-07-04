@@ -194,6 +194,22 @@ CIRCULARS: dict[str, Circular] = {
         expected_leaves=24,
         toc_content=True,
     ),
+    # 租税特別措置法関係通達(間接諸税関係)・FU-551。揮発油税・石油石炭税・航空機燃料税・
+    # 自動車重量税・印紙税の間接諸税に係る措置法通達 (平11.6.25 課消4-15 ほか)。base は
+    # kansetsu/sochiho/発遣日 990625 (NTA landing 実確認・PS-6)。sochi-40jou (800423) と同じ
+    # 01.htm=目次・02..08.htm=本文の flat TOC 構成 (本文 href が base 相対 1 セグメントゆえ既存
+    # BFS では 0 leaf・toc_content=True で目次から content を拾う)。content ページ 14
+    # (02/03/03_2/04/04_2/05/05_2/06/07/07_2/07_3/07_4/07_5/08 を 01.htm 目次が全列挙・PS-6 実測。
+    # 頁順≠章順: 06=第3章・07 系=第5章・08=第4章)。soft-404 は 0 (全 14 ページ実体あり) ゆえ
+    # known_soft404 不要。
+    "sochi-kansetsu": Circular(
+        key="sochi-kansetsu",
+        label="租税特別措置法関係通達（間接諸税関係）",
+        base_path="/law/tsutatsu/kobetsu/kansetsu/sochiho/990625",
+        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-kansetsu",
+        expected_leaves=14,
+        toc_content=True,
+    ),
 }
 
 
