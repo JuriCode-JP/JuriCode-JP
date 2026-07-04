@@ -114,12 +114,28 @@ class CircularConfig:
     #       {1,2} の可変個 (先頭条レベルに続く 1〜2 個の "-N") で組み、款 fold も全角正規化もせず
     #       (既定 _normalize_directive_num 経路 = _RANGE_SEP_RE のみ・全角 verbatim) hierarchical と
     #       完全に同じ正規化を通す。旧法 (「旧」始まり) は数値開始の _FIRST_LEVEL に非マッチで自然除外。
-    num_style: Literal["hierarchical", "flat_branch", "kan_paren", "hier_var"] = "hierarchical"
+    #   "section_scoped": 間接諸税措通型 (FU-551・sochi-kansetsu 専用)。他 4 style と根本的に異なり、
+    #       directive 番号が **自己完結番号でない**。本文の <p>/<li><strong>N</strong> は節/条スコープ
+    #       内の単なる running 番号 (各 <h1> グループで 1 からリセット) で、条は <h1> 見出し
+    #       (租特法第88条の7《…》関係 等) から解決する。directive_id = <解決条>-<running> (88の7-1)。
+    #       <h1> の 4 形態 (単一条 / 範囲共通「から…共通」/ 併記「及び」/ 条なし章) を
+    #       _resolve_section_article で解決し、条なし章は section_article_overrides で補完する。
+    #       専用の _extract_section_scoped_items が処理する (既存 4 style の _extract_directive_items
+    #       は一切通らない＝全編 byte 不変)。<li> ラップ番号も拾うため tag 走査に li を含める。
+    num_style: Literal["hierarchical", "flat_branch", "kan_paren", "hier_var", "section_scoped"] = (
+        "hierarchical"
+    )
     # 取込から除外するファイル名 (basename) の集合。既定は空 = 全ファイル取込 (byte 不変)。
     # 措置法通達は改正で同一条番号に別制度が併載される事故があり (旧 02_57_4.htm 原子力発電施設
     # 解体準備金 vs 新 02_57_4_2.htm 特定原子力施設炉心等除去準備金 = 同 id 異本文 fail-loud)、
     # 旧版を basename で機械除外する。多章 (--cache-root) / 単章 (--cache-dir) 両モードで効く。
     exclude_files: frozenset[str] = field(default_factory=frozenset)
+    # section_scoped 専用: 条なし章 (h1 が 章見出しで 租特法第N条 を欠く) の補完条マップ。
+    # キー = 章番号 (str)、値 = 補完する条 (directive_id の条部・例 "90の15")。既定は空 =
+    # 補完なし。sochi-kansetsu の 第4章 自動車重量税還付は h1「第4章 自動車重量税の還付措置関係」
+    # に条表記が無く、補完条は本文が引く 租特令第51条の5 -> 措法90条の15 (施行令51の5 の親条・
+    # data/v0.2 で実測確認) を用いる。他 style では未使用。
+    section_article_overrides: Mapping[str, str] = field(default_factory=dict)
 
 
 # 法人税基本通達 (既定・byte 回帰で固定。値は移行前の module 定数と完全一致)。
@@ -621,6 +637,40 @@ SOCHI_40JOU_CONFIG = CircularConfig(
     num_style="flat_branch",
 )
 
+# 租税特別措置法関係通達 (間接諸税関係)・FU-551。990625 (平11.6.25 課消4-15 ほか・揮発油税/
+# 石油石炭税/航空機燃料税/自動車重量税/印紙税の間接諸税に係る措置法通達)。num_style は新規
+# "section_scoped" (他 4 style と根本的に異なり、directive 番号が節/条スコープの running 番号で、
+# 条は <h1> 見出しから解決する)。NTA URL は個別通達パス "kobetsu/kansetsu/sochiho/990625"。
+# **probe-don't-guess (FU-551 PS 実測)**: 全 directive = 72 (第1章 揮発油 7 / 第2章 石油石炭 34 /
+# 第3章 航空機燃料 13 / 第4章 自動車重量 2 / 第5章 印紙 16)。<h1> の 4 形態 = 単一条 (租特法第88条の
+# 7《…》関係 -> 88の7) / 範囲共通 (第1節 …第90条の3の4から第90条の6の3共通関係 -> 90の3の4_90の
+# 6の3共) / 併記 (…第90条の8の2《…》及び第90条の9 -> 先頭条 90の8の2 primary) / 条なし章 (第4章
+# 自動車重量税の還付措置関係 = h1 に条表記なし -> section_article_overrides["4"]=90の15)。
+# **補完条 90の15 の根拠**: 08.htm 本文は 租特令第51条の5 を引き、data/v0.2 の 措法施行令51条の5 は
+# 「法第九十条の十五第一項に規定する…」と明記＝親条は 措法90条の15 (自動車重量税還付・使用済自動車)。
+# 90条の12 は自動車重量税の免除/軽減 (エコカー減税) で別制度ゆえ不採用。
+# **ref_map は本文実測 (PS-5 probe)**: 租特法(174)/租特令(32・施行令短縮形)/租特規則(6・施行規則
+# 短縮形) の 3 系のみ。**裸「法/令/規」第N条 は本文にゼロ (実測)** ゆえ ref_map に含めない＝named-law
+# (航空機燃料税法/印紙税法/航空法/建設業法/揮発油税法/道路運送車両法 等) が裸「法」へ潰れる経路が
+# 構造的に存在せず、誤リンク0 が自明に成立する (他編の named-law ガード列挙は裸「法」がある編の対策で、
+# 本編は不要)。同法/同規則 (照応) は明示接頭辞を要する R8 で既存どおり除外。措法系3法は全て
+# data/v0.2/phase1-tax に実在 (corpus_unregistered 空・全 link)。改正記号は 課消 のみ (実測 84 件・
+# 間接諸税は消費税課所管ゆえ SHOUHI と同じ 課消。briefing の guessed list 課個/直所/… は本編に不在)。
+SOCHI_KANSETSU_CONFIG = CircularConfig(
+    law_name_ja="租税特別措置法関係通達（間接諸税関係）",
+    law_abbrev="sochi-kansetsu-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kobetsu/kansetsu/sochiho/990625",
+    ref_map={
+        "租特法": "sochi-hou",  # 租税特別措置法 (本体・corpus 実在・PS-5: 174 件)
+        "租特令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (短縮形 租特令・PS-5: 32 件)
+        "租特規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (短縮形 租特規則・PS-5: 6 件)
+    },
+    corpus_unregistered=frozenset(),
+    amendment_markers=("課消",),
+    num_style="section_scoped",
+    section_article_overrides={"4": "90の15"},  # 条なし章 (第4章 自動車重量税還付) -> 措法90の15
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
@@ -635,6 +685,7 @@ CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "sochi-kabushiki": SOCHI_KABUSHIKI_CONFIG,
     "sochi-gensen": SOCHI_GENSEN_CONFIG,  # FU-546
     "sochi-40jou": SOCHI_40JOU_CONFIG,  # FU-547
+    "sochi-kansetsu": SOCHI_KANSETSU_CONFIG,  # FU-551
 }
 
 
@@ -936,11 +987,16 @@ def _build_directive_id_tail_re(config: CircularConfig) -> re.Pattern:
     hier_var:     '{first}(?:-{level}){1,2}' = 条 + 1〜2 dash-level (FU-543・sochi-sozoku)。
                   2 レベル (69の4-27) と 3 レベル (70-1-3) を同一ゲートで受理 (kan_paren の tail
                   と同形・款 fold なしで数値主体)。旧法 (「旧」始まり) は _ID_FIRST_LEVEL に非マッチ。
+    section_scoped: '{first}-{level}' = <解決条>-<running> の丁度 1 dash-level (FU-551・
+                  sochi-kansetsu)。first は範囲共通 "_" 連結 (90の3の4_90の6の3共) を _ID_FIRST_LEVEL
+                  が受理し、running は純 running 番号 (_LEVEL の数字1個以上で一致)。
     """
     if config.num_style == "flat_branch":
         return re.compile(rf"{_ID_FIRST_LEVEL}(?:-{_LEVEL})?")
     if config.num_style in ("kan_paren", "hier_var"):
         return re.compile(rf"{_ID_FIRST_LEVEL}(?:-{_LEVEL}){{1,2}}")
+    if config.num_style == "section_scoped":
+        return re.compile(rf"{_ID_FIRST_LEVEL}-{_LEVEL}")
     return re.compile("-".join([_ID_FIRST_LEVEL] + [_LEVEL] * (config.num_levels - 1)))
 
 
@@ -1021,20 +1077,26 @@ def _build_directive_record(
 # 入れ子ブロックは find_all で個別に巡回され各々処理されるため、親段落のテキストからは
 # 除外して二重計上を防ぐ。整形済みページ (入れ子なし) では fast-path で get_text と完全一致。
 _NESTED_BLOCK_TAGS = ("h1", "h2", "p", "table")
+# section_scoped 専用: directive が <ol>/<li> にラップされる (sochi-kansetsu 04.htm 90の5-5) ため
+# li/ol/ul も入れ子ブロックとして除外し、親 li の本文に子 li/p を二重計上しない。
+_SECTION_SCOPED_NESTED_TAGS = ("h1", "h2", "p", "table", "li", "ol", "ul")
 
 
-def _text_excluding_nested_blocks(tag, separator: str = "") -> str:
-    """tag のテキストを、入れ子のブロック要素 (_NESTED_BLOCK_TAGS) を除いて取得する。
+def _text_excluding_nested_blocks(
+    tag, separator: str = "", nested_tags: tuple[str, ...] = _NESTED_BLOCK_TAGS
+) -> str:
+    """tag のテキストを、入れ子のブロック要素 (nested_tags) を除いて取得する。
 
     Why: malformed HTML で親 <p> が後続ブロックを吸い込んだとき、親段落の get_text は
     子の通達本文まで含んでしまい二重計上になる。入れ子ブロックを除いた「その段落自身の
     テキスト」だけを返すことで正しい帰属にする。**入れ子が無い整形済み段落では
-    get_text(separator) と同一文字列を返す** (= 既存コーパス byte 不変)。
+    get_text(separator) と同一文字列を返す** (= 既存コーパス byte 不変)。nested_tags 既定は
+    _NESTED_BLOCK_TAGS ゆえ既存呼び出しは byte 不変。section_scoped は li/ol/ul も含む集合を渡す。
     """
-    if tag.find(_NESTED_BLOCK_TAGS) is None:
+    if tag.find(nested_tags) is None:
         return tag.get_text(separator=separator)
     clone = copy.copy(tag)  # bs4 は recursive copy。clone を破壊しても原木は不変。
-    for el in clone.find_all(_NESTED_BLOCK_TAGS):
+    for el in clone.find_all(nested_tags):
         el.decompose()
     return clone.get_text(separator=separator)
 
@@ -1047,6 +1109,12 @@ def _extract_directive_items(
     One dict per directive item (e.g. 9-2-9, 9-2-10, ...).
     R4: handles multiple items per page.
     """
+    # section_scoped (FU-551・sochi-kansetsu) は directive 番号が節/条スコープの running 番号で
+    # 条を <h1> から解決する根本的に別構造ゆえ、専用関数へ完全分離する。既存 4 style のロジック
+    # (本関数の以降) は一切変更しない＝全編 byte 不変 (回帰ゲートで実証)。
+    if config.num_style == "section_scoped":
+        return _extract_section_scoped_items(soup, source_url, config)
+
     items: list[dict] = []
     # current_title = 直近に出現した見出し (h2) = 次に始まる項の見出し (pending)。
     # current_item_title = いま蓄積中の項に確定済みの見出し。
@@ -1232,6 +1300,187 @@ def _extract_directive_items(
     if not items:
         warnings.warn(f"WARN: no directive items parsed from {source_url}", stacklevel=2)
 
+    return items
+
+
+# ---------------------------------------------------------------------------
+# section_scoped extraction (FU-551・sochi-kansetsu 専用・他 style と完全分離)
+# ---------------------------------------------------------------------------
+
+# <h1> 見出しから条トークンを抽出 (第90条の3の4 -> 90条の3の4)。全 num_style の _LEVEL とは独立で、
+# section_scoped の条解決専用。
+_SECTION_ART_RE = re.compile(r"第(\d+条(?:の\d+)*)")
+# 章見出し (第N章…) 判定。h1 が章見出しかつ条を欠く = 条なし章 (第4章 自動車重量税還付)。
+_SECTION_CHAPTER_RE = re.compile(r"^第(\d+)章")
+# section 境界 nav (p/li の <strong> 冒頭が 第N章/第N節/第N款、または 目次へ戻る)。ページ末尾の
+# 章・節ナビエコーや発遣リンクを検出し、直前 directive の本文に吸い込ませない。
+_SECTION_NAV_RE = re.compile(r"^第[0-9０-９]+[章節款]|目次へ戻る")
+
+
+def _norm_art_token(tok: str) -> str:
+    """条トークンを directive_id の条部へ正規化 (90条の3の4 -> 90の3の4・全角数字は半角化)。
+
+    Why: <h1> は 条 を「第88条の７」等 全角数字混在で書くことがある (NTA 表記ゆれ)。条 を除去し
+    全角数字を NFKC 半角化して directive_id の条部を安定させる (88の7)。「の」枝番は保持する。
+    """
+    t = tok.replace("条", "")
+    return re.sub(r"[0-9０-９]+", lambda m: unicodedata.normalize("NFKC", m.group(0)), t)
+
+
+def _resolve_section_article(h1_text: str, chapter: str, config: CircularConfig) -> str | None:
+    """<h1> 節/条見出しから directive_id の条部を解決する (section_scoped・4 形態)。
+
+    Why: section_scoped は directive 番号が running ゆえ条を <h1> から解く。実測 4 形態:
+      1. 単一条  「租特法第88条の7《…》関係」            -> 88の7
+      2. 範囲共通「…第90条の3の4から第90条の6の3共通関係」-> 90の3の4_90の6の3共 (先頭_末尾共)
+      3. 併記    「…第90条の8の2《…》及び第90条の9…」    -> 90の8の2 (先頭条を primary)
+      4. 条なし章「第4章 自動車重量税の還付措置関係」      -> section_article_overrides[chapter]
+    範囲は「から」/「共通」で判定し (併記より先)、併記は「及び」で 2 条以上。条トークン 0 個 =
+    条なし章 ゆえ override を引く (未登録 chapter は None -> 呼び出し側が directive を作らない)。
+    """
+    arts = _SECTION_ART_RE.findall(h1_text)
+    if not arts:
+        return config.section_article_overrides.get(chapter)
+    toks = [_norm_art_token(a) for a in arts]
+    if "から" in h1_text or "共通" in h1_text:
+        return f"{toks[0]}_{toks[-1]}共"
+    # 単一条・併記いずれも先頭条を primary とする (併記の副条は本文参照で related_articles に載る)。
+    return toks[0]
+
+
+def _extract_section_scoped_items(
+    soup: BeautifulSoup, source_url: str, config: CircularConfig
+) -> list[dict]:
+    """section_scoped (FU-551・間接諸税措通) の 1 ページ -> directive dict 群。
+
+    Why: directive 番号が節/条スコープの running 番号 (<p>/<li><strong>N</strong>) で、条は <h1> から
+    解決する。既存 4 style の _extract_directive_items とは走査タグ (li を含む)・番号意味論・条解決が
+    全く異なるため完全分離する。title-lag 修正 (current_item_title を番号検出時に束縛) は既存関数と
+    同方針。本文は _SECTION_SCOPED_NESTED_TAGS を除外して二重計上を防ぐ (li ラップ directive 対応)。
+    """
+    items: list[dict] = []
+    chapter = "?"
+    current_article: str | None = None  # <h1> から解決した条部 (running のスコープ)
+    current_title: str | None = None  # pending の h2 見出し
+    current_item_title: str | None = None  # 番号検出時に束縛した確定見出し (lag 修正)
+    current_num: str | None = None
+    current_body_parts: list[str] = []
+    current_amendment: str | None = None
+    nested = _SECTION_SCOPED_NESTED_TAGS
+
+    def _flush() -> None:
+        nonlocal current_num
+        if current_num is None:
+            return
+        body = "\n".join(current_body_parts).strip()
+        amendment_note = current_amendment
+        if amendment_note is None:
+            marker_alt = "|".join(re.escape(m) for m in config.amendment_markers)
+            amend_m = re.search(rf"（[^）]*(?:{marker_alt})[^）]*）\s*$", body)
+            if amend_m:
+                amendment_note = amend_m.group(0)
+                body = body[: amend_m.start()].rstrip()
+        body = _normalize_text(body)
+        related = _extract_related_articles(body, config)
+        items.append(
+            _build_directive_record(
+                num=current_num,
+                title=current_item_title or "",
+                body=body,
+                amendment_note=amendment_note or "",
+                related=related,
+                source_url=source_url,
+                config=config,
+            )
+        )
+        current_num = None
+
+    body_area = soup.find(id="bodyArea") or soup.find(id="contents")
+    if body_area is None:
+        warnings.warn(f"WARN: bodyArea not found in {source_url}", stacklevel=2)
+        return items
+
+    for tag in body_area.find_all(["h1", "h2", "p", "table", "li"]):
+        name = tag.name
+
+        if name == "table":
+            if current_num is not None:
+                table_text = _normalize_text(tag.get_text(separator="\n")).strip()
+                if table_text:
+                    current_body_parts.append(table_text)
+            continue
+
+        if name == "h1":
+            h1_text = _normalize_whitespace(tag.get_text()).strip()
+            _flush()
+            m = _SECTION_CHAPTER_RE.match(h1_text)
+            if m and not _SECTION_ART_RE.search(h1_text):
+                chapter = m.group(1)  # 条なし章 (h1 が章見出し・08.htm 第4章)
+            current_article = _resolve_section_article(h1_text, chapter, config)
+            current_item_title = None
+            current_title = None
+            current_body_parts = []
+            current_amendment = None
+            continue
+
+        if name == "h2":
+            current_title = tag.get_text(strip=True)
+            continue
+
+        # p / li: <strong> 冒頭が running 番号なら directive 開始。章/節 nav は境界。
+        strong = tag.find("strong")
+        ptext = _normalize_whitespace(
+            _text_excluding_nested_blocks(tag, nested_tags=nested)
+        ).strip()
+        if strong is not None:
+            stext = _normalize_whitespace(strong.get_text()).strip()
+            cm = _SECTION_CHAPTER_RE.match(stext)
+            if cm:  # 第N章 (ページ冒頭マーカー or 末尾ナビエコー)
+                _flush()
+                if not _SECTION_ART_RE.search(stext):
+                    chapter = cm.group(1)
+                current_article = None
+                current_title = None
+                continue
+            if _SECTION_NAV_RE.match(stext):  # 第N節/第N款 ナビエコー or 目次へ戻る
+                _flush()
+                current_article = None
+                current_title = None
+                continue
+            sdigit = unicodedata.normalize("NFKC", re.sub(r"\s", "", stext))
+            if (
+                sdigit.isdigit()
+                and current_article is not None
+                and re.match(rf"^\s*{sdigit}\b", ptext)
+            ):
+                _flush()
+                current_num = f"{current_article}-{sdigit}"
+                current_item_title = current_title
+                current_title = None  # consume-once (title-lag 修正)
+                current_body_parts = []
+                current_amendment = None
+                remainder = re.sub(rf"^\s*{sdigit}\s*", "", ptext, count=1).strip()
+                if remainder:
+                    current_body_parts.append(remainder)
+                continue
+
+        if "目次へ戻る" in ptext or "取扱いについて（法令解釈通達）の発遣" in ptext:
+            _flush()
+            current_article = None
+            current_title = None
+            continue
+
+        if current_num is not None:
+            raw_text = _normalize_whitespace(
+                _text_excluding_nested_blocks(tag, "\n", nested_tags=nested)
+            ).strip()
+            if raw_text:
+                current_body_parts.append(raw_text)
+
+    _flush()
+
+    if not items:
+        warnings.warn(f"WARN: no directive items parsed from {source_url}", stacklevel=2)
     return items
 
 
