@@ -140,6 +140,12 @@ _SOCHI_TSUTATSU_EDITIONS = (
     "sochi-sozoku-tsutatsu",  # 相続税特例編 (FU-541)
     "sochi-kabushiki-tsutatsu",  # 株式等譲渡編 (FU-542)
     "sochi-gensen-tsutatsu",  # 源泉所得税編 (FU-546)
+    # NB: 措法40条取扱編 (sochi-40jou-tsutatsu・FU-547) は **意図的に加えない**。800423 は directive 番号が
+    # flat 通し 1..52 で、taxanswer のカンマ継続裸番号 (措通37の11-12、13 の "13" = 37の11-13 / 措通
+    # 69の4-27、28 の "28" = 69の4-28) が sochi-40jou の flat 13/28 へ誤マッチする (真リンク0・偽リンク2
+    # を出典照合で実証・FU-547)。800423 の flat directive は taxanswer から解決可能な 措法条-form で参照
+    # されず真リンクは得られないため、fallback 母集団に入れると誤リンクだけが生じる (誤リンク0 ゲート違反)。
+    # corpus は build/chunks/retrieval には取込済 (taxanswer クロスリンクにのみ非参加)。佐藤裁定 2026-07-04。
 )
 
 # 措法系 (租税特別措置法本文系) の law_abbrev。FU-537 の昇格に伴うガード3種

@@ -71,6 +71,14 @@ class Circular:
     # discover 後に機械除外する (expected_leaves は除外後の実コンテンツ数)。NTA が TOC/実体を
     # 増減したら完全性ゲート (除外後 != expected_leaves) が fail-loud で捕捉する。
     known_soft404: frozenset[str] = frozenset()
+    # TOC->content モード (FU-547・800423 措法40条取扱通達)。既定 False は既存 BFS。True のとき
+    # 目次 01.htm がリストする **同階層の 1 セグメント content ページ** (02.htm..23.htm) を content
+    # leaf として取得する。この通達は 01.htm=目次・02..23.htm=本文という flat 構成で、本文ページの
+    # href が base 相対 1 セグメント ('02.htm') ゆえ既存 discover_leaves は全て「索引」と誤分類し
+    # BFS しても 2 セグメント leaf がゼロ = 0 leaf になる (FU-547 P0 実測)。toc_content=True は
+    # 目次から 1 セグメント href を content として拾い、flat rel ('02.htm') で cache 保存する。
+    # 既存 7 Circular は False ゆえ discover 経路不変 (後方互換 byte-regression で実証)。
+    toc_content: bool = False
 
 
 CIRCULARS: dict[str, Circular] = {
@@ -171,6 +179,21 @@ CIRCULARS: dict[str, Circular] = {
         cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-gensen",
         expected_leaves=18,
     ),
+    # 租税特別措置法関係通達(第40条 取扱い)・FU-547。所得税(譲渡所得)分野の個別通達 (直資2-181・
+    # 昭55.4.23)。base は shotoku/sochiho/発遣日 800423 (NTA sotihou.htm landing の live href
+    # 800423/01.htm を実確認・P0-1)。この通達は 01.htm=目次・02..23.htm=本文の flat 構成で、本文
+    # href が base 相対 1 セグメントゆえ既存 BFS では 0 leaf になる (toc_content=True で目次から
+    # content を拾う)。content ページ 24 (02..21 + 12_2 + 21_2 + 22(附則) + 23 を 01.htm 目次が
+    # 全列挙・P0 実測)。soft-404 は 0 (全 24 ページ実体あり) ゆえ known_soft404 不要。附則 22.htm は
+    # <li> 構造ゆえ parser の <p><strong> 抽出で自然に 0 directive (本則 60 directive)。
+    "sochi-40jou": Circular(
+        key="sochi-40jou",
+        label="租税特別措置法関係通達（第40条 取扱い）",
+        base_path="/law/tsutatsu/kobetsu/shotoku/sochiho/800423",
+        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-40jou",
+        expected_leaves=24,
+        toc_content=True,
+    ),
 }
 
 
@@ -224,6 +247,25 @@ def discover_leaves(base_path: str, sleep: float) -> list[str]:
     return sorted(all_leaves)
 
 
+def discover_toc_content(base_path: str, sleep: float) -> list[str]:
+    """TOC->content モード (FU-547): 目次 01.htm がリストする同階層 content ページを返す。
+
+    Why: 800423 措法40条取扱通達は 01.htm=目次・02..23.htm=本文の flat 構成。本文 href は base
+    相対 1 セグメント ('02.htm') ゆえ discover_leaves は「索引」と誤分類し 0 leaf になる。ここでは
+    目次 01.htm 内の base 直下 1 セグメント href を content leaf として拾い (自己参照 01.htm を
+    除外)、昇順で返す。実在 href のみ辿るので nav / 外部リンクは extract_links の base prefix
+    ゲートで除外。
+    """
+    landing = f"{base_path}/01.htm"
+    html = http_get(HOST + landing)
+    index_pages, leaves = extract_links(html, base_path)
+    # 1 セグメント href = content ページ (目次自身を除く)。2 セグメント leaf が万一あれば併合する
+    # (この通達は 0 だが後続の TOC 型通達で入れ子があっても取りこぼさない・完全性ゲートで検算)。
+    content = {h for h in index_pages if h != landing} | set(leaves)
+    time.sleep(sleep)
+    return sorted(content)
+
+
 def save_leaf(href: str, base_path: str, cache_dir: Path, *, force: bool) -> bool:
     """1 leaf を取得し cache_dir/<rel> へ raw bytes で保存。保存したら True。
 
@@ -249,7 +291,10 @@ def fetch_circular(circ: Circular, sleep: float, *, force: bool, expect: int | N
     print("=" * 60)
     print(f"{circ.label} ({circ.key})  base={circ.base_path}")
     print("=" * 60)
-    leaves = discover_leaves(circ.base_path, sleep)
+    if circ.toc_content:
+        leaves = discover_toc_content(circ.base_path, sleep)
+    else:
+        leaves = discover_leaves(circ.base_path, sleep)
     # 既知の soft-404 leaf (NTA stale TOC・live リンクだが実体なし) を機械除外する。
     # 除外後の実コンテンツ数を完全性ゲートにかけるので、NTA が TOC/実体を増減したら
     # (未知の soft-404 混入・既知の soft-404 復活/消滅) 除外後 != expected で fail-loud になる。

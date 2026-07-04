@@ -138,3 +138,41 @@ def test_expected_leaf_counts_locked() -> None:
         "/kobetsu/shotoku/sochiho/880331/gensen/58"
     )
     assert _MOD.CIRCULARS["sochi-gensen"].known_soft404 == frozenset()
+    # FU-547: 措置法通達(第40条 取扱い)・発遣 800423・TOC->content モード・content ページ 24
+    # (01.htm=目次・02..23.htm=本文)。soft-404 0 (全 24 ページ実体あり)=known_soft404 空。
+    assert _MOD.CIRCULARS["sochi-40jou"].expected_leaves == 24
+    assert _MOD.CIRCULARS["sochi-40jou"].base_path.endswith("/kobetsu/shotoku/sochiho/800423")
+    assert _MOD.CIRCULARS["sochi-40jou"].known_soft404 == frozenset()
+    assert _MOD.CIRCULARS["sochi-40jou"].toc_content is True
+
+
+def test_toc_content_flag_backward_compat() -> None:
+    """toc_content は sochi-40jou のみ True。既存 7 Circular は False (discover 経路不変)."""
+    for key, circ in _MOD.CIRCULARS.items():
+        expected = key == "sochi-40jou"
+        assert circ.toc_content is expected, (
+            f"{key} の toc_content が想定外: {circ.toc_content} (期待 {expected})"
+        )
+
+
+def test_discover_toc_content(monkeypatch) -> None:
+    """TOC->content モード: 目次 01.htm の同階層 1 セグメント content ページを拾い、自己参照
+    01.htm と subtree 外リンクを除外する (FU-547・network なし=http_get を monkeypatch)."""
+    base = "/law/tsutatsu/kobetsu/shotoku/sochiho/800423"
+    toc = _html(
+        [
+            f"{base}/01.htm",  # 目次自身 (除外)
+            f"{base}/02.htm#a-1",  # content (fragment 付き)
+            f"{base}/03.htm",  # content
+            f"{base}/12_2.htm",  # 枝章 content
+            "/law/tsutatsu/menu.htm",  # subtree 外 (除外)
+            "/law/index.htm",  # subtree 外 (除外)
+        ]
+    )
+    monkeypatch.setattr(_MOD, "http_get", lambda url, timeout=30: toc)
+    got = _MOD.discover_toc_content(base, sleep=0.0)
+    assert got == [
+        f"{base}/02.htm",
+        f"{base}/03.htm",
+        f"{base}/12_2.htm",
+    ]
