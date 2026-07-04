@@ -159,6 +159,18 @@ CIRCULARS: dict[str, Circular] = {
         cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-kabushiki",
         expected_leaves=18,
     ),
+    # 租税特別措置法に係る所得税の取扱い(源泉所得税関係)・FU-546。所得税分野の個別通達ゆえ
+    # base は shotoku/sochiho/発遣日 880331/gensen/58 (NTA sotihou.htm landing の唯一 live
+    # href = 880331/gensen/58/01.htm を実確認・P0-1)。leaf 18 (章 dir 03〜42 の 16 leaf +
+    # zenbun/fusoku を BFS 全発見・P0-1 実測)。soft-404 は 0 (全 18 leaf 実体あり・P0-4) ゆえ
+    # known_soft404 不要。zenbun/fusoku は parser 側 (_CHAPTER_DIR_RE) で非 directive として除外。
+    "sochi-gensen": Circular(
+        key="sochi-gensen",
+        label="租税特別措置法に係る所得税の取扱い（源泉所得税関係）",
+        base_path="/law/tsutatsu/kobetsu/shotoku/sochiho/880331/gensen/58",
+        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-gensen",
+        expected_leaves=18,
+    ),
 }
 
 
