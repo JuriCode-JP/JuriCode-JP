@@ -1,7 +1,8 @@
 """test_sochi_promotion_guards.py -- FU-537 措置法 prefix 昇格 + parser ガード3種の unit pin.
 
 Why this test exists:
-    FU-537 は 措法/措令/措規 を LAW_PREFIX_MAP へ昇格し (措通は FU-536 保留ゆえ UNREG 据置)、
+    FU-537 は 措法/措令/措規 を LAW_PREFIX_MAP へ昇格し (措通は当時 FU-536 保留ゆえ UNREG 据置。
+    後に FU-538 で措通も昇格・FU-545 で下記 test_sochu_* の期待値を実挙動へ追随更新)、
     生昇格が生む dangling (P0 で 14 他法令偽リンク + 11 malformed + 6 genuine gap) を
     ガード3種で 0 化する:
       D 継承ガード (inherited_cross_law): 措法系 prefix を継承する非数字開始トークン (別法令名) を unlink
@@ -111,10 +112,24 @@ def test_C_corpus_gap_is_unlinked() -> None:
 # --- 境界 (措通据置 / kaisei_funsoku 不変) --------------------------------
 
 
-def test_sochu_still_unlinked_after_promotion() -> None:
-    """措通 は FU-536 保留ゆえ昇格せず、corpus_unregistered として unlinked 据置。"""
+def test_sochu_still_unlinked_after_promotion(monkeypatch) -> None:
+    """措通 は FU-538 で LAW_PREFIX_MAP へ昇格済ゆえ、措法専用 reason corpus_unregistered
+    には論理的にならない。66の4-1 は実在する directive ではなく (実 corpus は 66の4-1-N の
+    3階層のみ・P0-0 実測)、昇格後 prefix で解決を試みても corpus に無いため
+    tsutatsu_not_in_corpus として unlinked になる (FU-545 で期待値を実挙動へ追随)。
+
+    Hermetic (FU-545): _TSUTATSU_CORPUS を実 corpus 構造の最小スタブ (3階層 66の4-1-N のみ・
+    2階層 66の4-1 なし) に固定し、build/chunks の有無に依存せず CI/ローカルで同一挙動にする。
+
+    落ちたら直すのはパーサ (parse-nta-taxanswer.py) であって本 test の期待値ではない。
+    """
+    # 実 corpus 構造の最小再現: 2階層 66の4-1 は存在せず 3階層 66の4-1-N のみ (P0-0 fixture 実測)。
+    monkeypatch.setattr(
+        _mod, "_TSUTATSU_CORPUS", {"sochi-hojin-tsutatsu": {"66の4-1-1", "66の4-1-2"}}
+    )
     res = extract("措通66の4-1")
-    assert _reason_for(res, "措通66の4-1") == "corpus_unregistered"
+    assert _reason_for(res, "措通66の4-1") == "tsutatsu_not_in_corpus"
+    # 昇格しても存在しない 2 階層 id へ偽リンクしない
     assert not any(a["law_abbrev"] in _SOCHI for a in res["related_articles"] if "措通" in a["raw"])
 
 
