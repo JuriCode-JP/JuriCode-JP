@@ -154,7 +154,7 @@ def test_expected_leaf_counts_locked() -> None:
 
 
 def test_toc_content_flag_backward_compat() -> None:
-    """toc_content は TOC->content 型 (sochi-40jou/sochi-kansetsu) のみ True。既存 BFS 型は False."""
+    """toc_content は TOC->content 型 (sochi-40jou/sochi-kansetsu) のみ True。他は BFS で False."""
     toc_content_keys = {"sochi-40jou", "sochi-kansetsu"}
     for key, circ in _MOD.CIRCULARS.items():
         expected = key in toc_content_keys
