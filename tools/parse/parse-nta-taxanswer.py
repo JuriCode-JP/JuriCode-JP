@@ -115,6 +115,18 @@ _TSUTATSU_PREFIXES = frozenset(
     {"法基通", "相基通", "評基通", "消基通", "所基通", "措通"}
 )  # 法基通 相基通 評基通 消基通 所基通 措通 (FU-538: 措通=sochi-hojin-tsutatsu)
 
+# FU-539 措通 (租税特別措置法関係通達) の**編**は taxanswer カテゴリで確定する (カテゴリ厳格・
+# 佐藤裁定 2026-07-04)。措通 は編ごとに別冊 (法人税編=sochi-hojin / 山林所得・譲渡所得編=
+# sochi-joto …) で番号体系が disjoint (P0-5=0)。LAW_PREFIX_MAP は 措通→sochi-hojin を既定に保ち、
+# 専用編を持つカテゴリのみ解決編を上書きする。**横断 fallback はしない**: shotoku/sozoku 等の
+# 措通参照は既定 sochi-hojin のまま照合され (disjoint ゆえ大半 tsutatsu_not_in_corpus)、FU-538
+# committed baseline と byte 不変 = 「他編 unlink 維持」。ここに無いカテゴリは既定 sochi-hojin。
+# (例: shotoku の 措通41の5-1 は実質譲渡措通だが本 pilot scope 外ゆえ unlink 維持・将来 FU で別途。)
+_TSUTATSU_EDITION_BY_CATEGORY = {
+    "joto": ("sochi-joto-tsutatsu", "sochi-joto-tsutatsu"),  # 山林所得・譲渡所得編 (FU-539)
+    "hojin": ("sochi-hojin-tsutatsu", "sochi-hojin-tsutatsu"),  # 法人税編 (既定と同一・明示)
+}
+
 # 措法系 (租税特別措置法本文系) の law_abbrev。FU-537 の昇格に伴うガード3種
 # (D 継承 / A・B レンジ・等 / C 実在チェック) の scope 判定に使う。措法系のみに gate する
 # ことで所法等の他 prefix を一切変えない (非 cross-cutting) ことを保証する。
@@ -463,11 +475,15 @@ def _load_sochi_corpus_ids() -> set[str]:
     return ids
 
 
-def extract_related_from_kikon(raw_kikon: str) -> dict:
+def extract_related_from_kikon(raw_kikon: str, tax_category: str = "hojin") -> dict:
     """Parse 根拠法令等 raw text into related_articles / related_directives / unlinked.
 
     Args:
         raw_kikon: raw text of 根拠法令等 section, e.g. "法法22、34、法令69、70、法基通9-2-9～11"
+        tax_category: 処理中の taxanswer カテゴリ (joto/hojin/…)。措通 (租税特別措置法関係通達) の
+            解決編をカテゴリ厳格で確定するために使う (FU-539・_TSUTATSU_EDITION_BY_CATEGORY)。
+            既定 "hojin" は従来挙動 (措通=sochi-hojin) と同一で hojin 以外の非 joto カテゴリも
+            上書き対象外ゆえ byte 不変。
 
     Returns:
         dict with keys:
@@ -552,6 +568,10 @@ def extract_related_from_kikon(raw_kikon: str) -> dict:
                 continue
 
             law_abbrev, id_prefix = LAW_PREFIX_MAP[matched_prefix]
+            # FU-539: 措通 の解決編を taxanswer カテゴリで上書き (カテゴリ厳格・横断 fallback なし)。
+            # 既定 sochi-hojin のカテゴリ (hojin/shotoku/sozoku/…) は override 対象外ゆえ byte 不変。
+            if matched_prefix == "措通" and tax_category in _TSUTATSU_EDITION_BY_CATEGORY:
+                law_abbrev, id_prefix = _TSUTATSU_EDITION_BY_CATEGORY[tax_category]
             current_prefix = matched_prefix
             current_law_abbrev = law_abbrev
             current_id_prefix = id_prefix
@@ -698,6 +718,14 @@ def _process_tsutatsu_remainder(
     # range 経路(~)/単発経路の両方が本正規化後の remainder を使う。
     if law_abbrev == "sochi-hojin-tsutatsu":
         remainder = re.sub(r"[（(]([0-9]+)[)）]", r"-\1", remainder)
+    # FU-539 中点正規化 (sochi-joto-tsutatsu 限定 gate): 山林所得・譲渡所得編は 款括弧を持たず
+    # (P0-2)、条跨ぎ共通を所得税型の 中黒「・」+ 共 (措通31・32共-1) で書く。corpus 構築側は
+    # _RANGE_SEP_RE で ・ を "_" へ畳んで 31_32共-1 を持つ (FU-539 STEP A) ため、解決側も ・ -> _
+    # を適用して corpus 形へ一致させる。Why gate: 法基通/所基通等の他 tsutatsu は 中黒 条-join を
+    # 使わない (P0/FU-538 実証) が、gate を law_abbrev に絞ることで万一他 prefix に ・ があっても
+    # 一切触れない (非 cross-cutting・款 gate と同型)。range(~)/単発の両経路が本正規化後を使う。
+    elif law_abbrev == "sochi-joto-tsutatsu":
+        remainder = remainder.replace("・", "_")
     # Check for range (~ after normalization)
     if "~" in remainder:
         expanded = _expand_range(law_abbrev, remainder, law_abbrev, law_abbrev)
@@ -967,7 +995,7 @@ def parse_file(htm_path: Path, code: str, tax_category: str, law_abbrev: str) ->
 
     # Extract related
     related_result = (
-        extract_related_from_kikon(kikon_raw)
+        extract_related_from_kikon(kikon_raw, tax_category)
         if kikon_raw
         else {
             "related_articles": [],

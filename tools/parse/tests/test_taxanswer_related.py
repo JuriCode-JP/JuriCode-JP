@@ -493,3 +493,71 @@ def test_kan_normalization_gated_to_sochi():
     assert "hojin-kihon-tsutatsu-99-1-1" not in _directive_ids(
         mod.extract_related_from_kikon("法基通99(1)-1")
     )
+
+
+# ---------------------------------------------------------------------------
+# FU-539: 措通 の多編化 (カテゴリ厳格) + sochi-joto の中点(・)正規化 (hermetic)
+# ---------------------------------------------------------------------------
+
+
+def _import_extractor_joto():
+    """FU-539: inject a tiny sochi-joto-tsutatsu corpus to pin カテゴリ厳格 + 中点正規化 hermetically.
+
+    taxanswer は譲渡編措通を 中点 条-join 形 (措通31・32共-1) で書くが FU-539 corpus は _RANGE_SEP_RE
+    で ・->_ を畳んだ形 (31_32共-1) を持つ。解決側の ・->_ 正規化を sochi-joto-tsutatsu 限定で
+    当てる挙動 + 編がカテゴリで確定する挙動を、build/chunks に依存せず committed 集合で検証する。
+    NB: corpus は directive_number 形 (の/共 保持・中点は _ 済)。
+    """
+    import importlib.util
+
+    spec = importlib.util.spec_from_file_location(
+        "parse_nta_taxanswer",
+        Path(__file__).resolve().parents[1] / "parse-nta-taxanswer.py",
+    )
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    mod._TSUTATSU_CORPUS = {
+        "sochi-joto-tsutatsu": {
+            "31_32共-1",
+            "31の3-7",
+            "31の3-8",
+            "41の5-1",
+            "33-31",
+        }
+    }
+    return mod
+
+
+def test_sochitsuu_joto_naka_kyo_single():
+    """joto カテゴリ: 措通31・32共-1 -> sochi-joto-tsutatsu-31_32共-1 (中点 ・->_ 正規化)。"""
+    mod = _import_extractor_joto()
+    ids = _directive_ids(mod.extract_related_from_kikon("措通31・32共-1", "joto"))
+    assert "sochi-joto-tsutatsu-31_32共-1" in ids, ids
+
+
+def test_sochitsuu_joto_range():
+    """joto カテゴリ: 措通31の3-7~8 -> 31の3-7, 31の3-8 (レンジ展開)。
+
+    NB: corpus membership は directive_number 形 (の 保持) で照合するが、生成 directive_id は
+    _build_directive_id が の->- 変換する (FU-538 と同一の非対称・link は number 照合で正)。
+    """
+    mod = _import_extractor_joto()
+    ids = _directive_ids(mod.extract_related_from_kikon("措通31の3-7~8", "joto"))
+    assert ids == {"sochi-joto-tsutatsu-31-3-7", "sochi-joto-tsutatsu-31-3-8"}, ids
+
+
+def test_joto_edition_strict_by_category():
+    """gate: 措通 の解決編はカテゴリ厳格。横断 fallback しない (佐藤裁定 2026-07-04)。
+
+    同一 corpus {sochi-joto-tsutatsu: {41の5-1}} + 同一 措通41の5-1 を、カテゴリだけ変えて与える。
+    joto カテゴリは sochi-joto 編へ解決 -> link。shotoku カテゴリは既定 sochi-hojin 編へ解決され
+    (sochi-joto へ fallback しない) 未注入 corpus に無く未リンク (「他編 unlink 維持」を実証)。
+    """
+    mod = _import_extractor_joto()
+    # joto: sochi-joto 編へ解決 -> link (directive_id は の->- 変換形)
+    assert "sochi-joto-tsutatsu-41-5-1" in _directive_ids(
+        mod.extract_related_from_kikon("措通41の5-1", "joto")
+    )
+    # shotoku: 既定 sochi-hojin 編へ解決・sochi-joto へ fallback しない -> 未リンク
+    ids_shotoku = _directive_ids(mod.extract_related_from_kikon("措通41の5-1", "shotoku"))
+    assert "sochi-joto-tsutatsu-41-5-1" not in ids_shotoku, ids_shotoku
