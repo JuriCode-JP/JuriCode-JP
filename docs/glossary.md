@@ -61,6 +61,7 @@ JuriCode-JPで使用する**法令略称・専門用語の日英対訳辞書**�
 | 租税特別措置法関係通達(山林所得・譲渡所得関係) | Circular on the Act on Special Measures Concerning Taxation (Timber/Capital Gains) | `sochi-joto-tsutatsu` | NTA |
 | 租税特別措置法関係通達(申告所得税関係) | Circular on the Act on Special Measures Concerning Taxation (Self-Assessed Income Tax) | `sochi-shotoku-tsutatsu` | NTA |
 | 租税特別措置法関係通達(相続税法の特例関係) | Circular on the Act on Special Measures Concerning Taxation (Inheritance Tax Special Provisions) | `sochi-sozoku-tsutatsu` | NTA |
+| 租税特別措置法(株式等に係る譲渡所得等関係)の取扱い | Circular on the Act on Special Measures Concerning Taxation (Capital Gains on Shares etc.) | `sochi-kabushiki-tsutatsu` | NTA |
 
 ---
 

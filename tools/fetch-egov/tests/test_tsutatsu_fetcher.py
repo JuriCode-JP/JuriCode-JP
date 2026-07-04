@@ -126,3 +126,9 @@ def test_expected_leaf_counts_locked() -> None:
     assert _MOD.CIRCULARS["sochi-sozoku"].expected_leaves == 58
     assert _MOD.CIRCULARS["sochi-sozoku"].base_path.endswith("/kobetsu/sozoku/sochiho/080708")
     assert _MOD.CIRCULARS["sochi-sozoku"].known_soft404 == frozenset()
+    # FU-542: 措置法通達(株式等譲渡)・発遣 020624/sanrin・leaf 18 (soft-404 0=known_soft404 空)。
+    assert _MOD.CIRCULARS["sochi-kabushiki"].expected_leaves == 18
+    assert _MOD.CIRCULARS["sochi-kabushiki"].base_path.endswith(
+        "/kobetsu/shotoku/sochiho/020624/sanrin"
+    )
+    assert _MOD.CIRCULARS["sochi-kabushiki"].known_soft404 == frozenset()

@@ -146,6 +146,19 @@ CIRCULARS: dict[str, Circular] = {
         cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-sozoku",
         expected_leaves=58,
     ),
+    # 租税特別措置法(株式等に係る譲渡所得等関係)の取扱い・FU-542。所得税(譲渡所得)分野の個別通達。
+    # base は shotoku/sochiho/発遣日 020624/sanrin (NTA sochiho landing 実確認・P0-1・唯一の entry。
+    # 020624 直下 index は soft-404 で landing のみが sanrin/01.htm を live リンク)。leaf 18
+    # (1273 系 37の10〜37の14 + 1273_1 + zenbun・索引 01/03 を BFS 全発見・sanrin 外なし)。
+    # soft-404 は 0 (全 18 leaf 実体あり・P0-4) ゆえ known_soft404 不要。旧版 1273_1 は parser 側
+    # (_CHAPTER_DIR_RE の \d{4} 接尾なし) で除外。corpus は STEP A parse で実測ロック。
+    "sochi-kabushiki": Circular(
+        key="sochi-kabushiki",
+        label="租税特別措置法（株式等に係る譲渡所得等関係）の取扱い",
+        base_path="/law/tsutatsu/kobetsu/shotoku/sochiho/020624/sanrin",
+        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-kabushiki",
+        expected_leaves=18,
+    ),
 }
 
 
