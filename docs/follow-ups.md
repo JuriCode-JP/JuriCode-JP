@@ -535,6 +535,30 @@ except ValidationError as e:
 
 ## P2 — Phase 1 中期 (2026-07〜09)
 
+### [x] FU-539: 譲渡所得措通(710826)取込＋多編リンク機構パイロット — ✅ 完了 2026-07-03 (PR #93, main 2c007bd5)
+
+**成果**: 他編措通の1本目。**`sochi-joto-tsutatsu` corpus 新設（420 directive）**＝FU-536 逐語流用で 710826（山林所得・譲渡所得関係）取込。joto タックスアンサー措通参照を **62 link 化**（`EXPECTED_DIRECTIVES` 40→102・`EXPECTED_UNLINKED` 84→22・`EXPECTED_ARTICLES` 243 不変・unique 42）。**多編リンク解決＝カテゴリ厳格**（編＝カテゴリで確定・横断 fallback なし）・`sochi-joto` 限定 gate で中点(・)→_ 正規化（`31・32共` 等の複数条 join マーカー対応）。非 joto 6 baseline 全 byte 不変・hojin 20 link held・**誤リンク 0**・CI 全9 green（pytest 761）。
+
+**設計判断**: 横断 fallback は shotoku の 措通41の5-1（実質譲渡措通）が FU-538 ロック済 shotoku baseline を変更するため、パイロットは strict 採用（後から fallback 純加算可）。cross-domain 解決は FU-540（801226 所得税編）で全体像とともに設計。
+
+**関連**: FU-536 (措通 corpus 手法) / FU-538 (措通リンク化) / FU-540・FU-541 (横展開)。
+
+### [ ] FU-540: 申告所得税措通(801226)取込＋shotoku 措通リンク化 (2026-07-03 追加・FU-539 横展開)
+
+**経緯**: 他編措通の最大 tree（801226 租税特別措置法に係る所得税の取扱い・概算300-450 directive）。shotoku タックスアンサーの措通参照51件（41系/37の10・37の11等）を link 化。FU-539 の多編機構（カテゴリ厳格）を流用。
+
+**やること**: sochi-shotoku-tsutatsu corpus 取込（FU-539 逐語流用）＋shotoku baseline 再ロック。**cross-domain 解決の設計裁定**＝譲渡規定（措法41の5 等）が所得文脈で引かれるケース（FU-539 で unlink 保留の shotoku code 3382「措通41の5-1」等）を、カテゴリ厳格のまま扱うか横断 fallback を有効化するか、全編の全体像を見て決定。**要独立計画書＋佐藤 GO**（baseline 再ロック＋設計裁定を伴う）。
+
+**関連**: FU-539 (多編機構・持ち越し元) / FU-538 (shotoku baseline)。
+
+### [ ] FU-541: 相続贈与税措通(080708)取込＋sozoku 措通リンク化 (2026-07-03 追加・FU-539 横展開)
+
+**経緯**: 相続・贈与税の措置法通達（080708・69の4小規模宅地/70系）。sozoku タックスアンサーの措通参照6件（69の4/70/70の2/70の3）を link 化。
+
+**やること**: sochi-sozoku-tsutatsu corpus 取込（FU-539 逐語流用）＋sozoku baseline 再ロック。**要独立計画書＋佐藤 GO**。
+
+**注意**: 他編措通は全体で約20 tree（概算800-1400 directive）。源泉880331・40条系・小tree群は本 FU 群の後の深さ軸フェーズ。
+
 ### [x] FU-538: 措通 prefix の taxanswer リンク化（完全版）— ✅ 完了 2026-07-03 (PR #91, main a0035f58)
 
 **成果**: 措通→`sochi-hojin-tsutatsu` 昇格（`LAW_PREFIX_MAP`＋`_TSUTATSU_PREFIXES`＋`CORPUS_UNREGISTERED_PREFIXES` から削除）＋**解決側 `parse-nta-taxanswer.py` に款(N)→-N 正規化を追加し `law_abbrev==sochi-hojin-tsutatsu` に gate**（法基通/所基通等は款括弧形を使わない＝非 cross-cutting・probe P2=0 で実証）。**hojin 20 link**（`EXPECTED_DIRECTIVES` 34→54・明示6＋継承（措通カンマ連続参照）3＋レンジ展開11＝法基通と同一記録方式・全て 933 corpus 実在）。**4 fixture（hojin/joto/shotoku/sozoku）を clean run 実測で再ロック**・gensen/inshi/shohi byte 不変・**誤リンク 0**（P3=0・編 disjoint）・CI 全9 green（pytest 742）。
@@ -1882,4 +1906,4 @@ round-trip 未検証ギャップを修復。**FU-515 Phase E の Entry Criteria*
 
 ---
 
-*Last updated: 2026-07-03 (3) — FU-538 完了マーク (措通 prefix の taxanswer リンク化・完全版: PR #91, main `a0035f58`・hojin 20 link/EXPECTED_DIRECTIVES 34→54/4 fixture 実測再ロック/誤リンク 0/CI green/pytest 742)。措通→sochi-hojin-tsutatsu 昇格＋解決側に款(N)→-N 正規化(sochi 限定 gate)。前回同日(2): FU-536 完了マーク (租税特別措置法通達 法人税編 取込・新 num_style `kan_paren`: PR #89, main `9ff1274c`・933 directive/refs 1185 全 link/0 unlinked/既存5通達 byte 不変/CI green/pytest 738)。**順序5 (租税特別措置法) 完全クローズ = FU-535 措法本文 DONE (PR #86) / FU-536 措通 DONE (PR #89) / FU-537 昇格 DONE (PR #87)** = 3本全 DONE。FU-538 起票 (措通 prefix の taxanswer リンク化・P2)。前回同日: FU-537 完了マーク (措置法系 prefix 昇格＋parser ガード3種＋7 baseline 再ロック: PR #87, main `12192e7e`・dangling 0/over-guard 0/CI green/pytest 729)。前回: 2026-06-25 — FU-522 起票 (隣接 directive 本文の重複混入 corruption 検知ゲート・P2: FU-521 #52 が掘当てた消費税 8-1-5の2 の latent 破損が directive_id ユニーク/byte 安定/CI のどれでも検知されなかった事故型への二次防御)。同日: FU-521 完了マーク (法人税基本通達 全体化: parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main `3f2133be`: 9-2 節 35 chunk → 全25章 1,382 DirectiveChunk。章/節枝番・平文番号・直法マーカー・別表/入れ子修正 = EDGE-008..012)。前回: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
+*Last updated: 2026-07-03 (4) — FU-539 完了マーク (譲渡所得措通710826取込＋多編リンク機構パイロット: PR #93, main `2c007bd5`・sochi-joto-tsutatsu corpus 420 directive/joto 62 link/EXPECTED_DIRECTIVES 40→102/EXPECTED_UNLINKED 84→22/非 joto 6 baseline byte 不変/hojin 20 link held/誤リンク 0/CI green/pytest 761)。多編リンク解決=カテゴリ厳格(横断 fallback なし・sochi-joto 限定で中点(・)→_ 正規化)。FU-540(801226 申告所得税)/FU-541(080708 相続贈与)起票。前回(3): FU-538 完了マーク (措通 prefix の taxanswer リンク化・完全版: PR #91, main `a0035f58`・hojin 20 link/EXPECTED_DIRECTIVES 34→54/4 fixture 実測再ロック/誤リンク 0/CI green/pytest 742)。措通→sochi-hojin-tsutatsu 昇格＋解決側に款(N)→-N 正規化(sochi 限定 gate)。前回同日(2): FU-536 完了マーク (租税特別措置法通達 法人税編 取込・新 num_style `kan_paren`: PR #89, main `9ff1274c`・933 directive/refs 1185 全 link/0 unlinked/既存5通達 byte 不変/CI green/pytest 738)。**順序5 (租税特別措置法) 完全クローズ = FU-535 措法本文 DONE (PR #86) / FU-536 措通 DONE (PR #89) / FU-537 昇格 DONE (PR #87)** = 3本全 DONE。FU-538 起票 (措通 prefix の taxanswer リンク化・P2)。前回同日: FU-537 完了マーク (措置法系 prefix 昇格＋parser ガード3種＋7 baseline 再ロック: PR #87, main `12192e7e`・dangling 0/over-guard 0/CI green/pytest 729)。前回: 2026-06-25 — FU-522 起票 (隣接 directive 本文の重複混入 corruption 検知ゲート・P2: FU-521 #52 が掘当てた消費税 8-1-5の2 の latent 破損が directive_id ユニーク/byte 安定/CI のどれでも検知されなかった事故型への二次防御)。同日: FU-521 完了マーク (法人税基本通達 全体化: parser PR #49/#51/#52/#53 + data PR #50/#54/#55/#56/#57, main `3f2133be`: 9-2 節 35 chunk → 全25章 1,382 DirectiveChunk。章/節枝番・平文番号・直法マーカー・別表/入れ子修正 = EDGE-008..012)。前回: 2026-06-23 — FU-514 完了マーク (PR #31 `31115d62`, main `7a28a0c4`: 法人税基本通達 Directive を Pydantic IR 化 + directive schema を drift gate 追加) + 柱1-D (reranker / HyDE) 非昇格・凍結を完了済みに記録 (Stage 1 ablation で HyDE が gate +2pt 未達・dense-only 既定確定・結果 `build/blane-stage1-results.json`) + FU-518 起票 (v7 embedding meta の provenance 欠陥・rerank text 復元不可・P3・FU-517 と同根). 前回同日: FU-515 Phase E 完了マーク (PR #29, main `51d9d1ef`) + FU-516 完了マーク (PR #27 `05e8102a`, main `0fa8c894`). FU-517 (716 dedup・P3) / FU-518 (provenance・P3) / FU-515 D-c (附則 paraphrase・P3) は open. 起票・完了マークは 計画環境、commit/push は Claude Code (tools/data/build 管轄). / Maintained by: CHOKAI Co.,Ltd. / Status: v0.7.9*
