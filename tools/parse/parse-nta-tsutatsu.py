@@ -273,6 +273,63 @@ SOCHI_JOTO_CONFIG = CircularConfig(
     num_levels=2,
 )
 
+# 租税特別措置法関係通達 (申告所得税関係)・FU-540。sochi-joto (山林所得・譲渡所得編) を逐語コピーし
+# 申告所得税編 (801226) の値へ変更。num_style は sochi-joto と同型の "hierarchical"・num_levels=2
+# (条-番号)。**probe-don't-guess (P0-2 実測)**: 番号は 款括弧 (N) を持たず 条-番号 の 2 レベル
+# (10-1 / 8の5-3 / 10の4の2-1)。条跨ぎ範囲は 〜 (10の3〜15の3-1) で既存 _FIRST_LEVEL の 〜 range +
+# _RANGE_SEP_RE の 〜->_ 正規化により追加コードなしで 10の3_15の3-1 へ正規化され通過する (kan_paren
+# は 0・中黒 ・ は 0・共 3 件=P0-2 実測)。ref_map は本文実測 (P0-2 probe): 措置法(369)/措置法令(139)/
+# 措置法規則(40)・所得税法(2)/裸 法(79)=所得税法系 (申告所得税編ゆえ裸「法」は所得税法)・裸 令(30)・
+# 通則法(1)。named-law の裸「法/令」偽マッチを避けるため、本文に 第N条 で現れる別法令
+# (労働基準法/雇用保険法/会社法/介護保険法/国土利用計画法(施行令)/建築基準法施行令/法人税法施行令/
+# 旧所得税法) を full 形で登録し corpus_unregistered に入れて unlinked 記録する (SOUZOKU/HYOKA 同型・
+# _build_law_ref_re が長い接頭辞を優先するので named-law が裸「法」へ潰れない・P0-2 で 偽リンク0 実証)。
+# 措置法系/所得税法系/通則法は data/v0.2/phase1-tax に実在 (link 有効)。改正記号は所得税/資産税系の
+# 実証セット (SHOTOKU/JOTO と同一・probe 実測 課個/直所/課所/課資/課法/直資 は本セットの部分集合)。
+SOCHI_SHOTOKU_CONFIG = CircularConfig(
+    law_name_ja="租税特別措置法関係通達（申告所得税関係）",
+    law_abbrev="sochi-shotoku-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku",
+    ref_map={
+        "措置法施行規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (full 形・corpus 実在)
+        "措置法規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (短縮形 措置法規則)
+        "措置法令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (短縮形 措置法令・corpus 実在)
+        "租税特別措置法": "sochi-hou",  # 租税特別措置法 (full 形・corpus 実在)
+        "措置法": "sochi-hou",  # 租税特別措置法 (本体・corpus 実在)
+        "所得税法施行令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (full 形・corpus 実在)
+        "所得税法": "shotoku-zei-hou",  # 所得税法 (full 形・corpus 実在)
+        "通則法": "kokuzei-tsuusoku-hou",  # 国税通則法 (corpus 実在)
+        # named-law ガード (裸「法/令」偽マッチ回避・corpus 未収録ゆえ unlinked 記録)。
+        "労働基準法": "roudou-kijun-hou",
+        "雇用保険法": "koyou-hoken-hou",
+        "会社法": "kaisha-hou",
+        "介護保険法": "kaigo-hoken-hou",
+        "国土利用計画法施行令": "kokudo-riyou-keikaku-hou-shikkourei",
+        "国土利用計画法": "kokudo-riyou-keikaku-hou",
+        "建築基準法施行令": "kenchiku-kijun-hou-shikkourei",
+        "法人税法施行令": "houjin-zei-hou-shikkourei",  # 法人税法施行令 (本 corpus では未収録扱い)
+        "旧所得税法": "kyu-shotoku-zei-hou",  # 旧所得税法 (現行条番号と不一致ゆえ unlinked)
+        "法": "shotoku-zei-hou",  # 所得税法 (裸「法」= 申告所得税編ゆえ所得税法)
+        "令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (裸「令」)
+        "規": "shotoku-zei-hou-shikoukisoku",  # 所得税法施行規則 (裸「規」)
+    },
+    corpus_unregistered=frozenset(
+        {
+            "roudou-kijun-hou",
+            "koyou-hoken-hou",
+            "kaisha-hou",
+            "kaigo-hoken-hou",
+            "kokudo-riyou-keikaku-hou-shikkourei",
+            "kokudo-riyou-keikaku-hou",
+            "kenchiku-kijun-hou-shikkourei",
+            "houjin-zei-hou-shikkourei",
+            "kyu-shotoku-zei-hou",
+        }
+    ),
+    amendment_markers=("課個", "直所", "直法", "直資", "課所", "課資", "課法", "課審", "官総"),
+    num_levels=2,
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
@@ -282,6 +339,7 @@ CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hyoka": HYOKA_CONFIG,
     "sochi-hojin": SOCHI_HOJIN_CONFIG,
     "sochi-joto": SOCHI_JOTO_CONFIG,
+    "sochi-shotoku": SOCHI_SHOTOKU_CONFIG,
 }
 
 

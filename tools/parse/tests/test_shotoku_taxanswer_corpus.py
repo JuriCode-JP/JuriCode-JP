@@ -58,11 +58,16 @@ EXPECTED_BRANCHED: frozenset[str] = frozenset(
 EXPECTED_ARTICLES = (
     1166  # related_articles 総数 (FU-537: 722->1166, 措法系昇格+ガード後・佐藤ロック)
 )
-EXPECTED_DIRECTIVES = 124  # related_directives 総数
+EXPECTED_DIRECTIVES = (
+    195  # related_directives 総数 (FU-540: 124->195, 申告所得税編 sochi-shotoku-tsutatsu 取込 + 多編
+    # fallback 活性化で 措通 41系/25の2/29の2 が sochi-shotoku へ (+69)・41の5 系が sochi-joto へ
+    # cross-domain fallback (+2)・clean run 実測を佐藤ロック 2026-07-04)
+)
 EXPECTED_QA = 637  # related_qa 総数 (href 由来・body 非依存)
 EXPECTED_UNLINKED = (
-    515  # unlinked_refs 総数 (FU-538: 491->515, 措通昇格で他編措通参照が tsutatsu 経路の号単位に
-    # 展開され記録粒度が増加・法人税編と disjoint ゆえ全て tsutatsu_not_in_corpus・佐藤ロック 2026-07-03)
+    444  # unlinked_refs 総数 (FU-540: 515->444, 措通 41系/25/29/41の5 が link 化し tsutatsu_not_in_corpus
+    # -71・clean run 実測を佐藤ロック 2026-07-04。37系/3系 は取込済編に無く unlink 維持=FU-542 予約)
+    # 前身 (FU-538: 491->515, 措通昇格で他編措通参照が tsutatsu 経路の号単位に展開され記録粒度が増加)
 )
 EXPECTED_IMAGES = 58  # content 画像 (計算表・フローチャート) 総数
 EXPECTED_IMAGE_PAGES = 35  # content 画像を持つページ数
@@ -88,6 +93,11 @@ EXPECTED_ARTICLE_ABBREVS = {
 EXPECTED_DIRECTIVE_ABBREVS = {
     "shotoku-kihon-tsutatsu": 123,
     "souzoku-kihon-tsutatsu": 1,
+    # FU-540: 申告所得税編 措通 (41系/25の2/29の2) が sochi-shotoku-tsutatsu へ link (優先編)。
+    "sochi-shotoku-tsutatsu": 69,
+    # FU-540: 41の5 系 (譲渡規定) は sochi-shotoku(801226) に無く sochi-joto(710826) へ cross-domain
+    # fallback link (タックスアンサー 3382・実際に一致した編を動的バインド)。
+    "sochi-joto-tsutatsu": 2,
 }
 _HOST = "https://www.nta.go.jp/"
 

@@ -106,3 +106,19 @@ def test_expected_leaf_counts_locked() -> None:
     assert _MOD.CIRCULARS["sochi-joto"].base_path.endswith(
         "/kobetsu/shotoku/sochiho/710826/sanrin/sanjyou"
     )
+    # FU-540: 措置法通達(申告所得税編)・発遣 801226・実コンテンツ leaf 54 (6 soft-404 除外後)。
+    assert _MOD.CIRCULARS["sochi-shotoku"].expected_leaves == 54
+    assert _MOD.CIRCULARS["sochi-shotoku"].base_path.endswith(
+        "/kobetsu/shotoku/sochiho/801226/sinkoku"
+    )
+    # 既知 soft-404 (NTA stale TOC) を明示列挙し discover 後に機械除外する。
+    assert _MOD.CIRCULARS["sochi-shotoku"].known_soft404 == frozenset(
+        {
+            "57/10/02.htm",
+            "57/10/05.htm",
+            "57/10/05_3.htm",
+            "57/10/05_5.htm",
+            "57/11/02.htm",
+            "57/13/02.htm",
+        }
+    )

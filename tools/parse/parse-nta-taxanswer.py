@@ -115,17 +115,28 @@ _TSUTATSU_PREFIXES = frozenset(
     {"法基通", "相基通", "評基通", "消基通", "所基通", "措通"}
 )  # 法基通 相基通 評基通 消基通 所基通 措通 (FU-538: 措通=sochi-hojin-tsutatsu)
 
-# FU-539 措通 (租税特別措置法関係通達) の**編**は taxanswer カテゴリで確定する (カテゴリ厳格・
-# 佐藤裁定 2026-07-04)。措通 は編ごとに別冊 (法人税編=sochi-hojin / 山林所得・譲渡所得編=
-# sochi-joto …) で番号体系が disjoint (P0-5=0)。LAW_PREFIX_MAP は 措通→sochi-hojin を既定に保ち、
-# 専用編を持つカテゴリのみ解決編を上書きする。**横断 fallback はしない**: shotoku/sozoku 等の
-# 措通参照は既定 sochi-hojin のまま照合され (disjoint ゆえ大半 tsutatsu_not_in_corpus)、FU-538
-# committed baseline と byte 不変 = 「他編 unlink 維持」。ここに無いカテゴリは既定 sochi-hojin。
-# (例: shotoku の 措通41の5-1 は実質譲渡措通だが本 pilot scope 外ゆえ unlink 維持・将来 FU で別途。)
+# FU-539/FU-540 措通 (租税特別措置法関係通達) の**編**は taxanswer カテゴリを優先編として確定し、
+# 優先編で不一致なら他 sochi 編へ fallback する (category-priority + fallback・佐藤 GO 2026-07-04)。
+# 措通は編別冊 (法人税編=sochi-hojin / 山林所得・譲渡所得編=sochi-joto / 申告所得税編=sochi-shotoku
+# …) で番号体系が pairwise disjoint (P0-5=0) ゆえ、ある番号は高々1編にしか実在せず fallback は
+# 決定的 (複数編一致は disjoint 破れ=fail-loud)。優先編は解決対象カテゴリで選ぶ (joto→sochi-joto /
+# shotoku→sochi-shotoku / hojin→sochi-hojin)。ここに無いカテゴリは既定 sochi-hojin を優先編にし、
+# 不一致なら他 sochi 編へ fallback する。波及: hojin/joto の自編参照は優先編で一致し fallback 非発火
+# (baseline byte 不変・clean-run で実証)。shotoku の 41の5 系 (譲渡規定) は sochi-shotoku(801226) に
+# 無く sochi-joto(710826) へ fallback link する (FU-540 pilot の cross-domain・タックスアンサー 3382)。
 _TSUTATSU_EDITION_BY_CATEGORY = {
     "joto": ("sochi-joto-tsutatsu", "sochi-joto-tsutatsu"),  # 山林所得・譲渡所得編 (FU-539)
+    "shotoku": ("sochi-shotoku-tsutatsu", "sochi-shotoku-tsutatsu"),  # 申告所得税編 (FU-540)
     "hojin": ("sochi-hojin-tsutatsu", "sochi-hojin-tsutatsu"),  # 法人税編 (既定と同一・明示)
 }
+
+# 措通の全編 (fallback 照合先の母集合)。番号は pairwise disjoint ゆえ順不同で照合してよいが、
+# 優先編を先頭に据えた順で試す (結果は disjoint ゆえ順序非依存)。一致編が 1 を超えたら fail-loud。
+_SOCHI_TSUTATSU_EDITIONS = (
+    "sochi-hojin-tsutatsu",  # 法人税編 (FU-536)
+    "sochi-joto-tsutatsu",  # 山林所得・譲渡所得編 (FU-539)
+    "sochi-shotoku-tsutatsu",  # 申告所得税編 (FU-540)
+)
 
 # 措法系 (租税特別措置法本文系) の law_abbrev。FU-537 の昇格に伴うガード3種
 # (D 継承 / A・B レンジ・等 / C 実在チェック) の scope 判定に使う。措法系のみに gate する
@@ -660,14 +671,22 @@ def _process_remainder(
     # FU-528: 条番号/通達番号の全角アラビア数字を半角へ正規化 (id を canonical に統一)。
     remainder = _normalize_fullwidth_digits(remainder)
 
-    is_tsutatsu = prefix in _TSUTATSU_PREFIXES  # 法基通/相基通/評基通
+    is_tsutatsu = prefix in _TSUTATSU_PREFIXES  # 法基通/相基通/評基通/消基通/所基通/措通
 
     if is_tsutatsu:
-        # この通達の law_abbrev に対応する番号集合のみで照合 (相基通/評基通 の番号衝突を回避)。
-        law_directives = tsutatsu_corpus.get(law_abbrev, set())
-        _process_tsutatsu_remainder(
-            remainder, raw_token, law_abbrev, law_directives, related_directives, unlinked
-        )
+        if law_abbrev in _SOCHI_TSUTATSU_EDITIONS:
+            # 措通: 多編 (category-priority + fallback・FU-540)。law_abbrev = 優先編。
+            # 優先編で不一致なら他 sochi 編へ fallback し、cross-domain 参照 (shotoku の 41の5 系 ->
+            # sochi-joto 等) を拾う。番号 disjoint ゆえ複数編一致は fail-loud。
+            _resolve_sochi_tsutatsu_multi(
+                remainder, raw_token, law_abbrev, tsutatsu_corpus, related_directives, unlinked
+            )
+        else:
+            # 法基通/相基通/評基通/消基通/所基通: 単一 corpus (相基通/評基通 の番号衝突を回避・byte 不変)。
+            law_directives = tsutatsu_corpus.get(law_abbrev, set())
+            _process_tsutatsu_remainder(
+                remainder, raw_token, law_abbrev, law_directives, related_directives, unlinked
+            )
     else:
         # Article reference
         # FU-537 A/B ガード (措法系のみ): レンジ (~) と 等 は単一条でないため展開せず unlink。
@@ -701,6 +720,72 @@ def _process_remainder(
         )
 
 
+def _normalize_edition_remainder(remainder: str, edition: str) -> str:
+    """措通 の taxanswer 表記を各編 corpus の directive_number 形へ正規化する (編別 gate)。
+
+    Why: 措通は編ごとに番号表記が違う。法人税編 (sochi-hojin) は款括弧 措通61の4(1)-1 を corpus
+    畳み込み形 61の4-1-1 へ ((N)/（N） -> -N)、山林所得・譲渡所得編 (sochi-joto) は条跨ぎ共通の
+    中黒 措通31・32共-1 を 31_32共-1 へ (・ -> _)。申告所得税編 (sochi-shotoku) は款括弧も中黒も
+    持たず (P0-2 実測) 正規化なし。gate を編 (law_abbrev) に絞ることで、非該当編には一切触れない
+    (非 cross-cutting・FU-538/539 の款/中黒 gate を統合)。法基通等の単一 corpus 系はこの分岐に
+    該当せず素通し (byte 不変)。
+    """
+    if edition == "sochi-hojin-tsutatsu":
+        return re.sub(r"[（(]([0-9]+)[)）]", r"-\1", remainder)
+    if edition == "sochi-joto-tsutatsu":
+        return remainder.replace("・", "_")
+    return remainder
+
+
+def _resolve_tsutatsu_in_edition(
+    remainder: str, raw_token: str, edition: str, edition_set: set[str]
+) -> tuple[list[dict], list[dict]]:
+    """1 編内で通達番号 (単発/レンジ) を解決し (linked, unlinked) を返す純関数 (副作用なし)。
+
+    Why: 多編 fallback (FU-540) が編ごとに「番号正規化 + corpus 照合」を試すため、副作用のない
+    解決コアを切り出す。related_directives/unlinked への append は呼び出し側が行う。単一 corpus 系
+    (法基通等) も本コアに委譲する (edition 正規化は非該当で素通し=byte 不変)。
+    """
+    remainder = _normalize_edition_remainder(remainder, edition)
+    linked: list[dict] = []
+    unlinked: list[dict] = []
+    if "~" in remainder:
+        expanded = _expand_range(edition, remainder, edition, edition)
+        if not expanded:
+            # Non-expandable range (の-branch or invalid) -> unlinked (R34)
+            unlinked.append({"raw": raw_token, "reason": "range_not_expandable"})
+            return linked, unlinked
+        for entry in expanded:
+            directive_num = entry["directive_num"]
+            if directive_num in edition_set:
+                linked.append(
+                    {
+                        "raw": raw_token,
+                        "directive_number": directive_num,
+                        "law_abbrev": edition,
+                        "directive_id": entry["directive_id"],
+                    }
+                )
+            else:
+                unlinked.append({"raw": raw_token, "reason": "tsutatsu_not_in_corpus"})
+    else:
+        # Single directive number
+        directive_num = remainder
+        did = _build_directive_id(edition, directive_num)
+        if directive_num in edition_set:
+            linked.append(
+                {
+                    "raw": raw_token,
+                    "directive_number": directive_num,
+                    "law_abbrev": edition,
+                    "directive_id": did,
+                }
+            )
+        else:
+            unlinked.append({"raw": raw_token, "reason": "tsutatsu_not_in_corpus"})
+    return linked, unlinked
+
+
 def _process_tsutatsu_remainder(
     remainder: str,
     raw_token: str,
@@ -709,71 +794,70 @@ def _process_tsutatsu_remainder(
     related_directives: list,
     unlinked: list,
 ) -> None:
-    """Process tsutatsu directive number (may include range like 9-2-9~11)."""
-    # FU-538 款正規化 (sochi-hojin-tsutatsu 限定 gate): taxanswer は措通を款括弧形
-    # 措通61の4(1)-1 で書くが、FU-536 corpus は款を畳み込んだ形 61の4-1-1 で持つ。解決側に
-    # 款 (N)/（N） -> -N の正規化を入れて corpus 形へ一致させる。Why gate: 法基通/所基通等の
-    # 他 tsutatsu は款括弧形を使わない (P2 で実証) が、gate を law_abbrev に絞ることで
-    # 万一他 prefix に (N) 形があっても一切触れない (非 cross-cutting・FU-537 _SOCHI_ABBREVS 同型)。
-    # range 経路(~)/単発経路の両方が本正規化後の remainder を使う。
-    if law_abbrev == "sochi-hojin-tsutatsu":
-        remainder = re.sub(r"[（(]([0-9]+)[)）]", r"-\1", remainder)
-    # FU-539 中点正規化 (sochi-joto-tsutatsu 限定 gate): 山林所得・譲渡所得編は 款括弧を持たず
-    # (P0-2)、条跨ぎ共通を所得税型の 中黒「・」+ 共 (措通31・32共-1) で書く。corpus 構築側は
-    # _RANGE_SEP_RE で ・ を "_" へ畳んで 31_32共-1 を持つ (FU-539 STEP A) ため、解決側も ・ -> _
-    # を適用して corpus 形へ一致させる。Why gate: 法基通/所基通等の他 tsutatsu は 中黒 条-join を
-    # 使わない (P0/FU-538 実証) が、gate を law_abbrev に絞ることで万一他 prefix に ・ があっても
-    # 一切触れない (非 cross-cutting・款 gate と同型)。range(~)/単発の両経路が本正規化後を使う。
-    elif law_abbrev == "sochi-joto-tsutatsu":
-        remainder = remainder.replace("・", "_")
-    # Check for range (~ after normalization)
-    if "~" in remainder:
-        expanded = _expand_range(law_abbrev, remainder, law_abbrev, law_abbrev)
-        if not expanded:
-            # Non-expandable range (の-branch or invalid) -> unlinked (R34)
+    """単一 corpus tsutatsu (法基通/相基通/評基通/消基通/所基通) の通達番号を解決する。
+
+    Why: 措通は編別冊 fallback (_resolve_sochi_tsutatsu_multi) が扱うため本関数を通らない。単一
+    corpus 系のみを扱い、解決コアは _resolve_tsutatsu_in_edition に委譲する (edition 正規化は
+    非該当で素通し=byte 不変)。unlinked は R34 (range_not_expandable) / tsutatsu_not_in_corpus を
+    警告付きで記録する (silent drop でなく記録)。
+    """
+    linked, unl = _resolve_tsutatsu_in_edition(remainder, raw_token, law_abbrev, tsutatsu_corpus)
+    related_directives.extend(linked)
+    for u in unl:
+        if u["reason"] == "range_not_expandable":
             warnings.warn(
                 f"WARN: tsutatsu range {remainder!r} cannot be expanded (R34). Unlinked.",
                 stacklevel=3,
             )
-            unlinked.append({"raw": raw_token, "reason": "range_not_expandable"})
-            return
-        for entry in expanded:
-            directive_num = entry["directive_num"]
-            did = entry["directive_id"]
-            if directive_num in tsutatsu_corpus:
-                related_directives.append(
-                    {
-                        "raw": raw_token,
-                        "directive_number": directive_num,
-                        "law_abbrev": law_abbrev,
-                        "directive_id": did,
-                    }
-                )
-            else:
-                warnings.warn(
-                    f"WARN: tsutatsu {directive_num!r} not in corpus. Unlinked.",
-                    stacklevel=3,
-                )
-                unlinked.append({"raw": raw_token, "reason": "tsutatsu_not_in_corpus"})
-    else:
-        # Single directive number
-        directive_num = remainder
-        did = _build_directive_id(law_abbrev, directive_num)
-        if directive_num in tsutatsu_corpus:
-            related_directives.append(
-                {
-                    "raw": raw_token,
-                    "directive_number": directive_num,
-                    "law_abbrev": law_abbrev,
-                    "directive_id": did,
-                }
-            )
         else:
+            warnings.warn(f"WARN: tsutatsu {raw_token!r} not in corpus. Unlinked.", stacklevel=3)
+        unlinked.append(u)
+
+
+def _resolve_sochi_tsutatsu_multi(
+    remainder: str,
+    raw_token: str,
+    preferred_edition: str,
+    tsutatsu_corpus: dict[str, set[str]],
+    related_directives: list,
+    unlinked: list,
+) -> None:
+    """措通 を優先編→他編 fallback で解決する (category-priority + fallback・FU-540)。
+
+    Why: 措通は編別冊で番号 pairwise disjoint。優先編 (カテゴリ由来) で一致すればそれを採り、
+    不一致なら他 sochi 編へ fallback して cross-domain 参照 (shotoku の 41の5 系 -> sochi-joto 等)
+    を拾う。番号は高々1編に実在するので、複数編で linked が出たら disjoint 破れ=fail-loud。優先編が
+    一致する自編参照 (hojin/joto) では fallback は非発火 (baseline byte 不変・clean-run で実証)。
+    directive_id の law_abbrev は「実際に一致した編」を動的バインドする (幽霊 ID を作らない・査読 Bug2)。
+    """
+    order = [preferred_edition] + [e for e in _SOCHI_TSUTATSU_EDITIONS if e != preferred_edition]
+    hits: list[tuple[str, list, list]] = []
+    preferred_unlinked: list = []
+    for i, edition in enumerate(order):
+        linked, unl = _resolve_tsutatsu_in_edition(
+            remainder, raw_token, edition, tsutatsu_corpus.get(edition, set())
+        )
+        if i == 0:
+            preferred_unlinked = unl
+        if linked:
+            hits.append((edition, linked, unl))
+    if len(hits) > 1:
+        editions_matched = [h[0] for h in hits]
+        raise SystemExit(
+            f"ERROR: 措通 {raw_token!r} matched multiple editions {editions_matched} "
+            "(disjoint 破れ・P0-5 前提違反)。NTA 側の番号衝突を実測で確認すること。"
+        )
+    if hits:
+        _edition, linked, unl = hits[0]
+        related_directives.extend(linked)
+        unlinked.extend(unl)  # レンジ部分ヒットの欠落メンバ (tsutatsu_not_in_corpus)
+    else:
+        # どの sochi 編にも無い -> 優先編での unlinked 結果で記録 (「他編 unlink 維持」も本経路)。
+        unlinked.extend(preferred_unlinked)
+        for _u in preferred_unlinked:
             warnings.warn(
-                f"WARN: tsutatsu {directive_num!r} not in corpus. Unlinked.",
-                stacklevel=3,
+                f"WARN: 措通 {raw_token!r} not in any sochi edition. Unlinked.", stacklevel=3
             )
-            unlinked.append({"raw": raw_token, "reason": "tsutatsu_not_in_corpus"})
 
 
 # ---------------------------------------------------------------------------

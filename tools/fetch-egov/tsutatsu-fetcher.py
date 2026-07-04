@@ -64,6 +64,13 @@ class Circular:
     base_path: str  # host を除いた root-relative の目次 base (末尾 '/' なし)
     cache_dir: Path
     expected_leaves: int
+    # 目次 (TOC) が leaf として live リンクするが実体が soft-404 の leaf 相対パス集合。
+    # 通常 soft-404 は「索引が実在 leaf のみ列挙するので自然に除外」されるが、NTA の一部
+    # 通達 (801226 申告所得税編・FU-540) は TOC が title 付きで live リンクする leaf の実体を
+    # 掲載しておらず (NTA 側の stale TOC)、discover_leaves に混入する。ここに明示列挙して
+    # discover 後に機械除外する (expected_leaves は除外後の実コンテンツ数)。NTA が TOC/実体を
+    # 増減したら完全性ゲート (除外後 != expected_leaves) が fail-loud で捕捉する。
+    known_soft404: frozenset[str] = frozenset()
 
 
 CIRCULARS: dict[str, Circular] = {
@@ -101,6 +108,31 @@ CIRCULARS: dict[str, Circular] = {
         base_path="/law/tsutatsu/kobetsu/shotoku/sochiho/710826/sanrin/sanjyou",
         cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-joto",
         expected_leaves=52,
+    ),
+    # 租税特別措置法関係通達(申告所得税関係)・FU-540。所得税分野の個別通達ゆえ base は
+    # shotoku/sochiho/発遣日 801226/sinkoku (NTA sotihou.htm ランディング実確認・P0-1)。
+    # leaf 54 (単一トップ索引 01.htm が全 leaf を 3 階層 '57/NN/NN.htm' で直接列挙・多階層
+    # サブ索引なし=既存 discover_leaves で全発見・P0-1 実測)。TOC が live リンクする 6 leaf
+    # (57/10/02・05・05_3・05_5・11/02・13/02 = 措置法 10の2/10の5/10の5の2/10の5の5/11の2/
+    # 13の3 系の 17 directive) は実体が soft-404 = NTA 側 stale TOC ゆえ known_soft404 で機械除外
+    # (実コンテンツ 54 leaf → corpus 344 directive・佐藤ロック 2026-07-04)。17 directive は NTA が
+    # 該当 URL で公開しておらず取込不能 (将来 NTA 公開 or 020624 他編で再取込)。
+    "sochi-shotoku": Circular(
+        key="sochi-shotoku",
+        label="租税特別措置法関係通達（申告所得税関係）",
+        base_path="/law/tsutatsu/kobetsu/shotoku/sochiho/801226/sinkoku",
+        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-shotoku",
+        expected_leaves=54,
+        known_soft404=frozenset(
+            {
+                "57/10/02.htm",
+                "57/10/05.htm",
+                "57/10/05_3.htm",
+                "57/10/05_5.htm",
+                "57/11/02.htm",
+                "57/13/02.htm",
+            }
+        ),
     ),
 }
 
@@ -181,6 +213,15 @@ def fetch_circular(circ: Circular, sleep: float, *, force: bool, expect: int | N
     print(f"{circ.label} ({circ.key})  base={circ.base_path}")
     print("=" * 60)
     leaves = discover_leaves(circ.base_path, sleep)
+    # 既知の soft-404 leaf (NTA stale TOC・live リンクだが実体なし) を機械除外する。
+    # 除外後の実コンテンツ数を完全性ゲートにかけるので、NTA が TOC/実体を増減したら
+    # (未知の soft-404 混入・既知の soft-404 復活/消滅) 除外後 != expected で fail-loud になる。
+    if circ.known_soft404:
+        prefix_len = len(circ.base_path) + 1
+        kept = [h for h in leaves if h[prefix_len:] not in circ.known_soft404]
+        removed = len(leaves) - len(kept)
+        print(f"  excluded {removed} known soft-404 leaf(s) (NTA stale TOC・FU-540)")
+        leaves = kept
     want = circ.expected_leaves if expect is None else expect
     print(f"  discovered leaves: {len(leaves)} (expected {want})")
     if len(leaves) != want:
