@@ -91,6 +91,17 @@ CIRCULARS: dict[str, Circular] = {
         cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-hojin",
         expected_leaves=130,
     ),
+    # 租税特別措置法関係通達(山林所得・譲渡所得関係)・FU-539。所得税分野の個別通達ゆえ base は
+    # shotoku/sochiho/発遣日 710826/sanrin/sanjyou (発遣 直資3-8・昭46.8.26・NTA menu 実確認)。
+    # leaf 52 (soti30〜41 章 + fusoku・cache 実測ロック。soti36=01/03/06・soti38 なし等の欠番章は
+    # 索引が実在 leaf のみ列挙するので自然に除外される・P0-1 で確認)。
+    "sochi-joto": Circular(
+        key="sochi-joto",
+        label="租税特別措置法関係通達（山林所得・譲渡所得関係）",
+        base_path="/law/tsutatsu/kobetsu/shotoku/sochiho/710826/sanrin/sanjyou",
+        cache_dir=REPO_ROOT / "cache" / "tsutatsu" / "sochi-joto",
+        expected_leaves=52,
+    ),
 }
 
 

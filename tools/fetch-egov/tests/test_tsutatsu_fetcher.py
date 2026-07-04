@@ -101,3 +101,8 @@ def test_expected_leaf_counts_locked() -> None:
     # FU-536: 措置法通達(法人税編) は個別通達ゆえ kobetsu/.../発遣日 750214・leaf 130。
     assert _MOD.CIRCULARS["sochi-hojin"].expected_leaves == 130
     assert _MOD.CIRCULARS["sochi-hojin"].base_path.endswith("/kobetsu/hojin/sochiho/750214")
+    # FU-539: 措置法通達(山林所得・譲渡所得編) は所得税分野の個別通達・発遣 710826・leaf 52。
+    assert _MOD.CIRCULARS["sochi-joto"].expected_leaves == 52
+    assert _MOD.CIRCULARS["sochi-joto"].base_path.endswith(
+        "/kobetsu/shotoku/sochiho/710826/sanrin/sanjyou"
+    )

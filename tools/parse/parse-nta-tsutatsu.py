@@ -239,6 +239,40 @@ SOCHI_HOJIN_CONFIG = CircularConfig(
     exclude_files=frozenset({"02_57_4.htm"}),
 )
 
+# 租税特別措置法関係通達 (山林所得・譲渡所得関係)・FU-539。sochi-hojin (法人税編) を逐語コピーし
+# 所得税分野の値へ変更。num_style は kan_paren ではなく "hierarchical"・num_levels=2 (条-番号)。
+# **probe-don't-guess (P0-2 実測)**: 本通達の番号は 款括弧 (N) を持たず 条-番号 の 2 レベル
+# (33-31 / 30の2-1 / 33の4-2の4)。条跨ぎ共通は所得税型の 中黒「・」+ 共 (31・32共-1) で、既存
+# _LEVEL の (?:共)? 接尾 + _FIRST_LEVEL の 中点 range + _RANGE_SEP_RE の ・->_ 正規化により
+# 追加コードなしで 31_32共-1 へ正規化され _directive_id_ok を通過する (P0-2 で NG0 実証)。
+# ref_map は実本文の表記を実測 (P0-2 probe): 措置法(788)/措置法令(135)/措置法規則(36)・所得税法
+# (53)/所得税法施行令(8)・裸 法(151)/令(14)=所得税法系 (譲渡・山林は所得税分野ゆえ裸「法」は
+# 所得税法)・通則法(4)・租税特別措置法(3 full 形)。_build_law_ref_re は長い接頭辞を優先するので
+# 「措置法令第N条」を「措置法」/裸「令」へ潰さない。全参照法令は data/v0.2/phase1-tax に実在
+# (corpus_unregistered 空)。改正記号は所得税/資産税系の実証セット (SHOTOKU_CONFIG と同一・probe
+# 実測 課資/課審/課個/課法/課所/直所/直資 は本セットの部分集合)。
+SOCHI_JOTO_CONFIG = CircularConfig(
+    law_name_ja="租税特別措置法関係通達（山林所得・譲渡所得関係）",
+    law_abbrev="sochi-joto-tsutatsu",
+    source_url_base="https://www.nta.go.jp/law/tsutatsu/kobetsu/shotoku/sochiho/710826/sanrin/sanjyou",
+    ref_map={
+        "措置法施行規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (full 形・corpus 実在)
+        "措置法規則": "sochi-hou-shikoukisoku",  # 租税特別措置法施行規則 (短縮形 措置法規則)
+        "措置法令": "sochi-hou-shikkourei",  # 租税特別措置法施行令 (短縮形 措置法令・corpus 実在)
+        "租税特別措置法": "sochi-hou",  # 租税特別措置法 (full 形・corpus 実在)
+        "措置法": "sochi-hou",  # 租税特別措置法 (本体・corpus 実在)
+        "所得税法施行令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (full 形・corpus 実在)
+        "所得税法": "shotoku-zei-hou",  # 所得税法 (full 形・corpus 実在)
+        "通則法": "kokuzei-tsuusoku-hou",  # 国税通則法 (corpus 実在)
+        "法": "shotoku-zei-hou",  # 所得税法 (裸「法」= 譲渡・山林は所得税分野ゆえ所得税法)
+        "令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令 (裸「令」)
+        "規": "shotoku-zei-hou-shikoukisoku",  # 所得税法施行規則 (裸「規」)
+    },
+    corpus_unregistered=frozenset(),
+    amendment_markers=("課個", "直所", "直法", "直資", "課所", "課資", "課法", "課審", "官総"),
+    num_levels=2,
+)
+
 # --circular セレクタの登録簿。
 CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "hojin": HOJIN_CONFIG,
@@ -247,6 +281,7 @@ CIRCULAR_CONFIGS: dict[str, CircularConfig] = {
     "souzoku": SOUZOKU_CONFIG,
     "hyoka": HYOKA_CONFIG,
     "sochi-hojin": SOCHI_HOJIN_CONFIG,
+    "sochi-joto": SOCHI_JOTO_CONFIG,
 }
 
 
@@ -497,7 +532,11 @@ def _build_leading_directive_re(config: CircularConfig) -> re.Pattern:
 # 13_2) と 20a (第20章) を持つため、`_\d+` / `a` 接尾辞も章として許す。前文 (zenbun/ ・
 # shohi/02.htm = root 直下の .htm で parts[0] が非 2桁) や 附則 (fusoku/)・旧版アーカイブ
 # (20230930/ = 8 桁) は fullmatch で機械的に除外する (shohi の選択集合は不変 = byte 回帰で実証)。
-_CHAPTER_DIR_RE = re.compile(r"\d{2}(?:_\d+|a)?")
+# FU-539: 措置法通達(山林所得・譲渡所得関係)は章ディレクトリを措置法条番号で命名する
+# (soti30..soti41)。additive に `soti\d+` を許す (既存 6 通達の cache に soti* ディレクトリは
+# 皆無ゆえ選択集合は不変 = sochi-hojin 再パース byte 回帰で実証)。fusoku (附則) は他通達と同じく
+# 非マッチで自然除外される (taxanswer が引くのは本則 soti 章の通達で附則は経過規定)。
+_CHAPTER_DIR_RE = re.compile(r"\d{2}(?:_\d+|a)?|soti\d+")
 
 # directive_id の命名規則 (ユニークさとは別の形式ゲート・査読項11)。
 # {law_abbrev}-{レベル}-... の形だけを許し (各レベルに「の」枝番可、先頭は条範囲 "_" 連結可)、
