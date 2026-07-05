@@ -29,6 +29,9 @@ paragraphs:
     is_added_by_amendment: false
 cases:
   - case_id: scj-1969-12-04-keishu-23-12-1573
+    case_type: precedent
+    source_license: public-domain
+    summary_source: self_summary_draft
     court: 最高裁判所第一小法廷
     court_en: Supreme Court of Japan, First Petty Bench
     decision_date: 1969-12-04

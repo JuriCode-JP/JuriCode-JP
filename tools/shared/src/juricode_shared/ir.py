@@ -29,7 +29,7 @@ docs/ir-spec.md および docs/format-spec.md の仕様を Pydantic v2 で実体
 from __future__ import annotations
 
 from datetime import date
-from typing import Any, Literal, Optional
+from typing import Annotated, Any, Literal, Optional, Union
 
 from pydantic import BaseModel, ConfigDict, Field, field_validator
 
@@ -163,24 +163,103 @@ class EnglishTranslation(BaseModel):
     source_url: str | None = Field(None, description="出典 URL")
 
 
-class CaseReference(BaseModel):
-    """判例リンク."""
+# 判例の出所・権利関係ガバナンス (2026-07-04 佐藤裁定・greenfield で出所を厳格化)。
+SourceLicense = Literal["pdl-1.0", "public-domain", "self-summary", "other"]
+SummarySource = Literal["official_pdl", "self_summary_draft", "none"]
+
+
+class AppealRelation(BaseModel):
+    """審級関係 (予約フィールド・precedent 用).
+
+    Why: 審級は「この判決の上訴審 (appeal_to)」「この判決の原審 (appealed_from)」という
+    非対称な向きを持つ (2026-07-04 佐藤裁定)。greenfield の今、正しい形状の空箱を定義し、
+    populate は将来 FU で行う (本 PR では予約のみ)。
+    """
 
     model_config = ConfigDict(extra="forbid")
 
-    case_id: str = Field(..., pattern=CASE_ID_PATTERN.pattern, description="判例の一意 ID")
+    relation: Literal["appeal_to", "appealed_from"] = Field(..., description="審級の向き")
+    case_id: str = Field(
+        ..., pattern=CASE_ID_PATTERN.pattern, description="関連する判例/裁決の case_id"
+    )
+
+
+class _CaseBase(BaseModel):
+    """判例/裁決リンクの共通基底. case_type discriminator で precedent/ruling を分岐.
+
+    Why: 裁判所の判例 (precedent) は court/court_en/citation を必須とするが、国税不服審判所の
+    裁決 (ruling) は「裁判所」も「掲載誌」も持たない (2026-07-04 佐藤裁定 案C)。両者を単一
+    モデルに optional で潰すと必須性を検証できないため discriminated union で分割する。
+    source_license / summary_source は出所・権利関係のガバナンスを greenfield で厳格化する
+    ため両種別で必須。
+    """
+
+    model_config = ConfigDict(extra="forbid")
+
+    case_id: str = Field(..., pattern=CASE_ID_PATTERN.pattern, description="判例/裁決の一意 ID")
+    decision_date: date = Field(..., description="判決/裁決の日")
+    url: str = Field(..., description="出典 permalink")
+    relevance: Relevance = Field(..., description="この条文との関連度")
+    source_license: SourceLicense = Field(..., description="出典本文の権利関係")
+    summary_source: SummarySource = Field(..., description="要約の出所")
+    case_name_ja: str | None = Field(None, description="事件名/裁決名 (日本語)")
+    relevant_paragraph: int | None = Field(None, ge=1, description="関連する項番号 (任意)")
+    summary_ja: str | None = Field(None, description="要旨 (日本語)")
+    tags: list[str] = Field(default_factory=list, description="タグ (任意)")
+
+
+class PrecedentReference(_CaseBase):
+    """裁判所の判例リンク (case_type=precedent). court/court_en/citation 必須."""
+
+    case_type: Literal["precedent"]
     court: str = Field(..., description="裁判所 (日本語)")
     court_en: str = Field(..., description="裁判所 (英語)")
-    decision_date: date = Field(..., description="判決日")
     citation: str = Field(..., description="掲載誌・巻号")
-    case_name_ja: str | None = Field(None, description="事件名 (日本語)")
     case_name_en: str | None = Field(None, description="事件名 (英語)")
-    url: str = Field(..., description="裁判所 Web の permalink")
-    relevance: Relevance = Field(..., description="この条文との関連度")
-    relevant_paragraph: int | None = Field(None, ge=1, description="関連する項番号 (任意)")
-    summary_ja: str | None = Field(None, description="判例要旨 (日本語)")
-    summary_en: str | None = Field(None, description="判例要旨 (英語)")
-    tags: list[str] = Field(default_factory=list, description="判例タグ (任意)")
+    summary_en: str | None = Field(None, description="要旨 (英語)")
+    appeal_relation: list[AppealRelation] = Field(
+        default_factory=list, description="審級関係 (予約・本 PR では populate しない)"
+    )
+
+    @field_validator("case_id")
+    @classmethod
+    def case_id_is_court_prefix(cls, v: str) -> str:
+        """precedent の case_id は裁判所 prefix (scj/hcj/dcj/fcj/smc). ntt- は裁決用ゆえ拒否.
+
+        Why: prefix と case_type の整合を IR で強制する。case-link.schema.json の if/then は現状
+        どの検証にも wiring されていない (draft) ため、実効的なゲートは IR 側に置く (P0-1)。
+        """
+        if not v.startswith(("scj-", "hcj-", "dcj-", "fcj-", "smc-")):
+            raise ValueError(
+                f"precedent case_id must start with a court prefix "
+                f"(scj-/hcj-/dcj-/fcj-/smc-), got {v!r}"
+            )
+        return v
+
+
+class RulingReference(_CaseBase):
+    """国税不服審判所の裁決リンク (case_type=ruling). court/citation を持たない."""
+
+    case_type: Literal["ruling"]
+    saiketsu_ref: str | None = Field(None, description="裁決番号・整理番号")
+    issue_code: str | None = Field(None, description="争点コード")
+    tax_item: str | None = Field(None, description="税目")
+    original_disposition_agency: str | None = Field(None, description="原処分庁")
+
+    @field_validator("case_id")
+    @classmethod
+    def case_id_is_ruling_prefix(cls, v: str) -> str:
+        """ruling の case_id は裁決 prefix (ntt-). 裁判所 prefix は判例用ゆえ拒否 (P0-1)."""
+        if not v.startswith("ntt-"):
+            raise ValueError(f"ruling case_id must start with 'ntt-', got {v!r}")
+        return v
+
+
+# 判例 (precedent) / 裁決 (ruling) の discriminated union. case_type で分岐.
+CaseReference = Annotated[
+    Union[PrecedentReference, RulingReference],
+    Field(discriminator="case_type"),
+]
 
 
 class Amendment(BaseModel):

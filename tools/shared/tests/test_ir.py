@@ -6,14 +6,16 @@ import pytest
 from pydantic import ValidationError
 
 from juricode_shared.ir import (
-    CaseReference,
+    AppealRelation,
     EnglishParagraph,
     EnglishTranslation,
     Item,
     JuriCodeArticle,
     Paragraph,
     ParentSection,
+    PrecedentReference,
     Relevance,
+    RulingReference,
     TranslationStatus,
 )
 
@@ -52,11 +54,13 @@ def test_relevance_enum() -> None:
     assert Relevance.HIGH == "high"
 
 
-# ---- CaseReference ----
+# ---- CaseReference (discriminated union: precedent / ruling) ----
 
 
-def test_case_reference_basic() -> None:
-    ref = CaseReference(
+def _precedent(**overrides) -> PrecedentReference:
+    """最小限の有効な PrecedentReference を構築."""
+    defaults = dict(
+        case_type="precedent",
         case_id="scj-pb1-1969-12-04-keishu-23-12-1573",
         court="最高裁判所第一小法廷",
         court_en="Supreme Court of Japan, First Petty Bench",
@@ -64,22 +68,107 @@ def test_case_reference_basic() -> None:
         citation="刑集23巻12号1573頁",
         url="https://www.courts.go.jp/app/hanrei_jp/detail2?id=...",
         relevance=Relevance.HIGH,
+        source_license="public-domain",
+        summary_source="self_summary_draft",
     )
+    defaults.update(overrides)
+    return PrecedentReference(**defaults)
+
+
+def _ruling(**overrides) -> RulingReference:
+    """最小限の有効な RulingReference を構築 (court/citation を持たない)."""
+    defaults = dict(
+        case_type="ruling",
+        case_id="ntt-2020-06-24-r2-1-hojin",
+        decision_date=date(2020, 6, 24),
+        url="https://www.kfs.go.jp/service/JP/...",
+        relevance=Relevance.MEDIUM,
+        source_license="other",
+        summary_source="none",
+    )
+    defaults.update(overrides)
+    return RulingReference(**defaults)
+
+
+def test_precedent_reference_basic() -> None:
+    ref = _precedent()
+    assert ref.case_type == "precedent"
     assert ref.case_id == "scj-pb1-1969-12-04-keishu-23-12-1573"
     assert ref.relevance == Relevance.HIGH
+    assert ref.appeal_relation == []  # 予約フィールドは既定で空
+
+
+def test_ruling_reference_basic_no_court() -> None:
+    """裁決 (ruling) は court/citation なしで valid (裁決に裁判所・掲載誌は存在しない)."""
+    ref = _ruling(saiketsu_ref="令2第1号", issue_code="H-01", tax_item="法人税")
+    assert ref.case_type == "ruling"
+    assert ref.case_id.startswith("ntt-")
+    assert ref.saiketsu_ref == "令2第1号"
 
 
 def test_case_reference_invalid_id_pattern() -> None:
+    """基底パターン (CASE_ID_PATTERN) に合致しない case_id は拒否."""
     with pytest.raises(ValidationError):
-        CaseReference(
-            case_id="INVALID_ID",
+        _precedent(case_id="INVALID_ID")
+
+
+def test_precedent_missing_citation_rejected() -> None:
+    """precedent は citation 必須 (欠落で reject)."""
+    with pytest.raises(ValidationError):
+        PrecedentReference(
+            case_type="precedent",
+            case_id="scj-2020-06-24-x",
             court="最高裁",
-            court_en="Supreme Court",
-            decision_date=date(1969, 12, 4),
-            citation="刑集23巻12号1573頁",
+            court_en="SCJ",
+            decision_date=date(2020, 6, 24),
             url="https://example.com",
             relevance=Relevance.HIGH,
+            source_license="public-domain",
+            summary_source="self_summary_draft",
         )
+
+
+def test_ruling_with_court_rejected_extra_forbid() -> None:
+    """ruling に court を入れると extra='forbid' で reject (種別と形状の不整合を弾く)."""
+    with pytest.raises(ValidationError):
+        _ruling(court="最高裁")
+
+
+def test_precedent_with_ntt_prefix_rejected() -> None:
+    """prefix と case_type の整合 (P0-1): precedent に ntt- prefix は reject."""
+    with pytest.raises(ValidationError, match="court prefix"):
+        _precedent(case_id="ntt-2020-06-24-x")
+
+
+def test_ruling_with_court_prefix_rejected() -> None:
+    """prefix と case_type の整合 (P0-1): ruling に scj- prefix は reject."""
+    with pytest.raises(ValidationError, match="ntt-"):
+        _ruling(case_id="scj-2020-06-24-x")
+
+
+def test_case_union_discriminates_by_case_type() -> None:
+    """JuriCodeArticle.cases は case_type で precedent/ruling を判別 (discriminated union)."""
+    article = _build_minimal_article(
+        paragraphs=[Paragraph(number=1, text="一項")],
+        cases=[
+            _precedent(relevant_paragraph=1),
+            _ruling(case_id="ntt-2020-06-24-r2-1-hojin", relevant_paragraph=1),
+        ],
+    )
+    assert isinstance(article.cases[0], PrecedentReference)
+    assert isinstance(article.cases[1], RulingReference)
+    # round-trip (dict discriminator で復元)
+    restored = JuriCodeArticle.model_validate_json(article.model_dump_json())
+    assert isinstance(restored.cases[0], PrecedentReference)
+    assert isinstance(restored.cases[1], RulingReference)
+
+
+def test_appeal_relation_shape() -> None:
+    """AppealRelation は relation の向き + case_id を持ち extra を禁止する."""
+    ar = AppealRelation(relation="appealed_from", case_id="scj-2000-01-01-x")
+    assert ar.relation == "appealed_from"
+    with pytest.raises(ValidationError):
+        AppealRelation(relation="sideways", case_id="scj-2000-01-01-x")
 
 
 # ---- JuriCodeArticle (最上位) ----
@@ -143,15 +232,7 @@ def test_juricode_article_paragraphs_ok_when_sequential() -> None:
 
 
 def test_juricode_article_duplicate_case_id_rejected() -> None:
-    case = CaseReference(
-        case_id="scj-1969-12-04-keishu-23-12-1573",
-        court="最高裁",
-        court_en="Supreme Court",
-        decision_date=date(1969, 12, 4),
-        citation="刑集23巻12号1573頁",
-        url="https://example.com",
-        relevance=Relevance.HIGH,
-    )
+    case = _precedent(case_id="scj-1969-12-04-keishu-23-12-1573")
     with pytest.raises(ValidationError, match="Duplicate case_id"):
         _build_minimal_article(cases=[case, case])
 
@@ -198,16 +279,7 @@ def test_juricode_article_full_example() -> None:
             source="Japanese Law Translation Database, Ministry of Justice",
         ),
         cases=[
-            CaseReference(
-                case_id="scj-pb1-1969-12-04-keishu-23-12-1573",
-                court="最高裁判所第一小法廷",
-                court_en="Supreme Court of Japan, First Petty Bench",
-                decision_date=date(1969, 12, 4),
-                citation="刑集23巻12号1573頁",
-                url="https://www.courts.go.jp/app/hanrei_jp/detail2?id=...",
-                relevance=Relevance.HIGH,
-                relevant_paragraph=1,
-            ),
+            _precedent(relevant_paragraph=1),
         ],
         amendments=[],
         source_url="https://laws.e-gov.go.jp/law/140AC0000000045",
@@ -246,14 +318,8 @@ def test_juricode_article_rejects_extra_field() -> None:
 
 def test_relevant_paragraph_must_exist() -> None:
     """ir-spec.md §5.2: cases[].relevant_paragraph は実在する項番号."""
-    case_invalid = CaseReference(
+    case_invalid = _precedent(
         case_id="scj-1969-12-04-keishu-23-12-1573",
-        court="最高裁",
-        court_en="Supreme Court",
-        decision_date=date(1969, 12, 4),
-        citation="刑集23巻12号1573頁",
-        url="https://example.com",
-        relevance=Relevance.HIGH,
         relevant_paragraph=99,  # paragraphs は 2 つしかない
     )
     with pytest.raises(ValidationError, match="relevant_paragraph=99"):
@@ -268,14 +334,8 @@ def test_relevant_paragraph_must_exist() -> None:
 
 def test_relevant_paragraph_none_is_ok() -> None:
     """relevant_paragraph が None ならチェックスキップ."""
-    case_ok = CaseReference(
+    case_ok = _precedent(
         case_id="scj-1969-12-04-keishu-23-12-1573",
-        court="最高裁",
-        court_en="Supreme Court",
-        decision_date=date(1969, 12, 4),
-        citation="刑集23巻12号1573頁",
-        url="https://example.com",
-        relevance=Relevance.HIGH,
         relevant_paragraph=None,
     )
     article = _build_minimal_article(

@@ -41,6 +41,9 @@ paragraphs:
     is_added_by_amendment: false
 cases:
   - case_id: scj-1976-03-16-keishu-30-2-187
+    case_type: precedent
+    source_license: public-domain
+    summary_source: self_summary_draft
     court: 最高裁判所第二小法廷
     court_en: Supreme Court of Japan, Second Petty Bench
     decision_date: 1976-03-16
