@@ -198,7 +198,13 @@ class _CaseBase(BaseModel):
 
     case_id: str = Field(..., pattern=CASE_ID_PATTERN.pattern, description="判例/裁決の一意 ID")
     decision_date: date = Field(..., description="判決/裁決の日")
-    url: str = Field(..., description="出典 permalink")
+    url: str | None = Field(
+        None,
+        description=(
+            "出典 permalink (任意)。ruling は実データで常に保持。precedent は "
+            "courts.go.jp permalink 取得を後段 FU に委ね MVP では省略可 (D1・2026-07-04)。"
+        ),
+    )
     relevance: Relevance = Field(..., description="この条文との関連度")
     source_license: SourceLicense = Field(..., description="出典本文の権利関係")
     summary_source: SummarySource = Field(..., description="要約の出所")
@@ -289,6 +295,29 @@ class RulingStoreEntry(RulingReference):
     attached_article_ids: list[str] = Field(
         default_factory=list,
         description="この裁決を cases: に付与した条文 article_id (逆引き・任意)",
+    )
+
+
+class PrecedentStoreEntry(PrecedentReference):
+    """判例ストア (data/v0.2/case-law/hojin/precedents.jsonl) の 1 レコード (判例 1 件).
+
+    Why: 裁決 store (RulingStoreEntry) の cited_refs から機械導出した裁判所判例 (precedent)
+    を committed に永続化する store。article 埋込用の PrecedentReference (PR#106・ロック済
+    disjoint union) は一切変更せず、それを継承して store 専用の被引用エッジだけを additive に
+    足した並行構造。引用エッジは precedent 側 cited_by に持たせる (rulings.jsonl は非改変)。
+    frozen=True で不変・extra=forbid で未知キー拒否。scj/hcj/dcj/fcj/smc prefix 検証は
+    PrecedentReference から継承する。
+    """
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    cited_by: list[str] = Field(
+        default_factory=list,
+        description="この判例を《参考判決・裁決》で引用した裁決の case_id (ntt-)。被引用グラフの逆エッジ。",
+    )
+    cited_by_context: list[str] = Field(
+        default_factory=list,
+        description="cited_by と対応する引用文脈 (争点コード等・任意。MVP では未 populate)。",
     )
 
 

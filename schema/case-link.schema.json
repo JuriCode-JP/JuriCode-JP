@@ -8,7 +8,6 @@
     "case_id",
     "case_type",
     "decision_date",
-    "url",
     "relevance",
     "source_license",
     "summary_source"
@@ -62,7 +61,7 @@
     "url": {
       "type": "string",
       "format": "uri",
-      "description": "裁判所Web/国税不服審判所等のpermalink URL"
+      "description": "裁判所Web/国税不服審判所等のpermalink URL。ruling は必須(if/then)、precedent は任意(courts.go.jp permalink 取得は後段 FU)"
     },
     "relevance": {
       "type": "string",
@@ -139,6 +138,7 @@
         "properties": { "case_type": { "const": "ruling" } }
       },
       "then": {
+        "required": ["url"],
         "properties": {
           "case_id": { "pattern": "^ntt-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$" }
         }
