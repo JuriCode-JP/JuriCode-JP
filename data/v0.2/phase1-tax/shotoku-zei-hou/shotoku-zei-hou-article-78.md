@@ -41,7 +41,21 @@ paragraphs:
     type: simple
     text: 第一項の規定による控除は、寄附金控除という。
     modality: teigi
-cases: []
+cases:
+  - case_id: ntt-2013-07-30-j92-12
+    case_type: ruling
+    source_license: pdl-1.0
+    summary_source: official_pdl
+    decision_date: '2013-07-30'
+    case_name_ja: 配偶者名義で支払われた義援金について、確定申告書の提出後に発行された当該義援金に係る受領証等からみて寄付金控除の適用が認められるとした事例
+    url: https://www.kfs.go.jp/service/JP/92/12/index.html
+    relevance: medium
+    relevant_paragraph: 1
+    summary_ja: '原処分庁は、配偶者名義で支払われた義援金は請求人の寄附金控除の対象とならない旨主張する。
+
+      しかしながら、当該義援金の振込票には請求人の妻の氏名が記載されているところ、請求人の妻が当該義援金に係る金員は請求人から受け取った旨申し立てていること、請求人の妻は確定申告をしておらず、当該振込票以外に請求人の妻が義援金を支出したことを推認させる事情はないことに加えて、確定申告書の提出後ではあるものの、当該義援金の受付先である日本赤十字社が、当該義援金に係る受領証を請求人に宛てて発行していることなどからすると、当該義援金は請求人が支出したものと認めるのが相当であるから、寄附金控除の適用が認められる。'
+    issue_code: '0704000000'
+    tax_item: 所得税
 amendments: []
 tags:
 - phase1-tax

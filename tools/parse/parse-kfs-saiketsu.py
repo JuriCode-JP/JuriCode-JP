@@ -63,6 +63,10 @@ FULLNAME_LAW_MAP: dict[str, str] = {
     "法人税法施行令": "houjin-zei-hou-shikkourei",  # 法人税法施行令
     "法人税法施行規則": "houjin-zei-hou-shikoukisoku",  # 法人税法施行規則
     "法人税法": "houjin-zei-hou",  # 法人税法
+    # 所得税 bulk (MP/02・2026-07-08): 所得税法関係の 3 法令を純加算 (longest-first で照合)。
+    "所得税法施行令": "shotoku-zei-hou-shikkourei",  # 所得税法施行令
+    "所得税法施行規則": "shotoku-zei-hou-shikoukisoku",  # 所得税法施行規則
+    "所得税法": "shotoku-zei-hou",  # 所得税法
     "地方税法施行令": "chihou-zei-hou-shikkourei",  # 地方税法施行令
     "地方税法施行規則": "chihou-zei-hou-shikoukisoku",  # 地方税法施行規則
     "地方税法": "chihou-zei-hou",  # 地方税法 (差②・佐藤裁定 リンクする)
