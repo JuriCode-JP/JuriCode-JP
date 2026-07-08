@@ -174,9 +174,11 @@ def test_corpus_gap_not_linked(entries):
 def test_resolve_unresolved_law_recorded():
     """正式名マッパーに無い法令は偽リンクせず unresolved_law で記録。"""
     mod = _load_parser()
-    res = mod.resolve_sanshou_jouken(["消費税法第30条"])
+    # 関税法は FULLNAME_LAW_MAP に無く corpus 未収録 = 真に未マップ (消費 bulk で 消費税法 が map
+    # 登録され旧例 消費税法第30条 が解決するようになったため差替・2026-07-08)。unresolved_law を維持。
+    res = mod.resolve_sanshou_jouken(["関税法第76条第1項"])
     assert res["links"] == []
-    assert res["unlinked"] == [{"raw": "消費税法第30条", "reason": "unresolved_law"}]
+    assert res["unlinked"] == [{"raw": "関税法第76条第1項", "reason": "unresolved_law"}]
 
 
 def test_resolve_longest_prefix_first():

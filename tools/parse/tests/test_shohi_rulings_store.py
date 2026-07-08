@@ -1,8 +1,9 @@
-"""test_hojin_rulings_store.py -- 法人税裁決 store + article 付与の機械検証 (CI-safe).
+"""test_shohi_rulings_store.py -- 消費税裁決 store + article 付与の機械検証 (CI-safe).
 
-Why (bulk-ingest 検証ゲート・2026-07-07): 全 451 裁決を committed store
-(data/v0.2/case-law/hojin/rulings.jsonl) に永続化し、参照条文ありの subset を条文 md の
-cases: に付与した。本 test はロック済 committed 成果物を読み、機械的な不変条件を検証する:
+Why (bulk-ingest 検証ゲート・2026-07-08): 消費税 (MP/05) の全 146 裁決を committed store
+(data/v0.2/case-law/shohi/rulings.jsonl) に永続化し、参照条文ありの subset を条文 md の
+cases: に付与した (法人税 PR#108・相続税 PR#111 の逐語横展開)。本 test はロック済 committed
+成果物を読み、機械的な不変条件を検証する:
   - store 全行が RulingStoreEntry として IR valid・case_id 100% ユニーク (dup0)。
   - 継承 issue_code (primary) が issue_codes に含まれる (忠実保持の整合)。
   - article cases: の全 ruling link (article_id) が data/v0.2 に物理実在 = 偽リンク 0。
@@ -24,7 +25,7 @@ _SHARED_SRC = _REPO_ROOT / "tools" / "shared" / "src"
 if str(_SHARED_SRC) not in sys.path:
     sys.path.insert(0, str(_SHARED_SRC))
 
-_STORE = _REPO_ROOT / "data" / "v0.2" / "case-law" / "hojin" / "rulings.jsonl"
+_STORE = _REPO_ROOT / "data" / "v0.2" / "case-law" / "shohi" / "rulings.jsonl"
 _DATA_V02 = _REPO_ROOT / "data" / "v0.2"
 
 
@@ -121,22 +122,21 @@ def test_article_ruling_links_are_real_and_in_store():
                 f"(forward invariant)"
             )
             checked += 1
-    assert checked >= 105, f"expected >=105 store->md ruling links, found {checked}"
+    assert checked >= 67, f"expected >=67 store->md ruling links, found {checked}"
 
 
-def test_fullwidth_and_crosslaw_links_are_present():
-    """FU-552 で回収した +9 リンク (全角 2・cross-law 7) が store に存在する (回帰ロック).
+def test_crosslaw_links_are_present():
+    """消費裁決の cross-law link (法人税法・地方税法) が store に存在する (回帰ロック).
 
-    Why: 相続裁決 bulk で共有 parser に全角正規化 + cross-law マップ拡張を入れた後、法人税 store を
-    修正後 parser で再生成し純加算 9 link を取り込んだ (FU-552・2026-07-04)。全角取りこぼし
-    (法人税法第２条 全角 -> houjin-art-2) と cross-law (国税通則法 art-68・民法 art-624) が
-    committed store に残っていることを実証し、将来の parser 変更で silent に落ちないよう固定する。
+    Why: 消費裁決は消費税法本体だけでなく法人税法・地方税法も引く。共有 FULLNAME_LAW_MAP に
+    既登録の法人/地方へ corpus 実在分だけ純加算した (偽リンク0)。この cross-law が committed
+    store に残っていることを実証し、将来の parser/map 変更で silent に落ちないよう固定する
+    (消費 bulk・2026-07-08)。
     """
     rows = _load_store()
     attached = {aid for r in rows for aid in r.get("attached_article_ids", [])}
     for aid in (
-        "houjin-zei-hou-art-2",  # 全角 第２条 正規化 (FU-552)
-        "kokuzei-tsuusoku-hou-art-68",  # cross-law 重加算税 (FU-552)
-        "minpou-art-624",  # cross-law 民法 (FU-552)
+        "houjin-zei-hou-art-11",  # cross-law 法人税法 (消費裁決が引用)
+        "chihou-zei-hou-art-144",  # cross-law 地方税法 (地方消費税・消費裁決が引用)
     ):
-        assert aid in attached, f"FU-552 link missing: {aid} (全角/cross-law 回帰?)"
+        assert aid in attached, f"消費 cross-law link missing: {aid} (回帰?)"
