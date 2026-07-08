@@ -113,4 +113,22 @@ def test_article_ruling_links_are_real_and_in_store():
                 f"{md.name}: ruling {c['case_id']} not in store (整合違反)"
             )
             checked += 1
-    assert checked >= 93, f"expected >=93 ruling links, found {checked}"
+    assert checked >= 105, f"expected >=105 ruling links, found {checked}"
+
+
+def test_fullwidth_and_crosslaw_links_are_present():
+    """FU-552 で回収した +9 リンク (全角 2・cross-law 7) が store に存在する (回帰ロック).
+
+    Why: 相続裁決 bulk で共有 parser に全角正規化 + cross-law マップ拡張を入れた後、法人税 store を
+    修正後 parser で再生成し純加算 9 link を取り込んだ (FU-552・2026-07-04)。全角取りこぼし
+    (法人税法第２条 全角 -> houjin-art-2) と cross-law (国税通則法 art-68・民法 art-624) が
+    committed store に残っていることを実証し、将来の parser 変更で silent に落ちないよう固定する。
+    """
+    rows = _load_store()
+    attached = {aid for r in rows for aid in r.get("attached_article_ids", [])}
+    for aid in (
+        "houjin-zei-hou-art-2",  # 全角 第２条 正規化 (FU-552)
+        "kokuzei-tsuusoku-hou-art-68",  # cross-law 重加算税 (FU-552)
+        "minpou-art-624",  # cross-law 民法 (FU-552)
+    ):
+        assert aid in attached, f"FU-552 link missing: {aid} (全角/cross-law 回帰?)"
