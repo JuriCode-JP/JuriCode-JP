@@ -74,6 +74,15 @@ _ERA_OFFSET = {"昭和": 1925, "平成": 1988, "令和": 2018}
 
 # 裁決日 (例 平成24年7月5日裁決)。元号名 + 年 + 月 + 日 + '裁決'。
 _SAIKETSU_DATE_RE = re.compile(r"(昭和|平成|令和)\s*(元|\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日\s*裁決")
+# 和暦日付 (「裁決」語を伴わない・例 平成26年7月28日)。最新形式の article_point アンカーが
+# 日付のみで「裁決」を付けない事例があるため (bulk で 1 件検出・2026-07-07)。誤検出防止のため
+# article_point アンカー全体との fullmatch にのみ使う (本文中の別日付を拾わない)。
+_WAREKI_DATE_RE = re.compile(r"(昭和|平成|令和)\s*(元|\d+)\s*年\s*(\d+)\s*月\s*(\d+)\s*日")
+
+# 空白除去 (要旨完全性監査の byte 照合用)。
+_WS_RE = re.compile(r"\s")
+# 完全性監査で照合する <li>/<td>/<th> の最小文字数 (見出し・記号セルの誤検出回避)。
+_MIN_AUDIT_FRAG = 6
 # 裁決事例集 No.X - Y頁 (article_point の掲載情報)。全角/半角ダッシュを許容。
 # cp932-safe: ダッシュ類は Unicode escape で記す (U+2013/U+2014 等の literal は cp932-unsafe・FU-505)。
 _SAIKETSU_NO_RE = re.compile(
@@ -230,6 +239,7 @@ def resolve_sanshou_jouken(lines: list[str]) -> dict:
 
 _MARKER_YOUSHI = "《要旨》"  # 《要旨》
 _MARKER_SANSHOU = "《参照条文等》"  # 《参照条文等》
+_MARKER_SANKO = "《参考判決・裁決》"  # 《参考判決・裁決》 (引用エッジ・cited_refs)
 
 
 def _extract_marker_block(article_div, marker: str) -> list[str] | None:
@@ -252,29 +262,74 @@ def _extract_marker_block(article_div, marker: str) -> list[str] | None:
     return None
 
 
+_BODY_BLOCK_TAGS = ["p", "ol", "ul", "table", "dl"]
+
+
+def _clean_body_text(text: str) -> str:
+    """複数行テキストの各行から先頭全角空白/前後空白を除き、空行を落として \n 連結する。"""
+    lines = [ln.strip().lstrip("　").strip() for ln in text.split("\n")]
+    return "\n".join(ln for ln in lines if ln)
+
+
+def _top_level_blocks(article_div) -> list:
+    """div.article 内の最上位本文ブロック (<p>/<ol>/<ul>/<table>/<dl>) を document 順で返す.
+
+    Why: <p> だけ走査すると番号付き grounds を持つ <ol>/<table> を落とす (bulk で 15 件・
+    2026-07-07)。入れ子ブロック (例 <td> 内 <p>) は最上位祖先の get_text で拾われるため、
+    ブロック祖先を持つ要素は除外して二重計上を防ぐ (recursive=False より入れ子に頑健)。
+    """
+    blocks = []
+    for el in article_div.find_all(_BODY_BLOCK_TAGS):
+        if el.find_parent(_BODY_BLOCK_TAGS) is not None:
+            continue  # 別ブロックの入れ子 -> 祖先側で拾う
+        blocks.append(el)
+    return blocks
+
+
 def _extract_summary(article_div, article_point) -> str:
     """要旨本文 (summary_ja) を byte 忠実に抽出する (§8).
 
-    新しい裁決は 《要旨》<p>、古い裁決は article_point 直後の本文 <p> 群 (裁決日行・《...》除く)。
+    新しい裁決は 《要旨》<p>、古い裁決は article_point 直後の本文ブロック群 (<p> だけでなく
+    <ol>/<ul>/<table>/<dl> の番号付き grounds も含む・裁決日行/《...》マーカ除く)。
     """
     youshi = _extract_marker_block(article_div, _MARKER_YOUSHI)
     if youshi is not None:
         return "\n".join(youshi).strip()
-    # 古い裁決: article_point 以外の <p> で、裁決日行/《...》マーカでないものを本文とする。
+    # 古い裁決: div 直下の本文ブロックを document 順に集める (list/table も対象)。
     parts: list[str] = []
-    for p in article_div.find_all("p"):
-        if p is article_point:
+    for el in _top_level_blocks(article_div):
+        if el is article_point:
             continue
-        text = p.get_text("\n").strip()
-        if not text:
+        cls = el.get("class") or []
+        if "article_point" in cls or "article_date" in cls:
             continue
-        if text.startswith("《"):
+        text = el.get_text("\n").strip()
+        if not text or text.startswith("《"):
             continue
         # 単独の裁決日行 (例 '昭和47年5月12日裁決') は本文でない。
-        if _SAIKETSU_DATE_RE.fullmatch(text.replace("　", "").strip()):
+        if _SAIKETSU_DATE_RE.fullmatch(text.replace("　", "").replace("\n", "").strip()):
             continue
-        parts.append(text.lstrip("　").strip())
+        parts.append(_clean_body_text(text))
     return "\n".join(parts).strip()
+
+
+def audit_summary_completeness(article_div, summary_ja: str | None) -> list[str]:
+    """summary_ja が <ol>/<ul>/<table>/<dl> の grounds を取りこぼしていないか監査する.
+
+    Why (2026-07-07 佐藤補強②): byte substring 監査は「中間 drop」しか検知できず、末尾/先頭の
+    list/table drop を見逃した (bulk で 15 件素通し = 検証ハーネス自体の穴)。抽出ロジックとは
+    独立に、原典の各 <li>/<td>/<th> テキストが summary_ja に内包されるかを直接照合し、抽出が
+    将来壊れても loud に落ちるようにする (次税目 bulk での同クラス drop 再発防止)。
+
+    Returns: 取りこぼした grounds テキストの list (空 = 完全)。
+    """
+    summ_norm = _WS_RE.sub("", summary_ja or "")
+    missing: list[str] = []
+    for cell in article_div.find_all(["li", "td", "th"]):
+        frag = _WS_RE.sub("", cell.get_text(""))
+        if len(frag) >= _MIN_AUDIT_FRAG and frag not in summ_norm:
+            missing.append(cell.get_text(" ", strip=True))
+    return missing
 
 
 def parse_leaf(html_bytes: bytes, issue_code: str, tax_item: str, leaf_path: str) -> list[dict]:
@@ -317,6 +372,16 @@ def parse_leaf(html_bytes: bytes, issue_code: str, tax_item: str, leaf_path: str
         # (古い裁決は末尾に単独日付 <p>)。《参考判決・裁決》の別日付を拾わないため article_point
         # -> 単独日付 <p> の順で探し、div 全体の search は最後の手段にしない。
         decision_date = _parse_saiketsu_date(ap_text)
+        if decision_date is None and article_point is not None:
+            # 最新形式: article_point アンカーが日付のみ (「裁決」語なし・例 平成26年7月28日)。
+            # アンカー全体との fullmatch に限定し本文中の別日付を拾わない (bulk で 1 件・2026-07-07)。
+            anchor = article_point.find("a")
+            anchor_text = anchor.get_text(strip=True).replace("　", "") if anchor else ""
+            am_date = _WAREKI_DATE_RE.fullmatch(anchor_text)
+            if am_date:
+                decision_date = wareki_to_iso(
+                    am_date.group(1), am_date.group(2), int(am_date.group(3)), int(am_date.group(4))
+                )
         if decision_date is None:
             for p in article_div.find_all("p"):
                 if p is article_point:
@@ -350,11 +415,17 @@ def parse_leaf(html_bytes: bytes, issue_code: str, tax_item: str, leaf_path: str
             url = leaf_url
 
         summary_ja = _extract_summary(article_div, article_point)
+        # 完全性監査 (補強②): 抽出とは独立に <li>/<td>/<th> grounds の取りこぼしを検出する。
+        summary_missing = audit_summary_completeness(article_div, summary_ja)
 
         # 《参照条文等》 (D1/D2/D4)。無い裁決は metadata のみ (link しない)。
         sanshou_lines = _extract_marker_block(article_div, _MARKER_SANSHOU)
         has_sanshou = sanshou_lines is not None
         resolved = resolve_sanshou_jouken(sanshou_lines or [])
+
+        # 《参考判決・裁決》= 引用エッジ (cited_refs)。今回は raw 保持 (case_id 解決は後段 FU・
+        # briefing §8)。判決参照は ntt- 化不能・裁決参照も曖昧ゆえ忠実取込に留める。
+        cited_refs = _extract_marker_block(article_div, _MARKER_SANKO) or []
 
         entries.append(
             {
@@ -376,6 +447,8 @@ def parse_leaf(html_bytes: bytes, issue_code: str, tax_item: str, leaf_path: str
                 "_has_sanshou": has_sanshou,
                 "_links": resolved["links"],
                 "_unlinked": resolved["unlinked"],
+                "_summary_missing": summary_missing,
+                "_cited_refs": cited_refs,
             }
         )
     return entries

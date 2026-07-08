@@ -17,7 +17,12 @@ _SHARED_SRC = _REPO_ROOT / "tools" / "shared" / "src"
 if str(_SHARED_SRC) not in sys.path:
     sys.path.insert(0, str(_SHARED_SRC))
 
-from juricode_shared.ir import DirectiveChunk, JuriCodeArticle, TaxAnswerChunk  # noqa: E402
+from juricode_shared.ir import (  # noqa: E402
+    DirectiveChunk,
+    JuriCodeArticle,
+    RulingStoreEntry,
+    TaxAnswerChunk,
+)
 
 
 def _write_schema(schema: dict, output_path: Path) -> None:
@@ -135,6 +140,47 @@ def export_directive_schema(output_dir: Path) -> Path:
     return output_path
 
 
+def export_ruling_store_schema(output_dir: Path) -> Path:
+    """RulingStoreEntry の JSON Schema を出力する (裁決 store・別ファイル・drift 検出専用).
+
+    Why: 全裁決を committed に永続化する store (data/v0.2/case-law/hojin/rulings.jsonl) の
+    record 契約を drift 検出する。RulingReference (article 埋込・ロック済) の additive 継承
+    ゆえ、この store schema を実行時に消費する下流は存在しない (article は juricode-article
+    schema 側で検証)。IR を編集したら本 schema を再 export して commit する。
+    """
+    schema = RulingStoreEntry.model_json_schema(
+        mode="validation",
+        ref_template="#/$defs/{model}",
+    )
+
+    original_desc = schema.get("description") or ""
+
+    ordered: dict = {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/ruling-store.schema.json",
+        "title": "JuriCode-JP Ruling Store Entry (IR-derived canonical schema)",
+        "description": (
+            "Auto-generated JSON Schema from Pydantic IR "
+            "(juricode_shared.ir.RulingStoreEntry). "
+            "One record per NTA appeal ruling (裁決) in the committed ruling store "
+            "(data/v0.2/case-law/hojin/rulings.jsonl). "
+            "Additive superset of RulingReference (article-embedded, PR#106, locked) "
+            "with store-only fields (cited_refs / attached_article_ids). "
+            "Edit the Pydantic models in tools/shared/src/juricode_shared/ir.py "
+            "instead of this file. "
+            f"Original IR description: {original_desc}"
+        ),
+    }
+    for k, v in schema.items():
+        if k not in ordered:
+            ordered[k] = v
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / "ruling-store.schema.json"
+    _write_schema(ordered, output_path)
+    return output_path
+
+
 def main() -> int:
     schema_dir = _REPO_ROOT / "schema"
 
@@ -152,6 +198,11 @@ def main() -> int:
     rel_directive = directive_path.relative_to(_REPO_ROOT)
     print(f"Exported: {rel_directive}")
     print(f"Size: {directive_path.stat().st_size:,} bytes")
+
+    ruling_store_path = export_ruling_store_schema(schema_dir)
+    rel_ruling_store = ruling_store_path.relative_to(_REPO_ROOT)
+    print(f"Exported: {rel_ruling_store}")
+    print(f"Size: {ruling_store_path.stat().st_size:,} bytes")
 
     return 0
 

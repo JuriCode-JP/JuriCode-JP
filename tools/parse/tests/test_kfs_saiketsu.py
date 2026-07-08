@@ -218,3 +218,67 @@ def test_all_entries_validate_as_ruling_reference(entries):
         obj = RulingReference.model_validate(payload)
         assert obj.case_type == "ruling"
         assert obj.case_id.startswith("ntt-")
+
+
+# ---------------------------------------------------------------------------
+# bulk 露出の忠実性ギャップ回帰テスト (2026-07-07 佐藤補強・fix B/C + 監査②)
+# ---------------------------------------------------------------------------
+
+# 旧形式 (《要旨》 marker なし) + <ol> grounds。<p>-only 抽出は grounds を落としていた (fix B)。
+_FIXTURE_OL = """<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+<h2 class="likeH3" id="b01"><span>旧形式で ol grounds を持つ事例</span></h2>
+<div class="article">
+<p class="article_point">裁決事例集 No.45 - 227頁</p>
+<p>　請求人は主張するが、次の事実から仮装したものと認められる。</p>
+<ol class="ma1"><li>第一の理由であり相当に長い grounds である。</li><li>第二の理由でありこれも grounds である。</li></ol>
+<p>したがって、負担の軽減を図ったものと認められる。</p>
+<p>平成5年4月28日裁決</p>
+</div>
+</body></html>"""
+
+# 最新形式: article_point アンカーが日付のみ (「裁決」語なし)。case_id 生成不可だった (fix C)。
+_FIXTURE_BARE_DATE = """<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>
+<h2 class="likeH3" id="c01"><span>最新形式 日付アンカーに裁決語なしの事例</span></h2>
+<div class="article">
+<p class="article_point">▼ <a href="../../JP/96/07/index.html">平成26年7月28日</a></p>
+<p class="marginT1em">《要旨》<br />　本件販売手数料は損金の額に算入することができる。</p>
+</div>
+</body></html>"""
+
+
+def test_old_entry_includes_ol_grounds():
+    """fix B: 旧形式で <ol> の番号付き grounds が summary_ja に取り込まれる (脱落ゼロ)。"""
+    mod = _load_parser()
+    es = mod.parse_leaf(_FIXTURE_OL.encode("utf-8"), "0204080100", "法人税", "MP/03/0204080100")
+    (e,) = es
+    assert "第一の理由であり相当に長い grounds である。" in e["summary_ja"]
+    assert "第二の理由でありこれも grounds である。" in e["summary_ja"]
+    assert e["_summary_missing"] == []  # 構造監査②: 取りこぼしゼロ
+    assert e["case_id"] == "ntt-1993-04-28-j45-227"
+
+
+def test_bare_date_anchor_yields_case_id():
+    """fix C: 「裁決」語なしの日付アンカー (平成26年7月28日) から decision_date/case_id を生成。"""
+    mod = _load_parser()
+    es = mod.parse_leaf(
+        _FIXTURE_BARE_DATE.encode("utf-8"), "0204250000", "法人税", "MP/03/0204250000"
+    )
+    (e,) = es
+    assert e["decision_date"] == "2014-07-28"
+    assert e["case_id"] == "ntt-2014-07-28-j96-7"
+
+
+def test_completeness_audit_catches_dropped_ol():
+    """補強②: 抽出と独立の監査が、summary から漏れた <li> grounds を loud に検出する。"""
+    mod = _load_parser()
+    div = mod.BeautifulSoup(
+        '<div class="article"><ol><li>取りこぼされてはならない grounds である。</li></ol></div>',
+        "html.parser",
+    ).find("div")
+    # summary が li を含まない -> 欠落として報告 (非空)。
+    missing = mod.audit_summary_completeness(div, "無関係な要旨本文である。")
+    assert any("取りこぼされてはならない" in m for m in missing)
+    # summary が li を含む -> 完全 (空)。
+    assert mod.audit_summary_completeness(div, "取りこぼされてはならない grounds である。") == []

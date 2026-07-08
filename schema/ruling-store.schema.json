@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/ruling-store.schema.json",
+  "title": "JuriCode-JP Ruling Store Entry (IR-derived canonical schema)",
+  "description": "Auto-generated JSON Schema from Pydantic IR (juricode_shared.ir.RulingStoreEntry). One record per NTA appeal ruling (裁決) in the committed ruling store (data/v0.2/case-law/hojin/rulings.jsonl). Additive superset of RulingReference (article-embedded, PR#106, locked) with store-only fields (cited_refs / attached_article_ids). Edit the Pydantic models in tools/shared/src/juricode_shared/ir.py instead of this file. Original IR description: 裁決ストア (data/v0.2/case-law/hojin/rulings.jsonl) の 1 レコード (裁決 1 件).\n\nWhy: 全裁決を committed に永続化する store B の record。article 埋込用の\nRulingReference (PR#106・ロック済 disjoint union) は一切変更せず、それを継承して\nstore 専用フィールドだけを additive に足した並行構造 (article cases: は従来どおり\nRulingReference・本 store は別成果物)。issue_code / saiketsu_ref は RulingReference に\n既存ゆえ二重定義しない (重複回避)。frozen=True で不変・extra=forbid で未知キー拒否。\nntt- prefix 検証 (case_id) は RulingReference から継承する。",
+  "$defs": {
+    "Relevance": {
+      "description": "判例と条文の関連度.",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "title": "Relevance",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "description": "判例/裁決の一意 ID",
+      "pattern": "^[a-z][a-z0-9-]{2,9}-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$",
+      "title": "Case Id",
+      "type": "string"
+    },
+    "decision_date": {
+      "description": "判決/裁決の日",
+      "format": "date",
+      "title": "Decision Date",
+      "type": "string"
+    },
+    "url": {
+      "description": "出典 permalink",
+      "title": "Url",
+      "type": "string"
+    },
+    "relevance": {
+      "$ref": "#/$defs/Relevance",
+      "description": "この条文との関連度"
+    },
+    "source_license": {
+      "description": "出典本文の権利関係",
+      "enum": [
+        "pdl-1.0",
+        "public-domain",
+        "self-summary",
+        "other"
+      ],
+      "title": "Source License",
+      "type": "string"
+    },
+    "summary_source": {
+      "description": "要約の出所",
+      "enum": [
+        "official_pdl",
+        "self_summary_draft",
+        "none"
+      ],
+      "title": "Summary Source",
+      "type": "string"
+    },
+    "case_name_ja": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "事件名/裁決名 (日本語)",
+      "title": "Case Name Ja"
+    },
+    "relevant_paragraph": {
+      "anyOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "関連する項番号 (任意)",
+      "title": "Relevant Paragraph"
+    },
+    "summary_ja": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "要旨 (日本語)",
+      "title": "Summary Ja"
+    },
+    "tags": {
+      "description": "タグ (任意)",
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "case_type": {
+      "const": "ruling",
+      "title": "Case Type",
+      "type": "string"
+    },
+    "saiketsu_ref": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "裁決番号・整理番号",
+      "title": "Saiketsu Ref"
+    },
+    "issue_code": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "争点コード",
+      "title": "Issue Code"
+    },
+    "tax_item": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "税目",
+      "title": "Tax Item"
+    },
+    "original_disposition_agency": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "原処分庁",
+      "title": "Original Disposition Agency"
+    },
+    "issue_codes": {
+      "description": "この裁決が分類される全争点コード (10桁)。1裁決が複数争点に跨る場合の忠実保持。継承 issue_code は primary (初出) を保持し RulingReference 互換を維持する。",
+      "items": {
+        "type": "string"
+      },
+      "title": "Issue Codes",
+      "type": "array"
+    },
+    "cited_refs": {
+      "description": "《参考判決・裁決》の引用エッジ (解決済 case_id または解決不能時 raw)",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cited Refs",
+      "type": "array"
+    },
+    "attached_article_ids": {
+      "description": "この裁決を cases: に付与した条文 article_id (逆引き・任意)",
+      "items": {
+        "type": "string"
+      },
+      "title": "Attached Article Ids",
+      "type": "array"
+    }
+  },
+  "required": [
+    "case_id",
+    "decision_date",
+    "url",
+    "relevance",
+    "source_license",
+    "summary_source",
+    "case_type"
+  ],
+  "type": "object"
+}
