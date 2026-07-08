@@ -187,6 +187,19 @@ def test_resolve_longest_prefix_first():
     assert res["links"][0]["article_id"] == "houjin-zei-hou-shikkourei-art-54"
 
 
+def test_fullwidth_article_number_normalized():
+    """全角数字の条番号 (第２条) を ASCII 化して link する (相続裁決 fix・ASCII 表記には no-op)。
+
+    Why: 相続裁決の《参照条文等》は 第２条 等の全角表記があり、非正規化だと article_id が art-２
+    になって corpus 実在ガードで偽陰性 corpus_gap になる (2026-07-04 実測)。
+    """
+    mod = _load_parser()
+    mod._ARTICLE_CORPUS = {"houjin-zei-hou-art-2"}
+    res = mod.resolve_sanshou_jouken(["法人税法第２条第８号"])
+    assert res["links"], "全角 第２条 が link されない (normalize_fullwidth_digits 欠落?)"
+    assert res["links"][0]["article_id"] == "houjin-zei-hou-art-2"
+
+
 # ---------------------------------------------------------------------------
 # 要旨 byte 忠実 (§8) + RulingReference IR 適合
 # ---------------------------------------------------------------------------
