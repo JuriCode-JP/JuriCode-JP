@@ -61,7 +61,19 @@ paragraphs:
     type: simple
     text: 第一項及び第二項の規定による控除は、純損失の繰越控除という。
     modality: teigi
-cases: []
+cases:
+  - case_id: ntt-2011-04-27-j83-8
+    case_type: ruling
+    source_license: pdl-1.0
+    summary_source: official_pdl
+    decision_date: '2011-04-27'
+    case_name_ja: 請求人の青色申告書は、その提出期限後に提出されたものであるから、これに記載された純損失の金額は、翌年に繰り越すことができないとした事例
+    url: https://www.kfs.go.jp/service/JP/83/08/index.html
+    relevance: medium
+    relevant_paragraph: 1
+    summary_ja: 請求人は、平成20年分の所得税の青色の確定申告書をその提出期限後に提出したのは、顧問税理士の業務用パソコンが故障したことに基因しており、このような事情は所得税法第70条《純損失の繰越控除》第4項の「やむを得ない事情」に該当する旨主張するが、「やむを得ない事情」とは、天災、交通や通信の途絶等、納税者の責めに帰すことができない外的事情など、その提出期限までに確定申告書を提出することを不可能とする真にやむを得ない客観的事情をいうものであり、請求人が主張するパソコンの故障は、請求人及び顧問税理士の個人的事情又は主観的事情にとどまるものであって、その提出期限までに確定申告書を提出することを不可能とする真にやむを得ない客観的事情には該当しないというべきである。
+    issue_code: '0602000000'
+    tax_item: 所得税
 amendments: []
 tags:
 - phase1-tax
