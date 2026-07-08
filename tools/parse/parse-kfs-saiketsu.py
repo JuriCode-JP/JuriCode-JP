@@ -66,6 +66,15 @@ FULLNAME_LAW_MAP: dict[str, str] = {
     "地方税法施行令": "chihou-zei-hou-shikkourei",  # 地方税法施行令
     "地方税法施行規則": "chihou-zei-hou-shikoukisoku",  # 地方税法施行規則
     "地方税法": "chihou-zei-hou",  # 地方税法 (差②・佐藤裁定 リンクする)
+    # 相続税 bulk (MP/04・2026-07-04): 相続税法関係の 3 法令を純加算 (longest-first で照合)。
+    "相続税法施行令": "souzoku-zei-hou-shikkourei",  # 相続税法施行令
+    "相続税法施行規則": "souzoku-zei-hou-shikoukisoku",  # 相続税法施行規則
+    "相続税法": "souzoku-zei-hou",  # 相続税法
+    # 相続裁決の cross-law 参照 (dry-run で unresolved_law が surface・corpus 実在分のみ・2026-07-04)。
+    # 偽リンク0: 民事訴訟法 等の未収録法令は追加せず忠実に非リンク。longest-first で照合。
+    "国税通則法": "kokuzei-tsuusoku-hou",  # 国税通則法
+    "借地借家法": "shakuchi-shakka-hou",  # 借地借家法
+    "民法": "minpou",  # 民法
 }
 
 # 元号 -> 西暦 offset (§4)。era 明示の日付は offset 加算で確定 (元号跨ぎは月日でなく元号表記で判定
@@ -186,6 +195,8 @@ def resolve_sanshou_jouken(lines: list[str]) -> dict:
           "unlinked": [{raw, reason}],                                        # corpus_gap / unresolved
         }
     """
+    from juricode_shared.text_norm import normalize_fullwidth_digits
+
     corpus = _load_article_corpus()
     links: list[dict] = []
     tags: list[str] = []
@@ -207,7 +218,10 @@ def resolve_sanshou_jouken(lines: list[str]) -> dict:
             continue
         name, law_abbrev = matched
 
-        am = _ARTICLE_RE.search(raw[len(name) :])
+        # 全角数字を ASCII 化してから条番号を抽出する (相続裁決は 第２条 等の全角表記があり、
+        # 非正規化だと article_id が art-２ になって corpus 実在ガードで偽陰性 corpus_gap になる・
+        # 2026-07-04 実測)。ASCII 表記 (法人税) には無影響 = no-op。
+        am = _ARTICLE_RE.search(normalize_fullwidth_digits(raw[len(name) :]))
         if am is None:
             unlinked.append({"raw": raw, "reason": "no_article_number"})
             continue
