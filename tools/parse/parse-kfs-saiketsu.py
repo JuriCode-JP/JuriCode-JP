@@ -70,6 +70,10 @@ FULLNAME_LAW_MAP: dict[str, str] = {
     "相続税法施行令": "souzoku-zei-hou-shikkourei",  # 相続税法施行令
     "相続税法施行規則": "souzoku-zei-hou-shikoukisoku",  # 相続税法施行規則
     "相続税法": "souzoku-zei-hou",  # 相続税法
+    # 消費税 bulk (MP/05・2026-07-08): 消費税法関係の 3 法令を純加算 (longest-first で照合)。
+    "消費税法施行令": "shouhi-zei-hou-shikkourei",  # 消費税法施行令
+    "消費税法施行規則": "shouhi-zei-hou-shikoukisoku",  # 消費税法施行規則
+    "消費税法": "shouhi-zei-hou",  # 消費税法
     # 相続裁決の cross-law 参照 (dry-run で unresolved_law が surface・corpus 実在分のみ・2026-07-04)。
     # 偽リンク0: 民事訴訟法 等の未収録法令は追加せず忠実に非リンク。longest-first で照合。
     "国税通則法": "kokuzei-tsuusoku-hou",  # 国税通則法
