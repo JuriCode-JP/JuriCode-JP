@@ -262,6 +262,36 @@ CaseReference = Annotated[
 ]
 
 
+class RulingStoreEntry(RulingReference):
+    """裁決ストア (data/v0.2/case-law/hojin/rulings.jsonl) の 1 レコード (裁決 1 件).
+
+    Why: 全裁決を committed に永続化する store B の record。article 埋込用の
+    RulingReference (PR#106・ロック済 disjoint union) は一切変更せず、それを継承して
+    store 専用フィールドだけを additive に足した並行構造 (article cases: は従来どおり
+    RulingReference・本 store は別成果物)。issue_code / saiketsu_ref は RulingReference に
+    既存ゆえ二重定義しない (重複回避)。frozen=True で不変・extra=forbid で未知キー拒否。
+    ntt- prefix 検証 (case_id) は RulingReference から継承する。
+    """
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    issue_codes: list[str] = Field(
+        default_factory=list,
+        description=(
+            "この裁決が分類される全争点コード (10桁)。1裁決が複数争点に跨る場合の忠実保持。"
+            "継承 issue_code は primary (初出) を保持し RulingReference 互換を維持する。"
+        ),
+    )
+    cited_refs: list[str] = Field(
+        default_factory=list,
+        description="《参考判決・裁決》の引用エッジ (解決済 case_id または解決不能時 raw)",
+    )
+    attached_article_ids: list[str] = Field(
+        default_factory=list,
+        description="この裁決を cases: に付与した条文 article_id (逆引き・任意)",
+    )
+
+
 class Amendment(BaseModel):
     """この条文の改正履歴 (1 件)."""
 

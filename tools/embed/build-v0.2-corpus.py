@@ -427,9 +427,12 @@ def _run_validate_only(data_dir: Path) -> int:
         errors.append(f"phases mapped {len(phases)} < 6 (expected >= 6)")
 
     # 2. dangling law dir check (phase 外の law dir が無いこと)
+    # case-law/ は裁決 store (data/v0.2/case-law/hojin/rulings.jsonl) であって phase 分割された
+    # 法令 corpus ではないため除外する (*-article-*.md を持たず build_law_to_phase の対象外)。
+    non_law_dirs = {"case-law"}
     dangling: list[str] = []
     for entry in data_dir.iterdir():
-        if not entry.is_dir() or entry.name.startswith("phase"):
+        if not entry.is_dir() or entry.name.startswith("phase") or entry.name in non_law_dirs:
             continue
         # phase 外の dir の中に law dir っぽい構造があるか確認
         for sub in entry.iterdir():
