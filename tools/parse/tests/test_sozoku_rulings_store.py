@@ -7,7 +7,7 @@ subset を条文 md の cases: に付与した。本 test はロック済 commit
   - store 全行が RulingStoreEntry として IR valid・case_id 100% ユニーク (dup0)。
   - 継承 issue_code (primary) が issue_codes に含まれる (忠実保持の整合)。
   - article cases: の全 ruling link (article_id) が data/v0.2 に物理実在 = 偽リンク 0。
-  - article の各 ruling が store に存在する (store と付与の整合)。
+  - store が主張した各 (case_id->条) が対象 md cases: に実在 (forward 整合・偽リンク0)。
   - 全角数字参照 (相続税法第２条/第９条) が正しくリンクされている (全角正規化 fix の回帰ロック)。
 data/v0.2 は gitignore 対象外ゆえ CI で実在する (cache/kfs は gitignored ゆえ本 test は
 leaf HTML に依存しない = hermetic)。要旨 byte 照合は dry-run driver 側のゲートが担保する。
@@ -90,32 +90,40 @@ def test_store_attached_ids_exist_in_corpus():
 
 
 def test_article_ruling_links_are_real_and_in_store():
-    """付与先 article md cases: の全 ruling link が corpus 実在 + store に存在 (偽リンク0・整合).
+    """store が主張した各 (case_id -> 条) が対象 md cases: に実在 (forward 整合・偽リンク0).
 
-    付与先は store の attached_article_ids から特定し、対象 md だけ読む (全 md を舐めない)。
+    store の attached_article_ids を起点に対象 md だけ読む (全 md を舐めない)。cross-store で
+    共有される条 md (複数 per-tax store の裁決を保持) に耐えるため forward 方向で検証する。
     """
     import yaml
 
     rows = _load_store()
-    store_cids = {r["case_id"] for r in rows}
     corpus = _corpus_article_ids()
-    target_aids = sorted({aid for r in rows for aid in r.get("attached_article_ids", [])})
-    assert target_aids, "no attached_article_ids in store"
+    assert any(r.get("attached_article_ids") for r in rows), "no attached_article_ids in store"
 
+    # Forward invariant (2026-07-08): store が主張した各 (case_id -> attached article) が
+    # その条 md の cases: に物理実在することを検証する。Design D は cross-law 裁決を被引用条の
+    # md に名前空間横断で denormalize する (FU-552 が hojin 裁決を kokuzei/minpou md に付与済) ため、
+    # 共有条 md は複数 per-tax store の裁決を保持しうる。逆方向 (「md の全 ruling が この store に
+    # 属す」) は共有条 (例: shohi cross-law が houjin-art-11.md に着地) で偽ゆえ assert しない。
+    md_ruling_ids: dict[str, set[str]] = {}
     checked = 0
-    for aid in target_aids:
-        assert aid in corpus, f"attached {aid} not in corpus (dangling)"
-        md = _find_article_md(aid)
-        assert md is not None, f"md not found for {aid}"
-        fm = yaml.safe_load(md.read_text(encoding="utf-8").split("---\n", 2)[1]) or {}
-        for c in fm.get("cases") or []:
-            if c.get("case_type") != "ruling":
-                continue
-            assert c["case_id"] in store_cids, (
-                f"{md.name}: ruling {c['case_id']} not in store (整合違反)"
+    for r in rows:
+        for aid in r.get("attached_article_ids", []):
+            assert aid in corpus, f"{r['case_id']}: attached {aid} not in corpus (dangling)"
+            md = _find_article_md(aid)
+            assert md is not None, f"md not found for {aid}"
+            if aid not in md_ruling_ids:
+                fm = yaml.safe_load(md.read_text(encoding="utf-8").split("---\n", 2)[1]) or {}
+                md_ruling_ids[aid] = {
+                    c["case_id"] for c in (fm.get("cases") or []) if c.get("case_type") == "ruling"
+                }
+            assert r["case_id"] in md_ruling_ids[aid], (
+                f"{md.name}: store claims {r['case_id']} -> {aid} but md cases: lacks it "
+                f"(forward invariant)"
             )
             checked += 1
-    assert checked >= 99, f"expected >=99 ruling links, found {checked}"
+    assert checked >= 99, f"expected >=99 store->md ruling links, found {checked}"
 
 
 def test_fullwidth_article_refs_are_linked():
