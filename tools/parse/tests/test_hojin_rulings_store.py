@@ -125,12 +125,16 @@ def test_article_ruling_links_are_real_and_in_store():
 
 
 def test_fullwidth_and_crosslaw_links_are_present():
-    """FU-552 で回収した +9 リンク (全角 2・cross-law 7) が store に存在する (回帰ロック).
+    """回収した cross-law / 全角リンクが store に存在する (回帰ロック).
 
     Why: 相続裁決 bulk で共有 parser に全角正規化 + cross-law マップ拡張を入れた後、法人税 store を
-    修正後 parser で再生成し純加算 9 link を取り込んだ (FU-552・2026-07-04)。全角取りこぼし
+    修正後 parser で再生成し純加算リンクを取り込んだ (FU-552・2026-07-04)。全角取りこぼし
     (法人税法第２条 全角 -> houjin-art-2) と cross-law (国税通則法 art-68・民法 art-624) が
     committed store に残っていることを実証し、将来の parser 変更で silent に落ちないよう固定する。
+
+    2026-07-08 消費 refresh: 消費税 bulk で 消費税法/施行令/施行規則 を FULLNAME_LAW_MAP に登録した
+    後、法人税裁決が引く 消費税法 参照が解決するようになり、法人税 store を再生成して +2 link を
+    純加算した (shouhi-art-30 仕入税額控除・shouhi-art-2 定義)。これも同様に固定する。
     """
     rows = _load_store()
     attached = {aid for r in rows for aid in r.get("attached_article_ids", [])}
@@ -138,5 +142,7 @@ def test_fullwidth_and_crosslaw_links_are_present():
         "houjin-zei-hou-art-2",  # 全角 第２条 正規化 (FU-552)
         "kokuzei-tsuusoku-hou-art-68",  # cross-law 重加算税 (FU-552)
         "minpou-art-624",  # cross-law 民法 (FU-552)
+        "shouhi-zei-hou-art-30",  # cross-law 消費税法 仕入税額控除 (2026-07-08 消費 refresh)
+        "shouhi-zei-hou-art-2",  # cross-law 消費税法 定義 (2026-07-08 消費 refresh)
     ):
-        assert aid in attached, f"FU-552 link missing: {aid} (全角/cross-law 回帰?)"
+        assert aid in attached, f"cross-law link missing: {aid} (全角/cross-law 回帰?)"
