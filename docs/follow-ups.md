@@ -535,6 +535,18 @@ except ValidationError as e:
 
 ## P2 — Phase 1 中期 (2026-07〜09)
 
+### [ ] FU-552: 法人税裁決 store の parser 修正 refresh (+9 link・2026-07-04 追加・相続裁決 bulk 直後)
+
+**経緯**: 相続裁決 bulk (`feature/sozoku-ruling-store-bulk`) で `parse-kfs-saiketsu.py` に (a) 全角数字正規化 (`normalize_fullwidth_digits`・`第２条` → art-2) と (b) cross-law マップ拡張 (民法/借地借家法/国税通則法) を入れた。両者は共有 global ゆえ、**コミット済 法人税 store (`data/v0.2/case-law/hojin/rulings.jsonl`) を修正後 parser で再生成すると 9 行が純加算で変化**する (実測・G1 検証):
+- cross-law 由来 **7 行**: 国税通則法 art-68 ×6・民法 art-624 ×1
+- 全角由来 **2 行**: `法人税法第２条` (全角) → houjin-art-2
+
+**性質**: **純増のみ** (要旨改変 0・既存リンク喪失 0・偽リンク 0＝新規 9 link 全て corpus 実在)。相続 sprint では G2 に従い hojin store を**凍結**(再生成せず) し、sozoku store のみ書込んだ。本 FU で hojin store を修正後 parser で再生成し `test_hojin_rulings_store` の期待値 (>=93) を再ロックする。
+
+**優先度**: 全角取りこぼしは committed 法人税 store の**完全性バグ**ゆえ defer でなく相続 PR 直後に fix (佐藤裁定 2026-07-04)。cross-law 7 link も同時取込 (同じ再生成で拾える)。
+
+**関連**: 相続裁決 bulk (sozoku ruling store) / [FU-106] (判例リンク方針) / `parse-kfs-saiketsu.py` FULLNAME_LAW_MAP。
+
 ### [x] FU-539: 譲渡所得措通(710826)取込＋多編リンク機構パイロット — ✅ 完了 2026-07-03 (PR #93, main 2c007bd5)
 
 **成果**: 他編措通の1本目。**`sochi-joto-tsutatsu` corpus 新設（420 directive）**＝FU-536 逐語流用で 710826（山林所得・譲渡所得関係）取込。joto タックスアンサー措通参照を **62 link 化**（`EXPECTED_DIRECTIVES` 40→102・`EXPECTED_UNLINKED` 84→22・`EXPECTED_ARTICLES` 243 不変・unique 42）。**多編リンク解決＝カテゴリ厳格**（編＝カテゴリで確定・横断 fallback なし）・`sochi-joto` 限定 gate で中点(・)→_ 正規化（`31・32共` 等の複数条 join マーカー対応）。非 joto 6 baseline 全 byte 不変・hojin 20 link held・**誤リンク 0**・CI 全9 green（pytest 761）。
