@@ -20,6 +20,7 @@ if str(_SHARED_SRC) not in sys.path:
 from juricode_shared.ir import (  # noqa: E402
     DirectiveChunk,
     JuriCodeArticle,
+    PrecedentStoreEntry,
     RulingStoreEntry,
     TaxAnswerChunk,
 )
@@ -181,6 +182,48 @@ def export_ruling_store_schema(output_dir: Path) -> Path:
     return output_path
 
 
+def export_precedent_store_schema(output_dir: Path) -> Path:
+    """PrecedentStoreEntry の JSON Schema を出力する (判例 store・別ファイル・drift 検出専用).
+
+    Why: 全判例を committed に永続化する store (data/v0.2/case-law/hojin/precedents.jsonl) の
+    record 契約を drift 検出する。PrecedentReference (article 埋込・ロック済) の additive 継承
+    ゆえ、この store schema を実行時に消費する下流は存在しない (article は juricode-article
+    schema 側で検証)。IR を編集したら本 schema を再 export して commit する。
+    """
+    schema = PrecedentStoreEntry.model_json_schema(
+        mode="validation",
+        ref_template="#/$defs/{model}",
+    )
+
+    original_desc = schema.get("description") or ""
+
+    ordered: dict = {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/precedent-store.schema.json",
+        "title": "JuriCode-JP Precedent Store Entry (IR-derived canonical schema)",
+        "description": (
+            "Auto-generated JSON Schema from Pydantic IR "
+            "(juricode_shared.ir.PrecedentStoreEntry). "
+            "One record per court precedent (判例) in the committed precedent store "
+            "(data/v0.2/case-law/hojin/precedents.jsonl), mechanically derived from the "
+            "ruling store's cited_refs. "
+            "Additive superset of PrecedentReference (article-embedded, PR#106, locked) "
+            "with store-only fields (cited_by / cited_by_context). "
+            "Edit the Pydantic models in tools/shared/src/juricode_shared/ir.py "
+            "instead of this file. "
+            f"Original IR description: {original_desc}"
+        ),
+    }
+    for k, v in schema.items():
+        if k not in ordered:
+            ordered[k] = v
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / "precedent-store.schema.json"
+    _write_schema(ordered, output_path)
+    return output_path
+
+
 def main() -> int:
     schema_dir = _REPO_ROOT / "schema"
 
@@ -203,6 +246,11 @@ def main() -> int:
     rel_ruling_store = ruling_store_path.relative_to(_REPO_ROOT)
     print(f"Exported: {rel_ruling_store}")
     print(f"Size: {ruling_store_path.stat().st_size:,} bytes")
+
+    precedent_store_path = export_precedent_store_schema(schema_dir)
+    rel_precedent_store = precedent_store_path.relative_to(_REPO_ROOT)
+    print(f"Exported: {rel_precedent_store}")
+    print(f"Size: {precedent_store_path.stat().st_size:,} bytes")
 
     return 0
 

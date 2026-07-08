@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/JuriCode-JP/JuriCode-JP/schema/precedent-store.schema.json",
+  "title": "JuriCode-JP Precedent Store Entry (IR-derived canonical schema)",
+  "description": "Auto-generated JSON Schema from Pydantic IR (juricode_shared.ir.PrecedentStoreEntry). One record per court precedent (判例) in the committed precedent store (data/v0.2/case-law/hojin/precedents.jsonl), mechanically derived from the ruling store's cited_refs. Additive superset of PrecedentReference (article-embedded, PR#106, locked) with store-only fields (cited_by / cited_by_context). Edit the Pydantic models in tools/shared/src/juricode_shared/ir.py instead of this file. Original IR description: 判例ストア (data/v0.2/case-law/hojin/precedents.jsonl) の 1 レコード (判例 1 件).\n\nWhy: 裁決 store (RulingStoreEntry) の cited_refs から機械導出した裁判所判例 (precedent)\nを committed に永続化する store。article 埋込用の PrecedentReference (PR#106・ロック済\ndisjoint union) は一切変更せず、それを継承して store 専用の被引用エッジだけを additive に\n足した並行構造。引用エッジは precedent 側 cited_by に持たせる (rulings.jsonl は非改変)。\nfrozen=True で不変・extra=forbid で未知キー拒否。scj/hcj/dcj/fcj/smc prefix 検証は\nPrecedentReference から継承する。",
+  "$defs": {
+    "AppealRelation": {
+      "additionalProperties": false,
+      "description": "審級関係 (予約フィールド・precedent 用).\n\nWhy: 審級は「この判決の上訴審 (appeal_to)」「この判決の原審 (appealed_from)」という\n非対称な向きを持つ (2026-07-04 佐藤裁定)。greenfield の今、正しい形状の空箱を定義し、\npopulate は将来 FU で行う (本 PR では予約のみ)。",
+      "properties": {
+        "relation": {
+          "description": "審級の向き",
+          "enum": [
+            "appeal_to",
+            "appealed_from"
+          ],
+          "title": "Relation",
+          "type": "string"
+        },
+        "case_id": {
+          "description": "関連する判例/裁決の case_id",
+          "pattern": "^[a-z][a-z0-9-]{2,9}-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$",
+          "title": "Case Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "relation",
+        "case_id"
+      ],
+      "title": "AppealRelation",
+      "type": "object"
+    },
+    "Relevance": {
+      "description": "判例と条文の関連度.",
+      "enum": [
+        "high",
+        "medium",
+        "low"
+      ],
+      "title": "Relevance",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "description": "判例/裁決の一意 ID",
+      "pattern": "^[a-z][a-z0-9-]{2,9}-[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+$",
+      "title": "Case Id",
+      "type": "string"
+    },
+    "decision_date": {
+      "description": "判決/裁決の日",
+      "format": "date",
+      "title": "Decision Date",
+      "type": "string"
+    },
+    "url": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "出典 permalink (任意)。ruling は実データで常に保持。precedent は courts.go.jp permalink 取得を後段 FU に委ね MVP では省略可 (D1・2026-07-04)。",
+      "title": "Url"
+    },
+    "relevance": {
+      "$ref": "#/$defs/Relevance",
+      "description": "この条文との関連度"
+    },
+    "source_license": {
+      "description": "出典本文の権利関係",
+      "enum": [
+        "pdl-1.0",
+        "public-domain",
+        "self-summary",
+        "other"
+      ],
+      "title": "Source License",
+      "type": "string"
+    },
+    "summary_source": {
+      "description": "要約の出所",
+      "enum": [
+        "official_pdl",
+        "self_summary_draft",
+        "none"
+      ],
+      "title": "Summary Source",
+      "type": "string"
+    },
+    "case_name_ja": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "事件名/裁決名 (日本語)",
+      "title": "Case Name Ja"
+    },
+    "relevant_paragraph": {
+      "anyOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "関連する項番号 (任意)",
+      "title": "Relevant Paragraph"
+    },
+    "summary_ja": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "要旨 (日本語)",
+      "title": "Summary Ja"
+    },
+    "tags": {
+      "description": "タグ (任意)",
+      "items": {
+        "type": "string"
+      },
+      "title": "Tags",
+      "type": "array"
+    },
+    "case_type": {
+      "const": "precedent",
+      "title": "Case Type",
+      "type": "string"
+    },
+    "court": {
+      "description": "裁判所 (日本語)",
+      "title": "Court",
+      "type": "string"
+    },
+    "court_en": {
+      "description": "裁判所 (英語)",
+      "title": "Court En",
+      "type": "string"
+    },
+    "citation": {
+      "description": "掲載誌・巻号",
+      "title": "Citation",
+      "type": "string"
+    },
+    "case_name_en": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "事件名 (英語)",
+      "title": "Case Name En"
+    },
+    "summary_en": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "要旨 (英語)",
+      "title": "Summary En"
+    },
+    "appeal_relation": {
+      "description": "審級関係 (予約・本 PR では populate しない)",
+      "items": {
+        "$ref": "#/$defs/AppealRelation"
+      },
+      "title": "Appeal Relation",
+      "type": "array"
+    },
+    "cited_by": {
+      "description": "この判例を《参考判決・裁決》で引用した裁決の case_id (ntt-)。被引用グラフの逆エッジ。",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cited By",
+      "type": "array"
+    },
+    "cited_by_context": {
+      "description": "cited_by と対応する引用文脈 (争点コード等・任意。MVP では未 populate)。",
+      "items": {
+        "type": "string"
+      },
+      "title": "Cited By Context",
+      "type": "array"
+    }
+  },
+  "required": [
+    "case_id",
+    "decision_date",
+    "relevance",
+    "source_license",
+    "summary_source",
+    "case_type",
+    "court",
+    "court_en",
+    "citation"
+  ],
+  "type": "object"
+}

@@ -555,9 +555,17 @@
           "type": "string"
         },
         "url": {
-          "description": "出典 permalink",
-          "title": "Url",
-          "type": "string"
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "出典 permalink (任意)。ruling は実データで常に保持。precedent は courts.go.jp permalink 取得を後段 FU に委ね MVP では省略可 (D1・2026-07-04)。",
+          "title": "Url"
         },
         "relevance": {
           "$ref": "#/$defs/Relevance",
@@ -690,7 +698,6 @@
       "required": [
         "case_id",
         "decision_date",
-        "url",
         "relevance",
         "source_license",
         "summary_source",
@@ -729,9 +736,17 @@
           "type": "string"
         },
         "url": {
-          "description": "出典 permalink",
-          "title": "Url",
-          "type": "string"
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "出典 permalink (任意)。ruling は実データで常に保持。precedent は courts.go.jp permalink 取得を後段 FU に委ね MVP では省略可 (D1・2026-07-04)。",
+          "title": "Url"
         },
         "relevance": {
           "$ref": "#/$defs/Relevance",
@@ -867,7 +882,6 @@
       "required": [
         "case_id",
         "decision_date",
-        "url",
         "relevance",
         "source_license",
         "summary_source",
