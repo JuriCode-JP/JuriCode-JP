@@ -126,17 +126,20 @@ def test_article_ruling_links_are_real_and_in_store():
 
 
 def test_crosslaw_links_are_present():
-    """消費裁決の cross-law link (法人税法・地方税法) が store に存在する (回帰ロック).
+    """消費裁決の cross-law link (法人税法・地方税法・所得税法) が store に存在する (回帰ロック).
 
-    Why: 消費裁決は消費税法本体だけでなく法人税法・地方税法も引く。共有 FULLNAME_LAW_MAP に
+    Why: 消費裁決は消費税法本体だけでなく法人税法・地方税法・所得税法も引く。共有 FULLNAME_LAW_MAP に
     既登録の法人/地方へ corpus 実在分だけ純加算した (偽リンク0)。この cross-law が committed
     store に残っていることを実証し、将来の parser/map 変更で silent に落ちないよう固定する
-    (消費 bulk・2026-07-08)。
+    (消費 bulk・2026-07-08)。所得税法リンクは PR#115 で所得税を map 追加した波及を消費裁決が
+    回収したもの (既存 store 所得 cross-law refresh・2026-07-09)。
     """
     rows = _load_store()
     attached = {aid for r in rows for aid in r.get("attached_article_ids", [])}
     for aid in (
         "houjin-zei-hou-art-11",  # cross-law 法人税法 (消費裁決が引用)
         "chihou-zei-hou-art-144",  # cross-law 地方税法 (地方消費税・消費裁決が引用)
+        "shotoku-zei-hou-art-12",  # cross-law 所得税法 実質所得者課税 (PR#115 map 波及を消費裁決が回収)
+        "shotoku-zei-hou-art-28",  # cross-law 所得税法 給与所得 (給与 vs 外注費・仕入税額控除判定)
     ):
         assert aid in attached, f"消費 cross-law link missing: {aid} (回帰?)"
