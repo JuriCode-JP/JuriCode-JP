@@ -65,7 +65,21 @@ paragraphs:
     modality: gimu
     references:
     - 前二項
-cases: []
+cases:
+  - case_id: ntt-2013-08-13-j92-2
+    case_type: ruling
+    source_license: pdl-1.0
+    summary_source: official_pdl
+    decision_date: '2013-08-13'
+    case_name_ja: 原処分庁が行った第二次納税義務の納付告知処分時の滞納者の住所は、原処分庁が管轄区域とする住所ではないことから、原処分庁は徴収に係る処分をする権限を有しないとした事例
+    url: https://www.kfs.go.jp/service/JP/92/02/index.html
+    relevance: medium
+    relevant_paragraph: 1
+    summary_ja: '原処分庁は、原処分庁が滞納者（本件滞納者）の滞納国税を徴収するために請求人に対して行った国税徴収法第39条《無償又は著しい低額の譲受人等の第二次納税義務》に規定する第二次納税義務の納付告知処分（本件納付告知処分）は適法である旨主張する。
+
+      しかしながら、国税通則法第43条《国税の徴収の所轄庁》第1項は、国税の徴収は、その徴収に係る処分の際におけるその国税の納税地を所轄する税務署長が行う旨規定しているところ、各証拠によれば、本件納付告知処分時における本件滞納者の住所は、原処分庁が管轄区域とする住所ではない。したがって、原処分庁は、本件滞納者についてその徴収に係る処分をする権限を有せず、権限を有しない原処分庁が行った本件納付告知処分は違法なものとして取り消されるべきである。'
+    issue_code: '0304000000'
+    tax_item: 国税通則
 amendments: []
 tags:
 - phase1-tax
