@@ -323,7 +323,10 @@ def _extract_summary(article_div, article_point) -> str:
         if el is article_point:
             continue
         cls = el.get("class") or []
-        if "article_point" in cls or "article_date" in cls:
+        # article_point/article_date は本文でない。pagetop は leaf ページ末尾のナビ
+        # <p class="pagetop">トップに戻る</p> (要旨本文でない・byte gate 過剰除去を自己検知)。
+        # MP/01 で 1 件 (ntt-2008-09-09-j76-3) が要旨末尾に nav を巻き込み byte fail・2026-07-08。
+        if "article_point" in cls or "article_date" in cls or "pagetop" in cls:
             continue
         text = el.get_text("\n").strip()
         if not text or text.startswith("《"):
