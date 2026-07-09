@@ -1,7 +1,8 @@
 # tools/amendments — 改正履歴 populate
 
 条文 md frontmatter の `amendments[]`(改正履歴)を、e-Gov 法令API v2 の改正版チェーンの
-**版間 diff** から機械生成する。案B(条文単位帰属)。パイロット対象は消費税法。
+**版間 diff** から機械生成する。案B(条文単位帰属)。config 駆動で複数税法に対応
+(`LAW_CONFIGS`: 消費税法パイロット + 相続税法 横展開①)。
 
 ## 何をするか
 
@@ -22,18 +23,24 @@
 
 ## 使い方
 
+`--law`(既定 `shouhi-zei-hou`)で対象法令を選ぶ(`LAW_CONFIGS` の登録キー)。
+
 ```bash
-# dry-run(書込なし・実測サマリ + サンプル表示)
+# dry-run(書込なし・実測サマリ + サンプル表示。既定は消費税法)
 python tools/amendments/extract_amendments.py --samples 6
 
+# 相続税法を dry-run
+python tools/amendments/extract_amendments.py --law souzoku-zei-hou --samples 6
+
 # 書込(条 md に amendments を splice。べき等)
-python tools/amendments/extract_amendments.py --write
+python tools/amendments/extract_amendments.py --law souzoku-zei-hou --write
 
 # cache のみで再現(ネットワーク非依存。先に一度 online 実行が必要)
-python tools/amendments/extract_amendments.py --offline --write
+python tools/amendments/extract_amendments.py --law souzoku-zei-hou --offline --write
 ```
 
 改正版の全文 XML は `cache/revisions/{law_revision_id}.xml`(`.gitignore` で除外)にキャッシュ。
+per-law の revisions 一覧は `cache/revisions/_revisions_{law_id}.json`。
 
 ## データ契約
 
@@ -44,7 +51,14 @@ e-Gov `GET /law_revisions/{law_id}` を一次情報として参照する。詳�
 
 ## 横展開時の注意
 
-条ずれ・番号振り直し・削除の有無は**法令依存**(消費税法では枝番挿入のみだった)。
-他税法へ広げる際は法令ごとに版間 diff の性質を再確認してから populate する。
+条ずれ・番号振り直し・削除の有無は**法令依存**(消費税法・相続税法ともに枝番挿入のみだった)。
+他税法へ広げる際は法令ごとに版間 diff の性質を再確認(probe)してから `LAW_CONFIGS` に追加する。
+
+**range Num ガード(共通防御)**: e-Gov は連続削除条を 1 つの `Article @Num="N:M"`
+(例 相続税法の `56:57` = 第五十六条及び第五十七条削除)に畳み込む。この range Num は単一の
+corpus 条にマップできず案B の安定キー前提が崩れるため、`article_text_map` が diff 対象外に
+**skip + log** する(fail-safe)。相続では inert(corpus 非在)だが法人税/所得税の削除条にも効く。
 
 テスト: `tools/amendments/tests/`(committed 成果物 + revisions fixture を読む hermetic 検証)。
+新法令を追加したら test を新設し **`ci.yml` の pytest 行と `pyproject.toml` の `testpaths` の両所**に
+配線する(CI は明示列挙で走るため testpaths だけでは CI 非実走)。
