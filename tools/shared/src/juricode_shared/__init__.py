@@ -21,6 +21,7 @@ from juricode_shared.ir import (
     Relevance,
     Amendment,
 )
+from juricode_shared.cases_splice import CasesBlockError, remove_cases_from_md_text
 from juricode_shared.ids import make_article_id, make_case_id, validate_article_id
 from juricode_shared.paths import article_path, ARCHIVE_SUBDIR
 from juricode_shared.safe_write import (
@@ -61,6 +62,8 @@ __all__ = [
     "RulingStoreEntry",
     "PrecedentStoreEntry",
     "AppealRelation",
+    "CasesBlockError",
+    "remove_cases_from_md_text",
     "Relevance",
     "Amendment",
     "make_article_id",

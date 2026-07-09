@@ -121,8 +121,11 @@ def test_article_ruling_links_are_real_and_in_store():
                 f"(forward invariant)"
             )
             checked += 1
-    # 193 = Step B clean 実測 store->md リンク総数 (2026-07-08 国税通則 bulk でロック)。
-    assert checked >= 193, f"expected >=193 store->md ruling links, found {checked}"
+    # 192 = FU-71 枝番 hotfix 後の実測 store->md リンク総数 (2026-07-08 再ロック)。
+    # 旧 193 は枝番偽リンクを含んでいた。除去 9 / 追加 8 で純減 1 (内訳: 誤リンク 9 件を剥がし、
+    # うち 2 件は正条が corpus 未収録ゆえ非リンク化 (ii)、art-74 の 1 ペアは 74-9/74-11 の 2 条に
+    # 分かれて +1)。floor を下げるのは偽リンク除去の正当な帰結 (plan v2 §R3「集計は再ロック」)。
+    assert checked >= 192, f"expected >=192 store->md ruling links, found {checked}"
 
 
 def test_crosslaw_links_are_present():

@@ -203,6 +203,56 @@ def test_fullwidth_article_number_normalized():
 
 
 # ---------------------------------------------------------------------------
+# 枝番 (条の後の「の」) 回帰 — FU-71
+#
+# Why: 旧 _ARTICLE_RE は「の」が条の前 (第54の2条) しか捕捉せず、標準表記 第74条の9 を art-74 に
+# 潰していた。潰れ先は corpus 実在ゆえ旧「偽リンク0」検査 (実在のみ) を素通りし 5 store に 30 件の
+# 偽リンクが commit された。枝番回復と後方互換 (旧表記・非枝番) を同時に固定する。
+# ---------------------------------------------------------------------------
+
+# (raw 条文表記, 期待 article_id サフィックス) — plan v2 §3 / report §4 の表を逐語テスト化。
+_EDA_BAN_CASES = [
+    ("第54条", "54"),  # 枝番なし: 不変
+    ("第54の2条", "54-2"),  # 旧表記 (の が条の前): 後方互換で不変
+    ("第54の2条第1項", "54-2"),
+    ("第74条の9", "74-9"),  # 標準表記: 枝番回復
+    ("第37条の11の3第1項", "37-11-3"),  # 多段枝番
+    ("第9条の2第2項", "9-2"),
+    ("第74条の９、第74条の10", "74-9"),  # 全角枝番 + 複数条列挙 (先頭のみ = 別 FU #72)
+    ("第42条の5第1項・第6項", "42-5"),
+    ("第5条の規定により", "5"),  # 「の」が枝番でない: 誤捕捉しない
+    ("第2条第1項第3号", "2"),  # 項・号は枝番でない
+]
+
+
+@pytest.mark.parametrize("suffix, expected", _EDA_BAN_CASES)
+def test_eda_ban_article_number_resolution(suffix, expected):
+    mod = _load_parser()
+    mod._ARTICLE_CORPUS = {f"houjin-zei-hou-art-{expected}"}
+    res = mod.resolve_sanshou_jouken([f"法人税法{suffix}"])
+    assert res["links"], f"{suffix!r} が link されない (unlinked={res['unlinked']})"
+    assert res["links"][0]["article_id"] == f"houjin-zei-hou-art-{expected}"
+
+
+def test_eda_ban_does_not_collapse_to_base_article():
+    """第74条の9 が art-74 (実在する別条) に潰れないこと = 偽リンクの再発防止。"""
+    mod = _load_parser()
+    mod._ARTICLE_CORPUS = {"kokuzei-tsuusoku-hou-art-74"}  # 潰れ先だけ実在させる
+    res = mod.resolve_sanshou_jouken(["国税通則法第74条の9"])
+    assert res["links"] == [], "枝番が脱落して art-74 に偽リンクしている"
+    assert res["unlinked"] == [{"raw": "国税通則法第74条の9", "reason": "corpus_gap"}]
+
+
+def test_eda_ban_paragraph_still_captured():
+    """枝番 group 追加で第K項の捕捉 group がずれていないこと。"""
+    mod = _load_parser()
+    mod._ARTICLE_CORPUS = {"souzoku-zei-hou-art-19-2"}
+    res = mod.resolve_sanshou_jouken(["相続税法第19条の2第5項"])
+    assert res["links"][0]["article_id"] == "souzoku-zei-hou-art-19-2"
+    assert res["links"][0]["relevant_paragraph"] == 5
+
+
+# ---------------------------------------------------------------------------
 # 要旨 byte 忠実 (§8) + RulingReference IR 適合
 # ---------------------------------------------------------------------------
 
