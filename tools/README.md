@@ -9,6 +9,7 @@ tools/
 ├── fetch-egov/    # e-Gov 法令APIからの取得
 ├── parse/         # XML → 中間表現(JuriCode-JP形式)
 ├── validate/      # スキーマ・データ検証
+├── amendments/    # 改正履歴(amendments[])を版間 diff から populate
 └── translate/     # 英訳補助(Claude APIなど)
 ```
 
