@@ -43,7 +43,11 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2026-04-01'
+  law_num: 令和八年法律第十二号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「の」→（削除））
 tags:
 - phase1-tax
 - auto-generated

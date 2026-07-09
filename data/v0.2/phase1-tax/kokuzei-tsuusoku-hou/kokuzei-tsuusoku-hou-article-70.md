@@ -303,7 +303,23 @@ cases:
     tax_item: 所得税
     tags:
     - 参照通達:消費税法基本通達6-1-5
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 平成三十一年法律第六号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「中断」→「完成猶予」ほか）
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「第一項の規定により賦課決定をすることができないこととなる日前三月以内にされた納税申告書の提出（源泉徴収等による国税の納付…」ほか）
+- effective_date: '2024-01-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「る第二十五条（決定）の規定によ」ほか）
+- effective_date: '2024-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「七」→「八」）
 tags:
 - phase1-tax
 - auto-generated

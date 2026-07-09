@@ -22,7 +22,11 @@ paragraphs:
     text: この法律において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「又は連結欠損金額」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

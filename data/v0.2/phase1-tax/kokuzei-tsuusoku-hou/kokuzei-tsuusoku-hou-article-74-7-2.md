@@ -43,7 +43,15 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「第一項」→（削除）ほか）
+- effective_date: '2025-04-01'
+  law_num: 令和六年法律第四十六号
+  law_name: 情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律
+  description: 本条を改正（「五」→「六」）
 tags:
 - phase1-tax
 - auto-generated

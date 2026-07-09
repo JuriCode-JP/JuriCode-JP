@@ -22,7 +22,11 @@ paragraphs:
     text: 国税に関する法律の規定により国税を連帯して納付する義務については、民法第四百三十六条、第四百三十七条及び第四百四十一条から第四百四十五条まで（連帯債務の効力等）の規定を準用する。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 平成二十九年法律第四十五号
+  law_name: 民法の一部を改正する法律の施行に伴う関係法律の整備等に関する法律
+  description: 本条を改正（「二」→「六」ほか）
 tags:
 - phase1-tax
 - auto-generated

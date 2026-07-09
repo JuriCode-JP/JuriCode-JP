@@ -40,7 +40,19 @@ paragraphs:
     text: 納税義務の成立と同時に特別の手続を要しないで納付すべき税額が確定する国税は、次に掲げる国税とする。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（連結所得に対する法人税については、連結事業年度）」→（削除））
+- effective_date: '2024-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（次号に掲げるものを除く。）」ほか）
+- effective_date: '2026-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、各対象会計年度の国際最低課税残余額に対する法人税」ほか）
 tags:
 - phase1-tax
 - auto-generated

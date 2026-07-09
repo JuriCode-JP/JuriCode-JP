@@ -88,7 +88,11 @@ paragraphs:
     text: ただし、その保管に要する費用は、請求することができない。
     modality: kanou_negative
 cases: []
-amendments: []
+amendments:
+- effective_date: '2025-06-01'
+  law_num: 令和四年法律第六十八号
+  law_name: 刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律　抄
+  description: 本条を改正（「懲役の」→「拘禁」）
 tags:
 - phase1-tax
 - auto-generated

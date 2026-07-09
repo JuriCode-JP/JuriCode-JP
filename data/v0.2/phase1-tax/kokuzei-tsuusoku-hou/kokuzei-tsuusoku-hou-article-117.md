@@ -95,7 +95,11 @@ paragraphs:
     - 前二項
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「３第一項の場合において、同項の納税者が前項の規定による納税管理人の届出をしなかつたときは、当該納税者に係る国税の納税地を…」）
 tags:
 - phase1-tax
 - auto-generated

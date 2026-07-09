@@ -33,7 +33,11 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2025-10-01'
+  law_num: 令和五年法律第五十三号
+  law_name: 民事関係手続等における情報通信技術の活用等の推進を図るための関係法律の整備に関する法律
+  description: 本条を改正（「の原本」→「（当該公正証書が電磁的記録をもつて作成された場合にあつては、その電磁的記録に記録された情報の内容を表示したもの）」）
 tags:
 - phase1-tax
 - auto-generated

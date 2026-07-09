@@ -73,7 +73,19 @@ paragraphs:
     override_target:
     - 第一項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-01-04'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「は」→「貼」ほか）
+- effective_date: '2022-04-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「による申請又は届出の場合の」→「を使用する方法等による」ほか）
+- effective_date: '2024-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（次項において「特定納付方法」という。）」ほか）
 tags:
 - phase1-tax
 - auto-generated

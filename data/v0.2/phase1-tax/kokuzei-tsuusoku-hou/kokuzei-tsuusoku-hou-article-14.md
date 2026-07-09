@@ -42,7 +42,11 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2026-05-21'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「の名称」→「を特定するために必要な情報」ほか）
 tags:
 - phase1-tax
 - auto-generated

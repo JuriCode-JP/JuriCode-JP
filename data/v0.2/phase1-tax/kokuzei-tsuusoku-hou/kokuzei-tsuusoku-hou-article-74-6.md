@@ -23,7 +23,11 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第四十九号
+  law_name: 強靱かつ持続可能な電気供給体制の確立を図るための電気事業法等の一部を改正する法律
+  description: 本条を改正（（追加）→「等」ほか）
 tags:
 - phase1-tax
 - auto-generated
