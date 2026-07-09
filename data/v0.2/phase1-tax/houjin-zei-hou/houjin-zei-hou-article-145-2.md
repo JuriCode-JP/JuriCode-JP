@@ -23,7 +23,11 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2026-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「第百四十五条の二この節において「国際最低課税残余額」とは、特定多国籍企業グループ等」ほか）
 tags:
 - phase1-tax
 - auto-generated

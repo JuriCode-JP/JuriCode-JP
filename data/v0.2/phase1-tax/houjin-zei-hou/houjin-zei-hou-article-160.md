@@ -26,7 +26,23 @@ paragraphs:
     text: ただし、情状により、その刑を免除することができる。
     modality: kanou_kenri
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「一条の二十二第一項（連結確定申告）、第八十」→（削除）ほか）
+- effective_date: '2024-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、」ほか）
+- effective_date: '2025-06-01'
+  law_num: 令和四年法律第六十八号
+  law_name: 刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律　抄
+  description: 本条を改正（「懲役」→「拘禁刑」）
+- effective_date: '2026-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「二条の十四第一項（国際最低課税残余額に係る確定申告）（第百四十五条の五（申告及び納付等）において準用する場合を含む。）、…」ほか）
 tags:
 - phase1-tax
 - auto-generated

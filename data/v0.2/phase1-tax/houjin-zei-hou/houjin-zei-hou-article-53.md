@@ -33,7 +33,11 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2025-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「削」→「内国法人が資産の賃貸借で第六十四条の二第三項（リース取引に係る所得の金額の計算）に規定するリース取引以外のもの（以下この…」ほか）
 tags:
 - phase1-tax
 - auto-generated

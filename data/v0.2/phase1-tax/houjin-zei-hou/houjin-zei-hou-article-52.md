@@ -162,7 +162,15 @@ cases:
     tax_item: 法人税
     tags:
     - 参照通達:法人税基本通達11-2-5
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（債券に表示されるべきものを除く。以下この項及び次項において同じ。）」）
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（当該内国法人が連結子法人である場合には、当該事業年度終了の時において当該内国法人に係る連結親法人が次に掲げる法人に該当…」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

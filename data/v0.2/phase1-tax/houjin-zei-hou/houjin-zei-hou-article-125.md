@@ -33,7 +33,11 @@ paragraphs:
     text: 第百二十一条第一項（青色申告）の承認を受けていない内国法人が第六十四条の九第一項（通算承認）の規定による承認を受けた場合には、当該承認の効力が生じた日において第百二十一条第一項の承認があつたものとみなす。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、」ほか）
 tags:
 - phase1-tax
 - auto-generated

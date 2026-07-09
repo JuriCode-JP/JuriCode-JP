@@ -56,7 +56,11 @@ paragraphs:
     references:
     - 前三項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「た場合において、当該事業年度終了の時までに取得又は改良をしたその事業の用に供する固定資産につき」ほか）
 tags:
 - phase1-tax
 - auto-generated

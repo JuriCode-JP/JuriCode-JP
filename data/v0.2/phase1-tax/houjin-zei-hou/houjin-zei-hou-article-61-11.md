@@ -58,7 +58,11 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（連結納税の開始に伴う資産の時価評価損益）」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

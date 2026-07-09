@@ -59,7 +59,11 @@ paragraphs:
     references:
     - 同項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「公益法人等又は人格のない社団等」→「次に掲げる法人」ほか）
 tags:
 - phase1-tax
 - auto-generated

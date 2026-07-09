@@ -82,7 +82,11 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（連結事業年度において生じた第八十一条の十八第一項（連結法人税の個別帰属額の計算）に規定する個別欠損金額（当該連結事業年…」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

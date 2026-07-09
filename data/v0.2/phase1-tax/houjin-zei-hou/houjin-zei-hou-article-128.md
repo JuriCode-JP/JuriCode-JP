@@ -29,7 +29,15 @@ paragraphs:
     modality: gimu
     depends_on: houjin-zei-hou-art-128-p1-zen
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（通算法人を除く。）」）
+- effective_date: '2026-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「終了の日の翌日から二月以内」→「の第七十四条第一項（確定申告）の規定による申告書の提出期限まで」）
 tags:
 - phase1-tax
 - auto-generated

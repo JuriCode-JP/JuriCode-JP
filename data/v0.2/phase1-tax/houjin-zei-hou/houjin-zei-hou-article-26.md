@@ -60,7 +60,19 @@ paragraphs:
     text: 内国法人が第五十五条第五項の規定により各事業年度の所得の金額の計算上損金の額に算入されないものの還付を受ける場合には、その還付を受ける金額は、その内国法人の各事業年度の所得の金額の計算上、益金の額に算入しない。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「の損金不算入」→（削除）ほか）
+- effective_date: '2022-04-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「七」→「八」ほか）
+- effective_date: '2023-01-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「三」→「四」ほか）
 tags:
 - phase1-tax
 - auto-generated

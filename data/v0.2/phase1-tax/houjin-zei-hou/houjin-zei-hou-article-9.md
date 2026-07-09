@@ -24,7 +24,15 @@ paragraphs:
     references:
     - 前二条
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（退職年金業務等を行う外国法人の退職年金等積立金の課税）第九条第百四十五条の三」ほか）
+- effective_date: '2026-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「三」→「十一」ほか）
 tags:
 - phase1-tax
 - auto-generated

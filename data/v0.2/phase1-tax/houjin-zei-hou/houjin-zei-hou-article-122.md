@@ -40,7 +40,15 @@ paragraphs:
     - 同項
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（連結申告法人を除く。）」→（削除）ほか）
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「公益法人等（収益事業を行つていないものに限る。）に該当していた普通法人又は協同組合等の当該普通法人又は協同組合等に該当す…」→「次に掲げる法人の区分に応じそれぞれ次に定める」ほか）
 tags:
 - phase1-tax
 - auto-generated

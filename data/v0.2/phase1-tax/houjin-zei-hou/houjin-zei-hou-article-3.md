@@ -47,7 +47,23 @@ cases:
       の要件を充足する団体であると認められるから、人格のない社団等に該当する。'
     issue_code: '0101020000'
     tax_item: 法人税
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 平成三十年法律第七号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「第七十五条の三（電子情報処理組織による申告）及び」）
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「三」→「四」）
+- effective_date: '2024-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、第八十二条の七（電子情報処理組織による申告）」）
+- effective_date: '2026-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、第八十二条の十五（電子情報処理組織による申告）、第八十二条の二十三（電子情報処理組織による申告）」）
 tags:
 - phase1-tax
 - auto-generated

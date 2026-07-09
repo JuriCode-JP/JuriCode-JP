@@ -60,7 +60,15 @@ cases:
     tax_item: 法人税
     tags:
     - 参照通達:法人税基本通達（平成30年5月30日付課法2-8による改正前のもの）2-4-2の2
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「第六十一条の十一第一項（連結納税の開始に伴う資産の時価評価損益）に規定する他の内国法人又は第六十一条の十二第一項（連結納…」→（削除）ほか）
+- effective_date: '2025-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（リース譲渡に係る収益及び費用の帰属事業年度）」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

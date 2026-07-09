@@ -22,7 +22,23 @@ paragraphs:
     text: この章において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（前連結事業年度の法人税額等の更正等に伴う更正の請求の特例）」→（削除）ほか）
+- effective_date: '2024-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（定義）」ほか）
+- effective_date: '2024-04-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「他の会社等が」→「第十四号イに規定する政府関係会社等のうち同号イに規定する国等の資産を運用することを主たる目的とするものとして政令で定める…」ほか）
+- effective_date: '2026-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「節」→「章」ほか）
 tags:
 - phase1-tax
 - auto-generated

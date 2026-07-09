@@ -138,7 +138,11 @@ cases:
     tax_item: 法人税
     tags:
     - 参照通達:法人税基本通達2-1-43
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「第百二十一条第一項の承認を受けた内国法人につき、第四条の五第一項（連結納税の承認の取消し）の規定により第四条の二（連結納…」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

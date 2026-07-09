@@ -36,7 +36,15 @@ paragraphs:
     - 同項
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（外国法人の提出する法人税申告書に係る記名押印）」→（削除）ほか）
+- effective_date: '2024-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（通算法人の電子情報処理組織による申告）」ほか）
 tags:
 - phase1-tax
 - auto-generated

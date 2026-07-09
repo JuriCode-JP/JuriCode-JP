@@ -57,7 +57,11 @@ paragraphs:
     text: 第一項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを切り捨てる。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-05-01'
+  law_num: 令和二年法律第四十号
+  law_name: 年金制度の機能強化のための国民年金法等の一部を改正する法律
+  description: 本条を改正（「に」→「（同法第九十一条の二十五（準用」ほか）
 tags:
 - phase1-tax
 - auto-generated

@@ -22,7 +22,11 @@ paragraphs:
     text: 内国法人に対しては、各事業年度の所得について、各事業年度の所得に対する法人税を課する。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（連結事業年度に該当する期間を除く。）」→（削除））
 tags:
 - phase1-tax
 - auto-generated
