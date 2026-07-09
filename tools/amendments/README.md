@@ -58,6 +58,20 @@ e-Gov `GET /law_revisions/{law_id}` を一次情報として参照する。詳�
 として正しく付与される。これは決定論的忠実性を優先した設計上の非網羅性であり、
 網羅的沿革は上記 e-Gov 一次情報を参照する。
 
+## point-in-time アンカー (corpus ソース版で終端)
+
+`amendments[]` は corpus 本文と**同一 point-in-time** で終端する。改正チェーンのアンカーは
+corpus のソース版 = e-Gov `law_data`(現行) が配信する `law_revision_id`
+(`build_enforced_chain(..., law_data_current_rid=...)`) で、そこで打ち切る。理由: 改正 diff は
+corpus の現行本文と同じ版で止めないと、corpus に無い版への変化を帰属して誤帰属になる。
+
+通常法令は `law_data` 現行 == `CurrentEnforced` == 施行日最大が一致するので従来と同一チェーン
+(既存法令は byte 不変)。e-Gov のメタデータ/本文連結が遅延し新施行版が未連結 (例: 国税通則法の
+2026-06-24 民法整備法施行版・`CurrentEnforced=0`) の場合は、`law_data` 現行 (2026-05-21) を
+アンカーに採用し (WARNING ログ)、**未連結の後続施行版は付与しない**。これらは e-Gov が連結し
+corpus を再取得 + 再 run した時点で**自動追随**する (決定論的・point-in-time 一貫)。
+`law_data_current_rid` 未指定時は従来ロジック (`CurrentEnforced` ちょうど1件) にフォールバックする。
+
 ## 横展開時の注意
 
 条ずれ・番号振り直し・削除の有無は**法令依存**(消費税法・相続税法ともに枝番挿入のみだった)。

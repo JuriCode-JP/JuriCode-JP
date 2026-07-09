@@ -166,30 +166,105 @@ def article_text_map(xml: str) -> dict[str, str]:
 # ---- 改正版チェーン ------------------------------------------------------
 
 
-def build_enforced_chain(revisions: list[dict]) -> list[dict]:
+def _revision_id(rev: dict) -> str:
+    return rev.get("law_revision_id") or ""
+
+
+def current_revision_id_from_law_data(xml: str) -> str | None:
+    """law_data(law_id) 応答 XML から現行版の law_revision_id を取り出す (アンカー特定用).
+
+    Why: e-Gov law_data エンドポイント (law_id 指定・asof なし) は「e-Gov が連結済の現行版」
+    を配信し、その <revision_info><law_revision_id> が corpus のソース版と一致する
+    (corpus は同エンドポイントから生成)。これを改正チェーンのアンカーに用いる。
+    """
+    root = ET.fromstring(xml)
+    ri = root.find("revision_info")
+    if ri is None:
+        return None
+    el = ri.find("law_revision_id")
+    return (el.text or "").strip() if el is not None else None
+
+
+def build_enforced_chain(
+    revisions: list[dict],
+    *,
+    law_data_current_rid: str | None = None,
+    today: date | None = None,
+) -> list[dict]:
     """API の改正版一覧から施行済チェーンを真の昇順で構築し不変条件を assert する.
 
-    Why (fail-loud): API は施行日降順・同日は公布日降順で返すので
-    reversed が真の昇順チェーン。同一施行日に複数改正が乗る日は公布日だけでは
-    supersession 順を決められない (2026-04-01 の複数版で公布日が同一) ため、API の
-    native 順を信頼し、CurrentEnforced が「ちょうど1件かつチェーン最終リンク」で
-    施行日が単調非減少であることを assert する。崩れたら黙って誤帰属せず raise。
+    Why (corpus ソース版アンカー・案A): API は施行日降順・同日は公布日降順で返すので
+    reversed が真の昇順チェーン。現行版は本来 CurrentEnforced フラグで一意だが、e-Gov の
+    メタデータ/本文連結の遅延で新施行版が PreviousEnforced のまま = CurrentEnforced=0 に
+    なることがある (国税通則法 2026-06-24 施行版は e-Gov law_data 未連結)。
+
+    改正 diff は corpus 本文と同一 point-in-time で終端しなければ誤帰属になる (corpus に
+    無い版への変化を帰属してしまう)。corpus は e-Gov law_data(現行) から生成されるので、
+    その現行版 revision_id をアンカーとし、チェーンをそこで打ち切る (未連結の後続施行版は
+    corpus 再取得 + 再 run 時に自動追随する)。日付最大の施行済版は上限 sanity に留める
+    (アンカーが未来施行版でないことの担保)。
+
+    後方互換 (既存4法令 byte 不変・最重要): law_data_current_rid を渡さない場合は従来の
+    「CurrentEnforced ちょうど1件かつチェーン最終リンク」ロジックにフォールバックする
+    (既存 unit test は無改変)。通常法令は law_data 現行 == CurrentEnforced == 日付最大が
+    一致するので、アンカーを渡しても従来と同一チェーン = byte 不変。
+
+    fail-loud (黙って誤帰属しない): (a) law_data 現行が施行済チェーンに無い、(b) アンカーが
+    未来施行版 (施行日 > 今日)、(c) chain 非単調 (predecessor 欠落)、(d) CurrentEnforced が
+    存在するのにアンカーと不一致 (複数 or 別版) のいずれかで raise。CurrentEnforced=0 かつ
+    アンカー提供時は WARNING を出してアンカーを採用する。
     """
+    today = today or date.today()
     chain = [r for r in reversed(revisions) if r.get("current_revision_status") in _ENFORCED]
     if not chain:
         raise ValueError("enforced revision chain is empty")
 
-    n_current = sum(1 for r in chain if r.get("current_revision_status") == "CurrentEnforced")
-    if n_current != 1:
-        raise ValueError(f"expected exactly 1 CurrentEnforced, found {n_current}")
-    if chain[-1].get("current_revision_status") != "CurrentEnforced":
-        raise ValueError("CurrentEnforced is not the final enforced chain link (order broken)")
-
+    # (c) 単調非減少 (predecessor 欠落を検知)。
     dates = [r.get("amendment_enforcement_date") or "" for r in chain]
     for a, b in itertools.pairwise(dates):
         if a > b:
             raise ValueError(f"enforcement dates not monotonic non-decreasing: {a} > {b}")
-    return chain
+
+    if law_data_current_rid is None:
+        # 後方互換: アンカー未提供時は従来ロジック (CurrentEnforced ちょうど1件かつ最終リンク)。
+        n_current = sum(1 for r in chain if r.get("current_revision_status") == "CurrentEnforced")
+        if n_current != 1:
+            raise ValueError(f"expected exactly 1 CurrentEnforced, found {n_current}")
+        if chain[-1].get("current_revision_status") != "CurrentEnforced":
+            raise ValueError("CurrentEnforced is not the final enforced chain link (order broken)")
+        return chain
+
+    # 案A: corpus ソース版 (law_data 現行) をアンカーにチェーンを打ち切る。
+    idx = next(
+        (i for i, r in enumerate(chain) if _revision_id(r) == law_data_current_rid),
+        None,
+    )
+    if idx is None:  # (a)
+        raise ValueError(f"law_data current version not in enforced chain: {law_data_current_rid}")
+    anchor = chain[idx]
+    if (anchor.get("amendment_enforcement_date") or "") > today.isoformat():  # (b)
+        raise ValueError(
+            "anchor is a future-enforced version (enforcement_date > today): "
+            f"{law_data_current_rid} enforced {anchor.get('amendment_enforcement_date')}"
+        )
+
+    currents = [r for r in chain if r.get("current_revision_status") == "CurrentEnforced"]
+    if currents:  # (d) フラグが有るなら唯一かつアンカーと一致していること (後方互換の担保)。
+        if len(currents) != 1 or _revision_id(currents[0]) != law_data_current_rid:
+            raise ValueError(
+                "CurrentEnforced flag disagrees with law_data current anchor "
+                f"(flagged={[_revision_id(r) for r in currents]}, anchor={law_data_current_rid})"
+            )
+    else:
+        _LOG.warning(
+            "no CurrentEnforced flag; anchoring on law_data current version "
+            "(e-Gov flag/consolidation lag). anchor = %s (enforced %s)",
+            law_data_current_rid,
+            anchor.get("amendment_enforcement_date"),
+        )
+
+    # アンカーで打ち切り (未連結の後続施行版は corpus に無いので除外)。
+    return chain[: idx + 1]
 
 
 # ---- diff → description --------------------------------------------------
@@ -414,6 +489,29 @@ def _load_revisions(cfg: LawConfig, *, offline: bool, sleep: float) -> list[dict
     return revs
 
 
+def _load_current_rid(cfg: LawConfig, *, offline: bool, sleep: float) -> str | None:
+    """law_data(law_id) 現行版の law_revision_id を取得 (corpus ソース版アンカー).
+
+    Why: build_enforced_chain のアンカー = corpus のソース版 = e-Gov law_data(現行)。
+    offline かつ law_data cache 不在なら None を返し従来ロジックにフォールバックする
+    (通常法令は CurrentEnforced=1 で成立)。
+    """
+    from fetch_egov.cache import FileCache
+
+    cache = FileCache(CACHE_ROOT)
+    if offline:
+        if not cache.has_law(cfg.law_id, None):
+            _LOG.warning("offline かつ law_data cache 不在: アンカー未特定 (%s)", cfg.law_id)
+            return None
+        xml = cache.load_law(cfg.law_id, None)
+    else:
+        from fetch_egov.client import EGovClient
+
+        with EGovClient(cache=cache, rate_limit_seconds=sleep) as c:
+            xml = c.get_law(cfg.law_id)
+    return current_revision_id_from_law_data(xml)
+
+
 def _load_texts(
     chain: list[dict], win_start: int, *, offline: bool, sleep: float
 ) -> dict[str, dict[str, str]]:
@@ -446,7 +544,8 @@ def _load_texts(
 def run(cfg: LawConfig, *, offline: bool = False, sleep: float = 1.0, write: bool = False) -> dict:
     """改正履歴 populate の本体。dry-run (write=False) で実測サマリを返す."""
     revisions = _load_revisions(cfg, offline=offline, sleep=sleep)
-    chain = build_enforced_chain(revisions)
+    current_rid = _load_current_rid(cfg, offline=offline, sleep=sleep)
+    chain = build_enforced_chain(revisions, law_data_current_rid=current_rid)
 
     win_start = next(
         (
@@ -476,11 +575,15 @@ def run(cfg: LawConfig, *, offline: bool = False, sleep: float = 1.0, write: boo
         for e_rid in [(x["effective_date"], x["law_num"]) for x in per_article[num]]
     }
 
+    n_current_flag = sum(1 for r in chain if r.get("current_revision_status") == "CurrentEnforced")
     summary = {
         "law_abbrev": cfg.law_abbrev,
         "chain_len": len(chain),
         "window_versions": len(chain) - win_start,
         "current_enforced": chain[-1]["law_revision_id"],
+        "anchor_rid": current_rid,
+        "anchor_path": "flag" if n_current_flag == 1 else "law_data current (e-Gov lag)",
+        "n_current_enforced_flag": n_current_flag,
         "n_entries": n_entries,
         "n_articles": len(per_article),
         "n_versions_with_diff": len(versions_with_diff),
@@ -499,7 +602,11 @@ def _print_summary(s: dict, *, samples: int = 5) -> None:
     print(f"=== 改正履歴 populate ({s['law_abbrev']}) ===")
     print(f"enforced chain     : {s['chain_len']} 版")
     print(f"window 版 (>=2020-04-01): {s['window_versions']}")
-    print(f"CurrentEnforced    : {s['current_enforced']}")
+    print(f"アンカー(chain tail): {s['current_enforced']}")
+    print(
+        f"anchor 経路          : {s.get('anchor_path')}  (CurrentEnforced flag件数={s.get('n_current_enforced_flag')})"
+    )
+    print(f"law_data 現行 rid    : {s.get('anchor_rid')}")
     print(f"実 diff のあった版  : {s['n_versions_with_diff']}")
     print(f"amendments エントリ : {s['n_entries']}")
     print(f"付与条数            : {s['n_articles']} / corpus {s['corpus_articles']} 条")
