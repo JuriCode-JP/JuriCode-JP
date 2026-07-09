@@ -112,6 +112,34 @@ class EGovClient:
             as_of_date=asof,
         )
 
+    def get_law_by_revision(
+        self,
+        law_revision_id: str,
+        *,
+        force_refresh: bool = False,
+    ) -> str:
+        """law_revision_id 単位で法令全文 XML を取得する (改正版 populate 用).
+
+        Why:
+            get_law / get_law_data は resolve_law_id を通すため law_revision_id
+            (例 363AC0000000108_20260401_508AC0000000012) を弾く。改正履歴 populate は
+            同一施行日に複数改正が乗る版を per-law 分離して diff する必要があり、
+            asof=日付 では畳み込まれる。law_data エンドポイントは path 引数に
+            law_revision_id を直接受けるので、resolve を経ずに叩き revision 名前空間の
+            cache に保存する。
+        """
+        if (
+            self.cache is not None
+            and not force_refresh
+            and self.cache.has_revision(law_revision_id)
+        ):
+            logger.info("Cache hit (revision): %s", law_revision_id)
+            return self.cache.load_revision(law_revision_id)
+        xml_content = self._fetch_law_xml(law_revision_id)
+        if self.cache is not None:
+            self.cache.save_revision(law_revision_id, xml_content)
+        return xml_content
+
     def _fetch_law_xml(
         self,
         law_id_or_num_or_revision_id: str,
