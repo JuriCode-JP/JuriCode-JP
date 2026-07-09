@@ -18,7 +18,11 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-06-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（その信託受益権が特定信託受益権に該当する場合にあつては、金銭に限るものとする。第二百二十五条第一項第十二号（支払調書及…」ほか）
 tags:
 - phase1-tax
 - auto-generated

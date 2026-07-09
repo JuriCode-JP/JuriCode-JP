@@ -92,7 +92,19 @@ paragraphs:
     text: 年の中途において居住者の配偶者が死亡し、その年中にその居住者が再婚した場合におけるその死亡し、又は再婚した配偶者に係る同一生計配偶者及び第八十三条の二第一項に規定する生計を一にする配偶者並びに扶養親族及び特定親族の範囲の特例については、政令で定める。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「、」→「又は」ほか）
+- effective_date: '2021-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「ヘ」→「ト」）
+- effective_date: '2025-12-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「若しくは前条第一項に規定する特定親族（第五項から第七項までにおいて「特定親族」という。）」ほか）
 tags:
 - phase1-tax
 - auto-generated

@@ -193,7 +193,11 @@ cases:
       なお、本件所得の収入計上時期については、親会社がリストリクテッド・シェアを没収しないことを決定してその権利を確定し、譲渡等制限を解除した日において、請求人の株主としてのすべての権利が確定するから、その日の属する年分となる。'
     issue_code: '0205020000'
     tax_item: 所得税
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「特定役員」→「、短期」ほか）
 tags:
 - phase1-tax
 - auto-generated

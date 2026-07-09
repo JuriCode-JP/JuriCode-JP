@@ -23,7 +23,15 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-05-01'
+  law_num: 令和元年法律第二十八号
+  law_name: 情報通信技術の進展に伴う金融取引の多様化に対応するための資金決済に関する法律等の一部を改正する法律
+  description: 本条を改正（「仮想通貨」→「暗号資産」ほか）
+- effective_date: '2023-06-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「五」→「十四」）
 tags:
 - phase1-tax
 - auto-generated

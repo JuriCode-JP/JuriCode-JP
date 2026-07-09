@@ -33,7 +33,15 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-06-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「その株式等が特定信託受益権（資金決済に関する法律第二条第九項（定義）に規定する特定信託受益権をいう。第四号及び次条におい…」ほか）
+- effective_date: '2026-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「特定受益証券発行信託の元本の払戻し（当該特定受益証券発行信託に係る信託の終了若しくは一部の解約又は信託の分割によるものを…」ほか）
 tags:
 - phase1-tax
 - auto-generated

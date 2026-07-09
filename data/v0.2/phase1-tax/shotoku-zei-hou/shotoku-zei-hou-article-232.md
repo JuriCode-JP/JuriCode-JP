@@ -49,7 +49,11 @@ paragraphs:
     text: ただし、当該帳簿又は当該書類の検査を困難とする事情があるときは、この限りでない。
     modality: jogai
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「。次項において同じ」ほか）
 tags:
 - phase1-tax
 - auto-generated

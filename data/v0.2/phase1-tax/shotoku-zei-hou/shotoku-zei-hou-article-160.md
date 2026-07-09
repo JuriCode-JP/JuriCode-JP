@@ -75,7 +75,11 @@ paragraphs:
     - 同項
     - 前三項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「又は決定」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

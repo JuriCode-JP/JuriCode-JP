@@ -42,7 +42,11 @@ cases:
       したがって、当該返済は、形式的・実質的ともに請求人による保証債務の履行であるとは認められない。'
     issue_code: '0504020200'
     tax_item: 所得税
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「八」→「五」ほか）
 tags:
 - phase1-tax
 - auto-generated

@@ -52,7 +52,11 @@ paragraphs:
     modality: gimu
     depends_on: shotoku-zei-hou-art-122-p3-zen
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「百二十条第一項第四号、第六号又は第八号（確定所得申告）」→「一号から第三号まで」ほか）
 tags:
 - phase1-tax
 - auto-generated

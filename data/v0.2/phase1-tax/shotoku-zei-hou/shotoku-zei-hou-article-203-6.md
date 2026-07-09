@@ -53,7 +53,23 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「ヘ」→「ト」ほか）
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「。第六項において同じ。」→（削除）ほか）
+- effective_date: '2023-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「、」→「又は前号の同居特別障害者若しくはその他の特別障害者若しくは特別障害者以外の障害者が非居住者である親族である場合にはその旨…」ほか）
+- effective_date: '2026-01-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「源泉」ほか）
 tags:
 - phase1-tax
 - auto-generated

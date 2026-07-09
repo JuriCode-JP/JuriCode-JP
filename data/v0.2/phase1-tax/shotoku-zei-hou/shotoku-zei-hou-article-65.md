@@ -22,7 +22,11 @@ paragraphs:
     text: 削除
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2025-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（リース譲渡に係る収入及び費用の帰属時期）」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

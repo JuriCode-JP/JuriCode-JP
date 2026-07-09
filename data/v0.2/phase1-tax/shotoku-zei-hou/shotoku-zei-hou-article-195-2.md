@@ -28,7 +28,11 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2025-12-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、次条第一項第二号」ほか）
 tags:
 - phase1-tax
 - auto-generated

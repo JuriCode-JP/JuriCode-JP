@@ -33,7 +33,11 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2025-12-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、第八十四条の二第一項（特定親族特別控除）」）
 tags:
 - phase1-tax
 - auto-generated

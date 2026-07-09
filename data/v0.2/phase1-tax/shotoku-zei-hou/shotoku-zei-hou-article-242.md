@@ -22,7 +22,11 @@ paragraphs:
     text: 次の各号のいずれかに該当する者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。ただし、第三号の規定に該当する者が同号に規定する所得税について第二百四十条（源泉徴収に係る所得税を納付しない罪）の規定に該当するに至つたときは、同条の例による。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2025-06-01'
+  law_num: 令和四年法律第六十八号
+  law_name: 刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律　抄
+  description: 本条を改正（「懲役」→「拘禁刑」）
 tags:
 - phase1-tax
 - auto-generated

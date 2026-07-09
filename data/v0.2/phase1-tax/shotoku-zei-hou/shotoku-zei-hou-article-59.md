@@ -49,7 +49,11 @@ cases:
     tax_item: 所得税
     tags:
     - 参照通達:所得税基本通達59-６
-amendments: []
+amendments:
+- effective_date: '2026-04-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「及び公益信託の受託者である個人に対するもの（その信託財産とするためのものに限る。）」ほか）
 tags:
 - phase1-tax
 - auto-generated

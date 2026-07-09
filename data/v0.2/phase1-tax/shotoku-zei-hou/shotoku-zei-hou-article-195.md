@@ -77,7 +77,23 @@ paragraphs:
     text: 第一項又は第三項の規定による申告書は、従たる給与についての扶養控除等申告書という。
     modality: teigi
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（寡夫）」→「控除の額、ひとり親」）
+- effective_date: '2023-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「又は」→「が非居住者である場合にはその旨並びに同号に規定する」ほか）
+- effective_date: '2025-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「の金額」→（削除）ほか）
+- effective_date: '2026-01-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「源泉控除対象親族について控除を受ける」ほか）
 tags:
 - phase1-tax
 - auto-generated

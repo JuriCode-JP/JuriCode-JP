@@ -43,7 +43,15 @@ paragraphs:
     text: 第一項の規定による申告書は、給与所得者の保険料控除申告書という。
     modality: teigi
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-10-01'
+  law_num: 平成三十年法律第七号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「。第百九十八条第七項（給与所得者の源泉徴収に関する申告書の提出時期等の特例）において同じ。」）
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「。第百九十八条第七項（給与所得者の源泉徴収に関する申告書の提出時期等の特例）において同じ。」→（削除））
 tags:
 - phase1-tax
 - auto-generated

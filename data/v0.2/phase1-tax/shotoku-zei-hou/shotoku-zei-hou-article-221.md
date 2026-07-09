@@ -97,7 +97,15 @@ paragraphs:
     - 同項
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「２税務署長は、前項の場合において、次の各号に掲げる支払の日又は支払金額（これらのうち、青色申告書を提出した個人の不動産所…」）
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「七」→「六」ほか）
 tags:
 - phase1-tax
 - auto-generated

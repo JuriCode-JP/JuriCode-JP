@@ -43,7 +43,11 @@ paragraphs:
     text: 第一項の規定による控除は、雑損失の繰越控除という。
     modality: teigi
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「次」→「第七十二」ほか）
 tags:
 - phase1-tax
 - auto-generated

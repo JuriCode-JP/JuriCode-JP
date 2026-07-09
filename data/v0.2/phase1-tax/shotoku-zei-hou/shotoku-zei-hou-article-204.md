@@ -44,7 +44,11 @@ paragraphs:
     references:
     - 同項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2024-04-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（感染症の予防及び感染症の患者に対する医療に関する法律（平成十年法律第百十四号）第三十六条の九第二項（流行初期医療確保措…」）
 tags:
 - phase1-tax
 - auto-generated
