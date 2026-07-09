@@ -29,10 +29,27 @@ import itertools
 import json
 import re
 import sys
+import warnings
 from datetime import date
 from pathlib import Path
 
-import defusedxml.ElementTree as ET
+# Security: prefer defusedxml to defend against XXE / billion-laughs / decompression
+# bomb. Falls back to stdlib xml.etree with a loud warning (defusedxml is optional
+# and absent in CI; the fallback keeps the tool importable there).
+try:
+    import defusedxml.ElementTree as ET  # type: ignore
+
+    _USING_DEFUSEDXML = True
+except ImportError:
+    import xml.etree.ElementTree as ET  # type: ignore
+
+    _USING_DEFUSEDXML = False
+    warnings.warn(
+        "defusedxml not installed. Falling back to xml.etree.ElementTree. "
+        "Install via: pip install defusedxml",
+        RuntimeWarning,
+        stacklevel=2,
+    )
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 _SHARED_SRC = REPO_ROOT / "tools" / "shared" / "src"
