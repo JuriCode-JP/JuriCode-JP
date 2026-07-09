@@ -40,7 +40,11 @@ paragraphs:
     text: 退職所得金額又は山林所得金額は、それぞれ次節の規定により計算した退職所得の金額又は山林所得の金額（これらの金額につき第六十九条、第七十条又は第七十一条の規定の適用がある場合には、その適用後の金額）とする。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（課税標準）」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

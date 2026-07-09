@@ -22,7 +22,11 @@ paragraphs:
     text: 国内において給与等の支払事務を取り扱う事務所、事業所その他これらに準ずるものを設け、又はこれらを移転し、若しくは廃止した者は、財務省令で定めるところにより、その旨その他必要な事項を記載した届出書を、その事実があつた日から一月以内に、税務署長に提出しなければならない。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2026-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、」ほか）
 tags:
 - phase1-tax
 - auto-generated

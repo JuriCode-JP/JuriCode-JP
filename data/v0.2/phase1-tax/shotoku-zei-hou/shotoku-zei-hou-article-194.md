@@ -98,7 +98,23 @@ paragraphs:
     text: 第一項、第三項又は第六項の規定による申告書は、給与所得者の扶養控除等申告書という。
     modality: teigi
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、」ほか）
+- effective_date: '2023-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「若しくは第五号の控除対象扶養親族」→（削除）ほか）
+- effective_date: '2025-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「同項の給与等の支払者を経由して提出する場合において、当該申告書に記載すべき事項がその年の前年において当該支払者を経由して…」ほか）
+- effective_date: '2026-01-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「源泉」ほか）
 tags:
 - phase1-tax
 - auto-generated

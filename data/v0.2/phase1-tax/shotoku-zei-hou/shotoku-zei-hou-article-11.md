@@ -61,7 +61,15 @@ paragraphs:
     modality: unspecified
     depends_on: shotoku-zei-hou-art-11-p4-zen
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「条」→「項」ほか）
+- effective_date: '2026-04-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「ニ」→「に」ほか）
 tags:
 - phase1-tax
 - auto-generated

@@ -86,7 +86,11 @@ cases:
       したがって、被相続人に係る納付すべき所得税の額のうち、請求人が承継する納付すべき税額は、本件遺言により指定された相続分（20分の1）によりあん分して計算した額であるから、原処分は、その一部を取り消すべきである。'
     issue_code: 0905000000
     tax_item: 所得税
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「前項の規定による申告書を提出すべき場合及び」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

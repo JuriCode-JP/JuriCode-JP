@@ -81,7 +81,15 @@ paragraphs:
     text: 第一項の規定による申告書は、退職所得の受給に関する申告書という。
     modality: teigi
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「。第四項において同じ。」→（削除）ほか）
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「退職手当等が」→「支払済みの他の退職手当等が一般退職手当等、短期退職手当等又は」ほか）
 tags:
 - phase1-tax
 - auto-generated

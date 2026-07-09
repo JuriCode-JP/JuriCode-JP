@@ -76,7 +76,23 @@ paragraphs:
     modality: unspecified
     depends_on: shotoku-zei-hou-art-198-p5-zen
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-10-01'
+  law_num: 平成三十年法律第七号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「七項、第」ほか）
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「その給与等に係る所得税の第十七条（源泉徴収に係る所得税の納税地）の規定による納税地の所轄税務署長の承認を受けている場合に…」→（削除）ほか）
+- effective_date: '2022-10-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「社会保険料の金額、小規模企業共済等掛金の額、」）
+- effective_date: '2025-12-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「又は」→「、」ほか）
 tags:
 - phase1-tax
 - auto-generated

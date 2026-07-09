@@ -173,6 +173,11 @@ testpaths = [
     # 旧枝番 [81-2..81-31] 非付与ロック・corpus 在削除条 [15-2] 削除記録・config 駆動裏取り)。
     # 相続と同じく ci.yml と本 testpaths の両所に配線する。CI-safe (committed fixture 依存)。
     "tools/amendments/tests/test_houjin_amendments.py",
+    # 2026-07-09 改正履歴 横展開④: 所得税法 amendments[] populate の忠実性ゲート
+    # (156 エントリ/96 条ロック・捏造改正0・range Num "96:101"/"234:236" 削除条ガード・
+    # 旧96-101/234-236条 非付与ロック [連続削除条の畳み込み]・config 駆動裏取り)。
+    # 相続・法人と同じく ci.yml と本 testpaths の両所に配線する。CI-safe (committed fixture 依存)。
+    "tools/amendments/tests/test_shotoku_amendments.py",
 ]
 pythonpath = [
     "tools/shared/src",

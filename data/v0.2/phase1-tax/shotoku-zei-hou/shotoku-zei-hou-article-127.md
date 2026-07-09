@@ -58,7 +58,15 @@ paragraphs:
     modality: gimu
     depends_on: shotoku-zei-hou-art-127-p4-zen
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「前項の規定による申告書を提出すべき場合及び」→（削除）ほか）
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「等」ほか）
 tags:
 - phase1-tax
 - auto-generated

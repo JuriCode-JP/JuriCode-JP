@@ -38,7 +38,15 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、」ほか）
+- effective_date: '2025-10-01'
+  law_num: 令和六年法律第二十六号
+  law_name: 雇用保険法等の一部を改正する法律
+  description: 本条を改正（（追加）→「第一号」）
 tags:
 - phase1-tax
 - auto-generated

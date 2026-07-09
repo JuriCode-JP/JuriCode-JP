@@ -33,7 +33,11 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「寡婦（寡夫）」→「ひとり親」ほか）
 tags:
 - phase1-tax
 - auto-generated

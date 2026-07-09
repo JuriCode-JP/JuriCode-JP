@@ -58,7 +58,15 @@ paragraphs:
     - 同項
     - 前条
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（寡夫）」→「控除の額、ひとり親」）
+- effective_date: '2025-12-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、扶養控除の額」ほか）
 tags:
 - phase1-tax
 - auto-generated

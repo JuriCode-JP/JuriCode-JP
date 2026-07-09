@@ -43,7 +43,11 @@ paragraphs:
     text: 退職手当等の支払を受ける居住者がその支払を受ける時までに退職所得の受給に関する申告書を提出していないときは、第百九十九条の規定により徴収すべき所得税の額は、その支払う退職手当等の金額に百分の二十の税率を乗じて計算した金額に相当する税額とする。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「特定役員」→「一般」ほか）
 tags:
 - phase1-tax
 - auto-generated

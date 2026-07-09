@@ -36,7 +36,11 @@ paragraphs:
     text: 第百四十三条の承認を受けている居住者が同条に規定する業務の全部を譲渡し、又は廃止した場合には、その譲渡し、又は廃止した日の属する年の翌年分以後の各年分の所得税については、その承認は、その効力を失うものとする。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2026-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「の翌年三月十五日」→「分の所得税に係る確定申告期限」ほか）
 tags:
 - phase1-tax
 - auto-generated

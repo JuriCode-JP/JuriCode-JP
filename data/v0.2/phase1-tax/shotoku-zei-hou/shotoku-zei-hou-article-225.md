@@ -60,7 +60,11 @@ paragraphs:
     - 同項
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-10-01'
+  law_num: 令和四年法律第七十一号
+  law_name: 労働者協同組合法等の一部を改正する法律
+  description: 本条を改正（（追加）→「労働者協同組合、」）
 tags:
 - phase1-tax
 - auto-generated

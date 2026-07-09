@@ -25,7 +25,15 @@ paragraphs:
     - 同項
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-01-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「業務」とあるのは「」→「山林所得を生ずべき業務」とあるのは「山林所得を生ずべき」ほか）
+- effective_date: '2022-01-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（確定所得申告）中「外国税額控除」とあるのは「第百六十五条の六第一項から第三項まで（非居住者に係る外国税額の控除）の規定…」ほか）
 tags:
 - phase1-tax
 - auto-generated

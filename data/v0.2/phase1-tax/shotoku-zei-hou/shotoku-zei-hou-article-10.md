@@ -126,7 +126,15 @@ paragraphs:
     - 同項
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「の交付」→（削除）ほか）
+- effective_date: '2023-05-11'
+  law_num: 令和三年法律第三十七号
+  law_name: デジタル社会の形成を図るための関係法律の整備に関する法律
+  description: 本条を改正（（追加）→「個人番号カード用」）
 tags:
 - phase1-tax
 - auto-generated
