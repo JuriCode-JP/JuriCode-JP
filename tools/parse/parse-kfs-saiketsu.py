@@ -209,7 +209,9 @@ _PAREN_ANNOTATION_RE = re.compile(r"（[^）]*）")
 _LAW_OR_ART_RE = re.compile(
     r"(?P<law>(?:"
     + "|".join(re.escape(n) for n in sorted(FULLNAME_LAW_MAP, key=len, reverse=True))
-    + r"))(?!等)"  # 直後が「等」= 名称圧縮 (○○法等の…に関する法律) は governing law でない -> unknown 側へ
+    + r"))(?!等|の一部を改正|を改正する)"  # [A][B]: 直後が「等」/「の一部を改正」/「を改正する」= 別法令
+    # (○○法等の…に関する法律 / ○○法の一部を改正する法律・政令) の名称。governing law でない -> unknown 側へ
+    r"|(?P<fusoku>附則)"  # [A]: 附則 -> 後続条は appendix (独立 corpus 非保持ゆえ本則へマップしない)
     r"|(?P<samesub>同法施行令|同法施行規則|同令|同規則)"
     r"|(?P<same>同法|同条)"
     r"|(?P<unknown>[\u4e00-\u9fa5]{2,}(?:法律|法|政令|令|規則|条例))"  # cp932-safe: 漢字域は escape
@@ -226,9 +228,15 @@ def _extract_article_refs(raw: str) -> list[tuple[str | None, str, int | None, s
     持ち回る。号/項単独/別表は art が「条」を要求するため自然に非 article 化 (over-link 回避)。未マップ
     法令 (unknown) は cur=None reset で別法令混在の誤付与を防ぐ (偽リンク0 は corpus ゲートで最終担保)。
 
+    Why ([A][B] 防御ガード): 附則 (fusoku) の後続条は本則へマップしない (附則は独立 corpus 非保持
+    ゆえ本則条番号と衝突させない・reason="appendix")。改正 prefix (「○○法の一部を改正する法律」
+    「○○法を改正する法律・政令」「○○法等の…」) は別法令の名称ゆえ law の負の先読みで governing
+    law から除外し、続く条を偽リンク化させない (現データ不在=latent の恒久ガード・偽リンク0)。
+
     no_law_reason (4 要素目) は cur is None の art の非リンク理由を呼出側へ伝える (case(b)):
-    直近に未マップ法令トークン (unknown) を見ていれば "unresolved_law"、真に法令文脈が無ければ
-    "no_law_context"。cur が非 None のときは無意味 (呼出側は cur is None のときのみ参照)。
+    直近に未マップ法令トークン (unknown) を見ていれば "unresolved_law"、附則直後なら "appendix"、
+    真に法令文脈が無ければ "no_law_context"。cur が非 None のときは無意味 (呼出側は cur is None
+    のときのみ参照)。
     """
     from juricode_shared.text_norm import normalize_fullwidth_digits
 
@@ -248,6 +256,11 @@ def _extract_article_refs(raw: str) -> list[tuple[str | None, str, int | None, s
         if g == "law":
             base_name = m.group()
             cur = FULLNAME_LAW_MAP[base_name]
+        elif g == "fusoku":
+            # [A] 附則 -> 後続条は本則にマップしない (附則は独立 corpus 非保持)。base_name は保持し、
+            # 後続の 同法/施行令/新法令名で本則へ戻れる。将来 本則条が corpus 追加されても偽リンク化させない。
+            cur = None
+            no_law_reason = "appendix"
         elif g == "samesub":
             # 同法施行令/同令 -> base+施行令、同法施行規則/同規則 -> base+施行規則。無ければ None(安全)。
             suffix = "施行規則" if "規則" in m.group() else "施行令"

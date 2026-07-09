@@ -160,6 +160,9 @@ testpaths = [
     # (_extract_article_refs の複数条/同法/同法施行令/号・別表非article/未マップ非リンク/
     # 埋め込み名 (?!等)/case(b) reason/dedup)。corpus は module-global 注入で data 非依存。
     "tools/parse/tests/test_kfs_multi_article.py",
+    # 2026-07-09 [A][B]: 附則 + 改正prefix 偽リンク恒久ガードの hermetic test
+    # (附則->appendix 非リンク/改正prefix 3形非リンク/link-neutral 回帰)。data 非依存。
+    "tools/parse/tests/test_kfs_appendix_amend_guard.py",
 ]
 pythonpath = [
     "tools/shared/src",
