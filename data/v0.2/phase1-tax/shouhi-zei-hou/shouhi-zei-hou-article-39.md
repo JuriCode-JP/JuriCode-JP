@@ -91,7 +91,11 @@ paragraphs:
     text: 第一項に規定する税込価額に係る消費税額の計算の細目に関し必要な事項は、政令で定める。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（当該税込価額が軽減対象課税資産の譲渡等に係るものである場合には、百八分の六・二四）」ほか）
 tags:
 - phase1-tax
 - auto-generated

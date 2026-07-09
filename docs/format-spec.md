@@ -124,14 +124,25 @@ cases:
 
 ### 4.5 amendments(改正履歴)
 
+各エントリのフィールドは中間表現(IR)の `Amendment` モデル(`tools/shared/src/juricode_shared/ir.py`、`extra="forbid"`)に一致させる。受理されるキーは `effective_date` / `law_num` / `law_name` / `description` / `source_url` の 5 つのみ。
+
+| フィールド | 型 | 説明 |
+|---|---|---|
+| `effective_date` | YYYY-MM-DD | 改正の施行日(**必須**) |
+| `law_num` | string | 改正法の法令番号(例 令和六年法律第八号)(**必須**) |
+| `law_name` | string | 改正法の名称(任意) |
+| `description` | string | 改正の概要(任意)。機械生成する場合は版間 diff 由来の要点のみとし、prose 解釈は入れない |
+| `source_url` | URL | 改正情報の出典(任意) |
+
 ```yaml
 amendments:
-  - effective_date: 2025-06-01
-    law_no: 令和4年法律第67号
-    summary: 懲役・禁錮を「拘禁刑」に統一する刑法改正の施行
-    diff_summary: |
-      旧文「死刑又は無期若しくは…の懲役」→ 新文「死刑又は無期若しくは…の拘禁刑」
+  - effective_date: 2023-10-01
+    law_num: 平成二十八年法律第十五号
+    law_name: 所得税法等の一部を改正する法律
+    description: 本条を改正（「一」→「二」ほか）
 ```
+
+> **データ契約(2026-07-08 明記)**: `amendments[]` は当該条文に**本文の実質的変化**をもたらした改正のみを収録する。附則のみの改正・他法令改正に付随する omnibus 改正(本文 diff が空の版)は含めない。したがって `amendments[]` は**その条文に対する改正の完全な一覧ではない**(決定論的に抽出できる範囲の記録であり、網羅性は保証しない)。網羅的な改正沿革が必要な場合は e-Gov 法令 API v2 の `GET /law_revisions/{law_id}` を一次情報として参照すること。
 
 ### 4.5.1 Phase 1 スコープ(2026-05-18 確定)
 
@@ -141,7 +152,7 @@ amendments:
 |---|---|
 | **格納対象** | **その条文に直接適用された改正のみ**(法令全体の改正ではなく、当該条文に影響した改正だけ) |
 | **過去遡及** | **直近 5 年程度**(2020 年以降の改正を目安)、それ以前の改正は対象外 |
-| **改正前の条文本文** | **保持しない**(`amendments[].diff_summary` で要点のみ記載、本文の旧版テキストは Phase 1 では非収録) |
+| **改正前の条文本文** | **保持しない**(`amendments[].description` で要点のみ記載、本文の旧版テキストは Phase 1 では非収録) |
 | **過去版アーカイブ** | `data/phase1-police/{law-abbrev}/archive/` ディレクトリは Phase 1 では使用しない(将来仕様、Phase 2 以降で検討) |
 | **改正記録の出典** | e-Gov 法令 API v2 `GET /law_revisions/{law_id_or_num}` のレスポンスから自動抽出する |
 | **必須性** | `amendments` は**任意フィールド**(改正履歴がない条文では空配列または省略可) |

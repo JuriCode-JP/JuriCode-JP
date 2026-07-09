@@ -33,7 +33,15 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「一」→「二」）
+- effective_date: '2024-10-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「その事業年度の基準期間がある外国法人（法人税法第二条第四号（定義）に規定する外国法人をいう。次条第五項において同じ。）が…」ほか）
 tags:
 - phase1-tax
 - auto-generated

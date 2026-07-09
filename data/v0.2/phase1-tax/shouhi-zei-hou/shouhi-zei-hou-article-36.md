@@ -73,7 +73,11 @@ paragraphs:
     references:
     - 同項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（当該課税仕入れに係る棚卸資産が他の者から受けた軽減対象課税資産の譲渡等に係るものである場合又は当該課税貨物が軽減対象課…」）
 tags:
 - phase1-tax
 - auto-generated

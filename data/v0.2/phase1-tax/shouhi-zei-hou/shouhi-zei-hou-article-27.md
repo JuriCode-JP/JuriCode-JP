@@ -33,7 +33,11 @@ paragraphs:
     text: 第八条第五項本文又は第六項の規定に該当する物品の譲渡に係る消費税の納税地は、これらの規定に規定する譲渡又は譲受けがあつた時（同条第四項ただし書の承認があつた場合には、その承認があつた時）における当該譲渡若しくは譲受け又は承認に係る物品の所在場所とする。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-05-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「又は第六項」ほか）
 tags:
 - phase1-tax
 - auto-generated

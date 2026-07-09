@@ -44,7 +44,11 @@ paragraphs:
     text: 個人事業者が死亡した場合には、その死亡した者の資産の譲渡等及び特定仕入れに係る消費税の納税地は、その相続人の資産の譲渡等及び特定仕入れに係る消費税の納税地によらず、その死亡当時におけるその死亡した者の資産の譲渡等及び特定仕入れに係る消費税の納税地とする。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-01-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「ようとす」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

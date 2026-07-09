@@ -31,7 +31,19 @@ paragraphs:
     text: 事業者が第十二条の二第一項に規定する新設法人又は第十二条の三第一項に規定する特定新規設立法人に該当することとなつた場合には、その旨を記載した届出書を速やかに当該事業者の納税地を所轄する税務署長に提出しなければならない。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「又は第二項」ほか）
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「三」→「二」）
+- effective_date: '2024-04-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「又は第二項」→「から第三項まで」）
 tags:
 - phase1-tax
 - auto-generated

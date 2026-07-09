@@ -22,7 +22,11 @@ paragraphs:
     text: 消費税の税率は、次の各号に掲げる区分に応じ当該各号に定める率とする。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「次の各号に掲げる区分に応じ当該各号に定める率とする。一課税資産の譲渡等（軽減対象課税資産の譲渡等を除く。）、特定課税仕入…」ほか）
 tags:
 - phase1-tax
 - auto-generated

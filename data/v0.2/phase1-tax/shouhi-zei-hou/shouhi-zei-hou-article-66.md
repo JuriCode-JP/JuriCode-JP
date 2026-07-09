@@ -28,7 +28,15 @@ paragraphs:
     text: ただし、情状により、その刑を免除することができる。
     modality: kanou_kenri
 cases: []
-amendments: []
+amendments:
+- effective_date: '2024-04-09'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「場合には、その違反行為をした」）
+- effective_date: '2025-06-01'
+  law_num: 令和四年法律第六十八号
+  law_name: 刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律　抄
+  description: 本条を改正（「懲役」→「拘禁刑」）
 tags:
 - phase1-tax
 - auto-generated

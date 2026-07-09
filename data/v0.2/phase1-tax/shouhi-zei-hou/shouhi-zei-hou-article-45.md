@@ -77,7 +77,11 @@ paragraphs:
     text: 第一項の規定による申告書には、財務省令で定めるところにより、当該課税期間中の資産の譲渡等の対価の額及び課税仕入れ等の税額の明細その他の事項を記載した書類を添付しなければならない。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「税率の異なるごとに区分した」ほか）
 tags:
 - phase1-tax
 - auto-generated

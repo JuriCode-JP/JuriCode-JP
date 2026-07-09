@@ -22,7 +22,11 @@ paragraphs:
     text: 法人は、その資産の譲渡等及び特定仕入れに係る消費税の納税地に異動があつた場合（第二十三条第一項の指定により資産の譲渡等及び特定仕入れに係る消費税の納税地の異動があつた場合を除く。）には、遅滞なく、その異動前の納税地を所轄する税務署長に書面によりその旨を届け出なければならない。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-01-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「法人の」ほか）
 tags:
 - phase1-tax
 - auto-generated

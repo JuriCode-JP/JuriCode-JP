@@ -72,7 +72,11 @@ paragraphs:
     references:
     - 前二項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（当該課税資産の譲渡等が軽減対象課税資産の譲渡等である場合には、百分の八）」ほか）
 tags:
 - phase1-tax
 - auto-generated

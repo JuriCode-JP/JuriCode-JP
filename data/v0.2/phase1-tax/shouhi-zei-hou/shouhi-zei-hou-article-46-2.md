@@ -38,7 +38,27 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 平成三十年法律第七号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を新設。
+- effective_date: '2020-04-01'
+  law_num: 令和元年法律第十六号
+  law_name: 情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るための行政手続等における情報通信の技術の利用に関する法律等の一部を改正する法律
+  description: 本条を改正（「６第一項の事業者の同項の申告については、行政手続等における情報通信の技術の利用に関する法律（平成十四年法律第百五十一号）…」→（削除））
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「、第四十五条」ほか）
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「等」→（削除）ほか）
+- effective_date: '2025-04-01'
+  law_num: 令和六年法律第四十六号
+  law_name: 情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律
+  description: 本条を改正（「五」→「六」）
 tags:
 - phase1-tax
 - auto-generated

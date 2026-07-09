@@ -37,7 +37,11 @@ cases:
       したがって、原処分庁の主張には理由がなく、取引先からの代理店収入の一部の金額を給与所得として課税したことは相当ではない。'
     issue_code: 0204090000
     tax_item: 所得税
-amendments: []
+amendments:
+- effective_date: '2023-01-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「号、次」ほか）
 tags:
 - phase1-tax
 - auto-generated

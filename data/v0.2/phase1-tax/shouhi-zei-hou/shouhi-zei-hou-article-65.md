@@ -22,7 +22,19 @@ paragraphs:
     text: 次の各号のいずれかに該当する場合には、その違反行為をした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
     modality: gimu_kei
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「四第五十七条の五の規定に違反して同条第一号若しくは第二号に掲げる書類を交付し、又は同条第三号に掲げる電磁的記録を提供した…」）
+- effective_date: '2024-04-09'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「場合には、その違反行為をした」ほか）
+- effective_date: '2025-06-01'
+  law_num: 令和四年法律第六十八号
+  law_name: 刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律　抄
+  description: 本条を改正（「懲役」→「拘禁刑」）
 tags:
 - phase1-tax
 - auto-generated

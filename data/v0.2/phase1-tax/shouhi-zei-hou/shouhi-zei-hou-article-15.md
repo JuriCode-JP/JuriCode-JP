@@ -184,7 +184,15 @@ paragraphs:
     text: 前各項に定めるもののほか、法人課税信託等の併合又は分割が行われた場合の仕入れに係る消費税額の計算その他受託事業者又は固有事業者についてのこの法律の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「の初日において適格請求書発行事業者である場合又は当該課税期間」ほか）
+- effective_date: '2026-04-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「等」ほか）
 tags:
 - phase1-tax
 - auto-generated
