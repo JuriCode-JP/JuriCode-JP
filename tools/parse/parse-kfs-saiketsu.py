@@ -113,7 +113,13 @@ _SAIKETSU_NO_RE = re.compile(
 _PERMALINK_RE = re.compile(r"JP/(\d+)/(\d+)/index\.html")
 
 # 第N条(のM)* 第K項 (参照条文の条番号)。号は relevant_paragraph に使わない。
-_ARTICLE_RE = re.compile(r"第(\d+(?:の\d+)*)条(?:第(\d+)項)?")
+#
+# Why (FU-71 枝番 fix): 標準の法令表記は枝番の「の」が **条の後** に来る (第74条の9)。旧 regex は
+# 「の」が条の前 (第54の2条) しか捕捉せず、第74条の9 を art-74 に潰していた。潰れ先の art-74 は
+# corpus 実在ゆえ旧「偽リンク0」検査 (実在のみ確認) を素通りし、5 store に 30 件の偽リンクが
+# commit 済みだった。group(2) で条の後の枝番列 (の9 / の11の3) を捕捉し、両表記を art-N-M(-K) に
+# 正規化する。旧表記 (第54の2条) は group(1) 側で従来どおり解決 = 後方互換。
+_ARTICLE_RE = re.compile(r"第(\d+(?:の\d+)*)条((?:の\d+)*)(?:第(\d+)項)?")
 
 # ダッシュ類 -> ASCII '-' (通達番号 7－3－16の2 の正規化)。cp932-safe: Unicode escape 使用。
 _BAR_RE = re.compile(r"[\-\uff0d\u2010\u2013\u2014\u2015\u30fc\u2212]")
@@ -237,8 +243,11 @@ def resolve_sanshou_jouken(lines: list[str]) -> dict:
         if am is None:
             unlinked.append({"raw": raw, "reason": "no_article_number"})
             continue
+        # group(1) = 条の前の枝番 (54の2条)、group(2) = 条の後の枝番列 (第74条の9 / 第37条の11の3)。
         art_num = am.group(1).replace("の", "-")  # 54 / 54の2 -> 54 / 54-2
-        paragraph = int(am.group(2)) if am.group(2) else None
+        if am.group(2):
+            art_num += am.group(2).replace("の", "-")  # の11の3 -> -11-3
+        paragraph = int(am.group(3)) if am.group(3) else None
         article_id = f"{law_abbrev}-art-{art_num}"
 
         if article_id not in corpus:
