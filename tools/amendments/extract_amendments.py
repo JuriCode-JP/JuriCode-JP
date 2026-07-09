@@ -102,6 +102,12 @@ LAW_CONFIGS: dict[str, LawConfig] = {
         corpus_dir=_PHASE1_TAX / "houjin-zei-hou",
         window_from=date(2020, 4, 1),
     ),
+    "shotoku-zei-hou": LawConfig(
+        law_id="340AC0000000033",
+        law_abbrev="shotoku-zei-hou",
+        corpus_dir=_PHASE1_TAX / "shotoku-zei-hou",
+        window_from=date(2020, 4, 1),
+    ),
 }
 
 _ENFORCED = ("PreviousEnforced", "CurrentEnforced")
