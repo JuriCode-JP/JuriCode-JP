@@ -28,7 +28,11 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「一時居住」→「外国人」ほか）
 tags:
 - phase1-tax
 - auto-generated

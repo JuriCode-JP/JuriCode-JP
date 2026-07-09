@@ -28,7 +28,11 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 平成三十一年法律第六号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「二」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

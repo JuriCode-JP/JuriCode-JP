@@ -28,7 +28,19 @@ paragraphs:
     - 同項
     - 前条
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 平成二十九年法律第四十五号
+  law_name: 民法の一部を改正する法律の施行に伴う関係法律の整備等に関する法律
+  description: 本条を改正（「中断」→「完成猶予」ほか）
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「三」→「四」ほか）
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「贈与」→「相続」ほか）
 tags:
 - phase1-tax
 - auto-generated

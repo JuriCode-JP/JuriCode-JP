@@ -163,6 +163,11 @@ testpaths = [
     # 2026-07-09 [A][B]: 附則 + 改正prefix 偽リンク恒久ガードの hermetic test
     # (附則->appendix 非リンク/改正prefix 3形非リンク/link-neutral 回帰)。data 非依存。
     "tools/parse/tests/test_kfs_appendix_amend_guard.py",
+    # 2026-07-09 改正履歴 横展開①: 相続税法 amendments[] populate の忠実性ゲート
+    # (36 エントリ/28 条ロック・捏造改正0・range Num "56:57" 削除条ガード・config 駆動裏取り)。
+    # 消費税パイロット (test_shouhi_amendments.py) は ci.yml 明示列挙のみで testpaths 未登録の
+    # ため、横展開分は本 testpaths と ci.yml の両所に配線する。CI-safe (committed fixture 依存)。
+    "tools/amendments/tests/test_souzoku_amendments.py",
 ]
 pythonpath = [
     "tools/shared/src",

@@ -62,7 +62,15 @@ paragraphs:
     text: 法人課税信託（法人税法第二条第二十九号の二に規定する法人課税信託をいう。以下この項において同じ。）の受託者又は第九条の二第一項に規定する受益者等について、前各項の規定を適用する場合には、次に定めるところによる。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「又」→「若しく」）
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「六」→「二」ほか）
 tags:
 - phase1-tax
 - auto-generated

@@ -1,4 +1,4 @@
-"""改正履歴 (amendments[]) を e-Gov 版間 diff から populate する (消費税法パイロット).
+"""改正履歴 (amendments[]) を e-Gov 版間 diff から populate する (config 駆動・複数税法).
 
 Why (改正履歴 Phase 1・条文単位帰属):
     条文 md frontmatter の `amendments[]` は 0 件のまま (層として未 populate)。本ツールは
@@ -27,9 +27,11 @@ import argparse
 import difflib
 import itertools
 import json
+import logging
 import re
 import sys
 import warnings
+from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
 
@@ -58,13 +60,43 @@ for _p in (_SHARED_SRC, _FETCH_SRC):
     if str(_p) not in sys.path:
         sys.path.insert(0, str(_p))
 
-# 消費税法 (パイロット対象)。
-LAW_ID = "363AC0000000108"
-LAW_ABBREV = "shouhi-zei-hou"
-CORPUS_DIR = REPO_ROOT / "data" / "v0.2" / "phase1-tax" / "shouhi-zei-hou"
 CACHE_ROOT = REPO_ROOT / "cache"
-# 直近 5 年目安 (format-spec §4.5.1)。施行日 >= この日 の版に帰属する改正のみ populate。
-WINDOW_FROM = date(2020, 4, 1)
+_LOG = logging.getLogger("juricode.amendments")
+
+
+@dataclass(frozen=True)
+class LawConfig:
+    """1 法令分の populate パラメータ (config 駆動一般化・改正履歴 横展開).
+
+    Why: 消費税法パイロットは法令固有値 (law_id / abbrev / corpus_dir / window) を
+    module グローバルにハードコードしていた。相続税法ほかへ横展開する際に同一の
+    diff / 帰属ロジックを逐語再利用するため、法令固有値だけを frozen config に外出し
+    する (ロジックは不変・パラメタのみ差替え = config-light)。
+    """
+
+    law_id: str
+    law_abbrev: str
+    corpus_dir: Path
+    window_from: date
+
+
+_PHASE1_TAX = REPO_ROOT / "data" / "v0.2" / "phase1-tax"
+
+# 直近 5 年目安 (format-spec §4.5.1)。施行日 >= window_from の版に帰属する改正のみ populate。
+LAW_CONFIGS: dict[str, LawConfig] = {
+    "shouhi-zei-hou": LawConfig(
+        law_id="363AC0000000108",
+        law_abbrev="shouhi-zei-hou",
+        corpus_dir=_PHASE1_TAX / "shouhi-zei-hou",
+        window_from=date(2020, 4, 1),
+    ),
+    "souzoku-zei-hou": LawConfig(
+        law_id="325AC0000000073",
+        law_abbrev="souzoku-zei-hou",
+        corpus_dir=_PHASE1_TAX / "souzoku-zei-hou",
+        window_from=date(2020, 4, 1),
+    ),
+}
 
 _ENFORCED = ("PreviousEnforced", "CurrentEnforced")
 # description 中の先頭 diff 断片の bounded 長さ (要点のみ・format-spec §4.5.1)。
@@ -94,12 +126,26 @@ def article_text_map(xml: str) -> dict[str, str]:
 
     Why: 附則 (SupplProvision) 条は改正帰属対象外 (本則スコープ)。
     MainProvision 配下の Article だけを見る。
+
+    range Num ガード (共通防御): e-Gov は連続削除条を 1 つの Article @Num="N:M"
+    (例 "56:57" = 第五十六条及び第五十七条削除) に畳み込む。この range Num は単一の
+    corpus 条 (article_id 接尾辞) にマップできず、案B の安定キー前提が崩れる。ゆえに
+    map に載せず skip + log する (fail-safe)。相続税法では 56:57 は inert (corpus 非在)
+    だが、法人税/所得税の削除条にも効く恒久ガードとして一般化 extractor に置く。
     """
     root = ET.fromstring(xml)
     out: dict[str, str] = {}
     for mp in root.iter("MainProvision"):
         for art in mp.iter("Article"):
-            num = _normalize_num(art.get("Num") or "")
+            raw = (art.get("Num") or "").strip()
+            if not raw:
+                continue
+            if ":" in raw:
+                # range Num (削除条プレースホルダ)。単一 corpus 条に帰属できないため
+                # diff 対象外に skip + log する (誤帰属せず fail-safe)。
+                _LOG.info("range Num skipped (deleted-article placeholder): %s", raw)
+                continue
+            num = _normalize_num(raw)
             if num:
                 out[num] = _canonical_text(art)
     return out
@@ -177,13 +223,15 @@ def attribute_amendments(
     chain: list[dict],
     texts: dict[str, dict[str, str]],
     corpus_nums: set[str],
+    window_from: date,
 ) -> tuple[dict[str, list[dict]], list[dict]]:
     """window 版を predecessor と diff し、変化した本則条に amendments を帰属する.
 
     Args:
         chain: 施行済チェーン (昇順)。
         texts: {law_revision_id: {条番号: canonical テキスト}} (window 版 + predecessor)。
-        corpus_nums: corpus に実在する条番号集合 (現行版 85 条)。
+        corpus_nums: corpus に実在する条番号集合 (現行版の本則条)。
+        window_from: この施行日以降の版に帰属する改正のみ populate (format-spec §4.5.1)。
 
     Returns:
         (per_article, skipped):
@@ -197,7 +245,7 @@ def attribute_amendments(
         (
             i
             for i, r in enumerate(chain)
-            if (r.get("amendment_enforcement_date") or "") >= WINDOW_FROM.isoformat()
+            if (r.get("amendment_enforcement_date") or "") >= window_from.isoformat()
         ),
         None,
     )
@@ -308,17 +356,17 @@ def splice_amendments(md_text: str, entries: list[dict]) -> str:
     return new_text
 
 
-def _find_article_md(num: str) -> Path:
-    return CORPUS_DIR / f"{LAW_ABBREV}-article-{num}.md"
+def _find_article_md(cfg: LawConfig, num: str) -> Path:
+    return cfg.corpus_dir / f"{cfg.law_abbrev}-article-{num}.md"
 
 
-def write_article_amendments(per_article: dict[str, list[dict]]) -> int:
+def write_article_amendments(cfg: LawConfig, per_article: dict[str, list[dict]]) -> int:
     """per_article を各条 md に byte 保存で書き込む。変更した条数を返す (べき等)."""
     from juricode_shared import safe_write_text
 
     touched = 0
     for num in sorted(per_article, key=_num_sort_key):
-        md = _find_article_md(num)
+        md = _find_article_md(cfg, num)
         if not md.exists():
             sys.exit(f"ERROR: article md not found for {num} (corpus 実在ガード矛盾): {md}")
         text = md.read_text(encoding="utf-8")
@@ -332,13 +380,13 @@ def write_article_amendments(per_article: dict[str, list[dict]]) -> int:
 # ---- driver --------------------------------------------------------------
 
 
-def _revisions_cache_path() -> Path:
-    return CACHE_ROOT / "revisions" / f"_revisions_{LAW_ID}.json"
+def _revisions_cache_path(cfg: LawConfig) -> Path:
+    return CACHE_ROOT / "revisions" / f"_revisions_{cfg.law_id}.json"
 
 
-def _load_revisions(*, offline: bool, sleep: float) -> list[dict]:
+def _load_revisions(cfg: LawConfig, *, offline: bool, sleep: float) -> list[dict]:
     if offline:
-        p = _revisions_cache_path()
+        p = _revisions_cache_path(cfg)
         if not p.exists():
             sys.exit(f"ERROR: offline かつ revisions cache 不在: {p} (先に online 実行が必要)")
         return json.loads(p.read_text(encoding="utf-8"))
@@ -347,8 +395,8 @@ def _load_revisions(*, offline: bool, sleep: float) -> list[dict]:
 
     cache = FileCache(CACHE_ROOT)
     with EGovClient(cache=cache, rate_limit_seconds=sleep) as c:
-        revs = c.get_revisions(LAW_ID)
-    p = _revisions_cache_path()
+        revs = c.get_revisions(cfg.law_id)
+    p = _revisions_cache_path(cfg)
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(revs, ensure_ascii=False, indent=2), encoding="utf-8")
     return revs
@@ -383,16 +431,16 @@ def _load_texts(
     return texts
 
 
-def run(*, offline: bool = False, sleep: float = 1.0, write: bool = False) -> dict:
+def run(cfg: LawConfig, *, offline: bool = False, sleep: float = 1.0, write: bool = False) -> dict:
     """改正履歴 populate の本体。dry-run (write=False) で実測サマリを返す."""
-    revisions = _load_revisions(offline=offline, sleep=sleep)
+    revisions = _load_revisions(cfg, offline=offline, sleep=sleep)
     chain = build_enforced_chain(revisions)
 
     win_start = next(
         (
             i
             for i, r in enumerate(chain)
-            if (r.get("amendment_enforcement_date") or "") >= WINDOW_FROM.isoformat()
+            if (r.get("amendment_enforcement_date") or "") >= cfg.window_from.isoformat()
         ),
         None,
     )
@@ -404,10 +452,10 @@ def run(*, offline: bool = False, sleep: float = 1.0, write: bool = False) -> di
     texts = _load_texts(chain, win_start, offline=offline, sleep=sleep)
 
     corpus_nums = {
-        p.stem[len(f"{LAW_ABBREV}-article-") :]
-        for p in CORPUS_DIR.glob(f"{LAW_ABBREV}-article-*.md")
+        p.stem[len(f"{cfg.law_abbrev}-article-") :]
+        for p in cfg.corpus_dir.glob(f"{cfg.law_abbrev}-article-*.md")
     }
-    per_article, skipped = attribute_amendments(chain, texts, corpus_nums)
+    per_article, skipped = attribute_amendments(chain, texts, corpus_nums, cfg.window_from)
 
     n_entries = sum(len(v) for v in per_article.values())
     versions_with_diff = {
@@ -417,6 +465,7 @@ def run(*, offline: bool = False, sleep: float = 1.0, write: bool = False) -> di
     }
 
     summary = {
+        "law_abbrev": cfg.law_abbrev,
         "chain_len": len(chain),
         "window_versions": len(chain) - win_start,
         "current_enforced": chain[-1]["law_revision_id"],
@@ -429,13 +478,13 @@ def run(*, offline: bool = False, sleep: float = 1.0, write: bool = False) -> di
     }
 
     if write:
-        touched = write_article_amendments(per_article)
+        touched = write_article_amendments(cfg, per_article)
         summary["touched"] = touched
     return summary
 
 
 def _print_summary(s: dict, *, samples: int = 5) -> None:
-    print("=== 改正履歴 populate (消費税法) ===")
+    print(f"=== 改正履歴 populate ({s['law_abbrev']}) ===")
     print(f"enforced chain     : {s['chain_len']} 版")
     print(f"window 版 (>=2020-04-01): {s['window_versions']}")
     print(f"CurrentEnforced    : {s['current_enforced']}")
@@ -461,7 +510,13 @@ def _print_summary(s: dict, *, samples: int = 5) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser(
-        description="消費税法の改正履歴 (amendments[]) を e-Gov 版間 diff から populate する."
+        description="法令の改正履歴 (amendments[]) を e-Gov 版間 diff から populate する."
+    )
+    ap.add_argument(
+        "--law",
+        choices=sorted(LAW_CONFIGS),
+        default="shouhi-zei-hou",
+        help="対象法令の abbrev (既定: shouhi-zei-hou).",
     )
     ap.add_argument(
         "--write", action="store_true", help="条 md に amendments を書き込む (既定は dry-run)."
@@ -471,7 +526,9 @@ def main() -> None:
     ap.add_argument("--samples", type=int, default=5, help="表示するサンプル件数.")
     args = ap.parse_args()
 
-    s = run(offline=args.offline, sleep=args.sleep, write=args.write)
+    logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
+    cfg = LAW_CONFIGS[args.law]
+    s = run(cfg, offline=args.offline, sleep=args.sleep, write=args.write)
     _print_summary(s, samples=args.samples)
 
 

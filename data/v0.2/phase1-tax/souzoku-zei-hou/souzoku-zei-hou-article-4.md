@@ -33,7 +33,11 @@ paragraphs:
     text: 特別寄与者が支払を受けるべき特別寄与料の額が確定した場合においては、当該特別寄与者が、当該特別寄与料の額に相当する金額を当該特別寄与者による特別の寄与を受けた被相続人から遺贈により取得したものとみなす。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-04-01'
+  law_num: 令和三年法律第二十四号
+  law_name: 民法等の一部を改正する法律
+  description: 本条を改正（「三」→「二」）
 tags:
 - phase1-tax
 - auto-generated
