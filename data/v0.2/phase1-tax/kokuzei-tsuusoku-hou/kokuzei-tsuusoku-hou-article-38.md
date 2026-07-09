@@ -53,7 +53,19 @@ paragraphs:
     modality: gimu
     references:
     - 前項
-cases: []
+cases:
+  - case_id: ntt-2010-01-07-j79-3
+    case_type: ruling
+    source_license: pdl-1.0
+    summary_source: official_pdl
+    decision_date: '2010-01-07'
+    case_name_ja: 国税通則法第38条第1項各号に掲げる繰上請求事由があるときは、納税の猶予申請に係る国税がその猶予期間内に完納されることが確実であるとか、当該国税の徴収確保の上で全く支障がないなどの特段の事情がない限り、納税の猶予は認められないとした事例
+    url: https://www.kfs.go.jp/service/JP/79/03/index.html
+    relevance: medium
+    relevant_paragraph: 1
+    summary_ja: 納税の猶予申請時点において、既に納税の猶予取消事由がある場合には、猶予に係る国税の確実な徴収ができなくなるおそれがあるのであるから、その猶予期間内に猶予に係る国税が完納されることが確実であるとか、徴収確保の上で全く支障がないなどの特段の事情がない限り、納税の猶予は認められないと解するのが相当であるところ、本件の納税の猶予申請時において、請求人には、国税通則法第49条第1項が規定する納税の猶予の取消事由としての同法第38条第1項第6号に該当する事実があり、上記の特段の事情は認められないから、本件の納税の猶予申請は認められないというべきである。
+    issue_code: '0502000000'
+    tax_item: 国税通則
 amendments: []
 tags:
 - phase1-tax

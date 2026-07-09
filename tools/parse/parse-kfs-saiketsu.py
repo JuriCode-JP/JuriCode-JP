@@ -78,6 +78,10 @@ FULLNAME_LAW_MAP: dict[str, str] = {
     "消費税法施行令": "shouhi-zei-hou-shikkourei",  # 消費税法施行令
     "消費税法施行規則": "shouhi-zei-hou-shikoukisoku",  # 消費税法施行規則
     "消費税法": "shouhi-zei-hou",  # 消費税法
+    # 国税通則 bulk (MP/01・2026-07-08): 国税通則法施行令/施行規則を純加算 (本則は既登録・longest-first
+    # で 令/規 を本則より先に照合)。国通 corpus = 本則194 / 令82 / 規30 が実在。
+    "国税通則法施行令": "kokuzei-tsuusoku-hou-shikkourei",  # 国税通則法施行令
+    "国税通則法施行規則": "kokuzei-tsuusoku-hou-shikoukisoku",  # 国税通則法施行規則
     # 相続裁決の cross-law 参照 (dry-run で unresolved_law が surface・corpus 実在分のみ・2026-07-04)。
     # 偽リンク0: 民事訴訟法 等の未収録法令は追加せず忠実に非リンク。longest-first で照合。
     "国税通則法": "kokuzei-tsuusoku-hou",  # 国税通則法
