@@ -156,6 +156,10 @@ testpaths = [
     "tools/embed/tests",
     # 2026-07-01 FU-524: NTA 通達 fetcher の目次リンク分類 (extract_links) hermetic test。
     "tools/fetch-egov/tests/test_tsutatsu_fetcher.py",
+    # 2026-07-09 #72[C]: 複数条列挙リンク取りこぼし修正の hermetic unit test
+    # (_extract_article_refs の複数条/同法/同法施行令/号・別表非article/未マップ非リンク/
+    # 埋め込み名 (?!等)/case(b) reason/dedup)。corpus は module-global 注入で data 非依存。
+    "tools/parse/tests/test_kfs_multi_article.py",
 ]
 pythonpath = [
     "tools/shared/src",
