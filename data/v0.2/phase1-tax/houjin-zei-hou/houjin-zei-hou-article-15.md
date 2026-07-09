@@ -22,7 +22,11 @@ paragraphs:
     text: 法人がその定款等に定める会計期間を変更し、又はその定款等において新たに会計期間を定めた場合には、遅滞なく、その変更前の会計期間及び変更後の会計期間又はその定めた会計期間を納税地の所轄税務署長に届け出なければならない。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（連結子法人にあつては、その本店又は主たる事務所の所在地）」→（削除））
 tags:
 - phase1-tax
 - auto-generated

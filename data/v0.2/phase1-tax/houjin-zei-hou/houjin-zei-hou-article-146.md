@@ -33,7 +33,23 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「第一項」）
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「公益法人等（収益事業を行つていないものに限る。）に該当していた普通法人」→「前号イ」ほか）
+- effective_date: '2024-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「三」→「四」）
+- effective_date: '2026-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「及び第百二十八条（青色申告の取りやめ）」）
 tags:
 - phase1-tax
 - auto-generated

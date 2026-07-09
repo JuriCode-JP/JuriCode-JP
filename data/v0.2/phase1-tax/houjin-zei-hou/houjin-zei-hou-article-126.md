@@ -44,7 +44,11 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「３前項に定めるもののほか、国税庁長官又は通算法人の納税地の所轄国税局長若しくは所轄税務署長は、必要があると認めるときは、…」）
 tags:
 - phase1-tax
 - auto-generated

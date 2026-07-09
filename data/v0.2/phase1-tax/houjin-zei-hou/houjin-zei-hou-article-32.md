@@ -101,7 +101,11 @@ paragraphs:
     text: 前各項に定めるもののほか、繰延資産の償却に関し必要な事項は、政令で定める。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「損金の額に」→「所得の金額の計」ほか）
 tags:
 - phase1-tax
 - auto-generated

@@ -168,6 +168,11 @@ testpaths = [
     # 消費税パイロット (test_shouhi_amendments.py) は ci.yml 明示列挙のみで testpaths 未登録の
     # ため、横展開分は本 testpaths と ci.yml の両所に配線する。CI-safe (committed fixture 依存)。
     "tools/amendments/tests/test_souzoku_amendments.py",
+    # 2026-07-09 改正履歴 横展開③: 法人税法 amendments[] populate の忠実性ゲート
+    # (256 エントリ/163 条ロック・捏造改正0・range Num "92:120" 削除条ガード・連結納税
+    # 旧枝番 [81-2..81-31] 非付与ロック・corpus 在削除条 [15-2] 削除記録・config 駆動裏取り)。
+    # 相続と同じく ci.yml と本 testpaths の両所に配線する。CI-safe (committed fixture 依存)。
+    "tools/amendments/tests/test_houjin_amendments.py",
 ]
 pythonpath = [
     "tools/shared/src",

@@ -53,7 +53,15 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2026-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を新設。
+- effective_date: '2026-04-01'
+  law_num: 令和八年法律第十二号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「特定多国籍企業グループ等の最終親会社等が各対象会計年度において次に掲げる要件その他の財務省令で定める要件を満たしていると…」ほか）
 tags:
 - phase1-tax
 - auto-generated

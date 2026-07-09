@@ -70,7 +70,19 @@ paragraphs:
     references:
     - 同項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「を除く」→「にあつては、通算子法人に限る」ほか）
+- effective_date: '2022-04-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「八」→「九」ほか）
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「益法人等（」→「共法人又は」ほか）
 tags:
 - phase1-tax
 - auto-generated

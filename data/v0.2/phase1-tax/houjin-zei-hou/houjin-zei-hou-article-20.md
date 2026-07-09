@@ -22,7 +22,11 @@ paragraphs:
     text: 法人は、その法人税の納税地に異動があつた場合（第十八条第一項（納税地の指定）の指定によりその納税地に異動があつた場合を除く。）には、政令で定めるところにより、その異動前の納税地の所轄税務署長にその旨を届け出なければならない。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「等」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

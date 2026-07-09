@@ -65,7 +65,15 @@ paragraphs:
     text: 受益者が二以上ある場合における第一項の規定の適用、第二項に規定する信託財産の給付を受けることとされている者に該当するかどうかの判定その他第一項から第三項までの規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「所得の金額及び各連結事業年度の連結」→（削除））
+- effective_date: '2026-04-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「特定」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

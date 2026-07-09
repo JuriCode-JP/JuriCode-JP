@@ -40,7 +40,15 @@ paragraphs:
     text: 内国法人が他の内国法人に当該内国法人の通算税効果額（第二十六条第四項（還付金等の益金不算入）に規定する通算税効果額をいう。）を支払う場合には、その支払う金額は、当該内国法人の各事業年度の所得の金額の計算上、損金の額に算入しない。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「若しくは第十項（確定申告書の提出期限の延長の特例）、第八十一条の二十三第二項（連結確定申告書の提出期限の延長）」→（削除）ほか）
+- effective_date: '2022-12-31'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「三」→「二」ほか）
 tags:
 - phase1-tax
 - auto-generated

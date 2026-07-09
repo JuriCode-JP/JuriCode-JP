@@ -37,7 +37,11 @@ paragraphs:
     - 同項
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「退職年金業務等を行う内国法人の退職年金等積立金の課税）第八条第八十四条第一項（退職年金等積立金の額の計算）に規定する退職…」→「外」ほか）
 tags:
 - phase1-tax
 - auto-generated

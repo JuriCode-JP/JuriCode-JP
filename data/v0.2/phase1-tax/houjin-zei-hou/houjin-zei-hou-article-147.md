@@ -22,7 +22,11 @@ paragraphs:
     text: 第百三十条から第百三十二条の二まで（青色申告書等に係る更正等）の規定は、外国法人の各事業年度の所得に対する法人税、外国法人の各対象会計年度の国際最低課税残余額に対する法人税、外国法人の各対象会計年度の国内最低課税額に対する法人税及び外国法人の退職年金等積立金に対する法人税に係る更正又は決定について準用する。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2026-04-01'
+  law_num: 令和七年法律第十三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「内国法人」→「青色申告書等」ほか）
 tags:
 - phase1-tax
 - auto-generated

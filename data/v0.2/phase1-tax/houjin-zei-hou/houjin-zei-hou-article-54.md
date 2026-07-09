@@ -56,7 +56,11 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-03-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「当該役務の提供の対価として当該個人に生ずる債権の給付と引換えに当該個人に交付され」→「次に掲げる要件に該当す」ほか）
 tags:
 - phase1-tax
 - auto-generated

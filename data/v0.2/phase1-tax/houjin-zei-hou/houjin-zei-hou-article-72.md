@@ -81,7 +81,19 @@ paragraphs:
     references:
     - 同項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「（第四条の七（受託法人等に関するこの法律の適用）に規定する受託法人を除く。）」→（削除）ほか）
+- effective_date: '2022-04-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「十九項」→「二十項及び第二十一項第三号」ほか）
+- effective_date: '2023-01-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「五十五条第三項（不正行為等に係る費用等）中「第七十四条第一項第一号（確定申告）」とあるのは「第七十二条第一項第一号（仮決…」）
 tags:
 - phase1-tax
 - auto-generated

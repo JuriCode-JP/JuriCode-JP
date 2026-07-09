@@ -58,7 +58,11 @@ paragraphs:
     text: 普通法人又は協同組合等が当該普通法人又は協同組合等を被合併法人とし、公益法人等を合併法人とする適格合併を行つた場合の処理その他前各項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「削」→「普通法人又は協同組合等が公益法人等に該当することとなる場合には、その該当することとなる日の前日に当該普通法人又は協同組合…」ほか）
 tags:
 - phase1-tax
 - auto-generated

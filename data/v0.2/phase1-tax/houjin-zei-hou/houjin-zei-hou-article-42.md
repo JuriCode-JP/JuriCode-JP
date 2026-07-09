@@ -93,7 +93,11 @@ paragraphs:
     text: 合併法人、分割承継法人、被現物出資法人又は被現物分配法人が適格合併、適格分割、適格現物出資又は適格現物分配により被合併法人、分割法人、現物出資法人又は現物分配法人において第一項、第二項、第五項又は第六項の規定の適用を受けた固定資産の移転を受けた場合における当該固定資産の取得価額その他前各項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「以下」ほか）
 tags:
 - phase1-tax
 - auto-generated

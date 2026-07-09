@@ -103,7 +103,15 @@ paragraphs:
     references:
     - 前二項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「みなし事業年度」→「事業年度の特例」ほか）
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「次に掲げる事実その事実が生じた日の前日イ公共法人が事業年度の中途において収益事業を行う」ほか）
 tags:
 - phase1-tax
 - auto-generated

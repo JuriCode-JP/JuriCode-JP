@@ -110,7 +110,19 @@ paragraphs:
     text: 第三項に規定する留保した金額の調整その他第一項から第五項までの規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「六」→「五」ほか）
+- effective_date: '2022-04-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「八」→「九」ほか）
+- effective_date: '2024-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「項第一」ほか）
 tags:
 - phase1-tax
 - auto-generated
