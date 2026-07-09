@@ -92,7 +92,19 @@ paragraphs:
     - 同項
     depends_on: souzoku-zei-hou-art-37-p6-zen
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（贈与税についての更正、決定等の期間制限の特則）」ほか）
+- effective_date: '2024-01-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「六」→「七」）
+- effective_date: '2024-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「七」→「八」）
 tags:
 - phase1-tax
 - auto-generated

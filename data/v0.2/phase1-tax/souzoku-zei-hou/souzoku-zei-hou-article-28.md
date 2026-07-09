@@ -54,7 +54,15 @@ paragraphs:
     text: 特定贈与者からの贈与により第二十一条の九第三項の規定の適用を受ける財産を相続時精算課税適用者が取得した場合において、当該特定贈与者が当該贈与をした年の中途において死亡したときは、当該贈与により取得した財産については、第一項の規定は、適用しない。
     modality: jogai
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-04-01'
+  law_num: 令和三年法律第十一号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「５第一条の四第一項第二号ロに掲げる者が短期非居住贈与者（贈与の時においてこの法律の施行地に住所を有していなかつた当該贈与…」→（削除））
+- effective_date: '2024-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「とき」→「場合」ほか）
 tags:
 - phase1-tax
 - auto-generated

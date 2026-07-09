@@ -22,7 +22,11 @@ paragraphs:
     text: 第五十九条の規定による調書を提出せず、又はその調書に虚偽の記載若しくは記録をして提出した者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
     modality: gimu_kei
 cases: []
-amendments: []
+amendments:
+- effective_date: '2025-06-01'
+  law_num: 令和四年法律第六十八号
+  law_name: 刑法等の一部を改正する法律の施行に伴う関係法律の整理等に関する法律　抄
+  description: 本条を改正（「懲役」→「拘禁刑」）
 tags:
 - phase1-tax
 - auto-generated

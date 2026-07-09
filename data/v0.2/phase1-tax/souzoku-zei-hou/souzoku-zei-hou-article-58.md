@@ -44,7 +44,11 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2024-03-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「法務大臣等の通知）第五十八条法務大臣は、死亡又は失踪（以下この項及び次項において「死亡等」という。）に関する届書に係る戸…」ほか）
 tags:
 - phase1-tax
 - auto-generated

@@ -100,7 +100,19 @@ paragraphs:
     references:
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2021-01-01'
+  law_num: 平成三十年法律第七号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「千」→「百」）
+- effective_date: '2022-04-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「、磁気テープ」→（削除））
+- effective_date: '2023-04-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「政令で定めるところにより第一項から第三項までの規定に規定する所轄税務署長（次項において「所轄税務署長」という。）の承認を…」→「その者が」ほか）
 tags:
 - phase1-tax
 - auto-generated
