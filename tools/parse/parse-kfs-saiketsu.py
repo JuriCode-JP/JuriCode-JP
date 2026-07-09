@@ -199,6 +199,80 @@ def _match_law_fullname(line: str) -> tuple[str, str] | None:
     return None
 
 
+# 1 行内の「法令名 / 同法系 / 条」を出現順に走査するトークナイザ (#72[C])。
+# alternation 順が要: known-law(longest-first) -> 同法施行令/規則 -> 同法/同条 -> unknown-law -> art。
+# unknown (未マップ法令) は current_law を None reset して別法令混在の誤付与を防ぐ (偽リンク0 の一助)。
+# art は「第N条」を要求するため 号 (第N号)・項単独 (第N項)・別表 は自然に非 article 化される。
+# 版注記の全角括弧 （…）。参照条文ブロックでは版注記のみで条番号を含まない (実データ確認済)。
+_PAREN_ANNOTATION_RE = re.compile(r"（[^）]*）")
+
+_LAW_OR_ART_RE = re.compile(
+    r"(?P<law>(?:"
+    + "|".join(re.escape(n) for n in sorted(FULLNAME_LAW_MAP, key=len, reverse=True))
+    + r"))(?!等)"  # 直後が「等」= 名称圧縮 (○○法等の…に関する法律) は governing law でない -> unknown 側へ
+    r"|(?P<samesub>同法施行令|同法施行規則|同令|同規則)"
+    r"|(?P<same>同法|同条)"
+    r"|(?P<unknown>[\u4e00-\u9fa5]{2,}(?:法律|法|政令|令|規則|条例))"  # cp932-safe: 漢字域は escape
+    r"|(?P<art>第\d+(?:の\d+)*条(?:の\d+)*(?:第\d+項)?)"
+)
+
+
+def _extract_article_refs(raw: str) -> list[tuple[str | None, str, int | None, str]]:
+    """1 行から (law_abbrev|None, art_num, paragraph|None, no_law_reason) を出現順で全抽出する.
+
+    Why (#72[C]): 旧 resolver は 1 行を _ARTICLE_RE.search() で先頭 1 条しか拾わず、複数条列挙
+    (国税通則法第12条第1項、第77条第1項) の 2 条目以降と、同法/同法施行令の後方参照を落とした。
+    本関数は法令名・同法系・条を位置順に走査し current_law (cur) + base_name (同法系の解決基点) を
+    持ち回る。号/項単独/別表は art が「条」を要求するため自然に非 article 化 (over-link 回避)。未マップ
+    法令 (unknown) は cur=None reset で別法令混在の誤付与を防ぐ (偽リンク0 は corpus ゲートで最終担保)。
+
+    no_law_reason (4 要素目) は cur is None の art の非リンク理由を呼出側へ伝える (case(b)):
+    直近に未マップ法令トークン (unknown) を見ていれば "unresolved_law"、真に法令文脈が無ければ
+    "no_law_context"。cur が非 None のときは無意味 (呼出側は cur is None のときのみ参照)。
+    """
+    from juricode_shared.text_norm import normalize_fullwidth_digits
+
+    text = normalize_fullwidth_digits(raw)
+    # 版注記の括弧 （平成X年政令第N号による改正前のもの）を除去してから走査する。
+    # Why: 括弧内の「政令」「法律」等が unknown group を誤発火させ current_law を None reset し、
+    # 括弧直後の条 (施行令の枝番参照等) を取りこぼす退行を招く (probe で hojin/shotoku 計3件検出)。
+    # 参照条文ブロックの括弧は版注記のみで条番号を含まない (実データ 42/532 行・条包含0を確認) ため、
+    # 除去は安全 (真の参照を失わない)。
+    text = _PAREN_ANNOTATION_RE.sub("", text)
+    cur: str | None = None  # 現在の解決先 law_abbrev
+    base_name: str | None = None  # 同法系の解決基点となる直近の正式法令名
+    no_law_reason = "no_law_context"  # cur is None のときの非リンク理由 (case(b))
+    out: list[tuple[str | None, str, int | None, str]] = []
+    for m in _LAW_OR_ART_RE.finditer(text):
+        g = m.lastgroup
+        if g == "law":
+            base_name = m.group()
+            cur = FULLNAME_LAW_MAP[base_name]
+        elif g == "samesub":
+            # 同法施行令/同令 -> base+施行令、同法施行規則/同規則 -> base+施行規則。無ければ None(安全)。
+            suffix = "施行規則" if "規則" in m.group() else "施行令"
+            cur = FULLNAME_LAW_MAP.get(base_name.split("施行")[0] + suffix) if base_name else None
+            if cur is None:
+                no_law_reason = "no_law_context"
+        elif g == "same":
+            cur = FULLNAME_LAW_MAP.get(base_name) if base_name else None
+            if cur is None:
+                no_law_reason = "no_law_context"
+        elif g == "unknown":
+            # 未マップ法令名 (関税法・地位協定実施特例法 等) を検出 -> 別法令混在の誤付与を防ぐ。
+            cur = None
+            base_name = None
+            no_law_reason = "unresolved_law"
+        else:  # art
+            am = _ARTICLE_RE.fullmatch(m.group())
+            art_num = am.group(1).replace("の", "-")
+            if am.group(2):
+                art_num += am.group(2).replace("の", "-")
+            paragraph = int(am.group(3)) if am.group(3) else None
+            out.append((cur, art_num, paragraph, no_law_reason))
+    return out
+
+
 def resolve_sanshou_jouken(lines: list[str]) -> dict:
     """《参照条文等》の各行を link / tag / unlinked に分類する (D1/D2/偽リンク0).
 
@@ -213,12 +287,13 @@ def resolve_sanshou_jouken(lines: list[str]) -> dict:
           "unlinked": [{raw, reason}],                                        # corpus_gap / unresolved
         }
     """
-    from juricode_shared.text_norm import normalize_fullwidth_digits
-
     corpus = _load_article_corpus()
     links: list[dict] = []
     tags: list[str] = []
     unlinked: list[dict] = []
+    seen: set[str] = (
+        set()
+    )  # エントリ内 dedup: 同一 article_id は初出のみ (first paragraph 保持・R3)
 
     for raw in lines:
         raw = raw.strip()
@@ -229,41 +304,39 @@ def resolve_sanshou_jouken(lines: list[str]) -> dict:
             tags.append(f"参照通達:{_normalize_bars(raw)}")
             continue
 
-        matched = _match_law_fullname(raw)
-        if matched is None:
-            # 正式名マッパーに無い法令 (未知) -> 偽リンクを作らず記録のみ。
-            unlinked.append({"raw": raw, "reason": "unresolved_law"})
-            continue
-        name, law_abbrev = matched
-
-        # 全角数字を ASCII 化してから条番号を抽出する (相続裁決は 第２条 等の全角表記があり、
-        # 非正規化だと article_id が art-２ になって corpus 実在ガードで偽陰性 corpus_gap になる・
-        # 2026-07-04 実測)。ASCII 表記 (法人税) には無影響 = no-op。
-        am = _ARTICLE_RE.search(normalize_fullwidth_digits(raw[len(name) :]))
-        if am is None:
+        # #72[C]: 1 行を出現順に全走査し、複数条列挙・法令切替・同法/同法施行令後方参照を追う。
+        # 号/項単独/別表は art が「条」を要求するため自然に非 article 化 (over-link 回避・R2)。
+        refs = _extract_article_refs(raw)
+        if not refs:
+            # 条番号を含まない行 (法令名のみ・別表のみ等) -> 忠実に非リンク。
             unlinked.append({"raw": raw, "reason": "no_article_number"})
             continue
-        # group(1) = 条の前の枝番 (54の2条)、group(2) = 条の後の枝番列 (第74条の9 / 第37条の11の3)。
-        art_num = am.group(1).replace("の", "-")  # 54 / 54の2 -> 54 / 54-2
-        if am.group(2):
-            art_num += am.group(2).replace("の", "-")  # の11の3 -> -11-3
-        paragraph = int(am.group(3)) if am.group(3) else None
-        article_id = f"{law_abbrev}-art-{art_num}"
 
-        if article_id not in corpus:
-            # 存在しない条 -> dangling link にせず記録 (corpus_gap・偽リンク0 ゲート)。
-            warnings.warn(f"WARN: {raw!r} -> {article_id} not in corpus. Unlinked.", stacklevel=2)
-            unlinked.append({"raw": raw, "reason": "corpus_gap"})
-            continue
-
-        links.append(
-            {
-                "raw": raw,
-                "law_abbrev": law_abbrev,
-                "article_id": article_id,
-                "relevant_paragraph": paragraph,
-            }
-        )
+        for cur, art_num, paragraph, no_law_reason in refs:
+            if cur is None:
+                # 未マップ/未確定法令の条 -> 偽リンクを作らず記録のみ (別法令混在・R1)。
+                # reason は未マップ法令由来=unresolved_law / 真に文脈なし=no_law_context (case(b))。
+                unlinked.append({"raw": raw, "reason": no_law_reason})
+                continue
+            article_id = f"{cur}-art-{art_num}"
+            if article_id in seen:
+                continue  # first-seen paragraph を保持 (R3)
+            if article_id not in corpus:
+                # 存在しない条 -> dangling link にせず記録 (corpus_gap・偽リンク0 ゲート)。
+                warnings.warn(
+                    f"WARN: {raw!r} -> {article_id} not in corpus. Unlinked.", stacklevel=2
+                )
+                unlinked.append({"raw": raw, "reason": "corpus_gap"})
+                continue
+            seen.add(article_id)
+            links.append(
+                {
+                    "raw": raw,
+                    "law_abbrev": cur,
+                    "article_id": article_id,
+                    "relevant_paragraph": paragraph,
+                }
+            )
 
     return {"links": links, "tags": tags, "unlinked": unlinked}
 
