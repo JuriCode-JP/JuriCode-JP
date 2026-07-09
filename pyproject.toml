@@ -178,6 +178,14 @@ testpaths = [
     # 旧96-101/234-236条 非付与ロック [連続削除条の畳み込み]・config 駆動裏取り)。
     # 相続・法人と同じく ci.yml と本 testpaths の両所に配線する。CI-safe (committed fixture 依存)。
     "tools/amendments/tests/test_shotoku_amendments.py",
+    # 2026-07-09 改正履歴 横展開②: 案A corpus ソース版 (e-Gov law_data 現行) アンカー頑健化の
+    # hermetic unit (CurrentEnforced=0 で未連結施行版を打ち切り・後方互換・fail-loud a-d)。
+    # ci.yml と本 testpaths の両所に配線する。CI-safe (合成 revision dict のみ・data 非依存)。
+    "tools/amendments/tests/test_chain_hardening.py",
+    # 2026-07-09 改正履歴 横展開②: 国税通則法 amendments[] 忠実性ゲート (64 エントリ/41 条ロック・
+    # 捏造改正0・point-in-time で未連結施行版 [2026-05-25/06-24] を非付与・アンカー版まで含む)。
+    # ci.yml と本 testpaths の両所に配線する。CI-safe (committed fixture 依存)。
+    "tools/amendments/tests/test_kokutsu_amendments.py",
 ]
 pythonpath = [
     "tools/shared/src",

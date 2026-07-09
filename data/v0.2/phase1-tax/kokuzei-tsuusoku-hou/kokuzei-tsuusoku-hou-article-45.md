@@ -35,7 +35,11 @@ paragraphs:
     references:
     - 前条
 cases: []
-amendments: []
+amendments:
+- effective_date: '2022-04-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「中「税務署長」又は「税務署」とあるのは「税関長」又は「税関」と、第三十」→「（第三十四条の」ほか）
 tags:
 - phase1-tax
 - auto-generated

@@ -217,7 +217,11 @@ cases:
     tax_item: 国税通則
     tags:
     - 参照通達:国税通則法基本通達第54条関係１、６
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「及び」→「、」ほか）
 tags:
 - phase1-tax
 - auto-generated

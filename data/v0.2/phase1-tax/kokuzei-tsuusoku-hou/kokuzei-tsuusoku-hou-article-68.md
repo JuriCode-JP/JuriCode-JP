@@ -1521,7 +1521,19 @@ cases:
       さらに、更正の請求では、納税者側において売上金額が過大であることの立証をすべきであるところ、請求人から提出された資料等では、修正申告書に記載された売上金額が過大であるとは認められない。'
     issue_code: '0605030200'
     tax_item: 国税通則
-amendments: []
+amendments:
+- effective_date: '2024-01-01'
+  law_num: 令和四年法律第四号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「七」→「八」ほか）
+- effective_date: '2024-01-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「八」→「九」ほか）
+- effective_date: '2025-01-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「かつ、」ほか）
 tags:
 - phase1-tax
 - auto-generated

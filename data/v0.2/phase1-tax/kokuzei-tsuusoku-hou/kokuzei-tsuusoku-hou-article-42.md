@@ -22,7 +22,11 @@ paragraphs:
     text: 民法第三編第一章第二節第二款（債権者代位権）及び第三款（詐害行為取消権）の規定は、国税の徴収に関して準用する。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 平成二十九年法律第四十五号
+  law_name: 民法の一部を改正する法律の施行に伴う関係法律の整備等に関する法律
+  description: 本条を改正（「四百」→「三編第一章第」ほか）
 tags:
 - phase1-tax
 - auto-generated
