@@ -99,7 +99,11 @@ paragraphs:
     text: 第一項第一号に規定する仕入れに係る対価の返還等を受けた金額に係る消費税額の計算の細目に関し必要な事項は、政令で定める。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「（第三十条第一項の規定の適用を受けたものに限る。以下この条において同じ。）」ほか）
 tags:
 - phase1-tax
 - auto-generated

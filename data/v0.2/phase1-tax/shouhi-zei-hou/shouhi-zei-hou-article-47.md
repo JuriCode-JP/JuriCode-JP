@@ -42,7 +42,11 @@ paragraphs:
     text: 第一項に規定する者がその引取りに係る課税貨物につき関税法第七条の二第二項（特例申告）に規定する特例申告を行う場合には、当該課税貨物に係る第一項の申告書の提出期限は、当該課税貨物の引取りの日の属する月の翌月末日とする。
     modality: gimu
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「及び」→「、」ほか）
 tags:
 - phase1-tax
 - auto-generated

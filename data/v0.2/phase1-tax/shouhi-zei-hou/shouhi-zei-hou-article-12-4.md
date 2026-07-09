@@ -33,7 +33,15 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 令和二年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「等」ほか）
+- effective_date: '2024-04-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「第一項に」→「事業者（第九条第一項本文の」ほか）
 tags:
 - phase1-tax
 - auto-generated

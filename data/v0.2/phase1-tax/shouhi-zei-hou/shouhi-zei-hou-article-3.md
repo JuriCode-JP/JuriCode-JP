@@ -22,7 +22,11 @@ paragraphs:
     text: 人格のない社団等は、法人とみなして、この法律（第十二条の二及び第四十六条の二並びに別表第三を除く。）の規定を適用する。
     modality: unspecified
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 平成三十年法律第七号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「第四十六条の二並びに」）
 tags:
 - phase1-tax
 - auto-generated

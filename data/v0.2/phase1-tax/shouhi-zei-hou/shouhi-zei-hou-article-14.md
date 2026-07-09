@@ -54,7 +54,11 @@ paragraphs:
     - 前二項
     - 前項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2026-04-01'
+  law_num: 令和六年法律第八号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「特定」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated

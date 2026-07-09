@@ -35,7 +35,11 @@ paragraphs:
     references:
     - 同項
 cases: []
-amendments: []
+amendments:
+- effective_date: '2020-04-01'
+  law_num: 平成三十年法律第七号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（（追加）→「を提出し、又は更正若しくは決定」ほか）
 tags:
 - phase1-tax
 - auto-generated

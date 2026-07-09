@@ -48,7 +48,15 @@ paragraphs:
   is_added_by_amendment: false
   segments: []
 cases: []
-amendments: []
+amendments:
+- effective_date: '2023-10-01'
+  law_num: 平成二十八年法律第十五号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を新設。
+- effective_date: '2023-10-01'
+  law_num: 令和五年法律第三号
+  law_name: 所得税法等の一部を改正する法律
+  description: 本条を改正（「この条から」→（削除）ほか）
 tags:
 - phase1-tax
 - auto-generated
