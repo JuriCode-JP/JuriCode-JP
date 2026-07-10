@@ -12,7 +12,8 @@ builder パラメータ化 (多条対応) 後も本 test が退行ゼロ (R6) �
     committed md への再 attach は no-op (byte 不変)。
   - article 付与: relevant_paragraph は locked 6 件のみ (第1項 5 / 第2項 1)・本文セクション
     非改変は CI の verify.py (manifest hash) が担保。
-builder ロジック (多条 merge / conflict fail-loud / lock 自己整合ゲート) は
+builder ロジック (多条 merge / relevance max ロールアップ (A1: md 権威・store は
+付与全条の max・非対称は合法) / 事実メタ不一致の fail-loud / lock 自己整合ゲート) は
 fixtures/case_law_sources/ でオフライン検証する (web fetch なし)。
 """
 
@@ -213,11 +214,32 @@ def test_merge_multi_article_single_store_row_per_case() -> None:
         assert r["relevant_paragraph"] is None
 
 
-def test_merge_conflicting_store_fields_fail_loud() -> None:
-    """source 間で relevance が食い違う共有判例は黙って選択せず fail-loud (L3 差し戻し)。"""
+def test_merge_relevance_asymmetry_rolls_up_max() -> None:
+    """A1: 条間の relevance 非対称 (36条 high / 43条 medium) は合法。
+
+    store は max ロールアップ (high)・各条 md payload は各条の値のまま (md が権威)・
+    source の投入順に依存しない決定論。
+    """
     mod = _load_builder()
-    with pytest.raises(ValueError, match="不一致"):
-        mod.merge_store_rows(mod.discover_sources(_FIX / "conflict"))
+    sources = mod.discover_sources(_FIX / "relevance_asymmetric")
+    rows = mod.merge_store_rows(sources)
+    assert len(rows) == 1
+    assert rows[0]["relevance"] == "high", "store は付与された全条での max"
+    rows_rev = mod.merge_store_rows(list(reversed(sources)))
+    assert rows == rows_rev, "投入順で結果が変わる (決定論でない)"
+    # md 権威: 各条の payload は各条ロックの relevance を保持する
+    per_article = {
+        s.article_id: mod._article_case_payload(dict(s.candidates[0]), {1, 2})["relevance"]
+        for s in sources
+    }
+    assert per_article == {"keihou-art-36": "high", "keihou-art-43": "medium"}
+
+
+def test_merge_factual_mismatch_fails_loud() -> None:
+    """A1: court/citation 等の事実メタが同一 case_id で食い違えば fail-loud (佐藤裁定)。"""
+    mod = _load_builder()
+    with pytest.raises(ValueError, match="事実メタ"):
+        mod.merge_store_rows(mod.discover_sources(_FIX / "factconflict"))
 
 
 def test_article_payload_rp_only_when_locked_and_in_range() -> None:

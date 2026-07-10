@@ -1,0 +1,23 @@
+{
+  "article_id": "keihou-art-43",
+  "locked_date": "2026-07-10",
+  "note": "test fixture (synthetic)。事実メタ fail-loud 検証: keihou36.json と同一 case_id・同一 relevance だが citation が食い違う (データ品質エラー)。",
+  "lock": {"total": 1, "relevance": {"high": 1}},
+  "candidates": [
+    {
+      "case_id": "scj-1969-12-04-keishu-23-12-1573-a1165",
+      "case_type": "precedent",
+      "court": "最高裁判所大法廷",
+      "court_en": "Supreme Court of Japan, Grand Bench",
+      "decision_date": "1969-12-04",
+      "citation": "刑集 第23巻12号9999頁",
+      "url": "https://www.courts.go.jp/hanrei/50938/detail2/index.html",
+      "relevance": "high",
+      "relevant_paragraph": null,
+      "source_license": "public-domain",
+      "summary_source": "none",
+      "attached_article_id": "keihou-art-43",
+      "overruled": false
+    }
+  ]
+}
