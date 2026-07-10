@@ -211,6 +211,22 @@
       },
       "title": "Cited By Context",
       "type": "array"
+    },
+    "overruled_by": {
+      "description": "この判例を明示的に変更/覆した後の判例の case_id (scj-/hcj-/…)。判例変更の新旧関係。予約フィールド・パイロットでは populate しない (D5・2026-07-10)。",
+      "items": {
+        "type": "string"
+      },
+      "title": "Overruled By",
+      "type": "array"
+    },
+    "modified_by": {
+      "description": "この判例を限定/修正した後の判例の case_id。overruled ほど強くない射程変更。予約フィールド・パイロットでは populate しない (D5・2026-07-10)。",
+      "items": {
+        "type": "string"
+      },
+      "title": "Modified By",
+      "type": "array"
     }
   },
   "required": [
