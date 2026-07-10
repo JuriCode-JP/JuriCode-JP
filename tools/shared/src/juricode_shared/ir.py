@@ -319,6 +319,20 @@ class PrecedentStoreEntry(PrecedentReference):
         default_factory=list,
         description="cited_by と対応する引用文脈 (争点コード等・任意。MVP では未 populate)。",
     )
+    overruled_by: list[str] = Field(
+        default_factory=list,
+        description=(
+            "この判例を明示的に変更/覆した後の判例の case_id (scj-/hcj-/…)。"
+            "判例変更の新旧関係。予約フィールド・パイロットでは populate しない (D5・2026-07-10)。"
+        ),
+    )
+    modified_by: list[str] = Field(
+        default_factory=list,
+        description=(
+            "この判例を限定/修正した後の判例の case_id。overruled ほど強くない射程変更。"
+            "予約フィールド・パイロットでは populate しない (D5・2026-07-10)。"
+        ),
+    )
 
 
 class Amendment(BaseModel):
