@@ -1,0 +1,42 @@
+{
+  "article_id": "keihou-art-43",
+  "locked_date": "2026-07-10",
+  "note": "test fixture (synthetic・実ロックの写しではない)。多条跨ぎ: 2件とも keihou36.json と同一判例 (store 投影は同値) を 43条にも付与する想定。",
+  "lock": {"total": 2, "relevance": {"high": 1, "medium": 1}},
+  "candidates": [
+    {
+      "case_id": "scj-1951-04-10-keishu-5-5-890-re61",
+      "case_type": "precedent",
+      "court": "最高裁判所第三小法廷",
+      "court_en": "Supreme Court of Japan, Third Petty Bench",
+      "decision_date": "1951-04-10",
+      "citation": "刑集 第5巻5号890頁",
+      "jiken_number": "昭和26(れ)61",
+      "url": "https://www.courts.go.jp/hanrei/55656/detail2/index.html",
+      "relevance": "medium",
+      "relevant_paragraph": null,
+      "relevant_paragraph_basis": null,
+      "source_license": "public-domain",
+      "summary_source": "none",
+      "attached_article_id": "keihou-art-43",
+      "overruled": false
+    },
+    {
+      "case_id": "scj-1969-12-04-keishu-23-12-1573-a1165",
+      "case_type": "precedent",
+      "court": "最高裁判所大法廷",
+      "court_en": "Supreme Court of Japan, Grand Bench",
+      "decision_date": "1969-12-04",
+      "citation": "刑集 第23巻12号1573頁",
+      "jiken_number": "昭和43(あ)1165",
+      "url": "https://www.courts.go.jp/hanrei/50938/detail2/index.html",
+      "relevance": "high",
+      "relevant_paragraph": null,
+      "relevant_paragraph_basis": null,
+      "source_license": "public-domain",
+      "summary_source": "none",
+      "attached_article_id": "keihou-art-43",
+      "overruled": false
+    }
+  ]
+}

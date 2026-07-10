@@ -1,0 +1,59 @@
+{
+  "article_id": "keihou-art-36",
+  "locked_date": "2026-07-10",
+  "note": "test fixture (synthetic 縮小版・実ロックの写しではない)。builder ロジックのオフライン検証用。",
+  "lock": {"total": 3, "relevance": {"high": 1, "medium": 2}},
+  "candidates": [
+    {
+      "case_id": "scj-1951-04-10-keishu-5-5-890-re61",
+      "case_type": "precedent",
+      "court": "最高裁判所第三小法廷",
+      "court_en": "Supreme Court of Japan, Third Petty Bench",
+      "decision_date": "1951-04-10",
+      "citation": "刑集 第5巻5号890頁",
+      "jiken_number": "昭和26(れ)61",
+      "url": "https://www.courts.go.jp/hanrei/55656/detail2/index.html",
+      "relevance": "medium",
+      "relevant_paragraph": 2,
+      "relevant_paragraph_basis": "判示事項に「刑法36条2項」の明示",
+      "source_license": "public-domain",
+      "summary_source": "none",
+      "attached_article_id": "keihou-art-36",
+      "overruled": false
+    },
+    {
+      "case_id": "scj-1969-12-04-keishu-23-12-1573-a1165",
+      "case_type": "precedent",
+      "court": "最高裁判所大法廷",
+      "court_en": "Supreme Court of Japan, Grand Bench",
+      "decision_date": "1969-12-04",
+      "citation": "刑集 第23巻12号1573頁",
+      "jiken_number": "昭和43(あ)1165",
+      "url": "https://www.courts.go.jp/hanrei/50938/detail2/index.html",
+      "relevance": "high",
+      "relevant_paragraph": null,
+      "relevant_paragraph_basis": null,
+      "source_license": "public-domain",
+      "summary_source": "none",
+      "attached_article_id": "keihou-art-36",
+      "overruled": false
+    },
+    {
+      "case_id": "scj-2009-07-16-keishu-63-6-711-a1870",
+      "case_type": "precedent",
+      "court": "最高裁判所第一小法廷",
+      "court_en": "Supreme Court of Japan, First Petty Bench",
+      "decision_date": "2009-07-16",
+      "citation": "刑集 第63巻6号711頁",
+      "jiken_number": "平成20(あ)1870",
+      "url": "https://www.courts.go.jp/hanrei/37833/detail2/index.html",
+      "relevance": "medium",
+      "relevant_paragraph": 1,
+      "relevant_paragraph_basis": "判示事項に「刑法36条1項」の明示",
+      "source_license": "public-domain",
+      "summary_source": "none",
+      "attached_article_id": "keihou-art-36",
+      "overruled": false
+    }
+  ]
+}
