@@ -1,0 +1,711 @@
+{
+  "top_k": 10,
+  "wide_m": 200,
+  "n_runs": 16,
+  "runs": [
+    {
+      "condition": "A-para",
+      "query_mode": "raw",
+      "ablation": "baseline",
+      "N": 136,
+      "N_loaded": 141,
+      "recall_at_1": 0.6470588235294118,
+      "recall_at_3": 0.7352941176470589,
+      "recall_at_10": 0.8088235294117647,
+      "mrr": 0.6992851307189542,
+      "recall_at_1_count": 88,
+      "recall_at_3_count": 100,
+      "recall_at_10_count": 110,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 5,
+          "n": 5
+        },
+        "kinsho-hou": {
+          "hit@10": 64,
+          "n": 74
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 20,
+          "n": 35
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\A-para__raw__baseline.jsonl"
+    },
+    {
+      "condition": "A-para",
+      "query_mode": "raw",
+      "ablation": "normalize",
+      "N": 136,
+      "N_loaded": 141,
+      "recall_at_1": 0.6544117647058824,
+      "recall_at_3": 0.7352941176470589,
+      "recall_at_10": 0.8014705882352942,
+      "mrr": 0.7039915966386553,
+      "recall_at_1_count": 89,
+      "recall_at_3_count": 100,
+      "recall_at_10_count": 109,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 5,
+          "n": 5
+        },
+        "kinsho-hou": {
+          "hit@10": 63,
+          "n": 74
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 20,
+          "n": 35
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\A-para__raw__normalize.jsonl"
+    },
+    {
+      "condition": "A-para",
+      "query_mode": "canon",
+      "ablation": "baseline",
+      "N": 136,
+      "N_loaded": 141,
+      "recall_at_1": 0.6470588235294118,
+      "recall_at_3": 0.7352941176470589,
+      "recall_at_10": 0.8088235294117647,
+      "mrr": 0.6992851307189542,
+      "recall_at_1_count": 88,
+      "recall_at_3_count": 100,
+      "recall_at_10_count": 110,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 5,
+          "n": 5
+        },
+        "kinsho-hou": {
+          "hit@10": 64,
+          "n": 74
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 20,
+          "n": 35
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\A-para__canon__baseline.jsonl"
+    },
+    {
+      "condition": "A-para",
+      "query_mode": "canon",
+      "ablation": "normalize",
+      "N": 136,
+      "N_loaded": 141,
+      "recall_at_1": 0.6544117647058824,
+      "recall_at_3": 0.7352941176470589,
+      "recall_at_10": 0.8014705882352942,
+      "mrr": 0.7039915966386553,
+      "recall_at_1_count": 89,
+      "recall_at_3_count": 100,
+      "recall_at_10_count": 109,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 5,
+          "n": 5
+        },
+        "kinsho-hou": {
+          "hit@10": 63,
+          "n": 74
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 20,
+          "n": 35
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\A-para__canon__normalize.jsonl"
+    },
+    {
+      "condition": "A-art",
+      "query_mode": "raw",
+      "ablation": "baseline",
+      "N": 112,
+      "N_loaded": 141,
+      "recall_at_1": 0.6339285714285714,
+      "recall_at_3": 0.7410714285714286,
+      "recall_at_10": 0.7857142857142857,
+      "mrr": 0.6884034863945578,
+      "recall_at_1_count": 71,
+      "recall_at_3_count": 83,
+      "recall_at_10_count": 88,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 4,
+          "n": 4
+        },
+        "kinsho-hou": {
+          "hit@10": 44,
+          "n": 54
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 19,
+          "n": 32
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\A-art__raw__baseline.jsonl"
+    },
+    {
+      "condition": "A-art",
+      "query_mode": "raw",
+      "ablation": "normalize",
+      "N": 112,
+      "N_loaded": 141,
+      "recall_at_1": 0.6428571428571429,
+      "recall_at_3": 0.7410714285714286,
+      "recall_at_10": 0.7946428571428571,
+      "mrr": 0.6939732142857142,
+      "recall_at_1_count": 72,
+      "recall_at_3_count": 83,
+      "recall_at_10_count": 89,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 4,
+          "n": 4
+        },
+        "kinsho-hou": {
+          "hit@10": 45,
+          "n": 54
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 19,
+          "n": 32
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\A-art__raw__normalize.jsonl"
+    },
+    {
+      "condition": "A-art",
+      "query_mode": "canon",
+      "ablation": "baseline",
+      "N": 112,
+      "N_loaded": 141,
+      "recall_at_1": 0.6339285714285714,
+      "recall_at_3": 0.7410714285714286,
+      "recall_at_10": 0.7857142857142857,
+      "mrr": 0.6884034863945578,
+      "recall_at_1_count": 71,
+      "recall_at_3_count": 83,
+      "recall_at_10_count": 88,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 4,
+          "n": 4
+        },
+        "kinsho-hou": {
+          "hit@10": 44,
+          "n": 54
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 19,
+          "n": 32
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\A-art__canon__baseline.jsonl"
+    },
+    {
+      "condition": "A-art",
+      "query_mode": "canon",
+      "ablation": "normalize",
+      "N": 112,
+      "N_loaded": 141,
+      "recall_at_1": 0.6428571428571429,
+      "recall_at_3": 0.7410714285714286,
+      "recall_at_10": 0.7946428571428571,
+      "mrr": 0.6939732142857142,
+      "recall_at_1_count": 72,
+      "recall_at_3_count": 83,
+      "recall_at_10_count": 89,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 4,
+          "n": 4
+        },
+        "kinsho-hou": {
+          "hit@10": 45,
+          "n": 54
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 19,
+          "n": 32
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\A-art__canon__normalize.jsonl"
+    },
+    {
+      "condition": "B0-para",
+      "query_mode": "raw",
+      "ablation": "baseline",
+      "N": 136,
+      "N_loaded": 141,
+      "recall_at_1": 0.4485294117647059,
+      "recall_at_3": 0.6323529411764706,
+      "recall_at_10": 0.6985294117647058,
+      "mrr": 0.5409197012138189,
+      "recall_at_1_count": 61,
+      "recall_at_3_count": 86,
+      "recall_at_10_count": 95,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 5,
+          "n": 5
+        },
+        "kinsho-hou": {
+          "hit@10": 50,
+          "n": 74
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 19,
+          "n": 35
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\B0-para__raw__baseline.jsonl"
+    },
+    {
+      "condition": "B0-para",
+      "query_mode": "raw",
+      "ablation": "normalize",
+      "N": 136,
+      "N_loaded": 141,
+      "recall_at_1": 0.4411764705882353,
+      "recall_at_3": 0.6029411764705882,
+      "recall_at_10": 0.6838235294117647,
+      "mrr": 0.5289419934640524,
+      "recall_at_1_count": 60,
+      "recall_at_3_count": 82,
+      "recall_at_10_count": 93,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 5,
+          "n": 5
+        },
+        "kinsho-hou": {
+          "hit@10": 48,
+          "n": 74
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 19,
+          "n": 35
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\B0-para__raw__normalize.jsonl"
+    },
+    {
+      "condition": "B0-para",
+      "query_mode": "canon",
+      "ablation": "baseline",
+      "N": 136,
+      "N_loaded": 141,
+      "recall_at_1": 0.4485294117647059,
+      "recall_at_3": 0.6323529411764706,
+      "recall_at_10": 0.6985294117647058,
+      "mrr": 0.5409197012138189,
+      "recall_at_1_count": 61,
+      "recall_at_3_count": 86,
+      "recall_at_10_count": 95,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 5,
+          "n": 5
+        },
+        "kinsho-hou": {
+          "hit@10": 50,
+          "n": 74
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 19,
+          "n": 35
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\B0-para__canon__baseline.jsonl"
+    },
+    {
+      "condition": "B0-para",
+      "query_mode": "canon",
+      "ablation": "normalize",
+      "N": 136,
+      "N_loaded": 141,
+      "recall_at_1": 0.4411764705882353,
+      "recall_at_3": 0.6029411764705882,
+      "recall_at_10": 0.6838235294117647,
+      "mrr": 0.5289419934640524,
+      "recall_at_1_count": 60,
+      "recall_at_3_count": 82,
+      "recall_at_10_count": 93,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 5,
+          "n": 5
+        },
+        "kinsho-hou": {
+          "hit@10": 48,
+          "n": 74
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 19,
+          "n": 35
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\B0-para__canon__normalize.jsonl"
+    },
+    {
+      "condition": "B0-art",
+      "query_mode": "raw",
+      "ablation": "baseline",
+      "N": 112,
+      "N_loaded": 141,
+      "recall_at_1": 0.5,
+      "recall_at_3": 0.625,
+      "recall_at_10": 0.7142857142857143,
+      "mrr": 0.5723462301587302,
+      "recall_at_1_count": 56,
+      "recall_at_3_count": 70,
+      "recall_at_10_count": 80,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 4,
+          "n": 4
+        },
+        "kinsho-hou": {
+          "hit@10": 37,
+          "n": 54
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 18,
+          "n": 32
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\B0-art__raw__baseline.jsonl"
+    },
+    {
+      "condition": "B0-art",
+      "query_mode": "raw",
+      "ablation": "normalize",
+      "N": 112,
+      "N_loaded": 141,
+      "recall_at_1": 0.48214285714285715,
+      "recall_at_3": 0.6071428571428571,
+      "recall_at_10": 0.7053571428571429,
+      "mrr": 0.555764597505669,
+      "recall_at_1_count": 54,
+      "recall_at_3_count": 68,
+      "recall_at_10_count": 79,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 4,
+          "n": 4
+        },
+        "kinsho-hou": {
+          "hit@10": 36,
+          "n": 54
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 18,
+          "n": 32
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\B0-art__raw__normalize.jsonl"
+    },
+    {
+      "condition": "B0-art",
+      "query_mode": "canon",
+      "ablation": "baseline",
+      "N": 112,
+      "N_loaded": 141,
+      "recall_at_1": 0.5,
+      "recall_at_3": 0.625,
+      "recall_at_10": 0.7142857142857143,
+      "mrr": 0.5723462301587302,
+      "recall_at_1_count": 56,
+      "recall_at_3_count": 70,
+      "recall_at_10_count": 80,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 4,
+          "n": 4
+        },
+        "kinsho-hou": {
+          "hit@10": 37,
+          "n": 54
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 18,
+          "n": 32
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\B0-art__canon__baseline.jsonl"
+    },
+    {
+      "condition": "B0-art",
+      "query_mode": "canon",
+      "ablation": "normalize",
+      "N": 112,
+      "N_loaded": 141,
+      "recall_at_1": 0.48214285714285715,
+      "recall_at_3": 0.6071428571428571,
+      "recall_at_10": 0.7053571428571429,
+      "mrr": 0.555764597505669,
+      "recall_at_1_count": 54,
+      "recall_at_3_count": 68,
+      "recall_at_10_count": 79,
+      "per_law": {
+        "chihou-zei-hou": {
+          "hit@10": 4,
+          "n": 4
+        },
+        "kinsho-hou": {
+          "hit@10": 36,
+          "n": 54
+        },
+        "kokuzei-tsuusoku-hou": {
+          "hit@10": 1,
+          "n": 1
+        },
+        "shakuchi-shakka-hou": {
+          "hit@10": 14,
+          "n": 15
+        },
+        "shotoku-zei-hou": {
+          "hit@10": 6,
+          "n": 6
+        },
+        "yakkihou": {
+          "hit@10": 18,
+          "n": 32
+        }
+      },
+      "M": 200,
+      "K": 10,
+      "rerank_candidates": null,
+      "raw_log": "benchmarks\\results\\layer1-structured-vs-raw\\raw\\B0-art__canon__normalize.jsonl"
+    }
+  ]
+}

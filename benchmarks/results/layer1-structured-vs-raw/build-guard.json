@@ -1,0 +1,706 @@
+{
+  "token_limit": 2048,
+  "token_oracle": "tiktoken-cl100k_base (conservative vs Gemini SentencePiece)",
+  "corpora": {
+    "A-para": 9552,
+    "A-art": 3202,
+    "B0-para": 9552,
+    "B0-art": 3202
+  },
+  "guard_A1_setdiff_article_level": [],
+  "guard_A1_setdiff_paragraph_level": [],
+  "guard_A3_boundary_mismatch_articles": [],
+  "guard_A2_excluded_articles_over_token": [
+    {
+      "article_id": "kinsho-hou-art-2",
+      "tokens": 7582,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-4",
+      "tokens": 2491,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-5",
+      "tokens": 3726,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-23-2",
+      "tokens": 2279,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-23-12",
+      "tokens": 3057,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-24",
+      "tokens": 5737,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-24-5",
+      "tokens": 5849,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-24-7",
+      "tokens": 2515,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-25",
+      "tokens": 2226,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-27-10",
+      "tokens": 2625,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-27-13",
+      "tokens": 2069,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-27-22-2",
+      "tokens": 6670,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-27-23",
+      "tokens": 2292,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-27-30-2",
+      "tokens": 2232,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-27-30-11",
+      "tokens": 2441,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-27-34",
+      "tokens": 2076,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-50-2",
+      "tokens": 2650,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-79-49",
+      "tokens": 3746,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-165-2",
+      "tokens": 3691,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-167",
+      "tokens": 2333,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-172-2",
+      "tokens": 2301,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-174-2",
+      "tokens": 2395,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-174-3",
+      "tokens": 2516,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-175",
+      "tokens": 2782,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-175-2",
+      "tokens": 3150,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-178",
+      "tokens": 4592,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-185-7",
+      "tokens": 10968,
+      "limit": 2048
+    },
+    {
+      "article_id": "kinsho-hou-art-185-8",
+      "tokens": 2513,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-2",
+      "tokens": 3103,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-14",
+      "tokens": 2941,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-23-2-5",
+      "tokens": 2913,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-23-2-10-2",
+      "tokens": 2336,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-23-2-14",
+      "tokens": 2140,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-23-25",
+      "tokens": 2709,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-69",
+      "tokens": 5463,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-72",
+      "tokens": 2272,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-74-2",
+      "tokens": 2234,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-75-2-2",
+      "tokens": 4583,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-75-5-5",
+      "tokens": 2259,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-80",
+      "tokens": 3219,
+      "limit": 2048
+    },
+    {
+      "article_id": "yakkihou-art-83",
+      "tokens": 6499,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-10",
+      "tokens": 3437,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-60-2",
+      "tokens": 5234,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-60-3",
+      "tokens": 5419,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-67-3",
+      "tokens": 3054,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-70-2",
+      "tokens": 2495,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-76",
+      "tokens": 2842,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-95",
+      "tokens": 3536,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-137-2",
+      "tokens": 3594,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-137-3",
+      "tokens": 5175,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-165-6",
+      "tokens": 2315,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-194",
+      "tokens": 2052,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-203-6",
+      "tokens": 2080,
+      "limit": 2048
+    },
+    {
+      "article_id": "shotoku-zei-hou-art-224-3",
+      "tokens": 2173,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-15-2",
+      "tokens": 2449,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-16-4",
+      "tokens": 2307,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-20-9-3",
+      "tokens": 2071,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-32",
+      "tokens": 3926,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-33",
+      "tokens": 2700,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-34",
+      "tokens": 2803,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-37-2",
+      "tokens": 2389,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-45-2",
+      "tokens": 2475,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-53",
+      "tokens": 33674,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-55-2",
+      "tokens": 2281,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-71-14",
+      "tokens": 2559,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-71-35",
+      "tokens": 2631,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-71-55",
+      "tokens": 2663,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-13",
+      "tokens": 2218,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-21",
+      "tokens": 3667,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-24-10",
+      "tokens": 2983,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-25",
+      "tokens": 5490,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-26",
+      "tokens": 4502,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-29",
+      "tokens": 2202,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-32-2",
+      "tokens": 2353,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-38-2",
+      "tokens": 2349,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-39-2",
+      "tokens": 2386,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-46",
+      "tokens": 3790,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-48",
+      "tokens": 3102,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-48-2",
+      "tokens": 2907,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-49-12",
+      "tokens": 5634,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-72-89-3",
+      "tokens": 2405,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-73-2",
+      "tokens": 3921,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-73-14",
+      "tokens": 4570,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-74-23",
+      "tokens": 2784,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-90",
+      "tokens": 2508,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-144-2",
+      "tokens": 2519,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-144-21",
+      "tokens": 2293,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-144-47",
+      "tokens": 2621,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-278",
+      "tokens": 2840,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-313",
+      "tokens": 3896,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-314",
+      "tokens": 2692,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-314-2",
+      "tokens": 2827,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-314-7",
+      "tokens": 2404,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-317-2",
+      "tokens": 2933,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-317-6",
+      "tokens": 2483,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-321-4",
+      "tokens": 3194,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-321-8",
+      "tokens": 32753,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-328-11",
+      "tokens": 2587,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-343",
+      "tokens": 3677,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-348",
+      "tokens": 2395,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-349-3",
+      "tokens": 11387,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-349-3-3",
+      "tokens": 3112,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-349-4",
+      "tokens": 2656,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-352-2",
+      "tokens": 3374,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-381",
+      "tokens": 2178,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-433",
+      "tokens": 2437,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-483",
+      "tokens": 2782,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-536",
+      "tokens": 2478,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-601",
+      "tokens": 2242,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-609",
+      "tokens": 2796,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-688",
+      "tokens": 2848,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-701-12",
+      "tokens": 2545,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-701-61",
+      "tokens": 2777,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-703-4",
+      "tokens": 6935,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-721",
+      "tokens": 2576,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-733-18",
+      "tokens": 2905,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-739-5",
+      "tokens": 2409,
+      "limit": 2048
+    },
+    {
+      "article_id": "chihou-zei-hou-art-756",
+      "tokens": 2665,
+      "limit": 2048
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-46",
+      "tokens": 2417,
+      "limit": 2048
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-46-2",
+      "tokens": 2564,
+      "limit": 2048
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-63",
+      "tokens": 2205,
+      "limit": 2048
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-66",
+      "tokens": 2711,
+      "limit": 2048
+    },
+    {
+      "article_id": "kokuzei-tsuusoku-hou-art-74-2",
+      "tokens": 2134,
+      "limit": 2048
+    }
+  ],
+  "guard_A2_excluded_paragraphs_over_token": [
+    {
+      "article_id": "kinsho-hou-art-23-2",
+      "paragraph_number": 1,
+      "tokens": 2283
+    },
+    {
+      "article_id": "kinsho-hou-art-27-22-2",
+      "paragraph_number": 2,
+      "tokens": 2719
+    },
+    {
+      "article_id": "kinsho-hou-art-27-30-2",
+      "paragraph_number": 1,
+      "tokens": 2236
+    },
+    {
+      "article_id": "kinsho-hou-art-27-34",
+      "paragraph_number": 1,
+      "tokens": 2080
+    },
+    {
+      "article_id": "yakkihou-art-75-2-2",
+      "paragraph_number": 2,
+      "tokens": 3784
+    },
+    {
+      "article_id": "yakkihou-art-83",
+      "paragraph_number": 1,
+      "tokens": 5256
+    }
+  ],
+  "per_law": {
+    "kinsho-hou": {
+      "law_id": "323AC0000000025",
+      "articles": 1101,
+      "paragraphs": 2801,
+      "excluded_art_over_token": 28,
+      "excluded_para_over_token": 4
+    },
+    "yakkihou": {
+      "law_id": "335AC0000000145",
+      "articles": 356,
+      "paragraphs": 1061,
+      "excluded_art_over_token": 13,
+      "excluded_para_over_token": 2
+    },
+    "shakuchi-shakka-hou": {
+      "law_id": "403AC0000000090",
+      "articles": 61,
+      "paragraphs": 131,
+      "excluded_art_over_token": 0,
+      "excluded_para_over_token": 0
+    },
+    "shotoku-zei-hou": {
+      "law_id": "340AC0000000033",
+      "articles": 300,
+      "paragraphs": 831,
+      "excluded_art_over_token": 13,
+      "excluded_para_over_token": 0
+    },
+    "chihou-zei-hou": {
+      "law_id": "325AC0000000226",
+      "articles": 1313,
+      "paragraphs": 4154,
+      "excluded_art_over_token": 64,
+      "excluded_para_over_token": 0
+    },
+    "kokuzei-tsuusoku-hou": {
+      "law_id": "337AC0000000066",
+      "articles": 194,
+      "paragraphs": 580,
+      "excluded_art_over_token": 5,
+      "excluded_para_over_token": 0
+    }
+  }
+}
