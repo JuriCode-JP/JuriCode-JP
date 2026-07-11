@@ -248,6 +248,9 @@ def build(
     """v8 corpus を build/corpus-v8.jsonl に merge し、実測サマリを返す (§3.1-3.6)."""
     bv = _load_bv02()
     law_to_phase = bv.build_law_to_phase(data_dir)
+    # Resolve captions via the SAME path v7 used (build-v0.2-corpus.build_article_to_caption),
+    # so embed_text reproduces the v7 augmented recipe byte-for-byte (parity gate below).
+    article_to_caption = bv.build_article_to_caption(data_dir)
 
     files = _iter_files(chunks_dir)
     seen_ids: Counter = Counter()
@@ -265,6 +268,8 @@ def build(
         "subchunks_emitted": 0,
         "id_collisions_uniqueized": 0,
         "text_unchanged_checked": 0,
+        "embed_text_assigned": 0,
+        "embed_text_empty": 0,
     }
 
     for path, is_kfs in files:
@@ -280,6 +285,8 @@ def build(
                     summary["kfs_excluded_empty"] += 1
                     continue
                 flat["chunk_id"] = uniqueize_id(flat["chunk_id"], seen_ids)
+                # K-1: KFS retrieval text (case_name+summary) through the SAME augment recipe.
+                flat["embed_text"] = bv.make_augmented_text(flat, None)
                 records.append(flat)
                 summary["kfs_records"] += 1
                 summary["layer_counts"]["ruling"] += 1
@@ -306,36 +313,47 @@ def build(
             orig_id = flat["chunk_id"]
             flat["chunk_id_orig"] = orig_id
             base_text = flat.get("text") or ""
+            # v7 parity: embed_text = augmented recipe (law name / article no / caption / labels)
+            # on the RAW chunk, exactly as build-v0.2-corpus.flatten_chunk(augment=True) did.
+            caption = article_to_caption.get(flat.get("article_id"))
 
             if seg in ROLLUP_SEGMENTS:
                 # S-1: rollup系は embed 対象外 (粒度チャンクが内容保持)
                 flat["embed_skip"] = True
+                flat["embed_text"] = bv.make_augmented_text(chunk, caption)
                 flat["chunk_id"] = uniqueize_id(orig_id, seen_ids)
                 records.append(flat)
                 summary["embed_skip_rollup"] += 1
+                summary["embed_text_assigned"] += 1
                 continue
 
             # S-1: 非rollup は実トークンで再判定し、超過のみ overlap sub-chunk
             slices = plan_subchunks(base_text, token_count_fn) if base_text.strip() else [base_text]
             if len(slices) == 1:
                 flat["embed_skip"] = False
+                flat["embed_text"] = bv.make_augmented_text(chunk, caption)
                 flat["chunk_id"] = uniqueize_id(orig_id, seen_ids)
                 records.append(flat)
                 summary["text_unchanged_checked"] += 1
+                summary["embed_text_assigned"] += 1
             else:
                 summary["subchunked_parents"] += 1
                 for i, piece in enumerate(slices, 1):
                     sub = dict(flat)
                     sub["text"] = piece
                     sub["text_raw"] = piece
+                    # Prefix the SAME augmented head onto each verbatim sub-slice.
+                    sub["embed_text"] = bv.make_augmented_text({**chunk, "text": piece}, caption)
                     sub["embed_skip"] = False
                     sub["subchunk_of"] = orig_id
                     sub["subchunk_index"] = i
                     sub["chunk_id"] = uniqueize_id(f"{orig_id}-sub{i}", seen_ids)
                     records.append(sub)
                     summary["subchunks_emitted"] += 1
+                    summary["embed_text_assigned"] += 1
 
     summary["id_collisions_uniqueized"] = sum(1 for cid, n in seen_ids.items() if n > 1)
+    summary["embed_text_empty"] = sum(1 for r in records if not (r.get("embed_text") or "").strip())
 
     # write
     lines = [json.dumps(r, ensure_ascii=False) for r in records]
@@ -355,6 +373,55 @@ def _phase_for(path: Path, group: str, law_to_phase: dict, bv) -> str:
     return law_to_phase.get(group, "unknown")
 
 
+def verify_parity(v8_path: Path, v6_path: Path) -> dict:
+    """v7 recipe parity gate: v8 embed_text must equal the v7 augmented text.
+
+    Why: the -20pt A3-M regression was caused by v8 embedding raw body only. This asserts
+    the restored embed_text reproduces v7's augmented recipe byte-for-byte on the shared set
+    (matched by chunk_id_orig <-> v6 chunk_id). Sub-chunks are a v8-only transformation and
+    are excluded; collisions are handled dup-safe (v6 keeps a SET of texts per id). Any
+    honbun mismatch => recipe drift => STOP (return with n_mismatch > 0).
+    """
+    v6_texts: dict[str, set[str]] = {}
+    with v6_path.open(encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            r = json.loads(line)
+            cid = r.get("chunk_id")
+            if cid is not None:
+                v6_texts.setdefault(cid, set()).add(r.get("text") or "")
+
+    n_common = 0
+    n_mismatch = 0
+    examples: list[dict] = []
+    with v8_path.open(encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if not line:
+                continue
+            r = json.loads(line)
+            if r.get("subchunk_of"):
+                continue  # v8-only split, no v7 counterpart
+            orig = r.get("chunk_id_orig")
+            if orig not in v6_texts:
+                continue  # new corpus (sochi/KFS) or absent in v7 -> not a parity case
+            n_common += 1
+            if (r.get("embed_text") or "") not in v6_texts[orig]:
+                n_mismatch += 1
+                if len(examples) < 8:
+                    examples.append(
+                        {
+                            "chunk_id": r.get("chunk_id"),
+                            "chunk_id_orig": orig,
+                            "v8_embed_text": (r.get("embed_text") or "")[:160],
+                            "v7_text_sample": next(iter(v6_texts[orig]))[:160],
+                        }
+                    )
+    return {"n_common": n_common, "n_mismatch": n_mismatch, "examples": examples}
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(
         description="Track A / A1: build v8 corpus (layer/corpus_group/KFS/context_prefix)."
@@ -366,6 +433,13 @@ def main() -> int:
         "--no-token-api",
         action="store_true",
         help="disable real gemini token counting (char-prefilter only; skips sub-chunking)",
+    )
+    ap.add_argument(
+        "--verify-parity",
+        type=Path,
+        default=None,
+        help="after build, assert embed_text == v7 augmented text on the shared set "
+        "(pass the v7 augmented corpus, e.g. build/corpus-v0.2-augmented-v6.jsonl)",
     )
     args = ap.parse_args()
 
@@ -383,6 +457,21 @@ def main() -> int:
     summary = build(args.chunks_dir, args.data_dir, args.output, token_count_fn)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
     print(f"output -> {args.output.relative_to(_REPO)}")
+
+    if args.verify_parity is not None:
+        if not args.verify_parity.exists():
+            print(f"ERROR: v7 parity corpus not found: {args.verify_parity}", file=sys.stderr)
+            return 1
+        parity = verify_parity(args.output, args.verify_parity)
+        print("parity: " + json.dumps({k: parity[k] for k in ("n_common", "n_mismatch")}))
+        if parity["n_mismatch"] > 0:
+            print("PARITY FAIL: embed_text != v7 augmented text (recipe drift):", file=sys.stderr)
+            for ex in parity["examples"]:
+                print(f"  {ex['chunk_id']}: v8={ex['v8_embed_text']!r}", file=sys.stderr)
+                print(f"      v7={ex['v7_text_sample']!r}", file=sys.stderr)
+            return 1
+        print(f"parity OK: {parity['n_common']} shared chunks, 0 mismatch")
+
     return 0
 
 

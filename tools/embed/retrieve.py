@@ -7,6 +7,13 @@ Provider is detected from .vec.pkl. Supports tfidf / openai / gemini.
 - --normalize-query: 法令略称展開 + 漢数字->アラビア数字正規化
 - --hybrid-bm25: TF-IDF (char 2-3gram) と Dense を RRF (k=60) で結合
 - --bm25-corpus: BM25 用の corpus jsonl パス (text フィールド)
+
+Defaults (2026-07-11, A3-D):
+- mode=dense (既定): dense >= hybrid が全 K・両索引 (v7/v8) で実測。BM25 は v8 の
+  再チャンク化で doc 統計が動き劣化 = hybrid は V0.4 で再設計するまで --mode hybrid /
+  --hybrid-bm25 でのみ有効。
+- dedup ON (既定): 候補プールを top-K 前に article_id (欠落時 chunk_id) で dedup し、
+  同一条文の重複チャンクが top-K を食う問題を除く (v7/v8 双方で改善)。--no-dedup で無効化。
 """
 
 from __future__ import annotations
@@ -583,6 +590,13 @@ class RetrievalPipeline:
         # store fallback ids for aggregate_metrics matching.
         self._directive_ids = [r.get("directive_id") for r in records]
         self._chunk_ids = [r.get("chunk_id") for r in records]
+        # Dedup key: article_id, else directive_id, else chunk_id (same fallback rule as
+        # aggregate_metrics). Non-article records must key on their own id so distinct
+        # tsutatsu/taxanswer chunks are NOT collapsed onto a single None bucket.
+        self._dedup_keys = [
+            (a if a is not None else (d or c))
+            for a, d, c in zip(self.article_ids, self._directive_ids, self._chunk_ids, strict=False)
+        ]
 
     def dense_retrieve(self, query_matrix, corpus_matrix, top_k):
         """cosine 類似度で各 query の top-K segment を返す (sims, top_idx)。torch 非依存。"""
@@ -593,8 +607,11 @@ class RetrievalPipeline:
         return rrf_combine_per_query(dense_top_idx, bm25_top_idx, top_k, k_rrf=rrf_k)
 
     def dedup_by_article(self, top_idx_wide, k):
-        """同一 article の重複 segment を除去し代表 (最上位 rank) のみ残す。torch 非依存。"""
-        return dedup_by_article(top_idx_wide, self.article_ids, k)
+        """同一 article の重複 segment を除去し代表 (最上位 rank) のみ残す。torch 非依存。
+
+        キーは article_id (欠落時は directive_id -> chunk_id) = aggregate_metrics と同一規則。
+        """
+        return dedup_by_article(top_idx_wide, self._dedup_keys, k)
 
     def select_rerank_candidates(self, dense_top_idx, top_idx_wide, hybrid_on, n_candidates, top_k):
         """rerank に渡す candidate を選ぶ (FU-425 の候補選択を 1 箇所に局所化)。torch 非依存。
@@ -716,9 +733,27 @@ def main():
         help="reranker に渡す dense top-N の N (default: 30)",
     )
     ap.add_argument(
+        "--mode",
+        choices=["dense", "hybrid"],
+        default="dense",
+        help="retrieval mode. dense (default) or hybrid (dense+BM25 RRF). "
+        "Why default=dense: dense >= hybrid at every K on both v7/v8 indices (measured); "
+        "BM25 degraded under the v8 re-chunking, so hybrid is deferred to V0.4 re-design. "
+        "hybrid stays available via --mode hybrid / --hybrid-bm25.",
+    )
+    ap.add_argument(
+        "--no-dedup",
+        action="store_true",
+        help="disable article_id dedup of the candidate pool (dedup is ON by default). "
+        "Why default ON: duplicate chunks of the same article otherwise eat top-K slots "
+        "(hurts v7 and v8 alike); dedup keeps the top-scoring chunk per article_id "
+        "(chunk_id fallback for non-article records).",
+    )
+    ap.add_argument(
         "--dedup-by-article",
         action="store_true",
-        help="v0.2 segment retrieval を article-level Recall として測定 (同じ article の重複 segment を 1 つにまとめる)",
+        help="[deprecated: dedup is ON by default; use --no-dedup to disable] "
+        "article-level dedup of the candidate pool.",
     )
     ap.add_argument(
         "--hyde",
@@ -748,6 +783,10 @@ def main():
         help="仮想文生成 LLM (Gemini generation model, default: gemini-2.5-flash)",
     )
     args = ap.parse_args()
+
+    # Resolve effective flags: dense-default mode + dedup-on-default (with back-compat aliases).
+    hybrid_on = args.hybrid_bm25 or args.mode == "hybrid"
+    dedup_on = not args.no_dedup  # default ON; --dedup-by-article kept as a no-op alias
 
     if (args.hyde or args.hyde_only) and not args.hyde_cache:
         sys.exit("ERROR: --hyde / --hyde-only requires --hyde-cache <path>")
@@ -785,7 +824,7 @@ def main():
     # Dense retrieval -- dedup_by_article 時は候補プールを広めに取る。
     # reranker on のときは rerank candidate (rerank_candidate_k) を賄える幅を母集団決定時点で保証 (FU-425/§5-3)。
     rerank_k = max(args.reranker_candidates, args.top_k) if args.reranker else 0
-    base_pool = max(args.top_k * 10, 100) if args.dedup_by_article else max(args.top_k * 3, 30)
+    base_pool = max(args.top_k * 10, 100) if dedup_on else max(args.top_k * 3, 30)
     candidate_pool = max(base_pool, rerank_k)
     query_matrix = _encode_queries(questions, state)
     dense_sims, dense_top_idx = pipeline.dense_retrieve(query_matrix, matrix, candidate_pool)
@@ -799,16 +838,18 @@ def main():
     # Hybrid (BM25 + Dense via RRF)
     # dedup_by_article 併用時は wide な候補を維持して後段 dedup に渡す
     wide_pool = candidate_pool
-    if args.hybrid_bm25:
+    if hybrid_on:
         if not args.bm25_corpus:
-            sys.exit("ERROR: --hybrid-bm25 requires --bm25-corpus <path>")
+            sys.exit(
+                "ERROR: hybrid mode (--mode hybrid / --hybrid-bm25) requires --bm25-corpus <path>"
+            )
         print(f"Building BM25 index from {args.bm25_corpus} ...", file=sys.stderr)
         index_info, tfidf_matrix, _bm25_article_ids = build_tfidf_index(args.bm25_corpus)
         _bm25_sims, bm25_top_idx = bm25_topk_per_query(
             questions, index_info, tfidf_matrix, wide_pool
         )
         # RRF combine -- dedup / reranker 時は wide な top_idx_wide を出力 (rerank_candidate_k 以上を保証)
-        result_k = wide_pool if args.dedup_by_article else args.top_k
+        result_k = wide_pool if dedup_on else args.top_k
         result_k = max(result_k, rerank_k)
         top_idx_wide = pipeline.hybrid_combine(
             dense_top_idx[:, :wide_pool],
@@ -824,7 +865,7 @@ def main():
         sims = dense_sims
 
     # Article-level dedup -- hybrid 適用後の top_idx_wide を使う (バグ修正 2026-05-22)
-    if args.dedup_by_article:
+    if dedup_on:
         top_idx = pipeline.dedup_by_article(top_idx_wide, args.top_k)
         print(
             f"  [dedup-by-article] top-{args.top_k} = {args.top_k} unique articles", file=sys.stderr
@@ -837,7 +878,7 @@ def main():
             sys.exit("ERROR: --reranker requires --reranker-corpus (or --bm25-corpus) <path>")
         print(f"Loading corpus texts from {reranker_corpus_path} ...", file=sys.stderr)
         corpus_texts = _load_corpus_texts(reranker_corpus_path)
-        if args.dedup_by_article:
+        if dedup_on:
             # dedup モード: rerank 前に各記事トップチャンク1件のみ残し、ユニーク記事を
             # rerank_candidate_k 件集めてから rerank (RRF 上位が1記事のチャンクで偏った際の
             # 出力枯渇 2-1 を構造的に防止)。
@@ -848,7 +889,7 @@ def main():
             candidates = pipeline.select_rerank_candidates(
                 dense_top_idx,
                 top_idx_wide,
-                hybrid_on=args.hybrid_bm25,
+                hybrid_on=hybrid_on,
                 n_candidates=args.reranker_candidates,
                 top_k=args.top_k,
             )
@@ -939,14 +980,14 @@ def main():
 
     # Settings tag for log-friendliness
     settings: list[str] = []
+    settings.append(f"mode={'hybrid' if hybrid_on else 'dense'}")
+    settings.append("dedup" if dedup_on else "no-dedup")
     if args.normalize_query:
         settings.append("normalize-query")
-    if args.hybrid_bm25:
+    if hybrid_on:
         settings.append(f"hybrid-bm25(rrf-k={args.rrf_k})")
     if args.reranker:
         settings.append(f"reranker({args.reranker_model.split('/')[-1]})")
-    if args.dedup_by_article:
-        settings.append("dedup-by-article")
     if args.hyde_only:
         settings.append(f"hyde-only(gen={args.hyde_gen_model})")
     elif args.hyde:
