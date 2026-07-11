@@ -1,0 +1,7 @@
+#!/bin/sh
+# Version-controlled pre-push leak gate. Enable once per clone:
+#   git config core.hooksPath tools/hooks
+# (bypass in emergencies with: git push --no-verify)
+python3 tools/scripts/check_no_leaks.py --base "origin/main" --head "HEAD" || {
+  echo "pre-push blocked by leak gate (tools/scripts/check_no_leaks.py)"; exit 1;
+}
