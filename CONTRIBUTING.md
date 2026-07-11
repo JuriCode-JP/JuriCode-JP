@@ -49,6 +49,12 @@ JuriCode-JP への協力をありがとうございます。日本の法令を A
 - `python tools/parse/verify.py --path data/v0.2`(**法令本文の原典一致を機械照合**=round-trip)
 - (詳細な検証コマンドは `CLAUDE.md` §8 を参照)
 
+**pre-push フックの有効化(任意・推奨)**: 個人名や内部プロセス参照が公開履歴に入るのを push 時に自動で止めるフックを、クローンごとに1回だけ有効化できます:
+```
+git config core.hooksPath tools/hooks
+```
+これで push 前に `tools/scripts/check_no_leaks.py`(CI の leak-gate と同じ検査)が走ります。緊急時は `git push --no-verify` で回避できますが、CI 側の leak-gate が最終防衛線です。
+
 ## 6. 困ったら
 - Issue で質問してください(日本語/英語どちらでも)。
 - 大きな変更は、着手前に Issue で方針を相談すると手戻りが少ないです。
