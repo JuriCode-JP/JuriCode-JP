@@ -12,8 +12,15 @@ Why: 刑法には裁決 store が無いため、hojin の「rulings.jsonl から
 
 store は判例 1 件 = 1 レコード (case_id 一意・article 非依存・hojin store と同思想。
 PrecedentStoreEntry は attached_article_id を持たない)。同一判例が複数条に付く場合は
-各条 md の cases: に条ごとに並存させ、store 側は 1 レコードに合流する。source 間で
-store 投影フィールド (relevance 等) が食い違えば fail-loud で止める (L3 裁定へ差し戻し)。
+各条 md の cases: に条ごとに並存させ、store 側は 1 レコードに合流する。
+
+relevance の責務分離 (A1・2026-07-10 佐藤 GO): relevance/relevant_paragraph の権威は
+各条 md の cases: (article 相対)。store の relevance は付与された全条での max ロールアップ
+(high > medium > low・決定論。下流に store relevance の消費者は無い: build-v0.2-corpus は
+case-law/ を明示除外)。条間の relevance 非対称は合法 (fail-loud しない)。court/date/
+citation 等の事実メタが同一 case_id で食い違う場合のみ fail-loud (データ品質エラー =
+佐藤裁定へ差し戻し)。新条追加で共有判例の max が上がり store 行の byte が変わるのは
+regression でなく合法な更新 (diff を佐藤に提示して re-lock・silent 変更にしない)。
 
 Usage:
     python tools/parse/build-keihou-precedents.py                 # 全条 (store + 全条 md 付与)
@@ -157,13 +164,19 @@ def _store_row(c: dict) -> dict:
     return entry.model_dump(mode="json")
 
 
+# relevance の決定論的ロールアップ順序 (A1)。max = 付与された全条での最高 relevance。
+_RELEVANCE_RANK = {"low": 0, "medium": 1, "high": 2}
+
+
 def merge_store_rows(sources: list[LockedSource]) -> list[dict]:
     """全 source を合流した store rows を返す (case_id 昇順・判例 1 件 = 1 レコード).
 
     Why: 多条跨ぎの判例 (例: 43条 x 199条) は article 側 cases: に条ごとに並存させ、
-    store は case_id で 1 レコードに合流する。source 間で store 投影フィールドが
-    食い違う場合 (例: 条ごとに異なる relevance ロック) は黙って上書き・選択せず
-    fail-loud で止める (relevance は L3 = 佐藤裁定)。
+    store は case_id で 1 レコードに合流する。relevance は article 相対 (各条 md が権威)
+    ゆえ条間の非対称は合法で、store には max ロールアップを入れる (A1・source の投入順に
+    依存しない決定論。単条の判例は max(1 値) = その値 = 36条 28 行は byte 不変)。
+    court/date/citation 等の事実メタが同一 case_id で食い違う場合は relevance と違い
+    「どちらかが誤記」なので、黙って選択せず fail-loud で止める (佐藤裁定へ差し戻し)。
     """
     by_id: dict[str, tuple[str, dict]] = {}
     for src in sources:
@@ -172,12 +185,14 @@ def merge_store_rows(sources: list[LockedSource]) -> list[dict]:
             cid = c["case_id"]
             if cid in by_id:
                 prev_article, prev_row = by_id[cid]
-                if prev_row != row:
-                    diff = sorted(k for k in row if row[k] != prev_row[k])
+                diff = sorted(k for k in row if k != "relevance" and row[k] != prev_row[k])
+                if diff:
                     raise ValueError(
-                        f"{cid}: store 投影フィールドが source 間で不一致 "
+                        f"{cid}: 事実メタが source 間で不一致 "
                         f"({prev_article} vs {src.article_id}, 差分: {diff})"
                     )
+                if _RELEVANCE_RANK[row["relevance"]] > _RELEVANCE_RANK[prev_row["relevance"]]:
+                    prev_row["relevance"] = row["relevance"]
             else:
                 by_id[cid] = (src.article_id, row)
     return [by_id[cid][1] for cid in sorted(by_id)]
