@@ -988,6 +988,24 @@ FU-415 sprint で `fix-phase-tags.py` を サンドボックス環境 で開発�
 
 ## P3 — Phase 1 後期以降 (2026-10〜) / Phase 2 検討
 
+### [ ] FU-553: TaxAnswer records lack a stable dedup key (article_id / directive_id)
+
+**Context**: retrieval now dedupes candidates by `article_id` (fallback `directive_id` ->
+`chunk_id`). Tsutatsu records carry `directive_id`, so dedup collapses their duplicate
+sub-chunks correctly. TaxAnswer records carry neither `article_id` nor `directive_id`, so the
+key falls back to `chunk_id` and the `-subN` sub-chunks of one TaxAnswer are treated as distinct
+articles — they can occupy several top-K slots (observed: one query's top-5 held both
+`...-2011-sub1` and `...-2011-sub2`). This does NOT affect the A-3 verdict (TaxAnswer R@20 =
+17/17 = 100%), so no re-measurement is warranted here.
+
+**Options (decide when the retrieval service PoC starts)**:
+1. Root fix: give each TaxAnswer a document id in the parser (e.g. `shotoku-taxanswer-2011`) and
+   use it as the dedup key.
+2. Retrieval-side workaround: fold the `-subN` suffix of `chunk_id` into the dedup key so
+   sub-chunks of one TaxAnswer collapse.
+
+Scope: not this sprint. File only.
+
 ### [ ] FU-201: `ParentSection` を多言語対応構造に変更
 
 **現状**: `hen: int + hen_name_ja + hen_name_en` flat 構造. 中国語・韓国語追加時にフィールドが増殖.
