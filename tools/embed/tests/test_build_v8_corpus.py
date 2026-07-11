@@ -151,8 +151,25 @@ def _stub_bv():
             "text_raw": chunk.get("text") or "",
         }
 
+    def make_augmented_text(chunk, caption):
+        """Minimal stand-in for the real augment recipe: [law 第N条 (caption)] prefix + text."""
+        law = chunk.get("law_name_ja") or ""
+        art = chunk.get("article_number") or ""
+        text = chunk.get("text") or ""
+        parts = []
+        if law:
+            parts.append(law)
+        if art:
+            parts.append(f"第{art}条")
+        if caption:
+            parts.append(f"({caption})")
+        prefix = " ".join(parts)
+        return f"{prefix}\n{text}" if prefix else text
+
     mod.flatten_chunk = flatten_chunk
+    mod.make_augmented_text = make_augmented_text
     mod.build_law_to_phase = lambda data_dir: {}
+    mod.build_article_to_caption = lambda data_dir: {}
     return mod
 
 
@@ -208,6 +225,8 @@ def test_build_integration(tmp_path, monkeypatch):
                 "article_id": "s-art-1",
                 "paragraph_number": 1,
                 "segment_type": "simple",
+                "law_name_ja": "租税特別措置法",
+                "article_number": "1",
                 "text": "租特法本文",
             }
         ],
@@ -231,6 +250,12 @@ def test_build_integration(tmp_path, monkeypatch):
     # A-1: sochi 本法
     s = next(r for r in recs if r["chunk_id"] == "s-art-1-p1")
     assert s["layer"] == "statute" and s["corpus_group"] == "sochi"
+    # embed_text: augmented recipe restored (law + article prefix on raw body); text unchanged
+    assert s["embed_text"] == "租税特別措置法 第1条\n租特法本文"
+    assert s["text"] == "租特法本文" and s["text_raw"] == "租特法本文"
+    # every record carries a non-empty embed_text
+    assert all((r.get("embed_text") or "").strip() for r in recs)
+    assert summary["embed_text_empty"] == 0
     # C-1: kou に項柱書
     kou = next(r for r in recs if r["chunk_id"] == "c-art-1-p1-kou-1")
     assert kou["context_prefix"] == "項柱書"
@@ -240,5 +265,42 @@ def test_build_integration(tmp_path, monkeypatch):
     # KFS
     kfs = next(r for r in recs if r["chunk_id"] == "ntt-1")
     assert kfs["text"] == "名\n要旨" and kfs["layer"] == "ruling"
+    assert kfs.get("embed_text")  # K-1: non-empty embed_text
     assert summary["kfs_records"] == 1
     assert summary["id_collisions_uniqueized"] == 1
+
+
+# ---- v7 parity gate ----
+
+
+def test_verify_parity_detects_recipe_drift(tmp_path):
+    v6 = tmp_path / "v6.jsonl"
+    _write(
+        v6,
+        [
+            {"chunk_id": "x", "text": "AUG-X"},
+            {"chunk_id": "y", "text": "AUG-Y"},
+            {"chunk_id": "dup", "text": "A"},
+            {"chunk_id": "dup", "text": "B"},  # collision: v6 keeps a SET
+        ],
+    )
+    v8 = tmp_path / "v8.jsonl"
+    _write(
+        v8,
+        [
+            {"chunk_id": "x", "chunk_id_orig": "x", "embed_text": "AUG-X"},  # match
+            {"chunk_id": "y", "chunk_id_orig": "y", "embed_text": "WRONG"},  # mismatch
+            {"chunk_id": "dup", "chunk_id_orig": "dup", "embed_text": "B"},  # dup-safe match
+            {  # v8-only sub-chunk: excluded
+                "chunk_id": "x-sub1",
+                "chunk_id_orig": "x",
+                "subchunk_of": "x",
+                "embed_text": "AUG-X piece",
+            },
+            {"chunk_id": "z", "chunk_id_orig": "z", "embed_text": "new"},  # new corpus: excluded
+        ],
+    )
+    res = V.verify_parity(v8, v6)
+    assert res["n_common"] == 3  # x, y, dup (sub + z excluded)
+    assert res["n_mismatch"] == 1  # only y
+    assert res["examples"][0]["chunk_id"] == "y"
