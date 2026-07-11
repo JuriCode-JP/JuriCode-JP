@@ -127,12 +127,12 @@ def _dense_top(query_matrix, matrix) -> np.ndarray:
     return dense_top
 
 
-def _hybrid_top(questions, dense_top, corpus_path: Path) -> np.ndarray:
+def _hybrid_top(questions, dense_top, corpus_path: Path, result_k: int = TOP_K) -> np.ndarray:
     index_info, tfidf_matrix, _ = R.build_tfidf_index(corpus_path)
     _bm25_sims, bm25_top = R.bm25_topk_per_query(
         questions, index_info, tfidf_matrix, CANDIDATE_POOL
     )
-    return R.rrf_combine_per_query(dense_top[:, :CANDIDATE_POOL], bm25_top, TOP_K, k_rrf=RRF_K)
+    return R.rrf_combine_per_query(dense_top[:, :CANDIDATE_POOL], bm25_top, result_k, k_rrf=RRF_K)
 
 
 def _rows_for(top_idx, match_keys, expected_per_query) -> list[dict]:
@@ -184,7 +184,19 @@ def main() -> int:
         default="v8",
         help="label for the v8 index in the txt summary (e.g. v8b)",
     )
+    ap.add_argument(
+        "--dedup",
+        action="store_true",
+        help="apply production article_id dedup (R.dedup_by_article) before top-K",
+    )
+    ap.add_argument(
+        "--dedup-raw",
+        action="store_true",
+        help="dedup on raw article_id (None-collapsed) instead of the chunk_id fallback; "
+        "reproduces the build/_a3_probe.py key rule (diagnostic parity check only)",
+    )
     args = ap.parse_args()
+    dedup = args.dedup
     v8_prefix = Path(args.v8_prefix)
     v8_label = args.v8_label
 
@@ -210,6 +222,7 @@ def main() -> int:
     v8_matrix, v8_records, v8_state = R._load_artefacts(v8_prefix)
     v8_aids, v8_cids = _present_ids(v8_records)
     v8_keys = _match_keys(v8_records)
+    v8_art = [r.get("article_id") for r in v8_records]  # raw article_id (probe-parity key)
     # layer/corpus_group aligned to v8 records (row order verified == corpus order)
     v8_layers = []
     v8_groups = []
@@ -227,6 +240,7 @@ def main() -> int:
     v7_matrix, v7_records, _v7_state = R._load_artefacts(V7_PREFIX)
     v7_aids, _v7_cids = _present_ids(v7_records)
     v7_keys = _match_keys(v7_records)
+    v7_art = [r.get("article_id") for r in v7_records]  # raw article_id (probe-parity key)
 
     both_aids = v7_aids & v8_aids
 
@@ -268,6 +282,7 @@ def main() -> int:
             "rrf_k": RRF_K,
             "embedding_model": v8_state.get("model"),
             "v8_index": v8_prefix.name,
+            "dedup": dedup,
             "reproduce": [
                 "python tools/embed/a3_contamination_eval.py",
                 "# dense: cosine top-60 pool; hybrid: BM25 char2-3gram RRF(k=60); top_k=20",
@@ -292,10 +307,20 @@ def main() -> int:
     }
 
     # ---- retrieve + score both indices on the adopted main eval ----
-    def score_index(name, matrix, keys, corpus_path):
+    def score_index(name, matrix, keys, corpus_path, dedup_keys):
         dense_top = _dense_top(adopted_emb, matrix)
-        dense_rows = _rows_for(dense_top, keys, adopted_gold)
-        hyb_top = _hybrid_top(adopted_questions, dense_top, corpus_path)
+        if dedup:
+            # production dedup path: R.dedup_by_article on the wide pool.
+            # dedup_keys = fallback ids (chunk_id) by default, raw article_id with --dedup-raw.
+            dense_final = R.dedup_by_article(dense_top, dedup_keys, TOP_K)
+            hyb_wide = _hybrid_top(
+                adopted_questions, dense_top, corpus_path, result_k=CANDIDATE_POOL
+            )
+            hyb_top = R.dedup_by_article(hyb_wide, dedup_keys, TOP_K)
+        else:
+            dense_final = dense_top
+            hyb_top = _hybrid_top(adopted_questions, dense_top, corpus_path)
+        dense_rows = _rows_for(dense_final, keys, adopted_gold)
         hyb_rows = _rows_for(hyb_top, keys, adopted_gold)
         out = {
             "dense": {"overall": _aggregate(dense_rows), "by_law": {}},
@@ -307,11 +332,15 @@ def main() -> int:
             out["hybrid"]["by_law"][law] = _aggregate([hyb_rows[i] for i in sel])
         return out, dense_top, hyb_top
 
+    v7_dedup_keys = v7_art if args.dedup_raw else v7_keys
+    v8_dedup_keys = v8_art if args.dedup_raw else v8_keys
     print("Scoring v7 (main eval) ...", file=sys.stderr)
-    v7_score, _v7d, _v7h = score_index("v7", v7_matrix, v7_keys, V7_CORPUS)
+    v7_score, _v7d, _v7h = score_index("v7", v7_matrix, v7_keys, V7_CORPUS, v7_dedup_keys)
     del v7_matrix
     print("Scoring v8 (main eval) ...", file=sys.stderr)
-    v8_score, _v8_dense_top, v8_hyb_top = score_index("v8", v8_matrix, v8_keys, V8_CORPUS)
+    v8_score, _v8_dense_top, v8_hyb_top = score_index(
+        "v8", v8_matrix, v8_keys, V8_CORPUS, v8_dedup_keys
+    )
 
     def _delta(a, b):
         return {
@@ -357,8 +386,17 @@ def main() -> int:
             sel_q = [qs[j]["question"] for j in sel_idx]
             sel_gold = [p for _, p in adopted_n]
             d_top = _dense_top(sel_emb, v8_matrix)
-            d_rows = _rows_for(d_top, v8_keys, sel_gold)
-            h_top = _hybrid_top(sel_q, d_top, V8_CORPUS)
+            if dedup:
+                d_final = R.dedup_by_article(d_top, v8_dedup_keys, TOP_K)
+                h_top = R.dedup_by_article(
+                    _hybrid_top(sel_q, d_top, V8_CORPUS, result_k=CANDIDATE_POOL),
+                    v8_dedup_keys,
+                    TOP_K,
+                )
+            else:
+                d_final = d_top
+                h_top = _hybrid_top(sel_q, d_top, V8_CORPUS)
+            d_rows = _rows_for(d_final, v8_keys, sel_gold)
             h_rows = _rows_for(h_top, v8_keys, sel_gold)
             nl = {"dense": _aggregate(d_rows), "hybrid": _aggregate(h_rows)}
         else:
