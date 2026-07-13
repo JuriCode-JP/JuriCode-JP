@@ -131,7 +131,14 @@ def _table_unit(ts: Any) -> Unit:
 
 
 def _walk_item(elem: Any) -> list[Unit]:
-    """Item / SubitemN を文書順に unit 化 (テキスト抽出は extract_all_text に委譲)."""
+    """Item / SubitemN を文書順に unit 化 (テキスト抽出は extract_all_text に委譲).
+
+    Why 号番号 (ItemTitle「一」「イ」) を比較対象テキストに含めるか (format-spec §5.2):
+    項番号 (ParagraphNum) は md の見出し `### 第N条第K項` に構造として写像されるので
+    本文比較から外すが、**号番号は本文行の一部として原文どおり書く**のが案A の規約。
+    よって XML 側の号 unit も「番号 ＋ 本文」で比較しないと、md 側の番号が「過剰」に
+    見えてしまう。
+    """
     tag = elem.tag
     kind = "item" if tag == "Item" else "subitem"
     title_tag, sent_tag = f"{tag}Title", f"{tag}Sentence"
@@ -142,7 +149,8 @@ def _walk_item(elem: Any) -> list[Unit]:
         if ct == title_tag:
             title = extract_all_text(child).strip()
         elif ct == sent_tag:
-            units.append(Unit(kind, extract_all_text(child), {"title": title}))
+            body = extract_all_text(child)
+            units.append(Unit(kind, f"{title}{body}" if title else body, {"title": title}))
         elif ct == "TableStruct":
             units.append(_table_unit(child))
         elif ct == "List":
