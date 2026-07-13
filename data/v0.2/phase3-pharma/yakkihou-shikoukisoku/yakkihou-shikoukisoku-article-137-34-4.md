@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-34-4-p1
+    type: simple
+    text: 法第二十三条の二十五条第一項の承認を受けた者は、当該再生医療等製品の製造業者に対し、法第二十三条の二十五の二において準用する法第十四条の二第二項の調査に関し報告又は資料の提出を求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-34-4-p2
+    type: simple
+    text: 前項の規定により報告又は資料の提出を求められた者は、遅滞なく、これを報告し、又は提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

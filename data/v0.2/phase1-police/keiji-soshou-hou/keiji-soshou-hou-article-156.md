@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百五十六条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-156-p1 -->
 証人には、その実験した事実により推測した事項を供述させることができる。
 
 ### 第百五十六条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-156-p2 -->
 前項の供述は、鑑定に属するものでも、証言としての効力を妨げられない。

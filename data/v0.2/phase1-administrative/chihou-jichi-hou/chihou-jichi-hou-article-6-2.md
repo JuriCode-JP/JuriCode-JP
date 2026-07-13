@@ -16,27 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-6-2-p1
+    type: simple
+    text: 前条第一項の規定によるほか、二以上の都道府県の廃止及びそれらの区域の全部による一の都道府県の設置又は都道府県の廃止及びその区域の全部の他の一の都道府県の区域への編入は、関係都道府県の申請に基づき、内閣が国会の承認を経てこれを定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-6-2-p2
+    type: simple
+    text: 前項の申請については、関係都道府県の議会の議決を経なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-6-2-p3
+    type: simple
+    text: 第一項の申請は、総務大臣を経由して行うものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-6-2-p4
+    type: simple
+    text: 第一項の規定による処分があつたときは、総務大臣は、直ちにその旨を告示しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-6-2-p5
+    type: simple
+    text: 第一項の規定による処分は、前項の規定による告示によりその効力を生ずる。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -59,9 +59,6 @@ parent_section:
 
 ### 第七十三条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-73-p1 -->
-<!-- segment: simple id: keisatsu-hou-art-73-p2 -->
-<!-- segment: simple id: keisatsu-hou-art-73-p3 -->
 第七十一条に規定する緊急事態の布告が発せられたときは、長官は布告に記載された区域（以下本条中「布告区域」という。）を管轄する都道府県警察の警視総監又は警察本部長に対し、管区警察局長は布告区域を管轄する府県警察の警察本部長に対し、必要な命令をし、又は指揮をするものとする。
 
 ### 第七十三条第二項

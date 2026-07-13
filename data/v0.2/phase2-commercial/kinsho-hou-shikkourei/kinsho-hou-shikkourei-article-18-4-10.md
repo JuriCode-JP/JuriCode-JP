@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-10-p1
+    type: simple
+    text: 法第六十六条の五十三第七号に規定する政令で定める金額は、零とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -30,6 +30,16 @@ paragraphs:
     type: hashira
     text: 発起人は、次の各号に掲げる場合には、当該各号に定める事項を記載し、又は記録した書面又は電磁的記録を創立総会に提出し、又は提供しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-87-p2-kou-1
+    type: kou
+    text: 定款に第二十八条各号に掲げる事項（第三十三条第十項各号に掲げる場合における当該各号に定める事項を除く。）の定めがある場合　第三十三条第二項の検査役の同条第四項の報告の内容
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-87-p2-kou-2
+    type: kou
+    text: 第三十三条第十項第三号に掲げる場合　同号に規定する証明の内容
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -52,10 +62,12 @@ parent_section:
 
 ### 第八十七条第一項
 
-<!-- segment: simple id: kaisha-hou-art-87-p1 -->
 発起人は、株式会社の設立に関する事項を創立総会に報告しなければならない。
 
 ### 第八十七条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-87-p2-hashira -->
 発起人は、次の各号に掲げる場合には、当該各号に定める事項を記載し、又は記録した書面又は電磁的記録を創立総会に提出し、又は提供しなければならない。
+
+一　定款に第二十八条各号に掲げる事項（第三十三条第十項各号に掲げる場合における当該各号に定める事項を除く。）の定めがある場合　第三十三条第二項の検査役の同条第四項の報告の内容
+
+二　第三十三条第十項第三号に掲げる場合　同号に規定する証明の内容

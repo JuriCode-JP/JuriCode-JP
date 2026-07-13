@@ -72,21 +72,16 @@ parent_section:
 
 ### 第七十九条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-79-p1 -->
 国税不服審判所に国税審判官及び国税副審判官を置く。
 
 ### 第七十九条第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-79-p2 -->
 国税審判官は、国税不服審判所長に対してされた審査請求に係る事件の調査及び審理を行ない、国税副審判官は、国税審判官の命を受け、その事務を整理する。
 
 ### 第七十九条第三項
 
-<!-- segment: honbun id: kokuzei-tsuusoku-hou-art-79-p3-honbun -->
-国税副審判官のうち国税不服審判所長の指名する者は、国税審判官の職務を行なうことができる。<!-- segment: tadashi id: kokuzei-tsuusoku-hou-art-79-p3-tadashi -->
-ただし、この法律において担当審判官の職務とされているものについては、この限りでない。
+国税副審判官のうち国税不服審判所長の指名する者は、国税審判官の職務を行なうことができる。ただし、この法律において担当審判官の職務とされているものについては、この限りでない。
 
 ### 第七十九条第四項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-79-p4 -->
 国税審判官の資格は、政令で定める。

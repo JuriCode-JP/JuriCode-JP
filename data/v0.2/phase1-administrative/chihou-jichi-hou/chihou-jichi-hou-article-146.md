@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百四十六条
 
-<!-- segment: simple id: chihou-jichi-hou-art-146-p1 -->
 削除

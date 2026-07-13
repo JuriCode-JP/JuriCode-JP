@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十五条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-35-p1 -->
 官職に欠員を生じた場合においては、その任命権者は、法律又は人事院規則に別段の定のある場合を除いては、採用、昇任、降任又は転任のいずれか一の方法により、職員を任命することができる。但し、人事院が特別の必要があると認めて任命の方法を指定した場合は、この限りではない。

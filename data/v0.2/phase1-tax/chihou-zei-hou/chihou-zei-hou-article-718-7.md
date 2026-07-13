@@ -16,32 +16,73 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-7-p1
+    type: simple
+    text: 市町村は、当該年度の初日の属する年の前年の十月一日からその翌年の三月三十一日までの間における特別徴収対象年金給付の支払の際、第七百六条第二項及び第三項の規定により第七百十八条の三第二項（前条において準用する場合を含む。）に規定する支払回数割保険税額を徴収されていた特別徴収対象被保険者について、当該支払回数割保険税額の徴収に係る特別徴収対象年金給付が当該年度の初日からその日の属する年の九月三十日までの間において支払われる場合においては、その支払に係る国民健康保険税額として、当該支払回数割保険税額に相当する額を、総務省令で定めるところにより、特別徴収の方法によつて徴収するものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-7-p2
+    type: tokusoku
+    text: 市町村は、前項に規定する特別徴収対象被保険者について、当該年度の初日の属する年の六月一日から九月三十日までの間において、同項に規定する支払回数割保険税額に相当する額を徴収することが適当でないと認められる特別な事情がある場合においては、同項の規定にかかわらず、それぞれの支払に係る国民健康保険税額として、所得の状況その他の事情を勘案して市町村が定める額を、総務省令で定めるところにより、特別徴収の方法によつて徴収することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-7-p3
+    type: simple
+    text: 第七百十八条の三第一項、第七百十八条の四及び第七百十八条の五の規定は、前二項の規定による特別徴収についてそれぞれ準用する。この場合における読替えは次の表のとおりとするほか、これらの規定に関し必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-7-p4
+    type: simple
+    text: 市町村は、前項において準用する第七百十八条の三第一項の規定による年金保険者又は特別徴収対象被保険者に対する通知については、当該年度の前年度分の国民健康保険税に係る第七百十八条の三第一項（前条において準用する場合を含む。）の規定による年金保険者又は特別徴収対象被保険者に対する通知とそれぞれ併せて行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-7-p5
+    type: simple
+    text: 当該年度の初日からその日の属する年の九月三十日までの間において第一項又は第二項の規定による特別徴収が行われた特別徴収対象被保険者について、第七百六条第二項の規定の適用がある場合における第七百十八条の三から第七百十八条の五までの規定の適用については、第七百十八条の三第二項中「という。）」とあるのは、「という。）から、第七百十八条の七第一項又は第二項の規定により当該年度の初日からその日の属する年の九月三十日までの間に徴収された額の合計額を控除して得た額」とする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-7-p6
+    type: simple
+    text: 当該年度の初日の属する年の前年の十月一日からその翌年の三月三十一日までの間において、第七百六条第二項又は第三項の規定により前項の規定により読み替えて適用される第七百十八条の三第二項に規定する支払回数割保険税額を徴収する場合における第一項の規定の適用については、同項中「第七百十八条の三第二項（前条において準用する場合を含む。）」とあるのは、「第五項の規定により読み替えて適用される第七百十八条の三第二項」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

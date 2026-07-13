@@ -52,11 +52,8 @@ parent_section:
 
 ### 第八条第一項
 
-<!-- segment: honbun id: kinsho-kachoukin-furei-art-8-p1-honbun -->
-未成年者及び成年被後見人は、法定代理人によらなければ、審判手続上の行為をすることができない。<!-- segment: tadashi id: kinsho-kachoukin-furei-art-8-p1-tadashi -->
-ただし、未成年者が独立して法律行為をすることができる場合は、この限りでない。
+未成年者及び成年被後見人は、法定代理人によらなければ、審判手続上の行為をすることができない。ただし、未成年者が独立して法律行為をすることができる場合は、この限りでない。
 
 ### 第八条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-8-p2 -->
 法定代理権は、書面で証明しなければならない。

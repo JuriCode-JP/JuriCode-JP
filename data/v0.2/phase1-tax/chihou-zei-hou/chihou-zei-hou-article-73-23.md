@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-23-p1
+    type: simple
+    text: 道府県知事が市町村長に対し、固定資産課税台帳その他不動産取得税の課税標準となるべき不動産の価格の決定について参考となるべき帳簿書類を閲覧し、又は記録することを請求した場合においては、市町村長は、関係帳簿書類を道府県知事又はその指定する職員に閲覧させ、又は記録させるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

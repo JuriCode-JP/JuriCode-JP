@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-10-p1
+    type: simple
+    text: 市町村の徴税吏員は、前条第一項から第三項までの規定による更正又は決定があつた場合において、不足金額（更正による納入金の不足額又は決定による納入金額をいう。以下入湯税について同じ。）があるときは、同条第四項の通知をした日から一月を経過した日を納期限として、これを徴収しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-10-p2
+    type: simple
+    text: 前項の場合においては、その不足金額に第七百一条の四第二項の納期限（納期限の延長があつたときは、その延長された納期限とする。以下入湯税について同じ。）の翌日から納入の日までの期間の日数に応じ、年十四・六パーセント（前項の納期限までの期間又は当該納期限の翌日から一月を経過する日までの期間については、年七・三パーセント）の割合を乗じて計算した金額に相当する延滞金額を加算して徴収しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-10-p3
+    type: simple
+    text: 市町村長は、特別徴収義務者が前条第一項又は第二項の規定による更正又は決定を受けたことについてやむを得ない理由があると認める場合においては、前項の延滞金額を減免することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

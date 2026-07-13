@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百七十七条
 
-<!-- segment: simple id: minpou-art-677-p1 -->
 組合員の債権者は、組合財産についてその権利を行使することができない。

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-14-p1
+    type: simple
+    text: 公安委員会は、店舗型電話異性紹介営業を営む者又はその代理人等が、当該営業に関し、この法律又はこの法律に基づく命令若しくは条例の規定（前条第一項において準用する第二十八条第一項の規定又は前条第一項において準用する第二十八条第二項の規定に基づく条例の規定を除く。）に違反したときは、当該店舗型電話異性紹介営業を営む者に対し、善良の風俗若しくは清浄な風俗環境を害する行為又は少年の健全な育成に障害を及ぼす行為を防止するため必要な指示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

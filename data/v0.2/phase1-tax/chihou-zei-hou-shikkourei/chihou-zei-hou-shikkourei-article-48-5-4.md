@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-5-4-p1
+    type: junyou
+    text: 第七条の十二第一項の規定は、法第三百十四条第一項各号に規定する政令で定める金額について準用する。この場合において、第七条の十二第一項第一号中「第三十三条第一項」とあるのは、「第三百十四条第一項」と読み替えるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-5-4-p2
+    type: junyou
+    text: 次条の規定は、法第三百十四条第五項に規定する政令で定める親族について準用する。この場合において、次条第一項中「納税義務者の」とあるのは「納税義務者と生計を一にする」と、「する。」とあるのは「する。この場合において、納税義務者と生計を一にする配偶者その他の親族に該当するかどうかの判定は、法第三百十四条第五項の特定非常災害が発生した日の現況による。」と、同条第二項中「第三百十四条の二第一項（第一号に係る部分に限る。）」とあるのは「第三百十四条第四項」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 次条
+    references:
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-5-4-p3
+    type: simple
+    text: 法第三百十四条第五項に規定するやむを得ない支出で政令で定めるものは、第四十八条の六の二第一項第一号から第三号までに掲げる支出とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百三十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-438-p1 -->
 再審の請求は、原判決をした裁判所がこれを管轄する。

@@ -46,10 +46,8 @@ parent_section:
 
 ### 第四百六十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-460-p1 -->
 裁判所は、申立書に包含された事項に限り、調査をしなければならない。
 
 ### 第四百六十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-460-p2 -->
 裁判所は、裁判所の管轄、公訴の受理及び訴訟手続に関しては、事実の取調をすることができる。この場合には、第三百九十三条第三項の規定を準用する。

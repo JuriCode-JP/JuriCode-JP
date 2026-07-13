@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-7-p1
+    type: simple
+    text: 人事院は、内閣総理大臣又は関係庁の長に対し、人事院規則の定めるところにより、前条第一項の計画に基づく研修の実施状況について報告を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-7-p2
+    type: simple
+    text: 人事院は、内閣総理大臣又は関係庁の長が法令に違反して前条第一項の計画に基づく研修を行つた場合には、その是正のため必要な指示を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十条の五
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-10-5-p1 -->
 法第七十二条の二第一項第一号ロ（１）に規定する払込資本の額のうち政令で定める額は、第十条の二に規定する総務省令で定める金額とする。

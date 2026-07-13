@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五百五十七条
 
-<!-- segment: junyou id: shouhou-art-557-p1 applies_provisions: 第三十一条 -->
 第二十七条及び第三十一条の規定は、問屋について準用する。

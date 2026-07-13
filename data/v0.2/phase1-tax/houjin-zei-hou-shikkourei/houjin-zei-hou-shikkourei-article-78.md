@@ -45,5 +45,4 @@ parent_section:
 
 ### 第七十八条
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-78-p1 -->
 法第三十七条第七項（寄附金の意義）に規定する寄附金の支出は、各事業年度の所得の金額の計算については、その支払がされるまでの間、なかつたものとする。

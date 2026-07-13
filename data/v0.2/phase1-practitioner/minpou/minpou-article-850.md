@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八百五十条
 
-<!-- segment: simple id: minpou-art-850-p1 -->
 後見人の配偶者、直系血族及び兄弟姉妹は、後見監督人となることができない。

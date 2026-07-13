@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百八十二条
 
-<!-- segment: simple id: minpou-art-782-p1 -->
 成年の子は、その承諾がなければ、これを認知することができない。

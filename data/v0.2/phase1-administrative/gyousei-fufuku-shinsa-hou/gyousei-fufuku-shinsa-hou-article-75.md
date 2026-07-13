@@ -56,11 +56,8 @@ parent_section:
 
 ### 第七十五条第一項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-75-p1-honbun -->
-審査会は、審査関係人の申立てがあった場合には、当該審査関係人に口頭で意見を述べる機会を与えなければならない。<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-75-p1-tadashi -->
-ただし、審査会が、その必要がないと認める場合には、この限りでない。
+審査会は、審査関係人の申立てがあった場合には、当該審査関係人に口頭で意見を述べる機会を与えなければならない。ただし、審査会が、その必要がないと認める場合には、この限りでない。
 
 ### 第七十五条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-75-p2 -->
 前項本文の場合において、審査請求人又は参加人は、審査会の許可を得て、補佐人とともに出頭することができる。

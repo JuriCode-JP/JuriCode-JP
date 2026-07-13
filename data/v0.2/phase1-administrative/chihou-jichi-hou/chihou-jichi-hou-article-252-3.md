@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-3-p1
+    type: simple
+    text: 普通地方公共団体の協議会は、会長及び委員をもつてこれを組織する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-3-p2
+    type: simple
+    text: 普通地方公共団体の協議会の会長及び委員は、規約の定めるところにより常勤又は非常勤とし、関係普通地方公共団体の職員のうちから、これを選任する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-3-p3
+    type: simple
+    text: 普通地方公共団体の協議会の会長は、普通地方公共団体の協議会の事務を掌理し、協議会を代表する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

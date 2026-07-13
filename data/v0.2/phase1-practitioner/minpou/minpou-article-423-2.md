@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-423-2-p1
+    type: simple
+    text: 債権者は、被代位権利を行使する場合において、被代位権利の目的が可分であるときは、自己の債権の額の限度においてのみ、被代位権利を行使することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

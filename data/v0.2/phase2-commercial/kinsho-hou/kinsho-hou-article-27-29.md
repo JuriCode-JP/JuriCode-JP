@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-29-p1
+    type: junyou
+    text: 第九条第一項及び第十条第一項の規定は、大量保有報告書及び変更報告書について準用する。この場合において、同項中「提出を命じ、必要があると認めるときは、第四条第一項から第三項までの規定による届出の効力の停止」とあるのは、「提出」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-29-p2
+    type: junyou
+    text: 前二条の規定は、前項において準用する第九条第一項又は第十条第一項の規定により大量保有報告書又は変更報告書につき訂正報告書が提出された場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 前二条
+    references:
+    - 前二条
+    - 前項
 cases: []
 amendments: []
 tags:

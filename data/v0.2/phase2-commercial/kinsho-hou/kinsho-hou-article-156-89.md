@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-89-p1
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、特定金融指標算出者若しくは当該特定金融指標算出者から特定金融指標算出業務の委託を受けた者（その者から委託（二以上の段階にわたる委託を含む。）を受けた者を含む。以下この項において同じ。）に対し、当該特定金融指標算出業務に関し参考となるべき報告若しくは資料の提出を命じ、又は当該職員に当該特定金融指標算出者若しくは当該特定金融指標算出者から特定金融指標算出業務の委託を受けた者の業務の状況若しくは帳簿書類その他の物件の検査（当該特定金融指標算出業務に関し必要な検査に限る。）をさせることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-89-p2
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、特定金融指標算出者に対して提供された算出基礎情報の正確性の確認に必要と認められる限りにおいて、その情報提供者に対し、当該算出基礎情報に関し参考となるべき報告若しくは資料の提出を命じ、又は当該職員に当該情報提供者の業務の状況若しくは帳簿書類その他の物件の検査をさせることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

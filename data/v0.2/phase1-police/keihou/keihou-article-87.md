@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八十七条
 
-<!-- segment: simple id: keihou-art-87-p1 -->
 第八十一条及び第八十二条の罪の未遂は、罰する。

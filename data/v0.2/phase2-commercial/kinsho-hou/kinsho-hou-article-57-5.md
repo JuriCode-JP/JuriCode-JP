@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-5-p1
+    type: simple
+    text: 内閣総理大臣は、特別金融商品取引業者の業務の健全かつ適切な運営に資するため、特別金融商品取引業者がその経営の健全性を判断するための基準として、当該特別金融商品取引業者及びその子法人等の保有する資産等に照らし当該特別金融商品取引業者及びその子法人等の自己資本の充実の状況が適当であるかどうかの基準その他の当該特別金融商品取引業者及びその子法人等における経営の健全性の状況を表示する基準を定めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-5-p2
+    type: simple
+    text: 特別金融商品取引業者は、届出日から起算して政令で定める期間が経過した日の属する四半期以降、四半期ごとに、内閣府令で定めるところにより、当該四半期の末日における前項に規定する基準を用いて表示される経営の健全性の状況（次項及び次条において単に「経営の健全性の状況」という。）を記載した書面を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 次条
+    - 次項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-5-p3
+    type: simple
+    text: 特別金融商品取引業者は、届出日から起算して政令で定める期間が経過した日の属する四半期以降、四半期ごとに、当該四半期の末日から起算して政令で定める期間を経過した日から三月間、内閣府令で定めるところにより、経営の健全性の状況を記載した書面をすべての営業所又は事務所に備え置き、公衆の縦覧に供しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-26-p1
+    type: simple
+    text: 道府県は、前条第一項の規定により徴収猶予をした場合において、当該徴収猶予に係る不動産取得税について第七十三条の二十四第一項第一号、第二項第一号若しくは第三項の規定の適用がないことが明らかとなつたとき、又は徴収猶予の事由の一部に変更があることが明らかとなつたときは、当該徴収猶予をした税額の全部又は一部についてその徴収猶予を取り消し、これを直ちに徴収することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-26-p2
+    type: junyou
+    text: 第十五条の三第三項の規定は、前項の規定による徴収猶予の取消しについて準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-5-p1
+    type: simple
+    text: 財産区は、その財産又は公の施設の管理及び処分又は廃止については、その住民の福祉を増進するとともに、財産区のある市町村又は特別区の一体性をそこなわないように努めなければならない。
+    modality: doryoku_gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-5-p2-zen
+    type: zen_dan
+    text: 財産区のある市町村又は特別区は、財産区と協議して、当該財産区の財産又は公の施設から生ずる収入の全部又は一部を市町村又は特別区の事務に要する経費の一部に充てることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-296-5-p2-kou
+    type: kou_dan
+    text: この場合においては、当該市町村又は特別区は、その充当した金額の限度において、財産区の住民に対して不均一の課税をし、又は使用料その他の徴収金について不均一の徴収をすることができる。
+    modality: kanou_kenri
+    depends_on: chihou-jichi-hou-art-296-5-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-5-p3
+    type: simple
+    text: 前項前段の協議をしようとするときは、財産区は、予めその議会若しくは総会の議決を経、又は財産区管理会の同意を得なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

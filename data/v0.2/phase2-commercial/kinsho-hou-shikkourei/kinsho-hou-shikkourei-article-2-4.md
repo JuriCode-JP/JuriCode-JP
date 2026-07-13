@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-2-4-p1
+    type: simple
+    text: 法第二条の三第四項第一号に規定する政令で定める場合は、組織再編成対象会社株主等（同号に規定する組織再編成対象会社株主等をいう。次条から第二条の七までにおいて同じ。）が五十名以上である場合とする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

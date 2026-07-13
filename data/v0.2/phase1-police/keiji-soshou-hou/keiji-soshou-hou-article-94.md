@@ -57,15 +57,12 @@ parent_section:
 
 ### 第九十四条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-94-p1 -->
 保釈を許す決定は、保証金の納付があつた後でなければ、これを執行することができない。
 
 ### 第九十四条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-94-p2 -->
 裁判所は、保釈請求者でない者に保証金を納めることを許すことができる。
 
 ### 第九十四条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-94-p3 -->
 裁判所は、有価証券又は裁判所の適当と認める被告人以外の者の差し出した保証書を以て保証金に代えることを許すことができる。

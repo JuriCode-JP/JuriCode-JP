@@ -13,25 +13,59 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-46-8-7-p1-hashira
+    type: hashira
+    text: 法第八十七条の六第三項本文の承認及び徴収に係る税関長の権限並びに同項本文の規定により直ちに徴収する酒税に関する法令の規定に基づく税関長の権限は、次の各号に掲げる権限の区分に応じ、当該各号に定める税関官署の長に委任されるものとする。ただし、国税通則法第四十五条第一項の規定により読み替えて適用する同法第四十条並びに同法第四十三条第四項及び第五項の規定に基づく税関長の権限については、税関長が自ら行うことを妨げない。
+    modality: jogai
+    references:
+    - 同項
+  - id: sochi-hou-shikkourei-art-46-8-7-p1-kou-1
+    type: kou
+    text: 法第八十七条の六第三項本文の承認及び徴収に係る税関長の権限並びに同項本文の規定により直ちに徴収する酒税に関する国税通則法第三十三条第三項の規定により読み替えて適用する同法第三十二条第一項から第四項まで、同法第三十三条第四項、同法第四十五条第一項の規定により読み替えて適用する同法第三十六条、第三十八条第一項及び第二項並びに第四十条並びに同法第四十三条第一項ただし書、第四項及び第五項の規定に基づく税関長の権限（以下この項においてこれらの権限を「税関長権限」という。）（次号の規定により同号に定める税関官署の長に委任されるものを除く。）　当該税関長権限に係る処分の対象となる事項を所轄する税関支署
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-46-8-7-p1-kou-2
+    type: kou
+    text: 税関長権限　当該税関長権限に係る処分の対象となる事項を税関長が定めるところに従つて所轄する税関出張所、税関支署出張所並びに税関長が指定する税関監視署及び税関支署監視署
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-46-8-7-p2
+    type: simple
+    text: 税関長は、必要があると認めるときは、前項各号の規定により当該各号に定める税関官署の長に委任される権限の範囲を制限することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-46-8-7-p3
+    type: simple
+    text: 税関長は、第一項第二号に定める税関官署の管轄を定め、若しくは同号の指定をし、又は前項の規定により税関官署の長に委任される権限の範囲を制限したときは、これらの内容を公告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-46-8-7-p4
+    type: simple
+    text: 第一項ただし書の規定により同項ただし書に規定する権限について税関長が自ら行うこととした場合には、当該税関長は、遅滞なく、その旨を納税義務者に通知するものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -49,6 +83,10 @@ parent_section:
 ### 第四十六条の八の七第一項
 
 法第八十七条の六第三項本文の承認及び徴収に係る税関長の権限並びに同項本文の規定により直ちに徴収する酒税に関する法令の規定に基づく税関長の権限は、次の各号に掲げる権限の区分に応じ、当該各号に定める税関官署の長に委任されるものとする。ただし、国税通則法第四十五条第一項の規定により読み替えて適用する同法第四十条並びに同法第四十三条第四項及び第五項の規定に基づく税関長の権限については、税関長が自ら行うことを妨げない。
+
+一　法第八十七条の六第三項本文の承認及び徴収に係る税関長の権限並びに同項本文の規定により直ちに徴収する酒税に関する国税通則法第三十三条第三項の規定により読み替えて適用する同法第三十二条第一項から第四項まで、同法第三十三条第四項、同法第四十五条第一項の規定により読み替えて適用する同法第三十六条、第三十八条第一項及び第二項並びに第四十条並びに同法第四十三条第一項ただし書、第四項及び第五項の規定に基づく税関長の権限（以下この項においてこれらの権限を「税関長権限」という。）（次号の規定により同号に定める税関官署の長に委任されるものを除く。）　当該税関長権限に係る処分の対象となる事項を所轄する税関支署
+
+二　税関長権限　当該税関長権限に係る処分の対象となる事項を税関長が定めるところに従つて所轄する税関出張所、税関支署出張所並びに税関長が指定する税関監視署及び税関支署監視署
 
 ### 第四十六条の八の七第二項
 

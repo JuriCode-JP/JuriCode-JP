@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する者は、二十万円以下の過料に処する。
     modality: gimu_kei
+  - id: yakkihou-art-91-p1-kou-1
+    type: kou
+    text: 第二十三条の八の二第二項の規定による届出をせず、又は虚偽の届出をした者
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-91-p1-kou-2
+    type: kou
+    text: 第二十三条の十七第一項の規定に違反して財務諸表等を備えて置かず、財務諸表等に記載すべき事項を記載せず、若しくは虚偽の記載をし、又は正当な理由がないのに同条第二項の規定による請求を拒んだ者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第九十一条
 
-<!-- segment: hashira id: yakkihou-art-91-p1-hashira -->
 次の各号のいずれかに該当する者は、二十万円以下の過料に処する。
+
+一　第二十三条の八の二第二項の規定による届出をせず、又は虚偽の届出をした者
+
+二　第二十三条の十七第一項の規定に違反して財務諸表等を備えて置かず、財務諸表等に記載すべき事項を記載せず、若しくは虚偽の記載をし、又は正当な理由がないのに同条第二項の規定による請求を拒んだ者

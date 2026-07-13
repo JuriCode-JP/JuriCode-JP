@@ -54,11 +54,8 @@ parent_section:
 
 ### 第二百十七条第一項
 
-<!-- segment: honbun id: chihou-jichi-hou-art-217-p1-honbun -->
-予算外の支出又は予算超過の支出に充てるため、歳入歳出予算に予備費を計上しなければならない。<!-- segment: tadashi id: chihou-jichi-hou-art-217-p1-tadashi -->
-ただし、特別会計にあつては、予備費を計上しないことができる。
+予算外の支出又は予算超過の支出に充てるため、歳入歳出予算に予備費を計上しなければならない。ただし、特別会計にあつては、予備費を計上しないことができる。
 
 ### 第二百十七条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-217-p2 -->
 予備費は、議会の否決した費途に充てることができない。

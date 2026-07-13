@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百八十二条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-282-p1 -->
 令別表第一機械器具の項第八十四号に規定する附属品は、別表第六のとおりとする。

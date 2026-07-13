@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる否認権の行使に係る嫡出否認の訴えは、それぞれ当該各号に定める時から三年以内に提起しなければならない。
     modality: gimu
+  - id: minpou-art-777-p1-kou-1
+    type: kou
+    text: 父の否認権　父が子の出生を知った時
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-777-p1-kou-2
+    type: kou
+    text: 子の否認権　その出生の時
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-777-p1-kou-3
+    type: kou
+    text: 母の否認権　子の出生の時
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-777-p1-kou-4
+    type: kou
+    text: 前夫の否認権　前夫が子の出生を知った時
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -41,5 +61,12 @@ parent_section:
 
 ### 第七百七十七条
 
-<!-- segment: hashira id: minpou-art-777-p1-hashira -->
 次の各号に掲げる否認権の行使に係る嫡出否認の訴えは、それぞれ当該各号に定める時から三年以内に提起しなければならない。
+
+一　父の否認権　父が子の出生を知った時
+
+二　子の否認権　その出生の時
+
+三　母の否認権　子の出生の時
+
+四　前夫の否認権　前夫が子の出生を知った時

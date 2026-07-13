@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百十四条
 
-<!-- segment: simple id: shouhou-art-514-p1 -->
 削除

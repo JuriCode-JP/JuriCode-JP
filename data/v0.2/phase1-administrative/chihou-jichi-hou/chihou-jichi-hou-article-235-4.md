@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-235-4-p1
+    type: simple
+    text: 普通地方公共団体の歳入歳出に属する現金（以下「歳計現金」という。）は、政令の定めるところにより、最も確実かつ有利な方法によりこれを保管しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-235-4-p2
+    type: simple
+    text: 債権の担保として徴するもののほか、普通地方公共団体の所有に属しない現金又は有価証券は、法律又は政令の規定によるのでなければ、これを保管することができない。
+    modality: kanou_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-235-4-p3
+    type: simple
+    text: 法令又は契約に特別の定めがあるものを除くほか、普通地方公共団体が保管する前項の現金（以下「歳入歳出外現金」という。）には、利子を付さない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-344-2-p1
+    type: simple
+    text: 取締役は、監査等委員会がある場合において、監査等委員である取締役の選任に関する議案を株主総会に提出するには、監査等委員会の同意を得なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-344-2-p2
+    type: simple
+    text: 監査等委員会は、取締役に対し、監査等委員である取締役の選任を株主総会の目的とすること又は監査等委員である取締役の選任に関する議案を株主総会に提出することを請求することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-344-2-p3
+    type: simple
+    text: 第三百四十一条の規定は、監査等委員である取締役の解任の決議については、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

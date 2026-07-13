@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-3-p1-honbun
+    type: honbun
+    text: 検察官は、第二百九十九条第一項の規定により証人の氏名及び住居を知る機会を与え又は証拠書類若しくは証拠物を閲覧する機会を与えるに当たり、被害者特定事項が明らかにされることにより、被害者等の名誉若しくは社会生活の平穏が著しく害されるおそれがあると認めるとき、又は被害者若しくはその親族の身体若しくは財産に害を加え若しくはこれらの者を畏怖させ若しくは困惑させる行為がなされるおそれがあると認めるときは、弁護人に対し、その旨を告げ、被害者特定事項が、被告人の防御に関し必要がある場合を除き、被告人その他の者に知られないようにすることを求めることができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-299-3-p1-tadashi
+    type: tadashi
+    text: ただし、第二百七十一条の二第二項の規定により起訴状抄本等を提出した場合を除き、被告人に知られないようにすることを求めることについては、被害者特定事項のうち起訴状に記載された事項以外のものに限る。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

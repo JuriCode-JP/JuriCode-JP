@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-263-2-p1
+    type: simple
+    text: 普通地方公共団体は、議会の議決を経て、その利益を代表する全国的な公益的法人に委託することにより、他の普通地方公共団体と共同して、火災、水災、震災その他の災害に因る財産の損害に対する相互救済事業を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-263-2-p2
+    type: simple
+    text: 前項の公益的法人は、毎年一回以上定期に、その事業の経営状況を関係普通地方公共団体の長に通知するとともに、これを適当と認める新聞紙に二回以上掲載しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-263-2-p3
+    type: simple
+    text: 第一項の相互救済事業で保険業に該当するものについては、保険業法は、これを適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-6-p1
+    type: simple
+    text: 令第百三十一条の八第三項（損益通算の対象となる欠損金額の特例）において準用する令第百二十三条の八第二項第四号及び第三項第三号イ（特定資産に係る譲渡等損失額の損金不算入）に規定する財務省令で定める単位は、第二十七条の十五第一項各号（特定資産に係る譲渡等損失額の損金不算入）に掲げる資産の区分に応じ当該各号に定めるところにより区分した後の単位とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-6-p2
+    type: junyou
+    text: 第二十七条の十五第二項の規定は、令第百三十一条の八第三項において準用する令第百二十三条の八第二項第五号に規定する財務省令で定める書類について準用する。この場合において、第二十七条の十五第二項第一号中「第百二十三条の八第二項第五号」とあるのは「第百三十一条の八第三項（損益通算の対象となる欠損金額の特例）において準用する令第百二十三条の八第二項第五号」と、同項第二号ロ中「第百二十三条の八第二項第五号の内国法人」とあるのは「第百三十一条の八第三項において準用する令第百二十三条の八第二項第五号の通算法人」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-6-p3
+    type: junyou
+    text: 第二十七条の十五第二項の規定は、令第百三十一条の八第三項において準用する令第百二十三条の八第三項第三号ロに規定する財務省令で定める書類について準用する。この場合において、第二十七条の十五第二項第一号中「第百二十三条の八第二項第五号」とあるのは「第百三十一条の八第三項（損益通算の対象となる欠損金額の特例）において準用する令第百二十三条の八第三項」と、「支配関係発生日」とあるのは「関連法人支配関係発生日」と、同項第二号中「の支配関係発生日」とあるのは「の関連法人支配関係発生日」と、同号ロ中「第百二十三条の八第二項第五号の内国法人」とあるのは「第百三十一条の八第三項において準用する令第百二十三条の八第三項の通算法人」と、「支配関係発生日」とあるのは「関連法人支配関係発生日」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

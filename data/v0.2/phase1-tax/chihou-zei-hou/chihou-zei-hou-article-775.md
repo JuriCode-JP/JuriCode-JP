@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する者は、役員となることができない。
     modality: kanou_negative
+  - id: chihou-zei-hou-art-775-p1-kou-1
+    type: kou
+    text: 政府又は地方公共団体の職員（非常勤の者を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-775-p1-kou-2
+    type: kou
+    text: 代表者会議の委員
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第七百七十五条
 
-<!-- segment: hashira id: chihou-zei-hou-art-775-p1-hashira -->
 次の各号のいずれかに該当する者は、役員となることができない。
+
+一　政府又は地方公共団体の職員（非常勤の者を除く。）
+
+二　代表者会議の委員

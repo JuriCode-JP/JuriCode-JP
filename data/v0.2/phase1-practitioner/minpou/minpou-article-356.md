@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百五十六条
 
-<!-- segment: simple id: minpou-art-356-p1 -->
 不動産質権者は、質権の目的である不動産の用法に従い、その使用及び収益をすることができる。

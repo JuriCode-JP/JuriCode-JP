@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-14-p1
+    type: simple
+    text: 自主規制法人は、自主規制業務を行おうとするときは、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-96-3-p1
+    type: simple
+    text: 薬局製造販売医薬品の製造業者である薬局開設者は、当該薬局で調剤に従事する薬剤師に当該薬局における設備及び器具をもつて、薬局製造販売医薬品を製造させなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-96-3-p2
+    type: simple
+    text: 薬局製造販売医薬品の製造業者である薬局開設者は、当該薬局以外の医薬品の製造販売業者又は製造業者に対して、薬局製造販売医薬品を販売し、又は授与してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

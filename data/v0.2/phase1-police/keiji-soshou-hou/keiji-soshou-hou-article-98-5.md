@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-5-p1
+    type: simple
+    text: 監督者を選任する場合には、監督保証金額を定めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-5-p2
+    type: simple
+    text: 監督保証金額は、監督者として選任する者の資産及び被告人との関係その他の事情を考慮して、前条第四項の規定により命ずる事項及び被告人の出頭を保証するに足りる相当な金額でなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

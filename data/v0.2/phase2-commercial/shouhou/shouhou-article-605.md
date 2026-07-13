@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百五条
 
-<!-- segment: simple id: shouhou-art-605-p1 -->
 倉荷証券が作成されたときは、寄託物に関する処分は、倉荷証券によってしなければならない。

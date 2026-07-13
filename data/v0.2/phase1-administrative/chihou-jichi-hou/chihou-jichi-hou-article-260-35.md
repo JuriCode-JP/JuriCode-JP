@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-35-p1
+    type: simple
+    text: 認可地縁団体の清算人の選任の裁判に対しては、不服を申し立てることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-16-p1
+    type: simple
+    text: 認可協会は、その登録する店頭売買有価証券について、店頭売買有価証券市場におけるその売買を停止し、又は停止を解除したときは、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

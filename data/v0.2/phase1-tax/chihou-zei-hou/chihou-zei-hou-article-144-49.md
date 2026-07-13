@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-49-p1-honbun
+    type: honbun
+    text: 軽油引取税の特別徴収義務者又は納税者が納期限（更正又は決定があつた場合においては、不足金額の納期限をいう。以下この節において同じ。）までに軽油引取税に係る地方団体の徴収金を完納しない場合においては、道府県の徴税吏員は、納期限後二十日以内に、督促状を発しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-144-49-p1-tadashi
+    type: tadashi
+    text: ただし、繰上徴収をする場合又は第百四十四条の二十二第四項（第百四十四条の二十五第五項において準用する場合を含む。）の規定により徴収する場合においては、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-49-p2
+    type: simple
+    text: 特別の事情がある道府県においては、当該道府県の条例で前項に規定する期間と異なる期間を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

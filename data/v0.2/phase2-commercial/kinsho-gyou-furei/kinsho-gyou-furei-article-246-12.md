@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-12-p1
+    type: simple
+    text: 令第十七条の十三の六第一号に規定する内閣府令で定める者は、部長、次長、課長その他いかなる名称を有する者であるかを問わず、同号に規定する業務を統括する者の権限を代行し得る地位にある者とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-12-p2
+    type: simple
+    text: 令第十七条の十三の六第二号に規定する内閣府令で定める者は、金融商品の価値等の分析に基づく投資判断を行う者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

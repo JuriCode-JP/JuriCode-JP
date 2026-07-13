@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-144-2-3-p1
+    type: simple
+    text: 前三条の規定による法人税の額からの控除については、まず前条の規定による控除をした後において、第百四十四条（外国法人に係る所得税額の控除）において準用する第六十八条（所得税額の控除）の規定及び第百四十四条の二（外国法人に係る外国税額の控除）の規定による控除をするものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 前三条
 cases: []
 amendments: []
 tags:

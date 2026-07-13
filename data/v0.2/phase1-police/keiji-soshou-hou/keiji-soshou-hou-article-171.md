@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-171-p1 -->
 前章の規定は、勾引に関する規定を除いて、鑑定についてこれを準用する。

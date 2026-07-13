@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-680-2-p1-zen
+    type: zen_dan
+    text: 脱退した組合員は、その脱退前に生じた組合の債務について、従前の責任の範囲内でこれを弁済する責任を負う。
+    modality: unspecified
+  - id: minpou-art-680-2-p1-kou
+    type: kou_dan
+    text: この場合において、債権者が全部の弁済を受けない間は、脱退した組合員は、組合に担保を供させ、又は組合に対して自己に免責を得させることを請求することができる。
+    modality: kanou_kenri
+    depends_on: minpou-art-680-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-680-2-p2
+    type: simple
+    text: 脱退した組合員は、前項に規定する組合の債務を弁済したときは、組合に対して求償権を有する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百六十九条
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-169-p1 -->
 法第八十四条第三項（退職年金等積立金の額の計算）に規定する政令で定める契約は、存続連合会確定給付年金積立金運用契約とする。

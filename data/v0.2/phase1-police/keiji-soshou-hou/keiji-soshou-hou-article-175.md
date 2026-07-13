@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-175-p1 -->
 国語に通じない者に陳述をさせる場合には、通訳人に通訳をさせなければならない。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-216-p1 -->
 現行犯人が逮捕された場合には、第百九十九条の規定により被疑者が逮捕された場合に関する規定を準用する。

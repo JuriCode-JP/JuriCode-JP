@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第四十九条の二第二項（リース賃貸資産の償却の方法の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-11-2-p1-kou-1
+    type: kou
+    text: 届出をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-11-2-p1-kou-2
+    type: kou
+    text: 令第四十九条の二第一項に規定する旧リース期間定額法を採用しようとする資産の種類（同条第二項に規定する資産の種類をいう。）ごとの同条第三項に規定する改定取得価額の合計額
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-11-2-p1-kou-3
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第十一条の二
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-11-2-p1-hashira -->
 令第四十九条の二第二項（リース賃貸資産の償却の方法の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　届出をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　令第四十九条の二第一項に規定する旧リース期間定額法を採用しようとする資産の種類（同条第二項に規定する資産の種類をいう。）ごとの同条第三項に規定する改定取得価額の合計額
+
+三　その他参考となるべき事項

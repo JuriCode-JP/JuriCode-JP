@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 答弁書、準備書面その他の被審人（法第百七十九条第三項に規定する被審人をいう。以下同じ。）又はその代理人が審判手続において提出する書面には、次に掲げる事項を記載するものとする。
     modality: gimu
+  - id: kinsho-kachoukin-furei-art-2-p1-kou-1
+    type: kou
+    text: 被審人の氏名又は名称及び住所並びに代理人の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-2-p1-kou-2
+    type: kou
+    text: 事件の表示
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-2-p1-kou-3
+    type: kou
+    text: 附属書類の表示
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-kachoukin-furei-art-2-p1-kou-4
+    type: kou
+    text: 年月日
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -34,8 +54,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -63,15 +83,20 @@ parent_section:
 
 ### 第二条第一項
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-2-p1-hashira -->
 答弁書、準備書面その他の被審人（法第百七十九条第三項に規定する被審人をいう。以下同じ。）又はその代理人が審判手続において提出する書面には、次に掲げる事項を記載するものとする。
+
+一　被審人の氏名又は名称及び住所並びに代理人の氏名及び住所
+
+二　事件の表示
+
+三　附属書類の表示
+
+四　年月日
 
 ### 第二条第二項
 
-<!-- segment: tokusoku id: kinsho-kachoukin-furei-art-2-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、被審人又はその代理人からその住所を記載した同項の書面が提出されているときは、以後審判手続において提出する同項の書面については、同項第一号に掲げる事項のうち被審人及びその代理人の住所を記載することを要しない。
 
 ### 第二条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-2-p3 -->
 準備書面その他の指定職員（法第百八十一条第二項に規定する指定職員をいう。以下同じ。）が審判手続において提出する書面には、被審人の氏名又は名称及び第一項第二号から第四号までに掲げる事項を記載し、指定職員が記名するものとする。

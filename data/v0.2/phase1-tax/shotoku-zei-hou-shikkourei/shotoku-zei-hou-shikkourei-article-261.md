@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: shotoku-zei-hou-shikkourei-art-261-p1
     type: simple
     text: 法第百十一条第四項（予定納税額の減額の承認の申請）に規定する政令で定めるところにより計算した金額は、第一号に掲げる金額から第二号に掲げる金額を控除した金額とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-261-p1-kou-1
+    type: kou
+    text: その年分の総所得金額及び山林所得金額の見積額からその年分の法第二編第二章第四節（所得控除）に規定する控除の額の見積額を法第八十七条第二項（所得控除の順序）の規定に準じて控除した後の金額をそれぞれ課税総所得金額又は課税山林所得金額とみなして、同編第三章第一節（税率）の規定を適用して計算した場合の所得税の額から同章第二節（税額控除）の規定による控除の額を法第九十二条第二項（税額控除の順序等）の規定に準じて控除した後の所得税の額
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-261-p1-kou-2
+    type: kou
+    text: 前号に掲げる総所得金額の計算の基礎となつた各種所得につき源泉徴収をされる所得税の額の見積額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第二百六十一条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-261-p1 -->
 法第百十一条第四項（予定納税額の減額の承認の申請）に規定する政令で定めるところにより計算した金額は、第一号に掲げる金額から第二号に掲げる金額を控除した金額とする。
+
+一　その年分の総所得金額及び山林所得金額の見積額からその年分の法第二編第二章第四節（所得控除）に規定する控除の額の見積額を法第八十七条第二項（所得控除の順序）の規定に準じて控除した後の金額をそれぞれ課税総所得金額又は課税山林所得金額とみなして、同編第三章第一節（税率）の規定を適用して計算した場合の所得税の額から同章第二節（税額控除）の規定による控除の額を法第九十二条第二項（税額控除の順序等）の規定に準じて控除した後の所得税の額
+
+二　前号に掲げる総所得金額の計算の基礎となつた各種所得につき源泉徴収をされる所得税の額の見積額

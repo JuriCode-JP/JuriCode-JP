@@ -16,22 +16,52 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-9-p1
+    type: simple
+    text: 法第二十三条の二の十の二第三項の規定による確認（以下「医療機器等適合性確認」という。）の申請は、様式第六十三の十九の五による申請書を厚生労働大臣に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-9-p2-hashira
+    type: hashira
+    text: 前項の申請書には、次に掲げる資料を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-114-45-9-p2-kou-1
+    type: kou
+    text: 医療機器等適合性確認に係る品目の製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-45-9-p2-kou-2
+    type: kou
+    text: 医療機器等適合性確認に係る全ての製造所における製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-9-p3
+    type: simple
+    text: 厚生労働大臣は、医療機器等適合性確認をしたときは、様式第六十三の十九の六による通知書を申請者に通知するものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-9-p4
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の十の二第九項の規定により機構に医療機器等適合性確認を行わせることとした場合における第一項及び前項の規定の適用については、第一項及び前項中「厚生労働大臣」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -55,6 +85,10 @@ parent_section:
 ### 第百十四条の四十五の九第二項
 
 前項の申請書には、次に掲げる資料を添えなければならない。
+
+一　医療機器等適合性確認に係る品目の製造管理及び品質管理に関する資料
+
+二　医療機器等適合性確認に係る全ての製造所における製造管理及び品質管理に関する資料
 
 ### 第百十四条の四十五の九第三項
 

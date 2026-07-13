@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-6-p1
+    type: simple
+    text: 内閣総理大臣は、前条に規定する事務を官民人材交流センターに委任する。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-6-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定により委任する事務について、その運営に関する指針を定め、これを公表する。
+    modality: tetsuduki
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八百四十四条
 
-<!-- segment: simple id: minpou-art-844-p1 -->
 後見人は、正当な事由があるときは、家庭裁判所の許可を得て、その任務を辞することができる。

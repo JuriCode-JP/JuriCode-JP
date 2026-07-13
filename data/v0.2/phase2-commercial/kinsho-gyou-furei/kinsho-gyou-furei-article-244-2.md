@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-244-2-p1
+    type: simple
+    text: 法第六十三条の三第二項において準用する法第六十三条第八項の規定により届出を行う金融商品取引業者等は、変更の内容、変更年月日及び変更の理由を記載した届出書に、別紙様式第二十一号により作成した変更後の内容を記載した書面及び当該書面の写しを添付して、所管金融庁長官等に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

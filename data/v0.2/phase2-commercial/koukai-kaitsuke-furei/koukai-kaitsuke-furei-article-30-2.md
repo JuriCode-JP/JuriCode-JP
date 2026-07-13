@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-30-2-p1
+    type: simple
+    text: 令第九条の四の規定により公表を行う場合には、公表すべき内容及び事項を同条各号に掲げる報道機関の二以上を含む報道機関に対して公開することにより行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

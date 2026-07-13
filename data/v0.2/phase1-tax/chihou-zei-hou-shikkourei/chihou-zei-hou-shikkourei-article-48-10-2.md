@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-10-2-p1
+    type: junyou
+    text: 第八条の七の規定は、法第三百二十一条の八第一項後段の法人税割額及び均等割額の計算について準用する。この場合において、第八条の七第二項中「道府県」とあるのは「市町村」と、「法第五十三条第一項前段」とあるのは「法第三百二十一条の八第一項前段」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

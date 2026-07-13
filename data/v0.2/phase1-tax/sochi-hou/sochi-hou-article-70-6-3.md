@@ -16,22 +16,50 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-70-6-3-p1
+    type: simple
+    text: 前条第一項に規定する特定貸付け（以下この項及び次項において「特定貸付け」という。）を行つている者（以下この項において「特定貸付者」という。）が死亡した場合において、当該特定貸付者の相続人が当該特定貸付者から当該特定貸付けを行つていた農地又は採草放牧地を相続又は遺贈により取得をしたときは、当該特定貸付けを行つていた農地又は採草放牧地は当該特定貸付者がその死亡の日まで農業の用に供していたものとみなして、第七十条の六の規定を適用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-70-6-3-p2
+    type: simple
+    text: 農業を営んでいた個人として政令で定める者（以下この項において「農業経営者」という。）又は第七十条の六第一項に規定する農業相続人（以下この項において「農業相続人」という。）が死亡した場合において、当該農業経営者又は農業相続人の相続人が当該農業経営者又は農業相続人から相続又は遺贈により取得をした農地又は採草放牧地について相続税法第二十七条第一項の規定による申告書の提出期限（次項において「相続税の申告期限」という。）までに特定貸付けを行つたときは、当該農地又は採草放牧地は当該相続人の農業の用に供する農地又は採草放牧地に該当するものとみなして、第七十条の六の規定を適用する。
+    modality: unspecified
+    references:
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-70-6-3-p3
+    type: simple
+    text: 第七十条の四第一項本文の規定の適用を受ける同項に規定する受贈者に係る贈与者が死亡した場合において、当該受贈者が同項本文の規定の適用を受ける同項に規定する農地等のうち農地又は採草放牧地について当該贈与者の死亡に係る相続税の申告期限において第七十条の四の二第一項に規定する特定貸付け又は前条第一項に規定する特定貸付けを行つているときは、当該農地又は採草放牧地は当該受贈者の農業の用に供する農地又は採草放牧地に該当するものとみなして、第七十条の六の規定を適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-70-6-3-p4
+    type: simple
+    text: 前三項の規定の適用がある場合における前条第一項の規定の適用については、同項中「から二月以内」とあるのは、「の翌日から二月を経過する日又は前条第一項に規定する相続税の申告書の提出期限のいずれか遅い日まで」とするほか、同条の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 同項
+    - 前三項
+    - 前条
 cases: []
 amendments: []
 tags:

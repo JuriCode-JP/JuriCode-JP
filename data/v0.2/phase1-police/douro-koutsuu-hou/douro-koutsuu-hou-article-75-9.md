@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-9-p1
+    type: simple
+    text: 緊急自動車又は第四十一条第三項の内閣府令で定める専ら交通の取締りに従事する自動車については、第七十五条の五、第七十五条の七及び前条の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-9-p2
+    type: simple
+    text: 政令で定めるところにより道路の維持、修繕等のための作業に従事している場合における道路維持作業用自動車については、第七十五条の四、第七十五条の五及び前条の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

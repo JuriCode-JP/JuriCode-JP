@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十二条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-42-p1 -->
 地方公共団体は、職員の保健、元気回復その他厚生に関する事項について計画を樹立し、これを実施しなければならない。

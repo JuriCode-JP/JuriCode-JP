@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-11-p1
+    type: simple
+    text: 法第二条第八項第十四号に規定する政令で定める権利は、同条第一項第十号に掲げる有価証券に表示される権利とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

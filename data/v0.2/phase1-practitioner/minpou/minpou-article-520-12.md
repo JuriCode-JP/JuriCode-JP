@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-12-p1
+    type: simple
+    text: 金銭その他の物又は有価証券の給付を目的とする指図証券の所持人がその指図証券を喪失した場合において、非訟事件手続法第百十四条に規定する公示催告の申立てをしたときは、その債務者に、その債務の目的物を供託させ、又は相当の担保を供してその指図証券の趣旨に従い履行をさせることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

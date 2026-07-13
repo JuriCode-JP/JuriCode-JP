@@ -52,10 +52,8 @@ parent_section:
 
 ### 第二百二十八条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-228-p1 -->
 前二条の請求を受けた裁判官は、証人の尋問に関し、裁判所又は裁判長と同一の権限を有する。
 
 ### 第二百二十八条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-228-p2 -->
 裁判官は、捜査に支障を生ずる虞がないと認めるときは、被告人、被疑者又は弁護人を前項の尋問に立ち会わせることができる。

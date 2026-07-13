@@ -16,37 +16,67 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-p1
+    type: simple
+    text: 普通地方公共団体は、当該普通地方公共団体及び他の普通地方公共団体の区域における当該普通地方公共団体及び当該他の普通地方公共団体の事務の処理に当たつての当該他の普通地方公共団体との連携を図るため、協議により、当該普通地方公共団体及び当該他の普通地方公共団体が連携して事務を処理するに当たつての基本的な方針及び役割分担を定める協約（以下「連携協約」という。）を当該他の普通地方公共団体と締結することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-p2
+    type: simple
+    text: 普通地方公共団体は、連携協約を締結したときは、その旨及び当該連携協約を告示するとともに、都道府県が締結したものにあつては総務大臣、その他のものにあつては都道府県知事に届け出なければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-p3
+    type: simple
+    text: 第一項の協議については、関係普通地方公共団体の議会の議決を経なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-p4
+    type: simple
+    text: 普通地方公共団体は、連携協約を変更し、又は連携協約を廃止しようとするときは、前三項の例によりこれを行わなければならない。
+    modality: gimu
+    references:
+    - 前三項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-p5
+    type: simple
+    text: 公益上必要がある場合においては、都道府県が締結するものについては総務大臣、その他のものについては都道府県知事は、関係のある普通地方公共団体に対し、連携協約を締結すべきことを勧告することができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-p6
+    type: simple
+    text: 連携協約を締結した普通地方公共団体は、当該連携協約に基づいて、当該連携協約を締結した他の普通地方公共団体と連携して事務を処理するに当たつて当該普通地方公共団体が分担すべき役割を果たすため必要な措置を執るようにしなければならない。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-2-p7
+    type: simple
+    text: 連携協約を締結した普通地方公共団体相互の間に連携協約に係る紛争があるときは、当事者である普通地方公共団体は、都道府県が当事者となる紛争にあつては総務大臣、その他の紛争にあつては都道府県知事に対し、文書により、自治紛争処理委員による当該紛争を処理するための方策の提示を求める旨の申請をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

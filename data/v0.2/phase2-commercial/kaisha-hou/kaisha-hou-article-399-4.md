@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-4-p1
+    type: simple
+    text: 監査等委員は、取締役が不正の行為をし、若しくは当該行為をするおそれがあると認めるとき、又は法令若しくは定款に違反する事実若しくは著しく不当な事実があると認めるときは、遅滞なく、その旨を取締役会に報告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

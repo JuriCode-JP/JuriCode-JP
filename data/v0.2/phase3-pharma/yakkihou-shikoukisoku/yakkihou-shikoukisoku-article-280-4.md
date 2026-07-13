@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-4-p1
+    type: simple
+    text: 厚生労働大臣は、法第八十条の六第一項又は第八十条の八第一項の規定により法第十四条第四項、第二十三条の二の五第四項又は第二十三条の二十五第四項に規定する原薬等の登録をしたときは、登録を申請した者に登録証を交付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-4-p2
+    type: simple
+    text: 前項の登録証は、様式第百二十一によるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-4-p3
+    type: simple
+    text: 厚生労働大臣が法第八十条の十第一項の規定により機構に登録等を行わせることとした場合における第一項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

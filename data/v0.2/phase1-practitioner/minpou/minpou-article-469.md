@@ -22,7 +22,7 @@ paragraphs:
     text: 債務者は、対抗要件具備時より前に取得した譲渡人に対する債権による相殺をもって譲受人に対抗することができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -32,6 +32,16 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: minpou-art-469-p2-kou-1
+    type: kou
+    text: 対抗要件具備時より前の原因に基づいて生じた債権
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-469-p2-kou-2
+    type: kou
+    text: 前号に掲げるもののほか、譲受人の取得した債権の発生原因である契約に基づいて生じた債権
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -63,15 +73,16 @@ parent_section:
 
 ### 第四百六十九条第一項
 
-<!-- segment: simple id: minpou-art-469-p1 -->
 債務者は、対抗要件具備時より前に取得した譲渡人に対する債権による相殺をもって譲受人に対抗することができる。
 
 ### 第四百六十九条第二項
 
-<!-- segment: hashira id: minpou-art-469-p2-hashira -->
 債務者が対抗要件具備時より後に取得した譲渡人に対する債権であっても、その債権が次に掲げるものであるときは、前項と同様とする。ただし、債務者が対抗要件具備時より後に他人の債権を取得したときは、この限りでない。
+
+一　対抗要件具備時より前の原因に基づいて生じた債権
+
+二　前号に掲げるもののほか、譲受人の取得した債権の発生原因である契約に基づいて生じた債権
 
 ### 第四百六十九条第三項
 
-<!-- segment: simple id: minpou-art-469-p3 -->
 第四百六十六条第四項の場合における前二項の規定の適用については、これらの規定中「対抗要件具備時」とあるのは、「第四百六十六条第四項の相当の期間を経過した時」とし、第四百六十六条の三の場合におけるこれらの規定の適用については、これらの規定中「対抗要件具備時」とあるのは、「第四百六十六条の三の規定により同条の譲受人から供託の請求を受けた時」とする。

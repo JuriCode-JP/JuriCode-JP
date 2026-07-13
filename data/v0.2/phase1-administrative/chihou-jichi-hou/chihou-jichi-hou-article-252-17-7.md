@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-7-p1
+    type: simple
+    text: 総務大臣は、第二百五十二条の十七の五第一項及び第二項並びに前条第三項及び第四項の規定による権限の行使のためその他市町村の適正な運営を確保するため必要があるときは、都道府県知事に対し、市町村についてその特に指定する事項の調査を行うよう指示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

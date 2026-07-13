@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-15-p1
+    type: simple
+    text: 公安委員会は、第七十五条の十二第一項の許可をする場合において、必要があると認めるときは、当該許可に道路における危険を防止し、その他交通の安全と円滑を図るため必要な条件を付することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-15-p2
+    type: simple
+    text: 公安委員会は、道路における危険を防止し、その他交通の安全と円滑を図るため特別の必要が生じたときは、前項の規定により付した条件を変更し、又は新たに条件を付することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

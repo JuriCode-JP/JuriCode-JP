@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-6-p1
+    type: simple
+    text: 検察官は、司法警察員が送致し若しくは送付した事件又は司法警察員が現に捜査していると認める事件について、その被疑者との間で第三百五十条の四の協議を行おうとするときは、あらかじめ、司法警察員と協議しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-6-p2-zen
+    type: zen_dan
+    text: 検察官は、第三百五十条の四の協議に係る他人の刑事事件について司法警察員が現に捜査していることその他の事情を考慮して、当該他人の刑事事件の捜査のため必要と認めるときは、前条第一項の規定により供述を求めることその他の当該協議における必要な行為を司法警察員にさせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: keiji-soshou-hou-art-350-6-p2-kou
+    type: kou_dan
+    text: この場合において、司法警察員は、検察官の個別の授権の範囲内で、検察官が第三百五十条の二第一項の合意の内容とすることを提案する同項第二号に掲げる行為の内容の提示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    depends_on: keiji-soshou-hou-art-350-6-p2-zen
 cases: []
 amendments: []
 tags:

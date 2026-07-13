@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七条
 
-<!-- segment: simple id: chihou-zei-hou-art-7-p1 -->
 地方団体は、その一部に対して特に利益がある事件に関しては、不均一の課税をし、又はその一部に課税をすることができる。

@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-665-2-p1
+    type: simple
+    text: 複数の者が寄託した物の種類及び品質が同一である場合には、受寄者は、各寄託者の承諾を得たときに限り、これらを混合して保管することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-665-2-p2
+    type: simple
+    text: 前項の規定に基づき受寄者が複数の寄託者からの寄託物を混合して保管したときは、寄託者は、その寄託した物と同じ数量の物の返還を請求することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-665-2-p3-zen
+    type: zen_dan
+    text: 前項に規定する場合において、寄託物の一部が滅失したときは、寄託者は、混合して保管されている総寄託物に対するその寄託した物の割合に応じた数量の物の返還を請求することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: minpou-art-665-2-p3-kou
+    type: kou_dan
+    text: この場合においては、損害賠償の請求を妨げない。
+    modality: jogai
+    depends_on: minpou-art-665-2-p3-zen
 cases: []
 amendments: []
 tags:

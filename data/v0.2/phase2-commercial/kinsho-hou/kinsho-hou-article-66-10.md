@@ -14,14 +14,37 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-10-p1-hashira
+    type: hashira
+    text: 金融商品仲介業者は、その行う金融商品仲介業の内容について広告その他これに類似するものとして内閣府令で定める行為をするときは、内閣府令で定めるところにより、次に掲げる事項を表示しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-66-10-p1-kou-1
+    type: kou
+    text: 当該金融商品仲介業者の商号、名称又は氏名
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-66-10-p1-kou-2
+    type: kou
+    text: 金融商品仲介業者である旨及び当該金融商品仲介業者の登録番号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-66-10-p1-kou-3
+    type: kou
+    text: 当該金融商品仲介業者の行う金融商品仲介業の内容に関する事項であつて、顧客の判断に影響を及ぼすこととなる重要なものとして政令で定めるもの
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-10-p2
+    type: simple
+    text: 金融商品仲介業者は、その行う金融商品仲介業に関して広告その他これに類似するものとして内閣府令で定める行為をするときは、金融商品取引行為を行うことによる利益の見込みその他内閣府令で定める事項について、著しく事実に相違する表示をし、又は著しく人を誤認させるような表示をしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:
@@ -41,6 +64,12 @@ parent_section:
 ### 第六十六条の十第一項
 
 金融商品仲介業者は、その行う金融商品仲介業の内容について広告その他これに類似するものとして内閣府令で定める行為をするときは、内閣府令で定めるところにより、次に掲げる事項を表示しなければならない。
+
+一　当該金融商品仲介業者の商号、名称又は氏名
+
+二　金融商品仲介業者である旨及び当該金融商品仲介業者の登録番号
+
+三　当該金融商品仲介業者の行う金融商品仲介業の内容に関する事項であつて、顧客の判断に影響を及ぼすこととなる重要なものとして政令で定めるもの
 
 ### 第六十六条の十第二項
 

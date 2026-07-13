@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-34-2-p1
+    type: simple
+    text: 法第百九十二条第一項第二号に規定する政令で定めるものは、第一条の三各号に掲げるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

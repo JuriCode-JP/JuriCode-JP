@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十一条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-41-p1 -->
 職員の福祉及び利益の保護は、適切であり、且つ、公正でなければならない。

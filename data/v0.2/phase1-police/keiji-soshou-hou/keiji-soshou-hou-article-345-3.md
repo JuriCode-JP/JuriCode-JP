@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-345-3-p1
+    type: junyou
+    text: 第三百四十二条の三から第三百四十二条の八までの規定は、前条の許可について準用する。この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 第百五十七条第一項第六号の有価証券等清算取次ぎに係る取引記録には、有価証券等清算取次ぎ（法第二条第二十七項第二号に規定する有価証券等清算取次ぎを除く。）に関する次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: kinsho-gyou-furei-art-161-p1-kou-1
+    type: kou
+    text: 委託者の氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-161-p1-kou-2
+    type: kou
+    text: 銘柄
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-161-p1-kou-3
+    type: kou
+    text: 数量（数量がない場合にあっては、件数又は数量に準ずるもの）
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-161-p1-kou-4
+    type: kou
+    text: 受渡金額
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-161-p1-kou-5
+    type: kou
+    text: 受渡年月日
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-gyou-furei-art-161-p1-kou-6
+    type: kou
+    text: 受渡しの相手方
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -41,5 +71,16 @@ parent_section:
 
 ### 第百六十一条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-161-p1-hashira -->
 第百五十七条第一項第六号の有価証券等清算取次ぎに係る取引記録には、有価証券等清算取次ぎ（法第二条第二十七項第二号に規定する有価証券等清算取次ぎを除く。）に関する次に掲げる事項を記載しなければならない。
+
+一　委託者の氏名又は名称
+
+二　銘柄
+
+三　数量（数量がない場合にあっては、件数又は数量に準ずるもの）
+
+四　受渡金額
+
+五　受渡年月日
+
+六　受渡しの相手方

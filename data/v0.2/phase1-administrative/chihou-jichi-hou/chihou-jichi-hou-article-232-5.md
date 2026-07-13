@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-232-5-p1
+    type: simple
+    text: 普通地方公共団体の支出は、債権者のためでなければ、これをすることができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-232-5-p2
+    type: simple
+    text: 普通地方公共団体の支出は、政令の定めるところにより、資金前渡、概算払、前金払、繰替払、隔地払又は口座振替の方法によつてこれをすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

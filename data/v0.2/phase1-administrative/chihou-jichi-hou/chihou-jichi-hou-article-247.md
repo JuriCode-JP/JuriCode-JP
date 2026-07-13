@@ -34,6 +34,16 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: chihou-jichi-hou-art-247-p2-kou-1
+    type: kou
+    text: 普通地方公共団体に対しその場において完了する行為を求めるもの
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-247-p2-kou-2
+    type: kou
+    text: 既に書面により当該普通地方公共団体に通知されている事項と同一の内容であるもの
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -65,15 +75,16 @@ parent_section:
 
 ### 第二百四十七条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-247-p1 -->
 国の行政機関又は都道府県の機関は、普通地方公共団体に対し、助言、勧告その他これらに類する行為（以下本条及び第二百五十二条の十七の三第二項において「助言等」という。）を書面によらないで行つた場合において、当該普通地方公共団体から当該助言等の趣旨及び内容を記載した書面の交付を求められたときは、これを交付しなければならない。
 
 ### 第二百四十七条第二項
 
-<!-- segment: hashira id: chihou-jichi-hou-art-247-p2-hashira -->
 前項の規定は、次に掲げる助言等については、適用しない。
+
+一　普通地方公共団体に対しその場において完了する行為を求めるもの
+
+二　既に書面により当該普通地方公共団体に通知されている事項と同一の内容であるもの
 
 ### 第二百四十七条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-247-p3 -->
 国又は都道府県の職員は、普通地方公共団体が国の行政機関又は都道府県の機関が行つた助言等に従わなかつたことを理由として、不利益な取扱いをしてはならない。

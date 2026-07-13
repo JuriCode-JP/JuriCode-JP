@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-6-4-p1
+    type: simple
+    text: 法第二十九条の二第一項第八号に規定する内閣府令で定めるものは、電子情報処理組織を用いて移転することができる財産的価値（電子機器その他の物に電子的方法により記録されるものに限る。以下単に「財産的価値」という。）に表示される場合に該当するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-37-p1
+    type: simple
+    text: 裁判所は、認可地縁団体の解散及び清算の監督に必要な調査をさせるため、検査役を選任することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-37-p2
+    type: junyou
+    text: 前二条の規定は、前項の規定により裁判所が検査役を選任した場合について準用する。この場合において、前条中「清算人（監事を置く認可地縁団体にあつては、当該清算人及び監事）」とあるのは、「認可地縁団体及び検査役」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 前二条
+    references:
+    - 前二条
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

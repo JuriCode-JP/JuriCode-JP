@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-9-p1
+    type: simple
+    text: 認可協会は、会長又は理事がその職務を行うことについて他人に加えた損害を賠償する責任を負う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

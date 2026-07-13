@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第六十六条の二第二項第二号に規定する内閣府令で定めるものは、次に掲げるものとする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-259-p1-kou-1
+    type: kou
+    text: 業務の内容及び方法
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-259-p1-kou-2
+    type: kou
+    text: 法人であるときは、業務分掌の方法
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第二百五十九条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-259-p1-hashira -->
 法第六十六条の二第二項第二号に規定する内閣府令で定めるものは、次に掲げるものとする。
+
+一　業務の内容及び方法
+
+二　法人であるときは、業務分掌の方法

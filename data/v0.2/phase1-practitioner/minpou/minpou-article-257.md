@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百五十七条
 
-<!-- segment: simple id: minpou-art-257-p1 -->
 前条の規定は、第二百二十九条に規定する共有物については、適用しない。

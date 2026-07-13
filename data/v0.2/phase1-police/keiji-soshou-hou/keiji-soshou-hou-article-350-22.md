@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-22-p1-hashira
+    type: hashira
+    text: 裁判所は、即決裁判手続の申立てがあつた事件について、第二百九十一条第五項の手続に際し、被告人が起訴状に記載された訴因について有罪である旨の陳述をしたときは、次に掲げる場合を除き、即決裁判手続によつて審判をする旨の決定をしなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-350-22-p1-kou-1
+    type: kou
+    text: 第三百五十条の十六第二項又は第四項の同意が撤回されたとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-350-22-p1-kou-2
+    type: kou
+    text: 第三百五十条の二十第一項に規定する場合において、同項の同意がされなかつたとき、又はその同意が撤回されたとき。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-350-22-p1-kou-3
+    type: kou
+    text: 前二号に掲げるもののほか、当該事件が即決裁判手続によることができないものであると認めるとき。
+    modality: unspecified
+    item_number: 3
+  - id: keiji-soshou-hou-art-350-22-p1-kou-4
+    type: kou
+    text: 当該事件が即決裁判手続によることが相当でないものであると認めるとき。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -38,3 +62,11 @@ parent_section:
 ### 第三百五十条の二十二
 
 裁判所は、即決裁判手続の申立てがあつた事件について、第二百九十一条第五項の手続に際し、被告人が起訴状に記載された訴因について有罪である旨の陳述をしたときは、次に掲げる場合を除き、即決裁判手続によつて審判をする旨の決定をしなければならない。
+
+一　第三百五十条の十六第二項又は第四項の同意が撤回されたとき。
+
+二　第三百五十条の二十第一項に規定する場合において、同項の同意がされなかつたとき、又はその同意が撤回されたとき。
+
+三　前二号に掲げるもののほか、当該事件が即決裁判手続によることができないものであると認めるとき。
+
+四　当該事件が即決裁判手続によることが相当でないものであると認めるとき。

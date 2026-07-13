@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-8-p1
+    type: simple
+    text: 委員会は、委員十人以内で組織する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-8-p2
+    type: simple
+    text: 委員会に、特別の事項を調査審議させるため必要があるときは、臨時委員を置くことができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-8-p3
+    type: simple
+    text: 委員会に、専門の事項を調査させるため必要があるときは、専門委員を置くことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

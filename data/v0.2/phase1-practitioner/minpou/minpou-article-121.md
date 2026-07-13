@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百二十一条
 
-<!-- segment: simple id: minpou-art-121-p1 -->
 取り消された行為は、初めから無効であったものとみなす。

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百二十条
 
-<!-- segment: simple id: chihou-jichi-hou-art-120-p1 -->
 普通地方公共団体の議会は、会議規則を設けなければならない。

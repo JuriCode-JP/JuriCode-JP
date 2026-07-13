@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-30-p1
+    type: simple
+    text: 法第五十七条の十七第三項の規定による備え置き及び公衆の縦覧は、第百八十条第二項及び第三項の規定に準じて記載した書面によりしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

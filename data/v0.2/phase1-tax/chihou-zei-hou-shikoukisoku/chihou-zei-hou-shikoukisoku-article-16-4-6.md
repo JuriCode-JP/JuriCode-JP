@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-4-6-p1
+    type: simple
+    text: 法第五百八十六条第一項に規定する総務省令で定めるものは、地方独立行政法人法（平成十五年法律第百十八号）第六十一条に規定する移行型地方独立行政法人及びそれ以外の地方独立行政法人であつて同法第二十一条の規定に基づき病院事業を行うもののうち、地方公共団体から病院の譲渡を受けて医療法第七条第一項に規定する許可を受けたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百二十六条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-126-p1 -->
 法第二十三条の六第三項の規定による登録の更新の申請は、様式第七十二による申請書を厚生労働大臣に提出することによつて行うものとする。
 
 ### 第百二十六条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-126-p2 -->
 前項の申請書には、申請に係る登録認証機関の登録証を添えなければならない。

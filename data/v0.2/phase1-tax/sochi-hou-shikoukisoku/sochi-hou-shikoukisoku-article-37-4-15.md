@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-37-4-15-p1-hashira
+    type: hashira
+    text: 法第八十八条第一項第一号に規定する財務省令で定めるものは、フィルター（当該フィルターに次に掲げるものが含まれている場合には、これらのものを除く。）のほか、次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: sochi-hou-shikoukisoku-art-37-4-15-p1-kou-1
+    type: kou
+    text: 葉たばこ
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-37-4-15-p1-kou-2
+    type: kou
+    text: 加熱により蒸気となるグリセリンその他の物品又はこれらの混合物
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-37-4-15-p1-kou-3
+    type: kou
+    text: 前二号に掲げるもののほか、香味を付けること等により喫煙の効用に直接的な影響を与えるものと認められるもの
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第三十七条の四の十五
 
 法第八十八条第一項第一号に規定する財務省令で定めるものは、フィルター（当該フィルターに次に掲げるものが含まれている場合には、これらのものを除く。）のほか、次に掲げるもの以外のものとする。
+
+一　葉たばこ
+
+二　加熱により蒸気となるグリセリンその他の物品又はこれらの混合物
+
+三　前二号に掲げるもののほか、香味を付けること等により喫煙の効用に直接的な影響を与えるものと認められるもの

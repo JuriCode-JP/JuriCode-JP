@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七十六条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-76-p1 -->
 職員が第三十八条各号（第二号を除く。）のいずれかに該当するに至つたときは、人事院規則で定める場合を除くほか、当然失職する。

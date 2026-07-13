@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる場合には、当該各号に定める者は、持分会社の成立の日から二年以内に、訴えをもって持分会社の設立の取消しを請求することができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-832-p1-kou-1
+    type: kou
+    text: 社員が民法その他の法律の規定により設立に係る意思表示を取り消すことができるとき　当該社員
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-832-p1-kou-2
+    type: kou
+    text: 社員がその債権者を害することを知って持分会社を設立したとき　当該債権者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第八百三十二条
 
-<!-- segment: hashira id: kaisha-hou-art-832-p1-hashira -->
 次の各号に掲げる場合には、当該各号に定める者は、持分会社の成立の日から二年以内に、訴えをもって持分会社の設立の取消しを請求することができる。
+
+一　社員が民法その他の法律の規定により設立に係る意思表示を取り消すことができるとき　当該社員
+
+二　社員がその債権者を害することを知って持分会社を設立したとき　当該債権者

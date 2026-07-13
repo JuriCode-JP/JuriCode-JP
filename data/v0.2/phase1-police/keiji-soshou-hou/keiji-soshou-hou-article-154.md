@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百五十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-154-p1 -->
 証人には、この法律に特別の定のある場合を除いて、宣誓をさせなければならない。

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -50,10 +50,8 @@ parent_section:
 
 ### 第三百二十二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-322-p1 -->
 被告人が作成した供述書又は被告人の供述を録取した書面で被告人の署名若しくは押印のあるものは、その供述が被告人に不利益な事実の承認を内容とするものであるとき、又は特に信用すべき情況の下にされたものであるときに限り、これを証拠とすることができる。但し、被告人に不利益な事実の承認を内容とする書面は、その承認が自白でない場合においても、第三百十九条の規定に準じ、任意にされたものでない疑があると認めるときは、これを証拠とすることができない。
 
 ### 第三百二十二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-322-p2 -->
 被告人の公判準備又は公判期日における供述を録取した書面は、その供述が任意にされたものであると認めるときに限り、これを証拠とすることができる。

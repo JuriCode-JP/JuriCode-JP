@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十七条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-27-p1 -->
 審判手続の調書には、書面、写真その他審判官が適当と認めるものを引用し、事件記録に添付して調書の一部とすることができる。

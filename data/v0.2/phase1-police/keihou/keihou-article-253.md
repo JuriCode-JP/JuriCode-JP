@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百五十三条
 
-<!-- segment: simple id: keihou-art-253-p1 -->
 業務上自己の占有する他人の物を横領した者は、十年以下の拘禁刑に処する。

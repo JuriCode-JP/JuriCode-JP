@@ -22,7 +22,7 @@ paragraphs:
     text: 被害者の法定代理人は、独立して告訴をすることができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二百三十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-231-p1 -->
 被害者の法定代理人は、独立して告訴をすることができる。
 
 ### 第二百三十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-231-p2 -->
 被害者が死亡したときは、その配偶者、直系の親族又は兄弟姉妹は、告訴をすることができる。但し、被害者の明示した意思に反することはできない。

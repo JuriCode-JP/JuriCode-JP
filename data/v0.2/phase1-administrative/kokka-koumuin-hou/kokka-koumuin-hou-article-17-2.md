@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-17-2-p1
+    type: simple
+    text: 人事院は、前条の規定による権限（職員の職務に係る倫理の保持に関して行われるものに限り、かつ、第九十条第一項に規定する審査請求に係るものを除く。）を国家公務員倫理審査会に委任する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

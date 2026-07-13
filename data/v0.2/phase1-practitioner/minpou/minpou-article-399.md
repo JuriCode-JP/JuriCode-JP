@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百九十九条
 
-<!-- segment: simple id: minpou-art-399-p1 -->
 債権は、金銭に見積もることができないものであっても、その目的とすることができる。

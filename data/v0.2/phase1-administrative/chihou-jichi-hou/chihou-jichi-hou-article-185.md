@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百八十五条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-185-p1 -->
 選挙管理委員会の委員長が退職しようとするときは、当該選挙管理委員会の承認を得なければならない。
 
 ### 第百八十五条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-185-p2 -->
 委員が退職しようとするときは、委員長の承認を得なければならない。

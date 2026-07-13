@@ -48,10 +48,8 @@ parent_section:
 
 ### 第百八十四条第一項
 
-<!-- segment: simple id: kinsho-hou-art-184-p1 -->
 被審人は、審判手続の期日に出頭して、意見を述べることができる。
 
 ### 第百八十四条第二項
 
-<!-- segment: simple id: kinsho-hou-art-184-p2 -->
 審判官は、必要があると認めるときは、被審人に対して、意見の陳述を求めることができる。

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-21-p1
+    type: simple
+    text: 法第六十八条の十第三項の規定により厚生労働大臣に対して行う同項の情報の整理の結果の報告は、様式第九十八の三による通知書によつて行うものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-21-p2
+    type: simple
+    text: 法第六十八条の十第三項の規定により厚生労働大臣に対して行う同項の調査の結果の報告は、様式第九十八の四による通知書によつて行うものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

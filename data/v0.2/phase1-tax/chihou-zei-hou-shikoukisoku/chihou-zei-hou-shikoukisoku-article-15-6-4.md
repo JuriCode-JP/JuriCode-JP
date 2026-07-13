@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-15-6-4-p1
+    type: simple
+    text: 法第四百七条第五号に規定する総務省令で定める者は、精神の機能の障害により固定資産評価員の職務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができない者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

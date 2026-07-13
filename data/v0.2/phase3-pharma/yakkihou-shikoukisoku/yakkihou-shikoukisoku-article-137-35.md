@@ -16,17 +16,68 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-35-p1
+    type: simple
+    text: 法第二十三条の二十六第一項又は法第二十三条の二十六の二第一項の規定により条件及び期限を付した法第二十三条の二十五の承認を受けた再生医療等製品につき当該承認を受けた者が行う法第二十三条の二十六第三項（法第二十三条の二十六の二第三項において準用する場合を含む。次項において同じ。）の調査は、当該期限（法第二十三条の二十六第二項（法第二十三条の二十六の二第三項において準用する場合を含む。次項において同じ。）の規定による延長が行われたときは、その延長後のもの）までの期間、当該再生医療等製品の不具合等その他の使用の成績等について行うものとする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-35-p2-hashira
+    type: hashira
+    text: 法第二十三条の二十六第三項の規定による厚生労働大臣に対する報告は、次に掲げる事項について行うものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-35-p2-kou-1
+    type: kou
+    text: 当該再生医療等製品の名称
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-35-p2-kou-2
+    type: kou
+    text: 承認番号及び承認年月日
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-35-p2-kou-3
+    type: kou
+    text: 調査期間及び調査症例数
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-137-35-p2-kou-4
+    type: kou
+    text: 当該再生医療等製品の出荷数量
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-137-35-p2-kou-5
+    type: kou
+    text: 調査結果の概要及び解析結果
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-137-35-p2-kou-6
+    type: kou
+    text: 不具合等の種類別発現状況
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-137-35-p2-kou-7
+    type: kou
+    text: 不具合等の発現症例一覧
+    modality: unspecified
+    item_number: 7
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-35-p3
+    type: simple
+    text: 前項の報告は、当該調査に係る再生医療等製品の製造販売の承認の際に厚生労働大臣が指定した日から起算して一年（厚生労働大臣が指示する再生医療等製品にあつては、厚生労働大臣が指示する期間）以内ごとに、その期間の満了後二月以内に行わなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -48,6 +99,20 @@ parent_section:
 ### 第百三十七条の三十五第二項
 
 法第二十三条の二十六第三項の規定による厚生労働大臣に対する報告は、次に掲げる事項について行うものとする。
+
+一　当該再生医療等製品の名称
+
+二　承認番号及び承認年月日
+
+三　調査期間及び調査症例数
+
+四　当該再生医療等製品の出荷数量
+
+五　調査結果の概要及び解析結果
+
+六　不具合等の種類別発現状況
+
+七　不具合等の発現症例一覧
 
 ### 第百三十七条の三十五第三項
 

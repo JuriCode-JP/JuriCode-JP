@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-63-4-p1
+    type: simple
+    text: 総務大臣は、個人の行う事業に対する事業税に関する実地の調査を行つた結果、課税標準額の総額の更正若しくは決定又は事務所若しくは事業所の従業者の数（第七十二条の五十四第二項に規定する従業者の数をいう。以下この項及び次項において同じ。）の修正若しくは決定の必要があると認められない場合には、納税義務者であつて当該調査において質問検査等の相手方となつた者に対し、その時点において課税標準額の総額の更正若しくは決定又は事務所若しくは事業所の従業者の数の修正若しくは決定の必要があると認められない旨を書面により通知するものとする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-63-4-p2
+    type: simple
+    text: 総務大臣は、個人の行う事業に対する事業税に関する調査の結果、課税標準額の総額の更正若しくは決定又は事務所若しくは事業所の従業者の数の修正若しくは決定の必要があると認められる場合には、当該納税義務者に対し、その時点において課税標準額の総額の更正若しくは決定又は事務所若しくは事業所の従業者の数の修正若しくは決定の必要があると認められる旨及びその理由を説明するものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-63-4-p3
+    type: simple
+    text: 実地の調査により質問検査等を行つた納税義務者について税務代理人がある場合において、当該納税義務者の同意がある場合には、当該納税義務者への第一項又は前項の規定による通知又は説明に代えて、当該税務代理人へのこれらの規定による通知又は説明を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

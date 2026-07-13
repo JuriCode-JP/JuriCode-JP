@@ -21,6 +21,41 @@ paragraphs:
     type: hashira
     text: 株式会社が次に掲げる行為をした場合には、新株予約権を目的とする質権は、当該行為によって当該新株予約権の新株予約権者が受けることのできる金銭等について存在する。
     modality: unspecified
+  - id: kaisha-hou-art-272-p1-kou-1
+    type: kou
+    text: 新株予約権の取得
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-272-p1-kou-2
+    type: kou
+    text: 組織変更
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-272-p1-kou-3
+    type: kou
+    text: 合併（合併により当該株式会社が消滅する場合に限る。）
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-272-p1-kou-4
+    type: kou
+    text: 吸収分割
+    modality: unspecified
+    item_number: 4
+  - id: kaisha-hou-art-272-p1-kou-5
+    type: kou
+    text: 新設分割
+    modality: unspecified
+    item_number: 5
+  - id: kaisha-hou-art-272-p1-kou-6
+    type: kou
+    text: 株式交換
+    modality: unspecified
+    item_number: 6
+  - id: kaisha-hou-art-272-p1-kou-7
+    type: kou
+    text: 株式移転
+    modality: unspecified
+    item_number: 7
 - number: 2
   has_proviso: false
   has_items: false
@@ -42,8 +77,23 @@ paragraphs:
     text: 株式会社が次の各号に掲げる行為をした場合において、前項の債権の弁済期が到来していないときは、登録新株予約権質権者は、当該各号に定める者に同項に規定する金銭等に相当する金額を供託させることができる。この場合において、質権は、その供託金について存在する。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
+  - id: kaisha-hou-art-272-p3-kou-1
+    type: kou
+    text: 新株予約権の取得　当該株式会社
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-272-p3-kou-2
+    type: kou
+    text: 組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-272-p3-kou-3
+    type: kou
+    text: 合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
@@ -54,8 +104,8 @@ paragraphs:
     text: 前三項の規定は、特別支配株主が新株予約権売渡請求により売渡新株予約権の取得をした場合について準用する。この場合において、前項中「当該各号に定める者」とあるのは、「当該特別支配株主」と読み替えるものとする。
     modality: gimu
     references:
-    - 前項
     - 前三項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
@@ -89,25 +139,40 @@ parent_section:
 
 ### 第二百七十二条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-272-p1-hashira -->
 株式会社が次に掲げる行為をした場合には、新株予約権を目的とする質権は、当該行為によって当該新株予約権の新株予約権者が受けることのできる金銭等について存在する。
+
+一　新株予約権の取得
+
+二　組織変更
+
+三　合併（合併により当該株式会社が消滅する場合に限る。）
+
+四　吸収分割
+
+五　新設分割
+
+六　株式交換
+
+七　株式移転
 
 ### 第二百七十二条第二項
 
-<!-- segment: simple id: kaisha-hou-art-272-p2 -->
 登録新株予約権質権者は、前項の金銭等（金銭に限る。）を受領し、他の債権者に先立って自己の債権の弁済に充てることができる。
 
 ### 第二百七十二条第三項
 
-<!-- segment: hashira id: kaisha-hou-art-272-p3-hashira -->
 株式会社が次の各号に掲げる行為をした場合において、前項の債権の弁済期が到来していないときは、登録新株予約権質権者は、当該各号に定める者に同項に規定する金銭等に相当する金額を供託させることができる。この場合において、質権は、その供託金について存在する。
+
+一　新株予約権の取得　当該株式会社
+
+二　組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
+
+三　合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
 
 ### 第二百七十二条第四項
 
-<!-- segment: junyou id: kaisha-hou-art-272-p4 -->
 前三項の規定は、特別支配株主が新株予約権売渡請求により売渡新株予約権の取得をした場合について準用する。この場合において、前項中「当該各号に定める者」とあるのは、「当該特別支配株主」と読み替えるものとする。
 
 ### 第二百七十二条第五項
 
-<!-- segment: simple id: kaisha-hou-art-272-p5 -->
 新株予約権付社債に付された新株予約権（第二百三十六条第一項第三号の財産が当該新株予約権付社債についての社債であるものであって、当該社債の償還額が当該新株予約権についての同項第二号の価額以上であるものに限る。）を目的とする質権は、当該新株予約権の行使をすることにより当該新株予約権の新株予約権者が交付を受ける株式について存在する。

@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-80-p1
+    type: simple
+    text: 外国製造医療機器等特例承認取得者については、第百十四条の七十一の規定を準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-80-p2
+    type: simple
+    text: 外国製造医療機器等特例承認取得者は、法第七十五条の二の二第一項第二号の規定により厚生労働大臣に報告した事項の根拠となつた資料を、厚生労働大臣に報告した日から五年間保存しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-80-p3
+    type: simple
+    text: 前項の資料の保存については、第百十四条の七十一各号列記以外の部分ただし書の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

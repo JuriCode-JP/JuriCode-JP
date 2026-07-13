@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十条
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-20-p1 -->
 この法律に定めるもののほか、この法律を実施するため必要な事項は、主務省令で定める。

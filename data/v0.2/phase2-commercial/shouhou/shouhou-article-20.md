@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十条
 
-<!-- segment: simple id: shouhou-art-20-p1 -->
 商人は、支配人を選任し、その営業所において、その営業を行わせることができる。

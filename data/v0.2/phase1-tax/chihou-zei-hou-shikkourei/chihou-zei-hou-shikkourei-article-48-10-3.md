@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-10-3-p1
+    type: junyou
+    text: 第八条の六の規定は、法第三百二十一条の八第二項前段に規定する前事業年度の法人税割額を基準として政令で定めるところにより計算した法人税割額の計算について準用する。この場合において、次の表の上欄に掲げる第八条の六の規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

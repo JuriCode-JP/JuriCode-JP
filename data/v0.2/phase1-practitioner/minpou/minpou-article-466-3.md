@@ -16,7 +16,19 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-3-p1-zen
+    type: zen_dan
+    text: 前条第一項に規定する場合において、譲渡人について破産手続開始の決定があったときは、譲受人（同項の債権の全額を譲り受けた者であって、その債権の譲渡を債務者その他の第三者に対抗することができるものに限る。）は、譲渡制限の意思表示がされたことを知り、又は重大な過失によって知らなかったときであっても、債務者にその債権の全額に相当する金銭を債務の履行地の供託所に供託させることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前条
+  - id: minpou-art-466-3-p1-kou
+    type: kou_dan
+    text: この場合においては、同条第二項及び第三項の規定を準用する。
+    modality: unspecified
+    depends_on: minpou-art-466-3-p1-zen
 cases: []
 amendments: []
 tags:

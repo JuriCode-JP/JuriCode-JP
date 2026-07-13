@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-806-2-p1-honbun
+    type: honbun
+    text: 第七百九十六条の規定に違反した縁組は、縁組の同意をしていない者から、その取消しを家庭裁判所に請求することができる。
+    modality: kanou_kenri
+  - id: minpou-art-806-2-p1-tadashi
+    type: tadashi
+    text: ただし、その者が、縁組を知った後六箇月を経過し、又は追認をしたときは、この限りでない。
+    modality: jogai
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-806-2-p2-honbun
+    type: honbun
+    text: 詐欺又は強迫によって第七百九十六条の同意をした者は、その縁組の取消しを家庭裁判所に請求することができる。
+    modality: kanou_kenri
+  - id: minpou-art-806-2-p2-tadashi
+    type: tadashi
+    text: ただし、その者が、詐欺を発見し、若しくは強迫を免れた後六箇月を経過し、又は追認をしたときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

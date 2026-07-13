@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 第八十九条又は第九十条の場合において、裁判所は、情状により、刑の言渡しと同時に、次に掲げる宣告をすることができる。ただし、第一号の宣告をするのは、その特許権又は特許発明の専用実施権若しくは通常実施権が、犯人に属している場合に限る。
     modality: unspecified
+  - id: dokusen-kinshi-hou-art-100-p1-kou-1
+    type: kou
+    text: 違反行為に供せられた特許権の特許又は特許発明の専用実施権若しくは通常実施権は取り消されるべき旨
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-100-p1-kou-2
+    type: kou
+    text: 判決確定後六月以上三年以下の期間、政府との間に契約をすることができない旨
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -59,15 +69,16 @@ parent_section:
 
 ### 第百条第一項
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-100-p1-hashira -->
 第八十九条又は第九十条の場合において、裁判所は、情状により、刑の言渡しと同時に、次に掲げる宣告をすることができる。ただし、第一号の宣告をするのは、その特許権又は特許発明の専用実施権若しくは通常実施権が、犯人に属している場合に限る。
+
+一　違反行為に供せられた特許権の特許又は特許発明の専用実施権若しくは通常実施権は取り消されるべき旨
+
+二　判決確定後六月以上三年以下の期間、政府との間に契約をすることができない旨
 
 ### 第百条第二項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-100-p2 -->
 前項第一号の宣告をした判決が確定したときは、裁判所は、判決の謄本を特許庁長官に送付しなければならない。
 
 ### 第百条第三項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-100-p3 -->
 前項の規定による判決の謄本の送付があつたときは、特許庁長官は、その特許権の特許又は特許発明の専用実施権若しくは通常実施権を取り消さなければならない。

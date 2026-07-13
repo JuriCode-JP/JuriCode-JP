@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: true
+  has_proviso: false
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -34,6 +34,16 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する者は、委員となることができない。
     modality: kanou_negative
+  - id: keisatsu-hou-art-39-p2-kou-1
+    type: kou
+    text: 破産者で復権を得ない者
+    modality: unspecified
+    item_number: 1
+  - id: keisatsu-hou-art-39-p2-kou-2
+    type: kou
+    text: 拘禁刑以上の刑に処せられた者
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -61,16 +71,16 @@ parent_section:
 
 ### 第三十九条第一項
 
-<!-- segment: honbun id: keisatsu-hou-art-39-p1-honbun -->
-委員は、当該都道府県の議会の議員の被選挙権を有する者で、任命前五年間に警察又は検察の職務を行う職業的公務員の前歴のないもののうちから、都道府県知事が都道府県の議会の同意を得て、任命する。<!-- segment: tadashi id: keisatsu-hou-art-39-p1-tadashi -->
-ただし、道、府及び指定県にあつては、その委員のうち二人は、当該道、府又は県が包括する指定市の議会の議員の被選挙権を有する者で、任命前五年間に警察又は検察の職務を行う職業的公務員の前歴のないもののうちから、当該指定市の市長がその市の議会の同意を得て推薦したものについて、当該道、府又は県の知事が任命する。
+委員は、当該都道府県の議会の議員の被選挙権を有する者で、任命前五年間に警察又は検察の職務を行う職業的公務員の前歴のないもののうちから、都道府県知事が都道府県の議会の同意を得て、任命する。ただし、道、府及び指定県にあつては、その委員のうち二人は、当該道、府又は県が包括する指定市の議会の議員の被選挙権を有する者で、任命前五年間に警察又は検察の職務を行う職業的公務員の前歴のないもののうちから、当該指定市の市長がその市の議会の同意を得て推薦したものについて、当該道、府又は県の知事が任命する。
 
 ### 第三十九条第二項
 
-<!-- segment: hashira id: keisatsu-hou-art-39-p2-hashira -->
 次の各号のいずれかに該当する者は、委員となることができない。
+
+一　破産者で復権を得ない者
+
+二　拘禁刑以上の刑に処せられた者
 
 ### 第三十九条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-39-p3 -->
 委員の任命については、そのうち二人以上（都、道、府及び指定県にあつては三人以上）が同一の政党に所属することとなつてはならない。

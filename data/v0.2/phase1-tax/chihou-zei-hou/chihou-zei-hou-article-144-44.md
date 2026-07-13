@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-44-p1
+    type: simple
+    text: 道府県知事は、第百四十四条の十四第二項の規定による納入申告書又は第百四十四条の十八の規定による申告書（以下この節において「申告書」と総称する。）の提出があつた場合において、当該納入申告又は申告に係る課税標準量又は税額がその調査したところと異なるときは、これを更正することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-44-p2
+    type: simple
+    text: 道府県知事は、軽油引取税の特別徴収義務者又は納税者が申告書を提出しなかつた場合においては、その調査によつて、納入申告し、又は申告すべき課税標準量及び税額を決定することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-44-p3
+    type: simple
+    text: 道府県知事は、第一項若しくはこの項の規定によつて更正し、又は前項の規定によつて決定した課税標準量又は税額について、調査によつて、過大又は過少であることを発見した場合においては、これを更正することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-44-p4
+    type: simple
+    text: 道府県知事は、前三項の規定によつて更正し、又は決定した場合においては、遅滞なく、これを軽油引取税の特別徴収義務者又は納税者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

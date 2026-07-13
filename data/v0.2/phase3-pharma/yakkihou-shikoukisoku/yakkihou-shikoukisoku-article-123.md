@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百二十三条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-123-p1 -->
 登録認証機関は、登録認証機関の登録証の記載事項に変更を生じたときは、その書換え交付を申請することができる。
 
 ### 第百二十三条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-123-p2 -->
 前項の申請は、様式第三による申請書に登録証を添え、厚生労働大臣に対して行わなければならない。

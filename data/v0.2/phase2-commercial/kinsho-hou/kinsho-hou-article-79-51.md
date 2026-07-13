@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-51-p1
+    type: simple
+    text: 基金の業務規程には、第七十九条の五十六第一項の規定による一般顧客に対する支払に関する事項、負担金の算定方法及び納付に関する事項その他内閣府令・財務省令で定める事項を記載しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-51-p2
+    type: simple
+    text: 基金は、業務規程を変更しようとするときは、内閣総理大臣及び財務大臣の認可を受けなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -13,35 +13,65 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-4-p1-honbun
+    type: honbun
+    text: 任命権者は、当該任命権者の属する地方公共団体の条例年齢以上退職者（条例で定める年齢に達した日以後に退職（臨時的に任用される職員その他の法律により任期を定めて任用される職員及び非常勤職員が退職する場合を除く。）をした者をいう。以下同じ。）を、条例で定めるところにより、従前の勤務実績その他の人事委員会規則で定める情報に基づく選考により、短時間勤務の職（当該職を占める職員の一週間当たりの通常の勤務時間が、常時勤務を要する職でその職務が当該短時間勤務の職と同種の職を占める職員の一週間当たりの通常の勤務時間に比し短い時間である職をいう。以下同じ。）に採用することができる。
+    modality: kanou_kenri
+  - id: chihou-koumuin-hou-art-22-4-p1-tadashi
+    type: tadashi
+    text: ただし、条例年齢以上退職者がその者を採用しようとする短時間勤務の職に係る定年退職日相当日（短時間勤務の職を占める職員が、常時勤務を要する職でその職務が当該短時間勤務の職と同種の職を占めているものとした場合における第二十八条の六第一項に規定する定年退職日をいう。第三項及び第四項において同じ。）を経過した者であるときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-4-p2
+    type: simple
+    text: 前項の条例で定める年齢は、国の職員につき定められている国家公務員法（昭和二十二年法律第百二十号）第六十条の二第一項に規定する年齢を基準として定めるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-4-p3
+    type: simple
+    text: 第一項の規定により採用された職員（以下この条及び第二十九条第三項において「定年前再任用短時間勤務職員」という。）の任期は、採用の日から定年退職日相当日までとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-4-p4
+    type: simple
+    text: 任命権者は、条例年齢以上退職者のうちその者を採用しようとする短時間勤務の職に係る定年退職日相当日を経過していない者以外の者を当該短時間勤務の職に採用することができず、定年前再任用短時間勤務職員のうち当該定年前再任用短時間勤務職員を昇任し、降任し、又は転任しようとする短時間勤務の職に係る定年退職日相当日を経過していない定年前再任用短時間勤務職員以外の職員を当該短時間勤務の職に昇任し、降任し、又は転任することができない。
+    modality: kanou_negative
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-4-p5
+    type: simple
+    text: 任命権者は、定年前再任用短時間勤務職員を、常時勤務を要する職に昇任し、降任し、又は転任することができない。
+    modality: kanou_negative
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-22-4-p6
+    type: simple
+    text: 第一項の規定による採用については、第二十二条の規定は、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

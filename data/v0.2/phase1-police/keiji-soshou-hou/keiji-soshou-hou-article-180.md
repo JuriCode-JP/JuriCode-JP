@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -68,16 +68,12 @@ parent_section:
 
 ### 第百八十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-180-p1 -->
 検察官及び弁護人は、裁判所において、前条第一項の処分に関する書類及び証拠物を閲覧し、且つ謄写することができる。但し、弁護人が証拠物の謄写をするについては、裁判官の許可を受けなければならない。
 
 ### 第百八十条第二項
 
-<!-- segment: tokusoku id: keiji-soshou-hou-art-180-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、第百五十七条の六第四項に規定する記録媒体は、謄写することができない。
 
 ### 第百八十条第三項
 
-<!-- segment: honbun id: keiji-soshou-hou-art-180-p3-honbun -->
-被告人又は被疑者は、裁判官の許可を受け、裁判所において、第一項の書類及び証拠物を閲覧することができる。<!-- segment: tadashi id: keiji-soshou-hou-art-180-p3-tadashi -->
-ただし、被告人又は被疑者に弁護人があるときは、この限りでない。
+被告人又は被疑者は、裁判官の許可を受け、裁判所において、第一項の書類及び証拠物を閲覧することができる。ただし、被告人又は被疑者に弁護人があるときは、この限りでない。

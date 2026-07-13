@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百五十条
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-150-p1 -->
 削除

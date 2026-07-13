@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百九十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-293-p1 -->
 証拠調が終つた後、検察官は、事実及び法律の適用について意見を陳述しなければならない。
 
 ### 第二百九十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-293-p2 -->
 被告人及び弁護人は、意見を陳述することができる。

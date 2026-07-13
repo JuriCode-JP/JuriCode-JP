@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百八十三条
 
-<!-- segment: simple id: minpou-art-883-p1 -->
 相続は、被相続人の住所において開始する。

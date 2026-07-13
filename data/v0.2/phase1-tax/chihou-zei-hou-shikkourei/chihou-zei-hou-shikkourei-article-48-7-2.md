@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-7-2-p1
+    type: simple
+    text: 法第三百十四条の六第一号イの表の（３）に規定するひとり親で政令で定めるものは、ひとり親のうち父である者とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-7-2-p2
+    type: simple
+    text: 法第三百十四条の六第一号イの表の（４）に規定するひとり親で政令で定めるものは、ひとり親のうち母である者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

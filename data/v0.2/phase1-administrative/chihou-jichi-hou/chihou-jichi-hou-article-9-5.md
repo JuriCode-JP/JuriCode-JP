@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-9-5-p1
+    type: simple
+    text: 市町村の区域内にあらたに土地を生じたときは、市町村長は、当該市町村の議会の議決を経てその旨を確認し、都道府県知事に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-9-5-p2
+    type: simple
+    text: 前項の規定による届出を受理したときは、都道府県知事は、直ちにこれを告示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

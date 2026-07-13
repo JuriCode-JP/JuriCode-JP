@@ -59,11 +59,8 @@ parent_section:
 
 ### 第二百七十六条第一項
 
-<!-- segment: zen_dan id: kaisha-hou-art-276-p1-zen -->
-株式会社は、自己新株予約権を消却することができる。<!-- segment: kou_dan id: kaisha-hou-art-276-p1-kou depends_on: kaisha-hou-art-276-p1-zen -->
-この場合においては、消却する自己新株予約権の内容及び数を定めなければならない。
+株式会社は、自己新株予約権を消却することができる。この場合においては、消却する自己新株予約権の内容及び数を定めなければならない。
 
 ### 第二百七十六条第二項
 
-<!-- segment: simple id: kaisha-hou-art-276-p2 -->
 取締役会設置会社においては、前項後段の規定による決定は、取締役会の決議によらなければならない。

@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-9-4-p1-hashira
+    type: hashira
+    text: 法第二十七条の十三第一項の規定による公表は、内閣府令で定めるところにより、次に掲げる報道機関に対して公開する方法によりしなければならない。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-9-4-p1-kou-1
+    type: kou
+    text: 時事に関する事項を掲載する日刊新聞紙の販売を業とする新聞社
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-9-4-p1-kou-2
+    type: kou
+    text: 前号に掲げる新聞社に時事に関する事項を総合して伝達することを業とする通信社
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-9-4-p1-kou-3
+    type: kou
+    text: 日本放送協会及び基幹放送事業者（放送法（昭和二十五年法律第百三十二号）第二条第二十三号に規定する基幹放送事業者をいい、日本放送協会及び放送大学学園（放送大学学園法（平成十四年法律第百五十六号）第三条に規定する放送大学学園をいう。）を除く。以下同じ。）
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第九条の四
 
 法第二十七条の十三第一項の規定による公表は、内閣府令で定めるところにより、次に掲げる報道機関に対して公開する方法によりしなければならない。
+
+一　時事に関する事項を掲載する日刊新聞紙の販売を業とする新聞社
+
+二　前号に掲げる新聞社に時事に関する事項を総合して伝達することを業とする通信社
+
+三　日本放送協会及び基幹放送事業者（放送法（昭和二十五年法律第百三十二号）第二条第二十三号に規定する基幹放送事業者をいい、日本放送協会及び放送大学学園（放送大学学園法（平成十四年法律第百五十六号）第三条に規定する放送大学学園をいう。）を除く。以下同じ。）

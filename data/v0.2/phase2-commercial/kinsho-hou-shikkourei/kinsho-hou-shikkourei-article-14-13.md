@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-13-p1
+    type: simple
+    text: 金融商品取引所及び第三条に規定する認可金融商品取引業協会は、通知を受けた事項を法第二十七条の三十の八第一項の規定により公衆の縦覧に供する場合においては、当該事項をその事務所においてその使用に係る電子計算機の入出力装置の映像面に表示して公衆の縦覧に供するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

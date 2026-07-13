@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-11-p1
+    type: simple
+    text: 店頭売買有価証券市場を開設する認可協会は、当該店頭売買有価証券市場において売買を行わせようとする有価証券の種類及び銘柄を当該認可協会に備える店頭売買有価証券登録原簿に登録しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-11-p2
+    type: simple
+    text: 前項の認可協会は、店頭売買有価証券登録原簿の写しを、内閣府令で定めるところにより、その事務所に備え置き、公衆の縦覧に供しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

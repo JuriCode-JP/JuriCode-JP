@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-3-2-p1
+    type: simple
+    text: 金融商品取引業者等は、第二条第二項第五号若しくは第六号に掲げる権利又は同項第七号に掲げる権利（同項第五号又は第六号に掲げる権利と同様の経済的性質を有するものとして政令で定める権利に限る。）については、これらの権利に関し出資され、又は拠出された金銭（これに類するものとして政令で定めるものを含む。以下この条において同じ。）が、当該金銭を充てて行われる事業に充てられていないことを知りながら、第二条第八項第七号から第九号までに掲げる行為をしてはならない。
+    modality: gimu_negative
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

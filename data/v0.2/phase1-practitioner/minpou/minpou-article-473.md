@@ -45,5 +45,4 @@ parent_section:
 
 ### 第四百七十三条
 
-<!-- segment: simple id: minpou-art-473-p1 -->
 債務者が債権者に対して債務の弁済をしたときは、その債権は、消滅する。

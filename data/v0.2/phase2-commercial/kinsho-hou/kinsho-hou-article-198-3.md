@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-198-3-p1
+    type: simple
+    text: 第三十八条の二若しくは第三十九条第一項（これらの規定を第六十六条の十五において準用する場合を含む。）、第四十一条の二第二号若しくは第五号又は第四十二条の二第一号、第三号若しくは第六号の規定に違反した場合（第三十八条の二第一号の規定に違反した場合にあつては、当該違反が投資運用業に関して行われたものである場合を除く。）においては、その行為をした金融商品取引業者等若しくは金融商品仲介業者の代表者、代理人、使用人その他の従業者又は金融商品取引業者若しくは金融商品仲介業者は、三年以下の拘禁刑若しくは三百万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

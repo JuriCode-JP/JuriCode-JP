@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 登録認証機関は、次に掲げる事項について変更をしようとするときは、変更しようとする日の二週間前までに、様式第六による届書を提出しなければならない。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-127-p1-kou-1
+    type: kou
+    text: 法第二十三条の八第二項に規定する事項
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-127-p1-kou-2
+    type: kou
+    text: 役員（持分会社にあつては、業務を執行する社員）又は事業主
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-127-p1-kou-3
+    type: kou
+    text: 審査員の氏名又はその担当する業務の範囲
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-127-p1-kou-4
+    type: kou
+    text: 基準適合性認証審査の業務以外の業務
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-127-p1-kou-5
+    type: kou
+    text: 基準適合性認証の業務を行う指定高度管理医療機器等の範囲
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -39,5 +64,14 @@ parent_section:
 
 ### 第百二十七条
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-127-p1-hashira -->
 登録認証機関は、次に掲げる事項について変更をしようとするときは、変更しようとする日の二週間前までに、様式第六による届書を提出しなければならない。
+
+一　法第二十三条の八第二項に規定する事項
+
+二　役員（持分会社にあつては、業務を執行する社員）又は事業主
+
+三　審査員の氏名又はその担当する業務の範囲
+
+四　基準適合性認証審査の業務以外の業務
+
+五　基準適合性認証の業務を行う指定高度管理医療機器等の範囲

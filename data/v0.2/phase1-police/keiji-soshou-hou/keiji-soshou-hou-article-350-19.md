@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-19-p1
+    type: simple
+    text: 検察官は、即決裁判手続の申立てをした事件について、被告人又は弁護人に対し、第二百九十九条第一項の規定により証拠書類を閲覧する機会その他の同項に規定する機会を与えるべき場合には、できる限り速やかに、その機会を与えなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

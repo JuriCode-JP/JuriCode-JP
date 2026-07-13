@@ -30,6 +30,21 @@ paragraphs:
     type: hashira
     text: 第七十五条第四項（再調査の請求についての決定を経ない審査請求）の規定による審査請求がされたときは、次の各号に掲げる場合の区分に応じ、当該各号に定める不服申立ては、取り下げられたものとみなす。
     modality: unspecified
+  - id: kokuzei-tsuusoku-hou-art-110-p2-kou-1
+    type: kou
+    text: 再調査審理庁において当該審査請求がされた日以前に再調査の請求に係る処分の全部を取り消す旨の再調査決定書の謄本を発している場合　当該審査請求
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-art-110-p2-kou-2
+    type: kou
+    text: 再調査審理庁において当該審査請求がされた日以前に再調査の請求に係る処分の一部を取り消す旨の再調査決定書の謄本を発している場合　その部分についての審査請求
+    modality: unspecified
+    item_number: 2
+  - id: kokuzei-tsuusoku-hou-art-110-p2-kou-3
+    type: kou
+    text: その他の場合　その決定を経ないで当該審査請求がされた再調査の請求
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -50,10 +65,14 @@ parent_section:
 
 ### 第百十条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-110-p1 -->
 不服申立人は、不服申立てについての決定又は裁決があるまでは、いつでも、書面により当該不服申立てを取り下げることができる。
 
 ### 第百十条第二項
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-art-110-p2-hashira -->
 第七十五条第四項（再調査の請求についての決定を経ない審査請求）の規定による審査請求がされたときは、次の各号に掲げる場合の区分に応じ、当該各号に定める不服申立ては、取り下げられたものとみなす。
+
+一　再調査審理庁において当該審査請求がされた日以前に再調査の請求に係る処分の全部を取り消す旨の再調査決定書の謄本を発している場合　当該審査請求
+
+二　再調査審理庁において当該審査請求がされた日以前に再調査の請求に係る処分の一部を取り消す旨の再調査決定書の謄本を発している場合　その部分についての審査請求
+
+三　その他の場合　その決定を経ないで当該審査請求がされた再調査の請求

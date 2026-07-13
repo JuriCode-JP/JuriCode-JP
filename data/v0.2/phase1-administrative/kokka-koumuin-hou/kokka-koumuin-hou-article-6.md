@@ -46,10 +46,8 @@ parent_section:
 
 ### 第六条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-6-p1 -->
 人事官は、任命後、人事院規則の定めるところにより、最高裁判所長官の面前において、宣誓書に署名してからでなければ、その職務を行つてはならない。
 
 ### 第六条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-6-p2 -->
 第三章第七節の規定は、人事官にこれを準用する。

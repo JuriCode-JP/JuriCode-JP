@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十九条
 
-<!-- segment: simple id: keisatsu-hou-art-59-p1 -->
 都道府県警察は、相互に協力する義務を負う。

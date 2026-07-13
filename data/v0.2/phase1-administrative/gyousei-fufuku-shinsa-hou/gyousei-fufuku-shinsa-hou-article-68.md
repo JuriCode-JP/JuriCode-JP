@@ -54,11 +54,8 @@ parent_section:
 
 ### 第六十八条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-68-p1 -->
 審査会は、委員九人をもって組織する。
 
 ### 第六十八条第二項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-68-p2-honbun -->
-委員は、非常勤とする。<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-68-p2-tadashi -->
-ただし、そのうち三人以内は、常勤とすることができる。
+委員は、非常勤とする。ただし、そのうち三人以内は、常勤とすることができる。

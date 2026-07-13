@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第七百三条の三第三項に規定する政令で定める場合は、次に掲げる場合とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-56-87-p1-kou-1
+    type: kou
+    text: 土地区画整理法による土地区画整理事業（農住組合法第八条第一項の規定により土地区画整理法の規定が適用される農住組合法第七条第一項第一号の事業を含む。）の施行により、又はその施行された区域内で宅地開発を行う場合
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-56-87-p1-kou-2
+    type: kou
+    text: 都市計画法第二十九条第一項の規定の適用について国又は地方公共団体とみなされる者が宅地開発を行う場合
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-56-87-p1-kou-3
+    type: kou
+    text: 鉄道施設、軌道施設、自動車ターミナル、港湾施設その他総務省令で定める交通施設（一般交通の用に供されないものを除く。）の用に供するために宅地開発を行う場合
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-56-87-p1-kou-4
+    type: kou
+    text: 前条の公共施設の整備に要する費用に相当すると認められる金額を当該施設の整備に充てるものとして当該市町村に寄附する場合
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -37,5 +57,12 @@ parent_section:
 
 ### 第五十六条の八十七
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-56-87-p1-hashira -->
 法第七百三条の三第三項に規定する政令で定める場合は、次に掲げる場合とする。
+
+一　土地区画整理法による土地区画整理事業（農住組合法第八条第一項の規定により土地区画整理法の規定が適用される農住組合法第七条第一項第一号の事業を含む。）の施行により、又はその施行された区域内で宅地開発を行う場合
+
+二　都市計画法第二十九条第一項の規定の適用について国又は地方公共団体とみなされる者が宅地開発を行う場合
+
+三　鉄道施設、軌道施設、自動車ターミナル、港湾施設その他総務省令で定める交通施設（一般交通の用に供されないものを除く。）の用に供するために宅地開発を行う場合
+
+四　前条の公共施設の整備に要する費用に相当すると認められる金額を当該施設の整備に充てるものとして当該市町村に寄附する場合

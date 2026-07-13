@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百七十四条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-174-p1 -->
 内閣総理大臣及びこの法律の施行に関係する行政機関の長（会計検査院長を除く。）は、相互に緊密に連絡し、及び協力しなければならない。

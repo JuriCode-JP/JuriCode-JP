@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-14-4-p1
+    type: simple
+    text: 法第百七十四条の三第五項に規定する政令で定める取引をしている場合は、違反者（同条第一項に規定する違反者をいう。以下この条から第三十三条の十四の八までにおいて同じ。）が自己又は特定関係者（法第百七十四条の三第七項各号に掲げる者をいう。以下この条から第三十三条の十四の七までにおいて同じ。）の計算において、有価証券を有しないで若しくは借り入れて当該有価証券の売付けをしている場合又は商品を有しないで当該商品の売付け（市場デリバティブ取引（法第二条第二十一項第一号に掲げる取引に限る。）による売付けに限る。）をしている場合とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-14-4-p2
+    type: simple
+    text: 法第百七十四条の三第五項に規定する政令で定める取引は、違反者が自己又は特定関係者の計算において約定している第三十三条の十四の二第二号から第六号までに掲げる取引とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-14-4-p3
+    type: simple
+    text: 法第百七十四条の三第五項に規定する政令で定めるところにより算定する数量は、第三十三条の十四の八第二項各号に掲げる取引の区分に応じ、当該各号に定めるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

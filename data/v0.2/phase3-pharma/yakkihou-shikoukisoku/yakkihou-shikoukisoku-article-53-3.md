@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-3-p1-honbun
+    type: honbun
+    text: 医薬品等区分適合性調査実施者（令第二十六条の二に規定する医薬品等区分適合性調査実施者をいう。）が同条の規定により医薬品等製造販売業許可権者（令第二十三条に規定する医薬品等製造販売業許可権者をいう。）又は医薬品等承認権者（同条に規定する医薬品等承認権者をいう。）に対して行う医薬品等区分適合性調査の結果の通知は、様式第二十六の三による通知書によつて行うものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-53-3-p1-tadashi
+    type: tadashi
+    text: ただし、機構が厚生労働大臣に対して行う当該通知については、第五十五条第三項に規定する結果の通知をもつてこれに代えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

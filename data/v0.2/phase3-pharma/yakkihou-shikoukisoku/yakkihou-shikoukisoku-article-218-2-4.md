@@ -16,12 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-218-2-4-p1
+    type: simple
+    text: 法第五十六条の二第三項第二号の厚生労働省令で定める数量は、次の表の上欄に掲げる医薬品（これらに準ずるものを含む。）に応じ、それぞれ同表の下欄に定める使用数量とする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-218-2-4-p2-hashira
+    type: hashira
+    text: 法第五十六条の二第三項第二号の厚生労働省令で定める場合は、次の各号に掲げる場合とする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-218-2-4-p2-kou-1
+    type: kou
+    text: 申請者が自ら使用する目的で輸入する場合であつて、前項の表の上欄に掲げる医薬品（数量にかかわらず医薬品を自ら使用する目的で輸入する場合に該当するか否かについて確認する必要があるものを除く。）で、それぞれ同表の下欄に定める使用数量以下のものを携帯して輸入し、又は申請者がその住所地で当該医薬品を受け取る場合その他これに準ずる場合
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-218-2-4-p2-kou-2
+    type: kou
+    text: 法第十四条、第十九条の二、第二十三条の二の五若しくは第二十三条の二の十七の承認又は第二十三条の二の二十三の認証の申請をした者が、当該承認又は認証の申請に係る医薬品を輸入する場合
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-218-2-4-p2-kou-3
+    type: kou
+    text: その他当該医薬品の輸入が、法令に違反して販売又は授与を行うおそれがないものであることが明らかな場合
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -49,3 +72,9 @@ parent_section:
 ### 第二百十八条の二の四第二項
 
 法第五十六条の二第三項第二号の厚生労働省令で定める場合は、次の各号に掲げる場合とする。
+
+一　申請者が自ら使用する目的で輸入する場合であつて、前項の表の上欄に掲げる医薬品（数量にかかわらず医薬品を自ら使用する目的で輸入する場合に該当するか否かについて確認する必要があるものを除く。）で、それぞれ同表の下欄に定める使用数量以下のものを携帯して輸入し、又は申請者がその住所地で当該医薬品を受け取る場合その他これに準ずる場合
+
+二　法第十四条、第十九条の二、第二十三条の二の五若しくは第二十三条の二の十七の承認又は第二十三条の二の二十三の認証の申請をした者が、当該承認又は認証の申請に係る医薬品を輸入する場合
+
+三　その他当該医薬品の輸入が、法令に違反して販売又は授与を行うおそれがないものであることが明らかな場合

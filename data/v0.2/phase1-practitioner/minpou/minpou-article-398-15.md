@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-15-p1
+    type: simple
+    text: 抵当権の順位の譲渡又は放棄を受けた根抵当権者が、その根抵当権の譲渡又は一部譲渡をしたときは、譲受人は、その順位の譲渡又は放棄の利益を受ける。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

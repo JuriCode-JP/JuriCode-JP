@@ -22,7 +22,7 @@ paragraphs:
     text: 裁判の対審及び判決は、公開法廷でこれを行ふ。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -46,10 +46,8 @@ parent_section:
 
 ### 第八十二条第一項
 
-<!-- segment: simple id: kenpou-art-82-p1 -->
 裁判の対審及び判決は、公開法廷でこれを行ふ。
 
 ### 第八十二条第二項
 
-<!-- segment: simple id: kenpou-art-82-p2 -->
 裁判所が、裁判官の全員一致で、公の秩序又は善良の風俗を害する虞があると決した場合には、対審は、公開しないでこれを行ふことができる。但し、政治犯罪、出版に関する犯罪又はこの憲法第三章で保障する国民の権利が問題となつてゐる事件の対審は、常にこれを公開しなければならない。

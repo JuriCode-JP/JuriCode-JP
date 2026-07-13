@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-10-p1
+    type: simple
+    text: 警察官は、前条第一項の内閣府令で定める基準に適合する制動装置を備えていないため交通の危険を生じさせるおそれがある自転車と認められる自転車が運転されているときは、当該自転車を停止させ、及び当該自転車の制動装置について検査をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-10-p2
+    type: simple
+    text: 前項の場合において、警察官は、当該自転車の運転者に対し、道路における危険を防止し、その他交通の安全を図るため必要な応急の措置をとることを命じ、また、応急の措置によつては必要な整備をすることができないと認められる自転車については、当該自転車の運転を継続してはならない旨を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -45,3 +57,5 @@ parent_section:
 ### 第六十三条の十第二項
 
 前項の場合において、警察官は、当該自転車の運転者に対し、道路における危険を防止し、その他交通の安全を図るため必要な応急の措置をとることを命じ、また、応急の措置によつては必要な整備をすることができないと認められる自転車については、当該自転車の運転を継続してはならない旨を命ずることができる。
+
+（罰則　第一項については第百二十条第一項第八号　第二項については第百二十条第一項第九号）

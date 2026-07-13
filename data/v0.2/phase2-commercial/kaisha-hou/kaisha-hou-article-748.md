@@ -46,6 +46,4 @@ parent_section:
 
 ### 第七百四十八条
 
-<!-- segment: zen_dan id: kaisha-hou-art-748-p1-zen -->
-会社は、他の会社と合併をすることができる。<!-- segment: kou_dan id: kaisha-hou-art-748-p1-kou depends_on: kaisha-hou-art-748-p1-zen -->
-この場合においては、合併をする会社は、合併契約を締結しなければならない。
+会社は、他の会社と合併をすることができる。この場合においては、合併をする会社は、合併契約を締結しなければならない。

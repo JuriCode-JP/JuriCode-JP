@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-5-p1
+    type: simple
+    text: 広域連合の議会の議員は、政令で特別の定めをするものを除くほか、広域連合の規約で定めるところにより、広域連合の選挙人（広域連合を組織する普通地方公共団体又は特別区の議会の議員及び長の選挙権を有する者で当該広域連合の区域内に住所を有するものをいう。次項及び次条第八項において同じ。）が投票により又は広域連合を組織する地方公共団体の議会においてこれを選挙する。
+    modality: unspecified
+    references:
+    - 次項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-5-p2
+    type: simple
+    text: 広域連合の長は、政令で特別の定めをするものを除くほか、広域連合の規約で定めるところにより、広域連合の選挙人が投票により又は広域連合を組織する地方公共団体の長が投票によりこれを選挙する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

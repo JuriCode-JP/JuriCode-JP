@@ -16,27 +16,56 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-263-3-p1
+    type: simple
+    text: 都道府県知事若しくは都道府県の議会の議長、市長若しくは市の議会の議長又は町村長若しくは町村の議会の議長が、その相互間の連絡を緊密にし、並びに共通の問題を協議し、及び処理するためのそれぞれの全国的連合組織を設けた場合においては、当該連合組織の代表者は、その旨を総務大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-263-3-p2
+    type: simple
+    text: 前項の連合組織で同項の規定による届出をしたものは、地方自治に影響を及ぼす法律又は政令その他の事項に関し、総務大臣を経由して内閣に対し意見を申し出、又は国会に意見書を提出することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-263-3-p3
+    type: simple
+    text: 内閣は、前項の意見の申出を受けたときは、これに遅滞なく回答するよう努めるものとする。
+    modality: doryoku_gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-263-3-p4
+    type: simple
+    text: 前項の場合において、当該意見が地方公共団体に対し新たに事務又は負担を義務付けると認められる国の施策に関するものであるときは、内閣は、これに遅滞なく回答するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-263-3-p5
+    type: simple
+    text: 各大臣は、その担任する事務に関し地方公共団体に対し新たに事務又は負担を義務付けると認められる施策の立案をしようとする場合には、第二項の連合組織が同項の規定により内閣に対して意見を申し出ることができるよう、当該連合組織に当該施策の内容となるべき事項を知らせるために適切な措置を講ずるものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-17-p1
+    type: simple
+    text: 市町村の徴税吏員は、督促状を発した場合においては、当該市町村の条例の定めるところによつて、手数料を徴収することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-10-3-p1-hashira
+    type: hashira
+    text: 法第二十九条の四の二第九項及び第二十九条の四の三第三項に規定する政令で定める要件は、次に掲げるものとする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-15-10-3-p1-kou-1
+    type: kou
+    text: 発行価額の総額として内閣府令で定める方法により算定される額が五億円未満であること。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-15-10-3-p1-kou-2
+    type: kou
+    text: 取得する者（特定投資家を除く。）が払い込む額として内閣府令で定める方法により算定される額が二百万円を超えない範囲内において当該者の財産の状況に応じ内閣府令で定める額以下であること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第十五条の十の三
 
 法第二十九条の四の二第九項及び第二十九条の四の三第三項に規定する政令で定める要件は、次に掲げるものとする。
+
+一　発行価額の総額として内閣府令で定める方法により算定される額が五億円未満であること。
+
+二　取得する者（特定投資家を除く。）が払い込む額として内閣府令で定める方法により算定される額が二百万円を超えない範囲内において当該者の財産の状況に応じ内閣府令で定める額以下であること。

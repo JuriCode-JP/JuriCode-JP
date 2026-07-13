@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-774-8-p1
+    type: simple
+    text: 民法第九十三条第一項ただし書及び第九十四条第一項の規定は、第七百七十四条の四第二項の申込み、第七百七十四条の五第一項の規定による割当て及び第七百七十四条の六の契約に係る意思表示については、適用しない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-774-8-p2
+    type: simple
+    text: 株式交付における株式交付子会社の株式の譲渡人は、第七百七十四条の十一第二項の規定により株式交付親会社の株式の株主となった日から一年を経過した後又はその株式について権利を行使した後は、錯誤、詐欺又は強迫を理由として株式交付子会社の株式の譲渡しの取消しをすることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

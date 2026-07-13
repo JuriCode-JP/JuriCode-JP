@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百六条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-206-p1 -->
 法第五十二条第四項及び法第五十二条の二第三項の規定による公告は、官報により行うものとする。

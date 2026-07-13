@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二十七条第一項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-27-p1 -->
 建物の賃貸人が賃貸借の解約の申入れをした場合においては、建物の賃貸借は、解約の申入れの日から六月を経過することによって終了する。
 
 ### 第二十七条第二項
 
-<!-- segment: junyou id: shakuchi-shakka-hou-art-27-p2 -->
 前条第二項及び第三項の規定は、建物の賃貸借が解約の申入れによって終了した場合に準用する。

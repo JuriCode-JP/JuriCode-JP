@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-21-p1-honbun
+    type: honbun
+    text: 認可地縁団体は、総構成員の四分の三以上の賛成がなければ、解散の決議をすることができない。
+    modality: kanou_negative
+  - id: chihou-jichi-hou-art-260-21-p1-tadashi
+    type: tadashi
+    text: ただし、規約に別段の定めがあるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

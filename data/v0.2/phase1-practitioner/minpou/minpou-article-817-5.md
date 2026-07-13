@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-5-p1
+    type: simple
+    text: 第八百十七条の二に規定する請求の時に十五歳に達している者は、養子となることができない。特別養子縁組が成立するまでに十八歳に達した者についても、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-5-p2
+    type: simple
+    text: 前項前段の規定は、養子となる者が十五歳に達する前から引き続き養親となる者に監護されている場合において、十五歳に達するまでに第八百十七条の二に規定する請求がされなかったことについてやむを得ない事由があるときは、適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-5-p3
+    type: simple
+    text: 養子となる者が十五歳に達している場合においては、特別養子縁組の成立には、その者の同意がなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

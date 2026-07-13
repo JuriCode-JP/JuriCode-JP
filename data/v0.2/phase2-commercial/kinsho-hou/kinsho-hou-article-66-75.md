@@ -16,27 +16,55 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-75-p1
+    type: simple
+    text: 投資運用関係業務受託業者は、第六十六条の七十二第一項各号（第六号を除く。）に掲げる事項について変更があつたときは、その日から二週間以内に、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-75-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定による届出を受理したときは、届出があつた事項を投資運用関係業務受託業者登録簿に登録しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-75-p3
+    type: simple
+    text: 投資運用関係業務受託業者は、第六十六条の七十二第二項第二号に掲げる書類に記載した業務の内容又は方法について変更があつたときは、内閣府令で定めるところにより、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-75-p4
+    type: simple
+    text: 投資運用関係業務受託業者は、第六十六条の七十二第一項第六号に掲げる事項について変更をしようとするときは、内閣府令で定めるところにより、内閣総理大臣の行う変更登録を受けなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-75-p5
+    type: junyou
+    text: 前二条の規定は、前項の変更登録について準用する。この場合において、第六十六条の七十三第一項中「次に掲げる事項」とあるのは「変更に係る事項」と、前条中「次の各号」とあるのは「第三号から第五号まで、第七号ハ若しくは第八号ハ」と読み替えるものとするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 前二条
+    references:
+    - 前二条
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

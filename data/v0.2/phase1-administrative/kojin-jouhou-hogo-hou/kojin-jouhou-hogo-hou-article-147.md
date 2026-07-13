@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百四十七条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-147-p1 -->
 委員会は、第四章の規定の施行に必要な限度において、個人情報取扱事業者等に対し、個人情報等の取扱いに関し必要な指導及び助言をすることができる。

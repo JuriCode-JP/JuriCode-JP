@@ -48,10 +48,8 @@ parent_section:
 
 ### 第五十五条第一項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-55-p1 -->
 青色申告法人は、仕訳帳には、取引の発生順に、取引の年月日、内容、勘定科目及び金額を記載しなければならない。
 
 ### 第五十五条第二項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-55-p2 -->
 青色申告法人は、総勘定元帳には、その勘定ごとに記載の年月日、相手方勘定科目及び金額を記載しなければならない。

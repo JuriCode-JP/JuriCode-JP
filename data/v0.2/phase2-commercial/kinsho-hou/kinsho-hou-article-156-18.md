@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-18-p1
+    type: simple
+    text: 金融商品取引清算機関の金融商品債務引受業の廃止又は解散の決議は、内閣総理大臣の認可を受けなければ、その効力を生じない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

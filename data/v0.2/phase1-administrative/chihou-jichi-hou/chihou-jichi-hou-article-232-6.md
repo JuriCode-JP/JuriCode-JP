@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-232-6-p1-honbun
+    type: honbun
+    text: 第二百三十五条の規定により金融機関を指定している普通地方公共団体における支出は、政令の定めるところにより、現金の交付に代え、当該金融機関を支払人とする小切手を振り出し、又は公金振替書を当該金融機関に交付してこれをするものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-232-6-p1-tadashi
+    type: tadashi
+    text: ただし、小切手を振り出すべき場合において、債権者から申出があるときは、会計管理者は、自ら現金で小口の支払をし、又は当該金融機関をして現金で支払をさせることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-232-6-p2
+    type: simple
+    text: 前項の金融機関は、会計管理者の振り出した小切手の提示を受けた場合において、その小切手が振出日付から十日以上を経過しているものであつても一年を経過しないものであるときは、その支払をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

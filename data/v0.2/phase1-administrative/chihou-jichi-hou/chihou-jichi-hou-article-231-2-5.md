@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-5-p1
+    type: simple
+    text: 指定納付受託者は、第二百三十一条の二の二の規定により歳入等を納付しようとする者の委託を受けたときは、普通地方公共団体が指定する日までに当該委託を受けた歳入等を納付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-5-p2
+    type: simple
+    text: 指定納付受託者は、第二百三十一条の二の二の規定により歳入等を納付しようとする者の委託を受けたときは、遅滞なく、総務省令で定めるところにより、その旨及び当該委託を受けた年月日を普通地方公共団体の長に報告しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-5-p3
+    type: simple
+    text: 第一項の場合において、当該指定納付受託者が同項の指定する日までに当該歳入等を納付したときは、当該委託を受けた日に当該歳入等の納付がされたものとみなす。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

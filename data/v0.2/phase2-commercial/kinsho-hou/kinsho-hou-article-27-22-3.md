@@ -16,42 +16,93 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-22-3-p1
+    type: simple
+    text: 前条第一項に規定する公開買付けによる上場株券等の買付け等を行おうとする発行者は、当該発行者の重要事実（第百六十六条第一項に規定する業務等に関する重要事実（内閣府令で定めるものを除く。）をいう。以下この条及び次条において同じ。）であつて第百六十六条第一項に規定する公表がされていないものがあるときは、公開買付届出書（前条第二項において準用する第二十七条の三第二項に規定する公開買付届出書をいう。以下この条及び次条において同じ。）を提出する日前に、内閣府令で定めるところにより、当該重要事実を公表しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-22-3-p2
+    type: simple
+    text: 前条第一項に規定する公開買付けによる上場株券等の買付け等を行う場合において、公開買付者である発行者は、公開買付届出書を提出した日以後当該公開買付けに係る前条第二項において準用する第二十七条の五に規定する公開買付期間（第四項において準用する第二十七条の八第八項の規定により延長しなければならない期間を含む。次条において同じ。）の末日までの間において、当該発行者に重要事実が生じたとき（公開買付届出書を提出する日前に生じた重要事実であつて第百六十六条第一項に規定する公表がされていないものがあることが判明したときを含む。）は、直ちに、内閣府令で定めるところにより、当該重要事実を公表し、かつ、当該公開買付けに係る上場株券等の買付け等の申込みに対する承諾又は売付け等の申込みをした者及び当該上場株券等の売付け等を行おうとする者に対して、当該公表の内容を通知しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-22-3-p3
+    type: simple
+    text: 前二項の規定による公表がされた後政令で定める期間が経過したときは、第百六十六条第一項に規定する公表がされたものとみなす。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-22-3-p4
+    type: junyou
+    text: 第二十七条の八第八項及び第九項の規定は、第二項の規定による公表について準用する。この場合において、同条第八項中「第一項若しくは第二項の規定による訂正届出書を提出する場合又は第三項若しくは第四項の規定による訂正届出書の提出命令があつた場合には、内閣府令で定める場合を除き」とあるのは「第二十七条の二十二の三第二項の規定により当該重要事実を公表しなければならない場合には」と、同条第九項中「前項の規定」とあるのは「第二十七条の二十二の三第四項において準用する前項の規定」と、「株券等」とあるのは「上場株券等」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-22-3-p5
+    type: junyou
+    text: 第二十七条の五の規定は、前項において準用する第二十七条の八第八項の規定により公開買付けに係る公開買付けの期間を延長しなければならない場合における当該延長しなければならない期間の末日までの間について準用する。この場合において、第二十七条の五中「株券等」とあるのは「上場株券等」と、「次に掲げる」とあるのは「政令で定める」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-22-3-p6
+    type: junyou
+    text: 第十八条第一項の規定は、重要な事項について虚偽の表示があり、又は表示すべき重要な事項若しくは誤解を生じさせないために必要な重要な事実の表示が欠けている第四項において準用する第二十七条の八第八項の規定による公告又は公表を行つた発行者について準用する。この場合において、第十八条第一項中「当該有価証券を当該募集又は売出しに応じて取得した者」とあり、及び「当該有価証券を取得した者」とあるのは「当該公開買付けに応じて当該上場株券等の売付け等をした者」と、「その取得の申込みの際」とあるのは「その売付け等の際」と読み替えるものとする。
+    modality: gimu
 - number: 7
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-22-3-p7-honbun
+    type: honbun
+    text: 前項において準用する第十八条第一項の規定の適用がある場合において、当該発行者が前項に規定する公告又は公表を行つた時における当該発行者の役員は、当該発行者と連帯して同項の規定による賠償の責めに任ずる。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
+  - id: kinsho-hou-art-27-22-3-p7-tadashi
+    type: tadashi
+    text: ただし、当該役員が、記載が虚偽であり又は欠けていることを知らず、かつ、相当な注意を用いたにもかかわらず知ることができなかつたことを証明したときは、この限りでない。
+    modality: jogai
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-22-3-p8
+    type: junyou
+    text: 第二十七条の十七の規定は、第五項において準用する第二十七条の五の規定に違反して上場株券等の買付け等をした場合について準用する。この場合において、第二十七条の十七中「株券等」とあるのは「上場株券等」と読み替えるものとするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

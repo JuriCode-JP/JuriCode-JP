@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-14-p1
+    type: simple
+    text: 薬事監視員又は麻薬取締官若しくは麻薬取締員は、法第七十六条の八第一項の規定により指定薬物若しくはその疑いがある物品又は指定薬物と同等以上に精神毒性を有する蓋然性が高い物である疑いがある物品を収去しようとするときは、その相手方に、様式第百六の三による収去証を交付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

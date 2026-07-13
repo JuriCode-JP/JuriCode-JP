@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第百七十五条第二項第三号（仮装経理に基づく過大申告の場合の更正に伴う還付特例対象法人税額等の範囲）に規定する財務省令で定めるものは、次に掲げるものとする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-60-2-p1-kou-1
+    type: kou
+    text: 債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-60-2-p1-kou-2
+    type: kou
+    text: 行政機関、金融機関その他第三者のあつせんによる当事者間の協議による前号に準ずる内容の契約の締結
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +40,26 @@ paragraphs:
     type: hashira
     text: 法第百三十五条第六項（仮装経理に基づく過大申告の場合の更正に伴う法人税額の還付の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-60-2-p2-kou-1
+    type: kou
+    text: 請求をする内国法人の名称、納税地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-60-2-p2-kou-2
+    type: kou
+    text: 代表者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-60-2-p2-kou-3
+    type: kou
+    text: 法第百三十五条第四項に規定する事実の生じた日及び当該事実の詳細
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-60-2-p2-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -48,10 +78,20 @@ parent_section:
 
 ### 第六十条の二第一項
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-60-2-p1-hashira -->
 令第百七十五条第二項第三号（仮装経理に基づく過大申告の場合の更正に伴う還付特例対象法人税額等の範囲）に規定する財務省令で定めるものは、次に掲げるものとする。
+
+一　債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
+
+二　行政機関、金融機関その他第三者のあつせんによる当事者間の協議による前号に準ずる内容の契約の締結
 
 ### 第六十条の二第二項
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-60-2-p2-hashira -->
 法第百三十五条第六項（仮装経理に基づく過大申告の場合の更正に伴う法人税額の還付の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　請求をする内国法人の名称、納税地及び法人番号
+
+二　代表者の氏名
+
+三　法第百三十五条第四項に規定する事実の生じた日及び当該事実の詳細
+
+四　その他参考となるべき事項

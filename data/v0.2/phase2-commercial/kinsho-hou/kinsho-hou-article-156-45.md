@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-45-p1
+    type: simple
+    text: 指定紛争解決機関は、手続実施基本契約により加入金融商品取引関係業者が負担する義務の不履行が生じた場合において、当該加入金融商品取引関係業者の意見を聴き、当該不履行につき正当な理由がないと認めるときは、遅滞なく、当該加入金融商品取引関係業者の商号、名称又は氏名及び当該不履行の事実を公表するとともに、内閣総理大臣に報告しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-45-p2
+    type: simple
+    text: 指定紛争解決機関は、金融商品取引業等業務関連苦情及び金融商品取引業等業務関連紛争を未然に防止し、並びに金融商品取引業等業務関連苦情の処理及び金融商品取引業等業務関連紛争の解決を促進するため、加入金融商品取引関係業者その他の者に対し、情報の提供、相談その他の援助を行うよう努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

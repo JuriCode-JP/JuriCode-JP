@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-332-2-p1
+    type: simple
+    text: 法第六十六条の五十三第五号イ（１）に規定する内閣府令で定める者は、精神の機能の障害により高速取引行為に係る業務を適正に行うに当たって必要な認知、判断及び意思疎通を適切に行うことができない者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

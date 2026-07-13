@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: shouken-jouhou-furei-art-10-p1-kou-1
+    type: kou
+    text: 第七条第五項各号に該当することとなった場合　当該公表をした日から当該各号に該当することとなった日までの期間
+    modality: unspecified
+    item_number: 1
+  - id: shouken-jouhou-furei-art-10-p1-kou-2
+    type: kou
+    text: 当該発行者情報に係る有価証券が消却、償還その他の理由により存しないこととなった場合　当該発行者情報の公表をした日から当該有価証券が存しないこととなった日までの期間
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第十条
 
-<!-- segment: hashira id: shouken-jouhou-furei-art-10-p1-hashira -->
 法第二十七条の三十二第四項に規定する内閣府令で定める場合は、次の各号に掲げる場合とし、同項に規定する内閣府令で定める期間は、それぞれ当該各号に定める期間とする。
+
+一　第七条第五項各号に該当することとなった場合　当該公表をした日から当該各号に該当することとなった日までの期間
+
+二　当該発行者情報に係る有価証券が消却、償還その他の理由により存しないこととなった場合　当該発行者情報の公表をした日から当該有価証券が存しないこととなった日までの期間

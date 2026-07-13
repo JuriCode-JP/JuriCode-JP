@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 株式会社は、剰余金の額を減少して、準備金の額を増加することができる。この場合においては、次に掲げる事項を定めなければならない。
     modality: gimu
+  - id: kaisha-hou-art-451-p1-kou-1
+    type: kou
+    text: 減少する剰余金の額
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-451-p1-kou-2
+    type: kou
+    text: 準備金の額の増加がその効力を生ずる日
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -67,15 +77,16 @@ parent_section:
 
 ### 第四百五十一条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-451-p1-hashira -->
 株式会社は、剰余金の額を減少して、準備金の額を増加することができる。この場合においては、次に掲げる事項を定めなければならない。
+
+一　減少する剰余金の額
+
+二　準備金の額の増加がその効力を生ずる日
 
 ### 第四百五十一条第二項
 
-<!-- segment: simple id: kaisha-hou-art-451-p2 -->
 前項各号に掲げる事項の決定は、株主総会の決議によらなければならない。
 
 ### 第四百五十一条第三項
 
-<!-- segment: simple id: kaisha-hou-art-451-p3 -->
 第一項第一号の額は、同項第二号の日における剰余金の額を超えてはならない。

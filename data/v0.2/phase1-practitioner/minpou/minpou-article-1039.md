@@ -41,5 +41,4 @@ parent_section:
 
 ### 第千三十九条
 
-<!-- segment: simple id: minpou-art-1039-p1 -->
 配偶者が居住建物に係る配偶者居住権を取得したときは、配偶者短期居住権は、消滅する。

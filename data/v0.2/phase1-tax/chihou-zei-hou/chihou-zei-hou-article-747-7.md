@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-7-p1
+    type: simple
+    text: 特定徴収金を納付し、又は納入しようとする者は、電子情報処理組織を使用して行う機構指定納付受託者（次条第一項に規定する機構指定納付受託者をいう。以下この条において同じ。）に対する通知で総務省令で定めるものに基づき納付し、又は納入しようとするときは、機構指定納付受託者に納付又は納入を委託することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

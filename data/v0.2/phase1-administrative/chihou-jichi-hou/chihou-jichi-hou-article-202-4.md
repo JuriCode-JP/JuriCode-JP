@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-4-p1
+    type: simple
+    text: 市町村は、市町村長の権限に属する事務を分掌させ、及び地域の住民の意見を反映させつつこれを処理させるため、条例で、その区域を分けて定める区域ごとに地域自治区を設けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-4-p2
+    type: simple
+    text: 地域自治区に事務所を置くものとし、事務所の位置、名称及び所管区域は、条例で定める。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-4-p3
+    type: simple
+    text: 地域自治区の事務所の長は、当該普通地方公共団体の長の補助機関である職員をもつて充てる。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-4-p4
+    type: junyou
+    text: 第四条第二項の規定は第二項の地域自治区の事務所の位置及び所管区域について、第百七十五条第二項の規定は前項の事務所の長について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

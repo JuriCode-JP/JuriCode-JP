@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百四十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-446-p1 -->
 再審の請求が法令上の方式に違反し、又は請求権の消滅後にされたものであるときは、決定でこれを棄却しなければならない。

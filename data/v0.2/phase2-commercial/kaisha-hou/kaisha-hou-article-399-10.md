@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-10-p1
+    type: simple
+    text: 監査等委員会の決議は、議決に加わることができる監査等委員の過半数が出席し、その過半数をもって行う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-10-p2
+    type: simple
+    text: 前項の決議について特別の利害関係を有する監査等委員は、議決に加わることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-10-p3
+    type: simple
+    text: 監査等委員会の議事については、法務省令で定めるところにより、議事録を作成し、議事録が書面をもって作成されているときは、出席した監査等委員は、これに署名し、又は記名押印しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-10-p4
+    type: simple
+    text: 前項の議事録が電磁的記録をもって作成されている場合における当該電磁的記録に記録された事項については、法務省令で定める署名又は記名押印に代わる措置をとらなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-10-p5
+    type: simple
+    text: 監査等委員会の決議に参加した監査等委員であって第三項の議事録に異議をとどめないものは、その決議に賛成したものと推定する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

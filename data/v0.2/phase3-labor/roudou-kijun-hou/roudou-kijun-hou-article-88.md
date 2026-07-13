@@ -37,5 +37,4 @@ parent_section:
 
 ### 第八十八条
 
-<!-- segment: simple id: roudou-kijun-hou-art-88-p1 -->
 この章に定めるものの外、補償に関する細目は、厚生労働省令で定める。

@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-3-p1-hashira
+    type: hashira
+    text: 法第四十条の五第七項の厚生労働省令で定める者は、次に掲げるものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-196-3-p1-kou-1
+    type: kou
+    text: 国、都道府県知事又は市町村長（特別区の区長を含む。）
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-196-3-p1-kou-2
+    type: kou
+    text: 研究施設の長又は教育機関の長であつて研究又は教育を行うに当たり必要な再生医療等製品を使用するもの
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-196-3-p1-kou-3
+    type: kou
+    text: 医薬品、医薬部外品、化粧品又は医療機器の製造業者であつて製造を行うに当たり必要な再生医療等製品を使用するもの
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-196-3-p1-kou-4
+    type: kou
+    text: 前三号に掲げるものに準ずるものであつて販売等の相手方として厚生労働大臣が適当と認めるもの
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第百九十六条の三
 
 法第四十条の五第七項の厚生労働省令で定める者は、次に掲げるものとする。
+
+一　国、都道府県知事又は市町村長（特別区の区長を含む。）
+
+二　研究施設の長又は教育機関の長であつて研究又は教育を行うに当たり必要な再生医療等製品を使用するもの
+
+三　医薬品、医薬部外品、化粧品又は医療機器の製造業者であつて製造を行うに当たり必要な再生医療等製品を使用するもの
+
+四　前三号に掲げるものに準ずるものであつて販売等の相手方として厚生労働大臣が適当と認めるもの

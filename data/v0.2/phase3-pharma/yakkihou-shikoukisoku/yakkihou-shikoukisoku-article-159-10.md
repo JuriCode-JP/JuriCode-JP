@@ -16,27 +16,64 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-10-p1
+    type: simple
+    text: 登録販売者は、一般用医薬品の販売又は授与に従事しようとしなくなつたときは、三十日以内に、登録販売者名簿の登録の消除を申請しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-10-p2
+    type: simple
+    text: 登録販売者が死亡し、又は失踪そうの宣告を受けたときは、戸籍法（昭和二十二年法律第二百二十四号）による死亡又は失踪そうの届出義務者は、三十日以内に、登録販売者名簿の登録の消除を申請しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-10-p3
+    type: simple
+    text: 前二項の申請をするには、様式第八十六の五による申請書を、登録を受けた都道府県知事に提出しなければならない。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-10-p4
+    type: simple
+    text: 登録販売者又はその法定代理人若しくは同居の親族は、当該登録販売者が精神の機能の障害を有する状態となり登録販売者の業務の継続が著しく困難になつたときは、遅滞なく、登録を受けた都道府県知事にその旨を届け出るものとする。
+    modality: gimu
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-10-p5-hashira
+    type: hashira
+    text: 都道府県知事は、登録販売者が次の各号のいずれかに該当する場合には、その登録を消除しなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-159-10-p5-kou-1
+    type: kou
+    text: 第一項又は第二項の規定による申請がされ、又は、登録販売者が死亡し、若しくは失踪そうの宣告を受けたことが確認されたとき
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-159-10-p5-kou-2
+    type: kou
+    text: 法第五条第三号イからヘまでのいずれかに該当するに至つたとき
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-159-10-p5-kou-3
+    type: kou
+    text: 偽りその他不正の手段により販売従事登録を受けたことが判明したとき
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -70,3 +107,9 @@ parent_section:
 ### 第百五十九条の十第五項
 
 都道府県知事は、登録販売者が次の各号のいずれかに該当する場合には、その登録を消除しなければならない。
+
+一　第一項又は第二項の規定による申請がされ、又は、登録販売者が死亡し、若しくは失踪そうの宣告を受けたことが確認されたとき
+
+二　法第五条第三号イからヘまでのいずれかに該当するに至つたとき
+
+三　偽りその他不正の手段により販売従事登録を受けたことが判明したとき

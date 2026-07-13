@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-7-p1
+    type: simple
+    text: 委員会は、その所掌事務を遂行するため必要があると認めるときは、関係行政機関の長に対し、情報の収集、資料の提出、意見の表明、説明その他必要な協力を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

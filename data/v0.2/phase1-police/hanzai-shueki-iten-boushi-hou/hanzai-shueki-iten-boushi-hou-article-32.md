@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十二条
 
-<!-- segment: junyou id: hanzai-shueki-iten-boushi-hou-art-32-p1 -->
 金融商品取引法第九章の規定は、第二十二条第六項各号に掲げる行為に係る第二十七条及び前条第三号に規定する罪の事件について準用する。

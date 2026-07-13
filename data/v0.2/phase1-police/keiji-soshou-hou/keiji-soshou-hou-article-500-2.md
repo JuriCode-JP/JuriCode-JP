@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-500-2-p1
+    type: simple
+    text: 被告人又は被疑者は、検察官に訴訟費用の概算額の予納をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

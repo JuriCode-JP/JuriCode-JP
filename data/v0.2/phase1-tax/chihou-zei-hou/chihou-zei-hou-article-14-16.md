@@ -16,27 +16,63 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-16-p1
+    type: simple
+    text: 納税者又は特別徴収義務者が他に地方団体の徴収金に充てるべき十分な財産がない場合において、その者がその地方団体の徴収金の法定納期限等後に登記した質権又は抵当権を設定した財産を譲渡したときは、納税者又は特別徴収義務者の財産につき滞納処分をしてもなおその地方団体の徴収金に不足すると認められるときに限り、その地方団体の徴収金は、その質権者又は抵当権者から、これらの者がその譲渡に係る財産の強制換価手続においてその質権又は抵当権によつて担保される債権につき配当を受けるべき金額のうちから徴収することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-16-p2
+    type: simple
+    text: 前項の規定により徴収することができる金額は、第一号に掲げる金額から第二号に掲げる金額を控除した額をこえることができない。
+    modality: kanou_negative
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-14-16-p2-kou-1
+    type: kou
+    text: 前項の譲渡に係る財産の換価代金から同項に規定する債権が配当を受けるべき金額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-14-16-p2-kou-2
+    type: kou
+    text: 前号の財産を納税者又は特別徴収義務者の財産とみなし、その財産の換価代金につき前項の地方団体の徴収金の交付要求があつたものとした場合に同項の債権が配当を受けるべき金額
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-16-p3
+    type: simple
+    text: 地方団体の長は、第一項の規定により地方団体の徴収金を徴収するため、同項の質権者又は抵当権者に代位してその質権又は抵当権を実行することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-16-p4
+    type: simple
+    text: 地方団体の長は、第一項の規定により地方団体の徴収金を徴収しようとするときは、その旨を質権者又は抵当権者に通知しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-16-p5
+    type: simple
+    text: 地方団体の長は、第一項の譲渡に係る財産につき強制換価手続が行われた場合には、同項の規定により徴収することができる金額の地方団体の徴収金につき、執行機関に対し、交付要求をすることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -60,6 +96,10 @@ parent_section:
 ### 第十四条の十六第二項
 
 前項の規定により徴収することができる金額は、第一号に掲げる金額から第二号に掲げる金額を控除した額をこえることができない。
+
+一　前項の譲渡に係る財産の換価代金から同項に規定する債権が配当を受けるべき金額
+
+二　前号の財産を納税者又は特別徴収義務者の財産とみなし、その財産の換価代金につき前項の地方団体の徴収金の交付要求があつたものとした場合に同項の債権が配当を受けるべき金額
 
 ### 第十四条の十六第三項
 

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる事項は、内閣総理大臣の認可を受けなければ、その効力を生じない。
     modality: unspecified
+  - id: kinsho-hou-art-135-p1-kou-1
+    type: kou
+    text: 金融商品取引所の解散についての総会の決議
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-135-p1-kou-2
+    type: kou
+    text: 金融商品取引所を全部又は一部の当事者とする合併（第百四十条第一項の合併を除く。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +40,21 @@ paragraphs:
     type: hashira
     text: 金融商品取引所が次に掲げる事由により解散したときは、その代表者であつた者は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
     modality: gimu
+  - id: kinsho-hou-art-135-p2-kou-1
+    type: kou
+    text: 定款で定めた解散の事由の発生
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-135-p2-kou-2
+    type: kou
+    text: 会員の数が五以下となつたこと。
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-135-p2-kou-3
+    type: kou
+    text: 解散を命ずる裁判
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -50,10 +75,18 @@ parent_section:
 
 ### 第百三十五条第一項
 
-<!-- segment: hashira id: kinsho-hou-art-135-p1-hashira -->
 次に掲げる事項は、内閣総理大臣の認可を受けなければ、その効力を生じない。
+
+一　金融商品取引所の解散についての総会の決議
+
+二　金融商品取引所を全部又は一部の当事者とする合併（第百四十条第一項の合併を除く。）
 
 ### 第百三十五条第二項
 
-<!-- segment: hashira id: kinsho-hou-art-135-p2-hashira -->
 金融商品取引所が次に掲げる事由により解散したときは、その代表者であつた者は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+
+一　定款で定めた解散の事由の発生
+
+二　会員の数が五以下となつたこと。
+
+三　解散を命ずる裁判

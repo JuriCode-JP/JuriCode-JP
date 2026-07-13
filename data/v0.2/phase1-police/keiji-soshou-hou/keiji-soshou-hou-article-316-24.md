@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-24-p1
+    type: simple
+    text: 裁判所は、公判前整理手続を終了するに当たり、検察官及び被告人又は弁護人との間で、事件の争点及び証拠の整理の結果を確認しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

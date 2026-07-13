@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-22-p1
+    type: simple
+    text: 認可地縁団体がその債務につきその財産をもつて完済することができなくなつた場合には、裁判所は、代表者若しくは債権者の申立てにより又は職権で、破産手続開始の決定をする。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-22-p2
+    type: simple
+    text: 前項に規定する場合には、代表者は、直ちに破産手続開始の申立てをしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

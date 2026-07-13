@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-147-12-p1
+    type: simple
+    text: 法第二十九条の四の規定による掲示（次条に規定するものを除く。）は、次項に定める事項を表示した掲示板によるものとする。
+    modality: gimu
+    references:
+    - 次項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-147-12-p2
+    type: simple
+    text: 法第二十九条の四の厚生労働省令で定める事項（次条に規定するものを除く。）は、別表第一の二のとおりとする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

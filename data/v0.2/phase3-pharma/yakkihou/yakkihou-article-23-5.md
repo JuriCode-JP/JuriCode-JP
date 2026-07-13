@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-5-p1
+    type: simple
+    text: 登録認証機関は、基準適合性認証を与え、第二十三条の二の二十三第四項若しくは第六項の調査を行い、若しくは同条第八項の規定による届出を受けたとき、又は前条の規定により基準適合性認証を取り消したときは、厚生労働省令で定めるところにより、報告書を作成し、厚生労働大臣に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-5-p2
+    type: tokusoku
+    text: 厚生労働大臣が、第二十三条の二の七第一項の規定により機構に審査を行わせることとしたときは、指定高度管理医療機器等（専ら動物のために使用されることが目的とされているものを除く。）に係る基準適合性認証についての前項の規定による報告書の提出をしようとする者は、同項の規定にかかわらず、厚生労働省令で定めるところにより、機構に提出しなければならない。この場合において、機構が当該報告書を受理したときは、厚生労働省令で定めるところにより、厚生労働大臣にその旨を通知しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

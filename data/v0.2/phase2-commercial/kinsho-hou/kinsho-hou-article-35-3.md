@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-35-3-p1
+    type: simple
+    text: 金融商品取引業者等は、その行う金融商品取引業又は登録金融機関業務を適確に遂行するため、内閣府令で定めるところにより、業務管理体制を整備しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-317-p1 -->
 事実の認定は、証拠による。

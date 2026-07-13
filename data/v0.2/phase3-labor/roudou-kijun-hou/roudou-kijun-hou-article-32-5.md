@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-5-p1
+    type: tokusoku
+    text: 使用者は、日ごとの業務に著しい繁閑の差が生ずることが多く、かつ、これを予測した上で就業規則その他これに準ずるものにより各日の労働時間を特定することが困難であると認められる厚生労働省令で定める事業であつて、常時使用する労働者の数が厚生労働省令で定める数未満のものに従事する労働者については、当該事業場に、労働者の過半数で組織する労働組合がある場合においてはその労働組合、労働者の過半数で組織する労働組合がない場合においては労働者の過半数を代表する者との書面による協定があるときは、第三十二条第二項の規定にかかわらず、一日について十時間まで労働させることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第三十二条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-5-p2
+    type: simple
+    text: 使用者は、前項の規定により労働者に労働させる場合においては、厚生労働省令で定めるところにより、当該労働させる一週間の各日の労働時間を、あらかじめ、当該労働者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-5-p3
+    type: junyou
+    text: 第三十二条の二第二項の規定は、第一項の協定について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

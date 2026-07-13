@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-2-2-p1
+    type: simple
+    text: その有価証券発行勧誘等（法第四条第二項に規定する有価証券発行勧誘等をいう。以下同じ。）が適格機関投資家向け勧誘（法第二十三条の十三第一項に規定する適格機関投資家向け勧誘をいう。以下同じ。）に該当する有価証券（次条において「適格機関投資家向け証券」という。）を発行する外国会社は、本邦内に住所を有する者であつて、当該有価証券の譲渡に関する行為につき、当該外国会社を代理する権限を有するもの（同条において「発行者の代理人」という。）を定めなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

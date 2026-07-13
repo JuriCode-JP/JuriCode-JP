@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-13-p1
+    type: simple
+    text: 法第二十三条の二十二第四項の再生医療等製品の製造業の許可の更新の申請は、様式第十四による申請書（正本一通及び副本二通）を地方厚生局長に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-13-p2
+    type: simple
+    text: 前項の申請書には、申請に係る許可の許可証を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

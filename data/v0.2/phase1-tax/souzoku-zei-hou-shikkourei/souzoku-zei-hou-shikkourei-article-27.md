@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の請求をしようとする者は、同項の開示請求書に法第四十九条第一項に規定する被相続人に係る相続時精算課税適用者であることを明らかにする書類、当該被相続人から相続若しくは遺贈により財産を取得したことを証する書類その他の財務省令で定める書類を添付しなければならない。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -57,6 +57,21 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: souzoku-zei-hou-shikkourei-art-27-p4-kou-1
+    type: kou
+    text: 法の施行地に当該被相続人の住所がある場合　当該住所地
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikkourei-art-27-p4-kou-2
+    type: kou
+    text: 法の施行地に当該被相続人の住所がなく、居所がある場合　当該居所地
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikkourei-art-27-p4-kou-3
+    type: kou
+    text: 法の施行地に当該被相続人の住所及び居所がない場合　財務省令で定める場所
+    modality: unspecified
+    item_number: 3
 - number: 5
   has_proviso: false
   has_items: false
@@ -82,25 +97,26 @@ parent_section:
 
 ### 第二十七条第一項
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-27-p1 -->
 法第四十九条第一項の規定により開示の請求をする者は、請求の対象とする同項に規定する他の共同相続人等ごとに、当該他の共同相続人等の氏名、住所その他の財務省令で定める事項を記載した開示請求書に当該他の共同相続人等が同項に規定する被相続人の相続人若しくは受遺者であること又は当該被相続人の推定相続人であつたことを証する書類その他の財務省令で定める書類を添付し、これを同項に規定する所轄税務署長に提出しなければならない。
 
 ### 第二十七条第二項
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-27-p2 -->
 前項の請求をしようとする者は、同項の開示請求書に法第四十九条第一項に規定する被相続人に係る相続時精算課税適用者であることを明らかにする書類、当該被相続人から相続若しくは遺贈により財産を取得したことを証する書類その他の財務省令で定める書類を添付しなければならない。
 
 ### 第二十七条第三項
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-27-p3 -->
 第一項の請求は、同項に規定する被相続人に係る相続の開始の日の属する年の三月十六日以後にしなければならない。
 
 ### 第二十七条第四項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikkourei-art-27-p4-hashira -->
 法第四十九条第一項に規定する政令で定める場所は、同項に規定する被相続人の死亡の時において当該被相続人が次の各号に掲げる場合のいずれに該当するかに応じ当該各号に定める場所とする。
+
+一　法の施行地に当該被相続人の住所がある場合　当該住所地
+
+二　法の施行地に当該被相続人の住所がなく、居所がある場合　当該居所地
+
+三　法の施行地に当該被相続人の住所及び居所がない場合　財務省令で定める場所
 
 ### 第二十七条第五項
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-27-p5 -->
 税務署長は、法第四十九条第三項の規定により開示をする場合には、同条第一項各号に掲げる金額ごとに開示するものとする。

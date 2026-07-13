@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-4-p1
+    type: simple
+    text: 第十三条の三の規定により徴収する地方団体の徴収金は、第十四条の六から第十四条の十一まで及び第十四条の十三から第十四条の十五までの規定にかかわらず、その徴収の基因となつた売渡し又は引取り等に係る物件の換価代金につき、他の地方団体の徴収金、国税その他の債権に先立つて徴収する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

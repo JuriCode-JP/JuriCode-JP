@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-281-5-p1
+    type: simple
+    text: 被告人又は被告人であつた者が、検察官において被告事件の審理の準備のために閲覧又は謄写の機会を与えた証拠に係る複製等を、前条第一項各号に掲げる手続又はその準備に使用する目的以外の目的で、人に交付し、又は提示し、若しくは電気通信回線を通じて提供したときは、一年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-281-5-p2
+    type: simple
+    text: 弁護人（第四百四十条に規定する弁護人を含む。以下この項において同じ。）又は弁護人であつた者が、検察官において被告事件の審理の準備のために閲覧又は謄写の機会を与えた証拠に係る複製等を、対価として財産上の利益その他の利益を得る目的で、人に交付し、又は提示し、若しくは電気通信回線を通じて提供したときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

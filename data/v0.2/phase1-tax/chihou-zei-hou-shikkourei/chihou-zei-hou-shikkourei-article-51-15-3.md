@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-15-3-p1-hashira
+    type: hashira
+    text: 法第三百四十八条第二項第三十七号に規定する国立研究開発法人水産研究・教育機構が国立研究開発法人水産研究・教育機構法（第二号において「機構法」という。）第十二条第一項第一号から第五号までに規定する業務の用に供する固定資産で政令で定めるものは、これらの業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-15-3-p1-kou-1
+    type: kou
+    text: 事務所の用に供する固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-15-3-p1-kou-2
+    type: kou
+    text: 宿舎（機構法第十二条第一項第五号に規定する水産に関する学理及び技術の教授を受ける者のための宿舎を除く。）の用に供する固定資産
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第五十一条の十五の三
 
 法第三百四十八条第二項第三十七号に規定する国立研究開発法人水産研究・教育機構が国立研究開発法人水産研究・教育機構法（第二号において「機構法」という。）第十二条第一項第一号から第五号までに規定する業務の用に供する固定資産で政令で定めるものは、これらの業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する固定資産
+
+二　宿舎（機構法第十二条第一項第五号に規定する水産に関する学理及び技術の教授を受ける者のための宿舎を除く。）の用に供する固定資産

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-3-p1
+    type: simple
+    text: 自主規制法人は、金融商品取引所、金融商品取引所持株会社又は親商品取引所等（金融商品取引所を子会社（第八十七条の三第三項に規定する子会社をいう。以下この項において同じ。）とする商品取引所（金融商品取引所であるものを除く。以下同じ。）又は金融商品取引所を子会社とする商品取引所持株会社（金融商品取引所持株会社であるものを除く。以下同じ。）をいう。以下この章において同じ。）でなければ、設立することができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-3-p2
+    type: simple
+    text: 自主規制法人を設立するには、会員になろうとする金融商品取引所、金融商品取引所持株会社又は親商品取引所等が発起人とならなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

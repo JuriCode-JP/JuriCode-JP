@@ -16,22 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-4-p1
+    type: tokusoku
+    text: 電子開示手続を行う者は、電気通信回線の故障その他の事由により開示用電子情報処理組織を使用して当該電子開示手続を行うことができない場合には、前条第一項の規定にかかわらず、政令で定めるところにより、内閣総理大臣の承認を得て、開示用電子情報処理組織の使用に代えて、磁気ディスク（これに準ずる方法により一定の事項を確実に記録しておくことができる物を含む。以下この章において同じ。）の提出によりその電子開示手続を行うことができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-4-p2
+    type: simple
+    text: 開示用電子情報処理組織を使用して任意電子開示手続を行う者は、電気通信回線の故障その他の事由により開示用電子情報処理組織を使用して当該任意電子開示手続を行うことができない場合には、政令で定めるところにより、内閣総理大臣の承認を得て、開示用電子情報処理組織の使用に代えて、磁気ディスクの提出によりその任意電子開示手続を行うことができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-4-p3-zen
+    type: zen_dan
+    text: 内閣総理大臣は、前二項の規定により電子開示手続又は任意電子開示手続が磁気ディスクの提出により行われたときは、当該磁気ディスクに記録された事項を、直ちに、内閣府令で定めるところにより、ファイルに記録しなければならない。
+    modality: gimu
+    references:
+    - 前二項
+  - id: kinsho-hou-art-27-30-4-p3-kou
+    type: kou_dan
+    text: この場合において、ファイルへの記録がされた時に内閣府に到達したものとみなす。
+    modality: unspecified
+    depends_on: kinsho-hou-art-27-30-4-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-4-p4
+    type: junyou
+    text: 前条第四項の規定は、前三項の規定により行われた電子開示手続又は任意電子開示手続について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前三項
 cases: []
 amendments: []
 tags:

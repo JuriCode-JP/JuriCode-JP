@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百二十四条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-324-p1 -->
 法第六十六の四十三の規定による公告は、官報により行うものとする。

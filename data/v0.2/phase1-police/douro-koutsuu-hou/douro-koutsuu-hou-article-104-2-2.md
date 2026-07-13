@@ -16,37 +16,74 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-2-p1
+    type: simple
+    text: 再試験を行つた公安委員会は、再試験の結果、再試験を受けた者が当該免許に係る免許自動車等を安全に運転するために必要な能力を現に有しないと認めるときは、その者の当該免許を取り消さなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-2-p2
+    type: simple
+    text: 再試験の通知を受けた者が第百条の二第五項の規定に違反して再試験を受けないと認めるときは、その者の住所地を管轄する公安委員会は、その者の当該免許を取り消さなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-2-p3
+    type: simple
+    text: 公安委員会は、前項の規定により当該免許を取り消そうとする場合において、当該処分に係る者がその住所を他の公安委員会の管轄区域内に変更していたときは、当該処分に関する第六項において準用する第百四条の意見の聴取を終了している場合を除き、速やかに現にその者の住所地を管轄する公安委員会に内閣府令で定める処分移送通知書を送付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-2-p4
+    type: tokusoku
+    text: 前項の処分移送通知書の送付を受けた公安委員会は、その者が第百条の二第五項の規定に違反して当該再試験を受けないと認めるときは、その者の当該免許を取り消さなければならない。この場合において、処分移送通知書を送付した公安委員会は、第二項の規定にかかわらず、その者の当該免許を取り消すことができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 第二項
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-2-p5
+    type: junyou
+    text: 第三項の規定は、公安委員会が前項の規定により免許を取り消そうとする場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-2-p6
+    type: junyou
+    text: 第百四条（第三項を除く。）の規定は、第二項又は第四項の規定により免許を取り消す場合について準用する。
+    modality: unspecified
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-2-p7
+    type: simple
+    text: 第一項、第二項又は第四項の規定により当該免許を取り消された時におけるその者の住所が当該処分をした公安委員会以外の公安委員会の管轄区域内にあるときは、当該処分をした公安委員会は、速やかに当該処分をした旨をその者の住所地を管轄する公安委員会に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

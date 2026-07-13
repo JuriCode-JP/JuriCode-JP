@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 答弁書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: kinsho-kachoukin-furei-art-16-p1-kou-1
+    type: kou
+    text: 納付すべき課徴金の額に対する答弁
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-16-p1-kou-2
+    type: kou
+    text: 第十四条第一項第二号に掲げる事項に対する認否
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-16-p1-kou-3
+    type: kou
+    text: 第十四条第一項第三号及び第四号に掲げる事項に関する主張
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-kachoukin-furei-art-16-p1-kou-4
+    type: kou
+    text: 被審人の主張（前号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +70,16 @@ parent_section:
 
 ### 第十六条第一項
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-16-p1-hashira -->
 答弁書には、次に掲げる事項を記載しなければならない。
+
+一　納付すべき課徴金の額に対する答弁
+
+二　第十四条第一項第二号に掲げる事項に対する認否
+
+三　第十四条第一項第三号及び第四号に掲げる事項に関する主張
+
+四　被審人の主張（前号に掲げるものを除く。）
 
 ### 第十六条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-16-p2 -->
 答弁書には、前項各号に掲げる事項のほか、被審人又はその代理人の郵便番号及び電話番号（ファクシミリの番号を含む。）を記載しなければならない。

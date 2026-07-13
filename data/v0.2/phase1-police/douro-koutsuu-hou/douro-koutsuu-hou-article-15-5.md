@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-15-5-p1
+    type: simple
+    text: 公安委員会は、この章の規定の施行に必要な限度において、遠隔操作型小型車の使用者に対し、遠隔操作型小型車の遠隔操作による道路における通行に関し報告若しくは資料の提出を求め、又は警察職員に、第十五条の三第一項第三号に規定する場所その他の遠隔操作型小型車の使用者の事務所に立ち入り、帳簿、書類その他の物件を検査させ、若しくは関係者に質問させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-15-5-p2
+    type: simple
+    text: 前項の規定により警察職員が立ち入るときは、その身分を示す証票を携帯し、関係者に提示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-15-5-p3
+    type: simple
+    text: 第一項の規定による立入検査の権限は、犯罪捜査のために認められたものと解してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:
@@ -52,3 +66,5 @@ parent_section:
 ### 第十五条の五第三項
 
 第一項の規定による立入検査の権限は、犯罪捜査のために認められたものと解してはならない。
+
+（罰則　第一項については第百十九条の二の三第一号、第百二十三条）

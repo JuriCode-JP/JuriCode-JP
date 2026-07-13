@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: この法律において「物品」とは、普通地方公共団体の所有に属する動産で次の各号に掲げるもの以外のもの及び普通地方公共団体が使用のために保管する動産（政令で定める動産を除く。）をいう。
     modality: teigi
+  - id: chihou-jichi-hou-art-239-p1-kou-1
+    type: kou
+    text: 現金（現金に代えて納付される証券を含む。）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-239-p1-kou-2
+    type: kou
+    text: 公有財産に属するもの
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-239-p1-kou-3
+    type: kou
+    text: 基金に属するもの
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -83,25 +98,26 @@ parent_section:
 
 ### 第二百三十九条第一項
 
-<!-- segment: hashira id: chihou-jichi-hou-art-239-p1-hashira -->
 この法律において「物品」とは、普通地方公共団体の所有に属する動産で次の各号に掲げるもの以外のもの及び普通地方公共団体が使用のために保管する動産（政令で定める動産を除く。）をいう。
+
+一　現金（現金に代えて納付される証券を含む。）
+
+二　公有財産に属するもの
+
+三　基金に属するもの
 
 ### 第二百三十九条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-239-p2 -->
 物品に関する事務に従事する職員は、その取扱いに係る物品（政令で定める物品を除く。）を普通地方公共団体から譲り受けることができない。
 
 ### 第二百三十九条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-239-p3 -->
 前項の規定に違反する行為は、これを無効とする。
 
 ### 第二百三十九条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-239-p4 -->
 前二項に定めるもののほか、物品の管理及び処分に関し必要な事項は、政令でこれを定める。
 
 ### 第二百三十九条第五項
 
-<!-- segment: simple id: chihou-jichi-hou-art-239-p5 -->
 普通地方公共団体の所有に属しない動産で普通地方公共団体が保管するもの（使用のために保管するものを除く。）のうち政令で定めるもの（以下「占有動産」という。）の管理に関し必要な事項は、政令でこれを定める。

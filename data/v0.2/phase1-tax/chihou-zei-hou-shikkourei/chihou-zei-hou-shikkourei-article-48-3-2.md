@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-3-2-p1
+    type: simple
+    text: 法第三百十三条第九項に規定する年々の変動の著しい所得のうち政令で定めるものは、第七条の九の二に規定する所得とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

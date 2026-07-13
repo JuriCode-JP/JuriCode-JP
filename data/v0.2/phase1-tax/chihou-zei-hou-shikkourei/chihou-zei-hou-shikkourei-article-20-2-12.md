@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-12-p1
+    type: simple
+    text: 法第七十二条の十八第一項の規定により法人の各事業年度の単年度損益を算定する場合には、法人税法施行令第百十七条の四及び第百十七条の五中「金額から第二号（同項に規定する適用年度（以下この条において「適用年度」という。）が法第六十四条の七第一項第一号から第三号まで（欠損金の通算）の規定の適用を受ける事業年度である場合には、第三号）に掲げる金額を控除した金額」とあるのは、「金額」として、これらの規定の例によるものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

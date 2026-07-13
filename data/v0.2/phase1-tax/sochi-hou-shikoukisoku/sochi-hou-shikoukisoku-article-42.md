@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十二条
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-42-p1 -->
 法第九十一条の三第二項に規定する財務省令で定める表示は、同項の規定の適用により印紙税が課されない旨の表示とする。

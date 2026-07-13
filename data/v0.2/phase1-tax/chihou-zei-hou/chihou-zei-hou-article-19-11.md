@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-11-p1
+    type: simple
+    text: 第十九条に規定する処分に関する訴訟については、本款その他この法律に特別の定めがあるものを除くほか、行政事件訴訟法（昭和三十七年法律第百三十九号）その他の一般の行政事件訴訟に関する法律の定めるところによる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

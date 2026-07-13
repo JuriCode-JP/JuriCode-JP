@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-16-p1-honbun
+    type: honbun
+    text: 特別徴収義務者が納期限（更正又は決定があつた場合においては、不足金額の納期限をいう。以下入湯税について同じ。）までに入湯税に係る地方団体の徴収金を完納しない場合においては、市町村の徴税吏員は、納期限後二十日以内に、督促状を発しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-701-16-p1-tadashi
+    type: tadashi
+    text: ただし、繰上徴収をする場合においては、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-16-p2
+    type: simple
+    text: 特別の事情がある市町村においては、当該市町村の条例で前項に規定する期間と異なる期間を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

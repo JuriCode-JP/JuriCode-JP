@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第四十三条第五項（法第四十五条第二項又は第四十八条の二第六項において準用する場合を含む。）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-24-p1-kou-1
+    type: kou
+    text: 第十三条第一項第三号及び第四号に掲げる事項
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-24-p1-kou-2
+    type: kou
+    text: 過誤納額
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-24-p1-kou-3
+    type: kou
+    text: 還付を受けようとする財産の種類及び当該財産の物納の許可の申請をした時における所在場所
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikoukisoku-art-24-p1-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,5 +54,12 @@ tags:
 
 ### 第二十四条
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-24-p1-hashira -->
 法第四十三条第五項（法第四十五条第二項又は第四十八条の二第六項において準用する場合を含む。）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　第十三条第一項第三号及び第四号に掲げる事項
+
+二　過誤納額
+
+三　還付を受けようとする財産の種類及び当該財産の物納の許可の申請をした時における所在場所
+
+四　その他参考となるべき事項

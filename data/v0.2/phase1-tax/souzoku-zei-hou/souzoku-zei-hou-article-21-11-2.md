@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-11-2-p1
+    type: simple
+    text: 相続時精算課税適用者がその年中において特定贈与者からの贈与により取得した財産に係るその年分の贈与税については、贈与税の課税価格から六十万円を控除する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-11-2-p2
+    type: simple
+    text: 前項の相続時精算課税適用者に係る特定贈与者が二人以上ある場合における各特定贈与者から贈与により取得した財産に係る課税価格から控除する金額の計算については、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments:
 - effective_date: '2024-01-01'

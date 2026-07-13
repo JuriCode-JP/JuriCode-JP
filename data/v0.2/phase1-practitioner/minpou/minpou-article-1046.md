@@ -23,13 +23,28 @@ paragraphs:
     modality: kanou_kenri
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: minpou-art-1046-p2
     type: simple
     text: 遺留分侵害額は、第千四十二条の規定による遺留分から第一号及び第二号に掲げる額を控除し、これに第三号に掲げる額を加算して算定する。
     modality: unspecified
+  - id: minpou-art-1046-p2-kou-1
+    type: kou
+    text: 遺留分権利者が受けた遺贈又は第九百三条第一項に規定する贈与の価額
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-1046-p2-kou-2
+    type: kou
+    text: 第九百条から第九百二条まで、第九百三条及び第九百四条の規定により算定した相続分に応じて遺留分権利者が取得すべき遺産の価額
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-1046-p2-kou-3
+    type: kou
+    text: 被相続人が相続開始の時において有した債務のうち、第八百九十九条の規定により遺留分権利者が承継する債務（次条第三項において「遺留分権利者承継債務」という。）の額
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -48,10 +63,14 @@ parent_section:
 
 ### 第千四十六条第一項
 
-<!-- segment: simple id: minpou-art-1046-p1 -->
 遺留分権利者及びその承継人は、受遺者（特定財産承継遺言により財産を承継し又は相続分の指定を受けた相続人を含む。以下この章において同じ。）又は受贈者に対し、遺留分侵害額に相当する金銭の支払を請求することができる。
 
 ### 第千四十六条第二項
 
-<!-- segment: simple id: minpou-art-1046-p2 -->
 遺留分侵害額は、第千四十二条の規定による遺留分から第一号及び第二号に掲げる額を控除し、これに第三号に掲げる額を加算して算定する。
+
+一　遺留分権利者が受けた遺贈又は第九百三条第一項に規定する贈与の価額
+
+二　第九百条から第九百二条まで、第九百三条及び第九百四条の規定により算定した相続分に応じて遺留分権利者が取得すべき遺産の価額
+
+三　被相続人が相続開始の時において有した債務のうち、第八百九十九条の規定により遺留分権利者が承継する債務（次条第三項において「遺留分権利者承継債務」という。）の額

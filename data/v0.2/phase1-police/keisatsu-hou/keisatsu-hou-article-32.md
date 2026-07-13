@@ -66,20 +66,16 @@ parent_section:
 
 ### 第三十二条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-32-p1 -->
 管区警察局に、管区警察学校を附置する。
 
 ### 第三十二条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-32-p2 -->
 管区警察学校は、警察職員に対し、幹部として必要な教育訓練その他所要の教育訓練を行う。
 
 ### 第三十二条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-32-p3 -->
 管区警察学校に、校長を置く。
 
 ### 第三十二条第四項
 
-<!-- segment: simple id: keisatsu-hou-art-32-p4 -->
 管区警察学校の位置及び内部組織は、内閣府令で定める。

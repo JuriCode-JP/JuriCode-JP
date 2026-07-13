@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-4-p1
+    type: simple
+    text: 第四百六十六条第三項の規定は、譲渡制限の意思表示がされた債権に対する強制執行をした差押債権者に対しては、適用しない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-4-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、譲受人その他の第三者が譲渡制限の意思表示がされたことを知り、又は重大な過失によって知らなかった場合において、その債権者が同項の債権に対する強制執行をしたときは、債務者は、その債務の履行を拒むことができ、かつ、譲渡人に対する弁済その他の債務を消滅させる事由をもって差押債権者に対抗することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

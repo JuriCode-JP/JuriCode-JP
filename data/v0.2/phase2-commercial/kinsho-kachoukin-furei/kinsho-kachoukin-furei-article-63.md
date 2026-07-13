@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第百七十七条第一項第一号の規定により事件関係人又は参考人に出頭を求める処分をする場合は、次に掲げる事項を記載した出頭命令書を交付し、又は送付して、これを行わなければならない。
     modality: gimu
+  - id: kinsho-kachoukin-furei-art-63-p1-kou-1
+    type: kou
+    text: 相手方の氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-63-p1-kou-2
+    type: kou
+    text: 相手方に求める事項
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-63-p1-kou-3
+    type: kou
+    text: 出頭すべき日時及び場所
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-kachoukin-furei-art-63-p1-kou-4
+    type: kou
+    text: 出頭しない場合における法律上の制裁
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -37,5 +57,12 @@ parent_section:
 
 ### 第六十三条
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-63-p1-hashira -->
 法第百七十七条第一項第一号の規定により事件関係人又は参考人に出頭を求める処分をする場合は、次に掲げる事項を記載した出頭命令書を交付し、又は送付して、これを行わなければならない。
+
+一　相手方の氏名又は名称
+
+二　相手方に求める事項
+
+三　出頭すべき日時及び場所
+
+四　出頭しない場合における法律上の制裁

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-81-4-p1
+    type: simple
+    text: この法律に規定する厚生労働大臣の権限は、厚生労働省令で定めるところにより、地方厚生局長に委任することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-81-4-p2
+    type: simple
+    text: 前項の規定により地方厚生局長に委任された権限は、厚生労働省令で定めるところにより、地方厚生支局長に委任することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

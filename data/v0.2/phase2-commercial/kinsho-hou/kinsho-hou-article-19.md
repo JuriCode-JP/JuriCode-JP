@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: kinsho-hou-art-19-p1-kou-1
+    type: kou
+    text: 前条の規定により損害賠償を請求する時における市場価額（市場価額がないときは、その時における処分推定価額）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-19-p1-kou-2
+    type: kou
+    text: 前号の時前に当該有価証券を処分した場合においては、その処分価額
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第十九条第一項
 
-<!-- segment: hashira id: kinsho-hou-art-19-p1-hashira -->
 前条の規定により賠償の責めに任ずべき額は、請求権者が当該有価証券の取得について支払つた額から次の各号の一に掲げる額を控除した額とする。
+
+一　前条の規定により損害賠償を請求する時における市場価額（市場価額がないときは、その時における処分推定価額）
+
+二　前号の時前に当該有価証券を処分した場合においては、その処分価額
 
 ### 第十九条第二項
 
-<!-- segment: simple id: kinsho-hou-art-19-p2 -->
 前条の規定により賠償の責めに任ずべき者は、当該請求権者が受けた損害の額の全部又は一部が、有価証券届出書又は目論見書のうちに重要な事項について虚偽の記載があり、又は記載すべき重要な事項若しくは誤解を生じさせないために必要な重要な事実の記載が欠けていたことによつて生ずべき当該有価証券の値下り以外の事情により生じたことを証明した場合においては、その全部又は一部については、賠償の責めに任じない。

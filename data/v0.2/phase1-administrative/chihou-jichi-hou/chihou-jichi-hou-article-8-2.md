@@ -16,32 +16,62 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-8-2-p1
+    type: simple
+    text: 都道府県知事は、市町村が第二条第十五項の規定によりその規模の適正化を図るのを援助するため、市町村の廃置分合又は市町村の境界変更の計画を定め、これを関係市町村に勧告することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-8-2-p2
+    type: simple
+    text: 前項の計画を定め又はこれを変更しようとするときは、都道府県知事は、関係市町村、当該都道府県の議会、当該都道府県の区域内の市町村の議会又は長の連合組織その他の関係のある機関及び学識経験を有する者等の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-8-2-p3
+    type: simple
+    text: 前項の関係市町村の意見については、当該市町村の議会の議決を経なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-8-2-p4
+    type: simple
+    text: 都道府県知事は、第一項の規定により勧告をしたときは、直ちにその旨を公表するとともに、総務大臣に報告しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-8-2-p5
+    type: simple
+    text: 総務大臣は、前項の規定による報告を受けたときは、国の関係行政機関の長に対し直ちにその旨を通知するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-8-2-p6
+    type: simple
+    text: 第一項の規定による勧告に基く市町村の廃置分合又は市町村の境界変更については、国の関係行政機関は、これを促進するため必要な措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-187-2-p1
+    type: simple
+    text: 公訴が提起されなかつた場合において、訴訟費用を負担させるときは、検察官の請求により、裁判所が決定をもつてこれを行う。この決定に対しては、即時抗告をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

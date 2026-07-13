@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-50-2-2-p1
+    type: simple
+    text: 法第三百四十八条第二項第十一号の三に規定する政令で定める固定資産は、その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する固定資産以外の固定資産とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

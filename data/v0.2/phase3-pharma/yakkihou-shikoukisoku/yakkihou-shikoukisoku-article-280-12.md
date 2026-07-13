@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-12-p1
+    type: simple
+    text: 法第八十条の八第二項の規定による届出は、様式第百二十五による届書（正副二通）を厚生労働大臣に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-12-p2
+    type: simple
+    text: 前項の届出は、登録事項を変更した後三十日以内に行わなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-12-p3
+    type: simple
+    text: 厚生労働大臣が法第八十条の十第一項の規定により機構に登録等を行わせることとした場合における第一項の規定の適用については、同項中「（正副二通）を厚生労働大臣」とあるのは、「を機構」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

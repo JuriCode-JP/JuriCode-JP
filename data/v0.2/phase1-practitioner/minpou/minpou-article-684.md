@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六百八十四条
 
-<!-- segment: junyou id: minpou-art-684-p1 applies_provisions: 第六百二十条 -->
 第六百二十条の規定は、組合契約について準用する。

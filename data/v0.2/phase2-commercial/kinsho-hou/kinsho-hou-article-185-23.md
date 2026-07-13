@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-23-p1
+    type: simple
+    text: 何人も、暗号等資産の売買その他の取引若しくは暗号等資産関連デリバティブ取引等のため、又は暗号等資産等（暗号等資産若しくはオプション（暗号等資産又は暗号等資産関連金融指標に係るものに限る。次条第一項第三号において「暗号等資産関連オプション」という。）又はデリバティブ取引に係る暗号等資産関連金融指標をいう。次項、同条第二項第一号及び第二号並びに第百九十七条第二項第二号において同じ。）の相場の変動を図る目的をもつて、風説を流布し、偽計を用い、又は暴行若しくは脅迫をしてはならない。
+    modality: gimu_negative
+    references:
+    - 次項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-23-p2
+    type: simple
+    text: 第百五十八条の規定は、暗号等資産関連デリバティブ取引等及び暗号等資産等については、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

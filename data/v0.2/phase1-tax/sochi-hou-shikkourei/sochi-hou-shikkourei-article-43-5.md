@@ -31,8 +31,8 @@ paragraphs:
     text: 国土交通大臣は、前項の規定により同項の建設線を定めたときは、これを告示する。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -49,10 +49,8 @@ parent_section:
 
 ### 第四十三条の五第一項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-43-5-p1 -->
 法第八十四条に規定する建設線のうち政令で定めるものは、同条に規定する建設線のうち国土交通大臣が財務大臣と協議して定めるものとする。
 
 ### 第四十三条の五第二項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-43-5-p2 -->
 国土交通大臣は、前項の規定により同項の建設線を定めたときは、これを告示する。

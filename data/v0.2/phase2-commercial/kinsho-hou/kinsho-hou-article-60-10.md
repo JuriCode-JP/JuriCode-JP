@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-10-p1
+    type: simple
+    text: 取引所取引許可業者が解散したとき、又は取引所取引業務を廃止したときは、取引所取引を結了する目的の範囲内において、当該取引所取引許可業者は、なお第六十条第一項の許可を受けているものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

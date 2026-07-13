@@ -16,22 +16,70 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-44-2-p1
+    type: simple
+    text: 居住者が、破産法（平成十六年法律第七十五号）第二百五十二条第一項（免責許可の決定の要件等）に規定する免責許可の決定又は再生計画認可の決定があつた場合その他資力を喪失して債務を弁済することが著しく困難である場合にその有する債務の免除を受けたときは、当該免除により受ける経済的な利益の価額については、その者の各種所得の金額の計算上、総収入金額に算入しない。
+    modality: unspecified
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-44-2-p2-hashira
+    type: hashira
+    text: 前項の場合において、同項の債務の免除により受ける経済的な利益の価額のうち同項の居住者の次の各号に掲げる場合の区分に応じ当該各号に定める金額（第一号から第四号までに定める金額にあつては当該経済的な利益の価額がないものとして計算した金額とし、第五号に定める金額にあつては同項の規定の適用がないものとして総所得金額、退職所得金額及び山林所得金額を計算した場合における金額とする。）の合計額に相当する部分については、同項の規定は、適用しない。
+    modality: jogai
+    references:
+    - 同項
+    - 前項
+  - id: shotoku-zei-hou-art-44-2-p2-kou-1
+    type: kou
+    text: 不動産所得を生ずべき業務に係る債務の免除を受けた場合　当該免除を受けた日の属する年分の不動産所得の金額の計算上生じた損失の金額
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-art-44-2-p2-kou-2
+    type: kou
+    text: 事業所得を生ずべき事業に係る債務の免除を受けた場合　当該免除を受けた日の属する年分の事業所得の金額の計算上生じた損失の金額
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-art-44-2-p2-kou-3
+    type: kou
+    text: 山林所得を生ずべき業務に係る債務の免除を受けた場合　当該免除を受けた日の属する年分の山林所得の金額の計算上生じた損失の金額
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-art-44-2-p2-kou-4
+    type: kou
+    text: 雑所得を生ずべき業務に係る債務の免除を受けた場合　当該免除を受けた日の属する年分の雑所得の金額の計算上生じた損失の金額
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-art-44-2-p2-kou-5
+    type: kou
+    text: 第七十条第一項又は第二項（純損失の繰越控除）の規定により、当該債務の免除を受けた日の属する年分の総所得金額、退職所得金額又は山林所得金額の計算上控除する純損失の金額がある場合　当該控除する純損失の金額
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-44-2-p3
+    type: simple
+    text: 第一項の規定は、確定申告書に同項の規定の適用を受ける旨、同項の規定により総収入金額に算入されない金額その他財務省令で定める事項の記載がある場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-44-2-p4
+    type: simple
+    text: 税務署長は、確定申告書の提出がなかつた場合又は前項の記載がない確定申告書の提出があつた場合においても、その提出がなかつたこと又はその記載がなかつたことについてやむを得ない事情があると認めるときは、第一項の規定を適用することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -59,6 +107,16 @@ parent_section:
 ### 第四十四条の二第二項
 
 前項の場合において、同項の債務の免除により受ける経済的な利益の価額のうち同項の居住者の次の各号に掲げる場合の区分に応じ当該各号に定める金額（第一号から第四号までに定める金額にあつては当該経済的な利益の価額がないものとして計算した金額とし、第五号に定める金額にあつては同項の規定の適用がないものとして総所得金額、退職所得金額及び山林所得金額を計算した場合における金額とする。）の合計額に相当する部分については、同項の規定は、適用しない。
+
+一　不動産所得を生ずべき業務に係る債務の免除を受けた場合　当該免除を受けた日の属する年分の不動産所得の金額の計算上生じた損失の金額
+
+二　事業所得を生ずべき事業に係る債務の免除を受けた場合　当該免除を受けた日の属する年分の事業所得の金額の計算上生じた損失の金額
+
+三　山林所得を生ずべき業務に係る債務の免除を受けた場合　当該免除を受けた日の属する年分の山林所得の金額の計算上生じた損失の金額
+
+四　雑所得を生ずべき業務に係る債務の免除を受けた場合　当該免除を受けた日の属する年分の雑所得の金額の計算上生じた損失の金額
+
+五　第七十条第一項又は第二項（純損失の繰越控除）の規定により、当該債務の免除を受けた日の属する年分の総所得金額、退職所得金額又は山林所得金額の計算上控除する純損失の金額がある場合　当該控除する純損失の金額
 
 ### 第四十四条の二第三項
 

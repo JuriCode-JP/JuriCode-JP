@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-4-p1
+    type: simple
+    text: 登録販売者試験は、毎年少なくとも一回、都道府県知事が行う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-4-p2
+    type: simple
+    text: 試験を施行する期日及び場所並びに受験願書の提出期間は、あらかじめ、都道府県知事が公示する。
+    modality: tetsuduki
 cases: []
 amendments: []
 tags:

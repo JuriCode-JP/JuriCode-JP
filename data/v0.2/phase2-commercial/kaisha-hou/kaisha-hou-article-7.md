@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七条
 
-<!-- segment: simple id: kaisha-hou-art-7-p1 -->
 会社でない者は、その名称又は商号中に、会社であると誤認されるおそれのある文字を用いてはならない。

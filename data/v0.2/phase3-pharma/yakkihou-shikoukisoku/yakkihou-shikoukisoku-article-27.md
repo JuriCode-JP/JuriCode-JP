@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十七条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-27-p1 -->
 医薬品、医薬部外品又は化粧品の製造業の許可証は、様式第十三によるものとする。

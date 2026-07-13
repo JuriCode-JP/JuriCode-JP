@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八百四十八条
 
-<!-- segment: simple id: minpou-art-848-p1 -->
 未成年後見人を指定することができる者は、遺言で、未成年後見監督人を指定することができる。

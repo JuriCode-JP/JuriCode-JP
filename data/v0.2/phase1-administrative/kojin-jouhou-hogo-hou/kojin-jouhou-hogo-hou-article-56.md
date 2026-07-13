@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十六条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-56-p1 -->
 認定個人情報保護団体でない者は、認定個人情報保護団体という名称又はこれに紛らわしい名称を用いてはならない。

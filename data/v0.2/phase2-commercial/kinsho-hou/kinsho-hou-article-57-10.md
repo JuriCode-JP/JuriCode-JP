@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-10-p1
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、特別金融商品取引業者の子会社等に対し当該特別金融商品取引業者の財産に関し参考となるべき報告若しくは資料の提出を命じ、又は当該職員に当該子会社等の業務若しくは財産の状況若しくは帳簿書類その他の物件の検査（当該特別金融商品取引業者の財産に関し必要な検査に限る。）をさせることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-10-p2-zen
+    type: zen_dan
+    text: 前項の「子会社等」とは、親会社等（他の会社等（会社、組合その他これらに準ずる事業体をいい、外国におけるこれらに相当するものを含む。以下この項において同じ。）の財務及び営業又は事業の方針を決定する機関（株主総会その他これに準ずる機関をいう。以下この項において「意思決定機関」という。）を支配している会社等として内閣府令で定めるものをいう。）によりその意思決定機関を支配されている他の会社等をいう。
+    modality: teigi
+    references:
+    - 前項
+  - id: kinsho-hou-art-57-10-p2-kou
+    type: kou_dan
+    text: この場合において、親会社等及び子会社等又は子会社等が他の会社等の意思決定機関を支配している場合における当該他の会社等は、その親会社等の子会社等とみなす。
+    modality: unspecified
+    depends_on: kinsho-hou-art-57-10-p2-zen
 cases: []
 amendments: []
 tags:

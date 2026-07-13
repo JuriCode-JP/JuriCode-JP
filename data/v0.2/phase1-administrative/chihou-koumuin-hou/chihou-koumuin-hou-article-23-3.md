@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-23-3-p1
+    type: simple
+    text: 任命権者は、前条第一項の人事評価の結果に応じた措置を講じなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-76-p1-zen
+    type: zen_dan
+    text: 内閣総理大臣及び財務大臣は、基金が法令、法令に基づく行政官庁の処分若しくは当該基金の定款若しくは業務規程に違反した場合又は業務若しくは財産の状況によりその業務の継続が困難であると認める場合において、公益又は投資者保護のため必要かつ適当であると認めるときは、その設立の認可を取り消すことができる。
+    modality: koka_torikeshi
+  - id: kinsho-hou-art-79-76-p1-kou
+    type: kou_dan
+    text: この場合においては、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-79-76-p1-zen
 cases: []
 amendments: []
 tags:

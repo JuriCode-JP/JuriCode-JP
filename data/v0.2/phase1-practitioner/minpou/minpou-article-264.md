@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百六十四条
 
-<!-- segment: junyou id: minpou-art-264-p1 -->
 この節（第二百六十二条の二及び第二百六十二条の三を除く。）の規定は、数人で所有権以外の財産権を有する場合について準用する。ただし、法令に特別の定めがあるときは、この限りでない。

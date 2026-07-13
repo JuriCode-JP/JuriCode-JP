@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-12-p1
+    type: junyou
+    text: 第八条の十六の八の規定は、法人税法第七十一条第一項（同法第七十二条第一項の規定が適用される場合に限る。）の規定により法人税に係る申告書を提出する義務がある法人について法第三百二十一条の八第十一項の規定を適用する場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

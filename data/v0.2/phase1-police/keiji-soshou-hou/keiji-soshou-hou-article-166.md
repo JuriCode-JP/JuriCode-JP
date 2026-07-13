@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百六十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-166-p1 -->
 鑑定人には、宣誓をさせなければならない。

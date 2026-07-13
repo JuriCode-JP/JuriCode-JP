@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-36-3-p1
+    type: simple
+    text: 医療機器等条件付承認を受けた者は、法第二十三条の二の六の二第二項の規定により、様式第二十六の五による申請書に添えて資料を提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-36-3-p2
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の六の二第三項の調査のため必要と認めて当該医療機器又は体外診断用医薬品の見本品その他の資料の提出を求めたときは、医療機器等条件付承認を受けた者は、当該資料を厚生労働大臣に提出しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-36-3-p3
+    type: simple
+    text: 医療機器等条件付承認を受けた者が、法第二十三条の二の九第一項の指定を受けた医療機器又は体外診断用医薬品について、同項の使用成績に関する評価の申請をしたときは、前二項の規定による資料が提出されたものとみなす。
+    modality: unspecified
+    references:
+    - 同項
+    - 前二項
 cases: []
 amendments: []
 tags:

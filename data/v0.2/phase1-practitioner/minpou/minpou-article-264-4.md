@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-4-p1
+    type: simple
+    text: 所有者不明土地管理命令が発せられた場合には、所有者不明土地等に関する訴えについては、所有者不明土地管理人を原告又は被告とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

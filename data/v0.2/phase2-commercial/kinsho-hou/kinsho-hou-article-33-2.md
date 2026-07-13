@@ -14,9 +14,38 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-33-2-p1-hashira
+    type: hashira
+    text: 金融機関は、次に掲げる行為のいずれかを業として行おうとするとき、又は投資助言・代理業若しくは有価証券等管理業務を行おうとするときは、内閣総理大臣の登録を受けなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-33-2-p1-kou-1
+    type: kou
+    text: 書面取次ぎ行為
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-33-2-p1-kou-2
+    type: kou
+    text: 前条第二項各号に掲げる有価証券又は取引についての当該各号に定める行為（同条第一項ただし書に該当するものを除く。）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-33-2-p1-kou-3
+    type: kou
+    text: デリバティブ取引等のうち有価証券関連デリバティブ取引等以外のもの（他の法律の定めるところにより投資の目的をもつて、又は信託契約に基づいて信託をする者の計算において行うもの及び商品関連市場デリバティブ取引を除く。）又は第二条第八項第五号に掲げる行為のうち第二十八条第八項第七号に掲げるもの以外のもの
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-33-2-p1-kou-4
+    type: kou
+    text: 第二条第八項第七号に掲げる行為
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-art-33-2-p1-kou-5
+    type: kou
+    text: 前条第三項に規定する政令で定める行為
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -38,3 +67,13 @@ parent_section:
 ### 第三十三条の二
 
 金融機関は、次に掲げる行為のいずれかを業として行おうとするとき、又は投資助言・代理業若しくは有価証券等管理業務を行おうとするときは、内閣総理大臣の登録を受けなければならない。
+
+一　書面取次ぎ行為
+
+二　前条第二項各号に掲げる有価証券又は取引についての当該各号に定める行為（同条第一項ただし書に該当するものを除く。）
+
+三　デリバティブ取引等のうち有価証券関連デリバティブ取引等以外のもの（他の法律の定めるところにより投資の目的をもつて、又は信託契約に基づいて信託をする者の計算において行うもの及び商品関連市場デリバティブ取引を除く。）又は第二条第八項第五号に掲げる行為のうち第二十八条第八項第七号に掲げるもの以外のもの
+
+四　第二条第八項第七号に掲げる行為
+
+五　前条第三項に規定する政令で定める行為

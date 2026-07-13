@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-26-p1-zen
+    type: zen_dan
+    text: 裁判所は、検察官が第三百十六条の十四第一項若しくは第三百十六条の十五第一項若しくは第二項（第三百十六条の二十一第四項においてこれらの規定を準用する場合を含む。）若しくは第三百十六条の二十第一項（第三百十六条の二十二第五項において準用する場合を含む。）の規定による開示をすべき証拠を開示していないと認めるとき、又は被告人若しくは弁護人が第三百十六条の十八（第三百十六条の二十二第四項において準用する場合を含む。）の規定による開示をすべき証拠を開示していないと認めるときは、相手方の請求により、決定で、当該証拠の開示を命じなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-316-26-p1-kou
+    type: kou_dan
+    text: この場合において、裁判所は、開示の時期若しくは方法を指定し、又は条件を付することができる。
+    modality: kanou_kenri
+    depends_on: keiji-soshou-hou-art-316-26-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-26-p2
+    type: simple
+    text: 裁判所は、前項の請求について決定をするときは、相手方の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-26-p3
+    type: simple
+    text: 第一項の請求についてした決定に対しては、即時抗告をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

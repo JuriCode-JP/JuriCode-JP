@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-10-5-p1
+    type: simple
+    text: 地域連携薬局等の認定を受けた薬局の開設者（以下「認定薬局開設者」という。）は、地域連携薬局等の認定証を薬局の見やすい場所に掲示しておかなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

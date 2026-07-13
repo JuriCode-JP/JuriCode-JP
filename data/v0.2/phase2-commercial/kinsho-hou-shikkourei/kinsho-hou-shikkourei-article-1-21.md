@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-21-p1
+    type: simple
+    text: 法第二条第三十九項に規定する政令で定める者は、商品先物取引法第二条第十一項に規定する商品取引所持株会社とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

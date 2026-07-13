@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百三十条
 
-<!-- segment: simple id: minpou-art-730-p1 -->
 直系血族及び同居の親族は、互いに扶たすけ合わなければならない。

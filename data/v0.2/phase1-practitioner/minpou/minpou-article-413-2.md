@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-413-2-p1
+    type: simple
+    text: 債務者がその債務について遅滞の責任を負っている間に当事者双方の責めに帰することができない事由によってその債務の履行が不能となったときは、その履行の不能は、債務者の責めに帰すべき事由によるものとみなす。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-413-2-p2
+    type: simple
+    text: 債権者が債務の履行を受けることを拒み、又は受けることができない場合において、履行の提供があった時以後に当事者双方の責めに帰することができない事由によってその債務の履行が不能となったときは、その履行の不能は、債権者の責めに帰すべき事由によるものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

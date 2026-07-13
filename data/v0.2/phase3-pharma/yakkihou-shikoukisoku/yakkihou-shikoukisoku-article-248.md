@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百四十八条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-248-p1 -->
 法第六十九条の二第五項（法第八十条の五第二項において準用する場合を含む。）に規定する身分を示す証明書は、様式第百五によるものとする。

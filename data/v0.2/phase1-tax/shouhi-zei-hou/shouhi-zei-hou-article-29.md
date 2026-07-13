@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 消費税の税率は、次の各号に掲げる区分に応じ当該各号に定める率とする。
     modality: gimu
+  - id: shouhi-zei-hou-art-29-p1-kou-1
+    type: kou
+    text: 課税資産の譲渡等（軽減対象課税資産の譲渡等を除く。）、特定課税仕入れ及び保税地域から引き取られる課税貨物（軽減対象課税貨物を除く。）　百分の七・八
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-art-29-p1-kou-2
+    type: kou
+    text: 軽減対象課税資産の譲渡等及び保税地域から引き取られる軽減対象課税貨物　百分の六・二四
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments:
 - effective_date: '2023-10-01'
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第二十九条
 
-<!-- segment: hashira id: shouhi-zei-hou-art-29-p1-hashira -->
 消費税の税率は、次の各号に掲げる区分に応じ当該各号に定める率とする。
+
+一　課税資産の譲渡等（軽減対象課税資産の譲渡等を除く。）、特定課税仕入れ及び保税地域から引き取られる課税貨物（軽減対象課税貨物を除く。）　百分の七・八
+
+二　軽減対象課税資産の譲渡等及び保税地域から引き取られる軽減対象課税貨物　百分の六・二四

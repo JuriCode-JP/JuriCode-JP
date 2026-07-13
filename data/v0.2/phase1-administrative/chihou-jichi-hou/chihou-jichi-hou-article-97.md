@@ -22,7 +22,7 @@ paragraphs:
     text: 普通地方公共団体の議会は、法律又はこれに基く政令によりその権限に属する選挙を行わなければならない。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -50,10 +50,8 @@ parent_section:
 
 ### 第九十七条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-97-p1 -->
 普通地方公共団体の議会は、法律又はこれに基く政令によりその権限に属する選挙を行わなければならない。
 
 ### 第九十七条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-97-p2 -->
 議会は、予算について、増額してこれを議決することを妨げない。但し、普通地方公共団体の長の予算の提出の権限を侵すことはできない。

@@ -14,19 +14,46 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-28-p1
+    type: tokusoku
+    text: 第二十三条の二十五の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する再生医療等製品として政令で定めるものである場合には、厚生労働大臣は、同条第二項、第五項、第六項及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、その品目に係る同条の承認を与えることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第十二項
+  - id: yakkihou-art-23-28-p1-kou-1
+    type: kou
+    text: 国民の生命及び健康に重大な影響を与えるおそれがある疾病のまん延その他の健康被害の拡大を防止するため緊急に使用されることが必要な再生医療等製品であり、かつ、当該再生医療等製品の使用以外に適当な方法がないこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-23-28-p1-kou-2
+    type: kou
+    text: その用途に関し、外国（再生医療等製品の品質、有効性及び安全性を確保する上で我が国と同等の水準にあると認められる再生医療等製品の製造販売の承認の制度又はこれに相当する制度を有している国として政令で定めるものに限る。）において、販売し、授与し、又は販売若しくは授与の目的で貯蔵し、若しくは陳列することが認められている再生医療等製品であること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-28-p2
+    type: junyou
+    text: 第二十三条の二十六の二第二項の規定は、前項の規定による第二十三条の二十五の承認について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-28-p3
+    type: simple
+    text: 厚生労働大臣は、保健衛生上の危害の発生又は拡大を防止するため必要があると認めるときは、第一項の規定により第二十三条の二十五の承認を受けた者に対して、当該承認に係る品目について、当該品目の使用によるものと疑われる疾病、障害又は死亡の発生を厚生労働大臣に報告することその他の政令で定める措置を講ずる義務を課することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:
@@ -44,6 +71,10 @@ parent_section:
 ### 第二十三条の二十八第一項
 
 第二十三条の二十五の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する再生医療等製品として政令で定めるものである場合には、厚生労働大臣は、同条第二項、第五項、第六項及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、その品目に係る同条の承認を与えることができる。
+
+一　国民の生命及び健康に重大な影響を与えるおそれがある疾病のまん延その他の健康被害の拡大を防止するため緊急に使用されることが必要な再生医療等製品であり、かつ、当該再生医療等製品の使用以外に適当な方法がないこと。
+
+二　その用途に関し、外国（再生医療等製品の品質、有効性及び安全性を確保する上で我が国と同等の水準にあると認められる再生医療等製品の製造販売の承認の制度又はこれに相当する制度を有している国として政令で定めるものに限る。）において、販売し、授与し、又は販売若しくは授与の目的で貯蔵し、若しくは陳列することが認められている再生医療等製品であること。
 
 ### 第二十三条の二十八第二項
 

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百三十七条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-137-p1 -->
 登録認証機関は、その業務において薬事に関する法令に違反する事実を知つたときは、速やかに厚生労働大臣に通報しなければならない。

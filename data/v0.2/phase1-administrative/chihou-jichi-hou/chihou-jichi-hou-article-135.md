@@ -14,13 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: chihou-jichi-hou-art-135-p1
     type: simple
     text: 懲罰は、左の通りとする。
     modality: gimu
+  - id: chihou-jichi-hou-art-135-p1-kou-1
+    type: kou
+    text: 公開の議場における戒告
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-135-p1-kou-2
+    type: kou
+    text: 公開の議場における陳謝
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-135-p1-kou-3
+    type: kou
+    text: 一定期間の出席停止
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-135-p1-kou-4
+    type: kou
+    text: 除名
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -59,15 +79,20 @@ parent_section:
 
 ### 第百三十五条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-135-p1 -->
 懲罰は、左の通りとする。
+
+一　公開の議場における戒告
+
+二　公開の議場における陳謝
+
+三　一定期間の出席停止
+
+四　除名
 
 ### 第百三十五条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-135-p2 -->
 懲罰の動議を議題とするに当つては、議員の定数の八分の一以上の者の発議によらなければならない。
 
 ### 第百三十五条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-135-p3 -->
 第一項第四号の除名については、当該普通地方公共団体の議会の議員の三分の二以上の者が出席し、その四分の三以上の者の同意がなければならない。

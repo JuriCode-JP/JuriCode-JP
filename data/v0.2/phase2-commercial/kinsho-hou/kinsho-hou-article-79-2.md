@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-2-p1
+    type: simple
+    text: 一般社団法人及び一般財団法人に関する法律（平成十八年法律第四十八号）第十一条第一項各号に掲げる事項及び第七十八条第一項第二号に規定する定款の定めのほか、認定協会は、その定款において、この法律若しくはこの法律に基づく命令若しくはこれらに基づく処分若しくは当該認定協会の定款その他の規則に違反し、又は取引の信義則に背反する行為をした会員に対し、過怠金を課し、定款で定める会員の権利の停止若しくは制限を命じ、又は除名する旨を定めなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

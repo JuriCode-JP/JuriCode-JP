@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-331-2-p1
+    type: simple
+    text: 成年被後見人が取締役に就任するには、その成年後見人が、成年被後見人の同意（後見監督人がある場合にあっては、成年被後見人及び後見監督人の同意）を得た上で、成年被後見人に代わって就任の承諾をしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-331-2-p2
+    type: simple
+    text: 被保佐人が取締役に就任するには、その保佐人の同意を得なければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-331-2-p3
+    type: junyou
+    text: 第一項の規定は、保佐人が民法第八百七十六条の四第一項の代理権を付与する旨の審判に基づき被保佐人に代わって就任の承諾をする場合について準用する。この場合において、第一項中「成年被後見人の同意（後見監督人がある場合にあっては、成年被後見人及び後見監督人の同意）」とあるのは、「被保佐人の同意」と読み替えるものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-331-2-p4
+    type: simple
+    text: 成年被後見人又は被保佐人がした取締役の資格に基づく行為は、行為能力の制限によっては取り消すことができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

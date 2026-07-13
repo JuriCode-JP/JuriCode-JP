@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-37-4-13-p1-hashira
+    type: hashira
+    text: 施行令第四十六条の八の八第一項第二号に規定する財務省令で定める蒸留酒類（酒税法第三条第五号に規定する蒸留酒類をいう。）と混和できるものは、次に掲げる物品以外の物品とする。
+    modality: gimu
+  - id: sochi-hou-shikoukisoku-art-37-4-13-p1-kou-1
+    type: kou
+    text: 米、麦、あわ、とうもろこし、こうりやん、きび、ひえ若しくはでん粉又はこれらのこうじ
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-37-4-13-p1-kou-2
+    type: kou
+    text: ぶどう（やまぶどうを含む。）
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-37-4-13-p1-kou-3
+    type: kou
+    text: アミノ酸若しくはその塩類、ビタミン類、核酸分解物若しくはその塩類、有機酸若しくはその塩類、無機塩類、色素、香料又は酒類のかす
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第三十七条の四の十三
 
 施行令第四十六条の八の八第一項第二号に規定する財務省令で定める蒸留酒類（酒税法第三条第五号に規定する蒸留酒類をいう。）と混和できるものは、次に掲げる物品以外の物品とする。
+
+一　米、麦、あわ、とうもろこし、こうりやん、きび、ひえ若しくはでん粉又はこれらのこうじ
+
+二　ぶどう（やまぶどうを含む。）
+
+三　アミノ酸若しくはその塩類、ビタミン類、核酸分解物若しくはその塩類、有機酸若しくはその塩類、無機塩類、色素、香料又は酒類のかす

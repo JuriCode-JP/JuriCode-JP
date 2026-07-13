@@ -82,25 +82,20 @@ parent_section:
 
 ### 第百三十九条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-139-p1 -->
 委員会の会議は、委員長が招集する。
 
 ### 第百三十九条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-139-p2 -->
 委員会は、委員長及び四人以上の委員の出席がなければ、会議を開き、議決をすることができない。
 
 ### 第百三十九条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-139-p3 -->
 委員会の議事は、出席者の過半数でこれを決し、可否同数のときは、委員長の決するところによる。
 
 ### 第百三十九条第四項
 
-<!-- segment: tokusoku id: kojin-jouhou-hogo-hou-art-139-p4 override_flag: true override_target: 前項 -->
 第百三十六条第四号の規定による認定をするには、前項の規定にかかわらず、本人を除く全員の一致がなければならない。
 
 ### 第百三十九条第五項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-139-p5 -->
 委員長に事故がある場合の第二項の規定の適用については、前条第二項に規定する委員長を代理する者は、委員長とみなす。

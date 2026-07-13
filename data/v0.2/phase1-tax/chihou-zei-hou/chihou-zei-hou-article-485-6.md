@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-485-6-p1
+    type: simple
+    text: 第四百八十五条の三第六項の場合において、国税徴収法第九十九条の二（同法第百九条第四項において準用する場合を含む。）の規定の例により市町村長に対して陳述すべき事項について虚偽の陳述をした者は、六月以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

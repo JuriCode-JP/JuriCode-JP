@@ -52,10 +52,8 @@ parent_section:
 
 ### 第五百八条第一項
 
-<!-- segment: simple id: shouhou-art-508-p1 -->
 商人である隔地者の間において承諾の期間を定めないで契約の申込みを受けた者が相当の期間内に承諾の通知を発しなかったときは、その申込みは、その効力を失う。
 
 ### 第五百八条第二項
 
-<!-- segment: junyou id: shouhou-art-508-p2 applies_provisions: 第五百二十四条 -->
 民法第五百二十四条の規定は、前項の場合について準用する。

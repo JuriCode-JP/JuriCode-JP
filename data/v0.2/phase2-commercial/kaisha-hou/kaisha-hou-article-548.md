@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 債権者集会を招集する者（以下この款において「招集者」という。）は、債権者集会を招集する場合には、次に掲げる事項を定めなければならない。
     modality: gimu
+  - id: kaisha-hou-art-548-p1-kou-1
+    type: kou
+    text: 債権者集会の日時及び場所
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-548-p1-kou-2
+    type: kou
+    text: 債権者集会の目的である事項
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-548-p1-kou-3
+    type: kou
+    text: 債権者集会に出席しない協定債権者が電磁的方法によって議決権を行使することができることとするときは、その旨
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-548-p1-kou-4
+    type: kou
+    text: 前三号に掲げるもののほか、法務省令で定める事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -88,26 +108,28 @@ parent_section:
 
 ### 第五百四十八条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-548-p1-hashira -->
 債権者集会を招集する者（以下この款において「招集者」という。）は、債権者集会を招集する場合には、次に掲げる事項を定めなければならない。
+
+一　債権者集会の日時及び場所
+
+二　債権者集会の目的である事項
+
+三　債権者集会に出席しない協定債権者が電磁的方法によって議決権を行使することができることとするときは、その旨
+
+四　前三号に掲げるもののほか、法務省令で定める事項
 
 ### 第五百四十八条第二項
 
-<!-- segment: simple id: kaisha-hou-art-548-p2 -->
 清算株式会社が債権者集会を招集する場合には、当該清算株式会社は、各協定債権について債権者集会における議決権の行使の許否及びその額を定めなければならない。
 
 ### 第五百四十八条第三項
 
-<!-- segment: zen_dan id: kaisha-hou-art-548-p3-zen -->
-清算株式会社以外の者が債権者集会を招集する場合には、その招集者は、清算株式会社に対し、前項に規定する事項を定めることを請求しなければならない。<!-- segment: kou_dan id: kaisha-hou-art-548-p3-kou depends_on: kaisha-hou-art-548-p3-zen -->
-この場合において、その請求があったときは、清算株式会社は、同項に規定する事項を定めなければならない。
+清算株式会社以外の者が債権者集会を招集する場合には、その招集者は、清算株式会社に対し、前項に規定する事項を定めることを請求しなければならない。この場合において、その請求があったときは、清算株式会社は、同項に規定する事項を定めなければならない。
 
 ### 第五百四十八条第四項
 
-<!-- segment: simple id: kaisha-hou-art-548-p4 -->
 清算株式会社の財産につき第五百二十二条第二項に規定する担保権を有する協定債権者は、その担保権の行使によって弁済を受けることができる協定債権の額については、議決権を有しない。
 
 ### 第五百四十八条第五項
 
-<!-- segment: simple id: kaisha-hou-art-548-p5 -->
 協定債権者は、共助対象外国租税の請求権については、議決権を有しない。

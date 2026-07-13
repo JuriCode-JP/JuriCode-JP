@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-11-p1
+    type: simple
+    text: 法第二十七条の二十二の二第一項の規定により公開買付けによる買付け等を行う場合について、同条第二項において法の規定を準用する場合における同条第十三項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-11-p2
+    type: simple
+    text: 法第二十七条の二十二の二第二項において準用する法第二十七条の八第八項及び第十一項の規定による公告又は公表について、法第二十七条の二十二の二第六項において法の規定を準用する場合における同条第十三項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-11-p3
+    type: simple
+    text: 法第二十七条の二十二の二第二項において準用する法第二十七条の十三第二項に規定する公開買付報告書について、法第二十七条の二十二の二第七項において法の規定を準用する場合における同条第十三項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

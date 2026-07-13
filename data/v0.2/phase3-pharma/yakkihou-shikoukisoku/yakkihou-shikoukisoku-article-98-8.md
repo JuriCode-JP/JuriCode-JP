@@ -16,7 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-98-8-p1-zen
+    type: zen_dan
+    text: 前二条の規定により保存することとされている文書その他の記録の保存期間については、第九十八条の五の規定を準用する。
+    modality: unspecified
+    references:
+    - 前二条
+  - id: yakkihou-shikoukisoku-art-98-8-p1-kou
+    type: kou_dan
+    text: この場合において、同条第二項中「製造販売業者」とあるのは「受託者」と、「前三条」とあるのは「第九十八条の六及び第九十八条の七」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前三条
+    depends_on: yakkihou-shikoukisoku-art-98-8-p1-zen
 cases: []
 amendments: []
 tags:

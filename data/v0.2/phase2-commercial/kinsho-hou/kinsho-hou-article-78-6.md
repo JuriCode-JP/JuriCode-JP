@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-78-6-p1
+    type: junyou
+    text: 第七十七条の規定は、認定協会が投資者からの苦情の解決を行う場合について準用する。この場合において、同条中「協会員」とあるのは、「会員」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 第七十七条
 cases: []
 amendments: []
 tags:

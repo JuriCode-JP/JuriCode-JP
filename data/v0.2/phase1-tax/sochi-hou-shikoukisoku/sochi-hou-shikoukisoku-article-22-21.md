@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十二条の二十一
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-22-21-p1 -->
 削除

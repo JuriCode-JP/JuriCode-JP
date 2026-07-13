@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-7-p1
+    type: simple
+    text: 指定講習機関の役員（法人でない指定自動車教習所にあつては当該施設を設置する者。次項において同じ。）若しくは職員又はこれらの職にあつた者は、特定講習の業務に関して知り得た秘密を漏らしてはならない。
+    modality: gimu_negative
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-7-p2
+    type: simple
+    text: 特定講習の業務に従事する指定講習機関の役員又は職員は、刑法その他の罰則の適用については、法令により公務に従事する職員とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -43,3 +53,5 @@ parent_section:
 ### 第百八条の七第二項
 
 特定講習の業務に従事する指定講習機関の役員又は職員は、刑法その他の罰則の適用については、法令により公務に従事する職員とみなす。
+
+（罰則　第一項については第百十七条の五第一項第二号）

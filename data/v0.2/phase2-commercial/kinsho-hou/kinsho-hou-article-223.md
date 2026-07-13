@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百二十三条
 
-<!-- segment: simple id: kinsho-hou-art-223-p1 -->
 委員会職員は、犯則事件の調査を終えたときは、調査の結果を委員会に報告しなければならない。

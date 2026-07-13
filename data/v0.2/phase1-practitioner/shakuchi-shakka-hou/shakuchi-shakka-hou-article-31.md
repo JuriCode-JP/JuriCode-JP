@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十一条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-31-p1 -->
 建物の賃貸借は、その登記がなくても、建物の引渡しがあったときは、その後その建物について物権を取得した者に対し、その効力を生ずる。

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-8-p1
+    type: simple
+    text: 警察官等は、第六十三条の六若しくは前条第一項の規定に違反して通行している自転車の運転者に対し、これらの規定に定める通行方法により当該自転車を通行させ、又は同条第二項の規定に違反して通行している普通自転車の運転者に対し、当該普通自転車を歩道により通行させるべきことを指示することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:
@@ -36,3 +42,5 @@ parent_section:
 ### 第六十三条の八
 
 警察官等は、第六十三条の六若しくは前条第一項の規定に違反して通行している自転車の運転者に対し、これらの規定に定める通行方法により当該自転車を通行させ、又は同条第二項の規定に違反して通行している普通自転車の運転者に対し、当該普通自転車を歩道により通行させるべきことを指示することができる。
+
+（罰則　第百二十一条第一項第七号）

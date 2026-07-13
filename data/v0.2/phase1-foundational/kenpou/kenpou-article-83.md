@@ -37,5 +37,4 @@ parent_section:
 
 ### 第八十三条
 
-<!-- segment: simple id: kenpou-art-83-p1 -->
 国の財政を処理する権限は、国会の議決に基いて、これを行使しなければならない。

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-2-p1
+    type: simple
+    text: 家庭裁判所は、次条から第八百十七条の七までに定める要件があるときは、養親となる者の請求により、実方の血族との親族関係が終了する縁組（以下この款において「特別養子縁組」という。）を成立させることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-2-p2
+    type: simple
+    text: 前項に規定する請求をするには、第七百九十四条又は第七百九十八条の許可を得ることを要しない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

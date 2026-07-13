@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する者は、条例で定める場合を除くほか、職員となり、又は競争試験若しくは選考を受けることができない。
     modality: kanou_negative
+  - id: chihou-koumuin-hou-art-16-p1-kou-1
+    type: kou
+    text: 拘禁刑以上の刑に処せられ、その執行を終わるまで又はその執行を受けることがなくなるまでの者
+    modality: unspecified
+    item_number: 1
+  - id: chihou-koumuin-hou-art-16-p1-kou-2
+    type: kou
+    text: 当該地方公共団体において懲戒免職の処分を受け、当該処分の日から二年を経過しない者
+    modality: unspecified
+    item_number: 2
+  - id: chihou-koumuin-hou-art-16-p1-kou-3
+    type: kou
+    text: 人事委員会又は公平委員会の委員の職にあつて、第六十条から第六十三条までに規定する罪を犯し、刑に処せられた者
+    modality: unspecified
+    item_number: 3
+  - id: chihou-koumuin-hou-art-16-p1-kou-4
+    type: kou
+    text: 日本国憲法施行の日以後において、日本国憲法又はその下に成立した政府を暴力で破壊することを主張する政党その他の団体を結成し、又はこれに加入した者
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第十六条
 
-<!-- segment: hashira id: chihou-koumuin-hou-art-16-p1-hashira -->
 次の各号のいずれかに該当する者は、条例で定める場合を除くほか、職員となり、又は競争試験若しくは選考を受けることができない。
+
+一　拘禁刑以上の刑に処せられ、その執行を終わるまで又はその執行を受けることがなくなるまでの者
+
+二　当該地方公共団体において懲戒免職の処分を受け、当該処分の日から二年を経過しない者
+
+三　人事委員会又は公平委員会の委員の職にあつて、第六十条から第六十三条までに規定する罪を犯し、刑に処せられた者
+
+四　日本国憲法施行の日以後において、日本国憲法又はその下に成立した政府を暴力で破壊することを主張する政党その他の団体を結成し、又はこれに加入した者

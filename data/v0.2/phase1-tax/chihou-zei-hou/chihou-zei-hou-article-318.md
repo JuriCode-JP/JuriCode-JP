@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百十八条
 
-<!-- segment: simple id: chihou-zei-hou-art-318-p1 -->
 個人の市町村民税の賦課期日は、当該年度の初日の属する年の一月一日とする。

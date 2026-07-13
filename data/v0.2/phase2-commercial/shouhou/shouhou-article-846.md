@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百四十六条
 
-<!-- segment: simple id: shouhou-art-846-p1 -->
 船舶先取特権は、その発生後一年を経過したときは、消滅する。

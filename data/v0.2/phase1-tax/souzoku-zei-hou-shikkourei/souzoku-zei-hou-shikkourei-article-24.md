@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十四条
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-24-p1 -->
 税務署長及び国税局長は、物納簿を備え、これにその所掌に係る相続税の物納の額その他必要な事項を記入しなければならない。

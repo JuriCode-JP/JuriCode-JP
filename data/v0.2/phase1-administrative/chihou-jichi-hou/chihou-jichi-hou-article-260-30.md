@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-30-p1
+    type: simple
+    text: 清算中に認可地縁団体の財産がその債務を完済するのに足りないことが明らかになつたときは、清算人は、直ちに破産手続開始の申立てをし、その旨を公告しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-30-p2
+    type: simple
+    text: 清算人は、清算中の認可地縁団体が破産手続開始の決定を受けた場合において、破産管財人にその事務を引き継いだときは、その任務を終了したものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-30-p3
+    type: simple
+    text: 前項に規定する場合において、清算中の認可地縁団体が既に債権者に支払い、又は権利の帰属すべき者に引き渡したものがあるときは、破産管財人は、これを取り戻すことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-30-p4
+    type: simple
+    text: 第一項の規定による公告は、官報に掲載してする。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

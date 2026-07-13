@@ -37,5 +37,4 @@ parent_section:
 
 ### 第八十五条
 
-<!-- segment: simple id: kenpou-art-85-p1 -->
 国費を支出し、又は国が債務を負担するには、国会の議決に基くことを必要とする。

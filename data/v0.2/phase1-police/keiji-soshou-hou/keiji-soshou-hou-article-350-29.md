@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-29-p1
+    type: simple
+    text: 即決裁判手続において拘禁刑の言渡しをする場合には、その刑の全部の執行猶予の言渡しをしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

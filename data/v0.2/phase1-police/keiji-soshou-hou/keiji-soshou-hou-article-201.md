@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二百一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-201-p1 -->
 逮捕状により被疑者を逮捕するには、逮捕状を被疑者に示さなければならない。
 
 ### 第二百一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-201-p2 -->
 第七十三条第三項の規定は、逮捕状により被疑者を逮捕する場合にこれを準用する。

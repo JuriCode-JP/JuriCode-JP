@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四百五十三条
 
-<!-- segment: simple id: kaisha-hou-art-453-p1 -->
 株式会社は、その株主（当該株式会社を除く。）に対し、剰余金の配当をすることができる。

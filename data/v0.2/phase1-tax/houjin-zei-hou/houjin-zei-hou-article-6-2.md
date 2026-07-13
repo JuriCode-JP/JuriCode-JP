@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-6-2-p1
+    type: simple
+    text: 特定多国籍企業グループ等（第八十二条第四号（定義）に規定する特定多国籍企業グループ等をいう。以下この節において同じ。）に属する構成会社等（同条第十三号に規定する構成会社等をいう。以下この節において同じ。）である内国法人に対しては、第五条（内国法人の課税所得の範囲）の規定により課する法人税のほか、各対象会計年度の第八十二条の三第一項（国際最低課税額）に規定する国際最低課税額について、各対象会計年度の国際最低課税額に対する法人税を課する。
+    modality: unspecified
 cases: []
 amendments:
 - effective_date: '2024-04-01'

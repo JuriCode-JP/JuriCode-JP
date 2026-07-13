@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十五条
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-45-p1 -->
 施行令第五十四条第四項に規定する請求書及び法第九十七条に規定する証明書の書式は、それぞれ別表第十四（一）及び別表第十四（二）による。

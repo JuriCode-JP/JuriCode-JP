@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -22,7 +22,7 @@ paragraphs:
     text: 人事官の任期は、四年とする。但し、補欠の人事官は、前任者の残任期間在任する。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -55,15 +55,12 @@ parent_section:
 
 ### 第七条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-7-p1 -->
 人事官の任期は、四年とする。但し、補欠の人事官は、前任者の残任期間在任する。
 
 ### 第七条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-7-p2 -->
 人事官は、これを再任することができる。但し、引き続き十二年を超えて在任することはできない。
 
 ### 第七条第三項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-7-p3 -->
 人事官であつた者は、退職後一間年は、人事院の官職以外の官職に、これを任命することができない。

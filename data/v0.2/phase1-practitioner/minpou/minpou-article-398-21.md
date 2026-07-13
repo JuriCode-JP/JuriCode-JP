@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-21-p1
+    type: simple
+    text: 元本の確定後においては、根抵当権設定者は、その根抵当権の極度額を、現に存する債務の額と以後二年間に生ずべき利息その他の定期金及び債務の不履行による損害賠償の額とを加えた額に減額することを請求することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-21-p2
+    type: simple
+    text: 第三百九十八条の十六の登記がされている根抵当権の極度額の減額については、前項の規定による請求は、そのうちの一個の不動産についてすれば足りる。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

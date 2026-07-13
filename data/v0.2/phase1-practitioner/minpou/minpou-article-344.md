@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百四十四条
 
-<!-- segment: simple id: minpou-art-344-p1 -->
 質権の設定は、債権者にその目的物を引き渡すことによって、その効力を生ずる。

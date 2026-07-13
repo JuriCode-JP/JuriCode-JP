@@ -48,13 +48,23 @@ paragraphs:
     modality: gimu
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: chihou-zei-hou-art-388-p4
     type: simple
     text: 総務大臣は、固定資産の評価に関して市町村長に対し、左の各号に掲げる技術的援助を与えなければならない。
     modality: gimu
+  - id: chihou-zei-hou-art-388-p4-kou-1
+    type: kou
+    text: 市町村の固定資産評価員が固定資産を評価するために必要な評価の手引その他の資料を作成すること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-388-p4-kou-2
+    type: kou
+    text: 市町村の固定資産評価員が評価をすることが著しく困難である固定資産の評価について市町村長から助言を求められた場合において助言を与えること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -75,21 +85,20 @@ parent_section:
 
 ### 第三百八十八条第一項
 
-<!-- segment: zen_dan id: chihou-zei-hou-art-388-p1-zen -->
-総務大臣は、固定資産の評価の基準並びに評価の実施の方法及び手続（以下「固定資産評価基準」という。）を定め、これを告示しなければならない。<!-- segment: kou_dan id: chihou-zei-hou-art-388-p1-kou depends_on: chihou-zei-hou-art-388-p1-zen -->
-この場合において、固定資産評価基準には、その細目に関する事項について道府県知事が定めなければならない旨を定めることができる。
+総務大臣は、固定資産の評価の基準並びに評価の実施の方法及び手続（以下「固定資産評価基準」という。）を定め、これを告示しなければならない。この場合において、固定資産評価基準には、その細目に関する事項について道府県知事が定めなければならない旨を定めることができる。
 
 ### 第三百八十八条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-388-p2 -->
 総務大臣は、前項の固定資産評価基準を定めようとするときは、地方財政審議会の意見を聴かなければならない。
 
 ### 第三百八十八条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-388-p3 -->
 総務大臣は、地籍図、土地使用図、土壌分類図、家屋見取図、固定資産売買記録簿その他固定資産の評価に関する資料及び固定資産税の統計を作成するための標準様式を定めて、これを市町村長に示さなければならない。
 
 ### 第三百八十八条第四項
 
-<!-- segment: simple id: chihou-zei-hou-art-388-p4 -->
 総務大臣は、固定資産の評価に関して市町村長に対し、左の各号に掲げる技術的援助を与えなければならない。
+
+一　市町村の固定資産評価員が固定資産を評価するために必要な評価の手引その他の資料を作成すること。
+
+二　市町村の固定資産評価員が評価をすることが著しく困難である固定資産の評価について市町村長から助言を求められた場合において助言を与えること。

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-188-6-p1
+    type: simple
+    text: 第百八十八条の二第一項又は第百八十八条の四の規定により補償される費用の範囲は、被告人若しくは被告人であつた者又はそれらの者の弁護人であつた者が公判準備及び公判期日に出頭するに要した旅費、日当及び宿泊料並びに弁護人であつた者に対する報酬に限るものとし、その額に関しては、刑事訴訟費用に関する法律の規定中、被告人又は被告人であつた者については証人、弁護人であつた者については弁護人に関する規定を準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-188-6-p2
+    type: simple
+    text: 裁判所は、公判準備又は公判期日に出頭した弁護人が二人以上あつたときは、事件の性質、審理の状況その他の事情を考慮して、前項の弁護人であつた者の旅費、日当及び宿泊料を主任弁護人その他一部の弁護人に係るものに限ることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

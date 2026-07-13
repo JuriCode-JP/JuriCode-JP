@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-14-4-p1
+    type: simple
+    text: 移動用小型車又は遠隔操作型小型車を道路において通行させる者は、当該移動用小型車又は遠隔操作型小型車の見やすい箇所に内閣府令で定める様式の標識を付けなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -34,3 +38,5 @@ parent_section:
 ### 第十四条の四
 
 移動用小型車又は遠隔操作型小型車を道路において通行させる者は、当該移動用小型車又は遠隔操作型小型車の見やすい箇所に内閣府令で定める様式の標識を付けなければならない。
+
+（罰則　第百二十一条第一項第六号）

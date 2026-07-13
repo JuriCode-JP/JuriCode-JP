@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十条の二
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-10-2-p1 -->
 法第七十二条の二第一項第一号ロ（１）に規定する政令で定める金額は、資本金の額又は出資金の額と総務省令で定める金額との合計額とする。

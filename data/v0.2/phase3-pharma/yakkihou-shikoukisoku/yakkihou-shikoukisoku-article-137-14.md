@@ -16,12 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-14-p1
+    type: simple
+    text: 法第二十三条の二十二第八項の再生医療等製品の製造業の許可の区分の変更又は追加の許可を受けようとする者は、同条第九項において準用する同条第三項の規定により、様式第十五による申請書（正本一通及び副本二通）を地方厚生局長に提出するものとする。
+    modality: gimu
 - number: 2
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-14-p2-hashira
+    type: hashira
+    text: 前項の申請書には、次に掲げる書類を添えなければならない。ただし、申請等の行為の際当該申請書の提出先とされている地方厚生局長に提出され、又は都道府県知事を経由して地方厚生局長に提出された書類については、当該申請書にその旨が付記されたときは、この限りでない。
+    modality: jogai
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-137-14-p2-kou-1
+    type: kou
+    text: 許可証
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-14-p2-kou-2
+    type: kou
+    text: 変更又は追加に係る製造品目の一覧表及び製造工程に関する書類
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-14-p2-kou-3
+    type: kou
+    text: 変更し、又は追加しようとする許可の区分に係る製造所の構造設備に関する書類
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,3 +68,9 @@ parent_section:
 ### 第百三十七条の十四第二項
 
 前項の申請書には、次に掲げる書類を添えなければならない。ただし、申請等の行為の際当該申請書の提出先とされている地方厚生局長に提出され、又は都道府県知事を経由して地方厚生局長に提出された書類については、当該申請書にその旨が付記されたときは、この限りでない。
+
+一　許可証
+
+二　変更又は追加に係る製造品目の一覧表及び製造工程に関する書類
+
+三　変更し、又は追加しようとする許可の区分に係る製造所の構造設備に関する書類

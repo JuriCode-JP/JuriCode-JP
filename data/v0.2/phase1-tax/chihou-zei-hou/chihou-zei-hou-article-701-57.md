@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-57-p1
+    type: simple
+    text: 指定都市等の長は、天災その他特別の事情がある場合において事業所税の減免を必要とすると認める者その他特別の事情がある者に限り、当該指定都市等の条例の定めるところにより、事業所税を減免することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

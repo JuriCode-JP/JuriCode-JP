@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-89-7-p1
+    type: simple
+    text: 法第七百十八条の八第三項の規定により法第七百十八条の三第一項、第七百十八条の四及び第七百十八条の五の規定を準用する場合においては、同項中「支払回数割保険税額」とあり、法第七百十八条の四及び第七百十八条の五第一項中「同条第二項に規定する支払回数割保険税額」とあり、並びに同条第二項中「第七百十八条の三第二項に規定する支払回数割保険税額」とあるのは、「第七百十八条の八第一項に規定する支払回数割保険税額の見込額」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

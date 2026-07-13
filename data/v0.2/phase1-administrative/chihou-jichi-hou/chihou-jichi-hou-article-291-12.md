@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-12-p1
+    type: simple
+    text: 広域連合の経費の分賦に関し、違法又は錯誤があると認めるときは、広域連合を組織する地方公共団体は、その告知を受けた日から三十日以内に当該広域連合の長に異議を申し出ることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-12-p2
+    type: simple
+    text: 第二百九十一条の三第四項の規定による広域連合の規約の変更のうち第二百九十一条の四第一項第九号に掲げる事項に係るものに関し不服があるときは、広域連合を組織する地方公共団体は、第二百九十一条の三第四項の規定による通知を受けた日から三十日以内に当該広域連合の長に異議を申し出ることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-12-p3
+    type: simple
+    text: 広域連合の長は、第一項の規定による異議の申出があつたときは当該広域連合の議会に諮つてこれを決定し、前項の規定による異議の申出があつたときは当該広域連合の議会に諮つて規約の変更その他必要な措置を執らなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-12-p4
+    type: simple
+    text: 広域連合の議会は、前項の規定による諮問があつた日から二十日以内にその意見を述べなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

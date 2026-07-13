@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-4-p1
+    type: simple
+    text: 前二条の規定は、臨時的に任用される職員その他の法律により任期を定めて任用される職員には適用しない。
+    modality: jogai
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

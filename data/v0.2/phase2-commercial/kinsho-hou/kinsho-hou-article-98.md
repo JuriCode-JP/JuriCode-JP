@@ -51,6 +51,16 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する者は、役員となることができない。
     modality: kanou_negative
+  - id: kinsho-hou-art-98-p4-kou-1
+    type: kou
+    text: 心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-98-p4-kou-2
+    type: kou
+    text: 第二十九条の四第一項第二号ロからリまで又は会社法第三百三十一条第一項第三号のいずれかに該当する者
+    modality: unspecified
+    item_number: 2
 - number: 5
   has_proviso: false
   has_items: false
@@ -84,25 +94,24 @@ parent_section:
 
 ### 第九十八条第一項
 
-<!-- segment: simple id: kinsho-hou-art-98-p1 -->
 金融商品会員制法人に、役員として、理事長一人、理事二人以上及び監事二人以上を置く。
 
 ### 第九十八条第二項
 
-<!-- segment: simple id: kinsho-hou-art-98-p2 -->
 理事及び監事は、次項の規定により選任される理事を除き、定款の定めるところにより、会員が選挙し、理事長は、定款の定めるところにより、理事（同項の規定により選任される理事を除く。）が選挙する。
 
 ### 第九十八条第三項
 
-<!-- segment: simple id: kinsho-hou-art-98-p3 -->
 理事長は、定款に特別の定めがある場合には、理事の過半数の同意を得て、定款で定める数の理事を選任する。
 
 ### 第九十八条第四項
 
-<!-- segment: hashira id: kinsho-hou-art-98-p4-hashira -->
 次の各号のいずれかに該当する者は、役員となることができない。
+
+一　心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
+
+二　第二十九条の四第一項第二号ロからリまで又は会社法第三百三十一条第一項第三号のいずれかに該当する者
 
 ### 第九十八条第五項
 
-<!-- segment: simple id: kinsho-hou-art-98-p5 -->
 役員が前項に規定する者に該当することとなつたときは、その職を失う。

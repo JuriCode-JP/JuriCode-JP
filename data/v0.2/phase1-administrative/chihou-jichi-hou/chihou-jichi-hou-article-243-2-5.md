@@ -14,19 +14,45 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-5-p1-hashira
+    type: hashira
+    text: 普通地方公共団体の長が第二百四十三条の二第一項の規定によりその収納に関する事務を委託することができる歳入等は、次の各号のいずれにも該当するものとして当該普通地方公共団体の長が定めるものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-243-2-5-p1-kou-1
+    type: kou
+    text: 指定公金事務取扱者が収納することにより、その収入の確保及び住民の便益の増進に寄与すると認められるもの
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-243-2-5-p1-kou-2
+    type: kou
+    text: その性質上その収納に関する事務を委託することが適当でないものとして総務省令で定めるもの以外のもの
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-5-p2
+    type: simple
+    text: 指定公金事務取扱者（歳入等の収納に関する事務の委託を受けた者に限る。次項において同じ。）は、第二百三十一条の規定による納入の通知（その性質上納入の通知を必要としない歳入等にあつては、普通地方公共団体の長が定める方法）に基づかなければ、歳入等の収納をすることができない。
+    modality: kanou_negative
+    references:
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-5-p3
+    type: junyou
+    text: 前条第二項から第四項までの規定は、指定公金事務取扱者が歳入等の収納をする場合について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:
@@ -48,6 +74,10 @@ parent_section:
 ### 第二百四十三条の二の五第一項
 
 普通地方公共団体の長が第二百四十三条の二第一項の規定によりその収納に関する事務を委託することができる歳入等は、次の各号のいずれにも該当するものとして当該普通地方公共団体の長が定めるものとする。
+
+一　指定公金事務取扱者が収納することにより、その収入の確保及び住民の便益の増進に寄与すると認められるもの
+
+二　その性質上その収納に関する事務を委託することが適当でないものとして総務省令で定めるもの以外のもの
 
 ### 第二百四十三条の二の五第二項
 

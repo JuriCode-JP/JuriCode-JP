@@ -16,22 +16,54 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-4-p1
+    type: simple
+    text: 組織変更をする会員金融商品取引所の債権者は、当該会員金融商品取引所に対し、組織変更について異議を述べることができる。
+    modality: kanou_kenri
 - number: 2
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-4-p2-hashira
+    type: hashira
+    text: 組織変更をする会員金融商品取引所は、次に掲げる事項を官報に公告し、かつ、知れている債権者には、各別にこれを催告しなければならない。ただし、第二号の期間は、一月を下ることができない。
+    modality: kanou_negative
+  - id: kinsho-hou-art-101-4-p2-kou-1
+    type: kou
+    text: 組織変更をする旨
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-101-4-p2-kou-2
+    type: kou
+    text: 債権者が一定の期間内に異議を述べることができる旨
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-4-p3
+    type: simple
+    text: 債権者が前項第二号の期間内に異議を述べなかつたときは、当該債権者は、当該組織変更について承認をしたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-4-p4-honbun
+    type: honbun
+    text: 債権者が第二項第二号の期間内に異議を述べたときは、組織変更をする会員金融商品取引所は、当該債権者に対し弁済し、若しくは相当の担保を提供し、又は当該債権者に弁済を受けさせることを目的として信託会社等に相当の財産を信託しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-101-4-p4-tadashi
+    type: tadashi
+    text: ただし、当該組織変更をしても当該債権者を害するおそれがないときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:
@@ -59,6 +91,10 @@ parent_section:
 ### 第百一条の四第二項
 
 組織変更をする会員金融商品取引所は、次に掲げる事項を官報に公告し、かつ、知れている債権者には、各別にこれを催告しなければならない。ただし、第二号の期間は、一月を下ることができない。
+
+一　組織変更をする旨
+
+二　債権者が一定の期間内に異議を述べることができる旨
 
 ### 第百一条の四第三項
 

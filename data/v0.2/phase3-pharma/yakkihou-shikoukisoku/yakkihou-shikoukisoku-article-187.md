@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第五十五条において準用する令第三十七条の十二に規定する法第四十条の二第一項の許可に関する台帳に記載する事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-187-p1-kou-1
+    type: kou
+    text: 許可番号及び許可年月日
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-187-p1-kou-2
+    type: kou
+    text: 修理区分
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-187-p1-kou-3
+    type: kou
+    text: 修理業者の氏名及び住所
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-187-p1-kou-4
+    type: kou
+    text: 事業所の名称及び所在地
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-187-p1-kou-5
+    type: kou
+    text: 当該事業所の医療機器修理責任技術者の氏名及び住所
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -37,5 +62,14 @@ parent_section:
 
 ### 第百八十七条
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-187-p1-hashira -->
 令第五十五条において準用する令第三十七条の十二に規定する法第四十条の二第一項の許可に関する台帳に記載する事項は、次のとおりとする。
+
+一　許可番号及び許可年月日
+
+二　修理区分
+
+三　修理業者の氏名及び住所
+
+四　事業所の名称及び所在地
+
+五　当該事業所の医療機器修理責任技術者の氏名及び住所

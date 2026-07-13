@@ -50,10 +50,8 @@ parent_section:
 
 ### 第四十一条第一項
 
-<!-- segment: simple id: kinsho-hou-art-41-p1 -->
 金融商品取引業者等は、顧客のため忠実に投資助言業務を行わなければならない。
 
 ### 第四十一条第二項
 
-<!-- segment: simple id: kinsho-hou-art-41-p2 -->
 金融商品取引業者等は、顧客に対し、善良な管理者の注意をもつて投資助言業務を行わなければならない。

@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-72-2-p1
+    type: simple
+    text: 都道府県知事は、薬局開設者又は店舗販売業者に対して、その薬局又は店舗が第五条第二号又は第二十六条第四項第二号の規定に基づく厚生労働省令で定める基準に適合しなくなつた場合においては、当該基準に適合するようにその業務の体制を整備することを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-72-2-p2
+    type: simple
+    text: 都道府県知事は、配置販売業者に対して、その都道府県の区域における業務を行う体制が、第三十条第三項の規定に基づく厚生労働省令で定める基準に適合しなくなつた場合においては、当該基準に適合するようにその業務を行う体制を整備することを命ずることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-72-2-p3
+    type: simple
+    text: 都道府県知事は、地域連携薬局等の開設者に対して、その地域連携薬局等が第六条の二第一項各号（第一号を除く。）又は第六条の三第一項各号（第一号を除く。）に掲げる要件を欠くに至つたときは、当該要件に適合するようにその業務を行う体制を整備することを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

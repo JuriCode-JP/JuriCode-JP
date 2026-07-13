@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百六条
 
-<!-- segment: simple id: shouhou-art-506-p1 -->
 商行為の委任による代理権は、本人の死亡によっては、消滅しない。

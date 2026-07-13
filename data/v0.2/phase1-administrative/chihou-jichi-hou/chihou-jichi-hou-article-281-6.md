@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-281-6-p1
+    type: simple
+    text: 都知事は、特別区に対し、都と特別区及び特別区相互の間の調整上、特別区の事務の処理について、その処理の基準を示す等必要な助言又は勧告をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

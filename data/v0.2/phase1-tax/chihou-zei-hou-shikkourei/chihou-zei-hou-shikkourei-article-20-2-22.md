@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-22-p1
+    type: simple
+    text: 法第七十二条の二十第三項後段に規定する特定内国法人の法の施行地外の事業に帰属する収益配分額又は報酬給与額とみなす金額は、当該特定内国法人の収益配分額（法第七十二条の十四に規定する収益配分額をいう。）又は報酬給与額の総額に当該特定内国法人の外国の事務所又は事業所の従業者の数を乗じて得た額を当該特定内国法人の法の施行地内に有する事務所又は事業所及び外国の事務所又は事業所の従業者の合計数で除して計算する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-22-p2
+    type: junyou
+    text: 前条第三項から第五項までの規定は、前項の規定の適用がある場合における同項の事務所又は事業所の従業者の数について準用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

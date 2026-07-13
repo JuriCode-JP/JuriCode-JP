@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-2-p1
+    type: simple
+    text: 外国の法令に準拠して設立された法人で外国において金融商品債務引受業と同種類の業務を行う者は、前節の規定にかかわらず、この節の定めるところにより、内閣総理大臣の免許を受けて金融商品債務引受業を行うことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

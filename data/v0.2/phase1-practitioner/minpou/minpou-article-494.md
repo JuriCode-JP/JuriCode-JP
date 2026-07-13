@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 弁済者は、次に掲げる場合には、債権者のために弁済の目的物を供託することができる。この場合においては、弁済者が供託をした時に、その債権は、消滅する。
     modality: unspecified
+  - id: minpou-art-494-p1-kou-1
+    type: kou
+    text: 弁済の提供をした場合において、債権者がその受領を拒んだとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-494-p1-kou-2
+    type: kou
+    text: 債権者が弁済を受領することができないとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: true
   has_items: false
@@ -60,11 +70,12 @@ parent_section:
 
 ### 第四百九十四条第一項
 
-<!-- segment: hashira id: minpou-art-494-p1-hashira -->
 弁済者は、次に掲げる場合には、債権者のために弁済の目的物を供託することができる。この場合においては、弁済者が供託をした時に、その債権は、消滅する。
+
+一　弁済の提供をした場合において、債権者がその受領を拒んだとき。
+
+二　債権者が弁済を受領することができないとき。
 
 ### 第四百九十四条第二項
 
-<!-- segment: honbun id: minpou-art-494-p2-honbun -->
-弁済者が債権者を確知することができないときも、前項と同様とする。<!-- segment: tadashi id: minpou-art-494-p2-tadashi -->
-ただし、弁済者に過失があるときは、この限りでない。
+弁済者が債権者を確知することができないときも、前項と同様とする。ただし、弁済者に過失があるときは、この限りでない。

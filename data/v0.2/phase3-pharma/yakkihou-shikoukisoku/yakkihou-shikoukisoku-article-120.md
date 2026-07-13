@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百二十条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-120-p1 -->
 法第二十三条の五第二項後段の規定により厚生労働大臣に対して行う報告書の受理に係る通知は、様式第六十九により行うものとする。

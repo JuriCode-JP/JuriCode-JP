@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-5-p1 -->
 令第二条の四第二項の薬局開設の許可証の再交付の申請書は、様式第四によるものとする。

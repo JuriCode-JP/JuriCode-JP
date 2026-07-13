@@ -34,5 +34,4 @@ tags:
 
 ### 第八条
 
-<!-- segment: simple id: keisatsukan-shokumu-shikkou-hou-art-8-p1 -->
 警察官は、この法律の規定によるの外、刑事訴訟その他に関する法令及び警察の規則による職権職務を遂行すべきものとする。

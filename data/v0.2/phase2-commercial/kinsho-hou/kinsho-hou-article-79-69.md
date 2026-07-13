@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-69-p1
+    type: simple
+    text: 基金は、毎事業年度、予算及び資金計画を作成し、当該事業年度の開始前に（基金の成立の日を含む事業年度にあつては、成立後遅滞なく）、内閣総理大臣及び財務大臣に提出しなければならない。これを変更したときも、同様とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

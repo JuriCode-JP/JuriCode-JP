@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-77-p1
+    type: simple
+    text: 内閣総理大臣及び財務大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、基金若しくは当該基金から業務の委託を受けた者に対し当該基金の業務若しくは財産に関し参考となるべき報告若しくは資料の提出を命じ、又は当該職員に基金若しくは当該基金から業務の委託を受けた者の事務所に立ち入り、帳簿書類その他の物件の検査（当該基金から業務の委託を受けた者にあつては、当該基金の業務又は財産に関し必要なものに限る。）をさせることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

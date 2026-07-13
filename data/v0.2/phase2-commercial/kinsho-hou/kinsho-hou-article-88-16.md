@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-16-p1
+    type: simple
+    text: 総会の招集の通知は、会日より少なくとも五日前に、その会議の目的である事項を示し、定款で定めた方法に従つてしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

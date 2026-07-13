@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十一条
 
-<!-- segment: simple id: shouhi-zei-hou-shikkourei-art-61-p1 -->
 削除

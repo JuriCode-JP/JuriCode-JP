@@ -59,15 +59,12 @@ parent_section:
 
 ### 第三十一条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-31-p1 -->
 管区警察局に、局長を置く。
 
 ### 第三十一条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-31-p2 -->
 管区警察局長は、管区警察局の事務を統括し、及び所属の警察職員を指揮監督し、並びに長官の命を受け、管区警察局の所掌事務（前条の規定により関東管区警察局が分掌する事務を除く。）について、府県警察を指揮監督する。
 
 ### 第三十一条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-31-p3 -->
 管区警察局の内部組織は、政令で定める。

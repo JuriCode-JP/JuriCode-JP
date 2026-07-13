@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百四十五条
 
-<!-- segment: simple id: minpou-art-345-p1 -->
 質権者は、質権設定者に、自己に代わって質物の占有をさせることができない。

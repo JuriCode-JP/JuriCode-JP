@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十一条
 
-<!-- segment: simple id: kenpou-art-51-p1 -->
 両議院の議員は、議院で行つた演説、討論又は表決について、院外で責任を問はれない。

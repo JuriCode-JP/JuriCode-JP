@@ -23,6 +23,36 @@ paragraphs:
     modality: unspecified
     references:
     - 同項
+  - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-1
+    type: kou
+    text: 第十三条第一項第三号及び第四号に掲げる事項
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-2
+    type: kou
+    text: 第二十条第一項第五号から第七号までに掲げる事項
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-3
+    type: kou
+    text: 物納の撤回に係る相続税額
+    modality: unspecified
+    item_number: 3
+  - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-4
+    type: kou
+    text: 法第四十七条第五項に規定する未経過延納税額のうち金銭で一時に納付することを困難とする金額及びその困難とする事由
+    modality: unspecified
+    item_number: 4
+  - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-5
+    type: kou
+    text: 施行令第二十五条の五第一項において準用する施行令第十二条第一項第二号に掲げる額及びその計算の明細
+    modality: unspecified
+    item_number: 5
+  - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-6
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -36,5 +66,16 @@ tags:
 
 ### 第二十六条
 
-<!-- segment: junyou id: souzoku-zei-hou-shikoukisoku-art-26-p1 -->
 法第四十七条第二項に規定する財務省令で定める事項は、次に掲げる事項とする。この場合において、第二十条第一項後段の規定は、第二号（同項第五号及び第六号に関する部分に限る。）に掲げる事項について準用する。
+
+一　第十三条第一項第三号及び第四号に掲げる事項
+
+二　第二十条第一項第五号から第七号までに掲げる事項
+
+三　物納の撤回に係る相続税額
+
+四　法第四十七条第五項に規定する未経過延納税額のうち金銭で一時に納付することを困難とする金額及びその困難とする事由
+
+五　施行令第二十五条の五第一項において準用する施行令第十二条第一項第二号に掲げる額及びその計算の明細
+
+六　その他参考となるべき事項

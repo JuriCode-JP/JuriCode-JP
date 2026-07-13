@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-13-7-p1
+    type: simple
+    text: 法第五百八十六条第二項第一号の七に規定する政令で定める事業は、民間資金等の活用による公共施設等の整備等の促進に関する法律（平成十一年法律第百十七号）第二条第四項に規定する選定事業（同条第一項に規定する公共施設等（同項第三号に掲げる賃貸住宅（公営住宅を除く。）及び同項第五号に掲げる施設を除く。以下この条において「公共施設等」という。）の建設に係るものに限る。以下この条において同じ。）により建設された公共施設等を当該選定事業の趣旨に沿つて利用して行う事業とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

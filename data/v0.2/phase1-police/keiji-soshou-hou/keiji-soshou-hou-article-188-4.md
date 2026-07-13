@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-188-4-p1-honbun
+    type: honbun
+    text: 検察官のみが上訴をした場合において、上訴が棄却され又は取り下げられて当該上訴に係る原裁判が確定したときは、これによつて無罪の判決が確定した場合を除き、国は、当該事件の被告人又は被告人であつた者に対し、上訴によりその審級において生じた費用の補償をする。
+    modality: unspecified
+  - id: keiji-soshou-hou-art-188-4-p1-tadashi
+    type: tadashi
+    text: ただし、被告人又は被告人であつた者の責めに帰すべき事由によつて生じた費用については、補償をしないことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

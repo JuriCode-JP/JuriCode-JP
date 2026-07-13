@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: shotoku-zei-hou-shikoukisoku-art-92-3-p1-kou-1
+    type: kou
+    text: 前条第一項各号に掲げる方法のうち当該支払をする者が使用するもの
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-92-3-p1-kou-2
+    type: kou
+    text: 記載情報の受信者ファイルへの記録の方式
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -33,8 +43,8 @@ paragraphs:
     text: 令第三百五十二条の四第一項に規定する支払をする者が、同項に規定する支払を受ける者から前項の規定による承諾を得ようとする場合において、当該支払をする者が定める期限までに当該承諾をしない旨の回答がないときは当該承諾があつたものとみなす旨の通知をし、当該期限までに当該支払を受ける者から当該回答がなかつたときは、当該承諾を得たものとみなす。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -53,10 +63,12 @@ parent_section:
 
 ### 第九十二条の三第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-92-3-p1-hashira -->
 令第三百五十二条の四第一項（支払通知書に記載すべき事項の電磁的方法による提供の承諾等）に規定する支払をする者は、同項の規定により、あらかじめ、同項に規定する支払を受ける者に対し、次に掲げる事項を示し、同項に規定する書面又は電磁的方法による承諾を得なければならない。
+
+一　前条第一項各号に掲げる方法のうち当該支払をする者が使用するもの
+
+二　記載情報の受信者ファイルへの記録の方式
 
 ### 第九十二条の三第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-92-3-p2 -->
 令第三百五十二条の四第一項に規定する支払をする者が、同項に規定する支払を受ける者から前項の規定による承諾を得ようとする場合において、当該支払をする者が定める期限までに当該承諾をしない旨の回答がないときは当該承諾があつたものとみなす旨の通知をし、当該期限までに当該支払を受ける者から当該回答がなかつたときは、当該承諾を得たものとみなす。

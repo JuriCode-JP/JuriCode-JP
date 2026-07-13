@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十三条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-23-p1 -->
 審判官は、審判手続における主張若しくは証拠の申出の制限若しくは審判手続の分離若しくは併合を命じ、又はその命令を取り消すことができる。
 
 ### 第二十三条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-23-p2 -->
 審判官は、終結した審判手続の再開を命ずることができる。

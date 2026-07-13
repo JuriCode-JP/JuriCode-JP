@@ -32,6 +32,21 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: minpou-art-117-p2-kou-1
+    type: kou
+    text: 他人の代理人として契約をした者が代理権を有しないことを相手方が知っていたとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-117-p2-kou-2
+    type: kou
+    text: 他人の代理人として契約をした者が代理権を有しないことを相手方が過失によって知らなかったとき。ただし、他人の代理人として契約をした者が自己に代理権がないことを知っていたときは、この限りでない。
+    modality: jogai
+    item_number: 2
+  - id: minpou-art-117-p2-kou-3
+    type: kou
+    text: 他人の代理人として契約をした者が行為能力の制限を受けていたとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -52,10 +67,14 @@ parent_section:
 
 ### 第百十七条第一項
 
-<!-- segment: simple id: minpou-art-117-p1 -->
 他人の代理人として契約をした者は、自己の代理権を証明したとき、又は本人の追認を得たときを除き、相手方の選択に従い、相手方に対して履行又は損害賠償の責任を負う。
 
 ### 第百十七条第二項
 
-<!-- segment: hashira id: minpou-art-117-p2-hashira -->
 前項の規定は、次に掲げる場合には、適用しない。
+
+一　他人の代理人として契約をした者が代理権を有しないことを相手方が知っていたとき。
+
+二　他人の代理人として契約をした者が代理権を有しないことを相手方が過失によって知らなかったとき。ただし、他人の代理人として契約をした者が自己に代理権がないことを知っていたときは、この限りでない。
+
+三　他人の代理人として契約をした者が行為能力の制限を受けていたとき。

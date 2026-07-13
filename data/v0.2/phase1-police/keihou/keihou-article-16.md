@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十六条第一項
 
-<!-- segment: simple id: keihou-art-16-p1 -->
 拘留は、一日以上三十日未満とし、刑事施設に拘置する。
 
 ### 第十六条第二項
 
-<!-- segment: simple id: keihou-art-16-p2 -->
 拘留に処せられた者には、改善更生を図るため、必要な作業を行わせ、又は必要な指導を行うことができる。

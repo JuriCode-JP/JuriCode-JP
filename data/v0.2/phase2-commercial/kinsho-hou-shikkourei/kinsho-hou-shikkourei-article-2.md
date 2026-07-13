@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二条
 
-<!-- segment: simple id: kinsho-hou-shikkourei-art-2-p1 -->
 法第二条の三第一項に規定する政令で定めるものは、株式移転とする。

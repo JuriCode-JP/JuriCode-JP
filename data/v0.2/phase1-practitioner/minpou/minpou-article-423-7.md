@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-423-7-p1-zen
+    type: zen_dan
+    text: 登記又は登録をしなければ権利の得喪及び変更を第三者に対抗することができない財産を譲り受けた者は、その譲渡人が第三者に対して有する登記手続又は登録手続をすべきことを請求する権利を行使しないときは、その権利を行使することができる。
+    modality: kanou_kenri
+  - id: minpou-art-423-7-p1-kou
+    type: kou_dan
+    text: この場合においては、前三条の規定を準用する。
+    modality: unspecified
+    references:
+    - 前三条
+    depends_on: minpou-art-423-7-p1-zen
 cases: []
 amendments: []
 tags:

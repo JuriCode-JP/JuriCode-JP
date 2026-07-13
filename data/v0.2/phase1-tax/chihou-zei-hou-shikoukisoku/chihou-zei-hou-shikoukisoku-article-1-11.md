@@ -34,5 +34,4 @@ tags:
 
 ### 第一条の十一
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-1-11-p1 -->
 削除

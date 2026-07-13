@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-79-p1
+    type: simple
+    text: 法律上課税資産の譲渡等を行つたとみられる者が単なる名義人であつて、その課税資産の譲渡等に係る対価を享受せず、その者以外の者がその課税資産の譲渡等に係る対価を享受する場合には、当該課税資産の譲渡等は、当該対価を享受する者が行つたものとして、この節の規定を適用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-79-p2
+    type: simple
+    text: 法律上特定課税仕入れを行つたとみられる者が単なる名義人であつて、その特定課税仕入れに係る対価の支払をせず、その者以外の者がその特定課税仕入れに係る対価を支払うべき者である場合には、当該特定課税仕入れは、当該対価を支払うべき者が行つたものとして、この節の規定を適用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

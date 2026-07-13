@@ -43,5 +43,4 @@ parent_section:
 
 ### 第四百二十四条
 
-<!-- segment: simple id: kaisha-hou-art-424-p1 -->
 前条第一項の責任は、総株主の同意がなければ、免除することができない。

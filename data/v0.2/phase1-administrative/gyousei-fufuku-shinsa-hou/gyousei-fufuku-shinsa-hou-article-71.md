@@ -68,20 +68,16 @@ parent_section:
 
 ### 第七十一条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-71-p1 -->
 審査会に、専門の事項を調査させるため、専門委員を置くことができる。
 
 ### 第七十一条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-71-p2 -->
 専門委員は、学識経験のある者のうちから、総務大臣が任命する。
 
 ### 第七十一条第三項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-71-p3 -->
 専門委員は、その者の任命に係る当該専門の事項に関する調査が終了したときは、解任されるものとする。
 
 ### 第七十一条第四項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-71-p4 -->
 専門委員は、非常勤とする。

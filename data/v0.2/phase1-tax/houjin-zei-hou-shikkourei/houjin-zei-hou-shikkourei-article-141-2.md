@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: houjin-zei-hou-shikkourei-art-141-2-p1-kou-1
+    type: kou
+    text: 法第六十九条第四項第一号に掲げる国外源泉所得
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-141-2-p1-kou-2
+    type: kou
+    text: 法第六十九条第四項第二号から第十六号までに掲げる国外源泉所得（同項第二号から第十三号まで、第十五号及び第十六号に掲げる国外源泉所得にあつては、同項第一号に掲げる国外源泉所得に該当するものを除く。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -45,5 +55,8 @@ parent_section:
 
 ### 第百四十一条の二
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-141-2-p1-hashira -->
 法第六十九条第一項（外国税額の控除）に規定する政令で定める金額は、内国法人の各事業年度の次に掲げる国外源泉所得（同項に規定する国外源泉所得をいう。以下この款において同じ。）に係る所得の金額の合計額（当該合計額が零を下回る場合には、零）とする。
+
+一　法第六十九条第四項第一号に掲げる国外源泉所得
+
+二　法第六十九条第四項第二号から第十六号までに掲げる国外源泉所得（同項第二号から第十三号まで、第十五号及び第十六号に掲げる国外源泉所得にあつては、同項第一号に掲げる国外源泉所得に該当するものを除く。）

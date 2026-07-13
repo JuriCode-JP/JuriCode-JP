@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-12-p1
+    type: simple
+    text: 令第四十三条の十二第二項の申請書（正副二通）は、様式第四によるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-12-p2
+    type: simple
+    text: 前項の申請書には、手数料の額に相当する収入印紙を貼らなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

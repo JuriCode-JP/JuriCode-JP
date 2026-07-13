@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-15-9-p1
+    type: simple
+    text: 薬局開設者は、その薬局において登録販売者として業務に従事した者から、過去五年間においてその業務に従事したことの証明を求められたときは、速やかにその証明を行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-15-9-p2
+    type: simple
+    text: 前項の場合において、薬局開設者は、虚偽又は不正の証明を行つてはならない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-15-9-p3
+    type: simple
+    text: 薬局開設者は、第一項の証明を行うために必要な記録を保存しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

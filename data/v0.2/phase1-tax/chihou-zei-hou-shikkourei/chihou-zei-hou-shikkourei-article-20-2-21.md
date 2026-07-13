@@ -16,27 +16,57 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-21-p1
+    type: simple
+    text: 法第七十二条の十九後段に規定する同条に規定する特定内国法人（以下この節において「特定内国法人」という。）の法の施行地外の事業に帰属する付加価値額とみなす金額は、当該特定内国法人の付加価値額の総額（第二十条の二の十八第一項の規定を適用しないで計算した金額とする。）に当該特定内国法人の法の施行地外に有する前条の場所（以下この項及び第三項、次条第一項、第二十条の二の二十五第二項、第二十一条の十第一項並びに第二十三条第一項において「外国の事務所又は事業所」という。）の従業者（事務所又は事業所に使用される者で賃金を支払われるものをいう。以下この条、次条第一項、第二十条の二の二十五第二項、第二十条の二の二十七、第二十一条の十、第二十三条第一項及び第三十五条の三の十一において同じ。）の数を乗じて得た額を当該特定内国法人の法の施行地内に有する事務所又は事業所及び外国の事務所又は事業所の従業者の合計数で除して計算する。
+    modality: unspecified
+    references:
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-21-p2
+    type: simple
+    text: 前項の特定内国法人が法人税法第六十九条の規定の適用を受けない場合における同項の付加価値額の総額は、当該特定内国法人の法の施行地外の事業に帰属する所得に対して外国において課された法人税に相当する税を当該事業年度の単年度損益の計算上損金の額に算入しないものとして計算する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-21-p3
+    type: simple
+    text: 第一項の規定の適用がある場合における同項の事務所又は事業所の従業者の数は、当該特定内国法人の当該事業年度終了の日現在における事務所又は事業所の従業者の数（外国の事務所又は事業所を有しない内国法人が事業年度の中途において外国の事務所又は事業所を有することとなつた場合又は特定内国法人が事業年度の中途において外国の事務所又は事業所を有しないこととなつた場合には、当該事業年度に属する各月の末日現在における事務所又は事業所の従業者の数を合計した数を当該事業年度の月数で除して得た数（その数に一人に満たない端数を生じたときは、これを一人とする。））によるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-21-p4
+    type: simple
+    text: 前項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-21-p5
+    type: simple
+    text: 法第七十二条の二十六第一項ただし書又は第七十二条の四十八第二項ただし書の規定により申告納付をする特定内国法人に係る事務所又は事業所の従業者の数について第三項の規定を適用する場合には、当該特定内国法人の法第七十二条の二十六第一項に規定する中間期間（第二十条の二の二十三第一号において「中間期間」という。）を一事業年度とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-21-p1-zen
+    type: zen_dan
+    text: 前条第一項第一号の規定により配置された特定自動運行主任者は、当該特定自動運行用自動車が特定自動運行を行つているときは、同号に規定する装置の作動状態を監視していなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: douro-koutsuu-hou-art-75-21-p1-kou
+    type: kou_dan
+    text: この場合において、当該装置が正常に作動していないことを認めたときは、当該特定自動運行主任者は、直ちに、当該特定自動運行を終了させるための措置を講じなければならない。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-75-21-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-21-p2
+    type: simple
+    text: 特定自動運行主任者は、道路において特定自動運行が終了したときは、直ちに、次条又は第七十五条の二十三第一項若しくは第三項の規定による措置その他のこの法律及びこの法律に基づく命令の規定並びにこの法律の規定に基づく処分により特定自動運行主任者が実施しなければならない措置を講ずべき事由の有無を確認しなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

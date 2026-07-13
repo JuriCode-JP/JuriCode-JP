@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-13-p1
+    type: simple
+    text: 自主規制委員は、自主規制委員長に対し、自主規制委員会の目的である事項及び招集の理由を示して、自主規制委員会の招集を請求することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

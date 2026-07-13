@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-4-13-p1
+    type: simple
+    text: 法第六十六条の六十九に規定する法第六十六条の五十の登録又は高速取引行為者について、法の規定を準用する場合における法第六十六条の六十九の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

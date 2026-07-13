@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-9-4-p1-hashira
+    type: hashira
+    text: 令第九条の三第五項において準用する令第四条の二の四第四項第三号の規定により公告の中断の内容の公告をする場合には、中断が生じた当該公告に次に掲げる事項を公告するものとする。
+    modality: gimu
+  - id: koukai-kaitsuke-furei-art-9-4-p1-kou-1
+    type: kou
+    text: 公告の中断の期間
+    modality: unspecified
+    item_number: 1
+  - id: koukai-kaitsuke-furei-art-9-4-p1-kou-2
+    type: kou
+    text: 公告の中断の原因
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -31,3 +45,7 @@ tags:
 ### 第九条の四
 
 令第九条の三第五項において準用する令第四条の二の四第四項第三号の規定により公告の中断の内容の公告をする場合には、中断が生じた当該公告に次に掲げる事項を公告するものとする。
+
+一　公告の中断の期間
+
+二　公告の中断の原因

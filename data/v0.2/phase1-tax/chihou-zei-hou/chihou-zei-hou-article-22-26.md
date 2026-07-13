@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-26-p1
+    type: simple
+    text: 当該徴税吏員は、間接地方税以外の地方税に関する犯則事件の調査により犯則があると思料するときは、検察官に告発しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

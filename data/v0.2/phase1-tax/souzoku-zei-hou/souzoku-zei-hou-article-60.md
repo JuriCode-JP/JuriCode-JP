@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十条
 
-<!-- segment: simple id: souzoku-zei-hou-art-60-p1 -->
 削除

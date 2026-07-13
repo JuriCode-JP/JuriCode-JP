@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-616-2-p1
+    type: simple
+    text: 賃借物の全部が滅失その他の事由により使用及び収益をすることができなくなった場合には、賃貸借は、これによって終了する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

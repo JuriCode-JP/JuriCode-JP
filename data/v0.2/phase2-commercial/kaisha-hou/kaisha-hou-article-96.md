@@ -46,5 +46,4 @@ parent_section:
 
 ### 第九十六条
 
-<!-- segment: tokusoku id: kaisha-hou-art-96-p1 override_flag: true override_target: 第三十条 -->
 第三十条第二項の規定にかかわらず、創立総会においては、その決議によって、定款の変更をすることができる。

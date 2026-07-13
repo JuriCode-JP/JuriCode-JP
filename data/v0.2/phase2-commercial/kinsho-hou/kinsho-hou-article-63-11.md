@@ -13,20 +13,53 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-11-p1-honbun
+    type: honbun
+    text: 金融商品取引業者（第六十三条の八第一項各号の行為を業として行うことについて第二十九条の登録を受けている者を除く。）は、同条の規定にかかわらず、あらかじめ、内閣府令で定めるところにより、海外投資家等特例業務を行う旨、第六十三条の九第一項第五号及び第七号に掲げる事項その他内閣府令で定める事項を内閣総理大臣に届け出て、海外投資家等特例業務を行うことができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-63-11-p1-tadashi
+    type: tadashi
+    text: ただし、次項において準用する前条第三項第二号に該当することとなつたときは、この限りでない。
+    modality: jogai
+    references:
+    - 前条
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-11-p2
+    type: junyou
+    text: 第六十三条の九第四項、第五項、第七項及び第九項から第十一項まで、前条第三項並びに次条から第六十三条の十四までの規定は、前項の規定による届出をした金融商品取引業者について準用する。この場合において、第六十三条の九第四項中「第一項の」とあるのは「第六十三条の十一第一項の」と、同条第五項中「第一項又は第七項」とあるのは「第六十三条の十一第一項又は同条第二項において準用する第七項」と、同条第七項中「第一項各号に掲げる事項」とあるのは「第一項第五号及び第七号に掲げる事項その他内閣府令で定める事項」と読み替えるものとするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
+    - 前条
+    - 次条
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-11-p3-hashira
+    type: hashira
+    text: 金融商品取引業者等が次の各号に掲げる業務を行う場合においては、当該各号に定める規定は、適用しない。
+    modality: jogai
+  - id: kinsho-hou-art-63-11-p3-kou-1
+    type: kou
+    text: 第六十三条の八第一項第一号に掲げる行為を行う業務　第二節第一款（第三十五条の三、第三十六条の三、第三十七条、第三十七条の三、第三十七条の四、第三十八条（第一号、第二号及び第九号に係る部分に限る。）、第三十九条（第四項及び第六項を除く。）及び第四十条を除く。）及び第三款（第四十二条、第四十二条の二、第四十二条の四及び第四十二条の七を除く。）の規定
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-63-11-p3-kou-2
+    type: kou
+    text: 第六十三条の八第一項第二号に掲げる行為を行う業務　第二節第一款（第三十五条の三、第三十六条の三、第三十七条、第三十七条の三、第三十七条の四、第三十八条（第一号、第二号及び第九号に係る部分に限る。）、第三十九条（第四項及び第六項を除く。）、第四十条、第四十条の三及び第四十条の三の二を除く。）の規定
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -54,3 +87,7 @@ parent_section:
 ### 第六十三条の十一第三項
 
 金融商品取引業者等が次の各号に掲げる業務を行う場合においては、当該各号に定める規定は、適用しない。
+
+一　第六十三条の八第一項第一号に掲げる行為を行う業務　第二節第一款（第三十五条の三、第三十六条の三、第三十七条、第三十七条の三、第三十七条の四、第三十八条（第一号、第二号及び第九号に係る部分に限る。）、第三十九条（第四項及び第六項を除く。）及び第四十条を除く。）及び第三款（第四十二条、第四十二条の二、第四十二条の四及び第四十二条の七を除く。）の規定
+
+二　第六十三条の八第一項第二号に掲げる行為を行う業務　第二節第一款（第三十五条の三、第三十六条の三、第三十七条、第三十七条の三、第三十七条の四、第三十八条（第一号、第二号及び第九号に係る部分に限る。）、第三十九条（第四項及び第六項を除く。）、第四十条、第四十条の三及び第四十条の三の二を除く。）の規定

@@ -16,17 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-20-p1
+    type: simple
+    text: 当該事業年度の収益配分額のうちに当該事業年度の報酬給与額の占める割合が百分の七十を超える法人の付加価値割の課税標準の算定については、当該事業年度の付加価値額（前条の規定により控除すべき金額があるときは、これを控除した後の金額とする。）から雇用安定控除額を控除するものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-20-p2
+    type: simple
+    text: 前項の雇用安定控除額は、当該事業年度の報酬給与額から当該事業年度の収益配分額に百分の七十の割合を乗じて得た金額を控除した金額とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-20-p3-zen
+    type: zen_dan
+    text: 前二項の当該事業年度の収益配分額又は報酬給与額は、特定内国法人にあつては当該特定内国法人の事業の収益配分額又は報酬給与額の総額からこの法律の施行地外の事業に帰属する収益配分額又は報酬給与額を、それぞれ控除して得た額とする。
+    modality: gimu
+    references:
+    - 前二項
+  - id: chihou-zei-hou-art-72-20-p3-kou
+    type: kou_dan
+    text: この場合において、当該特定内国法人について前条後段の規定の適用があるときは、政令で定めるところにより計算した金額をもつて、当該特定内国法人のこの法律の施行地外の事業に帰属する収益配分額又は報酬給与額とみなす。
+    modality: unspecified
+    references:
+    - 前条
+    depends_on: chihou-zei-hou-art-72-20-p3-zen
 cases: []
 amendments: []
 tags:

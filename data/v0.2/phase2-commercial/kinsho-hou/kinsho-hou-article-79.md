@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七十九条
 
-<!-- segment: junyou id: kinsho-hou-art-79-p1 applies_provisions: 第七十二条 -->
 第七十二条の規定は、認定協会の役員若しくは職員又はこれらの職にあつた者について準用する。

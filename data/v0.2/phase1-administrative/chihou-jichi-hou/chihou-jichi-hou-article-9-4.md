@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-9-4-p1
+    type: simple
+    text: 総務大臣又は都道府県知事は、公有水面の埋立てが行なわれる場合において、当該埋立てにより造成されるべき土地の所属すべき市町村を定めるため必要があると認めるときは、できる限りすみやかに、前二条に規定する措置を講じなければならない。
+    modality: gimu
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

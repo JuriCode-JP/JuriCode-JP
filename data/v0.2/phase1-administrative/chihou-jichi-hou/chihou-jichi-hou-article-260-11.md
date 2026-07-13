@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-11-p1
+    type: simple
+    text: 認可地縁団体には、規約又は総会の決議で、一人又は数人の監事を置くことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

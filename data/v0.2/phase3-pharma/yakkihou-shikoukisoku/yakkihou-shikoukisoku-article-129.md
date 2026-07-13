@@ -39,6 +39,51 @@ paragraphs:
     type: hashira
     text: 法第二十三条の十第二項の規定により登録認証機関が業務規程に定めておかなければならない事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-129-p3-kou-1
+    type: kou
+    text: 基準適合性認証の実施方法
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-129-p3-kou-2
+    type: kou
+    text: 基準適合性認証に関する料金
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-129-p3-kou-3
+    type: kou
+    text: 基準適合性認証の一部変更又は取消しの実施方法
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-129-p3-kou-4
+    type: kou
+    text: 内部監査の実施方法
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-129-p3-kou-5
+    type: kou
+    text: 基準適合性認証の業務の範囲に応じた審査員の資格要件
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-129-p3-kou-6
+    type: kou
+    text: 審査員の選任及び解任に関する事項
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-129-p3-kou-7
+    type: kou
+    text: 審査員の能力の維持管理の方法
+    modality: unspecified
+    item_number: 7
+  - id: yakkihou-shikoukisoku-art-129-p3-kou-8
+    type: kou
+    text: 異議申立て及び苦情処理の実施方法
+    modality: unspecified
+    item_number: 8
+  - id: yakkihou-shikoukisoku-art-129-p3-kou-9
+    type: kou
+    text: 基準適合性認証に関する記録の保管及び管理の実施方法
+    modality: unspecified
+    item_number: 9
 cases: []
 amendments: []
 tags:
@@ -57,15 +102,30 @@ parent_section:
 
 ### 第百二十九条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-129-p1 -->
 登録認証機関は、法第二十三条の十第一項前段の規定により業務規程の認可を受けようとするときは、様式第七十三による申請書に当該業務規程（正副二通）を添えて、厚生労働大臣に提出しなければならない。
 
 ### 第百二十九条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-129-p2 -->
 登録認証機関は、法第二十三条の十第一項後段の規定により業務規程の変更の認可を受けようとするときは、様式第七十四による申請書に変更後の業務規程（正副二通）を添えて、厚生労働大臣に提出しなければならない。
 
 ### 第百二十九条第三項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-129-p3-hashira -->
 法第二十三条の十第二項の規定により登録認証機関が業務規程に定めておかなければならない事項は、次のとおりとする。
+
+一　基準適合性認証の実施方法
+
+二　基準適合性認証に関する料金
+
+三　基準適合性認証の一部変更又は取消しの実施方法
+
+四　内部監査の実施方法
+
+五　基準適合性認証の業務の範囲に応じた審査員の資格要件
+
+六　審査員の選任及び解任に関する事項
+
+七　審査員の能力の維持管理の方法
+
+八　異議申立て及び苦情処理の実施方法
+
+九　基準適合性認証に関する記録の保管及び管理の実施方法

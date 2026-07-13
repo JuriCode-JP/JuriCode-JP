@@ -14,14 +14,32 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-5-p1-hashira
+    type: hashira
+    text: 法第七十二条の十六第一項に規定する政令で定める当該事業年度の法人税の所得の計算上損金の額に算入される支払利子の額は、次に掲げる支払利子の額とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-20-2-5-p1-kou-1
+    type: kou
+    text: 当該事業年度以前の事業年度において支払われた棚卸資産等に係る支払利子の額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-20-2-5-p1-kou-2
+    type: kou
+    text: 法人税法第五十三条第一項に規定する賃貸借取引に係る支払利子の額
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-5-p2
+    type: junyou
+    text: 第二十条の二第二項の規定は、法第七十二条の十六第一項に規定する当該事業年度に支払われる支払利子の額で政令で定めるものについて準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -41,6 +59,10 @@ parent_section:
 ### 第二十条の二の五第一項
 
 法第七十二条の十六第一項に規定する政令で定める当該事業年度の法人税の所得の計算上損金の額に算入される支払利子の額は、次に掲げる支払利子の額とする。
+
+一　当該事業年度以前の事業年度において支払われた棚卸資産等に係る支払利子の額
+
+二　法人税法第五十三条第一項に規定する賃貸借取引に係る支払利子の額
 
 ### 第二十条の二の五第二項
 

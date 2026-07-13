@@ -25,7 +25,7 @@ paragraphs:
     override_target:
     - 第百三十五条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -62,10 +62,8 @@ parent_section:
 
 ### 第八百条第一項
 
-<!-- segment: tokusoku id: kaisha-hou-art-800-p1 override_flag: true override_target: 第百三十五条 -->
 第百三十五条第一項の規定にかかわらず、吸収合併消滅株式会社若しくは株式交換完全子会社の株主、吸収合併消滅持分会社の社員又は吸収分割会社（以下この項において「消滅会社等の株主等」という。）に対して交付する金銭等の全部又は一部が存続株式会社等の親会社株式（同条第一項に規定する親会社株式をいう。以下この条において同じ。）である場合には、当該存続株式会社等は、吸収合併等に際して消滅会社等の株主等に対して交付する当該親会社株式の総数を超えない範囲において当該親会社株式を取得することができる。
 
 ### 第八百条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-800-p2 override_flag: true override_target: 第百三十五条 -->
 第百三十五条第三項の規定にかかわらず、前項の存続株式会社等は、効力発生日までの間は、存続株式会社等の親会社株式を保有することができる。ただし、吸収合併等を中止したときは、この限りでない。

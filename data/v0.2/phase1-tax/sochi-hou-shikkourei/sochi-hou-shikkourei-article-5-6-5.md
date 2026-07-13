@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-5-p1-zen
+    type: zen_dan
+    text: 法第十条の五の五第三項の規定による控除をすべき金額は、その年分の所得税法第九十二条第二項に規定する課税総所得金額に係る所得税額から控除する。
+    modality: unspecified
+  - id: sochi-hou-shikkourei-art-5-6-5-p1-kou
+    type: kou_dan
+    text: この場合において、当該所得税額から控除をすべき同条第三項に規定する配当控除の額があるときは、まず当該配当控除の額を控除し、次に法第十条の五の五第三項の規定による控除をすべき金額を控除する。
+    modality: unspecified
+    depends_on: sochi-hou-shikkourei-art-5-6-5-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-5-p2
+    type: simple
+    text: 法第十条の五の五第三項第一号イに規定する政令で定めるものは、同条第一項に規定する生産工程効率化等設備のうちエネルギーの利用による環境への負荷の低減に著しく資するものとして経済産業大臣が定める基準に適合するものとし、同条第三項第二号イに規定する政令で定めるものは、同条第一項に規定する生産工程効率化等設備のうちエネルギーの利用による環境への負荷の低減に特に著しく資するものとして経済産業大臣が定める基準に適合するものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-5-p3
+    type: simple
+    text: 経済産業大臣は、前項の規定により基準を定めたときは、これを告示する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

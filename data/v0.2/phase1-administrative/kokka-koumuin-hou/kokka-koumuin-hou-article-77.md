@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七十七条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-77-p1 -->
 職員の離職に関する規定は、この法律及び人事院規則でこれを定める。

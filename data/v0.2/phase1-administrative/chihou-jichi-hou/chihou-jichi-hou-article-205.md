@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百五条
 
-<!-- segment: simple id: chihou-jichi-hou-art-205-p1 -->
 第二百四条第一項の者は、退職年金又は退職一時金を受けることができる。

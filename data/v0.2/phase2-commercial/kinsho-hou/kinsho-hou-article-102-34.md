@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-34-p1
+    type: simple
+    text: 委託金融商品取引所は、業務執行の状況について、内閣府令で定めるところにより、定期的に、理事会に報告しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-34-p2
+    type: simple
+    text: 理事会は、委託金融商品取引所の理事、取締役及び執行役並びに支配人その他の使用人に対し、その職務の執行に関する事項の報告を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

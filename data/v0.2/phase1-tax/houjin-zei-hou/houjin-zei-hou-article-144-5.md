@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-144-5-p1-hashira
+    type: hashira
+    text: 中間申告書を提出すべき外国法人である普通法人がその中間申告書をその提出期限までに提出しなかつた場合には、その普通法人については、その提出期限において、税務署長に対し、次の各号に掲げる普通法人の区分に応じ当該各号に定める事項を記載した中間申告書の提出があつたものとみなして、この法律の規定を適用する。
+    modality: unspecified
+  - id: houjin-zei-hou-art-144-5-p1-kou-1
+    type: kou
+    text: 恒久的施設を有する外国法人である普通法人　第百四十四条の三第一項各号（中間申告）に掲げる事項
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-art-144-5-p1-kou-2
+    type: kou
+    text: 恒久的施設を有しない外国法人である普通法人　第百四十四条の三第二項各号に掲げる事項
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -40,3 +54,7 @@ parent_section:
 ### 第百四十四条の五
 
 中間申告書を提出すべき外国法人である普通法人がその中間申告書をその提出期限までに提出しなかつた場合には、その普通法人については、その提出期限において、税務署長に対し、次の各号に掲げる普通法人の区分に応じ当該各号に定める事項を記載した中間申告書の提出があつたものとみなして、この法律の規定を適用する。
+
+一　恒久的施設を有する外国法人である普通法人　第百四十四条の三第一項各号（中間申告）に掲げる事項
+
+二　恒久的施設を有しない外国法人である普通法人　第百四十四条の三第二項各号に掲げる事項

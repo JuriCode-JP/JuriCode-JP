@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-5-p1
+    type: simple
+    text: 登録販売者試験を受けようとする者は、本籍地都道府県名（日本国籍を有していない者については、その国籍。第百五十九条の八第一項第二号において同じ。）、住所、連絡先、氏名、生年月日及び性別を記載した申請書に写真その他都道府県知事が必要と認める書類を添えて、登録販売者試験を受けようとする場所の都道府県知事に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -45,5 +45,4 @@ parent_section:
 
 ### 第四百九十九条
 
-<!-- segment: simple id: minpou-art-499-p1 -->
 債務者のために弁済をした者は、債権者に代位する。

@@ -13,10 +13,21 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-5-p1-honbun
+    type: honbun
+    text: 株式交付が法令又は定款に違反する場合において、株式交付親会社の株主が不利益を受けるおそれがあるときは、株式交付親会社の株主は、株式交付親会社に対し、株式交付をやめることを請求することができる。
+    modality: kanou_kenri
+  - id: kaisha-hou-art-816-5-p1-tadashi
+    type: tadashi
+    text: ただし、前条第一項本文に規定する場合（同項ただし書又は同条第二項に規定する場合を除く。）は、この限りでない。
+    modality: jogai
+    references:
+    - 同項
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百六十六条
 
-<!-- segment: simple id: kaisha-hou-art-666-p1 -->
 残余財産の分配の割合について定款の定めがないときは、その割合は、各社員の出資の価額に応じて定める。

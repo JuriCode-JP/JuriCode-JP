@@ -16,37 +16,86 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-14-p1
+    type: simple
+    text: 法第三十一条の二第六項の権利（以下この条において単に「権利」という。）を有する者は、金融庁長官に対し、その権利の実行の申立てをすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-14-p2
+    type: simple
+    text: 金融庁長官は、前項の申立てがあつた場合において、当該申立てを理由があると認めるときは、当該営業保証金につき権利を有する者に対し、六十日を下らない一定の期間内に権利の申出をすべきこと及びその期間内に申出をしないときは配当手続から除斥されるべきことを公示し、かつ、その旨を同項の申立てをした者（次項及び第四項において「申立人」という。）及び供託者（金融商品取引業者及び法第三十一条の二第四項の規定による命令により同条第三項に規定する契約に基づき当該金融商品取引業者のために同条第一項の営業保証金の全部又は一部を供託している者をいう。第四項及び第五項において同じ。）に通知しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 次項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-14-p3
+    type: simple
+    text: 前項の規定による公示があつた後は、申立人がその申立てを取り下げた場合においても、手続の進行は、妨げられない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-14-p4-zen
+    type: zen_dan
+    text: 金融庁長官は、第二項の期間が経過した後、遅滞なく、権利の調査をしなければならない。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-15-14-p4-kou
+    type: kou_dan
+    text: この場合において、金融庁長官は、あらかじめ期日及び場所を公示し、かつ、供託者に通知して、申立人、当該期間内に権利の申出をした者及び当該供託者に対し、権利の存否及びその権利によつて担保される債権の額について証拠を提示し、及び意見を述べる機会を与えなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-shikkourei-art-15-14-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-14-p5
+    type: simple
+    text: 金融庁長官は、前項の規定による調査の結果に基づき、遅滞なく配当表を作成し、これを公示し、かつ、供託者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-14-p6
+    type: simple
+    text: 配当は、前項の規定による公示をした日から百十日を経過した後、同項の配当表に従い実施するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-14-p7-zen
+    type: zen_dan
+    text: 金融庁長官は、有価証券（社債、株式等の振替に関する法律第二百七十八条第一項に規定する振替債を含む。）が供託されている場合において、権利の実行に必要があるときは、これを換価することができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-shikkourei-art-15-14-p7-kou
+    type: kou_dan
+    text: この場合において、換価の費用は、換価代金から控除する。
+    modality: unspecified
+    depends_on: kinsho-hou-shikkourei-art-15-14-p7-zen
 cases: []
 amendments: []
 tags:

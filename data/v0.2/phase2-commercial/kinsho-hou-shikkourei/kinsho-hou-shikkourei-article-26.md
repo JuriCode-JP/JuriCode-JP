@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 金融庁長官は、内閣府令で定めるところにより、次の各号に掲げる書類を当該各号に定める日から一月間、公衆の縦覧に供するものとする。
     modality: gimu
+  - id: kinsho-hou-shikkourei-art-26-p1-kou-1
+    type: kou
+    text: 安定操作届出書　当該安定操作届出書を金融庁長官が受理した日
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-26-p1-kou-2
+    type: kou
+    text: 安定操作報告書　安定操作期間が終了した日の翌日
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +41,8 @@ paragraphs:
     text: 金融商品取引所及び認可金融商品取引業協会は、第二十三条及び前条の規定により提出された前項各号に掲げる書類の写しを、内閣府令で定めるところにより、その事務所又は本店、支店その他の営業所に備え置き、これらの書類の写しを当該各号に定める日（安定操作届出書の写しについては、金融商品取引所又は認可金融商品取引業協会に提出があつた日）から一月間、公衆の縦覧に供しなければならない。
     modality: gimu
     references:
-    - 前項
     - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -49,10 +59,12 @@ parent_section:
 
 ### 第二十六条第一項
 
-<!-- segment: hashira id: kinsho-hou-shikkourei-art-26-p1-hashira -->
 金融庁長官は、内閣府令で定めるところにより、次の各号に掲げる書類を当該各号に定める日から一月間、公衆の縦覧に供するものとする。
+
+一　安定操作届出書　当該安定操作届出書を金融庁長官が受理した日
+
+二　安定操作報告書　安定操作期間が終了した日の翌日
 
 ### 第二十六条第二項
 
-<!-- segment: simple id: kinsho-hou-shikkourei-art-26-p2 -->
 金融商品取引所及び認可金融商品取引業協会は、第二十三条及び前条の規定により提出された前項各号に掲げる書類の写しを、内閣府令で定めるところにより、その事務所又は本店、支店その他の営業所に備え置き、これらの書類の写しを当該各号に定める日（安定操作届出書の写しについては、金融商品取引所又は認可金融商品取引業協会に提出があつた日）から一月間、公衆の縦覧に供しなければならない。

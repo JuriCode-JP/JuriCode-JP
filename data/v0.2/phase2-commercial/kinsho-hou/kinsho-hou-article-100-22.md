@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-22-p1
+    type: simple
+    text: 裁判所は、金融商品会員制法人の解散及び清算の監督に必要な検査をさせるため、検査役を選任することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-22-p2
+    type: junyou
+    text: 第百条の十九及び第百条の二十の規定は、前項の規定により裁判所が検査役を選任した場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

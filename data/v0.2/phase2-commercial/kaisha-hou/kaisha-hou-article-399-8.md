@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-8-p1
+    type: simple
+    text: 監査等委員会は、各監査等委員が招集する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第六十七条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-67-p1 -->
 生後満一年に達しない生児を育てる女性は、第三十四条の休憩時間のほか、一日二回各々少なくとも三十分、その生児を育てるための時間を請求することができる。
 
 ### 第六十七条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-67-p2 -->
 使用者は、前項の育児時間中は、その女性を使用してはならない。

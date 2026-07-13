@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第七十条の三に規定する財務省令で定める書類は、次に掲げる書類とする。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-26-3-p1-kou-1
+    type: kou
+    text: 税務代理人が申請者の消費税に関する税務代理（法第五十七条の二第五項第二号イに規定する税務代理をいう。）の権限を有することを証する書面（同条第六項第二号ハに規定する書面をいう。）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-26-3-p1-kou-2
+    type: kou
+    text: その他参考となるべき書類
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第二十六条の三
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-26-3-p1-hashira -->
 令第七十条の三に規定する財務省令で定める書類は、次に掲げる書類とする。
+
+一　税務代理人が申請者の消費税に関する税務代理（法第五十七条の二第五項第二号イに規定する税務代理をいう。）の権限を有することを証する書面（同条第六項第二号ハに規定する書面をいう。）
+
+二　その他参考となるべき書類

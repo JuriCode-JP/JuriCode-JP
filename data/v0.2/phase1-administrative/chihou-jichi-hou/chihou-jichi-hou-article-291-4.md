@@ -14,24 +14,93 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-4-p1-hashira
+    type: hashira
+    text: 広域連合の規約には、次に掲げる事項につき規定を設けなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-291-4-p1-kou-1
+    type: kou
+    text: 広域連合の名称
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-291-4-p1-kou-2
+    type: kou
+    text: 広域連合を組織する地方公共団体
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-291-4-p1-kou-3
+    type: kou
+    text: 広域連合の区域
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-291-4-p1-kou-4
+    type: kou
+    text: 広域連合の処理する事務
+    modality: unspecified
+    item_number: 4
+  - id: chihou-jichi-hou-art-291-4-p1-kou-5
+    type: kou
+    text: 広域連合の作成する広域計画の項目
+    modality: unspecified
+    item_number: 5
+  - id: chihou-jichi-hou-art-291-4-p1-kou-6
+    type: kou
+    text: 広域連合の事務所の位置
+    modality: unspecified
+    item_number: 6
+  - id: chihou-jichi-hou-art-291-4-p1-kou-7
+    type: kou
+    text: 広域連合の議会の組織及び議員の選挙の方法
+    modality: unspecified
+    item_number: 7
+  - id: chihou-jichi-hou-art-291-4-p1-kou-8
+    type: kou
+    text: 広域連合の長、選挙管理委員会その他執行機関の組織及び選任の方法
+    modality: unspecified
+    item_number: 8
+  - id: chihou-jichi-hou-art-291-4-p1-kou-9
+    type: kou
+    text: 広域連合の経費の支弁の方法
+    modality: unspecified
+    item_number: 9
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-4-p2-honbun
+    type: honbun
+    text: 前項第三号に掲げる広域連合の区域は、当該広域連合を組織する地方公共団体の区域を合わせた区域を定めるものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-291-4-p2-tadashi
+    type: tadashi
+    text: ただし、都道府県の加入する広域連合について、当該広域連合の処理する事務が当該都道府県の区域の一部のみに係るものであることその他の特別の事情があるときは、当該都道府県の包括する市町村又は特別区で当該広域連合を組織しないものの一部又は全部の区域を除いた区域を定めることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-4-p3
+    type: simple
+    text: 広域連合の長は、広域連合の規約が定められ又は変更されたときは、速やかにこれを公表しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-4-p4
+    type: simple
+    text: 広域連合の議会の議員又は長（第二百九十一条の十三において準用する第二百八十七条の三第二項の規定により長に代えて理事会を置く広域連合にあつては、理事。次条第二項及び第二百九十一条の六第一項において同じ。）その他の職員は、第九十二条第二項、第百四十一条第二項及び第百九十六条第三項（これらの規定を適用し又は準用する場合を含む。）の規定にかかわらず、当該広域連合を組織する地方公共団体の議会の議員又は長その他の職員と兼ねることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:
@@ -53,6 +122,24 @@ parent_section:
 ### 第二百九十一条の四第一項
 
 広域連合の規約には、次に掲げる事項につき規定を設けなければならない。
+
+一　広域連合の名称
+
+二　広域連合を組織する地方公共団体
+
+三　広域連合の区域
+
+四　広域連合の処理する事務
+
+五　広域連合の作成する広域計画の項目
+
+六　広域連合の事務所の位置
+
+七　広域連合の議会の組織及び議員の選挙の方法
+
+八　広域連合の長、選挙管理委員会その他執行機関の組織及び選任の方法
+
+九　広域連合の経費の支弁の方法
 
 ### 第二百九十一条の四第二項
 

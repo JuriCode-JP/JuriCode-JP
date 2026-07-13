@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-24-p1
+    type: simple
+    text: 内閣総理大臣は、第五十七条の十九、第五十七条の二十第一項若しくは第二項又は第五十七条の二十一第一項、第二項若しくは第四項の規定に基づいて処分をしようとするときは、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-24-p2
+    type: simple
+    text: 内閣総理大臣は、第五十七条の十九、第五十七条の二十又は第五十七条の二十一第一項、第二項若しくは第四項の規定に基づいて処分をすることとしたときは、書面により、その旨を指定親会社又は対象特別金融商品取引業者に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

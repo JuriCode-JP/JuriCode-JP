@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-9-2-p1-hashira
+    type: hashira
+    text: 法第二十七条の二第八項第一号及び第二号に規定する政令で定める有価証券は、次に掲げる有価証券とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-9-2-p1-kou-1
+    type: kou
+    text: 新株予約権付社債券
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-9-2-p1-kou-2
+    type: kou
+    text: 新株予約権証券
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-9-2-p1-kou-3
+    type: kou
+    text: 発行者がその発行する全部又は一部の株式の内容として株主が当該発行者に対して当該株式の取得を請求することができる旨の定めを設けている場合における当該株式に係る株券
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-9-2-p1-kou-4
+    type: kou
+    text: 発行者がその発行する全部又は一部の株式の内容として当該発行者が一定の事由が生じたことを条件として当該株式を取得することができる旨の定めを設けている場合における当該株式に係る株券
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-shikkourei-art-9-2-p1-kou-5
+    type: kou
+    text: 外国の者の発行する証券又は証書で前各号に掲げる有価証券の性質を有するもの
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-hou-shikkourei-art-9-2-p1-kou-6
+    type: kou
+    text: 新投資口予約権証券等
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -36,3 +70,15 @@ parent_section:
 ### 第九条の二
 
 法第二十七条の二第八項第一号及び第二号に規定する政令で定める有価証券は、次に掲げる有価証券とする。
+
+一　新株予約権付社債券
+
+二　新株予約権証券
+
+三　発行者がその発行する全部又は一部の株式の内容として株主が当該発行者に対して当該株式の取得を請求することができる旨の定めを設けている場合における当該株式に係る株券
+
+四　発行者がその発行する全部又は一部の株式の内容として当該発行者が一定の事由が生じたことを条件として当該株式を取得することができる旨の定めを設けている場合における当該株式に係る株券
+
+五　外国の者の発行する証券又は証書で前各号に掲げる有価証券の性質を有するもの
+
+六　新投資口予約権証券等

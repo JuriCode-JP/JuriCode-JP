@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-9-p1
+    type: simple
+    text: 医薬品、医薬部外品又は化粧品の製造販売業者は、第十四条第一項に規定する医薬品、医薬部外品及び化粧品以外の医薬品、医薬部外品又は化粧品の製造販売をしようとするときは、あらかじめ、品目ごとに、厚生労働省令で定めるところにより、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-9-p2
+    type: simple
+    text: 医薬品、医薬部外品又は化粧品の製造販売業者は、前項の規定により届け出た事項を変更したときは、三十日以内に、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

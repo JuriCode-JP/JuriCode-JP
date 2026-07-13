@@ -56,11 +56,8 @@ parent_section:
 
 ### 第百九十五条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-195-p1 -->
 普通地方公共団体に監査委員を置く。
 
 ### 第百九十五条第二項
 
-<!-- segment: honbun id: chihou-jichi-hou-art-195-p2-honbun -->
-監査委員の定数は、都道府県及び政令で定める市にあつては四人とし、その他の市及び町村にあつては二人とする。<!-- segment: tadashi id: chihou-jichi-hou-art-195-p2-tadashi -->
-ただし、条例でその定数を増加することができる。
+監査委員の定数は、都道府県及び政令で定める市にあつては四人とし、その他の市及び町村にあつては二人とする。ただし、条例でその定数を増加することができる。

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二十一条
 
-<!-- segment: simple id: houjin-zei-hou-art-21-p1 -->
 内国法人に対して課する各事業年度の所得に対する法人税の課税標準は、各事業年度の所得の金額とする。

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第七条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-7-p1 -->
 法第三十四条の二第二項（口座振替納付に係る通知等）に規定する政令で定める日は、同条第一項の通知が金融機関に到達した日から二取引日を経過した最初の取引日（災害その他やむを得ない理由によりその日までに納付することができないと税務署長が認める場合には、その承認する日）とする。
 
 ### 第七条第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-7-p2 -->
 前項に規定する取引日とは、金融機関の休日以外の日をいう。

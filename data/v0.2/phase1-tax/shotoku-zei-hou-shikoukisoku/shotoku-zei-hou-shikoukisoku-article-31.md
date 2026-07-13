@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 令第百三十条第二項（耐用年数の短縮）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-31-p1-kou-1
+    type: kou
+    text: 令第百三十条第二項に規定する申請書を提出する者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-31-p1-kou-2
+    type: kou
+    text: 令第百三十条第一項の規定の適用を受けようとする減価償却資産に係る耐用年数省令に定める耐用年数
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-31-p1-kou-3
+    type: kou
+    text: 承認を受けようとする償却費の額の計算の基礎となる令第百三十条第一項に規定する未経過使用可能期間の算定の基礎
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-31-p1-kou-4
+    type: kou
+    text: 令第百三十条第一項第一号から第五号まで及び前条各号に掲げる事由のいずれに該当するかの別
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-31-p1-kou-5
+    type: kou
+    text: 第二号の減価償却資産の使用可能期間が同号に規定する耐用年数に比して著しく短い事由及びその事実
+    modality: unspecified
+    item_number: 5
+  - id: shotoku-zei-hou-shikoukisoku-art-31-p1-kou-6
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -43,5 +73,16 @@ parent_section:
 
 ### 第三十一条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-31-p1-hashira -->
 令第百三十条第二項（耐用年数の短縮）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　令第百三十条第二項に規定する申請書を提出する者の氏名及び住所
+
+二　令第百三十条第一項の規定の適用を受けようとする減価償却資産に係る耐用年数省令に定める耐用年数
+
+三　承認を受けようとする償却費の額の計算の基礎となる令第百三十条第一項に規定する未経過使用可能期間の算定の基礎
+
+四　令第百三十条第一項第一号から第五号まで及び前条各号に掲げる事由のいずれに該当するかの別
+
+五　第二号の減価償却資産の使用可能期間が同号に規定する耐用年数に比して著しく短い事由及びその事実
+
+六　その他参考となるべき事項

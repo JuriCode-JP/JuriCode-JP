@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-9-3-p1
+    type: simple
+    text: 薬局開設者は、厚生労働省令で定めるところにより、医師又は歯科医師から交付された処方箋により調剤された薬剤につき、薬剤師に販売させ、又は授与させなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

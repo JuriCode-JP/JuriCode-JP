@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-9-p1-zen
+    type: zen_dan
+    text: 検察官、被告人若しくは弁護人が証人尋問を請求し、又は裁判所が職権で証人尋問を行うこととした場合において、その証人となるべき者との間で当該証人尋問についてした第三百五十条の二第一項の合意があるときは、検察官は、遅滞なく、合意内容書面の取調べを請求しなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-350-9-p1-kou
+    type: kou_dan
+    text: この場合においては、第三百五十条の七第三項の規定を準用する。
+    modality: unspecified
+    depends_on: keiji-soshou-hou-art-350-9-p1-zen
 cases: []
 amendments: []
 tags:

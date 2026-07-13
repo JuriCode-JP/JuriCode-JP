@@ -13,25 +13,51 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-18-p1-honbun
+    type: honbun
+    text: 都道府県は、恩給法（大正十二年法律第四十八号）第十九条に規定する公務員（同法同条に規定する公務員とみなされる者を含む。以下本条中「公務員」という。）であつた者、他の都道府県の退職年金及び退職一時金に関する条例（以下本条中「退職年金条例」という。）の適用を受ける職員（その都道府県の退職年金条例の適用を受ける市町村立学校職員給与負担法（昭和二十三年法律第百三十五号）第一条及び第二条に規定する職員を含む。以下本条中「他の都道府県の職員」という。）であつた者又は市町村の退職年金条例の適用を受ける学校教育法（昭和二十二年法律第二十六号）第一条に規定する大学、高等学校及び幼稚園の職員並びに市町村の教育事務に従事する職員中政令で定める者（以下本条中「市町村の教育職員」という。）であつた者が、当該都道府県の退職年金条例の適用を受ける職員（その都道府県の退職年金条例の適用を受ける市町村立学校職員給与負担法第一条及び第二条に規定する職員を含む。以下本条中「当該都道府県の職員」という。）となつた場合においては、政令の定める基準に従い、当該公務員、他の都道府県の職員又は市町村の教育職員としての在職期間を当該都道府県の退職年金条例の規定による退職年金及び退職一時金の基礎となるべき在職期間に通算する措置を講じなければならない。
+    modality: gimu
+    references:
+    - 本条
+  - id: chihou-jichi-hou-art-252-18-p1-tadashi
+    type: tadashi
+    text: ただし、市町村の教育職員としての在職期間については、当該市町村の教育職員に適用される退職年金条例の規定が政令の定める基準に従つて定められていないときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-18-p2
+    type: simple
+    text: 都道府県は、当該都道府県の職員であつた者が公務員、他の都道府県の職員又は市町村の教育職員となり、その当該都道府県の職員としての在職期間が恩給法の規定による恩給の基礎となるべき在職期間又は他の都道府県若しくは市町村の退職年金条例の規定による退職年金及び退職一時金の基礎となるべき在職期間に通算される場合における必要な調整措置を、政令の定める基準に従い、講じなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-18-p3
+    type: simple
+    text: 第一項の規定は、公務員であつた者、都道府県の職員（都道府県の退職年金条例の適用を受ける職員（その都道府県の退職年金条例の適用を受ける市町村立学校職員給与負担法第一条及び第二条に規定する職員を含む。）をいう。以下本項において同じ。）であつた者又は他の市町村の教育職員であつた者が市町村の教育職員となつた場合における当該市町村について、前項の規定は、市町村の教育職員であつた者が公務員、都道府県の職員又は他の市町村の教育職員となつた場合における当該市町村について、これを準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-18-p4
+    type: simple
+    text: 普通地方公共団体は、第一項及び前項の規定の適用がある場合のほか、他の普通地方公共団体の退職年金条例の適用を受ける職員であつた者が当該普通地方公共団体の退職年金条例の適用を受ける職員となつた場合においては、当該他の普通地方公共団体の退職年金条例の適用を受ける職員としての在職期間を当該普通地方公共団体の退職年金条例の規定による退職年金及び退職一時金の基礎となる在職期間に通算する措置を講ずるように努めなければならない。
+    modality: doryoku_gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

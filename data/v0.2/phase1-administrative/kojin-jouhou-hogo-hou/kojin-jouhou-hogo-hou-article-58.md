@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 個人情報取扱事業者又は匿名加工情報取扱事業者のうち次に掲げる者については、第三十二条から第三十九条まで及び第四節の規定は、適用しない。
     modality: jogai
+  - id: kojin-jouhou-hogo-hou-art-58-p1-kou-1
+    type: kou
+    text: 別表第二に掲げる法人
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-58-p1-kou-2
+    type: kou
+    text: 地方独立行政法人のうち地方独立行政法人法第二十一条第一号に掲げる業務を主たる目的とするもの又は同条第二号若しくは第三号（チに係る部分に限る。）に掲げる業務を目的とするもの
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +40,16 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる者が行う当該各号に定める業務における個人情報、仮名加工情報又は個人関連情報の取扱いについては、個人情報取扱事業者、仮名加工情報取扱事業者又は個人関連情報取扱事業者による個人情報、仮名加工情報又は個人関連情報の取扱いとみなして、この章（第三十二条から第三十九条まで及び第四節を除く。）及び第六章から第八章までの規定を適用する。
     modality: unspecified
+  - id: kojin-jouhou-hogo-hou-art-58-p2-kou-1
+    type: kou
+    text: 地方公共団体の機関　医療法（昭和二十三年法律第二百五号）第一条の五第一項に規定する病院（次号において「病院」という。）及び同条第二項に規定する診療所並びに学校教育法（昭和二十二年法律第二十六号）第一条に規定する大学の運営
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-58-p2-kou-2
+    type: kou
+    text: 独立行政法人労働者健康安全機構　病院の運営
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -48,10 +68,16 @@ parent_section:
 
 ### 第五十八条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-58-p1-hashira -->
 個人情報取扱事業者又は匿名加工情報取扱事業者のうち次に掲げる者については、第三十二条から第三十九条まで及び第四節の規定は、適用しない。
+
+一　別表第二に掲げる法人
+
+二　地方独立行政法人のうち地方独立行政法人法第二十一条第一号に掲げる業務を主たる目的とするもの又は同条第二号若しくは第三号（チに係る部分に限る。）に掲げる業務を目的とするもの
 
 ### 第五十八条第二項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-58-p2-hashira -->
 次の各号に掲げる者が行う当該各号に定める業務における個人情報、仮名加工情報又は個人関連情報の取扱いについては、個人情報取扱事業者、仮名加工情報取扱事業者又は個人関連情報取扱事業者による個人情報、仮名加工情報又は個人関連情報の取扱いとみなして、この章（第三十二条から第三十九条まで及び第四節を除く。）及び第六章から第八章までの規定を適用する。
+
+一　地方公共団体の機関　医療法（昭和二十三年法律第二百五号）第一条の五第一項に規定する病院（次号において「病院」という。）及び同条第二項に規定する診療所並びに学校教育法（昭和二十二年法律第二十六号）第一条に規定する大学の運営
+
+二　独立行政法人労働者健康安全機構　病院の運営

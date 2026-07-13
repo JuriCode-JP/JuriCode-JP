@@ -14,9 +14,38 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-34-8-p1-hashira
+    type: hashira
+    text: 令第十六条の七第一項に規定する法第十三条の二の二第一項の登録に関する台帳に記載する事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-34-8-p1-kou-1
+    type: kou
+    text: 登録番号及び登録年月日
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-34-8-p1-kou-2
+    type: kou
+    text: 保管のみを行う製造所に係る製造業者の氏名及び住所
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-34-8-p1-kou-3
+    type: kou
+    text: 保管のみを行う製造所の名称及び所在地
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-34-8-p1-kou-4
+    type: kou
+    text: 当該保管のみを行う製造所の医薬品製造管理者又は医薬部外品等責任技術者の氏名及び住所
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-34-8-p1-kou-5
+    type: kou
+    text: 当該保管のみを行う製造所に係る製造業者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可の区分及び許可番号又は登録番号
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -34,3 +63,13 @@ parent_section:
 ### 第三十四条の八
 
 令第十六条の七第一項に規定する法第十三条の二の二第一項の登録に関する台帳に記載する事項は、次のとおりとする。
+
+一　登録番号及び登録年月日
+
+二　保管のみを行う製造所に係る製造業者の氏名及び住所
+
+三　保管のみを行う製造所の名称及び所在地
+
+四　当該保管のみを行う製造所の医薬品製造管理者又は医薬部外品等責任技術者の氏名及び住所
+
+五　当該保管のみを行う製造所に係る製造業者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可の区分及び許可番号又は登録番号

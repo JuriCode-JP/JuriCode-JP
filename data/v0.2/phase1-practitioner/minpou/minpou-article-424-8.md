@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-8-p1
+    type: simple
+    text: 債権者は、詐害行為取消請求をする場合において、債務者がした行為の目的が可分であるときは、自己の債権の額の限度においてのみ、その行為の取消しを請求することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-8-p2
+    type: simple
+    text: 債権者が第四百二十四条の六第一項後段又は第二項後段の規定により価額の償還を請求する場合についても、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

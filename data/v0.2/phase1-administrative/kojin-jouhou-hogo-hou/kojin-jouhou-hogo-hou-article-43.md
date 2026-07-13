@@ -86,16 +86,10 @@ parent_section:
 
 ### 第四十三条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-43-p1 -->
 個人情報取扱事業者は、匿名加工情報（匿名加工情報データベース等を構成するものに限る。以下この章及び第六章において同じ。）を作成するときは、特定の個人を識別すること及びその作成に用いる個人情報を復元することができないようにするために必要なものとして個人情報保護委員会規則で定める基準に従い、当該個人情報を加工しなければならない。
 
 ### 第四十三条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-43-p2 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-43-p3 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-43-p4 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-43-p5 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-43-p6 -->
 個人情報取扱事業者は、匿名加工情報を作成したときは、その作成に用いた個人情報から削除した記述等及び個人識別符号並びに前項の規定により行った加工の方法に関する情報の漏えいを防止するために必要なものとして個人情報保護委員会規則で定める基準に従い、これらの情報の安全管理のための措置を講じなければならない。
 
 ### 第四十三条第三項

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-13-p1 -->
 訴訟手続は、管轄違の理由によつては、その効力を失わない。

@@ -57,10 +57,8 @@ parent_section:
 
 ### 第三百九十二条第一項
 
-<!-- segment: simple id: kaisha-hou-art-392-p1 -->
 監査役会を招集するには、監査役は、監査役会の日の一週間（これを下回る期間を定款で定めた場合にあっては、その期間）前までに、各監査役に対してその通知を発しなければならない。
 
 ### 第三百九十二条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-392-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、監査役会は、監査役の全員の同意があるときは、招集の手続を経ることなく開催することができる。

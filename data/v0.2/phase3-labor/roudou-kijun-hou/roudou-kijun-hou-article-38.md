@@ -22,7 +22,7 @@ paragraphs:
     text: 労働時間は、事業場を異にする場合においても、労働時間に関する規定の適用については通算する。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -46,10 +46,8 @@ parent_section:
 
 ### 第三十八条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-38-p1 -->
 労働時間は、事業場を異にする場合においても、労働時間に関する規定の適用については通算する。
 
 ### 第三十八条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-38-p2 -->
 坑内労働については、労働者が坑口に入つた時刻から坑口を出た時刻までの時間を、休憩時間を含め労働時間とみなす。但し、この場合においては、第三十四条第二項及び第三項の休憩に関する規定は適用しない。

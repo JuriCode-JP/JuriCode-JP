@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-12-p1
+    type: simple
+    text: 登録販売者は、販売従事登録証を破り、よごし、又は失つたときは、販売従事登録証の再交付を申請することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-12-p2
+    type: simple
+    text: 前項の申請をするには、様式第八十六の七による申請書を、登録を受けた都道府県知事に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-12-p3
+    type: simple
+    text: 販売従事登録証を破り、又はよごした登録販売者が第一項の申請をする場合には、申請書にその販売従事登録証を添えなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-12-p4
+    type: simple
+    text: 登録販売者は、販売従事登録証の再交付を受けた後、失つた販売従事登録証を発見したときは、五日以内に、登録を受けた都道府県知事に返納しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

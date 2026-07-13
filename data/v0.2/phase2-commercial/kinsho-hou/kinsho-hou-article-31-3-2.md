@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-31-3-2-p1-hashira
+    type: hashira
+    text: 金融商品取引業者等（第三十四条に規定する金融商品取引業者等をいう。）、金融商品仲介業者その他の法令の規定により金融商品取引業（第三十三条の三第一項第六号イに規定する登録金融機関業務を含む。以下この条において同じ。）を行うことができる者以外の者は、次に掲げる行為をしてはならない。
+    modality: gimu_negative
+  - id: kinsho-hou-art-31-3-2-p1-kou-1
+    type: kou
+    text: 第三十六条の二第一項に規定する標識又はこれに類似する標識の掲示その他の金融商品取引業を行う旨の表示をすること。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-31-3-2-p1-kou-2
+    type: kou
+    text: 金融商品取引業を行うことを目的として、金融商品取引契約（第三十四条に規定する金融商品取引契約をいう。）の締結について勧誘をすること（第二条第八項各号に掲げる行為に該当するものを除く。）。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -38,3 +52,7 @@ parent_section:
 ### 第三十一条の三の二
 
 金融商品取引業者等（第三十四条に規定する金融商品取引業者等をいう。）、金融商品仲介業者その他の法令の規定により金融商品取引業（第三十三条の三第一項第六号イに規定する登録金融機関業務を含む。以下この条において同じ。）を行うことができる者以外の者は、次に掲げる行為をしてはならない。
+
+一　第三十六条の二第一項に規定する標識又はこれに類似する標識の掲示その他の金融商品取引業を行う旨の表示をすること。
+
+二　金融商品取引業を行うことを目的として、金融商品取引契約（第三十四条に規定する金融商品取引契約をいう。）の締結について勧誘をすること（第二条第八項各号に掲げる行為に該当するものを除く。）。

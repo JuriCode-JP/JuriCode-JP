@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-5-p1
+    type: simple
+    text: 根抵当権の極度額の変更は、利害関係を有する者の承諾を得なければ、することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

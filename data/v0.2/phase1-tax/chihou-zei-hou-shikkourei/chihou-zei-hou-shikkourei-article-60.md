@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十条
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-60-p1 -->
 前二条に定めるもののほか、法第七百五十六条第四項から第六項までの規定の適用に関し必要な事項は、総務省令で定める。

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-15-2-p1
+    type: simple
+    text: 道府県は、不動産取得税の課税標準となるべき額が、土地の取得にあつては十六万円、家屋の取得のうち建築に係るものにあつては一戸（共同住宅等にあつては、居住の用に供するために独立的に区画された一の部分をいう。以下この条において同じ。）につき六十六万円、その他のものにあつては一戸につき三十四万円に満たない場合においては、不動産取得税を課することができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-15-2-p2
+    type: simple
+    text: 土地を取得した者が当該土地を取得した日から一年以内に当該土地に隣接する土地を取得した場合又は家屋を取得した者が当該家屋を取得した日から一年以内に当該家屋と一構となるべき家屋を取得した場合においては、それぞれその前後の取得に係る土地又は家屋の取得をもつて一の土地の取得又は一戸の家屋の取得とみなして、前項の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

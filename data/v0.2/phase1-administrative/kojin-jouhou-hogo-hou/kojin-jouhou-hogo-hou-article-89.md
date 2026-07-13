@@ -123,38 +123,30 @@ parent_section:
 
 ### 第八十九条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-89-p1 -->
 行政機関の長に対し開示請求をする者は、政令で定めるところにより、実費の範囲内において政令で定める額の手数料を納めなければならない。
 
 ### 第八十九条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-89-p2 -->
 地方公共団体の機関に対し開示請求をする者は、条例で定めるところにより、実費の範囲内において条例で定める額の手数料を納めなければならない。
 
 ### 第八十九条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-89-p3 -->
 前二項の手数料の額を定めるに当たっては、できる限り利用しやすい額とするよう配慮しなければならない。
 
 ### 第八十九条第四項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-89-p4 -->
 独立行政法人等に対し開示請求をする者は、独立行政法人等の定めるところにより、手数料を納めなければならない。
 
 ### 第八十九条第五項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-89-p5 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-89-p8 -->
 前項の手数料の額は、実費の範囲内において、かつ、第一項の手数料の額を参酌して、独立行政法人等が定める。
 
 ### 第八十九条第六項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-89-p6 -->
 独立行政法人等は、前二項の規定による定めを一般の閲覧に供しなければならない。
 
 ### 第八十九条第七項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-89-p7 -->
 地方独立行政法人に対し開示請求をする者は、地方独立行政法人の定めるところにより、手数料を納めなければならない。
 
 ### 第八十九条第八項
@@ -163,5 +155,4 @@ parent_section:
 
 ### 第八十九条第九項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-89-p9 -->
 地方独立行政法人は、前二項の規定による定めを一般の閲覧に供しなければならない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-349-2-p1
+    type: simple
+    text: 償却資産に対して課する固定資産税の課税標準は、賦課期日における当該償却資産の価格で償却資産課税台帳に登録されたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

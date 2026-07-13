@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-96-5-p1
+    type: simple
+    text: 報酬を得、又は得させる目的で、人の債務に関して、第九十六条から前条までの罪を犯した者は、五年以下の拘禁刑若しくは五百万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

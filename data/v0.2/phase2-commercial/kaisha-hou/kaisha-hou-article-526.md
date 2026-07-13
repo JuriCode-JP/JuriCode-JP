@@ -54,10 +54,8 @@ parent_section:
 
 ### 第五百二十六条第一項
 
-<!-- segment: simple id: kaisha-hou-art-526-p1 -->
 清算人は、費用の前払及び裁判所が定める報酬を受けることができる。
 
 ### 第五百二十六条第二項
 
-<!-- segment: junyou id: kaisha-hou-art-526-p2 -->
 前項の規定は、清算人代理について準用する。

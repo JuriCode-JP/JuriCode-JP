@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-8-p1-hashira
+    type: hashira
+    text: 法第二十三条の二十二第二項に規定する厚生労働省令で定める再生医療等製品の製造業の許可の区分は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-8-p1-kou-1
+    type: kou
+    text: 再生医療等製品の製造工程の全部又は一部を行うもの（次号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-8-p1-kou-2
+    type: kou
+    text: 再生医療等製品の製造工程のうち包装、表示又は保管のみを行うもの
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第百三十七条の八
 
 法第二十三条の二十二第二項に規定する厚生労働省令で定める再生医療等製品の製造業の許可の区分は、次のとおりとする。
+
+一　再生医療等製品の製造工程の全部又は一部を行うもの（次号に掲げるものを除く。）
+
+二　再生医療等製品の製造工程のうち包装、表示又は保管のみを行うもの

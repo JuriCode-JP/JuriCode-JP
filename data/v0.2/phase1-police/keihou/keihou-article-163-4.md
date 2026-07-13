@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-163-4-p1
+    type: simple
+    text: 第百六十三条の二第一項の犯罪行為の用に供する目的で、同項の電磁的記録の情報を取得した者は、三年以下の拘禁刑又は五十万円以下の罰金に処する。情を知って、その情報を提供した者も、同様とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-163-4-p2
+    type: simple
+    text: 不正に取得された第百六十三条の二第一項の電磁的記録の情報を、前項の目的で保管した者も、同項と同様とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-163-4-p3
+    type: simple
+    text: 第一項の目的で、器械又は原料を準備した者も、同項と同様とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

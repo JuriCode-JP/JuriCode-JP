@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-60-2-p1
+    type: simple
+    text: 管轄区域が隣接し、又は近接する都道府県警察は、相互に協議して定めたところにより、社会的経済的一体性の程度、地理的状況等から判断して相互に権限を及ぼす必要があると認められる境界の周辺の区域（境界から政令で定める距離までの区域に限る。）における事案を処理するため、当該関係都道府県警察の管轄区域に権限を及ぼすことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

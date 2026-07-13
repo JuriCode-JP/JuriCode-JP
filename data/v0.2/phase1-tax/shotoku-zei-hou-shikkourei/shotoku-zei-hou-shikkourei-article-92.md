@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九十二条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-92-p1 -->
 法第四十四条（移転等の支出に充てるための交付金の総収入金額不算入）に規定する政令で定める行為は、第百八十一条（資本的支出）に規定する支出に係る行為とする。

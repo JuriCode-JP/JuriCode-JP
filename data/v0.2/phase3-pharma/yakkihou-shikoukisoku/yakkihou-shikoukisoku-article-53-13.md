@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-13-p1-zen
+    type: zen_dan
+    text: 法第十四条の二の二第二項後段の資料の収集及び作成については、第四十三条の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-53-13-p1-kou
+    type: kou_dan
+    text: この場合において、同条第三号中「法第十四条第一項又は第十三項の承認（法第十四条の二の二の二第一項の規定により条件及び期限を付したものを除く。）を与える又は与えない旨の処分の日」とあるのは「法第十四条の四第一項の再審査の終了の日」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-53-13-p1-zen
 cases: []
 amendments: []
 tags:

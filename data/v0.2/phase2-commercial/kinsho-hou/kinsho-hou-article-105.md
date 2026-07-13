@@ -52,8 +52,6 @@ parent_section:
 
 ### 第百五条第一項
 
-<!-- segment: simple id: kinsho-hou-art-105-p1 -->
-<!-- segment: simple id: kinsho-hou-art-105-p2 -->
 株式会社金融商品取引所は、その資本金の額を減少しようとするときは、内閣総理大臣の認可を受けなければならない。
 
 ### 第百五条第二項

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-10-p1
+    type: simple
+    text: 各大臣等（会計検査院長及び人事院総裁を除く。次項において同じ。）は、政令で定めるところにより、定期的に、及び内閣総理大臣の求めがある場合には随時、幹部候補育成課程の運用の状況を内閣総理大臣に報告するものとする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-10-p2
+    type: simple
+    text: 内閣総理大臣は、前条第一項の基準に照らして必要があると認める場合には、各大臣等に対し、幹部候補育成課程の運用の改善その他の必要な措置をとることを求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

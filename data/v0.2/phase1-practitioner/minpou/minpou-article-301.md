@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百一条
 
-<!-- segment: simple id: minpou-art-301-p1 -->
 債務者は、相当の担保を供して、留置権の消滅を請求することができる。

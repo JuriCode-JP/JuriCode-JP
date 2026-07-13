@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-664-2-p1
+    type: simple
+    text: 寄託物の一部滅失又は損傷によって生じた損害の賠償及び受寄者が支出した費用の償還は、寄託者が返還を受けた時から一年以内に請求しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-664-2-p2
+    type: simple
+    text: 前項の損害賠償の請求権については、寄託者が返還を受けた時から一年を経過するまでの間は、時効は、完成しない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

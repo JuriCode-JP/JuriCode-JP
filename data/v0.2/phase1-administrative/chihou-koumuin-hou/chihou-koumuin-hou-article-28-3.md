@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-3-p1
+    type: simple
+    text: 任命権者は、採用し、昇任し、降任し、又は転任しようとする管理監督職に係る管理監督職勤務上限年齢に達している者を、その者が当該管理監督職を占めているものとした場合における異動期間の末日の翌日（他の職への降任等をされた職員にあつては、当該他の職への降任等をされた日）以後、当該管理監督職に採用し、昇任し、降任し、又は転任することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十二条
 
-<!-- segment: simple id: kenpou-art-32-p1 -->
 何人も、裁判所において裁判を受ける権利を奪はれない。

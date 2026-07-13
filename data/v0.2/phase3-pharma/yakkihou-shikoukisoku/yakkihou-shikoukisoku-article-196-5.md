@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-5-p1-zen
+    type: zen_dan
+    text: 再生医療等製品の販売業者については、第二条から第七条まで（同条第四号、第五号及び第七号から第十二号までを除く。）の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-196-5-p1-kou
+    type: kou_dan
+    text: この場合において、第二条中「様式第二」とあるのは「様式第九十四の三」と、第六条第一項中「様式第五」とあるのは「様式第九十四の四」と、第七条第六号中「氏名、住所及び週当たり勤務時間数」とあるのは「氏名及び住所」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-196-5-p1-zen
 cases: []
 amendments: []
 tags:

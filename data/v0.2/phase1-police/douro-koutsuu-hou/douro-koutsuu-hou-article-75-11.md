@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-11-p1
+    type: simple
+    text: 自動車の運転者は、故障その他の理由により本線車道若しくはこれに接する加速車線、減速車線若しくは登坂車線（以下「本線車道等」という。）又はこれらに接する路肩若しくは路側帯において当該自動車を運転することができなくなつたときは、政令で定めるところにより、当該自動車が故障その他の理由により停止しているものであることを表示しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-11-p2
+    type: simple
+    text: 自動車の運転者は、故障その他の理由により本線車道等において運転することができなくなつたときは、速やかに当該自動車を本線車道等以外の場所に移動するため必要な措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -45,3 +53,5 @@ parent_section:
 ### 第七十五条の十一第二項
 
 自動車の運転者は、故障その他の理由により本線車道等において運転することができなくなつたときは、速やかに当該自動車を本線車道等以外の場所に移動するため必要な措置を講じなければならない。
+
+（罰則　第一項については第百二十条第一項第十三号）

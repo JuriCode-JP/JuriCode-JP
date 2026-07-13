@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-3-p1
+    type: simple
+    text: 前条第一項の合意をするには、弁護人の同意がなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-3-p2
+    type: simple
+    text: 前条第一項の合意は、検察官、被疑者又は被告人及び弁護人が連署した書面により、その内容を明らかにしてするものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-92-3-p1
+    type: simple
+    text: その締結しようとする金融商品取引契約が上場有価証券等売買等に係るものである場合における法第三十七条の三第一項第七号に規定する内閣府令で定める事項は、第八十二条から前条までの規定にかかわらず、第八十二条第一号、第三号、第五号、第十一号、第十四号及び第十五号並びに第八十三条第一項第八号に掲げる事項とする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

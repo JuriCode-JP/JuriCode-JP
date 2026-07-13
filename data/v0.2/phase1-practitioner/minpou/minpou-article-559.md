@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百五十九条
 
-<!-- segment: junyou id: minpou-art-559-p1 -->
 この節の規定は、売買以外の有償契約について準用する。ただし、その有償契約の性質がこれを許さないときは、この限りでない。

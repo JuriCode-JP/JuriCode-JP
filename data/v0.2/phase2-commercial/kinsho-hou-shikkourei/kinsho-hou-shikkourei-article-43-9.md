@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-9-p1-hashira
+    type: hashira
+    text: 長官権限のうち次に掲げるものは、第二十条第一項に規定する安定操作取引を行つた金融商品取引業者の本店の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+    modality: unspecified
+  - id: kinsho-hou-shikkourei-art-43-9-p1-kou-1
+    type: kou
+    text: 第二十三条の規定による安定操作届出書の受理
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-43-9-p1-kou-2
+    type: kou
+    text: 第二十五条の規定による安定操作報告書の受理
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第四十三条の九
 
 長官権限のうち次に掲げるものは、第二十条第一項に規定する安定操作取引を行つた金融商品取引業者の本店の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+
+一　第二十三条の規定による安定操作届出書の受理
+
+二　第二十五条の規定による安定操作報告書の受理

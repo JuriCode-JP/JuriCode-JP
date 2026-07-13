@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-41-3-p1
+    type: simple
+    text: 道府県知事は、第七十二条の三十九第二項又は第七十二条の四十一第二項の規定による所得及び所得割額の決定と前条第二項の規定による決定をする場合には、これらの決定を併せてしなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-41-3-p2
+    type: simple
+    text: 道府県知事は、第七十二条の四十一第二項の規定による収入金額及び収入割額の決定と前条第二項の規定による決定をする場合には、これらの決定を併せてしなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-41-3-p3
+    type: simple
+    text: 道府県知事は、第七十二条の三十九第二項又は第七十二条の四十一第二項の規定による所得及び所得割額の決定と同項の規定による収入金額及び収入割額の決定をする場合には、これらの決定を併せてしなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

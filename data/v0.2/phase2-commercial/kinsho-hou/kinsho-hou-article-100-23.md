@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-23-p1
+    type: simple
+    text: 金融商品会員制法人の解散及び清算を監督する裁判所は、内閣総理大臣に対し、意見を求め、又は調査を嘱託することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-23-p2
+    type: simple
+    text: 内閣総理大臣は、前項に規定する裁判所に対し、意見を述べることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

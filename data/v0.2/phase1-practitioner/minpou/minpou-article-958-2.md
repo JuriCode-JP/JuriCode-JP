@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-958-2-p1
+    type: simple
+    text: 前条の場合において、相当と認めるときは、家庭裁判所は、被相続人と生計を同じくしていた者、被相続人の療養看護に努めた者その他被相続人と特別の縁故があった者の請求によって、これらの者に、清算後残存すべき相続財産の全部又は一部を与えることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-958-2-p2
+    type: simple
+    text: 前項の請求は、第九百五十二条第二項の期間の満了後三箇月以内にしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

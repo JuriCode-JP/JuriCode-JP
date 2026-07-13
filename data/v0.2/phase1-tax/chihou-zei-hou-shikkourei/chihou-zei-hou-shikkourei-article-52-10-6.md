@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-10-6-p1-hashira
+    type: hashira
+    text: 法第三百四十九条の三第二十一項に規定する国立研究開発法人農業・食品産業技術総合研究機構が所有し、かつ、直接機構法第十四条第一項第一号に規定する業務（旧農業機械化促進法第十六条第一項第一号に規定する業務に該当するものに限る。）の用に供する土地で政令で定めるものは、当該業務の用に供する土地のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-52-10-6-p1-kou-1
+    type: kou
+    text: 事務所の用に供する土地
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-52-10-6-p1-kou-2
+    type: kou
+    text: 宿舎の用に供する土地
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第五十二条の十の六
 
 法第三百四十九条の三第二十一項に規定する国立研究開発法人農業・食品産業技術総合研究機構が所有し、かつ、直接機構法第十四条第一項第一号に規定する業務（旧農業機械化促進法第十六条第一項第一号に規定する業務に該当するものに限る。）の用に供する土地で政令で定めるものは、当該業務の用に供する土地のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する土地
+
+二　宿舎の用に供する土地

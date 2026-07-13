@@ -32,6 +32,26 @@ paragraphs:
     type: hashira
     text: 法第四十六条第一項に規定する試験研究として政令で定めるものは、次に掲げる試験研究とする。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-29-p2-kou-1
+    type: kou
+    text: 新たな製品のうち当該法人の既存の製品と構造、品種その他の特性が著しく異なるものの製造を目的として行う試験研究
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-29-p2-kou-2
+    type: kou
+    text: 新たな製品を製造するために行う新たな資源の利用方法の研究
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-29-p2-kou-3
+    type: kou
+    text: 新たな製品を製造するために現に企業化されている製造方法その他の生産技術を改善することを目的として行う試験研究
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikkourei-art-29-p2-kou-4
+    type: kou
+    text: 新たな技術のうち当該法人の既存の技術と原理又は方法が異なるものの発明を目的として行う試験研究
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
@@ -59,15 +79,20 @@ parent_section:
 
 ### 第二十九条第一項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-29-p1 -->
 法第四十六条第一項に規定する合理化、高度化その他の改善に資するものとして政令で定めるものは、機械及び装置、建物及びその附属設備並びに構築物のうち、同項に規定する農林水産物又は同項に規定する食品の生産、製造、加工又は流通の合理化、高度化その他の改善に資するものとして農林水産大臣が定める要件を満たすものとする。
 
 ### 第二十九条第二項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-29-p2-hashira -->
 法第四十六条第一項に規定する試験研究として政令で定めるものは、次に掲げる試験研究とする。
+
+一　新たな製品のうち当該法人の既存の製品と構造、品種その他の特性が著しく異なるものの製造を目的として行う試験研究
+
+二　新たな製品を製造するために行う新たな資源の利用方法の研究
+
+三　新たな製品を製造するために現に企業化されている製造方法その他の生産技術を改善することを目的として行う試験研究
+
+四　新たな技術のうち当該法人の既存の技術と原理又は方法が異なるものの発明を目的として行う試験研究
 
 ### 第二十九条第三項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-29-p3 -->
 農林水産大臣は、第一項の規定により要件を定めたときは、これを告示する。

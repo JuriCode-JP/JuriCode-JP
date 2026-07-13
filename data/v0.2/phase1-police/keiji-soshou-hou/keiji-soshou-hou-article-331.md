@@ -50,10 +50,8 @@ parent_section:
 
 ### 第三百三十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-331-p1 -->
 裁判所は、被告人の申立がなければ、土地管轄について、管轄違の言渡をすることができない。
 
 ### 第三百三十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-331-p2 -->
 管轄違の申立は、被告事件につき証拠調を開始した後は、これをすることができない。

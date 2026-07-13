@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百五十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-459-p1 -->
 非常上告の判決は、前条第一号但書の規定によりされたものを除いては、その効力を被告人に及ぼさない。

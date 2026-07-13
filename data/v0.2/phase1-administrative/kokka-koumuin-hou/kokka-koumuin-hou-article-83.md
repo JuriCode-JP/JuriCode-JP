@@ -50,10 +50,8 @@ parent_section:
 
 ### 第八十三条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-83-p1 -->
 停職の期間は、一年をこえない範囲内において、人事院規則でこれを定める。
 
 ### 第八十三条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-83-p2 -->
 停職者は、職員としての身分を保有するが、その職務に従事しない。停職者は、第九十二条の規定による場合の外、停職の期間中給与を受けることができない。

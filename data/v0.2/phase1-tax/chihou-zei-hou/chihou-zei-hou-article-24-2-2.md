@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-24-2-2-p1
+    type: simple
+    text: 資産又は事業から生ずる収益が法律上帰属するとみられる者が単なる名義人であつて、当該収益を享受せず、その者以外の者が当該収益を享受する場合においては、当該収益に係る道府県民税は、当該収益を享受する者に課するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

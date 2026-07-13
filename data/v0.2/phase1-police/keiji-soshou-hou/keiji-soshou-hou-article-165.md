@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百六十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-165-p1 -->
 裁判所は、学識経験のある者に鑑定を命ずることができる。

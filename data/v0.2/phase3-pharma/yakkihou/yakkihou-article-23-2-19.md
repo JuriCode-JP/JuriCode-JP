@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-19-p1
+    type: simple
+    text: 外国製造医療機器等特例承認取得者については、第二十三条の二の九から第二十三条の二の十一まで及び第二十三条の二の十五第三項の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-62-2-p1
+    type: simple
+    text: 法第百八十五条の十四第二項の規定により延滞金を徴収する場合において、課徴金を納付しなければならない者の納付した金額がその延滞金の額の計算の基礎となる課徴金の額に達するまでは、その納付した金額は、まずその計算の基礎となる課徴金に充てられたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

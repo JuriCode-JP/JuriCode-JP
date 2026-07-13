@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-p1
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、大量保有報告書を提出した者若しくは提出すべきであると認められる者若しくはこれらの共同保有者（第二十七条の二十三第五項に規定する共同保有者をいう。）その他の関係者若しくは参考人に対し参考となるべき報告若しくは資料の提出を命じ、又は当該職員をしてその者の帳簿書類その他の物件を検査させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-p2
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、大量保有報告書に係る株券等の発行者又は参考人に対し、参考となるべき報告又は資料の提出を命ずることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-p3
+    type: simple
+    text: 内閣総理大臣は、第一項の規定による報告若しくは資料の提出の命令若しくは検査又は前項の規定による報告若しくは資料の提出の命令に関して必要があると認めるときは、公務所又は公私の団体に照会して必要な事項の報告を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

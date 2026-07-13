@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-6-p1
+    type: simple
+    text: 会員金融商品取引所の会員は、組織変更計画の定めるところにより、組織変更後株式会社金融商品取引所の株式又は金銭の割当てを受けるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-6-p2
+    type: junyou
+    text: 会社法第二百三十四条第一項（各号を除く。）及び第二項から第五項まで、第八百六十八条第一項、第八百六十九条、第八百七十一条、第八百七十四条（第四号に係る部分に限る。）、第八百七十五条並びに第八百七十六条の規定は、前項の規定により株式又は金銭の割当てを受ける場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 第八百七十六条
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

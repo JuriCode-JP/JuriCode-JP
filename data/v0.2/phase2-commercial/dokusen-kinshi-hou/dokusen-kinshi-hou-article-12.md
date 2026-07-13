@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十二条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-12-p1 -->
 削除

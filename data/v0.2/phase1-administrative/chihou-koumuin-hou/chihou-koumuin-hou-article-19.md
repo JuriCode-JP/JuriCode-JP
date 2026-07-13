@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十九条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-19-p1 -->
 人事委員会等は、受験者に必要な資格として職務の遂行上必要であつて最少かつ適当な限度の客観的かつ画一的な要件を定めるものとする。

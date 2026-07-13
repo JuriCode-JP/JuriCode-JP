@@ -23,6 +23,21 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: kojin-jouhou-hogo-hou-art-117-p1-kou-1
+    type: kou
+    text: 行政機関等匿名加工情報の概要として個人情報保護委員会規則で定める事項
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-117-p1-kou-2
+    type: kou
+    text: 次条第一項の提案を受ける組織の名称及び所在地
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-117-p1-kou-3
+    type: kou
+    text: 次条第一項の提案をすることができる期間
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第百十七条
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-117-p1-hashira -->
 行政機関の長等は、行政機関等匿名加工情報を作成したときは、当該行政機関等匿名加工情報の作成に用いた保有個人情報を含む個人情報ファイルについては、個人情報ファイル簿に次に掲げる事項を記載しなければならない。この場合における当該個人情報ファイルについての第百十条の規定により読み替えて適用する第七十五条第一項の規定の適用については、同項中「並びに第百十条各号」とあるのは、「、第百十条各号並びに第百十七条各号」とする。
+
+一　行政機関等匿名加工情報の概要として個人情報保護委員会規則で定める事項
+
+二　次条第一項の提案を受ける組織の名称及び所在地
+
+三　次条第一項の提案をすることができる期間

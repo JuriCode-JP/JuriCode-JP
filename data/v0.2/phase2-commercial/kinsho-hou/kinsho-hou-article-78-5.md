@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-78-5-p1
+    type: simple
+    text: 認定協会は、内閣府令で定めるところにより、上場株券等の取引所金融商品市場外での売買に関する銘柄別の毎日の売買高、最高、最低及び最終の価格その他の事項を内閣総理大臣に報告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

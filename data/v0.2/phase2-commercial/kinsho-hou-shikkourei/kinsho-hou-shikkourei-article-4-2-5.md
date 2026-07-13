@@ -14,24 +14,65 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-2-5-p1-hashira
+    type: hashira
+    text: 法第二十四条の四の二第一項（法第二十七条において準用する場合を含む。）に規定する政令で定めるものは、法第二十四条第一項第一号又は第二号（これらの規定を法第二十七条において準用する場合を含む。）に掲げる有価証券（次の各号に掲げる有価証券に該当するものに限る。）の発行者とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-4-2-5-p1-kou-1
+    type: kou
+    text: 株券
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-4-2-5-p1-kou-2
+    type: kou
+    text: 優先出資証券
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-4-2-5-p1-kou-3
+    type: kou
+    text: 法第二条第一項第十七号に掲げる有価証券で前二号に掲げる有価証券の性質を有するもの
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-4-2-5-p1-kou-4
+    type: kou
+    text: 有価証券信託受益証券で、受託有価証券が前三号に掲げる有価証券であるもの
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-shikkourei-art-4-2-5-p1-kou-5
+    type: kou
+    text: 法第二条第一項第二十号に掲げる有価証券で、第一号から第三号までに掲げる有価証券に係る権利を表示するもの
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-2-5-p2
+    type: simple
+    text: 法第二十四条の四の二第四項（法第二十七条において準用する場合を含む。以下この項において同じ。）の規定において法第二十四条の二第一項において読み替えて準用する法第七条第一項、第九条第一項又は第十条第一項の規定により訂正報告書（法第二十四条の二第一項に規定する訂正報告書をいう。以下この項において同じ。）を提出する場合について法の規定を準用する場合における法第二十四条の四の二第四項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-2-5-p3
+    type: simple
+    text: 法第二十四条の四の二第五項（法第二十七条において準用する場合を含む。以下この項において同じ。）の規定において法第二十四条の四の二第一項又は第二項（これらの規定を同条第三項（同条第四項において準用する場合を含む。）及び第四項において準用し、及びこれらの規定を法第二十七条において準用する場合を含む。）の規定により確認書（法第二十四条の四の二第一項（法第二十七条において準用する場合を含む。）に規定する確認書をいう。以下同じ。）が提出された場合について法の規定を準用する場合における法第二十四条の四の二第五項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-2-5-p4
+    type: simple
+    text: 法第二十四条の四の二第六項（法第二十七条において準用する場合を含む。以下この項において同じ。）の規定において報告書提出外国会社が法第二十四条の四の二第一項又は第二項（これらの規定を法第二十七条において準用する場合を含む。）の規定により確認書を提出する場合（外国会社報告書を提出している場合に限る。）について法の規定を準用する場合における法第二十四条の四の二第六項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -49,6 +90,16 @@ parent_section:
 ### 第四条の二の五第一項
 
 法第二十四条の四の二第一項（法第二十七条において準用する場合を含む。）に規定する政令で定めるものは、法第二十四条第一項第一号又は第二号（これらの規定を法第二十七条において準用する場合を含む。）に掲げる有価証券（次の各号に掲げる有価証券に該当するものに限る。）の発行者とする。
+
+一　株券
+
+二　優先出資証券
+
+三　法第二条第一項第十七号に掲げる有価証券で前二号に掲げる有価証券の性質を有するもの
+
+四　有価証券信託受益証券で、受託有価証券が前三号に掲げる有価証券であるもの
+
+五　法第二条第一項第二十号に掲げる有価証券で、第一号から第三号までに掲げる有価証券に係る権利を表示するもの
 
 ### 第四条の二の五第二項
 

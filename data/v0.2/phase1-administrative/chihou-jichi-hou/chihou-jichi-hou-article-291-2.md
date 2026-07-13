@@ -16,27 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-2-p1
+    type: simple
+    text: 国は、その行政機関の長の権限に属する事務のうち広域連合の事務に関連するものを、別に法律又はこれに基づく政令の定めるところにより、当該広域連合が処理することとすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-2-p2
+    type: simple
+    text: 都道府県は、その執行機関の権限に属する事務のうち都道府県の加入しない広域連合の事務に関連するものを、条例の定めるところにより、当該広域連合が処理することとすることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-2-p3
+    type: junyou
+    text: 第二百五十二条の十七の二第二項、第二百五十二条の十七の三及び第二百五十二条の十七の四の規定は、前項の規定により広域連合が都道府県の事務を処理する場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-2-p4
+    type: simple
+    text: 都道府県の加入する広域連合の長（第二百九十一条の十三において準用する第二百八十七条の三第二項の規定により長に代えて理事会を置く広域連合にあつては、理事会。第二百九十一条の四第四項、第二百九十一条の五第二項、第二百九十一条の六第一項及び第二百九十一条の八第二項を除き、以下同じ。）は、その議会の議決を経て、国の行政機関の長に対し、当該広域連合の事務に密接に関連する国の行政機関の長の権限に属する事務の一部を当該広域連合が処理することとするよう要請することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-2-p5
+    type: simple
+    text: 都道府県の加入しない広域連合の長は、その議会の議決を経て、都道府県に対し、当該広域連合の事務に密接に関連する都道府県の事務の一部を当該広域連合が処理することとするよう要請することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

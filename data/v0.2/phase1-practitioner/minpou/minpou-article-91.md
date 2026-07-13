@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九十一条
 
-<!-- segment: simple id: minpou-art-91-p1 -->
 法律行為の当事者が法令中の公の秩序に関しない規定と異なる意思を表示したときは、その意思に従う。

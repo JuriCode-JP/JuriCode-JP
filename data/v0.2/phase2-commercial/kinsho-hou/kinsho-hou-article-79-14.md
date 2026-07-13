@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-14-p1
+    type: junyou
+    text: 第七十二条の規定は、認定団体の役員若しくは職員又はこれらの職にあつた者について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第七十二条
 cases: []
 amendments: []
 tags:

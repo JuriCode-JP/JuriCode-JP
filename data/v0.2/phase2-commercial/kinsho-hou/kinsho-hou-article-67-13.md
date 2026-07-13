@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-13-p1
+    type: simple
+    text: 認可協会は、第六十七条の十一第一項の規定による登録又はその取消しを行おうとするときは、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

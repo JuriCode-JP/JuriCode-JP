@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十五条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-65-p1 -->
 行政機関の長等は、利用目的の達成に必要な範囲内で、保有個人情報が過去又は現在の事実と合致するよう努めなければならない。

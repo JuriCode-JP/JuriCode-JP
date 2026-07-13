@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第三十七条第三項第二号（指定寄附金の損金算入）の財務大臣の指定は、次に掲げる事項を審査して行うものとする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-76-p1-kou-1
+    type: kou
+    text: 寄附金を募集しようとする法人又は団体の行う事業の内容及び寄附金の使途
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-76-p1-kou-2
+    type: kou
+    text: 寄附金の募集の目的及び目標額並びにその募集の区域及び対象
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-76-p1-kou-3
+    type: kou
+    text: 寄附金の募集期間
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikkourei-art-76-p1-kou-4
+    type: kou
+    text: 募集した寄附金の管理の方法
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikkourei-art-76-p1-kou-5
+    type: kou
+    text: 寄附金の募集に要する経費
+    modality: unspecified
+    item_number: 5
+  - id: houjin-zei-hou-shikkourei-art-76-p1-kou-6
+    type: kou
+    text: その他当該指定のために必要な事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -45,5 +75,16 @@ parent_section:
 
 ### 第七十六条
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-76-p1-hashira -->
 法第三十七条第三項第二号（指定寄附金の損金算入）の財務大臣の指定は、次に掲げる事項を審査して行うものとする。
+
+一　寄附金を募集しようとする法人又は団体の行う事業の内容及び寄附金の使途
+
+二　寄附金の募集の目的及び目標額並びにその募集の区域及び対象
+
+三　寄附金の募集期間
+
+四　募集した寄附金の管理の方法
+
+五　寄附金の募集に要する経費
+
+六　その他当該指定のために必要な事項

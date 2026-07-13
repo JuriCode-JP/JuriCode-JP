@@ -52,10 +52,8 @@ parent_section:
 
 ### 第七十五条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-75-p1 -->
 職員は、法律又は人事院規則で定める事由による場合でなければ、その意に反して、降任され、休職され、又は免職されることはない。
 
 ### 第七十五条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-75-p2 -->
 職員は、この法律又は人事院規則で定める事由に該当するときは、降給されるものとする。

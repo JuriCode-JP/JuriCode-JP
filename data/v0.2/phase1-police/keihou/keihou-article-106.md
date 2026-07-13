@@ -14,13 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keihou-art-106-p1
     type: simple
     text: 多衆で集合して暴行又は脅迫をした者は、騒乱の罪とし、次の区別に従って処断する。
     modality: unspecified
+  - id: keihou-art-106-p1-kou-1
+    type: kou
+    text: 首謀者は、一年以上十年以下の拘禁刑に処する。
+    modality: gimu_kei
+    item_number: 1
+  - id: keihou-art-106-p1-kou-2
+    type: kou
+    text: 他人を指揮し、又は他人に率先して勢いを助けた者は、六月以上七年以下の拘禁刑に処する。
+    modality: gimu_kei
+    item_number: 2
+  - id: keihou-art-106-p1-kou-3
+    type: kou
+    text: 付和随行した者は、十万円以下の罰金に処する。
+    modality: gimu_kei
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第百六条
 
-<!-- segment: simple id: keihou-art-106-p1 -->
 多衆で集合して暴行又は脅迫をした者は、騒乱の罪とし、次の区別に従って処断する。
+
+一　首謀者は、一年以上十年以下の拘禁刑に処する。
+
+二　他人を指揮し、又は他人に率先して勢いを助けた者は、六月以上七年以下の拘禁刑に処する。
+
+三　付和随行した者は、十万円以下の罰金に処する。

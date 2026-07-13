@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-10-p1
+    type: simple
+    text: 法第七十二条の十七第二項に規定する賃借権等の対価として支払うこととされている金額に準ずるものとして政令で定めるものは、法人税法第六十九条第四項第一号に規定する内部取引において内国法人の同号に規定する本店等から当該内国法人の同号に規定する国外事業所等に対して賃借権等の対価として支払うこととされている金額に該当することとなる金額又は同法第百三十八条第一項第一号に規定する内部取引において外国法人の恒久的施設から当該外国法人の同号に規定する本店等に対して賃借権等の対価として支払うこととされている金額に該当することとなる金額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

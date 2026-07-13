@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-10-5-p1
+    type: simple
+    text: 法第二十九条の四の四第八項第二号に規定する政令で定める期間は、顧客から金銭の預託を受けた日の翌日から一週間とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

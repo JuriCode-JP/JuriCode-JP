@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九百十四条
 
-<!-- segment: simple id: minpou-art-914-p1 -->
 前三条の規定は、被相続人が遺言で別段の意思を表示したときは、適用しない。

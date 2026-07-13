@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-2-2-p1
+    type: simple
+    text: 法第二十七条の十三第四項に規定する政令で定める割合は、三分の二とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

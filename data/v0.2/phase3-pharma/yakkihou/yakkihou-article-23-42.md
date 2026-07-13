@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-42-p1
+    type: simple
+    text: この章に定めるもののほか、製造販売業又は製造業の許可又は許可の更新、再生医療等製品外国製造業者の認定又は認定の更新、製造販売品目の承認、再審査又は再評価、製造所の管理その他再生医療等製品の製造販売業又は製造業（外国製造再生医療等製品特例承認取得者の行う製造を含む。）に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

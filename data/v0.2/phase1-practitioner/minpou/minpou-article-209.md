@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 土地の所有者は、次に掲げる目的のため必要な範囲内で、隣地を使用することができる。ただし、住家については、その居住者の承諾がなければ、立ち入ることはできない。
     modality: kanou_negative
+  - id: minpou-art-209-p1-kou-1
+    type: kou
+    text: 境界又はその付近における障壁、建物その他の工作物の築造、収去又は修繕
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-209-p1-kou-2
+    type: kou
+    text: 境界標の調査又は境界に関する測量
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-209-p1-kou-3
+    type: kou
+    text: 第二百三十三条第三項の規定による枝の切取り
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -76,21 +91,22 @@ parent_section:
 
 ### 第二百九条第一項
 
-<!-- segment: hashira id: minpou-art-209-p1-hashira -->
 土地の所有者は、次に掲げる目的のため必要な範囲内で、隣地を使用することができる。ただし、住家については、その居住者の承諾がなければ、立ち入ることはできない。
+
+一　境界又はその付近における障壁、建物その他の工作物の築造、収去又は修繕
+
+二　境界標の調査又は境界に関する測量
+
+三　第二百三十三条第三項の規定による枝の切取り
 
 ### 第二百九条第二項
 
-<!-- segment: simple id: minpou-art-209-p2 -->
 前項の場合には、使用の日時、場所及び方法は、隣地の所有者及び隣地を現に使用している者（以下この条において「隣地使用者」という。）のために損害が最も少ないものを選ばなければならない。
 
 ### 第二百九条第三項
 
-<!-- segment: honbun id: minpou-art-209-p3-honbun -->
-第一項の規定により隣地を使用する者は、あらかじめ、その目的、日時、場所及び方法を隣地の所有者及び隣地使用者に通知しなければならない。<!-- segment: tadashi id: minpou-art-209-p3-tadashi -->
-ただし、あらかじめ通知することが困難なときは、使用を開始した後、遅滞なく、通知することをもって足りる。
+第一項の規定により隣地を使用する者は、あらかじめ、その目的、日時、場所及び方法を隣地の所有者及び隣地使用者に通知しなければならない。ただし、あらかじめ通知することが困難なときは、使用を開始した後、遅滞なく、通知することをもって足りる。
 
 ### 第二百九条第四項
 
-<!-- segment: simple id: minpou-art-209-p4 -->
 第一項の場合において、隣地の所有者又は隣地使用者が損害を受けたときは、その償金を請求することができる。

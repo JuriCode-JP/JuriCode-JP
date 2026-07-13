@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八条の三
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-8-3-p1 -->
 法第四十七条第一項第一号に規定する政令で定める金額は、三千円とする。

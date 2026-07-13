@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-4-p1-honbun
+    type: honbun
+    text: 金融商品取引業者等は、特定投資家向け有価証券について、一般投資家（特定投資家等、当該特定投資家向け有価証券の発行者その他内閣府令で定める者以外の者をいう。以下この条において同じ。）を相手方とし、又は一般投資家のために、第二条第八項第一号から第四号まで及び第十号に掲げる行為を行つてはならない。
+    modality: unspecified
+  - id: kinsho-hou-art-40-4-p1-tadashi
+    type: tadashi
+    text: ただし、当該特定投資家向け有価証券に関して開示が行われている場合（第四条第七項に規定する開示が行われている場合をいう。次条第一項及び第六十六条の十四の二において同じ。）、一般投資家に対する勧誘に基づかないで一般投資家のために売付けの媒介を行う場合その他投資者の保護に欠けるおそれが少ない場合として内閣府令で定める場合は、この限りでない。
+    modality: jogai
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

@@ -32,6 +32,31 @@ paragraphs:
     type: hashira
     text: 全国協会は、次に掲げる事業を行うものとする。
     modality: gimu
+  - id: fueihou-art-40-p2-kou-1
+    type: kou
+    text: 風俗環境に関する苦情の処理に係る業務を担当する者その他都道府県協会の業務を行う者に対する研修を行うこと。
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-40-p2-kou-2
+    type: kou
+    text: この法律に違反する行為を防止するための二以上の都道府県の区域における啓発活動を行うこと。
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-40-p2-kou-3
+    type: kou
+    text: 少年の健全な育成に及ぼす風俗環境の影響に関する調査研究を行うこと。
+    modality: unspecified
+    item_number: 3
+  - id: fueihou-art-40-p2-kou-4
+    type: kou
+    text: 都道府県協会の事業について、連絡調整を図ること。
+    modality: unspecified
+    item_number: 4
+  - id: fueihou-art-40-p2-kou-5
+    type: kou
+    text: 前各号の事業に附帯する事業
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: false
@@ -60,15 +85,22 @@ parent_section:
 
 ### 第四十条第一項
 
-<!-- segment: simple id: fueihou-art-40-p1 -->
 国家公安委員会は、都道府県協会の健全な発達を図るとともに、善良の風俗の保持及び風俗環境の浄化並びに少年の健全な育成を図ることを目的とする一般社団法人又は一般財団法人であつて、次項に規定する事業を適正かつ確実に行うことができると認められるものを、その申出により、全国に一を限つて、全国風俗環境浄化協会（以下「全国協会」という。）として指定することができる。
 
 ### 第四十条第二項
 
-<!-- segment: hashira id: fueihou-art-40-p2-hashira -->
 全国協会は、次に掲げる事業を行うものとする。
+
+一　風俗環境に関する苦情の処理に係る業務を担当する者その他都道府県協会の業務を行う者に対する研修を行うこと。
+
+二　この法律に違反する行為を防止するための二以上の都道府県の区域における啓発活動を行うこと。
+
+三　少年の健全な育成に及ぼす風俗環境の影響に関する調査研究を行うこと。
+
+四　都道府県協会の事業について、連絡調整を図ること。
+
+五　前各号の事業に附帯する事業
 
 ### 第四十条第三項
 
-<!-- segment: junyou id: fueihou-art-40-p3 -->
 前条第三項、第四項及び第七項の規定は、全国協会について準用する。この場合において、同条第三項中「公安委員会」とあるのは「国家公安委員会」と、同条第四項中「公安委員会」とあるのは「国家公安委員会」と、「第一項」とあるのは「次条第一項」と読み替えるものとする。

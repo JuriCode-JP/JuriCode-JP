@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-522-2-p1
+    type: simple
+    text: 市町村は、鉱産税の納税者が正当な事由がなくて前条の規定による申告書を同条に規定する申告書の提出期限までに提出しなかつた場合においては、その者に対し、当該市町村の条例で十万円以下の過料を科する旨の規定を設けることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

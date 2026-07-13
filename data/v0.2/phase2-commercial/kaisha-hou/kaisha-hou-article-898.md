@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 裁判所は、次に掲げる裁判を変更し、又は取り消すことができる。
     modality: koka_torikeshi
+  - id: kaisha-hou-art-898-p1-kou-1
+    type: kou
+    text: 第五百四十条第一項又は第二項の規定による保全処分
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-898-p1-kou-2
+    type: kou
+    text: 第五百四十一条第一項又は第二項の規定による処分
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-898-p1-kou-3
+    type: kou
+    text: 第五百四十二条第一項又は第二項の規定による保全処分
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-898-p1-kou-4
+    type: kou
+    text: 第五百四十三条の規定による処分
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +51,8 @@ paragraphs:
     text: 前項各号に掲げる裁判及び同項の規定による決定に対しては、即時抗告をすることができる。
     modality: kanou_kenri
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -86,25 +106,28 @@ parent_section:
 
 ### 第八百九十八条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-898-p1-hashira -->
 裁判所は、次に掲げる裁判を変更し、又は取り消すことができる。
+
+一　第五百四十条第一項又は第二項の規定による保全処分
+
+二　第五百四十一条第一項又は第二項の規定による処分
+
+三　第五百四十二条第一項又は第二項の規定による保全処分
+
+四　第五百四十三条の規定による処分
 
 ### 第八百九十八条第二項
 
-<!-- segment: simple id: kaisha-hou-art-898-p2 -->
 前項各号に掲げる裁判及び同項の規定による決定に対しては、即時抗告をすることができる。
 
 ### 第八百九十八条第三項
 
-<!-- segment: simple id: kaisha-hou-art-898-p3 -->
 前項の即時抗告は、執行停止の効力を有しない。
 
 ### 第八百九十八条第四項
 
-<!-- segment: simple id: kaisha-hou-art-898-p4 -->
 第二項に規定する裁判及び同項の即時抗告についての裁判があった場合には、その裁判書を当事者に送達しなければならない。
 
 ### 第八百九十八条第五項
 
-<!-- segment: simple id: kaisha-hou-art-898-p5 -->
 裁判所は、第一項第二号に掲げる裁判をしたときは、直ちに、その旨を公告しなければならない。当該裁判を変更し、又は取り消す決定があったときも、同様とする。

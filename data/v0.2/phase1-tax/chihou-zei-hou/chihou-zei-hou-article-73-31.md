@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-31-p1
+    type: simple
+    text: 道府県知事は、天災その他特別の事情がある場合において不動産取得税の減免を必要とすると認める者その他特別の事情がある者に限り、当該道府県の条例の定めるところにより、不動産取得税を減免することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

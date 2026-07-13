@@ -13,20 +13,48 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-3-p1-honbun
+    type: honbun
+    text: 法第五十七条の二第二項に規定する政令で定める期間は、一月（同項第二号に掲げる書類に記載すべき事項のうち、当該期間内に記載することが困難である事項を記載する書類として内閣府令で定めるもの（以下この項において「特定書類」という。）にあつては、三月）とする。
+    modality: gimu
+    references:
+    - 同項
+  - id: kinsho-hou-shikkourei-art-17-2-3-p1-tadashi
+    type: tadashi
+    text: ただし、特別金融商品取引業者（同条第二項に規定する特別金融商品取引業者をいう。以下同じ。）の親会社（同条第八項に規定する親会社をいう。以下この章において同じ。）が外国会社である場合において、当該特別金融商品取引業者が、当該親会社の本国の法令又は慣行その他やむを得ない理由により、届出日（同条第二項に規定する届出日をいう。次項において同じ。）から起算して三月以内に特定書類を提出することができないと認められるときは、内閣府令で定めるところにより、金融庁長官の承認を受けた期間とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-3-p2-honbun
+    type: honbun
+    text: 法第五十七条の二第三項に規定する政令で定める期間は、一月（同条第二項第二号に掲げる書類に記載すべき事項のうち、当該期間内に記載することが困難である事項を記載する書類として内閣府令で定めるもの（以下この項において「特定書類」という。）にあつては、三月）とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-17-2-3-p2-tadashi
+    type: tadashi
+    text: ただし、特別金融商品取引業者の親会社が外国会社である場合において、当該特別金融商品取引業者が、当該親会社の本国の法令又は慣行その他やむを得ない理由により、届出日以後親会社があることとなつた日から起算して三月以内に特定書類を提出することができないと認められるときは、内閣府令で定めるところにより、金融庁長官の承認を受けた期間とする。
+    modality: gimu
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-3-p3-honbun
+    type: honbun
+    text: 法第五十七条の二第五項に規定する政令で定める期間は、一月（当該期間内に記載することが困難である事項を記載する書類として内閣府令で定めるもの（以下この項において「特定書類」という。）にあつては、三月）とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-17-2-3-p3-tadashi
+    type: tadashi
+    text: ただし、特別金融商品取引業者の親会社が外国会社である場合において、当該特別金融商品取引業者が、当該親会社の本国の法令又は慣行その他やむを得ない理由により、四半期経過後三月以内に特定書類を提出することができないと認められるときは、内閣府令で定めるところにより、金融庁長官の承認を受けた期間とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

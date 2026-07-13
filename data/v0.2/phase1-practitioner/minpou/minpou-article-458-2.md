@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-458-2-p1
+    type: simple
+    text: 保証人が主たる債務者の委託を受けて保証をした場合において、保証人の請求があったときは、債権者は、保証人に対し、遅滞なく、主たる債務の元本及び主たる債務に関する利息、違約金、損害賠償その他その債務に従たる全てのものについての不履行の有無並びにこれらの残額及びそのうち弁済期が到来しているものの額に関する情報を提供しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

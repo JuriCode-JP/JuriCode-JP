@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-16-p1-hashira
+    type: hashira
+    text: 法第六十八条の七第三項の厚生労働省令で定める事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-228-16-p1-kou-1
+    type: kou
+    text: 指定再生医療等製品の使用の対象者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-228-16-p1-kou-2
+    type: kou
+    text: 指定再生医療等製品の名称及び製造番号又は製造記号
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-228-16-p1-kou-3
+    type: kou
+    text: 指定再生医療等製品の使用の対象者に使用した年月日
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-228-16-p1-kou-4
+    type: kou
+    text: 前三号に掲げるもののほか、指定再生医療等製品に係る保健衛生上の危害の発生又は拡大を防止するために必要な事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第二百二十八条の十六
 
 法第六十八条の七第三項の厚生労働省令で定める事項は、次のとおりとする。
+
+一　指定再生医療等製品の使用の対象者の氏名及び住所
+
+二　指定再生医療等製品の名称及び製造番号又は製造記号
+
+三　指定再生医療等製品の使用の対象者に使用した年月日
+
+四　前三号に掲げるもののほか、指定再生医療等製品に係る保健衛生上の危害の発生又は拡大を防止するために必要な事項

@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百二十九条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-229-p1 -->
 変死者又は変死の疑のある死体があるときは、その所在地を管轄する地方検察庁又は区検察庁の検察官は、検視をしなければならない。
 
 ### 第二百二十九条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-229-p2 -->
 検察官は、検察事務官又は司法警察員に前項の処分をさせることができる。

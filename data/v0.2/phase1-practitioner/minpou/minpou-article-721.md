@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百二十一条
 
-<!-- segment: simple id: minpou-art-721-p1 -->
 胎児は、損害賠償の請求権については、既に生まれたものとみなす。

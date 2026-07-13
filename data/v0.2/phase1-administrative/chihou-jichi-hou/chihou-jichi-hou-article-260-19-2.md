@@ -13,25 +13,45 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-19-2-p1-honbun
+    type: honbun
+    text: この法律又は規約により総会において決議をすべき場合において、構成員全員の承諾があるときは、書面又は電磁的方法による決議をすることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-260-19-2-p1-tadashi
+    type: tadashi
+    text: ただし、電磁的方法による決議に係る構成員の承諾については、総務省令で定めるところによらなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-19-2-p2
+    type: simple
+    text: この法律又は規約により総会において決議すべきものとされた事項については、構成員全員の書面又は電磁的方法による合意があつたときは、書面又は電磁的方法による決議があつたものとみなす。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-19-2-p3
+    type: simple
+    text: この法律又は規約により総会において決議すべきものとされた事項についての書面又は電磁的方法による決議は、総会の決議と同一の効力を有する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-19-2-p4
+    type: junyou
+    text: 総会に関する規定は、書面又は電磁的方法による決議について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

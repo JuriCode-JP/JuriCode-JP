@@ -16,22 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-6-p1
+    type: simple
+    text: 第二十三条の二の二十三第一項の登録は、厚生労働省令で定めるところにより、基準適合性認証を行おうとする者の申請により行う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-6-p2
+    type: simple
+    text: 厚生労働大臣は、指定高度管理医療機器等（専ら動物のために使用されることが目的とされているものを除く。）に係る基準適合性認証を行おうとする者から前項の申請があつた場合において、必要があると認めるときは、機構に、当該申請が次条第一項各号に適合しているかどうかについて、必要な調査を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-6-p3
+    type: simple
+    text: 第一項の登録は、三年を下らない政令で定める期間ごとにその更新を受けなければ、その期間の経過によつて、その効力を失う。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-6-p4
+    type: simple
+    text: 前項の登録の更新については、第二項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-71-2-p1
+    type: simple
+    text: 確定申告書を提出する居住者が特定雑損失金額を有する場合には、当該特定雑損失金額の生じた年の翌年以後五年内の各年分における前条の規定の適用については、同条第一項中「雑損失の金額（」とあるのは「雑損失の金額で特定雑損失金額（次条第一項に規定する特定雑損失金額をいう。以下この項において同じ。）以外のもの（」と、「除く。）は」とあるのは「除く。）及び当該居住者のその年の前年以前五年内において生じた特定雑損失金額（この項又は同条第一項の規定により前年以前において控除されたものを除く。）は」とする。
+    modality: gimu
+    references:
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-71-2-p2
+    type: simple
+    text: 前項に規定する特定雑損失金額とは、雑損失の金額のうち、居住者又はその者と生計を一にする配偶者その他の親族で政令で定めるものの有する次条第一項に規定する資産について特定非常災害により生じた損失の金額（当該特定非常災害に関連するその居住者によるやむを得ない支出で政令で定めるものの金額を含むものとし、保険金、損害賠償金その他これらに類するものにより補塡される部分の金額を除く。）に係るものをいう。
+    modality: teigi
+    references:
+    - 次条
+    - 前項
 cases: []
 amendments:
 - effective_date: '2023-04-01'

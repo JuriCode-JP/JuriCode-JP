@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-90-p1-zen
+    type: zen_dan
+    text: 内閣総理大臣は、投資運用関係業務受託業者（外国法人に限る。以下この条において同じ。）の国内における代表者が欠けた場合において、必要があると認めるときは、一時その職務を行うべき者（次項において「職務代行者」という。）を選任することができる。
+    modality: kanou_kenri
+    references:
+    - 次項
+  - id: kinsho-hou-art-66-90-p1-kou
+    type: kou_dan
+    text: この場合において、当該投資運用関係業務受託業者は、国内における主たる営業所又は事務所の所在地において、その登記をしなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-66-90-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-90-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定により職務代行者を選任したときは、投資運用関係業務受託業者に対し、当該職務代行者に相当額の報酬を支払うべき旨を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当するときは、その違反行為をした機構の役員又は職員は、三十万円以下の罰金に処する。
     modality: gimu_kei
+  - id: chihou-zei-hou-art-801-p1-kou-1
+    type: kou
+    text: 第七百八十九条の規定に違反して帳簿を備えず、帳簿に記載せず、若しくは帳簿に虚偽の記載をし、又は帳簿を保存しなかつたとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-801-p1-kou-2
+    type: kou
+    text: 第七百九十六条第一項の規定による報告をせず、若しくは虚偽の報告をし、又は同項の規定による検査を拒み、妨げ、若しくは忌避したとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第八百一条
 
-<!-- segment: hashira id: chihou-zei-hou-art-801-p1-hashira -->
 次の各号のいずれかに該当するときは、その違反行為をした機構の役員又は職員は、三十万円以下の罰金に処する。
+
+一　第七百八十九条の規定に違反して帳簿を備えず、帳簿に記載せず、若しくは帳簿に虚偽の記載をし、又は帳簿を保存しなかつたとき。
+
+二　第七百九十六条第一項の規定による報告をせず、若しくは虚偽の報告をし、又は同項の規定による検査を拒み、妨げ、若しくは忌避したとき。

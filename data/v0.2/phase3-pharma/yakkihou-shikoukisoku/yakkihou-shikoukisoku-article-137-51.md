@@ -14,14 +14,52 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-51-p1-hashira
+    type: hashira
+    text: 法第二十三条の三十四第四項に規定する再生医療等製品総括製造販売責任者が行う再生医療等製品の品質管理及び製造販売後安全管理のために必要な業務は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-51-p1-kou-1
+    type: kou
+    text: 医薬品、医薬部外品、化粧品及び再生医療等製品の品質管理の基準に関する省令により再生医療等製品総括製造販売責任者が行うこととされた業務
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-51-p1-kou-2
+    type: kou
+    text: 医薬品、医薬部外品、化粧品、医療機器及び再生医療等製品の製造販売後安全管理の基準に関する省令により再生医療等製品総括製造販売責任者が行うこととされた業務
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-51-p1-kou-3
+    type: kou
+    text: 法第二十三条の三十五の二第一項第一号に規定する再生医療等製品総括製造販売責任者が有する権限に係る業務
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-51-p2-hashira
+    type: hashira
+    text: 法第二十三条の三十四第四項に規定する再生医療等製品総括製造販売責任者が遵守すべき事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-51-p2-kou-1
+    type: kou
+    text: 品質管理及び製造販売後安全管理業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-51-p2-kou-2
+    type: kou
+    text: 法第二十三条の三十四第三項の規定により製造販売業者に対して述べる意見を記載した書面の写しを五年間保存すること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-51-p2-kou-3
+    type: kou
+    text: 再生医療等製品の品質管理に関する業務の責任者（以下「再生医療等製品品質保証責任者」という。）及び製造販売後安全管理に関する業務の責任者（以下「再生医療等製品安全管理責任者」という。）との相互の密接な連携を図ること。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -40,6 +78,18 @@ parent_section:
 
 法第二十三条の三十四第四項に規定する再生医療等製品総括製造販売責任者が行う再生医療等製品の品質管理及び製造販売後安全管理のために必要な業務は、次のとおりとする。
 
+一　医薬品、医薬部外品、化粧品及び再生医療等製品の品質管理の基準に関する省令により再生医療等製品総括製造販売責任者が行うこととされた業務
+
+二　医薬品、医薬部外品、化粧品、医療機器及び再生医療等製品の製造販売後安全管理の基準に関する省令により再生医療等製品総括製造販売責任者が行うこととされた業務
+
+三　法第二十三条の三十五の二第一項第一号に規定する再生医療等製品総括製造販売責任者が有する権限に係る業務
+
 ### 第百三十七条の五十一第二項
 
 法第二十三条の三十四第四項に規定する再生医療等製品総括製造販売責任者が遵守すべき事項は、次のとおりとする。
+
+一　品質管理及び製造販売後安全管理業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+
+二　法第二十三条の三十四第三項の規定により製造販売業者に対して述べる意見を記載した書面の写しを五年間保存すること。
+
+三　再生医療等製品の品質管理に関する業務の責任者（以下「再生医療等製品品質保証責任者」という。）及び製造販売後安全管理に関する業務の責任者（以下「再生医療等製品安全管理責任者」という。）との相互の密接な連携を図ること。

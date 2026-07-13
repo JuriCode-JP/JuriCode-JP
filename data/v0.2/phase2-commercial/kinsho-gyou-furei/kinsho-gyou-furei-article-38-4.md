@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-38-4-p1-hashira
+    type: hashira
+    text: 令第十五条の十六の二第三項に規定する内閣府令で定めるものは、次に掲げるもの（財務計算に関する書類の内容に影響を与えないものを除く。）とする。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-38-4-p1-kou-1
+    type: kou
+    text: 財務諸表等規則第八条第五項に規定する関連会社
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-38-4-p1-kou-2
+    type: kou
+    text: 指定国際会計基準において、財務計算に関する書類の作成上前号に掲げるものと同様に取り扱われているもの
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-38-4-p1-kou-3
+    type: kou
+    text: 修正国際基準において、財務計算に関する書類の作成上第一号に掲げるものと同様に取り扱われているもの
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-38-4-p1-kou-4
+    type: kou
+    text: 外国における公正妥当な企業会計の基準又は慣行において、財務計算に関する書類の作成上第一号に掲げるものと同様に取り扱われているもの
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -38,3 +62,11 @@ parent_section:
 ### 第三十八条の四
 
 令第十五条の十六の二第三項に規定する内閣府令で定めるものは、次に掲げるもの（財務計算に関する書類の内容に影響を与えないものを除く。）とする。
+
+一　財務諸表等規則第八条第五項に規定する関連会社
+
+二　指定国際会計基準において、財務計算に関する書類の作成上前号に掲げるものと同様に取り扱われているもの
+
+三　修正国際基準において、財務計算に関する書類の作成上第一号に掲げるものと同様に取り扱われているもの
+
+四　外国における公正妥当な企業会計の基準又は慣行において、財務計算に関する書類の作成上第一号に掲げるものと同様に取り扱われているもの

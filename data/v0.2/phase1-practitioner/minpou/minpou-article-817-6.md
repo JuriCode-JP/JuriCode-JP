@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-6-p1-honbun
+    type: honbun
+    text: 特別養子縁組の成立には、養子となる者の父母の同意がなければならない。
+    modality: gimu
+  - id: minpou-art-817-6-p1-tadashi
+    type: tadashi
+    text: ただし、父母がその意思を表示することができない場合又は父母による虐待、悪意の遺棄その他養子となる者の利益を著しく害する事由がある場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

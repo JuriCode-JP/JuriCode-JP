@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-7-3-p1
+    type: simple
+    text: 特定電気通信役務提供者は、前条第三項の規定による要請を受けて指定薬物等に係る違法広告である特定電気通信による情報の送信を防止する措置を講じた場合その他の指定薬物等に係る違法広告である特定電気通信による情報の送信を防止する措置を講じた場合において、当該措置により送信を防止された情報の発信者に生じた損害については、当該措置が当該情報の不特定の者に対する送信を防止するために必要な限度において行われたものであるときは、賠償の責めに任じない。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

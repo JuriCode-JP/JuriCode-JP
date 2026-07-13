@@ -37,5 +37,4 @@ parent_section:
 
 ### 第九十二条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-92-p1 -->
 第八十九条から第九十一条までの罪を犯した者には、情状により、拘禁刑及び罰金を併科することができる。

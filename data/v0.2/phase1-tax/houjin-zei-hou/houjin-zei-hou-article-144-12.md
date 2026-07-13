@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-144-12-p1
+    type: simple
+    text: 中間申告書を提出した外国法人である普通法人からその中間申告書に係る事業年度の確定申告書の提出があつた場合において、その確定申告書に第百四十四条の六第一項第十一号又は第二項第五号（確定申告）に掲げる金額の記載があるときは、税務署長は、その普通法人に対し、これらの金額に相当する中間納付額を還付する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-144-12-p2
+    type: simple
+    text: 第七十九条第二項（中間納付額の還付）の規定は前項の規定による還付金の還付をする場合について、同条第三項の規定は前項の規定による還付金について還付加算金を計算する場合について、同条第四項の規定は前項の規定による還付金をその額の計算の基礎とされた中間納付額に係る事業年度の第百四十一条第一号又は第二号（課税標準）に定める国内源泉所得に係る所得に対する法人税で未納のものに充当する場合について、第七十九条第五項の規定はこの項において準用する同条第二項の規定による還付金について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-144-12-p3
+    type: simple
+    text: 第一項の還付の手続、同項の規定による還付金（これに係る還付加算金を含む。）につき充当をする場合の方法その他前二項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 同項
+    - 前二項
 cases: []
 amendments: []
 tags:

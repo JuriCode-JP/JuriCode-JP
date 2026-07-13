@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-11-p1
+    type: simple
+    text: 検察官が第三百五十条の二第一項第二号イに係る同項の合意に基づいて公訴を提起しない処分をした事件について、検察審査会法第三十九条の五第一項第一号若しくは第二号の議決又は同法第四十一条の六第一項の起訴議決があつたときは、当該合意は、その効力を失う。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

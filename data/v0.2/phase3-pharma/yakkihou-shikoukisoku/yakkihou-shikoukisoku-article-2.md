@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-2-p1 -->
 薬局開設の許可証は、様式第二によるものとする。

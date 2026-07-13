@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-16-p1
+    type: simple
+    text: 記名式所持人払証券の債務者は、その証券に記載した事項及びその証券の性質から当然に生ずる結果を除き、その証券の譲渡前の債権者に対抗することができた事由をもって善意の譲受人に対抗することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

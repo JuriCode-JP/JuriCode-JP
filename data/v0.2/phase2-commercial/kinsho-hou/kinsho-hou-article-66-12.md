@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-12-p1
+    type: simple
+    text: 金融商品仲介業者（金融商品取引業者である者を除く。）は、その行う金融商品仲介業の顧客を相手方とし、所属金融商品取引業者等の委託を受けて行う金融商品仲介行為以外の第二条第八項各号に掲げる行為をしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百六十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-264-p1 -->
 検察官は、第二百六十二条第一項の請求を理由があるものと認めるときは、公訴を提起しなければならない。

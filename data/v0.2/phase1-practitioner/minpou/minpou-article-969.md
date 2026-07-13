@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 公正証書によって遺言をするには、次に掲げる方式に従わなければならない。
     modality: gimu
+  - id: minpou-art-969-p1-kou-1
+    type: kou
+    text: 証人二人以上の立会いがあること。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-969-p1-kou-2
+    type: kou
+    text: 遺言者が遺言の趣旨を公証人に口授すること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -63,15 +73,16 @@ parent_section:
 
 ### 第九百六十九条第一項
 
-<!-- segment: hashira id: minpou-art-969-p1-hashira -->
 公正証書によって遺言をするには、次に掲げる方式に従わなければならない。
+
+一　証人二人以上の立会いがあること。
+
+二　遺言者が遺言の趣旨を公証人に口授すること。
 
 ### 第九百六十九条第二項
 
-<!-- segment: simple id: minpou-art-969-p2 -->
 前項の公正証書は、公証人法（明治四十一年法律第五十三号）の定めるところにより作成するものとする。
 
 ### 第九百六十九条第三項
 
-<!-- segment: simple id: minpou-art-969-p3 -->
 第一項第一号の証人については、公証人法第三十条に規定する証人とみなして、同法の規定（同法第三十五条第三項の規定を除く。）を適用する。

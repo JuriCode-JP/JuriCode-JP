@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-23-p1-zen
+    type: zen_dan
+    text: 第三条第二項、第四条（第四項を除く。）、第五条（第一項第三号を除く。）、第八条、第十条及び第十一条の規定は前条の許可について、第六条から第七条の三まで、第九条、第十条の二、第十二条、第十三条（第一項を除く。）、第十四条、第十五条、第十八条、第十八条の二、第二十一条、第二十二条第一項（第三号を除く。）及び第二十四条の規定は特定遊興飲食店営業について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前条
+  - id: fueihou-art-31-23-p1-kou
+    type: kou_dan
+    text: この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    depends_on: fueihou-art-31-23-p1-zen
 cases: []
 amendments: []
 tags:

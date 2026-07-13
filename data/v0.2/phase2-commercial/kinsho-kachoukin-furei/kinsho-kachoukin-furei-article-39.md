@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十九条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-39-p1 -->
 参考人を審問する旨の決定があったときは、審問の申出をした指定職員又は被審人若しくはその代理人は、参考人を期日に出頭させるように努めなければならない。

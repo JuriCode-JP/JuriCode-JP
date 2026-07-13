@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-70-3-2-p1
+    type: tokusoku
+    text: 令和六年一月一日以後に相続税法第二十一条の九第五項に規定する相続時精算課税適用者（第三項において「相続時精算課税適用者」という。）がその年中において同条第五項に規定する特定贈与者（第三項において「特定贈与者」という。）からの贈与により取得した財産に係るその年分の贈与税については、同法第二十一条の十一の二第一項の規定にかかわらず、贈与税の課税価格から百十万円を控除する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第一項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-70-3-2-p2
+    type: simple
+    text: 前項の規定により控除された金額は、相続税法その他相続税又は贈与税に関する法令の規定の適用については、相続税法第二十一条の十一の二第一項の規定により控除されたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-70-3-2-p3
+    type: simple
+    text: 第一項の相続時精算課税適用者に係る特定贈与者が二人以上ある場合における各特定贈与者から贈与により取得した財産に係る課税価格から控除する金額の計算については、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

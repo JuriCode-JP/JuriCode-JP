@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-144-10-p1
+    type: simple
+    text: 第百四十四条の六第一項又は第二項（確定申告）の規定による申告書を提出した外国法人は、同条第一項の規定による申告書に記載した同項第七号に掲げる金額（同項第十号の規定に該当する場合には、同号に掲げる金額）又は同条第二項の規定による申告書に記載した同項第二号に掲げる金額（同項第四号の規定に該当する場合には、同号に掲げる金額）があるときは、これらの申告書の提出期限までに、これらの金額に相当する法人税を国に納付しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

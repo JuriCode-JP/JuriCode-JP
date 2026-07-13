@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第七十四条の二第三項の規定により卸売販売業者等（同条第一項に規定する卸売販売業者等をいう。以下第八条の十一までにおいて同じ。）が小売販売業者から徴する書類は、次に掲げる事項が記載された書類とする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-8-p1-kou-1
+    type: kou
+    text: 当該小売販売業者の営業所ごとの当該小売販売業者への売渡しに係る製造たばこの品目及び品目ごとの数量
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-8-p1-kou-2
+    type: kou
+    text: 当該小売販売業者に売り渡した年月日
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-8-p1-kou-3
+    type: kou
+    text: 当該売渡しに係る小売販売業者の営業所の所在地及び名称
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -45,10 +60,14 @@ tags:
 
 ### 第八条第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikoukisoku-art-8-p1-hashira -->
 法第七十四条の二第三項の規定により卸売販売業者等（同条第一項に規定する卸売販売業者等をいう。以下第八条の十一までにおいて同じ。）が小売販売業者から徴する書類は、次に掲げる事項が記載された書類とする。
+
+一　当該小売販売業者の営業所ごとの当該小売販売業者への売渡しに係る製造たばこの品目及び品目ごとの数量
+
+二　当該小売販売業者に売り渡した年月日
+
+三　当該売渡しに係る小売販売業者の営業所の所在地及び名称
 
 ### 第八条第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-p2 -->
 卸売販売業者等は、前項の書類を徴した日から五年間、これを保存しなければならない。

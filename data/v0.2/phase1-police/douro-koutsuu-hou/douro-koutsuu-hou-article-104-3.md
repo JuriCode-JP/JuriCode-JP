@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-3-p1
+    type: simple
+    text: 第百三条第一項、第二項若しくは第四項、第百四条の二の二第一項、第二項若しくは第四項、第百四条の二の三第一項若しくは第三項、同条第五項において準用する第百三条第四項又は前条第一項、第二項若しくは第四項の規定による免許の取消し又は効力の停止は、内閣府令で定めるところにより、当該取消し又は効力の停止に係る者に対し当該取消し又は効力の停止の内容及び理由を記載した書面を交付して行うものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-3-p2
+    type: simple
+    text: 公安委員会がその者の所在が不明であることその他の理由により前項の規定による書面の交付をすることができなかつた場合において、警察官が当該書面の交付を受けていない者の所在を知つたときは、警察官は、内閣府令で定めるところにより、その者に対し、日時及び場所を指定して当該書面の交付を受けるために出頭すべき旨を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-3-p3
+    type: simple
+    text: 警察官は、前項の規定による命令をしたときは、内閣府令で定めるところにより、速やかに、当該命令に係る者の氏名及び住所、当該命令に係る出頭すべき日時及び場所その他必要な事項を当該命令に係る者の住所地を管轄する公安委員会（その者に対し第一項に規定する免許の取消し又は効力の停止をした公安委員会とその者の住所地を管轄する公安委員会が異なる場合にあつては、それぞれの公安委員会）に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -54,3 +72,5 @@ parent_section:
 ### 第百四条の三第三項
 
 警察官は、前項の規定による命令をしたときは、内閣府令で定めるところにより、速やかに、当該命令に係る者の氏名及び住所、当該命令に係る出頭すべき日時及び場所その他必要な事項を当該命令に係る者の住所地を管轄する公安委員会（その者に対し第一項に規定する免許の取消し又は効力の停止をした公安委員会とその者の住所地を管轄する公安委員会が異なる場合にあつては、それぞれの公安委員会）に通知しなければならない。
+
+（罰則　第二項については第百二十三条の二第一号）

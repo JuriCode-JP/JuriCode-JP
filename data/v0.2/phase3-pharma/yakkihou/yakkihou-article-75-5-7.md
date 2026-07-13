@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-7-p1
+    type: simple
+    text: 弁明は、厚生労働大臣が口頭ですることを認めたときを除き、弁明を記載した書面（次条第一項において「弁明書」という。）を提出してするものとする。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-7-p2
+    type: simple
+    text: 弁明をするときは、証拠書類又は証拠物を提出することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

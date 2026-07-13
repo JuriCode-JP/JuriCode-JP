@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: houjin-zei-hou-shikkourei-art-117-4-p1
@@ -23,6 +23,21 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: houjin-zei-hou-shikkourei-art-117-4-p1-kou-1
+    type: kou
+    text: 適用年度終了の時における前事業年度以前の事業年度から繰り越された欠損金額の合計額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-117-4-p1-kou-2
+    type: kou
+    text: 法第五十七条第一項（欠損金の繰越し）の規定により適用年度の所得の金額の計算上損金の額に算入される欠損金額
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-117-4-p1-kou-3
+    type: kou
+    text: 適用年度に係る法第六十四条の七第一項第四号に規定する損金算入欠損金額の合計額
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -47,5 +62,10 @@ parent_section:
 
 ### 第百十七条の四
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-117-4-p1 -->
 法第五十九条第三項（会社更生等による債務免除等があつた場合の欠損金の損金算入）に規定する欠損金額で政令で定めるものは、第一号に掲げる金額から第二号（同項に規定する適用年度（以下この条において「適用年度」という。）が法第六十四条の七第一項第一号から第三号まで（欠損金の通算）の規定の適用を受ける事業年度である場合には、第三号）に掲げる金額を控除した金額とする。
+
+一　適用年度終了の時における前事業年度以前の事業年度から繰り越された欠損金額の合計額
+
+二　法第五十七条第一項（欠損金の繰越し）の規定により適用年度の所得の金額の計算上損金の額に算入される欠損金額
+
+三　適用年度に係る法第六十四条の七第一項第四号に規定する損金算入欠損金額の合計額

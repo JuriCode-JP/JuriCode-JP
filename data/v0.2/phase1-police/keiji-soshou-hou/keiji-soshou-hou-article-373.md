@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百七十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-373-p1 -->
 控訴の提起期間は、十四日とする。

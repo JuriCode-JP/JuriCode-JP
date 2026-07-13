@@ -16,27 +16,65 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-13-p1-zen
+    type: zen_dan
+    text: 第七百六十六条（第七百四十九条、第七百七十一条及び第七百八十八条において準用する場合を含む。）の場合のほか、子と別居する父又は母その他の親族と当該子との交流について必要な事項は、父母の協議で定める。
+    modality: unspecified
+  - id: minpou-art-817-13-p1-kou
+    type: kou_dan
+    text: この場合においては、子の利益を最も優先して考慮しなければならない。
+    modality: gimu
+    depends_on: minpou-art-817-13-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-13-p2
+    type: simple
+    text: 前項の協議が調わないとき、又は協議をすることができないときは、家庭裁判所が、父又は母の請求により、同項の事項を定める。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-13-p3
+    type: simple
+    text: 家庭裁判所は、必要があると認めるときは、父又は母の請求により、前二項の規定による定めを変更することができる。
+    modality: kanou_kenri
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-13-p4
+    type: simple
+    text: 前二項の請求を受けた家庭裁判所は、子の利益のため特に必要があると認めるときに限り、父母以外の親族と子との交流を実施する旨を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前二項
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-13-p5-honbun
+    type: honbun
+    text: 前項の定めについての第二項又は第三項の規定による審判の請求は、父母以外の子の親族（子の直系尊属及び兄弟姉妹以外の者にあっては、過去に当該子を監護していた者に限る。）もすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: minpou-art-817-13-p5-tadashi
+    type: tadashi
+    text: ただし、当該親族と子との交流についての定めをするため他に適当な方法があるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

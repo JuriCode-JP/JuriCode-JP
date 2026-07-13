@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 認可協会は、毎事業年度の開始の日から三月以内に、次に掲げる書類を内閣総理大臣に提出しなければならない。
     modality: gimu
+  - id: kinsho-hou-art-76-p1-kou-1
+    type: kou
+    text: 前事業年度の事業概況報告書及び当該事業年度の事業計画書
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-76-p1-kou-2
+    type: kou
+    text: 前事業年度末における財産目録
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-76-p1-kou-3
+    type: kou
+    text: 前事業年度の収支決算書及び当該事業年度の収支予算書
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第七十六条
 
-<!-- segment: hashira id: kinsho-hou-art-76-p1-hashira -->
 認可協会は、毎事業年度の開始の日から三月以内に、次に掲げる書類を内閣総理大臣に提出しなければならない。
+
+一　前事業年度の事業概況報告書及び当該事業年度の事業計画書
+
+二　前事業年度末における財産目録
+
+三　前事業年度の収支決算書及び当該事業年度の収支予算書

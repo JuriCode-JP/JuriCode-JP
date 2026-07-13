@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-47-p1
+    type: simple
+    text: 信用格付業者が外国法人又は法人でない団体で代表者若しくは管理人の定めのあるものである場合において、この法律の規定の適用に当たつての技術的読替えその他当該外国法人又は法人でない団体で代表者若しくは管理人の定めのあるものに対するこの法律の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

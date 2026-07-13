@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-5-p1
+    type: simple
+    text: この法律又はこれに基づく条例に定める期間の計算については、民法第百三十九条から第百四十一条まで及び第百四十三条に定めるところによる。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-5-p2
+    type: simple
+    text: この法律又はこれに基づく条例の規定により定められている期限（政令で定める期限を除く。）が民法第百四十二条に規定する休日その他政令で定める日に該当するときは、この法律又は当該条例の規定にかかわらず、これらの日の翌日をその期限とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

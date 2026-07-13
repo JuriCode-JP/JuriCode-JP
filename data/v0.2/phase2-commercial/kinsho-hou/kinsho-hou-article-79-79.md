@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-79-p1
+    type: simple
+    text: 清算人は、前条第一項第一号の規定による解散の場合には総会において選任し、同項第二号の規定による解散の場合には内閣総理大臣及び財務大臣が選任する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百十四条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-114-p1 -->
 この法律の規定により道公安委員会の権限に属する事務は、政令で定めるところにより、方面公安委員会に行なわせることができる。

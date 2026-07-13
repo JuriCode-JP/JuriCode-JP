@@ -16,32 +16,66 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-5-p1
+    type: simple
+    text: 金融商品取引清算機関の総株主の議決権の百分の二十（その財務及び営業の方針の決定に対して重要な影響を与えることが推測される事実として内閣府令で定める事実がある場合には、百分の十五。以下この節において「保有基準割合」という。）以上の数の対象議決権を取得し、若しくは保有しようとする者又は金融商品取引清算機関の総株主の議決権の保有基準割合以上の数の対象議決権を取得し、若しくは保有しようとする会社その他の法人の設立をしようとする者は、あらかじめ、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-5-p2
+    type: simple
+    text: 前項の規定は、保有する対象議決権の数に増加がない場合その他の内閣府令で定める場合において、金融商品取引清算機関の総株主の議決権の保有基準割合以上の数の対象議決権を取得し、又は保有することとなるときには、適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-5-p3
+    type: simple
+    text: 前項の場合において、金融商品取引清算機関の総株主の議決権の保有基準割合以上の数の対象議決権を取得し、又は保有することとなつた者（以下この条において「特定保有者」という。）は、特定保有者になつた旨その他内閣府令で定める事項を、遅滞なく、内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-5-p4-honbun
+    type: honbun
+    text: 第二項の場合において、特定保有者は、特定保有者となつた日から三月以内に、金融商品取引清算機関の保有基準割合未満の数の対象議決権の保有者となるために必要な措置をとらなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-156-5-5-p4-tadashi
+    type: tadashi
+    text: ただし、内閣総理大臣の認可を受けた場合は、この限りでない。
+    modality: jogai
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-5-p5
+    type: simple
+    text: 特定保有者は、前項本文の規定により金融商品取引清算機関の保有基準割合未満の数の対象議決権の保有者となつたときは、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-5-p6
+    type: junyou
+    text: 第三十条の二の規定は、第一項及び第四項ただし書の認可について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

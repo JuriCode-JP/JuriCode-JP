@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-40-8-11-p1
+    type: simple
+    text: 法第七十条の七の十一第二項の規定により同項の経済的利益について法第七十条の七の九又は第七十条の七の十の規定を適用する場合には、次の表の上欄に掲げるこれらの規定中同表の中欄に掲げる字句は、同表の下欄に掲げる字句とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-40-8-11-p2
+    type: junyou
+    text: 前二条の規定は、法第七十条の七の十一第二項の規定により同項の経済的利益について法第七十条の七の九又は第七十条の七の十の規定を適用する場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 前二条
+    references:
+    - 前二条
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-40-8-11-p3
+    type: simple
+    text: 法第七十条の七の十一第二項後段の規定により法第七十条の七の九第一項又は第七十条の七の十第一項に規定する受贈者とみなされる法第七十条の七の十一第一項の他の個人は、同条第二項の規定により法第七十条の七の九又は第七十条の七の十の規定の適用を選択する旨をこれらの規定の適用に係る法第七十条の七の九第一項に規定する贈与税の申告書に記載しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-3-p1
+    type: simple
+    text: 裁判所は、充実した公判の審理を継続的、計画的かつ迅速に行うことができるよう、公判前整理手続において、十分な準備が行われるようにするとともに、できる限り早期にこれを終結させるように努めなければならない。
+    modality: doryoku_gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-3-p2
+    type: simple
+    text: 訴訟関係人は、充実した公判の審理を継続的、計画的かつ迅速に行うことができるよう、公判前整理手続において、相互に協力するとともに、その実施に関し、裁判所に進んで協力しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

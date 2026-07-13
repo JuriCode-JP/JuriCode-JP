@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-38-p1
+    type: simple
+    text: 法第二十三条の二十九第一項の規定による同項各号に掲げる再生医療等製品の再審査の申請は、様式第七十五の九による申請書（正本一通及び副本二通）を提出することによつて行うものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

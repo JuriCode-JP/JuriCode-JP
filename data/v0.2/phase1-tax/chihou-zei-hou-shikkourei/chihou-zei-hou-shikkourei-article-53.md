@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十三条
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-53-p1 -->
 法第四百六十六条の二に規定する政令で定める者は、第三十九条の九各号に掲げる者とする。

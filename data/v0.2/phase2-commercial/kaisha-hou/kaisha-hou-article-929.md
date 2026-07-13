@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 清算が結了したときは、次の各号に掲げる会社の区分に応じ、当該各号に定める日から二週間以内に、その本店の所在地において、清算結了の登記をしなければならない。
     modality: gimu
+  - id: kaisha-hou-art-929-p1-kou-1
+    type: kou
+    text: 清算株式会社　第五百七条第三項の承認の日
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-929-p1-kou-2
+    type: kou
+    text: 清算持分会社（合名会社及び合資会社に限る。）　第六百六十七条第一項の承認の日（第六百六十八条第一項の財産の処分の方法を定めた場合にあっては、その財産の処分を完了した日）
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-929-p1-kou-3
+    type: kou
+    text: 清算持分会社（合同会社に限る。）　第六百六十七条第一項の承認の日
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第九百二十九条
 
-<!-- segment: hashira id: kaisha-hou-art-929-p1-hashira -->
 清算が結了したときは、次の各号に掲げる会社の区分に応じ、当該各号に定める日から二週間以内に、その本店の所在地において、清算結了の登記をしなければならない。
+
+一　清算株式会社　第五百七条第三項の承認の日
+
+二　清算持分会社（合名会社及び合資会社に限る。）　第六百六十七条第一項の承認の日（第六百六十八条第一項の財産の処分の方法を定めた場合にあっては、その財産の処分を完了した日）
+
+三　清算持分会社（合同会社に限る。）　第六百六十七条第一項の承認の日

@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第七十五条の五第二項（電子情報処理組織による申告が困難である場合の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-37-p1-kou-1
+    type: kou
+    text: 申請をする内国法人の名称、納税地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-37-p1-kou-2
+    type: kou
+    text: 代表者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-37-p1-kou-3
+    type: kou
+    text: 電気通信回線の故障、災害その他の理由により法第七十五条の五第一項に規定する電子情報処理組織を使用することが困難である事情が生じた日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-37-p1-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -39,6 +59,31 @@ paragraphs:
     type: hashira
     text: 法第七十五条の五第八項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-37-p3-kou-1
+    type: kou
+    text: 届出をする内国法人の名称、納税地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-37-p3-kou-2
+    type: kou
+    text: 代表者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-37-p3-kou-3
+    type: kou
+    text: 法第七十五条の五第一項の承認を受けた日又はその承認があつたものとみなされた日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-37-p3-kou-4
+    type: kou
+    text: 法第七十五条の五第一項の規定の適用をやめようとする理由
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-37-p3-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -61,15 +106,30 @@ parent_section:
 
 ### 第三十七条第一項
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-37-p1-hashira -->
 法第七十五条の五第二項（電子情報処理組織による申告が困難である場合の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号
+
+二　代表者の氏名
+
+三　電気通信回線の故障、災害その他の理由により法第七十五条の五第一項に規定する電子情報処理組織を使用することが困難である事情が生じた日
+
+四　その他参考となるべき事項
 
 ### 第三十七条第二項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-37-p2 -->
 法第七十五条の五第二項に規定する財務省令で定める書類は、電気通信回線の故障、災害その他の理由により同条第一項に規定する電子情報処理組織を使用することが困難であることを明らかにする書類とする。
 
 ### 第三十七条第三項
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-37-p3-hashira -->
 法第七十五条の五第八項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　届出をする内国法人の名称、納税地及び法人番号
+
+二　代表者の氏名
+
+三　法第七十五条の五第一項の承認を受けた日又はその承認があつたものとみなされた日
+
+四　法第七十五条の五第一項の規定の適用をやめようとする理由
+
+五　その他参考となるべき事項

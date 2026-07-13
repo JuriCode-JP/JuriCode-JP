@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 警察官は、異常な挙動その他周囲の事情から合理的に判断して次の各号のいずれかに該当することが明らかであり、かつ、応急の救護を要すると信ずるに足りる相当な理由のある者を発見したときは、取りあえず警察署、病院、救護施設等の適当な場所において、これを保護しなければならない。
     modality: gimu
+  - id: keisatsukan-shokumu-shikkou-hou-art-3-p1-kou-1
+    type: kou
+    text: 精神錯乱又は泥酔のため、自己又は他人の生命、身体又は財産に危害を及ぼすおそれのある者
+    modality: unspecified
+    item_number: 1
+  - id: keisatsukan-shokumu-shikkou-hou-art-3-p1-kou-2
+    type: kou
+    text: 迷い子、病人、負傷者等で適当な保護者を伴わず、応急の救護を要すると認められる者（本人がこれを拒んだ場合を除く。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -33,7 +43,7 @@ paragraphs:
     references:
     - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -74,25 +84,24 @@ tags:
 
 ### 第三条第一項
 
-<!-- segment: hashira id: keisatsukan-shokumu-shikkou-hou-art-3-p1-hashira -->
 警察官は、異常な挙動その他周囲の事情から合理的に判断して次の各号のいずれかに該当することが明らかであり、かつ、応急の救護を要すると信ずるに足りる相当な理由のある者を発見したときは、取りあえず警察署、病院、救護施設等の適当な場所において、これを保護しなければならない。
+
+一　精神錯乱又は泥酔のため、自己又は他人の生命、身体又は財産に危害を及ぼすおそれのある者
+
+二　迷い子、病人、負傷者等で適当な保護者を伴わず、応急の救護を要すると認められる者（本人がこれを拒んだ場合を除く。）
 
 ### 第三条第二項
 
-<!-- segment: simple id: keisatsukan-shokumu-shikkou-hou-art-3-p2 -->
 前項の措置をとつた場合においては、警察官は、できるだけすみやかに、その者の家族、知人その他の関係者にこれを通知し、その者の引取方について必要な手配をしなければならない。責任ある家族、知人等が見つからないときは、すみやかにその事件を適当な公衆保健若しくは公共福祉のための機関又はこの種の者の処置について法令により責任を負う他の公の機関に、その事件を引き継がなければならない。
 
 ### 第三条第三項
 
-<!-- segment: simple id: keisatsukan-shokumu-shikkou-hou-art-3-p3 -->
 第一項の規定による警察の保護は、二十四時間をこえてはならない。但し、引き続き保護することを承認する簡易裁判所（当該保護をした警察官の属する警察署所在地を管轄する簡易裁判所をいう。以下同じ。）の裁判官の許可状のある場合は、この限りでない。
 
 ### 第三条第四項
 
-<!-- segment: simple id: keisatsukan-shokumu-shikkou-hou-art-3-p4 -->
 前項但書の許可状は、警察官の請求に基き、裁判官において已むを得ない事情があると認めた場合に限り、これを発するものとし、その延長に係る期間は、通じて五日をこえてはならない。この許可状には已むを得ないと認められる事情を明記しなければならない。
 
 ### 第三条第五項
 
-<!-- segment: simple id: keisatsukan-shokumu-shikkou-hou-art-3-p5 -->
 警察官は、第一項の規定により警察で保護をした者の氏名、住所、保護の理由、保護及び引渡の時日並びに引渡先を毎週簡易裁判所に通知しなければならない。

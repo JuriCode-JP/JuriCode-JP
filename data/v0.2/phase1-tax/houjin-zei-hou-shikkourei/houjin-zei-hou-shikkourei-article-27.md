@@ -45,5 +45,4 @@ parent_section:
 
 ### 第二十七条
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-27-p1 -->
 削除

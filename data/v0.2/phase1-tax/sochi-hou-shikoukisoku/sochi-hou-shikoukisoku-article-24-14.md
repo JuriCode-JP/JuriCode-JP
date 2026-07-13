@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikoukisoku-art-24-14-p1-kou-1
+    type: kou
+    text: 当該合併の年月日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-24-14-p1-kou-2
+    type: kou
+    text: 当該合併に係る合併前の法第七十一条の十七第一項に規定する農業協同組合等が当該合併の直前において有していた土地等の地目、面積、所在地及び価額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第二十四条の十四
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-24-14-p1-hashira -->
 法第七十一条の十七第二項に規定する財務省令で定める書類は、次に掲げる事項を記載した書類及び同条第一項第二号の合併に係る同項に規定する合併経営計画又は合併及び事業経営計画の認定に係る書類の写しとする。
+
+一　当該合併の年月日
+
+二　当該合併に係る合併前の法第七十一条の十七第一項に規定する農業協同組合等が当該合併の直前において有していた土地等の地目、面積、所在地及び価額

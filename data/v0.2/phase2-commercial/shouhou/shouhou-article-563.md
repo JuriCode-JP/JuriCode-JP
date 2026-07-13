@@ -53,11 +53,8 @@ parent_section:
 
 ### 第五百六十三条第一項
 
-<!-- segment: zen_dan id: shouhou-art-563-p1-zen -->
-運送取扱人は、自ら運送をすることができる。<!-- segment: kou_dan id: shouhou-art-563-p1-kou depends_on: shouhou-art-563-p1-zen -->
-この場合において、運送取扱人は、運送人と同一の権利義務を有する。
+運送取扱人は、自ら運送をすることができる。この場合において、運送取扱人は、運送人と同一の権利義務を有する。
 
 ### 第五百六十三条第二項
 
-<!-- segment: simple id: shouhou-art-563-p2 -->
 運送取扱人が委託者の請求によって船荷証券又は複合運送証券を作成したときは、自ら運送をするものとみなす。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-9-5-p1
+    type: simple
+    text: 受益者等が存しない信託について、当該信託の契約が締結された時その他の時として政令で定める時（以下この条において「契約締結時等」という。）において存しない者が当該信託の受益者等となる場合において、当該信託の受益者等となる者が当該信託の契約締結時等における委託者の親族であるときは、当該存しない者が当該信託の受益者等となる時において、当該信託の受益者等となる者は、当該信託に関する権利を個人から贈与により取得したものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

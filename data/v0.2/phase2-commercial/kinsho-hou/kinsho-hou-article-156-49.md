@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-49-p1
+    type: simple
+    text: 指定紛争解決機関は、加入金融商品取引関係業者の顧客から金融商品取引業等業務関連苦情について解決の申立てがあつたときは、その相談に応じ、当該顧客に必要な助言をし、当該金融商品取引業等業務関連苦情に係る事情を調査するとともに、当該加入金融商品取引関係業者に対し、当該金融商品取引業等業務関連苦情の内容を通知してその迅速な処理を求めなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

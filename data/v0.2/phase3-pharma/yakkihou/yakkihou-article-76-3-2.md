@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-2-p1
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、第六十九条第四項若しくは第六項に規定する当該職員の職権（同項に規定する職権は第五十五条の二に規定する模造に係る医薬品に該当する疑いのある物に係るものに限る。）又は第七十条第三項に規定する当該職員の職権（同項に規定する職権のうち同条第一項に係る部分については第五十五条の二に規定する模造に係る医薬品に係るものに限る。）を麻薬取締官又は麻薬取締員に行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

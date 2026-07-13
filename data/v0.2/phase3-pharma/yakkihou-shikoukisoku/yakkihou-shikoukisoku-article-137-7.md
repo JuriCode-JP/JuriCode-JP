@@ -14,9 +14,38 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-7-p1-hashira
+    type: hashira
+    text: 令第四十三条の七第一項に規定する法第二十三条の二十第一項の許可に関する台帳に記載する事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-7-p1-kou-1
+    type: kou
+    text: 許可番号及び許可年月日
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-7-p1-kou-2
+    type: kou
+    text: 製造販売業者の氏名及び住所
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-7-p1-kou-3
+    type: kou
+    text: 再生医療等製品総括製造販売責任者がその業務を行う事務所（以下この章において「主たる機能を有する事務所」という。）の名称及び所在地
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-137-7-p1-kou-4
+    type: kou
+    text: 再生医療等製品総括製造販売責任者の氏名及び住所
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-137-7-p1-kou-5
+    type: kou
+    text: 当該製造販売業者が他の種類の製造販売業の許可を受けている場合にあつては、当該許可の種類及び許可番号
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -34,3 +63,13 @@ parent_section:
 ### 第百三十七条の七
 
 令第四十三条の七第一項に規定する法第二十三条の二十第一項の許可に関する台帳に記載する事項は、次のとおりとする。
+
+一　許可番号及び許可年月日
+
+二　製造販売業者の氏名及び住所
+
+三　再生医療等製品総括製造販売責任者がその業務を行う事務所（以下この章において「主たる機能を有する事務所」という。）の名称及び所在地
+
+四　再生医療等製品総括製造販売責任者の氏名及び住所
+
+五　当該製造販売業者が他の種類の製造販売業の許可を受けている場合にあつては、当該許可の種類及び許可番号

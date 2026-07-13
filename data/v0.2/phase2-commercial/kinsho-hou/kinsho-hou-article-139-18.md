@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-18-p1
+    type: simple
+    text: 新設合併をする場合には、新設合併消滅株式会社金融商品取引所の新株予約権の新株予約権者は、新設合併消滅株式会社金融商品取引所に対し、自己の有する新株予約権を公正な価格で買い取ることを請求することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-18-p2
+    type: junyou
+    text: 会社法第八百八条第五項から第十項まで、第八百九条、第八百六十八条第一項、第八百七十条第二項（第二号に係る部分に限る。）、第八百七十条の二、第八百七十一条本文、第八百七十二条（第五号に係る部分に限る。）、第八百七十二条の二、第八百七十三条本文、第八百七十五条及び第八百七十六条の規定は、前項の規定による請求について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 第八百七十六条
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

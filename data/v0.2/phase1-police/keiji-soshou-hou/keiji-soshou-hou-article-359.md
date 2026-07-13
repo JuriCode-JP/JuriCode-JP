@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百五十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-359-p1 -->
 検察官、被告人又は第三百五十二条に規定する者は、上訴の放棄又は取下をすることができる。

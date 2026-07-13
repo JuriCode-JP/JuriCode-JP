@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八十条
 
-<!-- segment: simple id: kaisha-hou-art-80-p1 -->
 創立総会においてその延期又は続行について決議があった場合には、第六十七条及び第六十八条の規定は、適用しない。

@@ -54,12 +54,8 @@ parent_section:
 
 ### 第五十四条第一項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-54-p1-honbun -->
-再調査の請求は、処分があったことを知った日の翌日から起算して三月を経過したときは、することができない。<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-54-p1-tadashi -->
-<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-54-p2-tadashi -->
-ただし、正当な理由があるときは、この限りでない。
+再調査の請求は、処分があったことを知った日の翌日から起算して三月を経過したときは、することができない。ただし、正当な理由があるときは、この限りでない。
 
 ### 第五十四条第二項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-54-p2-honbun -->
 再調査の請求は、処分があった日の翌日から起算して一年を経過したときは、することができない。ただし、正当な理由があるときは、この限りでない。

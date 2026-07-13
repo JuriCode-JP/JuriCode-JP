@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百九十条
 
-<!-- segment: simple id: minpou-art-690-p1 -->
 終身定期金は、日割りで計算する。

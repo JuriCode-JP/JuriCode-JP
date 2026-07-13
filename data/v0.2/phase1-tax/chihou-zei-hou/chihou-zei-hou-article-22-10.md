@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-10-p1
+    type: simple
+    text: 当該徴税吏員は、臨検すべき物件又は差し押さえるべき物件が電磁的記録に係る記録媒体であるときは、臨検又は捜索若しくは差押えを受ける者に対し、電子計算機の操作その他の必要な協力を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

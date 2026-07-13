@@ -52,10 +52,8 @@ parent_section:
 
 ### 第八百九十四条第一項
 
-<!-- segment: simple id: minpou-art-894-p1 -->
 被相続人は、いつでも、推定相続人の廃除の取消しを家庭裁判所に請求することができる。
 
 ### 第八百九十四条第二項
 
-<!-- segment: junyou id: minpou-art-894-p2 applies_provisions: 前条 -->
 前条の規定は、推定相続人の廃除の取消しについて準用する。

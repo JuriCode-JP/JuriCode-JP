@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百七十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-471-p1 -->
 裁判は、この法律に特別の定のある場合を除いては、確定した後これを執行する。

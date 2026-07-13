@@ -16,32 +16,56 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-5-p1
+    type: simple
+    text: 発起人は、定款を作成した後、会員になろうとする者を募り、これを会議の日時及び場所とともにその会議開催日の二週間前までに公告して、創立総会を開かなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-5-p2
+    type: simple
+    text: 設立を予定する自主規制法人の会員となる予定の者（以下この条において「加入予定者」という。）は、創立総会の開会までに、出資の全額を払い込まなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-5-p3
+    type: simple
+    text: 定款の承認その他設立に必要な事項の決定は、創立総会の議決によらなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-5-p4
+    type: simple
+    text: 創立総会では、定款を修正することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-5-p5
+    type: simple
+    text: 第三項の創立総会の議事は、加入予定者であつてその開会までに出資の全額の払込みをした者の二分の一以上が出席し、その出席者の議決権の三分の二以上で決する。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-5-p6
+    type: simple
+    text: 加入予定者で、自主規制法人の成立の時までに出資の全額を払い込まない者は、自主規制法人の成立の時に加入の申込みを取り消したものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

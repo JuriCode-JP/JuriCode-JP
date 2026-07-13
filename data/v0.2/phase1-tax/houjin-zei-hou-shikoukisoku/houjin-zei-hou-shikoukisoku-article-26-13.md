@@ -14,13 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: houjin-zei-hou-shikoukisoku-art-26-13-p1
     type: simple
     text: 令第百十九条第一項第十号ロ（有価証券の取得価額）に規定する財務省令で定める方法は、第一号に掲げる金額に相当する金額を第二号に掲げる数で除し、これに第三号に掲げる数を乗じて計算する方法その他合理的な方法とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-26-13-p1-kou-1
+    type: kou
+    text: 令第百十九条第一項第十号ロに規定する前事業年度終了の時の資産の帳簿価額から負債の帳簿価額を減算した金額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-26-13-p1-kou-2
+    type: kou
+    text: 令第百十九条第一項第十号ロに規定する株式交換完全子法人の同号ロの適格株式交換等の直前の基準株式数（会社法施行規則第二十五条第四項（一株当たり純資産額）に規定する基準株式数をいう。）
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-26-13-p1-kou-3
+    type: kou
+    text: 前号の適格株式交換等により取得をした同号の株式交換完全子法人の各種類の株式の数に当該種類の株式に係る株式係数（会社法施行規則第二十五条第五項に規定する株式係数をいう。）を乗じて得た数の合計数
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第二十六条の十三
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-26-13-p1 -->
 令第百十九条第一項第十号ロ（有価証券の取得価額）に規定する財務省令で定める方法は、第一号に掲げる金額に相当する金額を第二号に掲げる数で除し、これに第三号に掲げる数を乗じて計算する方法その他合理的な方法とする。
+
+一　令第百十九条第一項第十号ロに規定する前事業年度終了の時の資産の帳簿価額から負債の帳簿価額を減算した金額
+
+二　令第百十九条第一項第十号ロに規定する株式交換完全子法人の同号ロの適格株式交換等の直前の基準株式数（会社法施行規則第二十五条第四項（一株当たり純資産額）に規定する基準株式数をいう。）
+
+三　前号の適格株式交換等により取得をした同号の株式交換完全子法人の各種類の株式の数に当該種類の株式に係る株式係数（会社法施行規則第二十五条第五項に規定する株式係数をいう。）を乗じて得た数の合計数

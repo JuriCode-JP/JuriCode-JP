@@ -14,34 +14,77 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-2-p1-hashira
+    type: hashira
+    text: 内閣総理大臣は、次に掲げる者について、政令で定めるところにより、幹部職（自衛隊法第三十条の二第一項第六号に規定する幹部職を含む。第二号及び次項において同じ。）に属する官職（同条第一項第二号に規定する自衛官以外の隊員が占める職を含む。次項及び第六十一条の十一において同じ。）に係る標準職務遂行能力（同法第三十条の二第一項第五号に規定する標準職務遂行能力を含む。次項において同じ。）を有することを確認するための審査（以下「適格性審査」という。）を公正に行うものとする。
+    modality: gimu
+    references:
+    - 次項
+  - id: kokka-koumuin-hou-art-61-2-p1-kou-1
+    type: kou
+    text: 幹部職員（自衛隊法第三十条の二第一項第六号に規定する幹部隊員を含む。次号及び第六十一条の九第一項において同じ。）
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-61-2-p1-kou-2
+    type: kou
+    text: 幹部職員以外の者であつて、幹部職の職責を担うにふさわしい能力を有すると見込まれる者として任命権者（自衛隊法第三十一条第一項の規定により同法第二条第五項に規定する隊員（以下「自衛隊員」という。）の任免について権限を有する者を含む。第三項及び第四項、第六十一条の六並びに第六十一条の十一において同じ。）が内閣総理大臣に推薦した者
+    modality: unspecified
+    item_number: 2
+  - id: kokka-koumuin-hou-art-61-2-p1-kou-3
+    type: kou
+    text: 前二号に掲げる者に準ずる者として政令で定める者
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-2-p2
+    type: simple
+    text: 内閣総理大臣は、適格性審査の結果、幹部職に属する官職に係る標準職務遂行能力を有することを確認した者について、政令で定めるところにより、氏名その他政令で定める事項を記載した名簿（以下この条及び次条において「幹部候補者名簿」という。）を作成するものとする。
+    modality: gimu
+    references:
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-2-p3
+    type: simple
+    text: 内閣総理大臣は、任命権者の求めがある場合には、政令で定めるところにより、当該任命権者に対し、幹部候補者名簿を提示するものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-2-p4
+    type: simple
+    text: 内閣総理大臣は、政令で定めるところにより、定期的に、及び任命権者の求めがある場合その他必要があると認める場合には随時、適格性審査を行い、幹部候補者名簿を更新するものとする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-2-p5
+    type: simple
+    text: 内閣総理大臣は、前各項の規定による権限を内閣官房長官に委任する。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-2-p6
+    type: simple
+    text: 第一項（第三号を除く。）及び第二項から第四項までの政令は、人事院の意見を聴いて定めるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -63,6 +106,12 @@ parent_section:
 ### 第六十一条の二第一項
 
 内閣総理大臣は、次に掲げる者について、政令で定めるところにより、幹部職（自衛隊法第三十条の二第一項第六号に規定する幹部職を含む。第二号及び次項において同じ。）に属する官職（同条第一項第二号に規定する自衛官以外の隊員が占める職を含む。次項及び第六十一条の十一において同じ。）に係る標準職務遂行能力（同法第三十条の二第一項第五号に規定する標準職務遂行能力を含む。次項において同じ。）を有することを確認するための審査（以下「適格性審査」という。）を公正に行うものとする。
+
+一　幹部職員（自衛隊法第三十条の二第一項第六号に規定する幹部隊員を含む。次号及び第六十一条の九第一項において同じ。）
+
+二　幹部職員以外の者であつて、幹部職の職責を担うにふさわしい能力を有すると見込まれる者として任命権者（自衛隊法第三十一条第一項の規定により同法第二条第五項に規定する隊員（以下「自衛隊員」という。）の任免について権限を有する者を含む。第三項及び第四項、第六十一条の六並びに第六十一条の十一において同じ。）が内閣総理大臣に推薦した者
+
+三　前二号に掲げる者に準ずる者として政令で定める者
 
 ### 第六十一条の二第二項
 

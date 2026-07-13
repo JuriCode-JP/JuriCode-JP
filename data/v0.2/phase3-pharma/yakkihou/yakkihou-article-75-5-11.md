@@ -16,17 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-11-p1
+    type: simple
+    text: 厚生労働大臣は、課徴金をその納期限までに納付しない者があるときは、督促状により期限を指定してその納付を督促しなければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-11-p2-honbun
+    type: honbun
+    text: 厚生労働大臣は、前項の規定による督促をしたときは、その督促に係る課徴金の額につき年十四・五パーセントの割合で、納期限の翌日からその納付の日までの日数により計算した延滞金を徴収することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: yakkihou-art-75-5-11-p2-tadashi
+    type: tadashi
+    text: ただし、延滞金の額が千円未満であるときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-11-p3
+    type: simple
+    text: 前項の規定により計算した延滞金の額に百円未満の端数があるときは、その端数は、切り捨てる。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

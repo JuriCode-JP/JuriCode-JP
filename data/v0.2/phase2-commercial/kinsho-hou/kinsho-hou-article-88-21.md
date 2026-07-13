@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-21-p1
+    type: simple
+    text: 特別代理人の選任は、金融商品会員制法人の主たる事務所の所在地の地方裁判所の管轄とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

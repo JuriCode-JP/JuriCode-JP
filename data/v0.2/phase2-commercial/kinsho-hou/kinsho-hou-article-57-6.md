@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-6-p1
+    type: simple
+    text: 内閣総理大臣は、特別金融商品取引業者及びその子法人等の経営の健全性の状況に照らして公益又は投資者保護のため必要かつ適当であると認めるときは、その必要の限度において、当該特別金融商品取引業者に対し、三月以内の期間を定めて業務の全部若しくは一部の停止を命じ、又は業務の方法の変更、財産の供託その他監督上必要な事項を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-6-p2
+    type: simple
+    text: 前項の規定による命令は、特別金融商品取引業者及びその子法人等の経営の健全性の状況に係る区分に応じて行うものとし、内閣総理大臣は、当該区分及びこれに応じた命令の内容をあらかじめ定め、これを公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-6-p3
+    type: simple
+    text: 内閣総理大臣は、第一項の規定により特別金融商品取引業者に対しその業務の全部又は一部の停止を命じた場合において、その日から三月を経過した日において当該特別金融商品取引業者及びその子法人等の経営の健全性の状況が改善せず、かつ、改善する見込みがないと認められるときは、当該特別金融商品取引業者の第二十九条の登録を取り消すことができる。
+    modality: koka_torikeshi
 cases: []
 amendments: []
 tags:

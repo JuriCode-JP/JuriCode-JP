@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-12-p1
+    type: simple
+    text: 自主規制委員会は、第百五条の五第四項に規定する自主規制委員長（自主規制委員長に事故があるときは、同条第六項に規定する自主規制委員長の職務を代理する者。次条及び第百五条の十四において同じ。）が招集する。
+    modality: unspecified
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

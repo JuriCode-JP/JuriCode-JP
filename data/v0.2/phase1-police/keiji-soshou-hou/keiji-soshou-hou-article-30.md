@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-30-p1 -->
 被告人又は被疑者は、何時でも弁護人を選任することができる。
 
 ### 第三十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-30-p2 -->
 被告人又は被疑者の法定代理人、保佐人、配偶者、直系の親族及び兄弟姉妹は、独立して弁護人を選任することができる。

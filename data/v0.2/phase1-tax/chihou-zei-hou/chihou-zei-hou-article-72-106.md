@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-106-p1
+    type: simple
+    text: 貨物割に係る延滞税及び加算税並びに消費税に係る延滞税及び加算税並びにこれらの延滞税の免除に係る金額（以下本条において「延滞税等」という。）の計算については、貨物割及び消費税の合算額によつて行い、算出された延滞税等をその計算の基礎となつた貨物割及び消費税の額にあん分した額に相当する金額を貨物割又は消費税に係る延滞税等の額とする。
+    modality: gimu
+    references:
+    - 本条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-106-p2
+    type: simple
+    text: 貨物割及び消費税に係る還付加算金の計算については、貨物割及び消費税に係る還付金又は過誤納金の合算額によつて行い、算出された還付加算金をその計算の基礎となつた貨物割及び消費税に係る還付金又は過誤納金の額にあん分した額に相当する金額を貨物割又は消費税に係る還付加算金の額とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-106-p3
+    type: simple
+    text: 前二項の規定により貨物割及び消費税に係る延滞税等及び還付加算金の計算をする場合の端数計算は、貨物割及び消費税を一の税とみなしてこれを行う。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

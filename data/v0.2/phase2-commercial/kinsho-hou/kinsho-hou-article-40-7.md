@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-7-p1
+    type: simple
+    text: 金融商品取引業者等（店頭デリバティブ取引を業として行う者に限る。）は、特定店頭デリバティブ取引（店頭デリバティブ取引のうち、取引高その他の取引の状況に照らして、取引の公正の確保のためその概要に関する情報の迅速な開示が必要であると認められる取引として内閣府令で定めるものをいう。次項、第五十八条の二及び第六十条の十四第一項において同じ。）を行う場合には、当該金融商品取引業者等がその店頭デリバティブ取引の業務の用に供する電子情報処理組織又は他の金融商品取引業者等（店頭デリバティブ取引等を業として行う者に限る。）若しくは同条第二項に規定する電子店頭デリバティブ取引等許可業者がその店頭デリバティブ取引等の業務の用に供する電子情報処理組織を使用して行わなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-7-p2
+    type: simple
+    text: 前項の規定により電子情報処理組織を使用に供した者は、当該電子情報処理組織を使用して行われた特定店頭デリバティブ取引について、内閣府令で定めるところにより、その価格、数量その他取引の概要を明らかにするために必要な事項を公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

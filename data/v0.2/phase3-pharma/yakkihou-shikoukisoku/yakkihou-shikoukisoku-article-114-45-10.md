@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-10-p1
+    type: simple
+    text: 令第三十七条の三十七の規定による医療機器等適合性確認の結果の通知は、様式第六十三の十九の七による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

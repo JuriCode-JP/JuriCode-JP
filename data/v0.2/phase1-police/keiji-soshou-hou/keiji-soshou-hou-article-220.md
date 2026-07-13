@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-220-p1
     type: simple
     text: 検察官、検察事務官又は司法警察職員は、第百九十九条の規定により被疑者を逮捕する場合又は現行犯人を逮捕する場合において必要があるときは、左の処分をすることができる。第二百十条の規定により被疑者を逮捕する場合において必要があるときも、同様である。
     modality: unspecified
+  - id: keiji-soshou-hou-art-220-p1-kou-1
+    type: kou
+    text: 人の住居又は人の看守する邸宅、建造物若しくは船舶内に入り被疑者の捜索をすること。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-220-p1-kou-2
+    type: kou
+    text: 逮捕の現場で差押、捜索又は検証をすること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -70,20 +80,20 @@ parent_section:
 
 ### 第二百二十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-220-p1 -->
 検察官、検察事務官又は司法警察職員は、第百九十九条の規定により被疑者を逮捕する場合又は現行犯人を逮捕する場合において必要があるときは、左の処分をすることができる。第二百十条の規定により被疑者を逮捕する場合において必要があるときも、同様である。
+
+一　人の住居又は人の看守する邸宅、建造物若しくは船舶内に入り被疑者の捜索をすること。
+
+二　逮捕の現場で差押、捜索又は検証をすること。
 
 ### 第二百二十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-220-p2 -->
 前項後段の場合において逮捕状が得られなかつたときは、差押物は、直ちにこれを還付しなければならない。第百二十三条第三項の規定は、この場合についてこれを準用する。
 
 ### 第二百二十条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-220-p3 -->
 第一項の処分をするには、令状は、これを必要としない。
 
 ### 第二百二十条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-220-p4 -->
 第一項第二号及び前項の規定は、検察事務官又は司法警察職員が勾引状又は勾留状を執行する場合にこれを準用する。被疑者に対して発せられた勾引状又は勾留状を執行する場合には、第一項第一号の規定をも準用する。

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百八十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-286-p1 -->
 前三条に規定する場合の外、被告人が公判期日に出頭しないときは、開廷することはできない。

@@ -52,8 +52,6 @@ parent_section:
 
 ### 第百五十三条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-153-p1 -->
-<!-- segment: simple id: chihou-jichi-hou-art-153-p2 -->
 普通地方公共団体の長は、その権限に属する事務の一部をその補助機関である職員に委任し、又はこれに臨時に代理させることができる。
 
 ### 第百五十三条第二項

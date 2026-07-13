@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-42-p1
+    type: simple
+    text: 指定紛争解決機関は、この法律及び業務規程の定めるところにより、紛争解決等業務を行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-42-p2
+    type: simple
+    text: 指定紛争解決機関（紛争解決委員を含む。）は、当事者である加入金融商品取引関係業者（手続実施基本契約を締結した相手方である金融商品取引関係業者をいう。以下この章において同じ。）若しくはその顧客（顧客以外の第四十二条第一項に規定する権利者を含む。以下この章において同じ。）又はこれらの者以外の者との手続実施基本契約その他の契約で定めるところにより、紛争解決等業務を行うことに関し、負担金又は料金その他の報酬を受けることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百七条
 
-<!-- segment: simple id: minpou-art-207-p1 -->
 土地の所有権は、法令の制限内において、その土地の上下に及ぶ。

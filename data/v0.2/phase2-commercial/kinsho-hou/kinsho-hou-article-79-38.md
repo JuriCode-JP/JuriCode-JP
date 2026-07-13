@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-38-p1
+    type: simple
+    text: 監事は、理事長、理事、運営審議会の委員又は基金の職員を兼ねてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-16-3-p1
+    type: junyou
+    text: 第四十八条の十五の四第一項から第三項までの規定は、法第三百二十七条第二項において準用する法第三百二十一条の十二第四項の規定による延滞金の計算について準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-16-3-p2
+    type: junyou
+    text: 前条第一項及び第二項の規定は、法第三百二十七条第三項において準用する法第三百二十六条第三項の規定による延滞金の計算について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

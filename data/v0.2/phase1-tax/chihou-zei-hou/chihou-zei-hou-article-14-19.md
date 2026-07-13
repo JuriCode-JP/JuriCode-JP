@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-19-p1
+    type: simple
+    text: 買戻しの特約のある売買の登記、再売買の予約の請求権の保全のための仮登記（仮登録を含む。）その他これに類する登記（以下本条において「買戻権の登記等」という。）がされている譲渡担保財産のその買戻権の登記等の権利者が滞納者であるときは、その差し押さえた買戻権の登記等に係る権利及び前条第三項の規定により差し押さえたその買戻権の登記等のある譲渡担保財産を一括して換価することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 本条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-19-p2
+    type: simple
+    text: 前条及び前項に規定するもののほか、譲渡担保財産からする納税者又は特別徴収義務者の地方団体の徴収金の徴収に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

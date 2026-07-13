@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百三十七条
 
-<!-- segment: simple id: keihou-art-237-p1 -->
 強盗の罪を犯す目的で、その予備をした者は、二年以下の拘禁刑に処する。

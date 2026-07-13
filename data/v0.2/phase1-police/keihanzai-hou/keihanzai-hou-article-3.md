@@ -34,5 +34,4 @@ tags:
 
 ### 第三条
 
-<!-- segment: simple id: keihanzai-hou-art-3-p1 -->
 第一条の罪を教唆し、又は幇助した者は、正犯に準ずる。

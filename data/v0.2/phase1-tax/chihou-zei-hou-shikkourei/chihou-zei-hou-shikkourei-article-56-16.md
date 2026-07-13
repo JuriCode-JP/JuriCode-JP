@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 本条
+  - id: chihou-zei-hou-shikkourei-art-56-16-p1-kou-1
+    type: kou
+    text: 当該事業所部分の延べ面積
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-56-16-p1-kou-2
+    type: kou
+    text: 当該各共同の用に供する部分の延べ面積に、当該事業所部分の延べ面積の当該家屋の共同の用に供する部分以外の部分で当該各共同の用に供する部分に係るものの延べ面積に対する割合を乗じて得た面積
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第五十六条の十六
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-56-16-p1-hashira -->
 法第七百一条の三十一第一項第四号に規定する政令で定める床面積は、事業所用家屋の延べ面積とする。ただし、事業所用家屋である家屋（法第三百四十一条第三号に規定する家屋をいう。以下本章において同じ。）に専ら事業所等（法第七百一条の三十一第一項第五号に規定する事業所等をいう。以下本章において同じ。）の用に供する部分（以下本条において「事業所部分」という。）に係る共同の用に供する部分がある場合には、次の各号に掲げる面積の合計面積とする。
+
+一　当該事業所部分の延べ面積
+
+二　当該各共同の用に供する部分の延べ面積に、当該事業所部分の延べ面積の当該家屋の共同の用に供する部分以外の部分で当該各共同の用に供する部分に係るものの延べ面積に対する割合を乗じて得た面積

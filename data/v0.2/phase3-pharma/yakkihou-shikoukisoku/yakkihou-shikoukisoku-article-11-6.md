@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-6-p1
+    type: simple
+    text: 都道府県知事は、法第八条の二第五項の規定により、同条第一項及び第二項の規定により報告された事項について、必要な情報を抽出し、適切に比較検討することを支援するため、容易に検索することができる形式でのインターネットの利用による方法その他適切な方法により公表しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

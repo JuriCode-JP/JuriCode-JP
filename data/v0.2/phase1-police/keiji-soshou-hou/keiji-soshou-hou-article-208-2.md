@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-208-2-p1
+    type: simple
+    text: 裁判官は、刑法第二編第二章乃至第四章又は第八章の罪にあたる事件については、検察官の請求により、前条第二項の規定により延長された期間を更に延長することができる。この期間の延長は、通じて五日を超えることができない。
+    modality: kanou_negative
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

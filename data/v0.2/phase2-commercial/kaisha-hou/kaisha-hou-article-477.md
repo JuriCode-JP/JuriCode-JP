@@ -101,24 +101,18 @@ parent_section:
 
 ### 第四百七十七条第一項
 
-<!-- segment: simple id: kaisha-hou-art-477-p1 -->
 清算株式会社には、一人又は二人以上の清算人を置かなければならない。
 
 ### 第四百七十七条第二項
 
-<!-- segment: simple id: kaisha-hou-art-477-p2 -->
 清算株式会社は、定款の定めによって、清算人会、監査役又は監査役会を置くことができる。
 
 ### 第四百七十七条第三項
 
-<!-- segment: simple id: kaisha-hou-art-477-p3 -->
 監査役会を置く旨の定款の定めがある清算株式会社は、清算人会を置かなければならない。
 
 ### 第四百七十七条第四項
 
-<!-- segment: simple id: kaisha-hou-art-477-p4 -->
-<!-- segment: simple id: kaisha-hou-art-477-p5 -->
-<!-- segment: simple id: kaisha-hou-art-477-p6 -->
 第四百七十五条各号に掲げる場合に該当することとなった時において公開会社又は大会社であった清算株式会社は、監査役を置かなければならない。
 
 ### 第四百七十七条第五項
@@ -131,5 +125,4 @@ parent_section:
 
 ### 第四百七十七条第七項
 
-<!-- segment: simple id: kaisha-hou-art-477-p7 -->
 第四章第二節の規定は、清算株式会社については、適用しない。

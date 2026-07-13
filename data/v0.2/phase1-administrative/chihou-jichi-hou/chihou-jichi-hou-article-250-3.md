@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-3-p1
+    type: simple
+    text: 国の行政機関又は都道府県の機関は、申請等が当該国の行政機関又は都道府県の機関の事務所に到達してから当該申請等に係る許認可等をするまでに通常要すべき標準的な期間（法令により当該国の行政機関又は都道府県の機関と異なる機関が当該申請等の提出先とされている場合は、併せて、当該申請等が当該提出先とされている機関の事務所に到達してから当該国の行政機関又は都道府県の機関の事務所に到達するまでに通常要すべき標準的な期間）を定め、かつ、これを公表するよう努めなければならない。
+    modality: doryoku_gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-3-p2
+    type: simple
+    text: 国の行政機関又は都道府県の機関は、申請等が法令により当該申請等の提出先とされている機関の事務所に到達したときは、遅滞なく当該申請等に係る許認可等をするための事務を開始しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

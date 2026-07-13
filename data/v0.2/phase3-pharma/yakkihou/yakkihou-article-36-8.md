@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-8-p1
+    type: simple
+    text: 都道府県知事は、一般用医薬品の販売又は授与に従事しようとする者がそれに必要な資質を有することを確認するために、厚生労働省令で定めるところにより試験を行う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-8-p2
+    type: simple
+    text: 前項の試験に合格した者又は第二類医薬品及び第三類医薬品の販売若しくは授与に従事するために必要な資質を有する者として政令で定める基準に該当する者であつて、医薬品の販売又は授与に従事しようとするものは、都道府県知事の登録を受けなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-8-p3
+    type: junyou
+    text: 第五条（第三号に係る部分に限る。）の規定は、前項の登録について準用する。この場合において、同条中「許可を与えないことができる」とあるのは、「登録を受けることができない」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-8-p4
+    type: simple
+    text: 第二項の登録又はその消除その他必要な事項は、厚生労働省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

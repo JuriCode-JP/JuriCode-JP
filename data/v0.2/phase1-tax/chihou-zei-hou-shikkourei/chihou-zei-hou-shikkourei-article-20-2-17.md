@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-17-p1
+    type: simple
+    text: 法第七十二条の十八第一項第一号の規定により内国法人の各事業年度の単年度損益を算定する場合において、同号の規定によりその例によるものとされる租税特別措置法第六十六条の十三第一項に規定する所得基準額は、当該事業年度に係る法人税の課税標準である所得の計算上同項に規定する所得基準額とされた額とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

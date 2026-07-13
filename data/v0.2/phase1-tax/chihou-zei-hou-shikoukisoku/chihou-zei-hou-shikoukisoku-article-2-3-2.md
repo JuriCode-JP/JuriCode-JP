@@ -16,22 +16,67 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-2-p1
+    type: simple
+    text: 所得税法第百九十四条第一項の規定により同項に規定する申告書を提出しなければならない者（次項において「給与所得者」という。）が法第四十五条の三の二第一項及び第三百十七条の三の二第一項の規定によりこれらの規定に規定する申告書（以下この条、次条及び第二条の三の四第一項第一号において「給与所得者の扶養親族等申告書」という。）を提出する場合には、所得税法第百九十四条第一項の申告書と併せて法第四十五条の三の二第一項及び第三百十七条の三の二第一項の給与支払者（次項及び次条において「給与支払者」という。）を経由して、提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 次項
+    - 次条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-2-p2-honbun
+    type: honbun
+    text: 給与支払者が給与所得者から給与所得者の扶養親族等申告書又は次条第十三項の規定により提出される書類を受理した場合には、当該給与所得者の扶養親族等申告書（法第四十五条の三の二第五項及び第三百十七条の三の二第五項の規定の適用により当該給与支払者が提供を受けた当該給与所得者の扶養親族等申告書に記載すべき事項を含む。）又はこれらの書類を、法第四十五条の三の二第一項及び第三百十七条の三の二第一項に規定する市町村長が当該給与支払者に対しその提出を求めるまでの間、当該給与支払者が保存するものとする。
+    modality: gimu
+    references:
+    - 次条
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-2-p2-tadashi
+    type: tadashi
+    text: ただし、当該給与所得者の扶養親族等申告書に係るこれらの規定に規定する提出期限の属する年の翌年一月十日の翌日から七年を経過する日後においては、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-2-p3-hashira
+    type: hashira
+    text: 次の各号に掲げる法第四十五条の三の二第一項及び第三百十七条の三の二第一項の規定により給与所得者の扶養親族等申告書に記載することとされている氏名は、当該各号に定める氏名に限るものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-2-p3-kou-1
+    type: kou
+    text: 法第四十五条の三の二第一項第二号及び第三百十七条の三の二第一項第二号に規定する自己と生計を一にする配偶者（以下この号、次条及び第二条の三の六において「申告対象配偶者」という。）の氏名　退職手当等に係る所得を有する申告対象配偶者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-2-p3-kou-2
+    type: kou
+    text: 扶養親族の氏名　年齢十六歳未満の者又は退職手当等に係る所得を有する者である扶養親族の氏名
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-2-p3-kou-3
+    type: kou
+    text: 特定親族の氏名　退職手当等に係る所得を有する者である特定親族の氏名
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-2-3-2-p4
+    type: junyou
+    text: 前三項の規定は、法第四十五条の三の二第三項及び第三百十七条の三の二第三項の規定による申告書（次条及び第二条の三の四第一項第二号において「給与所得者の扶養親族等異動申告書」という。）の提出について準用する。この場合において、第一項中「第百九十四条第一項」とあるのは「第百九十四条第三項」と、「第四十五条の三の二第一項及び第三百十七条の三の二第一項の規定」とあるのは「第四十五条の三の二第三項及び第三百十七条の三の二第三項の規定」と、前項中「第四十五条の三の二第一項及び第三百十七条の三の二第一項の規定」とあるのは「第四十五条の三の二第三項及び第三百十七条の三の二第三項の規定」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    - 前三項
+    - 次条
 cases: []
 amendments: []
 tags:
@@ -54,6 +99,12 @@ tags:
 ### 第二条の三の二第三項
 
 次の各号に掲げる法第四十五条の三の二第一項及び第三百十七条の三の二第一項の規定により給与所得者の扶養親族等申告書に記載することとされている氏名は、当該各号に定める氏名に限るものとする。
+
+一　法第四十五条の三の二第一項第二号及び第三百十七条の三の二第一項第二号に規定する自己と生計を一にする配偶者（以下この号、次条及び第二条の三の六において「申告対象配偶者」という。）の氏名　退職手当等に係る所得を有する申告対象配偶者の氏名
+
+二　扶養親族の氏名　年齢十六歳未満の者又は退職手当等に係る所得を有する者である扶養親族の氏名
+
+三　特定親族の氏名　退職手当等に係る所得を有する者である特定親族の氏名
 
 ### 第二条の三の二第四項
 

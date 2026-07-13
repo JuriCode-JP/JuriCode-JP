@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-278-2-p1
+    type: simple
+    text: 保釈又は勾留の執行停止をされた被告人が、召喚を受け正当な理由がなく公判期日に出頭しないときは、二年以下の拘禁刑に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

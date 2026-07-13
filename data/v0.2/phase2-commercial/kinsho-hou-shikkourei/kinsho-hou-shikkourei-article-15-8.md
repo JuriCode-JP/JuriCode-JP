@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-8-p1
+    type: simple
+    text: 法第二十九条の四第一項第五号イ（法第三十一条第五項において準用する場合を含む。）に規定する政令で定める者は、その発行済株式又は出資の持分の全部を所有している者が第一種金融商品取引業と同種類の業務を行つている者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

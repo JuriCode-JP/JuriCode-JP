@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-93-p1
+    type: simple
+    text: 内閣総理大臣は、投資運用関係業務受託業者を監督するに当たつては、業務の運営についての投資運用関係業務受託業者の自主的な努力を尊重するよう配慮しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

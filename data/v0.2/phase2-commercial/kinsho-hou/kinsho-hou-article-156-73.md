@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-73-p1
+    type: simple
+    text: 取引情報蓄積機関は、内閣府令で定めるところにより、取引情報蓄積業務の一部を、内閣総理大臣の承認を受けて、他の者に委託することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-73-p2
+    type: simple
+    text: 前項の規定による委託を受けた者は、当該委託を受けた取引情報蓄積業務の一部を、当該委託をした取引情報蓄積機関の同意を得て、更に他の者に委託することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-73-p3
+    type: simple
+    text: 前項の規定による委託を受けた者は、当該委託を受けた取引情報蓄積業務の一部を、同項に規定する委託を受けた者及び同項の取引情報蓄積機関の同意を得て、更に他の者に委託することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

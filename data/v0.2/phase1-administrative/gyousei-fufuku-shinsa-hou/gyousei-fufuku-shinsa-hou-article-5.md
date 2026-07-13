@@ -26,7 +26,7 @@ paragraphs:
     text: ただし、当該処分について第二条の規定により審査請求をしたときは、この限りでない。
     modality: jogai
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -36,6 +36,16 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: gyousei-fufuku-shinsa-hou-art-5-p2-kou-1
+    type: kou
+    text: 当該処分につき再調査の請求をした日（第六十一条において読み替えて準用する第二十三条の規定により不備を補正すべきことを命じられた場合にあっては、当該不備を補正した日）の翌日から起算して三月を経過しても、処分庁が当該再調査の請求につき決定をしない場合
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-fufuku-shinsa-hou-art-5-p2-kou-2
+    type: kou
+    text: その他再調査の請求についての決定を経ないことにつき正当な理由がある場合
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -52,11 +62,12 @@ parent_section:
 
 ### 第五条第一項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-5-p1-honbun -->
-行政庁の処分につき処分庁以外の行政庁に対して審査請求をすることができる場合において、法律に再調査の請求をすることができる旨の定めがあるときは、当該処分に不服がある者は、処分庁に対して再調査の請求をすることができる。<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-5-p1-tadashi -->
-ただし、当該処分について第二条の規定により審査請求をしたときは、この限りでない。
+行政庁の処分につき処分庁以外の行政庁に対して審査請求をすることができる場合において、法律に再調査の請求をすることができる旨の定めがあるときは、当該処分に不服がある者は、処分庁に対して再調査の請求をすることができる。ただし、当該処分について第二条の規定により審査請求をしたときは、この限りでない。
 
 ### 第五条第二項
 
-<!-- segment: hashira id: gyousei-fufuku-shinsa-hou-art-5-p2-hashira -->
 前項本文の規定により再調査の請求をしたときは、当該再調査の請求についての決定を経た後でなければ、審査請求をすることができない。ただし、次の各号のいずれかに該当する場合は、この限りでない。
+
+一　当該処分につき再調査の請求をした日（第六十一条において読み替えて準用する第二十三条の規定により不備を補正すべきことを命じられた場合にあっては、当該不備を補正した日）の翌日から起算して三月を経過しても、処分庁が当該再調査の請求につき決定をしない場合
+
+二　その他再調査の請求についての決定を経ないことにつき正当な理由がある場合

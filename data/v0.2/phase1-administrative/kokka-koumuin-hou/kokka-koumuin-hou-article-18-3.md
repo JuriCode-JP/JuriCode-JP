@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-3-p1
+    type: simple
+    text: 内閣総理大臣は、職員の退職管理に関する事項（第百六条の二から第百六条の四までに規定するものに限る。）に関し調査することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-3-p2
+    type: junyou
+    text: 第十七条第二項から第五項までの規定は、前項の規定による調査について準用する。この場合において、同条第二項中「人事院又は前項の規定により指名された者は、同項」とあるのは「内閣総理大臣は、第十八条の三第一項」と、同条第三項中「第一項の調査（職員の職務に係る倫理の保持に関して行われるものに限る。）」とあるのは「第十八条の三第一項の調査」と、「対象である職員」とあるのは「対象である職員若しくは職員であつた者」と、「同項の規定により指名された者に、当該職員」とあるのは「当該職員」と、「立ち入らせ」とあるのは「立ち入り」と、「検査させ、又は関係者に質問させる」とあるのは「検査し、若しくは関係者に質問する」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

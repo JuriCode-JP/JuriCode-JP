@@ -14,19 +14,64 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-2-p1
+    type: tokusoku
+    text: 第二十三条の二十五の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する再生医療等製品として政令で定めるものである場合には、厚生労働大臣は、同条第二項（第三号ハに係る部分を除く。）、第五項、第六項及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、その適正な使用の確保のために必要な条件及び二年を超えない範囲内の期限を付してその品目に係る同条の承認を与えることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第十二項
+  - id: yakkihou-art-23-26-2-p1-kou-1
+    type: kou
+    text: 国民の生命及び健康に重大な影響を与えるおそれがある疾病のまん延その他の健康被害の拡大を防止するため緊急に使用されることが必要な再生医療等製品であり、かつ、当該再生医療等製品の使用以外に適当な方法がないこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-23-26-2-p1-kou-2
+    type: kou
+    text: 申請に係る効能、効果又は性能を有すると推定されるものであること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-23-26-2-p1-kou-3
+    type: kou
+    text: 申請に係る効能、効果又は性能に比して著しく有害な作用を有することにより再生医療等製品として使用価値がないと推定されるものでないこと。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-2-p2-zen
+    type: zen_dan
+    text: 厚生労働大臣は、前項の規定による第二十三条の二十五の承認に係る再生医療等製品の特性その他を勘案して必要があると認めるときは、当該品目に係る同条第三項前段に規定する資料が同項後段の規定に適合するかどうか又は当該再生医療等製品の製造所における製造管理若しくは品質管理の方法が同条第二項第四号に規定する厚生労働省令で定める基準に適合しているかどうかについて、書面による調査又は実地の調査を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
+  - id: yakkihou-art-23-26-2-p2-kou
+    type: kou_dan
+    text: この場合において、前項の規定による同条の承認を受けようとする者又は同項の規定による同条の承認を受けた者は、当該調査を受けなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+    depends_on: yakkihou-art-23-26-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-2-p3
+    type: junyou
+    text: 前条第二項、第三項及び第五項から第七項までの規定は、第一項の規定により条件及び期限を付した第二十三条の二十五の承認について準用する。この場合において、前条第二項中「前項」とあるのは「次条第一項」と、「三年」とあるのは「一年」と、同条第五項中「同条第一項」とあるのは「第二十三条の二十五」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 次条
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -44,6 +89,12 @@ parent_section:
 ### 第二十三条の二十六の二第一項
 
 第二十三条の二十五の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する再生医療等製品として政令で定めるものである場合には、厚生労働大臣は、同条第二項（第三号ハに係る部分を除く。）、第五項、第六項及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、その適正な使用の確保のために必要な条件及び二年を超えない範囲内の期限を付してその品目に係る同条の承認を与えることができる。
+
+一　国民の生命及び健康に重大な影響を与えるおそれがある疾病のまん延その他の健康被害の拡大を防止するため緊急に使用されることが必要な再生医療等製品であり、かつ、当該再生医療等製品の使用以外に適当な方法がないこと。
+
+二　申請に係る効能、効果又は性能を有すると推定されるものであること。
+
+三　申請に係る効能、効果又は性能に比して著しく有害な作用を有することにより再生医療等製品として使用価値がないと推定されるものでないこと。
 
 ### 第二十三条の二十六の二第二項
 

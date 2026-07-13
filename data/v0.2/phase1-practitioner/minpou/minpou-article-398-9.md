@@ -16,27 +16,57 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-9-p1
+    type: simple
+    text: 元本の確定前に根抵当権者について合併があったときは、根抵当権は、合併の時に存する債権のほか、合併後存続する法人又は合併によって設立された法人が合併後に取得する債権を担保する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-9-p2
+    type: simple
+    text: 元本の確定前にその債務者について合併があったときは、根抵当権は、合併の時に存する債務のほか、合併後存続する法人又は合併によって設立された法人が合併後に負担する債務を担保する。
+    modality: unspecified
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-9-p3-honbun
+    type: honbun
+    text: 前二項の場合には、根抵当権設定者は、担保すべき元本の確定を請求することができる。
+    modality: kanou_kenri
+    references:
+    - 前二項
+  - id: minpou-art-398-9-p3-tadashi
+    type: tadashi
+    text: ただし、前項の場合において、その債務者が根抵当権設定者であるときは、この限りでない。
+    modality: jogai
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-9-p4
+    type: simple
+    text: 前項の規定による請求があったときは、担保すべき元本は、合併の時に確定したものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-9-p5
+    type: simple
+    text: 第三項の規定による請求は、根抵当権設定者が合併のあったことを知った日から二週間を経過したときは、することができない。合併の日から一箇月を経過したときも、同様とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

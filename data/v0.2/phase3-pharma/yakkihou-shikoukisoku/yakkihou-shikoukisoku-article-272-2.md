@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-272-2-p1
+    type: simple
+    text: 治験の依頼をしようとする者又は自ら治験を実施しようとする者は、治験（第二百六十八条第二号から第六号までに掲げる薬物であつて、生物学的同等性を確認する試験を行うものに係る治験を除く。）を実施するに当たり世界保健機関が公表を求める事項その他治験実施の透明性の確保及び国民の治験への参加の選択に資する事項をあらかじめ公表しなければならない。これを変更したときも、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-272-2-p2
+    type: simple
+    text: 治験を依頼した者又は自ら治験を実施した者は、治験を中止し、又は終了したときは、原則として治験を中止した日又は終了した日のいずれか早い日から一年以内にその結果の概要を作成し、公表しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

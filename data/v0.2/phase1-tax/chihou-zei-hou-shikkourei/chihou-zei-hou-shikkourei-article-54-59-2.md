@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-59-2-p1
+    type: simple
+    text: 市町村の徴税吏員は、法第六百七十四条第四項の規定により物件を留め置く場合には、当該物件の名称又は種類及びその数量、当該物件の提出年月日並びに当該物件を提出した者の氏名及び住所又は居所その他当該物件の留置きに関し必要な事項を記載した書面を作成し、当該物件を提出した者にこれを交付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-59-2-p2
+    type: simple
+    text: 市町村の徴税吏員は、法第六百七十四条第四項の規定により留め置いた物件につき留め置く必要がなくなつたときは、遅滞なく、これを返還しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-59-2-p3
+    type: simple
+    text: 市町村の徴税吏員は、前項に規定する物件を善良な管理者の注意をもつて管理しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

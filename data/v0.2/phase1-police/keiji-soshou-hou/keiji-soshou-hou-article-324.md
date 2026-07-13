@@ -50,8 +50,6 @@ parent_section:
 
 ### 第三百二十四条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-324-p1 -->
-<!-- segment: simple id: keiji-soshou-hou-art-324-p2 -->
 被告人以外の者の公判準備又は公判期日における供述で被告人の供述をその内容とするものについては、第三百二十二条の規定を準用する。
 
 ### 第三百二十四条第二項

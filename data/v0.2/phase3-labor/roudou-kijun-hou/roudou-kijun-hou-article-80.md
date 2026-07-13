@@ -37,5 +37,4 @@ parent_section:
 
 ### 第八十条
 
-<!-- segment: simple id: roudou-kijun-hou-art-80-p1 -->
 労働者が業務上死亡した場合においては、使用者は、葬祭を行う者に対して、平均賃金の六十日分の葬祭料を支払わなければならない。

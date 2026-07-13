@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-13-p1
+    type: junyou
+    text: 第九十二条から第九十六条までの規定は、自主規制法人の会員について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第九十二条から第九十六条まで
 cases: []
 amendments: []
 tags:

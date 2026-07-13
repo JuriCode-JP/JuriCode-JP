@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-66-p1
+    type: simple
+    text: 取引情報蓄積機関は、前条第二項の規定による報告の対象となつている取引情報に係る取引について、内閣府令で定めるところにより、その規模その他の内閣府令で定める事項を公表しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-66-p2
+    type: simple
+    text: 内閣総理大臣は、第百五十六条の六十三第二項又は第百五十六条の六十四第二項の規定による報告を受けた取引情報に係る取引について、その規模その他当該取引の概要を明らかにするために必要な事項を公表するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

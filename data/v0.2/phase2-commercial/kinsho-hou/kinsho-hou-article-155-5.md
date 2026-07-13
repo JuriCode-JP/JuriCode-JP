@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-155-5-p1
+    type: simple
+    text: 外国金融商品取引所は、内閣府令で定めるところにより、毎年四月から翌年三月までの期間における外国市場取引に関する業務報告書を作成し、当該期間経過後三月以内に、これを内閣総理大臣に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

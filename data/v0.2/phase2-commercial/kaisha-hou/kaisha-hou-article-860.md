@@ -23,6 +23,16 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 次条
+  - id: kaisha-hou-art-860-p1-kou-1
+    type: kou
+    text: 前条各号に掲げる事由があるとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-860-p1-kou-2
+    type: kou
+    text: 持分会社の業務を執行し、又は持分会社を代表することに著しく不適任なとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第八百六十条
 
-<!-- segment: hashira id: kaisha-hou-art-860-p1-hashira -->
 持分会社の業務を執行する社員（以下この条及び次条第二号において「対象業務執行社員」という。）について次に掲げる事由があるときは、当該持分会社は、対象業務執行社員以外の社員の過半数の決議に基づき、訴えをもって対象業務執行社員の業務を執行する権利又は代表権の消滅を請求することができる。
+
+一　前条各号に掲げる事由があるとき。
+
+二　持分会社の業務を執行し、又は持分会社を代表することに著しく不適任なとき。

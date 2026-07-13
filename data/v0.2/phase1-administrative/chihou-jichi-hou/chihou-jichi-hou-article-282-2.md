@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-282-2-p1
+    type: simple
+    text: 都及び特別区の事務の処理について、都と特別区及び特別区相互の間の連絡調整を図るため、都及び特別区をもつて都区協議会を設ける。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-282-2-p2
+    type: simple
+    text: 前条第一項又は第二項の規定により条例を制定する場合においては、都知事は、あらかじめ都区協議会の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-282-2-p3
+    type: simple
+    text: 前二項に定めるもののほか、都区協議会に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

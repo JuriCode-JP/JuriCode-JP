@@ -37,5 +37,4 @@ parent_section:
 
 ### 第八十七条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-87-p1 -->
 第六十九条第八項の規定に違反して秘密を漏らした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。

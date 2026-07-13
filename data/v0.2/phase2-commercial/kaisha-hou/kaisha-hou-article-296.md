@@ -63,15 +63,12 @@ parent_section:
 
 ### 第二百九十六条第一項
 
-<!-- segment: simple id: kaisha-hou-art-296-p1 -->
 定時株主総会は、毎事業年度の終了後一定の時期に招集しなければならない。
 
 ### 第二百九十六条第二項
 
-<!-- segment: simple id: kaisha-hou-art-296-p2 -->
 株主総会は、必要がある場合には、いつでも、招集することができる。
 
 ### 第二百九十六条第三項
 
-<!-- segment: simple id: kaisha-hou-art-296-p3 -->
 株主総会は、次条第四項の規定により招集する場合を除き、取締役が招集する。

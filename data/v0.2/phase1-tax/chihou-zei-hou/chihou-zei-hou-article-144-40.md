@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-40-p1
+    type: simple
+    text: 道府県は、軽油引取税の取締り又は保全に関し、他の道府県と緊密な連絡を保ち、相互に協力しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

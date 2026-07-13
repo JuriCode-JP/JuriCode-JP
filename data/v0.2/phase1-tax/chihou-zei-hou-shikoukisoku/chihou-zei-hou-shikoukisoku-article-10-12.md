@@ -34,5 +34,4 @@ tags:
 
 ### 第十条の十二
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-10-12-p1 -->
 削除

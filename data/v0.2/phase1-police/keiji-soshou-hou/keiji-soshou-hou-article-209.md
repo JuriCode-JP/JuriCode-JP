@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-209-p1 -->
 第七十四条、第七十五条及び第七十八条の規定は、逮捕状による逮捕についてこれを準用する。

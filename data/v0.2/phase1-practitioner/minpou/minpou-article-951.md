@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九百五十一条
 
-<!-- segment: simple id: minpou-art-951-p1 -->
 相続人のあることが明らかでないときは、相続財産は、法人とする。

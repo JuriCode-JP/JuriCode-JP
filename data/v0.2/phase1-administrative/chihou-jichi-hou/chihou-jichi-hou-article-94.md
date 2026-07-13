@@ -44,5 +44,4 @@ parent_section:
 
 ### 第九十四条
 
-<!-- segment: tokusoku id: chihou-jichi-hou-art-94-p1 override_flag: true override_target: 第八十九条 -->
 町村は、条例で、第八十九条第一項の規定にかかわらず、議会を置かず、選挙権を有する者の総会を設けることができる。

@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-27-p1-zen
+    type: zen_dan
+    text: 地方団体は、法定外目的税を証紙徴収によつて徴収しようとする場合においては、納税者に当該地方団体が発行する証紙をもつてその税金を払い込ませなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-733-27-p1-kou
+    type: kou_dan
+    text: この場合においては、地方団体は、当該法定外目的税を納付する義務が発生することを証する書類その他の物件に証紙をはらせ、又は証紙の額面金額に相当する現金の納付を受けた後納税済印を押すことによつて、証紙に代えることができる。
+    modality: kanou_kenri
+    depends_on: chihou-zei-hou-art-733-27-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-27-p2
+    type: simple
+    text: 地方団体又は特別徴収義務者は、納税者が証紙をはつた場合においては、証紙をはつた紙面その他の物件と証紙の彩紋とにかけて当該地方団体の印又は特別徴収義務者の印若しくは署名で判明にこれを消さなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-27-p3
+    type: simple
+    text: 第一項の証紙の取扱いに関しては、当該地方団体の条例で定めなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

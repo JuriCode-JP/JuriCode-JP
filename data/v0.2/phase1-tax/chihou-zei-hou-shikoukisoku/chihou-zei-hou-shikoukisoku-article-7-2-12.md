@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-2-12-p1
+    type: simple
+    text: 削除
+    modality: unspecified
 cases: []
 amendments: []
 tags:

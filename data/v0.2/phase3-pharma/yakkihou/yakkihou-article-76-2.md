@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-2-p1
+    type: simple
+    text: 第七十五条の二の二第一項第五号（選任製造販売業者に係る部分に限る。）に該当することを理由として同項の規定による処分をしようとする場合における行政手続法第三章第二節の規定の適用については、当該処分の名宛人の選任製造販売業者は、同法第十五条第一項の通知を受けた者とみなす。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-67-2-p1
+    type: simple
+    text: この法律に定めるもののほか、相続時精算課税に係る納税に係る権利又は義務の承継その他相続税及び贈与税の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-25-2-p1
+    type: simple
+    text: 道府県は、所得税法第二条第一項第五号に規定する非居住者が支払を受ける利子等については、利子割を課することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

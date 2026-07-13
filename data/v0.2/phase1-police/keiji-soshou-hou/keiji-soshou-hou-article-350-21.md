@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-21-p1
+    type: simple
+    text: 裁判長は、即決裁判手続の申立てがあつたときは、検察官及び被告人又は弁護人の意見を聴いた上で、その申立て後（前条第一項に規定する場合においては、同項の同意があつた後）、できる限り早い時期の公判期日を定めなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
 cases: []
 amendments: []
 tags:

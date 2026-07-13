@@ -14,79 +14,220 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p1-hashira
+    type: hashira
+    text: 総務大臣は、市町村長その他の市町村の執行機関が、その担任する事務に関する都道府県の関与のうち是正の要求、許可の拒否その他の処分その他公権力の行使に当たるもの（次に掲げるものを除く。）に不服があり、文書により、自治紛争処理委員の審査に付することを求める旨の申出をしたときは、速やかに、第二百五十一条第二項の規定により自治紛争処理委員を任命し、当該申出に係る事件をその審査に付さなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-251-3-p1-kou-1
+    type: kou
+    text: 第二百四十五条の八第十二項において準用する同条第二項の規定による指示
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-251-3-p1-kou-2
+    type: kou
+    text: 第二百四十五条の八第十二項において準用する同条第八項の規定に基づき市町村長に代わつて前号の指示に係る事項を行うこと。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p2
+    type: simple
+    text: 総務大臣は、市町村長その他の市町村の執行機関が、その担任する事務に関する都道府県の不作為（都道府県の行政庁が、申請等が行われた場合において、相当の期間内に何らかの都道府県の関与のうち許可その他の処分その他公権力の行使に当たるものをすべきにかかわらず、これをしないことをいう。以下本節において同じ。）に不服があり、文書により、自治紛争処理委員の審査に付することを求める旨の申出をしたときは、速やかに、第二百五十一条第二項の規定により自治紛争処理委員を任命し、当該申出に係る事件をその審査に付さなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p3
+    type: simple
+    text: 総務大臣は、市町村長その他の市町村の執行機関が、その担任する事務に関する当該市町村の法令に基づく協議の申出が都道府県の行政庁に対して行われた場合において、当該協議に係る当該市町村の義務を果たしたと認めるにもかかわらず当該協議が調わないことについて、文書により、自治紛争処理委員の審査に付することを求める旨の申出をしたときは、速やかに、第二百五十一条第二項の規定により自治紛争処理委員を任命し、当該申出に係る事件をその審査に付さなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p4-hashira
+    type: hashira
+    text: 前三項の規定による申出においては、次に掲げる者を相手方としなければならない。
+    modality: gimu
+    references:
+    - 前三項
+  - id: chihou-jichi-hou-art-251-3-p4-kou-1
+    type: kou
+    text: 第一項の規定による申出の場合は、当該申出に係る都道府県の関与を行つた都道府県の行政庁
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-251-3-p4-kou-2
+    type: kou
+    text: 第二項の規定による申出の場合は、当該申出に係る都道府県の不作為に係る都道府県の行政庁
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-251-3-p4-kou-3
+    type: kou
+    text: 前項の規定による申出の場合は、当該申出に係る協議の相手方である都道府県の行政庁
+    modality: unspecified
+    item_number: 3
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p5
+    type: junyou
+    text: 第二百五十条の十三第四項から第七項まで、第二百五十条の十四第一項、第二項及び第五項並びに第二百五十条の十五から第二百五十条の十七までの規定は、第一項の規定による申出について準用する。この場合において、これらの規定中「普通地方公共団体の長その他の執行機関」とあるのは「市町村長その他の市町村の執行機関」と、「国の行政庁」とあるのは「都道府県の行政庁」と、「委員会」とあるのは「自治紛争処理委員」と、第二百五十条の十三第四項並びに第二百五十条の十四第一項及び第二項中「国の関与」とあるのは「都道府県の関与」と、第二百五十条の十七第一項中「第二百五十条の十九第二項」とあるのは「第二百五十一条の三第十三項」と読み替えるものとする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p6
+    type: junyou
+    text: 第二百五十条の十三第七項、第二百五十条の十四第三項及び第五項並びに第二百五十条の十五から第二百五十条の十七までの規定は、第二項の規定による申出について準用する。この場合において、これらの規定中「普通地方公共団体の長その他の執行機関」とあるのは「市町村長その他の市町村の執行機関」と、「国の行政庁」とあるのは「都道府県の行政庁」と、「委員会」とあるのは「自治紛争処理委員」と、第二百五十条の十七第一項中「第二百五十条の十九第二項」とあるのは「第二百五十一条の三第十三項」と読み替えるものとする。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p7
+    type: junyou
+    text: 第二百五十条の十三第七項、第二百五十条の十四第四項及び第五項並びに第二百五十条の十五から第二百五十条の十七までの規定は、第三項の規定による申出について準用する。この場合において、これらの規定中「普通地方公共団体の長その他の執行機関」とあるのは「市町村長その他の市町村の執行機関」と、「国の行政庁」とあるのは「都道府県の行政庁」と、「委員会」とあるのは「自治紛争処理委員」と、第二百五十条の十四第四項中「当該協議に係る普通地方公共団体」とあるのは「当該協議に係る市町村」と、第二百五十条の十七第一項中「第二百五十条の十九第二項」とあるのは「第二百五十一条の三第十三項」と読み替えるものとする。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p8
+    type: simple
+    text: 自治紛争処理委員は、第五項において準用する第二百五十条の十四第一項若しくは第二項若しくは第六項において準用する第二百五十条の十四第三項の規定による審査の結果の通知若しくは勧告及び勧告の内容の通知又は前項において準用する第二百五十条の十四第四項の規定による審査の結果の通知をしたときは、直ちにその旨及び審査の結果又は勧告の内容を総務大臣に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p9-zen
+    type: zen_dan
+    text: 第五項において準用する第二百五十条の十四第一項若しくは第二項又は第六項において準用する第二百五十条の十四第三項の規定による自治紛争処理委員の勧告があつたときは、当該勧告を受けた都道府県の行政庁は、当該勧告に示された期間内に、当該勧告に即して必要な措置を講ずるとともに、その旨を総務大臣に通知しなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-251-3-p9-kou
+    type: kou_dan
+    text: この場合においては、総務大臣は、当該通知に係る事項を当該勧告に係る第一項又は第二項の規定による申出をした市町村長その他の市町村の執行機関に通知し、かつ、これを公表しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-251-3-p9-zen
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p10
+    type: simple
+    text: 総務大臣は、前項の勧告を受けた都道府県の行政庁に対し、同項の規定により講じた措置についての説明を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p11
+    type: simple
+    text: 自治紛争処理委員は、第五項において準用する第二百五十条の十四第一項若しくは第二項、第六項において準用する第二百五十条の十四第三項又は第七項において準用する第二百五十条の十四第四項の規定により審査をする場合において、相当であると認めるときは、職権により、調停案を作成して、これを第一項から第三項までの規定による申出をした市町村長その他の市町村の執行機関及び相手方である都道府県の行政庁に示し、その受諾を勧告するとともに、理由を付してその要旨を公表することができる。
+    modality: kanou_kenri
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p12
+    type: simple
+    text: 自治紛争処理委員は、前項の規定により調停案を第一項から第三項までの規定による申出をした市町村長その他の市町村の執行機関及び相手方である都道府県の行政庁に示し、その受諾を勧告したときは、直ちに調停案の写しを添えてその旨及び調停の経過を総務大臣に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p13-zen
+    type: zen_dan
+    text: 第十一項の調停案に係る調停は、調停案を示された市町村長その他の市町村の執行機関及び都道府県の行政庁から、これを受諾した旨を記載した文書が総務大臣に提出されたときに成立するものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-251-3-p13-kou
+    type: kou_dan
+    text: この場合においては、総務大臣は、直ちにその旨及び調停の要旨を公表するとともに、当該市町村長その他の市町村の執行機関及び都道府県の行政庁にその旨を通知しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-251-3-p13-zen
 - number: 14
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p14
+    type: simple
+    text: 総務大臣は、前項の規定により市町村長その他の市町村の執行機関及び都道府県の行政庁から文書の提出があつたときは、その旨を自治紛争処理委員に通知するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 15
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-3-p15-hashira
+    type: hashira
+    text: 次に掲げる事項は、自治紛争処理委員の合議によるものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-251-3-p15-kou-1
+    type: kou
+    text: 第五項において準用する第二百五十条の十四第一項の規定による都道府県の関与が違法又は普通地方公共団体の自主性及び自立性を尊重する観点から不当であるかどうかについての決定及び同項の規定による勧告の決定
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-251-3-p15-kou-2
+    type: kou
+    text: 第五項において準用する第二百五十条の十四第二項の規定による都道府県の関与が違法であるかどうかについての決定及び同項の規定による勧告の決定
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-251-3-p15-kou-3
+    type: kou
+    text: 第六項において準用する第二百五十条の十四第三項の規定による第二項の申出に理由があるかどうかについての決定及び第六項において準用する第二百五十条の十四第三項の規定による勧告の決定
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-251-3-p15-kou-4
+    type: kou
+    text: 第七項において準用する第二百五十条の十四第四項の規定による第三項の申出に係る協議について当該協議に係る市町村がその義務を果たしているかどうかについての決定
+    modality: unspecified
+    item_number: 4
+  - id: chihou-jichi-hou-art-251-3-p15-kou-5
+    type: kou
+    text: 第五項から第七項までにおいて準用する第二百五十条の十五第一項の規定による関係行政機関の参加についての決定
+    modality: unspecified
+    item_number: 5
+  - id: chihou-jichi-hou-art-251-3-p15-kou-6
+    type: kou
+    text: 第五項から第七項までにおいて準用する第二百五十条の十六第一項の規定による証拠調べの実施についての決定
+    modality: unspecified
+    item_number: 6
+  - id: chihou-jichi-hou-art-251-3-p15-kou-7
+    type: kou
+    text: 第十一項の規定による調停案の作成及びその要旨の公表についての決定
+    modality: unspecified
+    item_number: 7
 cases: []
 amendments: []
 tags:
@@ -111,6 +252,10 @@ parent_section:
 
 総務大臣は、市町村長その他の市町村の執行機関が、その担任する事務に関する都道府県の関与のうち是正の要求、許可の拒否その他の処分その他公権力の行使に当たるもの（次に掲げるものを除く。）に不服があり、文書により、自治紛争処理委員の審査に付することを求める旨の申出をしたときは、速やかに、第二百五十一条第二項の規定により自治紛争処理委員を任命し、当該申出に係る事件をその審査に付さなければならない。
 
+一　第二百四十五条の八第十二項において準用する同条第二項の規定による指示
+
+二　第二百四十五条の八第十二項において準用する同条第八項の規定に基づき市町村長に代わつて前号の指示に係る事項を行うこと。
+
 ### 第二百五十一条の三第二項
 
 総務大臣は、市町村長その他の市町村の執行機関が、その担任する事務に関する都道府県の不作為（都道府県の行政庁が、申請等が行われた場合において、相当の期間内に何らかの都道府県の関与のうち許可その他の処分その他公権力の行使に当たるものをすべきにかかわらず、これをしないことをいう。以下本節において同じ。）に不服があり、文書により、自治紛争処理委員の審査に付することを求める旨の申出をしたときは、速やかに、第二百五十一条第二項の規定により自治紛争処理委員を任命し、当該申出に係る事件をその審査に付さなければならない。
@@ -122,6 +267,12 @@ parent_section:
 ### 第二百五十一条の三第四項
 
 前三項の規定による申出においては、次に掲げる者を相手方としなければならない。
+
+一　第一項の規定による申出の場合は、当該申出に係る都道府県の関与を行つた都道府県の行政庁
+
+二　第二項の規定による申出の場合は、当該申出に係る都道府県の不作為に係る都道府県の行政庁
+
+三　前項の規定による申出の場合は、当該申出に係る協議の相手方である都道府県の行政庁
 
 ### 第二百五十一条の三第五項
 
@@ -166,3 +317,17 @@ parent_section:
 ### 第二百五十一条の三第十五項
 
 次に掲げる事項は、自治紛争処理委員の合議によるものとする。
+
+一　第五項において準用する第二百五十条の十四第一項の規定による都道府県の関与が違法又は普通地方公共団体の自主性及び自立性を尊重する観点から不当であるかどうかについての決定及び同項の規定による勧告の決定
+
+二　第五項において準用する第二百五十条の十四第二項の規定による都道府県の関与が違法であるかどうかについての決定及び同項の規定による勧告の決定
+
+三　第六項において準用する第二百五十条の十四第三項の規定による第二項の申出に理由があるかどうかについての決定及び第六項において準用する第二百五十条の十四第三項の規定による勧告の決定
+
+四　第七項において準用する第二百五十条の十四第四項の規定による第三項の申出に係る協議について当該協議に係る市町村がその義務を果たしているかどうかについての決定
+
+五　第五項から第七項までにおいて準用する第二百五十条の十五第一項の規定による関係行政機関の参加についての決定
+
+六　第五項から第七項までにおいて準用する第二百五十条の十六第一項の規定による証拠調べの実施についての決定
+
+七　第十一項の規定による調停案の作成及びその要旨の公表についての決定

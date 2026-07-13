@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十八条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-18-p1 -->
 薬局を廃止し、休止し、又は休止した薬局を再開した場合における法第十条第一項の規定による届出は、様式第八による届書を提出することによつて行うものとする。

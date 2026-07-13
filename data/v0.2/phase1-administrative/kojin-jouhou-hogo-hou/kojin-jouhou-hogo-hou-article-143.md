@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十三条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-143-p1 -->
 委員長、委員、専門委員及び事務局の職員は、職務上知ることのできた秘密を漏らし、又は盗用してはならない。その職務を退いた後も、同様とする。

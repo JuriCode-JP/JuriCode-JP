@@ -45,5 +45,4 @@ parent_section:
 
 ### 第五百七十八条
 
-<!-- segment: simple id: minpou-art-578-p1 -->
 前二条の場合においては、売主は、買主に対して代金の供託を請求することができる。

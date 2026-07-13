@@ -27,7 +27,7 @@ paragraphs:
     references:
     - 前条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -57,10 +57,8 @@ parent_section:
 
 ### 第三百二十六条第一項
 
-<!-- segment: tokusoku id: keiji-soshou-hou-art-326-p1 override_flag: true override_target: 前条 -->
 検察官及び被告人が証拠とすることに同意した書面又は供述は、その書面が作成され又は供述のされたときの情況を考慮し相当と認めるときに限り、第三百二十一条乃至前条の規定にかかわらず、これを証拠とすることができる。
 
 ### 第三百二十六条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-326-p2 -->
 被告人が出頭しないでも証拠調を行うことができる場合において、被告人が出頭しないときは、前項の同意があつたものとみなす。但し、代理人又は弁護人が出頭したときは、この限りでない。

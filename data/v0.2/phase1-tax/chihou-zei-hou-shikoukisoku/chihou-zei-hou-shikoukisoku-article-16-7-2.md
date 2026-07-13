@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-7-2-p1-hashira
+    type: hashira
+    text: 政令第五十四条の十五の二に規定する総務省令で定める要件は、次に掲げる要件とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-16-7-2-p1-kou-1
+    type: kou
+    text: 廃棄物が飛散し、流出し、及び地下に浸透し、並びに悪臭が発散するおそれのない構造のものであること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-16-7-2-p1-kou-2
+    type: kou
+    text: 屋根及び壁を有するものであること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -31,3 +45,7 @@ tags:
 ### 第十六条の七の二
 
 政令第五十四条の十五の二に規定する総務省令で定める要件は、次に掲げる要件とする。
+
+一　廃棄物が飛散し、流出し、及び地下に浸透し、並びに悪臭が発散するおそれのない構造のものであること。
+
+二　屋根及び壁を有するものであること。

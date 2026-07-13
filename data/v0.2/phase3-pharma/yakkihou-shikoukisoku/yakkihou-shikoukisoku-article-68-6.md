@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-6-p1
+    type: simple
+    text: 法第十四条の七の二第三項の製造管理又は品質管理の方法に影響を与えるおそれがある変更として厚生労働省令で定めるものは、第四十七条及び第五十三条に規定する変更以外のものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

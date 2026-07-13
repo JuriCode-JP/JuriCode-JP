@@ -66,20 +66,16 @@ parent_section:
 
 ### 第五百三十六条第一項
 
-<!-- segment: simple id: shouhou-art-536-p1 -->
 匿名組合員の出資は、営業者の財産に属する。
 
 ### 第五百三十六条第二項
 
-<!-- segment: simple id: shouhou-art-536-p2 -->
 匿名組合員は、金銭その他の財産のみをその出資の目的とすることができる。
 
 ### 第五百三十六条第三項
 
-<!-- segment: simple id: shouhou-art-536-p3 -->
 匿名組合員は、営業者の業務を執行し、又は営業者を代表することができない。
 
 ### 第五百三十六条第四項
 
-<!-- segment: simple id: shouhou-art-536-p4 -->
 匿名組合員は、営業者の行為について、第三者に対して権利及び義務を有しない。

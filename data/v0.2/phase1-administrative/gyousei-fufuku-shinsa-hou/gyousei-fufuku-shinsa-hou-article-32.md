@@ -59,15 +59,12 @@ parent_section:
 
 ### 第三十二条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-32-p1 -->
 審査請求人又は参加人は、証拠書類又は証拠物を提出することができる。
 
 ### 第三十二条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-32-p2 -->
 処分庁等は、当該処分の理由となる事実を証する書類その他の物件を提出することができる。
 
 ### 第三十二条第三項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-32-p3 -->
 前二項の場合において、審理員が、証拠書類若しくは証拠物又は書類その他の物件を提出すべき相当の期間を定めたときは、その期間内にこれを提出しなければならない。

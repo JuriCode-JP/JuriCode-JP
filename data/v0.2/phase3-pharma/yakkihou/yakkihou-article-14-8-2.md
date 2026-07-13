@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-8-2-p1
+    type: simple
+    text: 薬局医薬品（第四条第五項第二号に規定する薬局医薬品をいう。以下同じ。）の製造販売業者は、厚生労働省令で定めるところにより、小児用の薬局医薬品の開発を促進するために必要な小児の疾病の診断、治療又は予防に使用する医薬品の品質、有効性及び安全性に関する資料の収集に関する計画を作成するとともに、当該計画に基づき、遅滞なく、必要な資料の収集を行うよう努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

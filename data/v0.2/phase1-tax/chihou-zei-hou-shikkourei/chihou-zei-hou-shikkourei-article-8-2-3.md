@@ -16,7 +16,15 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-8-2-3-p1
+    type: junyou
+    text: 前条の規定は、法第四十五条の三の三第四項に規定する政令で定める要件について準用する。この場合において、前条第一号及び第二号中「第四十五条の三の二第五項」とあるのは「第四十五条の三の三第四項」と、「給与所得者」とあるのは「公的年金等受給者」と、同条第三号中「第四十五条の三の二第五項」とあるのは「第四十五条の三の三第四項」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

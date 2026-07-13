@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-2-3-p1
+    type: simple
+    text: 高速自動車国道及び自動車専用道路における自動車の交通方法等については、前各章に定めるもののほか、この章の定めるところによる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

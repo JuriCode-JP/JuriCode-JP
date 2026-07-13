@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-198-2-p1
+    type: simple
+    text: 普通地方公共団体の長又は副知事若しくは副市町村長と親子、夫婦又は兄弟姉妹の関係にある者は、監査委員となることができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-198-2-p2
+    type: simple
+    text: 監査委員は、前項に規定する関係が生じたときは、その職を失う。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

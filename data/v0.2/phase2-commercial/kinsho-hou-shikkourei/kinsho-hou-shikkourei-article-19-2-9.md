@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-2-9-p1
+    type: simple
+    text: 法第百二条の十一に規定する自主規制法人に関する登記について、同条において商業登記法の規定を準用する場合における同条の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

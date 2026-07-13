@@ -48,10 +48,8 @@ parent_section:
 
 ### 第七百六十七条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-767-p1 -->
 機構は、その名称中に地方税共同機構という文字を用いなければならない。
 
 ### 第七百六十七条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-767-p2 -->
 機構でない者は、その名称中に地方税共同機構という文字を用いてはならない。

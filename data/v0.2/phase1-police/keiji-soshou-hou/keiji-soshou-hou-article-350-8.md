@@ -16,7 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-8-p1-zen
+    type: zen_dan
+    text: 被告人以外の者の供述録取書等であつて、その者が第三百五十条の二第一項の合意に基づいて作成したもの又は同項の合意に基づいてされた供述を録取し若しくは記録したものについて、検察官、被告人若しくは弁護人が取調べを請求し、又は裁判所が職権でこれを取り調べることとしたときは、検察官は、遅滞なく、合意内容書面の取調べを請求しなければならない。
+    modality: gimu
+    references:
+    - 同項
+  - id: keiji-soshou-hou-art-350-8-p1-kou
+    type: kou_dan
+    text: この場合においては、前条第二項及び第三項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+    depends_on: keiji-soshou-hou-art-350-8-p1-zen
 cases: []
 amendments: []
 tags:

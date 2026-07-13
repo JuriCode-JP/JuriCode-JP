@@ -14,19 +14,50 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-15-p1-hashira
+    type: hashira
+    text: 前条の認可を受けようとする自主規制法人は、次に掲げる事項を記載した認可申請書を内閣総理大臣に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: kinsho-hou-art-102-15-p1-kou-1
+    type: kou
+    text: 名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-102-15-p1-kou-2
+    type: kou
+    text: 事務所の所在の場所
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-102-15-p1-kou-3
+    type: kou
+    text: 役員の氏名及び会員の商号又は名称
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-15-p2
+    type: simple
+    text: 前項の認可申請書には、定款、業務規程その他内閣府令で定める書類を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-15-p3
+    type: junyou
+    text: 第八十一条第三項の規定は、第一項の認可申請書について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -50,6 +81,12 @@ parent_section:
 ### 第百二条の十五第一項
 
 前条の認可を受けようとする自主規制法人は、次に掲げる事項を記載した認可申請書を内閣総理大臣に提出しなければならない。
+
+一　名称
+
+二　事務所の所在の場所
+
+三　役員の氏名及び会員の商号又は名称
 
 ### 第百二条の十五第二項
 

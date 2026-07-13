@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-3-p1
+    type: simple
+    text: 普通地方公共団体の執行機関の組織は、普通地方公共団体の長の所轄の下に、それぞれ明確な範囲の所掌事務と権限を有する執行機関によつて、系統的にこれを構成しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-3-p2
+    type: simple
+    text: 普通地方公共団体の執行機関は、普通地方公共団体の長の所轄の下に、執行機関相互の連絡を図り、すべて、一体として、行政機能を発揮するようにしなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-3-p3
+    type: simple
+    text: 普通地方公共団体の長は、当該普通地方公共団体の執行機関相互の間にその権限につき疑義が生じたときは、これを調整するように努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

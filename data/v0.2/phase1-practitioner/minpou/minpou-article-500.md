@@ -49,5 +49,4 @@ parent_section:
 
 ### 第五百条
 
-<!-- segment: junyou id: minpou-art-500-p1 applies_provisions: 第四百六十七条 -->
 第四百六十七条の規定は、前条の場合（弁済をするについて正当な利益を有する者が債権者に代位する場合を除く。）について準用する。

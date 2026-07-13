@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-39-2-2-p1
+    type: simple
+    text: 法第七十三条の十四第十項に規定する政令で定める土地の取得は、農業振興地域の整備に関する法律（昭和四十四年法律第五十八号）第十三条の四第一項の規定により交換分合計画において当該交換分合計画に係る土地の所有者以外の者が取得すべき土地として定められた土地の取得とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

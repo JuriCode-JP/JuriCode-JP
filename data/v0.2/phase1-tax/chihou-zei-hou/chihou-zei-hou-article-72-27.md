@@ -16,7 +16,17 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-27-p1
+    type: tokusoku
+    text: 第二十条の五の二第一項の規定に基づく条例の定めるところにより、又は同条第二項の規定により、申告及び納付に関する期限が延長されたことにより、前条第一項の規定による申告納付（以下この条において「中間申告納付」という。）に係る期限と当該中間申告納付に係る事業年度の次条第一項の規定による申告納付に係る期限とが同一の日となる場合には、前条第一項の規定にかかわらず、当該中間申告納付をすることを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
+    - 次条
 cases: []
 amendments: []
 tags:

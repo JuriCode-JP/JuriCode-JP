@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-7-p1
+    type: simple
+    text: 外国法人が第百四十二条第三項第二号（恒久的施設帰属所得に係る所得の金額の計算）の規定の適用を受ける場合において、同号に規定する政令で定めるところにより配分した金額（以下この条において「本店配賦経費」という。）につき、その配分に関する計算の基礎となる書類その他の財務省令で定める書類の保存がないときは、その書類の保存がなかつた本店配賦経費については、その外国法人の各事業年度の恒久的施設帰属所得に係る所得の金額の計算上、損金の額に算入しない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-7-p2
+    type: simple
+    text: 税務署長は、本店配賦経費の全部又は一部につき前項の書類の保存がない場合においても、その保存がなかつたことについてやむを得ない事情があると認めるときは、当該書類の提出があつた場合に限り、その書類の保存がなかつた本店配賦経費につき同項の規定を適用しないことができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

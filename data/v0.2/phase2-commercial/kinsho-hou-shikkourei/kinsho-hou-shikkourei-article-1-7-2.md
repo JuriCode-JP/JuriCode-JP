@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-7-2-p1
+    type: simple
+    text: 法第二条第三項第三号に規定する政令で定める場合は、その取得勧誘に係る有価証券を五百名以上の者が所有することとなる取得勧誘を行う場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

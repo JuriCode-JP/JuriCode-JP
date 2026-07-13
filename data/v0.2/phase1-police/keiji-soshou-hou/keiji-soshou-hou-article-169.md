@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百六十九条
 
-<!-- segment: simple id: keiji-soshou-hou-art-169-p1 -->
 裁判所は、合議体の構成員に鑑定について必要な処分をさせることができる。但し、第百六十七条第一項に規定する処分については、この限りでない。

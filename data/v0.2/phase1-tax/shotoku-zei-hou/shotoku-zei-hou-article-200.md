@@ -44,5 +44,4 @@ parent_section:
 
 ### 第二百条
 
-<!-- segment: tokusoku id: shotoku-zei-hou-art-200-p1 override_flag: true override_target: 前条 -->
 常時二人以下の家事使用人のみに対し第二十八条第一項（給与所得）に規定する給与等の支払をする者は、前条の規定にかかわらず、その支払う退職手当等について所得税を徴収して納付することを要しない。

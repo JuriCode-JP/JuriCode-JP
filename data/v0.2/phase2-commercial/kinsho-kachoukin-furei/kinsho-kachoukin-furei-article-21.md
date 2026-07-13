@@ -57,15 +57,12 @@ parent_section:
 
 ### 第二十一条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-21-p1 -->
 審判手続は、審判長が指揮する。
 
 ### 第二十一条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-21-p2 -->
 審判長は、発言を許し、又はその命令に従わない者の発言を禁ずることができる。
 
 ### 第二十一条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-21-p3 -->
 審判長は、審判手続の期日における秩序を維持するために必要な事項を命じ、又は処置をとることができる。

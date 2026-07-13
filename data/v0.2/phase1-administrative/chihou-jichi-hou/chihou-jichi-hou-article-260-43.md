@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-43-p1
+    type: simple
+    text: 合併後存続する認可地縁団体又は合併により設立した認可地縁団体は、合併により消滅した認可地縁団体の一切の権利義務（当該認可地縁団体がその行う活動に関し行政庁の認可その他の処分に基づいて有する権利義務を含む。）を承継する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

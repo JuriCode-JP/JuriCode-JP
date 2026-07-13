@@ -16,12 +16,30 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-10-p1-zen
+    type: zen_dan
+    text: 第百五十六条の五の五第一項の認可を受けた者が当該認可を受けた日から六月以内に保有基準割合以上の数の対象議決権の保有者とならなかつたとき、又は保有基準割合以上の数の対象議決権の保有者である会社その他の法人の設立をしなかつたときは、当該認可は、その効力を失う。
+    modality: unspecified
+  - id: kinsho-hou-art-156-5-10-p1-kou
+    type: kou_dan
+    text: この場合において、当該認可を受けた者は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-156-5-10-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-5-10-p2-zen
+    type: zen_dan
+    text: 金融商品取引清算機関の主要株主が保有基準割合未満の数の対象議決権の保有者となつたときは、第百五十六条の五の五第一項又は第四項ただし書の認可は、その効力を失う。
+    modality: unspecified
+  - id: kinsho-hou-art-156-5-10-p2-kou
+    type: kou_dan
+    text: この場合において、主要株主であつた者は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-156-5-10-p2-zen
 cases: []
 amendments: []
 tags:

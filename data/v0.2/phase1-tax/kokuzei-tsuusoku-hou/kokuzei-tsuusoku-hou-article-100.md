@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-100-p1 -->
 削除

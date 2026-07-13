@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-89-12-p1
+    type: simple
+    text: 法第七百二十一条第四項に規定する政令で定めるところにより計算した金額は、同項に規定する当該特別徴収義務者の責めに帰すべき事由がないと認められる事実のみに基づいて同条第二項各号に規定する納入申告、決定又は更正があつたものとした場合におけるその納入申告、決定又は更正により納入すべき税額とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

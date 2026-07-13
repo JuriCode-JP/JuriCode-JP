@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-2-p1
+    type: simple
+    text: 地方団体の長は、徴収の猶予をし、又は徴収の猶予期間の延長をしたときは、その旨、猶予をする金額、猶予をする期間その他必要な事項を当該徴収の猶予又は当該徴収の猶予期間の延長を受けた者に通知しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-2-2-p2
+    type: simple
+    text: 地方団体の長は、前条第一項から第三項までの規定による申請書の提出があつた場合において、徴収の猶予又は徴収の猶予期間の延長を認めないときは、その旨を当該申請書を提出した者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

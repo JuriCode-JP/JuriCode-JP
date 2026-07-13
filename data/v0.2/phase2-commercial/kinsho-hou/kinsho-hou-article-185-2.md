@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-2-p1
+    type: simple
+    text: 審判官は、被審人の申立てにより又は職権で、被審人を審問することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-225-2-p1
+    type: simple
+    text: 近親者その他略取され又は誘拐された者の安否を憂慮する者の憂慮に乗じてその財物を交付させる目的で、人を略取し、又は誘拐した者は、無期又は三年以上の拘禁刑に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-225-2-p2
+    type: simple
+    text: 人を略取し又は誘拐した者が近親者その他略取され又は誘拐された者の安否を憂慮する者の憂慮に乗じて、その財物を交付させ、又はこれを要求する行為をしたときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

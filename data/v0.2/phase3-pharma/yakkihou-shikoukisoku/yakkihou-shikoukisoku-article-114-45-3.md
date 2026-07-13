@@ -14,14 +14,112 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-hashira
+    type: hashira
+    text: 医療機器に係る法第二十三条の二の十の二第一項第一号の厚生労働省令で定める事項の変更は、次の各号に掲げる事項の変更とする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-1
+    type: kou
+    text: 使用目的又は効果
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-2
+    type: kou
+    text: 形状、構造及び原理
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-3
+    type: kou
+    text: 原材料
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-4
+    type: kou
+    text: 性能及び安全性に関する規格
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-5
+    type: kou
+    text: 使用方法
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-6
+    type: kou
+    text: 保管方法
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-7
+    type: kou
+    text: 有効期間
+    modality: unspecified
+    item_number: 7
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-8
+    type: kou
+    text: 製造方法
+    modality: unspecified
+    item_number: 8
+  - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-9
+    type: kou
+    text: 製造販売する品目の製造所
+    modality: unspecified
+    item_number: 9
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-hashira
+    type: hashira
+    text: 体外診断用医薬品に係る法第二十三条の二の十の二第一項第一号の厚生労働省令で定める事項の変更は、次の各号に掲げる事項の変更とする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-1
+    type: kou
+    text: 使用目的
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-2
+    type: kou
+    text: 形状、構造及び原理
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-3
+    type: kou
+    text: 反応系に関与する成分
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-4
+    type: kou
+    text: 品目仕様
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-5
+    type: kou
+    text: 使用方法
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-6
+    type: kou
+    text: 保管方法
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-7
+    type: kou
+    text: 有効期間
+    modality: unspecified
+    item_number: 7
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-8
+    type: kou
+    text: 製造方法
+    modality: unspecified
+    item_number: 8
+  - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-9
+    type: kou
+    text: 製造販売する品目の製造所
+    modality: unspecified
+    item_number: 9
 cases: []
 amendments: []
 tags:
@@ -42,6 +140,42 @@ parent_section:
 
 医療機器に係る法第二十三条の二の十の二第一項第一号の厚生労働省令で定める事項の変更は、次の各号に掲げる事項の変更とする。
 
+一　使用目的又は効果
+
+二　形状、構造及び原理
+
+三　原材料
+
+四　性能及び安全性に関する規格
+
+五　使用方法
+
+六　保管方法
+
+七　有効期間
+
+八　製造方法
+
+九　製造販売する品目の製造所
+
 ### 第百十四条の四十五の三第二項
 
 体外診断用医薬品に係る法第二十三条の二の十の二第一項第一号の厚生労働省令で定める事項の変更は、次の各号に掲げる事項の変更とする。
+
+一　使用目的
+
+二　形状、構造及び原理
+
+三　反応系に関与する成分
+
+四　品目仕様
+
+五　使用方法
+
+六　保管方法
+
+七　有効期間
+
+八　製造方法
+
+九　製造販売する品目の製造所

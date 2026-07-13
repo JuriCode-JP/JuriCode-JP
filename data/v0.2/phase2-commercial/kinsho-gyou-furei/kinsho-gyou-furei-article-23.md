@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第三十一条第六項の認可を受けようとする金融商品取引業者は、次に掲げる事項を記載した認可申請書を所管金融庁長官等に提出しなければならない。
     modality: gimu
+  - id: kinsho-gyou-furei-art-23-p1-kou-1
+    type: kou
+    text: 商号
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-23-p1-kou-2
+    type: kou
+    text: 登録年月日及び登録番号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-23-p1-kou-3
+    type: kou
+    text: 変更の内容及び理由
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +67,14 @@ parent_section:
 
 ### 第二十三条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-23-p1-hashira -->
 法第三十一条第六項の認可を受けようとする金融商品取引業者は、次に掲げる事項を記載した認可申請書を所管金融庁長官等に提出しなければならない。
+
+一　商号
+
+二　登録年月日及び登録番号
+
+三　変更の内容及び理由
 
 ### 第二十三条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-23-p2 -->
 前項の認可申請書には、第十七条各号に掲げるもの（内容に変更のあるものに限る。）を記載した書類及び第十八条各号に掲げる書類（内容に変更のあるものに限る。）を添付しなければならない。

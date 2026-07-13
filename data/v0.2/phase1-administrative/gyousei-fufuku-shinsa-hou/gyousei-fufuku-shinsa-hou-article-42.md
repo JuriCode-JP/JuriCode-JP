@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四十二条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-42-p1 -->
 審理員は、審理手続を終結したときは、遅滞なく、審査庁がすべき裁決に関する意見書（以下「審理員意見書」という。）を作成しなければならない。
 
 ### 第四十二条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-42-p2 -->
 審理員は、審理員意見書を作成したときは、速やかに、これを事件記録とともに、審査庁に提出しなければならない。

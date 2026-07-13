@@ -14,14 +14,34 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-5-p1-hashira
+    type: hashira
+    text: 次の各号のいずれかに該当する場合であつて、内閣総理大臣が承認するときは、第二十七条の三十の三第一項の規定は、適用しない。
+    modality: jogai
+  - id: kinsho-hou-art-27-30-5-p1-kou-1
+    type: kou
+    text: 第二十七条の三十の二の電子計算機の故障その他政令で定める事由があると認められるとき。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-27-30-5-p1-kou-2
+    type: kou
+    text: 開示用電子情報処理組織を使用して電子開示手続を行うことが著しく困難であると認められるとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-30-5-p2
+    type: simple
+    text: 前項の承認に係る手続については、内閣府令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -39,6 +59,10 @@ parent_section:
 ### 第二十七条の三十の五第一項
 
 次の各号のいずれかに該当する場合であつて、内閣総理大臣が承認するときは、第二十七条の三十の三第一項の規定は、適用しない。
+
+一　第二十七条の三十の二の電子計算機の故障その他政令で定める事由があると認められるとき。
+
+二　開示用電子情報処理組織を使用して電子開示手続を行うことが著しく困難であると認められるとき。
 
 ### 第二十七条の三十の五第二項
 

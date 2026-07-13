@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九十一条
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-91-p1 -->
 第八十二条から前条まで（支払調書）に規定する調書の書式は、別表第五（一）から別表第五（三十二）までによる。

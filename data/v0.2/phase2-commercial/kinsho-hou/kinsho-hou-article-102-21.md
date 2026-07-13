@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-21-p1
+    type: simple
+    text: 自主規制法人は、営利の目的をもつて業務を行つてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

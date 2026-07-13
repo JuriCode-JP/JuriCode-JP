@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百六十五条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-165-p1 -->
 委員会は、行政機関の長等に対し、この法律の施行の状況について報告を求めることができる。
 
 ### 第百六十五条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-165-p2 -->
 委員会は、毎年度、前項の報告を取りまとめ、その概要を公表するものとする。

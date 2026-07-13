@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-15-7-p1-hashira
+    type: hashira
+    text: 法第三百四十八条第二項第四十一号に規定する日本司法支援センターが総合法律支援法第三十条第一項第一号に規定する業務の用に供する固定資産で政令で定めるものは、当該業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-15-7-p1-kou-1
+    type: kou
+    text: 事務所の用に供する固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-15-7-p1-kou-2
+    type: kou
+    text: 宿舎の用に供する固定資産
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第五十一条の十五の七
 
 法第三百四十八条第二項第四十一号に規定する日本司法支援センターが総合法律支援法第三十条第一項第一号に規定する業務の用に供する固定資産で政令で定めるものは、当該業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する固定資産
+
+二　宿舎の用に供する固定資産

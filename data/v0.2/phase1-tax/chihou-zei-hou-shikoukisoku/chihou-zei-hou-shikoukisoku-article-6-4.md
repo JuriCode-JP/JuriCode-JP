@@ -34,6 +34,21 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: chihou-zei-hou-shikoukisoku-art-6-4-p2-kou-1
+    type: kou
+    text: 請求をする法人の名称、所在地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-6-4-p2-kou-2
+    type: kou
+    text: 修正した分割基準の明細
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-6-4-p2-kou-3
+    type: kou
+    text: 分割基準について誤りを生じた事情の詳細
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -58,15 +73,18 @@ tags:
 
 ### 第六条の四第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-6-4-p1 -->
 法第七十二条の四十八の二第四項の規定による更正の請求をしようとする法人は、同条第五項に規定する更正請求書に次項の規定によつて主たる事務所又は事業所所在地の道府県知事に届け出たことを証する文書を添付しなければならない。
 
 ### 第六条の四第二項
 
-<!-- segment: hashira id: chihou-zei-hou-shikoukisoku-art-6-4-p2-hashira -->
 前項の法人は、あらかじめ主たる事務所又は事業所所在地の道府県知事に対し、次に掲げる事項を第十号の二様式により届け出なければならない。
+
+一　請求をする法人の名称、所在地及び法人番号
+
+二　修正した分割基準の明細
+
+三　分割基準について誤りを生じた事情の詳細
 
 ### 第六条の四第三項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-6-4-p3 -->
 法人の主たる事務所又は事業所所在地の道府県知事は、前項の規定による届出があつたときは、当該法人に対し、当該届出があつたことを証する文書を交付するとともに、その旨を関係道府県知事に通知するものとする。

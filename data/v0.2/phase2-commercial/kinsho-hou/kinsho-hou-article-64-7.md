@@ -16,47 +16,103 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-7-p1
+    type: simple
+    text: 内閣総理大臣は、内閣府令で定めるところにより、協会（認可金融商品取引業協会又は第七十八条第二項に規定する認定金融商品取引業協会をいう。以下この節において同じ。）に、第六十四条、第六十四条の二及び前三条に規定する登録に関する事務（以下この条（第六項各号を除く。）及び第六十四条の九において「登録事務」という。）であつて当該協会に所属する金融商品取引業者等の外務員に係るものを行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前三条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-7-p2
+    type: simple
+    text: 内閣総理大臣は、内閣府令で定めるところにより、協会に所属しない金融商品取引業者等の外務員に係る登録事務（第六十四条の五に係るものを除く。）を一の協会を定めて行わせることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-7-p3
+    type: simple
+    text: 内閣総理大臣は、前二項の規定により協会に登録事務を行わせることとしたときは、当該登録事務を行わないものとする。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-7-p4
+    type: simple
+    text: 協会は、第一項又は第二項の規定により登録事務を行うこととしたときは、その定款において外務員の登録に関する事項を定め、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-7-p5
+    type: simple
+    text: 第一項又は第二項の規定により登録事務を行う協会は、第六十四条第五項の規定による登録、第六十四条の四の規定による届出に係る登録の変更、第六十四条の五第一項の規定による処分（登録の取消しを除く。）又は前条の規定による登録の抹消をした場合には、内閣府令で定めるところにより、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 6
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-7-p6-hashira
+    type: hashira
+    text: 第一項又は第二項の規定による登録事務を行う協会（次に掲げるものを含む。以下この項において同じ。）が二以上ある場合（当該協会が次に掲げるもののみである場合を除く。）には、各協会は、当該登録事務の適正な実施を確保するため、協会相互間の情報交換を促進するとともに、他の協会に対し、必要な協力及び情報の提供をするよう努めるものとする。
+    modality: doryoku_gimu
+  - id: kinsho-hou-art-64-7-p6-kou-1
+    type: kou
+    text: 第六十六条の二十五において準用する第一項の規定による同項に規定する登録事務を行う協会
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-64-7-p6-kou-2
+    type: kou
+    text: 金融サービスの提供及び利用環境の整備等に関する法律第七十八条第一項又は第二項の規定による同条第一項に規定する登録事務を行う同項に規定する認定金融サービス仲介業協会等
+    modality: unspecified
+    item_number: 2
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-7-p7
+    type: simple
+    text: 内閣総理大臣は、第一項の規定により登録事務を行う協会に所属する金融商品取引業者等の外務員が第六十四条の五第一項第一号から第三号までのいずれかに該当するにもかかわらず、当該協会が同項に規定する措置をしない場合において、公益又は投資者保護のため必要かつ適当であると認めるときは、同項に規定する措置をすることを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-7-p8
+    type: simple
+    text: 内閣総理大臣は、前項の規定に基づいて処分をしようとするときは、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-7-p9
+    type: simple
+    text: 内閣総理大臣は、第一項若しくは第二項の規定により協会に登録事務を行わせることとするとき、又はこれらの規定により協会に行わせていた登録事務を行わせないこととするときは、その旨を公示しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -96,6 +152,10 @@ parent_section:
 ### 第六十四条の七第六項
 
 第一項又は第二項の規定による登録事務を行う協会（次に掲げるものを含む。以下この項において同じ。）が二以上ある場合（当該協会が次に掲げるもののみである場合を除く。）には、各協会は、当該登録事務の適正な実施を確保するため、協会相互間の情報交換を促進するとともに、他の協会に対し、必要な協力及び情報の提供をするよう努めるものとする。
+
+一　第六十六条の二十五において準用する第一項の規定による同項に規定する登録事務を行う協会
+
+二　金融サービスの提供及び利用環境の整備等に関する法律第七十八条第一項又は第二項の規定による同条第一項に規定する登録事務を行う同項に規定する認定金融サービス仲介業協会等
 
 ### 第六十四条の七第七項
 

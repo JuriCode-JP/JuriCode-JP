@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-54-3-p1
+    type: simple
+    text: 法第二十三条の二の十五第三項（法第二十三条の二の十九において準用する場合を含む。）に規定する医療機器の製造業者が遵守すべき事項は、再製造単回使用医療機器を製造する製造所（第百十四条の八第一項第四号ホに掲げる製造工程に係る製造所を除く。）の医療機器責任技術者が医師でない場合又は細菌学的知識若しくは医療機器の滅菌に関する専門的知識を有しない場合にあつては、医療機器責任技術者を補佐する者として医師又は当該知識を有する者を置くこととする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

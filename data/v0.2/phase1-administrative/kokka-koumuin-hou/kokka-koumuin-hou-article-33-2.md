@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-33-2-p1
+    type: simple
+    text: 第五十四条第一項に規定する採用昇任等基本方針には、前条第一項に規定する根本基準の実施につき必要な事項であつて同条第二項第二号に掲げる事項の確保に関するものとして、職員の採用、昇任、降任及び転任に関する制度の適切かつ効果的な運用の確保に資する基本的事項を定めるものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

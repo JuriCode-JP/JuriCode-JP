@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-5-p1
+    type: simple
+    text: 任命権者は、職員を降任させる場合には、当該職員の人事評価その他の能力の実証に基づき、任命しようとする職の属する職制上の段階の標準的な職に係る標準職務遂行能力及び当該任命しようとする職についての適性を有すると認められる職に任命するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-5-p2
+    type: simple
+    text: 職員の転任は、任命権者が、職員の人事評価その他の能力の実証に基づき、任命しようとする職の属する職制上の段階の標準的な職に係る標準職務遂行能力及び当該任命しようとする職についての適性を有すると認められる者の中から行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

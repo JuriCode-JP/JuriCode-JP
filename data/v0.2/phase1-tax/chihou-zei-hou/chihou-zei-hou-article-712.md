@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百十二条
 
-<!-- segment: simple id: chihou-zei-hou-art-712-p1 -->
 削除

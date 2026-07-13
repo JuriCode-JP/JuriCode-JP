@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 令第七十四条第一項の規定により医薬品等輸出業者が届け出なければならない事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-265-p1-kou-1
+    type: kou
+    text: 届出者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-265-p1-kou-2
+    type: kou
+    text: 当該医薬品等輸出業者が製造販売業者である場合（次号に掲げる場合を除く。）にあつては、主たる機能を有する事務所の名称及び所在地
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-265-p1-kou-3
+    type: kou
+    text: 当該医薬品等輸出業者が製造業者である場合にあつては、製造所の名称及び所在地
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-265-p1-kou-4
+    type: kou
+    text: 第二号に掲げる場合にあつては、製造販売業の許可の種類、許可番号及び許可年月日
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-265-p1-kou-5
+    type: kou
+    text: 第三号に掲げる場合にあつては、製造業の許可又は登録の区分、許可番号又は登録番号及び許可年月日又は登録年月日
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-265-p1-kou-6
+    type: kou
+    text: 輸出するために製造等（法第二条第十三項に規定する製造等をいう。以下同じ。）をし、又は輸入をしようとする医薬品（体外診断用医薬品を除く。以下この条において同じ。）、医薬部外品又は化粧品の品目及びその輸出先その他の当該医薬品、医薬部外品又は化粧品に係る情報
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: false
@@ -62,15 +92,24 @@ parent_section:
 
 ### 第二百六十五条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-265-p1-hashira -->
 令第七十四条第一項の規定により医薬品等輸出業者が届け出なければならない事項は、次のとおりとする。
+
+一　届出者の氏名及び住所
+
+二　当該医薬品等輸出業者が製造販売業者である場合（次号に掲げる場合を除く。）にあつては、主たる機能を有する事務所の名称及び所在地
+
+三　当該医薬品等輸出業者が製造業者である場合にあつては、製造所の名称及び所在地
+
+四　第二号に掲げる場合にあつては、製造販売業の許可の種類、許可番号及び許可年月日
+
+五　第三号に掲げる場合にあつては、製造業の許可又は登録の区分、許可番号又は登録番号及び許可年月日又は登録年月日
+
+六　輸出するために製造等（法第二条第十三項に規定する製造等をいう。以下同じ。）をし、又は輸入をしようとする医薬品（体外診断用医薬品を除く。以下この条において同じ。）、医薬部外品又は化粧品の品目及びその輸出先その他の当該医薬品、医薬部外品又は化粧品に係る情報
 
 ### 第二百六十五条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-265-p2 -->
 前項の届出は、様式第百十四による届書（正本一通及び副本一通）を提出することによつて行うものとする。
 
 ### 第二百六十五条第三項
 
-<!-- segment: tokusoku id: yakkihou-shikoukisoku-art-265-p3 override_flag: true override_target: 前項 -->
 前項の届書に記載された事項に変更を生じた場合における令第七十四条第一項の規定による届出は、前項の規定にかかわらず、様式第六による届書（正本一通及び副本一通）を提出することによつて行うものとする。

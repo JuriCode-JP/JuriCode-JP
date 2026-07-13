@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-49-6-p1
+    type: tokusoku
+    text: 車両は、第四十九条の三第三項の道路標識等により車両が駐車することができる道路の部分として指定されている時間制限駐車区間の第四十四条第一項各号に掲げる道路の部分においては、同項の規定にかかわらず、停車することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

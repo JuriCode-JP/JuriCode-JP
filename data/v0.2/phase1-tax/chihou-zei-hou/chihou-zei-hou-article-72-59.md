@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-59-p1
+    type: simple
+    text: 道府県知事が事業税の賦課徴収について、政府に対し、事業税の納税義務者で所得税の納税義務がある個人が政府に提出した申告書若しくは修正申告書又は政府が当該個人の課税標準若しくは税額についてした更正若しくは決定に関する書類を閲覧し、又は記録することを請求した場合には、政府は、関係書類を道府県知事又はその指定する職員に閲覧させ、又は記録させるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-59-p2
+    type: simple
+    text: 道府県知事が事業税の賦課徴収について、市町村長に対し、事業税の納税義務者で道府県民税の納税義務がある個人が市町村長に提出した申告書又は市町村長が当該個人に係る道府県民税についてした賦課決定に関する書類を閲覧し、又は記録することを請求した場合には、市町村長は、関係書類を道府県知事又はその指定する職員に閲覧させ、又は記録させるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

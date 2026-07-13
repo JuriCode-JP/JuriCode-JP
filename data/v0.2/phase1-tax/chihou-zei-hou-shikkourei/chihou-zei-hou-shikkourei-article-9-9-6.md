@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-9-9-6-p1
+    type: simple
+    text: 法第五十七条第三項第三号に規定する政令で定める事務所又は事業所は、法人の法第五十三条第一項に規定する法人税額の課税標準の算定期間に属する各月の末日現在における従業者の数のうち最大であるものの数値が、当該従業者の数のうち最小であるものの数値に二を乗じて得た数値を超える事務所又は事業所とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

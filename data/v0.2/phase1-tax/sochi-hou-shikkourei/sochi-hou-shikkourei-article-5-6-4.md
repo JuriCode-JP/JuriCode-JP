@@ -16,82 +16,222 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p1-zen
+    type: zen_dan
+    text: 法第十条の五の四第一項の規定による控除をすべき金額は、その年分の所得税法第九十二条第二項に規定する課税総所得金額に係る所得税額から控除する。
+    modality: unspecified
+  - id: sochi-hou-shikkourei-art-5-6-4-p1-kou
+    type: kou_dan
+    text: この場合において、当該所得税額から控除をすべき同条第三項に規定する配当控除の額があるときは、まず当該配当控除の額を控除し、次に法第十条の五の四第一項の規定による控除をすべき金額を控除する。
+    modality: unspecified
+    depends_on: sochi-hou-shikkourei-art-5-6-4-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p2-zen
+    type: zen_dan
+    text: 法第十条の五の四第二項の規定による控除をすべき金額は、その年分の所得税法第九十二条第二項に規定する課税総所得金額に係る所得税額から控除する。
+    modality: unspecified
+  - id: sochi-hou-shikkourei-art-5-6-4-p2-kou
+    type: kou_dan
+    text: この場合において、当該所得税額から控除をすべき同条第三項に規定する配当控除の額があるときは、まず当該配当控除の額を控除し、次に法第十条の五の四第二項の規定による控除をすべき金額を控除する。
+    modality: unspecified
+    depends_on: sochi-hou-shikkourei-art-5-6-4-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p3-zen
+    type: zen_dan
+    text: 法第十条の五の四第三項の規定による控除をすべき金額は、その年分の所得税法第九十二条第二項に規定する課税総所得金額に係る所得税額から控除する。
+    modality: unspecified
+  - id: sochi-hou-shikkourei-art-5-6-4-p3-kou
+    type: kou_dan
+    text: この場合において、当該所得税額から控除をすべき同条第三項に規定する配当控除の額及び法第十条の五の四第一項又は第二項の規定による控除をすべき金額があるときは、まず当該配当控除の額及びこれらの規定による控除をすべき金額を控除し、次に同条第三項の規定による控除をすべき金額を控除する。
+    modality: unspecified
+    depends_on: sochi-hou-shikkourei-art-5-6-4-p3-zen
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p4-hashira
+    type: hashira
+    text: 法第十条の五の四第四項第一号に規定する政令で定める特殊の関係のある者は、次に掲げる者とする。
+    modality: gimu
+  - id: sochi-hou-shikkourei-art-5-6-4-p4-kou-1
+    type: kou
+    text: 当該個人の親族
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-5-6-4-p4-kou-2
+    type: kou
+    text: 当該個人と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-5-6-4-p4-kou-3
+    type: kou
+    text: 前二号に掲げる者以外の者で当該個人から受ける金銭その他の資産（法第十条の五の四第四項第二号に規定する給与等（以下この条において「給与等」という。）に該当しないものに限る。）によつて生計の支援を受けているもの
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikkourei-art-5-6-4-p4-kou-4
+    type: kou
+    text: 前二号に掲げる者と生計を一にするこれらの者の親族
+    modality: unspecified
+    item_number: 4
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p5
+    type: simple
+    text: 法第十条の五の四第四項第一号に規定する政令で定めるものは、当該個人の国内に所在する事業所につき作成された労働基準法（昭和二十二年法律第四十九号）第百八条に規定する賃金台帳に記載された者とする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p6
+    type: simple
+    text: 法第十条の五の四第四項第四号に規定する政令で定めるものは、個人の同項第一号に規定する国内雇用者（雇用保険法第六十条の二第一項第一号に規定する一般被保険者に該当する者に限るものとし、高年齢者等の雇用の安定等に関する法律（昭和四十六年法律第六十八号）第九条第一項第二号に規定する継続雇用制度の対象である者として財務省令で定める者を除く。以下この項において「国内雇用者」という。）のうち、当該個人の国内雇用者として適用年（法第十条の五の四第四項第四号に規定する適用年をいう。以下この項及び第八項において同じ。）及び当該適用年の前年において事業を営んでいた期間内の各月分の当該個人の給与等の支給を受けたものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p7
+    type: simple
+    text: 法第十条の五の四第四項第四号に規定する政令で定める金額は、同項第七号に規定する雇用者給与等支給額のうち同項第四号に規定する継続雇用者（次項において「継続雇用者」という。）に係る金額とする。
+    modality: gimu
+    references:
+    - 同項
+    - 次項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p8
+    type: simple
+    text: 法第十条の五の四第四項第五号に規定する政令で定める金額は、同号の個人の適用年の前年に係る給与等支給額（個人のその年分の事業所得の金額の計算上必要経費に算入される国内雇用者（同項第一号に規定する国内雇用者をいう。）に対する給与等の支給額（同項第四号に規定する支給額をいう。第十項において同じ。）をいう。以下この条において同じ。）のうち継続雇用者に係る金額（当該個人が当該適用年の前年において事業を開始した場合には、当該適用年の前年に係る給与等支給額のうち継続雇用者に係る金額に十二を乗じてこれを当該適用年の前年において事業を営んでいた期間の月数で除して計算した金額）とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p9
+    type: simple
+    text: 法第十条の五の四第四項第八号に規定する政令で定めるところにより計算した金額は、同号の適用年の前年に係る給与等支給額に十二を乗じてこれを当該適用年の前年において事業を営んでいた期間の月数で除して計算した金額とする。
+    modality: gimu
 - number: 10
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p10-hashira
+    type: hashira
+    text: 法第十条の五の四第一項から第三項までの規定の適用を受けようとする個人が次の各号に掲げる場合に該当する場合のその適用を受けようとする年（以下この項において「適用年」という。）の当該個人の同条第四項第八号に規定する比較雇用者給与等支給額の計算における同号の給与等の支給額（当該適用年において事業を営んでいた期間の月数と当該適用年の前年において事業を営んでいた期間の月数とが異なる場合には、前項の給与等支給額）については、当該個人の当該各号に規定する調整対象年に係る給与等支給額は、当該各号に定めるところによる。
+    modality: unspecified
+    references:
+    - 前項
+  - id: sochi-hou-shikkourei-art-5-6-4-p10-kou-1
+    type: kou
+    text: 適用年において当該個人の事業所得を生ずべき事業（以下この項において「承継事業」という。）を相続（包括遺贈を含む。次号において同じ。）により承継した場合　当該個人の適用年の前年の一月一日（当該適用年の前年において事業を開始した当該個人にあつては、当該事業を開始した日。次号において同じ。）から十二月三十一日までの期間（以下この号において「調整対象年」という。）に係る給与等支給額については、当該個人の当該調整対象年に係る給与等支給額に、当該個人の当該調整対象年において事業を営んでいた月に係る被相続人（包括遺贈者を含む。次号及び次項において同じ。）の月別給与等支給額を合計した金額に当該個人が当該承継事業を承継した日から当該適用年の十二月三十一日までの期間の月数を乗じてこれを十二で除して計算した金額を加算する。
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-5-6-4-p10-kou-2
+    type: kou
+    text: 適用年の前年の一月一日から十二月三十一日までの期間（以下この号において「調整対象年」という。）において承継事業を相続により承継した場合　当該個人の当該調整対象年に係る給与等支給額については、当該個人の当該調整対象年に係る給与等支給額に当該個人の当該調整対象年において事業を営んでいた月（当該承継事業を承継した日の属する月以後の月を除く。）に係る被相続人の月別給与等支給額を合計した金額を加算する。
+    modality: unspecified
+    item_number: 2
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p11
+    type: simple
+    text: 前項に規定する月別給与等支給額とは、その被相続人の同項各号に規定する調整対象年の給与等支給額を当該調整対象年において当該被相続人が事業を営んでいた期間の月数で除して計算した金額を当該調整対象年において同項の個人が事業を営んでいた月に係るものとみなしたものをいう。
+    modality: teigi
+    references:
+    - 同項
+    - 前項
 - number: 12
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p12-hashira
+    type: hashira
+    text: 法第十条の五の四第一項又は第二項の規定の適用を受けようとする個人が次の各号に掲げる場合に該当する場合において、当該各号に定める金額の計算の基礎となる給与等に充てるための同条第四項第六号イに規定する雇用安定助成金額があるときは、同号ロに掲げる金額は、当該各号に定める金額から当該雇用安定助成金額を控除して計算した同項第八号に規定する比較雇用者給与等支給額とする。
+    modality: gimu
+    references:
+    - 同項
+  - id: sochi-hou-shikkourei-art-5-6-4-p12-kou-1
+    type: kou
+    text: 法第十条の五の四第四項第八号の適用年の前年において事業を営んでいた期間の月数と当該適用年において事業を営んでいた期間の月数とが異なる場合　第九項の給与等支給額
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-5-6-4-p12-kou-2
+    type: kou
+    text: 第十項の規定の適用を受ける場合　同項又は前項の給与等支給額
+    modality: unspecified
+    item_number: 2
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p13
+    type: simple
+    text: 第八項から前項までの月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 14
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p14
+    type: simple
+    text: 法第十条の五の四第一項の規定の適用を受けようとする個人のその適用を受けようとする年に係る同条第四項第五号に規定する継続雇用者比較給与等支給額が零である場合には、同条第一項に規定する継続雇用者給与等支給増加割合が百分の四以上であるときに該当しないものとする。
+    modality: gimu
 - number: 15
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p15
+    type: simple
+    text: 法第十条の五の四第二項の規定の適用を受けようとする同項に規定する中小事業者のその適用を受けようとする年に係る比較雇用者給与等支給額（同条第四項第八号に規定する比較雇用者給与等支給額をいう。次項において同じ。）が零である場合には、同条第二項に規定する雇用者給与等支給増加割合が百分の一・五以上であるときに該当しないものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 次項
 - number: 16
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-4-p16
+    type: simple
+    text: 法第十条の五の四第三項の規定の適用を受けようとする個人のその適用を受けようとする年に係る比較雇用者給与等支給額が零である場合には、同項に規定する雇用者給与等支給額がその比較雇用者給与等支給額を超える場合に該当しないものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -124,6 +264,14 @@ parent_section:
 
 法第十条の五の四第四項第一号に規定する政令で定める特殊の関係のある者は、次に掲げる者とする。
 
+一　当該個人の親族
+
+二　当該個人と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+
+三　前二号に掲げる者以外の者で当該個人から受ける金銭その他の資産（法第十条の五の四第四項第二号に規定する給与等（以下この条において「給与等」という。）に該当しないものに限る。）によつて生計の支援を受けているもの
+
+四　前二号に掲げる者と生計を一にするこれらの者の親族
+
 ### 第五条の六の四第五項
 
 法第十条の五の四第四項第一号に規定する政令で定めるものは、当該個人の国内に所在する事業所につき作成された労働基準法（昭和二十二年法律第四十九号）第百八条に規定する賃金台帳に記載された者とする。
@@ -148,6 +296,10 @@ parent_section:
 
 法第十条の五の四第一項から第三項までの規定の適用を受けようとする個人が次の各号に掲げる場合に該当する場合のその適用を受けようとする年（以下この項において「適用年」という。）の当該個人の同条第四項第八号に規定する比較雇用者給与等支給額の計算における同号の給与等の支給額（当該適用年において事業を営んでいた期間の月数と当該適用年の前年において事業を営んでいた期間の月数とが異なる場合には、前項の給与等支給額）については、当該個人の当該各号に規定する調整対象年に係る給与等支給額は、当該各号に定めるところによる。
 
+一　適用年において当該個人の事業所得を生ずべき事業（以下この項において「承継事業」という。）を相続（包括遺贈を含む。次号において同じ。）により承継した場合　当該個人の適用年の前年の一月一日（当該適用年の前年において事業を開始した当該個人にあつては、当該事業を開始した日。次号において同じ。）から十二月三十一日までの期間（以下この号において「調整対象年」という。）に係る給与等支給額については、当該個人の当該調整対象年に係る給与等支給額に、当該個人の当該調整対象年において事業を営んでいた月に係る被相続人（包括遺贈者を含む。次号及び次項において同じ。）の月別給与等支給額を合計した金額に当該個人が当該承継事業を承継した日から当該適用年の十二月三十一日までの期間の月数を乗じてこれを十二で除して計算した金額を加算する。
+
+二　適用年の前年の一月一日から十二月三十一日までの期間（以下この号において「調整対象年」という。）において承継事業を相続により承継した場合　当該個人の当該調整対象年に係る給与等支給額については、当該個人の当該調整対象年に係る給与等支給額に当該個人の当該調整対象年において事業を営んでいた月（当該承継事業を承継した日の属する月以後の月を除く。）に係る被相続人の月別給与等支給額を合計した金額を加算する。
+
 ### 第五条の六の四第十一項
 
 前項に規定する月別給与等支給額とは、その被相続人の同項各号に規定する調整対象年の給与等支給額を当該調整対象年において当該被相続人が事業を営んでいた期間の月数で除して計算した金額を当該調整対象年において同項の個人が事業を営んでいた月に係るものとみなしたものをいう。
@@ -155,6 +307,10 @@ parent_section:
 ### 第五条の六の四第十二項
 
 法第十条の五の四第一項又は第二項の規定の適用を受けようとする個人が次の各号に掲げる場合に該当する場合において、当該各号に定める金額の計算の基礎となる給与等に充てるための同条第四項第六号イに規定する雇用安定助成金額があるときは、同号ロに掲げる金額は、当該各号に定める金額から当該雇用安定助成金額を控除して計算した同項第八号に規定する比較雇用者給与等支給額とする。
+
+一　法第十条の五の四第四項第八号の適用年の前年において事業を営んでいた期間の月数と当該適用年において事業を営んでいた期間の月数とが異なる場合　第九項の給与等支給額
+
+二　第十項の規定の適用を受ける場合　同項又は前項の給与等支給額
 
 ### 第五条の六の四第十三項
 

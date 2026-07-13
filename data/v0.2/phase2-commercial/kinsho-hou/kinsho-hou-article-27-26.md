@@ -16,32 +16,93 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-26-p1
+    type: simple
+    text: 金融商品取引業者（第二十八条第一項に規定する第一種金融商品取引業を行う者又は同条第四項に規定する投資運用業を行う者に限る。以下この条において同じ。）、銀行その他の内閣府令で定める者（第三項に規定する基準日を内閣総理大臣に届け出た者に限る。）が保有する株券等で当該株券等の発行者の事業活動に重大な変更を加え、又は重大な影響を及ぼす行為として政令で定めるもの（第四項及び第五項において「重要提案行為等」という。）を行うことを保有の目的としないもの（株券等保有割合が内閣府令で定める数を超えた場合及び保有の態様その他の事情を勘案して内閣府令で定める場合を除く。）又は国、地方公共団体その他の内閣府令で定める者（第三項に規定する基準日を内閣総理大臣に届け出た者に限る。）が保有する株券等（以下この条において「特例対象株券等」という。）に係る大量保有報告書は、第二十七条の二十三第一項本文の規定にかかわらず、株券等保有割合が初めて百分の五を超えることとなつた基準日における当該株券等の保有状況に関する事項で内閣府令で定めるものを記載したものを、内閣府令で定めるところにより、当該基準日から五日以内に、内閣総理大臣に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-26-p2-hashira
+    type: hashira
+    text: 特例対象株券等に係る変更報告書（当該株券等が特例対象株券等以外の株券等になる場合の変更に係るものを除く。）は、前条第一項本文の規定にかかわらず、次の各号に掲げる場合の区分に応じ当該各号に定める日までに、内閣府令で定めるところにより、内閣総理大臣に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: kinsho-hou-art-27-26-p2-kou-1
+    type: kou
+    text: 前項の大量保有報告書に係る基準日の後の基準日における株券等保有割合が当該大量保有報告書に記載された株券等保有割合より百分の一以上増加し又は減少した場合その他の当該大量保有報告書に記載すべき重要な事項の変更として政令で定めるものがあつた場合　当該後の基準日から五日以内
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-27-26-p2-kou-2
+    type: kou
+    text: 変更報告書に係る基準日の後の基準日における株券等保有割合が当該変更報告書に記載された株券等保有割合より百分の一以上増加し又は減少した場合その他の当該大量保有報告書に記載すべき重要な事項の変更として政令で定めるものがあつた場合　当該後の基準日から五日以内
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-27-26-p2-kou-3
+    type: kou
+    text: 株券等保有割合が内閣府令で定める数を下回り当該株券等が特例対象株券等になつた場合　当該特例対象株券等になつた日から五日以内
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-27-26-p2-kou-4
+    type: kou
+    text: 前三号に準ずる場合として内閣府令で定める場合　内閣府令で定める日
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-26-p3
+    type: simple
+    text: 前二項の基準日とは、政令で定めるところにより毎月二回以上設けられる日の組合せのうちから特例対象株券等の保有者が内閣府令で定めるところにより内閣総理大臣に届出をした日をいう。
+    modality: teigi
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-26-p4
+    type: tokusoku
+    text: 第一項の規定にかかわらず、同項に規定する金融商品取引業者、銀行その他の内閣府令で定める者は、その株券等保有割合が百分の五を超えることとなつた日から政令で定める期間内に重要提案行為等を行うときは、その五日前までに、内閣府令で定めるところにより、同項の大量保有報告書を内閣総理大臣に提出しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第一項
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-26-p5
+    type: tokusoku
+    text: 第二項の規定にかかわらず、第一項に規定する金融商品取引業者、銀行その他の内閣府令で定める者は、同項の大量保有報告書又は第二項の変更報告書を提出した後に株券等保有割合が百分の一以上増加した場合であつて、当該増加した日から政令で定める期間内に重要提案行為等を行うときは、その五日前までに、内閣府令で定めるところにより、同項の変更報告書を内閣総理大臣に提出しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第二項
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-26-p6
+    type: junyou
+    text: 前条第三項の規定は、第一項若しくは第四項の大量保有報告書又は第二項若しくは前項の変更報告書について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -63,6 +124,14 @@ parent_section:
 ### 第二十七条の二十六第二項
 
 特例対象株券等に係る変更報告書（当該株券等が特例対象株券等以外の株券等になる場合の変更に係るものを除く。）は、前条第一項本文の規定にかかわらず、次の各号に掲げる場合の区分に応じ当該各号に定める日までに、内閣府令で定めるところにより、内閣総理大臣に提出しなければならない。
+
+一　前項の大量保有報告書に係る基準日の後の基準日における株券等保有割合が当該大量保有報告書に記載された株券等保有割合より百分の一以上増加し又は減少した場合その他の当該大量保有報告書に記載すべき重要な事項の変更として政令で定めるものがあつた場合　当該後の基準日から五日以内
+
+二　変更報告書に係る基準日の後の基準日における株券等保有割合が当該変更報告書に記載された株券等保有割合より百分の一以上増加し又は減少した場合その他の当該大量保有報告書に記載すべき重要な事項の変更として政令で定めるものがあつた場合　当該後の基準日から五日以内
+
+三　株券等保有割合が内閣府令で定める数を下回り当該株券等が特例対象株券等になつた場合　当該特例対象株券等になつた日から五日以内
+
+四　前三号に準ずる場合として内閣府令で定める場合　内閣府令で定める日
 
 ### 第二十七条の二十六第三項
 

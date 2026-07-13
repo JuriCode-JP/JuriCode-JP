@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百七十一条
 
-<!-- segment: simple id: minpou-art-571-p1 -->
 削除

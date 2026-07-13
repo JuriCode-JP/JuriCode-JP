@@ -14,9 +14,38 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-9-p1-hashira
+    type: hashira
+    text: 法第二条第八項及び第十一項、第二十七条の二第四項（法第二十七条の二十二の二第二項において準用する場合を含む。）、第二十七条の二十八第三項（法第二十七条の二十九第二項において準用する場合を含む。）、第二十八条第四項、第三十一条の四第三項及び第四項、第三十三条第一項、第三十三条の五第二項、第三十三条の七、第三十三条の八第一項、第五十条第一項第四号、第五十八条、第六十条の十四第一項並びに第六十六条に規定する政令で定める金融機関は、次に掲げるものとする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-1-9-p1-kou-1
+    type: kou
+    text: 株式会社商工組合中央金庫
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-1-9-p1-kou-2
+    type: kou
+    text: 保険会社（保険業法第二条第二項に規定する保険会社をいい、同条第七項に規定する外国保険会社等を含む。以下同じ。）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-1-9-p1-kou-3
+    type: kou
+    text: 無尽会社
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-1-9-p1-kou-4
+    type: kou
+    text: 証券金融会社
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-shikkourei-art-1-9-p1-kou-5
+    type: kou
+    text: 主としてコール資金の貸付け又はその貸借の媒介を業として行う者のうち金融庁長官の指定するもの
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -34,3 +63,13 @@ parent_section:
 ### 第一条の九
 
 法第二条第八項及び第十一項、第二十七条の二第四項（法第二十七条の二十二の二第二項において準用する場合を含む。）、第二十七条の二十八第三項（法第二十七条の二十九第二項において準用する場合を含む。）、第二十八条第四項、第三十一条の四第三項及び第四項、第三十三条第一項、第三十三条の五第二項、第三十三条の七、第三十三条の八第一項、第五十条第一項第四号、第五十八条、第六十条の十四第一項並びに第六十六条に規定する政令で定める金融機関は、次に掲げるものとする。
+
+一　株式会社商工組合中央金庫
+
+二　保険会社（保険業法第二条第二項に規定する保険会社をいい、同条第七項に規定する外国保険会社等を含む。以下同じ。）
+
+三　無尽会社
+
+四　証券金融会社
+
+五　主としてコール資金の貸付け又はその貸借の媒介を業として行う者のうち金融庁長官の指定するもの

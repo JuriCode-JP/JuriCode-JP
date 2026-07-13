@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-25-14-3-p1
+    type: simple
+    text: 法第三十七条の十五第一項に規定する政令で定めるものは、農水産業協同組合貯金保険法第二条第二項第四号に規定する農林債とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

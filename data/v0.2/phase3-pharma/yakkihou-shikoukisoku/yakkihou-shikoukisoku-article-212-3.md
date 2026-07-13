@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-212-3-p1
+    type: simple
+    text: 指定濫用防止医薬品であつて、その外部の容器又は外部の被包に第二百九条の四第一項の表の下欄に掲げる字句が記載されている場合には、これらの字句が当該指定濫用防止医薬品の直接の容器又は直接の被包に記載されていることを要しない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

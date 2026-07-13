@@ -14,13 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-378-p1
     type: simple
     text: 左の事由があることを理由として控訴の申立をした場合には、控訴趣意書に、訴訟記録及び原裁判所において取り調べた証拠に現われている事実であつてその事由があることを信ずるに足りるものを援用しなければならない。
     modality: gimu
+  - id: keiji-soshou-hou-art-378-p1-kou-1
+    type: kou
+    text: 不法に管轄又は管轄違を認めたこと。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-378-p1-kou-2
+    type: kou
+    text: 不法に、公訴を受理し、又はこれを棄却したこと。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-378-p1-kou-3
+    type: kou
+    text: 審判の請求を受けた事件について判決をせず、又は審判の請求を受けない事件について判決をしたこと。
+    modality: unspecified
+    item_number: 3
+  - id: keiji-soshou-hou-art-378-p1-kou-4
+    type: kou
+    text: 判決に理由を附せず、又は理由にくいちがいがあること。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第三百七十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-378-p1 -->
 左の事由があることを理由として控訴の申立をした場合には、控訴趣意書に、訴訟記録及び原裁判所において取り調べた証拠に現われている事実であつてその事由があることを信ずるに足りるものを援用しなければならない。
+
+一　不法に管轄又は管轄違を認めたこと。
+
+二　不法に、公訴を受理し、又はこれを棄却したこと。
+
+三　審判の請求を受けた事件について判決をせず、又は審判の請求を受けない事件について判決をしたこと。
+
+四　判決に理由を附せず、又は理由にくいちがいがあること。

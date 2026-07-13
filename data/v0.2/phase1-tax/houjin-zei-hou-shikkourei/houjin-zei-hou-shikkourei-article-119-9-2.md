@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-9-2-p1
+    type: simple
+    text: 法第六十一条の二第二十項（有価証券の譲渡益又は譲渡損の益金又は損金算入）に規定する政令で定めるところにより計算した金額は、同項に規定する払戻しの直前の同項に規定する所有受益権の帳簿価額に元本減少割合（当該所有受益権に係る法第二条第二十九号ハ（定義）に規定する特定受益証券発行信託の当該払戻しの直前の元本の額のうちに当該払戻しにより減少した元本の額の占める割合（当該割合に小数点以下三位未満の端数があるときは、これを切り上げる。）をいう。次項において同じ。）を乗じて計算した金額とする。
+    modality: gimu
+    references:
+    - 同項
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-9-2-p2
+    type: simple
+    text: 前項に規定する所有受益権に係る同項に規定する特定受益証券発行信託の受託者は、同項に規定する払戻しを行つた場合には、当該所有受益権を有していた法人に対し、元本減少割合を通知しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

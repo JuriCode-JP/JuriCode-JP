@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-41-p1
+    type: simple
+    text: 法第二十三条の二の九第四項後段に規定する厚生労働省令で定める医療機器又は体外診断用医薬品は、同条第一項に規定する医療機器又は体外診断用医薬品とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

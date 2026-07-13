@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-p1
+    type: simple
+    text: 第六十九条第一項から第六項まで、第七十条第三項、第七十六条の七第二項又は第七十六条の八第一項に規定する当該職員の職権を行わせるため、厚生労働大臣、都道府県知事、保健所を設置する市の市長又は特別区の区長は、国、都道府県、保健所を設置する市又は特別区の職員のうちから、薬事監視員を命ずるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-p2
+    type: simple
+    text: 前項に定めるもののほか、薬事監視員に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

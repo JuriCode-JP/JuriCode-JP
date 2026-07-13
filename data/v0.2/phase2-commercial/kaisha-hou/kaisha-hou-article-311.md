@@ -57,7 +57,7 @@ paragraphs:
     depends_on: kaisha-hou-art-311-p4-zen
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-311-p5
@@ -66,6 +66,26 @@ paragraphs:
     modality: kanou_negative
     references:
     - 前項
+  - id: kaisha-hou-art-311-p5-kou-1
+    type: kou
+    text: 当該請求を行う株主（以下この項において「請求者」という。）がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-311-p5-kou-2
+    type: kou
+    text: 請求者が当該株式会社の業務の遂行を妨げ、又は株主の共同の利益を害する目的で請求を行ったとき。
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-311-p5-kou-3
+    type: kou
+    text: 請求者が第一項の規定により提出された議決権行使書面の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-311-p5-kou-4
+    type: kou
+    text: 請求者が、過去二年以内において、第一項の規定により提出された議決権行使書面の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -88,26 +108,28 @@ parent_section:
 
 ### 第三百十一条第一項
 
-<!-- segment: simple id: kaisha-hou-art-311-p1 -->
 書面による議決権の行使は、議決権行使書面に必要な事項を記載し、法務省令で定める時までに当該記載をした議決権行使書面を株式会社に提出して行う。
 
 ### 第三百十一条第二項
 
-<!-- segment: simple id: kaisha-hou-art-311-p2 -->
 前項の規定により書面によって行使した議決権の数は、出席した株主の議決権の数に算入する。
 
 ### 第三百十一条第三項
 
-<!-- segment: simple id: kaisha-hou-art-311-p3 -->
 株式会社は、株主総会の日から三箇月間、第一項の規定により提出された議決権行使書面をその本店に備え置かなければならない。
 
 ### 第三百十一条第四項
 
-<!-- segment: zen_dan id: kaisha-hou-art-311-p4-zen -->
-株主は、株式会社の営業時間内は、いつでも、第一項の規定により提出された議決権行使書面の閲覧又は謄写の請求をすることができる。<!-- segment: kou_dan id: kaisha-hou-art-311-p4-kou depends_on: kaisha-hou-art-311-p4-zen -->
-この場合においては、当該請求の理由を明らかにしてしなければならない。
+株主は、株式会社の営業時間内は、いつでも、第一項の規定により提出された議決権行使書面の閲覧又は謄写の請求をすることができる。この場合においては、当該請求の理由を明らかにしてしなければならない。
 
 ### 第三百十一条第五項
 
-<!-- segment: simple id: kaisha-hou-art-311-p5 -->
 株式会社は、前項の請求があったときは、次のいずれかに該当する場合を除き、これを拒むことができない。
+
+一　当該請求を行う株主（以下この項において「請求者」という。）がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
+
+二　請求者が当該株式会社の業務の遂行を妨げ、又は株主の共同の利益を害する目的で請求を行ったとき。
+
+三　請求者が第一項の規定により提出された議決権行使書面の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
+
+四　請求者が、過去二年以内において、第一項の規定により提出された議決権行使書面の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。

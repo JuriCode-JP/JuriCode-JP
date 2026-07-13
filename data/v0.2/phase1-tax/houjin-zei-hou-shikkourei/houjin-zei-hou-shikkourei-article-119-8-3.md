@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-8-3-p1
+    type: simple
+    text: 会社法第百六十七条第三項（効力の発生）又は第二百八十三条（一に満たない端数の処理）に規定する一株に満たない端数（これに準ずるものを含む。）に相当する部分は、法第六十一条の二第十四項第一号又は第四号（有価証券の譲渡益又は譲渡損の益金又は損金算入）に規定する取得をする法人の株式（出資を含む。）に含まれるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

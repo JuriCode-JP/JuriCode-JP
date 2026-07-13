@@ -16,7 +16,15 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-40-4-8-p1
+    type: junyou
+    text: 前条の規定は、法第七十条の二の八において法第七十条の二の七の規定を準用する場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

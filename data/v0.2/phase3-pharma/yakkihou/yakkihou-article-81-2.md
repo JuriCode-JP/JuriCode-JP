@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-81-2-p1-zen
+    type: zen_dan
+    text: 第六十九条第二項及び第七十二条第四項の規定により都道府県知事の権限に属するものとされている事務は、保健衛生上の危害の発生又は拡大を防止するため緊急の必要があると厚生労働大臣が認める場合にあつては、厚生労働大臣又は都道府県知事が行うものとする。
+    modality: gimu
+  - id: yakkihou-art-81-2-p1-kou
+    type: kou_dan
+    text: この場合においては、この法律の規定中都道府県知事に関する規定（当該事務に係るものに限る。）は、厚生労働大臣に関する規定として厚生労働大臣に適用があるものとする。
+    modality: gimu
+    depends_on: yakkihou-art-81-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-81-2-p2
+    type: simple
+    text: 前項の場合において、厚生労働大臣又は都道府県知事が当該事務を行うときは、相互に密接な連携の下に行うものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

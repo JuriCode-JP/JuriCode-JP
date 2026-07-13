@@ -13,60 +13,178 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p1-honbun
+    type: honbun
+    text: 検察官は、第二百九十九条第一項の規定により証人、鑑定人、通訳人又は翻訳人の氏名及び住居を知る機会を与えるべき場合において、その者若しくはその親族の身体若しくは財産に害を加え又はこれらの者を畏怖させ若しくは困惑させる行為がなされるおそれがあると認めるときは、弁護人に対し、当該氏名及び住居を知る機会を与えた上で、当該氏名又は住居を被告人に知らせてはならない旨の条件を付し、又は被告人に知らせる時期若しくは方法を指定することができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-299-4-p1-tadashi
+    type: tadashi
+    text: ただし、その証人、鑑定人、通訳人又は翻訳人の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなるときその他の被告人の防御に実質的な不利益を生ずるおそれがあるときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p2-zen
+    type: zen_dan
+    text: 第二百九十九条第一項の規定により証人の氏名及び住居を知る機会を与えるべき場合において、第二百七十一条の二第二項の規定により起訴状抄本等を提出した場合又は第三百十二条の二第二項の規定により訴因変更等請求書面抄本等（同項に規定する訴因変更等請求書面抄本等をいう。以下この条及び次条第二項第一号において同じ。）を提出した場合（第三百十二条第一項の請求を却下する決定があつた場合を除く。第七項において同じ。）であつて、当該氏名又は住居が起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないもの又は訴因変更等請求書面（第三百十二条第四項に規定する訴因変更等請求書面をいう。以下この条及び同号において同じ。）に記載された個人特定事項のうち訴因変更等請求書面抄本等に記載がないもの（いずれも第二百七十一条の五第一項（第三百十二条の二第四項において読み替えて準用する場合を含む。）の決定により通知することとされたものを除く。第七項及び同号において同じ。）に該当し、かつ、第二百七十一条の二第一項第一号又は第二号に掲げる者のものに該当すると認めるときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+    - 次条
+  - id: keiji-soshou-hou-art-299-4-p2-kou
+    type: kou_dan
+    text: この場合において、同項ただし書中「証人、鑑定人、通訳人又は翻訳人」とあるのは、「証人」とする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: keiji-soshou-hou-art-299-4-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p3-zen
+    type: zen_dan
+    text: 検察官は、第一項本文の場合において、同項本文の規定による措置によつては同項本文に規定する行為を防止できないおそれがあると認めるとき（被告人に弁護人がないときを含む。）は、その証人、鑑定人、通訳人又は翻訳人の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなる場合その他の被告人の防御に実質的な不利益を生ずるおそれがある場合を除き、被告人及び弁護人に対し、その証人、鑑定人、通訳人又は翻訳人の氏名又は住居を知る機会を与えないことができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+  - id: keiji-soshou-hou-art-299-4-p3-kou
+    type: kou_dan
+    text: この場合において、被告人又は弁護人に対し、氏名にあつてはこれに代わる呼称を、住居にあつてはこれに代わる連絡先を知る機会を与えなければならない。
+    modality: gimu
+    depends_on: keiji-soshou-hou-art-299-4-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p4-zen
+    type: zen_dan
+    text: 第二百九十九条第一項の規定により証人の氏名及び住居を知る機会を与えるべき場合において、第二百七十一条の三第三項又は第二百七十一条の四第四項（これらの規定を第三百十二条の二第四項において準用する場合を含む。第九項において同じ。）の規定により起訴状抄本等又は訴因変更等請求書面抄本等を提出した場合（第三百十二条第一項の請求を却下する決定があつた場合を除く。第九項において同じ。）であつて、当該氏名又は住居が起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないもの又は訴因変更等請求書面に記載された個人特定事項のうち訴因変更等請求書面抄本等に記載がないもの（いずれも第二百七十一条の五第一項又は第二項（これらの規定を第三百十二条の二第四項において準用する場合を含む。）の決定により通知することとされたものを除く。第九項において同じ。）に該当し、かつ、第二百七十一条の二第一項第一号又は第二号に掲げる者のものに該当すると認めるときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-299-4-p4-kou
+    type: kou_dan
+    text: この場合において、同項中「証人、鑑定人、通訳人又は翻訳人の供述」とあるのは「証人の供述」と、「その証人、鑑定人、通訳人又は翻訳人の氏名」とあるのは「当該氏名」とする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: keiji-soshou-hou-art-299-4-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p5-zen
+    type: zen_dan
+    text: 第二項前段に規定する場合において、被告人に弁護人がないときも、第三項と同様とする。
+    modality: gimu
+  - id: keiji-soshou-hou-art-299-4-p5-kou
+    type: kou_dan
+    text: この場合において、同項中「証人、鑑定人、通訳人又は翻訳人の供述」とあるのは「証人の供述」と、「その証人、鑑定人、通訳人又は翻訳人の氏名」とあるのは「当該氏名」とする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: keiji-soshou-hou-art-299-4-p5-zen
 - number: 6
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p6-honbun
+    type: honbun
+    text: 検察官は、第二百九十九条第一項の規定により証拠書類又は証拠物を閲覧する機会を与えるべき場合において、証拠書類若しくは証拠物に氏名若しくは住居が記載され若しくは記録されている者であつて検察官が証人、鑑定人、通訳人若しくは翻訳人として尋問を請求するもの若しくは供述録取書等の供述者（以下この項及び第八項において「検察官請求証人等」という。）若しくは検察官請求証人等の親族の身体若しくは財産に害を加え又はこれらの者を畏怖させ若しくは困惑させる行為がなされるおそれがあると認めるときは、弁護人に対し、証拠書類又は証拠物を閲覧する機会を与えた上で、その検察官請求証人等の氏名又は住居を被告人に知らせてはならない旨の条件を付し、又は被告人に知らせる時期若しくは方法を指定することができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-299-4-p6-tadashi
+    type: tadashi
+    text: ただし、その検察官請求証人等の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなるときその他の被告人の防御に実質的な不利益を生ずるおそれがあるときは、この限りでない。
+    modality: jogai
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p7-zen
+    type: zen_dan
+    text: 第二百九十九条第一項の規定により証拠書類又は証拠物を閲覧する機会を与えるべき場合において、第二百七十一条の二第二項の規定により起訴状抄本等を提出した場合又は第三百十二条の二第二項の規定により訴因変更等請求書面抄本等を提出した場合であつて、起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないもの又は訴因変更等請求書面に記載された個人特定事項のうち訴因変更等請求書面抄本等に記載がないものが第二百七十一条の二第一項第一号又は第二号に掲げる者のものに該当すると認めるときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-299-4-p7-kou
+    type: kou_dan
+    text: この場合において、同項中「その検察官請求証人等の氏名又は住居」とあるのは「これらに記載され又は記録されているこれらの個人特定事項」と、同項ただし書中「その検察官請求証人等」とあるのは「これらの個人特定事項に係る証人」とする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: keiji-soshou-hou-art-299-4-p7-zen
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p8-zen
+    type: zen_dan
+    text: 検察官は、第六項本文の場合において、同項本文の規定による措置によつては同項本文に規定する行為を防止できないおそれがあると認めるとき（被告人に弁護人がないときを含む。）は、その検察官請求証人等の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなる場合その他の被告人の防御に実質的な不利益を生ずるおそれがある場合を除き、被告人及び弁護人に対し、証拠書類又は証拠物のうちその検察官請求証人等の氏名又は住居が記載され又は記録されている部分について閲覧する機会を与えないことができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+  - id: keiji-soshou-hou-art-299-4-p8-kou
+    type: kou_dan
+    text: この場合において、被告人又は弁護人に対し、氏名にあつてはこれに代わる呼称を、住居にあつてはこれに代わる連絡先を知る機会を与えなければならない。
+    modality: gimu
+    depends_on: keiji-soshou-hou-art-299-4-p8-zen
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p9-zen
+    type: zen_dan
+    text: 第二百九十九条第一項の規定により証拠書類又は証拠物を閲覧する機会を与えるべき場合において、第二百七十一条の三第三項又は第二百七十一条の四第四項の規定により起訴状抄本等又は訴因変更等請求書面抄本等を提出した場合であつて、起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないもの又は訴因変更等請求書面に記載された個人特定事項のうち訴因変更等請求書面抄本等に記載がないものが第二百七十一条の二第一項第一号又は第二号に掲げる者のものに該当すると認めるときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-299-4-p9-kou
+    type: kou_dan
+    text: この場合において、同項中「その検察官請求証人等の供述」とあるのは「これらの個人特定事項に係る証人の供述」と、「その検察官請求証人等の氏名又は住居」とあるのは「これらの個人特定事項」とする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: keiji-soshou-hou-art-299-4-p9-zen
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p10-zen
+    type: zen_dan
+    text: 第七項前段に規定する場合において、被告人に弁護人がないときも、第八項と同様とする。
+    modality: gimu
+  - id: keiji-soshou-hou-art-299-4-p10-kou
+    type: kou_dan
+    text: この場合において、同項中「その検察官請求証人等の供述」とあるのは「これらの個人特定事項に係る証人の供述」と、「その検察官請求証人等の氏名又は住居」とあるのは「これらの個人特定事項」とする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: keiji-soshou-hou-art-299-4-p10-zen
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-299-4-p11
+    type: simple
+    text: 検察官は、前各項の規定による措置をとつたときは、速やかに、裁判所にその旨を通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

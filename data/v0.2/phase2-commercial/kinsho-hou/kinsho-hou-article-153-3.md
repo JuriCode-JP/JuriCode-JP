@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-153-3-p1
+    type: simple
+    text: 第八十五条第一項の認可を受けた金融商品取引所は、第八十五条の二第一項第三号に掲げる事項について変更があつたときは、遅滞なく、その旨を内閣総理大臣に届け出なければならない。受託自主規制法人との間の委託契約の内容に変更があつたときも、同様とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

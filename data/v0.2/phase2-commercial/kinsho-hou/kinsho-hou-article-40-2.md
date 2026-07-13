@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-2-p1
+    type: simple
+    text: 金融商品取引業者等は、有価証券の売買及びデリバティブ取引（政令で定めるものを除く。以下この条において「有価証券等取引」という。）に関する顧客の注文について、政令で定めるところにより、最良の取引の条件で執行するための方針及び方法（以下この条において「最良執行方針等」という。）を定めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-2-p2
+    type: simple
+    text: 金融商品取引業者等は、内閣府令で定めるところにより、最良執行方針等を公表しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-2-p3
+    type: simple
+    text: 金融商品取引業者等は、最良執行方針等に従い、有価証券等取引に関する注文を執行しなければならない。
+    modality: gimu
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-2-p4-honbun
+    type: honbun
+    text: 金融商品取引業者等は、金融商品取引所に上場されている有価証券及び店頭売買有価証券の売買その他の取引で政令で定めるものに関する顧客の注文を受けようとするときは、内閣府令で定めるところにより、あらかじめ、顧客に対し、当該取引に係る最良執行方針等に係る情報を提供しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-40-2-p4-tadashi
+    type: tadashi
+    text: ただし、既に当該情報（当該最良執行方針等を変更した場合にあつては、変更後のものに係る情報）を提供しているときは、この限りでない。
+    modality: jogai
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-2-p5
+    type: simple
+    text: 金融商品取引業者等は、有価証券等取引に関する顧客の注文を執行した後、内閣府令で定める期間内に当該顧客から求められたときは、当該注文が最良執行方針等に従つて執行された旨の説明その他の内閣府令で定める事項に係る情報を、内閣府令で定めるところにより、当該顧客に提供しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

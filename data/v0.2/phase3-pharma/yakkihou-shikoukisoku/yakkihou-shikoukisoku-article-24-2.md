@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-24-2-p1
+    type: simple
+    text: 法第十二条の二第二項において準用する法第五条第三号ヘの厚生労働省令で定める者は、精神の機能の障害により製造販売業者の業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができない者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

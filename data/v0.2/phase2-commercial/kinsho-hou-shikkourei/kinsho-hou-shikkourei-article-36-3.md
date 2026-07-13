@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-36-3-p1
+    type: simple
+    text: 勧誘者は、前条第一項の規定により委任状の用紙及び参考書類を交付したとき（内閣府令で定める場合を除く。）は、直ちに、これらの書類の写し（これらの書類の作成に代えて電磁的記録の作成がされている場合における内閣府令で定める電磁的記録又は当該電磁的記録に記録された事項を記載した書面を含む。第四十三条の十一において同じ。）を金融庁長官に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

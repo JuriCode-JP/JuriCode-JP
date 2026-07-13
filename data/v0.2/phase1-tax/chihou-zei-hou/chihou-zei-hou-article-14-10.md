@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-10-p1
+    type: simple
+    text: 納税者又は特別徴収義務者が地方団体の徴収金の法定納期限等以前にその財産上に抵当権を設定しているときは、その地方団体の徴収金は、その換価代金につき、その抵当権により担保される債権に次いで徴収する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

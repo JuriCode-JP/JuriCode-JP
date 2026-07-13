@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-6-2-3-p1
+    type: simple
+    text: 法第十一条の五第一項第一号に規定する政令で定めるものは、同号に規定する設備等を構成する機械及び装置、器具及び備品、建物及びその附属設備並びに構築物のうち、同号に規定する農作業の効率化等を通じた農業の生産性の向上に著しく資するものとして農林水産大臣が定める基準に適合するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-6-2-3-p2
+    type: simple
+    text: 法第十一条の五第一項第二号に規定する政令で定めるものは、同号に規定する設備等を構成する機械及び装置のうち、同号に規定する農業者等が行う同号に規定する生産方式革新事業活動の促進に特に資するものとして農林水産大臣が定める基準に適合するものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-6-2-3-p3
+    type: simple
+    text: 農林水産大臣は、前二項の規定により基準を定めたときは、これを告示する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

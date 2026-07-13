@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-8-2-p1
+    type: simple
+    text: 前条の規定に違反する行為があるときは、公正取引委員会は、第八章第二節に規定する手続に従い、事業者団体に対し、当該行為の差止め、当該団体の解散その他当該行為の排除に必要な措置を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-8-2-p2
+    type: junyou
+    text: 第七条第二項の規定は、前条の規定に違反する行為に準用する。
+    modality: unspecified
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-8-2-p3
+    type: simple
+    text: 公正取引委員会は、事業者団体に対し、第一項又は前項において準用する第七条第二項に規定する措置を命ずる場合において、特に必要があると認めるときは、第八章第二節に規定する手続に従い、当該団体の役員若しくは管理人又はその構成事業者（事業者の利益のためにする行為を行う役員、従業員、代理人その他の者が構成事業者である場合には、当該事業者を含む。第二十六条第一項において同じ。）に対しても、第一項又は前項において準用する第七条第二項に規定する措置を確保するために必要な措置を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

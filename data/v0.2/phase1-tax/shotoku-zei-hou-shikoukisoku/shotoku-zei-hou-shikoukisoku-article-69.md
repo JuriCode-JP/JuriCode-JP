@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第百七十二条第一項第四号（給与等につき源泉徴収を受けない場合の申告納税等）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-69-p1-kou-1
+    type: kou
+    text: 法第百七十二条第一項の申告書を提出する者の氏名及びその国内にある住所又は居所（個人番号を有する者にあつては、氏名、その国内にある住所又は居所及び個人番号）
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-69-p1-kou-2
+    type: kou
+    text: 法第百七十二条第一項第一号に規定する給与又は報酬（法第四編第五章（非居住者又は法人の所得に係る源泉徴収）又は租税特別措置法第四十一条の二十二第一項（免税芸能法人等が支払う芸能人等の役務提供報酬等に係る源泉徴収の特例）の規定の適用を受けないものに限る。）の支払者の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地若しくは法人番号
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-69-p1-kou-3
+    type: kou
+    text: 国内に居所を有することとなつた日
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-69-p1-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第六十九条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-69-p1-hashira -->
 法第百七十二条第一項第四号（給与等につき源泉徴収を受けない場合の申告納税等）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第百七十二条第一項の申告書を提出する者の氏名及びその国内にある住所又は居所（個人番号を有する者にあつては、氏名、その国内にある住所又は居所及び個人番号）
+
+二　法第百七十二条第一項第一号に規定する給与又は報酬（法第四編第五章（非居住者又は法人の所得に係る源泉徴収）又は租税特別措置法第四十一条の二十二第一項（免税芸能法人等が支払う芸能人等の役務提供報酬等に係る源泉徴収の特例）の規定の適用を受けないものに限る。）の支払者の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地若しくは法人番号
+
+三　国内に居所を有することとなつた日
+
+四　その他参考となるべき事項

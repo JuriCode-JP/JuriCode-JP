@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九百六十五条
 
-<!-- segment: junyou id: minpou-art-965-p1 applies_provisions: 第八百九十一条 -->
 第八百八十六条及び第八百九十一条の規定は、受遺者について準用する。

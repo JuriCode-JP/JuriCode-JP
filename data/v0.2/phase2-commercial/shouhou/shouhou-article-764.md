@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百六十四条
 
-<!-- segment: simple id: shouhou-art-764-p1 -->
 船荷証券が作成されたときは、これと引換えでなければ、運送品の引渡しを請求することができない。

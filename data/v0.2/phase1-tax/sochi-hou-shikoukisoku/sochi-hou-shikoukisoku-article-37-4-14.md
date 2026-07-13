@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-37-4-14-p1
+    type: simple
+    text: 法第八十八条第一項第一号に規定する財務省令で定めるところにより直接加熱することは、当該加熱式たばこに係る喫煙用具の熱源を用いて当該葉たばこ（たばこ事業法（昭和五十九年法律第六十八号）第二条第二号に規定する葉たばこをいう。次条第一号において同じ。）を原料の全部又は一部としたものを直接加熱することによるものとする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

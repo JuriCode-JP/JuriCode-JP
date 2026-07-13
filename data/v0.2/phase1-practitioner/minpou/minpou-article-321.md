@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百二十一条
 
-<!-- segment: simple id: minpou-art-321-p1 -->
 動産の売買の先取特権は、動産の代価及びその利息に関し、その動産について存在する。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-2-5-p1
+    type: simple
+    text: 令第二条の十二の四第一項に規定する内閣府令で定める有価証券は、特定上場有価証券（法第二条第三十三項に規定する特定上場有価証券をいう。以下同じ。）及び特定店頭売買有価証券（令第二条の十二の四第三項第二号に規定する特定店頭売買有価証券をいう。以下同じ。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-209-2-p1
+    type: simple
+    text: 居住者に対し国内において第百七十四条第三号から第八号まで（内国法人に係る所得税の課税標準）に掲げる給付補てん金、利息、利益又は差益の支払をする者は、その支払の際、その給付補てん金、利息、利益又は差益について所得税を徴収し、その徴収の日の属する月の翌月十日までに、これを国に納付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

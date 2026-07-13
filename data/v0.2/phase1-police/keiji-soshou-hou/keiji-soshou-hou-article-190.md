@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百九十条
 
-<!-- segment: simple id: keiji-soshou-hou-art-190-p1 -->
 森林、鉄道その他特別の事項について司法警察職員として職務を行うべき者及びその職務の範囲は、別に法律でこれを定める。

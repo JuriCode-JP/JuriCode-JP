@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次に掲げる者は、親族とする。
     modality: gimu
+  - id: minpou-art-725-p1-kou-1
+    type: kou
+    text: 六親等内の血族
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-725-p1-kou-2
+    type: kou
+    text: 配偶者
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-725-p1-kou-3
+    type: kou
+    text: 三親等内の姻族
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第七百二十五条
 
-<!-- segment: hashira id: minpou-art-725-p1-hashira -->
 次に掲げる者は、親族とする。
+
+一　六親等内の血族
+
+二　配偶者
+
+三　三親等内の姻族

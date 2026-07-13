@@ -16,7 +16,21 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-165-2-p1-zen
+    type: zen_dan
+    text: 非居住者が第百六十五条の六第一項から第三項まで（非居住者に係る外国税額の控除）の規定の適用を受けた年の翌年以後七年内の各年においてこれらの規定による控除をされるべき金額の計算の基礎となつた同条第一項に規定する外国所得税の額が減額された場合には、その減額された金額のうちその減額されることとなつた日の属する年分における同項から同条第三項までの規定による控除の適用に係る部分に相当する金額として政令で定める金額は、その者の当該年分の恒久的施設帰属所得につき前条第一項の規定により準じて計算する不動産所得の金額、事業所得の金額、山林所得の金額、一時所得の金額又は雑所得の金額の計算上、総収入金額に算入しない。
+    modality: unspecified
+    references:
+    - 同項
+    - 前条
+  - id: shotoku-zei-hou-art-165-2-p1-kou
+    type: kou_dan
+    text: この場合において、その減額された金額から当該政令で定める金額を控除した金額は、その者の当該年分の同項の規定により準じて計算する雑所得の金額の計算上、総収入金額に算入する。
+    modality: unspecified
+    references:
+    - 同項
+    depends_on: shotoku-zei-hou-art-165-2-p1-zen
 cases: []
 amendments: []
 tags:

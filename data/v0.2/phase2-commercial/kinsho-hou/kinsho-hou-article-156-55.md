@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-55-p1
+    type: simple
+    text: 指定紛争解決機関は、第百五十六条の四十第一項第二号から第四号までのいずれかに掲げる事項に変更があつたときは、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-55-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定により指定紛争解決機関の商号若しくは名称又は主たる営業所若しくは事務所の所在地の変更の届出があつたときは、その旨を官報で公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

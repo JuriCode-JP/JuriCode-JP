@@ -48,10 +48,8 @@ parent_section:
 
 ### 第五十条第一項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-50-p1 -->
 裁判所は、前条の場合を除き、第四十一条の事件の申立書を相手方に送達しなければならない。
 
 ### 第五十条第二項
 
-<!-- segment: junyou id: shakuchi-shakka-hou-art-50-p2 -->
 非訟事件手続法第四十三条第四項から第六項までの規定は、申立書の送達をすることができない場合（申立書の送達に必要な費用を予納しない場合を含む。）について準用する。

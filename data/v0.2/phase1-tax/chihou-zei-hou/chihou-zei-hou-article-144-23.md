@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-23-p1
+    type: simple
+    text: 免税取扱特別徴収義務者は、免税証を提出して免税軽油の引取りを行おうとする者に対して免税軽油の引渡しをする場合においては、当該免税証を受け取らなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

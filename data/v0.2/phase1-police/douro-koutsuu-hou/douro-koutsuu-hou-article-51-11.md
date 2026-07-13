@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-11-p1
+    type: simple
+    text: 公安委員会は、第五十一条の八から前条までの規定の施行に必要な限度において、登録を受けた法人に対し、その業務又は経理の状況に関し報告をさせ、又は警察職員に、登録を受けた法人の事務所に立ち入り、業務の状況若しくは帳簿、書類その他の物件を検査させることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-11-p2
+    type: simple
+    text: 前項の規定により立入検査をする警察職員は、その身分を示す証票を携帯し、関係者の請求があるときは、これを提示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-11-p3
+    type: simple
+    text: 第一項の規定による立入検査の権限は、犯罪捜査のために認められたものと解してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

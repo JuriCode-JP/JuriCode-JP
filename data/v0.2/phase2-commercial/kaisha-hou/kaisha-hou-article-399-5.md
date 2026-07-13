@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-5-p1
+    type: simple
+    text: 監査等委員は、取締役が株主総会に提出しようとする議案、書類その他法務省令で定めるものについて法令若しくは定款に違反し、又は著しく不当な事項があると認めるときは、その旨を株主総会に報告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

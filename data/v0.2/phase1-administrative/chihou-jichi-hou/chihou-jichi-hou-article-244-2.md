@@ -16,57 +16,116 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p1
+    type: simple
+    text: 普通地方公共団体は、法律又はこれに基づく政令に特別の定めがあるものを除くほか、公の施設の設置及びその管理に関する事項は、条例でこれを定めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p2
+    type: simple
+    text: 普通地方公共団体は、条例で定める重要な公の施設のうち条例で定める特に重要なものについて、これを廃止し、又は条例で定める長期かつ独占的な利用をさせようとするときは、議会において出席議員の三分の二以上の者の同意を得なければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p3
+    type: simple
+    text: 普通地方公共団体は、公の施設の設置の目的を効果的に達成するため必要があると認めるときは、条例の定めるところにより、法人その他の団体であつて当該普通地方公共団体が指定するもの（以下本条及び第二百四十四条の四において「指定管理者」という。）に、当該公の施設の管理を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 本条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p4
+    type: simple
+    text: 前項の条例には、指定管理者の指定の手続、指定管理者が行う管理の基準及び業務の範囲その他必要な事項を定めるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p5
+    type: simple
+    text: 指定管理者の指定は、期間を定めて行うものとする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p6
+    type: simple
+    text: 普通地方公共団体は、指定管理者の指定をしようとするときは、あらかじめ、当該普通地方公共団体の議会の議決を経なければならない。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p7
+    type: simple
+    text: 指定管理者は、毎年度終了後、その管理する公の施設の管理の業務に関し事業報告書を作成し、当該公の施設を設置する普通地方公共団体に提出しなければならない。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p8
+    type: simple
+    text: 普通地方公共団体は、適当と認めるときは、指定管理者にその管理する公の施設の利用に係る料金（次項において「利用料金」という。）を当該指定管理者の収入として収受させることができる。
+    modality: kanou_kenri
+    references:
+    - 次項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p9-zen
+    type: zen_dan
+    text: 前項の場合における利用料金は、公益上必要があると認める場合を除くほか、条例の定めるところにより、指定管理者が定めるものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-244-2-p9-kou
+    type: kou_dan
+    text: この場合において、指定管理者は、あらかじめ当該利用料金について当該普通地方公共団体の承認を受けなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-244-2-p9-zen
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p10
+    type: simple
+    text: 普通地方公共団体の長又は委員会は、指定管理者の管理する公の施設の管理の適正を期するため、指定管理者に対して、当該管理の業務又は経理の状況に関し報告を求め、実地について調査し、又は必要な指示をすることができる。
+    modality: kanou_kenri
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-2-p11
+    type: simple
+    text: 普通地方公共団体は、指定管理者が前項の指示に従わないときその他当該指定管理者による管理を継続することが適当でないと認めるときは、その指定を取り消し、又は期間を定めて管理の業務の全部又は一部の停止を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

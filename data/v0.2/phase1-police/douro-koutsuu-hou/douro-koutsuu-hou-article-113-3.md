@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-113-3-p1
+    type: simple
+    text: この法律の規定に基づき警察官等が現場においてした処分については、審査請求をすることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

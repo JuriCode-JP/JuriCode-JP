@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-38-5-p1
+    type: simple
+    text: 法第三十二条の三第二項の規定により届出を行う金融商品取引業者の特定主要株主は、別紙様式第八号の三により作成した特定主要株主以外の主要株主となった旨の届出書に、当該届出書の写しを添付して、居住者にあってはその本店等の所在地（個人である場合にあっては、その住所又は居所）を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあっては、福岡財務支局長）に、非居住者にあっては関東財務局長に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

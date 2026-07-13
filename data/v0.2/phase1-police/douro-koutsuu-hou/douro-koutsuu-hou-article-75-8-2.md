@@ -16,22 +16,56 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-8-2-p1-zen
+    type: zen_dan
+    text: 牽けん引するための構造及び装置を有する大型自動車、中型自動車、準中型自動車、普通自動車又は大型特殊自動車（以下「牽けん引自動車」という。）で重被牽けん引車を牽けん引しているものが車両通行帯の設けられた自動車専用道路（次項に規定するものに限る。）又は高速自動車国道の本線車道を通行する場合における当該牽けん引自動車の通行の区分については、第二十条の規定は、適用しない。
+    modality: jogai
+    references:
+    - 次項
+  - id: douro-koutsuu-hou-art-75-8-2-p1-kou
+    type: kou_dan
+    text: この場合においては、次項から第四項までの規定に定めるところによる。
+    modality: unspecified
+    references:
+    - 次項
+    depends_on: douro-koutsuu-hou-art-75-8-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-8-2-p2
+    type: simple
+    text: 前項の牽けん引自動車は、車両通行帯の設けられた自動車専用道路（道路標識等により指定された区間に限る。）の本線車道においては、当該本線車道の左側端から数えて一番目の車両通行帯を通行しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-8-2-p3
+    type: simple
+    text: 第一項の牽けん引自動車は、車両通行帯の設けられた高速自動車国道の本線車道においては、当該本線車道の左側端から数えて一番目の車両通行帯（道路標識等により通行の区分が指定されているときは、当該通行の区分に係る車両通行帯）を通行しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-8-2-p4-zen
+    type: zen_dan
+    text: 第一項の牽けん引自動車は、第二十三条若しくは第七十五条の四の規定による自動車の最低速度に達しない速度で進行している自動車を追い越すとき、第二十六条の二第三項の規定によりその通行している車両通行帯をそのまま通行するとき、第四十条第二項の規定により一時進路を譲るとき、又は道路の状況その他の事情によりやむを得ないときは、前二項の規定によらないことができる。
+    modality: kanou_kenri
+    references:
+    - 前二項
+  - id: douro-koutsuu-hou-art-75-8-2-p4-kou
+    type: kou_dan
+    text: この場合において、追越しをするときは、その通行している車両通行帯の直近の右側の車両通行帯を通行しなければならない。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-75-8-2-p4-zen
 cases: []
 amendments: []
 tags:
@@ -63,3 +97,5 @@ parent_section:
 ### 第七十五条の八の二第四項
 
 第一項の牽けん引自動車は、第二十三条若しくは第七十五条の四の規定による自動車の最低速度に達しない速度で進行している自動車を追い越すとき、第二十六条の二第三項の規定によりその通行している車両通行帯をそのまま通行するとき、第四十条第二項の規定により一時進路を譲るとき、又は道路の状況その他の事情によりやむを得ないときは、前二項の規定によらないことができる。この場合において、追越しをするときは、その通行している車両通行帯の直近の右側の車両通行帯を通行しなければならない。
+
+（罰則　第二項から第四項までについては第百二十条第一項第三号、同条第三項）

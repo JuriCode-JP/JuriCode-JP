@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十四条
 
-<!-- segment: simple id: keisatsu-hou-art-14-p1 -->
 この法律に定めるものの外、国家公安委員会の運営に関し必要な事項は、国家公安委員会が定める。

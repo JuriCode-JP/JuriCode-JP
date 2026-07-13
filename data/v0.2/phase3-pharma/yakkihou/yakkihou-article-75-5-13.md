@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-13-p1
+    type: simple
+    text: 破産法（平成十六年法律第七十五号）、民事再生法（平成十一年法律第二百二十五号）、会社更生法（平成十四年法律第百五十四号）及び金融機関等の更生手続の特例等に関する法律（平成八年法律第九十五号）の規定の適用については、課徴金納付命令に係る課徴金の請求権及び第七十五条の五の十一第二項の規定による延滞金の請求権は、過料の請求権とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

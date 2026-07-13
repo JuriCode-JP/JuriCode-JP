@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-43-p1
+    type: simple
+    text: 指定紛争解決機関は、他の指定紛争解決機関又は他の法律の規定による指定であつて紛争解決等業務に相当する業務に係るものとして政令で定めるものを受けた者（第百五十六条の五十第四項及び第五項において「受託紛争解決機関」という。）以外の者に対して、苦情処理手続又は紛争解決手続の業務を委託してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-10-p1
+    type: simple
+    text: 株式交付親会社は、効力発生日後遅滞なく、株式交付に際して株式交付親会社が譲り受けた株式交付子会社の株式の数その他の株式交付に関する事項として法務省令で定める事項を記載し、又は記録した書面又は電磁的記録を作成しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-10-p2
+    type: simple
+    text: 株式交付親会社は、効力発生日から六箇月間、前項の書面又は電磁的記録をその本店に備え置かなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-10-p3-hashira
+    type: hashira
+    text: 株式交付親会社の株主（株式交付に際して株式交付子会社の株式及び新株予約権等の譲渡人に対して交付する金銭等（株式交付親会社の株式を除く。）が株式交付親会社の株式に準ずるものとして法務省令で定めるもののみである場合以外の場合にあっては、株主及び債権者）は、株式交付親会社に対して、その営業時間内は、いつでも、次に掲げる請求をすることができる。ただし、第二号又は第四号に掲げる請求をするには、当該株式交付親会社の定めた費用を支払わなければならない。
+    modality: gimu
+  - id: kaisha-hou-art-816-10-p3-kou-1
+    type: kou
+    text: 前項の書面の閲覧の請求
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-816-10-p3-kou-2
+    type: kou
+    text: 前項の書面の謄本又は抄本の交付の請求
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-816-10-p3-kou-3
+    type: kou
+    text: 前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-816-10-p3-kou-4
+    type: kou
+    text: 前項の電磁的記録に記録された事項を電磁的方法であって株式交付親会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -56,3 +90,11 @@ parent_section:
 ### 第八百十六条の十第三項
 
 株式交付親会社の株主（株式交付に際して株式交付子会社の株式及び新株予約権等の譲渡人に対して交付する金銭等（株式交付親会社の株式を除く。）が株式交付親会社の株式に準ずるものとして法務省令で定めるもののみである場合以外の場合にあっては、株主及び債権者）は、株式交付親会社に対して、その営業時間内は、いつでも、次に掲げる請求をすることができる。ただし、第二号又は第四号に掲げる請求をするには、当該株式交付親会社の定めた費用を支払わなければならない。
+
+一　前項の書面の閲覧の請求
+
+二　前項の書面の謄本又は抄本の交付の請求
+
+三　前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+
+四　前項の電磁的記録に記録された事項を電磁的方法であって株式交付親会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求

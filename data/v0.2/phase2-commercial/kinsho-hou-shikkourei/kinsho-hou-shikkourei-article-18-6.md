@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-6-p1-hashira
+    type: hashira
+    text: 法第七十九条の二十第三項第三号に規定する政令で定める取引は、次に掲げる取引とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-18-6-p1-kou-1
+    type: kou
+    text: 店頭デリバティブ取引
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-18-6-p1-kou-2
+    type: kou
+    text: 外国市場デリバティブ取引
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-18-6-p1-kou-3
+    type: kou
+    text: 電子記録移転権利又は第一条の十二第二号に規定する権利の売買その他の取引
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-18-6-p1-kou-4
+    type: kou
+    text: 前三号に掲げる取引に類するものとして金融庁長官及び財務大臣が指定する取引
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第十八条の六
 
 法第七十九条の二十第三項第三号に規定する政令で定める取引は、次に掲げる取引とする。
+
+一　店頭デリバティブ取引
+
+二　外国市場デリバティブ取引
+
+三　電子記録移転権利又は第一条の十二第二号に規定する権利の売買その他の取引
+
+四　前三号に掲げる取引に類するものとして金融庁長官及び財務大臣が指定する取引

@@ -13,35 +13,72 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-21-2-p1-honbun
+    type: honbun
+    text: 第二十五条第一項各号（第四号及び第七号を除く。）に掲げる書類（以下この条において「書類」という。）のうちに、重要な事項について虚偽の記載があり、又は記載すべき重要な事項若しくは誤解を生じさせないために必要な重要な事実の記載が欠けているときは、当該書類の提出者は、当該書類が同項の規定により公衆の縦覧に供されている間に当該書類（同項第十号に掲げる書類を除く。）の提出者又は当該書類（同号に掲げる書類に限る。）の提出者を親会社等（第二十四条の七第一項に規定する親会社等をいう。）とする者が発行者である有価証券を募集若しくは売出しによらないで取得した者又は処分した者に対し、第十九条第一項の規定の例により算出した額を超えない限度において、記載が虚偽であり、又は欠けていること（以下この条において「虚偽記載等」という。）により生じた損害を賠償する責めに任ずる。
+    modality: unspecified
+    references:
+    - 同項
+  - id: kinsho-hou-art-21-2-p1-tadashi
+    type: tadashi
+    text: ただし、当該有価証券を取得した者又は処分した者がその取得又は処分の際虚偽記載等を知つていたときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-21-2-p2
+    type: simple
+    text: 前項の場合において、賠償の責めに任ずべき者は、当該書類の虚偽記載等について故意又は過失がなかつたことを証明したときは、同項に規定する賠償の責めに任じない。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-21-2-p3
+    type: simple
+    text: 第一項本文の場合において、当該書類の虚偽記載等の事実の公表がされたときは、当該虚偽記載等の事実の公表がされた日（以下この項において「公表日」という。）前一年以内に当該有価証券を取得し、当該公表日において引き続き当該有価証券を所有する者は、当該公表日前一月間の当該有価証券の市場価額（市場価額がないときは、処分推定価額。以下この項において同じ。）の平均額から当該公表日後一月間の当該有価証券の市場価額の平均額を控除した額を、当該書類の虚偽記載等により生じた損害の額とすることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-21-2-p4
+    type: simple
+    text: 前項の「虚偽記載等の事実の公表」とは、当該書類の提出者又は当該提出者の業務若しくは財産に関し法令に基づく権限を有する者により、当該書類の虚偽記載等に係る記載すべき重要な事項又は誤解を生じさせないために必要な重要な事実について、第二十五条第一項の規定による公衆の縦覧その他の手段により、多数の者の知り得る状態に置く措置がとられたことをいう。
+    modality: teigi
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-21-2-p5
+    type: simple
+    text: 第三項の場合において、その賠償の責めに任ずべき者は、その請求権者が受けた損害の額の全部又は一部が、当該書類の虚偽記載等によつて生ずべき当該有価証券の値下り以外の事情により生じたことを証明したときは、その全部又は一部については、賠償の責めに任じない。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-21-2-p6
+    type: simple
+    text: 前項の場合を除くほか、第三項の場合において、その請求権者が受けた損害の全部又は一部が、当該書類の虚偽記載等によつて生ずべき当該有価証券の値下り以外の事情により生じたことが認められ、かつ、当該事情により生じた損害の性質上その額を証明することが極めて困難であるときは、裁判所は、口頭弁論の全趣旨及び証拠調べの結果に基づき、賠償の責めに任じない損害の額として相当な額の認定をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

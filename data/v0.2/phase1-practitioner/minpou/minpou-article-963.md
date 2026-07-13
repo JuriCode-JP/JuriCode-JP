@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九百六十三条
 
-<!-- segment: simple id: minpou-art-963-p1 -->
 遺言者は、遺言をする時においてその能力を有しなければならない。

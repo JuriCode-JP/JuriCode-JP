@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-45-3-2-p1
+    type: simple
+    text: 法第八十五条第三項（法第八十七条の五第二項及び第八十八条の三第二項において準用する場合を含む。）に規定する政令で定める物品は、日本国とアメリカ合衆国との間の相互防衛援助協定第六条１ｂに規定する資材、需品又は装備とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

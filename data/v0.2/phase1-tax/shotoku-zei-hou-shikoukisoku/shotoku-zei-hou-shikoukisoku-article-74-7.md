@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第百九十五条の四第一項第三号（給与所得者の基礎控除申告書）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-74-7-p1-kou-1
+    type: kou
+    text: 法第百九十五条の四第一項の規定による申告書を提出する者（次号において「申告者」という。）の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-74-7-p1-kou-2
+    type: kou
+    text: 申告者の合計所得金額の見積額に応じ、法第八十六条（基礎控除）の規定に準じて計算した基礎控除の額に相当する金額及びその計算の基礎
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-74-7-p1-kou-3
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +65,14 @@ parent_section:
 
 ### 第七十四条の七第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-74-7-p1-hashira -->
 法第百九十五条の四第一項第三号（給与所得者の基礎控除申告書）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第百九十五条の四第一項の規定による申告書を提出する者（次号において「申告者」という。）の氏名及び住所
+
+二　申告者の合計所得金額の見積額に応じ、法第八十六条（基礎控除）の規定に準じて計算した基礎控除の額に相当する金額及びその計算の基礎
+
+三　その他参考となるべき事項
 
 ### 第七十四条の七第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-74-7-p2 -->
 法第百九十五条の四第一項の規定による申告書を受理した同項に規定する給与等の支払者は、当該申告書に、当該給与等の支払者（個人を除く。）の法人番号を付記するものとする。

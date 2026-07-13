@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-29-2-2-p1-hashira
+    type: hashira
+    text: 法第百六十六条第二項第九号リに規定する政令で定める事項は、次に掲げるものとする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-29-2-2-p1-kou-1
+    type: kou
+    text: 投資信託及び投資法人に関する法律第百四十二条第一項の規定により行う同法第六十七条第四項に規定する最低純資産額の減少
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-29-2-2-p1-kou-2
+    type: kou
+    text: 金融商品取引所に対する投資証券（投資信託及び投資法人に関する法律に規定する投資証券をいう。以下この条において同じ。）の上場の廃止に係る申請
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-29-2-2-p1-kou-3
+    type: kou
+    text: 認可金融商品取引業協会に対する投資証券の登録の取消しに係る申請
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-29-2-2-p1-kou-4
+    type: kou
+    text: 認可金融商品取引業協会に対する取扱有価証券である投資証券の取扱有価証券としての指定の取消しに係る申請
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-shikkourei-art-29-2-2-p1-kou-5
+    type: kou
+    text: 破産手続開始又は再生手続開始の申立て
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-hou-shikkourei-art-29-2-2-p1-kou-6
+    type: kou
+    text: 法第百六十六条第六項第四号又は第百六十七条第五項第五号に規定する要請
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -34,3 +68,15 @@ parent_section:
 ### 第二十九条の二の二
 
 法第百六十六条第二項第九号リに規定する政令で定める事項は、次に掲げるものとする。
+
+一　投資信託及び投資法人に関する法律第百四十二条第一項の規定により行う同法第六十七条第四項に規定する最低純資産額の減少
+
+二　金融商品取引所に対する投資証券（投資信託及び投資法人に関する法律に規定する投資証券をいう。以下この条において同じ。）の上場の廃止に係る申請
+
+三　認可金融商品取引業協会に対する投資証券の登録の取消しに係る申請
+
+四　認可金融商品取引業協会に対する取扱有価証券である投資証券の取扱有価証券としての指定の取消しに係る申請
+
+五　破産手続開始又は再生手続開始の申立て
+
+六　法第百六十六条第六項第四号又は第百六十七条第五項第五号に規定する要請

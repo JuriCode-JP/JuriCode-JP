@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九条の十四
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-9-14-p1 -->
 法第七十一条の二十五第一項の政令で定める率は、百分の九十九とする。

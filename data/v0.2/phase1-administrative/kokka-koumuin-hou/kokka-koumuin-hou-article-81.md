@@ -22,8 +22,18 @@ paragraphs:
     text: 次に掲げる職員の分限（定年に係るものを除く。次項において同じ。）については、第七十五条、第七十八条から前条まで及び第八十九条並びに行政不服審査法（平成二十六年法律第六十八号）の規定は、適用しない。
     modality: jogai
     references:
-    - 次項
     - 前条
+    - 次項
+  - id: kokka-koumuin-hou-art-81-p1-kou-1
+    type: kou
+    text: 臨時的職員
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-81-p1-kou-2
+    type: kou
+    text: 条件付採用期間中の職員
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -57,10 +67,12 @@ parent_section:
 
 ### 第八十一条第一項
 
-<!-- segment: hashira id: kokka-koumuin-hou-art-81-p1-hashira -->
 次に掲げる職員の分限（定年に係るものを除く。次項において同じ。）については、第七十五条、第七十八条から前条まで及び第八十九条並びに行政不服審査法（平成二十六年法律第六十八号）の規定は、適用しない。
+
+一　臨時的職員
+
+二　条件付採用期間中の職員
 
 ### 第八十一条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-81-p2 -->
 前項各号に掲げる職員の分限については、人事院規則で必要な事項を定めることができる。

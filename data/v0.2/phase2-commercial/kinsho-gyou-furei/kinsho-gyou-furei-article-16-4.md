@@ -16,12 +16,30 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-16-4-p1
+    type: simple
+    text: 令第十五条の十の八第一号に規定する内閣府令で定める措置は、当該財産的価値を適格投資家以外の者に移転することができないようにする技術的措置とする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-16-4-p2-hashira
+    type: hashira
+    text: 令第十五条の十の八第二号に規定する内閣府令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-16-4-p2-kou-1
+    type: kou
+    text: 当該取得しようとする者が当該取得勧誘（法第二条第三項に規定する取得勧誘をいう。次号において同じ。）に応じて取得した当該有価証券を適格投資家以外の者に譲渡しないこと。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-16-4-p2-kou-2
+    type: kou
+    text: 当該取得しようとする者が当該取得勧誘に応じて取得した当該有価証券を譲渡する場合には、その相手方に対し、当該有価証券の売付け勧誘等（法第二条第四項に規定する売付け勧誘等をいう。以下この号において同じ。）を行う者と当該売付け勧誘等に応じて当該有価証券の買付けを行おうとする者との間において、当該買付けを行おうとする者が買い付けた当該有価証券を適格投資家以外の者に譲渡を行わない旨を定めた譲渡に係る契約を締結することが買付けの条件とされていることを告知すべきこと。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -47,3 +65,7 @@ parent_section:
 ### 第十六条の四第二項
 
 令第十五条の十の八第二号に規定する内閣府令で定める事項は、次に掲げる事項とする。
+
+一　当該取得しようとする者が当該取得勧誘（法第二条第三項に規定する取得勧誘をいう。次号において同じ。）に応じて取得した当該有価証券を適格投資家以外の者に譲渡しないこと。
+
+二　当該取得しようとする者が当該取得勧誘に応じて取得した当該有価証券を譲渡する場合には、その相手方に対し、当該有価証券の売付け勧誘等（法第二条第四項に規定する売付け勧誘等をいう。以下この号において同じ。）を行う者と当該売付け勧誘等に応じて当該有価証券の買付けを行おうとする者との間において、当該買付けを行おうとする者が買い付けた当該有価証券を適格投資家以外の者に譲渡を行わない旨を定めた譲渡に係る契約を締結することが買付けの条件とされていることを告知すべきこと。

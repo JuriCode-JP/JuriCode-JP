@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-26-p1-zen
+    type: zen_dan
+    text: 法第六十八条の十五第三項の規定により機構に対して行う報告については、前条の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+  - id: yakkihou-shikoukisoku-art-228-26-p1-kou
+    type: kou_dan
+    text: この場合において、同条第一項中「法第六十八条の十四第一項」とあるのは「法第六十八条の十五第三項」と、「厚生労働大臣」とあるのは「機構」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-228-26-p1-zen
 cases: []
 amendments: []
 tags:

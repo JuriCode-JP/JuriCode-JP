@@ -14,24 +14,58 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-45-p1-hashira
+    type: hashira
+    text: 市町村長は、次の各号のいずれかに該当するときは、第二百六十条の三十九第三項の認可を取り消すことができる。
+    modality: koka_torikeshi
+  - id: chihou-jichi-hou-art-260-45-p1-kou-1
+    type: kou
+    text: 第二百六十条の三十九第三項の認可をした日から六月を経過しても第二百六十条の四十一第三項の規定による届出がないとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-260-45-p1-kou-2
+    type: kou
+    text: 認可地縁団体が不正な手段により第二百六十条の三十九第三項の認可を受けたとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-45-p2
+    type: simple
+    text: 前条第一項の規定による告示後に前項（第二号に係る部分に限る。）の規定により第二百六十条の三十九第三項の認可が取り消されたときは、当該認可に係る合併をした認可地縁団体は、当該合併の効力が生じた日後に合併後存続した認可地縁団体又は合併により設立した認可地縁団体が負担した債務について、連帯して弁済する責任を負う。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-45-p3
+    type: simple
+    text: 前項に規定する場合には、当該合併の効力が生じた日後に合併後存続した認可地縁団体又は合併により設立した認可地縁団体が取得した財産は、当該合併をした認可地縁団体の共有に属する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-45-p4
+    type: simple
+    text: 前二項に規定する場合には、各認可地縁団体の第二項の債務の負担部分及び前項の財産の共有持分は、各認可地縁団体の協議によつて定める。
+    modality: unspecified
+    references:
+    - 前二項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -51,6 +85,10 @@ parent_section:
 ### 第二百六十条の四十五第一項
 
 市町村長は、次の各号のいずれかに該当するときは、第二百六十条の三十九第三項の認可を取り消すことができる。
+
+一　第二百六十条の三十九第三項の認可をした日から六月を経過しても第二百六十条の四十一第三項の規定による届出がないとき。
+
+二　認可地縁団体が不正な手段により第二百六十条の三十九第三項の認可を受けたとき。
 
 ### 第二百六十条の四十五第二項
 

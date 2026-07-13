@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-4-4-p1
+    type: simple
+    text: 政令第三十七条の二の五第二号に規定する総務省令で定める宿舎は、独立行政法人労働者健康安全機構法（平成十四年法律第百七十一号）第十二条第一項第一号の療養施設に係る看護師が使用するものとされている宿舎とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-4-4-p2
+    type: simple
+    text: 政令第三十七条の二の五第三号に規定する総務省令で定める施設は、飲食店、喫茶店及び物品販売施設（これらの施設のうち独立行政法人労働者健康安全機構法第十二条第一項第一号の療養施設及び同項第七号の納骨堂の利用者の利便に供することを目的とするものを除く。）並びに駐車施設とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

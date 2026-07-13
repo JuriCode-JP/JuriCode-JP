@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三十二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-32-p1 -->
 公訴の提起前にした弁護人の選任は、第一審においてもその効力を有する。
 
 ### 第三十二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-32-p2 -->
 公訴の提起後における弁護人の選任は、審級ごとにこれをしなければならない。

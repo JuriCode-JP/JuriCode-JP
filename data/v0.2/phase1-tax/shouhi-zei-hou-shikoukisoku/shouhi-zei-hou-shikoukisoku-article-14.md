@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第二十五条に規定する届出に係る書面には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-14-p1-kou-1
+    type: kou
+    text: 届出者の名称、本店又は主たる事務所の所在地及び法人番号（法人番号を有しない者にあつては、名称及び本店又は主たる事務所の所在地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-14-p1-kou-2
+    type: kou
+    text: 異動前の納税地及び異動後の納税地
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-14-p1-kou-3
+    type: kou
+    text: 当該異動があつた年月日
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikoukisoku-art-14-p1-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -37,5 +57,12 @@ parent_section:
 
 ### 第十四条
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-14-p1-hashira -->
 法第二十五条に規定する届出に係る書面には、次に掲げる事項を記載しなければならない。
+
+一　届出者の名称、本店又は主たる事務所の所在地及び法人番号（法人番号を有しない者にあつては、名称及び本店又は主たる事務所の所在地）
+
+二　異動前の納税地及び異動後の納税地
+
+三　当該異動があつた年月日
+
+四　その他参考となるべき事項

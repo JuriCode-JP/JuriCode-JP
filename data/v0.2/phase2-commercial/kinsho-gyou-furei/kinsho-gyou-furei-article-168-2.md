@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-168-2-p1
+    type: simple
+    text: 第百五十七条第一項第十六号ロの投資顧問契約に基づく助言の内容を記載した書面は、音声を記録することができる記録媒体であって当該助言の内容を容易に検索することができるように体系的に構成する方式により記録したものをもってこれに代えることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

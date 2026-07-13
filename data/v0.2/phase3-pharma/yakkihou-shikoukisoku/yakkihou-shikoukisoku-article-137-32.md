@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-32-p1
+    type: simple
+    text: 再生医療等製品適合性調査を行つた者が令第四十三条の二十五の規定により都道府県知事に対して行う再生医療等製品適合性調査の結果の通知は、様式第七十五の六による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

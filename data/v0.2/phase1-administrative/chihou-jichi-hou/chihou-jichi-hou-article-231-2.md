@@ -16,27 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-p1
+    type: simple
+    text: 普通地方公共団体は、使用料又は手数料の徴収については、条例の定めるところにより、証紙による収入の方法によることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-p2
+    type: simple
+    text: 証紙による収入の方法による場合においては、証紙の売りさばき代金をもつて歳入とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-p3
+    type: simple
+    text: 証紙による収入の方法によるものを除くほか、普通地方公共団体の歳入は、第二百三十五条の規定により金融機関が指定されている場合においては、政令の定めるところにより、口座振替の方法により、又は証券をもつて納付することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-p4
+    type: simple
+    text: 前項の規定により納付された証券を支払の提示期間内又は有効期間内に提示し、支払の請求をした場合において、支払の拒絶があつたときは、当該歳入は、はじめから納付がなかつたものとみなす。この場合における当該証券の処分に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-p5
+    type: simple
+    text: 証紙による収入の方法によるものを除くほか、普通地方公共団体の歳入については、第二百三十五条の規定により金融機関を指定していない市町村においては、政令の定めるところにより、納入義務者から証券の提供を受け、その証券の取立て及びその取り立てた金銭による納付の委託を受けることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-16-p1
+    type: simple
+    text: 当該徴税吏員は、運搬又は保管に不便な領置物件、差押物件又は記録命令付差押物件を、その所有者又は所持者その他当該徴税吏員が適当と認める者に、その承諾を得て、保管証を徴して保管させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-16-p2
+    type: simple
+    text: 地方団体の長は、領置物件又は差押物件が腐敗し、若しくは変質したとき、又は腐敗若しくは変質のおそれがあるときは、政令で定めるところにより、公告した後これを公売に付し、その代金を供託することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

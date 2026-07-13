@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十二条の十
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-52-10-p1 -->
 削除

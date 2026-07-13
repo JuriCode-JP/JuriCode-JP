@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-224-2-p1
+    type: simple
+    text: 第二百七条の二第二項の規定による勾留状に代わるものの交付があつた場合における前条第二項後段において準用する第百六十七条の二第二項において準用する第九十八条の規定の適用については、同条第一項中「勾留状の謄本」とあるのは、「第二百七条の二第二項本文の勾留状に代わるもの」とする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

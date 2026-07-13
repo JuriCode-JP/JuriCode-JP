@@ -24,6 +24,21 @@ paragraphs:
     override_flag: true
     override_target:
     - 第九条
+  - id: sochi-hou-art-84-6-p1-kou-1
+    type: kou
+    text: 動産の譲渡の登記　一件につき七千五百円
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-art-84-6-p1-kou-2
+    type: kou
+    text: 債権の譲渡又は質権の設定の登記　一件につき七千五百円
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-art-84-6-p1-kou-3
+    type: kou
+    text: 前二号に掲げる登記の存続期間を延長する登記　一件につき三千円
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -51,10 +66,14 @@ parent_section:
 
 ### 第八十四条の六第一項
 
-<!-- segment: tokusoku id: sochi-hou-art-84-6-p1 override_flag: true override_target: 第九条 -->
 個人又は法人が、登録免許税法別表第一第九号の動産の譲渡又は債権の譲渡若しくは質権の設定について次の各号に掲げる登記（第二号に掲げる登記にあつては、同号の債権又は同号の質権の目的とされた債権の個数が五千個以下であるものに限る。）を受ける場合には、当該登記に係る登録免許税の税率は、同法第九条の規定にかかわらず、当該各号に掲げる登記の区分に応じ、当該各号に定める金額とする。
+
+一　動産の譲渡の登記　一件につき七千五百円
+
+二　債権の譲渡又は質権の設定の登記　一件につき七千五百円
+
+三　前二号に掲げる登記の存続期間を延長する登記　一件につき三千円
 
 ### 第八十四条の六第二項
 
-<!-- segment: simple id: sochi-hou-art-84-6-p2 -->
 前項の債権又は質権の目的とされた債権の個数の算定方法は、財務省令で定める。

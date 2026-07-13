@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-3-10-p1
+    type: simple
+    text: 法第七十二条の四十九の十三に規定する個人の事業が行われる場所で政令で定めるものは、同条の個人が法の施行地外に有する恒久的施設に相当するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

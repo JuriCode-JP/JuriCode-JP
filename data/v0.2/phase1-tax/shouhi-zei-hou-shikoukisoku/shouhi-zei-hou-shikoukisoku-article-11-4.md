@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十一条の四
 
-<!-- segment: simple id: shouhi-zei-hou-shikoukisoku-art-11-4-p1 -->
 法第十五条第三項に規定する受託事業者は、法第四十六条の二第二項に規定する特定法人に該当しないものとする。

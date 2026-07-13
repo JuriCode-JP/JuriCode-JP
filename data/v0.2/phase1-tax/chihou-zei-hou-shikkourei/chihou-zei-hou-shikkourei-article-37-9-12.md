@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-9-12-p1-hashira
+    type: hashira
+    text: 法第七十三条の四第一項第三十九号に規定する国立研究開発法人医薬基盤・健康・栄養研究所が国立研究開発法人医薬基盤・健康・栄養研究所法（平成十六年法律第百三十五号）第十五条第一項第四号から第六号まで又は第二項に規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-9-12-p1-kou-1
+    type: kou
+    text: 事務所の用に供する不動産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-9-12-p1-kou-2
+    type: kou
+    text: 宿舎の用に供する不動産
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第三十七条の九の十二
 
 法第七十三条の四第一項第三十九号に規定する国立研究開発法人医薬基盤・健康・栄養研究所が国立研究開発法人医薬基盤・健康・栄養研究所法（平成十六年法律第百三十五号）第十五条第一項第四号から第六号まで又は第二項に規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する不動産
+
+二　宿舎の用に供する不動産

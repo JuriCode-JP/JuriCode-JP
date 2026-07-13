@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十四条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-34-p1 -->
 法第十三条の二第四項の規定による調査の結果の通知は、地方厚生局長に対し、様式第十七による通知書によつて行うものとする。

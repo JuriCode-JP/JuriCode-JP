@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-10-11-p1-hashira
+    type: hashira
+    text: 法第三百四十九条の三第三十一項に規定する政令で定める償却資産は、国立研究開発法人日本医療研究開発機構法（平成二十六年法律第四十九号）第十六条第一号又は第二号に規定する業務のうち次に掲げるもので総務省令で定めるものの用に供する償却資産（事務所又は宿舎の用に供するものを除く。）とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-52-10-11-p1-kou-1
+    type: kou
+    text: 医療分野の基礎研究又は医療分野の基盤的研究開発（医療分野の共通的な研究開発又は医療分野の研究開発であつて多数部門の協力を要する総合的なものをいう。）に係る業務
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-52-10-11-p1-kou-2
+    type: kou
+    text: 治験又は臨床研究に係る業務（その実施に要する費用について国から出資又は補助を受けて行われるものに限る。）
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-52-10-11-p1-kou-3
+    type: kou
+    text: 前二号に掲げるもののほか、企業化が困難な技術に関する医療分野の研究開発（その実施に要する費用の全額について国から出資又は補助を受けて行われるものに限る。）
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第五十二条の十の十一
 
 法第三百四十九条の三第三十一項に規定する政令で定める償却資産は、国立研究開発法人日本医療研究開発機構法（平成二十六年法律第四十九号）第十六条第一号又は第二号に規定する業務のうち次に掲げるもので総務省令で定めるものの用に供する償却資産（事務所又は宿舎の用に供するものを除く。）とする。
+
+一　医療分野の基礎研究又は医療分野の基盤的研究開発（医療分野の共通的な研究開発又は医療分野の研究開発であつて多数部門の協力を要する総合的なものをいう。）に係る業務
+
+二　治験又は臨床研究に係る業務（その実施に要する費用について国から出資又は補助を受けて行われるものに限る。）
+
+三　前二号に掲げるもののほか、企業化が困難な技術に関する医療分野の研究開発（その実施に要する費用の全額について国から出資又は補助を受けて行われるものに限る。）

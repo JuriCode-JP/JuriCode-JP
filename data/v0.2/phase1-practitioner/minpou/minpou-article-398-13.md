@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-13-p1
+    type: simple
+    text: 元本の確定前においては、根抵当権者は、根抵当権設定者の承諾を得て、その根抵当権の一部譲渡（譲渡人が譲受人と根抵当権を共有するため、これを分割しないで譲り渡すことをいう。以下この節において同じ。）をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

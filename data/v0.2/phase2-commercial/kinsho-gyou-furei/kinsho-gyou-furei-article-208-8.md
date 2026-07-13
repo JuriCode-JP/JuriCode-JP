@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-8-p1
+    type: simple
+    text: 法第五十七条の二第四項に規定する内閣府令で定めるものは、同条第二項第三号及び第四号に掲げる書類とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

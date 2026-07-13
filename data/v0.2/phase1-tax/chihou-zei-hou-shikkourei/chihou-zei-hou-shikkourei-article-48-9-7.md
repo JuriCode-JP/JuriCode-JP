@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-7-p1
+    type: simple
+    text: 法第三百十七条の二第一項に規定する政令で定める社会保険料控除額は、第八条の二に規定する社会保険料の金額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

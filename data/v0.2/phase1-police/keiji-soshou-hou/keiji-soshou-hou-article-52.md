@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-52-p1 -->
 公判期日における訴訟手続で公判調書に記載されたものは、公判調書のみによつてこれを証明することができる。

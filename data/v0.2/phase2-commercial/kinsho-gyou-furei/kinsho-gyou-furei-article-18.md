@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第三十条の三第二項に規定する内閣府令で定める書類は、次に掲げる書類とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-18-p1-kou-1
+    type: kou
+    text: 私設取引システム運営業務を管理する責任者の履歴書
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-18-p1-kou-2
+    type: kou
+    text: 私設取引システム運営業務に関する社内規則
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-18-p1-kou-3
+    type: kou
+    text: 私設取引システム運営業務に関し顧客と取引を行う際に使用する契約書類
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-18-p1-kou-4
+    type: kou
+    text: 前条第八号に掲げるものに関する認可申請者と特別の利害関係のない者の評価書
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -41,5 +61,12 @@ parent_section:
 
 ### 第十八条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-18-p1-hashira -->
 法第三十条の三第二項に規定する内閣府令で定める書類は、次に掲げる書類とする。
+
+一　私設取引システム運営業務を管理する責任者の履歴書
+
+二　私設取引システム運営業務に関する社内規則
+
+三　私設取引システム運営業務に関し顧客と取引を行う際に使用する契約書類
+
+四　前条第八号に掲げるものに関する認可申請者と特別の利害関係のない者の評価書

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-11-p1
+    type: simple
+    text: 登録認証機関は、厚生労働省令で定めるところにより、帳簿を備え付け、これに基準適合性認証の業務に関する事項で厚生労働省令で定めるものを記載し、及びこれを保存しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

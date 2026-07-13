@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-8-p1
+    type: simple
+    text: 株式等売渡請求があった場合には、売渡株主等は、取得日の二十日前の日から取得日の前日までの間に、裁判所に対し、その有する売渡株式等の売買価格の決定の申立てをすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-8-p2
+    type: simple
+    text: 特別支配株主は、裁判所の決定した売買価格に対する取得日後の法定利率による利息をも支払わなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-8-p3
+    type: simple
+    text: 特別支配株主は、売渡株式等の売買価格の決定があるまでは、売渡株主等に対し、当該特別支配株主が公正な売買価格と認める額を支払うことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

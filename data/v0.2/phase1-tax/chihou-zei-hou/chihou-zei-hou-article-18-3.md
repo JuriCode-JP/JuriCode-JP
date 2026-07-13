@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-18-3-p1
+    type: simple
+    text: 地方団体の徴収金の過誤納により生ずる地方団体に対する請求権及びこの法律の規定による還付金に係る地方団体に対する請求権（以下第二十条の九において「還付金に係る債権」という。）は、その請求をすることができる日から五年を経過したときは、時効により消滅する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-18-3-p2
+    type: junyou
+    text: 第十八条第二項及び第三項の規定は、前項の場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

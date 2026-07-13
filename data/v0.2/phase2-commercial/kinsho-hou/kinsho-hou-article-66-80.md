@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-80-p1-honbun
+    type: honbun
+    text: 投資運用関係業務受託業者は、他の者に投資運用関係業務（当該投資運用関係業務を行うことにつき第六十六条の七十一の登録又は第六十六条の七十五第四項の変更登録を受けているものに限る。次項において同じ。）を委託してはならない。
+    modality: gimu_negative
+    references:
+    - 次項
+  - id: kinsho-hou-art-66-80-p1-tadashi
+    type: tadashi
+    text: ただし、内閣総理大臣の承認を受けたときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-80-p2
+    type: simple
+    text: 内閣総理大臣は、前項ただし書の承認の申請があつた場合には、投資運用関係業務の委託（二以上の段階にわたる委託を含む。）を行うことが承認申請者に当該投資運用関係業務を委託した者における投資運用業等の適確な遂行に支障を及ぼすおそれがあると認められるときに限り、承認しないものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-28-p1
+    type: simple
+    text: 裁判所は、第三百五十条の二十二の決定があつた事件については、できる限り、即日判決の言渡しをしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-10-5-p1
+    type: simple
+    text: 法第六十条の十四第二項において準用する法第六十条の三第一項第一号ホに規定する政令で定める金額は、三億円とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-10-5-p2
+    type: simple
+    text: 法第六十条の十四第二項において準用する法第六十条の三第一項第一号ホの資本金の額を本邦通貨に換算する場合には、許可申請時における外国為替相場によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

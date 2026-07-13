@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-17-p1
+    type: simple
+    text: 内閣総理大臣は、金融商品取引清算機関がその免許を受けた当時既に第百五十六条の四第二項各号のいずれかに該当していたことが判明したときは、その免許を取り消すことができる。
+    modality: koka_torikeshi
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-17-p2
+    type: simple
+    text: 内閣総理大臣は、金融商品取引清算機関が法令、法令に基づく行政官庁の処分又は第百五十六条の六第二項ただし書若しくは第百五十六条の十九第一項の承認に付した条件に違反したときは、第百五十六条の二の免許若しくは第百五十六条の六第二項ただし書若しくは第百五十六条の十九第一項の承認を取り消し、六月以内の期間を定めてその業務の全部若しくは一部の停止を命じ、又はその役員の解任を命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

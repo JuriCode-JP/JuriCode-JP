@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-3-p1
+    type: simple
+    text: 厚生労働大臣、都道府県知事、保健所を設置する市の市長又は特別区の区長は、この章の規定による権限の行使が円滑に行われるよう、情報交換を行い、相互に緊密な連携を図りながら協力しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

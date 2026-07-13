@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第五十二条第二項（減価償却資産の償却の方法の変更手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-15-p1-kou-1
+    type: kou
+    text: 申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-15-p1-kou-2
+    type: kou
+    text: その償却の方法を変更しようとする減価償却資産の種類及び構造若しくは用途、細目又は設備の種類の区分（二以上の事業所又は船舶を有する内国法人で事業所又は船舶ごとに償却の方法を選定していないものが事業所又は船舶ごとに償却の方法を選定しようとする場合にあつては、事業所又は船舶ごとのこれらの区分）
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-15-p1-kou-3
+    type: kou
+    text: 現によつている償却の方法及びその償却の方法を採用した日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-15-p1-kou-4
+    type: kou
+    text: 採用しようとする新たな償却の方法
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-15-p1-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +68,14 @@ parent_section:
 
 ### 第十五条
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-15-p1-hashira -->
 令第五十二条第二項（減価償却資産の償却の方法の変更手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　その償却の方法を変更しようとする減価償却資産の種類及び構造若しくは用途、細目又は設備の種類の区分（二以上の事業所又は船舶を有する内国法人で事業所又は船舶ごとに償却の方法を選定していないものが事業所又は船舶ごとに償却の方法を選定しようとする場合にあつては、事業所又は船舶ごとのこれらの区分）
+
+三　現によつている償却の方法及びその償却の方法を採用した日
+
+四　採用しようとする新たな償却の方法
+
+五　その他参考となるべき事項

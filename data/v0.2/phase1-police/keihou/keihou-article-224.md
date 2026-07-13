@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百二十四条
 
-<!-- segment: simple id: keihou-art-224-p1 -->
 未成年者を略取し、又は誘拐した者は、三月以上七年以下の拘禁刑に処する。

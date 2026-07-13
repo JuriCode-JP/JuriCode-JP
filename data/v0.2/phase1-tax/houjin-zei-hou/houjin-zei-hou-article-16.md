@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十六条
 
-<!-- segment: simple id: houjin-zei-hou-art-16-p1 -->
 内国法人の法人税の納税地は、その本店又は主たる事務所の所在地とする。

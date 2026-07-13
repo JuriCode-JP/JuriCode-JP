@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-20-2-p1
+    type: simple
+    text: 登記所は、第三百八十二条第一項（同条第二項において準用する場合を含む。）の規定により市町村長に通知したときは、遅滞なく、当該市町村を包括する道府県の知事にも通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

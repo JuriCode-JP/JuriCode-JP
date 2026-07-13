@@ -16,12 +16,30 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-16-p1
+    type: tokusoku
+    text: 第十七条第五項及び第十項並びに第二十三条の二の十四第五項及び第十項の規定にかかわらず、生物由来製品の製造業者は、当該生物由来製品の製造については、厚生労働大臣の承認を受けて自らその製造を実地に管理する場合のほか、その製造を実地に管理させるために、製造所（医療機器又は体外診断用医薬品たる生物由来製品にあつては、その製造工程のうち第二十三条の二の三第一項に規定する設計、組立て、滅菌その他の厚生労働省令で定めるものをするものに限る。）ごとに、厚生労働大臣の承認を受けて、医師、細菌学的知識を有する者その他の技術者を置かなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第十項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-16-p2-zen
+    type: zen_dan
+    text: 前項に規定する生物由来製品の製造を管理する者については、第七条第四項及び第八条第一項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
+  - id: yakkihou-art-68-16-p2-kou
+    type: kou_dan
+    text: この場合において、第七条第四項中「その薬局の所在地の都道府県知事」とあるのは、「厚生労働大臣」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-art-68-16-p2-zen
 cases: []
 amendments: []
 tags:

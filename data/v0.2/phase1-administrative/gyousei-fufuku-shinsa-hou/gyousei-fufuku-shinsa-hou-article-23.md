@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十三条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-23-p1 -->
 審査請求書が第十九条の規定に違反する場合には、審査庁は、相当の期間を定め、その期間内に不備を補正すべきことを命じなければならない。

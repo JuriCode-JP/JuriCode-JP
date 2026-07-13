@@ -34,5 +34,4 @@ tags:
 
 ### 第三条の六
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-3-6-p1 -->
 削除

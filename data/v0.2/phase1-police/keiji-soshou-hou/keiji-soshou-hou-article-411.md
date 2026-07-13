@@ -14,13 +14,38 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-411-p1
     type: simple
     text: 上告裁判所は、第四百五条各号に規定する事由がない場合であつても、左の事由があつて原判決を破棄しなければ著しく正義に反すると認めるときは、判決で原判決を破棄することができる。
     modality: kanou_kenri
+  - id: keiji-soshou-hou-art-411-p1-kou-1
+    type: kou
+    text: 判決に影響を及ぼすべき法令の違反があること。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-411-p1-kou-2
+    type: kou
+    text: 刑の量定が甚しく不当であること。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-411-p1-kou-3
+    type: kou
+    text: 判決に影響を及ぼすべき重大な事実の誤認があること。
+    modality: unspecified
+    item_number: 3
+  - id: keiji-soshou-hou-art-411-p1-kou-4
+    type: kou
+    text: 再審の請求をすることができる場合にあたる事由があること。
+    modality: unspecified
+    item_number: 4
+  - id: keiji-soshou-hou-art-411-p1-kou-5
+    type: kou
+    text: 判決があつた後に刑の廃止若しくは変更又は大赦があつたこと。
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -39,5 +64,14 @@ parent_section:
 
 ### 第四百十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-411-p1 -->
 上告裁判所は、第四百五条各号に規定する事由がない場合であつても、左の事由があつて原判決を破棄しなければ著しく正義に反すると認めるときは、判決で原判決を破棄することができる。
+
+一　判決に影響を及ぼすべき法令の違反があること。
+
+二　刑の量定が甚しく不当であること。
+
+三　判決に影響を及ぼすべき重大な事実の誤認があること。
+
+四　再審の請求をすることができる場合にあたる事由があること。
+
+五　判決があつた後に刑の廃止若しくは変更又は大赦があつたこと。

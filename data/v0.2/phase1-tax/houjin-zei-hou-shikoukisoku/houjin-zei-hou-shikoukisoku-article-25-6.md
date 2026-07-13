@@ -21,6 +21,35 @@ paragraphs:
     type: hashira
     text: 法第五十二条第七項（貸倒引当金）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-25-6-p1-kou-1
+    type: kou
+    text: 法第五十二条第五項又は第六項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-25-6-p1-kou-2
+    type: kou
+    text: 法第五十二条第五項に規定する適格分割等（次号において「適格分割等」という。）に係る分割承継法人、被現物出資法人又は被現物分配法人の名称及び納税地並びに代表者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-25-6-p1-kou-3
+    type: kou
+    text: 適格分割等の日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-25-6-p1-kou-4
+    type: kou
+    text: '次に掲げる事項
+
+      イ 法第五十二条第五項に規定する期中個別貸倒引当金勘定の金額に相当する金額及び個別貸倒引当金繰入限度額に相当する金額並びにこれらの金額の計算に関する明細
+
+      ロ 法第五十二条第六項に規定する期中一括貸倒引当金勘定の金額に相当する金額及び一括貸倒引当金繰入限度額に相当する金額並びにこれらの金額の計算に関する明細'
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-25-6-p1-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +72,18 @@ parent_section:
 
 ### 第二十五条の六
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-25-6-p1-hashira -->
 法第五十二条第七項（貸倒引当金）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第五十二条第五項又は第六項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　法第五十二条第五項に規定する適格分割等（次号において「適格分割等」という。）に係る分割承継法人、被現物出資法人又は被現物分配法人の名称及び納税地並びに代表者の氏名
+
+三　適格分割等の日
+
+四　次に掲げる事項
+
+　イ　法第五十二条第五項に規定する期中個別貸倒引当金勘定の金額に相当する金額及び個別貸倒引当金繰入限度額に相当する金額並びにこれらの金額の計算に関する明細
+
+　ロ　法第五十二条第六項に規定する期中一括貸倒引当金勘定の金額に相当する金額及び一括貸倒引当金繰入限度額に相当する金額並びにこれらの金額の計算に関する明細
+
+五　その他参考となるべき事項

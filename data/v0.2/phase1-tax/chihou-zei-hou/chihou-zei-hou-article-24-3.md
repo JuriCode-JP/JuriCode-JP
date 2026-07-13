@@ -13,20 +13,44 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-24-3-p1-honbun
+    type: honbun
+    text: 信託財産について生ずる所得については、信託の受益者（受益者としての権利を現に有するものに限る。）が当該信託の信託財産に属する資産及び負債を有するものとみなして、この節及び第五章第二節の規定を適用する。
+    modality: unspecified
+  - id: chihou-zei-hou-art-24-3-p1-tadashi
+    type: tadashi
+    text: ただし、集団投資信託（所得税法第十三条第三項第一号に規定する集団投資信託をいう。）、退職年金等信託（同項第二号に規定する退職年金等信託をいう。）又は法人課税信託の信託財産について生ずる所得については、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-24-3-p2
+    type: simple
+    text: 信託の変更をする権限（軽微な変更をする権限として政令で定めるものを除く。）を現に有し、かつ、当該信託の信託財産の給付を受けることとされている者（受益者を除く。）は、前項に規定する受益者とみなして、同項の規定を適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-24-3-p3
+    type: simple
+    text: 受益者が二以上ある場合における第一項の規定の適用、前項に規定する信託財産の給付を受けることとされている者に該当するかどうかの判定その他前二項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-10-p1
+    type: simple
+    text: 法第五十七条の十六に規定する最終指定親会社になつた日から起算して政令で定める期間は、一月とする。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-10-p2-honbun
+    type: honbun
+    text: 法第五十七条の十六に規定する毎事業年度経過後政令で定める期間は、四月とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-17-2-10-p2-tadashi
+    type: tadashi
+    text: ただし、外国会社である最終指定親会社（法第五十七条の十二第三項に規定する最終指定親会社をいう。次条第三項及び第十七条の二の十二第二項において同じ。）が、その本国の法令又は慣行その他やむを得ない理由により、その事業年度経過後四月を経過した日から法第五十七条の十六の説明書類を備え置いて公衆の縦覧に供し、又は同条に規定する内閣府令で定めるところによりインターネットの利用その他の方法により公表することができないと認められる場合には、内閣府令で定めるところにより、金融庁長官の承認を受けた期間とする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

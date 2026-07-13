@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-81-8-p1
+    type: simple
+    text: 内閣総理大臣は、職員の定年に関する事務の適正な運営を確保するため、各行政機関が行う当該事務の運営に関し必要な調整を行うほか、職員の定年に関する制度の実施に関する施策を調査研究し、その権限に属する事項について適切な方策を講ずるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

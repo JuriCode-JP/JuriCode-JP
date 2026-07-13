@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-45-p1 -->
 判決以外の裁判は、判事補が一人でこれをすることができる。

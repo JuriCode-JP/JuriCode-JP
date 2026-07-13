@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十三条
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-33-p1 -->
 法第百六十四条第九項に規定する内閣府令で定める場合は、第三十条第一項各号に掲げる場合とする。

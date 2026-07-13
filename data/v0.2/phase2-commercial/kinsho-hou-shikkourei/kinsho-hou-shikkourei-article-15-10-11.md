@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-10-11-p1
+    type: simple
+    text: 法第三十条第一項ただし書に規定する政令で定める基準は、四半期（法第四十六条の六第三項に規定する四半期をいう。第十七条の二の三第三項において同じ。）当たり六百億円とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

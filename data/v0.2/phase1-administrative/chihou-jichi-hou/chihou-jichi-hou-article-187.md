@@ -61,15 +61,12 @@ parent_section:
 
 ### 第百八十七条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-187-p1 -->
 選挙管理委員会は、委員の中から委員長を選挙しなければならない。
 
 ### 第百八十七条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-187-p2 -->
 委員長は、委員会に関する事務を処理し、委員会を代表する。
 
 ### 第百八十七条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-187-p3 -->
 委員長に事故があるとき、又は委員長が欠けたときは、委員長の指定する委員がその職務を代理する。

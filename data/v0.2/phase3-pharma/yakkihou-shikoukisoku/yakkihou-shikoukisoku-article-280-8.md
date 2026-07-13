@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-8-p1-hashira
+    type: hashira
+    text: 法第八十条の六第三項に規定する厚生労働省令で定める事項は、次の各号に掲げる事項であつて、原薬等登録業者等に不利益を及ぼすおそれがないものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-280-8-p1-kou-1
+    type: kou
+    text: 登録番号及び登録年月日
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-280-8-p1-kou-2
+    type: kou
+    text: 原薬等登録業者の氏名及び住所
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-280-8-p1-kou-3
+    type: kou
+    text: 当該品目の名称
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第二百八十条の八
 
 法第八十条の六第三項に規定する厚生労働省令で定める事項は、次の各号に掲げる事項であつて、原薬等登録業者等に不利益を及ぼすおそれがないものとする。
+
+一　登録番号及び登録年月日
+
+二　原薬等登録業者の氏名及び住所
+
+三　当該品目の名称

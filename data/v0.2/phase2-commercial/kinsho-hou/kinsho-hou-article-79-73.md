@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-73-p1
+    type: simple
+    text: 基金は、次の方法によるほか、業務上の余裕金及び投資者保護資金を運用してはならない。
+    modality: gimu_negative
+  - id: kinsho-hou-art-79-73-p1-kou-1
+    type: kou
+    text: 国債その他内閣総理大臣及び財務大臣の指定する有価証券の保有
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-79-73-p1-kou-2
+    type: kou
+    text: 内閣総理大臣及び財務大臣の指定する金融機関への預金
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-79-73-p1-kou-3
+    type: kou
+    text: その他内閣府令・財務省令で定める方法
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第七十九条の七十三
 
 基金は、次の方法によるほか、業務上の余裕金及び投資者保護資金を運用してはならない。
+
+一　国債その他内閣総理大臣及び財務大臣の指定する有価証券の保有
+
+二　内閣総理大臣及び財務大臣の指定する金融機関への預金
+
+三　その他内閣府令・財務省令で定める方法

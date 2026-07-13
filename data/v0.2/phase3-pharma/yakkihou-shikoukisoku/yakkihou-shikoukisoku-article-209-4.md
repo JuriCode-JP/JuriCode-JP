@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-209-4-p1
+    type: simple
+    text: 法第五十条第九号の厚生労働省令で定める事項は、次の表の上欄に掲げる指定濫用防止医薬品の区分に応じ、それぞれ同表の下欄に掲げる字句とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-209-4-p2-zen
+    type: zen_dan
+    text: 前項の字句の記載については、第二百九条の二第二項及び第三項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-209-4-p2-kou
+    type: kou_dan
+    text: この場合において、同条第二項中「前項の文字」とあるのは「第二百九条の四第一項の表の下欄に掲げる字句」と、同条第三項中「第一項の文字」とあるのは「第二百九条の四第一項の表の下欄に掲げる字句」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    depends_on: yakkihou-shikoukisoku-art-209-4-p2-zen
 cases: []
 amendments: []
 tags:

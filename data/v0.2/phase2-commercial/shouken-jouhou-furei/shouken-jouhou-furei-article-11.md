@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第二十七条の三十四において読み替えて準用する法第二十一条の二第四項に規定する多数の者の知り得る状態に置く措置は、次の各号に掲げる有価証券の区分に応じ、当該各号に定める方法その他の手段により行われる措置とする。
     modality: gimu
+  - id: shouken-jouhou-furei-art-11-p1-kou-1
+    type: kou
+    text: 特定上場有価証券等　特定取引所規則において定める方法
+    modality: unspecified
+    item_number: 1
+  - id: shouken-jouhou-furei-art-11-p1-kou-2
+    type: kou
+    text: 特定店頭売買有価証券等　特定協会規則において定める方法
+    modality: unspecified
+    item_number: 2
+  - id: shouken-jouhou-furei-art-11-p1-kou-3
+    type: kou
+    text: 前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -37,5 +52,10 @@ parent_section:
 
 ### 第十一条
 
-<!-- segment: hashira id: shouken-jouhou-furei-art-11-p1-hashira -->
 法第二十七条の三十四において読み替えて準用する法第二十一条の二第四項に規定する多数の者の知り得る状態に置く措置は、次の各号に掲げる有価証券の区分に応じ、当該各号に定める方法その他の手段により行われる措置とする。
+
+一　特定上場有価証券等　特定取引所規則において定める方法
+
+二　特定店頭売買有価証券等　特定協会規則において定める方法
+
+三　前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法

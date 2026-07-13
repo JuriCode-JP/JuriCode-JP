@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-12-p1
+    type: simple
+    text: 法第十四条の二の二第二項後段の厚生労働省令で定める医薬品については、第六十条の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

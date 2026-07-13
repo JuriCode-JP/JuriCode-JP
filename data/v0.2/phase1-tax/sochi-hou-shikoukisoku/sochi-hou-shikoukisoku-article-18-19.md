@@ -21,6 +21,54 @@ paragraphs:
     type: hashira
     text: 施行令第二十五条の十七第一項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p1-kou-1
+    type: kou
+    text: 贈与又は遺贈（法第四十条第一項後段に規定する贈与又は遺贈をいう。以下この条において同じ。）をした者（以下この号において「贈与者等」という。）の氏名、住所又は居所及び当該贈与をした者の個人番号（個人番号を有しない者にあつては、氏名及び住所又は居所。以下この号において同じ。）（当該贈与をした者が死亡している場合又は遺贈の場合には、当該贈与者等の相続人（包括受遺者を含む。）の氏名、住所又は居所及び個人番号並びに当該贈与者等との続柄を含む。）並びに当該贈与又は遺贈をした年月日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p1-kou-2
+    type: kou
+    text: 当該贈与又は遺贈に係る法第四十条第一項後段に規定する財産（以下この条において「財産」という。）の種類、所在地、数量、取得年月日、取得価額及び当該贈与又は遺贈の時における価額並びに当該財産の同項後段に規定する公益法人等（以下この条において「公益法人等」という。）における使用目的及び使用開始年月日又は使用開始予定年月日（同項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p1-kou-3
+    type: kou
+    text: '当該贈与又は遺贈の次に掲げる場合の区分に応じそれぞれ次に定める事項
+
+      イ ロに掲げる場合以外の場合　当該贈与又は遺贈により財産を取得する公益法人等の名称及び主たる事務所の所在地並びに事業の目的並びに設立年月日又は設立予定年月日
+
+      ロ 法第四十条第一項第二号に規定する公益信託（以下この条において「公益信託」という。）の信託財産とするためのものである場合　当該贈与又は遺贈により財産を取得する公益法人等の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地（当該公益信託の受託者が二以上ある場合には、その法第四十条第四項第四号に規定する主宰受託者（以下この条において「主宰受託者」という。）の氏名又は名称を含む。）並びに当該公益信託の名称、公益信託に関する法律（令和六年法律第　　　号）第二条第一項第二号に規定する公益事務の内容及び同法第六条の認可を受けた年月日'
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p1-kou-4
+    type: kou
+    text: 当該贈与又は遺贈をした者及びこれらの者の親族の当該公益法人等における地位その他当該公益法人等との関係
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p1-kou-5
+    type: kou
+    text: 当該公益法人等の事業運営に関する明細（当該贈与又は遺贈が公益信託の信託財産とするためのものである場合には、当該公益信託に係る信託事務に関する明細）
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p1-kou-6
+    type: kou
+    text: '当該贈与又は遺贈の次に掲げる場合の区分に応じそれぞれ次に定める事項
+
+      イ ロに掲げる場合以外の場合　当該公益法人等の施行令第二十五条の十七第六項第一号イに規定する役員等（以下この号において「役員等」という。）の氏名及び住所並びに当該役員等に係る同項第一号イに規定する親族等（ロにおいて「親族等」という。）に関する事項
+
+      ロ 公益信託の信託財産とするためのものである場合　当該公益信託の第五項第一号に規定する運営委員等の氏名及び住所並びに当該運営委員等に係る親族等に関する事項（当該公益信託の受託者（当該公益信託の受託者が二以上ある場合には、その全ての受託者）が第四項に規定する者である場合には、当該公益信託の受託者のその役員等の氏名及び住所並びに当該役員等に係る親族等に関する事項）'
+    modality: unspecified
+    item_number: 6
+  - id: sochi-hou-shikoukisoku-art-18-19-p1-kou-7
+    type: kou
+    text: 施行令第二十五条の十七第一項の申請書に同条第八項第一号に規定する書類を添付する場合には、その旨
+    modality: unspecified
+    item_number: 7
+  - id: sochi-hou-shikoukisoku-art-18-19-p1-kou-8
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 8
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +78,36 @@ paragraphs:
     type: hashira
     text: 施行令第二十五条の十七第三項第六号に規定する財務省令で定める資産は、同号の贈与又は遺贈に係る財産の譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該資産につき次の各号に掲げる公益法人等の区分に応じ当該各号に定める決定又は同意（その決定又は同意をした旨及びその決定又は同意をした事項が当該決定又は同意に係る議事録その他これに相当する書類に記載されているものに限る。）がされたものとする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p2-kou-1
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号イに掲げる公益法人等　当該資産を同号イに規定する方法により管理することについての当該公益法人等の合議制の機関の決定
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p2-kou-2
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ロに掲げる公益法人等　当該資産を同号ロ（２）に規定する方法により管理することについての当該公益法人等の合議制の機関の決定
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p2-kou-3
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ハに掲げる公益法人等　当該資産を第八項第一号に定める方法により同号に規定する基本金に組み入れることについての当該公益法人等の理事会の決定
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p2-kou-4
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ニに掲げる公益法人等　当該資産を第八項第二号に定める方法により同号に規定する基本金に組み入れることについての当該公益法人等の理事会の決定
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p2-kou-5
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ホに掲げる公益法人等　当該資産を同号ホに規定する方法により管理することについての当該公益法人等の合議制の機関の決定
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p2-kou-6
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ヘに掲げる公益法人等　当該資産を同号ヘに規定する方法により管理することについての当該公益法人等に係る公益信託の合議制の機関の決定又は当該公益信託の信託管理人（公益信託に関する法律第四条第二項第二号に規定する信託管理人をいう。以下この条において同じ。）の同意
+    modality: unspecified
+    item_number: 6
 - number: 3
   has_proviso: false
   has_items: false
@@ -59,6 +137,26 @@ paragraphs:
     type: hashira
     text: 施行令第二十五条の十七第六項第二号ロに規定する財務省令で定める要件は、次に掲げる要件とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p5-kou-1
+    type: kou
+    text: 施行令第二十五条の十七第六項第二号ロの公益信託の信託行為において、同号ロに規定する運営委員会その他これに準ずるもの（第三号において「運営委員会等」という。）は、当該公益信託の目的に関し学識経験を有する者、当該公益信託の適正な運営に必要な実務経験を有する者その他の者（次号及び第四号において「運営委員等」という。）から構成される旨の定めがあること。
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p5-kou-2
+    type: kou
+    text: 当該信託行為において、運営委員等のうち施行令第二十五条の十七第六項第一号イに規定する親族等の数が当該運営委員等の数のうちに占める割合は、三分の一以下とする旨の定めがあること。
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p5-kou-3
+    type: kou
+    text: 当該信託行為において、当該公益信託の受託者は、信託財産の処分その他の公益信託事務（公益信託に関する法律第七条第三項第四号に規定する公益信託事務をいう。）の処理に関する重要な事項について、運営委員会等の同意を得なければならない旨の定めがあること。
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p5-kou-4
+    type: kou
+    text: 運営委員等に対して当該公益信託の信託財産から支払われる報酬の額は、その任務の遂行のために通常必要な費用の額を超えないものであることが当該信託行為において明らかであること。
+    modality: unspecified
+    item_number: 4
 - number: 6
   has_proviso: false
   has_items: true
@@ -70,6 +168,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikoukisoku-art-18-19-p6-kou-1
+    type: kou
+    text: 施行令第二十五条の十七第七項に規定する公益法人等に対し同項の申請書を提出した者が当該贈与又は遺贈をした者について同項第一号に規定する役員等及び社員並びにこれらの者の親族等に該当しないことを誓約する旨並びに当該公益法人等において当該該当しないことを確認した旨を記載した書類
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p6-kou-2
+    type: kou
+    text: 施行令第二十五条の十七第七項に規定する公益法人等の第九項各号に掲げる区分に応じ当該各号に規定する決定又は同意（次項各号の決定又は同意があつた場合には、当該各号に規定する財産を譲渡することについての当該決定又は同意を含む。）をした旨及びその決定又は同意をした事項の記載のある議事録その他これに相当する書類の写し並びに当該決定又は同意に係る財産の種類、所在地、数量、価額その他の事項を記載した書類（当該決定又は同意が第九項第一号、第二号ロ、第五号又は第六号に規定する決定又は同意である場合には、これらの規定に規定する財産がこれらの規定に規定する方法により管理されることにつきそれぞれ当該公益法人等の施行令第二十五条の十七第七項第二号イ、ロ（２）、ホ又はヘの所轄庁に確認されたことを証する書類の写しを含む。）
+    modality: unspecified
+    item_number: 2
 - number: 7
   has_proviso: false
   has_items: true
@@ -79,6 +187,36 @@ paragraphs:
     type: hashira
     text: 施行令第二十五条の十七第七項第二号イ、ロ（２）及びハからヘまでに規定する財務省令で定める資産は、次の各号に掲げる公益法人等の区分に応じ当該各号に定める資産とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p7-kou-1
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号イに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき同号イに規定する方法により管理することが当該公益法人等の合議制の機関において決定されたもの
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p7-kou-2
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ロに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき同号ロ（２）に規定する方法により管理することが当該公益法人等の合議制の機関において決定されたもの
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p7-kou-3
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ハに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき次項第一号に定める方法により同号に規定する基本金に組み入れることが当該公益法人等の理事会において決定されたもの
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p7-kou-4
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ニに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき次項第二号に定める方法により同号に規定する基本金に組み入れることが当該公益法人等の理事会において決定されたもの
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p7-kou-5
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ホに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき同号ホに規定する方法により管理することが当該公益法人等の合議制の機関において決定されたもの
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p7-kou-6
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ヘに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき同号ヘに規定する方法により管理することが当該公益法人等に係る公益信託の合議制の機関において決定されたもの又は当該財産を譲渡すること及び当該資産につき当該方法により管理することについて当該公益信託の信託管理人の同意を得たもの
+    modality: unspecified
+    item_number: 6
 - number: 8
   has_proviso: false
   has_items: true
@@ -88,6 +226,16 @@ paragraphs:
     type: hashira
     text: 施行令第二十五条の十七第七項第二号ハ及びニに規定する財務省令で定める方法は、次の各号に掲げる公益法人等の区分に応じ当該各号に定める方法とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p8-kou-1
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ハに掲げる公益法人等　同号ハに規定する財産につき、学校法人会計基準（昭和四十六年文部省令第十八号）第十三条第一項第一号から第三号までに掲げる金額に相当する金額を同項に規定する基本金に組み入れる方法
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p8-kou-2
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ニに掲げる公益法人等　同号ニに規定する財産につき、社会福祉法人会計基準（平成二十八年厚生労働省令第七十九号）第六条第一項に規定する金額を同項に規定する基本金に組み入れる方法
+    modality: unspecified
+    item_number: 2
 - number: 9
   has_proviso: false
   has_items: true
@@ -97,6 +245,40 @@ paragraphs:
     type: hashira
     text: 施行令第二十五条の十七第七項第三号に規定する財務省令で定める要件は、次の各号に掲げる公益法人等の区分に応じ当該各号に定める要件とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p9-kou-1
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号イに掲げる公益法人等　当該公益法人等の合議制の機関において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号イに規定する財産につき同号イに規定する方法により管理することが決定されていること。
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p9-kou-2
+    type: kou
+    text: '施行令第二十五条の十七第七項第二号ロに掲げる公益法人等　次に掲げる要件のいずれかを満たすこと。
+
+      イ 当該公益法人等の理事会において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び当該贈与又は遺贈を受ける財産につき施行令第二十五条の十七第七項第二号ロ（１）に規定する不可欠特定財産とすることが決定されていること。
+
+      ロ 当該公益法人等の合議制の機関において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び施行令第二十五条の十七第七項第二号ロ（２）に規定する財産につき同号ロ（２）に規定する方法により管理することが決定されていること。'
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p9-kou-3
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ハに掲げる公益法人等　当該公益法人等の理事会において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号ハに規定する財産につき前項第一号に定める方法により同号に規定する基本金に組み入れることが決定されていること。
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p9-kou-4
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ニに掲げる公益法人等　当該公益法人等の理事会において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号ニに規定する財産につき前項第二号に定める方法により同号に規定する基本金に組み入れることが決定されていること。
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p9-kou-5
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ホに掲げる公益法人等　当該公益法人等の合議制の機関において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号ホに規定する財産につき同号ホに規定する方法により管理することが決定されていること。
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p9-kou-6
+    type: kou
+    text: 施行令第二十五条の十七第七項第二号ヘに掲げる公益法人等　当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号ヘに規定する財産につき同号ヘに規定する方法により管理することが当該公益法人等に係る公益信託の合議制の機関において決定されていること又は当該申出を受け入れること及び当該財産につき当該方法により管理することについて当該公益信託の信託管理人の同意を得ていること。
+    modality: unspecified
+    item_number: 6
 - number: 10
   has_proviso: false
   has_items: true
@@ -108,6 +290,40 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikoukisoku-art-18-19-p10-kou-1
+    type: kou
+    text: 前項第一号に掲げる公益法人等　同号に規定する財産につき同号に規定する方法により管理されたことを確認できる当該公益法人等が施行令第二十五条の十七第七項第二号イの所轄庁に提出した書類の写し
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p10-kou-2
+    type: kou
+    text: '前項第二号に掲げる公益法人等　次に掲げる場合の区分に応じそれぞれ次に定める書類
+
+      イ 当該公益法人等が当該贈与又は遺贈を受けた財産を前項第二号イに規定する不可欠特定財産としている場合　当該財産が当該不可欠特定財産とされたことを確認できる定款及び公益社団法人及び公益財団法人の認定等に関する法律（平成十八年法律第四十九号）第二十一条第二項第一号に規定する財産目録の写し
+
+      ロ 当該公益法人等が前項第二号ロに規定する財産を同号ロに規定する方法により管理している場合　当該財産が当該方法により管理されたことを確認できる当該公益法人等が施行令第二十五条の十七第七項第二号ロ（２）の所轄庁に提出した書類の写し'
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p10-kou-3
+    type: kou
+    text: 前項第三号に掲げる公益法人等　同号に規定する財産につき同号に規定する基本金への組み入れがあつたことを確認できる学校法人会計基準第四十一条第一項第三号に規定する基本金明細書その他これに類する書類の写し
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p10-kou-4
+    type: kou
+    text: 前項第四号に掲げる公益法人等　同号に規定する財産につき同号に規定する基本金への組み入れがあつたことを確認できる社会福祉法人会計基準第三十条第一項第六号に規定する基本金明細書その他これに類する書類の写し
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p10-kou-5
+    type: kou
+    text: 前項第五号に掲げる公益法人等　同号に規定する財産につき同号に規定する方法により管理されたことを確認できる当該公益法人等が施行令第二十五条の十七第七項第二号ホの所轄庁に提出した書類の写し
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p10-kou-6
+    type: kou
+    text: 前項第六号に掲げる公益法人等　同号に規定する財産につき同号に規定する方法により管理されたことを確認できる当該公益法人等が施行令第二十五条の十七第七項第二号ヘの所轄庁に提出した書類の写し
+    modality: unspecified
+    item_number: 6
 - number: 11
   has_proviso: false
   has_items: false
@@ -129,6 +345,31 @@ paragraphs:
     type: hashira
     text: 法第四十条第五項第一号に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p12-kou-1
+    type: kou
+    text: 法第四十条第五項第一号に規定する書類を提出する公益法人等の名称、主たる事務所の所在地及び法人番号（当該公益法人等が公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p12-kou-2
+    type: kou
+    text: 当該公益法人等が譲渡をしようとする譲渡財産の種類、所在地及び数量並びに当該公益法人等が当該譲渡財産を法第四十条第一項後段に規定する公益目的事業の用に直接供した年月日並びに当該譲渡財産の譲渡予定価額及び譲渡予定年月日
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p12-kou-3
+    type: kou
+    text: 当該譲渡財産を当該公益法人等に贈与又は遺贈をした者の氏名及び住所又は居所、当該贈与又は遺贈をした年月日並びに当該贈与又は遺贈に係る法第四十条第一項後段の承認を受けた年月日（以下この条において「承認年月日」という。）
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p12-kou-4
+    type: kou
+    text: 当該公益法人等が取得する法第四十条第五項第一号に規定する買換資産の種類、所在地、数量、取得予定価額、取得予定年月日、使用開始予定年月日（同項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p12-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 13
   has_proviso: false
   has_items: true
@@ -138,6 +379,40 @@ paragraphs:
     type: hashira
     text: 法第四十条第五項第二号に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p13-kou-1
+    type: kou
+    text: 法第四十条第五項第二号に規定する書類を提出する公益法人等の名称、主たる事務所の所在地及び法人番号（当該公益法人等が公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p13-kou-2
+    type: kou
+    text: '当該公益法人等が法第四十条第三項の贈与又は遺贈を受けた同条第五項第二号に規定する財産（以下この項及び次項において「譲渡財産」という。）を管理している施行令第二十五条の十七第二十項に規定する方法及び次に掲げる公益法人等の区分に応じそれぞれ次に定める事項
+
+      イ 第九項第一号、第二号、第五号又は第六号に掲げる公益法人等　当該公益法人等の第十項第一号、第二号ロ、第五号又は第六号の所轄庁の名称、当該譲渡財産が当該方法により管理されることにつき当該所轄庁に確認されたことを証する書類の発行年月日及び当該譲渡財産を当該方法により管理することが当該公益法人等の合議制の機関において決定された年月日（当該公益法人等が第九項第六号に掲げる公益法人等である場合には、当該譲渡財産を当該方法により管理することが当該公益法人等に係る公益信託の合議制の機関において決定された年月日又は当該譲渡財産を当該方法により管理することについて当該公益信託の信託管理人の同意を得た年月日）
+
+      ロ 第九項第三号又は第四号に掲げる公益法人等　当該譲渡財産を当該方法により管理することが当該公益法人等の理事会において決定された年月日'
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p13-kou-3
+    type: kou
+    text: 当該公益法人等が譲渡をしようとする譲渡財産の種類、所在地、数量、譲渡予定価額及び譲渡予定年月日
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p13-kou-4
+    type: kou
+    text: 当該譲渡財産を当該公益法人等に贈与又は遺贈をした者の氏名及び住所又は居所、当該贈与又は遺贈をした年月日並びに当該贈与又は遺贈に係る承認年月日
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p13-kou-5
+    type: kou
+    text: 当該公益法人等が取得する法第四十条第五項第二号に規定する特定買換資産の種類、所在地、数量、取得予定価額、取得予定年月日及び使用目的並びに当該特定買換資産を第二号に規定する方法により管理することについての当該公益法人等の理事会その他の合議制の機関における決定予定年月日（当該公益法人等が第九項第六号に掲げる公益法人等である場合には、当該特定買換資産を当該方法により管理することについての当該公益法人等に係る公益信託の合議制の機関における決定予定年月日又は当該公益信託の信託管理人の同意予定年月日）
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p13-kou-6
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 - number: 14
   has_proviso: false
   has_items: false
@@ -148,8 +423,8 @@ paragraphs:
     text: 前項第一号に規定する書類を提出しようとする公益法人等は、当該書類に、譲渡財産が同項第二号に規定する方法により管理されたことを確認できる書類の写し（当該公益法人等が同号イに掲げる公益法人等である場合には、当該譲渡財産が当該方法により管理されることにつき同号イの所轄庁に確認されたことを証する書類の写しを含む。）を添付しなければならない。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 15
   has_proviso: false
   has_items: true
@@ -159,6 +434,31 @@ paragraphs:
     type: hashira
     text: 法第四十条第六項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p15-kou-1
+    type: kou
+    text: 法第四十条第六項に規定する特定贈与等（以下この条において「特定贈与等」という。）を受けた公益法人等の名称、主たる事務所の所在地及び法人番号並びに合併予定年月日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p15-kou-2
+    type: kou
+    text: 当該公益法人等が法第四十条第六項に規定する公益合併法人に移転をしようとする同項に規定する財産等の種類、所在地及び数量
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p15-kou-3
+    type: kou
+    text: 当該公益合併法人の名称、主たる事務所の所在地及び法人番号（法人番号を有しない法人にあつては、名称及び主たる事務所の所在地）並びに当該公益合併法人が当該移転を受ける資産の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p15-kou-4
+    type: kou
+    text: 第二号に規定する財産等（当該財産等が、当該公益法人等が当該特定贈与等を受けた財産以外のものである場合には、当該財産）を当該公益法人等に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p15-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 16
   has_proviso: false
   has_items: true
@@ -168,6 +468,31 @@ paragraphs:
     type: hashira
     text: 法第四十条第七項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p16-kou-1
+    type: kou
+    text: 特定贈与等を受けた公益法人等の名称、主たる事務所の所在地及び法人番号並びに解散予定年月日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p16-kou-2
+    type: kou
+    text: 当該公益法人等が法第四十条第七項に規定する他の公益法人等に移転をし、又は同項に規定する公益信託の信託財産としようとする同項に規定する財産等の種類、所在地及び数量
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p16-kou-3
+    type: kou
+    text: 法第四十条第七項に規定する解散引継法人等の名称、主たる事務所の所在地及び法人番号（当該解散引継法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該解散引継法人等が当該移転を受け、又は当該公益信託の信託財産として受け入れる資産の使用開始予定年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p16-kou-4
+    type: kou
+    text: 第二号に規定する財産等（当該財産等が、当該公益法人等が当該特定贈与等を受けた財産以外のものである場合には、当該財産）を当該公益法人等に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p16-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 17
   has_proviso: false
   has_items: true
@@ -177,18 +502,63 @@ paragraphs:
     type: hashira
     text: 法第四十条第八項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p17-kou-1
+    type: kou
+    text: 法第四十条第八項に規定する当初法人（以下第十九項までにおいて「当初法人」という。）の名称、主たる事務所の所在地及び法人番号、同条第八項に規定する特定処分（第三十一項において「特定処分」という。）を受けた年月日並びに当該特定処分後において同条第八項に規定する特定一般法人に該当することとなつた事情の詳細
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p17-kou-2
+    type: kou
+    text: 当該当初法人が法第四十条第八項に規定する他の公益法人等に贈与をし、又は同項に規定する公益信託の信託財産としようとする同項に規定する公益引継資産の種類、所在地、数量及び当該特定処分を受けた日の前日における価額並びに当該贈与予定年月日
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p17-kou-3
+    type: kou
+    text: 法第四十条第八項に規定する引継法人等が当該贈与を受け、又は当該公益信託の信託財産として受け入れる当該公益引継資産をもつて資産を取得しようとする場合には、その取得しようとする資産（次号において「代替公益引継資産」という。）の種類、所在地、数量、取得予定価額及び取得予定年月日
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p17-kou-4
+    type: kou
+    text: 当該引継法人等の名称、主たる事務所の所在地及び法人番号（当該引継法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該引継法人等が当該贈与を受け、又は当該公益信託の信託財産として受け入れる当該公益引継資産（代替公益引継資産を含む。）の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p17-kou-5
+    type: kou
+    text: 当該公益引継資産（当該公益引継資産が、当該当初法人が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該当初法人に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p17-kou-6
+    type: kou
+    text: 当該公益引継資産が施行令第二十五条の十七第二十四項第二号に掲げる引継財産である場合には、次項又は第十九項の規定により計算した金額及び当該金額の計算に関する明細
+    modality: unspecified
+    item_number: 6
+  - id: sochi-hou-shikoukisoku-art-18-19-p17-kou-7
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 7
 - number: 18
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: sochi-hou-shikoukisoku-art-18-19-p18
     type: simple
     text: 施行令第二十五条の十七第二十四項第二号に規定する財務省令で定めるところにより計算した金額は、当初法人の法第四十条第八項に規定する公益目的取得財産残額に、第一号に掲げる金額のうちに第二号に掲げる金額の占める割合を乗じて計算した金額とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p18-kou-1
+    type: kou
+    text: 公益社団法人及び公益財団法人の認定等に関する法律施行規則（平成十九年内閣府令第六十八号。次項において「公益認定法施行規則」という。）第六十七条第二項に規定する公益目的取得財産残額の見込額
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p18-kou-2
+    type: kou
+    text: 法第四十条第八項に規定する財産等の同項に規定する特定処分を受けた日の前日における価額
+    modality: unspecified
+    item_number: 2
 - number: 19
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: sochi-hou-shikoukisoku-art-18-19-p19
@@ -200,6 +570,16 @@ paragraphs:
     - 前項
     references:
     - 前項
+  - id: sochi-hou-shikoukisoku-art-18-19-p19-kou-1
+    type: kou
+    text: 公益認定法施行規則第六十八条第三項に規定する取消し等の日における公益目的取得財産残額
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p19-kou-2
+    type: kou
+    text: 前項第二号に掲げる金額
+    modality: unspecified
+    item_number: 2
 - number: 20
   has_proviso: false
   has_items: true
@@ -209,6 +589,36 @@ paragraphs:
     type: hashira
     text: 法第四十条第九項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p20-kou-1
+    type: kou
+    text: 法第四十条第九項に規定する特定一般法人の名称、主たる事務所の所在地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p20-kou-2
+    type: kou
+    text: 当該特定一般法人の法第四十条第九項に規定する他の公益法人等への贈与又は同項に規定する財産等を同項に規定する公益信託の信託財産とすることが一般社団法人及び一般財団法人に関する法律及び公益社団法人及び公益財団法人の認定等に関する法律の施行に伴う関係法律の整備等に関する法律（平成十八年法律第五十号）第百十九条第二項第一号ロに掲げる寄附又は支出に該当する旨
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p20-kou-3
+    type: kou
+    text: 当該特定一般法人が当該受贈公益法人等に贈与をし、又は法第四十条第九項に規定する公益信託の信託財産としようとする同項に規定する財産等の種類、所在地及び数量並びに当該贈与予定年月日
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p20-kou-4
+    type: kou
+    text: 当該受贈公益法人等の名称、主たる事務所の所在地及び法人番号（当該受贈公益法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該受贈公益法人等が当該贈与を受け、又は当該公益信託の信託財産として受け入れる資産の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p20-kou-5
+    type: kou
+    text: 第三号に規定する財産等（当該財産等が、当該特定一般法人が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該特定一般法人に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p20-kou-6
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 - number: 21
   has_proviso: false
   has_items: true
@@ -218,15 +628,74 @@ paragraphs:
     type: hashira
     text: 法第四十条第十項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p21-kou-1
+    type: kou
+    text: '法第四十条第十項に規定する譲渡法人（以下この条において「譲渡法人」という。）の名称、主たる事務所の所在地及び法人番号並びに当該譲渡法人の次に掲げる者の区分に応じそれぞれ次に定める日
+
+      イ 法第四十条第十項に規定する幼稚園（以下この条において「幼稚園」という。）を設置する者　当該幼稚園の廃止若しくは設置者の変更（施行令第二十五条の十七第二十七項第一号に規定する設置者の変更をいう。第二十三項において同じ。）の認可（同号に規定する認可をいう。イ、次項第二号イ及び第二十三項において同じ。）を受けた日又は当該認可の申請をした日
+
+      ロ 施行令第二十五条の十七第二十七項第二号イに規定する保育所（以下この条において「保育所」という。）を設置する者　当該保育所の廃止の承認（同号イに規定する承認をいう。ロ及び次項第二号ロにおいて同じ。）を受けた日又は当該承認の申請をした日
+
+      ハ 施行令第二十五条の十七第二十七項第二号ロに規定する保育機能施設（以下この条において「保育機能施設」という。）を設置する者　当該保育機能施設の設置者変更の届出（同号ロに規定する設置者変更の届出をいう。）を行つた日'
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p21-kou-2
+    type: kou
+    text: 当該譲渡法人が法第四十条第十項に規定する譲受法人に贈与をしようとする同項に規定する財産等の種類、所在地及び数量並びに当該贈与予定年月日
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p21-kou-3
+    type: kou
+    text: '当該譲受法人の名称、主たる事務所の所在地及び法人番号、当該譲受法人が当該贈与を受ける資産の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的（施行令第二十五条の十七第三十五項に規定する事業に係るものに限る。）並びに当該譲受法人の次に掲げる者の区分に応じそれぞれ次に定める日
+
+      イ 法第四十条第十項に規定する幼保連携型認定こども園（以下この条において「幼保連携型認定こども園」という。）を設置しようとする者　幼保連携型認定こども園（次項に規定する幼保連携型認定こども園に限る。）の設置の認可（施行令第二十五条の十七第二十八項第一号に規定する認可をいう。イにおいて同じ。）を受けた日又は当該設置の認可の同号に規定する申請をした日
+
+      ロ 幼稚園を設置しようとする者　幼稚園（第二十三項に規定する幼稚園に限る。）の設置若しくは設置者の変更（施行令第二十五条の十七第二十八項第二号に規定する設置者の変更をいう。）の認可（同号に規定する認可をいう。ロにおいて同じ。）を受けた日又は当該認可の申請をした日
+
+      ハ 保育所を設置しようとする者　保育所（第二十五項に規定する保育所に限る。）の設置の認可（施行令第二十五条の十七第二十八項第三号イに規定する認可をいう。ハにおいて同じ。）を受けた日又は当該認可の申請をした日
+
+      ニ 保育機能施設を設置しようとする者　譲渡法人が設置していた保育機能施設につき、その設置者の変更（施行令第二十五条の十七第二十八項第三号ロに規定する変更をいう。）を事由とする届出（同号ロに規定する届出をいう。）が行われた日'
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p21-kou-4
+    type: kou
+    text: 第二号に規定する財産等（当該財産等が、当該譲渡法人が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該譲渡法人に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p21-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 22
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: sochi-hou-shikoukisoku-art-18-19-p22
     type: simple
     text: 施行令第二十五条の十七第二十八項第一号に規定する財務省令で定める幼保連携型認定こども園は、第一号に掲げる施設及び第二号に掲げる施設の職員組織等を基にする幼保連携型認定こども園とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p22-kou-1
+    type: kou
+    text: '施行令第二十五条の十七第二十八項第一号に掲げる幼保連携型認定こども園を設置しようとする者が設置する次に掲げるいずれかの施設
+
+      イ 幼稚園（その廃止の認可（学校教育法（昭和二十二年法律第二十六号）第四条第一項に規定する認可をいう。イにおいて同じ。）を受け、又は当該認可の申請をしているものに限る。）
+
+      ロ 保育所（その廃止の承認（児童福祉法第三十五条第十二項に規定する承認をいう。ロにおいて同じ。）を受け、又は当該承認の申請をしているものに限る。）
+
+      ハ 保育機能施設（その廃止の届出（児童福祉法第五十九条の二第二項の規定による届出をいう。）を行つているものに限る。）'
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p22-kou-2
+    type: kou
+    text: '譲渡法人が設置する次に掲げるいずれかの施設
+
+      イ 幼稚園（その廃止の認可を受け、又は当該認可の申請をしているものに限る。）
+
+      ロ 保育所（その廃止の承認を受け、又は当該承認の申請をしているものに限る。）'
+    modality: unspecified
+    item_number: 2
 - number: 23
   has_proviso: false
   has_items: false
@@ -283,6 +752,31 @@ paragraphs:
     type: hashira
     text: 法第四十条第十一項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p28-kou-1
+    type: kou
+    text: 法第四十条第十一項に規定する当初受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該当初受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）、当該公益信託の名称、同項に規定する任務終了事由等が生じた年月日並びに当該任務終了事由等の詳細
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p28-kou-2
+    type: kou
+    text: 当該当初受託者が法第四十条第十一項に規定する引継受託者に移転をしようとする同項に規定する財産等の種類、所在地及び数量
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p28-kou-3
+    type: kou
+    text: 当該引継受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号、当該引継受託者が当該移転を受ける資産の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的並びに公益信託に関する法律第十二条第一項に規定する新受託者の選任若しくは同法第七条第二項各号に掲げる事項の変更に係る同法第十二条第一項の認可の申請をした日又は同項ただし書に規定する新受託者の選任に係る同法第十四条第一項の規定による届出の予定年月日
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p28-kou-4
+    type: kou
+    text: 第二号に規定する財産等（当該財産等が、当該当初受託者が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該当初受託者に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p28-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 29
   has_proviso: false
   has_items: true
@@ -292,6 +786,31 @@ paragraphs:
     type: hashira
     text: 法第四十条第十二項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p29-kou-1
+    type: kou
+    text: 法第四十条第十二項に規定する当初公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該当初公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）、当該当初公益信託の名称、同項に規定する公益信託の終了の予定年月日並びに当該公益信託の終了に係る事由の詳細
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p29-kou-2
+    type: kou
+    text: 当該当初公益信託の受託者が法第四十条第十二項に規定する他の公益法人等に移転をし、又は同項に規定する他の公益信託の信託財産としようとする同項に規定する財産等の種類、所在地及び数量
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p29-kou-3
+    type: kou
+    text: 法第四十条第十二項に規定する帰属権利者の名称、主たる事務所の所在地及び法人番号（当該帰属権利者が当該他の公益信託の受託者である場合には、当該他の公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該他の公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該他の公益信託の名称）並びに当該帰属権利者が当該移転を受け、又は当該他の公益信託の信託財産として受け入れる資産の使用開始予定年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p29-kou-4
+    type: kou
+    text: 第二号に規定する財産等（当該財産等が、当該当初公益信託の受託者が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該当初公益信託の受託者に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p29-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 30
   has_proviso: false
   has_items: true
@@ -301,6 +820,26 @@ paragraphs:
     type: hashira
     text: 法第四十条第十三項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p30-kou-1
+    type: kou
+    text: 特定贈与等を受けた公益法人等から法第四十条第六項に規定する合併により資産の移転を受けた同条第十三項に規定する公益合併法人の名称、主たる事務所の所在地及び法人番号並びに当該合併をした年月日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p30-kou-2
+    type: kou
+    text: 当該公益合併法人が当該合併により移転を受けた資産が法第四十条第十三項に規定する財産等であることを知つた日並びに当該資産の種類、所在地、数量、使用開始年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p30-kou-3
+    type: kou
+    text: 第一号の特定贈与等を受けた公益法人等の名称、主たる事務所の所在地及び法人番号
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p30-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 31
   has_proviso: false
   has_items: true
@@ -312,6 +851,41 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikoukisoku-art-18-19-p31-kou-1
+    type: kou
+    text: 当該引継法人等の名称、主たる事務所の所在地及び法人番号（当該引継法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該贈与を受け、又は当該公益信託の信託財産として受け入れた年月日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p31-kou-2
+    type: kou
+    text: 当該引継法人等が当該当初法人から当該贈与を受け、又は当該公益信託の信託財産として受け入れた資産が法第四十条第十四項に規定する引継財産であることを知つた日並びに当該贈与を受け、又は当該公益信託の信託財産として受け入れた同条第八項に規定する公益引継資産の種類、所在地、数量及び特定処分を受けた日の前日における価額
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p31-kou-3
+    type: kou
+    text: 当該引継法人等が当該贈与を受け、又は当該公益信託の信託財産として受け入れた当該公益引継資産をもつて資産を取得した場合には、その取得をした資産（次号において「代替公益引継資産」という。）の種類、所在地、数量、取得価額及び取得年月日
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p31-kou-4
+    type: kou
+    text: 当該引継法人等の当該公益引継資産（代替公益引継資産を含む。）の使用開始年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p31-kou-5
+    type: kou
+    text: 当該当初法人の名称、主たる事務所の所在地及び法人番号並びに特定処分を受けた年月日並びに当該特定処分後において法第四十条第八項に規定する特定一般法人に該当することとなつた事情の詳細
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p31-kou-6
+    type: kou
+    text: 当該公益引継資産が施行令第二十五条の十七第二十四項第二号に掲げる引継財産である場合には、第十八項又は第十九項の規定により計算した金額及び当該金額の計算に関する明細
+    modality: unspecified
+    item_number: 6
+  - id: sochi-hou-shikoukisoku-art-18-19-p31-kou-7
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 7
 - number: 32
   has_proviso: false
   has_items: true
@@ -323,6 +897,31 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikoukisoku-art-18-19-p32-kou-1
+    type: kou
+    text: 当該受贈公益法人等の名称、主たる事務所の所在地及び法人番号（当該受贈公益法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該贈与を受け、又は当該公益信託の信託財産として受け入れた年月日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p32-kou-2
+    type: kou
+    text: 当該受贈公益法人等が当該特定一般法人から受けた贈与又は当該財産等を当該公益信託の信託財産として受け入れたことが一般社団法人及び一般財団法人に関する法律及び公益社団法人及び公益財団法人の認定等に関する法律の施行に伴う関係法律の整備等に関する法律第百十九条第二項第一号ロに掲げる寄附又は支出に該当する旨
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p32-kou-3
+    type: kou
+    text: 当該受贈公益法人等が当該特定一般法人から贈与を受け、又は当該公益信託の信託財産として受け入れた資産が法第四十条第九項に規定する財産等であることを知つた日並びに当該財産等の種類、所在地、数量、使用開始年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p32-kou-4
+    type: kou
+    text: 当該特定一般法人の名称、主たる事務所の所在地及び法人番号
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p32-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 33
   has_proviso: false
   has_items: true
@@ -334,6 +933,26 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikoukisoku-art-18-19-p33-kou-1
+    type: kou
+    text: 当該譲受法人の名称、主たる事務所の所在地及び法人番号並びに当該贈与を受けた年月日並びに当該譲受法人の第二十一項第三号イからニまでに掲げる者の区分に応じそれぞれ同号イからニまでに定める日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p33-kou-2
+    type: kou
+    text: 当該譲受法人が当該譲渡法人から贈与を受けた資産が法第四十条第十項に規定する財産等であることを知つた日並びに当該財産等の種類、所在地、数量、使用開始年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的（施行令第二十五条の十七第三十五項に規定する事業に係るものに限る。）
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p33-kou-3
+    type: kou
+    text: 当該譲渡法人の名称、主たる事務所の所在地及び法人番号並びに当該譲渡法人の第二十一項第一号イからハまでに掲げる者の区分に応じそれぞれ同号イからハまでに定める日
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p33-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 34
   has_proviso: false
   has_items: true
@@ -345,6 +964,26 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikoukisoku-art-18-19-p34-kou-1
+    type: kou
+    text: 当該引継受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該引継受託者に係る公益信託の受託者が二以上ある場合には、当該引継受託者以外の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号を含む。）、当該公益信託の名称並びに当該任務終了事由等に係る法第四十条第十四項に規定する認可又は届出の日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p34-kou-2
+    type: kou
+    text: 当該引継受託者が当該当初受託者から当該移転を受けた資産が法第四十条第十一項に規定する財産等であることを知つた日並びに当該財産等の種類、所在地、数量、使用開始年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p34-kou-3
+    type: kou
+    text: 当該当初受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号、法第四十条第十一項に規定する任務終了事由等が生じた年月日並びに当該任務終了事由等の詳細
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p34-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 35
   has_proviso: false
   has_items: true
@@ -354,6 +993,26 @@ paragraphs:
     type: hashira
     text: 法第四十条第十六項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p35-kou-1
+    type: kou
+    text: 法第四十条第十六項に規定する特定一般法人の同項に規定する認定前の名称及び主たる事務所の所在地並びに当該認定後の名称及び主たる事務所の所在地並びに当該特定一般法人の法人番号並びに当該認定を受けた年月日
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p35-kou-2
+    type: kou
+    text: 当該特定一般法人が特定贈与等を受けた財産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p35-kou-3
+    type: kou
+    text: 当該財産を当該特定一般法人に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p35-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 36
   has_proviso: false
   has_items: true
@@ -363,6 +1022,36 @@ paragraphs:
     type: hashira
     text: 施行令第二十五条の十七第三十七項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p36-kou-1
+    type: kou
+    text: 施行令第二十五条の十七第三十七項に規定する公益法人等の同項に規定する処分前の名称及び主たる事務所の所在地並びに当該処分後の名称及び主たる事務所の所在地並びに当該公益法人等の法人番号
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p36-kou-2
+    type: kou
+    text: 当該公益法人等が当該処分を受けた事由（二以上の事由がある場合には、その全ての事由）及び当該処分を受けた年月日
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p36-kou-3
+    type: kou
+    text: 当該公益法人等が特定贈与等を受けた財産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p36-kou-4
+    type: kou
+    text: 当該財産を当該公益法人等に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p36-kou-5
+    type: kou
+    text: 当該公益法人等が定款の変更をしようとする場合には、その旨及び当該変更予定年月日
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikoukisoku-art-18-19-p36-kou-6
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 - number: 37
   has_proviso: false
   has_items: true
@@ -372,6 +1061,31 @@ paragraphs:
     type: hashira
     text: 施行令第二十五条の十七第三十八項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-19-p37-kou-1
+    type: kou
+    text: 法第四十条第十八項に規定する公益法人等の名称、主たる事務所の所在地及び法人番号（当該公益法人等が公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-19-p37-kou-2
+    type: kou
+    text: 法第四十条第十八項に規定する受贈資産の種類、所在地及び数量
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-19-p37-kou-3
+    type: kou
+    text: 当該受贈資産を当該公益法人等に贈与又は遺贈をした者の氏名及び住所又は居所並びに当該贈与又は遺贈をした年月日
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-19-p37-kou-4
+    type: kou
+    text: 当該受贈資産につき法第四十条第十八項の規定による確認を求める理由（当該受贈資産が平成二十年十二月一日以後の贈与又は遺贈に係るものである場合には、当該確認を求めるやむを得ない理由を含む。）
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-18-19-p37-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -388,185 +1102,460 @@ parent_section:
 
 ### 第十八条の十九第一項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p1-hashira -->
 施行令第二十五条の十七第一項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　贈与又は遺贈（法第四十条第一項後段に規定する贈与又は遺贈をいう。以下この条において同じ。）をした者（以下この号において「贈与者等」という。）の氏名、住所又は居所及び当該贈与をした者の個人番号（個人番号を有しない者にあつては、氏名及び住所又は居所。以下この号において同じ。）（当該贈与をした者が死亡している場合又は遺贈の場合には、当該贈与者等の相続人（包括受遺者を含む。）の氏名、住所又は居所及び個人番号並びに当該贈与者等との続柄を含む。）並びに当該贈与又は遺贈をした年月日
+
+二　当該贈与又は遺贈に係る法第四十条第一項後段に規定する財産（以下この条において「財産」という。）の種類、所在地、数量、取得年月日、取得価額及び当該贈与又は遺贈の時における価額並びに当該財産の同項後段に規定する公益法人等（以下この条において「公益法人等」という。）における使用目的及び使用開始年月日又は使用開始予定年月日（同項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）
+
+三　当該贈与又は遺贈の次に掲げる場合の区分に応じそれぞれ次に定める事項
+
+　イ　ロに掲げる場合以外の場合　当該贈与又は遺贈により財産を取得する公益法人等の名称及び主たる事務所の所在地並びに事業の目的並びに設立年月日又は設立予定年月日
+
+　ロ　法第四十条第一項第二号に規定する公益信託（以下この条において「公益信託」という。）の信託財産とするためのものである場合　当該贈与又は遺贈により財産を取得する公益法人等の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地（当該公益信託の受託者が二以上ある場合には、その法第四十条第四項第四号に規定する主宰受託者（以下この条において「主宰受託者」という。）の氏名又は名称を含む。）並びに当該公益信託の名称、公益信託に関する法律（令和六年法律第　　　号）第二条第一項第二号に規定する公益事務の内容及び同法第六条の認可を受けた年月日
+
+四　当該贈与又は遺贈をした者及びこれらの者の親族の当該公益法人等における地位その他当該公益法人等との関係
+
+五　当該公益法人等の事業運営に関する明細（当該贈与又は遺贈が公益信託の信託財産とするためのものである場合には、当該公益信託に係る信託事務に関する明細）
+
+六　当該贈与又は遺贈の次に掲げる場合の区分に応じそれぞれ次に定める事項
+
+　イ　ロに掲げる場合以外の場合　当該公益法人等の施行令第二十五条の十七第六項第一号イに規定する役員等（以下この号において「役員等」という。）の氏名及び住所並びに当該役員等に係る同項第一号イに規定する親族等（ロにおいて「親族等」という。）に関する事項
+
+　ロ　公益信託の信託財産とするためのものである場合　当該公益信託の第五項第一号に規定する運営委員等の氏名及び住所並びに当該運営委員等に係る親族等に関する事項（当該公益信託の受託者（当該公益信託の受託者が二以上ある場合には、その全ての受託者）が第四項に規定する者である場合には、当該公益信託の受託者のその役員等の氏名及び住所並びに当該役員等に係る親族等に関する事項）
+
+七　施行令第二十五条の十七第一項の申請書に同条第八項第一号に規定する書類を添付する場合には、その旨
+
+八　その他参考となるべき事項
 
 ### 第十八条の十九第二項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p2-hashira -->
 施行令第二十五条の十七第三項第六号に規定する財務省令で定める資産は、同号の贈与又は遺贈に係る財産の譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該資産につき次の各号に掲げる公益法人等の区分に応じ当該各号に定める決定又は同意（その決定又は同意をした旨及びその決定又は同意をした事項が当該決定又は同意に係る議事録その他これに相当する書類に記載されているものに限る。）がされたものとする。
+
+一　施行令第二十五条の十七第七項第二号イに掲げる公益法人等　当該資産を同号イに規定する方法により管理することについての当該公益法人等の合議制の機関の決定
+
+二　施行令第二十五条の十七第七項第二号ロに掲げる公益法人等　当該資産を同号ロ（２）に規定する方法により管理することについての当該公益法人等の合議制の機関の決定
+
+三　施行令第二十五条の十七第七項第二号ハに掲げる公益法人等　当該資産を第八項第一号に定める方法により同号に規定する基本金に組み入れることについての当該公益法人等の理事会の決定
+
+四　施行令第二十五条の十七第七項第二号ニに掲げる公益法人等　当該資産を第八項第二号に定める方法により同号に規定する基本金に組み入れることについての当該公益法人等の理事会の決定
+
+五　施行令第二十五条の十七第七項第二号ホに掲げる公益法人等　当該資産を同号ホに規定する方法により管理することについての当該公益法人等の合議制の機関の決定
+
+六　施行令第二十五条の十七第七項第二号ヘに掲げる公益法人等　当該資産を同号ヘに規定する方法により管理することについての当該公益法人等に係る公益信託の合議制の機関の決定又は当該公益信託の信託管理人（公益信託に関する法律第四条第二項第二号に規定する信託管理人をいう。以下この条において同じ。）の同意
 
 ### 第十八条の十九第三項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p3 -->
 施行令第二十五条の十七第三項第七号に規定する財務省令で定める場合は、同項第一号から第六号までに規定する理由に準ずるやむを得ない理由として国税庁長官が認める理由により当該贈与又は遺贈に係る財産の譲渡をする場合とし、同項第七号に規定する財務省令で定める資産は、当該財産の譲渡による収入金額の全部に相当する金額をもつて取得した減価償却資産、土地、土地の上に存する権利及び株式（出資を含む。以下この項及び第十一項において同じ。）で国税庁長官が認めたもの（株式にあつては、同条第三項第四号に規定する理由に準ずるやむを得ない理由として国税庁長官が認める理由による譲渡により取得したものに限る。）とする。
 
 ### 第十八条の十九第四項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p4 -->
 施行令第二十五条の十七第六項第二号に規定する財務省令で定める者は、法第四十条第一項第一号に掲げる者（施行令第二十五条の十七第六項第一号イに掲げる要件を満たすものに限る。）とする。
 
 ### 第十八条の十九第五項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p5-hashira -->
 施行令第二十五条の十七第六項第二号ロに規定する財務省令で定める要件は、次に掲げる要件とする。
+
+一　施行令第二十五条の十七第六項第二号ロの公益信託の信託行為において、同号ロに規定する運営委員会その他これに準ずるもの（第三号において「運営委員会等」という。）は、当該公益信託の目的に関し学識経験を有する者、当該公益信託の適正な運営に必要な実務経験を有する者その他の者（次号及び第四号において「運営委員等」という。）から構成される旨の定めがあること。
+
+二　当該信託行為において、運営委員等のうち施行令第二十五条の十七第六項第一号イに規定する親族等の数が当該運営委員等の数のうちに占める割合は、三分の一以下とする旨の定めがあること。
+
+三　当該信託行為において、当該公益信託の受託者は、信託財産の処分その他の公益信託事務（公益信託に関する法律第七条第三項第四号に規定する公益信託事務をいう。）の処理に関する重要な事項について、運営委員会等の同意を得なければならない旨の定めがあること。
+
+四　運営委員等に対して当該公益信託の信託財産から支払われる報酬の額は、その任務の遂行のために通常必要な費用の額を超えないものであることが当該信託行為において明らかであること。
 
 ### 第十八条の十九第六項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p6-hashira -->
 施行令第二十五条の十七第七項に規定する財務省令で定める書類は、同項に規定する公益法人等から交付を受けた次に掲げる書類（当該公益法人等が同項に規定する特定国立大学法人等である場合には、第二号に掲げる書類）とする。
+
+一　施行令第二十五条の十七第七項に規定する公益法人等に対し同項の申請書を提出した者が当該贈与又は遺贈をした者について同項第一号に規定する役員等及び社員並びにこれらの者の親族等に該当しないことを誓約する旨並びに当該公益法人等において当該該当しないことを確認した旨を記載した書類
+
+二　施行令第二十五条の十七第七項に規定する公益法人等の第九項各号に掲げる区分に応じ当該各号に規定する決定又は同意（次項各号の決定又は同意があつた場合には、当該各号に規定する財産を譲渡することについての当該決定又は同意を含む。）をした旨及びその決定又は同意をした事項の記載のある議事録その他これに相当する書類の写し並びに当該決定又は同意に係る財産の種類、所在地、数量、価額その他の事項を記載した書類（当該決定又は同意が第九項第一号、第二号ロ、第五号又は第六号に規定する決定又は同意である場合には、これらの規定に規定する財産がこれらの規定に規定する方法により管理されることにつきそれぞれ当該公益法人等の施行令第二十五条の十七第七項第二号イ、ロ（２）、ホ又はヘの所轄庁に確認されたことを証する書類の写しを含む。）
 
 ### 第十八条の十九第七項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p7-hashira -->
 施行令第二十五条の十七第七項第二号イ、ロ（２）及びハからヘまでに規定する財務省令で定める資産は、次の各号に掲げる公益法人等の区分に応じ当該各号に定める資産とする。
+
+一　施行令第二十五条の十七第七項第二号イに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき同号イに規定する方法により管理することが当該公益法人等の合議制の機関において決定されたもの
+
+二　施行令第二十五条の十七第七項第二号ロに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき同号ロ（２）に規定する方法により管理することが当該公益法人等の合議制の機関において決定されたもの
+
+三　施行令第二十五条の十七第七項第二号ハに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき次項第一号に定める方法により同号に規定する基本金に組み入れることが当該公益法人等の理事会において決定されたもの
+
+四　施行令第二十五条の十七第七項第二号ニに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき次項第二号に定める方法により同号に規定する基本金に組み入れることが当該公益法人等の理事会において決定されたもの
+
+五　施行令第二十五条の十七第七項第二号ホに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき同号ホに規定する方法により管理することが当該公益法人等の合議制の機関において決定されたもの
+
+六　施行令第二十五条の十七第七項第二号ヘに掲げる公益法人等　当該公益法人等が当該贈与又は遺贈を受けた財産の譲渡をし、かつ、その譲渡による収入金額の全部に相当する金額をもつて取得する資産で、当該財産を譲渡すること及び当該資産につき同号ヘに規定する方法により管理することが当該公益法人等に係る公益信託の合議制の機関において決定されたもの又は当該財産を譲渡すること及び当該資産につき当該方法により管理することについて当該公益信託の信託管理人の同意を得たもの
 
 ### 第十八条の十九第八項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p8-hashira -->
 施行令第二十五条の十七第七項第二号ハ及びニに規定する財務省令で定める方法は、次の各号に掲げる公益法人等の区分に応じ当該各号に定める方法とする。
+
+一　施行令第二十五条の十七第七項第二号ハに掲げる公益法人等　同号ハに規定する財産につき、学校法人会計基準（昭和四十六年文部省令第十八号）第十三条第一項第一号から第三号までに掲げる金額に相当する金額を同項に規定する基本金に組み入れる方法
+
+二　施行令第二十五条の十七第七項第二号ニに掲げる公益法人等　同号ニに規定する財産につき、社会福祉法人会計基準（平成二十八年厚生労働省令第七十九号）第六条第一項に規定する金額を同項に規定する基本金に組み入れる方法
 
 ### 第十八条の十九第九項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p9-hashira -->
 施行令第二十五条の十七第七項第三号に規定する財務省令で定める要件は、次の各号に掲げる公益法人等の区分に応じ当該各号に定める要件とする。
+
+一　施行令第二十五条の十七第七項第二号イに掲げる公益法人等　当該公益法人等の合議制の機関において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号イに規定する財産につき同号イに規定する方法により管理することが決定されていること。
+
+二　施行令第二十五条の十七第七項第二号ロに掲げる公益法人等　次に掲げる要件のいずれかを満たすこと。
+
+　イ　当該公益法人等の理事会において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び当該贈与又は遺贈を受ける財産につき施行令第二十五条の十七第七項第二号ロ（１）に規定する不可欠特定財産とすることが決定されていること。
+
+　ロ　当該公益法人等の合議制の機関において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び施行令第二十五条の十七第七項第二号ロ（２）に規定する財産につき同号ロ（２）に規定する方法により管理することが決定されていること。
+
+三　施行令第二十五条の十七第七項第二号ハに掲げる公益法人等　当該公益法人等の理事会において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号ハに規定する財産につき前項第一号に定める方法により同号に規定する基本金に組み入れることが決定されていること。
+
+四　施行令第二十五条の十七第七項第二号ニに掲げる公益法人等　当該公益法人等の理事会において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号ニに規定する財産につき前項第二号に定める方法により同号に規定する基本金に組み入れることが決定されていること。
+
+五　施行令第二十五条の十七第七項第二号ホに掲げる公益法人等　当該公益法人等の合議制の機関において、当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号ホに規定する財産につき同号ホに規定する方法により管理することが決定されていること。
+
+六　施行令第二十五条の十七第七項第二号ヘに掲げる公益法人等　当該公益法人等が贈与又は遺贈の申出を受け入れること及び同号ヘに規定する財産につき同号ヘに規定する方法により管理することが当該公益法人等に係る公益信託の合議制の機関において決定されていること又は当該申出を受け入れること及び当該財産につき当該方法により管理することについて当該公益信託の信託管理人の同意を得ていること。
 
 ### 第十八条の十九第十項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p10-hashira -->
 施行令第二十五条の十七第九項に規定する財務省令で定める書類は、同項の公益法人等の当該贈与又は遺贈をした日の属する同項に規定する事業年度に係る次の各号に掲げる公益法人等の区分に応じ当該各号に定める書類とする。
+
+一　前項第一号に掲げる公益法人等　同号に規定する財産につき同号に規定する方法により管理されたことを確認できる当該公益法人等が施行令第二十五条の十七第七項第二号イの所轄庁に提出した書類の写し
+
+二　前項第二号に掲げる公益法人等　次に掲げる場合の区分に応じそれぞれ次に定める書類
+
+　イ　当該公益法人等が当該贈与又は遺贈を受けた財産を前項第二号イに規定する不可欠特定財産としている場合　当該財産が当該不可欠特定財産とされたことを確認できる定款及び公益社団法人及び公益財団法人の認定等に関する法律（平成十八年法律第四十九号）第二十一条第二項第一号に規定する財産目録の写し
+
+　ロ　当該公益法人等が前項第二号ロに規定する財産を同号ロに規定する方法により管理している場合　当該財産が当該方法により管理されたことを確認できる当該公益法人等が施行令第二十五条の十七第七項第二号ロ（２）の所轄庁に提出した書類の写し
+
+三　前項第三号に掲げる公益法人等　同号に規定する財産につき同号に規定する基本金への組み入れがあつたことを確認できる学校法人会計基準第四十一条第一項第三号に規定する基本金明細書その他これに類する書類の写し
+
+四　前項第四号に掲げる公益法人等　同号に規定する財産につき同号に規定する基本金への組み入れがあつたことを確認できる社会福祉法人会計基準第三十条第一項第六号に規定する基本金明細書その他これに類する書類の写し
+
+五　前項第五号に掲げる公益法人等　同号に規定する財産につき同号に規定する方法により管理されたことを確認できる当該公益法人等が施行令第二十五条の十七第七項第二号ホの所轄庁に提出した書類の写し
+
+六　前項第六号に掲げる公益法人等　同号に規定する財産につき同号に規定する方法により管理されたことを確認できる当該公益法人等が施行令第二十五条の十七第七項第二号ヘの所轄庁に提出した書類の写し
 
 ### 第十八条の十九第十一項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p11 -->
 法第四十条第五項第一号に規定する財務省令で定めるものは、同条第三項に規定する公益法人等が同項の贈与又は遺贈を受けた同号に規定する財産（次項において「譲渡財産」という。）が株式である場合における公社債及び投資信託の受益権とする。
 
 ### 第十八条の十九第十二項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p12-hashira -->
 法第四十条第五項第一号に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第五項第一号に規定する書類を提出する公益法人等の名称、主たる事務所の所在地及び法人番号（当該公益法人等が公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）
+
+二　当該公益法人等が譲渡をしようとする譲渡財産の種類、所在地及び数量並びに当該公益法人等が当該譲渡財産を法第四十条第一項後段に規定する公益目的事業の用に直接供した年月日並びに当該譲渡財産の譲渡予定価額及び譲渡予定年月日
+
+三　当該譲渡財産を当該公益法人等に贈与又は遺贈をした者の氏名及び住所又は居所、当該贈与又は遺贈をした年月日並びに当該贈与又は遺贈に係る法第四十条第一項後段の承認を受けた年月日（以下この条において「承認年月日」という。）
+
+四　当該公益法人等が取得する法第四十条第五項第一号に規定する買換資産の種類、所在地、数量、取得予定価額、取得予定年月日、使用開始予定年月日（同項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+五　その他参考となるべき事項
 
 ### 第十八条の十九第十三項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p13-hashira -->
 法第四十条第五項第二号に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第五項第二号に規定する書類を提出する公益法人等の名称、主たる事務所の所在地及び法人番号（当該公益法人等が公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）
+
+二　当該公益法人等が法第四十条第三項の贈与又は遺贈を受けた同条第五項第二号に規定する財産（以下この項及び次項において「譲渡財産」という。）を管理している施行令第二十五条の十七第二十項に規定する方法及び次に掲げる公益法人等の区分に応じそれぞれ次に定める事項
+
+　イ　第九項第一号、第二号、第五号又は第六号に掲げる公益法人等　当該公益法人等の第十項第一号、第二号ロ、第五号又は第六号の所轄庁の名称、当該譲渡財産が当該方法により管理されることにつき当該所轄庁に確認されたことを証する書類の発行年月日及び当該譲渡財産を当該方法により管理することが当該公益法人等の合議制の機関において決定された年月日（当該公益法人等が第九項第六号に掲げる公益法人等である場合には、当該譲渡財産を当該方法により管理することが当該公益法人等に係る公益信託の合議制の機関において決定された年月日又は当該譲渡財産を当該方法により管理することについて当該公益信託の信託管理人の同意を得た年月日）
+
+　ロ　第九項第三号又は第四号に掲げる公益法人等　当該譲渡財産を当該方法により管理することが当該公益法人等の理事会において決定された年月日
+
+三　当該公益法人等が譲渡をしようとする譲渡財産の種類、所在地、数量、譲渡予定価額及び譲渡予定年月日
+
+四　当該譲渡財産を当該公益法人等に贈与又は遺贈をした者の氏名及び住所又は居所、当該贈与又は遺贈をした年月日並びに当該贈与又は遺贈に係る承認年月日
+
+五　当該公益法人等が取得する法第四十条第五項第二号に規定する特定買換資産の種類、所在地、数量、取得予定価額、取得予定年月日及び使用目的並びに当該特定買換資産を第二号に規定する方法により管理することについての当該公益法人等の理事会その他の合議制の機関における決定予定年月日（当該公益法人等が第九項第六号に掲げる公益法人等である場合には、当該特定買換資産を当該方法により管理することについての当該公益法人等に係る公益信託の合議制の機関における決定予定年月日又は当該公益信託の信託管理人の同意予定年月日）
+
+六　その他参考となるべき事項
 
 ### 第十八条の十九第十四項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p14 -->
 前項第一号に規定する書類を提出しようとする公益法人等は、当該書類に、譲渡財産が同項第二号に規定する方法により管理されたことを確認できる書類の写し（当該公益法人等が同号イに掲げる公益法人等である場合には、当該譲渡財産が当該方法により管理されることにつき同号イの所轄庁に確認されたことを証する書類の写しを含む。）を添付しなければならない。
 
 ### 第十八条の十九第十五項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p15-hashira -->
 法第四十条第六項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第六項に規定する特定贈与等（以下この条において「特定贈与等」という。）を受けた公益法人等の名称、主たる事務所の所在地及び法人番号並びに合併予定年月日
+
+二　当該公益法人等が法第四十条第六項に規定する公益合併法人に移転をしようとする同項に規定する財産等の種類、所在地及び数量
+
+三　当該公益合併法人の名称、主たる事務所の所在地及び法人番号（法人番号を有しない法人にあつては、名称及び主たる事務所の所在地）並びに当該公益合併法人が当該移転を受ける資産の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+四　第二号に規定する財産等（当該財産等が、当該公益法人等が当該特定贈与等を受けた財産以外のものである場合には、当該財産）を当該公益法人等に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+
+五　その他参考となるべき事項
 
 ### 第十八条の十九第十六項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p16-hashira -->
 法第四十条第七項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　特定贈与等を受けた公益法人等の名称、主たる事務所の所在地及び法人番号並びに解散予定年月日
+
+二　当該公益法人等が法第四十条第七項に規定する他の公益法人等に移転をし、又は同項に規定する公益信託の信託財産としようとする同項に規定する財産等の種類、所在地及び数量
+
+三　法第四十条第七項に規定する解散引継法人等の名称、主たる事務所の所在地及び法人番号（当該解散引継法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該解散引継法人等が当該移転を受け、又は当該公益信託の信託財産として受け入れる資産の使用開始予定年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+四　第二号に規定する財産等（当該財産等が、当該公益法人等が当該特定贈与等を受けた財産以外のものである場合には、当該財産）を当該公益法人等に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+
+五　その他参考となるべき事項
 
 ### 第十八条の十九第十七項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p17-hashira -->
 法第四十条第八項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第八項に規定する当初法人（以下第十九項までにおいて「当初法人」という。）の名称、主たる事務所の所在地及び法人番号、同条第八項に規定する特定処分（第三十一項において「特定処分」という。）を受けた年月日並びに当該特定処分後において同条第八項に規定する特定一般法人に該当することとなつた事情の詳細
+
+二　当該当初法人が法第四十条第八項に規定する他の公益法人等に贈与をし、又は同項に規定する公益信託の信託財産としようとする同項に規定する公益引継資産の種類、所在地、数量及び当該特定処分を受けた日の前日における価額並びに当該贈与予定年月日
+
+三　法第四十条第八項に規定する引継法人等が当該贈与を受け、又は当該公益信託の信託財産として受け入れる当該公益引継資産をもつて資産を取得しようとする場合には、その取得しようとする資産（次号において「代替公益引継資産」という。）の種類、所在地、数量、取得予定価額及び取得予定年月日
+
+四　当該引継法人等の名称、主たる事務所の所在地及び法人番号（当該引継法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該引継法人等が当該贈与を受け、又は当該公益信託の信託財産として受け入れる当該公益引継資産（代替公益引継資産を含む。）の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+五　当該公益引継資産（当該公益引継資産が、当該当初法人が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該当初法人に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+
+六　当該公益引継資産が施行令第二十五条の十七第二十四項第二号に掲げる引継財産である場合には、次項又は第十九項の規定により計算した金額及び当該金額の計算に関する明細
+
+七　その他参考となるべき事項
 
 ### 第十八条の十九第十八項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p18 -->
 施行令第二十五条の十七第二十四項第二号に規定する財務省令で定めるところにより計算した金額は、当初法人の法第四十条第八項に規定する公益目的取得財産残額に、第一号に掲げる金額のうちに第二号に掲げる金額の占める割合を乗じて計算した金額とする。
+
+一　公益社団法人及び公益財団法人の認定等に関する法律施行規則（平成十九年内閣府令第六十八号。次項において「公益認定法施行規則」という。）第六十七条第二項に規定する公益目的取得財産残額の見込額
+
+二　法第四十条第八項に規定する財産等の同項に規定する特定処分を受けた日の前日における価額
 
 ### 第十八条の十九第十九項
 
-<!-- segment: tokusoku id: sochi-hou-shikoukisoku-art-18-19-p19 override_flag: true override_target: 前項 -->
 公益認定法施行規則第六十八条第一項の規定の適用がある場合における施行令第二十五条の十七第二十四項第二号に規定する財務省令で定めるところにより計算した金額は、前項の規定にかかわらず、当初法人の法第四十条第八項に規定する公益目的取得財産残額に、第一号に掲げる金額のうちに第二号に掲げる金額の占める割合を乗じて計算した金額とする。
+
+一　公益認定法施行規則第六十八条第三項に規定する取消し等の日における公益目的取得財産残額
+
+二　前項第二号に掲げる金額
 
 ### 第十八条の十九第二十項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p20-hashira -->
 法第四十条第九項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第九項に規定する特定一般法人の名称、主たる事務所の所在地及び法人番号
+
+二　当該特定一般法人の法第四十条第九項に規定する他の公益法人等への贈与又は同項に規定する財産等を同項に規定する公益信託の信託財産とすることが一般社団法人及び一般財団法人に関する法律及び公益社団法人及び公益財団法人の認定等に関する法律の施行に伴う関係法律の整備等に関する法律（平成十八年法律第五十号）第百十九条第二項第一号ロに掲げる寄附又は支出に該当する旨
+
+三　当該特定一般法人が当該受贈公益法人等に贈与をし、又は法第四十条第九項に規定する公益信託の信託財産としようとする同項に規定する財産等の種類、所在地及び数量並びに当該贈与予定年月日
+
+四　当該受贈公益法人等の名称、主たる事務所の所在地及び法人番号（当該受贈公益法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該受贈公益法人等が当該贈与を受け、又は当該公益信託の信託財産として受け入れる資産の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+五　第三号に規定する財産等（当該財産等が、当該特定一般法人が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該特定一般法人に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+
+六　その他参考となるべき事項
 
 ### 第十八条の十九第二十一項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p21-hashira -->
 法第四十条第十項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第十項に規定する譲渡法人（以下この条において「譲渡法人」という。）の名称、主たる事務所の所在地及び法人番号並びに当該譲渡法人の次に掲げる者の区分に応じそれぞれ次に定める日
+
+　イ　法第四十条第十項に規定する幼稚園（以下この条において「幼稚園」という。）を設置する者　当該幼稚園の廃止若しくは設置者の変更（施行令第二十五条の十七第二十七項第一号に規定する設置者の変更をいう。第二十三項において同じ。）の認可（同号に規定する認可をいう。イ、次項第二号イ及び第二十三項において同じ。）を受けた日又は当該認可の申請をした日
+
+　ロ　施行令第二十五条の十七第二十七項第二号イに規定する保育所（以下この条において「保育所」という。）を設置する者　当該保育所の廃止の承認（同号イに規定する承認をいう。ロ及び次項第二号ロにおいて同じ。）を受けた日又は当該承認の申請をした日
+
+　ハ　施行令第二十五条の十七第二十七項第二号ロに規定する保育機能施設（以下この条において「保育機能施設」という。）を設置する者　当該保育機能施設の設置者変更の届出（同号ロに規定する設置者変更の届出をいう。）を行つた日
+
+二　当該譲渡法人が法第四十条第十項に規定する譲受法人に贈与をしようとする同項に規定する財産等の種類、所在地及び数量並びに当該贈与予定年月日
+
+三　当該譲受法人の名称、主たる事務所の所在地及び法人番号、当該譲受法人が当該贈与を受ける資産の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的（施行令第二十五条の十七第三十五項に規定する事業に係るものに限る。）並びに当該譲受法人の次に掲げる者の区分に応じそれぞれ次に定める日
+
+　イ　法第四十条第十項に規定する幼保連携型認定こども園（以下この条において「幼保連携型認定こども園」という。）を設置しようとする者　幼保連携型認定こども園（次項に規定する幼保連携型認定こども園に限る。）の設置の認可（施行令第二十五条の十七第二十八項第一号に規定する認可をいう。イにおいて同じ。）を受けた日又は当該設置の認可の同号に規定する申請をした日
+
+　ロ　幼稚園を設置しようとする者　幼稚園（第二十三項に規定する幼稚園に限る。）の設置若しくは設置者の変更（施行令第二十五条の十七第二十八項第二号に規定する設置者の変更をいう。）の認可（同号に規定する認可をいう。ロにおいて同じ。）を受けた日又は当該認可の申請をした日
+
+　ハ　保育所を設置しようとする者　保育所（第二十五項に規定する保育所に限る。）の設置の認可（施行令第二十五条の十七第二十八項第三号イに規定する認可をいう。ハにおいて同じ。）を受けた日又は当該認可の申請をした日
+
+　ニ　保育機能施設を設置しようとする者　譲渡法人が設置していた保育機能施設につき、その設置者の変更（施行令第二十五条の十七第二十八項第三号ロに規定する変更をいう。）を事由とする届出（同号ロに規定する届出をいう。）が行われた日
+
+四　第二号に規定する財産等（当該財産等が、当該譲渡法人が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該譲渡法人に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+
+五　その他参考となるべき事項
 
 ### 第十八条の十九第二十二項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p22 -->
 施行令第二十五条の十七第二十八項第一号に規定する財務省令で定める幼保連携型認定こども園は、第一号に掲げる施設及び第二号に掲げる施設の職員組織等を基にする幼保連携型認定こども園とする。
+
+一　施行令第二十五条の十七第二十八項第一号に掲げる幼保連携型認定こども園を設置しようとする者が設置する次に掲げるいずれかの施設
+
+　イ　幼稚園（その廃止の認可（学校教育法（昭和二十二年法律第二十六号）第四条第一項に規定する認可をいう。イにおいて同じ。）を受け、又は当該認可の申請をしているものに限る。）
+
+　ロ　保育所（その廃止の承認（児童福祉法第三十五条第十二項に規定する承認をいう。ロにおいて同じ。）を受け、又は当該承認の申請をしているものに限る。）
+
+　ハ　保育機能施設（その廃止の届出（児童福祉法第五十九条の二第二項の規定による届出をいう。）を行つているものに限る。）
+
+二　譲渡法人が設置する次に掲げるいずれかの施設
+
+　イ　幼稚園（その廃止の認可を受け、又は当該認可の申請をしているものに限る。）
+
+　ロ　保育所（その廃止の承認を受け、又は当該承認の申請をしているものに限る。）
 
 ### 第十八条の十九第二十三項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p23 -->
 施行令第二十五条の十七第二十八項第二号に規定する財務省令で定める幼稚園は、譲渡法人が設置する前項第二号イに掲げる幼稚園の職員組織等を基にする幼稚園又は譲渡法人が設置する幼稚園で設置者の変更の認可を受け、若しくは当該認可の申請をしているものとする。
 
 ### 第十八条の十九第二十四項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p24 -->
 施行令第二十五条の十七第二十八項第二号に規定する財務省令で定める幼保連携型認定こども園は、同号に掲げる幼稚園を設置しようとする者のその設置しようとする幼稚園及びその者が設置する保育所又は保育機能施設を廃止し、これらの職員組織等を基に設置される幼保連携型認定こども園とする。
 
 ### 第十八条の十九第二十五項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p25 -->
 施行令第二十五条の十七第二十八項第三号イに規定する財務省令で定める保育所は、譲渡法人が設置する第二十二項第二号ロに掲げる保育所の職員組織等を基にする保育所とする。
 
 ### 第十八条の十九第二十六項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p26 -->
 施行令第二十五条の十七第二十八項第三号イに規定する財務省令で定める幼保連携型認定こども園は、同号イに掲げる保育所を設置しようとする者のその設置しようとする保育所及びその者が設置する幼稚園を廃止し、これらの職員組織等を基に設置される幼保連携型認定こども園とする。
 
 ### 第十八条の十九第二十七項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-19-p27 -->
 施行令第二十五条の十七第二十八項第三号ロに規定する財務省令で定める幼保連携型認定こども園は、同号ロに掲げる保育機能施設を設置しようとする者のその設置しようとする保育機能施設（その者が当該保育機能施設を廃止し、その職員組織等を基に保育所を設置することとなる場合には、当該保育所）及びその者が設置する幼稚園を廃止し、これらの職員組織等を基に設置される幼保連携型認定こども園とする。
 
 ### 第十八条の十九第二十八項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p28-hashira -->
 法第四十条第十一項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第十一項に規定する当初受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該当初受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）、当該公益信託の名称、同項に規定する任務終了事由等が生じた年月日並びに当該任務終了事由等の詳細
+
+二　当該当初受託者が法第四十条第十一項に規定する引継受託者に移転をしようとする同項に規定する財産等の種類、所在地及び数量
+
+三　当該引継受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号、当該引継受託者が当該移転を受ける資産の使用開始予定年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的並びに公益信託に関する法律第十二条第一項に規定する新受託者の選任若しくは同法第七条第二項各号に掲げる事項の変更に係る同法第十二条第一項の認可の申請をした日又は同項ただし書に規定する新受託者の選任に係る同法第十四条第一項の規定による届出の予定年月日
+
+四　第二号に規定する財産等（当該財産等が、当該当初受託者が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該当初受託者に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+
+五　その他参考となるべき事項
 
 ### 第十八条の十九第二十九項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p29-hashira -->
 法第四十条第十二項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第十二項に規定する当初公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該当初公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）、当該当初公益信託の名称、同項に規定する公益信託の終了の予定年月日並びに当該公益信託の終了に係る事由の詳細
+
+二　当該当初公益信託の受託者が法第四十条第十二項に規定する他の公益法人等に移転をし、又は同項に規定する他の公益信託の信託財産としようとする同項に規定する財産等の種類、所在地及び数量
+
+三　法第四十条第十二項に規定する帰属権利者の名称、主たる事務所の所在地及び法人番号（当該帰属権利者が当該他の公益信託の受託者である場合には、当該他の公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該他の公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該他の公益信託の名称）並びに当該帰属権利者が当該移転を受け、又は当該他の公益信託の信託財産として受け入れる資産の使用開始予定年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+四　第二号に規定する財産等（当該財産等が、当該当初公益信託の受託者が特定贈与等を受けた財産以外のものである場合には、当該財産）を当該当初公益信託の受託者に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日並びに当該財産の種類、所在地及び数量
+
+五　その他参考となるべき事項
 
 ### 第十八条の十九第三十項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p30-hashira -->
 法第四十条第十三項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　特定贈与等を受けた公益法人等から法第四十条第六項に規定する合併により資産の移転を受けた同条第十三項に規定する公益合併法人の名称、主たる事務所の所在地及び法人番号並びに当該合併をした年月日
+
+二　当該公益合併法人が当該合併により移転を受けた資産が法第四十条第十三項に規定する財産等であることを知つた日並びに当該資産の種類、所在地、数量、使用開始年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+三　第一号の特定贈与等を受けた公益法人等の名称、主たる事務所の所在地及び法人番号
+
+四　その他参考となるべき事項
 
 ### 第十八条の十九第三十一項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p31-hashira -->
 法第四十条第十四項に規定する引継法人等が同項に規定する当初法人から同項に規定する引継財産の贈与を受けた場合又は同項に規定する引継財産を同項に規定する公益信託の信託財産として受け入れた場合における同項において準用する同条第十三項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　当該引継法人等の名称、主たる事務所の所在地及び法人番号（当該引継法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該贈与を受け、又は当該公益信託の信託財産として受け入れた年月日
+
+二　当該引継法人等が当該当初法人から当該贈与を受け、又は当該公益信託の信託財産として受け入れた資産が法第四十条第十四項に規定する引継財産であることを知つた日並びに当該贈与を受け、又は当該公益信託の信託財産として受け入れた同条第八項に規定する公益引継資産の種類、所在地、数量及び特定処分を受けた日の前日における価額
+
+三　当該引継法人等が当該贈与を受け、又は当該公益信託の信託財産として受け入れた当該公益引継資産をもつて資産を取得した場合には、その取得をした資産（次号において「代替公益引継資産」という。）の種類、所在地、数量、取得価額及び取得年月日
+
+四　当該引継法人等の当該公益引継資産（代替公益引継資産を含む。）の使用開始年月日（法第四十条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+五　当該当初法人の名称、主たる事務所の所在地及び法人番号並びに特定処分を受けた年月日並びに当該特定処分後において法第四十条第八項に規定する特定一般法人に該当することとなつた事情の詳細
+
+六　当該公益引継資産が施行令第二十五条の十七第二十四項第二号に掲げる引継財産である場合には、第十八項又は第十九項の規定により計算した金額及び当該金額の計算に関する明細
+
+七　その他参考となるべき事項
 
 ### 第十八条の十九第三十二項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p32-hashira -->
 法第四十条第十四項に規定する受贈公益法人等が同項に規定する特定一般法人から同項に規定する財産等の贈与を受けた場合又は同項に規定する財産等を同項に規定する公益信託の信託財産として受け入れた場合における同項において準用する同条第十三項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　当該受贈公益法人等の名称、主たる事務所の所在地及び法人番号（当該受贈公益法人等が当該公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）並びに当該贈与を受け、又は当該公益信託の信託財産として受け入れた年月日
+
+二　当該受贈公益法人等が当該特定一般法人から受けた贈与又は当該財産等を当該公益信託の信託財産として受け入れたことが一般社団法人及び一般財団法人に関する法律及び公益社団法人及び公益財団法人の認定等に関する法律の施行に伴う関係法律の整備等に関する法律第百十九条第二項第一号ロに掲げる寄附又は支出に該当する旨
+
+三　当該受贈公益法人等が当該特定一般法人から贈与を受け、又は当該公益信託の信託財産として受け入れた資産が法第四十条第九項に規定する財産等であることを知つた日並びに当該財産等の種類、所在地、数量、使用開始年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+四　当該特定一般法人の名称、主たる事務所の所在地及び法人番号
+
+五　その他参考となるべき事項
 
 ### 第十八条の十九第三十三項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p33-hashira -->
 法第四十条第十四項に規定する譲受法人が同項に規定する譲渡法人から同項に規定する財産等の贈与を受けた場合における同項において準用する同条第十三項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　当該譲受法人の名称、主たる事務所の所在地及び法人番号並びに当該贈与を受けた年月日並びに当該譲受法人の第二十一項第三号イからニまでに掲げる者の区分に応じそれぞれ同号イからニまでに定める日
+
+二　当該譲受法人が当該譲渡法人から贈与を受けた資産が法第四十条第十項に規定する財産等であることを知つた日並びに当該財産等の種類、所在地、数量、使用開始年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的（施行令第二十五条の十七第三十五項に規定する事業に係るものに限る。）
+
+三　当該譲渡法人の名称、主たる事務所の所在地及び法人番号並びに当該譲渡法人の第二十一項第一号イからハまでに掲げる者の区分に応じそれぞれ同号イからハまでに定める日
+
+四　その他参考となるべき事項
 
 ### 第十八条の十九第三十四項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p34-hashira -->
 法第四十条第十四項に規定する引継受託者が同項に規定する当初受託者から同項に規定する任務終了事由等により同項に規定する財産等の移転を受けた場合における同項において準用する同条第十三項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　当該引継受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該引継受託者に係る公益信託の受託者が二以上ある場合には、当該引継受託者以外の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号を含む。）、当該公益信託の名称並びに当該任務終了事由等に係る法第四十条第十四項に規定する認可又は届出の日
+
+二　当該引継受託者が当該当初受託者から当該移転を受けた資産が法第四十条第十一項に規定する財産等であることを知つた日並びに当該財産等の種類、所在地、数量、使用開始年月日（同条第十五項において準用する同条第五項後段に規定する政令で定める事情がある場合には、その事情の詳細を含む。）及び使用目的
+
+三　当該当初受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号、法第四十条第十一項に規定する任務終了事由等が生じた年月日並びに当該任務終了事由等の詳細
+
+四　その他参考となるべき事項
 
 ### 第十八条の十九第三十五項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p35-hashira -->
 法第四十条第十六項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第十六項に規定する特定一般法人の同項に規定する認定前の名称及び主たる事務所の所在地並びに当該認定後の名称及び主たる事務所の所在地並びに当該特定一般法人の法人番号並びに当該認定を受けた年月日
+
+二　当該特定一般法人が特定贈与等を受けた財産の種類、所在地及び数量
+
+三　当該財産を当該特定一般法人に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日
+
+四　その他参考となるべき事項
 
 ### 第十八条の十九第三十六項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p36-hashira -->
 施行令第二十五条の十七第三十七項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　施行令第二十五条の十七第三十七項に規定する公益法人等の同項に規定する処分前の名称及び主たる事務所の所在地並びに当該処分後の名称及び主たる事務所の所在地並びに当該公益法人等の法人番号
+
+二　当該公益法人等が当該処分を受けた事由（二以上の事由がある場合には、その全ての事由）及び当該処分を受けた年月日
+
+三　当該公益法人等が特定贈与等を受けた財産の種類、所在地及び数量
+
+四　当該財産を当該公益法人等に当該特定贈与等をした者の氏名及び住所又は居所並びに当該特定贈与等に係る贈与又は遺贈をした年月日及び承認年月日
+
+五　当該公益法人等が定款の変更をしようとする場合には、その旨及び当該変更予定年月日
+
+六　その他参考となるべき事項
 
 ### 第十八条の十九第三十七項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-18-19-p37-hashira -->
 施行令第二十五条の十七第三十八項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第四十条第十八項に規定する公益法人等の名称、主たる事務所の所在地及び法人番号（当該公益法人等が公益信託の受託者である場合には、当該公益信託の受託者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（当該公益信託の受託者が二以上ある場合には、その主宰受託者の氏名又は名称を含む。）並びに当該公益信託の名称）
+
+二　法第四十条第十八項に規定する受贈資産の種類、所在地及び数量
+
+三　当該受贈資産を当該公益法人等に贈与又は遺贈をした者の氏名及び住所又は居所並びに当該贈与又は遺贈をした年月日
+
+四　当該受贈資産につき法第四十条第十八項の規定による確認を求める理由（当該受贈資産が平成二十年十二月一日以後の贈与又は遺贈に係るものである場合には、当該確認を求めるやむを得ない理由を含む。）
+
+五　その他参考となるべき事項

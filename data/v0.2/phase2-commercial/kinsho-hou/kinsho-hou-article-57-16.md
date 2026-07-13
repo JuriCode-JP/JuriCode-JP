@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-16-p1
+    type: simple
+    text: 最終指定親会社は、最終指定親会社になつた日から起算して政令で定める期間が経過した日の属する事業年度以降、当該最終指定親会社及びその子法人等の業務及び財産の状況に関する事項として内閣府令で定めるものを当該最終指定親会社及びその子法人等につき連結して記載した説明書類を作成し、毎事業年度経過後政令で定める期間を経過した日から一年間、これを対象特別金融商品取引業者の全ての営業所若しくは事務所に備え置いて公衆の縦覧に供し、又は内閣府令で定めるところにより、インターネットの利用その他の方法により公表しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -13,35 +13,87 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-271-6-p1-honbun
+    type: honbun
+    text: 裁判所は、第二百七十一条の三第一項又は第二百七十一条の四第二項の規定による起訴状の謄本の提出があつた事件について、起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないもの（前条第一項の決定により通知することとされたものを除く。以下この条及び第二百七十一条の八第一項において同じ。）が第二百七十一条の二第一項第一号又は第二号に掲げる者のものに該当すると認める場合において、検察官及び弁護人の意見を聴き、相当と認めるときは、弁護人が第四十条第一項の規定により訴訟に関する書類又は証拠物を閲覧し又は謄写するに当たり、これらに記載され又は記録されている当該個人特定事項を被告人に知らせてはならない旨の条件を付し、又は被告人に知らせる時期若しくは方法を指定することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: keiji-soshou-hou-art-271-6-p1-tadashi
+    type: tadashi
+    text: ただし、当該個人特定事項に係る者の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなるときその他の被告人の防御に実質的な不利益を生ずるおそれがあるときは、この限りでない。
+    modality: jogai
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-271-6-p2-honbun
+    type: honbun
+    text: 裁判所は、第二百七十一条の三第三項又は第二百七十一条の四第四項の規定による起訴状抄本等の提出があつた事件について、起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないものが第二百七十一条の二第一項第一号又は第二号に掲げる者のものに該当すると認める場合において、検察官及び弁護人の意見を聴き、相当と認めるときは、弁護人が第四十条第一項の規定により訴訟に関する書類又は証拠物を閲覧し又は謄写するについて、これらのうち当該個人特定事項が記載され若しくは記録されている部分の閲覧若しくは謄写を禁じ、又は当該個人特定事項を被告人に知らせてはならない旨の条件を付し、若しくは被告人に知らせる時期若しくは方法を指定することができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-271-6-p2-tadashi
+    type: tadashi
+    text: ただし、当該個人特定事項に係る者の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなるときその他の被告人の防御に実質的な不利益を生ずるおそれがあるときは、この限りでない。
+    modality: jogai
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-271-6-p3-honbun
+    type: honbun
+    text: 裁判所は、第一項本文に規定する事件について、起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないものが第二百七十一条の二第一項第一号又は第二号に掲げる者のものに該当すると認める場合において、弁護人から第四十六条の規定による請求があつた場合であつて、検察官及び弁護人の意見を聴き、相当と認めるときは、弁護人に裁判書又は裁判を記載した調書の謄本又は抄本を交付するに当たり、これらに記載されている当該個人特定事項を被告人に知らせてはならない旨の条件を付し、又は被告人に知らせる時期若しくは方法を指定することができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-271-6-p3-tadashi
+    type: tadashi
+    text: ただし、当該個人特定事項に係る者の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなるときその他の被告人の防御に実質的な不利益を生ずるおそれがあるときは、この限りでない。
+    modality: jogai
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-271-6-p4-honbun
+    type: honbun
+    text: 裁判所は、第二項本文に規定する事件について、起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないものが第二百七十一条の二第一項第一号又は第二号に掲げる者のものに該当すると認める場合において、弁護人から第四十六条の規定による請求があつた場合であつて、検察官及び弁護人の意見を聴き、相当と認めるときは、裁判書若しくは裁判を記載した調書の抄本であつて当該個人特定事項の記載がないものを交付し、又は弁護人に裁判書若しくは裁判を記載した調書の謄本若しくは抄本を交付するに当たり、当該個人特定事項を被告人に知らせてはならない旨の条件を付し、若しくは被告人に知らせる時期若しくは方法を指定することができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-271-6-p4-tadashi
+    type: tadashi
+    text: ただし、当該個人特定事項に係る者の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなるときその他の被告人の防御に実質的な不利益を生ずるおそれがあるときは、この限りでない。
+    modality: jogai
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-271-6-p5-honbun
+    type: honbun
+    text: 裁判所は、第二百七十一条の二第二項の規定による起訴状抄本等の提出があつた事件について、起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないものが同条第一項第一号又は第二号に掲げる者のものに該当すると認める場合において、被告人その他訴訟関係人（検察官及び弁護人を除く。）から第四十六条の規定による請求があつた場合であつて、検察官及び当該請求をした被告人その他訴訟関係人の意見を聴き、相当と認めるときは、裁判書又は裁判を記載した調書の抄本であつて当該個人特定事項の記載がないものを交付することができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-271-6-p5-tadashi
+    type: tadashi
+    text: ただし、当該個人特定事項に係る者の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなるときその他の被告人の防御に実質的な不利益を生ずるおそれがあるときは、この限りでない。
+    modality: jogai
 - number: 6
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-271-6-p6-honbun
+    type: honbun
+    text: 裁判所は、前項本文に規定する事件について、起訴状に記載された個人特定事項のうち起訴状抄本等に記載がないものが第二百七十一条の二第一項第一号又は第二号に掲げる者のものに該当すると認める場合において、検察官及び被告人の意見を聴き、相当と認めるときは、被告人が第四十九条の規定により公判調書を閲覧し又はその朗読を求めるについて、このうち当該個人特定事項が記載され若しくは記録されている部分の閲覧を禁じ、又は当該部分の朗読の求めを拒むことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-271-6-p6-tadashi
+    type: tadashi
+    text: ただし、当該個人特定事項に係る者の供述の証明力の判断に資するような被告人その他の関係者との利害関係の有無を確かめることができなくなるときその他の被告人の防御に実質的な不利益を生ずるおそれがあるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

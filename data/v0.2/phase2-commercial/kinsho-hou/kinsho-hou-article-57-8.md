@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-8-p1
+    type: simple
+    text: 内閣総理大臣は、第五十七条の六第三項の規定により第二十九条の登録を取り消したときは、当該登録を抹消しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-8-p2
+    type: simple
+    text: 内閣総理大臣は、第五十七条の二第六項第二号の規定による届出を受理したときは、同条第七項に規定する特別金融商品取引業者である旨の付記を抹消しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第百八十条第一項（恒久的施設を有する外国法人の受ける国内源泉所得に係る課税の特例）の証明書の交付を受けている法人は、同条第二項に規定する場合には、次に掲げる事項を記載した届出書に当該証明書を添付し、これをその法人税の納税地の所轄税務署長に提出するとともに、その法人が当該証明書を提示した国内源泉所得の支払者に対しその旨を遅滞なく通知しなければならない。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-306-p1-kou-1
+    type: kou
+    text: その法人の納税地にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-306-p1-kou-2
+    type: kou
+    text: 第三百四条各号（外国法人が課税の特例の適用を受けるための要件）に掲げる要件に該当しないこととなり、又は恒久的施設を有しないこととなつた事情の詳細
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-306-p1-kou-3
+    type: kou
+    text: その法人が当該証明書を提示した国内源泉所得の支払者の氏名又は名称及びその住所、事務所、事業所その他当該国内源泉所得の支払の場所
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikkourei-art-306-p1-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +51,8 @@ paragraphs:
     text: 前項に規定する法人は、同項の証明書に係る前条第一項の申請書に記載した同項第一号又は第二号に掲げる事項に変更があつた場合には、遅滞なく、その旨を記載した届出書を前項の所轄税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 前条
     - 同項
+    - 前条
     - 前項
 cases: []
 amendments: []
@@ -54,10 +74,16 @@ parent_section:
 
 ### 第三百六条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-306-p1-hashira -->
 法第百八十条第一項（恒久的施設を有する外国法人の受ける国内源泉所得に係る課税の特例）の証明書の交付を受けている法人は、同条第二項に規定する場合には、次に掲げる事項を記載した届出書に当該証明書を添付し、これをその法人税の納税地の所轄税務署長に提出するとともに、その法人が当該証明書を提示した国内源泉所得の支払者に対しその旨を遅滞なく通知しなければならない。
+
+一　その法人の納税地にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名
+
+二　第三百四条各号（外国法人が課税の特例の適用を受けるための要件）に掲げる要件に該当しないこととなり、又は恒久的施設を有しないこととなつた事情の詳細
+
+三　その法人が当該証明書を提示した国内源泉所得の支払者の氏名又は名称及びその住所、事務所、事業所その他当該国内源泉所得の支払の場所
+
+四　その他参考となるべき事項
 
 ### 第三百六条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-306-p2 -->
 前項に規定する法人は、同項の証明書に係る前条第一項の申請書に記載した同項第一号又は第二号に掲げる事項に変更があつた場合には、遅滞なく、その旨を記載した届出書を前項の所轄税務署長に提出しなければならない。

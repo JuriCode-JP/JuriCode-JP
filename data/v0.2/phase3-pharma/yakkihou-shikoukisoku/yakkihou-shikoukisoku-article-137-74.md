@@ -14,19 +14,51 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-74-p1-hashira
+    type: hashira
+    text: 令第四十三条の四十六第一項の厚生労働省令で定める事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-74-p1-kou-1
+    type: kou
+    text: 外国製造再生医療等製品特例承認取得者の氏名又は住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-74-p1-kou-2
+    type: kou
+    text: 外国製造再生医療等製品特例承認取得者が法人であるときは、薬事に関する業務に責任を有する役員
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-74-p1-kou-3
+    type: kou
+    text: 承認を受けた品目を製造する製造所又はその名称
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-74-p2
+    type: simple
+    text: 前項の届出は、品目ごとに様式第五十四の三による届書（正副二通）を提出することによつて行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-74-p3
+    type: simple
+    text: 第一項の届出が、同項第一号に掲げる事項に係るものであるときは、これを証する書類を、同項第二号に掲げる事項に係るものであるときは、変更後の役員が法第二十三条の三十七第二項に規定する者であるかないかを明らかにする書類を、前項の届書に添えなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -44,6 +76,12 @@ parent_section:
 ### 第百三十七条の七十四第一項
 
 令第四十三条の四十六第一項の厚生労働省令で定める事項は、次のとおりとする。
+
+一　外国製造再生医療等製品特例承認取得者の氏名又は住所
+
+二　外国製造再生医療等製品特例承認取得者が法人であるときは、薬事に関する業務に責任を有する役員
+
+三　承認を受けた品目を製造する製造所又はその名称
 
 ### 第百三十七条の七十四第二項
 

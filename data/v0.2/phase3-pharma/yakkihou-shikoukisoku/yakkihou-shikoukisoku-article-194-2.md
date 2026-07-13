@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-194-2-p1-zen
+    type: zen_dan
+    text: 医療機器の修理業者については、第三条、第十五条の九及び第十八条の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-194-2-p1-kou
+    type: kou_dan
+    text: この場合において、第十五条の九第一項中「登録販売者として」とあるのは「第百八十八条第一号イ又は第二号イに規定する」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-194-2-p1-zen
 cases: []
 amendments: []
 tags:

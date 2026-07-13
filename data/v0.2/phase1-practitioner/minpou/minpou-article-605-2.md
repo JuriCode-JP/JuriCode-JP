@@ -16,22 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-605-2-p1
+    type: simple
+    text: 前条、借地借家法（平成三年法律第九十号）第十条又は第三十一条その他の法令の規定による賃貸借の対抗要件を備えた場合において、その不動産が譲渡されたときは、その不動産の賃貸人たる地位は、その譲受人に移転する。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-605-2-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、不動産の譲渡人及び譲受人が、賃貸人たる地位を譲渡人に留保する旨及びその不動産を譲受人が譲渡人に賃貸する旨の合意をしたときは、賃貸人たる地位は、譲受人に移転しない。この場合において、譲渡人と譲受人又はその承継人との間の賃貸借が終了したときは、譲渡人に留保されていた賃貸人たる地位は、譲受人又はその承継人に移転する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-605-2-p3
+    type: simple
+    text: 第一項又は前項後段の規定による賃貸人たる地位の移転は、賃貸物である不動産について所有権の移転の登記をしなければ、賃借人に対抗することができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-605-2-p4
+    type: simple
+    text: 第一項又は第二項後段の規定により賃貸人たる地位が譲受人又はその承継人に移転したときは、第六百八条の規定による費用の償還に係る債務及び第六百二十二条の二第一項の規定による同項に規定する敷金の返還に係る債務は、譲受人又はその承継人が承継する。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

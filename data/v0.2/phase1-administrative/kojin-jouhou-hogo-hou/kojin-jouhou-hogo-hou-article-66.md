@@ -32,6 +32,31 @@ paragraphs:
     modality: unspecified
     references:
     - 前項
+  - id: kojin-jouhou-hogo-hou-art-66-p2-kou-1
+    type: kou
+    text: 行政機関等から個人情報の取扱いの委託を受けた者　当該委託を受けた業務
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-66-p2-kou-2
+    type: kou
+    text: 指定管理者（地方自治法（昭和二十二年法律第六十七号）第二百四十四条の二第三項に規定する指定管理者をいう。）　公の施設（同法第二百四十四条第一項に規定する公の施設をいう。）の管理の業務
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-66-p2-kou-3
+    type: kou
+    text: 第五十八条第一項各号に掲げる者　法令に基づき行う業務であって政令で定めるもの
+    modality: unspecified
+    item_number: 3
+  - id: kojin-jouhou-hogo-hou-art-66-p2-kou-4
+    type: kou
+    text: 第五十八条第二項各号に掲げる者　同項各号に定める業務のうち法令に基づき行う業務であって政令で定めるもの
+    modality: unspecified
+    item_number: 4
+  - id: kojin-jouhou-hogo-hou-art-66-p2-kou-5
+    type: kou
+    text: 前各号に掲げる者から当該各号に定める業務の委託（二以上の段階にわたる委託を含む。）を受けた者　当該委託を受けた業務
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -50,10 +75,18 @@ parent_section:
 
 ### 第六十六条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-66-p1 -->
 行政機関の長等は、保有個人情報の漏えい、滅失又は毀損の防止その他の保有個人情報の安全管理のために必要かつ適切な措置を講じなければならない。
 
 ### 第六十六条第二項
 
-<!-- segment: junyou id: kojin-jouhou-hogo-hou-art-66-p2 -->
 前項の規定は、次の各号に掲げる者が当該各号に定める業務を行う場合における個人情報の取扱いについて準用する。
+
+一　行政機関等から個人情報の取扱いの委託を受けた者　当該委託を受けた業務
+
+二　指定管理者（地方自治法（昭和二十二年法律第六十七号）第二百四十四条の二第三項に規定する指定管理者をいう。）　公の施設（同法第二百四十四条第一項に規定する公の施設をいう。）の管理の業務
+
+三　第五十八条第一項各号に掲げる者　法令に基づき行う業務であって政令で定めるもの
+
+四　第五十八条第二項各号に掲げる者　同項各号に定める業務のうち法令に基づき行う業務であって政令で定めるもの
+
+五　前各号に掲げる者から当該各号に定める業務の委託（二以上の段階にわたる委託を含む。）を受けた者　当該委託を受けた業務

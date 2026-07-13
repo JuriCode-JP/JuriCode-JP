@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-20-p1
+    type: simple
+    text: 道府県知事は、軽油引取税に係る地方団体の徴収金の保全のため必要があると認めるときは、政令で定めるところにより、軽油引取税に係る地方団体の徴収金の担保として、軽油引取税の特別徴収義務者又は納税者に対し、金額及び期間を指定して、第十六条第一項各号に掲げる担保又は金銭の提供を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-20-p2
+    type: junyou
+    text: 第十六条第三項及び第十六条の五の規定は、前項の規定による担保について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

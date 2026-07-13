@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-235-2-p1
+    type: simple
+    text: 法第六十八条の二十の二の規定による公表は、機構のホームページを使用する方法により行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-235-2-p2
+    type: simple
+    text: 法第六十八条の二十の二各号に掲げる事項の表示は、邦文でされていなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

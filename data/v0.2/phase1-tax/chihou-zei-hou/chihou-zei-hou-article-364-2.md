@@ -16,32 +16,70 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-364-2-p1
+    type: simple
+    text: 前条第五項の固定資産に係る当該年度分の固定資産税額が仮算定税額の二分の一に相当する額に満たないこととなると認められる場合においては、同項の規定によつて当該固定資産に係る固定資産税を徴収されることとなる者は、同条第七項の納税通知書の交付を受けた日から三十日以内に市町村長に同条第五項の規定によつて徴収される固定資産税額の修正を申し出ることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-364-2-p2
+    type: simple
+    text: 前項の規定による修正の申出は、文書をもつてしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-364-2-p3
+    type: simple
+    text: 第一項の修正の申出に対する市町村長の決定は、その申出を受理した日から三十日以内にしなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-364-2-p4-zen
+    type: zen_dan
+    text: 第一項の修正の申出に対する決定は、文書で行い、かつ、理由を付けてその申出をした者に交付しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-364-2-p4-kou
+    type: kou_dan
+    text: この場合において、当該申出について相当の理由があると認められるときは、市町村長は、当該固定資産に係る当該年度分の固定資産税額の見積額を基礎として、前条第五項の規定によつて徴収する固定資産税額を修正しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    depends_on: chihou-zei-hou-art-364-2-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-364-2-p5
+    type: simple
+    text: 第一項の修正の申出に関する書類を郵便又は信書便で提出した場合における同項の期間の計算については、送付に要した日数は、算入しない。
+    modality: unspecified
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-364-2-p6
+    type: simple
+    text: 第三項の規定による決定については、審査請求をすることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

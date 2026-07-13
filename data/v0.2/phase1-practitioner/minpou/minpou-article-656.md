@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百五十六条
 
-<!-- segment: junyou id: minpou-art-656-p1 -->
 この節の規定は、法律行為でない事務の委託について準用する。

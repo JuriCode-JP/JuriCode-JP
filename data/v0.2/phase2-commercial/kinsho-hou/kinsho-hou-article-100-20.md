@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-20-p1
+    type: simple
+    text: 裁判所は、第百条の九の規定により裁判所が金融商品会員制法人の清算人を選任した場合においては、金融商品会員制法人に報酬を支払わせることができる。清算人に対して支払う報酬の額は、当該清算人及び監事の陳述を聴き、裁判所が定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

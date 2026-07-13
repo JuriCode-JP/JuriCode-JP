@@ -30,6 +30,16 @@ paragraphs:
     type: hashira
     text: 法第百十九条第二項（国税の確定金額の端数計算の特例）に規定する政令で定める国税は、次に掲げる国税とする。
     modality: gimu
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-40-p2-kou-1
+    type: kou
+    text: 前項に規定する国税
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-40-p2-kou-2
+    type: kou
+    text: 所得税法第百九十条又は第百九十二条（年末調整に係る不足額の源泉徴収義務）の規定により徴収する所得税
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -46,10 +56,12 @@ parent_section:
 
 ### 第四十条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-40-p1 -->
 法第百十八条第二項（課税標準の端数計算の特例）に規定する政令で定める国税は、所得税法第四編第一章から第五章まで（源泉徴収）（同法第百九十条（年末調整に係る源泉徴収義務）及び第百九十九条（退職所得に係る源泉徴収義務）（同法第二百一条第一項（退職所得の受給に関する申告書が提出された場合の徴収税額）の規定の適用を受ける場合に限る。）を除く。）の規定により徴収する所得税とする。
 
 ### 第四十条第二項
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-shikkourei-art-40-p2-hashira -->
 法第百十九条第二項（国税の確定金額の端数計算の特例）に規定する政令で定める国税は、次に掲げる国税とする。
+
+一　前項に規定する国税
+
+二　所得税法第百九十条又は第百九十二条（年末調整に係る不足額の源泉徴収義務）の規定により徴収する所得税

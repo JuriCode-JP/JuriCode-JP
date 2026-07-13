@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-30-p1 -->
 この節の規定に反する特約で建物の賃借人に不利なものは、無効とする。

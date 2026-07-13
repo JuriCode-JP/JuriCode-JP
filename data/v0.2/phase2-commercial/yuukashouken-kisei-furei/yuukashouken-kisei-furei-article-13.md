@@ -59,6 +59,16 @@ paragraphs:
     type: hashira
     text: 令第二十六条の四第五項において準用する同条第一項第一号に規定する内閣府令で定めるところにより算出される価格は、店頭売買有価証券市場を開設する認可金融商品取引業協会が次に掲げる価格（これらの価格が配当落ち又は権利落ちの前のものであるときは、当該価格から配当又は権利の価格を控除した価格。以下この項において同じ。）を基礎として算出するものとしてその規則において定める価格（当該価格がないときは、次に掲げる価格のいずれか）とする。
     modality: gimu
+  - id: yuukashouken-kisei-furei-art-13-p5-kou-1
+    type: kou
+    text: 法第六十七条の十九に規定する最終の価格
+    modality: unspecified
+    item_number: 1
+  - id: yuukashouken-kisei-furei-art-13-p5-kou-2
+    type: kou
+    text: 最終の気配相場の価格
+    modality: unspecified
+    item_number: 2
 - number: 6
   has_proviso: false
   has_items: false
@@ -93,12 +103,6 @@ parent_section:
 
 ### 第十三条第一項
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-13-p1 -->
-<!-- segment: simple id: yuukashouken-kisei-furei-art-13-p2 -->
-<!-- segment: simple id: yuukashouken-kisei-furei-art-13-p3 -->
-<!-- segment: simple id: yuukashouken-kisei-furei-art-13-p4 -->
-<!-- segment: hashira id: yuukashouken-kisei-furei-art-13-p5-hashira -->
-<!-- segment: simple id: yuukashouken-kisei-furei-art-13-p6 -->
 令第二十六条の四第五項において準用する同条第一項に規定する内閣府令で定める売買価格の決定方法は、店頭マーケットメイカーが恒常的に売付け及び買付けの気配を出し、かつ、当該売付け及び買付けの気配に基づき売買を行う義務を負う方法とする。
 
 ### 第十三条第二項
@@ -117,11 +121,14 @@ parent_section:
 
 令第二十六条の四第五項において準用する同条第一項第一号に規定する内閣府令で定めるところにより算出される価格は、店頭売買有価証券市場を開設する認可金融商品取引業協会が次に掲げる価格（これらの価格が配当落ち又は権利落ちの前のものであるときは、当該価格から配当又は権利の価格を控除した価格。以下この項において同じ。）を基礎として算出するものとしてその規則において定める価格（当該価格がないときは、次に掲げる価格のいずれか）とする。
 
+一　法第六十七条の十九に規定する最終の価格
+
+二　最終の気配相場の価格
+
 ### 第十三条第六項
 
 令第二十六条の四第五項において準用する同条第一項第一号に規定する内閣府令で定める割合は、百分の十とする。
 
 ### 第十三条第七項
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-13-p7 -->
 令第二十六条の四第五項において読み替えて準用する同条第一項第二号に規定する内閣府令で定める一の店頭売買有価証券市場は、毎月末日から起算して過去六月間の店頭売買有価証券の売買高（システム売買が行われていない時間帯における売買に係るものを徐く。）が最も多い店頭売買有価証券市場（当該店頭売買有価証券市場がないときは、過去六月間の当該有価証券以外の有価証券の売買高の合計が最も多い店頭売買有価証券市場）とする。

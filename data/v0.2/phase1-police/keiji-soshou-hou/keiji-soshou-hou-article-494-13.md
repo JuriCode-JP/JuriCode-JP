@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-494-13-p1
+    type: simple
+    text: 拘置の日数は、その一日を、刑法第十八条第六項に規定する留置一日の割合に相当する金額に換算し、全部本刑に算入する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

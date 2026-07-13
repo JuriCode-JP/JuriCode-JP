@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-10-2-p1
+    type: simple
+    text: 法第二十九条の四の二第九項及び第二十九条の四の三第三項に規定する政令で定めるものは、第二条の九第一項に規定する権利、第二条の十第一項第五号に掲げる権利及び貸付事業等権利とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

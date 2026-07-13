@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百十条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-210-p1 -->
 令第十七条の三第一号ニに規定する金融機関のうち内閣府令で定めるものは、前条各号に掲げる金融機関とする。

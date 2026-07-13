@@ -64,9 +64,6 @@ parent_section:
 
 ### 第二百六十七条第一項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-267-p1 -->
-<!-- segment: simple id: kinsho-gyou-furei-art-267-p2 -->
-<!-- segment: tokusoku id: kinsho-gyou-furei-art-267-p3 override_flag: true override_target: 前項 -->
 金融商品仲介業者がその行う金融商品仲介業の内容について広告又は前条に規定する行為（以下この節において「広告等」という。）をするときは、法第六十六条の十第一項各号に掲げる事項について明瞭かつ正確に表示しなければならない。
 
 ### 第二百六十七条第二項

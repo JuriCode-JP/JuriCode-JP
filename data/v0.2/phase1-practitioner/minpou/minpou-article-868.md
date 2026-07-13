@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八百六十八条
 
-<!-- segment: simple id: minpou-art-868-p1 -->
 親権を行う者が管理権を有しない場合には、未成年後見人は、財産に関する権限のみを有する。

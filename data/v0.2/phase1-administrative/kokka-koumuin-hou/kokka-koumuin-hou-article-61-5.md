@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-5-p1
+    type: simple
+    text: 任命権者は、政令で定めるところにより、定期的に、及び内閣総理大臣の求めがある場合には随時、管理職への任用の状況を内閣総理大臣に報告するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-5-p2
+    type: simple
+    text: 内閣総理大臣は、第五十四条第二項第四号の基準に照らして必要があると認める場合には、任命権者に対し、管理職への任用に関する運用の改善その他の必要な措置をとることを求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

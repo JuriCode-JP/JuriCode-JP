@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-20-2-9-p1
+    type: simple
+    text: 法第七十二条の十七第二項に規定する役務の提供の対価として政令で定めるものは、賃借権等（同項に規定する賃借権等をいう。次条及び第二十条の二の十一において同じ。）に係る役務の提供であつてその対価の額が当該賃借権等の対価の額と区分して定められていないものの対価とする。
+    modality: gimu
+    references:
+    - 同項
+    - 次条
 cases: []
 amendments: []
 tags:

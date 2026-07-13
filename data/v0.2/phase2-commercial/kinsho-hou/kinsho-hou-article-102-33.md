@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-33-p1
+    type: simple
+    text: 理事会は、必要があると認めるときは、委託金融商品取引所が開設する金融商品市場における有価証券の売買及び市場デリバティブ取引を公正かつ円滑にし、並びに金融商品取引業の健全な発展及び投資者の保護に資するために行うべき措置について、委託金融商品取引所に助言をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-33-p2
+    type: simple
+    text: 理事会が前項の助言を行つた場合において、当該助言を受けた当該委託金融商品取引所は、当該助言に従つて措置を講じたとき、又は講じなかつたときは、当該措置の内容又は措置を講じなかつた旨を理事会に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

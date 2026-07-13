@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百七十条
 
-<!-- segment: simple id: kaisha-hou-art-570-p1 -->
 協定は、認可の決定の確定により、その効力を生ずる。

@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-30-p1
+    type: simple
+    text: 道府県知事は、軽油引取税の特別徴収義務者が軽油の代金及び軽油引取税の全部又は一部を受け取ることができなくなつたことについて正当な理由があると認める場合又は徴収した軽油引取税額を失つたことについて天災その他避けることのできない理由があるものと認める場合においては、当該特別徴収義務者の申請によりその軽油引取税額が既に納入されているときはこれに相当する額を還付し、前条の規定により徴収猶予をしているとき、その他その軽油引取税額がまだ納入されていないときはその納入の義務を免除するものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-30-p2
+    type: simple
+    text: 道府県知事は、前項の規定により、軽油引取税額に相当する額を還付する場合において、還付を受ける特別徴収義務者の未納に係る地方団体の徴収金があるときは、当該還付すべき額をこれに充当することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-30-p3
+    type: simple
+    text: 道府県知事は、第一項の規定による申請を受理した場合においては、同項又は前項に規定する措置を採るかどうかについて、その申請を受理した日から六十日以内に特別徴収義務者に通知しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

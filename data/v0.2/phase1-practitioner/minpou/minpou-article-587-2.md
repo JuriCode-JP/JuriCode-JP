@@ -16,22 +16,50 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-587-2-p1
+    type: tokusoku
+    text: 前条の規定にかかわらず、書面でする消費貸借は、当事者の一方が金銭その他の物を引き渡すことを約し、相手方がその受け取った物と種類、品質及び数量の同じ物をもって返還をすることを約することによって、その効力を生ずる。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-587-2-p2-zen
+    type: zen_dan
+    text: 書面でする消費貸借の借主は、貸主から金銭その他の物を受け取るまで、契約の解除をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-587-2-p2-kou
+    type: kou_dan
+    text: この場合において、貸主は、その契約の解除によって損害を受けたときは、借主に対し、その賠償を請求することができる。
+    modality: kanou_kenri
+    depends_on: minpou-art-587-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-587-2-p3
+    type: simple
+    text: 書面でする消費貸借は、借主が貸主から金銭その他の物を受け取る前に当事者の一方が破産手続開始の決定を受けたときは、その効力を失う。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-587-2-p4
+    type: simple
+    text: 消費貸借がその内容を記録した電磁的記録によってされたときは、その消費貸借は、書面によってされたものとみなして、前三項の規定を適用する。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

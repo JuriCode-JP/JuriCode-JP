@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-2-p1
+    type: simple
+    text: 法第六十八条の二第一項（令第七十五条第十四項の規定により読み替えて適用される場合を含む。）の規定による公表は、機構のホームページを使用する方法により行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-2-p2
+    type: simple
+    text: 日本薬局方に収められている医薬品であつて、法第六十八条の二第二項に規定する注意事項等情報に日本薬局方で定められた名称と異なる名称が表示されているものについては、日本薬局方で定められた名称は、少なくとも他の名称と同等程度に見やすく表示されていなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-2-p3
+    type: simple
+    text: 法第六十八条の二第二項に規定する注意事項等情報の表示は、邦文でされていなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

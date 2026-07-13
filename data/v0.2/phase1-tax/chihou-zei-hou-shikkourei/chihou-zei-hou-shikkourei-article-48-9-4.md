@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-4-p1
+    type: simple
+    text: 市町村長は、控除不足額のうち前条第一項及び第三項の規定による納付又は納入をすることができなかつた部分の金額があるときは、当該金額を還付するものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-4-p2
+    type: simple
+    text: 市町村長は、前項の規定による還付をしたときは、遅滞なく、その旨を当該還付に係る納税義務者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

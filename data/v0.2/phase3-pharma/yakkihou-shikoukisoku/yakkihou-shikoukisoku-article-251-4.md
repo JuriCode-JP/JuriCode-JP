@@ -14,9 +14,27 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-251-4-p1-hashira
+    type: hashira
+    text: 法第七十七条の二第三項の区分は、次の各号に掲げる申請の対象品目に応じてそれぞれ当該各号に定めるものとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-251-4-p1-kou-1
+    type: kou
+    text: '医薬品又は再生医療等製品　次のイ又はロのいずれかに該当するもの
+
+      イ 小児の疾病の診断、治療又は予防
+
+      ロ 薬剤耐性を有する病原体による疾病の診断、治療又は予防'
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-251-4-p1-kou-2
+    type: kou
+    text: 医療機器　小児の疾病の診断、治療又は予防
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +52,11 @@ parent_section:
 ### 第二百五十一条の四
 
 法第七十七条の二第三項の区分は、次の各号に掲げる申請の対象品目に応じてそれぞれ当該各号に定めるものとする。
+
+一　医薬品又は再生医療等製品　次のイ又はロのいずれかに該当するもの
+
+　イ　小児の疾病の診断、治療又は予防
+
+　ロ　薬剤耐性を有する病原体による疾病の診断、治療又は予防
+
+二　医療機器　小児の疾病の診断、治療又は予防

@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-84-p1-zen
+    type: zen_dan
+    text: 体外診断用医薬品の製造販売業者又は製造業者については、第十五条の十の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-114-84-p1-kou
+    type: kou_dan
+    text: この場合において、「薬剤師若しくは登録販売者」とあるのは、「薬剤師」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-114-84-p1-zen
 cases: []
 amendments: []
 tags:

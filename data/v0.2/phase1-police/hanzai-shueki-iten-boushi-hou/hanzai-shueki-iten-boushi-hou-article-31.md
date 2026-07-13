@@ -23,6 +23,21 @@ paragraphs:
     modality: unspecified
     references:
     - 本条
+  - id: hanzai-shueki-iten-boushi-hou-art-31-p1-kou-1
+    type: kou
+    text: 第二十五条　三億円以下の罰金刑
+    modality: unspecified
+    item_number: 1
+  - id: hanzai-shueki-iten-boushi-hou-art-31-p1-kou-2
+    type: kou
+    text: 第二十六条　二億円以下の罰金刑
+    modality: unspecified
+    item_number: 2
+  - id: hanzai-shueki-iten-boushi-hou-art-31-p1-kou-3
+    type: kou
+    text: 第二十七条　同条の罰金刑
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第三十一条
 
-<!-- segment: hashira id: hanzai-shueki-iten-boushi-hou-art-31-p1-hashira -->
 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者が、その法人又は人の業務に関して次の各号に掲げる規定の違反行為をしたときは、その行為者を罰するほか、その法人に対して当該各号に定める罰金刑を、その人に対して各本条の罰金刑を科する。
+
+一　第二十五条　三億円以下の罰金刑
+
+二　第二十六条　二億円以下の罰金刑
+
+三　第二十七条　同条の罰金刑

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百三条
 
-<!-- segment: simple id: chihou-zei-hou-art-803-p1 -->
 第七百六十七条第二項の規定に違反した者は、十万円以下の過料に処する。

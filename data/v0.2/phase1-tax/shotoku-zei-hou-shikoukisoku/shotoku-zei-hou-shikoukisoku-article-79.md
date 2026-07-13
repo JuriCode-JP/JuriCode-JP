@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第二百十八条（納期の特例の要件を欠いた場合の届出）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-79-p1-kou-1
+    type: kou
+    text: 法第二百十八条に規定する届出書を提出する者の氏名及び住所若しくは居所又は名称、本店若しくは主たる事務所の所在地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-79-p1-kou-2
+    type: kou
+    text: 前号の届出書に係る事務所等の所在地
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-79-p1-kou-3
+    type: kou
+    text: 給与等の支払を受ける者が常時十人未満でなくなつた事実
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-79-p1-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第七十九条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-79-p1-hashira -->
 法第二百十八条（納期の特例の要件を欠いた場合の届出）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第二百十八条に規定する届出書を提出する者の氏名及び住所若しくは居所又は名称、本店若しくは主たる事務所の所在地及び法人番号
+
+二　前号の届出書に係る事務所等の所在地
+
+三　給与等の支払を受ける者が常時十人未満でなくなつた事実
+
+四　その他参考となるべき事項

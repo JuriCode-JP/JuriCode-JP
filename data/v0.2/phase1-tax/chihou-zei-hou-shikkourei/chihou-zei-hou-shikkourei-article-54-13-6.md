@@ -16,37 +16,111 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p1
+    type: simple
+    text: 法第五百八十六条第二項第一号の六に規定する政令で定める事業は、民間事業者の能力の活用による特定施設の整備の促進に関する臨時措置法及び輸入の促進及び対内投資事業の円滑化に関する臨時措置法を廃止する法律（平成十八年法律第三十一号）による廃止前の輸入の促進及び対内投資事業の円滑化に関する臨時措置法（平成四年法律第二十二号）第二条第一項に規定する輸入貨物の加工の事業で総務省令で定めるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p2
+    type: simple
+    text: 法第五百八十六条第二項第一号の六に規定する政令で定める要件は、前項に規定する事業の用に供する一の設備で、これを構成する減価償却資産（所得税法施行令第六条第一号から第七号まで又は法人税法施行令第十三条第一号から第七号までに掲げるものに限る。）の取得価額の合計額が一億円を超えるものであることとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p3
+    type: simple
+    text: 法第五百八十六条第二項第一号の六に規定する輸入貨物流通促進事業の用に供する設備を新設し、又は増設した者で政令で定めるものは、平成八年四月一日以後に同号に規定する特定集積地区において、土地を取得し、かつ、当該土地の上に前項に規定する設備を新設し、又は増設した者（当該土地の取得の日の翌日から起算して一年以内に、当該土地を敷地とする同号に規定する工場用の建物（次項において「工場用の建物」という。）の建設に着手した者に限る。）とする。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-hashira
+    type: hashira
+    text: 法第五百八十六条第二項第一号の六に規定する政令で定める土地は、前項に規定する者が工場用の建物と一体的に同号に規定する輸入貨物流通促進事業の用に供する施設のうち次に掲げるものの用に供する土地とする。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-1
+    type: kou
+    text: 原材料の搬入、貯蔵又は前処理のための施設
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-2
+    type: kou
+    text: 製品の貯蔵又は搬出のための施設
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-3
+    type: kou
+    text: 廃棄物処理施設
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-4
+    type: kou
+    text: 試験研究のための施設
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-5
+    type: kou
+    text: 前各号に掲げるもののほか、総務省令で定める施設
+    modality: unspecified
+    item_number: 5
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p5
+    type: simple
+    text: 法第五百八十六条第二項第一号の六に規定する輸入貨物流通促進事業に係る施設のうち政令で定めるものは、民間事業者の能力の活用による特定施設の整備の促進に関する臨時措置法及び輸入の促進及び対内投資事業の円滑化に関する臨時措置法を廃止する法律の施行に伴う関係政令の整備等に関する政令（平成十八年政令第二百一号）第一条の規定による廃止前の輸入の促進及び対内投資事業の円滑化に関する臨時措置法施行令（平成四年政令第二百五十号）第二条に規定する事業の用に供する施設のうち輸入の促進に著しく寄与するものとして総務省令で定める施設とする。
+    modality: gimu
 - number: 6
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p6-hashira
+    type: hashira
+    text: 法第五百八十六条第二項第一号の六に規定する家屋又は構築物のうち政令で定めるものは、前項に規定する施設（以下この項において「対象施設」という。）の用に供する家屋又は構築物（当該対象施設に含まれる部分に限る。第一号において同じ。）で次に掲げる要件に該当するものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p6-kou-1
+    type: kou
+    text: 当該家屋又は構築物を構成する減価償却資産（所得税法施行令第六条第一号及び第二号又は法人税法施行令第十三条第一号及び第二号に掲げるものに限る。）の取得価額の合計額が五千五百万円を超えるものであること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p6-kou-2
+    type: kou
+    text: 当該対象施設に係る家屋につき当該対象施設に含まれない部分がある場合には当該家屋の床面積（機械室、廊下、階段その他共用に供されるべき部分の床面積（以下この号において「共用部分の床面積」という。）を除く。）のうちに当該対象施設に含まれる部分の床面積（共用部分の床面積を除く。）の占める割合が二分の一以上のものであり、当該対象施設に係る構築物につき当該対象施設に含まれない部分がある場合には当該構築物を構成する減価償却資産（所得税法施行令第六条第二号又は法人税法施行令第十三条第二号に掲げるものに限る。以下この号において同じ。）の取得価額の合計額のうちに当該対象施設に含まれる部分を構成する減価償却資産の取得価額の合計額の占める割合が二分の一以上のものであること。
+    modality: unspecified
+    item_number: 2
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-54-13-6-p7
+    type: simple
+    text: 法第五百八十六条第二項第一号の六に規定する家屋又は構築物を新築し、又は増築した者で政令で定めるものは、平成八年四月一日以後に同号に規定する特定集積地区において、土地を取得し、かつ、当該土地の上に前項に規定する家屋又は構築物を新築し、又は増築した者（当該土地の取得の日の翌日から起算して一年以内に、当該土地を敷地とする当該家屋又は構築物の新築又は増築に着手した者に限る。）とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -79,6 +153,16 @@ parent_section:
 
 法第五百八十六条第二項第一号の六に規定する政令で定める土地は、前項に規定する者が工場用の建物と一体的に同号に規定する輸入貨物流通促進事業の用に供する施設のうち次に掲げるものの用に供する土地とする。
 
+一　原材料の搬入、貯蔵又は前処理のための施設
+
+二　製品の貯蔵又は搬出のための施設
+
+三　廃棄物処理施設
+
+四　試験研究のための施設
+
+五　前各号に掲げるもののほか、総務省令で定める施設
+
 ### 第五十四条の十三の六第五項
 
 法第五百八十六条第二項第一号の六に規定する輸入貨物流通促進事業に係る施設のうち政令で定めるものは、民間事業者の能力の活用による特定施設の整備の促進に関する臨時措置法及び輸入の促進及び対内投資事業の円滑化に関する臨時措置法を廃止する法律の施行に伴う関係政令の整備等に関する政令（平成十八年政令第二百一号）第一条の規定による廃止前の輸入の促進及び対内投資事業の円滑化に関する臨時措置法施行令（平成四年政令第二百五十号）第二条に規定する事業の用に供する施設のうち輸入の促進に著しく寄与するものとして総務省令で定める施設とする。
@@ -86,6 +170,10 @@ parent_section:
 ### 第五十四条の十三の六第六項
 
 法第五百八十六条第二項第一号の六に規定する家屋又は構築物のうち政令で定めるものは、前項に規定する施設（以下この項において「対象施設」という。）の用に供する家屋又は構築物（当該対象施設に含まれる部分に限る。第一号において同じ。）で次に掲げる要件に該当するものとする。
+
+一　当該家屋又は構築物を構成する減価償却資産（所得税法施行令第六条第一号及び第二号又は法人税法施行令第十三条第一号及び第二号に掲げるものに限る。）の取得価額の合計額が五千五百万円を超えるものであること。
+
+二　当該対象施設に係る家屋につき当該対象施設に含まれない部分がある場合には当該家屋の床面積（機械室、廊下、階段その他共用に供されるべき部分の床面積（以下この号において「共用部分の床面積」という。）を除く。）のうちに当該対象施設に含まれる部分の床面積（共用部分の床面積を除く。）の占める割合が二分の一以上のものであり、当該対象施設に係る構築物につき当該対象施設に含まれない部分がある場合には当該構築物を構成する減価償却資産（所得税法施行令第六条第二号又は法人税法施行令第十三条第二号に掲げるものに限る。以下この号において同じ。）の取得価額の合計額のうちに当該対象施設に含まれる部分を構成する減価償却資産の取得価額の合計額の占める割合が二分の一以上のものであること。
 
 ### 第五十四条の十三の六第七項
 

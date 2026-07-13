@@ -16,32 +16,81 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-66-2-p1
+    type: simple
+    text: 一般社団法人等の理事である者（当該一般社団法人等の理事でなくなつた日から五年を経過していない者を含む。）が死亡した場合において、当該一般社団法人等が特定一般社団法人等に該当するときは、当該特定一般社団法人等はその死亡した者（以下この条において「被相続人」という。）の相続開始の時における当該特定一般社団法人等の純資産額（その有する財産の価額の合計額からその有する債務の価額の合計額を控除した金額として政令で定める金額をいう。）をその時における当該特定一般社団法人等の同族理事の数に一を加えた数（当該被相続人と同時に死亡した者がある場合において、その死亡した者がその死亡の直前において同族理事である者又は当該特定一般社団法人等の理事でなくなつた日から五年を経過していない者であつて当該被相続人と政令で定める特殊の関係のあるものであるときは、その死亡した者の数を加えるものとする。）で除して計算した金額に相当する金額を当該被相続人から遺贈により取得したものと、当該特定一般社団法人等は個人とそれぞれみなして、当該特定一般社団法人等に相続税を課する。
+    modality: unspecified
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-66-2-p2-hashira
+    type: hashira
+    text: この条において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。
+    modality: unspecified
+  - id: souzoku-zei-hou-art-66-2-p2-kou-1
+    type: kou
+    text: 一般社団法人等　一般社団法人又は一般財団法人（被相続人の相続開始の時において公益社団法人又は公益財団法人、法人税法第二条第九号の二（定義）に規定する非営利型法人その他の政令で定める一般社団法人又は一般財団法人に該当するものを除く。）をいう。
+    modality: teigi
+    item_number: 1
+  - id: souzoku-zei-hou-art-66-2-p2-kou-2
+    type: kou
+    text: 同族理事　一般社団法人等の理事のうち、被相続人又はその配偶者、三親等内の親族その他の当該被相続人と政令で定める特殊の関係のある者をいう。
+    modality: teigi
+    item_number: 2
+  - id: souzoku-zei-hou-art-66-2-p2-kou-3
+    type: kou
+    text: '特定一般社団法人等　一般社団法人等であつて次に掲げる要件のいずれかを満たすものをいう。
+
+      イ 被相続人の相続開始の直前における当該被相続人に係る同族理事の数の理事の総数のうちに占める割合が二分の一を超えること。
+
+      ロ 被相続人の相続の開始前五年以内において当該被相続人に係る同族理事の数の理事の総数のうちに占める割合が二分の一を超える期間の合計が三年以上であること。'
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-66-2-p3
+    type: simple
+    text: 第一項の規定により特定一般社団法人等に相続税が課される場合には、当該特定一般社団法人等の相続税の額については、政令で定めるところにより、前条第四項において準用する同条第一項又は第二項の規定により当該特定一般社団法人等に課された贈与税及び相続税の税額を控除する。
+    modality: unspecified
+    references:
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-66-2-p4
+    type: simple
+    text: 第一項の規定の適用がある場合における第一条の三の規定の適用については、同項の特定一般社団法人等の住所は、その主たる事務所の所在地にあるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-66-2-p5
+    type: simple
+    text: 第一項の規定の適用がある場合において、同項の特定一般社団法人等が被相続人に係る相続の開始前七年以内に当該被相続人から贈与により取得した財産の価額については、第十九条第一項の規定は、適用しない。
+    modality: jogai
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-66-2-p6
+    type: simple
+    text: 第一項の規定により特定一般社団法人等に相続税が課される場合における第二十七条第一項の規定による申告書の提出期限その他第一項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments:
 - effective_date: '2024-01-01'
@@ -67,6 +116,16 @@ parent_section:
 ### 第六十六条の二第二項
 
 この条において、次の各号に掲げる用語の意義は、当該各号に定めるところによる。
+
+一　一般社団法人等　一般社団法人又は一般財団法人（被相続人の相続開始の時において公益社団法人又は公益財団法人、法人税法第二条第九号の二（定義）に規定する非営利型法人その他の政令で定める一般社団法人又は一般財団法人に該当するものを除く。）をいう。
+
+二　同族理事　一般社団法人等の理事のうち、被相続人又はその配偶者、三親等内の親族その他の当該被相続人と政令で定める特殊の関係のある者をいう。
+
+三　特定一般社団法人等　一般社団法人等であつて次に掲げる要件のいずれかを満たすものをいう。
+
+　イ　被相続人の相続開始の直前における当該被相続人に係る同族理事の数の理事の総数のうちに占める割合が二分の一を超えること。
+
+　ロ　被相続人の相続の開始前五年以内において当該被相続人に係る同族理事の数の理事の総数のうちに占める割合が二分の一を超える期間の合計が三年以上であること。
 
 ### 第六十六条の二第三項
 

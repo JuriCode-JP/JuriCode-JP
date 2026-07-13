@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-54-4-p1-hashira
+    type: hashira
+    text: 体外診断用医薬品の製造業者（法第二十三条の二の十四第十項ただし書第一号に規定する体外診断用医薬品についてのみその製造をする製造業者を除く。）であつて、その体外診断用医薬品製造管理者として薬剤師以外の技術者を置く場合にあつては、次の各号に掲げる措置を講ずること。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-114-54-4-p1-kou-1
+    type: kou
+    text: 体外診断用医薬品製造管理者補佐薬剤師を置くこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-54-4-p1-kou-2
+    type: kou
+    text: 体外診断用医薬品製造管理者として法第二十三条の二の十四第十一項に規定する能力及び経験を有する薬剤師を置くために必要な措置
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第百十四条の五十四の四
 
 体外診断用医薬品の製造業者（法第二十三条の二の十四第十項ただし書第一号に規定する体外診断用医薬品についてのみその製造をする製造業者を除く。）であつて、その体外診断用医薬品製造管理者として薬剤師以外の技術者を置く場合にあつては、次の各号に掲げる措置を講ずること。
+
+一　体外診断用医薬品製造管理者補佐薬剤師を置くこと。
+
+二　体外診断用医薬品製造管理者として法第二十三条の二の十四第十一項に規定する能力及び経験を有する薬剤師を置くために必要な措置

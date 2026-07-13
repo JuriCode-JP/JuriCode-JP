@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-21-p1
+    type: simple
+    text: 国家公安委員会は、分析センターの事業の運営に関し必要があると認めるときは、分析センターに対し、その事業に関し必要な報告をさせ、又は警察庁の職員に分析センターの事務所に立ち入り、事業の状況若しくは帳簿、書類その他の物件を検査させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-21-p2
+    type: simple
+    text: 前項の規定により立入検査をする職員は、その身分を示す証票を携帯し、関係者の請求があるときは、これを提示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-21-p3
+    type: simple
+    text: 第一項の規定による立入検査の権限は、犯罪捜査のために認められたものと解してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

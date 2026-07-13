@@ -48,10 +48,8 @@ parent_section:
 
 ### 第七百三十四条第一項
 
-<!-- segment: simple id: kaisha-hou-art-734-p1 -->
 社債権者集会の決議は、裁判所の認可を受けなければ、その効力を生じない。
 
 ### 第七百三十四条第二項
 
-<!-- segment: simple id: kaisha-hou-art-734-p2 -->
 社債権者集会の決議は、当該種類の社債を有するすべての社債権者に対してその効力を有する。

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -50,10 +50,8 @@ parent_section:
 
 ### 第四百十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-410-p1 -->
 上告裁判所は、第四百五条各号に規定する事由があるときは、判決で原判決を破棄しなければならない。但し、判決に影響を及ぼさないことが明らかな場合は、この限りでない。
 
 ### 第四百十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-410-p2 -->
 第四百五条第二号又は第三号に規定する事由のみがある場合において、上告裁判所がその判例を変更して原判決を維持するのを相当とするときは、前項の規定は、これを適用しない。

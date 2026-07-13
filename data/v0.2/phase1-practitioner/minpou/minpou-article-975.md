@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九百七十五条
 
-<!-- segment: simple id: minpou-art-975-p1 -->
 遺言は、二人以上の者が同一の証書ですることができない。

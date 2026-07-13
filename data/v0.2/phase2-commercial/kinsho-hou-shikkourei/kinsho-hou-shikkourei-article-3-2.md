@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-3-2-p1
+    type: simple
+    text: 法第十五条第三項に規定する政令で定めるものは、法第二条第一項第十号及び第十一号に掲げる有価証券とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -50,5 +50,4 @@ parent_section:
 
 ### 第四百九十条
 
-<!-- segment: tokusoku id: minpou-art-490-p1 override_flag: true override_target: 前二条 -->
 前二条の規定にかかわらず、弁済をする者と弁済を受領する者との間に弁済の充当の順序に関する合意があるときは、その順序に従い、その弁済を充当する。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十九条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-19-p1 -->
 法第五十二条第二項（納付通知書による告知）に規定する納付通知書に記載すべき納付の期限は、当該通知書を発する日の翌日から起算して一月を経過する日とする。

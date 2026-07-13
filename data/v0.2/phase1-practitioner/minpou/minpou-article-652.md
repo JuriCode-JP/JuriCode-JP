@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六百五十二条
 
-<!-- segment: junyou id: minpou-art-652-p1 applies_provisions: 第六百二十条 -->
 第六百二十条の規定は、委任について準用する。

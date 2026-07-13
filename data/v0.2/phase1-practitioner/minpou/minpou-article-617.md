@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 当事者が賃貸借の期間を定めなかったときは、各当事者は、いつでも解約の申入れをすることができる。この場合においては、次の各号に掲げる賃貸借は、解約の申入れの日からそれぞれ当該各号に定める期間を経過することによって終了する。
     modality: unspecified
+  - id: minpou-art-617-p1-kou-1
+    type: kou
+    text: 土地の賃貸借　一年
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-617-p1-kou-2
+    type: kou
+    text: 建物の賃貸借　三箇月
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-617-p1-kou-3
+    type: kou
+    text: 動産及び貸席の賃貸借　一日
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +67,14 @@ parent_section:
 
 ### 第六百十七条第一項
 
-<!-- segment: hashira id: minpou-art-617-p1-hashira -->
 当事者が賃貸借の期間を定めなかったときは、各当事者は、いつでも解約の申入れをすることができる。この場合においては、次の各号に掲げる賃貸借は、解約の申入れの日からそれぞれ当該各号に定める期間を経過することによって終了する。
+
+一　土地の賃貸借　一年
+
+二　建物の賃貸借　三箇月
+
+三　動産及び貸席の賃貸借　一日
 
 ### 第六百十七条第二項
 
-<!-- segment: simple id: minpou-art-617-p2 -->
 収穫の季節がある土地の賃貸借については、その季節の後次の耕作に着手する前に、解約の申入れをしなければならない。

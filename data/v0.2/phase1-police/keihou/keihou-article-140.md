@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十条
 
-<!-- segment: simple id: keihou-art-140-p1 -->
 あへん煙又はあへん煙を吸食するための器具を所持した者は、一年以下の拘禁刑に処する。

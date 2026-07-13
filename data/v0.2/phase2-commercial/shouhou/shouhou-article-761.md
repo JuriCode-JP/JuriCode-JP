@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百六十一条
 
-<!-- segment: simple id: shouhou-art-761-p1 -->
 船荷証券が作成されたときは、運送品に関する処分は、船荷証券によってしなければならない。

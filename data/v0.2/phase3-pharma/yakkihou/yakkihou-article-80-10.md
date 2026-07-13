@@ -16,27 +16,65 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-10-p1
+    type: simple
+    text: 厚生労働大臣は、機構に、政令で定める原薬等に係る第八十条の六第二項（第八十条の八第一項において準用する場合を含む。）の規定による登録及び前条第一項の規定による登録の抹消（以下この条において「登録等」という。）を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-10-p2
+    type: junyou
+    text: 第八十条の六第三項、第八十条の七及び前条第二項の規定は、前項の規定により機構が登録等を行う場合に準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-10-p3
+    type: tokusoku
+    text: 厚生労働大臣が第一項の規定により機構に登録等を行わせることとしたときは、同項の政令で定める原薬等に係る第八十条の六第一項若しくは第八十条の八第一項の登録を受けようとする者又は同条第二項の規定による届出をしようとする者は、第八十条の六第二項（第八十条の八第一項において準用する場合を含む。）及び第八十条の八第二項の規定にかかわらず、厚生労働省令で定めるところにより、機構に申請又は届出をしなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第二項
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-10-p4
+    type: simple
+    text: 機構は、前項の申請に係る登録をしたとき、若しくは申請を却下したとき、同項の届出を受理したとき、又は登録を抹消したときは、厚生労働省令で定めるところにより、厚生労働大臣にその旨を通知しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-10-p5-zen
+    type: zen_dan
+    text: 機構が行う第三項の申請に係る登録若しくはその不作為、申請の却下又は登録の抹消については、厚生労働大臣に対して、審査請求をすることができる。
+    modality: kanou_kenri
+  - id: yakkihou-art-80-10-p5-kou
+    type: kou_dan
+    text: この場合において、厚生労働大臣は、行政不服審査法第二十五条第二項及び第三項、第四十六条第一項及び第二項並びに第四十九条第三項の規定の適用については、機構の上級行政庁とみなす。
+    modality: unspecified
+    depends_on: yakkihou-art-80-10-p5-zen
 cases: []
 amendments: []
 tags:

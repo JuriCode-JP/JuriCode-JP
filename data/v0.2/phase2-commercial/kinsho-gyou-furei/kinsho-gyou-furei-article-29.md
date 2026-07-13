@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第三十一条の二第九項に規定する内閣府令で定める有価証券は、次に掲げるものとする。この場合において、次に掲げる有価証券に表示されるべき権利の帰属が、社債、株式等の振替に関する法律の規定による振替口座簿の記載又は記録により定まるものとされるときは、当該権利は当該有価証券とみなす。
     modality: unspecified
+  - id: kinsho-gyou-furei-art-29-p1-kou-1
+    type: kou
+    text: 国債証券
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-29-p1-kou-2
+    type: kou
+    text: 地方債証券
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-29-p1-kou-3
+    type: kou
+    text: 政府保証債券（法第二条第一項第三号に掲げる有価証券のうち政府が元本の償還及び利息の支払について保証しているものをいう。第六十五条第一号ハにおいて同じ。）
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-29-p1-kou-4
+    type: kou
+    text: 金融庁長官が指定した社債券その他の債券（記名式のもの及び割引の方法により発行されるもの並びに前号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -41,5 +61,12 @@ parent_section:
 
 ### 第二十九条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-29-p1-hashira -->
 法第三十一条の二第九項に規定する内閣府令で定める有価証券は、次に掲げるものとする。この場合において、次に掲げる有価証券に表示されるべき権利の帰属が、社債、株式等の振替に関する法律の規定による振替口座簿の記載又は記録により定まるものとされるときは、当該権利は当該有価証券とみなす。
+
+一　国債証券
+
+二　地方債証券
+
+三　政府保証債券（法第二条第一項第三号に掲げる有価証券のうち政府が元本の償還及び利息の支払について保証しているものをいう。第六十五条第一号ハにおいて同じ。）
+
+四　金融庁長官が指定した社債券その他の債券（記名式のもの及び割引の方法により発行されるもの並びに前号に掲げるものを除く。）

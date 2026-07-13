@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百四十六条
 
-<!-- segment: simple id: kaisha-hou-art-646-p1 -->
 清算持分会社には、一人又は二人以上の清算人を置かなければならない。

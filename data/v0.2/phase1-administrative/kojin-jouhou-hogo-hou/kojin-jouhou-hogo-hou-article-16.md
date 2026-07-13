@@ -21,8 +21,18 @@ paragraphs:
     type: hashira
     text: この章及び第八章において「個人情報データベース等」とは、個人情報を含む情報の集合物であって、次に掲げるもの（利用方法からみて個人の権利利益を害するおそれが少ないものとして政令で定めるものを除く。）をいう。
     modality: teigi
+  - id: kojin-jouhou-hogo-hou-art-16-p1-kou-1
+    type: kou
+    text: 特定の個人情報を電子計算機を用いて検索することができるように体系的に構成したもの
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-16-p1-kou-2
+    type: kou
+    text: 前号に掲げるもののほか、特定の個人情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの
+    modality: unspecified
+    item_number: 2
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -30,6 +40,26 @@ paragraphs:
     type: hashira
     text: この章及び第六章から第八章までにおいて「個人情報取扱事業者」とは、個人情報データベース等を事業の用に供している者をいう。ただし、次に掲げる者を除く。
     modality: unspecified
+  - id: kojin-jouhou-hogo-hou-art-16-p2-kou-1
+    type: kou
+    text: 国の機関
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-16-p2-kou-2
+    type: kou
+    text: 地方公共団体
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-16-p2-kou-3
+    type: kou
+    text: 独立行政法人等
+    modality: unspecified
+    item_number: 3
+  - id: kojin-jouhou-hogo-hou-art-16-p2-kou-4
+    type: kou
+    text: 地方独立行政法人
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
@@ -114,43 +144,44 @@ parent_section:
 
 ### 第十六条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-16-p1-hashira -->
 この章及び第八章において「個人情報データベース等」とは、個人情報を含む情報の集合物であって、次に掲げるもの（利用方法からみて個人の権利利益を害するおそれが少ないものとして政令で定めるものを除く。）をいう。
+
+一　特定の個人情報を電子計算機を用いて検索することができるように体系的に構成したもの
+
+二　前号に掲げるもののほか、特定の個人情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの
 
 ### 第十六条第二項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-16-p2-hashira -->
 この章及び第六章から第八章までにおいて「個人情報取扱事業者」とは、個人情報データベース等を事業の用に供している者をいう。ただし、次に掲げる者を除く。
+
+一　国の機関
+
+二　地方公共団体
+
+三　独立行政法人等
+
+四　地方独立行政法人
 
 ### 第十六条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-16-p3 -->
 この章において「個人データ」とは、個人情報データベース等を構成する個人情報をいう。
 
 ### 第十六条第四項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-16-p4 -->
 この章において「保有個人データ」とは、個人情報取扱事業者が、開示、内容の訂正、追加又は削除、利用の停止、消去及び第三者への提供の停止を行うことのできる権限を有する個人データであって、その存否が明らかになることにより公益その他の利益が害されるものとして政令で定めるもの以外のものをいう。
 
 ### 第十六条第五項
 
-<!-- segment: honbun id: kojin-jouhou-hogo-hou-art-16-p5-honbun -->
-この章、第六章及び第七章において「仮名加工情報取扱事業者」とは、仮名加工情報を含む情報の集合物であって、特定の仮名加工情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の仮名加工情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第四十一条第一項において「仮名加工情報データベース等」という。）を事業の用に供している者をいう。<!-- segment: tadashi id: kojin-jouhou-hogo-hou-art-16-p5-tadashi -->
-<!-- segment: tadashi id: kojin-jouhou-hogo-hou-art-16-p6-tadashi -->
-<!-- segment: tadashi id: kojin-jouhou-hogo-hou-art-16-p7-tadashi -->
-ただし、第二項各号に掲げる者を除く。
+この章、第六章及び第七章において「仮名加工情報取扱事業者」とは、仮名加工情報を含む情報の集合物であって、特定の仮名加工情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の仮名加工情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第四十一条第一項において「仮名加工情報データベース等」という。）を事業の用に供している者をいう。ただし、第二項各号に掲げる者を除く。
 
 ### 第十六条第六項
 
-<!-- segment: honbun id: kojin-jouhou-hogo-hou-art-16-p6-honbun -->
 この章、第六章及び第七章において「匿名加工情報取扱事業者」とは、匿名加工情報を含む情報の集合物であって、特定の匿名加工情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の匿名加工情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第四十三条第一項において「匿名加工情報データベース等」という。）を事業の用に供している者をいう。ただし、第二項各号に掲げる者を除く。
 
 ### 第十六条第七項
 
-<!-- segment: honbun id: kojin-jouhou-hogo-hou-art-16-p7-honbun -->
 この章、第六章及び第七章において「個人関連情報取扱事業者」とは、個人関連情報を含む情報の集合物であって、特定の個人関連情報を電子計算機を用いて検索することができるように体系的に構成したものその他特定の個人関連情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの（第三十一条第一項において「個人関連情報データベース等」という。）を事業の用に供している者をいう。ただし、第二項各号に掲げる者を除く。
 
 ### 第十六条第八項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-16-p8 -->
 この章において「学術研究機関等」とは、大学その他の学術研究を目的とする機関若しくは団体又はそれらに属する者をいう。

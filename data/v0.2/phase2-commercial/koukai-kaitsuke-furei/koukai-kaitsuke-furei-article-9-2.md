@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-9-2-p1
+    type: simple
+    text: 令第九条の三第三項の規定により日刊新聞紙に掲載する場合には、公告をした旨、電子公告アドレスその他必要な事項を全国において時事に関する事項を掲載する日刊新聞紙に掲載して行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-9-p1
+    type: simple
+    text: 認可地縁団体の代表者が欠けた場合において、事務が遅滞することにより損害を生ずるおそれがあるときは、裁判所は、利害関係人又は検察官の請求により、仮代表者を選任しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十九条
 
-<!-- segment: simple id: kenpou-art-19-p1 -->
 思想及び良心の自由は、これを侵してはならない。

@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百九条第一項
 
-<!-- segment: simple id: keihou-art-209-p1 -->
 過失により人を傷害した者は、三十万円以下の罰金又は科料に処する。
 
 ### 第二百九条第二項
 
-<!-- segment: simple id: keihou-art-209-p2 -->
 前項の罪は、告訴がなければ公訴を提起することができない。

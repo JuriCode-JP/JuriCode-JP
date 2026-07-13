@@ -101,36 +101,28 @@ parent_section:
 
 ### 第二百条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-200-p1 -->
 都道府県の監査委員に事務局を置く。
 
 ### 第二百条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-200-p2 -->
 市町村の監査委員に条例の定めるところにより、事務局を置くことができる。
 
 ### 第二百条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-200-p3 -->
 事務局に事務局長、書記その他の職員を置く。
 
 ### 第二百条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-200-p4 -->
 事務局を置かない市町村の監査委員の事務を補助させるため書記その他の職員を置く。
 
 ### 第二百条第五項
 
-<!-- segment: simple id: chihou-jichi-hou-art-200-p5 -->
 事務局長、書記その他の職員は、代表監査委員がこれを任免する。
 
 ### 第二百条第六項
 
-<!-- segment: honbun id: chihou-jichi-hou-art-200-p6-honbun -->
-事務局長、書記その他の常勤の職員の定数は、条例でこれを定める。<!-- segment: tadashi id: chihou-jichi-hou-art-200-p6-tadashi -->
-ただし、臨時の職については、この限りでない。
+事務局長、書記その他の常勤の職員の定数は、条例でこれを定める。ただし、臨時の職については、この限りでない。
 
 ### 第二百条第七項
 
-<!-- segment: simple id: chihou-jichi-hou-art-200-p7 -->
 事務局長は監査委員の命を受け、書記その他の職員又は第百八十条の三の規定による職員は上司の指揮を受け、それぞれ監査委員に関する事務に従事する。

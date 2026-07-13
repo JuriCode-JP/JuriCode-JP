@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十一条
 
-<!-- segment: simple id: keihou-art-21-p1 -->
 未決勾こう留の日数は、その全部又は一部を本刑に算入することができる。

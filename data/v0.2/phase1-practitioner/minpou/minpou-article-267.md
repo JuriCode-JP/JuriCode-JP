@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百六十七条
 
-<!-- segment: junyou id: minpou-art-267-p1 applies_provisions: 第二百二十九条 -->
 前章第一節第二款（相隣関係）の規定は、地上権者間又は地上権者と土地の所有者との間について準用する。ただし、第二百二十九条の規定は、境界線上の工作物が地上権の設定後に設けられた場合に限り、地上権者について準用する。

@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-37-4-p1-honbun
+    type: honbun
+    text: 金融商品取引業者等は、金融商品取引契約が成立したときその他内閣府令で定めるときは、内閣府令で定めるところにより、遅滞なく、顧客に対し、当該金融商品取引契約に関する事項その他の内閣府令で定める事項に係る情報を提供しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-37-4-p1-tadashi
+    type: tadashi
+    text: ただし、その金融商品取引契約の内容その他の事情を勘案し、当該情報を顧客に提供しなくても公益又は投資者保護のため支障を生ずることがないと認められるものとして内閣府令で定める場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

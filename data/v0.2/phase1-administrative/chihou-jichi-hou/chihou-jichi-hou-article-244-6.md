@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-6-p1
+    type: simple
+    text: 普通地方公共団体の議会及び長その他の執行機関は、それぞれその管理する情報システムの利用に当たつてのサイバーセキュリティを確保するための方針を定め、及びこれに基づき必要な措置を講じなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-6-p2
+    type: simple
+    text: 普通地方公共団体の議会及び長その他の執行機関は、前項の方針を定め、又はこれを変更したときは、遅滞なく、これを公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-6-p3
+    type: simple
+    text: 総務大臣は、普通地方公共団体に対し、第一項の方針（政令で定める執行機関が定めるものを除く。）の策定又は変更について、指針を示すとともに、必要な助言を行うものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-6-p4
+    type: simple
+    text: 総務大臣は、前項の指針を定め、又は変更しようとするときは、国の関係行政機関の長に協議しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

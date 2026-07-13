@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: simple id: koubunsho-kanri-hou-art-3-p1 -->
 公文書等の管理については、他の法律又はこれに基づく命令に特別の定めがある場合を除くほか、この法律の定めるところによる。

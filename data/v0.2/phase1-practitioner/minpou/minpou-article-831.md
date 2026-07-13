@@ -45,5 +45,4 @@ parent_section:
 
 ### 第八百三十一条
 
-<!-- segment: junyou id: minpou-art-831-p1 applies_provisions: 第六百五十五条 -->
 第六百五十四条及び第六百五十五条の規定は、親権を行う者が子の財産を管理する場合及び前条の場合について準用する。

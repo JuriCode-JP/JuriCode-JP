@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-15-p1
+    type: simple
+    text: 何人も、公開買付届出書、公開買付撤回届出書、公開買付報告書、意見表明報告書又は対質問回答報告書の受理があつたことをもつて、内閣総理大臣が当該受理に係るこれらの書類の記載が真実かつ正確であり、又はこれらの書類のうちに重要な事項の記載が欠けていないことを認定したものとみなすことができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-15-p2
+    type: simple
+    text: 公開買付者等及び対象者は、前項の規定に違反する表示をすることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

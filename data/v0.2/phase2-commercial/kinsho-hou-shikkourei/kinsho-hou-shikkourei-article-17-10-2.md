@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-10-2-p1
+    type: simple
+    text: 法第六十条の十四第一項に規定する政令で定める場合は、第一条の八の六第一項第二号イ又はロに掲げる者（有価証券関連業を行う者を除く。）を相手方とする場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

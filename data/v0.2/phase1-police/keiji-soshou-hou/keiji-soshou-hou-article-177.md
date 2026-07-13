@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-177-p1 -->
 国語でない文字又は符号は、これを翻訳させることができる。

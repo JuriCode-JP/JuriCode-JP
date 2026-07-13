@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-230-2-p1-hashira
+    type: hashira
+    text: 法第六十条の十三において準用する法第三十五条の三の規定により取引所取引許可業者（取引所取引業務として高速取引行為を行う者に限る。）が整備しなければならない業務管理体制は、次に掲げる要件を満たさなければならない。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-230-2-p1-kou-1
+    type: kou
+    text: 高速取引行為に係る取引所取引業務を適確に遂行するための社内規則等（社内規則その他これに準ずるものをいう。）を整備し、当該社内規則等を遵守するための従業員に対する研修その他の措置がとられていること。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-230-2-p1-kou-2
+    type: kou
+    text: 高速取引行為に係る電子情報処理組織その他の設備の管理を十分に行うための措置がとられていること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -38,3 +52,7 @@ parent_section:
 ### 第二百三十条の二
 
 法第六十条の十三において準用する法第三十五条の三の規定により取引所取引許可業者（取引所取引業務として高速取引行為を行う者に限る。）が整備しなければならない業務管理体制は、次に掲げる要件を満たさなければならない。
+
+一　高速取引行為に係る取引所取引業務を適確に遂行するための社内規則等（社内規則その他これに準ずるものをいう。）を整備し、当該社内規則等を遵守するための従業員に対する研修その他の措置がとられていること。
+
+二　高速取引行為に係る電子情報処理組織その他の設備の管理を十分に行うための措置がとられていること。

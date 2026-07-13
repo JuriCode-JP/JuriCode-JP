@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-13-p1
+    type: junyou
+    text: 第八十五条の四の規定は、第百六条の十第一項及び第三項ただし書の認可について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

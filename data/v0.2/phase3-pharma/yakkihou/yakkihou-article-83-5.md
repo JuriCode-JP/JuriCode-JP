@@ -16,12 +16,30 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-5-p1
+    type: simple
+    text: 農林水産大臣は、対象動物に使用される蓋然性が高いと認められる医薬品（動物用医薬品を除く。）又は再生医療等製品（動物用再生医療等製品を除く。）であつて、適正に使用されるのでなければ対象動物の肉、乳その他の食用に供される生産物で人の健康を損なうおそれのあるものが生産されるおそれのあるものについて、薬事審議会の意見を聴いて、農林水産省令で、その医薬品又は再生医療等製品を使用することができる対象動物、対象動物に使用する場合における使用の時期その他の事項に関し使用者が遵守すべき基準を定めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-5-p2-zen
+    type: zen_dan
+    text: 前項の基準については、前条第二項及び第三項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
+  - id: yakkihou-art-83-5-p2-kou
+    type: kou_dan
+    text: この場合において、同条第二項中「動物用医薬品又は動物用再生医療等製品」とあるのは「医薬品又は再生医療等製品」と、同条第三項中「前二項」とあるのは「第八十三条の五第一項及び同条第二項において準用する第八十三条の四第二項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前二項
+    depends_on: yakkihou-art-83-5-p2-zen
 cases: []
 amendments: []
 tags:

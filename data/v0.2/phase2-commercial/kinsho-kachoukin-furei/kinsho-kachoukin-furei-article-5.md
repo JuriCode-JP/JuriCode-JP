@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-5-p1 -->
 合議体が審判手続を行う場合においては、審判官の合議は、過半数で決する。

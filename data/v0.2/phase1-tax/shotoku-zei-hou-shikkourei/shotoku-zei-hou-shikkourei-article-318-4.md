@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第百九十五条の三第一項（給与所得者の特定親族特別控除申告書）の規定による申告書に法第八十四条の二第一項（特定親族特別控除）に規定する特定親族（以下この条において「特定親族」という。）が非居住者である親族である旨の記載をした居住者は、当該記載がされた特定親族についての次に掲げる書類を各人別に当該申告書に添付し、又は当該申告書の提出の際提示しなければならない。ただし、法第百九十四条第五項（給与所得者の扶養控除等申告書）の規定により提出し、又は提示したその特定親族に係る第一号に掲げる書類については、この限りでない。
     modality: jogai
+  - id: shotoku-zei-hou-shikkourei-art-318-4-p1-kou-1
+    type: kou
+    text: その特定親族が当該居住者の配偶者以外の親族に該当する旨を証する書類として財務省令で定めるもの
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-318-4-p1-kou-2
+    type: kou
+    text: その特定親族が当該居住者と生計を一にすることを明らかにする書類として財務省令で定めるもの
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第三百十八条の四
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-318-4-p1-hashira -->
 法第百九十五条の三第一項（給与所得者の特定親族特別控除申告書）の規定による申告書に法第八十四条の二第一項（特定親族特別控除）に規定する特定親族（以下この条において「特定親族」という。）が非居住者である親族である旨の記載をした居住者は、当該記載がされた特定親族についての次に掲げる書類を各人別に当該申告書に添付し、又は当該申告書の提出の際提示しなければならない。ただし、法第百九十四条第五項（給与所得者の扶養控除等申告書）の規定により提出し、又は提示したその特定親族に係る第一号に掲げる書類については、この限りでない。
+
+一　その特定親族が当該居住者の配偶者以外の親族に該当する旨を証する書類として財務省令で定めるもの
+
+二　その特定親族が当該居住者と生計を一にすることを明らかにする書類として財務省令で定めるもの

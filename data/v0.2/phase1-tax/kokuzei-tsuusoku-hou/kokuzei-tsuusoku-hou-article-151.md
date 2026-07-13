@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百五十一条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-151-p1 -->
 捜索をした場合において、証拠物又は没収すべき物件がないときは、捜索を受けた者の請求により、その旨の証明書を交付しなければならない。

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-58-p1
+    type: simple
+    text: 内閣総理大臣は、紛争解決等業務の公正かつ適確な遂行のため必要があると認めるときは、指定紛争解決機関に対し、その業務に関し報告若しくは資料の提出を命じ、又は当該職員に、指定紛争解決機関の営業所若しくは事務所その他の施設に立ち入らせ、当該指定紛争解決機関の業務の状況に関し質問させ、若しくは帳簿書類その他の物件を検査させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-58-p2
+    type: simple
+    text: 内閣総理大臣は、紛争解決等業務の公正かつ適確な遂行のため特に必要があると認めるときは、その必要の限度において、指定紛争解決機関の加入金融商品取引関係業者若しくは当該指定紛争解決機関から業務の委託を受けた者に対し、当該指定紛争解決機関の業務に関し参考となるべき報告若しくは資料の提出を命じ、又は当該職員に、これらの者の営業所若しくは事務所その他の施設に立ち入らせ、当該指定紛争解決機関の業務の状況に関し質問させ、若しくはこれらの者の帳簿書類その他の物件を検査させることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -13,25 +13,45 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-21-p1
+    type: simple
+    text: 道府県知事は、固定資産課税台帳に固定資産の価格が登録されている不動産については、当該価格により当該不動産に係る不動産取得税の課税標準となるべき価格を決定するものとする。但し、当該不動産について増築、改築、損かヽいヽ、地目の変換その他特別の事情がある場合において当該固定資産の価格により難いときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-21-p2
+    type: simple
+    text: 道府県知事は、固定資産課税台帳に固定資産の価格が登録されていない不動産又は前項但書の規定に該当する不動産については、第三百八十八条第一項の固定資産評価基準によつて、当該不動産に係る不動産取得税の課税標準となるべき価格を決定するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-21-p3
+    type: simple
+    text: 道府県知事は、前項の規定によつて不動産の価格を決定した場合においては、直ちに、当該価格その他必要な事項を当該不動産の所在地の市町村長に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-21-p4
+    type: simple
+    text: 道府県知事は、不動産取得税の課税標準となるべき価格の決定を行つた結果、固定資産課税台帳に登録されている不動産の価格について、市町村間に不均衡を認めた場合においては、理由を附けて、関係市町村の長に対し、固定資産税の課税標準となるべき価格の決定について助言をするものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

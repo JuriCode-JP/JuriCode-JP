@@ -16,17 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-56-p1
+    type: simple
+    text: 基金は、認定金融商品取引業者の一般顧客の請求に基づいて、前条第一項の規定により公告した日において現に当該一般顧客が当該認定金融商品取引業者に対して有する債権（当該一般顧客の顧客資産に係るものに限る。）であつて基金が政令で定めるところにより当該認定金融商品取引業者による円滑な弁済が困難であると認めるもの（以下「補償対象債権」という。）につき、内閣府令・財務省令で定めるところにより算出した金額の支払を行うものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-56-p2
+    type: tokusoku
+    text: 基金は、前項の規定にかかわらず、認定金融商品取引業者の役員その他の政令で定める者に対しては、同項の支払を行わないものとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 同項
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-56-p3-honbun
+    type: honbun
+    text: 第一項の請求は、前条第一項又は第三項の規定により公告した届出期間内でなければ、することができない。
+    modality: kanou_negative
+    references:
+    - 前条
+  - id: kinsho-hou-art-79-56-p3-tadashi
+    type: tadashi
+    text: ただし、その届出期間内に請求しなかつたことにつき、災害その他やむを得ない事情があると基金が認めるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

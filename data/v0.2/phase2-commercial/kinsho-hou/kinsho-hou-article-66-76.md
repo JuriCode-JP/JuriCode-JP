@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-76-p1
+    type: simple
+    text: 投資運用関係業務受託業者並びにその役員及び使用人は、委託者のため誠実かつ公正にその業務を遂行しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

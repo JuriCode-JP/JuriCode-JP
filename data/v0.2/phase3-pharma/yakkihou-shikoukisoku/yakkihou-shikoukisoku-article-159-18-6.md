@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-6-p1
+    type: simple
+    text: 法第三十六条の十一第三項の厚生労働省令で定める数量は、指定濫用防止医薬品の適正な使用のために必要と認められる数量として厚生労働大臣が定める数量とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-6-p2
+    type: simple
+    text: 法第三十六条の十一第三項本文及び第二号の厚生労働省令で定める年齢は、十八歳とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-6-p3
+    type: simple
+    text: 法第三十六条の十一第三項第二号の厚生労働省令で定める者は、前項の年齢に満たない者であつて、第一項の数量の範囲内でその薬局若しくは店舗において又は配置販売によつて当該指定濫用防止医薬品を購入し、又は譲り受けようとする者とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

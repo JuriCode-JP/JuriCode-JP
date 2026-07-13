@@ -67,9 +67,6 @@ parent_section:
 
 ### 第七十三条第一項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-73-p1 -->
-<!-- segment: simple id: kinsho-gyou-furei-art-73-p2 -->
-<!-- segment: tokusoku id: kinsho-gyou-furei-art-73-p3 override_flag: true override_target: 前項 -->
 金融商品取引業者等がその行う金融商品取引業（登録金融機関にあっては、登録金融機関業務。次項及び第三項において同じ。）の内容について広告又は前条に規定する行為（以下この款において「広告等」という。）をするときは、法第三十七条第一項各号に掲げる事項について明瞭かつ正確に表示しなければならない。
 
 ### 第七十三条第二項

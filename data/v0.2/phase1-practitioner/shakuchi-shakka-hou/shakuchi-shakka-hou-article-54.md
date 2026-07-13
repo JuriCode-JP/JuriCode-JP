@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十四条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-54-p1 -->
 裁判所は、審理を終結するときは、審問期日においてその旨を宣言しなければならない。

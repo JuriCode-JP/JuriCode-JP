@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-5-p1
+    type: tokusoku
+    text: 預金口座又は貯金口座に係る預金又は貯金に係る債権（以下「預貯金債権」という。）について当事者がした譲渡制限の意思表示は、第四百六十六条第二項の規定にかかわらず、その譲渡制限の意思表示がされたことを知り、又は重大な過失によって知らなかった譲受人その他の第三者に対抗することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第四百六十六条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-5-p2
+    type: simple
+    text: 前項の規定は、譲渡制限の意思表示がされた預貯金債権に対する強制執行をした差押債権者に対しては、適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

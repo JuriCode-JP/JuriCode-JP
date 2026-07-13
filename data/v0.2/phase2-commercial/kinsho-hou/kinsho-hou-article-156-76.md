@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-76-p1
+    type: simple
+    text: 取引情報蓄積機関でない者は、その名称又は商号中に、取引情報蓄積機関と誤認されるおそれのある文字を用いてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

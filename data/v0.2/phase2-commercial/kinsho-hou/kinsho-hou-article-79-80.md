@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-80-p1
+    type: simple
+    text: 清算人は、基金の債務を弁済してなお残余財産があるときは、内閣府令・財務省令で定めるところにより、当該残余財産をその会員がそれぞれ加入することとなる他の基金に帰属させなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-80-p2
+    type: simple
+    text: 前項に定めるもののほか、基金の解散に関する所要の措置は、合理的に必要と判断される範囲内において、政令で定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

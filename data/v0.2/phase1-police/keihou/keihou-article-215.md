@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百十五条第一項
 
-<!-- segment: simple id: keihou-art-215-p1 -->
 女子の嘱託を受けないで、又はその承諾を得ないで堕胎させた者は、六月以上七年以下の拘禁刑に処する。
 
 ### 第二百十五条第二項
 
-<!-- segment: simple id: keihou-art-215-p2 -->
 前項の罪の未遂は、罰する。

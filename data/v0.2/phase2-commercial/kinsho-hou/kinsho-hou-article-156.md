@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百五十六条
 
-<!-- segment: simple id: kinsho-hou-art-156-p1 -->
 第百五十五条から前条までの規定を実施するための手続その他必要な事項は、内閣府令で定める。

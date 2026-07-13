@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-5-p1-hashira
+    type: hashira
+    text: 法第二十七条の二十二の二第二項において準用する法第二十七条の三第三項に規定する政令で定める関係者は、次に掲げる者とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-14-3-5-p1-kou-1
+    type: kou
+    text: 公開買付者のために第十四条の三の三第四項に規定する事務を行う第一種金融商品取引業者又は銀行等
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-14-3-5-p1-kou-2
+    type: kou
+    text: 公開買付者を代理して公開買付けによる上場株券等の買付け等を行う者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第十四条の三の五
 
 法第二十七条の二十二の二第二項において準用する法第二十七条の三第三項に規定する政令で定める関係者は、次に掲げる者とする。
+
+一　公開買付者のために第十四条の三の三第四項に規定する事務を行う第一種金融商品取引業者又は銀行等
+
+二　公開買付者を代理して公開買付けによる上場株券等の買付け等を行う者

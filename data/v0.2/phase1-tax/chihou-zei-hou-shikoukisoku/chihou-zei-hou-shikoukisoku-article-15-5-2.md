@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-15-5-2-p1
+    type: simple
+    text: 市町村は、法第三百八十条第二項の規定により固定資産課税台帳の全部又は一部の備付けを電磁的記録の備付けをもつて行う場合においては、当該固定資産課税台帳に記録をされている事項がその市町村の固定資産税に関する事務に従事している者以外の者に知られること及び当該固定資産課税台帳が滅失し又はき損することを防止するために必要な措置を講じなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-15-5-2-p2
+    type: simple
+    text: 市町村は、法第三百八十一条第九項の規定により土地課税台帳又は土地補充課税台帳に添付する別紙の作成を電磁的記録の作成をもつて行う場合においては、当該別紙に記録をされている事項がその市町村の固定資産税に関する事務に従事している者以外の者に知られること及び当該別紙が滅失し又はき損することを防止するために必要な措置を講じなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-15-5-2-p3
+    type: simple
+    text: 市町村は、法第三百八十七条第二項の規定により土地名寄帳又は家屋名寄帳の備付けを電磁的記録の備付けをもつて行う場合においては、当該土地名寄帳又は家屋名寄帳に記録をされている事項がその市町村の固定資産税に関する事務に従事している者以外の者に知られること及び当該土地名寄帳又は家屋名寄帳が滅失し又はき損することを防止するために必要な措置を講じなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-15-5-2-p4
+    type: simple
+    text: 市町村は、法第四百十五条第二項又は第四百十九条第五項の規定により土地価格等縦覧帳簿又は家屋価格等縦覧帳簿の作成を電磁的記録の作成をもつて行う場合においては、当該土地価格等縦覧帳簿又は家屋価格等縦覧帳簿に記録をされている事項がその市町村の固定資産税に関する事務に従事している者以外の者に知られること及び当該土地価格等縦覧帳簿又は家屋価格等縦覧帳簿が滅失し又はき損することを防止するために必要な措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第六十一条の九第一項（外貨建資産等の期末換算）に規定する政令で定める方法は、次の各号に掲げる外貨建資産等（第百二十二条の四（外貨建資産等の期末換算方法の選定の方法）に規定する外貨建資産等をいう。以下この条において同じ。）の区分に応じ、当該各号に定める方法とする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-122-7-p1-kou-1
+    type: kou
+    text: 第百二十二条の四第一号及び第五号に掲げる外貨建資産等　法第六十一条の九第一項第一号ロに掲げる期末時換算法
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-122-7-p1-kou-2
+    type: kou
+    text: 外貨建資産等のうち前号に掲げるもの以外のもの　法第六十一条の九第一項第一号イに掲げる発生時換算法
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -45,5 +55,8 @@ parent_section:
 
 ### 第百二十二条の七
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-122-7-p1-hashira -->
 法第六十一条の九第一項（外貨建資産等の期末換算）に規定する政令で定める方法は、次の各号に掲げる外貨建資産等（第百二十二条の四（外貨建資産等の期末換算方法の選定の方法）に規定する外貨建資産等をいう。以下この条において同じ。）の区分に応じ、当該各号に定める方法とする。
+
+一　第百二十二条の四第一号及び第五号に掲げる外貨建資産等　法第六十一条の九第一項第一号ロに掲げる期末時換算法
+
+二　外貨建資産等のうち前号に掲げるもの以外のもの　法第六十一条の九第一項第一号イに掲げる発生時換算法

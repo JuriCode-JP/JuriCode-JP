@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 地方団体の長は、徴収の猶予、職権による換価の猶予又は申請による換価の猶予をする場合には、その猶予に係る金額に相当する担保で次に掲げるものを徴さなければならない。ただし、その猶予に係る金額、期間その他の事情を勘案して担保を徴する必要がない場合として当該地方団体の条例で定める場合は、この限りでない。
     modality: jogai
+  - id: chihou-zei-hou-art-16-p1-kou-1
+    type: kou
+    text: 国債及び地方債
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-16-p1-kou-2
+    type: kou
+    text: 地方団体の長が確実と認める社債（特別の法律により設立された法人が発行する債券を含む。）その他の有価証券
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-16-p1-kou-3
+    type: kou
+    text: 土地
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-art-16-p1-kou-4
+    type: kou
+    text: 保険に付した建物、立木、船舶、航空機、自動車及び建設機械
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-art-16-p1-kou-5
+    type: kou
+    text: 鉄道財団、工場財団、鉱業財団、軌道財団、運河財団、漁業財団、港湾運送事業財団、道路交通事業財団及び観光施設財団
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-art-16-p1-kou-6
+    type: kou
+    text: 地方団体の長が確実と認める保証人の保証
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: false
@@ -70,20 +100,28 @@ parent_section:
 
 ### 第十六条第一項
 
-<!-- segment: hashira id: chihou-zei-hou-art-16-p1-hashira -->
 地方団体の長は、徴収の猶予、職権による換価の猶予又は申請による換価の猶予をする場合には、その猶予に係る金額に相当する担保で次に掲げるものを徴さなければならない。ただし、その猶予に係る金額、期間その他の事情を勘案して担保を徴する必要がない場合として当該地方団体の条例で定める場合は、この限りでない。
+
+一　国債及び地方債
+
+二　地方団体の長が確実と認める社債（特別の法律により設立された法人が発行する債券を含む。）その他の有価証券
+
+三　土地
+
+四　保険に付した建物、立木、船舶、航空機、自動車及び建設機械
+
+五　鉄道財団、工場財団、鉱業財団、軌道財団、運河財団、漁業財団、港湾運送事業財団、道路交通事業財団及び観光施設財団
+
+六　地方団体の長が確実と認める保証人の保証
 
 ### 第十六条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-16-p2 -->
 前項の規定により担保を徴する場合において、その猶予に係る地方団体の徴収金につき差し押さえた財産があるときは、その担保の額は、その猶予をする金額からその財産の価額を控除した額を限度とする。
 
 ### 第十六条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-16-p3 -->
 地方団体の長は、第一項の規定により担保を徴した場合において、担保財産の価額若しくは保証人の資力の減少その他の理由により猶予に係る金額の納付若しくは納入を担保することができないと認めるとき、又は第十五条の二の三第二項、第十五条の五の三第一項若しくは第十五条の六の三第一項の規定により差押えを解除したときは、納税者又は特別徴収義務者に対し、増担保の提供、保証人の変更その他担保を確保するため必要な行為を求めることができる。
 
 ### 第十六条第四項
 
-<!-- segment: simple id: chihou-zei-hou-art-16-p4 -->
 前三項に定めるもののほか、担保の提供について必要な事項は、政令で定める。

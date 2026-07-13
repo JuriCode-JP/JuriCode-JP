@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百八十条
 
-<!-- segment: simple id: keihou-art-180-p1 -->
 第百七十六条、第百七十七条及び前条の罪の未遂は、罰する。

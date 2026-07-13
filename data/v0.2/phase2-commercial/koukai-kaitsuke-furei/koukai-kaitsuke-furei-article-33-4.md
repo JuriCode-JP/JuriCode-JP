@@ -16,7 +16,15 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-4-p1
+    type: junyou
+    text: 前条の規定は、法第二十七条の三十の十一第四項の規定による意見表明報告書に記載すべき事項の提供について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

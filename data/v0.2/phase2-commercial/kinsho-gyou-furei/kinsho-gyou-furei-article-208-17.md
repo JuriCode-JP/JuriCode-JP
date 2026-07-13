@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-17-p1
+    type: simple
+    text: 法第五十七条の十第二項に規定する内閣府令で定めるものは、第三十八条の三に定めるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

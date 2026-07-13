@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-31-4-p1
+    type: simple
+    text: 厚生労働大臣は、厚生労働省令で、配置販売の業務に関する記録方法その他配置販売の業務に関し配置販売業者が遵守すべき事項を定めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-31-4-p2
+    type: simple
+    text: 配置販売業者は、第三十一条の二第一項の規定により区域管理者を指定したときは、前条第二項の規定により述べられた区域管理者の意見を尊重するとともに、法令遵守のために措置を講ずる必要があるときは、当該措置を講じ、かつ、講じた措置の内容（措置を講じない場合にあつては、その旨及びその理由）を記録し、これを適切に保存しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

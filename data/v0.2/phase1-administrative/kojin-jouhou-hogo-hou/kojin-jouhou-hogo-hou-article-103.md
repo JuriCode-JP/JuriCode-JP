@@ -26,6 +26,16 @@ paragraphs:
     - 前条
     references:
     - 前条
+  - id: kojin-jouhou-hogo-hou-art-103-p1-kou-1
+    type: kou
+    text: この条の規定を適用する旨及びその理由
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-103-p1-kou-2
+    type: kou
+    text: 利用停止決定等をする期限
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -46,5 +56,8 @@ parent_section:
 
 ### 第百三条
 
-<!-- segment: tokusoku id: kojin-jouhou-hogo-hou-art-103-p1 override_flag: true override_target: 前条 -->
 行政機関の長等は、利用停止決定等に特に長期間を要すると認めるときは、前条の規定にかかわらず、相当の期間内に利用停止決定等をすれば足りる。この場合において、行政機関の長等は、同条第一項に規定する期間内に、利用停止請求者に対し、次に掲げる事項を書面により通知しなければならない。
+
+一　この条の規定を適用する旨及びその理由
+
+二　利用停止決定等をする期限

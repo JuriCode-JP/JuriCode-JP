@@ -13,35 +13,78 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-16-p1-honbun
+    type: honbun
+    text: 検察官は、公訴を提起しようとする事件について、事案が明白であり、かつ、軽微であること、証拠調べが速やかに終わると見込まれることその他の事情を考慮し、相当と認めるときは、公訴の提起と同時に、書面により即決裁判手続の申立てをすることができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-350-16-p1-tadashi
+    type: tadashi
+    text: ただし、死刑又は無期若しくは短期一年以上の拘禁刑に当たる事件については、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-16-p2
+    type: simple
+    text: 前項の申立ては、即決裁判手続によることについての被疑者の同意がなければ、これをすることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-16-p3-zen
+    type: zen_dan
+    text: 検察官は、被疑者に対し、前項の同意をするかどうかの確認を求めるときは、これを書面でしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-350-16-p3-kou
+    type: kou_dan
+    text: この場合において、検察官は、被疑者に対し、即決裁判手続を理解させるために必要な事項（被疑者に弁護人がないときは、次条の規定により弁護人を選任することができる旨を含む。）を説明し、通常の規定に従い審判を受けることができる旨を告げなければならない。
+    modality: gimu
+    references:
+    - 次条
+    depends_on: keiji-soshou-hou-art-350-16-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-16-p4
+    type: simple
+    text: 被疑者に弁護人がある場合には、第一項の申立ては、被疑者が第二項の同意をするほか、弁護人が即決裁判手続によることについて同意をし又はその意見を留保しているときに限り、これをすることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-16-p5
+    type: simple
+    text: 被疑者が第二項の同意をし、及び弁護人が前項の同意をし又はその意見を留保するときは、書面でその旨を明らかにしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-16-p6
+    type: simple
+    text: 第一項の書面には、前項の書面を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

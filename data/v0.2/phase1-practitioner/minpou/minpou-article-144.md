@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百四十四条
 
-<!-- segment: simple id: minpou-art-144-p1 -->
 時効の効力は、その起算日にさかのぼる。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十六条の五十二
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-56-52-p1 -->
 削除

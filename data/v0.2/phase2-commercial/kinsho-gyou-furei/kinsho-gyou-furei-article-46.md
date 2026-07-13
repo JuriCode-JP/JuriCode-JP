@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第三十三条の三第二項第三号に規定する内閣府令で定めるものは、関係会社（親法人等、子法人等又は持株会社をいう。第五号において同じ。）の状況として次に掲げる事項とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-46-p1-kou-1
+    type: kou
+    text: 商号又は名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-46-p1-kou-2
+    type: kou
+    text: 資本金の額、基金の総額又は出資の総額
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-46-p1-kou-3
+    type: kou
+    text: 本店又は主たる事務所の所在地
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-46-p1-kou-4
+    type: kou
+    text: 事業の種類
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-46-p1-kou-5
+    type: kou
+    text: 登録申請者と関係会社との間の資本関係、人的関係及び最近一年間の業務上の関係
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-gyou-furei-art-46-p1-kou-6
+    type: kou
+    text: 親法人等、子法人等又は持株会社のいずれに該当するかの別
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -41,5 +71,16 @@ parent_section:
 
 ### 第四十六条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-46-p1-hashira -->
 法第三十三条の三第二項第三号に規定する内閣府令で定めるものは、関係会社（親法人等、子法人等又は持株会社をいう。第五号において同じ。）の状況として次に掲げる事項とする。
+
+一　商号又は名称
+
+二　資本金の額、基金の総額又は出資の総額
+
+三　本店又は主たる事務所の所在地
+
+四　事業の種類
+
+五　登録申請者と関係会社との間の資本関係、人的関係及び最近一年間の業務上の関係
+
+六　親法人等、子法人等又は持株会社のいずれに該当するかの別

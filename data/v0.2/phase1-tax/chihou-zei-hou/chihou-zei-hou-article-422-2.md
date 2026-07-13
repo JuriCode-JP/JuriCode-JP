@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-422-2-p1
+    type: simple
+    text: 総務大臣は、市町村における固定資産の価格の決定が第三百八十八条第一項の固定資産評価基準によつて行なわれていないと認める場合においては、道府県知事に対し、当該市町村の長に第四百十九条第一項の勧告をするように指示するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-422-2-p2
+    type: simple
+    text: 総務大臣は、前項の指示をしようとするときは、地方財政審議会の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-422-2-p3
+    type: simple
+    text: 第一項の指示を受けた道府県知事は、当該指示を受けた日から三十日以内に、当該指示に基づいてした措置について総務大臣に報告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

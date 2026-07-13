@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-82-p1-zen
+    type: zen_dan
+    text: 医療機器又は体外診断用医薬品の製造販売業者又は製造業者については、第十五条の九の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-114-82-p1-kou
+    type: kou_dan
+    text: この場合において、同条第一項中「登録販売者として」とあるのは、「第百十四条の四十九第一項第二号若しくは第三号若しくは第二項第二号又は第百十四条の五十二第一項第二号若しくは第三号若しくは第二項第二号に規定する」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-114-82-p1-zen
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-36-3-p1
+    type: simple
+    text: 金融商品取引業者等は、自己の名義をもつて、他人に金融商品取引業（登録金融機関にあつては、登録金融機関業務。以下この款において同じ。）を行わせてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

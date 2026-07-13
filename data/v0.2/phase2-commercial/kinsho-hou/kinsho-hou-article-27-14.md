@@ -16,37 +16,92 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-14-p1
+    type: simple
+    text: 内閣総理大臣は、内閣府令で定めるところにより、公開買付届出書（その訂正届出書を含む。次条第一項において同じ。）及び公開買付撤回届出書並びに公開買付報告書、意見表明報告書及び対質問回答報告書（これらの訂正報告書を含む。次条第一項において同じ。）を、これらの書類を受理した日から当該公開買付けに係る公開買付期間の末日の翌日以後五年を経過する日までの間、公衆の縦覧に供しなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-14-p2
+    type: simple
+    text: 前項に規定する書類（以下この条において「縦覧書類」という。）を提出した者（以下この条において「提出者」という。）は、内閣総理大臣が同項の規定により当該縦覧書類を公衆の縦覧に供している間は、当該縦覧書類の写しを、内閣府令で定めるところにより、その者の本店又は主たる事務所に備え置き、公衆の縦覧に供しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-14-p3
+    type: simple
+    text: 金融商品取引所及び政令で定める認可金融商品取引業協会は、内閣総理大臣が第一項の規定により縦覧書類を公衆の縦覧に供している間は、第二十七条の三第四項（第二十七条の八第六項、第二十七条の十一第四項及び前条第三項において準用する場合を含む。）並びに第二十七条の十第九項（同条第十項において準用する場合を含む。）及び第十三項（同条第十四項において準用する場合を含む。）の規定により送付された当該縦覧書類の写しを、内閣府令で定めるところにより、その事務所に備え置き、公衆の縦覧に供しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-14-p4
+    type: simple
+    text: 前三項に定めるもののほか、第一項の縦覧に関し必要な事項は、内閣府令で定める。
+    modality: unspecified
+    references:
+    - 前三項
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-14-p5
+    type: tokusoku
+    text: 内閣総理大臣は、次のいずれかに掲げる処分をするときは、第一項の規定にかかわらず、当該処分に係る縦覧書類について、その全部又は一部を公衆の縦覧に供しないものとすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
+  - id: kinsho-hou-art-27-14-p5-kou-1
+    type: kou
+    text: 第二十七条の八第三項又は第四項の規定による訂正届出書の提出命令
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-27-14-p5-kou-2
+    type: kou
+    text: 第二十七条の十第八項若しくは第十二項又は前条第三項において準用する第二十七条の八第三項又は第四項の規定による訂正報告書の提出命令
+    modality: unspecified
+    item_number: 2
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-14-p6
+    type: simple
+    text: 前項の場合において、内閣総理大臣は、第二項の規定により当該縦覧書類の写しを公衆の縦覧に供する提出者及び第三項の規定により当該縦覧書類の写しを公衆の縦覧に供する金融商品取引所又は同項の政令で定める認可金融商品取引業協会に対し、当該縦覧書類の全部又は一部を公衆の縦覧に供しないこととした旨を通知するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-14-p7
+    type: simple
+    text: 前項の規定により提出者又は金融商品取引所若しくは認可金融商品取引業協会が内閣総理大臣からの通知を受けたときは、その時以後、当該通知に係る縦覧書類の写しについては、第二項及び第三項の規定は、適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -82,6 +137,10 @@ parent_section:
 ### 第二十七条の十四第五項
 
 内閣総理大臣は、次のいずれかに掲げる処分をするときは、第一項の規定にかかわらず、当該処分に係る縦覧書類について、その全部又は一部を公衆の縦覧に供しないものとすることができる。
+
+一　第二十七条の八第三項又は第四項の規定による訂正届出書の提出命令
+
+二　第二十七条の十第八項若しくは第十二項又は前条第三項において準用する第二十七条の八第三項又は第四項の規定による訂正報告書の提出命令
 
 ### 第二十七条の十四第六項
 

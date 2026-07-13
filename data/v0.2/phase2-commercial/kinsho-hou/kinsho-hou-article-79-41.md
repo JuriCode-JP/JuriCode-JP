@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-41-p1
+    type: simple
+    text: 理事長は、定款の定めるところにより、毎事業年度一回通常総会を招集しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-41-p2
+    type: simple
+    text: 理事長は、必要があると認めるときは、臨時総会を招集することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-41-p3
+    type: simple
+    text: 基金は、総会の議決を内閣総理大臣及び財務大臣に報告しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-41-p4
+    type: simple
+    text: 内閣総理大臣及び財務大臣は、当該職員をして総会に出席させ、意見を述べさせることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

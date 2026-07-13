@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-4-p1
+    type: simple
+    text: 職員の休業は、自己啓発等休業、配偶者同行休業、育児休業及び大学院修学休業とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-4-p2
+    type: simple
+    text: 育児休業及び大学院修学休業については、別に法律で定めるところによる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

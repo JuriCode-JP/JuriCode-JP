@@ -48,10 +48,8 @@ parent_section:
 
 ### 第百三十八条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-138-p1 -->
 委員長は、委員会の会務を総理し、委員会を代表する。
 
 ### 第百三十八条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-138-p2 -->
 委員会は、あらかじめ常勤の委員のうちから、委員長に事故がある場合に委員長を代理する者を定めておかなければならない。

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-36-p1 -->
 被告人が貧困その他の事由により弁護人を選任することができないときは、裁判所は、その請求により、被告人のため弁護人を附しなければならない。但し、被告人以外の者が選任した弁護人がある場合は、この限りでない。

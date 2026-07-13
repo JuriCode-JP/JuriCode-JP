@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百三十五条
 
-<!-- segment: simple id: keihou-art-135-p1 -->
 この章の罪は、告訴がなければ公訴を提起することができない。

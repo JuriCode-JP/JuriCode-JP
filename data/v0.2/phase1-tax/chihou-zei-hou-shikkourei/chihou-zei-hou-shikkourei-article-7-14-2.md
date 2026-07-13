@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-14-2-p1
+    type: simple
+    text: 法第三十四条第一項第四号イに規定する政令で定める共済契約は、小規模企業共済法及び中小企業事業団法の一部を改正する法律（平成七年法律第四十四号）附則第五条第一項の規定により読み替えられた小規模企業共済法（昭和四十年法律第百二号）第九条第一項各号に掲げる事由により共済金が支給されることとなる契約とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

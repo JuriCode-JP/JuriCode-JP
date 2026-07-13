@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-18-4-p1
+    type: simple
+    text: 特定医薬品の製造販売業者は、その製造販売をする特定医薬品について、その出荷の停止又は制限をしたときは、直ちに、厚生労働省令で定めるところにより、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-18-4-p2
+    type: simple
+    text: 前項の規定による届出をした者は、当該届出をした事項に変更が生じたときは、直ちに、厚生労働省令で定めるところにより、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-18-4-p3
+    type: simple
+    text: 厚生労働大臣は、前二項の規定による届出を受けた場合には、当該届出に係る情報を公表するものとする。
+    modality: gimu
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

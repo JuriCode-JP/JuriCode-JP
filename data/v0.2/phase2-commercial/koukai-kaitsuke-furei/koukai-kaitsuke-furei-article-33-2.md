@@ -16,22 +16,44 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-2-p1
+    type: junyou
+    text: 企業内容等の開示に関する内閣府令第二十三条の二の規定は、法第二十七条の三十の九第二項において同項に規定する公開買付説明書について同条第一項の規定を準用する場合について準用する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-2-p2
+    type: simple
+    text: 公開買付者は、前項において準用する企業内容等の開示に関する内閣府令第二十三条の二第二項各号に掲げる方法（以下この条において「電磁的方法」という。）により法第二十七条の九第三項に規定する公開買付説明書の交付に代えて当該公開買付説明書に記載すべき事項を提供するときは、株券等の売付け等を行おうとする者に対し、第二十四条第二項各号に掲げる事項が表示された画像を閲覧させることその他の方法により当該事項に関して注意を促さなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-2-p3
+    type: simple
+    text: 公開買付者は、株券等の売付け等を行おうとする者に対し、あらかじめ又は同時に電磁的方法により公開買付説明書に記載すべき事項を提供しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-2-p4
+    type: simple
+    text: 法第二十七条の九第四項の規定により既に公開買付説明書を交付している者に対し訂正をした公開買付説明書を交付しなければならない公開買付者は、当該訂正の範囲が小範囲に止まる場合において、当該訂正をした公開買付説明書について第一項において準用する企業内容等の開示に関する内閣府令第二十三条の二第一項第一号の同意をしている者及び同項第二号の規定による告知があった者（同条第六項の規定による請求があった場合を除く。）に対しては、第二十四条第八項に規定する書面を交付する方法に代えて、訂正の理由、訂正した事項及び訂正後の内容を電磁的方法により提供する方法によることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

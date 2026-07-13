@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-58-2-p1
+    type: simple
+    text: 任命権者は、次条に規定するもののほか、条例で定めるところにより、毎年、地方公共団体の長に対し、職員（臨時的に任用された職員及び非常勤職員（短時間勤務の職を占める職員及び第二十二条の二第一項第二号に掲げる職員を除く。）を除く。）の任用、人事評価、給与、勤務時間その他の勤務条件、休業、分限及び懲戒、服務、退職管理、研修並びに福祉及び利益の保護等人事行政の運営の状況を報告しなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-58-2-p2
+    type: simple
+    text: 人事委員会又は公平委員会は、条例で定めるところにより、毎年、地方公共団体の長に対し、業務の状況を報告しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-58-2-p3
+    type: simple
+    text: 地方公共団体の長は、前二項の規定による報告を受けたときは、条例で定めるところにより、毎年、第一項の規定による報告を取りまとめ、その概要及び前項の規定による報告を公表しなければならない。
+    modality: gimu
+    references:
+    - 前二項
+    - 前項
 cases: []
 amendments: []
 tags:

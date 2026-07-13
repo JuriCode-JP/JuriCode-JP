@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百三十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-336-p1 -->
 被告事件が罪とならないとき、又は被告事件について犯罪の証明がないときは、判決で無罪の言渡をしなければならない。

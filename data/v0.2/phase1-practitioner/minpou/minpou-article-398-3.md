@@ -16,12 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-3-p1
+    type: simple
+    text: 根抵当権者は、確定した元本並びに利息その他の定期金及び債務の不履行によって生じた損害の賠償の全部について、極度額を限度として、その根抵当権を行使することができる。
+    modality: kanou_kenri
 - number: 2
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-3-p2-hashira
+    type: hashira
+    text: 債務者との取引によらないで取得する手形上若しくは小切手上の請求権又は電子記録債権を根抵当権の担保すべき債権とした場合において、次に掲げる事由があったときは、その前に取得したものについてのみ、その根抵当権を行使することができる。ただし、その後に取得したものであっても、その事由を知らないで取得したものについては、これを行使することを妨げない。
+    modality: jogai
+  - id: minpou-art-398-3-p2-kou-1
+    type: kou
+    text: 債務者の支払の停止
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-398-3-p2-kou-2
+    type: kou
+    text: 債務者についての破産手続開始、再生手続開始、更生手続開始又は特別清算開始の申立て
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-398-3-p2-kou-3
+    type: kou
+    text: 抵当不動産に対する競売の申立て又は滞納処分による差押え
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -47,3 +70,9 @@ parent_section:
 ### 第三百九十八条の三第二項
 
 債務者との取引によらないで取得する手形上若しくは小切手上の請求権又は電子記録債権を根抵当権の担保すべき債権とした場合において、次に掲げる事由があったときは、その前に取得したものについてのみ、その根抵当権を行使することができる。ただし、その後に取得したものであっても、その事由を知らないで取得したものについては、これを行使することを妨げない。
+
+一　債務者の支払の停止
+
+二　債務者についての破産手続開始、再生手続開始、更生手続開始又は特別清算開始の申立て
+
+三　抵当不動産に対する競売の申立て又は滞納処分による差押え

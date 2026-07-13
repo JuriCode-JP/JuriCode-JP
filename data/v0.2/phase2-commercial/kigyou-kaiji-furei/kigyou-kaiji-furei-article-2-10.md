@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-2-10-p1
+    type: simple
+    text: この府令の規定により作成することとされている書類に記載する氏名については、旧氏（住民基本台帳法施行令（昭和四十二年政令第二百九十二号）第三十条の十三に規定する旧氏をいう。）及び名を括弧書で併せて記載することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百三十二条
 
-<!-- segment: simple id: keihou-art-132-p1 -->
 第百三十条の罪の未遂は、罰する。

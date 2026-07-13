@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百条
 
-<!-- segment: simple id: chihou-zei-hou-art-800-p1 -->
 第七百八十八条の規定に違反した者は、二年以下の拘禁刑又は百万円以下の罰金に処する。

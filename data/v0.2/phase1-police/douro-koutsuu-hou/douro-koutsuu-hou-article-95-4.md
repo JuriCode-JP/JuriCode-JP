@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-95-4-p1
+    type: simple
+    text: 公安委員会は、免許証及び免許情報記録個人番号カードを有する者について、第九十二条第二項に規定する異なる種類の免許を与えるときは、同条第一項の規定による当該異なる種類の免許に係る免許証の交付を行うとともに、前条の規定により読み替えて適用する第九十二条第二項の規定による免許情報記録の書換えを行うものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-95-4-p2
+    type: simple
+    text: 公安委員会は、免許証及び免許情報記録個人番号カードを有する者について、第九十一条又は第九十一条の二第二項の規定により、免許（仮免許を除く。以下この項及び次条第一項において同じ。）に条件を付し、又は免許に付されている条件を変更したときは、第九十三条第二項の規定による当該条件に係る事項の記載を行うとともに、前条の規定により読み替えて適用する第九十三条第二項の規定による当該条件に係る事項の記録を行うものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 次条
 cases: []
 amendments: []
 tags:

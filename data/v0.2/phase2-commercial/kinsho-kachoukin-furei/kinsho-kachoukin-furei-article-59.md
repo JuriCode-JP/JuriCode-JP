@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五十九条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-59-p1 -->
 立入検査の申出は、立入検査の目的及び場所を表示してしなければならない。

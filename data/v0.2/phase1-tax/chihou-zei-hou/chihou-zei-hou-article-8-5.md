@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-8-5-p1
+    type: simple
+    text: 前三条に定めるもののほか、市町村の廃置分合若しくは境界変更があつた場合又は都道府県の境界にわたつて市町村の設置若しくは境界の変更があつたため都道府県の境界に変更があつた場合における課税権の承継について必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前三条
 cases: []
 amendments: []
 tags:

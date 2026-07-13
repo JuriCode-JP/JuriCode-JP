@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五十二条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-52-p1 -->
 採用候補者名簿は、受験者、任命権者その他関係者の請求に応じて、常に閲覧に供されなければならない。

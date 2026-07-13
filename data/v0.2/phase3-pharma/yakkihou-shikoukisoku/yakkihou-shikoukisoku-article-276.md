@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百七十六条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-276-p1 -->
 法第八十条の三第三項の規定により厚生労働大臣に対して行う調査の結果の通知は、様式第百十六による通知書によつて行うものとする。

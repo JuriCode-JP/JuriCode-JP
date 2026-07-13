@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-3-2-p1
+    type: simple
+    text: 公安委員会は、免許を受けた者又は国際運転免許証等を所持する者が軽微違反行為をし、当該行為が第百二条の二の政令で定める基準に該当することとなつたときは、内閣府令で定めるところにより、速やかに、その者に対し、第百八条の二第一項第十三号に掲げる講習を行う旨を書面で通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

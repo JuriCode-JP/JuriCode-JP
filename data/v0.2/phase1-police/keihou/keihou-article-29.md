@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 次に掲げる場合においては、仮釈放の処分を取り消すことができる。
     modality: koka_torikeshi
+  - id: keihou-art-29-p1-kou-1
+    type: kou
+    text: 仮釈放中に更に罪を犯し、罰金以上の刑に処せられたとき。
+    modality: unspecified
+    item_number: 1
+  - id: keihou-art-29-p1-kou-2
+    type: kou
+    text: 仮釈放前に犯した他の罪について罰金以上の刑に処せられたとき。
+    modality: unspecified
+    item_number: 2
+  - id: keihou-art-29-p1-kou-3
+    type: kou
+    text: 仮釈放前に他の罪について罰金以上の刑に処せられた者に対し、その刑の執行をすべきとき。
+    modality: unspecified
+    item_number: 3
+  - id: keihou-art-29-p1-kou-4
+    type: kou
+    text: 仮釈放中に遵守すべき事項を遵守しなかったとき。
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -59,15 +79,20 @@ parent_section:
 
 ### 第二十九条第一項
 
-<!-- segment: hashira id: keihou-art-29-p1-hashira -->
 次に掲げる場合においては、仮釈放の処分を取り消すことができる。
+
+一　仮釈放中に更に罪を犯し、罰金以上の刑に処せられたとき。
+
+二　仮釈放前に犯した他の罪について罰金以上の刑に処せられたとき。
+
+三　仮釈放前に他の罪について罰金以上の刑に処せられた者に対し、その刑の執行をすべきとき。
+
+四　仮釈放中に遵守すべき事項を遵守しなかったとき。
 
 ### 第二十九条第二項
 
-<!-- segment: simple id: keihou-art-29-p2 -->
 刑の一部の執行猶予の言渡しを受け、その刑について仮釈放の処分を受けた場合において、当該仮釈放中に当該執行猶予の言渡しを取り消されたときは、その処分は、効力を失う。
 
 ### 第二十九条第三項
 
-<!-- segment: simple id: keihou-art-29-p3 -->
 仮釈放の処分を取り消したとき、又は前項の規定により仮釈放の処分が効力を失ったときは、釈放中の日数は、刑期に算入しない。

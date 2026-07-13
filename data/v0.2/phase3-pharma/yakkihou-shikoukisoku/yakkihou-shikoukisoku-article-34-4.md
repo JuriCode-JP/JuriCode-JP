@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-34-4-p1
+    type: simple
+    text: 令第十六条の三第一項の登録証は、様式第十七の三によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

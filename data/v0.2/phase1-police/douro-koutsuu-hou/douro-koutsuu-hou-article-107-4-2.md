@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-4-2-p1
+    type: junyou
+    text: 第百二条の二の規定は、国際運転免許証等を所持する者が軽微違反行為をし、当該行為が同条の政令で定める基準に該当することとなつた場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

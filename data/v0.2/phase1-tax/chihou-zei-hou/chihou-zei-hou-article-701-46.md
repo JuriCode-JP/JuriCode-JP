@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-46-p1
+    type: simple
+    text: 事業所等において法人が行う事業に対して課する事業所税の納税義務者は、各事業年度終了の日から二月以内（外国法人（この法律の施行地に本店又は主たる事業所等を有しない法人をいう。）が第七百一条の三十七第一項に規定する納税管理人を定めないでこの法律の施行地に事業所等を有しないこととなる場合（同条第二項の認定を受けた場合を除く。）には、当該事業年度終了の日から二月を経過した日の前日と当該事業所等を有しないこととなる日とのいずれか早い日まで）に、当該各事業年度に係る事業所税の課税標準額及び税額その他必要な事項を記載した総務省令で定める様式による申告書を当該事業所等所在の指定都市等の長に提出するとともに、その申告した税額を当該指定都市等に納付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-46-p2
+    type: simple
+    text: 前項の課税標準額は、資産割にあつては、当該事業年度中において当該法人が当該指定都市等の区域内に有し、又は有していた各事業所等に係る資産割の課税標準となるべき事業所床面積の合計面積とし、従業者割にあつては、当該各事業所等に係る従業者割の課税標準となるべき従業者給与総額の合計額とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-46-p3
+    type: simple
+    text: 指定都市等の長は、事業所等において事業を行う法人で各事業年度について納付すべき事業所税額がないものに、当該指定都市等の条例の定めるところにより、第一項の規定に準じて申告書を提出させることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

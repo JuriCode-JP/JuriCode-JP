@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 反則者は、当該反則行為についてその者が第百二十七条第一項又は第二項後段の規定により当該反則行為が属する種別に係る反則金の納付の通告を受け、かつ、第百二十八条第一項に規定する期間が経過した後でなければ、当該反則行為に係る事件について、公訴を提起されず、又は家庭裁判所の審判に付されない。ただし、次の各号に掲げる場合においては、この限りでない。
     modality: jogai
+  - id: douro-koutsuu-hou-art-130-p1-kou-1
+    type: kou
+    text: 第百二十六条第一項各号のいずれかに掲げる場合に該当するため、同項又は同条第四項の規定による告知をしなかつたとき。
+    modality: unspecified
+    item_number: 1
+  - id: douro-koutsuu-hou-art-130-p1-kou-2
+    type: kou
+    text: その者が書面の受領を拒んだため、又はその者の居所が明らかでないため、第百二十六条第一項若しくは第四項の規定による告知又は第百二十七条第一項若しくは第二項後段の規定による通告をすることができなかつたとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第百三十条
 
-<!-- segment: hashira id: douro-koutsuu-hou-art-130-p1-hashira -->
 反則者は、当該反則行為についてその者が第百二十七条第一項又は第二項後段の規定により当該反則行為が属する種別に係る反則金の納付の通告を受け、かつ、第百二十八条第一項に規定する期間が経過した後でなければ、当該反則行為に係る事件について、公訴を提起されず、又は家庭裁判所の審判に付されない。ただし、次の各号に掲げる場合においては、この限りでない。
+
+一　第百二十六条第一項各号のいずれかに掲げる場合に該当するため、同項又は同条第四項の規定による告知をしなかつたとき。
+
+二　その者が書面の受領を拒んだため、又はその者の居所が明らかでないため、第百二十六条第一項若しくは第四項の規定による告知又は第百二十七条第一項若しくは第二項後段の規定による通告をすることができなかつたとき。

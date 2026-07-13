@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-10-8-p1
+    type: simple
+    text: 令第二条の十の規定により、認定薬局開設者が、地域連携薬局等と称することをやめたことにより認定証を返納するときは、地域連携薬局等と称することをやめた日から三十日以内に、様式第八による届書を当該認定証を交付した都道府県知事に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-8-2-p1
+    type: simple
+    text: 人事委員会又は公平委員会は、人事委員会又は公平委員会の行政事件訴訟法（昭和三十七年法律第百三十九号）第三条第二項に規定する処分又は同条第三項に規定する裁決に係る同法第十一条第一項（同法第三十八条第一項において準用する場合を含む。）の規定による地方公共団体を被告とする訴訟について、当該地方公共団体を代表する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

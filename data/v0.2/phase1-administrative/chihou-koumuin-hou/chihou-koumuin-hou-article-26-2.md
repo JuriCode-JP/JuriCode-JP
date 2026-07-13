@@ -16,22 +16,44 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-2-p1
+    type: simple
+    text: 任命権者は、職員（臨時的に任用される職員その他の法律により任期を定めて任用される職員及び非常勤職員を除く。以下この条及び次条において同じ。）が申請した場合において、公務の運営に支障がなく、かつ、当該職員の公務に関する能力の向上に資すると認めるときは、条例で定めるところにより、当該職員が、大学その他の条例で定める教育施設における修学のため、当該修学に必要と認められる期間として条例で定める期間中、一週間の勤務時間の一部について勤務しないこと（以下この条において「修学部分休業」という。）を承認することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-2-p2
+    type: simple
+    text: 前項の規定による承認は、修学部分休業をしている職員が休職又は停職の処分を受けた場合には、その効力を失う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-2-p3
+    type: simple
+    text: 職員が第一項の規定による承認を受けて勤務しない場合には、条例で定めるところにより、減額して給与を支給するものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-2-p4
+    type: simple
+    text: 前三項に定めるもののほか、修学部分休業に関し必要な事項は、条例で定める。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

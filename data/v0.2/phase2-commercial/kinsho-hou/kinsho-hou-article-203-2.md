@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-203-2-p1
+    type: simple
+    text: 前条第一項の罪は、日本国外において同項の罪を犯した者にも適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-203-2-p2
+    type: simple
+    text: 前条第三項の罪は、刑法第二条の例に従う。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

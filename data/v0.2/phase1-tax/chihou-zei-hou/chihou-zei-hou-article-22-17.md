@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-17-p1
+    type: simple
+    text: 当該徴税吏員は、領置物件、差押物件又は記録命令付差押物件について留置の必要がなくなつたときは、その返還を受けるべき者にこれを還付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-17-p2
+    type: simple
+    text: 地方団体の長は、前項の領置物件、差押物件又は記録命令付差押物件について、その返還を受けるべき者の住所若しくは居所がわからないため、又はその他の事由によりこれを還付することができない場合には、その旨を公告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-17-p3
+    type: simple
+    text: 前項の公告に係る領置物件、差押物件又は記録命令付差押物件について公告の日から六月を経過しても還付の請求がないときは、これらの物件は、これらの物件を領置、差押え又は記録命令付差押えをした当該徴税吏員の所属する地方団体に帰属する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-16-p1
+    type: simple
+    text: 法第二十三条の二の十の二第十項の規定により読み替えて準用する法第二十三条の二の七第六項の規定による法第二十三条の二の十の二第一項の確認の結果の通知は、様式第六十三の十九の十による通知書によつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-16-p2
+    type: simple
+    text: 法第二十三条の二の十の二第十項の規定により読み替えて準用する法第二十三条の二の七第六項の規定による法第二十三条の二の十の二第三項の確認の結果の通知は、様式第六十三の十九の十一による通知書によつて行うものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-16-p3
+    type: simple
+    text: 法第二十三条の二の十の二第十二項の規定により機構が厚生労働大臣に対して行う届出の状況の通知は、様式第六十三の十九の十二による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

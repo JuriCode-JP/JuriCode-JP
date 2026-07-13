@@ -37,5 +37,4 @@ parent_section:
 
 ### 第九十八条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-98-p1 -->
 第七十条の四第一項の規定による裁判に違反したものは、三十万円以下の過料に処する。

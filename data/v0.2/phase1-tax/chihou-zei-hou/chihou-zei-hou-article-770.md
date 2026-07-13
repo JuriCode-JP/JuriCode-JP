@@ -57,15 +57,12 @@ parent_section:
 
 ### 第七百七十条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-770-p1 -->
 代表者会議に議長を置き、委員の互選によりこれを定める。
 
 ### 第七百七十条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-770-p2 -->
 議長は、会務を総理し、代表者会議を代表する。
 
 ### 第七百七十条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-770-p3 -->
 議長に事故があるとき、又は議長が欠けたときは、議長のあらかじめ指定する委員がその職務を行う。

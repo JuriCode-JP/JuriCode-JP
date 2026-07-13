@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する場合には、当該違反行為をした者は、一年以下の拘禁刑若しくは三百万円以下の罰金に処し、又はこれを併科する。
     modality: unspecified
+  - id: hanzai-shueki-iten-boushi-hou-art-26-p1-kou-1
+    type: kou
+    text: 第十五条若しくは第十九条第二項の規定による報告若しくは資料の提出をせず、又は虚偽の報告若しくは資料の提出をしたとき。
+    modality: unspecified
+    item_number: 1
+  - id: hanzai-shueki-iten-boushi-hou-art-26-p1-kou-2
+    type: kou
+    text: 第十六条第一項若しくは第十九条第三項の規定による当該職員の質問に対して答弁をせず、若しくは虚偽の答弁をし、又はこれらの規定による検査を拒み、妨げ、若しくは忌避したとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第二十六条
 
-<!-- segment: hashira id: hanzai-shueki-iten-boushi-hou-art-26-p1-hashira -->
 次の各号のいずれかに該当する場合には、当該違反行為をした者は、一年以下の拘禁刑若しくは三百万円以下の罰金に処し、又はこれを併科する。
+
+一　第十五条若しくは第十九条第二項の規定による報告若しくは資料の提出をせず、又は虚偽の報告若しくは資料の提出をしたとき。
+
+二　第十六条第一項若しくは第十九条第三項の規定による当該職員の質問に対して答弁をせず、若しくは虚偽の答弁をし、又はこれらの規定による検査を拒み、妨げ、若しくは忌避したとき。

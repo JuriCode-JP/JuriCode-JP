@@ -23,6 +23,36 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: shotoku-zei-hou-shikkourei-art-316-p1-kou-1
+    type: kou
+    text: 申請者の氏名及び住所（国内に住所がないときは、居所）
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-316-p1-kou-2
+    type: kou
+    text: 当該支払者の氏名又は名称
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-316-p1-kou-3
+    type: kou
+    text: 前条に規定する給与の最終支払月中に当該支払者から支払を受ける給与等の金額の総額から、当該給与等につき法第百八十三条第一項（源泉徴収義務）及び第百九十条（年末調整）の規定により徴収された又は徴収されるべき所得税の額を控除した残額に相当する金額
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikkourei-art-316-p1-kou-4
+    type: kou
+    text: 前条に定める金額
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikkourei-art-316-p1-kou-5
+    type: kou
+    text: 法第百九十条に規定する不足額及びそのうち法第百九十二条第二項の承認を受けようとする金額
+    modality: unspecified
+    item_number: 5
+  - id: shotoku-zei-hou-shikkourei-art-316-p1-kou-6
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 - number: 2
   has_proviso: false
   has_items: false
@@ -64,15 +94,24 @@ parent_section:
 
 ### 第三百十六条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-316-p1-hashira -->
 法第百九十二条第二項（不足額の徴収）の税務署長の承認を受けようとする者は、次に掲げる事項を記載した申請書を、同項に規定する給与等の支払者を経由して、その年最後に給与等の支払を受ける日の前日までに、当該税務署長に提出しなければならない。この場合において、当該申請書を受理した当該給与等の支払者は、当該申請書に、当該給与等の支払者の個人番号又は法人番号を付記するものとする。
+
+一　申請者の氏名及び住所（国内に住所がないときは、居所）
+
+二　当該支払者の氏名又は名称
+
+三　前条に規定する給与の最終支払月中に当該支払者から支払を受ける給与等の金額の総額から、当該給与等につき法第百八十三条第一項（源泉徴収義務）及び第百九十条（年末調整）の規定により徴収された又は徴収されるべき所得税の額を控除した残額に相当する金額
+
+四　前条に定める金額
+
+五　法第百九十条に規定する不足額及びそのうち法第百九十二条第二項の承認を受けようとする金額
+
+六　その他参考となるべき事項
 
 ### 第三百十六条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-316-p2 -->
 前項の申請書の提出があつた場合において、同項第三号に掲げる金額が同項第四号に掲げる金額の十分の七に相当する金額に満たないときは、税務署長は、法第百九十二条第二項の承認をしなければならない。
 
 ### 第三百十六条第三項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-316-p3 -->
 税務署長は、法第百九十二条第二項の承認をする場合には、第一項の給与等の支払者を経由して、申請者に対し、書面によりその旨を通知する。

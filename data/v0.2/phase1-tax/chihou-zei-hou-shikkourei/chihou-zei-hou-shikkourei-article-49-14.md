@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十九条の十四
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-49-14-p1 -->
 削除

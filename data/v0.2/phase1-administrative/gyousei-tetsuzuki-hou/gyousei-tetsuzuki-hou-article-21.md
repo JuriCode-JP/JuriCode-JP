@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二十一条第一項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-21-p1 -->
 当事者又は参加人は、聴聞の期日への出頭に代えて、主宰者に対し、聴聞の期日までに陳述書及び証拠書類等を提出することができる。
 
 ### 第二十一条第二項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-21-p2 -->
 主宰者は、聴聞の期日に出頭した者に対し、その求めに応じて、前項の陳述書及び証拠書類等を示すことができる。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-38-p1
+    type: junyou
+    text: 第八十八条の九、第八十八条の十二から第八十八条の十五まで及び第百条の二十三の規定は、自主規制法人の清算人がその職務を行う場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

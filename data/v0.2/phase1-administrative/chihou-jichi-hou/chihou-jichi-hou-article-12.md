@@ -48,8 +48,6 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-12-p1 -->
-<!-- segment: simple id: chihou-jichi-hou-art-12-p2 -->
 日本国民たる普通地方公共団体の住民は、この法律の定めるところにより、その属する普通地方公共団体の条例（地方税の賦課徴収並びに分担金、使用料及び手数料の徴収に関するものを除く。）の制定又は改廃を請求する権利を有する。
 
 ### 第十二条第二項

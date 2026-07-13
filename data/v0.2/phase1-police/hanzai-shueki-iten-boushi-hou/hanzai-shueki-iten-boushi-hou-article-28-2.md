@@ -16,22 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: hanzai-shueki-iten-boushi-hou-art-28-2-p1
+    type: simple
+    text: 他人になりすまして第二条第二項第三十号の二に掲げる特定事業者（以下この項において「高額電子移転可能型前払式支払手段発行者」という。）との間における高額電子移転可能型前払式支払手段利用契約（高額電子移転可能型前払式支払手段発行者が顧客に資金決済に関する法律第三条第八項に規定する高額電子移転可能型前払式支払手段を利用させることを内容とする契約をいう。以下この項において同じ。）に係る役務の提供を受けること又はこれを第三者にさせることを目的として、高額電子移転可能型前払式支払手段発行者において高額電子移転可能型前払式支払手段利用契約に係る役務の提供を受ける者を他の者と区別して識別することができるように付される符号その他の当該役務の提供を受けるために必要な情報（以下この条において「高額電子移転可能型前払式支払手段利用情報」という。）の提供を受けた者は、一年以下の拘禁刑若しくは百万円以下の罰金に処し、又はこれを併科する。通常の商取引として行われるものであることその他の正当な理由がないのに、有償で、高額電子移転可能型前払式支払手段利用情報の提供を受けた者も、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: hanzai-shueki-iten-boushi-hou-art-28-2-p2
+    type: simple
+    text: 相手方に前項前段の目的があることの情を知って、その者に高額電子移転可能型前払式支払手段利用情報を提供した者も、同項と同様とする。通常の商取引として行われるものであることその他の正当な理由がないのに、有償で、高額電子移転可能型前払式支払手段利用情報を提供した者も、同様とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: hanzai-shueki-iten-boushi-hou-art-28-2-p3
+    type: simple
+    text: 業として前二項の罪に当たる行為をした者は、三年以下の拘禁刑若しくは五百万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: hanzai-shueki-iten-boushi-hou-art-28-2-p4
+    type: simple
+    text: 第一項又は第二項の罪に当たる行為をするよう、人を勧誘し、又は広告その他これに類似する方法により人を誘引した者も、第一項と同様とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -14,24 +14,105 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p1-hashira
+    type: hashira
+    text: 法第七十三条の四第一項第二十三号に規定する成田国際空港株式会社が成田国際空港株式会社法（平成十五年法律第百二十四号）第五条第一項第一号、第二号又は第四号に規定する事業の用に供する不動産で政令で定めるものは、次に掲げる不動産とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p1-kou-1
+    type: kou
+    text: 滑走路、着陸帯、誘導路又はエプロンの用に供する土地及びこれらの土地によつて囲まれる土地
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p1-kou-2
+    type: kou
+    text: 成田国際空港株式会社法第五条第一項第二号に規定する航空保安施設の用に供する不動産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p1-kou-3
+    type: kou
+    text: 緑地帯、公園その他の緩衝地帯の用に供する土地
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p1-kou-4
+    type: kou
+    text: 航空機の騒音によりその機能が害されるおそれの少ない施設の用に供する土地で国又は地方公共団体が公用又は公共の用に供するもの
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p1-kou-5
+    type: kou
+    text: 公共用飛行場周辺における航空機騒音による障害の防止等に関する法律（昭和四十二年法律第百十号）第八条の二に規定する第一種区域内から住居を移転する者のための住宅及びその用に供する土地
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p2-hashira
+    type: hashira
+    text: 法第七十三条の四第一項第二十三号に規定する新関西国際空港株式会社が関西国際空港及び大阪国際空港の一体的かつ効率的な設置及び管理に関する法律（平成二十三年法律第五十四号。以下この項及び次項並びに第五十二条の十の七において「関空等統合法」という。）第九条第一項第一号、第二号又は第四号に規定する事業の用に供する不動産で政令で定めるものは、次に掲げる不動産とする。
+    modality: gimu
+    references:
+    - 次項
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p2-kou-1
+    type: kou
+    text: 滑走路、着陸帯、誘導路又はエプロンの用に供する土地及びこれらの土地によつて囲まれる土地
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p2-kou-2
+    type: kou
+    text: 排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する不動産（関空等統合法附則第十九条の規定による廃止前の関西国際空港株式会社法（昭和五十九年法律第五十三号）第七条第一項に規定する特定事業が行われる区域として同項の規定により告示された区域及び大阪国際空港の区域内にあるものに限る。）
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p2-kou-3
+    type: kou
+    text: 関空等統合法第九条第一項第二号に規定する両空港航空保安施設（第五十二条の十の七第三号において「両空港航空保安施設」という。）の用に供する不動産
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p2-kou-4
+    type: kou
+    text: 公共用飛行場周辺における航空機騒音による障害の防止等に関する法律第九条第二項の規定により買い入れる土地
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p3
+    type: simple
+    text: 法第七十三条の四第一項第二十三号に規定する関空等統合法第十二条第一項第一号に規定する指定会社が同項第二号に掲げる事業の用に供する不動産で政令で定めるものは、当該事業の用に供する不動産のうち前項第二号に掲げるものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p4-hashira
+    type: hashira
+    text: 法第七十三条の四第一項第二十三号に規定する中部国際空港の設置及び管理に関する法律（平成十年法律第三十六号）第四条第二項に規定する指定会社が同法第六条第一項第一号又は第二号に規定する事業の用に供する不動産で政令で定めるものは、次に掲げる不動産とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p4-kou-1
+    type: kou
+    text: 滑走路、着陸帯、誘導路又はエプロンの用に供する土地及びこれらの土地によつて囲まれる土地
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p4-kou-2
+    type: kou
+    text: 排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する不動産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-37-5-2-p4-kou-3
+    type: kou
+    text: 中部国際空港の設置及び管理に関する法律第六条第一項第二号に規定する航空保安施設（第五十二条の十の十第三号において「航空保安施設」という。）の用に供する不動産
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -52,9 +133,27 @@ parent_section:
 
 法第七十三条の四第一項第二十三号に規定する成田国際空港株式会社が成田国際空港株式会社法（平成十五年法律第百二十四号）第五条第一項第一号、第二号又は第四号に規定する事業の用に供する不動産で政令で定めるものは、次に掲げる不動産とする。
 
+一　滑走路、着陸帯、誘導路又はエプロンの用に供する土地及びこれらの土地によつて囲まれる土地
+
+二　成田国際空港株式会社法第五条第一項第二号に規定する航空保安施設の用に供する不動産
+
+三　緑地帯、公園その他の緩衝地帯の用に供する土地
+
+四　航空機の騒音によりその機能が害されるおそれの少ない施設の用に供する土地で国又は地方公共団体が公用又は公共の用に供するもの
+
+五　公共用飛行場周辺における航空機騒音による障害の防止等に関する法律（昭和四十二年法律第百十号）第八条の二に規定する第一種区域内から住居を移転する者のための住宅及びその用に供する土地
+
 ### 第三十七条の五の二第二項
 
 法第七十三条の四第一項第二十三号に規定する新関西国際空港株式会社が関西国際空港及び大阪国際空港の一体的かつ効率的な設置及び管理に関する法律（平成二十三年法律第五十四号。以下この項及び次項並びに第五十二条の十の七において「関空等統合法」という。）第九条第一項第一号、第二号又は第四号に規定する事業の用に供する不動産で政令で定めるものは、次に掲げる不動産とする。
+
+一　滑走路、着陸帯、誘導路又はエプロンの用に供する土地及びこれらの土地によつて囲まれる土地
+
+二　排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する不動産（関空等統合法附則第十九条の規定による廃止前の関西国際空港株式会社法（昭和五十九年法律第五十三号）第七条第一項に規定する特定事業が行われる区域として同項の規定により告示された区域及び大阪国際空港の区域内にあるものに限る。）
+
+三　関空等統合法第九条第一項第二号に規定する両空港航空保安施設（第五十二条の十の七第三号において「両空港航空保安施設」という。）の用に供する不動産
+
+四　公共用飛行場周辺における航空機騒音による障害の防止等に関する法律第九条第二項の規定により買い入れる土地
 
 ### 第三十七条の五の二第三項
 
@@ -63,3 +162,9 @@ parent_section:
 ### 第三十七条の五の二第四項
 
 法第七十三条の四第一項第二十三号に規定する中部国際空港の設置及び管理に関する法律（平成十年法律第三十六号）第四条第二項に規定する指定会社が同法第六条第一項第一号又は第二号に規定する事業の用に供する不動産で政令で定めるものは、次に掲げる不動産とする。
+
+一　滑走路、着陸帯、誘導路又はエプロンの用に供する土地及びこれらの土地によつて囲まれる土地
+
+二　排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する不動産
+
+三　中部国際空港の設置及び管理に関する法律第六条第一項第二号に規定する航空保安施設（第五十二条の十の十第三号において「航空保安施設」という。）の用に供する不動産

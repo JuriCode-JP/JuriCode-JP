@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-277-2-p1
+    type: simple
+    text: 法第六十六条の十五において準用する法第三十九条第四項に規定する内閣府令で定める投資信託は、第百十九条の二に定める投資信託とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

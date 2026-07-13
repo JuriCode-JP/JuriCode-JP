@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-16-p1
+    type: simple
+    text: 警察署長は、分析センターの求めに応じ、分析センターが事故例調査を行うために必要な限度において、分析センターに対し、交通事故の発生に関する情報その他の必要な情報又は資料で国家公安委員会規則で定めるものを提供することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-16-p2
+    type: simple
+    text: 警察庁及び都道府県警察は、分析センターの求めに応じ、分析センターが第百八条の十四第三号に掲げる事業を行うために必要な情報又は資料で国家公安委員会規則で定めるものを分析センターに対し提供することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

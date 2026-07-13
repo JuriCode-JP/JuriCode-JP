@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-706-2-p1-honbun
+    type: honbun
+    text: 市町村は、国民健康保険税の所得割額の算定の基礎に用いる第七百三条の四第六項に規定する控除後の総所得金額及び山林所得金額の合計額が確定しないため当該年度分の国民健康保険税額を確定することができない場合においては、その確定する日までの間において到来する納期において普通徴収の方法によつて徴収すべき国民健康保険税に限り、国民健康保険税の納税義務者について、その者の前年度の国民健康保険税額を当該年度の納期の数で除して得た額又はその者の前年度の国民健康保険税の最後の納期の税額に相当する額の範囲内において、それぞれの納期に係る国民健康保険税を徴収することができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-706-2-p1-tadashi
+    type: tadashi
+    text: ただし、当該徴収することができる額の総額は、前年度の国民健康保険税額の二分の一に相当する額を超えることができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-706-2-p2
+    type: simple
+    text: 市町村は、前項の規定によつて国民健康保険税を賦課した場合において、当該国民健康保険税額が当該年度分の国民健康保険税額に満たないこととなるときは、当該年度分の国民健康保険税額が確定した日以後の納期においてその不足税額を徴収し、既に徴収した国民健康保険税額が当該年度分の国民健康保険税額を超えることとなるときは、第十七条又は第十七条の二の規定の例によつて、その過納額を還付し、又は当該納税義務者の未納に係る地方団体の徴収金に充当しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

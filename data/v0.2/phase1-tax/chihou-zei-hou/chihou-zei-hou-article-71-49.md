@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-49-p1
+    type: simple
+    text: 株式等譲渡所得割の税率は、百分の五とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

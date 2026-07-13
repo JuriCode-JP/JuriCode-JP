@@ -34,5 +34,4 @@ tags:
 
 ### 第八条の八
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-8-p1 -->
 法第七十四条の十第三項の指定を受けようとする卸売販売業者等は、第十六号の六様式による申請書を総務大臣に提出しなければならない。

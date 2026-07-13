@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-343-2-p1
+    type: simple
+    text: 検察官は、拘禁刑以上の刑に処する判決の宣告により保釈又は勾留の執行停止がその効力を失つた場合において、被告人が刑事施設に収容されていないときは、被告人に対し、指定する日時及び場所に出頭することを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

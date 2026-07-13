@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-6-p1
+    type: simple
+    text: 医師は、その診察を受けた者が第百三条第一項第一号、第一号の二又は第三号のいずれかに該当すると認めた場合において、その者が免許を受けた者又は第百七条の二の国際運転免許証若しくは外国運転免許証を所持する者（本邦に上陸（同条に規定する上陸をいう。）をした日から起算して滞在期間が一年を超えている者を除く。）であることを知つたときは、当該診察の結果を公安委員会に届け出ることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-6-p2
+    type: simple
+    text: 前項に規定する場合において、公安委員会は、医師からその診察を受けた者が免許を受けた者であるかどうかについての確認を求められたときは、これに回答するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-6-p3
+    type: simple
+    text: 刑法の秘密漏示罪の規定その他の守秘義務に関する法律の規定は、第一項の規定による届出をすることを妨げるものと解釈してはならない。
+    modality: gimu_negative
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-6-p4
+    type: simple
+    text: 公安委員会は、その管轄する都道府県の区域外に居住する者について第一項の規定による届出を受けたときは、当該届出の内容を、その者の居住地を管轄する公安委員会に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-82-p1
+    type: simple
+    text: 取引情報蓄積機関は、取引情報蓄積業務の全部若しくは一部の休止（次項に規定する理由によるものを除く。）をし、又は取引情報蓄積業務の廃止をしようとするときは、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-82-p2
+    type: simple
+    text: 取引情報蓄積機関が、天災その他のやむを得ない理由により取引情報蓄積業務の全部又は一部を休止した場合には、直ちにその旨を、理由を付して内閣総理大臣に届け出るとともに、当該取引情報蓄積機関と取引情報収集契約を締結している者に通知しなければならない。取引情報蓄積機関がその休止した当該取引情報蓄積業務の全部又は一部を再開するときも、同様とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

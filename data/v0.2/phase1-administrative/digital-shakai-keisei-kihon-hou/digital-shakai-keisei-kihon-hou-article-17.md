@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十七条
 
-<!-- segment: simple id: digital-shakai-keisei-kihon-hou-art-17-p1 -->
 政府は、デジタル社会の形成に関する施策を実施するため必要な法制上又は財政上の措置その他の措置を講じなければならない。

@@ -13,10 +13,19 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-390-2-p1
+    type: tokusoku
+    text: 前条の規定にかかわらず、控訴裁判所は、拘禁刑以上の刑に当たる罪で起訴されている被告人であつて、保釈又は勾留の執行停止をされているものについては、判決を宣告する公判期日への出頭を命じなければならない。ただし、重い疾病又は傷害その他やむを得ない事由により被告人が当該公判期日に出頭することが困難であると認めるときは、この限りでない。
+    modality: jogai
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-144-3-2-p1
+    type: simple
+    text: 国税通則法第十一条（災害等による期限の延長）の規定による申告に関する期限の延長により、外国法人である普通法人の中間申告書の提出期限と当該中間申告書に係る事業年度の第百四十四条の六第一項又は第二項（確定申告）の規定による申告書の提出期限とが同一の日となる場合は、前条第一項本文又は第二項本文の規定にかかわらず、当該中間申告書を提出することを要しない。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

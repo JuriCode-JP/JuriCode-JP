@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-100-p1
+    type: simple
+    text: 貨物割の賦課徴収は、第七十二条の百七の規定を除くほか、前章第二節から第十四節までの規定にかかわらず、国が、消費税の賦課徴収の例により、消費税の賦課徴収と併せて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-100-p2
+    type: simple
+    text: 貨物割に係る延滞税及び加算税（その賦課徴収について消費税の例によることとされる貨物割について納付される延滞税及び課される加算税をいう。第七十二条の百六において同じ。）は、貨物割として、本款の規定を適用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

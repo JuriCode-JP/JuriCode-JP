@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十一条
 
-<!-- segment: simple id: keihou-art-141-p1 -->
 この章の罪の未遂は、罰する。

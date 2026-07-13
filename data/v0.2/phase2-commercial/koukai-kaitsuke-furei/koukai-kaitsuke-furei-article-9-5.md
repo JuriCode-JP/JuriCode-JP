@@ -16,27 +16,83 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-9-5-p1
+    type: simple
+    text: 法第二十七条の七第一項及び第二項（法第二十七条の八第十二項において準用する場合を含む。）、法第二十七条の八第八項並びに法第二十七条の十第五項及び第六項の規定による公告（以下この条において「公開買付開始公告の訂正公告等」という。）は、これらの公告に係る公開買付開始公告又は期間延長請求公告（法第二十七条の十第五項に規定する期間延長請求公告をいう。）が電子公告による公告をする場合には電子公告により、日刊新聞紙に掲載する方法により公告をする場合には当該公告を掲載した日刊新聞紙により行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-9-5-p2-hashira
+    type: hashira
+    text: 公開買付開始公告の訂正公告等を電子公告により行う者は、当該公告をした後、遅滞なく、次に掲げる事項を、全国において時事に関する事項を掲載する日刊新聞紙に掲載して行わなければならない。
+    modality: gimu
+  - id: koukai-kaitsuke-furei-art-9-5-p2-kou-1
+    type: kou
+    text: 公告をした日
+    modality: unspecified
+    item_number: 1
+  - id: koukai-kaitsuke-furei-art-9-5-p2-kou-2
+    type: kou
+    text: 電子公告アドレス
+    modality: unspecified
+    item_number: 2
+  - id: koukai-kaitsuke-furei-art-9-5-p2-kou-3
+    type: kou
+    text: その他必要な事項
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-9-5-p3
+    type: simple
+    text: 公開買付開始公告の訂正公告等を行う者は、電気通信回線の故障その他の事由により当該電子公告による公告をすることができない場合には、第九条の三第一項各号に掲げる事項を記載した書面を関東財務局長に提出しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-9-5-p4
+    type: simple
+    text: 公開買付開始公告の訂正公告等を電子公告により行う者は、公開買付期間の末日までの間、継続して電子公告をしなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-9-5-p5
+    type: tokusoku
+    text: 前項の規定にかかわらず、同項の規定により電子公告による公告をしなければならない期間（第二号において「公告期間」という。）中公告の中断（不特定多数の者が提供を受けることができる状態に置かれた情報がその状態に置かれないこととなったこと又はその情報がその状態に置かれた後改変されたことをいう。以下この項において同じ。）が生じた場合において、次のいずれにも該当するときは、その公告の中断は、当該公告の効力に影響を及ぼさない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 同項
+    - 前項
+  - id: koukai-kaitsuke-furei-art-9-5-p5-kou-1
+    type: kou
+    text: 公告の中断が生ずることにつき電子公告による公告をする者が善意でかつ重大な過失がないこと又は電子公告による公告をする者に正当な理由があること。
+    modality: unspecified
+    item_number: 1
+  - id: koukai-kaitsuke-furei-art-9-5-p5-kou-2
+    type: kou
+    text: 公告の中断が生じた時間の合計が公告期間の十分の一を超えないこと。
+    modality: unspecified
+    item_number: 2
+  - id: koukai-kaitsuke-furei-art-9-5-p5-kou-3
+    type: kou
+    text: 電子公告による公告をする者が公告の中断が生じたことを知った後速やかにその旨、公告の中断の期間並びに公告の中断の原因を公告したこと。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -56,6 +112,12 @@ tags:
 
 公開買付開始公告の訂正公告等を電子公告により行う者は、当該公告をした後、遅滞なく、次に掲げる事項を、全国において時事に関する事項を掲載する日刊新聞紙に掲載して行わなければならない。
 
+一　公告をした日
+
+二　電子公告アドレス
+
+三　その他必要な事項
+
 ### 第九条の五第三項
 
 公開買付開始公告の訂正公告等を行う者は、電気通信回線の故障その他の事由により当該電子公告による公告をすることができない場合には、第九条の三第一項各号に掲げる事項を記載した書面を関東財務局長に提出しなければならない。
@@ -67,3 +129,9 @@ tags:
 ### 第九条の五第五項
 
 前項の規定にかかわらず、同項の規定により電子公告による公告をしなければならない期間（第二号において「公告期間」という。）中公告の中断（不特定多数の者が提供を受けることができる状態に置かれた情報がその状態に置かれないこととなったこと又はその情報がその状態に置かれた後改変されたことをいう。以下この項において同じ。）が生じた場合において、次のいずれにも該当するときは、その公告の中断は、当該公告の効力に影響を及ぼさない。
+
+一　公告の中断が生ずることにつき電子公告による公告をする者が善意でかつ重大な過失がないこと又は電子公告による公告をする者に正当な理由があること。
+
+二　公告の中断が生じた時間の合計が公告期間の十分の一を超えないこと。
+
+三　電子公告による公告をする者が公告の中断が生じたことを知った後速やかにその旨、公告の中断の期間並びに公告の中断の原因を公告したこと。

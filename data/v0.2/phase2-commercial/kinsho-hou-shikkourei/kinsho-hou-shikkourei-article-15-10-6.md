@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-10-6-p1-hashira
+    type: hashira
+    text: 法第二十九条の五第一項第一号に規定する政令で定める者は、次に掲げる者とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-15-10-6-p1-kou-1
+    type: kou
+    text: 法第二条第八項第十二号イに掲げる契約の相手方である登録投資法人（投資信託及び投資法人に関する法律第二条第十三項に規定する登録投資法人をいう。）の投資法人債権者（同法第百三十九条の三第一項第七号に規定する投資法人債権者をいう。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-15-10-6-p1-kou-2
+    type: kou
+    text: 法第二条第八項第十二号ロに掲げる契約の相手方である外国投資法人の投資主（外国投資法人の社員をいう。）及び外国投資法人債権者（投資信託及び投資法人に関する法律に規定する外国投資証券で投資法人債券に類する証券に表示される権利を有する者をいう。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第十五条の十の六
 
 法第二十九条の五第一項第一号に規定する政令で定める者は、次に掲げる者とする。
+
+一　法第二条第八項第十二号イに掲げる契約の相手方である登録投資法人（投資信託及び投資法人に関する法律第二条第十三項に規定する登録投資法人をいう。）の投資法人債権者（同法第百三十九条の三第一項第七号に規定する投資法人債権者をいう。）
+
+二　法第二条第八項第十二号ロに掲げる契約の相手方である外国投資法人の投資主（外国投資法人の社員をいう。）及び外国投資法人債権者（投資信託及び投資法人に関する法律に規定する外国投資証券で投資法人債券に類する証券に表示される権利を有する者をいう。）

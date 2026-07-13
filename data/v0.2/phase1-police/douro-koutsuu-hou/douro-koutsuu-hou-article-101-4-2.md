@@ -16,27 +16,61 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-4-2-p1
+    type: simple
+    text: 免許証の有効期間の更新は、当該更新を受けようとする者が現に有する免許証（仮免許に係るものを除く。以下この条において同じ。）と引換えに更新された免許証を交付して行う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-4-2-p2-zen
+    type: zen_dan
+    text: 前項の規定による免許証の交付を受けようとする際に第九十五条の二第一項の規定による申請をする者は、当該申請に併せて当該免許証の交付を希望しない旨の申出をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-101-4-2-p2-kou
+    type: kou_dan
+    text: この場合においては、その者が同条第三項の規定による更新された特定免許情報の記録を受けたことをもつて、当該免許証が前項の規定により交付され、同条第四項の規定により返納されたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
+    depends_on: douro-koutsuu-hou-art-101-4-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-4-2-p3
+    type: simple
+    text: 免許情報記録の有効期間の更新は、当該更新を受けようとする者が現に有する免許情報記録個人番号カードに記録された免許情報記録を書き換えて行う。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-4-2-p4
+    type: tokusoku
+    text: 前項の規定による免許情報記録の書換えを経由地公安委員会において受けた者は、第九十五条の二第四項の規定にかかわらず、免許証を当該経由地公安委員会に返納することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第四項
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-4-2-p5
+    type: simple
+    text: 第二項の申出の手続について必要な事項は、内閣府令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

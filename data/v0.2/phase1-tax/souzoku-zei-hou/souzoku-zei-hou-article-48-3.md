@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-48-3-p1
+    type: simple
+    text: 国税通則法第四十三条第三項（国税の徴収の所轄庁）の規定により国税局長が延納又は物納に関する事務の引継ぎを受けた場合におけるこの章の規定の適用については、同章中「税務署長」とあるのは、「国税局長」とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

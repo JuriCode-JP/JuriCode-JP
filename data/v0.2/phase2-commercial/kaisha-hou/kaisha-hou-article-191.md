@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-191-p1
@@ -24,6 +24,20 @@ paragraphs:
     override_flag: true
     override_target:
     - 第四百六十六条
+  - id: kaisha-hou-art-191-p1-kou-1
+    type: kou
+    text: 株式の分割と同時に単元株式数を増加し、又は単元株式数についての定款の定めを設けるものであること。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-191-p1-kou-2
+    type: kou
+    text: 'イに掲げる数がロに掲げる数を下回るものでないこと。
+
+      イ 当該定款の変更後において各株主がそれぞれ有する株式の数を単元株式数で除して得た数
+
+      ロ 当該定款の変更前において各株主がそれぞれ有する株式の数（単元株式数を定めている場合にあっては、当該株式の数を単元株式数で除して得た数）'
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -46,5 +60,12 @@ parent_section:
 
 ### 第百九十一条
 
-<!-- segment: tokusoku id: kaisha-hou-art-191-p1 override_flag: true override_target: 第四百六十六条 -->
 株式会社は、次のいずれにも該当する場合には、第四百六十六条の規定にかかわらず、株主総会の決議によらないで、単元株式数（種類株式発行会社にあっては、各種類の株式の単元株式数。以下この条において同じ。）を増加し、又は単元株式数についての定款の定めを設ける定款の変更をすることができる。
+
+一　株式の分割と同時に単元株式数を増加し、又は単元株式数についての定款の定めを設けるものであること。
+
+二　イに掲げる数がロに掲げる数を下回るものでないこと。
+
+　イ　当該定款の変更後において各株主がそれぞれ有する株式の数を単元株式数で除して得た数
+
+　ロ　当該定款の変更前において各株主がそれぞれ有する株式の数（単元株式数を定めている場合にあっては、当該株式の数を単元株式数で除して得た数）

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-146-p1 -->
 何人も、自己が刑事訴追を受け、又は有罪判決を受ける虞のある証言を拒むことができる。

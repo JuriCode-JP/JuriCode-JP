@@ -33,8 +33,8 @@ paragraphs:
     applies_provisions:
     - 前三条
     references:
-    - 前項
     - 前三条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -55,10 +55,8 @@ parent_section:
 
 ### 第六百五十四条第一項
 
-<!-- segment: simple id: kaisha-hou-art-654-p1 -->
 法人が清算人である場合には、当該法人は、当該清算人の職務を行うべき者を選任し、その者の氏名及び住所を社員に通知しなければならない。
 
 ### 第六百五十四条第二項
 
-<!-- segment: junyou id: kaisha-hou-art-654-p2 applies_provisions: 前三条 -->
 前三条の規定は、前項の規定により選任された清算人の職務を行うべき者について準用する。

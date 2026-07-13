@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-407-p1 -->
 上告趣意書には、裁判所の規則の定めるところにより、上告の申立の理由を明示しなければならない。

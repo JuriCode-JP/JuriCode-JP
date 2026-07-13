@@ -16,22 +16,55 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-2-p1
+    type: simple
+    text: 特例業務届出者が適格機関投資家等特例業務に係る事業の全部を譲渡したとき、又は特例業務届出者について合併、分割（当該事業の全部を承継させるものに限る。）若しくは相続があつたときは、当該事業の全部を譲り受けた者又は合併後存続する法人若しくは合併により設立された法人、分割により当該事業の全部を承継した法人若しくは相続人（相続人が二人以上ある場合においてその協議により当該事業を承継すべき相続人を定めたときは、その者）は、当該者が金融商品取引業者等である場合を除き、その特例業務届出者の地位を承継する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-2-p2
+    type: simple
+    text: 前項の規定により特例業務届出者の地位を承継した者は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-2-p3-hashira
+    type: hashira
+    text: 特例業務届出者は、次の各号のいずれかに該当することとなつたときは、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+  - id: kinsho-hou-art-63-2-p3-kou-1
+    type: kou
+    text: 適格機関投資家等特例業務を休止し、又は再開したとき。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-63-2-p3-kou-2
+    type: kou
+    text: 適格機関投資家等特例業務を廃止したとき。
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-63-2-p3-kou-3
+    type: kou
+    text: その他内閣府令で定める場合に該当するとき。
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-2-p4
+    type: simple
+    text: 特例業務届出者である法人が合併以外の事由により解散したときは、その清算人（解散が破産手続開始の決定による場合にあつては、破産管財人）は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -59,6 +92,12 @@ parent_section:
 ### 第六十三条の二第三項
 
 特例業務届出者は、次の各号のいずれかに該当することとなつたときは、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+
+一　適格機関投資家等特例業務を休止し、又は再開したとき。
+
+二　適格機関投資家等特例業務を廃止したとき。
+
+三　その他内閣府令で定める場合に該当するとき。
 
 ### 第六十三条の二第四項
 

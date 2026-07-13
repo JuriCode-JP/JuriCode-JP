@@ -16,17 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-57-2-8-p1
+    type: tokusoku
+    text: 都は、第一条の規定にかかわらず、毎年度、法第七百三十四条第四項の規定により同項に規定する額を都内の市町村に対し交付する場合には、次の表の上欄に掲げる交付時期に、それぞれ同表の下欄に掲げる額を同項に規定する各市町村及び特別区の従業者数で按分して得た額のうち各市町村に係る額を交付するものとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第一条
+    references:
+    - 同項
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-57-2-8-p2
+    type: simple
+    text: 都は、法第七十二条の二十四の七第九項の規定により標準税率を超える税率で事業税を課する場合には、毎年度、第一号に掲げる額が第二号に掲げる額を上回る場合には第一号に掲げる額から第二号に掲げる額を控除した額の百分の七・七に相当する額を翌年度八月の交付時期に交付すべき額から減額し、第一号に掲げる額が第二号に掲げる額を下回る場合には同号に掲げる額から第一号に掲げる額を控除した額の百分の七・七に相当する額を当該交付時期に交付すべき額に加算するものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-57-2-8-p2-kou-1
+    type: kou
+    text: 前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額（還付金支出額がある場合には、当該還付金支出額を控除した額。次号において同じ。）に当該年度の標準税率超過率を乗じて得た額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-57-2-8-p2-kou-2
+    type: kou
+    text: 前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額に前年度の標準税率超過率を乗じて得た額
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-57-2-8-p3
+    type: junyou
+    text: 第三十五条の四の七第三項から第六項までの規定は、法第七百三十四条第四項の規定により同項に規定する額を都内の市町村に対し交付する場合について準用する。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -56,6 +85,10 @@ parent_section:
 ### 第五十七条の二の八第二項
 
 都は、法第七十二条の二十四の七第九項の規定により標準税率を超える税率で事業税を課する場合には、毎年度、第一号に掲げる額が第二号に掲げる額を上回る場合には第一号に掲げる額から第二号に掲げる額を控除した額の百分の七・七に相当する額を翌年度八月の交付時期に交付すべき額から減額し、第一号に掲げる額が第二号に掲げる額を下回る場合には同号に掲げる額から第一号に掲げる額を控除した額の百分の七・七に相当する額を当該交付時期に交付すべき額に加算するものとする。
+
+一　前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額（還付金支出額がある場合には、当該還付金支出額を控除した額。次号において同じ。）に当該年度の標準税率超過率を乗じて得た額
+
+二　前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額に前年度の標準税率超過率を乗じて得た額
 
 ### 第五十七条の二の八第三項
 

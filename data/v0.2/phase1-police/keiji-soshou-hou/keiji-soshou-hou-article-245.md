@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百四十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-245-p1 -->
 第二百四十一条及び第二百四十二条の規定は、自首についてこれを準用する。

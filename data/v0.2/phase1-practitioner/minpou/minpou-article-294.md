@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百九十四条
 
-<!-- segment: simple id: minpou-art-294-p1 -->
 共有の性質を有しない入会権については、各地方の慣習に従うほか、この章の規定を準用する。

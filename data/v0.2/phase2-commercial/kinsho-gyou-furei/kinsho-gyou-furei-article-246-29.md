@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-29-p1
+    type: simple
+    text: 法第六十三条の十一第二項において準用する法第六十三条の九第十項の規定により届出を行う金融商品取引業者は、その旨、該当しなくなった年月日及び該当しなくなった理由を記載した届出書を所管金融庁長官等に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

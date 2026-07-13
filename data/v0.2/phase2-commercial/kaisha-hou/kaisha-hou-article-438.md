@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる株式会社においては、取締役は、当該各号に定める計算書類及び事業報告を定時株主総会に提出し、又は提供しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-438-p1-kou-1
+    type: kou
+    text: 第四百三十六条第一項に規定する監査役設置会社（取締役会設置会社を除く。）　第四百三十六条第一項の監査を受けた計算書類及び事業報告
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-438-p1-kou-2
+    type: kou
+    text: 会計監査人設置会社（取締役会設置会社を除く。）　第四百三十六条第二項の監査を受けた計算書類及び事業報告
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-438-p1-kou-3
+    type: kou
+    text: 取締役会設置会社　第四百三十六条第三項の承認を受けた計算書類及び事業報告
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-438-p1-kou-4
+    type: kou
+    text: 前三号に掲げるもの以外の株式会社　第四百三十五条第二項の計算書類及び事業報告
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -63,15 +83,20 @@ parent_section:
 
 ### 第四百三十八条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-438-p1-hashira -->
 次の各号に掲げる株式会社においては、取締役は、当該各号に定める計算書類及び事業報告を定時株主総会に提出し、又は提供しなければならない。
+
+一　第四百三十六条第一項に規定する監査役設置会社（取締役会設置会社を除く。）　第四百三十六条第一項の監査を受けた計算書類及び事業報告
+
+二　会計監査人設置会社（取締役会設置会社を除く。）　第四百三十六条第二項の監査を受けた計算書類及び事業報告
+
+三　取締役会設置会社　第四百三十六条第三項の承認を受けた計算書類及び事業報告
+
+四　前三号に掲げるもの以外の株式会社　第四百三十五条第二項の計算書類及び事業報告
 
 ### 第四百三十八条第二項
 
-<!-- segment: simple id: kaisha-hou-art-438-p2 -->
 前項の規定により提出され、又は提供された計算書類は、定時株主総会の承認を受けなければならない。
 
 ### 第四百三十八条第三項
 
-<!-- segment: simple id: kaisha-hou-art-438-p3 -->
 取締役は、第一項の規定により提出され、又は提供された事業報告の内容を定時株主総会に報告しなければならない。

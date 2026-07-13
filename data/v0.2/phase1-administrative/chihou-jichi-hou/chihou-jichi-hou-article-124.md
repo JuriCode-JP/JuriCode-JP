@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百二十四条
 
-<!-- segment: simple id: chihou-jichi-hou-art-124-p1 -->
 普通地方公共団体の議会に請願しようとする者は、議員の紹介により請願書を提出しなければならない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-5-p1
+    type: simple
+    text: 第三百五十五条第一項の規定により定められた固定資産税の納税管理人は、当該納税義務者に係る都市計画税の納税管理人として、納税に関する一切の事項を処理しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

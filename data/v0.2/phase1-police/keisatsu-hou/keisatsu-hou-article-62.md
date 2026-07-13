@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十二条
 
-<!-- segment: simple id: keisatsu-hou-art-62-p1 -->
 警察官（長官を除く。）の階級は、警視総監、警視監、警視長、警視正、警視、警部、警部補、巡査部長及び巡査とする。

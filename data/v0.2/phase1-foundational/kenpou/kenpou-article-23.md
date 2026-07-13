@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十三条
 
-<!-- segment: simple id: kenpou-art-23-p1 -->
 学問の自由は、これを保障する。

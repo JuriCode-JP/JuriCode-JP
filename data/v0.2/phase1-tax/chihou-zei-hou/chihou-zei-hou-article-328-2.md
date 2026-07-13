@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-2-p1
+    type: simple
+    text: 分離課税に係る所得割の課税標準は、その年中の退職所得の金額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-2-p2
+    type: simple
+    text: 前項の退職所得の金額は、所得税法第三十条第二項に規定する退職所得の金額の計算の例によつて算定する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

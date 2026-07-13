@@ -34,5 +34,4 @@ tags:
 
 ### 第三条の五
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-3-5-p1 -->
 法第五十七条第二項の従業者とは、俸給、給料、賃金、手当、賞与その他これらの性質を有する給与の支払を受けるべき者をいう。

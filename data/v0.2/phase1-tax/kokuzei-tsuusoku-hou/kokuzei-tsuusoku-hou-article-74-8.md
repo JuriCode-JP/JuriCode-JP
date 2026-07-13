@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-74-8-p1
+    type: simple
+    text: 第七十四条の二から第七十四条の七まで（当該職員の質問検査権等）又は前条の規定による当該職員又は国税局長の権限は、犯罪捜査のために認められたものと解してはならない。
+    modality: gimu_negative
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

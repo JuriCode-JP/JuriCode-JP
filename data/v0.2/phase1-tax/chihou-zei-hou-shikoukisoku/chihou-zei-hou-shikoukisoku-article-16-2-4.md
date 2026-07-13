@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-2-4-p1
+    type: simple
+    text: 市町村たばこ税について、次の表の上欄に掲げる申告書の様式は、それぞれその下欄に掲げるところによるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-2-4-p2
+    type: simple
+    text: 卸売販売業者等が市町村たばこ税に係る地方団体の徴収金を申告納付の方法により納付するとき（口座振替の方法又は法第七百四十七条の六第二項に規定する方法により納付する場合を除く。）は、当該地方団体の徴収金に第三十四号の二の五様式による納付書（当該書類に記載すべき事項を記録した電磁的記録を含む。）を添えて納付するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

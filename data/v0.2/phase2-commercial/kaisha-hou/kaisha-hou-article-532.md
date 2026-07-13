@@ -40,8 +40,8 @@ paragraphs:
     text: 監督委員は、前項の許可を得ないで同項に規定する行為をしたときは、費用及び報酬の支払を受けることができない。
     modality: kanou_negative
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -64,15 +64,12 @@ parent_section:
 
 ### 第五百三十二条第一項
 
-<!-- segment: simple id: kaisha-hou-art-532-p1 -->
 監督委員は、費用の前払及び裁判所が定める報酬を受けることができる。
 
 ### 第五百三十二条第二項
 
-<!-- segment: simple id: kaisha-hou-art-532-p2 -->
 監督委員は、その選任後、清算株式会社に対する債権又は清算株式会社の株式を譲り受け、又は譲り渡すには、裁判所の許可を得なければならない。
 
 ### 第五百三十二条第三項
 
-<!-- segment: simple id: kaisha-hou-art-532-p3 -->
 監督委員は、前項の許可を得ないで同項に規定する行為をしたときは、費用及び報酬の支払を受けることができない。

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-13-p1
+    type: simple
+    text: 不動産取得税の課税標準は、不動産を取得した時における不動産の価格とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-13-p2
+    type: simple
+    text: 家屋の改築をもつて家屋の取得とみなした場合に課する不動産取得税の課税標準は、当該改築に因り増加した価格とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

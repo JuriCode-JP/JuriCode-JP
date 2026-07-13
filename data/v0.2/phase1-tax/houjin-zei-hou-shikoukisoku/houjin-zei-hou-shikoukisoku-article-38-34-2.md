@@ -16,72 +16,195 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p1
+    type: simple
+    text: 令第百五十五条の四十二の二第一項（国別特別税額控除等相当額がある場合の国別実効税率等の計算の特例）に規定する特定費用の額の合計額として財務省令で定めるところにより計算した金額は、同項の所在地国を所在地国とする全ての構成会社等の同項の対象会計年度に係る特定費用の額（令第百五十五条の三十八第一項第一号（国別グループ純所得の金額から控除する金額）中「有形資産（次号に規定する特定資産を除く。）」とあるのを「有形資産」と読み替えた場合における同号に掲げる金額につき、同条第二項から第四項までの規定に準じて計算した金額をいう。）の合計額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p2
+    type: simple
+    text: 令第百五十五条の四十二の二第一項に規定する特定資産に係る償却費の額の合計額として財務省令で定めるところにより計算した金額は、同項の所在地国を所在地国とする全ての構成会社等の同項の対象会計年度に係る特定償却費の額（令第百五十五条の三十八第一項第二号中「の帳簿価額を基礎として財務省令で定めるところにより計算した金額」とあり、及び第三十八条の三十一第七項（構成会社等に係る国別グループ純所得の金額から控除する金額）中「の同号に規定する財務省令で定めるところにより計算した金額」とあるのを「に係る償却費の額」と、同条第八項中「第五項」とあるのを「令第百五十五条の三十八第一項（第二号に係る部分に限る。）」と、「の同項各号に定める金額は、当該金額」とあるのを「に係る同項第二号に規定する償却費の額は、当該償却費の額」と読み替えた場合における同号に掲げる金額につき、令第百五十五条の三十八第二項から第四項までの規定に準じて計算した金額をいう。）の合計額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p3
+    type: simple
+    text: 特定多国籍企業グループ等の各対象会計年度に係るグループ国際最低課税額等報告事項等（令第百五十五条の四十二の二第一項に規定する国別特別税額控除等相当額の計算につきこの項の規定の適用を受けようとする旨を含むものに限る。以下この項において同じ。）の提供がある場合又は我が国以外の国若しくは地域の租税に関する法令を執行する当局に当該グループ国際最低課税額等報告事項等に相当する事項の提供がある場合（法第百五十条の三第三項（特定多国籍企業グループ等に係る報告事項等の提供）の規定の適用がある場合に限る。）には、当該対象会計年度以後の各対象会計年度に係る令第百五十五条の四十二の二第一項に規定するいずれか多い金額に百分の五・五の割合を乗じて計算した金額は、減価償却資産総額に百分の一の割合を乗じて計算した金額とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p4
+    type: simple
+    text: 前項に規定する減価償却資産総額とは、令第百五十五条の四十二の二第一項の所在地国を所在地国とする全ての構成会社等の減価償却資産の額（令第百五十五条の三十八第一項第二号中「をいう」とあるのを「をいい、減価償却資産又は我が国以外の国若しくは地域の租税に関する法令におけるこれに相当するものに限る」と読み替えた場合における同号に掲げる金額につき、同条第二項から第四項までの規定に準じて計算した金額をいう。）の合計額をいう。
+    modality: teigi
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p5
+    type: simple
+    text: 特定多国籍企業グループ等の各対象会計年度に係るグループ国際最低課税額等報告事項等（当該対象会計年度以後の各対象会計年度において第三項の規定の適用を受けることをやめようとする旨を含むものに限る。以下この項において同じ。）の提供がある場合又は我が国以外の国若しくは地域の租税に関する法令を執行する当局に当該グループ国際最低課税額等報告事項等に相当する事項の提供がある場合（法第百五十条の三第三項の規定の適用がある場合に限る。）には、当該対象会計年度以後の各対象会計年度において、第三項の規定は、適用しない。
+    modality: jogai
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p6
+    type: simple
+    text: 第三項の規定は、同項の当該対象会計年度の直前の四対象会計年度のうちに前項の規定の適用を受けることとなつた対象会計年度がない場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p7
+    type: simple
+    text: 第五項の規定は、同項の当該対象会計年度の直前の四対象会計年度のうちに第三項の規定の適用を受けることとなつた対象会計年度がない場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p8
+    type: simple
+    text: 第五項の規定の適用を受けることとなつた対象会計年度以後の各対象会計年度における第二項の規定の適用については、第三項に規定する減価償却資産総額の計算の基礎となつた資産は、令第百五十五条の三十八第一項第二号に規定する特定資産に該当しないものとする。
+    modality: gimu
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p9
+    type: simple
+    text: 令第百五十五条の四十二の二第二項の対象会計年度において同項の構成会社等に係る特別給付付き税額控除等相当額（同項に規定する特別給付付き税額控除等相当額をいう。以下この項、第十三項及び第十四項において同じ。）について同条第二項前段の規定の適用がある場合には、同条第一項の規定による同項の所在地国に係る法第八十二条の三第二項第一号イ（３）（国際最低課税額）に規定する国別実効税率及び同号イに規定する当期国別国際最低課税額並びに同項第三号に規定する下回る額及び特定国別調整後対象租税額の計算については、当該特別給付付き税額控除等相当額を当該構成会社等の当該対象会計年度に係る個別計算所得等の金額及び調整後対象租税額から減算する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 10
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p10-hashira
+    type: hashira
+    text: 令第百五十五条の四十二の二第三項第一号に規定する財務省令で定めるところにより計算した金額は、次の各号に掲げる特別税額控除等規定（同項第二号に規定する特別税額控除等規定をいい、構成会社等の所在地国における投資又は特定の事業を促進するために特別にその対象租税を軽減し、又は免除することとするものに限る。）の区分に応じ当該各号に定める金額を基礎として、当該所在地国の対象租税に関する法令の規定を勘案して合理的な方法により計算した金額とする。
+    modality: gimu
+    references:
+    - 同項
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p10-kou-1
+    type: kou
+    text: 令第百五十五条の四十二の二第三項第三号イに掲げる規定　当該規定の適用により、各対象会計年度に係る当該構成会社等の対象租税の額から控除された金額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p10-kou-2
+    type: kou
+    text: 令第百五十五条の四十二の二第三項第三号ロに掲げる規定　当該規定の適用により、各対象会計年度に係る当該構成会社等の対象租税の額の計算上課税標準から控除された金額（当該規定が同項第二号イに掲げる要件を満たすものであり、かつ、当該金額が当該対象租税の額の計算上通常その課税標準から控除できるものである場合にあつては、当該金額のうち当該構成会社等に係る同号イに規定する支出した金額を超える部分の金額に限る。）
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p10-kou-3
+    type: kou
+    text: 令第百五十五条の四十二の二第三項第三号ハに掲げる規定　当該規定の適用により、各対象会計年度に係る当該構成会社等の対象租税の額の計算上課税標準に含まれないこととされた金額
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p10-kou-4
+    type: kou
+    text: 第十二項第一号に掲げる規定　各対象会計年度に係る当該構成会社等の対象租税の額の計算上通常の税率を適用して計算した場合における対象租税の額から、当該規定の適用により通常の税率より低い税率により計算した当該対象会計年度に係る当該構成会社等の対象租税の額を控除した金額
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p10-kou-5
+    type: kou
+    text: 第十二項第二号に掲げる規定　前各号の規定に準じて計算した金額
+    modality: unspecified
+    item_number: 5
 - number: 11
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p11-hashira
+    type: hashira
+    text: 令第百五十五条の四十二の二第三項第二号に規定する財務省令で定める規定は、次に掲げるものとする。
+    modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p11-kou-1
+    type: kou
+    text: 国若しくは地域又はその地方公共団体との対象租税に係る取決めが存在することその他これに準ずる事由に基づき当該対象租税が軽減され、又は免除される金額を計算することとする規定
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p11-kou-2
+    type: kou
+    text: 個別計算所得等の金額に含まれない収入等を得るために構成会社等が各対象会計年度において支出した金額のみを基礎として対象租税が軽減され、又は免除される金額を計算することとする規定
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p11-kou-3
+    type: kou
+    text: 令第百五十五条の四十二の二第三項第二号イに掲げる要件を満たす税額控除等規定（同項第三号に規定する税額控除等規定をいう。以下この号において同じ。）の適用により対象租税の額が軽減され、又は免除される金額が、当該金額の計算の基礎となる同項第二号イに規定する支出した金額を超えることとなる当該税額控除等規定
+    modality: unspecified
+    item_number: 3
 - number: 12
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p12-hashira
+    type: hashira
+    text: 令第百五十五条の四十二の二第三項第三号ニに規定する財務省令で定める規定は、次に掲げるものとする。
+    modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p12-kou-1
+    type: kou
+    text: 構成会社等の対象租税の額の計算において通常の税率より低い税率を適用することとする規定
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p12-kou-2
+    type: kou
+    text: 令第百五十五条の四十二の二第三項第三号イからハまで又は前号に掲げる規定に準ずる規定
+    modality: unspecified
+    item_number: 2
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p13
+    type: simple
+    text: 令第百五十五条の四十二の二第四項の構成会社等の所在地国について同項の規定の適用がある場合において、同項の過去対象会計年度において当該構成会社等に係る特別給付付き税額控除等相当額について同条第二項前段の規定の適用があつたときは、同条第四項の規定による当該所在地国に係る令第百五十五条の四十第二項第三号（構成会社等に係る再計算国別国際最低課税額）に規定する再計算国別実効税率及び同項に規定する再計算当期国別国際最低課税額の計算については、当該特別給付付き税額控除等相当額を当該構成会社等の当該過去対象会計年度に係る個別計算所得等の金額及び調整後対象租税額から減算する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 14
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-34-2-p14
+    type: simple
+    text: 特定多国籍企業グループ等の各対象会計年度に係るグループ国際最低課税額等報告事項等（当該特定多国籍企業グループ等に属する構成会社等に係る特別給付付き税額控除等相当額についてこの項の規定の適用を受けようとする旨を含むものに限る。以下この項において同じ。）の提供がある場合又は我が国以外の国若しくは地域の租税に関する法令を執行する当局に当該グループ国際最低課税額等報告事項等に相当する事項の提供がある場合（法第百五十条の三第三項の規定の適用がある場合に限る。）には、当該特別給付付き税額控除等相当額の一部につき令第百五十五条の四十二の二第二項の規定を適用することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:
@@ -142,13 +265,33 @@ parent_section:
 
 令第百五十五条の四十二の二第三項第一号に規定する財務省令で定めるところにより計算した金額は、次の各号に掲げる特別税額控除等規定（同項第二号に規定する特別税額控除等規定をいい、構成会社等の所在地国における投資又は特定の事業を促進するために特別にその対象租税を軽減し、又は免除することとするものに限る。）の区分に応じ当該各号に定める金額を基礎として、当該所在地国の対象租税に関する法令の規定を勘案して合理的な方法により計算した金額とする。
 
+一　令第百五十五条の四十二の二第三項第三号イに掲げる規定　当該規定の適用により、各対象会計年度に係る当該構成会社等の対象租税の額から控除された金額
+
+二　令第百五十五条の四十二の二第三項第三号ロに掲げる規定　当該規定の適用により、各対象会計年度に係る当該構成会社等の対象租税の額の計算上課税標準から控除された金額（当該規定が同項第二号イに掲げる要件を満たすものであり、かつ、当該金額が当該対象租税の額の計算上通常その課税標準から控除できるものである場合にあつては、当該金額のうち当該構成会社等に係る同号イに規定する支出した金額を超える部分の金額に限る。）
+
+三　令第百五十五条の四十二の二第三項第三号ハに掲げる規定　当該規定の適用により、各対象会計年度に係る当該構成会社等の対象租税の額の計算上課税標準に含まれないこととされた金額
+
+四　第十二項第一号に掲げる規定　各対象会計年度に係る当該構成会社等の対象租税の額の計算上通常の税率を適用して計算した場合における対象租税の額から、当該規定の適用により通常の税率より低い税率により計算した当該対象会計年度に係る当該構成会社等の対象租税の額を控除した金額
+
+五　第十二項第二号に掲げる規定　前各号の規定に準じて計算した金額
+
 ### 第三十八条の三十四の二第十一項
 
 令第百五十五条の四十二の二第三項第二号に規定する財務省令で定める規定は、次に掲げるものとする。
 
+一　国若しくは地域又はその地方公共団体との対象租税に係る取決めが存在することその他これに準ずる事由に基づき当該対象租税が軽減され、又は免除される金額を計算することとする規定
+
+二　個別計算所得等の金額に含まれない収入等を得るために構成会社等が各対象会計年度において支出した金額のみを基礎として対象租税が軽減され、又は免除される金額を計算することとする規定
+
+三　令第百五十五条の四十二の二第三項第二号イに掲げる要件を満たす税額控除等規定（同項第三号に規定する税額控除等規定をいう。以下この号において同じ。）の適用により対象租税の額が軽減され、又は免除される金額が、当該金額の計算の基礎となる同項第二号イに規定する支出した金額を超えることとなる当該税額控除等規定
+
 ### 第三十八条の三十四の二第十二項
 
 令第百五十五条の四十二の二第三項第三号ニに規定する財務省令で定める規定は、次に掲げるものとする。
+
+一　構成会社等の対象租税の額の計算において通常の税率より低い税率を適用することとする規定
+
+二　令第百五十五条の四十二の二第三項第三号イからハまで又は前号に掲げる規定に準ずる規定
 
 ### 第三十八条の三十四の二第十三項
 

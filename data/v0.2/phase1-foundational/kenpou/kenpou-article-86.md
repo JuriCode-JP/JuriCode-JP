@@ -37,5 +37,4 @@ parent_section:
 
 ### 第八十六条
 
-<!-- segment: simple id: kenpou-art-86-p1 -->
 内閣は、毎会計年度の予算を作成し、国会に提出して、その審議を受け議決を経なければならない。

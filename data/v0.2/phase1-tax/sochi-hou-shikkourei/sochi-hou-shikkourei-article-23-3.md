@@ -32,6 +32,16 @@ paragraphs:
     type: hashira
     text: 法第三十五条の三第二項第二号イに規定する政令で定める区域は、次に掲げる区域とする。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-23-3-p2-kou-1
+    type: kou
+    text: 都市計画法第七条第一項の市街化区域と定められた区域
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-23-3-p2-kou-2
+    type: kou
+    text: 都市計画法第七条第一項に規定する区域区分に関する同法第四条第一項に規定する都市計画が定められていない同条第二項に規定する都市計画区域のうち、同法第八条第一項第一号に規定する用途地域が定められている区域
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第二十三条の三第一項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-23-3-p1 -->
 法第三十五条の三第二項第一号に規定する当該個人と政令で定める特別の関係がある者は、前条第一項各号に掲げる者とする。
 
 ### 第二十三条の三第二項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-23-3-p2-hashira -->
 法第三十五条の三第二項第二号イに規定する政令で定める区域は、次に掲げる区域とする。
+
+一　都市計画法第七条第一項の市街化区域と定められた区域
+
+二　都市計画法第七条第一項に規定する区域区分に関する同法第四条第一項に規定する都市計画が定められていない同条第二項に規定する都市計画区域のうち、同法第八条第一項第一号に規定する用途地域が定められている区域

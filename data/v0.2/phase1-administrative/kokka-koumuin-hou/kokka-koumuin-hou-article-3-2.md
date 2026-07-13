@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-3-2-p1
+    type: simple
+    text: 前条第二項の所掌事務のうち職務に係る倫理の保持に関する事務を所掌させるため、人事院に国家公務員倫理審査会を置く。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-3-2-p2
+    type: simple
+    text: 国家公務員倫理審査会に関しては、この法律に定めるもののほか、国家公務員倫理法（平成十一年法律第百二十九号）の定めるところによる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

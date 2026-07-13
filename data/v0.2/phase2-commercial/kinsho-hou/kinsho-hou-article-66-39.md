@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-39-p1
+    type: simple
+    text: 信用格付業者は、事業年度ごとに、業務の状況に関する事項として内閣府令で定めるものを記載した説明書類を作成し、毎事業年度経過後政令で定める期間を経過した日から一年間、これをすべての営業所又は事務所に備え置き、公衆の縦覧に供するとともに、内閣府令で定めるところにより、インターネットの利用その他の方法により公表しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

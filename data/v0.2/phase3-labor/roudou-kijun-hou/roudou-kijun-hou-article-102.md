@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百二条
 
-<!-- segment: simple id: roudou-kijun-hou-art-102-p1 -->
 労働基準監督官は、この法律違反の罪について、刑事訴訟法に規定する司法警察官の職務を行う。

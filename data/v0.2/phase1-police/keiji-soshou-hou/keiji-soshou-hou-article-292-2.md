@@ -16,47 +16,97 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-292-2-p1
+    type: simple
+    text: 裁判所は、被害者等又は当該被害者の法定代理人から、被害に関する心情その他の被告事件に関する意見の陳述の申出があるときは、公判期日において、その意見を陳述させるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-292-2-p2-zen
+    type: zen_dan
+    text: 前項の規定による意見の陳述の申出は、あらかじめ、検察官にしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-292-2-p2-kou
+    type: kou_dan
+    text: この場合において、検察官は、意見を付して、これを裁判所に通知するものとする。
+    modality: gimu
+    depends_on: keiji-soshou-hou-art-292-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-292-2-p3
+    type: simple
+    text: 裁判長又は陪席の裁判官は、被害者等又は当該被害者の法定代理人が意見を陳述した後、その趣旨を明確にするため、これらの者に質問することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-292-2-p4
+    type: simple
+    text: 訴訟関係人は、被害者等又は当該被害者の法定代理人が意見を陳述した後、その趣旨を明確にするため、裁判長に告げて、これらの者に質問することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-292-2-p5
+    type: simple
+    text: 裁判長は、被害者等若しくは当該被害者の法定代理人の意見の陳述又は訴訟関係人の被害者等若しくは当該被害者の法定代理人に対する質問が既にした陳述若しくは質問と重複するとき、又は事件に関係のない事項にわたるときその他相当でないときは、これを制限することができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-292-2-p6
+    type: junyou
+    text: 第百五十七条の四、第百五十七条の五並びに第百五十七条の六第一項及び第二項の規定は、第一項の規定による意見の陳述について準用する。
+    modality: unspecified
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-292-2-p7
+    type: simple
+    text: 裁判所は、審理の状況その他の事情を考慮して、相当でないと認めるときは、意見の陳述に代え意見を記載した書面を提出させ、又は意見の陳述をさせないことができる。
+    modality: kanou_kenri
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-292-2-p8-zen
+    type: zen_dan
+    text: 前項の規定により書面が提出された場合には、裁判長は、公判期日において、その旨を明らかにしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-292-2-p8-kou
+    type: kou_dan
+    text: この場合において、裁判長は、相当と認めるときは、その書面を朗読し、又はその要旨を告げることができる。
+    modality: kanou_kenri
+    depends_on: keiji-soshou-hou-art-292-2-p8-zen
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-292-2-p9
+    type: simple
+    text: 第一項の規定による陳述又は第七項の規定による書面は、犯罪事実の認定のための証拠とすることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-65-p1
+    type: simple
+    text: 前条第一項の負担金の額は、業務規程の定める算定方法により算定される額とする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-65-p2-hashira
+    type: hashira
+    text: 前項の負担金の算定方法は、次に掲げる基準に適合するように定めなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-79-65-p2-kou-1
+    type: kou
+    text: 第七十九条の五十六第一項の支払その他の投資者保護資金に係る業務に要する費用の予想額に照らし、長期的に基金の財政が均衡するものであること。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-79-65-p2-kou-2
+    type: kou
+    text: 特定の金融商品取引業者に対し差別的取扱いをしないものであること。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-65-p3
+    type: simple
+    text: 前項の規定は、同項第一号に掲げる基準に適合するように負担金の算定方法を定めることとした場合には、これによる負担金の納付によつて会員である金融商品取引業者の経営の健全性が維持されなくなるときにおいて、当該基準に適合しない負担金の算定方法を一時的に定めることを妨げるものと解してはならない。
+    modality: gimu_negative
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -50,6 +79,10 @@ parent_section:
 ### 第七十九条の六十五第二項
 
 前項の負担金の算定方法は、次に掲げる基準に適合するように定めなければならない。
+
+一　第七十九条の五十六第一項の支払その他の投資者保護資金に係る業務に要する費用の予想額に照らし、長期的に基金の財政が均衡するものであること。
+
+二　特定の金融商品取引業者に対し差別的取扱いをしないものであること。
 
 ### 第七十九条の六十五第三項
 

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-64-p1
+    type: simple
+    text: 指定都市等の徴税吏員は、督促状を発した場合には、当該指定都市等の条例の定めるところによつて、手数料を徴収することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

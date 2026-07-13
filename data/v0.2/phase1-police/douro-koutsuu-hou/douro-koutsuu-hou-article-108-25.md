@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-25-p1
+    type: simple
+    text: 第百八条の十三から前条までに規定するもののほか、分析センターに関し必要な事項は、国家公安委員会規則で定める。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

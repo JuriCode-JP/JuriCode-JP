@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 政令第五十六条の八十七第三号に規定する総務省令で定める交通施設は、次に掲げる交通施設とする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-24-30-p1-kou-1
+    type: kou
+    text: 飛行場及び航空保安施設（これらに附帯する施設を含む。）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-24-30-p1-kou-2
+    type: kou
+    text: 一般旅客自動車運送事業の用に供する施設
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,5 +44,8 @@ tags:
 
 ### 第二十四条の三十
 
-<!-- segment: hashira id: chihou-zei-hou-shikoukisoku-art-24-30-p1-hashira -->
 政令第五十六条の八十七第三号に規定する総務省令で定める交通施設は、次に掲げる交通施設とする。
+
+一　飛行場及び航空保安施設（これらに附帯する施設を含む。）
+
+二　一般旅客自動車運送事業の用に供する施設

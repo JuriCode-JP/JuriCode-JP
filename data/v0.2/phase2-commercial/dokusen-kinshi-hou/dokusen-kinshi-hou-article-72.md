@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七十二条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-72-p1 -->
 第二条第九項第六号の規定による指定は、告示によつてこれを行う。

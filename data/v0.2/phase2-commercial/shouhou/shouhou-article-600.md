@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百条
 
-<!-- segment: simple id: shouhou-art-600-p1 -->
 倉庫営業者は、寄託者の請求により、寄託物の倉荷証券を交付しなければならない。

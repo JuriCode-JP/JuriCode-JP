@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-10-p1
+    type: simple
+    text: 厚生労働大臣は、第二条第十五項の指定をする場合であつて、緊急を要し、あらかじめ薬事審議会の意見を聴くいとまがないときは、当該手続を経ないで同項の指定をすることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-10-p2
+    type: simple
+    text: 前項の場合において、厚生労働大臣は、速やかに、その指定に係る事項を薬事審議会に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-5-p1
+    type: simple
+    text: 所有者不明土地管理人は、所有者不明土地等の所有者（その共有持分を有する者を含む。）のために、善良な管理者の注意をもって、その権限を行使しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-5-p2
+    type: simple
+    text: 数人の者の共有持分を対象として所有者不明土地管理命令が発せられたときは、所有者不明土地管理人は、当該所有者不明土地管理命令の対象とされた共有持分を有する者全員のために、誠実かつ公平にその権限を行使しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

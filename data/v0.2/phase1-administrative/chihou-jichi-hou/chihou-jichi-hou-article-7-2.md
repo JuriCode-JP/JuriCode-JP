@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-7-2-p1-zen
+    type: zen_dan
+    text: 法律で別に定めるものを除く外、従来地方公共団体の区域に属しなかつた地域を都道府県又は市町村の区域に編入する必要があると認めるときは、内閣がこれを定める。
+    modality: unspecified
+  - id: chihou-jichi-hou-art-7-2-p1-kou
+    type: kou_dan
+    text: この場合において、利害関係があると認められる都道府県又は市町村があるときは、予めその意見を聴かなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-7-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-7-2-p2
+    type: simple
+    text: 前項の意見については、関係のある普通地方公共団体の議会の議決を経なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-7-2-p3
+    type: simple
+    text: 第一項の規定による処分があつたときは、総務大臣は、直ちにその旨を告示しなければならない。前条第八項の規定は、この場合にこれを準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

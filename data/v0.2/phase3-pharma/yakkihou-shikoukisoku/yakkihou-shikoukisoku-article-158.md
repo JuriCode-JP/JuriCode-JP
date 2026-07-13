@@ -32,6 +32,26 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: yakkihou-shikoukisoku-art-158-p2-kou-1
+    type: kou
+    text: 従事者から卸売販売業者への事故報告の体制の整備
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-158-p2-kou-2
+    type: kou
+    text: 医薬品の貯蔵設備を設ける区域に立ち入ることができる者の特定
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-158-p2-kou-3
+    type: kou
+    text: 医薬品の適正管理のための業務に関する手順書の作成及び当該手順書に基づく業務の実施
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-158-p2-kou-4
+    type: kou
+    text: 医薬品の適正管理のために必要となる情報の収集その他医薬品の適正管理の確保を目的とした改善のための方策の実施
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -48,10 +68,16 @@ parent_section:
 
 ### 第百五十八条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-158-p1 -->
 卸売販売業者は、医薬品の販売又は授与の業務（医薬品の貯蔵に関する業務を含む。）に係る適正な管理（以下「医薬品の適正管理」という。）を確保するため、指針の策定、従事者に対する研修の実施その他必要な措置を講じなければならない。
 
 ### 第百五十八条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-158-p2-hashira -->
 前項に掲げる卸売販売業者が講じなければならない措置には、次に掲げる事項を含むものとする。
+
+一　従事者から卸売販売業者への事故報告の体制の整備
+
+二　医薬品の貯蔵設備を設ける区域に立ち入ることができる者の特定
+
+三　医薬品の適正管理のための業務に関する手順書の作成及び当該手順書に基づく業務の実施
+
+四　医薬品の適正管理のために必要となる情報の収集その他医薬品の適正管理の確保を目的とした改善のための方策の実施

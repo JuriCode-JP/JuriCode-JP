@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-40-p1 -->
 何人も、採用試験、選考、任用又は人事記録に関して、虚偽又は不正の陳述、記載、証明、採点、判断又は報告を行つてはならない。

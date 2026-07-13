@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十一条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-11-p1 -->
 期間の計算については、民法（明治二十九年法律第八十九号）の期間に関する規定に従う。
 
 ### 第十一条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-11-p2 -->
 期間の末日が行政機関の休日に関する法律（昭和六十三年法律第九十一号）第一条第一項各号に掲げる日に当たるときは、期間は、その翌日に満了する。

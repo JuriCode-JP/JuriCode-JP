@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百四十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-346-p1 -->
 押収した物について、没収の言渡がないときは、押収を解く言渡があつたものとする。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-108-7-p1
+    type: simple
+    text: 職員は、職員団体の構成員であること、これを結成しようとしたこと、若しくはこれに加入しようとしたこと、又はその職員団体における正当な行為をしたことのために不利益な取扱いを受けない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

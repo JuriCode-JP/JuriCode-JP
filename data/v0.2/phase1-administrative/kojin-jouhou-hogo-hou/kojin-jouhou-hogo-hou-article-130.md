@@ -48,10 +48,8 @@ parent_section:
 
 ### 第百三十条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-130-p1 -->
 内閣府設置法第四十九条第三項の規定に基づいて、個人情報保護委員会（以下「委員会」という。）を置く。
 
 ### 第百三十条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-130-p2 -->
 委員会は、内閣総理大臣の所轄に属する。

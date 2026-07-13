@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-18-3-p1
+    type: simple
+    text: 特定医薬品の製造販売業者は、その製造販売をする特定医薬品について、六月以内にその出荷の停止若しくは制限をすることとしたとき、又は六月以内にその出荷の停止若しくは制限をするおそれがあると認めるときは、直ちに、厚生労働省令で定めるところにより、厚生労働大臣にその旨を報告しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-18-3-p2
+    type: simple
+    text: 前項の規定による報告をした者は、同項の規定により報告した事項について変更が生じたときは、直ちに、厚生労働省令で定めるところにより、厚生労働大臣にその旨を報告しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

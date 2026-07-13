@@ -13,20 +13,43 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-7-p1-honbun
+    type: honbun
+    text: 普通地方公共団体は、協議により規約を定め、共同して、第百三十八条第一項若しくは第二項に規定する事務局若しくはその内部組織（次項及び第二百五十二条の十三において「議会事務局」という。）、第百三十八条の四第一項に規定する委員会若しくは委員、同条第三項に規定する附属機関、第百五十六条第一項に規定する行政機関、第百五十八条第一項に規定する内部組織、委員会若しくは委員の事務局若しくはその内部組織（次項及び第二百五十二条の十三において「委員会事務局」という。）、普通地方公共団体の議会、長、委員会若しくは委員の事務を補助する職員、第百七十四条第一項に規定する専門委員又は第二百条の二第一項に規定する監査専門委員を置くことができる。
+    modality: kanou_kenri
+    references:
+    - 次項
+  - id: chihou-jichi-hou-art-252-7-p1-tadashi
+    type: tadashi
+    text: ただし、政令で定める委員会については、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-7-p2
+    type: simple
+    text: 前項の規定による議会事務局、執行機関、附属機関、行政機関、内部組織、委員会事務局若しくは職員を共同設置する普通地方公共団体の数を増減し、若しくはこれらの議会事務局、執行機関、附属機関、行政機関、内部組織、委員会事務局若しくは職員の共同設置に関する規約を変更し、又はこれらの議会事務局、執行機関、附属機関、行政機関、内部組織、委員会事務局若しくは職員の共同設置を廃止しようとするときは、関係普通地方公共団体は、同項の例により、協議してこれを行わなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-7-p3
+    type: simple
+    text: 第二百五十二条の二の二第二項及び第三項本文の規定は前二項の場合について、同条第四項の規定は第一項の場合について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

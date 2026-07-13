@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-10-p1
+    type: simple
+    text: 外国法人の各事業年度の第百四十一条第一号ロ及び第二号（課税標準）に定める国内源泉所得に係る所得の金額は、これらの規定に規定する国内源泉所得につき政令で定めるところにより第百四十二条から第百四十二条の二の二まで（恒久的施設帰属所得に係る所得の金額の計算）の規定に準じて計算した金額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

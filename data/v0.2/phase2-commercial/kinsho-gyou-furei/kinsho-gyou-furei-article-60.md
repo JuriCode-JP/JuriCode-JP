@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三十四条の三第七項に規定する内閣府令で定める期間は、十一月（次の各号に掲げる場合にあっては、当該各号に定める期間）とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-60-p1-kou-1
+    type: kou
+    text: 承諾日から期限日までの期間が一年に満たない場合（次号に掲げる場合を除く。）　当該期間から一月を控除した期間
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-60-p1-kou-2
+    type: kou
+    text: 承諾日から期限日までの期間が一月を超えない場合　一日
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +41,8 @@ paragraphs:
     text: 法第三十四条の三第八項に規定する場合における前項の規定の適用については、同項各号中「承諾日」とあるのは、「前回の期限日の翌日」とする。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -53,10 +63,12 @@ parent_section:
 
 ### 第六十条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-60-p1-hashira -->
 法第三十四条の三第七項に規定する内閣府令で定める期間は、十一月（次の各号に掲げる場合にあっては、当該各号に定める期間）とする。
+
+一　承諾日から期限日までの期間が一年に満たない場合（次号に掲げる場合を除く。）　当該期間から一月を控除した期間
+
+二　承諾日から期限日までの期間が一月を超えない場合　一日
 
 ### 第六十条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-60-p2 -->
 法第三十四条の三第八項に規定する場合における前項の規定の適用については、同項各号中「承諾日」とあるのは、「前回の期限日の翌日」とする。

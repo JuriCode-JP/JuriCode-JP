@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三十六条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-36-p1 -->
 都道府県に、都道府県警察を置く。
 
 ### 第三十六条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-36-p2 -->
 都道府県警察は、当該都道府県の区域につき、第二条の責務に任ずる。

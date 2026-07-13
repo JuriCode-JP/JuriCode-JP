@@ -14,34 +14,74 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-12-p1-hashira
+    type: hashira
+    text: 内閣総理大臣は、特別金融商品取引業者の親会社（第五十七条の二第八項に規定する親会社をいう。以下この節において同じ。）又はその子法人等が次に掲げる要件のいずれかに該当する場合において、当該親会社及びその子法人等の業務の健全かつ適切な運営を確保することが公益又は投資者保護のため特に必要であると認められるときは、当該親会社をこの款の規定の適用を受ける者として指定するものとする。
+    modality: gimu
+  - id: kinsho-hou-art-57-12-p1-kou-1
+    type: kou
+    text: 当該親会社が当該特別金融商品取引業者の経営管理を事業として行つていること。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-57-12-p1-kou-2
+    type: kou
+    text: 当該親会社又はその子法人等が当該特別金融商品取引業者に対し、その業務の運営のために必要な資金の貸付け、債務の保証その他これらに類する資金調達に関する支援であつて、その停止が当該特別金融商品取引業者の業務の健全かつ適切な運営に著しい支障を及ぼすおそれがあると認められるものを行つていること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-12-p2
+    type: simple
+    text: 内閣総理大臣は、特別金融商品取引業者の親会社及びその子法人等の集団が、その業務の運営及び財産の状況について、他の法令に基づいて行政機関の適切な監督を受けていると認められる場合（外国の法令に基づいて外国の行政機関その他これに準ずるものの適切な監督を受けていると認められる場合を含む。）には、前項の規定による指定をしないことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-12-p3
+    type: simple
+    text: 内閣総理大臣は、第一項の規定による指定をしたときは、書面により、その旨並びに当該指定に係る特別金融商品取引業者（以下「対象特別金融商品取引業者」という。）の商号及び当該指定を受けた者（以下「指定親会社」という。）が最終指定親会社（指定親会社であつて、その親会社のうちに当該指定親会社と同一の対象特別金融商品取引業者に係る指定親会社である会社がないものをいう。以下この款において同じ。）であるか否かの別を当該指定親会社に通知しなければならない。これらの事項に変更があつたときも、同様とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-12-p4
+    type: simple
+    text: 内閣総理大臣は、第一項の規定による指定をしたときは、指定親会社の商号又は名称及び本店又は主たる事務所（外国会社にあつては、国内に事務所があるときは、国内における主たる事務所を含む。次条第一項第四号において同じ。）の所在地並びに対象特別金融商品取引業者の商号を官報で公示しなければならない。これらの事項に変更があつたときも、同様とする。
+    modality: gimu
+    references:
+    - 次条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-12-p5
+    type: simple
+    text: 内閣総理大臣は、指定親会社について第一項の規定による指定を受けるべき事由が消滅したと認めるときは、当該指定を解除するとともに、書面により、その旨を当該指定を解除されることとなる指定親会社に通知しなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-12-p6
+    type: simple
+    text: 内閣総理大臣は、前項の規定により指定を解除したときは、その旨を官報で公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -63,6 +103,10 @@ parent_section:
 ### 第五十七条の十二第一項
 
 内閣総理大臣は、特別金融商品取引業者の親会社（第五十七条の二第八項に規定する親会社をいう。以下この節において同じ。）又はその子法人等が次に掲げる要件のいずれかに該当する場合において、当該親会社及びその子法人等の業務の健全かつ適切な運営を確保することが公益又は投資者保護のため特に必要であると認められるときは、当該親会社をこの款の規定の適用を受ける者として指定するものとする。
+
+一　当該親会社が当該特別金融商品取引業者の経営管理を事業として行つていること。
+
+二　当該親会社又はその子法人等が当該特別金融商品取引業者に対し、その業務の運営のために必要な資金の貸付け、債務の保証その他これらに類する資金調達に関する支援であつて、その停止が当該特別金融商品取引業者の業務の健全かつ適切な運営に著しい支障を及ぼすおそれがあると認められるものを行つていること。
 
 ### 第五十七条の十二第二項
 

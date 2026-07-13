@@ -14,14 +14,32 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-7-p1-hashira
+    type: hashira
+    text: 詐害行為取消請求に係る訴えについては、次の各号に掲げる区分に応じ、それぞれ当該各号に定める者を被告とする。
+    modality: gimu
+  - id: minpou-art-424-7-p1-kou-1
+    type: kou
+    text: 受益者に対する詐害行為取消請求に係る訴え　受益者
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-424-7-p1-kou-2
+    type: kou
+    text: 転得者に対する詐害行為取消請求に係る訴え　その詐害行為取消請求の相手方である転得者
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-7-p2
+    type: simple
+    text: 債権者は、詐害行為取消請求に係る訴えを提起したときは、遅滞なく、債務者に対し、訴訟告知をしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -47,6 +65,10 @@ parent_section:
 ### 第四百二十四条の七第一項
 
 詐害行為取消請求に係る訴えについては、次の各号に掲げる区分に応じ、それぞれ当該各号に定める者を被告とする。
+
+一　受益者に対する詐害行為取消請求に係る訴え　受益者
+
+二　転得者に対する詐害行為取消請求に係る訴え　その詐害行為取消請求の相手方である転得者
 
 ### 第四百二十四条の七第二項
 

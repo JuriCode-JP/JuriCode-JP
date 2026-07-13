@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 船舶共有者が次に掲げる事項を決定したときは、その決定について異議のある船舶共有者は、他の船舶共有者に対し、相当の対価で自己の持分を買い取ることを請求することができる。
     modality: kanou_kenri
+  - id: shouhou-art-694-p1-kou-1
+    type: kou
+    text: 新たな航海（船舶共有者の間で予定されていなかったものに限る。）をすること。
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-694-p1-kou-2
+    type: kou
+    text: 船舶の大修繕をすること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +41,8 @@ paragraphs:
     text: 前項の規定による請求をしようとする者は、同項の決定の日（当該決定に加わらなかった場合にあっては、当該決定の通知を受けた日の翌日）から三日以内に、他の船舶共有者又は船舶管理人に対してその旨の通知を発しなければならない。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -55,10 +65,12 @@ parent_section:
 
 ### 第六百九十四条第一項
 
-<!-- segment: hashira id: shouhou-art-694-p1-hashira -->
 船舶共有者が次に掲げる事項を決定したときは、その決定について異議のある船舶共有者は、他の船舶共有者に対し、相当の対価で自己の持分を買い取ることを請求することができる。
+
+一　新たな航海（船舶共有者の間で予定されていなかったものに限る。）をすること。
+
+二　船舶の大修繕をすること。
 
 ### 第六百九十四条第二項
 
-<!-- segment: simple id: shouhou-art-694-p2 -->
 前項の規定による請求をしようとする者は、同項の決定の日（当該決定に加わらなかった場合にあっては、当該決定の通知を受けた日の翌日）から三日以内に、他の船舶共有者又は船舶管理人に対してその旨の通知を発しなければならない。

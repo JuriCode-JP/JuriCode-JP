@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-20-p1
+    type: simple
+    text: 委員会は、第百六条の四第九項の届出、第百六条の十六の報告又はその他の事由により職員又は職員であつた者に再就職等規制違反行為を行つた疑いがあると思料する場合であつて、特に必要があると認めるときは、当該再就職等規制違反行為に関する調査の開始を決定し、監察官に当該調査を行わせることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-20-p2
+    type: simple
+    text: 任命権者は、前項の調査に協力しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-20-p3
+    type: simple
+    text: 委員会は、第一項の調査を終了したときは、遅滞なく、任命権者に対し、当該調査の結果を通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

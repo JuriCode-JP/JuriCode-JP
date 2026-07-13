@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-8-2-4-p1
+    type: simple
+    text: 令第十一条第二号（有価証券に準ずるものの範囲）に規定する財務省令で定めるものは、銀行法施行規則（昭和五十七年大蔵省令第十号）第十二条第一号（金銭債権の証書の範囲）に掲げる譲渡性預金の預金証書（外国法人が発行するものを除く。）をもつて表示される金銭債権とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

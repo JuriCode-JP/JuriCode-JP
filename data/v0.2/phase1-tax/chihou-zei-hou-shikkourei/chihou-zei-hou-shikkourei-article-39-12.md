@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十九条の十二
 
-<!-- segment: junyou id: chihou-zei-hou-shikkourei-art-39-12-p1 -->
 第六条の十の規定は、法第七十四条の十一第一項の規定によつて道府県たばこ税に係る納期限を延長する場合における担保の提供手続について準用する。

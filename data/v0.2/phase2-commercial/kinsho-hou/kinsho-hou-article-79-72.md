@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-72-p1
+    type: simple
+    text: 基金は、第七十九条の四十九第一項第一号から第四号まで及び第六号に掲げる業務を行うため必要があると認めるときは、政令で定める金額の範囲内において、内閣総理大臣及び財務大臣の認可を受けて、金融機関等（銀行、金融商品取引業者その他内閣府令・財務省令で定めるものをいう。）から資金の借入れ（借換えを含む。）をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

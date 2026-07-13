@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百十条
 
-<!-- segment: simple id: keiji-soshou-hou-art-110-p1 -->
 差押状、記録命令付差押状又は捜索状は、処分を受ける者にこれを示さなければならない。

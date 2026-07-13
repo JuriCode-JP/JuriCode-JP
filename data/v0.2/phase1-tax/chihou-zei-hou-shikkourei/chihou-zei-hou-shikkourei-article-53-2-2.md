@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-53-2-2-p1
+    type: simple
+    text: 法第四百六十九条第一項第二号に規定する政令で定める船舶は、第三十九条の十に規定する船舶とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

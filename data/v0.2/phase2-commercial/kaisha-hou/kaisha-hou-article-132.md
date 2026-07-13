@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 株式会社は、次の各号に掲げる場合には、当該各号の株式の株主に係る株主名簿記載事項を株主名簿に記載し、又は記録しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-132-p1-kou-1
+    type: kou
+    text: 株式を発行した場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-132-p1-kou-2
+    type: kou
+    text: 当該株式会社の株式を取得した場合
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-132-p1-kou-3
+    type: kou
+    text: 自己株式を処分した場合
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -61,15 +76,18 @@ parent_section:
 
 ### 第百三十二条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-132-p1-hashira -->
 株式会社は、次の各号に掲げる場合には、当該各号の株式の株主に係る株主名簿記載事項を株主名簿に記載し、又は記録しなければならない。
+
+一　株式を発行した場合
+
+二　当該株式会社の株式を取得した場合
+
+三　自己株式を処分した場合
 
 ### 第百三十二条第二項
 
-<!-- segment: simple id: kaisha-hou-art-132-p2 -->
 株式会社は、株式の併合をした場合には、併合した株式について、その株式の株主に係る株主名簿記載事項を株主名簿に記載し、又は記録しなければならない。
 
 ### 第百三十二条第三項
 
-<!-- segment: simple id: kaisha-hou-art-132-p3 -->
 株式会社は、株式の分割をした場合には、分割した株式について、その株式の株主に係る株主名簿記載事項を株主名簿に記載し、又は記録しなければならない。

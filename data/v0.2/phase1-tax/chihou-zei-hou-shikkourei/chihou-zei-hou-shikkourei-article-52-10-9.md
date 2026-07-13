@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-10-9-p1-hashira
+    type: hashira
+    text: 法第三百四十九条の三第二十五項に規定する中部国際空港の設置及び管理に関する法律第四条第二項に規定する指定会社が所有し、かつ、直接同法第六条第一項第一号又は第二号に規定する事業の用に供する固定資産で政令で定めるものは、次に掲げる固定資産とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-52-10-9-p1-kou-1
+    type: kou
+    text: 滑走路、着陸帯、誘導路又はエプロンの用に供する土地及び構築物並びにこれらの土地によつて囲まれる土地
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-52-10-9-p1-kou-2
+    type: kou
+    text: 排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する固定資産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-52-10-9-p1-kou-3
+    type: kou
+    text: 航空保安施設の用に供する固定資産
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第五十二条の十の九
 
 法第三百四十九条の三第二十五項に規定する中部国際空港の設置及び管理に関する法律第四条第二項に規定する指定会社が所有し、かつ、直接同法第六条第一項第一号又は第二号に規定する事業の用に供する固定資産で政令で定めるものは、次に掲げる固定資産とする。
+
+一　滑走路、着陸帯、誘導路又はエプロンの用に供する土地及び構築物並びにこれらの土地によつて囲まれる土地
+
+二　排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する固定資産
+
+三　航空保安施設の用に供する固定資産

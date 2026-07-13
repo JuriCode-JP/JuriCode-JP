@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百五十六条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-256-p1 -->
 令第十七条の十五第一項に規定する内閣府令で定める額は、千円とする。

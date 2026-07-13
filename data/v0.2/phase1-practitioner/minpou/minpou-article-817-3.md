@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-3-p1
+    type: simple
+    text: 養親となる者は、配偶者のある者でなければならない。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-3-p2-honbun
+    type: honbun
+    text: 夫婦の一方は、他の一方が養親とならないときは、養親となることができない。
+    modality: kanou_negative
+  - id: minpou-art-817-3-p2-tadashi
+    type: tadashi
+    text: ただし、夫婦の一方が他の一方の嫡出である子（特別養子縁組以外の縁組による養子を除く。）の養親となる場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

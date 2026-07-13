@@ -16,17 +16,58 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-27-p1
+    type: simple
+    text: この法律において「外部監査契約」とは、包括外部監査契約及び個別外部監査契約をいう。
+    modality: teigi
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-27-p2
+    type: simple
+    text: この法律において「包括外部監査契約」とは、第二百五十二条の三十六第一項各号に掲げる普通地方公共団体及び同条第二項の条例を定めた同条第一項第二号に掲げる市以外の市又は町村が、第二条第十四項及び第十五項の規定の趣旨を達成するため、この法律の定めるところにより、次条第一項又は第二項に規定する者の監査を受けるとともに監査の結果に関する報告の提出を受けることを内容とする契約であつて、この法律の定めるところにより、当該監査を行う者と締結するものをいう。
+    modality: teigi
+    references:
+    - 次条
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-27-p3-hashira
+    type: hashira
+    text: この法律において「個別外部監査契約」とは、次の各号に掲げる普通地方公共団体が、当該各号に掲げる請求又は要求があつた場合において、この法律の定めるところにより、当該請求又は要求に係る事項について次条第一項又は第二項に規定する者の監査を受けるとともに監査の結果に関する報告の提出を受けることを内容とする契約であつて、この法律の定めるところにより、当該監査を行う者と締結するものをいう。
+    modality: teigi
+    references:
+    - 次条
+  - id: chihou-jichi-hou-art-252-27-p3-kou-1
+    type: kou
+    text: 第二百五十二条の三十九第一項に規定する普通地方公共団体　第七十五条第一項の請求
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-252-27-p3-kou-2
+    type: kou
+    text: 第二百五十二条の四十第一項に規定する普通地方公共団体　第九十八条第二項の請求
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-252-27-p3-kou-3
+    type: kou
+    text: 第二百五十二条の四十一第一項に規定する普通地方公共団体　第百九十九条第六項の要求
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-252-27-p3-kou-4
+    type: kou
+    text: 第二百五十二条の四十二第一項に規定する普通地方公共団体　第百九十九条第七項の要求
+    modality: unspecified
+    item_number: 4
+  - id: chihou-jichi-hou-art-252-27-p3-kou-5
+    type: kou
+    text: 第二百五十二条の四十三第一項に規定する普通地方公共団体　第二百四十二条第一項の請求
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -56,3 +97,13 @@ parent_section:
 ### 第二百五十二条の二十七第三項
 
 この法律において「個別外部監査契約」とは、次の各号に掲げる普通地方公共団体が、当該各号に掲げる請求又は要求があつた場合において、この法律の定めるところにより、当該請求又は要求に係る事項について次条第一項又は第二項に規定する者の監査を受けるとともに監査の結果に関する報告の提出を受けることを内容とする契約であつて、この法律の定めるところにより、当該監査を行う者と締結するものをいう。
+
+一　第二百五十二条の三十九第一項に規定する普通地方公共団体　第七十五条第一項の請求
+
+二　第二百五十二条の四十第一項に規定する普通地方公共団体　第九十八条第二項の請求
+
+三　第二百五十二条の四十一第一項に規定する普通地方公共団体　第百九十九条第六項の要求
+
+四　第二百五十二条の四十二第一項に規定する普通地方公共団体　第百九十九条第七項の要求
+
+五　第二百五十二条の四十三第一項に規定する普通地方公共団体　第二百四十二条第一項の請求

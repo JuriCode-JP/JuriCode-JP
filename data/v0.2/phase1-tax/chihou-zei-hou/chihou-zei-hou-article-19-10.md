@@ -14,19 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-10-p1-hashira
+    type: hashira
+    text: 第十九条の四第三号に掲げる処分に欠陥があることを理由として滞納処分についての審査請求があつた場合において、その処分は違法ではあるが、次に掲げる場合に該当するときは、地方団体の長は、その審査請求を棄却することができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-19-10-p1-kou-1
+    type: kou
+    text: その審査請求に係る処分に続いて行われるべき処分（以下この号において「後行処分」という。）が既に行われている場合において、その審査請求に係る処分の違法が軽微なものであり、その後行処分に影響を及ぼさせることが適当でないと認められるとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-19-10-p1-kou-2
+    type: kou
+    text: 換価した財産が公共の用に供されている場合その他審査請求に係る処分を取り消すことにより公の利益に著しい障害を生ずる場合で、その審査請求をした者の受ける損害の程度、その損害の賠償の程度及び方法その他一切の事情を考慮してもなおその処分を取り消すことが公共の福祉に適合しないと認められるとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-10-p2
+    type: simple
+    text: 前項の規定による審査請求の棄却の裁決には、処分が違法であること及び審査請求を棄却する理由を明示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-10-p3
+    type: simple
+    text: 第一項の規定は、地方団体に対する損害賠償の請求を妨げない。
+    modality: jogai
 cases: []
 amendments: []
 tags:
@@ -48,6 +72,10 @@ parent_section:
 ### 第十九条の十第一項
 
 第十九条の四第三号に掲げる処分に欠陥があることを理由として滞納処分についての審査請求があつた場合において、その処分は違法ではあるが、次に掲げる場合に該当するときは、地方団体の長は、その審査請求を棄却することができる。
+
+一　その審査請求に係る処分に続いて行われるべき処分（以下この号において「後行処分」という。）が既に行われている場合において、その審査請求に係る処分の違法が軽微なものであり、その後行処分に影響を及ぼさせることが適当でないと認められるとき。
+
+二　換価した財産が公共の用に供されている場合その他審査請求に係る処分を取り消すことにより公の利益に著しい障害を生ずる場合で、その審査請求をした者の受ける損害の程度、その損害の賠償の程度及び方法その他一切の事情を考慮してもなおその処分を取り消すことが公共の福祉に適合しないと認められるとき。
 
 ### 第十九条の十第二項
 

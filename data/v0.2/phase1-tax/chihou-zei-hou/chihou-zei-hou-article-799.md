@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百九十九条
 
-<!-- segment: simple id: chihou-zei-hou-art-799-p1 -->
 機構の解散については、別に法律で定める。

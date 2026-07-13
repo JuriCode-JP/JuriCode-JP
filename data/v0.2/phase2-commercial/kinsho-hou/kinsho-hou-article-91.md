@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九十一条
 
-<!-- segment: simple id: kinsho-hou-art-91-p1 -->
 金融商品会員制法人の会員は、金融商品取引業者等に限る。

@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 運転免許試験は、免許の種類ごとに次の各号（小型特殊免許及び原付免許の運転免許試験にあつては第一号及び第三号、牽けん引免許の運転免許試験にあつては第一号及び第二号）に掲げる事項について行う。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-97-p1-kou-1
+    type: kou
+    text: 自動車等の運転について必要な適性
+    modality: unspecified
+    item_number: 1
+  - id: douro-koutsuu-hou-art-97-p1-kou-2
+    type: kou
+    text: 自動車等の運転について必要な技能
+    modality: unspecified
+    item_number: 2
+  - id: douro-koutsuu-hou-art-97-p1-kou-3
+    type: kou
+    text: 自動車等の運転について必要な知識
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: true
   has_items: false
@@ -74,21 +89,22 @@ parent_section:
 
 ### 第九十七条第一項
 
-<!-- segment: hashira id: douro-koutsuu-hou-art-97-p1-hashira -->
 運転免許試験は、免許の種類ごとに次の各号（小型特殊免許及び原付免許の運転免許試験にあつては第一号及び第三号、牽けん引免許の運転免許試験にあつては第一号及び第二号）に掲げる事項について行う。
+
+一　自動車等の運転について必要な適性
+
+二　自動車等の運転について必要な技能
+
+三　自動車等の運転について必要な知識
 
 ### 第九十七条第二項
 
-<!-- segment: honbun id: douro-koutsuu-hou-art-97-p2-honbun -->
-前項第二号に掲げる事項について行う大型免許、中型免許、準中型免許、普通免許、大型第二種免許、中型第二種免許及び普通第二種免許の運転免許試験は、道路において行うものとする。<!-- segment: tadashi id: douro-koutsuu-hou-art-97-p2-tadashi -->
-ただし、道路において行うことが交通の妨害となるおそれがあるものとして内閣府令で定める運転免許試験の項目については、この限りでない。
+前項第二号に掲げる事項について行う大型免許、中型免許、準中型免許、普通免許、大型第二種免許、中型第二種免許及び普通第二種免許の運転免許試験は、道路において行うものとする。ただし、道路において行うことが交通の妨害となるおそれがあるものとして内閣府令で定める運転免許試験の項目については、この限りでない。
 
 ### 第九十七条第三項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-97-p3 -->
 第一項第三号に掲げる事項についての運転免許試験は、第百八条の二十八第四項の規定により国家公安委員会が作成する教則の内容の範囲内で行う。
 
 ### 第九十七条第四項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-97-p4 -->
 前三項に規定するもののほか、運転免許試験の実施の手続、方法その他運転免許試験について必要な事項は、内閣府令で定める。

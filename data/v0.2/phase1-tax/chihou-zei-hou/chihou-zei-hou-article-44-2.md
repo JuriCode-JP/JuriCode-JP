@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-44-2-p1
+    type: simple
+    text: 第三百二十一条の七の十三の規定により市町村長が個人の市町村民税の徴収を猶予した場合には、当該市町村民税の納税義務者に係る個人の道府県民税の徴収についても当該市町村民税に対する当該猶予に係る市町村民税の割合と同じ割合により猶予されたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

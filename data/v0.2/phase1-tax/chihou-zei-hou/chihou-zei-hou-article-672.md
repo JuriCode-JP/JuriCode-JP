@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 市町村は、次に掲げるものに対しては、市町村法定外普通税を課することができない。
     modality: kanou_negative
+  - id: chihou-zei-hou-art-672-p1-kou-1
+    type: kou
+    text: 市町村外に所在する土地、家屋、物件及びこれらから生ずる収入
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-672-p1-kou-2
+    type: kou
+    text: 市町村外に所在する事務所及び事業所において行われる事業並びにこれらから生ずる収入
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-672-p1-kou-3
+    type: kou
+    text: 公務上又は業務上の事由による負傷又は疾病に基因して受ける給付で政令で定めるもの
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第六百七十二条
 
-<!-- segment: hashira id: chihou-zei-hou-art-672-p1-hashira -->
 市町村は、次に掲げるものに対しては、市町村法定外普通税を課することができない。
+
+一　市町村外に所在する土地、家屋、物件及びこれらから生ずる収入
+
+二　市町村外に所在する事務所及び事業所において行われる事業並びにこれらから生ずる収入
+
+三　公務上又は業務上の事由による負傷又は疾病に基因して受ける給付で政令で定めるもの

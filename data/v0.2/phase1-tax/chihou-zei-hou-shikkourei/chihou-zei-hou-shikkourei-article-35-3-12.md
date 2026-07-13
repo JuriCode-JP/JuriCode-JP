@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-35-3-12-p1
+    type: simple
+    text: 法第七十二条の四十九の十六第一項に規定する鉱物の掘採事業と精錬事業とを一貫して行う個人が他の者から買い入れた鉱物を精錬している場合には、当該個人が納付すべき事業税の課税標準とすべき所得は、これらの事業を通じて算定した所得に、課税標準の算定期間中におけるこれらの事業の生産品について収入すべき金額から課税標準の算定期間中において掘採した鉱物について個人が納付すべき鉱産税の課税標準である鉱物の価格と当該買入れに係る鉱物の価格との合計額を控除した金額を当該生産品について収入すべき金額から当該買入れに係る鉱物の価格を控除した金額で除して得た数値を乗じて得た額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

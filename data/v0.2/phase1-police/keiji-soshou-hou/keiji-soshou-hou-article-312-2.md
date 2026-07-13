@@ -16,22 +16,50 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-312-2-p1
+    type: simple
+    text: 検察官は、訴因変更等請求書面に記載された第二百七十一条の二第一項第一号又は第二号に掲げる者の個人特定事項について、必要と認めるときは、裁判所に対し、前条第五項の規定による訴因変更等請求書面の謄本の送達により当該個人特定事項が被告人に知られないようにするための措置をとることを求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-312-2-p2
+    type: simple
+    text: 前項の規定による求めは、裁判所に対し、訴因変更等請求書面とともに、被告人に送達するものとして、当該求めに係る個人特定事項の記載がない訴因変更等請求書面の抄本その他の訴因変更等請求書面の謄本に代わるもの（以下この条において「訴因変更等請求書面抄本等」という。）を提出して行わなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-312-2-p3
+    type: tokusoku
+    text: 裁判所は、前項の規定による訴因変更等請求書面抄本等の提出があつたときは、前条第五項の規定にかかわらず、遅滞なく訴因変更等請求書面抄本等を被告人に送達しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-312-2-p4
+    type: junyou
+    text: 第二百七十一条の三から第二百七十一条の八までの規定は、第二項の規定による訴因変更等請求書面抄本等の提出がある場合について準用する。この場合において、第二百七十一条の三第三項中「前条第一項第一号ハ（１）」とあるのは「第二百七十一条の二第一項第一号ハ（１）」と、第二百七十一条の五第一項中「第二百七十一条の二第四項」とあるのは「第三百十二条の二第三項」と、第二百七十一条の六第五項及び第二百七十一条の八第一項中「同条第一項第一号」とあるのは「第二百七十一条の二第一項第一号」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

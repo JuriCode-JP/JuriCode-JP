@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: shouhou-art-828-p1
     type: simple
     text: 航海の途中において不可抗力により保険の目的物である貨物が売却されたときは、保険者は、第一号に掲げる額から第二号に掲げる額を控除した額を塡補する責任を負う。
     modality: unspecified
+  - id: shouhou-art-828-p1-kou-1
+    type: kou
+    text: 保険価額（約定保険価額があるときは、当該約定保険価額）
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-828-p1-kou-2
+    type: kou
+    text: 当該貨物の売却によって得た代価から運送賃その他の費用を控除した額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第八百二十八条
 
-<!-- segment: simple id: shouhou-art-828-p1 -->
 航海の途中において不可抗力により保険の目的物である貨物が売却されたときは、保険者は、第一号に掲げる額から第二号に掲げる額を控除した額を塡補する責任を負う。
+
+一　保険価額（約定保険価額があるときは、当該約定保険価額）
+
+二　当該貨物の売却によって得た代価から運送賃その他の費用を控除した額

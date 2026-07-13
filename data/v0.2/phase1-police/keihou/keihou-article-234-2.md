@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-234-2-p1
+    type: simple
+    text: 人の業務に使用する電子計算機若しくはその用に供する電磁的記録を損壊し、若しくは人の業務に使用する電子計算機に虚偽の情報若しくは不正な指令を与え、又はその他の方法により、電子計算機に使用目的に沿うべき動作をさせず、又は使用目的に反する動作をさせて、人の業務を妨害した者は、五年以下の拘禁刑又は百万円以下の罰金に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-234-2-p2
+    type: simple
+    text: 前項の罪の未遂は、罰する。
+    modality: gimu_kei
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

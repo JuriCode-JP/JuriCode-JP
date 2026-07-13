@@ -50,10 +50,8 @@ parent_section:
 
 ### 第九十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-91-p1 -->
 勾留による拘禁が不当に長くなつたときは、裁判所は、第八十八条に規定する者の請求により、又は職権で、決定を以て勾留を取り消し、又は保釈を許さなければならない。
 
 ### 第九十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-91-p2 -->
 第八十二条第三項の規定は、前項の請求についてこれを準用する。

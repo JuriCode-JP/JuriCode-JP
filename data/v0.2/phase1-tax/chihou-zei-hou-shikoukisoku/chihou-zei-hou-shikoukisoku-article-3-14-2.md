@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-3-14-2-p1-hashira
+    type: hashira
+    text: 政令第二十条の二の三第一項第二号に規定する総務省令で定める掛金又は保険料は、次に掲げる掛金又は保険料とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-3-14-2-p1-kou-1
+    type: kou
+    text: 確定給付企業年金法施行令（平成十三年政令第四百二十四号）第五十四条の四の規定により支出した同条の掛金
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-3-14-2-p1-kou-2
+    type: kou
+    text: 確定給付企業年金法施行規則（平成十四年厚生労働省令第二十二号）第六十四条の規定により支出した同条の掛金
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -31,3 +45,7 @@ tags:
 ### 第三条の十四の二
 
 政令第二十条の二の三第一項第二号に規定する総務省令で定める掛金又は保険料は、次に掲げる掛金又は保険料とする。
+
+一　確定給付企業年金法施行令（平成十三年政令第四百二十四号）第五十四条の四の規定により支出した同条の掛金
+
+二　確定給付企業年金法施行規則（平成十四年厚生労働省令第二十二号）第六十四条の規定により支出した同条の掛金

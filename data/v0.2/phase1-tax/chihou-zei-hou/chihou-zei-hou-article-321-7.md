@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-p1
+    type: simple
+    text: 個人の市町村民税の納税者が給与の支払を受けなくなつたこと等により給与所得に係る特別徴収税額を特別徴収の方法によつて徴収されないこととなつた場合には、特別徴収の方法によつて徴収されないこととなつた金額に相当する税額は、その特別徴収の方法によつて徴収されないこととなつた日以後において到来する第三百二十条の納期があるときはそのそれぞれの納期において、その日以後に到来する同条の納期がないときは直ちに、普通徴収の方法によつて徴収しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-p2-zen
+    type: zen_dan
+    text: 前条第一項の規定により変更された給与所得に係る特別徴収税額に係る個人の市町村民税の納税者について、既に特別徴収義務者から当該市町村に納入された給与所得に係る特別徴収税額が当該納税者から徴収すべき給与所得に係る特別徴収税額を超える場合（徴収すべき給与所得に係る特別徴収税額がない場合を含む。）には、当該過納又は誤納に係る税額は、第十七条の規定の例により当該納税者に還付しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: chihou-zei-hou-art-321-7-p2-kou
+    type: kou_dan
+    text: この場合において、当該納税者の未納に係る地方団体の徴収金があるときは、当該還付すべき税額は、第十七条の二の二第一項第二号に規定する市町村徴収金関係過誤納金とみなして、同条第三項、第六項及び第七項の規定を適用することができるものとし、当該特別徴収義務者について第十七条から第十七条の二の二までの規定の適用はないものとする。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-321-7-p2-zen
 cases: []
 amendments: []
 tags:

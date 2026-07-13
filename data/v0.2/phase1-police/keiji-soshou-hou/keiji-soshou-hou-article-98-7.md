@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-7-p1
+    type: simple
+    text: 裁判所は、監督者を選任した場合において、被告人の召喚がされたときその他この法律又は他の法律の規定により被告人が指定の日時及び場所に出頭しなければならないこととされたときは、速やかに、監督者に対し、その旨並びに当該日時及び場所を通知しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-7-p2
+    type: simple
+    text: 裁判所は、第九十八条の四第四項（第一号に係る部分に限る。）の規定による出頭があつたときはその旨を、同項（第二号に係る部分に限る。）の規定による報告があつたときはその旨及びその報告の内容を、同項（第一号に係る部分に限る。）の規定による出頭若しくは同項（第二号イに係る部分に限る。）の規定による報告がなかつたとき又は同項（第二号ロに係る部分に限る。）の規定による報告がなかつたことを知つたときはその旨及びその状況を、それぞれ速やかに検察官に通知しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

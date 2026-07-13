@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-2-p1
+    type: simple
+    text: 職員の人事評価は、公正に行われなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

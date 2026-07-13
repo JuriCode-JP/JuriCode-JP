@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十九条の九
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-39-9-p1 -->
 削除

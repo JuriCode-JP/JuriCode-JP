@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-6-2-p1-hashira
+    type: hashira
+    text: 令第十五条の四の二各号列記以外の部分に規定する内閣府令で定める者は、次に掲げる者とする。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-6-2-p1-kou-1
+    type: kou
+    text: 金融商品取引業者（有価証券等管理業務を行う者に限る。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-6-2-p1-kou-2
+    type: kou
+    text: 銀行
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-6-2-p1-kou-3
+    type: kou
+    text: 協同組織金融機関
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-6-2-p1-kou-4
+    type: kou
+    text: 保険会社（保険業法（平成七年法律第百五号）第二条第二項に規定する保険会社をいい、同条第七項に規定する外国保険会社等を含む。以下同じ。）
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-gyou-furei-art-6-2-p1-kou-5
+    type: kou
+    text: 信託会社
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-gyou-furei-art-6-2-p1-kou-6
+    type: kou
+    text: 株式会社商工組合中央金庫
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -38,3 +72,15 @@ parent_section:
 ### 第六条の二
 
 令第十五条の四の二各号列記以外の部分に規定する内閣府令で定める者は、次に掲げる者とする。
+
+一　金融商品取引業者（有価証券等管理業務を行う者に限る。）
+
+二　銀行
+
+三　協同組織金融機関
+
+四　保険会社（保険業法（平成七年法律第百五号）第二条第二項に規定する保険会社をいい、同条第七項に規定する外国保険会社等を含む。以下同じ。）
+
+五　信託会社
+
+六　株式会社商工組合中央金庫

@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-22-p1-zen
+    type: zen_dan
+    text: 元本の確定後において現に存する債務の額が根抵当権の極度額を超えるときは、他人の債務を担保するためその根抵当権を設定した者又は抵当不動産について所有権、地上権、永小作権若しくは第三者に対抗することができる賃借権を取得した第三者は、その極度額に相当する金額を払い渡し又は供託して、その根抵当権の消滅請求をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-398-22-p1-kou
+    type: kou_dan
+    text: この場合において、その払渡し又は供託は、弁済の効力を有する。
+    modality: unspecified
+    depends_on: minpou-art-398-22-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-22-p2
+    type: simple
+    text: 第三百九十八条の十六の登記がされている根抵当権は、一個の不動産について前項の消滅請求があったときは、消滅する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-22-p3
+    type: junyou
+    text: 第三百八十条及び第三百八十一条の規定は、第一項の消滅請求について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第三百八十一条
 cases: []
 amendments: []
 tags:

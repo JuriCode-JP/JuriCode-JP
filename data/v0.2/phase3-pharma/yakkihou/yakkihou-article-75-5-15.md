@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-15-p1-zen
+    type: zen_dan
+    text: 書類の送達については、民事訴訟法（平成八年法律第百九号）第百条第一項、第百一条、第百二条の二、第百三条、第百五条、第百六条及び第百八条の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-art-75-5-15-p1-kou
+    type: kou_dan
+    text: この場合において、同項中「裁判所」とあり、及び同条中「裁判長」とあるのは「厚生労働大臣」と、同法第百一条第一項中「執行官」とあるのは「厚生労働省の職員」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: yakkihou-art-75-5-15-p1-zen
 cases: []
 amendments: []
 tags:

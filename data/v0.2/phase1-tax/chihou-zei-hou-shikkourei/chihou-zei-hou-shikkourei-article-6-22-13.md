@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-22-13-p1-honbun
+    type: honbun
+    text: 犯則事件の調査及び処分に関する書類（法第二十二条の四第一項若しくは第三項、第二十二条の五第一項若しくは第二項又は第二十二条の十九第四項の許可状の請求に関する書類を除く。）には、毎葉に契印しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-6-22-13-p1-tadashi
+    type: tadashi
+    text: ただし、その謄本又は抄本を作成するときは、契印に代えて、これに準ずる措置をとることができる。
+    modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-22-13-p2-honbun
+    type: honbun
+    text: 犯則事件の調査及び処分に関する書類について文字を加え、削り、又は欄外に記入したときは、その範囲を明らかにして、訂正した部分に認印しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-6-22-13-p2-tadashi
+    type: tadashi
+    text: ただし、削つた部分は、これを読むことができるように字体を残さなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

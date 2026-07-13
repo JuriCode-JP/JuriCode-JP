@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 法第七十五条の二第七項（確定申告書の提出期限の延長の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-36-3-p1-kou-1
+    type: kou
+    text: 届出をする内国法人の名称、納税地及び法人番号
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-36-3-p1-kou-2
+    type: kou
+    text: 代表者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-36-3-p1-kou-3
+    type: kou
+    text: 確定申告書の提出期限の延長の処分を受けた日又は当該処分があつたものとみなされた日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-36-3-p1-kou-4
+    type: kou
+    text: 当該事業年度以後の各事業年度について確定申告書の提出期限の延長の特例の適用をやめようとする当該事業年度終了の日
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-36-3-p1-kou-5
+    type: kou
+    text: 確定申告書の提出期限の延長の特例の適用をやめようとする理由
+    modality: unspecified
+    item_number: 5
+  - id: houjin-zei-hou-shikoukisoku-art-36-3-p1-kou-6
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -43,5 +73,16 @@ parent_section:
 
 ### 第三十六条の三
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-36-3-p1-hashira -->
 法第七十五条の二第七項（確定申告書の提出期限の延長の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　届出をする内国法人の名称、納税地及び法人番号
+
+二　代表者の氏名
+
+三　確定申告書の提出期限の延長の処分を受けた日又は当該処分があつたものとみなされた日
+
+四　当該事業年度以後の各事業年度について確定申告書の提出期限の延長の特例の適用をやめようとする当該事業年度終了の日
+
+五　確定申告書の提出期限の延長の特例の適用をやめようとする理由
+
+六　その他参考となるべき事項

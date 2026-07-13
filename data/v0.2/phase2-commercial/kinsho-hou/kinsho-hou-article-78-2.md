@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-78-2-p1
+    type: simple
+    text: 認定金融商品取引業協会（以下この章において「認定協会」という。）は、前条第二項各号に掲げるもののほか、金融に係る知識の普及、啓発活動及び広報活動を通じて、金融商品取引業の健全な発展及び投資者の保護の促進に努めなければならない。
+    modality: doryoku_gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-78-2-p2
+    type: simple
+    text: 認定協会は、会員名簿を公衆の縦覧に供しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-78-2-p3
+    type: simple
+    text: 認定協会でない者は、その名称中に、認定金融商品取引業協会であると誤認されるおそれのある文字を用いてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

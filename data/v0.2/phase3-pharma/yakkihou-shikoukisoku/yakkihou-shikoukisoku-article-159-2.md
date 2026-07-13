@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-2-p1
+    type: simple
+    text: 法第三十六条の七第一項第一号の厚生労働省令で定める期間は、次の表の上欄に掲げる医薬品の区分に応じ、それぞれ同表の下欄に定める期間とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

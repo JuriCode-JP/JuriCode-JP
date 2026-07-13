@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-5-p1
+    type: simple
+    text: 法第百五十六条の二十三に規定する政令で定める金額は、一億円とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百五十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-457-p1 -->
 非常上告が理由のないときは、判決でこれを棄却しなければならない。

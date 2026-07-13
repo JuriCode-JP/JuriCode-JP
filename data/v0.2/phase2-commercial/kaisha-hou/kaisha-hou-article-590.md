@@ -31,7 +31,7 @@ paragraphs:
     text: 社員が二人以上ある場合には、持分会社の業務は、定款に別段の定めがある場合を除き、社員の過半数をもって決定する。
     modality: unspecified
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -64,15 +64,12 @@ parent_section:
 
 ### 第五百九十条第一項
 
-<!-- segment: simple id: kaisha-hou-art-590-p1 -->
 社員は、定款に別段の定めがある場合を除き、持分会社の業務を執行する。
 
 ### 第五百九十条第二項
 
-<!-- segment: simple id: kaisha-hou-art-590-p2 -->
 社員が二人以上ある場合には、持分会社の業務は、定款に別段の定めがある場合を除き、社員の過半数をもって決定する。
 
 ### 第五百九十条第三項
 
-<!-- segment: tokusoku id: kaisha-hou-art-590-p3 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、持分会社の常務は、各社員が単独で行うことができる。ただし、その完了前に他の社員が異議を述べた場合は、この限りでない。

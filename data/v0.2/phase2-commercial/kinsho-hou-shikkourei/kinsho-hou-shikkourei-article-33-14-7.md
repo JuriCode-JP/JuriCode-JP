@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-14-7-p1
+    type: simple
+    text: 法第百七十四条の三第九項に規定する政令で定めるものは、特定関係者が自己の計算において買付け（市場デリバティブ取引（法第二条第二十一項第一号に掲げる取引に限る。）による買付けに限る。）をしている商品とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-14-7-p2
+    type: simple
+    text: 法第百七十四条の三第九項に規定する政令で定める取引は、特定関係者が自己の計算において約定している第三十三条の十四の三第二号から第六号までに掲げる取引とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-14-7-p3
+    type: simple
+    text: 法第百七十四条の三第九項に規定する政令で定めるところにより算定する数量は、次条第二項各号に掲げる取引の区分に応じ、当該各号に定めるものとする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

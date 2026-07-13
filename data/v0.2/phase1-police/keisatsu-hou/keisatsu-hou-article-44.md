@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十四条
 
-<!-- segment: simple id: keisatsu-hou-art-44-p1 -->
 都道府県公安委員会の庶務は、警視庁又は道府県警察本部において処理する。

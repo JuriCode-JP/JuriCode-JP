@@ -37,5 +37,4 @@ parent_section:
 
 ### 第七十七条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-77-p1 -->
 排除措置命令等に係る行政事件訴訟法（昭和三十七年法律第百三十九号）第三条第一項に規定する抗告訴訟については、公正取引委員会を被告とする。

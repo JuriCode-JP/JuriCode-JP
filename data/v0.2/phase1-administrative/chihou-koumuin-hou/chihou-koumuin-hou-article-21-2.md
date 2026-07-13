@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-2-p1
+    type: simple
+    text: 選考は、当該選考に係る職の属する職制上の段階の標準的な職に係る標準職務遂行能力及び当該選考に係る職についての適性を有するかどうかを正確に判定することをもつてその目的とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-2-p2
+    type: simple
+    text: 選考による職員の採用は、任命権者が、人事委員会等の行う選考に合格した者の中から行うものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-21-2-p3
+    type: simple
+    text: 人事委員会等は、その定める職員の職について前条第一項に規定する採用候補者名簿がなく、かつ、人事行政の運営上必要であると認める場合においては、その職の採用試験又は選考に相当する国又は他の地方公共団体の採用試験又は選考に合格した者を、その職の選考に合格した者とみなすことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

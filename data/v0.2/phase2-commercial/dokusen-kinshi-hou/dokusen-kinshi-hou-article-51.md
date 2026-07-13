@@ -50,10 +50,8 @@ parent_section:
 
 ### 第五十一条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-51-p1 -->
 前条第一項の規定による通知を受けた者（以下この節において「当事者」という。）は、代理人を選任することができる。
 
 ### 第五十一条第二項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-51-p2 -->
 代理人は、各自、当事者のために、意見聴取に関する一切の行為をすることができる。

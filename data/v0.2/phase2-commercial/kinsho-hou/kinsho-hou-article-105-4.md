@@ -16,27 +16,55 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-4-p1
+    type: simple
+    text: 株式会社金融商品取引所は、自主規制業務を自主規制法人に委託している場合を除き、定款の定めるところにより、自主規制委員会を置くことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-4-p2
+    type: simple
+    text: 自主規制委員会は、当該自主規制委員会を設置する株式会社金融商品取引所（以下この目において「特定株式会社金融商品取引所」という。）の自主規制業務に関する事項の決定を行う。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-4-p3
+    type: simple
+    text: 自主規制委員会は、自主規制業務に関する事項の決定について、取締役会から委任を受けたものとみなす。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-4-p4
+    type: tokusoku
+    text: 特定株式会社金融商品取引所の自主規制委員会は、会社法第三百六十二条第四項、第三百九十九条の十三第四項から第六項まで及び第四百十六条第四項の規定にかかわらず、自主規制業務に関する事項の決定について、執行役又は取締役に委任することができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 第四百十六条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-4-p5
+    type: tokusoku
+    text: 特定株式会社金融商品取引所の取締役会は、会社法第三百六十二条第四項、第三百九十九条の十三第四項から第六項まで及び第四百十六条第四項の規定にかかわらず、次条第二項に規定する自主規制委員の選定及び第百五条の七第一項に規定する自主規制委員の解職について、執行役又は取締役に委任することができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 第四百十六条
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

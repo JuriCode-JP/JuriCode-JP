@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-2-2-p1
+    type: simple
+    text: 公安委員会は、安全運転管理者が選任されている自動車の使用の本拠について、自動車の安全な運転を確保するために必要な交通安全教育その他自動車の安全な運転に必要な業務の推進を図るため必要があると認めるときは、当該安全運転管理者を選任している自動車の使用者又は当該安全運転管理者に対し、必要な報告又は資料の提出を求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-2-2-p2
+    type: simple
+    text: 公安委員会は、速度、駐車若しくは積載又は運転者の心身の状態に関しての自動車の適正な使用の推進を図るため必要があると認めるときは、自動車の使用者に対し、必要な報告又は資料の提出を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

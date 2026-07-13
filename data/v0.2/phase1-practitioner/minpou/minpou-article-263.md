@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百六十三条
 
-<!-- segment: simple id: minpou-art-263-p1 -->
 共有の性質を有する入会権については、各地方の慣習に従うほか、この節の規定を適用する。

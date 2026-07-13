@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-11-p1
+    type: simple
+    text: 法第五十七条の十七第二項に規定する政令で定める期間は、一月とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-11-p2
+    type: simple
+    text: 法第五十七条の十七第三項に規定する最終指定親会社になつた日から起算して政令で定める期間は、一月とする。
+    modality: gimu
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-11-p3-honbun
+    type: honbun
+    text: 法第五十七条の十七第三項に規定する最終指定親会社四半期の末日から起算して政令で定める期間は、四月とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-17-2-11-p3-tadashi
+    type: tadashi
+    text: ただし、外国会社である最終指定親会社が、その本国の法令又は慣行その他やむを得ない理由により、同条第二項に規定する最終指定親会社四半期の末日から起算して四月を経過した日から同条第三項の書面を備え置き、公衆の縦覧に供することができないと認められる場合には、内閣府令で定めるところにより、金融庁長官の承認を受けた期間とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

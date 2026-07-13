@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-5-p1
+    type: simple
+    text: 厚生労働大臣は、機構に、第八十条の二第七項の規定による立入検査又は質問のうち政令で定めるものを行わせることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-5-p2
+    type: simple
+    text: 前項の立入検査又は質問については、第六十九条の二第三項から第五項までの規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

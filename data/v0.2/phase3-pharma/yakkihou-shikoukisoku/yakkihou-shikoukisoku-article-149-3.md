@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-3-p1
+    type: simple
+    text: 法第三十一条の四第一項の厚生労働省令で定める配置販売業者が遵守すべき事項は、次条から第百四十九条の十四まで及び第百四十九条の十六に定めるものとする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

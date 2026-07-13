@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-3-2-p1
+    type: simple
+    text: 医薬品等外国製造業者は、保管のみを行おうとする製造所について厚生労働大臣の登録を受けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-13-3-2-p2
+    type: simple
+    text: 前項の登録については、第十三条の二の二第二項、第三項（同項第一号及び第五号に係る部分に限る。）、第四項及び第五項の規定を準用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

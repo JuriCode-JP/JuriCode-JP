@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十八条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-38-p1 -->
 委員長、委員及び公正取引委員会の職員は、事件に関する事実の有無又は法令の適用について、意見を外部に発表してはならない。但し、この法律に規定する場合又はこの法律に関する研究の結果を発表する場合は、この限りでない。

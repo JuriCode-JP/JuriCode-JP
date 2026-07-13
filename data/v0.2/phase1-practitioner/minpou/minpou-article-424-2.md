@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-2-p1-hashira
+    type: hashira
+    text: 債務者が、その有する財産を処分する行為をした場合において、受益者から相当の対価を取得しているときは、債権者は、次に掲げる要件のいずれにも該当する場合に限り、その行為について、詐害行為取消請求をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-424-2-p1-kou-1
+    type: kou
+    text: その行為が、不動産の金銭への換価その他の当該処分による財産の種類の変更により、債務者において隠匿、無償の供与その他の債権者を害することとなる処分（以下この条において「隠匿等の処分」という。）をするおそれを現に生じさせるものであること。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-424-2-p1-kou-2
+    type: kou
+    text: 債務者が、その行為の当時、対価として取得した金銭その他の財産について、隠匿等の処分をする意思を有していたこと。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-424-2-p1-kou-3
+    type: kou
+    text: 受益者が、その行為の当時、債務者が隠匿等の処分をする意思を有していたことを知っていたこと。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -42,3 +61,9 @@ parent_section:
 ### 第四百二十四条の二
 
 債務者が、その有する財産を処分する行為をした場合において、受益者から相当の対価を取得しているときは、債権者は、次に掲げる要件のいずれにも該当する場合に限り、その行為について、詐害行為取消請求をすることができる。
+
+一　その行為が、不動産の金銭への換価その他の当該処分による財産の種類の変更により、債務者において隠匿、無償の供与その他の債権者を害することとなる処分（以下この条において「隠匿等の処分」という。）をするおそれを現に生じさせるものであること。
+
+二　債務者が、その行為の当時、対価として取得した金銭その他の財産について、隠匿等の処分をする意思を有していたこと。
+
+三　受益者が、その行為の当時、債務者が隠匿等の処分をする意思を有していたことを知っていたこと。

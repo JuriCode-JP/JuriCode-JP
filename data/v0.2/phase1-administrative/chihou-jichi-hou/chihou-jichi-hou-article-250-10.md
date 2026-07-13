@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-10-p1
+    type: simple
+    text: 委員会に、委員長を置き、委員の互選によりこれを定める。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-10-p2
+    type: simple
+    text: 委員長は、会務を総理し、委員会を代表する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-10-p3
+    type: simple
+    text: 委員長に事故があるときは、あらかじめその指名する委員が、その職務を代理する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

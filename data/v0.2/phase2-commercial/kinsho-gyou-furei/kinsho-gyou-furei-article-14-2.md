@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-14-2-p1
+    type: simple
+    text: 法第二十九条の四第一項第五号ニ（１）及びホ（３）（イ）（これらの規定を法第三十一条第五項において準用する場合を含む。）に規定する内閣府令で定める者は、精神の機能の障害により株主の権利を適切に行使するに当たって必要な認知、判断及び意思疎通を適切に行うことができない者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

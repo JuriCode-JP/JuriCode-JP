@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-275-3-p1
+    type: simple
+    text: 法第六十六条の十四の二に規定する内閣府令で定める場合は、一般投資家（同条に規定する一般投資家をいう。以下この条において同じ。）に対する勧誘に基づかないで所属金融商品取引業者等のために当該一般投資家が行う取引所金融商品市場又は外国金融商品市場における売付けの委託の媒介を行う場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

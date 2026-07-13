@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百三十二条
 
-<!-- segment: simple id: chihou-jichi-hou-art-132-p1 -->
 普通地方公共団体の議会の会議又は委員会においては、議員は、無礼の言葉を使用し、又は他人の私生活にわたる言論をしてはならない。

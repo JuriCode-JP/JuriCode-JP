@@ -32,6 +32,16 @@ paragraphs:
     modality: unspecified
     references:
     - 前項
+  - id: minpou-art-124-p2-kou-1
+    type: kou
+    text: 法定代理人又は制限行為能力者の保佐人若しくは補助人が追認をするとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-124-p2-kou-2
+    type: kou
+    text: 制限行為能力者（成年被後見人を除く。）が法定代理人、保佐人又は補助人の同意を得て追認をするとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -52,10 +62,12 @@ parent_section:
 
 ### 第百二十四条第一項
 
-<!-- segment: simple id: minpou-art-124-p1 -->
 取り消すことができる行為の追認は、取消しの原因となっていた状況が消滅し、かつ、取消権を有することを知った後にしなければ、その効力を生じない。
 
 ### 第百二十四条第二項
 
-<!-- segment: hashira id: minpou-art-124-p2-hashira -->
 次に掲げる場合には、前項の追認は、取消しの原因となっていた状況が消滅した後にすることを要しない。
+
+一　法定代理人又は制限行為能力者の保佐人若しくは補助人が追認をするとき。
+
+二　制限行為能力者（成年被後見人を除く。）が法定代理人、保佐人又は補助人の同意を得て追認をするとき。

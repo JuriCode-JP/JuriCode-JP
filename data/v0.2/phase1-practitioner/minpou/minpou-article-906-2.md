@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-906-2-p1
+    type: simple
+    text: 遺産の分割前に遺産に属する財産が処分された場合であっても、共同相続人は、その全員の同意により、当該処分された財産が遺産の分割時に遺産として存在するものとみなすことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-906-2-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、共同相続人の一人又は数人により同項の財産が処分されたときは、当該共同相続人については、同項の同意を得ることを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-4-p1
+    type: simple
+    text: 国の行政機関又は都道府県の機関は、普通地方公共団体に対し、申請等に係る許認可等を拒否する処分をするとき又は許認可等の取消し等をするときは、当該許認可等を拒否する処分又は許認可等の取消し等の内容及び理由を記載した書面を交付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

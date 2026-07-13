@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-18-p1
+    type: simple
+    text: 厚生労働大臣は、第二十三条の二の二十三第一項の登録を受ける者がいないとき、第二十三条の十五第一項の規定による基準適合性認証の業務の全部又は一部の休止又は廃止の届出があつたとき、第二十三条の十六第一項から第三項までの規定により第二十三条の二の二十三第一項の登録を取り消し、又は登録認証機関に対し基準適合性認証の業務の全部若しくは一部の停止を命じ、若しくは請求したとき、登録認証機関が天災その他の事由により基準適合性認証の業務の全部又は一部を実施することが困難となつたときその他必要があると認めるときは、当該基準適合性認証の業務の全部又は一部を行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-18-p2
+    type: simple
+    text: 厚生労働大臣は、前項の場合において必要があると認めるときは、機構に、当該基準適合性認証の業務の全部又は一部を行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-18-p3
+    type: simple
+    text: 厚生労働大臣は、前二項の規定により基準適合性認証の業務の全部若しくは一部を自ら行い、若しくは機構に行わせることとするとき、自ら行つていた基準適合性認証の業務の全部若しくは一部を行わないこととするとき、又は機構に行わせていた基準適合性認証の業務の全部若しくは一部を行わせないこととするときは、その旨を公示しなければならない。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-18-p4
+    type: simple
+    text: 厚生労働大臣が第一項又は第二項の規定により基準適合性認証の業務の全部若しくは一部を自ら行い、又は機構に行わせる場合における基準適合性認証の業務の引継ぎその他の必要な事項は、厚生労働省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

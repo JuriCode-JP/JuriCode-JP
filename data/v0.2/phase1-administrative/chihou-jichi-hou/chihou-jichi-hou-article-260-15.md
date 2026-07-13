@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-15-p1
+    type: simple
+    text: 認可地縁団体の総会の招集の通知は、総会の日より少なくとも五日前に、その会議の目的である事項を示し、規約で定めた方法に従つてしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

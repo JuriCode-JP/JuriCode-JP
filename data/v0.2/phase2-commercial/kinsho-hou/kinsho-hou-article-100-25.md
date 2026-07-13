@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-25-p1
+    type: junyou
+    text: 商業登記法第七十一条第一項の規定は、この法律による金融商品会員制法人の解散の登記について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

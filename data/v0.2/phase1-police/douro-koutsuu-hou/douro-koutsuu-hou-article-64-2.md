@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-64-2-p1
+    type: simple
+    text: 十六歳未満の者は、特定小型原動機付自転車を運転してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-64-2-p2
+    type: simple
+    text: 何人も、前項の規定に違反して特定小型原動機付自転車を運転することとなるおそれがある者に対し、特定小型原動機付自転車を提供してはならない。
+    modality: gimu_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -45,3 +55,5 @@ parent_section:
 ### 第六十四条の二第二項
 
 何人も、前項の規定に違反して特定小型原動機付自転車を運転することとなるおそれがある者に対し、特定小型原動機付自転車を提供してはならない。
+
+（罰則　第一項については第百十八条第一項第二号　第二項については第百十八条第一項第三号）

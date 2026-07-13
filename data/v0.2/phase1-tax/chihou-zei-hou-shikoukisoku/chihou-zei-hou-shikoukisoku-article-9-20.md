@@ -34,5 +34,4 @@ tags:
 
 ### 第九条の二十
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-9-20-p1 -->
 削除

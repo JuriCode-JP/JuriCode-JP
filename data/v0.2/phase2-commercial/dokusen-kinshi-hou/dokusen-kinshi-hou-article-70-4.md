@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-4-p1
+    type: simple
+    text: 裁判所は、緊急の必要があると認めるときは、公正取引委員会の申立てにより、第三条、第六条、第八条、第九条第一項若しくは第二項、第十条第一項、第十一条第一項、第十三条、第十四条、第十五条第一項、第十五条の二第一項、第十五条の三第一項、第十六条第一項、第十七条又は第十九条の規定に違反する疑いのある行為をしている者に対し、当該行為、議決権の行使若しくは会社の役員の業務の執行を一時停止すべきことを命じ、又はその命令を取り消し、若しくは変更することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-4-p2
+    type: simple
+    text: 前項の規定による裁判は、非訟事件手続法（平成二十三年法律第五十一号）により行う。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

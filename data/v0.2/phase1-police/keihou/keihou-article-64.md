@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十四条
 
-<!-- segment: simple id: keihou-art-64-p1 -->
 拘留又は科料のみに処すべき罪の教唆者及び従犯は、特別の規定がなければ、罰しない。

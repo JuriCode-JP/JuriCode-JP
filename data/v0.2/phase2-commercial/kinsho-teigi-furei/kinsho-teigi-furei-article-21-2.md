@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-teigi-furei-art-21-2-p1
+    type: simple
+    text: 法第二条第二十四項第三号の二に規定する内閣府令で定めるものは、その価格の変動その他の事情を勘案して金融庁長官が定めるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

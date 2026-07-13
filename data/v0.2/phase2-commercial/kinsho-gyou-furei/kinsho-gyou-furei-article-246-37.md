@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-246-37-p1
+    type: simple
+    text: 法第六十三条の十三第六項（法第六十三条の十一第二項において準用する場合を含む。）の規定による公告は、官報により行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

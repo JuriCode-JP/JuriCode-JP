@@ -26,6 +26,16 @@ paragraphs:
     - 前条
     references:
     - 前条
+  - id: kojin-jouhou-hogo-hou-art-84-p1-kou-1
+    type: kou
+    text: この条の規定を適用する旨及びその理由
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-84-p1-kou-2
+    type: kou
+    text: 残りの保有個人情報について開示決定等をする期限
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -46,5 +56,8 @@ parent_section:
 
 ### 第八十四条
 
-<!-- segment: tokusoku id: kojin-jouhou-hogo-hou-art-84-p1 override_flag: true override_target: 前条 -->
 開示請求に係る保有個人情報が著しく大量であるため、開示請求があった日から六十日以内にその全てについて開示決定等をすることにより事務の遂行に著しい支障が生ずるおそれがある場合には、前条の規定にかかわらず、行政機関の長等は、開示請求に係る保有個人情報のうちの相当の部分につき当該期間内に開示決定等をし、残りの保有個人情報については相当の期間内に開示決定等をすれば足りる。この場合において、行政機関の長等は、同条第一項に規定する期間内に、開示請求者に対し、次に掲げる事項を書面により通知しなければならない。
+
+一　この条の規定を適用する旨及びその理由
+
+二　残りの保有個人情報について開示決定等をする期限

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百五十条
 
-<!-- segment: simple id: minpou-art-250-p1 -->
 各共有者の持分は、相等しいものと推定する。

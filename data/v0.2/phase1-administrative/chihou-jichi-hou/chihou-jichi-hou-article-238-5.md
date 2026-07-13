@@ -16,47 +16,87 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-5-p1
+    type: simple
+    text: 普通財産は、これを貸し付け、交換し、売り払い、譲与し、若しくは出資の目的とし、又はこれに私権を設定することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-5-p2
+    type: simple
+    text: 普通財産である土地（その土地の定着物を含む。）は、当該普通地方公共団体を受益者として政令で定める信託の目的により、これを信託することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-5-p3
+    type: simple
+    text: 普通財産のうち国債その他の政令で定める有価証券（以下この項において「国債等」という。）は、当該普通地方公共団体を受益者として、指定金融機関その他の確実な金融機関に国債等をその価額に相当する担保の提供を受けて貸し付ける方法により当該国債等を運用することを信託の目的とする場合に限り、信託することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-5-p4
+    type: simple
+    text: 普通財産を貸し付けた場合において、その貸付期間中に国、地方公共団体その他公共団体において公用又は公共用に供するため必要を生じたときは、普通地方公共団体の長は、その契約を解除することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-5-p5
+    type: simple
+    text: 前項の規定により契約を解除した場合においては、借受人は、これによつて生じた損失につきその補償を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-5-p6
+    type: simple
+    text: 普通地方公共団体の長が一定の用途並びにその用途に供しなければならない期日及び期間を指定して普通財産を貸し付けた場合において、借受人が指定された期日を経過してもなおこれをその用途に供せず、又はこれをその用途に供した後指定された期間内にその用途を廃止したときは、当該普通地方公共団体の長は、その契約を解除することができる。
+    modality: kanou_kenri
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-5-p7
+    type: junyou
+    text: 第四項及び第五項の規定は貸付け以外の方法により普通財産を使用させる場合に、前項の規定は普通財産を売り払い、又は譲与する場合に準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-5-p8
+    type: junyou
+    text: 第四項から第六項までの規定は、普通財産である土地（その土地の定着物を含む。）を信託する場合に準用する。
+    modality: unspecified
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-238-5-p9
+    type: simple
+    text: 第七項に定めるもののほか普通財産の売払いに関し必要な事項及び普通財産の交換に関し必要な事項は、政令でこれを定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第百十七条第三項（納税管理人）に規定する財務省令で定める国税に関する事項は、次に掲げる事項その他これに類する事項とする。
     modality: gimu
+  - id: kokuzei-tsuusoku-hou-shikoukisoku-art-12-2-p1-kou-1
+    type: kou
+    text: 国税に関する調査において国税局長若しくは税務署長又は国税局若しくは税務署の当該職員（次号において「国税局長等」という。）が法第百十七条第三項の納税者に対して発する書類を受領し、及び当該納税者に対して当該書類を送付すること。
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-shikoukisoku-art-12-2-p1-kou-2
+    type: kou
+    text: 国税に関する調査において法第百十七条第三項の納税者が国税局長等に対して提出する書類を受領し、及び当該国税局長等に対して当該書類を提出すること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,5 +44,8 @@ tags:
 
 ### 第十二条の二
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-shikoukisoku-art-12-2-p1-hashira -->
 法第百十七条第三項（納税管理人）に規定する財務省令で定める国税に関する事項は、次に掲げる事項その他これに類する事項とする。
+
+一　国税に関する調査において国税局長若しくは税務署長又は国税局若しくは税務署の当該職員（次号において「国税局長等」という。）が法第百十七条第三項の納税者に対して発する書類を受領し、及び当該納税者に対して当該書類を送付すること。
+
+二　国税に関する調査において法第百十七条第三項の納税者が国税局長等に対して提出する書類を受領し、及び当該国税局長等に対して当該書類を提出すること。

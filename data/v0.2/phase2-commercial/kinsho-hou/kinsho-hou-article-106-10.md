@@ -13,30 +13,64 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-10-p1-honbun
+    type: honbun
+    text: 株式会社金融商品取引所を子会社としようとする者又は株式会社金融商品取引所を子会社とする会社の設立をしようとする者は、あらかじめ、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-106-10-p1-tadashi
+    type: tadashi
+    text: ただし、認可金融商品取引業協会、金融商品取引所、商品取引所又は商品取引所持株会社が株式会社金融商品取引所を子会社とする場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-10-p2
+    type: simple
+    text: 前項本文の規定は、保有する対象議決権の数に増加がない場合その他の内閣府令で定める場合において、株式会社金融商品取引所を子会社とすることとなるときには、適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-10-p3-honbun
+    type: honbun
+    text: 前項に規定する場合において、株式会社金融商品取引所を子会社とすることとなつた会社（以下この条において「特定持株会社」という。）は、特定持株会社となつた日から三月以内に、株式会社金融商品取引所を子会社とする会社でなくなるために必要な措置をとらなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-106-10-p3-tadashi
+    type: tadashi
+    text: ただし、当該特定持株会社が株式会社金融商品取引所を子会社とする会社であることについて内閣総理大臣の認可を受けた場合は、この限りでない。
+    modality: jogai
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-10-p4
+    type: junyou
+    text: 第百六条の三第三項及び第五項の規定は、特定持株会社について準用する。この場合において、同条第三項中「前項」とあるのは「第百六条の十第二項」と、同条第五項中「前項」とあるのは「第百六条の十第三項」と、「株式会社金融商品取引所の総株主の議決権の百分の五十以下の数の対象議決権の保有者となつたとき」とあるのは「株式会社金融商品取引所を子会社とする会社でなくなつたとき」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-10-p5
+    type: junyou
+    text: 第三十条の二の規定は、第一項及び第三項ただし書の認可について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

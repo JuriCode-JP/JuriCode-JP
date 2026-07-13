@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-182-3-p1
+    type: simple
+    text: 株式の併合が法令又は定款に違反する場合において、株主が不利益を受けるおそれがあるときは、株主は、株式会社に対し、当該株式の併合をやめることを請求することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

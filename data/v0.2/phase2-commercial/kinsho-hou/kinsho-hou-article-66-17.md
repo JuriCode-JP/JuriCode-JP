@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-17-p1
+    type: simple
+    text: 金融商品仲介業者は、事業年度ごとに、内閣府令で定めるところにより、金融商品仲介業に関する報告書を作成し、毎事業年度経過後三月以内に、これを内閣総理大臣に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-17-p2
+    type: simple
+    text: 金融商品仲介業者は、内閣府令で定めるところにより、事業年度ごとに、前項の報告書に記載されている事項のうち投資者の保護に必要と認められるものとして内閣府令で定めるものを記載した書面を作成し、これを金融商品仲介業を行う全ての営業所若しくは事務所に備え置いて公衆の縦覧に供し、又は内閣府令で定めるところにより、インターネットの利用その他の方法により公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

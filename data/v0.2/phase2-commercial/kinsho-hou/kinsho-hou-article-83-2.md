@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-83-2-p1-hashira
+    type: hashira
+    text: 金融商品取引所は、金融商品会員制法人又は資本金の額が政令で定める金額以上の株式会社であつて次に掲げる機関を置くものでなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-83-2-p1-kou-1
+    type: kou
+    text: 取締役会
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-83-2-p1-kou-2
+    type: kou
+    text: 監査役会、監査等委員会又は指名委員会等
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-83-2-p1-kou-3
+    type: kou
+    text: 会計監査人
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第八十三条の二
 
 金融商品取引所は、金融商品会員制法人又は資本金の額が政令で定める金額以上の株式会社であつて次に掲げる機関を置くものでなければならない。
+
+一　取締役会
+
+二　監査役会、監査等委員会又は指名委員会等
+
+三　会計監査人

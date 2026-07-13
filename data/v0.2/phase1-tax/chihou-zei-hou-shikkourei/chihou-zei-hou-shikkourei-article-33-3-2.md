@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-33-3-2-p1
+    type: junyou
+    text: 第三十三条の二第一項から第三項までの規定は、法第七十二条の四十五の二第二項において準用する法第七十二条の四十四第四項の規定による延滞金の計算について準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-33-3-2-p2
+    type: junyou
+    text: 前条第一項及び第二項の規定は、法第七十二条の四十五の二第三項において準用する法第七十二条の四十五第三項の規定による延滞金の計算について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

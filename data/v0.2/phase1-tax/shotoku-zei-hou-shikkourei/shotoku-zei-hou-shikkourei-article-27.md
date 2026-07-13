@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二十七条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-27-p1 -->
 法第九条第一項第十一号（非課税所得）に規定する政令で定めるものは、オープン型の証券投資信託の契約に基づき収益調整金のみに係る収益として分配される特別分配金とする。

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十三条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-33-p1 -->
 審判官は、指定職員又は被審人若しくはその代理人が申し出た証拠で必要でないと認めるものは、取り調べることを要しない。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百五十条
 
-<!-- segment: junyou id: shouhou-art-850-p1 -->
 この章の規定は、製造中の船舶について準用する。

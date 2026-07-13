@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-11-p1
+    type: simple
+    text: 登録販売者は、販売従事登録証の記載事項に変更を生じたときは、販売従事登録証の書換え交付を申請することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-11-p2
+    type: simple
+    text: 前項の申請をするには、様式第八十六の六による申請書にその販売従事登録証を添え、登録を受けた都道府県知事に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

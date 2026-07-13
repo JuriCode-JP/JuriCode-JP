@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十八条
 
-<!-- segment: simple id: roudou-kijun-hou-art-28-p1 -->
 賃金の最低基準に関しては、最低賃金法（昭和三十四年法律第百三十七号）の定めるところによる。

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-30-2-p1
+    type: simple
+    text: 審判官は、相当と認めるときは、指定職員又は被審人若しくはその代理人の意見を聴いて、審判官、指定職員並びに被審人及びその代理人が映像と音声の送受信により相手の状態を相互に認識しながら通話をすることができる方法によって、準備手続を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-30-2-p2
+    type: junyou
+    text: 第十八条の二第一項の規定は、前項の準備手続について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\332AC0000000026.xml",
   "source_xml_sha256": "8d02fe5763e9f5188b8f69bdd8505267b8e5e583f731e73bbc5cc4d23187d1ee",
   "source_xml_bytes": 14557758,
-  "source_fetched_at": "2026-07-03",
+  "source_fetched_at": "2026-07-13",
   "parser": "tools/parse/v0.2/segment_parser.py",
-  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-07-03T03:38:08+00:00",
+  "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
+  "parsed_at": "2026-07-13T13:58:34+00:00",
   "version_date": "1957-03-31",
   "article_count": 489,
   "articles": [
@@ -18,32 +18,32 @@
       "article_id": "sochi-hou-art-1",
       "article_number": "1",
       "filename": "sochi-hou-article-1.md",
-      "ja_text_sha256": "7db885c20d4d78a1ed7fdac8e308f8561e195b944149cd70aba9b1f196556e89",
-      "ja_text_bytes": 1743,
+      "ja_text_sha256": "ac5c54948d9236fed84c2b0401e5e3dc9f26786121cc25c45b547ed479e18cc6",
+      "ja_text_bytes": 1695,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-10-2",
       "article_number": "10-2",
       "filename": "sochi-hou-article-10-2.md",
-      "ja_text_sha256": "727b53ecb92eeaf2cea83be6130a2a75fe95a9c28b9e67b8466ffbfef5985be4",
-      "ja_text_bytes": 2589,
+      "ja_text_sha256": "4a6518f43d0725bf1d561e853606c96113bae93ecf5f39bb4d776b652158db8e",
+      "ja_text_bytes": 5029,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-10-3",
       "article_number": "10-3",
       "filename": "sochi-hou-article-10-3.md",
-      "ja_text_sha256": "59822dcb8d6650c78c367101e3e23c4b55c75024155c694943f41c0bd7ceab95",
-      "ja_text_bytes": 8958,
+      "ja_text_sha256": "9f2066ed5a406391e0a07bf44836f1832977e7132e19951abb9c6681e9f9aeed",
+      "ja_text_bytes": 8841,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-10-4",
       "article_number": "10-4",
       "filename": "sochi-hou-article-10-4.md",
-      "ja_text_sha256": "ecaf78b8aeb658a7fcc869ea7ebe891619d092a0da5957b4a6a59d9f3ff8cf13",
-      "ja_text_bytes": 8548,
+      "ja_text_sha256": "bfabce9e838ca25b32ac6bc225807d4c3dc30da7cd35abe529d32d7d785a57e5",
+      "ja_text_bytes": 9024,
       "paragraph_count": 8
     },
     {
@@ -66,232 +66,232 @@
       "article_id": "sochi-hou-art-10-5-4",
       "article_number": "10-5-4",
       "filename": "sochi-hou-article-10-5-4.md",
-      "ja_text_sha256": "96daeccae52dcde891215a34cbdf286abbb7ea263468c6bd15823ccdc6480692",
-      "ja_text_bytes": 7531,
+      "ja_text_sha256": "ec46378cfb51e7828925c2d9fea10e59fa41f02857170aea812c919fa29fbe47",
+      "ja_text_bytes": 13742,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-10-5-5",
       "article_number": "10-5-5",
       "filename": "sochi-hou-article-10-5-5.md",
-      "ja_text_sha256": "b7eca10fb94a519a0b469e2f30f2ee222ca637548584ba81727f56b7c1931e33",
-      "ja_text_bytes": 9976,
+      "ja_text_sha256": "8f70770a1e15218deb686b87bc756b5960766d9afe572d42ab91c41d2e2ab295",
+      "ja_text_bytes": 10976,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-10-5",
       "article_number": "10-5",
       "filename": "sochi-hou-article-10-5.md",
-      "ja_text_sha256": "a5f7e3e0950ccf9cd2f1396e3b52ba0527c849fe9c1155af306026ade51af84d",
-      "ja_text_bytes": 10302,
+      "ja_text_sha256": "ab3f4aa96d3dd579b813b2d8a16d8ce51573da73209bfa54c1d6258986ac65c1",
+      "ja_text_bytes": 12121,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-10-6",
       "article_number": "10-6",
       "filename": "sochi-hou-article-10-6.md",
-      "ja_text_sha256": "8b37aff6c8ed5980299db2281f32a74fb62f079ec2d36104648d5db4d96f6b53",
-      "ja_text_bytes": 6855,
+      "ja_text_sha256": "40b8695c3cd850f1f790f94c9ee903384372bceeb830edcb982d80704c7e8821",
+      "ja_text_bytes": 11633,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-10",
       "article_number": "10",
       "filename": "sochi-hou-article-10.md",
-      "ja_text_sha256": "1289bdf9072d8fff9227e31810526fe9552f780231333cc37913c40cdf34185b",
-      "ja_text_bytes": 9230,
+      "ja_text_sha256": "1f639a56c6cd3fa87bd99c00afabae1590c84ea1259375c86d7b5a18d5624290",
+      "ja_text_bytes": 22957,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-11-2",
       "article_number": "11-2",
       "filename": "sochi-hou-article-11-2.md",
-      "ja_text_sha256": "e353f4827218b5c84252aa7a01d22f7f4c02a040d6059bd9e811615529f1c883",
-      "ja_text_bytes": 5593,
+      "ja_text_sha256": "0507a78a840599b225485f24fc9784638ff046db360e7dd6255087b999243a6c",
+      "ja_text_bytes": 5334,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-11-3",
       "article_number": "11-3",
       "filename": "sochi-hou-article-11-3.md",
-      "ja_text_sha256": "15ae78ec814da5706c01fb12d4fcf2aff26e2ed8c440492763dd2c58d765fbfe",
-      "ja_text_bytes": 4306,
+      "ja_text_sha256": "b81f54573727ff6c530950b6a159cb70f035ee3611596bd37620a1f978214b2b",
+      "ja_text_bytes": 4047,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-11-4",
       "article_number": "11-4",
       "filename": "sochi-hou-article-11-4.md",
-      "ja_text_sha256": "a6a328840b966772b9ecfceb9429945ce886ae3ac8ed1d30cf222b9e38d1bb41",
-      "ja_text_bytes": 5413,
+      "ja_text_sha256": "c756be2bc613fab6e34f9d2840e3fa6126e94e73801cfe477c02e09c2e35cc13",
+      "ja_text_bytes": 5741,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-11-5",
       "article_number": "11-5",
       "filename": "sochi-hou-article-11-5.md",
-      "ja_text_sha256": "6c5a46edf8a5a4a3615cb25e31b86549f5391fb33755fb6afdaa9103c70b0938",
-      "ja_text_bytes": 2669,
+      "ja_text_sha256": "0a3f6ae01eb7531946ba360aa1ae5712690a65a3c12063248dceb1feffecf261",
+      "ja_text_bytes": 3720,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-11",
       "article_number": "11",
       "filename": "sochi-hou-article-11.md",
-      "ja_text_sha256": "b1a4419639cdce4292cd438769d111538294acef1e30bd694015e56794461596",
-      "ja_text_bytes": 2907,
+      "ja_text_sha256": "f49835baef8b0444d9d08d4ed975b00266e7aa612098e9ead92080db31b5a186",
+      "ja_text_bytes": 5927,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-12-2",
       "article_number": "12-2",
       "filename": "sochi-hou-article-12-2.md",
-      "ja_text_sha256": "81a5197348826a6c4e3d5dc6895b39a143b88daf604b721c80bbf9ae8dd477b9",
-      "ja_text_bytes": 6263,
+      "ja_text_sha256": "b787586f0a0fd3417f11820219a5e3dd8d8c3c489410d277739c0bbcdb549c2d",
+      "ja_text_bytes": 5843,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-12",
       "article_number": "12",
       "filename": "sochi-hou-article-12.md",
-      "ja_text_sha256": "61ce2e9e42c69da3c7c27af74adbd9d7077454e23a090d068dfd33141f54a77f",
-      "ja_text_bytes": 11461,
+      "ja_text_sha256": "f80e7dfff31a33d2951b05439089e3117c50b4555a3d08ab95c1b4b5585399eb",
+      "ja_text_bytes": 10953,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-13",
       "article_number": "13",
       "filename": "sochi-hou-article-13.md",
-      "ja_text_sha256": "81686cb0993f2432add0646375024e09eb529735d7c48ddec374a8fdf6c01680",
-      "ja_text_bytes": 4697,
+      "ja_text_sha256": "5e37c8eee5b0cd806314175bbd993039089e78ff9265674fc13ad918cc585c95",
+      "ja_text_bytes": 4446,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-14",
       "article_number": "14",
       "filename": "sochi-hou-article-14.md",
-      "ja_text_sha256": "f41a496510029a8d9ba20c5b07c88b225757d42529f4b0c6d4220b0574099b39",
-      "ja_text_bytes": 3263,
+      "ja_text_sha256": "e2afa6cbf55a5d7939c6c73541003df4bb79455b6caa936a865264465caceb65",
+      "ja_text_bytes": 3215,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-19",
       "article_number": "19",
       "filename": "sochi-hou-article-19.md",
-      "ja_text_sha256": "b4d845319ce5eff4b39e65219b96bea437f0a46b783b49a89c8660add0536490",
-      "ja_text_bytes": 1216,
+      "ja_text_sha256": "fefcb3c4b16dfbe8d7bddd5c3243dfd1600028da40272418a0bce338060db3cc",
+      "ja_text_bytes": 1342,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-2-2",
       "article_number": "2-2",
       "filename": "sochi-hou-article-2-2.md",
-      "ja_text_sha256": "0b9802c9dc8d415dae8375f38a3f1d3de9773288470835aa8b358f080d0ad2ff",
-      "ja_text_bytes": 1280,
+      "ja_text_sha256": "b29fd9c38066aed9b959c4f83da6a274efd98c9f77a03e4ab8adc6f7b517f293",
+      "ja_text_bytes": 1080,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-2",
       "article_number": "2",
       "filename": "sochi-hou-article-2.md",
-      "ja_text_sha256": "df9bfb027c4dc162fd51805cc6e1626369a6bd3b97a57978186bc5f4a9aeb441",
-      "ja_text_bytes": 690,
+      "ja_text_sha256": "ef9e31e9ddcce580bc0c7ad51657ef166ba4ae623873f74a25fcb280d5de34ac",
+      "ja_text_bytes": 10987,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-20",
       "article_number": "20",
       "filename": "sochi-hou-article-20.md",
-      "ja_text_sha256": "98360a15c6b3d429459df86493614afb63ef4040e9ac5ac34f1f64ee23bc9d91",
-      "ja_text_bytes": 55,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-21",
       "article_number": "21",
       "filename": "sochi-hou-article-21.md",
-      "ja_text_sha256": "1378c779fe3f343405af44da032e6281fbc62ed6c85f63c21ae399949df39fb7",
-      "ja_text_bytes": 7039,
+      "ja_text_sha256": "40155ffcccf00b438809f146e16cb250965778db32f39ef6e18f054a9e987aec",
+      "ja_text_bytes": 8566,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-22",
       "article_number": "22",
       "filename": "sochi-hou-article-22.md",
-      "ja_text_sha256": "adeaa32dc3f8e4fded18076735e8d96544395eeaf0ad1de66668e53d835ae7a0",
-      "ja_text_bytes": 4086,
+      "ja_text_sha256": "a632f744eda0feb9b397f178549dc16cdb831017bfa555d2fec5e34d48f469aa",
+      "ja_text_bytes": 5047,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-23",
       "article_number": "23",
       "filename": "sochi-hou-article-23.md",
-      "ja_text_sha256": "d623c51f836f1742622793457061c329d235b7e75cdb744965d34c190a53bd7c",
-      "ja_text_bytes": 1383,
+      "ja_text_sha256": "a9de2ef3c6a7d66fdb0cf1b22b4ce357db841fc2197ca61c8c86849f7f05928f",
+      "ja_text_bytes": 1943,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-24-2",
       "article_number": "24-2",
       "filename": "sochi-hou-article-24-2.md",
-      "ja_text_sha256": "cc6556145d0fc3f3980e50ab53a7c2a39adc1375a48b8ec0fe5d2dd99425d410",
-      "ja_text_bytes": 7673,
+      "ja_text_sha256": "b92dd0441d359a2100f3c0a4fe32d3b5d54042eb652d5eac4bee071f3422eaed",
+      "ja_text_bytes": 8943,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-24-3",
       "article_number": "24-3",
       "filename": "sochi-hou-article-24-3.md",
-      "ja_text_sha256": "4e901e092e871ad32dbc17c3b7c90ed6c07d6e8b2324ddb7608d6da8517c368a",
-      "ja_text_bytes": 3950,
+      "ja_text_sha256": "a82054b6d9974f30f963c64162367c790c7ff7bba77b73f8dd6a2a240be29b7a",
+      "ja_text_bytes": 4594,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-24",
       "article_number": "24",
       "filename": "sochi-hou-article-24.md",
-      "ja_text_sha256": "0a4514fc85acbde00f7f7745574caa9e723eeaafa73e4fbdcadd99a177f492f3",
-      "ja_text_bytes": 55,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-25-2",
       "article_number": "25-2",
       "filename": "sochi-hou-article-25-2.md",
-      "ja_text_sha256": "fb6e66397800552003e7b88a59431bbbb7b9af12ea41b9d71803628dec149057",
-      "ja_text_bytes": 3154,
+      "ja_text_sha256": "36b2ad3a1425f73cf2ae3f80f8996d8d32ec9ce89a7d17f3ec32b41ec4f3fa26",
+      "ja_text_bytes": 5335,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-25",
       "article_number": "25",
       "filename": "sochi-hou-article-25.md",
-      "ja_text_sha256": "b16ebc69c9f8d90bc3574cdc58bbdc32317cb5f54946ca082b87984bb18d23b0",
-      "ja_text_bytes": 4246,
+      "ja_text_sha256": "a82a90d8912f52014bd2aadd4c8ee7f1966cc55495a410ecd6d69cc8d9c8a96f",
+      "ja_text_bytes": 5171,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-26",
       "article_number": "26",
       "filename": "sochi-hou-article-26.md",
-      "ja_text_sha256": "7db1b3dac6096cecb9f38682ec40306f8f4402cc5525a0ac4574c3b3c1248c3d",
-      "ja_text_bytes": 1903,
+      "ja_text_sha256": "70cc5a3194b79d10e3a2a7a5a680dc1810f0fb153c9ca775486e1f2c55165eb9",
+      "ja_text_bytes": 10926,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-27-2",
       "article_number": "27-2",
       "filename": "sochi-hou-article-27-2.md",
-      "ja_text_sha256": "284d266576f99e57485cd4fc06d89f020d40798d7857fbe6deface8bfae846b9",
-      "ja_text_bytes": 2341,
+      "ja_text_sha256": "d262ce825a0807ed22576cd81e89289d9ec99f4dbd073d1ccc53250352bc435f",
+      "ja_text_bytes": 2070,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-27",
       "article_number": "27",
       "filename": "sochi-hou-article-27.md",
-      "ja_text_sha256": "b1ed031979b7952fb3e16080f857099b16c8ce00e13d0e928a21d207f912bf58",
-      "ja_text_bytes": 1596,
+      "ja_text_sha256": "1779421ed2b5a7d5225151e34fd866f3bd9d5692e1adec02227c9c5cfb84eb2a",
+      "ja_text_bytes": 1452,
       "paragraph_count": 1
     },
     {
@@ -306,360 +306,360 @@
       "article_id": "sochi-hou-art-28-2",
       "article_number": "28-2",
       "filename": "sochi-hou-article-28-2.md",
-      "ja_text_sha256": "bbb6e2c8641aa8cef35f819837fe89e3f820a5da74025f80cad878a48b3e4777",
-      "ja_text_bytes": 2979,
+      "ja_text_sha256": "8305cc9dc95c9c6f58f826df88394fc1544a0d68331efba90209ca4992afafa3",
+      "ja_text_bytes": 2669,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-28-3",
       "article_number": "28-3",
       "filename": "sochi-hou-article-28-3.md",
-      "ja_text_sha256": "61e65eaab58a58105f03b2f3eaf8515830a1a2a4e6164d0e20700fae093c5d32",
-      "ja_text_bytes": 8584,
+      "ja_text_sha256": "ca4b6b0fdb47bf4434e8a88e4c313613e2dac0ccca7c510d2f219b410408f4d0",
+      "ja_text_bytes": 9852,
       "paragraph_count": 12
     },
     {
       "article_id": "sochi-hou-art-28-4",
       "article_number": "28-4",
       "filename": "sochi-hou-article-28-4.md",
-      "ja_text_sha256": "07c7cae34e8352ae404dc6a163b00d90534ecddcb24dfefa01f07305e813ef5c",
-      "ja_text_bytes": 3041,
+      "ja_text_sha256": "049f7c251e956d9b542effd4112e1b78e2777c5b1bbeaa0bddaf9175abcf21cf",
+      "ja_text_bytes": 10757,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-28",
       "article_number": "28",
       "filename": "sochi-hou-article-28.md",
-      "ja_text_sha256": "7602deac4dc1a235ad22c33690c0984b748c8657fd2f4b0ea42eca355222af3c",
-      "ja_text_bytes": 1383,
+      "ja_text_sha256": "38c61af256dea86149cdeb990af7762c55691bf6448a520a60603b280b1295be",
+      "ja_text_bytes": 2788,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-29-2",
       "article_number": "29-2",
       "filename": "sochi-hou-article-29-2.md",
-      "ja_text_sha256": "53e4ffba77cf8c4c68e279a561c13aebd540b668abcfc8f222c7032149dd30cc",
-      "ja_text_bytes": 15709,
+      "ja_text_sha256": "4d0b9752c52b1b0c947a3285289d42c5470a63b350b169d3668f2b398385ccd2",
+      "ja_text_bytes": 23702,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-29-3",
       "article_number": "29-3",
       "filename": "sochi-hou-article-29-3.md",
-      "ja_text_sha256": "96d45e5ede6777f978e3b508c7e3fbb98c2504880a2ae2b0fb45815acd225101",
-      "ja_text_bytes": 1512,
+      "ja_text_sha256": "0c9862ab2ffd1144d77798dac8d06bc66904ab497551461001c893c3e7e9774e",
+      "ja_text_bytes": 1461,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-29-4",
       "article_number": "29-4",
       "filename": "sochi-hou-article-29-4.md",
-      "ja_text_sha256": "bfa0518b1c32f0520892b70d8ef6f428807d9bc044a590c57281851631108b04",
-      "ja_text_bytes": 720,
+      "ja_text_sha256": "f03d18e8f5c079c7c90e6aac0fe9604ee1676bd19796990c69b3ecdf238aacb2",
+      "ja_text_bytes": 669,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-29",
       "article_number": "29",
       "filename": "sochi-hou-article-29.md",
-      "ja_text_sha256": "4b27f6830b18aa9f33d6d9eff040ad0857ff44e0b028668dfb2190f8a18f67ea",
-      "ja_text_bytes": 592,
+      "ja_text_sha256": "a48285d200f658fa2b3c9d3b31c487b9c067d80df519ac49cd5168d23907b3b2",
+      "ja_text_bytes": 1290,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-3-2",
       "article_number": "3-2",
       "filename": "sochi-hou-article-3-2.md",
-      "ja_text_sha256": "34ca550e8f5eb2e08da98c4cdcc4f4173d5767db5dd0003a7a44555975d8ad9c",
-      "ja_text_bytes": 1938,
+      "ja_text_sha256": "1aa55e45c879ce7f844db7a55dab04591157ca8c6874d882652044fc44155a19",
+      "ja_text_bytes": 1842,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-3-3",
       "article_number": "3-3",
       "filename": "sochi-hou-article-3-3.md",
-      "ja_text_sha256": "ef01343f9523f28296342fccdc9fd63de75dc22e35dc3d1e3e3b4a9d0a73d0e5",
-      "ja_text_bytes": 6820,
+      "ja_text_sha256": "66c96cb006281790b9de21c6331fcaf10851ce9060010c1dcc5a787dc96ffb8c",
+      "ja_text_bytes": 7261,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-3-4",
       "article_number": "3-4",
       "filename": "sochi-hou-article-3-4.md",
-      "ja_text_sha256": "0284408bea9c05baf4e1af9dc2c6ffc167ba4f9da78174f29ed0e5a21b05552e",
-      "ja_text_bytes": 563,
+      "ja_text_sha256": "eacbf1a98b100fca9d543c4015be7dc0d5e2d8e67b38c9c4a51bf5966618483f",
+      "ja_text_bytes": 513,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-3",
       "article_number": "3",
       "filename": "sochi-hou-article-3.md",
-      "ja_text_sha256": "642a545a674108b67c4c7dfaec954efb5494902e330b930662dc358029556c6f",
-      "ja_text_bytes": 2782,
+      "ja_text_sha256": "9029dcdf289651320f9d92ca089eeeb16d30ae686280b229b5174c5b96550a17",
+      "ja_text_bytes": 4803,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-30-2",
       "article_number": "30-2",
       "filename": "sochi-hou-article-30-2.md",
-      "ja_text_sha256": "58f82b4b4c081526f724d4b7e752ecaa70661b4150a6a60571d2c0aead95cbfd",
-      "ja_text_bytes": 5354,
+      "ja_text_sha256": "26292750864d20039965469c7c66d9b7b1f7128f9cf3580293a288baafd31af2",
+      "ja_text_bytes": 7151,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-30",
       "article_number": "30",
       "filename": "sochi-hou-article-30.md",
-      "ja_text_sha256": "2caa8d7d675d645226651e0a328bd6da467fb65fc49436091d747c18734aeba1",
-      "ja_text_bytes": 2116,
+      "ja_text_sha256": "a4af300788c5f87c2fdc0df4d3971c21423ac47abc727baeace63823af4ece18",
+      "ja_text_bytes": 3699,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-31-2",
       "article_number": "31-2",
       "filename": "sochi-hou-article-31-2.md",
-      "ja_text_sha256": "22ad25bfd5c946da0734d8b97b3690d30bbc27c94c047bafef7e668fabcfdb9a",
-      "ja_text_bytes": 6905,
+      "ja_text_sha256": "f0b9b1f9e79b491d365f402de5365c4580b2e46a1d7784dc8df76a9fb39803b0",
+      "ja_text_bytes": 25651,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-31-3",
       "article_number": "31-3",
       "filename": "sochi-hou-article-31-3.md",
-      "ja_text_sha256": "b1ee69d6201d62835d07c19291000931c51a22c6fdf28694fb0febe5f47ea3c3",
-      "ja_text_bytes": 2373,
+      "ja_text_sha256": "e9c0924252196ad831e5f069494f9c834f1ff732a4a0444b7b7ae81bdde75aef",
+      "ja_text_bytes": 3544,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-31-4",
       "article_number": "31-4",
       "filename": "sochi-hou-article-31-4.md",
-      "ja_text_sha256": "2ab66689b6c8fd38729cf8df98ea91ce469e3d8c056ceec9f0876a3dc542009b",
-      "ja_text_bytes": 1128,
+      "ja_text_sha256": "c667d974e1cef9fe4eaa029091ad0a4880762a0c834d34ae2b7643ab4187ccc3",
+      "ja_text_bytes": 1277,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-31",
       "article_number": "31",
       "filename": "sochi-hou-article-31.md",
-      "ja_text_sha256": "e81ad67de791849288ae53ea1ee095f51f3cffd741b75af4070f2140109914e4",
-      "ja_text_bytes": 2855,
+      "ja_text_sha256": "ce96f427ac5ab68f95d7213489baa309ccfce898bb0d4cd89221582a0ab6774f",
+      "ja_text_bytes": 5362,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-32",
       "article_number": "32",
       "filename": "sochi-hou-article-32.md",
-      "ja_text_sha256": "404d7f4f7b9811f2aac894e29c0f7f77241e10690c59a8b8dfb094d12f4c14be",
-      "ja_text_bytes": 4571,
+      "ja_text_sha256": "1d62868a6eef3e1681255328e99765c912d867085b14e54a7a79de58cbfaa87a",
+      "ja_text_bytes": 5697,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-33-2",
       "article_number": "33-2",
       "filename": "sochi-hou-article-33-2.md",
-      "ja_text_sha256": "4a2391765cde04a3b732c13389e4e7c6637bb4f7f80482a0fc8c74b3d1c38b58",
-      "ja_text_bytes": 2750,
+      "ja_text_sha256": "5072cbde65bb9e160e180bb36fae70b71d18b04ce9aef64d95804e25838daca0",
+      "ja_text_bytes": 3131,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-33-3",
       "article_number": "33-3",
       "filename": "sochi-hou-article-33-3.md",
-      "ja_text_sha256": "95ec1df585a3471e5e29e35e521fc9f883f72f212367fa892369cc28487aeeb7",
-      "ja_text_bytes": 18460,
+      "ja_text_sha256": "ad56bffb93705ad56a0406728bfc8077ff53416c48ea2ed7b1f797512011a242",
+      "ja_text_bytes": 17793,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-33-4",
       "article_number": "33-4",
       "filename": "sochi-hou-article-33-4.md",
-      "ja_text_sha256": "6bf6d3462806e017c2b49fe9a4bb635e35b394dbec91936d78a399fb64037f13",
-      "ja_text_bytes": 4797,
+      "ja_text_sha256": "99b8b9a8adbf6dfd062d8dc4051bef415c3dad5411db9483ed445bb6d086f41b",
+      "ja_text_bytes": 7797,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-33-5",
       "article_number": "33-5",
       "filename": "sochi-hou-article-33-5.md",
-      "ja_text_sha256": "be212336f699cc179d4bf1ae77747aa38a0d3f1dc3e3345dbc051bab14971709",
-      "ja_text_bytes": 1827,
+      "ja_text_sha256": "83bf8ea189cf8484dbba7c88352901bc30a4f7446a50d6ef7e1c1a534eda230d",
+      "ja_text_bytes": 3383,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-33-6",
       "article_number": "33-6",
       "filename": "sochi-hou-article-33-6.md",
-      "ja_text_sha256": "6af421c7535a985b25956d87699860b797979fbe2c1b54f8b3c5084d7159b7f6",
-      "ja_text_bytes": 3974,
+      "ja_text_sha256": "7bbc710f3a2c6409e27e0403962e28f482ed73473981a857501c7d9b4552a42f",
+      "ja_text_bytes": 5052,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-33",
       "article_number": "33",
       "filename": "sochi-hou-article-33.md",
-      "ja_text_sha256": "d72f7dd1898ed0dff37b3d1702edc941c142c0d2914a7a94643a3a3eeb5e5deb",
-      "ja_text_bytes": 9162,
+      "ja_text_sha256": "222a3f0c6747a9363cbad697ffd9da5ffd76c459a764d26666329754aadc260c",
+      "ja_text_bytes": 22793,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-34-2",
       "article_number": "34-2",
       "filename": "sochi-hou-article-34-2.md",
-      "ja_text_sha256": "2df3a4fb9757672e91af800c27175a2a82edd0eff561acc8f5d2349305c990be",
-      "ja_text_bytes": 2321,
+      "ja_text_sha256": "b319ee66b5e30d4fca8b19b49d989b54c2b7805a5298fcedb6f1e0f4cb879fa7",
+      "ja_text_bytes": 25542,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-34-3",
       "article_number": "34-3",
       "filename": "sochi-hou-article-34-3.md",
-      "ja_text_sha256": "89ca205dd04da307e4707ffd9e9ea610166326a6b098b901a633b6841fe44955",
-      "ja_text_bytes": 1626,
+      "ja_text_sha256": "871c683e0dff95c3a13ca4f3c4b9c32aa98174bea7dd6473083578755a2383ec",
+      "ja_text_bytes": 6243,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-34",
       "article_number": "34",
       "filename": "sochi-hou-article-34.md",
-      "ja_text_sha256": "6762ae9b89ab87b9b566a1e64b59bb13d82c55270077fa144a18f1d91b7768d6",
-      "ja_text_bytes": 2974,
+      "ja_text_sha256": "bbe92d3661486cbaff27e8f5bce145885fff4d8a71c6051105806d3cfc27b2c2",
+      "ja_text_bytes": 10063,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-35-2",
       "article_number": "35-2",
       "filename": "sochi-hou-article-35-2.md",
-      "ja_text_sha256": "e583ee1eaac663a97f599dd1012b4e30f6c8aad910cfd42ad646382a6a35de07",
-      "ja_text_bytes": 2685,
+      "ja_text_sha256": "340fa2f6f377bd0e0b86caf2bbe25af2d35dd42c44a66472cc553840d37094be",
+      "ja_text_bytes": 2481,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-35-3",
       "article_number": "35-3",
       "filename": "sochi-hou-article-35-3.md",
-      "ja_text_sha256": "ccbb4d8f11af437e7c6872accd5b1740f466fc03428e22fd19b47d6f9e598e14",
-      "ja_text_bytes": 3371,
+      "ja_text_sha256": "dbf9530f25c030a75302af2b085fdede40d8aef239528b9f9d010f3d2e00ead5",
+      "ja_text_bytes": 4009,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-35",
       "article_number": "35",
       "filename": "sochi-hou-article-35.md",
-      "ja_text_sha256": "5e7c375a75406f2f6c2514dcc5a6c0bc9980d06c685bba39a23df277eda74153",
-      "ja_text_bytes": 11483,
+      "ja_text_sha256": "99c41a9045957fced591f619fbbdd29312d8ceefb9cd90ae09756fe66f502cce",
+      "ja_text_bytes": 16708,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-36-2",
       "article_number": "36-2",
       "filename": "sochi-hou-article-36-2.md",
-      "ja_text_sha256": "bc949d3dae59e4049e76a35b48326b9440ba621f8c6f01a59cd44e5c469174e6",
-      "ja_text_bytes": 7739,
+      "ja_text_sha256": "ed6f23140be635bde57390b9b31a5f52782795e3a50e4f1d976f3f24c92d87a0",
+      "ja_text_bytes": 8543,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-36-3",
       "article_number": "36-3",
       "filename": "sochi-hou-article-36-3.md",
-      "ja_text_sha256": "f98f4ce022d84570f2a2259540b5d00d1bb33d9d9345d66f03bd2b0c7d22f640",
-      "ja_text_bytes": 3389,
+      "ja_text_sha256": "943a75b9c201f53ef6be747f13646d9c50412d08de19b169e84a0b4dbbeaf81e",
+      "ja_text_bytes": 3662,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-36-4",
       "article_number": "36-4",
       "filename": "sochi-hou-article-36-4.md",
-      "ja_text_sha256": "76fbec5a620c666e268d090ccc82d3eef70d04c454f979ca09f3c2b05288e335",
-      "ja_text_bytes": 1128,
+      "ja_text_sha256": "e0a4b157e2d78dcf44d97c10cb6f94b34cfa470d3449bfd8b1e0706370c095d6",
+      "ja_text_bytes": 1788,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-36-5",
       "article_number": "36-5",
       "filename": "sochi-hou-article-36-5.md",
-      "ja_text_sha256": "4fb86a68d978d0b4f504a4a7962f74175f3b85f6105b599b3f1a22417489cdbc",
-      "ja_text_bytes": 1395,
+      "ja_text_sha256": "28ba58feb288e73f7cba4f7e6d75530312868a01e0459f522702e627da90918a",
+      "ja_text_bytes": 1983,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-36",
       "article_number": "36",
       "filename": "sochi-hou-article-36.md",
-      "ja_text_sha256": "ec718d511a8f19f2917c91789f407be55425830da5cbfa457da8a4bf76ebf894",
-      "ja_text_bytes": 805,
+      "ja_text_sha256": "f87edaa24ab3f85951376c8809430d2739348ee5f9768b274469d8abbd76405e",
+      "ja_text_bytes": 756,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-37-10",
       "article_number": "37-10",
       "filename": "sochi-hou-article-37-10.md",
-      "ja_text_sha256": "898b95936938dc58dff7cf874380aa7e1306d08f2e5945d35f72aecc51db216c",
-      "ja_text_bytes": 4082,
+      "ja_text_sha256": "ae5c60f5cd0578e19fe25114c66383c48b0a12d1044a9946333970e514958ba1",
+      "ja_text_bytes": 19722,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-37-11-2",
       "article_number": "37-11-2",
       "filename": "sochi-hou-article-37-11-2.md",
-      "ja_text_sha256": "99da6bbe5285f495a8558c0f3c98e3c1522a3078f8c515b7d1419da1f938e433",
-      "ja_text_bytes": 4736,
+      "ja_text_sha256": "02c3322580c73cd3f6f652799fd48e3f61ab1bdda0b92fc5bbae56bdae635c1e",
+      "ja_text_bytes": 5000,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-37-11-3",
       "article_number": "37-11-3",
       "filename": "sochi-hou-article-37-11-3.md",
-      "ja_text_sha256": "4754851d449d47dd00b7ee1ca6cefb53f054a230d54f8c4976c2080a228a313b",
-      "ja_text_bytes": 9960,
+      "ja_text_sha256": "d34b11194399e32818a640987a8e4df30781b0a30dbc5d56e3fb372b2c93ad63",
+      "ja_text_bytes": 16074,
       "paragraph_count": 16
     },
     {
       "article_id": "sochi-hou-art-37-11-4",
       "article_number": "37-11-4",
       "filename": "sochi-hou-article-37-11-4.md",
-      "ja_text_sha256": "27c4bbb2831e434a770d8730ddc21a356c038d3a8fa338c8c383844626bc02e3",
-      "ja_text_bytes": 5708,
+      "ja_text_sha256": "18f7625c989a5b665ace2ffeb6769f4c623ec636a3a9c5571c3f95e9b99dd52f",
+      "ja_text_bytes": 7740,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-37-11-5",
       "article_number": "37-11-5",
       "filename": "sochi-hou-article-37-11-5.md",
-      "ja_text_sha256": "328eba21c3c2c13444499a4da46630fe4655c0a125015f891fdc0c0982aa1735",
-      "ja_text_bytes": 2191,
+      "ja_text_sha256": "5949997961d1d46ab4316d201956cac763a543c6c3c9d046051785abbbfc44d9",
+      "ja_text_bytes": 3154,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-37-11-6",
       "article_number": "37-11-6",
       "filename": "sochi-hou-article-37-11-6.md",
-      "ja_text_sha256": "b4fc74bc16b750ee185fb21f281b82bda55d87d3434a72e7dde7f3e9b9a06517",
-      "ja_text_bytes": 8558,
+      "ja_text_sha256": "09ee81e1d03e7dc306d97be53566fd62f79a02c097e87c0056d1eb1f59f6cc86",
+      "ja_text_bytes": 11906,
       "paragraph_count": 11
     },
     {
       "article_id": "sochi-hou-art-37-11",
       "article_number": "37-11",
       "filename": "sochi-hou-article-37-11.md",
-      "ja_text_sha256": "fd8970bb4b1cfbccdcaf598f97578e9a3769d95d217ab561cafdcf32a8422b8d",
-      "ja_text_bytes": 4400,
+      "ja_text_sha256": "4512ff910ca21b7298e018ebab6b1cd4960bb9211432e258b0588d3bd1d8f83e",
+      "ja_text_bytes": 11210,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-37-12-2",
       "article_number": "37-12-2",
       "filename": "sochi-hou-article-37-12-2.md",
-      "ja_text_sha256": "a199cfde462b75a837d157007a10f12e62bdbeb82df665e300e3651c8348e6ac",
-      "ja_text_bytes": 8831,
+      "ja_text_sha256": "dc4dcb7e541ea0cb49bc474168bdafea83e4bfe2f60b0371670d8fa7bc862694",
+      "ja_text_bytes": 12101,
       "paragraph_count": 11
     },
     {
       "article_id": "sochi-hou-art-37-12",
       "article_number": "37-12",
       "filename": "sochi-hou-article-37-12.md",
-      "ja_text_sha256": "8c00b660cff4b94feae43e930494bfed0126f2474f407250d1c515f842808f88",
-      "ja_text_bytes": 7155,
+      "ja_text_sha256": "766e44b690f6b0845c206beb32140e64cda1b6407c181e81508f65fd0e8ead72",
+      "ja_text_bytes": 6623,
       "paragraph_count": 8
     },
     {
@@ -674,8 +674,8 @@
       "article_id": "sochi-hou-art-37-13-3",
       "article_number": "37-13-3",
       "filename": "sochi-hou-article-37-13-3.md",
-      "ja_text_sha256": "61b8e81b24e5b26aeb2edcd2f278a9f87d501bdadb8424ba37ffd3a143669467",
-      "ja_text_bytes": 10547,
+      "ja_text_sha256": "b80c37946d34c5fe4d3d94ef6de0f75cd708ed9d58861060f3f0ce3bf7ccd1a9",
+      "ja_text_bytes": 10805,
       "paragraph_count": 11
     },
     {
@@ -690,312 +690,312 @@
       "article_id": "sochi-hou-art-37-13",
       "article_number": "37-13",
       "filename": "sochi-hou-article-37-13.md",
-      "ja_text_sha256": "9f19b379986ce6b3f00540240f119264ad5eb1f6b4043fbf1a61d7ce4a6e0b36",
-      "ja_text_bytes": 13143,
+      "ja_text_sha256": "08943c2f842e3f233ecb00d66c320a061110f5f335c80d9934a5ae74e20bedc4",
+      "ja_text_bytes": 19618,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-37-14-2",
       "article_number": "37-14-2",
       "filename": "sochi-hou-article-37-14-2.md",
-      "ja_text_sha256": "db6590c277c7d77eb04d88cc383e593dd95634e37853a1b76e80ae7cc496073f",
-      "ja_text_bytes": 24751,
+      "ja_text_sha256": "53f3dd30d72259ebf663bd2a1bea85089e482745cd6b64b30697a48c60e0ed3f",
+      "ja_text_bytes": 51597,
       "paragraph_count": 36
     },
     {
       "article_id": "sochi-hou-art-37-14-3",
       "article_number": "37-14-3",
       "filename": "sochi-hou-article-37-14-3.md",
-      "ja_text_sha256": "c8c5431e2a4db010b9acb4e4c2b76d2feb29bee7ced1fe97e3a689f06534bf85",
-      "ja_text_bytes": 10036,
+      "ja_text_sha256": "53842572d9bd78513814c1a21577f7d57a6cd344306533eab46ae07a64e74233",
+      "ja_text_bytes": 13464,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-37-14-4",
       "article_number": "37-14-4",
       "filename": "sochi-hou-article-37-14-4.md",
-      "ja_text_sha256": "b10137846a1b2c929978b24a4820f242578ca60ded72c2cce4827555466a0ef9",
-      "ja_text_bytes": 5941,
+      "ja_text_sha256": "e3f5d248880fb2fd0207eb53d9dedf5eadc49939a4543351dcdeb70842f45566",
+      "ja_text_bytes": 7201,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-37-14",
       "article_number": "37-14",
       "filename": "sochi-hou-article-37-14.md",
-      "ja_text_sha256": "4281302b44be9eaa7573974631e122a3405332c75582b605f6548d8eaa7a9768",
-      "ja_text_bytes": 39752,
+      "ja_text_sha256": "e13809418fd71acf75fb1502e6f29d99c91e0dd1baa7bd8bd0f2f4d8b7988556",
+      "ja_text_bytes": 71690,
       "paragraph_count": 41
     },
     {
       "article_id": "sochi-hou-art-37-15",
       "article_number": "37-15",
       "filename": "sochi-hou-article-37-15.md",
-      "ja_text_sha256": "adc7790789f00fbbabb838686394f8a8fac274f6830f37e3bae5b8716423d5f1",
-      "ja_text_bytes": 925,
+      "ja_text_sha256": "c7d69b7759a14d491686af286d44db921ee72febdf5cd307442e9415a6b12b93",
+      "ja_text_bytes": 821,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-37-2",
       "article_number": "37-2",
       "filename": "sochi-hou-article-37-2.md",
-      "ja_text_sha256": "7874fc1fb814d8d0390971f40ebd6ec972219ef3a143727827eb9bbe4fc382c4",
-      "ja_text_bytes": 2640,
+      "ja_text_sha256": "495303f111c29a4297c224c4b37a678160674b91da3ec93fa145af05d42f526b",
+      "ja_text_bytes": 3753,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-37-3",
       "article_number": "37-3",
       "filename": "sochi-hou-article-37-3.md",
-      "ja_text_sha256": "7ca28b1d1e5611fb14a2601f9731fc1273fdb7eb1cc901aa4fe065a327e54207",
-      "ja_text_bytes": 2364,
+      "ja_text_sha256": "1aef2bfe171246affdbc3185796941e1aeb52a146768dc718e1eb794bc41990d",
+      "ja_text_bytes": 4263,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-37-4",
       "article_number": "37-4",
       "filename": "sochi-hou-article-37-4.md",
-      "ja_text_sha256": "4b33c470c030a2de62355a79d503879972a46e5e7b3a65274896c9558992fce0",
-      "ja_text_bytes": 1551,
+      "ja_text_sha256": "02d228900a0f5b8a008c675dec3ea1707532ad4fb03917fd9ce82dea76309ab3",
+      "ja_text_bytes": 2091,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-37-5",
       "article_number": "37-5",
       "filename": "sochi-hou-article-37-5.md",
-      "ja_text_sha256": "a0e37b1e64a418df91c9b275ee5bfa9a530023f79112451392b9fc40c402646e",
-      "ja_text_bytes": 13566,
+      "ja_text_sha256": "753f568910bfc5786d6ebf467061b25ee4f7f792f05e4a6bd012b4b0127687d6",
+      "ja_text_bytes": 14376,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-37-6",
       "article_number": "37-6",
       "filename": "sochi-hou-article-37-6.md",
-      "ja_text_sha256": "5f97e30219223f21ab58d66ffebced7a5a88a0c815e4b7340a81b5d4d83abf6d",
-      "ja_text_bytes": 3029,
+      "ja_text_sha256": "9961b2f8583c8817a0071cd902da05e6f702385fc1b23b39c3541d02bd1a1796",
+      "ja_text_bytes": 4967,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-37-7",
       "article_number": "37-7",
       "filename": "sochi-hou-article-37-7.md",
-      "ja_text_sha256": "c13fbb7c9705d0db6994f41c1cc8cc4a5117e155b0872cf2f7bbfc2c8444d458",
-      "ja_text_bytes": 57,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-37-8",
       "article_number": "37-8",
       "filename": "sochi-hou-article-37-8.md",
-      "ja_text_sha256": "7629cc6b70abb6a3af5ee587e35b1eb924c96f9b6d88d59e1db9e2598965e066",
-      "ja_text_bytes": 4360,
+      "ja_text_sha256": "0dc435cb14f6e8a1af4b48aea57b4fba223ef956106091eb849fa5cca8724ae7",
+      "ja_text_bytes": 4849,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-37-9",
       "article_number": "37-9",
       "filename": "sochi-hou-article-37-9.md",
-      "ja_text_sha256": "a8f11725f7edec3b8667d7bdba698920619d549e34fa4ccd517e891a8fd1fd01",
-      "ja_text_bytes": 57,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-37",
       "article_number": "37",
       "filename": "sochi-hou-article-37.md",
-      "ja_text_sha256": "1553ff604f633c23fb64f0ec8dd09f5eaa6a2b9b91c44ea2ab55c9c1486978c0",
-      "ja_text_bytes": 18289,
+      "ja_text_sha256": "4dbeca379f5518b44d3d3f382bf8da1c9860e0554d48d982295e4025d0b25e84",
+      "ja_text_bytes": 18657,
       "paragraph_count": 12
     },
     {
       "article_id": "sochi-hou-art-38",
       "article_number": "38",
       "filename": "sochi-hou-article-38.md",
-      "ja_text_sha256": "33e26691f2bbd197214981c43c4f2009c2f284b0bd44bb7de3ef537dd7ad9ba1",
-      "ja_text_bytes": 4245,
+      "ja_text_sha256": "2d54aebc40324513450b87133817f9a45f94ed2ce48257b466c6c7547c4d4074",
+      "ja_text_bytes": 3859,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-39",
       "article_number": "39",
       "filename": "sochi-hou-article-39.md",
-      "ja_text_sha256": "55a7dbcc2c6353cffe35f30b8762c0c59e457605fad964b69331e18124354f51",
-      "ja_text_bytes": 7472,
+      "ja_text_sha256": "be5481bd7a2e13cdb1ef6234161abd0c45d91962ce696ef97746ea343aaa06d9",
+      "ja_text_bytes": 9150,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-4-2",
       "article_number": "4-2",
       "filename": "sochi-hou-article-4-2.md",
-      "ja_text_sha256": "10241e7775abfa36d498de75c56e84ab2e311f624774a7f6acfcfdd7c3d1143b",
-      "ja_text_bytes": 7868,
+      "ja_text_sha256": "d99d0c49c1ca7a39771d938a1d424b763bb8b44f58050bb3e2a7467c1cf4dc23",
+      "ja_text_bytes": 12773,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-4-3-2",
       "article_number": "4-3-2",
       "filename": "sochi-hou-article-4-3-2.md",
-      "ja_text_sha256": "f6a48da24d28172481aa2f6c33896d0ddd3ad818b081a15310cb00b8dafea4fe",
-      "ja_text_bytes": 6162,
+      "ja_text_sha256": "0aa7cb4f6d48e7265f05cc0f2ba4fb712572910b444a7eb1987d1a359cdbc076",
+      "ja_text_bytes": 7676,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-4-3",
       "article_number": "4-3",
       "filename": "sochi-hou-article-4-3.md",
-      "ja_text_sha256": "51c248e19b27cc989f4b1481217c8ee2ca4ac24f55489dfc0abae53ec975a1ae",
-      "ja_text_bytes": 8586,
+      "ja_text_sha256": "8689a79fdd0e4228d7974f91b845e260d5d965e9afb76dd7f069a576801c7bb0",
+      "ja_text_bytes": 13456,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-4-4",
       "article_number": "4-4",
       "filename": "sochi-hou-article-4-4.md",
-      "ja_text_sha256": "702d47aad023ff72d7c5724f1b5ae98592597b3eab2c8e0a62dc7676dc24ff73",
-      "ja_text_bytes": 2942,
+      "ja_text_sha256": "4afaff0a30f492cc8eea9c7e3ba298a66c664c3981abe58d2f2fe65ea9fdb2d7",
+      "ja_text_bytes": 2743,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-4-5",
       "article_number": "4-5",
       "filename": "sochi-hou-article-4-5.md",
-      "ja_text_sha256": "1bbc4d3b4aea6c132fd2fc55e810cc8618dcc98cf6068c5b62ac11ba52754235",
-      "ja_text_bytes": 7535,
+      "ja_text_sha256": "16ff21f736b6f5de504fb9ff06ae8a39db17bb950ba6a8faeb4028350469fe3e",
+      "ja_text_bytes": 6840,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-4",
       "article_number": "4",
       "filename": "sochi-hou-article-4.md",
-      "ja_text_sha256": "c66e4cc388fe630dc6b5bec6960bde4aefab5b7640bc9e2f8a0d92aba8a38ae5",
-      "ja_text_bytes": 2596,
+      "ja_text_sha256": "2a601f559a2094a2bf50169899171aa83e32174fde90d0a7d00918e5008946e7",
+      "ja_text_bytes": 3352,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-40-2",
       "article_number": "40-2",
       "filename": "sochi-hou-article-40-2.md",
-      "ja_text_sha256": "b564751dc6f02d44be36afccb58dba5757344a2ef7d5d63c5c41a3bf20e5363e",
-      "ja_text_bytes": 942,
+      "ja_text_sha256": "feb541bc182d1b2d2e20633ee33d3249c004c16502cfebc63f3b05053627bb6e",
+      "ja_text_bytes": 891,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-40-3-2",
       "article_number": "40-3-2",
       "filename": "sochi-hou-article-40-3-2.md",
-      "ja_text_sha256": "a8774475f73c70bf13be01e513861f9fa78a4e4630d87847fd5e5b0ed1dbd7f0",
-      "ja_text_bytes": 2257,
+      "ja_text_sha256": "acad02142778173306e47280806fc2146b88b9f2092d5fd875b004ff3a42a359",
+      "ja_text_bytes": 4349,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-40-3-3",
       "article_number": "40-3-3",
       "filename": "sochi-hou-article-40-3-3.md",
-      "ja_text_sha256": "cda18b73e38e0c00878d56b37e493474b461dd59b26005e2580de58ae8f2f6b3",
-      "ja_text_bytes": 23257,
+      "ja_text_sha256": "d9a5dd4b4d02ea7851b7a3724d21acf2ae7bc5b89a5b03db6d74e78c5a5321c2",
+      "ja_text_bytes": 29448,
       "paragraph_count": 27
     },
     {
       "article_id": "sochi-hou-art-40-3-4",
       "article_number": "40-3-4",
       "filename": "sochi-hou-article-40-3-4.md",
-      "ja_text_sha256": "03b7ca2c325b5a462c41030b90312ded5a89701cc67307cee09295e11b281799",
-      "ja_text_bytes": 6308,
+      "ja_text_sha256": "85b9232aec2ae018a8d51f2fc38a637946add2674d634b6e731f5c8749c3e9ad",
+      "ja_text_bytes": 7235,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-40-3",
       "article_number": "40-3",
       "filename": "sochi-hou-article-40-3.md",
-      "ja_text_sha256": "61cda231584ca2309ce5cf9a3db995944be0d90d2fc4a9ac166914b358bd8b79",
-      "ja_text_bytes": 927,
+      "ja_text_sha256": "5c3ef2ef3f1dfca86c7b479b52fc0bf6aaef99ff33a71ad427a1583b8c1e7e56",
+      "ja_text_bytes": 876,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-40-4",
       "article_number": "40-4",
       "filename": "sochi-hou-article-40-4.md",
-      "ja_text_sha256": "2d58d6b520a12310f0f143e8e26e65b4b327d0fe1170ca48d8921bffd55dda8a",
-      "ja_text_bytes": 12988,
+      "ja_text_sha256": "ccf2385bb8eef4b524205d27a6cdba1f789bd47054f0678ce085fd2e27d9b226",
+      "ja_text_bytes": 43881,
       "paragraph_count": 18
     },
     {
       "article_id": "sochi-hou-art-40-5",
       "article_number": "40-5",
       "filename": "sochi-hou-article-40-5.md",
-      "ja_text_sha256": "90c5edc01533020796fa3112b7928b7c585ddb059844ad68ca2efdc7203742ce",
-      "ja_text_bytes": 2554,
+      "ja_text_sha256": "0b14ff568ff454522b8aa302060f9e6e3848981025023c3f5c5c0cb549f8fc22",
+      "ja_text_bytes": 6816,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-40-6",
       "article_number": "40-6",
       "filename": "sochi-hou-article-40-6.md",
-      "ja_text_sha256": "82cbb0af0ab96982deb1d1cc13af4ec6cb74a8fa23e0ccc7eda8461ba8a2289f",
-      "ja_text_bytes": 381,
+      "ja_text_sha256": "25d69b2bbf99ba3dd7e2d0b8a05e4c92b842d4a2aeb66b183c37b966b8ad610c",
+      "ja_text_bytes": 330,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-40-7",
       "article_number": "40-7",
       "filename": "sochi-hou-article-40-7.md",
-      "ja_text_sha256": "fd3962dde6d6433321918e7d44382a6efafb949d33c2c37ae3d5b71d19f3f302",
-      "ja_text_bytes": 14035,
+      "ja_text_sha256": "24b98b609ff38a1b4f8a671133e705930fd6a5a22f911963ddf62a0dd32e299d",
+      "ja_text_bytes": 38205,
       "paragraph_count": 19
     },
     {
       "article_id": "sochi-hou-art-40-8",
       "article_number": "40-8",
       "filename": "sochi-hou-article-40-8.md",
-      "ja_text_sha256": "6679ff22448723f3eef596077bfbd08d8bdbbea35242bf6be05846e84f182c36",
-      "ja_text_bytes": 2584,
+      "ja_text_sha256": "f1faf9cc5536f86934714f18cdbed6a9273ad91355402ee5ee70c3ebc46f9a80",
+      "ja_text_bytes": 6318,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-40-9",
       "article_number": "40-9",
       "filename": "sochi-hou-article-40-9.md",
-      "ja_text_sha256": "d5d665dbef253e9300b79bec1274e29d619c19ac53bc3c1e579af42cb3e93384",
-      "ja_text_bytes": 429,
+      "ja_text_sha256": "6851ee7a71b8f3c6fe27712fb3b952bf93e3aa72bfa18a695227b9aa569a2457",
+      "ja_text_bytes": 378,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-40",
       "article_number": "40",
       "filename": "sochi-hou-article-40.md",
-      "ja_text_sha256": "e4babcc422371ae3a6c1adffcd88df8d1b172ba98e8d12c0a3396621b6492971",
-      "ja_text_bytes": 29723,
+      "ja_text_sha256": "3835d134b503a246456370b8d8e3b1c41ce7af84ace1b3fa5c81446ba4de8dc7",
+      "ja_text_bytes": 34770,
       "paragraph_count": 22
     },
     {
       "article_id": "sochi-hou-art-41-10",
       "article_number": "41-10",
       "filename": "sochi-hou-article-41-10.md",
-      "ja_text_sha256": "50f63ddeac19499bcd74cdc71f6bc2a77045e619306e7f79fae527e64e85130f",
-      "ja_text_bytes": 1310,
+      "ja_text_sha256": "15506565fc3c9feea5d14441d01a1eca6613a4aef20d716a9860afd5e504a8aa",
+      "ja_text_bytes": 1096,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-41-11",
       "article_number": "41-11",
       "filename": "sochi-hou-article-41-11.md",
-      "ja_text_sha256": "1ae440e273498372dbb32f4cbadee9f0e2703193b280f6bea322293a4b7483ea",
-      "ja_text_bytes": 725,
+      "ja_text_sha256": "733f30d7e4fc4f398dfacee07424317eddaeb7bd1d771c08531232d549fa23fd",
+      "ja_text_bytes": 627,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-41-12-2",
       "article_number": "41-12-2",
       "filename": "sochi-hou-article-41-12-2.md",
-      "ja_text_sha256": "9a2408383a18b2cba873ccead10c32d504afd33e4a599bc45a29bf9609634cf0",
-      "ja_text_bytes": 7559,
+      "ja_text_sha256": "43da591d28b069fdaf028d5902a0fe6f079f5cdbac9a4de3f9833b623a0653b9",
+      "ja_text_bytes": 11388,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-41-12",
       "article_number": "41-12",
       "filename": "sochi-hou-article-41-12.md",
-      "ja_text_sha256": "0cb834d95d6d028459a9b2820d006ad3625cbf17653219172d98b1f2a73f9231",
-      "ja_text_bytes": 6463,
+      "ja_text_sha256": "300e3cee78a7261443622ae8871ddfb81a367aabd56b6c1b0f7695b6d96c3721",
+      "ja_text_bytes": 6494,
       "paragraph_count": 8
     },
     {
@@ -1010,24 +1010,24 @@
       "article_id": "sochi-hou-art-41-13-3",
       "article_number": "41-13-3",
       "filename": "sochi-hou-article-41-13-3.md",
-      "ja_text_sha256": "10acef833e883e0df3e20bab8573dda208ddbeadc4e2f5d4f4d32914c8308729",
-      "ja_text_bytes": 12815,
+      "ja_text_sha256": "fcc5de68df777489827a8be65fba44120ee729bc25b29d8dbab537775823543e",
+      "ja_text_bytes": 16229,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-41-13",
       "article_number": "41-13",
       "filename": "sochi-hou-article-41-13.md",
-      "ja_text_sha256": "207f3876818c1b1a1925db6521c8b72005041e41ca11117cf290bebcf1d48950",
-      "ja_text_bytes": 3601,
+      "ja_text_sha256": "efbd7c572aa7328f93395da85a10158c4c8c660e21e53b2f04e403abb074ca08",
+      "ja_text_bytes": 3289,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-41-14",
       "article_number": "41-14",
       "filename": "sochi-hou-article-41-14.md",
-      "ja_text_sha256": "bd0c48c69e25e695d03ec1f1d6750859bd04ab4612bfc2194870607e83554c5b",
-      "ja_text_bytes": 2015,
+      "ja_text_sha256": "ed7ccec2691de58802487e01b895ece0e84bff239a9e469c4bc13a6c8f46c038",
+      "ja_text_bytes": 8365,
       "paragraph_count": 3
     },
     {
@@ -1042,8 +1042,8 @@
       "article_id": "sochi-hou-art-41-15-3",
       "article_number": "41-15-3",
       "filename": "sochi-hou-article-41-15-3.md",
-      "ja_text_sha256": "0424f1e17833c431915372b4c9757030c704152cf81eb398d7894c0d4a09e9a5",
-      "ja_text_bytes": 1890,
+      "ja_text_sha256": "c194d2f362d8b547c9ff1b9d8c118f5526fae881c94fb8015314951f0019fdfb",
+      "ja_text_bytes": 2355,
       "paragraph_count": 4
     },
     {
@@ -1066,32 +1066,32 @@
       "article_id": "sochi-hou-art-41-15",
       "article_number": "41-15",
       "filename": "sochi-hou-article-41-15.md",
-      "ja_text_sha256": "386c49771a9a06b1bd89a35280a1818350ea18f0ae276a20bd9c10faceb2acd0",
-      "ja_text_bytes": 6520,
+      "ja_text_sha256": "9101e9b02e13cf954d699040f882ad36f2bc96f040f80d04f751f8048bf94806",
+      "ja_text_bytes": 6156,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-41-16-2",
       "article_number": "41-16-2",
       "filename": "sochi-hou-article-41-16-2.md",
-      "ja_text_sha256": "4d2dfbb4b90c85eb51a8b5eeef394c368590296c2914b5a3d6ba05f896293ba9",
-      "ja_text_bytes": 3014,
+      "ja_text_sha256": "28366e7160ccfccee135f4342b071f59411b82632d39838126be881886d4ec86",
+      "ja_text_bytes": 3768,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-41-16",
       "article_number": "41-16",
       "filename": "sochi-hou-article-41-16.md",
-      "ja_text_sha256": "3d30b5bc32d9466929a2869f6263142587445095b6b3786f1ec4b3080d4d86dc",
-      "ja_text_bytes": 1602,
+      "ja_text_sha256": "5e111e402cdeca2da25c2a614c012ad084f4980e728a06d4a7edbfcf41fd5f27",
+      "ja_text_bytes": 1449,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-41-17",
       "article_number": "41-17",
       "filename": "sochi-hou-article-41-17.md",
-      "ja_text_sha256": "6584b73575257ca1ceab20fe183d9a9a88f64867601fc19dd951ab0b49e44064",
-      "ja_text_bytes": 5769,
+      "ja_text_sha256": "6f5730971f4c076de6d3238b2055b5bce6ca049e67b5c77d91cb4ea0c9ce6642",
+      "ja_text_bytes": 6874,
       "paragraph_count": 5
     },
     {
@@ -1106,24 +1106,24 @@
       "article_id": "sochi-hou-art-41-18-3",
       "article_number": "41-18-3",
       "filename": "sochi-hou-article-41-18-3.md",
-      "ja_text_sha256": "b370d74964013b0dc6353c685c4f9d468b63a42aafffcaf3eac866e6319108da",
-      "ja_text_bytes": 3512,
+      "ja_text_sha256": "d8abf5b8759ada02b3879e5ad4729133d2edd9a3c97d947746233b035792ef27",
+      "ja_text_bytes": 5178,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-41-18-4",
       "article_number": "41-18-4",
       "filename": "sochi-hou-article-41-18-4.md",
-      "ja_text_sha256": "0de6b72923df74642fc88a4efd063e1791d623af9d282e92c0c27311786654b0",
-      "ja_text_bytes": 3421,
+      "ja_text_sha256": "502c5792662f809244be5cf8e910bdc353024f212a47cc98639b7e1e1953cf47",
+      "ja_text_bytes": 4935,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-41-18",
       "article_number": "41-18",
       "filename": "sochi-hou-article-41-18.md",
-      "ja_text_sha256": "45cef591e22b534333c7bbe1211102cb8220cfa69fc663ac3164122567a0ea24",
-      "ja_text_bytes": 6228,
+      "ja_text_sha256": "81e742530ef09c7e4771eb1b3495a89dde22263e1b4e584ffa13afcf9fe037b2",
+      "ja_text_bytes": 7089,
       "paragraph_count": 6
     },
     {
@@ -1138,40 +1138,40 @@
       "article_id": "sochi-hou-art-41-19-3",
       "article_number": "41-19-3",
       "filename": "sochi-hou-article-41-19-3.md",
-      "ja_text_sha256": "77e971d0287140deba0aa6032cceb45f3309866bed2d7e2be632ce1e6187ac58",
-      "ja_text_bytes": 28122,
+      "ja_text_sha256": "a4025ce0e266689c0c20894471a96154d77b8c45b189c646e302bb71f83a475f",
+      "ja_text_bytes": 35518,
       "paragraph_count": 31
     },
     {
       "article_id": "sochi-hou-art-41-19-4",
       "article_number": "41-19-4",
       "filename": "sochi-hou-article-41-19-4.md",
-      "ja_text_sha256": "533ebe14637b616cf7797df19057b5b81e6615752c30ddf5ba4a7a2a71109861",
-      "ja_text_bytes": 11258,
+      "ja_text_sha256": "febd3bedf13820ba6e4fac68c61abe01113ea5ff1efe6f3ed1ab69f5ba5f15af",
+      "ja_text_bytes": 12650,
       "paragraph_count": 17
     },
     {
       "article_id": "sochi-hou-art-41-19-5",
       "article_number": "41-19-5",
       "filename": "sochi-hou-article-41-19-5.md",
-      "ja_text_sha256": "f2267eacc233846e2a83075da9f731e2ca56b7792ce86e4723740988f8f83168",
-      "ja_text_bytes": 15080,
+      "ja_text_sha256": "4085422fba3137bc9dbd2831056662649969a3bd4830cc0b7d16dc3df5c4cc8f",
+      "ja_text_bytes": 16154,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-41-19",
       "article_number": "41-19",
       "filename": "sochi-hou-article-41-19.md",
-      "ja_text_sha256": "bd0678e490b46c2febd47d89784e27565817c937fd2edee928b0f6cf2998f496",
-      "ja_text_bytes": 1450,
+      "ja_text_sha256": "e89a7a8356a71379cb8055c1c9611da3069f373983886e3a5a43bb63a0ce89f5",
+      "ja_text_bytes": 10031,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-41-2-2",
       "article_number": "41-2-2",
       "filename": "sochi-hou-article-41-2-2.md",
-      "ja_text_sha256": "76abc850f77102378428aec43e2d2d20cc9e26a30f3c1a6559aaed8b059d58ae",
-      "ja_text_bytes": 10289,
+      "ja_text_sha256": "48fb87fc7f96172c9166bc0e3feef3501783239d24ef3177c5226a6ccc441444",
+      "ja_text_bytes": 11021,
       "paragraph_count": 8
     },
     {
@@ -1186,32 +1186,32 @@
       "article_id": "sochi-hou-art-41-2",
       "article_number": "41-2",
       "filename": "sochi-hou-article-41-2.md",
-      "ja_text_sha256": "8d1eafde3c0f8f895f4b6735deaad42e3d655d29a78ca3f706f96ac439994254",
-      "ja_text_bytes": 2180,
+      "ja_text_sha256": "4f4ce5c151e255aaa36995096038527938bd76583da4d587ced0588354d58ade",
+      "ja_text_bytes": 8567,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-41-20",
       "article_number": "41-20",
       "filename": "sochi-hou-article-41-20.md",
-      "ja_text_sha256": "e4c90bc5b2385258237dd3cd50549dd3413fb25cb9769b18b3e752c8ef998cca",
-      "ja_text_bytes": 1495,
+      "ja_text_sha256": "0e03c6e688b2cb2a5ef4aa41d15202752e5a45bc0a067d1289e2643b14cb5429",
+      "ja_text_bytes": 1391,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-41-21",
       "article_number": "41-21",
       "filename": "sochi-hou-article-41-21.md",
-      "ja_text_sha256": "7e1a2f8b847da942c2226050f2ed99865078039a5acc3edb8d8fe05f09935bd5",
-      "ja_text_bytes": 12659,
+      "ja_text_sha256": "9261c685c7be0a88bd090d93d9520e99f04a3e747a62d1a7d2550b7f2d16ed23",
+      "ja_text_bytes": 15410,
       "paragraph_count": 16
     },
     {
       "article_id": "sochi-hou-art-41-22",
       "article_number": "41-22",
       "filename": "sochi-hou-article-41-22.md",
-      "ja_text_sha256": "087bb9349d98e1b5fdad4ead836fb645f00aa180424cc19df9286c0265be63b2",
-      "ja_text_bytes": 2974,
+      "ja_text_sha256": "bffd249df7d0e7e22c7100d6e5256299142e876f7ccba1e58cd86f75d9341512",
+      "ja_text_bytes": 5771,
       "paragraph_count": 4
     },
     {
@@ -1226,16 +1226,16 @@
       "article_id": "sochi-hou-art-41-3-11",
       "article_number": "41-3-11",
       "filename": "sochi-hou-article-41-3-11.md",
-      "ja_text_sha256": "86966d1f803c3957c3da9fca1c04d91f5d9d3884d5161a31f5a3ed2d466ddcc5",
-      "ja_text_bytes": 3078,
+      "ja_text_sha256": "33982cf5fdfc4879a8ceb7d6fa339299ee7cde633655200711d8aa140bd1067c",
+      "ja_text_bytes": 4045,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-41-3-12",
       "article_number": "41-3-12",
       "filename": "sochi-hou-article-41-3-12.md",
-      "ja_text_sha256": "f26035581c3afbf0a6f39d68737a66e0e266b8e6533dc6922b5ea69d4f713f80",
-      "ja_text_bytes": 3630,
+      "ja_text_sha256": "a82ef1b238b842d28b404421231646bdd49a82f2079b86212e60df5ea72b1fa3",
+      "ja_text_bytes": 4272,
       "paragraph_count": 7
     },
     {
@@ -1258,8 +1258,8 @@
       "article_id": "sochi-hou-art-41-3-4",
       "article_number": "41-3-4",
       "filename": "sochi-hou-article-41-3-4.md",
-      "ja_text_sha256": "85f12399f560ee33242841f120cb2e8f785306bf7a80bb92b345930b3571f862",
-      "ja_text_bytes": 345,
+      "ja_text_sha256": "a4adb337058662a7d29405a6531e1cf813eb5102229540c73227c7cbc29513ea",
+      "ja_text_bytes": 879,
       "paragraph_count": 1
     },
     {
@@ -1274,144 +1274,144 @@
       "article_id": "sochi-hou-art-41-3-6",
       "article_number": "41-3-6",
       "filename": "sochi-hou-article-41-3-6.md",
-      "ja_text_sha256": "63b6a9b7864eac9958730ad72bf0b660a55604c317d1c529ba3aea4e7d1307fa",
-      "ja_text_bytes": 6472,
+      "ja_text_sha256": "77258f4c4b04ad60a8ea2be4352431a788894a9de38a9d17782000e9f526b74e",
+      "ja_text_bytes": 9150,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-41-3-7",
       "article_number": "41-3-7",
       "filename": "sochi-hou-article-41-3-7.md",
-      "ja_text_sha256": "6d18e422c690aa2c4bff3a870cf17fb83449751420ec12174d30b26d9d66fa4d",
-      "ja_text_bytes": 9271,
+      "ja_text_sha256": "4328f3691406637f75f0b0a8ac3b733880ffef355fb643fb125053892a41f546",
+      "ja_text_bytes": 10177,
       "paragraph_count": 12
     },
     {
       "article_id": "sochi-hou-art-41-3-8",
       "article_number": "41-3-8",
       "filename": "sochi-hou-article-41-3-8.md",
-      "ja_text_sha256": "1dfe2eb863c86d345e3c21110986210adebb13504157c3866d74dd70608666b0",
-      "ja_text_bytes": 6355,
+      "ja_text_sha256": "85a9be3a7ffcaaa7510e510f41de5e475d04ad6234ec6f3a27b86a62273eaf73",
+      "ja_text_bytes": 6946,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-41-3-9",
       "article_number": "41-3-9",
       "filename": "sochi-hou-article-41-3-9.md",
-      "ja_text_sha256": "8d9cb8199d0d047ac7d76434df305b926ed04ee18c0d6ee2a143a2168e41817b",
-      "ja_text_bytes": 4876,
+      "ja_text_sha256": "53f3ed12905f48df230e9f803f2c158f01205bafafae0c1287f7600aff77466f",
+      "ja_text_bytes": 5308,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-41-3",
       "article_number": "41-3",
       "filename": "sochi-hou-article-41-3.md",
-      "ja_text_sha256": "52c7c9366f8ade426f7ca8be307a0bebae3cfffe25272c729305cf7eab73fad4",
-      "ja_text_bytes": 1935,
+      "ja_text_sha256": "d323228ad35df8da59d7a8db2456e7f92d1a52321b34790017b8afaa15f449c5",
+      "ja_text_bytes": 3681,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-41-4-2",
       "article_number": "41-4-2",
       "filename": "sochi-hou-article-41-4-2.md",
-      "ja_text_sha256": "f1a842b4dce4323302e8fe06bbe016e2c29a1d34a88512bd2a082684660d7b98",
-      "ja_text_bytes": 1498,
+      "ja_text_sha256": "d6c72e17b7858211cf7be09b4d763b8ad27e30a510d97683a8cdbcb849646295",
+      "ja_text_bytes": 1896,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-41-4-3",
       "article_number": "41-4-3",
       "filename": "sochi-hou-article-41-4-3.md",
-      "ja_text_sha256": "69a1f44c5436bb223cac8c5b26320a9d6832cdffffd9b90b6ccb09540bf51efd",
-      "ja_text_bytes": 1389,
+      "ja_text_sha256": "45f47cd66dd694cf173346a6d3abd669ba773b30469387d5e572f6a7ddcccc9f",
+      "ja_text_bytes": 3089,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-41-4",
       "article_number": "41-4",
       "filename": "sochi-hou-article-41-4.md",
-      "ja_text_sha256": "676d12b4c6778115eb22d8e5436d840ae7509e5131e46953970e7ce459d19247",
-      "ja_text_bytes": 1118,
+      "ja_text_sha256": "698e1a8ec7d1eee3abfb5ac8421b21daf22906bfde1f277caf86b2a4658e2fd6",
+      "ja_text_bytes": 1016,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-41-5-2",
       "article_number": "41-5-2",
       "filename": "sochi-hou-article-41-5-2.md",
-      "ja_text_sha256": "a6fe4899243edb7db40caff24b40535a0af3dce634afcfc7221acf79ba98e75d",
-      "ja_text_bytes": 6412,
+      "ja_text_sha256": "613535f0b9b983e24a6ef0af1a4c5c1f27779edf8379eb2b5b4ed0e7b94a6704",
+      "ja_text_bytes": 12846,
       "paragraph_count": 12
     },
     {
       "article_id": "sochi-hou-art-41-5",
       "article_number": "41-5",
       "filename": "sochi-hou-article-41-5.md",
-      "ja_text_sha256": "fde6a40810fde88ebaec9a53b8f4ba9813f444715ab759048d163ca69b90a868",
-      "ja_text_bytes": 9495,
+      "ja_text_sha256": "ee298704e48eb7d0e29d60bfc790b055f7f993c0e12d9def96dd74a5bde7560c",
+      "ja_text_bytes": 18092,
       "paragraph_count": 16
     },
     {
       "article_id": "sochi-hou-art-41-6",
       "article_number": "41-6",
       "filename": "sochi-hou-article-41-6.md",
-      "ja_text_sha256": "3e3bf982178f9206b90d9fb94afe46dcbc5e040fd9674b3db4a41a7573c1cb1e",
-      "ja_text_bytes": 57,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-41-7",
       "article_number": "41-7",
       "filename": "sochi-hou-article-41-7.md",
-      "ja_text_sha256": "4ddf0990142283f8fc77321487d1267ac34f9489a18df3179a4c26ce5a5a4531",
-      "ja_text_bytes": 1135,
+      "ja_text_sha256": "48e63a3f7322fc4c0c61c90b8352943f8f254b634fd214a726f82721f8c87113",
+      "ja_text_bytes": 982,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-41-8",
       "article_number": "41-8",
       "filename": "sochi-hou-article-41-8.md",
-      "ja_text_sha256": "1438b1d772204e3c4219044e501ee2c4ac65f96d1ca18579e6e780ba3685d6a9",
-      "ja_text_bytes": 2017,
+      "ja_text_sha256": "507fba53420e1fdf8ade7d614f3b60a65049ddc12723a0d54edd6f81bbca10a2",
+      "ja_text_bytes": 6473,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-41-9",
       "article_number": "41-9",
       "filename": "sochi-hou-article-41-9.md",
-      "ja_text_sha256": "8ed813aef7f4686e2f0efa71d8315ad472661a6ce786f3cd09b54362b5bdeb0c",
-      "ja_text_bytes": 3837,
+      "ja_text_sha256": "1b9ecf52e7d7c5f078eedbc64c59a9788ebc4a96e77103623fd66dbf77deb6ea",
+      "ja_text_bytes": 3425,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-41",
       "article_number": "41",
       "filename": "sochi-hou-article-41.md",
-      "ja_text_sha256": "aa418bcc2824ca986474fdfceea9c4e5a5bdd6bbbb18b9639bc6c6fc4ac47019",
-      "ja_text_bytes": 45642,
+      "ja_text_sha256": "23dd1fd7a4ede3db1d791d5d332ee07c0171e5dba34b9519472276b171696c00",
+      "ja_text_bytes": 58382,
       "paragraph_count": 40
     },
     {
       "article_id": "sochi-hou-art-42-10",
       "article_number": "42-10",
       "filename": "sochi-hou-article-42-10.md",
-      "ja_text_sha256": "9e7c6fda63a53148b2264a1527d9492355a1f0eda6f40e68a1ff9db1216c1e9c",
-      "ja_text_bytes": 6157,
+      "ja_text_sha256": "74b81d7d269e71afdbacf040d1e77281830f76a49ba8f59a5d794fb06e7ddb71",
+      "ja_text_bytes": 6715,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-42-11-2",
       "article_number": "42-11-2",
       "filename": "sochi-hou-article-42-11-2.md",
-      "ja_text_sha256": "ef9e41948cdf7f29475daf2d10430de402d82f26f20e03c21b3c044844434290",
-      "ja_text_bytes": 6546,
+      "ja_text_sha256": "c3f446882d9d8c16c7a29c13f27b4b7438b77f1f4587318b82176d75eb4ddb69",
+      "ja_text_bytes": 7645,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-42-11",
       "article_number": "42-11",
       "filename": "sochi-hou-article-42-11.md",
-      "ja_text_sha256": "5acb281b9c3b3d67eb0028fe18182993f73cb4fafe28c4741cd95c8323bd7028",
-      "ja_text_bytes": 6106,
+      "ja_text_sha256": "4818cdcccc0f029dd67b12863516653ff0fdbe7a9b96376d8eecd361b28e3d09",
+      "ja_text_bytes": 6846,
       "paragraph_count": 8
     },
     {
@@ -1434,64 +1434,64 @@
       "article_id": "sochi-hou-art-42-12-4",
       "article_number": "42-12-4",
       "filename": "sochi-hou-article-42-12-4.md",
-      "ja_text_sha256": "497cc5b3a1b52790057b1537aa850d4ab367edc4decf3b4b9d9d453bbb6910e5",
-      "ja_text_bytes": 9048,
+      "ja_text_sha256": "7f43a2b42e27ff2243fca534b604c5349c0a955a64c31dc57859b3c1e63af965",
+      "ja_text_bytes": 11648,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-42-12-5",
       "article_number": "42-12-5",
       "filename": "sochi-hou-article-42-12-5.md",
-      "ja_text_sha256": "bbdbb6e4cb500e439aa448b78e1c2e1285081c5a460da3e4fe2fbf0b35e8f681",
-      "ja_text_bytes": 8653,
+      "ja_text_sha256": "8f0fc1b859ee762b55a37499f3435a71c3856b60099552204fa926a431ff2dfe",
+      "ja_text_bytes": 15959,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-42-12-6",
       "article_number": "42-12-6",
       "filename": "sochi-hou-article-42-12-6.md",
-      "ja_text_sha256": "820a5cadd210dccb18dbbb1fb01fb6adc5eaa8b669e062cc16104c38a9a65300",
-      "ja_text_bytes": 24039,
+      "ja_text_sha256": "1c8c41ab70578438dffa0ce1d2cd6cc54c7fcd640b5b914db250948a719f8c47",
+      "ja_text_bytes": 33514,
       "paragraph_count": 19
     },
     {
       "article_id": "sochi-hou-art-42-12",
       "article_number": "42-12",
       "filename": "sochi-hou-article-42-12.md",
-      "ja_text_sha256": "b233a2f30b66ab3df83331d06690a658ed0f68a5c6d77de0d69dac50f57a2a72",
-      "ja_text_bytes": 9163,
+      "ja_text_sha256": "28324040e5c76144793d122481d726884ebb8743a0b09b9c98ebe7f603ff86df",
+      "ja_text_bytes": 11258,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-42-13",
       "article_number": "42-13",
       "filename": "sochi-hou-article-42-13.md",
-      "ja_text_sha256": "58aef02d01c2ca31cf8e373dab42e2661f2dbc5ced69b5daf329c6bffe64ffe0",
-      "ja_text_bytes": 10060,
+      "ja_text_sha256": "ccd83fd0aab405dd151a222bbe8f0c8721839aca5e51d8eec5674301d7280d53",
+      "ja_text_bytes": 22832,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-42-14",
       "article_number": "42-14",
       "filename": "sochi-hou-article-42-14.md",
-      "ja_text_sha256": "f28fc91b8aaeb3a7cc91f8303c8b20e2bc72ab1deba79c6826f7c8239504764f",
-      "ja_text_bytes": 13916,
+      "ja_text_sha256": "02d1bc42c56b4681150bb09fd07ac94e58487dfae3c99341469564ba104c131a",
+      "ja_text_bytes": 14484,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-42-2-2",
       "article_number": "42-2-2",
       "filename": "sochi-hou-article-42-2-2.md",
-      "ja_text_sha256": "bbc4ec9e347e3b3de10f7f560bcbe2ac8ab16d46d49335607bf6683aea8b5101",
-      "ja_text_bytes": 3066,
+      "ja_text_sha256": "c55e634333a8138eb0c2b1f4aed8aa76aac79c64a43342996a1ee0c4af0d55ce",
+      "ja_text_bytes": 3588,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-42-2",
       "article_number": "42-2",
       "filename": "sochi-hou-article-42-2.md",
-      "ja_text_sha256": "6439081183266da4203907586dd491bd41e6f9459eab3ae0a50068161cc68a85",
-      "ja_text_bytes": 15228,
+      "ja_text_sha256": "145dd2d9874f753533ea0ce534144b0da175b982f043d5bb913aaf9b36afe476",
+      "ja_text_bytes": 21713,
       "paragraph_count": 16
     },
     {
@@ -1506,504 +1506,504 @@
       "article_id": "sochi-hou-art-42-3",
       "article_number": "42-3",
       "filename": "sochi-hou-article-42-3.md",
-      "ja_text_sha256": "b472740f361507034b7e92e66f5383189276808030fdbdfddf17b7c37e311fd8",
-      "ja_text_bytes": 5150,
+      "ja_text_sha256": "e4ad8e9f3fd5aab8a6b2468af90dc57c62523e255d4a456b03b264f4a844d12e",
+      "ja_text_bytes": 8944,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-42-4-2",
       "article_number": "42-4-2",
       "filename": "sochi-hou-article-42-4-2.md",
-      "ja_text_sha256": "df5b1d8ada888ba4404eb8ed69a69a5fa5f5bb1027f9813ac423283644b6d93a",
-      "ja_text_bytes": 8089,
+      "ja_text_sha256": "ebe16a9fc4b749085f4d5f3d42c9c8b462fb3586734a196d750e341e51f1f81e",
+      "ja_text_bytes": 11585,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-42-4",
       "article_number": "42-4",
       "filename": "sochi-hou-article-42-4.md",
-      "ja_text_sha256": "2efe97fe9b575b7baf8e4a13d8f2a8fe01c375575e75a7f6e67046a09bd88499",
-      "ja_text_bytes": 26996,
+      "ja_text_sha256": "e7c9fd5625799bdd19ea93a71e0728cca779ce957364e44402e78fe8639c4b99",
+      "ja_text_bytes": 83846,
       "paragraph_count": 27
     },
     {
       "article_id": "sochi-hou-art-42-5",
       "article_number": "42-5",
       "filename": "sochi-hou-article-42-5.md",
-      "ja_text_sha256": "b6abf47916d3e07a7ec20d344d221c4e636863ce02fe80909a1d1d43e2dfb615",
-      "ja_text_bytes": 57,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-42-6",
       "article_number": "42-6",
       "filename": "sochi-hou-article-42-6.md",
-      "ja_text_sha256": "75ae75a08db6292d755a1abfc542737c5a872be87de4a71fdbc1933a2074a56d",
-      "ja_text_bytes": 9335,
+      "ja_text_sha256": "2f73ea8def0a699f5b62a5697b20cb111836070ef4cfc747ed20557674cad753",
+      "ja_text_bytes": 9279,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-42-9",
       "article_number": "42-9",
       "filename": "sochi-hou-article-42-9.md",
-      "ja_text_sha256": "ddbc18adac8b63a00ad1d7002929663fe243b9f8b730ccbead09618f66c2291a",
-      "ja_text_bytes": 9420,
+      "ja_text_sha256": "785db0dff03313e1b450302c694901d716c46c583b6fa559563f347fc49e0398",
+      "ja_text_bytes": 8766,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-42",
       "article_number": "42",
       "filename": "sochi-hou-article-42.md",
-      "ja_text_sha256": "8b6cc33766c34e64db902874bc095f2fc242114fa23ae8c128b1cc255e1cf48b",
-      "ja_text_bytes": 8919,
+      "ja_text_sha256": "e7a65203ff4eb74f403e1c9694d56075e7d18748b0086e8d2e8802dfed13719f",
+      "ja_text_bytes": 10081,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-43-2",
       "article_number": "43-2",
       "filename": "sochi-hou-article-43-2.md",
-      "ja_text_sha256": "1168ab165cbe81300d299dcf0b8c87a910baac49552c9abe1055f2ff3bf57b23",
-      "ja_text_bytes": 5001,
+      "ja_text_sha256": "531daf693d0cb93fb49e63e644e5f1c926ec64a5aec3984caa245dbaafca9e68",
+      "ja_text_bytes": 4732,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-43",
       "article_number": "43",
       "filename": "sochi-hou-article-43.md",
-      "ja_text_sha256": "c0481130131867efadf5b725a0bbe6df6b84c85c531c436dd6353e9deec28151",
-      "ja_text_bytes": 1601,
+      "ja_text_sha256": "f55843a7a2505a591ed5afcfc71f7efdd52f07cf4a28b967d4c173a372ad9143",
+      "ja_text_bytes": 4638,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-44-2",
       "article_number": "44-2",
       "filename": "sochi-hou-article-44-2.md",
-      "ja_text_sha256": "d87e8f629265d7e1e192d9abac0fc591c3290eeb402d2fc2ecd6b82333b6a095",
-      "ja_text_bytes": 3746,
+      "ja_text_sha256": "22dfd499f17407b41e14c55a291c28e3fe447bcc687eac9a55656a9d38c5de98",
+      "ja_text_bytes": 3544,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-44-3",
       "article_number": "44-3",
       "filename": "sochi-hou-article-44-3.md",
-      "ja_text_sha256": "82378112a149ed48e3e767786fdea65f15cb966a13579ec2fa426411181626b7",
-      "ja_text_bytes": 1572,
+      "ja_text_sha256": "018a9a21e7da5b3afcc95bb453dcda56e9ada2f69f656556a2290231f0d520d0",
+      "ja_text_bytes": 1421,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-44-4",
       "article_number": "44-4",
       "filename": "sochi-hou-article-44-4.md",
-      "ja_text_sha256": "99d7f1f73190d7010dff483a997f85868665d6c30453c3af4523bac7b0d09289",
-      "ja_text_bytes": 4202,
+      "ja_text_sha256": "154bc5ddf428dda0310332cf94b732fd5574c1ebb324db01e4a48ecabdd1931e",
+      "ja_text_bytes": 4593,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-44-5",
       "article_number": "44-5",
       "filename": "sochi-hou-article-44-5.md",
-      "ja_text_sha256": "2db21ddd1f4440052236d802e3e1ef32c7ef53f8ff91e102b056ea69ee58711a",
-      "ja_text_bytes": 1803,
+      "ja_text_sha256": "aac13f196e8e745ce2c0453d64b0018bea574d9a2daed5cfc3b0702f1ff135b9",
+      "ja_text_bytes": 2911,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-44-6",
       "article_number": "44-6",
       "filename": "sochi-hou-article-44-6.md",
-      "ja_text_sha256": "e4a5bec7caf8898e040577d07dbd663d08140f69582e813aafbc3ab701a87fd3",
-      "ja_text_bytes": 2609,
+      "ja_text_sha256": "74afebddde895e3342444a3241c7879b387067a2424a662a6a153440f6660550",
+      "ja_text_bytes": 2880,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-44",
       "article_number": "44",
       "filename": "sochi-hou-article-44.md",
-      "ja_text_sha256": "6d9157f1c9aad39cb1247f4281dc3bff1dbcd8a791d0d20494fbde98753eaeaa",
-      "ja_text_bytes": 1694,
+      "ja_text_sha256": "0d399cfdbc11307b4aebc13458a5ca01c7cf2fee5d2711d3e922f0aa2802f519",
+      "ja_text_bytes": 1547,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-45-2",
       "article_number": "45-2",
       "filename": "sochi-hou-article-45-2.md",
-      "ja_text_sha256": "f3183f2e9a3afe3668ddf2fc6679c431928457fe495e49f94a985f888cc7a64c",
-      "ja_text_bytes": 4686,
+      "ja_text_sha256": "64831f9d4598d461c482fcbd096fc606cf7c5d69e600f867f42274318813cf2c",
+      "ja_text_bytes": 4335,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-45",
       "article_number": "45",
       "filename": "sochi-hou-article-45.md",
-      "ja_text_sha256": "dbc1a1ef3e78a043e34bef41b6edd49011272aa18459c76827a0cabe4051389e",
-      "ja_text_bytes": 11534,
+      "ja_text_sha256": "346a0b5da73c068a100a1f6ab990a04bfc81841879be90c16f97b9a8e2d498ef",
+      "ja_text_bytes": 11047,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-46",
       "article_number": "46",
       "filename": "sochi-hou-article-46.md",
-      "ja_text_sha256": "5c2272ee9d0ef007ad7567ae80a9b9392243f63d33cb18e022473af31e033c04",
-      "ja_text_bytes": 4515,
+      "ja_text_sha256": "6879c57a05271b90b1b804519b1007207bac1721f86322512dcb7bb9eb9a0516",
+      "ja_text_bytes": 4224,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-47",
       "article_number": "47",
       "filename": "sochi-hou-article-47.md",
-      "ja_text_sha256": "3dbae29a3f94685b78697d4501ec4afc16a5429e9cce1a046c127fc8d4fe072d",
-      "ja_text_bytes": 4134,
+      "ja_text_sha256": "06d35ade7d442d4d0beda9e8fb4980900c93104009b13f7dae0089ae5af72059",
+      "ja_text_bytes": 4046,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-5-2",
       "article_number": "5-2",
       "filename": "sochi-hou-article-5-2.md",
-      "ja_text_sha256": "ae2d67c08c98e65f420712e38f59dfd50636b5a10297fe65285841d1d64c07de",
-      "ja_text_bytes": 23919,
+      "ja_text_sha256": "7f3d9764b325aec272afebb44936e7d165f241fb30343f0185f269c37ba64b1a",
+      "ja_text_bytes": 31020,
       "paragraph_count": 20
     },
     {
       "article_id": "sochi-hou-art-5-3",
       "article_number": "5-3",
       "filename": "sochi-hou-article-5-3.md",
-      "ja_text_sha256": "d3c31d01daee5f243e81c6a57c215f46f5f88d46686118f4eae77ee6a66ba006",
-      "ja_text_bytes": 12949,
+      "ja_text_sha256": "bbcb7a10755ab1e39a9add3da0b45eae519765dfe95a164ea73b014a133655cd",
+      "ja_text_bytes": 17085,
       "paragraph_count": 11
     },
     {
       "article_id": "sochi-hou-art-5",
       "article_number": "5",
       "filename": "sochi-hou-article-5.md",
-      "ja_text_sha256": "76b894a9d775994e8d8ed654634f5ca406ceef574a701dec63b9d58ee6b0d6a2",
-      "ja_text_bytes": 738,
+      "ja_text_sha256": "103c7078193733eca213602c8f820eb1c041e7447cf85ed9baa959dbe4e258d7",
+      "ja_text_bytes": 578,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-52-2",
       "article_number": "52-2",
       "filename": "sochi-hou-article-52-2.md",
-      "ja_text_sha256": "dde75ee72e7044b6b1d7e7a36efbc239f9a7a7d9937241f478bef655e2e2c3d2",
-      "ja_text_bytes": 6068,
+      "ja_text_sha256": "fec850613effdb65a8556825096f48769fd27f8348fb078433371aa045210105",
+      "ja_text_bytes": 5514,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-52-3",
       "article_number": "52-3",
       "filename": "sochi-hou-article-52-3.md",
-      "ja_text_sha256": "fe53ea53d6dd18038f075115d0b27ebdeb59c278847ea84fece6c243e8b62cfa",
-      "ja_text_bytes": 21320,
+      "ja_text_sha256": "95bcc6126a17b5474d949a3d19c557631cf732f762101749dba2e1151c5b8ebe",
+      "ja_text_bytes": 19669,
       "paragraph_count": 27
     },
     {
       "article_id": "sochi-hou-art-53",
       "article_number": "53",
       "filename": "sochi-hou-article-53.md",
-      "ja_text_sha256": "b889135524313146045120275082a28aea81701da0410991f3ae442387ee123c",
-      "ja_text_bytes": 1972,
+      "ja_text_sha256": "b1d3d07f3339b1245c1fd691a4a63c699ac0c114020ab94ac07a0fe79a1f14af",
+      "ja_text_bytes": 2156,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-54",
       "article_number": "54",
       "filename": "sochi-hou-article-54.md",
-      "ja_text_sha256": "8a43293f385fd8fef2395c0623bd536e80a677b01d3b6ed448e4e8fec45d0e7b",
-      "ja_text_bytes": 55,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-55",
       "article_number": "55",
       "filename": "sochi-hou-article-55.md",
-      "ja_text_sha256": "33d7a4ba7180f7229570a63891eec4fc5838e60f66ab2c9d67d04ff29dc1505f",
-      "ja_text_bytes": 20779,
+      "ja_text_sha256": "5a2cf88aabf6fab1016a1380587794744b5bfd4527dd945faec67d9b0efeaf10",
+      "ja_text_bytes": 26565,
       "paragraph_count": 25
     },
     {
       "article_id": "sochi-hou-art-56",
       "article_number": "56",
       "filename": "sochi-hou-article-56.md",
-      "ja_text_sha256": "0da432ff0396ff2585fd7f235936964a2971c1e70b6db07a4874cb3b2c70ea5e",
-      "ja_text_bytes": 8575,
+      "ja_text_sha256": "0b041b41a750fdd81cbc16b169964958e0eff0335db1c844a4d4df96dcc2f56a",
+      "ja_text_bytes": 12635,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-57-4",
       "article_number": "57-4",
       "filename": "sochi-hou-article-57-4.md",
-      "ja_text_sha256": "699bf75d90defd53d4c9bb2f1b9ba9112c85cdefd58bfaeb0eb9fe6e6a103b7d",
-      "ja_text_bytes": 4486,
+      "ja_text_sha256": "0ace5e90b34dbc058b231a8e8cf4fb3740cb71e3bbdc8cf727c78e3f6f0be875",
+      "ja_text_bytes": 5499,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-57-5",
       "article_number": "57-5",
       "filename": "sochi-hou-article-57-5.md",
-      "ja_text_sha256": "e961e74ebf1ccea81fba6634639a2b17f71fb8e20d9021d3c711a138a89fa68d",
-      "ja_text_bytes": 13396,
+      "ja_text_sha256": "7b4c9d26ce8b9e6562d4e62fa3a3642c3f3651e8219ed2714bac5a71ca316bc2",
+      "ja_text_bytes": 16175,
       "paragraph_count": 17
     },
     {
       "article_id": "sochi-hou-art-57-6",
       "article_number": "57-6",
       "filename": "sochi-hou-article-57-6.md",
-      "ja_text_sha256": "f47d234fa56f857ec1db2ce2268ec190c6dde1baed6d93e14e321863f6ca7fe4",
-      "ja_text_bytes": 13313,
+      "ja_text_sha256": "2b3dccac4c5cbfd121363c2072cceed4d7d3f53c4177560ccd965412ce78de11",
+      "ja_text_bytes": 13224,
       "paragraph_count": 15
     },
     {
       "article_id": "sochi-hou-art-57-7-2",
       "article_number": "57-7-2",
       "filename": "sochi-hou-article-57-7-2.md",
-      "ja_text_sha256": "2e02d6f2e75cf64aca7d16b91b770e7f20d5bc2f43fa072c5e87e59238fe8421",
-      "ja_text_bytes": 5970,
+      "ja_text_sha256": "96e61310c2db0addeea300809275ba864ac5d61c0720986bdbb6c84b35e8e435",
+      "ja_text_bytes": 8398,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-57-7",
       "article_number": "57-7",
       "filename": "sochi-hou-article-57-7.md",
-      "ja_text_sha256": "233827cd32c9e4d75ae8dee4f543aecb6844656c5d58f733771c0077852cd39f",
-      "ja_text_bytes": 7285,
+      "ja_text_sha256": "f496e17b8da2e85fb1ed70f07bf243f3806a02ab5f66964d057190972fdc7b59",
+      "ja_text_bytes": 9584,
       "paragraph_count": 11
     },
     {
       "article_id": "sochi-hou-art-57-8",
       "article_number": "57-8",
       "filename": "sochi-hou-article-57-8.md",
-      "ja_text_sha256": "c4f823696e23c102fb96cefded21e08916cbc8d22a19915222ebd2d228d80d19",
-      "ja_text_bytes": 10079,
+      "ja_text_sha256": "7827cbc090656e37048c0a456af737e6e61ceacdaa5db58cf592020d9422e760",
+      "ja_text_bytes": 12085,
       "paragraph_count": 16
     },
     {
       "article_id": "sochi-hou-art-57-9",
       "article_number": "57-9",
       "filename": "sochi-hou-article-57-9.md",
-      "ja_text_sha256": "751d61c779caf184bc81f7c51d092415ec881ce8a7b04d9fe52133c690c8adfb",
-      "ja_text_bytes": 2818,
+      "ja_text_sha256": "b7c70b292903683c6363d4c59e2e63be525fc4d9c95f40359ea6be863cc65395",
+      "ja_text_bytes": 2624,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-58",
       "article_number": "58",
       "filename": "sochi-hou-article-58.md",
-      "ja_text_sha256": "0f4889629f3a8fa30b19f2c9e0a45560a8a7800e2f84985e084ad74c7a286b06",
-      "ja_text_bytes": 11457,
+      "ja_text_sha256": "3d9fa86516ec15106a294cf4070f149a2de038d0db4c3c6f19960a6a5759bf2f",
+      "ja_text_bytes": 13983,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-59-2",
       "article_number": "59-2",
       "filename": "sochi-hou-article-59-2.md",
-      "ja_text_sha256": "9420b356a9c74f7400e12ff76127793133ab843907603e77e20e7c0c35119b43",
-      "ja_text_bytes": 5622,
+      "ja_text_sha256": "f1cd669f881ff83ccec7c8ad6992a774c2266553a10129377e2ef362d5efa23a",
+      "ja_text_bytes": 6063,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-59-3",
       "article_number": "59-3",
       "filename": "sochi-hou-article-59-3.md",
-      "ja_text_sha256": "9d4359ce977c1e2abe4cc92e2e69e88f5c983609693f991dfb6ebe91c46189c8",
-      "ja_text_bytes": 19635,
+      "ja_text_sha256": "31f934ecd73c49caf45eea57fe39696ebb860a9d4e22e1b166c96c7f8a4df701",
+      "ja_text_bytes": 25130,
       "paragraph_count": 18
     },
     {
       "article_id": "sochi-hou-art-59",
       "article_number": "59",
       "filename": "sochi-hou-article-59.md",
-      "ja_text_sha256": "45391c98c1bb6e1290271fbe6e393be120ec5274598876a424f2ba656210c5e9",
-      "ja_text_bytes": 4197,
+      "ja_text_sha256": "cbf8cb3d9a8385294f30b1e3d3d7ac6ed1b2fd8a6216235cd06db9be413ce634",
+      "ja_text_bytes": 5916,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-6",
       "article_number": "6",
       "filename": "sochi-hou-article-6.md",
-      "ja_text_sha256": "ea27f04b0c84e207ad9f885ea2b576e8b62fff30103bb1174b55db0ba3a64eee",
-      "ja_text_bytes": 14140,
+      "ja_text_sha256": "0c35cca180bc01b129c81c08639e2b899c928957abc9bea65f0d8d9fcfbfd6a9",
+      "ja_text_bytes": 16458,
       "paragraph_count": 15
     },
     {
       "article_id": "sochi-hou-art-60",
       "article_number": "60",
       "filename": "sochi-hou-article-60.md",
-      "ja_text_sha256": "2934c75eabd88c811fd1217dd2c13fc389a3218e996da4c2b1f074df308c3bc0",
-      "ja_text_bytes": 13724,
+      "ja_text_sha256": "7b940b3eb75cc7b075310534b4fc1c3d6c67299cec2c3d430487f2155d6f1715",
+      "ja_text_bytes": 20117,
       "paragraph_count": 12
     },
     {
       "article_id": "sochi-hou-art-61-2",
       "article_number": "61-2",
       "filename": "sochi-hou-article-61-2.md",
-      "ja_text_sha256": "e4b0ae4d61533cd18444dcd14e6a24ad0a835a0dfe9b433eeec911bc8e9e0ca2",
-      "ja_text_bytes": 5925,
+      "ja_text_sha256": "c6ef7e0c55865dd6bfa24014ba9d24397f17d011e8a2c0af2aa531b3169af697",
+      "ja_text_bytes": 8466,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-61-3",
       "article_number": "61-3",
       "filename": "sochi-hou-article-61-3.md",
-      "ja_text_sha256": "fdf8fa2ea60dabcb788e954dcba1dd17172346273c3212588e6374cfb283431f",
-      "ja_text_bytes": 4925,
+      "ja_text_sha256": "e3f59b3860b1687d3b8179b4b1d0571d98e7a40ab492da94a2b52dec247652e7",
+      "ja_text_bytes": 5566,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-61-4",
       "article_number": "61-4",
       "filename": "sochi-hou-article-61-4.md",
-      "ja_text_sha256": "edcf783a893549cde4c569038f97d94ed2e09a09dd988b322694e66aeb8a920e",
-      "ja_text_bytes": 4869,
+      "ja_text_sha256": "249c811d05b1777fecbef07bd8238296d87e00ef56cb9a598269741c25994a00",
+      "ja_text_bytes": 8280,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-61",
       "article_number": "61",
       "filename": "sochi-hou-article-61.md",
-      "ja_text_sha256": "68eef20a1a99a3ecfdcd83e5d83c74b1956c91ec9cb2bb7ea2a7a98d7cbb21b0",
-      "ja_text_bytes": 11998,
+      "ja_text_sha256": "d2f227438cdf566d889c4ed1a2dcdb31785465f4ae17fb1422bfa0c4d913f713",
+      "ja_text_bytes": 12644,
       "paragraph_count": 11
     },
     {
       "article_id": "sochi-hou-art-62-2",
       "article_number": "62-2",
       "filename": "sochi-hou-article-62-2.md",
-      "ja_text_sha256": "2887d00b97f770d492c4f6fba6b3609437e4abd8b41fec301f95efd42d94e698",
-      "ja_text_bytes": 57,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-62-3",
       "article_number": "62-3",
       "filename": "sochi-hou-article-62-3.md",
-      "ja_text_sha256": "0a821d53c4d70f6912c627d90b2de93d9f656f60a775292c9a06000605fa6b69",
-      "ja_text_bytes": 11869,
+      "ja_text_sha256": "7be16df3688bf46d63ab1a9aaa841d3cdd6bc0b4572f1582c092bc7df8e0262c",
+      "ja_text_bytes": 31633,
       "paragraph_count": 15
     },
     {
       "article_id": "sochi-hou-art-62",
       "article_number": "62",
       "filename": "sochi-hou-article-62.md",
-      "ja_text_sha256": "2273be94526f5b31b40f5ac08e1ec3634d9c13cedb0f3aa80a3ddc4b407c01b3",
-      "ja_text_bytes": 4981,
+      "ja_text_sha256": "b623c002e8900e8726ceb8229059754ec19283c5910050f1693c1d3ccf62d4a0",
+      "ja_text_bytes": 6885,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-63",
       "article_number": "63",
       "filename": "sochi-hou-article-63.md",
-      "ja_text_sha256": "86a1b11998bda349f77d861162aeb454cada91cf304df1cca0c268b01d71f31a",
-      "ja_text_bytes": 4108,
+      "ja_text_sha256": "4d4b17cc75c050ec764ed6a5498177a29ee81569fd8f425260ec263485f60a5c",
+      "ja_text_bytes": 10658,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-64-2",
       "article_number": "64-2",
       "filename": "sochi-hou-article-64-2.md",
-      "ja_text_sha256": "f147c7c141cd3907fa3bdb966c755214ca654ed23cf86cd12c72fe8aa995406c",
-      "ja_text_bytes": 13153,
+      "ja_text_sha256": "d1e4c8ca8b696bad81d3c9c33112aede00593f16f155a32611393c0d6db27527",
+      "ja_text_bytes": 13774,
       "paragraph_count": 18
     },
     {
       "article_id": "sochi-hou-art-64",
       "article_number": "64",
       "filename": "sochi-hou-article-64.md",
-      "ja_text_sha256": "b6b24f92b55b304eb492ce3f49ca0374e56b02b6e8d43fbc150454a6f85e7855",
-      "ja_text_bytes": 9979,
+      "ja_text_sha256": "85aa6ccaa6f47605b18f8436adc3bc7fbd7825b125bb6e58123383ef00ba8fd4",
+      "ja_text_bytes": 20676,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-65-10",
       "article_number": "65-10",
       "filename": "sochi-hou-article-65-10.md",
-      "ja_text_sha256": "b7f84443376acc5a55ac46b0695807dd13526cc6fc9bb177ce3e1b4814cb6edf",
-      "ja_text_bytes": 3589,
+      "ja_text_sha256": "d010fd638bb726e480508ad8033dd1d77e69bbd996ac5e6da36f95a1004402b4",
+      "ja_text_bytes": 5096,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-65-2",
       "article_number": "65-2",
       "filename": "sochi-hou-article-65-2.md",
-      "ja_text_sha256": "4d0e40df5934253ea763a029bfd26b9f7d2abcb0d97df9bdbd64ef3c1140539b",
-      "ja_text_bytes": 9649,
+      "ja_text_sha256": "a24243b6ae44042e61230e9aa1b6768532eab5249e24d316b306485725cdc416",
+      "ja_text_bytes": 11300,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-65-3",
       "article_number": "65-3",
       "filename": "sochi-hou-article-65-3.md",
-      "ja_text_sha256": "339dee19c27b0d4ada13925ddc5a54e83ccc3faae7daf3ccaf42a7ca7e74a007",
-      "ja_text_bytes": 4847,
+      "ja_text_sha256": "c28b6ec8dd1366ca22de32640117152e61b404d566e962e104dacadc014e637f",
+      "ja_text_bytes": 11133,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-65-4",
       "article_number": "65-4",
       "filename": "sochi-hou-article-65-4.md",
-      "ja_text_sha256": "7afba7c2c947293a08e8a933719054aae046a36e01df39094d0e71d447393c5a",
-      "ja_text_bytes": 4012,
+      "ja_text_sha256": "1cf33641df63a41ef8e103d22e3fc0f35ec386de4da7f7c48a0d3e60ba5ead2f",
+      "ja_text_bytes": 26229,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-65-5-2",
       "article_number": "65-5-2",
       "filename": "sochi-hou-article-65-5-2.md",
-      "ja_text_sha256": "79fd8d27c16dd62eb79eb01bbcb51a3e3a6d73d32fad5978fcdfd82715762bcb",
-      "ja_text_bytes": 4134,
+      "ja_text_sha256": "54975c6799d931ee510e68a7b6cbe561611dee046b51b34b7713a1017f93d347",
+      "ja_text_bytes": 5494,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-65-5",
       "article_number": "65-5",
       "filename": "sochi-hou-article-65-5.md",
-      "ja_text_sha256": "e8163595f20686ec67d4ee03e5f4a5cbfa8b5e668818fc4e9e0da61cd5dea8ab",
-      "ja_text_bytes": 2963,
+      "ja_text_sha256": "ef8f4862bf45ac98f53993a85596a5caee5babce56280cc2bf456b80a9ba9d79",
+      "ja_text_bytes": 3557,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-65-6",
       "article_number": "65-6",
       "filename": "sochi-hou-article-65-6.md",
-      "ja_text_sha256": "5396abd604d0b0893779f0689391895839c267c41b1c2d805554040f2480dd0d",
-      "ja_text_bytes": 1599,
+      "ja_text_sha256": "6a43bc33bb56aa32dafd97309b34ba1cdb47b4c9587c66b843e9ac578203b804",
+      "ja_text_bytes": 1548,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-65-7",
       "article_number": "65-7",
       "filename": "sochi-hou-article-65-7.md",
-      "ja_text_sha256": "33c1e02752a4dc293ce7fb4f59f075c2b08674ce9b53f165489c95834b6bb6a5",
-      "ja_text_bytes": 21016,
+      "ja_text_sha256": "297f1e7d5922a131a1a370db07cb7dfd40151e961810002d976be6be940c2ec2",
+      "ja_text_bytes": 23596,
       "paragraph_count": 16
     },
     {
       "article_id": "sochi-hou-art-65-8",
       "article_number": "65-8",
       "filename": "sochi-hou-article-65-8.md",
-      "ja_text_sha256": "fe1f5dd43e468b08c2d54417578a65f5d4cee332f8dfbd64423c3b81e70ba4e2",
-      "ja_text_bytes": 19332,
+      "ja_text_sha256": "35799f9ab77c4e971410d4cc26c799c0133621eda97a7fd8348ac0146956b6cf",
+      "ja_text_bytes": 21437,
       "paragraph_count": 20
     },
     {
       "article_id": "sochi-hou-art-65-9",
       "article_number": "65-9",
       "filename": "sochi-hou-article-65-9.md",
-      "ja_text_sha256": "f0c21c32c10f58165ce590a262f92d5b8f2b17381c3835e4c07662880bdd8af5",
-      "ja_text_bytes": 1530,
+      "ja_text_sha256": "f6a3f51453bdc86be2bf45a9b219b2ccf3af7eb000a3853698eac08066b1ee96",
+      "ja_text_bytes": 2103,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-65",
       "article_number": "65",
       "filename": "sochi-hou-article-65.md",
-      "ja_text_sha256": "08b6072c10124ca0343f578665fce7e3404e18782593fcd2aed8442d89742aa9",
-      "ja_text_bytes": 14136,
+      "ja_text_sha256": "27383574c541ba2531405a211cf944f2d5c2ab6571b0dcc29243a6df0da34424",
+      "ja_text_bytes": 19636,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-66-10",
       "article_number": "66-10",
       "filename": "sochi-hou-article-66-10.md",
-      "ja_text_sha256": "8f1f625af980c03226f2de453188920e956feddc7eb2929ac3409a5c245b145e",
-      "ja_text_bytes": 2392,
+      "ja_text_sha256": "eeb704a2d8ed971e3791424f90e551a27fcc3ebcffa1692d383052bd15b69002",
+      "ja_text_bytes": 2184,
       "paragraph_count": 4
     },
     {
@@ -2034,64 +2034,64 @@
       "article_id": "sochi-hou-art-66-11",
       "article_number": "66-11",
       "filename": "sochi-hou-article-66-11.md",
-      "ja_text_sha256": "83b38936e7feb6fd345b2d2107373d02c1ce9afa5409cddf9dcf51a743a51827",
-      "ja_text_bytes": 1401,
+      "ja_text_sha256": "6f95dd563786c8aad381558db310536df04083980215955b0297feb12ff0cc3d",
+      "ja_text_bytes": 2824,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-66-12",
       "article_number": "66-12",
       "filename": "sochi-hou-article-66-12.md",
-      "ja_text_sha256": "b34ff16128ec20c2cb4c6ebff6397264a756a7df7c8fd821a588bb036e6f73cd",
-      "ja_text_bytes": 1975,
+      "ja_text_sha256": "69be2335d976d7dc47d358d2a8bbab6e01650c213ac59f2f285f3bc92383183d",
+      "ja_text_bytes": 2888,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-66-13",
       "article_number": "66-13",
       "filename": "sochi-hou-article-66-13.md",
-      "ja_text_sha256": "b4be1868942970ea0cff0f39d3d52ba9be26ff999cdbd437ffac572dcc8d4e24",
-      "ja_text_bytes": 22701,
+      "ja_text_sha256": "ee0a84f2a307ac0df3141ef2b3e5e96aa8d45b202ff1acd2548794b4d3e0dc67",
+      "ja_text_bytes": 30215,
       "paragraph_count": 24
     },
     {
       "article_id": "sochi-hou-art-66-2",
       "article_number": "66-2",
       "filename": "sochi-hou-article-66-2.md",
-      "ja_text_sha256": "75e5085facdb83b73bb5f7d701d36e17cdd51cd993fa6d9d1e72adf3f05d2c59",
-      "ja_text_bytes": 2636,
+      "ja_text_sha256": "993b91820904cd02820b9e948edc9ecfa7e80d3bf31247b9407809c095015409",
+      "ja_text_bytes": 2534,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-66-3",
       "article_number": "66-3",
       "filename": "sochi-hou-article-66-3.md",
-      "ja_text_sha256": "e51cbaecf94a8fc74d535f74412c87634e0d6a0ed6956feddea985fe7d7d3387",
-      "ja_text_bytes": 1087,
+      "ja_text_sha256": "6bb1396c07c979d9685c5247c3de3a1285c3a24e4978e13185fb54e2100f7e50",
+      "ja_text_bytes": 981,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-66-4-2",
       "article_number": "66-4-2",
       "filename": "sochi-hou-article-66-4-2.md",
-      "ja_text_sha256": "e26a142f3256cc3d5b78f7d09731d256e238fcbf5cd4172cb7992201b7e7c1e2",
-      "ja_text_bytes": 6650,
+      "ja_text_sha256": "d0a685fff2a3f132c26e0d6a1587b9e238604b06487ef43807b59bc355889761",
+      "ja_text_bytes": 7646,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-66-4-3",
       "article_number": "66-4-3",
       "filename": "sochi-hou-article-66-4-3.md",
-      "ja_text_sha256": "530efebc91a4cb4b7ce715e9d01b3ec382c4cedc71dd4fcf77ccf564a06482a8",
-      "ja_text_bytes": 16828,
+      "ja_text_sha256": "b62e76154db2d243e33d543d56d04f80998f8e15011c26900bbf5679f54b7fbc",
+      "ja_text_bytes": 19813,
       "paragraph_count": 15
     },
     {
       "article_id": "sochi-hou-art-66-4-4",
       "article_number": "66-4-4",
       "filename": "sochi-hou-article-66-4-4.md",
-      "ja_text_sha256": "bdde05e7807492a873917fcedc86d12bd4d4ea45340136a3c61b41e2a9e4356e",
-      "ja_text_bytes": 6663,
+      "ja_text_sha256": "e1b14ce1165df084c467200273bd9e6d6cb24a3d1c5458af17f9b90403b7b9d6",
+      "ja_text_bytes": 9563,
       "paragraph_count": 10
     },
     {
@@ -2106,16 +2106,16 @@
       "article_id": "sochi-hou-art-66-4",
       "article_number": "66-4",
       "filename": "sochi-hou-article-66-4.md",
-      "ja_text_sha256": "972feedcfeb5e4d2ce16a6b3515bef8cec8f1dc7a841a8816234eb415d37701f",
-      "ja_text_bytes": 29675,
+      "ja_text_sha256": "a8334a03c23934a928c62361e4400ecf2234437cccf2be587f2aa1deea1dc6de",
+      "ja_text_bytes": 35112,
       "paragraph_count": 32
     },
     {
       "article_id": "sochi-hou-art-66-5-2",
       "article_number": "66-5-2",
       "filename": "sochi-hou-article-66-5-2.md",
-      "ja_text_sha256": "5479f4dcfc1b33cb92537960967a1f2d1179294fe233140055227c847f2cd506",
-      "ja_text_bytes": 6098,
+      "ja_text_sha256": "3fe21264a4583742ac0e58f1b15b3e407a2001578046328e2a7e4293c7686c10",
+      "ja_text_bytes": 13482,
       "paragraph_count": 11
     },
     {
@@ -2130,56 +2130,56 @@
       "article_id": "sochi-hou-art-66-5",
       "article_number": "66-5",
       "filename": "sochi-hou-article-66-5.md",
-      "ja_text_sha256": "5d50e933d4e2ad3d197ac65393cc9717c7c61a0fc0509db2d192a9ac7198e86b",
-      "ja_text_bytes": 6621,
+      "ja_text_sha256": "3d77d8aafbc10eb44044f6046935d131fd1f38790b21d5d784b4c7ccfab3ea28",
+      "ja_text_bytes": 8619,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-66-6",
       "article_number": "66-6",
       "filename": "sochi-hou-article-66-6.md",
-      "ja_text_sha256": "177c0c9e275d4deb6f2304ffa180896d4e6e871ad58db9fb5c8092eee68ce451",
-      "ja_text_bytes": 13141,
+      "ja_text_sha256": "bb733bcf3a975a3624933701772f227fb48701100453bb97b316aae5655862db",
+      "ja_text_bytes": 45977,
       "paragraph_count": 18
     },
     {
       "article_id": "sochi-hou-art-66-7",
       "article_number": "66-7",
       "filename": "sochi-hou-article-66-7.md",
-      "ja_text_sha256": "d76049aefc477d896f6db28507d5e3111405f3dcf19e48dc22f6ecf22e05298f",
-      "ja_text_bytes": 13014,
+      "ja_text_sha256": "106cfbbaea2eb568976031ac763a0ccdb63f5e9ba1df93194993e931eece1dcd",
+      "ja_text_bytes": 14922,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-66-8",
       "article_number": "66-8",
       "filename": "sochi-hou-article-66-8.md",
-      "ja_text_sha256": "b317fca15aaec6c872ed62ef92f9c32d6bbecb1f986e1a087106977b07a32887",
-      "ja_text_bytes": 10235,
+      "ja_text_sha256": "81c90ba4ca00eafb8551f4d531b0a2a168b6fd68cd014f1f5b750b683fe1a0be",
+      "ja_text_bytes": 16220,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-66-9-2",
       "article_number": "66-9-2",
       "filename": "sochi-hou-article-66-9-2.md",
-      "ja_text_sha256": "3be9b819d599caf905a6b57b84b56cbd83e1235ad13122131fbfb143d155177c",
-      "ja_text_bytes": 12690,
+      "ja_text_sha256": "1b48ec421c1c3baddf057474f2f7ce1edbb833efa2c104b79aa20808b07a2090",
+      "ja_text_bytes": 38514,
       "paragraph_count": 19
     },
     {
       "article_id": "sochi-hou-art-66-9-3",
       "article_number": "66-9-3",
       "filename": "sochi-hou-article-66-9-3.md",
-      "ja_text_sha256": "2fcc33e13cbfaf32065f18ce6f2d416453ff4a6a82bbc5e1f68e1cfc6dda4251",
-      "ja_text_bytes": 10078,
+      "ja_text_sha256": "078fbadf36ce265046ca05ea1d3c695550661e7e8fd199901cf0b6a5b0c3bf78",
+      "ja_text_bytes": 12979,
       "paragraph_count": 12
     },
     {
       "article_id": "sochi-hou-art-66-9-4",
       "article_number": "66-9-4",
       "filename": "sochi-hou-article-66-9-4.md",
-      "ja_text_sha256": "48865f655729a5be9776f411a0cd3f47a63b25f71599c720d3224447ef75d3ae",
-      "ja_text_bytes": 9971,
+      "ja_text_sha256": "4d69cffdb60d5d2b4ac89c92075605fdf3bf2782bda2c555ceb43991d3230a3c",
+      "ja_text_bytes": 14797,
       "paragraph_count": 12
     },
     {
@@ -2194,176 +2194,176 @@
       "article_id": "sochi-hou-art-66-9",
       "article_number": "66-9",
       "filename": "sochi-hou-article-66-9.md",
-      "ja_text_sha256": "adc30f2ca18f2761b1de76501e02d7503a7f213c687935d47e0198a90f6739d3",
-      "ja_text_bytes": 261,
+      "ja_text_sha256": "4e07b5c4835dc255271926df1597c3364314455d8e469949df2c55656d3123c7",
+      "ja_text_bytes": 210,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-66",
       "article_number": "66",
       "filename": "sochi-hou-article-66.md",
-      "ja_text_sha256": "60128b1b51742daed5784d65bed6466260ba1b6e09e5ef808d084f8a29e48b59",
-      "ja_text_bytes": 4285,
+      "ja_text_sha256": "214407113000f64a8a36b9d5c758bc0d549114a5a0575a1df4457df099c9b08a",
+      "ja_text_bytes": 4478,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-67-12",
       "article_number": "67-12",
       "filename": "sochi-hou-article-67-12.md",
-      "ja_text_sha256": "3856acd723a0d97783630d231e23ec6dc337c0df932733fc0d121394cbf78c88",
-      "ja_text_bytes": 3544,
+      "ja_text_sha256": "7a490a337961b6c4895cea2fad73bad0d37a1c689c475192bf7ff9f5f6e31384",
+      "ja_text_bytes": 5089,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-67-13",
       "article_number": "67-13",
       "filename": "sochi-hou-article-67-13.md",
-      "ja_text_sha256": "52b8812f3e85bfe12fc541e24df8418acce7117fbb583c1784c7b893c00bcc07",
-      "ja_text_bytes": 2734,
+      "ja_text_sha256": "8fcc9957b174711ff10498c781929f260009619cacf6b97b18423b313b96fbe2",
+      "ja_text_bytes": 2526,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-67-14",
       "article_number": "67-14",
       "filename": "sochi-hou-article-67-14.md",
-      "ja_text_sha256": "129bfce2a0c0e081f19a648b7385cd421cf70877fb4e624bb17621dd3323d163",
-      "ja_text_bytes": 5958,
+      "ja_text_sha256": "38061e4f139df21ab8f64607b0fe5efbd5b11b7461537f8dc12f693366a567fe",
+      "ja_text_bytes": 9495,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-67-15",
       "article_number": "67-15",
       "filename": "sochi-hou-article-67-15.md",
-      "ja_text_sha256": "7b04121ec6471e73bfb4885c3f2ac2cc52f50e3be5f01a3d999cc83e4dffe399",
-      "ja_text_bytes": 6114,
+      "ja_text_sha256": "deed2c83a13ac4cbd96a86f2c441f82d208e702b19cc0ffccbbcf4c4818e46e9",
+      "ja_text_bytes": 10178,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-67-16-2",
       "article_number": "67-16-2",
       "filename": "sochi-hou-article-67-16-2.md",
-      "ja_text_sha256": "e60f42a60057fcb485600855fab27ab2adad7df162ecd8d31e9b5635f84044d0",
-      "ja_text_bytes": 1488,
+      "ja_text_sha256": "b16a1a5ca771c5e6f8f6787ce7f937657202f8d02036f40b3f71fecd3d8629e4",
+      "ja_text_bytes": 1659,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-67-16",
       "article_number": "67-16",
       "filename": "sochi-hou-article-67-16.md",
-      "ja_text_sha256": "938f19490366fa204907abc6ac2cfe3684f35e1c4e4d0a80083b1a68a77bdf3d",
-      "ja_text_bytes": 4378,
+      "ja_text_sha256": "bc4444c653045910eb0b714db8732570527c93d4c63fe7af0570001c4f9cd6bd",
+      "ja_text_bytes": 4066,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-67-17",
       "article_number": "67-17",
       "filename": "sochi-hou-article-67-17.md",
-      "ja_text_sha256": "29276ba17f8fda67f7c956bd25f3c62fa8047f89c3c6b0f1cb8912f1a7f675c4",
-      "ja_text_bytes": 9122,
+      "ja_text_sha256": "dbb9a3c950201e4e2b07c961ff5590cae5eeadddc3d825514274b38011196d97",
+      "ja_text_bytes": 8442,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-67-18",
       "article_number": "67-18",
       "filename": "sochi-hou-article-67-18.md",
-      "ja_text_sha256": "4b50f7768ccf77e88b69896b28e84107b6c79c6f35477d6f5975d306b65633a1",
-      "ja_text_bytes": 16256,
+      "ja_text_sha256": "5e3ec9d7e655cbab5a2fa997634615ea0c31cc72aba1150c53a69a921375371e",
+      "ja_text_bytes": 16588,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-67-2",
       "article_number": "67-2",
       "filename": "sochi-hou-article-67-2.md",
-      "ja_text_sha256": "34f78db9ed2d409961b2782ef2d5e6cac685e9ea890da3864712191b356c9b19",
-      "ja_text_bytes": 3750,
+      "ja_text_sha256": "c7d38fa814f4ec47c50cfacd48a7e1a185d861633984be6745d1eb80bad4a539",
+      "ja_text_bytes": 3347,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-67-3",
       "article_number": "67-3",
       "filename": "sochi-hou-article-67-3.md",
-      "ja_text_sha256": "51d8d09a9a43274759b2a01a04e88b45a5843ca92f64ca24352f3755b347c293",
-      "ja_text_bytes": 4271,
+      "ja_text_sha256": "c48698ef14b2c9809d3c7d659ecf349978989901da35c7eefc26243bf63e4ad8",
+      "ja_text_bytes": 4225,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-67-4",
       "article_number": "67-4",
       "filename": "sochi-hou-article-67-4.md",
-      "ja_text_sha256": "7eb0640971a524d817c0da0353787af7ba43731643ed149d9351db60c59b8a1c",
-      "ja_text_bytes": 15658,
+      "ja_text_sha256": "60dd887bfbf5be7ef1dc1132c63234ea07af6fa31f38c2e8dbe19805a4e55675",
+      "ja_text_bytes": 16375,
       "paragraph_count": 19
     },
     {
       "article_id": "sochi-hou-art-67-5",
       "article_number": "67-5",
       "filename": "sochi-hou-article-67-5.md",
-      "ja_text_sha256": "169d6a4d4f21d06dd414e68874203a64e70116376820650fad0ade11b3f80ffb",
-      "ja_text_bytes": 3287,
+      "ja_text_sha256": "6b2388bc668496f00764e0f911cf631c3078fbe851230d276d9318fd369b57ae",
+      "ja_text_bytes": 2933,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-67-6",
       "article_number": "67-6",
       "filename": "sochi-hou-article-67-6.md",
-      "ja_text_sha256": "8df0b77986a1713661111bee5d8e949a79ceac7cdffa615f3fc3a37795ad9dd3",
-      "ja_text_bytes": 1394,
+      "ja_text_sha256": "7d640990577608e911eb1024f991fa3c5736707d1003005af182518c25c32bbc",
+      "ja_text_bytes": 1292,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-67-7",
       "article_number": "67-7",
       "filename": "sochi-hou-article-67-7.md",
-      "ja_text_sha256": "fc6a8dfb1bc00b129b9b920ad6ef0a46f3f5d072507bdd334412c76a63ad763a",
-      "ja_text_bytes": 1254,
+      "ja_text_sha256": "0a67af17bad522933e484f2167eae321f3fbd4561e8bd41fdf0868a9d9909730",
+      "ja_text_bytes": 1106,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-67-8",
       "article_number": "67-8",
       "filename": "sochi-hou-article-67-8.md",
-      "ja_text_sha256": "412c48a2a5735dbd1e860be2c1458bf8659170153389f52c4912d6ad59c05ea1",
-      "ja_text_bytes": 1151,
+      "ja_text_sha256": "0140995fccf1c6b9fab40f3daea485432e1ace162e9f4f794ede4277598835f2",
+      "ja_text_bytes": 1049,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-67",
       "article_number": "67",
       "filename": "sochi-hou-article-67.md",
-      "ja_text_sha256": "47ce05d9c0333dd5c666566e10e6d54772bca8374b6b35282657fed1332c3413",
-      "ja_text_bytes": 2503,
+      "ja_text_sha256": "88fbc07ad8945bcf1abdc5050d8d7113381aa08466634bf85dec9ffd354f8d22",
+      "ja_text_bytes": 2307,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-68-2-2",
       "article_number": "68-2-2",
       "filename": "sochi-hou-article-68-2-2.md",
-      "ja_text_sha256": "2f61708925beb2e158b50a040d24eb35a4946c7070558aa7f55cc134c7d701a9",
-      "ja_text_bytes": 5518,
+      "ja_text_sha256": "98abc3ae7127c4df555168278d44ebf745f3598df9f15e89abe703f5985c32d7",
+      "ja_text_bytes": 9375,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-68-2",
       "article_number": "68-2",
       "filename": "sochi-hou-article-68-2.md",
-      "ja_text_sha256": "62bff5a59ed40f16692f673fb0745fa2d857674a96598579ec7b2aec5b70c854",
-      "ja_text_bytes": 1766,
+      "ja_text_sha256": "dc7ec58fcfe66677d2871a59898187df3b9457840abec973f31a6e5fbc793bb4",
+      "ja_text_bytes": 1664,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-68-3-2",
       "article_number": "68-3-2",
       "filename": "sochi-hou-article-68-3-2.md",
-      "ja_text_sha256": "777cec3c9e4efde7f1e21f07b3f005af0036937a1428a86f563de4560990bfca",
-      "ja_text_bytes": 5808,
+      "ja_text_sha256": "8eff331e5dd029ed0810db22d5fbbccea569a733ba9fca3375914f173bb06024",
+      "ja_text_bytes": 8652,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-68-3-3",
       "article_number": "68-3-3",
       "filename": "sochi-hou-article-68-3-3.md",
-      "ja_text_sha256": "da19845171cd637566801feee5c85672776afa1a6e2b4b4eed8d07a6f697dcd5",
-      "ja_text_bytes": 6147,
+      "ja_text_sha256": "05ffcb94232d0a689429ae87f767936f9281daf9d68e2576e4ee11b50a345e45",
+      "ja_text_bytes": 7964,
       "paragraph_count": 7
     },
     {
@@ -2378,160 +2378,160 @@
       "article_id": "sochi-hou-art-68-3",
       "article_number": "68-3",
       "filename": "sochi-hou-article-68-3.md",
-      "ja_text_sha256": "e398d7318605e35b708ae890bcaa7f8df144af5f9831fa30979f3e15c5e14122",
-      "ja_text_bytes": 3903,
+      "ja_text_sha256": "9ec01c4cc8af0516fece4d204bb8341ddccdc9153d86c8220c733be22382d140",
+      "ja_text_bytes": 3699,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-68-4",
       "article_number": "68-4",
       "filename": "sochi-hou-article-68-4.md",
-      "ja_text_sha256": "6d066b2b5c739feb17fe065c16541cef140ded012a2f543ad99d97e3b0e4ef7c",
-      "ja_text_bytes": 1659,
+      "ja_text_sha256": "7df69e50a8e0cb064d1d7f93265c75ef4c4d8b8bdf1069a09836544fb6a369f7",
+      "ja_text_bytes": 1608,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-68-5",
       "article_number": "68-5",
       "filename": "sochi-hou-article-68-5.md",
-      "ja_text_sha256": "dcf72aaa88d752df1ff1afcdac28063c3049dab9a74b55f9b8604f513708ca18",
-      "ja_text_bytes": 622,
+      "ja_text_sha256": "d158b02109b30a42ae808bdbd119021cc9f7d137e87d2135c929e2061108ddaa",
+      "ja_text_bytes": 519,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-68-6",
       "article_number": "68-6",
       "filename": "sochi-hou-article-68-6.md",
-      "ja_text_sha256": "991ab6b7f19ba78b7f61b9950a38d059e910fac427237fc9a842160df0811490",
-      "ja_text_bytes": 780,
+      "ja_text_sha256": "996a655294a93876822951b5356125050d2796d4327eb2f31c2f56a89ce8e402",
+      "ja_text_bytes": 729,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-68",
       "article_number": "68",
       "filename": "sochi-hou-article-68.md",
-      "ja_text_sha256": "6ec13e69e1f1b9c476ae305772a703c3465f21c7f9833c985b77147c44d1c1eb",
-      "ja_text_bytes": 1405,
+      "ja_text_sha256": "58bfb0009ce2ee21f7b2c5aa8e9d81a0524767467e18f86ce023c0ce496a3b5c",
+      "ja_text_bytes": 2080,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-69-2",
       "article_number": "69-2",
       "filename": "sochi-hou-article-69-2.md",
-      "ja_text_sha256": "e564f274552387a421ee95c57a8c6d9b8bdf749b1fcab37759ef16fcd9f72ca0",
-      "ja_text_bytes": 1630,
+      "ja_text_sha256": "68004fd1ae9d4c2c9bc0cf3520978304f08a3d5be2f4062fae0def76f41dccc9",
+      "ja_text_bytes": 1477,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-69-3",
       "article_number": "69-3",
       "filename": "sochi-hou-article-69-3.md",
-      "ja_text_sha256": "05f549cef38ef6c573fda4b77fbff4265a70d82825257bc508e2f8450e1ab581",
-      "ja_text_bytes": 2387,
+      "ja_text_sha256": "3deebb4aabe671559cc8ef6a0ba0bd87cbeaa178a126893c058d837d23d89fc1",
+      "ja_text_bytes": 3941,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-69-4",
       "article_number": "69-4",
       "filename": "sochi-hou-article-69-4.md",
-      "ja_text_sha256": "a5d7aa6016b38f63e88d8ef9991e9fd7c6f2c7a2a61ebe405997e2a3e73b7a48",
-      "ja_text_bytes": 7259,
+      "ja_text_sha256": "b93bc7734a6c9b72bb6b49da9ff5d1806a45ec53eaae97ea4f6cb1187d5a670f",
+      "ja_text_bytes": 14173,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-69-5",
       "article_number": "69-5",
       "filename": "sochi-hou-article-69-5.md",
-      "ja_text_sha256": "b5a87d6883fcb97f98bbd62fed86f5258e849dd730c067d60e5cf55cbdbeee5e",
-      "ja_text_bytes": 8659,
+      "ja_text_sha256": "59bce0dcac8eeb9ae46b8ba328801ab2563d95ded50e6f18f2c3cad4d6363a1a",
+      "ja_text_bytes": 13249,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-69-6",
       "article_number": "69-6",
       "filename": "sochi-hou-article-69-6.md",
-      "ja_text_sha256": "7b26259ebf30e51832f1490897231c113ad7dc9aecd1aee5a741ed0bd10762af",
-      "ja_text_bytes": 4988,
+      "ja_text_sha256": "8f391330cdeb4f9a78b78b9eeae7a39687eefb21938ed043ef1f94c023c0c575",
+      "ja_text_bytes": 4662,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-69-7",
       "article_number": "69-7",
       "filename": "sochi-hou-article-69-7.md",
-      "ja_text_sha256": "3acba3f24187b2e69692749567e13d0e0ea2b38f90335231112232243a07f10d",
-      "ja_text_bytes": 1308,
+      "ja_text_sha256": "eb3a5e8cfe590d341741c3c2b8189b88b29f5b89915f7c931b666094da0f142f",
+      "ja_text_bytes": 1151,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-69-8",
       "article_number": "69-8",
       "filename": "sochi-hou-article-69-8.md",
-      "ja_text_sha256": "51af9e9336793257082b0c58ba5c4a36f87a22d8a954c56fc04874aa21f53a30",
-      "ja_text_bytes": 2409,
+      "ja_text_sha256": "2423fb18d779ba1424532dbc03c4d4a83733e4b0319e599b3b01e1a203c51853",
+      "ja_text_bytes": 2205,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-69",
       "article_number": "69",
       "filename": "sochi-hou-article-69.md",
-      "ja_text_sha256": "d2d8c577d7b5d8de274ef086681795e9dd29cd450a6a820b7f6a1ff3aef0fb54",
-      "ja_text_bytes": 55,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-7",
       "article_number": "7",
       "filename": "sochi-hou-article-7.md",
-      "ja_text_sha256": "02a1666b4fdcf24e02b4177a289fdeec896fd91ed8403ba614ed5268762fca7c",
-      "ja_text_bytes": 1252,
+      "ja_text_sha256": "cfea36217a47910ff4c73384153531f8e4a33c22de565a404082cba0d9abad8a",
+      "ja_text_bytes": 1140,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-70-10",
       "article_number": "70-10",
       "filename": "sochi-hou-article-70-10.md",
-      "ja_text_sha256": "c404d9a9dd2d6021d1ac5f88f90b6f7411a313c4ece86d73d1a9dd2a082fa277",
-      "ja_text_bytes": 2897,
+      "ja_text_sha256": "03f90e29c258713e5428e7fd3347d15309d634ea7b44e18dde080111f8ac0367",
+      "ja_text_bytes": 2582,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-70-11",
       "article_number": "70-11",
       "filename": "sochi-hou-article-70-11.md",
-      "ja_text_sha256": "0a9d9f58dc9da44dc0f58dfddf7dc2d3180a54496a7dc7e6235bffdbcdd1ad63",
-      "ja_text_bytes": 880,
+      "ja_text_sha256": "c6573ff4406df4360f8f59f0cca55f3a5928b3edc4d3dbf304b6fb34d305113a",
+      "ja_text_bytes": 828,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-70-12",
       "article_number": "70-12",
       "filename": "sochi-hou-article-70-12.md",
-      "ja_text_sha256": "37d0ce3548dd8e6799abfe80a2e1ef138bf5e2fac3ec6f68319c6314d7899945",
-      "ja_text_bytes": 1944,
+      "ja_text_sha256": "03f35b10aa89d7aefc1062c67174257ceb688f02eea2ed4327f32c00cf131b1e",
+      "ja_text_bytes": 1739,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-70-13",
       "article_number": "70-13",
       "filename": "sochi-hou-article-70-13.md",
-      "ja_text_sha256": "ab3329ef604a3f629628bc30a9c7e85d9cecdf945028146d138c5003d1462a77",
-      "ja_text_bytes": 2919,
+      "ja_text_sha256": "3b39d39ff09d24cc5f1b113a34c0efec0eb68c21ffd41f44e0cc47905a0f3b62",
+      "ja_text_bytes": 3519,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-70-2-2",
       "article_number": "70-2-2",
       "filename": "sochi-hou-article-70-2-2.md",
-      "ja_text_sha256": "e3df89fe79dcf05bdd6894966f55f2b0016cd912e7ca0b04921fcc790db9bbe8",
-      "ja_text_bytes": 17299,
+      "ja_text_sha256": "562406d1bfab50a548d2023335a3633ec06a1983c174eb90561191eb61faf425",
+      "ja_text_bytes": 26797,
       "paragraph_count": 27
     },
     {
       "article_id": "sochi-hou-art-70-2-3",
       "article_number": "70-2-3",
       "filename": "sochi-hou-article-70-2-3.md",
-      "ja_text_sha256": "4df61eee8d8c2a8c2048d7e00d261293ccb655d6821bfee9357abb46e1385b6f",
-      "ja_text_bytes": 14728,
+      "ja_text_sha256": "ed78aa7dc5af2d798d6f747982a588f1a1b0d869e384592f0e456af39b218a99",
+      "ja_text_bytes": 21650,
       "paragraph_count": 24
     },
     {
@@ -2546,8 +2546,8 @@
       "article_id": "sochi-hou-art-70-2-5",
       "article_number": "70-2-5",
       "filename": "sochi-hou-article-70-2-5.md",
-      "ja_text_sha256": "498090840390b4cc01f9b75e57b88249f1d0d713f3dcc9873def58f3fd433c10",
-      "ja_text_bytes": 3309,
+      "ja_text_sha256": "64ad2c3ed414ad8e2932c34f4bf1366fae4a6b6b198ad9c29e275b95a40434d8",
+      "ja_text_bytes": 4167,
       "paragraph_count": 6
     },
     {
@@ -2578,8 +2578,8 @@
       "article_id": "sochi-hou-art-70-2",
       "article_number": "70-2",
       "filename": "sochi-hou-article-70-2.md",
-      "ja_text_sha256": "860647b5cdfaef55024415f42df1570fd7e39317c516e06330d1320796a8d99e",
-      "ja_text_bytes": 9890,
+      "ja_text_sha256": "8fb642e44daf244a65435701cee62cc22bb52612f6497fdd7aec6222603c1e7e",
+      "ja_text_bytes": 23933,
       "paragraph_count": 16
     },
     {
@@ -2602,48 +2602,48 @@
       "article_id": "sochi-hou-art-70-3",
       "article_number": "70-3",
       "filename": "sochi-hou-article-70-3.md",
-      "ja_text_sha256": "ca995d71caa0814b8f217717938395ca896b28dc29f16a1714ea044e5156c0bf",
-      "ja_text_bytes": 7920,
+      "ja_text_sha256": "110b983d0d87a21907f798ae50f018edc1b770ef3fe79b127c1f3673a389d817",
+      "ja_text_bytes": 19967,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-70-4-2",
       "article_number": "70-4-2",
       "filename": "sochi-hou-article-70-4-2.md",
-      "ja_text_sha256": "999168095f1a97e67cecd394fbabfb8af76939913e565d61a1e888cab27a557a",
-      "ja_text_bytes": 8465,
+      "ja_text_sha256": "daaff02be73af4cb414971c20d35e0f06df8c924c9e6f841f1dce1abd4ce57ce",
+      "ja_text_bytes": 14210,
       "paragraph_count": 11
     },
     {
       "article_id": "sochi-hou-art-70-4",
       "article_number": "70-4",
       "filename": "sochi-hou-article-70-4.md",
-      "ja_text_sha256": "5f7c71c3b5aae29962fe66fa81b7179deb55de8c57c4300d7116a39f146ad0c7",
-      "ja_text_bytes": 33836,
+      "ja_text_sha256": "075309b90a3b1054d1801ce0a0fe4492b7a81e7668df6759bf3de30c27054fde",
+      "ja_text_bytes": 52608,
       "paragraph_count": 39
     },
     {
       "article_id": "sochi-hou-art-70-5",
       "article_number": "70-5",
       "filename": "sochi-hou-article-70-5.md",
-      "ja_text_sha256": "776bbd6e93d4721f0998f2b70970882455dc896081e697c94a11fb26ecebf606",
-      "ja_text_bytes": 3080,
+      "ja_text_sha256": "2dd5635dd4d177a6f470693833356bcbbfb9ff88aeeacd193e69ab2e3b681272",
+      "ja_text_bytes": 2879,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-70-6-10",
       "article_number": "70-6-10",
       "filename": "sochi-hou-article-70-6-10.md",
-      "ja_text_sha256": "bfe4ef3238a8d05c70f5673770424eefffb7b543b48a30537d03247f6974de70",
-      "ja_text_bytes": 24595,
+      "ja_text_sha256": "507c098393025060143eb5ac90585678c026bd8537ad46f90cf56f7f51b16cb4",
+      "ja_text_bytes": 40931,
       "paragraph_count": 31
     },
     {
       "article_id": "sochi-hou-art-70-6-2",
       "article_number": "70-6-2",
       "filename": "sochi-hou-article-70-6-2.md",
-      "ja_text_sha256": "ad16d3cc6c0c5afbbed2a9ba1038d5bbaa784ed08e9a8c604dd4041d556f6ead",
-      "ja_text_bytes": 2097,
+      "ja_text_sha256": "9d561e6854907eed78da17d7f041c163b704e5397b4dcb7ec5a48517ec7ef8d4",
+      "ja_text_bytes": 6021,
       "paragraph_count": 4
     },
     {
@@ -2658,8 +2658,8 @@
       "article_id": "sochi-hou-art-70-6-4",
       "article_number": "70-6-4",
       "filename": "sochi-hou-article-70-6-4.md",
-      "ja_text_sha256": "5fd7a731b6c51e09657b23c1b5496a1c77d56861c445512f73a8f0fd83ec834f",
-      "ja_text_bytes": 4424,
+      "ja_text_sha256": "42345dccc98e4751d0b745e8553c60c2f62df10a600cbf851d78ff7db15bfd3e",
+      "ja_text_bytes": 7697,
       "paragraph_count": 8
     },
     {
@@ -2674,24 +2674,24 @@
       "article_id": "sochi-hou-art-70-6-6",
       "article_number": "70-6-6",
       "filename": "sochi-hou-article-70-6-6.md",
-      "ja_text_sha256": "f0dde5f247ff7839674a877d57bd4414dc0db8d35da9348aec45be0f220e5f4a",
-      "ja_text_bytes": 16603,
+      "ja_text_sha256": "6318c1787fccc5bcea56d22314ad8b253fb4435adcb6e926ec68c363807de113",
+      "ja_text_bytes": 30462,
       "paragraph_count": 22
     },
     {
       "article_id": "sochi-hou-art-70-6-7",
       "article_number": "70-6-7",
       "filename": "sochi-hou-article-70-6-7.md",
-      "ja_text_sha256": "bbaf22d1794615f00df1e1ad8fdfc3f002480dbd2ee00e6d00231a9eee019e6d",
-      "ja_text_bytes": 10245,
+      "ja_text_sha256": "82726f0e5f397acec29760c59d8c20923b716f600cee69bb36788400f8e63198",
+      "ja_text_bytes": 21172,
       "paragraph_count": 19
     },
     {
       "article_id": "sochi-hou-art-70-6-8",
       "article_number": "70-6-8",
       "filename": "sochi-hou-article-70-6-8.md",
-      "ja_text_sha256": "422babd56890de033091779e97179cfbf79f3015402973c344202a6d7956156f",
-      "ja_text_bytes": 23955,
+      "ja_text_sha256": "e7413cc9714d6a991894f5af4d0f0cb9398e0a96c6d6ca90f469e004758d6ab0",
+      "ja_text_bytes": 43892,
       "paragraph_count": 29
     },
     {
@@ -2706,8 +2706,8 @@
       "article_id": "sochi-hou-art-70-6",
       "article_number": "70-6",
       "filename": "sochi-hou-article-70-6.md",
-      "ja_text_sha256": "efa6732be0c353226755969e78d55cca16bdc4b6d73fcaa3f08c499a0a079868",
-      "ja_text_bytes": 42082,
+      "ja_text_sha256": "fa4b4ca4842ed3fe18f1940db8c0deefa29ffcae9f5f7fec3fe238e739c60bc5",
+      "ja_text_bytes": 57349,
       "paragraph_count": 44
     },
     {
@@ -2730,8 +2730,8 @@
       "article_id": "sochi-hou-art-70-7-12",
       "article_number": "70-7-12",
       "filename": "sochi-hou-article-70-7-12.md",
-      "ja_text_sha256": "8e9a366083e52fcbeb896dcdce685e1460c502af281577135793531946bf2fb0",
-      "ja_text_bytes": 10767,
+      "ja_text_sha256": "567b6395b4df12d26dfe2cff84a8ecc2bf339d5596d3ab5e6531c7e57f06ff4c",
+      "ja_text_bytes": 12138,
       "paragraph_count": 16
     },
     {
@@ -2746,16 +2746,16 @@
       "article_id": "sochi-hou-art-70-7-14",
       "article_number": "70-7-14",
       "filename": "sochi-hou-article-70-7-14.md",
-      "ja_text_sha256": "b6a5b404c33e4fe8864cdbbfe9c6943caad645d1494da23d7c585fe471429c0c",
-      "ja_text_bytes": 4786,
+      "ja_text_sha256": "9f9c6b2d58f6ff36ef0505e593706bce226f9976ebae9685417bc67a6dcf2cf1",
+      "ja_text_bytes": 6478,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-70-7-2",
       "article_number": "70-7-2",
       "filename": "sochi-hou-article-70-7-2.md",
-      "ja_text_sha256": "68c8aef8bda5f9478520a28171637b3ecb23350e2e9db65b743340ddf0c079a4",
-      "ja_text_bytes": 37909,
+      "ja_text_sha256": "cfca9bfdd4e4ad6250daa576fa752318e847bd4fd73d59aa6436ee1d780bdf54",
+      "ja_text_bytes": 77567,
       "paragraph_count": 42
     },
     {
@@ -2770,24 +2770,24 @@
       "article_id": "sochi-hou-art-70-7-4",
       "article_number": "70-7-4",
       "filename": "sochi-hou-article-70-7-4.md",
-      "ja_text_sha256": "2cdc2d48c7c959d633bb45e601fbbbab9bd018a480c4ceab91c8a6b957eafb6a",
-      "ja_text_bytes": 17148,
+      "ja_text_sha256": "e08175726cb2f9685d6ea45d07d50840b9ac104e698c6d981365a552c35be23d",
+      "ja_text_bytes": 27950,
       "paragraph_count": 22
     },
     {
       "article_id": "sochi-hou-art-70-7-5",
       "article_number": "70-7-5",
       "filename": "sochi-hou-article-70-7-5.md",
-      "ja_text_sha256": "c2294ee4e39fcf7a48bb379410495da9c3f0f6bb7162922ee546e44992988238",
-      "ja_text_bytes": 26806,
+      "ja_text_sha256": "981e6efa91b8300b49f772e9c3db35838128c8b37ca1e931d730e244f9760bdb",
+      "ja_text_bytes": 49782,
       "paragraph_count": 28
     },
     {
       "article_id": "sochi-hou-art-70-7-6",
       "article_number": "70-7-6",
       "filename": "sochi-hou-article-70-7-6.md",
-      "ja_text_sha256": "051d58c8a6a86a0541d270cb475c484af96a5b953bc81c612761aa60d50999eb",
-      "ja_text_bytes": 25866,
+      "ja_text_sha256": "8007363566e7cec6a01a209e88f7a02fa03113b3023cda7c95267d82b6ccac3f",
+      "ja_text_bytes": 44522,
       "paragraph_count": 29
     },
     {
@@ -2802,424 +2802,424 @@
       "article_id": "sochi-hou-art-70-7-8",
       "article_number": "70-7-8",
       "filename": "sochi-hou-article-70-7-8.md",
-      "ja_text_sha256": "2710ac33a69018e016a9e172bd22d606d5379f4eeffcb88d4328e90b863620e5",
-      "ja_text_bytes": 11007,
+      "ja_text_sha256": "565e1650b4886beca1c6100ece7f6c8dbdebefc107f3f7c5848e99c21d5fe557",
+      "ja_text_bytes": 21237,
       "paragraph_count": 19
     },
     {
       "article_id": "sochi-hou-art-70-7-9",
       "article_number": "70-7-9",
       "filename": "sochi-hou-article-70-7-9.md",
-      "ja_text_sha256": "088aded81909400d3c430f597a977371c1d025c901bd512a140b89eceede60f5",
-      "ja_text_bytes": 10701,
+      "ja_text_sha256": "4ef94a568f026c7cd92ac979abce55d6a5fffce471324eac2665bbd51f13ec61",
+      "ja_text_bytes": 19475,
       "paragraph_count": 16
     },
     {
       "article_id": "sochi-hou-art-70-7",
       "article_number": "70-7",
       "filename": "sochi-hou-article-70-7.md",
-      "ja_text_sha256": "003c28410734bb7b577c8634200f024b1aa009e5d3fba7f32ff6e03239418e3e",
-      "ja_text_bytes": 39981,
+      "ja_text_sha256": "c06608760a5b55f5fdd428016cd1de19d765435a31ebb531154e926ac8eaf963",
+      "ja_text_bytes": 81725,
       "paragraph_count": 37
     },
     {
       "article_id": "sochi-hou-art-70-8-2",
       "article_number": "70-8-2",
       "filename": "sochi-hou-article-70-8-2.md",
-      "ja_text_sha256": "19b280f014dcec591655fbc00788198687a88ea5bf47acb393839ffbd158596c",
-      "ja_text_bytes": 6108,
+      "ja_text_sha256": "4638ab1b710dd33ad905fbd667d09f90f0ba3ee0f8253177c52772993749dcb4",
+      "ja_text_bytes": 10627,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-70-8",
       "article_number": "70-8",
       "filename": "sochi-hou-article-70-8.md",
-      "ja_text_sha256": "aeb8ef6d6d30d207fc939691dfa5ce37e467d05da98d2bf440329fe1e0be2d74",
-      "ja_text_bytes": 3392,
+      "ja_text_sha256": "18ce1cd6eabd5badaf331f8c5d709eb3f0d2a1d66a2af95c80a9cd6a20586d9b",
+      "ja_text_bytes": 2999,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-70-9",
       "article_number": "70-9",
       "filename": "sochi-hou-article-70-9.md",
-      "ja_text_sha256": "595c952e2b3b8ca8e87a0cecc01cb714ea7d5ef47a2abbb30c97f11827d5dbc4",
-      "ja_text_bytes": 2091,
+      "ja_text_sha256": "c448919d25808ea3eb08f00baa9d7ae4b6a70aeb5c1b4702ac033320d5db7e6b",
+      "ja_text_bytes": 1887,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-70",
       "article_number": "70",
       "filename": "sochi-hou-article-70.md",
-      "ja_text_sha256": "3be8bde34133f76bc7d4cbe3095403f074e58697df477122322b2e7f4d7233ec",
-      "ja_text_bytes": 7611,
+      "ja_text_sha256": "4a555cebadaa459e84943b80154f10957bb1a7e6980ad2341ed133b4866eab12",
+      "ja_text_bytes": 6933,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-71-10",
       "article_number": "71-10",
       "filename": "sochi-hou-article-71-10.md",
-      "ja_text_sha256": "da69686117a0b749b95102a0110203af00a5c83f701eab67366db26dd1659300",
-      "ja_text_bytes": 2278,
+      "ja_text_sha256": "a5e2bc5b784a3418e61f9c668c7111222a07ab15d041935c011f9af96523df92",
+      "ja_text_bytes": 2122,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-71-11",
       "article_number": "71-11",
       "filename": "sochi-hou-article-71-11.md",
-      "ja_text_sha256": "c55e5facd9948499b8d433e6bcb9a21ec5280766c71f4ffcf79563c596df02ea",
-      "ja_text_bytes": 1699,
+      "ja_text_sha256": "398c131b1776280e043e2dadd048db287754df4561f7eacbedca7ea1e881b942",
+      "ja_text_bytes": 1543,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-71-12",
       "article_number": "71-12",
       "filename": "sochi-hou-article-71-12.md",
-      "ja_text_sha256": "c78f62323f16594865692e896e5be12da5baa2d518d29afe9c792557091fe6fa",
-      "ja_text_bytes": 2227,
+      "ja_text_sha256": "7b30ace7169161a23356b806bbc9f2ddf4b9e478c113b6b927843c04ebc3c053",
+      "ja_text_bytes": 2071,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-71-13",
       "article_number": "71-13",
       "filename": "sochi-hou-article-71-13.md",
-      "ja_text_sha256": "863d3d4cfaa1ec044ad0a879a34bc330d95a6758a4c3e3c199b3dba74c26a451",
-      "ja_text_bytes": 1768,
+      "ja_text_sha256": "e7489a3f88aa156dda14b8fda7f1d9d03652fa07d377c8c969274ecca5aabc86",
+      "ja_text_bytes": 1612,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-71-14",
       "article_number": "71-14",
       "filename": "sochi-hou-article-71-14.md",
-      "ja_text_sha256": "604eb2bdd734a302e73588f2c39a5d174075f6350bba258122710864369465ea",
-      "ja_text_bytes": 1387,
+      "ja_text_sha256": "d8430a6a521422e59693a2e87e03df7a1d2331c8b61c65f2c43a23547ca3241a",
+      "ja_text_bytes": 2461,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-71-15",
       "article_number": "71-15",
       "filename": "sochi-hou-article-71-15.md",
-      "ja_text_sha256": "16ff463dc0a1abccec5a3bf3954b6095a5c5b4d952dc5b97f173e546be0baf14",
-      "ja_text_bytes": 2704,
+      "ja_text_sha256": "3476de07a7889f6127637765789d45c27ec6d7681f26dc9570afbd2b23f0aaee",
+      "ja_text_bytes": 2548,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-71-16",
       "article_number": "71-16",
       "filename": "sochi-hou-article-71-16.md",
-      "ja_text_sha256": "e45c56c02f42e25ed86457fdbee1d7ee58e37eb157d08a7e5bd35ed4e34a70fd",
-      "ja_text_bytes": 2107,
+      "ja_text_sha256": "f6ddd621d360bd8899eceeba4ec1eeca297062a3ac7ce26dd46bc7cdc6f13f20",
+      "ja_text_bytes": 1951,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-71-17",
       "article_number": "71-17",
       "filename": "sochi-hou-article-71-17.md",
-      "ja_text_sha256": "5b009c83b09cec891d89446b0c5fd7dcef593904cc6f3104bc5e20728c213a26",
-      "ja_text_bytes": 2236,
+      "ja_text_sha256": "f985fdefd3a0d7617568add5d4f005512597af2f17d176aa21bef2889e738ac2",
+      "ja_text_bytes": 2380,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-71-2",
       "article_number": "71-2",
       "filename": "sochi-hou-article-71-2.md",
-      "ja_text_sha256": "085885298630b1b5487ad70376450fa357c1f884a1cad43acec6a48eaa8d79d4",
-      "ja_text_bytes": 1422,
+      "ja_text_sha256": "60ea3666684e184171ef9e7a2ed0ed0e6bf69c67d24088f1e44532b22767ce52",
+      "ja_text_bytes": 1371,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-71-3",
       "article_number": "71-3",
       "filename": "sochi-hou-article-71-3.md",
-      "ja_text_sha256": "34d9969bef90d983d34d4863b1e2c8c3d27732c7ca1d0fa91f0329b9efb6e88d",
-      "ja_text_bytes": 1007,
+      "ja_text_sha256": "b637a4287ccac24ef68b341214423a6bd2e2d77a19788981ed65f8bef00e0629",
+      "ja_text_bytes": 905,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-71-4",
       "article_number": "71-4",
       "filename": "sochi-hou-article-71-4.md",
-      "ja_text_sha256": "d1cccd4b56ef6e672efb1262554580dc26054c59703b26aa1f5bd35ffcbef72d",
-      "ja_text_bytes": 1702,
+      "ja_text_sha256": "847bf1418dbbafd260ea2db42e4f6482f3d1c416a38a9ab9a5215978b5e57191",
+      "ja_text_bytes": 3925,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-71-5",
       "article_number": "71-5",
       "filename": "sochi-hou-article-71-5.md",
-      "ja_text_sha256": "9414a1b33da69b75f906c9799c713e16a7158e0425a1941131ead179c772f10c",
-      "ja_text_bytes": 1487,
+      "ja_text_sha256": "eeb59e0d8cce8de04d5638926c5166e5695263e9758aba61bd5d7cbb73b52d35",
+      "ja_text_bytes": 1385,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-71-6",
       "article_number": "71-6",
       "filename": "sochi-hou-article-71-6.md",
-      "ja_text_sha256": "b19f968858fb1324c21701df12988ecab5aeb5e531411b8e4fa3189ff263c277",
-      "ja_text_bytes": 1130,
+      "ja_text_sha256": "9a1cfd25852e70865716824964e55f0385077a89437f0a4f975443c1a4890a02",
+      "ja_text_bytes": 1028,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-71-7",
       "article_number": "71-7",
       "filename": "sochi-hou-article-71-7.md",
-      "ja_text_sha256": "4445cb6dd2ab7bfb744ba26d4986747a1a0c78ec10dee7b0af2a5b5019f59e53",
-      "ja_text_bytes": 6349,
+      "ja_text_sha256": "a0162d9eff2b1cbd052da0d497b9499299c9d7295b3ef4a690e3eeec80ae753b",
+      "ja_text_bytes": 8998,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-71-8",
       "article_number": "71-8",
       "filename": "sochi-hou-article-71-8.md",
-      "ja_text_sha256": "6820f0b27e564b453774c9602086d436809e844f6baa9b41feefbeba2f059e9a",
-      "ja_text_bytes": 2169,
+      "ja_text_sha256": "36645557372b3bfff54ce4a031988009843c9b01d51784faae005f0afd392593",
+      "ja_text_bytes": 2388,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-71-9",
       "article_number": "71-9",
       "filename": "sochi-hou-article-71-9.md",
-      "ja_text_sha256": "85dee25ad70524f3017c5c45aacd9bf88ffcba171a3eab9204d03cafe2113299",
-      "ja_text_bytes": 2178,
+      "ja_text_sha256": "c0eba1fcf661cb339f926a0d94039e4e4cbc48913c8b7b07ba00d82aafb396d5",
+      "ja_text_bytes": 2877,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-71",
       "article_number": "71",
       "filename": "sochi-hou-article-71.md",
-      "ja_text_sha256": "16d0b8da93f28d56197e7b06be0024af059248ae8572576e9d83304e870d29ea",
-      "ja_text_bytes": 517,
+      "ja_text_sha256": "0358399213007124d91be56d3ebd83292fc5c0f87528ba0c622b469f1bd1c23f",
+      "ja_text_bytes": 468,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-72-2",
       "article_number": "72-2",
       "filename": "sochi-hou-article-72-2.md",
-      "ja_text_sha256": "bf7fd64915a02dcdd0714df123e8c4c0772bc1122783049e465224c49f1680b8",
-      "ja_text_bytes": 775,
+      "ja_text_sha256": "194ea06d3f2aad2f17a95422353b1214f488c46d95543c35807d0686f635daf1",
+      "ja_text_bytes": 675,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-72",
       "article_number": "72",
       "filename": "sochi-hou-article-72.md",
-      "ja_text_sha256": "d937012653dd1c60fd40aeb6f502eb1e959cac254e1ae550b95e3d9ade73769a",
-      "ja_text_bytes": 1756,
+      "ja_text_sha256": "b23d47934e047f3fd29ca90f6665220bbec26b73dcdfe78d289c9e7485b56af4",
+      "ja_text_bytes": 1688,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-73",
       "article_number": "73",
       "filename": "sochi-hou-article-73.md",
-      "ja_text_sha256": "66efde963244c017153bc9b62c208133c62202d64ab90a977b70a06339c26361",
-      "ja_text_bytes": 1142,
+      "ja_text_sha256": "66273064a35c6e1fdeccd6154ce2042b1a54a169def764e1376bcf1fed27974c",
+      "ja_text_bytes": 1044,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-74-2",
       "article_number": "74-2",
       "filename": "sochi-hou-article-74-2.md",
-      "ja_text_sha256": "126827d1695c8bd099fefdbbfd9c9883f89b1087117e5dd6c21ee6859cb778b3",
-      "ja_text_bytes": 1729,
+      "ja_text_sha256": "af7e876b8c70eb5cd89c1dc643a6299bfc44a3d89f2a3f107b678b828f8ef6ab",
+      "ja_text_bytes": 1529,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-74-3",
       "article_number": "74-3",
       "filename": "sochi-hou-article-74-3.md",
-      "ja_text_sha256": "abc6ed2eb3d7cb800072f1c4fdee5a8cd382606af0245b925123f68fe683d9aa",
-      "ja_text_bytes": 1638,
+      "ja_text_sha256": "86ffb7c5cc42574fda3a858523d39c56bd305031352b7b2861927e74694d0f8d",
+      "ja_text_bytes": 1487,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-74",
       "article_number": "74",
       "filename": "sochi-hou-article-74.md",
-      "ja_text_sha256": "33c799f376e5773590dc43007ad5526aeb2abed3b03b63484eedbc550ea45a41",
-      "ja_text_bytes": 1671,
+      "ja_text_sha256": "3726903bd4e9f0f8075f40361990d0cfe7e3954b6894061a30416666a06cffed",
+      "ja_text_bytes": 1475,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-75",
       "article_number": "75",
       "filename": "sochi-hou-article-75.md",
-      "ja_text_sha256": "ffddf0c5191001ad4c01e99d4b566491ef03f0fbe3ba657dfc7c9d4312adcb59",
-      "ja_text_bytes": 1427,
+      "ja_text_sha256": "722d139d7613e305f1c68325899bd3e339db43c61cc04c6c0dc894b4689429cc",
+      "ja_text_bytes": 2185,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-76",
       "article_number": "76",
       "filename": "sochi-hou-article-76.md",
-      "ja_text_sha256": "a91c698b714061fa6349b030e899484a9e355fb620a7072492b4f088f6eb7210",
-      "ja_text_bytes": 3784,
+      "ja_text_sha256": "3b01c180a91d294165bba93610f4cb2bf5b0984682e9b8dc8dbb068723dbab75",
+      "ja_text_bytes": 5901,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-77-2",
       "article_number": "77-2",
       "filename": "sochi-hou-article-77-2.md",
-      "ja_text_sha256": "cdd1e8ffcd38477c005c2f6091eb5b1d21dab196911ad76cb5dbf5e1e93a079f",
-      "ja_text_bytes": 832,
+      "ja_text_sha256": "621eadb257df1ee1a8dbe9288705da2637e852781378c9f48dd33e54d4c0825a",
+      "ja_text_bytes": 732,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-77",
       "article_number": "77",
       "filename": "sochi-hou-article-77.md",
-      "ja_text_sha256": "1106c1e89809ce515b6b587d0b0cfa69578a05a4abd0a0feca19f31d76bdd4f5",
-      "ja_text_bytes": 890,
+      "ja_text_sha256": "b0eaf4609b8e75a3bb8c14277789723fbca3bf1defc6aafe83a6a1dc69756db7",
+      "ja_text_bytes": 792,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-78",
       "article_number": "78",
       "filename": "sochi-hou-article-78.md",
-      "ja_text_sha256": "25477e5c94a08fcb1c512d6019deba52cbb0207f85c7cd4e22a6b4338ba2d280",
-      "ja_text_bytes": 1302,
+      "ja_text_sha256": "338040a824966b3d8dd59762df71207656eee03987413768e78f51b2b0ade192",
+      "ja_text_bytes": 2079,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-79",
       "article_number": "79",
       "filename": "sochi-hou-article-79.md",
-      "ja_text_sha256": "6310f3afd5b2b0f7dc3fbf9974a9f87b8ed2bf5bb7fd530bd93670d9d6d774a5",
-      "ja_text_bytes": 710,
+      "ja_text_sha256": "d121c6a5bf70116c155002a10b3599e5585bd67b2ec8b1b122efb7f1c4af89d7",
+      "ja_text_bytes": 1843,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-8-2",
       "article_number": "8-2",
       "filename": "sochi-hou-article-8-2.md",
-      "ja_text_sha256": "c883fc24677b12b2fc79d8a00c7c54022f684af07726a1f9cec77a0addfaa495",
-      "ja_text_bytes": 3734,
+      "ja_text_sha256": "6609ca04f600bd8f781983d7ea9a68b8f81aa0365504302b7131788409ff2f35",
+      "ja_text_bytes": 4579,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-8-3",
       "article_number": "8-3",
       "filename": "sochi-hou-article-8-3.md",
-      "ja_text_sha256": "198b96817848db8ec12dfc96b622d05377476152f0f7b35637adc6fdd10d2f30",
-      "ja_text_bytes": 5260,
+      "ja_text_sha256": "79e905811b9b31667d99b635bbf0e8356bbfe790c5b9197487d1e55ce7a00aa7",
+      "ja_text_bytes": 6206,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-8-4",
       "article_number": "8-4",
       "filename": "sochi-hou-article-8-4.md",
-      "ja_text_sha256": "006f831524d327545dd9e8603abe55b5fb83f36913ed36969e226996722510e2",
-      "ja_text_bytes": 9276,
+      "ja_text_sha256": "c6fb4f67055c5c22eb167e98147828c80aa2df1502a5994d20c18d913b1601f3",
+      "ja_text_bytes": 20054,
       "paragraph_count": 14
     },
     {
       "article_id": "sochi-hou-art-8-5",
       "article_number": "8-5",
       "filename": "sochi-hou-article-8-5.md",
-      "ja_text_sha256": "5b6adbb22ddf17b7bd96e5a195bae7e0ffe6d48b133e1f4933966c7481b347ee",
-      "ja_text_bytes": 3993,
+      "ja_text_sha256": "d61625893b3edc331dd8c2408d66d29d4c6494d0e94978f5e5411f5d9ef1b218",
+      "ja_text_bytes": 5504,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-8",
       "article_number": "8",
       "filename": "sochi-hou-article-8.md",
-      "ja_text_sha256": "4d22327ed09e6b1273b8d98dcb2c485e63d90e43110bb6f9dc255b6ff71b1655",
-      "ja_text_bytes": 3607,
+      "ja_text_sha256": "4e4def479912e8d74f3285df7676b7482d090cc96a65fe341c3e228eec189e3f",
+      "ja_text_bytes": 6235,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-80-2",
       "article_number": "80-2",
       "filename": "sochi-hou-article-80-2.md",
-      "ja_text_sha256": "694f993767b63f3142a31f4d2fe335ca433c76e0ed896edf18eca131ccdab10e",
-      "ja_text_bytes": 2356,
+      "ja_text_sha256": "3fe465e382d2ad9669fafd8a36cfc778a98e9d5db31e120c903316531178a121",
+      "ja_text_bytes": 3323,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-80-3",
       "article_number": "80-3",
       "filename": "sochi-hou-article-80-3.md",
-      "ja_text_sha256": "35fab6a8c0b17e6a707d2114b65de2c68af5029c2deb9bdec37c0573cb467058",
-      "ja_text_bytes": 913,
+      "ja_text_sha256": "c10bd3f8f8f536d8f7ab7524af3d87390ac56dc94e78c2559a54afd3ac98f199",
+      "ja_text_bytes": 2206,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-80",
       "article_number": "80",
       "filename": "sochi-hou-article-80.md",
-      "ja_text_sha256": "04233cdc907374a2c39d113819ceac83853e5669fdbf68736bd3e5978f6e9253",
-      "ja_text_bytes": 4730,
+      "ja_text_sha256": "64878491a255e34155d2518b279cc9fa9ec42ef0f61c66a776bc4649d3cecaf5",
+      "ja_text_bytes": 8361,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-81-2",
       "article_number": "81-2",
       "filename": "sochi-hou-article-81-2.md",
-      "ja_text_sha256": "52ffc4f4464d40d164465c1a9d68703265a53d8129fb486318e7efeed1ff91c4",
-      "ja_text_bytes": 1498,
+      "ja_text_sha256": "f64baa4e45b5164cb720b02d2c12b8a6b6f80079c325da9cc3e9244758db3ab4",
+      "ja_text_bytes": 1298,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-81",
       "article_number": "81",
       "filename": "sochi-hou-article-81.md",
-      "ja_text_sha256": "a2fb7dce6ab8015a31c8fd08839af1be5781dfd18ba9e98a7b1eb47067e23f63",
-      "ja_text_bytes": 2025,
+      "ja_text_sha256": "4397bc80d2308b8d82dfdc56f18bf4d2c365c6747a156806c4f11d927fcf0692",
+      "ja_text_bytes": 1829,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-82-2",
       "article_number": "82-2",
       "filename": "sochi-hou-article-82-2.md",
-      "ja_text_sha256": "137150eda7c2d94ad8250f3aff43e575c0b05033fad55cb6c9ff239971e0ea52",
-      "ja_text_bytes": 819,
+      "ja_text_sha256": "1bf9136ac1b59e8aaaba0248494424828c580afc9203b08e52ca4eac9ca4f9fa",
+      "ja_text_bytes": 768,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-82",
       "article_number": "82",
       "filename": "sochi-hou-article-82.md",
-      "ja_text_sha256": "ee9aad58594d8e5ea3ca1454998cacf0cebaf22c105474ed1b12c43bcd822ed6",
-      "ja_text_bytes": 3178,
+      "ja_text_sha256": "e85802ec16674e2eca4eaa770a53df1d3e0f0e0794c2a8d1527177ac3c5db469",
+      "ja_text_bytes": 2884,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-83-2-2",
       "article_number": "83-2-2",
       "filename": "sochi-hou-article-83-2-2.md",
-      "ja_text_sha256": "7e6d79d8db8cfd374c18bd7bb1fa3795fd87bca59fc40c4e9df747ef2123d1c3",
-      "ja_text_bytes": 3430,
+      "ja_text_sha256": "f675badf4e900a374d2cb82dbdea14d0a64771c9d920fced26af41514455a85d",
+      "ja_text_bytes": 8031,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-83-2",
       "article_number": "83-2",
       "filename": "sochi-hou-article-83-2.md",
-      "ja_text_sha256": "d282b87d17cb7e15df3ade4fb852fe5604a54181e750d0d81761e010a461ddaf",
-      "ja_text_bytes": 1054,
+      "ja_text_sha256": "fa9dd37813f6e5e3b3027d3d3a98bcda037d276739aaed5a543ec36222b174a7",
+      "ja_text_bytes": 954,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-83-3",
       "article_number": "83-3",
       "filename": "sochi-hou-article-83-3.md",
-      "ja_text_sha256": "dc7ca4fc69bf59d4ae129f54d3de76a525a5d076ea6c2800d67b95ea234ec8bd",
-      "ja_text_bytes": 3877,
+      "ja_text_sha256": "6fbff1bdef7fd973f0705c4da9f41da7b2767a1a1877fe347abdec77ba03ba69",
+      "ja_text_bytes": 4884,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-83-4",
       "article_number": "83-4",
       "filename": "sochi-hou-article-83-4.md",
-      "ja_text_sha256": "1504a59a636d2481fb8906c775b7a3491a4c51acba0a636d3b7dd967de8a6a24",
-      "ja_text_bytes": 1717,
+      "ja_text_sha256": "e2a43bc5c2e70d4a9479fab9c1b13ac6c17cc551856a72c75fbc358e0f213f40",
+      "ja_text_bytes": 1617,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-83",
       "article_number": "83",
       "filename": "sochi-hou-article-83.md",
-      "ja_text_sha256": "d1e8b084bd636676537c53fbdc152a47eef12618d181e28c04d1cba9331218be",
-      "ja_text_bytes": 3501,
+      "ja_text_sha256": "4b9e92c57648c79e25541e796ba276473175349d244b1e3a2e1fe0a3d2a67427",
+      "ja_text_bytes": 3305,
       "paragraph_count": 2
     },
     {
@@ -3234,24 +3234,24 @@
       "article_id": "sochi-hou-art-84-2",
       "article_number": "84-2",
       "filename": "sochi-hou-article-84-2.md",
-      "ja_text_sha256": "e60c7795786c20cf3c8fbcd2f40d662cbe9b498a2094ab4dec7bdbe0e747267d",
-      "ja_text_bytes": 1341,
+      "ja_text_sha256": "8b3e8f2006834840e6acde4a4a32273e0bf0f9966176bf46d350249422119531",
+      "ja_text_bytes": 2325,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-84-3",
       "article_number": "84-3",
       "filename": "sochi-hou-article-84-3.md",
-      "ja_text_sha256": "6dcf35878316ea2bc97edb8c6c5a5a57f700b0b9f47d91998a220adff9476f5d",
-      "ja_text_bytes": 3471,
+      "ja_text_sha256": "6cdb97f3a5620dca15d100aaf4b4b72bb10590e500aa666f5d549b70296c9897",
+      "ja_text_bytes": 3267,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-84-4",
       "article_number": "84-4",
       "filename": "sochi-hou-article-84-4.md",
-      "ja_text_sha256": "c4641a7914237200c8b5bb4b1cc15187e551c9912607936d8e535a545c3b2d4a",
-      "ja_text_bytes": 1676,
+      "ja_text_sha256": "4d9d668dbe7a025f182dfcbf85660fdcbd16785e9197f07d090c0fb736bbd67a",
+      "ja_text_bytes": 1574,
       "paragraph_count": 2
     },
     {
@@ -3266,296 +3266,296 @@
       "article_id": "sochi-hou-art-84-5",
       "article_number": "84-5",
       "filename": "sochi-hou-article-84-5.md",
-      "ja_text_sha256": "0b9d721dcc9e3024eef90c9b927ff14d33e74552af65cc2fdf9a945f6dd54e23",
-      "ja_text_bytes": 1451,
+      "ja_text_sha256": "db51771d3732590fdde7079a6571079b5e0ec2f4d1a5726d32bf79791ce3f04c",
+      "ja_text_bytes": 1349,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-84-6",
       "article_number": "84-6",
       "filename": "sochi-hou-article-84-6.md",
-      "ja_text_sha256": "1fb5535c2737f9e99501e448df0f862a5643a00b521866c9c0b57bf7aabbed5f",
-      "ja_text_bytes": 819,
+      "ja_text_sha256": "75ab0b85dbe1b36917206ee29a0d21c3f86e4b1c4d5d81d1b5eefc85bcde98f6",
+      "ja_text_bytes": 905,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-84-7",
       "article_number": "84-7",
       "filename": "sochi-hou-article-84-7.md",
-      "ja_text_sha256": "d9441424445c1104cf94cc2e6beab34249a47ff4c16c8df80f986e03bc517794",
-      "ja_text_bytes": 4396,
+      "ja_text_sha256": "a0bd3f9f9a2175aef80eb5d9de16fb7234d314e8aac6c8797dd1163c35280bec",
+      "ja_text_bytes": 3885,
       "paragraph_count": 10
     },
     {
       "article_id": "sochi-hou-art-84",
       "article_number": "84",
       "filename": "sochi-hou-article-84.md",
-      "ja_text_sha256": "fef02d65051089d8ffd94dfc84793a3d9db2fd099604b879768e05c4d3bd6748",
-      "ja_text_bytes": 1057,
+      "ja_text_sha256": "b6253b59486a48d8c22bbe5c6c2897460b1642df0e6cacf841e0e297b55627df",
+      "ja_text_bytes": 1008,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-85",
       "article_number": "85",
       "filename": "sochi-hou-article-85.md",
-      "ja_text_sha256": "de8ad1747f6744217178cc626c416b0cf9415e2ba3b2b122ac4c01c540b09a90",
-      "ja_text_bytes": 3906,
+      "ja_text_sha256": "5831d99c9deca36eac3b5226753c6e93f1e60557c820febb238e34bb67ff0dbf",
+      "ja_text_bytes": 3972,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-86-2",
       "article_number": "86-2",
       "filename": "sochi-hou-article-86-2.md",
-      "ja_text_sha256": "18a93c5f2d7ceb5d2de4750222ae5065ef98d71d92fc3a084e4366c5512ffca1",
-      "ja_text_bytes": 2320,
+      "ja_text_sha256": "b72163e03fc9d6831087f24a4d71d4393a8ca243fa4bee5634d4b268c75bbd56",
+      "ja_text_bytes": 2049,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-86-3",
       "article_number": "86-3",
       "filename": "sochi-hou-article-86-3.md",
-      "ja_text_sha256": "894172f3ca414e6641b66ebe6492890f2027cf44e701d7d15d4d5aeba0b37c93",
-      "ja_text_bytes": 297,
+      "ja_text_sha256": "516c2174b64298644b820361630895d6f6aaa54590658379d82411f06326e07a",
+      "ja_text_bytes": 246,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-86-4",
       "article_number": "86-4",
       "filename": "sochi-hou-article-86-4.md",
-      "ja_text_sha256": "b6f8d17221f9e3b89b3b21c8fa575d54898f225db5ac9cabbc26c79e3922df36",
-      "ja_text_bytes": 990,
+      "ja_text_sha256": "07a07cba143800f24b6d25bbd90df28673660b980cc3623c00fb5ad21b310309",
+      "ja_text_bytes": 839,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-86-5",
       "article_number": "86-5",
       "filename": "sochi-hou-article-86-5.md",
-      "ja_text_sha256": "3c6a47553c93134bfdc1af345e87675ad4d61e469a2408ef2a3e38ddf160b6be",
-      "ja_text_bytes": 15828,
+      "ja_text_sha256": "b951fd83eb8bc89fe6f693d0e06341b51f3d3df176ff08ccd2933ce8cbd53c9f",
+      "ja_text_bytes": 14904,
       "paragraph_count": 16
     },
     {
       "article_id": "sochi-hou-art-86-6",
       "article_number": "86-6",
       "filename": "sochi-hou-article-86-6.md",
-      "ja_text_sha256": "b3478d5da1a6c0c202960372e4de848c64f8b549e061cc9f1ac34419d867c6e8",
-      "ja_text_bytes": 7146,
+      "ja_text_sha256": "463ac76e1e41c001e746e99a82635ecdff29c8414691318a537fa9b17515c7fa",
+      "ja_text_bytes": 8894,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-86-7",
       "article_number": "86-7",
       "filename": "sochi-hou-article-86-7.md",
-      "ja_text_sha256": "28961b35156b9553715c45549c065887186fb1e497a3152da32407d548676024",
-      "ja_text_bytes": 1105,
+      "ja_text_sha256": "1f8fd32bec4d220402ded13c4a8a60decfa19296c0afdd67d8cd7eff768d1a4a",
+      "ja_text_bytes": 952,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-86",
       "article_number": "86",
       "filename": "sochi-hou-article-86.md",
-      "ja_text_sha256": "8aa764c0a11ff8547c9179167da05a77135a2f257d760aee3cda9a9eb0d2f20a",
-      "ja_text_bytes": 3229,
+      "ja_text_sha256": "44151cfdec46e9d9aae8352250feb102649ba604b7de7be3958d51fd86240ab0",
+      "ja_text_bytes": 2887,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-87-2",
       "article_number": "87-2",
       "filename": "sochi-hou-article-87-2.md",
-      "ja_text_sha256": "54835aada50ac1135247fca4772dbb51cf5b1ad24b8295cc923ff4bae2ad7eab",
-      "ja_text_bytes": 865,
+      "ja_text_sha256": "7c304f983283c07be16df227185b37afe4fa180168431cfdd63a3c7dd83578a1",
+      "ja_text_bytes": 980,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-87-3",
       "article_number": "87-3",
       "filename": "sochi-hou-article-87-3.md",
-      "ja_text_sha256": "030df5b5370172c577670efb07f0a616678bd010fdcefd862d8e29432bb8c703",
-      "ja_text_bytes": 1113,
+      "ja_text_sha256": "1f6bdc6049025432a4f617390be2c0158157fffb223eae5dd7d6ea24aef8e8fc",
+      "ja_text_bytes": 1887,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-87-4",
       "article_number": "87-4",
       "filename": "sochi-hou-article-87-4.md",
-      "ja_text_sha256": "9bca96f8cf415c920f0dfd14a9fc1a534ce42e7263824dbd2039dfa52fafe41e",
-      "ja_text_bytes": 57,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-87-5",
       "article_number": "87-5",
       "filename": "sochi-hou-article-87-5.md",
-      "ja_text_sha256": "c3c98da334ede93325a8c7cc3ba5d44faa4457b5fe32027253627effbe3dd4d8",
-      "ja_text_bytes": 1688,
+      "ja_text_sha256": "44734cffd898ab6514d395efea7e98fe393640dce36ad310bb09150cd55c654d",
+      "ja_text_bytes": 1586,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-87-6",
       "article_number": "87-6",
       "filename": "sochi-hou-article-87-6.md",
-      "ja_text_sha256": "b7e1c3c0f6b4e8c21d29ff454db377adfc3126e135cfe0a51cffc6c24c9ad067",
-      "ja_text_bytes": 14860,
+      "ja_text_sha256": "699c172979df6c74245bba4d4866edfc3cab3b0775b71b38ad648bbf338a885f",
+      "ja_text_bytes": 14414,
       "paragraph_count": 17
     },
     {
       "article_id": "sochi-hou-art-87-7",
       "article_number": "87-7",
       "filename": "sochi-hou-article-87-7.md",
-      "ja_text_sha256": "5186e07376bcea530c293c19bfb957ef17b8bda531c5b460fdc3f62488f65234",
-      "ja_text_bytes": 57,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-87-8",
       "article_number": "87-8",
       "filename": "sochi-hou-article-87-8.md",
-      "ja_text_sha256": "7ceee6a2a15cd21d1e17e1a797088aba76a00e0533849fa34208e72b4963cb3d",
-      "ja_text_bytes": 6008,
+      "ja_text_sha256": "9ad39fd83a1e8dc3d9cbcc64d9a1a91aa0b9509f6180ac623cf7e9a84a6943d7",
+      "ja_text_bytes": 5600,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-87",
       "article_number": "87",
       "filename": "sochi-hou-article-87.md",
-      "ja_text_sha256": "f50a76af5c4e8779e82c7497074b0c69fec5096ae7095238eb7e4fe3ab18be38",
-      "ja_text_bytes": 6411,
+      "ja_text_sha256": "d4818e0fff2a941c8f41fb161cce26f2659d028bb06450c8498c8241a7fd4aad",
+      "ja_text_bytes": 9676,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-88-2",
       "article_number": "88-2",
       "filename": "sochi-hou-article-88-2.md",
-      "ja_text_sha256": "571a8ec4ab2c0dae80ce6e9e67c66ef0a946e66f2e283b08dcbc61b843a95b76",
-      "ja_text_bytes": 708,
+      "ja_text_sha256": "3eb1e16f3501aeb78b539e72755dd3d70a4d8514eed31130c45c566585085e1c",
+      "ja_text_bytes": 560,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-88-3",
       "article_number": "88-3",
       "filename": "sochi-hou-article-88-3.md",
-      "ja_text_sha256": "db071cfea103fa31217421db7a9c25204645ff6a3527e814b9d01bb1eec23607",
-      "ja_text_bytes": 1763,
+      "ja_text_sha256": "9a891d3374e6a2911374c920ab3d864f9dbfe427f0c3bd3c8cb2a7ac1de9e6b4",
+      "ja_text_bytes": 1661,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-88-4",
       "article_number": "88-4",
       "filename": "sochi-hou-article-88-4.md",
-      "ja_text_sha256": "09554534a7ac2c98ea1e7f65f238d67786328217999668515f6d2df50a926ada",
-      "ja_text_bytes": 57,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-88-5",
       "article_number": "88-5",
       "filename": "sochi-hou-article-88-5.md",
-      "ja_text_sha256": "f48674debf6199dc1ab173750977bdc8893e00d57bbc8d708112a9b20f5c1de5",
-      "ja_text_bytes": 258,
+      "ja_text_sha256": "38240b2d4561f97f0afebdc902927b161b021a90f20315bb6871372bad73164b",
+      "ja_text_bytes": 207,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-88-6",
       "article_number": "88-6",
       "filename": "sochi-hou-article-88-6.md",
-      "ja_text_sha256": "9cf782989bad3a58088d61e5c7f1a053fae8bf6c2c1859aa800f5989aab98e3f",
-      "ja_text_bytes": 1616,
+      "ja_text_sha256": "2ff9344e151cc0e2c8608d0805a1d1cb3fb2120f94a7e4e4ddf853b6c4754fcd",
+      "ja_text_bytes": 1514,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-88-7",
       "article_number": "88-7",
       "filename": "sochi-hou-article-88-7.md",
-      "ja_text_sha256": "0ae93db96faf8237744e67359d46e6bdc1d916f908a4f7516c57f58d8aae3926",
-      "ja_text_bytes": 10022,
+      "ja_text_sha256": "55768438787be72b489af0fc94797b01a39efbfcbb8930003f0731edaa3130d3",
+      "ja_text_bytes": 10370,
       "paragraph_count": 11
     },
     {
       "article_id": "sochi-hou-art-88",
       "article_number": "88",
       "filename": "sochi-hou-article-88.md",
-      "ja_text_sha256": "13c5c976871e198d97cff5300433d68aa2f5edf7c4cccca2e6a3324eee31df07",
-      "ja_text_bytes": 1526,
+      "ja_text_sha256": "d3fea3cdeecdefcf2abee136848861faeb46ca1283cfa7c9542dd0c0490ce908",
+      "ja_text_bytes": 2688,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-89-2",
       "article_number": "89-2",
       "filename": "sochi-hou-article-89-2.md",
-      "ja_text_sha256": "404d3cb57dba08319f88bf422960b22f659a5abb8575bce54d2c62d07acdf0b5",
-      "ja_text_bytes": 12644,
+      "ja_text_sha256": "86893cddf01ec14faa473c883c1ec88f399abb85941d0c184b635253ddd0742f",
+      "ja_text_bytes": 11921,
       "paragraph_count": 17
     },
     {
       "article_id": "sochi-hou-art-89-3",
       "article_number": "89-3",
       "filename": "sochi-hou-article-89-3.md",
-      "ja_text_sha256": "36d44bb478bee4e0fe68aacafe2bd377fe531e62684b75c1d5c9f4fade446e0a",
-      "ja_text_bytes": 7891,
+      "ja_text_sha256": "421e888a4cc800a2d6094ca6f60ae25fdbe6e8f98b34c664076ceb7400b01d4c",
+      "ja_text_bytes": 7425,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-89-4",
       "article_number": "89-4",
       "filename": "sochi-hou-article-89-4.md",
-      "ja_text_sha256": "3e2226819a2e545056dd8d1c6876278cf203419f2bbfc0a52732d3cdc0afcc65",
-      "ja_text_bytes": 3860,
+      "ja_text_sha256": "60450769dda9d5776c4fcfcbe1c8927eab17699c67cef41c56e1cb651297d083",
+      "ja_text_bytes": 3506,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-89",
       "article_number": "89",
       "filename": "sochi-hou-article-89.md",
-      "ja_text_sha256": "16c38be313f33dc956c846f81b0c2ee0052fbb34d0f79a897a57e908a3fd03f3",
-      "ja_text_bytes": 55,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-9-2",
       "article_number": "9-2",
       "filename": "sochi-hou-article-9-2.md",
-      "ja_text_sha256": "2542e8e52041255bb49e52d619eb6d1c41697fd014d2e69857837e5c08d8fbb9",
-      "ja_text_bytes": 3698,
+      "ja_text_sha256": "df5498376841232177ec322277e941572586087d9a0ff427f032cd76944422b0",
+      "ja_text_bytes": 3826,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-9-3-2",
       "article_number": "9-3-2",
       "filename": "sochi-hou-article-9-3-2.md",
-      "ja_text_sha256": "daa7ac6f67e38b7c9fe28060f46fc8f8fe2db529e1e82eeb8f4cd89f88e9c1cb",
-      "ja_text_bytes": 8632,
+      "ja_text_sha256": "9fb05e7ac51b86dcded7a41751dee851a943ef0f58ac32bce251e4720e7abec7",
+      "ja_text_bytes": 11579,
       "paragraph_count": 9
     },
     {
       "article_id": "sochi-hou-art-9-3",
       "article_number": "9-3",
       "filename": "sochi-hou-article-9-3.md",
-      "ja_text_sha256": "2b2841ff6bac1b44ba2c42096e72479ebb4bbd873ebe578e09eafbaccfeeb9c7",
-      "ja_text_bytes": 887,
+      "ja_text_sha256": "209adef54732262f1ef493b726b1ea5c89c7251f00750d8ed4ea7f75d7870ef7",
+      "ja_text_bytes": 3056,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-9-4-2",
       "article_number": "9-4-2",
       "filename": "sochi-hou-article-9-4-2.md",
-      "ja_text_sha256": "6da7003962c391bec34bbbdf4a94e70e0879ef0b62621fd9ff1bc5be52fd953f",
-      "ja_text_bytes": 3978,
+      "ja_text_sha256": "9e3e1ae7ef96ffcf77466b5bfbe4b6b70dc78df61aef5162e0eb95f181132536",
+      "ja_text_bytes": 4227,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-9-4",
       "article_number": "9-4",
       "filename": "sochi-hou-article-9-4.md",
-      "ja_text_sha256": "58712e9dadcb7b8a6499b80e6bbc90819db9f5aafeb873dd21587c7d594b835d",
-      "ja_text_bytes": 4181,
+      "ja_text_sha256": "478822af5d855100438ea5842e0e1464e530de0e56898eb31dfad274ef34c89d",
+      "ja_text_bytes": 4949,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-9-5",
       "article_number": "9-5",
       "filename": "sochi-hou-article-9-5.md",
-      "ja_text_sha256": "60124d0c37e8488da714d391dfcdf7f8343866e4df60b24659fc4c7a7a73aea4",
-      "ja_text_bytes": 2921,
+      "ja_text_sha256": "8fd69ace2b2202f5fb3fa3a51272706bb224ada7b51ad0268268fd9004b592dc",
+      "ja_text_bytes": 2674,
       "paragraph_count": 3
     },
     {
@@ -3586,72 +3586,72 @@
       "article_id": "sochi-hou-art-9-6",
       "article_number": "9-6",
       "filename": "sochi-hou-article-9-6.md",
-      "ja_text_sha256": "b3ab8db911ab4f50096b25add0dddc1634544b7f9ce2d31903798fd528be83a0",
-      "ja_text_bytes": 4662,
+      "ja_text_sha256": "7e825f1c4c3338e09312fb8cb97bd79390961cd3683c0abf05f95f84d2bc3e8b",
+      "ja_text_bytes": 4412,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-9-7",
       "article_number": "9-7",
       "filename": "sochi-hou-article-9-7.md",
-      "ja_text_sha256": "e3e045cf0e0954c35c06d87a8bd8b90d4c989c917d4dea5e9c088e33f287aeed",
-      "ja_text_bytes": 2590,
+      "ja_text_sha256": "7591bc6e92272fee15dcca542d165014c24f4fd3d303f8a0c81c8fe4b7296918",
+      "ja_text_bytes": 2440,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-9-8",
       "article_number": "9-8",
       "filename": "sochi-hou-article-9-8.md",
-      "ja_text_sha256": "7a35b0c46043f8bd4f72094860ab5f94b7bc81c9caff87b415e5237aaf1569f1",
-      "ja_text_bytes": 1418,
+      "ja_text_sha256": "465384ba6f18e9300857081ae7e2a45e88c5d671c53ebcc81dba0e1ba7cd77f1",
+      "ja_text_bytes": 3746,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-9-9",
       "article_number": "9-9",
       "filename": "sochi-hou-article-9-9.md",
-      "ja_text_sha256": "63fc3a0ac83c82d47afe766e4c477cb4fdb4d7c7e36017e1b41fe1f54290e425",
-      "ja_text_bytes": 2582,
+      "ja_text_sha256": "ab5ca2cbc5b0094d831943b5cc947aa1486667fbf659277cfba5ad6a26059eaa",
+      "ja_text_bytes": 3009,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-9",
       "article_number": "9",
       "filename": "sochi-hou-article-9.md",
-      "ja_text_sha256": "e750279816e119cc71481af747ecaf475624e972facb7e1e20c7df157d5c3d9d",
-      "ja_text_bytes": 5706,
+      "ja_text_sha256": "a7bb59451d71cfe825ccdc9b946fce90b39720fa8916d652e2c0fd6d309338ed",
+      "ja_text_bytes": 8690,
       "paragraph_count": 4
     },
     {
       "article_id": "sochi-hou-art-90-10",
       "article_number": "90-10",
       "filename": "sochi-hou-article-90-10.md",
-      "ja_text_sha256": "ab909c7413ae2cca7aa664ee025d8a8931e7c25bc7d374426a441299b082ad24",
-      "ja_text_bytes": 946,
+      "ja_text_sha256": "f52516084f7f6b41fcbb46f953ac55d11aa221185c03bb792d60e683d6b51c87",
+      "ja_text_bytes": 790,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-90-11-2",
       "article_number": "90-11-2",
       "filename": "sochi-hou-article-90-11-2.md",
-      "ja_text_sha256": "61b820f82f5e5ac6e3d656ab585c43a9db25280628d271506f96df3702986014",
-      "ja_text_bytes": 1133,
+      "ja_text_sha256": "fd0c92732212589f65d0722b0f7a2b6ce65df9ce0c9741a4be2b4840d468f7e9",
+      "ja_text_bytes": 4781,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-90-11-3",
       "article_number": "90-11-3",
       "filename": "sochi-hou-article-90-11-3.md",
-      "ja_text_sha256": "bbd113cc247e2f75b2ee7ce6538a67ec4a09f509d8c9a26b805d6aecfd3e1da9",
-      "ja_text_bytes": 1211,
+      "ja_text_sha256": "48c4ff847bdd2269f257b2493425e3a8c533c5c22a4971de1acc80efa23804c6",
+      "ja_text_bytes": 4844,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-90-11",
       "article_number": "90-11",
       "filename": "sochi-hou-article-90-11.md",
-      "ja_text_sha256": "27495c18ac0c9f4d9d2ec056c479e79ed6a37793f9dbd567e72359e0020026dc",
-      "ja_text_bytes": 1379,
+      "ja_text_sha256": "055b0afc5c563e8c5163a2ea1118d1e7b8a4aa26da6ad1b646331bdad7ffe6d6",
+      "ja_text_bytes": 7140,
       "paragraph_count": 2
     },
     {
@@ -3666,64 +3666,64 @@
       "article_id": "sochi-hou-art-90-12",
       "article_number": "90-12",
       "filename": "sochi-hou-article-90-12.md",
-      "ja_text_sha256": "20f0c3bdf60b096fa0df6dfd7b180be1fb08ff1b79220dd70493a14e66f53a5d",
-      "ja_text_bytes": 4237,
+      "ja_text_sha256": "8a263d618420acd311c8f82e802b8ae6cd4fd64d9cb6173ccad7044631b2bc53",
+      "ja_text_bytes": 25309,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-90-13",
       "article_number": "90-13",
       "filename": "sochi-hou-article-90-13.md",
-      "ja_text_sha256": "c39dc0fb861b8990523f85870fa053d1bac979b2e22acaff2b583cc20a6ae196",
-      "ja_text_bytes": 412,
+      "ja_text_sha256": "1379fc32d800bd756df8bdeb2c5847bd7232d87aff1414ad8787c65ac9e1c171",
+      "ja_text_bytes": 2657,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-90-14",
       "article_number": "90-14",
       "filename": "sochi-hou-article-90-14.md",
-      "ja_text_sha256": "bca017695e580e5d56b57bed884914ce45b07b58c871f77e92cd132443aee26d",
-      "ja_text_bytes": 1823,
+      "ja_text_sha256": "8962ab993655f7d1bf55908c4b5442ec119712936b2df9a795737b88b825c84e",
+      "ja_text_bytes": 1670,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-90-15",
       "article_number": "90-15",
       "filename": "sochi-hou-article-90-15.md",
-      "ja_text_sha256": "312a4932d0ceeb578fc1307dd6b424964be9b79eed72abb9d1ad4fefd17f62ff",
-      "ja_text_bytes": 3409,
+      "ja_text_sha256": "a859259426637aa9e717872dbfb2111ba1b7c1bdf681c71be1845ee9fcb2cd3f",
+      "ja_text_bytes": 3149,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-90-16",
       "article_number": "90-16",
       "filename": "sochi-hou-article-90-16.md",
-      "ja_text_sha256": "c5f5723b9a59d0b1c7290ef51d410ed62d92cddf12c41f65479ce2c261301ead",
-      "ja_text_bytes": 1853,
+      "ja_text_sha256": "1daae7bfff7ff73922dcdc6dcf391683df9c763697f7f728a3793652e9f8b51b",
+      "ja_text_bytes": 1561,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-90-2",
       "article_number": "90-2",
       "filename": "sochi-hou-article-90-2.md",
-      "ja_text_sha256": "ff7d85c2fa3683883a02ac1ca8d4f49fa38655969669c9ae4d2a3c4dd5b5d23f",
-      "ja_text_bytes": 3983,
+      "ja_text_sha256": "465af367984a7034f8f00cf6479f540af58e48ac90d75e17f78dbe9fc873af27",
+      "ja_text_bytes": 3629,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-90-3-2",
       "article_number": "90-3-2",
       "filename": "sochi-hou-article-90-3-2.md",
-      "ja_text_sha256": "e9b5e241417d598a554723416bbb5a24e37d63afd4ed727e09118d84f831f88f",
-      "ja_text_bytes": 540,
+      "ja_text_sha256": "22beaec41781a6e1d713c163e861eac8db18d8d059d252abfc924b45937b34f9",
+      "ja_text_bytes": 729,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-90-3-3",
       "article_number": "90-3-3",
       "filename": "sochi-hou-article-90-3-3.md",
-      "ja_text_sha256": "09dd26c077c015a669e61a31516cc680201b2ed7f19b90f4ab9f3d85553e451b",
-      "ja_text_bytes": 6050,
+      "ja_text_sha256": "ff631dcbc29a9084c3dd8128de636803e213faac8236840a0b33adbb72c4ca4d",
+      "ja_text_bytes": 6578,
       "paragraph_count": 5
     },
     {
@@ -3738,16 +3738,16 @@
       "article_id": "sochi-hou-art-90-3",
       "article_number": "90-3",
       "filename": "sochi-hou-article-90-3.md",
-      "ja_text_sha256": "8411d635e0ed99f128174ce40d751a7dffcf8068f9eb8a77d928e8f0f6c4d531",
-      "ja_text_bytes": 1769,
+      "ja_text_sha256": "3cd33d5fe531bb00afb1690e163df6bbe5ddffbf16302d14855dc7e4c1838871",
+      "ja_text_bytes": 2444,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-art-90-4-2",
       "article_number": "90-4-2",
       "filename": "sochi-hou-article-90-4-2.md",
-      "ja_text_sha256": "78a6ddb982e42ce06dcd3068d92e34a1bcdbd128178be20366b2489345a15c31",
-      "ja_text_bytes": 5537,
+      "ja_text_sha256": "f8ded66114cc18ceccc9e6e2790264ed4b001ba1e5a8516f3f7abecf26902364",
+      "ja_text_bytes": 5675,
       "paragraph_count": 5
     },
     {
@@ -3762,16 +3762,16 @@
       "article_id": "sochi-hou-art-90-4",
       "article_number": "90-4",
       "filename": "sochi-hou-article-90-4.md",
-      "ja_text_sha256": "9a75a107310a2a5fe89f2db1b6c05d5fbefb113495056c96e8aa4061b0c612bb",
-      "ja_text_bytes": 10039,
+      "ja_text_sha256": "256e466d8438c72c7fef1efc70b5c432e95dd8a4488721ff6e277daa1ca0ee00",
+      "ja_text_bytes": 10959,
       "paragraph_count": 7
     },
     {
       "article_id": "sochi-hou-art-90-5",
       "article_number": "90-5",
       "filename": "sochi-hou-article-90-5.md",
-      "ja_text_sha256": "c67cc8e188b644c10c5ce924e4d5679964042fd050bb9cac6c237dd6bba16dee",
-      "ja_text_bytes": 5409,
+      "ja_text_sha256": "7e24c1d2acf76a41c8b496294d7ad24a2f1039d66c5d31a88f1c783f9c604071",
+      "ja_text_bytes": 5052,
       "paragraph_count": 7
     },
     {
@@ -3794,16 +3794,16 @@
       "article_id": "sochi-hou-art-90-6",
       "article_number": "90-6",
       "filename": "sochi-hou-article-90-6.md",
-      "ja_text_sha256": "22d69bd137df045cbd08e6bb0d1ee7735aa0e5f1533faf540cbd255dd94c582a",
-      "ja_text_bytes": 6696,
+      "ja_text_sha256": "9bfb1930c68f9be14faed4c40b1ce1ef2363b6ac683b97402c8239229c221489",
+      "ja_text_bytes": 6221,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-90-7",
       "article_number": "90-7",
       "filename": "sochi-hou-article-90-7.md",
-      "ja_text_sha256": "268ac88f74976a6fa9b8fb70748fa7914a6e9660c33cc6aef2b009151a8fe89d",
-      "ja_text_bytes": 1580,
+      "ja_text_sha256": "a998a064715f29278b589aac21ce385b9fcf2035cae1b03107bb874ecc7d28c5",
+      "ja_text_bytes": 2627,
       "paragraph_count": 5
     },
     {
@@ -3818,112 +3818,112 @@
       "article_id": "sochi-hou-art-90-8",
       "article_number": "90-8",
       "filename": "sochi-hou-article-90-8.md",
-      "ja_text_sha256": "a45303da3de22ac454fd646ac92b40ac4dd5dd03442fa540adde7e95dc08ee84",
-      "ja_text_bytes": 442,
+      "ja_text_sha256": "93b919fd08aae6846558c3fe264488854f2960ab32f319e6387a39d16f4878e1",
+      "ja_text_bytes": 339,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-90-9",
       "article_number": "90-9",
       "filename": "sochi-hou-article-90-9.md",
-      "ja_text_sha256": "2ec5f87e8e4d74a13d334ca8f6843d43a30297696750d35e7e32d4b587976bd9",
-      "ja_text_bytes": 6263,
+      "ja_text_sha256": "d3b685f242a6862ed0b17b5786bc648310490a2e7620d653c19284e3e142061a",
+      "ja_text_bytes": 5756,
       "paragraph_count": 8
     },
     {
       "article_id": "sochi-hou-art-90",
       "article_number": "90",
       "filename": "sochi-hou-article-90.md",
-      "ja_text_sha256": "35b5118231f86961dca3c97b2a9573032fedcb23380254c9b38734fdc5153c6d",
-      "ja_text_bytes": 8041,
+      "ja_text_sha256": "2afda068c428ab6278b7b35f04ed31f90217c57077c71842f37d201dcc1ab344",
+      "ja_text_bytes": 7632,
       "paragraph_count": 13
     },
     {
       "article_id": "sochi-hou-art-91-2",
       "article_number": "91-2",
       "filename": "sochi-hou-article-91-2.md",
-      "ja_text_sha256": "d530140b5fa0e110ba2ae4d36adb79614107fa14b055b583b417035d3109b221",
-      "ja_text_bytes": 1334,
+      "ja_text_sha256": "96e852fef361fcb4c593d91591452d247ff04be2de37af978441f25db5e1bf3e",
+      "ja_text_bytes": 1865,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-91-3",
       "article_number": "91-3",
       "filename": "sochi-hou-article-91-3.md",
-      "ja_text_sha256": "4b82f401ee90113e2e7bcb8158b0510df6cc5abba77fd8fafd3b569ee31c1d6a",
-      "ja_text_bytes": 1801,
+      "ja_text_sha256": "59f3b2f780a3c5ae3de6aa7d2c8c5676d362ee9ee67cf31a70fffe81c10b05d6",
+      "ja_text_bytes": 1648,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-91-4",
       "article_number": "91-4",
       "filename": "sochi-hou-article-91-4.md",
-      "ja_text_sha256": "0d297e4f7edd6a31979a56fd5522e92ba0f6e40f92c5eef43bc09153ea77ea15",
-      "ja_text_bytes": 1790,
+      "ja_text_sha256": "4430774cff3d20ae3a71ba6fbd7d6fb3b189e34cf9ff34c2678647a8a0e633c1",
+      "ja_text_bytes": 1688,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-91",
       "article_number": "91",
       "filename": "sochi-hou-article-91.md",
-      "ja_text_sha256": "bc6e1b2e8aa3288042b3b2ffe87cbe9e18f5ff2206c919822c1ca6417fd821a2",
-      "ja_text_bytes": 2779,
+      "ja_text_sha256": "912010ecd87bb4b1ef653acd945e63f702b44b5bd3036c958abcdb0a8d9887b8",
+      "ja_text_bytes": 3822,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-92",
       "article_number": "92",
       "filename": "sochi-hou-article-92.md",
-      "ja_text_sha256": "83207818f48ad9de98a8e66462931c69cb55ae691c95ef504b0eef1ea9387d42",
-      "ja_text_bytes": 190,
+      "ja_text_sha256": "b3d03b0d52414f2fb1081f8c1ad60a9b2a40b0ee60e68ae9a2c3e9d0402002e4",
+      "ja_text_bytes": 141,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-93",
       "article_number": "93",
       "filename": "sochi-hou-article-93.md",
-      "ja_text_sha256": "090e5b64939bacb3319af31352c1f431269170ae616f1767550f33e0519c293e",
-      "ja_text_bytes": 3343,
+      "ja_text_sha256": "c013ef33d292c6592c9c09f8e99fe0368ea4bf8e04b7e63ac323eeb94e962d33",
+      "ja_text_bytes": 5064,
       "paragraph_count": 6
     },
     {
       "article_id": "sochi-hou-art-94",
       "article_number": "94",
       "filename": "sochi-hou-article-94.md",
-      "ja_text_sha256": "2c945f675fe6e3182f612d92c369db1e70984980d2ae02601498e1f702aee261",
-      "ja_text_bytes": 3397,
+      "ja_text_sha256": "bbd455e55fb971c2576229a60c29af258c12658d70b8da2f3b75136aac26e3b5",
+      "ja_text_bytes": 3250,
       "paragraph_count": 3
     },
     {
       "article_id": "sochi-hou-art-95",
       "article_number": "95",
       "filename": "sochi-hou-article-95.md",
-      "ja_text_sha256": "883af5acc7bef77d0705c7fcea16ac9962b0337788b2484ff2fba8bbd177e1e6",
-      "ja_text_bytes": 808,
+      "ja_text_sha256": "eba0e5599a90bd4e812179bc13ac9698d512ff9dda122f65d4d3bbee2f5de634",
+      "ja_text_bytes": 759,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-96",
       "article_number": "96",
       "filename": "sochi-hou-article-96.md",
-      "ja_text_sha256": "e4d524acc9d3a3cbfd4907daf8bcb02eb75736c148a3b48415b472ba6ead43b4",
-      "ja_text_bytes": 916,
+      "ja_text_sha256": "4d7d26666accea29d77321b9509a47425ade3808d0876169c6a862925bdbf167",
+      "ja_text_bytes": 818,
       "paragraph_count": 2
     },
     {
       "article_id": "sochi-hou-art-97",
       "article_number": "97",
       "filename": "sochi-hou-article-97.md",
-      "ja_text_sha256": "667f12e1590ddf16ca5cab4e772722054c5e24641a70c512b3fd9cf18a2b0aeb",
-      "ja_text_bytes": 727,
+      "ja_text_sha256": "f1d5ca0ff7925fa86c6164d6e5dea599e0994ed63d64db670528ad89045a24b7",
+      "ja_text_bytes": 678,
       "paragraph_count": 1
     },
     {
       "article_id": "sochi-hou-art-98",
       "article_number": "98",
       "filename": "sochi-hou-article-98.md",
-      "ja_text_sha256": "3333a3fd8aed370010a33369ec3d4fd5f7b862e282c3de5a16d1d73ad4f47bb6",
-      "ja_text_bytes": 2295,
+      "ja_text_sha256": "6efa255a6cc493eacc43423e135f2ebf93e70ea0f5837f13854bcc2a16cb51c2",
+      "ja_text_bytes": 2246,
       "paragraph_count": 1
     }
   ]

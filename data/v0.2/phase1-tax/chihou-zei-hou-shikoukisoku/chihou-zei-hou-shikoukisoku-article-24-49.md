@@ -34,5 +34,4 @@ tags:
 
 ### 第二十四条の四十九
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-24-49-p1 -->
 法第七百四十七条の八第二項に規定する総務省令で定める事項は、機構が同条第一項の規定による指定をした日とする。

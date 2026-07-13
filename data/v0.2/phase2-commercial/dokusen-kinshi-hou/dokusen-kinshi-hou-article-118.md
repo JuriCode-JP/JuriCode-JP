@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百十八条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-118-p1 -->
 この章の規定による公正取引委員会又は委員会職員の処分又はその不作為については、審査請求をすることができない。

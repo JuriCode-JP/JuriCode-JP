@@ -13,20 +13,40 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-7-p1-honbun
+    type: honbun
+    text: 長官権限のうち法第百五十五条の九の規定による権限（法第百九十四条の七第二項第七号の規定及び第三十八条の二第二項の規定により委員会に委任されたものを除く。）は、外国金融商品取引所の国内における代表者の住所を管轄する財務局長（当該住所が福岡財務支局の管轄区域内にある場合にあつては、福岡財務支局長）に委任する。
+    modality: unspecified
+  - id: kinsho-hou-shikkourei-art-43-7-p1-tadashi
+    type: tadashi
+    text: ただし、金融庁長官が自らその権限を行うことを妨げない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-7-p2
+    type: simple
+    text: 前項に規定する権限で外国金融商品取引所の国内における事務所（国内における代表者の住所にあるものを除く。）、外国金融商品取引所参加者又は当該外国金融商品取引所から業務の委託を受けた者（その者から委託（二以上の段階にわたる委託を含む。）を受けた者を含む。以下この項において同じ。）（以下この条において「事務所等」という。）に関するものについては、前項に規定する財務局長又は福岡財務支局長のほか、当該事務所等の所在地（業務の委託を受けた者が個人の場合にあつては、その住所又は居所）を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては福岡財務支局長、当該所在地が国外にある場合にあつては関東財務局長）も行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-43-7-p3
+    type: simple
+    text: 前項の規定により事務所等に対して検査等を行つた財務局長又は福岡財務支局長は、当該外国金融商品取引所の国内における代表者又は当該事務所等以外の事務所等に対して検査等の必要を認めたときは、当該国内における代表者又は当該事務所等以外の事務所等に対し、検査等を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

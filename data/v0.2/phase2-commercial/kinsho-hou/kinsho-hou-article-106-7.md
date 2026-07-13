@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-7-p1
+    type: simple
+    text: 内閣総理大臣は、株式会社金融商品取引所の主要株主が法令に違反したとき、又は主要株主の行為が株式会社金融商品取引所の業務の健全かつ適切な運営を損なうおそれがあると認めるときは、当該主要株主に対し第百六条の三第一項の認可を取り消し、その他監督上必要な措置をとることを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-7-p2
+    type: simple
+    text: 前項の規定により第百六条の三第一項の認可を取り消された者は、当該認可を取り消された日から三月以内に、株式会社金融商品取引所の保有基準割合未満の数の対象議決権の保有者となるために必要な措置をとらなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-7-p3
+    type: simple
+    text: 内閣総理大臣は、第一項の規定により必要な措置を命じようとするときは、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-7-p4
+    type: junyou
+    text: 第一項及び前項の規定は、株式会社金融商品取引所の保有基準割合以上の数の対象議決権を保有する認可金融商品取引業協会、金融商品取引所、金融商品取引所持株会社、商品取引所及び商品取引所持株会社について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

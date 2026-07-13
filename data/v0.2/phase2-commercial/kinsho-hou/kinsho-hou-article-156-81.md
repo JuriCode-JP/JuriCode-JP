@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-81-p1
+    type: simple
+    text: 内閣総理大臣は、取引情報蓄積機関の取引情報蓄積業務の運営又は財産の状況に関し、公益又は投資者保護のため必要かつ適当であると認めるときは、その必要の限度において、当該取引情報蓄積機関に対し、その業務の運営又は財産の状況の改善に必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

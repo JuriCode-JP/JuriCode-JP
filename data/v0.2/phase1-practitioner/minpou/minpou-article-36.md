@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十六条
 
-<!-- segment: simple id: minpou-art-36-p1 -->
 法人及び外国法人は、この法律その他の法令の定めるところにより、登記をするものとする。

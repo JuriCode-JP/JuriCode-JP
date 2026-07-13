@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十九条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-49-p1 -->
 申立てが不適法でその不備を補正することができないときは、裁判所は、審問期日を経ないで、申立てを却下することができる。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-39-17-5-p1
+    type: simple
+    text: 法第六十六条の六第十二項第三号に規定する政令で定める金額は、同条第二項第六号に規定する部分対象外国関係会社の各事業年度の決算に基づく所得の金額（各事業年度の所得を課税標準として課される第三十九条の十五第一項第二号に規定する法人所得税（法人税法施行令第百四十一条第二項第三号に掲げる税を除く。）の額を含む。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

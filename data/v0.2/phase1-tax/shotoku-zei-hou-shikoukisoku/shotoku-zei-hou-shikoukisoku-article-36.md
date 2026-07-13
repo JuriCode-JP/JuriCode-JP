@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第百四十四条第二項（個別評価貸金等に係る貸倒引当金勘定への繰入限度額）に規定する財務省令で定める書類は、次に掲げる書類とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-36-p1-kou-1
+    type: kou
+    text: 令第百四十四条第一項各号に掲げる事実が生じていることを証する書類
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-36-p1-kou-2
+    type: kou
+    text: 担保権の実行、保証債務の履行その他により取立て又は弁済の見込みがあると認められる部分の金額がある場合には、その金額を明らかにする書類
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第三十六条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-36-p1-hashira -->
 令第百四十四条第二項（個別評価貸金等に係る貸倒引当金勘定への繰入限度額）に規定する財務省令で定める書類は、次に掲げる書類とする。
+
+一　令第百四十四条第一項各号に掲げる事実が生じていることを証する書類
+
+二　担保権の実行、保証債務の履行その他により取立て又は弁済の見込みがあると認められる部分の金額がある場合には、その金額を明らかにする書類

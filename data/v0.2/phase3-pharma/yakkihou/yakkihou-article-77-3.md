@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-77-3-p1
+    type: simple
+    text: 国は、希少疾病用医薬品、希少疾病用医療機器及び希少疾病用再生医療等製品並びにその用途に係る対象者の数が本邦において厚生労働省令で定める人数に達しない特定用途医薬品、特定用途医療機器及び特定用途再生医療等製品の試験研究を促進するのに必要な資金の確保に努めるものとする。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

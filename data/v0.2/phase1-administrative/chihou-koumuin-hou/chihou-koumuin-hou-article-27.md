@@ -57,13 +57,10 @@ parent_section:
 
 ### 第二十七条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-27-p1 -->
 全て職員の分限及び懲戒については、公正でなければならない。
 
 ### 第二十七条第二項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-27-p2 -->
-<!-- segment: simple id: chihou-koumuin-hou-art-27-p3 -->
 職員は、この法律で定める事由による場合でなければ、その意に反して、降任され、又は免職されず、この法律又は条例で定める事由による場合でなければ、その意に反して、休職され、又は降給されることがない。
 
 ### 第二十七条第三項

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百十六条
 
-<!-- segment: simple id: keihou-art-216-p1 -->
 前条の罪を犯し、よって女子を死傷させた者は、傷害の罪と比較して、重い刑により処断する。

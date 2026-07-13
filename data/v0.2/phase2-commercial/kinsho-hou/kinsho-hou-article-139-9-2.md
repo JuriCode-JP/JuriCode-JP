@@ -13,10 +13,21 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-9-2-p1-honbun
+    type: honbun
+    text: 吸収合併が法令又は定款に違反する場合において、吸収合併存続株式会社金融商品取引所の株主が不利益を受けるおそれがあるときは、吸収合併存続株式会社金融商品取引所の株主は、吸収合併存続株式会社金融商品取引所に対し、当該吸収合併をやめることを請求することができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-139-9-2-p1-tadashi
+    type: tadashi
+    text: ただし、前条第一項本文に規定する場合（同項ただし書又は同条第二項に規定する場合を除く。）は、この限りでない。
+    modality: jogai
+    references:
+    - 同項
+    - 前条
 cases: []
 amendments: []
 tags:

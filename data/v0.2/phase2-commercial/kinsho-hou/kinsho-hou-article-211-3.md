@@ -16,17 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-211-3-p1-zen
+    type: zen_dan
+    text: 委員会職員は、差押え又は記録命令付差押えをするため必要があるときは、電気通信を行うための設備を他人の通信の用に供する事業を営む者又は自己の業務のために不特定若しくは多数の者の通信を媒介することのできる電気通信を行うための設備を設置している者に対し、その業務上記録している電気通信の送信元、送信先、通信日時その他の通信履歴の電磁的記録のうち必要なものを特定し、三十日を超えない期間を定めて、これを消去しないよう、書面で求めることができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-211-3-p1-kou
+    type: kou_dan
+    text: この場合において、当該電磁的記録について差押え又は記録命令付差押えをする必要がないと認めるに至つたときは、当該求めを取り消さなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-211-3-p1-zen
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-211-3-p2-honbun
+    type: honbun
+    text: 前項の規定により消去しないよう求める期間については、特に必要があるときは、三十日を超えない範囲内で延長することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: kinsho-hou-art-211-3-p2-tadashi
+    type: tadashi
+    text: ただし、消去しないよう求める期間は、通じて六十日を超えることができない。
+    modality: kanou_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-211-3-p3
+    type: simple
+    text: 第一項の規定による求めを行う場合において、必要があるときは、みだりに当該求めに関する事項を漏らさないよう求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

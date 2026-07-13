@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-4-p1
+    type: simple
+    text: 普通地方公共団体の長が第二百四十三条の二第一項の規定によりその徴収に関する事務を委託することができる歳入は、他の法律又はこれに基づく政令に特別の定めがあるものを除くほか、政令で定めるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-4-p2
+    type: simple
+    text: 指定公金事務取扱者（歳入の徴収に関する事務の委託を受けた者に限る。以下この条において同じ。）は、現金の納付その他総務省令で定める方法により納入義務者から歳入の納付を受けるものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-4-p3
+    type: simple
+    text: 前項の場合において、普通地方公共団体の歳入の納入義務は、納入義務者が指定公金事務取扱者に当該歳入を納付したときに履行されたものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-2-4-p4
+    type: simple
+    text: 指定公金事務取扱者は、政令の定めるところにより、その徴収した歳入を普通地方公共団体に払い込まなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

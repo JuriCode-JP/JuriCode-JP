@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八百六十条
 
-<!-- segment: junyou id: minpou-art-860-p1 applies_provisions: 第八百二十六条 -->
 第八百二十六条の規定は、後見人について準用する。ただし、後見監督人がある場合は、この限りでない。

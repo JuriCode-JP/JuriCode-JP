@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -70,20 +70,16 @@ parent_section:
 
 ### 第三百九十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-393-p1 -->
 控訴裁判所は、前条の調査をするについて必要があるときは、検察官、被告人若しくは弁護人の請求により又は職権で事実の取調をすることができる。但し、第三百八十二条の二の疎明があつたものについては、刑の量定の不当又は判決に影響を及ぼすべき事実の誤認を証明するために欠くことのできない場合に限り、これを取り調べなければならない。
 
 ### 第三百九十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-393-p2 -->
 控訴裁判所は、必要があると認めるときは、職権で、第一審判決後の刑の量定に影響を及ぼすべき情状につき取調をすることができる。
 
 ### 第三百九十三条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-393-p3 -->
 前二項の取調は、合議体の構成員にこれをさせ、又は地方裁判所、家庭裁判所若しくは簡易裁判所の裁判官にこれを嘱託することができる。この場合には、受命裁判官及び受託裁判官は、裁判所又は裁判長と同一の権限を有する。
 
 ### 第三百九十三条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-393-p4 -->
 第一項又は第二項の規定による取調をしたときは、検察官及び弁護人は、その結果に基いて弁論をすることができる。

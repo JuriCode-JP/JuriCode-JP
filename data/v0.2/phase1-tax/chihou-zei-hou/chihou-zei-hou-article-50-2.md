@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-50-2-p1
+    type: tokusoku
+    text: 第二十四条第一項第一号の者が退職手当等（所得税法第百九十九条の規定によりその所得税を徴収して納付すべきものに限る。以下本目において同じ。）の支払を受ける場合には、当該退職手当等に係る所得割は、第三十二条、第三十五条及び第三十九条の規定にかかわらず、当該退職手当等に係る所得を他の所得と区分し、本目に規定するところにより、当該退職手当等の支払を受けるべき日の属する年の一月一日現在におけるその者の住所所在の道府県において課する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第三十九条
 cases: []
 amendments: []
 tags:

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六百八十七条
 
-<!-- segment: junyou id: minpou-art-687-p1 applies_provisions: 第六百七十二条 -->
 第六百七十二条の規定は、組合契約の定めるところにより組合員の中から清算人を選任した場合について準用する。

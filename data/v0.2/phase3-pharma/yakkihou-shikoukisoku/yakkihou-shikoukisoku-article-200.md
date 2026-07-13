@@ -30,6 +30,26 @@ paragraphs:
     type: hashira
     text: 検査機関は、検査合格証明書を交付したときは、当該医薬品、医療機器又は再生医療等製品に係る次に掲げる事項を検査機関のホームページに掲載しなければならない。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-200-p2-kou-1
+    type: kou
+    text: 医薬品、医療機器又は再生医療等製品の名称
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-200-p2-kou-2
+    type: kou
+    text: 製造販売業者又は選任外国製造医薬品等製造販売業者の名称
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-200-p2-kou-3
+    type: kou
+    text: 製造番号又は製造記号
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-200-p2-kou-4
+    type: kou
+    text: 検査の合格年月日
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -46,10 +66,16 @@ parent_section:
 
 ### 第二百条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-200-p1 -->
 令第六十条第一項に規定する検査合格証明書は、様式第九十六によるものとする。
 
 ### 第二百条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-200-p2-hashira -->
 検査機関は、検査合格証明書を交付したときは、当該医薬品、医療機器又は再生医療等製品に係る次に掲げる事項を検査機関のホームページに掲載しなければならない。
+
+一　医薬品、医療機器又は再生医療等製品の名称
+
+二　製造販売業者又は選任外国製造医薬品等製造販売業者の名称
+
+三　製造番号又は製造記号
+
+四　検査の合格年月日

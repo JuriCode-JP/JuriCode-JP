@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-64-3-p1
+    type: simple
+    text: 使用者は、妊娠中の女性及び産後一年を経過しない女性（以下「妊産婦」という。）を、重量物を取り扱う業務、有害ガスを発散する場所における業務その他妊産婦の妊娠、出産、哺ほ育等に有害な業務に就かせてはならない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-64-3-p2
+    type: simple
+    text: 前項の規定は、同項に規定する業務のうち女性の妊娠又は出産に係る機能に有害である業務につき、厚生労働省令で、妊産婦以外の女性に関して、準用することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-64-3-p3
+    type: simple
+    text: 前二項に規定する業務の範囲及びこれらの規定によりこれらの業務に就かせてはならない者の範囲は、厚生労働省令で定める。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

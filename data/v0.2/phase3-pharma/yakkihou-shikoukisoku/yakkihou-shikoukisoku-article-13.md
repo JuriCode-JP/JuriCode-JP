@@ -57,15 +57,12 @@ parent_section:
 
 ### 第十三条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-13-p1 -->
 薬局開設者は、薬局に当該薬局の管理に関する事項を記録するための帳簿を備えなければならない。
 
 ### 第十三条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-13-p2 -->
 薬局の管理者は、試験検査、不良品の処理その他当該薬局の管理に関する事項を、前項の帳簿に記載しなければならない。
 
 ### 第十三条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-13-p3 -->
 薬局開設者は、第一項の帳簿を、最終の記載の日から三年間、保存しなければならない。

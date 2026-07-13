@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-17-p1
+    type: simple
+    text: 認定団体は、金融商品取引業の健全な発展及び投資者の保護のために、対象事業者による金融商品取引の契約内容、対象事業者による資産運用のあり方その他投資者の保護を図るため必要な事項に関し、この法律の規定の趣旨に沿つた指針（以下「投資者保護指針」という。）を作成し、公表するよう努めなければならない。
+    modality: doryoku_gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-17-p2
+    type: simple
+    text: 認定団体は、前項の規定により投資者保護指針を公表したときは、対象事業者に対し、当該投資者保護指針を遵守させるため必要な指導、勧告その他の措置をとるよう努めなければならない。
+    modality: doryoku_gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-17-p3
+    type: simple
+    text: 認定団体は、金融に係る知識の普及、啓発活動及び広報活動を通じて、金融商品取引業の健全な発展及び投資者の保護の促進に努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

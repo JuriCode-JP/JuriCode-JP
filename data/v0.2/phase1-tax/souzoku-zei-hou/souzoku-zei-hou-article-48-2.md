@@ -16,37 +16,87 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-48-2-p1
+    type: simple
+    text: 税務署長は、第三十八条第一項又は第四十四条第一項の規定による延納の許可を受けた者について、第三十八条第一項（第四十四条第二項において準用する場合を含む。）の延納税額からその納期限が到来している分納税額を控除した残額（以下この条において「特定物納対象税額」という。）を第三十九条第三十項（第四十四条第二項において準用する場合を含む。）の規定により変更された条件による延納によつても金銭で納付することを困難とする事由が生じた場合においては、その者の申請により、特定物納対象税額のうちその納付を困難とする金額として政令で定める額を限度として、物納の許可をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-48-2-p2
+    type: simple
+    text: 前項の規定による物納（以下この条において「特定物納」という。）の許可を受けようとする者は、当該特定物納に係る相続税の申告期限の翌日から起算して十年を経過する日までに、特定物納対象税額、金銭で納付することを困難とする金額及びその困難とする事由、特定物納の許可を求めようとする税額その他の財務省令で定める事項を記載した申請書に物納手続関係書類を添付し、これを納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-48-2-p3
+    type: simple
+    text: 税務署長は、前項の規定による申請書の提出があつた場合においては、当該申請者及び当該申請に係る事項について第一項の規定並びに第六項において準用する第四十一条第一項後段及び第二項から第五項までの規定に該当するか否かの調査を行い、その調査に基づき、当該提出があつた日の翌日から起算して三月以内に当該申請に係る特定物納の許可を求めようとする税額の全部又は一部について当該特定物納に係る財産ごとに当該特定物納の許可をし、又は当該申請の却下をする。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-48-2-p4-hashira
+    type: hashira
+    text: 第二項の規定による申請書の提出があつた場合において、当該申請により特定物納の許可を求めようとする税額のうち、当該提出があつた日から次の各号に掲げる日までの間にその分納期限が到来する分納税額の納期限は、当該各号に定める日まで延長する。
+    modality: unspecified
+  - id: souzoku-zei-hou-art-48-2-p4-kou-1
+    type: kou
+    text: 前項の規定により申請の却下がされる日、第六項において準用する第四十二条第十項の規定により申請を取り下げたものとみなされる日又は自ら申請を取り下げる日　これらの日の翌日から起算して一月を経過する日
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-art-48-2-p4-kou-2
+    type: kou
+    text: 第六項において準用する第四十三条第二項の規定により相続税の納付があつたものとされる日　当該納付があつたものとされる日
+    modality: unspecified
+    item_number: 2
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-48-2-p5-honbun
+    type: honbun
+    text: 特定物納に係る財産の収納価額は、当該特定物納に係る申請の時の価額による。
+    modality: unspecified
+  - id: souzoku-zei-hou-art-48-2-p5-tadashi
+    type: tadashi
+    text: ただし、税務署長は、収納の時までに当該財産の状況に著しい変化が生じたときは、収納の時の現況により当該財産の収納価額を定めることができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-48-2-p6
+    type: junyou
+    text: 第四十一条第一項後段及び第二項から第五項まで、第四十二条第三項、第八項から第十項まで、第十四項及び第十六項から第三十一項まで、第四十三条第二項から第七項まで並びに前条の規定は、前各項の規定による特定物納について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-48-2-p7
+    type: simple
+    text: 前各項に定めるもののほか、特定物納に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -76,6 +126,10 @@ parent_section:
 ### 第四十八条の二第四項
 
 第二項の規定による申請書の提出があつた場合において、当該申請により特定物納の許可を求めようとする税額のうち、当該提出があつた日から次の各号に掲げる日までの間にその分納期限が到来する分納税額の納期限は、当該各号に定める日まで延長する。
+
+一　前項の規定により申請の却下がされる日、第六項において準用する第四十二条第十項の規定により申請を取り下げたものとみなされる日又は自ら申請を取り下げる日　これらの日の翌日から起算して一月を経過する日
+
+二　第六項において準用する第四十三条第二項の規定により相続税の納付があつたものとされる日　当該納付があつたものとされる日
 
 ### 第四十八条の二第五項
 

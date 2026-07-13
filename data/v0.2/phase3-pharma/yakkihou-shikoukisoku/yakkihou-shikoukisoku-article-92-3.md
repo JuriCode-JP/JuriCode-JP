@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-92-3-p1
+    type: simple
+    text: 薬局製造販売医薬品の製造販売業者である薬局開設者は、当該薬局以外の薬局開設者又は医薬品の製造販売業者、製造業者若しくは販売業者に対して、薬局製造販売医薬品を販売し、又は授与してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

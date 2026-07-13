@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-8-2-p1
+    type: simple
+    text: 登録認証機関がその登録に係る事業の全部を譲渡し、又は登録認証機関について相続、合併若しくは分割（当該登録に係る事業の全部を承継させるものに限る。）があつたときは、その事業の全部を譲り受けた者又は相続人（相続人が二人以上ある場合において、その全員の同意により事業を承継すべき相続人を選定したときは、その者）、合併後存続する法人若しくは合併により設立した法人若しくは分割によりその事業の全部を承継した法人は、その登録認証機関の地位を承継する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-8-2-p2
+    type: simple
+    text: 前項の規定により登録認証機関の地位を承継した者は、遅滞なく、その事実を証する書面を添えて、その旨を厚生労働大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

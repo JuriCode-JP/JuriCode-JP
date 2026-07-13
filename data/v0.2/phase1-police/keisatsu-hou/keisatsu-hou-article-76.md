@@ -46,10 +46,8 @@ parent_section:
 
 ### 第七十六条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-76-p1 -->
 都道府県公安委員会及び警察官と検察官との関係は、刑事訴訟法の定めるところによる。
 
 ### 第七十六条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-76-p2 -->
 国家公安委員会及び長官は、検事総長と常に緊密な連絡を保つものとする。

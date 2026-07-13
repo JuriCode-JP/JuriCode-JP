@@ -65,16 +65,12 @@ parent_section:
 
 ### 第百七条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-107-p1 -->
 不服申立人は、弁護士、税理士その他適当と認める者を代理人に選任することができる。
 
 ### 第百七条第二項
 
-<!-- segment: honbun id: kokuzei-tsuusoku-hou-art-107-p2-honbun -->
-前項の代理人は、各自、不服申立人のために、当該不服申立てに関する一切の行為をすることができる。<!-- segment: tadashi id: kokuzei-tsuusoku-hou-art-107-p2-tadashi -->
-ただし、不服申立ての取下げ及び代理人の選任は、特別の委任を受けた場合に限り、することができる。
+前項の代理人は、各自、不服申立人のために、当該不服申立てに関する一切の行為をすることができる。ただし、不服申立ての取下げ及び代理人の選任は、特別の委任を受けた場合に限り、することができる。
 
 ### 第百七条第三項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-107-p3 -->
 代理人の権限の行使に関し必要な事項は、政令で定める。

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十六条第一項
 
-<!-- segment: simple id: koubunsho-kanri-hou-art-26-p1 -->
 国立公文書館等の長は、特定歴史公文書等の保存及び利用の状況について、毎年度、内閣総理大臣に報告しなければならない。
 
 ### 第二十六条第二項
 
-<!-- segment: simple id: koubunsho-kanri-hou-art-26-p2 -->
 内閣総理大臣は、毎年度、前項の報告を取りまとめ、その概要を公表しなければならない。

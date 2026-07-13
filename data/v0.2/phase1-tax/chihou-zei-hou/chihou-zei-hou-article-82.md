@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八十二条
 
-<!-- segment: simple id: chihou-zei-hou-art-82-p1 -->
 ゴルフ場利用税の徴収については、特別徴収の方法によらなければならない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-6-p1
+    type: simple
+    text: 普通地方公共団体は、普通地方公共団体の協議会を設ける普通地方公共団体の数を増減し、若しくは協議会の規約を変更し、又は協議会を廃止しようとするときは、第二百五十二条の二の二第一項から第三項までの例によりこれを行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

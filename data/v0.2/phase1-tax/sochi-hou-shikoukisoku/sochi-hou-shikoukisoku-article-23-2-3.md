@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-23-2-3-p1
+    type: simple
+    text: 施行令第四十条の三第二項第二号に規定する財務省令で定めるものは、金融商品取引法第二条第十六項に規定する金融商品取引所が同法第百二十一条の規定による内閣総理大臣への届出をするため当該届出を行うことを明らかにした株式（施行令第四十条の三第二項第一号に掲げる株式等（同項に規定する株式等をいう。）に該当するものを除く。）及び同法第六十七条第一項の認可金融商品取引業協会が同法第六十七条の十一第一項に規定する店頭売買有価証券登録原簿に登録することを明らかにした株式とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

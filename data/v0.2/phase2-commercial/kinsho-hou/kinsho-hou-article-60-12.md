@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-12-p1
+    type: simple
+    text: 裁判所は、取引所取引許可業者（第六十条の十の規定により第六十条第一項の許可を受けているものとみなされる者を含む。）の国内における清算手続、破産手続、再生手続、更生手続又は承認援助手続において、内閣総理大臣に対し、意見を求め、又は検査若しくは調査を依頼することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-12-p2
+    type: simple
+    text: 内閣総理大臣は、前項に規定する手続において、必要があると認めるときは、裁判所に対し、意見を述べることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-12-p3
+    type: junyou
+    text: 前条の規定は、第一項の規定により内閣総理大臣が裁判所から検査又は調査の依頼を受けた場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 前条
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

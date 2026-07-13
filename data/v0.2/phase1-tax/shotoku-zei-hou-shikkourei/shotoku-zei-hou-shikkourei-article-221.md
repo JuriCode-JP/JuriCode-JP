@@ -30,6 +30,26 @@ paragraphs:
     type: hashira
     text: 外国又はその地方公共団体により課される次に掲げる税は、外国所得税に含まれるものとする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-221-p2-kou-1
+    type: kou
+    text: 超過所得税その他個人の所得の特定の部分を課税標準として課される税
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-221-p2-kou-2
+    type: kou
+    text: 個人の所得又はその特定の部分を課税標準として課される税の附加税
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-221-p2-kou-3
+    type: kou
+    text: 個人の所得を課税標準として課される税と同一の税目に属する税で、個人の特定の所得につき、徴税上の便宜のため、所得に代えて収入金額その他これに準ずるものを課税標準として課されるもの
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikkourei-art-221-p2-kou-4
+    type: kou
+    text: 個人の特定の所得につき、所得を課税標準とする税に代え、個人の収入金額その他これに準ずるものを課税標準として課される税
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: true
@@ -39,6 +59,26 @@ paragraphs:
     type: hashira
     text: 外国又はその地方公共団体により課される次に掲げる税は、外国所得税に含まれないものとする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-221-p3-kou-1
+    type: kou
+    text: 税を納付する者が、当該税の納付後、任意にその金額の全部又は一部の還付を請求することができる税
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-221-p3-kou-2
+    type: kou
+    text: 税の納付が猶予される期間を、その税の納付をすることとなる者が任意に定めることができる税
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-221-p3-kou-3
+    type: kou
+    text: 複数の税率の中から税の納付をすることとなる者と外国若しくはその地方公共団体又はこれらの者により税率の合意をする権限を付与された者との合意により税率が決定された税（当該複数の税率のうち最も低い税率（当該最も低い税率が当該合意がないものとした場合に適用されるべき税率を上回る場合には当該適用されるべき税率）を上回る部分に限る。）
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikkourei-art-221-p3-kou-4
+    type: kou
+    text: 外国所得税に附帯して課される附帯税に相当する税その他これに類する税
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -57,15 +97,28 @@ parent_section:
 
 ### 第二百二十一条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-221-p1 -->
 法第九十五条第一項（外国税額控除）に規定する外国の法令により課される所得税に相当する税で政令で定めるものは、外国の法令に基づき外国又はその地方公共団体により個人の所得を課税標準として課される税（以下この章において「外国所得税」という。）とする。
 
 ### 第二百二十一条第二項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-221-p2-hashira -->
 外国又はその地方公共団体により課される次に掲げる税は、外国所得税に含まれるものとする。
+
+一　超過所得税その他個人の所得の特定の部分を課税標準として課される税
+
+二　個人の所得又はその特定の部分を課税標準として課される税の附加税
+
+三　個人の所得を課税標準として課される税と同一の税目に属する税で、個人の特定の所得につき、徴税上の便宜のため、所得に代えて収入金額その他これに準ずるものを課税標準として課されるもの
+
+四　個人の特定の所得につき、所得を課税標準とする税に代え、個人の収入金額その他これに準ずるものを課税標準として課される税
 
 ### 第二百二十一条第三項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-221-p3-hashira -->
 外国又はその地方公共団体により課される次に掲げる税は、外国所得税に含まれないものとする。
+
+一　税を納付する者が、当該税の納付後、任意にその金額の全部又は一部の還付を請求することができる税
+
+二　税の納付が猶予される期間を、その税の納付をすることとなる者が任意に定めることができる税
+
+三　複数の税率の中から税の納付をすることとなる者と外国若しくはその地方公共団体又はこれらの者により税率の合意をする権限を付与された者との合意により税率が決定された税（当該複数の税率のうち最も低い税率（当該最も低い税率が当該合意がないものとした場合に適用されるべき税率を上回る場合には当該適用されるべき税率）を上回る部分に限る。）
+
+四　外国所得税に附帯して課される附帯税に相当する税その他これに類する税

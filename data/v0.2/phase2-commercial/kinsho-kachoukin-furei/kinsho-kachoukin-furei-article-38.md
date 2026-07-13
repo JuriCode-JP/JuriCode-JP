@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 参考人の呼出状には、次に掲げる事項を記載し、審問事項書を添付しなければならない。
     modality: gimu
+  - id: kinsho-kachoukin-furei-art-38-p1-kou-1
+    type: kou
+    text: 被審人の表示
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-38-p1-kou-2
+    type: kou
+    text: 出頭すべき日時及び場所
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-38-p1-kou-3
+    type: kou
+    text: 出頭しない場合における法律上の制裁
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第三十八条
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-38-p1-hashira -->
 参考人の呼出状には、次に掲げる事項を記載し、審問事項書を添付しなければならない。
+
+一　被審人の表示
+
+二　出頭すべき日時及び場所
+
+三　出頭しない場合における法律上の制裁

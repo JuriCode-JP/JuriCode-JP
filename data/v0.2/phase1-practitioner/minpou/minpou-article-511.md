@@ -22,7 +22,7 @@ paragraphs:
     text: 差押えを受けた債権の第三債務者は、差押え後に取得した債権による相殺をもって差押債権者に対抗することはできないが、差押え前に取得した債権による相殺をもって対抗することができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -57,10 +57,8 @@ parent_section:
 
 ### 第五百十一条第一項
 
-<!-- segment: simple id: minpou-art-511-p1 -->
 差押えを受けた債権の第三債務者は、差押え後に取得した債権による相殺をもって差押債権者に対抗することはできないが、差押え前に取得した債権による相殺をもって対抗することができる。
 
 ### 第五百十一条第二項
 
-<!-- segment: tokusoku id: minpou-art-511-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、差押え後に取得した債権が差押え前の原因に基づいて生じたものであるときは、その第三債務者は、その債権による相殺をもって差押債権者に対抗することができる。ただし、第三債務者が差押え後に他人の債権を取得したときは、この限りでない。

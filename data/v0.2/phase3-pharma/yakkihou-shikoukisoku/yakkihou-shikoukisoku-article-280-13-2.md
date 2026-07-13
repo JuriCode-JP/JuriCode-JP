@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-13-2-p1
+    type: simple
+    text: 法第八十条の六第三項及び法第八十条の九第二項の規定による公示は、厚生労働省のホームページに掲載する方法により行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-13-2-p2
+    type: simple
+    text: 法第八十条の十第二項において準用する法第八十条の六第三項及び法第八十条の九第二項の規定による公示は、機構のホームページに掲載する方法により行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

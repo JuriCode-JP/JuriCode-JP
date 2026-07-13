@@ -16,22 +16,65 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-16-p1
+    type: simple
+    text: 公安委員会は、前条第一項の規定により店舗型電話異性紹介営業の停止を命じたときは、国家公安委員会規則で定めるところにより、当該命令に係る施設の出入口の見やすい場所に、内閣府令で定める様式の標章をはり付けるものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-16-p2-hashira
+    type: hashira
+    text: 前条第一項の規定による命令を受けた者は、次の各号に掲げる事由のいずれかがあるときは、国家公安委員会規則で定めるところにより、前項の規定により標章をはり付けられた施設について、標章を取り除くべきことを申請することができる。この場合において、公安委員会は、標章を取り除かなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
+  - id: fueihou-art-31-16-p2-kou-1
+    type: kou
+    text: 当該施設を当該店舗型電話異性紹介営業の用以外の用に供しようとするとき。
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-31-16-p2-kou-2
+    type: kou
+    text: 当該施設を取り壊そうとするとき。
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-31-16-p2-kou-3
+    type: kou
+    text: 当該施設を増築し、又は改築しようとする場合であつて、やむを得ないと認められる理由があるとき。
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-16-p3-zen
+    type: zen_dan
+    text: 第一項の規定により標章をはり付けられた施設について、当該命令に係る店舗型電話異性紹介営業を営む者から当該施設を買い受けた者その他当該施設の使用について権原を有する第三者は、国家公安委員会規則で定めるところにより、標章を取り除くべきことを申請することができる。
+    modality: kanou_kenri
+  - id: fueihou-art-31-16-p3-kou
+    type: kou_dan
+    text: この場合において、公安委員会は、標章を取り除かなければならない。
+    modality: gimu
+    depends_on: fueihou-art-31-16-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-16-p4
+    type: simple
+    text: 何人も、第一項の規定によりはり付けられた標章を破壊し、又は汚損してはならず、また、当該施設に係る前条第一項の命令の期間を経過した後でなければ、これを取り除いてはならない。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:
@@ -57,6 +100,12 @@ parent_section:
 ### 第三十一条の十六第二項
 
 前条第一項の規定による命令を受けた者は、次の各号に掲げる事由のいずれかがあるときは、国家公安委員会規則で定めるところにより、前項の規定により標章をはり付けられた施設について、標章を取り除くべきことを申請することができる。この場合において、公安委員会は、標章を取り除かなければならない。
+
+一　当該施設を当該店舗型電話異性紹介営業の用以外の用に供しようとするとき。
+
+二　当該施設を取り壊そうとするとき。
+
+三　当該施設を増築し、又は改築しようとする場合であつて、やむを得ないと認められる理由があるとき。
 
 ### 第三十一条の十六第三項
 

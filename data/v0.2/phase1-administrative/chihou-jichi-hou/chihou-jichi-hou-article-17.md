@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十七条
 
-<!-- segment: simple id: chihou-jichi-hou-art-17-p1 -->
 普通地方公共団体の議会の議員及び長は、別に法律の定めるところにより、選挙人が投票によりこれを選挙する。

@@ -14,14 +14,49 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-7-p1-hashira
+    type: hashira
+    text: 薬局開設者、店舗販売業者又は配置販売業者は、指定濫用防止医薬品を販売し、又は授与する場合においては、次に掲げる手順を記載した指定濫用防止医薬品販売等手順書（次項において「指定濫用防止医薬品販売等手順書」という。）を作成しなければならない。
+    modality: gimu
+    references:
+    - 次項
+  - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-1
+    type: kou
+    text: 販売又は授与の方法に関する手順
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-2
+    type: kou
+    text: 指定濫用防止医薬品を購入し、又は譲り受けようとする者への第百五十九条の十八の二の規定による情報提供及び第百五十九条の十八の五第一項各号に掲げる事項に関する確認に関する手順
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-3
+    type: kou
+    text: 陳列に関する手順
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-4
+    type: kou
+    text: 前条第一項の数量を超えて指定濫用防止医薬品を購入し、又は譲り受けようとする場合、当該数量以下の数量の指定濫用防止医薬品を頻繁に購入し、又は譲り受けようとする場合であつて適正な使用を確保することができないと認められる場合その他これに類する場合の対応に関する手順
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-5
+    type: kou
+    text: その他適正な販売又は授与に関し必要と考えられる事項に関する手順
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-18-7-p2
+    type: simple
+    text: 薬局開設者、店舗販売業者又は配置販売業者は、指定濫用防止医薬品を販売し、又は授与する場合においては、当該薬局若しくは店舗又はその業務に係る都道府県の区域において医薬品の販売若しくは授与又は配置販売に従事する薬剤師又は登録販売者に、指定濫用防止医薬品販売等手順書に基づき、適正な方法により指定濫用防止医薬品の販売又は授与に係る業務を行わせなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -39,6 +74,16 @@ parent_section:
 ### 第百五十九条の十八の七第一項
 
 薬局開設者、店舗販売業者又は配置販売業者は、指定濫用防止医薬品を販売し、又は授与する場合においては、次に掲げる手順を記載した指定濫用防止医薬品販売等手順書（次項において「指定濫用防止医薬品販売等手順書」という。）を作成しなければならない。
+
+一　販売又は授与の方法に関する手順
+
+二　指定濫用防止医薬品を購入し、又は譲り受けようとする者への第百五十九条の十八の二の規定による情報提供及び第百五十九条の十八の五第一項各号に掲げる事項に関する確認に関する手順
+
+三　陳列に関する手順
+
+四　前条第一項の数量を超えて指定濫用防止医薬品を購入し、又は譲り受けようとする場合、当該数量以下の数量の指定濫用防止医薬品を頻繁に購入し、又は譲り受けようとする場合であつて適正な使用を確保することができないと認められる場合その他これに類する場合の対応に関する手順
+
+五　その他適正な販売又は授与に関し必要と考えられる事項に関する手順
 
 ### 第百五十九条の十八の七第二項
 

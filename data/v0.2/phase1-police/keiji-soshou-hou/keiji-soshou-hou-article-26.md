@@ -22,7 +22,7 @@ paragraphs:
     text: この章の規定は、第二十条第七号の規定を除いて、裁判所書記にこれを準用する。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十六条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-26-p1 -->
 この章の規定は、第二十条第七号の規定を除いて、裁判所書記にこれを準用する。
 
 ### 第二十六条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-26-p2 -->
 決定は、裁判所書記所属の裁判所がこれをしなければならない。但し、第二十四条第一項の場合には、裁判所書記の附属する受命裁判官が、忌避の申立を却下する裁判をすることができる。

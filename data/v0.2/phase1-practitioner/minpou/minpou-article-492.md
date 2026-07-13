@@ -45,5 +45,4 @@ parent_section:
 
 ### 第四百九十二条
 
-<!-- segment: simple id: minpou-art-492-p1 -->
 債務者は、弁済の提供の時から、債務を履行しないことによって生ずべき責任を免れる。

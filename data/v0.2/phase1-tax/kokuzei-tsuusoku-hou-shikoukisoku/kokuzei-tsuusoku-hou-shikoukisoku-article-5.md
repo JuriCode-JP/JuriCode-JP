@@ -34,5 +34,4 @@ tags:
 
 ### 第五条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikoukisoku-art-5-p1 -->
 法第三十四条の四第二項（納付受託者）に規定する財務省令で定める事項は、国税庁長官又は財務大臣が同条第一項の規定による指定をした日とする。

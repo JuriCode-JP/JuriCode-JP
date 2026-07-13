@@ -23,6 +23,26 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: kaisha-hou-art-157-p1-kou-1
+    type: kou
+    text: 取得する株式の数（種類株式発行会社にあっては、株式の種類及び数）
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-157-p1-kou-2
+    type: kou
+    text: 株式一株を取得するのと引換えに交付する金銭等の内容及び数若しくは額又はこれらの算定方法
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-157-p1-kou-3
+    type: kou
+    text: 株式を取得するのと引換えに交付する金銭等の総額
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-157-p1-kou-4
+    type: kou
+    text: 株式の譲渡しの申込みの期日
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -69,15 +89,20 @@ parent_section:
 
 ### 第百五十七条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-157-p1-hashira -->
 株式会社は、前条第一項の規定による決定に従い株式を取得しようとするときは、その都度、次に掲げる事項を定めなければならない。
+
+一　取得する株式の数（種類株式発行会社にあっては、株式の種類及び数）
+
+二　株式一株を取得するのと引換えに交付する金銭等の内容及び数若しくは額又はこれらの算定方法
+
+三　株式を取得するのと引換えに交付する金銭等の総額
+
+四　株式の譲渡しの申込みの期日
 
 ### 第百五十七条第二項
 
-<!-- segment: simple id: kaisha-hou-art-157-p2 -->
 取締役会設置会社においては、前項各号に掲げる事項の決定は、取締役会の決議によらなければならない。
 
 ### 第百五十七条第三項
 
-<!-- segment: simple id: kaisha-hou-art-157-p3 -->
 第一項の株式の取得の条件は、同項の規定による決定ごとに、均等に定めなければならない。

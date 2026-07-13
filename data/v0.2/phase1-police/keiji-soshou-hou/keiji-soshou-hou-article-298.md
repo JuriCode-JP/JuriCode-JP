@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百九十八条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-298-p1 -->
 検察官、被告人又は弁護人は、証拠調を請求することができる。
 
 ### 第二百九十八条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-298-p2 -->
 裁判所は、必要と認めるときは、職権で証拠調をすることができる。

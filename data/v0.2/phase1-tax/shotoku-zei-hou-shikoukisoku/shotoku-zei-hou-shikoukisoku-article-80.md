@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八十条
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-80-p1 -->
 法第二百二十条（源泉徴収に係る所得税の納付手続）に規定する計算書の書式は、別表第三（一）から別表第三（六）までによる。

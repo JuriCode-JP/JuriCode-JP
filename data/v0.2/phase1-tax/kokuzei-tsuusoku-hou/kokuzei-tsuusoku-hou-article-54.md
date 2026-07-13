@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十四条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-54-p1 -->
 この法律に定めるもののほか、担保の提供の手続その他担保に関し必要な手続については、政令で定める。

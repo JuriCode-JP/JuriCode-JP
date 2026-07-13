@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六百九十五条
 
-<!-- segment: simple id: shouhou-art-695-p1 -->
 船舶共有者は、その持分の価格に応じ、船舶の利用について生じた債務を弁済する責任を負う。

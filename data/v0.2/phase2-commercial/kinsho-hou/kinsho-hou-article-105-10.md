@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-10-p1
+    type: simple
+    text: 自主規制委員は、特定株式会社金融商品取引所の執行役又は取締役が自主規制業務に関し自主規制委員会の決定に違反する行為をし、又はその行為をするおそれがある場合において、当該行為によつて自主規制業務の適正な運営に著しい支障をきたすおそれがあるときは、当該執行役又は取締役に対し、当該行為をやめることを請求することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-10-p2
+    type: simple
+    text: 前項の場合において、裁判所が仮処分をもつて同項の執行役又は取締役に対し、その行為をやめることを命ずるときは、担保を立てさせないものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

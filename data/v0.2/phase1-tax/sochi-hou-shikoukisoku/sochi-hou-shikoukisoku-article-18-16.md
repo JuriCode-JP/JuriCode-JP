@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十八条の十六
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-18-16-p1 -->
 削除

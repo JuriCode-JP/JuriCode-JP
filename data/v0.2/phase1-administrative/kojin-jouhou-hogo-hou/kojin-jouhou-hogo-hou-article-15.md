@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十五条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-15-p1 -->
 国及び地方公共団体は、個人情報の保護に関する施策を講ずるにつき、相協力するものとする。

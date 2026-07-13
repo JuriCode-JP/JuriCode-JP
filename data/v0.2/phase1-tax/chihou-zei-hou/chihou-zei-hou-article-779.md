@@ -44,6 +44,4 @@ parent_section:
 
 ### 第七百七十九条
 
-<!-- segment: zen_dan id: chihou-zei-hou-art-779-p1-zen -->
-機構と理事長との利益が相反する事項については、理事長は、代表権を有しない。<!-- segment: kou_dan id: chihou-zei-hou-art-779-p1-kou depends_on: chihou-zei-hou-art-779-p1-zen -->
-この場合においては、監事が機構を代表する。
+機構と理事長との利益が相反する事項については、理事長は、代表権を有しない。この場合においては、監事が機構を代表する。

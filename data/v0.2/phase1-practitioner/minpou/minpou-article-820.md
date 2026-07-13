@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八百二十条
 
-<!-- segment: simple id: minpou-art-820-p1 -->
 親権を行う者は、子の利益のために子の監護及び教育をする権利を有し、義務を負う。

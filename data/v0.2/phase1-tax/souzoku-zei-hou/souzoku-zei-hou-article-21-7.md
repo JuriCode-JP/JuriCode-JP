@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-7-p1
+    type: simple
+    text: 贈与税の額は、前二条の規定による控除後の課税価格を次の表の上欄に掲げる金額に区分してそれぞれの金額に同表の下欄に掲げる税率を乗じて計算した金額を合計した金額とする。
+    modality: gimu
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

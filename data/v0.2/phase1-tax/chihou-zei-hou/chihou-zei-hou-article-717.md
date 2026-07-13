@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百十七条
 
-<!-- segment: simple id: chihou-zei-hou-art-717-p1 -->
 地方団体の長は、天災その他特別の事情がある場合において水利地益税等の減免を必要とすると認める者、貧困に因り生活のため公私の扶助を受ける者その他特別の事情がある者に限り、当該地方団体の条例の定めるところにより、当該水利地益税等を減免することができる。但し、特別徴収義務者については、この限りでない。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百七十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-476-p1 -->
 法務大臣が死刑の執行を命じたときは、五日以内にその執行をしなければならない。

@@ -54,10 +54,8 @@ parent_section:
 
 ### 第四百七条第一項
 
-<!-- segment: simple id: minpou-art-407-p1 -->
 前条の選択権は、相手方に対する意思表示によって行使する。
 
 ### 第四百七条第二項
 
-<!-- segment: simple id: minpou-art-407-p2 -->
 前項の意思表示は、相手方の承諾を得なければ、撤回することができない。

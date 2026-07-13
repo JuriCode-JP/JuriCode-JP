@@ -13,15 +13,33 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-213-3-p1-honbun
+    type: honbun
+    text: 前条第一項各号に掲げる場合には、募集株式の引受人が出資の履行を仮装することに関与した取締役（指名委員会等設置会社にあっては、執行役を含む。）として法務省令で定める者は、株式会社に対し、当該各号に規定する支払をする義務を負う。
+    modality: unspecified
+    references:
+    - 前条
+  - id: kaisha-hou-art-213-3-p1-tadashi
+    type: tadashi
+    text: ただし、その者（当該出資の履行を仮装したものを除く。）がその職務を行うについて注意を怠らなかったことを証明した場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-213-3-p2
+    type: simple
+    text: 募集株式の引受人が前条第一項各号に規定する支払をする義務を負う場合において、前項に規定する者が同項の義務を負うときは、これらの者は、連帯債務者とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

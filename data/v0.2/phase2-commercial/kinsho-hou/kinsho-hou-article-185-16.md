@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-16-p1
+    type: simple
+    text: 破産法、民事再生法、会社更生法及び金融機関等の更生手続の特例等に関する法律の規定の適用については、課徴金納付命令に係る課徴金の請求権及び第百八十五条の十四第二項の規定による延滞金の請求権は、過料の請求権とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-34-p1 -->
 前条の規定による主任弁護人の権限については、裁判所の規則の定めるところによる。

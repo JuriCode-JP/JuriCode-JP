@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-89-11-p1
+    type: simple
+    text: 法第七百十八条の四（法第七百十八条の六、第七百十八条の七第三項及び第七百十八条の八第三項において読み替えて準用する場合を含む。）の規定による国民健康保険税額の市町村への納入は、年金保険者が地方公務員共済組合である場合においては、地方公務員共済組合連合会を経由して行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

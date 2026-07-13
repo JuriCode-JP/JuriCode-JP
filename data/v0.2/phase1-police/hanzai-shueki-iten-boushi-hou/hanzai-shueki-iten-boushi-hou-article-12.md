@@ -59,15 +59,12 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-12-p1 -->
 弁護士等による取引時確認、確認記録の作成及び保存、取引記録等の作成及び保存並びにこれらを的確に行うための措置に相当する措置については、第二条第二項第四十六号に掲げる特定事業者の例に準じて日本弁護士連合会の会則で定めるところによる。
 
 ### 第十二条第二項
 
-<!-- segment: junyou id: hanzai-shueki-iten-boushi-hou-art-12-p2 applies_provisions: 第五条 -->
 第五条の規定は、前項の規定により定められた日本弁護士連合会の会則の規定により弁護士等が行う取引時確認に相当する措置について準用する。
 
 ### 第十二条第三項
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-12-p3 -->
 政府及び日本弁護士連合会は、犯罪による収益の移転防止に関し、相互に協力するものとする。

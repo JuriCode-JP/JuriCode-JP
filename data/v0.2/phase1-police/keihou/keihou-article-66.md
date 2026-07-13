@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十六条
 
-<!-- segment: simple id: keihou-art-66-p1 -->
 犯罪の情状に酌量すべきものがあるときは、その刑を減軽することができる。

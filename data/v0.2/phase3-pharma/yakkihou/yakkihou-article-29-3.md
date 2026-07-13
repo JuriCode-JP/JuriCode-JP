@@ -14,14 +14,39 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-29-3-p1-hashira
+    type: hashira
+    text: 店舗販売業者は、店舗の管理に関する業務その他の店舗販売業者の業務を適正に遂行することにより、薬事に関する法令の規定の遵守を確保するために、厚生労働省令で定めるところにより、次の各号に掲げる措置を講じなければならない。
+    modality: gimu
+  - id: yakkihou-art-29-3-p1-kou-1
+    type: kou
+    text: 店舗の管理に関する業務について、店舗管理者が有する権限を明らかにすること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-29-3-p1-kou-2
+    type: kou
+    text: 店舗の管理に関する業務その他の店舗販売業者の業務の遂行が法令に適合することを確保するための体制、当該店舗販売業者の薬事に関する業務に責任を有する役員及び従業者の業務の監督に係る体制その他の店舗販売業者の業務の適正を確保するために必要なものとして厚生労働省令で定める体制を整備すること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-29-3-p1-kou-3
+    type: kou
+    text: 前二号に掲げるもののほか、店舗販売業者の従業者に対して法令遵守のための指針を示すことその他の店舗販売業者の業務の適正な遂行に必要なものとして厚生労働省令で定める措置
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-29-3-p2
+    type: simple
+    text: 店舗販売業者は、前項各号に掲げる措置の内容を記録し、これを適切に保存しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +66,12 @@ parent_section:
 ### 第二十九条の三第一項
 
 店舗販売業者は、店舗の管理に関する業務その他の店舗販売業者の業務を適正に遂行することにより、薬事に関する法令の規定の遵守を確保するために、厚生労働省令で定めるところにより、次の各号に掲げる措置を講じなければならない。
+
+一　店舗の管理に関する業務について、店舗管理者が有する権限を明らかにすること。
+
+二　店舗の管理に関する業務その他の店舗販売業者の業務の遂行が法令に適合することを確保するための体制、当該店舗販売業者の薬事に関する業務に責任を有する役員及び従業者の業務の監督に係る体制その他の店舗販売業者の業務の適正を確保するために必要なものとして厚生労働省令で定める体制を整備すること。
+
+三　前二号に掲げるもののほか、店舗販売業者の従業者に対して法令遵守のための指針を示すことその他の店舗販売業者の業務の適正な遂行に必要なものとして厚生労働省令で定める措置
 
 ### 第二十九条の三第二項
 

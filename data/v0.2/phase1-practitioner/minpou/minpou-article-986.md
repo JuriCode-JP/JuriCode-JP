@@ -50,10 +50,8 @@ parent_section:
 
 ### 第九百八十六条第一項
 
-<!-- segment: simple id: minpou-art-986-p1 -->
 受遺者は、遺言者の死亡後、いつでも、遺贈の放棄をすることができる。
 
 ### 第九百八十六条第二項
 
-<!-- segment: simple id: minpou-art-986-p2 -->
 遺贈の放棄は、遺言者の死亡の時にさかのぼってその効力を生ずる。

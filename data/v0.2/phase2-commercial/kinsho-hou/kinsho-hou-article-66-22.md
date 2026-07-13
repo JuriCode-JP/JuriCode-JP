@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-22-p1
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、金融商品仲介業者若しくはこれと取引をする者に対し当該金融商品仲介業者の金融商品仲介業務に関し参考となるべき報告若しくは資料の提出を命じ、又は当該職員をして当該金融商品仲介業者の金融商品仲介業務の状況若しくは書類その他の物件の検査をさせることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

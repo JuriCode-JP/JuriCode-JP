@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-5-p1
+    type: simple
+    text: 法第十四条の七の二第一項第三号ハの医薬品又は医薬部外品として不適当なものとして厚生労働省令で定める場合は、申請に係る医薬品又は医薬部外品の性状又は品質が保健衛生上著しく不適当な場合とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-68-5-p2
+    type: simple
+    text: 法第十四条の七の二第一項第三号ハの化粧品として不適当なものとして厚生労働省令で定める場合は、申請に係る化粧品の性状又は品質が保健衛生上著しく不適当な場合及び申請に係る化粧品に含有されている成分が法第六十一条第四号の規定による名称の記載を省略しようとする成分として不適当な場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

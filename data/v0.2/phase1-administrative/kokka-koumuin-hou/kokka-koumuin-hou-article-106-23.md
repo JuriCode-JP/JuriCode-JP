@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-23-p1
+    type: simple
+    text: 職員（退職手当通算予定職員を除く。）は、離職後に営利企業等の地位に就くことを約束した場合には、速やかに、政令で定めるところにより、任命権者に政令で定める事項を届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-23-p2
+    type: simple
+    text: 前項の届出を受けた任命権者は、第百六条の三第一項の規定の趣旨を踏まえ、当該届出を行つた職員の任用を行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-23-p3
+    type: simple
+    text: 第一項の届出を受けた任命権者は、当該届出を行つた職員が管理又は監督の地位にある職員の官職として政令で定めるものに就いている職員（以下「管理職職員」という。）である場合には、速やかに、当該届出に係る事項を内閣総理大臣に通知するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

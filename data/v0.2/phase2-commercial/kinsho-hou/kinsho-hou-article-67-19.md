@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-19-p1
+    type: simple
+    text: 認可協会は、前条の規定による報告に基づき、その開設する店頭売買有価証券市場における店頭売買有価証券の売買、取扱有価証券の売買及び上場株券等の取引所金融商品市場外での売買（協会員が自己の計算において行うもの並びに協会員が媒介、取次ぎ及び代理を行うものに限る。次条において同じ。）について、内閣府令で定めるところにより、銘柄別に毎日の売買高、最高、最低及び最終の価格その他の事項をその協会員に通知し、公表しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 次条
 cases: []
 amendments: []
 tags:

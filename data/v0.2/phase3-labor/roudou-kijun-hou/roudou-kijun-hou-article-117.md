@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百十七条
 
-<!-- segment: simple id: roudou-kijun-hou-art-117-p1 -->
 第五条の規定に違反した者は、一年以上十年以下の拘禁刑又は二十万円以上三百万円以下の罰金に処する。

@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-272-2-p1
+    type: simple
+    text: 新株予約権については、当該新株予約権が信託財産に属する旨を新株予約権原簿に記載し、又は記録しなければ、当該新株予約権が信託財産に属することを株式会社その他の第三者に対抗することができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-272-2-p2
+    type: simple
+    text: 第二百四十九条第三号イの新株予約権者は、その有する新株予約権が信託財産に属するときは、株式会社に対し、その旨を新株予約権原簿に記載し、又は記録することを請求することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-272-2-p3
+    type: simple
+    text: 新株予約権原簿に前項の規定による記載又は記録がされた場合における第二百五十条第一項及び第二百五十九条第一項の規定の適用については、第二百五十条第一項中「記録された新株予約権原簿記載事項」とあるのは「記録された新株予約権原簿記載事項（当該新株予約権者の有する新株予約権が信託財産に属する旨を含む。）」と、第二百五十九条第一項中「新株予約権原簿記載事項」とあるのは「新株予約権原簿記載事項（当該新株予約権者の有する新株予約権が信託財産に属する旨を含む。）」とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-272-2-p4
+    type: simple
+    text: 前三項の規定は、証券発行新株予約権及び証券発行新株予約権付社債に付された新株予約権については、適用しない。
+    modality: jogai
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

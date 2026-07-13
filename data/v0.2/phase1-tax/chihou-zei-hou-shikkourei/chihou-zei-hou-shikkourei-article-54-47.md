@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第六百三条の二第一項第一号に規定する政令で定める基準は、次に掲げるものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-54-47-p1-kou-1
+    type: kou
+    text: その構造及び工法からみて仮設のものでないこと。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-54-47-p1-kou-2
+    type: kou
+    text: その利用が相当の期間にわたると認められること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +40,21 @@ paragraphs:
     type: hashira
     text: 法第六百三条の二第一項第二号に規定する政令で定める基準は、次に掲げるものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-54-47-p2-kou-1
+    type: kou
+    text: その整備状況が同一又は類似の用途に供される施設について通常必要とされる整備の水準と同程度の水準に達しているものであること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-54-47-p2-kou-2
+    type: kou
+    text: その利用が相当の期間にわたると認められること。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-54-47-p2-kou-3
+    type: kou
+    text: その効用を維持するため通常必要とされる管理が行われると認められること。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -48,10 +73,18 @@ parent_section:
 
 ### 第五十四条の四十七第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-54-47-p1-hashira -->
 法第六百三条の二第一項第一号に規定する政令で定める基準は、次に掲げるものとする。
+
+一　その構造及び工法からみて仮設のものでないこと。
+
+二　その利用が相当の期間にわたると認められること。
 
 ### 第五十四条の四十七第二項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-54-47-p2-hashira -->
 法第六百三条の二第一項第二号に規定する政令で定める基準は、次に掲げるものとする。
+
+一　その整備状況が同一又は類似の用途に供される施設について通常必要とされる整備の水準と同程度の水準に達しているものであること。
+
+二　その利用が相当の期間にわたると認められること。
+
+三　その効用を維持するため通常必要とされる管理が行われると認められること。

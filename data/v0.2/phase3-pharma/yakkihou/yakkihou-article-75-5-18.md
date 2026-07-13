@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-18-p1-honbun
+    type: honbun
+    text: 厚生労働大臣が第七十五条の五の二から第七十五条の五の十六までの規定によつてする課徴金納付命令その他の処分については、行政手続法（平成五年法律第八十八号）第三章の規定は、適用しない。
+    modality: jogai
+  - id: yakkihou-art-75-5-18-p1-tadashi
+    type: tadashi
+    text: ただし、第七十五条の五の二の規定に係る同法第十二条の規定の適用については、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

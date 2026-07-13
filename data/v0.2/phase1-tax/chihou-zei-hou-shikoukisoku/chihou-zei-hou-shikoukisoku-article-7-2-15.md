@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-2-15-p1
+    type: simple
+    text: 法第七十二条の百十五第一項に規定する総務省令で定める経済構造統計は、経済センサス活動調査規則により令和三年六月一日現在において行つた同令第一条に規定する経済センサス活動調査の結果として公表された事業所に関する集計のうち産業横断的集計のうち事業所数、従業者数第一―一表（経営組織（二区分）別全事業所数、男女別従業者数、一平方キロメートル当たり事業所数及び従業者数―全国、都道府県、郡・支庁等、市区町村）とする。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-2-15-p2-honbun
+    type: honbun
+    text: 法第七十二条の百十五第一項に規定する経済構造統計の最近に公表された結果による各市町村の従業者数は、前項に規定する統計表に記載された従業者数の確定数とする。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-zei-hou-shikoukisoku-art-7-2-15-p2-tadashi
+    type: tadashi
+    text: ただし、当該従業者数の確定数が公表された後において市町村の廃置分合若しくは境界変更があつたとき又は市町村の境界が確定したときは、道府県知事が必要と認める場合に限り、当該廃置分合若しくは境界変更又は境界確定に係る区域の従業者数を関係市町村の従業者数に加え、又は関係市町村の従業者数から減じたものとすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

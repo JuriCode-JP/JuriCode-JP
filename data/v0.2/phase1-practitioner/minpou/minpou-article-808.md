@@ -56,10 +56,8 @@ parent_section:
 
 ### 第八百八条第一項
 
-<!-- segment: junyou id: minpou-art-808-p1 applies_provisions: 第七百四十八条 -->
 第七百四十七条及び第七百四十八条の規定は、縁組について準用する。この場合において、第七百四十七条第二項中「三箇月」とあるのは、「六箇月」と読み替えるものとする。
 
 ### 第八百八条第二項
 
-<!-- segment: junyou id: minpou-art-808-p2 applies_provisions: 第八百十六条 -->
 第七百六十九条及び第八百十六条の規定は、縁組の取消しについて準用する。

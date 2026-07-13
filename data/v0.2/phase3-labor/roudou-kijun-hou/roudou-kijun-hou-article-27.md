@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十七条
 
-<!-- segment: simple id: roudou-kijun-hou-art-27-p1 -->
 出来高払制その他の請負制で使用する労働者については、使用者は、労働時間に応じ一定額の賃金の保障をしなければならない。

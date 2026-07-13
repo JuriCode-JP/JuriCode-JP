@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-13-p1
+    type: simple
+    text: 法第二十三条の二の三第三項の医療機器又は体外診断用医薬品の製造業の登録の更新の申請は、様式第六十三の四による申請書を令第八十条の規定により当該登録の権限に属する事務を行うこととされた都道府県知事に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-13-p2
+    type: simple
+    text: 前項の申請書には、申請に係る登録の登録証を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

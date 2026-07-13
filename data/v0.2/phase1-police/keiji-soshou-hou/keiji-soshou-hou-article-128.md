@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百二十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-128-p1 -->
 裁判所は、事実発見のため必要があるときは、検証することができる。

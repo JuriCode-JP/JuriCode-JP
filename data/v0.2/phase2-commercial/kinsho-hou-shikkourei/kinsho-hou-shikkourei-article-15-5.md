@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-5-p1
+    type: simple
+    text: 法第二十九条の二第四項の持込資本金の額は、国内に持ち込む資産のうちに外国通貨をもつて金額を表示するものがある場合には、当該資産について外国為替相場（外国為替及び外国貿易法第七条第一項に規定する基準外国為替相場又は裁定外国為替相場をいう。以下同じ。）により本邦通貨に換算し、合計して計算しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

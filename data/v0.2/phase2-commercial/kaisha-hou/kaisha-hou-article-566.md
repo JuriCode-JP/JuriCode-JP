@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 清算株式会社は、協定案の作成に当たり必要があると認めるときは、次に掲げる債権者の参加を求めることができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-566-p1-kou-1
+    type: kou
+    text: 第五百二十二条第二項に規定する担保権を有する債権者
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-566-p1-kou-2
+    type: kou
+    text: 一般の先取特権その他一般の優先権がある債権を有する債権者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第五百六十六条
 
-<!-- segment: hashira id: kaisha-hou-art-566-p1-hashira -->
 清算株式会社は、協定案の作成に当たり必要があると認めるときは、次に掲げる債権者の参加を求めることができる。
+
+一　第五百二十二条第二項に規定する担保権を有する債権者
+
+二　一般の先取特権その他一般の優先権がある債権を有する債権者

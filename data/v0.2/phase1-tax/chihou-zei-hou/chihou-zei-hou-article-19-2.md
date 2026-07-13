@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-2-p1
+    type: simple
+    text: 審査請求に関しては、第三条の二に規定する支庁、地方事務所、市の区の事務所、市の総合区の事務所又は税務に関する事務所に所属する徴税吏員がした処分はその者の所属する支庁等の長がした処分と、その他の徴税吏員がした処分はその者の所属する地方団体の長がした処分とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

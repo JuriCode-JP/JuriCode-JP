@@ -44,5 +44,6 @@ parent_section:
 
 ### 第四十八条
 
-<!-- segment: tokusoku id: douro-koutsuu-hou-art-48-p1 override_flag: true override_target: 前条 -->
 車両は、道路標識等により停車又は駐車の方法が指定されているときは、前条の規定にかかわらず、当該方法によつて停車し、又は駐車しなければならない。
+
+（罰則　第百十九条の二の四第一項第一号、同条第三項、第百十九条の三第一項第一号、同条第三項）

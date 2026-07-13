@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十一条
 
-<!-- segment: simple id: shouhi-zei-hou-art-41-p1 -->
 この章に定めるもののほか、税額控除の計算の細目に関し必要な事項は、政令で定める。

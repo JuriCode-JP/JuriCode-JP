@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-17-p1-honbun
+    type: honbun
+    text: 認可地縁団体の総会においては、第二百六十条の十五の規定によりあらかじめ通知をした事項についてのみ、決議をすることができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-260-17-p1-tadashi
+    type: tadashi
+    text: ただし、規約に別段の定めがあるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

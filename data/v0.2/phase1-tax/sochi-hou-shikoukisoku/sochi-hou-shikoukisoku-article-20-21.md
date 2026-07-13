@@ -32,6 +32,16 @@ paragraphs:
     type: hashira
     text: 施行令第二十九条の二第三項に規定する財務省令で定める書類は、次に掲げる書類とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-20-21-p2-kou-1
+    type: kou
+    text: 法第四十七条第三項に規定する政令で定めるものに係る建築基準法第六条第一項に規定する確認済証の写し及び同法第七条第五項に規定する検査済証の写し
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-20-21-p2-kou-2
+    type: kou
+    text: 前項の国土交通大臣の証する書類
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -48,10 +58,12 @@ parent_section:
 
 ### 第二十条の二十一第一項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-20-21-p1 -->
 施行令第二十九条の二第二項に規定する財務省令で定めるところにより証明がされたものは、国土交通大臣の当該建築物が同項に規定する都市再生事業により整備される同項に規定する耐火建築物で同項に規定する法人が取得するものである旨を証する書類により証明がされたものとする。
 
 ### 第二十条の二十一第二項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-20-21-p2-hashira -->
 施行令第二十九条の二第三項に規定する財務省令で定める書類は、次に掲げる書類とする。
+
+一　法第四十七条第三項に規定する政令で定めるものに係る建築基準法第六条第一項に規定する確認済証の写し及び同法第七条第五項に規定する検査済証の写し
+
+二　前項の国土交通大臣の証する書類

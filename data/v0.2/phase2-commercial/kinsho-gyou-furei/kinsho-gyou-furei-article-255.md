@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第六十四条の七第五項の規定により届出を行う協会は、次に掲げる事項を記載した届出書を、登録事務に係る外務員の所属する金融商品取引業者等の本店等の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあっては福岡財務支局長、国内に営業所又は事務所を有しない場合にあっては関東財務局長）に提出しなければならない。
     modality: gimu
+  - id: kinsho-gyou-furei-art-255-p1-kou-1
+    type: kou
+    text: 登録事務に係る外務員の所属する金融商品取引業者等の商号、名称又は氏名
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-255-p1-kou-2
+    type: kou
+    text: 登録事務に係る外務員の氏名及び生年月日
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-255-p1-kou-3
+    type: kou
+    text: 処理した登録事務の内容及び処理した年月日
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-255-p1-kou-4
+    type: kou
+    text: 前号の登録事務の内容が職務の停止の命令又は登録の抹消である場合には、その理由
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第二百五十五条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-255-p1-hashira -->
 法第六十四条の七第五項の規定により届出を行う協会は、次に掲げる事項を記載した届出書を、登録事務に係る外務員の所属する金融商品取引業者等の本店等の所在地を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあっては福岡財務支局長、国内に営業所又は事務所を有しない場合にあっては関東財務局長）に提出しなければならない。
+
+一　登録事務に係る外務員の所属する金融商品取引業者等の商号、名称又は氏名
+
+二　登録事務に係る外務員の氏名及び生年月日
+
+三　処理した登録事務の内容及び処理した年月日
+
+四　前号の登録事務の内容が職務の停止の命令又は登録の抹消である場合には、その理由

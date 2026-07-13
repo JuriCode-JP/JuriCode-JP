@@ -16,22 +16,45 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-38-p1
+    type: simple
+    text: 裁判所は、被害者参加人又はその委託を受けた弁護士から、事実又は法律の適用について意見を陳述することの申出がある場合において、審理の状況、申出をした者の数その他の事情を考慮し、相当と認めるときは、公判期日において、第二百九十三条第一項の規定による検察官の意見の陳述の後に、訴因として特定された事実の範囲内で、申出をした者がその意見を陳述することを許すものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-38-p2-zen
+    type: zen_dan
+    text: 前項の申出は、あらかじめ、陳述する意見の要旨を明らかにして、検察官にしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-316-38-p2-kou
+    type: kou_dan
+    text: この場合において、検察官は、意見を付して、これを裁判所に通知するものとする。
+    modality: gimu
+    depends_on: keiji-soshou-hou-art-316-38-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-38-p3
+    type: simple
+    text: 裁判長は、第二百九十五条第一項、第三項及び第四項に規定する場合のほか、被害者参加人又はその委託を受けた弁護士の意見の陳述が第一項に規定する範囲を超えるときは、これを制限することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-38-p4
+    type: simple
+    text: 第一項の規定による陳述は、証拠とはならないものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

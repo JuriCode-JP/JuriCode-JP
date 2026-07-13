@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-34-p1
+    type: simple
+    text: 基準適合証（法第二十三条の二の六第一項の基準適合証をいう。以下この条から第百十四条の三十六までにおいて同じ。）は、様式第六十三の十四によるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-34-p2
+    type: simple
+    text: 基準適合証の交付に当たつては、当該基準適合証に係る法第二十三条の二の五第六項（同条第十三項において準用する場合を含む。）の規定による調査が前条第一項第二号イからトまで又は第四号イからハまでのいずれかの区分に該当する医療機器又は体外診断用医薬品に係るものである場合にあつては、併せて、当該区分の特性に応じて必要となる調査を行つた旨を示す書類を交付するものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-34-p3
+    type: simple
+    text: 基準適合証の交付を受けた者は、当該基準適合証と同一の内容（有効期間を除く。）を証する別の有効な基準適合証を保有している場合にあつては、これを返納するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-58-2-p1-honbun
+    type: honbun
+    text: 外国証券業者は、国内にある者を相手方として第二十八条第八項各号に掲げる行為を行つてはならない。
+    modality: unspecified
+  - id: kinsho-hou-art-58-2-p1-tadashi
+    type: tadashi
+    text: ただし、金融商品取引業者のうち、有価証券関連業を行う者を相手方とする場合（当該外国証券業者がその店頭デリバティブ取引等の業務の用に供する電子情報処理組織を使用して特定店頭デリバティブ取引又はその媒介、取次ぎ（有価証券等清算取次ぎを除く。）若しくは代理を行う場合を除く。）その他政令で定める場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

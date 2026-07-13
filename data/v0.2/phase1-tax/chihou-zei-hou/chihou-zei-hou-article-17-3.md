@@ -14,14 +14,35 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-17-3-p1-hashira
+    type: hashira
+    text: 納税者又は特別徴収義務者は、その申出により次に掲げる地方団体の徴収金として納付し、又は納入した金額があるときは、その還付を請求することができない。
+    modality: kanou_negative
+  - id: chihou-zei-hou-art-17-3-p1-kou-1
+    type: kou
+    text: 納付し、又は納入すべき額が確定しているが、その納期が到来していない地方団体の徴収金
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-17-3-p1-kou-2
+    type: kou
+    text: 最近において納付し、又は納入すべき額の確定が確実であると認められる地方団体の徴収金
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-17-3-p2
+    type: simple
+    text: 前項各号に掲げる地方団体の徴収金として納付し、又は納入された地方団体の徴収金の全部又は一部につき、法律又は条例の改正その他の理由によりその納付又は納入の必要がないこととなつたときは、その時において過誤納金が納付され、又は納入されたものとみなして、前三条の規定を適用する。
+    modality: unspecified
+    references:
+    - 前三条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +62,10 @@ parent_section:
 ### 第十七条の三第一項
 
 納税者又は特別徴収義務者は、その申出により次に掲げる地方団体の徴収金として納付し、又は納入した金額があるときは、その還付を請求することができない。
+
+一　納付し、又は納入すべき額が確定しているが、その納期が到来していない地方団体の徴収金
+
+二　最近において納付し、又は納入すべき額の確定が確実であると認められる地方団体の徴収金
 
 ### 第十七条の三第二項
 

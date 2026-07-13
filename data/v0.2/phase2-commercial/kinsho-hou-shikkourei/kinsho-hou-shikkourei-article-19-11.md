@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-11-p1-honbun
+    type: honbun
+    text: 法第百五十六条の八十七第一項に規定する政令で定める期間は、六月とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-19-11-p1-tadashi
+    type: tadashi
+    text: ただし、外国の者である特定金融指標算出者（法第百五十六条の八十五第一項に規定する特定金融指標算出者をいう。）が、その本国の法令又は慣行その他やむを得ない理由により、法第百五十六条の八十七第一項の指定を受けた日から六月以内に同項の認可を受けることができないと認められる場合には、内閣府令で定めるところにより、あらかじめ金融庁長官の承認を受けた期間とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

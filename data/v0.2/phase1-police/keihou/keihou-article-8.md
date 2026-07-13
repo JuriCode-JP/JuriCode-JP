@@ -43,6 +43,4 @@ parent_section:
 
 ### 第八条
 
-<!-- segment: honbun id: keihou-art-8-p1-honbun -->
-この編の規定は、他の法令の罪についても、適用する。<!-- segment: tadashi id: keihou-art-8-p1-tadashi -->
-ただし、その法令に特別の規定があるときは、この限りでない。
+この編の規定は、他の法令の罪についても、適用する。ただし、その法令に特別の規定があるときは、この限りでない。

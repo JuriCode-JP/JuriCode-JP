@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七十一条
 
-<!-- segment: simple id: keihou-art-71-p1 -->
 酌量減軽をするときも、第六十八条及び前条の例による。

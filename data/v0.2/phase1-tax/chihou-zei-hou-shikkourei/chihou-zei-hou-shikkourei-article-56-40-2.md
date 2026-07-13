@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-56-40-2-p1
+    type: simple
+    text: 法第七百一条の三十四第三項第二十五号に規定する政令で定める施設は、民間事業者による信書の送達に関する法律第二条第六項に規定する一般信書便事業者がその本来の事業の用に供する施設のうち信書便物（同条第三項に規定する信書便物をいう。以下この条及び第五十六条の六十六において同じ。）の引受け及び配達の用に供する施設その他信書便物の送達の用に供する施設で総務省令で定めるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

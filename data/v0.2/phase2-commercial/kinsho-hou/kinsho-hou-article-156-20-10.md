@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-10-p1
+    type: simple
+    text: 外国金融商品取引清算機関は、定款（金融商品債務引受業に係る部分に限る。）又は業務方法書を変更しようとするときは、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-66-2-p1
+    type: simple
+    text: 車両の運転者が前条の規定に違反して過労により正常な運転ができないおそれがある状態で車両を運転する行為（以下この条及び第七十五条の二第一項において「過労運転」という。）を当該車両の使用者（当該車両の運転者であるものを除く。以下この条において同じ。）の業務に関してした場合において、当該過労運転に係る車両の使用者が当該車両につき過労運転を防止するため必要な運行の管理を行つていると認められないときは、当該車両の使用の本拠の位置を管轄する公安委員会は、当該車両の使用者に対し、過労運転が行われることのないよう運転者に指導し又は助言することその他過労運転を防止するため必要な措置をとることを指示することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-66-2-p2
+    type: junyou
+    text: 第二十二条の二第二項の規定は、前項の規定による指示について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

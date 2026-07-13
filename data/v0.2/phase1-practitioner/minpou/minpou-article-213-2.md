@@ -16,37 +16,83 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-213-2-p1
+    type: simple
+    text: 土地の所有者は、他の土地に設備を設置し、又は他人が所有する設備を使用しなければ電気、ガス又は水道水の供給その他これらに類する継続的給付（以下この項及び次条第一項において「継続的給付」という。）を受けることができないときは、継続的給付を受けるため必要な範囲内で、他の土地に設備を設置し、又は他人が所有する設備を使用することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-213-2-p2
+    type: simple
+    text: 前項の場合には、設備の設置又は使用の場所及び方法は、他の土地又は他人が所有する設備（次項において「他の土地等」という。）のために損害が最も少ないものを選ばなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-213-2-p3
+    type: simple
+    text: 第一項の規定により他の土地に設備を設置し、又は他人が所有する設備を使用する者は、あらかじめ、その目的、場所及び方法を他の土地等の所有者及び他の土地を現に使用している者に通知しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-213-2-p4-zen
+    type: zen_dan
+    text: 第一項の規定による権利を有する者は、同項の規定により他の土地に設備を設置し、又は他人が所有する設備を使用するために当該他の土地又は当該他人が所有する設備がある土地を使用することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+  - id: minpou-art-213-2-p4-kou
+    type: kou_dan
+    text: この場合においては、第二百九条第一項ただし書及び第二項から第四項までの規定を準用する。
+    modality: unspecified
+    depends_on: minpou-art-213-2-p4-zen
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-213-2-p5-honbun
+    type: honbun
+    text: 第一項の規定により他の土地に設備を設置する者は、その土地の損害（前項において準用する第二百九条第四項に規定する損害を除く。）に対して償金を支払わなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: minpou-art-213-2-p5-tadashi
+    type: tadashi
+    text: ただし、一年ごとにその償金を支払うことができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-213-2-p6
+    type: simple
+    text: 第一項の規定により他人が所有する設備を使用する者は、その設備の使用を開始するために生じた損害に対して償金を支払わなければならない。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-213-2-p7
+    type: simple
+    text: 第一項の規定により他人が所有する設備を使用する者は、その利益を受ける割合に応じて、その設置、改築、修繕及び維持に要する費用を負担しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

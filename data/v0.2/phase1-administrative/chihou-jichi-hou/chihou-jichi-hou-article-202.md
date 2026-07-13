@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百二条
 
-<!-- segment: simple id: chihou-jichi-hou-art-202-p1 -->
 法令に特別の定めがあるものを除くほか、監査委員に関し必要な事項は、条例でこれを定める。

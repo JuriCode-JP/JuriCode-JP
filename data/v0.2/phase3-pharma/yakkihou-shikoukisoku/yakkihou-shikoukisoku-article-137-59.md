@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-59-p1-hashira
+    type: hashira
+    text: 法第二十三条の三十五第五項の厚生労働省令で定める業務は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-59-p1-kou-1
+    type: kou
+    text: 再生医療等製品の品質、有効性及び安全性に関する事項その他再生医療等製品の適正な使用のために必要な情報（以下この章において「安全管理情報」という。）の収集
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-59-p1-kou-2
+    type: kou
+    text: 安全管理情報の解析
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-59-p1-kou-3
+    type: kou
+    text: 安全管理情報の検討の結果に基づく必要な措置の実施
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-137-59-p1-kou-4
+    type: kou
+    text: 収集した安全管理情報の保存その他の前三号に附帯する業務
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第百三十七条の五十九
 
 法第二十三条の三十五第五項の厚生労働省令で定める業務は、次のとおりとする。
+
+一　再生医療等製品の品質、有効性及び安全性に関する事項その他再生医療等製品の適正な使用のために必要な情報（以下この章において「安全管理情報」という。）の収集
+
+二　安全管理情報の解析
+
+三　安全管理情報の検討の結果に基づく必要な措置の実施
+
+四　収集した安全管理情報の保存その他の前三号に附帯する業務

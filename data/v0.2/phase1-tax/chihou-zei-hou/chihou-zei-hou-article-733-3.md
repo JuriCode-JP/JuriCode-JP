@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-3-p1
+    type: simple
+    text: 法定外目的税の徴収については、徴収の便宜に従い、当該地方団体の条例の定めるところによつて、普通徴収、申告納付、特別徴収又は証紙徴収の方法によらなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

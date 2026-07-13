@@ -13,10 +13,34 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-17-p1-hashira
+    type: hashira
+    text: 生物由来製品は、第五十条各号、第五十九条各号、第六十一条各号又は第六十三条第一項各号に掲げる事項のほか、その直接の容器又は直接の被包に、次に掲げる事項が記載されていなければならない。ただし、厚生労働省令で別段の定めをしたときは、この限りでない。
+    modality: jogai
+  - id: yakkihou-art-68-17-p1-kou-1
+    type: kou
+    text: 生物由来製品（特定生物由来製品を除く。）にあつては、生物由来製品であることを示す厚生労働省令で定める表示
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-68-17-p1-kou-2
+    type: kou
+    text: 特定生物由来製品にあつては、特定生物由来製品であることを示す厚生労働省令で定める表示
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-68-17-p1-kou-3
+    type: kou
+    text: 第六十八条の十九において準用する第四十二条第一項の規定によりその基準が定められた生物由来製品にあつては、その基準において直接の容器又は直接の被包に記載するように定められた事項
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-art-68-17-p1-kou-4
+    type: kou
+    text: 前三号に掲げるもののほか、厚生労働省令で定める事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第六十八条の十七
 
 生物由来製品は、第五十条各号、第五十九条各号、第六十一条各号又は第六十三条第一項各号に掲げる事項のほか、その直接の容器又は直接の被包に、次に掲げる事項が記載されていなければならない。ただし、厚生労働省令で別段の定めをしたときは、この限りでない。
+
+一　生物由来製品（特定生物由来製品を除く。）にあつては、生物由来製品であることを示す厚生労働省令で定める表示
+
+二　特定生物由来製品にあつては、特定生物由来製品であることを示す厚生労働省令で定める表示
+
+三　第六十八条の十九において準用する第四十二条第一項の規定によりその基準が定められた生物由来製品にあつては、その基準において直接の容器又は直接の被包に記載するように定められた事項
+
+四　前三号に掲げるもののほか、厚生労働省令で定める事項

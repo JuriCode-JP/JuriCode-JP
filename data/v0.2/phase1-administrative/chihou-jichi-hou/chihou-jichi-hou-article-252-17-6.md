@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-6-p1
+    type: simple
+    text: 総務大臣は、必要があるときは、都道府県について財務に関係のある事務に関し、実地の検査を行うことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-6-p2
+    type: simple
+    text: 都道府県知事は、必要があるときは、市町村について財務に関係のある事務に関し、実地の検査を行うことができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-6-p3
+    type: simple
+    text: 総務大臣は、都道府県知事に対し、前項の規定による検査に関し、必要な指示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-6-p4
+    type: simple
+    text: 総務大臣は、前項の規定によるほか、緊急を要するときその他特に必要があると認めるときは、市町村について財務に関係のある事務に関し、実地の検査を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

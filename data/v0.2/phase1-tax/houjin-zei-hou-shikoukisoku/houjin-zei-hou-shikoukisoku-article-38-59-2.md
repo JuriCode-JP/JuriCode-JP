@@ -16,57 +16,116 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p1
+    type: simple
+    text: 令第百五十五条の六十八の二第一項（国内特別税額控除等相当額がある場合の国内実効税率等の計算の特例）に規定する特定費用の額の合計額として財務省令で定めるところにより計算した金額は、我が国を所在地国とする全ての構成会社等の同項の対象会計年度に係る第三十八条の三十四の二第一項（国別特別税額控除等相当額がある場合の国別実効税率等の計算の特例）に規定する特定費用の額の合計額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p2
+    type: simple
+    text: 令第百五十五条の六十八の二第一項に規定する特定資産に係る償却費の額の合計額として財務省令で定めるところにより計算した金額は、我が国を所在地国とする全ての構成会社等の同項の対象会計年度に係る第三十八条の三十四の二第二項に規定する特定償却費の額の合計額とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p3
+    type: simple
+    text: 特定多国籍企業グループ等の各対象会計年度に係るグループ国内最低課税額報告事項等（令第百五十五条の六十八の二第一項に規定する国内特別税額控除等相当額の計算につきこの項の規定の適用を受けようとする旨を含むものに限る。以下この項において同じ。）の提供がある場合又は我が国以外の国若しくは地域の租税に関する法令を執行する当局に当該グループ国内最低課税額報告事項等に相当する事項の提供がある場合（法第百五十条の三第六項（特定多国籍企業グループ等に係る報告事項等の提供）の規定の適用がある場合に限る。）には、当該対象会計年度以後の各対象会計年度に係る令第百五十五条の六十八の二第一項に規定するいずれか多い金額に百分の五・五の割合を乗じて計算した金額は、減価償却資産総額に百分の一の割合を乗じて計算した金額とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p4
+    type: simple
+    text: 前項に規定する減価償却資産総額とは、我が国を所在地国とする全ての構成会社等の第三十八条の三十四の二第四項に規定する減価償却資産の額の合計額をいう。
+    modality: teigi
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p5
+    type: simple
+    text: 特定多国籍企業グループ等の各対象会計年度に係るグループ国内最低課税額報告事項等（当該対象会計年度以後の各対象会計年度において第三項の規定の適用を受けることをやめようとする旨を含むものに限る。以下この項において同じ。）の提供がある場合又は我が国以外の国若しくは地域の租税に関する法令を執行する当局に当該グループ国内最低課税額報告事項等に相当する事項の提供がある場合（法第百五十条の三第六項の規定の適用がある場合に限る。）には、当該対象会計年度以後の各対象会計年度において、第三項の規定は、適用しない。
+    modality: jogai
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p6
+    type: simple
+    text: 第三項の規定は、同項の当該対象会計年度の直前の四対象会計年度のうちに前項の規定の適用を受けることとなつた対象会計年度がない場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p7
+    type: simple
+    text: 第五項の規定は、同項の当該対象会計年度の直前の四対象会計年度のうちに第三項の規定の適用を受けることとなつた対象会計年度がない場合に限り、適用する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p8
+    type: simple
+    text: 第五項の規定の適用を受けることとなつた対象会計年度以後の各対象会計年度における第二項の規定の適用については、第三項に規定する減価償却資産総額の計算の基礎となつた資産は、令第百五十五条の三十八第一項第二号（国別グループ純所得の金額から控除する金額）に規定する特定資産に該当しないものとする。
+    modality: gimu
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p9
+    type: simple
+    text: 令第百五十五条の六十八の二第二項の対象会計年度において同項の構成会社等に係る特別給付付き税額控除等相当額（同項に規定する特別給付付き税額控除等相当額をいう。以下この条において同じ。）について同項前段の規定の適用がある場合には、令第百五十五条の六十八の二第一項の規定による法第八十二条の十九第二項第一号イ（３）（国内最低課税額）に規定する国内実効税率及び同号イに規定する当期グループ国内最低課税額並びに同項第三号に規定する下回る額及び特定国別調整後対象租税額の計算については、当該特別給付付き税額控除等相当額を当該構成会社等の当該対象会計年度に係る個別計算所得等の金額及び同項第一号イに規定する国内調整後対象租税額から減算する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p10
+    type: simple
+    text: 令第百五十五条の六十八の二第三項の構成会社等について同項の規定の適用がある場合において、同項の過去対象会計年度において当該構成会社等に係る特別給付付き税額控除等相当額について同条第二項前段の規定の適用があつたときは、同条第三項の規定による令第百五十五条の六十四第二項第三号（構成会社等に係る再計算グループ国内最低課税額）に規定する再計算国内実効税率及び同項に規定する再計算当期グループ国内最低課税額の計算については、当該特別給付付き税額控除等相当額を当該構成会社等の当該過去対象会計年度に係る個別計算所得等の金額及び法第八十二条の十九第二項第一号イに規定する国内調整後対象租税額から減算する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-38-59-2-p11
+    type: simple
+    text: 特定多国籍企業グループ等の各対象会計年度に係るグループ国内最低課税額報告事項等（当該特定多国籍企業グループ等に属する構成会社等に係る特別給付付き税額控除等相当額についてこの項の規定の適用を受けようとする旨を含むものに限る。以下この項において同じ。）の提供がある場合又は我が国以外の国若しくは地域の租税に関する法令を執行する当局に当該グループ国内最低課税額報告事項等に相当する事項の提供がある場合（法第百五十条の三第六項の規定の適用がある場合に限る。）には、当該特別給付付き税額控除等相当額の一部につき令第百五十五条の六十八の二第二項の規定を適用することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

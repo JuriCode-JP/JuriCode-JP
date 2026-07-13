@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-811-2-p1-honbun
+    type: honbun
+    text: 養親が夫婦である場合において未成年者と離縁をするには、夫婦が共にしなければならない。
+    modality: gimu
+  - id: minpou-art-811-2-p1-tadashi
+    type: tadashi
+    text: ただし、夫婦の一方がその意思を表示することができないときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

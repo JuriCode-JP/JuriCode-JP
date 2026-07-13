@@ -16,32 +16,71 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-24-4-2-p1
+    type: simple
+    text: 第二十四条第一項の規定による有価証券報告書を提出しなければならない会社（第二十三条の三第四項の規定により当該有価証券報告書を提出した会社を含む。次項において同じ。）のうち、第二十四条第一項第一号に掲げる有価証券の発行者である会社その他の政令で定めるものは、内閣府令で定めるところにより、当該有価証券報告書の記載内容が金融商品取引法令に基づき適正であることを確認した旨を記載した確認書（以下この条及び次条において「確認書」という。）を当該有価証券報告書（第二十四条第八項の規定により同項に規定する有価証券報告書等に代えて外国会社報告書を提出する場合にあつては、当該外国会社報告書）と併せて内閣総理大臣に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 次項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-24-4-2-p2
+    type: simple
+    text: 第二十四条第一項の規定による有価証券報告書を提出しなければならない会社であつて、前項の規定により確認書を有価証券報告書と併せて提出しなければならない会社以外の会社（政令で定めるものを除く。）は、同項に規定する確認書を任意に提出することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-24-4-2-p3
+    type: junyou
+    text: 前二項の規定は、第二十四条第五項において準用する同条第一項の規定による有価証券報告書を提出しなければならない会社（第二十三条の三第四項の規定により当該有価証券報告書を提出した会社を含む。）のうち政令で定めるものについて準用する。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-24-4-2-p4
+    type: junyou
+    text: 前三項の規定は、第二十四条の二第一項において読み替えて準用する第七条第一項、第九条第一項又は第十条第一項の規定により訂正報告書を提出する場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    references:
+    - 前三項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-24-4-2-p5
+    type: junyou
+    text: 第六条の規定は、第一項又は第二項（これらの規定を第三項（前項において準用する場合を含む。）及び前項において準用する場合を含む。以下この条において同じ。）の規定により確認書が提出された場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 第六条
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-24-4-2-p6
+    type: junyou
+    text: 第二十四条第八項、第九項及び第十一項から第十三項までの規定は、報告書提出外国会社が第一項又は第二項の規定により確認書を提出する場合（外国会社報告書を提出している場合に限る。）について準用する。この場合において、同条第八項中「外国会社（第二十三条の三第四項の規定により有価証券報告書を提出したものを含む。以下「報告書提出外国会社」という。）」とあるのは「外国会社」と、「第一項の規定による有価証券報告書及び第六項の規定によりこれに添付しなければならない書類（以下この条において「有価証券報告書等」という。）」とあるのは「第二十四条の四の二第一項又は第二項（これらの規定を同条第三項（同条第四項において準用する場合を含む。）及び第四項において準用する場合を含む。）の規定による確認書」と、「外国において開示が行われている有価証券報告書等に類する」とあるのは「確認書に記載すべき事項を記載した」と、同条第九項中「、当該外国会社報告書に記載されていない事項のうち公益又は投資者保護のため必要かつ適当なものとして内閣府令で定めるものを記載した書類その他」とあるのは「その他」と、同条第十一項中「有価証券報告書等」とあるのは「第二十四条の四の二第一項又は第二項（これらの規定を同条第三項（同条第四項において準用する場合を含む。）及び第四項において準用する場合を含む。）の規定による確認書」と読み替えるものとするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

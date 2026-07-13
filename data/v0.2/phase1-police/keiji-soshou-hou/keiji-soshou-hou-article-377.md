@@ -14,13 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-377-p1
     type: simple
     text: 左の事由があることを理由として控訴の申立をした場合には、控訴趣意書に、その事由があることの充分な証明をすることができる旨の検察官又は弁護人の保証書を添附しなければならない。
     modality: gimu
+  - id: keiji-soshou-hou-art-377-p1-kou-1
+    type: kou
+    text: 法律に従つて判決裁判所を構成しなかつたこと。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-377-p1-kou-2
+    type: kou
+    text: 法令により判決に関与することができない裁判官が判決に関与したこと。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-377-p1-kou-3
+    type: kou
+    text: 審判の公開に関する規定に違反したこと。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第三百七十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-377-p1 -->
 左の事由があることを理由として控訴の申立をした場合には、控訴趣意書に、その事由があることの充分な証明をすることができる旨の検察官又は弁護人の保証書を添附しなければならない。
+
+一　法律に従つて判決裁判所を構成しなかつたこと。
+
+二　法令により判決に関与することができない裁判官が判決に関与したこと。
+
+三　審判の公開に関する規定に違反したこと。

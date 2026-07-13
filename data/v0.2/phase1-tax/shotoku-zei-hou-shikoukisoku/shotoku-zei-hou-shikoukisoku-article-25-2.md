@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第百二十一条の二第二項（リース賃貸資産の償却の方法の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-25-2-p1-kou-1
+    type: kou
+    text: 令第百二十一条の二第二項に規定する届出書を提出をする者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-25-2-p1-kou-2
+    type: kou
+    text: 令第百二十一条の二第一項に規定する旧リース期間定額法を採用しようとする資産の種類（同条第二項に規定する資産の種類をいう。）ごとの同条第三項に規定する改定取得価額の合計額
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-25-2-p1-kou-3
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第二十五条の二
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-25-2-p1-hashira -->
 令第百二十一条の二第二項（リース賃貸資産の償却の方法の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　令第百二十一条の二第二項に規定する届出書を提出をする者の氏名及び住所
+
+二　令第百二十一条の二第一項に規定する旧リース期間定額法を採用しようとする資産の種類（同条第二項に規定する資産の種類をいう。）ごとの同条第三項に規定する改定取得価額の合計額
+
+三　その他参考となるべき事項

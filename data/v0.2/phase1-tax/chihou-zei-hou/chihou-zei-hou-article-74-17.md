@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-17-p1
+    type: simple
+    text: 卸売販売業者等又は小売販売業者は、帳簿を備え、政令で定めるところにより、製造たばこの製造、貯蔵又は販売に関する事実をこれに記載しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

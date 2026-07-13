@@ -13,20 +13,52 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-14-2-p1-honbun
+    type: honbun
+    text: 市町村長は、法第三百二十一条の十一第一項又は第三項の規定により更正した市町村民税額（以下この項において「更正後市町村民税額」という。）が当該事業年度分に係る市町村民税の中間納付額に満たない場合において、法第三百二十一条の八第五十四項の規定により当該更正後市町村民税額に係る同項に規定する仮装経理法人税割額を還付しないとき、又は当該更正を受けた法人の未納に係る地方団体の徴収金に充当しないときであつても、当該市町村民税の中間納付額について納付された法第三百二十一条の十二第二項又は第三百二十六条の規定による延滞金があるときは、当該市町村民税の中間納付額について納付された延滞金のうち当該仮装経理法人税割額に係る市町村民税の中間納付額に対応するものとして、当該市町村民税の中間納付額について納付された延滞金額に当該市町村民税の中間納付額のうち当該仮装経理法人税割額の占める割合を乗じて得た金額を還付する。
+    modality: unspecified
+    references:
+    - 同項
+  - id: chihou-zei-hou-shikkourei-art-48-14-2-p1-tadashi
+    type: tadashi
+    text: ただし、市町村民税の中間納付額が分割して納付されている場合には、第一号に掲げる金額から第二号に掲げる金額を控除した金額とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-48-14-2-p1-kou-1
+    type: kou
+    text: 当該市町村民税の中間納付額について納付された延滞金額
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-48-14-2-p1-kou-2
+    type: kou
+    text: 当該市町村民税の中間納付額のうち納付の順序に従い当該更正後市町村民税額に達するまで順次求めた各市町村民税の中間納付額につき、法の規定により計算される延滞金額の合計額
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-14-2-p2
+    type: simple
+    text: 前項の規定による還付をする場合において、未納に係る地方団体の徴収金があるときは、当該還付すべき金額をその地方団体の徴収金に充当するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-14-2-p3
+    type: junyou
+    text: 第六条の十四第一項の規定は、前項の規定による充当について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -46,6 +78,10 @@ parent_section:
 ### 第四十八条の十四の二第一項
 
 市町村長は、法第三百二十一条の十一第一項又は第三項の規定により更正した市町村民税額（以下この項において「更正後市町村民税額」という。）が当該事業年度分に係る市町村民税の中間納付額に満たない場合において、法第三百二十一条の八第五十四項の規定により当該更正後市町村民税額に係る同項に規定する仮装経理法人税割額を還付しないとき、又は当該更正を受けた法人の未納に係る地方団体の徴収金に充当しないときであつても、当該市町村民税の中間納付額について納付された法第三百二十一条の十二第二項又は第三百二十六条の規定による延滞金があるときは、当該市町村民税の中間納付額について納付された延滞金のうち当該仮装経理法人税割額に係る市町村民税の中間納付額に対応するものとして、当該市町村民税の中間納付額について納付された延滞金額に当該市町村民税の中間納付額のうち当該仮装経理法人税割額の占める割合を乗じて得た金額を還付する。ただし、市町村民税の中間納付額が分割して納付されている場合には、第一号に掲げる金額から第二号に掲げる金額を控除した金額とする。
+
+一　当該市町村民税の中間納付額について納付された延滞金額
+
+二　当該市町村民税の中間納付額のうち納付の順序に従い当該更正後市町村民税額に達するまで順次求めた各市町村民税の中間納付額につき、法の規定により計算される延滞金額の合計額
 
 ### 第四十八条の十四の二第二項
 

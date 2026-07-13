@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-8-p1
+    type: simple
+    text: 売渡株式等の取得の無効の訴えに係る請求を認容する判決が確定したときは、当該判決において無効とされた売渡株式等の全部の取得は、将来に向かってその効力を失う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

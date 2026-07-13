@@ -16,17 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-41-p1
+    type: simple
+    text: 債権者が前条第二項の期間内に異議を述べなかつたときは、合併を承認したものとみなす。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-41-p2-honbun
+    type: honbun
+    text: 債権者が異議を述べたときは、認可地縁団体は、弁済し、若しくは相当の担保を供し、又はその債権者に弁済を受けさせることを目的として信託会社若しくは信託業務を営む金融機関に相当の財産を信託しなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-260-41-p2-tadashi
+    type: tadashi
+    text: ただし、合併をしてもその債権者を害するおそれがないときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-41-p3
+    type: simple
+    text: 合併しようとする各認可地縁団体は、前条及び前二項の規定による手続が終了した場合には、総務省令で定めるところにより、共同で、遅滞なく、その旨を市町村長に届け出なければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前二項
 cases: []
 amendments: []
 tags:

@@ -23,6 +23,26 @@ paragraphs:
     modality: koka_torikeshi
     references:
     - 前条
+  - id: fueihou-art-8-p1-kou-1
+    type: kou
+    text: 偽りその他不正の手段により当該許可又は承認を受けたこと。
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-8-p1-kou-2
+    type: kou
+    text: 第四条第一項各号に掲げる者のいずれかに該当していること。
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-8-p1-kou-3
+    type: kou
+    text: 正当な事由がないのに、当該許可を受けてから六月以内に営業を開始せず、又は引き続き六月以上営業を休止し、現に営業を営んでいないこと。
+    modality: unspecified
+    item_number: 3
+  - id: fueihou-art-8-p1-kou-4
+    type: kou
+    text: 三月以上所在不明であること。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第八条
 
-<!-- segment: hashira id: fueihou-art-8-p1-hashira -->
 公安委員会は、第三条第一項の許可を受けた者（第七条第一項、第七条の二第一項又は前条第一項の承認を受けた者を含む。第十一条において同じ。）について、次の各号に掲げるいずれかの事実が判明したときは、その許可を取り消すことができる。
+
+一　偽りその他不正の手段により当該許可又は承認を受けたこと。
+
+二　第四条第一項各号に掲げる者のいずれかに該当していること。
+
+三　正当な事由がないのに、当該許可を受けてから六月以内に営業を開始せず、又は引き続き六月以上営業を休止し、現に営業を営んでいないこと。
+
+四　三月以上所在不明であること。

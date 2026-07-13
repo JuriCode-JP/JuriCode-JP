@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十五条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-55-p1 -->
 当事者は、意見聴取の期日への出頭に代えて、指定職員に対し、意見聴取の期日までに陳述書及び証拠を提出することができる。

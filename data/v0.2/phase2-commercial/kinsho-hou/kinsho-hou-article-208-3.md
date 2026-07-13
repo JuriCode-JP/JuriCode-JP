@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-208-3-p1
+    type: simple
+    text: 第八十八条第三項の規定に違反した者は、二十万円以下の過料に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

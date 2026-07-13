@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十八条
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-18-p1 -->
 削除

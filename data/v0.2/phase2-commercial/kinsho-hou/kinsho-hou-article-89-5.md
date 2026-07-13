@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-89-5-p1
+    type: simple
+    text: 金融商品会員制法人において第八十九条の二第二項各号に掲げる事項に変更が生じたときは、二週間以内に、その主たる事務所の所在地において、変更の登記をしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-89-5-p2
+    type: simple
+    text: 第八十九条の二第二項各号に掲げる事項の変更の登記の申請書には、当該事項の変更を証する書面を添付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

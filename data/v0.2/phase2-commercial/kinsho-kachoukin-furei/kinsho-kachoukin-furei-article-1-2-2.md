@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-1-2-2-p1
+    type: simple
+    text: 法第百七十二条の三第一項に規定する内閣府令で定める場合は、同項に規定する直前事業年度の日数が同項に規定する有価証券報告書に係る事業年度の日数に満たない場合で、当該直前事業年度における監査報酬額（同項に規定する監査報酬額をいう。次項において同じ。）が四百万円に満たない場合とする。
+    modality: gimu
+    references:
+    - 同項
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-1-2-2-p2
+    type: simple
+    text: 法第百七十二条の三第二項に規定する内閣府令で定める場合は、同項に規定する直前事業年度の日数が同項に規定する半期報告書に係る期間の日数に二を乗じて得た日数に満たない場合で、当該直前事業年度における監査報酬額が四百万円に満たない場合とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

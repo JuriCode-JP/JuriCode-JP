@@ -16,37 +16,92 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-6-p1
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、指定薬物又は指定薬物と同等以上に精神毒性を有する蓋然性が高い物である疑いがある物品を発見した場合において、保健衛生上の危害の発生を防止するため必要があると認めるときは、厚生労働省令で定めるところにより、当該物品を貯蔵し、若しくは陳列している者又は製造し、輸入し、販売し、若しくは授与した者に対して、当該物品が指定薬物であるかどうか及び当該物品が指定薬物でないことが判明した場合にあつては、当該物品が指定薬物と同等以上に精神毒性を有する蓋然性が高い物であるかどうかについて、厚生労働大臣若しくは都道府県知事又は厚生労働大臣若しくは都道府県知事の指定する者の検査を受けるべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-6-p2
+    type: simple
+    text: 前項の場合において、厚生労働大臣又は都道府県知事は、厚生労働省令で定めるところにより、同項の検査を受けるべきことを命ぜられた者に対し、同項の検査を受け、第四項前段、第六項（第一号に係る部分に限る。）又は第七項の規定による通知を受けるまでの間は、当該物品及びこれと同一の物品を製造し、輸入し、販売し、授与し、販売若しくは授与の目的で陳列し、又は広告してはならない旨を併せて命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-6-p3
+    type: simple
+    text: 都道府県知事は、前項の規定による命令をしたときは、当該命令の日、当該命令に係る物品の名称、形状及び包装その他厚生労働省令で定める事項を厚生労働大臣に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-6-p4-zen
+    type: zen_dan
+    text: 厚生労働大臣又は都道府県知事は、第一項の検査により当該検査に係る物品が指定薬物であることが判明したときは、遅滞なく、当該検査を受けるべきことを命ぜられた者に対して、当該検査の結果を通知しなければならない。
+    modality: gimu
+  - id: yakkihou-art-76-6-p4-kou
+    type: kou_dan
+    text: この場合において、当該物品が次条第一項の規定による禁止に係る物品であるときは、当該都道府県知事は、併せて、厚生労働大臣に対して、当該検査の結果を報告しなければならない。
+    modality: gimu
+    references:
+    - 次条
+    depends_on: yakkihou-art-76-6-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-6-p5
+    type: simple
+    text: 都道府県知事は、第一項の検査により当該検査に係る物品が指定薬物でないこと及び当該物品の精神毒性を有する蓋然性が判明したときは、遅滞なく、厚生労働大臣に対して、当該検査の結果を報告しなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-6-p6-hashira
+    type: hashira
+    text: 厚生労働大臣は、第一項の検査により当該検査に係る物品が指定薬物でないこと及び当該物品の精神毒性を有する蓋然性が判明したとき又は前項の規定による報告を受けたときは、遅滞なく、当該物品について第二条第十五項の指定をし、又は同項の指定をしない旨を決定し、かつ、次の各号に掲げる場合の区分に応じ、それぞれ当該各号に定める者に対して、その旨（第一号に掲げる場合にあつては、当該検査の結果及びその旨）を通知しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+  - id: yakkihou-art-76-6-p6-kou-1
+    type: kou
+    text: 厚生労働大臣又は厚生労働大臣の指定する者が当該検査を行つた場合　当該検査を受けるべきことを命ぜられた者
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-76-6-p6-kou-2
+    type: kou
+    text: 都道府県知事又は都道府県知事の指定する者が当該検査を行つた場合　都道府県知事
+    modality: unspecified
+    item_number: 2
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-6-p7
+    type: simple
+    text: 都道府県知事は、厚生労働大臣から前項（第二号に係る部分に限る。）の規定による通知を受けたときは、遅滞なく、当該通知に係る検査を受けるべきことを命ぜられた者に対して、当該検査の結果及び当該通知の内容を通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -84,6 +139,10 @@ parent_section:
 ### 第七十六条の六第六項
 
 厚生労働大臣は、第一項の検査により当該検査に係る物品が指定薬物でないこと及び当該物品の精神毒性を有する蓋然性が判明したとき又は前項の規定による報告を受けたときは、遅滞なく、当該物品について第二条第十五項の指定をし、又は同項の指定をしない旨を決定し、かつ、次の各号に掲げる場合の区分に応じ、それぞれ当該各号に定める者に対して、その旨（第一号に掲げる場合にあつては、当該検査の結果及びその旨）を通知しなければならない。
+
+一　厚生労働大臣又は厚生労働大臣の指定する者が当該検査を行つた場合　当該検査を受けるべきことを命ぜられた者
+
+二　都道府県知事又は都道府県知事の指定する者が当該検査を行つた場合　都道府県知事
 
 ### 第七十六条の六第七項
 

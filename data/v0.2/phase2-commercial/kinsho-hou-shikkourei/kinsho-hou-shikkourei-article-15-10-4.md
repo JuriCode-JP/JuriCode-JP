@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-10-4-p1
+    type: simple
+    text: 法第二十九条の四の四第八項第一号に規定する政令で定める有価証券は、店頭売買有価証券とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

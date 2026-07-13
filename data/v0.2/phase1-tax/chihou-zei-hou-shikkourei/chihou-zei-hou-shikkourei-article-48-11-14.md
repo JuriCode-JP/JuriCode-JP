@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-14-p1
+    type: junyou
+    text: 第八条の十七の二第一項の規定は、法第三百二十一条の八第十三項に規定する通算対象所得金額（次項において「通算対象所得金額」という。）の生じた事業年度後最初の事業年度について法人税法第七十一条第一項（同法第七十二条第一項の規定が適用される場合に限る。）の規定により法人税に係る申告書を提出する義務がある法人について法第三百二十一条の八第十三項の規定を適用する場合について準用する。
+    modality: unspecified
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-14-p2
+    type: junyou
+    text: 第八条の十七の二第二項の規定は、法第三百二十一条の八第十五項に規定する被合併法人等（第四十八条の十一の十六において「被合併法人等」という。）の通算対象所得金額の生じた事業年度終了の日が同項に規定する適格合併の日の前日又は同項に規定する残余財産の確定の日である場合における当該通算対象所得金額について準用する。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

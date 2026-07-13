@@ -41,6 +41,4 @@ parent_section:
 
 ### 第九十七条
 
-<!-- segment: honbun id: dokusen-kinshi-hou-art-97-p1-honbun -->
-排除措置命令に違反したものは、五十万円以下の過料に処する。<!-- segment: tadashi id: dokusen-kinshi-hou-art-97-p1-tadashi -->
-ただし、その行為につき刑を科するべきときは、この限りでない。
+排除措置命令に違反したものは、五十万円以下の過料に処する。ただし、その行為につき刑を科するべきときは、この限りでない。

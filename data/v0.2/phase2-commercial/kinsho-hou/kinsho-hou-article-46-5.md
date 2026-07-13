@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-46-5-p1
+    type: simple
+    text: 金融商品取引業者は、有価証券の売買その他の取引又はデリバティブ取引等の取引量に応じ、内閣府令で定めるところにより、金融商品取引責任準備金を積み立てなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-46-5-p2
+    type: simple
+    text: 前項の金融商品取引責任準備金は、有価証券の売買その他の取引又はデリバティブ取引等に関して生じた事故による損失の補てんに充てる場合その他内閣府令で定める場合のほか、使用してはならない。
+    modality: gimu_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

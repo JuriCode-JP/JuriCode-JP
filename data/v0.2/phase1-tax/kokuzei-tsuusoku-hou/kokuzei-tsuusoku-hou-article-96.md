@@ -61,15 +61,12 @@ parent_section:
 
 ### 第九十六条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-96-p1 -->
 審査請求人又は参加人は、証拠書類又は証拠物を提出することができる。
 
 ### 第九十六条第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-96-p2 -->
 原処分庁は、当該処分の理由となる事実を証する書類その他の物件を提出することができる。
 
 ### 第九十六条第三項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-96-p3 -->
 前二項の場合において、担当審判官が、証拠書類若しくは証拠物又は書類その他の物件を提出すべき相当の期間を定めたときは、その期間内にこれを提出しなければならない。

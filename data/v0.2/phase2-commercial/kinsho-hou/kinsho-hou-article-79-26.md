@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-26-p1
+    type: simple
+    text: 基金の会員の資格を有する者は、金融商品取引業者に限る。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-26-p2
+    type: simple
+    text: 基金は、金融商品取引業者が当該基金に加入しようとするときは、業務の種類に関する特別の事由その他の正当な事由により加入を制限する場合を除き、その加入を拒み、又はその加入について不当な条件を付してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

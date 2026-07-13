@@ -14,14 +14,39 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-27-p1-hashira
+    type: hashira
+    text: 認可地縁団体の清算人の職務は、次のとおりとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-260-27-p1-kou-1
+    type: kou
+    text: 現務の結了
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-260-27-p1-kou-2
+    type: kou
+    text: 債権の取立て及び債務の弁済
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-260-27-p1-kou-3
+    type: kou
+    text: 残余財産の引渡し
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-27-p2
+    type: simple
+    text: 清算人は、前項各号に掲げる職務を行うために必要な一切の行為をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +66,12 @@ parent_section:
 ### 第二百六十条の二十七第一項
 
 認可地縁団体の清算人の職務は、次のとおりとする。
+
+一　現務の結了
+
+二　債権の取立て及び債務の弁済
+
+三　残余財産の引渡し
 
 ### 第二百六十条の二十七第二項
 

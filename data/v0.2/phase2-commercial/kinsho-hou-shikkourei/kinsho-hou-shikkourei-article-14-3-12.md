@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-12-p1
+    type: simple
+    text: 法第二十七条の二十二の三第三項に規定する政令で定める期間は、十二時間とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

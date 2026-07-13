@@ -72,25 +72,20 @@ tags:
 
 ### 第八条の四十三第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-43-p1 -->
 自動車用炭化水素油譲渡証及びその写しは、道府県知事の交付する用紙によつて作成しなければならない。
 
 ### 第八条の四十三第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-43-p2 -->
 前項の自動車用炭化水素油譲渡証及びその写しの用紙には一連の番号を付けなければならない。
 
 ### 第八条の四十三第三項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-43-p3 -->
 自動車用炭化水素油譲渡証及びその写しの様式は、第十六号の三十四様式による。
 
 ### 第八条の四十三第四項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-43-p4 -->
 法第百四十四条の三十二第一項第三号の承認を受けた者は、自動車用炭化水素油譲渡証の写しを、当該自動車用炭化水素油譲渡証を交付した日から起算して一年間保管しなければならない。
 
 ### 第八条の四十三第五項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-43-p5 -->
 法第百四十四条の三十二第一項第三号の承認を受けた者は、当該承認に係る燃料炭化水素油の譲渡が完了した際に第一項の用紙を所持しているときは、遅滞なく、これを交付した道府県知事に対し返納しなければならない。

@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-75-p1-zen
+    type: zen_dan
+    text: 内閣総理大臣及び財務大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、基金に対し、定款又は業務規程の変更その他その業務に関して監督上必要な命令をすることができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-79-75-p1-kou
+    type: kou_dan
+    text: この場合においては、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-79-75-p1-zen
 cases: []
 amendments: []
 tags:

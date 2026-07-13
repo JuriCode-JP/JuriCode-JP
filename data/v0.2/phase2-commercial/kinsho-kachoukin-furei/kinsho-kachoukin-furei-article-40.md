@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十条
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-40-p1 -->
 参考人は、期日に出頭することができない事由が生じたときは、直ちに、その事由を明らかにして届け出なければならない。

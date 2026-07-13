@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十三条
 
-<!-- segment: simple id: keisatsu-hou-art-63-p1 -->
 警察官は、上官の指揮監督を受け、警察の事務を執行する。

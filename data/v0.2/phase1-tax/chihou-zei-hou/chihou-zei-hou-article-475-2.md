@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-475-2-p1
+    type: simple
+    text: 市町村は、たばこ税の申告納税者が正当な事由がなくて第四百七十三条第一項又は第二項の規定による申告書を当該各項に規定する申告書の提出期限までに提出しなかつた場合においては、その者に対し、当該市町村の条例で十万円以下の過料を科する旨の規定を設けることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

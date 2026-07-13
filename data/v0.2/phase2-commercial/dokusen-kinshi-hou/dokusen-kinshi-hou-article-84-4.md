@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-84-4-p1
+    type: simple
+    text: 前条に規定する罪に係る事件について、刑事訴訟法（昭和二十三年法律第百三十一号）第二条の規定により第八十四条の二第一項各号に掲げる裁判所が管轄権を有する場合には、それぞれ当該各号に定める裁判所も、その事件を管轄することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

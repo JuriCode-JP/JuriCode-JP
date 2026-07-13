@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百十四条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-314-p1 -->
 削除

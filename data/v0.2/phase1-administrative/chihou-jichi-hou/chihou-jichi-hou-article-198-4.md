@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-198-4-p1
+    type: simple
+    text: 監査基準は、監査委員が定めるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-198-4-p2
+    type: simple
+    text: 前項の規定による監査基準の策定は、監査委員の合議によるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-198-4-p3
+    type: simple
+    text: 監査委員は、監査基準を定めたときは、直ちに、これを普通地方公共団体の議会、長、教育委員会、選挙管理委員会、人事委員会又は公平委員会、公安委員会、労働委員会、農業委員会その他法律に基づく委員会及び委員に通知するとともに、これを公表しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-198-4-p4
+    type: junyou
+    text: 前二項の規定は、監査基準の変更について準用する。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-198-4-p5
+    type: simple
+    text: 総務大臣は、普通地方公共団体に対し、監査基準の策定又は変更について、指針を示すとともに、必要な助言を行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

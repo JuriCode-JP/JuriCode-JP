@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-17-9-p1
+    type: simple
+    text: 普通地方公共団体の選挙管理委員会が成立しない場合において、当該普通地方公共団体の議会もまた成立していないときは、都道府県にあつては総務大臣、市町村にあつては都道府県知事は、臨時選挙管理委員を選任し、選挙管理委員の職務を行わせることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-8-p1 -->
 前条の規定は、同条の規定により審査請求をすることができない処分又は不作為につき、別に法令で当該処分又は不作為の性質に応じた不服申立ての制度を設けることを妨げない。

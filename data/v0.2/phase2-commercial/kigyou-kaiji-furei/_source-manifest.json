@@ -4,13 +4,13 @@
   "law_name_ja": "企業内容等の開示に関する内閣府令",
   "law_abbrev": "kigyou-kaiji-furei",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/348M50000040005",
-  "source_xml_path": "../../../cache/laws/348M50000040005.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\348M50000040005.xml",
   "source_xml_sha256": "2026057f0228228d7c26852f62fa960cc3d76e25cb338a908b620e3a7c443231",
   "source_xml_bytes": 1538470,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-07-13",
   "parser": "tools/parse/v0.2/segment_parser.py",
-  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:28:25+00:00",
+  "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
+  "parsed_at": "2026-07-13T13:58:53+00:00",
   "version_date": "1973-01-30",
   "article_count": 99,
   "articles": [
@@ -18,24 +18,24 @@
       "article_id": "kigyou-kaiji-furei-art-1-2",
       "article_number": "1-2",
       "filename": "kigyou-kaiji-furei-article-1-2.md",
-      "ja_text_sha256": "9f23ec2fd252c2c08596a19bc871934061ed1dd72481f2a26f573c72e2e5197b",
-      "ja_text_bytes": 111,
+      "ja_text_sha256": "5feb09f11ed0e08e221aab8b59ffde177d0bf58d503e529392536e8539c4dc61",
+      "ja_text_bytes": 2150,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-1",
       "article_number": "1",
       "filename": "kigyou-kaiji-furei-article-1.md",
-      "ja_text_sha256": "dbcf83532795d458f9ab9624a9ff15da4c6d1a3776e2459d5fad345875871057",
-      "ja_text_bytes": 183,
+      "ja_text_sha256": "9a1a93e02deef473e0a60d6cb7883c5da2dbc0a4fdcb5dd9b818166615158b67",
+      "ja_text_bytes": 22139,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-10",
       "article_number": "10",
       "filename": "kigyou-kaiji-furei-article-10.md",
-      "ja_text_sha256": "3347ee4febf123181c4f4f010662066dfd63e02153b611bd1aa047757fc04d1a",
-      "ja_text_bytes": 964,
+      "ja_text_sha256": "dbfcb31c68aac411f19d39e981680733f81eb7941ef2ee42882ef278c5e98351",
+      "ja_text_bytes": 10503,
       "paragraph_count": 2
     },
     {
@@ -50,48 +50,48 @@
       "article_id": "kigyou-kaiji-furei-art-11-3",
       "article_number": "11-3",
       "filename": "kigyou-kaiji-furei-article-11-3.md",
-      "ja_text_sha256": "83c619509674736ed6ac2bc899fbccd962f33716496c20467be93c6ae8bc888f",
-      "ja_text_bytes": 338,
+      "ja_text_sha256": "1ad7167e672b78b3c155b96092052fa868010b0a138e64d985f83224b42c2631",
+      "ja_text_bytes": 485,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-11-4",
       "article_number": "11-4",
       "filename": "kigyou-kaiji-furei-article-11-4.md",
-      "ja_text_sha256": "0cbaea937337fce80096e3f9db3b43c2f4d0de09f4e6ea29dd4058799e8352df",
-      "ja_text_bytes": 375,
+      "ja_text_sha256": "56febbc0a82891f5e0a11b0eca5f0754f985f782accbf85119521adae3b0410e",
+      "ja_text_bytes": 2491,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-11-5",
       "article_number": "11-5",
       "filename": "kigyou-kaiji-furei-article-11-5.md",
-      "ja_text_sha256": "9ed72eaf1e2072dddd583d10e2a9608751e7aa77aeeed2c9cc67917c240883f5",
-      "ja_text_bytes": 126,
+      "ja_text_sha256": "469927afe29e47fed3051ad2f324b1829b75725564576d991290e3a3bcfde4b8",
+      "ja_text_bytes": 828,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-11",
       "article_number": "11",
       "filename": "kigyou-kaiji-furei-article-11.md",
-      "ja_text_sha256": "e8aaa49b65ad605c9ee9ce8ee4daae74734f3e0f60d47cbc9ac5f8cca3ed1564",
-      "ja_text_bytes": 367,
+      "ja_text_sha256": "2dd069d77e249063c5b3be13712cf138c65c09542dc9f6b9f717ef298e1666a8",
+      "ja_text_bytes": 876,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-12",
       "article_number": "12",
       "filename": "kigyou-kaiji-furei-article-12.md",
-      "ja_text_sha256": "3d2bd92eb27935d456200443c7f3f85c87343e52c740356a3e8d3ad9c62c0682",
-      "ja_text_bytes": 583,
+      "ja_text_sha256": "88a5ec6a6e7b161f0d91d41a71502ba83047faf7533b76769824724304f38226",
+      "ja_text_bytes": 1725,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-13",
       "article_number": "13",
       "filename": "kigyou-kaiji-furei-article-13.md",
-      "ja_text_sha256": "851f7124cf9af7ec5d2e12de940e4b64f21829b030479f94b2c70c886aae7cab",
-      "ja_text_bytes": 727,
+      "ja_text_sha256": "5b1d3dbfca20592a4a54d6ac69cb710858430052c7f23cff86a556673205b50a",
+      "ja_text_bytes": 1804,
       "paragraph_count": 2
     },
     {
@@ -106,48 +106,48 @@
       "article_id": "kigyou-kaiji-furei-art-14-11",
       "article_number": "14-11",
       "filename": "kigyou-kaiji-furei-article-14-11.md",
-      "ja_text_sha256": "b04a9518a6904bc2891022e105ab9b3f7728e6a0c37925b706a7862fbcce229e",
-      "ja_text_bytes": 1064,
+      "ja_text_sha256": "2d8aed91d9f2b2ee7ddc19e6c8fd5ae95d17a1fefab6615c0b65bec8cbe88a18",
+      "ja_text_bytes": 1926,
       "paragraph_count": 5
     },
     {
       "article_id": "kigyou-kaiji-furei-art-14-12",
       "article_number": "14-12",
       "filename": "kigyou-kaiji-furei-article-14-12.md",
-      "ja_text_sha256": "12143bd70a5f494223e8fb80a7516f0043c8a0d38892a44f2c363594f87842b7",
-      "ja_text_bytes": 920,
+      "ja_text_sha256": "be39bc9f3cf967093b2f78aae7980bdb2a99e115990615458feb3203241ded8a",
+      "ja_text_bytes": 3501,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-14-13",
       "article_number": "14-13",
       "filename": "kigyou-kaiji-furei-article-14-13.md",
-      "ja_text_sha256": "727c9d56f56a97a1c5d6d10c875f37f6b046adc72e4236c9e9823d4516567ac3",
-      "ja_text_bytes": 737,
+      "ja_text_sha256": "faf216c62b38dee026bddf28d578a8b38a8f5907d0fb2a5eb8d3aaf88fe1a3af",
+      "ja_text_bytes": 4309,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-14-14-2",
       "article_number": "14-14-2",
       "filename": "kigyou-kaiji-furei-article-14-14-2.md",
-      "ja_text_sha256": "17cea03d368423bd41735594c12f68cc979a3913b03e1bce5e4d30117e7c9a3c",
-      "ja_text_bytes": 541,
+      "ja_text_sha256": "f9fa8e12b6991763f830cedc8fb0e4ed30221ebc09ff205823b020694cedadf1",
+      "ja_text_bytes": 5071,
       "paragraph_count": 3
     },
     {
       "article_id": "kigyou-kaiji-furei-art-14-14",
       "article_number": "14-14",
       "filename": "kigyou-kaiji-furei-article-14-14.md",
-      "ja_text_sha256": "6163c243e5fa81266b40ed70e68f88cefa9b69ab3f15d3967714a2639702affb",
-      "ja_text_bytes": 1178,
+      "ja_text_sha256": "205a1579e392ced42b2a28bf23a40fd1a390ce40450d92b6b25d26e79b207fb1",
+      "ja_text_bytes": 2270,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-14-15",
       "article_number": "14-15",
       "filename": "kigyou-kaiji-furei-article-14-15.md",
-      "ja_text_sha256": "8dc95f985b11ad7e5587fd8609434800e77ffff5609be48e334fc1879ca19101",
-      "ja_text_bytes": 1139,
+      "ja_text_sha256": "1d58a52d787899c9a0b8745e9a00c4860e1647d691c6f6dd6987e7714e351eb7",
+      "ja_text_bytes": 1639,
       "paragraph_count": 2
     },
     {
@@ -162,16 +162,16 @@
       "article_id": "kigyou-kaiji-furei-art-14-2-2",
       "article_number": "14-2-2",
       "filename": "kigyou-kaiji-furei-article-14-2-2.md",
-      "ja_text_sha256": "d0660fabe316c4e103f46dc39542e42e6dc94f9f2496d43e16b19c915ea476f4",
-      "ja_text_bytes": 272,
+      "ja_text_sha256": "b9f410930cd0fafb70273debc16397de2a2812e2b332ae99a780920eda7ac9a1",
+      "ja_text_bytes": 359,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-14-2",
       "article_number": "14-2",
       "filename": "kigyou-kaiji-furei-article-14-2.md",
-      "ja_text_sha256": "7740a44fe083cefdd0dc6b264b36b8e84b71c0ba8bf9a6e322a017198e0082f8",
-      "ja_text_bytes": 545,
+      "ja_text_sha256": "f26ca3b0c66a81eba1edaed72bbd31d0d37d3915f87d1b841a15a2b30dd87cb3",
+      "ja_text_bytes": 1910,
       "paragraph_count": 2
     },
     {
@@ -186,16 +186,16 @@
       "article_id": "kigyou-kaiji-furei-art-14-4",
       "article_number": "14-4",
       "filename": "kigyou-kaiji-furei-article-14-4.md",
-      "ja_text_sha256": "9b2bdbde545eb1c49b6473b71238ae23241e582448f29f110416165b38b001a7",
-      "ja_text_bytes": 1171,
+      "ja_text_sha256": "ed6bf014bf5b64683c371f434ec3804a42351eb0de7b7a1e92b84f8979106cd8",
+      "ja_text_bytes": 4497,
       "paragraph_count": 3
     },
     {
       "article_id": "kigyou-kaiji-furei-art-14-5",
       "article_number": "14-5",
       "filename": "kigyou-kaiji-furei-article-14-5.md",
-      "ja_text_sha256": "3097c07553e182b3183e06da06c1c712ddf3b5a087e551dd3e1bbb62ea6588b3",
-      "ja_text_bytes": 877,
+      "ja_text_sha256": "4297322e48123832ed112872f6ab3b5e5d108145d9fa08d2568419c47f722495",
+      "ja_text_bytes": 1465,
       "paragraph_count": 3
     },
     {
@@ -226,8 +226,8 @@
       "article_id": "kigyou-kaiji-furei-art-14-9-2",
       "article_number": "14-9-2",
       "filename": "kigyou-kaiji-furei-article-14-9-2.md",
-      "ja_text_sha256": "c2e996efb2c34cac202040e75d668350a7152073d19dda3147e773a57412863b",
-      "ja_text_bytes": 765,
+      "ja_text_sha256": "138164f40b7ad6f1887bef23a44a5a762f48337f3a0244eb241be06b6df7dbb2",
+      "ja_text_bytes": 1200,
       "paragraph_count": 1
     },
     {
@@ -242,80 +242,80 @@
       "article_id": "kigyou-kaiji-furei-art-14",
       "article_number": "14",
       "filename": "kigyou-kaiji-furei-article-14.md",
-      "ja_text_sha256": "516502b681bd15460bcf39b9c917c05b65da0b61584dcbba5b8f7546fe6c0fd1",
-      "ja_text_bytes": 715,
+      "ja_text_sha256": "a21c2f9fe1736dc4390f771bd37b82c5fd8af21320d5b141e3c76f50b907f29e",
+      "ja_text_bytes": 1510,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-15-2-2",
       "article_number": "15-2-2",
       "filename": "kigyou-kaiji-furei-article-15-2-2.md",
-      "ja_text_sha256": "c2b6a201a788d6ae16ba85f35284688047dcfbf6691b521f73b846795aeca4ef",
-      "ja_text_bytes": 2730,
+      "ja_text_sha256": "9afa83dfe688993f9382ad766245f2cbbfc6f97b0ef859e99433fadc67c976b6",
+      "ja_text_bytes": 4725,
       "paragraph_count": 7
     },
     {
       "article_id": "kigyou-kaiji-furei-art-15-2",
       "article_number": "15-2",
       "filename": "kigyou-kaiji-furei-article-15-2.md",
-      "ja_text_sha256": "89212eb95d3b90820077ff897709338d6136b526e2519c791ef3ad7cfbf3c371",
-      "ja_text_bytes": 1671,
+      "ja_text_sha256": "b04b80188df914e2490edebffdc00afdc89014532b340773b11a418f04d21781",
+      "ja_text_bytes": 2244,
       "paragraph_count": 4
     },
     {
       "article_id": "kigyou-kaiji-furei-art-15-3",
       "article_number": "15-3",
       "filename": "kigyou-kaiji-furei-article-15-3.md",
-      "ja_text_sha256": "7799329f2688e2b4ad251ae7572a99825d4ce36344bd68564c2abdafcf68ea82",
-      "ja_text_bytes": 2468,
+      "ja_text_sha256": "3a3922123e0110c5defaca2562a7b91eb33b5df12b137cda2c165f6505c923f3",
+      "ja_text_bytes": 5152,
       "paragraph_count": 5
     },
     {
       "article_id": "kigyou-kaiji-furei-art-15-4",
       "article_number": "15-4",
       "filename": "kigyou-kaiji-furei-article-15-4.md",
-      "ja_text_sha256": "2ff54505833219653105619eac0df071015e76b661c3d7701d0e33a3facb66db",
-      "ja_text_bytes": 183,
+      "ja_text_sha256": "80fbafdc12c2ff0f5305bf5d835e8d2022e4a72ffee2f75a601a0223aeeffa66",
+      "ja_text_bytes": 1704,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-15",
       "article_number": "15",
       "filename": "kigyou-kaiji-furei-article-15.md",
-      "ja_text_sha256": "b1403cce27ae171593eefeab13f082175990f9ac3a41e3c30f822adb855fd858",
-      "ja_text_bytes": 385,
+      "ja_text_sha256": "4a7a4451380536840878bc4cc6998aac4240b3b2d394fd9623d712c324ab5412",
+      "ja_text_bytes": 1452,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-16-2",
       "article_number": "16-2",
       "filename": "kigyou-kaiji-furei-article-16-2.md",
-      "ja_text_sha256": "3088ea78361df5124e0bf52997bc11caa24aebac160a50248e6e094d9643d7f6",
-      "ja_text_bytes": 330,
+      "ja_text_sha256": "f0692e0e03cb8fe89ab0044ec2913c7d5411032d07ef65a04ed792ebc7dadf4c",
+      "ja_text_bytes": 1164,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-16-3",
       "article_number": "16-3",
       "filename": "kigyou-kaiji-furei-article-16-3.md",
-      "ja_text_sha256": "e705d959ec1f6833e9a0fcb6d8f6348c11d7ac4ea1a8d141acde678006d1f646",
-      "ja_text_bytes": 810,
+      "ja_text_sha256": "6740fb78679bba59ee58b587fb63565cf0f2be4aab9027efd11115f870ad69f6",
+      "ja_text_bytes": 4269,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-16",
       "article_number": "16",
       "filename": "kigyou-kaiji-furei-article-16.md",
-      "ja_text_sha256": "8a68b6dcd7c86c664d6ea3a3a4faff25315f916193c4d3218fb985923195e790",
-      "ja_text_bytes": 1228,
+      "ja_text_sha256": "fad6affe038011bc009d6b03a3a8e4e8bd62e16b07ff464c49fe765021a99d67",
+      "ja_text_bytes": 3586,
       "paragraph_count": 6
     },
     {
       "article_id": "kigyou-kaiji-furei-art-17-10",
       "article_number": "17-10",
       "filename": "kigyou-kaiji-furei-article-17-10.md",
-      "ja_text_sha256": "e0fb09c51a0b274d1fa1fa434948d920da81e7c0dfa435a80d580059944a5bb5",
-      "ja_text_bytes": 1021,
+      "ja_text_sha256": "3c8685f89f722484ee65d54e8bf74bbb2ef1173068ff12a09665c8e2541cec67",
+      "ja_text_bytes": 1506,
       "paragraph_count": 3
     },
     {
@@ -330,8 +330,8 @@
       "article_id": "kigyou-kaiji-furei-art-17-12",
       "article_number": "17-12",
       "filename": "kigyou-kaiji-furei-article-17-12.md",
-      "ja_text_sha256": "f2d4ec9174fd58b57048321fd8fa3aa785154b2fe47914aff44b87106d72f1c9",
-      "ja_text_bytes": 1257,
+      "ja_text_sha256": "d730b7a15030ff716da8cfd9bbd4144c9894eae5a334fb328b38c0f56ea7746f",
+      "ja_text_bytes": 1661,
       "paragraph_count": 4
     },
     {
@@ -346,8 +346,8 @@
       "article_id": "kigyou-kaiji-furei-art-17-14",
       "article_number": "17-14",
       "filename": "kigyou-kaiji-furei-article-17-14.md",
-      "ja_text_sha256": "8da404ced8e9090246fa911b1b7de737ef23e01ee45e2812a5de55951645e3e4",
-      "ja_text_bytes": 536,
+      "ja_text_sha256": "36e8dc6b162207cc03384f325a09352a3ce6718211e74f784d62929dae1ee4ac",
+      "ja_text_bytes": 650,
       "paragraph_count": 2
     },
     {
@@ -362,16 +362,16 @@
       "article_id": "kigyou-kaiji-furei-art-17-3",
       "article_number": "17-3",
       "filename": "kigyou-kaiji-furei-article-17-3.md",
-      "ja_text_sha256": "a3bc1cb92b99ad499e8b565f277e3d2c82fefc04606f781cb133401ee7cf42a8",
-      "ja_text_bytes": 1868,
+      "ja_text_sha256": "418d90a68118d1245ac9d1f75b29a30effd74971ae2d4cae3bb51a0f7b09695e",
+      "ja_text_bytes": 2835,
       "paragraph_count": 5
     },
     {
       "article_id": "kigyou-kaiji-furei-art-17-4",
       "article_number": "17-4",
       "filename": "kigyou-kaiji-furei-article-17-4.md",
-      "ja_text_sha256": "4510188e206af9abcabd76c570accbd5ff8d3df02845062d9be7b4fdc5cf6001",
-      "ja_text_bytes": 2826,
+      "ja_text_sha256": "e987095246447f0a02d72f7b902b50772e21d748a48b2098ad4ffd8b3fb5d264",
+      "ja_text_bytes": 4890,
       "paragraph_count": 7
     },
     {
@@ -386,16 +386,16 @@
       "article_id": "kigyou-kaiji-furei-art-17-6",
       "article_number": "17-6",
       "filename": "kigyou-kaiji-furei-article-17-6.md",
-      "ja_text_sha256": "092180f77a8c875142b14848d4a25acbf2c504c4f83181e3747d2d869b9756ff",
-      "ja_text_bytes": 383,
+      "ja_text_sha256": "ce818ea0f9877167cb162163ce1fbc528033a2f8f8f67f5e4a9f2b5a1ded60d7",
+      "ja_text_bytes": 755,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-17-7",
       "article_number": "17-7",
       "filename": "kigyou-kaiji-furei-article-17-7.md",
-      "ja_text_sha256": "c791a7c119579538cec9ca77f97f80b3cd34c4e9724cf622967e4dbab9f1e4ed",
-      "ja_text_bytes": 204,
+      "ja_text_sha256": "5ad85d2ca716e175b308c089c90d4031707b43879d5f304be6e267fb1f6c30a7",
+      "ja_text_bytes": 264,
       "paragraph_count": 1
     },
     {
@@ -410,16 +410,16 @@
       "article_id": "kigyou-kaiji-furei-art-17-9",
       "article_number": "17-9",
       "filename": "kigyou-kaiji-furei-article-17-9.md",
-      "ja_text_sha256": "501597d75e4b65ca624aab46fcb30b80a9e8d277bb4c8b3c5ef4e58c2d406a2d",
-      "ja_text_bytes": 410,
+      "ja_text_sha256": "44a99405f38f2c660cd3abcdfebe7c52ae46c768ba0685b5b6ad3be2f6a86746",
+      "ja_text_bytes": 560,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-17",
       "article_number": "17",
       "filename": "kigyou-kaiji-furei-article-17.md",
-      "ja_text_sha256": "ed55a68308230eea6babd90349e104e1bcab08197f5708522b0e9258d1a6ca37",
-      "ja_text_bytes": 1495,
+      "ja_text_sha256": "00611df0f3c53ca3726a9b3d950b7435b59769d64cd2e321c9acdc19412e3562",
+      "ja_text_bytes": 4486,
       "paragraph_count": 2
     },
     {
@@ -434,16 +434,16 @@
       "article_id": "kigyou-kaiji-furei-art-18-2",
       "article_number": "18-2",
       "filename": "kigyou-kaiji-furei-article-18-2.md",
-      "ja_text_sha256": "7c3d99457e833b0492a2a928afd26d2445b8d2ee3e9641191931f3e0b8e88c91",
-      "ja_text_bytes": 2538,
+      "ja_text_sha256": "bd7fc7934066ecbd77164e89026dd05448249bfeb65c398613dbf5cda696468e",
+      "ja_text_bytes": 4758,
       "paragraph_count": 7
     },
     {
       "article_id": "kigyou-kaiji-furei-art-18-3",
       "article_number": "18-3",
       "filename": "kigyou-kaiji-furei-article-18-3.md",
-      "ja_text_sha256": "35c2d8d58d6a82e3225a3037426bf8fd28ab6c192682c9df0a37796e4bd98464",
-      "ja_text_bytes": 1928,
+      "ja_text_sha256": "72112d19d3083a74349826ec563eaf9fdb41c7c1fb465b0531badfd8d835ba18",
+      "ja_text_bytes": 2824,
       "paragraph_count": 5
     },
     {
@@ -458,16 +458,16 @@
       "article_id": "kigyou-kaiji-furei-art-18-5",
       "article_number": "18-5",
       "filename": "kigyou-kaiji-furei-article-18-5.md",
-      "ja_text_sha256": "9996501d1b5075c77df3f6ccf41ee73dc603b7e9838088ada9f5ac7cce9cb410",
-      "ja_text_bytes": 431,
+      "ja_text_sha256": "14fa103b204dc6df5ffa6e0cd0babc12131ea9b7cdf206ac3a9dce8c0312f6f5",
+      "ja_text_bytes": 587,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-18",
       "article_number": "18",
       "filename": "kigyou-kaiji-furei-article-18.md",
-      "ja_text_sha256": "31fffeadfd827650226ff736f8cbd33b41c759a4d2f44beeb9c5a1e63ee6e2e4",
-      "ja_text_bytes": 1144,
+      "ja_text_sha256": "5e2d69fa873a3efedf74fd7b8ba2aa41cb640edda020292e3a45080047fbdc31",
+      "ja_text_bytes": 4704,
       "paragraph_count": 3
     },
     {
@@ -482,8 +482,8 @@
       "article_id": "kigyou-kaiji-furei-art-19-2",
       "article_number": "19-2",
       "filename": "kigyou-kaiji-furei-article-19-2.md",
-      "ja_text_sha256": "224fe4a28601bc6186858cab407e9b9a243b4df802d35507f9f0349495a3c4e8",
-      "ja_text_bytes": 705,
+      "ja_text_sha256": "2d0abe2b294919101d8fa06ac939e7f4c52a3295de9ad0e56244b10efe0a0cab",
+      "ja_text_bytes": 953,
       "paragraph_count": 1
     },
     {
@@ -506,16 +506,16 @@
       "article_id": "kigyou-kaiji-furei-art-19-5",
       "article_number": "19-5",
       "filename": "kigyou-kaiji-furei-article-19-5.md",
-      "ja_text_sha256": "5a6cf07cbbfa8de3ef868cce60c2fdc97cc6f1af5bf0c7bbecc939b04535b10d",
-      "ja_text_bytes": 1537,
+      "ja_text_sha256": "cfd3a1fdcc656fcde3c60560c1c8572464d179d72a82fa0a07732e5182221fe4",
+      "ja_text_bytes": 2271,
       "paragraph_count": 3
     },
     {
       "article_id": "kigyou-kaiji-furei-art-19-6",
       "article_number": "19-6",
       "filename": "kigyou-kaiji-furei-article-19-6.md",
-      "ja_text_sha256": "074df95a7ac55ea33c7de2a45aba996b9186614e9ba6e30adec3e0f30755d72d",
-      "ja_text_bytes": 2703,
+      "ja_text_sha256": "10a2c772bbed39fcdff742e323dc251db70e8b3d07f2f2a2853388ef1628c070",
+      "ja_text_bytes": 4560,
       "paragraph_count": 7
     },
     {
@@ -530,24 +530,24 @@
       "article_id": "kigyou-kaiji-furei-art-19-8",
       "article_number": "19-8",
       "filename": "kigyou-kaiji-furei-article-19-8.md",
-      "ja_text_sha256": "8c469f91dfe61bbddf06d5bb3f8fc9068596d284019d0b8bdcd627de86f1ff1d",
-      "ja_text_bytes": 1216,
+      "ja_text_sha256": "00c22653d1198232c1aff61b1167daf43ba56613ada6c2ed2e0e4055ac5e3ee6",
+      "ja_text_bytes": 2248,
       "paragraph_count": 4
     },
     {
       "article_id": "kigyou-kaiji-furei-art-19-9",
       "article_number": "19-9",
       "filename": "kigyou-kaiji-furei-article-19-9.md",
-      "ja_text_sha256": "9350e2504155ddb4e1f0484f8f8c3747278b3766daf9bb264f4d4686b26f4f88",
-      "ja_text_bytes": 2674,
+      "ja_text_sha256": "4feb81f21716c52d4efa203db650a428ede1dcaef4e9e1a8d8764fcb9ec76c96",
+      "ja_text_bytes": 5568,
       "paragraph_count": 6
     },
     {
       "article_id": "kigyou-kaiji-furei-art-19",
       "article_number": "19",
       "filename": "kigyou-kaiji-furei-article-19.md",
-      "ja_text_sha256": "9dbfa06e027a0c4a13ffdeee8269b9766670bb6b7daa52cb69edf90b1a2dd8ca",
-      "ja_text_bytes": 5255,
+      "ja_text_sha256": "aee440268f66083d5259ef31549813b66e208de3c87a6377051b028ac98b778c",
+      "ja_text_bytes": 99562,
       "paragraph_count": 11
     },
     {
@@ -578,8 +578,8 @@
       "article_id": "kigyou-kaiji-furei-art-2-4",
       "article_number": "2-4",
       "filename": "kigyou-kaiji-furei-article-2-4.md",
-      "ja_text_sha256": "23e78b99a29480ae9a7b965fdfa04eaeb9e771b8e500a36edfe19ca69b89fca5",
-      "ja_text_bytes": 135,
+      "ja_text_sha256": "2c524efc31afc13f314a801087089f0336b94f3c1f0f3fbec5ef64c365b36acf",
+      "ja_text_bytes": 810,
       "paragraph_count": 1
     },
     {
@@ -594,16 +594,16 @@
       "article_id": "kigyou-kaiji-furei-art-2-6",
       "article_number": "2-6",
       "filename": "kigyou-kaiji-furei-article-2-6.md",
-      "ja_text_sha256": "45875618f0ac9994f9387d178bfa55beb25603c8bf63cc934ae51cdbcc3a8939",
-      "ja_text_bytes": 652,
+      "ja_text_sha256": "361bf804ad451d7d7da9e349f36daed1fc7cfc90a5bb3aead48c9f5a7bf4a1a2",
+      "ja_text_bytes": 1815,
       "paragraph_count": 3
     },
     {
       "article_id": "kigyou-kaiji-furei-art-2-7",
       "article_number": "2-7",
       "filename": "kigyou-kaiji-furei-article-2-7.md",
-      "ja_text_sha256": "0594ad6cf935689a218574668c77c85060a3a514e78d6b032de1642dab8bab7b",
-      "ja_text_bytes": 1830,
+      "ja_text_sha256": "e54c96ff84be03c5311d87a140137e614702ae7def3ec212037ae11dc088cd3f",
+      "ja_text_bytes": 3228,
       "paragraph_count": 4
     },
     {
@@ -626,112 +626,112 @@
       "article_id": "kigyou-kaiji-furei-art-2",
       "article_number": "2",
       "filename": "kigyou-kaiji-furei-article-2.md",
-      "ja_text_sha256": "a59c4043e7d0a7a7e398e62aea47039408dd3388f69b86202ad7f90571fe991e",
-      "ja_text_bytes": 1067,
+      "ja_text_sha256": "6c882ac3ffe91a0612fd1d6b3a29c34f6f13e010c7b6bef1ddf0c0147143853f",
+      "ja_text_bytes": 7628,
       "paragraph_count": 5
     },
     {
       "article_id": "kigyou-kaiji-furei-art-20",
       "article_number": "20",
       "filename": "kigyou-kaiji-furei-article-20.md",
-      "ja_text_sha256": "0064e6f466e46913672ba1d778ebc99b0dc83c695a1d53f31d2b766694aed679",
-      "ja_text_bytes": 3453,
+      "ja_text_sha256": "b3f9e41c841bca74d253c0da8893fcb99900ed818f76147e514b8fdd30e66430",
+      "ja_text_bytes": 3552,
       "paragraph_count": 4
     },
     {
       "article_id": "kigyou-kaiji-furei-art-21",
       "article_number": "21",
       "filename": "kigyou-kaiji-furei-article-21.md",
-      "ja_text_sha256": "d0de4033f43501f2e5a79eaa548ae31c01100609bd53f053d2e9a84e0f62090d",
-      "ja_text_bytes": 1406,
+      "ja_text_sha256": "f059842c1b794d0168208c907d76904f26499ef8370fb9c7fe5ba080ded2f27a",
+      "ja_text_bytes": 2032,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-22",
       "article_number": "22",
       "filename": "kigyou-kaiji-furei-article-22.md",
-      "ja_text_sha256": "bd83a5d0f2cc99fa18946bd9359c90026fe445b8b2875edf5700eb89d8cb81a5",
-      "ja_text_bytes": 2615,
+      "ja_text_sha256": "cc4955fca0e96c2d5680a4e7fa82d4da6c7c10900f42c9c7990836da78aaccd7",
+      "ja_text_bytes": 2528,
       "paragraph_count": 4
     },
     {
       "article_id": "kigyou-kaiji-furei-art-23-2",
       "article_number": "23-2",
       "filename": "kigyou-kaiji-furei-article-23-2.md",
-      "ja_text_sha256": "78d5ee5546c7e022fb4e68880095ff38bad9a87e1c5075482c3228c341e2089f",
-      "ja_text_bytes": 2053,
+      "ja_text_sha256": "5439ae33c296e57b4c6b71e9abf87d5cf41e5e675d215d45e7632ae574f6eb08",
+      "ja_text_bytes": 8654,
       "paragraph_count": 6
     },
     {
       "article_id": "kigyou-kaiji-furei-art-23-3",
       "article_number": "23-3",
       "filename": "kigyou-kaiji-furei-article-23-3.md",
-      "ja_text_sha256": "ee82a3c7c7cf7cd4f75d5d95b99aab24e4f7604a0e2eba62fadef7e0ef53128b",
-      "ja_text_bytes": 2047,
+      "ja_text_sha256": "f72148904f1a4f41d7884efb348c1c22fb7d0f9b91f8506d751fadd4eac5b590",
+      "ja_text_bytes": 3999,
       "paragraph_count": 6
     },
     {
       "article_id": "kigyou-kaiji-furei-art-23",
       "article_number": "23",
       "filename": "kigyou-kaiji-furei-article-23.md",
-      "ja_text_sha256": "380743e05ea9ebfe6e090154f87463df47a7596bb9126afc853abd924b192ce2",
-      "ja_text_bytes": 1034,
+      "ja_text_sha256": "37d7ca2abebd19cfe971420e03f2185aa2dff3673ecf6f4c351acbb0c94e8db2",
+      "ja_text_bytes": 872,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-24",
       "article_number": "24",
       "filename": "kigyou-kaiji-furei-article-24.md",
-      "ja_text_sha256": "7f47ddeb12ea5f3c85d673329a90b70ad792251399faf8818b13832dc21aa35f",
-      "ja_text_bytes": 2286,
+      "ja_text_sha256": "88d9d9986f5110f208d2f868f9c16b2f9ba500c047f9ee9fcb31fa39a19efbcb",
+      "ja_text_bytes": 3672,
       "paragraph_count": 6
     },
     {
       "article_id": "kigyou-kaiji-furei-art-25",
       "article_number": "25",
       "filename": "kigyou-kaiji-furei-article-25.md",
-      "ja_text_sha256": "75dd5ed2489053f53b98ab9259ee60497da7164e695f1c12e7c3e08c8dddc2a0",
-      "ja_text_bytes": 604,
+      "ja_text_sha256": "221c7e9c5efff632dcee2cae125a98b4d2a469a8bb637ff7da37530b38090529",
+      "ja_text_bytes": 488,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-3",
       "article_number": "3",
       "filename": "kigyou-kaiji-furei-article-3.md",
-      "ja_text_sha256": "e5602289973ca5ee382d82160e6151e7b1bb720d869f7abfc04cc3a523211370",
-      "ja_text_bytes": 237,
+      "ja_text_sha256": "4446b3628040d204818e7c2d910c03d81b8f5ba2d9f4e3774330192a23a2c139",
+      "ja_text_bytes": 1365,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-4",
       "article_number": "4",
       "filename": "kigyou-kaiji-furei-article-4.md",
-      "ja_text_sha256": "2df40d15b34f55b890787439165456ed7867566187044ed3956aa14be06e7643",
-      "ja_text_bytes": 1370,
+      "ja_text_sha256": "fc4282e1e0d5d9523bd5d21afd6dfeaf3a28c291c7949eca5ba4e24eeba118b2",
+      "ja_text_bytes": 6806,
       "paragraph_count": 5
     },
     {
       "article_id": "kigyou-kaiji-furei-art-5",
       "article_number": "5",
       "filename": "kigyou-kaiji-furei-article-5.md",
-      "ja_text_sha256": "80a01311bc680e3e2710188ce9d3ffc8ba07b2dc20d7674cc8813943abda725e",
-      "ja_text_bytes": 453,
+      "ja_text_sha256": "3c75c0b24a12f94dec6a91899e897b2874671ef45bf7c99a6637b50650cd932b",
+      "ja_text_bytes": 396,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-6",
       "article_number": "6",
       "filename": "kigyou-kaiji-furei-article-6.md",
-      "ja_text_sha256": "078a41f5a8e9130e525c60a3491d2b80cfd49ecaac82f53c1903196d0b3491d1",
-      "ja_text_bytes": 180,
+      "ja_text_sha256": "74d8b37fcffc63459378869452e5f0c8562380f12784ea64ef7bd54db93a7639",
+      "ja_text_bytes": 2397,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-7",
       "article_number": "7",
       "filename": "kigyou-kaiji-furei-article-7.md",
-      "ja_text_sha256": "f4b390f5c50d92f18fb62dd3f5178434dab165a4c88a1f76b6aa416313d32fac",
-      "ja_text_bytes": 1480,
+      "ja_text_sha256": "ad82f596ca45ee4d30f58d26fdbb333131b9dba4b97bc8186e48ab9ad86fe476",
+      "ja_text_bytes": 2179,
       "paragraph_count": 3
     },
     {
@@ -746,32 +746,32 @@
       "article_id": "kigyou-kaiji-furei-art-8",
       "article_number": "8",
       "filename": "kigyou-kaiji-furei-article-8.md",
-      "ja_text_sha256": "eaab7483de907360dd19a2a6879adab9c87009b26814ab9e25586419c7a32d29",
-      "ja_text_bytes": 1227,
+      "ja_text_sha256": "1961fa20ab2c1db24798e885a5195e1a3f76efef1ae17fc6a44df18271691411",
+      "ja_text_bytes": 2505,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-9-2",
       "article_number": "9-2",
       "filename": "kigyou-kaiji-furei-article-9-2.md",
-      "ja_text_sha256": "1ed131c38d013399be7587cf45feaa742d99d0a19db3986e30152b57042ea21e",
-      "ja_text_bytes": 285,
+      "ja_text_sha256": "6279b17b77df631b7965611c2e947f52bcae5bf5a8a22082b4d11f316a2f0228",
+      "ja_text_bytes": 2973,
       "paragraph_count": 1
     },
     {
       "article_id": "kigyou-kaiji-furei-art-9-3",
       "article_number": "9-3",
       "filename": "kigyou-kaiji-furei-article-9-3.md",
-      "ja_text_sha256": "8d28778bfeeb64a6d42b741784b4ffad1065c22c7df0f2003de05df3560d593c",
-      "ja_text_bytes": 2535,
+      "ja_text_sha256": "eeffcf818d4b5a5be759a2803a76e73ed9b9a3b06914eb74ab7db42ec5c6bec7",
+      "ja_text_bytes": 3513,
       "paragraph_count": 4
     },
     {
       "article_id": "kigyou-kaiji-furei-art-9-4",
       "article_number": "9-4",
       "filename": "kigyou-kaiji-furei-article-9-4.md",
-      "ja_text_sha256": "221e1d490a0d6af887ce8314bf72dde90c82e01df7a0ee610fe0be10da5a5c6d",
-      "ja_text_bytes": 1493,
+      "ja_text_sha256": "89e5af521f1604e01abf34fd7cd2713538efba7a74e89cbdc08656df86f0cad1",
+      "ja_text_bytes": 6659,
       "paragraph_count": 5
     },
     {
@@ -786,24 +786,24 @@
       "article_id": "kigyou-kaiji-furei-art-9-6",
       "article_number": "9-6",
       "filename": "kigyou-kaiji-furei-article-9-6.md",
-      "ja_text_sha256": "7d47c97c85c88a4d49da3848d1a5d215ddf48f8e8bae2f355db0811de5630dfa",
-      "ja_text_bytes": 671,
+      "ja_text_sha256": "26fedbcbb397dd331ef49d5fdff8112dd624840f0525677c942dbb972c495a43",
+      "ja_text_bytes": 1031,
       "paragraph_count": 2
     },
     {
       "article_id": "kigyou-kaiji-furei-art-9-7",
       "article_number": "9-7",
       "filename": "kigyou-kaiji-furei-article-9-7.md",
-      "ja_text_sha256": "ad4965c09c18074aeccc1fc5a39336cac93e152d8109e3cd0fa8dd82bea5621d",
-      "ja_text_bytes": 1947,
+      "ja_text_sha256": "d05b6378bfbde9c0d7ee80563a135db2f9dd97329a4de670dfe55707e4f760dd",
+      "ja_text_bytes": 3288,
       "paragraph_count": 4
     },
     {
       "article_id": "kigyou-kaiji-furei-art-9",
       "article_number": "9",
       "filename": "kigyou-kaiji-furei-article-9.md",
-      "ja_text_sha256": "bb00c69bbb8cdae14bf8c88ea5f7a8af439508b11b6fa066e7e56ded9c97a317",
-      "ja_text_bytes": 621,
+      "ja_text_sha256": "dd5b8328bd915b611e92092407d10c72d1a0f002ca600a7ff5cf7bb5b9628672",
+      "ja_text_bytes": 6915,
       "paragraph_count": 1
     }
   ]

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 定期金の債権は、次に掲げる場合には、時効によって消滅する。
     modality: unspecified
+  - id: minpou-art-168-p1-kou-1
+    type: kou
+    text: 債権者が定期金の債権から生ずる金銭その他の物の給付を目的とする各債権を行使することができることを知った時から十年間行使しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-168-p1-kou-2
+    type: kou
+    text: 前号に規定する各債権を行使することができる時から二十年間行使しないとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第百六十八条第一項
 
-<!-- segment: hashira id: minpou-art-168-p1-hashira -->
 定期金の債権は、次に掲げる場合には、時効によって消滅する。
+
+一　債権者が定期金の債権から生ずる金銭その他の物の給付を目的とする各債権を行使することができることを知った時から十年間行使しないとき。
+
+二　前号に規定する各債権を行使することができる時から二十年間行使しないとき。
 
 ### 第百六十八条第二項
 
-<!-- segment: simple id: minpou-art-168-p2 -->
 定期金の債権者は、時効の更新の証拠を得るため、いつでも、その債務者に対して承認書の交付を求めることができる。

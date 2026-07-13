@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-72-3-p1
+    type: simple
+    text: 都道府県知事は、薬局開設者が第八条の二第一項若しくは第二項の規定による報告をせず、又は虚偽の報告をしたときは、期間を定めて、当該薬局開設者に対し、その報告を行い、又はその報告の内容を是正すべきことを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

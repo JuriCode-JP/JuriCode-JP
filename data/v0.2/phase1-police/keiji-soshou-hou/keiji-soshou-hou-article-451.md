@@ -23,7 +23,7 @@ paragraphs:
     modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-451-p2
@@ -32,8 +32,18 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: keiji-soshou-hou-art-451-p2-kou-1
+    type: kou
+    text: 死亡者又は回復の見込がない心神喪失者のために再審の請求がされたとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-451-p2-kou-2
+    type: kou
+    text: 有罪の言渡を受けた者が、再審の判決がある前に、死亡し、又は心神喪失の状態に陥りその回復の見込がないとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -68,20 +78,20 @@ parent_section:
 
 ### 第四百五十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-451-p1 -->
 裁判所は、再審開始の決定が確定した事件については、第四百四十九条の場合を除いては、その審級に従い、更に審判をしなければならない。
 
 ### 第四百五十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-451-p2 -->
 左の場合には、第三百十四条第一項本文及び第三百三十九条第一項第四号の規定は、前項の審判にこれを適用しない。
+
+一　死亡者又は回復の見込がない心神喪失者のために再審の請求がされたとき。
+
+二　有罪の言渡を受けた者が、再審の判決がある前に、死亡し、又は心神喪失の状態に陥りその回復の見込がないとき。
 
 ### 第四百五十一条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-451-p3 -->
 前項の場合には、被告人の出頭がなくても、審判をすることができる。但し、弁護人が出頭しなければ開廷することはできない。
 
 ### 第四百五十一条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-451-p4 -->
 第二項の場合において、再審の請求をした者が弁護人を選任しないときは、裁判長は、職権で弁護人を附しなければならない。

@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-70-p1
+    type: simple
+    text: 基金は、事業年度（基金の成立の日を含む事業年度を除く。）の開始の日から三月以内に、前事業年度の貸借対照表及び損益計算書、財産目録並びに事業報告書及び予算の区分に従う決算報告書（以下この条において「財務諸表等」という。）を内閣総理大臣及び財務大臣に提出し、その承認を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-70-p2
+    type: simple
+    text: 基金は、前項の規定により財務諸表等を内閣総理大臣及び財務大臣に提出するときは、これに財務諸表等に関する監事の意見書を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-70-p3
+    type: simple
+    text: 基金は、第一項の規定による内閣総理大臣及び財務大臣の承認を受けた財務諸表等を当該基金の事務所に備え置き、公衆の縦覧に供しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

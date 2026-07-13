@@ -14,14 +14,44 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-10-p1-hashira
+    type: hashira
+    text: 再生医療等製品の販売業者は、再生医療等製品を購入し、又は譲り受けたとき及び販売し、又は授与したときは、次に掲げる事項を書面に記載しなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-196-10-p1-kou-1
+    type: kou
+    text: 品名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-196-10-p1-kou-2
+    type: kou
+    text: 数量
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-196-10-p1-kou-3
+    type: kou
+    text: 購入若しくは譲受け又は販売若しくは授与の年月日
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-196-10-p1-kou-4
+    type: kou
+    text: 購入者等の氏名
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-10-p2
+    type: simple
+    text: 再生医療等製品の販売業者は、前項の書面を、記載の日から三年間、保存しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -39,6 +69,14 @@ parent_section:
 ### 第百九十六条の十第一項
 
 再生医療等製品の販売業者は、再生医療等製品を購入し、又は譲り受けたとき及び販売し、又は授与したときは、次に掲げる事項を書面に記載しなければならない。
+
+一　品名
+
+二　数量
+
+三　購入若しくは譲受け又は販売若しくは授与の年月日
+
+四　購入者等の氏名
 
 ### 第百九十六条の十第二項
 

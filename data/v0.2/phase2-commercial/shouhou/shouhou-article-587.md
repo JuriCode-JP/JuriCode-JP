@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百八十七条
 
-<!-- segment: junyou id: shouhou-art-587-p1 applies_provisions: 第五百八十五条 -->
 第五百七十六条、第五百七十七条、第五百八十四条及び第五百八十五条の規定は、運送品の滅失等についての運送人の荷送人又は荷受人に対する不法行為による損害賠償の責任について準用する。ただし、荷受人があらかじめ荷送人の委託による運送を拒んでいたにもかかわらず荷送人から運送を引き受けた運送人の荷受人に対する責任については、この限りでない。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百二十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-425-p1 -->
 即時抗告の提起期間内及びその申立があつたときは、裁判の執行は、停止される。

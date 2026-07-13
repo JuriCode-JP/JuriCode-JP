@@ -14,19 +14,45 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-7-p1-hashira
+    type: hashira
+    text: 法第二十四条の七第六項（法第二十七条において準用する場合を含む。）において読み替えて準用する法第二十四条の七第一項に規定する政令で定める会社以外の者は、次に掲げる者とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-4-7-p1-kou-1
+    type: kou
+    text: 提出子会社の総株主等の議決権の過半数を自己又は他人の名義をもつて所有する協同組織金融機関（法第二条第一項第七号に掲げる有価証券（同項第十七号に掲げる有価証券でこれらの有価証券の性質を有するものを含む。）の発行者をいう。）その他内閣府令で定める者（以下この条において「協同組織金融機関等」という。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-4-7-p1-kou-2
+    type: kou
+    text: 協同組織金融機関等とその被支配法人等が合わせて提出子会社の総株主等の議決権の過半数を自己又は他人の名義をもつて所有する場合の当該協同組織金融機関等
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-7-p2
+    type: simple
+    text: 協同組織金融機関等とその被支配法人等が合わせて他の法人等の総株主等の議決権の過半数を自己又は他人の名義をもつて所有する場合には、当該他の法人等を当該協同組織金融機関等の被支配法人等とみなして前項第二号及びこの項の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-7-p3
+    type: junyou
+    text: 第四条の四第三項の規定は、前二項の場合においてこれらの規定に規定する者が所有する議決権について準用する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:
@@ -44,6 +70,10 @@ parent_section:
 ### 第四条の七第一項
 
 法第二十四条の七第六項（法第二十七条において準用する場合を含む。）において読み替えて準用する法第二十四条の七第一項に規定する政令で定める会社以外の者は、次に掲げる者とする。
+
+一　提出子会社の総株主等の議決権の過半数を自己又は他人の名義をもつて所有する協同組織金融機関（法第二条第一項第七号に掲げる有価証券（同項第十七号に掲げる有価証券でこれらの有価証券の性質を有するものを含む。）の発行者をいう。）その他内閣府令で定める者（以下この条において「協同組織金融機関等」という。）
+
+二　協同組織金融機関等とその被支配法人等が合わせて提出子会社の総株主等の議決権の過半数を自己又は他人の名義をもつて所有する場合の当該協同組織金融機関等
 
 ### 第四条の七第二項
 

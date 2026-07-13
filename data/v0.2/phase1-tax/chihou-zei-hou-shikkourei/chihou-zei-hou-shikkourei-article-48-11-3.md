@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-3-p1
+    type: junyou
+    text: 第八条の十四第一項の規定は、法第三百二十一条の八第三項の法人が法人税法第五十七条第八項に規定する通算承認の効力が生じた日（第四十八条の十一の六において「通算承認の効力が生じた日」という。）の属する事業年度終了の日後に同項に規定する新たな事業（第四十八条の十一の六において「新たな事業」という。）を開始した場合における同項の規定によりないものとされた通算適用前欠損金額（法第三百二十一条の八第三項に規定する通算適用前欠損金額をいう。第四十八条の十一の六において同じ。）について準用する。この場合において、第八条の十四第一項中「第五十三条第四項」とあるのは、「第三百二十一条の八第四項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-3-p2
+    type: junyou
+    text: 第八条の十四第二項の規定は、法第三百二十一条の八第四項に規定する最初通算事業年度について法人税法第七十一条第一項（同法第七十二条第一項の規定が適用される場合に限る。）の規定により法人税に係る申告書を提出する義務がある法人について法第三百二十一条の八第三項の規定を適用する場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

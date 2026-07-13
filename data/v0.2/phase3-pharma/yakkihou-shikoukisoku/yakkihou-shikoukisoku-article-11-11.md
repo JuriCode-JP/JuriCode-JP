@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-11-p1-honbun
+    type: honbun
+    text: 薬局開設者は、調剤の求めがあつた場合には、その薬局で調剤に従事する薬剤師にその薬局で調剤させなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-11-11-p1-tadashi
+    type: tadashi
+    text: ただし、正当な理由がある場合には、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

@@ -14,13 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-337-p1
     type: simple
     text: 左の場合には、判決で免訴の言渡をしなければならない。
     modality: gimu
+  - id: keiji-soshou-hou-art-337-p1-kou-1
+    type: kou
+    text: 確定判決を経たとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-337-p1-kou-2
+    type: kou
+    text: 犯罪後の法令により刑が廃止されたとき。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-337-p1-kou-3
+    type: kou
+    text: 大赦があつたとき。
+    modality: unspecified
+    item_number: 3
+  - id: keiji-soshou-hou-art-337-p1-kou-4
+    type: kou
+    text: 時効が完成したとき。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -41,5 +61,12 @@ parent_section:
 
 ### 第三百三十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-337-p1 -->
 左の場合には、判決で免訴の言渡をしなければならない。
+
+一　確定判決を経たとき。
+
+二　犯罪後の法令により刑が廃止されたとき。
+
+三　大赦があつたとき。
+
+四　時効が完成したとき。

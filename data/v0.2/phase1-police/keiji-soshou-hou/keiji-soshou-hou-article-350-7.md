@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-7-p1
+    type: simple
+    text: 検察官は、被疑者との間でした第三百五十条の二第一項の合意がある場合において、当該合意に係る被疑者の事件について公訴を提起したときは、第二百九十一条の手続が終わつた後（事件が公判前整理手続に付された場合にあつては、その時後）遅滞なく、証拠として第三百五十条の三第二項の書面（以下「合意内容書面」という。）の取調べを請求しなければならない。被告事件について、公訴の提起後に被告人との間で第三百五十条の二第一項の合意をしたときも、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-7-p2
+    type: simple
+    text: 前項の規定により合意内容書面の取調べを請求する場合において、当該合意の当事者が第三百五十条の十第二項の規定により当該合意から離脱する旨の告知をしているときは、検察官は、あわせて、同項の書面の取調べを請求しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-7-p3
+    type: simple
+    text: 第一項の規定により合意内容書面の取調べを請求した後に、当該合意の当事者が第三百五十条の十第二項の規定により当該合意から離脱する旨の告知をしたときは、検察官は、遅滞なく、同項の書面の取調べを請求しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

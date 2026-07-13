@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-26-p1
+    type: simple
+    text: 法第二十三条の二十五第一項又は第十三項の承認の申請をしようとする者は、第二百八十条の四第一項の登録証の写し及び当該原薬等についての原薬等登録業者との契約書その他の当該原薬等を申請に係る品目に使用することを証する書類をもつて、法第二十三条の二十五第三項に規定する資料のうち、第百三十七条の二十三第一項第二号から第四号までに掲げる資料の一部に代えることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

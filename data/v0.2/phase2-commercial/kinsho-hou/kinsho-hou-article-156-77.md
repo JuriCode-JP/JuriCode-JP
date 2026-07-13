@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-77-p1
+    type: simple
+    text: 取引情報蓄積機関は、第百五十六条の六十八第一項第一号から第三号までのいずれかに掲げる事項に変更があつたときは、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-77-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定により取引情報蓄積機関の商号若しくは名称又は主たる営業所若しくは事務所の所在地の変更の届出があつたときは、その旨を官報で公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

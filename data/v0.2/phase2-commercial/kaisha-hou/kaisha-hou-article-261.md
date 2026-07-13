@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: true
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-261-p1-honbun
@@ -27,6 +27,21 @@ paragraphs:
     type: tadashi
     text: ただし、次のいずれかに該当する場合は、この限りでない。
     modality: jogai
+  - id: kaisha-hou-art-261-p1-kou-1
+    type: kou
+    text: 当該新株予約権取得者が当該譲渡制限新株予約権を取得することについて次条の承認を受けていること。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-261-p1-kou-2
+    type: kou
+    text: 当該新株予約権取得者が当該譲渡制限新株予約権を取得したことについて第二百六十三条第一項の承認を受けていること。
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-261-p1-kou-3
+    type: kou
+    text: 当該新株予約権取得者が相続その他の一般承継により譲渡制限新株予約権を取得した者であること。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -49,6 +64,10 @@ parent_section:
 
 ### 第二百六十一条
 
-<!-- segment: honbun id: kaisha-hou-art-261-p1-honbun -->
-前条の規定は、新株予約権取得者が取得した新株予約権が譲渡制限新株予約権である場合には、適用しない。<!-- segment: tadashi id: kaisha-hou-art-261-p1-tadashi -->
-ただし、次のいずれかに該当する場合は、この限りでない。
+前条の規定は、新株予約権取得者が取得した新株予約権が譲渡制限新株予約権である場合には、適用しない。ただし、次のいずれかに該当する場合は、この限りでない。
+
+一　当該新株予約権取得者が当該譲渡制限新株予約権を取得することについて次条の承認を受けていること。
+
+二　当該新株予約権取得者が当該譲渡制限新株予約権を取得したことについて第二百六十三条第一項の承認を受けていること。
+
+三　当該新株予約権取得者が相続その他の一般承継により譲渡制限新株予約権を取得した者であること。

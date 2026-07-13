@@ -23,6 +23,36 @@ paragraphs:
     modality: kanou_negative
     references:
     - 前条
+  - id: kojin-jouhou-hogo-hou-art-113-p1-kou-1
+    type: kou
+    text: 未成年者
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-113-p1-kou-2
+    type: kou
+    text: 心身の故障により前条第一項の提案に係る行政機関等匿名加工情報をその用に供して行う事業を適正に行うことができない者として個人情報保護委員会規則で定めるもの
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-113-p1-kou-3
+    type: kou
+    text: 破産手続開始の決定を受けて復権を得ない者
+    modality: unspecified
+    item_number: 3
+  - id: kojin-jouhou-hogo-hou-art-113-p1-kou-4
+    type: kou
+    text: 拘禁刑以上の刑に処せられ、又はこの法律の規定により刑に処せられ、その執行を終わり、又は執行を受けることがなくなった日から起算して二年を経過しない者
+    modality: unspecified
+    item_number: 4
+  - id: kojin-jouhou-hogo-hou-art-113-p1-kou-5
+    type: kou
+    text: 第百二十条の規定により行政機関等匿名加工情報の利用に関する契約を解除され、その解除の日から起算して二年を経過しない者
+    modality: unspecified
+    item_number: 5
+  - id: kojin-jouhou-hogo-hou-art-113-p1-kou-6
+    type: kou
+    text: 法人その他の団体であって、その役員のうちに前各号のいずれかに該当する者があるもの
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -41,5 +71,16 @@ parent_section:
 
 ### 第百十三条
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-113-p1-hashira -->
 次の各号のいずれかに該当する者は、前条第一項の提案をすることができない。
+
+一　未成年者
+
+二　心身の故障により前条第一項の提案に係る行政機関等匿名加工情報をその用に供して行う事業を適正に行うことができない者として個人情報保護委員会規則で定めるもの
+
+三　破産手続開始の決定を受けて復権を得ない者
+
+四　拘禁刑以上の刑に処せられ、又はこの法律の規定により刑に処せられ、その執行を終わり、又は執行を受けることがなくなった日から起算して二年を経過しない者
+
+五　第百二十条の規定により行政機関等匿名加工情報の利用に関する契約を解除され、その解除の日から起算して二年を経過しない者
+
+六　法人その他の団体であって、その役員のうちに前各号のいずれかに該当する者があるもの

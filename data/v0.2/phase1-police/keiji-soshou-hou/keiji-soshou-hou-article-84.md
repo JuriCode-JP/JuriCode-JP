@@ -22,7 +22,7 @@ paragraphs:
     text: 法廷においては、裁判長は、勾留の理由を告げなければならない。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第八十四条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-84-p1 -->
 法廷においては、裁判長は、勾留の理由を告げなければならない。
 
 ### 第八十四条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-84-p2 -->
 検察官又は被告人及び弁護人並びにこれらの者以外の請求者は、意見を述べることができる。但し、裁判長は、相当と認めるときは、意見の陳述に代え意見を記載した書面を差し出すべきことを命ずることができる。

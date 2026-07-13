@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-1-2-p1
+    type: simple
+    text: 法第百七十二条の三第一項に規定する内閣府令で定める額は、その事業年度（同項に規定する事業年度をいう。次条から第一条の七までにおいて同じ。）に係る法第百九十三条の二第一項に規定する財務計算に関する書類について、当該書類を提出する者が、同項に規定する監査証明（同項第一号又は第二号に規定する監査証明に相当すると認められる証明を含む。）を受ける対価として、公認会計士（公認会計士法（昭和二十三年法律第百三号）第十六条の二第五項に規定する外国公認会計士を含む。）又は監査法人（公認会計士法第一条の三第七項に規定する外国監査法人等を含む。）に支払い、又は支払うべき金銭その他の財産の価額の総額とする。
+    modality: gimu
+    references:
+    - 同項
+    - 次条
 cases: []
 amendments: []
 tags:

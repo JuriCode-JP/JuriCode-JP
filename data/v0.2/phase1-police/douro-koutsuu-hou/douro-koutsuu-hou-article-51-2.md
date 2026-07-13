@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-2-p1
+    type: simple
+    text: 警察署長は、前条の規定の施行のため必要があると認めるときは、同条第六項の規定により保管した車両の使用者等その他の関係者又は同条第二十二項において準用する同条第六項の規定により保管した積載物の所有者、占有者その他当該積載物について権原を有する者その他の関係者に対し、当該車両又は積載物に関し必要な報告又は資料の提出を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-2-p2
+    type: simple
+    text: 警察署長は、前条の規定の施行のため必要があると認めるときは、官庁、公共団体その他の者に照会し、又は協力を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

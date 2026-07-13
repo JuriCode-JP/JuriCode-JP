@@ -14,13 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-338-p1
     type: simple
     text: 左の場合には、判決で公訴を棄却しなければならない。
     modality: gimu
+  - id: keiji-soshou-hou-art-338-p1-kou-1
+    type: kou
+    text: 被告人に対して裁判権を有しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-338-p1-kou-2
+    type: kou
+    text: 第三百四十条の規定に違反して公訴が提起されたとき。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-338-p1-kou-3
+    type: kou
+    text: 公訴の提起があつた事件について、更に同一裁判所に公訴が提起されたとき。
+    modality: unspecified
+    item_number: 3
+  - id: keiji-soshou-hou-art-338-p1-kou-4
+    type: kou
+    text: 公訴提起の手続がその規定に違反したため無効であるとき。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -41,5 +61,12 @@ parent_section:
 
 ### 第三百三十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-338-p1 -->
 左の場合には、判決で公訴を棄却しなければならない。
+
+一　被告人に対して裁判権を有しないとき。
+
+二　第三百四十条の規定に違反して公訴が提起されたとき。
+
+三　公訴の提起があつた事件について、更に同一裁判所に公訴が提起されたとき。
+
+四　公訴提起の手続がその規定に違反したため無効であるとき。

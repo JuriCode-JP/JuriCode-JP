@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-774-2-p1-zen
+    type: zen_dan
+    text: 株式会社は、株式交付をすることができる。
+    modality: kanou_kenri
+  - id: kaisha-hou-art-774-2-p1-kou
+    type: kou_dan
+    text: この場合においては、株式交付計画を作成しなければならない。
+    modality: gimu
+    depends_on: kaisha-hou-art-774-2-p1-zen
 cases: []
 amendments: []
 tags:

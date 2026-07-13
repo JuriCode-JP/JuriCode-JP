@@ -64,15 +64,12 @@ parent_section:
 
 ### 第四百二十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-420-p1 -->
 裁判所の管轄又は訴訟手続に関し判決前にした決定に対しては、この法律に特に即時抗告をすることができる旨の規定がある場合を除いては、抗告をすることはできない。
 
 ### 第四百二十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-420-p2 -->
 前項の規定は、勾留、保釈、押収又は押収物の還付に関する決定及び鑑定のためにする留置に関する決定については、これを適用しない。
 
 ### 第四百二十条第三項
 
-<!-- segment: tokusoku id: keiji-soshou-hou-art-420-p3 override_flag: true override_target: 前項 -->
 勾留に対しては、前項の規定にかかわらず、犯罪の嫌疑がないことを理由として抗告をすることはできない。

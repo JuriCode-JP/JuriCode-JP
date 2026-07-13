@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百三十八条
 
-<!-- segment: simple id: chihou-zei-hou-art-538-p1 -->
 削除

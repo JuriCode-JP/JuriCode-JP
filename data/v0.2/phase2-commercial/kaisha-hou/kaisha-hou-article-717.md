@@ -31,8 +31,8 @@ paragraphs:
     text: 社債権者集会は、次項又は次条第三項の規定により招集する場合を除き、社債発行会社又は社債管理者が招集する。
     modality: unspecified
     references:
-    - 次条
     - 次項
+    - 次条
 - number: 3
   has_proviso: false
   has_items: true
@@ -42,6 +42,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる場合には、社債管理補助者は、社債権者集会を招集することができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-717-p3-kou-1
+    type: kou
+    text: 次条第一項の規定による請求があった場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-717-p3-kou-2
+    type: kou
+    text: 第七百十四条の七において準用する第七百十一条第一項の社債権者集会の同意を得るため必要がある場合
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -60,15 +70,16 @@ parent_section:
 
 ### 第七百十七条第一項
 
-<!-- segment: simple id: kaisha-hou-art-717-p1 -->
 社債権者集会は、必要がある場合には、いつでも、招集することができる。
 
 ### 第七百十七条第二項
 
-<!-- segment: simple id: kaisha-hou-art-717-p2 -->
 社債権者集会は、次項又は次条第三項の規定により招集する場合を除き、社債発行会社又は社債管理者が招集する。
 
 ### 第七百十七条第三項
 
-<!-- segment: hashira id: kaisha-hou-art-717-p3-hashira -->
 次に掲げる場合には、社債管理補助者は、社債権者集会を招集することができる。
+
+一　次条第一項の規定による請求があった場合
+
+二　第七百十四条の七において準用する第七百十一条第一項の社債権者集会の同意を得るため必要がある場合

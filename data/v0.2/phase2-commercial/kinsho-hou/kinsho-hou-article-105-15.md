@@ -16,32 +16,58 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-15-p1
+    type: simple
+    text: 自主規制委員会の決議は、議決に加わることができる自主規制委員の過半数が出席し、その過半数で、かつ、出席した社外取締役である自主規制委員の過半数をもつて行う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-15-p2
+    type: simple
+    text: 前項の決議について特別の利害関係を有する自主規制委員は、議決に加わることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-15-p3
+    type: simple
+    text: 自主規制委員会の議事については、内閣府令で定めるところにより、議事録を作成し、議事録が書面をもつて作成されているときは、出席した自主規制委員は、これに署名し、又は記名押印しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-15-p4
+    type: simple
+    text: 自主規制委員会が選定する自主規制委員は、第一項の規定による決議後、遅滞なく、当該決議の内容を取締役会に報告しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-15-p5
+    type: simple
+    text: 第三項の議事録が電磁的記録をもつて作成されている場合における当該電磁的記録に記録された事項については、内閣府令で定める署名又は記名押印に代わる措置をとらなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-15-p6
+    type: simple
+    text: 前各項に定めるもののほか、議事の手続その他自主規制委員会の運営に関し必要な事項は、自主規制委員会が定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

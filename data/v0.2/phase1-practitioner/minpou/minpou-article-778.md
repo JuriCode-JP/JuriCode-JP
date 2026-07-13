@@ -26,6 +26,26 @@ paragraphs:
     - 前条
     references:
     - 前条
+  - id: minpou-art-778-p1-kou-1
+    type: kou
+    text: 第七百七十二条第四項の規定により読み替えられた同条第三項の規定により新たに子の父と定められた者の否認権　新たに子の父と定められた者が当該子に係る嫡出否認の裁判が確定したことを知った時
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-778-p1-kou-2
+    type: kou
+    text: 子の否認権　子が前号の裁判が確定したことを知った時
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-778-p1-kou-3
+    type: kou
+    text: 母の否認権　母が第一号の裁判が確定したことを知った時
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-778-p1-kou-4
+    type: kou
+    text: 前夫の否認権　前夫が第一号の裁判が確定したことを知った時
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -46,5 +66,12 @@ parent_section:
 
 ### 第七百七十八条
 
-<!-- segment: tokusoku id: minpou-art-778-p1 override_flag: true override_target: 前条 -->
 第七百七十二条第三項の規定により父が定められた子について第七百七十四条の規定により嫡出であることが否認されたときは、次の各号に掲げる否認権の行使に係る嫡出否認の訴えは、前条の規定にかかわらず、それぞれ当該各号に定める時から一年以内に提起しなければならない。
+
+一　第七百七十二条第四項の規定により読み替えられた同条第三項の規定により新たに子の父と定められた者の否認権　新たに子の父と定められた者が当該子に係る嫡出否認の裁判が確定したことを知った時
+
+二　子の否認権　子が前号の裁判が確定したことを知った時
+
+三　母の否認権　母が第一号の裁判が確定したことを知った時
+
+四　前夫の否認権　前夫が第一号の裁判が確定したことを知った時

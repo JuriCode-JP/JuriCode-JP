@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-5-p1
+    type: simple
+    text: 創立総会における各加入予定者の議決権は、平等とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-5-p2
+    type: simple
+    text: 創立総会に出席しない加入予定者は、書面で、又は代理人によつて議決をすることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-5-p3
+    type: simple
+    text: 加入予定者は、定款で定めるところにより、前項の規定に基づく書面による議決に代えて、電磁的方法（電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて内閣府令で定めるものをいう。以下同じ。）により議決をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-5-p4
+    type: simple
+    text: 第一項及び第二項の規定は、定款に別段の定めがある場合には、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

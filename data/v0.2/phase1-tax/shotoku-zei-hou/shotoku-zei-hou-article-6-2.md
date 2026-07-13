@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-6-2-p1
+    type: simple
+    text: 法人課税信託の受託者は、各法人課税信託の信託資産等（信託財産に属する資産及び負債並びに当該信託財産に帰せられる収益及び費用をいう。以下この章において同じ。）及び固有資産等（法人課税信託の信託資産等以外の資産及び負債並びに収益及び費用をいう。次項において同じ。）ごとに、それぞれ別の者とみなして、この法律（前章（納税義務）及び第五章（納税地）並びに第六編（罰則）を除く。次条において同じ。）の規定を適用する。
+    modality: unspecified
+    references:
+    - 次項
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-6-2-p2
+    type: simple
+    text: 前項の場合において、各法人課税信託の信託資産等及び固有資産等は、同項の規定によりみなされた各別の者にそれぞれ帰属するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

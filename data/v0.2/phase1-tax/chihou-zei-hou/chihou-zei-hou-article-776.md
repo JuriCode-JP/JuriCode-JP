@@ -32,6 +32,26 @@ paragraphs:
     type: hashira
     text: 代表者会議又は理事長は、それぞれその任命に係る役員が次の各号のいずれかに該当するときは、その役員を解任することができる。
     modality: kanou_kenri
+  - id: chihou-zei-hou-art-776-p2-kou-1
+    type: kou
+    text: 刑事事件により有罪の言渡しを受けたとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-776-p2-kou-2
+    type: kou
+    text: 破産手続開始の決定を受けたとき。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-776-p2-kou-3
+    type: kou
+    text: 心身の故障のため職務の遂行に堪えないと認められるとき。
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-art-776-p2-kou-4
+    type: kou
+    text: 職務上の義務違反があるとき。
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
@@ -70,20 +90,24 @@ parent_section:
 
 ### 第七百七十六条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-776-p1 -->
-<!-- segment: hashira id: chihou-zei-hou-art-776-p2-hashira -->
 代表者会議又は理事長は、それぞれその任命に係る役員が前条各号に掲げる者となつたときは、その役員を解任しなければならない。
 
 ### 第七百七十六条第二項
 
 代表者会議又は理事長は、それぞれその任命に係る役員が次の各号のいずれかに該当するときは、その役員を解任することができる。
 
+一　刑事事件により有罪の言渡しを受けたとき。
+
+二　破産手続開始の決定を受けたとき。
+
+三　心身の故障のため職務の遂行に堪えないと認められるとき。
+
+四　職務上の義務違反があるとき。
+
 ### 第七百七十六条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-776-p3 -->
 理事長は、前項の規定により副理事長又は理事を解任しようとするときは、代表者会議の同意を得なければならない。
 
 ### 第七百七十六条第四項
 
-<!-- segment: simple id: chihou-zei-hou-art-776-p4 -->
 代表者会議又は理事長が役員を解任したときは、遅滞なく、その旨を総務大臣に届け出なければならない。

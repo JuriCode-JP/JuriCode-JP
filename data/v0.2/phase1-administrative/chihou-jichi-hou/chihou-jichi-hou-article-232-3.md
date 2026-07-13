@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-232-3-p1
+    type: simple
+    text: 普通地方公共団体の支出の原因となるべき契約その他の行為（これを支出負担行為という。）は、法令又は予算の定めるところに従い、これをしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

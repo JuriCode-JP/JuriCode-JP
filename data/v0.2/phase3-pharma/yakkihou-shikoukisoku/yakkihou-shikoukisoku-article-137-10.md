@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-10-p1
+    type: simple
+    text: 再生医療等製品の製造業の許可証は、様式第十三によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

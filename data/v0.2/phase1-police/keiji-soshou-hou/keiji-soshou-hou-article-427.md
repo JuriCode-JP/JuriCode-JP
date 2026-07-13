@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百二十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-427-p1 -->
 抗告裁判所の決定に対しては、抗告をすることはできない。

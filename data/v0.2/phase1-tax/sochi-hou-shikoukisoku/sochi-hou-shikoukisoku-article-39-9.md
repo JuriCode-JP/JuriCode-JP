@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 施行令第五十条の二第五項に規定する財務省令で定める事項は、次の各号に掲げる事項とする。
     modality: gimu
+  - id: sochi-hou-shikoukisoku-art-39-9-p1-kou-1
+    type: kou
+    text: 法第九十条の六の二第一項の規定の適用を受けようとする移出した石油アスファルト等の種別（施行令第五十条の二第二項第三号に規定する石油アスファルト等の種別をいう。）ごとの移出先の所在地及び名称並びに移出先ごとの数量
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-39-9-p1-kou-2
+    type: kou
+    text: 第三十九条の七第二項に規定する証明がされた石油アスファルトの移出に係る移出先の所在地及び名称並びに移出先ごとの数量
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-39-9-p1-kou-3
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -37,5 +52,10 @@ parent_section:
 
 ### 第三十九条の九
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-39-9-p1-hashira -->
 施行令第五十条の二第五項に規定する財務省令で定める事項は、次の各号に掲げる事項とする。
+
+一　法第九十条の六の二第一項の規定の適用を受けようとする移出した石油アスファルト等の種別（施行令第五十条の二第二項第三号に規定する石油アスファルト等の種別をいう。）ごとの移出先の所在地及び名称並びに移出先ごとの数量
+
+二　第三十九条の七第二項に規定する証明がされた石油アスファルトの移出に係る移出先の所在地及び名称並びに移出先ごとの数量
+
+三　その他参考となるべき事項

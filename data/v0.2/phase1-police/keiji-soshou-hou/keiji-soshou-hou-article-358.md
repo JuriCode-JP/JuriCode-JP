@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百五十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-358-p1 -->
 上訴の提起期間は、裁判が告知された日から進行する。

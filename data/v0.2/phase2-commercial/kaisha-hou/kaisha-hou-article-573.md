@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 裁判所は、特別清算開始後、次に掲げる場合には、清算人、監査役、債権者、株主又は調査委員の申立てにより、特別清算終結の決定をする。
     modality: unspecified
+  - id: kaisha-hou-art-573-p1-kou-1
+    type: kou
+    text: 特別清算が結了したとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-573-p1-kou-2
+    type: kou
+    text: 特別清算の必要がなくなったとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第五百七十三条
 
-<!-- segment: hashira id: kaisha-hou-art-573-p1-hashira -->
 裁判所は、特別清算開始後、次に掲げる場合には、清算人、監査役、債権者、株主又は調査委員の申立てにより、特別清算終結の決定をする。
+
+一　特別清算が結了したとき。
+
+二　特別清算の必要がなくなったとき。

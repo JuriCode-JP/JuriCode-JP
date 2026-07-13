@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百三十五条
 
-<!-- segment: simple id: keihou-art-235-p1 -->
 他人の財物を窃取した者は、窃盗の罪とし、十年以下の拘禁刑又は五十万円以下の罰金に処する。

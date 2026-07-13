@@ -13,20 +13,38 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-342-5-p1-honbun
+    type: honbun
+    text: 裁判所は、第三百四十二条の二の許可をする場合には、帰国等保証金額を定めなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-342-5-p1-tadashi
+    type: tadashi
+    text: ただし、保釈を許す決定を受けた被告人について、同条の許可をするときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-342-5-p2
+    type: simple
+    text: 帰国等保証金額は、宣告された判決に係る刑名及び刑期、当該判決の宣告を受けた者の性格、生活の本拠及び資産、その者が外国人である場合にあつてはその在留資格（入管法第二条の二第一項に規定する在留資格をいう。）の内容その他の事情を考慮して、その者が前条第一項の規定により指定される期間内に本邦に帰国し又は上陸することを保証するに足りる相当な金額でなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-342-5-p3
+    type: simple
+    text: 裁判所は、第三百四十二条の二の許可をする場合には、その許可を受ける者の渡航先を制限し、その他適当と認める条件を付することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

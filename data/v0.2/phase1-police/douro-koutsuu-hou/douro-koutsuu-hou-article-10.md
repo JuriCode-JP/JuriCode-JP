@@ -37,6 +37,16 @@ paragraphs:
     type: hashira
     text: 歩行者等は、歩道等と車道の区別のある道路においては、次の各号に掲げる場合を除き、歩道等を通行しなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-10-p2-kou-1
+    type: kou
+    text: 車道を横断するとき。
+    modality: unspecified
+    item_number: 1
+  - id: douro-koutsuu-hou-art-10-p2-kou-2
+    type: kou
+    text: 道路工事等のため歩道等を通行することができないとき、その他やむを得ないとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -64,16 +74,16 @@ parent_section:
 
 ### 第十条第一項
 
-<!-- segment: honbun id: douro-koutsuu-hou-art-10-p1-honbun -->
-歩行者等は、歩道又は歩行者等の通行に十分な幅員を有する路側帯（次項及び次条において「歩道等」という。）と車道の区別のない道路においては、道路の右側端に寄つて通行しなければならない。<!-- segment: tadashi id: douro-koutsuu-hou-art-10-p1-tadashi -->
-ただし、道路の右側端を通行することが危険であるときその他やむを得ないときは、道路の左側端に寄つて通行することができる。
+歩行者等は、歩道又は歩行者等の通行に十分な幅員を有する路側帯（次項及び次条において「歩道等」という。）と車道の区別のない道路においては、道路の右側端に寄つて通行しなければならない。ただし、道路の右側端を通行することが危険であるときその他やむを得ないときは、道路の左側端に寄つて通行することができる。
 
 ### 第十条第二項
 
-<!-- segment: hashira id: douro-koutsuu-hou-art-10-p2-hashira -->
 歩行者等は、歩道等と車道の区別のある道路においては、次の各号に掲げる場合を除き、歩道等を通行しなければならない。
+
+一　車道を横断するとき。
+
+二　道路工事等のため歩道等を通行することができないとき、その他やむを得ないとき。
 
 ### 第十条第三項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-10-p3 -->
 前項の規定により歩道を通行する歩行者等は、普通自転車通行指定部分（第六十三条の四第二項に規定する普通自転車通行指定部分をいう。第十七条の二第二項において同じ。）があるときは、当該普通自転車通行指定部分をできるだけ避けて通行するように努めなければならない。

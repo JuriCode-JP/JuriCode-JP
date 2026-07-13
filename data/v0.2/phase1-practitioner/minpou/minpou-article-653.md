@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 委任は、次に掲げる事由によって終了する。
     modality: unspecified
+  - id: minpou-art-653-p1-kou-1
+    type: kou
+    text: 委任者又は受任者の死亡
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-653-p1-kou-2
+    type: kou
+    text: 委任者又は受任者が破産手続開始の決定を受けたこと。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-653-p1-kou-3
+    type: kou
+    text: 受任者が後見開始の審判を受けたこと。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第六百五十三条
 
-<!-- segment: hashira id: minpou-art-653-p1-hashira -->
 委任は、次に掲げる事由によって終了する。
+
+一　委任者又は受任者の死亡
+
+二　委任者又は受任者が破産手続開始の決定を受けたこと。
+
+三　受任者が後見開始の審判を受けたこと。

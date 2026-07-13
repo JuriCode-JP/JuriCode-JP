@@ -16,7 +16,15 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-718-6-p1
+    type: junyou
+    text: 前三条の規定は、第七百六条第三項の規定による特別徴収について準用する。この場合における読替えは次の表のとおりとするほか、これらの規定に関し必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 前三条
+    references:
+    - 前三条
 cases: []
 amendments: []
 tags:

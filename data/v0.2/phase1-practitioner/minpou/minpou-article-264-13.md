@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-13-p1
+    type: simple
+    text: 管理不全土地管理人は、管理不全土地等から裁判所が定める額の費用の前払及び報酬を受けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-13-p2
+    type: simple
+    text: 管理不全土地管理人による管理不全土地等の管理に必要な費用及び報酬は、管理不全土地等の所有者の負担とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

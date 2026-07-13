@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十条第一項
 
-<!-- segment: simple id: koubunsho-kanri-hou-art-20-p1 -->
 写しの交付により特定歴史公文書等を利用する者は、政令で定めるところにより、手数料を納めなければならない。
 
 ### 第二十条第二項
 
-<!-- segment: simple id: koubunsho-kanri-hou-art-20-p2 -->
 前項の手数料の額は、実費の範囲内において、できる限り利用しやすい額とするよう配慮して、国立公文書館等の長が定めるものとする。

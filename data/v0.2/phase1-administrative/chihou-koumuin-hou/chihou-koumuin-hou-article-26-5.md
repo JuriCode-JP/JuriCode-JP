@@ -16,32 +16,58 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-5-p1
+    type: simple
+    text: 任命権者は、職員（臨時的に任用される職員その他の法律により任期を定めて任用される職員及び非常勤職員を除く。以下この条及び次条（第八項及び第九項を除く。）において同じ。）が申請した場合において、公務の運営に支障がなく、かつ、当該職員の公務に関する能力の向上に資すると認めるときは、条例で定めるところにより、当該職員が、三年を超えない範囲内において条例で定める期間、大学等課程の履修（大学その他の条例で定める教育施設の課程の履修をいう。第五項において同じ。）又は国際貢献活動（国際協力の促進に資する外国における奉仕活動（当該奉仕活動を行うために必要な国内における訓練その他の準備行為を含む。）のうち職員として参加することが適当であると認められるものとして条例で定めるものに参加することをいう。第五項において同じ。）のための休業（以下この条において「自己啓発等休業」という。）をすることを承認することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-5-p2
+    type: simple
+    text: 自己啓発等休業をしている職員は、自己啓発等休業を開始した時就いていた職又は自己啓発等休業の期間中に異動した職を保有するが、職務に従事しない。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-5-p3
+    type: simple
+    text: 自己啓発等休業をしている期間については、給与を支給しない。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-5-p4
+    type: simple
+    text: 自己啓発等休業の承認は、当該自己啓発等休業をしている職員が休職又は停職の処分を受けた場合には、その効力を失う。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-5-p5
+    type: simple
+    text: 任命権者は、自己啓発等休業をしている職員が当該自己啓発等休業の承認に係る大学等課程の履修又は国際貢献活動を取りやめたことその他条例で定める事由に該当すると認めるときは、当該自己啓発等休業の承認を取り消すものとする。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-5-p6
+    type: simple
+    text: 前各項に定めるもののほか、自己啓発等休業に関し必要な事項は、条例で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

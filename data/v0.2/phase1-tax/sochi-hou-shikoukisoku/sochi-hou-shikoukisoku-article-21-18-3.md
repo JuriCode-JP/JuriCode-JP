@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-21-18-3-p1
+    type: simple
+    text: 法第六十一条の三第一項に規定する財務省令で定める建物は、農業振興地域の整備に関する法律施行規則第一条第一号及び第二号に掲げる農業用施設を構成する建物とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-21-18-3-p2
+    type: simple
+    text: 施行令第三十七条の三第三項に規定する財務省令で定めるところにより証明がされた金額は、法第六十一条の三第一項の規定の適用を受けようとする事業年度の確定申告書等に、農林水産大臣の同項第一号ロに規定する交付金等の額のうち法第六十一条の二第一項の農業経営基盤強化準備金として積み立てられなかつた金額である旨を証する書類又はその写しを添付することにより証明がされたものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-21-18-3-p3
+    type: simple
+    text: 法第六十一条の三第二項に規定する財務省令で定める書類は、農林水産大臣の同条第一項に規定する認定計画の定めるところにより取得又は製作若しくは建設をした同項に規定する農用地等である旨を証する書類又はその写しとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,44 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-18-p1
+    type: junyou
+    text: 第二十八条第五項及び第七項から第九項までの規定は、無店舗型電話異性紹介営業を営む者について準用する。この場合において、同条第五項中「前条に規定するもののほか、その」とあるのは「その」と、同項第一号ロ中「第二項」とあるのは「第三十一条の十三第一項において準用する第二項」と、同条第七項中「第五項第一号」とあるのは「第三十一条の十八第一項において準用する第五項第一号」と、「第二十七条第一項」とあるのは「第三十一条の十七第一項」と、同条第八項中「前条及び第五項」とあるのは「第三十一条の十八第一項において準用する第五項」と、同条第九項中「その営業所に立ち入つて」とあるのは「第三十一条の十七第一項第四号に掲げる電話番号に電話をかけて」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-18-p2-hashira
+    type: hashira
+    text: 無店舗型電話異性紹介営業を営む者は、次に掲げる行為をしてはならない。
+    modality: gimu_negative
+  - id: fueihou-art-31-18-p2-kou-1
+    type: kou
+    text: 十八歳未満の従業者を第二条第十項の規定によりその機会を提供する会話の当事者にすること。
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-31-18-p2-kou-2
+    type: kou
+    text: 十八歳未満の者からの第二条第十項に規定する会話の申込みを取り次ぎ、又は同項に規定する会話の申込みを十八歳未満の者に取り次ぐこと。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-18-p3
+    type: simple
+    text: 無店舗型電話異性紹介営業を営む者は、第二条第十項に規定する会話の申込みをした者及び同項に規定する会話の申込みを受けようとする者が十八歳以上であることを確認するための措置であつて国家公安委員会規則で定めるものを講じておかなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -52,6 +79,10 @@ parent_section:
 ### 第三十一条の十八第二項
 
 無店舗型電話異性紹介営業を営む者は、次に掲げる行為をしてはならない。
+
+一　十八歳未満の従業者を第二条第十項の規定によりその機会を提供する会話の当事者にすること。
+
+二　十八歳未満の者からの第二条第十項に規定する会話の申込みを取り次ぎ、又は同項に規定する会話の申込みを十八歳未満の者に取り次ぐこと。
 
 ### 第三十一条の十八第三項
 

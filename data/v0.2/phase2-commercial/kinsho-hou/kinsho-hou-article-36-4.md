@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-36-4-p1
+    type: simple
+    text: 金融商品取引業者（有価証券関連業を行う者に限る。次項において同じ。）は、会社法第七百二条に規定する社債管理者、同法第七百十四条の二に規定する社債管理補助者又は担保付社債信託法第二条第一項に規定する信託契約の受託会社となることができない。
+    modality: kanou_negative
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-36-4-p2
+    type: simple
+    text: 金融商品取引業者は、他の法律の規定にかかわらず、引受人となることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

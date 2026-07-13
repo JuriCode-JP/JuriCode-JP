@@ -30,6 +30,26 @@ paragraphs:
     type: hashira
     text: 法第三十九条の三第一項第三号の厚生労働省令で定める事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-163-p2-kou-1
+    type: kou
+    text: 営業所の名称及び所在地
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-163-p2-kou-2
+    type: kou
+    text: 当該営業所において第百七十五条第一項に規定する特定管理医療機器を販売提供等する場合にあつては、同条第二項に規定する特定管理医療機器営業所管理者等の氏名及び住所
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-163-p2-kou-3
+    type: kou
+    text: 営業所（管理医療機器プログラムのみを取り扱う営業所を除く。次項において同じ。）の構造設備の概要
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-163-p2-kou-4
+    type: kou
+    text: 兼営事業の種類
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: true
   has_items: false
@@ -59,16 +79,20 @@ parent_section:
 
 ### 第百六十三条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-163-p1 -->
 法第三十九条の三第一項の規定により管理医療機器（特定保守管理医療機器を除く。第百七十三条から第百七十八条までにおいて同じ。）を業として販売し、授与し、若しくは貸与し、若しくは販売、授与若しくは貸与の目的で陳列し、又は管理医療機器プログラムを電気通信回線を通じて提供しようとする者（法第三十九条第一項の許可を受けた者を除く。）は、法第三十九条の三第一項の規定により、様式第八十八による届書を提出するものとする。
 
 ### 第百六十三条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-163-p2-hashira -->
 法第三十九条の三第一項第三号の厚生労働省令で定める事項は、次のとおりとする。
+
+一　営業所の名称及び所在地
+
+二　当該営業所において第百七十五条第一項に規定する特定管理医療機器を販売提供等する場合にあつては、同条第二項に規定する特定管理医療機器営業所管理者等の氏名及び住所
+
+三　営業所（管理医療機器プログラムのみを取り扱う営業所を除く。次項において同じ。）の構造設備の概要
+
+四　兼営事業の種類
 
 ### 第百六十三条第三項
 
-<!-- segment: honbun id: yakkihou-shikoukisoku-art-163-p3-honbun -->
-第一項の届書には、当該営業所の平面図を添えなければならない。<!-- segment: tadashi id: yakkihou-shikoukisoku-art-163-p3-tadashi -->
-ただし、申請等の行為の際当該平面図が当該届書の提出先とされている都道府県知事（当該営業所の所在地が保健所を設置する市又は特別区の区域にある場合においては、市長又は区長。以下この項において同じ。）に提出され、又は当該都道府県知事を経由して厚生労働大臣に提出されている場合においては、当該届書にその旨が付記されたときは、この限りでない。
+第一項の届書には、当該営業所の平面図を添えなければならない。ただし、申請等の行為の際当該平面図が当該届書の提出先とされている都道府県知事（当該営業所の所在地が保健所を設置する市又は特別区の区域にある場合においては、市長又は区長。以下この項において同じ。）に提出され、又は当該都道府県知事を経由して厚生労働大臣に提出されている場合においては、当該届書にその旨が付記されたときは、この限りでない。

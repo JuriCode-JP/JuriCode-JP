@@ -16,27 +16,54 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-8-p1
+    type: junyou
+    text: 第二十八条第五項及び第七項から第九項までの規定は、映像送信型性風俗特殊営業を営む者について準用する。この場合において、同条第五項中「前条に規定するもののほか、その」とあるのは「その」と、同項第一号ロ中「第二項」とあるのは「第二条第六項第五号の営業について第二項」と、同条第七項中「第五項第一号」とあるのは「第三十一条の八第一項において準用する第五項第一号」と、「第二十七条第一項」とあるのは「第三十一条の七第一項」と、同条第八項中「前条及び第五項」とあるのは「第三十一条の八第一項において準用する第五項」と、同条第九項中「その営業所に立ち入つて」とあるのは「客となつて」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-8-p2
+    type: simple
+    text: 映像送信型性風俗特殊営業を営む者は、十八歳未満の者を客としてはならない。
+    modality: gimu_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-8-p3
+    type: simple
+    text: 映像送信型性風俗特殊営業（電気通信設備を用いた客の依頼を受けて、客の本人確認をしないで第二条第八項に規定する映像を伝達するものに限る。）を営む者は、十八歳未満の者が通常利用できない方法による客の依頼のみを受けることとしている場合を除き、電気通信事業者に対し、当該映像の料金の徴収を委託してはならない。
+    modality: gimu_negative
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-8-p4
+    type: simple
+    text: 映像送信型性風俗特殊営業（前項に規定するものを除く。）を営む者は、客が十八歳以上である旨の証明又は十八歳未満の者が通常利用できない方法により料金を支払う旨の同意を客から受けた後でなければ、その客に第二条第八項に規定する映像を伝達してはならない。
+    modality: gimu_negative
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-8-p5
+    type: simple
+    text: その自動公衆送信装置の全部又は一部を映像伝達用設備として映像送信型性風俗特殊営業を営む者に提供している当該自動公衆送信装置の設置者（次条において「自動公衆送信装置設置者」という。）は、その自動公衆送信装置の記録媒体に映像送信型性風俗特殊営業を営む者がわいせつな映像又は児童ポルノ映像（児童買春、児童ポルノに係る行為等の規制及び処罰並びに児童の保護等に関する法律第二条第三項各号に規定する児童の姿態に該当するものの映像をいう。次条第二項において同じ。）を記録したことを知つたときは、当該映像の送信を防止するため必要な措置を講ずるよう努めなければならない。
+    modality: doryoku_gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

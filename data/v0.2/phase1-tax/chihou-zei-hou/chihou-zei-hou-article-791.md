@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百九十一条
 
-<!-- segment: simple id: chihou-zei-hou-art-791-p1 -->
 機構の事業年度は、毎年四月一日に始まり、翌年三月三十一日に終わる。

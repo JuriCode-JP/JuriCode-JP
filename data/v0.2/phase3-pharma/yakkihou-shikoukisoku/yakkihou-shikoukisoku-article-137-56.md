@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-56-p1
+    type: simple
+    text: 製造販売のために再生医療等製品を、業として、輸入しようとする製造販売業者は、通関のときまでに、輸入しようとする品目について、次のいずれかが行われていることを証する書類又はその写しを有していなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-56-p1-kou-1
+    type: kou
+    text: 法第二十三条の二十五第一項若しくは第十三項（法第二十三条の三十七第五項において準用する場合を含む。）の承認又はその申請
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-56-p1-kou-2
+    type: kou
+    text: 法第二十三条の三十七第一項の承認又はその申請
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第百三十七条の五十六
 
 製造販売のために再生医療等製品を、業として、輸入しようとする製造販売業者は、通関のときまでに、輸入しようとする品目について、次のいずれかが行われていることを証する書類又はその写しを有していなければならない。
+
+一　法第二十三条の二十五第一項若しくは第十三項（法第二十三条の三十七第五項において準用する場合を含む。）の承認又はその申請
+
+二　法第二十三条の三十七第一項の承認又はその申請

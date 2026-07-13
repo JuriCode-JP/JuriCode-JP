@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-3-4-p1
+    type: simple
+    text: 厚生労働省に、医薬品等行政評価・監視委員会（以下「委員会」という。）を置く。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

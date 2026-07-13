@@ -16,22 +16,48 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-24-4-3-p1-zen
+    type: zen_dan
+    text: 第二十四条の四第一項及び第四項から第六項までの規定は法第七十二条の二十五第五項（法第七十二条の二十八第二項並びに第七十二条の二十九第二項及び第六項において準用する場合を含む。以下この項及び第三項において同じ。）の規定の適用を受けている法人について、第二十四条の四第二項及び第三項の規定は法第七十二条の二十五第五項の規定による承認又はこの項において準用する第二十四条の四第一項の規定による指定等を受けようとする法人について、それぞれ準用する。
+    modality: unspecified
+  - id: chihou-zei-hou-shikkourei-art-24-4-3-p1-kou
+    type: kou_dan
+    text: この場合において、次の表の上欄に掲げる同条の規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
+    depends_on: chihou-zei-hou-shikkourei-art-24-4-3-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-24-4-3-p2
+    type: junyou
+    text: 第二十四条の三第二項から第四項までの規定は、前項において準用する第二十四条の四第二項の申請書の提出があつた場合について準用する。この場合において、次の表の上欄に掲げる第二十四条の三の規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-24-4-3-p3
+    type: junyou
+    text: 第二十四条の三第六項の規定は、法第七十二条の二十五第五項の規定により同条第一項又は法第七十二条の二十八第一項若しくは第七十二条の二十九第一項若しくは第五項の規定による申告書の提出期限が延長された場合（前項において準用する第二十四条の三第四項の規定により当該提出期限の延長がされたものとみなされた場合を含む。）、第一項において準用する第二十四条の四第一項の規定により指定等の処分があつた場合（前項において準用する第二十四条の三第四項の規定により当該提出期限の延長の処分についての変更の処分がされたものとみなされた場合を含む。）、第一項において準用する第二十四条の四第四項の規定により当該提出期限の延長の処分についての取消し又は変更の処分があつた場合及び第一項において準用する同条第六項の規定により同項の届出書の提出があつた場合について準用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-24-4-3-p4
+    type: simple
+    text: 法第七十二条の二十五第一項、第七十二条の二十八第一項又は第七十二条の二十九第一項の法人について、法人税法第六十四条の十第四項から第六項までの規定により同法第六十四条の九第一項の規定による承認（以下この項において「通算承認」という。）が効力を失つた場合には、その効力を失つた日以後に終了する事業年度については、当該通算承認が効力を失う前に受けていた法第七十二条の二十五第五項（法第七十二条の二十八第二項及び第七十二条の二十九第二項において準用する場合を含む。）の規定による提出期限の延長の処分は、その効力を失うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

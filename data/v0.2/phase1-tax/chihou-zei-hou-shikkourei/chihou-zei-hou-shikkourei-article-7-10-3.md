@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-10-3-p1
+    type: simple
+    text: 法第三十二条第十項に規定する政令で定める災害は、冷害、雪害、干害、落雷、噴火その他の自然現象の異変による災害並びに鉱害、火薬類の爆発その他の人為による異常な災害及び害虫、害獣その他の生物による異常な災害とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

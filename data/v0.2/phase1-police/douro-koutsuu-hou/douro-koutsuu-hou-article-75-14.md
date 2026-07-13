@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-14-p1-hashira
+    type: hashira
+    text: 公安委員会は、第七十五条の十二第一項の許可を受けようとする者が次の各号のいずれかに該当する場合には、その許可をしてはならない。
+    modality: gimu_negative
+  - id: douro-koutsuu-hou-art-75-14-p1-kou-1
+    type: kou
+    text: 第七十五条の二十七第一項の規定により許可を取り消され、その取消しの日から五年を経過していない者（当該許可を取り消された者が法人である場合においては、当該取消しを受けた法人のその処分を受ける原因となつた事項が発生した当時現にその法人の役員として在任した者で当該取消しの日から五年を経過していないものを含む。）であるとき。
+    modality: unspecified
+    item_number: 1
+  - id: douro-koutsuu-hou-art-75-14-p1-kou-2
+    type: kou
+    text: 法人である場合において、その法人の役員が前号に該当する者であるとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第七十五条の十四
 
 公安委員会は、第七十五条の十二第一項の許可を受けようとする者が次の各号のいずれかに該当する場合には、その許可をしてはならない。
+
+一　第七十五条の二十七第一項の規定により許可を取り消され、その取消しの日から五年を経過していない者（当該許可を取り消された者が法人である場合においては、当該取消しを受けた法人のその処分を受ける原因となつた事項が発生した当時現にその法人の役員として在任した者で当該取消しの日から五年を経過していないものを含む。）であるとき。
+
+二　法人である場合において、その法人の役員が前号に該当する者であるとき。

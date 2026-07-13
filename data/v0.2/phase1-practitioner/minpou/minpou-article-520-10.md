@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-10-p1-honbun
+    type: honbun
+    text: 指図証券の債務者は、その証券の所持人並びにその署名及び押印の真偽を調査する権利を有するが、その義務を負わない。
+    modality: unspecified
+  - id: minpou-art-520-10-p1-tadashi
+    type: tadashi
+    text: ただし、債務者に悪意又は重大な過失があるときは、その弁済は、無効とする。
+    modality: koka_mukou
 cases: []
 amendments: []
 tags:

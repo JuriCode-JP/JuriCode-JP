@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百三十九条
 
-<!-- segment: simple id: keihou-art-239-p1 -->
 人を昏こん酔させてその財物を盗取した者は、強盗として論ずる。

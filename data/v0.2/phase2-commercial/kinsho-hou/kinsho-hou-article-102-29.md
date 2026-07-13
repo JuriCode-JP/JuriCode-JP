@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-29-p1
+    type: simple
+    text: 理事会を招集する者は、理事会の日の一週間前（これを下回る期間を理事会で定めた場合にあつては、その期間）までに、各理事に対してその通知を発しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-29-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、理事会は、理事の全員の同意があるときは、招集の手続を経ることなく開催することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

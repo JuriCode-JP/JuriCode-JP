@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十二条
 
-<!-- segment: simple id: roudou-kijun-hou-art-42-p1 -->
 労働者の安全及び衛生に関しては、労働安全衛生法（昭和四十七年法律第五十七号）の定めるところによる。

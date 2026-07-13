@@ -45,6 +45,4 @@ parent_section:
 
 ### 第四十六条
 
-<!-- segment: honbun id: kinsho-kachoukin-furei-art-46-p1-honbun -->
-参考人は、書類に基づいて陳述することができない。<!-- segment: tadashi id: kinsho-kachoukin-furei-art-46-p1-tadashi -->
-ただし、審判長の許可を受けたときは、この限りでない。
+参考人は、書類に基づいて陳述することができない。ただし、審判長の許可を受けたときは、この限りでない。

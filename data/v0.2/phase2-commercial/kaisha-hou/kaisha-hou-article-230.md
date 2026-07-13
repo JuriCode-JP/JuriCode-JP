@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 株券発行会社は、次に掲げる日のいずれか早い日（以下この条において「登録抹消日」という。）までの間は、株券喪失登録がされた株券に係る株式を取得した者の氏名又は名称及び住所を株主名簿に記載し、又は記録することができない。
     modality: kanou_negative
+  - id: kaisha-hou-art-230-p1-kou-1
+    type: kou
+    text: 当該株券喪失登録が抹消された日
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-230-p1-kou-2
+    type: kou
+    text: 株券喪失登録日の翌日から起算して一年を経過した日
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -70,20 +80,20 @@ parent_section:
 
 ### 第二百三十条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-230-p1-hashira -->
 株券発行会社は、次に掲げる日のいずれか早い日（以下この条において「登録抹消日」という。）までの間は、株券喪失登録がされた株券に係る株式を取得した者の氏名又は名称及び住所を株主名簿に記載し、又は記録することができない。
+
+一　当該株券喪失登録が抹消された日
+
+二　株券喪失登録日の翌日から起算して一年を経過した日
 
 ### 第二百三十条第二項
 
-<!-- segment: simple id: kaisha-hou-art-230-p2 -->
 株券発行会社は、登録抹消日後でなければ、株券喪失登録がされた株券を再発行することができない。
 
 ### 第二百三十条第三項
 
-<!-- segment: simple id: kaisha-hou-art-230-p3 -->
 株券喪失登録者が株券喪失登録をした株券に係る株式の名義人でないときは、当該株式の株主は、登録抹消日までの間は、株主総会又は種類株主総会において議決権を行使することができない。
 
 ### 第二百三十条第四項
 
-<!-- segment: simple id: kaisha-hou-art-230-p4 -->
 株券喪失登録がされた株券に係る株式については、第百九十七条第一項の規定による競売又は同条第二項の規定による売却をすることができない。

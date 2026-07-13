@@ -14,14 +14,32 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-14-2-2-p1-hashira
+    type: hashira
+    text: 法第二十一条第四項第三号に規定する内閣府令で定める有価証券は、次に掲げる有価証券とする。
+    modality: gimu
+  - id: kigyou-kaiji-furei-art-14-2-2-p1-kou-1
+    type: kou
+    text: 新株予約権付社債券
+    modality: unspecified
+    item_number: 1
+  - id: kigyou-kaiji-furei-art-14-2-2-p1-kou-2
+    type: kou
+    text: 外国の者の発行する新株予約権証券
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-14-2-2-p2
+    type: simple
+    text: 法第二十一条第四項第三号に規定する内閣府令で定める権利は、外国の者に対する新株予約権とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -36,6 +54,10 @@ tags:
 ### 第十四条の二の二第一項
 
 法第二十一条第四項第三号に規定する内閣府令で定める有価証券は、次に掲げる有価証券とする。
+
+一　新株予約権付社債券
+
+二　外国の者の発行する新株予約権証券
 
 ### 第十四条の二の二第二項
 

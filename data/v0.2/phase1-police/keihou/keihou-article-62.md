@@ -48,10 +48,8 @@ parent_section:
 
 ### 第六十二条第一項
 
-<!-- segment: simple id: keihou-art-62-p1 -->
 正犯を幇ほう助した者は、従犯とする。
 
 ### 第六十二条第二項
 
-<!-- segment: simple id: keihou-art-62-p2 -->
 従犯を教唆した者には、従犯の刑を科する。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-143-p1 -->
 裁判所は、この法律に特別の定のある場合を除いては、何人でも証人としてこれを尋問することができる。

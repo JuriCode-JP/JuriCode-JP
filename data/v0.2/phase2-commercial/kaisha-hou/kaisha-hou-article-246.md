@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -67,13 +67,10 @@ parent_section:
 
 ### 第二百四十六条第一項
 
-<!-- segment: simple id: kaisha-hou-art-246-p1 -->
-<!-- segment: simple id: kaisha-hou-art-246-p3 -->
 第二百三十八条第一項第三号に規定する場合には、新株予約権者は、募集新株予約権についての第二百三十六条第一項第四号の期間の初日の前日（第二百三十八条第一項第五号に規定する場合にあっては、同号の期日。第三項において「払込期日」という。）までに、株式会社が定めた銀行等の払込みの取扱いの場所において、それぞれの募集新株予約権の払込金額の全額を払い込まなければならない。
 
 ### 第二百四十六条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-246-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、新株予約権者は、株式会社の承諾を得て、同項の規定による払込みに代えて、払込金額に相当する金銭以外の財産を給付し、又は当該株式会社に対する債権をもって相殺することができる。
 
 ### 第二百四十六条第三項

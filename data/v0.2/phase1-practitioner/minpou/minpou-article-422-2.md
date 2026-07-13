@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-422-2-p1
+    type: simple
+    text: 債務者が、その債務の履行が不能となったのと同一の原因により債務の目的物の代償である権利又は利益を取得したときは、債権者は、その受けた損害の額の限度において、債務者に対し、その権利の移転又はその利益の償還を請求することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

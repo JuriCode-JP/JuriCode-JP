@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-29-p1-zen
+    type: zen_dan
+    text: 内閣総理大臣は、証券金融会社の金銭又は有価証券の貸付け（第百五十六条の二十四第一項に規定する業務に係るものに限る。）の方法又は条件について、これらが一般の経済状況にかんがみて適正を欠くに至つたと認められる場合又は取引所金融商品市場若しくは店頭売買有価証券市場に不健全な取引の傾向がある場合において、取引所金融商品市場若しくは店頭売買有価証券市場における売買を公正にし、又は有価証券の流通を円滑にするために特に必要があると認めるときは、その変更を命ずることができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-156-29-p1-kou
+    type: kou_dan
+    text: この場合においては、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-156-29-p1-zen
 cases: []
 amendments: []
 tags:

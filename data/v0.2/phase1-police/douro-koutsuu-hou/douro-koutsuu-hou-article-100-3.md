@@ -16,22 +16,50 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-100-3-p1
+    type: simple
+    text: 公安委員会は、再試験を行おうとする場合において、基準該当初心運転者がその住所を他の公安委員会の管轄区域内に変更していたときは、速やかに現にその者の住所地を管轄する公安委員会に内閣府令で定める試験移送通知書を送付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-100-3-p2-zen
+    type: zen_dan
+    text: 前項の試験移送通知書が当該公安委員会に送付されたときは、当該公安委員会は、当該試験移送通知書に係る基準該当初心運転者に対し、再試験を行うものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-100-3-p2-kou
+    type: kou_dan
+    text: この場合において、前項の試験移送通知書を送付した公安委員会は、当該基準該当初心運転者に対し、再試験を行うことができない。
+    modality: kanou_negative
+    references:
+    - 前項
+    depends_on: douro-koutsuu-hou-art-100-3-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-100-3-p3
+    type: junyou
+    text: 前条第四項及び第一項の規定は、公安委員会が前項の規定により再試験を行おうとする場合について準用する。この場合において、同条第四項中「基準該当初心運転者の当該免許に係る初心運転者期間が経過した後」とあるのは、「試験移送通知書の送付を受けた後」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-100-3-p4
+    type: simple
+    text: 公安委員会が第二項の規定により再試験を行おうとする場合において、第一項の試験移送通知書を送付した公安委員会が当該試験移送通知書に係る基準該当初心運転者に再試験の通知をしているときは、当該通知は、第二項の規定により再試験を行おうとする公安委員会がした再試験の通知とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

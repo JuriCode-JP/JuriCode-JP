@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-38-3-p1
+    type: simple
+    text: 前二条に定めるもののほか、少年指導委員に関し必要な事項は、国家公安委員会規則で定める。
+    modality: unspecified
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

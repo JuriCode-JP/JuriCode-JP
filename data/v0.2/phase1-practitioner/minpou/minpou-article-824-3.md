@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-824-3-p1-zen
+    type: zen_dan
+    text: 第七百六十六条（第七百四十九条、第七百七十一条及び第七百八十八条において準用する場合を含む。）の規定により定められた子の監護をすべき者は、第八百二十条から第八百二十三条までに規定する事項について、親権を行う者と同一の権利義務を有する。
+    modality: unspecified
+  - id: minpou-art-824-3-p1-kou
+    type: kou_dan
+    text: この場合において、子の監護をすべき者は、単独で、子の監護及び教育、居所の指定及び変更並びに営業の許可、その許可の取消し及びその制限をすることができる。
+    modality: kanou_kenri
+    depends_on: minpou-art-824-3-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-824-3-p2
+    type: simple
+    text: 前項の場合には、親権を行う者（子の監護をすべき者を除く。）は、子の監護をすべき者が同項後段の規定による行為をすることを妨げてはならない。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

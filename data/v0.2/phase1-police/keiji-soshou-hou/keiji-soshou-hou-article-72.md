@@ -48,10 +48,8 @@ parent_section:
 
 ### 第七十二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-72-p1 -->
 被告人の現在地が判らないときは、裁判長は、検事長にその捜査及び勾引状又は勾留状の執行を嘱託することができる。
 
 ### 第七十二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-72-p2 -->
 嘱託を受けた検事長は、その管内の検察官に捜査及び勾引状又は勾留状の執行の手続をさせなければならない。

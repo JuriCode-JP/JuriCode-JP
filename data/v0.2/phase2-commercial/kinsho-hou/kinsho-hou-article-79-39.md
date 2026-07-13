@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-39-p1
+    type: simple
+    text: 基金と理事長又は理事との利益が相反する事項については、これらの者は、代表権を有しない。この場合には、監事が基金を代表する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

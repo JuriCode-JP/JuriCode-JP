@@ -46,10 +46,8 @@ parent_section:
 
 ### 第四百四十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-443-p1 -->
 再審の請求は、これを取り下げることができる。
 
 ### 第四百四十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-443-p2 -->
 再審の請求を取り下げた者は、同一の理由によつては、更に再審の請求をすることができない。

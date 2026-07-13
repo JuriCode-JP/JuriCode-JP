@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-10-13-3-p1
+    type: simple
+    text: 政令第五十一条の十五の十一第一項に規定する総務省令で定めるところにより証明がされたものは、同項に規定する洪水吐ゲート等に該当するものとして、国土交通大臣が総務大臣と協議して定める書類により同項に規定する河川管理者の証明がされたものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

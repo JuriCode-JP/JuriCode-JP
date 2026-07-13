@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-31-24-p1
+    type: simple
+    text: 公安委員会は、特定遊興飲食店営業者又はその代理人等が、当該営業に関し、法令又はこの法律に基づく条例の規定に違反した場合において、善良の風俗若しくは清浄な風俗環境を害し、又は少年の健全な育成に障害を及ぼすおそれがあると認めるときは、当該特定遊興飲食店営業者に対し、善良の風俗若しくは清浄な風俗環境を害する行為又は少年の健全な育成に障害を及ぼす行為を防止するため必要な指示をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

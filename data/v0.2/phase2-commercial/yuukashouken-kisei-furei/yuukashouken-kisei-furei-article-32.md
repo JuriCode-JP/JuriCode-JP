@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十二条
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-32-p1 -->
 法第百六十四条第七項の利益関係書類の写しは、関東財務局に備え置き、公衆の縦覧に供するものとする。

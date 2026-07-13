@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 職員が、次の各号に掲げる場合のいずれかに該当するときは、その意に反して、これを降任し、又は免職することができる。
     modality: kanou_kenri
+  - id: chihou-koumuin-hou-art-28-p1-kou-1
+    type: kou
+    text: 人事評価又は勤務の状況を示す事実に照らして、勤務実績がよくない場合
+    modality: unspecified
+    item_number: 1
+  - id: chihou-koumuin-hou-art-28-p1-kou-2
+    type: kou
+    text: 心身の故障のため、職務の遂行に支障があり、又はこれに堪えない場合
+    modality: unspecified
+    item_number: 2
+  - id: chihou-koumuin-hou-art-28-p1-kou-3
+    type: kou
+    text: 前二号に規定する場合のほか、その職に必要な適格性を欠く場合
+    modality: unspecified
+    item_number: 3
+  - id: chihou-koumuin-hou-art-28-p1-kou-4
+    type: kou
+    text: 職制若しくは定数の改廃又は予算の減少により廃職又は過員を生じた場合
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +50,16 @@ paragraphs:
     type: hashira
     text: 職員が、次の各号に掲げる場合のいずれかに該当するときは、その意に反して、これを休職することができる。
     modality: kanou_kenri
+  - id: chihou-koumuin-hou-art-28-p2-kou-1
+    type: kou
+    text: 心身の故障のため、長期の休養を要する場合
+    modality: unspecified
+    item_number: 1
+  - id: chihou-koumuin-hou-art-28-p2-kou-2
+    type: kou
+    text: 刑事事件に関し起訴された場合
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -66,20 +96,28 @@ parent_section:
 
 ### 第二十八条第一項
 
-<!-- segment: hashira id: chihou-koumuin-hou-art-28-p1-hashira -->
-<!-- segment: hashira id: chihou-koumuin-hou-art-28-p2-hashira -->
 職員が、次の各号に掲げる場合のいずれかに該当するときは、その意に反して、これを降任し、又は免職することができる。
+
+一　人事評価又は勤務の状況を示す事実に照らして、勤務実績がよくない場合
+
+二　心身の故障のため、職務の遂行に支障があり、又はこれに堪えない場合
+
+三　前二号に規定する場合のほか、その職に必要な適格性を欠く場合
+
+四　職制若しくは定数の改廃又は予算の減少により廃職又は過員を生じた場合
 
 ### 第二十八条第二項
 
 職員が、次の各号に掲げる場合のいずれかに該当するときは、その意に反して、これを休職することができる。
 
+一　心身の故障のため、長期の休養を要する場合
+
+二　刑事事件に関し起訴された場合
+
 ### 第二十八条第三項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-28-p3 -->
 職員の意に反する降任、免職、休職及び降給の手続及び効果は、法律に特別の定めがある場合を除くほか、条例で定めなければならない。
 
 ### 第二十八条第四項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-28-p4 -->
 職員は、第十六条各号（第二号を除く。）のいずれかに該当するに至つたときは、条例に特別の定めがある場合を除くほか、その職を失う。

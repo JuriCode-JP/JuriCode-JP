@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-20-p1-zen
+    type: zen_dan
+    text: 自主規制法人が金融商品取引所の委託を受けて行う自主規制業務は、当該自主規制法人が第百二条の三十五第一項各号に掲げる事由により解散した場合には、終了するものとする。
+    modality: gimu
+  - id: kinsho-hou-art-102-20-p1-kou
+    type: kou_dan
+    text: この場合において、委託された自主規制業務は、委託金融商品取引所が行わなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-102-20-p1-zen
 cases: []
 amendments: []
 tags:

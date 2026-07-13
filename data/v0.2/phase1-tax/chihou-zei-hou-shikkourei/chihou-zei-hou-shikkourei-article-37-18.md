@@ -39,6 +39,16 @@ paragraphs:
     type: hashira
     text: 法第七十三条の十四第三項に規定する既存住宅のうち耐震基準に適合するものとして政令で定めるものは、既存住宅のうち次の各号に掲げる要件のいずれかに該当するものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-18-p3-kou-1
+    type: kou
+    text: 昭和五十七年一月一日以後に新築されたものであること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-18-p3-kou-2
+    type: kou
+    text: 前項の基準に適合することにつき総務省令で定めるところにより証明がされたものであること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -57,15 +67,16 @@ parent_section:
 
 ### 第三十七条の十八第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-37-18-p1 -->
 法第七十三条の十四第三項に規定する新築された住宅でまだ人の居住の用に供されたことのないもの以外の住宅で政令で定めるものは、新築された住宅でまだ人の居住の用に供されたことのないもの以外の住宅のうちその床面積が四十平方メートル以上二百四十平方メートル以下のものとする。
 
 ### 第三十七条の十八第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-37-18-p2 -->
 法第七十三条の十四第三項に規定する地震に対する安全性に係る基準として政令で定める基準は、建築基準法施行令（昭和二十五年政令第三百三十八号）第三章及び第五章の四に規定する基準又は国土交通大臣が総務大臣と協議して定める地震に対する安全性に係る基準とする。
 
 ### 第三十七条の十八第三項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-37-18-p3-hashira -->
 法第七十三条の十四第三項に規定する既存住宅のうち耐震基準に適合するものとして政令で定めるものは、既存住宅のうち次の各号に掲げる要件のいずれかに該当するものとする。
+
+一　昭和五十七年一月一日以後に新築されたものであること。
+
+二　前項の基準に適合することにつき総務省令で定めるところにより証明がされたものであること。

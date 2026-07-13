@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三十三条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-33-p1 -->
 委員長は、公正取引委員会の会務を総理し、公正取引委員会を代表する。
 
 ### 第三十三条第二項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-33-p2 -->
 公正取引委員会は、あらかじめ委員のうちから、委員長が故障のある場合に委員長を代理する者を定めておかなければならない。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百三十一条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-131-p1 -->
 この章の規定により道警察本部長の権限に属する事務は、政令で定めるところにより、方面本部長に行なわせることができる。

@@ -22,17 +22,32 @@ paragraphs:
     text: 前条の規定によつて算定した一般国道等の面積は、次項以下に規定する方法によつて、補正するものとする。
     modality: gimu
     references:
-    - 次項
     - 前条
+    - 次項
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: chihou-zei-hou-shikoukisoku-art-8-58-p2
     type: simple
     text: 一般国道等の面積のうち道路（橋りようを除く。以下この項において同じ。）にかかる面積は、第一号及び第二号に掲げる率を連乗して得た率を基礎として、橋りようにかかる面積は、第三号に掲げる率を基礎として、それぞれ総務大臣が定める率を乗じて補正するものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-8-58-p2-kou-1
+    type: kou
+    text: 次の算式によつて得た率
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-8-58-p2-kou-2
+    type: kou
+    text: 次の算式によつて得た率
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-8-58-p2-kou-3
+    type: kou
+    text: 次の算式によつて得た率
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -79,17 +94,26 @@ tags:
 
 ### 第八条の五十八第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-58-p1 -->
 前条の規定によつて算定した一般国道等の面積は、次項以下に規定する方法によつて、補正するものとする。
 
 ### 第八条の五十八第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-58-p2 -->
 一般国道等の面積のうち道路（橋りようを除く。以下この項において同じ。）にかかる面積は、第一号及び第二号に掲げる率を連乗して得た率を基礎として、橋りようにかかる面積は、第三号に掲げる率を基礎として、それぞれ総務大臣が定める率を乗じて補正するものとする。
+
+一　次の算式によつて得た率
+
+１＋（（（有効幅員４．５メートル以上７．５メートル未満の道路（未改良にかかる道路を除く。）の延長×１）＋（有効幅員４．５メートル以上の道路（改良にかかる道路を除く。）の延長×１．２）＋（有効幅員４．５メートル未満の道路の延長×１．５））／道路の面積）
+
+二　次の算式によつて得た率
+
+（砂利道の延長×１．３＋舗装道の延長）／道路の延長
+
+三　次の算式によつて得た率
+
+（（木橋の延長×９＋橋りよう（木橋を除く。）の延長）×２．５）／橋りようの延長
 
 ### 第八条の五十八第三項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-58-p3 -->
 前項の規定によつて補正された一般国道等の面積は、更に、次表によつて得られる当該指定道府県又は指定市の率を乗じて得た率を基礎として総務大臣が定める率を乗じて補正するものとする。
 
 | 指定道府県又は指定市の平均交通量 | 率 |
@@ -108,10 +132,8 @@ tags:
 
 ### 第八条の五十八第四項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-58-p4 -->
 第二項第三号の木橋とは、前年の四月一日現在において道路法第二十八条に規定する道路台帳に記載されている木橋をいい、前項の平均交通量とは、道路法第七十七条第一項の規定によつて国土交通大臣が最近に行つた一般交通調査に基づき、総務大臣が調査算定したものをいう。
 
 ### 第八条の五十八第五項
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-8-58-p5 -->
 第二項各号に掲げる率及び同項第一号及び第二号に掲げる率を連乗して得た率並びにこれらの率を基礎として総務大臣が定める率を算定する場合において、小数点以下三位未満の端数が生ずるときは、これを四捨五入する。

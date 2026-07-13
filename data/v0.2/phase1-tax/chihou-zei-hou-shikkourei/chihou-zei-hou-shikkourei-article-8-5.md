@@ -48,10 +48,8 @@ parent_section:
 
 ### 第八条の五第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-8-5-p1 -->
 法第五十二条第四項に規定する政令で定める日は、第六条の二十三第一号に規定する日とする。
 
 ### 第八条の五第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-8-5-p2 -->
 法第五十二条第五項に規定する政令で定める日は、第六条の二十三第二号に規定する日とする。

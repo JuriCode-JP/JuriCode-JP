@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-8-p1
+    type: simple
+    text: 地方団体は、第七百三十三条の六第二項の認定を受けていない法定外目的税の納税義務者又は特別徴収義務者で同条第一項の承認を受けていないものが同項の規定によつて申告すべき納税管理人について正当な事由がなくて申告をしなかつた場合においては、その者に対し、当該地方団体の条例で十万円以下の過料を科する旨の規定を設けることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

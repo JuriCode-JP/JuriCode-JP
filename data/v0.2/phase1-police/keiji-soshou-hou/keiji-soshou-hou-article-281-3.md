@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-281-3-p1
+    type: simple
+    text: 弁護人は、検察官において被告事件の審理の準備のために閲覧又は謄写の機会を与えた証拠に係る複製等（複製その他証拠の全部又は一部をそのまま記録した物及び書面をいう。以下同じ。）を適正に管理し、その保管をみだりに他人にゆだねてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

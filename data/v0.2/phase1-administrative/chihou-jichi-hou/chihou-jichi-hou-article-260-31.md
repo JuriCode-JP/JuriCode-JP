@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-31-p1
+    type: simple
+    text: 解散した認可地縁団体の財産は、破産手続開始の決定及び合併による解散の場合を除き、規約で指定した者に帰属する。
+    modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-31-p2-honbun
+    type: honbun
+    text: 規約で権利の帰属すべき者を指定せず、又はその者を指定する方法を定めなかつたときは、代表者は、市町村長の認可を得て、その認可地縁団体の目的に類似する目的のために、その財産を処分することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-260-31-p2-tadashi
+    type: tadashi
+    text: ただし、総会の決議を経なければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-31-p3
+    type: simple
+    text: 前二項の規定により処分されない財産は、市町村に帰属する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

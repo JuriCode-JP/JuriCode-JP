@@ -23,6 +23,31 @@ paragraphs:
     modality: gimu
     references:
     - 次項
+  - id: shouhou-art-571-p1-kou-1
+    type: kou
+    text: 運送品の種類
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-571-p1-kou-2
+    type: kou
+    text: 運送品の容積若しくは重量又は包若しくは個品の数及び運送品の記号
+    modality: unspecified
+    item_number: 2
+  - id: shouhou-art-571-p1-kou-3
+    type: kou
+    text: 荷造りの種類
+    modality: unspecified
+    item_number: 3
+  - id: shouhou-art-571-p1-kou-4
+    type: kou
+    text: 荷送人及び荷受人の氏名又は名称
+    modality: unspecified
+    item_number: 4
+  - id: shouhou-art-571-p1-kou-5
+    type: kou
+    text: 発送地及び到達地
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
@@ -59,11 +84,18 @@ parent_section:
 
 ### 第五百七十一条第一項
 
-<!-- segment: hashira id: shouhou-art-571-p1-hashira -->
 荷送人は、運送人の請求により、次に掲げる事項を記載した書面（次項において「送り状」という。）を交付しなければならない。
+
+一　運送品の種類
+
+二　運送品の容積若しくは重量又は包若しくは個品の数及び運送品の記号
+
+三　荷造りの種類
+
+四　荷送人及び荷受人の氏名又は名称
+
+五　発送地及び到達地
 
 ### 第五百七十一条第二項
 
-<!-- segment: zen_dan id: shouhou-art-571-p2-zen -->
-前項の荷送人は、送り状の交付に代えて、法務省令で定めるところにより、運送人の承諾を得て、送り状に記載すべき事項を電磁的方法（電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であって法務省令で定めるものをいう。以下同じ。）により提供することができる。<!-- segment: kou_dan id: shouhou-art-571-p2-kou depends_on: shouhou-art-571-p2-zen -->
-この場合において、当該荷送人は、送り状を交付したものとみなす。
+前項の荷送人は、送り状の交付に代えて、法務省令で定めるところにより、運送人の承諾を得て、送り状に記載すべき事項を電磁的方法（電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であって法務省令で定めるものをいう。以下同じ。）により提供することができる。この場合において、当該荷送人は、送り状を交付したものとみなす。

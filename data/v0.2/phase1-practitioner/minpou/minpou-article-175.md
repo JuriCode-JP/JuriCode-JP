@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十五条
 
-<!-- segment: simple id: minpou-art-175-p1 -->
 物権は、この法律その他の法律に定めるもののほか、創設することができない。

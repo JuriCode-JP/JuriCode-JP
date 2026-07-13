@@ -14,14 +14,34 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-29-2-p1-hashira
+    type: hashira
+    text: 次に掲げる職員及びこれに対する処分については、第二十七条第二項、第二十八条第一項から第三項まで、第四十九条第一項及び第二項並びに行政不服審査法（平成二十六年法律第六十八号）の規定を適用しない。
+    modality: jogai
+  - id: chihou-koumuin-hou-art-29-2-p1-kou-1
+    type: kou
+    text: 条件附採用期間中の職員
+    modality: unspecified
+    item_number: 1
+  - id: chihou-koumuin-hou-art-29-2-p1-kou-2
+    type: kou
+    text: 臨時的に任用された職員
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-29-2-p2
+    type: simple
+    text: 前項各号に掲げる職員の分限については、条例で必要な事項を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +61,10 @@ parent_section:
 ### 第二十九条の二第一項
 
 次に掲げる職員及びこれに対する処分については、第二十七条第二項、第二十八条第一項から第三項まで、第四十九条第一項及び第二項並びに行政不服審査法（平成二十六年法律第六十八号）の規定を適用しない。
+
+一　条件附採用期間中の職員
+
+二　臨時的に任用された職員
 
 ### 第二十九条の二第二項
 

@@ -30,6 +30,21 @@ paragraphs:
     type: hashira
     text: 法第七百一条の三十四第三項第二十四号に規定する電気通信事業の用に供する施設で政令で定めるものは、同号に規定する電気通信回線設備を設置して電気通信事業法第二条第三号に規定する電気通信役務を提供する同条第四号に規定する電気通信事業の用に供する施設のうち次に掲げる施設以外の施設とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-56-40-p2-kou-1
+    type: kou
+    text: 事務所
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-56-40-p2-kou-2
+    type: kou
+    text: 研究施設
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-56-40-p2-kou-3
+    type: kou
+    text: 研修施設
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -46,10 +61,14 @@ parent_section:
 
 ### 第五十六条の四十第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-56-40-p1 -->
 法第七百一条の三十四第三項第二十四号に規定する専ら公衆の利用を目的として電気通信回線設備を設置して電気通信事業法第二条第三号に規定する電気通信役務を提供する同条第四号に規定する電気通信事業を営む者で政令で定めるものは、同法第百十七条第一項の規定による認定を受けた者のうち、同法第三十三条第二項に規定する第一種指定電気通信設備を設置する者及びこれに類する者として総務省令で定める要件に該当する者で、総務大臣が指定するものとする。
 
 ### 第五十六条の四十第二項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-56-40-p2-hashira -->
 法第七百一条の三十四第三項第二十四号に規定する電気通信事業の用に供する施設で政令で定めるものは、同号に規定する電気通信回線設備を設置して電気通信事業法第二条第三号に規定する電気通信役務を提供する同条第四号に規定する電気通信事業の用に供する施設のうち次に掲げる施設以外の施設とする。
+
+一　事務所
+
+二　研究施設
+
+三　研修施設

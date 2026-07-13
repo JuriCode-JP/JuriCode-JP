@@ -31,8 +31,8 @@ paragraphs:
     text: 商人が前項の通知を発することを怠ったときは、その商人は、同項の契約の申込みを承諾したものとみなす。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -51,10 +51,8 @@ parent_section:
 
 ### 第五百九条第一項
 
-<!-- segment: simple id: shouhou-art-509-p1 -->
 商人が平常取引をする者からその営業の部類に属する契約の申込みを受けたときは、遅滞なく、契約の申込みに対する諾否の通知を発しなければならない。
 
 ### 第五百九条第二項
 
-<!-- segment: simple id: shouhou-art-509-p2 -->
 商人が前項の通知を発することを怠ったときは、その商人は、同項の契約の申込みを承諾したものとみなす。

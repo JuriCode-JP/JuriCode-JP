@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-13-2-p1
+    type: simple
+    text: 歩行者用道路又はその構造上車両等が入ることができないこととなつている道路を通行する歩行者等については、第十条から前条までの規定は、適用しない。
+    modality: jogai
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十六条
 
-<!-- segment: simple id: kenpou-art-46-p1 -->
 参議院議員の任期は、六年とし、三年ごとに議員の半数を改選する。

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十二条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-42-p1 -->
 採用試験は、この法律に基づく命令で定めるところにより、これを行う。

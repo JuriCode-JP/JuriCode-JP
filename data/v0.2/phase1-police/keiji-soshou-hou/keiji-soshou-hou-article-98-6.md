@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-6-p1
+    type: tokusoku
+    text: 監督者を選任した場合には、保釈を許す決定は、第九十四条第一項の規定にかかわらず、保証金及び監督保証金の納付があつた後でなければ、執行することができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 第九十四条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-6-p2
+    type: simple
+    text: 監督者を選任した場合には、第九十五条第一項前段の決定は、監督保証金の納付があつた後でなければ、執行することができない。
+    modality: kanou_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-6-p3
+    type: junyou
+    text: 第九十四条第二項及び第三項の規定は、監督保証金の納付について準用する。この場合において、同条第二項中「保釈請求者でない者」とあるのは「監督者でない者（被告人を除く。）」と、同条第三項中「被告人」とあるのは「被告人及び監督者」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

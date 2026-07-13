@@ -22,7 +22,7 @@ paragraphs:
     text: 選挙管理委員会は、三人以上の委員が出席しなければ、会議を開くことができない。
     modality: kanou_negative
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -63,15 +63,12 @@ parent_section:
 
 ### 第百八十九条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-189-p1 -->
 選挙管理委員会は、三人以上の委員が出席しなければ、会議を開くことができない。
 
 ### 第百八十九条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-189-p2 -->
 委員長及び委員は、自己若しくは父母、祖父母、配偶者、子、孫若しくは兄弟姉妹の一身上に関する事件又は自己若しくはこれらの者の従事する業務に直接の利害関係のある事件については、その議事に参与することができない。但し、委員会の同意を得たときは、会議に出席し、発言することができる。
 
 ### 第百八十九条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-189-p3 -->
 前項の規定により委員の数が減少して第一項の数に達しないときは、委員長は、補充員でその事件に関係のないものを以て第百八十二条第三項の順序により、臨時にこれに充てなければならない。委員の事故に因り委員の数が第一項の数に達しないときも、また、同様とする。

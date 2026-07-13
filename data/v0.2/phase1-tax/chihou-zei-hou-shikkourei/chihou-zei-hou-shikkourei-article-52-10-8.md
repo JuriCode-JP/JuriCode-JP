@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-52-10-8-p1
+    type: simple
+    text: 法第三百四十九条の三第二十四項に規定する政令で定める償却資産は、既に事業の用に供されていた償却資産（以下この条において「既設資産」という。）を当該事業の用に供しなくなつたことに伴い、当該既設資産に代えて当該事業の用に供される償却資産以外の償却資産とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

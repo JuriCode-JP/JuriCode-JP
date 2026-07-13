@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百四十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-142-p1 -->
 第百十一条の二から第百十四条まで、第百十八条及び第百二十五条の規定は、検証についてこれを準用する。

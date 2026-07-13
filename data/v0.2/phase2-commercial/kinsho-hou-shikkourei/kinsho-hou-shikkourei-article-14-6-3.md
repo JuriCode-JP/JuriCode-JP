@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-6-3-p1
+    type: simple
+    text: 法第二十七条の二十三第五項第三号に規定する政令で定める合意は、株券等の保有者が当該株券等の発行者が発行する株券等の他の保有者との間で当該発行者の株主総会又は投資主総会ごとにする合意であつて、合意の対象とする当該発行者の株主総会又は投資主総会の議案を他の議案と明確に区別できるよう特定し、かつ、当該議案に対する賛否を定めて、当該保有者及び他の保有者が当該議案について共同して議決権を行使することを内容とするものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

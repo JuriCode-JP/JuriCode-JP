@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九十七条
 
-<!-- segment: simple id: kinsho-hou-art-97-p1 -->
 金融商品会員制法人は、営利の目的をもつて業務を行つてはならない。

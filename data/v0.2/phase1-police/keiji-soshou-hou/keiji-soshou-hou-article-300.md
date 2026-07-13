@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百条
 
-<!-- segment: simple id: keiji-soshou-hou-art-300-p1 -->
 第三百二十一条第一項第二号後段の規定により証拠とすることができる書面については、検察官は、必ずその取調を請求しなければならない。

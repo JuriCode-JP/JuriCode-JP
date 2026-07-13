@@ -16,27 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-8-p1
+    type: simple
+    text: 裁判所は、所有者を知ることができず、又はその所在を知ることができない建物（建物が数人の共有に属する場合にあっては、共有者を知ることができず、又はその所在を知ることができない建物の共有持分）について、必要があると認めるときは、利害関係人の請求により、その請求に係る建物又は共有持分を対象として、所有者不明建物管理人（第四項に規定する所有者不明建物管理人をいう。以下この条において同じ。）による管理を命ずる処分（以下この条において「所有者不明建物管理命令」という。）をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-8-p2
+    type: simple
+    text: 所有者不明建物管理命令の効力は、当該所有者不明建物管理命令の対象とされた建物（共有持分を対象として所有者不明建物管理命令が発せられた場合にあっては、共有物である建物）にある動産（当該所有者不明建物管理命令の対象とされた建物の所有者又は共有持分を有する者が所有するものに限る。）及び当該建物を所有し、又は当該建物の共有持分を有するための建物の敷地に関する権利（賃借権その他の使用及び収益を目的とする権利（所有権を除く。）であって、当該所有者不明建物管理命令の対象とされた建物の所有者又は共有持分を有する者が有するものに限る。）に及ぶ。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-8-p3
+    type: simple
+    text: 所有者不明建物管理命令は、所有者不明建物管理命令が発せられた後に当該所有者不明建物管理命令が取り消された場合において、当該所有者不明建物管理命令の対象とされた建物又は共有持分並びに当該所有者不明建物管理命令の効力が及ぶ動産及び建物の敷地に関する権利の管理、処分その他の事由により所有者不明建物管理人が得た財産について、必要があると認めるときも、することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-8-p4
+    type: simple
+    text: 裁判所は、所有者不明建物管理命令をする場合には、当該所有者不明建物管理命令において、所有者不明建物管理人を選任しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-8-p5
+    type: junyou
+    text: 第二百六十四条の三から前条までの規定は、所有者不明建物管理命令及び所有者不明建物管理人について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-494-4-p1-zen
+    type: zen_dan
+    text: 第三百四十二条の三から第三百四十二条の七まで（第三百四十二条の五第一項ただし書を除く。）の規定は前条の許可について、第三百四十五条の四の規定は前条の規定による決定について、それぞれ準用する。
+    modality: unspecified
+    references:
+    - 前条
+  - id: keiji-soshou-hou-art-494-4-p1-kou
+    type: kou_dan
+    text: この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
+    depends_on: keiji-soshou-hou-art-494-4-p1-zen
 cases: []
 amendments: []
 tags:

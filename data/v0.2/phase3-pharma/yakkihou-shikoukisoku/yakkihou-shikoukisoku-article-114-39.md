@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-39-p1
+    type: simple
+    text: 法第二十三条の二の九第一項の医療機器又は体外診断用医薬品の使用成績に関する評価の申請は、様式第六十三の十七による申請書（正本一通及び副本二通）を提出することによつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

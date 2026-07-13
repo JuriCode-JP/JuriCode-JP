@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-p1
+    type: simple
+    text: 公安委員会は、第百三条第一項又は第四項の規定により免許の効力を九十日以上停止しようとするとき（同条第一項第五号に係る場合を除く。）は、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-p2
+    type: simple
+    text: 公安委員会は、前項の聴聞又は第百三条第一項若しくは第四項の規定による免許の取消し（同条第一項各号（第五号を除く。）に係るものに限る。）若しくは同条第二項若しくは第四項の規定による免許の取消し（同条第二項第五号に係るものに限る。）に係る聴聞を行うに当たつては、その期日の一週間前までに、行政手続法第十五条第一項の規定による通知をし、かつ、聴聞の期日及び場所を公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-p3
+    type: simple
+    text: 前項の通知を行政手続法第十五条第三項に規定する方法によつて行う場合においては、同条第一項の規定により聴聞の期日までにおくべき相当な期間は、二週間を下回つてはならない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-p4
+    type: simple
+    text: 第二項の聴聞の期日における審理は、公開により行わなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-2-p5
+    type: simple
+    text: 第二項の聴聞の主宰者は、聴聞の期日において必要があると認めるときは、道路交通に関する事項に関し専門的知識を有する参考人又は当該事案の関係人の出頭を求め、これらの者からその意見又は事情を聴くことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

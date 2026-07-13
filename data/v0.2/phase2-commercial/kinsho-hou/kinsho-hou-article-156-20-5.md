@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-5-p1
+    type: simple
+    text: 内閣総理大臣は、第百五十六条の二十の三第一項の規定による免許の申請があつた場合において、その免許を与えることが適当でないと認めるときは、免許申請者に通知して、当該職員をして審問を行わせなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-20-5-p2
+    type: simple
+    text: 内閣総理大臣が、第百五十六条の二十の二の免許を与えることとし、又はこれを与えないこととした場合においては、遅滞なく、その旨を書面により免許申請者に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

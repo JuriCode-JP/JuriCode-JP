@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-20-6-p1-honbun
+    type: honbun
+    text: 事業者が、第十九条の規定に違反する行為（第二条第九項第五号に該当するものであつて、継続してするものに限る。）をしたときは、公正取引委員会は、第八章第二節に規定する手続に従い、当該事業者に対し、違反行為期間における、当該違反行為の相手方との間における政令で定める方法により算定した売上額（当該違反行為が商品又は役務の供給を受ける相手方に対するものである場合は当該違反行為の相手方との間における政令で定める方法により算定した購入額とし、当該違反行為の相手方が複数ある場合は当該違反行為のそれぞれの相手方との間における政令で定める方法により算定した売上額又は購入額の合計額とする。）に百分の一を乗じて得た額に相当する額の課徴金を国庫に納付することを命じなければならない。
+    modality: gimu
+  - id: dokusen-kinshi-hou-art-20-6-p1-tadashi
+    type: tadashi
+    text: ただし、その額が百万円未満であるときは、その納付を命ずることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

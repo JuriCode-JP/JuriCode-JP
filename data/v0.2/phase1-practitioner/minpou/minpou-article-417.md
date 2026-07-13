@@ -43,5 +43,4 @@ parent_section:
 
 ### 第四百十七条
 
-<!-- segment: simple id: minpou-art-417-p1 -->
 損害賠償は、別段の意思表示がないときは、金銭をもってその額を定める。

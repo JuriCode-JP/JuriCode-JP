@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-47-3-p1
+    type: simple
+    text: 金融商品取引業者は、内閣府令で定めるところにより、事業年度ごとに、前条の事業報告書に記載されている事項のうち投資者保護のため必要と認められるものとして内閣府令で定めるものを記載した説明書類を作成し、毎事業年度経過後政令で定める期間を経過した日から一年間、これを全ての営業所若しくは事務所に備え置いて公衆の縦覧に供し、又は内閣府令で定めるところにより、インターネットの利用その他の方法により公表しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

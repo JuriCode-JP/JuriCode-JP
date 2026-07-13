@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-29-p1
+    type: simple
+    text: 公判前整理手続又は期日間整理手続に付された事件を審理する場合には、第二百八十九条第一項に規定する事件に該当しないときであつても、弁護人がなければ開廷することはできない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

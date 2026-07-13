@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百二条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-302-p1 -->
 金融庁長官は、その登録をした信用格付業者に係る信用格付業者登録簿を、金融庁に備え置き、公衆の縦覧に供するものとする。

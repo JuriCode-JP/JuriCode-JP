@@ -14,14 +14,39 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-8-p1-hashira
+    type: hashira
+    text: 裁判所は、次の各号のいずれかに該当すると認めるときは、検察官の請求により、又は職権で、監督者を解任することができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-98-8-p1-kou-1
+    type: kou
+    text: 監督者が、正当な理由がなく、第九十八条の四第四項の規定による命令に違反したとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-98-8-p1-kou-2
+    type: kou
+    text: 心身の故障その他の事由により、監督者が第九十八条の四第四項の規定により命ぜられた事項をすることができない状態になつたとき。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-98-8-p1-kou-3
+    type: kou
+    text: 監督者から解任の申出があつたとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-98-8-p2
+    type: simple
+    text: 前項（第一号に係る部分に限る。）の規定により監督者を解任する場合には、裁判所は、決定で、監督保証金の全部又は一部を没取することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +66,12 @@ parent_section:
 ### 第九十八条の八第一項
 
 裁判所は、次の各号のいずれかに該当すると認めるときは、検察官の請求により、又は職権で、監督者を解任することができる。
+
+一　監督者が、正当な理由がなく、第九十八条の四第四項の規定による命令に違反したとき。
+
+二　心身の故障その他の事由により、監督者が第九十八条の四第四項の規定により命ぜられた事項をすることができない状態になつたとき。
+
+三　監督者から解任の申出があつたとき。
 
 ### 第九十八条の八第二項
 

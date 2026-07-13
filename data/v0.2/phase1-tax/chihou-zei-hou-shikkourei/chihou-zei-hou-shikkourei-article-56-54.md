@@ -37,5 +37,4 @@ parent_section:
 
 ### 第五十六条の五十四
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-56-54-p1 -->
 法第七百一条の四十一第一項の表の第六号に規定する政令で定める施設は、消費地食肉冷蔵施設で総務省令で定めるものとする。

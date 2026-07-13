@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-11-p1
+    type: simple
+    text: 納税者又は特別徴収義務者が質権又は抵当権の設定されている財産を譲り受けたときは、地方団体の徴収金は、その換価代金につき、その質権又は抵当権により担保される債権に次いで徴収する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-14-11-p2-zen
+    type: zen_dan
+    text: 前項の規定は、登記をすることができる質権以外の質権については、その質権者が、強制換価手続において、その執行機関に対し、同項の譲受前にその質権が設定されている事実を証明した場合に限り適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
+  - id: chihou-zei-hou-art-14-11-p2-kou
+    type: kou_dan
+    text: この場合においては、第十四条の九第三項後段及び第四項の規定を準用する。
+    modality: unspecified
+    depends_on: chihou-zei-hou-art-14-11-p2-zen
 cases: []
 amendments: []
 tags:

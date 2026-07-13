@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-114-2-p1
+    type: simple
+    text: 公安委員会は、免許の保留及び免許の効力の停止に関する事務（これらの処分の際の弁明の機会の付与、聴聞及び意見の聴取に関する事務を含む。）並びに仮免許を与えること及び仮免許の取消しに関する事務を警視総監又は道府県警察本部長（以下「警察本部長」という。）に行わせることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-114-2-p2
+    type: simple
+    text: 方面公安委員会は、前条の規定により道公安委員会から委任された事務のうち、前項の事務を方面本部長に行なわせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

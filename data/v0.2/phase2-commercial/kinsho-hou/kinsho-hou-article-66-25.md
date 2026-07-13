@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-25-p1
+    type: junyou
+    text: 第六十四条から第六十四条の九まで（第六十四条の七第二項を除く。）の規定は、金融商品仲介業者について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

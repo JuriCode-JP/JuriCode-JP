@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-6-p1
+    type: simple
+    text: 内閣総理大臣は、業務の運営に関し改善が必要であると認めるときは、この節の規定の施行に必要な限度において、認定協会に対し、その改善に必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-6-p2
+    type: simple
+    text: 内閣総理大臣は、認定協会の業務の運営がこの法律若しくはこの法律に基づく命令又はこれらに基づく処分に違反していると認めるときは、その認定を取り消し、又は六月以内の期間を定めてその業務の全部若しくは一部の停止を命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

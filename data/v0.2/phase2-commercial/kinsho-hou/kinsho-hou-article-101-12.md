@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-12-p1
+    type: simple
+    text: 申込者は、会員金融商品取引所の割り当てた組織変更時発行株式の数について組織変更時発行株式の引受人となる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

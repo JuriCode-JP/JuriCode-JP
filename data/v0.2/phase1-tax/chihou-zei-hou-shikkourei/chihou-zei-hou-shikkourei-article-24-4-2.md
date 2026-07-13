@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-24-4-2-p1
+    type: junyou
+    text: 第二十四条の三の規定は、法第七十二条の二十五第四項（法第七十二条の二十八第二項及び第七十二条の二十九第二項において準用する場合を含む。）の規定を適用する場合について準用する。この場合において、第二十四条の三第一項中「理由」とあるのは、「理由又は法人税法第二編第一章第一節第十一款第一目の規定その他通算法人（同法第二条第十二号の七の二に規定する通算法人をいう。）に適用される規定による法人税の所得の金額若しくは欠損金額及び法人税の額の計算を了することができない理由」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

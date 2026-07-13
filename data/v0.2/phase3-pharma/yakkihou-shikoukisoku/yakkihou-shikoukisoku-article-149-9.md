@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-9-p1
+    type: simple
+    text: 配置販売業者は、その区域において販売し、又は授与しようとする医薬品について広告をするときは、当該医薬品を配置販売によつて購入し、若しくは譲り受けた者又は配置した医薬品を使用した者による当該医薬品に関する意見その他医薬品の使用が不適正なものとなるおそれのある事項を表示してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-9-p2
+    type: simple
+    text: 配置販売業者は、医薬品の配置販売による購入又は譲受けの履歴その他の情報に基づき、自動的に特定の医薬品の配置販売による購入又は譲受けを勧誘する方法その他医薬品の使用が不適正なものとなるおそれのある方法により、医薬品に関して広告をしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

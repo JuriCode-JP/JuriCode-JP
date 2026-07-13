@@ -13,10 +13,23 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-4-p1-honbun
+    type: honbun
+    text: 第七十五条の五の二第一項又は前条の場合において、厚生労働大臣は、課徴金対象行為者が課徴金対象行為に該当する事実を厚生労働省令で定めるところにより厚生労働大臣に報告したときは、同項又は同条の規定により計算した課徴金の額に百分の五十を乗じて得た額を当該課徴金の額から減額するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
+  - id: yakkihou-art-75-5-4-p1-tadashi
+    type: tadashi
+    text: ただし、その報告が、当該課徴金対象行為についての調査があつたことにより当該課徴金対象行為について同項の規定による命令（以下「課徴金納付命令」という。）があるべきことを予知してされたものであるときは、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

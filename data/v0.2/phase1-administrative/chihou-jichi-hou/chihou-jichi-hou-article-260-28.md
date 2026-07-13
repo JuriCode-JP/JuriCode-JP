@@ -16,22 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-28-p1-zen
+    type: zen_dan
+    text: 認可地縁団体の清算人は、その就職後遅滞なく、公告をもつて、債権者に対し、一定の期間内にその債権の申出をすべき旨の催告をしなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-260-28-p1-kou
+    type: kou_dan
+    text: この場合において、その期間は、二月を下ることができない。
+    modality: kanou_negative
+    depends_on: chihou-jichi-hou-art-260-28-p1-zen
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-28-p2-honbun
+    type: honbun
+    text: 前項の公告には、債権者がその期間内に申出をしないときは清算から除斥されるべき旨を付記しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-260-28-p2-tadashi
+    type: tadashi
+    text: ただし、清算人は、知れている債権者を除斥することができない。
+    modality: kanou_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-28-p3
+    type: simple
+    text: 認可地縁団体の清算人は、知れている債権者には、各別にその申出の催告をしなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-28-p4
+    type: simple
+    text: 第一項の公告は、官報に掲載してする。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

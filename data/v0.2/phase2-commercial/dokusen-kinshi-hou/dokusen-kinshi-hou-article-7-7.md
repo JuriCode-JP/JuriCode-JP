@@ -13,20 +13,41 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-7-7-p1-honbun
+    type: honbun
+    text: 公正取引委員会は、第七条の二第一項の場合において、同一事件について、当該事業者に対し、罰金の刑に処する確定裁判があるときは、同条、第七条の三、第七条の四第二項若しくは第三項又は第七条の五第三項の規定により計算した額に代えて、その額から当該罰金額の二分の一に相当する金額を控除した額を課徴金の額とするものとする。
+    modality: gimu
+  - id: dokusen-kinshi-hou-art-7-7-p1-tadashi
+    type: tadashi
+    text: ただし、第七条の二、第七条の三、第七条の四第二項若しくは第三項若しくは第七条の五第三項の規定により計算した額が当該罰金額の二分の一に相当する金額を超えないとき、又は当該控除後の額が百万円未満であるときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-7-7-p2
+    type: simple
+    text: 前項ただし書の場合においては、公正取引委員会は、課徴金の納付を命ずることができない。
+    modality: kanou_negative
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-7-7-p3
+    type: simple
+    text: 公正取引委員会は、前項の規定により課徴金の納付を命じない場合には、罰金の刑に処せられた事業者に対し、当該事業者がした第七条の二第一項に規定する違反行為に係る事件について当該事業者以外の事業者に対し同項の規定による命令をする際に（当該命令をしない場合にあつては、公正取引委員会規則で定める時までに）、これと併せて文書をもつてその旨を通知するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

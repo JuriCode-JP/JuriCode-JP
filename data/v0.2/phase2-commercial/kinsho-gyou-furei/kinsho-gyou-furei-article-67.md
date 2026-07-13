@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三十五条第二項第二号に規定する内閣府令で定めるものは、次に掲げるものとする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-67-p1-kou-1
+    type: kou
+    text: 外国商品市場取引
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-67-p1-kou-2
+    type: kou
+    text: 店頭商品デリバティブ取引
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第六十七条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-67-p1-hashira -->
 法第三十五条第二項第二号に規定する内閣府令で定めるものは、次に掲げるものとする。
+
+一　外国商品市場取引
+
+二　店頭商品デリバティブ取引

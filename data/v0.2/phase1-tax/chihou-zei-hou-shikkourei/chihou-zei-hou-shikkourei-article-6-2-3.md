@@ -13,10 +13,34 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-2-3-p1-hashira
+    type: hashira
+    text: 法第十三条第二項の規定による納付の告知は、次に掲げる事項を記載した文書でしなければならない。ただし、滞納処分費につき直ちに滞納処分をしなければならないときは、徴税吏員に口頭で行わせることができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-shikkourei-art-6-2-3-p1-kou-1
+    type: kou
+    text: 滞納処分費の徴収の基因となつた地方団体の徴収金の年度及び税目
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-6-2-3-p1-kou-2
+    type: kou
+    text: 納付すべき金額
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-6-2-3-p1-kou-3
+    type: kou
+    text: 納期限
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-6-2-3-p1-kou-4
+    type: kou
+    text: 納付場所
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第六条の二の三
 
 法第十三条第二項の規定による納付の告知は、次に掲げる事項を記載した文書でしなければならない。ただし、滞納処分費につき直ちに滞納処分をしなければならないときは、徴税吏員に口頭で行わせることができる。
+
+一　滞納処分費の徴収の基因となつた地方団体の徴収金の年度及び税目
+
+二　納付すべき金額
+
+三　納期限
+
+四　納付場所

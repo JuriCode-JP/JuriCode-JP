@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百二十三条
 
-<!-- segment: simple id: chihou-zei-hou-art-323-p1 -->
 市町村長は、天災その他特別の事情がある場合において市町村民税の減免を必要とすると認める者、貧困に因り生活のため公私の扶助を受ける者その他特別の事情がある者に限り、当該市町村の条例の定めるところにより、市町村民税を減免することができる。但し、特別徴収義務者については、この限りでない。

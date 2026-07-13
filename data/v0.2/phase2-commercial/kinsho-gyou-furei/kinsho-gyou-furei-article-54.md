@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五十四条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-54-p1 -->
 削除

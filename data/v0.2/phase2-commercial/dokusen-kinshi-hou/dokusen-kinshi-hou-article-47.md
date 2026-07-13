@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 公正取引委員会は、事件について必要な調査をするため、次に掲げる処分をすることができる。
     modality: kanou_kenri
+  - id: dokusen-kinshi-hou-art-47-p1-kou-1
+    type: kou
+    text: 事件関係人又は参考人に出頭を命じて審尋し、又はこれらの者から意見若しくは報告を徴すること。
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-47-p1-kou-2
+    type: kou
+    text: 鑑定人に出頭を命じて鑑定させること。
+    modality: unspecified
+    item_number: 2
+  - id: dokusen-kinshi-hou-art-47-p1-kou-3
+    type: kou
+    text: 帳簿書類その他の物件の所持者に対し、当該物件の提出を命じ、又は提出物件を留めて置くこと。
+    modality: unspecified
+    item_number: 3
+  - id: dokusen-kinshi-hou-art-47-p1-kou-4
+    type: kou
+    text: 事件関係人の営業所その他必要な場所に立ち入り、業務及び財産の状況、帳簿書類その他の物件を検査すること。
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -70,20 +90,24 @@ parent_section:
 
 ### 第四十七条第一項
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-47-p1-hashira -->
 公正取引委員会は、事件について必要な調査をするため、次に掲げる処分をすることができる。
+
+一　事件関係人又は参考人に出頭を命じて審尋し、又はこれらの者から意見若しくは報告を徴すること。
+
+二　鑑定人に出頭を命じて鑑定させること。
+
+三　帳簿書類その他の物件の所持者に対し、当該物件の提出を命じ、又は提出物件を留めて置くこと。
+
+四　事件関係人の営業所その他必要な場所に立ち入り、業務及び財産の状況、帳簿書類その他の物件を検査すること。
 
 ### 第四十七条第二項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-47-p2 -->
 公正取引委員会が相当と認めるときは、政令で定めるところにより、公正取引委員会の職員を審査官に指定し、前項の処分をさせることができる。
 
 ### 第四十七条第三項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-47-p3 -->
 前項の規定により職員に立入検査をさせる場合においては、これに身分を示す証明書を携帯させ、関係者に提示させなければならない。
 
 ### 第四十七条第四項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-47-p4 -->
 第一項の規定による処分の権限は、犯罪捜査のために認められたものと解釈してはならない。

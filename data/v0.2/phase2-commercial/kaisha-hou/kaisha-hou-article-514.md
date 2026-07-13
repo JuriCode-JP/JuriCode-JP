@@ -14,13 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-514-p1
     type: simple
     text: 裁判所は、特別清算開始の申立てがあった場合において、特別清算開始の原因となる事由があると認めるときは、次のいずれかに該当する場合を除き、特別清算開始の命令をする。
     modality: unspecified
+  - id: kaisha-hou-art-514-p1-kou-1
+    type: kou
+    text: 特別清算の手続の費用の予納がないとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-514-p1-kou-2
+    type: kou
+    text: 特別清算によっても清算を結了する見込みがないことが明らかであるとき。
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-514-p1-kou-3
+    type: kou
+    text: 特別清算によることが債権者の一般の利益に反することが明らかであるとき。
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-514-p1-kou-4
+    type: kou
+    text: 不当な目的で特別清算開始の申立てがされたとき、その他申立てが誠実にされたものでないとき。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -43,5 +63,12 @@ parent_section:
 
 ### 第五百十四条
 
-<!-- segment: simple id: kaisha-hou-art-514-p1 -->
 裁判所は、特別清算開始の申立てがあった場合において、特別清算開始の原因となる事由があると認めるときは、次のいずれかに該当する場合を除き、特別清算開始の命令をする。
+
+一　特別清算の手続の費用の予納がないとき。
+
+二　特別清算によっても清算を結了する見込みがないことが明らかであるとき。
+
+三　特別清算によることが債権者の一般の利益に反することが明らかであるとき。
+
+四　不当な目的で特別清算開始の申立てがされたとき、その他申立てが誠実にされたものでないとき。

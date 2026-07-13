@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十三条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-43-p1 -->
 第四十四条に規定する資格に関する制限の外、官職に就く能力を有しない者は、受験することができない。

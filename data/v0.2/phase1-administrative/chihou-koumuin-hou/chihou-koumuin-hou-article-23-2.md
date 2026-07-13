@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-23-2-p1
+    type: simple
+    text: 職員の執務については、その任命権者は、定期的に人事評価を行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-23-2-p2
+    type: simple
+    text: 人事評価の基準及び方法に関する事項その他人事評価に関し必要な事項は、任命権者が定める。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-23-2-p3
+    type: simple
+    text: 前項の場合において、任命権者が地方公共団体の長及び議会の議長以外の者であるときは、同項に規定する事項について、あらかじめ、地方公共団体の長に協議しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

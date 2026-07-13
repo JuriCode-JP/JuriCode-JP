@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-5-p1
+    type: simple
+    text: 普通地方公共団体は、その事務を処理するに当たつて、事務の種類及び内容に応じ、第二条第十四項及び第十五項の規定の趣旨を達成するため必要があると認めるときは、情報システムを有効に利用するとともに、他の普通地方公共団体又は国と協力して当該事務の処理に係る情報システムの利用の最適化を図るよう努めなければならない。
+    modality: doryoku_gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-244-5-p2
+    type: simple
+    text: 普通地方公共団体は、その事務の処理に係る情報システムの利用に当たつて、サイバーセキュリティ（サイバーセキュリティ基本法（平成二十六年法律第百四号）第二条に規定するサイバーセキュリティをいう。次条第一項において同じ。）の確保、個人情報の保護その他の当該情報システムの適正な利用を図るために必要な措置を講じなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

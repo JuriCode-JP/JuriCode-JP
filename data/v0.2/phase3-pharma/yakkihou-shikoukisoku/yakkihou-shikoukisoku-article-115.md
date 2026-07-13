@@ -34,6 +34,16 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: yakkihou-shikoukisoku-art-115-p2-kou-1
+    type: kou
+    text: 法第二十三条の二の二十三第一項の厚生労働大臣が定める基準への適合性に関する資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-115-p2-kou-2
+    type: kou
+    text: 法第四十一条第三項又は法第四十二条第一項若しくは第二項の規定により基準が設けられている場合にあつては、当該基準への適合性に関する資料
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: true
@@ -45,6 +55,21 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: yakkihou-shikoukisoku-art-115-p3-kou-1
+    type: kou
+    text: 当該資料は、これを作成することを目的として行われた調査又は試験において得られた結果に基づき正確に作成されたものであること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-115-p3-kou-2
+    type: kou
+    text: 前号の調査又は試験において、申請に係る医療機器についてその申請に係る品質、有効性又は安全性を有することを疑わせる調査結果、試験成績等が得られた場合には、当該調査結果、試験成績等についても検討及び評価が行われ、その結果が当該資料に記載されていること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-115-p3-kou-3
+    type: kou
+    text: 当該資料の根拠になつた資料は、法第二十三条の二の二十三第一項の認証を与える又は与えない旨の処分の日まで保存されていること。ただし、資料の性質上その保存が著しく困難であると認められるものにあつては、この限りではない。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -63,15 +88,22 @@ parent_section:
 
 ### 第百十五条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-115-p1 -->
 法第二十三条の二の二十三第一項の指定高度管理医療機器等（同項に規定する指定高度管理医療機器等をいう。以下同じ。）の認証の申請は、様式第六十四による申請書（正副二通）を登録認証機関（同項に規定する登録認証機関をいう。以下同じ。）に提出することによつて行うものとする。
 
 ### 第百十五条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-115-p2-hashira -->
 前項の申請書には、次に掲げる書類を添えなければならない。
+
+一　法第二十三条の二の二十三第一項の厚生労働大臣が定める基準への適合性に関する資料
+
+二　法第四十一条第三項又は法第四十二条第一項若しくは第二項の規定により基準が設けられている場合にあつては、当該基準への適合性に関する資料
 
 ### 第百十五条第三項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-115-p3-hashira -->
 前項各号に掲げる資料（厚生労働大臣が基準を定めて指定する体外診断用医薬品の法第二十三条の二の二十三第一項の認証の申請に係る資料を除く。）は、次に掲げるところにより、収集され、かつ、作成されたものでなければならない。
+
+一　当該資料は、これを作成することを目的として行われた調査又は試験において得られた結果に基づき正確に作成されたものであること。
+
+二　前号の調査又は試験において、申請に係る医療機器についてその申請に係る品質、有効性又は安全性を有することを疑わせる調査結果、試験成績等が得られた場合には、当該調査結果、試験成績等についても検討及び評価が行われ、その結果が当該資料に記載されていること。
+
+三　当該資料の根拠になつた資料は、法第二十三条の二の二十三第一項の認証を与える又は与えない旨の処分の日まで保存されていること。ただし、資料の性質上その保存が著しく困難であると認められるものにあつては、この限りではない。

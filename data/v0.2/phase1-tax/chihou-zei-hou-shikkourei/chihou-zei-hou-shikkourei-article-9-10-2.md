@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-9-10-2-p1
+    type: junyou
+    text: 第九条の九の五第一項から第三項までの規定は、法第六十五条第二項において準用する法第五十六条第四項の規定による延滞金の計算について準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-9-10-2-p2
+    type: junyou
+    text: 前条第一項及び第二項の規定は、法第六十五条第三項において準用する法第六十四条第三項の規定による延滞金の計算について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -46,10 +46,8 @@ parent_section:
 
 ### 第三十二条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-32-p1 -->
 使用者は、労働者に、休憩時間を除き一週間について四十時間を超えて、労働させてはならない。
 
 ### 第三十二条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-32-p2 -->
 使用者は、一週間の各日については、労働者に、休憩時間を除き一日について八時間を超えて、労働させてはならない。

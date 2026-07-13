@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三百四十八条第二項第二十二号に規定する独立行政法人中小企業基盤整備機構が独立行政法人中小企業基盤整備機構法第十五条第一項第二号に規定する業務の用に供する固定資産で政令で定めるものは、当該業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-5-p1-kou-1
+    type: kou
+    text: 事務所の用に供する固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-5-p1-kou-2
+    type: kou
+    text: 宿舎の用に供する固定資産
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第五十一条の五
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-51-5-p1-hashira -->
 法第三百四十八条第二項第二十二号に規定する独立行政法人中小企業基盤整備機構が独立行政法人中小企業基盤整備機構法第十五条第一項第二号に規定する業務の用に供する固定資産で政令で定めるものは、当該業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する固定資産
+
+二　宿舎の用に供する固定資産

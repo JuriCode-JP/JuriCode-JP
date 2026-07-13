@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-97-3-p1
+    type: simple
+    text: 公安委員会は、不正の手段によつて運転免許試験を受け、又は受けようとした者に対しては、その運転免許試験を停止し、又は合格の決定を取り消すことができる。
+    modality: koka_torikeshi
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-97-3-p2-zen
+    type: zen_dan
+    text: 前項の規定により合格の決定を取り消したときは、公安委員会は、その旨を直ちにその者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-97-3-p2-kou
+    type: kou_dan
+    text: この場合において、当該運転免許試験に係る免許は、その通知を受けた日に効力を失うものとする。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-97-3-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-97-3-p3
+    type: simple
+    text: 公安委員会は、第一項の規定による処分を受けた者に対し、情状により、一年以内の期間を定めて、運転免許試験を受けることができないものとすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -57,6 +57,16 @@ paragraphs:
     type: hashira
     text: 理事長は、次に掲げる事項について、運営審議会の意見を聴かなければならない。
     modality: gimu
+  - id: chihou-zei-hou-art-784-p5-kou-1
+    type: kou
+    text: 第七百六十九条第一項第二号から第四号までに掲げる事項
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-784-p5-kou-2
+    type: kou
+    text: その他定款で定める事項
+    modality: unspecified
+    item_number: 2
 - number: 6
   has_proviso: false
   has_items: false
@@ -112,41 +122,36 @@ parent_section:
 
 ### 第七百八十四条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-784-p1 -->
 機構に、運営審議会を置く。
 
 ### 第七百八十四条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-784-p2 -->
 運営審議会は、定款で定める数の委員をもつて組織する。
 
 ### 第七百八十四条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-784-p3 -->
 委員は、地方税、法律又は情報システムに関して高い識見を有する者その他の学識経験のある者のうちから、代表者会議が任命する。
 
 ### 第七百八十四条第四項
 
-<!-- segment: simple id: chihou-zei-hou-art-784-p4 -->
 委員は、代表者会議の委員又は機構の役員と兼ねることができない。
 
 ### 第七百八十四条第五項
 
-<!-- segment: hashira id: chihou-zei-hou-art-784-p5-hashira -->
 理事長は、次に掲げる事項について、運営審議会の意見を聴かなければならない。
+
+一　第七百六十九条第一項第二号から第四号までに掲げる事項
+
+二　その他定款で定める事項
 
 ### 第七百八十四条第六項
 
-<!-- segment: simple id: chihou-zei-hou-art-784-p6 -->
 理事長は、前項第一号に掲げる事項について代表者会議の議決を求めるときは、運営審議会が当該事項について同項の規定により述べた意見を報告しなければならない。
 
 ### 第七百八十四条第七項
 
-<!-- segment: zen_dan id: chihou-zei-hou-art-784-p7-zen -->
-運営審議会は、第五項に定めるもののほか、機構の業務について、理事長の諮問に応じ、又は自ら必要と認める事項について、理事長に対し建議を行うことができる。<!-- segment: kou_dan id: chihou-zei-hou-art-784-p7-kou depends_on: chihou-zei-hou-art-784-p7-zen -->
-この場合において、運営審議会が当該建議のため必要と認めるときは、理事長に対し報告を求めることができる。
+運営審議会は、第五項に定めるもののほか、機構の業務について、理事長の諮問に応じ、又は自ら必要と認める事項について、理事長に対し建議を行うことができる。この場合において、運営審議会が当該建議のため必要と認めるときは、理事長に対し報告を求めることができる。
 
 ### 第七百八十四条第八項
 
-<!-- segment: simple id: chihou-zei-hou-art-784-p8 -->
 理事長は、第五項及び前項の規定により運営審議会が述べた意見を尊重しなければならない。

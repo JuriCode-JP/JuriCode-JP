@@ -48,10 +48,8 @@ parent_section:
 
 ### 第五十条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-50-p1 -->
 警察本部長は、国家公安委員会が道府県公安委員会の同意を得て、任免する。
 
 ### 第五十条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-50-p2 -->
 道府県公安委員会は、国家公安委員会に対し、警察本部長の懲戒又は罷免に関し必要な勧告をすることができる。

@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-43-p1-honbun
+    type: honbun
+    text: 総会の議事は、総会員の二分の一以上が出席してその出席者の議決権の過半数で決し、可否同数のときは、議長が決する。
+    modality: unspecified
+  - id: kinsho-hou-art-79-43-p1-tadashi
+    type: tadashi
+    text: ただし、前条第一項第一号、第三号及び第五号の議事は、出席者の議決権の三分の二以上の多数で決する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

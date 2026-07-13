@@ -24,6 +24,26 @@ paragraphs:
     references:
     - 同項
     - 次項
+  - id: sochi-hou-shikoukisoku-art-23-13-p1-kou-1
+    type: kou
+    text: 届出者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-23-13-p1-kou-2
+    type: kou
+    text: 収用交換等（法第七十条の八第一項に規定する収用交換等をいう。次項において同じ。）による譲渡をした同条第一項に規定する農地等の地目、面積及びその所在場所その他の明細並びに当該収用交換等による譲渡をした年月日
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-23-13-p1-kou-3
+    type: kou
+    text: 前号の農地等の譲渡先の名称及び所在地
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-23-13-p1-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -73,20 +93,24 @@ parent_section:
 
 ### 第二十三条の十三第一項
 
-<!-- segment: hashira id: sochi-hou-shikoukisoku-art-23-13-p1-hashira -->
 法第七十条の八第一項の規定の適用を受けようとする同項の受贈者は、同条第二項の届出書に同条第一項の規定の適用を受けたい旨及び次に掲げる事項を記載し、かつ、次項に定める書類を添付して、これを当該受贈者の納税地の所轄税務署長に提出しなければならない。
+
+一　届出者の氏名及び住所又は居所
+
+二　収用交換等（法第七十条の八第一項に規定する収用交換等をいう。次項において同じ。）による譲渡をした同条第一項に規定する農地等の地目、面積及びその所在場所その他の明細並びに当該収用交換等による譲渡をした年月日
+
+三　前号の農地等の譲渡先の名称及び所在地
+
+四　その他参考となるべき事項
 
 ### 第二十三条の十三第二項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-23-13-p2 -->
 前項の届出書に添付すべき書類は、公共事業施行者（法第三十三条の四第三項第一号に規定する公共事業施行者をいう。）の前項第二号の農地等につき収用交換等による譲渡を受けたことを証する書類（同号に掲げる事項の記載があるものに限る。）とする。
 
 ### 第二十三条の十三第三項
 
-<!-- segment: simple id: sochi-hou-shikoukisoku-art-23-13-p3 -->
 法第七十条の八第二項に規定する納税の猶予に係る期限後に同項の届出書を提出する場合には、当該届出書に、第一項各号に掲げる事項のほか当該届出書を当該期限までに提出することができなかつた事情の詳細を記載しなければならない。
 
 ### 第二十三条の十三第四項
 
-<!-- segment: junyou id: sochi-hou-shikoukisoku-art-23-13-p4 -->
 前三項の規定は、法第七十条の八第三項に規定する農業相続人又は同条第四項に規定する林業経営相続人が同条第三項又は第四項の規定の適用を受けようとする場合について準用する。

@@ -64,16 +64,12 @@ parent_section:
 
 ### 第百二十四条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-124-p1 -->
 登録認証機関は、登録認証機関の登録証を破り、汚し、又は失つたときは、その再交付を申請することができる。
 
 ### 第百二十四条第二項
 
-<!-- segment: zen_dan id: yakkihou-shikoukisoku-art-124-p2-zen -->
-前項の申請は、様式第四による申請書により厚生労働大臣に対して行わなければならない。<!-- segment: kou_dan id: yakkihou-shikoukisoku-art-124-p2-kou depends_on: yakkihou-shikoukisoku-art-124-p2-zen -->
-この場合において、登録証を破り、又は汚した申請者は、申請書にその登録証を添えなければならない。
+前項の申請は、様式第四による申請書により厚生労働大臣に対して行わなければならない。この場合において、登録証を破り、又は汚した申請者は、申請書にその登録証を添えなければならない。
 
 ### 第百二十四条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-124-p3 -->
 登録認証機関は、登録認証機関の登録証の再交付を受けた後、失つた登録証を発見したときは、直ちに厚生労働大臣にこれを返納しなければならない。

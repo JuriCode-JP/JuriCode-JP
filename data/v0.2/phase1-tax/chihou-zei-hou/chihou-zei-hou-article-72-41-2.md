@@ -16,22 +16,44 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-41-2-p1
+    type: simple
+    text: 道府県知事は、第七十二条の二第一項第一号イ及び第三号イに掲げる法人並びに同項第四号に掲げる事業を行う法人が申告書又は修正申告書を提出した場合において、当該申告又は修正申告に係る付加価値額若しくは資本金等の額又は付加価値割額若しくは資本割額がその調査したところと異なるときは、これを更正するものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-41-2-p2
+    type: simple
+    text: 道府県知事は、前項の法人が申告書を提出しなかつた場合（第七十二条の二十六第五項の規定により申告書の提出があつたものとみなされる場合を除く。）においては、その調査によつて、付加価値額及び資本金等の額並びに付加価値割額及び資本割額を決定するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-41-2-p3
+    type: simple
+    text: 道府県知事は、第一項若しくはこの項の規定により更正し、又は前項の規定により決定した付加価値額若しくは資本金等の額又は付加価値割額若しくは資本割額について過不足額があることを知つたときは、その調査によつて、これを更正するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-41-2-p4
+    type: simple
+    text: 第一項の法人が第七十二条の二十五、第七十二条の二十八又は第七十二条の二十九の規定により提出した申告書に記載された各事業年度の付加価値額又は資本金等の額が当該事業年度の課税標準とされるべき付加価値額又は資本金等の額を超えている場合において、その超える金額のうちに事実を仮装して経理したところに基づくものがあるときは、道府県知事は、当該事業年度に係る付加価値割又は資本割につき、その法人が当該事業年度後の各事業年度の確定した決算において当該事実に係る修正の経理をし、かつ、当該決算に基づく申告書を提出するまでの間は、更正をしないことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

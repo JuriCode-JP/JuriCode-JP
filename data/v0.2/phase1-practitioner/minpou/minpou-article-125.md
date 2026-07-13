@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 追認をすることができる時以後に、取り消すことができる行為について次に掲げる事実があったときは、追認をしたものとみなす。ただし、異議をとどめたときは、この限りでない。
     modality: jogai
+  - id: minpou-art-125-p1-kou-1
+    type: kou
+    text: 全部又は一部の履行
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-125-p1-kou-2
+    type: kou
+    text: 履行の請求
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-125-p1-kou-3
+    type: kou
+    text: 更改
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-125-p1-kou-4
+    type: kou
+    text: 担保の供与
+    modality: unspecified
+    item_number: 4
+  - id: minpou-art-125-p1-kou-5
+    type: kou
+    text: 取り消すことができる行為によって取得した権利の全部又は一部の譲渡
+    modality: unspecified
+    item_number: 5
+  - id: minpou-art-125-p1-kou-6
+    type: kou
+    text: 強制執行
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -41,5 +71,16 @@ parent_section:
 
 ### 第百二十五条
 
-<!-- segment: hashira id: minpou-art-125-p1-hashira -->
 追認をすることができる時以後に、取り消すことができる行為について次に掲げる事実があったときは、追認をしたものとみなす。ただし、異議をとどめたときは、この限りでない。
+
+一　全部又は一部の履行
+
+二　履行の請求
+
+三　更改
+
+四　担保の供与
+
+五　取り消すことができる行為によって取得した権利の全部又は一部の譲渡
+
+六　強制執行

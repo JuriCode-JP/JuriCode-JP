@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-29-p1
+    type: simple
+    text: 医療機器等適合性調査実施者（令第三十七条の二十三に規定する医療機器等適合性調査実施者をいう。）が同条の規定により医療機器等製造販売業許可権者（同条に規定する医療機器等製造販売業許可権者をいう。以下同じ。）に対して行う医療機器等適合性調査の結果の通知は、様式第六十三の十二による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

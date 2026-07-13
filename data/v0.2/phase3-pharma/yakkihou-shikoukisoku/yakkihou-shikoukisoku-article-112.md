@@ -44,6 +44,4 @@ parent_section:
 
 ### 第百十二条
 
-<!-- segment: zen_dan id: yakkihou-shikoukisoku-art-112-p1-zen -->
-医薬品の製造販売業者又は製造業者については、第十四条第一項及び第四項の規定を準用する。<!-- segment: kou_dan id: yakkihou-shikoukisoku-art-112-p1-kou depends_on: yakkihou-shikoukisoku-art-112-p1-zen -->
-この場合において、同条第四項中「三年間、前項の書面を記載の日から二年間」とあるのは、「三年間」と読み替えるものとする。
+医薬品の製造販売業者又は製造業者については、第十四条第一項及び第四項の規定を準用する。この場合において、同条第四項中「三年間、前項の書面を記載の日から二年間」とあるのは、「三年間」と読み替えるものとする。

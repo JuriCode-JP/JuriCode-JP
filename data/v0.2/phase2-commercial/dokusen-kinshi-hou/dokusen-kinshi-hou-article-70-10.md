@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-10-p1
+    type: simple
+    text: この法律に定めるものを除くほか、公正取引委員会の調査に関する手続その他事件の処理及び第七十条の五第一項の供託に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

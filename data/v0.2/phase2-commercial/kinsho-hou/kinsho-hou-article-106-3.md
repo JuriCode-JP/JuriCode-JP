@@ -16,32 +16,69 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-3-p1
+    type: tokusoku
+    text: 地方公共団体その他の政令で定める者（以下この条、第百六条の十四及び第百六条の十七において「地方公共団体等」という。）は、第百三条の二第一項の規定にかかわらず、内閣府令で定めるところにより、内閣総理大臣の認可を受けて、株式会社金融商品取引所の総株主の議決権の保有基準割合以上百分の五十以下の数の対象議決権を取得し、又は保有することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-3-p2
+    type: tokusoku
+    text: 前項の認可を受けた地方公共団体等は、同項及び第百三条の二第一項の規定にかかわらず、その保有する対象議決権の数に増加がない場合その他の内閣府令で定める場合には、株式会社金融商品取引所の総株主の議決権の百分の五十を超える対象議決権を取得し、又は保有することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-3-p3
+    type: simple
+    text: 前項の場合において、株式会社金融商品取引所の総株主の議決権の百分の五十を超える対象議決権を取得し、又は保有することとなつた地方公共団体等（以下この条において「特定保有団体等」という。）は、特定保有団体等になつた旨その他内閣府令で定める事項を、遅滞なく、内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-3-p4
+    type: simple
+    text: 第二項の場合において、特定保有団体等は、特定保有団体等となつた日から三月以内に、株式会社金融商品取引所の総株主の議決権の百分の五十以下の数の対象議決権の保有者となるために必要な措置をとらなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-3-p5
+    type: simple
+    text: 特定保有団体等は、前項の規定により株式会社金融商品取引所の総株主の議決権の百分の五十以下の数の対象議決権の保有者となつたときは、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-3-p6
+    type: junyou
+    text: 第三十条の二の規定は、第一項の認可について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

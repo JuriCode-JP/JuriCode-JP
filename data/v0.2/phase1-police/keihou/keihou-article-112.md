@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百十二条
 
-<!-- segment: simple id: keihou-art-112-p1 -->
 第百八条及び第百九条第一項の罪の未遂は、罰する。

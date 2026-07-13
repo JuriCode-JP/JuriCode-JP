@@ -21,6 +21,41 @@ paragraphs:
     type: hashira
     text: 一部事務組合の規約には、次に掲げる事項につき規定を設けなければならない。
     modality: gimu
+  - id: chihou-jichi-hou-art-287-p1-kou-1
+    type: kou
+    text: 一部事務組合の名称
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-287-p1-kou-2
+    type: kou
+    text: 一部事務組合の構成団体
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-287-p1-kou-3
+    type: kou
+    text: 一部事務組合の共同処理する事務
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-287-p1-kou-4
+    type: kou
+    text: 一部事務組合の事務所の位置
+    modality: unspecified
+    item_number: 4
+  - id: chihou-jichi-hou-art-287-p1-kou-5
+    type: kou
+    text: 一部事務組合の議会の組織及び議員の選挙の方法
+    modality: unspecified
+    item_number: 5
+  - id: chihou-jichi-hou-art-287-p1-kou-6
+    type: kou
+    text: 一部事務組合の執行機関の組織及び選任の方法
+    modality: unspecified
+    item_number: 6
+  - id: chihou-jichi-hou-art-287-p1-kou-7
+    type: kou
+    text: 一部事務組合の経費の支弁の方法
+    modality: unspecified
+    item_number: 7
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +85,22 @@ parent_section:
 
 ### 第二百八十七条第一項
 
-<!-- segment: hashira id: chihou-jichi-hou-art-287-p1-hashira -->
 一部事務組合の規約には、次に掲げる事項につき規定を設けなければならない。
+
+一　一部事務組合の名称
+
+二　一部事務組合の構成団体
+
+三　一部事務組合の共同処理する事務
+
+四　一部事務組合の事務所の位置
+
+五　一部事務組合の議会の組織及び議員の選挙の方法
+
+六　一部事務組合の執行機関の組織及び選任の方法
+
+七　一部事務組合の経費の支弁の方法
 
 ### 第二百八十七条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-287-p2 -->
 一部事務組合の議会の議員又は管理者（第二百八十七条の三第二項の規定により管理者に代えて理事会を置く第二百八十五条の一部事務組合にあつては、理事）その他の職員は、第九十二条第二項、第百四十一条第二項及び第百九十六条第三項（これらの規定を適用し又は準用する場合を含む。）の規定にかかわらず、当該一部事務組合の構成団体の議会の議員又は長その他の職員と兼ねることができる。

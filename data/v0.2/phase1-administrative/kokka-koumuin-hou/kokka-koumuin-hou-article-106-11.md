@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-11-p1
+    type: simple
+    text: 内閣総理大臣は、委員長又は委員が前条各号のいずれかに該当するときは、その委員長又は委員を罷免しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,27 +16,47 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-2-p1
+    type: simple
+    text: 人事委員会は、別に法律の定めるところにより、人事行政に関する調査、研究、企画、立案、勧告等を行い、職員の競争試験及び選考を実施し、並びに職員の勤務条件に関する措置の要求及び職員に対する不利益処分を審査し、並びにこれについて必要な措置を講ずる。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-2-p2
+    type: simple
+    text: 公平委員会は、別に法律の定めるところにより、職員の勤務条件に関する措置の要求及び職員に対する不利益処分を審査し、並びにこれについて必要な措置を講ずる。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-2-p3
+    type: simple
+    text: 労働委員会は、別に法律の定めるところにより、労働組合の資格の立証を受け及び証明を行い、並びに不当労働行為に関し調査し、審問し、命令を発し及び和解を勧め、労働争議のあつせん、調停及び仲裁を行い、その他労働関係に関する事務を執行する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-2-p4
+    type: simple
+    text: 農業委員会は、別に法律の定めるところにより、農地等の利用関係の調整、農地の交換分合その他農地に関する事務を執行する。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-2-p5
+    type: simple
+    text: 収用委員会は別に法律の定めるところにより土地の収用に関する裁決その他の事務を行い、海区漁業調整委員会又は内水面漁場管理委員会は別に法律の定めるところにより漁業調整のため必要な指示その他の事務を行い、固定資産評価審査委員会は別に法律の定めるところにより固定資産課税台帳に登録された価格に関する不服の審査決定その他の事務を行う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

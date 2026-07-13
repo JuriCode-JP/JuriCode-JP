@@ -31,8 +31,8 @@ paragraphs:
     text: 前条第二項において準用する第百十五条の規定により行政機関等匿名加工情報の利用に関する契約を行政機関の長と締結する者は、政令で定めるところにより、前項の政令で定める額を参酌して政令で定める額の手数料を納めなければならない。
     modality: gimu
     references:
-    - 前項
     - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -52,8 +52,8 @@ paragraphs:
     text: 前条第二項において準用する第百十五条の規定により行政機関等匿名加工情報の利用に関する契約を地方公共団体の機関と締結する者は、条例で定めるところにより、前項の政令で定める額を参酌して政令で定める額を標準として条例で定める額の手数料を納めなければならない。
     modality: gimu
     references:
-    - 前項
     - 前条
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
@@ -64,8 +64,8 @@ paragraphs:
     text: 第百十五条の規定（前条第二項において準用する場合を含む。第八項及び次条において同じ。）により行政機関等匿名加工情報の利用に関する契約を独立行政法人等と締結する者は、独立行政法人等の定めるところにより、利用料を納めなければならない。
     modality: gimu
     references:
-    - 次条
     - 前条
+    - 次条
 - number: 6
   has_proviso: false
   has_items: false
@@ -137,15 +137,10 @@ parent_section:
 
 ### 第百十九条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p1 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p3 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p8 -->
 第百十五条の規定により行政機関等匿名加工情報の利用に関する契約を行政機関の長と締結する者は、政令で定めるところにより、実費を勘案して政令で定める額の手数料を納めなければならない。
 
 ### 第百十九条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p2 -->
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p4 -->
 前条第二項において準用する第百十五条の規定により行政機関等匿名加工情報の利用に関する契約を行政機関の長と締結する者は、政令で定めるところにより、前項の政令で定める額を参酌して政令で定める額の手数料を納めなければならない。
 
 ### 第百十九条第三項
@@ -158,17 +153,14 @@ parent_section:
 
 ### 第百十九条第五項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p5 -->
 第百十五条の規定（前条第二項において準用する場合を含む。第八項及び次条において同じ。）により行政機関等匿名加工情報の利用に関する契約を独立行政法人等と締結する者は、独立行政法人等の定めるところにより、利用料を納めなければならない。
 
 ### 第百十九条第六項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p6 -->
 前項の利用料の額は、実費を勘案して合理的であると認められる範囲内において、独立行政法人等が定める。
 
 ### 第百十九条第七項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p7 -->
 独立行政法人等は、前二項の規定による定めを一般の閲覧に供しなければならない。
 
 ### 第百十九条第八項
@@ -177,10 +169,8 @@ parent_section:
 
 ### 第百十九条第九項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p9 -->
 前項の手数料の額は、実費を勘案し、かつ、第三項又は第四項の条例で定める手数料の額を参酌して、地方独立行政法人が定める。
 
 ### 第百十九条第十項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-119-p10 -->
 地方独立行政法人は、前二項の規定による定めを一般の閲覧に供しなければならない。

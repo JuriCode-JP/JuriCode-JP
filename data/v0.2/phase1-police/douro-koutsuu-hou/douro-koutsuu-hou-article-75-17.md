@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-17-p1
+    type: simple
+    text: 公安委員会は、第七十五条の十二第一項又は前条第一項の許可をしたときは、内閣府令で定めるところにより、その旨を公示しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -14,13 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-9-p1
     type: simple
     text: 数個の事件は、左の場合に関連するものとする。
     modality: gimu
+  - id: keiji-soshou-hou-art-9-p1-kou-1
+    type: kou
+    text: 一人が数罪を犯したとき。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-9-p1-kou-2
+    type: kou
+    text: 数人が共に同一又は別個の罪を犯したとき。
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-9-p1-kou-3
+    type: kou
+    text: 数人が通謀して各別に罪を犯したとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,10 +63,14 @@ parent_section:
 
 ### 第九条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-9-p1 -->
 数個の事件は、左の場合に関連するものとする。
+
+一　一人が数罪を犯したとき。
+
+二　数人が共に同一又は別個の罪を犯したとき。
+
+三　数人が通謀して各別に罪を犯したとき。
 
 ### 第九条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-9-p2 -->
 犯人蔵匿の罪、証憑湮滅の罪、偽証の罪、虚偽の鑑定通訳の罪及び贓物に関する罪とその本犯の罪とは、共に犯したものとみなす。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-6-p1
+    type: junyou
+    text: 第八条の十六の二の規定は、法第三百二十一条の八第三項の法人が通算承認の効力が生じた日の属する事業年度終了の日後に新たな事業を開始した場合における法人税法第五十七条第八項の規定によりないものとされた通算適用前欠損金額について準用する。この場合において、第八条の十六の二中「第五十三条第六項」とあるのは、「第三百二十一条の八第六項」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

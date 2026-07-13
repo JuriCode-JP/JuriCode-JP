@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-28-p1
+    type: simple
+    text: 裁判所は、審理の経過に鑑み必要と認めるときは、検察官、被告人若しくは弁護人の請求により又は職権で、第一回公判期日後に、決定で、事件の争点及び証拠を整理するための公判準備として、事件を期日間整理手続に付することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-28-p2-zen
+    type: zen_dan
+    text: 期日間整理手続については、前款（第三百十六条の二第一項及び第三百十六条の九第三項を除く。）の規定を準用する。
+    modality: unspecified
+  - id: keiji-soshou-hou-art-316-28-p2-kou
+    type: kou_dan
+    text: この場合において、検察官、被告人又は弁護人が前項の決定前に取調べを請求している証拠については、期日間整理手続において取調べを請求した証拠とみなし、第三百十六条の六から第三百十六条の十まで及び第三百十六条の十二中「公判前整理手続期日」とあるのは「期日間整理手続期日」と、同条第二項中「公判前整理手続調書」とあるのは「期日間整理手続調書」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
+    depends_on: keiji-soshou-hou-art-316-28-p2-zen
 cases: []
 amendments: []
 tags:

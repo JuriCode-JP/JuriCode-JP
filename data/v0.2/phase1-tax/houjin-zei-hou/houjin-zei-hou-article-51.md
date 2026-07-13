@@ -45,5 +45,4 @@ parent_section:
 
 ### 第五十一条
 
-<!-- segment: simple id: houjin-zei-hou-art-51-p1 -->
 削除

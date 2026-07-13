@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八百六十九条
 
-<!-- segment: simple id: kaisha-hou-art-869-p1 -->
 この法律の規定による許可の申立てをする場合には、その原因となる事実を疎明しなければならない。

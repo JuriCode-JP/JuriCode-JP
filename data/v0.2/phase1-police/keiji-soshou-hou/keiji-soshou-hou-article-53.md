@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -71,20 +71,16 @@ parent_section:
 
 ### 第五十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-53-p1 -->
 何人も、被告事件の終結後、訴訟記録を閲覧することができる。但し、訴訟記録の保存又は裁判所若しくは検察庁の事務に支障のあるときは、この限りでない。
 
 ### 第五十三条第二項
 
-<!-- segment: tokusoku id: keiji-soshou-hou-art-53-p2 override_flag: true override_target: 前項 -->
 弁論の公開を禁止した事件の訴訟記録又は一般の閲覧に適しないものとしてその閲覧が禁止された訴訟記録は、前項の規定にかかわらず、訴訟関係人又は閲覧につき正当な理由があつて特に訴訟記録の保管者の許可を受けた者でなければ、これを閲覧することができない。
 
 ### 第五十三条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-53-p3 -->
 日本国憲法第八十二条第二項但書に掲げる事件については、閲覧を禁止することはできない。
 
 ### 第五十三条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-53-p4 -->
 訴訟記録の保管及びその閲覧の手数料については、別に法律でこれを定める。

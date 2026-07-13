@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 債権は、次に掲げる場合には、時効によって消滅する。
     modality: unspecified
+  - id: minpou-art-166-p1-kou-1
+    type: kou
+    text: 債権者が権利を行使することができることを知った時から五年間行使しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-166-p1-kou-2
+    type: kou
+    text: 権利を行使することができる時から十年間行使しないとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -65,16 +75,16 @@ parent_section:
 
 ### 第百六十六条第一項
 
-<!-- segment: hashira id: minpou-art-166-p1-hashira -->
 債権は、次に掲げる場合には、時効によって消滅する。
+
+一　債権者が権利を行使することができることを知った時から五年間行使しないとき。
+
+二　権利を行使することができる時から十年間行使しないとき。
 
 ### 第百六十六条第二項
 
-<!-- segment: simple id: minpou-art-166-p2 -->
 債権又は所有権以外の財産権は、権利を行使することができる時から二十年間行使しないときは、時効によって消滅する。
 
 ### 第百六十六条第三項
 
-<!-- segment: honbun id: minpou-art-166-p3-honbun -->
-前二項の規定は、始期付権利又は停止条件付権利の目的物を占有する第三者のために、その占有の開始の時から取得時効が進行することを妨げない。<!-- segment: tadashi id: minpou-art-166-p3-tadashi -->
-ただし、権利者は、その時効を更新するため、いつでも占有者の承認を求めることができる。
+前二項の規定は、始期付権利又は停止条件付権利の目的物を占有する第三者のために、その占有の開始の時から取得時効が進行することを妨げない。ただし、権利者は、その時効を更新するため、いつでも占有者の承認を求めることができる。

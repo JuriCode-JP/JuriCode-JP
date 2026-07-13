@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-50-p1
+    type: simple
+    text: 金融商品取引業者等及び取引所取引許可業者（金融商品取引業若しくは登録金融機関業務又は取引所取引業務として高速取引行為を行い、又は行おうとする者に限る。）以外の者は、高速取引行為を行おうとするときは、内閣総理大臣の登録を受けなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-817-9-p1-honbun
+    type: honbun
+    text: 養子と実方の父母及びその血族との親族関係は、特別養子縁組によって終了する。
+    modality: unspecified
+  - id: minpou-art-817-9-p1-tadashi
+    type: tadashi
+    text: ただし、第八百十七条の三第二項ただし書に規定する他の一方及びその血族との親族関係については、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

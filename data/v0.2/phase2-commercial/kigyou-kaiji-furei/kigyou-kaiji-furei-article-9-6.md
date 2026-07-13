@@ -16,12 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-9-6-p1
+    type: simple
+    text: 法第五条第六項に規定する内閣府令で定める場合は、届出書提出外国会社（同項に規定する届出書提出外国会社又は届出書提出外国者をいう。以下同じ。）が同条第一項（同条第五項において準用する場合を含む。以下同じ。）の規定による届出書に代えて外国会社届出書を提出することを、その用語、様式及び作成方法に照らし、金融庁長官が公益又は投資者保護に欠けることがないものとして認める場合とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-9-6-p2-hashira
+    type: hashira
+    text: 法第五条第六項第二号に規定する内閣府令で定める者は、次に掲げる者とする。
+    modality: gimu
+  - id: kigyou-kaiji-furei-art-9-6-p2-kou-1
+    type: kou
+    text: 外国金融商品市場を開設する者
+    modality: unspecified
+    item_number: 1
+  - id: kigyou-kaiji-furei-art-9-6-p2-kou-2
+    type: kou
+    text: 外国金融商品市場に準ずるものとして外国に開設された店頭売買有価証券市場（法第六十七条第二項に規定する店頭売買有価証券市場をいう。第十四条の十四の二第一項第二号において同じ。）の性質を有する市場を開設する者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -40,3 +60,7 @@ tags:
 ### 第九条の六第二項
 
 法第五条第六項第二号に規定する内閣府令で定める者は、次に掲げる者とする。
+
+一　外国金融商品市場を開設する者
+
+二　外国金融商品市場に準ずるものとして外国に開設された店頭売買有価証券市場（法第六十七条第二項に規定する店頭売買有価証券市場をいう。第十四条の十四の二第一項第二号において同じ。）の性質を有する市場を開設する者

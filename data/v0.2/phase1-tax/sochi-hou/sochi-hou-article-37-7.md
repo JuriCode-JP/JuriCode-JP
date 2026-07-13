@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十七条の七
 
-<!-- segment: simple id: sochi-hou-art-37-7-p1 -->
 削除

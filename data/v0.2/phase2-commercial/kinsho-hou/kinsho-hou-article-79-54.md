@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-54-p1
+    type: simple
+    text: 基金は、前条第一項又は第三項から第五項までの規定による通知を受けた場合には、投資者の保護に欠けるおそれがないことが明らかであると認められるときを除き、当該通知に係る金融商品取引業者（以下「通知金融商品取引業者」という。）につき、顧客資産の返還に係る債務の円滑な履行が困難であるかどうかの認定を、遅滞なく、行わなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

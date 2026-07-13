@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-40-6-p1
+    type: simple
+    text: 金融商品取引業者等は、商品関連市場デリバティブ取引等（商品関連市場デリバティブ取引又はその委託の媒介、取次ぎ若しくは代理をいう。以下この条において同じ。）の委託を受けたときは、その委託に係る商品関連市場デリバティブ取引等をしないで、自己がその相手方となつて取引を成立させてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

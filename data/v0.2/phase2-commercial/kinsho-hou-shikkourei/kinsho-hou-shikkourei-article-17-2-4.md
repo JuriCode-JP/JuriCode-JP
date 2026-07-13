@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-2-4-p1
+    type: simple
+    text: 法第五十七条の二第九項に規定する政令で定める要件に該当する者は、第十五条の十六の二第一項各号に掲げる者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

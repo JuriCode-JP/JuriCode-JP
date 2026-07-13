@@ -16,47 +16,91 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-2-p1
+    type: simple
+    text: 協会員又は金融商品仲介業者の行う有価証券の売買その他の取引又はデリバティブ取引等につき争いがある場合においては、当事者は、その争いの解決を図るため、認可協会に申し立て、あつせんを求めることができる。
+    modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-2-p2-honbun
+    type: honbun
+    text: 認可協会は、前項の規定による申立てを受けたときは、学識経験を有する者であつてその申立てに係る争い（以下この条において「事件」という。）の当事者と特別の利害関係のない者をあつせん委員として選任し、当該あつせん委員によるあつせんに付するものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-77-2-p2-tadashi
+    type: tadashi
+    text: ただし、あつせん委員は、事件がその性質上あつせんを行うのに適当でないと認めるとき、又は当事者が不当な目的でみだりにあつせんの申立てをしたと認めるときは、あつせんを行わないものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-2-p3
+    type: simple
+    text: あつせん委員は、当事者若しくは参考人から意見を聴取し、若しくは報告書の提出を求め、又は当事者から参考となるべき帳簿書類その他の物件の提出を求め、適当と認めたときは、事件の解決に必要なあつせん案を作成し、その受諾を勧告することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-2-p4
+    type: simple
+    text: 前三項の場合において、金融商品仲介業者が当事者であるときは、その所属金融商品取引業者等も当事者とみなす。
+    modality: unspecified
+    references:
+    - 前三項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-2-p5
+    type: simple
+    text: 協会員又は金融商品仲介業者は、第三項の規定による求めがあつたときは、正当な理由がないのに、これを拒んではならない。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-2-p6
+    type: simple
+    text: 認可協会は、あつせんに関し要した費用の全部又は一部を、当事者から徴収することができる。
+    modality: kanou_kenri
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-2-p7
+    type: simple
+    text: あつせん委員又はその職にあつた者は、その職務に関して知り得た秘密を漏らし、又は盗用してはならない。
+    modality: gimu_negative
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-2-p8
+    type: simple
+    text: あつせん委員又はその職にあつた者は、その職務に関して知り得た情報を、認可協会の業務の用に供する目的以外に利用してはならない。
+    modality: gimu_negative
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-2-p9
+    type: simple
+    text: 第一項の規定は、認可協会が第百五十六条の三十九第一項の規定による指定を受けている場合において、第一項の争いが当該指定に係る紛争解決等業務の種別に係るときは、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

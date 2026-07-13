@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九十九条
 
-<!-- segment: simple id: keihou-art-99-p1 -->
 法令により拘禁された者を奪取した者は、三月以上五年以下の拘禁刑に処する。

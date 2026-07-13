@@ -45,5 +45,4 @@ parent_section:
 
 ### 第八百五十六条
 
-<!-- segment: junyou id: minpou-art-856-p1 applies_provisions: 前三条 -->
 前三条の規定は、後見人が就職した後被後見人が包括財産を取得した場合について準用する。

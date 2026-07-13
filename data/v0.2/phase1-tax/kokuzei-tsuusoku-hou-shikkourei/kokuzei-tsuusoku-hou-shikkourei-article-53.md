@@ -21,6 +21,41 @@ paragraphs:
     type: hashira
     text: 法第百五十五条第二号（間接国税以外の国税に関する犯則事件等についての告発）に規定する政令で定める罪は、次に掲げる罪とする。
     modality: gimu
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-53-p1-kou-1
+    type: kou
+    text: 酒税法第五十五条第一項又は第三項（罰則）の罪
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-53-p1-kou-2
+    type: kou
+    text: たばこ税法（昭和五十九年法律第七十二号）第二十七条第一項又は第三項（罰則）の罪
+    modality: unspecified
+    item_number: 2
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-53-p1-kou-3
+    type: kou
+    text: 揮発油税法（昭和三十二年法律第五十五号）第二十七条第一項又は第三項（罰則）の罪
+    modality: unspecified
+    item_number: 3
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-53-p1-kou-4
+    type: kou
+    text: 地方揮発油税法（昭和三十年法律第百四号）第十五条第一項又は第三項（罰則）の罪
+    modality: unspecified
+    item_number: 4
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-53-p1-kou-5
+    type: kou
+    text: 石油ガス税法第二十七条第一項又は第三項（罰則）の罪
+    modality: unspecified
+    item_number: 5
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-53-p1-kou-6
+    type: kou
+    text: 石油石炭税法第二十三条第一項又は第三項（罰則）の罪
+    modality: unspecified
+    item_number: 6
+  - id: kokuzei-tsuusoku-hou-shikkourei-art-53-p1-kou-7
+    type: kou
+    text: 輸入品に対する内国消費税の徴収等に関する法律第二十三条第一項（罰則）の罪
+    modality: unspecified
+    item_number: 7
 cases: []
 amendments: []
 tags:
@@ -37,5 +72,18 @@ parent_section:
 
 ### 第五十三条
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-shikkourei-art-53-p1-hashira -->
 法第百五十五条第二号（間接国税以外の国税に関する犯則事件等についての告発）に規定する政令で定める罪は、次に掲げる罪とする。
+
+一　酒税法第五十五条第一項又は第三項（罰則）の罪
+
+二　たばこ税法（昭和五十九年法律第七十二号）第二十七条第一項又は第三項（罰則）の罪
+
+三　揮発油税法（昭和三十二年法律第五十五号）第二十七条第一項又は第三項（罰則）の罪
+
+四　地方揮発油税法（昭和三十年法律第百四号）第十五条第一項又は第三項（罰則）の罪
+
+五　石油ガス税法第二十七条第一項又は第三項（罰則）の罪
+
+六　石油石炭税法第二十三条第一項又は第三項（罰則）の罪
+
+七　輸入品に対する内国消費税の徴収等に関する法律第二十三条第一項（罰則）の罪

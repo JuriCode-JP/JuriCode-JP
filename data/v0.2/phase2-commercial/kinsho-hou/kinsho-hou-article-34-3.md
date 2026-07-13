@@ -16,67 +16,193 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p1
+    type: simple
+    text: 法人（特定投資家を除く。）は、金融商品取引業者等に対し、契約の種類ごとに、当該契約の種類に属する金融商品取引契約に関して自己を特定投資家として取り扱うよう申し出ることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p2-hashira
+    type: hashira
+    text: 金融商品取引業者等は、前項の規定による申出を承諾する場合には、あらかじめ、次に掲げる事項を記載した書面により、当該申出をした法人（以下この条において「申出者」という。）の同意を得なければならない。この場合において、第二号に規定する期限日は、第一号に規定する承諾日から起算して一年を経過する日（内閣府令で定める場合にあつては、当該経過する日前で内閣府令で定める日）としなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-34-3-p2-kou-1
+    type: kou
+    text: この項の規定による承諾をする日（以下この条において「承諾日」という。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-34-3-p2-kou-2
+    type: kou
+    text: 当該申出に係る契約の種類に属する金融商品取引契約（以下この条において「対象契約」という。）の締結の勧誘又は締結をする場合において、申出者を特定投資家として取り扱う期間の末日（以下この条において「期限日」という。）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-34-3-p2-kou-3
+    type: kou
+    text: 対象契約の属する契約の種類
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-34-3-p2-kou-4
+    type: kou
+    text: '当該申出者が次に掲げる事項を理解している旨
+
+      イ 特定投資家が金融商品取引業者等から対象契約の締結の勧誘を受け、又は当該金融商品取引業者等に対象契約の申込みをし、若しくは当該金融商品取引業者等と対象契約を締結する場合におけるこの法律の規定の適用の特例の内容として内閣府令で定める事項
+
+      ロ 対象契約に関して特定投資家として取り扱われることがその知識、経験及び財産の状況に照らして適当ではない者が特定投資家として取り扱われる場合には、当該者の保護に欠けることとなるおそれがある旨'
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-art-34-3-p2-kou-5
+    type: kou
+    text: 期限日以前に対象契約の締結の勧誘又は締結をする場合において、当該申出者を特定投資家として取り扱う旨
+    modality: unspecified
+    item_number: 5
+  - id: kinsho-hou-art-34-3-p2-kou-6
+    type: kou
+    text: 期限日後に対象契約の締結の勧誘又は締結をする場合において、当該申出者を特定投資家以外の顧客として取り扱う旨
+    modality: unspecified
+    item_number: 6
+  - id: kinsho-hou-art-34-3-p2-kou-7
+    type: kou
+    text: その他内閣府令で定める事項
+    modality: unspecified
+    item_number: 7
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p3
+    type: junyou
+    text: 前条第十二項の規定は、前項の規定による書面による同意について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p4-hashira
+    type: hashira
+    text: 金融商品取引業者等が第二項の規定による承諾をし、かつ、申出者が同項の規定による書面による同意をした場合であつて、当該申出者が次に掲げる者である場合におけるこの法律（第二十九条の五第三項及びこの款を除く。）の規定の適用については、当該申出者は、特定投資家とみなす。
+    modality: unspecified
+    references:
+    - 同項
+  - id: kinsho-hou-art-34-3-p4-kou-1
+    type: kou
+    text: 当該金融商品取引業者等が承諾日から期限日までに行う対象契約の締結の勧誘の相手方
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-34-3-p4-kou-2
+    type: kou
+    text: 当該金融商品取引業者等が承諾日から期限日までに締結する対象契約の相手方
+    modality: unspecified
+    item_number: 2
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p5
+    type: simple
+    text: 金融商品取引業者等は、対象契約（第二条第八項第二号から第四号まで、第十号及び第十三号に規定する代理を行うことを内容とするものに限る。以下この項及び次項において「特定対象契約」という。）の締結に関して申出者が前項の規定の適用を受ける場合において、当該特定対象契約に基づき当該申出者を代理して期限日以前に金融商品取引契約を締結するときは、当該金融商品取引契約の相手方である他の金融商品取引業者等（次項において「相手方金融商品取引業者等」という。）に対し、あらかじめ、当該金融商品取引契約に関して申出者が特定投資家とみなされる旨を告知しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p6
+    type: simple
+    text: 特定対象契約を締結した金融商品取引業者等が前項の規定による告知をした場合には、当該金融商品取引業者等が当該特定対象契約に基づき申出者を代理して相手方金融商品取引業者等との間で締結する金融商品取引契約（期限日以前に締結するものに限る。）については、当該申出者を特定投資家とみなして、この法律（第二十九条の五第三項及びこの款を除く。）の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p7
+    type: simple
+    text: 申出者は、期限日以前に対象契約の属する契約の種類に係る第一項の規定による申出（次項において「更新申出」という。）をする場合には、承諾日から起算して内閣府令で定める期間を経過する日以後にしなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p8
+    type: simple
+    text: 申出者が更新申出をする場合における第二項及び前項の規定の適用については、第二項中「第一号に規定する承諾日」とあるのは「前回の期限日の翌日」と、前項中「承諾日」とあるのは「前回の期限日の翌日」とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p9
+    type: simple
+    text: 申出者は、承諾日以後いつでも、金融商品取引業者等に対し、対象契約に関して自己を再び特定投資家以外の顧客として取り扱うよう申し出ることができる。
+    modality: kanou_kenri
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p10
+    type: simple
+    text: 金融商品取引業者等は、前項の規定による申出を受けた後最初に対象契約の締結の勧誘又は締結のいずれかを行うまでに、当該申出を承諾しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p11
+    type: simple
+    text: 金融商品取引業者等は、前項の規定により承諾する場合には、第九項の規定による申出をした法人に対し、あらかじめ、前項の規定による承諾をする日その他の内閣府令で定める事項を記載した書面を交付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p12
+    type: junyou
+    text: 前条第四項の規定は、前項の規定による書面の交付について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-34-3-p13
+    type: simple
+    text: 金融商品取引業者等が第十項の規定による承諾をした場合には、同項の規定による承諾をした日以後新たに第二項の規定による承諾をする日の前日までの間は、第四項から第九項までの規定は、適用しない。
+    modality: jogai
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -103,6 +229,24 @@ parent_section:
 
 金融商品取引業者等は、前項の規定による申出を承諾する場合には、あらかじめ、次に掲げる事項を記載した書面により、当該申出をした法人（以下この条において「申出者」という。）の同意を得なければならない。この場合において、第二号に規定する期限日は、第一号に規定する承諾日から起算して一年を経過する日（内閣府令で定める場合にあつては、当該経過する日前で内閣府令で定める日）としなければならない。
 
+一　この項の規定による承諾をする日（以下この条において「承諾日」という。）
+
+二　当該申出に係る契約の種類に属する金融商品取引契約（以下この条において「対象契約」という。）の締結の勧誘又は締結をする場合において、申出者を特定投資家として取り扱う期間の末日（以下この条において「期限日」という。）
+
+三　対象契約の属する契約の種類
+
+四　当該申出者が次に掲げる事項を理解している旨
+
+　イ　特定投資家が金融商品取引業者等から対象契約の締結の勧誘を受け、又は当該金融商品取引業者等に対象契約の申込みをし、若しくは当該金融商品取引業者等と対象契約を締結する場合におけるこの法律の規定の適用の特例の内容として内閣府令で定める事項
+
+　ロ　対象契約に関して特定投資家として取り扱われることがその知識、経験及び財産の状況に照らして適当ではない者が特定投資家として取り扱われる場合には、当該者の保護に欠けることとなるおそれがある旨
+
+五　期限日以前に対象契約の締結の勧誘又は締結をする場合において、当該申出者を特定投資家として取り扱う旨
+
+六　期限日後に対象契約の締結の勧誘又は締結をする場合において、当該申出者を特定投資家以外の顧客として取り扱う旨
+
+七　その他内閣府令で定める事項
+
 ### 第三十四条の三第三項
 
 前条第十二項の規定は、前項の規定による書面による同意について準用する。
@@ -110,6 +254,10 @@ parent_section:
 ### 第三十四条の三第四項
 
 金融商品取引業者等が第二項の規定による承諾をし、かつ、申出者が同項の規定による書面による同意をした場合であつて、当該申出者が次に掲げる者である場合におけるこの法律（第二十九条の五第三項及びこの款を除く。）の規定の適用については、当該申出者は、特定投資家とみなす。
+
+一　当該金融商品取引業者等が承諾日から期限日までに行う対象契約の締結の勧誘の相手方
+
+二　当該金融商品取引業者等が承諾日から期限日までに締結する対象契約の相手方
 
 ### 第三十四条の三第五項
 

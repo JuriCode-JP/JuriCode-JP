@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第百七十六条第一項（信託財産に係る利子等の課税の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-72-2-p1-kou-1
+    type: kou
+    text: 法第百七十六条第一項に規定する内国信託会社（次条第一号において「内国信託会社」という。）の名称及び本店の所在地
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-72-2-p1-kou-2
+    type: kou
+    text: 法第百七十六条第一項に規定する証券投資信託の信託された営業所の名称及び所在地並びに当該証券投資信託に係る信託契約の委託者の氏名又は名称
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-72-2-p1-kou-3
+    type: kou
+    text: 法第百七十六条第一項の規定による登載をした年月日
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -41,5 +56,10 @@ parent_section:
 
 ### 第七十二条の二
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-72-2-p1-hashira -->
 法第百七十六条第一項（信託財産に係る利子等の課税の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第百七十六条第一項に規定する内国信託会社（次条第一号において「内国信託会社」という。）の名称及び本店の所在地
+
+二　法第百七十六条第一項に規定する証券投資信託の信託された営業所の名称及び所在地並びに当該証券投資信託に係る信託契約の委託者の氏名又は名称
+
+三　法第百七十六条第一項の規定による登載をした年月日

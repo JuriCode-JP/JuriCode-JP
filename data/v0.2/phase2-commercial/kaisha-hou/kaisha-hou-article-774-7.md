@@ -14,14 +14,34 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-774-7-p1-hashira
+    type: hashira
+    text: 次の各号に掲げる者は、当該各号に定める株式交付子会社の株式の数について株式交付における株式交付子会社の株式の譲渡人となる。
+    modality: unspecified
+  - id: kaisha-hou-art-774-7-p1-kou-1
+    type: kou
+    text: 申込者　第七百七十四条の五第二項の規定により通知を受けた株式交付子会社の株式の数
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-774-7-p1-kou-2
+    type: kou
+    text: 前条の契約により株式交付親会社が株式交付に際して譲り受ける株式交付子会社の株式の総数を譲り渡すことを約した者　その者が譲り渡すことを約した株式交付子会社の株式の数
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-774-7-p2
+    type: simple
+    text: 前項各号の規定により株式交付子会社の株式の譲渡人となった者は、効力発生日に、それぞれ当該各号に定める数の株式交付子会社の株式を株式交付親会社に給付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +61,10 @@ parent_section:
 ### 第七百七十四条の七第一項
 
 次の各号に掲げる者は、当該各号に定める株式交付子会社の株式の数について株式交付における株式交付子会社の株式の譲渡人となる。
+
+一　申込者　第七百七十四条の五第二項の規定により通知を受けた株式交付子会社の株式の数
+
+二　前条の契約により株式交付親会社が株式交付に際して譲り受ける株式交付子会社の株式の総数を譲り渡すことを約した者　その者が譲り渡すことを約した株式交付子会社の株式の数
 
 ### 第七百七十四条の七第二項
 

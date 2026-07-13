@@ -13,30 +13,71 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-11-p1-honbun
+    type: honbun
+    text: 公開買付者は、公開買付開始公告をした後においては、公開買付けに係る申込みの撤回及び契約の解除（以下この節において「公開買付けの撤回等」という。）を行うことができない。
+    modality: kanou_negative
+  - id: kinsho-hou-art-27-11-p1-tadashi
+    type: tadashi
+    text: ただし、公開買付者が公開買付開始公告及び公開買付届出書において公開買付けに係る株券等の発行者若しくはその子会社（会社法第二条第三号に規定する子会社をいう。）の業務若しくは財産に関する重要な変更その他の公開買付けの目的の達成に重大な支障となる事情（政令で定めるものに限る。）が生じたときは公開買付けの撤回等をすることがある旨の条件を付した場合又は公開買付者に関し破産手続開始の決定その他の政令で定める重要な事情の変更が生じた場合には、この限りでない。
+    modality: jogai
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-11-p2-honbun
+    type: honbun
+    text: 前項ただし書の規定による公開買付けの撤回等を行おうとする場合には、公開買付期間の末日までに、政令で定めるところにより、当該公開買付けの撤回等を行う旨及びその理由その他の内閣府令で定める事項を公告しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-art-27-11-p2-tadashi
+    type: tadashi
+    text: ただし、公告を当該末日までに行うことが困難である場合には、当該末日までに当該公告に記載すべき内容を、内閣府令で定めるところにより、公表し、その後直ちに公告を行うものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-11-p3
+    type: simple
+    text: 前項の規定による公告又は公表を行つた者は、内閣府令で定めるところにより、当該公告又は公表を行つた日に、前項に規定する公告の内容その他の内閣府令で定める事項を記載した書類（以下この節並びに第百九十七条及び第百九十七条の二において「公開買付撤回届出書」という。）を内閣総理大臣に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-11-p4
+    type: junyou
+    text: 第二十七条の三第四項の規定は、公開買付撤回届出書について準用する。この場合において、同項中「発行者（当該公開買付届出書を提出した日において、既に当該発行者の株券等に係る公開買付届出書の提出をしている者がある場合には、当該提出をしている者を含む。）」とあるのは、「発行者」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-11-p5-zen
+    type: zen_dan
+    text: 公開買付けの撤回等は、第二項の規定により公告をした場合に限り、その効力を生ずる。
+    modality: unspecified
+  - id: kinsho-hou-art-27-11-p5-kou
+    type: kou_dan
+    text: この場合において、その効力を生ずる時期は、当該公告を行つた時（同項ただし書の規定により公表及び公告を行つたときにあつては、当該公表を行つた時）とする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: kinsho-hou-art-27-11-p5-zen
 cases: []
 amendments: []
 tags:

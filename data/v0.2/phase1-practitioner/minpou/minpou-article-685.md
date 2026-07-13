@@ -50,10 +50,8 @@ parent_section:
 
 ### 第六百八十五条第一項
 
-<!-- segment: simple id: minpou-art-685-p1 -->
 組合が解散したときは、清算は、総組合員が共同して、又はその選任した清算人がこれをする。
 
 ### 第六百八十五条第二項
 
-<!-- segment: simple id: minpou-art-685-p2 -->
 清算人の選任は、組合員の過半数で決する。

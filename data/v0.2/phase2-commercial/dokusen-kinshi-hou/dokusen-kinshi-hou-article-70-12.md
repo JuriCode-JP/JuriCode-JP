@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-70-12-p1
+    type: simple
+    text: 公正取引委員会の排除措置命令、納付命令及び競争回復措置命令並びにこの節の規定による認定、決定その他の処分（第四十七条第二項の規定による審査官の処分及びこの節の規定による指定職員の処分を含む。）又はその不作為については、審査請求をすることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

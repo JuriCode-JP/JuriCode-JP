@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-4-2-p1
+    type: simple
+    text: 第二条から前条までに規定するもののほか、この法律は、日本国外において、第二編の罪であって条約により日本国外において犯したときであっても罰すべきものとされているものを犯したすべての者に適用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

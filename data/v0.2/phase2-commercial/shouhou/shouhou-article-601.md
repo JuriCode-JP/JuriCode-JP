@@ -21,6 +21,41 @@ paragraphs:
     type: hashira
     text: 倉荷証券には、次に掲げる事項及びその番号を記載し、倉庫営業者がこれに署名し、又は記名押印しなければならない。
     modality: gimu
+  - id: shouhou-art-601-p1-kou-1
+    type: kou
+    text: 寄託物の種類、品質及び数量並びにその荷造りの種類、個数及び記号
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-601-p1-kou-2
+    type: kou
+    text: 寄託者の氏名又は名称
+    modality: unspecified
+    item_number: 2
+  - id: shouhou-art-601-p1-kou-3
+    type: kou
+    text: 保管場所
+    modality: unspecified
+    item_number: 3
+  - id: shouhou-art-601-p1-kou-4
+    type: kou
+    text: 保管料
+    modality: unspecified
+    item_number: 4
+  - id: shouhou-art-601-p1-kou-5
+    type: kou
+    text: 保管期間を定めたときは、その期間
+    modality: unspecified
+    item_number: 5
+  - id: shouhou-art-601-p1-kou-6
+    type: kou
+    text: 寄託物を保険に付したときは、保険金額、保険期間及び保険者の氏名又は名称
+    modality: unspecified
+    item_number: 6
+  - id: shouhou-art-601-p1-kou-7
+    type: kou
+    text: 作成地及び作成の年月日
+    modality: unspecified
+    item_number: 7
 cases: []
 amendments: []
 tags:
@@ -41,5 +76,18 @@ parent_section:
 
 ### 第六百一条
 
-<!-- segment: hashira id: shouhou-art-601-p1-hashira -->
 倉荷証券には、次に掲げる事項及びその番号を記載し、倉庫営業者がこれに署名し、又は記名押印しなければならない。
+
+一　寄託物の種類、品質及び数量並びにその荷造りの種類、個数及び記号
+
+二　寄託者の氏名又は名称
+
+三　保管場所
+
+四　保管料
+
+五　保管期間を定めたときは、その期間
+
+六　寄託物を保険に付したときは、保険金額、保険期間及び保険者の氏名又は名称
+
+七　作成地及び作成の年月日

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-180-3-p1
+    type: simple
+    text: 普通地方公共団体の長は、当該普通地方公共団体の委員会又は委員と協議して、その補助機関である職員を、当該執行機関の事務を補助する職員若しくはこれらの執行機関の管理に属する機関の職員と兼ねさせ、若しくは当該執行機関の事務を補助する職員若しくはこれらの執行機関の管理に属する機関の職員に充て、又は当該執行機関の事務に従事させることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

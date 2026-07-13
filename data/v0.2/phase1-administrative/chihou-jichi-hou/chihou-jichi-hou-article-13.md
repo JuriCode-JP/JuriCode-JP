@@ -57,8 +57,6 @@ parent_section:
 
 ### 第十三条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-13-p1 -->
-<!-- segment: simple id: chihou-jichi-hou-art-13-p2 -->
 日本国民たる普通地方公共団体の住民は、この法律の定めるところにより、その属する普通地方公共団体の議会の解散を請求する権利を有する。
 
 ### 第十三条第二項
@@ -67,5 +65,4 @@ parent_section:
 
 ### 第十三条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-13-p3 -->
 日本国民たる普通地方公共団体の住民は、法律の定めるところにより、その属する普通地方公共団体の教育委員会の教育長又は委員の解職を請求する権利を有する。

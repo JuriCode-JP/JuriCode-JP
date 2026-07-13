@@ -23,6 +23,21 @@ paragraphs:
     modality: unspecified
     references:
     - 前条
+  - id: kinsho-hou-art-95-p1-kou-1
+    type: kou
+    text: 金融商品取引業者等に該当しないこととなること。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-95-p1-kou-2
+    type: kou
+    text: 解散
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-95-p1-kou-3
+    type: kou
+    text: 除名
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -45,5 +60,10 @@ parent_section:
 
 ### 第九十五条
 
-<!-- segment: hashira id: kinsho-hou-art-95-p1-hashira -->
 前条の場合のほか、会員は、次に掲げる事由によつて脱退する。
+
+一　金融商品取引業者等に該当しないこととなること。
+
+二　解散
+
+三　除名

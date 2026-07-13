@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八十五条
 
-<!-- segment: simple id: minpou-art-85-p1 -->
 この法律において「物」とは、有体物をいう。

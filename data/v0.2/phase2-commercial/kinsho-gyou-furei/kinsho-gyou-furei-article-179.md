@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第四十六条の六第一項に規定する内閣府令で定める場合は、次に掲げる場合とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-179-p1-kou-1
+    type: kou
+    text: 自己資本規制比率が百四十パーセントを下回った場合
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-179-p1-kou-2
+    type: kou
+    text: 自己資本規制比率が百四十パーセント以上に回復した場合
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,6 +60,16 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: kinsho-gyou-furei-art-179-p4-kou-1
+    type: kou
+    text: 自己資本規制比率が百四十パーセントを下回った場合（次号に掲げる場合を除く。）　自己資本規制比率の状況を維持するために自らとるべき具体的措置に関する計画書
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-179-p4-kou-2
+    type: kou
+    text: 自己資本規制比率が百二十パーセントを下回った場合　自己資本規制比率の状況を回復させるために自らとるべき具体的措置に関する計画書
+    modality: unspecified
+    item_number: 2
 - number: 5
   has_proviso: false
   has_items: false
@@ -88,30 +108,32 @@ parent_section:
 
 ### 第百七十九条第一項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-179-p1-hashira -->
 法第四十六条の六第一項に規定する内閣府令で定める場合は、次に掲げる場合とする。
+
+一　自己資本規制比率が百四十パーセントを下回った場合
+
+二　自己資本規制比率が百四十パーセント以上に回復した場合
 
 ### 第百七十九条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-179-p2 -->
 金融商品取引業者は、法第四十六条の六第一項の規定に基づき、毎月末の自己資本規制比率を、翌月二十日までに所管金融庁長官等に届け出なければならない。
 
 ### 第百七十九条第三項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-179-p3 -->
 第一項第一号に該当することとなった金融商品取引業者は、法第四十六条の六第一項の規定に基づき、直ちに、その旨を金融庁長官に届け出、かつ、営業日ごとに、別紙様式第十五号により自己資本規制比率に関する届出書を作成し、遅滞なく、これを所管金融庁長官等に提出しなければならない。
 
 ### 第百七十九条第四項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-179-p4-hashira -->
 前項に規定する届出書には、次の各号に掲げる区分に応じ、当該各号に定める書類を添付しなければならない。
+
+一　自己資本規制比率が百四十パーセントを下回った場合（次号に掲げる場合を除く。）　自己資本規制比率の状況を維持するために自らとるべき具体的措置に関する計画書
+
+二　自己資本規制比率が百二十パーセントを下回った場合　自己資本規制比率の状況を回復させるために自らとるべき具体的措置に関する計画書
 
 ### 第百七十九条第五項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-179-p5 -->
 第一項第二号に該当することとなった金融商品取引業者は、法第四十六条の六第一項の規定に基づき、遅滞なく、その旨を所管金融庁長官等に届け出なければならない。
 
 ### 第百七十九条第六項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-179-p6 -->
 金融商品取引業者は、毎営業日ごとに、自己資本規制比率の状況を適切に把握しなければならない。

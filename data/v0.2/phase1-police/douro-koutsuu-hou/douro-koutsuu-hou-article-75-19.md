@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-19-p1
+    type: simple
+    text: 特定自動運行実施者は、次項の規定により指定した特定自動運行主任者、第三項の規定により指定した現場措置業務実施者その他の特定自動運行のために使用する者（以下「特定自動運行業務従事者」という。）に対し、第七十五条の二十一、第七十五条の二十二及び第七十五条の二十三第一項から第三項までの規定による措置その他のこの法律及びこの法律に基づく命令の規定並びにこの法律の規定に基づく処分により特定自動運行業務従事者が実施しなければならない措置を円滑かつ確実に実施させるため、内閣府令で定めるところにより教育を行わなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-19-p2
+    type: simple
+    text: 特定自動運行実施者は、特定自動運行を行うときは、第七十五条の二十一、第七十五条の二十二並びに第七十五条の二十三第一項及び第三項の規定による措置その他のこの法律及びこの法律に基づく命令の規定並びにこの法律の規定に基づく処分により特定自動運行主任者が実施しなければならない措置を講じさせるため、当該措置を講ずるために必要な適性について内閣府令で定める要件を備える者のうちから、特定自動運行主任者を指定しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-19-p3
+    type: simple
+    text: 特定自動運行実施者は、次条第一項第一号に規定する措置を講じて特定自動運行を行うときは、第七十五条の二十三第一項及び第二項の規定による措置を講じさせるため、現場措置業務実施者を指定しなければならない。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

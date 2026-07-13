@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-2-p1
+    type: simple
+    text: 法第八十八条の二十二に規定する金融商品会員制法人の設立の無効の訴えについて、同条において会社法の規定を準用する場合における同条の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

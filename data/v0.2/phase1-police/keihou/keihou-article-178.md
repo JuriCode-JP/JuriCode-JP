@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十八条
 
-<!-- segment: simple id: keihou-art-178-p1 -->
 削除

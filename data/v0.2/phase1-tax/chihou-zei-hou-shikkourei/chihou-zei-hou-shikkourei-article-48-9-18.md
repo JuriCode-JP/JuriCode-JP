@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-18-p1
+    type: simple
+    text: 法第三百二十一条の七の六（法第三百二十一条の七の八第三項において読み替えて準用する場合を含む。）の規定による支払回数割特別徴収税額又は支払回数割仮特別徴収税額の市町村への納入は、年金保険者が地方公務員共済組合である場合には、地方公務員共済組合連合会を経由して行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

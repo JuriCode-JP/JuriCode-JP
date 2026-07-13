@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-345-4-p1
+    type: simple
+    text: 裁判所は、第三百四十五条の二の規定による決定の理由がなくなつたと認めるときは、検察官、当該決定を受けた者若しくはその弁護人、法定代理人、保佐人、配偶者、直系の親族若しくは兄弟姉妹の請求により、又は職権で、決定で、当該決定を取り消さなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-345-4-p2
+    type: simple
+    text: 裁判所は、検察官の請求による場合を除いて、前項の規定による決定をするときは、あらかじめ、検察官の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

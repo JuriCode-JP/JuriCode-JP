@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-26-p1
+    type: simple
+    text: 中核市に指定された市について第二百五十二条の十九第一項の規定による指定都市の指定があつた場合は、当該市に係る第二百五十二条の二十二第一項の規定による中核市の指定は、その効力を失うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

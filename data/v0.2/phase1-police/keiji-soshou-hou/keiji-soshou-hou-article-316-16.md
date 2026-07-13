@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-16-p1
+    type: simple
+    text: 被告人又は弁護人は、第三百十六条の十三第一項の書面の送付を受け、かつ、第三百十六条の十四第一項並びに前条第一項及び第二項の規定による開示をすべき証拠の開示を受けたときは、検察官請求証拠について、第三百二十六条の同意をするかどうか又はその取調べの請求に関し異議がないかどうかの意見を明らかにしなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-16-p2
+    type: simple
+    text: 裁判所は、検察官及び被告人又は弁護人の意見を聴いた上で、前項の意見を明らかにすべき期限を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-25-p1
+    type: simple
+    text: 地方団体の長は、その地方団体の区域外において犯則事件の調査を必要とするときは、これをその地の地方団体の長に嘱託することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

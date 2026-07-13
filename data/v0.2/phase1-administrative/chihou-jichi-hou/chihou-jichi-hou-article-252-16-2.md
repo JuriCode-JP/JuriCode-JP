@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-16-2-p1
+    type: simple
+    text: 普通地方公共団体は、他の普通地方公共団体の求めに応じて、協議により規約を定め、当該他の普通地方公共団体の事務の一部を、当該他の普通地方公共団体又は当該他の普通地方公共団体の長若しくは同種の委員会若しくは委員の名において管理し及び執行すること（以下この条及び次条において「事務の代替執行」という。）ができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-16-2-p2
+    type: simple
+    text: 前項の規定により事務の代替執行をする事務（以下この款において「代替執行事務」という。）を変更し、又は事務の代替執行を廃止しようとするときは、関係普通地方公共団体は、同項の例により、協議してこれを行わなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-16-2-p3
+    type: junyou
+    text: 第二百五十二条の二の二第二項及び第三項本文の規定は前二項の規定により事務の代替執行をし、又は代替執行事務を変更し、若しくは事務の代替執行を廃止する場合に、同条第四項の規定は第一項の場合に準用する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

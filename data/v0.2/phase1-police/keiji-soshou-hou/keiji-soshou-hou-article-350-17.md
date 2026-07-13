@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-17-p1-honbun
+    type: honbun
+    text: 前条第三項の確認を求められた被疑者が即決裁判手続によることについて同意をするかどうかを明らかにしようとする場合において、被疑者が貧困その他の事由により弁護人を選任することができないときは、裁判官は、その請求により、被疑者のため弁護人を付さなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: keiji-soshou-hou-art-350-17-p1-tadashi
+    type: tadashi
+    text: ただし、被疑者以外の者が選任した弁護人がある場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-17-p2
+    type: simple
+    text: 第三十七条の三の規定は、前項の請求をする場合についてこれを準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-153-5-p1-zen
+    type: zen_dan
+    text: 内閣総理大臣は、商品取引参加者がこの法律又はこの法律に基づく命令に違反したときは、金融商品取引所に対し、当該商品取引参加者の取引資格の取消しをすべき旨を命じ、又は六月以内の期間を定めて当該商品取引参加者の商品関連市場デリバティブ取引を停止若しくは制限すべき旨を命ずることができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-153-5-p1-kou
+    type: kou_dan
+    text: この場合においては、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-153-5-p1-zen
 cases: []
 amendments: []
 tags:

@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百三十三条
 
-<!-- segment: simple id: kaisha-hou-art-233-p1 -->
 非訟事件手続法第四編の規定は、株券については、適用しない。

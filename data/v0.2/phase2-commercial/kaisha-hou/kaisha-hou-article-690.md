@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 社債発行会社は、次の各号に掲げる場合には、当該各号の社債の社債権者に係る社債原簿記載事項を社債原簿に記載し、又は記録しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-690-p1-kou-1
+    type: kou
+    text: 当該社債発行会社の社債を取得した場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-690-p1-kou-2
+    type: kou
+    text: 当該社債発行会社が有する自己の社債を処分した場合
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第六百九十条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-690-p1-hashira -->
 社債発行会社は、次の各号に掲げる場合には、当該各号の社債の社債権者に係る社債原簿記載事項を社債原簿に記載し、又は記録しなければならない。
+
+一　当該社債発行会社の社債を取得した場合
+
+二　当該社債発行会社が有する自己の社債を処分した場合
 
 ### 第六百九十条第二項
 
-<!-- segment: simple id: kaisha-hou-art-690-p2 -->
 前項の規定は、無記名社債については、適用しない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-1-2-p1
+    type: simple
+    text: 国は、この法律の目的を達成するため、医薬品等の品質、有効性及び安全性の確保、これらの使用による保健衛生上の危害の発生及び拡大の防止その他の必要な施策を策定し、及び実施しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

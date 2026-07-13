@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 金融商品取引業者等は、権利者（次の各号に掲げる業務の区分に応じ当該各号に定める者をいう。以下この款において同じ。）のため忠実に投資運用業を行わなければならない。
     modality: gimu
+  - id: kinsho-hou-art-42-p1-kou-1
+    type: kou
+    text: 第二条第八項第十二号に掲げる行為を行う業務　同号イ又はロに掲げる契約の相手方
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-42-p1-kou-2
+    type: kou
+    text: 第二条第八項第十四号に掲げる行為を行う業務　同号に規定する有価証券に表示される権利その他の政令で定める権利を有する者
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-42-p1-kou-3
+    type: kou
+    text: 第二条第八項第十五号に掲げる行為を行う業務　同号イからハまでに掲げる権利その他同号に規定する政令で定める権利を有する者
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +65,14 @@ parent_section:
 
 ### 第四十二条第一項
 
-<!-- segment: hashira id: kinsho-hou-art-42-p1-hashira -->
 金融商品取引業者等は、権利者（次の各号に掲げる業務の区分に応じ当該各号に定める者をいう。以下この款において同じ。）のため忠実に投資運用業を行わなければならない。
+
+一　第二条第八項第十二号に掲げる行為を行う業務　同号イ又はロに掲げる契約の相手方
+
+二　第二条第八項第十四号に掲げる行為を行う業務　同号に規定する有価証券に表示される権利その他の政令で定める権利を有する者
+
+三　第二条第八項第十五号に掲げる行為を行う業務　同号イからハまでに掲げる権利その他同号に規定する政令で定める権利を有する者
 
 ### 第四十二条第二項
 
-<!-- segment: simple id: kinsho-hou-art-42-p2 -->
 金融商品取引業者等は、権利者に対し、善良な管理者の注意をもつて投資運用業を行わなければならない。

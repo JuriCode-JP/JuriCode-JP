@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-205-2-p1
+    type: simple
+    text: 第百五十六条の四十八若しくは第百五十六条の五十第九項の規定による記録の作成若しくは保存をせず、又は虚偽の記録を作成したときは、当該違反行為をした者は、百万円以下の罰金に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

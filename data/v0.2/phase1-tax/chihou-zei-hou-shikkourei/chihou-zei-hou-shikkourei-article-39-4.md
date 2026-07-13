@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十九条の四
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-39-4-p1 -->
 法第七十三条の二十七の三第一項に規定する政令で定める不動産は、第三十八条に規定する不動産とする。

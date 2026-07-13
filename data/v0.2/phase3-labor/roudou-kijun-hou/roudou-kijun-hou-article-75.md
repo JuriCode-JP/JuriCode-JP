@@ -48,10 +48,8 @@ parent_section:
 
 ### 第七十五条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-75-p1 -->
 労働者が業務上負傷し、又は疾病にかかつた場合においては、使用者は、その費用で必要な療養を行い、又は必要な療養の費用を負担しなければならない。
 
 ### 第七十五条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-75-p2 -->
 前項に規定する業務上の疾病及び療養の範囲は、厚生労働省令で定める。

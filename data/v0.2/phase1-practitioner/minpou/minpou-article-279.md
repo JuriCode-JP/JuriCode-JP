@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百七十九条
 
-<!-- segment: junyou id: minpou-art-279-p1 applies_provisions: 第二百六十九条 -->
 第二百六十九条の規定は、永小作権について準用する。

@@ -35,6 +35,16 @@ paragraphs:
     type: hashira
     text: 会計監査人は、いつでも、次に掲げるものの閲覧及び謄写をし、又は取締役及び会計参与並びに支配人その他の使用人に対し、会計に関する報告を求めることができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-396-p2-kou-1
+    type: kou
+    text: 会計帳簿又はこれに関する資料が書面をもって作成されているときは、当該書面
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-396-p2-kou-2
+    type: kou
+    text: 会計帳簿又はこれに関する資料が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したもの
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -54,17 +64,32 @@ paragraphs:
     text: 前項の子会社は、正当な理由があるときは、同項の報告又は調査を拒むことができる。
     modality: kanou_kenri
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-396-p5
     type: simple
     text: 会計監査人は、その職務を行うに当たっては、次のいずれかに該当する者を使用してはならない。
     modality: gimu_negative
+  - id: kaisha-hou-art-396-p5-kou-1
+    type: kou
+    text: 第三百三十七条第三項第一号又は第二号に掲げる者
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-396-p5-kou-2
+    type: kou
+    text: 会計監査人設置会社又はその子会社の取締役、会計参与、監査役若しくは執行役又は支配人その他の使用人である者
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-396-p5-kou-3
+    type: kou
+    text: 会計監査人設置会社又はその子会社から公認会計士又は監査法人の業務以外の業務により継続的な報酬を受けている者
+    modality: unspecified
+    item_number: 3
 - number: 6
   has_proviso: false
   has_items: false
@@ -96,31 +121,34 @@ parent_section:
 
 ### 第三百九十六条第一項
 
-<!-- segment: zen_dan id: kaisha-hou-art-396-p1-zen -->
-会計監査人は、次章の定めるところにより、株式会社の計算書類及びその附属明細書、臨時計算書類並びに連結計算書類を監査する。<!-- segment: kou_dan id: kaisha-hou-art-396-p1-kou depends_on: kaisha-hou-art-396-p1-zen -->
-この場合において、会計監査人は、法務省令で定めるところにより、会計監査報告を作成しなければならない。
+会計監査人は、次章の定めるところにより、株式会社の計算書類及びその附属明細書、臨時計算書類並びに連結計算書類を監査する。この場合において、会計監査人は、法務省令で定めるところにより、会計監査報告を作成しなければならない。
 
 ### 第三百九十六条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-396-p2-hashira -->
 会計監査人は、いつでも、次に掲げるものの閲覧及び謄写をし、又は取締役及び会計参与並びに支配人その他の使用人に対し、会計に関する報告を求めることができる。
+
+一　会計帳簿又はこれに関する資料が書面をもって作成されているときは、当該書面
+
+二　会計帳簿又はこれに関する資料が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したもの
 
 ### 第三百九十六条第三項
 
-<!-- segment: simple id: kaisha-hou-art-396-p3 -->
 会計監査人は、その職務を行うため必要があるときは、会計監査人設置会社の子会社に対して会計に関する報告を求め、又は会計監査人設置会社若しくはその子会社の業務及び財産の状況の調査をすることができる。
 
 ### 第三百九十六条第四項
 
-<!-- segment: simple id: kaisha-hou-art-396-p4 -->
 前項の子会社は、正当な理由があるときは、同項の報告又は調査を拒むことができる。
 
 ### 第三百九十六条第五項
 
-<!-- segment: simple id: kaisha-hou-art-396-p5 -->
 会計監査人は、その職務を行うに当たっては、次のいずれかに該当する者を使用してはならない。
+
+一　第三百三十七条第三項第一号又は第二号に掲げる者
+
+二　会計監査人設置会社又はその子会社の取締役、会計参与、監査役若しくは執行役又は支配人その他の使用人である者
+
+三　会計監査人設置会社又はその子会社から公認会計士又は監査法人の業務以外の業務により継続的な報酬を受けている者
 
 ### 第三百九十六条第六項
 
-<!-- segment: simple id: kaisha-hou-art-396-p6 -->
 指名委員会等設置会社における第二項の規定の適用については、同項中「取締役」とあるのは、「執行役、取締役」とする。

@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-30-p1-zen
+    type: zen_dan
+    text: 公判前整理手続に付された事件については、被告人又は弁護人は、証拠により証明すべき事実その他の事実上及び法律上の主張があるときは、第二百九十六条の手続に引き続き、これを明らかにしなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-316-30-p1-kou
+    type: kou_dan
+    text: この場合においては、同条ただし書の規定を準用する。
+    modality: unspecified
+    depends_on: keiji-soshou-hou-art-316-30-p1-zen
 cases: []
 amendments: []
 tags:

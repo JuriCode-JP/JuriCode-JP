@@ -16,22 +16,68 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-2-p1
+    type: simple
+    text: 監査等委員会は、全ての監査等委員で組織する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-2-p2
+    type: simple
+    text: 監査等委員は、取締役でなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-2-p3-hashira
+    type: hashira
+    text: 監査等委員会は、次に掲げる職務を行う。
+    modality: unspecified
+  - id: kaisha-hou-art-399-2-p3-kou-1
+    type: kou
+    text: 取締役（会計参与設置会社にあっては、取締役及び会計参与）の職務の執行の監査及び監査報告の作成
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-399-2-p3-kou-2
+    type: kou
+    text: 株主総会に提出する会計監査人の選任及び解任並びに会計監査人を再任しないことに関する議案の内容の決定
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-399-2-p3-kou-3
+    type: kou
+    text: 第三百四十二条の二第四項及び第三百六十一条第六項に規定する監査等委員会の意見の決定
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-2-p4-hashira
+    type: hashira
+    text: 監査等委員がその職務の執行（監査等委員会の職務の執行に関するものに限る。以下この項において同じ。）について監査等委員会設置会社に対して次に掲げる請求をしたときは、当該監査等委員会設置会社は、当該請求に係る費用又は債務が当該監査等委員の職務の執行に必要でないことを証明した場合を除き、これを拒むことができない。
+    modality: kanou_negative
+  - id: kaisha-hou-art-399-2-p4-kou-1
+    type: kou
+    text: 費用の前払の請求
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-399-2-p4-kou-2
+    type: kou
+    text: 支出をした費用及び支出の日以後におけるその利息の償還の請求
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-399-2-p4-kou-3
+    type: kou
+    text: 負担した債務の債権者に対する弁済（当該債務が弁済期にない場合にあっては、相当の担保の提供）の請求
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -64,6 +110,18 @@ parent_section:
 
 監査等委員会は、次に掲げる職務を行う。
 
+一　取締役（会計参与設置会社にあっては、取締役及び会計参与）の職務の執行の監査及び監査報告の作成
+
+二　株主総会に提出する会計監査人の選任及び解任並びに会計監査人を再任しないことに関する議案の内容の決定
+
+三　第三百四十二条の二第四項及び第三百六十一条第六項に規定する監査等委員会の意見の決定
+
 ### 第三百九十九条の二第四項
 
 監査等委員がその職務の執行（監査等委員会の職務の執行に関するものに限る。以下この項において同じ。）について監査等委員会設置会社に対して次に掲げる請求をしたときは、当該監査等委員会設置会社は、当該請求に係る費用又は債務が当該監査等委員の職務の執行に必要でないことを証明した場合を除き、これを拒むことができない。
+
+一　費用の前払の請求
+
+二　支出をした費用及び支出の日以後におけるその利息の償還の請求
+
+三　負担した債務の債権者に対する弁済（当該債務が弁済期にない場合にあっては、相当の担保の提供）の請求

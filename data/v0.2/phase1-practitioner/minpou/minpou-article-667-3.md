@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-667-3-p1
+    type: simple
+    text: 組合員の一人について意思表示の無効又は取消しの原因があっても、他の組合員の間においては、組合契約は、その効力を妨げられない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

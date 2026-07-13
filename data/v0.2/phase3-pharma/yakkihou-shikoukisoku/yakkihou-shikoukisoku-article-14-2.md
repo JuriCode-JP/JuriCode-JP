@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-14-2-p1-honbun
+    type: honbun
+    text: 薬局開設者は、薬局医薬品（薬局製造販売医薬品を除く。）を調剤室（薬局等構造設備規則（昭和三十六年厚生省令第二号）第一条第一項第十号に規定する調剤室をいう。）以外の場所に貯蔵し、又は陳列してはならない。
+    modality: gimu_negative
+  - id: yakkihou-shikoukisoku-art-14-2-p1-tadashi
+    type: tadashi
+    text: ただし、薬局製造販売医薬品、要指導医薬品又は一般用医薬品を通常陳列し、又は交付する場所以外の場所に貯蔵する場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

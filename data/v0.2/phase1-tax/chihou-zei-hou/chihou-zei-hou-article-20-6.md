@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-6-p1
+    type: simple
+    text: 地方団体の徴収金は、その納税者又は特別徴収義務者のために第三者が納付し、又は納入することができる。
+    modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-6-p2-honbun
+    type: honbun
+    text: 地方団体の徴収金の納付若しくは納入について正当な利益を有する第三者又は納税者若しくは特別徴収義務者の同意を得た第三者が納税者又は特別徴収義務者に代つてこれを納付し、又は納入した場合において、その地方団体の徴収金を担保するため抵当権が設定されていたときは、これらの者は、その納付又は納入により、その抵当権につき地方団体に代位することができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-20-6-p2-tadashi
+    type: tadashi
+    text: ただし、その抵当権が根抵当である場合において、その担保すべき元本の確定前に納付又は納入があつたときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-6-p3
+    type: simple
+    text: 前項の場合において、第三者が納税者又は特別徴収義務者の地方団体の徴収金の一部を納付し、又は納入したときは、その残余の地方団体の徴収金は、同項の規定により代位した第三者の債権に先だつて徴収する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

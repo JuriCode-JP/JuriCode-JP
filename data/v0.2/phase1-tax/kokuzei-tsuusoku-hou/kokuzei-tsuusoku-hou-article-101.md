@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 裁決は、次に掲げる事項を記載し、国税不服審判所長が記名押印した裁決書によりしなければならない。
     modality: gimu
+  - id: kokuzei-tsuusoku-hou-art-101-p1-kou-1
+    type: kou
+    text: 主文
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-art-101-p1-kou-2
+    type: kou
+    text: 事案の概要
+    modality: unspecified
+    item_number: 2
+  - id: kokuzei-tsuusoku-hou-art-101-p1-kou-3
+    type: kou
+    text: 審理関係人の主張の要旨
+    modality: unspecified
+    item_number: 3
+  - id: kokuzei-tsuusoku-hou-art-101-p1-kou-4
+    type: kou
+    text: 理由
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -70,20 +90,24 @@ parent_section:
 
 ### 第百一条第一項
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-art-101-p1-hashira -->
 裁決は、次に掲げる事項を記載し、国税不服審判所長が記名押印した裁決書によりしなければならない。
+
+一　主文
+
+二　事案の概要
+
+三　審理関係人の主張の要旨
+
+四　理由
 
 ### 第百一条第二項
 
-<!-- segment: junyou id: kokuzei-tsuusoku-hou-art-101-p2 -->
 第八十四条第八項（決定の手続等）の規定は、前項の裁決について準用する。
 
 ### 第百一条第三項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-101-p3 -->
 裁決は、審査請求人（当該審査請求が処分の相手方以外の者のしたものである場合における第九十八条第三項（裁決）の規定による裁決にあつては、審査請求人及び処分の相手方）に裁決書の謄本が送達された時に、その効力を生ずる。
 
 ### 第百一条第四項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-101-p4 -->
 国税不服審判所長は、裁決書の謄本を参加人及び原処分庁（第七十五条第二項（第一号に係る部分に限る。）（国税に関する処分についての不服申立て）に規定する処分に係る審査請求にあつては、当該処分に係る税務署長を含む。）に送付しなければならない。

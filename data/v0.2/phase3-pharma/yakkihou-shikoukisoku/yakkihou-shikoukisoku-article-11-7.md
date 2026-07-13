@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-11-7-p1
+    type: simple
+    text: 法第九条第一項の厚生労働省令で定める薬局開設者が遵守すべき事項は、次条から第十五条の十一まで及び第十五条の十一の三に定めるものとする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

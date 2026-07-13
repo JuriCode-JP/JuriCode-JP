@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百四十三条
 
-<!-- segment: simple id: minpou-art-343-p1 -->
 質権は、譲り渡すことができない物をその目的とすることができない。

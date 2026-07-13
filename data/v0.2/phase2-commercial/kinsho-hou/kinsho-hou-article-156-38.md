@@ -16,67 +16,123 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p1
+    type: simple
+    text: この章において「指定紛争解決機関」とは、次条第一項の規定による指定を受けた者をいう。
+    modality: teigi
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p2
+    type: simple
+    text: この章において「特定第一種金融商品取引業務」とは、金融商品取引業者が行う第二十八条第一項各号に掲げる行為に係る業務及び第三十五条第一項の規定により行う業務並びに当該金融商品取引業者のために金融商品仲介業者が行う第二条第十一項第一号から第三号までに掲げる行為に係る業務をいう。
+    modality: teigi
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p3
+    type: simple
+    text: この章において「特定第二種金融商品取引業務」とは、金融商品取引業者が行う第二十八条第二項各号に掲げる行為に係る業務（第六十三条第一項第一号又は第六十三条の八第一項第二号に掲げる行為に係る業務を除く。）及びこれに付随する業務をいう。
+    modality: teigi
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p4
+    type: simple
+    text: この章において「特定投資助言・代理業務」とは、金融商品取引業者が行う第二十八条第三項各号に掲げる行為に係る業務及びこれに付随する業務をいう。
+    modality: teigi
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p5
+    type: simple
+    text: この章において「特定投資運用業務」とは、金融商品取引業者が行う第二十八条第四項各号に掲げる行為に係る業務（第六十三条第一項第二号又は第六十三条の八第一項第一号に掲げる行為に係る業務を除く。）及び第三十五条第一項の規定により行う業務並びに当該金融商品取引業者のために金融商品仲介業者が行う第二条第十一項第四号に掲げる行為に係る業務をいう。
+    modality: teigi
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p6
+    type: simple
+    text: この章において「特定登録金融機関業務」とは、登録金融機関が行う第三十三条の二の登録に係る業務及びこれに付随する業務、当該登録金融機関のために特定金融商品取引業務（第三十三条の八第二項に規定する特定金融商品取引業務をいう。以下この項において同じ。）を行う者が行う特定金融商品取引業務並びに当該登録金融機関のために金融商品仲介業者が行う第二条第十一項第一号から第四号までに掲げる行為に係る業務をいう。
+    modality: teigi
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p7
+    type: simple
+    text: この章において「特定証券金融会社業務」とは、証券金融会社が第百五十六条の二十七第一項第一号、第三号及び第四号の規定により行う業務をいう。
+    modality: teigi
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p8
+    type: simple
+    text: この章において「金融商品取引業等業務」とは、特定第一種金融商品取引業務、特定第二種金融商品取引業務、特定投資助言・代理業務、特定投資運用業務、特定登録金融機関業務又は特定証券金融会社業務をいう。
+    modality: teigi
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p9
+    type: simple
+    text: この章において「苦情処理手続」とは、金融商品取引業等業務関連苦情（金融商品取引業等業務に関する苦情をいう。第百五十六条の四十四、第百五十六条の四十五及び第百五十六条の四十九において同じ。）を処理する手続をいう。
+    modality: teigi
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p10
+    type: simple
+    text: この章において「紛争解決手続」とは、金融商品取引業等業務関連紛争（金融商品取引業等業務に関する紛争で当事者が和解をすることができるものをいう。第百五十六条の四十四、第百五十六条の四十五及び第百五十六条の五十から第百五十六条の五十二までにおいて同じ。）について訴訟手続によらずに解決を図る手続をいう。
+    modality: teigi
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p11
+    type: simple
+    text: この章において「紛争解決等業務」とは、苦情処理手続及び紛争解決手続に係る業務並びにこれに付随する業務をいう。
+    modality: teigi
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p12
+    type: simple
+    text: この章において「紛争解決等業務の種別」とは、紛争解決等業務に係る特定第一種金融商品取引業務、特定第二種金融商品取引業務、特定投資助言・代理業務、特定投資運用業務、特定登録金融機関業務及び特定証券金融会社業務の種別をいう。
+    modality: teigi
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-38-p13
+    type: simple
+    text: この章において「手続実施基本契約」とは、紛争解決等業務の実施に関し指定紛争解決機関と金融商品取引関係業者（金融商品取引業者等又は証券金融会社をいう。次条、第百五十六条の四十二第二項、第百五十六条の四十四及び第百五十六条の五十六第一号において同じ。）との間で締結される契約をいう。
+    modality: teigi
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

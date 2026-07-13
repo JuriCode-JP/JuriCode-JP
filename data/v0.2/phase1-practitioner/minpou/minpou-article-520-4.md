@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-4-p1
+    type: simple
+    text: 指図証券の所持人が裏書の連続によりその権利を証明するときは、その所持人は、証券上の権利を適法に有するものと推定する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

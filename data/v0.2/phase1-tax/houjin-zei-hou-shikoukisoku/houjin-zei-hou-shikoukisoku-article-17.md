@@ -21,6 +21,36 @@ paragraphs:
     type: hashira
     text: 令第五十七条第二項（耐用年数の短縮）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-17-p1-kou-1
+    type: kou
+    text: 申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-17-p1-kou-2
+    type: kou
+    text: 令第五十七条第一項の規定の適用を受けようとする減価償却資産に係る耐用年数省令に定める耐用年数
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-17-p1-kou-3
+    type: kou
+    text: 承認を受けようとする償却限度額の計算の基礎となる令第五十七条第一項に規定する未経過使用可能期間の算定の基礎
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-17-p1-kou-4
+    type: kou
+    text: 令第五十七条第一項第一号から第五号まで及び前条各号に掲げる事由のいずれに該当するかの別
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-17-p1-kou-5
+    type: kou
+    text: 当該減価償却資産の使用可能期間が第二号に規定する耐用年数に比して著しく短い事由及びその事実
+    modality: unspecified
+    item_number: 5
+  - id: houjin-zei-hou-shikoukisoku-art-17-p1-kou-6
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -43,5 +73,16 @@ parent_section:
 
 ### 第十七条
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-17-p1-hashira -->
 令第五十七条第二項（耐用年数の短縮）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　令第五十七条第一項の規定の適用を受けようとする減価償却資産に係る耐用年数省令に定める耐用年数
+
+三　承認を受けようとする償却限度額の計算の基礎となる令第五十七条第一項に規定する未経過使用可能期間の算定の基礎
+
+四　令第五十七条第一項第一号から第五号まで及び前条各号に掲げる事由のいずれに該当するかの別
+
+五　当該減価償却資産の使用可能期間が第二号に規定する耐用年数に比して著しく短い事由及びその事実
+
+六　その他参考となるべき事項

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: simple id: kaisha-hou-art-3-p1 -->
 会社は、法人とする。

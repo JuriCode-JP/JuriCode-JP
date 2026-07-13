@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-70-p1
+    type: simple
+    text: 取引情報蓄積機関の役員若しくは職員又はこれらの職にあつた者は、取引情報蓄積業務に関して知り得た秘密を漏らし、又は盗用してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

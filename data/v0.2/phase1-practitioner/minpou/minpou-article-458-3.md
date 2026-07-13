@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-458-3-p1
+    type: simple
+    text: 主たる債務者が期限の利益を有する場合において、その利益を喪失したときは、債権者は、保証人に対し、その利益の喪失を知った時から二箇月以内に、その旨を通知しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-458-3-p2
+    type: simple
+    text: 前項の期間内に同項の通知をしなかったときは、債権者は、保証人に対し、主たる債務者が期限の利益を喪失した時から同項の通知を現にするまでに生じた遅延損害金（期限の利益を喪失しなかったとしても生ずべきものを除く。）に係る保証債務の履行を請求することができない。
+    modality: kanou_negative
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-458-3-p3
+    type: simple
+    text: 前二項の規定は、保証人が法人である場合には、適用しない。
+    modality: jogai
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

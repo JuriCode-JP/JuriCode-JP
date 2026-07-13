@@ -48,10 +48,8 @@ parent_section:
 
 ### 第百八十九条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-189-p1 -->
 警察官は、それぞれ、他の法律又は国家公安委員会若しくは都道府県公安委員会の定めるところにより、司法警察職員として職務を行う。
 
 ### 第百八十九条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-189-p2 -->
 司法警察職員は、犯罪があると思料するときは、犯人及び証拠を捜査するものとする。

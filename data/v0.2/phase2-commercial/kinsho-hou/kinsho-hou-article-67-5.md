@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-5-p1
+    type: simple
+    text: 内閣総理大臣は、第六十七条の三第一項の規定による認可の申請があつた場合において、その認可をすることが適当でないと認めるときは、認可申請者に通知して、当該職員をして審問を行わせなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-5-p2
+    type: simple
+    text: 内閣総理大臣は、第六十七条の二第二項の規定による認可をすることとし、又はしないこととした場合においては、遅滞なくその旨を書面により認可申請者に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

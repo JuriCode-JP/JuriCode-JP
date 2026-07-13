@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-24-p1-honbun
+    type: honbun
+    text: 認可地縁団体が解散したときは、破産手続開始の決定及び合併による解散の場合を除き、代表者がその清算人となる。
+    modality: unspecified
+  - id: chihou-jichi-hou-art-260-24-p1-tadashi
+    type: tadashi
+    text: ただし、規約に別段の定めがあるとき、又は総会において代表者以外の者を選任したときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

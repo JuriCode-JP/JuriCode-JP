@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十六条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-46-p1 -->
 採用試験は、人事院規則の定める受験の資格を有するすべての国民に対して、平等の条件で公開されなければならない。

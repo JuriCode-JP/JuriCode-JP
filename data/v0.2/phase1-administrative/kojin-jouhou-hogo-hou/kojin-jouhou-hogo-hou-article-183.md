@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百八十三条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-183-p1 -->
 第百七十六条、第百七十七条及び第百七十九条から第百八十一条までの規定は、日本国外においてこれらの条の罪を犯した者にも適用する。

@@ -16,12 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-2-p1
+    type: simple
+    text: 株式等売渡請求に係る売渡株式等の全部の取得の無効は、取得日（第百七十九条の二第一項第五号に規定する取得日をいう。以下この条において同じ。）から六箇月以内（対象会社が公開会社でない場合にあっては、当該取得日から一年以内）に、訴えをもってのみ主張することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-2-p2-hashira
+    type: hashira
+    text: 前項の訴え（以下この節において「売渡株式等の取得の無効の訴え」という。）は、次に掲げる者に限り、提起することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: kaisha-hou-art-846-2-p2-kou-1
+    type: kou
+    text: 取得日において売渡株主（株式売渡請求に併せて新株予約権売渡請求がされた場合にあっては、売渡株主又は売渡新株予約権者。第八百四十六条の五第一項において同じ。）であった者
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-846-2-p2-kou-2
+    type: kou
+    text: 取得日において対象会社の取締役（監査役設置会社にあっては取締役又は監査役、指名委員会等設置会社にあっては取締役又は執行役。以下この号において同じ。）であった者又は対象会社の取締役若しくは清算人
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -47,3 +67,7 @@ parent_section:
 ### 第八百四十六条の二第二項
 
 前項の訴え（以下この節において「売渡株式等の取得の無効の訴え」という。）は、次に掲げる者に限り、提起することができる。
+
+一　取得日において売渡株主（株式売渡請求に併せて新株予約権売渡請求がされた場合にあっては、売渡株主又は売渡新株予約権者。第八百四十六条の五第一項において同じ。）であった者
+
+二　取得日において対象会社の取締役（監査役設置会社にあっては取締役又は監査役、指名委員会等設置会社にあっては取締役又は執行役。以下この号において同じ。）であった者又は対象会社の取締役若しくは清算人

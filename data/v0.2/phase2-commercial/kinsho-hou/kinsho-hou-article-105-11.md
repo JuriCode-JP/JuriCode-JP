@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-11-p1
+    type: simple
+    text: 特定株式会社金融商品取引所は、当該株式会社金融商品取引所の業務規程その他の規則に定める事項のうち自主規制業務に関連するものとして内閣府令で定めるものの変更又は廃止をしようとするときは、自主規制委員会の同意を得なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

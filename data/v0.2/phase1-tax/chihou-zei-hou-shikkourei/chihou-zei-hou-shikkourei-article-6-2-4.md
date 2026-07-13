@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-2-4-p1-honbun
+    type: honbun
+    text: 法第十三条の二第三項の規定による告知は、同条第一項の規定により繰上徴収をする旨を法第十三条第一項の文書に記載してしなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-6-2-4-p1-tadashi
+    type: tadashi
+    text: ただし、すでに納付又は納入の告知をしている場合及び納付又は納入の告知をすることを要しない場合には、納期限を変更する旨を記載した文書でしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

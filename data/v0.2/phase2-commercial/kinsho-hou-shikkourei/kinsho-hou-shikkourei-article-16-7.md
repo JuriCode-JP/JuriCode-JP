@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-7-p1
+    type: simple
+    text: 法第四十条の三及び第四十条の三の二に規定する金銭に類するものとして政令で定めるものは、第一条の三各号に掲げるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

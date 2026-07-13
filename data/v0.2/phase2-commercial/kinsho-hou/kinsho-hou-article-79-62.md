@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-62-p1
+    type: simple
+    text: この節の規定を実施するための手続その他必要な事項は、内閣府令又は内閣府令・財務省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

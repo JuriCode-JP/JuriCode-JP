@@ -45,5 +45,4 @@ parent_section:
 
 ### 第四百三十条
 
-<!-- segment: junyou id: minpou-art-430-p1 applies_provisions: 第四百四十条 -->
 第四款（連帯債務）の規定（第四百四十条の規定を除く。）は、債務の目的がその性質上不可分である場合において、数人の債務者があるときについて準用する。

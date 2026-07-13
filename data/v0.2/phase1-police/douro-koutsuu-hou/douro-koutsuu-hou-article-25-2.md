@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-25-2-p1
+    type: simple
+    text: 車両は、歩行者又は他の車両等の正常な交通を妨害するおそれがあるときは、道路外の施設若しくは場所に出入するための左折若しくは右折をし、横断し、転回し、又は後退してはならない。
+    modality: gimu_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-25-2-p2
+    type: simple
+    text: 車両は、道路標識等により横断、転回又は後退が禁止されている道路の部分においては、当該禁止された行為をしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:
@@ -45,3 +53,5 @@ parent_section:
 ### 第二十五条の二第二項
 
 車両は、道路標識等により横断、転回又は後退が禁止されている道路の部分においては、当該禁止された行為をしてはならない。
+
+（罰則　第一項については第百十九条第一項第六号　第二項については第百二十条第一項第四号、同条第三項）

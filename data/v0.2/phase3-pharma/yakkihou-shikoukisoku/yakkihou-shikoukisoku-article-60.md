@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-60-p1 -->
 法第十四条の四第五項後段の厚生労働省令で定める医薬品は、同条第一項各号に掲げる医薬品とする。

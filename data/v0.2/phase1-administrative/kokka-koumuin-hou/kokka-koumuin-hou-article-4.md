@@ -64,20 +64,16 @@ parent_section:
 
 ### 第四条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-4-p1 -->
 人事院は、人事官三人をもつて、これを組織する。
 
 ### 第四条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-4-p2 -->
 人事官のうち一人は、総裁として命ぜられる。
 
 ### 第四条第三項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-4-p3 -->
 人事院は、事務総長及び予算の範囲内においてその職務を適切に行うため必要とする職員を任命する。
 
 ### 第四条第四項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-4-p4 -->
 人事院は、その内部機構を管理する。国家行政組織法（昭和二十三年法律第百二十号）は、人事院には適用されない。

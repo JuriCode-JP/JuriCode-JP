@@ -48,10 +48,18 @@ parent_section:
 
 ### 第十九条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-19-p1 -->
 警察庁に、長官官房及び次の五局を置く。
+
+生活安全局
+
+刑事局
+
+交通局
+
+警備局
+
+サイバー警察局
 
 ### 第十九条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-19-p2 -->
 刑事局に組織犯罪対策部を、警備局に外事情報部及び警備運用部を置く。

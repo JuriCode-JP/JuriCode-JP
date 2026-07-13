@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四百四十九条
 
-<!-- segment: simple id: chihou-zei-hou-art-449-p1 -->
 軽自動車税の賦課期日は、四月一日とする。

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九十五条
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-95-p1 -->
 前三条に規定する源泉徴収票の書式は、別表第六（一）から別表第六（三）までによる。

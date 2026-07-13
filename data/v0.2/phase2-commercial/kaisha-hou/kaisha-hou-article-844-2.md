@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-844-2-p1-zen
+    type: zen_dan
+    text: 株式会社の株式交付の無効の訴えに係る請求を認容する判決が確定した場合において、株式交付親会社が当該株式交付に際して当該株式交付親会社の株式（以下この条において「旧株式交付親会社株式」という。）を交付したときは、当該株式交付親会社は、当該判決の確定時における当該旧株式交付親会社株式に係る株主に対し、当該株式交付の際に当該旧株式交付親会社株式の交付を受けた者から給付を受けた株式交付子会社の株式及び新株予約権等（以下この条において「旧株式交付子会社株式等」という。）を返還しなければならない。
+    modality: gimu
+  - id: kaisha-hou-art-844-2-p1-kou
+    type: kou_dan
+    text: この場合において、株式交付親会社が株券発行会社であるときは、当該株式交付親会社は、当該株主に対し、当該旧株式交付子会社株式等を返還するのと引換えに、当該旧株式交付親会社株式に係る旧株券を返還することを請求することができる。
+    modality: kanou_kenri
+    depends_on: kaisha-hou-art-844-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-844-2-p2
+    type: simple
+    text: 前項前段に規定する場合には、旧株式交付親会社株式を目的とする質権は、旧株式交付子会社株式等について存在する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

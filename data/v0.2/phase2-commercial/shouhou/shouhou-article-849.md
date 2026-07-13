@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百四十九条
 
-<!-- segment: simple id: shouhou-art-849-p1 -->
 登記した船舶は、質権の目的とすることができない。

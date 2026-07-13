@@ -16,17 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-258-2-p1
+    type: simple
+    text: 共有物の全部又はその持分が相続財産に属する場合において、共同相続人間で当該共有物の全部又はその持分について遺産の分割をすべきときは、当該共有物又はその持分について前条の規定による分割をすることができない。
+    modality: kanou_negative
+    references:
+    - 前条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-258-2-p2
+    type: tokusoku
+    text: 共有物の持分が相続財産に属する場合において、相続開始の時から十年を経過したときは、前項の規定にかかわらず、相続財産に属する共有物の持分について前条の規定による分割をすることができる。ただし、当該共有物の持分について遺産の分割の請求があった場合において、相続人が当該共有物の持分について同条の規定による分割をすることに異議の申出をしたときは、この限りでない。
+    modality: jogai
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-258-2-p3
+    type: simple
+    text: 相続人が前項ただし書の申出をする場合には、当該申出は、当該相続人が前条第一項の規定による請求を受けた裁判所から当該請求があった旨の通知を受けた日から二箇月以内に当該裁判所にしなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -14,34 +14,83 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-4-p1
+    type: simple
+    text: 法第二十七条の二十二の二第二項において準用する法第二十七条の三第一項、第二十七条の六第二項、第二十七条の八第十一項、第二十七条の十一第二項及び第二十七条の十三第一項の規定による公告は、次のいずれかの方法によりしなければならない。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-14-3-4-p1-kou-1
+    type: kou
+    text: 内閣府令で定めるところにより、開示用電子情報処理組織を使用する方法により不特定多数の者が公告すべき内容である情報の提供を受けることができる状態に置く措置をとる方法（第三項から第五項までにおいて「電子公告」という。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-14-3-4-p1-kou-2
+    type: kou
+    text: 内閣府令で定めるところにより、時事に関する事項を掲載する日刊新聞紙に掲載する方法
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-4-p2
+    type: simple
+    text: 前項の公告のうち法第二十七条の二十二の二第二項において準用する法第二十七条の八第十一項本文の規定によるものは、同項の訂正届出書を提出した後直ちにしなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-4-p3
+    type: simple
+    text: 第一項の規定により電子公告による公告をする者は、内閣府令で定めるところにより、当該公告をした後遅滞なく、当該公告をした旨を、時事に関する事項を掲載する日刊新聞紙に掲載しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-4-p4-hashira
+    type: hashira
+    text: 第一項の規定により電子公告による公告をする者は、次の各号に掲げる公告の区分に応じ、当該各号に定める日までの間、継続して電子公告をしなければならない。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-14-3-4-p4-kou-1
+    type: kou
+    text: 法第二十七条の二十二の二第二項において準用する法第二十七条の三第一項、第二十七条の六第二項、第二十七条の八第十一項及び第二十七条の十一第二項の規定による公告　公開買付期間の末日
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-14-3-4-p4-kou-2
+    type: kou
+    text: 法第二十七条の二十二の二第二項において準用する法第二十七条の十三第一項の規定による公告　当該公告の開始後一月を経過する日
+    modality: unspecified
+    item_number: 2
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-4-p5
+    type: junyou
+    text: 第四条の二の四第三項及び第四項の規定は、第一項の規定により電子公告による公告をする者について準用する。この場合において、同条第三項中「同項第二号」とあるのは「第十四条の三の四第一項第二号」と、同条第四項中「第二項」とあるのは「第十四条の三の四第四項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-4-p6
+    type: junyou
+    text: 第九条の四の規定は、法第二十七条の二十二の二第二項において準用する法第二十七条の十三第一項の規定による公表について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -62,6 +111,10 @@ parent_section:
 
 法第二十七条の二十二の二第二項において準用する法第二十七条の三第一項、第二十七条の六第二項、第二十七条の八第十一項、第二十七条の十一第二項及び第二十七条の十三第一項の規定による公告は、次のいずれかの方法によりしなければならない。
 
+一　内閣府令で定めるところにより、開示用電子情報処理組織を使用する方法により不特定多数の者が公告すべき内容である情報の提供を受けることができる状態に置く措置をとる方法（第三項から第五項までにおいて「電子公告」という。）
+
+二　内閣府令で定めるところにより、時事に関する事項を掲載する日刊新聞紙に掲載する方法
+
 ### 第十四条の三の四第二項
 
 前項の公告のうち法第二十七条の二十二の二第二項において準用する法第二十七条の八第十一項本文の規定によるものは、同項の訂正届出書を提出した後直ちにしなければならない。
@@ -73,6 +126,10 @@ parent_section:
 ### 第十四条の三の四第四項
 
 第一項の規定により電子公告による公告をする者は、次の各号に掲げる公告の区分に応じ、当該各号に定める日までの間、継続して電子公告をしなければならない。
+
+一　法第二十七条の二十二の二第二項において準用する法第二十七条の三第一項、第二十七条の六第二項、第二十七条の八第十一項及び第二十七条の十一第二項の規定による公告　公開買付期間の末日
+
+二　法第二十七条の二十二の二第二項において準用する法第二十七条の十三第一項の規定による公告　当該公告の開始後一月を経過する日
 
 ### 第十四条の三の四第五項
 

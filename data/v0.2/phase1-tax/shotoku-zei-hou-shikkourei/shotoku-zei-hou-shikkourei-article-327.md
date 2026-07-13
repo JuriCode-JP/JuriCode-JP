@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百二十七条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-327-p1 -->
 法第二百十条（源泉徴収義務）に規定する政令で定める契約は、第二百八十八条（匿名組合契約に準ずる契約の範囲）に規定する契約とする。

@@ -26,17 +26,17 @@ paragraphs:
     text: ただし、履行の終わった部分については、この限りでない。
     modality: jogai
 cases:
-  - case_id: ntt-2013-06-04-j91-12
-    case_type: ruling
-    source_license: pdl-1.0
-    summary_source: official_pdl
-    decision_date: '2013-06-04'
-    case_name_ja: 被相続人の全財産を書面によらない死因贈与により取得したとする請求人の権利は、和解成立前においては、法定相続人から撤回される可能性が極めて高く、極めてぜい弱なものであったといえることから、請求人が自己のために相続の開始があったことを知ったのは、和解により当該死因贈与契約の一部の履行が確定した日であると判断した事例
-    url: https://www.kfs.go.jp/service/JP/91/12/index.html
-    relevance: medium
-    summary_ja: ''
-    issue_code: 0801000000
-    tax_item: 相続税
+- case_id: ntt-2013-06-04-j91-12
+  case_type: ruling
+  source_license: pdl-1.0
+  summary_source: official_pdl
+  decision_date: '2013-06-04'
+  case_name_ja: 被相続人の全財産を書面によらない死因贈与により取得したとする請求人の権利は、和解成立前においては、法定相続人から撤回される可能性が極めて高く、極めてぜい弱なものであったといえることから、請求人が自己のために相続の開始があったことを知ったのは、和解により当該死因贈与契約の一部の履行が確定した日であると判断した事例
+  url: https://www.kfs.go.jp/service/JP/91/12/index.html
+  relevance: medium
+  summary_ja: ''
+  issue_code: 0801000000
+  tax_item: 相続税
 amendments: []
 tags:
 - phase1-practitioner
@@ -56,6 +56,4 @@ parent_section:
 
 ### 第五百五十条
 
-<!-- segment: honbun id: minpou-art-550-p1-honbun -->
-書面によらない贈与は、各当事者が解除をすることができる。<!-- segment: tadashi id: minpou-art-550-p1-tadashi -->
-ただし、履行の終わった部分については、この限りでない。
+書面によらない贈与は、各当事者が解除をすることができる。ただし、履行の終わった部分については、この限りでない。

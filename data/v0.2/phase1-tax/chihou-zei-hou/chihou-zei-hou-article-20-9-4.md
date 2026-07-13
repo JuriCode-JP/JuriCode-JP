@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-9-4-p1
+    type: simple
+    text: この法律の規定により延滞金の額を計算する場合において、その計算の基礎となる地方税の一部が納付され、又は納入されているときは、その納付又は納入の日の翌日以後の期間に係る延滞金の額の計算の基礎となる税額は、その納付され、又は納入された税額を控除した金額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-9-4-p2
+    type: simple
+    text: この法律の規定により納税者又は特別徴収義務者が延滞金をその額の計算の基礎となる地方税に加算して納付し、又は納入すべき場合において、納税者又は特別徴収義務者が納付し、又は納入した金額がその延滞金の額の計算の基礎となる地方税の額に達するまでは、その納付し、又は納入した金額は、まずその計算の基礎となる地方税に充てられたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

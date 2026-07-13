@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-42-4-2-p1
+    type: simple
+    text: 法第七十七条の二に規定する政令で定める区域は、農業振興地域の整備に関する法律第八条第一項の農業振興地域整備計画において同条第二項第一号の農用地区域として定められている区域とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-42-4-2-p2
+    type: simple
+    text: 法第七十七条の二に規定する政令で定める土地は、農業経営基盤強化促進法第四条第一項第一号に規定する農用地又は同項第二号に掲げる土地若しくは開発して当該農用地とすることが適当な土地とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

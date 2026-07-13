@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-26-3-p1
+    type: simple
+    text: 前二条の規定により拘禁刑の全部の執行猶予の言渡しを取り消したときは、執行猶予中の他の拘禁刑（次条第二項後段又は第二十七条の七第二項後段の規定によりその執行を猶予されているものを除く。次条第六項、第二十七条の六及び第二十七条の七第六項において同じ。）についても、その猶予の言渡しを取り消さなければならない。
+    modality: gimu
+    references:
+    - 前二条
+    - 次条
 cases: []
 amendments: []
 tags:

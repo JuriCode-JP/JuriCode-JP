@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-46-p1
+    type: simple
+    text: この法律に規定するもののほか、外部監査契約に基づく監査に関し必要な事項その他本章の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

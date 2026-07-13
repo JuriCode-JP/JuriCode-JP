@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-12-p1
+    type: simple
+    text: 普通地方公共団体が共同設置する委員会若しくは委員又は附属機関は、この法律その他これらの機関の権限に属する事務の管理及び執行に関する法令、条例、規則その他の規程の適用については、この法律に特別の定めがあるものを除くほか、それぞれ関係普通地方公共団体の委員会若しくは委員又は附属機関とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -21,8 +21,33 @@ paragraphs:
     type: hashira
     text: 会社は、次に掲げる行為をすることにより、一定の取引分野における競争を実質的に制限することとなる場合には、当該行為をしてはならず、及び不公正な取引方法により次に掲げる行為をしてはならない。
     modality: gimu_negative
+  - id: dokusen-kinshi-hou-art-16-p1-kou-1
+    type: kou
+    text: 他の会社の事業の全部又は重要部分の譲受け
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-16-p1-kou-2
+    type: kou
+    text: 他の会社の事業上の固定資産の全部又は重要部分の譲受け
+    modality: unspecified
+    item_number: 2
+  - id: dokusen-kinshi-hou-art-16-p1-kou-3
+    type: kou
+    text: 他の会社の事業の全部又は重要部分の賃借
+    modality: unspecified
+    item_number: 3
+  - id: dokusen-kinshi-hou-art-16-p1-kou-4
+    type: kou
+    text: 他の会社の事業の全部又は重要部分についての経営の受任
+    modality: unspecified
+    item_number: 4
+  - id: dokusen-kinshi-hou-art-16-p1-kou-5
+    type: kou
+    text: 他の会社と事業上の損益全部を共通にする契約の締結
+    modality: unspecified
+    item_number: 5
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -30,6 +55,16 @@ paragraphs:
     type: hashira
     text: 会社であつて、その会社に係る国内売上高合計額が二百億円を下回らない範囲内において政令で定める金額を超えるものは、次の各号のいずれかに該当する場合には、公正取引委員会規則で定めるところにより、あらかじめ事業又は事業上の固定資産（以下この条において「事業等」という。）の譲受けに関する計画を公正取引委員会に届け出なければならない。ただし、事業等の譲受けをしようとする会社及び当該事業等の譲渡をしようとする会社が同一の企業結合集団に属する場合は、この限りでない。
     modality: jogai
+  - id: dokusen-kinshi-hou-art-16-p2-kou-1
+    type: kou
+    text: 国内売上高が三十億円を下回らない範囲内において政令で定める金額を超える他の会社の事業の全部の譲受けをしようとする場合
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-16-p2-kou-2
+    type: kou
+    text: 他の会社の事業の重要部分又は事業上の固定資産の全部若しくは重要部分の譲受けをしようとする場合であつて、当該譲受けの対象部分に係る国内売上高が三十億円を下回らない範囲内において政令で定める金額を超えるとき。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -57,15 +92,26 @@ parent_section:
 
 ### 第十六条第一項
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-16-p1-hashira -->
 会社は、次に掲げる行為をすることにより、一定の取引分野における競争を実質的に制限することとなる場合には、当該行為をしてはならず、及び不公正な取引方法により次に掲げる行為をしてはならない。
+
+一　他の会社の事業の全部又は重要部分の譲受け
+
+二　他の会社の事業上の固定資産の全部又は重要部分の譲受け
+
+三　他の会社の事業の全部又は重要部分の賃借
+
+四　他の会社の事業の全部又は重要部分についての経営の受任
+
+五　他の会社と事業上の損益全部を共通にする契約の締結
 
 ### 第十六条第二項
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-16-p2-hashira -->
 会社であつて、その会社に係る国内売上高合計額が二百億円を下回らない範囲内において政令で定める金額を超えるものは、次の各号のいずれかに該当する場合には、公正取引委員会規則で定めるところにより、あらかじめ事業又は事業上の固定資産（以下この条において「事業等」という。）の譲受けに関する計画を公正取引委員会に届け出なければならない。ただし、事業等の譲受けをしようとする会社及び当該事業等の譲渡をしようとする会社が同一の企業結合集団に属する場合は、この限りでない。
+
+一　国内売上高が三十億円を下回らない範囲内において政令で定める金額を超える他の会社の事業の全部の譲受けをしようとする場合
+
+二　他の会社の事業の重要部分又は事業上の固定資産の全部若しくは重要部分の譲受けをしようとする場合であつて、当該譲受けの対象部分に係る国内売上高が三十億円を下回らない範囲内において政令で定める金額を超えるとき。
 
 ### 第十六条第三項
 
-<!-- segment: junyou id: dokusen-kinshi-hou-art-16-p3 -->
 第十条第八項から第十四項までの規定は、前項の規定による届出に係る事業等の譲受けの制限及び公正取引委員会がする第十七条の二第一項の規定による命令について準用する。この場合において、第十条第八項及び第十項から第十四項までの規定中「株式の取得」とあるのは「事業又は事業上の固定資産の譲受け」と、同条第九項中「株式の取得」とあるのは「事業又は事業上の固定資産の譲受け」と、「株式取得会社」とあるのは「事業又は事業上の固定資産の譲受けをしようとする会社」と読み替えるものとする。

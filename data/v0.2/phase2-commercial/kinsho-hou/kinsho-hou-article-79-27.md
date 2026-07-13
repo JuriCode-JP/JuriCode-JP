@@ -16,22 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-27-p1
+    type: simple
+    text: 金融商品取引業者（政令で定める金融商品取引業者を除く。）は、いずれか一の基金にその会員として加入しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-27-p2
+    type: simple
+    text: 第二十九条の登録又は第三十一条第四項の変更登録を受けて金融商品取引業（有価証券関連業又は商品デリバティブ取引関連業務に限る。以下この章において同じ。）を行おうとする者（政令で定める者を除く。）は、その登録又は変更登録の申請と同時に、いずれか一の基金に加入する手続をとらなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-27-p3
+    type: simple
+    text: 前項の規定により基金に加入する手続をとつた者は、同項の登録又は変更登録を受けた時に、当該基金の会員となる。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-27-p4
+    type: simple
+    text: 金融商品取引業者は、基金に加入した場合又は所属する基金を変更した場合には、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

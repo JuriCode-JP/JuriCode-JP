@@ -16,32 +16,68 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-23-p1
+    type: simple
+    text: 自主規制法人に、役員として、理事長一人、理事三人以上及び監事二人以上を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-23-p2
+    type: simple
+    text: 理事及び監事は、総会の決議によつて選任する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-23-p3
+    type: simple
+    text: 理事の過半数は、外部理事（委託金融商品取引所又はその子会社（第八十七条の三第三項に規定する子会社をいう。以下この章において同じ。）の取締役、理事若しくは執行役又は支配人その他の使用人でなく、かつ、過去に委託金融商品取引所又はその子会社の取締役、理事若しくは執行役又は支配人その他の使用人となつたことがない者より選任された理事をいう。以下この目において同じ。）でなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-23-p4-hashira
+    type: hashira
+    text: 次の各号のいずれかに該当する者は、役員となることができない。
+    modality: kanou_negative
+  - id: kinsho-hou-art-102-23-p4-kou-1
+    type: kou
+    text: 心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-102-23-p4-kou-2
+    type: kou
+    text: 第二十九条の四第一項第二号ロからリまで又は会社法第三百三十一条第一項第三号のいずれかに該当する者
+    modality: unspecified
+    item_number: 2
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-23-p5
+    type: simple
+    text: 役員が前項に規定する者に該当することとなつたときは、その職を失う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-23-p6
+    type: simple
+    text: 理事長は、理事の互選により外部理事の中から選任する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -77,6 +113,10 @@ parent_section:
 ### 第百二条の二十三第四項
 
 次の各号のいずれかに該当する者は、役員となることができない。
+
+一　心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
+
+二　第二十九条の四第一項第二号ロからリまで又は会社法第三百三十一条第一項第三号のいずれかに該当する者
 
 ### 第百二条の二十三第五項
 

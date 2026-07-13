@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百二十二条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-122-p1 -->
 厚生労働大臣は、法第二十三条の六第一項の登録をしたときは、登録を申請した者に登録証を交付しなければならない。同条第三項の規定により登録を更新したときも、同様とする。
 
 ### 第百二十二条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-122-p2 -->
 前項の登録証は、様式第七十一によるものとする。

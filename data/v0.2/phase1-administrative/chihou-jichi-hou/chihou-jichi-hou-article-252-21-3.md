@@ -16,42 +16,85 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-3-p1
+    type: simple
+    text: 指定都市の市長又は包括都道府県の知事は、前条第五項の規定による求めに係る協議を調えるため必要があると認めるときは、総務大臣に対し、文書で、当該指定都市及び包括都道府県の事務の処理に関し当該協議を調えるため必要な勧告を行うことを求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-3-p2
+    type: simple
+    text: 指定都市の市長又は包括都道府県の知事は、前項の規定による勧告の求め（以下この条及び次条において「勧告の求め」という。）をしようとするときは、あらかじめ、当該指定都市又は包括都道府県の議会の議決を経なければならない。
+    modality: gimu
+    references:
+    - 次条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-3-p3
+    type: simple
+    text: 指定都市の市長又は包括都道府県の知事は、勧告の求めをしようとするときは、指定都市の市長にあつては包括都道府県の知事、包括都道府県の知事にあつては指定都市の市長に対し、その旨をあらかじめ通知しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-3-p4
+    type: simple
+    text: 勧告の求めをした指定都市の市長又は包括都道府県の知事は、総務大臣の同意を得て、当該勧告の求めを取り下げることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-3-p5
+    type: simple
+    text: 総務大臣は、勧告の求めがあつた場合においては、これを国の関係行政機関の長に通知するとともに、次条第二項の規定により指定都市都道府県勧告調整委員を任命し、当該勧告の求めに係る総務大臣の勧告について意見を求めなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-3-p6
+    type: simple
+    text: 前項の規定により通知を受けた国の関係行政機関の長は、総務大臣に対し、文書で、当該勧告の求めについて意見を申し出ることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-3-p7
+    type: simple
+    text: 総務大臣は、前項の意見の申出があつたときは、当該意見を指定都市都道府県勧告調整委員に通知するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-21-3-p8
+    type: simple
+    text: 総務大臣は、指定都市都道府県勧告調整委員から意見が述べられたときは、遅滞なく、指定都市の市長及び包括都道府県の知事に対し、第二条第六項又は第十四項の規定の趣旨を達成するため必要な勧告をするとともに、当該勧告の内容を国の関係行政機関の長に通知し、かつ、これを公表しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

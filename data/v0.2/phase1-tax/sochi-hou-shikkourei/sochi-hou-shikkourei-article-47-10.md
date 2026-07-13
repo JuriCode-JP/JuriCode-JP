@@ -21,6 +21,41 @@ paragraphs:
     type: hashira
     text: 法第八十九条の四第一項の承認を受けて揮発油（法第八十八条の六第二項の規定により揮発油とみなされる揮発油類似品を除く。以下この項において同じ。）を保税地域から引き取ろうとする者は、次に掲げる事項を記載した申請書に、当該揮発油につき当該承認を必要とする事実を証する書類を添えて、これを当該税関長に提出しなければならない。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-47-10-p1-kou-1
+    type: kou
+    text: 申請者の住所及び氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-47-10-p1-kou-2
+    type: kou
+    text: 当該保税地域の所在地
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-47-10-p1-kou-3
+    type: kou
+    text: 当該揮発油の数量
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikkourei-art-47-10-p1-kou-4
+    type: kou
+    text: 当該揮発油の用途及び規格
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikkourei-art-47-10-p1-kou-5
+    type: kou
+    text: 引取りの年月日
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikkourei-art-47-10-p1-kou-6
+    type: kou
+    text: 引取先に移入する者の住所及び氏名又は名称
+    modality: unspecified
+    item_number: 6
+  - id: sochi-hou-shikkourei-art-47-10-p1-kou-7
+    type: kou
+    text: 引取先の所在地及び名称
+    modality: unspecified
+    item_number: 7
 - number: 2
   has_proviso: false
   has_items: false
@@ -57,15 +92,26 @@ parent_section:
 
 ### 第四十七条の十第一項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-47-10-p1-hashira -->
 法第八十九条の四第一項の承認を受けて揮発油（法第八十八条の六第二項の規定により揮発油とみなされる揮発油類似品を除く。以下この項において同じ。）を保税地域から引き取ろうとする者は、次に掲げる事項を記載した申請書に、当該揮発油につき当該承認を必要とする事実を証する書類を添えて、これを当該税関長に提出しなければならない。
+
+一　申請者の住所及び氏名又は名称
+
+二　当該保税地域の所在地
+
+三　当該揮発油の数量
+
+四　当該揮発油の用途及び規格
+
+五　引取りの年月日
+
+六　引取先に移入する者の住所及び氏名又は名称
+
+七　引取先の所在地及び名称
 
 ### 第四十七条の十第二項
 
-<!-- segment: junyou id: sochi-hou-shikkourei-art-47-10-p2 -->
 揮発油税法施行令第五条の二第六項の規定は、法第八十九条の四第二項の規定により揮発油税法第十四条第七項の規定が準用される場合における当該記載事項について準用する。
 
 ### 第四十七条の十第三項
 
-<!-- segment: junyou id: sochi-hou-shikkourei-art-47-10-p3 applies_provisions: 第八条 -->
 揮発油税法施行令第八条の規定は、法第八十九条の四第四項の規定により揮発油税法第十四条の三第八項の規定が準用される場合における当該手続について準用する。

@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-2-p1
+    type: simple
+    text: 債務者は、譲渡制限の意思表示がされた金銭の給付を目的とする債権が譲渡されたときは、その債権の全額に相当する金銭を債務の履行地（債務の履行地が債権者の現在の住所により定まる場合にあっては、譲渡人の現在の住所を含む。次条において同じ。）の供託所に供託することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-2-p2
+    type: simple
+    text: 前項の規定により供託をした債務者は、遅滞なく、譲渡人及び譲受人に供託の通知をしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-466-2-p3
+    type: simple
+    text: 第一項の規定により供託をした金銭は、譲受人に限り、還付を請求することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\323AC0000000122.xml",
   "source_xml_sha256": "e6a6f841dac9f226fbae3bde5b8063dd291477139fec2a495fb4431124dc4866",
   "source_xml_bytes": 452832,
-  "source_fetched_at": "2026-06-23",
+  "source_fetched_at": "2026-07-13",
   "parser": "tools/parse/v0.2/segment_parser.py",
-  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-06-23T08:53:09+00:00",
+  "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
+  "parsed_at": "2026-07-13T13:57:47+00:00",
   "version_date": "1948-07-10",
   "article_count": 99,
   "articles": [
@@ -18,184 +18,184 @@
       "article_id": "fueihou-art-1",
       "article_number": "1",
       "filename": "fueihou-article-1.md",
-      "ja_text_sha256": "7aff1fa881e619cc014eae5647b3f9e5ed3526e771edb333e68b59ec3b359c65",
-      "ja_text_bytes": 541,
+      "ja_text_sha256": "bf331c4e6a2556255c5d00072fb0c1d96c2408b21327eebf4256d25012fbf0d0",
+      "ja_text_bytes": 495,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-10-2",
       "article_number": "10-2",
       "filename": "fueihou-article-10-2.md",
-      "ja_text_sha256": "4911875f8b8050314094e31e38f6e18c45dd82131c69ab7f862c2a4f7df54d98",
-      "ja_text_bytes": 1936,
+      "ja_text_sha256": "919bdd6a2abe8850e4f1ac290eb00e96ecbacc2d4ef6d8b22f0226460c871764",
+      "ja_text_bytes": 3550,
       "paragraph_count": 9
     },
     {
       "article_id": "fueihou-art-10",
       "article_number": "10",
       "filename": "fueihou-article-10.md",
-      "ja_text_sha256": "94debdcc2e8eebf770972ce40f3ad65a129a19e077c3b890a9258c6e1684e326",
-      "ja_text_bytes": 787,
+      "ja_text_sha256": "31abd1758e9044c2ae3844edfc4ceec6e3844a8c1b36a4c7552eec9865a428fb",
+      "ja_text_bytes": 1474,
       "paragraph_count": 3
     },
     {
       "article_id": "fueihou-art-11",
       "article_number": "11",
       "filename": "fueihou-article-11.md",
-      "ja_text_sha256": "15f0528e8b8797178dec972ed419c600549acfcb3b54b9e8a5fdb0d3d38373a4",
-      "ja_text_bytes": 179,
+      "ja_text_sha256": "0c29c0b6ee54916b04289c1683870e50b1fc81c5346aed0db02f0492423a121e",
+      "ja_text_bytes": 132,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-12",
       "article_number": "12",
       "filename": "fueihou-article-12.md",
-      "ja_text_sha256": "2730a6374066a7fd6737e79cbf825d7b6aacd2885ce5d6faf763aea8adde5879",
-      "ja_text_bytes": 212,
+      "ja_text_sha256": "6a7e7373e22962865aa9c924fc25ac6e7b9ad4045aacd042426bd2aabec126a4",
+      "ja_text_bytes": 165,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-13",
       "article_number": "13",
       "filename": "fueihou-article-13.md",
-      "ja_text_sha256": "e23f84a69ee31f5b5c80b7e0a8ec456b4230ebdde80c4c3783b26b78a98776c3",
-      "ja_text_bytes": 1985,
+      "ja_text_sha256": "f78cda6c581da6b0b2dee53c7087f84c44c76200cbecfabc2c2cafbb142157ed",
+      "ja_text_bytes": 2183,
       "paragraph_count": 4
     },
     {
       "article_id": "fueihou-art-14",
       "article_number": "14",
       "filename": "fueihou-article-14.md",
-      "ja_text_sha256": "2222f87810fc8633466b66cfcbf9d9be5ac3a9f45a3ea9a6352fb704e88d046c",
-      "ja_text_bytes": 296,
+      "ja_text_sha256": "9fe58ac1929ab7d88e07c0d0a7776d2a467cae33a9faa388239a79f57ac9f4bf",
+      "ja_text_bytes": 249,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-15",
       "article_number": "15",
       "filename": "fueihou-article-15.md",
-      "ja_text_sha256": "1daf05b47827d5890223ea2081dc68881dfb18104be31127c77d13c34ff899b9",
-      "ja_text_bytes": 356,
+      "ja_text_sha256": "2418acfdfd5cb93a659bc555788f4fc731fb720f1b9a09d9725c2447dca6fe4c",
+      "ja_text_bytes": 309,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-16",
       "article_number": "16",
       "filename": "fueihou-article-16.md",
-      "ja_text_sha256": "25b1129a54f7414d91da6b7d145b8bd8fd1e1e540b2278be418ebc32123c2ab4",
-      "ja_text_bytes": 224,
+      "ja_text_sha256": "c9a3837cfd2a83a1e25e67300eee99b214190bb47c6e7631954283c7ea89006c",
+      "ja_text_bytes": 177,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-17",
       "article_number": "17",
       "filename": "fueihou-article-17.md",
-      "ja_text_sha256": "e4368874dd2b5f2e6e9d33cbe0858e3721fc8255a26703d547d188838f845b8d",
-      "ja_text_bytes": 302,
+      "ja_text_sha256": "b0490073daaaa95b85d3856129ce8bb31814f09c0c67fc3a2b01614cf213880d",
+      "ja_text_bytes": 255,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-18-2",
       "article_number": "18-2",
       "filename": "fueihou-article-18-2.md",
-      "ja_text_sha256": "7b845dad124be5e9214c7d81e90a5874da6fc9558afcd0832f05f6cdc501f1b8",
-      "ja_text_bytes": 725,
+      "ja_text_sha256": "0961e4a2bbf818983dcad2d74dcf0c987166b5f2f1147759624a3598539c3d01",
+      "ja_text_bytes": 1691,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-18-3",
       "article_number": "18-3",
       "filename": "fueihou-article-18-3.md",
-      "ja_text_sha256": "4adcc16a236193d694c2baff77e40cf2f9697fcd79333f707f1ff8c2b75222e8",
-      "ja_text_bytes": 138,
+      "ja_text_sha256": "7e7e6b7b85be9556604186e9f57e9043ebc8552346423cf35f858edc2ad5edfe",
+      "ja_text_bytes": 1430,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-18",
       "article_number": "18",
       "filename": "fueihou-article-18.md",
-      "ja_text_sha256": "c4b5775ece9c2037702677584707438f54aebcd0ac5bbdc1d1b9a5e204b6b0de",
-      "ja_text_bytes": 731,
+      "ja_text_sha256": "e7467a3c2457e9b50f02ac7f1ab46607931ba33382a3f81b9bc7942171962d49",
+      "ja_text_bytes": 684,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-19",
       "article_number": "19",
       "filename": "fueihou-article-19.md",
-      "ja_text_sha256": "cfd60da91006b3c5d4da53c823640f550bec5b043014fa0a2019cf5bf424edd0",
-      "ja_text_bytes": 380,
+      "ja_text_sha256": "bbc04aba2792117bc61263d8da7fa1b1e9745a54e29f263f99b377f95837c4b7",
+      "ja_text_bytes": 333,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-2",
       "article_number": "2",
       "filename": "fueihou-article-2.md",
-      "ja_text_sha256": "0d41ce2c773ad391979854fe00d34f9c6dde8b710cc224d7663f97078ea4f6f4",
-      "ja_text_bytes": 4613,
+      "ja_text_sha256": "787bc5345472552b6681e64845bc0d87c94436aaaf48cfa1ba33d0d0fd704a57",
+      "ja_text_bytes": 8169,
       "paragraph_count": 13
     },
     {
       "article_id": "fueihou-art-20",
       "article_number": "20",
       "filename": "fueihou-article-20.md",
-      "ja_text_sha256": "f29a771e3242bc69261fbe213578a81f1d1de97b3977b361b9242e136cbc39c6",
-      "ja_text_bytes": 3830,
+      "ja_text_sha256": "d433f65ae039706e88a5bf7333bb9ac9634ec5c6aedc041a3ce214aa4ad78cc6",
+      "ja_text_bytes": 3311,
       "paragraph_count": 11
     },
     {
       "article_id": "fueihou-art-21",
       "article_number": "21",
       "filename": "fueihou-article-21.md",
-      "ja_text_sha256": "1212133665389b321716f13ecbfce4f07c3e202fdb8ccdf4220282bc14a7ee4f",
-      "ja_text_bytes": 413,
+      "ja_text_sha256": "fde76405c46f7ef196743b78e1303e8d2764d532cd3c12f123cd86cbab0e0d59",
+      "ja_text_bytes": 366,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-22-2",
       "article_number": "22-2",
       "filename": "fueihou-article-22-2.md",
-      "ja_text_sha256": "d79a9216efe12d833dbc82f13d7b3e177a73991ef002fe3fb26a38c001b50569",
-      "ja_text_bytes": 126,
+      "ja_text_sha256": "55d8e62b75c9a79e7c00baa67cc0d533ce9cb763849f3845e3785076423c31c2",
+      "ja_text_bytes": 1835,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-22",
       "article_number": "22",
       "filename": "fueihou-article-22.md",
-      "ja_text_sha256": "0bbf96a843200fc569c83d74c407f8d8021f1438065c9fedd1205c7ac0b4fe07",
-      "ja_text_bytes": 792,
+      "ja_text_sha256": "26a014d73634779291e8d35f97ab8f62fe677ee6a72e81c723af05d60ab76eeb",
+      "ja_text_bytes": 1484,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-23",
       "article_number": "23",
       "filename": "fueihou-article-23.md",
-      "ja_text_sha256": "361832a76973cad035b527a7b42854b7bd084e78fc71589d234a47f3eed51676",
-      "ja_text_bytes": 655,
+      "ja_text_sha256": "39af05b615b0d5282c52660c7bd453df7f7e977783d52b7ef533f01fe5a957c8",
+      "ja_text_bytes": 916,
       "paragraph_count": 3
     },
     {
       "article_id": "fueihou-art-24",
       "article_number": "24",
       "filename": "fueihou-article-24.md",
-      "ja_text_sha256": "2c443cf33bcf32429b470c37daa2a8e3feca389a911f1ec2f0078ff7932d44cc",
-      "ja_text_bytes": 2531,
+      "ja_text_sha256": "9085ccdfd09a0b9905c0240f821129adac61a7f8ed71eec0b7ecec79b984651e",
+      "ja_text_bytes": 2433,
       "paragraph_count": 7
     },
     {
       "article_id": "fueihou-art-25",
       "article_number": "25",
       "filename": "fueihou-article-25.md",
-      "ja_text_sha256": "edba3bdb9dcc73f3ef771c114674c93cae4d5bce0797241dd4bbd5953127c729",
-      "ja_text_bytes": 599,
+      "ja_text_sha256": "97b3ae3113b7814d3c9f1fc7cafc5c86dfa17c81e63946f16b10c52fa65b4945",
+      "ja_text_bytes": 552,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-26",
       "article_number": "26",
       "filename": "fueihou-article-26.md",
-      "ja_text_sha256": "2233d71694faf7068b41736eb8274229c6d683dfb1c6f92e8507b00af99c99ff",
-      "ja_text_bytes": 1368,
+      "ja_text_sha256": "1c67a005f0e279d2d53f44b3a5c51a47768a7dbed9f1abd04bb1e25e893d1abc",
+      "ja_text_bytes": 1274,
       "paragraph_count": 2
     },
     {
@@ -210,40 +210,40 @@
       "article_id": "fueihou-art-27",
       "article_number": "27",
       "filename": "fueihou-article-27.md",
-      "ja_text_sha256": "9a059d5e2e15cc6d88dd8294a6b65dec55e9b6bbfddeb3fdc50238a20d84de0a",
-      "ja_text_bytes": 2112,
+      "ja_text_sha256": "e5d1cdf133d4b85ce5f25462ddb75b43477f7fb14cece2a919ede6e8ee48868a",
+      "ja_text_bytes": 2123,
       "paragraph_count": 5
     },
     {
       "article_id": "fueihou-art-28",
       "article_number": "28",
       "filename": "fueihou-article-28.md",
-      "ja_text_sha256": "c53a0eb8e9f786928fe97c21ff7f815c9d41c222ce49ffc4959820d581357faf",
-      "ja_text_bytes": 5181,
+      "ja_text_sha256": "e97950d19b460274edbf8cb30955b5bb64e2d1352e30100c1993c59433667701",
+      "ja_text_bytes": 6257,
       "paragraph_count": 13
     },
     {
       "article_id": "fueihou-art-29",
       "article_number": "29",
       "filename": "fueihou-article-29.md",
-      "ja_text_sha256": "b760726f0243969c3c8ea20cc8b683ad8512c044d1123c1030c6c926ce3571be",
-      "ja_text_bytes": 614,
+      "ja_text_sha256": "419626dcd163f6fcaeb3f0188d6c82b7c0aff557e417d88fc29e9a6d5d426678",
+      "ja_text_bytes": 567,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-3",
       "article_number": "3",
       "filename": "fueihou-article-3.md",
-      "ja_text_sha256": "918698c5f65bd8d1e0627796f26281ad54cc99d4d36ad4afc57f3c4690659efe",
-      "ja_text_bytes": 766,
+      "ja_text_sha256": "ff355f0609db7bd940783c582dbca1a73279731003ab0f0b5ef060d42f5d0c92",
+      "ja_text_bytes": 674,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-30",
       "article_number": "30",
       "filename": "fueihou-article-30.md",
-      "ja_text_sha256": "a39535d57eefd695e960199047d34624b5bc219e6590319ade744a56504f8cf0",
-      "ja_text_bytes": 2719,
+      "ja_text_sha256": "7b1a31a099a82aa4f5ecfaca4b13d66f44e94de54530f6b50fa058d3aced5cdf",
+      "ja_text_bytes": 2578,
       "paragraph_count": 3
     },
     {
@@ -258,24 +258,24 @@
       "article_id": "fueihou-art-31-11",
       "article_number": "31-11",
       "filename": "fueihou-article-31-11.md",
-      "ja_text_sha256": "eee84b511e2f2e42cfee7d92778fc75e1789b25ae255f0e4ac993a5fd588366e",
-      "ja_text_bytes": 1294,
+      "ja_text_sha256": "ed45dc337d9dc322c11cee298ccd3c39b0e9c90f9b84997b6ad6aefadcdeb7aa",
+      "ja_text_bytes": 2016,
       "paragraph_count": 3
     },
     {
       "article_id": "fueihou-art-31-12",
       "article_number": "31-12",
       "filename": "fueihou-article-31-12.md",
-      "ja_text_sha256": "7187599cfaf49cde3bcdf325647e91a8316ec3feaa4a601ecd23f5e0a055b835",
-      "ja_text_bytes": 1004,
+      "ja_text_sha256": "045f88b77c502c8e09c6cbbc0a80325e4641c7e8ae801a992f968d0d5db7554c",
+      "ja_text_bytes": 1430,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-31-13",
       "article_number": "31-13",
       "filename": "fueihou-article-31-13.md",
-      "ja_text_sha256": "c500201c44c1fee4ab27f164167bf6ceee0194b92b7272d68c7c6d5939912c8d",
-      "ja_text_bytes": 1138,
+      "ja_text_sha256": "9911a2d0b0fd8fd65732140e7f713efb5c82215934753aa2beadc040b897b18f",
+      "ja_text_bytes": 1852,
       "paragraph_count": 3
     },
     {
@@ -298,24 +298,24 @@
       "article_id": "fueihou-art-31-16",
       "article_number": "31-16",
       "filename": "fueihou-article-31-16.md",
-      "ja_text_sha256": "23f180fa0f45eb3297c5e793404531eefbc07b46aacd2bd88bd472482ed6e0c3",
-      "ja_text_bytes": 1491,
+      "ja_text_sha256": "fb1a778d45c52e98b2d2b5592d6e0f788173763695007673499229904c0c2bb8",
+      "ja_text_bytes": 1800,
       "paragraph_count": 4
     },
     {
       "article_id": "fueihou-art-31-17",
       "article_number": "31-17",
       "filename": "fueihou-article-31-17.md",
-      "ja_text_sha256": "c7803632e67e5805473543a15e84145c56f449a22e122257dc6fdb09fb28ac34",
-      "ja_text_bytes": 866,
+      "ja_text_sha256": "21e397c976c6cd25025f4d5763f64582ca8cacd19d2adc0bac20730b812964a3",
+      "ja_text_bytes": 1346,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-31-18",
       "article_number": "31-18",
       "filename": "fueihou-article-31-18.md",
-      "ja_text_sha256": "8428726c8dbc066ea5e488dd12366c9375e61a60ea7950f2ccc1b2059239a559",
-      "ja_text_bytes": 1441,
+      "ja_text_sha256": "dcfd2ead9e8b88a28728b840b3ecc1a8a0a9e3f981803932e1a397edd283d89f",
+      "ja_text_bytes": 1774,
       "paragraph_count": 3
     },
     {
@@ -338,8 +338,8 @@
       "article_id": "fueihou-art-31-2",
       "article_number": "31-2",
       "filename": "fueihou-article-31-2.md",
-      "ja_text_sha256": "0e5385e60ee9419d76e2d12bbe0535f744e983c4acef16a8a7b61a83bcecf097",
-      "ja_text_bytes": 2297,
+      "ja_text_sha256": "05a283e8a067176f176adc952c9eb00132c26a004c1bdb75c3552d4da23167b5",
+      "ja_text_bytes": 3230,
       "paragraph_count": 5
     },
     {
@@ -354,8 +354,8 @@
       "article_id": "fueihou-art-31-21",
       "article_number": "31-21",
       "filename": "fueihou-article-31-21.md",
-      "ja_text_sha256": "8dbc94fd5272872e9b5e190db2a9ca245bc300570b5918f716f1e5dde570cf80",
-      "ja_text_bytes": 1312,
+      "ja_text_sha256": "8412526b42353cebc49be30c685c767ffaf744903fbbd9b2454ea8856053ce35",
+      "ja_text_bytes": 2283,
       "paragraph_count": 3
     },
     {
@@ -394,8 +394,8 @@
       "article_id": "fueihou-art-31-3",
       "article_number": "31-3",
       "filename": "fueihou-article-31-3.md",
-      "ja_text_sha256": "a2cb88594b61ebf53c31713dc5b5de240ef55b5c95ccbd1340c637cf0523c92c",
-      "ja_text_bytes": 2257,
+      "ja_text_sha256": "d508ea699bcadde2bf8ecc5f2d2c5e518d9e15f13af15e4a31107f843c86c698",
+      "ja_text_bytes": 2386,
       "paragraph_count": 3
     },
     {
@@ -418,16 +418,16 @@
       "article_id": "fueihou-art-31-6",
       "article_number": "31-6",
       "filename": "fueihou-article-31-6.md",
-      "ja_text_sha256": "3b1b3259f500318330787c99b594e7e13e9262daf48616018034e5397ac0f8d1",
-      "ja_text_bytes": 1504,
+      "ja_text_sha256": "a20a19451121110d35829a5c6d4915fda8a8cef3b58b8b4c97b5c225f301e80f",
+      "ja_text_bytes": 2986,
       "paragraph_count": 3
     },
     {
       "article_id": "fueihou-art-31-7",
       "article_number": "31-7",
       "filename": "fueihou-article-31-7.md",
-      "ja_text_sha256": "1507d976a362afe6fdc10a24932853cc7225bd4a3bc9bbc2497c762f63131938",
-      "ja_text_bytes": 857,
+      "ja_text_sha256": "106ab3ff31523a6cb3726d631ef305120db963cf48eba606015c2c1e5e3cb0f1",
+      "ja_text_bytes": 1940,
       "paragraph_count": 2
     },
     {
@@ -450,32 +450,32 @@
       "article_id": "fueihou-art-31",
       "article_number": "31",
       "filename": "fueihou-article-31.md",
-      "ja_text_sha256": "6418cecb74ae6997b142c86c6b19b8e869be7f5c4847739c3f669499c4d94997",
-      "ja_text_bytes": 1773,
+      "ja_text_sha256": "cfb2a2d1825a725611cdf378b5ab5b2511f8ae343c15f9895989628552dd6670",
+      "ja_text_bytes": 1872,
       "paragraph_count": 4
     },
     {
       "article_id": "fueihou-art-32",
       "article_number": "32",
       "filename": "fueihou-article-32.md",
-      "ja_text_sha256": "42a4885c077eac502a0801c8fe8d07dcf2b8de3076daa422fa002c1cec1fa0a2",
-      "ja_text_bytes": 1825,
+      "ja_text_sha256": "ca0f8f623f5a034b8295d36c2cfc1204a95258a3b055e0836c13c1033e76a6fb",
+      "ja_text_bytes": 1651,
       "paragraph_count": 3
     },
     {
       "article_id": "fueihou-art-33",
       "article_number": "33",
       "filename": "fueihou-article-33.md",
-      "ja_text_sha256": "7a6bb1f31289ae1a937fafaaddc9e7967570ae4f74475efed2a510a90cf68c70",
-      "ja_text_bytes": 1939,
+      "ja_text_sha256": "d2db91d13bafecea7bf9ac69c8b5d2858e33e9d000946741105cf0b9eb879430",
+      "ja_text_bytes": 1834,
       "paragraph_count": 6
     },
     {
       "article_id": "fueihou-art-34",
       "article_number": "34",
       "filename": "fueihou-article-34.md",
-      "ja_text_sha256": "169dfae552d400c61dfd4582d68998109e79f5eef4d68d53ccef3a96b3f8dd39",
-      "ja_text_bytes": 1377,
+      "ja_text_sha256": "2237ff9816455860a039421fa91f1683cac301d5b13af9494c7a94cefe32d789",
+      "ja_text_bytes": 1283,
       "paragraph_count": 2
     },
     {
@@ -490,48 +490,48 @@
       "article_id": "fueihou-art-35-3",
       "article_number": "35-3",
       "filename": "fueihou-article-35-3.md",
-      "ja_text_sha256": "a79d2ac15b38dfbf4c47c21ff5a6fa081f19099778a3d7f7baf545d9d7f3fff0",
-      "ja_text_bytes": 114,
+      "ja_text_sha256": "178a51bf5ef4e595dbdb089ec09f43e71d7b17e03ea93994750207e050ee9fd4",
+      "ja_text_bytes": 729,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-35-4",
       "article_number": "35-4",
       "filename": "fueihou-article-35-4.md",
-      "ja_text_sha256": "2e6617416db44c6d1adea13e61d81dc75085ce8f64857ece25ade0ea20f923a9",
-      "ja_text_bytes": 2732,
+      "ja_text_sha256": "fc45689e2ebf725c6353ba254752a05d8bd4bbf33e6a6ffe8f315cef03174390",
+      "ja_text_bytes": 3613,
       "paragraph_count": 5
     },
     {
       "article_id": "fueihou-art-35",
       "article_number": "35",
       "filename": "fueihou-article-35.md",
-      "ja_text_sha256": "a9129d766136a94ebbf39f972a42dea7197dd6ec7a031a190c93751a03e02e17",
-      "ja_text_bytes": 923,
+      "ja_text_sha256": "4b294617473d9a2fa075544c1cf912997b27c41f04f83b9615cb93591f24dd29",
+      "ja_text_bytes": 876,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-36-2",
       "article_number": "36-2",
       "filename": "fueihou-article-36-2.md",
-      "ja_text_sha256": "cb337ac69690de5af55ae10cd5f6114f1ccb3f5396026b94438017ecf15984b6",
-      "ja_text_bytes": 938,
+      "ja_text_sha256": "fae6d6ce6c8008eeda8cfd4a063c7106d5224169dc460992265aee84e7606a7c",
+      "ja_text_bytes": 1564,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-36",
       "article_number": "36",
       "filename": "fueihou-article-36.md",
-      "ja_text_sha256": "aa876631f9ca34af4e7c7ca6ec382fd02f0b5503adbcd16dbf4bebaf2d12532e",
-      "ja_text_bytes": 863,
+      "ja_text_sha256": "a9c0d57dd005f23c0bc2a3a2af4cd8f2bc32406c01681c55a2bb4c84b93f837c",
+      "ja_text_bytes": 816,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-37",
       "article_number": "37",
       "filename": "fueihou-article-37.md",
-      "ja_text_sha256": "8f1646eb56896cd0823684d74c2b41a2219eea46090525ab4e259509a24188fa",
-      "ja_text_bytes": 1298,
+      "ja_text_sha256": "33faf56a66a73e9bd07fc1ba83e18c68eab8fb6b2d073b6b2f1761944e0afa44",
+      "ja_text_bytes": 1605,
       "paragraph_count": 4
     },
     {
@@ -562,32 +562,32 @@
       "article_id": "fueihou-art-38",
       "article_number": "38",
       "filename": "fueihou-article-38.md",
-      "ja_text_sha256": "4ab5038003b83221ea55d582e3d985078cb11a590ba0c3abfd31226b9ca84b71",
-      "ja_text_bytes": 1216,
+      "ja_text_sha256": "4e3cf3307763d05a0820f7b5ceb3a191e594c9b03a6d655338d60ad92268adbe",
+      "ja_text_bytes": 2644,
       "paragraph_count": 6
     },
     {
       "article_id": "fueihou-art-39",
       "article_number": "39",
       "filename": "fueihou-article-39.md",
-      "ja_text_sha256": "b721763e936fff19059f62f7159b1006e20942754e09b3c2cb592de8fe45ac41",
-      "ja_text_bytes": 1943,
+      "ja_text_sha256": "68919e0ea36401ed06f17e8efb24491675dd595ba83e6ba782a582d6102da757",
+      "ja_text_bytes": 3084,
       "paragraph_count": 7
     },
     {
       "article_id": "fueihou-art-4",
       "article_number": "4",
       "filename": "fueihou-article-4.md",
-      "ja_text_sha256": "2877023de97451a07139a3f4d514b2946de62530cca38a855d55b54ff03e0d9f",
-      "ja_text_bytes": 1720,
+      "ja_text_sha256": "7b463f397d53f5393d6593ba90d78c20ac39cdda21a81b6f5038236bb931a74b",
+      "ja_text_bytes": 12642,
       "paragraph_count": 4
     },
     {
       "article_id": "fueihou-art-40",
       "article_number": "40",
       "filename": "fueihou-article-40.md",
-      "ja_text_sha256": "31ffb74ef6895dcbb51e0b6c6fabdad352b519feb874575f158d198ed0c8b8cc",
-      "ja_text_bytes": 1135,
+      "ja_text_sha256": "5a8f58558e9e52d871eb8898a78d16cf252a34591e23c77c480809c7344f225a",
+      "ja_text_bytes": 1513,
       "paragraph_count": 3
     },
     {
@@ -602,168 +602,168 @@
       "article_id": "fueihou-art-41-3",
       "article_number": "41-3",
       "filename": "fueihou-article-41-3.md",
-      "ja_text_sha256": "9f8955d2167485c9deb01bff8bf054f9ce18ac6f88360693e5f3d289f17cc56d",
-      "ja_text_bytes": 1520,
+      "ja_text_sha256": "d4c812b1a3232f486a00cb7bcbf7e344917e37f18c0c8552b8284a608885cc83",
+      "ja_text_bytes": 2621,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-41",
       "article_number": "41",
       "filename": "fueihou-article-41.md",
-      "ja_text_sha256": "c478cf99542abb881baa06120a61465fb1fafe1f5009240386274d0e481efcd0",
-      "ja_text_bytes": 3017,
+      "ja_text_sha256": "edd2ae875a02dd88cf9a154c0a6b99bdd0349d99d3c567915f26965257574850",
+      "ja_text_bytes": 2829,
       "paragraph_count": 4
     },
     {
       "article_id": "fueihou-art-42",
       "article_number": "42",
       "filename": "fueihou-article-42.md",
-      "ja_text_sha256": "8cf5261b66d49c3c6134e677e84643223213c96e8ae0c8e4008d58d4e6d5ef22",
-      "ja_text_bytes": 695,
+      "ja_text_sha256": "22dcafae79c27f3452fc4ee34dd5bdfea2221addc6165faf530258d81b73f2e0",
+      "ja_text_bytes": 648,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-43",
       "article_number": "43",
       "filename": "fueihou-article-43.md",
-      "ja_text_sha256": "30812919152500546ebe5b14c970fa47869f52f6d0b3b399f0ef2e8f3358e2aa",
-      "ja_text_bytes": 779,
+      "ja_text_sha256": "26dde702f8469b8531ff97eddc329844dd9aa5b8c4829eb8b798c72b1f3e2c0c",
+      "ja_text_bytes": 732,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-44",
       "article_number": "44",
       "filename": "fueihou-article-44.md",
-      "ja_text_sha256": "ab5a7c3038bd7c97d8c20d27692a280367e3d41fa7281b4b4668fb64be24bf8a",
-      "ja_text_bytes": 897,
+      "ja_text_sha256": "6abee066270c2f2fe4ea57087ad165253e8a06102c5b4cf2aea875b47b84ad49",
+      "ja_text_bytes": 803,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-45",
       "article_number": "45",
       "filename": "fueihou-article-45.md",
-      "ja_text_sha256": "3e011be5af57e27581cdb9a13443d44773aba168204e77210bb2eaf57941e549",
-      "ja_text_bytes": 257,
+      "ja_text_sha256": "c0d4350c9e1193c5c564bc3404dedfb5541a1f90eeb2cd212ead747f55db0a18",
+      "ja_text_bytes": 210,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-46",
       "article_number": "46",
       "filename": "fueihou-article-46.md",
-      "ja_text_sha256": "dbe5c14afeafc36ca5e1ce7931bcca28ec84092269fac01167ba072d651ff772",
-      "ja_text_bytes": 260,
+      "ja_text_sha256": "d72ba2fa15721b647ee4a1a688be6f9726afdc97a56a4bd92ce615965b7a8316",
+      "ja_text_bytes": 213,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-47",
       "article_number": "47",
       "filename": "fueihou-article-47.md",
-      "ja_text_sha256": "b0f94645d7fa5069a2d4356517bbb7a7c731ae4b09a7929b363382ac90432821",
-      "ja_text_bytes": 377,
+      "ja_text_sha256": "54a566804925178a4143567b85f3b8d679a11b89b3bdec569ef958bee395fbf6",
+      "ja_text_bytes": 330,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-48",
       "article_number": "48",
       "filename": "fueihou-article-48.md",
-      "ja_text_sha256": "71388960923adc8dabf7b5458575932a09a0067d70e570540abc51dda642151c",
-      "ja_text_bytes": 230,
+      "ja_text_sha256": "f8cc944428e1cfb2a0020f648d93309851e2cc00e57113a440006cd5896a6486",
+      "ja_text_bytes": 183,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-49",
       "article_number": "49",
       "filename": "fueihou-article-49.md",
-      "ja_text_sha256": "d8873ba81ddc5bbd059380cb2f55da0e75b16980e2ddc75b15ebe99bb4ae81a3",
-      "ja_text_bytes": 251,
+      "ja_text_sha256": "50ec7f5e6132b058406a44942c909557d5b4193fc321338d56a1dd5130555db3",
+      "ja_text_bytes": 1107,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-5",
       "article_number": "5",
       "filename": "fueihou-article-5.md",
-      "ja_text_sha256": "23c0cf66c59f3c3b4fb406cd83a12d5c09e21f5225e42fe967cce00541329ab3",
-      "ja_text_bytes": 1215,
+      "ja_text_sha256": "a62d53dba7816fa212b2991ca6bde8999cdbe4bbf8cb96d19eb0d9ea43a85d42",
+      "ja_text_bytes": 1272,
       "paragraph_count": 4
     },
     {
       "article_id": "fueihou-art-50",
       "article_number": "50",
       "filename": "fueihou-article-50.md",
-      "ja_text_sha256": "c1474896f05913be38236a00840a7373ba382b3e89a837b976df03dd6da11791",
-      "ja_text_bytes": 254,
+      "ja_text_sha256": "a9bc6277b8bb81117b2c9101cedfcd79dd4f2d6af3e4cc7aa241e77df75d125c",
+      "ja_text_bytes": 1305,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-51",
       "article_number": "51",
       "filename": "fueihou-article-51.md",
-      "ja_text_sha256": "02e3f6839fe84a325e525f7260da664c3fa974799b411f238200c511091c4cfc",
-      "ja_text_bytes": 960,
+      "ja_text_sha256": "3e8b596f0b0dfdee23b78408b5ab92fee659ff5f1c8eb6b126857a8adc74e791",
+      "ja_text_bytes": 2414,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-52",
       "article_number": "52",
       "filename": "fueihou-article-52.md",
-      "ja_text_sha256": "0681747f02a0d77ccb24b83f7ff42c13917be9d97c88a1bf1bcc6e53ca2175cd",
-      "ja_text_bytes": 260,
+      "ja_text_sha256": "146f2bd0c78c176f0815bad736abafa2327103b7bbf956c126495d6a046eaf49",
+      "ja_text_bytes": 213,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-53",
       "article_number": "53",
       "filename": "fueihou-article-53.md",
-      "ja_text_sha256": "6ca660e6ffd429aa22810434bdffd908009acc9ad690072b047085348966acbe",
-      "ja_text_bytes": 251,
+      "ja_text_sha256": "a63641e325836bac4b08e9091bbb238538bad244bae6c08cdfeda49036b64aab",
+      "ja_text_bytes": 1671,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-54",
       "article_number": "54",
       "filename": "fueihou-article-54.md",
-      "ja_text_sha256": "dfa8bc36e07fbcbc4679afac401fb1f99ba73a71edf5ee327ced5de8d7494399",
-      "ja_text_bytes": 188,
+      "ja_text_sha256": "5ddac812bb20e9a1e2aa74424a680e04681fcff971080aea9a1191cd4d534e01",
+      "ja_text_bytes": 1269,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-55",
       "article_number": "55",
       "filename": "fueihou-article-55.md",
-      "ja_text_sha256": "91911fd5fa9ddc8584057348e0206ee72529abd27b2d715befec1768cda0c855",
-      "ja_text_bytes": 191,
+      "ja_text_sha256": "3e0d95b1576786a7feb195d24443fc7e1767bb6e64afb96d55dcd8acb1e3fa74",
+      "ja_text_bytes": 2109,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-56",
       "article_number": "56",
       "filename": "fueihou-article-56.md",
-      "ja_text_sha256": "56f340bb5902bc06b065c2ff659bd41146b34e33c5c0051c42911df69da807c0",
-      "ja_text_bytes": 191,
+      "ja_text_sha256": "3e7774a0afe9a41ecde83e9d756354c7aa6bc77432f723fff842d099046c4f31",
+      "ja_text_bytes": 1530,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-57",
       "article_number": "57",
       "filename": "fueihou-article-57.md",
-      "ja_text_sha256": "c78251939b0e8f7486692db5d4a66aa5a724a60dfb25d7ac1dfcf9cb7b8d6cf3",
-      "ja_text_bytes": 654,
+      "ja_text_sha256": "0543609dadbab623602623b3ea508fd0be658a2ed58eee9abc4ff7af93bdeb7b",
+      "ja_text_bytes": 706,
       "paragraph_count": 2
     },
     {
       "article_id": "fueihou-art-58",
       "article_number": "58",
       "filename": "fueihou-article-58.md",
-      "ja_text_sha256": "838c7996e0f73fd64c9918f24058c907cf5f46e3ee1c897181969a039ec27208",
-      "ja_text_bytes": 146,
+      "ja_text_sha256": "968baf6bea5434020e6c9e63b5224ea6a2a744c2a65d39f9769e5b4ded3b99a2",
+      "ja_text_bytes": 474,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-6",
       "article_number": "6",
       "filename": "fueihou-article-6.md",
-      "ja_text_sha256": "8ecfae4eef970e35f9f287a68a6adc7f53ecf0d57ff1424223ce8a38a28f441b",
-      "ja_text_bytes": 259,
+      "ja_text_sha256": "137dadb118fc1cbd90c3b255945cd972da73d3952eeab3a810f3dd453e2c8535",
+      "ja_text_bytes": 213,
       "paragraph_count": 1
     },
     {
@@ -786,24 +786,24 @@
       "article_id": "fueihou-art-7",
       "article_number": "7",
       "filename": "fueihou-article-7.md",
-      "ja_text_sha256": "b96ff864c84475a179446a3c7c182eee54a1461941a63dff4378a14f66a644fc",
-      "ja_text_bytes": 1741,
+      "ja_text_sha256": "6626e5e14eb5a5e3ab6e33124003e5d5c8864101ecbf49ba4ba1bc7baa9cf27d",
+      "ja_text_bytes": 1465,
       "paragraph_count": 6
     },
     {
       "article_id": "fueihou-art-8",
       "article_number": "8",
       "filename": "fueihou-article-8.md",
-      "ja_text_sha256": "f69a17e3d5f8893cb3a6ecee34c154e94a1ce7e89b5df13182a1bb029cac3c80",
-      "ja_text_bytes": 394,
+      "ja_text_sha256": "9dbefaff684a44c6a18ede489f16b7363e35673a28a8fca6e09fbc7f4051caab",
+      "ja_text_bytes": 768,
       "paragraph_count": 1
     },
     {
       "article_id": "fueihou-art-9",
       "article_number": "9",
       "filename": "fueihou-article-9.md",
-      "ja_text_sha256": "9ed8b6d64f505a020c599523ee7cc0e09a9be3bd823067f8ff9b3c240d53ef95",
-      "ja_text_bytes": 1956,
+      "ja_text_sha256": "9d5ea5f6998847cc2045fee0f1cc5486f4229ff83313a3402c374d1fdb15e43d",
+      "ja_text_bytes": 1925,
       "paragraph_count": 5
     }
   ]

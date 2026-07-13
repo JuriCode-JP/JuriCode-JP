@@ -14,39 +14,92 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-p1
+    type: tokusoku
+    text: 第二十三条の二十五第一項の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する再生医療等製品である場合には、厚生労働大臣は、同条第二項（第三号イ及びロに係る部分に限る。）及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、その適正な使用の確保のために必要な条件及び七年を超えない範囲内の期限を付してその品目に係る同条第一項の承認を与えることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第十二項
+  - id: yakkihou-art-23-26-p1-kou-1
+    type: kou
+    text: 申請に係る再生医療等製品が均質でないこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-23-26-p1-kou-2
+    type: kou
+    text: 申請に係る効能、効果又は性能を有すると推定されるものであること。
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-23-26-p1-kou-3
+    type: kou
+    text: 申請に係る効能、効果又は性能に比して著しく有害な作用を有することにより再生医療等製品として使用価値がないと推定されるものでないこと。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-p2
+    type: simple
+    text: 厚生労働大臣は、第五項の申請に係る第二十三条の二十五第二項第三号の規定による審査を適正に行うため特に必要があると認めるときは、薬事審議会の意見を聴いて、前項の期限を、三年を超えない範囲内において延長することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-p3
+    type: simple
+    text: 第一項の規定により条件及び期限を付した第二十三条の二十五第一項の承認を受けた者は、厚生労働省令で定めるところにより、当該再生医療等製品の品質、有効性及び安全性に関する調査として厚生労働省令で定める調査を行い、その結果を厚生労働大臣に報告しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-p4
+    type: simple
+    text: 第一項の規定により条件及び期限を付した第二十三条の二十五第一項の承認を受けた者が同条第十三項の承認の申請をした場合における同項において準用する同条第二項の規定の適用については、同項第三号イ中「認められない」とあるのは「推定されない」と、同号ロ中「認められる」とあるのは「推定される」とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-p5
+    type: simple
+    text: 第一項の規定により条件及び期限を付した第二十三条の二十五第一項の承認を受けた者は、その品目について、当該承認の期限（第二項の規定による延長が行われたときは、その延長後のもの）内に、改めて同条第一項の承認の申請をしなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-p6
+    type: simple
+    text: 前項の申請があつた場合において、同項に規定する期限内にその申請に対する処分がされないときは、第一項の規定により条件及び期限を付した第二十三条の二十五第一項の承認は、当該期限の到来後もその処分がされるまでの間は、なおその効力を有する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-26-p7
+    type: simple
+    text: 再生医療等製品を取り扱う医師その他の医療関係者（以下「再生医療等製品取扱医療関係者」という。）は、第三項に規定する調査又は第五項の規定により読み替えて適用される第二十三条の二十五第三項後段に規定する資料の収集に協力するよう努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:
@@ -64,6 +117,12 @@ parent_section:
 ### 第二十三条の二十六第一項
 
 第二十三条の二十五第一項の承認の申請者が製造販売をしようとする物が、次の各号のいずれにも該当する再生医療等製品である場合には、厚生労働大臣は、同条第二項（第三号イ及びロに係る部分に限る。）及び第十二項の規定にかかわらず、薬事審議会の意見を聴いて、その適正な使用の確保のために必要な条件及び七年を超えない範囲内の期限を付してその品目に係る同条第一項の承認を与えることができる。
+
+一　申請に係る再生医療等製品が均質でないこと。
+
+二　申請に係る効能、効果又は性能を有すると推定されるものであること。
+
+三　申請に係る効能、効果又は性能に比して著しく有害な作用を有することにより再生医療等製品として使用価値がないと推定されるものでないこと。
 
 ### 第二十三条の二十六第二項
 

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十三条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-23-p1 -->
 職員の人事評価は、公正に行われなければならない。
 
 ### 第二十三条第二項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-23-p2 -->
 任命権者は、人事評価を任用、給与、分限その他の人事管理の基礎として活用するものとする。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十七条
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-27-p1 -->
 この節の規定に基づく処分又はその不作為については、審査請求をすることができない。

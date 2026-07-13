@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十一条
 
-<!-- segment: simple id: keihou-art-41-p1 -->
 十四歳に満たない者の行為は、罰しない。

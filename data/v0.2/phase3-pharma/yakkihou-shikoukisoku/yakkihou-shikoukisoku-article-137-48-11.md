@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-48-11-p1
+    type: simple
+    text: 令第四十三条の四十五の規定による再生医療等製品適合性確認の結果の通知は、様式第七十五の十四の七による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

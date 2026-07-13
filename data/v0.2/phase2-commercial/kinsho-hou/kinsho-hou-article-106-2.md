@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-2-p1
+    type: simple
+    text: 監査役会設置会社である特定株式会社金融商品取引所の監査役、監査等委員会設置会社である特定株式会社金融商品取引所の監査等委員会により選定された監査等委員又は指名委員会等設置会社である特定株式会社金融商品取引所の監査委員会により選定された監査委員は、必要があると認めるときは、特定株式会社金融商品取引所の自主規制委員会に出席し、意見を述べることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

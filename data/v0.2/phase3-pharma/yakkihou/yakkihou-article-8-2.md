@@ -16,27 +16,50 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-8-2-p1
+    type: simple
+    text: 薬局開設者は、厚生労働省令で定めるところにより、医療を受ける者が薬局の選択を適切に行うために必要な情報として厚生労働省令で定める事項を当該薬局の所在地の都道府県知事に報告するとともに、当該事項を記載した書面を当該薬局において閲覧に供しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-8-2-p2
+    type: simple
+    text: 薬局開設者は、前項の規定により報告した事項について変更が生じたときは、厚生労働省令で定めるところにより、速やかに、当該薬局の所在地の都道府県知事に報告するとともに、同項に規定する書面の記載を変更しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-8-2-p3
+    type: simple
+    text: 薬局開設者は、第一項の規定による書面の閲覧に代えて、厚生労働省令で定めるところにより、当該書面に記載すべき事項を電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて厚生労働省令で定めるものにより提供することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-8-2-p4
+    type: simple
+    text: 都道府県知事は、第一項又は第二項の規定による報告の内容を確認するために必要があると認めるときは、市町村その他の官公署に対し、当該都道府県の区域内に所在する薬局に関し必要な情報の提供を求めることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-8-2-p5
+    type: simple
+    text: 都道府県知事は、厚生労働省令で定めるところにより、第一項及び第二項の規定により報告された事項を公表しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

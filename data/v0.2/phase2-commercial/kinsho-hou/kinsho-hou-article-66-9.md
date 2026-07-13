@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-9-p1
+    type: simple
+    text: 金融商品仲介業者は、自己の名義をもつて、他人に金融商品仲介業を行わせてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

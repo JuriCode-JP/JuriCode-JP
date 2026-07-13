@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百七条
 
-<!-- segment: simple id: shouhou-art-507-p1 -->
 削除

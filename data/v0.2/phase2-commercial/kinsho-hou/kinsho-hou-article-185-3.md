@@ -13,15 +13,27 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-3-p1-honbun
+    type: honbun
+    text: 被審人は、審判手続において、証拠書類又は証拠物を提出することができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-185-3-p1-tadashi
+    type: tadashi
+    text: ただし、審判官が証拠書類又は証拠物を提出すべき相当の期間を定めたときは、その期間内に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-3-p2
+    type: simple
+    text: 審判官は、被審人の申立てにより又は職権で、書類その他の物件の所持人に対し、その物件の提出を求め、かつ、その提出された物件を留め置くことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

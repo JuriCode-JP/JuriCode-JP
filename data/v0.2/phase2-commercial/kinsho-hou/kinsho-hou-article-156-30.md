@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-30-p1
+    type: simple
+    text: 証券金融会社の代表取締役又は代表執行役は、金融商品取引業者の役員及び使用人以外の者でなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-30-p2
+    type: simple
+    text: 会社法第三百三十一条第二項ただし書（同法第三百三十五条第一項において準用する場合を含む。）、第三百三十二条第二項（同法第三百三十四条第一項において準用する場合を含む。）、第三百三十六条第二項及び第四百二条第五項ただし書の規定は、証券金融会社については、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

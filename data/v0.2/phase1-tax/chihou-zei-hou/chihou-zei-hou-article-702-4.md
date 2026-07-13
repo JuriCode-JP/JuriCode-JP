@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-4-p1
+    type: simple
+    text: 都市計画税の税率は、百分の〇・三を超えることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

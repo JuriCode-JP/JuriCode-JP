@@ -59,15 +59,12 @@ parent_section:
 
 ### 第百六条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-106-p1 -->
 普通地方公共団体の議会の議長に事故があるとき、又は議長が欠けたときは、副議長が議長の職務を行う。
 
 ### 第百六条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-106-p2 -->
 議長及び副議長にともに事故があるときは、仮議長を選挙し、議長の職務を行わせる。
 
 ### 第百六条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-106-p3 -->
 議会は、仮議長の選任を議長に委任することができる。

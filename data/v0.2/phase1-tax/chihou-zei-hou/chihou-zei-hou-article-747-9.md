@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-9-p1
+    type: simple
+    text: 第七百四十七条の七の規定により特定徴収金を納付し、又は納入しようとする者の委託を受けた機構指定納付受託者は、当該委託を受けた納付等事務の一部を、納付等事務を適切かつ確実に遂行することができる者として政令で定める者に委託することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

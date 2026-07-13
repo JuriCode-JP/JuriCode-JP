@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第八十二条の十四第一項第三号（国際最低課税残余額に係る確定申告）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-38-51-p1-kou-1
+    type: kou
+    text: 特定多国籍企業グループ等に属する構成会社等である内国法人の名称、納税地及び法人番号並びにその納税地と本店又は主たる事務所の所在地とが異なる場合には、その本店又は主たる事務所の所在地
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-38-51-p1-kou-2
+    type: kou
+    text: 代表者の氏名
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-38-51-p1-kou-3
+    type: kou
+    text: 当該対象会計年度の開始及び終了の日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-38-51-p1-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +72,16 @@ parent_section:
 
 ### 第三十八条の五十一第一項
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-38-51-p1-hashira -->
 法第八十二条の十四第一項第三号（国際最低課税残余額に係る確定申告）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　特定多国籍企業グループ等に属する構成会社等である内国法人の名称、納税地及び法人番号並びにその納税地と本店又は主たる事務所の所在地とが異なる場合には、その本店又は主たる事務所の所在地
+
+二　代表者の氏名
+
+三　当該対象会計年度の開始及び終了の日
+
+四　その他参考となるべき事項
 
 ### 第三十八条の五十一第二項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-38-51-p2 -->
 法第二条第三十一号の三（定義）に規定する国際最低課税残余額確定申告書（当該申告書に係る修正申告書及び更正請求書を含む。）の記載事項及びこれに添付すべき書類の記載事項のうち別表二十一及び別表二十一付表（更正請求書にあつては、別表二十一を除く。）に定めるものの記載については、これらの表の書式によらなければならない。

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四十九条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-49-p1 -->
 警視総監は、国家公安委員会が都公安委員会の同意を得た上内閣総理大臣の承認を得て、任免する。
 
 ### 第四十九条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-49-p2 -->
 都公安委員会は、国家公安委員会に対し、警視総監の懲戒又は罷免に関し必要な勧告をすることができる。

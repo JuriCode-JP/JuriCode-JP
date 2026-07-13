@@ -14,19 +14,48 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-195-3-p1-hashira
+    type: hashira
+    text: 国内において給与等の支払を受ける居住者は、第百九十条（年末調整）に規定する過不足の額の計算上、同条第二号ホに掲げる特定親族特別控除の額に相当する金額の控除を受けようとする場合には、その給与等の支払者（二以上の給与等の支払者から給与等の支払を受ける場合には、主たる給与等の支払者）からその年最後に給与等の支払を受ける日の前日までに、次に掲げる事項を記載した申告書を、当該給与等の支払者を経由して、その給与等に係る所得税の第十七条（源泉徴収に係る所得税の納税地）の規定による納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+  - id: shotoku-zei-hou-art-195-3-p1-kou-1
+    type: kou
+    text: 当該給与等の支払者の氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-art-195-3-p1-kou-2
+    type: kou
+    text: 第八十四条の二第一項（特定親族特別控除）に規定する特定親族（次項において「特定親族」という。）の氏名及び個人番号（個人番号を有しない者にあつては、氏名）並びにその者のその年の合計所得金額又はその見積額並びにその者が非居住者である親族である場合にはその旨
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-art-195-3-p1-kou-3
+    type: kou
+    text: その他財務省令で定める事項
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-195-3-p2
+    type: simple
+    text: 前項の規定による申告書に特定親族が非居住者である親族である旨の記載をした居住者は、政令で定めるところにより、当該記載がされた者が当該居住者の親族に該当する旨を証する書類及び当該記載がされた者が当該居住者と生計を一にすることを明らかにする書類を提出し、又は提示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-195-3-p3
+    type: simple
+    text: 第一項の規定による申告書は、給与所得者の特定親族特別控除申告書という。
+    modality: teigi
 cases: []
 amendments:
 - effective_date: '2025-12-01'
@@ -52,6 +81,12 @@ parent_section:
 ### 第百九十五条の三第一項
 
 国内において給与等の支払を受ける居住者は、第百九十条（年末調整）に規定する過不足の額の計算上、同条第二号ホに掲げる特定親族特別控除の額に相当する金額の控除を受けようとする場合には、その給与等の支払者（二以上の給与等の支払者から給与等の支払を受ける場合には、主たる給与等の支払者）からその年最後に給与等の支払を受ける日の前日までに、次に掲げる事項を記載した申告書を、当該給与等の支払者を経由して、その給与等に係る所得税の第十七条（源泉徴収に係る所得税の納税地）の規定による納税地の所轄税務署長に提出しなければならない。
+
+一　当該給与等の支払者の氏名又は名称
+
+二　第八十四条の二第一項（特定親族特別控除）に規定する特定親族（次項において「特定親族」という。）の氏名及び個人番号（個人番号を有しない者にあつては、氏名）並びにその者のその年の合計所得金額又はその見積額並びにその者が非居住者である親族である場合にはその旨
+
+三　その他財務省令で定める事項
 
 ### 第百九十五条の三第二項
 

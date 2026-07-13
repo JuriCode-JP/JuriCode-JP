@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-68-p1-honbun
+    type: honbun
+    text: 基金の事業年度は、四月一日から翌年三月三十一日までとする。
+    modality: gimu
+  - id: kinsho-hou-art-79-68-p1-tadashi
+    type: tadashi
+    text: ただし、基金の成立の日を含む事業年度は、その成立の日からその後最初の三月三十一日までとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

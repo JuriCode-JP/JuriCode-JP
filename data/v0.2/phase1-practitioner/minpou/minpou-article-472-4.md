@@ -13,30 +13,64 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-472-4-p1-honbun
+    type: honbun
+    text: 債権者は、第四百七十二条第一項の規定により債務者が免れる債務の担保として設定された担保権を引受人が負担する債務に移すことができる。
+    modality: kanou_kenri
+  - id: minpou-art-472-4-p1-tadashi
+    type: tadashi
+    text: ただし、引受人以外の者がこれを設定した場合には、その承諾を得なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-472-4-p2
+    type: simple
+    text: 前項の規定による担保権の移転は、あらかじめ又は同時に引受人に対してする意思表示によってしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-472-4-p3
+    type: junyou
+    text: 前二項の規定は、第四百七十二条第一項の規定により債務者が免れる債務の保証をした者があるときについて準用する。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-472-4-p4
+    type: simple
+    text: 前項の場合において、同項において準用する第一項の承諾は、書面でしなければ、その効力を生じない。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-472-4-p5
+    type: simple
+    text: 前項の承諾がその内容を記録した電磁的記録によってされたときは、その承諾は、書面によってされたものとみなして、同項の規定を適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

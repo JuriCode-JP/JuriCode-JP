@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八百八十一条
 
-<!-- segment: simple id: minpou-art-881-p1 -->
 扶養を受ける権利は、処分することができない。

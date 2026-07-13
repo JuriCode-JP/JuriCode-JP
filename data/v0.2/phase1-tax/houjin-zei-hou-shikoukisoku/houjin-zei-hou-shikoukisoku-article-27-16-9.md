@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-9-p1-hashira
+    type: hashira
+    text: 法第六十四条の十第二項（通算制度の取りやめ等）に規定する財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-9-p1-kou-1
+    type: kou
+    text: 法第六十四条の十第二項の申請をする同項に規定する通算法人の全ての名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-9-p1-kou-2
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -40,3 +54,7 @@ parent_section:
 ### 第二十七条の十六の九
 
 法第六十四条の十第二項（通算制度の取りやめ等）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　法第六十四条の十第二項の申請をする同項に規定する通算法人の全ての名称、納税地及び法人番号並びに代表者の氏名
+
+二　その他参考となるべき事項

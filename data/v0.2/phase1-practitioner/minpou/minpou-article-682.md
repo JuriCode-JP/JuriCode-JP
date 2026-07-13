@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 組合は、次に掲げる事由によって解散する。
     modality: unspecified
+  - id: minpou-art-682-p1-kou-1
+    type: kou
+    text: 組合の目的である事業の成功又はその成功の不能
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-682-p1-kou-2
+    type: kou
+    text: 組合契約で定めた存続期間の満了
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-682-p1-kou-3
+    type: kou
+    text: 組合契約で定めた解散の事由の発生
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-682-p1-kou-4
+    type: kou
+    text: 総組合員の同意
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -41,5 +61,12 @@ parent_section:
 
 ### 第六百八十二条
 
-<!-- segment: hashira id: minpou-art-682-p1-hashira -->
 組合は、次に掲げる事由によって解散する。
+
+一　組合の目的である事業の成功又はその成功の不能
+
+二　組合契約で定めた存続期間の満了
+
+三　組合契約で定めた解散の事由の発生
+
+四　総組合員の同意

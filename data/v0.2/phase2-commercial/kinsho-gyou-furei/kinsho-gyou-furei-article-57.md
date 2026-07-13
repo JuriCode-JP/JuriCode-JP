@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第十五条の二十二第一項及び第十五条の二十三第一項の規定により示すべき方法の種類及び内容は、次に掲げる事項とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-57-p1-kou-1
+    type: kou
+    text: 前条第一項各号又は第五十七条の三第一項各号に掲げる方法のうち金融商品取引業者等が使用するもの
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-57-p1-kou-2
+    type: kou
+    text: ファイルへの記録の方式
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第五十七条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-57-p1-hashira -->
 令第十五条の二十二第一項及び第十五条の二十三第一項の規定により示すべき方法の種類及び内容は、次に掲げる事項とする。
+
+一　前条第一項各号又は第五十七条の三第一項各号に掲げる方法のうち金融商品取引業者等が使用するもの
+
+二　ファイルへの記録の方式

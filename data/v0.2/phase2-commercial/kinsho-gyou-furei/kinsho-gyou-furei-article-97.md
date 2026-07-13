@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九十七条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-97-p1 -->
 法第三十七条の三第三項の規定により届出を行う金融商品取引業者等は、契約締結前交付書面を所管金融庁長官等に届け出なければならない。

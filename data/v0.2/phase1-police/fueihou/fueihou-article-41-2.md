@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-41-2-p1
+    type: simple
+    text: 公安委員会がそのあらかじめ指定する医師の診断に基づき第四条第一項第四号又は第五号（これらの規定を第三十一条の二十三において準用する場合を含む。）に該当すると認めた者について行う第八条の規定による処分については、行政手続法第三章（第十二条及び第十四条を除く。）の規定は、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

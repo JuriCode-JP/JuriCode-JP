@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-85-5-p1
+    type: simple
+    text: 金融商品取引所は、第八十四条に定めるもののほか、この法律及び定款その他の規則に従い、取引所金融商品市場における有価証券の売買及び市場デリバティブ取引を公正にし、並びに投資者を保護するため、高速取引行為を行う者の法令又は法令に基づく行政官庁の処分の遵守の状況の調査その他の必要な措置を講ずるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-85-5-p2
+    type: simple
+    text: 前項の措置に係る業務は、自主規制業務とみなして、この法律（第八十四条を除く。）の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

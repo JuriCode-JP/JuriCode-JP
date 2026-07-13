@@ -16,32 +16,68 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-31-p1
+    type: simple
+    text: 第二十三条の二十五の承認を受けている者は、厚生労働大臣が薬事審議会の意見を聴いて再生医療等製品の範囲を指定して再評価を受けるべき旨を公示したときは、その指定に係る再生医療等製品について、厚生労働大臣の再評価を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-31-p2
+    type: simple
+    text: 厚生労働大臣の再評価は、再評価を行う際に得られている知見に基づき、前項の指定に係る再生医療等製品が第二十三条の二十五第二項第三号イからハまでのいずれにも該当しないことを確認することにより行う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-31-p3
+    type: simple
+    text: 第一項の公示は、再評価を受けるべき者が提出すべき資料及びその提出期限を併せ行うものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-31-p4
+    type: simple
+    text: 第一項の指定に係る再生医療等製品が厚生労働省令で定める再生医療等製品であるときは、再評価を受けるべき者が提出する資料は、厚生労働省令で定める基準に従つて収集され、かつ、作成されたものでなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-31-p5-zen
+    type: zen_dan
+    text: 第二項の規定による確認においては、再評価を受けるべき者が提出する資料に基づき、第一項の指定に係る再生医療等製品の品質、有効性及び安全性に関する調査を行うものとする。
+    modality: gimu
+  - id: yakkihou-art-23-31-p5-kou
+    type: kou_dan
+    text: この場合において、同項の指定に係る再生医療等製品が前項に規定する厚生労働省令で定める再生医療等製品であるときは、あらかじめ、当該再生医療等製品に係る資料が同項の規定に適合するかどうかについての書面による調査又は実地の調査を行うものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+    depends_on: yakkihou-art-23-31-p5-zen
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-31-p6
+    type: simple
+    text: 第四項に規定する厚生労働省令で定める再生医療等製品につき再評価を受けるべき者、同項に規定する資料の収集若しくは作成の委託を受けた者又はこれらの役員若しくは職員は、正当な理由なく、当該資料の収集又は作成に関しその職務上知り得た人の秘密を漏らしてはならない。これらの者であつた者についても、同様とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

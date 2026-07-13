@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-188-3-p1
+    type: simple
+    text: 前条第一項の補償は、被告人であつた者の請求により、無罪の判決をした裁判所が、決定をもつてこれを行う。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-188-3-p2
+    type: simple
+    text: 前項の請求は、無罪の判決が確定した後六箇月以内にこれをしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-188-3-p3
+    type: simple
+    text: 補償に関する決定に対しては、即時抗告をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

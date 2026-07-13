@@ -22,7 +22,7 @@ paragraphs:
     text: 第三百二十一条乃至第三百二十八条に規定する場合を除いては、公判期日における供述に代えて書面を証拠とし、又は公判期日外における他の者の供述を内容とする供述を証拠とすることはできない。
     modality: kanou_negative
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -52,10 +52,8 @@ parent_section:
 
 ### 第三百二十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-320-p1 -->
 第三百二十一条乃至第三百二十八条に規定する場合を除いては、公判期日における供述に代えて書面を証拠とし、又は公判期日外における他の者の供述を内容とする供述を証拠とすることはできない。
 
 ### 第三百二十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-320-p2 -->
 第二百九十一条の二の決定があつた事件の証拠については、前項の規定は、これを適用しない。但し、検察官、被告人又は弁護人が証拠とすることに異議を述べたものについては、この限りでない。

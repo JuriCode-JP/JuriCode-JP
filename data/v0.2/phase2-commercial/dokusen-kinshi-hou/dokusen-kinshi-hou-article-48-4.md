@@ -13,10 +13,23 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-48-4-p1-honbun
+    type: honbun
+    text: 第七条第一項及び第二項（第八条の二第二項及び第二十条第二項において準用する場合を含む。）、第七条の二第一項（第八条の三において読み替えて準用する場合を含む。）、第七条の九第一項及び第二項、第八条の二第一項及び第三項、第十七条の二、第二十条第一項並びに第二十条の二から第二十条の六までの規定は、公正取引委員会が前条第三項の認定（同条第八項の規定による変更の認定を含む。次条、第六十五条、第六十八条第一項及び第七十六条第二項において同じ。）をした場合において、当該認定に係る疑いの理由となつた行為及び排除措置に係る行為については、適用しない。
+    modality: jogai
+    references:
+    - 前条
+    - 次条
+  - id: dokusen-kinshi-hou-art-48-4-p1-tadashi
+    type: tadashi
+    text: ただし、次条第一項の規定による決定があつた場合は、この限りでない。
+    modality: jogai
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

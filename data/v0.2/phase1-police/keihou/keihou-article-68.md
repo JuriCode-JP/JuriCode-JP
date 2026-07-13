@@ -14,13 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keihou-art-68-p1
     type: simple
     text: 法律上刑を減軽すべき一個又は二個以上の事由があるときは、次の例による。
     modality: unspecified
+  - id: keihou-art-68-p1-kou-1
+    type: kou
+    text: 死刑を減軽するときは、無期又は十年以上の拘禁刑とする。
+    modality: gimu
+    item_number: 1
+  - id: keihou-art-68-p1-kou-2
+    type: kou
+    text: 無期拘禁刑を減軽するときは、七年以上の有期拘禁刑とする。
+    modality: gimu
+    item_number: 2
+  - id: keihou-art-68-p1-kou-3
+    type: kou
+    text: 有期拘禁刑を減軽するときは、その長期及び短期の二分の一を減ずる。
+    modality: unspecified
+    item_number: 3
+  - id: keihou-art-68-p1-kou-4
+    type: kou
+    text: 罰金を減軽するときは、その多額及び寡額の二分の一を減ずる。
+    modality: unspecified
+    item_number: 4
+  - id: keihou-art-68-p1-kou-5
+    type: kou
+    text: 拘留を減軽するときは、その長期の二分の一を減ずる。
+    modality: unspecified
+    item_number: 5
+  - id: keihou-art-68-p1-kou-6
+    type: kou
+    text: 科料を減軽するときは、その多額の二分の一を減ずる。
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -39,5 +69,16 @@ parent_section:
 
 ### 第六十八条
 
-<!-- segment: simple id: keihou-art-68-p1 -->
 法律上刑を減軽すべき一個又は二個以上の事由があるときは、次の例による。
+
+一　死刑を減軽するときは、無期又は十年以上の拘禁刑とする。
+
+二　無期拘禁刑を減軽するときは、七年以上の有期拘禁刑とする。
+
+三　有期拘禁刑を減軽するときは、その長期及び短期の二分の一を減ずる。
+
+四　罰金を減軽するときは、その多額及び寡額の二分の一を減ずる。
+
+五　拘留を減軽するときは、その長期の二分の一を減ずる。
+
+六　科料を減軽するときは、その多額の二分の一を減ずる。

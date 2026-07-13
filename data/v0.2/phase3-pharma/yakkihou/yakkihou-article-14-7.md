@@ -16,12 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-7-p1-zen
+    type: zen_dan
+    text: 医薬品（専ら動物のために使用されることが目的とされているものを除く。以下この条において同じ。）のうち政令で定めるものについての前条第二項の規定による確認及び同条第五項の規定による調査については、第十四条の二の三（第四項及び第五項を除く。）の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+  - id: yakkihou-art-14-7-p1-kou
+    type: kou_dan
+    text: この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    depends_on: yakkihou-art-14-7-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-14-7-p2
+    type: tokusoku
+    text: 前項において準用する第十四条の二の三第一項の規定により機構に前条第二項の規定による確認を行わせることとしたときは、前項において準用する第十四条の二の三第一項の政令で定める医薬品についての前条第四項の規定による資料の提出をしようとする者は、同項の規定にかかわらず、機構に提出しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

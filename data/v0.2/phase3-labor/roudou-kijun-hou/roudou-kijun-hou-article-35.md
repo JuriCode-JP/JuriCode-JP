@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三十五条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-35-p1 -->
 使用者は、労働者に対して、毎週少くとも一回の休日を与えなければならない。
 
 ### 第三十五条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-35-p2 -->
 前項の規定は、四週間を通じ四日以上の休日を与える使用者については適用しない。

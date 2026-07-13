@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-16-p1
+    type: junyou
+    text: 第十六条の規定は、第二十七条の三第三項若しくは第二十七条の八第七項の規定に違反して内閣府令で定める行為をした者又は第二十七条の九第三項若しくは第四項の規定に違反して株券等の買付け等をした者について準用する。この場合において、第十六条中「これを取得した者」とあるのは、「公開買付け（第二十七条の三第一項に規定する公開買付けをいう。）に応じて株券等（第二十七条の二第一項に規定する株券等をいう。）の売付け等（第二十七条の二第六項に規定する売付け等をいう。）をした者」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 第十六条
 cases: []
 amendments: []
 tags:

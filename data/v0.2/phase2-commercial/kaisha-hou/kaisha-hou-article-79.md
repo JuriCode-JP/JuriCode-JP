@@ -52,10 +52,8 @@ parent_section:
 
 ### 第七十九条第一項
 
-<!-- segment: simple id: kaisha-hou-art-79-p1 -->
 創立総会の議長は、当該創立総会の秩序を維持し、議事を整理する。
 
 ### 第七十九条第二項
 
-<!-- segment: simple id: kaisha-hou-art-79-p2 -->
 創立総会の議長は、その命令に従わない者その他当該創立総会の秩序を乱す者を退場させることができる。

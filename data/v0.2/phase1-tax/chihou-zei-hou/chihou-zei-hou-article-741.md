@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七百四十一条
 
-<!-- segment: simple id: chihou-zei-hou-art-741-p1 -->
 大規模の償却資産に対して道府県が課する固定資産税の標準税率は、百分の一・四とする。

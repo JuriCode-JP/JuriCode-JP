@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第六十六条の五十一第一項第七号に規定する内閣府令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-327-p1-kou-1
+    type: kou
+    text: 外国法人であって国内における代表者を定めていない者又は外国に住所を有する個人であるときは、国内における代理人の氏名、商号又は名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-327-p1-kou-2
+    type: kou
+    text: 外国法人又は外国に住所を有する個人であるときは、国内における主たる営業所又は事務所の名称及び所在地
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第三百二十七条
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-327-p1-hashira -->
 法第六十六条の五十一第一項第七号に規定する内閣府令で定める事項は、次に掲げる事項とする。
+
+一　外国法人であって国内における代表者を定めていない者又は外国に住所を有する個人であるときは、国内における代理人の氏名、商号又は名称
+
+二　外国法人又は外国に住所を有する個人であるときは、国内における主たる営業所又は事務所の名称及び所在地

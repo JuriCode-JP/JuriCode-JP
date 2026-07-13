@@ -41,6 +41,21 @@ paragraphs:
     type: hashira
     text: 第一項の場合において、次に掲げるときは、土地の所有者は、その枝を切り取ることができる。
     modality: kanou_kenri
+  - id: minpou-art-233-p3-kou-1
+    type: kou
+    text: 竹木の所有者に枝を切除するよう催告したにもかかわらず、竹木の所有者が相当の期間内に切除しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-233-p3-kou-2
+    type: kou
+    text: 竹木の所有者を知ることができず、又はその所在を知ることができないとき。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-233-p3-kou-3
+    type: kou
+    text: 急迫の事情があるとき。
+    modality: unspecified
+    item_number: 3
 - number: 4
   has_proviso: false
   has_items: false
@@ -72,20 +87,22 @@ parent_section:
 
 ### 第二百三十三条第一項
 
-<!-- segment: simple id: minpou-art-233-p1 -->
 土地の所有者は、隣地の竹木の枝が境界線を越えるときは、その竹木の所有者に、その枝を切除させることができる。
 
 ### 第二百三十三条第二項
 
-<!-- segment: simple id: minpou-art-233-p2 -->
 前項の場合において、竹木が数人の共有に属するときは、各共有者は、その枝を切り取ることができる。
 
 ### 第二百三十三条第三項
 
-<!-- segment: hashira id: minpou-art-233-p3-hashira -->
 第一項の場合において、次に掲げるときは、土地の所有者は、その枝を切り取ることができる。
+
+一　竹木の所有者に枝を切除するよう催告したにもかかわらず、竹木の所有者が相当の期間内に切除しないとき。
+
+二　竹木の所有者を知ることができず、又はその所在を知ることができないとき。
+
+三　急迫の事情があるとき。
 
 ### 第二百三十三条第四項
 
-<!-- segment: simple id: minpou-art-233-p4 -->
 隣地の竹木の根が境界線を越えるときは、その根を切り取ることができる。

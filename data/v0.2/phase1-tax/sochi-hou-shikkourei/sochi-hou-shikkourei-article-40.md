@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十条
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-40-p1 -->
 削除

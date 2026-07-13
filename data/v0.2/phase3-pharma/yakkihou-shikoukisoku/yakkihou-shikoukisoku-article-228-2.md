@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-2-p1-hashira
+    type: hashira
+    text: 法第六十五条の二第四号の厚生労働省令で定める表示は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-228-2-p1-kou-1
+    type: kou
+    text: 再生医療等製品（指定再生医療等製品を除く。）にあつては、白地に黒枠、黒字をもつて記載する「再生等」の文字
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-228-2-p1-kou-2
+    type: kou
+    text: 指定再生医療等製品にあつては、白地に黒枠、黒字をもつて記載する「指定再生等」の文字
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第二百二十八条の二
 
 法第六十五条の二第四号の厚生労働省令で定める表示は、次のとおりとする。
+
+一　再生医療等製品（指定再生医療等製品を除く。）にあつては、白地に黒枠、黒字をもつて記載する「再生等」の文字
+
+二　指定再生医療等製品にあつては、白地に黒枠、黒字をもつて記載する「指定再生等」の文字

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-6-4-p1
+    type: simple
+    text: 第六条の二第一項又は前条第一項の認定の申請者が、第七十五条第四項又は第五項の規定によりその受けた認定を取り消され、その取消しの日から三年を経過しない者であるときは、第六条の二第一項又は前条第一項の認定を与えないことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-6-4-p2
+    type: junyou
+    text: 第五条（第三号に係る部分に限る。）の規定は、第六条の二第一項及び前条第一項の認定について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

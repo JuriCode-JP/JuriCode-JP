@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-494-6-p1-honbun
+    type: honbun
+    text: 前条の規定による拘置は、第三百四十五条の二又は第四百九十四条の三の規定による決定を受けた者に対し理由を告げこれに関する陳述を聴いた後でなければ、することができない。
+    modality: kanou_negative
+    references:
+    - 前条
+  - id: keiji-soshou-hou-art-494-6-p1-tadashi
+    type: tadashi
+    text: ただし、その者が逃亡した場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

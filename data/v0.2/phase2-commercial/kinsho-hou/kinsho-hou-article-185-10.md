@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-10-p1-zen
+    type: zen_dan
+    text: 書類の送達については、民事訴訟法第九十九条、第百条第一項、第百一条及び第百二条の二から第百八条までの規定を準用する。
+    modality: unspecified
+  - id: kinsho-hou-art-185-10-p1-kou
+    type: kou_dan
+    text: この場合において、同項中「裁判所」とあるのは「内閣総理大臣又は審判官」と、同法第百一条第一項中「執行官」とあるのは「金融庁の職員」と、同法第百四条第一項中「当事者、法定代理人又は訴訟代理人」とあるのは「被審人又はその代理人」と、「受訴裁判所」とあるのは「内閣総理大臣又は審判官」と、同法第百七条第一項中「裁判所書記官」とあるのは「金融庁の職員」と、同項第三号中「訴訟記録」とあるのは「事件記録」と、同法第百八条中「裁判長」とあるのは「内閣総理大臣又は審判長（金融商品取引法第百八十条第一項ただし書の場合にあっては、審判官）」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: kinsho-hou-art-185-10-p1-zen
 cases: []
 amendments: []
 tags:

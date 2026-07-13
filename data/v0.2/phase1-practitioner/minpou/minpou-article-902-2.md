@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-902-2-p1-honbun
+    type: honbun
+    text: 被相続人が相続開始の時において有した債務の債権者は、前条の規定による相続分の指定がされた場合であっても、各共同相続人に対し、第九百条及び第九百一条の規定により算定した相続分に応じてその権利を行使することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: minpou-art-902-2-p1-tadashi
+    type: tadashi
+    text: ただし、その債権者が共同相続人の一人に対してその指定された相続分に応じた債務の承継を承認したときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

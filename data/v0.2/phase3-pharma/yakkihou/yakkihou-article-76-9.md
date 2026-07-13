@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-9-p1
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、第七十六条の七第二項又は前条第一項に規定する当該職員の職権を麻薬取締官又は麻薬取締員に行わせることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

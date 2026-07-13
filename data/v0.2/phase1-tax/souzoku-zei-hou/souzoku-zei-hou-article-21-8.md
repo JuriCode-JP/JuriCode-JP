@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-8-p1-honbun
+    type: honbun
+    text: 贈与によりこの法律の施行地外にある財産を取得した場合において、当該財産についてその地の法令により贈与税に相当する税が課せられたときは、当該財産を取得した者については、前条又は第二十一条の十三の規定により計算した金額からその課せられた税額に相当する金額を控除した残額をもつて、その納付すべき贈与税額とする。
+    modality: gimu
+    references:
+    - 前条
+  - id: souzoku-zei-hou-art-21-8-p1-tadashi
+    type: tadashi
+    text: ただし、その控除すべき金額が、その者についてこれらの規定により計算した金額に当該財産の価額が当該財産を取得した日の属する年分の贈与税の課税価格に算入された財産の価額のうちに占める割合を乗じて計算した金額を超える場合においては、その超える部分の金額については、当該控除をしない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

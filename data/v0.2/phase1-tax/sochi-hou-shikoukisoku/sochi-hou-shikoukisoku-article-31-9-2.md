@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-31-9-2-p1
+    type: simple
+    text: 法第八十四条の五の二の規定の適用を受けようとする者は、その登記の申請書に、当該登記が同条の規定に該当するものであることについての都道府県知事又は市町村長（特別区の区長を含む。）の証明書で、当該登記に係る土地が施行令第四十四条の四第一項に規定する土地であること、当該登記に係る土地が法第八十四条の五の二に規定する分筆の登記がされたものであること及び当該土地の所有権を取得した者が当該土地に隣接する他の土地の所有権の登記名義人であることの記載があるものを添付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

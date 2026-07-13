@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-6-p1
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、特定医療機器承認取得者等、前条第四項の委託を受けた者、特定医療機器の販売業者若しくは貸与業者又は特定医療機器を取り扱う医師その他の医療関係者に対し、記録等の事務について必要な指導及び助言を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-382-3-p1-honbun
+    type: honbun
+    text: 市町村長は、第二十条の十の規定によるもののほか、政令で定める者の請求があつたときは、これらの者に係る固定資産として政令で定めるものに関して固定資産課税台帳に記載をされている事項のうち政令で定めるものについての証明書を交付しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-382-3-p1-tadashi
+    type: tadashi
+    text: ただし、当該証明書に記載されている住所が明らかにされることにより人の生命又は身体に危害を及ぼすおそれがあると認められる場合その他当該証明書を交付することが適当でないと認められる場合には、当該証明書に総務省令で定める措置を講じたものを交付することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

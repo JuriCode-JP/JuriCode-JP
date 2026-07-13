@@ -4,13 +4,13 @@
   "law_name_ja": "軽犯罪法",
   "law_abbrev": "keihanzai-hou",
   "source_url": "https://laws.e-gov.go.jp/api/2/law_data/323AC0000000039",
-  "source_xml_path": "../../../cache/laws/323AC0000000039.xml",
+  "source_xml_path": "..\\..\\..\\cache\\laws\\323AC0000000039.xml",
   "source_xml_sha256": "6b8f7acda147098ea2969e91ceb9ada7e52eb35b535f907bc85ed415e08670e3",
   "source_xml_bytes": 18954,
-  "source_fetched_at": "2026-05-25",
+  "source_fetched_at": "2026-07-13",
   "parser": "tools/parse/v0.2/segment_parser.py",
-  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-05-25T11:26:47+00:00",
+  "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
+  "parsed_at": "2026-07-13T13:57:47+00:00",
   "version_date": "1948-05-01",
   "article_count": 4,
   "articles": [
@@ -18,32 +18,32 @@
       "article_id": "keihanzai-hou-art-1",
       "article_number": "1",
       "filename": "keihanzai-hou-article-1.md",
-      "ja_text_sha256": "f3e2d2a1820590f4fb5c4aff4c0e5d21ebd0fca385d9972e96d38516d27abd67",
-      "ja_text_bytes": 136,
+      "ja_text_sha256": "703e4696a889929ba7a3c819f3f7ddf9c39605f02303a1e0a689c13c8a5f6cdb",
+      "ja_text_bytes": 5985,
       "paragraph_count": 1
     },
     {
       "article_id": "keihanzai-hou-art-2",
       "article_number": "2",
       "filename": "keihanzai-hou-article-2.md",
-      "ja_text_sha256": "7510a5abbbd4566b83c227d9e8d4f26dc4e2629b7b8d41c1866dc8ab2ff0a07a",
-      "ja_text_bytes": 199,
+      "ja_text_sha256": "a73da7fac3758367e2d844cd3c4325ad86f316e5f94afc50f67e8cb4171e3a45",
+      "ja_text_bytes": 147,
       "paragraph_count": 1
     },
     {
       "article_id": "keihanzai-hou-art-3",
       "article_number": "3",
       "filename": "keihanzai-hou-article-3.md",
-      "ja_text_sha256": "12d415fe6fdff409f393d75482587311b33569e135a906708d131f34263198bc",
-      "ja_text_bytes": 130,
+      "ja_text_sha256": "16c6e492ce01869f7d5e7cf773e87e0d473f21f71c5bbe0417381ec2d4e85433",
+      "ja_text_bytes": 78,
       "paragraph_count": 1
     },
     {
       "article_id": "keihanzai-hou-art-4",
       "article_number": "4",
       "filename": "keihanzai-hou-article-4.md",
-      "ja_text_sha256": "024b5f633793a3c85d0966ac099aee995d9227521b7c14cb3109478ed158ed47",
-      "ja_text_bytes": 283,
+      "ja_text_sha256": "24167cb5109623387ceaf53ca0ecc20f8da5f894e92a95ee07644024f87cd97b",
+      "ja_text_bytes": 231,
       "paragraph_count": 1
     }
   ]

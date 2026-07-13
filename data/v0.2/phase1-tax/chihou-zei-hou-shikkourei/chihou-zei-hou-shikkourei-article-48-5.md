@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四十八条の五第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-48-5-p1 -->
 法第三百十三条第十項に規定する政令で定める災害は、第七条の十の三に規定する災害とする。
 
 ### 第四十八条の五第二項
 
-<!-- segment: junyou id: chihou-zei-hou-shikkourei-art-48-5-p2 -->
 第七条の十の四の規定は、法第三百十三条第十項に規定する支出の範囲について準用する。

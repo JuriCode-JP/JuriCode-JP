@@ -54,10 +54,8 @@ parent_section:
 
 ### 第百四十条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-140-p1 -->
 普通地方公共団体の長の任期は、四年とする。
 
 ### 第百四十条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-140-p2 -->
 前項の任期の起算については、公職選挙法第二百五十九条及び第二百五十九条の二の定めるところによる。

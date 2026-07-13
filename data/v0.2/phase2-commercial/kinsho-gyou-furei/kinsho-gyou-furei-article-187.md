@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百八十七条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-187-p1 -->
 法第四十八条の二第一項の規定により登録金融機関が提出する事業報告書は、別紙様式第十六号により作成しなければならない。

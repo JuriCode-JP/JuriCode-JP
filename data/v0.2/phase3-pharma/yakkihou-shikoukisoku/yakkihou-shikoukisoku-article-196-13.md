@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-13-p1
+    type: simple
+    text: 再生医療等製品の販売業の営業所を廃止し、休止し、又は休止した再生医療等製品の販売業の営業所を再開した場合における法第四十条の七第一項において準用する法第十条第一項の規定による届出は、様式第八による届書を提出することによつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

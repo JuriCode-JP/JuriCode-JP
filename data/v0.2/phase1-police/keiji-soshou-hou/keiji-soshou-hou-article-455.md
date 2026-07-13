@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百五十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-455-p1 -->
 非常上告をするには、その理由を記載した申立書を最高裁判所に差し出さなければならない。

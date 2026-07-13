@@ -16,22 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-16-p1
+    type: simple
+    text: 地方団体の長は、前条第二項の規定による納入申告書（第七百三十三条の十四第一項の規定による申告書を含む。以下本節において同じ。）又は第七百三十三条の十四第二項の規定による修正申告書の提出があつた場合において、納入申告（同条第一項の規定による申告を含む。以下本節において同じ。）又は修正申告に係る課税標準額又は税額がその調査したところと異なるときは、これを更正することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-16-p2
+    type: simple
+    text: 地方団体の長は、納税者又は特別徴収義務者が前項の納入申告書を提出しなかつた場合においては、その調査によつて、納入申告すべき課税標準額及び税額を決定することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-16-p3
+    type: simple
+    text: 地方団体の長は、前二項の規定によつて更正し、又は決定した課税標準額又は税額について、調査によつて、過大であることを発見した場合、又は過少であり、かつ、過少であることが納税者又は特別徴収義務者の偽りその他不正の行為によるものであることを発見した場合に限り、これを更正することができる。
+    modality: kanou_kenri
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-16-p4
+    type: simple
+    text: 地方団体の長は、前三項の規定によつて更正し、又は決定した場合においては、遅滞なく、これを納税者又は特別徴収義務者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

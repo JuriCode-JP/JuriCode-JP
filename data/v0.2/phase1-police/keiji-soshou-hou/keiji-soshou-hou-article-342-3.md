@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-342-3-p1
+    type: simple
+    text: 拘禁刑以上の刑に処する判決の宣告を受けた者又はその弁護人、法定代理人、保佐人、配偶者、直系の親族若しくは兄弟姉妹は、前条の許可の請求をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

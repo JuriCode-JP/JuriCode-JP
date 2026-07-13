@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百五十九条
 
-<!-- segment: simple id: keihou-art-259-p1 -->
 権利又は義務に関する他人の文書又は電磁的記録を毀棄した者は、五年以下の拘禁刑に処する。

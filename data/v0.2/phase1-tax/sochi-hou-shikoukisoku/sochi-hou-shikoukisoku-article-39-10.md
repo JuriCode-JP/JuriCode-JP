@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十九条の十
 
-<!-- segment: junyou id: sochi-hou-shikoukisoku-art-39-10-p1 -->
 第三十九条の四の規定は、施行令第五十条の二の二第四項の規定による承認について準用する。

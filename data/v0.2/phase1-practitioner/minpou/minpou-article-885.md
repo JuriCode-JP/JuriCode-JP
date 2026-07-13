@@ -43,6 +43,4 @@ parent_section:
 
 ### 第八百八十五条
 
-<!-- segment: honbun id: minpou-art-885-p1-honbun -->
-相続財産に関する費用は、その財産の中から支弁する。<!-- segment: tadashi id: minpou-art-885-p1-tadashi -->
-ただし、相続人の過失によるものは、この限りでない。
+相続財産に関する費用は、その財産の中から支弁する。ただし、相続人の過失によるものは、この限りでない。

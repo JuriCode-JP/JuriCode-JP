@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-94-2-p1
+    type: simple
+    text: 第四十条の規定による処分に違反して出頭せず、報告、情報若しくは資料を提出せず、又は虚偽の報告、情報若しくは資料を提出した者は、三百万円以下の罰金に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

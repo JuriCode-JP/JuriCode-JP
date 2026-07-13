@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-12-2-p1
+    type: simple
+    text: 道府県は、たばこ税の申告納税者が正当な事由がなくて第七十四条の十第一項から第三項までの規定による申告書をこれらの項に規定する申告書の提出期限までに提出しなかつた場合においては、その者に対し、当該道府県の条例で十万円以下の過料を科する旨の規定を設けることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

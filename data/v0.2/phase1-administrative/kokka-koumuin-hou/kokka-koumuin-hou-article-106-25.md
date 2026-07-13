@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-25-p1
+    type: simple
+    text: 内閣総理大臣は、第百六条の二十三第三項の規定による通知及び前条の規定による届出を受けた事項について、遅滞なく、政令で定めるところにより、内閣に報告しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-25-p2
+    type: simple
+    text: 内閣は、毎年度、前項の報告を取りまとめ、政令で定める事項を公表するものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

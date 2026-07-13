@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百五十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-456-p1 -->
 公判期日には、検察官は、申立書に基いて陳述をしなければならない。

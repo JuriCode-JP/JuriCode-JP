@@ -16,47 +16,121 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-55-p1
+    type: simple
+    text: 設置に当たつて組立てが必要な特定保守管理医療機器であつて、保健衛生上の危害の発生を防止するために当該組立てに係る管理が必要なものとして厚生労働大臣が指定する医療機器（以下「設置管理医療機器」という。）の製造販売業者は、設置管理医療機器の品目ごとに、組立方法及び設置された設置管理医療機器の品質の確認方法について記載した文書（以下「設置管理基準書」という。）を作成しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-55-p2
+    type: simple
+    text: 設置管理医療機器の製造販売業者は、設置管理医療機器を医療機器の販売業者又は貸与業者（以下「販売業者等」という。）に販売し、授与し、又は貸与するときは、設置管理基準書を当該医療機器の販売業者等に交付しなければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-55-p3
+    type: simple
+    text: 設置管理医療機器の製造販売業者は、設置管理医療機器について第百七十条第一項又は第百九十一条第六項の規定による通知を受けたときは、当該設置管理医療機器に係る設置管理基準書を通知を行つた者に交付しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-55-p4-hashira
+    type: hashira
+    text: 設置管理医療機器の製造販売業者は、前二項の規定による設置管理基準書の交付に代えて、第七項で定めるところにより、これらの規定により当該設置管理基準書の交付を受けるべき者（以下この条において「受託者等」という。）の承諾を得て、当該設置管理基準書に記載すべき事項を電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて次に掲げるもの（以下この条において「電磁的方法」という。）により提供することができる。この場合において、設置管理医療機器の製造販売業者は、当該設置管理基準書の交付を行つたものとみなす。
+    modality: unspecified
+    references:
+    - 前二項
+  - id: yakkihou-shikoukisoku-art-114-55-p4-kou-1
+    type: kou
+    text: '電子情報処理組織を使用する方法のうち、イ又はロに掲げるもの
+
+      イ 設置管理医療機器の製造販売業者の使用に係る電子計算機と受託者等の使用に係る電子計算機とを接続する電気通信回線を通じて送信し、受信者の使用に係る電子計算機に備えられたファイルに記録する方法
+
+      ロ 設置管理医療機器の製造販売業者の使用に係る電子計算機に備えられたファイルに記録された設置管理基準書に記載すべき事項を電気回線を通じて受託者等の閲覧に供し、当該受託者等の使用に係る電子計算機に備えられたファイルに当該設置管理基準書に記載すべき事項を記録する方法（電磁的方法による提供を受ける旨の承諾又は受けない旨の申出をする場合にあつては、設置管理医療機器の製造販売業者の使用に係る電子計算機に備えられたファイルにその旨を記録する方法）'
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-55-p4-kou-2
+    type: kou
+    text: 電磁的記録媒体をもつて調製するファイルに記録したものを交付する方法
+    modality: unspecified
+    item_number: 2
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-55-p5
+    type: simple
+    text: 前項に掲げる方法は、受託者等がファイルへの記録を出力することによる文書を作成することができるものでなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-55-p6
+    type: simple
+    text: 第四項第一号の「電子情報処理組織」とは、設置管理医療機器の製造販売業者の使用に係る電子計算機と、受託者等の使用に係る電子計算機とを電気通信回線で接続した電子情報処理組織をいう。
+    modality: teigi
 - number: 7
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-55-p7-hashira
+    type: hashira
+    text: 設置管理医療機器の製造販売業者は、第四項の規定により設置管理基準書に記載すべき事項を提供しようとするときは、あらかじめ、受託者等に対して、その用いる次に掲げる電磁的方法の種類及び内容を示し、文書又は電磁的方法による承諾を得なければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-55-p7-kou-1
+    type: kou
+    text: 第四項各号に規定する方法のうち設置管理医療機器の製造販売業者が使用するもの
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-55-p7-kou-2
+    type: kou
+    text: ファイルへの記録の方法
+    modality: unspecified
+    item_number: 2
 - number: 8
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-55-p8-honbun
+    type: honbun
+    text: 前項の規定による承諾を得た設置管理医療機器の製造販売業者は、当該受託者等から文書又は電磁的方法により電磁的方法による提供を受けない旨の申出があつたときは、当該受託者等に対し、設置管理基準書に記載すべき事項の提供を電磁的方法によつてしてはならない。
+    modality: gimu_negative
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-114-55-p8-tadashi
+    type: tadashi
+    text: ただし、当該受託者等が再び同項の規定による承諾をした場合は、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-55-p9
+    type: simple
+    text: 設置管理医療機器の製造販売業者は、第二項から前項までの規定により設置管理基準書を交付したときは、その記録を作成し、その作成の日から十五年間保存しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -89,6 +163,14 @@ parent_section:
 
 設置管理医療機器の製造販売業者は、前二項の規定による設置管理基準書の交付に代えて、第七項で定めるところにより、これらの規定により当該設置管理基準書の交付を受けるべき者（以下この条において「受託者等」という。）の承諾を得て、当該設置管理基準書に記載すべき事項を電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて次に掲げるもの（以下この条において「電磁的方法」という。）により提供することができる。この場合において、設置管理医療機器の製造販売業者は、当該設置管理基準書の交付を行つたものとみなす。
 
+一　電子情報処理組織を使用する方法のうち、イ又はロに掲げるもの
+
+　イ　設置管理医療機器の製造販売業者の使用に係る電子計算機と受託者等の使用に係る電子計算機とを接続する電気通信回線を通じて送信し、受信者の使用に係る電子計算機に備えられたファイルに記録する方法
+
+　ロ　設置管理医療機器の製造販売業者の使用に係る電子計算機に備えられたファイルに記録された設置管理基準書に記載すべき事項を電気回線を通じて受託者等の閲覧に供し、当該受託者等の使用に係る電子計算機に備えられたファイルに当該設置管理基準書に記載すべき事項を記録する方法（電磁的方法による提供を受ける旨の承諾又は受けない旨の申出をする場合にあつては、設置管理医療機器の製造販売業者の使用に係る電子計算機に備えられたファイルにその旨を記録する方法）
+
+二　電磁的記録媒体をもつて調製するファイルに記録したものを交付する方法
+
 ### 第百十四条の五十五第五項
 
 前項に掲げる方法は、受託者等がファイルへの記録を出力することによる文書を作成することができるものでなければならない。
@@ -100,6 +182,10 @@ parent_section:
 ### 第百十四条の五十五第七項
 
 設置管理医療機器の製造販売業者は、第四項の規定により設置管理基準書に記載すべき事項を提供しようとするときは、あらかじめ、受託者等に対して、その用いる次に掲げる電磁的方法の種類及び内容を示し、文書又は電磁的方法による承諾を得なければならない。
+
+一　第四項各号に規定する方法のうち設置管理医療機器の製造販売業者が使用するもの
+
+二　ファイルへの記録の方法
 
 ### 第百十四条の五十五第八項
 

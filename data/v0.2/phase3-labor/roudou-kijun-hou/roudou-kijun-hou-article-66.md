@@ -61,9 +61,6 @@ parent_section:
 
 ### 第六十六条第一項
 
-<!-- segment: tokusoku id: roudou-kijun-hou-art-66-p1 override_flag: true override_target: 第一項 -->
-<!-- segment: tokusoku id: roudou-kijun-hou-art-66-p2 override_flag: true override_target: 第三十六条 -->
-<!-- segment: simple id: roudou-kijun-hou-art-66-p3 -->
 使用者は、妊産婦が請求した場合においては、第三十二条の二第一項、第三十二条の四第一項及び第三十二条の五第一項の規定にかかわらず、一週間について第三十二条第一項の労働時間、一日について同条第二項の労働時間を超えて労働させてはならない。
 
 ### 第六十六条第二項

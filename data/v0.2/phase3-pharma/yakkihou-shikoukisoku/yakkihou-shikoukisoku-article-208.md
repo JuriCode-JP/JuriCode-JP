@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第六十三条第一項の規定により示すべき方法の種類及び内容は、次に掲げる事項とする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-208-p1-kou-1
+    type: kou
+    text: 第二百六条第一項各号に規定する方法のうち薬局開設者等が使用するもの
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-208-p1-kou-2
+    type: kou
+    text: ファイルへの記録の方式
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第二百八条
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-208-p1-hashira -->
 令第六十三条第一項の規定により示すべき方法の種類及び内容は、次に掲げる事項とする。
+
+一　第二百六条第一項各号に規定する方法のうち薬局開設者等が使用するもの
+
+二　ファイルへの記録の方式

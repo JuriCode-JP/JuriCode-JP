@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-69-p1
+    type: simple
+    text: 取引情報蓄積機関の代表者及び常務に従事する役員は、内閣総理大臣の認可を受けた場合を除くほか、金融商品取引業者等その他の内閣府令で定める法人の代表者となり、若しくは常務に従事し、又は金融商品取引業その他の内閣府令で定める事業を営んではならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

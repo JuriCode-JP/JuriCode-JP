@@ -59,15 +59,12 @@ parent_section:
 
 ### 第七十条第一項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-70-p1 -->
 審査会に、会長を置き、委員の互選により選任する。
 
 ### 第七十条第二項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-70-p2 -->
 会長は、会務を総理し、審査会を代表する。
 
 ### 第七十条第三項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-70-p3 -->
 会長に事故があるときは、あらかじめその指名する委員が、その職務を代理する。

@@ -57,15 +57,12 @@ parent_section:
 
 ### 第一条第一項
 
-<!-- segment: simple id: minpou-art-1-p1 -->
 私権は、公共の福祉に適合しなければならない。
 
 ### 第一条第二項
 
-<!-- segment: simple id: minpou-art-1-p2 -->
 権利の行使及び義務の履行は、信義に従い誠実に行わなければならない。
 
 ### 第一条第三項
 
-<!-- segment: simple id: minpou-art-1-p3 -->
 権利の濫用は、これを許さない。

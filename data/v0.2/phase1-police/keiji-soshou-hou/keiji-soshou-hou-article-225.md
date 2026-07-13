@@ -72,20 +72,16 @@ parent_section:
 
 ### 第二百二十五条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-225-p1 -->
 第二百二十三条第一項の規定による鑑定の嘱託を受けた者は、裁判官の許可を受けて、第百六十八条第一項に規定する処分をすることができる。
 
 ### 第二百二十五条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-225-p2 -->
 前項の許可の請求は、検察官、検察事務官又は司法警察員からこれをしなければならない。
 
 ### 第二百二十五条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-225-p3 -->
 裁判官は、前項の請求を相当と認めるときは、許可状を発しなければならない。
 
 ### 第二百二十五条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-225-p4 -->
 第百六十八条第二項乃至第四項及び第六項の規定は、前項の許可状についてこれを準用する。

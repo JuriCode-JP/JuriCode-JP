@@ -16,22 +16,44 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-7-p1
+    type: simple
+    text: 元本の確定前に根抵当権者から債権を取得した者は、その債権について根抵当権を行使することができない。元本の確定前に債務者のために又は債務者に代わって弁済をした者も、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-7-p2
+    type: simple
+    text: 元本の確定前に債務の引受けがあったときは、根抵当権者は、引受人の債務について、その根抵当権を行使することができない。
+    modality: kanou_negative
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-7-p3
+    type: tokusoku
+    text: 元本の確定前に免責的債務引受があった場合における債権者は、第四百七十二条の四第一項の規定にかかわらず、根抵当権を引受人が負担する債務に移すことができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 第一項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-7-p4
+    type: tokusoku
+    text: 元本の確定前に債権者の交替による更改があった場合における更改前の債権者は、第五百十八条第一項の規定にかかわらず、根抵当権を更改後の債務に移すことができない。元本の確定前に債務者の交替による更改があった場合における債権者も、同様とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第五百十八条
 cases: []
 amendments: []
 tags:

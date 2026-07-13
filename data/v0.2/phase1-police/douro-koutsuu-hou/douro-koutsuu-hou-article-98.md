@@ -30,6 +30,21 @@ paragraphs:
     type: hashira
     text: 自動車教習所を設置し、又は管理する者は、内閣府令で定めるところにより、当該自動車教習所の所在地を管轄する公安委員会に、次に掲げる事項を届け出ることができる。
     modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-98-p2-kou-1
+    type: kou
+    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: douro-koutsuu-hou-art-98-p2-kou-2
+    type: kou
+    text: 自動車教習所の名称及び所在地
+    modality: unspecified
+    item_number: 2
+  - id: douro-koutsuu-hou-art-98-p2-kou-3
+    type: kou
+    text: 前二号に掲げるもののほか、内閣府令で定める事項
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -79,25 +94,26 @@ parent_section:
 
 ### 第九十八条第一項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-98-p1 -->
 自動車教習所（免許を受けようとする者に対し、自動車の運転に関する技能及び知識について教習を行う施設をいう。以下同じ。）を設置し、又は管理する者は、当該自動車教習所において行う自動車の運転に関する教習の水準の維持向上に努めなければならない。
 
 ### 第九十八条第二項
 
-<!-- segment: hashira id: douro-koutsuu-hou-art-98-p2-hashira -->
 自動車教習所を設置し、又は管理する者は、内閣府令で定めるところにより、当該自動車教習所の所在地を管轄する公安委員会に、次に掲げる事項を届け出ることができる。
+
+一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+
+二　自動車教習所の名称及び所在地
+
+三　前二号に掲げるもののほか、内閣府令で定める事項
 
 ### 第九十八条第三項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-98-p3 -->
 公安委員会は、前項の規定による届出をした自動車教習所を設置し、又は管理する者に対し、自動車の運転に関する教習の適正な水準を確保するため、当該自動車教習所における教習の態様に応じて、必要な指導又は助言をするものとする。
 
 ### 第九十八条第四項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-98-p4 -->
 公安委員会は、前項の指導又は助言をした場合において、必要があると認めるときは、自動車安全運転センターに対し、当該指導又は助言に係る自動車教習所における自動車の運転に関する技能又は知識の教習を行う職員に対する研修その他当該職員の資質の向上を図るための措置について、必要な配慮を加えるよう求めることができる。
 
 ### 第九十八条第五項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-98-p5 -->
 公安委員会は、内閣府令で定めるところにより、第三項の指導又は助言をするため必要な限度において、第二項の規定による届出をした自動車教習所を設置し、又は管理する者に対し、必要な報告又は資料の提出を求めることができる。

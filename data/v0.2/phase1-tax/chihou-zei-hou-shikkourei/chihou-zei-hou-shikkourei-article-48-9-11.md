@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-11-p1-zen
+    type: zen_dan
+    text: 法第三百二十一条の五の二第一項の承認を受けた者は、その承認に係る事務所等において給与の支払を受ける者が常時十人未満でなくなつた場合には、遅滞なく、その旨その他総務省令で定める事項を記載した届出書を当該事務所等の所在地の市町村長に提出しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-48-9-11-p1-kou
+    type: kou_dan
+    text: この場合において、その届出書の提出があつたときは、その提出の日の属する同項に規定する期間以後の期間については、その承認は、その効力を失うものとする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: chihou-zei-hou-shikkourei-art-48-9-11-p1-zen
 cases: []
 amendments: []
 tags:

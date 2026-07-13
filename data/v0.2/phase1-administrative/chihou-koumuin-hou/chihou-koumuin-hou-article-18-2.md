@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-18-2-p1
+    type: simple
+    text: 採用試験は、人事委員会等の定める受験の資格を有する全ての国民に対して平等の条件で公開されなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

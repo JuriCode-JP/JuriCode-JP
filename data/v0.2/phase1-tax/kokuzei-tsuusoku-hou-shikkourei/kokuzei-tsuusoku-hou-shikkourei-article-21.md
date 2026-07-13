@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十一条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-21-p1 -->
 削除

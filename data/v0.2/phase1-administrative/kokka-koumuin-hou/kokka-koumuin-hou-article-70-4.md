@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-4-p1
+    type: simple
+    text: 所轄庁の長は、前条第一項の人事評価の結果に応じた措置を講じなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-70-4-p2
+    type: simple
+    text: 内閣総理大臣は、勤務成績の優秀な者に対する表彰に関する事項及び成績の著しく不良な者に対する矯正方法に関する事項を立案し、これについて、適当な措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -14,19 +14,49 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-75-p1-hashira
+    type: hashira
+    text: 法第二十三条の二の十八第一項の規定により変更の届出をしなければならない事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-75-p1-kou-1
+    type: kou
+    text: 選任外国製造医療機器等製造販売業者の氏名又は住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-75-p1-kou-2
+    type: kou
+    text: 選任外国製造医療機器等製造販売業者が受けている製造販売業の許可の種類及び許可番号
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-75-p2
+    type: simple
+    text: 法第二十三条の二の十八第一項の規定による選任外国製造医療機器等製造販売業者の変更の届出及び前項の届出は、品目ごとに様式第五十四による届書（正副二通）を提出することによつて行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-75-p3-honbun
+    type: honbun
+    text: 前項の届書には、選任外国製造医療機器等製造販売業者が受けている製造販売業の許可証の写しを添えなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-114-75-p3-tadashi
+    type: tadashi
+    text: ただし、申請等の行為の際当該許可証の写しが厚生労働大臣に提出されている場合においては、当該届書にその旨が付記されたときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:
@@ -46,6 +76,10 @@ parent_section:
 ### 第百十四条の七十五第一項
 
 法第二十三条の二の十八第一項の規定により変更の届出をしなければならない事項は、次のとおりとする。
+
+一　選任外国製造医療機器等製造販売業者の氏名又は住所
+
+二　選任外国製造医療機器等製造販売業者が受けている製造販売業の許可の種類及び許可番号
 
 ### 第百十四条の七十五第二項
 

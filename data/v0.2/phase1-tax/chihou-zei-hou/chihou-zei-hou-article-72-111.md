@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-111-p1
+    type: simple
+    text: 貨物割に関する犯則事件については、前章第十六節の規定にかかわらず、税関長又は税関職員を国税局長若しくは税務署長又は国税庁、国税局若しくは税務署の当該職員とみなして、国税通則法第十一章（第百五十三条及び第百五十四条第一項を除く。）の規定を適用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-111-p2
+    type: junyou
+    text: 国税通則法第百五十三条第五項の規定は、前項の犯則事件を国税庁、国税局又は税務署の当該職員及び税関職員が発見した場合について準用する。この場合において、同条第五項中「税務署の当該職員」とあるのは「税務署の当該職員（税関職員が最初に発見したときは、当該発見地又は犯則物件の輸入地若しくは納税地を所轄する税関の税関職員）」と、「国税局の当該職員」とあるのは「国税局の当該職員（税関職員が最初に発見したときは、当該発見地又は犯則物件の輸入地若しくは納税地を所轄する税関の税関職員）」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-111-p3
+    type: simple
+    text: 第一項の場合において、消費税法第四十七条第一項第二号に掲げる課税標準額に対する消費税額を課税標準として課する貨物割に関する犯則事件は、間接国税以外の国税に関する犯則事件とし、同法第五十条第二項の規定により徴収すべき消費税額（消費税に係る延滞税の額を含まないものとする。）を課税標準として課する貨物割に関する犯則事件は、間接国税に関する犯則事件とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

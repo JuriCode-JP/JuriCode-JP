@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十六条
 
-<!-- segment: simple id: shouhi-zei-hou-art-26-p1 -->
 保税地域から引き取られる外国貨物に係る消費税の納税地は、当該保税地域の所在地とする。

@@ -23,6 +23,21 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 次条
+  - id: kojin-jouhou-hogo-hou-art-47-p1-kou-1
+    type: kou
+    text: 業務の対象となる個人情報取扱事業者等（以下この節において「対象事業者」という。）の個人情報等の取扱いに関する第五十三条の規定による苦情の処理
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-47-p1-kou-2
+    type: kou
+    text: 個人情報等の適正な取扱いの確保に寄与する事項についての対象事業者に対する情報の提供
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-47-p1-kou-3
+    type: kou
+    text: 前二号に掲げるもののほか、対象事業者の個人情報等の適正な取扱いの確保に関し必要な業務
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -70,20 +85,22 @@ parent_section:
 
 ### 第四十七条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-47-p1-hashira -->
 個人情報取扱事業者、仮名加工情報取扱事業者又は匿名加工情報取扱事業者（以下この章において「個人情報取扱事業者等」という。）の個人情報、仮名加工情報又は匿名加工情報（以下この章において「個人情報等」という。）の適正な取扱いの確保を目的として次に掲げる業務を行おうとする法人（法人でない団体で代表者又は管理人の定めのあるものを含む。次条第三号ロにおいて同じ。）は、個人情報保護委員会の認定を受けることができる。
+
+一　業務の対象となる個人情報取扱事業者等（以下この節において「対象事業者」という。）の個人情報等の取扱いに関する第五十三条の規定による苦情の処理
+
+二　個人情報等の適正な取扱いの確保に寄与する事項についての対象事業者に対する情報の提供
+
+三　前二号に掲げるもののほか、対象事業者の個人情報等の適正な取扱いの確保に関し必要な業務
 
 ### 第四十七条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-47-p2 -->
 前項の認定は、対象とする個人情報取扱事業者等の事業の種類その他の業務の範囲を限定して行うことができる。
 
 ### 第四十七条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-47-p3 -->
 第一項の認定を受けようとする者は、政令で定めるところにより、個人情報保護委員会に申請しなければならない。
 
 ### 第四十七条第四項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-47-p4 -->
 個人情報保護委員会は、第一項の認定をしたときは、その旨（第二項の規定により業務の範囲を限定する認定にあっては、その認定に係る業務の範囲を含む。）を公示しなければならない。

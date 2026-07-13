@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六十三条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-63-p1 -->
 職員の給与は、別に定める法律に基づいてなされ、これに基づかずには、いかなる金銭又は有価物も支給することはできない。

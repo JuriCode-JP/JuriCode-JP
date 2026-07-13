@@ -13,30 +13,67 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-8-p1-honbun
+    type: honbun
+    text: 発行登録者、有価証券の売出しをする者、引受人、金融商品取引業者、登録金融機関若しくは金融商品仲介業者又は金融サービス仲介業者は、発行登録によりあらかじめその募集又は売出しが登録されている有価証券については、当該発行登録がその効力を生じており、かつ、当該有価証券の募集又は売出しごとにその発行価額又は売出価額の総額、発行条件又は売出条件その他の事項で公益又は投資者保護のため必要かつ適当なものとして内閣府令で定めるものを記載した書類（以下「発行登録追補書類」という。）が内閣府令で定めるところにより内閣総理大臣に提出されていなければ、これを募集又は売出しにより取得させ、又は売り付けてはならない。
+    modality: unspecified
+  - id: kinsho-hou-art-23-8-p1-tadashi
+    type: tadashi
+    text: ただし、有価証券の募集又は売出しごとの発行価額又は売出価額の総額が一億円未満の有価証券の募集又は売出しで内閣府令で定めるものについては、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-8-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、発行登録によりあらかじめその募集又は売出しが登録されている社債、株式等の振替に関する法律第二百七十八条第一項に規定する振替債のうち同法第六十六条第一号に規定する短期社債その他政令で定めるもの（その取扱いを行う振替機関（同法第二条第二項に規定する振替機関をいう。）により、その発行残高が公衆の縦覧に供されるものに限る。）については、当該発行登録がその効力を生じている場合には、これを募集又は売出しにより取得させ、又は売り付けることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-8-p3-honbun
+    type: honbun
+    text: 有価証券の募集又は売出しが一定の日において株主名簿に記載され、又は記録されている株主に対し行われる場合には、当該募集又は売出しに関する発行登録追補書類の提出は、その日の十日前までにしなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-23-8-p3-tadashi
+    type: tadashi
+    text: ただし、有価証券の発行価格又は売出価格その他の事情を勘案して内閣府令で定める場合は、この限りでない。
+    modality: jogai
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-8-p4
+    type: junyou
+    text: 第四条第五項及び第六項の規定は、第一項ただし書の規定の適用を受ける有価証券の募集又は売出しが行われる場合について準用する。この場合において、同条第五項中「当該特定募集に係る」とあるのは「当該募集若しくは売出しに係る」と、「当該特定募集が」とあるのは「当該募集又は売出しが」と、同条第六項中「当該特定募集等に係る」とあるのは「当該」と、「当該特定募集等が」とあるのは「当該募集又は売出しが」と、「当該特定募集等に関する」とあるのは「当該募集又は売出しに関する」と、「開示が行われている場合における第四項に規定する有価証券の売出しでその売出価額の総額が一億円未満のもの、第一項第三号に掲げる有価証券の売出しで当該有価証券の発行者その他の内閣府令で定める者以外の者が行うもの及び同項第五号に掲げる有価証券の募集又は売出しでその発行価額」とあるのは「発行価額」と、「以下のもの」とあるのは「以下の有価証券の募集又は売出し」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-8-p5
+    type: simple
+    text: 第一項の発行登録追補書類には、同項の内閣府令で定める事項のほか、内閣府令で定めるところにより、第五条第一項第二号に掲げる事項につき当該発行者に係る直近の参照書類を参照すべき旨を記載するとともに、公益又は投資者保護のため必要かつ適当なものとして内閣府令で定める書類を添付しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

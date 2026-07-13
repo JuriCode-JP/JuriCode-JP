@@ -31,7 +31,7 @@ paragraphs:
     text: 補佐人となるには、審級ごとにその旨を届け出なければならない。
     modality: gimu
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -57,15 +57,12 @@ parent_section:
 
 ### 第四十二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-42-p1 -->
 被告人の法定代理人、保佐人、配偶者、直系の親族及び兄弟姉妹は、何時でも補佐人となることができる。
 
 ### 第四十二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-42-p2 -->
 補佐人となるには、審級ごとにその旨を届け出なければならない。
 
 ### 第四十二条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-42-p3 -->
 補佐人は、被告人の明示した意思に反しない限り、被告人がすることのできる訴訟行為をすることができる。但し、この法律に特別の定のある場合は、この限りでない。

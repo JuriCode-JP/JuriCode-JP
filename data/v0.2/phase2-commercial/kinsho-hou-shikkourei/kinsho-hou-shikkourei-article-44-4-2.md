@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-44-4-2-p1-honbun
+    type: honbun
+    text: 長官権限のうち第三十八条の二第四項の規定により委員会に委任された法第百九十二条の二の規定による権限は、法令違反行為を行つた者の住所若しくは居所の所在地又は法令違反行為が行われた地を管轄する財務局長（当該所在地又は当該行われた地が福岡財務支局の管轄区域内にある場合にあつては福岡財務支局長、当該所在地又は当該行われた地が国外にある場合にあつては関東財務局長）に委任する。
+    modality: unspecified
+  - id: kinsho-hou-shikkourei-art-44-4-2-p1-tadashi
+    type: tadashi
+    text: ただし、委員会が自らその権限を行うことを妨げない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

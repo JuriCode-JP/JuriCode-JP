@@ -34,5 +34,4 @@ tags:
 
 ### 第六条の三
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-6-3-p1 -->
 政令第三十五条の二第一項の売上総利益金額は、売上高から売上原価を控除した金額とする。

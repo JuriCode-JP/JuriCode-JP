@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百七十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-474-p1 -->
 二以上の主刑の執行は、罰金及び科料を除いては、その重いものを先にする。但し、検察官は、重い刑の執行を停止して、他の刑の執行をさせることができる。

@@ -16,17 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-37-2-p1
+    type: tokusoku
+    text: 車両等は、環状交差点においては、第三十六条第一項及び第二項並びに前条の規定にかかわらず、当該環状交差点内を通行する車両等の進行妨害をしてはならない。
+    modality: gimu_negative
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-37-2-p2
+    type: tokusoku
+    text: 車両等は、環状交差点に入ろうとするときは、第三十六条第三項の規定にかかわらず、徐行しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第三十六条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-37-2-p3
+    type: tokusoku
+    text: 車両等は、環状交差点に入ろうとし、及び環状交差点内を通行するときは、第三十六条第四項の規定にかかわらず、当該環状交差点の状況に応じ、当該環状交差点に入ろうとする車両等、当該環状交差点内を通行する車両等及び当該環状交差点又はその直近で道路を横断する歩行者に特に注意し、かつ、できる限り安全な速度と方法で進行しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第三十六条
 cases: []
 amendments: []
 tags:
@@ -54,3 +77,5 @@ parent_section:
 ### 第三十七条の二第三項
 
 車両等は、環状交差点に入ろうとし、及び環状交差点内を通行するときは、第三十六条第四項の規定にかかわらず、当該環状交差点の状況に応じ、当該環状交差点に入ろうとする車両等、当該環状交差点内を通行する車両等及び当該環状交差点又はその直近で道路を横断する歩行者に特に注意し、かつ、できる限り安全な速度と方法で進行しなければならない。
+
+（罰則　第百十九条第一項第六号）

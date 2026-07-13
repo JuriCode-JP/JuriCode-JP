@@ -23,6 +23,26 @@ paragraphs:
     modality: unspecified
     references:
     - 前条
+  - id: minpou-art-384-p1-kou-1
+    type: kou
+    text: その債権者が前条各号に掲げる書面の送付を受けた後二箇月以内に抵当権を実行して競売の申立てをしないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-384-p1-kou-2
+    type: kou
+    text: その債権者が前号の申立てを取り下げたとき。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-384-p1-kou-3
+    type: kou
+    text: 第一号の申立てを却下する旨の決定が確定したとき。
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-384-p1-kou-4
+    type: kou
+    text: 第一号の申立てに基づく競売の手続を取り消す旨の決定（民事執行法第百八十八条において準用する同法第六十三条第三項若しくは第六十八条の三第三項の規定又は同法第百八十三条第一項第二号ニに掲げる文書が提出された場合における同条第二項の規定による決定を除く。）が確定したとき。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -43,5 +63,12 @@ parent_section:
 
 ### 第三百八十四条
 
-<!-- segment: hashira id: minpou-art-384-p1-hashira -->
 次に掲げる場合には、前条各号に掲げる書面の送付を受けた債権者は、抵当不動産の第三取得者が同条第三号に掲げる書面に記載したところにより提供した同号の代価又は金額を承諾したものとみなす。
+
+一　その債権者が前条各号に掲げる書面の送付を受けた後二箇月以内に抵当権を実行して競売の申立てをしないとき。
+
+二　その債権者が前号の申立てを取り下げたとき。
+
+三　第一号の申立てを却下する旨の決定が確定したとき。
+
+四　第一号の申立てに基づく競売の手続を取り消す旨の決定（民事執行法第百八十八条において準用する同法第六十三条第三項若しくは第六十八条の三第三項の規定又は同法第百八十三条第一項第二号ニに掲げる文書が提出された場合における同条第二項の規定による決定を除く。）が確定したとき。

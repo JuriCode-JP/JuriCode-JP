@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-shikkourei-art-319-3-2-p1-hashira
+    type: hashira
+    text: 法第二百二条（退職所得とみなされる退職一時金に係る源泉徴収）に規定する政令で定める場合は、次の各号に掲げる場合とし、同条に規定する政令で定める金額は、当該各号に掲げる場合の区分に応じ当該各号に定める金額とする。
+    modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-319-3-2-p1-kou-1
+    type: kou
+    text: 第七十二条第三項第四号（退職手当等とみなす一時金）に掲げる一時金の支払をする場合において、同号に規定する適格退職年金契約に基づいて払い込まれた掛金又は保険料のうちに同号に規定する勤務をした者の負担した金額があるとき　当該勤務をした者の負担した金額
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-319-3-2-p1-kou-2
+    type: kou
+    text: 第七十二条第三項第五号に掲げる一時金の支払をする場合において、同号に規定する規約に基づいて拠出された掛金のうちに同号に規定する加入者の負担した金額があるとき　当該加入者の負担した金額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第三百十九条の三の二
 
 法第二百二条（退職所得とみなされる退職一時金に係る源泉徴収）に規定する政令で定める場合は、次の各号に掲げる場合とし、同条に規定する政令で定める金額は、当該各号に掲げる場合の区分に応じ当該各号に定める金額とする。
+
+一　第七十二条第三項第四号（退職手当等とみなす一時金）に掲げる一時金の支払をする場合において、同号に規定する適格退職年金契約に基づいて払い込まれた掛金又は保険料のうちに同号に規定する勤務をした者の負担した金額があるとき　当該勤務をした者の負担した金額
+
+二　第七十二条第三項第五号に掲げる一時金の支払をする場合において、同号に規定する規約に基づいて拠出された掛金のうちに同号に規定する加入者の負担した金額があるとき　当該加入者の負担した金額

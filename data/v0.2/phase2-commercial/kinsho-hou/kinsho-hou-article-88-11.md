@@ -13,15 +13,27 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-11-p1-honbun
+    type: honbun
+    text: 金融商品会員制法人は、設立の時及び毎年一月から三月までの間に財産目録を作成し、常にこれをその主たる事務所に備え置かなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-88-11-p1-tadashi
+    type: tadashi
+    text: ただし、特に事業年度を設けるものは、設立の時及び毎事業年度の終了の時に財産目録を作成しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-11-p2
+    type: simple
+    text: 金融商品会員制法人は、会員名簿を備え置き、会員の変更があるごとに必要な変更を加えなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる者は、当該各号に定める募集株式の数について募集株式の引受人となる。
     modality: unspecified
+  - id: kaisha-hou-art-206-p1-kou-1
+    type: kou
+    text: 申込者　株式会社の割り当てた募集株式の数
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-206-p1-kou-2
+    type: kou
+    text: 前条第一項の契約により募集株式の総数を引き受けた者　その者が引き受けた募集株式の数
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第二百六条
 
-<!-- segment: hashira id: kaisha-hou-art-206-p1-hashira -->
 次の各号に掲げる者は、当該各号に定める募集株式の数について募集株式の引受人となる。
+
+一　申込者　株式会社の割り当てた募集株式の数
+
+二　前条第一項の契約により募集株式の総数を引き受けた者　その者が引き受けた募集株式の数

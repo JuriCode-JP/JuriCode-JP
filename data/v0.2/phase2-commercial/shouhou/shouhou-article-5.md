@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五条
 
-<!-- segment: simple id: shouhou-art-5-p1 -->
 未成年者が前条の営業を行うときは、その登記をしなければならない。

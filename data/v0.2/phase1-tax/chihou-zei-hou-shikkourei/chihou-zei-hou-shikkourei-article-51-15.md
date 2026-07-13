@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十一条の十五
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-51-15-p1 -->
 法第三百四十八条第二項第三十五号に規定する専ら皇室の用に供する車両で政令で定めるものは、無償で専ら天皇及び皇族の用に供する車両とする。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-700-55-p1
+    type: simple
+    text: 狩猟税を普通徴収によつて徴収しようとする場合において納税者に交付すべき納税通知書は、遅くとも、その納期限前十日までに納税者に交付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三百六十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-363-p1 -->
 上訴権回復の請求は、事由が止んだ日から上訴の提起期間に相当する期間内にこれをしなければならない。
 
 ### 第三百六十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-363-p2 -->
 上訴権回復の請求をする者は、その請求と同時に上訴の申立をしなければならない。

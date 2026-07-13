@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八百六十六条
 
-<!-- segment: simple id: kaisha-hou-art-866-p1 -->
 前条第一項又は第三項の訴えについては、同条第一項の行為の相手方又は転得者を被告とする。

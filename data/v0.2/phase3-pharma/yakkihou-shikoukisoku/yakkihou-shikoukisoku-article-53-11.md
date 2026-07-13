@@ -13,15 +13,35 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-11-p1-hashira
+    type: hashira
+    text: 法第十四条の二の二第二項前段の厚生労働省令で定める資料は、次の各号に掲げるものとする。ただし、第二号に掲げる資料については、添付を必要としない合理的理由がある場合は、この限りでない。
+    modality: jogai
+  - id: yakkihou-shikoukisoku-art-53-11-p1-kou-1
+    type: kou
+    text: 第五十三条の九の規定による調査に関する資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-53-11-p1-kou-2
+    type: kou
+    text: 医薬品の使用成績に関する資料、当該医薬品の副作用等の発現状況並びに品質、有効性及び安全性に関する情報の検出又は確認のために行う調査に関する資料、当該医薬品の効能又は効果及び安全性に関しその製造販売の承認後に得られた研究報告に関する資料その他の当該医薬品の品質、有効性及び安全性に関する資料
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-11-p2
+    type: simple
+    text: 前項の資料については、第四十条第三項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -39,6 +59,10 @@ parent_section:
 ### 第五十三条の十一第一項
 
 法第十四条の二の二第二項前段の厚生労働省令で定める資料は、次の各号に掲げるものとする。ただし、第二号に掲げる資料については、添付を必要としない合理的理由がある場合は、この限りでない。
+
+一　第五十三条の九の規定による調査に関する資料
+
+二　医薬品の使用成績に関する資料、当該医薬品の副作用等の発現状況並びに品質、有効性及び安全性に関する情報の検出又は確認のために行う調査に関する資料、当該医薬品の効能又は効果及び安全性に関しその製造販売の承認後に得られた研究報告に関する資料その他の当該医薬品の品質、有効性及び安全性に関する資料
 
 ### 第五十三条の十一第二項
 

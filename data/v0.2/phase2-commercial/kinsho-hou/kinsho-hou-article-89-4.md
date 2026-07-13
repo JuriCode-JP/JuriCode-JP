@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-89-4-p1
+    type: simple
+    text: 金融商品会員制法人がその主たる事務所を他の登記所の管轄区域内に移転したときは、二週間以内に、旧所在地においては移転の登記をし、新所在地においては第八十九条の二第二項各号に掲げる事項を登記しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

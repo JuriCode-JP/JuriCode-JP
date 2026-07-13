@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十一条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-31-p1 -->
 職員は、条例の定めるところにより、服務の宣誓をしなければならない。

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -61,15 +61,12 @@ parent_section:
 
 ### 第百十二条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-112-p1 -->
 普通地方公共団体の議会の議員は、議会の議決すべき事件につき、議会に議案を提出することができる。但し、予算については、この限りでない。
 
 ### 第百十二条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-112-p2 -->
 前項の規定により議案を提出するに当たつては、議員の定数の十二分の一以上の者の賛成がなければならない。
 
 ### 第百十二条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-112-p3 -->
 第一項の規定による議案の提出は、文書を以てこれをしなければならない。

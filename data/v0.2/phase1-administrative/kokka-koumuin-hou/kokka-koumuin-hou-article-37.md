@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十七条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-37-p1 -->
 削除

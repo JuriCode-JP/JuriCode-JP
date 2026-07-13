@@ -16,17 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-5-p1
+    type: simple
+    text: 市町村は、前条の規定によつて分離課税に係る所得割を特別徴収の方法によつて徴収しようとする場合には、当該分離課税に係る所得割の納税義務者に対して退職手当等の支払をする者（他の市町村において退職手当等の支払をする者を含む。）を当該市町村の条例によつて特別徴収義務者として指定し、これに徴収させなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-5-p2
+    type: simple
+    text: 前項の特別徴収義務者は、退職手当等の支払をする際、その退職手当等について分離課税に係る所得割を徴収し、その徴収の日の属する月の翌月の十日までに、総務省令で定める様式によつて、その徴収すべき分離課税に係る所得割の課税標準額、税額その他必要な事項を記載した納入申告書を市町村長に提出し、及びその納入金を当該市町村に納入する義務を負う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-328-5-p3
+    type: junyou
+    text: 第三百二十一条の五第四項及び第五項並びに第三百二十一条の五の二の規定は、前項の規定により同項の納入金を納入する場合について準用する。この場合において、第三百二十一条の五の二第一項中「支払つた給与」とあるのは「支払つた退職手当等」と、「納入」とあるのは「申告納入」と、「前条第一項」とあるのは「第三百二十八条の五第二項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

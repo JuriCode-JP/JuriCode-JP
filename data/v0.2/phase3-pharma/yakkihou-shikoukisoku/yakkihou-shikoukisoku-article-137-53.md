@@ -14,14 +14,42 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-53-p1-hashira
+    type: hashira
+    text: 法第二十三条の三十四第九項の再生医療等製品製造管理者が行う再生医療等製品の製造の管理のために必要な業務は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-53-p1-kou-1
+    type: kou
+    text: 再生医療等製品の製造管理及び品質管理の基準に関する省令（平成二十六年厚生労働省令第九十三号）により再生医療等製品製造管理者が行うこととされた業務
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-53-p1-kou-2
+    type: kou
+    text: 法第二十三条の三十五の二第三項第一号に規定する再生医療等製品製造管理者が有する権限に係る業務
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-53-p2-hashira
+    type: hashira
+    text: 法第二十三条の三十四第九項の再生医療等製品製造管理者が遵守すべき事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-53-p2-kou-1
+    type: kou
+    text: 製造の管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-53-p2-kou-2
+    type: kou
+    text: 法第二十三条の三十四第七項の規定により製造業者に対して述べる意見を記載した書面の写しを五年間保存すること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -40,6 +68,14 @@ parent_section:
 
 法第二十三条の三十四第九項の再生医療等製品製造管理者が行う再生医療等製品の製造の管理のために必要な業務は、次のとおりとする。
 
+一　再生医療等製品の製造管理及び品質管理の基準に関する省令（平成二十六年厚生労働省令第九十三号）により再生医療等製品製造管理者が行うこととされた業務
+
+二　法第二十三条の三十五の二第三項第一号に規定する再生医療等製品製造管理者が有する権限に係る業務
+
 ### 第百三十七条の五十三第二項
 
 法第二十三条の三十四第九項の再生医療等製品製造管理者が遵守すべき事項は、次のとおりとする。
+
+一　製造の管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+
+二　法第二十三条の三十四第七項の規定により製造業者に対して述べる意見を記載した書面の写しを五年間保存すること。

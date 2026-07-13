@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-15-5-4-p1
+    type: simple
+    text: 法第三百八十二条第二項第四号に規定する総務省令で定める者は、登記簿の表題部に記録した所有者であつた者又は所有権、質権若しくは百年より長い存続期間の定めのある地上権の登記名義人であつた者とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

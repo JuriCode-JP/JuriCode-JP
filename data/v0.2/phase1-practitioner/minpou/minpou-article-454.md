@@ -47,5 +47,4 @@ parent_section:
 
 ### 第四百五十四条
 
-<!-- segment: simple id: minpou-art-454-p1 -->
 保証人は、主たる債務者と連帯して債務を負担したときは、前二条の権利を有しない。

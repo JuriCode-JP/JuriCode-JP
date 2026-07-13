@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-3-p1-honbun
+    type: honbun
+    text: 認可地縁団体の規約は、総構成員の四分の三以上の同意があるときに限り、変更することができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-260-3-p1-tadashi
+    type: tadashi
+    text: ただし、当該規約に別段の定めがあるときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-3-p2
+    type: simple
+    text: 前項の規定による規約の変更は、市町村長の認可を受けなければ、その効力を生じない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

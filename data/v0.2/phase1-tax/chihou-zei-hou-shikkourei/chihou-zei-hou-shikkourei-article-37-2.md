@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第七十三条の四第一項第六号に規定する独立行政法人国立重度知的障害者総合施設のぞみの園が独立行政法人国立重度知的障害者総合施設のぞみの園法（平成十四年法律第百六十七号）第十一条第一号又は第二号に規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち次に掲げるもの以外のものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-2-p1-kou-1
+    type: kou
+    text: 事務所の用に供する不動産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-2-p1-kou-2
+    type: kou
+    text: 宿舎の用に供する不動産
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第三十七条の二
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-37-2-p1-hashira -->
 法第七十三条の四第一項第六号に規定する独立行政法人国立重度知的障害者総合施設のぞみの園が独立行政法人国立重度知的障害者総合施設のぞみの園法（平成十四年法律第百六十七号）第十一条第一号又は第二号に規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する不動産
+
+二　宿舎の用に供する不動産

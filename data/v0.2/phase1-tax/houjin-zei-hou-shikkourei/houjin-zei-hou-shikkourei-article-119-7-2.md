@@ -16,27 +16,47 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-7-2-p1
+    type: simple
+    text: 法第六十一条の二第二項（有価証券の譲渡益又は譲渡損の益金又は損金算入）に規定する政令で定める関係は、合併の直前に当該合併に係る合併法人と当該合併法人以外の法人との間に当該法人による完全支配関係がある場合の当該完全支配関係とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-7-2-p2
+    type: simple
+    text: 法第六十一条の二第二項に規定する政令で定めるものは、第四条の三第二項第二号ロ（適格組織再編成における株式の保有関係等）に掲げる関係がある合併とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-7-2-p3
+    type: simple
+    text: 法第六十一条の二第四項に規定する政令で定める関係は、分割型分割の直前に当該分割型分割に係る分割承継法人と当該分割承継法人以外の法人との間に当該法人による完全支配関係がある場合の当該完全支配関係とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-7-2-p4
+    type: simple
+    text: 法第六十一条の二第九項に規定する政令で定める関係は、株式交換の直前に当該株式交換に係る株式交換完全親法人と当該株式交換完全親法人以外の法人との間に当該法人による完全支配関係がある場合の当該完全支配関係とする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikkourei-art-119-7-2-p5
+    type: simple
+    text: 法第六十一条の二第九項に規定する政令で定めるものは、第四条の三第十八項第二号に規定する株主均等割合保有関係がある株式交換とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

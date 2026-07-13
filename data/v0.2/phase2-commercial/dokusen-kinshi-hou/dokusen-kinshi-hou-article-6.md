@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-6-p1 -->
 事業者は、不当な取引制限又は不公正な取引方法に該当する事項を内容とする国際的協定又は国際的契約をしてはならない。

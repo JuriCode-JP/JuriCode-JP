@@ -14,14 +14,37 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-7-p1-hashira
+    type: hashira
+    text: 法第六十八条の二の三第一項の規定により、同条第一項に規定する医薬品若しくは医療機器又は再生医療等製品の製造販売業者は、当該医薬品の法第五十二条第二項各号に掲げる事項若しくは法第六十八条の二第二項第一号に掲げる事項、当該医療機器の法第六十三条の二第二項各号に掲げる事項若しくは法第六十八条の二第二項第二号に掲げる事項又は当該再生医療等製品の同項第三号に掲げる事項のうち、次に掲げるものを、書面又は電磁的方法により、厚生労働大臣に届け出るものとする。
+    modality: gimu
+    references:
+    - 同項
+  - id: yakkihou-shikoukisoku-art-228-10-7-p1-kou-1
+    type: kou
+    text: 当該医薬品、医療機器又は再生医療等製品の名称
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-228-10-7-p1-kou-2
+    type: kou
+    text: 当該医薬品、医療機器又は再生医療等製品に係る使用及び取扱い上の必要な注意
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-7-p2
+    type: simple
+    text: 法第六十八条の二の四第一項の規定により機構に法第六十八条の二の三第一項の規定による届出の受理に係る事務を行わせることとした場合における前項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -39,6 +62,10 @@ parent_section:
 ### 第二百二十八条の十の七第一項
 
 法第六十八条の二の三第一項の規定により、同条第一項に規定する医薬品若しくは医療機器又は再生医療等製品の製造販売業者は、当該医薬品の法第五十二条第二項各号に掲げる事項若しくは法第六十八条の二第二項第一号に掲げる事項、当該医療機器の法第六十三条の二第二項各号に掲げる事項若しくは法第六十八条の二第二項第二号に掲げる事項又は当該再生医療等製品の同項第三号に掲げる事項のうち、次に掲げるものを、書面又は電磁的方法により、厚生労働大臣に届け出るものとする。
+
+一　当該医薬品、医療機器又は再生医療等製品の名称
+
+二　当該医薬品、医療機器又は再生医療等製品に係る使用及び取扱い上の必要な注意
 
 ### 第二百二十八条の十の七第二項
 

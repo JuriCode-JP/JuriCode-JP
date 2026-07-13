@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百三十七条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-137-p1 -->
 内閣総理大臣は、委員長又は委員が前条各号のいずれかに該当するときは、その委員長又は委員を罷免しなければならない。

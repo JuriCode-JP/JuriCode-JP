@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-19-4-p1
+    type: simple
+    text: 親会社等（法第二十四条の七第一項に規定する親会社等をいう。以下同じ。）のうち非居住者（以下この条から第十九条の八まで及び第二十二条第三項において「外国親会社等」という。）は、本邦内に住所を有する者であつて、親会社等状況報告書の提出に関する一切の行為につき、当該外国親会社等を代理する権限を有するものを定めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-19-4-p2
+    type: junyou
+    text: 前項の規定は、外国親会社等が法第二十四条の七第五項（同条第六項において準用し、及びこれらの規定を法第二十七条において準用する場合を含む。第十九条の七及び第十九条の八において同じ。）において準用する法第二十四条第八項の規定により、親会社等状況報告書に記載すべき事項を記載した書類であつて英語で記載されたもの（第十九条の七及び第十九条の八において「外国親会社等状況報告書」という。）を提出しようとする場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

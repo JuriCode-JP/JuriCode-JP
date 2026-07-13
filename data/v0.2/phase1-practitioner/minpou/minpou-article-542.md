@@ -23,6 +23,31 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前条
+  - id: minpou-art-542-p1-kou-1
+    type: kou
+    text: 債務の全部の履行が不能であるとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-542-p1-kou-2
+    type: kou
+    text: 債務者がその債務の全部の履行を拒絶する意思を明確に表示したとき。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-542-p1-kou-3
+    type: kou
+    text: 債務の一部の履行が不能である場合又は債務者がその債務の一部の履行を拒絶する意思を明確に表示した場合において、残存する部分のみでは契約をした目的を達することができないとき。
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-542-p1-kou-4
+    type: kou
+    text: 契約の性質又は当事者の意思表示により、特定の日時又は一定の期間内に履行をしなければ契約をした目的を達することができない場合において、債務者が履行をしないでその時期を経過したとき。
+    modality: unspecified
+    item_number: 4
+  - id: minpou-art-542-p1-kou-5
+    type: kou
+    text: 前各号に掲げる場合のほか、債務者がその債務の履行をせず、債権者が前条の催告をしても契約をした目的を達するのに足りる履行がされる見込みがないことが明らかであるとき。
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: true
@@ -34,6 +59,16 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前条
+  - id: minpou-art-542-p2-kou-1
+    type: kou
+    text: 債務の一部の履行が不能であるとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-542-p2-kou-2
+    type: kou
+    text: 債務者がその債務の一部の履行を拒絶する意思を明確に表示したとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -56,10 +91,22 @@ parent_section:
 
 ### 第五百四十二条第一項
 
-<!-- segment: hashira id: minpou-art-542-p1-hashira -->
-<!-- segment: hashira id: minpou-art-542-p2-hashira -->
 次に掲げる場合には、債権者は、前条の催告をすることなく、直ちに契約の解除をすることができる。
+
+一　債務の全部の履行が不能であるとき。
+
+二　債務者がその債務の全部の履行を拒絶する意思を明確に表示したとき。
+
+三　債務の一部の履行が不能である場合又は債務者がその債務の一部の履行を拒絶する意思を明確に表示した場合において、残存する部分のみでは契約をした目的を達することができないとき。
+
+四　契約の性質又は当事者の意思表示により、特定の日時又は一定の期間内に履行をしなければ契約をした目的を達することができない場合において、債務者が履行をしないでその時期を経過したとき。
+
+五　前各号に掲げる場合のほか、債務者がその債務の履行をせず、債権者が前条の催告をしても契約をした目的を達するのに足りる履行がされる見込みがないことが明らかであるとき。
 
 ### 第五百四十二条第二項
 
 次に掲げる場合には、債権者は、前条の催告をすることなく、直ちに契約の一部の解除をすることができる。
+
+一　債務の一部の履行が不能であるとき。
+
+二　債務者がその債務の一部の履行を拒絶する意思を明確に表示したとき。

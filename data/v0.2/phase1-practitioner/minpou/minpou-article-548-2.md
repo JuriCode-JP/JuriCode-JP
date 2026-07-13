@@ -14,14 +14,40 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-548-2-p1-hashira
+    type: hashira
+    text: 定型取引（ある特定の者が不特定多数の者を相手方として行う取引であって、その内容の全部又は一部が画一的であることがその双方にとって合理的なものをいう。以下同じ。）を行うことの合意（次条において「定型取引合意」という。）をした者は、次に掲げる場合には、定型約款（定型取引において、契約の内容とすることを目的としてその特定の者により準備された条項の総体をいう。以下同じ。）の個別の条項についても合意をしたものとみなす。
+    modality: unspecified
+    references:
+    - 次条
+  - id: minpou-art-548-2-p1-kou-1
+    type: kou
+    text: 定型約款を契約の内容とする旨の合意をしたとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-548-2-p1-kou-2
+    type: kou
+    text: 定型約款を準備した者（以下「定型約款準備者」という。）があらかじめその定型約款を契約の内容とする旨を相手方に表示していたとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-548-2-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、同項の条項のうち、相手方の権利を制限し、又は相手方の義務を加重する条項であって、その定型取引の態様及びその実情並びに取引上の社会通念に照らして第一条第二項に規定する基本原則に反して相手方の利益を一方的に害すると認められるものについては、合意をしなかったものとみなす。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -45,6 +71,10 @@ parent_section:
 ### 第五百四十八条の二第一項
 
 定型取引（ある特定の者が不特定多数の者を相手方として行う取引であって、その内容の全部又は一部が画一的であることがその双方にとって合理的なものをいう。以下同じ。）を行うことの合意（次条において「定型取引合意」という。）をした者は、次に掲げる場合には、定型約款（定型取引において、契約の内容とすることを目的としてその特定の者により準備された条項の総体をいう。以下同じ。）の個別の条項についても合意をしたものとみなす。
+
+一　定型約款を契約の内容とする旨の合意をしたとき。
+
+二　定型約款を準備した者（以下「定型約款準備者」という。）があらかじめその定型約款を契約の内容とする旨を相手方に表示していたとき。
 
 ### 第五百四十八条の二第二項
 

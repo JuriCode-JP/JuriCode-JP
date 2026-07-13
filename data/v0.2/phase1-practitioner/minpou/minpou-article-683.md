@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百八十三条
 
-<!-- segment: simple id: minpou-art-683-p1 -->
 やむを得ない事由があるときは、各組合員は、組合の解散を請求することができる。

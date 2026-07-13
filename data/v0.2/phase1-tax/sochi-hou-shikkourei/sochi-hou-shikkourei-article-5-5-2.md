@@ -16,27 +16,56 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-5-2-p1
+    type: simple
+    text: 法第十条の四第一項に規定する政令で定める規模のものは、一の承認地域経済牽引事業計画（同項に規定する承認地域経済牽引事業計画をいう。）に定められた施設又は設備を構成する所得税法施行令第六条各号に掲げる資産の取得価額（同令第百二十六条第一項各号の規定により計算した取得価額をいう。）の合計額が一億円以上のものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-5-2-p2
+    type: simple
+    text: 法第十条の四第一項第一号に規定する政令で定めるものは、地域の成長発展の基盤強化に著しく資するものとして経済産業大臣が財務大臣と協議して定める基準に適合することについて主務大臣（地域経済牽引事業の促進による地域の成長発展の基盤強化に関する法律（平成十九年法律第四十号）第四十三条第二項に規定する主務大臣をいう。第四項において同じ。）の確認を受けたものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-5-2-p3-zen
+    type: zen_dan
+    text: 法第十条の四第三項の規定による控除をすべき金額は、その年分の所得税法第九十二条第二項に規定する課税総所得金額に係る所得税額から控除する。
+    modality: unspecified
+  - id: sochi-hou-shikkourei-art-5-5-2-p3-kou
+    type: kou_dan
+    text: この場合において、当該所得税額から控除をすべき同条第三項に規定する配当控除の額があるときは、まず当該配当控除の額を控除し、次に法第十条の四第三項の規定による控除をすべき金額を控除する。
+    modality: unspecified
+    depends_on: sochi-hou-shikkourei-art-5-5-2-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-5-2-p4
+    type: simple
+    text: 法第十条の四第三項第一号に規定する政令で定めるものは、地域の事業者に対して著しい経済的効果を及ぼすものとして経済産業大臣が財務大臣と協議して定める基準に適合することについて主務大臣の確認を受けたものとする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-5-2-p5
+    type: simple
+    text: 経済産業大臣は、第二項又は前項の規定により基準を定めたときは、これを告示する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

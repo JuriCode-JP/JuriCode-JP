@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-19-p1
+    type: simple
+    text: この節に定めるもののほか、指定高度管理医療機器等の指定、登録認証機関の登録、製造販売品目の認証その他登録認証機関の業務に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

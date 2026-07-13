@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-96-6-p1
+    type: simple
+    text: 偽計又は威力を用いて、公の競売又は入札で契約を締結するためのものの公正を害すべき行為をした者は、三年以下の拘禁刑若しくは二百五十万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-96-6-p2
+    type: simple
+    text: 公正な価格を害し又は不正な利益を得る目的で、談合した者も、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

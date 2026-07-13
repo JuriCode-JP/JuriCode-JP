@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-6-3-p1
+    type: simple
+    text: 地方団体の長は、申請による換価の猶予をする場合において、必要があると認めるときは、差押えにより滞納者の事業の継続又は生活の維持を困難にするおそれがある財産の差押えを猶予し、又は解除することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-6-3-p2
+    type: junyou
+    text: 第十五条の二の三第三項及び第四項並びに第十五条の三第一項及び第三項の規定は、申請による換価の猶予について準用する。この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

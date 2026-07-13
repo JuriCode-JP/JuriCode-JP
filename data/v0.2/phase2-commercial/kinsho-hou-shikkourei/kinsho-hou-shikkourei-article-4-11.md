@@ -16,27 +16,59 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-11-p1
+    type: simple
+    text: 法第二十四条第一項ただし書に規定する資産の額として政令で定めるものは、学校法人等の貸借対照表上の純資産額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-11-p2
+    type: simple
+    text: 法第二十四条第一項ただし書に規定する政令で定める額は、一億円とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-11-p3
+    type: simple
+    text: 法第二十四条第一項ただし書に規定する政令で定める数は、三百とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-11-p4
+    type: simple
+    text: 法第二十四条第一項第四号（法第二十七条において準用する場合に限る。次項において同じ。）に規定する政令で定める有価証券は、優先出資証券及び第一条の三の四に規定する債権とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-11-p5-hashira
+    type: hashira
+    text: 法第二十四条第一項第四号に規定する政令で定める数は、次の各号に掲げる有価証券の区分に応じ、当該各号に定める数とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-4-11-p5-kou-1
+    type: kou
+    text: 優先出資証券　千（当該優先出資証券が特定投資家向け有価証券である場合には、千に内閣府令で定めるところにより計算した特定投資家の数を加えた数）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-4-11-p5-kou-2
+    type: kou
+    text: 第一条の三の四に規定する債権　五百
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -70,3 +102,7 @@ parent_section:
 ### 第四条の十一第五項
 
 法第二十四条第一項第四号に規定する政令で定める数は、次の各号に掲げる有価証券の区分に応じ、当該各号に定める数とする。
+
+一　優先出資証券　千（当該優先出資証券が特定投資家向け有価証券である場合には、千に内閣府令で定めるところにより計算した特定投資家の数を加えた数）
+
+二　第一条の三の四に規定する債権　五百

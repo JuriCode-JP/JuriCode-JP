@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-38-p1-honbun
+    type: honbun
+    text: 特別徴収義務者が納期限（第七十一条の三十二第一項から第三項までの規定による更正又は決定があつた場合には、第七十一条の三十三第一項の納期限。以下本款において同じ。）までに配当割に係る地方団体の徴収金を完納しない場合には、道府県の徴税吏員は、納期限後二十日以内に、督促状を発しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-71-38-p1-tadashi
+    type: tadashi
+    text: ただし、繰上徴収をする場合には、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-38-p2
+    type: simple
+    text: 特別の事情がある道府県においては、当該道府県の条例で前項に規定する期間と異なる期間を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

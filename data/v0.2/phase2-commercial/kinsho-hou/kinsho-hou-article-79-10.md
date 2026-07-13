@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-10-p1
+    type: simple
+    text: 第七十九条の七第一項の認定を受けた者（次条第一項において「認定投資者保護団体」という。）は、その認定に係る業務（以下この節において「認定業務」という。）を廃止しようとするときは、政令で定めるところにより、あらかじめ、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-10-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定による届出があつたときは、その旨を公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: houjin-zei-hou-shikkourei-art-155-68-p1
     type: simple
     text: 法第八十二条の十九第二項第三号ハ（国内最低課税額）に規定する政令で定めるところにより計算した割合は、各対象会計年度に係る第一号に掲げる金額が当該対象会計年度に係る第二号に掲げる金額のうちに占める割合とする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-155-68-p1-kou-1
+    type: kou
+    text: 法第八十二条の十九第一項第一号に掲げる内国法人（同号の特定多国籍企業グループ等に属する同号に規定する構成会社等であるものに限る。）の国内調整後対象租税額が個別基準税額を下回る場合のその下回る部分の金額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-155-68-p1-kou-2
+    type: kou
+    text: 前号の特定多国籍企業グループ等に属する構成会社等（その所在地国が我が国であるものに限る。）の国内調整後対象租税額が個別基準税額を下回る場合のその下回る部分の金額の合計額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第百五十五条の六十八
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-155-68-p1 -->
 法第八十二条の十九第二項第三号ハ（国内最低課税額）に規定する政令で定めるところにより計算した割合は、各対象会計年度に係る第一号に掲げる金額が当該対象会計年度に係る第二号に掲げる金額のうちに占める割合とする。
+
+一　法第八十二条の十九第一項第一号に掲げる内国法人（同号の特定多国籍企業グループ等に属する同号に規定する構成会社等であるものに限る。）の国内調整後対象租税額が個別基準税額を下回る場合のその下回る部分の金額
+
+二　前号の特定多国籍企業グループ等に属する構成会社等（その所在地国が我が国であるものに限る。）の国内調整後対象租税額が個別基準税額を下回る場合のその下回る部分の金額の合計額

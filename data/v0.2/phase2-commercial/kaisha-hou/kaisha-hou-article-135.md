@@ -32,6 +32,31 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: kaisha-hou-art-135-p2-kou-1
+    type: kou
+    text: 他の会社（外国会社を含む。）の事業の全部を譲り受ける場合において当該他の会社の有する親会社株式を譲り受ける場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-135-p2-kou-2
+    type: kou
+    text: 合併後消滅する会社から親会社株式を承継する場合
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-135-p2-kou-3
+    type: kou
+    text: 吸収分割により他の会社から親会社株式を承継する場合
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-135-p2-kou-4
+    type: kou
+    text: 新設分割により他の会社から親会社株式を承継する場合
+    modality: unspecified
+    item_number: 4
+  - id: kaisha-hou-art-135-p2-kou-5
+    type: kou
+    text: 前各号に掲げるもののほか、法務省令で定める場合
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: false
@@ -63,15 +88,22 @@ parent_section:
 
 ### 第百三十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-135-p1 -->
 子会社は、その親会社である株式会社の株式（以下この条において「親会社株式」という。）を取得してはならない。
 
 ### 第百三十五条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-135-p2-hashira -->
 前項の規定は、次に掲げる場合には、適用しない。
+
+一　他の会社（外国会社を含む。）の事業の全部を譲り受ける場合において当該他の会社の有する親会社株式を譲り受ける場合
+
+二　合併後消滅する会社から親会社株式を承継する場合
+
+三　吸収分割により他の会社から親会社株式を承継する場合
+
+四　新設分割により他の会社から親会社株式を承継する場合
+
+五　前各号に掲げるもののほか、法務省令で定める場合
 
 ### 第百三十五条第三項
 
-<!-- segment: simple id: kaisha-hou-art-135-p3 -->
 子会社は、相当の時期にその有する親会社株式を処分しなければならない。

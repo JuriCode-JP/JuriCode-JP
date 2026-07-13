@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yuukashouken-kisei-furei-art-9-2-p1
+    type: simple
+    text: 令第二十六条の二の二第一項（同条第六項及び第七項において準用する場合を含む。）に規定する内閣府令で定める措置は、空売りに係る有価証券について借入契約の締結その他の当該有価証券の受渡しを確実にする措置とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-48-2-p1
+    type: simple
+    text: 居住者の暗号資産（資金決済に関する法律（平成二十一年法律第五十九号）第二条第十四項（定義）に規定する暗号資産をいう。以下この条において同じ。）につき第三十七条第一項（必要経費）の規定によりその者の事業所得の金額又は雑所得の金額の計算上必要経費に算入する金額を算定する場合におけるその算定の基礎となるその年十二月三十一日において有する暗号資産の価額は、その者が暗号資産について選定した評価の方法により評価した金額（評価の方法を選定しなかつた場合又は選定した評価の方法により評価しなかつた場合には、評価の方法のうち政令で定める方法により評価した金額）とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-48-2-p2
+    type: simple
+    text: 前項の選定をすることができる評価の方法の種類、その選定の手続その他暗号資産の評価に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments:
 - effective_date: '2020-05-01'

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-61-9-p1
+    type: simple
+    text: 法第百八十五条の八第六項に規定する内閣府令で定めるところにより当該決定に係る課徴金の額に応じて按分して得た額は、同項第一号に掲げる額から同項第二号に掲げる額を控除した額に、法第百八十五条の七第一項（法第百七十八条第一項第四号又は第十一号に掲げる事実があると認める場合に限る。）、第六項、第七項、第十項、第十一項、第十四項（法第百七十八条第一項第四号又は第十一号に掲げる事実があると認める場合に限る。）又は第十五項（法第百七十八条第一項第四号又は第十一号に掲げる事実があると認める場合に限る。）の規定による決定に係る課徴金を合計した額に占める当該決定に係る課徴金の額の割合を乗じて得た額とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

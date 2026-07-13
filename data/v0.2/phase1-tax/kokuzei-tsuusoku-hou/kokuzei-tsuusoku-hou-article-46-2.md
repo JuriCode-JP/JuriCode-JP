@@ -16,82 +16,179 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p1
+    type: simple
+    text: 前条第一項の規定による納税の猶予の申請をしようとする者は、同項の災害によりその者がその財産につき相当な損失を受けたことの事実の詳細、当該猶予を受けようとする金額及びその期間その他の政令で定める事項を記載した申請書に、当該事実を証するに足りる書類を添付し、これを税務署長等に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p2
+    type: simple
+    text: 前条第二項の規定による納税の猶予の申請をしようとする者は、同項各号のいずれかに該当する事実があること及びその該当する事実に基づきその国税を一時に納付することができない事情の詳細、当該猶予を受けようとする金額及びその期間、分割納付の方法により納付を行うかどうか（分割納付の方法により納付を行う場合にあつては、分割納付の各納付期限及び各納付期限ごとの納付金額を含む。）その他の政令で定める事項を記載した申請書に、当該該当する事実を証するに足りる書類、財産目録、担保の提供に関する書類その他の政令で定める書類を添付し、これを税務署長等に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p3
+    type: simple
+    text: 前条第三項の規定による納税の猶予の申請をしようとする者は、同項各号に定める税額に相当する国税を一時に納付することができない事情の詳細、当該猶予を受けようとする金額及びその期間、分割納付の方法により納付を行うかどうか（分割納付の方法により納付を行う場合にあつては、分割納付の各納付期限及び各納付期限ごとの納付金額を含む。）その他の政令で定める事項を記載した申請書に、財産目録、担保の提供に関する書類その他の政令で定める書類を添付し、これを税務署長等に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p4
+    type: simple
+    text: 前条第七項の規定による猶予の期間の延長を申請しようとする者は、猶予期間内にその猶予を受けた金額を納付することができないやむを得ない理由、猶予期間の延長を受けようとする期間、分割納付の方法により納付を行うかどうか（分割納付の方法により納付を行う場合にあつては、分割納付の各納付期限及び各納付期限ごとの納付金額を含む。）その他の政令で定める事項を記載した申請書に、財産目録、担保の提供に関する書類その他の政令で定める書類を添付し、これを税務署長等に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p5
+    type: simple
+    text: 第一項、第二項又は前項の規定により添付すべき書類（政令で定める書類を除く。）については、これらの規定にかかわらず、前条第一項若しくは第二項（第一号、第二号又は第五号（同項第一号又は第二号に該当する事実に類する事実に係る部分に限る。）に係る部分に限る。）の規定による納税の猶予又はその猶予の期間の延長をする場合において、当該申請者が当該添付すべき書類を提出することが困難であると税務署長等が認めるときは、添付することを要しない。
+    modality: unspecified
+    references:
+    - 同項
+    - 前条
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p6
+    type: simple
+    text: 税務署長等は、第一項から第四項までの規定による申請書の提出があつた場合には、当該申請に係る事項について調査を行い、前条の規定による納税の猶予若しくはその猶予の期間の延長をし、又はその納税の猶予若しくはその猶予の延長を認めないものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p7
+    type: simple
+    text: 税務署長等は、第一項から第四項までの規定による申請書の提出があつた場合において、これらの申請書についてその記載に不備があるとき又はこれらの申請書に添付すべき書類についてその記載に不備があるとき若しくはその提出がないときは、当該申請者に対して当該申請書の訂正又は当該添付すべき書類の訂正若しくは提出を求めることができる。
+    modality: kanou_kenri
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p8
+    type: simple
+    text: 税務署長等は、前項の規定により申請書の訂正又は添付すべき書類の訂正若しくは提出を求める場合においては、その旨及びその理由を記載した書面により、これを当該申請者に通知する。
+    modality: tetsuduki
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p9-zen
+    type: zen_dan
+    text: 第七項の規定により申請書の訂正又は添付すべき書類の訂正若しくは提出を求められた当該申請者は、前項の規定による通知を受けた日の翌日から起算して二十日以内に当該申請書の訂正又は当該添付すべき書類の訂正若しくは提出をしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kokuzei-tsuusoku-hou-art-46-2-p9-kou
+    type: kou_dan
+    text: この場合において、当該期間内に当該申請書の訂正又は当該添付すべき書類の訂正若しくは提出をしなかつたときは、当該申請者は、当該期間を経過した日において当該申請を取り下げたものとみなす。
+    modality: unspecified
+    depends_on: kokuzei-tsuusoku-hou-art-46-2-p9-zen
 - number: 10
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p10-hashira
+    type: hashira
+    text: 税務署長等は、第一項から第四項までの規定による申請書の提出があつた場合において、当該申請者について前条第一項から第三項まで又は第七項の規定に該当していると認められるときであつても、次の各号のいずれかに該当するときは、同条の規定による納税の猶予又はその猶予の延長を認めないことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: kokuzei-tsuusoku-hou-art-46-2-p10-kou-1
+    type: kou
+    text: 第四十九条第一項第一号（納税の猶予の取消し）に掲げる場合に該当するとき。
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-art-46-2-p10-kou-2
+    type: kou
+    text: 当該申請者が、次項の規定による質問に対して答弁せず、若しくは偽りの答弁をし、同項の規定による検査を拒み、妨げ、若しくは忌避し、又は同項の規定による物件の提示若しくは提出の要求に対し、正当な理由がなくこれに応じず、若しくは偽りの記載若しくは記録をした帳簿書類その他の物件（その写しを含む。）を提示し、若しくは提出したとき。
+    modality: unspecified
+    item_number: 2
+  - id: kokuzei-tsuusoku-hou-art-46-2-p10-kou-3
+    type: kou
+    text: 不当な目的で前条の規定による納税の猶予又はその猶予の期間の延長の申請がされたとき、その他その申請が誠実にされたものでないとき。
+    modality: unspecified
+    item_number: 3
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p11
+    type: simple
+    text: 税務署長等は、第六項の規定による調査をするため必要があると認めるときは、その必要な限度で、その職員に、当該申請者に質問させ、その者の帳簿書類その他の物件を検査させ、当該物件（その写しを含む。）の提示若しくは提出を求めさせ、又は当該調査において提出された物件を留め置かせることができる。
+    modality: kanou_kenri
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p12
+    type: simple
+    text: 前項の規定により質問、検査又は提示若しくは提出の要求を行う職員は、その身分を示す証明書を携帯し、関係者の請求があつたときは、これを提示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-46-2-p13
+    type: simple
+    text: 第十一項に規定する権限は、犯罪捜査のために認められたものと解してはならない。
+    modality: gimu_negative
 cases:
-  - case_id: ntt-2018-01-09-j110-1
-    case_type: ruling
-    source_license: pdl-1.0
-    summary_source: official_pdl
-    decision_date: '2018-01-09'
-    case_name_ja: 徴収担当職員から、再三再四、預金通帳の提示を求められたにもかかわらず、請求人が預金通帳を一切提示しなかったことは、帳簿書類その他の物件の検査を拒んだものと認められるとして、納税の猶予の不許可事由に該当するとした事例（納税の猶予不許可処分、督促処分・棄却・平成30年1月9日裁決）
-    url: https://www.kfs.go.jp/service/JP/110/01/index.html
-    relevance: medium
-    relevant_paragraph: 10
-    summary_ja: '請求人は、請求人がした納税の猶予の申請（本件猶予申請）につき、原処分庁が、国税通則法第46条の2《納税の猶予の申請手続等》第10項第2号に該当する事実があるとして不許可処分をしたのに対し、徴収担当職員から提示を求められた預金通帳については元関与税理士法人から返却されなかったため提示できなかったものであって、徴収担当職員の検査を拒んだり、妨げたり、忌避したりしてはいない旨主張する。
+- case_id: ntt-2018-01-09-j110-1
+  case_type: ruling
+  source_license: pdl-1.0
+  summary_source: official_pdl
+  decision_date: '2018-01-09'
+  case_name_ja: 徴収担当職員から、再三再四、預金通帳の提示を求められたにもかかわらず、請求人が預金通帳を一切提示しなかったことは、帳簿書類その他の物件の検査を拒んだものと認められるとして、納税の猶予の不許可事由に該当するとした事例（納税の猶予不許可処分、督促処分・棄却・平成30年1月9日裁決）
+  url: https://www.kfs.go.jp/service/JP/110/01/index.html
+  relevance: medium
+  relevant_paragraph: 10
+  summary_ja: '請求人は、請求人がした納税の猶予の申請（本件猶予申請）につき、原処分庁が、国税通則法第46条の2《納税の猶予の申請手続等》第10項第2号に該当する事実があるとして不許可処分をしたのに対し、徴収担当職員から提示を求められた預金通帳については元関与税理士法人から返却されなかったため提示できなかったものであって、徴収担当職員の検査を拒んだり、妨げたり、忌避したりしてはいない旨主張する。
 
-      しかしながら、原処分庁は、本件猶予申請に係る事項を明らかにするため、預金口座の状況を調査する必要があったと認められるところ、請求人は、徴収担当職員から、再三再四、預金通帳の提示を求められたにもかかわらず、預金通帳を一切提示しなかったのであり、請求人は、徴収担当職員による帳簿書類その他の物件の検査を拒んだものと認められる。また、仮に、請求人が主張するように、元関与税理士法人が請求人の所有する預金通帳を返却していないとしても、請求人は、預金通帳を発行した金融機関に対して、預金通帳の再発行の手続や預金口座の異動履歴状況の分かるものの発行の手続をすれば、預金通帳その他預金口座の状況を証する書類を容易に取得できるのであるから、所有する預金通帳の提示を求められた請求人が、上記各手続をせずに、預金通帳その他預金口座の状況を証する書類の提示をしないことは、徴収担当職員の検査を拒んだものといわざるを得ない。'
-    issue_code: '0502000000'
-    tax_item: 国税通則
+    しかしながら、原処分庁は、本件猶予申請に係る事項を明らかにするため、預金口座の状況を調査する必要があったと認められるところ、請求人は、徴収担当職員から、再三再四、預金通帳の提示を求められたにもかかわらず、預金通帳を一切提示しなかったのであり、請求人は、徴収担当職員による帳簿書類その他の物件の検査を拒んだものと認められる。また、仮に、請求人が主張するように、元関与税理士法人が請求人の所有する預金通帳を返却していないとしても、請求人は、預金通帳を発行した金融機関に対して、預金通帳の再発行の手続や預金口座の異動履歴状況の分かるものの発行の手続をすれば、預金通帳その他預金口座の状況を証する書類を容易に取得できるのであるから、所有する預金通帳の提示を求められた請求人が、上記各手続をせずに、預金通帳その他預金口座の状況を証する書類の提示をしないことは、徴収担当職員の検査を拒んだものといわざるを得ない。'
+  issue_code: '0502000000'
+  tax_item: 国税通則
 amendments:
 - effective_date: '2024-01-01'
   law_num: 令和五年法律第三号
@@ -150,6 +247,12 @@ parent_section:
 ### 第四十六条の二第十項
 
 税務署長等は、第一項から第四項までの規定による申請書の提出があつた場合において、当該申請者について前条第一項から第三項まで又は第七項の規定に該当していると認められるときであつても、次の各号のいずれかに該当するときは、同条の規定による納税の猶予又はその猶予の延長を認めないことができる。
+
+一　第四十九条第一項第一号（納税の猶予の取消し）に掲げる場合に該当するとき。
+
+二　当該申請者が、次項の規定による質問に対して答弁せず、若しくは偽りの答弁をし、同項の規定による検査を拒み、妨げ、若しくは忌避し、又は同項の規定による物件の提示若しくは提出の要求に対し、正当な理由がなくこれに応じず、若しくは偽りの記載若しくは記録をした帳簿書類その他の物件（その写しを含む。）を提示し、若しくは提出したとき。
+
+三　不当な目的で前条の規定による納税の猶予又はその猶予の期間の延長の申請がされたとき、その他その申請が誠実にされたものでないとき。
 
 ### 第四十六条の二第十一項
 

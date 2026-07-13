@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-45-p1
+    type: simple
+    text: 一部事務組合又は広域連合に係る包括外部監査契約に基づく監査については、一部事務組合又は広域連合を第二百五十二条の三十六第一項第二号に掲げる市以外の市又は町村とみなして、第二節（同項を除く。）の規定を準用する。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

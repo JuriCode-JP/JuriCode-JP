@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-232-2-p1
+    type: simple
+    text: 法第六十条の十四第一項の許可を受けようとする者は、別紙様式第十九号の二により作成した同条第二項において準用する法第六十条の二第一項の許可申請書に、当該許可申請書の写し及び法第六十条の十四第二項において準用する法第六十条の二第三項の規定により当該許可申請書に添付すべき書類を添付して、金融庁長官に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

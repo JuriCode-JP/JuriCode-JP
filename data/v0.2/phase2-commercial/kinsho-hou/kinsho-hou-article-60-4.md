@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-4-p1-zen
+    type: zen_dan
+    text: 内閣総理大臣は、第六十条第一項の許可を受けた外国証券業者（以下「取引所取引許可業者」という。）の国内における代表者が欠けた場合において、必要があると認めるときは、一時その職務を行うべき者（次項において「職務代行者」という。）を選任することができる。
+    modality: kanou_kenri
+    references:
+    - 次項
+  - id: kinsho-hou-art-60-4-p1-kou
+    type: kou_dan
+    text: この場合において、当該取引所取引許可業者は、国内における代表者が欠ける前における当該国内における代表者の住所地において、その登記をしなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-60-4-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-4-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定により職務代行者を選任したときは、取引所取引許可業者に対し、当該職務代行者に相当額の報酬を支払うべき旨を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

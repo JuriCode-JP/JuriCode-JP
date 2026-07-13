@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-18-p1-hashira
+    type: hashira
+    text: 法第三十三条第二項第四号イに規定する政令で定める有価証券は、次に掲げる有価証券に係るオプションを表示する法第二条第一項第十九号に掲げる有価証券（当該有価証券に係るオプションを表示する同号に掲げる有価証券を含む。）とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-15-18-p1-kou-1
+    type: kou
+    text: 株券（優先出資証券を含む。）、新株予約権証券、新株予約権付社債券その他これらに準ずるものとして内閣府令で定める有価証券
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-15-18-p1-kou-2
+    type: kou
+    text: 法第二条第一項第十七号に掲げる有価証券で前号に掲げる有価証券の性質を有するもの
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-15-18-p1-kou-3
+    type: kou
+    text: 前二号に掲げる有価証券に係る権利を表示する法第二条第一項第二十号に掲げる有価証券
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,3 +53,9 @@ parent_section:
 ### 第十五条の十八
 
 法第三十三条第二項第四号イに規定する政令で定める有価証券は、次に掲げる有価証券に係るオプションを表示する法第二条第一項第十九号に掲げる有価証券（当該有価証券に係るオプションを表示する同号に掲げる有価証券を含む。）とする。
+
+一　株券（優先出資証券を含む。）、新株予約権証券、新株予約権付社債券その他これらに準ずるものとして内閣府令で定める有価証券
+
+二　法第二条第一項第十七号に掲げる有価証券で前号に掲げる有価証券の性質を有するもの
+
+三　前二号に掲げる有価証券に係る権利を表示する法第二条第一項第二十号に掲げる有価証券

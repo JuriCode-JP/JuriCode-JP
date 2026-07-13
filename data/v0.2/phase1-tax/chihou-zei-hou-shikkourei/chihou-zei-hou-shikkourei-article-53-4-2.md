@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-53-4-2-p1
+    type: simple
+    text: 法第四百八十三条第四項に規定する政令で定めるところにより計算した金額は、同項に規定する当該申告納税者の責めに帰すべき事由がないと認められる事実のみに基づいて同条第二項各号に規定する申告、決定又は更正があつたものとした場合におけるその申告、決定又は更正により納付すべき税額とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

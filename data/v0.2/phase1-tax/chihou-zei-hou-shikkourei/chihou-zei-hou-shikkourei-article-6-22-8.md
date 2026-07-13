@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-6-22-8-p1-hashira
+    type: hashira
+    text: 法第二十二条の十九第四項に規定する許可状（第六号において「許可状」という。）の請求は、次に掲げる事項を記載した書面でしなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-6-22-8-p1-kou-1
+    type: kou
+    text: 犯則嫌疑者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-6-22-8-p1-kou-2
+    type: kou
+    text: 罪名及び犯則事実の要旨
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-6-22-8-p1-kou-3
+    type: kou
+    text: 破壊すべき物件
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-6-22-8-p1-kou-4
+    type: kou
+    text: 鑑定人の氏名及び職業
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-6-22-8-p1-kou-5
+    type: kou
+    text: 請求者の官職氏名
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-shikkourei-art-6-22-8-p1-kou-6
+    type: kou
+    text: 許可状が七日を超える有効期間を必要とするときは、その旨及び事由
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -34,3 +68,15 @@ parent_section:
 ### 第六条の二十二の八
 
 法第二十二条の十九第四項に規定する許可状（第六号において「許可状」という。）の請求は、次に掲げる事項を記載した書面でしなければならない。
+
+一　犯則嫌疑者の氏名
+
+二　罪名及び犯則事実の要旨
+
+三　破壊すべき物件
+
+四　鑑定人の氏名及び職業
+
+五　請求者の官職氏名
+
+六　許可状が七日を超える有効期間を必要とするときは、その旨及び事由

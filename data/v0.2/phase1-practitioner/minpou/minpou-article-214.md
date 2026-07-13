@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百十四条
 
-<!-- segment: simple id: minpou-art-214-p1 -->
 土地の所有者は、隣地から水が自然に流れて来るのを妨げてはならない。

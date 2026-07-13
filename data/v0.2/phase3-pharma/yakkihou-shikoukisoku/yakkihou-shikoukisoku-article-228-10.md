@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-p1
+    type: simple
+    text: 法第六十七条第一項の規定により指定する医薬品又は再生医療等製品は、別表第五のとおりとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-p2
+    type: simple
+    text: 前項に規定する医薬品又は再生医療等製品の令第六十四条に規定する特殊疾病に関する広告は、医事又は薬事に関する記事を掲載する医薬関係者向けの新聞又は雑誌による場合その他主として医薬関係者を対象として行う場合のほか、行つてはならない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-15-14-p1-hashira
+    type: hashira
+    text: 法第三十四条第七項第六号ロに規定する政令で定める共済に係る契約は、次に掲げる契約とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-7-15-14-p1-kou-1
+    type: kou
+    text: 農業協同組合法第十条第一項第十号の事業を行う農業協同組合連合会の締結した建物更生共済又は火災共済に係る契約
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-7-15-14-p1-kou-2
+    type: kou
+    text: 農業保険法（昭和二十二年法律第百八十五号）第九十七条第一項第六号又は第百六十三条第二項の事業を行う農業共済組合又は農業共済組合連合会の締結した火災共済その他建物を共済の目的とする共済に係る契約
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-7-15-14-p1-kou-3
+    type: kou
+    text: 水産業協同組合法第十一条第一項第十二号若しくは第九十三条第一項第六号の二の事業を行う漁業協同組合若しくは水産加工業協同組合又は共済水産業協同組合連合会の締結した建物若しくは動産の共済期間中の耐存を共済事故とする共済又は火災共済に係る契約（漁業協同組合又は水産加工業協同組合の締結した契約にあつては、総務省令で定める要件を備えているものに限る。）
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-7-15-14-p1-kou-4
+    type: kou
+    text: 中小企業等協同組合法第九条の九第三項に規定する火災等共済組合の締結した火災共済に係る契約
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-7-15-14-p1-kou-5
+    type: kou
+    text: 消費生活協同組合法第十条第一項第四号の事業を行う消費生活協同組合連合会の締結した火災共済又は自然災害共済に係る契約
+    modality: unspecified
+    item_number: 5
+  - id: chihou-zei-hou-shikkourei-art-7-15-14-p1-kou-6
+    type: kou
+    text: 法律の規定に基づく共済に関する事業を行う法人の締結した火災共済又は自然災害共済に係る契約で、所得税法施行令第二百十四条第六号の規定により指定されたもの
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -36,3 +70,15 @@ parent_section:
 ### 第七条の十五の十四
 
 法第三十四条第七項第六号ロに規定する政令で定める共済に係る契約は、次に掲げる契約とする。
+
+一　農業協同組合法第十条第一項第十号の事業を行う農業協同組合連合会の締結した建物更生共済又は火災共済に係る契約
+
+二　農業保険法（昭和二十二年法律第百八十五号）第九十七条第一項第六号又は第百六十三条第二項の事業を行う農業共済組合又は農業共済組合連合会の締結した火災共済その他建物を共済の目的とする共済に係る契約
+
+三　水産業協同組合法第十一条第一項第十二号若しくは第九十三条第一項第六号の二の事業を行う漁業協同組合若しくは水産加工業協同組合又は共済水産業協同組合連合会の締結した建物若しくは動産の共済期間中の耐存を共済事故とする共済又は火災共済に係る契約（漁業協同組合又は水産加工業協同組合の締結した契約にあつては、総務省令で定める要件を備えているものに限る。）
+
+四　中小企業等協同組合法第九条の九第三項に規定する火災等共済組合の締結した火災共済に係る契約
+
+五　消費生活協同組合法第十条第一項第四号の事業を行う消費生活協同組合連合会の締結した火災共済又は自然災害共済に係る契約
+
+六　法律の規定に基づく共済に関する事業を行う法人の締結した火災共済又は自然災害共済に係る契約で、所得税法施行令第二百十四条第六号の規定により指定されたもの

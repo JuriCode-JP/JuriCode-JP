@@ -55,6 +55,21 @@ paragraphs:
     modality: unspecified
     references:
     - 前条
+  - id: kaisha-hou-art-747-p4-kou-1
+    type: kou
+    text: 前条第一項第七号イに掲げる事項についての定めがある場合　同号イの社債の社債権者
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-747-p4-kou-2
+    type: kou
+    text: 前条第一項第七号ロに掲げる事項についての定めがある場合　同号ロの新株予約権の新株予約権者
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-747-p4-kou-3
+    type: kou
+    text: 前条第一項第七号ハに掲げる事項についての定めがある場合　同号ハの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
+    modality: unspecified
+    item_number: 3
 - number: 5
   has_proviso: false
   has_items: false
@@ -84,8 +99,6 @@ parent_section:
 
 ### 第七百四十七条第一項
 
-<!-- segment: simple id: kaisha-hou-art-747-p1 -->
-<!-- segment: simple id: kaisha-hou-art-747-p2 -->
 組織変更をする持分会社は、効力発生日に、株式会社となる。
 
 ### 第七百四十七条第二項
@@ -94,15 +107,18 @@ parent_section:
 
 ### 第七百四十七条第三項
 
-<!-- segment: simple id: kaisha-hou-art-747-p3 -->
 組織変更をする持分会社の社員は、効力発生日に、前条第一項第六号に掲げる事項についての定めに従い、同項第五号の株式の株主となる。
 
 ### 第七百四十七条第四項
 
-<!-- segment: hashira id: kaisha-hou-art-747-p4-hashira -->
 次の各号に掲げる場合には、組織変更をする持分会社の社員は、効力発生日に、前条第一項第八号に掲げる事項についての定めに従い、当該各号に定める者となる。
+
+一　前条第一項第七号イに掲げる事項についての定めがある場合　同号イの社債の社債権者
+
+二　前条第一項第七号ロに掲げる事項についての定めがある場合　同号ロの新株予約権の新株予約権者
+
+三　前条第一項第七号ハに掲げる事項についての定めがある場合　同号ハの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
 
 ### 第七百四十七条第五項
 
-<!-- segment: simple id: kaisha-hou-art-747-p5 -->
 前各項の規定は、第七百八十一条第二項において準用する第七百七十九条（第二項第二号を除く。）の規定による手続が終了していない場合又は組織変更を中止した場合には、適用しない。

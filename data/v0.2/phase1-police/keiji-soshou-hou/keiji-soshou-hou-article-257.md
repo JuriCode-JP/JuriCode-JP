@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百五十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-257-p1 -->
 公訴は、第一審の判決があるまでこれを取り消すことができる。

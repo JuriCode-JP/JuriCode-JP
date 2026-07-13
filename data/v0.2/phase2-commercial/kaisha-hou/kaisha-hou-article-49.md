@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十九条
 
-<!-- segment: simple id: kaisha-hou-art-49-p1 -->
 株式会社は、その本店の所在地において設立の登記をすることによって成立する。

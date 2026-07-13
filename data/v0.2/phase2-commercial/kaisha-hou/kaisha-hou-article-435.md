@@ -70,8 +70,6 @@ parent_section:
 
 ### 第四百三十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-435-p1 -->
-<!-- segment: simple id: kaisha-hou-art-435-p2 -->
 株式会社は、法務省令で定めるところにより、その成立の日における貸借対照表を作成しなければならない。
 
 ### 第四百三十五条第二項
@@ -80,10 +78,8 @@ parent_section:
 
 ### 第四百三十五条第三項
 
-<!-- segment: simple id: kaisha-hou-art-435-p3 -->
 計算書類及び事業報告並びにこれらの附属明細書は、電磁的記録をもって作成することができる。
 
 ### 第四百三十五条第四項
 
-<!-- segment: simple id: kaisha-hou-art-435-p4 -->
 株式会社は、計算書類を作成した時から十年間、当該計算書類及びその附属明細書を保存しなければならない。

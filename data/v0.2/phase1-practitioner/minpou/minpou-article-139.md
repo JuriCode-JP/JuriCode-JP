@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百三十九条
 
-<!-- segment: simple id: minpou-art-139-p1 -->
 時間によって期間を定めたときは、その期間は、即時から起算する。

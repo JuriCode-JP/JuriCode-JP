@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百五十八条
 
-<!-- segment: simple id: keihou-art-258-p1 -->
 公務所の用に供する文書又は電磁的記録を毀棄した者は、三月以上七年以下の拘禁刑に処する。

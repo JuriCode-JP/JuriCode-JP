@@ -16,27 +16,56 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-99-5-p1
+    type: simple
+    text: 指定自動車教習所を管理する者は、第九十九条第一項に規定する免許の種類ごとに、技能検定員に、内閣府令で定めるところにより自動車の運転に関する技能及び知識の教習を終了した者に対し技能検定を行わせなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-99-5-p2
+    type: simple
+    text: 指定自動車教習所を管理する者は、技能検定員に、前項に規定する教習を終了した者以外の者に対し技能検定を行わせてはならない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-99-5-p3
+    type: simple
+    text: 指定自動車教習所を管理する者は、技能検定員以外の者に技能検定を行わせてはならない。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-99-5-p4
+    type: simple
+    text: 技能検定員は、技能検定に合格した者について、その者が技能検定に合格した旨の証明をしなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-99-5-p5-zen
+    type: zen_dan
+    text: 指定自動車教習所は、技能検定員が前項の証明をしたときは、当該証明に係る者に対し、内閣府令で定めるところにより、内閣府令で定める様式の卒業証明書（指定自動車教習所において教習を終了した旨を証明する証明書をいう。以下同じ。）又は修了証明書（指定自動車教習所において教習を受け、仮免許を受けて運転することができる程度の技能及び知識の水準に達した旨を証明する証明書をいう。以下同じ。）を発行することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: douro-koutsuu-hou-art-99-5-p5-kou
+    type: kou_dan
+    text: この場合において、当該卒業証明書又は修了証明書には、内閣府令で定めるところにより、当該卒業証明書又は修了証明書に係る者が技能検定に合格した旨の技能検定員の書面による証明を付さなければならない。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-99-5-p5-zen
 cases: []
 amendments: []
 tags:

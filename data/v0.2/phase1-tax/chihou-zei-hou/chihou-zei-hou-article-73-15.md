@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-15-p1
+    type: simple
+    text: 不動産取得税の標準税率は、百分の四とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

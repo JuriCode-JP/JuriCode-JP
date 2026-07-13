@@ -55,15 +55,12 @@ parent_section:
 
 ### 第二十九条第一項
 
-<!-- segment: simple id: kenpou-art-29-p1 -->
 財産権は、これを侵してはならない。
 
 ### 第二十九条第二項
 
-<!-- segment: simple id: kenpou-art-29-p2 -->
 財産権の内容は、公共の福祉に適合するやうに、法律でこれを定める。
 
 ### 第二十九条第三項
 
-<!-- segment: simple id: kenpou-art-29-p3 -->
 私有財産は、正当な補償の下に、これを公共のために用ひることができる。

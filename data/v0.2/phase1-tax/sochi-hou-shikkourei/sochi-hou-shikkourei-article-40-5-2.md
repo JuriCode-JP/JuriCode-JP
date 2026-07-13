@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-40-5-2-p1
+    type: simple
+    text: 法第七十条の三の二第一項に規定する相続時精算課税適用者がその年中において二人以上の同項に規定する特定贈与者（以下この条において「特定贈与者」という。）からの贈与（贈与をした者の死亡により効力を生ずる贈与を除く。）により財産を取得した場合には、同項の規定により控除する金額は、特定贈与者の異なるごとに、百十万円に、特定贈与者ごとの贈与税の課税価格が当該課税価格の合計額のうちに占める割合を乗じて計算するものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

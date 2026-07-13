@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-4-p1
+    type: simple
+    text: 指定薬物は、疾病の診断、治療又は予防の用途及び人の身体に対する危害の発生を伴うおそれがない用途として厚生労働省令で定めるもの（以下この条及び次条において「医療等の用途」という。）以外の用途に供するために製造し、輸入し、販売し、授与し、所持し、購入し、若しくは譲り受け、又は医療等の用途以外の用途に使用してはならない。
+    modality: gimu_negative
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

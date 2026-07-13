@@ -16,12 +16,30 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-3-p1
+    type: tokusoku
+    text: 第三百四十九条の三の二第一項又は第三百四十九条の三の三第一項（同条第二項において準用する場合及び同条第三項（同条第四項において準用する場合を含む。）の規定により読み替えて適用される場合を含む。次項において同じ。）の規定の適用を受ける土地に対して課する都市計画税の課税標準は、第七百二条第一項の規定にかかわらず、当該土地に係る都市計画税の課税標準となるべき価格の三分の二の額とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第七百二条
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-702-3-p2
+    type: tokusoku
+    text: 第三百四十九条の三の二第二項の規定又は第三百四十九条の三の三第一項の規定により読み替えて適用される第三百四十九条の三の二第二項の規定の適用を受ける土地に対して課する都市計画税の課税標準は、第七百二条第一項及び前項の規定にかかわらず、当該土地に係る都市計画税の課税標準となるべき価格の三分の一の額とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

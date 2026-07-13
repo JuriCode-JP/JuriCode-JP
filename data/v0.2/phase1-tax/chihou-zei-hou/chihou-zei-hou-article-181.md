@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百八十一条
 
-<!-- segment: simple id: chihou-zei-hou-art-181-p1 -->
 鉱区税の賦課期日は、四月一日とする。

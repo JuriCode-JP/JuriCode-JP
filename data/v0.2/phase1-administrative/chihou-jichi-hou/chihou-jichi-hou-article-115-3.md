@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-115-3-p1
+    type: simple
+    text: 普通地方公共団体の議会が議案に対する修正の動議を議題とするに当たつては、議員の定数の十二分の一以上の者の発議によらなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

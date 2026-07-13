@@ -30,6 +30,21 @@ paragraphs:
     type: hashira
     text: 法第二十八条の二第一項に規定する政令で定める減価償却資産は、次に掲げる規定の適用を受ける減価償却資産及び貸付け（主要な業務として行われるものを除く。）の用に供した減価償却資産とする。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-18-5-p2-kou-1
+    type: kou
+    text: 所得税法施行令第百三十八条又は第百三十九条の規定
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-18-5-p2-kou-2
+    type: kou
+    text: 法第三十三条の六第一項、第三十七条の三第一項又は第三十七条の五第四項の規定
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-18-5-p2-kou-3
+    type: kou
+    text: 第十六条の三第六項又は第十八条の七第七項の規定
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -60,15 +75,18 @@ parent_section:
 
 ### 第十八条の五第一項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-18-5-p1 -->
 法第二十八条の二第一項に規定する事務負担に配慮する必要があるものとして政令で定めるものは、常時使用する従業員の数が四百人以下の個人とする。
 
 ### 第十八条の五第二項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-18-5-p2-hashira -->
 法第二十八条の二第一項に規定する政令で定める減価償却資産は、次に掲げる規定の適用を受ける減価償却資産及び貸付け（主要な業務として行われるものを除く。）の用に供した減価償却資産とする。
+
+一　所得税法施行令第百三十八条又は第百三十九条の規定
+
+二　法第三十三条の六第一項、第三十七条の三第一項又は第三十七条の五第四項の規定
+
+三　第十六条の三第六項又は第十八条の七第七項の規定
 
 ### 第十八条の五第三項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-18-5-p3 -->
 前項に規定する主要な業務として行われる貸付けに該当するかどうかの判定その他前二項の規定の適用に関し必要な事項は、財務省令で定める。

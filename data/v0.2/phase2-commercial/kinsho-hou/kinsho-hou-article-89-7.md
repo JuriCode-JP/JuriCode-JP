@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-89-7-p1
+    type: simple
+    text: 金融商品会員制法人の登記については、その事務所の所在地を管轄する法務局若しくは地方法務局若しくはこれらの支局又はこれらの出張所（以下単に「登記所」という。）がつかさどる。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-89-7-p2
+    type: simple
+    text: 登記所に、金融商品会員制法人登記簿を備える。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

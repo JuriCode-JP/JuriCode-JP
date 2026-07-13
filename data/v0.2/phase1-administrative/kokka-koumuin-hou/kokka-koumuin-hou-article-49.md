@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十九条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-49-p1 -->
 採用試験の時期及び場所は、国内の受験資格者が、無理なく受験することができるように、これを定めなければならない。

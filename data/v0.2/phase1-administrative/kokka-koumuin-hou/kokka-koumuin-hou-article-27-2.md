@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-27-2-p1
+    type: simple
+    text: 職員の採用後の任用、給与その他の人事管理は、職員の採用年次、合格した採用試験の種類及び第六十一条の九第二項第二号に規定する課程対象者であるか否か又は同号に規定する課程対象者であつたか否かにとらわれてはならず、この法律に特段の定めがある場合を除くほか、人事評価に基づいて適切に行われなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

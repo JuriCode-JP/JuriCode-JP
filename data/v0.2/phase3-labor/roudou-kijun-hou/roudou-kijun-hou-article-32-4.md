@@ -14,24 +14,75 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-4-p1
+    type: tokusoku
+    text: 使用者は、当該事業場に、労働者の過半数で組織する労働組合がある場合においてはその労働組合、労働者の過半数で組織する労働組合がない場合においては労働者の過半数を代表する者との書面による協定により、次に掲げる事項を定めたときは、第三十二条の規定にかかわらず、その協定で第二号の対象期間として定められた期間を平均し一週間当たりの労働時間が四十時間を超えない範囲内において、当該協定（次項の規定による定めをした場合においては、その定めを含む。）で定めるところにより、特定された週において同条第一項の労働時間又は特定された日において同条第二項の労働時間を超えて、労働させることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第三十二条
+    references:
+    - 次項
+  - id: roudou-kijun-hou-art-32-4-p1-kou-1
+    type: kou
+    text: この条の規定による労働時間により労働させることができることとされる労働者の範囲
+    modality: unspecified
+    item_number: 1
+  - id: roudou-kijun-hou-art-32-4-p1-kou-2
+    type: kou
+    text: 対象期間（その期間を平均し一週間当たりの労働時間が四十時間を超えない範囲内において労働させる期間をいい、一箇月を超え一年以内の期間に限るものとする。以下この条及び次条において同じ。）
+    modality: unspecified
+    item_number: 2
+  - id: roudou-kijun-hou-art-32-4-p1-kou-3
+    type: kou
+    text: 特定期間（対象期間中の特に業務が繁忙な期間をいう。第三項において同じ。）
+    modality: unspecified
+    item_number: 3
+  - id: roudou-kijun-hou-art-32-4-p1-kou-4
+    type: kou
+    text: 対象期間における労働日及び当該労働日ごとの労働時間（対象期間を一箇月以上の期間ごとに区分することとした場合においては、当該区分による各期間のうち当該対象期間の初日の属する期間（以下この条において「最初の期間」という。）における労働日及び当該労働日ごとの労働時間並びに当該最初の期間を除く各期間における労働日数及び総労働時間）
+    modality: unspecified
+    item_number: 4
+  - id: roudou-kijun-hou-art-32-4-p1-kou-5
+    type: kou
+    text: その他厚生労働省令で定める事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-4-p2
+    type: simple
+    text: 使用者は、前項の協定で同項第四号の区分をし当該区分による各期間のうち最初の期間を除く各期間における労働日数及び総労働時間を定めたときは、当該各期間の初日の少なくとも三十日前に、当該事業場に、労働者の過半数で組織する労働組合がある場合においてはその労働組合、労働者の過半数で組織する労働組合がない場合においては労働者の過半数を代表する者の同意を得て、厚生労働省令で定めるところにより、当該労働日数を超えない範囲内において当該各期間における労働日及び当該総労働時間を超えない範囲内において当該各期間における労働日ごとの労働時間を定めなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-4-p3
+    type: simple
+    text: 厚生労働大臣は、労働政策審議会の意見を聴いて、厚生労働省令で、対象期間における労働日数の限度並びに一日及び一週間の労働時間の限度並びに対象期間（第一項の協定で特定期間として定められた期間を除く。）及び同項の協定で特定期間として定められた期間における連続して労働させる日数の限度を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-4-p4
+    type: junyou
+    text: 第三十二条の二第二項の規定は、第一項の協定について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -49,6 +100,16 @@ parent_section:
 ### 第三十二条の四第一項
 
 使用者は、当該事業場に、労働者の過半数で組織する労働組合がある場合においてはその労働組合、労働者の過半数で組織する労働組合がない場合においては労働者の過半数を代表する者との書面による協定により、次に掲げる事項を定めたときは、第三十二条の規定にかかわらず、その協定で第二号の対象期間として定められた期間を平均し一週間当たりの労働時間が四十時間を超えない範囲内において、当該協定（次項の規定による定めをした場合においては、その定めを含む。）で定めるところにより、特定された週において同条第一項の労働時間又は特定された日において同条第二項の労働時間を超えて、労働させることができる。
+
+一　この条の規定による労働時間により労働させることができることとされる労働者の範囲
+
+二　対象期間（その期間を平均し一週間当たりの労働時間が四十時間を超えない範囲内において労働させる期間をいい、一箇月を超え一年以内の期間に限るものとする。以下この条及び次条において同じ。）
+
+三　特定期間（対象期間中の特に業務が繁忙な期間をいう。第三項において同じ。）
+
+四　対象期間における労働日及び当該労働日ごとの労働時間（対象期間を一箇月以上の期間ごとに区分することとした場合においては、当該区分による各期間のうち当該対象期間の初日の属する期間（以下この条において「最初の期間」という。）における労働日及び当該労働日ごとの労働時間並びに当該最初の期間を除く各期間における労働日数及び総労働時間）
+
+五　その他厚生労働省令で定める事項
 
 ### 第三十二条の四第二項
 

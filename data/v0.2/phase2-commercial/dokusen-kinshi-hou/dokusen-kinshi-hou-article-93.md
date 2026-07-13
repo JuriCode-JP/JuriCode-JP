@@ -37,5 +37,4 @@ parent_section:
 
 ### 第九十三条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-93-p1 -->
 第三十九条の規定に違反した者は、一年以下の拘禁刑又は百万円以下の罰金に処する。

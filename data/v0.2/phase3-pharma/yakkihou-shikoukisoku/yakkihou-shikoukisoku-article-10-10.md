@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-10-10-p1-hashira
+    type: hashira
+    text: 令第二条の十一に規定する法第六条の二第一項又は第六条の三第一項の規定による認定に関する台帳に記載する事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-10-10-p1-kou-1
+    type: kou
+    text: 認定番号及び認定年月日
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-10-10-p1-kou-2
+    type: kou
+    text: 薬局開設の許可に係る許可番号及び許可年月日
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-10-10-p1-kou-3
+    type: kou
+    text: 認定薬局開設者の氏名（法人にあつては、その名称）及び住所（法人にあつては、その主たる事業所の所在地）
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-10-10-p1-kou-4
+    type: kou
+    text: 薬局の名称及び所在地
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-10-10-p1-kou-5
+    type: kou
+    text: 専門医療機関連携薬局にあつては、第十条の三第一項に規定する傷病の区分
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-10-10-p1-kou-6
+    type: kou
+    text: 専門医療機関連携薬局にあつては、法第六条の三第二項第二号に規定する薬剤師の氏名
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -34,3 +68,15 @@ parent_section:
 ### 第十条の十
 
 令第二条の十一に規定する法第六条の二第一項又は第六条の三第一項の規定による認定に関する台帳に記載する事項は、次のとおりとする。
+
+一　認定番号及び認定年月日
+
+二　薬局開設の許可に係る許可番号及び許可年月日
+
+三　認定薬局開設者の氏名（法人にあつては、その名称）及び住所（法人にあつては、その主たる事業所の所在地）
+
+四　薬局の名称及び所在地
+
+五　専門医療機関連携薬局にあつては、第十条の三第一項に規定する傷病の区分
+
+六　専門医療機関連携薬局にあつては、法第六条の三第二項第二号に規定する薬剤師の氏名

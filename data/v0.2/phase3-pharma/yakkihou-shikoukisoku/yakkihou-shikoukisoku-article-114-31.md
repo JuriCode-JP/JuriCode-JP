@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-31-p1
+    type: simple
+    text: 令第三十七条の二十五第一項の厚生労働省令で定める変更は、当該品目の製造管理又は品質管理の方法に影響を与えない変更とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

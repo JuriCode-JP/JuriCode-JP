@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十六条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-36-p1 -->
 審理員は、審査請求人若しくは参加人の申立てにより又は職権で、審査請求に係る事件に関し、審理関係人に質問することができる。

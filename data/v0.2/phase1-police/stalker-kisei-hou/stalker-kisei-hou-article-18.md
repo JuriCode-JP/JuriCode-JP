@@ -34,5 +34,4 @@ tags:
 
 ### 第十八条
 
-<!-- segment: simple id: stalker-kisei-hou-art-18-p1 -->
 ストーカー行為をした者は、一年以下の拘禁刑又は百万円以下の罰金に処する。

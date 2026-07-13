@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-75-p1
+    type: simple
+    text: 法第二十三条の三十七第一項の承認を受けようとする者又は外国製造再生医療等製品特例承認取得者の厚生労働大臣に対する申請、届出、報告、提出その他の手続は、選任外国製造再生医療等製品製造販売業者が行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

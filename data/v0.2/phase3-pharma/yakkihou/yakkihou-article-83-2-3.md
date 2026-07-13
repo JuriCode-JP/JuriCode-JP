@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-2-3-p1
+    type: tokusoku
+    text: 都道府県知事は、当該地域における薬局及び医薬品販売業の普及の状況その他の事情を勘案して特に必要があると認めるときは、第二十六条第四項及び第五項の規定にかかわらず、店舗ごとに、第八十三条第一項の規定により読み替えて適用される第三十六条の八第一項の規定により農林水産大臣が指定する医薬品以外の動物用医薬品の品目を指定して店舗販売業の許可を与えることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第五項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-2-3-p2
+    type: simple
+    text: 前項の規定により店舗販売業の許可を受けた者（次項において「動物用医薬品特例店舗販売業者」という。）に対する第二十七条並びに第三十六条の十第三項及び第四項の規定の適用については、第二十七条中「薬局医薬品」とあるのは「第八十三条の二の三第一項の規定により都道府県知事が指定した品目以外の医薬品」と、第三十六条の十第三項中「販売又は授与に従事する薬剤師又は登録販売者」とあるのは「販売又は授与に従事する者」と、同条第四項中「当該薬剤師又は登録販売者」とあるのは「当該販売又は授与に従事する者」とし、第二十八条から第二十九条の三まで、第三十六条の九、第三十六条の十第五項、第七十二条の二第一項及び第七十三条の規定は、適用しない。
+    modality: jogai
+    references:
+    - 次項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-2-3-p3
+    type: simple
+    text: 動物用医薬品特例店舗販売業者については、第三十七条第二項の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

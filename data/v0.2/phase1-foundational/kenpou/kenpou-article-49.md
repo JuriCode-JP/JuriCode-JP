@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十九条
 
-<!-- segment: simple id: kenpou-art-49-p1 -->
 両議院の議員は、法律の定めるところにより、国庫から相当額の歳費を受ける。

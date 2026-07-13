@@ -14,29 +14,79 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-9-p1-hashira
+    type: hashira
+    text: 普通地方公共団体が共同設置する委員会の委員で、普通地方公共団体の議会が選挙すべきものの選任については、規約で、次の各号のいずれの方法によるかを定めるものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-9-p1-kou-1
+    type: kou
+    text: 規約で定める普通地方公共団体の議会が選挙すること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-252-9-p1-kou-2
+    type: kou
+    text: 関係普通地方公共団体の長が協議により定めた共通の候補者について、すべての関係普通地方公共団体の議会が選挙すること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-9-p2-hashira
+    type: hashira
+    text: 普通地方公共団体が共同設置する委員会の委員（教育委員会にあつては、教育長及び委員）若しくは委員又は附属機関の委員その他の構成員で、普通地方公共団体の長が当該普通地方公共団体の議会の同意を得て選任すべきものの選任については、規約で、次の各号のいずれの方法によるかを定めるものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-9-p2-kou-1
+    type: kou
+    text: 規約で定める普通地方公共団体の長が当該普通地方公共団体の議会の同意を得て選任すること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-252-9-p2-kou-2
+    type: kou
+    text: 関係普通地方公共団体の長が協議により定めた共通の候補者について、それぞれの関係普通地方公共団体の長が当該普通地方公共団体の議会の同意を得た上、規約で定める普通地方公共団体の長が選任すること。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-9-p3-hashira
+    type: hashira
+    text: 普通地方公共団体が共同設置する委員会の委員若しくは委員又は附属機関の委員その他の構成員で、普通地方公共団体の長、委員会又は委員が選任すべきものの選任については、規約で、次の各号のいずれの方法によるかを定めるものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-9-p3-kou-1
+    type: kou
+    text: 規約で定める普通地方公共団体の長、委員会又は委員が選任すること。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-252-9-p3-kou-2
+    type: kou
+    text: 関係普通地方公共団体の長、委員会又は委員が協議により定めた者について、規約で定める普通地方公共団体の長、委員会又は委員がこれを選任すること。
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-9-p4
+    type: simple
+    text: 普通地方公共団体が共同設置する委員会の委員（教育委員会にあつては、教育長及び委員）若しくは委員又は附属機関の委員その他の構成員で第一項又は第二項の規定により選任するものの身分取扱いについては、規約で定める普通地方公共団体の議会が選挙し又は規約で定める普通地方公共団体の長が選任する場合においては、当該普通地方公共団体の職員とみなし、全ての関係普通地方公共団体の議会が選挙する場合においては、規約で定める普通地方公共団体の職員とみなす。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-9-p5
+    type: simple
+    text: 普通地方公共団体が共同設置する委員会の委員若しくは委員又は附属機関の委員その他の構成員で第三項の規定により選任するものの身分取扱いについては、これらの者を選任する普通地方公共団体の長、委員会又は委員の属する普通地方公共団体の職員とみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -61,13 +111,25 @@ parent_section:
 
 普通地方公共団体が共同設置する委員会の委員で、普通地方公共団体の議会が選挙すべきものの選任については、規約で、次の各号のいずれの方法によるかを定めるものとする。
 
+一　規約で定める普通地方公共団体の議会が選挙すること。
+
+二　関係普通地方公共団体の長が協議により定めた共通の候補者について、すべての関係普通地方公共団体の議会が選挙すること。
+
 ### 第二百五十二条の九第二項
 
 普通地方公共団体が共同設置する委員会の委員（教育委員会にあつては、教育長及び委員）若しくは委員又は附属機関の委員その他の構成員で、普通地方公共団体の長が当該普通地方公共団体の議会の同意を得て選任すべきものの選任については、規約で、次の各号のいずれの方法によるかを定めるものとする。
 
+一　規約で定める普通地方公共団体の長が当該普通地方公共団体の議会の同意を得て選任すること。
+
+二　関係普通地方公共団体の長が協議により定めた共通の候補者について、それぞれの関係普通地方公共団体の長が当該普通地方公共団体の議会の同意を得た上、規約で定める普通地方公共団体の長が選任すること。
+
 ### 第二百五十二条の九第三項
 
 普通地方公共団体が共同設置する委員会の委員若しくは委員又は附属機関の委員その他の構成員で、普通地方公共団体の長、委員会又は委員が選任すべきものの選任については、規約で、次の各号のいずれの方法によるかを定めるものとする。
+
+一　規約で定める普通地方公共団体の長、委員会又は委員が選任すること。
+
+二　関係普通地方公共団体の長、委員会又は委員が協議により定めた者について、規約で定める普通地方公共団体の長、委員会又は委員がこれを選任すること。
 
 ### 第二百五十二条の九第四項
 

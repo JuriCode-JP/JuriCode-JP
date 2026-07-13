@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-262-2-p1
+    type: simple
+    text: 境界標を損壊し、移動し、若しくは除去し、又はその他の方法により、土地の境界を認識することができないようにした者は、五年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

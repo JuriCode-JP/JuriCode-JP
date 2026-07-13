@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百八十八条
 
-<!-- segment: simple id: minpou-art-188-p1 -->
 占有者が占有物について行使する権利は、適法に有するものと推定する。

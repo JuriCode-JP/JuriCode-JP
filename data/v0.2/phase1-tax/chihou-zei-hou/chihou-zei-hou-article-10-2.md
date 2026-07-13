@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-10-2-p1
+    type: simple
+    text: 共有物、共同使用物、共同事業、共同事業により生じた物件又は共同行為に対する地方団体の徴収金は、納税者が連帯して納付する義務を負う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-10-2-p2
+    type: simple
+    text: 共有物、共同使用物、共同事業又は共同行為に係る地方団体の徴収金は、特別徴収義務者である共有者、共同使用者、共同事業者又は共同行為者が連帯して納入する義務を負う。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-10-2-p3
+    type: simple
+    text: 事業の法律上の経営者が単なる名義人であつて、当該経営者の親族その他当該経営者と特殊の関係のある個人で政令で定めるもの（以下本項において「親族等」という。）が事実上当該事業を経営していると認められる場合においては、前項の規定の適用については、当該経営者と当該親族等とは、共同事業者とみなす。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,27 +16,47 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-36-p1
+    type: simple
+    text: 理事長は、基金を代表し、その業務を総理する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-36-p2
+    type: simple
+    text: 理事は、定款の定めるところにより、基金を代表し、理事長を補佐して基金の業務を掌理し、理事長に事故があるときはその職務を代理し、理事長が欠員のときはその職務を行う。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-36-p3
+    type: simple
+    text: 監事は、基金の業務を監査する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-36-p4
+    type: simple
+    text: 監事は、監査の結果に基づき、必要があると認めるときは、理事長又は内閣総理大臣及び財務大臣に意見を提出することができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-36-p5
+    type: simple
+    text: 役員が第七十九条の三十一第一項第三号イ又はロに該当することとなつたときは、その職を失う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

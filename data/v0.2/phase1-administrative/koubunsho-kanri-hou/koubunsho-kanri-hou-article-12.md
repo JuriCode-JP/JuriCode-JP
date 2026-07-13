@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: koubunsho-kanri-hou-art-12-p1 -->
 独立行政法人等は、法人文書ファイル管理簿の記載状況その他の法人文書の管理の状況について、毎年度、内閣総理大臣に報告しなければならない。
 
 ### 第十二条第二項
 
-<!-- segment: simple id: koubunsho-kanri-hou-art-12-p2 -->
 内閣総理大臣は、毎年度、前項の報告を取りまとめ、その概要を公表しなければならない。

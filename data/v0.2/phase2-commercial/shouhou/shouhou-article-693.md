@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六百九十三条
 
-<!-- segment: simple id: shouhou-art-693-p1 -->
 船舶共有者は、その持分の価格に応じ、船舶の利用に関する費用を負担しなければならない。

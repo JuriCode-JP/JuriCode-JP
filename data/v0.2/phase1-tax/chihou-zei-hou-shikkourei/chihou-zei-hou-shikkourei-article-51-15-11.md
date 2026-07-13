@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-15-11-p1
+    type: simple
+    text: 法第三百四十八条第二項第四十五号に規定する政令で定めるものは、ダムに係る河川の河川管理者（河川法（昭和三十九年法律第百六十七号）第七条に規定する河川管理者をいう。）との協議に基づき設置された洪水吐ゲート及び放流のための管（これらの設備と一体となつてその効用を全うする施設及び工作物を含む。）であつて、洪水調節に資するものであることについて総務省令で定めるところにより証明がされたもの（次項において「洪水吐ゲート等」という。）とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-15-11-p2
+    type: simple
+    text: 法第三百四十八条第二項第四十五号に規定する政令で定める部分は、洪水吐ゲート等のうち、当該洪水吐ゲート等の価格に一から当該洪水吐ゲート等に係る水利使用者（河川法第五十三条第一項に規定する水利使用者をいう。）の取水量の当該洪水吐ゲート等に係る放流量に対する割合を控除した割合を乗じて得た価格に相当する部分とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

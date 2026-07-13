@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-249-5-p1
+    type: simple
+    text: 法第七十五条の五の十一第一項の督促状は、課徴金の納付の督促を受ける者に送達しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-3-p1
+    type: simple
+    text: 任命権者は、高年齢として条例で定める年齢に達した職員が申請した場合において、公務の運営に支障がないと認めるときは、条例で定めるところにより、当該職員が当該条例で定める年齢に達した日以後の日で当該申請において示した日から当該職員に係る定年退職日（第二十八条の六第一項に規定する定年退職日をいう。）までの期間中、一週間の勤務時間の一部について勤務しないこと（次項において「高齢者部分休業」という。）を承認することができる。
+    modality: kanou_kenri
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-3-p2
+    type: junyou
+    text: 前条第二項から第四項までの規定は、高齢者部分休業について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

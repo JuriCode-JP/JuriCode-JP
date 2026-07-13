@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百三十七条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-137-p1 -->
 当該職員は、臨検、捜索、差押え又は記録命令付差押えをするため必要があるときは、錠をはずし、封を開き、その他必要な処分をすることができる。
 
 ### 第百三十七条第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-137-p2 -->
 前項の処分は、領置物件、差押物件又は記録命令付差押物件についても、することができる。

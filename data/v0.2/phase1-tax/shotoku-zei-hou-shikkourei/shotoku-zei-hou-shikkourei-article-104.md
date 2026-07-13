@@ -23,6 +23,21 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前条
+  - id: shotoku-zei-hou-shikkourei-art-104-p1-kou-1
+    type: kou
+    text: 当該資産が災害により著しく損傷したこと。
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-104-p1-kou-2
+    type: kou
+    text: 当該資産が著しく陳腐化したこと。
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-104-p1-kou-3
+    type: kou
+    text: 前二号に準ずる特別の事実
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -47,5 +62,10 @@ parent_section:
 
 ### 第百四条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-104-p1-hashira -->
 居住者の有する棚卸資産につき次に掲げる事実が生じた場合には、その事実の生じた日の属する年以後の各年における当該資産の第九十九条第一項（棚卸資産の評価の方法）又は第九十九条の二第一項（棚卸資産の特別な評価の方法）の規定による評価額の計算については、その年十二月三十一日における当該資産の価額をもつて、前条第一項に規定する取得価額とすることができる。
+
+一　当該資産が災害により著しく損傷したこと。
+
+二　当該資産が著しく陳腐化したこと。
+
+三　前二号に準ずる特別の事実

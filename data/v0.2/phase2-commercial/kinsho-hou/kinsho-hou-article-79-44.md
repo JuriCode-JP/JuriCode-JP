@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-44-p1-honbun
+    type: honbun
+    text: 総会員の五分の一以上から会議の目的である事項を示して請求があつたときは、理事は、臨時総会を招集しなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-79-44-p1-tadashi
+    type: tadashi
+    text: ただし、総会員の五分の一の割合については、定款でこれと異なる割合を定めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

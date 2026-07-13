@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百三条
 
-<!-- segment: simple id: keihou-art-203-p1 -->
 第百九十九条及び前条の罪の未遂は、罰する。

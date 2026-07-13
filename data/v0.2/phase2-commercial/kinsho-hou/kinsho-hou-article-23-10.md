@@ -16,27 +16,59 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-10-p1-zen
+    type: zen_dan
+    text: 内閣総理大臣は、発行登録書（当該発行登録書に係る参照書類を含む。）及びその添付書類、第二十三条の四若しくは前条第一項の規定による訂正発行登録書（当該訂正発行登録書に係る参照書類を含む。）又は発行登録追補書類（当該発行登録追補書類に係る参照書類を含む。）及びその添付書類のうちに重要な事項について虚偽の記載があり、又は記載すべき重要な事項若しくは誤解を生じさせないために必要な重要な事実の記載が欠けていることを発見したときは、いつでも、当該書類の提出者に対し、訂正発行登録書の提出を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: kinsho-hou-art-23-10-p1-kou
+    type: kou_dan
+    text: この場合においては、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-23-10-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-10-p2
+    type: junyou
+    text: 前条第二項から第五項までの規定は、発行登録が効力を生ずる日前に前項の規定による訂正発行登録書の提出命令があつた場合について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-10-p3
+    type: simple
+    text: 内閣総理大臣は、発行登録が効力を生じた日以後に第一項の規定による処分を行つた場合において必要があると認めるときは、当該発行登録の効力の停止を命ずることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-10-p4
+    type: simple
+    text: 前項の規定による停止命令があつた場合において、第一項の規定による訂正発行登録書が提出され、かつ、内閣総理大臣がこれを適当と認めたときは、内閣総理大臣は、前項の規定による停止命令を解除するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-10-p5
+    type: junyou
+    text: 前各項の規定は、内閣総理大臣が、第一項の規定により提出される訂正発行登録書（当該訂正発行登録書に係る参照書類を含む。）のうちに重要な事項について虚偽の記載があり、又は記載すべき重要な事項若しくは誤解を生じさせないために必要な重要な事実の記載が欠けていることを発見した場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

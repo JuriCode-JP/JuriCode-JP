@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -70,20 +70,16 @@ parent_section:
 
 ### 第百八十三条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-183-p1 -->
 選挙管理委員の任期は、四年とする。但し、後任者が就任する時まで在任する。
 
 ### 第百八十三条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-183-p2 -->
 補欠委員の任期は、前任者の残任期間とする。
 
 ### 第百八十三条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-183-p3 -->
 補充員の任期は、委員の任期による。
 
 ### 第百八十三条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-183-p4 -->
 委員及び補充員は、その選挙に関し第百十八条第五項の規定による裁決又は判決が確定するまでは、その職を失わない。

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八百三十八条
 
-<!-- segment: simple id: kaisha-hou-art-838-p1 -->
 会社の組織に関する訴えに係る請求を認容する確定判決は、第三者に対してもその効力を有する。

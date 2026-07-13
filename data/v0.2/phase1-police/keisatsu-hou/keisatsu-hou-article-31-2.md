@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-31-2-p1
+    type: simple
+    text: 管区警察局の所掌事務を分掌させるため、所要の地に、地方機関として、警察支局を置くことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-31-2-p2
+    type: simple
+    text: 警察支局に、支局長を置く。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-31-2-p3
+    type: simple
+    text: 警察支局の名称、位置及び管轄区域は、政令で定める。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-31-2-p4
+    type: simple
+    text: 警察支局の内部組織は、内閣府令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

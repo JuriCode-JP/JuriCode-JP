@@ -16,22 +16,47 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-14-p1
+    type: simple
+    text: 当該徴税吏員は、人の住居又は人の看守する邸宅若しくは建造物その他の場所で臨検、捜索、差押え又は記録命令付差押えをするときは、その所有者若しくは管理者（これらの者の代表者、代理人その他これらの者に代わるべき者を含む。）又はこれらの者の使用人若しくは同居の親族で成年に達した者を立ち会わせなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-14-p2
+    type: simple
+    text: 当該徴税吏員は、前項の場合において、同項に規定する者を立ち会わせることができないときは、その隣人で成年に達した者又はその地の警察官若しくは地方公共団体（当該徴税吏員の所属する地方団体を除く。）の職員を立ち会わせなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-14-p3
+    type: simple
+    text: 当該徴税吏員は、第二十二条の七の規定により臨検、捜索又は差押えをする場合において、急速を要するときは、前二項の規定によることを要しない。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-14-p4-honbun
+    type: honbun
+    text: 当該徴税吏員は、女子の身体について捜索をするときは、成年の女子を立ち会わせなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-22-14-p4-tadashi
+    type: tadashi
+    text: ただし、急速を要する場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

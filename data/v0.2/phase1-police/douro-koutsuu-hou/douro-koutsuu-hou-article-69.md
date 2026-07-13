@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十九条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-69-p1 -->
 削除

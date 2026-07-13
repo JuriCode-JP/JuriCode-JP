@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-8-p1
+    type: simple
+    text: 家庭裁判所は、必要があると認めるときは、被補助人、その親族若しくは補助人の請求により又は職権で、補助監督人を選任することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-8-p2
+    type: junyou
+    text: 第六百四十四条、第六百五十四条、第六百五十五条、第八百四十三条第四項、第八百四十四条、第八百四十六条、第八百四十七条、第八百五十条、第八百五十一条、第八百五十九条の二、第八百五十九条の三、第八百六十一条第二項及び第八百六十二条の規定は、補助監督人について準用する。この場合において、第八百五十一条第四号中「被後見人を代表する」とあるのは、「被補助人を代表し、又は被補助人がこれをすることに同意する」と読み替えるものとする。
+    modality: gimu
+    applies_provisions:
+    - 第八百六十二条
 cases: []
 amendments: []
 tags:

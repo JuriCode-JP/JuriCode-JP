@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-11-2-p1
+    type: simple
+    text: 送達を受けるべき場所の届出及び送達受取人の届出は、書面でしなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-11-2-p2
+    type: simple
+    text: 前項の届出は、できる限り、答弁書に記載してしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-11-2-p3
+    type: simple
+    text: 送達を受けるべき場所を届け出る書面には、届出場所が就業場所であることその他の被審人又はその代理人と届出場所との関係を明らかにする事項を記載しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-11-2-p4
+    type: simple
+    text: 被審人又はその代理人は、送達を受けるべき場所として届け出た場所又は送達受取人として届け出た者を変更する届出をすることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-kachoukin-furei-art-11-2-p5
+    type: junyou
+    text: 第一項及び第三項の規定は、前項に規定する変更の届出について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

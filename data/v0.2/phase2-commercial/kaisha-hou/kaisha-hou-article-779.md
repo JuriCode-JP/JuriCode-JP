@@ -22,7 +22,7 @@ paragraphs:
     text: 組織変更をする株式会社の債権者は、当該株式会社に対し、組織変更について異議を述べることができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -30,6 +30,21 @@ paragraphs:
     type: hashira
     text: 組織変更をする株式会社は、次に掲げる事項を官報に公告し、かつ、知れている債権者には、各別にこれを催告しなければならない。ただし、第三号の期間は、一箇月を下ることができない。
     modality: kanou_negative
+  - id: kaisha-hou-art-779-p2-kou-1
+    type: kou
+    text: 組織変更をする旨
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-779-p2-kou-2
+    type: kou
+    text: 組織変更をする株式会社の計算書類（第四百三十五条第二項に規定する計算書類をいう。以下この章において同じ。）に関する事項として法務省令で定めるもの
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-779-p2-kou-3
+    type: kou
+    text: 債権者が一定の期間内に異議を述べることができる旨
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -43,8 +58,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
@@ -89,26 +104,26 @@ parent_section:
 
 ### 第七百七十九条第一項
 
-<!-- segment: simple id: kaisha-hou-art-779-p1 -->
 組織変更をする株式会社の債権者は、当該株式会社に対し、組織変更について異議を述べることができる。
 
 ### 第七百七十九条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-779-p2-hashira -->
 組織変更をする株式会社は、次に掲げる事項を官報に公告し、かつ、知れている債権者には、各別にこれを催告しなければならない。ただし、第三号の期間は、一箇月を下ることができない。
+
+一　組織変更をする旨
+
+二　組織変更をする株式会社の計算書類（第四百三十五条第二項に規定する計算書類をいう。以下この章において同じ。）に関する事項として法務省令で定めるもの
+
+三　債権者が一定の期間内に異議を述べることができる旨
 
 ### 第七百七十九条第三項
 
-<!-- segment: tokusoku id: kaisha-hou-art-779-p3 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、組織変更をする株式会社が同項の規定による公告を、官報のほか、第九百三十九条第一項の規定による定款の定めに従い、同項第二号又は第三号に掲げる公告方法によりするときは、前項の規定による各別の催告は、することを要しない。
 
 ### 第七百七十九条第四項
 
-<!-- segment: simple id: kaisha-hou-art-779-p4 -->
-<!-- segment: honbun id: kaisha-hou-art-779-p5-honbun -->
 債権者が第二項第三号の期間内に異議を述べなかったときは、当該債権者は、当該組織変更について承認をしたものとみなす。
 
 ### 第七百七十九条第五項
 
-債権者が第二項第三号の期間内に異議を述べたときは、組織変更をする株式会社は、当該債権者に対し、弁済し、若しくは相当の担保を提供し、又は当該債権者に弁済を受けさせることを目的として信託会社等に相当の財産を信託しなければならない。<!-- segment: tadashi id: kaisha-hou-art-779-p5-tadashi -->
-ただし、当該組織変更をしても当該債権者を害するおそれがないときは、この限りでない。
+債権者が第二項第三号の期間内に異議を述べたときは、組織変更をする株式会社は、当該債権者に対し、弁済し、若しくは相当の担保を提供し、又は当該債権者に弁済を受けさせることを目的として信託会社等に相当の財産を信託しなければならない。ただし、当該組織変更をしても当該債権者を害するおそれがないときは、この限りでない。

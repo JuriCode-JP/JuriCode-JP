@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八百七十一条
 
-<!-- segment: simple id: minpou-art-871-p1 -->
 後見の計算は、後見監督人があるときは、その立会いをもってしなければならない。

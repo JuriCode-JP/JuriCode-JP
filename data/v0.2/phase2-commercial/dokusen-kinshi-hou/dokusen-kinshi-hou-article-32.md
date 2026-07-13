@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三十二条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-32-p1 -->
 前条第一号又は第三号から第六号までの場合においては、内閣総理大臣は、その委員長又は委員を罷免しなければならない。

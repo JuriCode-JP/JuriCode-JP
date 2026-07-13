@@ -43,5 +43,4 @@ parent_section:
 
 ### 第三百七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-307-p1 -->
 証拠物中書面の意義が証拠となるものの取調をするについては、前条の規定による外、第三百五条の規定による。

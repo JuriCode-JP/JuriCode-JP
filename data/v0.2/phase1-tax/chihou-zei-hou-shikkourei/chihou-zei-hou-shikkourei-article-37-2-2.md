@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-2-2-p1
+    type: simple
+    text: 法第七十三条の四第一項第八号に規定する病院及び診療所の用に供する不動産で政令で定めるものは、その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する不動産以外の不動産とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-6-p1
+    type: simple
+    text: 利子割の税率は、百分の五とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-6-p2
+    type: simple
+    text: 租税特別措置法第四条の二第九項又は第四条の三第十項の規定の適用を受ける利子、収益の分配又は差益に対する利子割の税率は、百分の五とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-6-p3
+    type: simple
+    text: 前項に定めるもののほか、同項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

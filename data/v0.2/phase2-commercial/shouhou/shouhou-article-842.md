@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 次に掲げる債権を有する者は、船舶及びその属具について先取特権を有する。
     modality: unspecified
+  - id: shouhou-art-842-p1-kou-1
+    type: kou
+    text: 船舶の運航に直接関連して生じた人の生命又は身体の侵害による損害賠償請求権
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-842-p1-kou-2
+    type: kou
+    text: 救助料に係る債権又は船舶の負担に属する共同海損の分担に基づく債権
+    modality: unspecified
+    item_number: 2
+  - id: shouhou-art-842-p1-kou-3
+    type: kou
+    text: 国税徴収法（昭和三十四年法律第百四十七号）若しくは国税徴収の例によって徴収することのできる請求権であって船舶の入港、港湾の利用その他船舶の航海に関して生じたもの又は水先料若しくは引き船料に係る債権
+    modality: unspecified
+    item_number: 3
+  - id: shouhou-art-842-p1-kou-4
+    type: kou
+    text: 航海を継続するために必要な費用に係る債権
+    modality: unspecified
+    item_number: 4
+  - id: shouhou-art-842-p1-kou-5
+    type: kou
+    text: 雇用契約によって生じた船長その他の船員の債権
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -39,5 +64,14 @@ parent_section:
 
 ### 第八百四十二条
 
-<!-- segment: hashira id: shouhou-art-842-p1-hashira -->
 次に掲げる債権を有する者は、船舶及びその属具について先取特権を有する。
+
+一　船舶の運航に直接関連して生じた人の生命又は身体の侵害による損害賠償請求権
+
+二　救助料に係る債権又は船舶の負担に属する共同海損の分担に基づく債権
+
+三　国税徴収法（昭和三十四年法律第百四十七号）若しくは国税徴収の例によって徴収することのできる請求権であって船舶の入港、港湾の利用その他船舶の航海に関して生じたもの又は水先料若しくは引き船料に係る債権
+
+四　航海を継続するために必要な費用に係る債権
+
+五　雇用契約によって生じた船長その他の船員の債権

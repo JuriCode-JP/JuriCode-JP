@@ -16,52 +16,107 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p1
+    type: simple
+    text: 普通地方公共団体相互の間又は普通地方公共団体の機関相互の間に紛争があるときは、この法律に特別の定めがあるものを除くほか、都道府県又は都道府県の機関が当事者となるものにあつては総務大臣、その他のものにあつては都道府県知事は、当事者の文書による申請に基づき又は職権により、紛争の解決のため、前条第二項の規定により自治紛争処理委員を任命し、その調停に付することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p2
+    type: simple
+    text: 当事者の申請に基づき開始された調停においては、当事者は、総務大臣又は都道府県知事の同意を得て、当該申請を取り下げることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p3
+    type: simple
+    text: 自治紛争処理委員は、調停案を作成して、これを当事者に示し、その受諾を勧告するとともに、理由を付してその要旨を公表することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p4
+    type: simple
+    text: 自治紛争処理委員は、前項の規定により調停案を当事者に示し、その受諾を勧告したときは、直ちに調停案の写しを添えてその旨及び調停の経過を総務大臣又は都道府県知事に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p5
+    type: simple
+    text: 自治紛争処理委員は、調停による解決の見込みがないと認めるときは、総務大臣又は都道府県知事の同意を得て、調停を打ち切り、事件の要点及び調停の経過を公表することができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p6
+    type: simple
+    text: 自治紛争処理委員は、前項の規定により調停を打ち切つたときは、その旨を当事者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p7-zen
+    type: zen_dan
+    text: 第一項の調停は、当事者のすべてから、調停案を受諾した旨を記載した文書が総務大臣又は都道府県知事に提出されたときに成立するものとする。
+    modality: gimu
+  - id: chihou-jichi-hou-art-251-2-p7-kou
+    type: kou_dan
+    text: この場合においては、総務大臣又は都道府県知事は、直ちにその旨及び調停の要旨を公表するとともに、当事者に調停が成立した旨を通知しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-251-2-p7-zen
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p8
+    type: simple
+    text: 総務大臣又は都道府県知事は、前項の規定により当事者から文書の提出があつたときは、その旨を自治紛争処理委員に通知するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p9
+    type: simple
+    text: 自治紛争処理委員は、第三項に規定する調停案を作成するため必要があると認めるときは、当事者及び関係人の出頭及び陳述を求め、又は当事者及び関係人並びに紛争に係る事件に関係のある者に対し、紛争の調停のため必要な記録の提出を求めることができる。
+    modality: kanou_kenri
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-251-2-p10
+    type: simple
+    text: 第三項の規定による調停案の作成及びその要旨の公表についての決定、第五項の規定による調停の打切りについての決定並びに事件の要点及び調停の経過の公表についての決定並びに前項の規定による出頭、陳述及び記録の提出の求めについての決定は、自治紛争処理委員の合議によるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

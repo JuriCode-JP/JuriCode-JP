@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-5-p1
+    type: simple
+    text: 贈与税については、課税価格から六十万円を控除する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

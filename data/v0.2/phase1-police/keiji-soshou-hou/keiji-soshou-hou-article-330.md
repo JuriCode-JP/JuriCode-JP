@@ -46,5 +46,4 @@ parent_section:
 
 ### 第三百三十条
 
-<!-- segment: tokusoku id: keiji-soshou-hou-art-330-p1 override_flag: true override_target: 前条 -->
 高等裁判所は、その特別権限に属する事件として公訴の提起があつた場合において、その事件が下級の裁判所の管轄に属するものと認めるときは、前条の規定にかかわらず、決定で管轄裁判所にこれを移送しなければならない。

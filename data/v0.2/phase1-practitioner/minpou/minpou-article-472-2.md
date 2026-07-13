@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-472-2-p1
+    type: simple
+    text: 引受人は、免責的債務引受により負担した自己の債務について、その効力が生じた時に債務者が主張することができた抗弁をもって債権者に対抗することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-472-2-p2
+    type: simple
+    text: 債務者が債権者に対して取消権又は解除権を有するときは、引受人は、免責的債務引受がなければこれらの権利の行使によって債務者がその債務を免れることができた限度において、債権者に対して債務の履行を拒むことができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

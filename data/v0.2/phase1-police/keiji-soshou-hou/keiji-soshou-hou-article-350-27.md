@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-27-p1-honbun
+    type: honbun
+    text: 第三百五十条の二十二の決定があつた事件の証拠については、第三百二十条第一項の規定は、これを適用しない。
+    modality: jogai
+  - id: keiji-soshou-hou-art-350-27-p1-tadashi
+    type: tadashi
+    text: ただし、検察官、被告人又は弁護人が証拠とすることに異議を述べたものについては、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

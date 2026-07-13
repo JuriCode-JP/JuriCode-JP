@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 施行令第一条の十第九項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-1-4-p1-kou-1
+    type: kou
+    text: 各信託の信託財産の種類及び課税価格に算入すべき価額
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-1-4-p1-kou-2
+    type: kou
+    text: 各信託の信託財産について法第二十一条の八の規定の適用がある場合には、同条の規定により控除すべき金額
+    modality: unspecified
+    item_number: 2
+  - id: souzoku-zei-hou-shikoukisoku-art-1-4-p1-kou-3
+    type: kou
+    text: 各信託に係る施行令第一条の十第八項に規定する信託財産責任負担債務の額
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +45,16 @@ paragraphs:
     type: hashira
     text: 施行令第一条の十第十項において準用する同条第九項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: souzoku-zei-hou-shikoukisoku-art-1-4-p2-kou-1
+    type: kou
+    text: 前項第一号及び第三号に掲げる事項
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikoukisoku-art-1-4-p2-kou-2
+    type: kou
+    text: 各信託の信託財産について法第二十条の二の規定の適用がある場合には、同条の規定により控除すべき金額
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,10 +68,18 @@ tags:
 
 ### 第一条の四第一項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-1-4-p1-hashira -->
 施行令第一条の十第九項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　各信託の信託財産の種類及び課税価格に算入すべき価額
+
+二　各信託の信託財産について法第二十一条の八の規定の適用がある場合には、同条の規定により控除すべき金額
+
+三　各信託に係る施行令第一条の十第八項に規定する信託財産責任負担債務の額
 
 ### 第一条の四第二項
 
-<!-- segment: hashira id: souzoku-zei-hou-shikoukisoku-art-1-4-p2-hashira -->
 施行令第一条の十第十項において準用する同条第九項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　前項第一号及び第三号に掲げる事項
+
+二　各信託の信託財産について法第二十条の二の規定の適用がある場合には、同条の規定により控除すべき金額

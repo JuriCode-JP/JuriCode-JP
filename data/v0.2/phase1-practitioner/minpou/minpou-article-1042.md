@@ -23,6 +23,16 @@ paragraphs:
     modality: unspecified
     references:
     - 次条
+  - id: minpou-art-1042-p1-kou-1
+    type: kou
+    text: 直系尊属のみが相続人である場合　三分の一
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-1042-p1-kou-2
+    type: kou
+    text: 前号に掲げる場合以外の場合　二分の一
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +62,12 @@ parent_section:
 
 ### 第千四十二条第一項
 
-<!-- segment: hashira id: minpou-art-1042-p1-hashira -->
 兄弟姉妹以外の相続人は、遺留分として、次条第一項に規定する遺留分を算定するための財産の価額に、次の各号に掲げる区分に応じてそれぞれ当該各号に定める割合を乗じた額を受ける。
+
+一　直系尊属のみが相続人である場合　三分の一
+
+二　前号に掲げる場合以外の場合　二分の一
 
 ### 第千四十二条第二項
 
-<!-- segment: simple id: minpou-art-1042-p2 -->
 相続人が数人ある場合には、前項各号に定める割合は、これらに第九百条及び第九百一条の規定により算定したその各自の相続分を乗じた割合とする。

@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-9-p1
+    type: simple
+    text: 外国法人の恒久的施設と第百三十八条第一項第一号（国内源泉所得）に規定する本店等との間で同項第三号又は第五号に掲げる国内源泉所得を生ずべき資産の当該恒久的施設による取得又は譲渡に相当する内部取引（同項第一号に規定する内部取引をいう。以下この項において同じ。）があつた場合には、当該内部取引は当該資産の当該内部取引の直前の帳簿価額に相当するものとして政令で定める金額により行われたものとして、当該外国法人の各事業年度の恒久的施設帰属所得に係る所得の金額を計算する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-9-p2
+    type: simple
+    text: 前項の規定の適用がある場合の外国法人の恒久的施設における資産の取得価額その他同項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

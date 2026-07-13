@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-46-p1
+    type: simple
+    text: 基金の職員は、理事長が任命する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

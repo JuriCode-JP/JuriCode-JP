@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -50,10 +50,8 @@ parent_section:
 
 ### 第七百二十六条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-726-p1 -->
 納税者又は特別徴収義務者が納期限（更正又は決定があつた場合においては、不足金額の納期限をいう。以下水利地益税等について同様とする。）までに水利地益税等に係る地方団体の徴収金を完納しない場合においては、徴税吏員は、納期限後二十日以内に、督促状を発しなければならない。但し、繰上徴収をする場合においては、この限りでない。
 
 ### 第七百二十六条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-726-p2 -->
 特別の事情がある地方団体においては、当該地方団体の条例で前項に規定する期間と異なる期間を定めることができる。

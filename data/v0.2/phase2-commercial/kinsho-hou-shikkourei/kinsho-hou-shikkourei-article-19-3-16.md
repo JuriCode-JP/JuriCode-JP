@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-3-16-p1
+    type: simple
+    text: 自主規制法人が法第八十五条第一項の認可により金融商品取引所から委託を受けて当該金融商品取引所に係る自主規制業務を行う場合の監督について、法第百五十三条の四において法の規定を準用する場合における同条の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十三条
 
-<!-- segment: simple id: keihou-art-13-p1 -->
 削除

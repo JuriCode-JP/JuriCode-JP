@@ -48,10 +48,8 @@ parent_section:
 
 ### 第五十四条の二十五第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-54-25-p1 -->
 法第五百八十六条第二項第十八号に規定する政令で定める家屋は、第五十二条の十一第一項に規定する家屋とする。
 
 ### 第五十四条の二十五第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-54-25-p2 -->
 法第五百八十六条第二項第十八号に規定する政令で定める面積は、五百平方メートルとする。

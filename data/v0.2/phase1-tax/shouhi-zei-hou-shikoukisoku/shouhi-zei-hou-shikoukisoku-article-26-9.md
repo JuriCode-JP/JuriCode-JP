@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第七十条の十四第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p1-kou-1
+    type: kou
+    text: 届出者の氏名又は名称（代表者の氏名を含む。以下この号、次項第一号及び第三項第一号において同じ。）、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p1-kou-2
+    type: kou
+    text: 届出者に係る法第五十七条の六第一項に規定する任意組合等の名称及び当該任意組合等の事業に係る事務所等の所在地
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p1-kou-3
+    type: kou
+    text: 当該任意組合等の全ての組合員の氏名又は名称及び登録番号
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p1-kou-4
+    type: kou
+    text: 当該任意組合等の事業の内容及び存続期間
+    modality: unspecified
+    item_number: 4
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p1-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +55,26 @@ paragraphs:
     type: hashira
     text: 令第七十条の十四第三項の規定による届出書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p2-kou-1
+    type: kou
+    text: 届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p2-kou-2
+    type: kou
+    text: 届出者に係る法第五十七条の六第一項に規定する任意組合等の名称及び当該任意組合等の事業に係る事務所等の所在地
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p2-kou-3
+    type: kou
+    text: 変更の内容
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p2-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: true
@@ -39,6 +84,26 @@ paragraphs:
     type: hashira
     text: 令第七十条の十四第四項の規定による届出書には、次に掲げる事項を記載しなければならない。
     modality: gimu
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p3-kou-1
+    type: kou
+    text: 届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p3-kou-2
+    type: kou
+    text: 届出者に係る法第五十七条の六第一項に規定する任意組合等の名称及び当該任意組合等の事業に係る事務所等の所在地
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p3-kou-3
+    type: kou
+    text: 当該任意組合等の清算が結了した年月日
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-shikoukisoku-art-26-9-p3-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -55,15 +120,38 @@ parent_section:
 
 ### 第二十六条の九第一項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-26-9-p1-hashira -->
 令第七十条の十四第二項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　届出者の氏名又は名称（代表者の氏名を含む。以下この号、次項第一号及び第三項第一号において同じ。）、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+二　届出者に係る法第五十七条の六第一項に規定する任意組合等の名称及び当該任意組合等の事業に係る事務所等の所在地
+
+三　当該任意組合等の全ての組合員の氏名又は名称及び登録番号
+
+四　当該任意組合等の事業の内容及び存続期間
+
+五　その他参考となるべき事項
 
 ### 第二十六条の九第二項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-26-9-p2-hashira -->
 令第七十条の十四第三項の規定による届出書には、次に掲げる事項を記載しなければならない。
+
+一　届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+二　届出者に係る法第五十七条の六第一項に規定する任意組合等の名称及び当該任意組合等の事業に係る事務所等の所在地
+
+三　変更の内容
+
+四　その他参考となるべき事項
 
 ### 第二十六条の九第三項
 
-<!-- segment: hashira id: shouhi-zei-hou-shikoukisoku-art-26-9-p3-hashira -->
 令第七十条の十四第四項の規定による届出書には、次に掲げる事項を記載しなければならない。
+
+一　届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+
+二　届出者に係る法第五十七条の六第一項に規定する任意組合等の名称及び当該任意組合等の事業に係る事務所等の所在地
+
+三　当該任意組合等の清算が結了した年月日
+
+四　その他参考となるべき事項

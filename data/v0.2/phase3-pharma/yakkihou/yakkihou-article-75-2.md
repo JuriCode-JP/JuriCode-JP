@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-2-p1
+    type: simple
+    text: 厚生労働大臣は、医薬品、医薬部外品、化粧品又は医療機器の製造業者について、この法律その他薬事に関する法令で政令で定めるもの若しくはこれに基づく処分に違反する行為があつたとき、不正の手段により第十三条の二の二第一項若しくは第二十三条の二の三第一項の登録を受けたとき、又は当該者（当該者が法人であるときは、その薬事に関する業務に責任を有する役員を含む。）が第十三条の二の二第五項において準用する第五条（第三号に係る部分に限る。）若しくは第二十三条の二の三第四項において準用する第五条（第三号に係る部分に限る。）の規定に該当するに至つたときは、その登録を取り消し、又は期間を定めてその業務の全部若しくは一部の停止を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-2-p2
+    type: simple
+    text: 都道府県知事は、医薬品、医薬部外品、化粧品又は医療機器の製造業者について前項の処分が行われる必要があると認めるときは、その旨を厚生労働大臣に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

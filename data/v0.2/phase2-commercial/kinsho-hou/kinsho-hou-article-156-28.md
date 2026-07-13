@@ -16,17 +16,44 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-28-p1
+    type: simple
+    text: 証券金融会社は、第百五十六条の二十四第一項に規定する業務の内容若しくは方法を変更しようとするとき、又は資本金の額を減少しようとするときは、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-28-p2
+    type: simple
+    text: 証券金融会社は、金銭若しくは有価証券の貸付け（第百五十六条の二十四第一項に規定する業務に係るものに限る。）の条件を決定若しくは変更しようとするとき、資本金の額を増加しようとするとき、又は商号を変更しようとするときは、内閣府令で定めるところにより、内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-28-p3-hashira
+    type: hashira
+    text: 証券金融会社は、次の各号のいずれかに該当することとなつたときは、内閣府令で定めるところにより、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+  - id: kinsho-hou-art-156-28-p3-kou-1
+    type: kou
+    text: 第百五十六条の二十四第二項第二号又は第三号に掲げる事項に変更があつたとき。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-156-28-p3-kou-2
+    type: kou
+    text: 前条第二項の届出に係る業務を廃止したとき。
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-156-28-p3-kou-3
+    type: kou
+    text: 前条第三項の承認に係る業務を廃止したとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -52,3 +79,9 @@ parent_section:
 ### 第百五十六条の二十八第三項
 
 証券金融会社は、次の各号のいずれかに該当することとなつたときは、内閣府令で定めるところにより、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+
+一　第百五十六条の二十四第二項第二号又は第三号に掲げる事項に変更があつたとき。
+
+二　前条第二項の届出に係る業務を廃止したとき。
+
+三　前条第三項の承認に係る業務を廃止したとき。

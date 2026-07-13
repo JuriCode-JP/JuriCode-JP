@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百三条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-103-p1 -->
 普通地方公共団体の議会は、議員の中から議長及び副議長一人を選挙しなければならない。
 
 ### 第百三条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-103-p2 -->
 議長及び副議長の任期は、議員の任期による。

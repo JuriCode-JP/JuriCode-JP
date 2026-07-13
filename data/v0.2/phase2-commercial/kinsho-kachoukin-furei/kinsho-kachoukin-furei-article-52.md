@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 書類その他の物件（以下この条において「書類等」という。）の提出命令の申立ては、次に掲げる事項を明らかにして、書面でしなければならない。
     modality: gimu
+  - id: kinsho-kachoukin-furei-art-52-p1-kou-1
+    type: kou
+    text: 書類等の表示
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-52-p1-kou-2
+    type: kou
+    text: 書類等の趣旨
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-kachoukin-furei-art-52-p1-kou-3
+    type: kou
+    text: 書類等の所持者
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-kachoukin-furei-art-52-p1-kou-4
+    type: kou
+    text: 証明すべき事実
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -70,20 +90,24 @@ parent_section:
 
 ### 第五十二条第一項
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-52-p1-hashira -->
 書類その他の物件（以下この条において「書類等」という。）の提出命令の申立ては、次に掲げる事項を明らかにして、書面でしなければならない。
+
+一　書類等の表示
+
+二　書類等の趣旨
+
+三　書類等の所持者
+
+四　証明すべき事実
 
 ### 第五十二条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-52-p2 -->
 相手方は、前項の申立てについて意見があるときは、意見を記載した書面を審判官に提出しなければならない。
 
 ### 第五十二条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-52-p3 -->
 審判官は、書類等の提出命令の申立てを理由があると認めるときは、書類等の所持者に対し、その提出を命ずる。
 
 ### 第五十二条第四項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-52-p4 -->
 審判官は、第三者に対して書類等の提出を命じようとする場合には、その第三者の意見を聴かなければならない。

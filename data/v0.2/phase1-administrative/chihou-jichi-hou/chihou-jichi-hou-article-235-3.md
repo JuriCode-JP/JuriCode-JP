@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-235-3-p1
+    type: simple
+    text: 普通地方公共団体の長は、歳出予算内の支出をするため、一時借入金を借り入れることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-235-3-p2
+    type: simple
+    text: 前項の規定による一時借入金の借入れの最高額は、予算でこれを定めなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-235-3-p3
+    type: simple
+    text: 第一項の規定による一時借入金は、その会計年度の歳入をもつて償還しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

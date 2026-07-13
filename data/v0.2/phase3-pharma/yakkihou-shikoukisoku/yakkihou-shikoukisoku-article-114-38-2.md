@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-38-2-p1
+    type: simple
+    text: 令第三十七条の三十一第一項第一号の厚生労働省令で定める調査は、法第二十三条の二の八第一項の規定による法第二十三条の二の五の承認に係る医療機器又は体外診断用医薬品の使用成績に関する調査、当該医療機器又は体外診断用医薬品の不具合等の発現状況並びに品質、有効性及び安全性に関する情報の検出又は確認のために行う調査その他の当該医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する調査とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

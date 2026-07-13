@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十八条の二
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-28-2-p1 -->
 削除

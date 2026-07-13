@@ -16,27 +16,55 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-55-p1
+    type: simple
+    text: 基金は、通知金融商品取引業者につき、前条の規定により、顧客資産の返還に係る債務の円滑な履行が困難であるとの認定を行つた場合には、速やかに、次条第一項の請求の届出期間、届出場所その他政令で定める事項を定め、これを公告しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-55-p2
+    type: simple
+    text: 基金は、前項の規定により公告した後に、同項の認定に係る金融商品取引業者（以下「認定金融商品取引業者」という。）について破産法第百九十七条第一項（同法第二百九条第三項において準用する場合を含む。）の規定による公告、第五項の規定による通知その他の政令で定める事由が生じたときは、前項の規定により公告した届出期間を変更することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-55-p3
+    type: simple
+    text: 基金は、前項の規定により届出期間を変更したときは、遅滞なく、その変更に係る事項を公告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-55-p4
+    type: simple
+    text: 基金は、第一項に規定する事項を定めた場合又は第二項の規定により届出期間を変更した場合には、直ちに、その旨を内閣総理大臣及び財務大臣に報告しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-55-p5
+    type: simple
+    text: 認定金融商品取引業者の破産手続において、破産法第百九十七条第一項（同法第二百九条第三項において準用する場合を含む。）若しくは第二百四条第二項の規定による通知をしたとき、又は同法第二百八条第一項の規定による許可を受けたときは、破産管財人は、その旨を基金に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

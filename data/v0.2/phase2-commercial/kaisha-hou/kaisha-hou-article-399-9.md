@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-9-p1
+    type: simple
+    text: 監査等委員会を招集するには、監査等委員は、監査等委員会の日の一週間（これを下回る期間を定款で定めた場合にあっては、その期間）前までに、各監査等委員に対してその通知を発しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-9-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、監査等委員会は、監査等委員の全員の同意があるときは、招集の手続を経ることなく開催することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-9-p3
+    type: simple
+    text: 取締役（会計参与設置会社にあっては、取締役及び会計参与）は、監査等委員会の要求があったときは、監査等委員会に出席し、監査等委員会が求めた事項について説明をしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

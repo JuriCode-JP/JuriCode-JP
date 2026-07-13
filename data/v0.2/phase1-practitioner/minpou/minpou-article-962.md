@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九百六十二条
 
-<!-- segment: simple id: minpou-art-962-p1 -->
 第五条、第九条、第十三条及び第十七条の規定は、遺言については、適用しない。

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-108-5-2-p1
+    type: simple
+    text: 登録された職員団体は、人事院規則の定めるところにより、職員の勤務条件について必要があると認めるときは、人事院に対し、人事院規則を制定し、又は改廃することを要請することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-108-5-2-p2
+    type: simple
+    text: 人事院は、前項の規定による要請を受けたときは、速やかに、その内容を公表するものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

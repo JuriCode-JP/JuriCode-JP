@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-425-2-p1
+    type: simple
+    text: 債務者がした財産の処分に関する行為（債務の消滅に関する行為を除く。）が取り消されたときは、受益者は、債務者に対し、その財産を取得するためにした反対給付の返還を請求することができる。債務者がその反対給付の返還をすることが困難であるときは、受益者は、その価額の償還を請求することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

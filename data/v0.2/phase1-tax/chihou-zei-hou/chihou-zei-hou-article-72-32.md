@@ -13,25 +13,73 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-32-p1
+    type: tokusoku
+    text: 特定法人である内国法人は、第七十二条の二十五、第七十二条の二十六、第七十二条の二十八、第七十二条の二十九又は前条第二項若しくは第三項の規定により、第七十二条の二十五、第七十二条の二十六、第七十二条の二十八若しくは第七十二条の二十九の規定による申告書（以下この款において「申告書」という。）又は前条第二項若しくは第三項の規定による修正申告書（以下この款において「修正申告書」という。）（以下この条及び次条において「納税申告書」という。）により行うこととされ、又は納税申告書にこの法律若しくはこれに基づく命令の規定により納税申告書に添付すべきものとされている書類（以下この項及び第三項において「添付書類」という。）を添付して行うこととされている法人の事業税の申告については、第七十二条の二十五、第七十二条の二十六、第七十二条の二十八、第七十二条の二十九並びに前条第二項及び第三項の規定にかかわらず、総務省令で定めるところにより、納税申告書に記載すべきものとされている事項（第三項及び第四項において「申告書記載事項」という。）又は添付書類に記載すべきものとされ、若しくは記載されている事項（以下この項及び第三項において「添付書類記載事項」という。）を、地方税関係手続用電子情報処理組織（第七百六十二条第一号に規定する地方税関係手続用電子情報処理組織をいう。次条において同じ。）を使用し、かつ、地方税共同機構（第四項及び次条第十二項において「機構」という。）を経由して行う方法により事務所又は事業所所在地の道府県知事に提供することにより、行わなければならない。ただし、当該申告のうち添付書類に係る部分については、添付書類記載事項を記録した光ディスクその他の総務省令で定める記録用の媒体を事務所又は事業所所在地の道府県知事に提出する方法により、行うことができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第三項
+    references:
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-32-p2-hashira
+    type: hashira
+    text: 前項に規定する特定法人とは、次に掲げる法人をいう。
+    modality: teigi
+    references:
+    - 前項
+  - id: chihou-zei-hou-art-72-32-p2-kou-1
+    type: kou
+    text: 納税申告書に係る事業年度開始の日現在における資本金の額又は出資金の額が一億円を超える法人
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-72-32-p2-kou-2
+    type: kou
+    text: 保険業法に規定する相互会社
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-72-32-p2-kou-3
+    type: kou
+    text: 投資法人（第一号に掲げる法人を除く。）
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-art-72-32-p2-kou-4
+    type: kou
+    text: 特定目的会社（第一号に掲げる法人を除く。）
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-32-p3
+    type: simple
+    text: 第一項の規定により行われた同項の申告については、申告書記載事項が記載された納税申告書により、又はこれに添付書類記載事項が記載された添付書類を添付して行われたものとみなして、この法律又はこれに基づく命令の規定その他政令で定める法令の規定を適用する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-32-p4
+    type: simple
+    text: 第一項本文の規定により行われた同項の申告は、申告書記載事項が第七百六十二条第一号の機構の使用に係る電子計算機（入出力装置を含む。）に備えられたファイルへの記録がされた時に同項に規定する道府県知事に到達したものとみなす。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -57,6 +105,14 @@ parent_section:
 ### 第七十二条の三十二第二項
 
 前項に規定する特定法人とは、次に掲げる法人をいう。
+
+一　納税申告書に係る事業年度開始の日現在における資本金の額又は出資金の額が一億円を超える法人
+
+二　保険業法に規定する相互会社
+
+三　投資法人（第一号に掲げる法人を除く。）
+
+四　特定目的会社（第一号に掲げる法人を除く。）
 
 ### 第七十二条の三十二第三項
 

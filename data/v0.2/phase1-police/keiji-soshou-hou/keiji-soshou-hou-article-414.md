@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-414-p1 -->
 前章の規定は、この法律に特別の定のある場合を除いては、上告の審判についてこれを準用する。

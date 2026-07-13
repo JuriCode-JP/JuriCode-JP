@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-3-3-p1
+    type: simple
+    text: 基準適合性認証を受けた外国指定高度管理医療機器製造等事業者については、第二十三条の二の十五第三項の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

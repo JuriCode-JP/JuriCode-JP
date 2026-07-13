@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる否認権は、それぞれ当該各号に定める者に対する嫡出否認の訴えによって行う。
     modality: unspecified
+  - id: minpou-art-775-p1-kou-1
+    type: kou
+    text: 父の否認権　子又は親権を行う母
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-775-p1-kou-2
+    type: kou
+    text: 子の否認権　父
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-775-p1-kou-3
+    type: kou
+    text: 母の否認権　父
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-775-p1-kou-4
+    type: kou
+    text: 前夫の否認権　父及び子又は親権を行う母
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +72,16 @@ parent_section:
 
 ### 第七百七十五条第一項
 
-<!-- segment: hashira id: minpou-art-775-p1-hashira -->
 次の各号に掲げる否認権は、それぞれ当該各号に定める者に対する嫡出否認の訴えによって行う。
+
+一　父の否認権　子又は親権を行う母
+
+二　子の否認権　父
+
+三　母の否認権　父
+
+四　前夫の否認権　父及び子又は親権を行う母
 
 ### 第七百七十五条第二項
 
-<!-- segment: simple id: minpou-art-775-p2 -->
 前項第一号又は第四号に掲げる否認権を親権を行う母に対し行使しようとする場合において、親権を行う母がないときは、家庭裁判所は、特別代理人を選任しなければならない。

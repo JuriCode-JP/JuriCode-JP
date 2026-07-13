@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-40-p1
+    type: simple
+    text: 法第二十三条の二十九第四項の再生医療等製品の品質、有効性及び安全性に関する資料として厚生労働省令で定める資料は、申請に係る再生医療等製品の使用成績に関する資料、当該再生医療等製品の不具合等の発現状況並びに品質、有効性及び安全性に関する情報の検出又は確認のために行う調査に関する資料、当該再生医療等製品の効能、効果又は性能及び安全性に関しその製造販売の承認後に得られた研究報告に関する資料とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-40-p2
+    type: simple
+    text: 前項に規定する資料については、第百三十七条の二十三第三項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-40-p3
+    type: simple
+    text: 法第二十三条の二十九第一項の再審査の申請をする者については、第百三十七条の二十三第四項の規定を準用する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-40-p4
+    type: simple
+    text: 第一項及び前項において準用する第百三十七条の二十三第四項に規定するもののほか、厚生労働大臣が当該再生医療等製品の再審査につき必要と認めて資料の提出を求めたときは、申請者は、当該資料を厚生労働大臣に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -52,11 +52,8 @@ parent_section:
 
 ### 第七百七十四条第一項
 
-<!-- segment: honbun id: chihou-zei-hou-art-774-p1-honbun -->
-役員の任期は、三年以内において定款で定める期間とする。<!-- segment: tadashi id: chihou-zei-hou-art-774-p1-tadashi -->
-ただし、補欠の役員の任期は、前任者の残任期間とする。
+役員の任期は、三年以内において定款で定める期間とする。ただし、補欠の役員の任期は、前任者の残任期間とする。
 
 ### 第七百七十四条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-774-p2 -->
 役員は、再任されることができる。

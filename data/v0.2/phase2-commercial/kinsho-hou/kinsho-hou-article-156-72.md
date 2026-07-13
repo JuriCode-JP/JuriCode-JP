@@ -13,20 +13,43 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-72-p1-honbun
+    type: honbun
+    text: 取引情報蓄積機関は、取引情報蓄積業務及び取引情報蓄積業務に付随する業務のほか、他の業務を行うことができない。
+    modality: kanou_negative
+  - id: kinsho-hou-art-156-72-p1-tadashi
+    type: tadashi
+    text: ただし、当該取引情報蓄積機関が取引情報蓄積業務を適正かつ確実に行うにつき支障を生ずるおそれがないと認められる業務について、内閣府令で定めるところにより、内閣総理大臣の承認を受けたときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-72-p2-zen
+    type: zen_dan
+    text: 取引情報蓄積機関は、前項ただし書の承認を受けた業務を廃止したときは、当該承認は、その効力を失う。
+    modality: unspecified
+    references:
+    - 前項
+  - id: kinsho-hou-art-156-72-p2-kou
+    type: kou_dan
+    text: この場合において、取引情報蓄積機関は、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-156-72-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-72-p3
+    type: simple
+    text: 第百五十六条の六十八第一項の指定申請書に申請者が取引情報蓄積業務及び取引情報蓄積業務に付随する業務以外の業務を行う旨の記載がある場合において、当該申請者が第百五十六条の六十七第一項の規定による指定を受けたときは、当該業務を行うことにつき第一項ただし書の承認を受けたものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-12-p1
+    type: simple
+    text: 金融商品取引清算機関は、定款又は業務方法書を変更しようとするときは、内閣総理大臣の認可を受けなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

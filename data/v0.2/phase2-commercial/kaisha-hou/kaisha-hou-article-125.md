@@ -30,9 +30,19 @@ paragraphs:
     type: hashira
     text: 株主及び債権者は、株式会社の営業時間内は、いつでも、次に掲げる請求をすることができる。この場合においては、当該請求の理由を明らかにしてしなければならない。
     modality: gimu
+  - id: kaisha-hou-art-125-p2-kou-1
+    type: kou
+    text: 株主名簿が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-125-p2-kou-2
+    type: kou
+    text: 株主名簿が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: kaisha-hou-art-125-p3
@@ -41,6 +51,26 @@ paragraphs:
     modality: kanou_negative
     references:
     - 前項
+  - id: kaisha-hou-art-125-p3-kou-1
+    type: kou
+    text: 当該請求を行う株主又は債権者（以下この項において「請求者」という。）がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-125-p3-kou-2
+    type: kou
+    text: 請求者が当該株式会社の業務の遂行を妨げ、又は株主の共同の利益を害する目的で請求を行ったとき。
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-125-p3-kou-3
+    type: kou
+    text: 請求者が株主名簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-125-p3-kou-4
+    type: kou
+    text: 請求者が、過去二年以内において、株主名簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。
+    modality: unspecified
+    item_number: 4
 - number: 4
   has_proviso: false
   has_items: false
@@ -86,26 +116,32 @@ parent_section:
 
 ### 第百二十五条第一項
 
-<!-- segment: simple id: kaisha-hou-art-125-p1 -->
 株式会社は、株主名簿をその本店（株主名簿管理人がある場合にあっては、その営業所）に備え置かなければならない。
 
 ### 第百二十五条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-125-p2-hashira -->
-株主及び債権者は、株式会社の営業時間内は、いつでも、次に掲げる請求をすることができる。<!-- segment: kou_dan id: kaisha-hou-art-125-p4-kou depends_on: kaisha-hou-art-125-p4-zen -->
-この場合においては、当該請求の理由を明らかにしてしなければならない。
+株主及び債権者は、株式会社の営業時間内は、いつでも、次に掲げる請求をすることができる。この場合においては、当該請求の理由を明らかにしてしなければならない。
+
+一　株主名簿が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+
+二　株主名簿が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
 
 ### 第百二十五条第三項
 
-<!-- segment: simple id: kaisha-hou-art-125-p3 -->
 株式会社は、前項の請求があったときは、次のいずれかに該当する場合を除き、これを拒むことができない。
+
+一　当該請求を行う株主又は債権者（以下この項において「請求者」という。）がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
+
+二　請求者が当該株式会社の業務の遂行を妨げ、又は株主の共同の利益を害する目的で請求を行ったとき。
+
+三　請求者が株主名簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
+
+四　請求者が、過去二年以内において、株主名簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。
 
 ### 第百二十五条第四項
 
-<!-- segment: zen_dan id: kaisha-hou-art-125-p4-zen -->
 株式会社の親会社社員は、その権利を行使するため必要があるときは、裁判所の許可を得て、当該株式会社の株主名簿について第二項各号に掲げる請求をすることができる。この場合においては、当該請求の理由を明らかにしてしなければならない。
 
 ### 第百二十五条第五項
 
-<!-- segment: simple id: kaisha-hou-art-125-p5 -->
 前項の親会社社員について第三項各号のいずれかに規定する事由があるときは、裁判所は、前項の許可をすることができない。

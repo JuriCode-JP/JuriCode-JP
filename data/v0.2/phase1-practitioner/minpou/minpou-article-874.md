@@ -43,5 +43,4 @@ parent_section:
 
 ### 第八百七十四条
 
-<!-- segment: junyou id: minpou-art-874-p1 applies_provisions: 第六百五十五条 -->
 第六百五十四条及び第六百五十五条の規定は、後見について準用する。

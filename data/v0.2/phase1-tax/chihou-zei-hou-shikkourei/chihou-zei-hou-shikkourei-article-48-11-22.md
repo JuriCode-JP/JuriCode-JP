@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-22-p1
+    type: simple
+    text: 法第三百二十一条の八第二十三項第一号に規定する政令で定める額は、第八条の二十第一項に規定する金額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-22-p2
+    type: simple
+    text: 法第三百二十一条の八第二十三項第二号に規定する政令で定める額は、第八条の二十第二項に規定する金額とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-22-p3
+    type: simple
+    text: 法第三百二十一条の八第二十三項第三号に規定する政令で定める額は、第八条の二十第三項に規定する金額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

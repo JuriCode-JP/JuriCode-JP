@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 株式に質権を設定した者は、株式会社に対し、次に掲げる事項を株主名簿に記載し、又は記録することを請求することができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-148-p1-kou-1
+    type: kou
+    text: 質権者の氏名又は名称及び住所
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-148-p1-kou-2
+    type: kou
+    text: 質権の目的である株式
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第百四十八条
 
-<!-- segment: hashira id: kaisha-hou-art-148-p1-hashira -->
 株式に質権を設定した者は、株式会社に対し、次に掲げる事項を株主名簿に記載し、又は記録することを請求することができる。
+
+一　質権者の氏名又は名称及び住所
+
+二　質権の目的である株式

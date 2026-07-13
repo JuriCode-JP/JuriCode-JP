@@ -39,5 +39,6 @@ parent_section:
 
 ### 第二十九条
 
-<!-- segment: simple id: douro-koutsuu-hou-art-29-p1 -->
 後車は、前車が他の自動車又はトロリーバスを追い越そうとしているときは、追越しを始めてはならない。
+
+（罰則　第百十九条第一項第六号）

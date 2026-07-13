@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第七十一条の十二第一項に規定する政令で定める駐車場は、次に掲げる要件のすべてを満たすものとする。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-40-22-p1-kou-1
+    type: kou
+    text: 建築基準法第二条第九号の二に規定する耐火建築物又は同条第九号の三に規定する準耐火建築物に該当するものであること。
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-40-22-p1-kou-2
+    type: kou
+    text: 地下又は複数の階に自動車の駐車の用に供する部分を設けているものであること。
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-40-22-p1-kou-3
+    type: kou
+    text: 駐車場の用に供する部分の床面積が千五百平方メートル以上であること。
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikkourei-art-40-22-p1-kou-4
+    type: kou
+    text: その他財務省令で定める要件
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -43,6 +63,16 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: sochi-hou-shikkourei-art-40-22-p3-kou-1
+    type: kou
+    text: 当該特定の附置義務駐車施設として使用されている建築物のうち専ら当該特定の附置義務駐車施設の用に供している部分の床面積
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-40-22-p3-kou-2
+    type: kou
+    text: 前号の建築物のうち専ら当該特定の附置義務駐車施設の用以外の用に供している部分の床面積
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
@@ -70,20 +100,28 @@ parent_section:
 
 ### 第四十条の二十二第一項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-40-22-p1-hashira -->
 法第七十一条の十二第一項に規定する政令で定める駐車場は、次に掲げる要件のすべてを満たすものとする。
+
+一　建築基準法第二条第九号の二に規定する耐火建築物又は同条第九号の三に規定する準耐火建築物に該当するものであること。
+
+二　地下又は複数の階に自動車の駐車の用に供する部分を設けているものであること。
+
+三　駐車場の用に供する部分の床面積が千五百平方メートル以上であること。
+
+四　その他財務省令で定める要件
 
 ### 第四十条の二十二第二項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-40-22-p2 -->
 法第七十一条の十二第一項に規定する必要な部分として政令で定める部分は、同項に規定する条例で定めるところにより設けられた駐車施設のうち、当該駐車施設の床面積に、当該駐車施設の駐車の用に供する部分の床面積のうちに当該条例の定めるところにより計算される当該条例に定められた基準に適合するために必要な最も少ない駐車台数に当該条例に定める自動車一台当たりの駐車面積を乗じて計算した面積に相当する床面積（当該床面積が当該駐車施設のうち駐車の用に供する部分の床面積を超える場合には、当該駐車の用に供する部分の床面積）の占める割合を乗じて計算した床面積に相当する駐車施設の部分とする。
 
 ### 第四十条の二十二第三項
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-40-22-p3-hashira -->
 法第七十一条の十二第一項に規定する特定の附置義務駐車施設の用以外の用にも供されている部分として政令で定める部分は、同項に規定する特定の附置義務駐車施設（以下この項において「特定の附置義務駐車施設」という。）の用にも特定の附置義務駐車施設の用以外の用にも供されている土地等のうち、当該土地等の面積に次に掲げる床面積の合計のうちに第二号に掲げる床面積の占める割合を乗じて計算した面積に係る土地等の価額に相当する部分とする。
+
+一　当該特定の附置義務駐車施設として使用されている建築物のうち専ら当該特定の附置義務駐車施設の用に供している部分の床面積
+
+二　前号の建築物のうち専ら当該特定の附置義務駐車施設の用以外の用に供している部分の床面積
 
 ### 第四十条の二十二第四項
 
-<!-- segment: simple id: sochi-hou-shikkourei-art-40-22-p4 -->
 前項の割合に百分の十未満の端数があるときは、その端数を切り捨てる。

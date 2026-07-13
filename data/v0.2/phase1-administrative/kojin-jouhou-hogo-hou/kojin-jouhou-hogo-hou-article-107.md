@@ -21,6 +21,16 @@ paragraphs:
     type: junyou
     text: 第八十六条第三項の規定は、次の各号のいずれかに該当する裁決をする場合について準用する。
     modality: unspecified
+  - id: kojin-jouhou-hogo-hou-art-107-p1-kou-1
+    type: kou
+    text: 開示決定に対する第三者からの審査請求を却下し、又は棄却する裁決
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-107-p1-kou-2
+    type: kou
+    text: 審査請求に係る開示決定等（開示請求に係る保有個人情報の全部を開示する旨の決定を除く。）を変更し、当該審査請求に係る保有個人情報を開示する旨の裁決（第三者である参加人が当該第三者に関する情報の開示に反対の意思を表示している場合に限る。）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第百七条第一項
 
-<!-- segment: junyou id: kojin-jouhou-hogo-hou-art-107-p1 -->
 第八十六条第三項の規定は、次の各号のいずれかに該当する裁決をする場合について準用する。
+
+一　開示決定に対する第三者からの審査請求を却下し、又は棄却する裁決
+
+二　審査請求に係る開示決定等（開示請求に係る保有個人情報の全部を開示する旨の決定を除く。）を変更し、当該審査請求に係る保有個人情報を開示する旨の裁決（第三者である参加人が当該第三者に関する情報の開示に反対の意思を表示している場合に限る。）
 
 ### 第百七条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-107-p2 -->
 開示決定等、訂正決定等、利用停止決定等又は開示請求、訂正請求若しくは利用停止請求に係る不作為についての審査請求については、政令（地方公共団体の機関又は地方独立行政法人にあっては、条例）で定めるところにより、行政不服審査法第四条の規定の特例を設けることができる。

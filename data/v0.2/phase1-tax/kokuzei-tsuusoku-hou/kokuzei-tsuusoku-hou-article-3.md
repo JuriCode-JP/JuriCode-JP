@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-3-p1 -->
 法人でない社団又は財団で代表者又は管理人の定めがあるもの（以下「人格のない社団等」という。）は、法人とみなして、この法律の規定を適用する。

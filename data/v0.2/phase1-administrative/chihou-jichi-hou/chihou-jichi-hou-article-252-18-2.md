@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-18-2-p1
+    type: simple
+    text: 普通地方公共団体は、国又は他の普通地方公共団体の職員から引き続いて当該普通地方公共団体の職員となつた者に係る退職手当の算定の基礎となる勤続期間の計算については、その者の当該国又は他の普通地方公共団体の職員としての引き続いた在職期間を当該普通地方公共団体の職員としての引き続いた在職期間に通算する措置を講ずるように努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

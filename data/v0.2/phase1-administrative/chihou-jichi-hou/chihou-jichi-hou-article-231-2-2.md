@@ -14,9 +14,25 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-2-p1-hashira
+    type: hashira
+    text: 普通地方公共団体の歳入（第二百三十五条の四第三項に規定する歳入歳出外現金を含む。以下「歳入等」という。）を納付しようとする者は、次の各号のいずれかに該当するときは、指定納付受託者（次条第一項に規定する指定納付受託者をいう。第二号において同じ。）に納付を委託することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
+  - id: chihou-jichi-hou-art-231-2-2-p1-kou-1
+    type: kou
+    text: 歳入等の納付の通知に係る書面で総務省令で定めるものに基づき納付しようとするとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-231-2-2-p1-kou-2
+    type: kou
+    text: 電子情報処理組織を使用して行う指定納付受託者に対する通知で総務省令で定めるものに基づき納付しようとするとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -38,3 +54,7 @@ parent_section:
 ### 第二百三十一条の二の二
 
 普通地方公共団体の歳入（第二百三十五条の四第三項に規定する歳入歳出外現金を含む。以下「歳入等」という。）を納付しようとする者は、次の各号のいずれかに該当するときは、指定納付受託者（次条第一項に規定する指定納付受託者をいう。第二号において同じ。）に納付を委託することができる。
+
+一　歳入等の納付の通知に係る書面で総務省令で定めるものに基づき納付しようとするとき。
+
+二　電子情報処理組織を使用して行う指定納付受託者に対する通知で総務省令で定めるものに基づき納付しようとするとき。

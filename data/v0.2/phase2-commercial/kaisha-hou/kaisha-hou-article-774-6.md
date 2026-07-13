@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-774-6-p1
+    type: simple
+    text: 前二条の規定は、株式交付子会社の株式を譲り渡そうとする者が、株式交付親会社が株式交付に際して譲り受ける株式交付子会社の株式の総数の譲渡しを行う契約を締結する場合には、適用しない。
+    modality: jogai
+    references:
+    - 前二条
 cases: []
 amendments: []
 tags:

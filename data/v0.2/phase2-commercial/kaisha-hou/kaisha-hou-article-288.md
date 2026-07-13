@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -58,10 +58,8 @@ parent_section:
 
 ### 第二百八十八条第一項
 
-<!-- segment: simple id: kaisha-hou-art-288-p1 -->
 株式会社は、証券発行新株予約権を発行した日以後遅滞なく、当該証券発行新株予約権に係る新株予約権証券を発行しなければならない。
 
 ### 第二百八十八条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-288-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、株式会社は、新株予約権者から請求がある時までは、同項の新株予約権証券を発行しないことができる。

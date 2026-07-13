@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百三十四条
 
-<!-- segment: simple id: keihou-art-234-p1 -->
 威力を用いて人の業務を妨害した者も、前条の例による。

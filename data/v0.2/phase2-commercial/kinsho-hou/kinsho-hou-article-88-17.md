@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-17-p1
+    type: simple
+    text: 金融商品会員制法人の事務は、定款で理事その他の役員に委任したものを除き、すべて総会の決議によつて行う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

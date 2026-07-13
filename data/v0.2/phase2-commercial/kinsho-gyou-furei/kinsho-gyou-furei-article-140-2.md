@@ -14,9 +14,34 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-140-2-p1
+    type: tokusoku
+    text: 前三条の規定にかかわらず、法第四十三条の二第二項第二号に掲げる金銭及び同項第三号に掲げる有価証券（同条第一項第二号に規定する対象有価証券関連取引（次に掲げる取引に該当するものに限る。以下この款において「対象有価証券関連店頭デリバティブ取引等」という。）に関するものに限る。）について、同条第二項に規定する顧客に返還すべき額は、顧客ごとに算定し、その算定の対象となる当該金銭の額及び当該有価証券の時価の合計額とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前三条
+    references:
+    - 同項
+    - 前三条
+  - id: kinsho-gyou-furei-art-140-2-p1-kou-1
+    type: kou
+    text: 店頭デリバティブ取引
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-140-2-p1-kou-2
+    type: kou
+    text: 外国市場デリバティブ取引
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-140-2-p1-kou-3
+    type: kou
+    text: 令第十六条の十五に規定する取引
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -38,3 +63,9 @@ parent_section:
 ### 第百四十条の二
 
 前三条の規定にかかわらず、法第四十三条の二第二項第二号に掲げる金銭及び同項第三号に掲げる有価証券（同条第一項第二号に規定する対象有価証券関連取引（次に掲げる取引に該当するものに限る。以下この款において「対象有価証券関連店頭デリバティブ取引等」という。）に関するものに限る。）について、同条第二項に規定する顧客に返還すべき額は、顧客ごとに算定し、その算定の対象となる当該金銭の額及び当該有価証券の時価の合計額とする。
+
+一　店頭デリバティブ取引
+
+二　外国市場デリバティブ取引
+
+三　令第十六条の十五に規定する取引

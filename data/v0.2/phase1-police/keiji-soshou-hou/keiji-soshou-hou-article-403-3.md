@@ -14,19 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-403-3-p1-hashira
+    type: hashira
+    text: 拘禁刑以上の刑に処する判決の宣告を受けた被告人について、次に掲げる裁判の告知があつたときは、当該被告人に対しては、第三百四十二条の二の規定は、適用しない。
+    modality: jogai
+  - id: keiji-soshou-hou-art-403-3-p1-kou-1
+    type: kou
+    text: 拘禁刑以上の刑に処する原判決を破棄する判決
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-403-3-p1-kou-2
+    type: kou
+    text: 拘禁刑以上の刑に処する原判決に係る被告事件についての公訴を棄却する決定
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-403-3-p2
+    type: simple
+    text: 前項第一号に掲げる判決の宣告があつた場合（第四百条ただし書の規定により更に第三百四十五条に規定する裁判をした場合を除く。）には、第三百四十二条の八第一項（第一号に係る部分に限り、第四百四条において準用する場合を含む。）の規定による決定に係る勾留状は、その効力を失う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-403-3-p3
+    type: simple
+    text: 拘禁刑以上の刑に処する判決に対する控訴が棄却されたときは、第三百四十二条の二（第四百四条において準用する場合を含む。）の許可は、その効力を失う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -46,6 +70,10 @@ parent_section:
 ### 第四百三条の三第一項
 
 拘禁刑以上の刑に処する判決の宣告を受けた被告人について、次に掲げる裁判の告知があつたときは、当該被告人に対しては、第三百四十二条の二の規定は、適用しない。
+
+一　拘禁刑以上の刑に処する原判決を破棄する判決
+
+二　拘禁刑以上の刑に処する原判決に係る被告事件についての公訴を棄却する決定
 
 ### 第四百三条の三第二項
 

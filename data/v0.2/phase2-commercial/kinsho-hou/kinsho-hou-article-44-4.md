@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-44-4-p1
+    type: simple
+    text: 有価証券の引受人となつた金融商品取引業者は、当該有価証券（第二条第六項第三号に掲げるものを行う金融商品取引業者にあつては、同号に規定する新株予約権を行使することにより取得する有価証券）を売却する場合において、引受人となつた日から六月を経過する日までは、その買主に対し買入代金につき貸付けその他信用の供与をしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

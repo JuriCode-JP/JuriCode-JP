@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法第十一条の四第一項に規定する政令で定める期限は、次に掲げる期限とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-3-2-p1-kou-1
+    type: kou
+    text: 普通徴収の方法により徴収する地方税の賦課もれ又は追徴に係る賦課決定に係る期限
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-3-2-p1-kou-2
+    type: kou
+    text: 換価の猶予に係る期限
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-3-2-p1-kou-3
+    type: kou
+    text: 法第七十二条の二十五第二項から第四項まで（これらの規定を法第七十二条の二十八第二項又は第七十二条の二十九第二項において準用する場合を含む。）又は第五項（法第七十二条の二十八第二項又は第七十二条の二十九第二項若しくは第六項において準用する場合を含む。）の規定による期限
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-3-2-p1-kou-4
+    type: kou
+    text: 法第七十四条の十一第一項の規定による期限
+    modality: unspecified
+    item_number: 4
+  - id: chihou-zei-hou-shikkourei-art-3-2-p1-kou-5
+    type: kou
+    text: 法第四百七十四条第一項の規定による期限
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -37,5 +62,14 @@ parent_section:
 
 ### 第三条の二
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-3-2-p1-hashira -->
 法第十一条の四第一項に規定する政令で定める期限は、次に掲げる期限とする。
+
+一　普通徴収の方法により徴収する地方税の賦課もれ又は追徴に係る賦課決定に係る期限
+
+二　換価の猶予に係る期限
+
+三　法第七十二条の二十五第二項から第四項まで（これらの規定を法第七十二条の二十八第二項又は第七十二条の二十九第二項において準用する場合を含む。）又は第五項（法第七十二条の二十八第二項又は第七十二条の二十九第二項若しくは第六項において準用する場合を含む。）の規定による期限
+
+四　法第七十四条の十一第一項の規定による期限
+
+五　法第四百七十四条第一項の規定による期限

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-2-3-p1
+    type: junyou
+    text: 第八条の四第一項の規定は、法第四百六十九条第一項（第一号又は第二号に係る部分に限る。）の規定の適用を受けようとする卸売販売業者等が保存すべき書類について準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-16-2-3-p2
+    type: junyou
+    text: 第八条の四第二項の規定は、法第四百六十九条第一項（第三号又は第四号に係る部分に限る。）の規定の適用を受けようとする卸売販売業者等が提出すべき書類の提出について準用する。この場合において、第八条の四第二項中「第七十四条の十第一項又は第三項」とあるのは「第四百七十三条第一項又は第二項」と、「道府県知事」とあるのは「市町村長」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-14-p1
+    type: simple
+    text: 国税庁長官は、国税庁長官に対する申立てが行われた場合又は条約相手国等の権限ある当局に対する申立てが行われた場合には、遅滞なく、その旨、これらの申立てに係る租税特別措置法第四十条の三の三第二十二項第一号に掲げる更正決定に係る所得税の額の計算の基礎となつた所得その他総務省令で定める事項をこれらの申立てをした市町村民税の納税義務者の住所所在地の市町村長に通知しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-14-p2
+    type: simple
+    text: 国税庁長官は、国税庁長官に対する申立てが行われた場合又は条約相手国等の権限ある当局に対する申立てが行われた場合において、これらの申立てに係る相互協議において前条第一項に規定する合意がない場合その他の政令で定める場合に該当することとなつたときは、遅滞なく、その旨その他総務省令で定める事項をこれらの申立てをした市町村民税の納税義務者の住所所在地の市町村長に通知しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-7-14-p3
+    type: simple
+    text: 国税庁長官は、国税庁長官に対する申立てが行われた場合又は条約相手国等の権限ある当局に対する申立てが行われた場合において、これらの申立てに係る相互協議において前条第一項に規定する合意が行われたときは、遅滞なく、その旨、当該合意に基づく国税通則法第二十六条の規定による更正に係る所得税の額の計算の基礎となつた所得その他総務省令で定める事項をこれらの申立てをした市町村民税の納税義務者の住所所在地の市町村長に通知しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

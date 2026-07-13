@@ -24,6 +24,16 @@ paragraphs:
     override_flag: true
     override_target:
     - 第九条
+  - id: sochi-hou-art-72-p1-kou-1
+    type: kou
+    text: 売買による所有権の移転の登記　千分の十五
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-art-72-p1-kou-2
+    type: kou
+    text: 所有権の信託の登記　千分の三
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -37,8 +47,18 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 前項
     - 同項
+    - 前項
+  - id: sochi-hou-art-72-p2-kou-1
+    type: kou
+    text: 売買による所有権の移転の登記　千分の七・五
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-art-72-p2-kou-2
+    type: kou
+    text: 所有権の信託の登記　千分の一・五
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -69,15 +89,20 @@ parent_section:
 
 ### 第七十二条第一項
 
-<!-- segment: tokusoku id: sochi-hou-art-72-p1 override_flag: true override_target: 第九条 -->
 個人又は法人が、平成二十五年四月一日から令和十一年三月三十一日までの間に、土地に関する登記で次の各号に掲げるものを受ける場合には、当該各号に掲げる登記に係る登録免許税の税率は、登録免許税法第九条の規定にかかわらず、当該各号に掲げる登記の区分に応じ、当該各号に定める割合とする。
+
+一　売買による所有権の移転の登記　千分の十五
+
+二　所有権の信託の登記　千分の三
 
 ### 第七十二条第二項
 
-<!-- segment: tokusoku id: sochi-hou-art-72-p2 override_flag: true override_target: 同項 -->
 平成十五年四月一日から平成十八年三月三十一日までの間に登録免許税法別表第一第一号（十二）ロ（３）又はホ（１）に掲げる仮登記を受けた者が、土地について、当該仮登記に基づき前項の規定により同項各号の登記を受ける場合には、同法第十七条第一項の規定により控除する割合は、同項の規定にかかわらず、次の各号に掲げる登記の区分に応じ、当該各号に定める割合とする。
+
+一　売買による所有権の移転の登記　千分の七・五
+
+二　所有権の信託の登記　千分の一・五
 
 ### 第七十二条第三項
 
-<!-- segment: tokusoku id: sochi-hou-art-72-p3 override_flag: true override_target: 第二十四条 -->
 平成十五年三月三十一日以前に登録免許税法別表第一第一号（十二）ロ（３）に掲げる仮登記を受けた者が、土地について、当該仮登記に基づき第一項の規定により同項第一号の登記を受ける場合には、同法第十七条第一項の規定により控除する割合は、同項及び所得税法等の一部を改正する法律（平成十五年法律第八号）附則第二十四条第四項の規定にかかわらず、千分の三とする。

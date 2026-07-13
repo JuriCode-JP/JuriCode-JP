@@ -14,14 +14,47 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-142-2-p1-hashira
+    type: hashira
+    text: 法第二十九条第三項の店舗管理者が行う店舗の管理に関する業務は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-142-2-p1-kou-1
+    type: kou
+    text: 法第二十九条の三第一項第一号に規定する店舗管理者が有する権限に係る業務
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-142-2-p1-kou-2
+    type: kou
+    text: 第百四十四条第一項の規定による医薬品の試験検査及び同条第二項の規定による試験検査の結果の確認
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-142-2-p1-kou-3
+    type: kou
+    text: 第百四十五条第二項の規定による帳簿の記載
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-142-2-p2-hashira
+    type: hashira
+    text: 法第二十九条第三項の店舗管理者が遵守すべき事項は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-142-2-p2-kou-1
+    type: kou
+    text: 保健衛生上支障を生ずるおそれがないように、その店舗に勤務する薬剤師、登録販売者その他の従業者を監督し、その店舗の構造設備及び医薬品その他の物品を管理し、その他その店舗の業務につき、必要な注意をすること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-142-2-p2-kou-2
+    type: kou
+    text: 法第二十九条第二項の規定により店舗販売業者に対して述べる意見を記載した書面の写しを三年間保存すること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -40,6 +73,16 @@ parent_section:
 
 法第二十九条第三項の店舗管理者が行う店舗の管理に関する業務は、次のとおりとする。
 
+一　法第二十九条の三第一項第一号に規定する店舗管理者が有する権限に係る業務
+
+二　第百四十四条第一項の規定による医薬品の試験検査及び同条第二項の規定による試験検査の結果の確認
+
+三　第百四十五条第二項の規定による帳簿の記載
+
 ### 第百四十二条の二第二項
 
 法第二十九条第三項の店舗管理者が遵守すべき事項は、次のとおりとする。
+
+一　保健衛生上支障を生ずるおそれがないように、その店舗に勤務する薬剤師、登録販売者その他の従業者を監督し、その店舗の構造設備及び医薬品その他の物品を管理し、その他その店舗の業務につき、必要な注意をすること。
+
+二　法第二十九条第二項の規定により店舗販売業者に対して述べる意見を記載した書面の写しを三年間保存すること。

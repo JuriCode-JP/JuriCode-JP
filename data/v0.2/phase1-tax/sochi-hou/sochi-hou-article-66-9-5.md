@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-66-9-5-p1
+    type: simple
+    text: 特殊関係株主等と特殊関係内国法人との間に第六十六条の九の二第一項に規定する特定関係があるかどうかの判定に関する事項その他前三条の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前三条
 cases: []
 amendments: []
 tags:

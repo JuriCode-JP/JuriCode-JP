@@ -50,10 +50,8 @@ parent_section:
 
 ### 第二百三十九条第一項
 
-<!-- segment: simple id: minpou-art-239-p1 -->
 所有者のない動産は、所有の意思をもって占有することによって、その所有権を取得する。
 
 ### 第二百三十九条第二項
 
-<!-- segment: simple id: minpou-art-239-p2 -->
 所有者のない不動産は、国庫に帰属する。

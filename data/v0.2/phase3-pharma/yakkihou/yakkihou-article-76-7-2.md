@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-7-2-p1
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、第七十六条の五の規定に違反した者に対して、その行為の中止その他公衆衛生上の危険の発生を防止するに足りる措置を採るべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-7-2-p2
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、第七十六条の六の二第一項の規定による禁止に違反した者に対して、同条第二項の規定により当該禁止が解除されるまでの間、その行為の中止その他公衆衛生上の危険の発生を防止するに足りる措置を採るべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-7-2-p3
+    type: simple
+    text: 厚生労働大臣又は都道府県知事は、第七十六条の五の規定又は第七十六条の六第二項の規定による命令若しくは第七十六条の六の二第一項の規定による禁止に違反する広告（次条において「指定薬物等に係る違法広告」という。）である特定電気通信による情報の送信があるときは、特定電気通信役務提供者に対して、当該送信を防止する措置を講ずることを要請することができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

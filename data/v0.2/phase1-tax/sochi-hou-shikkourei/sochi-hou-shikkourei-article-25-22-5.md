@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-25-22-5-p1
+    type: simple
+    text: 法第四十条の四第十二項第三号に規定する政令で定める金額は、同条第二項第六号に規定する部分対象外国関係会社の各事業年度の決算に基づく所得の金額（各事業年度の所得を課税標準として課される第二十五条の十九第一項第一号に規定する法人所得税（法人税法施行令第百四十一条第二項第三号に掲げる税を除く。）の額を含む。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

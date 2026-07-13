@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-10-7-p1
+    type: simple
+    text: 法第二十九条の五第一項第二号に規定する政令で定める金額は、二百億円とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

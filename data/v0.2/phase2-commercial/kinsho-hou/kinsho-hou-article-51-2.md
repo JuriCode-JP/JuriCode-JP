@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-51-2-p1
+    type: simple
+    text: 内閣総理大臣は、登録金融機関の業務の運営に関し、公益又は投資者保護のため必要かつ適当であると認めるときは、その必要の限度において、当該登録金融機関に対し、業務の方法の変更その他業務の運営の改善に必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

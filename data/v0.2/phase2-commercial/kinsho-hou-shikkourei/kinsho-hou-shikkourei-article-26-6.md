@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-6-p1
+    type: simple
+    text: 何人も、有価証券の募集又は売出しが行われる旨の公表がされてから当該有価証券の発行価格又は売出価格が決定されるまでの期間として内閣府令で定める期間において当該有価証券と同一の銘柄につき取引所金融商品市場における空売り又はその委託若しくは委託の取次ぎの申込みを行つた場合には、当該募集又は売出しに応じて取得した有価証券により当該空売りに係る有価証券の借入れ（これに準ずるものとして内閣府令で定めるものを含む。）の決済を行つてはならない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-6-p2
+    type: simple
+    text: 前項の規定は、法第二条第二十一項第一号に掲げる取引その他の内閣府令で定める取引については、適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-26-6-p3
+    type: junyou
+    text: 前二項の規定は、認可金融商品取引業協会の開設する店頭売買有価証券市場における店頭売買有価証券の売付け及び法第三十条第一項の認可を受けた金融商品取引業者の開設する私設取引システムにおける有価証券の売付けについて準用する。この場合において、前項中「法第二条第二十一項第一号に掲げる取引その他の内閣府令」とあるのは、「内閣府令」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前二項
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-3-p1
+    type: simple
+    text: 内国法人が適格分社型分割により分割承継法人にその有する資産又は負債の移転をしたときは、第六十二条第一項（合併及び分割による資産等の時価による譲渡）の規定にかかわらず、当該分割承継法人に当該移転をした資産及び負債の当該適格分社型分割の直前の帳簿価額による譲渡をしたものとして、当該内国法人の各事業年度の所得の金額を計算する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-3-p2
+    type: simple
+    text: 分割承継法人の資産及び負債の取得価額その他前項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

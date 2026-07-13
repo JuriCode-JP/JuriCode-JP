@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百二十一条
 
-<!-- segment: simple id: chihou-zei-hou-art-521-p1 -->
 鉱産税の納期は、毎月十日から末日までの間において当該市町村の条例で定める。

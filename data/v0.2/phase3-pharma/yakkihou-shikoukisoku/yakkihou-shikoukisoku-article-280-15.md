@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-15-p1
+    type: simple
+    text: 法第八十条の十第四項の規定により厚生労働大臣に対して行う通知は、様式第百二十七による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

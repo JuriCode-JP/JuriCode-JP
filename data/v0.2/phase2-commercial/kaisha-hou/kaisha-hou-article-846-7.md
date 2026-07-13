@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-7-p1
+    type: simple
+    text: 売渡株式等の取得の無効の訴えに係る請求を認容する確定判決は、第三者に対してもその効力を有する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

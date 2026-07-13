@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百四十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-442-p1 -->
 再審の請求は、刑の執行を停止する効力を有しない。但し、管轄裁判所に対応する検察庁の検察官は、再審の請求についての裁判があるまで刑の執行を停止することができる。

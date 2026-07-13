@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第十四条の十六第四項の規定による通知は、次に掲げる事項を記載した文書でしなければならない。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-6-6-p1-kou-1
+    type: kou
+    text: 納税者又は特別徴収義務者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-6-6-p1-kou-2
+    type: kou
+    text: 滞納に係る地方団体の徴収金の年度、税目、納期限及び金額
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-6-6-p1-kou-3
+    type: kou
+    text: 法第十四条の十六第一項に規定する譲渡に係る財産の名称、数量、性質及び所在
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-6-6-p1-kou-4
+    type: kou
+    text: 第二号の金額のうち法第十四条の十六第一項の規定により徴収しようとする金額
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -58,15 +78,20 @@ parent_section:
 
 ### 第六条の六第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-6-6-p1-hashira -->
 法第十四条の十六第四項の規定による通知は、次に掲げる事項を記載した文書でしなければならない。
+
+一　納税者又は特別徴収義務者の氏名及び住所又は居所
+
+二　滞納に係る地方団体の徴収金の年度、税目、納期限及び金額
+
+三　法第十四条の十六第一項に規定する譲渡に係る財産の名称、数量、性質及び所在
+
+四　第二号の金額のうち法第十四条の十六第一項の規定により徴収しようとする金額
 
 ### 第六条の六第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-6-6-p2 -->
 法第十四条の十六第五項の規定による交付要求は、同条第一項に規定する質権者又は抵当権者の氏名及び住所又は居所並びに同条第五項の規定により交付要求をする旨を交付要求書に記載してしなければならない。
 
 ### 第六条の六第三項
 
-<!-- segment: junyou id: chihou-zei-hou-shikkourei-art-6-6-p3 -->
 前二項の規定は、法第十四条の十七第三項において準用する法第十四条の十六第四項又は第五項の規定による通知又は交付要求をする場合について準用する。この場合において、前項中「同条第一項に規定する質権者又は抵当権者」とあるのは「法第十四条の十七第一項に規定する担保のための仮登記の権利者」と、「同条第五項」とあるのは「同条第三項において準用する法第十四条の十六第五項」と読み替えるものとする。

@@ -16,27 +16,59 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-3-p1
+    type: simple
+    text: 法第十条の五の三第一項に規定する政令で定めるソフトウエアは、第五条の五第二項に規定するソフトウエアとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-3-p2
+    type: simple
+    text: 法第十条の五の三第一項に規定する政令で定める規模のものは、機械及び装置にあつては一台又は一基（通常一組又は一式をもつて取引の単位とされるものにあつては、一組又は一式。以下この項において同じ。）の取得価額（所得税法施行令第百二十六条第一項各号の規定により計算した取得価額をいう。以下この項において同じ。）が百六十万円以上のものとし、工具、器具及び備品にあつては一台又は一基の取得価額が四十万円以上のものとし、建物附属設備にあつては一の建物附属設備の取得価額が六十万円以上のものとし、ソフトウエアにあつては一のソフトウエアの取得価額が七十万円以上のものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-3-p3-zen
+    type: zen_dan
+    text: 法第十条の五の三第三項の規定による控除をすべき金額は、その年分の所得税法第九十二条第二項に規定する課税総所得金額に係る所得税額から控除する。
+    modality: unspecified
+  - id: sochi-hou-shikkourei-art-5-6-3-p3-kou
+    type: kou_dan
+    text: この場合において、当該所得税額から控除をすべき同条第三項に規定する配当控除の額及び法第十条の三第三項の規定による控除をすべき金額があるときは、まず当該配当控除の額及び同項の規定による控除をすべき金額を控除し、次に法第十条の五の三第三項の規定による控除をすべき金額を控除する。
+    modality: unspecified
+    references:
+    - 同項
+    depends_on: sochi-hou-shikkourei-art-5-6-3-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-3-p4-zen
+    type: zen_dan
+    text: 法第十条の五の三第四項の規定による控除をすべき金額は、その年分の所得税法第九十二条第二項に規定する課税総所得金額に係る所得税額から控除する。
+    modality: unspecified
+  - id: sochi-hou-shikkourei-art-5-6-3-p4-kou
+    type: kou_dan
+    text: この場合において、当該所得税額から控除をすべき同条第三項に規定する配当控除の額並びに法第十条の三第三項及び第四項並びに第十条の五の三第三項の規定による控除をすべき金額があるときは、まず当該配当控除の額及びこれらの規定による控除をすべき金額を控除し、次に同条第四項の規定による控除をすべき金額を控除する。
+    modality: unspecified
+    depends_on: sochi-hou-shikkourei-art-5-6-3-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-5-6-3-p5
+    type: simple
+    text: 個人が、その取得し、又は製作し、若しくは建設した機械及び装置、工具、器具及び備品、建物附属設備並びにソフトウエア（以下この項において「機械装置等」という。）につき法第十条の五の三第一項又は第三項の規定の適用を受ける場合には、当該機械装置等につきこれらの規定の適用を受ける年分の確定申告書に当該機械装置等が同条第一項に規定する特定経営力向上設備等に該当するものであることを証する財務省令で定める書類を添付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

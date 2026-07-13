@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 市町村は、市町村民税の納税義務者が次の各号に掲げる者のいずれかに該当する場合には、その者に対して課する均等割の額を、当該市町村の条例で定めるところにより、軽減することができる。
     modality: kanou_kenri
+  - id: chihou-zei-hou-art-311-p1-kou-1
+    type: kou
+    text: 均等割を納付する義務がある同一生計配偶者又は扶養親族（年齢十六歳未満の者及び第三百十四条の二第一項第十一号に規定する控除対象扶養親族に限る。）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-311-p1-kou-2
+    type: kou
+    text: 前号に掲げる者を二人以上有する者
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第三百十一条
 
-<!-- segment: hashira id: chihou-zei-hou-art-311-p1-hashira -->
 市町村は、市町村民税の納税義務者が次の各号に掲げる者のいずれかに該当する場合には、その者に対して課する均等割の額を、当該市町村の条例で定めるところにより、軽減することができる。
+
+一　均等割を納付する義務がある同一生計配偶者又は扶養親族（年齢十六歳未満の者及び第三百十四条の二第一項第十一号に規定する控除対象扶養親族に限る。）
+
+二　前号に掲げる者を二人以上有する者

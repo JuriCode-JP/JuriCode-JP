@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 内国法人は、納税地の所轄税務署長の承認を受けた場合には、次に掲げる申告書及びこれらの申告書に係る修正申告書を青色の申告書により提出することができる。
     modality: kanou_kenri
+  - id: houjin-zei-hou-art-121-p1-kou-1
+    type: kou
+    text: 中間申告書
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-art-121-p1-kou-2
+    type: kou
+    text: 確定申告書
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -32,6 +42,16 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前項
+  - id: houjin-zei-hou-art-121-p2-kou-1
+    type: kou
+    text: 退職年金等積立金中間申告書
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-art-121-p2-kou-2
+    type: kou
+    text: 退職年金等積立金確定申告書
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments:
 - effective_date: '2022-04-01'
@@ -54,10 +74,16 @@ parent_section:
 
 ### 第百二十一条第一項
 
-<!-- segment: hashira id: houjin-zei-hou-art-121-p1-hashira -->
 内国法人は、納税地の所轄税務署長の承認を受けた場合には、次に掲げる申告書及びこれらの申告書に係る修正申告書を青色の申告書により提出することができる。
+
+一　中間申告書
+
+二　確定申告書
 
 ### 第百二十一条第二項
 
-<!-- segment: hashira id: houjin-zei-hou-art-121-p2-hashira -->
 前項の承認を受けている内国法人は、次に掲げる申告書及びこれらの申告書に係る修正申告書について、青色の申告書により提出することができる。
+
+一　退職年金等積立金中間申告書
+
+二　退職年金等積立金確定申告書

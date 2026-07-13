@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-484-2-p1
+    type: simple
+    text: 前条前段の規定による呼出しを受けた者が、正当な理由がなく、指定された日時及び場所に出頭しないときは、二年以下の拘禁刑に処する。
+    modality: gimu_kei
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

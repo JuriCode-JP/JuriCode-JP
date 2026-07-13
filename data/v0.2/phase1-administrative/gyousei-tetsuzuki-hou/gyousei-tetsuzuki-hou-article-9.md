@@ -46,10 +46,8 @@ parent_section:
 
 ### 第九条第一項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-9-p1 -->
 行政庁は、申請者の求めに応じ、当該申請に係る審査の進行状況及び当該申請に対する処分の時期の見通しを示すよう努めなければならない。
 
 ### 第九条第二項
 
-<!-- segment: simple id: gyousei-tetsuzuki-hou-art-9-p2 -->
 行政庁は、申請をしようとする者又は申請者の求めに応じ、申請書の記載及び添付書類に関する事項その他の申請に必要な情報の提供に努めなければならない。

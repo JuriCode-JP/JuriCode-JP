@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六十九条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-69-p1 -->
 過少申告加算税、無申告加算税、不納付加算税及び重加算税（以下「加算税」という。）は、その額の計算の基礎となる税額の属する税目の国税とする。

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二百五十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-253-p1 -->
 時効は、犯罪行為が終つた時から進行する。
 
 ### 第二百五十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-253-p2 -->
 共犯の場合には、最終の行為が終つた時から、すべての共犯に対して時効の期間を起算する。

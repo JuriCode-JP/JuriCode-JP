@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-31-p1
+    type: simple
+    text: 公判前整理手続に付された事件については、裁判所は、裁判所の規則の定めるところにより、前条の手続が終わつた後、公判期日において、当該公判前整理手続の結果を明らかにしなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-31-p2
+    type: simple
+    text: 期日間整理手続に付された事件については、裁判所は、裁判所の規則の定めるところにより、その手続が終わつた後、公判期日において、当該期日間整理手続の結果を明らかにしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

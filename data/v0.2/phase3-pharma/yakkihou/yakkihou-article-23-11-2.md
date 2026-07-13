@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-11-2-p1
+    type: simple
+    text: 厚生労働大臣は、登録認証機関が第二十三条の四第一項の規定に違反していると認めるとき、又は基準適合性認証を受けた者が同条第二項各号のいずれかに該当すると認めるときは、当該登録認証機関に対し、当該基準適合性認証の取消しその他必要な措置を採るべきことを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

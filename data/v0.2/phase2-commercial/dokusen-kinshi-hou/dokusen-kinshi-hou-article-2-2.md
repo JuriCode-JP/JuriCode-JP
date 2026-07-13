@@ -16,77 +16,149 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p1
+    type: simple
+    text: この章において「市場占有率」とは、一定の取引分野において一定の期間内に供給される商品若しくは役務の数量のうち一若しくは二以上の事業者が供給し、若しくは供給を受ける当該商品若しくは役務の数量の占める割合又は一定の取引分野において一定の期間内に供給される商品若しくは役務の価額のうち一若しくは二以上の事業者が供給し、若しくは供給を受ける当該商品若しくは役務の価額の占める割合をいう。
+    modality: teigi
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p2-zen
+    type: zen_dan
+    text: この章において「子会社等」とは、事業者の子会社（法人がその総株主（総社員を含む。以下同じ。）の議決権（株主総会において決議をすることができる事項の全部につき議決権を行使することができない株式についての議決権を除き、会社法（平成十七年法律第八十六号）第八百七十九条第三項の規定により議決権を有するものとみなされる株式についての議決権及び社債、株式等の振替に関する法律（平成十三年法律第七十五号）第百四十七条第一項又は第百四十八条第一項の規定により発行者に対抗することができない株式に係る議決権を含む。以下この項及び次項において同じ。）の過半数を有する他の会社をいう。
+    modality: teigi
+    references:
+    - 次項
+  - id: dokusen-kinshi-hou-art-2-2-p2-kou
+    type: kou_dan
+    text: この場合において、法人及びその一若しくは二以上の子会社又は法人の一若しくは二以上の子会社がその総株主の議決権の過半数を有する他の会社は、当該法人の子会社とみなす。以下この項において同じ。）若しくは親会社（会社を子会社とする他の会社をいう。以下この項において同じ。）又は当該事業者と親会社が同一である他の会社をいう。
+    modality: teigi
+    depends_on: dokusen-kinshi-hou-art-2-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p3-zen
+    type: zen_dan
+    text: この章において「完全子会社等」とは、事業者の完全子会社（法人がその総株主の議決権の全部を有する他の会社をいう。
+    modality: teigi
+  - id: dokusen-kinshi-hou-art-2-2-p3-kou
+    type: kou_dan
+    text: この場合において、法人及びその一若しくは二以上の完全子会社又は法人の一若しくは二以上の完全子会社がその総株主の議決権の全部を有する他の会社は、当該法人の完全子会社とみなす。以下この章及び第五章において同じ。）若しくは完全親会社（会社を完全子会社とする他の会社をいう。以下この項において同じ。）又は当該事業者と完全親会社が同一である他の会社をいう。
+    modality: teigi
+    depends_on: dokusen-kinshi-hou-art-2-2-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p4
+    type: simple
+    text: この章において「供給子会社等」とは、第七条の二第一項又は第七条の九第一項若しくは第二項に規定する違反行為のうちいずれかの違反行為（第十三項及び第十四項を除き、以下この条において単に「違反行為」という。）をした事業者の子会社等であつて、当該違反行為に係る一定の取引分野において当該違反行為に係る商品又は役務を供給したものをいう。
+    modality: teigi
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p5
+    type: simple
+    text: この章において「違反供給子会社等」とは、供給子会社等であつて、違反行為をした事業者の当該違反行為に係る一定の取引分野において当該違反行為をしたものをいう。
+    modality: teigi
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p6
+    type: simple
+    text: この章において「非違反供給子会社等」とは、供給子会社等であつて、違反行為をした事業者の当該違反行為に係る一定の取引分野において当該違反行為をしていないものをいう。
+    modality: teigi
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p7
+    type: simple
+    text: この章において「特定非違反供給子会社等」とは、非違反供給子会社等のうち、違反行為をした事業者と完全子会社等の関係にあるものであつて、他の者に当該違反行為に係る商品又は役務を供給することについて当該事業者から指示を受け、又は情報を得た上で、当該指示又は情報に基づき当該商品又は役務を供給したものをいう。
+    modality: teigi
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p8
+    type: simple
+    text: この章において「購入子会社等」とは、違反行為をした事業者の子会社等であつて、当該違反行為に係る一定の取引分野において当該違反行為に係る商品又は役務の供給を受けたものをいう。
+    modality: teigi
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p9
+    type: simple
+    text: この章において「違反購入子会社等」とは、購入子会社等であつて、違反行為をした事業者の当該違反行為に係る一定の取引分野において当該違反行為をしたものをいう。
+    modality: teigi
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p10
+    type: simple
+    text: この章において「非違反購入子会社等」とは、購入子会社等であつて、違反行為をした事業者の当該違反行為に係る一定の取引分野において当該違反行為をしていないものをいう。
+    modality: teigi
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p11
+    type: simple
+    text: この章において「特定非違反購入子会社等」とは、非違反購入子会社等のうち、違反行為をした事業者と完全子会社等の関係にあるものであつて、他の者から当該違反行為に係る商品又は役務の供給を受けることについて当該事業者から指示を受け、又は情報を得た上で、当該指示又は情報に基づき当該商品又は役務の供給を受けたものをいう。
+    modality: teigi
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p12
+    type: simple
+    text: この章において「事前通知」とは、第七条の二第一項又は第七条の九第一項若しくは第二項の規定により課徴金の納付を命ずる場合において、第六十二条第四項において読み替えて準用する第五十条第一項の規定により公正取引委員会が違反行為をした事業者に対してする通知をいう。
+    modality: teigi
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p13
+    type: simple
+    text: この章において「実行期間」とは、第七条の二第一項又は第七条の九第一項に規定する違反行為をした事業者に係る当該違反行為の実行としての事業活動を行つた日（当該事業者に対し当該違反行為について第四十七条第一項第一号、第三号若しくは第四号に掲げる処分、第百二条第一項若しくは第二項に規定する処分又は第百三条の三各号に掲げる処分が最初に行われた日（当該事業者に対し当該処分が行われなかつたときは、当該事業者が当該違反行為について事前通知を受けた日）の十年前の日前であるときは、同日）から当該違反行為の実行としての事業活動がなくなる日までの期間をいう。
+    modality: teigi
 - number: 14
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p14
+    type: simple
+    text: この章において「違反行為期間」とは、第七条の九第二項に規定する違反行為をした事業者に係る当該違反行為をした日（当該事業者に対し当該違反行為について第四十七条第一項第一号、第三号若しくは第四号に掲げる処分、第百二条第一項若しくは第二項に規定する処分又は第百三条の三各号に掲げる処分が最初に行われた日（当該事業者に対し当該処分が行われなかつたときは、当該事業者が当該違反行為について事前通知を受けた日）の十年前の日前であるときは、同日）から当該違反行為がなくなる日までの期間をいう。
+    modality: teigi
 - number: 15
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: dokusen-kinshi-hou-art-2-2-p15
+    type: simple
+    text: この章（第七条の四を除く。）において「調査開始日」とは、違反行為に係る事件について第四十七条第一項第一号、第三号若しくは第四号に掲げる処分、第百二条第一項若しくは第二項に規定する処分又は第百三条の三各号に掲げる処分が最初に行われた日（当該処分が行われなかつたときは、当該違反行為をした事業者が当該違反行為について事前通知を受けた日）をいう。
+    modality: teigi
 cases: []
 amendments: []
 tags:

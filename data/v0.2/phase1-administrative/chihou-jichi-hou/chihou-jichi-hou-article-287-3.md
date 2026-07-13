@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-3-p1
+    type: simple
+    text: 第二百八十五条の一部事務組合の規約には、その議会の議決すべき事件のうち当該一部事務組合を組織する市町村又は特別区の一部に係るものその他特別の必要があるものの議決の方法について特別の規定を設けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-3-p2
+    type: simple
+    text: 第二百八十五条の一部事務組合には、当該一部事務組合の規約で定めるところにより、管理者に代えて、理事をもつて組織する理事会を置くことができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-3-p3
+    type: simple
+    text: 前項の理事は、一部事務組合を組織する市町村若しくは特別区の長又は当該市町村若しくは特別区の長がその議会の同意を得て当該市町村又は特別区の職員のうちから指名する者をもつて充てる。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

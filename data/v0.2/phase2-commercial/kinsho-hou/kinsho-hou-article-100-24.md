@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-24-p1
+    type: junyou
+    text: 第八十八条の九及び第八十八条の十二から第八十八条の十五までの規定は、清算人がその職務を行う場合について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

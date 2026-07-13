@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-29-p1
+    type: simple
+    text: 前条第一項の期間の経過後に申出をした債権者は、認可地縁団体の債務が完済された後まだ権利の帰属すべき者に引き渡されていない財産に対してのみ、請求をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

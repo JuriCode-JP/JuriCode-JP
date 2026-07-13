@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百十条
 
-<!-- segment: simple id: keihou-art-210-p1 -->
 過失により人を死亡させた者は、五十万円以下の罰金に処する。

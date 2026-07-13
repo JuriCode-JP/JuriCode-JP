@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-4-p1
+    type: simple
+    text: 外国法人の各事業年度の恒久的施設に係る自己資本の額（当該恒久的施設に係る純資産の額として政令で定めるところにより計算した金額をいう。）が、当該外国法人の資本に相当する額のうち当該恒久的施設に帰せられるべき金額として政令で定めるところにより計算した金額に満たない場合には、当該外国法人の当該事業年度の恒久的施設を通じて行う事業に係る負債の利子（これに準ずるものとして政令で定めるものを含む。）の額として政令で定める金額のうち、その満たない金額に対応する部分の金額として政令で定めるところにより計算した金額は、当該外国法人の当該事業年度の恒久的施設帰属所得に係る所得の金額の計算上、損金の額に算入しない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-4-p2
+    type: simple
+    text: 外国法人の資本に相当する額が著しく低い場合の恒久的施設に帰せられるべき資本に相当する額の計算その他前項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

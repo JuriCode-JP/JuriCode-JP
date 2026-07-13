@@ -21,6 +21,46 @@ paragraphs:
     type: hashira
     text: 法第百七十一条に規定する内閣府令で定める有価証券は、次に掲げるものとする。
     modality: gimu
+  - id: yuukashouken-kisei-furei-art-65-p1-kou-1
+    type: kou
+    text: 定義府令第二条に規定する有価証券
+    modality: unspecified
+    item_number: 1
+  - id: yuukashouken-kisei-furei-art-65-p1-kou-2
+    type: kou
+    text: 法第二条第一項第十七号に掲げる有価証券のうち、同項第一号から第六号まで及び前号に掲げる有価証券の性質を有するもの
+    modality: unspecified
+    item_number: 2
+  - id: yuukashouken-kisei-furei-art-65-p1-kou-3
+    type: kou
+    text: 定義府令第三条に規定する有価証券
+    modality: unspecified
+    item_number: 3
+  - id: yuukashouken-kisei-furei-art-65-p1-kou-4
+    type: kou
+    text: 法第二条第一項第十九号に掲げる有価証券のうち、同項第一号から第六号まで又は前三号若しくは次号から第八号までに掲げる有価証券に係るもの
+    modality: unspecified
+    item_number: 4
+  - id: yuukashouken-kisei-furei-art-65-p1-kou-5
+    type: kou
+    text: 法第二条第一項第二十号に掲げる有価証券のうち、同項第一号から第六号まで又は前各号に掲げる有価証券に係る権利を表示するもの
+    modality: unspecified
+    item_number: 5
+  - id: yuukashouken-kisei-furei-art-65-p1-kou-6
+    type: kou
+    text: 令第一条第一号及び第二号に掲げる有価証券
+    modality: unspecified
+    item_number: 6
+  - id: yuukashouken-kisei-furei-art-65-p1-kou-7
+    type: kou
+    text: 法第二条第二項の規定により有価証券とみなされる同項第一号に掲げる信託の受益権及び同項第二号に掲げる権利のうち、利益を補足する契約の存するもの
+    modality: unspecified
+    item_number: 7
+  - id: yuukashouken-kisei-furei-art-65-p1-kou-8
+    type: kou
+    text: 法第二条第二項の規定により有価証券とみなされるもののうち、令第一条の三の四に規定する権利
+    modality: unspecified
+    item_number: 8
 cases: []
 amendments: []
 tags:
@@ -37,5 +77,20 @@ parent_section:
 
 ### 第六十五条
 
-<!-- segment: hashira id: yuukashouken-kisei-furei-art-65-p1-hashira -->
 法第百七十一条に規定する内閣府令で定める有価証券は、次に掲げるものとする。
+
+一　定義府令第二条に規定する有価証券
+
+二　法第二条第一項第十七号に掲げる有価証券のうち、同項第一号から第六号まで及び前号に掲げる有価証券の性質を有するもの
+
+三　定義府令第三条に規定する有価証券
+
+四　法第二条第一項第十九号に掲げる有価証券のうち、同項第一号から第六号まで又は前三号若しくは次号から第八号までに掲げる有価証券に係るもの
+
+五　法第二条第一項第二十号に掲げる有価証券のうち、同項第一号から第六号まで又は前各号に掲げる有価証券に係る権利を表示するもの
+
+六　令第一条第一号及び第二号に掲げる有価証券
+
+七　法第二条第二項の規定により有価証券とみなされる同項第一号に掲げる信託の受益権及び同項第二号に掲げる権利のうち、利益を補足する契約の存するもの
+
+八　法第二条第二項の規定により有価証券とみなされるもののうち、令第一条の三の四に規定する権利

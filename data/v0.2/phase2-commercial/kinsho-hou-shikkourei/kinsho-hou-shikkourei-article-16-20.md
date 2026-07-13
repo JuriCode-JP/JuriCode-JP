@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-16-20-p1
+    type: simple
+    text: 法第四十九条の五に規定する全ての営業所又は事務所の計算に属する負債のうち政令で定めるものは、当該負債のうち同条に規定する金融商品取引業者の本店その他の非居住者に対する債務以外の負債とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

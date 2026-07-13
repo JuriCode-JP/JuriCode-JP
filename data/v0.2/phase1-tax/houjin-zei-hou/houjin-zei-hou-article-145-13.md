@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-145-13-p1
+    type: junyou
+    text: 前編第三章第三節（内国法人の退職年金等積立金に対する法人税の申告及び納付）の規定は、外国法人の退職年金等積立金に対する法人税についての申告及び納付について準用する。この場合において、第八十八条第二号（退職年金等積立金に係る中間申告）中「前条」とあるのは「第百四十五条の十二（外国法人に係る退職年金等積立金に対する法人税の税率）」と、第八十九条第二号（退職年金等積立金に係る確定申告）中「第八十七条（退職年金等積立金に対する法人税の税率）」とあるのは「第百四十五条の十二（外国法人に係る退職年金等積立金に対する法人税の税率）」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments:
 - effective_date: '2026-04-01'

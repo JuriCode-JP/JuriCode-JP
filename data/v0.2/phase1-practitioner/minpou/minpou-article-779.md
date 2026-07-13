@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百七十九条
 
-<!-- segment: simple id: minpou-art-779-p1 -->
 嫡出でない子は、その父又は母がこれを認知することができる。

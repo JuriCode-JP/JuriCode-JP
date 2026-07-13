@@ -16,32 +16,90 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-3-p1
+    type: simple
+    text: 法第二十七条の三十の十一第二項に規定する内閣府令で定める場合は、公開買付者において、第五項で定めるところにより、あらかじめ、株券等の発行者に対し、次項各号に掲げる方法（以下この条において「電磁的方法」という。）の種類及び内容を示し、書面又は電磁的方法による承諾を得ている場合とする。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-3-p2-hashira
+    type: hashira
+    text: 法第二十七条の三十の十一第二項に規定する内閣府令で定めるものは、次に掲げる方法とする。
+    modality: gimu
+  - id: koukai-kaitsuke-furei-art-33-3-p2-kou-1
+    type: kou
+    text: '電子情報処理組織を使用する方法のうちイ又はロに掲げるもの
+
+      イ 公開買付者の使用に係る電子計算機と株券等の発行者の使用に係る電子計算機とを接続する電気通信回線を通じて送信し、受信者の使用に係る電子計算機に備えられたファイルに記録する方法
+
+      ロ 公開買付者の使用に係る電子計算機に備えられたファイルに記録された書類に記載すべき事項を電気通信回線を通じて株券等の発行者の閲覧に供し、当該株券等の発行者の使用に係る電子計算機に備えられたファイルに当該事項を記録する方法（電磁的方法による提供を受ける旨の承諾又は受けない旨の申出をする場合にあっては、公開買付者の使用に係る電子計算機に備えられたファイルにその旨を記録する方法）'
+    modality: unspecified
+    item_number: 1
+  - id: koukai-kaitsuke-furei-art-33-3-p2-kou-2
+    type: kou
+    text: 電磁的記録媒体をもって調製するファイルに書類に記載すべき事項を記録したものを交付する方法
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-3-p3
+    type: simple
+    text: 前項各号に掲げる方法は、株券等の発行者がファイルへの記録を出力することによる書面を作成することができるものでなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-3-p4
+    type: simple
+    text: 第二項第一号の「電子情報処理組織」とは、公開買付者の使用に係る電子計算機と、株券等の発行者の使用に係る電子計算機とを電気通信回線で接続した電子情報処理組織をいう。
+    modality: teigi
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-3-p5-hashira
+    type: hashira
+    text: 第一項の規定により示すべき方法の種類及び内容は、次に掲げる事項とする。
+    modality: gimu
+  - id: koukai-kaitsuke-furei-art-33-3-p5-kou-1
+    type: kou
+    text: 第二項各号に規定する方法のうち公開買付者が使用するもの
+    modality: unspecified
+    item_number: 1
+  - id: koukai-kaitsuke-furei-art-33-3-p5-kou-2
+    type: kou
+    text: ファイルへの記録の方式
+    modality: unspecified
+    item_number: 2
 - number: 6
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: koukai-kaitsuke-furei-art-33-3-p6-honbun
+    type: honbun
+    text: 第一項に規定する承諾を得た公開買付者は、当該株券等の発行者から書面又は電磁的方法により電磁的方法による提供を受けない旨の申出があったときは、当該株券等の発行者に対し、当該書類に記載すべき事項の提供を電磁的方法によってしてはならない。
+    modality: gimu_negative
+  - id: koukai-kaitsuke-furei-art-33-3-p6-tadashi
+    type: tadashi
+    text: ただし、当該株券等の発行者が再び同項に規定する承諾をした場合は、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -61,6 +119,14 @@ tags:
 
 法第二十七条の三十の十一第二項に規定する内閣府令で定めるものは、次に掲げる方法とする。
 
+一　電子情報処理組織を使用する方法のうちイ又はロに掲げるもの
+
+　イ　公開買付者の使用に係る電子計算機と株券等の発行者の使用に係る電子計算機とを接続する電気通信回線を通じて送信し、受信者の使用に係る電子計算機に備えられたファイルに記録する方法
+
+　ロ　公開買付者の使用に係る電子計算機に備えられたファイルに記録された書類に記載すべき事項を電気通信回線を通じて株券等の発行者の閲覧に供し、当該株券等の発行者の使用に係る電子計算機に備えられたファイルに当該事項を記録する方法（電磁的方法による提供を受ける旨の承諾又は受けない旨の申出をする場合にあっては、公開買付者の使用に係る電子計算機に備えられたファイルにその旨を記録する方法）
+
+二　電磁的記録媒体をもって調製するファイルに書類に記載すべき事項を記録したものを交付する方法
+
 ### 第三十三条の三第三項
 
 前項各号に掲げる方法は、株券等の発行者がファイルへの記録を出力することによる書面を作成することができるものでなければならない。
@@ -72,6 +138,10 @@ tags:
 ### 第三十三条の三第五項
 
 第一項の規定により示すべき方法の種類及び内容は、次に掲げる事項とする。
+
+一　第二項各号に規定する方法のうち公開買付者が使用するもの
+
+二　ファイルへの記録の方式
 
 ### 第三十三条の三第六項
 

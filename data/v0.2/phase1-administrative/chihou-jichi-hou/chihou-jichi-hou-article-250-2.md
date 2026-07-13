@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-2-p1
+    type: simple
+    text: 国の行政機関又は都道府県の機関は、普通地方公共団体からの法令に基づく申請又は協議の申出（以下この款、第二百五十条の十三第二項、第二百五十一条の三第二項、第二百五十一条の五第一項、第二百五十一条の六第一項及び第二百五十二条の十七の三第三項において「申請等」という。）があつた場合において、許可、認可、承認、同意その他これらに類する行為（以下この款及び第二百五十二条の十七の三第三項において「許認可等」という。）をするかどうかを法令の定めに従つて判断するために必要とされる基準を定め、かつ、行政上特別の支障があるときを除き、これを公表しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-2-p2
+    type: simple
+    text: 国の行政機関又は都道府県の機関は、普通地方公共団体に対し、許認可等の取消しその他これに類する行為（以下本条及び第二百五十条の四において「許認可等の取消し等」という。）をするかどうかを法令の定めに従つて判断するために必要とされる基準を定め、かつ、これを公表するよう努めなければならない。
+    modality: doryoku_gimu
+    references:
+    - 本条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-2-p3
+    type: simple
+    text: 国の行政機関又は都道府県の機関は、第一項又は前項に規定する基準を定めるに当たつては、当該許認可等又は許認可等の取消し等の性質に照らしてできる限り具体的なものとしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

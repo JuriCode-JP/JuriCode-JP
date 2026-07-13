@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第三百九十六条の二第一項第七号に規定する政令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-52-17-p1-kou-1
+    type: kou
+    text: 調査（法第三百九十六条の二第一項第一号に規定する調査をいう。以下この条において同じ。）の相手方である同項に規定する納税義務者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-52-17-p1-kou-2
+    type: kou
+    text: 調査を行う総務省指定職員の氏名（総務省指定職員が複数であるときは、総務省指定職員を代表する者の氏名）
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-52-17-p1-kou-3
+    type: kou
+    text: 法第三百九十六条の二第一項第一号又は第二号に掲げる事項の変更に関する事項
+    modality: unspecified
+    item_number: 3
+  - id: chihou-zei-hou-shikkourei-art-52-17-p1-kou-4
+    type: kou
+    text: 法第三百九十六条の二第三項の規定の趣旨
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +70,16 @@ parent_section:
 
 ### 第五十二条の十七第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-52-17-p1-hashira -->
 法第三百九十六条の二第一項第七号に規定する政令で定める事項は、次に掲げる事項とする。
+
+一　調査（法第三百九十六条の二第一項第一号に規定する調査をいう。以下この条において同じ。）の相手方である同項に規定する納税義務者の氏名及び住所又は居所
+
+二　調査を行う総務省指定職員の氏名（総務省指定職員が複数であるときは、総務省指定職員を代表する者の氏名）
+
+三　法第三百九十六条の二第一項第一号又は第二号に掲げる事項の変更に関する事項
+
+四　法第三百九十六条の二第三項の規定の趣旨
 
 ### 第五十二条の十七第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-52-17-p2 -->
 法第三百九十六条の二第一項各号に掲げる事項のうち、同項第二号に掲げる事項については調査を開始する日時において同項に規定する質問検査等を行おうとする場所を、同項第三号に掲げる事項については法第三百八十八条第四項第二号の助言のための調査、法第三百八十九条第一項の規定による固定資産の価格等の決定に関する調査又は法第四百二十二条の二第一項の指示のための調査である旨を、それぞれ通知するものとし、法第三百九十六条の二第一項第六号に掲げる事項については、同号に掲げる物件が地方税に関する法令の規定により備付け又は保存をしなければならないこととされているものである場合にはその旨を併せて通知するものとする。

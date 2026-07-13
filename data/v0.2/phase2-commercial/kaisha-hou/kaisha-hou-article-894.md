@@ -52,10 +52,8 @@ parent_section:
 
 ### 第八百九十四条第一項
 
-<!-- segment: simple id: kaisha-hou-art-894-p1 -->
 裁判所は、監督委員を解任する場合には、当該監督委員の陳述を聴かなければならない。
 
 ### 第八百九十四条第二項
 
-<!-- segment: simple id: kaisha-hou-art-894-p2 -->
 第五百三十二条第一項の規定による決定に対しては、即時抗告をすることができる。

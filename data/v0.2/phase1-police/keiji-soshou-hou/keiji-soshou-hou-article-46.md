@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-46-p1 -->
 被告人その他訴訟関係人は、自己の費用で、裁判書又は裁判を記載した調書の謄本又は抄本の交付を請求することができる。

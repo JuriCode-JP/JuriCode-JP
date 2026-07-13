@@ -23,6 +23,16 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: kaisha-hou-art-359-p1-kou-1
+    type: kou
+    text: 一定の期間内に株主総会を招集すること。
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-359-p1-kou-2
+    type: kou
+    text: 前条第五項の調査の結果を株主に通知すること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -33,8 +43,8 @@ paragraphs:
     text: 裁判所が前項第一号に掲げる措置を命じた場合には、取締役は、前条第五項の報告の内容を同号の株主総会において開示しなければならない。
     modality: gimu
     references:
-    - 前項
     - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -45,8 +55,8 @@ paragraphs:
     text: 前項に規定する場合には、取締役（監査役設置会社にあっては、取締役及び監査役）は、前条第五項の報告の内容を調査し、その結果を第一項第一号の株主総会に報告しなければならない。
     modality: gimu
     references:
-    - 前項
     - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -67,15 +77,16 @@ parent_section:
 
 ### 第三百五十九条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-359-p1-hashira -->
 裁判所は、前条第五項の報告があった場合において、必要があると認めるときは、取締役に対し、次に掲げる措置の全部又は一部を命じなければならない。
+
+一　一定の期間内に株主総会を招集すること。
+
+二　前条第五項の調査の結果を株主に通知すること。
 
 ### 第三百五十九条第二項
 
-<!-- segment: simple id: kaisha-hou-art-359-p2 -->
 裁判所が前項第一号に掲げる措置を命じた場合には、取締役は、前条第五項の報告の内容を同号の株主総会において開示しなければならない。
 
 ### 第三百五十九条第三項
 
-<!-- segment: simple id: kaisha-hou-art-359-p3 -->
 前項に規定する場合には、取締役（監査役設置会社にあっては、取締役及び監査役）は、前条第五項の報告の内容を調査し、その結果を第一項第一号の株主総会に報告しなければならない。

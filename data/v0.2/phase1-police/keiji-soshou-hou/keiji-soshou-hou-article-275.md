@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百七十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-275-p1 -->
 第一回の公判期日と被告人に対する召喚状の送達との間には、裁判所の規則で定める猶予期間を置かなければならない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-11-p1
+    type: simple
+    text: 金融商品取引清算機関が業務方法書で清算預託金（清算参加者が金融商品取引清算機関に対し債務の履行を担保するために預託する金銭その他の財産（内閣府令で定めるものに限る。）をいう。以下この条において同じ。）を定めている場合において、清算参加者が債務の不履行により金融商品取引清算機関に対し損害を与えたときは、その損害を受けた金融商品取引清算機関は、その損害を与えた清算参加者の清算預託金について、他の債権者に先立ち弁済を受ける権利を有する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

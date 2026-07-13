@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百九十条
 
-<!-- segment: simple id: minpou-art-290-p1 -->
 前条の規定による地役権の消滅時効は、地役権者がその権利を行使することによって中断する。

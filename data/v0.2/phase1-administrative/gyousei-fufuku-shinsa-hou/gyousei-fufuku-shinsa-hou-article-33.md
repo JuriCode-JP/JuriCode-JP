@@ -44,6 +44,4 @@ parent_section:
 
 ### 第三十三条
 
-<!-- segment: zen_dan id: gyousei-fufuku-shinsa-hou-art-33-p1-zen -->
-審理員は、審査請求人若しくは参加人の申立てにより又は職権で、書類その他の物件の所持人に対し、相当の期間を定めて、その物件の提出を求めることができる。<!-- segment: kou_dan id: gyousei-fufuku-shinsa-hou-art-33-p1-kou depends_on: gyousei-fufuku-shinsa-hou-art-33-p1-zen -->
-この場合において、審理員は、その提出された物件を留め置くことができる。
+審理員は、審査請求人若しくは参加人の申立てにより又は職権で、書類その他の物件の所持人に対し、相当の期間を定めて、その物件の提出を求めることができる。この場合において、審理員は、その提出された物件を留め置くことができる。

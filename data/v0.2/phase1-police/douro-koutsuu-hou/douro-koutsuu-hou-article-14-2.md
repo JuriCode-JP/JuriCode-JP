@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-14-2-p1
+    type: simple
+    text: 遠隔操作型小型車は、遠隔操作により道路を通行する場合において、歩行者の通行を妨げることとなるときは、当該歩行者に進路を譲らなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

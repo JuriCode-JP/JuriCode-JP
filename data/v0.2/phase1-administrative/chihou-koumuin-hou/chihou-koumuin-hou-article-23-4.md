@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-23-4-p1
+    type: simple
+    text: 人事委員会は、人事評価の実施に関し、任命権者に勧告することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法第十三条の三第二項に規定する厚生労働省令で定める医薬品の医薬品等外国製造業者の認定の区分は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-35-p1-kou-1
+    type: kou
+    text: 令第八十条第二項第三号イ、ハ及びニに規定する医薬品の製造工程の全部又は一部を行うもの
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-35-p1-kou-2
+    type: kou
+    text: 放射性医薬品（前号に掲げるものを除く。）の製造工程の全部又は一部を行うもの
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-35-p1-kou-3
+    type: kou
+    text: 無菌医薬品の製造工程の全部又は一部を行うもの（第五号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-35-p1-kou-4
+    type: kou
+    text: 前三号に掲げる医薬品以外の医薬品の製造工程の全部又は一部を行うもの（次号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-35-p1-kou-5
+    type: kou
+    text: 前二号に掲げる医薬品の製造工程のうち包装、表示又は保管のみを行うもの
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +55,21 @@ paragraphs:
     type: hashira
     text: 法第十三条の三第二項に規定する厚生労働省令で定める医薬部外品の医薬品等外国製造業者の認定の区分は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-35-p2-kou-1
+    type: kou
+    text: 無菌医薬部外品の製造工程の全部又は一部を行うもの（第三号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-35-p2-kou-2
+    type: kou
+    text: 前号の無菌医薬部外品以外の医薬部外品の製造工程の全部又は一部を行うもの（次号に掲げるものを除く。）
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-35-p2-kou-3
+    type: kou
+    text: 医薬部外品の製造工程のうち包装、表示又は保管のみを行うもの
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -46,10 +86,24 @@ parent_section:
 
 ### 第三十五条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-35-p1-hashira -->
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-35-p2-hashira -->
 法第十三条の三第二項に規定する厚生労働省令で定める医薬品の医薬品等外国製造業者の認定の区分は、次のとおりとする。
+
+一　令第八十条第二項第三号イ、ハ及びニに規定する医薬品の製造工程の全部又は一部を行うもの
+
+二　放射性医薬品（前号に掲げるものを除く。）の製造工程の全部又は一部を行うもの
+
+三　無菌医薬品の製造工程の全部又は一部を行うもの（第五号に掲げるものを除く。）
+
+四　前三号に掲げる医薬品以外の医薬品の製造工程の全部又は一部を行うもの（次号に掲げるものを除く。）
+
+五　前二号に掲げる医薬品の製造工程のうち包装、表示又は保管のみを行うもの
 
 ### 第三十五条第二項
 
 法第十三条の三第二項に規定する厚生労働省令で定める医薬部外品の医薬品等外国製造業者の認定の区分は、次のとおりとする。
+
+一　無菌医薬部外品の製造工程の全部又は一部を行うもの（第三号に掲げるものを除く。）
+
+二　前号の無菌医薬部外品以外の医薬部外品の製造工程の全部又は一部を行うもの（次号に掲げるものを除く。）
+
+三　医薬部外品の製造工程のうち包装、表示又は保管のみを行うもの

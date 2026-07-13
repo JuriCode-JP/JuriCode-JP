@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 当事者間において媒介に係る行為が成立したときは、仲立人は、遅滞なく、次に掲げる事項を記載した書面（以下この章において「結約書」という。）を作成し、かつ、署名し、又は記名押印した後、これを各当事者に交付しなければならない。
     modality: gimu
+  - id: shouhou-art-546-p1-kou-1
+    type: kou
+    text: 各当事者の氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: shouhou-art-546-p1-kou-2
+    type: kou
+    text: 当該行為の年月日及びその要領
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -61,15 +71,16 @@ parent_section:
 
 ### 第五百四十六条第一項
 
-<!-- segment: hashira id: shouhou-art-546-p1-hashira -->
 当事者間において媒介に係る行為が成立したときは、仲立人は、遅滞なく、次に掲げる事項を記載した書面（以下この章において「結約書」という。）を作成し、かつ、署名し、又は記名押印した後、これを各当事者に交付しなければならない。
+
+一　各当事者の氏名又は名称
+
+二　当該行為の年月日及びその要領
 
 ### 第五百四十六条第二項
 
-<!-- segment: simple id: shouhou-art-546-p2 -->
 前項の場合においては、当事者が直ちに履行をすべきときを除き、仲立人は、各当事者に結約書に署名させ、又は記名押印させた後、これをその相手方に交付しなければならない。
 
 ### 第五百四十六条第三項
 
-<!-- segment: simple id: shouhou-art-546-p3 -->
 前二項の場合において、当事者の一方が結約書を受領せず、又はこれに署名若しくは記名押印をしないときは、仲立人は、遅滞なく、相手方に対してその旨の通知を発しなければならない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-55-2-p1
+    type: simple
+    text: 模造に係る医薬品は、販売し、授与し、又は販売若しくは授与の目的で製造し、輸入し、貯蔵し、若しくは陳列してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

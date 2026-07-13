@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-15-p1
+    type: simple
+    text: 法第六十四条の八第一項（法第六十六条の二十五において準用する場合を含む。）の規定による登録手数料は、外務員（法第六十四条第一項に規定する外務員をいう。以下同じ。）一人につき三千円を超えない範囲内において実費を勘案して内閣府令で定める額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-15-p2
+    type: simple
+    text: 前項の手数料は、国に納める場合にあつては、登録申請書に、手数料の金額に相当する額の収入印紙を貼つて納めなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

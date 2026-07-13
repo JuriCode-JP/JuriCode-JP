@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-14-p1
+    type: simple
+    text: 内閣総理大臣は、認可協会が登録する店頭売買有価証券（株券又は第二条第一項第二十号に掲げる証券若しくは証書のうち株券に係る権利を表示するもの（以下この条及び第百二十五条において「株券等」という。）に限る。）の発行者が発行者である株券等で当該認可協会が第六十七条の十一第一項の規定による登録をしていないものを、当該認可協会が同項の規定により登録することが公益又は投資者保護のため必要かつ適当であると認めるときは、当該認可協会に対し、その株券等を同項の規定により登録すべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

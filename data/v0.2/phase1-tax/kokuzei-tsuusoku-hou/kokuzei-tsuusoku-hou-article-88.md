@@ -69,16 +69,12 @@ parent_section:
 
 ### 第八十八条第一項
 
-<!-- segment: zen_dan id: kokuzei-tsuusoku-hou-art-88-p1-zen -->
-審査請求は、審査請求に係る処分（当該処分に係る再調査の請求についての決定を含む。）をした行政機関の長を経由してすることもできる。<!-- segment: kou_dan id: kokuzei-tsuusoku-hou-art-88-p1-kou depends_on: kokuzei-tsuusoku-hou-art-88-p1-zen -->
-この場合において、審査請求人は、当該行政機関の長に審査請求書を提出してするものとする。
+審査請求は、審査請求に係る処分（当該処分に係る再調査の請求についての決定を含む。）をした行政機関の長を経由してすることもできる。この場合において、審査請求人は、当該行政機関の長に審査請求書を提出してするものとする。
 
 ### 第八十八条第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-88-p2 -->
 前項の場合には、同項の行政機関の長は、直ちに、審査請求書を国税不服審判所長に送付しなければならない。
 
 ### 第八十八条第三項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-88-p3 -->
 第一項の場合における審査請求期間の計算については、同項の行政機関の長に審査請求書が提出された時に審査請求がされたものとみなす。

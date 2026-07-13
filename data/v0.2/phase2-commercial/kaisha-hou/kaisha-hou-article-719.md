@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 社債権者集会を招集する者（以下この章において「招集者」という。）は、社債権者集会を招集する場合には、次に掲げる事項を定めなければならない。
     modality: gimu
+  - id: kaisha-hou-art-719-p1-kou-1
+    type: kou
+    text: 社債権者集会の日時及び場所
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-719-p1-kou-2
+    type: kou
+    text: 社債権者集会の目的である事項
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-719-p1-kou-3
+    type: kou
+    text: 社債権者集会に出席しない社債権者が電磁的方法によって議決権を行使することができることとするときは、その旨
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-719-p1-kou-4
+    type: kou
+    text: 前三号に掲げるもののほか、法務省令で定める事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第七百十九条
 
-<!-- segment: hashira id: kaisha-hou-art-719-p1-hashira -->
 社債権者集会を招集する者（以下この章において「招集者」という。）は、社債権者集会を招集する場合には、次に掲げる事項を定めなければならない。
+
+一　社債権者集会の日時及び場所
+
+二　社債権者集会の目的である事項
+
+三　社債権者集会に出席しない社債権者が電磁的方法によって議決権を行使することができることとするときは、その旨
+
+四　前三号に掲げるもののほか、法務省令で定める事項

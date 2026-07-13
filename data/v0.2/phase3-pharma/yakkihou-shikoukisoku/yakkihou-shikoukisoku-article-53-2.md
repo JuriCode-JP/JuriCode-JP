@@ -16,17 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-2-p1
+    type: simple
+    text: 法第十四条の二第二項の規定による調査（以下「医薬品等区分適合性調査」という。）の申請は、様式第二十六の二による申請書を厚生労働大臣（令第八十条の規定により当該調査の権限に属する事務を都道府県知事が行うこととされた場合にあつては、都道府県知事）に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-2-p2-hashira
+    type: hashira
+    text: 前項の申請書には、次に掲げる資料を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-53-2-p2-kou-1
+    type: kou
+    text: 医薬品等区分適合性調査に係る品目の製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-53-2-p2-kou-2
+    type: kou
+    text: 医薬品等区分適合性調査に係る製造業者及び製造所における製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-2-p3
+    type: simple
+    text: 厚生労働大臣が法第十四条の二の三の規定により機構に医薬品等区分適合性調査を行わせることとした場合における第一項の適用については、同項中「厚生労働大臣（令第八十条の規定により当該調査の権限に属する事務を都道府県知事が行うこととされている場合にあつては、都道府県知事）」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -48,6 +74,10 @@ parent_section:
 ### 第五十三条の二第二項
 
 前項の申請書には、次に掲げる資料を添えなければならない。
+
+一　医薬品等区分適合性調査に係る品目の製造管理及び品質管理に関する資料
+
+二　医薬品等区分適合性調査に係る製造業者及び製造所における製造管理及び品質管理に関する資料
 
 ### 第五十三条の二第三項
 

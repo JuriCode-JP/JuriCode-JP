@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百三十一条
 
-<!-- segment: simple id: shouhou-art-531-p1 -->
 当事者が相殺をすべき期間を定めなかったときは、その期間は、六箇月とする。

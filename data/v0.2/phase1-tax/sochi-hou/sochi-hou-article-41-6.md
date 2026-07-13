@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十一条の六
 
-<!-- segment: simple id: sochi-hou-art-41-6-p1 -->
 削除

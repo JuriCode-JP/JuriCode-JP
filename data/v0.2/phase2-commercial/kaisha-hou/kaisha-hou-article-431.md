@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四百三十一条
 
-<!-- segment: simple id: kaisha-hou-art-431-p1 -->
 株式会社の会計は、一般に公正妥当と認められる企業会計の慣行に従うものとする。

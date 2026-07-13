@@ -41,5 +41,4 @@ parent_section:
 
 ### 第十二条
 
-<!-- segment: simple id: minpou-art-12-p1 -->
 保佐開始の審判を受けた者は、被保佐人とし、これに保佐人を付する。

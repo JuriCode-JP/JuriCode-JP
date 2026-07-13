@@ -13,50 +13,124 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-6-p1-honbun
+    type: honbun
+    text: 株式交付をする場合には、反対株主は、株式交付親会社に対し、自己の有する株式を公正な価格で買い取ることを請求することができる。
+    modality: kanou_kenri
+  - id: kaisha-hou-art-816-6-p1-tadashi
+    type: tadashi
+    text: ただし、第八百十六条の四第一項本文に規定する場合（同項ただし書又は同条第二項に規定する場合を除く。）は、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-6-p2-hashira
+    type: hashira
+    text: 前項に規定する「反対株主」とは、次の各号に掲げる場合における当該各号に定める株主をいう。
+    modality: teigi
+    references:
+    - 前項
+  - id: kaisha-hou-art-816-6-p2-kou-1
+    type: kou
+    text: '株式交付をするために株主総会（種類株主総会を含む。）の決議を要する場合　次に掲げる株主
+
+      イ 当該株主総会に先立って当該株式交付に反対する旨を当該株式交付親会社に対し通知し、かつ、当該株主総会において当該株式交付に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
+
+      ロ 当該株主総会において議決権を行使することができない株主'
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-816-6-p2-kou-2
+    type: kou
+    text: 前号に掲げる場合以外の場合　全ての株主
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-6-p3
+    type: simple
+    text: 株式交付親会社は、効力発生日の二十日前までに、その株主に対し、株式交付をする旨並びに株式交付子会社の商号及び住所を通知しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-6-p4-hashira
+    type: hashira
+    text: 次に掲げる場合には、前項の規定による通知は、公告をもってこれに代えることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: kaisha-hou-art-816-6-p4-kou-1
+    type: kou
+    text: 株式交付親会社が公開会社である場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-816-6-p4-kou-2
+    type: kou
+    text: 株式交付親会社が第八百十六条の三第一項の株主総会の決議によって株式交付計画の承認を受けた場合
+    modality: unspecified
+    item_number: 2
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-6-p5
+    type: simple
+    text: 第一項の規定による請求（以下この節において「株式買取請求」という。）は、効力発生日の二十日前の日から効力発生日の前日までの間に、その株式買取請求に係る株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）を明らかにしてしなければならない。
+    modality: gimu
 - number: 6
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-6-p6-honbun
+    type: honbun
+    text: 株券が発行されている株式について株式買取請求をしようとするときは、当該株式の株主は、株式交付親会社に対し、当該株式に係る株券を提出しなければならない。
+    modality: gimu
+  - id: kaisha-hou-art-816-6-p6-tadashi
+    type: tadashi
+    text: ただし、当該株券について第二百二十三条の規定による請求をした者については、この限りでない。
+    modality: jogai
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-6-p7
+    type: simple
+    text: 株式買取請求をした株主は、株式交付親会社の承諾を得た場合に限り、その株式買取請求を撤回することができる。
+    modality: kanou_kenri
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-6-p8
+    type: simple
+    text: 株式交付を中止したときは、株式買取請求は、その効力を失う。
+    modality: unspecified
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-6-p9
+    type: simple
+    text: 第百三十三条の規定は、株式買取請求に係る株式については、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:
@@ -83,6 +157,14 @@ parent_section:
 
 前項に規定する「反対株主」とは、次の各号に掲げる場合における当該各号に定める株主をいう。
 
+一　株式交付をするために株主総会（種類株主総会を含む。）の決議を要する場合　次に掲げる株主
+
+　イ　当該株主総会に先立って当該株式交付に反対する旨を当該株式交付親会社に対し通知し、かつ、当該株主総会において当該株式交付に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
+
+　ロ　当該株主総会において議決権を行使することができない株主
+
+二　前号に掲げる場合以外の場合　全ての株主
+
 ### 第八百十六条の六第三項
 
 株式交付親会社は、効力発生日の二十日前までに、その株主に対し、株式交付をする旨並びに株式交付子会社の商号及び住所を通知しなければならない。
@@ -90,6 +172,10 @@ parent_section:
 ### 第八百十六条の六第四項
 
 次に掲げる場合には、前項の規定による通知は、公告をもってこれに代えることができる。
+
+一　株式交付親会社が公開会社である場合
+
+二　株式交付親会社が第八百十六条の三第一項の株主総会の決議によって株式交付計画の承認を受けた場合
 
 ### 第八百十六条の六第五項
 

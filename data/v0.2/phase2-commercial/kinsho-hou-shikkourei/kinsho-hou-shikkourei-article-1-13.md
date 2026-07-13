@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-13-p1
+    type: simple
+    text: 法第二条第二十一項第五号イ及び第二十二項第六号イに規定する政令で定めるものは、法人でない者の信用状態に係る事由その他事業を行う者における当該事業の経営の根幹にかかわる事由として内閣府令で定めるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-15-4-p1
+    type: simple
+    text: 前条第一項前段の規定による届出をした遠隔操作型小型車の使用者は、内閣府令で定めるところにより、同条第三項の規定により通知された届出番号等を遠隔操作型小型車の見やすい箇所に表示しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

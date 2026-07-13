@@ -45,5 +45,4 @@ parent_section:
 
 ### 第六十三条の二
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-63-2-p1 -->
 第五目から前目まで（減価償却資産の償却の方法等）に定めるもののほか、減価償却資産の償却費の計算に関する細目は、財務省令で定める。

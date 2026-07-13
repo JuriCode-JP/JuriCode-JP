@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-9-9-2-p1
+    type: simple
+    text: 法第五十三条第五十九項の規定により控除することができなかつた金額（次条において「租税条約の実施に係る控除不足額」という。）がある場合において、未納に係る地方団体の徴収金があるときは、当該控除不足額（次条の規定により加算すべき金額がある場合には、当該金額を加算した額）をその地方団体の徴収金に充当するものとする。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-9-9-2-p2
+    type: junyou
+    text: 第六条の十四第一項の規定は、前項の規定による充当について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-9-9-2-p3
+    type: simple
+    text: 第九条の四第一項、第九条の八の二第二項、第九条の八の三第一項及び第九条の八の六第一項並びに第一項の規定による充当については、まず第九条の四第一項の規定による充当をし、次に第九条の八の二第二項の規定による充当、第九条の八の三第一項の規定による充当、第九条の八の六第一項の規定による充当及び第一項の規定による充当の順序に充当するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

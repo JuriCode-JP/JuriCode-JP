@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-36-7-2-p1
+    type: simple
+    text: 法第七十三条の四第一項第四号の二に規定する政令で定める者は、社会福祉法人（日本赤十字社を含む。次条から第三十六条の十までにおいて同じ。）以外の者で児童福祉法（昭和二十二年法律第百六十四号）第三十四条の十五第二項の規定により同法第六条の三第十項に規定する小規模保育事業の認可を得たものとする。
+    modality: gimu
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-2-5-p1
+    type: simple
+    text: 医薬品、医療機器又は再生医療等製品の製造販売業者は、厚生労働省令で定める区分に応じ、医薬品、医療機器又は再生医療等製品の特定に資する情報を円滑に提供するため、医薬品、医療機器又は再生医療等製品を特定するための符号のこれらの容器への表示その他の厚生労働省令で定める措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-23-5-5-p1
+    type: simple
+    text: 法第七十条の二の五第四項に規定する財務省令で定める書類は、贈与税の額の計算に関する明細書並びに同条第一項の贈与により財産を取得した者の戸籍の謄本又は抄本その他の書類でその者の氏名、生年月日及びその者が当該贈与をした者の直系卑属に該当することを証するもの（既に同条第四項の規定により当該証する書類を添付した同項に規定する申告書又は更正請求書を提出している場合には、当該申告書又は更正請求書を提出した税務署の名称及びその提出に係る年分を記載した書類）とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-23-5-5-p2
+    type: tokusoku
+    text: 前項の規定にかかわらず、法第七十条の二の四及び相続税法第二十一条の六の規定による控除後の課税価格が三百万円以下である場合には、同項に規定する証する書類は、添付することを要しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

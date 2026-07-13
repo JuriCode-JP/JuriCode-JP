@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-27-p1
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、金融商品取引所持株会社若しくはその子会社に対し当該金融商品取引所持株会社の業務若しくは財産に関し参考となるべき報告若しくは資料の提出を命じ、又は当該職員に当該金融商品取引所持株会社若しくは当該子会社の業務若しくは財産の状況若しくは帳簿書類その他の物件の検査（当該子会社にあつては、当該金融商品取引所持株会社の業務又は財産に関し必要な検査に限る。）をさせることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

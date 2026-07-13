@@ -21,6 +21,66 @@ paragraphs:
     type: hashira
     text: 法第十四条の八第一項の厚生労働省令で定める資料及び情報は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-1
+    type: kou
+    text: 法第十三条第一項（同条第九項において準用する場合を含む。）の許可又は法第十三条の三第一項の認定の申請に際して提出した資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-2
+    type: kou
+    text: 法第十四条第一項の承認の申請及び同条第十三項の当該承認事項の一部変更の承認の申請に際して提出した資料及びその根拠となつた資料
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-3
+    type: kou
+    text: 法第十四条の二の二第二項前段に規定する資料
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-4
+    type: kou
+    text: 法第十四条の二の二の二第四項の規定による報告に際して提出した資料及びその根拠となつた資料
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-5
+    type: kou
+    text: 法第十四条の四第一項の再審査の申請に際して提出した資料及びその根拠となつた資料
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-6
+    type: kou
+    text: 法第十四条の四第七項の規定による報告に際して提出した資料及びその根拠となつた資料
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-7
+    type: kou
+    text: 法第十四条の六第一項の再評価の申請に際して提出した資料及びその根拠となつた資料
+    modality: unspecified
+    item_number: 7
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-8
+    type: kou
+    text: 法第十四条の七の二第一項及び第三項の確認の申請に際して提出した資料及びその根拠となつた資料並びに同条第六項の届出に際して提出した資料及びその根拠となつた資料
+    modality: unspecified
+    item_number: 8
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-9
+    type: kou
+    text: 法第六十八条の二十二第一項の規定による生物由来製品に関する記録及び当該記録に関連する資料
+    modality: unspecified
+    item_number: 9
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-10
+    type: kou
+    text: 品質管理の業務に関する資料及び情報
+    modality: unspecified
+    item_number: 10
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-11
+    type: kou
+    text: 製造販売後安全管理（法第十二条の二第一項第二号に規定する製造販売後安全管理をいう。以下同じ。）の業務に関する資料及び情報
+    modality: unspecified
+    item_number: 11
+  - id: yakkihou-shikoukisoku-art-69-p1-kou-12
+    type: kou
+    text: その他品質、有効性及び安全性に関する資料及び情報
+    modality: unspecified
+    item_number: 12
 - number: 2
   has_proviso: false
   has_items: false
@@ -57,15 +117,36 @@ parent_section:
 
 ### 第六十九条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-69-p1-hashira -->
 法第十四条の八第一項の厚生労働省令で定める資料及び情報は、次のとおりとする。
+
+一　法第十三条第一項（同条第九項において準用する場合を含む。）の許可又は法第十三条の三第一項の認定の申請に際して提出した資料
+
+二　法第十四条第一項の承認の申請及び同条第十三項の当該承認事項の一部変更の承認の申請に際して提出した資料及びその根拠となつた資料
+
+三　法第十四条の二の二第二項前段に規定する資料
+
+四　法第十四条の二の二の二第四項の規定による報告に際して提出した資料及びその根拠となつた資料
+
+五　法第十四条の四第一項の再審査の申請に際して提出した資料及びその根拠となつた資料
+
+六　法第十四条の四第七項の規定による報告に際して提出した資料及びその根拠となつた資料
+
+七　法第十四条の六第一項の再評価の申請に際して提出した資料及びその根拠となつた資料
+
+八　法第十四条の七の二第一項及び第三項の確認の申請に際して提出した資料及びその根拠となつた資料並びに同条第六項の届出に際して提出した資料及びその根拠となつた資料
+
+九　法第六十八条の二十二第一項の規定による生物由来製品に関する記録及び当該記録に関連する資料
+
+十　品質管理の業務に関する資料及び情報
+
+十一　製造販売後安全管理（法第十二条の二第一項第二号に規定する製造販売後安全管理をいう。以下同じ。）の業務に関する資料及び情報
+
+十二　その他品質、有効性及び安全性に関する資料及び情報
 
 ### 第六十九条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-69-p2 -->
 法第十四条の八第三項の規定による届出は、様式第三十八による届書（厚生労働大臣に提出する場合にあつては正副二通、都道府県知事に提出する場合にあつては正本一通）を提出することによつて行うものとする。
 
 ### 第六十九条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-69-p3 -->
 前項の届書には、医薬品等承認取得者の地位を承継する者であることを証する書類を添えなければならない。

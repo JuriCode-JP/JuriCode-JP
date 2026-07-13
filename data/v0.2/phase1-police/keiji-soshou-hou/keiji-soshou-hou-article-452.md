@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百五十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-452-p1 -->
 再審においては、原判決の刑より重い刑を言い渡すことはできない。

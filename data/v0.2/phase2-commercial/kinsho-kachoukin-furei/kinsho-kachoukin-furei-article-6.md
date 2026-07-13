@@ -50,10 +50,8 @@ parent_section:
 
 ### 第六条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-6-p1 -->
 審判官は、その職務を公正迅速に、かつ、独立して行わなければならない。
 
 ### 第六条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-6-p2 -->
 法第百八十条第二項の規定により、同条第一項本文の合議体を構成する審判官又は同項ただし書の一人の審判官として指定を受けることができる者には、検察官、弁護士又は弁護士となる資格を有する者を加えるものとする。

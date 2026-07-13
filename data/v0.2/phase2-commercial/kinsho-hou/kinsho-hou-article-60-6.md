@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-60-6-p1
+    type: junyou
+    text: 第四十六条の二、第四十六条の三及び第四十九条の三の規定は、取引所取引許可業者の取引所取引業務について準用する。この場合において、第四十六条の三第一項中「三月以内」とあるのは、「政令で定める期間内」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

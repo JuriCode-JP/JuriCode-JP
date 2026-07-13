@@ -14,9 +14,38 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-15-20-p1-hashira
+    type: hashira
+    text: 法第三十三条第二項第六号に規定する政令で定める取引は、次に掲げるものとする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-15-20-p1-kou-1
+    type: kou
+    text: 有価証券等清算取次ぎ（信用取引又は金融商品取引業者が自己の計算において行う有価証券の売買若しくは有価証券関連市場デリバティブ取引に係るものに限る。次号において同じ。）の決済に必要な金銭の貸借（証券金融会社による貸付けに係るものに限る。）
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-15-20-p1-kou-2
+    type: kou
+    text: 有価証券の貸借（有価証券等清算取次ぎの決済に必要な有価証券を取引所金融商品市場又は店頭売買有価証券市場の決済機構を利用して証券金融会社以外の者が貸し付ける場合にあつては、取引所金融商品市場又は店頭売買有価証券市場によらないで行われる有価証券等清算取次ぎに係る貸付けに限る。）
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-15-20-p1-kou-3
+    type: kou
+    text: 前二号に掲げる取引に係る担保の授受
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-15-20-p1-kou-4
+    type: kou
+    text: 証券投資信託の設定、証券投資信託の元本の一部の償還又は証券投資信託の受益証券と上場有価証券等との交換に係る受益証券又は金銭等の授受
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-shikkourei-art-15-20-p1-kou-5
+    type: kou
+    text: 前各号に掲げるもののほか、有価証券の売買、有価証券関連デリバティブ取引又は前各号に掲げる取引に基づく債務を履行するために行う有価証券又は金銭の授受
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -34,3 +63,13 @@ parent_section:
 ### 第十五条の二十
 
 法第三十三条第二項第六号に規定する政令で定める取引は、次に掲げるものとする。
+
+一　有価証券等清算取次ぎ（信用取引又は金融商品取引業者が自己の計算において行う有価証券の売買若しくは有価証券関連市場デリバティブ取引に係るものに限る。次号において同じ。）の決済に必要な金銭の貸借（証券金融会社による貸付けに係るものに限る。）
+
+二　有価証券の貸借（有価証券等清算取次ぎの決済に必要な有価証券を取引所金融商品市場又は店頭売買有価証券市場の決済機構を利用して証券金融会社以外の者が貸し付ける場合にあつては、取引所金融商品市場又は店頭売買有価証券市場によらないで行われる有価証券等清算取次ぎに係る貸付けに限る。）
+
+三　前二号に掲げる取引に係る担保の授受
+
+四　証券投資信託の設定、証券投資信託の元本の一部の償還又は証券投資信託の受益証券と上場有価証券等との交換に係る受益証券又は金銭等の授受
+
+五　前各号に掲げるもののほか、有価証券の売買、有価証券関連デリバティブ取引又は前各号に掲げる取引に基づく債務を履行するために行う有価証券又は金銭の授受

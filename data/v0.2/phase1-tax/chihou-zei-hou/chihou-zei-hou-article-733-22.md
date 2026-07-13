@@ -13,15 +13,29 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-22-p1-honbun
+    type: honbun
+    text: 納税者又は特別徴収義務者が納期限（更正又は決定があつた場合においては、不足金額の納期限をいう。以下本節において同じ。）までに法定外目的税に係る地方団体の徴収金を完納しない場合においては、地方団体の徴税吏員は、納期限後二十日以内に、督促状を発しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-733-22-p1-tadashi
+    type: tadashi
+    text: ただし、繰上徴収をする場合においては、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-22-p2
+    type: simple
+    text: 特別の事情がある地方団体においては、当該地方団体の条例で前項に規定する期間と異なる期間を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

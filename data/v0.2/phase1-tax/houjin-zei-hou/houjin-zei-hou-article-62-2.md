@@ -16,22 +16,53 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-2-p1
+    type: tokusoku
+    text: 内国法人が適格合併により合併法人にその有する資産及び負債の移転をしたときは、前条第一項及び第二項の規定にかかわらず、当該合併法人に当該移転をした資産及び負債の当該適格合併に係る最後事業年度終了の時の帳簿価額として政令で定める金額による引継ぎをしたものとして、当該内国法人の各事業年度の所得の金額を計算する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第二項
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-2-p2
+    type: tokusoku
+    text: 内国法人が適格分割型分割により分割承継法人にその有する資産又は負債の移転をしたときは、前条第一項の規定にかかわらず、当該分割承継法人に当該移転をした資産及び負債の当該適格分割型分割の直前の帳簿価額による引継ぎをしたものとして、当該内国法人の各事業年度の所得の金額を計算する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 前条
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-2-p3
+    type: simple
+    text: 前項の場合においては、同項の内国法人が同項の分割承継法人から交付を受けた当該分割承継法人又は第二条第十二号の十一（定義）に規定する分割承継親法人の株式の当該交付の時の価額は、同項の適格分割型分割により移転をした資産及び負債の帳簿価額を基礎として政令で定める金額とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-62-2-p4
+    type: simple
+    text: 合併法人又は分割承継法人が引継ぎを受ける資産及び負債の価額その他前三項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

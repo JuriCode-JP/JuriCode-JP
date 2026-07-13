@@ -36,8 +36,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -65,15 +65,12 @@ parent_section:
 
 ### 第八十六条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-86-p1 -->
 東京地方裁判所は、第八十五条各号に掲げる訴訟及び事件並びに前条に規定する訴訟については、三人の裁判官の合議体で審理及び裁判をする。
 
 ### 第八十六条第二項
 
-<!-- segment: tokusoku id: dokusen-kinshi-hou-art-86-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、東京地方裁判所は、同項の訴訟及び事件について、五人の裁判官の合議体で審理及び裁判をする旨の決定をその合議体ですることができる。
 
 ### 第八十六条第三項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-86-p3 -->
 前項の場合には、判事補は、同時に三人以上合議体に加わり、又は裁判長となることができない。

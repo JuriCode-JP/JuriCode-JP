@@ -43,5 +43,4 @@ parent_section:
 
 ### 第四百五十八条
 
-<!-- segment: simple id: kaisha-hou-art-458-p1 -->
 第四百五十三条から前条までの規定は、株式会社の純資産額が三百万円を下回る場合には、適用しない。

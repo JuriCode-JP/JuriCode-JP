@@ -21,6 +21,41 @@ paragraphs:
     type: hashira
     text: 法第八十九条の三第十三項（法第八十九条の四第五項において準用される場合を含む。）の承認を受けようとする者は、次に掲げる事項を記載した申請書を当該税務署長に提出しなければならない。
     modality: gimu
+  - id: sochi-hou-shikkourei-art-47-9-p1-kou-1
+    type: kou
+    text: 申請者の住所及び氏名又は名称並びに法人にあつては、法人番号
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikkourei-art-47-9-p1-kou-2
+    type: kou
+    text: 当該揮発油を移入した場所の所在地及び名称
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikkourei-art-47-9-p1-kou-3
+    type: kou
+    text: 譲渡に係る揮発油の用途、規格及び数量
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikkourei-art-47-9-p1-kou-4
+    type: kou
+    text: 譲渡の理由
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikkourei-art-47-9-p1-kou-5
+    type: kou
+    text: 譲渡の年月日
+    modality: unspecified
+    item_number: 5
+  - id: sochi-hou-shikkourei-art-47-9-p1-kou-6
+    type: kou
+    text: 譲受者の住所及び氏名又は名称
+    modality: unspecified
+    item_number: 6
+  - id: sochi-hou-shikkourei-art-47-9-p1-kou-7
+    type: kou
+    text: 譲受者が譲受けに係る揮発油を移入する場所の所在地及び名称
+    modality: unspecified
+    item_number: 7
 cases: []
 amendments: []
 tags:
@@ -37,5 +72,18 @@ parent_section:
 
 ### 第四十七条の九
 
-<!-- segment: hashira id: sochi-hou-shikkourei-art-47-9-p1-hashira -->
 法第八十九条の三第十三項（法第八十九条の四第五項において準用される場合を含む。）の承認を受けようとする者は、次に掲げる事項を記載した申請書を当該税務署長に提出しなければならない。
+
+一　申請者の住所及び氏名又は名称並びに法人にあつては、法人番号
+
+二　当該揮発油を移入した場所の所在地及び名称
+
+三　譲渡に係る揮発油の用途、規格及び数量
+
+四　譲渡の理由
+
+五　譲渡の年月日
+
+六　譲受者の住所及び氏名又は名称
+
+七　譲受者が譲受けに係る揮発油を移入する場所の所在地及び名称

@@ -16,57 +16,114 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p1
+    type: simple
+    text: 一部事務組合（一部事務組合を構成団体とするもの並びに第二百八十五条に規定する場合に設けられたもの及び次条第二項の規定により管理者に代えて理事会を置くものを除く。）は、規約で定めるところにより、当該一部事務組合の議会を構成団体の議会をもつて組織することとすることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p2
+    type: simple
+    text: 前項の規定によりその議会を構成団体の議会をもつて組織することとした一部事務組合（以下この条において「特例一部事務組合」という。）の管理者は、この法律その他の法令の規定により一部事務組合の管理者が一部事務組合の議会に付議することとされている事件があるときは、構成団体の長を通じて、当該事件に係る議案を全ての構成団体の議会に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p3
+    type: simple
+    text: 前項の規定により同項に規定する事件に係る議案の提出を受けた構成団体の議会は、当該事件を議決するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p4
+    type: simple
+    text: 構成団体の議会の議長は、前項の議決があつたときは、当該構成団体の長を通じて、議決の結果を特例一部事務組合の管理者に送付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p5
+    type: simple
+    text: 特例一部事務組合にあつては、第二項に規定する事件の議会の議決は、当該議会を組織する構成団体の議会の一致する議決によらなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p6
+    type: simple
+    text: 特例一部事務組合にあつては、この法律その他の法令の規定により一部事務組合の執行機関が一部事務組合の議会に通知し、報告し、提出し、又は勧告することとされている事項の議会への通知、報告、提出又は勧告は、当該特例一部事務組合の執行機関が構成団体の長を通じて当該事項を全ての構成団体の議会に通知し、報告し、提出し、又は勧告することにより行うものとする。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p7
+    type: junyou
+    text: 前編第六章第一節（第九十二条の二に限る。）、第二節（第百条第十四項から第二十項までを除く。）、第七節及び第十二節の規定は、特例一部事務組合の議会について準用する。この場合において、第九十二条の二、第九十九条、第百条の二及び第百二十五条中「普通地方公共団体の議会」とあり、第九十八条第一項及び第百条第一項中「普通地方公共団体の議会」とあり、及び「議会」とあり、第九十八条第二項並びに第百条第二項から第五項まで及び第八項から第十三項までの規定中「議会」とあり、並びに第百三十八条の二第一項及び第二項中「議会等」とあるのは「特例一部事務組合の構成団体の議会」と、第九十七条第一項中「法律」とあるのは「規約で定めるところにより、法律」と、第百二十四条中「議員」とあるのは「特例一部事務組合の構成団体の議会の議員」と、「請願書」とあるのは「当該構成団体の議会に請願書」と読み替えるものとする。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p8
+    type: junyou
+    text: 第百六十条の規定により第百五十条第二項から第九項までの規定を特例一部事務組合に準用する場合には、同条第八項中「議会」とあるのは、「特例一部事務組合の構成団体の議会」と読み替えるものとする。
+    modality: gimu
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p9
+    type: junyou
+    text: 第二百五十二条の四十五の規定により前編第十五章第二節（第二百五十二条の三十六第一項を除く。）の規定を特例一部事務組合に準用する場合には、第二百五十二条の三十七第五項中「議会」とあるのは「全ての構成団体の議会」と、第二百五十二条の三十八第六項中「議会」とあるのは「構成団体の議会」と読み替えるものとする。
+    modality: gimu
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p10
+    type: junyou
+    text: 第二百九十二条の規定によりこの法律中都道府県、市又は町村に関する規定を特例一部事務組合に準用する場合には、第十六条第二項中「前項の規定により条例」とあるのは「第二百八十七条の二第四項の規定により特例一部事務組合（同条第二項に規定する特例一部事務組合をいう。以下同じ。）の全ての構成団体（第二百八十六条第一項に規定する構成団体をいう。以下同じ。）の議会の議長から条例に関する議決の結果」と、「これ」とあるのは「当該条例」と、第百四十五条中「都道府県知事」とあるのは「都道府県の加入する特例一部事務組合の管理者」と、「市町村長」とあるのは「都道府県の加入しない特例一部事務組合の管理者」と、「普通地方公共団体の議会の議長」とあるのは「特例一部事務組合の全ての構成団体の議会の議長」と、第百六十五条第一項中「普通地方公共団体の議会の議長」とあるのは「特例一部事務組合の全ての構成団体の議会の議長」と、第百七十六条第一項、第四項及び第七項、第百七十七条第一項、第百七十九条第一項、第百八十条第一項、第百九十九条第十四項及び第十五項、第二百四十二条第十項、第二百四十三条の二の七第二項、第二百五十二条の二十八第三項、第二百五十二条の三十三第一項、第二百五十二条の三十四並びに第二百五十二条の四十第一項中「普通地方公共団体の議会」とあり、第百七十六条第二項、第五項、第六項及び第八項、第百七十七条第二項、第百七十九条第二項から第四項まで、第百八十条第二項、第二百四十二条第九項、第二百四十二条の二第二項、第二百五十二条の四十第二項、第三項、第五項及び第六項並びに第二百五十六条中「議会」とあり、並びに第二百四十二条の二第一項中「普通地方公共団体の議会」とあり、及び「議会」とあるのは「特例一部事務組合の構成団体の議会」と、第百七十六条第五項中「都道府県知事にあつては」とあるのは「都道府県の加入する特例一部事務組合の管理者にあつては」と、「市町村長」とあるのは「都道府県の加入しない特例一部事務組合の管理者」と、第百七十九条第一項中「議会の」とあるのは「特例一部事務組合の構成団体の議会の」と、「議会を招集する」とあるのは「議決を経る」と、「議会に」とあるのは「特例一部事務組合の構成団体の議会に」と、「を処分する」とあるのは「について第二百八十七条の二第三項の議決があつたものとみなす」と、第百八十条第一項中「これを専決処分にする」とあるのは「これについて第二百八十七条の二第三項の議決があつたものとみなす」と、同条第二項中「専決処分をしたときは」とあるのは「議決があつたものとみなしたときは」と、第二百十九条第二項中「前項の規定により予算」とあるのは「第二百八十七条の二第四項の規定により特例一部事務組合の全ての構成団体の議会の議長から予算に関する議決の結果」と、「その要領」とあるのは「当該予算の要領」と、第二百四十四条の六第一項及び第二項中「普通地方公共団体の議会及び長」とあるのは「特例一部事務組合の管理者」と、第二百五十二条の四十第四項中「議会から」とあるのは「特例一部事務組合の構成団体の議会から」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-287-2-p11
+    type: simple
+    text: 特例一部事務組合にあつては、前条第一項第六号の規定にかかわらず、この法律その他の法令の規定による一部事務組合の監査委員の事務は、規約で定める構成団体の監査委員が行うものとすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十条
 
-<!-- segment: simple id: digital-shakai-keisei-kihon-hou-art-40-p1 -->
 重点計画以外の国の計画は、デジタル社会の形成に関しては、重点計画を基本とするものとする。

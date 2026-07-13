@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百十五条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-115-p1 -->
 委員会職員は、犯則事件の調査を終えたときは、調査の結果を公正取引委員会に報告しなければならない。

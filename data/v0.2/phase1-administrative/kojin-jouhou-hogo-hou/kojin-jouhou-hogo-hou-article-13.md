@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十三条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-13-p1 -->
 地方公共団体は、個人情報の適正な取扱いを確保するため、その区域内の事業者及び住民に対する支援に必要な措置を講ずるよう努めなければならない。

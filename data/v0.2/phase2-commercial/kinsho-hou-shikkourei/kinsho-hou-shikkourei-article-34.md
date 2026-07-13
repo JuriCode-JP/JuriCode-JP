@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十四条
 
-<!-- segment: simple id: kinsho-hou-shikkourei-art-34-p1 -->
 法務大臣、外務大臣、国家公安委員会及び金融庁長官は、法第百八十九条第四項の措置をとる場合においては、当該措置について協議を行うものとする。

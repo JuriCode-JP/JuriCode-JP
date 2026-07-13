@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-41-2-p1
+    type: simple
+    text: 交差点又はその付近において、消防用車両（消防用自動車以外の消防の用に供する車両で、消防用務のため、政令で定めるところにより、運転中のものをいう。以下この条及び第七十五条の二十二第二項において同じ。）が接近してきたときは、車両等（車両にあつては、緊急自動車及び消防用車両を除く。）は、交差点を避けて一時停止しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-41-2-p2
+    type: simple
+    text: 前項以外の場所において、消防用車両が接近してきたときは、車両（緊急自動車及び消防用車両を除く。）は、当該消防用車両の通行を妨げてはならない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-41-2-p3
+    type: junyou
+    text: 第三十九条の規定は、消防用車両について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第三十九条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-41-2-p4
+    type: simple
+    text: 消防用車両については、第八条第一項、第十七条第六項、第十八条、第二十条第一項及び第二項、第二十五条第一項及び第二項、第二十五条の二第二項、第二十六条の二第三項、第二十九条、第三十条、第三十四条第一項から第五項まで、第三十五条第一項、第三十八条第一項前段及び第三項、第四十条第一項、第六十三条の六並びに第六十三条の七の規定は、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:
@@ -63,3 +83,5 @@ parent_section:
 ### 第四十一条の二第四項
 
 消防用車両については、第八条第一項、第十七条第六項、第十八条、第二十条第一項及び第二項、第二十五条第一項及び第二項、第二十五条の二第二項、第二十六条の二第三項、第二十九条、第三十条、第三十四条第一項から第五項まで、第三十五条第一項、第三十八条第一項前段及び第三項、第四十条第一項、第六十三条の六並びに第六十三条の七の規定は、適用しない。
+
+（罰則　第一項及び第二項については第百二十条第一項第二号）

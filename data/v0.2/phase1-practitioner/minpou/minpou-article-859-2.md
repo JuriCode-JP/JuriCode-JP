@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-859-2-p1
+    type: simple
+    text: 成年後見人が数人あるときは、家庭裁判所は、職権で、数人の成年後見人が、共同して又は事務を分掌して、その権限を行使すべきことを定めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-859-2-p2
+    type: simple
+    text: 家庭裁判所は、職権で、前項の規定による定めを取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-859-2-p3
+    type: simple
+    text: 成年後見人が数人あるときは、第三者の意思表示は、その一人に対してすれば足りる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

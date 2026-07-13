@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百六条
 
-<!-- segment: simple id: shouhou-art-706-p1 -->
 船舶の燃料、水先料、入港料その他船舶の利用に関する通常の費用は、定期傭船者の負担とする。

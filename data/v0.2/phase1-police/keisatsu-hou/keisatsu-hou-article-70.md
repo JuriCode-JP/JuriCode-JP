@@ -37,5 +37,4 @@ parent_section:
 
 ### 第七十条
 
-<!-- segment: simple id: keisatsu-hou-art-70-p1 -->
 警察職員の礼式、服制及び表彰に関し必要な事項は、国家公安委員会規則で定める。

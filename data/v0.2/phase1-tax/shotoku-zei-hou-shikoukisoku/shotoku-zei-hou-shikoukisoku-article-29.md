@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第百二十四条第二項（減価償却資産の償却の方法の変更手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-29-p1-kou-1
+    type: kou
+    text: 令第百二十四条第二項に規定する申請書を提出する者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-29-p1-kou-2
+    type: kou
+    text: その償却の方法を変更しようとする減価償却資産の種類及び構造若しくは用途、細目又は設備の種類の区分（二以上の事業所又は船舶を有する居住者で事業所又は船舶ごとに償却の方法を選定していないものが事業所又は船舶ごとに償却の方法を選定しようとする場合にあつては、事業所又は船舶ごとのこれらの区分）
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-29-p1-kou-3
+    type: kou
+    text: 現によつている償却の方法及びその償却の方法を採用した年月日
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-29-p1-kou-4
+    type: kou
+    text: 採用しようとする新たな償却の方法
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-29-p1-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +68,14 @@ parent_section:
 
 ### 第二十九条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-29-p1-hashira -->
 令第百二十四条第二項（減価償却資産の償却の方法の変更手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　令第百二十四条第二項に規定する申請書を提出する者の氏名及び住所
+
+二　その償却の方法を変更しようとする減価償却資産の種類及び構造若しくは用途、細目又は設備の種類の区分（二以上の事業所又は船舶を有する居住者で事業所又は船舶ごとに償却の方法を選定していないものが事業所又は船舶ごとに償却の方法を選定しようとする場合にあつては、事業所又は船舶ごとのこれらの区分）
+
+三　現によつている償却の方法及びその償却の方法を採用した年月日
+
+四　採用しようとする新たな償却の方法
+
+五　その他参考となるべき事項

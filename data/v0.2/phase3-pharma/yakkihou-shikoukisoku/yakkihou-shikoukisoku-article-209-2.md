@@ -16,17 +16,39 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-209-2-p1
+    type: simple
+    text: 法第五十条第七号の厚生労働省令で定める事項は、「要指導医薬品」の文字とする。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-209-2-p2-honbun
+    type: honbun
+    text: 前項の文字は黒枠の中に黒字で記載しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-209-2-p2-tadashi
+    type: tadashi
+    text: ただし、その直接の容器又は直接の被包の色と比較して明瞭に判読できない場合は、白枠の中に白字で記載することができる。
+    modality: kanou_kenri
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-209-2-p3-honbun
+    type: honbun
+    text: 第一項の文字については、産業標準化法（昭和二十四年法律第百八十五号）に基づく日本産業規格（以下「日本産業規格」という。）Ｚ八三〇五に規定する八ポイント以上の大きさの文字を用いなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-209-2-p3-tadashi
+    type: tadashi
+    text: ただし、その直接の容器又は直接の被包の面積が狭いため当該文字を明瞭に記載することができない場合は、この限りではない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-9-4-p1-hashira
+    type: hashira
+    text: 法第七十三条の四第一項第三十一号に規定する商工会議所又は日本商工会議所が商工会議所法（昭和二十八年法律第百四十三号）第九条又は第六十五条に規定する事業の用に供する不動産及び商工会又は都道府県商工会連合会若しくは全国商工会連合会が商工会法（昭和三十五年法律第八十九号）第十一条又は第五十五条の八第一項若しくは第二項に規定する事業の用に供する不動産で政令で定めるものは、これらの事業の用に供する不動産のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-9-4-p1-kou-1
+    type: kou
+    text: 宿舎の用に供する不動産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-9-4-p1-kou-2
+    type: kou
+    text: 他の者に貸し付ける不動産（国又は地方公共団体に無償で貸し付けるものを除く。）
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-37-9-4-p1-kou-3
+    type: kou
+    text: 職員の福利及び厚生の用に供する不動産
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第三十七条の九の四
 
 法第七十三条の四第一項第三十一号に規定する商工会議所又は日本商工会議所が商工会議所法（昭和二十八年法律第百四十三号）第九条又は第六十五条に規定する事業の用に供する不動産及び商工会又は都道府県商工会連合会若しくは全国商工会連合会が商工会法（昭和三十五年法律第八十九号）第十一条又は第五十五条の八第一項若しくは第二項に規定する事業の用に供する不動産で政令で定めるものは、これらの事業の用に供する不動産のうち次に掲げるもの以外のものとする。
+
+一　宿舎の用に供する不動産
+
+二　他の者に貸し付ける不動産（国又は地方公共団体に無償で貸し付けるものを除く。）
+
+三　職員の福利及び厚生の用に供する不動産

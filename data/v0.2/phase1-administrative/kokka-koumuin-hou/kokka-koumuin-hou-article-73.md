@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 内閣総理大臣及び関係庁の長は、職員の勤務能率の発揮及び増進のために、次に掲げる事項について計画を樹立し、その実施に努めなければならない。
     modality: doryoku_gimu
+  - id: kokka-koumuin-hou-art-73-p1-kou-1
+    type: kou
+    text: 職員の保健に関する事項
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-73-p1-kou-2
+    type: kou
+    text: 職員のレクリエーションに関する事項
+    modality: unspecified
+    item_number: 2
+  - id: kokka-koumuin-hou-art-73-p1-kou-3
+    type: kou
+    text: 職員の安全保持に関する事項
+    modality: unspecified
+    item_number: 3
+  - id: kokka-koumuin-hou-art-73-p1-kou-4
+    type: kou
+    text: 職員の厚生に関する事項
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: false
@@ -50,10 +70,16 @@ parent_section:
 
 ### 第七十三条第一項
 
-<!-- segment: hashira id: kokka-koumuin-hou-art-73-p1-hashira -->
 内閣総理大臣及び関係庁の長は、職員の勤務能率の発揮及び増進のために、次に掲げる事項について計画を樹立し、その実施に努めなければならない。
+
+一　職員の保健に関する事項
+
+二　職員のレクリエーションに関する事項
+
+三　職員の安全保持に関する事項
+
+四　職員の厚生に関する事項
 
 ### 第七十三条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-73-p2 -->
 前項の計画の樹立及び実施に関し、内閣総理大臣は、その総合的企画並びに関係各庁に対する調整及び監視を行う。

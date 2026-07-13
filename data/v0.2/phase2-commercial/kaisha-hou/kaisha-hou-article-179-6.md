@@ -16,42 +16,80 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-6-p1
+    type: simple
+    text: 特別支配株主は、第百七十九条の三第一項の承認を受けた後は、取得日の前日までに対象会社の承諾を得た場合に限り、売渡株式等の全部について株式等売渡請求を撤回することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-6-p2
+    type: simple
+    text: 取締役会設置会社が前項の承諾をするか否かの決定をするには、取締役会の決議によらなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-6-p3
+    type: simple
+    text: 対象会社は、第一項の承諾をするか否かの決定をしたときは、特別支配株主に対し、当該決定の内容を通知しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-6-p4
+    type: simple
+    text: 対象会社は、第一項の承諾をしたときは、遅滞なく、売渡株主等に対し、当該承諾をした旨を通知しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-6-p5
+    type: simple
+    text: 前項の規定による通知は、公告をもってこれに代えることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-6-p6
+    type: simple
+    text: 対象会社が第四項の規定による通知又は前項の公告をしたときは、株式等売渡請求は、売渡株式等の全部について撤回されたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-6-p7
+    type: simple
+    text: 第四項の規定による通知又は第五項の公告の費用は、特別支配株主の負担とする。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-6-p8
+    type: junyou
+    text: 前各項の規定は、新株予約権売渡請求のみを撤回する場合について準用する。この場合において、第四項中「売渡株主等」とあるのは、「売渡新株予約権者」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

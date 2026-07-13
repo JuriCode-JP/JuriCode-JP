@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九十九条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-99-p1 -->
 職員は、その官職の信用を傷つけ、又は官職全体の不名誉となるような行為をしてはならない。

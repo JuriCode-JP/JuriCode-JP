@@ -16,67 +16,145 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p1-zen
+    type: zen_dan
+    text: 条例の制定又は改廃の請求者の代表者は、条例の制定又は改廃の請求者の署名簿を市町村の選挙管理委員会に提出してこれに署名した者が選挙人名簿に登録された者であることの証明を求めなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-74-2-p1-kou
+    type: kou_dan
+    text: この場合においては、当該市町村の選挙管理委員会は、その日から二十日以内に審査を行い、署名の効力を決定し、その旨を証明しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-74-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p2
+    type: simple
+    text: 市町村の選挙管理委員会は、前項の規定による署名簿の署名の証明が終了したときは、その日から七日間、その指定した場所において署名簿を関係人の縦覧に供さなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p3
+    type: simple
+    text: 前項の署名簿の縦覧の期間及び場所については、市町村の選挙管理委員会は、予めこれを告示し、且つ、公衆の見易い方法によりこれを公表しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p4
+    type: simple
+    text: 署名簿の署名に関し異議があるときは、関係人は、第二項の規定による縦覧期間内に当該市町村の選挙管理委員会にこれを申し出ることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p5-zen
+    type: zen_dan
+    text: 市町村の選挙管理委員会は、前項の規定による異議の申出を受けた場合においては、その申出を受けた日から十四日以内にこれを決定しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-74-2-p5-kou
+    type: kou_dan
+    text: この場合において、その申出を正当であると決定したときは、直ちに第一項の規定による証明を修正し、その旨を申出人及び関係人に通知し、併せてこれを告示し、その申出を正当でないと決定したときは、直ちにその旨を申出人に通知しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-74-2-p5-zen
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p6
+    type: simple
+    text: 市町村の選挙管理委員会は、第二項の規定による縦覧期間内に関係人の異議の申出がないとき、又は前項の規定によるすべての異議についての決定をしたときは、その旨及び有効署名の総数を告示するとともに、署名簿を条例の制定又は改廃の請求者の代表者に返付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p7
+    type: simple
+    text: 都道府県の条例の制定又は改廃の請求者の署名簿の署名に関し第五項の規定による決定に不服がある者は、その決定のあつた日から十日以内に都道府県の選挙管理委員会に審査を申し立てることができる。
+    modality: kanou_kenri
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p8
+    type: simple
+    text: 市町村の条例の制定又は改廃の請求者の署名簿の署名に関し第五項の規定による決定に不服がある者は、その決定のあつた日から十四日以内に地方裁判所に出訴することができる。その判決に不服がある者は、控訴することはできないが最高裁判所に上告することができる。
+    modality: kanou_kenri
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p9
+    type: simple
+    text: 第七項の規定による審査の申立てに対する裁決に不服がある者は、その裁決書の交付を受けた日から十四日以内に高等裁判所に出訴することができる。
+    modality: kanou_kenri
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p10-zen
+    type: zen_dan
+    text: 審査の申立てに対する裁決又は判決が確定したときは、当該都道府県の選挙管理委員会又は当該裁判所は、直ちに裁決書又は判決書の写を関係市町村の選挙管理委員会に送付しなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-74-2-p10-kou
+    type: kou_dan
+    text: この場合においては、送付を受けた当該市町村の選挙管理委員会は、直ちに条例の制定又は改廃の請求者の代表者にその旨を通知しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-74-2-p10-zen
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p11
+    type: simple
+    text: 署名簿の署名に関する争訟については、審査の申立てに対する裁決は審査の申立てを受理した日から二十日以内にこれをするものとし、訴訟の判決は事件を受理した日から百日以内にこれをするように努めなければならない。
+    modality: doryoku_gimu
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p12
+    type: simple
+    text: 第八項及び第九項の訴えは、当該決定又は裁決をした選挙管理委員会の所在地を管轄する地方裁判所又は高等裁判所の専属管轄とする。
+    modality: gimu
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-74-2-p13
+    type: tokusoku
+    text: 第八項及び第九項の訴えについては、行政事件訴訟法（昭和三十七年法律第百三十九号）第四十三条の規定にかかわらず、同法第十三条の規定を準用せず、また、同法第十六条から第十九条までの規定は、署名簿の署名の効力を争う数個の請求に関してのみ準用する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第四十三条
 cases: []
 amendments: []
 tags:

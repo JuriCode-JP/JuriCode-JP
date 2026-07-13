@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-34-p1-hashira
+    type: hashira
+    text: 認可地縁団体に係る次に掲げる事件は、その主たる事務所の所在地を管轄する地方裁判所の管轄に属する。
+    modality: unspecified
+  - id: chihou-jichi-hou-art-260-34-p1-kou-1
+    type: kou
+    text: 仮代表者又は特別代理人の選任に関する事件
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-260-34-p1-kou-2
+    type: kou
+    text: 解散及び清算の監督に関する事件
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-260-34-p1-kou-3
+    type: kou
+    text: 清算人に関する事件
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第二百六十条の三十四
 
 認可地縁団体に係る次に掲げる事件は、その主たる事務所の所在地を管轄する地方裁判所の管轄に属する。
+
+一　仮代表者又は特別代理人の選任に関する事件
+
+二　解散及び清算の監督に関する事件
+
+三　清算人に関する事件

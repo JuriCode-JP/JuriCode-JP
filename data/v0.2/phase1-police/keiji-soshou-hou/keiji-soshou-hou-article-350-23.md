@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-23-p1
+    type: simple
+    text: 前条の手続を行う公判期日及び即決裁判手続による公判期日については、弁護人がないときは、これを開くことができない。
+    modality: kanou_negative
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

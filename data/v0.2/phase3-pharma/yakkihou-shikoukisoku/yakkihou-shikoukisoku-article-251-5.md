@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-251-5-p1
+    type: simple
+    text: 法第七十七条の三に規定する厚生労働省令で定める人数は、五万人とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

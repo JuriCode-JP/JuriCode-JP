@@ -54,11 +54,8 @@ parent_section:
 
 ### 第百三十六条第一項
 
-<!-- segment: simple id: minpou-art-136-p1 -->
 期限は、債務者の利益のために定めたものと推定する。
 
 ### 第百三十六条第二項
 
-<!-- segment: honbun id: minpou-art-136-p2-honbun -->
-期限の利益は、放棄することができる。<!-- segment: tadashi id: minpou-art-136-p2-tadashi -->
-ただし、これによって相手方の利益を害することはできない。
+期限の利益は、放棄することができる。ただし、これによって相手方の利益を害することはできない。

@@ -16,22 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-109-2-p1
+    type: simple
+    text: 公安委員会は、内閣府令で定めるところにより、車両の運転者に対し、車両の通行に必要な情報（以下この条及び次条において「交通情報」という。）を提供するように努めなければならない。
+    modality: doryoku_gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-109-2-p2
+    type: simple
+    text: 公安委員会は、内閣府令で定める者に交通情報の提供に係る事務を委託することができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-109-2-p3
+    type: simple
+    text: 国家公安委員会は、交通情報を提供する事業を行う者が正確かつ適切に交通情報を提供することができるようにするため、交通情報の提供に関する指針を作成し、これを公表するものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-109-2-p4
+    type: simple
+    text: 交通情報を提供する事業（公安委員会及び第二項の規定による委託を受けた者が行うもの並びに道路法による道路の管理者が道路の維持、修繕その他の管理のため行うものを除く。次条第一項において同じ。）を行う者は、前項の交通情報の提供に関する指針に従い正確かつ適切に交通情報を提供することにより、道路における危険の防止その他交通の安全と円滑に資するように配慮しなければならない。
+    modality: gimu
+    references:
+    - 前項
+    - 次条
 cases: []
 amendments: []
 tags:

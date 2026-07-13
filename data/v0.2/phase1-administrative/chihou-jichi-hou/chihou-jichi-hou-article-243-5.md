@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-243-5-p1
+    type: simple
+    text: 歳入及び歳出の会計年度所属区分、予算及び決算の調製の様式、過年度収入及び過年度支出並びに翌年度歳入の繰上充用その他財務に関し必要な事項は、この法律に定めるもののほか、政令でこれを定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

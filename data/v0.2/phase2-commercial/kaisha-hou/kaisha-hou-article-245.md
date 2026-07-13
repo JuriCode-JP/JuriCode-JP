@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる者は、割当日に、当該各号に定める募集新株予約権の新株予約権者となる。
     modality: unspecified
+  - id: kaisha-hou-art-245-p1-kou-1
+    type: kou
+    text: 申込者　株式会社の割り当てた募集新株予約権
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-245-p1-kou-2
+    type: kou
+    text: 第二百四十四条第一項の契約により募集新株予約権の総数を引き受けた者　その者が引き受けた募集新株予約権
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -54,10 +64,12 @@ parent_section:
 
 ### 第二百四十五条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-245-p1-hashira -->
 次の各号に掲げる者は、割当日に、当該各号に定める募集新株予約権の新株予約権者となる。
+
+一　申込者　株式会社の割り当てた募集新株予約権
+
+二　第二百四十四条第一項の契約により募集新株予約権の総数を引き受けた者　その者が引き受けた募集新株予約権
 
 ### 第二百四十五条第二項
 
-<!-- segment: simple id: kaisha-hou-art-245-p2 -->
 募集新株予約権が新株予約権付社債に付されたものである場合には、前項の規定により募集新株予約権の新株予約権者となる者は、当該募集新株予約権を付した新株予約権付社債についての社債の社債権者となる。

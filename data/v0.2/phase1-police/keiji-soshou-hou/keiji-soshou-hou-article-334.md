@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三百三十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-334-p1 -->
 被告事件について刑を免除するときは、判決でその旨の言渡をしなければならない。

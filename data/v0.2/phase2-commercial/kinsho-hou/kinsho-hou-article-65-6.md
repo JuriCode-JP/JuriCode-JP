@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-65-6-p1
+    type: simple
+    text: 内閣総理大臣は、金融商品取引業者等、取引所取引許可業者、電子店頭デリバティブ取引等許可業者又は第五十九条第一項の許可を受けた外国証券業者を監督するに当たつては、業務の運営についての金融商品取引業者等、取引所取引許可業者、電子店頭デリバティブ取引等許可業者又は同項の許可を受けた外国証券業者の自主的な努力を尊重するよう配慮しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

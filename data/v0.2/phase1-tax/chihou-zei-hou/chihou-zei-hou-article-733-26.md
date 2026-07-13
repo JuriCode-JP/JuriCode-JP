@@ -14,14 +14,40 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-26-p1-hashira
+    type: hashira
+    text: 次の各号のいずれかに該当する場合には、その違反行為をした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
+  - id: chihou-zei-hou-art-733-26-p1-kou-1
+    type: kou
+    text: 第七百三十三条の二十四第六項の場合において、国税徴収法第百四十一条の規定の例により行う地方団体の徴税吏員の質問に対して答弁をせず、又は偽りの陳述をしたとき。
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-art-733-26-p1-kou-2
+    type: kou
+    text: 第七百三十三条の二十四第六項の場合において、国税徴収法第百四十一条の規定の例により行う地方団体の徴税吏員の帳簿書類（同条に規定する帳簿書類をいう。次号において同じ。）その他の物件の検査を拒み、妨げ、又は忌避したとき。
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-art-733-26-p1-kou-3
+    type: kou
+    text: 第七百三十三条の二十四第六項の場合において、国税徴収法第百四十一条の規定の例により行う地方団体の徴税吏員の物件の提示又は提出の要求に対し、正当な理由がなくこれに応じず、又は偽りの記載若しくは記録をした帳簿書類その他の物件（その写しを含む。）を提示し、若しくは提出したとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-26-p2
+    type: simple
+    text: 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者がその法人又は人の業務又は財産に関して前項の違反行為をした場合には、その行為者を罰するほか、その法人又は人に対し、同項の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +67,12 @@ parent_section:
 ### 第七百三十三条の二十六第一項
 
 次の各号のいずれかに該当する場合には、その違反行為をした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
+
+一　第七百三十三条の二十四第六項の場合において、国税徴収法第百四十一条の規定の例により行う地方団体の徴税吏員の質問に対して答弁をせず、又は偽りの陳述をしたとき。
+
+二　第七百三十三条の二十四第六項の場合において、国税徴収法第百四十一条の規定の例により行う地方団体の徴税吏員の帳簿書類（同条に規定する帳簿書類をいう。次号において同じ。）その他の物件の検査を拒み、妨げ、又は忌避したとき。
+
+三　第七百三十三条の二十四第六項の場合において、国税徴収法第百四十一条の規定の例により行う地方団体の徴税吏員の物件の提示又は提出の要求に対し、正当な理由がなくこれに応じず、又は偽りの記載若しくは記録をした帳簿書類その他の物件（その写しを含む。）を提示し、若しくは提出したとき。
 
 ### 第七百三十三条の二十六第二項
 

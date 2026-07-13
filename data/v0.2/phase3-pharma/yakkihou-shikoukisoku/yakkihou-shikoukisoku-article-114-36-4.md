@@ -13,10 +13,24 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-36-4-p1-hashira
+    type: hashira
+    text: 法第二十三条の二の六の二第二項前段の厚生労働省令で定める資料は、次の各号に掲げるものとする。ただし、第二号に掲げる資料については、添付を要しない合理的理由がある場合は、その資料を添付することを要しない。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-114-36-4-p1-kou-1
+    type: kou
+    text: 第百十四条の三十六の二の規定による調査に関する資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-36-4-p1-kou-2
+    type: kou
+    text: 医療機器又は体外診断用医薬品の使用成績に関する資料、当該医療機器又は体外診断用医薬品の不具合等の発現状況並びに品質、有効性及び安全性に関する情報の検出又は確認のために行う調査に関する資料その他の当該医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する資料
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第百十四条の三十六の四
 
 法第二十三条の二の六の二第二項前段の厚生労働省令で定める資料は、次の各号に掲げるものとする。ただし、第二号に掲げる資料については、添付を要しない合理的理由がある場合は、その資料を添付することを要しない。
+
+一　第百十四条の三十六の二の規定による調査に関する資料
+
+二　医療機器又は体外診断用医薬品の使用成績に関する資料、当該医療機器又は体外診断用医薬品の不具合等の発現状況並びに品質、有効性及び安全性に関する情報の検出又は確認のために行う調査に関する資料その他の当該医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する資料

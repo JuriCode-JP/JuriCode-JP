@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次の各号のいずれかに該当する場合には、当該違反行為をした者は、五十万円以下の罰金に処する。
     modality: gimu_kei
+  - id: kojin-jouhou-hogo-hou-art-182-p1-kou-1
+    type: kou
+    text: 第百四十六条第一項の規定による報告若しくは資料の提出をせず、若しくは虚偽の報告をし、若しくは虚偽の資料を提出し、又は当該職員の質問に対して答弁をせず、若しくは虚偽の答弁をし、若しくは検査を拒み、妨げ、若しくは忌避したとき。
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-182-p1-kou-2
+    type: kou
+    text: 第百五十三条の規定による報告をせず、又は虚偽の報告をしたとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第百八十二条
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-182-p1-hashira -->
 次の各号のいずれかに該当する場合には、当該違反行為をした者は、五十万円以下の罰金に処する。
+
+一　第百四十六条第一項の規定による報告若しくは資料の提出をせず、若しくは虚偽の報告をし、若しくは虚偽の資料を提出し、又は当該職員の質問に対して答弁をせず、若しくは虚偽の答弁をし、若しくは検査を拒み、妨げ、若しくは忌避したとき。
+
+二　第百五十三条の規定による報告をせず、又は虚偽の報告をしたとき。

@@ -47,5 +47,4 @@ parent_section:
 
 ### 第四百二十一条
 
-<!-- segment: junyou id: minpou-art-421-p1 applies_provisions: 前条 -->
 前条の規定は、当事者が金銭でないものを損害の賠償に充てるべき旨を予定した場合について準用する。

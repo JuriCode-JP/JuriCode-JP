@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-2-p1
+    type: simple
+    text: 金融商品債務引受業は、内閣総理大臣の免許を受けた者でなければ、行つてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

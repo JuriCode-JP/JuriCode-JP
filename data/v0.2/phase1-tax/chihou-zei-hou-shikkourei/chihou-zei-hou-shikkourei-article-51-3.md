@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第三百四十八条第二項第十八号に規定する独立行政法人日本スポーツ振興センターが独立行政法人日本スポーツ振興センター法第十五条第一項第一号に規定する業務の用に供する固定資産で政令で定めるものは、当該業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-3-p1-kou-1
+    type: kou
+    text: 事務所の用に供する固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-3-p1-kou-2
+    type: kou
+    text: 宿舎の用に供する固定資産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-51-3-p1-kou-3
+    type: kou
+    text: その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する固定資産
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第五十一条の三
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-51-3-p1-hashira -->
 法第三百四十八条第二項第十八号に規定する独立行政法人日本スポーツ振興センターが独立行政法人日本スポーツ振興センター法第十五条第一項第一号に規定する業務の用に供する固定資産で政令で定めるものは、当該業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する固定資産
+
+二　宿舎の用に供する固定資産
+
+三　その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する固定資産

@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第十四条第十三項の厚生労働省令で定める軽微な変更は、次の各号に掲げる変更以外のものとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-47-p1-kou-1
+    type: kou
+    text: 当該品目の本質、特性及び安全性に影響を与える製造方法等の変更
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-47-p1-kou-2
+    type: kou
+    text: 病原因子の不活化又は除去方法に関する変更
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-47-p1-kou-3
+    type: kou
+    text: 用法若しくは用量又は効能若しくは効果に関する追加、変更又は削除
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-47-p1-kou-4
+    type: kou
+    text: 前各号に掲げる変更のほか、製品の品質、有効性及び安全性に影響を与えるおそれのあるもの
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -37,5 +57,12 @@ parent_section:
 
 ### 第四十七条
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-47-p1-hashira -->
 法第十四条第十三項の厚生労働省令で定める軽微な変更は、次の各号に掲げる変更以外のものとする。
+
+一　当該品目の本質、特性及び安全性に影響を与える製造方法等の変更
+
+二　病原因子の不活化又は除去方法に関する変更
+
+三　用法若しくは用量又は効能若しくは効果に関する追加、変更又は削除
+
+四　前各号に掲げる変更のほか、製品の品質、有効性及び安全性に影響を与えるおそれのあるもの

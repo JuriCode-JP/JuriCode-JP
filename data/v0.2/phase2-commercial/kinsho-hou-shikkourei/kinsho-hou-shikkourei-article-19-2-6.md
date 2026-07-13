@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-2-6-p1
+    type: simple
+    text: 法第百一条の九第三号に規定する金銭以外の財産を出資の目的とする場合について、法第百一条の十六第三項において会社法の規定を準用する場合における同項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

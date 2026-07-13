@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百七十条
 
-<!-- segment: simple id: keiji-soshou-hou-art-170-p1 -->
 検察官及び弁護人は、鑑定に立ち会うことができる。この場合には、第百五十七条第二項の規定を準用する。

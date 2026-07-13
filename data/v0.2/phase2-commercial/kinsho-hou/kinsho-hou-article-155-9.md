@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-155-9-p1
+    type: simple
+    text: 内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認めるときは、外国金融商品取引所、外国金融商品取引所参加者若しくは当該外国金融商品取引所から業務の委託を受けた者（その者から委託（二以上の段階にわたる委託を含む。）を受けた者を含む。）に対し外国市場取引に関し参考となるべき報告若しくは資料の提出を命じ、又は当該職員をして当該外国金融商品取引所の外国市場取引に係る業務の状況若しくは書類その他の物件を検査させることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十三条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-33-p1 -->
 職員は、その職の信用を傷つけ、又は職員の職全体の不名誉となるような行為をしてはならない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-58-p1
+    type: simple
+    text: 道府県知事が第七十二条の五十第一項但書又は第四項の規定によつて個人の所得を決定した場合においては、当該道府県知事（二以上の道府県において事務所又は事業所を設けて事業を行う個人に係るものにあつては、主たる事務所又は事業所所在地の道府県知事）は、遅滞なく、当該決定に係る個人の所得を税務官署に通知するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

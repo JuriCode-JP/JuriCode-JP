@@ -34,5 +34,4 @@ tags:
 
 ### 第十六条の十一
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-16-11-p1 -->
 削除

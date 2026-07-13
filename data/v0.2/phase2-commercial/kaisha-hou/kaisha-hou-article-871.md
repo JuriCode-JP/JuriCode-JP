@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: この法律の規定による非訟事件についての裁判には、理由を付さなければならない。ただし、次に掲げる裁判については、この限りでない。
     modality: jogai
+  - id: kaisha-hou-art-871-p1-kou-1
+    type: kou
+    text: 第八百七十条第一項第一号に掲げる裁判
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-871-p1-kou-2
+    type: kou
+    text: 第八百七十四条各号に掲げる裁判
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第八百七十一条
 
-<!-- segment: hashira id: kaisha-hou-art-871-p1-hashira -->
 この法律の規定による非訟事件についての裁判には、理由を付さなければならない。ただし、次に掲げる裁判については、この限りでない。
+
+一　第八百七十条第一項第一号に掲げる裁判
+
+二　第八百七十四条各号に掲げる裁判

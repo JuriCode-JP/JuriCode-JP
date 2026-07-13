@@ -75,25 +75,20 @@ parent_section:
 
 ### 第二十四条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-24-p1 -->
 職員の給与は、その職務と責任に応ずるものでなければならない。
 
 ### 第二十四条第二項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-24-p2 -->
 職員の給与は、生計費並びに国及び他の地方公共団体の職員並びに民間事業の従事者の給与その他の事情を考慮して定められなければならない。
 
 ### 第二十四条第三項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-24-p3 -->
 職員は、他の職員の職を兼ねる場合においても、これに対して給与を受けてはならない。
 
 ### 第二十四条第四項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-24-p4 -->
 職員の勤務時間その他職員の給与以外の勤務条件を定めるに当つては、国及び他の地方公共団体の職員との間に権衡を失しないように適当な考慮が払われなければならない。
 
 ### 第二十四条第五項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-24-p5 -->
 職員の給与、勤務時間その他の勤務条件は、条例で定める。

@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百六条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-106-p1 -->
 職員の勤務条件その他職員の服務に関し必要な事項は、人事院規則でこれを定めることができる。
 
 ### 第百六条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-106-p2 -->
 前項の人事院規則は、この法律の規定の趣旨に沿うものでなければならない。

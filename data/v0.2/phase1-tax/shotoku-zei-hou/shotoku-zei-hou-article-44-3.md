@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-44-3-p1-zen
+    type: zen_dan
+    text: 居住者が第九十五条第一項から第三項まで（外国税額控除）の規定の適用を受けた年の翌年以後七年内の各年においてこれらの規定による控除をされるべき金額の計算の基礎となつた同条第一項に規定する外国所得税の額が減額された場合には、その減額された金額のうちその減額されることとなつた日の属する年分における同条の規定による外国税額控除の適用に係る部分に相当する金額として政令で定める金額は、その者の当該年分の不動産所得の金額、事業所得の金額、山林所得の金額、一時所得の金額又は雑所得の金額の計算上、総収入金額に算入しない。
+    modality: unspecified
+  - id: shotoku-zei-hou-art-44-3-p1-kou
+    type: kou_dan
+    text: この場合において、その減額された金額から当該政令で定める金額を控除した金額は、その者の当該年分の雑所得の金額の計算上、総収入金額に算入する。
+    modality: unspecified
+    depends_on: shotoku-zei-hou-art-44-3-p1-zen
 cases: []
 amendments: []
 tags:

@@ -16,42 +16,97 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-870-2-p1
+    type: simple
+    text: 裁判所は、前条第二項各号に掲げる裁判の申立てがあったときは、当該各号に定める者に対し、申立書の写しを送付しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-870-2-p2
+    type: simple
+    text: 前項の規定により申立書の写しを送付することができない場合には、裁判長は、相当の期間を定め、その期間内に不備を補正すべきことを命じなければならない。申立書の写しの送付に必要な費用を予納しない場合も、同様とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-870-2-p3
+    type: simple
+    text: 前項の場合において、申立人が不備を補正しないときは、裁判長は、命令で、申立書を却下しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-870-2-p4
+    type: simple
+    text: 前項の命令に対しては、即時抗告をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-870-2-p5-honbun
+    type: honbun
+    text: 裁判所は、第一項の申立てがあった場合において、当該申立てについての裁判をするときは、相当の猶予期間を置いて、審理を終結する日を定め、申立人及び前条第二項各号に定める者に告知しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: kaisha-hou-art-870-2-p5-tadashi
+    type: tadashi
+    text: ただし、これらの者が立ち会うことができる期日においては、直ちに審理を終結する旨を宣言することができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-870-2-p6
+    type: simple
+    text: 裁判所は、前項の規定により審理を終結したときは、裁判をする日を定め、これを同項の者に告知しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-870-2-p7
+    type: simple
+    text: 裁判所は、第一項の申立てが不適法であるとき、又は申立てに理由がないことが明らかなときは、同項及び前二項の規定にかかわらず、直ちに申立てを却下することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前二項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-870-2-p8
+    type: junyou
+    text: 前項の規定は、前条第二項各号に掲げる裁判の申立てがあった裁判所が民事訴訟費用等に関する法律（昭和四十六年法律第四十号）の規定に従い当該各号に定める者に対する期日の呼出しに必要な費用の予納を相当の期間を定めて申立人に命じた場合において、その予納がないときについて準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

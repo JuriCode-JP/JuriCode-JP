@@ -66,20 +66,16 @@ parent_section:
 
 ### 第二十七条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-27-p1 -->
 警察庁に、警察大学校を附置する。
 
 ### 第二十七条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-27-p2 -->
 警察大学校は、警察職員に対し、上級の幹部として必要な教育訓練を行い、警察に関する学術の研修をつかさどる。
 
 ### 第二十七条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-27-p3 -->
 警察大学校に、校長を置く。
 
 ### 第二十七条第四項
 
-<!-- segment: simple id: keisatsu-hou-art-27-p4 -->
 警察大学校の位置及び内部組織は、内閣府令で定める。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十七条
 
-<!-- segment: simple id: kenpou-art-47-p1 -->
 選挙区、投票の方法その他両議院の議員の選挙に関する事項は、法律でこれを定める。

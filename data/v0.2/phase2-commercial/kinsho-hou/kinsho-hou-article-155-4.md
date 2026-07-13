@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-155-4-p1
+    type: simple
+    text: 内閣総理大臣は、第百五十五条の二第一項の規定による認可の申請があつた場合において、その認可を与えることが適当でないと認めるときは、認可申請者に通知して、当該職員をして審問を行わせなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-155-4-p2
+    type: simple
+    text: 内閣総理大臣が、第百五十五条第一項の規定による認可を与えることとし、又はこれを与えないこととした場合においては、遅滞なく、その旨を書面により認可申請者に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-17-p1
+    type: simple
+    text: 国の関与に関する審査の申出をした普通地方公共団体の長その他の執行機関は、第二百五十条の十四第一項から第四項までの規定による審査の結果の通知若しくは勧告があるまで又は第二百五十条の十九第二項の規定により調停が成立するまでは、いつでも当該国の関与に関する審査の申出を取り下げることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-17-p2
+    type: simple
+    text: 国の関与に関する審査の申出の取下げは、文書でしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

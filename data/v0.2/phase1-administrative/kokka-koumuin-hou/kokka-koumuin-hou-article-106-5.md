@@ -16,12 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-5-p1
+    type: simple
+    text: 内閣府に、再就職等監視委員会（以下「委員会」という。）を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-5-p2-hashira
+    type: hashira
+    text: 委員会は、次に掲げる事務をつかさどる。
+    modality: unspecified
+  - id: kokka-koumuin-hou-art-106-5-p2-kou-1
+    type: kou
+    text: 第十八条の四の規定により委任を受けた権限に基づき調査を行うこと。
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-106-5-p2-kou-2
+    type: kou
+    text: 第百六条の三第三項及び前条第六項の規定により委任を受けた権限に基づき承認を行うこと。
+    modality: unspecified
+    item_number: 2
+  - id: kokka-koumuin-hou-art-106-5-p2-kou-3
+    type: kou
+    text: 前二号に掲げるもののほか、この法律及び他の法律の規定によりその権限に属させられた事項を処理すること。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -47,3 +70,9 @@ parent_section:
 ### 第百六条の五第二項
 
 委員会は、次に掲げる事務をつかさどる。
+
+一　第十八条の四の規定により委任を受けた権限に基づき調査を行うこと。
+
+二　第百六条の三第三項及び前条第六項の規定により委任を受けた権限に基づき承認を行うこと。
+
+三　前二号に掲げるもののほか、この法律及び他の法律の規定によりその権限に属させられた事項を処理すること。

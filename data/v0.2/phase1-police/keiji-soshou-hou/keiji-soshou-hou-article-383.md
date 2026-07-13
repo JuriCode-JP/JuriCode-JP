@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-383-p1
     type: simple
     text: 左の事由があることを理由として控訴の申立をした場合には、控訴趣意書に、その事由があることを疎明する資料を添附しなければならない。
     modality: gimu
+  - id: keiji-soshou-hou-art-383-p1-kou-1
+    type: kou
+    text: 再審の請求をすることができる場合にあたる事由があること。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-383-p1-kou-2
+    type: kou
+    text: 判決があつた後に刑の廃止若しくは変更又は大赦があつたこと。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第三百八十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-383-p1 -->
 左の事由があることを理由として控訴の申立をした場合には、控訴趣意書に、その事由があることを疎明する資料を添附しなければならない。
+
+一　再審の請求をすることができる場合にあたる事由があること。
+
+二　判決があつた後に刑の廃止若しくは変更又は大赦があつたこと。

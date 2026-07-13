@@ -49,8 +49,6 @@ parent_section:
 
 ### 第十八条第一項
 
-<!-- segment: simple id: jouhou-koukai-hou-art-18-p1 -->
-<!-- segment: simple id: jouhou-koukai-hou-art-18-p2 -->
 開示決定等又は開示請求に係る不作為に係る審査請求については、行政不服審査法（平成二十六年法律第六十八号）第九条、第十七条、第二十四条、第二章第三節及び第四節並びに第五十条第二項の規定は、適用しない。
 
 ### 第十八条第二項

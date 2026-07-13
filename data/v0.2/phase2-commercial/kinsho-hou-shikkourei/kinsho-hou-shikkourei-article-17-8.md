@@ -16,12 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-8-p1
+    type: simple
+    text: 法第六十条の三第一項第一号ハに規定する政令で定める期間は、三年とする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-8-p2-hashira
+    type: hashira
+    text: 法第六十条の三第一項第一号ハに規定する政令で定める場合は、次に掲げる者が取引所取引業務（法第六十条第一項に規定する取引所取引業務をいう。以下この条において同じ。）と同種類の業務を行つていた期間を許可申請者が取引所取引業務と同種類の業務を行つていた期間とみなして当該期間を算定した場合に、その期間が引き続き三年以上となる場合とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-17-8-p2-kou-1
+    type: kou
+    text: 許可申請者に組織変更したと認められる者又は許可申請者に合併された会社
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-shikkourei-art-17-8-p2-kou-2
+    type: kou
+    text: 分割により許可申請者に取引所取引業務と同種類の業務に係る事業の全部又は一部を承継させた者
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-shikkourei-art-17-8-p2-kou-3
+    type: kou
+    text: 許可申請者に取引所取引業務と同種類の業務に係る事業の全部又は一部を譲渡した者
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-shikkourei-art-17-8-p2-kou-4
+    type: kou
+    text: 許可申請者の発行済株式の全部を所有している者
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -43,3 +71,11 @@ parent_section:
 ### 第十七条の八第二項
 
 法第六十条の三第一項第一号ハに規定する政令で定める場合は、次に掲げる者が取引所取引業務（法第六十条第一項に規定する取引所取引業務をいう。以下この条において同じ。）と同種類の業務を行つていた期間を許可申請者が取引所取引業務と同種類の業務を行つていた期間とみなして当該期間を算定した場合に、その期間が引き続き三年以上となる場合とする。
+
+一　許可申請者に組織変更したと認められる者又は許可申請者に合併された会社
+
+二　分割により許可申請者に取引所取引業務と同種類の業務に係る事業の全部又は一部を承継させた者
+
+三　許可申請者に取引所取引業務と同種類の業務に係る事業の全部又は一部を譲渡した者
+
+四　許可申請者の発行済株式の全部を所有している者

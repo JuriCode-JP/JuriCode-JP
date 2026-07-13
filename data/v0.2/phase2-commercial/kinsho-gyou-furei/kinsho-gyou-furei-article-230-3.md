@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-230-3-p1
+    type: simple
+    text: 法第六十条の十三において準用する法第三十八条第八号に規定する内閣府令で定める行為は、第百十六条の四各号に掲げる行為とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

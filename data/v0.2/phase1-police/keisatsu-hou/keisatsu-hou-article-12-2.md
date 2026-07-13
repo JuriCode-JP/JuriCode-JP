@@ -16,17 +16,36 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-12-2-p1
+    type: simple
+    text: 国家公安委員会は、第五条第四項第二十六号の監察について必要があると認めるときは、警察庁に対する同項の規定に基づく指示を具体的又は個別的な事項にわたるものとすることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-12-2-p2
+    type: simple
+    text: 国家公安委員会は、前項の規定による指示をした場合において、必要があると認めるときは、その指名する委員に、当該指示に係る事項の履行の状況を点検させることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-12-2-p3
+    type: simple
+    text: 国家公安委員会は、警察庁の職員に、前項の規定により指名された委員の同項に規定する事務を補助させることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

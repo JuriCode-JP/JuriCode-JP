@@ -16,32 +16,67 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-4-p1
+    type: simple
+    text: 不法財産である債権等（不動産及び動産以外の財産をいう。次条第一項及び第二百九条の七において同じ。）が被告人以外の者（以下この条において「第三者」という。）に帰属する場合において、当該第三者が被告事件の手続への参加を許されていないときは、没収の裁判をすることができない。
+    modality: kanou_negative
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-4-p2
+    type: simple
+    text: 第百九十八条の二第一項又は第二百条の二の規定により、地上権、抵当権その他の第三者の権利がその上に存在する財産を没収しようとする場合において、当該第三者が被告事件の手続への参加を許されていないときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-4-p3
+    type: simple
+    text: 地上権、抵当権その他の第三者の権利がその上に存在する財産を没収する場合において、前条第二項の規定により当該権利を存続させるときは、裁判所は、没収の言渡しと同時に、その旨を宣告しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-4-p4
+    type: simple
+    text: 前条第二項の規定により存続させるべき権利について前項の宣告がない没収の裁判が確定したときは、当該権利を有する者で自己の責めに帰することのできない理由により被告事件の手続において権利を主張することができなかつたものは、当該権利について、これを存続させるべき場合に該当する旨の裁判を請求することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-4-p5
+    type: simple
+    text: 前項の裁判があつたときは、刑事補償法（昭和二十五年法律第一号）に定める処分された没収物に係る補償の例により、補償を行う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-209-4-p6
+    type: simple
+    text: 第一項及び第二項に規定する財産の没収に関する手続については、この法律に特別の定めがあるもののほか、刑事事件における第三者所有物の没収手続に関する応急措置法（昭和三十八年法律第百三十八号）の規定を準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

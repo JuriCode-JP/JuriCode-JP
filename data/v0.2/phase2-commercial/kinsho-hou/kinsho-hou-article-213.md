@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百十三条
 
-<!-- segment: simple id: kinsho-hou-art-213-p1 -->
 臨検、捜索、差押え又は記録命令付差押えの許可状は、これらの処分を受ける者に提示しなければならない。

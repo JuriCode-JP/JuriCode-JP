@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-24-p1
+    type: simple
+    text: 総務大臣は、第二百五十二条の二十二第一項の中核市の指定に係る政令の立案をしようとするときは、関係市からの申出に基づき、これを行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-24-p2
+    type: simple
+    text: 前項の規定による申出をしようとするときは、関係市は、あらかじめ、当該市の議会の議決を経て、都道府県の同意を得なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-24-p3
+    type: simple
+    text: 前項の同意については、当該都道府県の議会の議決を経なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

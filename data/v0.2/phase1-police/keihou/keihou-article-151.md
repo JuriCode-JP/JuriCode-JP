@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百五十一条
 
-<!-- segment: simple id: keihou-art-151-p1 -->
 前三条の罪の未遂は、罰する。

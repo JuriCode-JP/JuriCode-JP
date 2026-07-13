@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百四十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-444-p1 -->
 第三百六十六条の規定は、再審の請求及びその取下についてこれを準用する。

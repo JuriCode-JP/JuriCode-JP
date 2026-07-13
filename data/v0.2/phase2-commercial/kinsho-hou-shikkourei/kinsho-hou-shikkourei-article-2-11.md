@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-2-11-p1
+    type: simple
+    text: 法第三条第五号に規定する政令で定めるものは、法第二条第一項第十七号に掲げる有価証券のうち日本国の加盟する条約により設立された機関が発行する債券で、当該条約によりその本邦内における募集又は売出しにつき日本国政府の同意を要することとされているものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

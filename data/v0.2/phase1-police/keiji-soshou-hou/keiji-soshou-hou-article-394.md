@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百九十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-394-p1 -->
 第一審において証拠とすることができた証拠は、控訴審においても、これを証拠とすることができる。

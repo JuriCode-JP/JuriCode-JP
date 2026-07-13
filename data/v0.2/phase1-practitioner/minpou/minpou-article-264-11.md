@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-11-p1
+    type: simple
+    text: 管理不全土地管理人は、管理不全土地等の所有者のために、善良な管理者の注意をもって、その権限を行使しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-264-11-p2
+    type: simple
+    text: 管理不全土地等が数人の共有に属する場合には、管理不全土地管理人は、その共有持分を有する者全員のために、誠実かつ公平にその権限を行使しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

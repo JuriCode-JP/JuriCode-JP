@@ -46,6 +46,4 @@ parent_section:
 
 ### 第二十条
 
-<!-- segment: zen_dan id: gyousei-fufuku-shinsa-hou-art-20-p1-zen -->
-口頭で審査請求をする場合には、前条第二項から第五項までに規定する事項を陳述しなければならない。<!-- segment: kou_dan id: gyousei-fufuku-shinsa-hou-art-20-p1-kou depends_on: gyousei-fufuku-shinsa-hou-art-20-p1-zen -->
-この場合において、陳述を受けた行政庁は、その陳述の内容を録取し、これを陳述人に読み聞かせて誤りのないことを確認しなければならない。
+口頭で審査請求をする場合には、前条第二項から第五項までに規定する事項を陳述しなければならない。この場合において、陳述を受けた行政庁は、その陳述の内容を録取し、これを陳述人に読み聞かせて誤りのないことを確認しなければならない。

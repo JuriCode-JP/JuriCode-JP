@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-15-p1
+    type: simple
+    text: この節に定めるもののほか、海外投資家等特例業務に係る届出の手続その他この節の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

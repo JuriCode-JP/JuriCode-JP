@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-56-3-p1
+    type: simple
+    text: 第四十九条の五に定めるもののほか、内閣総理大臣は、公益又は投資者保護のため必要かつ適当であると認める場合には、金融商品取引業者に対し、その資産のうち政令で定める部分を国内において保有することを命ずることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

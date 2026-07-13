@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-3-p1
+    type: simple
+    text: 前条第一項の場合において、厚生労働大臣は、当該課徴金対象行為について、当該課徴金対象行為者に対し、不当景品類及び不当表示防止法（昭和三十七年法律第百三十四号）第八条第一項の規定による命令があるとき、又は同法第十一条の規定により課徴金の納付を命じないものとされるときは、対価合計額に百分の三を乗じて得た額を当該課徴金の額から減額するものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

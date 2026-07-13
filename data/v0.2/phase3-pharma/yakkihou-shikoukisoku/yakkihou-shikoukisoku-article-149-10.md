@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-149-10-p1
+    type: simple
+    text: 配置販売業者は、一般用医薬品を配置するときは、別表第一の四に掲げる事項を記載した書面を添えて配置しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

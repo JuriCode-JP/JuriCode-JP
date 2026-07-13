@@ -16,12 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-69-2-p1
+    type: simple
+    text: 法第十四条の八の二に規定する計画の作成は、同条の規定により、医療用医薬品（体外診断用医薬品及び法第十四条の二の二の二第一項の規定により条件及び期限を付したものを除く。）であつて既に承認を与えられている医薬品と有効成分、分量、用法、用量、効能、効果等が異なるものについて法第十四条の承認を受けようとするときにおいて、第四十条第一項に規定する資料の収集に関する事項その他の小児の疾病の診断、治療又は予防に使用する医薬品の品質、有効性及び安全性に関する事項を記載して行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-69-2-p2-zen
+    type: zen_dan
+    text: 外国製造医薬品等特例承認取得者については、前項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-69-2-p2-kou
+    type: kou_dan
+    text: この場合において、同項中「法第十四条の二の二の二第一項」とあるのは、「法第十九条の二第五項において準用する法第十四条の二の二の二第一項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: yakkihou-shikoukisoku-art-69-2-p2-zen
 cases: []
 amendments: []
 tags:

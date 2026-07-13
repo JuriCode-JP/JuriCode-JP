@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-23-p1
+    type: simple
+    text: 国家公安委員会は、分析センターがこの章の規定に違反したとき、又は第百八条の十七第二項、第百八条の十九若しくは前条の規定による命令に違反したときは、その指定を取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-23-p2
+    type: simple
+    text: 国家公安委員会は、前項の規定により指定を取り消したときは、その旨を公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

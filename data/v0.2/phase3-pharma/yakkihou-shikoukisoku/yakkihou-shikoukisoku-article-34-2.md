@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-34-2-p1-hashira
+    type: hashira
+    text: 法第十三条の二の二第一項に規定する厚生労働省令で定める保管は、次のとおりとする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-34-2-p1-kou-1
+    type: kou
+    text: 最終製品（他の医薬品、医薬部外品又は化粧品の製造所に出荷されるものを除く。）の保管
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-34-2-p1-kou-2
+    type: kou
+    text: 令第八十条第二項第三号イからニまでに掲げる医薬品の製造工程における保管
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第三十四条の二
 
 法第十三条の二の二第一項に規定する厚生労働省令で定める保管は、次のとおりとする。
+
+一　最終製品（他の医薬品、医薬部外品又は化粧品の製造所に出荷されるものを除く。）の保管
+
+二　令第八十条第二項第三号イからニまでに掲げる医薬品の製造工程における保管

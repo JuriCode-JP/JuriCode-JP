@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十五条
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-15-p1 -->
 行政庁は、この法律の施行に必要な限度において、特定事業者に対しその業務に関して報告又は資料の提出を求めることができる。

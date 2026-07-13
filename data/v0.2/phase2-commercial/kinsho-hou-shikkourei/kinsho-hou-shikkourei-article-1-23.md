@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-1-23-p1
+    type: simple
+    text: 法第二条の二に規定する政令で定める規定は、法第二条第二十一項第一号から第五号まで及び第二十二項第一号から第六号まで、第四十一条の四、第四十一条の五本文、第四十二条の五、第四十二条の六本文、第六十六条の十三、第百八十五条の二十二第一項第一号並びに第二百二条第一項の規定とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

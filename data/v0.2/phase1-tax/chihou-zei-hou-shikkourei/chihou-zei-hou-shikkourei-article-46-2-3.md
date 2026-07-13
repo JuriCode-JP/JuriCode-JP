@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-46-2-3-p1
+    type: junyou
+    text: 第七条の三の二第一項、第四項、第五項及び第九項の規定は、法第二百九十二条第一項第十四号イに規定する政令で定める場所について準用する。この場合において、第七条の三の二第一項中「同号ただし書」とあるのは、「法第二百九十二条第一項第十四号ただし書」と読み替えるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-46-2-3-p2
+    type: junyou
+    text: 第七条の三の二第二項から第六項まで及び第九項の規定は、法第二百九十二条第一項第十四号ロに規定する政令で定めるものについて準用する。この場合において、第七条の三の二第二項中「同項第三号ロ」とあるのは、「法第二百九十二条第一項第三号ロ」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-46-2-3-p3
+    type: junyou
+    text: 第七条の三の二第七項から第九項までの規定は、法第二百九十二条第一項第十四号ハに規定する政令で定める者について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

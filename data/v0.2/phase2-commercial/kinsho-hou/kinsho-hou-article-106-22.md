@@ -14,14 +14,40 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-22-p1-hashira
+    type: hashira
+    text: 金融商品取引所持株会社の主要株主が次の各号のいずれかに該当することとなつたときは、第百六条の十七第一項の認可は、その効力を失う。
+    modality: unspecified
+  - id: kinsho-hou-art-106-22-p1-kou-1
+    type: kou
+    text: 認可を受けた日から六月以内に保有基準割合以上の数の対象議決権の保有者とならなかつたとき。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-106-22-p1-kou-2
+    type: kou
+    text: 保有基準割合未満の数の対象議決権の保有者となつたとき。
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-106-22-p1-kou-3
+    type: kou
+    text: 金融商品取引所又は商品取引所になつたとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-22-p2
+    type: simple
+    text: 前項の規定により認可が失効したとき（同項第三号に係る場合にあつては、商品取引所になつたときに限る。）は、主要株主であつた者は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -45,6 +71,12 @@ parent_section:
 ### 第百六条の二十二第一項
 
 金融商品取引所持株会社の主要株主が次の各号のいずれかに該当することとなつたときは、第百六条の十七第一項の認可は、その効力を失う。
+
+一　認可を受けた日から六月以内に保有基準割合以上の数の対象議決権の保有者とならなかつたとき。
+
+二　保有基準割合未満の数の対象議決権の保有者となつたとき。
+
+三　金融商品取引所又は商品取引所になつたとき。
 
 ### 第百六条の二十二第二項
 

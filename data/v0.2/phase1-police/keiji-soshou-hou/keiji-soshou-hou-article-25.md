@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-25-p1 -->
 忌避の申立を却下する決定に対しては、即時抗告をすることができる。

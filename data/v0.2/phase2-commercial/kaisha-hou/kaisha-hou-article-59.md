@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 発起人は、第五十七条第一項の募集に応じて設立時募集株式の引受けの申込みをしようとする者に対し、次に掲げる事項を通知しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-59-p1-kou-1
+    type: kou
+    text: 定款の認証の年月日及びその認証をした公証人の氏名
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-59-p1-kou-2
+    type: kou
+    text: 第二十七条各号、第二十八条各号、第三十二条第一項各号及び前条第一項各号に掲げる事項
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-59-p1-kou-3
+    type: kou
+    text: 発起人が出資した財産の価額
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-59-p1-kou-4
+    type: kou
+    text: 第六十三条第一項の規定による払込みの取扱いの場所
+    modality: unspecified
+    item_number: 4
+  - id: kaisha-hou-art-59-p1-kou-5
+    type: kou
+    text: 前各号に掲げるもののほか、法務省令で定める事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
@@ -41,6 +66,16 @@ paragraphs:
     type: hashira
     text: 第五十七条第一項の募集に応じて設立時募集株式の引受けの申込みをする者は、次に掲げる事項を記載した書面を発起人に交付しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-59-p3-kou-1
+    type: kou
+    text: 申込みをする者の氏名又は名称及び住所
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-59-p3-kou-2
+    type: kou
+    text: 引き受けようとする設立時募集株式の数
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
@@ -51,8 +86,8 @@ paragraphs:
     text: 前項の申込みをする者は、同項の書面の交付に代えて、政令で定めるところにより、発起人の承諾を得て、同項の書面に記載すべき事項を電磁的方法により提供することができる。
     modality: kanou_kenri
     references:
-    - 前項
     - 同項
+    - 前項
   - id: kaisha-hou-art-59-p4-kou
     type: kou_dan
     text: この場合において、当該申込みをした者は、同項の書面を交付したものとみなす。
@@ -111,36 +146,42 @@ parent_section:
 
 ### 第五十九条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-59-p1-hashira -->
-発起人は、<!-- segment: hashira id: kaisha-hou-art-59-p3-hashira -->
-第五十七条第一項の募集に応じて設立時募集株式の引受けの申込みをしようとする者に対し、次に掲げる事項を通知しなければならない。
+発起人は、第五十七条第一項の募集に応じて設立時募集株式の引受けの申込みをしようとする者に対し、次に掲げる事項を通知しなければならない。
+
+一　定款の認証の年月日及びその認証をした公証人の氏名
+
+二　第二十七条各号、第二十八条各号、第三十二条第一項各号及び前条第一項各号に掲げる事項
+
+三　発起人が出資した財産の価額
+
+四　第六十三条第一項の規定による払込みの取扱いの場所
+
+五　前各号に掲げるもののほか、法務省令で定める事項
 
 ### 第五十九条第二項
 
-<!-- segment: simple id: kaisha-hou-art-59-p2 -->
 発起人のうち出資の履行をしていないものがある場合には、発起人は、第三十六条第一項に規定する期日後でなければ、前項の規定による通知をすることができない。
 
 ### 第五十九条第三項
 
 第五十七条第一項の募集に応じて設立時募集株式の引受けの申込みをする者は、次に掲げる事項を記載した書面を発起人に交付しなければならない。
 
+一　申込みをする者の氏名又は名称及び住所
+
+二　引き受けようとする設立時募集株式の数
+
 ### 第五十九条第四項
 
-<!-- segment: zen_dan id: kaisha-hou-art-59-p4-zen -->
-前項の申込みをする者は、同項の書面の交付に代えて、政令で定めるところにより、発起人の承諾を得て、同項の書面に記載すべき事項を電磁的方法により提供することができる。<!-- segment: kou_dan id: kaisha-hou-art-59-p4-kou depends_on: kaisha-hou-art-59-p4-zen -->
-この場合において、当該申込みをした者は、同項の書面を交付したものとみなす。
+前項の申込みをする者は、同項の書面の交付に代えて、政令で定めるところにより、発起人の承諾を得て、同項の書面に記載すべき事項を電磁的方法により提供することができる。この場合において、当該申込みをした者は、同項の書面を交付したものとみなす。
 
 ### 第五十九条第五項
 
-<!-- segment: simple id: kaisha-hou-art-59-p5 -->
 発起人は、第一項各号に掲げる事項について変更があったときは、直ちに、その旨及び当該変更があった事項を第三項の申込みをした者（以下この款において「申込者」という。）に通知しなければならない。
 
 ### 第五十九条第六項
 
-<!-- segment: simple id: kaisha-hou-art-59-p6 -->
 発起人が申込者に対してする通知又は催告は、第三項第一号の住所（当該申込者が別に通知又は催告を受ける場所又は連絡先を発起人に通知した場合にあっては、その場所又は連絡先）にあてて発すれば足りる。
 
 ### 第五十九条第七項
 
-<!-- segment: simple id: kaisha-hou-art-59-p7 -->
 前項の通知又は催告は、その通知又は催告が通常到達すべきであった時に、到達したものとみなす。

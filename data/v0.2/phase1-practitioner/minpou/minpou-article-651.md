@@ -22,7 +22,7 @@ paragraphs:
     text: 委任は、各当事者がいつでもその解除をすることができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -32,6 +32,16 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: minpou-art-651-p2-kou-1
+    type: kou
+    text: 相手方に不利な時期に委任を解除したとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-651-p2-kou-2
+    type: kou
+    text: 委任者が受任者の利益（専ら報酬を得ることによるものを除く。）をも目的とする委任を解除したとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -52,10 +62,12 @@ parent_section:
 
 ### 第六百五十一条第一項
 
-<!-- segment: simple id: minpou-art-651-p1 -->
 委任は、各当事者がいつでもその解除をすることができる。
 
 ### 第六百五十一条第二項
 
-<!-- segment: hashira id: minpou-art-651-p2-hashira -->
 前項の規定により委任の解除をした者は、次に掲げる場合には、相手方の損害を賠償しなければならない。ただし、やむを得ない事由があったときは、この限りでない。
+
+一　相手方に不利な時期に委任を解除したとき。
+
+二　委任者が受任者の利益（専ら報酬を得ることによるものを除く。）をも目的とする委任を解除したとき。

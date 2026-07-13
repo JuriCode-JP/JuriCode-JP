@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-1-6-p1
+    type: simple
+    text: 国民は、医薬品等を適正に使用するとともに、これらの有効性及び安全性に関する知識と理解を深めるよう努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

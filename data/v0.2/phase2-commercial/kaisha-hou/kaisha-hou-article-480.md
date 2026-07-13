@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 清算株式会社の監査役は、当該清算株式会社が次に掲げる定款の変更をした場合には、当該定款の変更の効力が生じた時に退任する。
     modality: unspecified
+  - id: kaisha-hou-art-480-p1-kou-1
+    type: kou
+    text: 監査役を置く旨の定款の定めを廃止する定款の変更
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-480-p1-kou-2
+    type: kou
+    text: 監査役の監査の範囲を会計に関するものに限定する旨の定款の定めを廃止する定款の変更
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -54,10 +64,12 @@ parent_section:
 
 ### 第四百八十条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-480-p1-hashira -->
 清算株式会社の監査役は、当該清算株式会社が次に掲げる定款の変更をした場合には、当該定款の変更の効力が生じた時に退任する。
+
+一　監査役を置く旨の定款の定めを廃止する定款の変更
+
+二　監査役の監査の範囲を会計に関するものに限定する旨の定款の定めを廃止する定款の変更
 
 ### 第四百八十条第二項
 
-<!-- segment: simple id: kaisha-hou-art-480-p2 -->
 第三百三十六条の規定は、清算株式会社の監査役については、適用しない。

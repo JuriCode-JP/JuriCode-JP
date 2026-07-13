@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 特定証券情報の提供又は公表をしようとする発行者は、次の各号に掲げる有価証券の区分に応じ、当該各号に定める方法により行わなければならない。
     modality: gimu
+  - id: shouken-jouhou-furei-art-3-p1-kou-1
+    type: kou
+    text: 特定上場有価証券等　特定取引所規則において定める公表の方法
+    modality: unspecified
+    item_number: 1
+  - id: shouken-jouhou-furei-art-3-p1-kou-2
+    type: kou
+    text: 特定店頭売買有価証券等　特定協会規則において定める公表の方法
+    modality: unspecified
+    item_number: 2
+  - id: shouken-jouhou-furei-art-3-p1-kou-3
+    type: kou
+    text: 前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -37,5 +52,10 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: hashira id: shouken-jouhou-furei-art-3-p1-hashira -->
 特定証券情報の提供又は公表をしようとする発行者は、次の各号に掲げる有価証券の区分に応じ、当該各号に定める方法により行わなければならない。
+
+一　特定上場有価証券等　特定取引所規則において定める公表の方法
+
+二　特定店頭売買有価証券等　特定協会規則において定める公表の方法
+
+三　前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法

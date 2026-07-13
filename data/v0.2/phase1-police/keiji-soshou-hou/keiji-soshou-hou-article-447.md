@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四百四十七条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-447-p1 -->
 再審の請求が理由のないときは、決定でこれを棄却しなければならない。
 
 ### 第四百四十七条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-447-p2 -->
 前項の決定があつたときは、何人も、同一の理由によつては、更に再審の請求をすることはできない。

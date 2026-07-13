@@ -22,7 +22,7 @@ paragraphs:
     text: 本人は、個人情報取扱事業者に対し、当該本人が識別される保有個人データの電磁的記録の提供による方法その他の個人情報保護委員会規則で定める方法による開示を請求することができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -33,6 +33,21 @@ paragraphs:
     references:
     - 同項
     - 前項
+  - id: kojin-jouhou-hogo-hou-art-33-p2-kou-1
+    type: kou
+    text: 本人又は第三者の生命、身体、財産その他の権利利益を害するおそれがある場合
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-33-p2-kou-2
+    type: kou
+    text: 当該個人情報取扱事業者の業務の適正な実施に著しい支障を及ぼすおそれがある場合
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-33-p2-kou-3
+    type: kou
+    text: 他の法令に違反することとなる場合
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -80,25 +95,26 @@ parent_section:
 
 ### 第三十三条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-33-p1 -->
 本人は、個人情報取扱事業者に対し、当該本人が識別される保有個人データの電磁的記録の提供による方法その他の個人情報保護委員会規則で定める方法による開示を請求することができる。
 
 ### 第三十三条第二項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-33-p2-hashira -->
 個人情報取扱事業者は、前項の規定による請求を受けたときは、本人に対し、同項の規定により当該本人が請求した方法（当該方法による開示に多額の費用を要する場合その他の当該方法による開示が困難である場合にあっては、書面の交付による方法）により、遅滞なく、当該保有個人データを開示しなければならない。ただし、開示することにより次の各号のいずれかに該当する場合は、その全部又は一部を開示しないことができる。
+
+一　本人又は第三者の生命、身体、財産その他の権利利益を害するおそれがある場合
+
+二　当該個人情報取扱事業者の業務の適正な実施に著しい支障を及ぼすおそれがある場合
+
+三　他の法令に違反することとなる場合
 
 ### 第三十三条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-33-p3 -->
 個人情報取扱事業者は、第一項の規定による請求に係る保有個人データの全部若しくは一部について開示しない旨の決定をしたとき、当該保有個人データが存在しないとき、又は同項の規定により本人が請求した方法による開示が困難であるときは、本人に対し、遅滞なく、その旨を通知しなければならない。
 
 ### 第三十三条第四項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-33-p4 -->
 他の法令の規定により、本人に対し第二項本文に規定する方法に相当する方法により当該本人が識別される保有個人データの全部又は一部を開示することとされている場合には、当該全部又は一部の保有個人データについては、第一項及び第二項の規定は、適用しない。
 
 ### 第三十三条第五項
 
-<!-- segment: junyou id: kojin-jouhou-hogo-hou-art-33-p5 -->
 第一項から第三項までの規定は、当該本人が識別される個人データに係る第二十九条第一項及び第三十条第三項の記録（その存否が明らかになることにより公益その他の利益が害されるものとして政令で定めるものを除く。第三十七条第二項において「第三者提供記録」という。）について準用する。

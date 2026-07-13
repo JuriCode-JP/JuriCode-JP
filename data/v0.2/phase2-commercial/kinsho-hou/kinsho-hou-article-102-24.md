@@ -16,17 +16,29 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-24-p1
+    type: simple
+    text: 理事長は、自主規制法人を代表し、その事務を総理する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-24-p2
+    type: simple
+    text: 理事は、定款の定めるところにより、自主規制法人を代表し、理事長を補佐して自主規制法人の事務を掌理し、理事長に事故があるときはその職務を代理し、理事長に欠員があるときはその職務を行う。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-24-p3
+    type: simple
+    text: 監事は、自主規制法人の事務を監査する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

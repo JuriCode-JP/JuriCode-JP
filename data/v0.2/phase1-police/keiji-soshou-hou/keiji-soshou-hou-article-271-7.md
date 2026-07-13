@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-271-7-p1
+    type: simple
+    text: 裁判所は、第二百七十一条の三第二項、第二百七十一条の四第三項、第二百七十一条の五第二項若しくは前条第一項から第四項までの規定により付した条件に弁護人が違反したとき、又は同条第一項から第四項までの規定による時期若しくは方法の指定に弁護人が従わなかつたときは、弁護士である弁護人については当該弁護士の所属する弁護士会又は日本弁護士連合会に通知し、適当な処置をとるべきことを請求することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-271-7-p2
+    type: simple
+    text: 前項の規定による請求を受けた者は、そのとつた処置をその請求をした裁判所に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

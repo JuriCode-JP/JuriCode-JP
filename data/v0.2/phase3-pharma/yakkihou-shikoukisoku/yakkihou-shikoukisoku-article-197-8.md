@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-197-8-p1
+    type: simple
+    text: 検査機関は、製造・試験記録等要約書の様式の作成又は変更に当たつては、必要に応じ、第百九十七条の三の申請を行つた製造販売業者と協議するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

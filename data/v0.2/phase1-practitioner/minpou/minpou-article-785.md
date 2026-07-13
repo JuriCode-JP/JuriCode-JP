@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百八十五条
 
-<!-- segment: simple id: minpou-art-785-p1 -->
 認知をした父又は母は、その認知を取り消すことができない。

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百四十一条
 
-<!-- segment: simple id: minpou-art-141-p1 -->
 前条の場合には、期間は、その末日の終了をもって満了する。

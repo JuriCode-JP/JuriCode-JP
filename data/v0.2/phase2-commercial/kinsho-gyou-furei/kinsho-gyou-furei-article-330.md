@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百三十条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-330-p1 -->
 法第六十六条の五十一第三項に規定する内閣府令で定めるものは、電磁的記録媒体をもって調製するファイルに情報を記録したものとする。

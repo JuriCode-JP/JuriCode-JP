@@ -16,32 +16,66 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-7-p1
+    type: simple
+    text: 自主規制委員は、特定株式会社金融商品取引所の取締役会の決議によつて解職することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-7-p2
+    type: simple
+    text: 前項の決議は、議決に加わることができる取締役の過半数（これを上回る割合を定款で定めた場合にあつては、その割合以上）が出席し、その過半数（これを上回る割合を定款で定めた場合にあつては、その割合以上）で、かつ、出席した自主規制委員の過半数をもつて行う。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-7-p3
+    type: simple
+    text: 第百五条の五第一項に規定する自主規制委員の員数が欠けた場合には、任期の満了又は辞任により退任した自主規制委員は、新たに選定された自主規制委員（次項の一時自主規制委員の職務を行う者を含む。）が就任するまで、なお自主規制委員としての権利義務を有する。
+    modality: unspecified
+    references:
+    - 次項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-7-p4
+    type: simple
+    text: 前項に規定する場合において、裁判所は、必要があると認めるときは、利害関係人の申立てにより、一時自主規制委員の職務を行う者を選任することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-7-p5
+    type: simple
+    text: 裁判所は、前項の一時自主規制委員の職務を行う者を選任した場合には、特定株式会社金融商品取引所がその者に対して支払う報酬の額を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-105-7-p6
+    type: junyou
+    text: 会社法第八百六十八条第一項、第八百七十条第一項（第一号に係る部分に限る。）、第八百七十一条、第八百七十二条（第四号に係る部分に限る。）、第八百七十四条（第一号に係る部分に限る。）、第八百七十五条及び第八百七十六条の規定は、第四項の申立てがあつた場合について準用する。この場合において、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    applies_provisions:
+    - 第八百七十六条
 cases: []
 amendments: []
 tags:

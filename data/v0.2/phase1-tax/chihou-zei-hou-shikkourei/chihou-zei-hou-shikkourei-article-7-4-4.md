@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-4-4-p1
+    type: simple
+    text: 法第二十四条の三第二項に規定する政令で定める権限は、信託の目的に反しないことが明らかである場合に限り信託の変更をすることができる権限とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-4-4-p2
+    type: simple
+    text: 法第二十四条の三第二項に規定する信託の変更をする権限には、他の者との合意により信託の変更をすることができる権限を含むものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-4-4-p3
+    type: simple
+    text: 停止条件が付された信託財産の給付を受ける権利を有する者は、法第二十四条の三第二項に規定する信託財産の給付を受けることとされている者に該当するものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-7-4-4-p4
+    type: simple
+    text: 法第二十四条の三第一項に規定する受益者（同条第二項の規定により同条第一項に規定する受益者とみなされる者を含む。以下この項において同じ。）が二以上ある場合における同条第一項の規定の適用については、同項の信託の信託財産に属する資産及び負債の全部をそれぞれの受益者がその有する権利の内容に応じて有するものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

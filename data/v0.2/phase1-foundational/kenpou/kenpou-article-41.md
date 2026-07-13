@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四十一条
 
-<!-- segment: simple id: kenpou-art-41-p1 -->
 国会は、国権の最高機関であつて、国の唯一の立法機関である。

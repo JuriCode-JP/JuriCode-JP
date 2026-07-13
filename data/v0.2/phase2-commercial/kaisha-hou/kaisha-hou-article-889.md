@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の中止の命令及び同項の規定による決定に対しては、即時抗告をすることができる。
     modality: kanou_kenri
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -77,20 +77,16 @@ parent_section:
 
 ### 第八百八十九条第一項
 
-<!-- segment: simple id: kaisha-hou-art-889-p1 -->
 裁判所は、第五百十二条の規定による中止の命令を変更し、又は取り消すことができる。
 
 ### 第八百八十九条第二項
 
-<!-- segment: simple id: kaisha-hou-art-889-p2 -->
 前項の中止の命令及び同項の規定による決定に対しては、即時抗告をすることができる。
 
 ### 第八百八十九条第三項
 
-<!-- segment: simple id: kaisha-hou-art-889-p3 -->
 前項の即時抗告は、執行停止の効力を有しない。
 
 ### 第八百八十九条第四項
 
-<!-- segment: simple id: kaisha-hou-art-889-p4 -->
 第二項に規定する裁判及び同項の即時抗告についての裁判があった場合には、その裁判書を当事者に送達しなければならない。

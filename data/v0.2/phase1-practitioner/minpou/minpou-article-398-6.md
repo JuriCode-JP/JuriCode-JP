@@ -16,22 +16,40 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-6-p1
+    type: simple
+    text: 根抵当権の担保すべき元本については、その確定すべき期日を定め又は変更することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-6-p2
+    type: junyou
+    text: 第三百九十八条の四第二項の規定は、前項の場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-6-p3
+    type: simple
+    text: 第一項の期日は、これを定め又は変更した日から五年以内でなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-6-p4
+    type: simple
+    text: 第一項の期日の変更についてその変更前の期日より前に登記をしなかったときは、担保すべき元本は、その変更前の期日に確定する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

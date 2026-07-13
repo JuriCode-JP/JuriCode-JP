@@ -16,17 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-81-2-p1
+    type: simple
+    text: 警察署長は、道路に転落し、又は飛散した車両等の積載物（以下この条及び第八十三条において「転落積載物等」という。）が道路における交通の危険を生じさせ、又は著しく交通の妨害となるおそれがあるときは、当該転落積載物等の占有者、所有者その他当該転落積載物等について権原を有する者（次項において「転落積載物等の占有者等」という。）に対し、当該転落積載物等の除去その他当該転落積載物等について道路における危険を防止し、又は交通の円滑を図るため必要な措置を採るべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-81-2-p2-zen
+    type: zen_dan
+    text: 前項の場合において、当該転落積載物等の占有者等の氏名及び住所を知ることができないため、これらの者に対し、同項の規定による措置を採ることを命ずることができないときは、警察署長は、自ら当該措置を採ることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
+  - id: douro-koutsuu-hou-art-81-2-p2-kou
+    type: kou_dan
+    text: この場合において、転落積載物等を除去したときは、警察署長は、当該転落積載物等を保管しなければならない。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-81-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-81-2-p3
+    type: junyou
+    text: 前条第三項から第十二項までの規定は、前項の規定による措置に係る転落積載物等について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -54,3 +79,5 @@ parent_section:
 ### 第八十一条の二第三項
 
 前条第三項から第十二項までの規定は、前項の規定による措置に係る転落積載物等について準用する。
+
+（罰則　第一項については第百十九条第二項第九号、第百二十三条）

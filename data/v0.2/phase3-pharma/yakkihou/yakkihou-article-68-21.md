@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-21-p1
+    type: simple
+    text: 特定生物由来製品を取り扱う医師その他の医療関係者（以下「特定生物由来製品取扱医療関係者」という。）は、特定生物由来製品の有効性及び安全性その他特定生物由来製品の適正な使用のために必要な事項について、当該特定生物由来製品の使用の対象者に対し適切な説明を行い、その理解を得るよう努めなければならない。
+    modality: doryoku_gimu
 cases: []
 amendments: []
 tags:

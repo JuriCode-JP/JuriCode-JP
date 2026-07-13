@@ -61,8 +61,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 前条
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
@@ -103,35 +103,28 @@ parent_section:
 
 ### 第百二条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-102-p1 -->
 普通地方公共団体の議会は、定例会及び臨時会とする。
 
 ### 第百二条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-102-p2 -->
 定例会は、毎年、条例で定める回数これを招集しなければならない。
 
 ### 第百二条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-102-p3 -->
 臨時会は、必要がある場合において、その事件に限りこれを招集する。
 
 ### 第百二条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-102-p4 -->
 臨時会に付議すべき事件は、普通地方公共団体の長があらかじめこれを告示しなければならない。
 
 ### 第百二条第五項
 
-<!-- segment: tokusoku id: chihou-jichi-hou-art-102-p5 override_flag: true override_target: 前項 -->
 前条第五項又は第六項の場合においては、前項の規定にかかわらず、議長が、同条第二項又は第三項の規定による請求において示された会議に付議すべき事件を臨時会に付議すべき事件として、あらかじめ告示しなければならない。
 
 ### 第百二条第六項
 
-<!-- segment: simple id: chihou-jichi-hou-art-102-p6 -->
 臨時会の開会中に緊急を要する事件があるときは、前三項の規定にかかわらず、直ちにこれを会議に付議することができる。
 
 ### 第百二条第七項
 
-<!-- segment: simple id: chihou-jichi-hou-art-102-p7 -->
 普通地方公共団体の議会の会期及びその延長並びにその開閉に関する事項は、議会がこれを定める。

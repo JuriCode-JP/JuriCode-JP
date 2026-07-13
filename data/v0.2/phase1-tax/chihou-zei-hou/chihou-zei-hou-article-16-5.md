@@ -16,22 +16,48 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-5-p1
+    type: simple
+    text: 徴収の猶予、職権による換価の猶予又は申請による換価の猶予を受けた者がその猶予に係る地方団体の徴収金をその猶予の期限までに納付若しくは納入をせず、又は地方団体の長が第十五条の三第一項（第十五条の五の三第二項及び第十五条の六の三第二項において読み替えて準用する場合を含む。）の規定によりその猶予を取り消したことによつて、その猶予に係る地方団体の徴収金を徴収する場合において、その地方団体の徴収金について徴した担保があるときは、地方団体の長は、滞納処分の例によりその担保財産を処分して、その徴収すべき地方団体の徴収金及び担保財産の処分費に充て、又は保証人にその地方団体の徴収金を納付し、若しくは納入させる。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-5-p2
+    type: simple
+    text: 前項の場合において、地方団体の長は、担保財産の処分の代金が同項の地方団体の徴収金及び担保財産の処分費に充ててなお不足があると認めるときは、滞納者の他の財産について滞納処分をし、また、保証人がその納付し、又は納入すべき金額を完納しないときは、まず滞納者に対して滞納処分をし、なお不足があるとき、又は不足があると認めるときは、保証人に対して滞納処分をする。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-5-p3
+    type: junyou
+    text: 前二項の規定は、第十六条の三又は前条第三項若しくは第四項第一号（同条第十二項において準用する場合を含む。）の担保の提供があつた場合において、その担保に係る地方団体の徴収金を徴収するときについて準用する。この場合において、その担保が金銭であるときは、直ちにその地方団体の徴収金に充てる。
+    modality: unspecified
+    references:
+    - 前条
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-16-5-p4
+    type: junyou
+    text: 第十一条の規定は、第一項又は第二項（これらの規定を前項において準用する場合を含む。）の規定により保証人から地方団体の徴収金を徴収する場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第十一条
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

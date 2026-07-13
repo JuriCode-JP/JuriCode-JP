@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十八条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-28-p1 -->
 令第十二条第二項の申請書（地方厚生局長に提出する場合にあつては正副二通、都道府県知事に提出する場合にあつては正本一通）は、様式第三によるものとする。
 
 ### 第二十八条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-28-p2 -->
 前項の規定により地方厚生局長に提出することとされている申請書には、手数料の額に相当する収入印紙をはらなければならない。

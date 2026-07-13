@@ -54,11 +54,8 @@ parent_section:
 
 ### 第七百九十条第一項
 
-<!-- segment: honbun id: minpou-art-790-p1-honbun -->
-嫡出である子は、父母の氏を称する。<!-- segment: tadashi id: minpou-art-790-p1-tadashi -->
-ただし、子の出生前に父母が離婚したときは、離婚の際における父母の氏を称する。
+嫡出である子は、父母の氏を称する。ただし、子の出生前に父母が離婚したときは、離婚の際における父母の氏を称する。
 
 ### 第七百九十条第二項
 
-<!-- segment: simple id: minpou-art-790-p2 -->
 嫡出でない子は、母の氏を称する。

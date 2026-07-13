@@ -16,57 +16,145 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p1-zen
+    type: zen_dan
+    text: 市町村は、前条の規定により特別徴収の方法によつて個人の市町村民税を徴収しようとする場合には、当該年度の初日において同条の納税義務者に対して給与の支払をする者（他の市町村内において給与の支払をする者を含む。）のうち所得税法第百八十三条の規定により給与の支払をする際所得税を徴収して納付する義務がある者を当該市町村の条例により特別徴収義務者として指定し、これに徴収させなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: chihou-zei-hou-art-321-4-p1-kou
+    type: kou_dan
+    text: この場合においては、当該市町村の長は、前条第一項本文の規定により特別徴収の方法によつて徴収すべき給与所得に係る所得割額及び均等割額の合算額又はこれに同条第二項本文の規定により特別徴収の方法によつて徴収することとなる給与所得以外の所得に係る所得割額（同条第四項に規定する場合には、同項の規定により読み替えて適用される同条第二項本文の規定により特別徴収の方法によつて徴収することとなる給与所得及び公的年金等に係る所得以外の所得に係る所得割額）を合算した額（以下この条から第三百二十一条の七までにおいて「給与所得に係る特別徴収税額」という。）を特別徴収の方法によつて徴収する旨（第七項から第十一項までにおいて「通知事項」という。）を当該特別徴収義務者及びこれを経由して当該納税義務者に通知しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
+    depends_on: chihou-zei-hou-art-321-4-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p2
+    type: simple
+    text: 市町村長が前項後段の規定により特別徴収義務者及び特別徴収義務者を経由して納税義務者に対してする通知は、当該年度の初日の属する年の五月三十一日までにしなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p3-honbun
+    type: honbun
+    text: 第三百十七条の六第一項の規定により提出すべき給与支払報告書が同項の提出期限までに提出されなかつたことその他やむを得ない理由があることにより、市町村長が前項に規定する期日までに第一項後段の規定による通知をすることができなかつた場合には、当該期日後において当該通知をすることを妨げない。
+    modality: jogai
+    references:
+    - 同項
+    - 前項
+  - id: chihou-zei-hou-art-321-4-p3-tadashi
+    type: tadashi
+    text: ただし、次条第一項の規定により当該通知のあつた日の属する月の翌月から翌年五月までの間において給与所得に係る特別徴収税額を徴収することが不適当であると認められる場合は、この限りでない。
+    modality: jogai
+    references:
+    - 次条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p4-zen
+    type: zen_dan
+    text: 第一項の場合において、同一の納税義務者に対して給与の支払をする者が二以上あるときは、市町村は、当該市町村の条例によりこれらの支払をする者の全部又は一部を特別徴収義務者として指定しなければならない。
+    modality: gimu
+  - id: chihou-zei-hou-art-321-4-p4-kou
+    type: kou_dan
+    text: この場合において、特別徴収義務者として二以上の者を指定したときは、給与所得に係る特別徴収税額をこれらの者が当該年度中にそれぞれ支払うべき給与の額に按分して、これを徴収させることができる。
+    modality: kanou_kenri
+    depends_on: chihou-zei-hou-art-321-4-p4-zen
 - number: 5
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p5-honbun
+    type: honbun
+    text: 納税義務者である給与所得者に対し給与の支払をする者に当該年度の初日の翌日から翌年の四月三十日までの間において異動を生じた場合において、当該給与所得者が当該給与所得者に対して新たに給与の支払をする者となつた者（所得税法第百八十三条の規定により給与の支払をする際所得税を徴収して納付する義務がある者に限る。以下この項において同じ。）を通じて、当該異動により従前の給与の支払をする者から給与の支払を受けなくなつた日の属する月の翌月の十日（その支払を受けなくなつた日が翌年の四月中である場合には、同月三十日）までに、前条第一項本文の規定により特別徴収の方法によつて徴収されるべき前年中の給与所得に係る所得割額及び均等割額の合算額（既に特別徴収の方法によつて徴収された金額があるときは、当該金額を控除した金額）を特別徴収の方法によつて徴収されたい旨の申出をしたときは、市町村は、当該給与所得者に対して新たに給与の支払をする者となつた者を当該市町村の条例により特別徴収義務者として指定し、これに徴収させるものとする。
+    modality: gimu
+    references:
+    - 前条
+  - id: chihou-zei-hou-art-321-4-p5-tadashi
+    type: tadashi
+    text: ただし、当該申出が翌年の四月中にあつた場合において、当該給与所得者に対して新たに給与の支払をする者となつた者を特別徴収義務者として指定し、これに徴収させることが困難であると市町村長が認めるときは、この限りでない。
+    modality: jogai
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p6
+    type: junyou
+    text: 第一項後段の規定は、前項本文の場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p7
+    type: simple
+    text: 市町村長は、第一項又は第五項の規定により指定した特別徴収義務者（第三百十七条の六第一項に規定する給与支払報告書に記載すべきものとされる事項を同条第五項（第一号に係る部分に限る。）の規定により提供した者又は同条第一項の規定による給与支払報告書の提出を第七百四十七条の二第一項の規定により行つた者に限る。以下この項から第九項まで及び第十一項において「特定特別徴収義務者」という。）が、第一項後段（前項において準用する場合を含む。以下この項、次項及び第十項において同じ。）の規定により当該特定特別徴収義務者に通知すべき通知事項について、電磁的方法により提供を受けることを希望する旨の申出をした場合には、第一項後段の規定による当該特定特別徴収義務者に対する通知に代えて、当該通知事項を、総務省令で定めるところにより、地方税関係手続用電子情報処理組織を使用し、かつ、機構を経由して行う方法により当該特定特別徴収義務者に提供しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p8
+    type: simple
+    text: 市町村長は、特定特別徴収義務者（第一項後段の規定により当該特定特別徴収義務者を経由して納税義務者に通知すべき通知事項を、電磁的方法により当該納税義務者に提供する体制が整備されている者に限る。）が、当該通知事項について、電磁的方法により送信を受けることを希望する旨の申出をした場合には、同項後段の規定による当該納税義務者に対する通知に代えて、当該通知事項を、総務省令で定めるところにより、地方税関係手続用電子情報処理組織を使用し、かつ、機構を経由して行う方法により当該特定特別徴収義務者に送信し、これを経由して当該納税義務者に提供しなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p9
+    type: simple
+    text: 前項の場合において、同項の通知事項の送信を受けた特定特別徴収義務者は、当該通知事項を電磁的方法（これにより難いと認められる納税義務者に対しては、総務省令で定める方法）により納税義務者に提供するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p10
+    type: simple
+    text: 第七項又は第八項の規定により行われた通知事項の提供については、第一項後段の規定による通知があつたものとみなして、次条第一項及び第三百二十一条の六第一項の規定を適用する。
+    modality: unspecified
+    references:
+    - 次条
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-321-4-p11
+    type: simple
+    text: 第七項の規定により行われた通知事項の提供及び第八項の規定により行われた通知事項の送信は、第七百六十二条第一号の機構の使用に係る電子計算機に備えられたファイルへの記録がされた上で、第七項又は第八項に規定する市町村長が総務省令で定める方法により通知した当該記録に関する事項がこれらの規定に規定する特定特別徴収義務者に到達した時に当該特定特別徴収義務者に到達したものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

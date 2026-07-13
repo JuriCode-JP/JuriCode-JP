@@ -16,22 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-9-p1
+    type: simple
+    text: 前条第一項の規定による通知を受けた者（同条第二項後段の規定により当該通知が到達したものとみなされる者を含む。次項及び第四項において「当事者」という。）は、代理人を選任することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-9-p2
+    type: simple
+    text: 代理人は、各自、当事者のために、弁明に関する一切の行為をすることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-9-p3
+    type: simple
+    text: 代理人の資格は、書面で証明しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-75-5-9-p4
+    type: simple
+    text: 代理人がその資格を失つたときは、当該代理人を選任した当事者は、書面でその旨を厚生労働大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

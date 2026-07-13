@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五百九十九条
 
-<!-- segment: simple id: shouhou-art-599-p1 -->
 この節において「倉庫営業者」とは、他人のために物品を倉庫に保管することを業とする者をいう。

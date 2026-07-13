@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百九十条
 
-<!-- segment: simple id: keiji-soshou-hou-art-290-p1 -->
 第三十七条各号の場合に弁護人が出頭しないときは、裁判所は、職権で弁護人を附することができる。

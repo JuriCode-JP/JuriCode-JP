@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-4-p1
+    type: simple
+    text: 家庭裁判所は、第十一条本文に規定する者又は保佐人若しくは保佐監督人の請求によって、被保佐人のために特定の法律行為について保佐人に代理権を付与する旨の審判をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-4-p2
+    type: simple
+    text: 本人以外の者の請求によって前項の審判をするには、本人の同意がなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-876-4-p3
+    type: simple
+    text: 家庭裁判所は、第一項に規定する者の請求によって、同項の審判の全部又は一部を取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-38-4-p1
+    type: simple
+    text: 総務大臣は、軽油引取税に関する実地の調査を行つた結果、元売業者等のうち元売業者について第百四十四条の七第二項の規定により元売業者の指定を取り消すことができると認められない場合には、元売業者であつて当該調査において質問検査等の相手方となつた者に対し、その時点において同項の規定により元売業者の指定を取り消すことができると認められない旨を書面により通知するものとし、元売業者等のうち元売業者以外の者について同条第一項に規定する要件に該当すると認められる場合には、元売業者以外の者であつて当該調査において質問検査等の相手方となつた者に対し、その時点において同項に規定する要件に該当すると認められる旨を書面により通知するものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-38-4-p2
+    type: simple
+    text: 総務大臣は、軽油引取税に関する調査の結果、元売業者等のうち元売業者について第百四十四条の七第二項の規定により元売業者の指定を取り消すことができると認められる場合には、当該元売業者に対し、その時点において同項の規定により元売業者の指定を取り消すことができると認められる旨及びその理由を説明するものとし、元売業者等のうち元売業者以外の者について同条第一項に規定する要件に該当すると認められない場合には、当該元売業者以外の者に対し、その時点において同項に規定する要件に該当すると認められない旨及びその理由を説明するものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-38-4-p3
+    type: simple
+    text: 実地の調査により質問検査等を行つた元売業者等について税務代理人がある場合において、当該元売業者等の同意がある場合には、当該元売業者等への第一項又は前項の規定による通知又は説明に代えて、当該税務代理人へのこれらの規定による通知又は説明を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

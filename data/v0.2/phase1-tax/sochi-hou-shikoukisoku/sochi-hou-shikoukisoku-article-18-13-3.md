@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-18-13-3-p1-hashira
+    type: hashira
+    text: 施行令第二十五条の十の八に規定する財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+  - id: sochi-hou-shikoukisoku-art-18-13-3-p1-kou-1
+    type: kou
+    text: 施行令第二十五条の十の八に規定する特定口座開設者死亡届出書の同条に規定する提出（次条第一項第三号において「特定口座開設者死亡届出書の提出」という。）をする相続人の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-18-13-3-p1-kou-2
+    type: kou
+    text: 被相続人の氏名、生年月日及び死亡の時における住所並びに死亡年月日
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-18-13-3-p1-kou-3
+    type: kou
+    text: 被相続人がその金融商品取引業者等の営業所において開設していた特定口座の名称及び記号又は番号並びに当該特定口座に設けられていた勘定の種類
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-18-13-3-p1-kou-4
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,3 +58,11 @@ parent_section:
 ### 第十八条の十三の三
 
 施行令第二十五条の十の八に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　施行令第二十五条の十の八に規定する特定口座開設者死亡届出書の同条に規定する提出（次条第一項第三号において「特定口座開設者死亡届出書の提出」という。）をする相続人の氏名及び住所
+
+二　被相続人の氏名、生年月日及び死亡の時における住所並びに死亡年月日
+
+三　被相続人がその金融商品取引業者等の営業所において開設していた特定口座の名称及び記号又は番号並びに当該特定口座に設けられていた勘定の種類
+
+四　その他参考となるべき事項

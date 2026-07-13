@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五十七条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-57-p1 -->
 削除

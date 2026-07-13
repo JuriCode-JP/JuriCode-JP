@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百六十三条
 
-<!-- segment: simple id: kaisha-hou-art-563-p1 -->
 清算株式会社は、債権者集会に対し、協定の申出をすることができる。

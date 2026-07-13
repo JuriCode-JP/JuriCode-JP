@@ -16,42 +16,89 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-22-p1
+    type: simple
+    text: 生物由来製品につき第十四条若しくは第二十三条の二の五の承認を受けた者、選任外国製造医薬品等製造販売業者又は選任外国製造医療機器等製造販売業者（以下この条及び次条において「生物由来製品承認取得者等」という。）は、生物由来製品を譲り受け、又は借り受けた薬局開設者、生物由来製品の製造販売業者、販売業者若しくは貸与業者又は病院、診療所若しくは飼育動物診療施設の開設者の氏名、住所その他の厚生労働省令で定める事項を記録し、かつ、これを適切に保存しなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-22-p2
+    type: simple
+    text: 生物由来製品の販売業者又は貸与業者は、薬局開設者、生物由来製品の製造販売業者、販売業者若しくは貸与業者又は病院、診療所若しくは飼育動物診療施設の開設者に対し、生物由来製品を販売し、貸与し、又は授与したときは、その譲り受け、又は借り受けた者に係る前項の厚生労働省令で定める事項に関する情報を当該生物由来製品承認取得者等に提供しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-22-p3
+    type: simple
+    text: 特定生物由来製品取扱医療関係者は、その担当した特定生物由来製品の使用の対象者の氏名、住所その他の厚生労働省令で定める事項を記録するものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-22-p4
+    type: simple
+    text: 薬局の管理者又は病院、診療所若しくは飼育動物診療施設の管理者は、前項の規定による記録を適切に保存するとともに、特定生物由来製品につき第十四条若しくは第二十三条の二の五の承認を受けた者、選任外国製造医薬品等製造販売業者、選任外国製造医療機器等製造販売業者又は第六項の委託を受けた者（以下この条において「特定生物由来製品承認取得者等」という。）からの要請に基づいて、当該特定生物由来製品の使用による保健衛生上の危害の発生又は拡大を防止するための措置を講ずるために必要と認められる場合であつて、当該特定生物由来製品の使用の対象者の利益になるときに限り、前項の規定による記録を当該特定生物由来製品承認取得者等に提供するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-22-p5
+    type: simple
+    text: 特定生物由来製品の販売業者又は貸与業者は、前二項の規定による記録及び保存の事務が円滑に行われるよう、当該特定生物由来製品取扱医療関係者又は薬局の管理者若しくは病院、診療所若しくは飼育動物診療施設の管理者に対する説明その他の必要な協力を行わなければならない。
+    modality: gimu
+    references:
+    - 前二項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-22-p6-zen
+    type: zen_dan
+    text: 生物由来製品承認取得者等は、その承認を受けた生物由来製品の一の品目の全てを取り扱う販売業者その他の厚生労働省令で定める基準に適合する者に対して、第一項の規定による記録又は保存の事務の全部又は一部を委託することができる。
+    modality: kanou_kenri
+  - id: yakkihou-art-68-22-p6-kou
+    type: kou_dan
+    text: この場合において、生物由来製品承認取得者等は、あらかじめ、厚生労働省令で定める事項を厚生労働大臣に届け出なければならない。
+    modality: gimu
+    depends_on: yakkihou-art-68-22-p6-zen
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-22-p7
+    type: simple
+    text: 特定生物由来製品承認取得者等又はこれらの役員若しくは職員は、正当な理由なく、第四項の保健衛生上の危害の発生又は拡大を防止するために講ずる措置の実施に関し、その職務上知り得た人の秘密を漏らしてはならない。これらの者であつた者についても、同様とする。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-22-p8
+    type: simple
+    text: 前各項に定めるもののほか、第一項、第三項及び第四項の規定による記録及び保存の事務（次条において「記録等の事務」という。）に関し必要な事項は、厚生労働省令で定める。
+    modality: unspecified
+    references:
+    - 次条
 cases: []
 amendments: []
 tags:

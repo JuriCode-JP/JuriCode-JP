@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\335AC0000000145.xml",
   "source_xml_sha256": "b164b067f172d6e5ef43936a3af16b217a3a59ef1300fa689f0b024e3d56c281",
   "source_xml_bytes": 1498782,
-  "source_fetched_at": "2026-06-23",
+  "source_fetched_at": "2026-07-13",
   "parser": "tools/parse/v0.2/segment_parser.py",
-  "parser_version": "tools/parse/v0.2/segment_parser.py@0.1.0",
-  "parsed_at": "2026-06-23T08:56:26+00:00",
+  "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
+  "parsed_at": "2026-07-13T13:59:10+00:00",
   "version_date": "1960-08-10",
   "article_count": 356,
   "articles": [
@@ -58,48 +58,48 @@
       "article_id": "yakkihou-art-1",
       "article_number": "1",
       "filename": "yakkihou-article-1.md",
-      "ja_text_sha256": "e82b6bb01b0b414384e9223e167391c30daf017bd95b1a3123605d1057e4c809",
-      "ja_text_bytes": 662,
+      "ja_text_sha256": "5e505685b4e7d73127da0bee698282924128c8d86957fc0cc46e3261369d1cd5",
+      "ja_text_bytes": 615,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-10",
       "article_number": "10",
       "filename": "yakkihou-article-10.md",
-      "ja_text_sha256": "ca95cd6b7182ea49f078fde5e12354f1fbc942e474b6503890417770671d3a3f",
-      "ja_text_bytes": 773,
+      "ja_text_sha256": "a2bc44dee3304cc132a10359eeb96d37e21bb7b5c530990b17ee99c1bd7c29e2",
+      "ja_text_bytes": 677,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-11",
       "article_number": "11",
       "filename": "yakkihou-article-11.md",
-      "ja_text_sha256": "3a18ba17d4ead5e6afa2c2680440b51e5b1bfc6ed4b9a5559e9f1ec4ea09fd45",
-      "ja_text_bytes": 204,
+      "ja_text_sha256": "253b89e60f71e76f95fce702b430ceb6821c6b1f17be5148f3ea4823d8b3d021",
+      "ja_text_bytes": 156,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-12-2",
       "article_number": "12-2",
       "filename": "yakkihou-article-12-2.md",
-      "ja_text_sha256": "766e4678c6a0710cb1761d173c2405eb039ff3d3aed606b923d5d5bd62dfb41a",
-      "ja_text_bytes": 233,
+      "ja_text_sha256": "bc36a69f6881019f5e6c7003a03c91a8330d83b012810fc8f43b7e598d856a92",
+      "ja_text_bytes": 758,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-12",
       "article_number": "12",
       "filename": "yakkihou-article-12.md",
-      "ja_text_sha256": "7d8f4447acc4a8cd5be15e66d4a887028271533dae8a1ed3e5d3c46c7129f5b6",
-      "ja_text_bytes": 1487,
+      "ja_text_sha256": "4523a3327548f87ede273cea1d67528f939f3afea2445548c85ce33c4ca07021",
+      "ja_text_bytes": 2108,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-13-2-2",
       "article_number": "13-2-2",
       "filename": "yakkihou-article-13-2-2.md",
-      "ja_text_sha256": "4c68f3b530e1fa893b383ff55a26080bc1ca373bfa36dfac760b8f6ac061f582",
-      "ja_text_bytes": 1199,
+      "ja_text_sha256": "bde6ed8c695063fb42e90b56557a7fe0a5106c7c34850aa8a7937f6ec18cbd79",
+      "ja_text_bytes": 1910,
       "paragraph_count": 5
     },
     {
@@ -130,8 +130,8 @@
       "article_id": "yakkihou-art-13",
       "article_number": "13",
       "filename": "yakkihou-article-13.md",
-      "ja_text_sha256": "2408bdfa032e08777fce0a5d8d68c3ad0dd515e3045b3c81203ffe3764fee202",
-      "ja_text_bytes": 1993,
+      "ja_text_sha256": "399858ece822c55e30560728802c2f8db9fc32733a2d4fc5b7deeb60f0ca9989",
+      "ja_text_bytes": 2254,
       "paragraph_count": 9
     },
     {
@@ -146,16 +146,16 @@
       "article_id": "yakkihou-art-14-2-2-2",
       "article_number": "14-2-2-2",
       "filename": "yakkihou-article-14-2-2-2.md",
-      "ja_text_sha256": "7a9c6009e5ab895309b9282803869f898c61583635043a330d81c06d8bc82933",
-      "ja_text_bytes": 2635,
+      "ja_text_sha256": "16ed2c68871e71f23a154d3a1e939a018f92bff7a147254ba2ffd09c03fa8ef9",
+      "ja_text_bytes": 3202,
       "paragraph_count": 6
     },
     {
       "article_id": "yakkihou-art-14-2-2",
       "article_number": "14-2-2",
       "filename": "yakkihou-article-14-2-2.md",
-      "ja_text_sha256": "9ed5ec58645b495fe520ccdef767267d95f7f7d9de05c4dad4fa38aca1bc5d79",
-      "ja_text_bytes": 3511,
+      "ja_text_sha256": "15a153049b96467c3b72df1a32ec793d1fe1da8993eced329fceef0085a6e12f",
+      "ja_text_bytes": 4009,
       "paragraph_count": 6
     },
     {
@@ -170,24 +170,24 @@
       "article_id": "yakkihou-art-14-2",
       "article_number": "14-2",
       "filename": "yakkihou-article-14-2.md",
-      "ja_text_sha256": "750e05f191571f794bf696dbf51fc4cbfca5939e8ced46832b665fe3fd887733",
-      "ja_text_bytes": 2165,
+      "ja_text_sha256": "9258a98894fc8513ec1a9292ecb4e9f8156080dd30db01fcca1d9db13e41bb9e",
+      "ja_text_bytes": 3482,
       "paragraph_count": 5
     },
     {
       "article_id": "yakkihou-art-14-3",
       "article_number": "14-3",
       "filename": "yakkihou-article-14-3.md",
-      "ja_text_sha256": "28fe79193bfcb73e02050e0381afc89c42538f1947d4f72b0931e920de91b32c",
-      "ja_text_bytes": 1000,
+      "ja_text_sha256": "dbb56fd0be34edd47ac6583b9974b2c92de7e9e6d10538b79f3b6daf7c96fa0d",
+      "ja_text_bytes": 1768,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-14-4",
       "article_number": "14-4",
       "filename": "yakkihou-article-14-4.md",
-      "ja_text_sha256": "9b4c2bba36aaa35b3aca7d6453247dcbb4f7162065b0ba5c84fc04295cb19521",
-      "ja_text_bytes": 3140,
+      "ja_text_sha256": "f5eb439802fc62810419769b38fcfcca7fca43425a714d8c3f6f901dcc07417e",
+      "ja_text_bytes": 5419,
       "paragraph_count": 8
     },
     {
@@ -210,8 +210,8 @@
       "article_id": "yakkihou-art-14-7-2",
       "article_number": "14-7-2",
       "filename": "yakkihou-article-14-7-2.md",
-      "ja_text_sha256": "c7c389c9bb2631df97b4b5c618a946a24607cf95fa5b3ac4892152cca9301d9c",
-      "ja_text_bytes": 4736,
+      "ja_text_sha256": "465c2b01ec32d0930702653b3e1e320a4c452a891e8a2138f4cd54bfa8eacf52",
+      "ja_text_bytes": 5843,
       "paragraph_count": 11
     },
     {
@@ -250,24 +250,24 @@
       "article_id": "yakkihou-art-14",
       "article_number": "14",
       "filename": "yakkihou-article-14.md",
-      "ja_text_sha256": "ccf6c5e4353bfda85f890c30647b7f192013728b929bf45e43e00d07bf1f0e52",
-      "ja_text_bytes": 8071,
+      "ja_text_sha256": "147a381b99486c6b30a8ff3a3d8807765b90a449256d0eff149f8277ae3cc754",
+      "ja_text_bytes": 9919,
       "paragraph_count": 15
     },
     {
       "article_id": "yakkihou-art-17",
       "article_number": "17",
       "filename": "yakkihou-article-17.md",
-      "ja_text_sha256": "1d0e9ad0245d1cf5ae188dcd96366cb5e41eb00fcecac2f83fba5c8d96fd2d7f",
-      "ja_text_bytes": 5563,
+      "ja_text_sha256": "79829247e4b159028ccabf99c8c16a36925ca937cac18fa313e1bfa3693f12b8",
+      "ja_text_bytes": 5411,
       "paragraph_count": 14
     },
     {
       "article_id": "yakkihou-art-18-2",
       "article_number": "18-2",
       "filename": "yakkihou-article-18-2.md",
-      "ja_text_sha256": "294ebdd5ed0ee16d3963c1c02cc876bb62b012482349bcbde3a80bbb28a29c5d",
-      "ja_text_bytes": 1200,
+      "ja_text_sha256": "a042f801538e84b6b8733ed0791cf53caa34f19133ac0981a66e207f23f30f24",
+      "ja_text_bytes": 3945,
       "paragraph_count": 4
     },
     {
@@ -298,8 +298,8 @@
       "article_id": "yakkihou-art-18",
       "article_number": "18",
       "filename": "yakkihou-article-18.md",
-      "ja_text_sha256": "56ff01fc1d4efd2724ce4327fa00f5da5d5bb5611d73cec706ef6fec4de50c15",
-      "ja_text_bytes": 2384,
+      "ja_text_sha256": "45a903c33b8eca45b0aeb8fc4b230bdaa3fbca39ef47174342b113523b63915c",
+      "ja_text_bytes": 2144,
       "paragraph_count": 5
     },
     {
@@ -330,40 +330,40 @@
       "article_id": "yakkihou-art-19",
       "article_number": "19",
       "filename": "yakkihou-article-19.md",
-      "ja_text_sha256": "895f3c171b6efc42acd7f20f8ca25e0064675f0218b3bedd6ded9b60e0116efa",
-      "ja_text_bytes": 893,
+      "ja_text_sha256": "67feecdd14ee56ef3af9849008e84cea7b7501b35fc2e5379813301820652830",
+      "ja_text_bytes": 797,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-2",
       "article_number": "2",
       "filename": "yakkihou-article-2.md",
-      "ja_text_sha256": "9e7bc64b3f93491e3be73a288a4d4fd056078e4506c3bf948dfabe24d4410e84",
-      "ja_text_bytes": 8740,
+      "ja_text_sha256": "c0bab47bdfbc8428139bb260c99e3f164abe32b4fecfa8a08b4eca476f504c18",
+      "ja_text_bytes": 10535,
       "paragraph_count": 19
     },
     {
       "article_id": "yakkihou-art-20",
       "article_number": "20",
       "filename": "yakkihou-article-20.md",
-      "ja_text_sha256": "eceb0b4ccc23f2b2a3c82350cbab5e22696457ee19d6f39942697d3fd453d508",
-      "ja_text_bytes": 1761,
+      "ja_text_sha256": "61b7bb6c19fcd6be63642b30f276bbe0c6781519cad2c4724789c846faeda448",
+      "ja_text_bytes": 1520,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-21",
       "article_number": "21",
       "filename": "yakkihou-article-21.md",
-      "ja_text_sha256": "d50e433ad283d7874a26287eea250c2e31a81d357f231db7b601434ddc2355a0",
-      "ja_text_bytes": 1337,
+      "ja_text_sha256": "7d128e9da7382de258cc379ff1699c38f2b6240b0ad5de622457d3f91a77c1eb",
+      "ja_text_bytes": 1241,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-22",
       "article_number": "22",
       "filename": "yakkihou-article-22.md",
-      "ja_text_sha256": "16654748514743935a844aa1dec0b264ec6ae7e026e8bbd6aa5b155fd9b74af3",
-      "ja_text_bytes": 54,
+      "ja_text_sha256": "e9653dc3edcbc072d033d200b3aa56539fde84e9b7cc80287fedc9f91cbe03ad",
+      "ja_text_bytes": 6,
       "paragraph_count": 1
     },
     {
@@ -434,16 +434,16 @@
       "article_id": "yakkihou-art-23-16",
       "article_number": "23-16",
       "filename": "yakkihou-article-23-16.md",
-      "ja_text_sha256": "e1d06946dbd54b2b31878904534f6b92f7b196c1181f79e51829590c43958de3",
-      "ja_text_bytes": 1753,
+      "ja_text_sha256": "7255f946e3c6b39a990cc5a7e87dfb7d0a64a7aaaf8326ddcf0ae579180ec057",
+      "ja_text_bytes": 3541,
       "paragraph_count": 6
     },
     {
       "article_id": "yakkihou-art-23-17",
       "article_number": "23-17",
       "filename": "yakkihou-article-23-17.md",
-      "ja_text_sha256": "33601b9c37201d690cb4d9c5981b8122580d1e44355d3904f8a5a38e9aaf8c03",
-      "ja_text_bytes": 800,
+      "ja_text_sha256": "5a3ea0914a88231e7fbfd16b28470b40939c0c838fcbeff190ecdba9aa9b4c4b",
+      "ja_text_bytes": 1406,
       "paragraph_count": 2
     },
     {
@@ -466,8 +466,8 @@
       "article_id": "yakkihou-art-23-2-10-2",
       "article_number": "23-2-10-2",
       "filename": "yakkihou-article-23-2-10-2.md",
-      "ja_text_sha256": "b6759d58c5185c10b4f65733d166a2185475ddddadd9373f569401cea5c26ee3",
-      "ja_text_bytes": 5638,
+      "ja_text_sha256": "032c4e9f510d40fd9abf1710e4e2da2f9ae6e948dd8ca5f90de49a667cf1e9e1",
+      "ja_text_bytes": 6730,
       "paragraph_count": 12
     },
     {
@@ -506,16 +506,16 @@
       "article_id": "yakkihou-art-23-2-14",
       "article_number": "23-2-14",
       "filename": "yakkihou-article-23-2-14.md",
-      "ja_text_sha256": "5d2780215fceefa930c22f2a462db8dcecdf9a0552ba4b2246cba768727b4180",
-      "ja_text_bytes": 5006,
+      "ja_text_sha256": "618d8890d85d7d7dba9c66824878f1122ccf96ebeaa4b88aea15b958a696b6db",
+      "ja_text_bytes": 5615,
       "paragraph_count": 14
     },
     {
       "article_id": "yakkihou-art-23-2-15-2",
       "article_number": "23-2-15-2",
       "filename": "yakkihou-article-23-2-15-2.md",
-      "ja_text_sha256": "56f1507f567eef63fdc91cfa5b553d7af101f618f551e7bef6e7f3eb09843d29",
-      "ja_text_bytes": 1221,
+      "ja_text_sha256": "f9ca767cbcce226d297464b8cc98ebeff598a029051fdfa190754f2565b483d3",
+      "ja_text_bytes": 3720,
       "paragraph_count": 4
     },
     {
@@ -562,8 +562,8 @@
       "article_id": "yakkihou-art-23-2-2",
       "article_number": "23-2-2",
       "filename": "yakkihou-article-23-2-2.md",
-      "ja_text_sha256": "766e4678c6a0710cb1761d173c2405eb039ff3d3aed606b923d5d5bd62dfb41a",
-      "ja_text_bytes": 233,
+      "ja_text_sha256": "8acd910b81d75cff00c0d4f3eeb084bdcc15277e21e08696c34d10a9d591614c",
+      "ja_text_bytes": 599,
       "paragraph_count": 2
     },
     {
@@ -594,24 +594,24 @@
       "article_id": "yakkihou-art-23-2-23",
       "article_number": "23-2-23",
       "filename": "yakkihou-article-23-2-23.md",
-      "ja_text_sha256": "9f4572a7aa78fe5dc47350ecf8326da169e9637888a4b3cbb61520914a231dc2",
-      "ja_text_bytes": 4259,
+      "ja_text_sha256": "560113891dfa6dec3e1ea88465577d4f6527058ec7ae1ab63f0ce9750fda4152",
+      "ja_text_bytes": 6536,
       "paragraph_count": 11
     },
     {
       "article_id": "yakkihou-art-23-2-24",
       "article_number": "23-2-24",
       "filename": "yakkihou-article-23-2-24.md",
-      "ja_text_sha256": "d065a5a73464daa48913c63f8cd02ca67e99039ed4690a1d88d389067f7403e8",
-      "ja_text_bytes": 1312,
+      "ja_text_sha256": "f06f2de31521653101f11f40b4100e9d090ddc852d9b3280a6ccb0844475b39f",
+      "ja_text_bytes": 2560,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-23-2-3",
       "article_number": "23-2-3",
       "filename": "yakkihou-article-23-2-3.md",
-      "ja_text_sha256": "ec461965ca823ccdc0951491901adb87bc6c9baa03c236ebe5216f1c735432da",
-      "ja_text_bytes": 1044,
+      "ja_text_sha256": "569746b0a3a9479e1415152bec154b3adeab9eac8b11939f3b946807fdcccf52",
+      "ja_text_bytes": 1770,
       "paragraph_count": 4
     },
     {
@@ -626,32 +626,32 @@
       "article_id": "yakkihou-art-23-2-5",
       "article_number": "23-2-5",
       "filename": "yakkihou-article-23-2-5.md",
-      "ja_text_sha256": "078a568036149d32c10fb0e5d2951dad2de11469a7dd354785855e4065eb8fa2",
-      "ja_text_bytes": 6772,
+      "ja_text_sha256": "3a6c7d31bd6f878c298d2d1fa49db68dc21a76b4e11b85c15c9eeee84837c4b2",
+      "ja_text_bytes": 10813,
       "paragraph_count": 15
     },
     {
       "article_id": "yakkihou-art-23-2-6-2",
       "article_number": "23-2-6-2",
       "filename": "yakkihou-article-23-2-6-2.md",
-      "ja_text_sha256": "5e6828f2a0ce63b8e60c4161b222025e1250b3285b40d9743ac423a41d048ffa",
-      "ja_text_bytes": 3721,
+      "ja_text_sha256": "275811a1c274ee7178b45fa18040215423dabc3bd51afdd1ee13cf72ae4d9d78",
+      "ja_text_bytes": 4393,
       "paragraph_count": 6
     },
     {
       "article_id": "yakkihou-art-23-2-6-3",
       "article_number": "23-2-6-3",
       "filename": "yakkihou-article-23-2-6-3.md",
-      "ja_text_sha256": "cc395c4a632ef1457cd13dcd30a3b595e6892b165843aeba0d42918582a7b5a3",
-      "ja_text_bytes": 2854,
+      "ja_text_sha256": "6c7d7c51969ab2d64925e8fef4c2f67d7e05d5f0d9005edd54aa7b0ee6abaec3",
+      "ja_text_bytes": 3520,
       "paragraph_count": 6
     },
     {
       "article_id": "yakkihou-art-23-2-6",
       "article_number": "23-2-6",
       "filename": "yakkihou-article-23-2-6.md",
-      "ja_text_sha256": "476235b1887314b565f8535b537d81c7d218ce88e276e0fc70c6f72f7a3985d7",
-      "ja_text_bytes": 1300,
+      "ja_text_sha256": "36a3d076ff014b1abee838f5d7aa7f2320efd7cb3f7add0ab3bc8b84fe0868ce",
+      "ja_text_bytes": 2524,
       "paragraph_count": 3
     },
     {
@@ -666,8 +666,8 @@
       "article_id": "yakkihou-art-23-2-8",
       "article_number": "23-2-8",
       "filename": "yakkihou-article-23-2-8.md",
-      "ja_text_sha256": "f3a09a45dc5c729e1775b186599d4c4503217b90c2b35b14f1a57f63f005e4f1",
-      "ja_text_bytes": 1093,
+      "ja_text_sha256": "0b41c7357fda5bf6b22049f2c395e369c19d02f7f2334c35d963cf072cc0c1a0",
+      "ja_text_bytes": 2068,
       "paragraph_count": 3
     },
     {
@@ -682,32 +682,32 @@
       "article_id": "yakkihou-art-23-2",
       "article_number": "23-2",
       "filename": "yakkihou-article-23-2.md",
-      "ja_text_sha256": "40110541336e48a773a51c361178b0fceb4f6bae6d152498cb954aa74dedaec0",
-      "ja_text_bytes": 1157,
+      "ja_text_sha256": "52bdea0f6b78121e7ec14e930a5c55a29c43c716844984cbce2010bb60c2d041",
+      "ja_text_bytes": 2027,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-23-20",
       "article_number": "23-20",
       "filename": "yakkihou-article-23-20.md",
-      "ja_text_sha256": "9fd81678f2ea265752cf25a4d9bcce59bbfa67b930010cf6f9141fe4ee17cffe",
-      "ja_text_bytes": 630,
+      "ja_text_sha256": "0430aed1405106883c5337bbfeb430c946cf9602893f7bea71244c8eec921d97",
+      "ja_text_bytes": 1443,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-23-21",
       "article_number": "23-21",
       "filename": "yakkihou-article-23-21.md",
-      "ja_text_sha256": "766e4678c6a0710cb1761d173c2405eb039ff3d3aed606b923d5d5bd62dfb41a",
-      "ja_text_bytes": 233,
+      "ja_text_sha256": "fe495564208f2dc6cac16f64927037a25d227a8371015834841a73637e630c0e",
+      "ja_text_bytes": 518,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-23-22",
       "article_number": "23-22",
       "filename": "yakkihou-article-23-22.md",
-      "ja_text_sha256": "01ab38a1dec1c26cc8bb82590521b91f65743edea77a7c2efeadc76a41acb6e3",
-      "ja_text_bytes": 1495,
+      "ja_text_sha256": "9b543b28416a951a956b6aa25456ace52d10413ca8f7a1b96b1b8764f8129d37",
+      "ja_text_bytes": 1966,
       "paragraph_count": 9
     },
     {
@@ -738,24 +738,24 @@
       "article_id": "yakkihou-art-23-25",
       "article_number": "23-25",
       "filename": "yakkihou-article-23-25.md",
-      "ja_text_sha256": "9aefb6775d87a94c8afd5122be3db0b06b32c0c96f1b2a5f3239a4e496c83454",
-      "ja_text_bytes": 6532,
+      "ja_text_sha256": "cf204d7fbe97cd9f2acb96d40226b4660c24db68fbf9778103d1199424f8835f",
+      "ja_text_bytes": 9370,
       "paragraph_count": 15
     },
     {
       "article_id": "yakkihou-art-23-26-2",
       "article_number": "23-26-2",
       "filename": "yakkihou-article-23-26-2.md",
-      "ja_text_sha256": "7d63c35b5857799f0d98fd967bddeeaec97b2722763c8d69d73ede1b8083090d",
-      "ja_text_bytes": 1867,
+      "ja_text_sha256": "85e3f86cf205d10f63b4e0b39fa51c44906bd78c5c948a993a961664f154b35e",
+      "ja_text_bytes": 2488,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-23-26",
       "article_number": "23-26",
       "filename": "yakkihou-article-23-26.md",
-      "ja_text_sha256": "2a1f7724703428acbd14d6206cd2593d68307ab9a0d1ab8e9a2dfc67399967bc",
-      "ja_text_bytes": 2775,
+      "ja_text_sha256": "4bc80bc833969ac8a43cd1d3fe6c0e6750ec788e5aae7c35d757a01c758c0b5b",
+      "ja_text_bytes": 3150,
       "paragraph_count": 7
     },
     {
@@ -770,16 +770,16 @@
       "article_id": "yakkihou-art-23-28",
       "article_number": "23-28",
       "filename": "yakkihou-article-23-28.md",
-      "ja_text_sha256": "4760c8209e14f1fabe77246c6680a6c35fda6c9a968ef316c7260233a85c2565",
-      "ja_text_bytes": 1060,
+      "ja_text_sha256": "c0de5027b093688e4bb1db451d6c9233c00db6713533d9c58e1bcbf6fedf62ce",
+      "ja_text_bytes": 1888,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-23-29",
       "article_number": "23-29",
       "filename": "yakkihou-article-23-29.md",
-      "ja_text_sha256": "e16107a5f1ef7190f7d48bbb86f9072da3d149616e0d6920883e0e859d26208c",
-      "ja_text_bytes": 3078,
+      "ja_text_sha256": "5bc7b5e670a07cd07c52b8237decc20b174e902e34578d3a62dd9c187d7f1c6b",
+      "ja_text_bytes": 5807,
       "paragraph_count": 7
     },
     {
@@ -826,8 +826,8 @@
       "article_id": "yakkihou-art-23-32-2",
       "article_number": "23-32-2",
       "filename": "yakkihou-article-23-32-2.md",
-      "ja_text_sha256": "f36a749f0dcd417434f2e2ebca0d07d6477644297584add32df717b96a3a2ab4",
-      "ja_text_bytes": 4535,
+      "ja_text_sha256": "e93a4209e77de6afa82d0043ac45dafecf09a7b89d02217e721219f02ffb8d64",
+      "ja_text_bytes": 5576,
       "paragraph_count": 11
     },
     {
@@ -858,8 +858,8 @@
       "article_id": "yakkihou-art-23-35-2",
       "article_number": "23-35-2",
       "filename": "yakkihou-article-23-35-2.md",
-      "ja_text_sha256": "afe8e243bf66cf6409bf55053bfd77eaeb799646e3ffdf0dcff49f154405c1da",
-      "ja_text_bytes": 1074,
+      "ja_text_sha256": "863bc36dc8446e2c4f9e2d12fef16252507b384de1f765d3d82eb9a37d312a8e",
+      "ja_text_bytes": 3642,
       "paragraph_count": 4
     },
     {
@@ -906,8 +906,8 @@
       "article_id": "yakkihou-art-23-4",
       "article_number": "23-4",
       "filename": "yakkihou-article-23-4.md",
-      "ja_text_sha256": "06a7c7fbef2dce4eb0fca41df66421e0da5301b873405454779afc4341584a6d",
-      "ja_text_bytes": 587,
+      "ja_text_sha256": "adaad06c2246c2d4ca6f2adc4be849cfd9855c8b21c8c01cc05eb2729658eb24",
+      "ja_text_bytes": 1622,
       "paragraph_count": 2
     },
     {
@@ -954,8 +954,8 @@
       "article_id": "yakkihou-art-23-7",
       "article_number": "23-7",
       "filename": "yakkihou-article-23-7.md",
-      "ja_text_sha256": "be86f31b9399a8e30c8b5640a32734f23f2e39c338fd3b79ba51352d4acf7989",
-      "ja_text_bytes": 652,
+      "ja_text_sha256": "0f413c6c373d40c898e24e56551272991dfabf55b4a1b657011de82a25a7cf9a",
+      "ja_text_bytes": 3940,
       "paragraph_count": 3
     },
     {
@@ -986,64 +986,64 @@
       "article_id": "yakkihou-art-23",
       "article_number": "23",
       "filename": "yakkihou-article-23.md",
-      "ja_text_sha256": "0a04972a12e45afbc36d3263e3da4a6a96b26c5456fd039f1ad5a052cc41f479",
-      "ja_text_bytes": 501,
+      "ja_text_sha256": "0dc6024e6bb242a4e91b6fbde9bfefcef8cdcbca99b32fde64252605e88b0fb4",
+      "ja_text_bytes": 453,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-24",
       "article_number": "24",
       "filename": "yakkihou-article-24.md",
-      "ja_text_sha256": "852301fd0c83d4a5b3549c3431aab23cfb0e33f6787568c66e1f8b39db9b33f7",
-      "ja_text_bytes": 1038,
+      "ja_text_sha256": "81d5713cefbeac94aafb0d62bbf150890ba61049a7a3a0941be197b516787e84",
+      "ja_text_bytes": 878,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-25",
       "article_number": "25",
       "filename": "yakkihou-article-25.md",
-      "ja_text_sha256": "e69e85eaed53a3d583f071f5bf8863319b9b2d27c1e2b6f90ee41fcdb8aa1781",
-      "ja_text_bytes": 186,
+      "ja_text_sha256": "a627c908ac66b4bdc8eb1c5ff6205e89f9e7dc3b45173ca999177bfafd322c6f",
+      "ja_text_bytes": 741,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-26",
       "article_number": "26",
       "filename": "yakkihou-article-26.md",
-      "ja_text_sha256": "66084bfcd601a4b034f2bb0bbbb0d48548d38b4eaf2d5d3c1d184c1102a8cf37",
-      "ja_text_bytes": 1115,
+      "ja_text_sha256": "0eb135624cbea680616766b38b429eefdfd395cc16375eb14c98117dcb8bfae9",
+      "ja_text_bytes": 2894,
       "paragraph_count": 5
     },
     {
       "article_id": "yakkihou-art-27",
       "article_number": "27",
       "filename": "yakkihou-article-27.md",
-      "ja_text_sha256": "b0f7ab19c2eed7174f26737b2c037a35ba9bfdf9ed3fb24e2e116dcc58fd867a",
-      "ja_text_bytes": 282,
+      "ja_text_sha256": "91258982889fcd045f5851fad7c926fba489c5065139f053a69cc3b05d458a2d",
+      "ja_text_bytes": 234,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-28",
       "article_number": "28",
       "filename": "yakkihou-article-28.md",
-      "ja_text_sha256": "29cfe387e7647ea9305ee225d0d07de3199a42d0e9c176d053345a4d3d4e4215",
-      "ja_text_bytes": 1225,
+      "ja_text_sha256": "063f0282bcaecd84ad36d54adc964d8c40efc5727c646adf1fb1b5bbdbe75b3d",
+      "ja_text_bytes": 969,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-29-2",
       "article_number": "29-2",
       "filename": "yakkihou-article-29-2.md",
-      "ja_text_sha256": "ed7594a270c8cb609dbcd6e36a354f12e2bc5e7689a96c0033756082293d61cb",
-      "ja_text_bytes": 662,
+      "ja_text_sha256": "2464cc692012a63a52dbf5fa33e5521ac36183b402b6965aa425ad6fea9b2e79",
+      "ja_text_bytes": 1162,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-29-3",
       "article_number": "29-3",
       "filename": "yakkihou-article-29-3.md",
-      "ja_text_sha256": "501414c4077cfafe209389acbee223ef7c037899d9a95923c8f809049e3cfece",
-      "ja_text_bytes": 458,
+      "ja_text_sha256": "8cbfde15b2b356a22c4369f624c41a4a8e4425d09ed231c7ea2fa6c18cfb3fd6",
+      "ja_text_bytes": 1259,
       "paragraph_count": 2
     },
     {
@@ -1058,24 +1058,24 @@
       "article_id": "yakkihou-art-29",
       "article_number": "29",
       "filename": "yakkihou-article-29.md",
-      "ja_text_sha256": "a768a455292bbf891f65ed225ba111578c6ebb1b6aef377a14fd7f565a2902bc",
-      "ja_text_bytes": 853,
+      "ja_text_sha256": "ea334d6253bd33014416f49f186f27cd53890433749a85ead5b0fa02a0082520",
+      "ja_text_bytes": 709,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-3",
       "article_number": "3",
       "filename": "yakkihou-article-3.md",
-      "ja_text_sha256": "bb474c901df8fac87c6226a8bad1467346642326710cc951b5f1d4a720a854ca",
-      "ja_text_bytes": 654,
+      "ja_text_sha256": "569d553fc111ef681a4e720cc3963304df0a8fea35ca8ff97a6e797d345e5bd6",
+      "ja_text_bytes": 560,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-30",
       "article_number": "30",
       "filename": "yakkihou-article-30.md",
-      "ja_text_sha256": "646ccd8b019d00f303a536f8c8631c833e2068957f74f25d7725c16d9c061e87",
-      "ja_text_bytes": 1065,
+      "ja_text_sha256": "b72abddd3f5e925b7ed171c3cab17f89cb5adcbb308d4411e0d9d1a8174841e6",
+      "ja_text_bytes": 1416,
       "paragraph_count": 4
     },
     {
@@ -1106,48 +1106,48 @@
       "article_id": "yakkihou-art-31-5",
       "article_number": "31-5",
       "filename": "yakkihou-article-31-5.md",
-      "ja_text_sha256": "042ed22b9bd8695f5b80b20ab27d19049bc1d1823ee48e220af89b31470e0056",
-      "ja_text_bytes": 458,
+      "ja_text_sha256": "856b331c4e948133eb93eea7196dbf482940d4862305399fbf1051e8fa67d802",
+      "ja_text_bytes": 1259,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-31",
       "article_number": "31",
       "filename": "yakkihou-article-31.md",
-      "ja_text_sha256": "aade65b018357f1050646e63cc3cd97c87b2305d6542cc34440f74e4e9b5eb17",
-      "ja_text_bytes": 417,
+      "ja_text_sha256": "75b61f968e41865b719d10145fa6f75402844dd75d1de3578655eb1945481898",
+      "ja_text_bytes": 369,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-32",
       "article_number": "32",
       "filename": "yakkihou-article-32.md",
-      "ja_text_sha256": "f5e9c62aba686db836e3f2de7ac718f95365a9f84b34503260c107017238b14c",
-      "ja_text_bytes": 390,
+      "ja_text_sha256": "d0acbf6afc96214500e709064770011e70dbf7215e6f4142ac2c48acb8202e65",
+      "ja_text_bytes": 342,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-33",
       "article_number": "33",
       "filename": "yakkihou-article-33.md",
-      "ja_text_sha256": "a63ae64eb2b0621c6640ac3f8b87b5ad4c9fdcb70510c1fded4796d372872ace",
-      "ja_text_bytes": 416,
+      "ja_text_sha256": "17bc773be456e415f5d2ff83915e93300fc1801dae0ec00f5b84bba7360c330b",
+      "ja_text_bytes": 320,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-34",
       "article_number": "34",
       "filename": "yakkihou-article-34.md",
-      "ja_text_sha256": "64548a0b0227e144aa2a42e7d393f7f05fe61d6c4f872fd4cdd6eb974552c499",
-      "ja_text_bytes": 1136,
+      "ja_text_sha256": "a898ef3ec88a9afdf6950a84cbf73a0bf612a03d6a0b2c1edb13c4c5bb2e12bc",
+      "ja_text_bytes": 1328,
       "paragraph_count": 5
     },
     {
       "article_id": "yakkihou-art-35",
       "article_number": "35",
       "filename": "yakkihou-article-35.md",
-      "ja_text_sha256": "e68efee941072fb4e7c21ccd07af37c6c37628c1b4ff5df3a733ac89d58f73bd",
-      "ja_text_bytes": 1716,
+      "ja_text_sha256": "4400ae3b0cd1fdb73c6918b2c715b986723c1c78b2fab7ec0a944243cc9fbeed",
+      "ja_text_bytes": 1350,
       "paragraph_count": 4
     },
     {
@@ -1162,16 +1162,16 @@
       "article_id": "yakkihou-art-36-11",
       "article_number": "36-11",
       "filename": "yakkihou-article-36-11.md",
-      "ja_text_sha256": "f3c66c269616bcb9578eebaef61cd1ffbee112d4236f56a51d7d55f7023fcb2c",
-      "ja_text_bytes": 2640,
+      "ja_text_sha256": "860be098e527681d66869457813b675e920f5cfbd0867940fe7713723204ceff",
+      "ja_text_bytes": 3633,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-36-2-2",
       "article_number": "36-2-2",
       "filename": "yakkihou-article-36-2-2.md",
-      "ja_text_sha256": "fa5ac023062ce1d07d909a778bab97805d4f5f054b8850501c3eb9e0af041a08",
-      "ja_text_bytes": 461,
+      "ja_text_sha256": "7364236a80fe22dff5d416059caca56d75165f09e3e70835e5ca3f2dcc3de9ab",
+      "ja_text_bytes": 1280,
       "paragraph_count": 2
     },
     {
@@ -1218,8 +1218,8 @@
       "article_id": "yakkihou-art-36-7",
       "article_number": "36-7",
       "filename": "yakkihou-article-36-7.md",
-      "ja_text_sha256": "d455795860df696fef485d05495e527a481331ed5283830e7f169ee6ac8333e9",
-      "ja_text_bytes": 580,
+      "ja_text_sha256": "86153c02631f2f0ce814b67bae4aea0482a7eab64a7ae7ff3bf619a77834a053",
+      "ja_text_bytes": 1384,
       "paragraph_count": 3
     },
     {
@@ -1234,32 +1234,32 @@
       "article_id": "yakkihou-art-36-9",
       "article_number": "36-9",
       "filename": "yakkihou-article-36-9.md",
-      "ja_text_sha256": "3b92736782686d2c133823f565df1250871bccd2742d7ee6fe19e50782d3b8c3",
-      "ja_text_bytes": 279,
+      "ja_text_sha256": "6b3897af2be69e52cf52600b8a9f9198653323bebbc2e180dc04e50a3204787a",
+      "ja_text_bytes": 392,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-36",
       "article_number": "36",
       "filename": "yakkihou-article-36.md",
-      "ja_text_sha256": "0354c0132528eb0059f62f685cd291d5072c4467fc022e6e1c0f9044da1cb40c",
-      "ja_text_bytes": 898,
+      "ja_text_sha256": "71421a15558fb6a4f8d1a5561bf726cad2f0f240130a0dbde6ba2d4f22aca78a",
+      "ja_text_bytes": 754,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-37",
       "article_number": "37",
       "filename": "yakkihou-article-37.md",
-      "ja_text_sha256": "8e1c19e096027b017dc4546506e32aa90506421b41f0e1c1ad6fd016c628ee0c",
-      "ja_text_bytes": 656,
+      "ja_text_sha256": "edb729cd9fcc1b8e8e7c33d15933ec036822e9085f8e8c2eb973a3894d90d255",
+      "ja_text_bytes": 560,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-38",
       "article_number": "38",
       "filename": "yakkihou-article-38.md",
-      "ja_text_sha256": "9cf26f6410dd89640b697e45b88a9baed5749251504f15ea09c06f8c6e089ae0",
-      "ja_text_bytes": 302,
+      "ja_text_sha256": "58bff6c1284c19e2f92a208df4a46f7cd680f6bd0e8aa6901c8d8bdcfdbdb8f1",
+      "ja_text_bytes": 206,
       "paragraph_count": 2
     },
     {
@@ -1274,32 +1274,32 @@
       "article_id": "yakkihou-art-39-3",
       "article_number": "39-3",
       "filename": "yakkihou-article-39-3.md",
-      "ja_text_sha256": "de49ed633d74cf70586488e5c35b6fe4cc1fbee129f6d54e8aab5520eec358ca",
-      "ja_text_bytes": 1514,
+      "ja_text_sha256": "9a0cfba36754e4f71976f5294dc15f6c24bed5f712abf9e6aa39425f40915445",
+      "ja_text_bytes": 1748,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-39",
       "article_number": "39",
       "filename": "yakkihou-article-39.md",
-      "ja_text_sha256": "2e6733a34fbe75e2c797ad66c189fc4bc4edf3ab434b29c143933cc8654ce4a0",
-      "ja_text_bytes": 2594,
+      "ja_text_sha256": "3a52c70dbcd45e9486b8b5c68ae4ed6a02f7e6d8c2f6afcec128e182eebe21ec",
+      "ja_text_bytes": 2692,
       "paragraph_count": 6
     },
     {
       "article_id": "yakkihou-art-4",
       "article_number": "4",
       "filename": "yakkihou-article-4.md",
-      "ja_text_sha256": "21d818d4ab9f6ace3e8e4c3e42b274f88cdbe9b7f724fcfb220e6cc53f411dde",
-      "ja_text_bytes": 1687,
+      "ja_text_sha256": "7769fe4947b835108c29938f6d6b665e9960d28c58a6d83f4cc65121906c6d94",
+      "ja_text_bytes": 6799,
       "paragraph_count": 6
     },
     {
       "article_id": "yakkihou-art-40-2",
       "article_number": "40-2",
       "filename": "yakkihou-article-40-2.md",
-      "ja_text_sha256": "b1fead3cfbfcedc4348c21c5e6b2a65be99777573070d9b7bf1dd0bdb700ba12",
-      "ja_text_bytes": 1325,
+      "ja_text_sha256": "9fe09e417a9bac29bbe2182d62ea76022ecc38402ec67a08dd50df25f17c1164",
+      "ja_text_bytes": 1694,
       "paragraph_count": 8
     },
     {
@@ -1322,8 +1322,8 @@
       "article_id": "yakkihou-art-40-5",
       "article_number": "40-5",
       "filename": "yakkihou-article-40-5.md",
-      "ja_text_sha256": "e41e4ee0333344a2cc08c94e3849bfe70c3ae9f1cb20478d67180d6565bb8b50",
-      "ja_text_bytes": 2172,
+      "ja_text_sha256": "88e311c39c65ace58f247b32147b54b39200b18e940ac7c39ac6d37c6d2b790f",
+      "ja_text_bytes": 2625,
       "paragraph_count": 7
     },
     {
@@ -1346,128 +1346,128 @@
       "article_id": "yakkihou-art-40",
       "article_number": "40",
       "filename": "yakkihou-article-40.md",
-      "ja_text_sha256": "6b08ecbfec46b84b5d1772eb4b360dc4f56368f8b568139bf78dbfbeeec69954",
-      "ja_text_bytes": 2601,
+      "ja_text_sha256": "e17ed6290aab76ddf463c69ab52f7064a147f47173685dd0f4aaa5502037a1b8",
+      "ja_text_bytes": 2382,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-41",
       "article_number": "41",
       "filename": "yakkihou-article-41.md",
-      "ja_text_sha256": "b98ceddca333dbc656cde762bb7956316fd3bd0be89d692f744abecd5b8e1ba4",
-      "ja_text_bytes": 775,
+      "ja_text_sha256": "bfec55db76b2aa2f092238c5b71d884e6f1bf5c115c1687c23c8c50f900f7dd7",
+      "ja_text_bytes": 631,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-42",
       "article_number": "42",
       "filename": "yakkihou-article-42.md",
-      "ja_text_sha256": "e590959a5155d93012244b55f9b6dc4ab14188424425acf9515f4553b86f0abb",
-      "ja_text_bytes": 644,
+      "ja_text_sha256": "affb58f56849c992f4ec597a88b9097aec538bb62fd1090328558ba4dde91514",
+      "ja_text_bytes": 548,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-43",
       "article_number": "43",
       "filename": "yakkihou-article-43.md",
-      "ja_text_sha256": "e3e244a7646f7667c01466d80d051a9a42f5afddad87653ca04818d1872c5f26",
-      "ja_text_bytes": 1394,
+      "ja_text_sha256": "7436da0d7e81d61ca46fa4a32e8bbb3ae0b593a78e53ab8df8a6535c5b62f068",
+      "ja_text_bytes": 1074,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-44",
       "article_number": "44",
       "filename": "yakkihou-article-44.md",
-      "ja_text_sha256": "9d8ac192bc1205377f3db0d8ac2b2698a8214b49fb149993ce45e2785566a84e",
-      "ja_text_bytes": 964,
+      "ja_text_sha256": "4daeed577be65727a8922ec9acda85c2a4f1e190402e54d89340d2d4a6140ee6",
+      "ja_text_bytes": 820,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-45",
       "article_number": "45",
       "filename": "yakkihou-article-45.md",
-      "ja_text_sha256": "ecd52e10806dfca1a5d2f4540944d2da413a6a7a1c52ee7afe8a0cdf1f69db4d",
-      "ja_text_bytes": 420,
+      "ja_text_sha256": "352d93ced94a6ee911d77e42edc29bceae6abacb1efc488c40ea7cf1a1020247",
+      "ja_text_bytes": 372,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-46",
       "article_number": "46",
       "filename": "yakkihou-article-46.md",
-      "ja_text_sha256": "c39349da4b871f24496aa02494596b0781702a28df13a4c5a0432503d4daac3c",
-      "ja_text_bytes": 2205,
+      "ja_text_sha256": "3dc34a47318acd74580859bae233ca095149a8f3438288110a61cfee2c948c8f",
+      "ja_text_bytes": 1920,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-47",
       "article_number": "47",
       "filename": "yakkihou-article-47.md",
-      "ja_text_sha256": "09c4f1bdb3c4cb7048658482db9d8a789ae2cf45d9dcc0107f36a1311de0ca85",
-      "ja_text_bytes": 222,
+      "ja_text_sha256": "089558f01e105f08457b4244b4a1c955a0e3d3ddc2460d86fa676a29ca84d362",
+      "ja_text_bytes": 174,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-48",
       "article_number": "48",
       "filename": "yakkihou-article-48.md",
-      "ja_text_sha256": "dd6923d5f707b3c394c8c5daf6916b4d71bba43ec417b171467932e466143e90",
-      "ja_text_bytes": 365,
+      "ja_text_sha256": "0a7e9d266b7727de5db5350010402d6ca167ed8f0cc80fc40e20887506150ecb",
+      "ja_text_bytes": 269,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-49",
       "article_number": "49",
       "filename": "yakkihou-article-49.md",
-      "ja_text_sha256": "7c6b7729d1a79cc043dae3590d204ca15ec93c5dc82efb56c75b910032928ef4",
-      "ja_text_bytes": 1124,
+      "ja_text_sha256": "33437aee458b1dbf81bb8752397cd292de9bc2a6799baaa2f7252eb2bfa235b3",
+      "ja_text_bytes": 916,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-5",
       "article_number": "5",
       "filename": "yakkihou-article-5.md",
-      "ja_text_sha256": "149596129e1159cd080cc3bbc85ca6b42095443b74aebff0302b52a9df8a1fe8",
-      "ja_text_bytes": 170,
+      "ja_text_sha256": "fa26ba62e8392c9738c689bf82d0cdf79b776cb910cd662cc4d72d7e6e7d507d",
+      "ja_text_bytes": 1996,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-50",
       "article_number": "50",
       "filename": "yakkihou-article-50.md",
-      "ja_text_sha256": "29e5e96603fdfa5ecce255baa555c8e4ae07ab5e1b46edc705037d0a81b7c123",
-      "ja_text_bytes": 282,
+      "ja_text_sha256": "67e0e1a9c8dc37fce6ccd18cee0ab57f98e58b3822307c01f7defb94b4a2b21c",
+      "ja_text_bytes": 3219,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-51",
       "article_number": "51",
       "filename": "yakkihou-article-51.md",
-      "ja_text_sha256": "4d1593bb96fbde48f8d56784559b75d5109c5f38e9abac40a24ae9ff1ec35faa",
-      "ja_text_bytes": 519,
+      "ja_text_sha256": "0920e0b0b2e66dfdd0ef4e3c576939927198930beeab231911134f506a807886",
+      "ja_text_bytes": 471,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-52",
       "article_number": "52",
       "filename": "yakkihou-article-52.md",
-      "ja_text_sha256": "44254ce4ecd2571ac51a237c7542832bc1a8a3f5ed2e7db576969859e3afe694",
-      "ja_text_bytes": 1164,
+      "ja_text_sha256": "ee4cd8719365bad9ff0977cd44296f4b657cf9f9a14606f6757513e4acb7c169",
+      "ja_text_bytes": 1904,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-53",
       "article_number": "53",
       "filename": "yakkihou-article-53.md",
-      "ja_text_sha256": "37b04d0e66707bdee932ff48e7c828342379833bc9aedca38f8073d1bf24d22d",
-      "ja_text_bytes": 543,
+      "ja_text_sha256": "922148ae23f4e31d5d9e10336e5c5f412ae8e29c13c6c25bb017f08d23c747bd",
+      "ja_text_bytes": 495,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-54",
       "article_number": "54",
       "filename": "yakkihou-article-54.md",
-      "ja_text_sha256": "497ce00295a21921a81c7ffe743ae13df8b821afac29bbf1b2fadb162145fa7a",
-      "ja_text_bytes": 246,
+      "ja_text_sha256": "40e048316b5508f52c5d267505823af6ca52975ba8971cb604684a0dbdf19c9e",
+      "ja_text_bytes": 795,
       "paragraph_count": 1
     },
     {
@@ -1482,24 +1482,24 @@
       "article_id": "yakkihou-art-55",
       "article_number": "55",
       "filename": "yakkihou-article-55.md",
-      "ja_text_sha256": "c802d26faa88e1346215e3917cf82abb728a0720ee0f896ba291a2202a4ce6d2",
-      "ja_text_bytes": 1491,
+      "ja_text_sha256": "767df741ffa2869121a7303197f3747d6c92a73b8e4be923998f2f7dd4c2544c",
+      "ja_text_bytes": 1331,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-56-2",
       "article_number": "56-2",
       "filename": "yakkihou-article-56-2.md",
-      "ja_text_sha256": "74d38370162913c8f7a5eb03b71247fe9e6166038b93a4e384a0abb4a286f612",
-      "ja_text_bytes": 934,
+      "ja_text_sha256": "3f6297d2b92b0190f8e84e2f0d8735c6231c800f637d2f3902a59b3c9d2d7bb6",
+      "ja_text_bytes": 2200,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-56",
       "article_number": "56",
       "filename": "yakkihou-article-56.md",
-      "ja_text_sha256": "b4c14567097a4b1fd0575b4e706be89bb2c258d51f058bd1e9ad631005c42f68",
-      "ja_text_bytes": 258,
+      "ja_text_sha256": "bebffc83ca93245542e81a05d783c27063006a6adc39c70d8a429fd9992d9287",
+      "ja_text_bytes": 2597,
       "paragraph_count": 1
     },
     {
@@ -1514,40 +1514,40 @@
       "article_id": "yakkihou-art-57",
       "article_number": "57",
       "filename": "yakkihou-article-57.md",
-      "ja_text_sha256": "f938a30e8c4fd25802df88a4745a91d65481947d506acf8bdaf069f422aada34",
-      "ja_text_bytes": 749,
+      "ja_text_sha256": "f6d935d5a1ec225ecefeb6d74f9fe37e6a7ed284446a3c963ef239b96d5dc616",
+      "ja_text_bytes": 653,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-58",
       "article_number": "58",
       "filename": "yakkihou-article-58.md",
-      "ja_text_sha256": "c7f4bd2e0a1f064a2f6ddde3da3f07477f29f8b79b29402a102009dc8ac6c184",
-      "ja_text_bytes": 454,
+      "ja_text_sha256": "09b0f27d5e0ffd93dadd501e44e59379c9ad68461332305324be6e8b47b7a3b2",
+      "ja_text_bytes": 342,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-59",
       "article_number": "59",
       "filename": "yakkihou-article-59.md",
-      "ja_text_sha256": "be5c58ebbe60e206477b52a5e45bcd4ed82a4dd913acd4a0c29540f3c8aa52ed",
-      "ja_text_bytes": 288,
+      "ja_text_sha256": "d45fb9efd64305543c11e74528d630a33bce7712a1a22b1d4acd8d047c4f62f1",
+      "ja_text_bytes": 1518,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-6-2",
       "article_number": "6-2",
       "filename": "yakkihou-article-6-2.md",
-      "ja_text_sha256": "a0803bbc8c0a6ed6ddc14d890a04690039b82cf2bd118134fc2d65fb0966e363",
-      "ja_text_bytes": 1035,
+      "ja_text_sha256": "ef1a8fda3824e77b603b67426649ab1882948939b4e59b76dfb4e07e9b21e7c2",
+      "ja_text_bytes": 2358,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-6-3",
       "article_number": "6-3",
       "filename": "yakkihou-article-6-3.md",
-      "ja_text_sha256": "162bfdd3aa679ce4b58f82f445798404cbed0cf819ba2c2dfc292b02ea4c4b5e",
-      "ja_text_bytes": 1573,
+      "ja_text_sha256": "746fcb8e0d8c928d0ae959d503801dbc3f50b50e3af7d65cb02459476f24e8eb",
+      "ja_text_bytes": 2285,
       "paragraph_count": 5
     },
     {
@@ -1562,64 +1562,64 @@
       "article_id": "yakkihou-art-6",
       "article_number": "6",
       "filename": "yakkihou-article-6.md",
-      "ja_text_sha256": "fde4b96861256d5bf080f90ee2e9b102151955e4faf248822e33d69e88e9fa5d",
-      "ja_text_bytes": 401,
+      "ja_text_sha256": "3f610aa3b9478d794447e6ccc6f3ec552b1061234c9d56087dfc0dce96bce61d",
+      "ja_text_bytes": 291,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-60",
       "article_number": "60",
       "filename": "yakkihou-article-60.md",
-      "ja_text_sha256": "f69203798fa01b4912735e827ee1eff8161fcf603dab364a99577b04719616aa",
-      "ja_text_bytes": 3828,
+      "ja_text_sha256": "fab08f333fd9b14dc50c45421a696873a37c99b273c5c603de6baeee2e4d0945",
+      "ja_text_bytes": 3687,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-61",
       "article_number": "61",
       "filename": "yakkihou-article-61.md",
-      "ja_text_sha256": "f5fa509119f3fc4e41eeb5e5781d1ee430ea6d48f169767b42af740141211779",
-      "ja_text_bytes": 282,
+      "ja_text_sha256": "84f61ce28435453023ab81eeddd574baf3cbbcbc9bdbd21fa96fd3f6829668c1",
+      "ja_text_bytes": 816,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-62",
       "article_number": "62",
       "filename": "yakkihou-article-62.md",
-      "ja_text_sha256": "c14fd388710660eb4cdd2fdf7dff3647f40efcc55dd3a6fc6e51fda95d27b1bd",
-      "ja_text_bytes": 3822,
+      "ja_text_sha256": "27950f1bde021056d6b8f1a5c15cc9aac7721a19dac4077c1e7a06f8520e3cd4",
+      "ja_text_bytes": 3681,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-63-2",
       "article_number": "63-2",
       "filename": "yakkihou-article-63-2.md",
-      "ja_text_sha256": "970f004690efaadfd403f27e43a4fe46077d2ebb1dd0576068820c2370469d2e",
-      "ja_text_bytes": 1070,
+      "ja_text_sha256": "2f7dc88b29d3b97b9af86f16c44e75f2340262c8b599b94a7248bb4d885aab40",
+      "ja_text_bytes": 1841,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-63",
       "article_number": "63",
       "filename": "yakkihou-article-63.md",
-      "ja_text_sha256": "6d4bc3ffd238f4bc7376985dfa6cc946b8b33a8e26ad557652603bac95f9a323",
-      "ja_text_bytes": 750,
+      "ja_text_sha256": "43b9b0e6b74613267f4599fc9e27fe3fcd9e745559e892fbe6de8cb102efe239",
+      "ja_text_bytes": 1466,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-64",
       "article_number": "64",
       "filename": "yakkihou-article-64.md",
-      "ja_text_sha256": "60bdc7a4fa039e24bc4055fb33101567775a9090132c6e6748fe2c06f573e7cd",
-      "ja_text_bytes": 2634,
+      "ja_text_sha256": "308ef16efa64a41d53eaa5d8cc1965c3adba93817f092b700a0f11bad338ce65",
+      "ja_text_bytes": 2493,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-65-2",
       "article_number": "65-2",
       "filename": "yakkihou-article-65-2.md",
-      "ja_text_sha256": "81a0263937fa7f02de692287cf1ed5f45247396d94579d7d15db9c2fff09f389",
-      "ja_text_bytes": 237,
+      "ja_text_sha256": "61597ddc274b357c0327e32e5d3e4817d2be43c0b09c47abb5f3e1e31ef32102",
+      "ja_text_bytes": 1500,
       "paragraph_count": 1
     },
     {
@@ -1642,32 +1642,32 @@
       "article_id": "yakkihou-art-65-5",
       "article_number": "65-5",
       "filename": "yakkihou-article-65-5.md",
-      "ja_text_sha256": "d4a65f31761dcb0e71ba6946955654bd41555484fe384d0d78f609bd12c85ff4",
-      "ja_text_bytes": 213,
+      "ja_text_sha256": "7acc39c1c33eff06a504bcee35e34edebba2216b7d7ceddd4f36bbb5ccd4bf8c",
+      "ja_text_bytes": 1302,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-65",
       "article_number": "65",
       "filename": "yakkihou-article-65.md",
-      "ja_text_sha256": "abaf8dce70eca6fdf07c310612b823072ad6bd78eaeb54c0b8fb3470b619fd48",
-      "ja_text_bytes": 378,
+      "ja_text_sha256": "86e2e9c9d10fd404deb9b5383bc7e964afe072f1d0ebe0c816a5300468012ea9",
+      "ja_text_bytes": 1596,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-66",
       "article_number": "66",
       "filename": "yakkihou-article-66.md",
-      "ja_text_sha256": "e5b73af149644ec1747f341b024e602b2b5622201a3703bca0dd2f3110ce140b",
-      "ja_text_bytes": 976,
+      "ja_text_sha256": "eb4f709175a8a872ad569f89a381b6bd67ac35016eb0bd3289e3082fd04e0a7f",
+      "ja_text_bytes": 832,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-67",
       "article_number": "67",
       "filename": "yakkihou-article-67.md",
-      "ja_text_sha256": "301649e5f734d0e506225067f79439edb1cb6aff17e8518a9f178b147a2f1ae6",
-      "ja_text_bytes": 1152,
+      "ja_text_sha256": "3715238cf9e8e915db457326decf611e8fc02f2979468346b96f18227a7c1e4a",
+      "ja_text_bytes": 992,
       "paragraph_count": 2
     },
     {
@@ -1730,16 +1730,16 @@
       "article_id": "yakkihou-art-68-17",
       "article_number": "68-17",
       "filename": "yakkihou-article-68-17.md",
-      "ja_text_sha256": "25cc5f0d8f1753c0ff9a29d1044bc84ff08321f1ce6a518457b37b01ee2f334a",
-      "ja_text_bytes": 366,
+      "ja_text_sha256": "a8f62a350a198db4f9601b9a5493ef571f3ccb7d76f0cc3a053e30c73d4d991c",
+      "ja_text_bytes": 1008,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-68-18",
       "article_number": "68-18",
       "filename": "yakkihou-article-68-18.md",
-      "ja_text_sha256": "3fa7aa446f3bf2c76afa710383175be3504abe00ea1cc8a03007ebb8462b03e0",
-      "ja_text_bytes": 471,
+      "ja_text_sha256": "cd5f0801a2071acdd44e15609601b8e7e5e96b392a63d61da7588ff5868cb8d6",
+      "ja_text_bytes": 957,
       "paragraph_count": 1
     },
     {
@@ -1794,16 +1794,16 @@
       "article_id": "yakkihou-art-68-2",
       "article_number": "68-2",
       "filename": "yakkihou-article-68-2.md",
-      "ja_text_sha256": "c779b6615eebd84261b245bf168d36741de7a25704097fc3a38bdb4746798c58",
-      "ja_text_bytes": 1058,
+      "ja_text_sha256": "e62408ccf141a56e54dbdc861a275cb29323e945eba02ed0964d5c4de02b05d1",
+      "ja_text_bytes": 3797,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-68-20-2",
       "article_number": "68-20-2",
       "filename": "yakkihou-article-68-20-2.md",
-      "ja_text_sha256": "831cf5549d8104369c11ec8bceb779f5e09728c7b6775722ea2cf751ba3e15b9",
-      "ja_text_bytes": 594,
+      "ja_text_sha256": "aaa94dc0a10cca3572abd6453cc02e3f095f5248a35214425b24085de9c866a1",
+      "ja_text_bytes": 1098,
       "paragraph_count": 1
     },
     {
@@ -1914,8 +1914,8 @@
       "article_id": "yakkihou-art-68",
       "article_number": "68",
       "filename": "yakkihou-article-68.md",
-      "ja_text_sha256": "52cab14478db4a296553bc0548c51648f924acf81e6770154d92a28d0731de35",
-      "ja_text_bytes": 699,
+      "ja_text_sha256": "662a4cdd91d897eb2861dc6e5e574ef9ce8d16079e35586690c8a8c5f55dbd12",
+      "ja_text_bytes": 651,
       "paragraph_count": 1
     },
     {
@@ -1938,32 +1938,32 @@
       "article_id": "yakkihou-art-69",
       "article_number": "69",
       "filename": "yakkihou-article-69.md",
-      "ja_text_sha256": "7f050c52ca60b696b7fc2ff70e802c3f5d22906c016200e3e7302dfeecf30e9b",
-      "ja_text_bytes": 13615,
+      "ja_text_sha256": "6d12e85d517c7d67b5182119e22f0701e18f0c4f1fdba07a4b9dde64f2eb0a2e",
+      "ja_text_bytes": 13183,
       "paragraph_count": 9
     },
     {
       "article_id": "yakkihou-art-7",
       "article_number": "7",
       "filename": "yakkihou-article-7.md",
-      "ja_text_sha256": "2a49d6cb322b125fd9e85e0c32060014f98a4628e26d802ceb047d63ed337379",
-      "ja_text_bytes": 1967,
+      "ja_text_sha256": "11fc8310e3f3a4dfe472808f3caf29eb6a68d99ce1b7982c27bf8f9cd05b048c",
+      "ja_text_bytes": 1653,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-70",
       "article_number": "70",
       "filename": "yakkihou-article-70.md",
-      "ja_text_sha256": "8bb328f44c1c139ce3f7931d4255ce4d829f0caca29e5a1f676a1851163acb75",
-      "ja_text_bytes": 4605,
+      "ja_text_sha256": "dc276e21e366d11a9c550e0287d26d831fb91377f29bac55415a549f0314478a",
+      "ja_text_bytes": 4413,
       "paragraph_count": 4
     },
     {
       "article_id": "yakkihou-art-71",
       "article_number": "71",
       "filename": "yakkihou-article-71.md",
-      "ja_text_sha256": "0ec4f7433380a77948680d92a076094b4c520ccd369bb610bfe4b4065f3c94f5",
-      "ja_text_bytes": 552,
+      "ja_text_sha256": "2d7c48f9d191d6eec989e7b65d1e33b796e443be37125d390e7d34cb3c992f1c",
+      "ja_text_bytes": 504,
       "paragraph_count": 1
     },
     {
@@ -2002,8 +2002,8 @@
       "article_id": "yakkihou-art-72-5",
       "article_number": "72-5",
       "filename": "yakkihou-article-72-5.md",
-      "ja_text_sha256": "41e40a47b1f905f6acbcb9856e2dcbca66292eea2dd286341c4b5dde65274bae",
-      "ja_text_bytes": 1295,
+      "ja_text_sha256": "56cad84e28402b19b50e44d000160573f6652c73cb49eb39129fc00d04ba3e42",
+      "ja_text_bytes": 1829,
       "paragraph_count": 2
     },
     {
@@ -2018,40 +2018,40 @@
       "article_id": "yakkihou-art-72",
       "article_number": "72",
       "filename": "yakkihou-article-72.md",
-      "ja_text_sha256": "7771dfd51b761148be74efc3b489268a036b50ba3d56dd7ee9c9010b21888b1b",
-      "ja_text_bytes": 5651,
+      "ja_text_sha256": "cde84b623d1eb2807caa809c482cb9291c6384a9e2570490f787b83cc3a92115",
+      "ja_text_bytes": 5411,
       "paragraph_count": 5
     },
     {
       "article_id": "yakkihou-art-73",
       "article_number": "73",
       "filename": "yakkihou-article-73.md",
-      "ja_text_sha256": "128b25b958aa5fee750ddd03e0ffeebe85ff1ffbf4f071da3e4442c4de086952",
-      "ja_text_bytes": 1131,
+      "ja_text_sha256": "e03f0881608ae55e7ff3d71127b7e0d3191f7a0643b95264488a2d0402cc74c9",
+      "ja_text_bytes": 1083,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-74-2",
       "article_number": "74-2",
       "filename": "yakkihou-article-74-2.md",
-      "ja_text_sha256": "34a8bae02ddca72602289a8315d4b22abc817a0af07ea3a77aefb67bef3b436d",
-      "ja_text_bytes": 5737,
+      "ja_text_sha256": "b0d0023de0ab5128f22e05f91f3575d68b95e666f76b7747cd7cf687342d872e",
+      "ja_text_bytes": 8623,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-74",
       "article_number": "74",
       "filename": "yakkihou-article-74.md",
-      "ja_text_sha256": "b5f893dd398391125463150e37719f0d4c1b9ff4d6973604fbe0e0e2a2081baf",
-      "ja_text_bytes": 648,
+      "ja_text_sha256": "639aadddd4cb732ba605bcf88a719ca26c5492ce37f15c79d52c7f920cf28825",
+      "ja_text_bytes": 507,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-75-2-2",
       "article_number": "75-2-2",
       "filename": "yakkihou-article-75-2-2.md",
-      "ja_text_sha256": "2f697bde02f9a8676d81c2d711aefc1c708a66284c3c2bf406f28087078799b4",
-      "ja_text_bytes": 12369,
+      "ja_text_sha256": "edb0e161095c4babc7fe180c8d40c476339c094d92c3c101a200735bfbbabc01",
+      "ja_text_bytes": 13809,
       "paragraph_count": 4
     },
     {
@@ -2074,8 +2074,8 @@
       "article_id": "yakkihou-art-75-4",
       "article_number": "75-4",
       "filename": "yakkihou-article-75-4.md",
-      "ja_text_sha256": "d8f2f88a1e42649052ea68e194a05c7e538f2a24dcd7a557646b58a338a2c9b4",
-      "ja_text_bytes": 805,
+      "ja_text_sha256": "dfd2c864c2e70b3293bd72c17ff2990664c2079cc6d48b908b0ae128cbc55486",
+      "ja_text_bytes": 2113,
       "paragraph_count": 3
     },
     {
@@ -2130,8 +2130,8 @@
       "article_id": "yakkihou-art-75-5-16",
       "article_number": "75-5-16",
       "filename": "yakkihou-article-75-5-16.md",
-      "ja_text_sha256": "d253161452089c34a4a94e5c20af666886c9ccf4e55ce3c9f0a338299d4fd41b",
-      "ja_text_bytes": 879,
+      "ja_text_sha256": "c769557fe82c8853f005f2b16605aac88d0f003d70312af74db4703c99812927",
+      "ja_text_bytes": 1425,
       "paragraph_count": 4
     },
     {
@@ -2162,8 +2162,8 @@
       "article_id": "yakkihou-art-75-5-2",
       "article_number": "75-5-2",
       "filename": "yakkihou-article-75-5-2.md",
-      "ja_text_sha256": "a0e56384711256aeaf59c8935d18e7344d24b826612bb51fccfff2a8d1b7a833",
-      "ja_text_bytes": 1815,
+      "ja_text_sha256": "8c179936f495f620e7b39c6f819590a1f8e307c22f852461860887a4a80b59b1",
+      "ja_text_bytes": 2124,
       "paragraph_count": 4
     },
     {
@@ -2210,8 +2210,8 @@
       "article_id": "yakkihou-art-75-5-8",
       "article_number": "75-5-8",
       "filename": "yakkihou-article-75-5-8.md",
-      "ja_text_sha256": "11b7daeb3e86bc7c9f94beda0f51679f344452172638d2b974ba26926dd144b9",
-      "ja_text_bytes": 1370,
+      "ja_text_sha256": "3005a32e2b6590ab96a906bdcb28cbb7ecf9eb80e0802756919652c1fbaeb405",
+      "ja_text_bytes": 1670,
       "paragraph_count": 2
     },
     {
@@ -2226,16 +2226,16 @@
       "article_id": "yakkihou-art-75-5",
       "article_number": "75-5",
       "filename": "yakkihou-article-75-5.md",
-      "ja_text_sha256": "cc0486426bbd818697501a4242e6d5909f97b7bd514835cb9e5450044e4608ca",
-      "ja_text_bytes": 1531,
+      "ja_text_sha256": "2664793b4cc51e3a3fb6a359c4c4b1c6a791c71695bc37fff01efa5924ecb71c",
+      "ja_text_bytes": 2941,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-75",
       "article_number": "75",
       "filename": "yakkihou-article-75.md",
-      "ja_text_sha256": "4c39882e76266f72958bcc03e8c703eeab4dc28152565fc3aa76c92904372e4f",
-      "ja_text_bytes": 3104,
+      "ja_text_sha256": "19358491188f70473379466f19496734e81ad7ad728f4a0295eb2cc0ce760f0f",
+      "ja_text_bytes": 5510,
       "paragraph_count": 5
     },
     {
@@ -2322,8 +2322,8 @@
       "article_id": "yakkihou-art-76-3-5",
       "article_number": "76-3-5",
       "filename": "yakkihou-article-76-3-5.md",
-      "ja_text_sha256": "75696adb74ecc7a83d7a5169bbc8c27f925e1ce225bbb56fcbe0bb5f68842228",
-      "ja_text_bytes": 451,
+      "ja_text_sha256": "cb2eae3398f133f1d5ccc4042fdda618439a928185c4bca18588a63d53cf8dc5",
+      "ja_text_bytes": 1654,
       "paragraph_count": 3
     },
     {
@@ -2394,8 +2394,8 @@
       "article_id": "yakkihou-art-76-6",
       "article_number": "76-6",
       "filename": "yakkihou-article-76-6.md",
-      "ja_text_sha256": "bffaba5306b627b1fbe72aaa616087bdac8311c8fb1a2babfb9e7318100cd790",
-      "ja_text_bytes": 3606,
+      "ja_text_sha256": "6788502839172d5e9aa6acc3eea7071dde14f209da03fa611bddab4aa96d071f",
+      "ja_text_bytes": 3881,
       "paragraph_count": 7
     },
     {
@@ -2442,16 +2442,16 @@
       "article_id": "yakkihou-art-76",
       "article_number": "76",
       "filename": "yakkihou-article-76.md",
-      "ja_text_sha256": "8b694f894b1901b77cb410a5fec7699ede4250b4386d320538e74f10ae2679d1",
-      "ja_text_bytes": 1545,
+      "ja_text_sha256": "7770da22723c16b3323904202c5d065fff7b9a288bc066762ef2277adf079e57",
+      "ja_text_bytes": 1497,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-77-2",
       "article_number": "77-2",
       "filename": "yakkihou-article-77-2.md",
-      "ja_text_sha256": "8f37c87a34e63141424784b38bd5d356fefbea52411ef522b39676435cf53dff",
-      "ja_text_bytes": 1599,
+      "ja_text_sha256": "9befa7d8e85ca61336febb5257c1149cf96ac2394b091fee4ddd8720da28d35f",
+      "ja_text_bytes": 3893,
       "paragraph_count": 4
     },
     {
@@ -2482,8 +2482,8 @@
       "article_id": "yakkihou-art-77-6",
       "article_number": "77-6",
       "filename": "yakkihou-article-77-6.md",
-      "ja_text_sha256": "105d8bd73418bc8f27eaef3b01dfbfa59823f6997eec846510882a6553991c7c",
-      "ja_text_bytes": 505,
+      "ja_text_sha256": "9022f29c8ee329b026a3331d01f2429ff870a8eda1c440524db0f2d6d0c237dd",
+      "ja_text_bytes": 1543,
       "paragraph_count": 3
     },
     {
@@ -2498,24 +2498,24 @@
       "article_id": "yakkihou-art-77",
       "article_number": "77",
       "filename": "yakkihou-article-77.md",
-      "ja_text_sha256": "0dc3ac808d983aa885fc025ec5ad77bc12fd10316aa41cc56c5f47671a6548fe",
-      "ja_text_bytes": 273,
+      "ja_text_sha256": "c599ecd55fa9a985b0a95ab91ebdaf6a399499b2fcb4ec6d6856a0937a22cd76",
+      "ja_text_bytes": 225,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-78",
       "article_number": "78",
       "filename": "yakkihou-article-78.md",
-      "ja_text_sha256": "44db99c08d12a652e4e242e0086877bdde9f170b0ea5953c7ecfcbe2d19c74d7",
-      "ja_text_bytes": 2467,
+      "ja_text_sha256": "1ebb0ae60371ba2e7e75272959386eee5b12f96308a64dacb54943507778a3fc",
+      "ja_text_bytes": 7921,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-79",
       "article_number": "79",
       "filename": "yakkihou-article-79.md",
-      "ja_text_sha256": "152e2ead1b52803bfc2a84fa4a4e3de89b80621b6cc6c418a0b97916907dcab4",
-      "ja_text_bytes": 506,
+      "ja_text_sha256": "96cfce0f7e13dd48f3d66be36bfb015c7eb4c00441065bfd90b32a451fd4e7b9",
+      "ja_text_bytes": 410,
       "paragraph_count": 2
     },
     {
@@ -2530,8 +2530,8 @@
       "article_id": "yakkihou-art-8",
       "article_number": "8",
       "filename": "yakkihou-article-8.md",
-      "ja_text_sha256": "71c359d1290923b1c877d7cef894fb7e8c4afb226e6795a5b56f3659d44c7841",
-      "ja_text_bytes": 841,
+      "ja_text_sha256": "3fb7a84be124260d109e335d3f5f349fb892e71efd4a411e8046902aa1cf7e0c",
+      "ja_text_bytes": 700,
       "paragraph_count": 3
     },
     {
@@ -2602,16 +2602,16 @@
       "article_id": "yakkihou-art-80-9",
       "article_number": "80-9",
       "filename": "yakkihou-article-80-9.md",
-      "ja_text_sha256": "2264240439eaf5203256876b387af21342b303e13f00c2e7449d79ea80ed3924",
-      "ja_text_bytes": 386,
+      "ja_text_sha256": "afb7680468ec7fc95e00adaacd393550d858bc792df7793f8a913ee503e74e55",
+      "ja_text_bytes": 743,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-80",
       "article_number": "80",
       "filename": "yakkihou-article-80.md",
-      "ja_text_sha256": "02e47d96aa731a4fca6352c8b63e8e9004a362c644a1cbf2685e857866ffd73f",
-      "ja_text_bytes": 8860,
+      "ja_text_sha256": "69e15e9495c23a0225a80ee3a4e17556efa45ad006026e09f5feaed9a76dd415",
+      "ja_text_bytes": 8242,
       "paragraph_count": 9
     },
     {
@@ -2642,16 +2642,16 @@
       "article_id": "yakkihou-art-81",
       "article_number": "81",
       "filename": "yakkihou-article-81.md",
-      "ja_text_sha256": "1f8618b207a8aea0ca5c8a1a660151a9fdfbc676185c8ac2e496795d8f0bec0e",
-      "ja_text_bytes": 300,
+      "ja_text_sha256": "003adfa676c2c1cb03bb3640ebb75a255ed44b11c0cc41a4843635259a336d50",
+      "ja_text_bytes": 252,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-82",
       "article_number": "82",
       "filename": "yakkihou-article-82.md",
-      "ja_text_sha256": "b03f54d9803674ea4eba673c44665ed1f0255f446760fefb68313feb007b7a90",
-      "ja_text_bytes": 597,
+      "ja_text_sha256": "9e9a117cd6462918678a3e144e81f84713576f2eb4e1bc9fab3482eb49240323",
+      "ja_text_bytes": 549,
       "paragraph_count": 1
     },
     {
@@ -2738,24 +2738,24 @@
       "article_id": "yakkihou-art-83",
       "article_number": "83",
       "filename": "yakkihou-article-83.md",
-      "ja_text_sha256": "a8a657b6a17d2601fc2821fc3fb0e11393c1b6eb70ab208d2797432df194c5da",
-      "ja_text_bytes": 16843,
+      "ja_text_sha256": "c8485f8f219e21837bbb414d695f4b3dbeb7574060ce6ecfafab3331b2d0247a",
+      "ja_text_bytes": 16699,
       "paragraph_count": 3
     },
     {
       "article_id": "yakkihou-art-84",
       "article_number": "84",
       "filename": "yakkihou-article-84.md",
-      "ja_text_sha256": "7ebdab65de9fa50dbda210aa7ebc2d44f0eddbadc2a6c8716b96f3f068eb00ae",
-      "ja_text_bytes": 255,
+      "ja_text_sha256": "174628e1fb5597f6bc9e7d384e2093ac558cd08a328482b24fbe5c0afdc05e8f",
+      "ja_text_bytes": 3471,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-85",
       "article_number": "85",
       "filename": "yakkihou-article-85.md",
-      "ja_text_sha256": "5136d882bced581de27274a03ffca1463e0868225b91faef78125a78a213123b",
-      "ja_text_bytes": 213,
+      "ja_text_sha256": "49a243dc3ca5e21facdeb81539f1418cc9cb238c6241c8109297e6ae3eedf566",
+      "ja_text_bytes": 999,
       "paragraph_count": 1
     },
     {
@@ -2770,48 +2770,48 @@
       "article_id": "yakkihou-art-86-3",
       "article_number": "86-3",
       "filename": "yakkihou-article-86-3.md",
-      "ja_text_sha256": "cbe592099db864bc9f8dd5b7988e4692748b9c15f42d884637395e5566acc630",
-      "ja_text_bytes": 257,
+      "ja_text_sha256": "2333d2909f29941186b3e20198d0fa60e7290c39e23e94efcd1d53e6b3472c04",
+      "ja_text_bytes": 1601,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-86",
       "article_number": "86",
       "filename": "yakkihou-article-86.md",
-      "ja_text_sha256": "a9cb6f533bda356e1b3c8bb2a215f1924b0d5a60697800e16aa37e18c25396d4",
-      "ja_text_bytes": 563,
+      "ja_text_sha256": "b43d590bfc63ef8f56aa48b08546b12ea523b0df743c6e049981d2482f3c993f",
+      "ja_text_bytes": 3152,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-87",
       "article_number": "87",
       "filename": "yakkihou-article-87.md",
-      "ja_text_sha256": "d8035fb36c515f8fabd9eff8b0d4920e070e353552c0fe7f1a1e3bcb08df1bad",
-      "ja_text_bytes": 192,
+      "ja_text_sha256": "1110637b1d85477599d854f40700d30ea41093b6e0517cbdfb484ca1232ff7af",
+      "ja_text_bytes": 2670,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-88",
       "article_number": "88",
       "filename": "yakkihou-article-88.md",
-      "ja_text_sha256": "b9b6e5ffa2bbceb665d4fc4a8c1395b2ff271d1d34628f16209ddea423c4ed71",
-      "ja_text_bytes": 150,
+      "ja_text_sha256": "ce5fe056b3b4c124ea7fc76c6e1d06548665240345c5036ec5109cd8a68b56b8",
+      "ja_text_bytes": 384,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-89",
       "article_number": "89",
       "filename": "yakkihou-article-89.md",
-      "ja_text_sha256": "a1065b0fbb0283412d4e10543f6d999a6ad7ed364a4d06c113f5fcead1e51fa7",
-      "ja_text_bytes": 225,
+      "ja_text_sha256": "8aad5ae5d70dac6c7bd9cc8ccc5a49c0a943b8e95f8e9b5587c05a568d4bf684",
+      "ja_text_bytes": 978,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-9-2",
       "article_number": "9-2",
       "filename": "yakkihou-article-9-2.md",
-      "ja_text_sha256": "ad0061fbb916005180e5cf78ce5cda82ae30232198b18e07c6ad1c7869142762",
-      "ja_text_bytes": 449,
+      "ja_text_sha256": "1d14b752cb07d52087fc8c3721208efd6ca5bbf4c1ebd90800aa518006f4ca03",
+      "ja_text_bytes": 1238,
       "paragraph_count": 2
     },
     {
@@ -2842,24 +2842,24 @@
       "article_id": "yakkihou-art-9",
       "article_number": "9",
       "filename": "yakkihou-article-9.md",
-      "ja_text_sha256": "a33d0a69b7b3b0f83b9f4e73958218bec1fa4316b0654b6dfdd027d6218aaf1c",
-      "ja_text_bytes": 795,
+      "ja_text_sha256": "b7663fb505bcae70c9d0ef05c7cbd9c3b4f00caf16f2a50070e17044b593bb7f",
+      "ja_text_bytes": 1456,
       "paragraph_count": 2
     },
     {
       "article_id": "yakkihou-art-90",
       "article_number": "90",
       "filename": "yakkihou-article-90.md",
-      "ja_text_sha256": "d1853ace1b9d95736383667ef14ff382f44c3280c90036c87ecdcc393f745a24",
-      "ja_text_bytes": 414,
+      "ja_text_sha256": "44ea7483a65e9f24e33afd8540ddf2c6d764833c065ffcb68a53725f7ea70223",
+      "ja_text_bytes": 1187,
       "paragraph_count": 1
     },
     {
       "article_id": "yakkihou-art-91",
       "article_number": "91",
       "filename": "yakkihou-article-91.md",
-      "ja_text_sha256": "6494b752d011284c27a0774e611e12369c18f4b8b0e37c869d0efc8af9638b8c",
-      "ja_text_bytes": 150,
+      "ja_text_sha256": "bc9a0547027da71990bd6f19a83fa76c76a5fca9e7a32f3cbfe286af6e260d22",
+      "ja_text_bytes": 489,
       "paragraph_count": 1
     }
   ]

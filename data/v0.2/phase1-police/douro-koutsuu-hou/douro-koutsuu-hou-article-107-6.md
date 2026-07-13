@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-107-6-p1-zen
+    type: zen_dan
+    text: 公安委員会は、第百七条の四第一項後段の規定による通知をしたとき、前条第一項若しくは第二項若しくは同条第九項において準用する第百三条第四項の規定により自動車等の運転を禁止し、若しくは前条第三項において準用する第百三条第十項の規定により期間を短縮したとき、又は警察署長が前条第十項において準用する第百三条の二第一項の規定により自動車等の運転を禁止したときは、内閣府令で定める事項を国家公安委員会に報告しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: douro-koutsuu-hou-art-107-6-p1-kou
+    type: kou_dan
+    text: この場合において、国家公安委員会は、免許に関する事務の適正を図るため、当該報告に係る事項を各公安委員会に通報するものとする。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-107-6-p1-zen
 cases: []
 amendments: []
 tags:

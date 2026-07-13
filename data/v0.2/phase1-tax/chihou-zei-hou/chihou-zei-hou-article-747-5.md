@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-5-p1
+    type: tokusoku
+    text: 他の行政機関の長に対して行う地方税関係通知のうち地方税関係法令の規定において書面等により行うことその他のその方法が規定されているもの以外のもので総務省令で定めるもの及び相続税法第五十八条第二項の規定による通知（次項及び第七百四十七条の十三において「特定地方税関係通知等」という。）については、地方税関係法令及び相続税法第五十八条第二項の規定にかかわらず、総務省令で定めるところにより、地方税関係手続用電子情報処理組織を使用し、かつ、機構を経由する方法により行うことができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第五十八条
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-747-5-p2
+    type: simple
+    text: 前項の地方税関係手続用電子情報処理組織を使用し、かつ、機構を経由する方法により行われた特定地方税関係通知等は、第七百六十二条第一号の当該特定地方税関係通知等を受ける者の使用に係る電子計算機に備えられたファイルへの記録がされた時に当該特定地方税関係通知等を受ける者に到達したものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

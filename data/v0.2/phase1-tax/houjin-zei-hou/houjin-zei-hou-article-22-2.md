@@ -16,52 +16,111 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-22-2-p1
+    type: simple
+    text: 内国法人の資産の販売若しくは譲渡又は役務の提供（以下この条において「資産の販売等」という。）に係る収益の額は、別段の定め（前条第四項を除く。）があるものを除き、その資産の販売等に係る目的物の引渡し又は役務の提供の日の属する事業年度の所得の金額の計算上、益金の額に算入する。
+    modality: unspecified
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-22-2-p2
+    type: tokusoku
+    text: 内国法人が、資産の販売等に係る収益の額につき一般に公正妥当と認められる会計処理の基準に従つて当該資産の販売等に係る契約の効力が生ずる日その他の前項に規定する日に近接する日の属する事業年度の確定した決算において収益として経理した場合には、同項の規定にかかわらず、当該資産の販売等に係る収益の額は、別段の定め（前条第四項を除く。）があるものを除き、当該事業年度の所得の金額の計算上、益金の額に算入する。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-22-2-p3
+    type: simple
+    text: 内国法人が資産の販売等を行つた場合（当該資産の販売等に係る収益の額につき一般に公正妥当と認められる会計処理の基準に従つて第一項に規定する日又は前項に規定する近接する日の属する事業年度の確定した決算において収益として経理した場合を除く。）において、当該資産の販売等に係る同項に規定する近接する日の属する事業年度の確定申告書に当該資産の販売等に係る収益の額の益金算入に関する申告の記載があるときは、その額につき当該事業年度の確定した決算において収益として経理したものとみなして、同項の規定を適用する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-22-2-p4
+    type: simple
+    text: 内国法人の各事業年度の資産の販売等に係る収益の額として第一項又は第二項の規定により当該事業年度の所得の金額の計算上益金の額に算入する金額は、別段の定め（前条第四項を除く。）があるものを除き、その販売若しくは譲渡をした資産の引渡しの時における価額又はその提供をした役務につき通常得べき対価の額に相当する金額とする。
+    modality: gimu
+    references:
+    - 前条
 - number: 5
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-22-2-p5-hashira
+    type: hashira
+    text: 前項の引渡しの時における価額又は通常得べき対価の額は、同項の資産の販売等につき次に掲げる事実が生ずる可能性がある場合においても、その可能性がないものとした場合における価額とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+  - id: houjin-zei-hou-art-22-2-p5-kou-1
+    type: kou
+    text: 当該資産の販売等の対価の額に係る金銭債権の貸倒れ
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-art-22-2-p5-kou-2
+    type: kou
+    text: 当該資産の販売等（資産の販売又は譲渡に限る。）に係る資産の買戻し
+    modality: unspecified
+    item_number: 2
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-22-2-p6
+    type: simple
+    text: 前各項及び前条第二項の場合には、無償による資産の譲渡に係る収益の額は、金銭以外の資産による利益又は剰余金の分配及び残余財産の分配又は引渡しその他これらに類する行為としての資産の譲渡に係る収益の額を含むものとする。
+    modality: gimu
+    references:
+    - 前条
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-22-2-p7
+    type: simple
+    text: 前二項に定めるもののほか、資産の販売等に係る収益の額につき修正の経理をした場合の処理その他第一項から第四項までの規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
 cases:
-  - case_id: ntt-2023-12-21-j133-7
-    case_type: ruling
-    source_license: pdl-1.0
-    summary_source: official_pdl
-    decision_date: '2023-12-21'
-    case_name_ja: 一括払された金型等相当額を24か月にわたり収益計上した請求人の会計処理が公正処理基準に適合するものとした事例（令和２年４月１日から令和３年３月31日までの事業年度の法人税、令和２年４月１日から令和３年３月31日までの課税事業年度の地方法人税及び令和２年４月１日から令和３年３月31日までの課税期間の消費税等の各更正処分及び過少申告加算税の各賦課決定処分・全部取消し）
-    url: https://www.kfs.go.jp/service/JP/133/07/index.html
-    relevance: medium
-    relevant_paragraph: 1
-    summary_ja: '原処分庁は、請求人が、発注者から24回の月額均等分割払で受領し、部品の量産開始日を含む月から24か月に分割して毎月月末に収益に計上していた、請求人が所有権を有する金型等の製作費用相当額（金型等相当額）について、契約の変更により一括で受領しており、請求人が受領した時点で請求人の管理支配下に置かれ所得が実現したとして、金型等相当額を受領した日の属する事業年度において、全額を益金の額に算入すべき旨主張する。
+- case_id: ntt-2023-12-21-j133-7
+  case_type: ruling
+  source_license: pdl-1.0
+  summary_source: official_pdl
+  decision_date: '2023-12-21'
+  case_name_ja: 一括払された金型等相当額を24か月にわたり収益計上した請求人の会計処理が公正処理基準に適合するものとした事例（令和２年４月１日から令和３年３月31日までの事業年度の法人税、令和２年４月１日から令和３年３月31日までの課税事業年度の地方法人税及び令和２年４月１日から令和３年３月31日までの課税期間の消費税等の各更正処分及び過少申告加算税の各賦課決定処分・全部取消し）
+  url: https://www.kfs.go.jp/service/JP/133/07/index.html
+  relevance: medium
+  relevant_paragraph: 1
+  summary_ja: '原処分庁は、請求人が、発注者から24回の月額均等分割払で受領し、部品の量産開始日を含む月から24か月に分割して毎月月末に収益に計上していた、請求人が所有権を有する金型等の製作費用相当額（金型等相当額）について、契約の変更により一括で受領しており、請求人が受領した時点で請求人の管理支配下に置かれ所得が実現したとして、金型等相当額を受領した日の属する事業年度において、全額を益金の額に算入すべき旨主張する。
 
-      しかしながら、金型等相当額の負担に係る請求人と発注者との契約の法的性質及び当該契約に係る各役務の特質からすれば、請求人が受領した金型等相当額は、請求人から発注者に対し、継続的に日々提供される役務に応じて、１か月を単位として対価が支払われる約定に基づき、各月末日の経過ごとに、24回にわたり、過去１か月分の役務に対する対価として代金が確定し、その支払期日を翌月とする発注者と請求人との間の契約に基づき支払われるものと認められること及び金型等相当額の支払に関する基本契約書の条項が変更されていないことから、請求人が、部品の量産開始日を含む月から24回にわたり、毎月末日に収益に計上した会計処理は、一般に公正妥当と認められる会計処理の基準（公正処理基準）に適合するものであり、一括で受領した金型等相当額の全額を受領した日の属する事業年度の益金の額に算入すべきとは認められない。'
-    issue_code: '0201050000'
-    tax_item: 法人税
+    しかしながら、金型等相当額の負担に係る請求人と発注者との契約の法的性質及び当該契約に係る各役務の特質からすれば、請求人が受領した金型等相当額は、請求人から発注者に対し、継続的に日々提供される役務に応じて、１か月を単位として対価が支払われる約定に基づき、各月末日の経過ごとに、24回にわたり、過去１か月分の役務に対する対価として代金が確定し、その支払期日を翌月とする発注者と請求人との間の契約に基づき支払われるものと認められること及び金型等相当額の支払に関する基本契約書の条項が変更されていないことから、請求人が、部品の量産開始日を含む月から24回にわたり、毎月末日に収益に計上した会計処理は、一般に公正妥当と認められる会計処理の基準（公正処理基準）に適合するものであり、一括で受領した金型等相当額の全額を受領した日の属する事業年度の益金の額に算入すべきとは認められない。'
+  issue_code: '0201050000'
+  tax_item: 法人税
 amendments: []
 tags:
 - phase1-tax
@@ -102,6 +161,10 @@ parent_section:
 ### 第二十二条の二第五項
 
 前項の引渡しの時における価額又は通常得べき対価の額は、同項の資産の販売等につき次に掲げる事実が生ずる可能性がある場合においても、その可能性がないものとした場合における価額とする。
+
+一　当該資産の販売等の対価の額に係る金銭債権の貸倒れ
+
+二　当該資産の販売等（資産の販売又は譲渡に限る。）に係る資産の買戻し
 
 ### 第二十二条の二第六項
 

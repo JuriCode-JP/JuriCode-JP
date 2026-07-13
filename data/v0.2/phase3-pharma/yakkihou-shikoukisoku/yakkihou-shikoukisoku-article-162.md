@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三十九条の二第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-162-p1-kou-1
+    type: kou
+    text: 高度管理医療機器等（令別表第一機械器具の項第七十二号に掲げる視力補正用レンズ及び同表第七十二号の二に掲げるコンタクトレンズ（視力補正用のものを除く。）のうち厚生労働大臣が指定するもの（以下「指定視力補正用レンズ等」という。）並びにプログラム高度管理医療機器を除く。第百七十五条第一項において同じ。）の販売等に関する業務に三年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-162-p1-kou-2
+    type: kou
+    text: 厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -34,8 +44,18 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 同項
+    - 前項
+  - id: yakkihou-shikoukisoku-art-162-p2-kou-1
+    type: kou
+    text: 高度管理医療機器等（プログラム高度管理医療機器を除く。）の販売等に関する業務に一年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-162-p2-kou-2
+    type: kou
+    text: 厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: true
@@ -47,6 +67,16 @@ paragraphs:
     modality: gimu
     references:
     - 前二項
+  - id: yakkihou-shikoukisoku-art-162-p3-kou-1
+    type: kou
+    text: 別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-162-p3-kou-2
+    type: kou
+    text: 厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
@@ -57,8 +87,8 @@ paragraphs:
     text: 指定視力補正用レンズ等及びプログラム高度管理医療機器のみを販売提供等する営業所における法第三十九条の二第一項の厚生労働省令で定める基準は、前三項の規定にかかわらず、第一項各号のいずれか又は第二項各号のいずれか及び前項各号のいずれかに該当する者であることとする。
     modality: gimu
     references:
-    - 前項
     - 前三項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -75,20 +105,28 @@ parent_section:
 
 ### 第百六十二条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-162-p1-hashira -->
 法第三十九条の二第一項の厚生労働省令で定める基準は、次の各号のいずれかに該当する者であることとする。
+
+一　高度管理医療機器等（令別表第一機械器具の項第七十二号に掲げる視力補正用レンズ及び同表第七十二号の二に掲げるコンタクトレンズ（視力補正用のものを除く。）のうち厚生労働大臣が指定するもの（以下「指定視力補正用レンズ等」という。）並びにプログラム高度管理医療機器を除く。第百七十五条第一項において同じ。）の販売等に関する業務に三年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
+
+二　厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
 
 ### 第百六十二条第二項
 
-<!-- segment: tokusoku id: yakkihou-shikoukisoku-art-162-p2 override_flag: true override_target: 前項 -->
 指定視力補正用レンズ等のみを販売等する営業所における法第三十九条の二第一項に規定する厚生労働省令で定める基準は、前項の規定にかかわらず、同項各号のいずれか又は次の各号のいずれかに該当する者であることとする。
+
+一　高度管理医療機器等（プログラム高度管理医療機器を除く。）の販売等に関する業務に一年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
+
+二　厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
 
 ### 第百六十二条第三項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-162-p3-hashira -->
 プログラム高度管理医療機器のみを販売提供等する営業所における法第三十九条の二第一項の厚生労働省令で定める基準は、前二項の規定にかかわらず、第一項各号又は次の各号のいずれかに該当する者であることとする。
+
+一　別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
+
+二　厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
 
 ### 第百六十二条第四項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-162-p4 -->
 指定視力補正用レンズ等及びプログラム高度管理医療機器のみを販売提供等する営業所における法第三十九条の二第一項の厚生労働省令で定める基準は、前三項の規定にかかわらず、第一項各号のいずれか又は第二項各号のいずれか及び前項各号のいずれかに該当する者であることとする。

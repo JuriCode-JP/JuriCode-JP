@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次に掲げる者は、遺言の証人又は立会人となることができない。
     modality: kanou_negative
+  - id: minpou-art-974-p1-kou-1
+    type: kou
+    text: 未成年者
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-974-p1-kou-2
+    type: kou
+    text: 推定相続人及び受遺者並びにこれらの配偶者及び直系血族
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-974-p1-kou-3
+    type: kou
+    text: 公証人の配偶者、四親等内の親族、書記及び使用人
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第九百七十四条
 
-<!-- segment: hashira id: minpou-art-974-p1-hashira -->
 次に掲げる者は、遺言の証人又は立会人となることができない。
+
+一　未成年者
+
+二　推定相続人及び受遺者並びにこれらの配偶者及び直系血族
+
+三　公証人の配偶者、四親等内の親族、書記及び使用人

@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-64-p1
+    type: simple
+    text: 金融商品取引業者は、投資者保護資金に充てるため、業務規程の定めるところにより、その所属する基金に対し、負担金を納付しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-64-p2
+    type: tokusoku
+    text: 基金は、前項の規定にかかわらず、定款の定めるところにより、通知金融商品取引業者の負担金を免除することができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

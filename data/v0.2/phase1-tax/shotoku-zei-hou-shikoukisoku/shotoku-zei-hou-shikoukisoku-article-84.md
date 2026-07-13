@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 居住者又は内国法人に対し国内において法第二百四条第一項各号（報酬、料金等に係る源泉徴収義務）に掲げる報酬若しくは料金、契約金又は賞金（法第二百四条第二項各号に掲げるものを除く。以下この条において「報酬等」という。）の支払をする者は、法第二百二十五条第一項第三号（報酬、料金等の支払調書）の規定により、その報酬等の支払を受ける者の各人別に、次に掲げる事項を記載した調書を、その支払をする者の事務所、事業所その他これらに準ずるものでその報酬等の支払事務を取り扱うものの所在地の所轄税務署長に提出しなければならない。
     modality: gimu
+  - id: shotoku-zei-hou-shikoukisoku-art-84-p1-kou-1
+    type: kou
+    text: その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-84-p1-kou-2
+    type: kou
+    text: その年中に支払の確定した報酬等の金額（広告宣伝のための賞金については、金銭以外のもので支払われる場合には、令第三百二十一条（金銭以外のもので支払われる賞金の価額）の規定により計算した金額）
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-84-p1-kou-3
+    type: kou
+    text: 前号の報酬等につき源泉徴収をされる所得税の額
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-84-p1-kou-4
+    type: kou
+    text: 報酬等の法第二百四条第一項各号に規定する区分
+    modality: unspecified
+    item_number: 4
+  - id: shotoku-zei-hou-shikoukisoku-art-84-p1-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: true
@@ -33,6 +58,26 @@ paragraphs:
     references:
     - 同項
     - 前項
+  - id: shotoku-zei-hou-shikoukisoku-art-84-p2-kou-1
+    type: kou
+    text: 同一人に対するその年中の法第二百四条第一項第三号に掲げる診療報酬、同項第四号に掲げる職業拳けん闘家、外交員、集金人若しくは電力量計の検針人の業務に関する報酬若しくは料金又は同項第六号に掲げる報酬若しくは料金の支払金額が五十万円以下である場合
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikoukisoku-art-84-p2-kou-2
+    type: kou
+    text: 同一人に対するその年中の法第二百四条第一項第八号に掲げる広告宣伝のための賞金の支払金額が五十万円以下である場合
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikoukisoku-art-84-p2-kou-3
+    type: kou
+    text: 同一人に対するその年中の法第二百四条第一項第八号に掲げる馬主が受ける競馬の賞金の全部につきそれぞれの一回に支払うべき金額が令第二百九十八条第一項（競馬の賞金に係る控除額）に規定する金額以下である場合
+    modality: unspecified
+    item_number: 3
+  - id: shotoku-zei-hou-shikoukisoku-art-84-p2-kou-4
+    type: kou
+    text: 同一人に対するその年中の前三号に規定する報酬等以外の報酬等の支払金額が五万円以下である場合
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -51,10 +96,26 @@ parent_section:
 
 ### 第八十四条第一項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-84-p1-hashira -->
 居住者又は内国法人に対し国内において法第二百四条第一項各号（報酬、料金等に係る源泉徴収義務）に掲げる報酬若しくは料金、契約金又は賞金（法第二百四条第二項各号に掲げるものを除く。以下この条において「報酬等」という。）の支払をする者は、法第二百二十五条第一項第三号（報酬、料金等の支払調書）の規定により、その報酬等の支払を受ける者の各人別に、次に掲げる事項を記載した調書を、その支払をする者の事務所、事業所その他これらに準ずるものでその報酬等の支払事務を取り扱うものの所在地の所轄税務署長に提出しなければならない。
+
+一　その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
+
+二　その年中に支払の確定した報酬等の金額（広告宣伝のための賞金については、金銭以外のもので支払われる場合には、令第三百二十一条（金銭以外のもので支払われる賞金の価額）の規定により計算した金額）
+
+三　前号の報酬等につき源泉徴収をされる所得税の額
+
+四　報酬等の法第二百四条第一項各号に規定する区分
+
+五　その他参考となるべき事項
 
 ### 第八十四条第二項
 
-<!-- segment: hashira id: shotoku-zei-hou-shikoukisoku-art-84-p2-hashira -->
 前項の場合において、次の各号に掲げる場合に該当するときは、当該各号の規定に該当する報酬等に係る同項の調書は、提出することを要しない。
+
+一　同一人に対するその年中の法第二百四条第一項第三号に掲げる診療報酬、同項第四号に掲げる職業拳けん闘家、外交員、集金人若しくは電力量計の検針人の業務に関する報酬若しくは料金又は同項第六号に掲げる報酬若しくは料金の支払金額が五十万円以下である場合
+
+二　同一人に対するその年中の法第二百四条第一項第八号に掲げる広告宣伝のための賞金の支払金額が五十万円以下である場合
+
+三　同一人に対するその年中の法第二百四条第一項第八号に掲げる馬主が受ける競馬の賞金の全部につきそれぞれの一回に支払うべき金額が令第二百九十八条第一項（競馬の賞金に係る控除額）に規定する金額以下である場合
+
+四　同一人に対するその年中の前三号に規定する報酬等以外の報酬等の支払金額が五万円以下である場合

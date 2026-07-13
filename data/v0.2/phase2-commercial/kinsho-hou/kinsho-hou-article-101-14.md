@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-14-p1
+    type: simple
+    text: 組織変更時発行株式の引受人は、効力発生日に、出資の履行を行つた組織変更時発行株式の株主となる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

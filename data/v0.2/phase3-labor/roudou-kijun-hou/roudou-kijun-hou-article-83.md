@@ -46,10 +46,8 @@ parent_section:
 
 ### 第八十三条第一項
 
-<!-- segment: simple id: roudou-kijun-hou-art-83-p1 -->
 補償を受ける権利は、労働者の退職によつて変更されることはない。
 
 ### 第八十三条第二項
 
-<!-- segment: simple id: roudou-kijun-hou-art-83-p2 -->
 補償を受ける権利は、これを譲渡し、又は差し押えてはならない。

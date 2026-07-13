@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-8-p1
+    type: simple
+    text: 第八十三条の六の罪は、刑法（明治四十年法律第四十五号）第四条の例に従う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

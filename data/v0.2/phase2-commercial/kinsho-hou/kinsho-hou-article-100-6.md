@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-6-p1
+    type: simple
+    text: 第百条の四の規定による登記の申請書には、清算人が第百条の十七第一項において準用する会社法第五百七条第三項の承認を得たことを証する書面を添付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

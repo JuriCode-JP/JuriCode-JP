@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百五十四条
 
-<!-- segment: simple id: chihou-jichi-hou-art-154-p1 -->
 普通地方公共団体の長は、その補助機関である職員を指揮監督する。

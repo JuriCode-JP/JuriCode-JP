@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百五条
 
-<!-- segment: simple id: shouhou-art-505-p1 -->
 商行為の受任者は、委任の本旨に反しない範囲内において、委任を受けていない行為をすることができる。

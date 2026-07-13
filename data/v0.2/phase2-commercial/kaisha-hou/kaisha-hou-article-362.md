@@ -30,6 +30,21 @@ paragraphs:
     type: hashira
     text: 取締役会は、次に掲げる職務を行う。
     modality: unspecified
+  - id: kaisha-hou-art-362-p2-kou-1
+    type: kou
+    text: 取締役会設置会社の業務執行の決定
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-362-p2-kou-2
+    type: kou
+    text: 取締役の職務の執行の監督
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-362-p2-kou-3
+    type: kou
+    text: 代表取締役の選定及び解職
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -48,6 +63,41 @@ paragraphs:
     type: hashira
     text: 取締役会は、次に掲げる事項その他の重要な業務執行の決定を取締役に委任することができない。
     modality: kanou_negative
+  - id: kaisha-hou-art-362-p4-kou-1
+    type: kou
+    text: 重要な財産の処分及び譲受け
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-362-p4-kou-2
+    type: kou
+    text: 多額の借財
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-362-p4-kou-3
+    type: kou
+    text: 支配人その他の重要な使用人の選任及び解任
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-362-p4-kou-4
+    type: kou
+    text: 支店その他の重要な組織の設置、変更及び廃止
+    modality: unspecified
+    item_number: 4
+  - id: kaisha-hou-art-362-p4-kou-5
+    type: kou
+    text: 第六百七十六条第一号に掲げる事項その他の社債を引き受ける者の募集に関する重要な事項として法務省令で定める事項
+    modality: unspecified
+    item_number: 5
+  - id: kaisha-hou-art-362-p4-kou-6
+    type: kou
+    text: 取締役の職務の執行が法令及び定款に適合することを確保するための体制その他株式会社の業務並びに当該株式会社及びその子会社から成る企業集団の業務の適正を確保するために必要なものとして法務省令で定める体制の整備
+    modality: unspecified
+    item_number: 6
+  - id: kaisha-hou-art-362-p4-kou-7
+    type: kou
+    text: 第四百二十六条第一項の規定による定款の定めに基づく第四百二十三条第一項の責任の免除
+    modality: unspecified
+    item_number: 7
 - number: 5
   has_proviso: false
   has_items: false
@@ -81,25 +131,40 @@ parent_section:
 
 ### 第三百六十二条第一項
 
-<!-- segment: simple id: kaisha-hou-art-362-p1 -->
 取締役会は、すべての取締役で組織する。
 
 ### 第三百六十二条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-362-p2-hashira -->
 取締役会は、次に掲げる職務を行う。
+
+一　取締役会設置会社の業務執行の決定
+
+二　取締役の職務の執行の監督
+
+三　代表取締役の選定及び解職
 
 ### 第三百六十二条第三項
 
-<!-- segment: simple id: kaisha-hou-art-362-p3 -->
 取締役会は、取締役の中から代表取締役を選定しなければならない。
 
 ### 第三百六十二条第四項
 
-<!-- segment: hashira id: kaisha-hou-art-362-p4-hashira -->
 取締役会は、次に掲げる事項その他の重要な業務執行の決定を取締役に委任することができない。
+
+一　重要な財産の処分及び譲受け
+
+二　多額の借財
+
+三　支配人その他の重要な使用人の選任及び解任
+
+四　支店その他の重要な組織の設置、変更及び廃止
+
+五　第六百七十六条第一号に掲げる事項その他の社債を引き受ける者の募集に関する重要な事項として法務省令で定める事項
+
+六　取締役の職務の執行が法令及び定款に適合することを確保するための体制その他株式会社の業務並びに当該株式会社及びその子会社から成る企業集団の業務の適正を確保するために必要なものとして法務省令で定める体制の整備
+
+七　第四百二十六条第一項の規定による定款の定めに基づく第四百二十三条第一項の責任の免除
 
 ### 第三百六十二条第五項
 
-<!-- segment: simple id: kaisha-hou-art-362-p5 -->
 大会社である取締役会設置会社においては、取締役会は、前項第六号に掲げる事項を決定しなければならない。

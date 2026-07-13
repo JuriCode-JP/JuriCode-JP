@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第二十七条の三十六第二項に規定する内閣府令で定める場合とは、次の各号のいずれかに該当する場合とする。
     modality: gimu
+  - id: juuyou-jouhou-furei-art-8-p1-kou-1
+    type: kou
+    text: 上場会社等又は上場投資法人等の資産運用会社の役員等が、その業務に関して、取引関係者に意図せず重要情報を伝達した場合
+    modality: unspecified
+    item_number: 1
+  - id: juuyou-jouhou-furei-art-8-p1-kou-2
+    type: kou
+    text: 上場会社等若しくは上場投資法人等の資産運用会社又はこれらの役員等が、その業務に関して、取引関係者に重要情報の伝達を行った時において、当該伝達の相手方が取引関係者であることを知らなかった場合
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,5 +44,8 @@ tags:
 
 ### 第八条
 
-<!-- segment: hashira id: juuyou-jouhou-furei-art-8-p1-hashira -->
 法第二十七条の三十六第二項に規定する内閣府令で定める場合とは、次の各号のいずれかに該当する場合とする。
+
+一　上場会社等又は上場投資法人等の資産運用会社の役員等が、その業務に関して、取引関係者に意図せず重要情報を伝達した場合
+
+二　上場会社等若しくは上場投資法人等の資産運用会社又はこれらの役員等が、その業務に関して、取引関係者に重要情報の伝達を行った時において、当該伝達の相手方が取引関係者であることを知らなかった場合

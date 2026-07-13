@@ -43,5 +43,4 @@ parent_section:
 
 ### 第九十六条
 
-<!-- segment: simple id: kinsho-hou-art-96-p1 -->
 会員が脱退したときは、金融商品会員制法人は、定款の定めるところにより、その持分を払い戻さなければならない。

@@ -23,13 +23,28 @@ paragraphs:
     modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-256-p2
     type: simple
     text: 起訴状には、左の事項を記載しなければならない。
     modality: gimu
+  - id: keiji-soshou-hou-art-256-p2-kou-1
+    type: kou
+    text: 被告人の氏名その他被告人を特定するに足りる事項
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-256-p2-kou-2
+    type: kou
+    text: 公訴事実
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-256-p2-kou-3
+    type: kou
+    text: 罪名
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -40,7 +55,7 @@ paragraphs:
     text: 公訴事実は、訴因を明示してこれを記載しなければならない。訴因を明示するには、できる限り日時、場所及び方法を以て罪となるべき事実を特定してこれをしなければならない。
     modality: gimu
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -84,30 +99,30 @@ parent_section:
 
 ### 第二百五十六条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-256-p1 -->
 公訴の提起は、起訴状を提出してこれをしなければならない。
 
 ### 第二百五十六条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-256-p2 -->
 起訴状には、左の事項を記載しなければならない。
+
+一　被告人の氏名その他被告人を特定するに足りる事項
+
+二　公訴事実
+
+三　罪名
 
 ### 第二百五十六条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-256-p3 -->
 公訴事実は、訴因を明示してこれを記載しなければならない。訴因を明示するには、できる限り日時、場所及び方法を以て罪となるべき事実を特定してこれをしなければならない。
 
 ### 第二百五十六条第四項
 
-<!-- segment: simple id: keiji-soshou-hou-art-256-p4 -->
 罪名は、適用すべき罰条を示してこれを記載しなければならない。但し、罰条の記載の誤は、被告人の防禦に実質的な不利益を生ずる虞がない限り、公訴提起の効力に影響を及ぼさない。
 
 ### 第二百五十六条第五項
 
-<!-- segment: simple id: keiji-soshou-hou-art-256-p5 -->
 数個の訴因及び罰条は、予備的に又は択一的にこれを記載することができる。
 
 ### 第二百五十六条第六項
 
-<!-- segment: simple id: keiji-soshou-hou-art-256-p6 -->
 起訴状には、裁判官に事件につき予断を生ぜしめる虞のある書類その他の物を添附し、又はその内容を引用してはならない。

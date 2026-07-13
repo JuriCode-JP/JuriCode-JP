@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 株主は、その有する株式につき次に掲げる権利その他この法律の規定により認められた権利を有する。
     modality: unspecified
+  - id: kaisha-hou-art-105-p1-kou-1
+    type: kou
+    text: 剰余金の配当を受ける権利
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-105-p1-kou-2
+    type: kou
+    text: 残余財産の分配を受ける権利
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-105-p1-kou-3
+    type: kou
+    text: 株主総会における議決権
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +67,14 @@ parent_section:
 
 ### 第百五条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-105-p1-hashira -->
 株主は、その有する株式につき次に掲げる権利その他この法律の規定により認められた権利を有する。
+
+一　剰余金の配当を受ける権利
+
+二　残余財産の分配を受ける権利
+
+三　株主総会における議決権
 
 ### 第百五条第二項
 
-<!-- segment: simple id: kaisha-hou-art-105-p2 -->
 株主に前項第一号及び第二号に掲げる権利の全部を与えない旨の定款の定めは、その効力を有しない。

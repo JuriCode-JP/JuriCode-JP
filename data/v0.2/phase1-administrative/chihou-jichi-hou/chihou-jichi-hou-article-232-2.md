@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-232-2-p1
+    type: simple
+    text: 普通地方公共団体は、その公益上必要がある場合においては、寄附又は補助をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

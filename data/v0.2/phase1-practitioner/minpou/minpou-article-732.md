@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七百三十二条
 
-<!-- segment: simple id: minpou-art-732-p1 -->
 配偶者のある者は、重ねて婚姻をすることができない。

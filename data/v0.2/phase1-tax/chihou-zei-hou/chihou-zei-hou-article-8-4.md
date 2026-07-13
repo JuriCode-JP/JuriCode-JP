@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-8-4-p1
+    type: simple
+    text: 都道府県の境界にわたつて市町村の設置又は境界の変更があつたため都道府県の境界に変更があつた場合における当該境界変更のあつた区域に係る都道府県の地方団体の徴収金の徴収を目的とする権利の承継については、前二条に規定する方法に準じて関係都道府県が協議して定めるものとする。
+    modality: gimu
+    references:
+    - 前二条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-8-4-p2
+    type: junyou
+    text: 第八条の規定は前項の協議がととのわない場合について、第八条の二第一項後段及び第四項の規定は前項の協議によつて境界変更のあつた区域に係る都道府県の地方団体の徴収金の徴収を目的とする権利の承継があつた場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第八条
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

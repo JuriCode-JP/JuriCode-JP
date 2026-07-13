@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-9-12-p1
+    type: simple
+    text: 第四十八条の九の十第三項の規定による承認の取消し又は前条の届出書の提出があつた場合には、その取消し又は提出の日の属する法第三百二十一条の五の二第一項に規定する期間に係る法第三百二十一条の五第一項又は第二項ただし書に規定する給与所得に係る特別徴収税額のうち同日の属する月以前の各月に徴収すべきものについては、同日の属する月の翌月十日をその納期限とする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-88-13-p1-zen
+    type: zen_dan
+    text: 金融商品会員制法人と理事長又は理事との利益が相反する事項については、当該理事長又は当該理事は、代表権を有しない。
+    modality: unspecified
+  - id: kinsho-hou-art-88-13-p1-kou
+    type: kou_dan
+    text: この場合においては、裁判所は、利害関係人又は検察官の請求により、特別代理人を選任しなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-88-13-p1-zen
 cases: []
 amendments: []
 tags:

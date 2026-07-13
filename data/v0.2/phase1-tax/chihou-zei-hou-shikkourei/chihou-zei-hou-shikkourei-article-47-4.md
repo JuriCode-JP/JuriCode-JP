@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十七条の四
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-47-4-p1 -->
 法第二百九十六条第一項第二号に規定する農業協同組合連合会で政令で定めるものは、第七条の四の五に規定する農業協同組合連合会とする。

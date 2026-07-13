@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-422-3-p1
+    type: simple
+    text: 市町村長は、第四百十条第一項、第四百十七条、第四百十九条第二項又は第四百三十五条第二項の規定によつて、土地及び家屋の基準年度の価格又は比準価格を決定し、又は修正した場合においては、その基準年度の価格又は比準価格その他総務省令で定める事項を、遅滞なく、当該決定又は修正に係る土地又は家屋の所在地を管轄する登記所に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-15-11-p1
+    type: simple
+    text: 薬局開設者は、健康サポート薬局である旨を表示するときは、その薬局を、第一条の二第五項第十号に規定する厚生労働大臣が定める基準に適合するものとしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

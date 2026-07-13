@@ -13,25 +13,45 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-53-2-p1-honbun
+    type: honbun
+    text: 警察署に、警察署協議会を置くものとする。
+    modality: gimu
+  - id: keisatsu-hou-art-53-2-p1-tadashi
+    type: tadashi
+    text: ただし、管轄区域内の人口が僅少であることその他特別の事情がある場合は、これを置かないことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-53-2-p2
+    type: simple
+    text: 警察署協議会は、警察署の管轄区域内における警察の事務の処理に関し、警察署長の諮問に応ずるとともに、警察署長に対して意見を述べる機関とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-53-2-p3
+    type: simple
+    text: 警察署協議会の委員は、都道府県公安委員会が委嘱する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-53-2-p4
+    type: simple
+    text: 警察署協議会の設置、その委員の定数、任期その他警察署協議会に関し必要な事項は、条例（警察署協議会の議事の手続にあつては、都道府県公安委員会規則）で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

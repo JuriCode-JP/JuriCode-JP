@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 法の規定により許可を受けて医薬品を業として販売又は授与する者（以下この条において「許可事業者」という。）が、二以上の許可を受けている場合であつて、当該者の保有する医薬品を、当該二以上の許可のうちの一の許可に基づき業務を行う場所から他の許可に基づき業務を行う場所へ移転したときは、当該移転前及び移転後の場所において、それぞれ次に掲げる事項（第二号及び第三号に掲げる事項にあつては、当該医薬品が医療用医薬品（体外診断用医薬品を除く。）である場合に限る。）を書面に記載しなければならない。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-285-p1-kou-1
+    type: kou
+    text: 品名
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-285-p1-kou-2
+    type: kou
+    text: ロツト番号（ロツトを構成しない医薬品については製造番号）
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-285-p1-kou-3
+    type: kou
+    text: 使用の期限
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-285-p1-kou-4
+    type: kou
+    text: 数量
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-285-p1-kou-5
+    type: kou
+    text: 移転先及び移転元の場所並びに移転の年月日
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,10 +73,18 @@ parent_section:
 
 ### 第二百八十五条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-285-p1-hashira -->
 法の規定により許可を受けて医薬品を業として販売又は授与する者（以下この条において「許可事業者」という。）が、二以上の許可を受けている場合であつて、当該者の保有する医薬品を、当該二以上の許可のうちの一の許可に基づき業務を行う場所から他の許可に基づき業務を行う場所へ移転したときは、当該移転前及び移転後の場所において、それぞれ次に掲げる事項（第二号及び第三号に掲げる事項にあつては、当該医薬品が医療用医薬品（体外診断用医薬品を除く。）である場合に限る。）を書面に記載しなければならない。
+
+一　品名
+
+二　ロツト番号（ロツトを構成しない医薬品については製造番号）
+
+三　使用の期限
+
+四　数量
+
+五　移転先及び移転元の場所並びに移転の年月日
 
 ### 第二百八十五条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-285-p2 -->
 許可事業者は、前項の書面を、法の規定により許可を受けて業務を行う場所ごとに、記載の日から三年間、保存しなければならない。

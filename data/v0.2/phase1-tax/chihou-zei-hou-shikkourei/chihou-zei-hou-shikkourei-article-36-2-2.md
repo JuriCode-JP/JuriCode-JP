@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-36-2-2-p1
+    type: simple
+    text: 法第七十三条の二第二項に規定する家屋を新築して譲渡することを業とする者で政令で定めるものは、家屋を新築して譲渡することを業とする者で宅地建物取引業法（昭和二十七年法律第百七十六号）第二条第三号に規定する宅地建物取引業者であるもの及び日本勤労者住宅協会とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

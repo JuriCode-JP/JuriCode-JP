@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-16-p1
+    type: simple
+    text: 第三百九十二条及び第三百九十三条の規定は、根抵当権については、その設定と同時に同一の債権の担保として数個の不動産につき根抵当権が設定された旨の登記をした場合に限り、適用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

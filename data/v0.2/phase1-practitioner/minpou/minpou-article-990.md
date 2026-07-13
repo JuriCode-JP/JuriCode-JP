@@ -41,5 +41,4 @@ parent_section:
 
 ### 第九百九十条
 
-<!-- segment: simple id: minpou-art-990-p1 -->
 包括受遺者は、相続人と同一の権利義務を有する。

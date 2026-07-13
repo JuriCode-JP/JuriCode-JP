@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-56-p1
+    type: simple
+    text: 第七十二条の五十五の規定により申告し、又は報告すべき事項について虚偽の申告又は報告をしたときは、その違反行為をした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-56-p2
+    type: simple
+    text: 人の代理人、使用人その他の従業者がその人の業務又は財産に関して前項の違反行為をした場合には、その行為者を罰するほか、その人に対し、同項の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

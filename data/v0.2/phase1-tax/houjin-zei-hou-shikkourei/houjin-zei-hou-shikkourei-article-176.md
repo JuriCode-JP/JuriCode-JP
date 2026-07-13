@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第百三十八条第一項第一号（国内源泉所得）に規定する政令で定めるものは、次に掲げるものとする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-176-p1-kou-1
+    type: kou
+    text: 法第二条第十二号の十九イ（定義）に規定する事業を行う一定の場所に相当するもの
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-176-p1-kou-2
+    type: kou
+    text: 法第二条第十二号の十九ロに規定する建設若しくは据付けの工事又はこれらの指揮監督の役務の提供を行う場所に相当するもの
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-176-p1-kou-3
+    type: kou
+    text: 法第二条第十二号の十九ハに規定する自己のために契約を締結する権限のある者に相当する者
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikkourei-art-176-p1-kou-4
+    type: kou
+    text: 前三号に掲げるものに準ずるもの
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -39,5 +59,12 @@ parent_section:
 
 ### 第百七十六条
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-176-p1-hashira -->
 法第百三十八条第一項第一号（国内源泉所得）に規定する政令で定めるものは、次に掲げるものとする。
+
+一　法第二条第十二号の十九イ（定義）に規定する事業を行う一定の場所に相当するもの
+
+二　法第二条第十二号の十九ロに規定する建設若しくは据付けの工事又はこれらの指揮監督の役務の提供を行う場所に相当するもの
+
+三　法第二条第十二号の十九ハに規定する自己のために契約を締結する権限のある者に相当する者
+
+四　前三号に掲げるものに準ずるもの

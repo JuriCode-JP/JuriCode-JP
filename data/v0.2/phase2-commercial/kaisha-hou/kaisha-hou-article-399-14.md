@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-399-14-p1
+    type: simple
+    text: 監査等委員会設置会社においては、招集権者の定めがある場合であっても、監査等委員会が選定する監査等委員は、取締役会を招集することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

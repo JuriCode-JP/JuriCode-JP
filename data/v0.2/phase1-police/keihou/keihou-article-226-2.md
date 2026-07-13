@@ -16,27 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-226-2-p1
+    type: simple
+    text: 人を買い受けた者は、三月以上五年以下の拘禁刑に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-226-2-p2
+    type: simple
+    text: 未成年者を買い受けた者は、三月以上七年以下の拘禁刑に処する。
+    modality: gimu_kei
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-226-2-p3
+    type: simple
+    text: 営利、わいせつ、結婚又は生命若しくは身体に対する加害の目的で、人を買い受けた者は、一年以上十年以下の拘禁刑に処する。
+    modality: gimu_kei
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-226-2-p4
+    type: simple
+    text: 人を売り渡した者も、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-226-2-p5
+    type: simple
+    text: 所在国外に移送する目的で、人を売買した者は、二年以上の有期拘禁刑に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

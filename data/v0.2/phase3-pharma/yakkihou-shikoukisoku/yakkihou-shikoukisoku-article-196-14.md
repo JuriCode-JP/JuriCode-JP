@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-14-p1
+    type: simple
+    text: 法第四十一条第一項の規定による公示は、官報への掲載及び公衆の縦覧に供することにより行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-102-12-p1
+    type: simple
+    text: 自主規制法人の会員は、金融商品取引所、金融商品取引所持株会社及び親商品取引所等に限る。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

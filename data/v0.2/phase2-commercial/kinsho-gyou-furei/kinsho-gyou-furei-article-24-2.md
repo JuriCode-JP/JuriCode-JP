@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-24-2-p1
+    type: simple
+    text: 法第三十一条第七項に規定する内閣府令で定めるものは、第八条第六号ホ（５）、（６）、（８）から（１１）まで、（１３）及び（１４）に掲げる事項とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

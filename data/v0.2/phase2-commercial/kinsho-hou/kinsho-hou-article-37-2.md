@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-37-2-p1
+    type: simple
+    text: 金融商品取引業者等は、顧客から有価証券の売買又は店頭デリバティブ取引に関する注文を受けたときは、あらかじめ、その者に対し自己がその相手方となつて当該売買若しくは取引を成立させるか、又は媒介し、取次ぎし、若しくは代理して当該売買若しくは取引を成立させるかの別を明らかにしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

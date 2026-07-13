@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百五十条
 
-<!-- segment: simple id: keiji-soshou-hou-art-450-p1 -->
 第四百四十六条、第四百四十七条第一項、第四百四十八条第一項又は前条第一項の決定に対しては、即時抗告をすることができる。

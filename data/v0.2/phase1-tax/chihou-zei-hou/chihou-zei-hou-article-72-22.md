@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-22-p1
+    type: simple
+    text: 特定内国法人の資本割の課税標準は、当該特定内国法人の資本金等の額から、この法律の施行地外の事業の規模等を勘案して政令で定めるところにより計算した金額を控除して得た額とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-22-p2
+    type: simple
+    text: 外国法人の資本割の課税標準は、当該外国法人の資本金等の額から、この法律の施行地外の事業の規模等を勘案して政令で定めるところにより計算した金額を控除して得た額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

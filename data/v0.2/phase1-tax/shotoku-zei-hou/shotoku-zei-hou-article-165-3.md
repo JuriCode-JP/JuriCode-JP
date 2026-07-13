@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-165-3-p1
+    type: simple
+    text: 非居住者の各年の恒久的施設に係る純資産の額として政令で定めるところにより計算した金額が、当該非居住者の純資産の額に相当する額のうち当該恒久的施設に帰せられるべき金額として政令で定めるところにより計算した金額に満たない場合には、当該非居住者のその年の恒久的施設を通じて行う事業に係る負債の利子（これに準ずるものとして政令で定めるものを含む。）の額として政令で定める金額のうち、その満たない金額に対応する部分の金額として政令で定めるところにより計算した金額は、当該非居住者のその年分の恒久的施設帰属所得につき第百六十五条第一項（総合課税に係る所得税の課税標準、税額等の計算）の規定により準じて計算する不動産所得の金額、事業所得の金額、山林所得の金額若しくは雑所得の金額又は一時所得の金額の計算上、必要経費又は支出した金額に算入しない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-165-3-p2
+    type: simple
+    text: 前項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

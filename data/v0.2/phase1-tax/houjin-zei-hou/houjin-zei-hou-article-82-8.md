@@ -16,42 +16,103 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-8-p1
+    type: simple
+    text: 前条第一項の内国法人が、電気通信回線の故障、災害その他の理由により同項に規定する電子情報処理組織を使用することが困難であると認められる場合で、かつ、同項の規定を適用しないで納税申告書を提出することができると認められる場合において、同項の規定を適用しないで納税申告書を提出することについて納税地の所轄税務署長の承認を受けたときは、当該税務署長が指定する期間内に行う同項の申告については、同条の規定は、適用しない。
+    modality: jogai
+    references:
+    - 同項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-8-p2
+    type: simple
+    text: 前項の承認を受けようとする内国法人は、同項の規定の適用を受けることが必要となつた事情、同項の規定による指定を受けようとする期間その他財務省令で定める事項を記載した申請書に財務省令で定める書類を添付して、当該期間の開始の日の十五日前まで（同項に規定する理由が生じた日が第八十二条の六第一項（国際最低課税額に係る確定申告）の規定による申告書の提出期限の十五日前の日以後である場合において、当該提出期限が当該期間内の日であるときは、当該開始の日まで）に、これを納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-8-p3
+    type: simple
+    text: 税務署長は、前項の申請書の提出があつた場合において、その申請に係る同項の事情が相当でないと認めるときは、その申請を却下することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-8-p4
+    type: simple
+    text: 税務署長は、第二項の申請書の提出があつた場合において、その申請につき承認又は却下の処分をするときは、その申請をした内国法人に対し、書面によりその旨を通知する。
+    modality: tetsuduki
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-8-p5
+    type: simple
+    text: 第二項の申請書の提出があつた場合において、当該申請書に記載した第一項の規定による指定を受けようとする期間の開始の日までに承認又は却下の処分がなかつたときは、その日においてその承認があつたものと、当該期間を同項の期間として同項の規定による指定があつたものと、それぞれみなす。
+    modality: unspecified
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-8-p6-zen
+    type: zen_dan
+    text: 税務署長は、第一項の規定の適用を受けている内国法人につき、前条第一項に規定する電子情報処理組織を使用することが困難でなくなつたと認める場合には、第一項の承認を取り消すことができる。
+    modality: koka_torikeshi
+    references:
+    - 前条
+  - id: houjin-zei-hou-art-82-8-p6-kou
+    type: kou_dan
+    text: この場合において、その取消しの処分があつたときは、その処分のあつた日の翌日以後の期間につき、その処分の効果が生ずるものとする。
+    modality: gimu
+    depends_on: houjin-zei-hou-art-82-8-p6-zen
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-8-p7
+    type: simple
+    text: 税務署長は、前項の処分をするときは、その処分に係る内国法人に対し、書面によりその旨を通知する。
+    modality: tetsuduki
+    references:
+    - 前項
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-8-p8-zen
+    type: zen_dan
+    text: 第一項の規定の適用を受けている内国法人は、前条第一項の申告につき第一項の規定の適用を受けることをやめようとするときは、その旨その他財務省令で定める事項を記載した届出書を納税地の所轄税務署長に提出しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: houjin-zei-hou-art-82-8-p8-kou
+    type: kou_dan
+    text: この場合において、その届出書の提出があつたときは、その提出があつた日の翌日以後の期間については、同項の承認の処分は、その効力を失うものとする。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: houjin-zei-hou-art-82-8-p8-zen
 cases: []
 amendments:
 - effective_date: '2024-04-01'

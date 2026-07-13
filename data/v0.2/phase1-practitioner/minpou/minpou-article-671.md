@@ -43,5 +43,4 @@ parent_section:
 
 ### 第六百七十一条
 
-<!-- segment: junyou id: minpou-art-671-p1 applies_provisions: 第六百四十四条から第六百五十条まで -->
 第六百四十四条から第六百五十条までの規定は、組合の業務を決定し、又は執行する組合員について準用する。

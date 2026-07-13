@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-403-2-p1
+    type: tokusoku
+    text: 即決裁判手続においてされた判決に対する控訴の申立ては、第三百八十四条の規定にかかわらず、当該判決の言渡しにおいて示された罪となるべき事実について第三百八十二条に規定する事由があることを理由としては、これをすることができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 第三百八十四条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-403-2-p2
+    type: tokusoku
+    text: 原裁判所が即決裁判手続によつて判決をした事件については、第三百九十七条第一項の規定にかかわらず、控訴裁判所は、当該判決の言渡しにおいて示された罪となるべき事実について第三百八十二条に規定する事由があることを理由としては、原判決を破棄することができない。
+    modality: kanou_negative
+    override_flag: true
+    override_target:
+    - 第三百九十七条
 cases: []
 amendments: []
 tags:

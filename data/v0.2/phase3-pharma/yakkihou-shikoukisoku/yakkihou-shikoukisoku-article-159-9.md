@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-9-p1
+    type: simple
+    text: 登録販売者は、前条第一項の登録事項に変更を生じたときは、三十日以内に、その旨を届け出なければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-159-9-p2
+    type: simple
+    text: 前項の届出をするには、様式第八十六の四による変更届に届出の原因たる事実を証する書類を添え、登録を受けた都道府県知事に提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

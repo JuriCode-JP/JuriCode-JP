@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-48-11-7-p1
+    type: junyou
+    text: 第八条の十六の三の規定は、法第三百二十一条の八第七項に規定する法人税法第五十七条第一項の欠損金額について準用する。この場合において、第八条の十六の三第一項中「より法第五十三条第七項」とあるのは「より法第三百二十一条の八第七項」と、同条第二項中「第五十三条第七項の」とあるのは「第三百二十一条の八第七項の」と読み替えるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-art-21-13-p1
+    type: simple
+    text: 相続時精算課税適用者がその年中において特定贈与者からの贈与により取得した財産に係るその年分の贈与税の額は、特定贈与者ごとに、第二十一条の十一の二第一項の規定による控除後の贈与税の課税価格（前条第一項の規定の適用がある場合には、同項の規定による控除後の金額）にそれぞれ百分の二十の税率を乗じて計算した金額とする。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
 cases: []
 amendments:
 - effective_date: '2024-01-01'

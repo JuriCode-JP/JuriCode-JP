@@ -52,10 +52,8 @@ parent_section:
 
 ### 第三十五条の十一第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-35-11-p1 -->
 法第七十二条の百五第二項に規定する政令で定める事由は、時効の完成その他の事由により同項に規定する還付金等の支払を要しなくなつたこととする。
 
 ### 第三十五条の十一第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-35-11-p2 -->
 法第七十二条の百五第二項に規定する政令で定める額は、前項に規定する事由によりその支払を要しなくなつた額とする。

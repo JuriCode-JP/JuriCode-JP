@@ -43,5 +43,4 @@ parent_section:
 
 ### 第四十二条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-42-p1 -->
 民法第三編第一章第二節第二款（債権者代位権）及び第三款（詐害行為取消権）の規定は、国税の徴収に関して準用する。

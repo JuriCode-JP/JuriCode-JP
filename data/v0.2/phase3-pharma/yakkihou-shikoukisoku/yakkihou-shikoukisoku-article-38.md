@@ -22,7 +22,7 @@ paragraphs:
     text: 法第十四条第一項の医薬品、医薬部外品又は化粧品の製造販売の承認の申請は、様式第二十二による申請書（厚生労働大臣に提出する場合にあつては正本一通及び副本二通、都道府県知事に提出する場合にあつては正副二通）を提出することによつて行うものとする。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -32,6 +32,16 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: yakkihou-shikoukisoku-art-38-p2-kou-1
+    type: kou
+    text: 当該品目に係る製造販売業の許可証の写し
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-38-p2-kou-2
+    type: kou
+    text: 法第十四条の三第一項の規定により法第十四条第一項の承認を申請しようとするときは、申請者が製造販売しようとする物が、法第十四条の三第一項第二号に規定する医薬品であることを明らかにする書類その他必要な書類
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -48,10 +58,12 @@ parent_section:
 
 ### 第三十八条第一項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-38-p1 -->
 法第十四条第一項の医薬品、医薬部外品又は化粧品の製造販売の承認の申請は、様式第二十二による申請書（厚生労働大臣に提出する場合にあつては正本一通及び副本二通、都道府県知事に提出する場合にあつては正副二通）を提出することによつて行うものとする。
 
 ### 第三十八条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-38-p2-hashira -->
 前項の申請書には、次に掲げる書類を添えなければならない。ただし、申請等の行為の際当該申請書の提出先とされている厚生労働大臣若しくは都道府県知事に提出され、又は当該都道府県知事を経由して厚生労働大臣に提出されたものについては、当該申請書にその旨が付記されたときは、この限りでない。
+
+一　当該品目に係る製造販売業の許可証の写し
+
+二　法第十四条の三第一項の規定により法第十四条第一項の承認を申請しようとするときは、申請者が製造販売しようとする物が、法第十四条の三第一項第二号に規定する医薬品であることを明らかにする書類その他必要な書類

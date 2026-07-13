@@ -43,6 +43,4 @@ parent_section:
 
 ### 第百八十二条
 
-<!-- segment: honbun id: kinsho-hou-art-182-p1-honbun -->
-審判手続の期日は、公開して行う。<!-- segment: tadashi id: kinsho-hou-art-182-p1-tadashi -->
-ただし、公益上必要があると認めるときは、この限りでない。
+審判手続の期日は、公開して行う。ただし、公益上必要があると認めるときは、この限りでない。

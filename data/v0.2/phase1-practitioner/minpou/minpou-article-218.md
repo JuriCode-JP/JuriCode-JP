@@ -43,5 +43,4 @@ parent_section:
 
 ### 第二百十八条
 
-<!-- segment: simple id: minpou-art-218-p1 -->
 土地の所有者は、直接に雨水を隣地に注ぐ構造の屋根その他の工作物を設けてはならない。

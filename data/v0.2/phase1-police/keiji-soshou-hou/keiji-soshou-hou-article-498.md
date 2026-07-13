@@ -22,7 +22,7 @@ paragraphs:
     text: 偽造し、又は変造された物を返還する場合には、偽造又は変造の部分をその物に表示しなければならない。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -50,10 +50,8 @@ parent_section:
 
 ### 第四百九十八条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-498-p1 -->
 偽造し、又は変造された物を返還する場合には、偽造又は変造の部分をその物に表示しなければならない。
 
 ### 第四百九十八条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-498-p2 -->
 偽造し、又は変造された物が押収されていないときは、これを提出させて、前項に規定する手続をしなければならない。但し、その物が公務所に属するときは、偽造又は変造の部分を公務所に通知して相当な処分をさせなければならない。

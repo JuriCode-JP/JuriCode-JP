@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-118-2-p1
+    type: simple
+    text: 第六十七条（危険防止の措置）第三項の規定による警察官の検査を拒み、又は妨げた者は、三月以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

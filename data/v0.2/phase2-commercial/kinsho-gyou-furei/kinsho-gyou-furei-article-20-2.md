@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-20-2-p1
+    type: simple
+    text: 法第三十一条第三項に規定する内閣府令で定めるものは、新たに第八条第十二号の暗号等資産又は金融指標となるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

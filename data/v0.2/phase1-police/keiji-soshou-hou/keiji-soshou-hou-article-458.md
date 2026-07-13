@@ -14,13 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-458-p1
     type: simple
     text: 非常上告が理由のあるときは、左の区別に従い、判決をしなければならない。
     modality: gimu
+  - id: keiji-soshou-hou-art-458-p1-kou-1
+    type: kou
+    text: 原判決が法令に違反したときは、その違反した部分を破棄する。但し、原判決が被告人のため不利益であるときは、これを破棄して、被告事件について更に判決をする。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-458-p1-kou-2
+    type: kou
+    text: 訴訟手続が法令に違反したときは、その違反した手続を破棄する。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第四百五十八条
 
-<!-- segment: simple id: keiji-soshou-hou-art-458-p1 -->
 非常上告が理由のあるときは、左の区別に従い、判決をしなければならない。
+
+一　原判決が法令に違反したときは、その違反した部分を破棄する。但し、原判決が被告人のため不利益であるときは、これを破棄して、被告事件について更に判決をする。
+
+二　訴訟手続が法令に違反したときは、その違反した手続を破棄する。

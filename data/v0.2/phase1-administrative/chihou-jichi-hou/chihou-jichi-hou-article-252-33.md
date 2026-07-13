@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-33-p1
+    type: simple
+    text: 普通地方公共団体が外部監査人の監査を受けるに当たつては、当該普通地方公共団体の議会、長その他の執行機関又は職員は、外部監査人の監査の適正かつ円滑な遂行に協力するよう努めなければならない。
+    modality: doryoku_gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-33-p2
+    type: simple
+    text: 代表監査委員は、外部監査人の求めに応じ、監査委員の監査の事務に支障のない範囲内において、監査委員の事務局長、書記その他の職員、監査専門委員又は第百八十条の三の規定による職員を外部監査人の監査の事務に協力させることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

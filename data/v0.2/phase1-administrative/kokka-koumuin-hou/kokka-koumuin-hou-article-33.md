@@ -32,6 +32,16 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: kokka-koumuin-hou-art-33-p2-kou-1
+    type: kou
+    text: 職員の公正な任用
+    modality: unspecified
+    item_number: 1
+  - id: kokka-koumuin-hou-art-33-p2-kou-2
+    type: kou
+    text: 行政需要の変化に対応するために行う優れた人材の養成及び活用
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -70,20 +80,20 @@ parent_section:
 
 ### 第三十三条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-33-p1 -->
 職員の任用は、この法律の定めるところにより、その者の受験成績、人事評価又はその他の能力の実証に基づいて行わなければならない。
 
 ### 第三十三条第二項
 
-<!-- segment: hashira id: kokka-koumuin-hou-art-33-p2-hashira -->
 前項に規定する根本基準の実施に当たつては、次に掲げる事項が確保されなければならない。
+
+一　職員の公正な任用
+
+二　行政需要の変化に対応するために行う優れた人材の養成及び活用
 
 ### 第三十三条第三項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-33-p3 -->
 職員の免職は、法律に定める事由に基づいてこれを行わなければならない。
 
 ### 第三十三条第四項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-33-p4 -->
 第一項に規定する根本基準の実施につき必要な事項であつて第二項第一号に掲げる事項の確保に関するもの及び前項に規定する根本基準の実施につき必要な事項は、この法律に定めのあるものを除いては、人事院規則でこれを定める。

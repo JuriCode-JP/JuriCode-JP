@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-26-p1
+    type: simple
+    text: 道府県の徴税吏員は、督促状を発した場合には、当該道府県の条例で定めるところにより、手数料を徴収することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

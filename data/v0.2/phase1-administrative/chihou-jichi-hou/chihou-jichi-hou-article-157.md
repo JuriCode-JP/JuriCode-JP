@@ -74,13 +74,10 @@ parent_section:
 
 ### 第百五十七条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-157-p1 -->
-<!-- segment: simple id: chihou-jichi-hou-art-157-p3 -->
 普通地方公共団体の長は、当該普通地方公共団体の区域内の公共的団体等の活動の綜合調整を図るため、これを指揮監督することができる。
 
 ### 第百五十七条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-157-p2 -->
 前項の場合において必要があるときは、普通地方公共団体の長は、当該普通地方公共団体の区域内の公共的団体等をして事務の報告をさせ、書類及び帳簿を提出させ及び実地について事務を視察することができる。
 
 ### 第百五十七条第三項
@@ -89,5 +86,4 @@ parent_section:
 
 ### 第百五十七条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-157-p4 -->
 前項の監督官庁は、普通地方公共団体の長の処分を取り消すことができる。

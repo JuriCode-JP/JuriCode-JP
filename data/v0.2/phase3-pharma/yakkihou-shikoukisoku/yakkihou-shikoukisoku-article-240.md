@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 生物由来製品承認取得者等は、法第六十八条の二十二第一項の規定による生物由来製品に関する記録を、次の各号に掲げる期間、保存しなければならない。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-240-p1-kou-1
+    type: kou
+    text: 特定生物由来製品又は人の血液を原材料として製造される生物由来製品にあつては、その出荷日から起算して少なくとも三十年間
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-240-p1-kou-2
+    type: kou
+    text: 生物由来製品（前号に掲げるものを除く。）にあつては、その出荷日から起算して少なくとも十年間
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -57,15 +67,16 @@ parent_section:
 
 ### 第二百四十条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-240-p1-hashira -->
 生物由来製品承認取得者等は、法第六十八条の二十二第一項の規定による生物由来製品に関する記録を、次の各号に掲げる期間、保存しなければならない。
+
+一　特定生物由来製品又は人の血液を原材料として製造される生物由来製品にあつては、その出荷日から起算して少なくとも三十年間
+
+二　生物由来製品（前号に掲げるものを除く。）にあつては、その出荷日から起算して少なくとも十年間
 
 ### 第二百四十条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-240-p2 -->
 薬局の管理者又は病院、診療所若しくは動物診療施設の管理者は、法第六十八条の二十二第三項の規定による特定生物由来製品に関する記録を、その使用した日から起算して少なくとも二十年間、これを保存しなければならない。
 
 ### 第二百四十条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-240-p3 -->
 前二項の規定にかかわらず、生物由来製品の承認取得者等又は薬局の管理者若しくは病院、診療所若しくは動物診療施設の管理者は、厚生労働大臣が指定する生物由来製品にあつては、法第六十八条の二十二第一項又は第三項の規定による記録を、厚生労働大臣が指定する期間、保存しなければならない。

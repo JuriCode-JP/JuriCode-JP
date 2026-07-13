@@ -23,6 +23,31 @@ paragraphs:
     modality: gimu
     references:
     - 次条
+  - id: douro-koutsuu-hou-art-93-p1-kou-1
+    type: kou
+    text: 免許証の番号
+    modality: unspecified
+    item_number: 1
+  - id: douro-koutsuu-hou-art-93-p1-kou-2
+    type: kou
+    text: 免許の年月日並びに免許証の交付年月日及び有効期間の末日
+    modality: unspecified
+    item_number: 2
+  - id: douro-koutsuu-hou-art-93-p1-kou-3
+    type: kou
+    text: 免許の種類
+    modality: unspecified
+    item_number: 3
+  - id: douro-koutsuu-hou-art-93-p1-kou-4
+    type: kou
+    text: 免許を受けた者の本籍、住所、氏名及び生年月日
+    modality: unspecified
+    item_number: 4
+  - id: douro-koutsuu-hou-art-93-p1-kou-5
+    type: kou
+    text: 免許を受けた者が第九十五条の六第一項の表の備考一のロに規定する優良運転者（第百一条第三項及び第百一条の二の二第一項において単に「優良運転者」という。）である場合にあつては、その旨
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
@@ -63,15 +88,22 @@ parent_section:
 
 ### 第九十三条第一項
 
-<!-- segment: hashira id: douro-koutsuu-hou-art-93-p1-hashira -->
 免許証には、次に掲げる事項（次条の規定による記録が行われる場合にあつては、内閣府令で定めるものを除く。）を記載するものとする。
+
+一　免許証の番号
+
+二　免許の年月日並びに免許証の交付年月日及び有効期間の末日
+
+三　免許の種類
+
+四　免許を受けた者の本籍、住所、氏名及び生年月日
+
+五　免許を受けた者が第九十五条の六第一項の表の備考一のロに規定する優良運転者（第百一条第三項及び第百一条の二の二第一項において単に「優良運転者」という。）である場合にあつては、その旨
 
 ### 第九十三条第二項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-93-p2 -->
 公安委員会は、前項に規定するもののほか、免許を受けた者について、第九十一条又は第九十一条の二第二項の規定により、免許に条件を付し、又は免許に付されている条件を変更したときは、その者の免許証に当該条件に係る事項を記載しなければならない。
 
 ### 第九十三条第三項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-93-p3 -->
 前二項に規定するもののほか、免許証の様式、免許証に表示すべきものその他免許証について必要な事項は、内閣府令で定める。

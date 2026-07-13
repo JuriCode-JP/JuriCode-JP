@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: true
+  has_items: false
   is_added_by_amendment: false
   segments:
   - id: chihou-zei-hou-art-180-p1-hashira
@@ -63,7 +63,6 @@ parent_section:
 
 ### 第百八十条第一項
 
-<!-- segment: hashira id: chihou-zei-hou-art-180-p1-hashira -->
 鉱区税の税率は、次の各号に掲げる鉱区について、それぞれ当該各号に定める額とする。
 
 | 一 砂鉱を目的としない鉱業権の鉱区 | 一 砂鉱を目的としない鉱業権の鉱区 | 一 砂鉱を目的としない鉱業権の鉱区 | 一 砂鉱を目的としない鉱業権の鉱区 | 一 砂鉱を目的としない鉱業権の鉱区 |
@@ -75,10 +74,8 @@ parent_section:
 
 ### 第百八十条第二項
 
-<!-- segment: tokusoku id: chihou-zei-hou-art-180-p2 override_flag: true override_target: 前項 -->
 石油又は可燃性天然ガスを目的とする鉱業権の鉱区についての鉱区税の税率は、前項の規定にかかわらず、同項第一号に規定する税率の三分の二とする。
 
 ### 第百八十条第三項
 
-<!-- segment: simple id: chihou-zei-hou-art-180-p3 -->
 第一項の場合において、百アール未満の端数は、百アールとみなす。

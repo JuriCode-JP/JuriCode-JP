@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-13-p1-zen
+    type: zen_dan
+    text: 利害関係人は、内閣総理大臣に対し、審判手続開始の決定後、事件記録の閲覧若しくは謄写又は第百八十五条の七第十九項に規定する決定に係る決定書の謄本若しくは抄本の交付を求めることができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-185-13-p1-kou
+    type: kou_dan
+    text: この場合において、内閣総理大臣は、第三者の利益を害するおそれがあるときその他正当な理由があるときでなければ、これを拒むことができない。
+    modality: kanou_negative
+    depends_on: kinsho-hou-art-185-13-p1-zen
 cases: []
 amendments: []
 tags:

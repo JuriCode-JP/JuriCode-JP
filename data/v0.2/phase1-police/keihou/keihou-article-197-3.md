@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-197-3-p1
+    type: simple
+    text: 公務員が前二条の罪を犯し、よって不正な行為をし、又は相当の行為をしなかったときは、一年以上の有期拘禁刑に処する。
+    modality: gimu_kei
+    references:
+    - 前二条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-197-3-p2
+    type: simple
+    text: 公務員が、その職務上不正な行為をしたこと又は相当の行為をしなかったことに関し、賄賂を収受し、若しくはその要求若しくは約束をし、又は第三者にこれを供与させ、若しくはその供与の要求若しくは約束をしたときも、前項と同様とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-197-3-p3
+    type: simple
+    text: 公務員であった者が、その在職中に請託を受けて職務上不正な行為をしたこと又は相当の行為をしなかったことに関し、賄賂を収受し、又はその要求若しくは約束をしたときは、五年以下の拘禁刑に処する。
+    modality: gimu_kei
 cases: []
 amendments: []
 tags:

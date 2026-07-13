@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百八十一条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-181-p1 -->
 普通地方公共団体に選挙管理委員会を置く。
 
 ### 第百八十一条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-181-p2 -->
 選挙管理委員会は、四人の選挙管理委員を以てこれを組織する。

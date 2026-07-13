@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-42-8-p1
+    type: simple
+    text: 信託業法第四章の規定は、金融商品取引業者等が投資運用業を行う場合については、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

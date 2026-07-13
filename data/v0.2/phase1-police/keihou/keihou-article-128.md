@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百二十八条
 
-<!-- segment: simple id: keihou-art-128-p1 -->
 第百二十四条第一項、第百二十五条並びに第百二十六条第一項及び第二項の罪の未遂は、罰する。

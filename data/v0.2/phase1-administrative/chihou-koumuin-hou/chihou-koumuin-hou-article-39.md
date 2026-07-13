@@ -68,20 +68,16 @@ parent_section:
 
 ### 第三十九条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-39-p1 -->
 職員には、その勤務能率の発揮及び増進のために、研修を受ける機会が与えられなければならない。
 
 ### 第三十九条第二項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-39-p2 -->
 前項の研修は、任命権者が行うものとする。
 
 ### 第三十九条第三項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-39-p3 -->
 地方公共団体は、研修の目標、研修に関する計画の指針となるべき事項その他研修に関する基本的な方針を定めるものとする。
 
 ### 第三十九条第四項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-39-p4 -->
 人事委員会は、研修に関する計画の立案その他研修の方法について任命権者に勧告することができる。

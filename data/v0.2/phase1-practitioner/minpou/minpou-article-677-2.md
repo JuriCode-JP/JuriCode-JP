@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-677-2-p1
+    type: simple
+    text: 組合員は、その全員の同意によって、又は組合契約の定めるところにより、新たに組合員を加入させることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-677-2-p2
+    type: simple
+    text: 前項の規定により組合の成立後に加入した組合員は、その加入前に生じた組合の債務については、これを弁済する責任を負わない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

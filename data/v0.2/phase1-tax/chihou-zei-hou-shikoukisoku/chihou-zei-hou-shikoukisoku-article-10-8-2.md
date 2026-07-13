@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-10-8-2-p1
+    type: simple
+    text: 政令第五十一条の二の三第三号に規定する総務省令で定める施設は、飲食店、喫茶店及び物品販売施設並びに駐車施設とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第八十八条第一項
 
-<!-- segment: simple id: minpou-art-88-p1 -->
 物の用法に従い収取する産出物を天然果実とする。
 
 ### 第八十八条第二項
 
-<!-- segment: simple id: minpou-art-88-p2 -->
 物の使用の対価として受けるべき金銭その他の物を法定果実とする。

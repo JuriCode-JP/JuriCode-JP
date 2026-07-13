@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる取締役は、取締役会設置会社の業務を執行する。
     modality: unspecified
+  - id: kaisha-hou-art-363-p1-kou-1
+    type: kou
+    text: 代表取締役
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-363-p1-kou-2
+    type: kou
+    text: 代表取締役以外の取締役であって、取締役会の決議によって取締役会設置会社の業務を執行する取締役として選定されたもの
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -54,10 +64,12 @@ parent_section:
 
 ### 第三百六十三条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-363-p1-hashira -->
 次に掲げる取締役は、取締役会設置会社の業務を執行する。
+
+一　代表取締役
+
+二　代表取締役以外の取締役であって、取締役会の決議によって取締役会設置会社の業務を執行する取締役として選定されたもの
 
 ### 第三百六十三条第二項
 
-<!-- segment: simple id: kaisha-hou-art-363-p2 -->
 前項各号に掲げる取締役は、三箇月に一回以上、自己の職務の執行の状況を取締役会に報告しなければならない。

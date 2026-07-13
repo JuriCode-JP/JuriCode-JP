@@ -44,6 +44,26 @@ paragraphs:
     type: hashira
     text: 法第五十条の二第七項に規定する届出書には、次に掲げる事項を記載するものとする。
     modality: gimu
+  - id: kinsho-gyou-furei-art-205-p3-kou-1
+    type: kou
+    text: 商号、名称又は氏名
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-205-p3-kou-2
+    type: kou
+    text: 登録年月日及び登録番号
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-205-p3-kou-3
+    type: kou
+    text: 該当事由
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-gyou-furei-art-205-p3-kou-4
+    type: kou
+    text: 該当事由の発生予定年月日
+    modality: unspecified
+    item_number: 4
 - number: 4
   has_proviso: false
   has_items: false
@@ -73,21 +93,24 @@ parent_section:
 
 ### 第二百五条第一項
 
-<!-- segment: zen_dan id: kinsho-gyou-furei-art-205-p1-zen -->
-法第五十条の二第六項の規定による公告は、官報又は時事に関する事項を掲載する日刊新聞紙（金融商品取引業者等が法人である場合には、当該法人における公告の方法（公告の期間を含む。））により行うものとする。<!-- segment: kou_dan id: kinsho-gyou-furei-art-205-p1-kou depends_on: kinsho-gyou-furei-art-205-p1-zen -->
-この場合において、官報又は時事に関する事項を掲載する日刊新聞紙により行う金融商品取引業者等は、第七十一条第四項各号に掲げる場合を除き、法第五十条の二第六項の規定による掲示の内容を当該金融商品取引業者等のウェブサイトに掲載する方法により公衆の閲覧に供するものとする。
+法第五十条の二第六項の規定による公告は、官報又は時事に関する事項を掲載する日刊新聞紙（金融商品取引業者等が法人である場合には、当該法人における公告の方法（公告の期間を含む。））により行うものとする。この場合において、官報又は時事に関する事項を掲載する日刊新聞紙により行う金融商品取引業者等は、第七十一条第四項各号に掲げる場合を除き、法第五十条の二第六項の規定による掲示の内容を当該金融商品取引業者等のウェブサイトに掲載する方法により公衆の閲覧に供するものとする。
 
 ### 第二百五条第二項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-205-p2 -->
 法第五十条の二第六項の規定による公告及び営業所又は事務所での掲示には、同条第八項に規定する顧客取引の結了の方法並びに金融商品取引業等（投資助言・代理業を除く。）に関し顧客から預託を受けた財産及びその計算において当該金融商品取引業者等が占有する財産の返還の方法を示すものとする。
 
 ### 第二百五条第三項
 
-<!-- segment: hashira id: kinsho-gyou-furei-art-205-p3-hashira -->
 法第五十条の二第七項に規定する届出書には、次に掲げる事項を記載するものとする。
+
+一　商号、名称又は氏名
+
+二　登録年月日及び登録番号
+
+三　該当事由
+
+四　該当事由の発生予定年月日
 
 ### 第二百五条第四項
 
-<!-- segment: simple id: kinsho-gyou-furei-art-205-p4 -->
 前項の届出書には、第二項に規定する方法を記載した書面を添付するものとする。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-5-4-p1
+    type: simple
+    text: 申告納付又は申告納入に係る地方税の申告書が当該申告書の提出期限までに提出され、当該申告書の提出により納付し又は納入すべき額の確定した地方団体の徴収金で当該提出期限と同時に納期限の到来するものが、口座振替の方法により政令で定める日までに納付され又は納入された場合には、その納付又は納入の日が納期限後である場合においても、その納付又は納入は納期限においてされたものとみなして、延滞金に関する規定を適用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

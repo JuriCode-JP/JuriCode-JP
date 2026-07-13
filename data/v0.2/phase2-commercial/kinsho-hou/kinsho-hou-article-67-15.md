@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-15-p1-zen
+    type: zen_dan
+    text: 内閣総理大臣は、認可協会が第六十七条の十二第一号に係る同条に規定する規則に違反して第六十七条の十一第一項の規定による有価証券の登録又はその取消しを行おうとする場合又は行つた場合には、当該認可協会に対し、当該登録を行つた有価証券の登録の取消し又は当該登録の取消しを行つた有価証券の再登録その他当該違反を是正するために必要な措置をとることを命ずることができる。
+    modality: kanou_kenri
+  - id: kinsho-hou-art-67-15-p1-kou
+    type: kou_dan
+    text: この場合においては、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    depends_on: kinsho-hou-art-67-15-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-15-p2
+    type: simple
+    text: 前項の規定による処分に係る聴聞において行政手続法第十五条第一項の通知があつた場合における同法第三章第二節の規定の適用については、当該有価証券の発行者は、同項の通知を受けた者とみなす。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

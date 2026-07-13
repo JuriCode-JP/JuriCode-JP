@@ -52,10 +52,8 @@ parent_section:
 
 ### 第百六十四条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-164-p1 -->
 公職選挙法第十一条第一項又は第十一条の二の規定に該当する者は、副知事又は副市町村長となることができない。
 
 ### 第百六十四条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-164-p2 -->
 副知事又は副市町村長は、公職選挙法第十一条第一項の規定に該当するに至つたときは、その職を失う。

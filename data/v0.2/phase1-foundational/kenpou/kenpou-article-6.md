@@ -46,10 +46,8 @@ parent_section:
 
 ### 第六条第一項
 
-<!-- segment: simple id: kenpou-art-6-p1 -->
 天皇は、国会の指名に基いて、内閣総理大臣を任命する。
 
 ### 第六条第二項
 
-<!-- segment: simple id: kenpou-art-6-p2 -->
 天皇は、内閣の指名に基いて、最高裁判所の長たる裁判官を任命する。

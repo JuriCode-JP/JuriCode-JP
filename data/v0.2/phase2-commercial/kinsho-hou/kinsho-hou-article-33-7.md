@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-33-7-p1
+    type: simple
+    text: 第三十三条の規定は、内閣総理大臣が、銀行、協同組織金融機関その他政令で定める金融機関が総株主等の議決権の過半数を保有する者に、第二十九条の登録及び第三十条第一項の認可をすることを妨げるものではない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十九条第一項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-29-p1 -->
 期間を一年未満とする建物の賃貸借は、期間の定めがない建物の賃貸借とみなす。
 
 ### 第二十九条第二項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-29-p2 -->
 民法（明治二十九年法律第八十九号）第六百四条の規定は、建物の賃貸借については、適用しない。

@@ -16,27 +16,84 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-46-2-p1
+    type: simple
+    text: 特定法人である事業者（第九条第一項本文の規定により消費税を納める義務が免除される事業者を除く。）は、第四十二条、第四十三条、第四十五条若しくは前条又は国税通則法第十八条（期限後申告）若しくは第十九条（修正申告）の規定により、中間申告書若しくは確定申告書等若しくはこれらの申告書に係る修正申告書（同条第三項に規定する修正申告書をいう。第五十六条において同じ。）（以下この項及び第三項並びに次条第一項において「納税申告書等」という。）により行うこととされ、又はこれにこの法律（これに基づく命令を含む。）若しくは国税通則法第十八条第三項若しくは第十九条第四項の規定により納税申告書等に添付すべきものとされている書類（以下この項及び第三項において「添付書類」という。）を添付して行うこととされている課税資産の譲渡等及び特定課税仕入れに対する消費税の申告については、これらの規定にかかわらず、財務省令で定めるところにより、納税申告書等に記載すべきものとされている事項（第三項において「申告書記載事項」という。）又は添付書類に記載すべきものとされている事項（第三項において「添付書類記載事項」という。）を、財務省令で定めるところによりあらかじめ税務署長に届け出て行う電子情報処理組織（国税庁の使用に係る電子計算機（入出力装置を含む。以下この項及び第四項において同じ。）とその申告をする事業者の使用に係る電子計算機とを電気通信回線で接続した電子情報処理組織をいう。次条第一項及び第六項において同じ。）を使用する方法として財務省令で定める方法により提供することにより、行わなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-46-2-p2-hashira
+    type: hashira
+    text: 前項に規定する特定法人とは、次に掲げる事業者をいう。
+    modality: teigi
+    references:
+    - 前項
+  - id: shouhi-zei-hou-art-46-2-p2-kou-1
+    type: kou
+    text: 当該事業年度開始の時における資本金の額、出資の金額その他これらに類するものとして政令で定める金額が一億円を超える法人（法人税法第二条第四号（定義）に規定する外国法人を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: shouhi-zei-hou-art-46-2-p2-kou-2
+    type: kou
+    text: 保険業法（平成七年法律第百五号）第二条第五項（定義）に規定する相互会社
+    modality: unspecified
+    item_number: 2
+  - id: shouhi-zei-hou-art-46-2-p2-kou-3
+    type: kou
+    text: 投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十二項（定義）に規定する投資法人（第一号に掲げる法人を除く。）
+    modality: unspecified
+    item_number: 3
+  - id: shouhi-zei-hou-art-46-2-p2-kou-4
+    type: kou
+    text: 資産の流動化に関する法律（平成十年法律第百五号）第二条第三項（定義）に規定する特定目的会社（第一号に掲げる法人を除く。）
+    modality: unspecified
+    item_number: 4
+  - id: shouhi-zei-hou-art-46-2-p2-kou-5
+    type: kou
+    text: 国又は地方公共団体
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-46-2-p3
+    type: simple
+    text: 第一項の規定により行われた同項の申告については、申告書記載事項が記載された納税申告書等により、又はこれに添付書類記載事項が記載された添付書類を添付して行われたものとみなして、この法律（これに基づく命令を含む。）及び国税通則法（第百二十四条（書類提出者の氏名、住所及び番号の記載）を除く。）の規定その他政令で定める法令の規定を適用する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-46-2-p4
+    type: simple
+    text: 第一項の規定により行われた同項の申告は、同項の国税庁の使用に係る電子計算機に備えられたファイルへの記録がされた時に税務署長に到達したものとみなす。
+    modality: unspecified
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-46-2-p5
+    type: tokusoku
+    text: 第一項の場合において、国税通則法第百二十四条の規定による名称及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律（平成二十五年法律第二十七号）第二条第十六項（定義）に規定する法人番号をいう。）の記載については、第一項の事業者は、国税通則法第百二十四条の規定にかかわらず、当該記載に代えて、財務省令で定めるところにより、名称を明らかにする措置を講じなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第百二十四条
 cases: []
 amendments:
 - effective_date: '2020-04-01'
@@ -78,6 +135,16 @@ parent_section:
 ### 第四十六条の二第二項
 
 前項に規定する特定法人とは、次に掲げる事業者をいう。
+
+一　当該事業年度開始の時における資本金の額、出資の金額その他これらに類するものとして政令で定める金額が一億円を超える法人（法人税法第二条第四号（定義）に規定する外国法人を除く。）
+
+二　保険業法（平成七年法律第百五号）第二条第五項（定義）に規定する相互会社
+
+三　投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十二項（定義）に規定する投資法人（第一号に掲げる法人を除く。）
+
+四　資産の流動化に関する法律（平成十年法律第百五号）第二条第三項（定義）に規定する特定目的会社（第一号に掲げる法人を除く。）
+
+五　国又は地方公共団体
 
 ### 第四十六条の二第三項
 

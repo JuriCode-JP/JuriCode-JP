@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: houjin-zei-hou-shikoukisoku-art-28-10-p1
@@ -23,6 +23,16 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 同項
+  - id: houjin-zei-hou-shikoukisoku-art-28-10-p1-kou-1
+    type: kou
+    text: 当該内国法人の当該事業年度終了の時の法第六十九条第四項第一号（外国税額の控除）に規定する当該国外事業所等に帰せられる貸出債権の額について、第二十八条の六第一号に掲げる危険を勘案して計算した金額
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-28-10-p1-kou-2
+    type: kou
+    text: 貸出債権リスク額
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -54,10 +64,12 @@ parent_section:
 
 ### 第二十八条の十第一項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-28-10-p1 -->
 令第百四十一条の四第三項第一号ロ（国外事業所等に帰せられるべき資本に対応する負債の利子）に掲げる内国法人が同号ロ（１）又は（２）に掲げる金額を計算する場合において、信用リスク額（当該内国法人の各事業年度終了の時の総資産の額について第二十八条の六第一号（発生し得る危険の範囲）に掲げる危険を勘案して計算した金額をいう。以下この項において同じ。）の全リスク額（当該内国法人の当該事業年度に係る同項第一号ロ（２）に掲げる金額をいう。）に対する割合が百分の八十を超え、かつ、貸出債権リスク額（当該内国法人の当該事業年度終了の時の貸出債権の額について第二十八条の六第一号に掲げる危険を勘案して計算した金額をいう。第二号において同じ。）の当該信用リスク額に対する割合が百分の五十を超えるときは、同項第一号ロ（１）に掲げる金額は第一号に掲げる金額と、同項第一号ロ（２）に掲げる金額は第二号に掲げる金額とすることができる。
+
+一　当該内国法人の当該事業年度終了の時の法第六十九条第四項第一号（外国税額の控除）に規定する当該国外事業所等に帰せられる貸出債権の額について、第二十八条の六第一号に掲げる危険を勘案して計算した金額
+
+二　貸出債権リスク額
 
 ### 第二十八条の十第二項
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-28-10-p2 -->
 前項の規定の適用がある場合における令第百四十一条の四第四項及び第五項の規定の適用については、これらの規定に規定する危険勘案資産額には、前項各号に掲げる金額を含むものとする。

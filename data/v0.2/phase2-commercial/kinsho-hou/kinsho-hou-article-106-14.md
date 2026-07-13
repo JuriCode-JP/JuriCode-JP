@@ -13,30 +13,62 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-14-p1-honbun
+    type: honbun
+    text: 何人も、金融商品取引所持株会社の総株主の議決権の保有基準割合以上の数の対象議決権を取得し、又は保有してはならない。
+    modality: gimu_negative
+  - id: kinsho-hou-art-106-14-p1-tadashi
+    type: tadashi
+    text: ただし、認可金融商品取引業協会、金融商品取引所又は商品取引所が取得し、又は保有する場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-14-p2
+    type: simple
+    text: 前項本文の規定は、保有する対象議決権の数に増加がない場合その他の内閣府令で定める場合において、金融商品取引所持株会社の総株主の議決権の保有基準割合以上の数の対象議決権を取得し、又は保有することとなるときには、適用しない。
+    modality: jogai
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-14-p3
+    type: simple
+    text: 前項の場合において、金融商品取引所持株会社の総株主の議決権の保有基準割合以上の数の対象議決権を取得し、又は保有することとなつた者（以下この条において「特定保有者」という。）は、特定保有者になつた旨その他内閣府令で定める事項を、遅滞なく、内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-14-p4-honbun
+    type: honbun
+    text: 第二項の場合において、特定保有者は、特定保有者となつた日から三月以内に、金融商品取引所持株会社の保有基準割合未満の数の対象議決権の保有者となるために必要な措置をとらなければならない。
+    modality: gimu
+  - id: kinsho-hou-art-106-14-p4-tadashi
+    type: tadashi
+    text: ただし、当該特定保有者が地方公共団体等である場合であつて、当該地方公共団体等が第百六条の十七第一項の規定により内閣総理大臣の認可を受けたときは、この限りでない。
+    modality: jogai
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-14-p5
+    type: simple
+    text: 前各項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

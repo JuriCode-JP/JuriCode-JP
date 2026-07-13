@@ -50,10 +50,8 @@ parent_section:
 
 ### 第三十六条第一項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-36-p1 -->
 法第七十三条第四号に規定する政令で定めるものは、人の居住の用に供する家屋又は家屋のうち人の居住の用に供する部分で、別荘以外のものとする。
 
 ### 第三十六条第二項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-36-p2 -->
 前項に規定する別荘は、日常生活の用に供しないものとして総務省令で定める家屋又はその部分のうち専ら保養の用に供するものとする。

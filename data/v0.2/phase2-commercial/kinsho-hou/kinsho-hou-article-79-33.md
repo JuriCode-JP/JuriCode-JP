@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-33-p1
+    type: simple
+    text: 基金は、その主たる事務所の所在地において設立の登記をすることによつて成立する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-33-p2
+    type: simple
+    text: 基金は、前項の設立の登記をしたときは、遅滞なく、その旨を内閣総理大臣及び財務大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

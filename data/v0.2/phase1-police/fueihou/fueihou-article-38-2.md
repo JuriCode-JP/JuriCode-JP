@@ -13,30 +13,60 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-38-2-p1-honbun
+    type: honbun
+    text: 公安委員会は、少年の健全な育成に障害を及ぼす行為を防止するため必要があると認めるときは、この法律の施行に必要な限度において、少年指導委員に、第三十七条第二項各号に掲げる場所に立ち入らせることができる。
+    modality: kanou_kenri
+  - id: fueihou-art-38-2-p1-tadashi
+    type: tadashi
+    text: ただし、同項第一号、第二号又は第四号から第七号までに掲げる営業所に設けられている個室その他これに類する施設で客が在室するものについては、この限りでない。
+    modality: jogai
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-38-2-p2
+    type: simple
+    text: 公安委員会は、前項の規定による立入りをさせるときは、少年指導委員に対し、当該立入りの場所その他必要な事項を示してこれを実施すべきことを指示するものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-38-2-p3
+    type: simple
+    text: 少年指導委員は、前項の指示に従つて第一項の規定による立入りをしたときは、その結果を公安委員会に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-38-2-p4
+    type: simple
+    text: 第一項の規定による立入りをする少年指導委員は、その身分を示す証明書を携帯し、関係者に提示しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: fueihou-art-38-2-p5
+    type: simple
+    text: 第一項の規定による権限は、犯罪捜査のために認められたものと解してはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

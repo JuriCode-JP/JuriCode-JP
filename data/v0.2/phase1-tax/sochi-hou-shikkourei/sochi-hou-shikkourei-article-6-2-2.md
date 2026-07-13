@@ -16,27 +16,55 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-6-2-2-p1
+    type: simple
+    text: 法第十一条の四第一項に規定する政令で定めるものは、機械その他の減価償却資産のうち同項に規定する環境負荷の低減に著しく資するものとして農林水産大臣が定める基準に適合するものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-6-2-2-p2
+    type: simple
+    text: 法第十一条の四第一項に規定する政令で定める規模のものは、一の設備等（同項各号に規定する設備等をいう。）を構成する機械その他の減価償却資産の取得価額（所得税法施行令第百二十六条第一項各号の規定により計算した取得価額をいう。）の合計額が百万円以上のものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-6-2-2-p3
+    type: simple
+    text: 法第十一条の四第二項に規定する政令で定めるものは、機械その他の減価償却資産のうち同項に規定する環境負荷の低減を図るために行う取組の効果を著しく高めるものとして農林水産大臣が定める基準に適合するものとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-6-2-2-p4
+    type: simple
+    text: 個人が、その取得し、又は製作し、若しくは建設した機械その他の減価償却資産（以下この項において「機械等」という。）につき法第十一条の四第二項の規定の適用を受ける場合には、当該機械等につき同項の規定の適用を受ける年分の確定申告書に当該機械等が同項に規定する基盤確立事業用資産に該当するものであることを証する財務省令で定める書類を添付しなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-6-2-2-p5
+    type: simple
+    text: 農林水産大臣は、第一項又は第三項の規定により基準を定めたときは、これを告示する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

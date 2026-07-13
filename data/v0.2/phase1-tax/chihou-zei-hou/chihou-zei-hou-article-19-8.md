@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-19-8-p1
+    type: simple
+    text: 国税徴収法第五十八条第二項の規定の例による引渡しの命令を受けた第三者が、その命令に係る財産が滞納者の所有に属していないことを理由として、その命令につき審査請求をしたときは、その審査請求の係属する間は、当該財産の搬出をすることができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

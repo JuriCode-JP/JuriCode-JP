@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-3-p1
+    type: simple
+    text: 第二十九条の登録を受けようとする者が第二種金融商品取引業のうち第二種少額電子募集取扱業務のみを行おうとする場合における第二種少額電子募集取扱業務についての第二十九条の二第一項第六号の規定の適用については、同号中「その旨」とあるのは、「その旨（第二種金融商品取引業のうち第二十九条の四の三第三項に規定する第二種少額電子募集取扱業務のみを行う場合にあつては、その旨を含む。）」とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-3-p2
+    type: simple
+    text: 第三十六条の二第一項の規定は、第二種少額電子募集取扱業者（登録申請書に第二種金融商品取引業のうち第二種少額電子募集取扱業務のみを行う旨を記載して第二十九条の登録又は第三十一条第四項の変更登録を受けた者をいう。）が第二種少額電子募集取扱業務を行う場合については、適用しない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-29-4-3-p3
+    type: simple
+    text: 前二項の「第二種少額電子募集取扱業務」とは、電子募集取扱業務のうち、有価証券（第二条第二項の規定により有価証券とみなされる同項第五号又は第六号に掲げる権利（電子記録移転権利に該当するものを除く。）であつて、第三条第三号に掲げるもの又は金融商品取引所に上場されていないものに限り、政令で定めるものを除く。以下この項において同じ。）の募集の取扱い又は私募の取扱いであつて、当該有価証券の発行価額の総額及び当該有価証券を取得する者が払い込む額が少額であるものとして政令で定める要件を満たすものをいう。
+    modality: teigi
+    references:
+    - 同項
+    - 前二項
 cases: []
 amendments: []
 tags:

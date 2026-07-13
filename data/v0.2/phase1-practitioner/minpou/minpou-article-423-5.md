@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-423-5-p1-zen
+    type: zen_dan
+    text: 債権者が被代位権利を行使した場合であっても、債務者は、被代位権利について、自ら取立てその他の処分をすることを妨げられない。
+    modality: unspecified
+  - id: minpou-art-423-5-p1-kou
+    type: kou_dan
+    text: この場合においては、相手方も、被代位権利について、債務者に対して履行をすることを妨げられない。
+    modality: unspecified
+    depends_on: minpou-art-423-5-p1-zen
 cases: []
 amendments: []
 tags:

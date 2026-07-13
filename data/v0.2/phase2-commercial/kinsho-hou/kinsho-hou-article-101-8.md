@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-101-8-p1
+    type: simple
+    text: 組織変更に際して資本準備金として計上すべき額その他組織変更に際しての計算に関し必要な事項は、内閣府令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

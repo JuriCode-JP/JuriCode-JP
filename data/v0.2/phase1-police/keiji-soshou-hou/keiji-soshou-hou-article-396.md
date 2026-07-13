@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百九十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-396-p1 -->
 第三百七十七条乃至第三百八十二条及び第三百八十三条に規定する事由がないときは、判決で控訴を棄却しなければならない。

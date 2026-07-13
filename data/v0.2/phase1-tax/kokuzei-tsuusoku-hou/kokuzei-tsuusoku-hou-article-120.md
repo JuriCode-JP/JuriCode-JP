@@ -64,20 +64,16 @@ parent_section:
 
 ### 第百二十条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-120-p1 -->
 還付金等の額に一円未満の端数があるときは、その端数金額を切り捨てる。
 
 ### 第百二十条第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-120-p2 -->
 還付金等の額が一円未満であるときは、その額を一円として計算する。
 
 ### 第百二十条第三項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-120-p3 -->
 還付加算金の確定金額に百円未満の端数があるとき、又はその全額が千円未満であるときは、その端数金額又はその全額を切り捨てる。
 
 ### 第百二十条第四項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-120-p4 -->
 還付加算金の額を計算する場合において、その計算の基礎となる還付金等の額に一万円未満の端数があるとき、又はその還付金等の額の全額が一万円未満であるときは、その端数金額又はその全額を切り捨てる。

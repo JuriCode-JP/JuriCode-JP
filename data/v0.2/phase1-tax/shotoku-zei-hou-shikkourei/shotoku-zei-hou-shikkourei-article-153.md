@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第五十四条第一項（退職給与引当金）に規定する政令で定める退職給与規程は、次に掲げる規程とする。
     modality: gimu
+  - id: shotoku-zei-hou-shikkourei-art-153-p1-kou-1
+    type: kou
+    text: 労働協約により定められる退職給与の支給に関する規程
+    modality: unspecified
+    item_number: 1
+  - id: shotoku-zei-hou-shikkourei-art-153-p1-kou-2
+    type: kou
+    text: 労働基準法第八十九条（就業規則の作成及び届出の義務）又は船員法第九十七条第二項（就業規則の作成及び届出）の規定により行政官庁に届け出られた就業規則により定められる退職給与の支給に関する規程
+    modality: unspecified
+    item_number: 2
+  - id: shotoku-zei-hou-shikkourei-art-153-p1-kou-3
+    type: kou
+    text: 労働基準法第八十九条又は船員法第九十七条の規定の適用を受けない居住者がその作成した退職給与の支給に関する規程をあらかじめ納税地の所轄税務署長に届け出た場合における当該規程
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -45,5 +60,10 @@ parent_section:
 
 ### 第百五十三条
 
-<!-- segment: hashira id: shotoku-zei-hou-shikkourei-art-153-p1-hashira -->
 法第五十四条第一項（退職給与引当金）に規定する政令で定める退職給与規程は、次に掲げる規程とする。
+
+一　労働協約により定められる退職給与の支給に関する規程
+
+二　労働基準法第八十九条（就業規則の作成及び届出の義務）又は船員法第九十七条第二項（就業規則の作成及び届出）の規定により行政官庁に届け出られた就業規則により定められる退職給与の支給に関する規程
+
+三　労働基準法第八十九条又は船員法第九十七条の規定の適用を受けない居住者がその作成した退職給与の支給に関する規程をあらかじめ納税地の所轄税務署長に届け出た場合における当該規程

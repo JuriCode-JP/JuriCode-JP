@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-11-p1
+    type: simple
+    text: 再生医療等製品の販売業者は、その営業所において第百九十六条の四第二号又は第三号に規定する業務に従事した者から、その業務に従事したことの証明を求められたときは、速やかにその証明を行わなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-196-11-p2
+    type: simple
+    text: 前項の場合において、再生医療等製品の販売業者は、虚偽又は不正の証明を行つてはならない。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

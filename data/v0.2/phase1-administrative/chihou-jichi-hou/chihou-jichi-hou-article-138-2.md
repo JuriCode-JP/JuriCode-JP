@@ -16,22 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-2-p1
+    type: simple
+    text: 議会等に対して行われる通知のうちこの章（第百条第十五項を除く。）の規定において文書その他の人の知覚によつて認識することができる情報が記載された紙その他の有体物（次項において「文書等」という。）により行うことが規定されているもの（情報通信技術を活用した行政の推進等に関する法律（平成十四年法律第百五十一号）第七条第一項の規定が適用されるものを除く。）については、当該通知に関するこの章の規定にかかわらず、総務省令で定めるところにより、総務省令で定める電子情報処理組織（議会等の使用に係る電子計算機（入出力装置を含む。以下この項及び第四項において同じ。）とその通知の相手方の使用に係る電子計算機とを電気通信回線で接続した電子情報処理組織をいう。以下この条において同じ。）を使用する方法により行うことができる。
+    modality: kanou_kenri
+    references:
+    - 次項
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-2-p2-honbun
+    type: honbun
+    text: 議会等が行う通知のうちこの章（第百二十三条第四項を除く。）の規定において文書等により行うことが規定されているもの（情報通信技術を活用した行政の推進等に関する法律第六条第一項の規定が適用されるものを除く。）については、当該通知に関するこの章の規定にかかわらず、総務省令で定めるところにより、総務省令で定める電子情報処理組織を使用する方法により行うことができる。
+    modality: kanou_kenri
+  - id: chihou-jichi-hou-art-138-2-p2-tadashi
+    type: tadashi
+    text: ただし、当該通知のうち第九十九条の規定によるもの以外のものにあつては、当該通知を受ける者が当該電子情報処理組織を使用する方法により受ける旨の総務省令で定める方式による表示をする場合に限る。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-2-p3
+    type: simple
+    text: 前二項の電子情報処理組織を使用する方法により行われた通知については、当該通知に関するこの章の規定に規定する方法により行われたものとみなして、この法律その他の当該通知に関する法令の規定を適用する。
+    modality: unspecified
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-2-p4
+    type: simple
+    text: 第一項又は第二項の電子情報処理組織を使用する方法により行われた通知は、当該通知を受ける者の使用に係る電子計算機に備えられたファイルへの記録がされた時に当該者に到達したものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

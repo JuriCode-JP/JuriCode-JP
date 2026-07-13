@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-4-p1
+    type: simple
+    text: 外国において本邦に輸出される医療機器又は体外診断用医薬品を製造しようとする者（以下「医療機器等外国製造業者」という。）は、製造所ごとに、厚生労働大臣の登録を受けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-4-p2
+    type: simple
+    text: 前項の登録については、前条第二項（第一号、第二号及び第六号に係る部分に限る。）、第三項及び第四項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

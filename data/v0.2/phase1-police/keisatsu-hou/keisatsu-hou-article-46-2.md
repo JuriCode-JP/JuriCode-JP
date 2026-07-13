@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keisatsu-hou-art-46-2-p1
+    type: simple
+    text: 新たに指定市の指定があつた場合における当該指定市を包括する県の県公安委員会の第三十九条第一項ただし書に規定する委員が最初に任命されるまでの間の委員の数及びその最初に任命される委員の任期に関する本節の規定の適用の特例については、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

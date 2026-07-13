@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-36-4-p1
+    type: simple
+    text: 勧誘者は、重要な事項について虚偽の記載若しくは記録があり、又は記載若しくは記録すべき重要な事項若しくは誤解を生じさせないために必要な重要な事実の記載若しくは記録が欠けている委任状の用紙、参考書類その他の書類又は電磁的記録（第三十六条の六第一項において「委任状の用紙等」という。）を利用して、議決権の代理行使の勧誘を行つてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

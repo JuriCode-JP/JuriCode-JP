@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十五条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-shikkourei-art-35-p1 -->
 担当審判官は、法第九十七条の二第二項（審理手続の計画的遂行）の規定による意見の聴取を行う場合には、通話者及び通話先の場所の確認をしなければならない。

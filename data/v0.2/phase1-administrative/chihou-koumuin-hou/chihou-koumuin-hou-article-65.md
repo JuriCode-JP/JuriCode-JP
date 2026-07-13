@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十五条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-65-p1 -->
 第三十八条の六第二項の条例には、これに違反した者に対し、十万円以下の過料を科する旨の規定を設けることができる。

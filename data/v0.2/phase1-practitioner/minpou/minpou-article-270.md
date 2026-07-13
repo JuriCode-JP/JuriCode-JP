@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百七十条
 
-<!-- segment: simple id: minpou-art-270-p1 -->
 永小作人は、小作料を支払って他人の土地において耕作又は牧畜をする権利を有する。

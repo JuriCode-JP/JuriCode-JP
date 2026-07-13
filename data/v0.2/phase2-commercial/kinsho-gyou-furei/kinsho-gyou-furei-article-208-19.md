@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-19-p1-hashira
+    type: hashira
+    text: 法第五十七条の十三第一項第七号に規定する内閣府令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-208-19-p1-kou-1
+    type: kou
+    text: 事業の内容
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-208-19-p1-kou-2
+    type: kou
+    text: 当該指定親会社が保有する対象特別金融商品取引業者の議決権の数が、当該対象特別金融商品取引業者の総株主等の議決権の数に占める割合
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-208-19-p1-kou-3
+    type: kou
+    text: 当該指定親会社及びその一の対象特別金融商品取引業者以外の子法人等が保有する当該一の対象特別金融商品取引業者の議決権の数が、当該一の対象特別金融商品取引業者の総株主等の議決権の数に占める割合
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -38,3 +57,9 @@ parent_section:
 ### 第二百八条の十九
 
 法第五十七条の十三第一項第七号に規定する内閣府令で定める事項は、次に掲げる事項とする。
+
+一　事業の内容
+
+二　当該指定親会社が保有する対象特別金融商品取引業者の議決権の数が、当該対象特別金融商品取引業者の総株主等の議決権の数に占める割合
+
+三　当該指定親会社及びその一の対象特別金融商品取引業者以外の子法人等が保有する当該一の対象特別金融商品取引業者の議決権の数が、当該一の対象特別金融商品取引業者の総株主等の議決権の数に占める割合

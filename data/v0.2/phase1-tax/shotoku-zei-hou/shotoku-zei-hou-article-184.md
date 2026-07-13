@@ -46,5 +46,4 @@ parent_section:
 
 ### 第百八十四条
 
-<!-- segment: tokusoku id: shotoku-zei-hou-art-184-p1 override_flag: true override_target: 前条 -->
 常時二人以下の家事使用人のみに対し給与等の支払をする者は、前条の規定にかかわらず、その給与等について所得税を徴収して納付することを要しない。

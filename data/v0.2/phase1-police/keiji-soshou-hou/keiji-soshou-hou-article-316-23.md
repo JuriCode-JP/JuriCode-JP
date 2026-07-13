@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-23-p1
+    type: simple
+    text: 第二百九十九条の二及び第二百九十九条の三の規定は、検察官又は弁護人がこの目の規定による証拠の開示をする場合についてこれを準用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-23-p2
+    type: simple
+    text: 第二百九十九条の四の規定は、検察官が第三百十六条の十四第一項（第三百十六条の二十一第四項において準用する場合を含む。）の規定による証拠の開示をすべき場合についてこれを準用する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-23-p3
+    type: simple
+    text: 第二百九十九条の五から第二百九十九条の七までの規定は、検察官が前項において準用する第二百九十九条の四第一項から第十項までの規定による措置をとつた場合についてこれを準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

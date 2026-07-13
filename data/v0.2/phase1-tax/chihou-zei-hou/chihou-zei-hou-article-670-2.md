@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-670-2-p1
+    type: simple
+    text: 総務大臣は、第六百六十九条第一項の同意については、地方財政審議会の意見を聴かなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

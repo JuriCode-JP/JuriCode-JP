@@ -16,17 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-2-p1
+    type: simple
+    text: 公安委員会が自動車の使用者に対し次の表の上欄に掲げる指示をした場合において、当該使用者に係る当該自動車につきその指示を受けた後一年以内にその指示の区分ごとに同表の下欄に掲げる違反行為が行われ、かつ、当該使用者が当該自動車を使用することについて著しく交通の危険を生じさせるおそれがあると認めるときは、当該自動車の使用の本拠の位置を管轄する公安委員会は、政令で定める基準に従い、当該使用者に対し、三月を超えない範囲内で期間を定めて、当該自動車を運転し、又は運転させてはならない旨を命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-2-p2
+    type: simple
+    text: 公安委員会が第五十一条の四第一項の規定により標章が取り付けられた車両の使用者に対し納付命令をした場合において、当該使用者が当該標章が取り付けられた日前六月以内に当該車両が原因となつた納付命令（同条第十六項の規定により取り消されたものを除く。）を受けたことがあり、かつ、当該使用者が当該車両を使用することについて著しく交通の危険を生じさせ又は著しく交通の妨害となるおそれがあると認めるときは、当該車両の使用の本拠の位置を管轄する公安委員会は、政令で定める基準に従い、当該使用者に対し、三月を超えない範囲内で期間を定めて、当該車両を運転し、又は運転させてはならない旨を命ずることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-2-p3
+    type: junyou
+    text: 前条第三項から第十一項までの規定は、前二項の規定による命令について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前二項
 cases: []
 amendments: []
 tags:
@@ -60,3 +75,5 @@ parent_section:
 ### 第七十五条の二第三項
 
 前条第三項から第十一項までの規定は、前二項の規定による命令について準用する。
+
+（罰則　第一項及び第二項については第百十九条第二項第五号、第百二十三条　第三項については第百二十一条第一項第十号）

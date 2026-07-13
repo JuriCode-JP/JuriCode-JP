@@ -68,16 +68,12 @@ parent_section:
 
 ### 第七十六条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-76-p1 -->
 ゴルフ場利用税の標準税率は、一人一日につき八百円とする。
 
 ### 第七十六条第二項
 
-<!-- segment: simple id: chihou-zei-hou-art-76-p2 -->
 道府県は、前項に定める標準税率を超える税率でゴルフ場利用税を課する場合には、千二百円を超える税率で課することができない。
 
 ### 第七十六条第三項
 
-<!-- segment: zen_dan id: chihou-zei-hou-art-76-p3-zen -->
-道府県は、ゴルフ場の整備の状況等に応じて、ゴルフ場利用税の税率に差等を設けることができる。<!-- segment: kou_dan id: chihou-zei-hou-art-76-p3-kou depends_on: chihou-zei-hou-art-76-p3-zen -->
-この場合においては、前項の規定を準用する。
+道府県は、ゴルフ場の整備の状況等に応じて、ゴルフ場利用税の税率に差等を設けることができる。この場合においては、前項の規定を準用する。

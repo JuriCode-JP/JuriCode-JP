@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百八十九条第一項
 
-<!-- segment: simple id: minpou-art-189-p1 -->
 善意の占有者は、占有物から生ずる果実を取得する。
 
 ### 第百八十九条第二項
 
-<!-- segment: simple id: minpou-art-189-p2 -->
 善意の占有者が本権の訴えにおいて敗訴したときは、その訴えの提起の時から悪意の占有者とみなす。

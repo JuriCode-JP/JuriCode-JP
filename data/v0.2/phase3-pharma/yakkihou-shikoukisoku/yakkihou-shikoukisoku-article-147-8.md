@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-147-8-p1
+    type: simple
+    text: 店舗販売業者は、指定第二類医薬品を販売し、又は授与する場合は、当該指定第二類医薬品を購入し、又は譲り受けようとする者が別表第一の二第二の七に掲げる事項を確実に認識できるようにするために必要な措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

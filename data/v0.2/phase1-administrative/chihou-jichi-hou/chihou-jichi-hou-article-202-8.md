@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-202-8-p1
+    type: simple
+    text: この法律に定めるもののほか、地域協議会の構成員の定数その他の地域協議会の組織及び運営に関し必要な事項は、条例で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

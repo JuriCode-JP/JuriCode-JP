@@ -38,6 +38,16 @@ paragraphs:
     modality: unspecified
     references:
     - 前項
+  - id: gyousei-fufuku-shinsa-hou-art-46-p2-kou-1
+    type: kou
+    text: 処分庁の上級行政庁である審査庁　当該処分庁に対し、当該処分をすべき旨を命ずること。
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-fufuku-shinsa-hou-art-46-p2-kou-2
+    type: kou
+    text: 処分庁である審査庁　当該処分をすること。
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -79,21 +89,20 @@ parent_section:
 
 ### 第四十六条第一項
 
-<!-- segment: honbun id: gyousei-fufuku-shinsa-hou-art-46-p1-honbun -->
-処分（事実上の行為を除く。以下この条及び第四十八条において同じ。）についての審査請求が理由がある場合（前条第三項の規定の適用がある場合を除く。）には、審査庁は、裁決で、当該処分の全部若しくは一部を取り消し、又はこれを変更する。<!-- segment: tadashi id: gyousei-fufuku-shinsa-hou-art-46-p1-tadashi -->
-ただし、審査庁が処分庁の上級行政庁又は処分庁のいずれでもない場合には、当該処分を変更することはできない。
+処分（事実上の行為を除く。以下この条及び第四十八条において同じ。）についての審査請求が理由がある場合（前条第三項の規定の適用がある場合を除く。）には、審査庁は、裁決で、当該処分の全部若しくは一部を取り消し、又はこれを変更する。ただし、審査庁が処分庁の上級行政庁又は処分庁のいずれでもない場合には、当該処分を変更することはできない。
 
 ### 第四十六条第二項
 
-<!-- segment: hashira id: gyousei-fufuku-shinsa-hou-art-46-p2-hashira -->
 前項の規定により法令に基づく申請を却下し、又は棄却する処分の全部又は一部を取り消す場合において、次の各号に掲げる審査庁は、当該申請に対して一定の処分をすべきものと認めるときは、当該各号に定める措置をとる。
+
+一　処分庁の上級行政庁である審査庁　当該処分庁に対し、当該処分をすべき旨を命ずること。
+
+二　処分庁である審査庁　当該処分をすること。
 
 ### 第四十六条第三項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-46-p3 -->
 前項に規定する一定の処分に関し、第四十三条第一項第一号に規定する議を経るべき旨の定めがある場合において、審査庁が前項各号に定める措置をとるために必要があると認めるときは、審査庁は、当該定めに係る審議会等の議を経ることができる。
 
 ### 第四十六条第四項
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-46-p4 -->
 前項に規定する定めがある場合のほか、第二項に規定する一定の処分に関し、他の法令に関係行政機関との協議の実施その他の手続をとるべき旨の定めがある場合において、審査庁が同項各号に定める措置をとるために必要があると認めるときは、審査庁は、当該手続をとることができる。

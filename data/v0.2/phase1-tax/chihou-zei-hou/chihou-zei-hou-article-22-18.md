@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-18-p1
+    type: simple
+    text: 当該徴税吏員は、第二十二条の八の規定により電磁的記録を移転し、又は移転させた上差し押さえた記録媒体について留置の必要がなくなつた場合において、差押えを受けた者と当該記録媒体の所有者、所持者又は保管者とが異なるときは、当該差押えを受けた者に対し、当該記録媒体を交付し、又は当該電磁的記録の複写を許さなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-18-p2
+    type: junyou
+    text: 前条第二項の規定は、前項の規定による交付又は複写について準用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-18-p3
+    type: simple
+    text: 前項において準用する前条第二項の規定による公告の日から六月を経過しても第一項の規定による交付又は複写の請求がないときは、その交付をし、又は複写をさせることを要しない。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

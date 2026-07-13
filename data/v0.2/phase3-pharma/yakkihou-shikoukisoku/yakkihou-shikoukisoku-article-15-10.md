@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-15-10-p1
+    type: simple
+    text: 薬局開設者は、自ら視覚、聴覚若しくは音声機能若しくは言語機能に障害を有する薬剤師若しくは登録販売者であるとき、又はその薬局において薬事に関する実務に従事する薬剤師若しくは登録販売者が視覚、聴覚若しくは音声機能若しくは言語機能に障害を有するときは、保健衛生上支障を生ずるおそれがないように、必要な設備の設置その他の措置を講じなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

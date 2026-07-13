@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-p1
+    type: simple
+    text: 第七十二条の二十六第一項ただし書の規定による申告書に虚偽の記載をして提出した場合においては、法人の代表者（法人課税信託の受託者である個人を含む。）、代理人、使用人その他の従業者でその違反行為をした者は、一年以下の拘禁刑又は五十万円以下の罰金に処する。
+    modality: gimu_kei
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-38-p2
+    type: simple
+    text: 法人の代表者又は代理人、使用人その他の従業者が、その法人の業務又は財産に関して、前項の違反行為をしたときは、その行為者を罰するほか、その法人に対し、同項の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

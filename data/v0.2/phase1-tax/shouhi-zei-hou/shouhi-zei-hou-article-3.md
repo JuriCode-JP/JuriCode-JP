@@ -41,5 +41,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: simple id: shouhi-zei-hou-art-3-p1 -->
 人格のない社団等は、法人とみなして、この法律（第十二条の二及び第四十六条の二並びに別表第三を除く。）の規定を適用する。

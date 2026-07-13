@@ -13,20 +13,43 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-27-p1-honbun
+    type: honbun
+    text: 免税軽油使用者証の交付を受けた者（第百四十四条の二十一第二項後段の規定により二人以上の者が代表者を定めて免税軽油使用者証の交付を受けた場合にあつては、それぞれの者。以下この項及び次項において同じ。）は、毎月末日までに（次項の規定により異なる提出期限が定められている場合には、当該期限までに）、前月の初日から末日までの間に行つた当該免税軽油使用者証に係る報告対象免税軽油（免税軽油使用者証を提示して交付を受けた免税証により引取りを行つた免税軽油をいう。以下この項及び次項において同じ。）の引取りに関する事実及びその数量（その事実がない場合には、その旨）、当該報告対象免税軽油の引渡しを行つた販売業者の事務所又は事業所所在地及び氏名又は名称、当該販売業者に提出した当該免税軽油使用者証を提示して交付を受けた免税証に関する事項並びに前月の初日から末日までの間に行つた当該免税軽油使用者証に係る報告対象免税軽油の使用に関する事実及びその数量（その事実がない場合には、その旨）その他の総務省令で定める事項を記載した報告書を、当該免税軽油使用者証を交付した道府県知事に提出しなければならない。
+    modality: gimu
+    references:
+    - 次項
+  - id: chihou-zei-hou-art-144-27-p1-tadashi
+    type: tadashi
+    text: ただし、前月の初日から末日までの間を通じて、当該免税軽油使用者証の交付を受けた者が当該免税軽油使用者証を提示して交付を受けた免税証を有せず、かつ、当該免税軽油使用者証に係る報告対象免税軽油を保有していない場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-27-p2
+    type: simple
+    text: 道府県は、引取りを行う当該免税軽油使用者証に係る報告対象免税軽油の数量が少量であることその他の特別の事情があると認められる免税軽油使用者証の交付を受けた者については、前項の報告書の提出の期限について、当該道府県の条例で同項に規定する期限と異なる期限を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-27-p3
+    type: simple
+    text: 前二項に定めるもののほか、第一項の規定による報告に関し必要な事項は、総務省令で定める。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

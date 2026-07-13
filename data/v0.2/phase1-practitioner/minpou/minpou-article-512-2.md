@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-512-2-p1
+    type: simple
+    text: 債権者が債務者に対して有する債権に、一個の債権の弁済として数個の給付をすべきものがある場合における相殺については、前条の規定を準用する。債権者が債務者に対して負担する債務に、一個の債務の弁済として数個の給付をすべきものがある場合における相殺についても、同様とする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

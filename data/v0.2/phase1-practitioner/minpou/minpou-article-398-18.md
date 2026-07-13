@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-18-p1
+    type: simple
+    text: 数個の不動産につき根抵当権を有する者は、第三百九十八条の十六の場合を除き、各不動産の代価について、各極度額に至るまで優先権を行使することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

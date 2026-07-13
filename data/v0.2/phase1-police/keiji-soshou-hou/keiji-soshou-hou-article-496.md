@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四百九十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-496-p1 -->
 没収物は、検察官がこれを処分しなければならない。

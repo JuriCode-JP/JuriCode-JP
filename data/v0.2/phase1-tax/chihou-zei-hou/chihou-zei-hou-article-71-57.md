@@ -16,22 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-57-p1
+    type: simple
+    text: 第七十一条の五十一第二項の規定により徴収して納入すべき株式等譲渡所得割の納入金の全部又は一部を納入しなかつたときは、その違反行為をした者は、十年以下の拘禁刑若しくは二百万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-57-p2
+    type: tokusoku
+    text: 前項の納入しなかつた金額が二百万円を超える場合には、情状により、同項の罰金の額は、同項の規定にかかわらず、二百万円を超える額でその納入しなかつた金額に相当する額以下の額とすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-57-p3
+    type: simple
+    text: 法人の代表者又は代理人、使用人その他の従業者が、その法人の業務又は財産に関して第一項の違反行為をした場合には、その行為者を罰するほか、その法人に対し、同項の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-57-p4
+    type: simple
+    text: 前項の規定により第一項の違反行為につき法人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

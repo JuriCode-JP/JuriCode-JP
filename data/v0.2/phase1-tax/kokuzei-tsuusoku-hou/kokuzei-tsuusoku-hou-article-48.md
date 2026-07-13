@@ -75,13 +75,10 @@ parent_section:
 
 ### 第四十八条第一項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-48-p1 -->
 税務署長等は、納税の猶予をしたときは、その猶予期間内は、その猶予に係る金額に相当する国税につき、新たに督促及び滞納処分（交付要求を除く。）をすることができない。
 
 ### 第四十八条第二項
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-48-p2 -->
-<!-- segment: tokusoku id: kokuzei-tsuusoku-hou-art-48-p3 override_flag: true override_target: 第一項 -->
 税務署長等は、納税の猶予をした場合において、その猶予に係る国税につき既に滞納処分により差し押さえた財産があるときは、その猶予を受けた者の申請に基づき、その差押えを解除することができる。
 
 ### 第四十八条第三項
@@ -90,5 +87,4 @@ parent_section:
 
 ### 第四十八条第四項
 
-<!-- segment: tokusoku id: kokuzei-tsuusoku-hou-art-48-p4 override_flag: true override_target: 第一項 -->
 前項の場合において、同項の第三債務者等から給付を受けた財産のうちに金銭があるときは、第一項の規定にかかわらず、当該金銭をその猶予に係る国税に充てることができる。

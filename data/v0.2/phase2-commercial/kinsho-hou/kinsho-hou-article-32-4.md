@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-32-4-p1
+    type: junyou
+    text: 第三十二条第一項及び第二項、第三十二条の二第一項並びに前条第一項の規定は、金融商品取引業者を子会社（第二十九条の四第四項に規定する子会社をいう。）とする持株会社（第二十九条の四第三項に規定する持株会社をいう。以下同じ。）の株主又は出資者について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

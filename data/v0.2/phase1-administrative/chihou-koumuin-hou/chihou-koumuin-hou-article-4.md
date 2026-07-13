@@ -46,10 +46,8 @@ parent_section:
 
 ### 第四条第一項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-4-p1 -->
 この法律の規定は、一般職に属するすべての地方公務員（以下「職員」という。）に適用する。
 
 ### 第四条第二項
 
-<!-- segment: simple id: chihou-koumuin-hou-art-4-p2 -->
 この法律の規定は、法律に特別の定がある場合を除く外、特別職に属する地方公務員には適用しない。

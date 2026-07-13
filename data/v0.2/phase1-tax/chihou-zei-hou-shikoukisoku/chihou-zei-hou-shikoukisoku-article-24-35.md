@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 法第七百十八条の五第一項の規定による市町村から年金保険者への通知は、次に掲げる事項について行うものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-24-35-p1-kou-1
+    type: kou
+    text: 当該通知に係る特別徴収対象被保険者の氏名、性別、生年月日及び住所
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-24-35-p1-kou-2
+    type: kou
+    text: 当該特別徴収対象被保険者について特別徴収を行わないこととする旨及びその理由
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-24-35-p1-kou-3
+    type: kou
+    text: 特別徴収対象年金給付の種類及び年金保険者の名称
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,5 +49,10 @@ tags:
 
 ### 第二十四条の三十五
 
-<!-- segment: hashira id: chihou-zei-hou-shikoukisoku-art-24-35-p1-hashira -->
 法第七百十八条の五第一項の規定による市町村から年金保険者への通知は、次に掲げる事項について行うものとする。
+
+一　当該通知に係る特別徴収対象被保険者の氏名、性別、生年月日及び住所
+
+二　当該特別徴収対象被保険者について特別徴収を行わないこととする旨及びその理由
+
+三　特別徴収対象年金給付の種類及び年金保険者の名称

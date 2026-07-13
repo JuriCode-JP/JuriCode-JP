@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-75-p1
+    type: simple
+    text: 取引情報蓄積機関は、特定の金融商品取引清算機関等又は金融商品取引業者等に対し不当な差別的取扱いをしてはならない。
+    modality: gimu_negative
 cases: []
 amendments: []
 tags:

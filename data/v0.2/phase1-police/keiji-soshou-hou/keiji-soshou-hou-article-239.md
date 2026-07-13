@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二百三十九条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-239-p1 -->
 何人でも、犯罪があると思料するときは、告発をすることができる。
 
 ### 第二百三十九条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-239-p2 -->
 官吏又は公吏は、その職務を行うことにより犯罪があると思料するときは、告発をしなければならない。

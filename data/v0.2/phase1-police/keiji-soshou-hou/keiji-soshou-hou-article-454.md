@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百五十四条
 
-<!-- segment: simple id: keiji-soshou-hou-art-454-p1 -->
 検事総長は、判決が確定した後その事件の審判が法令に違反したことを発見したときは、最高裁判所に非常上告をすることができる。

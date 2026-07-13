@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-9-8-p1
+    type: simple
+    text: 法第七十三条の四第一項第三十五号に規定する独立行政法人日本学生支援機構が独立行政法人日本学生支援機構法（平成十五年法律第九十四号）第十三条第一項第三号に規定する業務の用に供する不動産で政令で定めるものは、同号に規定する外国人留学生の寄宿舎の用に供する不動産で、当該外国人留学生の生活の向上に資すると認められるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

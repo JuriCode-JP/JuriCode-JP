@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-7-p1
+    type: simple
+    text: 自転車は、前条に規定するもののほか、交差点を通行しようとする場合において、当該交差点又はその付近に自転車横断帯があるときは、第十七条第四項、第三十四条第一項及び第三項並びに第三十五条の二の規定にかかわらず、当該自転車横断帯を進行しなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-63-7-p2
+    type: simple
+    text: 普通自転車は、交差点又はその手前の直近において、当該交差点への進入の禁止を表示する道路標示があるときは、当該道路標示を越えて当該交差点に入つてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

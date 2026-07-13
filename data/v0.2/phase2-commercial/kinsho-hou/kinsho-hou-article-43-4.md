@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-43-4-p1
+    type: simple
+    text: 金融商品取引業者等は、顧客の計算において自己が占有する有価証券又は顧客から預託を受けた有価証券を担保に供する場合又は他人に貸し付ける場合には、内閣府令で定めるところにより、当該顧客から書面による同意を得なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-43-4-p2
+    type: simple
+    text: 金融商品取引業者等は、商品関連市場デリバティブ取引についての第二条第八項第二号、第三号又は第五号に掲げる行為に係る業務に関して、顧客の計算において自己が占有する商品（寄託された商品に関して発行された証券又は証書を含む。以下この項において同じ。）又は顧客から預託を受けた商品を担保に供する場合又は他人に貸し付ける場合には、内閣府令で定めるところにより、当該顧客から書面による同意を得なければならない。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-43-4-p3
+    type: junyou
+    text: 第三十四条の二第十二項の規定は、前二項の規定による書面による同意について準用する。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

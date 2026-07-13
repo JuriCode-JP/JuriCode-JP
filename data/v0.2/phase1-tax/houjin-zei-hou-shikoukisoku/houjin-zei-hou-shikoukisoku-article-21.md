@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第六十一条の二第三項（堅ろうな建物等の償却限度額の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-21-p1-kou-1
+    type: kou
+    text: 申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-21-p1-kou-2
+    type: kou
+    text: 令第六十一条の二第一項の規定の適用を受けようとする減価償却資産を取得した日及びその取得価額
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-21-p1-kou-3
+    type: kou
+    text: 当該減価償却資産の令第六十一条第一項（減価償却資産の償却累積額による償却限度額の特例）に規定する償却の額の同項に規定する累積額がその資産の取得価額の百分の九十五に相当する金額に達することとなつた日の属する事業年度終了の日及び同日におけるその資産の帳簿価額
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-21-p1-kou-4
+    type: kou
+    text: 認定を受けようとする令第六十一条の二第一項に規定する残存使用可能期間
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-21-p1-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +68,14 @@ parent_section:
 
 ### 第二十一条
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-21-p1-hashira -->
 令第六十一条の二第三項（堅ろうな建物等の償却限度額の特例）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　令第六十一条の二第一項の規定の適用を受けようとする減価償却資産を取得した日及びその取得価額
+
+三　当該減価償却資産の令第六十一条第一項（減価償却資産の償却累積額による償却限度額の特例）に規定する償却の額の同項に規定する累積額がその資産の取得価額の百分の九十五に相当する金額に達することとなつた日の属する事業年度終了の日及び同日におけるその資産の帳簿価額
+
+四　認定を受けようとする令第六十一条の二第一項に規定する残存使用可能期間
+
+五　その他参考となるべき事項

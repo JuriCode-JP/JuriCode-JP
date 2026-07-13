@@ -39,5 +39,4 @@ parent_section:
 
 ### 第八十八条
 
-<!-- segment: simple id: keihou-art-88-p1 -->
 第八十一条又は第八十二条の罪の予備又は陰謀をした者は、一年以上十年以下の拘禁刑に処する。

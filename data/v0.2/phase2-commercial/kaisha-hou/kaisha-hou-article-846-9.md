@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-846-9-p1
+    type: simple
+    text: 売渡株式等の取得の無効の訴えを提起した原告が敗訴した場合において、原告に悪意又は重大な過失があったときは、原告は、被告に対し、連帯して損害を賠償する責任を負う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

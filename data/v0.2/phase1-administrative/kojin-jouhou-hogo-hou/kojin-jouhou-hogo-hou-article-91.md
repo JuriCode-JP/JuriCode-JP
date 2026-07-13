@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 訂正請求は、次に掲げる事項を記載した書面（第三項において「訂正請求書」という。）を行政機関の長等に提出してしなければならない。
     modality: gimu
+  - id: kojin-jouhou-hogo-hou-art-91-p1-kou-1
+    type: kou
+    text: 訂正請求をする者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-91-p1-kou-2
+    type: kou
+    text: 訂正請求に係る保有個人情報の開示を受けた日その他当該保有個人情報を特定するに足りる事項
+    modality: unspecified
+    item_number: 2
+  - id: kojin-jouhou-hogo-hou-art-91-p1-kou-3
+    type: kou
+    text: 訂正請求の趣旨及び理由
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -31,8 +46,8 @@ paragraphs:
     text: 前項の場合において、訂正請求をする者は、政令で定めるところにより、訂正請求に係る保有個人情報の本人であること（前条第二項の規定による訂正請求にあっては、訂正請求に係る保有個人情報の本人の代理人であること）を示す書類を提示し、又は提出しなければならない。
     modality: gimu
     references:
-    - 前項
     - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
@@ -62,15 +77,18 @@ parent_section:
 
 ### 第九十一条第一項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-91-p1-hashira -->
 訂正請求は、次に掲げる事項を記載した書面（第三項において「訂正請求書」という。）を行政機関の長等に提出してしなければならない。
+
+一　訂正請求をする者の氏名及び住所又は居所
+
+二　訂正請求に係る保有個人情報の開示を受けた日その他当該保有個人情報を特定するに足りる事項
+
+三　訂正請求の趣旨及び理由
 
 ### 第九十一条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-91-p2 -->
 前項の場合において、訂正請求をする者は、政令で定めるところにより、訂正請求に係る保有個人情報の本人であること（前条第二項の規定による訂正請求にあっては、訂正請求に係る保有個人情報の本人の代理人であること）を示す書類を提示し、又は提出しなければならない。
 
 ### 第九十一条第三項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-91-p3 -->
 行政機関の長等は、訂正請求書に形式上の不備があると認めるときは、訂正請求をした者（以下この節において「訂正請求者」という。）に対し、相当の期間を定めて、その補正を求めることができる。

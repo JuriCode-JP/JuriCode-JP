@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百七十二条
 
-<!-- segment: simple id: keiji-soshou-hou-art-372-p1 -->
 控訴は、地方裁判所又は簡易裁判所がした第一審の判決に対してこれをすることができる。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-45-2-2-p1
+    type: simple
+    text: 法第二百六十二条第三号に規定する政令で定める給付は、労働基準法（昭和二十二年法律第四十九号）又は船員法（昭和二十二年法律第百号）の規定によつて給付を受ける災害補償とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-48-6-p1
+    type: simple
+    text: 法第二十三条の三十二の二第三項の製造管理又は品質管理の方法に影響を与えるおそれがある変更として厚生労働省令で定めるものは、第百三十七条の二十八及び第百三十七条の三十四に規定する変更以外の変更とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

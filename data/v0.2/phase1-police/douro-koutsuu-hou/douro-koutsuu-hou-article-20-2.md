@@ -13,15 +13,30 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-20-2-p1-honbun
+    type: honbun
+    text: 道路運送法第九条第一項に規定する一般乗合旅客自動車運送事業者による同法第五条第一項第三号に規定する路線定期運行の用に供する自動車その他の政令で定める自動車（以下この条において「路線バス等」という。）の優先通行帯であることが道路標識等により表示されている車両通行帯が設けられている道路においては、自動車（路線バス等を除く。以下この条において同じ。）は、路線バス等が後方から接近してきた場合に当該道路における交通の混雑のため当該車両通行帯から出ることができないこととなるときは、当該車両通行帯を通行してはならず、また、当該車両通行帯を通行している場合において、後方から路線バス等が接近してきたときは、その正常な運行に支障を及ぼさないように、すみやかに当該車両通行帯の外に出なければならない。
+    modality: gimu
+  - id: douro-koutsuu-hou-art-20-2-p1-tadashi
+    type: tadashi
+    text: ただし、この法律の他の規定により通行すべきこととされている道路の部分が当該車両通行帯であるとき、又は道路の状況その他の事情によりやむを得ないときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-20-2-p2
+    type: simple
+    text: 前条第一項本文の規定は、前項の車両通行帯の直近の右側の車両通行帯又は道路の部分を通行する自動車については、適用しない。
+    modality: jogai
+    references:
+    - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -45,3 +60,5 @@ parent_section:
 ### 第二十条の二第二項
 
 前条第一項本文の規定は、前項の車両通行帯の直近の右側の車両通行帯又は道路の部分を通行する自動車については、適用しない。
+
+（罰則　第一項については第百二十条第一項第三号、同条第三項）

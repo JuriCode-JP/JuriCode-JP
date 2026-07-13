@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yuukashouken-kisei-furei-art-58-2-p1
+    type: simple
+    text: 法第百六十六条第六項第八号及び第百六十七条第五項第十号に規定する内閣府令で定める割合は、百分の二十とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百三十三条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-333-p1 -->
 法第六十六条の五十三第七号の規定により算出する純財産額は、第十四条の規定に準じて計算しなければならない。

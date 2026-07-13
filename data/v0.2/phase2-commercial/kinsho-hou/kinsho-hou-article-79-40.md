@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-40-p1
+    type: simple
+    text: 内閣総理大臣及び財務大臣は、理事又は監事の職務を行う者のない場合において、必要があると認めるときは、仮理事又は仮監事を選任することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

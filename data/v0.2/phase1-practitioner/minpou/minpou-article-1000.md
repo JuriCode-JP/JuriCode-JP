@@ -41,5 +41,4 @@ parent_section:
 
 ### 第千条
 
-<!-- segment: simple id: minpou-art-1000-p1 -->
 削除

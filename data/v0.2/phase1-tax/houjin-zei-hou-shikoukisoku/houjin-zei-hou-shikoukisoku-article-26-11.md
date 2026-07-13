@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 令第百十八条の九第三項（特定譲渡制限付暗号資産の評価の方法の選定の手続等）において準用する令第三十条第二項（棚卸資産の評価の方法の変更手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-26-11-p1-kou-1
+    type: kou
+    text: 申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-26-11-p1-kou-2
+    type: kou
+    text: その評価の方法を変更しようとする令第百十八条の九第一項に規定する選定特定譲渡制限付暗号資産（同条第二項の規定により同条第一項に規定する選定特定譲渡制限付暗号資産に該当するものとされたものを含む。）の種類
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-26-11-p1-kou-3
+    type: kou
+    text: 現によつている評価の方法及びその評価の方法を採用した日
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikoukisoku-art-26-11-p1-kou-4
+    type: kou
+    text: 採用しようとする新たな評価の方法
+    modality: unspecified
+    item_number: 4
+  - id: houjin-zei-hou-shikoukisoku-art-26-11-p1-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -43,5 +68,14 @@ parent_section:
 
 ### 第二十六条の十一
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-26-11-p1-hashira -->
 令第百十八条の九第三項（特定譲渡制限付暗号資産の評価の方法の選定の手続等）において準用する令第三十条第二項（棚卸資産の評価の方法の変更手続）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+
+二　その評価の方法を変更しようとする令第百十八条の九第一項に規定する選定特定譲渡制限付暗号資産（同条第二項の規定により同条第一項に規定する選定特定譲渡制限付暗号資産に該当するものとされたものを含む。）の種類
+
+三　現によつている評価の方法及びその評価の方法を採用した日
+
+四　採用しようとする新たな評価の方法
+
+五　その他参考となるべき事項

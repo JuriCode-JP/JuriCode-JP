@@ -21,6 +21,31 @@ paragraphs:
     type: hashira
     text: 発起人は、創立総会を招集する場合には、次に掲げる事項を定めなければならない。
     modality: gimu
+  - id: kaisha-hou-art-67-p1-kou-1
+    type: kou
+    text: 創立総会の日時及び場所
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-67-p1-kou-2
+    type: kou
+    text: 創立総会の目的である事項
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-67-p1-kou-3
+    type: kou
+    text: 創立総会に出席しない設立時株主が書面によって議決権を行使することができることとするときは、その旨
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-67-p1-kou-4
+    type: kou
+    text: 創立総会に出席しない設立時株主が電磁的方法によって議決権を行使することができることとするときは、その旨
+    modality: unspecified
+    item_number: 4
+  - id: kaisha-hou-art-67-p1-kou-5
+    type: kou
+    text: 前各号に掲げるもののほか、法務省令で定める事項
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
@@ -55,10 +80,18 @@ parent_section:
 
 ### 第六十七条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-67-p1-hashira -->
 発起人は、創立総会を招集する場合には、次に掲げる事項を定めなければならない。
+
+一　創立総会の日時及び場所
+
+二　創立総会の目的である事項
+
+三　創立総会に出席しない設立時株主が書面によって議決権を行使することができることとするときは、その旨
+
+四　創立総会に出席しない設立時株主が電磁的方法によって議決権を行使することができることとするときは、その旨
+
+五　前各号に掲げるもののほか、法務省令で定める事項
 
 ### 第六十七条第二項
 
-<!-- segment: simple id: kaisha-hou-art-67-p2 -->
 発起人は、設立時株主（創立総会において決議をすることができる事項の全部につき議決権を行使することができない設立時株主を除く。次条から第七十一条までにおいて同じ。）の数が千人以上である場合には、前項第三号に掲げる事項を定めなければならない。

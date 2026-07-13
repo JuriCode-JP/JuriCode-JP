@@ -16,22 +16,50 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-165-5-3-p1
+    type: simple
+    text: 恒久的施設を有する非居住者が各年において第百七十六条第三項（信託財産に係る利子等の課税の特例）に規定する集団投資信託の収益の分配の支払を受ける場合（恒久的施設帰属所得に該当するものの支払を受ける場合に限る。）には、当該収益の分配に係る分配時調整外国税（同項に規定する外国の法令により課される所得税に相当する税で政令で定めるものをいう。）の額で同項又は第百八十条の二第三項（信託財産に係る利子等の課税の特例）の規定により当該収益の分配に係る所得税の額から控除された金額のうち当該非居住者が支払を受ける収益の分配に対応する部分の金額として政令で定める金額に相当する金額（次項において「分配時調整外国税相当額」という。）は、控除限度額（恒久的施設帰属所得に係る所得の金額につき第百六十五条第一項（総合課税に係る所得税の課税標準、税額等の計算）の規定により第八十九条から第九十二条まで（税率及び配当控除）の規定に準じて計算したその年分の所得税の額に相当する金額として政令で定める金額をいう。）を限度として、その年分の所得税の額から控除する。
+    modality: unspecified
+    references:
+    - 同項
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-165-5-3-p2
+    type: junyou
+    text: 第九十三条第二項（分配時調整外国税相当額控除）の規定は、分配時調整外国税相当額につき前項の規定による控除をする場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-165-5-3-p3-zen
+    type: zen_dan
+    text: 第一項の規定により控除する金額は、第百六十五条第一項の規定により準じて計算する課税総所得金額に係る所得税の額、課税山林所得金額に係る所得税の額又は課税退職所得金額に係る所得税の額から順次控除する。
+    modality: unspecified
+  - id: shotoku-zei-hou-art-165-5-3-p3-kou
+    type: kou_dan
+    text: この場合において、当該控除する金額がその年分の所得税の額を超えるときは、当該控除する金額は、当該所得税の額に相当する金額とする。
+    modality: gimu
+    depends_on: shotoku-zei-hou-art-165-5-3-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shotoku-zei-hou-art-165-5-3-p4
+    type: simple
+    text: 前二項に定めるもののほか、第一項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

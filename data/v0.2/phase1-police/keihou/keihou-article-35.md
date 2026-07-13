@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十五条
 
-<!-- segment: simple id: keihou-art-35-p1 -->
 法令又は正当な業務による行為は、罰しない。

@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-38-3-p1
+    type: simple
+    text: 任命権者は、職員又は職員であつた者に前条の規定（同条第八項の規定に基づく条例が定められているときは、当該条例の規定を含む。）に違反する行為（以下「規制違反行為」という。）を行つた疑いがあると思料するときは、その旨を人事委員会又は公平委員会に報告しなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

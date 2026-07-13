@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百三十四条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-134-p1 -->
 第百三十二条の規定により召喚を受け正当な理由がなく出頭しない者は、十万円以下の罰金又は拘留に処する。
 
 ### 第百三十四条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-134-p2 -->
 前項の罪を犯した者には、情状により、罰金及び拘留を併科することができる。

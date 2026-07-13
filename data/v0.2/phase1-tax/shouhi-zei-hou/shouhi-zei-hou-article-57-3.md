@@ -16,32 +16,84 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-57-3-p1
+    type: tokusoku
+    text: 適格請求書発行事業者（個人事業者に限る。以下この条において同じ。）が死亡した場合には、第五十七条第一項の規定にかかわらず、同項第四号に定める者は、同号に掲げる場合に該当することとなつた旨を記載した届出書を、速やかに、当該適格請求書発行事業者の納税地を所轄する税務署長に提出しなければならない。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第五十七条
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-57-3-p2
+    type: simple
+    text: 適格請求書発行事業者が死亡した場合における前条第一項の登録は、次項の規定の適用を受ける場合を除き、前項の規定による届出書が提出された日の翌日又は当該死亡した日の翌日から四月を経過した日のいずれか早い日に、その効力を失う。
+    modality: unspecified
+    references:
+    - 前条
+    - 次項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-57-3-p3-zen
+    type: zen_dan
+    text: 相続により適格請求書発行事業者の事業を承継した相続人（適格請求書発行事業者を除く。）の当該相続のあつた日の翌日から、当該相続人が前条第一項の登録を受けた日の前日又は当該相続に係る適格請求書発行事業者が死亡した日の翌日から四月を経過する日のいずれか早い日までの期間（次項において「みなし登録期間」という。）については、当該相続人を同条第一項の登録を受けた事業者とみなして、この法律（同条第十項（第一号に係る部分に限る。）を除く。）の規定を適用する。
+    modality: unspecified
+    references:
+    - 前条
+    - 次項
+  - id: shouhi-zei-hou-art-57-3-p3-kou
+    type: kou_dan
+    text: この場合において、当該みなし登録期間中は、当該適格請求書発行事業者に係る同条第四項の登録番号を当該相続人の登録番号とみなす。
+    modality: unspecified
+    depends_on: shouhi-zei-hou-art-57-3-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-57-3-p4
+    type: simple
+    text: 前項の規定の適用を受けた相続人の被相続人に係る前条第一項の登録は、当該相続人のみなし登録期間の末日の翌日以後は、その効力を失う。
+    modality: unspecified
+    references:
+    - 前条
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-57-3-p5-zen
+    type: zen_dan
+    text: 税務署長は、第二項又は前項の規定により前条第一項の登録がその効力を失つたときは、当該登録を抹消しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
+  - id: shouhi-zei-hou-art-57-3-p5-kou
+    type: kou_dan
+    text: この場合において、税務署長は、政令で定めるところにより、当該登録がその効力を失つた旨及びその年月日を速やかに公表しなければならない。
+    modality: gimu
+    depends_on: shouhi-zei-hou-art-57-3-p5-zen
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: shouhi-zei-hou-art-57-3-p6
+    type: simple
+    text: 適格請求書発行事業者の事業を承継した場合における棚卸資産に係る消費税額の調整その他この条の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments:
 - effective_date: '2023-10-01'

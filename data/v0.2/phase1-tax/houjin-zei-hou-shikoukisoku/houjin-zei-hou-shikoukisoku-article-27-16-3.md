@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-shikoukisoku-art-27-16-3-p1
+    type: simple
+    text: 内国法人が有する令第百三十条第一項（工事進行基準の方法による未収入金）に規定する売掛債権等について、同項に規定する期間内において、貸倒れによる損失が生じたこと、法第三十三条第三項（資産の評価損）又は第六十四条の十一第一項（通算制度の開始に伴う資産の時価評価損益）の規定の適用を受けることその他これらに類する事由によりその帳簿価額を増額し、又は減額することとなる場合には、当該売掛債権等の帳簿価額は、令第百三十条第一項に規定する控除した金額にその増額する金額を加算し、又は当該控除した金額からその減額する金額を減算した金額とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

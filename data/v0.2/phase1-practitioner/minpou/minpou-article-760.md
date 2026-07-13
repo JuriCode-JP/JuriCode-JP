@@ -43,5 +43,4 @@ parent_section:
 
 ### 第七百六十条
 
-<!-- segment: simple id: minpou-art-760-p1 -->
 夫婦は、その資産、収入その他一切の事情を考慮して、婚姻から生ずる費用を分担する。

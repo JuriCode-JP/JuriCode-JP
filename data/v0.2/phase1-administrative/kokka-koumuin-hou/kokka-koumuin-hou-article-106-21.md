@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-21-p1
+    type: simple
+    text: 委員会は、第百六条の十七第三項（第百六条の十八第二項において準用する場合を含む。）の規定による調査の結果の報告に照らし、又は第百六条の十九若しくは前条第一項の規定により監察官に調査を行わせた結果、任命権者において懲戒処分その他の措置を行うことが適当であると認めるときは、任命権者に対し、当該措置を行うべき旨の勧告をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-21-p2
+    type: simple
+    text: 任命権者は、前項の勧告に係る措置について、委員会に対し、報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-106-21-p3
+    type: simple
+    text: 委員会は、内閣総理大臣に対し、この節の規定の適切な運用を確保するために必要と認められる措置について、勧告することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

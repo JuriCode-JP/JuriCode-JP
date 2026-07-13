@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-7-p1
+    type: simple
+    text: 当該徴税吏員は、間接地方税（軽油引取税その他の政令で定める地方税をいう。以下この節において同じ。）に関する犯則事件について、現に犯則を行い、又は現に犯則を行い終わつた者がある場合において、その証拠となると認められるものを集取するため必要であつて、かつ、急速を要し、許可状の交付を受けることができないときは、その犯則の現場において第二十二条の四第一項の臨検、捜索又は差押えをすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-7-p2
+    type: simple
+    text: 当該徴税吏員は、間接地方税に関する犯則事件について、現に犯則に供した物件若しくは犯則により得た物件を所持し、又は顕著な犯則の跡があつて犯則を行つてから間がないと明らかに認められる者がある場合において、その証拠となると認められるものを集取するため必要であつて、かつ、急速を要し、許可状の交付を受けることができないときは、その者の所持する物件に対して第二十二条の四第一項の臨検、捜索又は差押えをすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

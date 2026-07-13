@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百六十一条
 
-<!-- segment: simple id: kinsho-gyou-furei-art-261-p1 -->
 法第六十六条の二第三項に規定する内閣府令で定めるものは、電磁的記録媒体をもって調製するファイルに情報を記録したものとする。

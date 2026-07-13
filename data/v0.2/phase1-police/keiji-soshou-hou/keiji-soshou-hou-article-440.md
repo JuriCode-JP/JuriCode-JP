@@ -48,10 +48,8 @@ parent_section:
 
 ### 第四百四十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-440-p1 -->
 検察官以外の者は、再審の請求をする場合には、弁護人を選任することができる。
 
 ### 第四百四十条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-440-p2 -->
 前項の規定による弁護人の選任は、再審の判決があるまでその効力を有する。

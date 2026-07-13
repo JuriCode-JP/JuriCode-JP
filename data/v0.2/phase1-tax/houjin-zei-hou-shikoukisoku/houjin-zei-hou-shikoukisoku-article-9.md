@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第二十八条の二第二項（棚卸資産の特別な評価の方法）に規定する財務省令で定める事項は、次に掲げる事項とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-9-p1-kou-1
+    type: kou
+    text: 申請をする内国法人の名称、納税地及び法人番号並びに代表者（人格のない社団等で代表者の定めがなく、管理人の定めがあるものについては、管理人。以下同じ。）の氏名
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-9-p1-kou-2
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第九条
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-9-p1-hashira -->
 令第二十八条の二第二項（棚卸資産の特別な評価の方法）に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　申請をする内国法人の名称、納税地及び法人番号並びに代表者（人格のない社団等で代表者の定めがなく、管理人の定めがあるものについては、管理人。以下同じ。）の氏名
+
+二　その他参考となるべき事項

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十二条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-42-p1 -->
 公正取引委員会は、その職務を行うために必要があるときは、公聴会を開いて一般の意見を求めることができる。

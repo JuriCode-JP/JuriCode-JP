@@ -16,32 +16,65 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-85-p1
+    type: simple
+    text: 内閣総理大臣は、特定金融指標算出業務（特定金融指標の算出及び公表を行う業務をいう。以下同じ。）を行う者の特定金融指標算出業務の適正な遂行を確保することが公益又は投資者保護のため必要であると認められるときは、当該者を特定金融指標算出者として指定することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-85-p2
+    type: simple
+    text: 内閣総理大臣は、前項の規定による指定（以下この章において単に「指定」という。）をしたときは、書面により、その旨及び指定に係る特定金融指標の名称を特定金融指標算出者に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-85-p3
+    type: simple
+    text: 内閣総理大臣は、指定をしたときは、特定金融指標算出者の商号、名称又は氏名及び本店又は主たる営業所若しくは事務所（外国の者にあつては、国内に営業所又は事務所があるときは、国内における主たる営業所又は事務所を含む。次条第一項第四号において同じ。）の所在地並びに指定に係る特定金融指標の名称を官報で公示しなければならない。これらの事項に変更があつたときも、同様とする。
+    modality: gimu
+    references:
+    - 次条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-85-p4
+    type: simple
+    text: 内閣総理大臣は、特定金融指標算出者について指定の理由が消滅したと認めるときは、当該指定を取り消すとともに、書面により、その旨を当該特定金融指標算出者に通知しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-85-p5
+    type: simple
+    text: 内閣総理大臣は、前項の規定により指定を取り消したときは、その旨を官報で公示しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-85-p6
+    type: tokusoku
+    text: 特定金融指標算出業務を行う者が特定金融指標算出業務について外国の法令に基づいて外国の行政機関その他これに準ずるものの適切な監督を受けていると認められる者として内閣府令で定める者である場合には、第一項の規定にかかわらず、内閣総理大臣は、指定をしないものとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第一項
 cases: []
 amendments: []
 tags:

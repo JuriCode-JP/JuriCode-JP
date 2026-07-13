@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百二条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-202-p1 -->
 出願者は、検査を受けた医薬品、医療機器又は再生医療等製品について様式第九十七による検査記録表を作成しておかなければならない。

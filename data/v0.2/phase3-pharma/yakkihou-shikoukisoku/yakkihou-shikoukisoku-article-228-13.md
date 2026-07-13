@@ -16,17 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-13-p1
+    type: simple
+    text: 特定医療機器承認取得者等は、前条第二項第一号に掲げる事項に変更があつたときは、三十日以内に、厚生労働大臣にその旨を届け出なければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-13-p2
+    type: simple
+    text: 前項の届出は、様式第九十八による届書（正副二通）を提出することによつて行うものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-13-p3
+    type: simple
+    text: 前項の届書には、変更に係る事項を証する書類を添付しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-14-16-p1
+    type: simple
+    text: 令第三条の三第三号に規定する内閣府令で定めるものは、短期外債とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

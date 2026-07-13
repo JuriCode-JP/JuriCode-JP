@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-142-2-2-p1
+    type: simple
+    text: 恒久的施設を有する外国法人が第百四十四条の十三第十一項（欠損金の繰戻しによる還付）に規定する中間期間において生じた同項に規定する災害損失欠損金額（以下この条において「災害損失欠損金額」という。）について第百四十四条の十三の規定の適用を受けた場合には、同項に規定する仮決算の中間申告書の提出により還付を受けるべき金額の計算の基礎となつた災害損失欠損金額に相当する金額は、当該中間期間の属する事業年度の恒久的施設帰属所得に係る所得の金額の計算上、益金の額に算入する。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十六条
 
-<!-- segment: simple id: kenpou-art-36-p1 -->
 公務員による拷問及び残虐な刑罰は、絶対にこれを禁ずる。

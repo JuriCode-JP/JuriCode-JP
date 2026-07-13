@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-8-16-6-p1
+    type: simple
+    text: 法第五十三条第八項に規定する政令で定める額は、租税特別措置法第四十二条の十四第一項若しくは第四項、第六十二条第一項、第六十二条の三第一項若しくは第九項又は第六十三条第一項の規定により加算された金額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

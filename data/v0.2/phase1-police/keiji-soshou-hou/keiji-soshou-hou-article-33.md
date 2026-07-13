@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十三条
 
-<!-- segment: simple id: keiji-soshou-hou-art-33-p1 -->
 被告人に数人の弁護人があるときは、裁判所の規則で、主任弁護人を定めなければならない。

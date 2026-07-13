@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百六十一条
 
-<!-- segment: simple id: houjin-zei-hou-art-161-p1 -->
 削除

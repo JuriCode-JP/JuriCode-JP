@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-64-p1
+    type: simple
+    text: 内閣総理大臣は、高速取引行為者が正当な理由がないのに、高速取引行為に係る業務を行うことができることとなつた日から三月以内に業務を開始しないとき、又は引き続き三月以上その業務を休止したときは、当該高速取引行為者の第六十六条の五十の登録を取り消すことができる。
+    modality: koka_torikeshi
 cases: []
 amendments: []
 tags:

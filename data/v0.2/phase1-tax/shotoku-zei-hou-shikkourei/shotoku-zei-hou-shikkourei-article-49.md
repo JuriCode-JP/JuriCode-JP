@@ -41,5 +41,4 @@ parent_section:
 
 ### 第四十九条
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-49-p1 -->
 非課税貯蓄申告書、非課税貯蓄申込書、非課税貯蓄限度額変更申告書、非課税貯蓄に関する異動申告書、非課税貯蓄廃止申告書及び非課税貯蓄相続申込書の書式は、財務省令で定める。

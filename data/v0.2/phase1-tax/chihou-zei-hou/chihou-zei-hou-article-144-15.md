@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-15-p1
+    type: simple
+    text: 軽油引取税の特別徴収義務者は、その事務所又は事業所所在地の道府県知事及び当該特別徴収義務者からの引取りに係る軽油の納入地の道府県知事に、当該道府県の条例で定めるところにより、特別徴収義務者としての登録を申請しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-15-p2
+    type: simple
+    text: 道府県知事は、前項の登録の申請を受理した場合には、当該特別徴収義務者を当該道府県に係る登録特別徴収義務者として登録するとともに、その旨を当該特別徴収義務者に対し通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-15-p3
+    type: simple
+    text: 道府県知事は、当該道府県に係る登録特別徴収義務者（前項の規定により登録を受けた特別徴収義務者をいう。以下この節において同じ。）から同項の登録の消除の申請があつたときその他条例で定める場合には、条例で定めるところにより、当該登録特別徴収義務者の登録を消除するとともに、その旨を当該消除に係る者に対し通知するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

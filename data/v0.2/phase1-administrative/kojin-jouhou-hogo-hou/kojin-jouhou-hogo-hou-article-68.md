@@ -22,7 +22,7 @@ paragraphs:
     text: 行政機関の長等は、保有個人情報の漏えい、滅失、毀損その他の保有個人情報の安全の確保に係る事態であって個人の権利利益を害するおそれが大きいものとして個人情報保護委員会規則で定めるものが生じたときは、個人情報保護委員会規則で定めるところにより、当該事態が生じた旨を個人情報保護委員会に報告しなければならない。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -32,6 +32,16 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: kojin-jouhou-hogo-hou-art-68-p2-kou-1
+    type: kou
+    text: 本人への通知が困難な場合であって、本人の権利利益を保護するため必要なこれに代わるべき措置をとるとき。
+    modality: unspecified
+    item_number: 1
+  - id: kojin-jouhou-hogo-hou-art-68-p2-kou-2
+    type: kou
+    text: 当該保有個人情報に第七十八条第一項各号に掲げる情報のいずれかが含まれるとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -50,10 +60,12 @@ parent_section:
 
 ### 第六十八条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-68-p1 -->
 行政機関の長等は、保有個人情報の漏えい、滅失、毀損その他の保有個人情報の安全の確保に係る事態であって個人の権利利益を害するおそれが大きいものとして個人情報保護委員会規則で定めるものが生じたときは、個人情報保護委員会規則で定めるところにより、当該事態が生じた旨を個人情報保護委員会に報告しなければならない。
 
 ### 第六十八条第二項
 
-<!-- segment: hashira id: kojin-jouhou-hogo-hou-art-68-p2-hashira -->
 前項に規定する場合には、行政機関の長等は、本人に対し、個人情報保護委員会規則で定めるところにより、当該事態が生じた旨を通知しなければならない。ただし、次の各号のいずれかに該当するときは、この限りでない。
+
+一　本人への通知が困難な場合であって、本人の権利利益を保護するため必要なこれに代わるべき措置をとるとき。
+
+二　当該保有個人情報に第七十八条第一項各号に掲げる情報のいずれかが含まれるとき。

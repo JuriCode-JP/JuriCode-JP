@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-158-3-p1-hashira
+    type: hashira
+    text: 第百五十七条第一項第三号の三の決済措置適用除外取引の確認に係る記録には、受託した有価証券（令第二十六条の二の二第一項（同条第六項及び第七項において準用する場合を含む。）に規定する金融庁長官が指定する有価証券に限る。）の空売りが取引等規制府令第九条の三第一項第二十号から第三十六号まで、第二項第七号から第九号まで又は第三項第七号から第十号までに掲げる取引として行うものであることを確認する場合における当該空売りの内容に関し、次に掲げる事項を記載しなければならない。
+    modality: gimu
+  - id: kinsho-gyou-furei-art-158-3-p1-kou-1
+    type: kou
+    text: 顧客の氏名又は名称
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-gyou-furei-art-158-3-p1-kou-2
+    type: kou
+    text: 確認年月日
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-gyou-furei-art-158-3-p1-kou-3
+    type: kou
+    text: 取引の具体的な内容
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -38,3 +57,9 @@ parent_section:
 ### 第百五十八条の三
 
 第百五十七条第一項第三号の三の決済措置適用除外取引の確認に係る記録には、受託した有価証券（令第二十六条の二の二第一項（同条第六項及び第七項において準用する場合を含む。）に規定する金融庁長官が指定する有価証券に限る。）の空売りが取引等規制府令第九条の三第一項第二十号から第三十六号まで、第二項第七号から第九号まで又は第三項第七号から第十号までに掲げる取引として行うものであることを確認する場合における当該空売りの内容に関し、次に掲げる事項を記載しなければならない。
+
+一　顧客の氏名又は名称
+
+二　確認年月日
+
+三　取引の具体的な内容

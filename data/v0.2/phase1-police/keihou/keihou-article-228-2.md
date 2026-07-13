@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keihou-art-228-2-p1
+    type: simple
+    text: 第二百二十五条の二又は第二百二十七条第二項若しくは第四項の罪を犯した者が、公訴が提起される前に、略取され又は誘拐された者を安全な場所に解放したときは、その刑を減軽する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

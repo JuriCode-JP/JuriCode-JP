@@ -16,27 +16,59 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-22-p1-zen
+    type: zen_dan
+    text: 被告人又は弁護人は、第三百十六条の十三から第三百十六条の二十まで（第三百十六条の十四第五項を除く。）に規定する手続が終わつた後、第三百十六条の十七第一項の主張を追加し又は変更する必要があると認めるときは、速やかに、裁判所及び検察官に対し、その追加し又は変更すべき主張を明らかにしなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-316-22-p1-kou
+    type: kou_dan
+    text: この場合においては、第三百十六条の十三第一項後段の規定を準用する。
+    modality: unspecified
+    depends_on: keiji-soshou-hou-art-316-22-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-22-p2-zen
+    type: zen_dan
+    text: 被告人又は弁護人は、その証明予定事実を証明するために用いる証拠の取調べの請求を追加する必要があると認めるときは、速やかに、その追加すべき証拠の取調べを請求しなければならない。
+    modality: gimu
+  - id: keiji-soshou-hou-art-316-22-p2-kou
+    type: kou_dan
+    text: この場合においては、第三百十六条の十三第三項の規定を準用する。
+    modality: unspecified
+    depends_on: keiji-soshou-hou-art-316-22-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-22-p3
+    type: simple
+    text: 裁判所は、検察官及び被告人又は弁護人の意見を聴いた上で、第一項の主張を明らかにすべき期限及び前項の請求の期限を定めることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-22-p4
+    type: simple
+    text: 第三百十六条の十八及び第三百十六条の十九の規定は、第二項の規定により被告人又は弁護人が取調べを請求した証拠についてこれを準用する。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-22-p5
+    type: simple
+    text: 第三百十六条の二十の規定は、第一項の追加し又は変更すべき主張に関連すると認められる証拠についてこれを準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

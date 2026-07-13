@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二十九条
 
-<!-- segment: simple id: kinsho-hou-art-29-p1 -->
 金融商品取引業は、内閣総理大臣の登録を受けた者でなければ、行うことができない。

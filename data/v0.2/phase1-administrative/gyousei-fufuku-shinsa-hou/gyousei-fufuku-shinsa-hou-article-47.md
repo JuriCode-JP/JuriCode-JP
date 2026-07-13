@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 事実上の行為についての審査請求が理由がある場合（第四十五条第三項の規定の適用がある場合を除く。）には、審査庁は、裁決で、当該事実上の行為が違法又は不当である旨を宣言するとともに、次の各号に掲げる審査庁の区分に応じ、当該各号に定める措置をとる。ただし、審査庁が処分庁の上級行政庁以外の審査庁である場合には、当該事実上の行為を変更すべき旨を命ずることはできない。
     modality: kanou_negative
+  - id: gyousei-fufuku-shinsa-hou-art-47-p1-kou-1
+    type: kou
+    text: 処分庁以外の審査庁　当該処分庁に対し、当該事実上の行為の全部若しくは一部を撤廃し、又はこれを変更すべき旨を命ずること。
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-fufuku-shinsa-hou-art-47-p1-kou-2
+    type: kou
+    text: 処分庁である審査庁　当該事実上の行為の全部若しくは一部を撤廃し、又はこれを変更すること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第四十七条
 
-<!-- segment: hashira id: gyousei-fufuku-shinsa-hou-art-47-p1-hashira -->
 事実上の行為についての審査請求が理由がある場合（第四十五条第三項の規定の適用がある場合を除く。）には、審査庁は、裁決で、当該事実上の行為が違法又は不当である旨を宣言するとともに、次の各号に掲げる審査庁の区分に応じ、当該各号に定める措置をとる。ただし、審査庁が処分庁の上級行政庁以外の審査庁である場合には、当該事実上の行為を変更すべき旨を命ずることはできない。
+
+一　処分庁以外の審査庁　当該処分庁に対し、当該事実上の行為の全部若しくは一部を撤廃し、又はこれを変更すべき旨を命ずること。
+
+二　処分庁である審査庁　当該事実上の行為の全部若しくは一部を撤廃し、又はこれを変更すること。

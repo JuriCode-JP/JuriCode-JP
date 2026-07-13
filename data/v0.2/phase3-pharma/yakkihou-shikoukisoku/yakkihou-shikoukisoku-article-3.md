@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-3-p1 -->
 薬局開設者は、薬局開設の許可証を薬局の見やすい場所に掲示しておかなければならない。

@@ -14,29 +14,74 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-6-p1
+    type: simple
+    text: 認可協会は、次の事由により解散する。
+    modality: unspecified
+  - id: kinsho-hou-art-77-6-p1-kou-1
+    type: kou
+    text: 定款に定める事由の発生
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-77-6-p1-kou-2
+    type: kou
+    text: 総会の決議
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-hou-art-77-6-p1-kou-3
+    type: kou
+    text: 協会員の数が五以下となつたこと。
+    modality: unspecified
+    item_number: 3
+  - id: kinsho-hou-art-77-6-p1-kou-4
+    type: kou
+    text: 破産手続開始の決定
+    modality: unspecified
+    item_number: 4
+  - id: kinsho-hou-art-77-6-p1-kou-5
+    type: kou
+    text: 認可協会の設立の認可の取消し
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-6-p2
+    type: simple
+    text: 認可協会の解散に関する総会の決議は、内閣総理大臣の認可を受けなければ、その効力を生じない。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-6-p3
+    type: simple
+    text: 認可協会が第一項第一号又は第三号の規定により解散したときは、その代表者であつた者は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-6-p4
+    type: simple
+    text: 認可協会について破産手続開始若しくは破産手続終結の決定があつた場合又は破産手続開始の決定の取消し若しくは破産手続廃止の決定が確定した場合には、裁判所書記官は、その旨を内閣総理大臣に通知しなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-77-6-p5
+    type: simple
+    text: 前各項に定めるもののほか、認可協会の解散に関し必要な事項は、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -58,6 +103,16 @@ parent_section:
 ### 第七十七条の六第一項
 
 認可協会は、次の事由により解散する。
+
+一　定款に定める事由の発生
+
+二　総会の決議
+
+三　協会員の数が五以下となつたこと。
+
+四　破産手続開始の決定
+
+五　認可協会の設立の認可の取消し
 
 ### 第七十七条の六第二項
 

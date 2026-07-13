@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-238-5-p1
+    type: simple
+    text: 法第六十三条第六項（法第六十三条の三第二項において準用する場合を含む。次項において同じ。）の規定により特例業務届出者又は金融商品取引業者等は、別紙様式第二十号の二により作成した書面の写しを主たる営業所若しくは事務所及び適格機関投資家等特例業務を行う全ての営業所若しくは事務所に備え置いて公衆の縦覧に供し、又はインターネットの利用その他の方法により、投資者が常に容易に閲覧することができるよう公表しなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-238-5-p2
+    type: simple
+    text: 法第六十三条第六項に規定する内閣府令で定める事項は、別紙様式第二十号の二に記載されている事項とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-238-5-p3
+    type: simple
+    text: 第一項の書面は、別紙様式第二十号の二に準じて英語で作成することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

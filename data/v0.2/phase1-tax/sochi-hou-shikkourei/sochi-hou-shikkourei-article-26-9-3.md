@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikkourei-art-26-9-3-p1
+    type: simple
+    text: 法第四十一条の十二第一項に規定する政令で定める民間都市開発推進機構は、公益財団法人であるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

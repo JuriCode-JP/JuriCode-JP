@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-138-2-2-p1
+    type: simple
+    text: 普通地方公共団体の執行機関は、当該普通地方公共団体の条例、予算その他の議会の議決に基づく事務及び法令、規則その他の規程に基づく当該普通地方公共団体の事務を、自らの判断と責任において、誠実に管理し及び執行する義務を負う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

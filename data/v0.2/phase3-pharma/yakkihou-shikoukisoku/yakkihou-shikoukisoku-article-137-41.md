@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-41-p1
+    type: simple
+    text: 法第二十三条の二十九第四項後段に規定する厚生労働省令で定める再生医療等製品は、同条第一項各号に掲げる再生医療等製品とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

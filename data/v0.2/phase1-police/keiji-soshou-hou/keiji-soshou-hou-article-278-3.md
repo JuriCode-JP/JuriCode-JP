@@ -16,32 +16,64 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-278-3-p1
+    type: simple
+    text: 裁判所は、必要と認めるときは、検察官又は弁護人に対し、公判準備又は公判期日に出頭し、かつ、これらの手続が行われている間在席し又は在廷することを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-278-3-p2
+    type: simple
+    text: 裁判長は、急速を要する場合には、前項に規定する命令をし、又は合議体の構成員にこれをさせることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-278-3-p3
+    type: simple
+    text: 前二項の規定による命令を受けた検察官又は弁護人が正当な理由がなくこれに従わないときは、決定で、十万円以下の過料に処し、かつ、その命令に従わないために生じた費用の賠償を命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-278-3-p4
+    type: simple
+    text: 前項の決定に対しては、即時抗告をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-278-3-p5
+    type: simple
+    text: 裁判所は、第三項の決定をしたときは、検察官については当該検察官を指揮監督する権限を有する者に、弁護士である弁護人については当該弁護士の所属する弁護士会又は日本弁護士連合会に通知し、適当な処置をとるべきことを請求しなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-278-3-p6
+    type: simple
+    text: 前項の規定による請求を受けた者は、そのとつた処置を裁判所に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

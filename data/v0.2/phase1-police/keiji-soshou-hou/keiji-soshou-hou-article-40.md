@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -53,10 +53,8 @@ parent_section:
 
 ### 第四十条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-40-p1 -->
 弁護人は、公訴の提起後は、裁判所において、訴訟に関する書類及び証拠物を閲覧し、且つ謄写することができる。但し、証拠物を謄写するについては、裁判長の許可を受けなければならない。
 
 ### 第四十条第二項
 
-<!-- segment: tokusoku id: keiji-soshou-hou-art-40-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、第百五十七条の六第四項に規定する記録媒体は、謄写することができない。

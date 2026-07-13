@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-3-6-p1
+    type: simple
+    text: 法第二十七条の二十二の二第二項及び第三項において準用する法第二十七条の三第四項第二号に規定する政令で定める株券等は、店頭売買有価証券に該当する株券等とし、同号に規定する政令で定める認可金融商品取引業協会は、当該株券等を登録する認可金融商品取引業協会とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

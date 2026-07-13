@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十一条
 
-<!-- segment: simple id: yakkihou-art-11-p1 -->
 この章に定めるもののほか、薬局の開設の許可、許可の更新、管理その他薬局に関し必要な事項は、政令で定める。

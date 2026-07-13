@@ -13,65 +13,175 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p1-honbun
+    type: honbun
+    text: 前条第一項の決定（第百七十八条第一項第四号、第十一号又は第十二号から第十六号までに係るものに限る。第四項、第五項、第八項及び第十一項において同じ。）又は前条第六項、第七項、第十項、第十一項、第十四項（第百七十八条第一項第四号、第十一号又は第十六号に掲げる事実があると認める場合に限る。第四項、第五項、第八項及び第十一項において同じ。）若しくは第十五項（第百七十八条第一項第四号、第十一号又は第十二号から第十六号までに掲げる事実があると認める場合に限る。第四項、第五項、第八項及び第十一項において同じ。）の決定の後、当該決定に係る納付期限前に同一事件について当該決定を受けた者に対し公訴の提起があつたときは、内閣総理大臣は、当該事件についての裁判が確定するまでの間、当該決定の効力を停止しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: kinsho-hou-art-185-8-p1-tadashi
+    type: tadashi
+    text: ただし、当該決定に係る課徴金の全部が納付されているときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p2
+    type: simple
+    text: 前項本文の規定により前条第一項の決定（第百七十八条第一項第四号又は第十一号に係るものに限る。第六項において同じ。）又は前条第六項、第七項、第十項、第十一項、第十四項（第百七十八条第一項第四号又は第十一号に掲げる事実があると認める場合に限る。第六項において同じ。）若しくは第十五項（第百七十八条第一項第四号又は第十一号に掲げる事実があると認める場合に限る。第六項において同じ。）の決定の効力が停止された場合において、当該事件について、当該決定を受けた者に対し、罰金の確定裁判があつたときは、内閣総理大臣は、第六項の規定による変更の処分に係る文書の謄本が送達されるまでの間、当該決定の効力を停止しなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p3
+    type: simple
+    text: 第一項本文の規定により前条第一項の決定（第百七十八条第一項第十二号から第十六号までに係るものに限る。第七項において同じ。）又は前条第十四項（同号に掲げる事実があると認める場合に限る。第七項において同じ。）若しくは第十五項（第百七十八条第一項第十二号から第十六号までに掲げる事実があると認める場合に限る。第七項において同じ。）の決定の効力が停止された場合において、当該事件について、当該決定を受けた者に対し、第百九十八条の二第一項各号に掲げる財産の没収又は同項各号に掲げる財産の価額の追徴の確定裁判があつたときは、内閣総理大臣は、第七項の規定による変更の処分に係る文書の謄本が送達されるまでの間、当該決定の効力を停止しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p4
+    type: tokusoku
+    text: 第一項の規定により前条第一項、第六項、第七項、第十項、第十一項、第十四項又は第十五項の決定の効力が停止された場合においては、課徴金の納付期限は、同条第二十一項の規定にかかわらず、当該事件についての裁判が確定した日から二月を経過した日とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第二十一項
+    references:
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p5
+    type: tokusoku
+    text: 第二項又は第三項の規定により前条第一項、第六項、第七項、第十項、第十一項、第十四項又は第十五項の決定の効力が停止された場合においては、課徴金の納付期限は、同条第二十一項及び前項の規定にかかわらず、次項又は第七項の規定による変更の処分に係る文書の謄本を発した日から二月を経過した日とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 前項
+    references:
+    - 前条
+    - 次項
+    - 前項
 - number: 6
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p6-honbun
+    type: honbun
+    text: 内閣総理大臣は、前条第一項の決定又は同条第六項、第七項、第十項、第十一項、第十四項若しくは第十五項の決定の後、同一事件について、当該決定を受けた者に対し、罰金の確定裁判があつたときは、当該決定に係る課徴金の額を、これらの規定による額から、第一号に掲げる額から第二号に掲げる額を控除した額を内閣府令で定めるところにより当該決定に係る課徴金の額に応じて按あん分して得た額に相当する額に変更しなければならない。
+    modality: gimu
+    references:
+    - 前条
+  - id: kinsho-hou-art-185-8-p6-tadashi
+    type: tadashi
+    text: ただし、第一号に掲げる額が第二号に掲げる額を超えないときは、この限りでない。
+    modality: jogai
+  - id: kinsho-hou-art-185-8-p6-kou-1
+    type: kou
+    text: 当該決定に係る課徴金の額を合計した額
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-185-8-p6-kou-2
+    type: kou
+    text: 当該罰金の額
+    modality: unspecified
+    item_number: 2
 - number: 7
-  has_proviso: false
-  has_items: false
+  has_proviso: true
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p7-honbun
+    type: honbun
+    text: 内閣総理大臣は、前条第一項の決定又は同条第十四項若しくは第十五項の決定の後、同一事件について、当該決定を受けた者に対し、第百九十八条の二第一項各号に掲げる財産の没収又は同項各号に掲げる財産の価額の追徴の確定裁判があつたときは、前条第一項の決定又は同条第十四項若しくは第十五項の決定に係る課徴金の額を、第一号に掲げる額から第二号に掲げる額を控除した額に変更しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
+  - id: kinsho-hou-art-185-8-p7-tadashi
+    type: tadashi
+    text: ただし、第一号に掲げる額が、第二号に掲げる額を超えないときは、この限りでない。
+    modality: jogai
+  - id: kinsho-hou-art-185-8-p7-kou-1
+    type: kou
+    text: 第百七十三条第一項、第百七十四条第一項、第百七十四条の二第一項、第百七十四条の三第一項若しくは第百七十五条第一項（同条第九項において準用する場合を含む。）若しくは第二項又は前条第十四項若しくは第十五項の規定による額
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-185-8-p7-kou-2
+    type: kou
+    text: 当該裁判において没収を命じられた第百九十八条の二第一項各号に掲げる財産に相当する額又は当該裁判において追徴を命じられた同項各号に掲げる財産の価額に相当する額（当該裁判において同項各号に掲げる財産の没収及び同項各号に掲げる財産の価額の追徴が命じられたときは、当該裁判において没収を命じられた同項各号に掲げる財産に相当する額及び当該裁判において追徴を命じられた同項各号に掲げる財産の価額に相当する額の合計額）
+    modality: unspecified
+    item_number: 2
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p8
+    type: simple
+    text: 第六項ただし書又は前項ただし書の場合においては、内閣総理大臣は、前条第一項、第六項、第七項、第十項、第十一項、第十四項又は第十五項の決定を取り消さなければならない。
+    modality: gimu
+    references:
+    - 前条
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p9
+    type: simple
+    text: 第六項又は第七項の規定による変更の処分は、文書をもつて行わなければならない。
+    modality: gimu
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p10
+    type: simple
+    text: 第六項又は第七項の規定による変更の処分は、当該処分に係る文書の謄本を送達することによつて、その効力を生ずる。
+    modality: unspecified
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p11
+    type: simple
+    text: 課徴金に係る請求権の時効は、第一項から第三項までの規定により前条第一項、第六項、第七項、第十項、第十一項、第十四項又は第十五項の決定の効力が停止されている間は、進行しない。
+    modality: unspecified
+    references:
+    - 前条
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-185-8-p12
+    type: simple
+    text: 第六項の規定により計算した課徴金の額に一円未満の端数があるときは、その端数は、切り捨てる。
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -112,9 +222,17 @@ parent_section:
 
 内閣総理大臣は、前条第一項の決定又は同条第六項、第七項、第十項、第十一項、第十四項若しくは第十五項の決定の後、同一事件について、当該決定を受けた者に対し、罰金の確定裁判があつたときは、当該決定に係る課徴金の額を、これらの規定による額から、第一号に掲げる額から第二号に掲げる額を控除した額を内閣府令で定めるところにより当該決定に係る課徴金の額に応じて按あん分して得た額に相当する額に変更しなければならない。ただし、第一号に掲げる額が第二号に掲げる額を超えないときは、この限りでない。
 
+一　当該決定に係る課徴金の額を合計した額
+
+二　当該罰金の額
+
 ### 第百八十五条の八第七項
 
 内閣総理大臣は、前条第一項の決定又は同条第十四項若しくは第十五項の決定の後、同一事件について、当該決定を受けた者に対し、第百九十八条の二第一項各号に掲げる財産の没収又は同項各号に掲げる財産の価額の追徴の確定裁判があつたときは、前条第一項の決定又は同条第十四項若しくは第十五項の決定に係る課徴金の額を、第一号に掲げる額から第二号に掲げる額を控除した額に変更しなければならない。ただし、第一号に掲げる額が、第二号に掲げる額を超えないときは、この限りでない。
+
+一　第百七十三条第一項、第百七十四条第一項、第百七十四条の二第一項、第百七十四条の三第一項若しくは第百七十五条第一項（同条第九項において準用する場合を含む。）若しくは第二項又は前条第十四項若しくは第十五項の規定による額
+
+二　当該裁判において没収を命じられた第百九十八条の二第一項各号に掲げる財産に相当する額又は当該裁判において追徴を命じられた同項各号に掲げる財産の価額に相当する額（当該裁判において同項各号に掲げる財産の没収及び同項各号に掲げる財産の価額の追徴が命じられたときは、当該裁判において没収を命じられた同項各号に掲げる財産に相当する額及び当該裁判において追徴を命じられた同項各号に掲げる財産の価額に相当する額の合計額）
 
 ### 第百八十五条の八第八項
 

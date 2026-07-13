@@ -51,6 +51,16 @@ paragraphs:
     type: hashira
     text: 利用請求に対する処分又は利用請求に係る不作為に係る審査請求があったときは、国立公文書館等の長は、次の各号のいずれかに該当する場合を除き、公文書管理委員会に諮問しなければならない。
     modality: gimu
+  - id: koubunsho-kanri-hou-art-21-p4-kou-1
+    type: kou
+    text: 審査請求が不適法であり、却下する場合
+    modality: unspecified
+    item_number: 1
+  - id: koubunsho-kanri-hou-art-21-p4-kou-2
+    type: kou
+    text: 裁決で、審査請求の全部を認容し、当該審査請求に係る特定歴史公文書等の全部を利用させることとする場合（当該特定歴史公文書等の利用について反対意見書が提出されている場合を除く。）
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -67,10 +77,6 @@ parent_section:
 
 ### 第二十一条第一項
 
-<!-- segment: simple id: koubunsho-kanri-hou-art-21-p1 -->
-<!-- segment: simple id: koubunsho-kanri-hou-art-21-p2 -->
-<!-- segment: simple id: koubunsho-kanri-hou-art-21-p3 -->
-<!-- segment: hashira id: koubunsho-kanri-hou-art-21-p4-hashira -->
 利用請求に対する処分又は利用請求に係る不作為について不服がある者は、国立公文書館等の長に対し、審査請求をすることができる。
 
 ### 第二十一条第二項
@@ -84,3 +90,7 @@ parent_section:
 ### 第二十一条第四項
 
 利用請求に対する処分又は利用請求に係る不作為に係る審査請求があったときは、国立公文書館等の長は、次の各号のいずれかに該当する場合を除き、公文書管理委員会に諮問しなければならない。
+
+一　審査請求が不適法であり、却下する場合
+
+二　裁決で、審査請求の全部を認容し、当該審査請求に係る特定歴史公文書等の全部を利用させることとする場合（当該特定歴史公文書等の利用について反対意見書が提出されている場合を除く。）

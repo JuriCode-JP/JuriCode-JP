@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-5-2-p1
+    type: simple
+    text: 地方団体の長は、職権による換価の猶予をする場合において、必要があると認めるときは、滞納者に対し、財産目録、担保の提供に関する書類その他の当該地方団体の条例で定める書類の提出を求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-5-2-p2
+    type: simple
+    text: 地方団体の長は、前条第二項において読み替えて準用する第十五条第四項の規定により職権による換価の猶予をした期間を延長する場合において、必要があると認めるときは、当該職権による換価の猶予を受けた者に対し、財産目録、担保の提供に関する書類その他の当該地方団体の条例で定める書類の提出を求めることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-15-5-2-p3
+    type: junyou
+    text: 第十五条の二の二第一項の規定は、職権による換価の猶予について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

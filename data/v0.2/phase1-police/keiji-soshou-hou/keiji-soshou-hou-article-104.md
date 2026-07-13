@@ -14,7 +14,7 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keiji-soshou-hou-art-104-p1
@@ -23,6 +23,16 @@ paragraphs:
     modality: kanou_negative
     references:
     - 前条
+  - id: keiji-soshou-hou-art-104-p1-kou-1
+    type: kou
+    text: 衆議院若しくは参議院の議員又はその職に在つた者
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-104-p1-kou-2
+    type: kou
+    text: 内閣総理大臣その他の国務大臣又はその職に在つた者
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,10 +62,12 @@ parent_section:
 
 ### 第百四条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-104-p1 -->
 左に掲げる者が前条の申立をしたときは、第一号に掲げる者についてはその院、第二号に掲げる者については内閣の承諾がなければ、押収をすることはできない。
+
+一　衆議院若しくは参議院の議員又はその職に在つた者
+
+二　内閣総理大臣その他の国務大臣又はその職に在つた者
 
 ### 第百四条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-104-p2 -->
 前項の場合において、衆議院、参議院又は内閣は、国の重大な利益を害する場合を除いては、承諾を拒むことができない。

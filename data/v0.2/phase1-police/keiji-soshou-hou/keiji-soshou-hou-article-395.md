@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百九十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-395-p1 -->
 控訴の申立が法令上の方式に違反し、又は控訴権の消滅後にされたものであるときは、判決で控訴を棄却しなければならない。

@@ -16,47 +16,89 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-4-p1
+    type: simple
+    text: 指定納付受託者が第二百三十一条の二の五第一項の歳入等（分担金等であるものに限る。以下この項において同じ。）を同条第一項の指定する日までに納付しない場合における当該歳入等の徴収については、地方税法第十三条の四の規定を準用する。この場合における当該歳入等に係る徴収金の先取特権の順位は、国税及び地方税に次ぐものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-4-p2
+    type: simple
+    text: 普通地方公共団体の長以外の機関がした前項前段において準用する地方税法第十三条の四第一項の規定による処分についての審査請求は、普通地方公共団体の長が当該機関の最上級行政庁でない場合においても、当該普通地方公共団体の長に対してするものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-4-p3
+    type: simple
+    text: 第一項前段において準用する地方税法第十三条の四第一項の規定により普通地方公共団体の長がした処分についての審査請求については、同法第十九条の四の規定を準用する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-4-p4
+    type: simple
+    text: 普通地方公共団体の長は、第一項前段において準用する地方税法第十三条の四第一項の規定による処分についての審査請求がされた場合には、当該審査請求が不適法であり、却下するときを除き、議会に諮問した上、当該審査請求に対する裁決をしなければならない。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-4-p5
+    type: simple
+    text: 議会は、前項の規定による諮問を受けた日から二十日以内に意見を述べなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-4-p6
+    type: simple
+    text: 普通地方公共団体の長は、第四項の規定による諮問をしないで同項の審査請求を却下したときは、その旨を議会に報告しなければならない。
+    modality: gimu
+    references:
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-4-p7
+    type: simple
+    text: 第四項の審査請求に対する裁決を経た後でなければ、第一項前段において準用する地方税法第十三条の四第一項の規定による処分については、裁判所に出訴することができない。
+    modality: kanou_negative
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-4-p8
+    type: simple
+    text: 第一項前段において準用する地方税法第十三条の四第一項の規定による処分中差押物件の公売は、その処分が確定するまで執行を停止する。
+    modality: unspecified
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-4-p9
+    type: simple
+    text: 第一項前段において準用する地方税法第十三条の四第一項の規定による処分は、当該普通地方公共団体の区域外においても、することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-76-5-p1
+    type: simple
+    text: 指定薬物については、医事若しくは薬事又は自然科学に関する記事を掲載する医薬関係者等（医薬関係者又は自然科学に関する研究に従事する者をいう。）向けの新聞又は雑誌により行う場合その他主として指定薬物を医療等の用途に使用する者を対象として行う場合を除き、何人も、その広告を行つてはならない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

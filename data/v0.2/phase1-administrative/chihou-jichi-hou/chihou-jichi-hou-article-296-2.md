@@ -13,25 +13,41 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-2-p1
+    type: simple
+    text: 市町村及び特別区は、条例で、財産区に財産区管理会を置くことができる。但し、市町村及び特別区の廃置分合又は境界変更の場合において、この法律又はこれに基く政令の定める財産処分に関する協議により財産区を設けるときは、その協議により当該財産区に財産区管理会を置くことができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-2-p2
+    type: simple
+    text: 財産区管理会は、財産区管理委員七人以内を以てこれを組織する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-2-p3
+    type: simple
+    text: 財産区管理委員は、非常勤とし、その任期は、四年とする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-296-2-p4
+    type: simple
+    text: 第二百九十五条の規定により財産区の議会又は総会を設ける場合においては、財産区管理会を置くことができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

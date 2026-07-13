@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-7-p1
+    type: simple
+    text: 自動車は、本線車道に入ろうとする場合において、加速車線が設けられているときは、その加速車線を通行しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-7-p2-zen
+    type: zen_dan
+    text: 自動車は、その通行している本線車道から出ようとする場合においては、あらかじめその前から出口に接続する車両通行帯を通行しなければならない。
+    modality: gimu
+  - id: douro-koutsuu-hou-art-75-7-p2-kou
+    type: kou_dan
+    text: この場合において、減速車線が設けられているときは、その減速車線を通行しなければならない。
+    modality: gimu
+    depends_on: douro-koutsuu-hou-art-75-7-p2-zen
 cases: []
 amendments: []
 tags:
@@ -45,3 +58,5 @@ parent_section:
 ### 第七十五条の七第二項
 
 自動車は、その通行している本線車道から出ようとする場合においては、あらかじめその前から出口に接続する車両通行帯を通行しなければならない。この場合において、減速車線が設けられているときは、その減速車線を通行しなければならない。
+
+（罰則　第百二十一条第一項第八号）

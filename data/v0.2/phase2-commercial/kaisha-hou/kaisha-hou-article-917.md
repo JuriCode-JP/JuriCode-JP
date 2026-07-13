@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる会社の区分に応じ、当該各号に定める者の職務の執行を停止し、若しくはその職務を代行する者を選任する仮処分命令又はその仮処分命令を変更し、若しくは取り消す決定がされたときは、その本店の所在地において、その登記をしなければならない。
     modality: gimu
+  - id: kaisha-hou-art-917-p1-kou-1
+    type: kou
+    text: 株式会社　取締役（監査等委員会設置会社にあっては、監査等委員である取締役又はそれ以外の取締役）、会計参与、監査役、代表取締役、委員（指名委員会、監査委員会又は報酬委員会の委員をいう。）、執行役又は代表執行役
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-917-p1-kou-2
+    type: kou
+    text: 合名会社　社員
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-917-p1-kou-3
+    type: kou
+    text: 合資会社　社員
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-917-p1-kou-4
+    type: kou
+    text: 合同会社　業務を執行する社員
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -41,5 +61,12 @@ parent_section:
 
 ### 第九百十七条
 
-<!-- segment: hashira id: kaisha-hou-art-917-p1-hashira -->
 次の各号に掲げる会社の区分に応じ、当該各号に定める者の職務の執行を停止し、若しくはその職務を代行する者を選任する仮処分命令又はその仮処分命令を変更し、若しくは取り消す決定がされたときは、その本店の所在地において、その登記をしなければならない。
+
+一　株式会社　取締役（監査等委員会設置会社にあっては、監査等委員である取締役又はそれ以外の取締役）、会計参与、監査役、代表取締役、委員（指名委員会、監査委員会又は報酬委員会の委員をいう。）、執行役又は代表執行役
+
+二　合名会社　社員
+
+三　合資会社　社員
+
+四　合同会社　業務を執行する社員

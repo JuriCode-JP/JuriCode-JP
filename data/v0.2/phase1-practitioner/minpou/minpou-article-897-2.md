@@ -13,15 +13,31 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-897-2-p1-honbun
+    type: honbun
+    text: 家庭裁判所は、利害関係人又は検察官の請求によって、いつでも、相続財産の管理人の選任その他の相続財産の保存に必要な処分を命ずることができる。
+    modality: kanou_kenri
+  - id: minpou-art-897-2-p1-tadashi
+    type: tadashi
+    text: ただし、相続人が一人である場合においてその相続人が相続の単純承認をしたとき、相続人が数人ある場合において遺産の全部の分割がされたとき、又は第九百五十二条第一項の規定により相続財産の清算人が選任されているときは、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-897-2-p2
+    type: junyou
+    text: 第二十七条から第二十九条までの規定は、前項の規定により家庭裁判所が相続財産の管理人を選任した場合について準用する。
+    modality: unspecified
+    applies_provisions:
+    - 第二十七条から第二十九条まで
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

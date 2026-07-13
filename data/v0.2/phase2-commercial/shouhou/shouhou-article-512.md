@@ -39,5 +39,4 @@ parent_section:
 
 ### 第五百十二条
 
-<!-- segment: simple id: shouhou-art-512-p1 -->
 商人がその営業の範囲内において他人のために行為をしたときは、相当な報酬を請求することができる。

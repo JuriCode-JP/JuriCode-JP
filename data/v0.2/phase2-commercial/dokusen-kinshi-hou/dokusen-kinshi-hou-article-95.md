@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者が、その法人又は人の業務又は財産に関して、次の各号に掲げる規定の違反行為をしたときは、行為者を罰するほか、その法人又は人に対しても、当該各号に定める罰金刑を科する。
     modality: unspecified
+  - id: dokusen-kinshi-hou-art-95-p1-kou-1
+    type: kou
+    text: 第八十九条　五億円以下の罰金刑
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-95-p1-kou-2
+    type: kou
+    text: 第九十条第三号（第七条第一項又は第八条の二第一項若しくは第三項の規定による命令（第三条又は第八条第一号の規定に違反する行為の差止めを命ずる部分に限る。）に違反した場合を除く。）　三億円以下の罰金刑
+    modality: unspecified
+    item_number: 2
+  - id: dokusen-kinshi-hou-art-95-p1-kou-3
+    type: kou
+    text: 第九十四条　二億円以下の罰金刑
+    modality: unspecified
+    item_number: 3
+  - id: dokusen-kinshi-hou-art-95-p1-kou-4
+    type: kou
+    text: 第九十条第一号、第二号若しくは第三号（第七条第一項又は第八条の二第一項若しくは第三項の規定による命令（第三条又は第八条第一号の規定に違反する行為の差止めを命ずる部分に限る。）に違反した場合に限る。）、第九十一条、第九十一条の二又は第九十四条の二　各本条の罰金刑
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +50,26 @@ paragraphs:
     type: hashira
     text: 法人でない団体の代表者、管理人、代理人、使用人その他の従業者がその団体の業務又は財産に関して、次の各号に掲げる規定の違反行為をしたときは、行為者を罰するほか、その団体に対しても、当該各号に定める罰金刑を科する。
     modality: unspecified
+  - id: dokusen-kinshi-hou-art-95-p2-kou-1
+    type: kou
+    text: 第八十九条　五億円以下の罰金刑
+    modality: unspecified
+    item_number: 1
+  - id: dokusen-kinshi-hou-art-95-p2-kou-2
+    type: kou
+    text: 第九十条第三号（第七条第一項又は第八条の二第一項若しくは第三項の規定による命令（第三条又は第八条第一号の規定に違反する行為の差止めを命ずる部分に限る。）に違反した場合を除く。）　三億円以下の罰金刑
+    modality: unspecified
+    item_number: 2
+  - id: dokusen-kinshi-hou-art-95-p2-kou-3
+    type: kou
+    text: 第九十四条　二億円以下の罰金刑
+    modality: unspecified
+    item_number: 3
+  - id: dokusen-kinshi-hou-art-95-p2-kou-4
+    type: kou
+    text: 第九十条第一号、第二号若しくは第三号（第七条第一項又は第八条の二第一項若しくは第三項の規定による命令（第三条又は第八条第一号の規定に違反する行為の差止めを命ずる部分に限る。）に違反した場合に限る。）又は第九十四条の二　各本条の罰金刑
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
@@ -88,14 +128,27 @@ parent_section:
 
 ### 第九十五条第一項
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-95-p1-hashira -->
-<!-- segment: simple id: dokusen-kinshi-hou-art-95-p3 -->
 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者が、その法人又は人の業務又は財産に関して、次の各号に掲げる規定の違反行為をしたときは、行為者を罰するほか、その法人又は人に対しても、当該各号に定める罰金刑を科する。
+
+一　第八十九条　五億円以下の罰金刑
+
+二　第九十条第三号（第七条第一項又は第八条の二第一項若しくは第三項の規定による命令（第三条又は第八条第一号の規定に違反する行為の差止めを命ずる部分に限る。）に違反した場合を除く。）　三億円以下の罰金刑
+
+三　第九十四条　二億円以下の罰金刑
+
+四　第九十条第一号、第二号若しくは第三号（第七条第一項又は第八条の二第一項若しくは第三項の規定による命令（第三条又は第八条第一号の規定に違反する行為の差止めを命ずる部分に限る。）に違反した場合に限る。）、第九十一条、第九十一条の二又は第九十四条の二　各本条の罰金刑
 
 ### 第九十五条第二項
 
-<!-- segment: hashira id: dokusen-kinshi-hou-art-95-p2-hashira -->
 法人でない団体の代表者、管理人、代理人、使用人その他の従業者がその団体の業務又は財産に関して、次の各号に掲げる規定の違反行為をしたときは、行為者を罰するほか、その団体に対しても、当該各号に定める罰金刑を科する。
+
+一　第八十九条　五億円以下の罰金刑
+
+二　第九十条第三号（第七条第一項又は第八条の二第一項若しくは第三項の規定による命令（第三条又は第八条第一号の規定に違反する行為の差止めを命ずる部分に限る。）に違反した場合を除く。）　三億円以下の罰金刑
+
+三　第九十四条　二億円以下の罰金刑
+
+四　第九十条第一号、第二号若しくは第三号（第七条第一項又は第八条の二第一項若しくは第三項の規定による命令（第三条又は第八条第一号の規定に違反する行為の差止めを命ずる部分に限る。）に違反した場合に限る。）又は第九十四条の二　各本条の罰金刑
 
 ### 第九十五条第三項
 
@@ -103,15 +156,12 @@ parent_section:
 
 ### 第九十五条第四項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-95-p4 -->
 第一項又は第二項の規定により第八十九条の違反行為につき法人若しくは人又は団体に罰金刑を科する場合における時効の期間は、同条の罪についての時効の期間による。
 
 ### 第九十五条第五項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-95-p5 -->
 第二項の場合においては、代表者又は管理人が、その訴訟行為につきその団体を代表するほか、法人を被告人又は被疑者とする場合の訴訟行為に関する刑事訴訟法の規定を準用する。
 
 ### 第九十五条第六項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-95-p6 -->
 第三項の規定により前条第一項の違反行為につき法人又は人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。

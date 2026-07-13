@@ -14,19 +14,45 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-22-10-6-p1-hashira
+    type: hashira
+    text: 施行令第三十九条の十三第十項に規定する財務省令で定める金額は、同項の総負債の額に係る事業年度終了の日における貸借対照表に計上されている次に掲げる金額のうちいずれか少ない金額とする。
+    modality: gimu
+    references:
+    - 同項
+  - id: sochi-hou-shikoukisoku-art-22-10-6-p1-kou-1
+    type: kou
+    text: 債券現先取引等（法第四十二条の二第一項に規定する債券現先取引及び法第六十六条の五第五項第八号に規定する現金担保付債券貸借取引をいう。以下この項において同じ。）に係る借入金の金額（当該債券現先取引等に係る借入金の金額が他の借入金の金額と区分されていない場合には、当該債券現先取引等に係る借入金の金額を含む勘定科目に計上されている金額）
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-22-10-6-p1-kou-2
+    type: kou
+    text: 債券現先取引等に係る貸付金の金額（当該債券現先取引等に係る貸付金の金額が他の貸付金の金額と区分されていない場合には、当該債券現先取引等に係る貸付金の金額を含む勘定科目に計上されている金額）
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-22-10-6-p2
+    type: simple
+    text: 施行令第三十九条の十三第二十九項に規定する所得税法第百六十四条第一項第一号イに掲げる国内源泉所得に係る施行令第三十九条の十三第二十九項に規定する財務省令で定める規定は、外国居住者等の所得に対する相互主義による所得税等の非課税等に関する法律第七条第一項及び第四項、第十一条第一項及び第三項、第十五条第一項、第二項、第五項、第六項、第十九項（第二号を除く。）及び第二十三項、第十九条第一項及び第四項並びに第二十条第一項の規定とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-22-10-6-p3
+    type: simple
+    text: 施行令第三十九条の十三第二十九項に規定する法人税法第百四十一条第一号イに掲げる国内源泉所得に係る同項に規定する財務省令で定める規定は、外国居住者等の所得に対する相互主義による所得税等の非課税等に関する法律第七条第二項から第四項まで、第十一条第一項から第三項まで、第十五条第十九項（第一号を除く。）から第二十四項まで及び第十九条第二項から第四項までの規定とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -44,6 +70,10 @@ parent_section:
 ### 第二十二条の十の六第一項
 
 施行令第三十九条の十三第十項に規定する財務省令で定める金額は、同項の総負債の額に係る事業年度終了の日における貸借対照表に計上されている次に掲げる金額のうちいずれか少ない金額とする。
+
+一　債券現先取引等（法第四十二条の二第一項に規定する債券現先取引及び法第六十六条の五第五項第八号に規定する現金担保付債券貸借取引をいう。以下この項において同じ。）に係る借入金の金額（当該債券現先取引等に係る借入金の金額が他の借入金の金額と区分されていない場合には、当該債券現先取引等に係る借入金の金額を含む勘定科目に計上されている金額）
+
+二　債券現先取引等に係る貸付金の金額（当該債券現先取引等に係る貸付金の金額が他の貸付金の金額と区分されていない場合には、当該債券現先取引等に係る貸付金の金額を含む勘定科目に計上されている金額）
 
 ### 第二十二条の十の六第二項
 

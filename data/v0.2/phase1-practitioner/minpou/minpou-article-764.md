@@ -45,5 +45,4 @@ parent_section:
 
 ### 第七百六十四条
 
-<!-- segment: junyou id: minpou-art-764-p1 applies_provisions: 第七百四十七条 -->
 第七百三十八条、第七百三十九条及び第七百四十七条の規定は、協議上の離婚について準用する。

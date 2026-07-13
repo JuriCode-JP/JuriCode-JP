@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-223-2-p1
+    type: simple
+    text: 法第六十三条の二第二項の厚生労働省令で定める医療機器は、主として一般消費者の生活の用に供されることが目的とされている医療機器であつて別表第四の二に掲げるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

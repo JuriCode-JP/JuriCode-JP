@@ -16,7 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-53-2-p1-zen
+    type: zen_dan
+    text: 前条第一項、第二項又は第三十四項の申告書を提出した法人は、当該申告書に係る法人税割額の計算の基礎となつた法人税の額について国の税務官署の更正を受けたことに伴い当該申告書に係る法人税割額の課税標準となる法人税額又は法人税割額が過大となる場合には、国の税務官署が当該更正の通知をした日から二月以内に限り、総務省令の定めるところにより、道府県知事に対し、当該法人税額又は法人税割額につき、更正の請求をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: chihou-zei-hou-art-53-2-p1-kou
+    type: kou_dan
+    text: この場合においては、第二十条の九の三第三項に規定する更正請求書には、同項に規定する事項のほか、国の税務官署が当該更正の通知をした日を記載しなければならない。
+    modality: gimu
+    references:
+    - 同項
+    depends_on: chihou-zei-hou-art-53-2-p1-zen
 cases: []
 amendments: []
 tags:

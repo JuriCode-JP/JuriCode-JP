@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第七十六条第二項の厚生労働省令で定める事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-267-p1-kou-1
+    type: kou
+    text: 法第八十条第九項に規定する化粧品であつて本邦に輸出されるものを外国において製造販売し、又は製造する者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-267-p1-kou-2
+    type: kou
+    text: 前号に掲げる者の事務所又は製造所の名称及び所在地
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-267-p1-kou-3
+    type: kou
+    text: 当該品目を本邦内において製造販売しようとする者の氏名及び住所
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -59,15 +74,18 @@ parent_section:
 
 ### 第二百六十七条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-267-p1-hashira -->
 令第七十六条第二項の厚生労働省令で定める事項は、次のとおりとする。
+
+一　法第八十条第九項に規定する化粧品であつて本邦に輸出されるものを外国において製造販売し、又は製造する者の氏名及び住所
+
+二　前号に掲げる者の事務所又は製造所の名称及び所在地
+
+三　当該品目を本邦内において製造販売しようとする者の氏名及び住所
 
 ### 第二百六十七条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-267-p2 -->
 前項の届出は、様式第百十五による届書（正本一通及び副本一通）を機構を経由して厚生労働大臣に提出することによつて行うものとする。
 
 ### 第二百六十七条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-267-p3 -->
 前項の届書には、製造販売しようとする第一項第一号に規定する化粧品の品目の一覧表を添えなければならない。

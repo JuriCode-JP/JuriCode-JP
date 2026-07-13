@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-20-p1
+    type: simple
+    text: 前条において準用する第四十二条第一項の規定により必要な基準が定められた生物由来製品であつて、その基準に適合しないものは、販売し、貸与し、授与し、又は販売、貸与若しくは授与の目的で製造し、輸入し、貯蔵し、若しくは陳列してはならない。
+    modality: gimu_negative
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -14,13 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
   segments:
   - id: keihou-art-32-p1
     type: simple
     text: 時効は、刑の言渡しが確定した後、次の期間その執行を受けないことによって完成する。
     modality: unspecified
+  - id: keihou-art-32-p1-kou-1
+    type: kou
+    text: 無期拘禁刑については三十年
+    modality: unspecified
+    item_number: 1
+  - id: keihou-art-32-p1-kou-2
+    type: kou
+    text: 十年以上の有期拘禁刑については二十年
+    modality: unspecified
+    item_number: 2
+  - id: keihou-art-32-p1-kou-3
+    type: kou
+    text: 三年以上十年未満の拘禁刑については十年
+    modality: unspecified
+    item_number: 3
+  - id: keihou-art-32-p1-kou-4
+    type: kou
+    text: 三年未満の拘禁刑については五年
+    modality: unspecified
+    item_number: 4
+  - id: keihou-art-32-p1-kou-5
+    type: kou
+    text: 罰金については三年
+    modality: unspecified
+    item_number: 5
+  - id: keihou-art-32-p1-kou-6
+    type: kou
+    text: 拘留、科料及び没収については一年
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -39,5 +69,16 @@ parent_section:
 
 ### 第三十二条
 
-<!-- segment: simple id: keihou-art-32-p1 -->
 時効は、刑の言渡しが確定した後、次の期間その執行を受けないことによって完成する。
+
+一　無期拘禁刑については三十年
+
+二　十年以上の有期拘禁刑については二十年
+
+三　三年以上十年未満の拘禁刑については十年
+
+四　三年未満の拘禁刑については五年
+
+五　罰金については三年
+
+六　拘留、科料及び没収については一年

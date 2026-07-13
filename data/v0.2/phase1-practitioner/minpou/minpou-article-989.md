@@ -50,10 +50,8 @@ parent_section:
 
 ### 第九百八十九条第一項
 
-<!-- segment: simple id: minpou-art-989-p1 -->
 遺贈の承認及び放棄は、撤回することができない。
 
 ### 第九百八十九条第二項
 
-<!-- segment: junyou id: minpou-art-989-p2 -->
 第九百十九条第二項及び第三項の規定は、遺贈の承認及び放棄について準用する。

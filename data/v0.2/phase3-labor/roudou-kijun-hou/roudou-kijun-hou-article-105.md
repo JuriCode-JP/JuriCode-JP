@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百五条
 
-<!-- segment: simple id: roudou-kijun-hou-art-105-p1 -->
 労働基準監督官は、職務上知り得た秘密を漏してはならない。労働基準監督官を退官した後においても同様である。

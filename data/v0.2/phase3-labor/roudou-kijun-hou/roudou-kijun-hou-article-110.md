@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百十条
 
-<!-- segment: simple id: roudou-kijun-hou-art-110-p1 -->
 削除

@@ -46,6 +46,4 @@ parent_section:
 
 ### 第七十六条
 
-<!-- segment: zen_dan id: gyousei-fufuku-shinsa-hou-art-76-p1-zen -->
-審査関係人は、審査会に対し、主張書面又は資料を提出することができる。<!-- segment: kou_dan id: gyousei-fufuku-shinsa-hou-art-76-p1-kou depends_on: gyousei-fufuku-shinsa-hou-art-76-p1-zen -->
-この場合において、審査会が、主張書面又は資料を提出すべき相当の期間を定めたときは、その期間内にこれを提出しなければならない。
+審査関係人は、審査会に対し、主張書面又は資料を提出することができる。この場合において、審査会が、主張書面又は資料を提出すべき相当の期間を定めたときは、その期間内にこれを提出しなければならない。

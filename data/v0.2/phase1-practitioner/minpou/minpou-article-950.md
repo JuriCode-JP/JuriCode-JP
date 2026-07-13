@@ -22,7 +22,7 @@ paragraphs:
     text: 相続人が限定承認をすることができる間又は相続財産が相続人の固有財産と混合しない間は、相続人の債権者は、家庭裁判所に対して財産分離の請求をすることができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -52,10 +52,8 @@ parent_section:
 
 ### 第九百五十条第一項
 
-<!-- segment: simple id: minpou-art-950-p1 -->
 相続人が限定承認をすることができる間又は相続財産が相続人の固有財産と混合しない間は、相続人の債権者は、家庭裁判所に対して財産分離の請求をすることができる。
 
 ### 第九百五十条第二項
 
-<!-- segment: junyou id: minpou-art-950-p2 applies_provisions: 第九百四十八条 -->
 第三百四条、第九百二十五条、第九百二十七条から第九百三十四条まで、第九百四十三条から第九百四十五条まで及び第九百四十八条の規定は、前項の場合について準用する。ただし、第九百二十七条の公告及び催告は、財産分離の請求をした債権者がしなければならない。

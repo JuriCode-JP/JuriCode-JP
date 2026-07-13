@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十三条
 
-<!-- segment: simple id: roudou-kijun-hou-art-63-p1 -->
 使用者は、満十八才に満たない者を坑内で労働させてはならない。

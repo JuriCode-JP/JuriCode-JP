@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 次に掲げる事由がある場合には、その事由が終了する（申立ての取下げ又は法律の規定に従わないことによる取消しによってその事由が終了した場合にあっては、その終了の時から六箇月を経過する）までの間は、時効は、完成しない。
     modality: unspecified
+  - id: minpou-art-148-p1-kou-1
+    type: kou
+    text: 強制執行
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-148-p1-kou-2
+    type: kou
+    text: 担保権の実行
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-148-p1-kou-3
+    type: kou
+    text: 民事執行法（昭和五十四年法律第四号）第百九十五条に規定する担保権の実行としての競売の例による競売
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-148-p1-kou-4
+    type: kou
+    text: 民事執行法第百九十六条に規定する財産開示手続又は同法第二百四条に規定する第三者からの情報取得手続
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: true
   has_items: false
@@ -57,11 +77,16 @@ parent_section:
 
 ### 第百四十八条第一項
 
-<!-- segment: hashira id: minpou-art-148-p1-hashira -->
 次に掲げる事由がある場合には、その事由が終了する（申立ての取下げ又は法律の規定に従わないことによる取消しによってその事由が終了した場合にあっては、その終了の時から六箇月を経過する）までの間は、時効は、完成しない。
+
+一　強制執行
+
+二　担保権の実行
+
+三　民事執行法（昭和五十四年法律第四号）第百九十五条に規定する担保権の実行としての競売の例による競売
+
+四　民事執行法第百九十六条に規定する財産開示手続又は同法第二百四条に規定する第三者からの情報取得手続
 
 ### 第百四十八条第二項
 
-<!-- segment: honbun id: minpou-art-148-p2-honbun -->
-前項の場合には、時効は、同項各号に掲げる事由が終了した時から新たにその進行を始める。<!-- segment: tadashi id: minpou-art-148-p2-tadashi -->
-ただし、申立ての取下げ又は法律の規定に従わないことによる取消しによってその事由が終了した場合は、この限りでない。
+前項の場合には、時効は、同項各号に掲げる事由が終了した時から新たにその進行を始める。ただし、申立ての取下げ又は法律の規定に従わないことによる取消しによってその事由が終了した場合は、この限りでない。

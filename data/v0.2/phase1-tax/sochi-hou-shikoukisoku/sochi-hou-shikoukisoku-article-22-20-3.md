@@ -16,27 +16,65 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-22-20-3-p1
+    type: simple
+    text: 施行令第三十九条の三十五の三第一項に規定する財務省令で定める金額は、投資信託財産の計算に関する規則（平成十二年総理府令第百三十三号。第三項及び第四項において「計算規則」という。）第五十三条第三項の規定により同条第一項第四号に掲げる元本調整引当額として表示された金額とする。
+    modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-22-20-3-p2-honbun
+    type: honbun
+    text: 法第六十八条の三の三第一項第一号ロ及び施行令第三十九条の三十五の三第八項第二号に規定する財務省令で定めるものは、第二十二条の十八の四第一項各号に掲げるものとする。
+    modality: gimu
+  - id: sochi-hou-shikoukisoku-art-22-20-3-p2-tadashi
+    type: tadashi
+    text: ただし、同項第二号に掲げる者以外の者については金融商品取引法第二条に規定する定義に関する内閣府令第十条第一項ただし書の規定により金融庁長官が指定する者を除き、同号に掲げる者については同項ただし書の規定により金融庁長官が指定する者に限る。
+    modality: unspecified
+    references:
+    - 同項
 - number: 3
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-22-20-3-p3-hashira
+    type: hashira
+    text: 施行令第三十九条の三十五の三第五項第二号に規定する財務省令で定めるところにより計算した金額は、計算規則第四十九条第一項の規定により同項の税引前当期純利益金額として表示された金額（次の各号に掲げる金額がある場合には、当該各号に定める金額を控除した金額）とする。
+    modality: gimu
+    references:
+    - 同項
+  - id: sochi-hou-shikoukisoku-art-22-20-3-p3-kou-1
+    type: kou
+    text: 計算規則第五十二条第一項第二号に掲げる期首欠損金として表示された金額　当該表示された金額
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-22-20-3-p3-kou-2
+    type: kou
+    text: 計算規則第四十六条第三項の規定により同項の減損損失に細分された金額　当該細分された金額の百分の七十に相当する金額
+    modality: unspecified
+    item_number: 2
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-22-20-3-p4
+    type: simple
+    text: 施行令第三十九条の三十五の三第五項第二号ロに規定する超過分配額に充てられた金額として同号ロに規定する財務省令で定める金額は、計算規則第五十四条第三項の規定により同条第一項第四号に掲げる元本調整戻入額として表示された金額とする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-22-20-3-p5
+    type: simple
+    text: 施行令第三十九条の三十五の三第八項第一号イに規定する財務省令で定めるところにより計算した数又は金額は、法第六十八条の三の三第一項に規定する特定投資信託（以下この項において「特定投資信託」という。）に係る同条第一項に規定する受託法人（以下この項において「受託法人」という。）の匿名組合契約等（施行令第三十九条の三十五の三第六項に規定する匿名組合契約等をいう。以下この項において同じ。）に基づいて出資を受けている者の事業であつて当該匿名組合契約等の目的である事業に係る財産である同号イの法人の株式又は出資の数又は金額に、当該特定投資信託に係る受託法人の当該匿名組合契約等に基づく出資の金額が当該金額及び当該匿名組合契約等に基づいて出資を受けている者の当該匿名組合契約等とその目的である事業を同じくする他の匿名組合契約等に基づいて受けている出資の金額の合計額のうちに占める割合を乗じて計算した数又は金額（当該特定投資信託に係る受託法人の匿名組合契約等（その目的である事業に係る財産に当該法人の株式又は出資が含まれるものに限る。）が二以上ある場合には、それぞれの当該計算した数又は金額を合計した数又は金額）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -62,6 +100,10 @@ parent_section:
 ### 第二十二条の二十の三第三項
 
 施行令第三十九条の三十五の三第五項第二号に規定する財務省令で定めるところにより計算した金額は、計算規則第四十九条第一項の規定により同項の税引前当期純利益金額として表示された金額（次の各号に掲げる金額がある場合には、当該各号に定める金額を控除した金額）とする。
+
+一　計算規則第五十二条第一項第二号に掲げる期首欠損金として表示された金額　当該表示された金額
+
+二　計算規則第四十六条第三項の規定により同項の減損損失に細分された金額　当該細分された金額の百分の七十に相当する金額
 
 ### 第二十二条の二十の三第四項
 

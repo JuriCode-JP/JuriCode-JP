@@ -22,7 +22,7 @@ paragraphs:
     text: 自動車税は、自動車に対し、主たる定置場所在の道府県において、その所有者に課する。
     modality: unspecified
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -55,10 +55,8 @@ parent_section:
 
 ### 第百四十六条第一項
 
-<!-- segment: simple id: chihou-zei-hou-art-146-p1 -->
 自動車税は、自動車に対し、主たる定置場所在の道府県において、その所有者に課する。
 
 ### 第百四十六条第二項
 
-<!-- segment: tokusoku id: chihou-zei-hou-art-146-p2 override_flag: true override_target: 前項 -->
 自動車の所有者が第百四十八条第一項の規定により自動車税を課することができない者である場合には、前項の規定にかかわらず、当該自動車の使用者に自動車税を課する。ただし、公用又は公共の用に供する自動車については、この限りでない。

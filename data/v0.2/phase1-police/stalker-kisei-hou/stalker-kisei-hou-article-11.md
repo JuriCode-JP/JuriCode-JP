@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 国及び地方公共団体は、ストーカー行為等の防止及びストーカー行為等の相手方の保護に資するための次に掲げる措置を講ずるよう努めなければならない。
     modality: doryoku_gimu
+  - id: stalker-kisei-hou-art-11-p1-kou-1
+    type: kou
+    text: ストーカー行為等の実態の把握
+    modality: unspecified
+    item_number: 1
+  - id: stalker-kisei-hou-art-11-p1-kou-2
+    type: kou
+    text: 人材の養成及び資質の向上
+    modality: unspecified
+    item_number: 2
+  - id: stalker-kisei-hou-art-11-p1-kou-3
+    type: kou
+    text: 教育活動、広報活動等を通じた知識の普及及び啓発
+    modality: unspecified
+    item_number: 3
+  - id: stalker-kisei-hou-art-11-p1-kou-4
+    type: kou
+    text: 民間の自主的な組織活動との連携協力及びその支援
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -34,5 +54,12 @@ tags:
 
 ### 第十一条
 
-<!-- segment: hashira id: stalker-kisei-hou-art-11-p1-hashira -->
 国及び地方公共団体は、ストーカー行為等の防止及びストーカー行為等の相手方の保護に資するための次に掲げる措置を講ずるよう努めなければならない。
+
+一　ストーカー行為等の実態の把握
+
+二　人材の養成及び資質の向上
+
+三　教育活動、広報活動等を通じた知識の普及及び啓発
+
+四　民間の自主的な組織活動との連携協力及びその支援

@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次に掲げる者が、その職務に関し、不正の請託を受けて、財産上の利益を収受し、又はその要求若しくは約束をしたときは、五年以下の拘禁刑又は五百万円以下の罰金に処する。
     modality: gimu_kei
+  - id: kaisha-hou-art-967-p1-kou-1
+    type: kou
+    text: 第九百六十条第一項各号又は第二項各号に掲げる者
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-967-p1-kou-2
+    type: kou
+    text: 第九百六十一条に規定する者
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-967-p1-kou-3
+    type: kou
+    text: 会計監査人又は第三百四十六条第四項の規定により選任された一時会計監査人の職務を行うべき者
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -48,10 +63,14 @@ parent_section:
 
 ### 第九百六十七条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-967-p1-hashira -->
 次に掲げる者が、その職務に関し、不正の請託を受けて、財産上の利益を収受し、又はその要求若しくは約束をしたときは、五年以下の拘禁刑又は五百万円以下の罰金に処する。
+
+一　第九百六十条第一項各号又は第二項各号に掲げる者
+
+二　第九百六十一条に規定する者
+
+三　会計監査人又は第三百四十六条第四項の規定により選任された一時会計監査人の職務を行うべき者
 
 ### 第九百六十七条第二項
 
-<!-- segment: simple id: kaisha-hou-art-967-p2 -->
 前項の利益を供与し、又はその申込み若しくは約束をした者は、三年以下の拘禁刑又は三百万円以下の罰金に処する。

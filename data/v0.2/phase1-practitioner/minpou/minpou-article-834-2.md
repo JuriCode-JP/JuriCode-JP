@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-834-2-p1
+    type: simple
+    text: 父又は母による親権の行使が困難又は不適当であることにより子の利益を害するときは、家庭裁判所は、子、その親族、未成年後見人、未成年後見監督人又は検察官の請求により、その父又は母について、親権停止の審判をすることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-834-2-p2
+    type: simple
+    text: 家庭裁判所は、親権停止の審判をするときは、その原因が消滅するまでに要すると見込まれる期間、子の心身の状態及び生活の状況その他一切の事情を考慮して、二年を超えない範囲内で、親権を停止する期間を定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

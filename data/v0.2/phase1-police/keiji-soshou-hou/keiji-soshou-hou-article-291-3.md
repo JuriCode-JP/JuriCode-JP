@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-291-3-p1
+    type: simple
+    text: 裁判所は、前条の決定があつた事件が簡易公判手続によることができないものであり、又はこれによることが相当でないものであると認めるときは、その決定を取り消さなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

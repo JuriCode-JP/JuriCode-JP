@@ -37,5 +37,4 @@ parent_section:
 
 ### 第百九十六条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-196-p1 -->
 令第五十六条に規定する厚生労働省令で定める製造は、医療機器の製造工程のうち設計又は最終製品の保管のみを行うものとする。

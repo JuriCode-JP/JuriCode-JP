@@ -34,5 +34,4 @@ tags:
 
 ### 第二十四条の二十
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-24-20-p1 -->
 政令第五十六条の六十四に規定する総務省令で定める施設は、第二十四条の六第一項に規定する施設とする。

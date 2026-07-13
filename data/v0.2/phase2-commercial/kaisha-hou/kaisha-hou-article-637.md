@@ -39,5 +39,4 @@ parent_section:
 
 ### 第六百三十七条
 
-<!-- segment: simple id: kaisha-hou-art-637-p1 -->
 持分会社は、定款に別段の定めがある場合を除き、総社員の同意によって、定款の変更をすることができる。

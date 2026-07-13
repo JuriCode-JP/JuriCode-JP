@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九十二条
 
-<!-- segment: simple id: sochi-hou-art-92-p1 -->
 納税準備預金通帳（第五条第二項に規定する納税準備預金の通帳をいう。）には、印紙税は、課さない。

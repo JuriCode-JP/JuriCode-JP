@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: roudou-kijun-hou-art-32-3-2-p1
+    type: simple
+    text: 使用者が、清算期間が一箇月を超えるものであるときの当該清算期間中の前条第一項の規定により労働させた期間が当該清算期間より短い労働者について、当該労働させた期間を平均し一週間当たり四十時間を超えて労働させた場合においては、その超えた時間（第三十三条又は第三十六条第一項の規定により延長し、又は休日に労働させた時間を除く。）の労働については、第三十七条の規定の例により割増賃金を支払わなければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

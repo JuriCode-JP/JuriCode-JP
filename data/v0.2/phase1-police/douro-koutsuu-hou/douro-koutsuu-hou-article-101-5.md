@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-101-5-p1
+    type: simple
+    text: 公安委員会は、免許を受けた者が第百三条第一項第一号、第一号の二又は第三号のいずれかに該当するかどうかを調査するため必要があると認めるときは、内閣府令で定めるところにより、その者に対し、必要な報告を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:
@@ -36,3 +40,5 @@ parent_section:
 ### 第百一条の五
 
 公安委員会は、免許を受けた者が第百三条第一項第一号、第一号の二又は第三号のいずれかに該当するかどうかを調査するため必要があると認めるときは、内閣府令で定めるところにより、その者に対し、必要な報告を求めることができる。
+
+（罰則　第百十七条の四第一項第三号）

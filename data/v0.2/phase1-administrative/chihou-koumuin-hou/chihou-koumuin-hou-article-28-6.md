@@ -16,22 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-6-p1
+    type: simple
+    text: 職員は、定年に達したときは、定年に達した日以後における最初の三月三十一日までの間において、条例で定める日（次条第一項及び第二項ただし書において「定年退職日」という。）に退職する。
+    modality: unspecified
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-6-p2
+    type: simple
+    text: 前項の定年は、国の職員につき定められている定年を基準として条例で定めるものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-6-p3-zen
+    type: zen_dan
+    text: 前項の場合において、地方公共団体における当該職員に関しその職務と責任に特殊性があること又は欠員の補充が困難であることにより国の職員につき定められている定年を基準として定めることが実情に即さないと認められるときは、当該職員の定年については、条例で別の定めをすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
+  - id: chihou-koumuin-hou-art-28-6-p3-kou
+    type: kou_dan
+    text: この場合においては、国及び他の地方公共団体の職員との間に権衡を失しないように適当な考慮が払われなければならない。
+    modality: gimu
+    depends_on: chihou-koumuin-hou-art-28-6-p3-zen
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-28-6-p4
+    type: simple
+    text: 前三項の規定は、臨時的に任用される職員その他の法律により任期を定めて任用される職員及び非常勤職員には適用しない。
+    modality: jogai
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -46,10 +46,8 @@ parent_section:
 
 ### 第六十八条第一項
 
-<!-- segment: simple id: kenpou-art-68-p1 -->
 内閣総理大臣は、国務大臣を任命する。但し、その過半数は、国会議員の中から選ばれなければならない。
 
 ### 第六十八条第二項
 
-<!-- segment: simple id: kenpou-art-68-p2 -->
 内閣総理大臣は、任意に国務大臣を罷免することができる。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十条
 
-<!-- segment: simple id: kenpou-art-10-p1 -->
 日本国民たる要件は、法律でこれを定める。

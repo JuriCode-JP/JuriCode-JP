@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-28-p1-zen
+    type: zen_dan
+    text: 独立行政法人都市再生機構が、その譲渡する住宅の用に供する土地で当該住宅の譲渡と併せて譲渡するものを取得した場合において、当該土地の上に新築した当該住宅が第七十三条の二第二項の規定により独立行政法人都市再生機構が不動産取得税の納税義務を負うこととなるものであるときは、当該土地の取得については、当該納税義務を負うこととなつた日にその取得があつたものとみなして、不動産取得税を課する。
+    modality: unspecified
+  - id: chihou-zei-hou-art-73-28-p1-kou
+    type: kou_dan
+    text: この場合においては、第七十三条の四第一項第十一号の規定は、適用がないものとする。
+    modality: gimu
+    depends_on: chihou-zei-hou-art-73-28-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-28-p2
+    type: simple
+    text: 道府県は、前項の規定の適用を受ける土地及び同項に規定する第七十三条の二第二項の規定により独立行政法人都市再生機構が不動産取得税の納税義務を負うこととなる住宅について、独立行政法人都市再生機構から最初に譲渡が行われた場合における当該不動産の取得に対しては、不動産取得税を課することができない。
+    modality: kanou_negative
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

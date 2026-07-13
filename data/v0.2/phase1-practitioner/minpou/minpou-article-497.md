@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 弁済者は、次に掲げる場合には、裁判所の許可を得て、弁済の目的物を競売に付し、その代金を供託することができる。
     modality: kanou_kenri
+  - id: minpou-art-497-p1-kou-1
+    type: kou
+    text: その物が供託に適しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-497-p1-kou-2
+    type: kou
+    text: その物について滅失、損傷その他の事由による価格の低落のおそれがあるとき。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-497-p1-kou-3
+    type: kou
+    text: その物の保存について過分の費用を要するとき。
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-497-p1-kou-4
+    type: kou
+    text: 前三号に掲げる場合のほか、その物を供託することが困難な事情があるとき。
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -45,5 +65,12 @@ parent_section:
 
 ### 第四百九十七条
 
-<!-- segment: hashira id: minpou-art-497-p1-hashira -->
 弁済者は、次に掲げる場合には、裁判所の許可を得て、弁済の目的物を競売に付し、その代金を供託することができる。
+
+一　その物が供託に適しないとき。
+
+二　その物について滅失、損傷その他の事由による価格の低落のおそれがあるとき。
+
+三　その物の保存について過分の費用を要するとき。
+
+四　前三号に掲げる場合のほか、その物を供託することが困難な事情があるとき。

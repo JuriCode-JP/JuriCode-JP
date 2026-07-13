@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 次に掲げる場合において、株主が不利益を受けるおそれがあるときは、株主は、株式会社に対し、第百九十九条第一項の募集に係る株式の発行又は自己株式の処分をやめることを請求することができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-210-p1-kou-1
+    type: kou
+    text: 当該株式の発行又は自己株式の処分が法令又は定款に違反する場合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-210-p1-kou-2
+    type: kou
+    text: 当該株式の発行又は自己株式の処分が著しく不公正な方法により行われる場合
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第二百十条
 
-<!-- segment: hashira id: kaisha-hou-art-210-p1-hashira -->
 次に掲げる場合において、株主が不利益を受けるおそれがあるときは、株主は、株式会社に対し、第百九十九条第一項の募集に係る株式の発行又は自己株式の処分をやめることを請求することができる。
+
+一　当該株式の発行又は自己株式の処分が法令又は定款に違反する場合
+
+二　当該株式の発行又は自己株式の処分が著しく不公正な方法により行われる場合

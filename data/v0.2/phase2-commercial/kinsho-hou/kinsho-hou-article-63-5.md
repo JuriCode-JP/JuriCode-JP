@@ -16,32 +16,58 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-5-p1
+    type: simple
+    text: 内閣総理大臣は、特例業務届出者の業務の運営に関し、公益又は投資者保護のため必要かつ適当であると認めるときは、その必要の限度において、当該特例業務届出者に対し、業務の運営の改善に必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-5-p2
+    type: simple
+    text: 内閣総理大臣は、特例業務届出者が適格機関投資家等特例業務に関し法令又は法令に基づいてする行政官庁の処分に違反した場合には、当該特例業務届出者に対し、六月以内の期間を定めて業務の全部又は一部の停止を命ずることができる。
+    modality: kanou_kenri
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-5-p3
+    type: simple
+    text: 内閣総理大臣は、特例業務届出者が適格機関投資家等特例業務に関し法令又は法令に基づいてする行政官庁の処分に違反した場合であつて、他の方法により監督の目的を達成することができないときは、当該特例業務届出者に対し、業務の廃止を命ずることができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-5-p4
+    type: simple
+    text: 内閣総理大臣は、前三項の規定による処分をしようとするときは、行政手続法第十三条第一項の規定による意見陳述のための手続の区分にかかわらず、聴聞を行わなければならない。
+    modality: gimu
+    references:
+    - 前三項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-5-p5
+    type: simple
+    text: 内閣総理大臣は、第一項から第三項までの規定による処分をすることとしたときは、書面により、その旨を特例業務届出者に通知しなければならない。
+    modality: gimu
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-63-5-p6
+    type: simple
+    text: 内閣総理大臣は、第二項の規定により適格機関投資家等特例業務の全部若しくは一部の停止を命じたとき、又は第三項の規定により適格機関投資家等特例業務の廃止を命じたときは、内閣府令で定めるところにより、その旨を公告しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

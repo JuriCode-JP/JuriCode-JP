@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-67-6-p1
+    type: simple
+    text: 内閣総理大臣は、認可協会がその設立の認可を受けた当時既に第六十七条の四第二項各号のいずれかに該当していたことが判明したときは、その認可を取り消すことができる。
+    modality: koka_torikeshi
 cases: []
 amendments: []
 tags:

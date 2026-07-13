@@ -52,10 +52,8 @@ parent_section:
 
 ### 第五十条第一項
 
-<!-- segment: simple id: kaisha-hou-art-50-p1 -->
 発起人は、株式会社の成立の時に、出資の履行をした設立時発行株式の株主となる。
 
 ### 第五十条第二項
 
-<!-- segment: simple id: kaisha-hou-art-50-p2 -->
 前項の規定により株主となる権利の譲渡は、成立後の株式会社に対抗することができない。

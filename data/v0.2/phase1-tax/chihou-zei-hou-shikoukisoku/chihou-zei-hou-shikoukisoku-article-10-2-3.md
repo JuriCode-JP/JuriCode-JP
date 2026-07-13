@@ -16,12 +16,35 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-3-p1
+    type: simple
+    text: 政令第四十八条の九の十九第三項の規定による申請書の様式は、第十九号様式とする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-3-p2-hashira
+    type: hashira
+    text: 政令第四十八条の九の十九第三項に規定する総務省令で定める書類は、次に掲げる書類とする。
+    modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-3-p2-kou-1
+    type: kou
+    text: 法第三百二十一条の七の十三第一項の申立てをしたことを証する書類
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-3-p2-kou-2
+    type: kou
+    text: 法第三百二十一条の七の十三第一項に規定する市町村民税額が、租税特別措置法第四十条の三の三第二十二項第一号（同法第四十一条の十九の五第十三項において準用する場合を含む。）に掲げる更正決定に係る所得税の額の計算の基礎となつた所得に基づき課されたものであること及び前号の申立てに係る条約相手国等（法第三百二十一条の七の十三第一項に規定する条約相手国等をいう。）との間の相互協議（同項に規定する相互協議をいう。次条において同じ。）の対象であることを明らかにする書類
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-3-p2-kou-3
+    type: kou
+    text: 政令第四十八条の九の十九第三項第四号に規定する場合に該当するときには、供託書の正本、抵当権を設定するために必要な書類、保証人の保証を証する書面その他の担保の提供に関する書類
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -40,3 +63,9 @@ tags:
 ### 第十条の二の三第二項
 
 政令第四十八条の九の十九第三項に規定する総務省令で定める書類は、次に掲げる書類とする。
+
+一　法第三百二十一条の七の十三第一項の申立てをしたことを証する書類
+
+二　法第三百二十一条の七の十三第一項に規定する市町村民税額が、租税特別措置法第四十条の三の三第二十二項第一号（同法第四十一条の十九の五第十三項において準用する場合を含む。）に掲げる更正決定に係る所得税の額の計算の基礎となつた所得に基づき課されたものであること及び前号の申立てに係る条約相手国等（法第三百二十一条の七の十三第一項に規定する条約相手国等をいう。）との間の相互協議（同項に規定する相互協議をいう。次条において同じ。）の対象であることを明らかにする書類
+
+三　政令第四十八条の九の十九第三項第四号に規定する場合に該当するときには、供託書の正本、抵当権を設定するために必要な書類、保証人の保証を証する書面その他の担保の提供に関する書類

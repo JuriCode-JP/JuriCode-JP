@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-11-2-p1-zen
+    type: zen_dan
+    text: 合名会社若しくは合資会社又は税理士法人、弁護士法人、外国法事務弁護士法人、弁護士・外国法事務弁護士共同法人、監査法人、弁理士法人、司法書士法人、行政書士法人、社会保険労務士法人若しくは土地家屋調査士法人が地方団体の徴収金を滞納した場合において、その財産につき滞納処分をしてもなおその徴収すべき額に不足すると認められるときは、その社員（合資会社及び監査法人にあつては、無限責任社員）は、当該滞納に係る地方団体の徴収金の第二次納税義務を負う。
+    modality: unspecified
+  - id: chihou-zei-hou-art-11-2-p1-kou
+    type: kou_dan
+    text: この場合において、その社員は、連帯してその責めに任ずる。
+    modality: unspecified
+    depends_on: chihou-zei-hou-art-11-2-p1-zen
 cases: []
 amendments: []
 tags:

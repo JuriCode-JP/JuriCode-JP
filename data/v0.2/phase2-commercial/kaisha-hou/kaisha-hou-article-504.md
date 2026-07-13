@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 清算株式会社は、残余財産の分配をしようとするときは、清算人の決定（清算人会設置会社にあっては、清算人会の決議）によって、次に掲げる事項を定めなければならない。
     modality: gimu
+  - id: kaisha-hou-art-504-p1-kou-1
+    type: kou
+    text: 残余財産の種類
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-504-p1-kou-2
+    type: kou
+    text: 株主に対する残余財産の割当てに関する事項
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -31,8 +41,18 @@ paragraphs:
     text: 前項に規定する場合において、残余財産の分配について内容の異なる二以上の種類の株式を発行しているときは、清算株式会社は、当該種類の株式の内容に応じ、同項第二号に掲げる事項として、次に掲げる事項を定めることができる。
     modality: kanou_kenri
     references:
-    - 前項
     - 同項
+    - 前項
+  - id: kaisha-hou-art-504-p2-kou-1
+    type: kou
+    text: ある種類の株式の株主に対して残余財産の割当てをしないこととするときは、その旨及び当該株式の種類
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-504-p2-kou-2
+    type: kou
+    text: 前号に掲げる事項のほか、残余財産の割当てについて株式の種類ごとに異なる取扱いを行うこととするときは、その旨及び当該異なる取扱いの内容
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -66,15 +86,20 @@ parent_section:
 
 ### 第五百四条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-504-p1-hashira -->
 清算株式会社は、残余財産の分配をしようとするときは、清算人の決定（清算人会設置会社にあっては、清算人会の決議）によって、次に掲げる事項を定めなければならない。
+
+一　残余財産の種類
+
+二　株主に対する残余財産の割当てに関する事項
 
 ### 第五百四条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-504-p2-hashira -->
 前項に規定する場合において、残余財産の分配について内容の異なる二以上の種類の株式を発行しているときは、清算株式会社は、当該種類の株式の内容に応じ、同項第二号に掲げる事項として、次に掲げる事項を定めることができる。
+
+一　ある種類の株式の株主に対して残余財産の割当てをしないこととするときは、その旨及び当該株式の種類
+
+二　前号に掲げる事項のほか、残余財産の割当てについて株式の種類ごとに異なる取扱いを行うこととするときは、その旨及び当該異なる取扱いの内容
 
 ### 第五百四条第三項
 
-<!-- segment: simple id: kaisha-hou-art-504-p3 -->
 第一項第二号に掲げる事項についての定めは、株主（当該清算株式会社及び前項第一号の種類の株式の株主を除く。）の有する株式の数（前項第二号に掲げる事項についての定めがある場合にあっては、各種類の株式の数）に応じて残余財産を割り当てることを内容とするものでなければならない。

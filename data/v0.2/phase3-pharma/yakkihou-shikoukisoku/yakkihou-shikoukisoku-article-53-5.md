@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-5-p1
+    type: simple
+    text: 基準確認証（法第十四条の二第三項の基準確認証をいう。以下この条から第五十三条の八までにおいて同じ。）は、様式第二十六の四によるものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-53-5-p2
+    type: simple
+    text: 基準確認証の交付を受けた者は、当該基準確認証と同一の内容（有効期間を除く。）を証する別の有効な基準確認証を保有している場合にあつては、これを返納するものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

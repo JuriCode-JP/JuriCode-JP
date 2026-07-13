@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第三百四十八条第二項第二号の七に規定する新たに建設された立体交差化施設で政令で定めるものは、次に掲げる立体交差化施設とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-49-6-p1-kou-1
+    type: kou
+    text: 昭和六十二年四月一日以後に建設された立体交差化施設
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-49-6-p1-kou-2
+    type: kou
+    text: 昭和六十二年三月三十一日以前に建設された立体交差化施設で、同日において旧地方税法第三百四十八条第二項第二号の七若しくは第二十七号又は旧交納付金法第二条第六項の規定の適用があつたもの
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +40,16 @@ paragraphs:
     type: hashira
     text: 法第三百四十八条第二項第二号の七に規定する道路の改築に伴い改良された既設の立体交差化施設で政令で定めるものは、次に掲げる立体交差化施設とする。
     modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-49-6-p2-kou-1
+    type: kou
+    text: 昭和六十二年四月一日以後に改良された立体交差化施設
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-49-6-p2-kou-2
+    type: kou
+    text: 昭和六十二年三月三十一日以前に改良された立体交差化施設で、同日において旧地方税法第三百四十八条第二項第二号の七若しくは第二十七号又は旧交納付金法第二条第六項の規定の適用があつたもの
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -57,15 +77,20 @@ parent_section:
 
 ### 第四十九条の六第一項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-49-6-p1-hashira -->
 法第三百四十八条第二項第二号の七に規定する新たに建設された立体交差化施設で政令で定めるものは、次に掲げる立体交差化施設とする。
+
+一　昭和六十二年四月一日以後に建設された立体交差化施設
+
+二　昭和六十二年三月三十一日以前に建設された立体交差化施設で、同日において旧地方税法第三百四十八条第二項第二号の七若しくは第二十七号又は旧交納付金法第二条第六項の規定の適用があつたもの
 
 ### 第四十九条の六第二項
 
-<!-- segment: hashira id: chihou-zei-hou-shikkourei-art-49-6-p2-hashira -->
 法第三百四十八条第二項第二号の七に規定する道路の改築に伴い改良された既設の立体交差化施設で政令で定めるものは、次に掲げる立体交差化施設とする。
+
+一　昭和六十二年四月一日以後に改良された立体交差化施設
+
+二　昭和六十二年三月三十一日以前に改良された立体交差化施設で、同日において旧地方税法第三百四十八条第二項第二号の七若しくは第二十七号又は旧交納付金法第二条第六項の規定の適用があつたもの
 
 ### 第四十九条の六第三項
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-49-6-p3 -->
 法第三百四十八条第二項第二号の七に規定する線路設備、電路設備その他の構築物で政令で定めるものは、線路設備、電路設備及び停車場設備とする。

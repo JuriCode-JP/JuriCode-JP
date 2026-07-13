@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-10-p1 -->
 市町村の区域内に住所を有する者は、当該市町村及びこれを包括する都道府県の住民とする。
 
 ### 第十条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-10-p2 -->
 住民は、法律の定めるところにより、その属する普通地方公共団体の役務の提供をひとしく受ける権利を有し、その負担を分任する義務を負う。

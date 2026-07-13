@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次に掲げる原因によって生じた債権を有する者は、債務者の特定の不動産について先取特権を有する。
     modality: unspecified
+  - id: minpou-art-325-p1-kou-1
+    type: kou
+    text: 不動産の保存
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-325-p1-kou-2
+    type: kou
+    text: 不動産の工事
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-325-p1-kou-3
+    type: kou
+    text: 不動産の売買
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -43,5 +58,10 @@ parent_section:
 
 ### 第三百二十五条
 
-<!-- segment: hashira id: minpou-art-325-p1-hashira -->
 次に掲げる原因によって生じた債権を有する者は、債務者の特定の不動産について先取特権を有する。
+
+一　不動産の保存
+
+二　不動産の工事
+
+三　不動産の売買

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十条
 
-<!-- segment: simple id: kenpou-art-30-p1 -->
 国民は、法律の定めるところにより、納税の義務を負ふ。

@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-144-6-2-p1
+    type: tokusoku
+    text: 道府県は、締約国軍隊が、第百四十四条の三第五項の規定により軽油引取税を課さないこととされる輸入に係る軽油又は自ら輸入をした公用に供する燃料炭化水素油を自動車の内燃機関の燃料として消費した場合（当該自動車を道路において運行の用に供するため消費した場合に限る。）における当該軽油又は燃料炭化水素油の消費に対しては、第百四十四条の二第五項の規定にかかわらず、軽油引取税を課さないものとする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第五項
 cases: []
 amendments: []
 tags:

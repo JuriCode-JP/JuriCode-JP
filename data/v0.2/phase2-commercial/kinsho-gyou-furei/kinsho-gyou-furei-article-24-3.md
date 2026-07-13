@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-24-3-p1
+    type: simple
+    text: 法第三十一条第七項の規定により届出を行う金融商品取引業者は、変更の内容、変更予定年月日及び変更の理由を記載した届出書に、第八条第六号ホ（５）、（６）、（８）から（１１）まで、（１３）及び（１４）に掲げる事項（内容に変更のあるものに限る。）を記載した書類並びに第十条第一項第三号ニに掲げる書類（内容に変更のあるものに限る。）を添付して、所管金融庁長官等に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-233-2-p1
+    type: simple
+    text: 生物由来製品における第二百十四条の規定の適用については、同条第二項中「法第五十条第十二号から第十四号まで及び第五十二条第二項第一号」とあるのは「法第五十条第十二号から第十四号まで、第五十二条第二項第一号、法第六十八条の十七及び法第六十八条の十八」と、同条第三項中「法第六十八条の二第二項第一号ロからホまで」とあるのは「法第六十八条の二第二項第一号ロからホまで及び法第六十八条の二十の二各号」とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-233-2-p2
+    type: simple
+    text: 生物由来製品における第二百二十条の三において準用する第二百十四条第二項の規定の適用については、同項中「法第五十九条第七号及び第八号並びに法第六十条において準用する法第五十二条第二項第一号」とあるのは、「法第五十九条第七号及び第八号、法第六十条において準用する法第五十二条第二項第一号、法第六十八条の十七並びに法第六十八条の十八」とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-233-2-p3
+    type: simple
+    text: 生物由来製品における第二百二十一条の三第一項において準用する第二百十四条第二項の規定の適用については、同項中「法第六十一条第四号及び法第六十二条において準用する法第五十二条第二項第一号」とあるのは、「法第六十一条第四号、法第六十二条において準用する法第五十二条第二項第一号、法第六十八条の十七及び法第六十八条の十八」とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-233-2-p4
+    type: simple
+    text: 生物由来製品における第二百二十八条第一項において準用する第二百十四条の規定の適用については、同条第二項中「法第六十三条の二第二項第一号」とあるのは「法第六十三条の二第二項第一号、法第六十八条の十七及び法第六十八条の十八」と、同条第三項中「法第六十八条の二第二項第二号ロからホまで」とあるのは「法第六十八条の二第二項第二号ロからホまで及び法第六十八条の二十の二各号」とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

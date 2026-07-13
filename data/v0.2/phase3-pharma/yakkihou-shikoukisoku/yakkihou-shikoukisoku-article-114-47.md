@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-47-p1
+    type: simple
+    text: 法第二十三条の二の十二第一項の規定による届出は、様式第六十三の二十一による届書（正本一通及び副本二通）を厚生労働大臣に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-47-p2
+    type: simple
+    text: 法第二十三条の二の十二第二項の規定による変更の届出は、様式第四十による届書（正本一通及び副本二通）を厚生労働大臣に提出することによつて行うものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-47-p3
+    type: simple
+    text: 医療機器に係る第一項の届書には、届出に係る品目の法第六十三条の二第二項各号に掲げる事項又は法第六十八条の二第二項に規定する注意事項等情報に関する資料を添えなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-47-p4
+    type: simple
+    text: 法第二十三条の二の十三第一項の規定により機構に届け出ることとされている場合における第一項及び第二項の規定の適用については、これらの規定中「正本一通及び副本二通）を厚生労働大臣に」とあるのは、「正副二通）を機構に」とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

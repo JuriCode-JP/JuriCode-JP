@@ -41,5 +41,4 @@ parent_section:
 
 ### 第五十一条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-51-p1 -->
 採用候補者名簿には、当該官職に採用することができる者として、採用試験において合格点以上を得た者の氏名及び得点を記載するものとする。

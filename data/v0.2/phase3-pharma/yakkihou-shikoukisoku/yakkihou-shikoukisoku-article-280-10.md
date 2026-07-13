@@ -16,17 +16,43 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-10-p1
+    type: simple
+    text: 法第八十条の八第一項の規定による原薬等登録原簿の登録事項の変更の登録の申請は、様式第百二十四による申請書（正副二通）を厚生労働大臣に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-10-p2-hashira
+    type: hashira
+    text: 前項の申請書には、次に掲げる書類を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-280-10-p2-kou-1
+    type: kou
+    text: 登録証
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-280-10-p2-kou-2
+    type: kou
+    text: 登録事項の変更の内容に関する資料
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-280-10-p3
+    type: simple
+    text: 厚生労働大臣が法第八十条の十第一項の規定により機構に登録等を行わせることとした場合における第一項の規定の適用については、同項中「（正副二通）を厚生労働大臣」とあるのは、「を機構」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -48,6 +74,10 @@ parent_section:
 ### 第二百八十条の十第二項
 
 前項の申請書には、次に掲げる書類を添えなければならない。
+
+一　登録証
+
+二　登録事項の変更の内容に関する資料
 
 ### 第二百八十条の十第三項
 

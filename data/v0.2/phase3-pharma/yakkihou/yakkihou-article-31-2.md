@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-31-2-p1
+    type: simple
+    text: 配置販売業者は、その業務に係る都道府県の区域を、自ら管理し、又は当該都道府県の区域内において配置販売に従事する配置員のうちから指定したものに管理させなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-31-2-p2
+    type: simple
+    text: 前項の規定により都道府県の区域を管理する者（以下「区域管理者」という。）は、厚生労働省令で定めるところにより、薬剤師又は登録販売者でなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-31-2-p3
+    type: simple
+    text: 区域管理者は、次条第一項及び第二項に規定する義務並びに同条第三項に規定する厚生労働省令で定める業務を遂行し、並びに同項に規定する厚生労働省令で定める事項を遵守するために必要な能力及び経験を有する者でなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 次条
 cases: []
 amendments: []
 tags:

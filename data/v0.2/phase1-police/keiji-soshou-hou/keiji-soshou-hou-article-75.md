@@ -39,5 +39,4 @@ parent_section:
 
 ### 第七十五条
 
-<!-- segment: simple id: keiji-soshou-hou-art-75-p1 -->
 勾引状の執行を受けた被告人を引致した場合において必要があるときは、これを刑事施設に留置することができる。

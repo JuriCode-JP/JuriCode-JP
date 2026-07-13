@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-83-p1
+    type: simple
+    text: 地方消費税の税率は、七十八分の二十二とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

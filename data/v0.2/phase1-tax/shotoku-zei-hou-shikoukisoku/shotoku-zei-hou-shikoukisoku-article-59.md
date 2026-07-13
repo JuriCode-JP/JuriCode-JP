@@ -50,10 +50,8 @@ parent_section:
 
 ### 第五十九条第一項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-59-p1 -->
 青色申告者は、仕訳帳には、取引の発生順に、取引の年月日、内容、勘定科目及び金額を記載しなければならない。
 
 ### 第五十九条第二項
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-59-p2 -->
 青色申告者は、総勘定元帳には、その勘定ごとに、記載の年月日、相手方の勘定科目及び金額を記載しなければならない。

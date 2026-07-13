@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-2-7-p1
+    type: simple
+    text: 法第百二条第一項に規定する会員金融商品取引所の組織変更の無効の訴えについて、同項において会社法の規定を準用する場合における同項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -16,27 +16,57 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-4-p1
+    type: tokusoku
+    text: 免許を受けた者は、その者の住所地を管轄する公安委員会に免許の取消しを申請することができる。この場合において、その者は、第八十九条第一項及び第九十条の二第一項の規定にかかわらず、併せて、当該免許が取り消された場合には他の種類の免許（取消しに係る免許の種類ごとに政令で定める種類のものに限る。）を受けたい旨の申出をすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 第一項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-4-p2
+    type: simple
+    text: 前項の規定による申請を受けた公安委員会は、政令で定めるところにより、当該申請に係る免許を取り消すものとする。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-4-p3
+    type: simple
+    text: 前項の規定により免許を取り消した公安委員会は、第一項の申出をした者から第百六条の三第一項第一号の規定による当該免許に係る免許証の返納を受け、又は第一項の申出をした者に係る第百六条の四第一項第一号の規定による免許情報記録の抹消を行つたとき（第一項の申出をした者が免許証（仮免許に係るものを除く。次条において同じ。）及び免許情報記録個人番号カードを有する者である場合にあつては、当該免許証の返納を受け、かつ、当該免許情報記録の抹消を行つたとき）は、その者に対し、当該申出に係る免許を与えることができる。
+    modality: kanou_kenri
+    references:
+    - 次条
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-4-p4
+    type: simple
+    text: 前項の規定により与えられる免許は、第二項の規定により取り消された免許を受けた日に受けたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-104-4-p5
+    type: simple
+    text: 前各項に定めるもののほか、第二項の規定による免許の取消しについて必要な事項は、内閣府令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

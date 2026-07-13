@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-9-p1
+    type: simple
+    text: 株式等売渡請求をした特別支配株主は、取得日に、売渡株式等の全部を取得する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-179-9-p2
+    type: simple
+    text: 前項の規定により特別支配株主が取得した売渡株式等が譲渡制限株式又は譲渡制限新株予約権（第二百四十三条第二項第二号に規定する譲渡制限新株予約権をいう。）であるときは、対象会社は、当該特別支配株主が当該売渡株式等を取得したことについて、第百三十七条第一項又は第二百六十三条第一項の承認をする旨の決定をしたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

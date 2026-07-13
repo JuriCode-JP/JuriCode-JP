@@ -16,12 +16,28 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-10-p1
+    type: simple
+    text: 法第二十七条の三十の三第一項又は第二項の規定により開示用電子情報処理組織を使用して電子開示手続（法第二十七条の三十の二に規定する電子開示手続をいう。以下この条及び次条において同じ。）又は任意電子開示手続（法第二十七条の三十の二に規定する任意電子開示手続をいう。以下この条及び次条において同じ。）を行う者は、内閣府令で定めるところにより、電子開示手続又は任意電子開示手続を文書をもつて行う場合に記載すべきこととされている事項を金融庁長官が定める技術的基準に適合する入出力装置により入力して行わなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-10-p2-honbun
+    type: honbun
+    text: 前項の電子開示手続又は任意電子開示手続を行う者は、内閣府令で定めるところにより、あらかじめ金融庁長官に届け出るとともに、当該者に係る定款その他の書類を提出しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: kinsho-hou-shikkourei-art-14-10-p2-tadashi
+    type: tadashi
+    text: ただし、この項の規定により既に届出を行つた者が、内閣府令で定めるところにより定期的に定款その他の書類を提出している場合その他内閣府令で定めるときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

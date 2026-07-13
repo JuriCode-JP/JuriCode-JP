@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-49-15-p1
+    type: simple
+    text: 個人の行う事業に対する事業税の課税標準については、事業の情況に応じ、第七十二条の二第三項及び第七十二条の四十九の十一の所得によらないで、売上金額、家屋の床面積若しくは価格、土地の地積若しくは価格、従業員数等を課税標準とし、又は所得とこれらの課税標準とを併せ用いることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

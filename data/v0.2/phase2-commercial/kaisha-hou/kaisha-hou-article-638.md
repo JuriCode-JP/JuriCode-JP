@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 合名会社は、次の各号に掲げる定款の変更をすることにより、当該各号に定める種類の持分会社となる。
     modality: unspecified
+  - id: kaisha-hou-art-638-p1-kou-1
+    type: kou
+    text: 有限責任社員を加入させる定款の変更　合資会社
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-638-p1-kou-2
+    type: kou
+    text: その社員の一部を有限責任社員とする定款の変更　合資会社
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-638-p1-kou-3
+    type: kou
+    text: その社員の全部を有限責任社員とする定款の変更　合同会社
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +45,16 @@ paragraphs:
     type: hashira
     text: 合資会社は、次の各号に掲げる定款の変更をすることにより、当該各号に定める種類の持分会社となる。
     modality: unspecified
+  - id: kaisha-hou-art-638-p2-kou-1
+    type: kou
+    text: その社員の全部を無限責任社員とする定款の変更　合名会社
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-638-p2-kou-2
+    type: kou
+    text: その社員の全部を有限責任社員とする定款の変更　合同会社
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: true
@@ -39,6 +64,21 @@ paragraphs:
     type: hashira
     text: 合同会社は、次の各号に掲げる定款の変更をすることにより、当該各号に定める種類の持分会社となる。
     modality: unspecified
+  - id: kaisha-hou-art-638-p3-kou-1
+    type: kou
+    text: その社員の全部を無限責任社員とする定款の変更　合名会社
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-638-p3-kou-2
+    type: kou
+    text: 無限責任社員を加入させる定款の変更　合資会社
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-638-p3-kou-3
+    type: kou
+    text: その社員の一部を無限責任社員とする定款の変更　合資会社
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -57,15 +97,28 @@ parent_section:
 
 ### 第六百三十八条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-638-p1-hashira -->
 合名会社は、次の各号に掲げる定款の変更をすることにより、当該各号に定める種類の持分会社となる。
+
+一　有限責任社員を加入させる定款の変更　合資会社
+
+二　その社員の一部を有限責任社員とする定款の変更　合資会社
+
+三　その社員の全部を有限責任社員とする定款の変更　合同会社
 
 ### 第六百三十八条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-638-p2-hashira -->
 合資会社は、次の各号に掲げる定款の変更をすることにより、当該各号に定める種類の持分会社となる。
+
+一　その社員の全部を無限責任社員とする定款の変更　合名会社
+
+二　その社員の全部を有限責任社員とする定款の変更　合同会社
 
 ### 第六百三十八条第三項
 
-<!-- segment: hashira id: kaisha-hou-art-638-p3-hashira -->
 合同会社は、次の各号に掲げる定款の変更をすることにより、当該各号に定める種類の持分会社となる。
+
+一　その社員の全部を無限責任社員とする定款の変更　合名会社
+
+二　無限責任社員を加入させる定款の変更　合資会社
+
+三　その社員の一部を無限責任社員とする定款の変更　合資会社

@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-32-3-p1
+    type: simple
+    text: 金融商品取引業者の主要株主は、当該金融商品取引業者の主要株主でなくなつたときは、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-32-3-p2
+    type: simple
+    text: 金融商品取引業者の特定主要株主は、当該金融商品取引業者の特定主要株主以外の主要株主となつたときは、内閣府令で定めるところにより、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

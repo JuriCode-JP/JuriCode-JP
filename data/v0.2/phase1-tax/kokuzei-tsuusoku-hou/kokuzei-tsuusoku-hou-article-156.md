@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -23,6 +23,21 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: kokuzei-tsuusoku-hou-art-156-p1-kou-1
+    type: kou
+    text: 犯則嫌疑者の居所が明らかでないとき。
+    modality: unspecified
+    item_number: 1
+  - id: kokuzei-tsuusoku-hou-art-156-p1-kou-2
+    type: kou
+    text: 犯則嫌疑者が逃走するおそれがあるとき。
+    modality: unspecified
+    item_number: 2
+  - id: kokuzei-tsuusoku-hou-art-156-p1-kou-3
+    type: kou
+    text: 証拠となると認められるものを隠滅するおそれがあるとき。
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: true
   has_items: false
@@ -56,11 +71,14 @@ parent_section:
 
 ### 第百五十六条第一項
 
-<!-- segment: hashira id: kokuzei-tsuusoku-hou-art-156-p1-hashira -->
 国税局又は税務署の当該職員は、間接国税に関する犯則事件（前条第二号に掲げる犯則事件を除く。以下同じ。）の調査を終えたときは、その調査の結果を所轄国税局長又は所轄税務署長に報告しなければならない。ただし、次の各号のいずれかに該当する場合においては、直ちに検察官に告発しなければならない。
+
+一　犯則嫌疑者の居所が明らかでないとき。
+
+二　犯則嫌疑者が逃走するおそれがあるとき。
+
+三　証拠となると認められるものを隠滅するおそれがあるとき。
 
 ### 第百五十六条第二項
 
-<!-- segment: honbun id: kokuzei-tsuusoku-hou-art-156-p2-honbun -->
-国税庁の当該職員は、間接国税に関する犯則事件の調査を終えたときは、その調査の結果を所轄国税局長又は所轄税務署長に通報しなければならない。<!-- segment: tadashi id: kokuzei-tsuusoku-hou-art-156-p2-tadashi -->
-ただし、前項各号のいずれかに該当する場合においては、直ちに検察官に告発しなければならない。
+国税庁の当該職員は、間接国税に関する犯則事件の調査を終えたときは、その調査の結果を所轄国税局長又は所轄税務署長に通報しなければならない。ただし、前項各号のいずれかに該当する場合においては、直ちに検察官に告発しなければならない。

@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-17-p1
+    type: simple
+    text: 分析センターは、交通事故に関するデータベース（事故例調査に係る情報及び前条第二項の規定による提供に係る情報（以下この条及び第百八条の十九において「特定情報」という。）の集合物であつて、特定情報を電子計算機を用いて検索することができるように体系的に構成したものをいう。）の構成及び運用その他の特定情報の管理及び使用に関する事項についての規程（以下この条及び第百八条の十九において「特定情報管理規程」という。）を作成し、国家公安委員会の認可を受けなければならない。これを変更しようとするときも、同様とする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-17-p2
+    type: simple
+    text: 国家公安委員会は、前項の認可をした特定情報管理規程が特定情報の適正な管理又は使用を図る上で不適当となつたと認めるときは、分析センターに対し、当該特定情報管理規程を変更すべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-17-p3
+    type: simple
+    text: 特定情報管理規程に記載すべき事項は、国家公安委員会規則で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

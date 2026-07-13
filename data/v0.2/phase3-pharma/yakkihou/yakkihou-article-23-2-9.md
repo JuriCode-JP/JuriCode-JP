@@ -16,37 +16,86 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-9-p1
+    type: simple
+    text: 厚生労働大臣が薬事審議会の意見を聴いて指定する医療機器又は体外診断用医薬品につき第二十三条の二の五の承認（第二十三条の二の六の三第一項の規定により条件及び期限を付したものを除く。第六項において同じ。）を受けた者又は当該承認を受けている者は、当該医療機器又は体外診断用医薬品について、厚生労働大臣が指示する期間（次項において「調査期間」という。）を経過した日から起算して三月以内の期間内に申請して、厚生労働大臣の使用成績に関する評価を受けなければならない。
+    modality: gimu
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-9-p2
+    type: simple
+    text: 厚生労働大臣は、前項の指定に係る医療機器又は体外診断用医薬品の使用成績に関する評価を適正に行うため特に必要があると認めるときは、調査期間を延長することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-9-p3
+    type: simple
+    text: 厚生労働大臣の使用成績に関する評価は、当該評価を行う際に得られている知見に基づき、第一項の指定に係る医療機器又は体外診断用医薬品が第二十三条の二の五第二項第三号イからハまでのいずれにも該当しないことを確認することにより行う。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-9-p4-zen
+    type: zen_dan
+    text: 第一項の申請は、申請書にその医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する資料として厚生労働省令で定める資料を添付してしなければならない。
+    modality: gimu
+  - id: yakkihou-art-23-2-9-p4-kou
+    type: kou_dan
+    text: この場合において、当該申請に係る医療機器又は体外診断用医薬品が厚生労働省令で定める医療機器又は体外診断用医薬品であるときは、当該資料は、厚生労働省令で定める基準に従つて収集され、かつ、作成されたものでなければならない。
+    modality: gimu
+    depends_on: yakkihou-art-23-2-9-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-9-p5-zen
+    type: zen_dan
+    text: 第三項の規定による確認においては、第一項の指定に係る医療機器又は体外診断用医薬品に係る申請内容及び前項前段に規定する資料に基づき、当該医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する調査を行うものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-art-23-2-9-p5-kou
+    type: kou_dan
+    text: この場合において、第一項の指定に係る医療機器又は体外診断用医薬品が前項後段に規定する厚生労働省令で定める医療機器又は体外診断用医薬品であるときは、あらかじめ、当該医療機器又は体外診断用医薬品に係る資料が同項後段の規定に適合するかどうかについての書面による調査又は実地の調査を行うものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
+    depends_on: yakkihou-art-23-2-9-p5-zen
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-9-p6
+    type: simple
+    text: 第一項の指定に係る医療機器又は体外診断用医薬品につき第二十三条の二の五の承認を受けた者は、厚生労働省令で定めるところにより、当該医療機器又は体外診断用医薬品の品質、有効性及び安全性に関する調査として厚生労働省令で定める調査を行い、その結果を厚生労働大臣に報告しなければならない。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-23-2-9-p7
+    type: simple
+    text: 第四項後段に規定する厚生労働省令で定める医療機器又は体外診断用医薬品につき使用成績に関する評価を受けるべき者、同項後段に規定する資料の収集若しくは作成の委託を受けた者又はこれらの役員若しくは職員は、正当な理由なく、当該資料の収集又は作成に関しその職務上知り得た人の秘密を漏らしてはならない。これらの者であつた者についても、同様とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -16,27 +16,51 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-349-2-p1
+    type: simple
+    text: 前条の請求があつたときは、裁判所は、猶予の言渡を受けた者又はその代理人の意見を聴いて決定をしなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-349-2-p2
+    type: simple
+    text: 前項の場合において、その請求が刑法第二十六条の二第二号又は第二十七条の五第二号の規定による猶予の言渡しの取消しを求めるものであつて、猶予の言渡しを受けた者の請求があるときは、口頭弁論を経なければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-349-2-p3
+    type: simple
+    text: 第一項の決定をするについて口頭弁論を経る場合には、猶予の言渡を受けた者は、弁護人を選任することができる。
+    modality: kanou_kenri
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-349-2-p4
+    type: simple
+    text: 第一項の決定をするについて口頭弁論を経る場合には、検察官は、裁判所の許可を得て、保護観察官に意見を述べさせることができる。
+    modality: kanou_kenri
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-349-2-p5
+    type: simple
+    text: 第一項の決定に対しては、即時抗告をすることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

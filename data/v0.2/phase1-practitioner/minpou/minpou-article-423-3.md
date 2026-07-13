@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-423-3-p1-zen
+    type: zen_dan
+    text: 債権者は、被代位権利を行使する場合において、被代位権利が金銭の支払又は動産の引渡しを目的とするものであるときは、相手方に対し、その支払又は引渡しを自己に対してすることを求めることができる。
+    modality: kanou_kenri
+  - id: minpou-art-423-3-p1-kou
+    type: kou_dan
+    text: この場合において、相手方が債権者に対してその支払又は引渡しをしたときは、被代位権利は、これによって消滅する。
+    modality: unspecified
+    depends_on: minpou-art-423-3-p1-zen
 cases: []
 amendments: []
 tags:

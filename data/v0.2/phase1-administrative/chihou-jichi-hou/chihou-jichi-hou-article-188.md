@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百八十八条
 
-<!-- segment: simple id: chihou-jichi-hou-art-188-p1 -->
 選挙管理委員会は、委員長がこれを招集する。委員から委員会の招集の請求があるときは、委員長は、これを招集しなければならない。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十五条
 
-<!-- segment: simple id: keisatsu-hou-art-45-p1 -->
 この法律に定めるものの外、都道府県公安委員会の運営に関し必要な事項は、都道府県公安委員会が定める。

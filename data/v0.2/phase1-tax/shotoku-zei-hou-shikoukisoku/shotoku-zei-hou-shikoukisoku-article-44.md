@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十四条
 
-<!-- segment: simple id: shotoku-zei-hou-shikoukisoku-art-44-p1 -->
 削除

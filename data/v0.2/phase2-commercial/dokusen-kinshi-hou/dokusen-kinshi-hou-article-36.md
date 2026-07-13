@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三十六条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-36-p1 -->
 委員長及び委員の報酬は、別に定める。
 
 ### 第三十六条第二項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-36-p2 -->
 委員長及び委員の報酬は、在任中、その意に反してこれを減額することができない。

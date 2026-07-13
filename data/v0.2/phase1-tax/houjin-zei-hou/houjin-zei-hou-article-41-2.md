@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-41-2-p1
+    type: simple
+    text: 内国法人が支払を受ける集団投資信託の収益の分配に係る所得税の額に係る第六十九条の二第一項（分配時調整外国税相当額の控除）に規定する分配時調整外国税相当額につき同項の規定の適用を受ける場合には、その支払を受ける収益の分配に係る所得税の額に係る当該分配時調整外国税相当額は、その内国法人の各事業年度の所得の金額の計算上、損金の額に算入しない。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

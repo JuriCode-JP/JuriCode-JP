@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-139-15-2-p1
+    type: simple
+    text: 新設合併が法令又は定款に違反する場合において、新設合併消滅株式会社金融商品取引所の株主が不利益を受けるおそれがあるときは、新設合併消滅株式会社金融商品取引所の株主は、新設合併消滅株式会社金融商品取引所に対し、当該新設合併をやめることを請求することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

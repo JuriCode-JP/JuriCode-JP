@@ -22,7 +22,7 @@ paragraphs:
     text: 裁判官が職務の執行から除斥されるべきとき、又は不公平な裁判をする虞があるときは、検察官又は被告人は、これを忌避することができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十一条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-21-p1 -->
 裁判官が職務の執行から除斥されるべきとき、又は不公平な裁判をする虞があるときは、検察官又は被告人は、これを忌避することができる。
 
 ### 第二十一条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-21-p2 -->
 弁護人は、被告人のため忌避の申立をすることができる。但し、被告人の明示した意思に反することはできない。

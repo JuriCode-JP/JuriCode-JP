@@ -30,6 +30,26 @@ paragraphs:
     type: hashira
     text: 株式会社は、株式の併合をしようとするときは、その都度、株主総会の決議によって、次に掲げる事項を定めなければならない。
     modality: gimu
+  - id: kaisha-hou-art-180-p2-kou-1
+    type: kou
+    text: 併合の割合
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-180-p2-kou-2
+    type: kou
+    text: 株式の併合がその効力を生ずる日（以下この款において「効力発生日」という。）
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-180-p2-kou-3
+    type: kou
+    text: 株式会社が種類株式発行会社である場合には、併合する株式の種類
+    modality: unspecified
+    item_number: 3
+  - id: kaisha-hou-art-180-p2-kou-4
+    type: kou
+    text: 効力発生日における発行可能株式総数
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: true
   has_items: false
@@ -76,21 +96,24 @@ parent_section:
 
 ### 第百八十条第一項
 
-<!-- segment: simple id: kaisha-hou-art-180-p1 -->
 株式会社は、株式の併合をすることができる。
 
 ### 第百八十条第二項
 
-<!-- segment: hashira id: kaisha-hou-art-180-p2-hashira -->
 株式会社は、株式の併合をしようとするときは、その都度、株主総会の決議によって、次に掲げる事項を定めなければならない。
+
+一　併合の割合
+
+二　株式の併合がその効力を生ずる日（以下この款において「効力発生日」という。）
+
+三　株式会社が種類株式発行会社である場合には、併合する株式の種類
+
+四　効力発生日における発行可能株式総数
 
 ### 第百八十条第三項
 
-<!-- segment: honbun id: kaisha-hou-art-180-p3-honbun -->
-前項第四号の発行可能株式総数は、効力発生日における発行済株式の総数の四倍を超えることができない。<!-- segment: tadashi id: kaisha-hou-art-180-p3-tadashi -->
-ただし、株式会社が公開会社でない場合は、この限りでない。
+前項第四号の発行可能株式総数は、効力発生日における発行済株式の総数の四倍を超えることができない。ただし、株式会社が公開会社でない場合は、この限りでない。
 
 ### 第百八十条第四項
 
-<!-- segment: simple id: kaisha-hou-art-180-p4 -->
 取締役は、第二項の株主総会において、株式の併合をすることを必要とする理由を説明しなければならない。

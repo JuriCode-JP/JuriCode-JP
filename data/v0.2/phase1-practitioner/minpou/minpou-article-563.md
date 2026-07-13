@@ -38,6 +38,26 @@ paragraphs:
     references:
     - 同項
     - 前項
+  - id: minpou-art-563-p2-kou-1
+    type: kou
+    text: 履行の追完が不能であるとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-563-p2-kou-2
+    type: kou
+    text: 売主が履行の追完を拒絶する意思を明確に表示したとき。
+    modality: unspecified
+    item_number: 2
+  - id: minpou-art-563-p2-kou-3
+    type: kou
+    text: 契約の性質又は当事者の意思表示により、特定の日時又は一定の期間内に履行をしなければ契約をした目的を達することができない場合において、売主が履行の追完をしないでその時期を経過したとき。
+    modality: unspecified
+    item_number: 3
+  - id: minpou-art-563-p2-kou-4
+    type: kou
+    text: 前三号に掲げる場合のほか、買主が前項の催告をしても履行の追完を受ける見込みがないことが明らかであるとき。
+    modality: unspecified
+    item_number: 4
 - number: 3
   has_proviso: false
   has_items: false
@@ -71,15 +91,20 @@ parent_section:
 
 ### 第五百六十三条第一項
 
-<!-- segment: simple id: minpou-art-563-p1 -->
 前条第一項本文に規定する場合において、買主が相当の期間を定めて履行の追完の催告をし、その期間内に履行の追完がないときは、買主は、その不適合の程度に応じて代金の減額を請求することができる。
 
 ### 第五百六十三条第二項
 
-<!-- segment: tokusoku id: minpou-art-563-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、次に掲げる場合には、買主は、同項の催告をすることなく、直ちに代金の減額を請求することができる。
+
+一　履行の追完が不能であるとき。
+
+二　売主が履行の追完を拒絶する意思を明確に表示したとき。
+
+三　契約の性質又は当事者の意思表示により、特定の日時又は一定の期間内に履行をしなければ契約をした目的を達することができない場合において、売主が履行の追完をしないでその時期を経過したとき。
+
+四　前三号に掲げる場合のほか、買主が前項の催告をしても履行の追完を受ける見込みがないことが明らかであるとき。
 
 ### 第五百六十三条第三項
 
-<!-- segment: simple id: minpou-art-563-p3 -->
 第一項の不適合が買主の責めに帰すべき事由によるものであるときは、買主は、前二項の規定による代金の減額の請求をすることができない。

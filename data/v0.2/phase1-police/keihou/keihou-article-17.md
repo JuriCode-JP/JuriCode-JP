@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十七条
 
-<!-- segment: simple id: keihou-art-17-p1 -->
 科料は、千円以上一万円未満とする。

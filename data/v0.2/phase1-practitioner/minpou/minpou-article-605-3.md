@@ -16,7 +16,18 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-605-3-p1-zen
+    type: zen_dan
+    text: 不動産の譲渡人が賃貸人であるときは、その賃貸人たる地位は、賃借人の承諾を要しないで、譲渡人と譲受人との合意により、譲受人に移転させることができる。
+    modality: kanou_kenri
+  - id: minpou-art-605-3-p1-kou
+    type: kou_dan
+    text: この場合においては、前条第三項及び第四項の規定を準用する。
+    modality: unspecified
+    references:
+    - 前条
+    depends_on: minpou-art-605-3-p1-zen
 cases: []
 amendments: []
 tags:

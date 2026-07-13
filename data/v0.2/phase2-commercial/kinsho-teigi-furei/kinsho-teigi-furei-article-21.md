@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第一条の十四第二号に規定する内閣府令で定める事由は、外国政府、外国の地方公共団体その他これらに準ずる者により実施される次に掲げるものとする。
     modality: gimu
+  - id: kinsho-teigi-furei-art-21-p1-kou-1
+    type: kou
+    text: 為替取引の制限又は禁止
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-teigi-furei-art-21-p1-kou-2
+    type: kou
+    text: 私人の債務の支払の猶予又は免除について講ずる措置
+    modality: unspecified
+    item_number: 2
+  - id: kinsho-teigi-furei-art-21-p1-kou-3
+    type: kou
+    text: その債務に係る債務不履行宣言
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -34,5 +49,10 @@ tags:
 
 ### 第二十一条
 
-<!-- segment: hashira id: kinsho-teigi-furei-art-21-p1-hashira -->
 令第一条の十四第二号に規定する内閣府令で定める事由は、外国政府、外国の地方公共団体その他これらに準ずる者により実施される次に掲げるものとする。
+
+一　為替取引の制限又は禁止
+
+二　私人の債務の支払の猶予又は免除について講ずる措置
+
+三　その債務に係る債務不履行宣言

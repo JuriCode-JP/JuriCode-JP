@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-47-p1
+    type: simple
+    text: 道府県は、当該道府県に納入された配当割額に相当する額に政令で定める率を乗じて得た額の五分の三に相当する額を、政令で定めるところにより、当該道府県内の市町村（特別区を含む。以下この条において同じ。）に対し、当該市町村に係る個人の道府県民税の額を基礎として政令で定めるところにより計算した額で按分して交付するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-71-47-p2
+    type: simple
+    text: 前項の当該市町村に係る個人の道府県民税の額は、総務省令で定めるところにより算定するものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

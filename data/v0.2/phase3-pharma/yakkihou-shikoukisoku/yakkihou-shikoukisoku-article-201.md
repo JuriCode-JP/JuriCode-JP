@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二百一条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-201-p1 -->
 削除

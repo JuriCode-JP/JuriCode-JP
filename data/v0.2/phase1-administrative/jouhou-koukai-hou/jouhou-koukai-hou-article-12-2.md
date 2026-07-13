@@ -16,17 +16,41 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: jouhou-koukai-hou-art-12-2-p1-zen
+    type: zen_dan
+    text: 行政機関の長は、開示請求に係る行政文書が独立行政法人等により作成されたものであるときその他独立行政法人等において独立行政法人等情報公開法第十条第一項に規定する開示決定等をすることにつき正当な理由があるときは、当該独立行政法人等と協議の上、当該独立行政法人等に対し、事案を移送することができる。
+    modality: kanou_kenri
+  - id: jouhou-koukai-hou-art-12-2-p1-kou
+    type: kou_dan
+    text: この場合においては、移送をした行政機関の長は、開示請求者に対し、事案を移送した旨を書面により通知しなければならない。
+    modality: gimu
+    depends_on: jouhou-koukai-hou-art-12-2-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: jouhou-koukai-hou-art-12-2-p2-zen
+    type: zen_dan
+    text: 前項の規定により事案が移送されたときは、当該事案については、行政文書を移送を受けた独立行政法人等が保有する独立行政法人等情報公開法第二条第二項に規定する法人文書と、開示請求を移送を受けた独立行政法人等に対する独立行政法人等情報公開法第四条第一項に規定する開示請求とみなして、独立行政法人等情報公開法の規定を適用する。
+    modality: unspecified
+    references:
+    - 前項
+  - id: jouhou-koukai-hou-art-12-2-p2-kou
+    type: kou_dan
+    text: この場合において、独立行政法人等情報公開法第十条第一項中「第四条第二項」とあるのは「行政機関の保有する情報の公開に関する法律（平成十一年法律第四十二号）第四条第二項」と、独立行政法人等情報公開法第十七条第一項中「開示請求をする者又は法人文書」とあるのは「法人文書」と、「により、それぞれ」とあるのは「により」と、「開示請求に係る手数料又は開示」とあるのは「開示」とする。
+    modality: gimu
+    depends_on: jouhou-koukai-hou-art-12-2-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: jouhou-koukai-hou-art-12-2-p3
+    type: simple
+    text: 第一項の規定により事案が移送された場合において、移送を受けた独立行政法人等が開示の実施をするときは、移送をした行政機関の長は、当該開示の実施に必要な協力をしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

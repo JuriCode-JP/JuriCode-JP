@@ -54,10 +54,8 @@ parent_section:
 
 ### 第百五十九条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-159-p1 -->
 普通地方公共団体の長の事務の引継ぎに関する規定は、政令でこれを定める。
 
 ### 第百五十九条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-159-p2 -->
 前項の政令には、正当の理由がなくて事務の引継ぎを拒んだ者に対し、十万円以下の過料を科する規定を設けることができる。

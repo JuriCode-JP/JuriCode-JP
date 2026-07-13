@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-3-p1
+    type: simple
+    text: 外務員は、その所属する金融商品取引業者等に代わつて、第六十四条第一項各号に掲げる行為に関し、一切の裁判外の行為を行う権限を有するものとみなす。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-64-3-p2
+    type: simple
+    text: 前項の規定は、相手方が悪意であつた場合においては、適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-24-p1
+    type: simple
+    text: 基金は、政令で定めるところにより、登記しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-24-p2
+    type: simple
+    text: 前項の規定により登記しなければならない事項は、登記の後でなければ、これをもつて第三者に対抗することができない。
+    modality: kanou_negative
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

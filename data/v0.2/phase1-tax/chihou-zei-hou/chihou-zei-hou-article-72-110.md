@@ -16,22 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-110-p1
+    type: simple
+    text: 偽りその他不正の行為により第七十二条の百四第一項の規定による還付を受けたときは、その違反行為をした者は、十年以下の拘禁刑若しくは百万円以下の罰金に処し、又はこれを併科する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-110-p2
+    type: tokusoku
+    text: 前項の還付を受けた金額の三倍が百万円を超える場合には、情状により、同項の罰金の額は、同項の規定にかかわらず、百万円を超え当該相当額の三倍以下の額とすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-110-p3
+    type: simple
+    text: 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者が、その法人又は人の業務又は財産に関して第一項の違反行為をした場合には、その行為者を罰するほか、その法人又は人に対し、同項の罰金刑を科する。
+    modality: unspecified
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-110-p4
+    type: simple
+    text: 前項の規定により第一項の違反行為につき法人又は人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。
+    modality: unspecified
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

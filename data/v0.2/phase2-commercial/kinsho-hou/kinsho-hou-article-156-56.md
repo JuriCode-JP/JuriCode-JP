@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-56-p1-hashira
+    type: hashira
+    text: 指定紛争解決機関は、次の各号のいずれかに該当するときは、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+  - id: kinsho-hou-art-156-56-p1-kou-1
+    type: kou
+    text: 金融商品取引関係業者と手続実施基本契約を締結したとき、又は当該手続実施基本契約を終了したとき。
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-hou-art-156-56-p1-kou-2
+    type: kou
+    text: 前号に掲げるもののほか、内閣府令で定めるとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第百五十六条の五十六
 
 指定紛争解決機関は、次の各号のいずれかに該当するときは、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+
+一　金融商品取引関係業者と手続実施基本契約を締結したとき、又は当該手続実施基本契約を終了したとき。
+
+二　前号に掲げるもののほか、内閣府令で定めるとき。

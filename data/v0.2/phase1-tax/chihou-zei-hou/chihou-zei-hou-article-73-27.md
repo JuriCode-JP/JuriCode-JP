@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-27-p1
+    type: simple
+    text: 道府県は、土地の取得に対して課する不動産取得税に係る地方団体の徴収金を徴収した場合において、当該不動産取得税について第七十三条の二十四第一項第一号、第二項第一号又は第三項の規定の適用があることとなつたときは、納税義務者の申請に基づいて、これらの規定により減額すべき額に相当する税額及びこれに係る地方団体の徴収金を還付するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-73-27-p2
+    type: junyou
+    text: 第七十三条の二第九項及び第十項の規定は、前項の規定による還付をする場合について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

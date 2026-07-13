@@ -48,8 +48,6 @@ parent_section:
 
 ### 第四十四条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-44-p1 -->
-<!-- segment: simple id: dokusen-kinshi-hou-art-44-p2 -->
 公正取引委員会は、内閣総理大臣を経由して、国会に対し、毎年この法律の施行の状況を報告しなければならない。
 
 ### 第四十四条第二項

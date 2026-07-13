@@ -48,10 +48,8 @@ parent_section:
 
 ### 第五百五十条第一項
 
-<!-- segment: simple id: shouhou-art-550-p1 -->
 仲立人は、第五百四十六条の手続を終了した後でなければ、報酬を請求することができない。
 
 ### 第五百五十条第二項
 
-<!-- segment: simple id: shouhou-art-550-p2 -->
 仲立人の報酬は、当事者双方が等しい割合で負担する。

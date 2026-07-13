@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-15-9-p1-hashira
+    type: hashira
+    text: 法第三百四十八条第二項第四十三号に規定する国立研究開発法人森林研究・整備機構が国立研究開発法人森林研究・整備機構法第十三条第一項第一号から第三号まで又は第二項第一号に規定する業務の用に供する固定資産で政令で定めるものは、これらの業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-15-9-p1-kou-1
+    type: kou
+    text: 事務所の用に供する固定資産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-15-9-p1-kou-2
+    type: kou
+    text: 宿舎の用に供する固定資産
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -36,3 +50,7 @@ parent_section:
 ### 第五十一条の十五の九
 
 法第三百四十八条第二項第四十三号に規定する国立研究開発法人森林研究・整備機構が国立研究開発法人森林研究・整備機構法第十三条第一項第一号から第三号まで又は第二項第一号に規定する業務の用に供する固定資産で政令で定めるものは、これらの業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する固定資産
+
+二　宿舎の用に供する固定資産

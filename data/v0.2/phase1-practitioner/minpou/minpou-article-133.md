@@ -50,10 +50,8 @@ parent_section:
 
 ### 第百三十三条第一項
 
-<!-- segment: simple id: minpou-art-133-p1 -->
 不能の停止条件を付した法律行為は、無効とする。
 
 ### 第百三十三条第二項
 
-<!-- segment: simple id: minpou-art-133-p2 -->
 不能の解除条件を付した法律行為は、無条件とする。

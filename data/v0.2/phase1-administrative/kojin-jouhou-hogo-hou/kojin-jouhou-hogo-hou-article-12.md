@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十二条第一項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-12-p1 -->
 地方公共団体は、その機関が保有する個人情報の適正な取扱いが確保されるよう必要な措置を講ずるものとする。
 
 ### 第十二条第二項
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-12-p2 -->
 地方公共団体は、その設立に係る地方独立行政法人について、その保有する個人情報の適正な取扱いが確保されるよう必要な措置を講ずるものとする。

@@ -16,27 +16,49 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-9-2-p1
+    type: simple
+    text: 修正申告は、すでに確定した納付すべき税額に係る部分の地方税についての納付義務に影響を及ぼさない。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-9-2-p2
+    type: simple
+    text: すでに確定した納付し、又は納入すべき税額を増加させる更正は、すでに確定した納付し、又は納入すべき税額に係る部分の地方税についての納付又は納入の義務に影響を及ぼさない。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-9-2-p3
+    type: simple
+    text: すでに確定した納付し、又は納入すべき税額を減少させる更正は、その更正により減少した税額に係る部分以外の部分の地方税についての納付又は納入の義務に影響を及ぼさない。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-9-2-p4
+    type: simple
+    text: 更正又は決定を取り消す処分又は判決は、その処分又は判決により減少した税額に係る部分以外の部分の地方税についての納付又は納入の義務に影響を及ぼさない。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-9-2-p5
+    type: junyou
+    text: 前三項の規定は、賦課決定又は加算金の決定について準用する。
+    modality: unspecified
+    references:
+    - 前三項
 cases: []
 amendments: []
 tags:

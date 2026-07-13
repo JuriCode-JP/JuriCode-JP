@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-35-p1
+    type: simple
+    text: 基金に、役員として、理事長一人、理事二人以上及び監事一人以上を置く。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-79-35-p2
+    type: simple
+    text: 基金の業務は、法令又は定款に別段の定めのあるものを除き、理事長及び理事の過半数をもつて決する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

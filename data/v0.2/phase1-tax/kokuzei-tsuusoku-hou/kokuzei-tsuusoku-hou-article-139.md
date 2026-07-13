@@ -39,5 +39,4 @@ parent_section:
 
 ### 第百三十九条
 
-<!-- segment: simple id: kokuzei-tsuusoku-hou-art-139-p1 -->
 臨検、捜索、差押え又は記録命令付差押えの許可状は、これらの処分を受ける者に提示しなければならない。

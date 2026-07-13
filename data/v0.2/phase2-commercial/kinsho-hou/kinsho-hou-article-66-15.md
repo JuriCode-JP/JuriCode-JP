@@ -16,7 +16,16 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-66-15-p1-zen
+    type: zen_dan
+    text: 第三十八条の二、第三十九条第一項、第三項、第四項及び第七項、第四十条並びに第四十三条の六の規定は金融商品仲介業者について、第三十九条第二項、第五項及び第六項の規定は金融商品仲介業者の顧客について、それぞれ準用する。
+    modality: unspecified
+  - id: kinsho-hou-art-66-15-p1-kou
+    type: kou_dan
+    text: この場合において、同条第三項中「当該金融商品取引業者等が」とあるのは、「当該金融商品仲介業者の所属金融商品取引業者等が」と読み替えるものとするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
+    depends_on: kinsho-hou-art-66-15-p1-zen
 cases: []
 amendments: []
 tags:

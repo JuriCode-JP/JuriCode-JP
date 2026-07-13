@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-49-3-p1
+    type: simple
+    text: 金融商品取引業者（第一種金融商品取引業を行う外国法人に限る。以下この款において同じ。）は、内閣府令で定めるところにより、事業年度ごとに、その行う業務の全部に関し作成した貸借対照表、損益計算書その他財務計算に関する書類及び当該事業年度における業務の概要を記載した書面を、当該事業年度経過後政令で定める期間内に、内閣総理大臣に提出しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-49-3-p2
+    type: simple
+    text: 金融商品取引業者は、前項の規定により書類及び書面を提出するほか、内閣府令で定めるところにより、当該金融商品取引業者の業務又は財産の状況を内閣総理大臣に報告しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三百五十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-357-p1 -->
 上訴は、裁判の一部に対してこれをすることができる。部分を限らないで上訴をしたときは、裁判の全部に対してしたものとみなす。

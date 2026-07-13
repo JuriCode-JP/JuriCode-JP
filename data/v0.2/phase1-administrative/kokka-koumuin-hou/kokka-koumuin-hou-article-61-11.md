@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-61-11-p1
+    type: junyou
+    text: 第六十一条の六の規定は、任命権者を異にする官職への課程対象者の任用について準用する。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

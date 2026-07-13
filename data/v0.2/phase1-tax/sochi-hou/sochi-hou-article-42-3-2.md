@@ -16,27 +16,57 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-42-3-2-p1
+    type: simple
+    text: 次の表の第一欄に掲げる法人又は人格のない社団等（普通法人のうち各事業年度終了の時において法人税法第六十六条第五項各号若しくは第百四十三条第五項各号に掲げる法人又は次条第十九項第八号に規定する適用除外事業者に該当するもの及び通算法人を除く。）の平成二十四年四月一日から令和九年三月三十一日までの間に開始する各事業年度の所得に係る同法その他法人税に関する法令の規定の適用については、同欄に掲げる法人又は人格のない社団等の区分に応じ同表の第二欄に掲げる規定中同表の第三欄に掲げる税率は、同表の第四欄に掲げる税率とする。
+    modality: gimu
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-42-3-2-p2
+    type: simple
+    text: 第六十八条第一項に規定する協同組合等（通算親法人であるものを除く。）の平成二十四年四月一日から令和九年三月三十一日までの間に開始する各事業年度の所得に係る法人税法その他法人税に関する法令の規定の適用については、同項中「百分の十九（各事業年度の所得の金額のうち十億円（事業年度が一年に満たない協同組合等については、十億円に当該事業年度の月数を乗じてこれを十二で除して計算した金額とする。）を超える部分の金額については、百分の二十二）」とあるのは、「百分の十九（所得の金額が十億円（事業年度が一年に満たない協同組合等については、十億円に当該事業年度の月数を乗じてこれを十二で除して計算した金額とする。以下この項において同じ。）以下である事業年度にあつては当該事業年度の所得の金額のうち八百万円（事業年度が一年に満たない協同組合等については、八百万円に当該事業年度の月数を乗じてこれを十二で除して計算した金額とする。以下この項において同じ。）以下の部分の金額については百分の十五とし、所得の金額が十億円を超える事業年度にあつては当該事業年度の所得の金額のうち、八百万円以下の部分の金額については百分の十七とし、十億円を超える部分の金額については百分の二十二とする。）」とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-42-3-2-p3
+    type: simple
+    text: 事業年度が一年に満たない第一項の表の各号に掲げる法人又は人格のない社団等に対する同項の規定の適用については、同表の第一号及び第二号中「年十億円」とあるのは「十億円を十二で除し、これに当該事業年度の月数を乗じて計算した金額」と、同表の第三号及び第四号中「年八百万円」とあるのは「八百万円を十二で除し、これに当該事業年度の月数を乗じて計算した金額」と、「年十億円」とあるのは「十億円を十二で除し、これに当該事業年度の月数を乗じて計算した金額」とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-42-3-2-p4
+    type: simple
+    text: 前項の月数は、暦に従つて計算し、一月に満たない端数を生じたときは、これを一月とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-42-3-2-p5
+    type: simple
+    text: 前二項に定めるもののほか、第一項及び第二項の規定の適用がある場合における法人税法その他法人税に関する法令の規定に関する技術的読替えその他第一項及び第二項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

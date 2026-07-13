@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-49-2-p1
+    type: simple
+    text: 前条第一項に規定する処分を受けた職員は、人事委員会又は公平委員会に対してのみ審査請求をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-49-2-p2
+    type: simple
+    text: 前条第一項に規定する処分を除くほか、職員に対する処分については、審査請求をすることができない。職員がした申請に対する不作為についても、同様とする。
+    modality: gimu
+    references:
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-49-2-p3
+    type: simple
+    text: 第一項に規定する審査請求については、行政不服審査法第二章の規定を適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

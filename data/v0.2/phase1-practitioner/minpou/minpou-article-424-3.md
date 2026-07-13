@@ -14,14 +14,48 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-3-p1-hashira
+    type: hashira
+    text: 債務者がした既存の債務についての担保の供与又は債務の消滅に関する行為について、債権者は、次に掲げる要件のいずれにも該当する場合に限り、詐害行為取消請求をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-424-3-p1-kou-1
+    type: kou
+    text: その行為が、債務者が支払不能（債務者が、支払能力を欠くために、その債務のうち弁済期にあるものにつき、一般的かつ継続的に弁済することができない状態をいう。次項第一号において同じ。）の時に行われたものであること。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-424-3-p1-kou-2
+    type: kou
+    text: その行為が、債務者と受益者とが通謀して他の債権者を害する意図をもって行われたものであること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-3-p2
+    type: tokusoku
+    text: 前項に規定する行為が、債務者の義務に属せず、又はその時期が債務者の義務に属しないものである場合において、次に掲げる要件のいずれにも該当するときは、債権者は、同項の規定にかかわらず、その行為について、詐害行為取消請求をすることができる。
+    modality: kanou_kenri
+    override_flag: true
+    override_target:
+    - 同項
+    references:
+    - 同項
+    - 前項
+  - id: minpou-art-424-3-p2-kou-1
+    type: kou
+    text: その行為が、債務者が支払不能になる前三十日以内に行われたものであること。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-424-3-p2-kou-2
+    type: kou
+    text: その行為が、債務者と受益者とが通謀して他の債権者を害する意図をもって行われたものであること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -48,6 +82,14 @@ parent_section:
 
 債務者がした既存の債務についての担保の供与又は債務の消滅に関する行為について、債権者は、次に掲げる要件のいずれにも該当する場合に限り、詐害行為取消請求をすることができる。
 
+一　その行為が、債務者が支払不能（債務者が、支払能力を欠くために、その債務のうち弁済期にあるものにつき、一般的かつ継続的に弁済することができない状態をいう。次項第一号において同じ。）の時に行われたものであること。
+
+二　その行為が、債務者と受益者とが通謀して他の債権者を害する意図をもって行われたものであること。
+
 ### 第四百二十四条の三第二項
 
 前項に規定する行為が、債務者の義務に属せず、又はその時期が債務者の義務に属しないものである場合において、次に掲げる要件のいずれにも該当するときは、債権者は、同項の規定にかかわらず、その行為について、詐害行為取消請求をすることができる。
+
+一　その行為が、債務者が支払不能になる前三十日以内に行われたものであること。
+
+二　その行為が、債務者と受益者とが通謀して他の債権者を害する意図をもって行われたものであること。

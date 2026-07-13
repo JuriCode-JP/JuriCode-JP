@@ -16,12 +16,24 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-2-3-p1
+    type: simple
+    text: 法第百条の十七第一項に規定する金融商品会員制法人の解散及び清算について、同項において会社法の規定を準用する場合における同項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-19-2-3-p2
+    type: simple
+    text: 法第百条の十七第二項に規定する金融商品会員制法人の清算について、同項において会社法の規定を準用する場合における同項の規定による技術的読替えは、次の表のとおりとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

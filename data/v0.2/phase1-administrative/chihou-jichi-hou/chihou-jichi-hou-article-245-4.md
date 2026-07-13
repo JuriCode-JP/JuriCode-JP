@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-4-p1
+    type: simple
+    text: 各大臣（内閣府設置法第四条第三項若しくはデジタル庁設置法第四条第二項に規定する事務を分担管理する大臣たる内閣総理大臣又は国家行政組織法第五条第一項に規定する各省大臣をいう。以下この章から第十四章まで及び第十六章において同じ。）又は都道府県知事その他の都道府県の執行機関は、その担任する事務に関し、普通地方公共団体に対し、普通地方公共団体の事務の運営その他の事項について適切と認める技術的な助言若しくは勧告をし、又は当該助言若しくは勧告をするため若しくは普通地方公共団体の事務の適正な処理に関する情報を提供するため必要な資料の提出を求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-4-p2
+    type: simple
+    text: 各大臣は、その担任する事務に関し、都道府県知事その他の都道府県の執行機関に対し、前項の規定による市町村に対する助言若しくは勧告又は資料の提出の求めに関し、必要な指示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-4-p3
+    type: simple
+    text: 普通地方公共団体の長その他の執行機関は、各大臣又は都道府県知事その他の都道府県の執行機関に対し、その担任する事務の管理及び執行について技術的な助言若しくは勧告又は必要な情報の提供を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-106-26-p1
+    type: simple
+    text: 内閣総理大臣は、金融商品取引所持株会社がその認可を受けた当時既に第百六条の十二第二項各号のいずれかに該当していたことが判明したときは、その認可を取り消すことができる。
+    modality: koka_torikeshi
 cases: []
 amendments: []
 tags:

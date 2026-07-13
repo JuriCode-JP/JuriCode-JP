@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-10-p1
+    type: simple
+    text: 広域連合を解散しようとするときは、関係地方公共団体の協議により、第二百八十四条第二項の例により、総務大臣又は都道府県知事の許可を受けなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-10-p2
+    type: simple
+    text: 総務大臣は、前項の許可をしようとするときは、国の関係行政機関の長に協議しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-10-p3
+    type: simple
+    text: 都道府県知事は、第一項の許可をしたときは、直ちにその旨を公表するとともに、総務大臣に報告しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-291-10-p4
+    type: simple
+    text: 総務大臣は、第一項の許可をしたときは直ちにその旨を告示するとともに、これを国の関係行政機関の長に通知し、前項の規定による報告を受けたときは直ちにその旨を国の関係行政機関の長に通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

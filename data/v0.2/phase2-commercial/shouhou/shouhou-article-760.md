@@ -41,5 +41,4 @@ parent_section:
 
 ### 第七百六十条
 
-<!-- segment: simple id: shouhou-art-760-p1 -->
 運送人は、船荷証券の記載が事実と異なることをもって善意の所持人に対抗することができない。

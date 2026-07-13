@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-50-5-p1
+    type: simple
+    text: 分離課税に係る所得割の特別徴収義務者は、第四十一条第一項の規定により分離課税に係る所得割を徴収する場合には、総務省令で定める様式によつて、その徴収すべき分離課税に係る所得割の課税標準額、税額その他必要な事項を記載した納入申告書を、第三百二十八条の五第二項又は第三項の規定による納入申告書とあわせて、市町村長に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

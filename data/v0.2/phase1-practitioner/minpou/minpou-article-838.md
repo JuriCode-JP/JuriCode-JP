@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 後見は、次に掲げる場合に開始する。
     modality: unspecified
+  - id: minpou-art-838-p1-kou-1
+    type: kou
+    text: 未成年者に対して親権を行う者がないとき、又は親権を行う者が管理権を有しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-838-p1-kou-2
+    type: kou
+    text: 後見開始の審判があったとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -41,5 +51,8 @@ parent_section:
 
 ### 第八百三十八条
 
-<!-- segment: hashira id: minpou-art-838-p1-hashira -->
 後見は、次に掲げる場合に開始する。
+
+一　未成年者に対して親権を行う者がないとき、又は親権を行う者が管理権を有しないとき。
+
+二　後見開始の審判があったとき。

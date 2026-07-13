@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-228-10-8-p1
+    type: simple
+    text: 法第六十八条の二の三第二項の規定による公表は、機構のホームページを使用する方法により行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

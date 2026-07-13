@@ -16,77 +16,162 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p1
+    type: simple
+    text: 各大臣は、その所管する法律若しくはこれに基づく政令に係る都道府県知事の法定受託事務の管理若しくは執行が法令の規定若しくは当該各大臣の処分に違反するものがある場合又は当該法定受託事務の管理若しくは執行を怠るものがある場合において、本項から第八項までに規定する措置以外の方法によつてその是正を図ることが困難であり、かつ、それを放置することにより著しく公益を害することが明らかであるときは、文書により、当該都道府県知事に対して、その旨を指摘し、期限を定めて、当該違反を是正し、又は当該怠る法定受託事務の管理若しくは執行を改めるべきことを勧告することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p2
+    type: simple
+    text: 各大臣は、都道府県知事が前項の期限までに同項の規定による勧告に係る事項を行わないときは、文書により、当該都道府県知事に対し、期限を定めて当該事項を行うべきことを指示することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p3
+    type: simple
+    text: 各大臣は、都道府県知事が前項の期限までに当該事項を行わないときは、高等裁判所に対し、訴えをもつて、当該事項を行うべきことを命ずる旨の裁判を請求することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p4
+    type: simple
+    text: 各大臣は、高等裁判所に対し前項の規定により訴えを提起したときは、直ちに、文書により、その旨を当該都道府県知事に通告するとともに、当該高等裁判所に対し、その通告をした日時、場所及び方法を通知しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p5
+    type: simple
+    text: 当該高等裁判所は、第三項の規定により訴えが提起されたときは、速やかに口頭弁論の期日を定め、当事者を呼び出さなければならない。その期日は、同項の訴えの提起があつた日から十五日以内の日とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p6
+    type: simple
+    text: 当該高等裁判所は、各大臣の請求に理由があると認めるときは、当該都道府県知事に対し、期限を定めて当該事項を行うべきことを命ずる旨の裁判をしなければならない。
+    modality: gimu
 - number: 7
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p7
+    type: simple
+    text: 第三項の訴えは、当該都道府県の区域を管轄する高等裁判所の専属管轄とする。
+    modality: gimu
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p8-zen
+    type: zen_dan
+    text: 各大臣は、都道府県知事が第六項の裁判に従い同項の期限までに、なお、当該事項を行わないときは、当該都道府県知事に代わつて当該事項を行うことができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+  - id: chihou-jichi-hou-art-245-8-p8-kou
+    type: kou_dan
+    text: この場合においては、各大臣は、あらかじめ当該都道府県知事に対し、当該事項を行う日時、場所及び方法を通知しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-245-8-p8-zen
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p9
+    type: simple
+    text: 第三項の訴えに係る高等裁判所の判決に対する上告の期間は、一週間とする。
+    modality: gimu
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p10
+    type: simple
+    text: 前項の上告は、執行停止の効力を有しない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p11
+    type: simple
+    text: 各大臣の請求に理由がない旨の判決が確定した場合において、既に第八項の規定に基づき第二項の規定による指示に係る事項が行われているときは、都道府県知事は、当該判決の確定後三月以内にその処分を取り消し、又は原状の回復その他必要な措置を執ることができる。
+    modality: kanou_kenri
 - number: 12
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p12
+    type: junyou
+    text: 前各項の規定は、市町村長の法定受託事務の管理若しくは執行が法令の規定若しくは各大臣若しくは都道府県知事の処分に違反するものがある場合又は当該法定受託事務の管理若しくは執行を怠るものがある場合において、本項に規定する措置以外の方法によつてその是正を図ることが困難であり、かつ、それを放置することにより著しく公益を害することが明らかであるときについて準用する。この場合においては、前各項の規定中「各大臣」とあるのは「都道府県知事」と、「都道府県知事」とあるのは「市町村長」と、「当該都道府県の区域」とあるのは「当該市町村の区域」と読み替えるものとする。
+    modality: gimu
 - number: 13
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p13
+    type: simple
+    text: 各大臣は、その所管する法律又はこれに基づく政令に係る市町村長の第一号法定受託事務の管理又は執行について、都道府県知事に対し、前項において準用する第一項から第八項までの規定による措置に関し、必要な指示をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 14
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p14
+    type: tokusoku
+    text: 第三項（第十二項において準用する場合を含む。次項において同じ。）の訴えについては、行政事件訴訟法第四十三条第三項の規定にかかわらず、同法第四十一条第二項の規定は、準用しない。
+    modality: unspecified
+    override_flag: true
+    override_target:
+    - 第四十三条
+    references:
+    - 次項
 - number: 15
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-245-8-p15
+    type: simple
+    text: 前各項に定めるもののほか、第三項の訴えについては、主張及び証拠の申出の時期の制限その他審理の促進に関し必要な事項は、最高裁判所規則で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

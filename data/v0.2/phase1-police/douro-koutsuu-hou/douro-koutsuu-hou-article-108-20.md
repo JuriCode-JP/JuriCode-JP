@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-20-p1
+    type: simple
+    text: 分析センターは、毎事業年度の事業計画及び収支予算を作成し、当該事業年度の開始前に国家公安委員会に提出しなければならない。これを変更しようとするときも、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-108-20-p2
+    type: simple
+    text: 分析センターは、毎事業年度の事業報告書、収支決算書、貸借対照表及び財産目録を作成し、当該事業年度経過後三月以内に国家公安委員会に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

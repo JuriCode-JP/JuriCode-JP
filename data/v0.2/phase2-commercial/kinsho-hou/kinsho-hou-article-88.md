@@ -61,15 +61,12 @@ parent_section:
 
 ### 第八十八条第一項
 
-<!-- segment: simple id: kinsho-hou-art-88-p1 -->
 金融商品会員制法人は、法人とする。
 
 ### 第八十八条第二項
 
-<!-- segment: simple id: kinsho-hou-art-88-p2 -->
 金融商品会員制法人は、その名称のうちに会員制法人という文字を用いなければならない。
 
 ### 第八十八条第三項
 
-<!-- segment: simple id: kinsho-hou-art-88-p3 -->
 金融商品会員制法人でない者は、その名称のうちに金融商品会員制法人であると誤認されるおそれのある文字を用いてはならない。

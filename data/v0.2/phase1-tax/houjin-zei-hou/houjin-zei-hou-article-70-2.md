@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-70-2-p1
+    type: simple
+    text: この款の規定による法人税の額からの控除については、まず第六十九条の二（分配時調整外国税相当額の控除）の規定による控除をし、次に前条の規定による控除をした後において、第六十八条（所得税額の控除）及び第六十九条（外国税額の控除）の規定による控除をするものとする。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

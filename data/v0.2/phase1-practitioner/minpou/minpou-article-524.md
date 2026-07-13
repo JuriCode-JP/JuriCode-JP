@@ -43,5 +43,4 @@ parent_section:
 
 ### 第五百二十四条
 
-<!-- segment: simple id: minpou-art-524-p1 -->
 申込者は、遅延した承諾を新たな申込みとみなすことができる。

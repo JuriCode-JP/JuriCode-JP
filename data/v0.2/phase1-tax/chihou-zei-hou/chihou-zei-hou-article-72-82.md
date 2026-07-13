@@ -16,7 +16,14 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-82-p1
+    type: tokusoku
+    text: 地方消費税については、第二十条の四の二第一項の規定にかかわらず、消費税額を課税標準額とする。
+    modality: gimu
+    override_flag: true
+    override_target:
+    - 第一項
 cases: []
 amendments: []
 tags:

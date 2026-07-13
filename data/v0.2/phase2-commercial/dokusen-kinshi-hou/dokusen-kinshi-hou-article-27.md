@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十七条第一項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-27-p1 -->
 内閣府設置法（平成十一年法律第八十九号）第四十九条第三項の規定に基づいて、第一条の目的を達成することを任務とする公正取引委員会を置く。
 
 ### 第二十七条第二項
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-27-p2 -->
 公正取引委員会は、内閣総理大臣の所轄に属する。

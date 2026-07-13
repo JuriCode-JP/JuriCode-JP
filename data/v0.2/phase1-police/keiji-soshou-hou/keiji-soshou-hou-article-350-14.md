@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-14-p1
+    type: simple
+    text: 検察官が第三百五十条の二第一項の合意に違反したときは、被告人が第三百五十条の四の協議においてした供述及び当該合意に基づいてした被告人の行為により得られた証拠は、これらを証拠とすることができない。
+    modality: kanou_negative
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-14-p2
+    type: simple
+    text: 前項の規定は、当該被告人の刑事事件の証拠とすることについて当該被告人に異議がない場合及び当該被告人以外の者の刑事事件の証拠とすることについてその者に異議がない場合には、これを適用しない。
+    modality: jogai
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-70-2-4-p1-zen
+    type: zen_dan
+    text: 平成十三年一月一日以後に贈与により財産を取得した者に係る贈与税については、相続税法第二十一条の五の規定にかかわらず、課税価格から百十万円を控除する。
+    modality: unspecified
+  - id: sochi-hou-art-70-2-4-p1-kou
+    type: kou_dan
+    text: この場合において、同法第二十一条の十一の規定の適用については、同条中「第二十一条の七まで」とあるのは、「第二十一条の七まで及び租税特別措置法第七十条の二の四（贈与税の基礎控除の特例）」とする。
+    modality: gimu
+    depends_on: sochi-hou-art-70-2-4-p1-zen
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-art-70-2-4-p2
+    type: simple
+    text: 前項の規定により控除された額は、相続税法その他贈与税に関する法令の規定の適用については、相続税法第二十一条の五の規定により控除されたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

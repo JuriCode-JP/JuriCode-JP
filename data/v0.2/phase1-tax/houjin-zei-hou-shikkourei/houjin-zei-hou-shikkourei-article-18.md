@@ -39,5 +39,4 @@ parent_section:
 
 ### 第十八条
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-18-p1 -->
 法第二十条（納税地の異動の届出）に規定する届出は、納税地の異動があつた後遅滞なく、異動前の納税地及び異動後の納税地を記載した書面をもつてしなければならない。

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百四条
 
-<!-- segment: simple id: shouhou-art-604-p1 -->
 倉庫営業者は、倉荷証券の記載が事実と異なることをもって善意の所持人に対抗することができない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-145-11-p1
+    type: simple
+    text: 第八十四条第一項（退職年金等積立金の額の計算）に規定する退職年金業務等を行う外国法人の各事業年度の退職年金等積立金の額は、当該退職年金等積立金について、政令で定めるところにより、同条から第八十六条まで（退職年金等積立金の額の計算及びその特例）の規定に準じて計算した金額とする。
+    modality: gimu
 cases: []
 amendments:
 - effective_date: '2026-04-01'

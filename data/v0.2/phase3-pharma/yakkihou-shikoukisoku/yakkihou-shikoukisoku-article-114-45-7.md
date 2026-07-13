@@ -14,19 +14,60 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-7-p1-hashira
+    type: hashira
+    text: 確認された変更計画の変更が軽微な変更であるときは、第百十四条の四十五の二の規定にかかわらず、様式第六十三の十九の四による届書（正副二通）に次の各号に掲げる資料を添えて、厚生労働大臣に法第二十三条の二の十の二第一項の変更計画の変更を届け出ることができる。
+    modality: kanou_kenri
+  - id: yakkihou-shikoukisoku-art-114-45-7-p1-kou-1
+    type: kou
+    text: 変更計画の変更案
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-45-7-p1-kou-2
+    type: kou
+    text: 変更理由
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-7-p2-hashira
+    type: hashira
+    text: 前項の軽微な変更は、次の各号に掲げる変更以外のものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-114-45-7-p2-kou-1
+    type: kou
+    text: 新たに承認申請が必要となると考えられる医療機器又は体外診断用医薬品の変更
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-114-45-7-p2-kou-2
+    type: kou
+    text: 医療機器又は体外診断用医薬品の検証実施計画又は適合基準に係る変更
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-114-45-7-p2-kou-3
+    type: kou
+    text: 前二号に掲げる変更のほか、医療機器又は体外診断用医薬品の品質、有効性及び安全性に影響を与える変更
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-45-7-p3
+    type: simple
+    text: 厚生労働大臣が法第二十三条の二の十の二第九項の規定により機構に同条第一項の確認を行わせることとした場合における第一項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -47,9 +88,19 @@ parent_section:
 
 確認された変更計画の変更が軽微な変更であるときは、第百十四条の四十五の二の規定にかかわらず、様式第六十三の十九の四による届書（正副二通）に次の各号に掲げる資料を添えて、厚生労働大臣に法第二十三条の二の十の二第一項の変更計画の変更を届け出ることができる。
 
+一　変更計画の変更案
+
+二　変更理由
+
 ### 第百十四条の四十五の七第二項
 
 前項の軽微な変更は、次の各号に掲げる変更以外のものとする。
+
+一　新たに承認申請が必要となると考えられる医療機器又は体外診断用医薬品の変更
+
+二　医療機器又は体外診断用医薬品の検証実施計画又は適合基準に係る変更
+
+三　前二号に掲げる変更のほか、医療機器又は体外診断用医薬品の品質、有効性及び安全性に影響を与える変更
 
 ### 第百十四条の四十五の七第三項
 

@@ -70,20 +70,16 @@ parent_section:
 
 ### 第百七十四条第一項
 
-<!-- segment: simple id: chihou-jichi-hou-art-174-p1 -->
 普通地方公共団体は、常設又は臨時の専門委員を置くことができる。
 
 ### 第百七十四条第二項
 
-<!-- segment: simple id: chihou-jichi-hou-art-174-p2 -->
 専門委員は、専門の学識経験を有する者の中から、普通地方公共団体の長がこれを選任する。
 
 ### 第百七十四条第三項
 
-<!-- segment: simple id: chihou-jichi-hou-art-174-p3 -->
 専門委員は、普通地方公共団体の長の委託を受け、その権限に属する事務に関し必要な事項を調査する。
 
 ### 第百七十四条第四項
 
-<!-- segment: simple id: chihou-jichi-hou-art-174-p4 -->
 専門委員は、非常勤とする。

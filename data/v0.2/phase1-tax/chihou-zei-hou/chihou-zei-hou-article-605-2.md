@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-605-2-p1
+    type: simple
+    text: 市町村長は、天災その他特別の事情がある場合において特別土地保有税の減免を必要とすると認める者その他特別の事情がある者に限り、当該市町村の条例の定めるところにより、特別土地保有税を減免することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

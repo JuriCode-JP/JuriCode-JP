@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 次の各号に掲げる清算株式会社においては、清算人は、当該各号に定める貸借対照表及び事務報告を定時株主総会に提出し、又は提供しなければならない。
     modality: gimu
+  - id: kaisha-hou-art-497-p1-kou-1
+    type: kou
+    text: 第四百九十五条第一項に規定する監査役設置会社（清算人会設置会社を除く。）　同項の監査を受けた貸借対照表及び事務報告
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-497-p1-kou-2
+    type: kou
+    text: 清算人会設置会社　第四百九十五条第二項の承認を受けた貸借対照表及び事務報告
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-497-p1-kou-3
+    type: kou
+    text: 前二号に掲げるもの以外の清算株式会社　第四百九十四条第一項の貸借対照表及び事務報告
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -63,15 +78,18 @@ parent_section:
 
 ### 第四百九十七条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-497-p1-hashira -->
 次の各号に掲げる清算株式会社においては、清算人は、当該各号に定める貸借対照表及び事務報告を定時株主総会に提出し、又は提供しなければならない。
+
+一　第四百九十五条第一項に規定する監査役設置会社（清算人会設置会社を除く。）　同項の監査を受けた貸借対照表及び事務報告
+
+二　清算人会設置会社　第四百九十五条第二項の承認を受けた貸借対照表及び事務報告
+
+三　前二号に掲げるもの以外の清算株式会社　第四百九十四条第一項の貸借対照表及び事務報告
 
 ### 第四百九十七条第二項
 
-<!-- segment: simple id: kaisha-hou-art-497-p2 -->
 前項の規定により提出され、又は提供された貸借対照表は、定時株主総会の承認を受けなければならない。
 
 ### 第四百九十七条第三項
 
-<!-- segment: simple id: kaisha-hou-art-497-p3 -->
 清算人は、第一項の規定により提出され、又は提供された事務報告の内容を定時株主総会に報告しなければならない。

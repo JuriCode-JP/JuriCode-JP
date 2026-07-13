@@ -48,10 +48,8 @@ parent_section:
 
 ### 第五百三条第一項
 
-<!-- segment: simple id: shouhou-art-503-p1 -->
 商人がその営業のためにする行為は、商行為とする。
 
 ### 第五百三条第二項
 
-<!-- segment: simple id: shouhou-art-503-p2 -->
 商人の行為は、その営業のためにするものと推定する。

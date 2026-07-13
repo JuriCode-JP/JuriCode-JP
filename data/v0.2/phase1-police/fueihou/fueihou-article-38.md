@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 公安委員会は、次に掲げる要件を満たしている者のうちから、少年指導委員を委嘱することができる。
     modality: kanou_kenri
+  - id: fueihou-art-38-p1-kou-1
+    type: kou
+    text: 人格及び行動について、社会的信望を有すること。
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-38-p1-kou-2
+    type: kou
+    text: 職務の遂行に必要な熱意及び時間的余裕を有すること。
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-38-p1-kou-3
+    type: kou
+    text: 生活が安定していること。
+    modality: unspecified
+    item_number: 3
+  - id: fueihou-art-38-p1-kou-4
+    type: kou
+    text: 健康で活動力を有すること。
+    modality: unspecified
+    item_number: 4
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +50,31 @@ paragraphs:
     type: hashira
     text: 少年指導委員は、風俗営業及び性風俗関連特殊営業等（性風俗関連特殊営業、特定遊興飲食店営業、飲食店営業、興行場営業、特定性風俗物品販売等営業及び接客業務受託営業をいう。第二号において同じ。）に関し、次に掲げる職務を行う。
     modality: unspecified
+  - id: fueihou-art-38-p2-kou-1
+    type: kou
+    text: 飲酒若しくは喫煙をしている少年、風俗営業、店舗型性風俗特殊営業、店舗型電話異性紹介営業若しくは特定遊興飲食店営業の営業所若しくは第二条第七項第一号の営業の受付所に客として出入りし、又はこれらの営業所若しくは受付所の付近をはいかいしている十八歳未満の者その他少年の健全な育成の観点から障害があると認められる行為を行つている少年の補導を行うこと。
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-38-p2-kou-2
+    type: kou
+    text: 風俗営業若しくは性風俗関連特殊営業等を営む者又はその代理人等に対し、少年の健全な育成に障害を及ぼす行為を防止するために必要な助言を行うこと。
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-38-p2-kou-3
+    type: kou
+    text: 少年の健全な育成に障害を及ぼす行為により被害を受けた少年に対し、助言及び指導その他の援助を行うこと。
+    modality: unspecified
+    item_number: 3
+  - id: fueihou-art-38-p2-kou-4
+    type: kou
+    text: 少年の健全な育成に資するための地方公共団体の施策及び民間団体の活動への協力を行うこと。
+    modality: unspecified
+    item_number: 4
+  - id: fueihou-art-38-p2-kou-5
+    type: kou
+    text: 前各号に掲げるもののほか、少年の健全な育成に障害を及ぼす行為を防止し、又は少年の健全な育成に資するための活動で国家公安委員会規則で定めるものを行うこと。
+    modality: unspecified
+    item_number: 5
 - number: 3
   has_proviso: false
   has_items: false
@@ -66,6 +111,21 @@ paragraphs:
     type: hashira
     text: 公安委員会は、少年指導委員が次の各号のいずれかに該当するときは、これを解嘱することができる。
     modality: kanou_kenri
+  - id: fueihou-art-38-p6-kou-1
+    type: kou
+    text: 第一項各号のいずれかの要件を欠くに至つたとき。
+    modality: unspecified
+    item_number: 1
+  - id: fueihou-art-38-p6-kou-2
+    type: kou
+    text: 職務上の義務に違反し、又はその職務を怠つたとき。
+    modality: unspecified
+    item_number: 2
+  - id: fueihou-art-38-p6-kou-3
+    type: kou
+    text: 少年指導委員たるにふさわしくない非行のあつたとき。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -82,30 +142,48 @@ parent_section:
 
 ### 第三十八条第一項
 
-<!-- segment: hashira id: fueihou-art-38-p1-hashira -->
 公安委員会は、次に掲げる要件を満たしている者のうちから、少年指導委員を委嘱することができる。
+
+一　人格及び行動について、社会的信望を有すること。
+
+二　職務の遂行に必要な熱意及び時間的余裕を有すること。
+
+三　生活が安定していること。
+
+四　健康で活動力を有すること。
 
 ### 第三十八条第二項
 
-<!-- segment: hashira id: fueihou-art-38-p2-hashira -->
 少年指導委員は、風俗営業及び性風俗関連特殊営業等（性風俗関連特殊営業、特定遊興飲食店営業、飲食店営業、興行場営業、特定性風俗物品販売等営業及び接客業務受託営業をいう。第二号において同じ。）に関し、次に掲げる職務を行う。
+
+一　飲酒若しくは喫煙をしている少年、風俗営業、店舗型性風俗特殊営業、店舗型電話異性紹介営業若しくは特定遊興飲食店営業の営業所若しくは第二条第七項第一号の営業の受付所に客として出入りし、又はこれらの営業所若しくは受付所の付近をはいかいしている十八歳未満の者その他少年の健全な育成の観点から障害があると認められる行為を行つている少年の補導を行うこと。
+
+二　風俗営業若しくは性風俗関連特殊営業等を営む者又はその代理人等に対し、少年の健全な育成に障害を及ぼす行為を防止するために必要な助言を行うこと。
+
+三　少年の健全な育成に障害を及ぼす行為により被害を受けた少年に対し、助言及び指導その他の援助を行うこと。
+
+四　少年の健全な育成に資するための地方公共団体の施策及び民間団体の活動への協力を行うこと。
+
+五　前各号に掲げるもののほか、少年の健全な育成に障害を及ぼす行為を防止し、又は少年の健全な育成に資するための活動で国家公安委員会規則で定めるものを行うこと。
 
 ### 第三十八条第三項
 
-<!-- segment: simple id: fueihou-art-38-p3 -->
 少年指導委員又は少年指導委員であつた者は、職務に関して知り得た秘密を漏らしてはならない。
 
 ### 第三十八条第四項
 
-<!-- segment: simple id: fueihou-art-38-p4 -->
 少年指導委員は、名誉職とする。
 
 ### 第三十八条第五項
 
-<!-- segment: simple id: fueihou-art-38-p5 -->
 公安委員会は、少年指導委員に対し、その職務の遂行に必要な研修を行うものとする。
 
 ### 第三十八条第六項
 
-<!-- segment: hashira id: fueihou-art-38-p6-hashira -->
 公安委員会は、少年指導委員が次の各号のいずれかに該当するときは、これを解嘱することができる。
+
+一　第一項各号のいずれかの要件を欠くに至つたとき。
+
+二　職務上の義務に違反し、又はその職務を怠つたとき。
+
+三　少年指導委員たるにふさわしくない非行のあつたとき。

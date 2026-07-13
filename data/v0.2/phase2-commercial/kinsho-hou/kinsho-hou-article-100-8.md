@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-8-p1
+    type: simple
+    text: 解散した金融商品会員制法人は、清算の目的の範囲内において、その清算の結了に至るまでは、なお存続するものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

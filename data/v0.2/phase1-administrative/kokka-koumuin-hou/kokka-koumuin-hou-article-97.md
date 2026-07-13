@@ -39,5 +39,4 @@ parent_section:
 
 ### 第九十七条
 
-<!-- segment: simple id: kokka-koumuin-hou-art-97-p1 -->
 職員は、政令の定めるところにより、服務の宣誓をしなければならない。

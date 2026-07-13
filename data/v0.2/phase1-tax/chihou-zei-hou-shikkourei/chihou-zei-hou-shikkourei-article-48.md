@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四十八条
 
-<!-- segment: simple id: chihou-zei-hou-shikkourei-art-48-p1 -->
 法第三百十二条第一項の表の第一号に規定する政令で定める役員は、俸給、給料若しくは賞与又はこれらの性質を有する給与の支給を受けることとされている役員とする。

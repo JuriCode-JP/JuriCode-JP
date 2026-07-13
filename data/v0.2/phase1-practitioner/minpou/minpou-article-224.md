@@ -47,6 +47,4 @@ parent_section:
 
 ### 第二百二十四条
 
-<!-- segment: honbun id: minpou-art-224-p1-honbun -->
-境界標の設置及び保存の費用は、相隣者が等しい割合で負担する。<!-- segment: tadashi id: minpou-art-224-p1-tadashi -->
-ただし、測量の費用は、その土地の広狭に応じて分担する。
+境界標の設置及び保存の費用は、相隣者が等しい割合で負担する。ただし、測量の費用は、その土地の広狭に応じて分担する。

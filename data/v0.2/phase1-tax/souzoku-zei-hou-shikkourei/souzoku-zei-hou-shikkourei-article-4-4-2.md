@@ -14,14 +14,42 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-4-4-2-p1-hashira
+    type: hashira
+    text: 法第二十一条の二第三項に規定する住所を有していた期間内に贈与により取得した財産で政令で定めるものは、次の各号に掲げる場合の区分に応じ、当該各号に定める財産とする。
+    modality: gimu
+  - id: souzoku-zei-hou-shikkourei-art-4-4-2-p1-kou-1
+    type: kou
+    text: 贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第一号の規定に該当する者である場合　当該贈与により取得した財産
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikkourei-art-4-4-2-p1-kou-2
+    type: kou
+    text: 贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第三号の規定に該当する者である場合　当該贈与により取得した財産で法の施行地にあるもの
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: souzoku-zei-hou-shikkourei-art-4-4-2-p2-hashira
+    type: hashira
+    text: 法第二十一条の二第三項に規定する住所を有していなかつた期間内に贈与により取得した財産で政令で定めるものは、次の各号に掲げる場合の区分に応じ、当該各号に定める財産とする。
+    modality: gimu
+  - id: souzoku-zei-hou-shikkourei-art-4-4-2-p2-kou-1
+    type: kou
+    text: 贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第二号の規定に該当する者である場合　当該贈与により取得した財産
+    modality: unspecified
+    item_number: 1
+  - id: souzoku-zei-hou-shikkourei-art-4-4-2-p2-kou-2
+    type: kou
+    text: 贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第四号の規定に該当する者である場合　当該贈与により取得した財産で法の施行地にあるもの
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -42,6 +70,14 @@ parent_section:
 
 法第二十一条の二第三項に規定する住所を有していた期間内に贈与により取得した財産で政令で定めるものは、次の各号に掲げる場合の区分に応じ、当該各号に定める財産とする。
 
+一　贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第一号の規定に該当する者である場合　当該贈与により取得した財産
+
+二　贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第三号の規定に該当する者である場合　当該贈与により取得した財産で法の施行地にあるもの
+
 ### 第四条の四の二第二項
 
 法第二十一条の二第三項に規定する住所を有していなかつた期間内に贈与により取得した財産で政令で定めるものは、次の各号に掲げる場合の区分に応じ、当該各号に定める財産とする。
+
+一　贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第二号の規定に該当する者である場合　当該贈与により取得した財産
+
+二　贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第四号の規定に該当する者である場合　当該贈与により取得した財産で法の施行地にあるもの

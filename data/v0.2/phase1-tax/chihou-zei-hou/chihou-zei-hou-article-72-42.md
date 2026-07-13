@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-42-p1
+    type: simple
+    text: 道府県知事は、第七十二条の三十九、第七十二条の四十一又は第七十二条の四十一の二の規定によつて課税標準額又は事業税額を更正し、又は決定した場合においては、遅滞なく、これを納税者に通知しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

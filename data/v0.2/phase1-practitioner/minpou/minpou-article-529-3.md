@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-529-3-p1-honbun
+    type: honbun
+    text: 懸賞広告者は、その指定した行為を完了する者がない間は、その指定した行為をする期間を定めないでした広告を撤回することができる。
+    modality: kanou_kenri
+  - id: minpou-art-529-3-p1-tadashi
+    type: tadashi
+    text: ただし、その広告中に撤回をしない旨を表示したときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

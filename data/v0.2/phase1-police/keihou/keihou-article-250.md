@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百五十条
 
-<!-- segment: simple id: keihou-art-250-p1 -->
 この章の罪の未遂は、罰する。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十三条
 
-<!-- segment: simple id: keisatsu-hou-art-13-p1 -->
 国家公安委員会の庶務は、警察庁において処理する。

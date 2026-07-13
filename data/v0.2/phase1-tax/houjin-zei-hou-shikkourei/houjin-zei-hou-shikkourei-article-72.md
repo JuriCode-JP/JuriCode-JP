@@ -21,6 +21,26 @@ paragraphs:
     type: hashira
     text: 法第三十六条（過大な使用人給与の損金不算入）に規定する政令で定める特殊の関係のある使用人は、次に掲げる者とする。
     modality: gimu
+  - id: houjin-zei-hou-shikkourei-art-72-p1-kou-1
+    type: kou
+    text: 役員の親族
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikkourei-art-72-p1-kou-2
+    type: kou
+    text: 役員と事実上婚姻関係と同様の関係にある者
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikkourei-art-72-p1-kou-3
+    type: kou
+    text: 前二号に掲げる者以外の者で役員から生計の支援を受けているもの
+    modality: unspecified
+    item_number: 3
+  - id: houjin-zei-hou-shikkourei-art-72-p1-kou-4
+    type: kou
+    text: 前二号に掲げる者と生計を一にするこれらの者の親族
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -45,5 +65,12 @@ parent_section:
 
 ### 第七十二条
 
-<!-- segment: hashira id: houjin-zei-hou-shikkourei-art-72-p1-hashira -->
 法第三十六条（過大な使用人給与の損金不算入）に規定する政令で定める特殊の関係のある使用人は、次に掲げる者とする。
+
+一　役員の親族
+
+二　役員と事実上婚姻関係と同様の関係にある者
+
+三　前二号に掲げる者以外の者で役員から生計の支援を受けているもの
+
+四　前二号に掲げる者と生計を一にするこれらの者の親族

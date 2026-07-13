@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十八条
 
-<!-- segment: simple id: dokusen-kinshi-hou-art-28-p1 -->
 公正取引委員会の委員長及び委員は、独立してその職権を行う。

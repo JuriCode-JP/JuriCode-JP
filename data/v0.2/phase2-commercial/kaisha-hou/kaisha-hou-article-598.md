@@ -31,8 +31,8 @@ paragraphs:
     text: 第五百九十三条から前条までの規定は、前項の規定により選任された社員の職務を行うべき者について準用する。
     modality: unspecified
     references:
-    - 前項
     - 前条
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -53,10 +53,8 @@ parent_section:
 
 ### 第五百九十八条第一項
 
-<!-- segment: simple id: kaisha-hou-art-598-p1 -->
 法人が業務を執行する社員である場合には、当該法人は、当該業務を執行する社員の職務を行うべき者を選任し、その者の氏名及び住所を他の社員に通知しなければならない。
 
 ### 第五百九十八条第二項
 
-<!-- segment: junyou id: kaisha-hou-art-598-p2 -->
 第五百九十三条から前条までの規定は、前項の規定により選任された社員の職務を行うべき者について準用する。

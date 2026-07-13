@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-14-5-p1
+    type: simple
+    text: 法第二十七条の二十三第一項に規定する政令で定める休日は、行政機関の休日（日曜日を除く。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

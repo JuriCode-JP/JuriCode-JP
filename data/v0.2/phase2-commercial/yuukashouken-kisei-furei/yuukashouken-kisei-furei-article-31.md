@@ -37,5 +37,4 @@ parent_section:
 
 ### 第三十一条
 
-<!-- segment: simple id: yuukashouken-kisei-furei-art-31-p1 -->
 法第百六十四条第五項の規定により申立てをしようとする上場会社等の役員又は主要株主は、申立書を関東財務局長に提出しなければならない。

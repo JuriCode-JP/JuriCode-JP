@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-6-p1
+    type: simple
+    text: 発行登録に係る有価証券の発行予定期間は、発行登録の効力が生じた日から起算して二年を超えない範囲内において内閣府令で定める期間とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-23-6-p2
+    type: simple
+    text: 発行登録は、前項の発行予定期間を経過した日に、その効力を失う。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

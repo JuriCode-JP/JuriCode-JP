@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-4-5-p1-honbun
+    type: honbun
+    text: 法第二十四条の七第一項（同条第六項において準用し、及びこれらの規定を法第二十七条において準用する場合を含む。）に規定する政令で定める期間は、三月とする。
+    modality: gimu
+  - id: kinsho-hou-shikkourei-art-4-5-p1-tadashi
+    type: tadashi
+    text: ただし、親会社等（法第二十四条の七第一項に規定する親会社等をいう。第四条の八において同じ。）である外国会社（法第二十四条の七第六項において準用する場合にあつては、外国の者）が、その本国の法令又は慣行その他やむを得ない理由により、親会社等状況報告書（法第二十四条の七第一項に規定する親会社等状況報告書をいう。以下同じ。）をその事業年度経過後三月以内に提出できないと認められる場合には、内閣府令で定めるところにより、あらかじめ金融庁長官の承認を受けた期間とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

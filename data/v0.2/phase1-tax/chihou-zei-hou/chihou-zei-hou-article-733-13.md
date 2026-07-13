@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-733-13-p1-honbun
+    type: honbun
+    text: 地方団体の長は、天災その他特別の事情がある場合において法定外目的税の減免を必要とすると認める者、貧困により生活のため公私の扶助を受ける者その他特別の事情がある者に限り、当該地方団体の条例の定めるところにより、当該法定外目的税を減免することができる。
+    modality: kanou_kenri
+  - id: chihou-zei-hou-art-733-13-p1-tadashi
+    type: tadashi
+    text: ただし、特別徴収義務者については、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第百八十六条第一項
 
-<!-- segment: simple id: keihou-art-186-p1 -->
 常習として賭博をした者は、三年以下の拘禁刑に処する。
 
 ### 第百八十六条第二項
 
-<!-- segment: simple id: keihou-art-186-p2 -->
 賭博場を開張し、又は博徒を結合して利益を図った者は、三月以上五年以下の拘禁刑に処する。

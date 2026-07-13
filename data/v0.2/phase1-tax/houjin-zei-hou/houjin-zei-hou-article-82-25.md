@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-82-25-p1
+    type: simple
+    text: 第八十二条の二十二第一項（国内最低課税額に係る確定申告）の規定による申告書を提出した内国法人は、当該申告書に記載した同項第二号に掲げる金額があるときは、当該申告書の提出期限までに、当該金額に相当する法人税を国に納付しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments:
 - effective_date: '2026-04-01'

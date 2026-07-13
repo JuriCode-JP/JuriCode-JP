@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 行政庁は、弁明書の提出期限（口頭による弁明の機会の付与を行う場合には、その日時）までに相当な期間をおいて、不利益処分の名あて人となるべき者に対し、次に掲げる事項を書面により通知しなければならない。
     modality: gimu
+  - id: gyousei-tetsuzuki-hou-art-30-p1-kou-1
+    type: kou
+    text: 予定される不利益処分の内容及び根拠となる法令の条項
+    modality: unspecified
+    item_number: 1
+  - id: gyousei-tetsuzuki-hou-art-30-p1-kou-2
+    type: kou
+    text: 不利益処分の原因となる事実
+    modality: unspecified
+    item_number: 2
+  - id: gyousei-tetsuzuki-hou-art-30-p1-kou-3
+    type: kou
+    text: 弁明書の提出先及び提出期限（口頭による弁明の機会の付与を行う場合には、その旨並びに出頭すべき日時及び場所）
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第三十条
 
-<!-- segment: hashira id: gyousei-tetsuzuki-hou-art-30-p1-hashira -->
 行政庁は、弁明書の提出期限（口頭による弁明の機会の付与を行う場合には、その日時）までに相当な期間をおいて、不利益処分の名あて人となるべき者に対し、次に掲げる事項を書面により通知しなければならない。
+
+一　予定される不利益処分の内容及び根拠となる法令の条項
+
+二　不利益処分の原因となる事実
+
+三　弁明書の提出先及び提出期限（口頭による弁明の機会の付与を行う場合には、その旨並びに出頭すべき日時及び場所）

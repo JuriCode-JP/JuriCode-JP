@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-3-4-p1
+    type: simple
+    text: 政令第三十六条の十第一項第四号に規定する総務省令で定める者は、同条第二項第三号の規定を適用する場合にあつては社会福祉法（昭和二十六年法律第四十五号）第二条第三項第九号に掲げる事業を経営する者とし、政令第三十六条の十第二項第六号の規定を適用する場合にあつては社会福祉法第二条第三項第二号に掲げる障害児通所支援事業、障害児相談支援事業、児童自立生活援助事業、放課後児童健全育成事業、子育て短期支援事業、乳児家庭全戸訪問事業、養育支援訪問事業、地域子育て支援拠点事業、一時預かり事業、小規模住居型児童養育事業、病児保育事業、子育て援助活動支援事業、親子再統合支援事業、社会的養護自立支援拠点事業、意見表明等支援事業、妊産婦等生活援助事業、子育て世帯訪問支援事業、児童育成支援拠点事業、親子関係形成支援事業、乳児等通園支援事業及び児童の福祉の増進について相談に応ずる事業、同項第二号の三に掲げる事業、同項第四号の二に掲げる障害福祉サービス事業、一般相談支援事業、特定相談支援事業、移動支援事業及び地域活動支援センターを経営する事業、同項第五号に掲げる身体障害者生活訓練等事業、手話通訳事業、介助犬訓練事業、聴導犬訓練事業及び身体障害者の更生相談に応ずる事業並びに同項第六号並びに第十二号に掲げる事業を経営する者又はこれらの事業を経営することが確実であると見込まれる者とする。
+    modality: gimu
+    references:
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-3-4-p2
+    type: simple
+    text: 政令第三十六条の十第二項第二号に規定する総務省令で定める者は、公益社団法人又は公益財団法人とする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-7-3-4-p3
+    type: simple
+    text: 政令第三十六条の十第二項第三号に規定する総務省令で定める者は、社会福祉の増進のための社会福祉事業法等の一部を改正する等の法律（平成十二年法律第百十一号）第一条の規定による改正前の社会福祉事業法第二条第三項第五号に掲げる事業の経営について平成十一年三月三十一日までに同法第六十四条第一項の規定により届け出た宗教法人とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

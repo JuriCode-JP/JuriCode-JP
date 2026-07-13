@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-20-p1
+    type: simple
+    text: 裁判所は、即決裁判手続の申立てがあつた事件について、弁護人が即決裁判手続によることについてその意見を留保しているとき、又は即決裁判手続の申立てがあつた後に弁護人が選任されたときは、弁護人に対し、できる限り速やかに、即決裁判手続によることについて同意をするかどうかの確認を求めなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-350-20-p2
+    type: simple
+    text: 弁護人は、前項の同意をするときは、書面でその旨を明らかにしなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kigyou-kaiji-furei-art-19-3-p1
+    type: simple
+    text: 法第二十四条の六第一項の規定により自己株券買付状況報告書を提出すべき者は、第十七号様式により自己株券買付状況報告書三通を作成し、財務局長等に提出しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

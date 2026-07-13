@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 審判手続において提出する書面は、次に掲げるものを除き、ファクシミリを利用して送信することにより提出することができる。
     modality: kanou_kenri
+  - id: kinsho-kachoukin-furei-art-3-p1-kou-1
+    type: kou
+    text: 法第百八十三条第二項に規定する答弁書
+    modality: unspecified
+    item_number: 1
+  - id: kinsho-kachoukin-furei-art-3-p1-kou-2
+    type: kou
+    text: 法定代理権又は法第百八十一条第一項の代理人の権限を証明する書面その他の審判手続上重要な事項を証明する書面
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -59,15 +69,16 @@ parent_section:
 
 ### 第三条第一項
 
-<!-- segment: hashira id: kinsho-kachoukin-furei-art-3-p1-hashira -->
 審判手続において提出する書面は、次に掲げるものを除き、ファクシミリを利用して送信することにより提出することができる。
+
+一　法第百八十三条第二項に規定する答弁書
+
+二　法定代理権又は法第百八十一条第一項の代理人の権限を証明する書面その他の審判手続上重要な事項を証明する書面
 
 ### 第三条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-3-p2 -->
 ファクシミリを利用して書面が提出された場合は、審判官が受信した時に、当該書面が審判官に提出されたものとみなす。
 
 ### 第三条第三項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-3-p3 -->
 審判官は、前項に規定する場合において、必要があると認めるときは、提出者に対し、送信に使用した書面を提出させることができる。

@@ -14,9 +14,43 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-48-3-p1-hashira
+    type: hashira
+    text: 再生医療等製品に係る法第二十三条の三十二の二第一項第一号の厚生労働省令で定める事項の変更は、次の各号に掲げる事項の変更とする。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-137-48-3-p1-kou-1
+    type: kou
+    text: 形状、構造、成分、分量又は本質（構成細胞又は導入遺伝子を除く。）
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-48-3-p1-kou-2
+    type: kou
+    text: 製造方法
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-137-48-3-p1-kou-3
+    type: kou
+    text: 貯蔵方法及び有効期間
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-137-48-3-p1-kou-4
+    type: kou
+    text: 規格及び試験方法
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-137-48-3-p1-kou-5
+    type: kou
+    text: 製造販売する品目の製造所
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-137-48-3-p1-kou-6
+    type: kou
+    text: 前各号に掲げるもののほか、当該再生医療等製品の有効性及び安全性に影響を与えないと認められる事項
+    modality: unspecified
+    item_number: 6
 cases: []
 amendments: []
 tags:
@@ -34,3 +68,15 @@ parent_section:
 ### 第百三十七条の四十八の三
 
 再生医療等製品に係る法第二十三条の三十二の二第一項第一号の厚生労働省令で定める事項の変更は、次の各号に掲げる事項の変更とする。
+
+一　形状、構造、成分、分量又は本質（構成細胞又は導入遺伝子を除く。）
+
+二　製造方法
+
+三　貯蔵方法及び有効期間
+
+四　規格及び試験方法
+
+五　製造販売する品目の製造所
+
+六　前各号に掲げるもののほか、当該再生医療等製品の有効性及び安全性に影響を与えないと認められる事項

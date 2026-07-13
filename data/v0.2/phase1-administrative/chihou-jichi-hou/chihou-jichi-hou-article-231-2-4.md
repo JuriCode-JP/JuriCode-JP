@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-231-2-4-p1
+    type: simple
+    text: 第二百三十一条の二の二の規定により歳入等を納付しようとする者の委託を受けた指定納付受託者は、当該委託を受けた納付事務の一部を、納付事務を適切かつ確実に遂行することができる者として政令で定める者に委託することができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

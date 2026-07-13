@@ -16,17 +16,37 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-4-p1
+    type: simple
+    text: 農林水産大臣は、動物用医薬品又は動物用再生医療等製品であつて、適正に使用されるのでなければ対象動物の肉、乳その他の食用に供される生産物で人の健康を損なうおそれのあるものが生産されるおそれのあるものについて、薬事審議会の意見を聴いて、農林水産省令で、その動物用医薬品又は動物用再生医療等製品を使用することができる対象動物、対象動物に使用する場合における使用の時期その他の事項に関し使用者が遵守すべき基準を定めることができる。
+    modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-4-p2-honbun
+    type: honbun
+    text: 前項の規定により遵守すべき基準が定められた動物用医薬品又は動物用再生医療等製品の使用者は、当該基準に定めるところにより、当該動物用医薬品又は動物用再生医療等製品を使用しなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-art-83-4-p2-tadashi
+    type: tadashi
+    text: ただし、獣医師がその診療に係る対象動物の疾病の治療又は予防のためやむを得ないと判断した場合において、農林水産省令で定めるところにより使用するときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-83-4-p3
+    type: simple
+    text: 農林水産大臣は、前二項の規定による農林水産省令を制定し、又は改廃しようとするときは、内閣総理大臣の意見を聴かなければならない。
+    modality: gimu
+    references:
+    - 前二項
 cases: []
 amendments: []
 tags:

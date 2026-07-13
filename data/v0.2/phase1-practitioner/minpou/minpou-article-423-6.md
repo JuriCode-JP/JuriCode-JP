@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-423-6-p1
+    type: simple
+    text: 債権者は、被代位権利の行使に係る訴えを提起したときは、遅滞なく、債務者に対し、訴訟告知をしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

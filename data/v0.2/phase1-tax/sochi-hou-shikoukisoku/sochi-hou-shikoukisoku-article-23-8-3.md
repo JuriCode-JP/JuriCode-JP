@@ -14,9 +14,38 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: sochi-hou-shikoukisoku-art-23-8-3-p1-hashira
+    type: hashira
+    text: 施行令第四十条の七の三第三項に規定する財務省令で定める事項は、次に掲げる事項とする。
+    modality: gimu
+  - id: sochi-hou-shikoukisoku-art-23-8-3-p1-kou-1
+    type: kou
+    text: 施行令第四十条の七の三第三項に規定する書類を提出する者の氏名及び住所又は居所
+    modality: unspecified
+    item_number: 1
+  - id: sochi-hou-shikoukisoku-art-23-8-3-p1-kou-2
+    type: kou
+    text: 特定貸付農地等の所在、地番、地目及び面積
+    modality: unspecified
+    item_number: 2
+  - id: sochi-hou-shikoukisoku-art-23-8-3-p1-kou-3
+    type: kou
+    text: 特定貸付けを行つた年月日
+    modality: unspecified
+    item_number: 3
+  - id: sochi-hou-shikoukisoku-art-23-8-3-p1-kou-4
+    type: kou
+    text: 特定貸付農地等に係る被相続人の氏名及びその死亡の時における住所又は居所並びに当該被相続人から相続又は遺贈により当該特定貸付農地等の取得（法第七十条の五の規定により相続又は遺贈により取得したとみなされる場合の取得を含む。）をした年月日
+    modality: unspecified
+    item_number: 4
+  - id: sochi-hou-shikoukisoku-art-23-8-3-p1-kou-5
+    type: kou
+    text: その他参考となるべき事項
+    modality: unspecified
+    item_number: 5
 cases: []
 amendments: []
 tags:
@@ -34,3 +63,13 @@ parent_section:
 ### 第二十三条の八の三
 
 施行令第四十条の七の三第三項に規定する財務省令で定める事項は、次に掲げる事項とする。
+
+一　施行令第四十条の七の三第三項に規定する書類を提出する者の氏名及び住所又は居所
+
+二　特定貸付農地等の所在、地番、地目及び面積
+
+三　特定貸付けを行つた年月日
+
+四　特定貸付農地等に係る被相続人の氏名及びその死亡の時における住所又は居所並びに当該被相続人から相続又は遺贈により当該特定貸付農地等の取得（法第七十条の五の規定により相続又は遺贈により取得したとみなされる場合の取得を含む。）をした年月日
+
+五　その他参考となるべき事項

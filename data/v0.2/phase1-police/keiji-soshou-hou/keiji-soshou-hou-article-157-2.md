@@ -14,14 +14,35 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-157-2-p1-hashira
+    type: hashira
+    text: 検察官は、証人が刑事訴追を受け、又は有罪判決を受けるおそれのある事項についての尋問を予定している場合であつて、当該事項についての証言の重要性、関係する犯罪の軽重及び情状その他の事情を考慮し、必要と認めるときは、あらかじめ、裁判所に対し、当該証人尋問を次に掲げる条件により行うことを請求することができる。
+    modality: kanou_kenri
+  - id: keiji-soshou-hou-art-157-2-p1-kou-1
+    type: kou
+    text: 尋問に応じてした供述及びこれに基づいて得られた証拠は、証人が当該証人尋問においてした行為が第百六十一条又は刑法第百六十九条の罪に当たる場合に当該行為に係るこれらの罪に係る事件において用いるときを除き、証人の刑事事件において、これらを証人に不利益な証拠とすることができないこと。
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-157-2-p1-kou-2
+    type: kou
+    text: 第百四十六条の規定にかかわらず、自己が刑事訴追を受け、又は有罪判決を受けるおそれのある証言を拒むことができないこと。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-157-2-p2
+    type: simple
+    text: 裁判所は、前項の請求を受けたときは、その証人に尋問すべき事項に証人が刑事訴追を受け、又は有罪判決を受けるおそれのある事項が含まれないと明らかに認められる場合を除き、当該証人尋問を同項各号に掲げる条件により行う旨の決定をするものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:
@@ -41,6 +62,10 @@ parent_section:
 ### 第百五十七条の二第一項
 
 検察官は、証人が刑事訴追を受け、又は有罪判決を受けるおそれのある事項についての尋問を予定している場合であつて、当該事項についての証言の重要性、関係する犯罪の軽重及び情状その他の事情を考慮し、必要と認めるときは、あらかじめ、裁判所に対し、当該証人尋問を次に掲げる条件により行うことを請求することができる。
+
+一　尋問に応じてした供述及びこれに基づいて得られた証拠は、証人が当該証人尋問においてした行為が第百六十一条又は刑法第百六十九条の罪に当たる場合に当該行為に係るこれらの罪に係る事件において用いるときを除き、証人の刑事事件において、これらを証人に不利益な証拠とすることができないこと。
+
+二　第百四十六条の規定にかかわらず、自己が刑事訴追を受け、又は有罪判決を受けるおそれのある証言を拒むことができないこと。
 
 ### 第百五十七条の二第二項
 

@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-37-9-3-p1-hashira
+    type: hashira
+    text: 法第七十三条の四第一項第三十号に規定する日本下水道事業団が日本下水道事業団法（昭和四十七年法律第四十一号）第二十六条第一項第七号又は第八号に規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち、次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-37-9-3-p1-kou-1
+    type: kou
+    text: 事務所の用に供する不動産
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-37-9-3-p1-kou-2
+    type: kou
+    text: 宿舎の用に供する不動産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-37-9-3-p1-kou-3
+    type: kou
+    text: 職員の福利及び厚生の用に供する不動産
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第三十七条の九の三
 
 法第七十三条の四第一項第三十号に規定する日本下水道事業団が日本下水道事業団法（昭和四十七年法律第四十一号）第二十六条第一項第七号又は第八号に規定する業務の用に供する不動産で政令で定めるものは、これらの業務の用に供する不動産のうち、次に掲げるもの以外のものとする。
+
+一　事務所の用に供する不動産
+
+二　宿舎の用に供する不動産
+
+三　職員の福利及び厚生の用に供する不動産

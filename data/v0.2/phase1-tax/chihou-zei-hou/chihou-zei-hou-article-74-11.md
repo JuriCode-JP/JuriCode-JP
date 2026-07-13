@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-11-p1
+    type: simple
+    text: 卸売販売業者等が前条第一項の規定による申告書をその提出期限内に提出した場合において、同項の納期限内に納期限の延長についての申請書を当該申告書を提出すべき道府県知事に提出し、かつ、政令で定めるところにより、当該申告書によつて納付すべきたばこ税額の全部又は一部に相当する担保で第十六条第一項各号に掲げるものを提供したときは、当該道府県知事は、当該卸売販売業者等が製造たばこの販売代金の回収に相当期間を要することその他これに類する理由により当該担保の額に相当するたばこ税を当該納期限内に納付することが著しく困難であると認められる場合に限り、一月以内、当該担保の額に相当するたばこ税の納期限を延長することができる。
+    modality: kanou_kenri
+    references:
+    - 同項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-74-11-p2
+    type: junyou
+    text: 第十六条第三項並びに第十六条の五第一項、第二項及び第四項の規定は、前項の規定による担保について準用する。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

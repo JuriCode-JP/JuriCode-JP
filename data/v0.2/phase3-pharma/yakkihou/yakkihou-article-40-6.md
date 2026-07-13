@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-6-p1
+    type: simple
+    text: 前条第一項の許可を受けた者は、厚生労働省令で定めるところにより、再生医療等製品の販売を実地に管理させるために、営業所ごとに、厚生労働省令で定める基準に該当する者（以下「再生医療等製品営業所管理者」という。）を置かなければならない。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-40-6-p2-honbun
+    type: honbun
+    text: 再生医療等製品営業所管理者は、その営業所以外の場所で業として営業所の管理その他薬事に関する実務に従事する者であつてはならない。
+    modality: unspecified
+  - id: yakkihou-art-40-6-p2-tadashi
+    type: tadashi
+    text: ただし、その営業所の所在地の都道府県知事の許可を受けたときは、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

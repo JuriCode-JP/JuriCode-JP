@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-307-3-p1
+    type: simple
+    text: 第二百九十一条の二の決定があつた事件については、第二百九十六条、第二百九十七条、第三百条から第三百二条まで及び第三百四条から前条までの規定は、これを適用せず、証拠調べは、公判期日において、適当と認める方法でこれを行うことができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

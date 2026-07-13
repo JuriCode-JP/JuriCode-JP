@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百六十六条
 
-<!-- segment: simple id: keiji-soshou-hou-art-466-p1 -->
 正式裁判の請求は、第一審の判決があるまでこれを取り下げることができる。

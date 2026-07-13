@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-13-p1
+    type: simple
+    text: 記名式所持人払証券（債権者を指名する記載がされている証券であって、その所持人に弁済をすべき旨が付記されているものをいう。以下同じ。）の譲渡は、その証券を交付しなければ、その効力を生じない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

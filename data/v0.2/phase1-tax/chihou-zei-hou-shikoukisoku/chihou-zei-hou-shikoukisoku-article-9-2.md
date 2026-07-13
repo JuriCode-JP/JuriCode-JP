@@ -34,5 +34,4 @@ tags:
 
 ### 第九条の二
 
-<!-- segment: simple id: chihou-zei-hou-shikoukisoku-art-9-2-p1 -->
 法第百六十条第一項の規定により提出すべき申告書又は報告書の様式は、第十六号の四十三様式によるものとする。

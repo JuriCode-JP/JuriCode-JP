@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 法第六十八条の二十二第六項の厚生労働省令で定める基準は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-238-p1-kou-1
+    type: kou
+    text: 生物由来製品承認取得者等から、その生物由来製品を譲り受け、又は貸借する製造販売業者又は販売業者若しくは貸与業者であること。
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-238-p1-kou-2
+    type: kou
+    text: 記録又は保存の事務を実地に管理する者（以下この条において「記録受託責任者」という。）を選任していること。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +40,21 @@ paragraphs:
     type: hashira
     text: 法第六十八条の二十二第六項の厚生労働省令で定める事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-238-p2-kou-1
+    type: kou
+    text: 生物由来製品承認取得者等及び法第六十八条の二十二第一項に規定する記録又は保存の事務を受託する者（以下この条において「受託者」という。）の氏名（法人にあつては、その名称及び代表者の氏名）及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-238-p2-kou-2
+    type: kou
+    text: 記録受託責任者の氏名及び住所
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-238-p2-kou-3
+    type: kou
+    text: 当該生物由来製品の名称、承認番号及び承認年月日
+    modality: unspecified
+    item_number: 3
 - number: 3
   has_proviso: false
   has_items: false
@@ -40,7 +65,7 @@ paragraphs:
     text: 法第六十八条の二十二第六項の規定による届出は、様式第九十九の二による届書（正副二通）を提出することによつて行うものとする。
     modality: gimu
 - number: 4
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -50,6 +75,21 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: yakkihou-shikoukisoku-art-238-p4-kou-1
+    type: kou
+    text: 受託者の住民票の写し（受託者が法人であるときは、登記事項証明書）
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-238-p4-kou-2
+    type: kou
+    text: 受託者が第一項に定める基準に適合することを証する書類
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-238-p4-kou-3
+    type: kou
+    text: 委託契約書の写し
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -66,20 +106,32 @@ parent_section:
 
 ### 第二百三十八条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-238-p1-hashira -->
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-238-p2-hashira -->
 法第六十八条の二十二第六項の厚生労働省令で定める基準は、次のとおりとする。
+
+一　生物由来製品承認取得者等から、その生物由来製品を譲り受け、又は貸借する製造販売業者又は販売業者若しくは貸与業者であること。
+
+二　記録又は保存の事務を実地に管理する者（以下この条において「記録受託責任者」という。）を選任していること。
 
 ### 第二百三十八条第二項
 
 法第六十八条の二十二第六項の厚生労働省令で定める事項は、次のとおりとする。
 
+一　生物由来製品承認取得者等及び法第六十八条の二十二第一項に規定する記録又は保存の事務を受託する者（以下この条において「受託者」という。）の氏名（法人にあつては、その名称及び代表者の氏名）及び住所
+
+二　記録受託責任者の氏名及び住所
+
+三　当該生物由来製品の名称、承認番号及び承認年月日
+
 ### 第二百三十八条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-238-p3 -->
 法第六十八条の二十二第六項の規定による届出は、様式第九十九の二による届書（正副二通）を提出することによつて行うものとする。
 
 ### 第二百三十八条第四項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-238-p4-hashira -->
 前項の届書には、次に掲げる書類を添付しなければならない。ただし、申請等の行為の際に厚生労働大臣に提出された書類については、当該届書にその旨が付記されたときは、この限りでない。
+
+一　受託者の住民票の写し（受託者が法人であるときは、登記事項証明書）
+
+二　受託者が第一項に定める基準に適合することを証する書類
+
+三　委託契約書の写し

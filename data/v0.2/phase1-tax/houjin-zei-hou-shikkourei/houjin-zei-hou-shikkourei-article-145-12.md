@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百四十五条の十二
 
-<!-- segment: simple id: houjin-zei-hou-shikkourei-art-145-12-p1 -->
 法第六十九条第四項第十五号（外国税額の控除）に規定する政令で定めるものは、同号に規定する相手国等において外国法人税が課される所得とする。

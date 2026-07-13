@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-46-2-2-p1
+    type: simple
+    text: 法第二百九十二条第一項第十二号に規定する配偶者の生死が明らかでない者で政令で定めるものは、前条各号に掲げる者の配偶者とする。
+    modality: gimu
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-46-2-2-p2
+    type: simple
+    text: 法第二百九十二条第一項第十二号イに規定する政令で定める子は、当該年度の初日の属する年の前年（第四十六条の三から第四十八条の六の二までにおいて「前年」という。）の法第三百十三条第一項の総所得金額、退職所得金額及び山林所得金額の合計額が五十八万円以下の子（他の者の同一生計配偶者又は扶養親族とされている者を除く。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

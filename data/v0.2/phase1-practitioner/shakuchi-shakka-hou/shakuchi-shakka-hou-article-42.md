@@ -50,10 +50,8 @@ parent_section:
 
 ### 第四十二条第一項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-42-p1 -->
 前条の事件については、非訟事件手続法（平成二十三年法律第五十一号）第二十七条、第四十条、第四十二条の二及び第六十三条第一項後段の規定は、適用しない。
 
 ### 第四十二条第二項
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-42-p2 -->
 この法律に定めるもののほか、前条の事件に関し必要な事項は、最高裁判所規則で定める。

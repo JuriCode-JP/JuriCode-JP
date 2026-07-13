@@ -22,7 +22,7 @@ paragraphs:
     text: 新株予約権者は、その有する新株予約権を譲渡することができる。
     modality: kanou_kenri
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -70,16 +70,12 @@ parent_section:
 
 ### 第二百五十四条第一項
 
-<!-- segment: simple id: kaisha-hou-art-254-p1 -->
 新株予約権者は、その有する新株予約権を譲渡することができる。
 
 ### 第二百五十四条第二項
 
-<!-- segment: tokusoku id: kaisha-hou-art-254-p2 override_flag: true override_target: 前項 -->
 前項の規定にかかわらず、新株予約権付社債に付された新株予約権のみを譲渡することはできない。ただし、当該新株予約権付社債についての社債が消滅したときは、この限りでない。
 
 ### 第二百五十四条第三項
 
-<!-- segment: honbun id: kaisha-hou-art-254-p3-honbun -->
-新株予約権付社債についての社債のみを譲渡することはできない。<!-- segment: tadashi id: kaisha-hou-art-254-p3-tadashi -->
-ただし、当該新株予約権付社債に付された新株予約権が消滅したときは、この限りでない。
+新株予約権付社債についての社債のみを譲渡することはできない。ただし、当該新株予約権付社債に付された新株予約権が消滅したときは、この限りでない。

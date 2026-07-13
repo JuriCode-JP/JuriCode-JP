@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二十六条の三
 
-<!-- segment: junyou id: kokuzei-tsuusoku-hou-shikkourei-art-26-3-p1 -->
 第二十六条（還付請求申告書等）の規定は、法第六十四条第三項（利子税）において法第六十一条第二項（延滞税の額の計算の基礎となる期間の特例）の規定を準用する場合について準用する。

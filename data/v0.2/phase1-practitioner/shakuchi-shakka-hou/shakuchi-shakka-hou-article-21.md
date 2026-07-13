@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二十一条
 
-<!-- segment: simple id: shakuchi-shakka-hou-art-21-p1 -->
 第十七条から第十九条までの規定に反する特約で借地権者又は転借地権者に不利なものは、無効とする。

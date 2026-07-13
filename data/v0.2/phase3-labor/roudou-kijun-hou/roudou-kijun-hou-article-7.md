@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -37,5 +37,4 @@ parent_section:
 
 ### 第七条
 
-<!-- segment: simple id: roudou-kijun-hou-art-7-p1 -->
 使用者は、労働者が労働時間中に、選挙権その他公民としての権利を行使し、又は公の職務を執行するために必要な時間を請求した場合においては、拒んではならない。但し、権利の行使又は公の職務の執行に妨げがない限り、請求された時刻を変更することができる。

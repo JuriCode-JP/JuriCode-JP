@@ -63,15 +63,12 @@ parent_section:
 
 ### 第三百九条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-309-p1 -->
 検察官、被告人又は弁護人は、証拠調に関し異議を申し立てることができる。
 
 ### 第三百九条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-309-p2 -->
 検察官、被告人又は弁護人は、前項に規定する場合の外、裁判長の処分に対して異議を申し立てることができる。
 
 ### 第三百九条第三項
 
-<!-- segment: simple id: keiji-soshou-hou-art-309-p3 -->
 裁判所は、前二項の申立について決定をしなければならない。

@@ -16,17 +16,34 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-6-p1
+    type: simple
+    text: 原薬等を製造する者（外国において製造する者を含む。）は、その原薬等の名称、成分（成分が不明のものにあつては、その本質）、製法、性状、品質、貯法その他厚生労働省令で定める事項について、原薬等登録原簿に登録を受けることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-6-p2
+    type: simple
+    text: 厚生労働大臣は、前項の登録の申請があつたときは、次条第一項の規定により申請を却下する場合を除き、前項の厚生労働省令で定める事項を原薬等登録原簿に登録するものとする。
+    modality: gimu
+    references:
+    - 次条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-80-6-p3
+    type: simple
+    text: 厚生労働大臣は、前項の規定による登録をしたときは、厚生労働省令で定める事項を公示するものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百七十七条
 
-<!-- segment: simple id: minpou-art-277-p1 -->
 第二百七十一条から前条までの規定と異なる慣習があるときは、その慣習に従う。

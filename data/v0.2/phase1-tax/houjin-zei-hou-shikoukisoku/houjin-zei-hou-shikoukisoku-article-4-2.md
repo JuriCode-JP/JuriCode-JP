@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 令第五条第一項第十号イ（収益事業の範囲）に規定する財務省令で定める要件は、次に掲げる要件とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-4-2-p1-kou-1
+    type: kou
+    text: その委託の対価がその事務処理のために必要な費用を超えないことが法令の規定により明らかなこと。
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-4-2-p1-kou-2
+    type: kou
+    text: その委託の対価がその事務処理のために必要な費用を超えるに至つた場合には、法令の規定により、その超える金額を委託者又はそれに代わるべき者として主務大臣の指定する者に支出することとされていること。
+    modality: unspecified
+    item_number: 2
+  - id: houjin-zei-hou-shikoukisoku-art-4-2-p1-kou-3
+    type: kou
+    text: その委託が法令の規定に従つて行われていること。
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -39,5 +54,10 @@ parent_section:
 
 ### 第四条の二
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-4-2-p1-hashira -->
 令第五条第一項第十号イ（収益事業の範囲）に規定する財務省令で定める要件は、次に掲げる要件とする。
+
+一　その委託の対価がその事務処理のために必要な費用を超えないことが法令の規定により明らかなこと。
+
+二　その委託の対価がその事務処理のために必要な費用を超えるに至つた場合には、法令の規定により、その超える金額を委託者又はそれに代わるべき者として主務大臣の指定する者に支出することとされていること。
+
+三　その委託が法令の規定に従つて行われていること。

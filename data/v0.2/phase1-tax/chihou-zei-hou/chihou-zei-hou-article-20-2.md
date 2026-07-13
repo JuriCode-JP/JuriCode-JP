@@ -16,17 +16,33 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-2-p1
+    type: simple
+    text: 地方団体の長は、前条の規定により送達すべき書類について、その送達を受けるべき者の住所、居所、事務所及び事業所が明らかでない場合又は外国においてすべき送達につき困難な事情があると認められる場合には、その送達に代えて公示送達をすることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-2-p2
+    type: simple
+    text: 公示送達は、地方団体の長が送達すべき書類を保管し、いつでも送達を受けるべき者に交付する旨を地方団体の掲示場に掲示して行う。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-20-2-p3
+    type: simple
+    text: 前項の場合において、掲示を始めた日から起算して七日を経過したときは、書類の送達があつたものとみなす。
+    modality: unspecified
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

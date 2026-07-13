@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第百三十九条の四第七項及び第十二項第二号ロ（資産に係る控除対象外消費税額等の損金算入）に規定する財務省令で定める要件は、次に掲げる要件とする。
     modality: gimu
+  - id: houjin-zei-hou-shikoukisoku-art-28-2-p1-kou-1
+    type: kou
+    text: 令第百三十九条の四第七項及び第十二項第二号ロに規定する移転する資産に係るものであること。
+    modality: unspecified
+    item_number: 1
+  - id: houjin-zei-hou-shikoukisoku-art-28-2-p1-kou-2
+    type: kou
+    text: 前号の要件を満たすことを明らかにする書類を保存していること。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,5 +53,8 @@ parent_section:
 
 ### 第二十八条の二
 
-<!-- segment: hashira id: houjin-zei-hou-shikoukisoku-art-28-2-p1-hashira -->
 令第百三十九条の四第七項及び第十二項第二号ロ（資産に係る控除対象外消費税額等の損金算入）に規定する財務省令で定める要件は、次に掲げる要件とする。
+
+一　令第百三十九条の四第七項及び第十二項第二号ロに規定する移転する資産に係るものであること。
+
+二　前号の要件を満たすことを明らかにする書類を保存していること。

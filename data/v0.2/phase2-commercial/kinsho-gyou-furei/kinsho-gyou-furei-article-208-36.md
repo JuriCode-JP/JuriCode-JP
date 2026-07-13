@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-gyou-furei-art-208-36-p1
+    type: simple
+    text: 令第十七条の三に規定する投資者の保護に欠けるおそれが少ない場合として内閣府令で定める場合は、第百二十五条の三各号に掲げる場合とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

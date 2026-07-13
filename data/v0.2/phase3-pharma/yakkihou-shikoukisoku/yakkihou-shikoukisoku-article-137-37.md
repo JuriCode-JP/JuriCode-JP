@@ -16,22 +16,38 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-37-p1
+    type: simple
+    text: 法第二十三条の二十七第六項の規定により厚生労働大臣に対して行う再生医療等製品審査等の結果の通知は、様式第七十五の八による通知書によつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-37-p2
+    type: simple
+    text: 法第二十三条の二十七第六項の規定により厚生労働大臣に対して行う法第二十三条の二十五第六項（同条第十三項において準用する場合を含む。）若しくは第八項又は第二十三条の二十六の二第二項（再生医療等製品の製造所における製造管理又は品質管理の方法についての調査に係る部分に限り、法第二十三条の二十八第二項において準用する場合を含む。）の規定による調査の結果の通知は、様式第七十五の六による通知書によつて行うものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-37-p3
+    type: simple
+    text: 法第二十三条の二十七第六項の規定により厚生労働大臣に対して行う法第二十三条の二十五の二において準用する法第十四条の二第一項の確認の結果の通知は、様式第七十五の六の三による通知書によつて行うものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-37-p4
+    type: simple
+    text: 法第二十三条の二十七第六項の規定により厚生労働大臣に対して行う法第二十三条の二十五第十四項の規定による届出の状況の通知は、様式第二十九による通知書によつて行うものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

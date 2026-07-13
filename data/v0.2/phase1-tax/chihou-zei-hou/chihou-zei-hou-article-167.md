@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百六十七条
 
-<!-- segment: simple id: chihou-zei-hou-art-167-p1 -->
 道府県の徴税吏員は、督促状を発した場合には、当該道府県の条例で定めるところにより、手数料を徴収することができる。

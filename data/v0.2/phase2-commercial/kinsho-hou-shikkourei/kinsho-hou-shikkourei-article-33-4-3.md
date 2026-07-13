@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-33-4-3-p1
+    type: simple
+    text: 法第百六十七条第五項第三号に規定する株式の買取りの請求に相当する他の法令の規定による請求として政令で定めるものは、投資信託及び投資法人に関する法律第百四十一条第一項、第百四十九条の三第一項、第百四十九条の八第一項又は第百四十九条の十三第一項の規定による投資口の買取りの請求とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

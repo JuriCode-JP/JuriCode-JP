@@ -16,12 +16,27 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-19-p1
+    type: simple
+    text: 委員会は、国の関与に関する審査の申出があつた場合において、相当であると認めるときは、職権により、調停案を作成して、これを当該国の関与に関する審査の申出をした普通地方公共団体の長その他の執行機関及び相手方である国の行政庁に示し、その受諾を勧告するとともに、理由を付してその要旨を公表することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-19-p2-zen
+    type: zen_dan
+    text: 前項の調停案に係る調停は、調停案を示された普通地方公共団体の長その他の執行機関及び国の行政庁から、これを受諾した旨を記載した文書が委員会に提出されたときに成立するものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: chihou-jichi-hou-art-250-19-p2-kou
+    type: kou_dan
+    text: この場合においては、委員会は、直ちにその旨及び調停の要旨を公表するとともに、当該普通地方公共団体の長その他の執行機関及び国の行政庁にその旨を通知しなければならない。
+    modality: gimu
+    depends_on: chihou-jichi-hou-art-250-19-p2-zen
 cases: []
 amendments: []
 tags:

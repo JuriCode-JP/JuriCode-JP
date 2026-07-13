@@ -14,9 +14,28 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikkourei-art-51-2-3-p1-hashira
+    type: hashira
+    text: 法第三百四十八条第二項第十七号に規定する独立行政法人日本芸術文化振興会が独立行政法人日本芸術文化振興会法第十四条第一項第一号から第五号までに規定する業務の用に供する固定資産で政令で定めるものは、当該業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+    modality: gimu
+  - id: chihou-zei-hou-shikkourei-art-51-2-3-p1-kou-1
+    type: kou
+    text: 事務所の用に供する固定資産（劇場施設と一体となつて機能を発揮しているものを除く。）
+    modality: unspecified
+    item_number: 1
+  - id: chihou-zei-hou-shikkourei-art-51-2-3-p1-kou-2
+    type: kou
+    text: 宿舎の用に供する固定資産
+    modality: unspecified
+    item_number: 2
+  - id: chihou-zei-hou-shikkourei-art-51-2-3-p1-kou-3
+    type: kou
+    text: その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する固定資産
+    modality: unspecified
+    item_number: 3
 cases: []
 amendments: []
 tags:
@@ -36,3 +55,9 @@ parent_section:
 ### 第五十一条の二の三
 
 法第三百四十八条第二項第十七号に規定する独立行政法人日本芸術文化振興会が独立行政法人日本芸術文化振興会法第十四条第一項第一号から第五号までに規定する業務の用に供する固定資産で政令で定めるものは、当該業務の用に供する固定資産のうち次に掲げるもの以外のものとする。
+
+一　事務所の用に供する固定資産（劇場施設と一体となつて機能を発揮しているものを除く。）
+
+二　宿舎の用に供する固定資産
+
+三　その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する固定資産

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第六十四条
 
-<!-- segment: simple id: houjin-zei-hou-shikoukisoku-art-64-p1 -->
 法第百四十九条第一項及び第二項（外国普通法人となつた旨の届出）に規定する財務省令で定める書類は、定款等の和訳文とする。

@@ -13,10 +13,20 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-37-5-p1-honbun
+    type: honbun
+    text: 裁判官は、死刑又は無期拘禁刑に当たる事件について第三十七条の二第一項又は前条の規定により弁護人を付する場合又は付した場合において、特に必要があると認めるときは、職権で更に弁護人一人を付することができる。
+    modality: kanou_kenri
+    references:
+    - 前条
+  - id: keiji-soshou-hou-art-37-5-p1-tadashi
+    type: tadashi
+    text: ただし、被疑者が釈放された場合は、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

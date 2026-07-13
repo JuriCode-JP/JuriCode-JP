@@ -14,19 +14,65 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-33-p1-hashira
+    type: hashira
+    text: 裁判所は、次に掲げる罪に係る被告事件の被害者等若しくは当該被害者の法定代理人又はこれらの者から委託を受けた弁護士から、被告事件の手続への参加の申出があるときは、被告人又は弁護人の意見を聴き、犯罪の性質、被告人との関係その他の事情を考慮し、相当と認めるときは、決定で、当該被害者等又は当該被害者の法定代理人の被告事件の手続への参加を許すものとする。
+    modality: gimu
+  - id: keiji-soshou-hou-art-316-33-p1-kou-1
+    type: kou
+    text: 故意の犯罪行為により人を死傷させた罪
+    modality: unspecified
+    item_number: 1
+  - id: keiji-soshou-hou-art-316-33-p1-kou-2
+    type: kou
+    text: 刑法第百七十六条、第百七十七条、第百七十九条、第二百十一条、第二百二十条又は第二百二十四条から第二百二十七条までの罪
+    modality: unspecified
+    item_number: 2
+  - id: keiji-soshou-hou-art-316-33-p1-kou-3
+    type: kou
+    text: 前号に掲げる罪のほか、その犯罪行為にこれらの罪の犯罪行為を含む罪（第一号に掲げる罪を除く。）
+    modality: unspecified
+    item_number: 3
+  - id: keiji-soshou-hou-art-316-33-p1-kou-4
+    type: kou
+    text: 自動車の運転により人を死傷させる行為等の処罰に関する法律（平成二十五年法律第八十六号）第四条、第五条又は第六条第三項若しくは第四項の罪
+    modality: unspecified
+    item_number: 4
+  - id: keiji-soshou-hou-art-316-33-p1-kou-5
+    type: kou
+    text: 第一号から第三号までに掲げる罪の未遂罪
+    modality: unspecified
+    item_number: 5
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-33-p2-zen
+    type: zen_dan
+    text: 前項の申出は、あらかじめ、検察官にしなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: keiji-soshou-hou-art-316-33-p2-kou
+    type: kou_dan
+    text: この場合において、検察官は、意見を付して、これを裁判所に通知するものとする。
+    modality: gimu
+    depends_on: keiji-soshou-hou-art-316-33-p2-zen
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: keiji-soshou-hou-art-316-33-p3
+    type: simple
+    text: 裁判所は、第一項の規定により被告事件の手続への参加を許された者（以下「被害者参加人」という。）が当該被告事件の被害者等若しくは当該被害者の法定代理人に該当せず若しくは該当しなくなつたことが明らかになつたとき、又は第三百十二条の規定により罰条が撤回若しくは変更されたため当該被告事件が同項各号に掲げる罪に係るものに該当しなくなつたときは、決定で、同項の決定を取り消さなければならない。犯罪の性質、被告人との関係その他の事情を考慮して被告事件の手続への参加を認めることが相当でないと認めるに至つたときも、同様とする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -48,6 +94,16 @@ parent_section:
 ### 第三百十六条の三十三第一項
 
 裁判所は、次に掲げる罪に係る被告事件の被害者等若しくは当該被害者の法定代理人又はこれらの者から委託を受けた弁護士から、被告事件の手続への参加の申出があるときは、被告人又は弁護人の意見を聴き、犯罪の性質、被告人との関係その他の事情を考慮し、相当と認めるときは、決定で、当該被害者等又は当該被害者の法定代理人の被告事件の手続への参加を許すものとする。
+
+一　故意の犯罪行為により人を死傷させた罪
+
+二　刑法第百七十六条、第百七十七条、第百七十九条、第二百十一条、第二百二十条又は第二百二十四条から第二百二十七条までの罪
+
+三　前号に掲げる罪のほか、その犯罪行為にこれらの罪の犯罪行為を含む罪（第一号に掲げる罪を除く。）
+
+四　自動車の運転により人を死傷させる行為等の処罰に関する法律（平成二十五年法律第八十六号）第四条、第五条又は第六条第三項若しくは第四項の罪
+
+五　第一号から第三号までに掲げる罪の未遂罪
 
 ### 第三百十六条の三十三第二項
 

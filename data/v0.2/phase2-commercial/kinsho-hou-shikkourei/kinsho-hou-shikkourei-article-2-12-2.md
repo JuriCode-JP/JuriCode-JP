@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-2-12-2-p1
+    type: simple
+    text: 法第四条第一項第四号に規定する政令で定める有価証券は、国内で既に発行された有価証券でその発行の際にその有価証券発行勧誘等（同条第二項に規定する有価証券発行勧誘等をいう。以下同じ。）が国内で行われなかつたものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

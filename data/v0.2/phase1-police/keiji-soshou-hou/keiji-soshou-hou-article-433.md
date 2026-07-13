@@ -50,10 +50,8 @@ parent_section:
 
 ### 第四百三十三条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-433-p1 -->
 この法律により不服を申し立てることができない決定又は命令に対しては、第四百五条に規定する事由があることを理由とする場合に限り、最高裁判所に特に抗告をすることができる。
 
 ### 第四百三十三条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-433-p2 -->
 前項の抗告の提起期間は、五日とする。

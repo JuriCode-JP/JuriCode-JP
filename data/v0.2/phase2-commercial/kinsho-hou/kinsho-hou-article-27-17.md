@@ -16,12 +16,26 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-17-p1
+    type: simple
+    text: 第二十七条の五（第二十七条の八第十項において準用する場合を含む。以下この項において同じ。）の規定に違反して株券等の買付け等をした公開買付者等は、当該公開買付けに応じて株券等の売付け等をした者（第二十七条の五の規定に該当する株券等の売付け等を行つた者及び次条第二項第一号に規定する一部の者を除く。）に対し、損害賠償の責めに任ずる。
+    modality: unspecified
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-27-17-p2
+    type: simple
+    text: 前項の規定により賠償の責めに任ずべき額は、同項の買付け等を行つた際に公開買付者等が支払つた価格（これに相当する利益の供与を含み、当該価格が均一でないときは、その最も有利な価格とする。）から公開買付価格（公開買付開始公告及び公開買付届出書に記載した買付け等の価格をいい、第二十七条の六第二項又は第三項の公告又は公表により買付け等の価格を変更したときは、当該変更後の買付け等の価格をいう。以下この節において同じ。）を控除した金額に前項の規定による請求権者の応募株券等（あん分比例方式により売付け等ができなかつたものを除く。次条第二項及び第二十七条の二十第二項において同じ。）の数を乗じた額とする。
+    modality: gimu
+    references:
+    - 同項
+    - 次条
+    - 前項
 cases: []
 amendments: []
 tags:

@@ -16,22 +16,42 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-41-p1
+    type: simple
+    text: 次の表の各号の上欄に掲げる施設に係る事業所等において行う事業に対して課する資産割又は従業者割の課税標準となるべき事業所床面積又は従業者給与総額の算定については、当該資産割又は従業者割につき、それぞれ当該各号の中欄又は下欄に割合が定められている場合には、当該施設に係る事業所等に係る事業所床面積又は従業者給与総額（第七百一条の三十四の規定の適用を受けるものを除く。以下この項において同じ。）から当該施設に係る事業所床面積又は従業者給与総額にそれぞれ当該各号の中欄又は下欄に掲げる割合を乗じて得た面積又は金額を控除するものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-41-p2
+    type: simple
+    text: 心身障害者を多数雇用するものとして政令で定める事業所等（障害者の雇用の促進等に関する法律（昭和三十五年法律第百二十三号）第四十九条第一項第六号の助成金の支給に係る施設又は設備に係るものに限る。）において行う事業に対して課する資産割の課税標準となるべき事業所床面積の算定については、当該事業に係る事業所床面積（第七百一条の三十四の規定の適用を受けるものを除く。以下この項において同じ。）から当該事業所床面積の二分の一に相当する面積を控除するものとする。
+    modality: gimu
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-41-p3
+    type: simple
+    text: 前二項の場合において、これらの規定の適用を受ける事業であるかどうかの判定は課税標準の算定期間の末日の現況によるものとする。
+    modality: gimu
+    references:
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-701-41-p4
+    type: simple
+    text: 第一項の表の各号の上欄に掲げる施設に係る事業所等において同項の規定の適用を受ける事業と受けない事業とを併せて行う場合における事業所床面積又は従業者給与総額についての同項の規定の適用を受けるものと受けないものとの区分に関し必要な事項その他同項及び第二項の規定の適用に関し必要な事項は、政令で定める。
+    modality: unspecified
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

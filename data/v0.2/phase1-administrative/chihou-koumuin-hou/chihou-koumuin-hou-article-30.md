@@ -39,5 +39,4 @@ parent_section:
 
 ### 第三十条
 
-<!-- segment: simple id: chihou-koumuin-hou-art-30-p1 -->
 すべて職員は、全体の奉仕者として公共の利益のために勤務し、且つ、職務の遂行に当つては、全力を挙げてこれに専念しなければならない。

@@ -37,5 +37,4 @@ parent_section:
 
 ### 第四百四十一条
 
-<!-- segment: simple id: keiji-soshou-hou-art-441-p1 -->
 再審の請求は、刑の執行が終り、又はその執行を受けることがないようになつたときでも、これをすることができる。

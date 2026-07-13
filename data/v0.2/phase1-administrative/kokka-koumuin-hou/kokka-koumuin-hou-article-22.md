@@ -48,10 +48,8 @@ parent_section:
 
 ### 第二十二条第一項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-22-p1 -->
 人事院は、人事行政の改善に関し、関係大臣その他の機関の長に勧告することができる。
 
 ### 第二十二条第二項
 
-<!-- segment: simple id: kokka-koumuin-hou-art-22-p2 -->
 前項の場合においては、人事院は、その旨を内閣に報告しなければならない。

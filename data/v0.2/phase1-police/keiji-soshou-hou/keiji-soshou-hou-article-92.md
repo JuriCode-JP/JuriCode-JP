@@ -22,7 +22,7 @@ paragraphs:
     text: 裁判所は、保釈を許す決定又は保釈の請求を却下する決定をするには、検察官の意見を聴かなければならない。
     modality: gimu
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -50,10 +50,8 @@ parent_section:
 
 ### 第九十二条第一項
 
-<!-- segment: simple id: keiji-soshou-hou-art-92-p1 -->
 裁判所は、保釈を許す決定又は保釈の請求を却下する決定をするには、検察官の意見を聴かなければならない。
 
 ### 第九十二条第二項
 
-<!-- segment: simple id: keiji-soshou-hou-art-92-p2 -->
 検察官の請求による場合を除いて、勾留を取り消す決定をするときも、前項と同様である。但し、急速を要する場合は、この限りでない。

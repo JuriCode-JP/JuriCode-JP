@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-11-p1
+    type: simple
+    text: 法第三百二十一条の十三第二項の従業者とは、第三条の五に規定する従業者をいう。
+    modality: teigi
 cases: []
 amendments: []
 tags:

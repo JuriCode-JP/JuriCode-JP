@@ -37,5 +37,4 @@ parent_section:
 
 ### 第二条
 
-<!-- segment: simple id: gyousei-fufuku-shinsa-hou-art-2-p1 -->
 行政庁の処分に不服がある者は、第四条及び第五条第二項の定めるところにより、審査請求をすることができる。

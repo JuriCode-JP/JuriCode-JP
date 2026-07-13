@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-100-4-p1
+    type: simple
+    text: 金融商品会員制法人の清算が結了したときは、第百条の十七第一項において準用する会社法第五百七条第三項の承認があつた後二週間以内に、主たる事務所の所在地において、清算結了の登記をしなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

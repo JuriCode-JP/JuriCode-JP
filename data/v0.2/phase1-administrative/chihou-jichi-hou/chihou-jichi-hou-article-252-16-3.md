@@ -14,9 +14,33 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-252-16-3-p1-hashira
+    type: hashira
+    text: 事務の代替執行に関する規約には、次に掲げる事項につき規定を設けなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-252-16-3-p1-kou-1
+    type: kou
+    text: 事務の代替執行をする普通地方公共団体及びその相手方となる普通地方公共団体
+    modality: unspecified
+    item_number: 1
+  - id: chihou-jichi-hou-art-252-16-3-p1-kou-2
+    type: kou
+    text: 代替執行事務の範囲並びに代替執行事務の管理及び執行の方法
+    modality: unspecified
+    item_number: 2
+  - id: chihou-jichi-hou-art-252-16-3-p1-kou-3
+    type: kou
+    text: 代替執行事務に要する経費の支弁の方法
+    modality: unspecified
+    item_number: 3
+  - id: chihou-jichi-hou-art-252-16-3-p1-kou-4
+    type: kou
+    text: 前三号に掲げるもののほか、事務の代替執行に関し必要な事項
+    modality: unspecified
+    item_number: 4
 cases: []
 amendments: []
 tags:
@@ -40,3 +64,11 @@ parent_section:
 ### 第二百五十二条の十六の三
 
 事務の代替執行に関する規約には、次に掲げる事項につき規定を設けなければならない。
+
+一　事務の代替執行をする普通地方公共団体及びその相手方となる普通地方公共団体
+
+二　代替執行事務の範囲並びに代替執行事務の管理及び執行の方法
+
+三　代替執行事務に要する経費の支弁の方法
+
+四　前三号に掲げるもののほか、事務の代替執行に関し必要な事項

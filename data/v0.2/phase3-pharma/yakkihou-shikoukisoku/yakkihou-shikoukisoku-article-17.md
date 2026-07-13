@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第二条の十三ただし書の厚生労働省令で定める場合は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-17-p1-kou-1
+    type: kou
+    text: 前年において業務を行つた期間が三箇月未満である場合
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-17-p1-kou-2
+    type: kou
+    text: 前年における総取扱処方箋数を前年において業務を行つた日数で除して得た数が四十以下である場合
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -46,10 +56,12 @@ parent_section:
 
 ### 第十七条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-17-p1-hashira -->
 令第二条の十三ただし書の厚生労働省令で定める場合は、次のとおりとする。
+
+一　前年において業務を行つた期間が三箇月未満である場合
+
+二　前年における総取扱処方箋数を前年において業務を行つた日数で除して得た数が四十以下である場合
 
 ### 第十七条第二項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-17-p2 -->
 令第二条の十三の届出は、様式第七による届書を提出することによつて行うものとする。

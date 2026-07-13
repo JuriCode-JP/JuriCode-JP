@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-5-p1
+    type: simple
+    text: 内閣総理大臣は、職員の離職に際しての離職後の就職の援助を行う。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokka-koumuin-hou-art-18-5-p2
+    type: simple
+    text: 内閣総理大臣は、官民の人材交流（国と民間企業との間の人事交流に関する法律（平成十一年法律第二百二十四号）第二条第三項に規定する交流派遣及び民間企業に現に雇用され、又は雇用されていた者の職員への第三十六条ただし書の規定による採用その他これらに準ずるものとして政令で定めるものをいう。第五十四条第二項第七号において同じ。）の円滑な実施のための支援を行う。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

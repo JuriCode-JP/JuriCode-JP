@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 不法行為による損害賠償の請求権は、次に掲げる場合には、時効によって消滅する。
     modality: unspecified
+  - id: minpou-art-724-p1-kou-1
+    type: kou
+    text: 被害者又はその法定代理人が損害及び加害者を知った時から三年間行使しないとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-724-p1-kou-2
+    type: kou
+    text: 不法行為の時から二十年間行使しないとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -39,5 +49,8 @@ parent_section:
 
 ### 第七百二十四条
 
-<!-- segment: hashira id: minpou-art-724-p1-hashira -->
 不法行為による損害賠償の請求権は、次に掲げる場合には、時効によって消滅する。
+
+一　被害者又はその法定代理人が損害及び加害者を知った時から三年間行使しないとき。
+
+二　不法行為の時から二十年間行使しないとき。

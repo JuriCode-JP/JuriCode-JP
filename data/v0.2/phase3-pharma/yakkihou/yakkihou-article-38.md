@@ -48,10 +48,8 @@ parent_section:
 
 ### 第三十八条第一項
 
-<!-- segment: simple id: yakkihou-art-38-p1 -->
 店舗販売業については、第十条及び第十一条の規定を準用する。
 
 ### 第三十八条第二項
 
-<!-- segment: simple id: yakkihou-art-38-p2 -->
 配置販売業及び卸売販売業については、第十条第一項及び第十一条の規定を準用する。

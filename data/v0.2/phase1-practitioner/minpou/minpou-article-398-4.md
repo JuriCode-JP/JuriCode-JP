@@ -16,17 +16,31 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-4-p1
+    type: simple
+    text: 元本の確定前においては、根抵当権の担保すべき債権の範囲の変更をすることができる。債務者の変更についても、同様とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-4-p2
+    type: simple
+    text: 前項の変更をするには、後順位の抵当権者その他の第三者の承諾を得ることを要しない。
+    modality: unspecified
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-398-4-p3
+    type: simple
+    text: 第一項の変更について元本の確定前に登記をしなかったときは、その変更をしなかったものとみなす。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

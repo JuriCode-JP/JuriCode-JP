@@ -16,32 +16,74 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-5-p1
+    type: simple
+    text: 人の体内に植え込む方法で用いられる医療機器その他の医療を提供する施設以外において用いられることが想定されている医療機器であつて保健衛生上の危害の発生又は拡大を防止するためにその所在が把握されている必要があるものとして厚生労働大臣が指定する医療機器（以下この条及び次条において「特定医療機器」という。）については、第二十三条の二の五の承認を受けた者又は選任外国製造医療機器等製造販売業者（以下この条及び次条において「特定医療機器承認取得者等」という。）は、特定医療機器の植込みその他の使用の対象者（次項において「特定医療機器利用者」という。）の氏名、住所その他の厚生労働省令で定める事項を記録し、かつ、これを適切に保存しなければならない。
+    modality: gimu
+    references:
+    - 次項
+    - 次条
 - number: 2
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-5-p2-honbun
+    type: honbun
+    text: 特定医療機器を取り扱う医師その他の医療関係者は、その担当した特定医療機器利用者に係る前項に規定する厚生労働省令で定める事項に関する情報を、直接又は特定医療機器の販売業者若しくは貸与業者を介する等の方法により特定医療機器承認取得者等に提供するものとする。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-art-68-5-p2-tadashi
+    type: tadashi
+    text: ただし、特定医療機器利用者がこれを希望しないときは、この限りでない。
+    modality: jogai
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-5-p3
+    type: simple
+    text: 特定医療機器の販売業者又は貸与業者は、第一項の規定による記録及び保存の事務（以下この条及び次条において「記録等の事務」という。）が円滑に行われるよう、特定医療機器を取り扱う医師その他の医療関係者に対する説明その他の必要な協力を行わなければならない。
+    modality: gimu
+    references:
+    - 次条
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-5-p4-zen
+    type: zen_dan
+    text: 特定医療機器承認取得者等は、その承認を受けた特定医療機器の一の品目の全てを取り扱う販売業者その他の厚生労働省令で定める基準に適合する者に対して、記録等の事務の全部又は一部を委託することができる。
+    modality: kanou_kenri
+  - id: yakkihou-art-68-5-p4-kou
+    type: kou_dan
+    text: この場合において、特定医療機器承認取得者等は、あらかじめ、当該委託を受けようとする者の氏名、住所その他の厚生労働省令で定める事項を厚生労働大臣に届け出なければならない。
+    modality: gimu
+    depends_on: yakkihou-art-68-5-p4-zen
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-5-p5
+    type: simple
+    text: 特定医療機器承認取得者等、特定医療機器の販売業者若しくは貸与業者若しくは前項の委託を受けた者又はこれらの役員若しくは職員は、正当な理由なく、記録等の事務に関しその職務上知り得た人の秘密を漏らしてはならない。これらの者であつた者についても、同様とする。
+    modality: gimu
+    references:
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-68-5-p6
+    type: simple
+    text: 前各項に定めるもののほか、記録等の事務に関し必要な事項は、厚生労働省令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第六百四十四条
 
-<!-- segment: simple id: minpou-art-644-p1 -->
 受任者は、委任の本旨に従い、善良な管理者の注意をもって、委任事務を処理する義務を負う。

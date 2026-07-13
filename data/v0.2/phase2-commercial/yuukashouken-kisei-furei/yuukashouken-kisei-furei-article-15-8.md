@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yuukashouken-kisei-furei-art-15-8-p1-hashira
+    type: hashira
+    text: 令第二十六条の六第三項において準用する同条第二項に規定する内閣府令で定める取引は、次に掲げる取引とする。
+    modality: gimu
+  - id: yuukashouken-kisei-furei-art-15-8-p1-kou-1
+    type: kou
+    text: 前条第二号イからルまでに掲げる有価証券につき空売りを行う取引
+    modality: unspecified
+    item_number: 1
+  - id: yuukashouken-kisei-furei-art-15-8-p1-kou-2
+    type: kou
+    text: 店頭売買有価証券市場における売買のうち、システム売買が行われていない時間帯における店頭売買有価証券の空売りを行う取引
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -34,3 +48,7 @@ parent_section:
 ### 第十五条の八
 
 令第二十六条の六第三項において準用する同条第二項に規定する内閣府令で定める取引は、次に掲げる取引とする。
+
+一　前条第二号イからルまでに掲げる有価証券につき空売りを行う取引
+
+二　店頭売買有価証券市場における売買のうち、システム売買が行われていない時間帯における店頭売買有価証券の空売りを行う取引

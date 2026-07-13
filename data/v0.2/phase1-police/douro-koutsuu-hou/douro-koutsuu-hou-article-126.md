@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: true
   is_added_by_amendment: false
   segments:
@@ -23,6 +23,16 @@ paragraphs:
     modality: jogai
     references:
     - 次条
+  - id: douro-koutsuu-hou-art-126-p1-kou-1
+    type: kou
+    text: その者の居所又は氏名が明らかでないとき。
+    modality: unspecified
+    item_number: 1
+  - id: douro-koutsuu-hou-art-126-p1-kou-2
+    type: kou
+    text: その者が逃亡するおそれがあるとき。
+    modality: unspecified
+    item_number: 2
 - number: 2
   has_proviso: false
   has_items: false
@@ -76,21 +86,20 @@ parent_section:
 
 ### 第百二十六条第一項
 
-<!-- segment: hashira id: douro-koutsuu-hou-art-126-p1-hashira -->
 警察官は、反則者があると認めるときは、次に掲げる場合を除き、その者に対し、速やかに、反則行為となるべき事実の要旨及び当該反則行為が属する反則行為の種別並びにその者が次条第一項前段の規定による通告を受けるための出頭の期日及び場所を書面で告知するものとする。ただし、出頭の期日及び場所の告知は、その必要がないと認めるときは、この限りでない。
+
+一　その者の居所又は氏名が明らかでないとき。
+
+二　その者が逃亡するおそれがあるとき。
 
 ### 第百二十六条第二項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-126-p2 -->
 前項の書面には、この章に定める手続を理解させるため必要な事項を記載するものとする。
 
 ### 第百二十六条第三項
 
-<!-- segment: honbun id: douro-koutsuu-hou-art-126-p3-honbun -->
-警察官は、第一項の規定による告知をしたときは、当該告知に係る反則行為が行われた地を管轄する都道府県警察の警察本部長に速やかにその旨を報告しなければならない。<!-- segment: tadashi id: douro-koutsuu-hou-art-126-p3-tadashi -->
-ただし、警察法第六十条の二又は第六十六条第二項の規定に基づいて、当該警察官の所属する都道府県警察の管轄区域以外の区域において反則行為をしたと認めた者に対し告知をしたときは、当該警察官の所属する都道府県警察の警察本部長に報告しなければならない。
+警察官は、第一項の規定による告知をしたときは、当該告知に係る反則行為が行われた地を管轄する都道府県警察の警察本部長に速やかにその旨を報告しなければならない。ただし、警察法第六十条の二又は第六十六条第二項の規定に基づいて、当該警察官の所属する都道府県警察の管轄区域以外の区域において反則行為をしたと認めた者に対し告知をしたときは、当該警察官の所属する都道府県警察の警察本部長に報告しなければならない。
 
 ### 第百二十六条第四項
 
-<!-- segment: simple id: douro-koutsuu-hou-art-126-p4 -->
 第百十四条の四第一項に規定する交通巡視員は、第百十九条の二の四第一項若しくは第三項又は第百十九条の三第一項第一号から第四号まで若しくは第三項の罪に当たる行為をした反則者があると認めるときは、第一項の例により告知するものとし、当該告知をしたときは、前項の例により報告しなければならない。

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-700-54-p1
+    type: simple
+    text: 狩猟税の徴収については、当該道府県の条例の定めるところによつて、普通徴収又は証紙徴収の方法によらなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

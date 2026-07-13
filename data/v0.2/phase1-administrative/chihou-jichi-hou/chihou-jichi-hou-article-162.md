@@ -43,5 +43,4 @@ parent_section:
 
 ### 第百六十二条
 
-<!-- segment: simple id: chihou-jichi-hou-art-162-p1 -->
 副知事及び副市町村長は、普通地方公共団体の長が議会の同意を得てこれを選任する。

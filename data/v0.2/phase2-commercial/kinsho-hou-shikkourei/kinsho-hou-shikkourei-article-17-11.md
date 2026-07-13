@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-11-p1
+    type: simple
+    text: 法第六十一条第一項及び第三項に規定する政令で定める者は、登録金融機関のうち投資運用業を行う者とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-11-p2
+    type: simple
+    text: 法第六十一条第二項に規定する政令で定める者は、金融商品取引業者のうち投資運用業（法第二条第八項第十二号に掲げる行為を投資一任契約に基づき行う業務を除く。）を行う者及び前項に規定する者とする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

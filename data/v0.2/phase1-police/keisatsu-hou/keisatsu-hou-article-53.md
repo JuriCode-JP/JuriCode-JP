@@ -75,25 +75,20 @@ parent_section:
 
 ### 第五十三条第一項
 
-<!-- segment: simple id: keisatsu-hou-art-53-p1 -->
 都道府県の区域を分ち、各地域を管轄する警察署を置く。
 
 ### 第五十三条第二項
 
-<!-- segment: simple id: keisatsu-hou-art-53-p2 -->
 警察署に、署長を置く。
 
 ### 第五十三条第三項
 
-<!-- segment: simple id: keisatsu-hou-art-53-p3 -->
 警察署長は、警視総監、警察本部長、方面本部長又は市警察部長の指揮監督を受け、その管轄区域内における警察の事務を処理し、所属の警察職員を指揮監督する。
 
 ### 第五十三条第四項
 
-<!-- segment: simple id: keisatsu-hou-art-53-p4 -->
 警察署の名称、位置及び管轄区域は、政令で定める基準に従い、条例で定める。
 
 ### 第五十三条第五項
 
-<!-- segment: simple id: keisatsu-hou-art-53-p5 -->
 警察署の下部機構として、交番その他の派出所又は駐在所を置くことができる。

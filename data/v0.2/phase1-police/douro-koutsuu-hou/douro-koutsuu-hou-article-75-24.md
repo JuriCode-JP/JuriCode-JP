@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-75-24-p1
+    type: simple
+    text: 特定自動運行実施者による特定自動運行についてのこの法律の規定（第四章第二節を除く。）の適用については、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句とするほか、必要な技術的読替えは、政令で定める。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

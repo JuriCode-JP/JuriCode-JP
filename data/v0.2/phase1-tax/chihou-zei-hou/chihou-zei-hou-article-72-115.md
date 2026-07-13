@@ -16,17 +16,39 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-115-p1
+    type: simple
+    text: 道府県は、前条第一項に規定する合算額の二十二分の十に相当する額から第七十二条の百十三第一項の規定により国に支払つた金額に相当する額を減額した額に、前条第一項の規定により他の道府県から支払を受けた金額に相当する額を加算し、同項の規定により他の道府県に支払つた金額に相当する額を減額して得た合計額の二分の一に相当する額を、政令で定めるところにより、当該道府県内の市町村（特別区を含む。以下この条及び次条において同じ。）に対し、官報で公示された最近の国勢調査の結果による各市町村の人口及び統計法第二条第四項に規定する基幹統計である経済構造統計（総務省令で定めるものに限る。）の最近に公表された結果による各市町村の従業者数に按分して交付するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-115-p2
+    type: simple
+    text: 道府県は、前条第一項に規定する合算額の二十二分の十二に相当する額に、同条第二項の規定により他の道府県から支払を受けた金額に相当する額を加算し、同項の規定により他の道府県に支払つた金額に相当する額を減額して得た合計額の二分の一に相当する額を、政令で定めるところにより、当該道府県内の市町村に対し、前項の人口に按分して交付するものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-72-115-p3
+    type: simple
+    text: 第一項の場合においては、市町村に対して交付すべき額の二分の一の額を同項の人口で、他の二分の一の額を同項の従業者数で按分するものとする。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:

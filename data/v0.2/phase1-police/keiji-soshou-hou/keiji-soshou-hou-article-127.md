@@ -13,7 +13,7 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
   segments:
@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百二十七条
 
-<!-- segment: simple id: keiji-soshou-hou-art-127-p1 -->
 第百十一条、第百十二条、第百十四条及び第百十八条の規定は、前条の規定により検察事務官又は司法警察職員がする捜索についてこれを準用する。但し、急速を要する場合は、第百十四条第二項の規定によることを要しない。

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第二百二十五条の十三
 
-<!-- segment: simple id: shotoku-zei-hou-shikkourei-art-225-13-p1 -->
 法第九十五条第四項第十六号（外国税額控除）に規定する政令で定めるものは、同号に規定する相手国等において外国所得税が課される所得とする。

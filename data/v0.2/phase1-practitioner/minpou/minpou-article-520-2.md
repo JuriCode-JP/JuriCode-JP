@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-520-2-p1
+    type: simple
+    text: 指図証券の譲渡は、その証券に譲渡の裏書をして譲受人に交付しなければ、その効力を生じない。
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -16,12 +16,32 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-34-2-p1
+    type: simple
+    text: 法第二十三条の二十五の二において準用する法第十四条の二第二項の規定による調査（以下「再生医療等製品区分適合性調査」という。）の申請は、様式第七十五の六の二による申請書を機構を経由して厚生労働大臣に提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-34-2-p2-hashira
+    type: hashira
+    text: 前項の申請書には、次に掲げる資料を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
+  - id: yakkihou-shikoukisoku-art-137-34-2-p2-kou-1
+    type: kou
+    text: 再生医療等製品区分適合性調査に係る品目の製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-137-34-2-p2-kou-2
+    type: kou
+    text: 再生医療等製品区分適合性調査に係る製造業者及び製造所における製造管理及び品質管理に関する資料
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -43,3 +63,7 @@ parent_section:
 ### 第百三十七条の三十四の二第二項
 
 前項の申請書には、次に掲げる資料を添えなければならない。
+
+一　再生医療等製品区分適合性調査に係る品目の製造管理及び品質管理に関する資料
+
+二　再生医療等製品区分適合性調査に係る製造業者及び製造所における製造管理及び品質管理に関する資料

@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四条
 
-<!-- segment: simple id: kaisha-hou-art-4-p1 -->
 会社の住所は、その本店の所在地にあるものとする。

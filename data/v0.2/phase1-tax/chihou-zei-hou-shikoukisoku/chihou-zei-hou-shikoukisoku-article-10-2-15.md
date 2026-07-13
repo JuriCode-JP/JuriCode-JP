@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-shikoukisoku-art-10-2-15-p1
+    type: simple
+    text: 法第三百四十三条第十項に規定する総務省令で定めるものは、木造家屋にあつては外壁仕上、内壁仕上、床仕上、天井仕上、屋根仕上又は建具とし、木造家屋以外の家屋にあつては外周壁骨組、間仕切骨組、外壁仕上、内壁仕上、床仕上、天井仕上、屋根仕上又は建具とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

@@ -41,5 +41,4 @@ parent_section:
 
 ### 第八十三条
 
-<!-- segment: simple id: houjin-zei-hou-art-83-p1 -->
 内国法人に対して課する退職年金等積立金に対する法人税の課税標準は、各事業年度の退職年金等積立金の額とする。

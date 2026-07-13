@@ -21,6 +21,16 @@ paragraphs:
     type: hashira
     text: 令第十九条に規定する法第十九条の二第一項及び同条第五項において準用する法第十四条第十三項の承認に関する台帳に記載する事項は、第四十九条各号（第三号を除く。）に掲げる事項のほか、次に掲げる事項を記載するものとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-103-p1-kou-1
+    type: kou
+    text: 選任外国製造医薬品等製造販売業者の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-103-p1-kou-2
+    type: kou
+    text: 当該選任外国製造医薬品等製造販売業者の受けている製造販売業の許可の種類及び許可番号
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -37,5 +47,8 @@ parent_section:
 
 ### 第百三条
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-103-p1-hashira -->
 令第十九条に規定する法第十九条の二第一項及び同条第五項において準用する法第十四条第十三項の承認に関する台帳に記載する事項は、第四十九条各号（第三号を除く。）に掲げる事項のほか、次に掲げる事項を記載するものとする。
+
+一　選任外国製造医薬品等製造販売業者の氏名及び住所
+
+二　当該選任外国製造医薬品等製造販売業者の受けている製造販売業の許可の種類及び許可番号

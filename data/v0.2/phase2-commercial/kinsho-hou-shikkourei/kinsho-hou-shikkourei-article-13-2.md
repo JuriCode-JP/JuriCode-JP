@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-13-2-p1
+    type: simple
+    text: 法第二十七条の十第一項に規定する政令で定める期間は、十日（行政機関の休日の日数は、算入しない。）とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-13-2-p2
+    type: simple
+    text: 法第二十七条の十第十一項に規定する政令で定める期間は、五日（行政機関の休日の日数は、算入しない。）とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

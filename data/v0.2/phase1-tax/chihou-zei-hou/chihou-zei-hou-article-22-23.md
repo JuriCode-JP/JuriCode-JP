@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-22-23-p1
+    type: simple
+    text: 当該徴税吏員は、捜索をした場合において、証拠物又は没収すべき物件がないときは、捜索を受けた者の請求により、その旨の証明書を交付しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

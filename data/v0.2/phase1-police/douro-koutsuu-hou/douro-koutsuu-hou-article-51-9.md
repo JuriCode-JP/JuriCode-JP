@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-51-9-p1
+    type: simple
+    text: 公安委員会は、登録を受けた法人が前条第四項各号のいずれかに適合しなくなつたと認めるときは、その法人に対し、これらの規定に適合するため必要な措置をとるべきことを命ずることができる。
+    modality: kanou_kenri
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十一条第一項
 
-<!-- segment: simple id: keihou-art-11-p1 -->
 死刑は、刑事施設内において、絞首して執行する。
 
 ### 第十一条第二項
 
-<!-- segment: simple id: keihou-art-11-p2 -->
 死刑の言渡しを受けた者は、その執行に至るまで刑事施設に拘置する。

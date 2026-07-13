@@ -39,5 +39,4 @@ parent_section:
 
 ### 第四条の二十一
 
-<!-- segment: simple id: souzoku-zei-hou-shikkourei-art-4-21-p1 -->
 障害者非課税信託申告書、障害者非課税信託取消申告書、障害者非課税信託廃止申告書及び障害者非課税信託に関する異動申告書の書式は、財務省令で定める。

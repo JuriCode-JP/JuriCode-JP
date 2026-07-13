@@ -16,22 +16,46 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-49-3-p1
+    type: simple
+    text: 時間制限駐車区間における車両の駐車（第四十四条第二項各号に掲げる場合における当該乗合自動車若しくはトロリーバス又は当該旅客の運送の用に供する自動車の駐車を除く。次条において同じ。）については、第四十四条から第四十八条までの規定にかかわらず、この条から第四十九条の五までに定めるところによる。
+    modality: unspecified
+    references:
+    - 次条
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-49-3-p2
+    type: simple
+    text: 車両（前条の規定により指定された道路の区間（次条において「高齢運転者等専用時間制限駐車区間」という。）にあつては、高齢運転者等標章自動車に限る。以下この条、第四十九条の六及び第百十九条の三第一項第二号において同じ。）は、時間制限駐車区間においては、当該駐車につき第四十九条第一項のパーキング・メーターが車両を感知した時又は同項のパーキング・チケット発給設備によりパーキング・チケットの発給を受けた時から、それぞれ道路標識等により表示されている時間を超えて引き続き駐車してはならない。
+    modality: gimu_negative
+    references:
+    - 同項
+    - 前条
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-49-3-p3
+    type: simple
+    text: 車両は、時間制限駐車区間においては、駐車につき道路標識等により指定されている道路の部分及び方法でなければ、駐車してはならない。
+    modality: gimu_negative
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-49-3-p4
+    type: simple
+    text: 車両の運転者は、時間制限駐車区間において車両を駐車したときは、政令で定めるところにより、第四十九条第一項のパーキング・メーターを直ちに作動させ、又は同項のパーキング・チケット発給設備によりパーキング・チケットの発給を直ちに受けて、これを当該車両が駐車している間（当該パーキング・チケットの発給を受けた時から道路標識等により表示されている時間を経過する時までの間に限る。）、当該車両の前面の見やすい箇所に掲示しなければならない。
+    modality: gimu
+    references:
+    - 同項
 cases: []
 amendments: []
 tags:
@@ -63,3 +87,5 @@ parent_section:
 ### 第四十九条の三第四項
 
 車両の運転者は、時間制限駐車区間において車両を駐車したときは、政令で定めるところにより、第四十九条第一項のパーキング・メーターを直ちに作動させ、又は同項のパーキング・チケット発給設備によりパーキング・チケットの発給を直ちに受けて、これを当該車両が駐車している間（当該パーキング・チケットの発給を受けた時から道路標識等により表示されている時間を経過する時までの間に限る。）、当該車両の前面の見やすい箇所に掲示しなければならない。
+
+（罰則　第二項については第百十九条の三第一項第一号、同条第三項　第三項については第百十九条の二の四第一項第一号、同条第三項、第百十九条の三第一項第一号、同条第三項　第四項については第百十九条の三第一項第三号、同条第三項）

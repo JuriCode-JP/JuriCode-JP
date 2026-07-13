@@ -16,12 +16,22 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-52-p1
+    type: simple
+    text: 法第二十三条の三十四第五項の承認の申請は、様式第七十五の十六による申請書（正副二通）を提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-52-p2
+    type: simple
+    text: 前項の申請書には、当該申請に係る再生医療等製品製造管理者になろうとする者の履歴書を添えなければならない。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

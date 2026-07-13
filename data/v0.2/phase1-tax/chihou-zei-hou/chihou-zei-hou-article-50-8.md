@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-zei-hou-art-50-8-p1
+    type: simple
+    text: その年において退職手当等の支払を受けた者が第五十条の六第二項に規定する分離課税に係る所得割の額を徴収された又は徴収されるべき場合において、その者のその年中における退職手当等の金額について第五十条の三及び第五十条の四の規定を適用して計算した税額が当該退職手当等につき第四十一条第一項の規定によつてその例によることとされる第三百二十八条の五第二項の規定により徴収された又は徴収されるべき分離課税に係る所得割の額をこえるときは、第四十一条第一項の規定によつて市町村長が普通徴収の方法によつて徴収すべき税額は、そのこえる金額に相当する税額とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

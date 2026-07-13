@@ -13,15 +13,30 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-6-p1-honbun
+    type: honbun
+    text: 国の行政機関は、自治事務として普通地方公共団体が処理している事務と同一の内容の事務を法令の定めるところにより自らの権限に属する事務として処理するときは、あらかじめ当該普通地方公共団体に対し、当該事務の処理の内容及び理由を記載した書面により通知しなければならない。
+    modality: gimu
+  - id: chihou-jichi-hou-art-250-6-p1-tadashi
+    type: tadashi
+    text: ただし、当該通知をしないで当該事務を処理すべき差し迫つた必要がある場合は、この限りでない。
+    modality: jogai
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-250-6-p2
+    type: simple
+    text: 前項ただし書の場合においては、国の行政機関は、自ら当該事務を処理した後相当の期間内に、同項の通知をしなければならない。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

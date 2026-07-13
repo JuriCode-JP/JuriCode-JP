@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-260-42-p1
+    type: simple
+    text: 合併により認可地縁団体を設立する場合には、規約の作成その他認可地縁団体の設立に関する事務は、各認可地縁団体において選任した者が共同して行わなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

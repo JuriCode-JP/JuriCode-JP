@@ -41,5 +41,4 @@ parent_section:
 
 ### 第二百二十三条
 
-<!-- segment: simple id: chihou-jichi-hou-art-223-p1 -->
 普通地方公共団体は、法律の定めるところにより、地方税を賦課徴収することができる。

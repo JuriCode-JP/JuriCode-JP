@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-35-2-p1
+    type: simple
+    text: 車両は、環状交差点において左折し、又は右折するときは、第三十四条第一項から第五項までの規定にかかわらず、あらかじめその前からできる限り道路の左側端に寄り、かつ、できる限り環状交差点の側端に沿つて（道路標識等により通行すべき部分が指定されているときは、その指定された部分を通行して）徐行しなければならない。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: douro-koutsuu-hou-art-35-2-p2
+    type: simple
+    text: 車両は、環状交差点において直進し、又は転回するときは、あらかじめその前からできる限り道路の左側端に寄り、かつ、できる限り環状交差点の側端に沿つて（道路標識等により通行すべき部分が指定されているときは、その指定された部分を通行して）徐行しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -45,3 +53,5 @@ parent_section:
 ### 第三十五条の二第二項
 
 車両は、環状交差点において直進し、又は転回するときは、あらかじめその前からできる限り道路の左側端に寄り、かつ、できる限り環状交差点の側端に沿つて（道路標識等により通行すべき部分が指定されているときは、その指定された部分を通行して）徐行しなければならない。
+
+（罰則　第百二十一条第一項第八号）

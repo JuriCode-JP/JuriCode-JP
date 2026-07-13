@@ -41,5 +41,4 @@ parent_section:
 
 ### 第百五十三条
 
-<!-- segment: simple id: kojin-jouhou-hogo-hou-art-153-p1 -->
 委員会は、第四章第五節の規定の施行に必要な限度において、認定個人情報保護団体に対し、認定業務に関し報告をさせることができる。

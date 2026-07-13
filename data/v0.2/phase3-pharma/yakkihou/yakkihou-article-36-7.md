@@ -14,19 +14,48 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-7-p1
+    type: simple
+    text: 一般用医薬品（専ら動物のために使用されることが目的とされているものを除く。）は、次のように区分する。
+    modality: unspecified
+  - id: yakkihou-art-36-7-p1-kou-1
+    type: kou
+    text: 第一類医薬品　その副作用等により日常生活に支障を来す程度の健康被害が生ずるおそれがある医薬品のうちその使用に関し特に注意が必要なものとして厚生労働大臣が指定するもの及びその製造販売の承認の申請に際して第十四条第十二項に該当するとされた医薬品であつて当該申請に係る承認を受けてから厚生労働省令で定める期間を経過しないもの
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-art-36-7-p1-kou-2
+    type: kou
+    text: 第二類医薬品　その副作用等により日常生活に支障を来す程度の健康被害が生ずるおそれがある医薬品（第一類医薬品を除く。）であつて厚生労働大臣が指定するもの
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-art-36-7-p1-kou-3
+    type: kou
+    text: 第三類医薬品　第一類医薬品及び第二類医薬品以外の一般用医薬品
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-7-p2
+    type: simple
+    text: 厚生労働大臣は、前項第一号及び第二号の規定による指定に資するよう医薬品に関する情報の収集に努めるとともに、必要に応じてこれらの指定を変更しなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-art-36-7-p3
+    type: simple
+    text: 厚生労働大臣は、第一項第一号又は第二号の規定による指定をし、又は変更しようとするときは、薬事審議会の意見を聴かなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:
@@ -46,6 +75,12 @@ parent_section:
 ### 第三十六条の七第一項
 
 一般用医薬品（専ら動物のために使用されることが目的とされているものを除く。）は、次のように区分する。
+
+一　第一類医薬品　その副作用等により日常生活に支障を来す程度の健康被害が生ずるおそれがある医薬品のうちその使用に関し特に注意が必要なものとして厚生労働大臣が指定するもの及びその製造販売の承認の申請に際して第十四条第十二項に該当するとされた医薬品であつて当該申請に係る承認を受けてから厚生労働省令で定める期間を経過しないもの
+
+二　第二類医薬品　その副作用等により日常生活に支障を来す程度の健康被害が生ずるおそれがある医薬品（第一類医薬品を除く。）であつて厚生労働大臣が指定するもの
+
+三　第三類医薬品　第一類医薬品及び第二類医薬品以外の一般用医薬品
 
 ### 第三十六条の七第二項
 

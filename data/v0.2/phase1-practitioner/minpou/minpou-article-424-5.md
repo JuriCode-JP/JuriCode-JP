@@ -14,9 +14,23 @@ machine_translated: false
 paragraphs:
 - number: 1
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: minpou-art-424-5-p1-hashira
+    type: hashira
+    text: 債権者は、受益者に対して詐害行為取消請求をすることができる場合において、受益者に移転した財産を転得した者があるときは、次の各号に掲げる区分に応じ、それぞれ当該各号に定める場合に限り、その転得者に対しても、詐害行為取消請求をすることができる。
+    modality: kanou_kenri
+  - id: minpou-art-424-5-p1-kou-1
+    type: kou
+    text: その転得者が受益者から転得した者である場合　その転得者が、転得の当時、債務者がした行為が債権者を害することを知っていたとき。
+    modality: unspecified
+    item_number: 1
+  - id: minpou-art-424-5-p1-kou-2
+    type: kou
+    text: その転得者が他の転得者から転得した者である場合　その転得者及びその前に転得した全ての転得者が、それぞれの転得の当時、債務者がした行為が債権者を害することを知っていたとき。
+    modality: unspecified
+    item_number: 2
 cases: []
 amendments: []
 tags:
@@ -42,3 +56,7 @@ parent_section:
 ### 第四百二十四条の五
 
 債権者は、受益者に対して詐害行為取消請求をすることができる場合において、受益者に移転した財産を転得した者があるときは、次の各号に掲げる区分に応じ、それぞれ当該各号に定める場合に限り、その転得者に対しても、詐害行為取消請求をすることができる。
+
+一　その転得者が受益者から転得した者である場合　その転得者が、転得の当時、債務者がした行為が債権者を害することを知っていたとき。
+
+二　その転得者が他の転得者から転得した者である場合　その転得者及びその前に転得した全ての転得者が、それぞれの転得の当時、債務者がした行為が債権者を害することを知っていたとき。

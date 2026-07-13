@@ -21,6 +21,21 @@ paragraphs:
     type: hashira
     text: 会社は、公告方法として、次に掲げる方法のいずれかを定款で定めることができる。
     modality: kanou_kenri
+  - id: kaisha-hou-art-939-p1-kou-1
+    type: kou
+    text: 官報に掲載する方法
+    modality: unspecified
+    item_number: 1
+  - id: kaisha-hou-art-939-p1-kou-2
+    type: kou
+    text: 時事に関する事項を掲載する日刊新聞紙に掲載する方法
+    modality: unspecified
+    item_number: 2
+  - id: kaisha-hou-art-939-p1-kou-3
+    type: kou
+    text: 電子公告
+    modality: unspecified
+    item_number: 3
 - number: 2
   has_proviso: false
   has_items: false
@@ -77,21 +92,22 @@ parent_section:
 
 ### 第九百三十九条第一項
 
-<!-- segment: hashira id: kaisha-hou-art-939-p1-hashira -->
 会社は、公告方法として、次に掲げる方法のいずれかを定款で定めることができる。
+
+一　官報に掲載する方法
+
+二　時事に関する事項を掲載する日刊新聞紙に掲載する方法
+
+三　電子公告
 
 ### 第九百三十九条第二項
 
-<!-- segment: simple id: kaisha-hou-art-939-p2 -->
 外国会社は、公告方法として、前項各号に掲げる方法のいずれかを定めることができる。
 
 ### 第九百三十九条第三項
 
-<!-- segment: zen_dan id: kaisha-hou-art-939-p3-zen -->
-会社又は外国会社が第一項第三号に掲げる方法を公告方法とする旨を定める場合には、電子公告を公告方法とする旨を定めれば足りる。<!-- segment: kou_dan id: kaisha-hou-art-939-p3-kou depends_on: kaisha-hou-art-939-p3-zen -->
-この場合においては、事故その他やむを得ない事由によって電子公告による公告をすることができない場合の公告方法として、同項第一号又は第二号に掲げる方法のいずれかを定めることができる。
+会社又は外国会社が第一項第三号に掲げる方法を公告方法とする旨を定める場合には、電子公告を公告方法とする旨を定めれば足りる。この場合においては、事故その他やむを得ない事由によって電子公告による公告をすることができない場合の公告方法として、同項第一号又は第二号に掲げる方法のいずれかを定めることができる。
 
 ### 第九百三十九条第四項
 
-<!-- segment: simple id: kaisha-hou-art-939-p4 -->
 第一項又は第二項の規定による定めがない会社又は外国会社の公告方法は、第一項第一号の方法とする。

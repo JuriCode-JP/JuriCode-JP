@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十七条
 
-<!-- segment: simple id: hanzai-shueki-iten-boushi-hou-art-17-p1 -->
 行政庁は、この法律に定める特定事業者による措置の適正かつ円滑な実施を確保するため必要があると認めるときは、特定事業者に対し、必要な指導、助言及び勧告をすることができる。

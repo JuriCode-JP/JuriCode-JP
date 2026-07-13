@@ -16,12 +16,25 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-35-2-p1
+    type: simple
+    text: 金融商品取引業者（第二種金融商品取引業又は投資助言・代理業のみを行う者に限る。次項において同じ。）は、金融商品取引業（第二種金融商品取引業又は投資助言・代理業に限る。）のほか、他の業務を兼業することができる。
+    modality: kanou_kenri
+    references:
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-35-2-p2
+    type: simple
+    text: 前項の規定は、金融商品取引業者が同項に規定する他の業務を兼業する場合において、当該業務に関する法律の適用を排除するものと解してはならない。
+    modality: gimu_negative
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

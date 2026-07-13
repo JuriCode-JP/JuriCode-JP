@@ -16,12 +16,23 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-4-4-p1
+    type: simple
+    text: 一の法人課税信託の受託者が二以上ある場合には、各受託者の当該法人課税信託に係る信託資産等は、一の者の信託資産等とみなして、この法律の規定を適用する。
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: houjin-zei-hou-art-4-4-p2
+    type: simple
+    text: 前項に規定する場合には、同項の各受託者は、同項の法人課税信託の信託事務を主宰する受託者を納税義務者として当該法人課税信託に係る法人税を納めるものとする。
+    modality: gimu
+    references:
+    - 同項
+    - 前項
 cases: []
 amendments:
 - effective_date: '2022-04-01'

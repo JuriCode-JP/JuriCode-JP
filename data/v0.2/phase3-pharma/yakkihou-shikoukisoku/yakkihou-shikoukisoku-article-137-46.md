@@ -16,27 +16,52 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-46-p1
+    type: simple
+    text: 法第二十三条の三十一の再生医療等製品の再評価の申請は、様式第七十五の十二による申請書（正本一通及び副本二通）を提出することによつて行うものとする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-46-p2
+    type: simple
+    text: 法第二十三条の三十一第一項の再生医療等製品の再評価に際して提出する資料については、第百三十七条の二十三第三項の規定を準用する。
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-46-p3
+    type: simple
+    text: 法第二十三条の三十一第一項の再生医療等製品の再評価の申請をする者については、第百三十七条の二十三第四項の規定を準用する。
+    modality: unspecified
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-46-p4
+    type: simple
+    text: 法第二十三条の三十一第四項に規定する厚生労働省令で定める再生医療等製品は、同条第一項の厚生労働大臣の指定に係る再生医療等製品とする。
+    modality: gimu
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-137-46-p5-zen
+    type: zen_dan
+    text: 法第二十三条の三十一第四項に規定する資料については、第百三十七条の二十五の規定を準用する。
+    modality: unspecified
+  - id: yakkihou-shikoukisoku-art-137-46-p5-kou
+    type: kou_dan
+    text: この場合において、同条第三号中「法第二十三条の二十五第一項の承認（法第二十三条の二十六第一項又は第二十三条の二十六の二第一項の規定により条件及び期限を付したものを除く。）又は法第二十三条の二十五第十三項の承認（法第二十三条の二十六の二第一項の規定により条件及び期限を付したものを除く。）を与える又は与えない旨の処分の日」とあるのは、「法第二十三条の三十一の再評価の終了の日」と読み替えるものとする。
+    modality: gimu
+    depends_on: yakkihou-shikoukisoku-art-137-46-p5-zen
 cases: []
 amendments: []
 tags:

@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-25-p1
+    type: simple
+    text: 第五十七条の三から第五十七条の七まで、第五十七条の八第一項、第五十七条の九及び第五十七条の十一の規定は、対象特別金融商品取引業者については、適用しない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

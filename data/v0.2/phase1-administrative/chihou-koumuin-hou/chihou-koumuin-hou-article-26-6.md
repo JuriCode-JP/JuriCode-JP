@@ -16,57 +16,119 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p1
+    type: simple
+    text: 任命権者は、職員が申請した場合において、公務の運営に支障がないと認めるときは、条例で定めるところにより、当該申請をした職員の勤務成績その他の事情を考慮した上で、当該職員が、三年を超えない範囲内において条例で定める期間、配偶者同行休業（職員が、外国での勤務その他の条例で定める事由により外国に住所又は居所を定めて滞在するその配偶者（届出をしないが事実上婚姻関係と同様の事情にある者を含む。第五項及び第六項において同じ。）と、当該住所又は居所において生活を共にするための休業をいう。以下この条において同じ。）をすることを承認することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p2
+    type: simple
+    text: 配偶者同行休業をしている職員は、当該配偶者同行休業を開始した日から引き続き配偶者同行休業をしようとする期間が前項の条例で定める期間を超えない範囲内において、条例で定めるところにより、任命権者に対し、配偶者同行休業の期間の延長を申請することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p3
+    type: simple
+    text: 配偶者同行休業の期間の延長は、条例で定める特別の事情がある場合を除き、一回に限るものとする。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p4
+    type: junyou
+    text: 第一項の規定は、配偶者同行休業の期間の延長の承認について準用する。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p5
+    type: simple
+    text: 配偶者同行休業の承認は、当該配偶者同行休業をしている職員が休職若しくは停職の処分を受けた場合又は当該配偶者同行休業に係る配偶者が死亡し、若しくは当該職員の配偶者でなくなつた場合には、その効力を失う。
+    modality: unspecified
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p6
+    type: simple
+    text: 任命権者は、配偶者同行休業をしている職員が当該配偶者同行休業に係る配偶者と生活を共にしなくなつたことその他条例で定める事由に該当すると認めるときは、当該配偶者同行休業の承認を取り消すものとする。
+    modality: gimu
 - number: 7
   has_proviso: false
-  has_items: false
+  has_items: true
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p7-hashira
+    type: hashira
+    text: 任命権者は、第一項又は第二項の規定による申請があつた場合において、当該申請に係る期間（以下この項及び次項において「申請期間」という。）について職員の配置換えその他の方法によつて当該申請をした職員の業務を処理することが困難であると認めるときは、条例で定めるところにより、当該業務を処理するため、次の各号に掲げる任用のいずれかを行うことができる。この場合において、第二号に掲げる任用は、申請期間について一年を超えて行うことができない。
+    modality: kanou_negative
+    references:
+    - 次項
+  - id: chihou-koumuin-hou-art-26-6-p7-kou-1
+    type: kou
+    text: 申請期間を任用の期間（以下この条において「任期」という。）の限度として行う任期を定めた採用
+    modality: unspecified
+    item_number: 1
+  - id: chihou-koumuin-hou-art-26-6-p7-kou-2
+    type: kou
+    text: 申請期間を任期の限度として行う臨時的任用
+    modality: unspecified
+    item_number: 2
 - number: 8
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p8
+    type: simple
+    text: 任命権者は、条例で定めるところにより、前項の規定により任期を定めて採用された職員の任期が申請期間に満たない場合には、当該申請期間の範囲内において、その任期を更新することができる。
+    modality: kanou_kenri
+    references:
+    - 前項
 - number: 9
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p9
+    type: simple
+    text: 任命権者は、第七項の規定により任期を定めて採用された職員を、任期を定めて採用した趣旨に反しない場合に限り、その任期中、他の職に任用することができる。
+    modality: kanou_kenri
 - number: 10
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p10
+    type: simple
+    text: 第七項の規定に基づき臨時的任用を行う場合には、第二十二条の三第一項から第四項までの規定は、適用しない。
+    modality: jogai
 - number: 11
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-koumuin-hou-art-26-6-p11
+    type: junyou
+    text: 前条第二項、第三項及び第六項の規定は、配偶者同行休業について準用する。
+    modality: unspecified
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:
@@ -110,6 +172,10 @@ parent_section:
 ### 第二十六条の六第七項
 
 任命権者は、第一項又は第二項の規定による申請があつた場合において、当該申請に係る期間（以下この項及び次項において「申請期間」という。）について職員の配置換えその他の方法によつて当該申請をした職員の業務を処理することが困難であると認めるときは、条例で定めるところにより、当該業務を処理するため、次の各号に掲げる任用のいずれかを行うことができる。この場合において、第二号に掲げる任用は、申請期間について一年を超えて行うことができない。
+
+一　申請期間を任用の期間（以下この条において「任期」という。）の限度として行う任期を定めた採用
+
+二　申請期間を任期の限度として行う臨時的任用
 
 ### 第二十六条の六第八項
 

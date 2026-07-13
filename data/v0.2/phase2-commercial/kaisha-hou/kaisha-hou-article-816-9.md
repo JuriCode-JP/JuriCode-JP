@@ -16,32 +16,60 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-9-p1
+    type: simple
+    text: 株式交付親会社は、効力発生日を変更することができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-9-p2
+    type: simple
+    text: 前項の規定による変更後の効力発生日は、株式交付計画において定めた当初の効力発生日から三箇月以内の日でなければならない。
+    modality: gimu
+    references:
+    - 前項
 - number: 3
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-9-p3
+    type: simple
+    text: 第一項の場合には、株式交付親会社は、変更前の効力発生日（変更後の効力発生日が変更前の効力発生日前の日である場合にあっては、当該変更後の効力発生日）の前日までに、変更後の効力発生日を公告しなければならない。
+    modality: gimu
 - number: 4
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-9-p4
+    type: simple
+    text: 第一項の規定により効力発生日を変更したときは、変更後の効力発生日を効力発生日とみなして、この節（第二項を除く。）及び前章（第七百七十四条の三第一項第十一号を除く。）の規定を適用する。
+    modality: unspecified
 - number: 5
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-9-p5
+    type: simple
+    text: 株式交付親会社は、第一項の規定による効力発生日の変更をする場合には、当該変更と同時に第七百七十四条の三第一項第十号の期日を変更することができる。
+    modality: kanou_kenri
 - number: 6
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kaisha-hou-art-816-9-p6
+    type: junyou
+    text: 第三項及び第四項の規定は、前項の規定による第七百七十四条の三第一項第十号の期日の変更について準用する。この場合において、第四項中「この節（第二項を除く。）及び前章（第七百七十四条の三第一項第十一号を除く。）」とあるのは、「第七百七十四条の四、第七百七十四条の十及び前項」と読み替えるものとする。
+    modality: gimu
+    references:
+    - 前項
 cases: []
 amendments: []
 tags:

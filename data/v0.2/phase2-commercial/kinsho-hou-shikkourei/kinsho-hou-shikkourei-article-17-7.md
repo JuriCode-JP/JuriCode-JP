@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-7-p1
+    type: simple
+    text: 法第五十九条の三第二号に規定する政令で定める金額は、五億円とする。
+    modality: gimu
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-17-7-p2
+    type: simple
+    text: 法第五十九条の三第二号の資本金の額又は出資の総額を本邦通貨に換算する場合には、許可申請時における外国為替相場によるものとする。
+    modality: gimu
 cases: []
 amendments: []
 tags:

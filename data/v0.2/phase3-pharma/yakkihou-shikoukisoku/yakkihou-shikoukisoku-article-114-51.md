@@ -13,10 +13,18 @@ translation_status: none
 machine_translated: false
 paragraphs:
 - number: 1
-  has_proviso: false
+  has_proviso: true
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: yakkihou-shikoukisoku-art-114-51-p1-honbun
+    type: honbun
+    text: 医療機器又は体外診断用医薬品の製造所の医療機器責任技術者又は体外診断用医薬品製造管理者は、製造及び試験に関する記録その他当該製造所の管理に関する記録を作成し、かつ、これを三年間（当該記録に係る医療機器又は体外診断用医薬品に関して有効期間の記載が義務付けられている場合には、その有効期間に一年を加算した期間）保管しなければならない。
+    modality: gimu
+  - id: yakkihou-shikoukisoku-art-114-51-p1-tadashi
+    type: tadashi
+    text: ただし、この省令の他の規定又は薬事に関する他の法令の規定により、記録の作成及びその保管が義務付けられている場合には、この限りでない。
+    modality: jogai
 cases: []
 amendments: []
 tags:

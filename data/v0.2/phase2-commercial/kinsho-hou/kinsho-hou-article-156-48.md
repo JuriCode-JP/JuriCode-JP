@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-156-48-p1
+    type: simple
+    text: 指定紛争解決機関は、第百五十六条の五十第九項の規定によるもののほか、内閣府令で定めるところにより、紛争解決等業務に関する記録を作成し、これを保存しなければならない。
+    modality: gimu
 cases: []
 amendments: []
 tags:

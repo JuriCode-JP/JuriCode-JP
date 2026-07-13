@@ -16,12 +16,20 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-74-12-p1
+    type: simple
+    text: 国税庁等又は税関の当該職員（税関の当該職員にあつては、消費税等又は国際観光旅客税に関する調査を行う場合に限る。）は、国税に関する調査について必要があるときは、事業者（特別の法律により設立された法人を含む。）又は官公署に、当該調査に関し参考となるべき帳簿書類その他の物件の閲覧又は提供その他の協力を求めることができる。
+    modality: kanou_kenri
 - number: 2
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kokuzei-tsuusoku-hou-art-74-12-p2
+    type: simple
+    text: 国税庁等の当該職員は、酒税法第二章（酒類の製造免許及び酒類の販売業免許等）の規定による免許に関する審査について必要があるときは、官公署に、当該審査に関し参考となるべき帳簿書類その他の物件の閲覧又は提供その他の協力を求めることができる。
+    modality: kanou_kenri
 cases: []
 amendments: []
 tags:

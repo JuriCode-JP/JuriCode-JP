@@ -16,7 +16,13 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-art-57-14-p1
+    type: simple
+    text: 指定親会社は、前条第一項各号に掲げる事項について変更があつたときは、その日から二週間以内に、内閣府令で定めるところにより、その旨を内閣総理大臣に届け出なければならない。
+    modality: gimu
+    references:
+    - 前条
 cases: []
 amendments: []
 tags:

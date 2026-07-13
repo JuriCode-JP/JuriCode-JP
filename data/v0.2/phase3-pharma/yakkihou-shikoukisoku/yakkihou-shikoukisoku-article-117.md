@@ -21,6 +21,56 @@ paragraphs:
     type: hashira
     text: 令第四十二条に規定する基準適合性認証に関する台帳に記載する事項は、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-1
+    type: kou
+    text: 認証番号及び認証年月日
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-2
+    type: kou
+    text: 基準適合性認証を受けた者の氏名及び住所
+    modality: unspecified
+    item_number: 2
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-3
+    type: kou
+    text: 基準適合性認証を受けた者（外国指定高度管理医療機器製造等事業者を除く。）の製造販売業の許可の種類及び許可番号
+    modality: unspecified
+    item_number: 3
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-4
+    type: kou
+    text: 当該品目の製造所の名称
+    modality: unspecified
+    item_number: 4
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-5
+    type: kou
+    text: 当該品目の製造所が受けている製造業者又は医療機器等外国製造業者の登録番号
+    modality: unspecified
+    item_number: 5
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-6
+    type: kou
+    text: 当該品目の名称
+    modality: unspecified
+    item_number: 6
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-7
+    type: kou
+    text: 当該品目の形状、構造及び原理
+    modality: unspecified
+    item_number: 7
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-8
+    type: kou
+    text: 当該品目の反応系に関与する成分（体外診断用医薬品に限る。）
+    modality: unspecified
+    item_number: 8
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-9
+    type: kou
+    text: 当該品目の使用目的又は効果
+    modality: unspecified
+    item_number: 9
+  - id: yakkihou-shikoukisoku-art-117-p1-kou-10
+    type: kou
+    text: 当該品目の使用方法
+    modality: unspecified
+    item_number: 10
 - number: 2
   has_proviso: false
   has_items: true
@@ -30,6 +80,16 @@ paragraphs:
     type: hashira
     text: 外国指定高度管理医療機器製造等事業者に係る令第四十二条に規定する基準適合性認証に関する台帳に記載する事項は、第一項に掲げるもののほか、次のとおりとする。
     modality: gimu
+  - id: yakkihou-shikoukisoku-art-117-p2-kou-1
+    type: kou
+    text: 法第二十三条の三第一項の規定により選任された製造販売業者（以下「選任外国製造指定高度管理医療機器等製造販売業者」という。）の氏名及び住所
+    modality: unspecified
+    item_number: 1
+  - id: yakkihou-shikoukisoku-art-117-p2-kou-2
+    type: kou
+    text: 当該選任外国製造指定高度管理医療機器等製造販売業者が受けている製造販売業の許可の種類及び許可番号
+    modality: unspecified
+    item_number: 2
 - number: 3
   has_proviso: false
   has_items: false
@@ -59,15 +119,36 @@ parent_section:
 
 ### 第百十七条第一項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-117-p1-hashira -->
 令第四十二条に規定する基準適合性認証に関する台帳に記載する事項は、次のとおりとする。
+
+一　認証番号及び認証年月日
+
+二　基準適合性認証を受けた者の氏名及び住所
+
+三　基準適合性認証を受けた者（外国指定高度管理医療機器製造等事業者を除く。）の製造販売業の許可の種類及び許可番号
+
+四　当該品目の製造所の名称
+
+五　当該品目の製造所が受けている製造業者又は医療機器等外国製造業者の登録番号
+
+六　当該品目の名称
+
+七　当該品目の形状、構造及び原理
+
+八　当該品目の反応系に関与する成分（体外診断用医薬品に限る。）
+
+九　当該品目の使用目的又は効果
+
+十　当該品目の使用方法
 
 ### 第百十七条第二項
 
-<!-- segment: hashira id: yakkihou-shikoukisoku-art-117-p2-hashira -->
 外国指定高度管理医療機器製造等事業者に係る令第四十二条に規定する基準適合性認証に関する台帳に記載する事項は、第一項に掲げるもののほか、次のとおりとする。
+
+一　法第二十三条の三第一項の規定により選任された製造販売業者（以下「選任外国製造指定高度管理医療機器等製造販売業者」という。）の氏名及び住所
+
+二　当該選任外国製造指定高度管理医療機器等製造販売業者が受けている製造販売業の許可の種類及び許可番号
 
 ### 第百十七条第三項
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-117-p3 -->
 登録認証機関は、前二項の台帳の全部又は一部を当該登録認証機関の使用に係る電子計算機に備えられたファイルに記録する方法又は電磁的記録媒体をもつて調製するファイルに記録する方法により作成することができる。

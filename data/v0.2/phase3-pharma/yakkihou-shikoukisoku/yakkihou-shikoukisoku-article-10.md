@@ -37,5 +37,4 @@ parent_section:
 
 ### 第十条
 
-<!-- segment: simple id: yakkihou-shikoukisoku-art-10-p1 -->
 法第六条ただし書の規定により、薬局の名称を付することができる場所は、病院又は診療所の調剤所とする。

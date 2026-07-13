@@ -48,10 +48,8 @@ parent_section:
 
 ### 第十三条第一項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-13-p1 -->
 審判手続においては、日本語を用いる。
 
 ### 第十三条第二項
 
-<!-- segment: simple id: kinsho-kachoukin-furei-art-13-p2 -->
 審判手続に関与する者が日本語に通じないときは、通訳人を立ち会わせる。

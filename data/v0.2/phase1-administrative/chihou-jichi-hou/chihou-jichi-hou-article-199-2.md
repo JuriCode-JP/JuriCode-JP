@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: chihou-jichi-hou-art-199-2-p1
+    type: simple
+    text: 監査委員は、自己若しくは父母、祖父母、配偶者、子、孫若しくは兄弟姉妹の一身上に関する事件又は自己若しくはこれらの者の従事する業務に直接の利害関係のある事件については、監査することができない。
+    modality: kanou_negative
 cases: []
 amendments: []
 tags:

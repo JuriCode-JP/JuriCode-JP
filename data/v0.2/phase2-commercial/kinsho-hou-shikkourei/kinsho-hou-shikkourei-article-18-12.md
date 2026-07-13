@@ -16,7 +16,11 @@ paragraphs:
   has_proviso: false
   has_items: false
   is_added_by_amendment: false
-  segments: []
+  segments:
+  - id: kinsho-hou-shikkourei-art-18-12-p1
+    type: simple
+    text: 法第七十九条の五十七第三項に規定する政令で定める金額は、千万円とする。
+    modality: gimu
 cases: []
 amendments: []
 tags:
