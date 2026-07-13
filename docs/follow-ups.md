@@ -1006,6 +1006,38 @@ articles — they can occupy several top-K slots (observed: one query's top-5 he
 
 Scope: not this sprint. File only.
 
+### [ ] FU-554: Consolidate canonicalization into a single shared implementation (2026-07-13 added)
+
+**Context**: `packages/juricode-verifier` ships `verify_text_hash(canonical_text, expected_sha256)`
+as a pure comparison; canonicalization deliberately stays OUT of the package. Today the
+canonical-text definition lives in `tools/parse/_canonicalize.py` (used by `tools/parse/verify.py`,
+which guards the round-trip manifests in CI), and `juricode_shared/text_norm.py` (FU-513) holds a
+separate retrieval-side normalization. A consumer that wants to hash-verify corpus text against
+`_source-manifest.json` must currently replicate the parse-side canonicalization.
+
+**To do (when a second consumer appears, e.g. an MCP citation-verification endpoint)**: expose the
+parse-side canonicalization as an importable function (likely under `juricode_shared`) WITHOUT
+changing its behavior (round-trip manifests must stay byte-identical), and document it as the
+required preprocessing for `verify_text_hash`. Do not move it into juricode-verifier (the verifier
+stays domain- and pipeline-independent).
+
+**Related**: FU-513 (text_norm consolidation precedent) / FU-555 (chunk-level hashes).
+
+### [ ] FU-555: Chunk-level content hashes, designed together with the canonical-ID registry (2026-07-13 added)
+
+**Context**: `_source-manifest.json` locks sha256 per ARTICLE (`ja_text_sha256`), not per chunk.
+Retrieval chunks are derived (split/augmented) from articles, so a chunk body cannot be verified
+directly against the manifest today; the verification chain is quote -> chunk (G2, byte substring)
+-> provided hits (G1) -> article hash (`verify_text_hash`, requires the article canonical text).
+A chunk-level hash would let a consumer verify a chunk body without reconstructing the article.
+
+**To do**: design chunk-level hashes TOGETHER with the canonical-ID registry work (a single place
+that says which chunk_id is authoritative and what its content hash is). Do not add a second,
+ad-hoc hash field before that design exists (it would create a dual-management problem with the
+manifests).
+
+**Related**: FU-554 (canonicalization) / FU-517 (duplicate chunk_ids) / FU-518 (embedding provenance).
+
 ### [ ] FU-201: `ParentSection` を多言語対応構造に変更
 
 **現状**: `hen: int + hen_name_ja + hen_name_en` flat 構造. 中国語・韓国語追加時にフィールドが増殖.
