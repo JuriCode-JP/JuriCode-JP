@@ -44,12 +44,12 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO = SCRIPT_DIR.parents[1]
 if str(SCRIPT_DIR) not in sys.path:
     sys.path.insert(0, str(SCRIPT_DIR))
-_SHARED_SRC = REPO / "tools" / "shared" / "src"
-if str(_SHARED_SRC) not in sys.path:
-    sys.path.insert(0, str(_SHARED_SRC))
+for _extra in (REPO / "tools" / "shared" / "src", REPO / "packages" / "juricode-verifier" / "src"):
+    if str(_extra) not in sys.path:
+        sys.path.insert(0, str(_extra))
 
 import guards as G  # noqa: E402  (numpy-free at import time)
-import snap as SNAP  # noqa: E402
+import juricode_verifier as JV  # noqa: E402  (core: snap / valid_citations_only)
 
 MAX_BODY_BYTES = 256 * 1024  # query text only (DOS guard)
 _LOOPBACK = frozenset({"127.0.0.1", "localhost", "::1"})
@@ -394,7 +394,7 @@ def _build_fallback(
     out = {
         "verdict": G.VERDICT_INSUFFICIENT,
         "answer": INSUFFICIENT_ANSWER,
-        "citations": G.valid_citations_only(prev.get("citations") or [], allowed, chunk_texts),
+        "citations": JV.valid_citations_only(prev.get("citations") or [], allowed, chunk_texts),
         "disclaimer_tense": prev.get("disclaimer_tense") or DEFAULT_DISCLAIMER,
         "insufficient_reason": f"guard violations remained after regeneration: {reason_codes}",
     }
@@ -467,7 +467,7 @@ def run_chat(
             cid = c.get("chunk_id")
             anchor = c.get("anchor") or ""
             body = chunk_texts.get(cid)
-            quote = SNAP.snap_quote(anchor, body) if body is not None else None
+            quote = JV.snap_quote(anchor, body) if body is not None else None
             m = chunk_meta.get(cid, {})
             cits.append(
                 {
