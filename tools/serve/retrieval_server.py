@@ -248,6 +248,14 @@ class RetrievalService:
         self._pipeline = R.RetrievalPipeline(state, records)
         self._base_keys = self._pipeline._dedup_keys
 
+        # fold precompute (§3.6 P2): dedup キー列を fold OFF/ON 両方で起動時に構築し、
+        # リクエスト毎の build_dedup_keys 再構築 (+16ms) を解消する。挙動不変 (同関数の
+        # 出力を起動時にキャッシュするだけ)。retrieve() は fold 値でこの 2 本から選ぶ。
+        self._keys_fold_off: list[str] = list(self._base_keys)
+        self._keys_fold_on: list[str] = build_dedup_keys(
+            self._base_keys, self.chunk_ids, self.layers, fold=True
+        )
+
         # 事前正規化 (常駐サービスの標準形。server.py と同じ)。_cosine_topk と同一の正規化式で
         # corpus を 1 回だけ正規化し、クエリ時は正規化クエリとの内積 + argsort に落とす。
         # 結果は _cosine_topk と数学的に同一 (T6 が S 相当の等価ゲートとして保証する)。
@@ -300,7 +308,8 @@ class RetrievalService:
         idx_list = filter_row_by_layers(idx_list, self.layers, target_layers)
 
         if dedup:
-            keys = build_dedup_keys(self._base_keys, self.chunk_ids, self.layers, fold)
+            # 起動時 precompute 済みのキー列を選ぶ (build_dedup_keys の出力と同一・挙動不変)。
+            keys = self._keys_fold_on if fold else self._keys_fold_off
             deduped = self._R.dedup_by_article(np.array([idx_list], dtype=np.int64), keys, top_k)
             final = [int(i) for i in deduped[0] if int(i) >= 0]
         else:
