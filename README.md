@@ -135,11 +135,33 @@ Currently in **Phase 1 — v0.2.0 released**. Among the Phase 1 strategic target
 | Phase 1 法令スコープ(警察・行政・民事・税・商事・労働・薬機 = **43 法令**) | ✅ [data/](data/) |
 | データ本体(条文構造化) | ✅ **11,758 条 / 43 法令** 投入済(2026-05-22 v0.2.0、当初 Phase 1 約束 75 条比 **約 157 倍**)|
 | **v0.2.0 segment-aware corpus** | ✅ **63,246 chunks** (各号 14,868 + 附則 ~5,000 + rollup 6,948 + segments) |
+| **XML ↔ 正本 忠実性ゲート (G0)** | ✅ [tools/parse/v0.2/g0_fidelity_gate.py](tools/parse/v0.2/g0_fidelity_gate.py) — e-Gov XML と canonical corpus を突合 (空白畳み込み後の完全一致) |
 | **v0.2.0 仕様書** | ✅ [docs/format-spec-v0.2.md](docs/format-spec-v0.2.md) |
 | **附則 (SupplProvision) 抽出** | ✅ [tools/parse/v0.2/extract_supplproviso_from_xml.py](tools/parse/v0.2/extract_supplproviso_from_xml.py) (topic 分類 + target_main_articles 抽出 + 元号→西暦変換) |
 | **各号 (kou) 復元** | ✅ [tools/parse/v0.2/extract_kou_from_xml.py](tools/parse/v0.2/extract_kou_from_xml.py) |
 | **本則 rollup chunks** | ✅ [tools/parse/v0.2/add_rollup_chunks.py](tools/parse/v0.2/add_rollup_chunks.py) |
 | **自治体 RAG benchmark R@1 = 68.6%** | ✅ v0.1 baseline (65.7%) を超え達成 |
+
+### 収録範囲と、まだ収録していないもの / Scope and known gaps
+
+**JA** — canonical corpus (`data/v0.2/`) の単位は **本則の「条」** です。各条の本文は、
+e-Gov 法令 XML の条文本文と**空白の畳み込みを除いて完全に一致**することを、
+[G0 忠実性ゲート](tools/parse/v0.2/g0_fidelity_gate.py) で全条について機械検証しています
+(項・号・細別・ただし書・条文内の表を含む)。
+
+一方で、**次のものは canonical corpus にまだ収録していません**。隠さずに明記します。
+
+| 未収録のもの | 状況 |
+|---|---|
+| **別表・附録 (`AppdxTable` 等、1,150 個)** | 条に属さない法令レベルの要素のため、条ファイルの生成対象外。単位設計から必要 ([FU-556](docs/follow-ups.md)) |
+| **附則 (`SupplProvision`) の本文** | retrieval chunk としては存在するが、canonical md には無い ([FU-557](docs/follow-ups.md)) |
+| **英訳** | 大半の条が未訳 (`translation_status: none`) |
+
+**EN** — The canonical corpus is organized by **article of the main provisions**. Every article body is
+machine-verified to match the e-Gov XML exactly (modulo whitespace collapsing) by the
+[G0 fidelity gate](tools/parse/v0.2/g0_fidelity_gate.py), including paragraphs, items, sub-items,
+provisos and in-article tables. **Appended tables (1,150) and the text of supplementary provisions are
+not yet in the canonical corpus** — see FU-556 / FU-557. Most articles are not yet translated.
 
 ### ドキュメント / Documentation
 - **[docs/format-spec-v0.2.md](docs/format-spec-v0.2.md)** — **v0.2 仕様書** (segment-aware + 附則 + rollup、2026-05-22)

@@ -1038,6 +1038,49 @@ manifests).
 
 **Related**: FU-554 (canonicalization) / FU-517 (duplicate chunk_ids) / FU-518 (embedding provenance).
 
+### [ ] FU-556: 別表 (Appdx*) が canonical corpus に存在しない (2026-07-14 追加)
+
+**現状**: e-Gov XML の `LawBody` 直下にある **別表・附録 (`AppdxTable` / `AppdxNote` / `AppdxStyle` 等) 1,150 個**
+は、`data/v0.2/` の canonical corpus に **1 件も収録されていない**。corpus の単位が「条 (Article)」であり、
+別表は条に属さない law-level の要素なので、条ファイルの生成対象から構造的に外れている。
+
+**なぜ今まで見えなかったか**: `verify.py` は md ↔ manifest の自己整合しか見ず、manifest は
+「収録した条」だけを列挙するため、**最初から取り込んでいないものは欠落として現れない**。
+G0-a 忠実性ゲート (`tools/parse/v0.2/g0_fidelity_gate.py`, 2026-07-13) が XML を ground truth として
+突合したことで初めて数として出た。
+
+**影響**: 別表を参照する条 (「別表第一に掲げる…」) の retrieval で、参照先の実体が corpus に無い。
+税法・地方税法・薬機法で特に多い。
+
+**やること**:
+1. 別表の単位設計を決める (1 別表 = 1 ファイルか、法令ごとに 1 ファイルにまとめるか)。
+   条 (`article_number` pattern `^[0-9]+(-[0-9]+)*$`) には収まらないので、`article_id` 体系の拡張が要る。
+2. round-trip 検証 (manifest hash) の対象に含める。
+3. retrieval chunk を作る (表は既に `table_core` で GFM 直列化できる)。
+
+**留意**: **収録していないことを隠さない**。当面 README に「別表は canonical corpus に未収録」と明記する
+(2026-07-14 実施済)。
+
+**関連**: G0-a ゲート / FU-557 (附則本文) — どちらも「条以外の law-level 要素が corpus に無い」同型の欠落。
+
+---
+
+### [ ] FU-557: 附則 (SupplProvision) の本文が canonical corpus に存在しない (2026-07-14 追加)
+
+**現状**: 附則は **retrieval chunk (`{law}-supplproviso.chunks.jsonl`) にはあるが、canonical md には無い**。
+つまり「chunk にはあるが正本には無い」= 2026-07-13 に号 (kou) で解消したのと**同型の乖離**が附則に残っている。
+
+**なぜ問題か**: 正本 (`data/v0.2/`) が「我々が法令だと言っているもの」である以上、そこに無いものを
+chunk が返すと、出典検証 (quote → chunk → article hash) の鎖が附則で切れる。また G0-c
+(chunk ⊂ 親条文本文) を附則 chunk に適用できない (親が存在しない)。
+
+**やること**: FU-556 (別表) と**同じ単位設計の議論**に載せる。附則は本則条文とは別の階層 (改正法ごとの
+附則) を持つので、`article_id` 体系と manifest の構造を一緒に決める必要がある。
+
+**関連**: FU-556 (別表) / `extract_supplproviso_from_xml.py` / G0-c。
+
+---
+
 ### [ ] FU-201: `ParentSection` を多言語対応構造に変更
 
 **現状**: `hen: int + hen_name_ja + hen_name_en` flat 構造. 中国語・韓国語追加時にフィールドが増殖.
