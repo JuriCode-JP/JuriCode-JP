@@ -47,10 +47,11 @@ jobs:
           pip install -e ".[dev]"
 
       - name: Ruff (lint)
-        run: ruff check tools/
+        # 2026-07-13: packages/ (juricode-verifier) を lint 対象に追加.
+        run: ruff check tools/ packages/
 
       - name: Ruff (format check)
-        run: ruff format --check tools/
+        run: ruff format --check tools/ packages/
 
       - name: Pytest (all workspace packages)
         # 2026-05-25: tools/parse/v0.2/tests と manifest/tests を追加.
@@ -64,10 +65,13 @@ jobs:
         # (tools/parse/tests/fixtures/taxanswer-tsutatsu-corpus.min.jsonl) をテストが
         # 注入することで build/chunks 非依存になった (ロック済期待値は不変).
         # PYTHONPATH を明示し juricode_shared 解決を rootdir 依存から切り離す (belt-and-suspenders).
+        # 2026-07-13: juricode-verifier (packages/) の tests を追加し、serve の
+        # test_snap.py は同パッケージへ移設 (tools/serve/tests/test_snap.py は削除).
+        # PYTHONPATH に packages/juricode-verifier/src を追加 (guards.py が import する).
         env:
-          PYTHONPATH: tools/shared/src
+          PYTHONPATH: "tools/shared/src:packages/juricode-verifier/src"
         run: |
-          pytest tools/shared/tests tools/validate/tests tools/parse/tests/test_tsutatsu_byte_regression.py tools/parse/tests/test_shouhi_tsutatsu.py tools/parse/tests/test_tsutatsu_multichapter.py tools/parse/tests/test_sochi_hojin_tsutatsu.py tools/parse/tests/test_sochi_joto_tsutatsu.py tools/parse/tests/test_sochi_shotoku_tsutatsu.py tools/parse/tests/test_sochi_sozoku_tsutatsu.py tools/parse/tests/test_sochi_kabushiki_tsutatsu.py tools/parse/tests/test_sochi_gensen_tsutatsu.py tools/parse/tests/test_sochi_40jou_tsutatsu.py tools/parse/tests/test_taxanswer_related.py tools/parse/tests/test_sochi_promotion_guards.py tools/parse/tests/test_kfs_saiketsu.py tools/parse/tests/test_kfs_eda_ban_regression.py tools/parse/tests/test_kfs_multi_article.py tools/parse/tests/test_kfs_appendix_amend_guard.py tools/parse/tests/test_hojin_rulings_store.py tools/parse/tests/test_hojin_precedents_store.py tools/parse/tests/test_keihou_precedents_store.py tools/parse/tests/test_sozoku_rulings_store.py tools/parse/tests/test_shohi_rulings_store.py tools/parse/tests/test_shotoku_rulings_store.py tools/parse/tests/test_kokutsu_rulings_store.py tools/parse/tests/test_shotoku_corpus.py tools/parse/tests/test_souzoku_corpus.py tools/parse/tests/test_hyoka_corpus.py tools/parse/tests/test_hojin_taxanswer_corpus.py tools/parse/tests/test_sozoku_taxanswer_corpus.py tools/parse/tests/test_shohi_taxanswer_corpus.py tools/parse/tests/test_gensen_taxanswer_corpus.py tools/parse/tests/test_shotoku_taxanswer_corpus.py tools/parse/tests/test_joto_taxanswer_corpus.py tools/parse/tests/test_inshi_taxanswer_corpus.py tools/amendments/tests/test_shouhi_amendments.py tools/amendments/tests/test_souzoku_amendments.py tools/amendments/tests/test_houjin_amendments.py tools/amendments/tests/test_shotoku_amendments.py tools/amendments/tests/test_chain_hardening.py tools/amendments/tests/test_kokutsu_amendments.py tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests tools/search-ui/tests tools/fetch-egov/tests/test_tsutatsu_fetcher.py tools/embed/tests/test_v8_prep_audit.py tools/embed/tests/test_build_v8_corpus.py tools/embed/tests/test_filter_v8_embed.py tools/embed/tests/test_retrieve_dedup.py tools/serve/tests/test_retrieval_server.py tools/serve/tests/test_guards.py tools/serve/tests/test_chat_server.py tools/serve/tests/test_snap.py tools/scripts/tests/test_check_no_leaks.py -v
+          pytest packages/juricode-verifier/tests tools/shared/tests tools/validate/tests tools/parse/tests/test_tsutatsu_byte_regression.py tools/parse/tests/test_shouhi_tsutatsu.py tools/parse/tests/test_tsutatsu_multichapter.py tools/parse/tests/test_sochi_hojin_tsutatsu.py tools/parse/tests/test_sochi_joto_tsutatsu.py tools/parse/tests/test_sochi_shotoku_tsutatsu.py tools/parse/tests/test_sochi_sozoku_tsutatsu.py tools/parse/tests/test_sochi_kabushiki_tsutatsu.py tools/parse/tests/test_sochi_gensen_tsutatsu.py tools/parse/tests/test_sochi_40jou_tsutatsu.py tools/parse/tests/test_taxanswer_related.py tools/parse/tests/test_sochi_promotion_guards.py tools/parse/tests/test_kfs_saiketsu.py tools/parse/tests/test_kfs_eda_ban_regression.py tools/parse/tests/test_kfs_multi_article.py tools/parse/tests/test_kfs_appendix_amend_guard.py tools/parse/tests/test_hojin_rulings_store.py tools/parse/tests/test_hojin_precedents_store.py tools/parse/tests/test_keihou_precedents_store.py tools/parse/tests/test_sozoku_rulings_store.py tools/parse/tests/test_shohi_rulings_store.py tools/parse/tests/test_shotoku_rulings_store.py tools/parse/tests/test_kokutsu_rulings_store.py tools/parse/tests/test_shotoku_corpus.py tools/parse/tests/test_souzoku_corpus.py tools/parse/tests/test_hyoka_corpus.py tools/parse/tests/test_hojin_taxanswer_corpus.py tools/parse/tests/test_sozoku_taxanswer_corpus.py tools/parse/tests/test_shohi_taxanswer_corpus.py tools/parse/tests/test_gensen_taxanswer_corpus.py tools/parse/tests/test_shotoku_taxanswer_corpus.py tools/parse/tests/test_joto_taxanswer_corpus.py tools/parse/tests/test_inshi_taxanswer_corpus.py tools/amendments/tests/test_shouhi_amendments.py tools/amendments/tests/test_souzoku_amendments.py tools/amendments/tests/test_houjin_amendments.py tools/amendments/tests/test_shotoku_amendments.py tools/amendments/tests/test_chain_hardening.py tools/amendments/tests/test_kokutsu_amendments.py tools/parse/v0.2/tests tools/parse/v0.2/manifest/tests tools/search-ui/tests tools/fetch-egov/tests/test_tsutatsu_fetcher.py tools/embed/tests/test_v8_prep_audit.py tools/embed/tests/test_build_v8_corpus.py tools/embed/tests/test_filter_v8_embed.py tools/embed/tests/test_retrieve_dedup.py tools/serve/tests/test_retrieval_server.py tools/serve/tests/test_guards.py tools/serve/tests/test_chat_server.py tools/scripts/tests/test_check_no_leaks.py -v
 
       - name: Validate all law data files
         # 2026-05-25: data/phase1-*/ (v0.1) を archive/v0.1/ に deprecate 済.
@@ -113,7 +117,10 @@ jobs:
         # scan し、cp932-unsafe 文字 (em dash 等) がないことを assert.
         # Windows cp932 console での argparse `--help` UnicodeEncodeError crash を
         # 新規 script への再発から構造的に予防する (Layer 1 静的検査).
-        run: python tools/scripts/check-cp932-safe.py --path tools
+        # 2026-07-13: packages/ を追加 (--path は単一値のため 2 回呼ぶ).
+        run: |
+          python tools/scripts/check-cp932-safe.py --path tools
+          python tools/scripts/check-cp932-safe.py --path packages
 
       - name: Verify locked eval-set golden checksum (FU-515 D-b)
         # 2026-06-21 FU-515 D-b: G1-local / G3-sp の golden answer key

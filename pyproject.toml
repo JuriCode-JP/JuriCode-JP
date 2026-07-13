@@ -186,10 +186,15 @@ testpaths = [
     # 捏造改正0・point-in-time で未連結施行版 [2026-05-25/06-24] を非付与・アンカー版まで含む)。
     # ci.yml と本 testpaths の両所に配線する。CI-safe (committed fixture 依存)。
     "tools/amendments/tests/test_kokutsu_amendments.py",
+    # 2026-07-13: juricode-verifier (packages/) の unit tests。出典検証 core (snap / G1 / G2 /
+    # valid_citations_only / verify_text_hash) の正本。ci.yml の明示列挙と本 testpaths の
+    # 両所に配線する (登録漏れは既知の事故クラス)。
+    "packages/juricode-verifier/tests",
 ]
 pythonpath = [
     "tools/shared/src",
     "tools/validate",
+    "packages/juricode-verifier/src",
 ]
 # Don't auto-collect __pycache__ files left in mounted dirs.
 # --import-mode=importlib: 2026-05-25 追加. 複数の `tests/` ディレクトリが

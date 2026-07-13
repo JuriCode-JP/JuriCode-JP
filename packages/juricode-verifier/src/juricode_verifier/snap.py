@@ -1,22 +1,21 @@
-#!/usr/bin/env python3
-"""Server-side quote snapping for /chat citations (PoC P2, G2 v2).
+"""Server-side quote snapping: locate an LLM-provided anchor and cut the quote from the source.
 
-maintainer 裁定 (2026-07-13): G2 は緩めない。引用を LLM に打たせず、サーバーが原文から切り出す
-(= 引用は構造上必ず逐語一致)。本モジュールは LLM の anchor (引用したい箇所の目印) を
-原文中に位置特定し、その位置の「原文そのままのバイト列」を quote として返す純関数。
+Design rule: never let the LLM emit the quote itself. The LLM only names an anchor
+(a short verbatim marker of the passage it wants to cite); this module locates the
+anchor in the source body and returns the ORIGINAL bytes at that position as the
+quote. The quote is therefore verbatim by construction.
 
 不変条件 (破ったら失格・呼び出し側が fail-loud で検査):
     返す quote は必ず body の逐語部分文字列 (quote in body が常に真)。
     正規化は「位置特定のため」だけに使う。正規化済み文字列は返さない。
 
-位置特定できなければ None を返す (= 言い換え・幻覚・別チャンクからの引用)。呼び出し側は
-None を G2 違反 (anchor not locatable) として扱い、再生成 -> 情報不足へ落とす。
+位置特定できなければ None を返す (= 言い換え・幻覚・別ソースからの引用)。呼び出し側は
+None を「anchor not locatable」として扱い、その citation を落とす/再生成する。
 """
 
 from __future__ import annotations
 
 #: 引用の既定の最大文字数 (anchor 開始位置からの原文スライス上限)。
-#: 設計判断は execution plan の規定値に従う (自分で変えない)。
 DEFAULT_MAX_LEN = 200
 
 #: 文末・段落の境界。句点で終端 (句点を含める)、改行で終端 (改行は含めない)。
@@ -27,7 +26,7 @@ _PARAGRAPH_END = "\n"
 def _normalize(s: str) -> tuple[str, list[int]]:
     """空白 (半角/全角/タブ/改行) を除去した正規化文字列と、正規化 index -> 原文 index の対応を返す.
 
-    Why: コーパス原文には法令 XML 由来の空白・改行パディングがある。anchor と原文を空白を畳んだ
+    Why: ソース本文には XML 由来の空白・改行パディングがある。anchor と原文を空白を畳んだ
     上で照合することで、LLM が空白を一字一句再現できなくても位置特定できる。対応表 (idx_map) を
     持つことで、正規化上で見つけた位置を「原文のバイト位置」に必ず戻せる (返す引用は原文のまま)。
     """

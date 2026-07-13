@@ -1,8 +1,9 @@
 """Unit tests for the /chat machine verification layer (PoC P2, guards.py).
 
 Pure-Python (no numpy / no network): the guard functions are副作用なしの純関数なので
-CI がモックだけで走る。ここでは各ガード G1-G6 を単体で固定し、特に G3 禁止表現辞書の
-「各パターン」を網羅する (PoC P2 T4)。
+CI がモックだけで走る。ここでは policy ガード G3-G6 と、core (G1/G2) + policy を合成する
+run_all_guards を固定する。core (G1/G2/valid_citations_only/snap) の単体テストは
+packages/juricode-verifier/tests が正本 (本ファイルからは合成経由でのみ検査)。
 """
 
 from __future__ import annotations
@@ -13,48 +14,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 import guards as G  # noqa: E402
-
-# ---- G1: 出典実在 ----
-
-
-def test_g1_rejects_unknown_chunk_id():
-    v = G.check_citations_exist([{"chunk_id": "ghost"}], allowed_chunk_ids={"real-1"})
-    assert [x.code for x in v] == ["G1"]
-
-
-def test_g1_accepts_known_chunk_id():
-    assert G.check_citations_exist([{"chunk_id": "real-1"}], {"real-1"}) == []
-
-
-# ---- G2 v2: サーバー切り出し quote の byte 検証 (内訳付き) ----
-
-
-def test_g2_accepts_server_cut_substring():
-    texts = {"c1": "第一条 この法律は正当防衛について定める。"}
-    v = G.check_quotes_verbatim([{"chunk_id": "c1", "quote": "正当防衛について定める"}], texts)
-    assert v == []
-
-
-def test_g2_anchor_not_locatable_when_quote_none():
-    # anchor が原文に位置特定できず quote=None -> "anchor not locatable" 区分の G2 違反。
-    texts = {"c1": "第一条 この法律は正当防衛について定める。"}
-    v = G.check_quotes_verbatim([{"chunk_id": "c1", "anchor": "言い換え", "quote": None}], texts)
-    assert [x.code for x in v] == ["G2"]
-    assert "anchor not locatable" in v[0].detail
-
-
-def test_g2_snapped_quote_mismatch_is_flagged_as_impl_bug():
-    # サーバー切り出しが原文に無い (= 構造上あり得ないはずのバグ) -> "snapped_quote_mismatch"。
-    texts = {"c1": "第一条 この法律は正当防衛について定める。"}
-    v = G.check_quotes_verbatim([{"chunk_id": "c1", "quote": "原文にない語"}], texts)
-    assert [x.code for x in v] == ["G2"]
-    assert "snapped_quote_mismatch" in v[0].detail
-
-
-def test_g2_rejects_when_body_missing():
-    v = G.check_quotes_verbatim([{"chunk_id": "c1", "quote": "x"}], chunk_texts={})
-    assert [x.code for x in v] == ["G2"]
-
 
 # ---- G3: 断定禁止 (禁止表現辞書の各パターンを網羅・T4) ----
 
@@ -161,12 +120,21 @@ def test_run_all_guards_bad_verdict_flags_g3():
     assert any(x.code == "G3" for x in v)
 
 
-def test_valid_citations_only_keeps_grounded():
-    texts = {"c1": "本文AAA", "c2": "本文BBB"}
-    cits = [
-        {"chunk_id": "c1", "quote": "本文A"},  # ok
-        {"chunk_id": "ghost", "quote": "x"},  # G1 fail
-        {"chunk_id": "c2", "quote": "存在しない"},  # G2 fail
-    ]
-    kept = G.valid_citations_only(cits, {"c1", "c2"}, texts)
-    assert [c["chunk_id"] for c in kept] == ["c1"]
+def test_run_all_guards_composes_core_g1_g2():
+    # core (juricode_verifier) の G1/G2 が合成経由で効いていることの結線検査。
+    # (G1/G2 単体の網羅は packages/juricode-verifier/tests が正本。)
+    texts = {"c1": "第一条 この法律は正当防衛について定める。"}
+    v = G.run_all_guards(
+        verdict="該当",
+        answer="関連する規定があります。",
+        citations=[
+            {"chunk_id": "ghost", "quote": "x"},  # G1
+            {"chunk_id": "c1", "quote": "原文にない語"},  # G2
+        ],
+        disclaimer_tense="参照時点の法令に基づく情報です",
+        notice=G.TAX_LAW_BRIDGE,
+        allowed_chunk_ids={"c1"},
+        chunk_texts=texts,
+    )
+    codes = sorted(x.code for x in v)
+    assert codes == ["G1", "G2", "G2"]  # ghost は body 無しで G2 にも二重計上

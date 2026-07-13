@@ -6,9 +6,16 @@
 機械的に検査し、違反を構造化して返す。違反時の再生成/フォールバックは呼び出し側
 (chat_server) が担い、本モジュールは純関数の検査のみ (1 責務・副作用なし)。
 
+core / policy の線引き:
+    core (出典検証・ドメイン非依存) は packages/juricode-verifier (`juricode_verifier`) が正本。
+    G1 出典実在・G2 逐語引用・valid_citations_only・snap はそちらに在り、本モジュールは
+    税務チャット固有の policy (G3-G6) と、core + policy を合成するオーケストレータ
+    (run_all_guards) を持つ。「何を検査するか」の方針はアプリ側 (ここ)、検査の部品は
+    汎用パッケージ側、という責務分離。
+
 ガード一覧 (PoC P2 §3.3):
-    G1 出典実在   : citations[].chunk_id が「その回答で渡した hits の chunk_id 集合」の部分集合
-    G2 逐語引用   : サーバー切り出しの citations[].quote が原文の逐語部分文字列 (byte 一致・v2)
+    G1 出典実在   : citations[].chunk_id が「その回答で渡した hits の chunk_id 集合」の部分集合 (core)
+    G2 逐語引用   : サーバー切り出しの citations[].quote が原文の逐語部分文字列 (byte 一致・core)
     G3 断定禁止   : answer に禁止表現 (辞書) が 0 件
     G4 数値非生成 : answer に税額・金額パターンが 0 件 (P2 では計算しない)
     G5 時制注記   : disclaimer_tense が非空
@@ -21,7 +28,18 @@ Why 純関数: 検査を副作用なしの純関数に閉じることで、禁�
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+import sys
+from pathlib import Path
+
+_VERIFIER_SRC = Path(__file__).resolve().parents[2] / "packages" / "juricode-verifier" / "src"
+if str(_VERIFIER_SRC) not in sys.path:
+    sys.path.insert(0, str(_VERIFIER_SRC))
+
+from juricode_verifier import (  # noqa: E402
+    Violation,
+    check_citations_exist,
+    check_quotes_verbatim,
+)
 
 # =====================================================
 # 定数 (テストから参照する唯一の出所)
@@ -71,56 +89,11 @@ _FORBIDDEN_COMPILED: dict[str, re.Pattern[str]] = {
 _MONEY_COMPILED: list[re.Pattern[str]] = [re.compile(p) for p in MONEY_PATTERNS]
 
 
-@dataclass(frozen=True)
-class Violation:
-    """1 件のガード違反 (機械検査の結果)。code はガード ID、detail は人が読める根拠."""
-
-    code: str  # "G1".."G6"
-    detail: str
-
-
 # =====================================================
 # 個別ガード (純関数・副作用なし)
+# G1 (check_citations_exist) / G2 (check_quotes_verbatim) は juricode_verifier が正本
+# (本モジュール冒頭で import 済み。run_all_guards が合成する)。
 # =====================================================
-
-
-def check_citations_exist(citations: list[dict], allowed_chunk_ids: set[str]) -> list[Violation]:
-    """G1: 各 citation.chunk_id が「渡した hits の chunk_id 集合」に含まれることを検査.
-
-    Why: LLM が渡していない出典を捏造する事故を機械的に塞ぐ。allowed は /chunks で
-    本文を渡した chunk_id の集合 (= LLM が引用してよい唯一の集合)。
-    """
-    out: list[Violation] = []
-    for c in citations:
-        cid = c.get("chunk_id")
-        if cid not in allowed_chunk_ids:
-            out.append(Violation("G1", f"citation chunk_id not in provided hits: {cid!r}"))
-    return out
-
-
-def check_quotes_verbatim(citations: list[dict], chunk_texts: dict[str, str]) -> list[Violation]:
-    """G2 (v2): サーバーが切り出した citation.quote が原文の逐語部分文字列 (byte 一致) か検査.
-
-    Why (G2 v2・maintainer 裁定 2026-07-13): quote は LLM に打たせず、サーバーが anchor を原文に
-    位置特定して原文のバイト列を切り出す。ゆえに quote は構造上必ず原文の部分文字列になる。
-    検査は不変条件の確認であり、破れ方で内訳を分けて計上する (B4 監査):
-      - body 無し           -> "no body" (chunk_id が渡した hits に無い。G1 と二重に落ちる)
-      - quote 無し (None/空) -> "anchor not locatable" (anchor が言い換え・幻覚・別チャンク由来)
-      - quote が原文に無い   -> "snapped_quote_mismatch" (= 実装バグ。構造上 0 のはず・fail-loud)
-    """
-    out: list[Violation] = []
-    for c in citations:
-        cid = c.get("chunk_id")
-        quote = c.get("quote")
-        anchor = c.get("anchor") or ""
-        body = chunk_texts.get(cid)
-        if body is None:
-            out.append(Violation("G2", f"cannot verify quote; no body for chunk_id {cid!r}"))
-        elif not quote:
-            out.append(Violation("G2", f"anchor not locatable in {cid!r}: {anchor[:40]!r}"))
-        elif quote not in body:
-            out.append(Violation("G2", f"snapped_quote_mismatch in {cid!r} (implementation bug)"))
-    return out
 
 
 def scan_forbidden_assertions(answer: str) -> list[Violation]:
@@ -190,17 +163,3 @@ def run_all_guards(
     violations += check_disclaimer(disclaimer_tense)
     violations += check_tax_law_bridge(notice)
     return violations
-
-
-def valid_citations_only(
-    citations: list[dict], allowed_chunk_ids: set[str], chunk_texts: dict[str, str]
-) -> list[dict]:
-    """G1+G2 を通る citation だけを残す (情報不足フォールバック時に安全な出典のみ残すため)."""
-    kept: list[dict] = []
-    for c in citations:
-        cid = c.get("chunk_id")
-        quote = c.get("quote") or ""
-        body = chunk_texts.get(cid)
-        if cid in allowed_chunk_ids and body is not None and quote and quote in body:
-            kept.append(c)
-    return kept
