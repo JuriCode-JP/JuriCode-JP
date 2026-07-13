@@ -101,6 +101,36 @@ def test_llm_output_rejects_unknown_field():
         C.ChatLLMOutput(verdict="該当", answer="a", disclaimer_tense="d", bogus=1)
 
 
+def test_llm_citation_requires_anchor():
+    from pydantic import ValidationError
+
+    with pytest.raises(ValidationError):
+        C.LLMCitation(chunk_id="c1")  # anchor missing
+
+
+def test_llm_citation_takes_only_chunk_id_and_anchor():
+    from pydantic import ValidationError
+
+    with pytest.raises(ValidationError):
+        C.LLMCitation(chunk_id="c1", anchor="a", quote="x")  # quote not allowed on LLM side
+
+
+def test_quote_from_llm_is_ignored_server_snaps_from_anchor():
+    # T1: LLM が quote を混ぜて返しても無視され、サーバーが anchor から原文を切り出す。
+    fake, body = _fake_with_one_chunk()
+    out = {
+        "verdict": "該当",
+        "answer": "関連があります。",
+        "citations": [{"chunk_id": "c1", "anchor": body[:8], "quote": "GARBAGE-LLM-QUOTE"}],
+        "disclaimer_tense": "参照時点の情報です",
+        "insufficient_reason": None,
+    }
+    resp = C.run_chat("q", 10, fake, ScriptedProvider([out]))
+    assert resp.citations
+    assert resp.citations[0].quote != "GARBAGE-LLM-QUOTE"
+    assert resp.citations[0].quote in body  # server-cut verbatim
+
+
 # =====================================================
 # T7: target_layers 決定論ルール
 # =====================================================
@@ -151,7 +181,7 @@ def _bad_g1_output():
     return {
         "verdict": "該当",
         "answer": "関連があります。",
-        "citations": [{"chunk_id": "ghost", "quote": "x"}],  # 渡していない chunk_id
+        "citations": [{"chunk_id": "ghost", "anchor": "x"}],  # 渡していない chunk_id
         "disclaimer_tense": "参照時点の情報です",
         "insufficient_reason": None,
     }
@@ -173,21 +203,42 @@ def test_g1_fabricated_citation_falls_back_to_insufficient():
 
 
 # =====================================================
-# T3: G2 非逐語引用 -> 拒否
+# T3: 言い換え anchor -> 位置特定できず G2 -> 情報不足
 # =====================================================
 
 
-def test_g2_non_verbatim_quote_falls_back():
+def test_g2_paraphrase_anchor_not_locatable_falls_back():
     fake, _ = _fake_with_one_chunk()
     bad = {
         "verdict": "該当",
         "answer": "関連があります。",
-        "citations": [{"chunk_id": "c1", "quote": "本文に無い要約テキスト"}],
+        "citations": [{"chunk_id": "c1", "anchor": "本文に無い言い換え表現"}],
         "disclaimer_tense": "参照時点の情報です",
         "insufficient_reason": None,
     }
     prov = ScriptedProvider([bad, bad])
     resp = C.run_chat("q", 10, fake, prov)
+    assert resp.verdict == G.VERDICT_INSUFFICIENT
+    g2 = [x for x in resp.guard_report.attempts[0] if x["code"] == "G2"]
+    assert g2 and "anchor not locatable" in g2[0]["detail"]
+
+
+# =====================================================
+# T4: 別チャンク由来の anchor -> その chunk_id の原文に無い -> G2
+# =====================================================
+
+
+def test_g2_wrong_chunk_anchor_not_locatable():
+    # anchor は実在の法令文だが、cite した chunk_id (c1=刑法) の本文には無い -> 位置特定不能。
+    fake, _ = _fake_with_one_chunk(body="第一条 この法律は正当防衛について定める。")
+    bad = {
+        "verdict": "該当",
+        "answer": "関連があります。",
+        "citations": [{"chunk_id": "c1", "anchor": "法人税基本通達9-2-9の低廉譲渡"}],
+        "disclaimer_tense": "参照時点の情報です",
+        "insufficient_reason": None,
+    }
+    resp = C.run_chat("q", 10, fake, ScriptedProvider([bad, bad]))
     assert resp.verdict == G.VERDICT_INSUFFICIENT
     assert any(x["code"] == "G2" for x in resp.guard_report.attempts[0])
 
@@ -202,7 +253,7 @@ def test_regeneration_recovers_without_fallback():
     good = {
         "verdict": "該当",
         "answer": "関連する規定があります。",
-        "citations": [{"chunk_id": "c1", "quote": body[:10]}],
+        "citations": [{"chunk_id": "c1", "anchor": body[:10]}],
         "disclaimer_tense": "参照時点の情報です",
         "insufficient_reason": None,
     }
@@ -224,7 +275,7 @@ def test_g4_g5_violations_fall_back():
     bad = {
         "verdict": "該当",
         "answer": "必ず50万円が否認されます。",  # G3(必ず,否認され) + G4(50万円)
-        "citations": [{"chunk_id": "c1", "quote": body[:10]}],
+        "citations": [{"chunk_id": "c1", "anchor": body[:10]}],
         "disclaimer_tense": "",  # G5
         "insufficient_reason": None,
     }

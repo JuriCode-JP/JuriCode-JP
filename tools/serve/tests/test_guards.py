@@ -26,19 +26,29 @@ def test_g1_accepts_known_chunk_id():
     assert G.check_citations_exist([{"chunk_id": "real-1"}], {"real-1"}) == []
 
 
-# ---- G2: 逐語引用 (正規化なしの部分文字列一致) ----
+# ---- G2 v2: サーバー切り出し quote の byte 検証 (内訳付き) ----
 
 
-def test_g2_rejects_non_substring_quote():
-    texts = {"c1": "第一条 この法律は正当防衛について定める。"}
-    v = G.check_quotes_verbatim([{"chunk_id": "c1", "quote": "存在しない要約"}], texts)
-    assert [x.code for x in v] == ["G2"]
-
-
-def test_g2_accepts_verbatim_substring():
+def test_g2_accepts_server_cut_substring():
     texts = {"c1": "第一条 この法律は正当防衛について定める。"}
     v = G.check_quotes_verbatim([{"chunk_id": "c1", "quote": "正当防衛について定める"}], texts)
     assert v == []
+
+
+def test_g2_anchor_not_locatable_when_quote_none():
+    # anchor が原文に位置特定できず quote=None -> "anchor not locatable" 区分の G2 違反。
+    texts = {"c1": "第一条 この法律は正当防衛について定める。"}
+    v = G.check_quotes_verbatim([{"chunk_id": "c1", "anchor": "言い換え", "quote": None}], texts)
+    assert [x.code for x in v] == ["G2"]
+    assert "anchor not locatable" in v[0].detail
+
+
+def test_g2_snapped_quote_mismatch_is_flagged_as_impl_bug():
+    # サーバー切り出しが原文に無い (= 構造上あり得ないはずのバグ) -> "snapped_quote_mismatch"。
+    texts = {"c1": "第一条 この法律は正当防衛について定める。"}
+    v = G.check_quotes_verbatim([{"chunk_id": "c1", "quote": "原文にない語"}], texts)
+    assert [x.code for x in v] == ["G2"]
+    assert "snapped_quote_mismatch" in v[0].detail
 
 
 def test_g2_rejects_when_body_missing():

@@ -49,6 +49,7 @@ if str(_SHARED_SRC) not in sys.path:
     sys.path.insert(0, str(_SHARED_SRC))
 
 import guards as G  # noqa: E402  (numpy-free at import time)
+import snap as SNAP  # noqa: E402
 
 MAX_BODY_BYTES = 256 * 1024  # query text only (DOS guard)
 _LOOPBACK = frozenset({"127.0.0.1", "localhost", "::1"})
@@ -110,25 +111,38 @@ class ChatRequest(BaseModel):
     target_layers: list[str] | None = None
 
 
+class LLMCitation(BaseModel):
+    """LLM が返す引用指定。LLM は chunk_id と anchor (引用したい箇所の目印) だけを打つ。
+    quote (逐語引用) は LLM に打たせず、サーバーが原文から切り出す (G2 v2)."""
+
+    model_config = ConfigDict(extra="forbid", frozen=True)
+
+    chunk_id: str
+    anchor: str
+
+
 class Citation(BaseModel):
+    """最終応答の引用。quote は必ずサーバーが原文から切り出したバイト列 (LLM 出力ではない)."""
+
     model_config = ConfigDict(extra="forbid", frozen=True)
 
     chunk_id: str
     layer: str | None = None
     law_name_ja: str | None = None
     article_number: str | None = None
+    anchor: str
     quote: str
 
 
 class ChatLLMOutput(BaseModel):
     """LLM が返す構造化出力 (response_schema)。tax_practitioner_notice は含めない
-    (橋渡し文は server がテンプレ挿入するため LLM に生成させない)."""
+    (橋渡し文は server がテンプレ挿入するため LLM に生成させない)。引用は anchor のみ."""
 
     model_config = ConfigDict(extra="forbid", frozen=True)
 
     verdict: Literal["該当", "非該当", "情報不足"]
     answer: str
-    citations: list[Citation] = Field(default_factory=list)
+    citations: list[LLMCitation] = Field(default_factory=list)
     disclaimer_tense: str
     insufficient_reason: str | None = None
 
@@ -181,7 +195,9 @@ SYSTEM_PROMPT = (
     "あなたは日本の税務・法令の調査補助です。渡された出典本文の範囲だけで回答します。\n"
     "厳守事項:\n"
     "1. 出典は渡された chunk のみ引用する。存在しない出典を作らない。\n"
-    "2. citations[].quote は渡された本文からの逐語 (完全一致) の抜粋にする。要約や言い換えを quote に入れない。\n"
+    "2. citations[] には chunk_id と anchor だけを書く。anchor は引用したい箇所の目印として、"
+    "渡された本文に実在する連続した文字列 (先頭 20〜60 字程度) をそのまま写す。"
+    "要約・言い換え・別 chunk の文言を anchor にしない (引用本文はサーバーが原文から切り出す)。\n"
     "3. 断定・保証をしない (必ず/確実に/問題ありません 等を使わない)。可能性・根拠の提示に留める。\n"
     "4. 税額・金額 (円/万円/億円) を計算・生成しない。数値判断は行わない。\n"
     "5. verdict は 該当 / 非該当 / 情報不足 の 3 値のみ。根拠が不十分なら 情報不足。\n"
@@ -193,8 +209,8 @@ SYSTEM_PROMPT = (
 class MockProvider:
     """決定論の fake provider (API キー・ネットワーク不要・CI 用).
 
-    Why: CI はモックで走る (§3.5)。渡された context の先頭 chunk を逐語引用して
-    ガードを通る grounded 回答を返す。context が空なら 情報不足 を返す。
+    Why: CI はモックで走る (§3.5)。渡された context の先頭 chunk の実在する文字列を anchor に
+    して、ガードを通る grounded 回答を返す。context が空なら 情報不足 を返す。
     """
 
     name = "mock"
@@ -210,22 +226,14 @@ class MockProvider:
             }
         top = context[0]
         body = top.get("text") or ""
-        quote = body[:40] if body else ""
+        anchor = body[:24] if body else ""
         return {
             "verdict": "該当",
             "answer": (
                 "渡された出典に関連する記述が見られます。詳細は引用の本文をご確認ください"
                 "(以下は根拠箇所の抜粋です)。"
             ),
-            "citations": [
-                {
-                    "chunk_id": top.get("chunk_id"),
-                    "layer": top.get("layer"),
-                    "law_name_ja": top.get("law_name_ja"),
-                    "article_number": top.get("article_number"),
-                    "quote": quote,
-                }
-            ],
+            "citations": [{"chunk_id": top.get("chunk_id"), "anchor": anchor}],
             "disclaimer_tense": DEFAULT_DISCLAIMER,
             "insufficient_reason": None,
         }
@@ -282,8 +290,8 @@ def _gemini_response_schema():
 
     Why: Pydantic モデル (extra='forbid') をそのまま response_schema に渡すと
     additionalProperties が付与され Gemini の OpenAPI サブセットが 400 で弾く。
-    ChatLLMOutput / Citation と同じ形を、Gemini が受ける型で手組みする (フィールドは
-    両者一致を保つこと)。返り JSON は json.loads 後に Citation(**c) 等で最終検証される。
+    ChatLLMOutput / LLMCitation と同じ形を、Gemini が受ける型で手組みする (フィールドは
+    両者一致を保つこと)。citation は chunk_id + anchor のみ (quote はサーバー切り出し)。
     """
     from google.genai import types as T
 
@@ -291,12 +299,9 @@ def _gemini_response_schema():
         type=T.Type.OBJECT,
         properties={
             "chunk_id": T.Schema(type=T.Type.STRING),
-            "layer": T.Schema(type=T.Type.STRING, nullable=True),
-            "law_name_ja": T.Schema(type=T.Type.STRING, nullable=True),
-            "article_number": T.Schema(type=T.Type.STRING, nullable=True),
-            "quote": T.Schema(type=T.Type.STRING),
+            "anchor": T.Schema(type=T.Type.STRING),
         },
-        required=["chunk_id", "quote"],
+        required=["chunk_id", "anchor"],
     )
     return T.Schema(
         type=T.Type.OBJECT,
@@ -441,6 +446,40 @@ def run_chat(
         }
         for c in ctx_chunks
     ]
+    chunk_meta = {
+        c["chunk_id"]: {
+            "layer": c.get("layer"),
+            "law_name_ja": c.get("law_name_ja"),
+            "article_number": c.get("article_number"),
+        }
+        for c in ctx_chunks
+    }
+
+    def _enrich(o: dict) -> dict:
+        """LLM 出力 (chunk_id + anchor) を、サーバー切り出しの quote + メタ付き citation に変換.
+
+        Why (G2 v2): 引用文は LLM に打たせず、anchor を原文に位置特定して原文のバイト列を quote に
+        する。位置特定できなければ quote=None (G2 で anchor not locatable として落ちる)。返る quote は
+        必ず原文の逐語部分文字列 (snap_quote の不変条件)。
+        """
+        cits: list[dict] = []
+        for c in o.get("citations") or []:
+            cid = c.get("chunk_id")
+            anchor = c.get("anchor") or ""
+            body = chunk_texts.get(cid)
+            quote = SNAP.snap_quote(anchor, body) if body is not None else None
+            m = chunk_meta.get(cid, {})
+            cits.append(
+                {
+                    "chunk_id": cid,
+                    "layer": m.get("layer"),
+                    "law_name_ja": m.get("law_name_ja"),
+                    "article_number": m.get("article_number"),
+                    "anchor": anchor,
+                    "quote": quote,
+                }
+            )
+        return {**o, "citations": cits}
 
     def _guard(o: dict) -> list[G.Violation]:
         return G.run_all_guards(
@@ -455,8 +494,9 @@ def run_chat(
 
     attempts: list[list[dict]] = []
     raw_outputs: list[dict] = []
-    out = provider.generate(SYSTEM_PROMPT, context, question)
-    raw_outputs.append(out)
+    raw = provider.generate(SYSTEM_PROMPT, context, question)
+    raw_outputs.append(raw)
+    out = _enrich(raw)  # anchor -> server-cut quote before guarding
     v1 = _guard(out)
     attempts.append(_violations_as_dicts(v1))
     regenerated = False
@@ -470,8 +510,9 @@ def run_chat(
             "(該当する根拠が無ければ 情報不足 とする):\n"
             + "\n".join(f"- {v.code}: {v.detail}" for v in v1)
         )
-        out2 = provider.generate(regen_system, context, question)
-        raw_outputs.append(out2)
+        raw2 = provider.generate(regen_system, context, question)
+        raw_outputs.append(raw2)
+        out2 = _enrich(raw2)
         v2 = _guard(out2)
         attempts.append(_violations_as_dicts(v2))
         if v2:

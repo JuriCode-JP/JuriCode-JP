@@ -8,7 +8,7 @@
 
 ガード一覧 (PoC P2 §3.3):
     G1 出典実在   : citations[].chunk_id が「その回答で渡した hits の chunk_id 集合」の部分集合
-    G2 逐語引用   : citations[].quote が渡した本文の部分文字列 (正規化なしの一致)
+    G2 逐語引用   : サーバー切り出しの citations[].quote が原文の逐語部分文字列 (byte 一致・v2)
     G3 断定禁止   : answer に禁止表現 (辞書) が 0 件
     G4 数値非生成 : answer に税額・金額パターンが 0 件 (P2 では計算しない)
     G5 時制注記   : disclaimer_tense が非空
@@ -99,23 +99,27 @@ def check_citations_exist(citations: list[dict], allowed_chunk_ids: set[str]) ->
 
 
 def check_quotes_verbatim(citations: list[dict], chunk_texts: dict[str, str]) -> list[Violation]:
-    """G2: 各 citation.quote が渡した本文の部分文字列 (正規化なしの一致) であることを検査.
+    """G2 (v2): サーバーが切り出した citation.quote が原文の逐語部分文字列 (byte 一致) か検査.
 
-    Why: 「引用」と称した要約・改変・幻覚を塞ぐ。chunk_id が本文集合に無い場合も検証不能
-    として違反 (G1 と重複して二重に落とす方が安全)。
+    Why (G2 v2・maintainer 裁定 2026-07-13): quote は LLM に打たせず、サーバーが anchor を原文に
+    位置特定して原文のバイト列を切り出す。ゆえに quote は構造上必ず原文の部分文字列になる。
+    検査は不変条件の確認であり、破れ方で内訳を分けて計上する (B4 監査):
+      - body 無し           -> "no body" (chunk_id が渡した hits に無い。G1 と二重に落ちる)
+      - quote 無し (None/空) -> "anchor not locatable" (anchor が言い換え・幻覚・別チャンク由来)
+      - quote が原文に無い   -> "snapped_quote_mismatch" (= 実装バグ。構造上 0 のはず・fail-loud)
     """
     out: list[Violation] = []
     for c in citations:
         cid = c.get("chunk_id")
-        quote = c.get("quote") or ""
+        quote = c.get("quote")
+        anchor = c.get("anchor") or ""
         body = chunk_texts.get(cid)
         if body is None:
             out.append(Violation("G2", f"cannot verify quote; no body for chunk_id {cid!r}"))
-            continue
-        if quote == "" or quote not in body:
-            out.append(
-                Violation("G2", f"quote is not a verbatim substring of {cid!r}: {quote[:40]!r}")
-            )
+        elif not quote:
+            out.append(Violation("G2", f"anchor not locatable in {cid!r}: {anchor[:40]!r}"))
+        elif quote not in body:
+            out.append(Violation("G2", f"snapped_quote_mismatch in {cid!r} (implementation bug)"))
     return out
 
 

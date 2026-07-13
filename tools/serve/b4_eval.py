@@ -18,7 +18,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import sys
 import threading
 import time
@@ -42,12 +41,11 @@ OUT = REPO / "build" / "p2-b4-results"
 EVAL = REPO / "data" / "eval-set"
 
 STATUTE_FAMILY = frozenset({"statute", "enforcement"})
-_WS = re.compile(r"\s+")
 
-# gemini-2.5-flash 公表レート ($/1M tokens) を仮定値として置く (実測はトークン数の方)。
+# gemini-3.1-flash-lite 単価 ($/1M tokens、2026-07-13 maintainer 指定) を仮定値として置く。
 # NOTE: 単価は前提であり実測事実ではない (要現行価格照合)。$ はトークン x この単価。
-RATE_INPUT_PER_M = 0.30
-RATE_OUTPUT_PER_M = 2.50
+RATE_INPUT_PER_M = 0.25
+RATE_OUTPUT_PER_M = 1.50
 
 
 def _load_jsonl(path: Path) -> list[dict]:
@@ -184,25 +182,26 @@ def _pctl(xs: list[float]) -> dict:
     }
 
 
-def analyse_g2(raw_outputs: list[dict], chunk_texts: dict[str, str]) -> dict:
-    """G2 exact 失敗を「空白・改行差で normalize すれば一致」と「それ以外」に分ける."""
-    ws_bucket = 0
-    other_bucket = 0
-    missing_body = 0
-    for out in raw_outputs:
-        for c in out.get("citations") or []:
-            cid = c.get("chunk_id")
-            quote = c.get("quote") or ""
-            body = chunk_texts.get(cid)
-            if body is None:
-                missing_body += 1
+def classify_g2(attempts: list[list[dict]]) -> dict:
+    """G2 違反 (全 attempt) を内訳に分類 (G2 v2).
+
+    - anchor_not_locatable : anchor が原文に位置特定できず (言い換え・幻覚・別チャンク)。
+    - snapped_quote_mismatch: サーバー切り出しが原文に無い (= 実装バグ。構造上 0 のはず)。
+    - no_body               : chunk_id が渡した hits に無い (G1 と二重)。
+    """
+    out = {"anchor_not_locatable": 0, "snapped_quote_mismatch": 0, "no_body": 0}
+    for attempt in attempts:
+        for v in attempt:
+            if v.get("code") != "G2":
                 continue
-            if quote and quote not in body:
-                if _WS.sub("", quote) in _WS.sub("", body):
-                    ws_bucket += 1
-                else:
-                    other_bucket += 1
-    return {"whitespace_newline": ws_bucket, "other": other_bucket, "missing_body": missing_body}
+            d = v.get("detail", "")
+            if "anchor not locatable" in d:
+                out["anchor_not_locatable"] += 1
+            elif "snapped_quote_mismatch" in d:
+                out["snapped_quote_mismatch"] += 1
+            else:
+                out["no_body"] += 1
+    return out
 
 
 def start_p1(fold: bool) -> tuple[ThreadingHTTPServer, int]:
@@ -218,13 +217,19 @@ def start_p1(fold: bool) -> tuple[ThreadingHTTPServer, int]:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="B4 real-Gemini measurement (local).")
-    ap.add_argument("--model", default="gemini-2.5-flash")
+    ap.add_argument("--model", default="gemini-3.1-flash-lite")
     ap.add_argument("--top-k", type=int, default=C.DEFAULT_TOP_K)
     ap.add_argument("--limit", type=int, default=0, help="最初の N 問だけ (0=全問)")
     ap.add_argument(
         "--mock",
         action="store_true",
         help="モック provider で配線のみ検証 (実 Gemini を呼ばない・トークン/生成品質は無効)",
+    )
+    ap.add_argument(
+        "--out-name",
+        default=None,
+        help="出力 JSON のファイル名 (省略時は従来どおり b4-results-g2v2.json / -mock.json)。"
+        "別モデル再測時に既存結果を上書きしないために指定する",
     )
     args = ap.parse_args()
 
@@ -246,7 +251,7 @@ def main() -> int:
     records: list[dict] = []
     errors: list[dict] = []
     code_counts = {c: 0 for c in ("G1", "G2", "G3", "G4", "G5", "G6")}
-    g2_ws_total = g2_other_total = g2_missing_total = 0
+    g2_notloc = g2_snapmismatch = g2_nobody = 0
     n_regenerated = n_fell_back = n_grounded = n_insufficient = n_retrieval_gold = 0
     total_ms: list[float] = []
 
@@ -269,8 +274,6 @@ def main() -> int:
             total_ms.append(q_total_ms)
 
             hits = sink.get("hits", [])
-            chunk_texts = sink.get("chunk_texts", {})
-            raw_outputs = sink.get("raw_outputs", [])
             gold_cids = gold_hit_chunk_ids(item, hits)
             retrieval_gold = bool(gold_cids)
             cited = {c.chunk_id for c in resp.citations}
@@ -279,10 +282,10 @@ def main() -> int:
             for attempt in resp.guard_report.attempts:
                 for v in attempt:
                     code_counts[v["code"]] = code_counts.get(v["code"], 0) + 1
-            g2 = analyse_g2(raw_outputs, chunk_texts)
-            g2_ws_total += g2["whitespace_newline"]
-            g2_other_total += g2["other"]
-            g2_missing_total += g2["missing_body"]
+            g2 = classify_g2(resp.guard_report.attempts)
+            g2_notloc += g2["anchor_not_locatable"]
+            g2_snapmismatch += g2["snapped_quote_mismatch"]
+            g2_nobody += g2["no_body"]
 
             n_regenerated += int(resp.guard_report.regenerated)
             n_fell_back += int(resp.guard_report.fell_back)
@@ -336,9 +339,9 @@ def main() -> int:
         "insufficient_rate": f"{n_insufficient}/{n_done}",
         "violation_counts": code_counts,
         "g2_breakdown": {
-            "whitespace_newline": g2_ws_total,
-            "other": g2_other_total,
-            "missing_body": g2_missing_total,
+            "anchor_not_locatable": g2_notloc,
+            "snapped_quote_mismatch": g2_snapmismatch,
+            "no_body": g2_nobody,
         },
         "latency_ms": {
             "retrieve": _pctl(retrieval.retrieve_ms),
@@ -363,13 +366,18 @@ def main() -> int:
         "errors": errors,
     }
     report = {"summary": summary, "records": records}
-    safe_write_text(
-        OUT / "b4-results.json", json.dumps(report, ensure_ascii=False, indent=2) + "\n"
-    )
+    out_name = args.out_name or ("b4-results-mock.json" if args.mock else "b4-results-g2v2.json")
+    out_path = OUT / out_name
+    safe_write_text(out_path, json.dumps(report, ensure_ascii=False, indent=2) + "\n")
 
     print("\n=== B4 summary (numbers only) ===")
     print(json.dumps(summary, ensure_ascii=False, indent=2))
-    print(f"\n  report -> {OUT / 'b4-results.json'}")
+    print(f"\n  report -> {out_path}")
+    if g2_snapmismatch:
+        print(
+            f"\n*** STOP: snapped_quote_mismatch={g2_snapmismatch} (implementation bug). ***",
+            file=sys.stderr,
+        )
     return 0
 
 
