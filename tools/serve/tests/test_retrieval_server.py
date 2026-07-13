@@ -276,6 +276,37 @@ def test_service_defaults_report_fold_flag(tmp_path):
     }
 
 
+def test_fold_precompute_is_behavior_invariant(tmp_path):
+    """T9 (P2 §3.6): 起動時 precompute した dedup キー列が build_dedup_keys の出力と一致し、
+    かつ precompute 経路 (NEW) と inline 再構築 (OLD) の retrieve() hits が差分 0 であること."""
+    np = pytest.importorskip("numpy")
+    svc = _make_service(tmp_path, default_fold=False, query_vec=[0.0, 0.0, 1.0, 0.0])
+
+    # (1) precompute == build_dedup_keys 出力 (キャッシュの正しさ)
+    assert svc._keys_fold_off == list(svc._base_keys)
+    assert svc._keys_fold_on == S.build_dedup_keys(
+        svc._base_keys, svc.chunk_ids, svc.layers, fold=True
+    )
+
+    # (2) 複数クエリ・両 fold で NEW(precompute) 経路と OLD(inline) 経路の hits が完全一致。
+    #     OLD 経路: build_dedup_keys を毎回呼んで dedup_by_article をかけ直す参照実装。
+    def old_retrieve(query_vec, top_k, fold):
+        sims, idx_row = svc.dense_pool(query_vec, max(top_k * 3, 60))
+        idx_list = [int(i) for i in idx_row]
+        keys = S.build_dedup_keys(svc._base_keys, svc.chunk_ids, svc.layers, fold)
+        deduped = svc._R.dedup_by_article(np.array([idx_list], dtype=np.int64), keys, top_k)
+        return [svc.chunk_ids[int(i)] for i in deduped[0] if int(i) >= 0]
+
+    queries = [[1.0, 0.05, 0.0, 0.0], [0.0, 0.0, 1.0, 0.02], [0.0, 1.0, 0.0, 0.0]]
+    for q in queries:
+        padded = np.zeros((1, S.EXPECTED_DIM), dtype=np.float32)
+        padded[0, : len(q)] = np.array(q, dtype=np.float32)
+        for fold in (False, True):
+            new_hits, _ = svc.retrieve(padded, top_k=10, target_layers=None, dedup=True, fold=fold)
+            new_ids = [h["chunk_id"] for h in new_hits]
+            assert new_ids == old_retrieve(padded, 10, fold), f"fold={fold} q={q} diverged"
+
+
 def test_service_fail_loud_on_corpus_row_mismatch(tmp_path):
     pytest.importorskip("numpy")
     prefix, corpus = _write_tiny_index(tmp_path)
