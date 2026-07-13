@@ -38,6 +38,12 @@ try:
 except ImportError:
     sys.exit("ERROR: pyyaml not installed. Run: pip install pyyaml")
 
+# tools/export/lawsy-bq/export-jsonl.py -> parent×2 = tools/ -> tools/shared/src
+_SHARED_SRC = Path(__file__).resolve().parent.parent.parent / "shared" / "src"
+if str(_SHARED_SRC) not in sys.path:
+    sys.path.insert(0, str(_SHARED_SRC))
+
+from juricode_shared import headings as _headings  # noqa: E402
 
 # ---------------------------------------------------------------------------
 # Tokenizer (optional dependency, robust to environment differences)
@@ -114,13 +120,11 @@ else:
 
 FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n(.*)$", re.DOTALL)
 
-JA_SECTION_RE = re.compile(r"##\s*原文\s*\(?日本語\)?\s*\n(.*?)(?=\n##\s|\Z)", re.DOTALL)
-
-PARAGRAPH_HEADING_RE = re.compile(
-    r"^###\s+第[一二三四五六七八九十百千0-9]+条"
-    r"(?:第([一二三四五六七八九十百千0-9]+)項)?\s*$",
-    re.MULTILINE,
-)
+# FU-554: 項見出し / 原文セクションの regex は juricode_shared.headings が単一の真実源。
+# 旧実装は枝番 (「第百三十二条の二」) を一切許さず、**枝番条の項分割が全滅**していた
+# (見出しが 1 つも match せず、条全体が 1 項として export される)。
+JA_SECTION_RE = _headings.JA_SECTION_RE
+PARAGRAPH_HEADING_RE = _headings.PARAGRAPH_HEADING_RE
 
 KANSUJI_BASIC = {
     "〇": 0,

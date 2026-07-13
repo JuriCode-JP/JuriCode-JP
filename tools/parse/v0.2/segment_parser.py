@@ -25,6 +25,7 @@ if str(_SHARED_SRC) not in sys.path:
     sys.path.insert(0, str(_SHARED_SRC))
 
 from juricode_shared import safe_write_text  # noqa: E402
+from juricode_shared.headings import PARAGRAPH_HEADING_SPLIT_RE  # noqa: E402
 
 try:
     import yaml
@@ -102,21 +103,18 @@ RELATIVE_REF_PATTERN = re.compile(
     r"(前項|同項|次項|前条|次条|本条|前[二三四五六七八九十]項|前[二三四五六七八九十]条)"
 )
 
-# 項見出し (v0.1 形式) -- 単一の真実源として module level に集約 (FU-301).
+# 項見出し -- FU-554: juricode_shared.headings が単一の真実源。
 #
 # 設計上の Why:
-# - re.split / re.match の両方で使うため re.MULTILINE フラグ付き
-#   (re.match は MULTILINE の影響を受けないので、両方安全に共有可能)
-# - capture group なし (re.split で使うとき、capture group があると分割結果に
-#   group 値が混入して下流の zip ロジックが壊れる)
-# - 「第N条」「第N条のM」(枝番条)、「第N条第K項」「第N条のM第K項」を全て match
-# - 既知事故 (g) 4,810 件 empty chunks bug の再発条件 (regex 2 重定義) を解消
+# - split 用 (capture group なし) を使う。capture group 付きを re.split に渡すと
+#   分割結果に group 値が混入し、下流の zip ロジックが壊れる。
+# - 旧実装 (FU-301) は枝番を `(?:の…)?` = 1 段しか許さず、**二重枝番
+#   (第十条の五の二) の項分割が全滅**していた (chunk 1,654 件が空)。検証側
+#   (verify.py / canonical_hash.py) は `*` で正しかったため、生成側の欠落を
+#   検証側が構造的に見逃していた。shared 化して枝番 0 回以上に統一する。
 #
 # テスト: tools/parse/v0.2/tests/test_paragraph_heading_pattern.py
-PARAGRAPH_HEADING_PATTERN = re.compile(
-    r"^### 第[零〇一二三四五六七八九十百千万]+条(?:の[零〇一二三四五六七八九十百千万]+)?(?:第[零〇一二三四五六七八九十百千万]+項)?\s*$",
-    re.MULTILINE,
-)
+PARAGRAPH_HEADING_PATTERN = PARAGRAPH_HEADING_SPLIT_RE
 
 # 漢数字 -> アラビア数字
 KANSUJI_TO_INT = {

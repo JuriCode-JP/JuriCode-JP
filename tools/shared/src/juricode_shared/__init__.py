@@ -22,6 +22,13 @@ from juricode_shared.ir import (
     Amendment,
 )
 from juricode_shared.cases_splice import CasesBlockError, remove_cases_from_md_text
+from juricode_shared.headings import (
+    JA_SECTION_RE,
+    PARAGRAPH_HEADING_RE,
+    PARAGRAPH_HEADING_SPLIT_RE,
+    extract_ja_section,
+    split_paragraph_blocks,
+)
 from juricode_shared.ids import make_article_id, make_case_id, validate_article_id
 from juricode_shared.paths import article_path, ARCHIVE_SUBDIR
 from juricode_shared.safe_write import (
@@ -64,6 +71,11 @@ __all__ = [
     "AppealRelation",
     "CasesBlockError",
     "remove_cases_from_md_text",
+    "JA_SECTION_RE",
+    "PARAGRAPH_HEADING_RE",
+    "PARAGRAPH_HEADING_SPLIT_RE",
+    "extract_ja_section",
+    "split_paragraph_blocks",
     "Relevance",
     "Amendment",
     "make_article_id",
