@@ -12,6 +12,7 @@ This page consolidates the **source** and **licensing terms** of each dataset Ju
 |---|---|---|---|---|
 | **法令本文** | e-Gov 法令検索（laws.e-gov.go.jp） | e-Gov 利用規約 | 取得・構造化（本文非改変） | `source_url` 必須・round-trip hash で本文同一性を機械検証 |
 | **法令の英訳** | 法務省 日本法令外国語訳DB（JLT） | **PDL1.0**（公共データ利用規約 第1.0版） | 出典明示で**引用・複製・転載・再配布可** | 公式訳を `translation_status: official` で採用・出典明示。自前翻訳不要 |
+| **通達（国税庁）** | 国税庁（nta.go.jp/law/tsutatsu） | **著作権法13条2号**（国の機関が発する**告示・訓令・通達**は権利の目的とならない＝PD） | 出典明示で**複製・翻案・再配布可** | 法人税基本通達 等を `build/chunks` に収録・`license: public-domain-13-2`・`source_url` 必須 |
 | **裁決（国税不服審判所）** | 国税不服審判所 公表裁決 | **PDL1.0** | 出典明示で**複製・転載可** | 税務ドメインで採用・出典明示 |
 | **タックスアンサー（税務Q&A）** | 国税庁（nta.go.jp/taxes/shiraberu/taxanswer） | **PDL1.0 準拠**（国税庁＝政府標準利用規約・CC BY 互換） | 出典明示で**複製・翻案・再配布可（商用含む）** | `hojin-taxanswer` 等を `build/chunks` に収録・`license: cc-by-jp-nta`・`attribution` 併記 |
 | **判例本文** | 裁判所（courts.go.jp） | **著作権法13条**（判決・決定・命令は著作権の目的外＝PD） | 出典明示で**引用・転載可** | `cases` の本文引用は出典必須・URL 実在確認 |

@@ -164,6 +164,30 @@ e-Gov 法令 XML の条文本文と**空白の畳み込みを除いて完全に�
 | **附則 (`SupplProvision`) の本文** | retrieval chunk としては存在するが、canonical md には無い ([FU-557](docs/follow-ups.md)) |
 | **英訳** | 大半の条が未訳 (`translation_status: none`) |
 
+### 再取得できないデータ / Data we cannot re-fetch
+
+`build/` は原則すべて derived（再生成できる）ため git 管理外ですが、**次の 3 種だけは例外として
+リポジトリにコミットしています**。
+
+| データ | 件数 | 出所 | ライセンス |
+|---|---|---|---|
+| 通達（法人税基本通達 等 12 編） | 5,135 chunk | 国税庁 nta.go.jp/law/tsutatsu | 著作権法 13 条 2 号（告示・訓令・通達は権利の目的とならない＝PD） |
+| タックスアンサー（税務 Q&A 7 分野） | 656 chunk | 国税庁 nta.go.jp/taxes/shiraberu/taxanswer | `cc-by-jp-nta`（政府標準利用規約・CC BY 互換） |
+| 裁決（国税不服審判所） | 13 chunk | 国税不服審判所 | PDL1.0 |
+
+**理由**: これらは e-Gov 法令のように「いつでも取り直せる」ものではありません。取得・パース・条文への
+リンク付けに数か月かかっており、**消失すると同じだけの作業が消えます**。実際 2026-07-14 に
+`rm -rf build/chunks` で全消ししかけました（退避が偶然残っていて復元できた）。
+「gitignored だから消してよい」は誤りである、という事実を、コメントではなく**リポジトリの構成そのもの**に
+持たせています。詳細は [docs/licensing.md](docs/licensing.md)。
+
+**EN** — Everything under `build/` is derived and gitignored, **except three stores that we cannot
+re-fetch**: NTA circulars (通達, 5,135 chunks), NTA Tax Answer Q&A (656), and National Tax Tribunal
+rulings (13). These took months to fetch, parse and cross-link to statutes; losing them costs that
+time again — as we nearly discovered on 2026-07-14. "Gitignored" does not mean "safe to delete", and
+the repository layout now says so rather than a comment. Licenses: circulars are outside copyright
+under Art. 13(2) of the Copyright Act; Tax Answer is CC-BY-compatible; rulings are PDL 1.0.
+
 **EN** — The canonical corpus is organized by **article of the main provisions**. Every article body is
 machine-verified to match the e-Gov XML exactly (modulo whitespace collapsing) by the
 [G0 fidelity gate](tools/parse/v0.2/g0_fidelity_gate.py), including paragraphs, items, sub-items,

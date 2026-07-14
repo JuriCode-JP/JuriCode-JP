@@ -456,7 +456,13 @@ def main() -> int:
 
     summary = build(args.chunks_dir, args.data_dir, args.output, token_count_fn)
     print(json.dumps(summary, ensure_ascii=False, indent=2))
-    print(f"output -> {args.output.relative_to(_REPO)}")
+    # relative_to は「相対パスで --output を渡した」ときに ValueError で落ちる
+    # (既定値は絶対パスなので既定実行では踏まない)。表示だけのために全体を落とさない。
+    try:
+        shown = args.output.resolve().relative_to(_REPO)
+    except ValueError:
+        shown = args.output
+    print(f"output -> {shown}")
 
     if args.verify_parity is not None:
         if not args.verify_parity.exists():

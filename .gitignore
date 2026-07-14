@@ -23,7 +23,35 @@ __pycache__/
 *.egg-info/
 .eggs/
 dist/
-build/
+
+# build/ は原則すべて derived (再生成できる) ので ignore する。
+# ただし NTA / 国税不服審判所から取得してパースしたストアだけは例外で追跡する
+# (下の否定パターン)。git の仕様上、親ディレクトリを ignore すると中身の否定が
+# 効かないので、`build/` を丸ごと除外せず 1 段ずつ開けている。
+#
+# Why 追跡するか: これらは e-Gov のように「いつでも取り直せる」ものではない。
+# 取得 + パース + 条文リンク付けに数か月かかっており、消すと復旧に同じだけかかる。
+# 実際 2026-07-14 に `rm -rf build/chunks` で全消ししかけた (退避が偶然残っていて
+# 復元できた)。**「gitignored = 消してよい」ではない**という事実を、コメントでは
+# なくリポジトリの構成そのものに持たせる。
+#
+# ライセンス (docs/licensing.md): 通達 = 著作権法13条2号 (告示・訓令・通達は権利の
+# 目的とならない) / タックスアンサー = cc-by-jp-nta / 裁決 = PDL1.0。
+# いずれも出典明示で再配布可。
+build/*
+!build/chunks/
+build/chunks/*
+!build/chunks/*.tsutatsu.chunks.jsonl
+!build/chunks/*-tsutatsu/
+!build/chunks/*-taxanswer/
+!build/chunks/kfs-*/
+build/chunks/*-tsutatsu/*
+build/chunks/*-taxanswer/*
+build/chunks/kfs-*/*
+!build/chunks/*-tsutatsu/*.tsutatsu.chunks.jsonl
+!build/chunks/*-taxanswer/*.taxanswer.chunks.jsonl
+!build/chunks/kfs-*/*.saiketsu.jsonl
+
 .venv/
 venv/
 env/
