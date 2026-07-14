@@ -84,15 +84,20 @@ paragraphs:
     type: kou
     text: '二　次のイからホまでに掲げる特定販売を行う医薬品の区分
 
-      イ　要指導医薬品（特定要指導医薬品を除く。）
 
-      ロ　第一類医薬品
+      　イ　要指導医薬品（特定要指導医薬品を除く。）
 
-      ハ　指定第二類医薬品
 
-      ニ　第二類医薬品
+      　ロ　第一類医薬品
 
-      ホ　第三類医薬品'
+
+      　ハ　指定第二類医薬品
+
+
+      　ニ　第二類医薬品
+
+
+      　ホ　第三類医薬品'
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-139-p4-kou-3

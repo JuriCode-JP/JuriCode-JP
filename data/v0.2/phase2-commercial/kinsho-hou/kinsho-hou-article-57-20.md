@@ -40,9 +40,11 @@ paragraphs:
     type: kou
     text: '四　内国会社である場合においては、株式会社（次に掲げる機関を置くものに限る。）でないとき。
 
-      イ　取締役会
 
-      ロ　監査役、監査等委員会又は指名委員会等'
+      　イ　取締役会
+
+
+      　ロ　監査役、監査等委員会又は指名委員会等'
     modality: unspecified
     item_number: 4
 - number: 2

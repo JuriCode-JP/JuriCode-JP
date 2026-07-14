@@ -35,20 +35,25 @@ paragraphs:
     type: kou
     text: '三　法第六十六条の八十三第一項第三号に該当する場合　次に掲げる事項
 
-      イ　合併の相手方の商号又は名称
 
-      ロ　合併の年月日及び理由
+      　イ　合併の相手方の商号又は名称
 
-      ハ　合併の方法'
+
+      　ロ　合併の年月日及び理由
+
+
+      　ハ　合併の方法'
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-363-p1-kou-4
     type: kou
     text: '四　法第六十六条の八十三第一項第四号に該当する場合　次に掲げる事項
 
-      イ　破産手続開始の申立てを行った年月日
 
-      ロ　破産手続開始の決定を受けた年月日'
+      　イ　破産手続開始の申立てを行った年月日
+
+
+      　ロ　破産手続開始の決定を受けた年月日'
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-363-p1-kou-5
@@ -60,18 +65,22 @@ paragraphs:
     type: kou
     text: '六　法第六十六条の八十三第一項第六号に該当する場合　次に掲げる事項
 
-      イ　承継先の商号又は名称
 
-      ロ　分割の年月日及び理由'
+      　イ　承継先の商号又は名称
+
+
+      　ロ　分割の年月日及び理由'
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-363-p1-kou-7
     type: kou
     text: '七　法第六十六条の八十三第一項第七号に該当する場合　次に掲げる事項
 
-      イ　譲渡先の商号、名称又は氏名
 
-      ロ　譲渡の年月日及び理由'
+      　イ　譲渡先の商号、名称又は氏名
+
+
+      　ロ　譲渡の年月日及び理由'
     modality: unspecified
     item_number: 7
 - number: 2

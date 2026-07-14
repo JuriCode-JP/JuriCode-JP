@@ -54,9 +54,11 @@ paragraphs:
     type: kou
     text: '一　次に掲げる事業専従者の区分に応じそれぞれ次に定める金額
 
-      イ　その居住者の配偶者である事業専従者　八十六万円
 
-      ロ　イに掲げる者以外の事業専従者　五十万円'
+      　イ　その居住者の配偶者である事業専従者　八十六万円
+
+
+      　ロ　イに掲げる者以外の事業専従者　五十万円'
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-57-p3-kou-2

@@ -49,9 +49,11 @@ paragraphs:
     type: kou
     text: '二　前号に掲げる個人以外の個人　次に掲げる書類
 
-      イ　前号に定める明細書
 
-      ロ　取得をした買換資産に係る住宅借入金等の残高証明書'
+      　イ　前号に定める明細書
+
+
+      　ロ　取得をした買換資産に係る住宅借入金等の残高証明書'
     modality: unspecified
     item_number: 2
 - number: 3
@@ -190,9 +192,11 @@ paragraphs:
     type: kou
     text: '二　前号に掲げる個人以外の個人　次に掲げる書類
 
-      イ　前号に定める書類
 
-      ロ　取得をした買換資産に係る住宅借入金等の残高証明書'
+      　イ　前号に定める書類
+
+
+      　ロ　取得をした買換資産に係る住宅借入金等の残高証明書'
     modality: unspecified
     item_number: 2
 - number: 12

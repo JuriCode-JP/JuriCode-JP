@@ -37,6 +37,7 @@ paragraphs:
     type: kou
     text: '一　次の算式によつて得た率
 
+
       １＋（（（有効幅員４．５メートル以上７．５メートル未満の道路（未改良にかかる道路を除く。）の延長×１）＋（有効幅員４．５メートル以上の道路（改良にかかる道路を除く。）の延長×１．２）＋（有効幅員４．５メートル未満の道路の延長×１．５））／道路の面積）'
     modality: unspecified
     item_number: 1
@@ -44,12 +45,14 @@ paragraphs:
     type: kou
     text: '二　次の算式によつて得た率
 
+
       （砂利道の延長×１．３＋舗装道の延長）／道路の延長'
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-58-p2-kou-3
     type: kou
     text: '三　次の算式によつて得た率
+
 
       （（木橋の延長×９＋橋りよう（木橋を除く。）の延長）×２．５）／橋りようの延長'
     modality: unspecified

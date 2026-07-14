@@ -25,18 +25,22 @@ paragraphs:
     type: kou
     text: '一　その社員の全てが次のいずれかに該当する合名会社の社員権
 
-      イ　株式会社
 
-      ロ　合同会社'
+      　イ　株式会社
+
+
+      　ロ　合同会社'
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-1-2-2-p1-kou-2
     type: kou
     text: '二　その無限責任社員の全てが次のいずれかに該当する合資会社の社員権
 
-      イ　株式会社
 
-      ロ　合同会社'
+      　イ　株式会社
+
+
+      　ロ　合同会社'
     modality: unspecified
     item_number: 2
 cases: []

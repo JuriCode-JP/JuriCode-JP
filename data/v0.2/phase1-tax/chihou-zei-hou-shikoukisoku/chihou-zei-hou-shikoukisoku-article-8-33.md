@@ -45,22 +45,28 @@ paragraphs:
     type: kou
     text: '五　申請者が法人である場合にあつては、次に掲げる書類
 
-      イ　定款又は寄附行為及び登記事項証明書
 
-      ロ　申請の日の属する事業年度の直前の事業年度における貸借対照表及び損益計算書
+      　イ　定款又は寄附行為及び登記事項証明書
 
-      ハ　役員の名簿及び履歴書'
+
+      　ロ　申請の日の属する事業年度の直前の事業年度における貸借対照表及び損益計算書
+
+
+      　ハ　役員の名簿及び履歴書'
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-8-33-p1-kou-6
     type: kou
     text: '六　申請者が個人である場合にあつては、次に掲げる書類
 
-      イ　戸籍抄本又は本籍（外国人にあつては、国籍等）の記載のある住民票の写し
 
-      ロ　財産目録
+      　イ　戸籍抄本又は本籍（外国人にあつては、国籍等）の記載のある住民票の写し
 
-      ハ　履歴書'
+
+      　ロ　財産目録
+
+
+      　ハ　履歴書'
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikoukisoku-art-8-33-p1-kou-7
