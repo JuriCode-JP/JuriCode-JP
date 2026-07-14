@@ -177,6 +177,118 @@ def test_kou_segments_generated_and_are_substrings_of_body():
             assert norm(s["text"]) in body_n, f"segment not a substring of body: {s['id']}"
 
 
+RANGE_ITEM_XML = """<Article Num="2">
+  <ArticleTitle>第二条</ArticleTitle>
+  <Paragraph Num="1">
+    <ParagraphSentence><Sentence>次に掲げるものとする。</Sentence></ParagraphSentence>
+    <Item Num="1">
+      <ItemTitle>一</ItemTitle>
+      <ItemSentence><Sentence>第一号の本文</Sentence></ItemSentence>
+    </Item>
+    <Item Num="1_2">
+      <ItemTitle>一の二</ItemTitle>
+      <ItemSentence><Sentence>第一号の二の本文</Sentence></ItemSentence>
+    </Item>
+    <Item Num="3:4">
+      <ItemTitle>三及び四</ItemTitle>
+      <ItemSentence><Sentence>削除</Sentence></ItemSentence>
+    </Item>
+  </Paragraph>
+</Article>"""
+
+
+def test_range_and_branch_items_are_not_dropped():
+    """範囲号 (Num="3:4") と枝番号 (Num="1_2") が chunk 化されること.
+
+    旧実装は int("3:4") が ValueError -> 無言スキップで、md には「三及び四　削除」が
+    出るのに chunk が無い状態だった (G0-b 不一致)。枝番号は id が -kou-1 に潰れて
+    第一号と衝突していた。
+    """
+    body, fm, _w = rb.build_article_md(ET.fromstring(RANGE_ITEM_XML), "x-art-2")
+    kou = [s for p in fm for s in p["segments"] if s["type"] == "kou"]
+    ids = [s["id"] for s in kou]
+    assert ids == ["x-art-2-p1-kou-1", "x-art-2-p1-kou-1-2", "x-art-2-p1-kou-3-4"]
+    assert len(set(ids)) == len(ids)  # id 衝突なし
+    assert [s["item_number"] for s in kou] == [1, 1, 3]
+    assert "三及び四　削除" in body
+    body_n = norm(body)
+    for s in kou:
+        assert norm(s["text"]) in body_n
+
+
+RUBY_XML = """<Article Num="1">
+  <ArticleTitle>第一条</ArticleTitle>
+  <Paragraph Num="1">
+    <ParagraphSentence><Sentence>価額を<Ruby>按<Rt>あん</Rt></Ruby>分した額とする。</Sentence></ParagraphSentence>
+  </Paragraph>
+</Article>"""
+
+
+def test_ruby_reading_is_not_written_into_the_body():
+    """ルビの読み (<Rt>) は注記であって本文ではない.
+
+    取り込むと法令本文が「按あん分」に改変される (原文非改変の違反)。旧 corpus に
+    実在した汚染で、生成器と検証器が同じ抽出器を共有していたため G0-a では見えず、
+    Rt を除外していた table_core との食い違い (G0-c) で初めて露見した。
+    """
+    body, fm, _w = rb.build_article_md(ET.fromstring(RUBY_XML), "x-art-1")
+    assert "按分した額" in body
+    assert "あん" not in body
+    assert "あん" not in fm[0]["segments"][0]["text"]
+
+
+def test_h1_caption_is_rebuilt_without_ruby():
+    """H1 の見出し語 (ArticleCaption 由来) にもルビが混入していた.
+
+    本文だけ直して H1 を残すと、同じ条の中で「瑕疵」と「瑕疵かし」が併存する。
+    """
+    art = ET.fromstring(
+        "<Article Num='101'><ArticleCaption>（代理行為の<Ruby>瑕疵<Rt>かし</Rt></Ruby>）"
+        "</ArticleCaption><ArticleTitle>第百一条</ArticleTitle>"
+        "<Paragraph Num='1'><ParagraphSentence><Sentence>本文。</Sentence>"
+        "</ParagraphSentence></Paragraph></Article>"
+    )
+    h1 = rb.build_h1(art, "民法", "101")
+    assert h1 == "# 民法 第101条(（代理行為の瑕疵）)"
+    assert "かし" not in h1
+
+
+def test_parent_section_names_are_rebuilt_without_ruby():
+    """節名 (parent_section) にもルビが混入していた (「乗車、積載及び牽けん引」).
+
+    parent_section は chunk にも複製されるので、本文だけ直しても索引側に汚染が残る。
+    構造スタックの抽出は parse-egov._walk_articles を再利用している。
+    """
+    law = ET.fromstring(
+        "<Law><LawBody><MainProvision>"
+        "<Section Num='11'><SectionTitle>第十一節　乗車、積載及び"
+        "<Ruby>牽<Rt>けん</Rt></Ruby>引</SectionTitle>"
+        "<Article Num='59'><ArticleTitle>第五十九条</ArticleTitle>"
+        "<Paragraph Num='1'><ParagraphSentence><Sentence>本文。</Sentence>"
+        "</ParagraphSentence></Paragraph></Article></Section>"
+        "</MainProvision></LawBody></Law>"
+    )
+    main = law.find("LawBody").find("MainProvision")
+    articles = rb._parse_egov._walk_articles(main, [])
+    ps = articles[0]["parent_section"]
+    assert ps["setsu_name_ja"] == "第十一節　乗車、積載及び牽引"
+    assert "けん" not in ps["setsu_name_ja"]
+
+
+def test_both_xml_text_extractors_agree():
+    """本文抽出器が 2 系統ある以上、両者が一致することを固定する.
+
+    Why: `parse-egov.extract_all_text` (正本 md の生成 + G0 ゲートの ground truth) と
+    `table_core.get_text_recursive` (表・chunk 系) は別実装。**生成器と検証器が同じ
+    抽出器を共有していると、抽出器のバグは検証をすり抜ける** (ルビ混入 = 実際に
+    そうなった)。両者の食い違いを CI で検出できるようにしておく。
+    """
+    from table_core import get_text_recursive
+
+    el = ET.fromstring("<Sentence>価額を<Ruby>按<Rt>あん</Rt></Ruby>分した額とする。</Sentence>")
+    assert rb.extract_all_text(el) == get_text_recursive(el) == "価額を按分した額とする。"
+
+
 def test_has_items_and_has_proviso_come_from_xml():
     _b, fm, _w = rb.build_article_md(_article(), "test-art-132-2")
     assert fm[0]["has_items"] is True

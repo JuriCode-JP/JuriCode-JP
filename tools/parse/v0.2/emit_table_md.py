@@ -219,7 +219,8 @@ def process_law(
             continue
         updated += 1
         if not dry_run:
-            safe_write_text(md_path, new_text)
+            # newline="\n" 必須 (既定は Windows で CRLF になり git 追跡 md を汚す)
+            safe_write_text(md_path, new_text, newline="\n")
     return updated, warnings
 
 

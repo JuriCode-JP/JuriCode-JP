@@ -109,8 +109,11 @@ def expand_virtual_grid(
     for row in rows:
         cells_in_row: list[tuple[str, int, int]] = []
         for cell in row:
-            raw_text = "".join(cell.itertext())
-            text = normalize_cell_text(raw_text)
+            # itertext() ではなく get_text_recursive を使う: itertext は Rt (ルビの
+            # 読み) まで拾うため、セルが「濾ろ過」「音波凝ぎよう集」のように振り仮名を
+            # 本文に混ぜてしまう (法令本文の改変)。同じ table_core 内に Rt を除外する
+            # 関数がありながら、表セルだけが素の itertext を通っていた。
+            text = normalize_cell_text(get_text_recursive(cell))
             try:
                 rs = max(1, int(cell.get("rowspan") or 1))
             except (ValueError, TypeError):

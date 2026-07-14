@@ -84,13 +84,22 @@ def test_walk_main_articles_units_and_ranges():
     assert articles["1"]["extra"] == []
 
 
-_ITEM = "一号の本文として十分に長い内容をここに記載する。"
-_SUBITEM = "イの細別の本文として十分に長い内容を記載する。"
+# 案A (format-spec §5.2): md の号行は「号番号 ＋ 全角スペース ＋ 本文」。
+# よって XML 側の号 unit も番号込みで比較する (番号を外すと md 側が「過剰」に見える)。
+_ITEM = "一　一号の本文として十分に長い内容をここに記載する。"
+_SUBITEM = "イ　イの細別の本文として十分に長い内容を記載する。"
 
 
 def test_compare_exact_match():
     r = _compare("1", ["本文である。ただし、例外とする。" + _ITEM + _SUBITEM])
     assert r["exact"] is True
+
+
+def test_compare_item_number_is_part_of_the_compared_text():
+    """号番号を md から落とすと欠落として検出されること (案A の規約違反)."""
+    without_number = _ITEM.replace("一　", "") + _SUBITEM.replace("イ　", "")
+    r = _compare("1", ["本文である。ただし、例外とする。" + without_number])
+    assert r["exact"] is False
 
 
 def test_compare_missing_item_and_subitem_classified():
@@ -184,14 +193,34 @@ def test_compare_md_to_chunks_all_missing():
     assert r["exact"] is False
 
 
-def test_compare_md_to_chunks_exact_and_kou_only_in_chunks():
+def test_compare_md_to_chunks_exact_includes_kou():
+    """号は正本由来の第一級 segment なので本文系 chunk に含めて突合する."""
+    md = ["本文である。\n\n一　一号の本文"]
     chunks = [
-        {"segment_type": "simple", "text": "本文である。"},
-        {"segment_type": "kou", "text": "一号の本文"},  # XML 別経路 (F3)
-        {"segment_type": "rollup", "text": "本文である。一号の本文"},  # 派生: 除外
+        {"id": "a-p1", "segment_type": "simple", "text": "本文である。"},
+        {"id": "a-p1-kou-1", "segment_type": "kou", "text": "一　一号の本文"},
+        {"id": "a-roll", "segment_type": "rollup", "text": "本文である。一　一号の本文"},
     ]
-    r = g0.compare_md_to_chunks(["本文である。"], chunks, [])
-    assert r["exact"] is True
+    r = g0.compare_md_to_chunks(md, chunks, [])
+    assert r["exact"] is True  # 本文系 (simple + kou) の連結 == md 本文
     assert r["kou_chunks"] == 1
-    assert r["kou_chunks_not_in_md"] == 1
+    assert r["g0c_violations"] == 0  # rollup も親本文の部分列
     assert r["all_chunks_missing"] is False
+
+
+def test_compare_md_to_chunks_detects_missing_kou_chunk():
+    """md に号があるのに chunk に無い場合、G0-b が exact でなくなること."""
+    md = ["本文である。\n\n一　一号の本文"]
+    chunks = [{"id": "a-p1", "segment_type": "simple", "text": "本文である。"}]
+    r = g0.compare_md_to_chunks(md, chunks, [])
+    assert r["exact"] is False
+    assert r["md_not_in_chunks_chars"] > 0
+
+
+def test_g0c_flags_chunk_not_in_parent_body():
+    """G0-c: 親条文に無いテキストを持つ chunk は違反として検出される."""
+    md = ["本文である。"]
+    chunks = [{"id": "a-ghost", "segment_type": "kou", "text": "正本に存在しない幽霊テキスト"}]
+    r = g0.compare_md_to_chunks(md, chunks, [])
+    assert r["g0c_violations"] == 1
+    assert "a-ghost" in r["g0c_violation_samples"][0]

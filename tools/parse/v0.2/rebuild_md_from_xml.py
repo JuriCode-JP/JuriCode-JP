@@ -13,12 +13,12 @@ Why 「parse-egov.py を再実行する」ではなく in-place rebuild なの�
     改正履歴・注記) を保存したまま、原文セクションと paragraphs[] だけを差し替える。
 
 何が変わるか (format-spec §5.2 = 案A):
-    1. **号 (Item) と細別 (Subitem1..N) の本文が入る** — 従来は
+    1. **号 (Item) と細別 (Subitem1..N) の本文が入る** -- 従来は
        parse-egov.py:233 が ParagraphSentence/Sentence しか拾わず、正本から
        号 41,621 / 細別 16,609 unit が丸ごと欠落していた。
-    2. **内部マーカー `<!-- segment: ... -->` を本文に入れない** — segment の
+    2. **内部マーカー `<!-- segment: ... -->` を本文に入れない** -- segment の
        メタデータは frontmatter の paragraphs[].segments[] が正本。
-    3. **表を XML の文書順の位置に置く** — 従来の emit_table_md は「項の末尾」に
+    3. **表を XML の文書順の位置に置く** -- 従来の emit_table_md は「項の末尾」に
        付けていたため、号の中の表が項末尾に飛んで順序が崩れていた。
     4. **List / SupplNote (罰則付記) を落とさない**。
 
@@ -217,45 +217,94 @@ def paragraph_sentence_text(para: Any) -> str:
     return sentences_text(para.find("ParagraphSentence"))
 
 
-def _item_segment_text(elem: Any, depth: int = 0) -> str:
-    """号 chunk の text: ItemSentence ＋ 配下の細別 (title ＋ sentence).
+def _item_segment_text(elem: Any) -> str:
+    """号 chunk の text: 号番号 ＋ 本文 ＋ 配下の細別 (番号 ＋ 本文).
 
-    Why 号自身の Title を含めないか: 既存 index の号 chunk (extract_kou_from_xml)
-    と同じ意味・同じ ID を保つため。空白畳み込みすると本文の部分列になる (G0-c)。
+    Why 号番号 (ItemTitle「一」) を含めるか: 本文 md の当該行が
+    「一　国内　この法律の施行地をいう。」である以上、chunk の text も同じ内容に
+    しないと「chunk の総和 == 正本本文」(G0-b) が号番号の分だけ食い違う。番号込みに
+    すると chunk は本文行そのものになり、G0-b exact と G0-c (chunk ⊂ 親本文) が
+    どちらも自明に成立する。検索・引用の観点でも号番号は有用。
     """
     tag = elem.tag
-    sent_tag = f"{tag}Sentence"
+    title_tag, sent_tag = f"{tag}Title", f"{tag}Sentence"
+    title = _text(elem.find(title_tag))
     parts: list[str] = []
     for child in elem:
         ct = child.tag
         if ct == sent_tag:
-            parts.append(sentences_text(child))
+            body = sentences_text(child)
+            parts.append(f"{title}{IDEO_SPACE}{body}" if title else body)
         elif ct.startswith("Subitem"):
-            sub_title = _text(child.find(f"{child.tag}Title"))
-            sub_body = _item_segment_text(child, depth + 1)
-            parts.append(f"{sub_title} {sub_body}".strip() if sub_title else sub_body)
+            parts.append(_item_segment_text(child))
+        elif ct == "List":
+            # 号・細別の中の List は当該号の本文の一部 (md でも同じ行群に出る)。
+            # chunk に含めないと「md にあるのに chunk に無い」= G0-b 不一致になる。
+            parts.append(_text(child))
     return "\n".join(p for p in parts if p)
 
 
+def _item_num_parts(raw: str) -> tuple[str, int | None]:
+    """号の Num 属性を (id サフィックス, item_number) にする.
+
+    e-Gov の Item@Num の実例:
+      "1"    通常の号            -> ("1", 1)
+      "1_2"  号の枝番 (第一号の二) -> ("1-2", 1)
+      "3:4"  範囲号 (三及び四 削除) -> ("3-4", 3)
+
+    Why 全角に分解するか (旧実装の 2 つのバグ):
+      旧実装は ``int(raw.split("_")[0])`` だったため、
+      (a) 範囲号 "3:4" は ValueError で **無言スキップ** され、md には本文
+          (「三及び四　削除」) が出るのに chunk が作られなかった (G0-b 不一致)。
+      (b) 号の枝番 "1_2" は id が ``-kou-1`` に潰れ、**第一号と id が衝突**していた。
+    """
+    suffix = raw.replace("_", "-").replace(":", "-")
+    head = re.split(r"[-]", suffix)[0] if suffix else ""
+    try:
+        return suffix, int(head)
+    except ValueError:
+        return suffix, None
+
+
 def build_kou_segments(para: Any, article_id: str, para_num: int) -> list[Segment]:
-    """項配下の号を kou segment にする (id は既存 index と同形)."""
+    """項配下の号を kou segment にする (範囲号・枝番号も落とさない)."""
     segments: list[Segment] = []
-    for item in para.findall("Item"):
+    for i, item in enumerate(para.findall("Item"), start=1):
         raw = (item.get("Num") or "").strip()
-        try:
-            item_num = int(raw.split("_")[0])
-        except ValueError:
-            continue  # 号番号が解釈不能なものは segment 化しない (本文には出ている)
+        suffix, item_num = _item_num_parts(raw)
         text = _item_segment_text(item)
         if not text:
             continue
         segments.append(
             Segment(
-                id=f"{article_id}-p{para_num}-kou-{item_num}",
+                id=f"{article_id}-p{para_num}-kou-{suffix or i}",
                 type="kou",
                 text=text,
                 modality=detect_modality(text),
                 item_number=item_num,
+            )
+        )
+    return segments
+
+
+def build_list_segments(para: Any, article_id: str, para_num: int) -> list[Segment]:
+    """項直下の List を list segment にする.
+
+    Why: List は正本 md の本文に出る (原文の一部) が、従来どの segment にも
+    入っていなかった。chunk 化しないと「md にあるのに chunk に無い」= G0-b 不一致。
+    号の中の List は号 segment に含める (build_kou_segments 側)。
+    """
+    segments: list[Segment] = []
+    for i, lst in enumerate(para.findall("List"), start=1):
+        text = _text(lst)
+        if not text:
+            continue
+        segments.append(
+            Segment(
+                id=f"{article_id}-p{para_num}-list-{i}",
+                type="list",
+                text=text,
+                modality=detect_modality(text),
             )
         )
     return segments
@@ -287,8 +336,8 @@ def build_article_md(article: Any, article_id: str) -> tuple[str, list[dict], li
 
         base_text = paragraph_sentence_text(para)
         segments = split_paragraph_segments(article_id, pnum, base_text) if base_text else []
-        kou_segments = build_kou_segments(para, article_id, pnum)
-        segments.extend(kou_segments)
+        segments.extend(build_kou_segments(para, article_id, pnum))
+        segments.extend(build_list_segments(para, article_id, pnum))
         if not segments:
             warnings.append(f"{article_id}: paragraph {pnum} produced no segments")
 
@@ -306,17 +355,27 @@ def build_article_md(article: Any, article_id: str) -> tuple[str, list[dict], li
             }
         )
 
-    # 条直下の SupplNote (罰則付記) 等は最後の項ブロックの末尾に原文のまま置く
+    # 条直下の SupplNote (罰則付記) 等は最後の項ブロックの末尾に原文のまま置く。
+    # segment 化もする (md にあるのに chunk に無い = G0-b 不一致 になるため)。
     extras = [
-        _text(c)
+        (c.tag, _text(c))
         for c in article
         if c.tag not in ("ArticleTitle", "ArticleCaption", "Paragraph") and _text(c)
     ]
     if extras:
-        if not blocks:
+        if not blocks or not fm_paragraphs:
             warnings.append(f"{article_id}: has extras but no paragraphs; extras dropped")
         else:
-            blocks[-1] = blocks[-1] + "\n\n" + "\n\n".join(extras)
+            blocks[-1] = blocks[-1] + "\n\n" + "\n\n".join(t for _tag, t in extras)
+            last = fm_paragraphs[-1]
+            for i, (tag, text) in enumerate(extras, start=1):
+                seg = Segment(
+                    id=f"{article_id}-{tag.lower()}-{i}",
+                    type=tag.lower(),  # 例: supplnote (罰則付記)
+                    text=text,
+                    modality=detect_modality(text),
+                )
+                last["segments"].append(seg.to_dict())
 
     return "\n\n".join(blocks) + "\n", fm_paragraphs, warnings
 
@@ -326,8 +385,35 @@ def build_article_md(article: Any, article_id: str) -> tuple[str, list[dict], li
 # ============================================================
 
 
-def rewrite_md(md_text: str, new_ja_body: str, fm_paragraphs: list[dict]) -> str:
-    """既存 md の 原文セクション本文と frontmatter.paragraphs だけを差し替える.
+_H1_RE = re.compile(r"^# .*$", re.MULTILINE)
+
+
+def build_h1(article: Any, law_name_ja: str, article_number: str) -> str:
+    """H1 見出しを XML から作る (parse-egov.article_to_markdown と同じ式).
+
+    Why H1 も作り直すか: H1 の見出し語は ArticleCaption 由来 = XML 由来であって
+    人手 curated ではない。ルビ (<Rt>) 混入は本文だけでなく caption にも及んでいた
+    (例「代理行為の瑕疵かし」)。本文だけ直して H1 を残すと、同じ条の中で
+    表記が食い違う。
+    """
+    caption = _text(article.find("ArticleCaption"))
+    title = f"# {law_name_ja} 第{article_number}条"
+    if caption:
+        title += f"({caption.strip('()')})"
+    return title
+
+
+def rewrite_md(
+    md_text: str,
+    new_ja_body: str,
+    fm_paragraphs: list[dict],
+    new_h1: str | None = None,
+    parent_section: dict | None = None,
+) -> str:
+    """既存 md の XML 由来部分 (原文本文 / paragraphs / H1 / parent_section) を差し替える.
+
+    curated なフィールド (cases / amendments / tags / notes / translation_status …) と、
+    原文セクション以降 (英訳・判例リンク・改正履歴・注記) は一切触らない。
 
     Raises:
         ValueError: frontmatter または 原文セクションが無い場合 (fail loud).
@@ -343,10 +429,14 @@ def rewrite_md(md_text: str, new_ja_body: str, fm_paragraphs: list[dict]) -> str
         raise ValueError("missing `## 原文 (日本語)` section")
 
     fm["paragraphs"] = fm_paragraphs  # curated な他フィールドは触らない
+    if parent_section:
+        fm["parent_section"] = parent_section
     fm_yaml = yaml.dump(fm, allow_unicode=True, sort_keys=False, width=200)
 
     # 見出しと本文の間は常に空行 1 つに正規化する (元 md の空行数に引きずられない)
     prefix = body[: sec.start(1)].rstrip("\n") + "\n\n"
+    if new_h1:
+        prefix = _H1_RE.sub(lambda _m: new_h1, prefix, count=1)
     new_body = prefix + new_ja_body + body[sec.end(1) :]
     return f"---\n{fm_yaml}---\n{new_body}"
 
@@ -364,6 +454,14 @@ def process_law(
     law = root if root.tag == "Law" else root.find(".//Law")
     main = law.find("LawBody").find("MainProvision")
 
+    # parent_section (編・章・節・款・目の番号と名称) も XML 由来なので作り直す。
+    # Why: 節名にもルビが混入していた (例「乗車、積載及び牽けん引」)。parent_section は
+    # chunk にも複製されるので、直さないと索引側に汚染が残る。
+    # 抽出は parse-egov._walk_articles を再利用する (構造スタックの実装を二重に書かない)。
+    parent_sections = {
+        a["number"]: a.get("parent_section") for a in _parse_egov._walk_articles(main, []) if a
+    }
+
     updated = unchanged = 0
     for article in main.iter("Article"):
         num = (article.get("Num") or "").strip().replace("_", "-")
@@ -378,8 +476,16 @@ def process_law(
         warnings.extend(warns)
 
         original = md_path.read_text(encoding="utf-8")
+        fm_head = yaml.safe_load(re.match(r"^---\n(.*?)\n---\n", original, re.DOTALL).group(1))
+        new_h1 = build_h1(article, fm_head.get("law_name_ja", ""), num)
         try:
-            new_text = rewrite_md(original, ja_body, fm_paragraphs)
+            new_text = rewrite_md(
+                original,
+                ja_body,
+                fm_paragraphs,
+                new_h1=new_h1,
+                parent_section=parent_sections.get(num),
+            )
         except ValueError as e:
             warnings.append(f"{law_abbrev} art {num}: {e}")
             continue
@@ -388,7 +494,9 @@ def process_law(
             continue
         updated += 1
         if not dry_run:
-            safe_write_text(md_path, new_text, encoding="utf-8")
+            # newline="\n" 必須: 既定 (None) は OS ネイティブ = Windows で CRLF になり、
+            # git 追跡ファイルに CRLF が入る (既知の事故源)。
+            safe_write_text(md_path, new_text, encoding="utf-8", newline="\n")
     return updated, unchanged, warnings
 
 

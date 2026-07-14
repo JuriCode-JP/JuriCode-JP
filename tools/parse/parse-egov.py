@@ -83,13 +83,20 @@ def extract_all_text(elem):
     Returns:
         Concatenated text content in document order. Empty if elem is None.
 
-    Complexity: O(n) in descendant nodes.
+    Ruby (振り仮名):
+        e-Gov XML は難読字に `<Ruby>按<Rt>あん</Rt></Ruby>分` の形でルビを付ける。
+        `<Rt>` は**読み仮名の注記であって本文ではない**ので除外する。除外しないと
+        本文が「按あん分」になり、法令本文が改変される (原文非改変の不変条件違反)。
+        table_core.get_text_recursive / extract_kou_from_xml.get_text_recursive は
+        以前から Rt を除外しており、本関数だけが取り込んでいた (2026-07-14 に
+        G0-c ゲートが両者の食い違いとして検出。旧 corpus にも混入していた)。
     """
     if elem is None:
         return ""
     parts = [elem.text or ""]
     for child in elem:
-        parts.append(extract_all_text(child))
+        if child.tag != "Rt":
+            parts.append(extract_all_text(child))
         if child.tail:
             parts.append(child.tail)
     return "".join(parts)

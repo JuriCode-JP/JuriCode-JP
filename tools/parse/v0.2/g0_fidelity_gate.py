@@ -87,9 +87,28 @@ _WS_RE = re.compile(r"[\s　]+")
 
 # segment_parser.py 由来の chunk type (G0-b で md と突合する側)。
 # kou / table / supplproviso* は XML 直接経路、rollup* は派生重複なので除外する。
+# 正本 md の frontmatter から導出される本文系 segment (build_chunks_from_md.py が出す)。
+# 号 (kou) も正本由来の第一級 segment になったので含める。
+# 除外: table / supplproviso* (別経路・正本 md に対応物なし)、rollup* (派生の重複)。
 PARSER_CHUNK_TYPES = frozenset(
-    {"simple", "honbun", "tadashi", "zen_dan", "kou_dan", "hashira", "junyou", "tokusoku"}
+    {
+        "simple",
+        "honbun",
+        "tadashi",
+        "zen_dan",
+        "kou_dan",
+        "hashira",
+        "junyou",
+        "tokusoku",
+        "kou",
+        "list",
+        "supplnote",
+    }
 )
+
+#: 他 chunk の連結でできる派生 chunk。原文に無い文字は足さないが、表が間に挟まると
+#: 親本文の「連続した」部分列にはならないので、G0-c は行単位で検証する。
+DERIVED_CHUNK_TYPES = frozenset({"rollup", "table"})
 
 # マーカーは行頭挿入とは限らない: render_v02_md (segment_parser.py:563) は
 # search_str の直前に "<marker>\n" を replace 挿入するため、tadashi/kou_dan の
@@ -447,11 +466,12 @@ def load_chunks(chunk_dir: Path, law_abbrev: str, art_num: str) -> tuple[list[di
 
 
 def compare_md_to_chunks(md_paras: list[str], chunks: list[dict], table_chunks: list[dict]) -> dict:
-    """G0-b 診断: 正本 md -> chunk 変換の欠落・過剰を分類する.
+    """G0-b / G0-c 診断: 正本 md -> chunk 変換の欠落・過剰を分類する.
 
-    - parser 系 chunk (segment_parser 由来) の連結 <-> md 非表本文 の完全一致が本判定。
-      (emit_table_md は md のみに表を足すため、表行は分離して table chunk と突合)
-    - kou / table chunk は XML 直接経路 (F3) なので「chunk のみに存在」を別掲する。
+    G0-b (本判定): 本文系 chunk の連結 == 正本 md の非表本文 (完全一致)。
+        号 (kou) も正本 md から導出される第一級の segment になったので本文系に含める。
+        表 chunk は別ファイル・別経路なので、md の表行と分けて突合する。
+    G0-c: 各 chunk の text は親条文の本文の部分列 (chunk ⊂ 親本文)。
     """
     md_nontable_lines: list[str] = []
     md_table_rows: list[str] = []
@@ -464,30 +484,30 @@ def compare_md_to_chunks(md_paras: list[str], chunks: list[dict], table_chunks: 
                 md_nontable_lines.append(ln)
     md_main_norm = norm("".join(md_nontable_lines))
 
-    parser_texts = [
-        c.get("text", "") for c in chunks if c.get("segment_type") in PARSER_CHUNK_TYPES
-    ]
-    kou_texts = [c.get("text", "") for c in chunks if c.get("segment_type") == "kou"]
-    parser_norm = norm("".join(parser_texts))
+    body_chunks = [c for c in chunks if c.get("segment_type") in PARSER_CHUNK_TYPES]
+    body_texts = [c.get("text", "") for c in body_chunks]
+    body_norm = norm("".join(body_texts))
 
     result: dict[str, Any] = {
-        "exact": parser_norm == md_main_norm,
+        "exact": body_norm == md_main_norm,
         "md_chars": len(md_main_norm),
-        "chunk_chars": len(parser_norm),
-        "all_chunks_missing": bool(md_main_norm) and not parser_texts and not kou_texts,
-        "parser_chunks_missing": bool(md_main_norm) and not parser_texts,
+        "chunk_chars": len(body_norm),
+        "all_chunks_missing": bool(md_main_norm) and not chunks,
+        "parser_chunks_missing": bool(md_main_norm) and not body_texts,
         "md_not_in_chunks_chars": 0,
         "chunk_not_in_md_count": 0,
-        "kou_chunks": len(kou_texts),
-        "kou_chunks_not_in_md": 0,
+        "kou_chunks": sum(1 for c in body_chunks if c.get("segment_type") == "kou"),
         "table_rows_md": len(md_table_rows),
         "table_rows_not_in_table_chunks": 0,
+        # G0-c: chunk ⊂ 親本文 (表 chunk は書式パイプを剥いで比較)
+        "g0c_violations": 0,
+        "g0c_violation_samples": [],
     }
 
     if not result["exact"]:
         covered = bytearray(len(md_main_norm))
         cursor = 0
-        for t in parser_texts:
+        for t in body_texts:
             tn = norm(t)
             if not tn:
                 continue
@@ -503,10 +523,18 @@ def compare_md_to_chunks(md_paras: list[str], chunks: list[dict], table_chunks: 
             len(r) for r in _uncovered_runs(md_main_norm, covered)
         )
 
-    md_all_norm = norm("".join(md_paras))
-    for t in kou_texts:
-        if norm(t) and norm(t) not in md_all_norm:
-            result["kou_chunks_not_in_md"] += 1
+    md_all_depiped = norm(
+        "".join(_strip_format_pipes(ln) for p in md_paras for ln in p.splitlines())
+    )
+    for c in chunks + table_chunks:
+        raw = c.get("text", "")
+        if not norm(raw):
+            continue
+        for probe in _g0c_probes(c, raw):
+            if probe and probe not in md_all_depiped:
+                result["g0c_violations"] += 1
+                if len(result["g0c_violation_samples"]) < 3:
+                    result["g0c_violation_samples"].append(f"{c.get('id')}: {probe[:50]}")
 
     # table chunk のテキストもパイプ付き GFM 行 (leadin + "| a | b |" 群) なので、
     # md 行と同様に書式パイプを剥いでから比較する (剥がないと全行が不一致になる)
@@ -525,6 +553,26 @@ def compare_md_to_chunks(md_paras: list[str], chunks: list[dict], table_chunks: 
     return result
 
 
+def _g0c_probes(chunk: dict, raw: str) -> list[str]:
+    """G0-c の検証単位: chunk の各行が親条文の本文にあること.
+
+    G0-c が守りたい不変条件は「**chunk は親条文に無いテキストを含まない**」(捏造ゼロ)。
+    連続した 1 本の部分列であることまでは要求しない。理由は、正本 md では表 (GFM 行) が
+    本文中の元の位置に現れる一方、表は別の chunk ファイルに切り出されるため、
+      - 号の中に細別と表が入る条 (地方税法 37 条 等) の号 chunk
+      - 本文 segment を連結した rollup chunk
+      - 導入文を文脈として先頭に付ける table chunk (設計どおり: A-7④)
+    のいずれも「本文 → 表 → 本文」の飛び越しが起き、連結すると連続部分列にならない。
+    順序と欠落は G0-b (chunk の総和 == 正本の非表本文、完全一致) が担保しているので、
+    G0-c は行単位の包含で捏造だけを見る。
+    """
+    return [
+        norm(_strip_format_pipes(ln))
+        for ln in raw.splitlines()
+        if norm(ln) and not is_gfm_separator_line(ln)
+    ]
+
+
 def _strip_format_pipes(line: str) -> str:
     r"""GFM 行の書式 "|" を剥ぎ、セル内エスケープ "\|" は文字 "|" に戻す.
 
@@ -532,6 +580,44 @@ def _strip_format_pipes(line: str) -> str:
     "\|" にエスケープする)。書式のパイプだけ落とし文字は変えない。
     """
     return line.replace("\\|", "\x00").replace("|", "").replace("\x00", "|")
+
+
+# ============================================================
+# G0-d: ルビ (振り仮名) の読みが本文に混入していないか
+# ============================================================
+
+
+def collect_ruby_pairs(article: Any) -> list[tuple[str, str]]:
+    """条の中の (ルビの base 文字, 読み) を集める.
+
+    e-Gov XML は難読字に `<Ruby>濾<Rt>ろ</Rt></Ruby>過` の形でルビを振る。
+    `<Rt>` は**読み仮名の注記であって本文ではない**。
+    """
+    pairs: list[tuple[str, str]] = []
+    for ruby in article.iter("Ruby"):
+        base = (ruby.text or "").strip()
+        rt = ruby.find("Rt")
+        reading = "".join(rt.itertext()).strip() if rt is not None else ""
+        if base and reading:
+            pairs.append((base, reading))
+    return pairs
+
+
+def check_ruby_contamination(article: Any, md_text: str) -> list[dict]:
+    """G0-d: md の**どこか**に「base + 読み」が連結して現れていないか.
+
+    Why 本文だけでなく md 全体を見るか (混入経路が 4 つあった):
+      1. 条文本文        (parse-egov.extract_all_text が Rt を拾っていた)
+      2. H1 見出し       (ArticleCaption 由来。「代理行為の瑕疵かし」)
+      3. 節名 parent_section (chunk にも複製される。「乗車、積載及び牽けん引」)
+      4. 表セル          (table_core.expand_virtual_grid が itertext を使っていた)
+    どれか 1 経路を塞いでも他が残る事故が実際に起きたので、md ファイル全体を検査する。
+    """
+    hits: list[dict] = []
+    for base, reading in collect_ruby_pairs(article):
+        if base + reading in md_text:
+            hits.append({"base": base, "reading": reading})
+    return hits
 
 
 # ============================================================
@@ -578,8 +664,16 @@ def process_law(
     report["articles_missing_md"] = sorted(set(xml_articles) - set(md_files))
     report["articles_md_only"] = sorted(set(md_files) - set(xml_articles))
 
+    # G0-d 用: 条番号 -> Article 要素 (ルビ検査は md ファイル全体を見るため元要素が要る)
+    article_elems = {
+        (a.get("Num") or "").strip().replace("_", "-"): a
+        for a in root.iter("Article")
+        if a.get("Num") and ":" not in a.get("Num")
+    }
+
     g0a: dict[str, dict] = {}
     g0b: dict[str, dict] = {}
+    ruby_hits: dict[str, list[dict]] = {}
     marker_lines_total = 0
     files_with_markers = 0
 
@@ -588,6 +682,11 @@ def process_law(
         if md_path is None:
             continue  # articles_missing_md で計上済み
         md_text = md_path.read_text(encoding="utf-8")
+        art_el = article_elems.get(num)
+        if art_el is not None:
+            hits = check_ruby_contamination(art_el, md_text)
+            if hits:
+                ruby_hits[num] = hits
         md_paras, marker_lines = md_paragraph_texts(md_text)
         marker_lines_total += marker_lines
         if marker_lines:
@@ -605,6 +704,7 @@ def process_law(
 
     report["marker_lines_total"] = marker_lines_total
     report["files_with_markers"] = files_with_markers
+    report["ruby_hits"] = ruby_hits
     report["g0a"] = g0a
     report["g0b"] = g0b
     return report
@@ -631,10 +731,15 @@ def aggregate(reports: list[dict]) -> dict:
         "g0b_all_chunks_missing": 0,
         "g0b_parser_chunks_missing": 0,
         "g0b_articles_md_not_in_chunks": 0,
-        "g0b_kou_chunks_not_in_md": 0,
         "g0b_table_rows_not_in_table_chunks": 0,
+        "g0c_violations": 0,
+        "g0c_violation_samples": [],
         "marker_lines_total": 0,
         "files_with_markers": 0,
+        "ruby_contaminated_articles": 0,
+        "ruby_contaminated_occurrences": 0,
+        "ruby_by_law": {},
+        "ruby_samples": [],
         "appdx_total": 0,
         "manifest_xml_sha_mismatch_laws": [],
     }
@@ -645,6 +750,18 @@ def aggregate(reports: list[dict]) -> dict:
         agg["articles_md_only"] += len(r["articles_md_only"])
         agg["marker_lines_total"] += r["marker_lines_total"]
         agg["files_with_markers"] += r["files_with_markers"]
+        rh = r.get("ruby_hits") or {}
+        if rh:
+            n_occ = sum(len(v) for v in rh.values())
+            agg["ruby_contaminated_articles"] += len(rh)
+            agg["ruby_contaminated_occurrences"] += n_occ
+            agg["ruby_by_law"][r["law_abbrev"]] = n_occ
+            for num, hits in list(rh.items())[:2]:
+                for h in hits[:1]:
+                    if len(agg["ruby_samples"]) < 10:
+                        agg["ruby_samples"].append(
+                            f"{r['law_abbrev']} 第{num}条: {h['base']}{h['reading']} (正: {h['base']})"
+                        )
         agg["appdx_total"] += r["appdx_count"]
         if r["manifest_xml_sha_match"] is False:
             agg["manifest_xml_sha_mismatch_laws"].append(r["law_abbrev"])
@@ -673,8 +790,11 @@ def aggregate(reports: list[dict]) -> dict:
                 agg["g0b_parser_chunks_missing"] += 1
             if b["md_not_in_chunks_chars"]:
                 agg["g0b_articles_md_not_in_chunks"] += 1
-            agg["g0b_kou_chunks_not_in_md"] += b["kou_chunks_not_in_md"]
             agg["g0b_table_rows_not_in_table_chunks"] += b["table_rows_not_in_table_chunks"]
+            agg["g0c_violations"] += b.get("g0c_violations", 0)
+            for smp in b.get("g0c_violation_samples", []):
+                if len(agg["g0c_violation_samples"]) < 10:
+                    agg["g0c_violation_samples"].append(smp)
     return agg
 
 
@@ -716,13 +836,24 @@ def render_summary_md(agg: dict, skipped_no_xml: list[str]) -> str:
         f"- chunk 全欠落 (md に本文があるのに chunk 0 件): {agg['g0b_all_chunks_missing']}",
         f"- 本文系 chunk 欠落 (kou のみ等を含む): {agg['g0b_parser_chunks_missing']}",
         f"- md 本文の一部が chunk に無い条: {agg['g0b_articles_md_not_in_chunks']}",
-        f"- 号 chunk が md に無い (F3: XML 別経路): {agg['g0b_kou_chunks_not_in_md']}",
         f"- md 表行が table chunk に無い: {agg['g0b_table_rows_not_in_table_chunks']}",
+        "",
+        "## G0-c: chunk ⊂ 親条文本文",
+        "",
+        f"- 違反 (親本文の部分列でない chunk): {agg['g0c_violations']}",
+        *[f"  - {s}" for s in agg["g0c_violation_samples"]],
         "",
         "## マーカー混入 (F4)",
         "",
         f"- マーカー行合計: {agg['marker_lines_total']}",
         f"- マーカーを含む md ファイル: {agg['files_with_markers']}",
+        "",
+        "## G0-d: ルビ (振り仮名) の読みが本文に混入していないか",
+        "",
+        f"- 混入している条: {agg['ruby_contaminated_articles']}",
+        f"- 混入箇所: {agg['ruby_contaminated_occurrences']}",
+        *([f"- 法令別: {agg['ruby_by_law']}"] if agg["ruby_by_law"] else []),
+        *[f"  - {s}" for s in agg["ruby_samples"]],
         "",
     ]
     if skipped_no_xml:
