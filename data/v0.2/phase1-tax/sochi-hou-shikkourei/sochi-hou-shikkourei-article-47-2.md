@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-2-p1-kou-1
     type: kou
-    text: 当該製品の製造者の住所及び氏名又は名称
+    text: 一　当該製品の製造者の住所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-2-p1-kou-2
     type: kou
-    text: 当該製品の製造場の所在地及び名称
+    text: 二　当該製品の製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-47-2-p1-kou-3
     type: kou
-    text: 当該製品の種類、当該種類ごとの数量その他参考となるべき事項
+    text: 三　当該製品の種類、当該種類ごとの数量その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

@@ -35,8 +35,8 @@ paragraphs:
     text: 前項本文の場合においては、建物の賃貸借関係に基づき生じた債権又は債務は、同項の規定により建物の賃借人の権利義務を承継した者に帰属する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

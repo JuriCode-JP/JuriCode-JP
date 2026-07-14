@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu_kei
   - id: kaisha-hou-art-966-p1-kou-1
     type: kou
-    text: 発起人
+    text: 一　発起人
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-966-p1-kou-2
     type: kou
-    text: 設立時取締役又は設立時執行役
+    text: 二　設立時取締役又は設立時執行役
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-966-p1-kou-3
     type: kou
-    text: 取締役、執行役又は清算株式会社の清算人
+    text: 三　取締役、執行役又は清算株式会社の清算人
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-966-p1-kou-4
     type: kou
-    text: 民事保全法第五十六条に規定する仮処分命令により選任された取締役、執行役又は清算株式会社の清算人の職務を代行する者
+    text: 四　民事保全法第五十六条に規定する仮処分命令により選任された取締役、執行役又は清算株式会社の清算人の職務を代行する者
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-966-p1-kou-5
     type: kou
-    text: 第三百四十六条第二項（第四百七十九条第四項において準用する場合を含む。）又は第四百三条第三項において準用する第四百一条第三項の規定により選任された一時取締役（監査等委員会設置会社にあっては、監査等委員である取締役又はそれ以外の取締役）、執行役又は清算株式会社の清算人の職務を行うべき者
+    text: 五　第三百四十六条第二項（第四百七十九条第四項において準用する場合を含む。）又は第四百三条第三項において準用する第四百一条第三項の規定により選任された一時取締役（監査等委員会設置会社にあっては、監査等委員である取締役又はそれ以外の取締役）、執行役又は清算株式会社の清算人の職務を行うべき者
     modality: unspecified
     item_number: 5
 cases: []

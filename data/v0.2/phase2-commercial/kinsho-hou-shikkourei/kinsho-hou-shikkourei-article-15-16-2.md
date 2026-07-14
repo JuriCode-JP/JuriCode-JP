@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-16-2-p1-kou-1
     type: kou
-    text: その子会社等
+    text: 一　その子会社等
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-16-2-p1-kou-2
     type: kou
-    text: その関連会社等
+    text: 二　その関連会社等
     modality: unspecified
     item_number: 2
 - number: 2

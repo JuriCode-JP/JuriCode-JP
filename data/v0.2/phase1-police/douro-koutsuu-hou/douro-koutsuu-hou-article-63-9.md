@@ -34,6 +34,10 @@ paragraphs:
     type: tadashi
     text: ただし、第五十二条第一項前段の規定により尾灯をつけている場合は、この限りでない。
     modality: jogai
+  - id: douro-koutsuu-hou-art-63-9-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十条第一項第七号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

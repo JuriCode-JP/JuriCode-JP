@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-340-p1-kou-1
     type: kou
-    text: 職務上の義務に違反し、又は職務を怠ったとき。
+    text: 一　職務上の義務に違反し、又は職務を怠ったとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-340-p1-kou-2
     type: kou
-    text: 会計監査人としてふさわしくない非行があったとき。
+    text: 二　会計監査人としてふさわしくない非行があったとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-340-p1-kou-3
     type: kou
-    text: 心身の故障のため、職務の執行に支障があり、又はこれに堪えないとき。
+    text: 三　心身の故障のため、職務の執行に支障があり、又はこれに堪えないとき。
     modality: unspecified
     item_number: 3
 - number: 2

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-99-p1-kou-1
     type: kou
-    text: ある種類の株式の内容として第百八条第一項第六号に掲げる事項についての定款の定めを設け、又は当該事項についての定款の変更（当該事項についての定款の定めを廃止するものを除く。）をしようとするとき。
+    text: 一　ある種類の株式の内容として第百八条第一項第六号に掲げる事項についての定款の定めを設け、又は当該事項についての定款の変更（当該事項についての定款の定めを廃止するものを除く。）をしようとするとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-99-p1-kou-2
     type: kou
-    text: ある種類の株式について第三百二十二条第二項の規定による定款の定めを設けようとするとき。
+    text: 二　ある種類の株式について第三百二十二条第二項の規定による定款の定めを設けようとするとき。
     modality: unspecified
     item_number: 2
 cases: []

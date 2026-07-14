@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-19-5-p2-kou-1
     type: kou
-    text: 提出すべき会社が内国親会社等（親会社等のうち外国親会社等を除くものをいう。第二十二条第一項において同じ。）である場合　第五号の四様式
+    text: 一　提出すべき会社が内国親会社等（親会社等のうち外国親会社等を除くものをいう。第二十二条第一項において同じ。）である場合　第五号の四様式
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-19-5-p2-kou-2
     type: kou
-    text: 提出すべき会社が外国親会社等である場合　第十号の三様式
+    text: 二　提出すべき会社が外国親会社等である場合　第十号の三様式
     modality: unspecified
     item_number: 2
 - number: 3
@@ -51,12 +51,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-19-5-p3-kou-1
     type: kou
-    text: 当該親会社等状況報告書に記載された当該外国親会社等の代表者が当該親会社等状況報告書の提出に関し正当な権限を有する者であることを証する書面
+    text: 一　当該親会社等状況報告書に記載された当該外国親会社等の代表者が当該親会社等状況報告書の提出に関し正当な権限を有する者であることを証する書面
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-19-5-p3-kou-2
     type: kou
-    text: 当該外国親会社等が、本邦内に住所を有する者に、当該親会社等状況報告書の提出に関する一切の行為につき当該外国親会社等を代理する権限を付与したことを証する書面
+    text: 二　当該外国親会社等が、本邦内に住所を有する者に、当該親会社等状況報告書の提出に関する一切の行為につき当該外国親会社等を代理する権限を付与したことを証する書面
     modality: unspecified
     item_number: 2
 cases: []

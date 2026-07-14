@@ -67,8 +67,8 @@ paragraphs:
     override_target:
     - 第十条
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

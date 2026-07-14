@@ -41,12 +41,12 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-shikkourei-art-85-p2-kou-1
     type: kou
-    text: 前項に規定する一・五を乗じて計算した年数　一年未満の端数は、切り捨てる。
+    text: 一　前項に規定する一・五を乗じて計算した年数　一年未満の端数は、切り捨てる。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-85-p2-kou-2
     type: kou
-    text: 前項に規定する期間に係る年数　六月以上の端数は一年とし、六月に満たない端数は切り捨てる。
+    text: 二　前項に規定する期間に係る年数　六月以上の端数は一年とし、六月に満たない端数は切り捨てる。
     modality: unspecified
     item_number: 2
 cases:

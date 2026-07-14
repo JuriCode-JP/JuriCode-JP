@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項の訴えについては、同項各号に掲げる行為の相手方又は転得者を被告とする。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

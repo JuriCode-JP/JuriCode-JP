@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-426-p1-kou-1
     type: kou
-    text: 破産者で復権を得ない者
+    text: 一　破産者で復権を得ない者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-426-p1-kou-2
     type: kou
-    text: 固定資産評価審査委員会の委員の職務に関して罪を犯し刑に処せられた者
+    text: 二　固定資産評価審査委員会の委員の職務に関して罪を犯し刑に処せられた者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-426-p1-kou-3
     type: kou
-    text: 前号に規定する者を除くほか、拘禁刑以上の刑に処せられた者であつてその執行を終わつてから、又は執行を受けることがなくなつてから、二年を経過しない者
+    text: 三　前号に規定する者を除くほか、拘禁刑以上の刑に処せられた者であつてその執行を終わつてから、又は執行を受けることがなくなつてから、二年を経過しない者
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-426-p1-kou-4
     type: kou
-    text: 国家公務員又は地方公共団体の職員で、懲戒免職の処分を受け、当該処分の日から二年を経過しない者
+    text: 四　国家公務員又は地方公共団体の職員で、懲戒免職の処分を受け、当該処分の日から二年を経過しない者
     modality: unspecified
     item_number: 4
 cases: []

@@ -23,6 +23,10 @@ paragraphs:
     modality: gimu
     references:
     - 前条
+  - id: douro-koutsuu-hou-art-9-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第二号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

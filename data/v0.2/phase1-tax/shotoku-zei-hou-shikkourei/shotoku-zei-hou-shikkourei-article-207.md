@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-207-p1-kou-1
     type: kou
-    text: 医師又は歯科医師による診療又は治療
+    text: 一　医師又は歯科医師による診療又は治療
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-207-p1-kou-2
     type: kou
-    text: 治療又は療養に必要な医薬品の購入
+    text: 二　治療又は療養に必要な医薬品の購入
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-207-p1-kou-3
     type: kou
-    text: 病院、診療所（これに準ずるものとして財務省令で定めるものを含む。）又は助産所へ収容されるための人的役務の提供
+    text: 三　病院、診療所（これに準ずるものとして財務省令で定めるものを含む。）又は助産所へ収容されるための人的役務の提供
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-207-p1-kou-4
     type: kou
-    text: あん摩マツサージ指圧師、はり師、きゆう師等に関する法律（昭和二十二年法律第二百十七号）第三条の二（名簿）に規定する施術者（同法第十二条の二第一項（医業類似行為を業とすることができる者）の規定に該当する者を含む。）又は柔道整復師法（昭和四十五年法律第十九号）第二条第一項（定義）に規定する柔道整復師による施術
+    text: 四　あん摩マツサージ指圧師、はり師、きゆう師等に関する法律（昭和二十二年法律第二百十七号）第三条の二（名簿）に規定する施術者（同法第十二条の二第一項（医業類似行為を業とすることができる者）の規定に該当する者を含む。）又は柔道整復師法（昭和四十五年法律第十九号）第二条第一項（定義）に規定する柔道整復師による施術
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-207-p1-kou-5
     type: kou
-    text: 保健師、看護師又は准看護師による療養上の世話
+    text: 五　保健師、看護師又は准看護師による療養上の世話
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikkourei-art-207-p1-kou-6
     type: kou
-    text: 助産師による分べんの介助
+    text: 六　助産師による分べんの介助
     modality: unspecified
     item_number: 6
   - id: shotoku-zei-hou-shikkourei-art-207-p1-kou-7
     type: kou
-    text: 介護福祉士による社会福祉士及び介護福祉士法（昭和六十二年法律第三十号）第二条第二項（定義）に規定する喀痰かくたん吸引等又は同法附則第十条第一項（認定特定行為業務従事者に係る特例）に規定する認定特定行為業務従事者による同項に規定する特定行為
+    text: 七　介護福祉士による社会福祉士及び介護福祉士法（昭和六十二年法律第三十号）第二条第二項（定義）に規定する喀痰吸引等又は同法附則第十条第一項（認定特定行為業務従事者に係る特例）に規定する認定特定行為業務従事者による同項に規定する特定行為
     modality: unspecified
     item_number: 7
 cases:
@@ -120,4 +120,4 @@ parent_section:
 
 六　助産師による分べんの介助
 
-七　介護福祉士による社会福祉士及び介護福祉士法（昭和六十二年法律第三十号）第二条第二項（定義）に規定する喀痰かくたん吸引等又は同法附則第十条第一項（認定特定行為業務従事者に係る特例）に規定する認定特定行為業務従事者による同項に規定する特定行為
+七　介護福祉士による社会福祉士及び介護福祉士法（昭和六十二年法律第三十号）第二条第二項（定義）に規定する喀痰吸引等又は同法附則第十条第一項（認定特定行為業務従事者に係る特例）に規定する認定特定行為業務従事者による同項に規定する特定行為

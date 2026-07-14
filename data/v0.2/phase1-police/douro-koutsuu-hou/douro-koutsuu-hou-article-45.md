@@ -23,27 +23,27 @@ paragraphs:
     modality: jogai
   - id: douro-koutsuu-hou-art-45-p1-kou-1
     type: kou
-    text: 人の乗降、貨物の積卸し、駐車又は自動車の格納若しくは修理のため道路外に設けられた施設又は場所の道路に接する自動車用の出入口から三メートル以内の部分
+    text: 一　人の乗降、貨物の積卸し、駐車又は自動車の格納若しくは修理のため道路外に設けられた施設又は場所の道路に接する自動車用の出入口から三メートル以内の部分
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-45-p1-kou-2
     type: kou
-    text: 道路工事が行なわれている場合における当該工事区域の側端から五メートル以内の部分
+    text: 二　道路工事が行なわれている場合における当該工事区域の側端から五メートル以内の部分
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-45-p1-kou-3
     type: kou
-    text: 消防用機械器具の置場若しくは消防用防火水槽そうの側端又はこれらの道路に接する出入口から五メートル以内の部分
+    text: 三　消防用機械器具の置場若しくは消防用防火水槽の側端又はこれらの道路に接する出入口から五メートル以内の部分
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-45-p1-kou-4
     type: kou
-    text: 消火栓、指定消防水利の標識が設けられている位置又は消防用防火水槽そうの吸水口若しくは吸管投入孔から五メートル以内の部分
+    text: 四　消火栓、指定消防水利の標識が設けられている位置又は消防用防火水槽の吸水口若しくは吸管投入孔から五メートル以内の部分
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-45-p1-kou-5
     type: kou
-    text: 火災報知機から一メートル以内の部分
+    text: 五　火災報知機から一メートル以内の部分
     modality: unspecified
     item_number: 5
 - number: 2
@@ -70,6 +70,10 @@ paragraphs:
     modality: jogai
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-45-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第二項については第百十九条の二の四第一項第一号、同条第三項、第百十九条の三第一項第一号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -94,9 +98,9 @@ parent_section:
 
 二　道路工事が行なわれている場合における当該工事区域の側端から五メートル以内の部分
 
-三　消防用機械器具の置場若しくは消防用防火水槽そうの側端又はこれらの道路に接する出入口から五メートル以内の部分
+三　消防用機械器具の置場若しくは消防用防火水槽の側端又はこれらの道路に接する出入口から五メートル以内の部分
 
-四　消火栓、指定消防水利の標識が設けられている位置又は消防用防火水槽そうの吸水口若しくは吸管投入孔から五メートル以内の部分
+四　消火栓、指定消防水利の標識が設けられている位置又は消防用防火水槽の吸水口若しくは吸管投入孔から五メートル以内の部分
 
 五　火災報知機から一メートル以内の部分
 

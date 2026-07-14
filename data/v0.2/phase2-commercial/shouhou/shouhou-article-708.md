@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: shouhou-art-708-p1-kou-1
     type: kou
-    text: 船舶について抵当権を設定すること。
+    text: 一　船舶について抵当権を設定すること。
     modality: unspecified
     item_number: 1
   - id: shouhou-art-708-p1-kou-2
     type: kou
-    text: 借財をすること。
+    text: 二　借財をすること。
     modality: unspecified
     item_number: 2
 - number: 2

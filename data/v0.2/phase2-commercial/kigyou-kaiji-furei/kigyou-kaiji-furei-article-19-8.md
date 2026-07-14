@@ -41,27 +41,27 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-19-8-p3-kou-1
     type: kou
-    text: 第十号の三様式による親会社等状況報告書に記載すべき事項のうち、外国親会社等状況報告書に記載されていない事項を日本語又は英語によつて記載したもの（前項に定める事項が記載されていない場合は、日本語によつて記載したものに限る。）
+    text: 一　第十号の三様式による親会社等状況報告書に記載すべき事項のうち、外国親会社等状況報告書に記載されていない事項を日本語又は英語によつて記載したもの（前項に定める事項が記載されていない場合は、日本語によつて記載したものに限る。）
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-19-8-p3-kou-2
     type: kou
-    text: 第十号の三様式による親会社等状況報告書に記載すべき事項と当該事項に相当する外国親会社等状況報告書の記載事項との対照表
+    text: 二　第十号の三様式による親会社等状況報告書に記載すべき事項と当該事項に相当する外国親会社等状況報告書の記載事項との対照表
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-19-8-p3-kou-3
     type: kou
-    text: 当該外国親会社等状況報告書に記載された外国親会社等の代表者が当該外国親会社等状況報告書の提出に関し正当な権限を有する者であることを証する書面
+    text: 三　当該外国親会社等状況報告書に記載された外国親会社等の代表者が当該外国親会社等状況報告書の提出に関し正当な権限を有する者であることを証する書面
     modality: unspecified
     item_number: 3
   - id: kigyou-kaiji-furei-art-19-8-p3-kou-4
     type: kou
-    text: 当該外国親会社等が、本邦内に住所を有する者に、当該外国親会社等状況報告書の提出に関する一切の行為につき当該外国親会社等を代理する権限を付与したことを証する書面
+    text: 四　当該外国親会社等が、本邦内に住所を有する者に、当該外国親会社等状況報告書の提出に関する一切の行為につき当該外国親会社等を代理する権限を付与したことを証する書面
     modality: unspecified
     item_number: 4
   - id: kigyou-kaiji-furei-art-19-8-p3-kou-5
     type: kou
-    text: 第十号の四様式により作成した書面
+    text: 五　第十号の四様式により作成した書面
     modality: unspecified
     item_number: 5
 - number: 4

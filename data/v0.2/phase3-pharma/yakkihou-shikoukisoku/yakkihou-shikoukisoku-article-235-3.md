@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-235-3-p1-kou-1
     type: kou
-    text: 遺伝子組換え技術を応用して製造される場合にあつては、その旨
+    text: 一　遺伝子組換え技術を応用して製造される場合にあつては、その旨
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-235-3-p1-kou-2
     type: kou
-    text: 当該生物由来製品の原料又は材料のうち、人その他の生物に由来する成分の名称
+    text: 二　当該生物由来製品の原料又は材料のうち、人その他の生物に由来する成分の名称
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-235-3-p1-kou-3
     type: kou
-    text: 当該生物由来製品の原材料である人その他の生物の部位等の名称（当該人その他の生物の名称を含む。）
+    text: 三　当該生物由来製品の原材料である人その他の生物の部位等の名称（当該人その他の生物の名称を含む。）
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-235-3-p1-kou-4
     type: kou
-    text: その他当該生物由来製品を適正に使用するために必要な事項
+    text: 四　その他当該生物由来製品を適正に使用するために必要な事項
     modality: unspecified
     item_number: 4
 - number: 2

@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: douro-koutsuu-hou-art-108-28-p1-kou-1
     type: kou
-    text: 自動車及び原動機付自転車の安全な運転に必要な技能及び知識その他の適正な交通の方法に関する技能及び知識を習得する機会を提供するための交通安全教育の内容及び方法
+    text: 一　自動車及び原動機付自転車の安全な運転に必要な技能及び知識その他の適正な交通の方法に関する技能及び知識を習得する機会を提供するための交通安全教育の内容及び方法
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-108-28-p1-kou-2
     type: kou
-    text: 交通事故防止に関する知識を習得する機会を提供するための交通安全教育の内容及び方法
+    text: 二　交通事故防止に関する知識を習得する機会を提供するための交通安全教育の内容及び方法
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-108-28-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、道路を通行する者に対する交通安全教育を効果的かつ適切に行うために必要な事項
+    text: 三　前二号に掲げるもののほか、道路を通行する者に対する交通安全教育を効果的かつ適切に行うために必要な事項
     modality: unspecified
     item_number: 3
 - number: 2
@@ -67,17 +67,17 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-108-28-p4-kou-1
     type: kou
-    text: 法令で定める道路の交通の方法
+    text: 一　法令で定める道路の交通の方法
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-108-28-p4-kou-2
     type: kou
-    text: 道路における危険を防止し、その他交通の安全と円滑を図り、又は道路の交通に起因する障害を防止するため、道路を通行する者が励行することが望ましい事項
+    text: 二　道路における危険を防止し、その他交通の安全と円滑を図り、又は道路の交通に起因する障害を防止するため、道路を通行する者が励行することが望ましい事項
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-108-28-p4-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、自動車の構造その他自動車及び原動機付自転車の運転に必要な知識
+    text: 三　前二号に掲げるもののほか、自動車の構造その他自動車及び原動機付自転車の運転に必要な知識
     modality: unspecified
     item_number: 3
 cases: []

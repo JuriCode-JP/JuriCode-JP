@@ -49,12 +49,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-22-20-3-p3-kou-1
     type: kou
-    text: 計算規則第五十二条第一項第二号に掲げる期首欠損金として表示された金額　当該表示された金額
+    text: 一　計算規則第五十二条第一項第二号に掲げる期首欠損金として表示された金額　当該表示された金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-22-20-3-p3-kou-2
     type: kou
-    text: 計算規則第四十六条第三項の規定により同項の減損損失に細分された金額　当該細分された金額の百分の七十に相当する金額
+    text: 二　計算規則第四十六条第三項の規定により同項の減損損失に細分された金額　当該細分された金額の百分の七十に相当する金額
     modality: unspecified
     item_number: 2
 - number: 4

@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-289-p1-kou-1
     type: kou
-    text: 国内において行う業務又は国内にある資産に関し受ける保険金、補償金又は損害賠償金（これらに類するものを含む。）に係る所得
+    text: 一　国内において行う業務又は国内にある資産に関し受ける保険金、補償金又は損害賠償金（これらに類するものを含む。）に係る所得
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-289-p1-kou-2
     type: kou
-    text: 国内にある資産の法人からの贈与により取得する所得
+    text: 二　国内にある資産の法人からの贈与により取得する所得
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-289-p1-kou-3
     type: kou
-    text: 国内において発見された埋蔵物又は国内において拾得された遺失物に係る所得
+    text: 三　国内において発見された埋蔵物又は国内において拾得された遺失物に係る所得
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-289-p1-kou-4
     type: kou
-    text: 国内において行う懸賞募集に基づいて懸賞として受ける金品その他の経済的な利益（旅行その他の役務の提供を内容とするもので、金品との選択ができないものとされているものを除く。）に係る所得
+    text: 四　国内において行う懸賞募集に基づいて懸賞として受ける金品その他の経済的な利益（旅行その他の役務の提供を内容とするもので、金品との選択ができないものとされているものを除く。）に係る所得
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-289-p1-kou-5
     type: kou
-    text: 前三号に掲げるもののほか、国内においてした行為に伴い取得する一時所得
+    text: 五　前三号に掲げるもののほか、国内においてした行為に伴い取得する一時所得
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikkourei-art-289-p1-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、国内において行う業務又は国内にある資産に関し供与を受ける経済的な利益に係る所得
+    text: 六　前各号に掲げるもののほか、国内において行う業務又は国内にある資産に関し供与を受ける経済的な利益に係る所得
     modality: unspecified
     item_number: 6
 cases: []

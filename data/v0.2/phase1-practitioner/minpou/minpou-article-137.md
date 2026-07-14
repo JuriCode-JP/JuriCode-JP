@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_negative
   - id: minpou-art-137-p1-kou-1
     type: kou
-    text: 債務者が破産手続開始の決定を受けたとき。
+    text: 一　債務者が破産手続開始の決定を受けたとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-137-p1-kou-2
     type: kou
-    text: 債務者が担保を滅失させ、損傷させ、又は減少させたとき。
+    text: 二　債務者が担保を滅失させ、損傷させ、又は減少させたとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-137-p1-kou-3
     type: kou
-    text: 債務者が担保を供する義務を負う場合において、これを供しないとき。
+    text: 三　債務者が担保を供する義務を負う場合において、これを供しないとき。
     modality: unspecified
     item_number: 3
 cases: []

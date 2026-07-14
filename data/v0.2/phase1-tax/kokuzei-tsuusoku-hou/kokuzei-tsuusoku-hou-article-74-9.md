@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-art-74-9-p1-kou-1
     type: kou
-    text: 質問検査等を行う実地の調査（以下この条において単に「調査」という。）を開始する日時
+    text: 一　質問検査等を行う実地の調査（以下この条において単に「調査」という。）を開始する日時
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-74-9-p1-kou-2
     type: kou
-    text: 調査を行う場所
+    text: 二　調査を行う場所
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-74-9-p1-kou-3
     type: kou
-    text: 調査の目的
+    text: 三　調査の目的
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-74-9-p1-kou-4
     type: kou
-    text: 調査の対象となる税目
+    text: 四　調査の対象となる税目
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-art-74-9-p1-kou-5
     type: kou
-    text: 調査の対象となる期間
+    text: 五　調査の対象となる期間
     modality: unspecified
     item_number: 5
   - id: kokuzei-tsuusoku-hou-art-74-9-p1-kou-6
     type: kou
-    text: 調査の対象となる帳簿書類その他の物件
+    text: 六　調査の対象となる帳簿書類その他の物件
     modality: unspecified
     item_number: 6
   - id: kokuzei-tsuusoku-hou-art-74-9-p1-kou-7
     type: kou
-    text: その他調査の適正かつ円滑な実施に必要なものとして政令で定める事項
+    text: 七　その他調査の適正かつ円滑な実施に必要なものとして政令で定める事項
     modality: unspecified
     item_number: 7
 - number: 2
@@ -66,8 +66,8 @@ paragraphs:
     text: 税務署長等は、前項の規定による通知を受けた納税義務者から合理的な理由を付して同項第一号又は第二号に掲げる事項について変更するよう求めがあつた場合には、当該事項について協議するよう努めるものとする。
     modality: doryoku_gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -79,12 +79,12 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-art-74-9-p3-kou-1
     type: kou
-    text: 納税義務者　第七十四条の二第一項第一号イ、第二号イ、第三号イ及び第四号イ並びに第七十四条の三第一項第一号イ及び第二号イに掲げる者、第七十四条の四第一項並びに第七十四条の五第一号イ及びロ、第二号イ及びロ、第三号イ及びロ、第四号イ及びロ、第五号イ並びに第六号イの規定により当該職員による質問検査等の対象となることとなる者並びに第七十四条の六第一項第一号イ及び第二号イに掲げる者
+    text: 一　納税義務者　第七十四条の二第一項第一号イ、第二号イ、第三号イ及び第四号イ並びに第七十四条の三第一項第一号イ及び第二号イに掲げる者、第七十四条の四第一項並びに第七十四条の五第一号イ及びロ、第二号イ及びロ、第三号イ及びロ、第四号イ及びロ、第五号イ並びに第六号イの規定により当該職員による質問検査等の対象となることとなる者並びに第七十四条の六第一項第一号イ及び第二号イに掲げる者
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-74-9-p3-kou-2
     type: kou
-    text: 税務代理人　税理士法第三十条（税務代理の権限の明示）（同法第四十八条の十六（税理士の権利及び義務等に関する規定の準用）において準用する場合を含む。）の書面を提出している税理士若しくは税理士法人又は同法第五十一条第一項（税理士業務を行う弁護士等）の規定による通知をした弁護士若しくは同条第三項の規定による通知をした弁護士法人若しくは弁護士・外国法事務弁護士共同法人
+    text: 二　税務代理人　税理士法第三十条（税務代理の権限の明示）（同法第四十八条の十六（税理士の権利及び義務等に関する規定の準用）において準用する場合を含む。）の書面を提出している税理士若しくは税理士法人又は同法第五十一条第一項（税理士業務を行う弁護士等）の規定による通知をした弁護士若しくは同条第三項の規定による通知をした弁護士法人若しくは弁護士・外国法事務弁護士共同法人
     modality: unspecified
     item_number: 2
 - number: 4

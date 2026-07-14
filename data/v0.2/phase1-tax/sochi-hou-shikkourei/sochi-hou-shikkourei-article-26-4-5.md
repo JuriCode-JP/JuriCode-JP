@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-4-5-p1-kou-1
     type: kou
-    text: 厚生労働大臣が支給する公的年金等
+    text: 一　厚生労働大臣が支給する公的年金等
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-4-5-p1-kou-2
     type: kou
-    text: 国家公務員共済組合連合会が支給する公的年金等
+    text: 二　国家公務員共済組合連合会が支給する公的年金等
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-26-4-5-p1-kou-3
     type: kou
-    text: 地方公務員共済組合、全国市町村職員共済組合連合会又は地方公務員等共済組合法の一部を改正する法律（平成二十三年法律第五十六号）附則第二十三条第一項第三号に規定する存続共済会が支給する公的年金等
+    text: 三　地方公務員共済組合、全国市町村職員共済組合連合会又は地方公務員等共済組合法の一部を改正する法律（平成二十三年法律第五十六号）附則第二十三条第一項第三号に規定する存続共済会が支給する公的年金等
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-26-4-5-p1-kou-4
     type: kou
-    text: 日本私立学校振興・共済事業団が支給する公的年金等
+    text: 四　日本私立学校振興・共済事業団が支給する公的年金等
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-26-4-5-p1-kou-5
     type: kou
-    text: 地方公務員の退職年金に関する条例の規定による退職を給付事由とする公的年金等
+    text: 五　地方公務員の退職年金に関する条例の規定による退職を給付事由とする公的年金等
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-26-4-5-p1-kou-6
     type: kou
-    text: 恩給法（大正十二年法律第四十八号。他の法律において準用する場合を含む。）による公的年金等
+    text: 六　恩給法（大正十二年法律第四十八号。他の法律において準用する場合を含む。）による公的年金等
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikkourei-art-26-4-5-p1-kou-7
     type: kou
-    text: 執行官法の一部を改正する法律（平成十九年法律第十八号）附則第三条第一項の規定によりなお従前の例により支給されることとされる同法による改正前の執行官法（昭和四十一年法律第百十一号）附則第十三条の規定による公的年金等
+    text: 七　執行官法の一部を改正する法律（平成十九年法律第十八号）附則第三条第一項の規定によりなお従前の例により支給されることとされる同法による改正前の執行官法（昭和四十一年法律第百十一号）附則第十三条の規定による公的年金等
     modality: unspecified
     item_number: 7
   - id: sochi-hou-shikkourei-art-26-4-5-p1-kou-8
     type: kou
-    text: 国会議員互助年金法を廃止する法律（平成十八年法律第一号）又は同法附則第二条第一項の規定によりなおその効力を有するものとされた同法による廃止前の国会議員互助年金法（昭和三十三年法律第七十号）による公的年金等
+    text: 八　国会議員互助年金法を廃止する法律（平成十八年法律第一号）又は同法附則第二条第一項の規定によりなおその効力を有するものとされた同法による廃止前の国会議員互助年金法（昭和三十三年法律第七十号）による公的年金等
     modality: unspecified
     item_number: 8
   - id: sochi-hou-shikkourei-art-26-4-5-p1-kou-9
     type: kou
-    text: 前各号に掲げるもののほか、財務省令で定める公的年金等
+    text: 九　前各号に掲げるもののほか、財務省令で定める公的年金等
     modality: unspecified
     item_number: 9
 - number: 2

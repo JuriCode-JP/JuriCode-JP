@@ -22,8 +22,8 @@ paragraphs:
     text: 令第三百三十九条第一項（無記名公社債の利子等に係る告知書等の提出等）に規定する財務省令で定める者は、無記名公社債等（同項に規定する無記名公社債等をいう。以下この条において同じ。）の利子等（同項に規定する利子等をいう。以下この条において同じ。）の支払の取扱者（令第三百三十九条第二項の規定により支払の取扱者とみなされる者を含む。次項において同じ。）が、当該無記名公社債等の利子等の支払を受ける者の氏名又は名称、住所（国内に住所を有しない者にあつては、第八十一条（国内に住所を有しない者の告知すべき居所地等）に規定する場所。以下この項、第三項第一号及び第六項第一号において同じ。）及び個人番号又は法人番号その他の事項を記載した帳簿（その者の令第三百三十九条第九項において準用する令第三百三十七条第二項各号（告知に係る住民票の写しその他の書類の提示等）に定める書類のいずれかの提示若しくはその者の署名用電子証明書等の送信若しくはその者に係る特定通知等を受け、又は令第三百三十九条第九項において準用する令第三百三十七条第四項の規定による確認をして作成されたものに限る。）を備えている場合におけるその支払を受ける者（その者の氏名若しくは名称、住所又は個人番号若しくは法人番号が当該帳簿に記載されているその者の氏名若しくは名称、住所又は個人番号若しくは法人番号と異なるものを除く。）とする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -46,27 +46,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p3-kou-1
     type: kou
-    text: 無記名公社債等の利子等の支払を受ける者の氏名又は名称、住所及び個人番号又は法人番号（個人番号及び法人番号を有しない者又は第一項の規定に該当する者にあつては、氏名又は名称及び住所。第六項第一号において同じ。）
+    text: 一　無記名公社債等の利子等の支払を受ける者の氏名又は名称、住所及び個人番号又は法人番号（個人番号及び法人番号を有しない者又は第一項の規定に該当する者にあつては、氏名又は名称及び住所。第六項第一号において同じ。）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p3-kou-2
     type: kou
-    text: 無記名公社債等の種類又は名称
+    text: 二　無記名公社債等の種類又は名称
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p3-kou-3
     type: kou
-    text: 無記名公社債等について、その元本の所有者以外の者が当該無記名公社債等の利子等につき支払を受ける場合には、当該無記名公社債等の元本の所有者の氏名又は名称及び住所（国内に住所がない場合には、居所）
+    text: 三　無記名公社債等について、その元本の所有者以外の者が当該無記名公社債等の利子等につき支払を受ける場合には、当該無記名公社債等の元本の所有者の氏名又は名称及び住所（国内に住所がない場合には、居所）
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p3-kou-4
     type: kou
-    text: 第一号の支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定による納税管理人の届出をしている場合には、その納税管理人の氏名及び住所（国内に住所がない場合には、居所）
+    text: 四　第一号の支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定による納税管理人の届出をしている場合には、その納税管理人の氏名及び住所（国内に住所がない場合には、居所）
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p3-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 4
@@ -89,17 +89,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p5-kou-1
     type: kou
-    text: 令第三百三十九条第三項に規定する契約に基づき保管の委託をしようとする無記名公社債等の種別（公社債、無記名株式等（同条第一項に規定する無記名株式等をいう。）又は貸付信託、投資信託若しくは特定受益証券発行信託の受益証券の別をいう。次項第二号及び第七項第二号において同じ。）
+    text: 一　令第三百三十九条第三項に規定する契約に基づき保管の委託をしようとする無記名公社債等の種別（公社債、無記名株式等（同条第一項に規定する無記名株式等をいう。）又は貸付信託、投資信託若しくは特定受益証券発行信託の受益証券の別をいう。次項第二号及び第七項第二号において同じ。）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p5-kou-2
     type: kou
-    text: 前号の保管の委託をする無記名公社債等の利子等につき当該保管の委託をしている期間内に支払を受ける利子等の支払の取扱いを依頼する旨
+    text: 二　前号の保管の委託をする無記名公社債等の利子等につき当該保管の委託をしている期間内に支払を受ける利子等の支払の取扱いを依頼する旨
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p5-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 6
@@ -115,22 +115,22 @@ paragraphs:
     - 次項
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p6-kou-1
     type: kou
-    text: 令第三百三十九条第三項の規定による告知書を提出した者の当該告知書に記載された氏名又は名称、住所及び個人番号又は法人番号
+    text: 一　令第三百三十九条第三項の規定による告知書を提出した者の当該告知書に記載された氏名又は名称、住所及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p6-kou-2
     type: kou
-    text: 保管の委託を受けた無記名公社債等の種別及び名称並びに当該保管の委託を受けた年月日
+    text: 二　保管の委託を受けた無記名公社債等の種別及び名称並びに当該保管の委託を受けた年月日
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p6-kou-3
     type: kou
-    text: 前号の無記名公社債等の保管の委託をやめた年月日
+    text: 三　前号の無記名公社債等の保管の委託をやめた年月日
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p6-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 7
@@ -146,32 +146,32 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p7-kou-1
     type: kou
-    text: 前項第一号に掲げる事項
+    text: 一　前項第一号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p7-kou-2
     type: kou
-    text: 保管の委託がされた無記名公社債等の種別及び名称並びに当該保管の委託がされた年月日
+    text: 二　保管の委託がされた無記名公社債等の種別及び名称並びに当該保管の委託がされた年月日
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p7-kou-3
     type: kou
-    text: 前号の無記名公社債等の保管の委託を受けた者の名称及び所在地
+    text: 三　前号の無記名公社債等の保管の委託を受けた者の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p7-kou-4
     type: kou
-    text: 第二号の無記名公社債等の保管の委託の取次ぎをした年月日
+    text: 四　第二号の無記名公社債等の保管の委託の取次ぎをした年月日
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p7-kou-5
     type: kou
-    text: 第二号の無記名公社債等の保管の委託の取りやめがされた年月日
+    text: 五　第二号の無記名公社債等の保管の委託の取りやめがされた年月日
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-81-9-p7-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 8

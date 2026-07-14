@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-22-3-p1-kou-1
     type: kou
-    text: 犯則嫌疑者の氏名
+    text: 一　犯則嫌疑者の氏名
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-22-3-p1-kou-2
     type: kou
-    text: 罪名及び犯則事実の要旨
+    text: 二　罪名及び犯則事実の要旨
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-22-3-p1-kou-3
     type: kou
-    text: 臨検すべき物件若しくは場所、捜索すべき身体、物件若しくは場所、差し押さえるべき物件又は記録させ、若しくは印刷させるべき電磁的記録及びこれを記録させ、若しくは印刷させるべき者
+    text: 三　臨検すべき物件若しくは場所、捜索すべき身体、物件若しくは場所、差し押さえるべき物件又は記録させ、若しくは印刷させるべき電磁的記録及びこれを記録させ、若しくは印刷させるべき者
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-6-22-3-p1-kou-4
     type: kou
-    text: 請求者の官職氏名
+    text: 四　請求者の官職氏名
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-6-22-3-p1-kou-5
     type: kou
-    text: 許可状が七日を超える有効期間を必要とするときは、その旨及び事由
+    text: 五　許可状が七日を超える有効期間を必要とするときは、その旨及び事由
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-6-22-3-p1-kou-6
     type: kou
-    text: 法第二十二条の四第二項の場合には、差し押さえるべき電子計算機に電気通信回線で接続している記録媒体であつて、その電磁的記録を複写すべきものの範囲
+    text: 六　法第二十二条の四第二項の場合には、差し押さえるべき電子計算機に電気通信回線で接続している記録媒体であつて、その電磁的記録を複写すべきものの範囲
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikkourei-art-6-22-3-p1-kou-7
     type: kou
-    text: 日没から日出までの間に臨検、捜索、差押え又は記録命令付差押えをする必要があるときは、その旨及び事由
+    text: 七　日没から日出までの間に臨検、捜索、差押え又は記録命令付差押えをする必要があるときは、その旨及び事由
     modality: unspecified
     item_number: 7
 - number: 2

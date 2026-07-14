@@ -23,8 +23,8 @@ paragraphs:
     modality: jogai
     references:
     - 前二条
-    - 同項
     - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -68,8 +68,8 @@ paragraphs:
     text: 前項に定めるもののほか、第三項の内国法人が集団投資信託の収益の分配の支払を受ける者に行う通知に関する事項、その者が第百二十条第一項（確定所得申告）の規定による申告書に記載する同項第三号に掲げる所得税の額から控除する同項第四号に規定する源泉徴収税額に関する事項その他第三項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments:
 - effective_date: '2022-01-01'

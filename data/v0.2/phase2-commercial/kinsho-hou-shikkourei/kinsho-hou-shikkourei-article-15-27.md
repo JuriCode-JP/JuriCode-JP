@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-27-p1-kou-1
     type: kou
-    text: 有価証券関連業（法第二十八条第八項に規定する有価証券関連業をいう。以下同じ。）を行う金融商品取引業者（第一種金融商品取引業を行うことにつき法第二十九条の登録を受けた者に限る。）
+    text: 一　有価証券関連業（法第二十八条第八項に規定する有価証券関連業をいう。以下同じ。）を行う金融商品取引業者（第一種金融商品取引業を行うことにつき法第二十九条の登録を受けた者に限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-27-p1-kou-2
     type: kou
-    text: 登録金融機関
+    text: 二　登録金融機関
     modality: unspecified
     item_number: 2
 cases: []

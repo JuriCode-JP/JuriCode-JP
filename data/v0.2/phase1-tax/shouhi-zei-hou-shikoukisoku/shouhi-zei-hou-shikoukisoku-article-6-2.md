@@ -25,32 +25,32 @@ paragraphs:
     - 同項
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p1-kou-1
     type: kou
-    text: 届出者の氏名又は名称（代表者の氏名を含む。）（以下第十条の九までにおいて「氏名等」という。）、納税地及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律（平成二十五年法律第二十七号）第二条第十六項（定義）に規定する法人番号をいう。以下同じ。）（法人番号を有しない者にあつては、氏名等及び納税地）
+    text: 一　届出者の氏名又は名称（代表者の氏名を含む。）（以下第十条の九までにおいて「氏名等」という。）、納税地及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律（平成二十五年法律第二十七号）第二条第十六項（定義）に規定する法人番号をいう。以下同じ。）（法人番号を有しない者にあつては、氏名等及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p1-kou-2
     type: kou
-    text: 当該市中輸出物品販売場の所在地
+    text: 二　当該市中輸出物品販売場の所在地
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p1-kou-3
     type: kou
-    text: 届出者の電子メールアドレス
+    text: 三　届出者の電子メールアドレス
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p1-kou-4
     type: kou
-    text: 当該市中輸出物品販売場に係る購入記録情報の提供を承認送信事業者（令第十八条の四第四項に規定する承認送信事業者をいう。第十条の五から第十条の七までにおいて同じ。）が令第十八条の四第一項前段の規定により行う場合にあつては、その旨及び当該承認送信事業者の識別符号（第十条の七第三項の規定により通知を受けた識別符号をいう。）
+    text: 四　当該市中輸出物品販売場に係る購入記録情報の提供を承認送信事業者（令第十八条の四第四項に規定する承認送信事業者をいう。第十条の五から第十条の七までにおいて同じ。）が令第十八条の四第一項前段の規定により行う場合にあつては、その旨及び当該承認送信事業者の識別符号（第十条の七第三項の規定により通知を受けた識別符号をいう。）
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p1-kou-5
     type: kou
-    text: 法第八条第十項の承認を受けた事業者にあつては、その旨
+    text: 五　法第八条第十項の承認を受けた事業者にあつては、その旨
     modality: unspecified
     item_number: 5
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 2
@@ -75,22 +75,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p3-kou-1
     type: kou
-    text: 届出者の氏名等、納税地及び法人番号（法人番号を有しない者にあつては、氏名等及び納税地）
+    text: 一　届出者の氏名等、納税地及び法人番号（法人番号を有しない者にあつては、氏名等及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p3-kou-2
     type: kou
-    text: 当該変更に係る市中輸出物品販売場の所在地
+    text: 二　当該変更に係る市中輸出物品販売場の所在地
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p3-kou-3
     type: kou
-    text: 変更の内容
+    text: 三　変更の内容
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-6-2-p3-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 4

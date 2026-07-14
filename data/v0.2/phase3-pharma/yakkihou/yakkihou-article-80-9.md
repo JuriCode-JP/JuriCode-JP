@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: yakkihou-art-80-9-p1-kou-1
     type: kou
-    text: 不正の手段により第八十条の六第一項の登録を受けたとき。
+    text: 一　不正の手段により第八十条の六第一項の登録を受けたとき。
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-80-9-p1-kou-2
     type: kou
-    text: 第八十条の七第一項に規定する厚生労働省令で定める場合に該当するに至つたとき。
+    text: 二　第八十条の七第一項に規定する厚生労働省令で定める場合に該当するに至つたとき。
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-80-9-p1-kou-3
     type: kou
-    text: この法律その他薬事に関する法令で政令で定めるもの又はこれに基づく処分に違反する行為があつたとき。
+    text: 三　この法律その他薬事に関する法令で政令で定めるもの又はこれに基づく処分に違反する行為があつたとき。
     modality: unspecified
     item_number: 3
 - number: 2

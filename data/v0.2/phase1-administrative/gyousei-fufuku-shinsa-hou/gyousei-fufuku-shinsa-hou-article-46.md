@@ -40,12 +40,12 @@ paragraphs:
     - 前項
   - id: gyousei-fufuku-shinsa-hou-art-46-p2-kou-1
     type: kou
-    text: 処分庁の上級行政庁である審査庁　当該処分庁に対し、当該処分をすべき旨を命ずること。
+    text: 一　処分庁の上級行政庁である審査庁　当該処分庁に対し、当該処分をすべき旨を命ずること。
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-46-p2-kou-2
     type: kou
-    text: 処分庁である審査庁　当該処分をすること。
+    text: 二　処分庁である審査庁　当該処分をすること。
     modality: unspecified
     item_number: 2
 - number: 3
@@ -69,8 +69,8 @@ paragraphs:
     text: 前項に規定する定めがある場合のほか、第二項に規定する一定の処分に関し、他の法令に関係行政機関との協議の実施その他の手続をとるべき旨の定めがある場合において、審査庁が同項各号に定める措置をとるために必要があると認めるときは、審査庁は、当該手続をとることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

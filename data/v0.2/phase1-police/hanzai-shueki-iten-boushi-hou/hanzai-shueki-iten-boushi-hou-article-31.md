@@ -25,17 +25,17 @@ paragraphs:
     - 本条
   - id: hanzai-shueki-iten-boushi-hou-art-31-p1-kou-1
     type: kou
-    text: 第二十五条　三億円以下の罰金刑
+    text: 一　第二十五条　三億円以下の罰金刑
     modality: unspecified
     item_number: 1
   - id: hanzai-shueki-iten-boushi-hou-art-31-p1-kou-2
     type: kou
-    text: 第二十六条　二億円以下の罰金刑
+    text: 二　第二十六条　二億円以下の罰金刑
     modality: unspecified
     item_number: 2
   - id: hanzai-shueki-iten-boushi-hou-art-31-p1-kou-3
     type: kou
-    text: 第二十七条　同条の罰金刑
+    text: 三　第二十七条　同条の罰金刑
     modality: unspecified
     item_number: 3
 cases: []

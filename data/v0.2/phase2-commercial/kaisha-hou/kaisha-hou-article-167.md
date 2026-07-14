@@ -36,22 +36,22 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-167-p2-kou-1
     type: kou
-    text: 第百七条第二項第二号ロに掲げる事項についての定めがある場合　同号ロの社債の社債権者
+    text: 一　第百七条第二項第二号ロに掲げる事項についての定めがある場合　同号ロの社債の社債権者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-167-p2-kou-2
     type: kou
-    text: 第百七条第二項第二号ハに掲げる事項についての定めがある場合　同号ハの新株予約権の新株予約権者
+    text: 二　第百七条第二項第二号ハに掲げる事項についての定めがある場合　同号ハの新株予約権の新株予約権者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-167-p2-kou-3
     type: kou
-    text: 第百七条第二項第二号ニに掲げる事項についての定めがある場合　同号ニの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
+    text: 三　第百七条第二項第二号ニに掲げる事項についての定めがある場合　同号ニの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-167-p2-kou-4
     type: kou
-    text: 第百八条第二項第五号ロに掲げる事項についての定めがある場合　同号ロの他の株式の株主
+    text: 四　第百八条第二項第五号ロに掲げる事項についての定めがある場合　同号ロの他の株式の株主
     modality: unspecified
     item_number: 4
 - number: 3
@@ -68,12 +68,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-167-p3-kou-1
     type: kou
-    text: 当該株式が市場価格のある株式である場合　当該株式一株の市場価格として法務省令で定める方法により算定される額
+    text: 一　当該株式が市場価格のある株式である場合　当該株式一株の市場価格として法務省令で定める方法により算定される額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-167-p3-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　一株当たり純資産額
+    text: 二　前号に掲げる場合以外の場合　一株当たり純資産額
     modality: unspecified
     item_number: 2
 - number: 4
@@ -86,8 +86,8 @@ paragraphs:
     text: 前項の規定は、当該株式会社の社債及び新株予約権について端数がある場合について準用する。この場合において、同項第二号中「一株当たり純資産額」とあるのは、「法務省令で定める額」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

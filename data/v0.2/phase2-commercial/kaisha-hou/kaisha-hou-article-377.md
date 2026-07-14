@@ -31,8 +31,8 @@ paragraphs:
     text: 指名委員会等設置会社における前項の規定の適用については、同項中「取締役」とあるのは、「執行役」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

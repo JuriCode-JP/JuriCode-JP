@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-67-3-p1-kou-1
     type: kou
-    text: 名称
+    text: 一　名称
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-67-3-p1-kou-2
     type: kou
-    text: 事務所の所在の場所
+    text: 二　事務所の所在の場所
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-67-3-p1-kou-3
     type: kou
-    text: 役員の氏名及び協会員の名称
+    text: 三　役員の氏名及び協会員の名称
     modality: unspecified
     item_number: 3
 - number: 2

@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-99-p1-kou-1
     type: kou
-    text: 当該金融商品取引業者等の商号、名称又は氏名
+    text: 一　当該金融商品取引業者等の商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-99-p1-kou-2
     type: kou
-    text: 当該金融商品取引業者等の営業所又は事務所の名称
+    text: 二　当該金融商品取引業者等の営業所又は事務所の名称
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-99-p1-kou-3
     type: kou
-    text: 当該金融商品取引契約、第九十八条第一号の解約又は同条第二号の払戻しの概要（次条から第百七条までに規定するものを除く。）
+    text: 三　当該金融商品取引契約、第九十八条第一号の解約又は同条第二号の払戻しの概要（次条から第百七条までに規定するものを除く。）
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-99-p1-kou-4
     type: kou
-    text: 当該金融商品取引契約の成立、第九十八条第一号の解約又は同条第二号の払戻しの年月日
+    text: 四　当該金融商品取引契約の成立、第九十八条第一号の解約又は同条第二号の払戻しの年月日
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-99-p1-kou-5
     type: kou
-    text: 当該金融商品取引契約、第九十八条第一号の解約又は同条第二号の払戻しに係る手数料等に関する事項
+    text: 五　当該金融商品取引契約、第九十八条第一号の解約又は同条第二号の払戻しに係る手数料等に関する事項
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-99-p1-kou-6
     type: kou
-    text: 顧客の氏名又は名称
+    text: 六　顧客の氏名又は名称
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-99-p1-kou-7
     type: kou
-    text: 顧客が当該金融商品取引業者等に連絡する方法
+    text: 七　顧客が当該金融商品取引業者等に連絡する方法
     modality: unspecified
     item_number: 7
 - number: 2
@@ -69,27 +69,27 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-99-p2-kou-1
     type: kou
-    text: 法第二条第二十一項第二号に掲げる取引（これに類似する外国市場デリバティブ取引を含む。）　顧客が現実数値が約定数値を上回った場合に金銭を支払う立場の当事者となるもの又は金銭を受領する立場の当事者となるもの
+    text: 一　法第二条第二十一項第二号に掲げる取引（これに類似する外国市場デリバティブ取引を含む。）　顧客が現実数値が約定数値を上回った場合に金銭を支払う立場の当事者となるもの又は金銭を受領する立場の当事者となるもの
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-99-p2-kou-2
     type: kou
-    text: 法第二条第二十一項第三号に掲げる取引（これに類似する外国市場デリバティブ取引を含む。）　顧客がオプションを付与する立場の当事者となるもの又はオプションを取得する立場の当事者となるもの
+    text: 二　法第二条第二十一項第三号に掲げる取引（これに類似する外国市場デリバティブ取引を含む。）　顧客がオプションを付与する立場の当事者となるもの又はオプションを取得する立場の当事者となるもの
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-99-p2-kou-3
     type: kou
-    text: 法第二条第二十一項第四号に掲げる取引（これに類似する外国市場デリバティブ取引を含む。）　顧客が相手方と取り決めた金融商品の利率等又は金融指標が約定した期間に上昇した場合に金銭を支払う立場の当事者となるもの又は金銭を受領する立場の当事者となるもの
+    text: 三　法第二条第二十一項第四号に掲げる取引（これに類似する外国市場デリバティブ取引を含む。）　顧客が相手方と取り決めた金融商品の利率等又は金融指標が約定した期間に上昇した場合に金銭を支払う立場の当事者となるもの又は金銭を受領する立場の当事者となるもの
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-99-p2-kou-4
     type: kou
-    text: 法第二条第二十一項第四号の二に掲げる取引　顧客が相手方と取り決めた商品に係る金融指標が約定した期間に上昇した場合に金銭を支払う立場の当事者となるもの又は金銭を受領する立場の当事者となるもの
+    text: 四　法第二条第二十一項第四号の二に掲げる取引　顧客が相手方と取り決めた商品に係る金融指標が約定した期間に上昇した場合に金銭を支払う立場の当事者となるもの又は金銭を受領する立場の当事者となるもの
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-99-p2-kou-5
     type: kou
-    text: 法第二条第二十一項第五号（これに類似する外国市場デリバティブ取引を含む。）　当事者があらかじめ定めた事由（同号に掲げる事由をいう。）が発生した場合に顧客が金銭を支払う立場の当事者となるもの又は金銭を受領する立場の当事者となるもの
+    text: 五　法第二条第二十一項第五号（これに類似する外国市場デリバティブ取引を含む。）　当事者があらかじめ定めた事由（同号に掲げる事由をいう。）が発生した場合に顧客が金銭を支払う立場の当事者となるもの又は金銭を受領する立場の当事者となるもの
     modality: unspecified
     item_number: 5
 cases: []

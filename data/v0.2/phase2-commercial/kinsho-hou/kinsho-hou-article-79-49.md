@@ -23,52 +23,52 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-79-49-p1-kou-1
     type: kou
-    text: 第七十九条の五十六第一項の規定による一般顧客に対する支払
+    text: 一　第七十九条の五十六第一項の規定による一般顧客に対する支払
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-49-p1-kou-2
     type: kou
-    text: 第七十九条の五十九第一項の規定による資金の貸付け
+    text: 二　第七十九条の五十九第一項の規定による資金の貸付け
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-79-49-p1-kou-3
     type: kou
-    text: 第七十九条の六十第一項に規定する裁判上又は裁判外の行為
+    text: 三　第七十九条の六十第一項に規定する裁判上又は裁判外の行為
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-79-49-p1-kou-4
     type: kou
-    text: 第七十九条の六十一に規定する顧客資産の迅速な返還に資するための業務
+    text: 四　第七十九条の六十一に規定する顧客資産の迅速な返還に資するための業務
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-79-49-p1-kou-5
     type: kou
-    text: 負担金（第七十九条の二十八第四項及び第七十九条の六十四第一項に規定する負担金をいう。第七十九条の五十一第一項において同じ。）の徴収及び管理
+    text: 五　負担金（第七十九条の二十八第四項及び第七十九条の六十四第一項に規定する負担金をいう。第七十九条の五十一第一項において同じ。）の徴収及び管理
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-79-49-p1-kou-6
     type: kou
-    text: 金融機関等の更生手続の特例等に関する法律（平成八年法律第九十五号）第四章第五節、第五章第三節及び第六章第三節の規定による顧客表の提出その他これらの規定による業務
+    text: 六　金融機関等の更生手続の特例等に関する法律（平成八年法律第九十五号）第四章第五節、第五章第三節及び第六章第三節の規定による顧客表の提出その他これらの規定による業務
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-79-49-p1-kou-7
     type: kou
-    text: 破産法（平成十六年法律第七十五号）の規定により選任される破産管財人、保全管理人、破産管財人代理若しくは保全管理人代理、民事再生法（平成十一年法律第二百二十五号）の規定により選任される監督委員、管財人、保全管理人、管財人代理若しくは保全管理人代理、会社更生法（平成十四年法律第百五十四号）の規定により選任される管財人、管財人代理、保全管理人、保全管理人代理若しくは監督委員又は外国倒産処理手続の承認援助に関する法律（平成十二年法律第百二十九号）の規定により選任される承認管財人、保全管理人、承認管財人代理若しくは保全管理人代理の業務
+    text: 七　破産法（平成十六年法律第七十五号）の規定により選任される破産管財人、保全管理人、破産管財人代理若しくは保全管理人代理、民事再生法（平成十一年法律第二百二十五号）の規定により選任される監督委員、管財人、保全管理人、管財人代理若しくは保全管理人代理、会社更生法（平成十四年法律第百五十四号）の規定により選任される管財人、管財人代理、保全管理人、保全管理人代理若しくは監督委員又は外国倒産処理手続の承認援助に関する法律（平成十二年法律第百二十九号）の規定により選任される承認管財人、保全管理人、承認管財人代理若しくは保全管理人代理の業務
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-79-49-p1-kou-8
     type: kou
-    text: 預金保険法（昭和四十六年法律第三十四号）第百二十六条の四第三項に規定する特別監視代行者の業務
+    text: 八　預金保険法（昭和四十六年法律第三十四号）第百二十六条の四第三項に規定する特別監視代行者の業務
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-art-79-49-p1-kou-9
     type: kou
-    text: 預金保険法第百二十六条の六第一項に規定する機構代理の業務
+    text: 九　預金保険法第百二十六条の六第一項に規定する機構代理の業務
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-art-79-49-p1-kou-10
     type: kou
-    text: 前各号に掲げる業務に附帯する業務
+    text: 十　前各号に掲げる業務に附帯する業務
     modality: unspecified
     item_number: 10
 - number: 2
@@ -98,9 +98,9 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

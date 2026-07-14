@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-283-p1-kou-1
     type: kou
-    text: 国内において業務を行う者に対してする資産の譲渡又は役務の提供の対価に係る債権
+    text: 一　国内において業務を行う者に対してする資産の譲渡又は役務の提供の対価に係る債権
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-283-p1-kou-2
     type: kou
-    text: 前号に規定する対価の決済に関し、金融機関が国内において業務を行う者に対して有する債権
+    text: 二　前号に規定する対価の決済に関し、金融機関が国内において業務を行う者に対して有する債権
     modality: unspecified
     item_number: 2
 - number: 2

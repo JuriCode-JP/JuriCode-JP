@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-53-p1-kou-1
     type: kou
-    text: 第二十二条第三項第一号（各事業年度の所得の金額の計算の通則）に掲げる原価の額
+    text: 一　第二十二条第三項第一号（各事業年度の所得の金額の計算の通則）に掲げる原価の額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-53-p1-kou-2
     type: kou
-    text: 固定資産の取得に要した金額とされるべき費用の額及び繰延資産となる費用の額
+    text: 二　固定資産の取得に要した金額とされるべき費用の額及び繰延資産となる費用の額
     modality: unspecified
     item_number: 2
 - number: 2

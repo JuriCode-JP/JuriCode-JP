@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: shotoku-zei-hou-art-86-p1-kou-1
     type: kou
-    text: その居住者の合計所得金額が二千三百五十万円以下である場合　五十八万円
+    text: 一　その居住者の合計所得金額が二千三百五十万円以下である場合　五十八万円
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-86-p1-kou-2
     type: kou
-    text: その居住者の合計所得金額が二千三百五十万円を超え二千四百万円以下である場合　四十八万円
+    text: 二　その居住者の合計所得金額が二千三百五十万円を超え二千四百万円以下である場合　四十八万円
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-86-p1-kou-3
     type: kou
-    text: その居住者の合計所得金額が二千四百万円を超え二千四百五十万円以下である場合　三十二万円
+    text: 三　その居住者の合計所得金額が二千四百万円を超え二千四百五十万円以下である場合　三十二万円
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-art-86-p1-kou-4
     type: kou
-    text: その居住者の合計所得金額が二千四百五十万円を超え二千五百万円以下である場合　十六万円
+    text: 四　その居住者の合計所得金額が二千四百五十万円を超え二千五百万円以下である場合　十六万円
     modality: unspecified
     item_number: 4
 - number: 2

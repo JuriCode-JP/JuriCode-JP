@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-10-p1-kou-1
     type: kou
-    text: 風俗営業を廃止したとき（当該風俗営業につき第七条の三第一項の承認を受けたときを除く。）。
+    text: 一　風俗営業を廃止したとき（当該風俗営業につき第七条の三第一項の承認を受けたときを除く。）。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-10-p1-kou-2
     type: kou
-    text: 許可が取り消されたとき。
+    text: 二　許可が取り消されたとき。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-10-p1-kou-3
     type: kou
-    text: 許可証の再交付を受けた場合において、亡失した許可証を発見し、又は回復したとき。
+    text: 三　許可証の再交付を受けた場合において、亡失した許可証を発見し、又は回復したとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -58,17 +58,17 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-10-p3-kou-1
     type: kou
-    text: 死亡した場合（相続人が第七条第一項の承認の申請をしなかつた場合に限る。）　同居の親族又は法定代理人
+    text: 一　死亡した場合（相続人が第七条第一項の承認の申請をしなかつた場合に限る。）　同居の親族又は法定代理人
     modality: unspecified
     item_number: 1
   - id: fueihou-art-10-p3-kou-2
     type: kou
-    text: 法人が合併以外の事由により解散した場合　清算人又は破産管財人
+    text: 二　法人が合併以外の事由により解散した場合　清算人又は破産管財人
     modality: unspecified
     item_number: 2
   - id: fueihou-art-10-p3-kou-3
     type: kou
-    text: 法人が合併により消滅した場合（その消滅までに、合併後存続し、又は合併により設立される法人につき第七条の二第一項の承認がされなかつた場合に限る。）　合併後存続し、又は合併により設立された法人の代表者
+    text: 三　法人が合併により消滅した場合（その消滅までに、合併後存続し、又は合併により設立される法人につき第七条の二第一項の承認がされなかつた場合に限る。）　合併後存続し、又は合併により設立された法人の代表者
     modality: unspecified
     item_number: 3
 cases: []

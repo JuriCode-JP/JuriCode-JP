@@ -31,16 +31,16 @@ paragraphs:
     text: 裁判所は、前項に規定する場合において、相当と認めるときは、次の各号に掲げる場合の区分に応じ、当該各号に定める措置をとることができる。この場合においては、同項の規定は、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
   - id: keiji-soshou-hou-art-98-9-p2-kou-1
     type: kou
-    text: 被告人が保釈されている場合　新たに適当と認める者を監督者として選任し、又は保証金額を増額すること。
+    text: 一　被告人が保釈されている場合　新たに適当と認める者を監督者として選任し、又は保証金額を増額すること。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-98-9-p2-kou-2
     type: kou
-    text: 被告人が勾留の執行停止をされている場合　新たに適当と認める者を監督者として選任すること。
+    text: 二　被告人が勾留の執行停止をされている場合　新たに適当と認める者を監督者として選任すること。
     modality: unspecified
     item_number: 2
 - number: 3

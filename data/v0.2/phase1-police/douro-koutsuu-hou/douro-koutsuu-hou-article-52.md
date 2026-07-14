@@ -32,6 +32,10 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-52-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十条第一項第五号、同条第三項　第二項については第百十七条の二第一項第四号、第百十七条の二の二第一項第八号ト、第百二十条第一項第六号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

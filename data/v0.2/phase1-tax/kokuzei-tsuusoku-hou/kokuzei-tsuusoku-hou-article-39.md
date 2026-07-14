@@ -33,8 +33,8 @@ paragraphs:
     text: 税務署長は、前項の規定により消費税等を徴収するときは、あらかじめその執行機関（国税徴収法第二条（用語の定義）に規定する執行機関をいう。以下同じ。）及び納税者に対し、同項の規定により徴収すべき税額その他必要な事項を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

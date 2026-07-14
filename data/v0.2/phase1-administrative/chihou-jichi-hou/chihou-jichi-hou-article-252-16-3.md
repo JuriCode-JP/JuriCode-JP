@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-252-16-3-p1-kou-1
     type: kou
-    text: 事務の代替執行をする普通地方公共団体及びその相手方となる普通地方公共団体
+    text: 一　事務の代替執行をする普通地方公共団体及びその相手方となる普通地方公共団体
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-16-3-p1-kou-2
     type: kou
-    text: 代替執行事務の範囲並びに代替執行事務の管理及び執行の方法
+    text: 二　代替執行事務の範囲並びに代替執行事務の管理及び執行の方法
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-252-16-3-p1-kou-3
     type: kou
-    text: 代替執行事務に要する経費の支弁の方法
+    text: 三　代替執行事務に要する経費の支弁の方法
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-252-16-3-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、事務の代替執行に関し必要な事項
+    text: 四　前三号に掲げるもののほか、事務の代替執行に関し必要な事項
     modality: unspecified
     item_number: 4
 cases: []

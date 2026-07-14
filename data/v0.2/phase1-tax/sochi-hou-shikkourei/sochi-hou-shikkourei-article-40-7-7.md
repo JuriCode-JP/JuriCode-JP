@@ -45,17 +45,17 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-7-7-p3-kou-1
     type: kou
-    text: 第三号の寄託の日まで当該特定美術品の法第七十条の六の七第一項の寄託先美術館の設置者への寄託が継続しているものとみなす。
+    text: 一　第三号の寄託の日まで当該特定美術品の法第七十条の六の七第一項の寄託先美術館の設置者への寄託が継続しているものとみなす。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-7-7-p3-kou-2
     type: kou
-    text: 当該相続税の申告書の提出期限から一年を経過する日において、当該新寄託先美術館の設置者との間の寄託契約に基づき当該特定美術品を当該新寄託先美術館の設置者に寄託していない場合には、同日において法第七十条の六の七第三項第三号又は第七号に掲げる場合に該当したものとみなす。
+    text: 二　当該相続税の申告書の提出期限から一年を経過する日において、当該新寄託先美術館の設置者との間の寄託契約に基づき当該特定美術品を当該新寄託先美術館の設置者に寄託していない場合には、同日において法第七十条の六の七第三項第三号又は第七号に掲げる場合に該当したものとみなす。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-7-7-p3-kou-3
     type: kou
-    text: 当該相続税の申告書の提出期限から一年を経過する日までに当該特定美術品が当該新寄託先美術館の設置者に寄託された場合には、当該寄託の日以後は、当該新寄託先美術館の設置者と当該寄託相続人との間の寄託契約は法第七十条の六の七第一項の寄託契約と、当該新寄託先美術館は同項の寄託先美術館とみなす。
+    text: 三　当該相続税の申告書の提出期限から一年を経過する日までに当該特定美術品が当該新寄託先美術館の設置者に寄託された場合には、当該寄託の日以後は、当該新寄託先美術館の設置者と当該寄託相続人との間の寄託契約は法第七十条の六の七第一項の寄託契約と、当該新寄託先美術館は同項の寄託先美術館とみなす。
     modality: unspecified
     item_number: 3
 - number: 4
@@ -69,16 +69,16 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-40-7-7-p4-kou-1
     type: kou
-    text: 特定価額に百分の二十を乗じて計算した金額を当該寄託相続人に係る相続税の課税価格とみなして、相続税法第十三条から第十九条まで、第二十一条の十五第一項及び第二項並びに第二十一条の十六第一項及び第二項の規定を適用して計算した当該寄託相続人の相続税の額
+    text: 一　特定価額に百分の二十を乗じて計算した金額を当該寄託相続人に係る相続税の課税価格とみなして、相続税法第十三条から第十九条まで、第二十一条の十五第一項及び第二項並びに第二十一条の十六第一項及び第二項の規定を適用して計算した当該寄託相続人の相続税の額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-7-7-p4-kou-2
     type: kou
-    text: 'イに掲げる金額からロに掲げる金額を控除した残額
+    text: '二　イに掲げる金額からロに掲げる金額を控除した残額
 
-      イ 相続税法第十一条から第十九条まで、第二十一条の十五第一項及び第二項並びに第二十一条の十六第一項及び第二項の規定を適用して計算した当該寄託相続人の相続税の額
+      イ　相続税法第十一条から第十九条まで、第二十一条の十五第一項及び第二項並びに第二十一条の十六第一項及び第二項の規定を適用して計算した当該寄託相続人の相続税の額
 
-      ロ 特定価額を当該寄託相続人に係る相続税の課税価格とみなして、相続税法第十三条から第十九条まで、第二十一条の十五第一項及び第二項並びに第二十一条の十六第一項及び第二項の規定を適用して計算した当該寄託相続人の相続税の額'
+      ロ　特定価額を当該寄託相続人に係る相続税の課税価格とみなして、相続税法第十三条から第十九条まで、第二十一条の十五第一項及び第二項並びに第二十一条の十六第一項及び第二項の規定を適用して計算した当該寄託相続人の相続税の額'
     modality: unspecified
     item_number: 2
 - number: 5
@@ -94,18 +94,18 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-40-7-7-p5-kou-1
     type: kou
-    text: 相続税法第十三条の規定により控除すべき寄託相続人の負担に属する部分の金額
+    text: 一　相続税法第十三条の規定により控除すべき寄託相続人の負担に属する部分の金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-7-7-p5-kou-2
     type: kou
-    text: '前号の寄託相続人に係るイに掲げる価額とロに掲げる金額との合計額からハに掲げる価額を控除した残額
+    text: '二　前号の寄託相続人に係るイに掲げる価額とロに掲げる金額との合計額からハに掲げる価額を控除した残額
 
-      イ 当該寄託相続人が法第七十条の六の七第一項の規定の適用に係る相続又は遺贈により取得した財産の価額
+      イ　当該寄託相続人が法第七十条の六の七第一項の規定の適用に係る相続又は遺贈により取得した財産の価額
 
-      ロ 当該寄託相続人が被相続人からの贈与により取得した財産で相続税法第二十一条の九第三項の規定の適用を受けるものの価額から同法第二十一条の十一の二第一項の規定（法第七十条の三の二第一項の規定を含む。）による控除をした残額
+      ロ　当該寄託相続人が被相続人からの贈与により取得した財産で相続税法第二十一条の九第三項の規定の適用を受けるものの価額から同法第二十一条の十一の二第一項の規定（法第七十条の三の二第一項の規定を含む。）による控除をした残額
 
-      ハ 当該寄託相続人が法第七十条の六の七第一項の規定の適用に係る相続又は遺贈により取得した同項の規定の適用を受ける特定美術品の価額'
+      ハ　当該寄託相続人が法第七十条の六の七第一項の規定の適用に係る相続又は遺贈により取得した同項の規定の適用を受ける特定美術品の価額'
     modality: unspecified
     item_number: 2
 - number: 6
@@ -155,12 +155,12 @@ paragraphs:
     depends_on: sochi-hou-shikkourei-art-40-7-7-p9-zen
   - id: sochi-hou-shikkourei-art-40-7-7-p9-kou-1
     type: kou
-    text: 前項の規定を適用して計算した納税猶予分の相続税額
+    text: 一　前項の規定を適用して計算した納税猶予分の相続税額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-7-7-p9-kou-2
     type: kou
-    text: 特定美術品の異なるものごとの価額が法第七十条の六の七第一項の規定の適用に係る相続又は遺贈により取得をした全ての特定美術品の価額の合計額に占める割合
+    text: 二　特定美術品の異なるものごとの価額が法第七十条の六の七第一項の規定の適用に係る相続又は遺贈により取得をした全ての特定美術品の価額の合計額に占める割合
     modality: unspecified
     item_number: 2
 - number: 10
@@ -183,27 +183,27 @@ paragraphs:
     modality: unspecified
   - id: sochi-hou-shikkourei-art-40-7-7-p11-kou-1
     type: kou
-    text: 法第七十条の六第一項　調整前農地等猶予税額（第四十条の七第十六項に規定する調整前農地等猶予税額をいう。）
+    text: 一　法第七十条の六第一項　調整前農地等猶予税額（第四十条の七第十六項に規定する調整前農地等猶予税額をいう。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-7-7-p11-kou-2
     type: kou
-    text: 法第七十条の六の六第一項　調整前山林猶予税額（第四十条の七第十六項第一号に規定する調整前山林猶予税額をいう。）
+    text: 二　法第七十条の六の六第一項　調整前山林猶予税額（第四十条の七第十六項第一号に規定する調整前山林猶予税額をいう。）
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-7-7-p11-kou-3
     type: kou
-    text: 法第七十条の六の十第一項　調整前事業用資産猶予税額（第四十条の七第十六項第三号に規定する調整前事業用資産猶予税額をいう。）
+    text: 三　法第七十条の六の十第一項　調整前事業用資産猶予税額（第四十条の七第十六項第三号に規定する調整前事業用資産猶予税額をいう。）
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-7-7-p11-kou-4
     type: kou
-    text: 法第七十条の七の二第一項、第七十条の七の四第一項、第七十条の七の六第一項又は第七十条の七の八第一項　調整前株式等猶予税額（第四十条の七第十六項第四号に規定する調整前株式等猶予税額をいう。）
+    text: 四　法第七十条の七の二第一項、第七十条の七の四第一項、第七十条の七の六第一項又は第七十条の七の八第一項　調整前株式等猶予税額（第四十条の七第十六項第四号に規定する調整前株式等猶予税額をいう。）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-40-7-7-p11-kou-5
     type: kou
-    text: 法第七十条の七の十二第一項　調整前持分猶予税額（第四十条の七第十六項第五号に規定する調整前持分猶予税額をいう。）
+    text: 五　法第七十条の七の十二第一項　調整前持分猶予税額（第四十条の七第十六項第五号に規定する調整前持分猶予税額をいう。）
     modality: unspecified
     item_number: 5
 - number: 12
@@ -257,27 +257,27 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-7-7-p16-kou-1
     type: kou
-    text: 寄託相続人の氏名及び住所
+    text: 一　寄託相続人の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-7-7-p16-kou-2
     type: kou
-    text: 当該特定美術品の明細
+    text: 二　当該特定美術品の明細
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-7-7-p16-kou-3
     type: kou
-    text: 当該特定美術品に係る寄託先美術館及び当該特定美術品を寄託しようとする設置者に係る法第七十条の六の七第四項に規定する新寄託先美術館の名称及び所在地
+    text: 三　当該特定美術品に係る寄託先美術館及び当該特定美術品を寄託しようとする設置者に係る法第七十条の六の七第四項に規定する新寄託先美術館の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-7-7-p16-kou-4
     type: kou
-    text: 前号の新寄託先美術館の設置者に対する寄託予定年月日
+    text: 四　前号の新寄託先美術館の設置者に対する寄託予定年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-40-7-7-p16-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 17
@@ -293,27 +293,27 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-7-7-p17-kou-1
     type: kou
-    text: 寄託相続人の氏名及び住所
+    text: 一　寄託相続人の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-7-7-p17-kou-2
     type: kou
-    text: 当該特定美術品の明細
+    text: 二　当該特定美術品の明細
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-7-7-p17-kou-3
     type: kou
-    text: 当該特定美術品に係る寄託先美術館及び当該特定美術品を寄託しようとする設置者に係る法第七十条の六の七第五項に規定する新寄託先美術館の名称及び所在地
+    text: 三　当該特定美術品に係る寄託先美術館及び当該特定美術品を寄託しようとする設置者に係る法第七十条の六の七第五項に規定する新寄託先美術館の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-7-7-p17-kou-4
     type: kou
-    text: 前号の新寄託先美術館の設置者に対する寄託予定年月日
+    text: 四　前号の新寄託先美術館の設置者に対する寄託予定年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-40-7-7-p17-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 18
@@ -367,27 +367,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-40-7-7-p22-kou-1
     type: kou
-    text: 寄託相続人の氏名及び住所
+    text: 一　寄託相続人の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-7-7-p22-kou-2
     type: kou
-    text: 被相続人から相続又は遺贈により特定美術品の取得をした日
+    text: 二　被相続人から相続又は遺贈により特定美術品の取得をした日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-7-7-p22-kou-3
     type: kou
-    text: 当該特定美術品の明細
+    text: 三　当該特定美術品の明細
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-7-7-p22-kou-4
     type: kou
-    text: 当該特定美術品に係る寄託先美術館の名称及び所在地
+    text: 四　当該特定美術品に係る寄託先美術館の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-40-7-7-p22-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 23
@@ -406,8 +406,8 @@ paragraphs:
     text: この場合において、前項の規定の適用については、同項中「を記載し、かつ、寄託先美術館の設置者が発行する財務省令で定める事項を証する書類を添付しなければ」とあるのは、「（第四号に掲げる事項を除く。）その他財務省令で定める事項を記載しなければ」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
     depends_on: sochi-hou-shikkourei-art-40-7-7-p23-zen
 - number: 24
   has_proviso: false
@@ -422,32 +422,32 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-7-7-p24-kou-1
     type: kou
-    text: 届出書を提出する者の氏名及び住所
+    text: 一　届出書を提出する者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-7-7-p24-kou-2
     type: kou
-    text: 前号の者が寄託相続人の相続人である場合には、当該寄託相続人の氏名及び住所並びに当該届出書を提出する者と当該寄託相続人との続柄
+    text: 二　前号の者が寄託相続人の相続人である場合には、当該寄託相続人の氏名及び住所並びに当該届出書を提出する者と当該寄託相続人との続柄
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-7-7-p24-kou-3
     type: kou
-    text: 法第七十条の六の七第十四項の規定に該当することとなつた事情の詳細及びその事情の生じた日
+    text: 三　法第七十条の六の七第十四項の規定に該当することとなつた事情の詳細及びその事情の生じた日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-7-7-p24-kou-4
     type: kou
-    text: 法第七十条の六の七第十四項の規定による相続税の免除を受けようとする旨
+    text: 四　法第七十条の六の七第十四項の規定による相続税の免除を受けようとする旨
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-40-7-7-p24-kou-5
     type: kou
-    text: 免除を受ける相続税の額
+    text: 五　免除を受ける相続税の額
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-40-7-7-p24-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 25

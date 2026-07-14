@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-309-p1-kou-1
     type: kou
-    text: 格付関係者の信用状態に関する評価
+    text: 一　格付関係者の信用状態に関する評価
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-309-p1-kou-2
     type: kou
-    text: 格付関係者が金融商品の発行者（当該金融商品が有価証券である場合に限る。）又は債務者（当該金融商品が債権である場合に限る。）である場合における当該金融商品の信用状態に関する評価
+    text: 二　格付関係者が金融商品の発行者（当該金融商品が有価証券である場合に限る。）又は債務者（当該金融商品が債権である場合に限る。）である場合における当該金融商品の信用状態に関する評価
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-309-p1-kou-3
     type: kou
-    text: 格付関係者が組成に関する事務の受託者である場合における当該組成に係る金融商品又は法人の信用状態に関する評価
+    text: 三　格付関係者が組成に関する事務の受託者である場合における当該組成に係る金融商品又は法人の信用状態に関する評価
     modality: unspecified
     item_number: 3
 cases: []

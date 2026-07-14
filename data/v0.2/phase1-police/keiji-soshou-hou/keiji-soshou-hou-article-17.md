@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-17-p1-kou-1
     type: kou
-    text: 管轄裁判所が法律上の理由又は特別の事情により裁判権を行うことができないとき。
+    text: 一　管轄裁判所が法律上の理由又は特別の事情により裁判権を行うことができないとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-17-p1-kou-2
     type: kou
-    text: 地方の民心、訴訟の状況その他の事情により裁判の公平を維持することができない虞があるとき。
+    text: 二　地方の民心、訴訟の状況その他の事情により裁判の公平を維持することができない虞があるとき。
     modality: unspecified
     item_number: 2
 - number: 2

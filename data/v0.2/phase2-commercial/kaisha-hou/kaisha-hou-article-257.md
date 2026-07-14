@@ -31,8 +31,8 @@ paragraphs:
     text: 記名式の新株予約権証券が発行されている証券発行新株予約権及び記名式の新株予約権付社債券が発行されている証券発行新株予約権付社債に付された新株予約権についての前項の規定の適用については、同項中「株式会社その他の第三者」とあるのは、「株式会社」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

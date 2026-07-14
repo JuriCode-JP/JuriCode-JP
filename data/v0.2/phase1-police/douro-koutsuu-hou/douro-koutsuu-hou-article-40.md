@@ -34,6 +34,10 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-40-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -31,8 +31,8 @@ paragraphs:
     text: 税務署長は、前項の規定による還付金の還付をする場合において、同項の中間申告書に係る中間納付額について納付された延滞税があるときは、その額のうち、同項の規定により還付される中間納付額に対応するものとして政令で定めるところにより計算した金額を併せて還付する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false
@@ -76,8 +76,8 @@ paragraphs:
     text: 前三項に定めるもののほか、第一項又は第二項の還付の手続、第一項の規定による還付金（これに係る還付加算金を含む。）につき充当をする場合の方法その他同項又は第二項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前三項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-51-10-p1-kou-1
     type: kou
-    text: 事務所の用に供する固定資産
+    text: 一　事務所の用に供する固定資産
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-51-10-p1-kou-2
     type: kou
-    text: 宿舎の用に供する固定資産
+    text: 二　宿舎の用に供する固定資産
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-51-10-p1-kou-3
     type: kou
-    text: その利用について対価又は負担として支払うべき金額の定めのある研修施設の用に供する固定資産
+    text: 三　その利用について対価又は負担として支払うべき金額の定めのある研修施設の用に供する固定資産
     modality: unspecified
     item_number: 3
 cases: []

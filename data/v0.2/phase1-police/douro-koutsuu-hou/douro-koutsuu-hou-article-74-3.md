@@ -101,6 +101,10 @@ paragraphs:
     type: simple
     text: 自動車の使用者は、公安委員会からその選任に係る安全運転管理者等について第百八条の二第一項第一号に掲げる講習を行う旨の通知を受けたときは、当該安全運転管理者等に当該講習を受けさせなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-74-3-supplnote-1
+    type: supplnote
+    text: （罰則　第一項、第四項、第六項及び第八項については第百十九条の二、第百二十三条　第五項については第百二十条第二項第三号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -22,26 +22,26 @@ paragraphs:
     text: 法第七十条の八第一項の規定の適用を受けようとする同項の受贈者は、同条第二項の届出書に同条第一項の規定の適用を受けたい旨及び次に掲げる事項を記載し、かつ、次項に定める書類を添付して、これを当該受贈者の納税地の所轄税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
   - id: sochi-hou-shikoukisoku-art-23-13-p1-kou-1
     type: kou
-    text: 届出者の氏名及び住所又は居所
+    text: 一　届出者の氏名及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-13-p1-kou-2
     type: kou
-    text: 収用交換等（法第七十条の八第一項に規定する収用交換等をいう。次項において同じ。）による譲渡をした同条第一項に規定する農地等の地目、面積及びその所在場所その他の明細並びに当該収用交換等による譲渡をした年月日
+    text: 二　収用交換等（法第七十条の八第一項に規定する収用交換等をいう。次項において同じ。）による譲渡をした同条第一項に規定する農地等の地目、面積及びその所在場所その他の明細並びに当該収用交換等による譲渡をした年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-13-p1-kou-3
     type: kou
-    text: 前号の農地等の譲渡先の名称及び所在地
+    text: 三　前号の農地等の譲渡先の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-13-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2

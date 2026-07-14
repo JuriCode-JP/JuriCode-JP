@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 車両等は、同一の進路を進行している他の車両等の直後を進行するときは、その直前の車両等が急に停止したときにおいてもこれに追突するのを避けることができるため必要な距離を、これから保たなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-26-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の二第一項第四号、第百十七条の二の二第一項第八号ニ、第百十九条第一項第四号、第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

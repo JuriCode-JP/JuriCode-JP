@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-249-3-p1-kou-1
     type: kou
-    text: 直接持参する方法
+    text: 一　直接持参する方法
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-249-3-p1-kou-2
     type: kou
-    text: 書留郵便、民間事業者による信書の送達に関する法律（平成十四年法律第九十九号。第三項において「信書便法」という。）第二条第六項に規定する一般信書便事業者若しくは同条第九項に規定する特定信書便事業者による同条第二項に規定する信書便の役務であつて当該一般信書便事業者若しくは当該特定信書便事業者において引受け及び配達の記録を行うもの又はこれらに準ずる方法により送付する方法
+    text: 二　書留郵便、民間事業者による信書の送達に関する法律（平成十四年法律第九十九号。第三項において「信書便法」という。）第二条第六項に規定する一般信書便事業者若しくは同条第九項に規定する特定信書便事業者による同条第二項に規定する信書便の役務であつて当該一般信書便事業者若しくは当該特定信書便事業者において引受け及び配達の記録を行うもの又はこれらに準ずる方法により送付する方法
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-249-3-p1-kou-3
     type: kou
-    text: フアクシミリ装置を用いて送信する方法
+    text: 三　フアクシミリ装置を用いて送信する方法
     modality: unspecified
     item_number: 3
 - number: 2

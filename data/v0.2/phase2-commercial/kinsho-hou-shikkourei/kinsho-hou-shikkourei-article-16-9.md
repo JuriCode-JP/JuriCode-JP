@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-16-9-p1-kou-1
     type: kou
-    text: 信託業務を営む金融機関である登録金融機関が信託業務として行う場合
+    text: 一　信託業務を営む金融機関である登録金融機関が信託業務として行う場合
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-16-9-p1-kou-2
     type: kou
-    text: 預金、貯金又は銀行法第二条第四項に規定する定期積金等の受入れを行う場合
+    text: 二　預金、貯金又は銀行法第二条第四項に規定する定期積金等の受入れを行う場合
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-16-9-p1-kou-3
     type: kou
-    text: 前二号に掲げる場合に準ずるものとして内閣府令で定める場合
+    text: 三　前二号に掲げる場合に準ずるものとして内閣府令で定める場合
     modality: unspecified
     item_number: 3
 cases: []

@@ -40,8 +40,8 @@ paragraphs:
     text: 前項の場合において、同項の規定による措置を開始した日から起算して七日を経過したときは、書類の送達があつたものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments:
 - effective_date: '2026-05-21'

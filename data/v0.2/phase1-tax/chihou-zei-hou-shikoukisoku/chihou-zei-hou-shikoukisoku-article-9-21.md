@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-9-21-p1-kou-1
     type: kou
-    text: 夫、妻及び二人の子からなる世帯であること。
+    text: 一　夫、妻及び二人の子からなる世帯であること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-9-21-p1-kou-2
     type: kou
-    text: 借家に居住する世帯であること。
+    text: 二　借家に居住する世帯であること。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-9-21-p1-kou-3
     type: kou
-    text: 収入のない世帯であること。
+    text: 三　収入のない世帯であること。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,17 +47,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-9-21-p2-kou-1
     type: kou
-    text: 一級地　一・〇
+    text: 一　一級地　一・〇
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-9-21-p2-kou-2
     type: kou
-    text: 二級地　〇・九
+    text: 二　二級地　〇・九
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-9-21-p2-kou-3
     type: kou
-    text: 三級地　〇・八
+    text: 三　三級地　〇・八
     modality: unspecified
     item_number: 3
 cases: []

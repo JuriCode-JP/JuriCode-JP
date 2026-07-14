@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: douro-koutsuu-hou-art-103-2-p1-kou-1
     type: kou
-    text: 交通事故を起こして人を死亡させ、又は傷つけた場合において、第百十七条第一項又は第二項の違反行為をしたとき。
+    text: 一　交通事故を起こして人を死亡させ、又は傷つけた場合において、第百十七条第一項又は第二項の違反行為をしたとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-103-2-p1-kou-2
     type: kou
-    text: 第百十七条の二第一項第一号、第三号若しくは第四号、第百十七条の二の二第一項第一号、第三号若しくは第七号、第百十七条の四第一項第二号又は第百十八条第一項第五号の違反行為をし、よつて交通事故を起こして人を死亡させ、又は傷つけたとき。
+    text: 二　第百十七条の二第一項第一号、第三号若しくは第四号、第百十七条の二の二第一項第一号、第三号若しくは第七号、第百十七条の四第一項第二号又は第百十八条第一項第五号の違反行為をし、よつて交通事故を起こして人を死亡させ、又は傷つけたとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-103-2-p1-kou-3
     type: kou
-    text: 第百十八条第一項第一号若しくは第二項第一号又は第百十九条第一項第一号から第六号まで、第十五号若しくは第二十号若しくは第二項第一号若しくは第二号の違反行為をし、よつて交通事故を起こして人を死亡させたとき。
+    text: 三　第百十八条第一項第一号若しくは第二項第一号又は第百十九条第一項第一号から第六号まで、第十五号若しくは第二十号若しくは第二項第一号若しくは第二号の違反行為をし、よつて交通事故を起こして人を死亡させたとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -96,8 +96,8 @@ paragraphs:
     text: 仮停止は、前二項の規定により仮停止通知書の送付を受けた公安委員会が当該仮停止の期間内に当該事案について前条第一項、第二項又は第四項の規定による処分をしたときは、その効力を失う。
     modality: unspecified
     references:
-    - 前条
     - 前二項
+    - 前条
 - number: 8
   has_proviso: false
   has_items: false
@@ -109,6 +109,10 @@ paragraphs:
     modality: unspecified
     references:
     - 前条
+  - id: douro-koutsuu-hou-art-103-2-supplnote-1
+    type: supplnote
+    text: （罰則　第三項及び第四項については第百二十一条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -25,6 +25,10 @@ paragraphs:
     type: tadashi
     text: ただし、路面電車に乗降する者の安全を図るため設けられた安全地帯があるとき、又は当該路面電車に乗降する者がいない場合において当該路面電車の左側に当該路面電車から一・五メートル以上の間隔を保つことができるときは、徐行して当該路面電車の左側を通過することができる。
     modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-31-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第六号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

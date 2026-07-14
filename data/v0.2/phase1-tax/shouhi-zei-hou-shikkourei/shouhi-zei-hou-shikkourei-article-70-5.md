@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-70-5-p1-kou-1
     type: kou
-    text: 氏名又は名称及び登録番号
+    text: 一　氏名又は名称及び登録番号
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-70-5-p1-kou-2
     type: kou
-    text: 登録年月日
+    text: 二　登録年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-70-5-p1-kou-3
     type: kou
-    text: 法人（人格のない社団等を除く。）にあつては、本店又は主たる事務所の所在地
+    text: 三　法人（人格のない社団等を除く。）にあつては、本店又は主たる事務所の所在地
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikkourei-art-70-5-p1-kou-4
     type: kou
-    text: 法第五十七条の二第五項第一号に規定する特定国外事業者以外の国外事業者にあつては、国内において行う資産の譲渡等に係る事務所、事業所その他これらに準ずるものの所在地
+    text: 四　法第五十七条の二第五項第一号に規定する特定国外事業者以外の国外事業者にあつては、国内において行う資産の譲渡等に係る事務所、事業所その他これらに準ずるものの所在地
     modality: unspecified
     item_number: 4
 - number: 2

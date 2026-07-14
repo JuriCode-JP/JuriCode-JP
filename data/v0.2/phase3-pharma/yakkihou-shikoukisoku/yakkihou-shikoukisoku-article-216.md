@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-shikoukisoku-art-216-p1-kou-1
     type: kou
-    text: 「調剤専用」の文字
+    text: 一　「調剤専用」の文字
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-216-p1-kou-2
     type: kou
-    text: 第二百十条第七号に掲げる事項
+    text: 二　第二百十条第七号に掲げる事項
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の規定により、同項に掲げる医薬品について同項の表の中欄に掲げる事項の記載を、それぞれ同表の下欄に定めるところにより、同欄に掲げる事項の記載をもつてこれに代え、又は省略することができる場合において、薬局開設者が所持している同項に規定する文書又は容器若しくは被包に当該医薬品に関する法第五十二条第一項に規定する符号又は法第六十八条の二第二項に規定する注意事項等情報が記載されているときは、当該医薬品については法第五十二条第一項の規定は適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

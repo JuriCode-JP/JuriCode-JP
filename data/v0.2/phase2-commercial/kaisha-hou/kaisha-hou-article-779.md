@@ -32,17 +32,17 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-779-p2-kou-1
     type: kou
-    text: 組織変更をする旨
+    text: 一　組織変更をする旨
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-779-p2-kou-2
     type: kou
-    text: 組織変更をする株式会社の計算書類（第四百三十五条第二項に規定する計算書類をいう。以下この章において同じ。）に関する事項として法務省令で定めるもの
+    text: 二　組織変更をする株式会社の計算書類（第四百三十五条第二項に規定する計算書類をいう。以下この章において同じ。）に関する事項として法務省令で定めるもの
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-779-p2-kou-3
     type: kou
-    text: 債権者が一定の期間内に異議を述べることができる旨
+    text: 三　債権者が一定の期間内に異議を述べることができる旨
     modality: unspecified
     item_number: 3
 - number: 3
@@ -58,8 +58,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

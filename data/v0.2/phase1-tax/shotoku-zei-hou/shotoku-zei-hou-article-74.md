@@ -34,67 +34,67 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-art-74-p2-kou-1
     type: kou
-    text: 健康保険法（大正十一年法律第七十号）の規定により被保険者として負担する健康保険の保険料
+    text: 一　健康保険法（大正十一年法律第七十号）の規定により被保険者として負担する健康保険の保険料
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-74-p2-kou-2
     type: kou
-    text: 国民健康保険法（昭和三十三年法律第百九十二号）の規定による国民健康保険の保険料又は地方税法の規定による国民健康保険税
+    text: 二　国民健康保険法（昭和三十三年法律第百九十二号）の規定による国民健康保険の保険料又は地方税法の規定による国民健康保険税
     modality: unspecified
     item_number: 2
-  - id: shotoku-zei-hou-art-74-p2-kou-2
+  - id: shotoku-zei-hou-art-74-p2-kou-2-2
     type: kou
-    text: 高齢者の医療の確保に関する法律（昭和五十七年法律第八十号）の規定による保険料
+    text: 二の二　高齢者の医療の確保に関する法律（昭和五十七年法律第八十号）の規定による保険料
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-74-p2-kou-3
     type: kou
-    text: 介護保険法（平成九年法律第百二十三号）の規定による介護保険の保険料
+    text: 三　介護保険法（平成九年法律第百二十三号）の規定による介護保険の保険料
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-art-74-p2-kou-4
     type: kou
-    text: 労働保険の保険料の徴収等に関する法律（昭和四十四年法律第八十四号）の規定により雇用保険の被保険者として負担する労働保険料
+    text: 四　労働保険の保険料の徴収等に関する法律（昭和四十四年法律第八十四号）の規定により雇用保険の被保険者として負担する労働保険料
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-art-74-p2-kou-5
     type: kou
-    text: 国民年金法の規定により被保険者として負担する国民年金の保険料及び国民年金基金の加入員として負担する掛金
+    text: 五　国民年金法の規定により被保険者として負担する国民年金の保険料及び国民年金基金の加入員として負担する掛金
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-art-74-p2-kou-6
     type: kou
-    text: 独立行政法人農業者年金基金法の規定により被保険者として負担する農業者年金の保険料
+    text: 六　独立行政法人農業者年金基金法の規定により被保険者として負担する農業者年金の保険料
     modality: unspecified
     item_number: 6
   - id: shotoku-zei-hou-art-74-p2-kou-7
     type: kou
-    text: 厚生年金保険法の規定により被保険者として負担する厚生年金保険の保険料
+    text: 七　厚生年金保険法の規定により被保険者として負担する厚生年金保険の保険料
     modality: unspecified
     item_number: 7
   - id: shotoku-zei-hou-art-74-p2-kou-8
     type: kou
-    text: 船員保険法の規定により被保険者として負担する船員保険の保険料
+    text: 八　船員保険法の規定により被保険者として負担する船員保険の保険料
     modality: unspecified
     item_number: 8
   - id: shotoku-zei-hou-art-74-p2-kou-9
     type: kou
-    text: 国家公務員共済組合法の規定による掛金
+    text: 九　国家公務員共済組合法の規定による掛金
     modality: unspecified
     item_number: 9
   - id: shotoku-zei-hou-art-74-p2-kou-10
     type: kou
-    text: 地方公務員等共済組合法の規定による掛金（特別掛金を含む。）
+    text: 十　地方公務員等共済組合法の規定による掛金（特別掛金を含む。）
     modality: unspecified
     item_number: 10
   - id: shotoku-zei-hou-art-74-p2-kou-11
     type: kou
-    text: 私立学校教職員共済法の規定により加入者として負担する掛金
+    text: 十一　私立学校教職員共済法の規定により加入者として負担する掛金
     modality: unspecified
     item_number: 11
   - id: shotoku-zei-hou-art-74-p2-kou-12
     type: kou
-    text: 恩給法第五十九条（恩給納金）（他の法律において準用する場合を含む。）の規定による納金
+    text: 十二　恩給法第五十九条（恩給納金）（他の法律において準用する場合を含む。）の規定による納金
     modality: unspecified
     item_number: 12
 - number: 3

@@ -23,72 +23,72 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-1-p1-kou-1
     type: kou
-    text: 地方団体　道府県又は市町村をいう。
+    text: 一　地方団体　道府県又は市町村をいう。
     modality: teigi
     item_number: 1
   - id: chihou-zei-hou-art-1-p1-kou-2
     type: kou
-    text: 地方団体の長　道府県知事又は市町村長をいう。
+    text: 二　地方団体の長　道府県知事又は市町村長をいう。
     modality: teigi
     item_number: 2
   - id: chihou-zei-hou-art-1-p1-kou-3
     type: kou
-    text: 徴税吏員　道府県知事若しくはその委任を受けた道府県職員又は市町村長若しくはその委任を受けた市町村職員をいう。
+    text: 三　徴税吏員　道府県知事若しくはその委任を受けた道府県職員又は市町村長若しくはその委任を受けた市町村職員をいう。
     modality: teigi
     item_number: 3
   - id: chihou-zei-hou-art-1-p1-kou-4
     type: kou
-    text: 地方税　道府県税又は市町村税をいう。
+    text: 四　地方税　道府県税又は市町村税をいう。
     modality: teigi
     item_number: 4
   - id: chihou-zei-hou-art-1-p1-kou-5
     type: kou
-    text: 標準税率　地方団体が課税する場合に通常よるべき税率でその財政上その他の必要があると認める場合においては、これによることを要しない税率をいい、総務大臣が地方交付税の額を定める際に基準財政収入額の算定の基礎として用いる税率とする。
+    text: 五　標準税率　地方団体が課税する場合に通常よるべき税率でその財政上その他の必要があると認める場合においては、これによることを要しない税率をいい、総務大臣が地方交付税の額を定める際に基準財政収入額の算定の基礎として用いる税率とする。
     modality: gimu
     item_number: 5
   - id: chihou-zei-hou-art-1-p1-kou-6
     type: kou
-    text: 納税通知書　納税者が納付すべき地方税について、その賦課の根拠となつた法律及び当該地方団体の条例の規定、納税者の住所及び氏名、課税標準額、税率、税額、納期、各納期における納付額、納付の場所並びに納期限までに税金を納付しなかつた場合において執られるべき措置及び賦課に不服がある場合における救済の方法を記載した文書で当該地方団体が作成するものをいう。
+    text: 六　納税通知書　納税者が納付すべき地方税について、その賦課の根拠となつた法律及び当該地方団体の条例の規定、納税者の住所及び氏名、課税標準額、税率、税額、納期、各納期における納付額、納付の場所並びに納期限までに税金を納付しなかつた場合において執られるべき措置及び賦課に不服がある場合における救済の方法を記載した文書で当該地方団体が作成するものをいう。
     modality: teigi
     item_number: 6
   - id: chihou-zei-hou-art-1-p1-kou-7
     type: kou
-    text: 普通徴収　徴税吏員が納税通知書を当該納税者に交付することによつて地方税を徴収することをいう。
+    text: 七　普通徴収　徴税吏員が納税通知書を当該納税者に交付することによつて地方税を徴収することをいう。
     modality: teigi
     item_number: 7
   - id: chihou-zei-hou-art-1-p1-kou-8
     type: kou
-    text: 申告納付　納税者がその納付すべき地方税の課税標準額及び税額を申告し、及びその申告した税金を納付することをいう。
+    text: 八　申告納付　納税者がその納付すべき地方税の課税標準額及び税額を申告し、及びその申告した税金を納付することをいう。
     modality: teigi
     item_number: 8
   - id: chihou-zei-hou-art-1-p1-kou-9
     type: kou
-    text: 特別徴収　地方税の徴収について便宜を有する者にこれを徴収させ、且つ、その徴収すべき税金を納入させることをいう。
+    text: 九　特別徴収　地方税の徴収について便宜を有する者にこれを徴収させ、且つ、その徴収すべき税金を納入させることをいう。
     modality: teigi
     item_number: 9
   - id: chihou-zei-hou-art-1-p1-kou-10
     type: kou
-    text: 特別徴収義務者　特別徴収によつて地方税を徴収し、且つ、納入する義務を負う者をいう。
+    text: 十　特別徴収義務者　特別徴収によつて地方税を徴収し、且つ、納入する義務を負う者をいう。
     modality: teigi
     item_number: 10
   - id: chihou-zei-hou-art-1-p1-kou-11
     type: kou
-    text: 申告納入　特別徴収義務者がその徴収すべき地方税の課税標準額及び税額を申告し、及びその申告した税金を納入することをいう。
+    text: 十一　申告納入　特別徴収義務者がその徴収すべき地方税の課税標準額及び税額を申告し、及びその申告した税金を納入することをいう。
     modality: teigi
     item_number: 11
   - id: chihou-zei-hou-art-1-p1-kou-12
     type: kou
-    text: 納入金　特別徴収義務者が徴収し、且つ、納入すべき地方税をいう。
+    text: 十二　納入金　特別徴収義務者が徴収し、且つ、納入すべき地方税をいう。
     modality: teigi
     item_number: 12
   - id: chihou-zei-hou-art-1-p1-kou-13
     type: kou
-    text: 証紙徴収　地方団体が納税通知書を交付しないでその発行する証紙をもつて地方税を払い込ませることをいう。
+    text: 十三　証紙徴収　地方団体が納税通知書を交付しないでその発行する証紙をもつて地方税を払い込ませることをいう。
     modality: teigi
     item_number: 13
   - id: chihou-zei-hou-art-1-p1-kou-14
     type: kou
-    text: 地方団体の徴収金　地方税並びにその督促手数料、延滞金、過少申告加算金、不申告加算金、重加算金及び滞納処分費をいう。
+    text: 十四　地方団体の徴収金　地方税並びにその督促手数料、延滞金、過少申告加算金、不申告加算金、重加算金及び滞納処分費をいう。
     modality: teigi
     item_number: 14
 - number: 2

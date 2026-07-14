@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-45-p1-kou-1
     type: kou
-    text: 取締役（監査等委員会設置会社の取締役を除く。）の全部又は一部の選任又は解任　当該取締役となる設立時取締役の選任又は解任
+    text: 一　取締役（監査等委員会設置会社の取締役を除く。）の全部又は一部の選任又は解任　当該取締役となる設立時取締役の選任又は解任
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-45-p1-kou-2
     type: kou
-    text: 監査等委員である取締役又はそれ以外の取締役の全部又は一部の選任又は解任　これらの取締役となる設立時取締役の選任又は解任
+    text: 二　監査等委員である取締役又はそれ以外の取締役の全部又は一部の選任又は解任　これらの取締役となる設立時取締役の選任又は解任
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-45-p1-kou-3
     type: kou
-    text: 会計参与の全部又は一部の選任又は解任　当該会計参与となる設立時会計参与の選任又は解任
+    text: 三　会計参与の全部又は一部の選任又は解任　当該会計参与となる設立時会計参与の選任又は解任
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-45-p1-kou-4
     type: kou
-    text: 監査役の全部又は一部の選任又は解任　当該監査役となる設立時監査役の選任又は解任
+    text: 四　監査役の全部又は一部の選任又は解任　当該監査役となる設立時監査役の選任又は解任
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-45-p1-kou-5
     type: kou
-    text: 会計監査人の全部又は一部の選任又は解任　当該会計監査人となる設立時会計監査人の選任又は解任
+    text: 五　会計監査人の全部又は一部の選任又は解任　当該会計監査人となる設立時会計監査人の選任又は解任
     modality: unspecified
     item_number: 5
 - number: 2

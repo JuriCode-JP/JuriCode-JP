@@ -22,8 +22,8 @@ paragraphs:
     text: 清算人は、前条第一項第一号の規定による解散の場合には総会において選任し、同項第二号の規定による解散の場合には内閣総理大臣及び財務大臣が選任する。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

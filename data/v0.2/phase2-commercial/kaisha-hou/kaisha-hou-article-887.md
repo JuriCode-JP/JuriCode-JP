@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-887-p1-kou-1
     type: kou
-    text: 第五百二十条の規定による報告又は第五百二十二条第一項に規定する調査の結果の報告に係る文書等
+    text: 一　第五百二十条の規定による報告又は第五百二十二条第一項に規定する調査の結果の報告に係る文書等
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-887-p1-kou-2
     type: kou
-    text: 第五百三十五条第一項又は第五百三十六条第一項の許可を得るために裁判所に提出された文書等
+    text: 二　第五百三十五条第一項又は第五百三十六条第一項の許可を得るために裁判所に提出された文書等
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,9 +41,9 @@ paragraphs:
     text: 前項の申立てがあったときは、その申立てについての裁判が確定するまで、利害関係人（同項の申立てをした者及び清算株式会社を除く。次項において同じ。）は、支障部分の閲覧等の請求をすることができない。
     modality: kanou_negative
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

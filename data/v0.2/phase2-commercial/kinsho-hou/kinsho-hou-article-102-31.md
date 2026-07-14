@@ -36,12 +36,12 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-102-31-p2-kou-1
     type: kou
-    text: 前項の議事録が書面をもつて作成されているときは、当該書面
+    text: 一　前項の議事録が書面をもつて作成されているときは、当該書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-102-31-p2-kou-2
     type: kou
-    text: 前項の議事録が電磁的記録をもつて作成されているときは、当該電磁的記録に記録された事項を内閣府令で定める方法により表示したもの
+    text: 二　前項の議事録が電磁的記録をもつて作成されているときは、当該電磁的記録に記録された事項を内閣府令で定める方法により表示したもの
     modality: unspecified
     item_number: 2
 - number: 3
@@ -54,8 +54,8 @@ paragraphs:
     text: 裁判所は、前項の請求に係る閲覧又は謄写をすることにより、当該委託金融商品取引所、当該委託金融商品取引所を子会社とする者又は当該委託金融商品取引所の子会社に著しい損害を及ぼすおそれがあると認めるときは、同項の許可をすることができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

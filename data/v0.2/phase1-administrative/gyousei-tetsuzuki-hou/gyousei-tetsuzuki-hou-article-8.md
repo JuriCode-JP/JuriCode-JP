@@ -35,8 +35,8 @@ paragraphs:
     text: 前項本文に規定する処分を書面でするときは、同項の理由は、書面により示さなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-1
     type: kou
-    text: 宿舎の用に供する固定資産
+    text: 一　宿舎の用に供する固定資産
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-2
     type: kou
-    text: 職員の福利及び厚生の用に供する固定資産
+    text: 二　職員の福利及び厚生の用に供する固定資産
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-3
     type: kou
-    text: 他の者に貸し付けている固定資産
+    text: 三　他の者に貸し付けている固定資産
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-4
     type: kou
-    text: 遊休状態にある土地及び家屋（鉄道事業の用に供するものとして建設計画が確定しているものを除く。）
+    text: 四　遊休状態にある土地及び家屋（鉄道事業の用に供するものとして建設計画が確定しているものを除く。）
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-5
     type: kou
-    text: 観光その他旅客誘致のための施設の用に供する固定資産
+    text: 五　観光その他旅客誘致のための施設の用に供する固定資産
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-52-10-3-p1-kou-6
     type: kou
-    text: 私人のための専用側線の用に供する固定資産
+    text: 六　私人のための専用側線の用に供する固定資産
     modality: unspecified
     item_number: 6
 cases: []

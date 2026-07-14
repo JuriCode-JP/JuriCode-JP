@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikoukisoku-art-38-55-p1-kou-1
     type: kou
-    text: 当該構成会社等が恒久的施設等である場合における第三十八条の二十八第四項第一号（調整後対象租税額の計算）に定める金額
+    text: 一　当該構成会社等が恒久的施設等である場合における第三十八条の二十八第四項第一号（調整後対象租税額の計算）に定める金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-55-p1-kou-2
     type: kou
-    text: 当該構成会社等の第三十八条の二十八第四項第四号に規定する親会社等が同号に規定する適格外国子会社合算税制等の適用を受ける場合における同号に定める金額
+    text: 二　当該構成会社等の第三十八条の二十八第四項第四号に規定する親会社等が同号に規定する適格外国子会社合算税制等の適用を受ける場合における同号に定める金額
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-55-p1-kou-3
     type: kou
-    text: 当該構成会社等が令第百五十五条の三十五第三項第五号イ（調整後対象租税額の計算）に掲げる会社等に該当する場合における第三十八条の二十八第四項第五号に定める金額
+    text: 三　当該構成会社等が令第百五十五条の三十五第三項第五号イ（調整後対象租税額の計算）に掲げる会社等に該当する場合における第三十八条の二十八第四項第五号に定める金額
     modality: unspecified
     item_number: 3
 - number: 2

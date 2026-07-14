@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-16-10-p1-kou-1
     type: kou
-    text: 当該金融商品取引業者等（個人である者に限る。）の親族（配偶者並びに三親等以内の血族及び姻族に限る。）
+    text: 一　当該金融商品取引業者等（個人である者に限る。）の親族（配偶者並びに三親等以内の血族及び姻族に限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-16-10-p1-kou-2
     type: kou
-    text: 当該金融商品取引業者等（法人である者に限る。以下この条において同じ。）の役員又は使用人
+    text: 二　当該金融商品取引業者等（法人である者に限る。以下この条において同じ。）の役員又は使用人
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-16-10-p1-kou-3
     type: kou
-    text: 当該金融商品取引業者等の親法人等又は子法人等
+    text: 三　当該金融商品取引業者等の親法人等又は子法人等
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-16-10-p1-kou-4
     type: kou
-    text: 当該金融商品取引業者等の特定個人株主（第二号に掲げる者を除く。）
+    text: 四　当該金融商品取引業者等の特定個人株主（第二号に掲げる者を除く。）
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-16-10-p1-kou-5
     type: kou
-    text: 前各号に掲げる者に準ずる者として内閣府令で定める者
+    text: 五　前各号に掲げる者に準ずる者として内閣府令で定める者
     modality: unspecified
     item_number: 5
 cases: []

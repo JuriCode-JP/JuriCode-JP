@@ -23,72 +23,72 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-shikkourei-art-42-p1-kou-1
     type: kou
-    text: 法第二十九条の二第一項の規定による登録申請書の受理
+    text: 一　法第二十九条の二第一項の規定による登録申請書の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-42-p1-kou-2
     type: kou
-    text: 法第二十九条の三第一項（法第三十一条第五項において準用する場合を含む。）及び第三十一条第二項の規定による登録
+    text: 二　法第二十九条の三第一項（法第三十一条第五項において準用する場合を含む。）及び第三十一条第二項の規定による登録
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-42-p1-kou-3
     type: kou
-    text: 法第二十九条の三第二項（法第三十一条第五項において準用する場合を含む。）の規定による金融商品取引業者登録簿の縦覧
+    text: 三　法第二十九条の三第二項（法第三十一条第五項において準用する場合を含む。）の規定による金融商品取引業者登録簿の縦覧
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-42-p1-kou-4
     type: kou
-    text: 法第二十九条の四第一項の規定による登録の拒否
+    text: 四　法第二十九条の四第一項の規定による登録の拒否
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-42-p1-kou-5
     type: kou
-    text: 法第三十条第二項の規定による認可をした旨の付記
+    text: 五　法第三十条第二項の規定による認可をした旨の付記
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-42-p1-kou-6
     type: kou
-    text: 法第三十九条第三項ただし書の規定による確認及び同条第七項の規定による申請書の受理
+    text: 六　法第三十九条第三項ただし書の規定による確認及び同条第七項の規定による申請書の受理
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-42-p1-kou-7
     type: kou
-    text: 法第五十五条第一項の規定による登録の抹消及び同条第二項の規定による認可をした旨の付記の抹消
+    text: 七　法第五十五条第一項の規定による登録の抹消及び同条第二項の規定による認可をした旨の付記の抹消
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-42-p1-kou-8
     type: kou
-    text: 法第五十七条第一項の規定による審問（法第二十九条の登録の拒否に係るものに限る。）
+    text: 八　法第五十七条第一項の規定による審問（法第二十九条の登録の拒否に係るものに限る。）
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-shikkourei-art-42-p1-kou-9
     type: kou
-    text: 法第五十七条第三項の規定による通知（法第二十九条の登録に係るものに限る。）
+    text: 九　法第五十七条第三項の規定による通知（法第二十九条の登録に係るものに限る。）
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-shikkourei-art-42-p1-kou-10
     type: kou
-    text: 法第五十七条の二第七項の規定による特別金融商品取引業者である旨の付記
+    text: 十　法第五十七条の二第七項の規定による特別金融商品取引業者である旨の付記
     modality: unspecified
     item_number: 10
   - id: kinsho-hou-shikkourei-art-42-p1-kou-11
     type: kou
-    text: 法第五十七条の八第一項の規定による登録の抹消及び同条第二項の規定による特別金融商品取引業者である旨の付記の抹消
+    text: 十一　法第五十七条の八第一項の規定による登録の抹消及び同条第二項の規定による特別金融商品取引業者である旨の付記の抹消
     modality: unspecified
     item_number: 11
   - id: kinsho-hou-shikkourei-art-42-p1-kou-12
     type: kou
-    text: 法第六十三条第二項及び第六十三条の九第一項の規定による届出の受理
+    text: 十二　法第六十三条第二項及び第六十三条の九第一項の規定による届出の受理
     modality: unspecified
     item_number: 12
   - id: kinsho-hou-shikkourei-art-42-p1-kou-13
     type: kou
-    text: 法第六十三条第五項の規定による縦覧
+    text: 十三　法第六十三条第五項の規定による縦覧
     modality: unspecified
     item_number: 13
   - id: kinsho-hou-shikkourei-art-42-p1-kou-14
     type: kou
-    text: 法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第八号に規定する審問に係るもの
+    text: 十四　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第八号に規定する審問に係るもの
     modality: unspecified
     item_number: 14
 - number: 2
@@ -102,137 +102,137 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-shikkourei-art-42-p2-kou-1
     type: kou
-    text: 法第三十条第一項及び第三十一条第六項の規定による認可
+    text: 一　法第三十条第一項及び第三十一条第六項の規定による認可
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-42-p2-kou-2
     type: kou
-    text: 法第三十条の二第一項の規定による認可の条件の付加
+    text: 二　法第三十条の二第一項の規定による認可の条件の付加
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-42-p2-kou-3
     type: kou
-    text: 法第三十条の三第一項の規定による認可申請書の受理
+    text: 三　法第三十条の三第一項の規定による認可申請書の受理
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-42-p2-kou-4
     type: kou
-    text: 法第三十一条第一項、第三項及び第七項、第三十一条の二第三項、第五項及び第八項、第三十一条の四第一項及び第二項、第三十五条第三項及び第六項、第三十七条の三第三項、第四十二条の七第二項、第四十六条の六第一項、第五十条第一項、第五十条の二第一項及び第七項、第六十条の五、第六十条の七、第六十三条第八項及び第十三項（これらの規定を法第六十三条の三第二項において準用する場合を含む。）、第六十三条の二第二項、第三項（法第六十三条の三第二項において準用する場合を含む。）及び第四項、第六十三条の三第一項、第六十三条の九第七項及び第十項（これらの規定を法第六十三条の十一第二項において準用する場合を含む。）、第六十三条の十第二項、第三項（法第六十三条の十一第二項において準用する場合を含む。）及び第四項並びに第六十三条の十一第一項の規定による届出の受理
+    text: 四　法第三十一条第一項、第三項及び第七項、第三十一条の二第三項、第五項及び第八項、第三十一条の四第一項及び第二項、第三十五条第三項及び第六項、第三十七条の三第三項、第四十二条の七第二項、第四十六条の六第一項、第五十条第一項、第五十条の二第一項及び第七項、第六十条の五、第六十条の七、第六十三条第八項及び第十三項（これらの規定を法第六十三条の三第二項において準用する場合を含む。）、第六十三条の二第二項、第三項（法第六十三条の三第二項において準用する場合を含む。）及び第四項、第六十三条の三第一項、第六十三条の九第七項及び第十項（これらの規定を法第六十三条の十一第二項において準用する場合を含む。）、第六十三条の十第二項、第三項（法第六十三条の十一第二項において準用する場合を含む。）及び第四項並びに第六十三条の十一第一項の規定による届出の受理
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-42-p2-kou-5
     type: kou
-    text: 法第三十一条第四項の規定による変更登録申請書の受理
+    text: 五　法第三十一条第四項の規定による変更登録申請書の受理
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-42-p2-kou-6
     type: kou
-    text: 法第三十一条第五項において準用する法第二十九条の四第一項の規定による変更登録の拒否
+    text: 六　法第三十一条第五項において準用する法第二十九条の四第一項の規定による変更登録の拒否
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-42-p2-kou-7
     type: kou
-    text: 法第三十一条の二第四項、第四十六条の三第三項（法第六十条の六において準用する場合を含む。）、第五十六条の三、第六十三条第十二項（法第六十三条の三第二項において準用する場合を含む。）及び第六十三条の九第九項（法第六十三条の十一第二項において準用する場合を含む。）の規定による命令
+    text: 七　法第三十一条の二第四項、第四十六条の三第三項（法第六十条の六において準用する場合を含む。）、第五十六条の三、第六十三条第十二項（法第六十三条の三第二項において準用する場合を含む。）及び第六十三条の九第九項（法第六十三条の十一第二項において準用する場合を含む。）の規定による命令
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-42-p2-kou-8
     type: kou
-    text: 法第三十五条第四項、第四十四条の三第一項ただし書及び第四十九条の四第二項の規定による承認
+    text: 八　法第三十五条第四項、第四十四条の三第一項ただし書及び第四十九条の四第二項の規定による承認
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-shikkourei-art-42-p2-kou-9
     type: kou
-    text: 法第四十六条の三第一項及び第二項（これらの規定を法第六十条の六において準用する場合を含む。）、第四十七条の二、第四十九条の三（法第六十条の六において準用する場合を含む。）、第六十三条の四第二項（法第六十三条の三第二項において準用する場合を含む。）並びに第六十三条の十二第二項（法第六十三条の十一第二項において準用する場合を含む。）の規定による書類、書面及び報告の受理
+    text: 九　法第四十六条の三第一項及び第二項（これらの規定を法第六十条の六において準用する場合を含む。）、第四十七条の二、第四十九条の三（法第六十条の六において準用する場合を含む。）、第六十三条の四第二項（法第六十三条の三第二項において準用する場合を含む。）並びに第六十三条の十二第二項（法第六十三条の十一第二項において準用する場合を含む。）の規定による書類、書面及び報告の受理
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-shikkourei-art-42-p2-kou-10
     type: kou
-    text: 法第五十一条、第五十二条第一項、第二項及び第四項、第五十三条、第五十四条、第六十条の八第一項（法第六十条第一項の許可の取消しに係るものを除く。）及び第二項、第六十三条の五第一項から第三項まで（これらの規定を法第六十三条の三第二項において準用する場合を含む。）並びに第六十三条の十三第一項から第三項まで（これらの規定を法第六十三条の十一第二項において準用する場合を含む。）の規定による処分
+    text: 十　法第五十一条、第五十二条第一項、第二項及び第四項、第五十三条、第五十四条、第六十条の八第一項（法第六十条第一項の許可の取消しに係るものを除く。）及び第二項、第六十三条の五第一項から第三項まで（これらの規定を法第六十三条の三第二項において準用する場合を含む。）並びに第六十三条の十三第一項から第三項まで（これらの規定を法第六十三条の十一第二項において準用する場合を含む。）の規定による処分
     modality: unspecified
     item_number: 10
   - id: kinsho-hou-shikkourei-art-42-p2-kou-11
     type: kou
-    text: 法第五十四条の二、第六十条の八第三項（法第六十条第一項の許可の取消しに係るものを除く。）、第六十三条の五第六項（法第六十三条の三第二項において準用する場合を含む。）及び第六十三条の十三第六項（法第六十三条の十一第二項において準用する場合を含む。）の規定による公告
+    text: 十一　法第五十四条の二、第六十条の八第三項（法第六十条第一項の許可の取消しに係るものを除く。）、第六十三条の五第六項（法第六十三条の三第二項において準用する場合を含む。）及び第六十三条の十三第六項（法第六十三条の十一第二項において準用する場合を含む。）の規定による公告
     modality: unspecified
     item_number: 11
   - id: kinsho-hou-shikkourei-art-42-p2-kou-12
     type: kou
-    text: 法第五十六条の二第一項（法第六十五条の三第三項において準用する場合を含む。）、第三項及び第四項、第六十条の十一（法第六十条の十二第三項において準用する場合を含む。）、第六十三条の六（法第六十三条の三第二項において準用する場合を含む。）並びに第六十三条の十四（法第六十三条の十一第二項において準用する場合を含む。）の規定による報告及び資料の提出の命令並びに検査（法第百九十四条の七第二項第一号から第二号の三までの規定及び第三十八条の二第二項の規定により委員会に委任されたものを除く。）
+    text: 十二　法第五十六条の二第一項（法第六十五条の三第三項において準用する場合を含む。）、第三項及び第四項、第六十条の十一（法第六十条の十二第三項において準用する場合を含む。）、第六十三条の六（法第六十三条の三第二項において準用する場合を含む。）並びに第六十三条の十四（法第六十三条の十一第二項において準用する場合を含む。）の規定による報告及び資料の提出の命令並びに検査（法第百九十四条の七第二項第一号から第二号の三までの規定及び第三十八条の二第二項の規定により委員会に委任されたものを除く。）
     modality: unspecified
     item_number: 12
   - id: kinsho-hou-shikkourei-art-42-p2-kou-13
     type: kou
-    text: 法第五十七条第一項の規定による審問（法第二十九条の登録の拒否に係るものを除く。）
+    text: 十三　法第五十七条第一項の規定による審問（法第二十九条の登録の拒否に係るものを除く。）
     modality: unspecified
     item_number: 13
   - id: kinsho-hou-shikkourei-art-42-p2-kou-14
     type: kou
-    text: 法第五十七条第二項、第六十条の八第五項（法第六十条第一項の許可の取消しに係るものを除く。）、第六十三条の五第四項（法第六十三条の三第二項において準用する場合を含む。）及び第六十三条の十三第四項（法第六十三条の十一第二項において準用する場合を含む。）の規定による聴聞
+    text: 十四　法第五十七条第二項、第六十条の八第五項（法第六十条第一項の許可の取消しに係るものを除く。）、第六十三条の五第四項（法第六十三条の三第二項において準用する場合を含む。）及び第六十三条の十三第四項（法第六十三条の十一第二項において準用する場合を含む。）の規定による聴聞
     modality: unspecified
     item_number: 14
   - id: kinsho-hou-shikkourei-art-42-p2-kou-15
     type: kou
-    text: 法第五十七条第三項（法第二十九条の登録に係るものを除く。）、第六十条の八第四項（法第六十条第一項の許可の取消しに係るものを除く。）、第六十三条の五第五項（法第六十三条の三第二項において準用する場合を含む。）及び第六十三条の十三第五項（法第六十三条の十一第二項において準用する場合を含む。）の規定による通知
+    text: 十五　法第五十七条第三項（法第二十九条の登録に係るものを除く。）、第六十条の八第四項（法第六十条第一項の許可の取消しに係るものを除く。）、第六十三条の五第五項（法第六十三条の三第二項において準用する場合を含む。）及び第六十三条の十三第五項（法第六十三条の十一第二項において準用する場合を含む。）の規定による通知
     modality: unspecified
     item_number: 15
   - id: kinsho-hou-shikkourei-art-42-p2-kou-16
     type: kou
-    text: 法第六十条の四第一項及び第六十五条第一項の規定による職務代行者の選任
+    text: 十六　法第六十条の四第一項及び第六十五条第一項の規定による職務代行者の選任
     modality: unspecified
     item_number: 16
   - id: kinsho-hou-shikkourei-art-42-p2-kou-17
     type: kou
-    text: 法第六十条の四第二項及び第六十五条第二項の規定による支払の命令
+    text: 十七　法第六十条の四第二項及び第六十五条第二項の規定による支払の命令
     modality: unspecified
     item_number: 17
   - id: kinsho-hou-shikkourei-art-42-p2-kou-18
     type: kou
-    text: 法第六十三条第九項及び第十項（これらの規定を法第六十三条の三第二項において準用する場合を含む。）の規定による契約書の写しの受理
+    text: 十八　法第六十三条第九項及び第十項（これらの規定を法第六十三条の三第二項において準用する場合を含む。）の規定による契約書の写しの受理
     modality: unspecified
     item_number: 18
   - id: kinsho-hou-shikkourei-art-42-p2-kou-19
     type: kou
-    text: 法第六十三条の三第二項において準用する法第六十三条第五項及び法第六十三条の九第四項（法第六十三条の十一第二項において準用する場合を含む。）の規定による縦覧
+    text: 十九　法第六十三条の三第二項において準用する法第六十三条第五項及び法第六十三条の九第四項（法第六十三条の十一第二項において準用する場合を含む。）の規定による縦覧
     modality: unspecified
     item_number: 19
   - id: kinsho-hou-shikkourei-art-42-p2-kou-20
     type: kou
-    text: 法第六十五条の三第一項の規定による意見の求め及び依頼の受理
+    text: 二十　法第六十五条の三第一項の規定による意見の求め及び依頼の受理
     modality: unspecified
     item_number: 20
   - id: kinsho-hou-shikkourei-art-42-p2-kou-21
     type: kou
-    text: 法第六十五条の三第二項の規定による意見の陳述
+    text: 二十一　法第六十五条の三第二項の規定による意見の陳述
     modality: unspecified
     item_number: 21
   - id: kinsho-hou-shikkourei-art-42-p2-kou-22
     type: kou
-    text: 法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第十三号に規定する審問及び第十四号に規定する聴聞に係るもの
+    text: 二十二　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第十三号に規定する審問及び第十四号に規定する聴聞に係るもの
     modality: unspecified
     item_number: 22
   - id: kinsho-hou-shikkourei-art-42-p2-kou-23
     type: kou
-    text: 法第百九十四条の六第二項から第四項までの規定による通知
+    text: 二十三　法第百九十四条の六第二項から第四項までの規定による通知
     modality: unspecified
     item_number: 23
   - id: kinsho-hou-shikkourei-art-42-p2-kou-24
     type: kou
-    text: 第十五条の十三第三号、第十五条の十五、第十六条の十七ただし書、第十六条の十八ただし書、第十六条の十九ただし書、第十七条の十第一項ただし書及び第三項ただし書、第十七条の十三の三ただし書、第十七条の十三の四ただし書、第十七条の十三の八ただし書並びに第十七条の十三の九ただし書の規定による承認
+    text: 二十四　第十五条の十三第三号、第十五条の十五、第十六条の十七ただし書、第十六条の十八ただし書、第十六条の十九ただし書、第十七条の十第一項ただし書及び第三項ただし書、第十七条の十三の三ただし書、第十七条の十三の四ただし書、第十七条の十三の八ただし書並びに第十七条の十三の九ただし書の規定による承認
     modality: unspecified
     item_number: 24
   - id: kinsho-hou-shikkourei-art-42-p2-kou-25
     type: kou
-    text: 第十五条の十四の規定による申立ての受理、公示、通知、調査、意見を述べる機会の付与、配当表の作成及び換価
+    text: 二十五　第十五条の十四の規定による申立ての受理、公示、通知、調査、意見を述べる機会の付与、配当表の作成及び換価
     modality: unspecified
     item_number: 25
   - id: kinsho-hou-shikkourei-art-42-p2-kou-26
     type: kou
-    text: 第三十七条第六項の規定による協議
+    text: 二十六　第三十七条第六項の規定による協議
     modality: unspecified
     item_number: 26
   - id: kinsho-hou-shikkourei-art-42-p2-kou-27
     type: kou
-    text: 第三十七条第七項の規定による通知
+    text: 二十七　第三十七条第七項の規定による通知
     modality: unspecified
     item_number: 27
 - number: 3
@@ -245,8 +245,8 @@ paragraphs:
     text: 前項第十二号に掲げる権限で金融商品取引業者、特例業務届出者若しくは海外投資家等特例業務届出者の本店等以外の支店その他の営業所、事務所その他の施設、取引所取引許可業者の事務所その他の施設（国内における代表者の住所にあるものを除く。）、当該金融商品取引業者、取引所取引許可業者、特例業務届出者若しくは海外投資家等特例業務届出者と取引をする者、法第五十六条の二第一項に規定する子特定法人、当該金融商品取引業者を子会社（法第二十九条の四第四項に規定する子会社をいう。次条第四項、第四十三条第三項並びに第四十四条第七項及び第八項において同じ。）とする持株会社（法第二十九条の四第三項に規定する持株会社をいう。以下同じ。）、当該金融商品取引業者、取引所取引許可業者、特例業務届出者若しくは海外投資家等特例業務届出者から業務の委託を受けた者（その者から委託（二以上の段階にわたる委託を含む。）を受けた者を含む。以下この項において同じ。）、当該金融商品取引業者（法第五十六条の二第三項に規定する特定金融商品取引業者等である者に限る。）の同条第三項に規定する親金融機関等若しくは子金融機関等又は当該金融商品取引業者の同条第四項に規定する親銀行等若しくは子銀行等（以下この条において「支店等」という。）に関するものについては、前項に規定する財務局長又は福岡財務支局長のほか、当該支店等の所在地（当該取引をする者又は業務の委託を受けた者が個人の場合にあつては、その住所又は居所）を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては福岡財務支局長、当該所在地が国外にある場合にあつては関東財務局長）も行うことができる。
     modality: kanou_kenri
     references:
-    - 次条
     - 前項
+    - 次条
 - number: 4
   has_proviso: true
   has_items: false
@@ -293,52 +293,52 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-shikkourei-art-42-p7-kou-1
     type: kou
-    text: 法第六十四条第三項の規定による登録申請書の受理
+    text: 一　法第六十四条第三項の規定による登録申請書の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-42-p7-kou-2
     type: kou
-    text: 法第六十四条第五項の規定による登録
+    text: 二　法第六十四条第五項の規定による登録
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-42-p7-kou-3
     type: kou
-    text: 法第六十四条第六項、第六十四条の二第三項及び第六十四条の五第三項の規定による通知
+    text: 三　法第六十四条第六項、第六十四条の二第三項及び第六十四条の五第三項の規定による通知
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-42-p7-kou-4
     type: kou
-    text: 法第六十四条の二第一項の規定による登録の拒否
+    text: 四　法第六十四条の二第一項の規定による登録の拒否
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-42-p7-kou-5
     type: kou
-    text: 法第六十四条の二第二項の規定による審問
+    text: 五　法第六十四条の二第二項の規定による審問
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-42-p7-kou-6
     type: kou
-    text: 法第六十四条の四の規定による届出の受理
+    text: 六　法第六十四条の四の規定による届出の受理
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-42-p7-kou-7
     type: kou
-    text: 法第六十四条の五第一項の規定による登録の取消し及び職務の停止の命令
+    text: 七　法第六十四条の五第一項の規定による登録の取消し及び職務の停止の命令
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-42-p7-kou-8
     type: kou
-    text: 法第六十四条の五第二項の規定による聴聞
+    text: 八　法第六十四条の五第二項の規定による聴聞
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-shikkourei-art-42-p7-kou-9
     type: kou
-    text: 法第六十四条の六の規定による登録の抹消
+    text: 九　法第六十四条の六の規定による登録の抹消
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-shikkourei-art-42-p7-kou-10
     type: kou
-    text: 法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第五号に規定する審問及び第八号に規定する聴聞に係るもの
+    text: 十　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第五号に規定する審問及び第八号に規定する聴聞に係るもの
     modality: unspecified
     item_number: 10
 cases: []

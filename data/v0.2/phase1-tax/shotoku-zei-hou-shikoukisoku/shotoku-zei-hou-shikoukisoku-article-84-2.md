@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-84-2-p1-kou-1
     type: kou
-    text: その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地。次条から第八十七条（損害保険等給付の支払調書）までにおいて同じ。）
+    text: 一　その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地。次条から第八十七条（損害保険等給付の支払調書）までにおいて同じ。）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-84-2-p1-kou-2
     type: kou
-    text: その年中に支払の確定した給付補塡金等の金額及びその確定した日
+    text: 二　その年中に支払の確定した給付補塡金等の金額及びその確定した日
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-84-2-p1-kou-3
     type: kou
-    text: 前号の給付補塡金等につき源泉徴収をされる所得税の額
+    text: 三　前号の給付補塡金等につき源泉徴収をされる所得税の額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-84-2-p1-kou-4
     type: kou
-    text: 第二号の給付補塡金等の金額の計算の基礎
+    text: 四　第二号の給付補塡金等の金額の計算の基礎
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-84-2-p1-kou-5
     type: kou
-    text: 給付補塡金等の法第二百九条の二に規定する給付補塡金、利息、利益若しくは差益（非居住者又は外国法人が支払を受けるものにあつては、法第百六十一条第一項第十五号イからヘまでに掲げるもの）又は租税特別措置法第四十一条の九第一項に規定する懸賞金付預貯金等の懸賞金等（その支払を受ける者が内国法人又は恒久的施設を有する外国法人であるものに限る。次項第二号において「懸賞金付預貯金等の懸賞金等」という。）の区分
+    text: 五　給付補塡金等の法第二百九条の二に規定する給付補塡金、利息、利益若しくは差益（非居住者又は外国法人が支払を受けるものにあつては、法第百六十一条第一項第十五号イからヘまでに掲げるもの）又は租税特別措置法第四十一条の九第一項に規定する懸賞金付預貯金等の懸賞金等（その支払を受ける者が内国法人又は恒久的施設を有する外国法人であるものに限る。次項第二号において「懸賞金付預貯金等の懸賞金等」という。）の区分
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-84-2-p1-kou-6
     type: kou
-    text: その支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
+    text: 六　その支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
     modality: unspecified
     item_number: 6
   - id: shotoku-zei-hou-shikoukisoku-art-84-2-p1-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 2
@@ -66,16 +66,16 @@ paragraphs:
     text: 前項の場合において、次の各号に掲げる場合に該当するときは、当該各号の規定に該当する給付補塡金等に係る同項の調書は、提出することを要しない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: shotoku-zei-hou-shikoukisoku-art-84-2-p2-kou-1
     type: kou
-    text: 法第十一条第一項（公共法人等に係る非課税）の規定の適用がある場合
+    text: 一　法第十一条第一項（公共法人等に係る非課税）の規定の適用がある場合
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-84-2-p2-kou-2
     type: kou
-    text: 同一人に対するその年中の法第百七十四条第三号から第八号まで（内国法人に係る所得税の課税標準）に掲げる給付補塡金、利息、利益若しくは差益又は懸賞金付預貯金等の懸賞金等の支払金額が三万円以下である場合
+    text: 二　同一人に対するその年中の法第百七十四条第三号から第八号まで（内国法人に係る所得税の課税標準）に掲げる給付補塡金、利息、利益若しくは差益又は懸賞金付預貯金等の懸賞金等の支払金額が三万円以下である場合
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-863-p1-kou-1
     type: kou
-    text: 第六百七十条の規定に違反して行った清算持分会社の財産の処分　清算持分会社の債権者
+    text: 一　第六百七十条の規定に違反して行った清算持分会社の財産の処分　清算持分会社の債権者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-863-p1-kou-2
     type: kou
-    text: 第六百七十一条第一項の規定に違反して行った清算持分会社の財産の処分　清算持分会社の社員の持分を差し押さえた債権者
+    text: 二　第六百七十一条第一項の規定に違反して行った清算持分会社の財産の処分　清算持分会社の社員の持分を差し押さえた債権者
     modality: unspecified
     item_number: 2
 - number: 2

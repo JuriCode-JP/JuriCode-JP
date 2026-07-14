@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-10-p1-kou-1
     type: kou
-    text: 公開買付者のために第八条第四項に規定する事務を行う第一種金融商品取引業者又は銀行等（銀行、優先出資法第二条第一項に規定する協同組織金融機関（以下「協同組織金融機関」という。）及び第一条の九各号に掲げる金融機関をいう。第十四条の三の五第一号において同じ。）
+    text: 一　公開買付者のために第八条第四項に規定する事務を行う第一種金融商品取引業者又は銀行等（銀行、優先出資法第二条第一項に規定する協同組織金融機関（以下「協同組織金融機関」という。）及び第一条の九各号に掲げる金融機関をいう。第十四条の三の五第一号において同じ。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-10-p1-kou-2
     type: kou
-    text: 公開買付者を代理して公開買付けによる株券等の買付け等を行う者
+    text: 二　公開買付者を代理して公開買付けによる株券等の買付け等を行う者
     modality: unspecified
     item_number: 2
 cases: []

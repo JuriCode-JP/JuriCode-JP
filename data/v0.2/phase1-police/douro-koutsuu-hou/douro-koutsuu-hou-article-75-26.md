@@ -32,6 +32,10 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-75-26-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十七条の二第二項第六号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

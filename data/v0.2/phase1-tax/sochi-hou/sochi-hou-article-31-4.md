@@ -26,12 +26,12 @@ paragraphs:
     - 第六十一条
   - id: sochi-hou-art-31-4-p1-kou-1
     type: kou
-    text: その土地等の取得に要した金額と改良費の額との合計額
+    text: 一　その土地等の取得に要した金額と改良費の額との合計額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-31-4-p1-kou-2
     type: kou
-    text: その建物等の取得に要した金額と設備費及び改良費の額との合計額につき所得税法第三十八条第二項の規定を適用した場合に同項の規定により取得費とされる金額
+    text: 二　その建物等の取得に要した金額と設備費及び改良費の額との合計額につき所得税法第三十八条第二項の規定を適用した場合に同項の規定により取得費とされる金額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,8 +44,8 @@ paragraphs:
     text: 第三十条第二項の規定は、前項の規定を適用する場合について準用する。この場合において、同条第二項本文中「山林」とあるのは「第三十一条の四第一項に規定する土地等又は建物等（以下この項において「土地建物等」という。）」と、同項ただし書中「山林」とあるのは「土地建物等」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

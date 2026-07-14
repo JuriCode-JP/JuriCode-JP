@@ -25,37 +25,37 @@ paragraphs:
     - 前条
   - id: kokka-koumuin-hou-art-65-p1-kou-1
     type: kou
-    text: 初任給、昇給その他の俸給の決定の基準に関する事項
+    text: 一　初任給、昇給その他の俸給の決定の基準に関する事項
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-65-p1-kou-2
     type: kou
-    text: 官職又は勤務の特殊性を考慮して支給する給与に関する事項
+    text: 二　官職又は勤務の特殊性を考慮して支給する給与に関する事項
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-65-p1-kou-3
     type: kou
-    text: 親族の扶養その他職員の生計の事情を考慮して支給する給与に関する事項
+    text: 三　親族の扶養その他職員の生計の事情を考慮して支給する給与に関する事項
     modality: unspecified
     item_number: 3
   - id: kokka-koumuin-hou-art-65-p1-kou-4
     type: kou
-    text: 地域の事情を考慮して支給する給与に関する事項
+    text: 四　地域の事情を考慮して支給する給与に関する事項
     modality: unspecified
     item_number: 4
   - id: kokka-koumuin-hou-art-65-p1-kou-5
     type: kou
-    text: 時間外勤務、夜間勤務及び休日勤務に対する給与に関する事項
+    text: 五　時間外勤務、夜間勤務及び休日勤務に対する給与に関する事項
     modality: unspecified
     item_number: 5
   - id: kokka-koumuin-hou-art-65-p1-kou-6
     type: kou
-    text: 一定の期間における勤務の状況を考慮して年末等に特別に支給する給与に関する事項
+    text: 六　一定の期間における勤務の状況を考慮して年末等に特別に支給する給与に関する事項
     modality: unspecified
     item_number: 6
   - id: kokka-koumuin-hou-art-65-p1-kou-7
     type: kou
-    text: 常時勤務を要しない官職を占める職員の給与に関する事項
+    text: 七　常時勤務を要しない官職を占める職員の給与に関する事項
     modality: unspecified
     item_number: 7
 - number: 2

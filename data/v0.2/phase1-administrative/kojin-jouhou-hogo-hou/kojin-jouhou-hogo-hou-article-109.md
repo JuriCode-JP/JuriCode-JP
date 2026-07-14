@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu_negative
   - id: kojin-jouhou-hogo-hou-art-109-p2-kou-1
     type: kou
-    text: 法令に基づく場合（この節の規定に従う場合を含む。）
+    text: 一　法令に基づく場合（この節の規定に従う場合を含む。）
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-109-p2-kou-2
     type: kou
-    text: 保有個人情報を利用目的のために第三者に提供することができる場合において、当該保有個人情報を加工して作成した行政機関等匿名加工情報を当該第三者に提供するとき。
+    text: 二　保有個人情報を利用目的のために第三者に提供することができる場合において、当該保有個人情報を加工して作成した行政機関等匿名加工情報を当該第三者に提供するとき。
     modality: unspecified
     item_number: 2
 - number: 3

@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: yakkihou-shikoukisoku-art-114-54-4-p1-kou-1
     type: kou
-    text: 体外診断用医薬品製造管理者補佐薬剤師を置くこと。
+    text: 一　体外診断用医薬品製造管理者補佐薬剤師を置くこと。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-54-4-p1-kou-2
     type: kou
-    text: 体外診断用医薬品製造管理者として法第二十三条の二の十四第十一項に規定する能力及び経験を有する薬剤師を置くために必要な措置
+    text: 二　体外診断用医薬品製造管理者として法第二十三条の二の十四第十一項に規定する能力及び経験を有する薬剤師を置くために必要な措置
     modality: unspecified
     item_number: 2
 cases: []

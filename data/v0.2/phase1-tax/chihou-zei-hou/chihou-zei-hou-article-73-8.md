@@ -25,22 +25,22 @@ paragraphs:
     - 次条
   - id: chihou-zei-hou-art-73-8-p1-kou-1
     type: kou
-    text: 納税義務者又は納税義務があると認められる者
+    text: 一　納税義務者又は納税義務があると認められる者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-73-8-p1-kou-2
     type: kou
-    text: 前号に掲げる者から金銭又は物品を受け取る権利があると認められる者
+    text: 二　前号に掲げる者から金銭又は物品を受け取る権利があると認められる者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-73-8-p1-kou-3
     type: kou
-    text: 第一号に掲げる者にその者の取得に係る家屋を引き渡したと認められる者
+    text: 三　第一号に掲げる者にその者の取得に係る家屋を引き渡したと認められる者
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-73-8-p1-kou-4
     type: kou
-    text: 前三号に掲げる者以外の者で当該不動産取得税の賦課徴収に関し直接関係があると認められる者
+    text: 四　前三号に掲げる者以外の者で当該不動産取得税の賦課徴収に関し直接関係があると認められる者
     modality: unspecified
     item_number: 4
 - number: 2

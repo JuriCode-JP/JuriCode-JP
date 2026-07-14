@@ -32,27 +32,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-22-15-p2-kou-1
     type: kou
-    text: 届出をする医療法人の名称、納税地及び法人番号
+    text: 一　届出をする医療法人の名称、納税地及び法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-22-15-p2-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-22-15-p2-kou-3
     type: kou
-    text: 法第六十七条の二第一項の承認を受けた日
+    text: 三　法第六十七条の二第一項の承認を受けた日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-22-15-p2-kou-4
     type: kou
-    text: 法第六十七条の二第一項の承認に係る税率の適用をやめようとする理由
+    text: 四　法第六十七条の二第一項の承認に係る税率の適用をやめようとする理由
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-22-15-p2-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 3
@@ -76,8 +76,8 @@ paragraphs:
     text: 施行令第三十九条の二十五第二項の規定により提出する申請書（同条第三項の添付書類を含む。）、同条第五項の規定により提出する同項に規定する証明書（前項の書類を含む。）及び同条第六項の規定により提出する届出書には、それぞれ副本二通を添えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

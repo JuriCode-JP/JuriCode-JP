@@ -39,12 +39,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-art-85-p2-kou-1
     type: kou
-    text: 本邦において陸揚げ又は取卸し（積換えを含む。以下この号において同じ。）がされる場合　その陸揚げ又は取卸しがされる指定物品
+    text: 一　本邦において陸揚げ又は取卸し（積換えを含む。以下この号において同じ。）がされる場合　その陸揚げ又は取卸しがされる指定物品
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-85-p2-kou-2
     type: kou
-    text: 当該外航船等が外航船等でなくなる時に当該外航船等に現存する場合　その現存する指定物品
+    text: 二　当該外航船等が外航船等でなくなる時に当該外航船等に現存する場合　その現存する指定物品
     modality: unspecified
     item_number: 2
 - number: 3

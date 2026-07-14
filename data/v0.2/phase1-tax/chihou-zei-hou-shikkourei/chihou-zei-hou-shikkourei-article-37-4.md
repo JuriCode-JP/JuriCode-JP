@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-shikkourei-art-37-4-p1-kou-1
     type: kou
-    text: 事務所の用に供する不動産
+    text: 一　事務所の用に供する不動産
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-37-4-p1-kou-2
     type: kou
-    text: 宿舎の用に供する不動産
+    text: 二　宿舎の用に供する不動産
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-37-4-p1-kou-3
     type: kou
-    text: その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する不動産
+    text: 三　その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する不動産
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,12 +49,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-37-4-p2-kou-1
     type: kou
-    text: 国立研究開発法人科学技術振興機構法第二十三条第一項第八号イに規定する外国の研究者のための宿舎の用に供する不動産のうち総務省令で定めるもの以外のもの
+    text: 一　国立研究開発法人科学技術振興機構法第二十三条第一項第八号イに規定する外国の研究者のための宿舎の用に供する不動産のうち総務省令で定めるもの以外のもの
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-37-4-p2-kou-2
     type: kou
-    text: 会議場施設の用に供する家屋（当該会議場施設に含まれる部分に限るものとし、当該会議場施設の用に供する事務所、宿舎その他その利用について対価又は負担として支払うべき金額の定めのあるもので総務省令で定めるものを除く。）及びその用に供する土地
+    text: 二　会議場施設の用に供する家屋（当該会議場施設に含まれる部分に限るものとし、当該会議場施設の用に供する事務所、宿舎その他その利用について対価又は負担として支払うべき金額の定めのあるもので総務省令で定めるものを除く。）及びその用に供する土地
     modality: unspecified
     item_number: 2
 cases: []

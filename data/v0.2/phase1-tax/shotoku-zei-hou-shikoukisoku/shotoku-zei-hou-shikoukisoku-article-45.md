@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-45-p1-kou-1
     type: kou
-    text: 法第百十条第二項に規定する申請書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    text: 一　法第百十条第二項に規定する申請書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-45-p1-kou-2
     type: kou
-    text: その年分の総所得金額の見積額、その年中の法第二条第一項第三十五号（定義）に規定する農業所得の金額の見積額及び当該農業所得の金額の見積額のうちその年九月一日以後に生ずる部分の金額の見積額
+    text: 二　その年分の総所得金額の見積額、その年中の法第二条第一項第三十五号（定義）に規定する農業所得の金額の見積額及び当該農業所得の金額の見積額のうちその年九月一日以後に生ずる部分の金額の見積額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-45-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

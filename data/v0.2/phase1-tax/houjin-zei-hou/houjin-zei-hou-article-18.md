@@ -33,8 +33,8 @@ paragraphs:
     text: 国税局長は、前項の規定により法人税の納税地を指定したときは、同項の法人に対し、書面によりその旨を通知する。
     modality: tetsuduki
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

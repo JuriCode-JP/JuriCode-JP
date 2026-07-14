@@ -34,47 +34,47 @@ paragraphs:
     modality: gimu
   - id: kokka-koumuin-hou-art-54-p2-kou-1
     type: kou
-    text: 職員の採用、昇任、降任及び転任に関する制度の適切かつ効果的な運用に関する基本的な指針
+    text: 一　職員の採用、昇任、降任及び転任に関する制度の適切かつ効果的な運用に関する基本的な指針
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-54-p2-kou-2
     type: kou
-    text: 第五十六条の採用候補者名簿による採用及び第五十七条の選考による採用に関する指針
+    text: 二　第五十六条の採用候補者名簿による採用及び第五十七条の選考による採用に関する指針
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-54-p2-kou-3
     type: kou
-    text: 第五十八条の昇任及び転任に関する指針
+    text: 三　第五十八条の昇任及び転任に関する指針
     modality: unspecified
     item_number: 3
   - id: kokka-koumuin-hou-art-54-p2-kou-4
     type: kou
-    text: 管理職への任用に関する基準その他の指針
+    text: 四　管理職への任用に関する基準その他の指針
     modality: unspecified
     item_number: 4
   - id: kokka-koumuin-hou-art-54-p2-kou-5
     type: kou
-    text: 任命権者を異にする官職への任用に関する指針
+    text: 五　任命権者を異にする官職への任用に関する指針
     modality: unspecified
     item_number: 5
   - id: kokka-koumuin-hou-art-54-p2-kou-6
     type: kou
-    text: 職員の公募（官職の職務の具体的な内容並びに当該官職に求められる能力及び経験を公示して、当該官職の候補者を募集することをいう。次項において同じ。）に関する指針
+    text: 六　職員の公募（官職の職務の具体的な内容並びに当該官職に求められる能力及び経験を公示して、当該官職の候補者を募集することをいう。次項において同じ。）に関する指針
     modality: unspecified
     item_number: 6
   - id: kokka-koumuin-hou-art-54-p2-kou-7
     type: kou
-    text: 官民の人材交流に関する指針
+    text: 七　官民の人材交流に関する指針
     modality: unspecified
     item_number: 7
   - id: kokka-koumuin-hou-art-54-p2-kou-8
     type: kou
-    text: 子の養育又は家族の介護を行う職員の状況を考慮した職員の配置その他の措置による仕事と生活の調和を図るための指針
+    text: 八　子の養育又は家族の介護を行う職員の状況を考慮した職員の配置その他の措置による仕事と生活の調和を図るための指針
     modality: unspecified
     item_number: 8
   - id: kokka-koumuin-hou-art-54-p2-kou-9
     type: kou
-    text: 前各号に掲げるもののほか、職員の採用、昇任、降任及び転任に関する制度の適切かつ効果的な運用を確保するために必要な事項
+    text: 九　前各号に掲げるもののほか、職員の採用、昇任、降任及び転任に関する制度の適切かつ効果的な運用を確保するために必要な事項
     modality: unspecified
     item_number: 9
 - number: 3

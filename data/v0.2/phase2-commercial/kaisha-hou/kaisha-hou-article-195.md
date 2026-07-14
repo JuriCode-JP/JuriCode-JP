@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の規定により定款の変更をした場合には、株式会社は、当該定款の変更の効力が生じた日以後遅滞なく、その株主（種類株式発行会社にあっては、同項の規定により単元株式数を変更した種類の種類株主）に対し、当該定款の変更をした旨を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

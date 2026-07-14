@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-280-10-p2-kou-1
     type: kou
-    text: 登録証
+    text: 一　登録証
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-280-10-p2-kou-2
     type: kou
-    text: 登録事項の変更の内容に関する資料
+    text: 二　登録事項の変更の内容に関する資料
     modality: unspecified
     item_number: 2
 - number: 3

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikoukisoku-art-12-2-p1-kou-1
     type: kou
-    text: 国税に関する調査において国税局長若しくは税務署長又は国税局若しくは税務署の当該職員（次号において「国税局長等」という。）が法第百十七条第三項の納税者に対して発する書類を受領し、及び当該納税者に対して当該書類を送付すること。
+    text: 一　国税に関する調査において国税局長若しくは税務署長又は国税局若しくは税務署の当該職員（次号において「国税局長等」という。）が法第百十七条第三項の納税者に対して発する書類を受領し、及び当該納税者に対して当該書類を送付すること。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikoukisoku-art-12-2-p1-kou-2
     type: kou
-    text: 国税に関する調査において法第百十七条第三項の納税者が国税局長等に対して提出する書類を受領し、及び当該国税局長等に対して当該書類を提出すること。
+    text: 二　国税に関する調査において法第百十七条第三項の納税者が国税局長等に対して提出する書類を受領し、及び当該国税局長等に対して当該書類を提出すること。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-1
     type: kou
-    text: 法第五十七条第二項に規定する書類を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    text: 一　法第五十七条第二項に規定する書類を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-2
     type: kou
-    text: 法第五十七条第一項に規定する青色事業専従者（以下この条において「青色事業専従者」という。）の前号の者との続柄及び年齢
+    text: 二　法第五十七条第一項に規定する青色事業専従者（以下この条において「青色事業専従者」という。）の前号の者との続柄及び年齢
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-3
     type: kou
-    text: 青色事業専従者が他の業務に従事し又は就学している場合には、その事実
+    text: 三　青色事業専従者が他の業務に従事し又は就学している場合には、その事実
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-4
     type: kou
-    text: その事業に従事する他の使用人に対して支払う給与の金額並びにその支給の方法及び形態
+    text: 四　その事業に従事する他の使用人に対して支払う給与の金額並びにその支給の方法及び形態
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-36-4-p1-kou-5
     type: kou
-    text: 昇給の基準その他参考となるべき事項
+    text: 五　昇給の基準その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -57,17 +57,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-36-4-p2-kou-1
     type: kou
-    text: 当該書類を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    text: 一　当該書類を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-36-4-p2-kou-2
     type: kou
-    text: その変更する内容及びその理由
+    text: 二　その変更する内容及びその理由
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-36-4-p2-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 3

@@ -26,17 +26,17 @@ paragraphs:
     - 第九条
   - id: sochi-hou-art-90-3-2-p1-kou-1
     type: kou
-    text: 原油及び石油製品　一キロリットルにつき二千八百円
+    text: 一　原油及び石油製品　一キロリットルにつき二千八百円
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-90-3-2-p1-kou-2
     type: kou
-    text: ガス状炭化水素　一トンにつき千八百六十円
+    text: 二　ガス状炭化水素　一トンにつき千八百六十円
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-90-3-2-p1-kou-3
     type: kou
-    text: 石炭　一トンにつき千三百七十円
+    text: 三　石炭　一トンにつき千三百七十円
     modality: unspecified
     item_number: 3
 cases: []

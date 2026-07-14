@@ -40,8 +40,8 @@ paragraphs:
     text: 前二項の規定は、第八百四十九条第一項の規定により同項の訴訟に参加した株主等について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前二項
+    - 同項
 cases: []
 amendments: []
 tags:

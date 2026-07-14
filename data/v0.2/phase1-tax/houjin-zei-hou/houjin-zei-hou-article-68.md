@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定は、内国法人である公益法人等又は人格のない社団等が支払を受ける利子及び配当等で収益事業以外の事業又はこれに属する資産から生ずるものにつき課される同項の所得税の額については、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

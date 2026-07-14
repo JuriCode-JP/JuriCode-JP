@@ -44,8 +44,8 @@ paragraphs:
     text: 前項の場合において、第三者が同項の国税の一部を納付したときは、その残余の国税は、同項の規定による代位に係る第三者の債権に先だつて徴収する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

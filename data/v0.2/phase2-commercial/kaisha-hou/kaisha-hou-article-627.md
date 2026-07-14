@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-627-p2-kou-1
     type: kou
-    text: 当該資本金の額の減少の内容
+    text: 一　当該資本金の額の減少の内容
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-627-p2-kou-2
     type: kou
-    text: 債権者が一定の期間内に異議を述べることができる旨
+    text: 二　債権者が一定の期間内に異議を述べることができる旨
     modality: unspecified
     item_number: 2
 - number: 3
@@ -55,8 +55,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

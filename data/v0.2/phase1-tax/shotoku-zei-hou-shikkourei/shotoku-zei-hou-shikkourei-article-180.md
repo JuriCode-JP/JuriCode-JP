@@ -32,12 +32,12 @@ paragraphs:
     modality: unspecified
   - id: shotoku-zei-hou-shikkourei-art-180-p2-kou-1
     type: kou
-    text: 回収不能額等が生じた時の直前において確定している法第六十四条第一項に規定する年分の総所得金額、退職所得金額及び山林所得金額の合計額
+    text: 一　回収不能額等が生じた時の直前において確定している法第六十四条第一項に規定する年分の総所得金額、退職所得金額及び山林所得金額の合計額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-180-p2-kou-2
     type: kou
-    text: 前号に掲げる金額の計算の基礎とされる各種所得の金額のうち当該回収不能額等に係るものから、当該回収不能額等に相当する収入金額又は総収入金額がなかつたものとした場合に計算される当該各種所得の金額を控除した残額
+    text: 二　前号に掲げる金額の計算の基礎とされる各種所得の金額のうち当該回収不能額等に係るものから、当該回収不能額等に相当する収入金額又は総収入金額がなかつたものとした場合に計算される当該各種所得の金額を控除した残額
     modality: unspecified
     item_number: 2
 cases: []

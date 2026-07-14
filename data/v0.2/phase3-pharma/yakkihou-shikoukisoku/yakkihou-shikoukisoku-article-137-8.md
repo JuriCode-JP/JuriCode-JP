@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-8-p1-kou-1
     type: kou
-    text: 再生医療等製品の製造工程の全部又は一部を行うもの（次号に掲げるものを除く。）
+    text: 一　再生医療等製品の製造工程の全部又は一部を行うもの（次号に掲げるものを除く。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-8-p1-kou-2
     type: kou
-    text: 再生医療等製品の製造工程のうち包装、表示又は保管のみを行うもの
+    text: 二　再生医療等製品の製造工程のうち包装、表示又は保管のみを行うもの
     modality: unspecified
     item_number: 2
 cases: []

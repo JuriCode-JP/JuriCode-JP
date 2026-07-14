@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-336-p1-kou-1
     type: kou
-    text: 高速取引行為に係る業務を適確に遂行するための社内規則等（社内規則その他これに準ずるものをいう。）を整備し、当該社内規則等を遵守するための従業員に対する研修その他の措置がとられていること。
+    text: 一　高速取引行為に係る業務を適確に遂行するための社内規則等（社内規則その他これに準ずるものをいう。）を整備し、当該社内規則等を遵守するための従業員に対する研修その他の措置がとられていること。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-336-p1-kou-2
     type: kou
-    text: 高速取引行為に係る電子情報処理組織その他の設備の管理を十分に行うための措置がとられていること。
+    text: 二　高速取引行為に係る電子情報処理組織その他の設備の管理を十分に行うための措置がとられていること。
     modality: unspecified
     item_number: 2
 cases: []

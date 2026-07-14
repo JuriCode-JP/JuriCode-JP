@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-1-13-p1-kou-1
     type: kou
-    text: 銀行、無尽会社又は株式会社商工組合中央金庫に対する預金、貯金又は積金
+    text: 一　銀行、無尽会社又は株式会社商工組合中央金庫に対する預金、貯金又は積金
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-1-13-p1-kou-2
     type: kou
-    text: 農業協同組合、農業協同組合連合会、水産業協同組合、信用協同組合、信用金庫又は労働金庫に対する預金、貯金又は積金
+    text: 二　農業協同組合、農業協同組合連合会、水産業協同組合、信用協同組合、信用金庫又は労働金庫に対する預金、貯金又は積金
     modality: unspecified
     item_number: 2
 cases: []

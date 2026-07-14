@@ -22,8 +22,8 @@ paragraphs:
     text: 法第四十六条第四項に規定する厚生労働省令で定める電磁的記録は、前条第一項第一号に掲げる電子情報処理組織を使用する方法又は同項第二号に規定する電磁的記録媒体により記録されたものをいう。
     modality: teigi
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

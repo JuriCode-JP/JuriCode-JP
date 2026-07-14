@@ -25,17 +25,17 @@ paragraphs:
     - 次項
   - id: houjin-zei-hou-art-39-p1-kou-1
     type: kou
-    text: 国税徴収法（昭和三十四年法律第百四十七号）第三十三条、第三十五条から第四十条まで又は第四十一条第一項（合名会社等の社員の第二次納税義務等）の規定により納付すべき国税（その滞納処分費を含む。第三号及び次項において同じ。）
+    text: 一　国税徴収法（昭和三十四年法律第百四十七号）第三十三条、第三十五条から第四十条まで又は第四十一条第一項（合名会社等の社員の第二次納税義務等）の規定により納付すべき国税（その滞納処分費を含む。第三号及び次項において同じ。）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-39-p1-kou-2
     type: kou
-    text: 地方税法第十一条の二、第十一条の四から第十一条の九まで又は第十二条の二第二項（合名会社等の社員の第二次納税義務等）の規定により納付し、又は納入すべき地方税
+    text: 二　地方税法第十一条の二、第十一条の四から第十一条の九まで又は第十二条の二第二項（合名会社等の社員の第二次納税義務等）の規定により納付し、又は納入すべき地方税
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-39-p1-kou-3
     type: kou
-    text: 前二号に掲げる国税又は地方税に準ずるものとして政令で定める国税又は地方税
+    text: 三　前二号に掲げる国税又は地方税に準ずるものとして政令で定める国税又は地方税
     modality: unspecified
     item_number: 3
 - number: 2
@@ -51,17 +51,17 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-art-39-p2-kou-1
     type: kou
-    text: 国税徴収法第三十四条（清算人等の第二次納税義務）の規定により納付すべき国税
+    text: 一　国税徴収法第三十四条（清算人等の第二次納税義務）の規定により納付すべき国税
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-39-p2-kou-2
     type: kou
-    text: 地方税法第十一条の三（清算人等の第二次納税義務）の規定により納付し、又は納入すべき地方税
+    text: 二　地方税法第十一条の三（清算人等の第二次納税義務）の規定により納付し、又は納入すべき地方税
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-39-p2-kou-3
     type: kou
-    text: 前二号に掲げる国税又は地方税に準ずるものとして政令で定める国税又は地方税
+    text: 三　前二号に掲げる国税又は地方税に準ずるものとして政令で定める国税又は地方税
     modality: unspecified
     item_number: 3
 cases: []

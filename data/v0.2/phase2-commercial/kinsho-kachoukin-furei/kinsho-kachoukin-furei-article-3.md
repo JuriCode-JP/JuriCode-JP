@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-kachoukin-furei-art-3-p1-kou-1
     type: kou
-    text: 法第百八十三条第二項に規定する答弁書
+    text: 一　法第百八十三条第二項に規定する答弁書
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-3-p1-kou-2
     type: kou
-    text: 法定代理権又は法第百八十一条第一項の代理人の権限を証明する書面その他の審判手続上重要な事項を証明する書面
+    text: 二　法定代理権又は法第百八十一条第一項の代理人の権限を証明する書面その他の審判手続上重要な事項を証明する書面
     modality: unspecified
     item_number: 2
 - number: 2

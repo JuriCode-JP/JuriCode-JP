@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-280-8-p1-kou-1
     type: kou
-    text: 登録番号及び登録年月日
+    text: 一　登録番号及び登録年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-280-8-p1-kou-2
     type: kou
-    text: 原薬等登録業者の氏名及び住所
+    text: 二　原薬等登録業者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-280-8-p1-kou-3
     type: kou
-    text: 当該品目の名称
+    text: 三　当該品目の名称
     modality: unspecified
     item_number: 3
 cases: []

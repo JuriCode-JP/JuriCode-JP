@@ -36,8 +36,8 @@ paragraphs:
     text: 口がきけない者が前項の規定により遺言をする場合には、遺言者は、証人の前で、遺言の趣旨を通訳人の通訳により申述して、同項の口授に代えなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

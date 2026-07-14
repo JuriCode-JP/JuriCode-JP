@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-90-p1-kou-1
     type: kou
-    text: その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
+    text: 一　その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-90-p1-kou-2
     type: kou
-    text: その年中に支払の確定した対価又は手数料の金額
+    text: 二　その年中に支払の確定した対価又は手数料の金額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-90-p1-kou-3
     type: kou
-    text: 前号の対価又は手数料の金額の計算の基礎
+    text: 三　前号の対価又は手数料の金額の計算の基礎
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-90-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,32 +52,32 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-90-p2-kou-1
     type: kou
-    text: その支払を受ける者の氏名又は名称及び居所（国内に居所を有しない者にあつては、国外におけるその住所。以下この号において同じ。）又は本店若しくは主たる事務所の所在地（国内事務所等を有するものにあつては、その所得税又は法人税の納税地にある国内事務所等の名称及び所在地を含む。以下この号において同じ。）（個人番号又は法人番号を有する者にあつては、氏名又は名称、居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号）
+    text: 一　その支払を受ける者の氏名又は名称及び居所（国内に居所を有しない者にあつては、国外におけるその住所。以下この号において同じ。）又は本店若しくは主たる事務所の所在地（国内事務所等を有するものにあつては、その所得税又は法人税の納税地にある国内事務所等の名称及び所在地を含む。以下この号において同じ。）（個人番号又は法人番号を有する者にあつては、氏名又は名称、居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-90-p2-kou-2
     type: kou
-    text: その年中に支払の確定した対価の額
+    text: 二　その年中に支払の確定した対価の額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-90-p2-kou-3
     type: kou
-    text: 前号の対価につき源泉徴収をされる所得税の額
+    text: 三　前号の対価につき源泉徴収をされる所得税の額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-90-p2-kou-4
     type: kou
-    text: 第二号の対価の額の計算の基礎
+    text: 四　第二号の対価の額の計算の基礎
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-90-p2-kou-5
     type: kou
-    text: その支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
+    text: 五　その支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-90-p2-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 3
@@ -93,12 +93,12 @@ paragraphs:
     - 前二項
   - id: shotoku-zei-hou-shikoukisoku-art-90-p3-kou-1
     type: kou
-    text: 同一人に対するその年中の前二項の不動産等の譲渡に係る対価の支払金額が百万円以下である場合
+    text: 一　同一人に対するその年中の前二項の不動産等の譲渡に係る対価の支払金額が百万円以下である場合
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-90-p3-kou-2
     type: kou
-    text: 同一人に対するその年中の第一項の対価（前号に規定する対価を除く。）又は手数料の支払金額が十五万円以下である場合
+    text: 二　同一人に対するその年中の第一項の対価（前号に規定する対価を除く。）又は手数料の支払金額が十五万円以下である場合
     modality: unspecified
     item_number: 2
 cases: []

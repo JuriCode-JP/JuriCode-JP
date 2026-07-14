@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-62-p1-kou-1
     type: kou
-    text: 適格請求書を交付した課税資産の譲渡等　当該適格請求書に記載した法第五十七条の四第一項第五号に掲げる消費税額等
+    text: 一　適格請求書を交付した課税資産の譲渡等　当該適格請求書に記載した法第五十七条の四第一項第五号に掲げる消費税額等
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-62-p1-kou-2
     type: kou
-    text: 適格簡易請求書を交付した課税資産の譲渡等　当該適格簡易請求書に記載した法第五十七条の四第二項第五号に掲げる消費税額等
+    text: 二　適格簡易請求書を交付した課税資産の譲渡等　当該適格簡易請求書に記載した法第五十七条の四第二項第五号に掲げる消費税額等
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-62-p1-kou-3
     type: kou
-    text: 適格請求書又は適格簡易請求書に記載すべき事項に係る法第五十七条の四第五項に規定する電磁的記録を提供した課税資産の譲渡等　当該電磁的記録に記録した同条第一項第五号又は第二項第五号に掲げる消費税額等
+    text: 三　適格請求書又は適格簡易請求書に記載すべき事項に係る法第五十七条の四第五項に規定する電磁的記録を提供した課税資産の譲渡等　当該電磁的記録に記録した同条第一項第五号又は第二項第五号に掲げる消費税額等
     modality: unspecified
     item_number: 3
 - number: 2

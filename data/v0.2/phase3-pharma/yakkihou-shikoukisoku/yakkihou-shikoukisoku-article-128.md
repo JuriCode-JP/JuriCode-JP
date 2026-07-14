@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-128-p1-kou-1
     type: kou
-    text: 基準適合性認証のための審査に必要な情報を収集すること。
+    text: 一　基準適合性認証のための審査に必要な情報を収集すること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-128-p1-kou-2
     type: kou
-    text: 基準適合性認証の結果の根拠となる審査に係る記録等を邦文で作成し、これを保管すること。
+    text: 二　基準適合性認証の結果の根拠となる審査に係る記録等を邦文で作成し、これを保管すること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-128-p1-kou-3
     type: kou
-    text: 内部監査を行い、基準適合性認証の業務に関し改善が必要な場合においては、所要の措置を採るとともに、当該措置の記録を邦文で作成し、これを保管すること。
+    text: 三　内部監査を行い、基準適合性認証の業務に関し改善が必要な場合においては、所要の措置を採るとともに、当該措置の記録を邦文で作成し、これを保管すること。
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-128-p1-kou-4
     type: kou
-    text: 審査員の資格要件を明らかにし、教育訓練その他の必要な措置を講ずること。
+    text: 四　審査員の資格要件を明らかにし、教育訓練その他の必要な措置を講ずること。
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-128-p1-kou-5
     type: kou
-    text: その他基準適合性認証の業務の適正な実施のために必要な業務を行うこと。
+    text: 五　その他基準適合性認証の業務の適正な実施のために必要な業務を行うこと。
     modality: unspecified
     item_number: 5
 cases: []

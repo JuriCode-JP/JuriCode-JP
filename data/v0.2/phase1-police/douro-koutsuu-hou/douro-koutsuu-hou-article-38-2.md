@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 車両等は、交差点又はその直近で横断歩道の設けられていない場所において歩行者が道路を横断しているときは、その歩行者の通行を妨げてはならない。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-38-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第六号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

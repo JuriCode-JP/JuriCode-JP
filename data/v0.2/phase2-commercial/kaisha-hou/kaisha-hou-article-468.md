@@ -36,12 +36,12 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-468-p2-kou-1
     type: kou
-    text: 当該他の会社の事業の全部の対価として交付する財産の帳簿価額の合計額
+    text: 一　当該他の会社の事業の全部の対価として交付する財産の帳簿価額の合計額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-468-p2-kou-2
     type: kou
-    text: 当該株式会社の純資産額として法務省令で定める方法により算定される額
+    text: 二　当該株式会社の純資産額として法務省令で定める方法により算定される額
     modality: unspecified
     item_number: 2
 - number: 3
@@ -54,9 +54,9 @@ paragraphs:
     text: 前項に規定する場合において、法務省令で定める数の株式（前条第一項の株主総会において議決権を行使することができるものに限る。）を有する株主が次条第三項の規定による通知又は同条第四項の公告の日から二週間以内に前条第一項第三号に掲げる行為に反対する旨を当該行為をする株式会社に対し通知したときは、当該株式会社は、効力発生日の前日までに、株主総会の決議によって、当該行為に係る契約の承認を受けなければならない。
     modality: gimu
     references:
-    - 次条
     - 前条
     - 前項
+    - 次条
 cases: []
 amendments: []
 tags:

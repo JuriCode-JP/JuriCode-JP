@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-11-3-p1-kou-1
     type: kou
-    text: 専ら遊覧の用に供する船舶
+    text: 一　専ら遊覧の用に供する船舶
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-11-3-p1-kou-2
     type: kou
-    text: 快遊船
+    text: 二　快遊船
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-11-3-p1-kou-3
     type: kou
-    text: 遊漁船
+    text: 三　遊漁船
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-11-3-p1-kou-4
     type: kou
-    text: モーターボート競走法（昭和二十六年法律第二百四十二号）の規定によるモーターボート競走の用に供するモーターボート
+    text: 四　モーターボート競走法（昭和二十六年法律第二百四十二号）の規定によるモーターボート競走の用に供するモーターボート
     modality: unspecified
     item_number: 4
 cases: []

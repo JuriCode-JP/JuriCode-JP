@@ -25,12 +25,12 @@ paragraphs:
     - 次条
   - id: keiji-soshou-hou-art-403-4-p1-kou-1
     type: kou
-    text: 第三百四十五条の二の規定による決定に係る罰金の原判決を破棄する判決
+    text: 一　第三百四十五条の二の規定による決定に係る罰金の原判決を破棄する判決
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-403-4-p1-kou-2
     type: kou
-    text: 第三百四十五条の二の規定による決定に係る罰金の原判決に係る被告事件についての公訴を棄却する決定
+    text: 二　第三百四十五条の二の規定による決定に係る罰金の原判決に係る被告事件についての公訴を棄却する決定
     modality: unspecified
     item_number: 2
 - number: 2
@@ -43,8 +43,8 @@ paragraphs:
     text: 前項第一号に掲げる判決の宣告があつた場合（第四百条ただし書の規定により更に第三百四十五条に規定する裁判をした場合を除く。）には、第三百四十五条の三（次条において準用する場合を含む。）において読み替えて準用する第三百四十二条の八第一項（第一号に係る部分に限る。）の規定による決定に係る勾留状は、その効力を失う。
     modality: unspecified
     references:
-    - 次条
     - 前項
+    - 次条
 cases: []
 amendments: []
 tags:

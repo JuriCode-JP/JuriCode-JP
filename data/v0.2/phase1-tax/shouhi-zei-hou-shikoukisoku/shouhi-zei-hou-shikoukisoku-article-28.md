@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-28-p1-kou-1
     type: kou
-    text: 申請者の名称（代表者の氏名を含む。以下この条及び第三十条において同じ。）、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+    text: 一　申請者の名称（代表者の氏名を含む。以下この条及び第三十条において同じ。）、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-28-p1-kou-2
     type: kou
-    text: 課税期間の初日及び末日
+    text: 二　課税期間の初日及び末日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-28-p1-kou-3
     type: kou
-    text: 申請者の行う事業の内容
+    text: 三　申請者の行う事業の内容
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-28-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,22 +52,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-28-p2-kou-1
     type: kou
-    text: 届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+    text: 一　届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-28-p2-kou-2
     type: kou
-    text: 令第七十四条第一項の承認に係る同項に規定する法令又は定款等に定める会計の処理の方法
+    text: 二　令第七十四条第一項の承認に係る同項に規定する法令又は定款等に定める会計の処理の方法
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-28-p2-kou-3
     type: kou
-    text: 当該承認を受けた年月日
+    text: 三　当該承認を受けた年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-28-p2-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

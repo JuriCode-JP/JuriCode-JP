@@ -33,8 +33,8 @@ paragraphs:
     text: 人の代理人又は使用人がその人の狩猟に関して前項の違反行為をした場合には、その行為者を罰するほか、その人に対し、同項の刑を科する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

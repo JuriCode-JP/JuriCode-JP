@@ -43,6 +43,10 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: chihou-zei-hou-shikoukisoku-art-15-3-2-p3-list-1
+    type: list
+    text: 人の居住の用に供する専有部分の床面積×｛１００＋（１０／３９）×（人の居住の用に供する専有部分が所在する階－１）｝
+    modality: unspecified
 - number: 4
   has_proviso: true
   has_items: false

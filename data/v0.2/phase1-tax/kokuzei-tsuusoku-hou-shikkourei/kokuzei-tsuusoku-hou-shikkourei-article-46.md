@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-46-p1-kou-1
     type: kou
-    text: 消費税法第四十七条第二項（引取りに係る課税貨物についての課税標準額及び税額の申告等）に規定する課税貨物に課される消費税
+    text: 一　消費税法第四十七条第二項（引取りに係る課税貨物についての課税標準額及び税額の申告等）に規定する課税貨物に課される消費税
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-46-p1-kou-2
     type: kou
-    text: 酒税
+    text: 二　酒税
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-46-p1-kou-3
     type: kou
-    text: たばこ税
+    text: 三　たばこ税
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-46-p1-kou-4
     type: kou
-    text: 揮発油税
+    text: 四　揮発油税
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-shikkourei-art-46-p1-kou-5
     type: kou
-    text: 地方揮発油税
+    text: 五　地方揮発油税
     modality: unspecified
     item_number: 5
   - id: kokuzei-tsuusoku-hou-shikkourei-art-46-p1-kou-6
     type: kou
-    text: 石油ガス税
+    text: 六　石油ガス税
     modality: unspecified
     item_number: 6
   - id: kokuzei-tsuusoku-hou-shikkourei-art-46-p1-kou-7
     type: kou
-    text: 石油石炭税
+    text: 七　石油石炭税
     modality: unspecified
     item_number: 7
 cases: []

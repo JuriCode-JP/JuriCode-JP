@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の規定は、同項に規定する社団又は財団を設立するために財産の提供があつた場合について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

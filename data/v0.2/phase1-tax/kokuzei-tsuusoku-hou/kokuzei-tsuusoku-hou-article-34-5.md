@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-art-34-5-p1-kou-1
     type: kou
-    text: 第三十四条の三第一項（第一号に係る部分に限る。）（納付受託者に対する納付の委託）の規定により国税を納付しようとする者の委託に基づき当該国税の額に相当する金銭の交付を受けたとき。
+    text: 一　第三十四条の三第一項（第一号に係る部分に限る。）（納付受託者に対する納付の委託）の規定により国税を納付しようとする者の委託に基づき当該国税の額に相当する金銭の交付を受けたとき。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-34-5-p1-kou-2
     type: kou
-    text: 第三十四条の三第一項（第二号に係る部分に限る。）の規定により国税を納付しようとする者の委託を受けたとき。
+    text: 二　第三十四条の三第一項（第二号に係る部分に限る。）の規定により国税を納付しようとする者の委託を受けたとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-art-34-5-p2-kou-1
     type: kou
-    text: 第三十四条の三第一項（第一号に係る部分に限る。）の規定により国税を納付しようとする者の委託に基づき当該国税の額に相当する金銭の交付を受けたとき。
+    text: 一　第三十四条の三第一項（第一号に係る部分に限る。）の規定により国税を納付しようとする者の委託に基づき当該国税の額に相当する金銭の交付を受けたとき。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-34-5-p2-kou-2
     type: kou
-    text: 第三十四条の三第一項（第二号に係る部分に限る。）の規定により国税を納付しようとする者の委託を受けたとき。
+    text: 二　第三十四条の三第一項（第二号に係る部分に限る。）の規定により国税を納付しようとする者の委託を受けたとき。
     modality: unspecified
     item_number: 2
 - number: 3

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-52-p1-kou-1
     type: kou
-    text: 法第百三十四条第一項に規定する申請書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    text: 一　法第百三十四条第一項に規定する申請書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-52-p1-kou-2
     type: kou
-    text: 法第百三十四条第一項の規定により延納の条件の変更を求めようとする理由
+    text: 二　法第百三十四条第一項の規定により延納の条件の変更を求めようとする理由
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-52-p1-kou-3
     type: kou
-    text: 法第百三十二条第一項（延払条件付譲渡に係る所得税額の延納）の規定による延納の許可を受けた所得税の額及び期間（二回以上に分割して納付する場合には、各分納税額に係る延納の期間及びその額）
+    text: 三　法第百三十二条第一項（延払条件付譲渡に係る所得税額の延納）の規定による延納の許可を受けた所得税の額及び期間（二回以上に分割して納付する場合には、各分納税額に係る延納の期間及びその額）
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-52-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

@@ -32,6 +32,10 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-63-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十一条第二項第三号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

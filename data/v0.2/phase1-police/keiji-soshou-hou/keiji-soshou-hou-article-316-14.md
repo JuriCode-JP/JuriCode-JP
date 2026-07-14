@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: keiji-soshou-hou-art-316-14-p1-kou-1
     type: kou
-    text: 証拠書類又は証拠物　当該証拠書類又は証拠物を閲覧する機会（弁護人に対しては、閲覧し、かつ、謄写する機会）を与えること。
+    text: 一　証拠書類又は証拠物　当該証拠書類又は証拠物を閲覧する機会（弁護人に対しては、閲覧し、かつ、謄写する機会）を与えること。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-316-14-p1-kou-2
     type: kou
-    text: 証人、鑑定人、通訳人又は翻訳人　その氏名及び住居を知る機会を与え、かつ、その者の供述録取書等のうち、その者が公判期日において供述すると思料する内容が明らかになるもの（当該供述録取書等が存在しないとき、又はこれを閲覧させることが相当でないと認めるときにあつては、その者が公判期日において供述すると思料する内容の要旨を記載した書面）を閲覧する機会（弁護人に対しては、閲覧し、かつ、謄写する機会）を与えること。
+    text: 二　証人、鑑定人、通訳人又は翻訳人　その氏名及び住居を知る機会を与え、かつ、その者の供述録取書等のうち、その者が公判期日において供述すると思料する内容が明らかになるもの（当該供述録取書等が存在しないとき、又はこれを閲覧させることが相当でないと認めるときにあつては、その者が公判期日において供述すると思料する内容の要旨を記載した書面）を閲覧する機会（弁護人に対しては、閲覧し、かつ、謄写する機会）を与えること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -57,17 +57,17 @@ paragraphs:
     - 前項
   - id: keiji-soshou-hou-art-316-14-p3-kou-1
     type: kou
-    text: 証拠物　品名及び数量
+    text: 一　証拠物　品名及び数量
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-316-14-p3-kou-2
     type: kou
-    text: 供述を録取した書面で供述者の署名又は押印のあるもの　当該書面の標目、作成の年月日及び供述者の氏名
+    text: 二　供述を録取した書面で供述者の署名又は押印のあるもの　当該書面の標目、作成の年月日及び供述者の氏名
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-316-14-p3-kou-3
     type: kou
-    text: 証拠書類（前号に掲げるものを除く。）　当該証拠書類の標目、作成の年月日及び作成者の氏名
+    text: 三　証拠書類（前号に掲げるものを除く。）　当該証拠書類の標目、作成の年月日及び作成者の氏名
     modality: unspecified
     item_number: 3
 - number: 4
@@ -83,21 +83,21 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: keiji-soshou-hou-art-316-14-p4-kou-1
     type: kou
-    text: 人の身体若しくは財産に害を加え又は人を畏怖させ若しくは困惑させる行為がなされるおそれ
+    text: 一　人の身体若しくは財産に害を加え又は人を畏怖させ若しくは困惑させる行為がなされるおそれ
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-316-14-p4-kou-2
     type: kou
-    text: 人の名誉又は社会生活の平穏が著しく害されるおそれ
+    text: 二　人の名誉又は社会生活の平穏が著しく害されるおそれ
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-316-14-p4-kou-3
     type: kou
-    text: 犯罪の証明又は犯罪の捜査に支障を生ずるおそれ
+    text: 三　犯罪の証明又は犯罪の捜査に支障を生ずるおそれ
     modality: unspecified
     item_number: 3
 - number: 5

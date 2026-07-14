@@ -60,8 +60,8 @@ paragraphs:
     text: 設立しようとする株式会社が監査等委員会設置会社である場合における前項の規定の適用については、同項中「、取締役」とあるのは「、監査等委員である取締役又はそれ以外の取締役」と、「当該取締役」とあるのは「これらの取締役」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

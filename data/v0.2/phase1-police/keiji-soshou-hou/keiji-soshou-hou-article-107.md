@@ -31,8 +31,8 @@ paragraphs:
     text: 第九十九条第二項の規定による処分をするときは、前項の差押状に、同項に規定する事項のほか、差し押さえるべき電子計算機に電気通信回線で接続している記録媒体であつて、その電磁的記録を複写すべきものの範囲を記載しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

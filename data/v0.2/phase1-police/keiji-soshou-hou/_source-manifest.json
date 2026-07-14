@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\323AC0000000131.xml",
   "source_xml_sha256": "1c74f936decfce2c9a51b7f7119b335c0c0189ed6c4cacee31400608e121e635",
   "source_xml_bytes": 1255839,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:57:51+00:00",
+  "parsed_at": "2026-07-14T01:43:48+00:00",
   "version_date": "1948-07-10",
   "article_count": 714,
   "articles": [
@@ -594,8 +594,8 @@
       "article_id": "keiji-soshou-hou-art-157-6",
       "article_number": "157-6",
       "filename": "keiji-soshou-hou-article-157-6.md",
-      "ja_text_sha256": "809e62bfa6247b314770ce207f799ba27a3466687424e6f94042d62066085250",
-      "ja_text_bytes": 4563,
+      "ja_text_sha256": "79dcab4fbe5f34c4d5cd839de95cca02eb176a8017718d91f316b582a843f36e",
+      "ja_text_bytes": 4557,
       "paragraph_count": 4
     },
     {

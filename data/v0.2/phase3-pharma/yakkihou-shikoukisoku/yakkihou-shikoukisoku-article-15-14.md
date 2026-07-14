@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-15-14-p1-kou-1
     type: kou
-    text: 当該薬剤の使用に当たり保健衛生上の危害の発生を防止するために必要な事項について説明を行わせること。
+    text: 一　当該薬剤の使用に当たり保健衛生上の危害の発生を防止するために必要な事項について説明を行わせること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-15-14-p1-kou-2
     type: kou
-    text: 当該薬剤の用法、用量、使用上の注意、当該薬剤との併用を避けるべき医薬品その他の当該薬剤の適正な使用のために必要な情報を、当該薬剤を購入し、若しくは譲り受けようとする者又は当該薬局開設者から当該薬剤を購入し、若しくは譲り受けた者の状況に応じて個別に提供させ、又は必要な指導を行わせること。
+    text: 二　当該薬剤の用法、用量、使用上の注意、当該薬剤との併用を避けるべき医薬品その他の当該薬剤の適正な使用のために必要な情報を、当該薬剤を購入し、若しくは譲り受けようとする者又は当該薬局開設者から当該薬剤を購入し、若しくは譲り受けた者の状況に応じて個別に提供させ、又は必要な指導を行わせること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-15-14-p1-kou-3
     type: kou
-    text: 当該薬剤を使用しようとする者が手帳を所持する場合は、必要に応じ、当該手帳を活用した情報の提供又は指導を行わせること。
+    text: 三　当該薬剤を使用しようとする者が手帳を所持する場合は、必要に応じ、当該手帳を活用した情報の提供又は指導を行わせること。
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-15-14-p1-kou-4
     type: kou
-    text: 当該情報の提供又は指導を行つた薬剤師の氏名を伝えさせること。
+    text: 四　当該情報の提供又は指導を行つた薬剤師の氏名を伝えさせること。
     modality: unspecified
     item_number: 4
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-509-p1-kou-1
     type: kou
-    text: 第百五十五条
+    text: 一　第百五十五条
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-509-p1-kou-2
     type: kou
-    text: 第五章第二節第二款（第四百三十五条第四項、第四百四十条第三項、第四百四十二条及び第四百四十三条を除く。）及び第三款並びに第三節から第五節まで
+    text: 二　第五章第二節第二款（第四百三十五条第四項、第四百四十条第三項、第四百四十二条及び第四百四十三条を除く。）及び第三款並びに第三節から第五節まで
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-509-p1-kou-3
     type: kou
-    text: 第五編第四章及び第四章の二並びに同編第五章中株式交換、株式移転及び株式交付の手続に係る部分
+    text: 三　第五編第四章及び第四章の二並びに同編第五章中株式交換、株式移転及び株式交付の手続に係る部分
     modality: unspecified
     item_number: 3
 - number: 2

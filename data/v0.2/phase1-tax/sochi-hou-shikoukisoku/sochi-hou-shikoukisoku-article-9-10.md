@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-9-10-p1-kou-1
     type: kou
-    text: 法第二十八条の二の二第一項の個人が同項に規定する債務処理計画に基づき免除を受けた債務の金額及び当該免除を受けた年月日
+    text: 一　法第二十八条の二の二第一項の個人が同項に規定する債務処理計画に基づき免除を受けた債務の金額及び当該免除を受けた年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-9-10-p1-kou-2
     type: kou
-    text: 法第二十八条の二の二第一項の規定により不動産所得の金額、事業所得の金額又は山林所得の金額の計算上必要経費に算入される金額及びその計算の明細
+    text: 二　法第二十八条の二の二第一項の規定により不動産所得の金額、事業所得の金額又は山林所得の金額の計算上必要経費に算入される金額及びその計算の明細
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-9-10-p1-kou-3
     type: kou
-    text: 法第二十八条の二の二第一項に規定する対象資産ごとの施行令第十八条の六第三項各号に掲げる資産の区分に応じ当該各号に定める金額
+    text: 三　法第二十八条の二の二第一項に規定する対象資産ごとの施行令第十八条の六第三項各号に掲げる資産の区分に応じ当該各号に定める金額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-9-10-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2

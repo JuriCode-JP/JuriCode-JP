@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: douro-koutsuu-hou-art-81-p1-kou-1
     type: kou
-    text: 第七十六条第一項又は第二項の規定に違反して工作物等を設置した者
+    text: 一　第七十六条第一項又は第二項の規定に違反して工作物等を設置した者
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-81-p1-kou-2
     type: kou
-    text: 第七十六条第三項の規定に違反して物件を置いた者
+    text: 二　第七十六条第三項の規定に違反して物件を置いた者
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-81-p1-kou-3
     type: kou
-    text: 第七十七条第一項の規定に違反して工作物等を設置し、又は工事等を行なつた者
+    text: 三　第七十七条第一項の規定に違反して工作物等を設置し、又は工事等を行なつた者
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-81-p1-kou-4
     type: kou
-    text: 第七十七条第三項又は第四項の規定による所轄警察署長が付した条件に違反した者
+    text: 四　第七十七条第三項又は第四項の規定による所轄警察署長が付した条件に違反した者
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-81-p1-kou-5
     type: kou
-    text: 第七十七条第七項の規定に違反して当該工作物の除去その他道路を原状に回復する措置を講じなかつた者
+    text: 五　第七十七条第七項の規定に違反して当該工作物の除去その他道路を原状に回復する措置を講じなかつた者
     modality: unspecified
     item_number: 5
 - number: 2
@@ -94,8 +94,8 @@ paragraphs:
     text: 警察署長は、前項の規定による工作物等の売却につき買受人がない場合において、同項に規定する価額が著しく低いときは、当該工作物等を廃棄することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
@@ -151,8 +151,8 @@ paragraphs:
     text: 前項の規定による督促を受けた者がその指定期限までに負担金並びに同項後段の延滞金及び手数料（以下この条において「負担金等」という。）を納付しないときは、警察署長は、地方税の滞納処分の例により、負担金等を徴収することができる。この場合における負担金等の先取特権の順位は、国税及び地方税に次ぐものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 11
   has_proviso: false
   has_items: false
@@ -170,6 +170,10 @@ paragraphs:
   - id: douro-koutsuu-hou-art-81-p12
     type: simple
     text: 第三項に規定する公示の日から起算して六月を経過してもなお第二項の規定により保管した工作物等（第四項の規定により売却した代金を含む。以下この項において同じ。）を返還することができないときは、当該工作物等の所有権は、当該警察署の属する都道府県に帰属する。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-81-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条第二項第九号、第百二十三条）
     modality: unspecified
 cases: []
 amendments: []

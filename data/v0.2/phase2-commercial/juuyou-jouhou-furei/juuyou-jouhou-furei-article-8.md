@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: juuyou-jouhou-furei-art-8-p1-kou-1
     type: kou
-    text: 上場会社等又は上場投資法人等の資産運用会社の役員等が、その業務に関して、取引関係者に意図せず重要情報を伝達した場合
+    text: 一　上場会社等又は上場投資法人等の資産運用会社の役員等が、その業務に関して、取引関係者に意図せず重要情報を伝達した場合
     modality: unspecified
     item_number: 1
   - id: juuyou-jouhou-furei-art-8-p1-kou-2
     type: kou
-    text: 上場会社等若しくは上場投資法人等の資産運用会社又はこれらの役員等が、その業務に関して、取引関係者に重要情報の伝達を行った時において、当該伝達の相手方が取引関係者であることを知らなかった場合
+    text: 二　上場会社等若しくは上場投資法人等の資産運用会社又はこれらの役員等が、その業務に関して、取引関係者に重要情報の伝達を行った時において、当該伝達の相手方が取引関係者であることを知らなかった場合
     modality: unspecified
     item_number: 2
 cases: []

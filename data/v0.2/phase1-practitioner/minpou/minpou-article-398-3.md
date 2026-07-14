@@ -32,17 +32,17 @@ paragraphs:
     modality: jogai
   - id: minpou-art-398-3-p2-kou-1
     type: kou
-    text: 債務者の支払の停止
+    text: 一　債務者の支払の停止
     modality: unspecified
     item_number: 1
   - id: minpou-art-398-3-p2-kou-2
     type: kou
-    text: 債務者についての破産手続開始、再生手続開始、更生手続開始又は特別清算開始の申立て
+    text: 二　債務者についての破産手続開始、再生手続開始、更生手続開始又は特別清算開始の申立て
     modality: unspecified
     item_number: 2
   - id: minpou-art-398-3-p2-kou-3
     type: kou
-    text: 抵当不動産に対する競売の申立て又は滞納処分による差押え
+    text: 三　抵当不動産に対する競売の申立て又は滞納処分による差押え
     modality: unspecified
     item_number: 3
 cases: []

@@ -41,6 +41,10 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-107-10-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第二項については第百二十一条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

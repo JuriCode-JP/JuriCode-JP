@@ -47,8 +47,8 @@ paragraphs:
     text: 公開会社でない取締役会設置会社における前項の規定の適用については、同項中「六箇月（これを下回る期間を定款で定めた場合にあっては、その期間）前から引き続き有する」とあるのは、「有する」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

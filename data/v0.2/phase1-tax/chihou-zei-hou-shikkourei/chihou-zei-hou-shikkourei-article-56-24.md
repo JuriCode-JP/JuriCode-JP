@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-56-24-p1-kou-1
     type: kou
-    text: 図書館法（昭和二十五年法律第百十八号）第二条第一項に規定する図書館
+    text: 一　図書館法（昭和二十五年法律第百十八号）第二条第一項に規定する図書館
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-56-24-p1-kou-2
     type: kou
-    text: 学校教育法附則第六条の規定により設置された幼稚園
+    text: 二　学校教育法附則第六条の規定により設置された幼稚園
     modality: unspecified
     item_number: 2
 cases: []

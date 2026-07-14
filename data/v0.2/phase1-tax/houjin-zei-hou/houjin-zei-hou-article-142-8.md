@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定により同項に規定する評価益又は評価損が益金の額又は損金の額に算入された資産の帳簿価額その他同項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

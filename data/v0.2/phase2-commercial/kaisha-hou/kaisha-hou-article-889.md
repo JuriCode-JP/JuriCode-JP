@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の中止の命令及び同項の規定による決定に対しては、即時抗告をすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

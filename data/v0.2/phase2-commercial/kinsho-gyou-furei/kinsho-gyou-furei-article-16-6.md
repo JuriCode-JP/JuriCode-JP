@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-16-6-p1-kou-1
     type: kou
-    text: 令第十七条の十二第一項第三号から第五号まで、第八号、第九号、第十二号、第十四号又は第十五号に掲げる者
+    text: 一　令第十七条の十二第一項第三号から第五号まで、第八号、第九号、第十二号、第十四号又は第十五号に掲げる者
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-16-6-p1-kou-2
     type: kou
-    text: その取得する出資対象事業持分（法第二条第二項第五号又は第六号に掲げる権利をいう。以下同じ。）に係る私募又は私募の取扱いの相手方であって、第二百三十三条の三各号に掲げる者
+    text: 二　その取得する出資対象事業持分（法第二条第二項第五号又は第六号に掲げる権利をいう。以下同じ。）に係る私募又は私募の取扱いの相手方であって、第二百三十三条の三各号に掲げる者
     modality: unspecified
     item_number: 2
 cases: []

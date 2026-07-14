@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の場合には、同項の行政機関の長は、直ちに、審査請求書を国税不服審判所長に送付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

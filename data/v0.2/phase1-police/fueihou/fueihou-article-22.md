@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu_negative
   - id: fueihou-art-22-p1-kou-1
     type: kou
-    text: 当該営業に関し客引きをすること。
+    text: 一　当該営業に関し客引きをすること。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-22-p1-kou-2
     type: kou
-    text: 当該営業に関し客引きをするため、道路その他公共の場所で、人の身辺に立ちふさがり、又はつきまとうこと。
+    text: 二　当該営業に関し客引きをするため、道路その他公共の場所で、人の身辺に立ちふさがり、又はつきまとうこと。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-22-p1-kou-3
     type: kou
-    text: 営業所で、十八歳未満の者に客の接待をさせること。
+    text: 三　営業所で、十八歳未満の者に客の接待をさせること。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-22-p1-kou-4
     type: kou
-    text: 営業所で午後十時から翌日の午前六時までの時間において十八歳未満の者を客に接する業務に従事させること。
+    text: 四　営業所で午後十時から翌日の午前六時までの時間において十八歳未満の者を客に接する業務に従事させること。
     modality: unspecified
     item_number: 4
   - id: fueihou-art-22-p1-kou-5
     type: kou
-    text: 十八歳未満の者を営業所に客として立ち入らせること（第二条第一項第五号の営業に係る営業所にあつては、午後十時から翌日の午前六時までの時間において客として立ち入らせること。）。
+    text: 五　十八歳未満の者を営業所に客として立ち入らせること（第二条第一項第五号の営業に係る営業所にあつては、午後十時から翌日の午前六時までの時間において客として立ち入らせること。）。
     modality: unspecified
     item_number: 5
   - id: fueihou-art-22-p1-kou-6
     type: kou
-    text: 営業所で二十歳未満の者に酒類又はたばこを提供すること。
+    text: 六　営業所で二十歳未満の者に酒類又はたばこを提供すること。
     modality: unspecified
     item_number: 6
 - number: 2

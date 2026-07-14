@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-165-p1-kou-1
     type: kou
-    text: 受入年月日
+    text: 一　受入年月日
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-165-p1-kou-2
     type: kou
-    text: 受入先の氏名又は名称
+    text: 二　受入先の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-165-p1-kou-3
     type: kou
-    text: 銘柄、数量、券面額、記号、番号その他の当該証券若しくは証書、電子記録移転権利又は権利を特定するために必要な事項
+    text: 三　銘柄、数量、券面額、記号、番号その他の当該証券若しくは証書、電子記録移転権利又は権利を特定するために必要な事項
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-165-p1-kou-4
     type: kou
-    text: 記名式であるときは、名義人の氏名又は名称
+    text: 四　記名式であるときは、名義人の氏名又は名称
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-165-p1-kou-5
     type: kou
-    text: 引渡年月日
+    text: 五　引渡年月日
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-165-p1-kou-6
     type: kou
-    text: 引渡先の氏名又は名称
+    text: 六　引渡先の氏名又は名称
     modality: unspecified
     item_number: 6
 - number: 2
@@ -64,12 +64,12 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-165-p2-kou-1
     type: kou
-    text: 前項各号に掲げる事項については、マイクロフィルムの使用をもって記載に代えること。
+    text: 一　前項各号に掲げる事項については、マイクロフィルムの使用をもって記載に代えること。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-165-p2-kou-2
     type: kou
-    text: 前項各号に掲げる事項を伝票に記載し、当該伝票を日付順につづり込んだ場合には、当該伝票のつづりを受渡有価証券記番号帳とすること。
+    text: 二　前項各号に掲げる事項を伝票に記載し、当該伝票を日付順につづり込んだ場合には、当該伝票のつづりを受渡有価証券記番号帳とすること。
     modality: unspecified
     item_number: 2
 cases: []

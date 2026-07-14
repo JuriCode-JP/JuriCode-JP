@@ -34,9 +34,9 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -47,16 +47,16 @@ paragraphs:
     text: 前項前段の規定にかかわらず、効力継続期間における次に掲げる規定の適用については、同項の刑の言渡しは、効力を失っているものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: keihou-art-27-p3-kou-1
     type: kou
-    text: 第二十五条、第二十六条、第二十六条の二、次条第一項及び第三項、第二十七条の四（第三号に係る部分に限る。）並びに第三十四条の二の規定
+    text: 一　第二十五条、第二十六条、第二十六条の二、次条第一項及び第三項、第二十七条の四（第三号に係る部分に限る。）並びに第三十四条の二の規定
     modality: unspecified
     item_number: 1
   - id: keihou-art-27-p3-kou-2
     type: kou
-    text: 人の資格に関する法令の規定
+    text: 二　人の資格に関する法令の規定
     modality: unspecified
     item_number: 2
 - number: 4

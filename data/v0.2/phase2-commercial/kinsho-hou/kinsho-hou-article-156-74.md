@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-156-74-p1-kou-1
     type: kou
-    text: 取引情報の提供を受けることを内容とする契約（以下「取引情報収集契約」という。）の金融商品取引清算機関等又は金融商品取引業者等との締結に関する事項
+    text: 一　取引情報の提供を受けることを内容とする契約（以下「取引情報収集契約」という。）の金融商品取引清算機関等又は金融商品取引業者等との締結に関する事項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-74-p1-kou-2
     type: kou
-    text: 取引情報蓄積業務の対象とする取引に関する事項
+    text: 二　取引情報蓄積業務の対象とする取引に関する事項
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-74-p1-kou-3
     type: kou
-    text: 取引情報の収集及び保存に関する事項
+    text: 三　取引情報の収集及び保存に関する事項
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-74-p1-kou-4
     type: kou
-    text: 取引情報の漏えい、滅失又はき損の防止その他の取引情報の安全管理に関する事項
+    text: 四　取引情報の漏えい、滅失又はき損の防止その他の取引情報の安全管理に関する事項
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-74-p1-kou-5
     type: kou
-    text: 取引情報の正確性の確保に関する事項
+    text: 五　取引情報の正確性の確保に関する事項
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-156-74-p1-kou-6
     type: kou
-    text: 料金に関する事項
+    text: 六　料金に関する事項
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-156-74-p1-kou-7
     type: kou
-    text: 取引情報蓄積業務の一部を他の者に委託する場合におけるその委託した業務の適正かつ確実な遂行を確保するための措置に関する事項
+    text: 七　取引情報蓄積業務の一部を他の者に委託する場合におけるその委託した業務の適正かつ確実な遂行を確保するための措置に関する事項
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-156-74-p1-kou-8
     type: kou
-    text: 前各号に掲げるもののほか、取引情報蓄積業務の実施に必要な事項として内閣府令で定める事項
+    text: 八　前各号に掲げるもののほか、取引情報蓄積業務の実施に必要な事項として内閣府令で定める事項
     modality: unspecified
     item_number: 8
 - number: 2

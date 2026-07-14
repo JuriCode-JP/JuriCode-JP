@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: keiji-soshou-hou-art-402-2-p1-kou-1
     type: kou
-    text: 無罪、免訴、刑の免除、公訴棄却又は管轄違いの言渡しをした原判決に対する控訴を棄却する判決
+    text: 一　無罪、免訴、刑の免除、公訴棄却又は管轄違いの言渡しをした原判決に対する控訴を棄却する判決
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-402-2-p1-kou-2
     type: kou
-    text: 事件を原裁判所に差し戻し、又は管轄裁判所に移送する判決
+    text: 二　事件を原裁判所に差し戻し、又は管轄裁判所に移送する判決
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-402-2-p1-kou-3
     type: kou
-    text: 無罪、免訴、刑の免除又は公訴棄却の言渡しをする判決
+    text: 三　無罪、免訴、刑の免除又は公訴棄却の言渡しをする判決
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,12 +49,12 @@ paragraphs:
     - 前項
   - id: keiji-soshou-hou-art-402-2-p2-kou-1
     type: kou
-    text: 公職選挙法（昭和二十五年法律第百号）第二百五十三条の二第一項に規定する刑事事件について、有罪の言渡し（刑の免除の言渡しを除く。以下この号において同じ。）をする判決又は有罪の言渡しをした原判決に対する控訴を棄却する判決
+    text: 一　公職選挙法（昭和二十五年法律第百号）第二百五十三条の二第一項に規定する刑事事件について、有罪の言渡し（刑の免除の言渡しを除く。以下この号において同じ。）をする判決又は有罪の言渡しをした原判決に対する控訴を棄却する判決
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-402-2-p2-kou-2
     type: kou
-    text: 組織的犯罪処罰法第十三条第三項の規定による犯罪被害財産の没収若しくは組織的犯罪処罰法第十六条第二項の規定による犯罪被害財産の価額の追徴の言渡しをする判決又はこれらの言渡しをした原判決に対する控訴を棄却する判決
+    text: 二　組織的犯罪処罰法第十三条第三項の規定による犯罪被害財産の没収若しくは組織的犯罪処罰法第十六条第二項の規定による犯罪被害財産の価額の追徴の言渡しをする判決又はこれらの言渡しをした原判決に対する控訴を棄却する判決
     modality: unspecified
     item_number: 2
 cases: []

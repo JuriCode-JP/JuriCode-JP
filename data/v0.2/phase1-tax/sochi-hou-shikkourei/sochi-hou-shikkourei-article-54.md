@@ -34,12 +34,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-54-p2-kou-1
     type: kou
-    text: 当該電子申請等について、国税庁の使用に係る電子計算機に備えられたファイルへの記録がされた日（次項において「到達日」という。）
+    text: 一　当該電子申請等について、国税庁の使用に係る電子計算機に備えられたファイルへの記録がされた日（次項において「到達日」という。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-54-p2-kou-2
     type: kou
-    text: 当該電子申請等について、当該電子申請等を行う者が入力して送信した事項
+    text: 二　当該電子申請等について、当該電子申請等を行う者が入力して送信した事項
     modality: unspecified
     item_number: 2
 - number: 3
@@ -62,22 +62,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-54-p4-kou-1
     type: kou
-    text: 証明を受けようとする電子申請等
+    text: 一　証明を受けようとする電子申請等
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-54-p4-kou-2
     type: kou
-    text: 前号の電子申請等を行つた日
+    text: 二　前号の電子申請等を行つた日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-54-p4-kou-3
     type: kou
-    text: 第一号の電子申請等につき、第二項第二号に掲げる事項の証明を受けようとする場合には、その旨
+    text: 三　第一号の電子申請等につき、第二項第二号に掲げる事項の証明を受けようとする場合には、その旨
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-54-p4-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 5

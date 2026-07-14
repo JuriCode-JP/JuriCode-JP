@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\417M60000002017.xml",
   "source_xml_sha256": "516b41599ce6aa2715c70ec5948cfc26b21ac990789bd58b66799f419f798215",
   "source_xml_bytes": 319167,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:59:05+00:00",
+  "parsed_at": "2026-07-14T01:45:13+00:00",
   "version_date": "2005-03-04",
   "article_count": 104,
   "articles": [
@@ -18,8 +18,8 @@
       "article_id": "kinsho-kachoukin-furei-art-1-10",
       "article_number": "1-10",
       "filename": "kinsho-kachoukin-furei-article-1-10.md",
-      "ja_text_sha256": "b97d1f482edf5f0136368238110325e8a2513913b15571d1bb4dc53523dc9d55",
-      "ja_text_bytes": 5470,
+      "ja_text_sha256": "7a835241b4c66356bc7df2019de22d022cebf07432444180cf70d9f8b992b3e4",
+      "ja_text_bytes": 5464,
       "paragraph_count": 4
     },
     {

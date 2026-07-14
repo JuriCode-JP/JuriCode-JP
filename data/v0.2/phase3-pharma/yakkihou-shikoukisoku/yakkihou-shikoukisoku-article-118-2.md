@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-118-2-p1-kou-1
     type: kou
-    text: 法第二十三条の二の三第一項又は法第二十三条の二の四第一項の登録の申請に際して提出した資料
+    text: 一　法第二十三条の二の三第一項又は法第二十三条の二の四第一項の登録の申請に際して提出した資料
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-118-2-p1-kou-2
     type: kou
-    text: 基準適合性認証の申請に際して提出した資料及びその根拠となつた資料
+    text: 二　基準適合性認証の申請に際して提出した資料及びその根拠となつた資料
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-118-2-p1-kou-3
     type: kou
-    text: 法第六十八条の二十二第一項の規定による生物由来製品に関する記録及び当該記録に関連する資料
+    text: 三　法第六十八条の二十二第一項の規定による生物由来製品に関する記録及び当該記録に関連する資料
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-118-2-p1-kou-4
     type: kou
-    text: 製造管理又は品質管理の業務に関する資料及び情報
+    text: 四　製造管理又は品質管理の業務に関する資料及び情報
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-118-2-p1-kou-5
     type: kou
-    text: 製造販売後安全管理の業務に関する資料及び情報
+    text: 五　製造販売後安全管理の業務に関する資料及び情報
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-118-2-p1-kou-6
     type: kou
-    text: その他品質、有効性及び安全性に関する資料及び情報
+    text: 六　その他品質、有効性及び安全性に関する資料及び情報
     modality: unspecified
     item_number: 6
 - number: 2

@@ -44,8 +44,8 @@ paragraphs:
     text: 前二項の場合においては、前条第一項ただし書及び第三項から第六項までの規定を準用する。
     modality: unspecified
     references:
-    - 前条
     - 前二項
+    - 前条
 cases: []
 amendments: []
 tags:

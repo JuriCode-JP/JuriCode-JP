@@ -75,6 +75,10 @@ paragraphs:
     type: simple
     text: 第三項の許可証の様式その他第二項の許可について必要な事項は、内閣府令で定める。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-8-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条第一項第二号、同条第三項、第百二十一条第一項第一号及び第二号　第五項については第百二十一条第一項第三号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-653-p1-kou-1
     type: kou
-    text: 委任者又は受任者の死亡
+    text: 一　委任者又は受任者の死亡
     modality: unspecified
     item_number: 1
   - id: minpou-art-653-p1-kou-2
     type: kou
-    text: 委任者又は受任者が破産手続開始の決定を受けたこと。
+    text: 二　委任者又は受任者が破産手続開始の決定を受けたこと。
     modality: unspecified
     item_number: 2
   - id: minpou-art-653-p1-kou-3
     type: kou
-    text: 受任者が後見開始の審判を受けたこと。
+    text: 三　受任者が後見開始の審判を受けたこと。
     modality: unspecified
     item_number: 3
 cases: []

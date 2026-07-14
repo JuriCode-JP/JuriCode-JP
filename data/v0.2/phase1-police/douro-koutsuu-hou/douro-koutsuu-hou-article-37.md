@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 車両等は、交差点で右折する場合において、当該交差点において直進し、又は左折しようとする車両等があるときは、当該車両等の進行妨害をしてはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-37-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

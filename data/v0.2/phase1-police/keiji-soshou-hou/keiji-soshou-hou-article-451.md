@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: keiji-soshou-hou-art-451-p2-kou-1
     type: kou
-    text: 死亡者又は回復の見込がない心神喪失者のために再審の請求がされたとき。
+    text: 一　死亡者又は回復の見込がない心神喪失者のために再審の請求がされたとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-451-p2-kou-2
     type: kou
-    text: 有罪の言渡を受けた者が、再審の判決がある前に、死亡し、又は心神喪失の状態に陥りその回復の見込がないとき。
+    text: 二　有罪の言渡を受けた者が、再審の判決がある前に、死亡し、又は心神喪失の状態に陥りその回復の見込がないとき。
     modality: unspecified
     item_number: 2
 - number: 3

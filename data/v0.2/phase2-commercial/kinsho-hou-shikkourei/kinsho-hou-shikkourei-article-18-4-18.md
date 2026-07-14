@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-18-4-18-p1-kou-1
     type: kou
-    text: 名称
+    text: 一　名称
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-18-4-18-p1-kou-2
     type: kou
-    text: 主たる事務所の所在の場所
+    text: 二　主たる事務所の所在の場所
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-18-4-18-p1-kou-3
     type: kou
-    text: 代表者又は管理人の氏名
+    text: 三　代表者又は管理人の氏名
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-18-4-18-p1-kou-4
     type: kou
-    text: 法第七十九条の十二において準用する法第七十七条第一項の申出及び法第七十九条の十三において準用する法第七十七条の二第一項の規定による申立ての受付を終了しようとする日
+    text: 四　法第七十九条の十二において準用する法第七十七条第一項の申出及び法第七十九条の十三において準用する法第七十七条の二第一項の規定による申立ての受付を終了しようとする日
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-18-4-18-p1-kou-5
     type: kou
-    text: 認定業務を廃止しようとする日
+    text: 五　認定業務を廃止しようとする日
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-18-4-18-p1-kou-6
     type: kou
-    text: 認定業務を廃止する理由
+    text: 六　認定業務を廃止する理由
     modality: unspecified
     item_number: 6
 cases: []

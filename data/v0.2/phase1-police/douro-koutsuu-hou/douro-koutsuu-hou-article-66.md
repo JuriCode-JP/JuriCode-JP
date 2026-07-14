@@ -23,6 +23,10 @@ paragraphs:
     modality: gimu_negative
     references:
     - 前条
+  - id: douro-koutsuu-hou-art-66-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の二第一項第三号、第百十七条の二の二第一項第七号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

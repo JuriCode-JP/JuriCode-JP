@@ -34,22 +34,22 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-shikkourei-art-2-p2-kou-1
     type: kou
-    text: 被相続人の氏名、死亡時の住所又は居所及び死亡年月日
+    text: 一　被相続人の氏名、死亡時の住所又は居所及び死亡年月日
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-2-p2-kou-2
     type: kou
-    text: 各相続人の氏名（法人にあつては、名称。以下同じ。）、住所又は居所（法人にあつては、事務所又は事業所の所在地。以下同じ。）、被相続人との続柄及び法第九条第二項に規定する相続分
+    text: 二　各相続人の氏名（法人にあつては、名称。以下同じ。）、住所又は居所（法人にあつては、事務所又は事業所の所在地。以下同じ。）、被相続人との続柄及び法第九条第二項に規定する相続分
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-2-p2-kou-3
     type: kou
-    text: 相続人の代表者の氏名及び住所又は居所
+    text: 三　相続人の代表者の氏名及び住所又は居所
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-2-p2-kou-4
     type: kou
-    text: 前二号に掲げる相続人のうち法人番号（法第二十条の十一の二に規定する法人番号をいう。以下同じ。）を有する法人にあつては、当該相続人の法人番号
+    text: 四　前二号に掲げる相続人のうち法人番号（法第二十条の十一の二に規定する法人番号をいう。以下同じ。）を有する法人にあつては、当該相続人の法人番号
     modality: unspecified
     item_number: 4
 - number: 3
@@ -86,17 +86,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-2-p5-kou-1
     type: kou
-    text: 被相続人の氏名及び死亡時の住所又は居所
+    text: 一　被相続人の氏名及び死亡時の住所又は居所
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-2-p5-kou-2
     type: kou
-    text: 各相続人の氏名、住所又は居所及び被相続人との続柄
+    text: 二　各相続人の氏名、住所又は居所及び被相続人との続柄
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-2-p5-kou-3
     type: kou
-    text: 相続人の代表者の氏名及び住所又は居所
+    text: 三　相続人の代表者の氏名及び住所又は居所
     modality: unspecified
     item_number: 3
 - number: 6

@@ -23,62 +23,62 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-1
     type: kou
-    text: 重要な財産の処分又は譲受け
+    text: 一　重要な財産の処分又は譲受け
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-2
     type: kou
-    text: 多額の借財
+    text: 二　多額の借財
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-3
     type: kou
-    text: 代表取締役若しくは代表執行役の選定若しくは解職又は執行役員の選任若しくは解任（次号に該当するものを除く。）
+    text: 三　代表取締役若しくは代表執行役の選定若しくは解職又は執行役員の選任若しくは解任（次号に該当するものを除く。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-4
     type: kou
-    text: 特定の者の役員への選任
+    text: 四　特定の者の役員への選任
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-5
     type: kou
-    text: 役員の構成の重要な変更（役員の数又は任期に係る重要な変更を含む。）
+    text: 五　役員の構成の重要な変更（役員の数又は任期に係る重要な変更を含む。）
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-6
     type: kou
-    text: 株式交換、株式移転、株式交付、会社の分割又は合併
+    text: 六　株式交換、株式移転、株式交付、会社の分割又は合併
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-7
     type: kou
-    text: 事業の全部又は一部の譲渡、譲受け、休止又は廃止
+    text: 七　事業の全部又は一部の譲渡、譲受け、休止又は廃止
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-8
     type: kou
-    text: 配当に関する方針の重要な変更
+    text: 八　配当に関する方針の重要な変更
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-9
     type: kou
-    text: 資本金の増加又は減少に関する方針の重要な変更
+    text: 九　資本金の増加又は減少に関する方針の重要な変更
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-10
     type: kou
-    text: その発行する有価証券の取引所金融商品市場における上場の廃止又は店頭売買有価証券市場における登録の取消し
+    text: 十　その発行する有価証券の取引所金融商品市場における上場の廃止又は店頭売買有価証券市場における登録の取消し
     modality: unspecified
     item_number: 10
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-11
     type: kou
-    text: その発行する有価証券の取引所金融商品市場への上場又は店頭売買有価証券登録原簿への登録
+    text: 十一　その発行する有価証券の取引所金融商品市場への上場又は店頭売買有価証券登録原簿への登録
     modality: unspecified
     item_number: 11
   - id: kinsho-hou-shikkourei-art-14-8-2-p1-kou-12
     type: kou
-    text: その他前各号に準ずるものとして内閣府令で定める事項
+    text: 十二　その他前各号に準ずるものとして内閣府令で定める事項
     modality: unspecified
     item_number: 12
 - number: 2
@@ -92,12 +92,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-14-8-2-p2-kou-1
     type: kou
-    text: 各月の第二月曜日及び第四月曜日（第五月曜日がある場合にあつては、第二月曜日、第四月曜日及び第五月曜日とする。）
+    text: 一　各月の第二月曜日及び第四月曜日（第五月曜日がある場合にあつては、第二月曜日、第四月曜日及び第五月曜日とする。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-8-2-p2-kou-2
     type: kou
-    text: 各月の十五日及び末日（これらの日が土曜日に当たるときはその前日とし、これらの日が日曜日に当たるときはその前々日とする。）
+    text: 二　各月の十五日及び末日（これらの日が土曜日に当たるときはその前日とし、これらの日が日曜日に当たるときはその前々日とする。）
     modality: unspecified
     item_number: 2
 - number: 3

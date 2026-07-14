@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-jichi-hou-art-250-13-p1-kou-1
     type: kou
-    text: 第二百四十五条の八第二項及び第十三項の規定による指示
+    text: 一　第二百四十五条の八第二項及び第十三項の規定による指示
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-250-13-p1-kou-2
     type: kou
-    text: 第二百四十五条の八第八項の規定に基づき都道府県知事に代わつて同条第二項の規定による指示に係る事項を行うこと。
+    text: 二　第二百四十五条の八第八項の規定に基づき都道府県知事に代わつて同条第二項の規定による指示に係る事項を行うこと。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-250-13-p1-kou-3
     type: kou
-    text: 第二百五十二条の十七の四第二項の規定により読み替えて適用する第二百四十五条の八第十二項において準用する同条第二項の規定による指示
+    text: 三　第二百五十二条の十七の四第二項の規定により読み替えて適用する第二百四十五条の八第十二項において準用する同条第二項の規定による指示
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-250-13-p1-kou-4
     type: kou
-    text: 第二百五十二条の十七の四第二項の規定により読み替えて適用する第二百四十五条の八第十二項において準用する同条第八項の規定に基づき市町村長に代わつて前号の指示に係る事項を行うこと。
+    text: 四　第二百五十二条の十七の四第二項の規定により読み替えて適用する第二百四十五条の八第十二項において準用する同条第八項の規定に基づき市町村長に代わつて前号の指示に係る事項を行うこと。
     modality: unspecified
     item_number: 4
 - number: 2

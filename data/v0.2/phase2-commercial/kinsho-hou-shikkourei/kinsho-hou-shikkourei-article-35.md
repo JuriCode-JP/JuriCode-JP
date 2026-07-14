@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: kinsho-hou-shikkourei-art-35-p1-kou-1
     type: kou
-    text: 法第四条第一項から第三項までの規定による届出をしようとする者
+    text: 一　法第四条第一項から第三項までの規定による届出をしようとする者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-35-p1-kou-2
     type: kou
-    text: 法第二十四条第一項各号（法第二十七条において準用する場合を含む。）に掲げる有価証券の発行者
+    text: 二　法第二十四条第一項各号（法第二十七条において準用する場合を含む。）に掲げる有価証券の発行者
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,42 +44,42 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-35-p2-kou-1
     type: kou
-    text: 法第二条第一項第十号に規定する外国投資信託の受益証券
+    text: 一　法第二条第一項第十号に規定する外国投資信託の受益証券
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-35-p2-kou-2
     type: kou
-    text: 法第二条第一項第十一号に規定する外国投資証券
+    text: 二　法第二条第一項第十一号に規定する外国投資証券
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-35-p2-kou-3
     type: kou
-    text: 法第二条第一項第十四号に規定する受益証券発行信託の受益証券（外国の者が発行者であるものに限る。）
+    text: 三　法第二条第一項第十四号に規定する受益証券発行信託の受益証券（外国の者が発行者であるものに限る。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-35-p2-kou-4
     type: kou
-    text: 法第二条第一項第十七号に掲げる有価証券で同項第四号、第五号、第七号から第九号まで又は第十二号から第十六号までに掲げる有価証券の性質を有するもの
+    text: 四　法第二条第一項第十七号に掲げる有価証券で同項第四号、第五号、第七号から第九号まで又は第十二号から第十六号までに掲げる有価証券の性質を有するもの
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-35-p2-kou-5
     type: kou
-    text: 法第二条第一項第十八号に掲げる有価証券
+    text: 五　法第二条第一項第十八号に掲げる有価証券
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-35-p2-kou-6
     type: kou
-    text: 法第二条第一項第十九号又は第二十号に掲げる有価証券（外国の者が発行者であるものに限る。）
+    text: 六　法第二条第一項第十九号又は第二十号に掲げる有価証券（外国の者が発行者であるものに限る。）
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-35-p2-kou-7
     type: kou
-    text: 第一条第一号に掲げる証券又は証書
+    text: 七　第一条第一号に掲げる証券又は証書
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-35-p2-kou-8
     type: kou
-    text: 法第二条第二項の規定により有価証券とみなされる同項第二号、第四号又は第六号に掲げる権利
+    text: 八　法第二条第二項の規定により有価証券とみなされる同項第二号、第四号又は第六号に掲げる権利
     modality: unspecified
     item_number: 8
 cases: []

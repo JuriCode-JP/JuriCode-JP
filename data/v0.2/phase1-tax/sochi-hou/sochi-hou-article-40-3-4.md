@@ -77,32 +77,32 @@ paragraphs:
     modality: unspecified
   - id: sochi-hou-art-40-3-4-p5-kou-1
     type: kou
-    text: 第一項の申立てを取り下げたとき。
+    text: 一　第一項の申立てを取り下げたとき。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-40-3-4-p5-kou-2
     type: kou
-    text: 第一項の協議に必要な書類の提出につき協力しないとき。
+    text: 二　第一項の協議に必要な書類の提出につき協力しないとき。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-40-3-4-p5-kou-3
     type: kou
-    text: 国税通則法第三十八条第一項各号のいずれかに該当する事実がある場合において、その者がその猶予に係る所得税を猶予期間内に完納することができないと認められるとき。
+    text: 三　国税通則法第三十八条第一項各号のいずれかに該当する事実がある場合において、その者がその猶予に係る所得税を猶予期間内に完納することができないと認められるとき。
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-40-3-4-p5-kou-4
     type: kou
-    text: その猶予に係る所得税につき提供された担保について税務署長等が国税通則法第五十一条第一項の規定によつてした命令に応じないとき。
+    text: 四　その猶予に係る所得税につき提供された担保について税務署長等が国税通則法第五十一条第一項の規定によつてした命令に応じないとき。
     modality: unspecified
     item_number: 4
   - id: sochi-hou-art-40-3-4-p5-kou-5
     type: kou
-    text: 新たに猶予に係る所得税の額以外の国税を滞納したとき（税務署長等がやむを得ない理由があると認めるときを除く。）。
+    text: 五　新たに猶予に係る所得税の額以外の国税を滞納したとき（税務署長等がやむを得ない理由があると認めるときを除く。）。
     modality: unspecified
     item_number: 5
   - id: sochi-hou-art-40-3-4-p5-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、その者の財産の状況その他の事情の変化によりその猶予を継続することが適当でないと認められるとき。
+    text: 六　前各号に掲げるもののほか、その者の財産の状況その他の事情の変化によりその猶予を継続することが適当でないと認められるとき。
     modality: unspecified
     item_number: 6
 - number: 6

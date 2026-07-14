@@ -33,8 +33,8 @@ paragraphs:
     text: 前項に規定する課税期間の末日の翌日から二月を経過した日から五年を経過した日以後の期間における同項の規定による保存（同項の規定による電磁的記録の保存を除く。）は、財務大臣の定める方法によることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

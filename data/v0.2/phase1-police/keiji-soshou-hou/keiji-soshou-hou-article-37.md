@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-37-p1-kou-1
     type: kou
-    text: 被告人が未成年者であるとき。
+    text: 一　被告人が未成年者であるとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-37-p1-kou-2
     type: kou
-    text: 被告人が年齢七十年以上の者であるとき。
+    text: 二　被告人が年齢七十年以上の者であるとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-37-p1-kou-3
     type: kou
-    text: 被告人が耳の聞えない者又は口のきけない者であるとき。
+    text: 三　被告人が耳の聞えない者又は口のきけない者であるとき。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-37-p1-kou-4
     type: kou
-    text: 被告人が心神喪失者又は心神耗弱者である疑があるとき。
+    text: 四　被告人が心神喪失者又は心神耗弱者である疑があるとき。
     modality: unspecified
     item_number: 4
   - id: keiji-soshou-hou-art-37-p1-kou-5
     type: kou
-    text: その他必要と認めるとき。
+    text: 五　その他必要と認めるとき。
     modality: unspecified
     item_number: 5
 cases: []

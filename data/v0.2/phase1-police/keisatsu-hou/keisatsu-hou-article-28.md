@@ -32,17 +32,17 @@ paragraphs:
     modality: unspecified
   - id: keisatsu-hou-art-28-p2-kou-1
     type: kou
-    text: 科学捜査についての研究及び実験並びにこれらを応用する鑑定及び検査に関すること。
+    text: 一　科学捜査についての研究及び実験並びにこれらを応用する鑑定及び検査に関すること。
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-28-p2-kou-2
     type: kou
-    text: 少年の非行防止その他犯罪の防止についての研究及び実験に関すること。
+    text: 二　少年の非行防止その他犯罪の防止についての研究及び実験に関すること。
     modality: unspecified
     item_number: 2
   - id: keisatsu-hou-art-28-p2-kou-3
     type: kou
-    text: 交通事故の防止その他交通警察についての研究及び実験に関すること。
+    text: 三　交通事故の防止その他交通警察についての研究及び実験に関すること。
     modality: unspecified
     item_number: 3
 - number: 3

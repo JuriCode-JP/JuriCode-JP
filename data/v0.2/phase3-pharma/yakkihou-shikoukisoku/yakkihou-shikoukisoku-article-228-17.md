@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-17-p1-kou-1
     type: kou
-    text: 再生医療等製品承認取得者等から、その再生医療等製品を譲り受ける製造販売業者又は販売業者であること。
+    text: 一　再生医療等製品承認取得者等から、その再生医療等製品を譲り受ける製造販売業者又は販売業者であること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-17-p1-kou-2
     type: kou
-    text: 記録又は保存の事務を実地に管理する者（以下この条において「記録受託責任者」という。）を選任していること。
+    text: 二　記録又は保存の事務を実地に管理する者（以下この条において「記録受託責任者」という。）を選任していること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,17 +42,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-17-p2-kou-1
     type: kou
-    text: 再生医療等製品承認取得者等及び法第六十八条の七第一項に規定する記録又は保存の事務を受託する者（以下この条において「受託者」という。）の氏名（法人にあつては、その名称及び代表者の氏名）及び住所
+    text: 一　再生医療等製品承認取得者等及び法第六十八条の七第一項に規定する記録又は保存の事務を受託する者（以下この条において「受託者」という。）の氏名（法人にあつては、その名称及び代表者の氏名）及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-17-p2-kou-2
     type: kou
-    text: 記録受託責任者の氏名及び住所
+    text: 二　記録受託責任者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-17-p2-kou-3
     type: kou
-    text: 当該再生医療等製品の名称、承認番号及び承認年月日
+    text: 三　当該再生医療等製品の名称、承認番号及び承認年月日
     modality: unspecified
     item_number: 3
 - number: 3
@@ -77,17 +77,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-228-17-p4-kou-1
     type: kou
-    text: 受託者の住民票の写し（受託者が法人であるときは、登記事項証明書）
+    text: 一　受託者の住民票の写し（受託者が法人であるときは、登記事項証明書）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-17-p4-kou-2
     type: kou
-    text: 受託者が第一項に定める基準に適合することを証する書類
+    text: 二　受託者が第一項に定める基準に適合することを証する書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-17-p4-kou-3
     type: kou
-    text: 委託契約書の写し
+    text: 三　委託契約書の写し
     modality: unspecified
     item_number: 3
 cases: []

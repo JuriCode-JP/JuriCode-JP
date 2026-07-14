@@ -25,32 +25,32 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-2-4-p1-kou-1
     type: kou
-    text: 当該申告書を提出する者の名称、本店又は主たる事務所の所在地及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律（平成二十五年法律第二十七号）第二条第十六項に規定する法人番号をいう。以下この章において同じ。）
+    text: 一　当該申告書を提出する者の名称、本店又は主たる事務所の所在地及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律（平成二十五年法律第二十七号）第二条第十六項に規定する法人番号をいう。以下この章において同じ。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-2-4-p1-kou-2
     type: kou
-    text: 法第三条の三第六項の規定の適用を受けようとする同条第二項に規定する国外公社債等の利子等（以下この条において「国外公社債等の利子等」という。）を生ずべき公社債又は公社債投資信託若しくは公募公社債等運用投資信託の受益権（以下この条において「国外発行公社債等」という。）の種別及び名称
+    text: 二　法第三条の三第六項の規定の適用を受けようとする同条第二項に規定する国外公社債等の利子等（以下この条において「国外公社債等の利子等」という。）を生ずべき公社債又は公社債投資信託若しくは公募公社債等運用投資信託の受益権（以下この条において「国外発行公社債等」という。）の種別及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-2-4-p1-kou-3
     type: kou
-    text: 法第三条の三第六項の規定の適用を受けようとする国外公社債等の利子等の支払期及び当該国外公社債等の利子等の金額
+    text: 三　法第三条の三第六項の規定の適用を受けようとする国外公社債等の利子等の支払期及び当該国外公社債等の利子等の金額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-2-4-p1-kou-4
     type: kou
-    text: 第二号に規定する国外発行公社債等を施行令第二条の二第五項の規定により保管の委託をした年月日及び当該保管の委託をした同項の支払の取扱者の名称（当該支払の取扱者を通じて当該支払の取扱者が指定する他の者に保管の委託をしているときは、その旨及び当該他の者の名称）
+    text: 四　第二号に規定する国外発行公社債等を施行令第二条の二第五項の規定により保管の委託をした年月日及び当該保管の委託をした同項の支払の取扱者の名称（当該支払の取扱者を通じて当該支払の取扱者が指定する他の者に保管の委託をしているときは、その旨及び当該他の者の名称）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-2-4-p1-kou-5
     type: kou
-    text: 当該申告書の提出の際に経由すべき国外公社債等の利子等の支払の取扱者の名称及び所在地
+    text: 五　当該申告書の提出の際に経由すべき国外公社債等の利子等の支払の取扱者の名称及び所在地
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-2-4-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 2
@@ -79,8 +79,8 @@ paragraphs:
     text: 法第三条の三第八項の規定の適用がある場合における前項の規定の適用については、同項中「を当該」とあるのは「に記載すべき事項を当該」と、「受理した」とあるのは「提供を受けた」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -138,27 +138,27 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-2-4-p8-kou-1
     type: kou
-    text: 保管の委託をした者の名称及び所在地
+    text: 一　保管の委託をした者の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-2-4-p8-kou-2
     type: kou
-    text: 保管の委託を受けた国外発行公社債等の種別又は名称及び額面金額
+    text: 二　保管の委託を受けた国外発行公社債等の種別又は名称及び額面金額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-2-4-p8-kou-3
     type: kou
-    text: 保管の委託を受けた日及び保管の委託の取りやめのあつた日
+    text: 三　保管の委託を受けた日及び保管の委託の取りやめのあつた日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-2-4-p8-kou-4
     type: kou
-    text: 第二号に規定する国外発行公社債等に係る国外公社債等の利子等で法第三条の三第六項の規定の適用を受けるものの支払年月日及びその適用を受ける金額
+    text: 四　第二号に規定する国外発行公社債等に係る国外公社債等の利子等で法第三条の三第六項の規定の適用を受けるものの支払年月日及びその適用を受ける金額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-2-4-p8-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 9
@@ -171,8 +171,8 @@ paragraphs:
     text: 前項の支払の取扱者は、その作成した帳簿を同項に規定する帳簿の閉鎖の日の属する年の翌年から五年間保存しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 10
   has_proviso: false
   has_items: false
@@ -195,21 +195,21 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-2-4-p11-kou-1
     type: kou
-    text: 施行令第二条の二第八項に規定する内国信託会社の名称及び本店の所在地
+    text: 一　施行令第二条の二第八項に規定する内国信託会社の名称及び本店の所在地
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-2-4-p11-kou-2
     type: kou
-    text: '次に掲げる信託の区分に応じそれぞれ次に定める事項
+    text: '二　次に掲げる信託の区分に応じそれぞれ次に定める事項
 
-      イ 施行令第二条の二第八項に規定する証券投資信託　当該証券投資信託の信託された営業所の名称及び所在地並びに当該証券投資信託に係る信託契約の委託者の名称
+      イ　施行令第二条の二第八項に規定する証券投資信託　当該証券投資信託の信託された営業所の名称及び所在地並びに当該証券投資信託に係る信託契約の委託者の名称
 
-      ロ 施行令第二条の二第八項に規定する退職年金等信託　当該退職年金等信託の信託された営業所の名称及び所在地並びに当該退職年金等信託に係る信託契約の種類'
+      ロ　施行令第二条の二第八項に規定する退職年金等信託　当該退職年金等信託の信託された営業所の名称及び所在地並びに当該退職年金等信託に係る信託契約の種類'
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-2-4-p11-kou-3
     type: kou
-    text: 施行令第二条の二第八項の規定による登載をした年月日
+    text: 三　施行令第二条の二第八項の規定による登載をした年月日
     modality: unspecified
     item_number: 3
 - number: 12
@@ -223,12 +223,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-2-4-p12-kou-1
     type: kou
-    text: 施行令第二条の二第九項に規定する投資法人又は特定目的会社の名称及び本店の所在地
+    text: 一　施行令第二条の二第九項に規定する投資法人又は特定目的会社の名称及び本店の所在地
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-2-4-p12-kou-2
     type: kou
-    text: 施行令第二条の二第九項の規定による登載をした年月日
+    text: 二　施行令第二条の二第九項の規定による登載をした年月日
     modality: unspecified
     item_number: 2
 - number: 13
@@ -242,17 +242,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-2-4-p13-kou-1
     type: kou
-    text: 施行令第二条の二第十項に規定する内国法人である信託会社の名称及び本店の所在地
+    text: 一　施行令第二条の二第十項に規定する内国法人である信託会社の名称及び本店の所在地
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-2-4-p13-kou-2
     type: kou
-    text: 施行令第二条の二第十項に規定する証券投資信託以外の投資信託に係る信託契約の種類及び当該証券投資信託以外の投資信託（投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第一項に規定する委託者指図型投資信託に限る。）に係る信託契約の委託者の名称
+    text: 二　施行令第二条の二第十項に規定する証券投資信託以外の投資信託に係る信託契約の種類及び当該証券投資信託以外の投資信託（投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第一項に規定する委託者指図型投資信託に限る。）に係る信託契約の委託者の名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-2-4-p13-kou-3
     type: kou
-    text: 施行令第二条の二第十項の規定による登載をした年月日
+    text: 三　施行令第二条の二第十項の規定による登載をした年月日
     modality: unspecified
     item_number: 3
 - number: 14
@@ -266,17 +266,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-2-4-p14-kou-1
     type: kou
-    text: 施行令第二条の二第十一項に規定する特定目的信託の受託者の名称及び本店又は主たる事務所の所在地
+    text: 一　施行令第二条の二第十一項に規定する特定目的信託の受託者の名称及び本店又は主たる事務所の所在地
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-2-4-p14-kou-2
     type: kou
-    text: 施行令第二条の二第十一項に規定する特定目的信託の信託された営業所の名称及び所在地
+    text: 二　施行令第二条の二第十一項に規定する特定目的信託の信託された営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-2-4-p14-kou-3
     type: kou
-    text: 施行令第二条の二第十一項の規定による登載をした年月日
+    text: 三　施行令第二条の二第十一項の規定による登載をした年月日
     modality: unspecified
     item_number: 3
 cases: []

@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-156-5-6-p1-kou-1
     type: kou
-    text: 認可申請者がその対象議決権を行使することにより、金融商品取引清算機関の業務の健全かつ適切な運営を損なうおそれがないこと。
+    text: 一　認可申請者がその対象議決権を行使することにより、金融商品取引清算機関の業務の健全かつ適切な運営を損なうおそれがないこと。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-5-6-p1-kou-2
     type: kou
-    text: 認可申請者が金融商品取引清算機関の業務の公共性に関し十分な理解を有すること。
+    text: 二　認可申請者が金融商品取引清算機関の業務の公共性に関し十分な理解を有すること。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-5-6-p1-kou-3
     type: kou
-    text: 認可申請者が十分な社会的信用を有する者であること。
+    text: 三　認可申請者が十分な社会的信用を有する者であること。
     modality: unspecified
     item_number: 3
 - number: 2

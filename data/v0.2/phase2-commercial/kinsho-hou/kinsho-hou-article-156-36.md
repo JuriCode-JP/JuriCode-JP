@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-156-36-p1-kou-1
     type: kou
-    text: 証券金融会社の業務（第百五十六条の二十四第一項に規定する業務に限る。）の廃止又は解散の決議
+    text: 一　証券金融会社の業務（第百五十六条の二十四第一項に規定する業務に限る。）の廃止又は解散の決議
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-36-p1-kou-2
     type: kou
-    text: 証券金融会社を当事者とする合併、分割又は事業の全部若しくは一部の譲渡若しくは譲受け
+    text: 二　証券金融会社を当事者とする合併、分割又は事業の全部若しくは一部の譲渡若しくは譲受け
     modality: unspecified
     item_number: 2
 cases: []

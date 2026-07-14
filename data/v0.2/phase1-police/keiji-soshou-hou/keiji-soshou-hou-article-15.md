@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-15-p1-kou-1
     type: kou
-    text: 裁判所の管轄区域が明らかでないため管轄裁判所が定まらないとき。
+    text: 一　裁判所の管轄区域が明らかでないため管轄裁判所が定まらないとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-15-p1-kou-2
     type: kou
-    text: 管轄違を言い渡した裁判が確定した事件について他に管轄裁判所がないとき。
+    text: 二　管轄違を言い渡した裁判が確定した事件について他に管轄裁判所がないとき。
     modality: unspecified
     item_number: 2
 cases: []

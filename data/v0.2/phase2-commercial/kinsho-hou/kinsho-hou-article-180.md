@@ -35,8 +35,8 @@ paragraphs:
     text: 内閣総理大臣は、各審判事件について、前項本文の合議体を構成する審判官又は同項ただし書の一人の審判官を指定しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

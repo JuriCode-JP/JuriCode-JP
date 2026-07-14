@@ -31,8 +31,8 @@ paragraphs:
     text: 法人の代表者又は代理人、使用人その他の従業者がその法人の業務に関して前項の違反行為をした場合には、その行為者を罰するほか、その法人に対し、同項の罰金刑を科する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

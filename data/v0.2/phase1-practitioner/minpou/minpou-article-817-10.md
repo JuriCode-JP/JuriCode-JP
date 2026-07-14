@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-817-10-p1-kou-1
     type: kou
-    text: 養親による虐待、悪意の遺棄その他養子の利益を著しく害する事由があること。
+    text: 一　養親による虐待、悪意の遺棄その他養子の利益を著しく害する事由があること。
     modality: unspecified
     item_number: 1
   - id: minpou-art-817-10-p1-kou-2
     type: kou
-    text: 実父母が相当の監護をすることができること。
+    text: 二　実父母が相当の監護をすることができること。
     modality: unspecified
     item_number: 2
 - number: 2

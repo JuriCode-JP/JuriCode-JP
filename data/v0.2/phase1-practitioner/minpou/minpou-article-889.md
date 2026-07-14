@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-889-p1-kou-1
     type: kou
-    text: 被相続人の直系尊属。ただし、親等の異なる者の間では、その近い者を先にする。
+    text: 一　被相続人の直系尊属。ただし、親等の異なる者の間では、その近い者を先にする。
     modality: unspecified
     item_number: 1
   - id: minpou-art-889-p1-kou-2
     type: kou
-    text: 被相続人の兄弟姉妹
+    text: 二　被相続人の兄弟姉妹
     modality: unspecified
     item_number: 2
 - number: 2

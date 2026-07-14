@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-20-p1-kou-1
     type: kou
-    text: 時事に関する事項を掲載する日刊新聞紙（産業及び経済に関する事項を掲載する日刊新聞紙を含む。）の販売を業とする新聞社
+    text: 一　時事に関する事項を掲載する日刊新聞紙（産業及び経済に関する事項を掲載する日刊新聞紙を含む。）の販売を業とする新聞社
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-20-p1-kou-2
     type: kou
-    text: 前号に掲げる新聞社に時事に関する事項を総合して伝達することを業とする通信社
+    text: 二　前号に掲げる新聞社に時事に関する事項を総合して伝達することを業とする通信社
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-20-p1-kou-3
     type: kou
-    text: 日本放送協会及び基幹放送事業者（放送法（昭和二十五年法律第百三十二号）第二条第二十三号に規定する基幹放送事業者をいい、日本放送協会及び放送大学学園（放送大学学園法（平成十四年法律第百五十六号）第三条に規定する放送大学学園をいう。）を除く。）
+    text: 三　日本放送協会及び基幹放送事業者（放送法（昭和二十五年法律第百三十二号）第二条第二十三号に規定する基幹放送事業者をいい、日本放送協会及び放送大学学園（放送大学学園法（平成十四年法律第百五十六号）第三条に規定する放送大学学園をいう。）を除く。）
     modality: unspecified
     item_number: 3
 cases: []

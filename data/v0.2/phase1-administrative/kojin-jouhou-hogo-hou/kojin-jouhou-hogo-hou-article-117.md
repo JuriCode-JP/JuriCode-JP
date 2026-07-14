@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: kojin-jouhou-hogo-hou-art-117-p1-kou-1
     type: kou
-    text: 行政機関等匿名加工情報の概要として個人情報保護委員会規則で定める事項
+    text: 一　行政機関等匿名加工情報の概要として個人情報保護委員会規則で定める事項
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-117-p1-kou-2
     type: kou
-    text: 次条第一項の提案を受ける組織の名称及び所在地
+    text: 二　次条第一項の提案を受ける組織の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-117-p1-kou-3
     type: kou
-    text: 次条第一項の提案をすることができる期間
+    text: 三　次条第一項の提案をすることができる期間
     modality: unspecified
     item_number: 3
 cases: []

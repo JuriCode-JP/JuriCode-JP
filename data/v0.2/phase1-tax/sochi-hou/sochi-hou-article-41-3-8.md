@@ -38,22 +38,22 @@ paragraphs:
     - 前項
   - id: sochi-hou-art-41-3-8-p2-kou-1
     type: kou
-    text: 所得税法第百九十五条の二第三項に規定する給与所得者の配偶者控除等申告書に記載された控除対象配偶者（同法第二条第一項第三十三号の二に規定する控除対象配偶者をいい、居住者に限る。）
+    text: 一　所得税法第百九十五条の二第三項に規定する給与所得者の配偶者控除等申告書に記載された控除対象配偶者（同法第二条第一項第三十三号の二に規定する控除対象配偶者をいい、居住者に限る。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-41-3-8-p2-kou-2
     type: kou
-    text: 給与所得者の扶養控除等申告書に記載された控除対象扶養親族
+    text: 二　給与所得者の扶養控除等申告書に記載された控除対象扶養親族
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-41-3-8-p2-kou-3
     type: kou
-    text: 第四項に規定する申告書に記載された同一生計配偶者（第一号に掲げる者を除く。）
+    text: 三　第四項に規定する申告書に記載された同一生計配偶者（第一号に掲げる者を除く。）
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-41-3-8-p2-kou-4
     type: kou
-    text: 第四項に規定する申告書に記載された扶養親族（第二号に掲げる者を除く。）
+    text: 四　第四項に規定する申告書に記載された扶養親族（第二号に掲げる者を除く。）
     modality: unspecified
     item_number: 4
 - number: 3
@@ -126,8 +126,8 @@ paragraphs:
     text: 前項本文の場合には、同項の地方税法の規定に基づく給与所得者の扶養親族等申告書に記載された事項のうち第四項に規定する事項に相当するものは、同項に規定する申告書に記載されたものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 9
   has_proviso: false
   has_items: false

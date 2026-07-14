@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kinsho-hou-shikkourei-art-26-5-p1-kou-1
     type: kou
-    text: 自己の計算による空売り　当該空売りを行つた指定有価証券に係る自己の残高情報（空売りの残高に関する情報として内閣府令で定める情報をいう。以下この条において同じ。）
+    text: 一　自己の計算による空売り　当該空売りを行つた指定有価証券に係る自己の残高情報（空売りの残高に関する情報として内閣府令で定める情報をいう。以下この条において同じ。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-26-5-p1-kou-2
     type: kou
-    text: 顧客の委託を受けて行う空売り　当該空売りを行つた指定有価証券に係る当該顧客の残高情報
+    text: 二　顧客の委託を受けて行う空売り　当該空売りを行つた指定有価証券に係る当該顧客の残高情報
     modality: unspecified
     item_number: 2
 - number: 2

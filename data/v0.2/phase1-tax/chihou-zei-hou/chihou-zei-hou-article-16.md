@@ -23,32 +23,32 @@ paragraphs:
     modality: jogai
   - id: chihou-zei-hou-art-16-p1-kou-1
     type: kou
-    text: 国債及び地方債
+    text: 一　国債及び地方債
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-16-p1-kou-2
     type: kou
-    text: 地方団体の長が確実と認める社債（特別の法律により設立された法人が発行する債券を含む。）その他の有価証券
+    text: 二　地方団体の長が確実と認める社債（特別の法律により設立された法人が発行する債券を含む。）その他の有価証券
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-16-p1-kou-3
     type: kou
-    text: 土地
+    text: 三　土地
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-16-p1-kou-4
     type: kou
-    text: 保険に付した建物、立木、船舶、航空機、自動車及び建設機械
+    text: 四　保険に付した建物、立木、船舶、航空機、自動車及び建設機械
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-16-p1-kou-5
     type: kou
-    text: 鉄道財団、工場財団、鉱業財団、軌道財団、運河財団、漁業財団、港湾運送事業財団、道路交通事業財団及び観光施設財団
+    text: 五　鉄道財団、工場財団、鉱業財団、軌道財団、運河財団、漁業財団、港湾運送事業財団、道路交通事業財団及び観光施設財団
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-16-p1-kou-6
     type: kou
-    text: 地方団体の長が確実と認める保証人の保証
+    text: 六　地方団体の長が確実と認める保証人の保証
     modality: unspecified
     item_number: 6
 - number: 2

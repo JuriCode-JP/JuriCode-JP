@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-195-2-p1-kou-1
     type: kou
-    text: 当該給与等の支払者の氏名又は名称
+    text: 一　当該給与等の支払者の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-195-2-p1-kou-2
     type: kou
-    text: その居住者のその年の第二条第一項第三十号（定義）に規定する合計所得金額（次号、次条第一項第二号及び第百九十五条の四第一項第二号（給与所得者の基礎控除申告書）において「合計所得金額」という。）の見積額
+    text: 二　その居住者のその年の第二条第一項第三十号（定義）に規定する合計所得金額（次号、次条第一項第二号及び第百九十五条の四第一項第二号（給与所得者の基礎控除申告書）において「合計所得金額」という。）の見積額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-195-2-p1-kou-3
     type: kou
-    text: 控除対象配偶者又は第八十三条の二第一項（配偶者特別控除）に規定する生計を一にする配偶者の氏名及び個人番号（個人番号を有しない者にあつては、氏名）並びにその者のその年の合計所得金額又はその見積額並びにその者が老人控除対象配偶者又は非居住者である場合にはその旨
+    text: 三　控除対象配偶者又は第八十三条の二第一項（配偶者特別控除）に規定する生計を一にする配偶者の氏名及び個人番号（個人番号を有しない者にあつては、氏名）並びにその者のその年の合計所得金額又はその見積額並びにその者が老人控除対象配偶者又は非居住者である場合にはその旨
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-art-195-2-p1-kou-4
     type: kou
-    text: その他財務省令で定める事項
+    text: 四　その他財務省令で定める事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項の規定による申告書に控除対象配偶者又は同項第三号に規定する配偶者が非居住者である旨の記載をした居住者は、政令で定めるところにより、当該記載がされた者が当該居住者の配偶者に該当する旨を証する書類及び当該記載がされた者が当該居住者と生計を一にすることを明らかにする書類を提出し、又は提示しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -38,8 +38,8 @@ paragraphs:
     text: 前項に規定する公安委員会は、同項後段の規定により特例更新申請書を提出しようとする者に対し、その者が第百三条第一項第一号、第一号の二又は第三号のいずれかに該当するかどうかの判断に必要な質問をするため、内閣府令で定める様式の質問票を交付することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -83,6 +83,10 @@ paragraphs:
   - id: douro-koutsuu-hou-art-101-2-p6
     type: simple
     text: 前各項に定めるもののほか、更新期間前における免許証等の更新の申請及び適性検査について必要な事項は、内閣府令で定める。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-101-2-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十七条の四第一項第三号）
     modality: unspecified
 cases: []
 amendments: []

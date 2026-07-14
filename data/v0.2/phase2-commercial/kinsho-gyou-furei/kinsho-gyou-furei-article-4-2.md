@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-4-2-p1-kou-1
     type: kou
-    text: 新株予約権付社債券
+    text: 一　新株予約権付社債券
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-4-2-p1-kou-2
     type: kou
-    text: 外国の者の発行する証券又は証書で新株予約権証券又は新株予約権付社債券の性質を有するもの
+    text: 二　外国の者の発行する証券又は証書で新株予約権証券又は新株予約権付社債券の性質を有するもの
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-4-2-p1-kou-3
     type: kou
-    text: 新投資口予約権証券（投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十八項に規定する新投資口予約権証券をいう。以下同じ。）
+    text: 三　新投資口予約権証券（投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十八項に規定する新投資口予約権証券をいう。以下同じ。）
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-4-2-p1-kou-4
     type: kou
-    text: 外国投資証券（投資信託及び投資法人に関する法律第二百二十条第一項に規定する外国投資証券をいう。以下同じ。）で新投資口予約権証券に類する証券
+    text: 四　外国投資証券（投資信託及び投資法人に関する法律第二百二十条第一項に規定する外国投資証券をいう。以下同じ。）で新投資口予約権証券に類する証券
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,17 +52,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-4-2-p2-kou-1
     type: kou
-    text: 外国の者に対する権利で新株予約権の性質を有するもの
+    text: 一　外国の者に対する権利で新株予約権の性質を有するもの
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-4-2-p2-kou-2
     type: kou
-    text: 新投資口予約権（投資信託及び投資法人に関する法律第二条第十七項に規定する新投資口予約権をいう。以下同じ。）
+    text: 二　新投資口予約権（投資信託及び投資法人に関する法律第二条第十七項に規定する新投資口予約権をいう。以下同じ。）
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-4-2-p2-kou-3
     type: kou
-    text: 外国投資法人（投資信託及び投資法人に関する法律第二条第二十五項に規定する外国投資法人をいう。）に対する権利で新投資口予約権の性質を有するもの
+    text: 三　外国投資法人（投資信託及び投資法人に関する法律第二条第二十五項に規定する外国投資法人をいう。）に対する権利で新投資口予約権の性質を有するもの
     modality: unspecified
     item_number: 3
 cases: []

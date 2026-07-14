@@ -31,8 +31,8 @@ paragraphs:
     text: 薬局開設者は、前項の規定により報告した事項について変更が生じたときは、厚生労働省令で定めるところにより、速やかに、当該薬局の所在地の都道府県知事に報告するとともに、同項に規定する書面の記載を変更しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

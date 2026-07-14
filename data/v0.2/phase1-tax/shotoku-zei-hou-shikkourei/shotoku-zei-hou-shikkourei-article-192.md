@@ -66,12 +66,12 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikkourei-art-192-p5-kou-1
     type: kou
-    text: 当該適用開始年以後のいずれかの年において第三項に規定する工事進行基準の方法により経理した場合　その経理した年
+    text: 一　当該適用開始年以後のいずれかの年において第三項に規定する工事進行基準の方法により経理した場合　その経理した年
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-192-p5-kou-2
     type: kou
-    text: 当該適用開始年以後のいずれかの年において本文の規定の適用を受けなかつた場合　その適用を受けなかつた年
+    text: 二　当該適用開始年以後のいずれかの年において本文の規定の適用を受けなかつた場合　その適用を受けなかつた年
     modality: unspecified
     item_number: 2
 - number: 6

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-548-p1-kou-1
     type: kou
-    text: 債権者集会の日時及び場所
+    text: 一　債権者集会の日時及び場所
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-548-p1-kou-2
     type: kou
-    text: 債権者集会の目的である事項
+    text: 二　債権者集会の目的である事項
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-548-p1-kou-3
     type: kou
-    text: 債権者集会に出席しない協定債権者が電磁的方法によって議決権を行使することができることとするときは、その旨
+    text: 三　債権者集会に出席しない協定債権者が電磁的方法によって議決権を行使することができることとするときは、その旨
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-548-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、法務省令で定める事項
+    text: 四　前三号に掲げるもののほか、法務省令で定める事項
     modality: unspecified
     item_number: 4
 - number: 2

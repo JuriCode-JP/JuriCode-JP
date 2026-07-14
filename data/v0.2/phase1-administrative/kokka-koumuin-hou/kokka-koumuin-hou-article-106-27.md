@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kokka-koumuin-hou-art-106-27-p1-kou-1
     type: kou
-    text: その者の氏名
+    text: 一　その者の氏名
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-106-27-p1-kou-2
     type: kou
-    text: 在職機関が当該営利企業等に対して交付した補助金等（補助金等に係る予算の執行の適正化に関する法律（昭和三十年法律第百七十九号）第二条第一項に規定する補助金等をいう。）の総額
+    text: 二　在職機関が当該営利企業等に対して交付した補助金等（補助金等に係る予算の執行の適正化に関する法律（昭和三十年法律第百七十九号）第二条第一項に規定する補助金等をいう。）の総額
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-106-27-p1-kou-3
     type: kou
-    text: 在職機関と当該営利企業等との間の売買、貸借、請負その他の契約の総額
+    text: 三　在職機関と当該営利企業等との間の売買、貸借、請負その他の契約の総額
     modality: unspecified
     item_number: 3
   - id: kokka-koumuin-hou-art-106-27-p1-kou-4
     type: kou
-    text: その他政令で定める事項
+    text: 四　その他政令で定める事項
     modality: unspecified
     item_number: 4
 cases: []

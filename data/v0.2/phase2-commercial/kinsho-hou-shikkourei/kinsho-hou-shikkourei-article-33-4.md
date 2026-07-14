@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-33-4-p1-kou-1
     type: kou
-    text: 特定株券等の売付けその他の有償の譲渡
+    text: 一　特定株券等の売付けその他の有償の譲渡
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-33-4-p1-kou-2
     type: kou
-    text: 合併又は分割により特定株券等を承継させること。
+    text: 二　合併又は分割により特定株券等を承継させること。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-33-4-p1-kou-3
     type: kou
-    text: 関連株券等の売付けその他の有償の譲渡（特定株券等の売買に係るオプションを表示する関連株券等については、当該オプションの行使により当該行使をした者が当該売買において買主としての地位を取得するものに限る。）
+    text: 三　関連株券等の売付けその他の有償の譲渡（特定株券等の売買に係るオプションを表示する関連株券等については、当該オプションの行使により当該行使をした者が当該売買において買主としての地位を取得するものに限る。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-33-4-p1-kou-4
     type: kou
-    text: 合併又は分割により関連株券等を承継させること（特定株券等の売買に係るオプションを表示する関連株券等については、当該オプションの行使により当該行使をした者が当該売買において買主としての地位を取得するものに限る。）。
+    text: 四　合併又は分割により関連株券等を承継させること（特定株券等の売買に係るオプションを表示する関連株券等については、当該オプションの行使により当該行使をした者が当該売買において買主としての地位を取得するものに限る。）。
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-33-4-p1-kou-5
     type: kou
-    text: 特定株券等の売買に係るオプションを表示する関連株券等の買付けその他の有償の譲受けであつて当該オプションの行使により当該行使をした者が当該売買において売主としての地位を取得するもの
+    text: 五　特定株券等の売買に係るオプションを表示する関連株券等の買付けその他の有償の譲受けであつて当該オプションの行使により当該行使をした者が当該売買において売主としての地位を取得するもの
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-33-4-p1-kou-6
     type: kou
-    text: 合併又は分割により特定株券等の売買に係るオプションを表示する関連株券等を承継することであつて当該オプションの行使により当該行使をした者が当該売買において売主としての地位を取得するもの
+    text: 六　合併又は分割により特定株券等の売買に係るオプションを表示する関連株券等を承継することであつて当該オプションの行使により当該行使をした者が当該売買において売主としての地位を取得するもの
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-33-4-p1-kou-7
     type: kou
-    text: その他前各号に掲げる取引に準ずるものとして内閣府令で定めるもの
+    text: 七　その他前各号に掲げる取引に準ずるものとして内閣府令で定めるもの
     modality: unspecified
     item_number: 7
 cases: []

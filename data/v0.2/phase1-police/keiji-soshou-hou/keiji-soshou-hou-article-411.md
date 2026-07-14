@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-411-p1-kou-1
     type: kou
-    text: 判決に影響を及ぼすべき法令の違反があること。
+    text: 一　判決に影響を及ぼすべき法令の違反があること。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-411-p1-kou-2
     type: kou
-    text: 刑の量定が甚しく不当であること。
+    text: 二　刑の量定が甚しく不当であること。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-411-p1-kou-3
     type: kou
-    text: 判決に影響を及ぼすべき重大な事実の誤認があること。
+    text: 三　判決に影響を及ぼすべき重大な事実の誤認があること。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-411-p1-kou-4
     type: kou
-    text: 再審の請求をすることができる場合にあたる事由があること。
+    text: 四　再審の請求をすることができる場合にあたる事由があること。
     modality: unspecified
     item_number: 4
   - id: keiji-soshou-hou-art-411-p1-kou-5
     type: kou
-    text: 判決があつた後に刑の廃止若しくは変更又は大赦があつたこと。
+    text: 五　判決があつた後に刑の廃止若しくは変更又は大赦があつたこと。
     modality: unspecified
     item_number: 5
 cases: []

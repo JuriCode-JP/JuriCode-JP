@@ -33,8 +33,8 @@ paragraphs:
     text: 前項に規定する書類（以下この条において「縦覧書類」という。）を提出した者（以下この条において「提出者」という。）は、内閣総理大臣が同項の規定により当該縦覧書類を公衆の縦覧に供している間は、当該縦覧書類の写しを、内閣府令で定めるところにより、その者の本店又は主たる事務所に備え置き、公衆の縦覧に供しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -71,12 +71,12 @@ paragraphs:
     - 第一項
   - id: kinsho-hou-art-27-14-p5-kou-1
     type: kou
-    text: 第二十七条の八第三項又は第四項の規定による訂正届出書の提出命令
+    text: 一　第二十七条の八第三項又は第四項の規定による訂正届出書の提出命令
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-27-14-p5-kou-2
     type: kou
-    text: 第二十七条の十第八項若しくは第十二項又は前条第三項において準用する第二十七条の八第三項又は第四項の規定による訂正報告書の提出命令
+    text: 二　第二十七条の十第八項若しくは第十二項又は前条第三項において準用する第二十七条の八第三項又は第四項の規定による訂正報告書の提出命令
     modality: unspecified
     item_number: 2
 - number: 6
@@ -89,8 +89,8 @@ paragraphs:
     text: 前項の場合において、内閣総理大臣は、第二項の規定により当該縦覧書類の写しを公衆の縦覧に供する提出者及び第三項の規定により当該縦覧書類の写しを公衆の縦覧に供する金融商品取引所又は同項の政令で定める認可金融商品取引業協会に対し、当該縦覧書類の全部又は一部を公衆の縦覧に供しないこととした旨を通知するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

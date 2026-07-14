@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: keiji-soshou-hou-art-301-2-p1-kou-1
     type: kou
-    text: 死刑又は無期拘禁刑に当たる罪に係る事件
+    text: 一　死刑又は無期拘禁刑に当たる罪に係る事件
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-301-2-p1-kou-2
     type: kou
-    text: 短期一年以上の拘禁刑に当たる罪であつて故意の犯罪行為により被害者を死亡させたものに係る事件
+    text: 二　短期一年以上の拘禁刑に当たる罪であつて故意の犯罪行為により被害者を死亡させたものに係る事件
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-301-2-p1-kou-3
     type: kou
-    text: 司法警察員が送致し又は送付した事件以外の事件（前二号に掲げるものを除く。）
+    text: 三　司法警察員が送致し又は送付した事件以外の事件（前二号に掲げるものを除く。）
     modality: unspecified
     item_number: 3
 - number: 2
@@ -48,8 +48,8 @@ paragraphs:
     text: 検察官が前項の規定に違反して同項に規定する記録媒体の取調べを請求しないときは、裁判所は、決定で、同項に規定する書面の取調べの請求を却下しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -74,22 +74,22 @@ paragraphs:
     - 同項
   - id: keiji-soshou-hou-art-301-2-p4-kou-1
     type: kou
-    text: 記録に必要な機器の故障その他のやむを得ない事情により、記録をすることができないとき。
+    text: 一　記録に必要な機器の故障その他のやむを得ない事情により、記録をすることができないとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-301-2-p4-kou-2
     type: kou
-    text: 被疑者が記録を拒んだことその他の被疑者の言動により、記録をしたならば被疑者が十分な供述をすることができないと認めるとき。
+    text: 二　被疑者が記録を拒んだことその他の被疑者の言動により、記録をしたならば被疑者が十分な供述をすることができないと認めるとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-301-2-p4-kou-3
     type: kou
-    text: 当該事件が暴力団員による不当な行為の防止等に関する法律（平成三年法律第七十七号）第三条の規定により都道府県公安委員会の指定を受けた暴力団の構成員による犯罪に係るものであると認めるとき。
+    text: 三　当該事件が暴力団員による不当な行為の防止等に関する法律（平成三年法律第七十七号）第三条の規定により都道府県公安委員会の指定を受けた暴力団の構成員による犯罪に係るものであると認めるとき。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-301-2-p4-kou-4
     type: kou
-    text: 前二号に掲げるもののほか、犯罪の性質、関係者の言動、被疑者がその構成員である団体の性格その他の事情に照らし、被疑者の供述及びその状況が明らかにされた場合には被疑者若しくはその親族の身体若しくは財産に害を加え又はこれらの者を畏怖させ若しくは困惑させる行為がなされるおそれがあることにより、記録をしたならば被疑者が十分な供述をすることができないと認めるとき。
+    text: 四　前二号に掲げるもののほか、犯罪の性質、関係者の言動、被疑者がその構成員である団体の性格その他の事情に照らし、被疑者の供述及びその状況が明らかにされた場合には被疑者若しくはその親族の身体若しくは財産に害を加え又はこれらの者を畏怖させ若しくは困惑させる行為がなされるおそれがあることにより、記録をしたならば被疑者が十分な供述をすることができないと認めるとき。
     modality: unspecified
     item_number: 4
 cases: []

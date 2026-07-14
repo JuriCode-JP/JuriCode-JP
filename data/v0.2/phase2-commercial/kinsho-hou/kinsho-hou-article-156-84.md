@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-156-84-p1-kou-1
     type: kou
-    text: 前条第一項の規定により第百五十六条の六十七第一項の規定による指定を取り消し、又はその業務（取引情報蓄積業務に限る。）の全部若しくは一部の停止を命ずるとき。
+    text: 一　前条第一項の規定により第百五十六条の六十七第一項の規定による指定を取り消し、又はその業務（取引情報蓄積業務に限る。）の全部若しくは一部の停止を命ずるとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-84-p1-kou-2
     type: kou
-    text: 第百五十六条の八十二第一項の認可をするとき。
+    text: 二　第百五十六条の八十二第一項の認可をするとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-84-p1-kou-3
     type: kou
-    text: 弁済期にある債務の弁済が取引情報蓄積業務の継続に著しい支障を来すこととなる事態又は破産手続開始の原因となる事実が生ずるおそれがあると認められるとき。
+    text: 三　弁済期にある債務の弁済が取引情報蓄積業務の継続に著しい支障を来すこととなる事態又は破産手続開始の原因となる事実が生ずるおそれがあると認められるとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-84-p1-kou-4
     type: kou
-    text: 取引情報蓄積機関が天災その他の事由により取引情報蓄積業務の全部又は一部を実施することが困難となつたとき。
+    text: 四　取引情報蓄積機関が天災その他の事由により取引情報蓄積業務の全部又は一部を実施することが困難となつたとき。
     modality: unspecified
     item_number: 4
 - number: 2

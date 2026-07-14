@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-101-p1-kou-1
     type: kou
-    text: 株式の種類の追加
+    text: 一　株式の種類の追加
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-101-p1-kou-2
     type: kou
-    text: 株式の内容の変更
+    text: 二　株式の内容の変更
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-101-p1-kou-3
     type: kou
-    text: 発行可能株式総数又は発行可能種類株式総数（株式会社が発行することができる一の種類の株式の総数をいう。以下同じ。）の増加
+    text: 三　発行可能株式総数又は発行可能種類株式総数（株式会社が発行することができる一の種類の株式の総数をいう。以下同じ。）の増加
     modality: unspecified
     item_number: 3
 - number: 2

@@ -23,18 +23,18 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-16-6-p1-kou-1
     type: kou
-    text: '有価証券の売買（次に掲げるものを除く。）
+    text: '一　有価証券の売買（次に掲げるものを除く。）
 
-      イ 上場株券等（金融商品取引所に上場されている株券、新株予約権付社債券その他の有価証券で内閣府令で定めるものをいう。第三項において同じ。）の売買（デリバティブ取引に該当するものを除く。以下この号及び第三項において同じ。）
+      イ　上場株券等（金融商品取引所に上場されている株券、新株予約権付社債券その他の有価証券で内閣府令で定めるものをいう。第三項において同じ。）の売買（デリバティブ取引に該当するものを除く。以下この号及び第三項において同じ。）
 
-      ロ 店頭売買有価証券の売買
+      ロ　店頭売買有価証券の売買
 
-      ハ 取扱有価証券の売買'
+      ハ　取扱有価証券の売買'
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-16-6-p1-kou-2
     type: kou
-    text: デリバティブ取引
+    text: 二　デリバティブ取引
     modality: unspecified
     item_number: 2
 - number: 2

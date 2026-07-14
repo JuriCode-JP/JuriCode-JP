@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-11-p1-kou-1
     type: kou
-    text: 非課税貯蓄相続申込書を提出する相続人の氏名、生年月日及び住所並びに障害者等に該当する事実
+    text: 一　非課税貯蓄相続申込書を提出する相続人の氏名、生年月日及び住所並びに障害者等に該当する事実
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-11-p1-kou-2
     type: kou
-    text: 被相続人の氏名及び死亡の時における住所
+    text: 二　被相続人の氏名及び死亡の時における住所
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-11-p1-kou-3
     type: kou
-    text: 当該金融機関の営業所等において預入等をした被相続人に係る預貯金等で法第十条第一項（障害者等の少額預金の利子所得等の非課税）の規定の適用に係るものの種別
+    text: 三　当該金融機関の営業所等において預入等をした被相続人に係る預貯金等で法第十条第一項（障害者等の少額預金の利子所得等の非課税）の規定の適用に係るものの種別
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-11-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

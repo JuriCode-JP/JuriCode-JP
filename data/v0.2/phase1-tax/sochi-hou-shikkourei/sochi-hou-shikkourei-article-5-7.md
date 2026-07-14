@@ -75,12 +75,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-5-7-p6-kou-1
     type: kou
-    text: 法第十条の六第五項に規定する対象年（次号及び第十項において「対象年」という。）の年分の基準所得金額
+    text: 一　法第十条の六第五項に規定する対象年（次号及び第十項において「対象年」という。）の年分の基準所得金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-5-7-p6-kou-2
     type: kou
-    text: 対象年の前年分の基準所得金額（当該対象年の前年において事業を開始した場合には、当該基準所得金額に十二を乗じてこれを当該対象年の前年において事業を営んでいた期間の月数で除して計算した金額）
+    text: 二　対象年の前年分の基準所得金額（当該対象年の前年において事業を開始した場合には、当該基準所得金額に十二を乗じてこれを当該対象年の前年において事業を営んでいた期間の月数で除して計算した金額）
     modality: unspecified
     item_number: 2
 - number: 7
@@ -119,12 +119,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-5-7-p9-kou-1
     type: kou
-    text: 所得税法第百六十四条第一号イに掲げる国内源泉所得　その年分の同法第百六十五条第二項に規定する恒久的施設帰属所得に係る事業所得の金額
+    text: 一　所得税法第百六十四条第一号イに掲げる国内源泉所得　その年分の同法第百六十五条第二項に規定する恒久的施設帰属所得に係る事業所得の金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-5-7-p9-kou-2
     type: kou
-    text: 所得税法第百六十四条第一号ロに掲げる国内源泉所得　その年分の同号ロに掲げる国内源泉所得に係る事業所得の金額
+    text: 二　所得税法第百六十四条第一号ロに掲げる国内源泉所得　その年分の同号ロに掲げる国内源泉所得に係る事業所得の金額
     modality: unspecified
     item_number: 2
 - number: 10

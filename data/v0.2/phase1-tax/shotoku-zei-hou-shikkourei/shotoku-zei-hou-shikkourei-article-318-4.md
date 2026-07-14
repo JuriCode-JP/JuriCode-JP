@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: shotoku-zei-hou-shikkourei-art-318-4-p1-kou-1
     type: kou
-    text: その特定親族が当該居住者の配偶者以外の親族に該当する旨を証する書類として財務省令で定めるもの
+    text: 一　その特定親族が当該居住者の配偶者以外の親族に該当する旨を証する書類として財務省令で定めるもの
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-318-4-p1-kou-2
     type: kou
-    text: その特定親族が当該居住者と生計を一にすることを明らかにする書類として財務省令で定めるもの
+    text: 二　その特定親族が当該居住者と生計を一にすることを明らかにする書類として財務省令で定めるもの
     modality: unspecified
     item_number: 2
 cases: []

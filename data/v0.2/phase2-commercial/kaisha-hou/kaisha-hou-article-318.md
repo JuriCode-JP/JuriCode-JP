@@ -58,12 +58,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-318-p4-kou-1
     type: kou
-    text: 第一項の議事録が書面をもって作成されているときは、当該書面又は当該書面の写しの閲覧又は謄写の請求
+    text: 一　第一項の議事録が書面をもって作成されているときは、当該書面又は当該書面の写しの閲覧又は謄写の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-318-p4-kou-2
     type: kou
-    text: 第一項の議事録が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    text: 二　第一項の議事録が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
     modality: unspecified
     item_number: 2
 - number: 5

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-2-p1-kou-1
     type: kou
-    text: 各事業年度の収益に係る売上原価、完成工事原価その他これらに準ずる原価の額の基因となる取引
+    text: 一　各事業年度の収益に係る売上原価、完成工事原価その他これらに準ずる原価の額の基因となる取引
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-2-p1-kou-2
     type: kou
-    text: 各事業年度の販売費又は一般管理費の額の基因となる取引
+    text: 二　各事業年度の販売費又は一般管理費の額の基因となる取引
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-2-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、法第十一条の九の株式会社、合資会社又は合同会社の事業の状況その他の事情を勘案して、その事業を遂行するために通常必要と認められる取引
+    text: 三　前二号に掲げるもののほか、法第十一条の九の株式会社、合資会社又は合同会社の事業の状況その他の事情を勘案して、その事業を遂行するために通常必要と認められる取引
     modality: unspecified
     item_number: 3
 cases: []

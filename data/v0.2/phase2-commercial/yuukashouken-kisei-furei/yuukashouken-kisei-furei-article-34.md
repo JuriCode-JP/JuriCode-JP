@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: yuukashouken-kisei-furei-art-34-p1-kou-1
     type: kou
-    text: 特定有価証券等の売付け等（売買合致数量に係るものに限る。）の価額
+    text: 一　特定有価証券等の売付け等（売買合致数量に係るものに限る。）の価額
     modality: unspecified
     item_number: 1
   - id: yuukashouken-kisei-furei-art-34-p1-kou-2
     type: kou
-    text: 特定有価証券等の買付け等（売買合致数量に係るものに限る。）の価額
+    text: 二　特定有価証券等の買付け等（売買合致数量に係るものに限る。）の価額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項に規定する計算に関して、複数の買付け等又は売付け等を行ったと認められる場合には、同項第一号の特定有価証券等の売付け等又は同項第二号の特定有価証券等の買付け等には、複数の売付け等又は買付け等のうち最も早い時期に行われたものから順次売買合致数量に達するまで割り当てるものとする（当該買付け等を行った後六月以内に当該売付け等を行ったもの又は当該売付け等を行った後六月以内に当該買付け等を行ったものに限る。）。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: yuukashouken-kisei-furei-art-34-p2-kou
     type: kou_dan
     text: この場合において、同一日において複数の買付け等又は売付け等を行ったときは、当該買付け等については最も単価が低いものから順に買付け等を行ったものとみなし、当該売付け等については最も単価が高いものから順に売付け等を行ったものとみなす。

@@ -23,21 +23,21 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-75-p1-kou-1
     type: kou
-    text: '税務署長、国税局長又は税関長がした処分（次項に規定する処分を除く。）　次に掲げる不服申立てのうちその処分に不服がある者の選択するいずれかの不服申立て
+    text: '一　税務署長、国税局長又は税関長がした処分（次項に規定する処分を除く。）　次に掲げる不服申立てのうちその処分に不服がある者の選択するいずれかの不服申立て
 
-      イ その処分をした税務署長、国税局長又は税関長に対する再調査の請求
+      イ　その処分をした税務署長、国税局長又は税関長に対する再調査の請求
 
-      ロ 国税不服審判所長に対する審査請求'
+      ロ　国税不服審判所長に対する審査請求'
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-75-p1-kou-2
     type: kou
-    text: 国税庁長官がした処分　国税庁長官に対する審査請求
+    text: 二　国税庁長官がした処分　国税庁長官に対する審査請求
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-75-p1-kou-3
     type: kou
-    text: 国税庁、国税局、税務署及び税関以外の行政機関の長又はその職員がした処分　国税不服審判所長に対する審査請求
+    text: 三　国税庁、国税局、税務署及び税関以外の行政機関の長又はその職員がした処分　国税不服審判所長に対する審査請求
     modality: unspecified
     item_number: 3
 - number: 2
@@ -51,12 +51,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-75-p2-kou-1
     type: kou
-    text: 国税局の当該職員　その処分をした税務署長の管轄区域を所轄する国税局長
+    text: 一　国税局の当該職員　その処分をした税務署長の管轄区域を所轄する国税局長
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-75-p2-kou-2
     type: kou
-    text: 国税庁の当該職員　国税庁長官
+    text: 二　国税庁の当該職員　国税庁長官
     modality: unspecified
     item_number: 2
 - number: 3
@@ -82,12 +82,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-75-p4-kou-1
     type: kou
-    text: 再調査の請求をした日（第八十一条第三項（再調査の請求書の記載事項等）の規定により不備を補正すべきことを求められた場合にあつては、当該不備を補正した日）の翌日から起算して三月を経過しても当該再調査の請求についての決定がない場合
+    text: 一　再調査の請求をした日（第八十一条第三項（再調査の請求書の記載事項等）の規定により不備を補正すべきことを求められた場合にあつては、当該不備を補正した日）の翌日から起算して三月を経過しても当該再調査の請求についての決定がない場合
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-75-p4-kou-2
     type: kou
-    text: その他再調査の請求についての決定を経ないことにつき正当な理由がある場合
+    text: 二　その他再調査の請求についての決定を経ないことにつき正当な理由がある場合
     modality: unspecified
     item_number: 2
 - number: 5

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-51-p1-kou-1
     type: kou
-    text: 消費税法第二条第一項第十一号（定義）に規定する課税貨物に課される消費税
+    text: 一　消費税法第二条第一項第十一号（定義）に規定する課税貨物に課される消費税
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-51-p1-kou-2
     type: kou
-    text: 酒税
+    text: 二　酒税
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-51-p1-kou-3
     type: kou
-    text: 石油ガス税
+    text: 三　石油ガス税
     modality: unspecified
     item_number: 3
 cases: []

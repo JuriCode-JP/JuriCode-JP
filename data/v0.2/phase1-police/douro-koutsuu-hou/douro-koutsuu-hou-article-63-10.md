@@ -34,6 +34,10 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-63-10-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十条第一項第八号　第二項については第百二十条第一項第九号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-697-p1-kou-1
     type: kou
-    text: 社債発行会社の商号
+    text: 一　社債発行会社の商号
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-697-p1-kou-2
     type: kou
-    text: 当該社債券に係る社債の金額
+    text: 二　当該社債券に係る社債の金額
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-697-p1-kou-3
     type: kou
-    text: 当該社債券に係る社債の種類
+    text: 三　当該社債券に係る社債の種類
     modality: unspecified
     item_number: 3
 - number: 2

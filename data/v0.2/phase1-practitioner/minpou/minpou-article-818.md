@@ -41,12 +41,12 @@ paragraphs:
     modality: gimu
   - id: minpou-art-818-p3-kou-1
     type: kou
-    text: 養親（当該子を養子とする縁組が二以上あるときは、直近の縁組により養親となった者に限る。）
+    text: 一　養親（当該子を養子とする縁組が二以上あるときは、直近の縁組により養親となった者に限る。）
     modality: unspecified
     item_number: 1
   - id: minpou-art-818-p3-kou-2
     type: kou
-    text: 子の父母であって、前号に掲げる養親の配偶者であるもの
+    text: 二　子の父母であって、前号に掲げる養親の配偶者であるもの
     modality: unspecified
     item_number: 2
 cases: []

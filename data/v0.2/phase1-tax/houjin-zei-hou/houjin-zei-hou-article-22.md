@@ -41,17 +41,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-art-22-p3-kou-1
     type: kou
-    text: 当該事業年度の収益に係る売上原価、完成工事原価その他これらに準ずる原価の額
+    text: 一　当該事業年度の収益に係る売上原価、完成工事原価その他これらに準ずる原価の額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-22-p3-kou-2
     type: kou
-    text: 前号に掲げるもののほか、当該事業年度の販売費、一般管理費その他の費用（償却費以外の費用で当該事業年度終了の日までに債務の確定しないものを除く。）の額
+    text: 二　前号に掲げるもののほか、当該事業年度の販売費、一般管理費その他の費用（償却費以外の費用で当該事業年度終了の日までに債務の確定しないものを除く。）の額
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-22-p3-kou-3
     type: kou
-    text: 当該事業年度の損失の額で資本等取引以外の取引に係るもの
+    text: 三　当該事業年度の損失の額で資本等取引以外の取引に係るもの
     modality: unspecified
     item_number: 3
 - number: 4

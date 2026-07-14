@@ -41,6 +41,10 @@ paragraphs:
     modality: unspecified
     references:
     - 前二項
+  - id: douro-koutsuu-hou-art-25-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第二項については第百二十一条第一項第八号　第三項については第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

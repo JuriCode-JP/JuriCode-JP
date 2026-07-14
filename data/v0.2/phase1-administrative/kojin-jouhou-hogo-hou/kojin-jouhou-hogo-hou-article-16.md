@@ -23,12 +23,12 @@ paragraphs:
     modality: teigi
   - id: kojin-jouhou-hogo-hou-art-16-p1-kou-1
     type: kou
-    text: 特定の個人情報を電子計算機を用いて検索することができるように体系的に構成したもの
+    text: 一　特定の個人情報を電子計算機を用いて検索することができるように体系的に構成したもの
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-16-p1-kou-2
     type: kou
-    text: 前号に掲げるもののほか、特定の個人情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの
+    text: 二　前号に掲げるもののほか、特定の個人情報を容易に検索することができるように体系的に構成したものとして政令で定めるもの
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,22 +42,22 @@ paragraphs:
     modality: unspecified
   - id: kojin-jouhou-hogo-hou-art-16-p2-kou-1
     type: kou
-    text: 国の機関
+    text: 一　国の機関
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-16-p2-kou-2
     type: kou
-    text: 地方公共団体
+    text: 二　地方公共団体
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-16-p2-kou-3
     type: kou
-    text: 独立行政法人等
+    text: 三　独立行政法人等
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-16-p2-kou-4
     type: kou
-    text: 地方独立行政法人
+    text: 四　地方独立行政法人
     modality: unspecified
     item_number: 4
 - number: 3

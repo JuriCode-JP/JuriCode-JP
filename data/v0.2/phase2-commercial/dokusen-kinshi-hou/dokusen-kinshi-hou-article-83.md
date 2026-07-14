@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の場合において、裁判所書記官は、同項の請求があつた日から二週間を経過する日までの間（その請求の手続を行つた者に対する秘密保持命令の申立てがその日までにされた場合にあつては、その申立てについての裁判が確定するまでの間）、その請求の手続を行つた者に同項の秘密記載部分の閲覧等をさせてはならない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -45,8 +45,8 @@ paragraphs:
     text: 前二項の規定は、第一項の請求をした者に同項の秘密記載部分の閲覧等をさせることについて民事訴訟法第九十二条第一項の申立てをした当事者のすべての同意があるときは、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前二項
+    - 同項
 cases: []
 amendments: []
 tags:

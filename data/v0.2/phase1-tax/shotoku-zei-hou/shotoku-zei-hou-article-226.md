@@ -80,8 +80,8 @@ paragraphs:
     text: 前項本文の場合において、同項の給与等、退職手当等又は公的年金等の支払をする者は、第一項から第三項までの源泉徴収票を交付したものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -25,62 +25,62 @@ paragraphs:
     - 次項
   - id: houjin-zei-hou-art-144-6-p1-kou-1
     type: kou
-    text: 当該事業年度の課税標準である第百四十一条第一号イ（課税標準）に掲げる国内源泉所得に係る所得の金額又は欠損金額
+    text: 一　当該事業年度の課税標準である第百四十一条第一号イ（課税標準）に掲げる国内源泉所得に係る所得の金額又は欠損金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-144-6-p1-kou-2
     type: kou
-    text: 当該事業年度の課税標準である第百四十一条第一号ロに掲げる国内源泉所得に係る所得の金額又は欠損金額
+    text: 二　当該事業年度の課税標準である第百四十一条第一号ロに掲げる国内源泉所得に係る所得の金額又は欠損金額
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-144-6-p1-kou-3
     type: kou
-    text: 第一号に掲げる国内源泉所得に係る所得の金額につき前節（税額の計算）の規定を適用して計算した法人税の額
+    text: 三　第一号に掲げる国内源泉所得に係る所得の金額につき前節（税額の計算）の規定を適用して計算した法人税の額
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-144-6-p1-kou-4
     type: kou
-    text: 第二号に掲げる国内源泉所得に係る所得の金額につき前節の規定を適用して計算した法人税の額
+    text: 四　第二号に掲げる国内源泉所得に係る所得の金額につき前節の規定を適用して計算した法人税の額
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-art-144-6-p1-kou-5
     type: kou
-    text: 第百四十四条（外国法人に係る所得税額の控除）において準用する第六十八条（所得税額の控除）の規定及び第百四十四条の二（外国法人に係る外国税額の控除）の規定による控除をされるべき金額で第三号に掲げる法人税の額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
+    text: 五　第百四十四条（外国法人に係る所得税額の控除）において準用する第六十八条（所得税額の控除）の規定及び第百四十四条の二（外国法人に係る外国税額の控除）の規定による控除をされるべき金額で第三号に掲げる法人税の額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-art-144-6-p1-kou-6
     type: kou
-    text: 第百四十四条において準用する第六十八条の規定による控除をされるべき金額で第四号に掲げる法人税の額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
+    text: 六　第百四十四条において準用する第六十八条の規定による控除をされるべき金額で第四号に掲げる法人税の額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-art-144-6-p1-kou-7
     type: kou
-    text: 第三号に掲げる法人税の額（前号の規定に該当する場合には、同号に掲げる金額を控除した残額）及び第四号に掲げる法人税の額（第五号の規定に該当する場合には、同号に掲げる金額を控除した残額）の合計額
+    text: 七　第三号に掲げる法人税の額（前号の規定に該当する場合には、同号に掲げる金額を控除した残額）及び第四号に掲げる法人税の額（第五号の規定に該当する場合には、同号に掲げる金額を控除した残額）の合計額
     modality: unspecified
     item_number: 7
   - id: houjin-zei-hou-art-144-6-p1-kou-8
     type: kou
-    text: 第五号に掲げる金額で前号に掲げる合計額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
+    text: 八　第五号に掲げる金額で前号に掲げる合計額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 8
   - id: houjin-zei-hou-art-144-6-p1-kou-9
     type: kou
-    text: 第六号に掲げる金額で第七号に掲げる合計額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
+    text: 九　第六号に掲げる金額で第七号に掲げる合計額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 9
   - id: houjin-zei-hou-art-144-6-p1-kou-10
     type: kou
-    text: その外国法人が当該事業年度につき中間申告書を提出した法人である場合には、第七号に掲げる合計額から当該申告書に係る中間納付額を控除した金額
+    text: 十　その外国法人が当該事業年度につき中間申告書を提出した法人である場合には、第七号に掲げる合計額から当該申告書に係る中間納付額を控除した金額
     modality: unspecified
     item_number: 10
   - id: houjin-zei-hou-art-144-6-p1-kou-11
     type: kou
-    text: 前号に規定する中間納付額で同号に掲げる金額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
+    text: 十一　前号に規定する中間納付額で同号に掲げる金額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 11
   - id: houjin-zei-hou-art-144-6-p1-kou-12
     type: kou
-    text: 前各号に掲げる金額の計算の基礎その他財務省令で定める事項
+    text: 十二　前各号に掲げる金額の計算の基礎その他財務省令で定める事項
     modality: unspecified
     item_number: 12
 - number: 2
@@ -94,32 +94,32 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-144-6-p2-kou-1
     type: kou
-    text: 当該事業年度の課税標準である第百四十一条第二号に定める国内源泉所得に係る所得の金額又は欠損金額
+    text: 一　当該事業年度の課税標準である第百四十一条第二号に定める国内源泉所得に係る所得の金額又は欠損金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-144-6-p2-kou-2
     type: kou
-    text: 前号に掲げる国内源泉所得に係る所得の金額につき前節の規定を適用して計算した法人税の額
+    text: 二　前号に掲げる国内源泉所得に係る所得の金額につき前節の規定を適用して計算した法人税の額
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-144-6-p2-kou-3
     type: kou
-    text: 第百四十四条において準用する第六十八条の規定による控除をされるべき金額で前号に掲げる法人税の額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
+    text: 三　第百四十四条において準用する第六十八条の規定による控除をされるべき金額で前号に掲げる法人税の額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-144-6-p2-kou-4
     type: kou
-    text: その外国法人が当該事業年度につき中間申告書を提出した法人である場合には、第二号に掲げる法人税の額から当該申告書に係る中間納付額を控除した金額
+    text: 四　その外国法人が当該事業年度につき中間申告書を提出した法人である場合には、第二号に掲げる法人税の額から当該申告書に係る中間納付額を控除した金額
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-art-144-6-p2-kou-5
     type: kou
-    text: 前号に規定する中間納付額で同号に掲げる金額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
+    text: 五　前号に規定する中間納付額で同号に掲げる金額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-art-144-6-p2-kou-6
     type: kou
-    text: 前各号に掲げる金額の計算の基礎その他財務省令で定める事項
+    text: 六　前各号に掲げる金額の計算の基礎その他財務省令で定める事項
     modality: unspecified
     item_number: 6
 - number: 3

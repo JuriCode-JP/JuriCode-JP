@@ -23,52 +23,52 @@ paragraphs:
     modality: unspecified
   - id: fueihou-art-51-p1-kou-1
     type: kou
-    text: 第九条第一項（第二十条第十項及び第三十一条の二十三において準用する場合を含む。以下この号及び次号において同じ。）の規定に違反して第九条第一項の承認を受けないで営業所の構造又は設備（第四条第四項に規定する遊技機を含む。）の変更をしたとき。
+    text: 一　第九条第一項（第二十条第十項及び第三十一条の二十三において準用する場合を含む。以下この号及び次号において同じ。）の規定に違反して第九条第一項の承認を受けないで営業所の構造又は設備（第四条第四項に規定する遊技機を含む。）の変更をしたとき。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-51-p1-kou-2
     type: kou
-    text: 偽りその他不正の手段により第九条第一項の承認を受けたとき。
+    text: 二　偽りその他不正の手段により第九条第一項の承認を受けたとき。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-51-p1-kou-3
     type: kou
-    text: 偽りその他不正の手段により第十条の二第一項（第三十一条の二十三において準用する場合を含む。）の認定を受けたとき。
+    text: 三　偽りその他不正の手段により第十条の二第一項（第三十一条の二十三において準用する場合を含む。）の認定を受けたとき。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-51-p1-kou-4
     type: kou
-    text: 第二十二条第一項第三号の規定又は同項第四号から第六号まで（これらの規定を第三十一条の二十三及び第三十二条第三項において準用する場合を含む。）の規定に違反したとき。
+    text: 四　第二十二条第一項第三号の規定又は同項第四号から第六号まで（これらの規定を第三十一条の二十三及び第三十二条第三項において準用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 4
   - id: fueihou-art-51-p1-kou-5
     type: kou
-    text: 第二十八条第十二項第三号の規定又は同項第四号若しくは第五号（これらの規定を第三十一条の三第二項の規定により適用する場合を含む。）の規定に違反したとき。
+    text: 五　第二十八条第十二項第三号の規定又は同項第四号若しくは第五号（これらの規定を第三十一条の三第二項の規定により適用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 5
   - id: fueihou-art-51-p1-kou-6
     type: kou
-    text: 第三十一条の三第三項第一号の規定に違反したとき。
+    text: 六　第三十一条の三第三項第一号の規定に違反したとき。
     modality: unspecified
     item_number: 6
   - id: fueihou-art-51-p1-kou-7
     type: kou
-    text: 第三十一条の十又は第三十一条の十一第二項第二号の規定による公安委員会の命令に従わなかつたとき。
+    text: 七　第三十一条の十又は第三十一条の十一第二項第二号の規定による公安委員会の命令に従わなかつたとき。
     modality: unspecified
     item_number: 7
   - id: fueihou-art-51-p1-kou-8
     type: kou
-    text: 第三十一条の十三第二項第三号から第六号までの規定に違反したとき。
+    text: 八　第三十一条の十三第二項第三号から第六号までの規定に違反したとき。
     modality: unspecified
     item_number: 8
   - id: fueihou-art-51-p1-kou-9
     type: kou
-    text: 第三十一条の十八第二項第一号の規定に違反したとき。
+    text: 九　第三十一条の十八第二項第一号の規定に違反したとき。
     modality: unspecified
     item_number: 9
   - id: fueihou-art-51-p1-kou-10
     type: kou
-    text: 第三十三条第四項の規定に基づく都道府県の条例の規定に違反したとき。
+    text: 十　第三十三条第四項の規定に基づく都道府県の条例の規定に違反したとき。
     modality: unspecified
     item_number: 10
 - number: 2

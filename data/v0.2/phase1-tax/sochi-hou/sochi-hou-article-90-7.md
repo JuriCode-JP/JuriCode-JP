@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の犯罪に係る還付金に相当する金額の三倍が百万円を超える場合には、情状により、同項の罰金は、百万円を超え当該還付金に相当する金額の三倍以下とすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -46,37 +46,37 @@ paragraphs:
     modality: gimu_kei
   - id: sochi-hou-art-90-7-p3-kou-1
     type: kou
-    text: 第九十条の三の三第四項の規定に違反して同項の特定用途石炭を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
+    text: 一　第九十条の三の三第四項の規定に違反して同項の特定用途石炭を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-90-7-p3-kou-2
     type: kou
-    text: 第九十条の四第六項の規定に違反して同項の石油製品等を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
+    text: 二　第九十条の四第六項の規定に違反して同項の石油製品等を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-90-7-p3-kou-3
     type: kou
-    text: 第九十条の四の二第四項の規定に違反して同項の特定石炭を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
+    text: 三　第九十条の四の二第四項の規定に違反して同項の特定石炭を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-90-7-p3-kou-4
     type: kou
-    text: 第九十条の四の三第四項の規定に違反して同項の沖縄発電用特定石炭等を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
+    text: 四　第九十条の四の三第四項の規定に違反して同項の沖縄発電用特定石炭等を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
     modality: unspecified
     item_number: 4
   - id: sochi-hou-art-90-7-p3-kou-5
     type: kou
-    text: 第九十条の六第六項の規定に違反して同項の重油を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
+    text: 五　第九十条の六第六項の規定に違反して同項の重油を同項に規定する用途以外の用途に供し、又はこれに供するため譲渡したとき。
     modality: unspecified
     item_number: 5
   - id: sochi-hou-art-90-7-p3-kou-6
     type: kou
-    text: 偽りその他不正の行為により第九十条の六第一項に規定する重油を同項に規定する用途に供する目的以外の目的で同項に規定する方法により購入したとき。
+    text: 六　偽りその他不正の行為により第九十条の六第一項に規定する重油を同項に規定する用途に供する目的以外の目的で同項に規定する方法により購入したとき。
     modality: unspecified
     item_number: 6
   - id: sochi-hou-art-90-7-p3-kou-7
     type: kou
-    text: 第九十条の六の二第三項の規定による書類を提出せず、又は偽りの書類を提出したとき。
+    text: 七　第九十条の六の二第三項の規定による書類を提出せず、又は偽りの書類を提出したとき。
     modality: unspecified
     item_number: 7
 - number: 4
@@ -101,8 +101,8 @@ paragraphs:
     text: 前項の規定により第一項の違反行為につき法人又は人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

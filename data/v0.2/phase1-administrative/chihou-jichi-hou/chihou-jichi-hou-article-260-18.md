@@ -40,8 +40,8 @@ paragraphs:
     text: 前項の構成員は、規約又は総会の決議により、同項の規定による書面による表決に代えて、電磁的方法（電子情報処理組織を使用する方法その他の情報通信の技術を利用する方法であつて総務省令で定めるものをいう。第二百六十条の十九の二において同じ。）により表決をすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

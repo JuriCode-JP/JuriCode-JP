@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-1-6-p1-kou-1
     type: kou
-    text: 確定給付企業年金法第六十五条第三項（事業主の積立金の管理及び運用に関する契約）に規定する資産管理運用契約に係る信託
+    text: 一　確定給付企業年金法第六十五条第三項（事業主の積立金の管理及び運用に関する契約）に規定する資産管理運用契約に係る信託
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-1-6-p1-kou-2
     type: kou
-    text: 確定拠出年金法第八条第二項（資産管理契約の締結）に規定する資産管理契約に係る信託
+    text: 二　確定拠出年金法第八条第二項（資産管理契約の締結）に規定する資産管理契約に係る信託
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikkourei-art-1-6-p1-kou-3
     type: kou
-    text: 第一条の三第八号に規定する適格退職年金契約に係る信託
+    text: 三　第一条の三第八号に規定する適格退職年金契約に係る信託
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikkourei-art-1-6-p1-kou-4
     type: kou
-    text: 前三号に掲げる信託に該当しない退職給付金に関する信託で、その委託者の使用人（法人の役員を含む。）又はその遺族を当該信託の受益者とするもの
+    text: 四　前三号に掲げる信託に該当しない退職給付金に関する信託で、その委託者の使用人（法人の役員を含む。）又はその遺族を当該信託の受益者とするもの
     modality: unspecified
     item_number: 4
 cases: []

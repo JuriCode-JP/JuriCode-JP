@@ -25,27 +25,27 @@ paragraphs:
     - 次項
   - id: shouhou-art-571-p1-kou-1
     type: kou
-    text: 運送品の種類
+    text: 一　運送品の種類
     modality: unspecified
     item_number: 1
   - id: shouhou-art-571-p1-kou-2
     type: kou
-    text: 運送品の容積若しくは重量又は包若しくは個品の数及び運送品の記号
+    text: 二　運送品の容積若しくは重量又は包若しくは個品の数及び運送品の記号
     modality: unspecified
     item_number: 2
   - id: shouhou-art-571-p1-kou-3
     type: kou
-    text: 荷造りの種類
+    text: 三　荷造りの種類
     modality: unspecified
     item_number: 3
   - id: shouhou-art-571-p1-kou-4
     type: kou
-    text: 荷送人及び荷受人の氏名又は名称
+    text: 四　荷送人及び荷受人の氏名又は名称
     modality: unspecified
     item_number: 4
   - id: shouhou-art-571-p1-kou-5
     type: kou
-    text: 発送地及び到達地
+    text: 五　発送地及び到達地
     modality: unspecified
     item_number: 5
 - number: 2

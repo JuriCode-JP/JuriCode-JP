@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-24-14-p1-kou-1
     type: kou
-    text: 当該合併の年月日
+    text: 一　当該合併の年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-24-14-p1-kou-2
     type: kou
-    text: 当該合併に係る合併前の法第七十一条の十七第一項に規定する農業協同組合等が当該合併の直前において有していた土地等の地目、面積、所在地及び価額
+    text: 二　当該合併に係る合併前の法第七十一条の十七第一項に規定する農業協同組合等が当該合併の直前において有していた土地等の地目、面積、所在地及び価額
     modality: unspecified
     item_number: 2
 cases: []

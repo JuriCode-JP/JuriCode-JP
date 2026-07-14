@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-66-3-p1-kou-1
     type: kou
-    text: 取引の相手方の契約不履行により発生し得る危険
+    text: 一　取引の相手方の契約不履行により発生し得る危険
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-66-3-p1-kou-2
     type: kou
-    text: 保有する有価証券等（有価証券その他の資産及び取引をいう。）の価格の変動により発生し得る危険
+    text: 二　保有する有価証券等（有価証券その他の資産及び取引をいう。）の価格の変動により発生し得る危険
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-66-3-p1-kou-3
     type: kou
-    text: 事務処理の誤りその他日常的な業務の遂行上発生し得る危険
+    text: 三　事務処理の誤りその他日常的な業務の遂行上発生し得る危険
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-66-3-p1-kou-4
     type: kou
-    text: 前三号に掲げるものに類する危険
+    text: 四　前三号に掲げるものに類する危険
     modality: unspecified
     item_number: 4
 cases: []

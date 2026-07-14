@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-316-33-p1-kou-1
     type: kou
-    text: 故意の犯罪行為により人を死傷させた罪
+    text: 一　故意の犯罪行為により人を死傷させた罪
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-316-33-p1-kou-2
     type: kou
-    text: 刑法第百七十六条、第百七十七条、第百七十九条、第二百十一条、第二百二十条又は第二百二十四条から第二百二十七条までの罪
+    text: 二　刑法第百七十六条、第百七十七条、第百七十九条、第二百十一条、第二百二十条又は第二百二十四条から第二百二十七条までの罪
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-316-33-p1-kou-3
     type: kou
-    text: 前号に掲げる罪のほか、その犯罪行為にこれらの罪の犯罪行為を含む罪（第一号に掲げる罪を除く。）
+    text: 三　前号に掲げる罪のほか、その犯罪行為にこれらの罪の犯罪行為を含む罪（第一号に掲げる罪を除く。）
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-316-33-p1-kou-4
     type: kou
-    text: 自動車の運転により人を死傷させる行為等の処罰に関する法律（平成二十五年法律第八十六号）第四条、第五条又は第六条第三項若しくは第四項の罪
+    text: 四　自動車の運転により人を死傷させる行為等の処罰に関する法律（平成二十五年法律第八十六号）第四条、第五条又は第六条第三項若しくは第四項の罪
     modality: unspecified
     item_number: 4
   - id: keiji-soshou-hou-art-316-33-p1-kou-5
     type: kou
-    text: 第一号から第三号までに掲げる罪の未遂罪
+    text: 五　第一号から第三号までに掲げる罪の未遂罪
     modality: unspecified
     item_number: 5
 - number: 2

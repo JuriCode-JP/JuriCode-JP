@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-art-67-3-p1-kou-1
     type: kou
-    text: 家畜取引法第二条第三項に規定する家畜市場、中央卸売市場その他政令で定める市場において行う売却　当該農地所有適格法人が飼育した肉用牛
+    text: 一　家畜取引法第二条第三項に規定する家畜市場、中央卸売市場その他政令で定める市場において行う売却　当該農地所有適格法人が飼育した肉用牛
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-67-3-p1-kou-2
     type: kou
-    text: 農業協同組合又は農業協同組合連合会のうち政令で定めるものに委託して行う売却　当該農地所有適格法人が飼育した生産後一年未満の肉用牛
+    text: 二　農業協同組合又は農業協同組合連合会のうち政令で定めるものに委託して行う売却　当該農地所有適格法人が飼育した生産後一年未満の肉用牛
     modality: unspecified
     item_number: 2
 - number: 2
@@ -46,12 +46,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-art-67-3-p2-kou-1
     type: kou
-    text: 種雄牛
+    text: 一　種雄牛
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-67-3-p2-kou-2
     type: kou
-    text: 乳牛の雌のうち子牛の生産の用に供されたもの
+    text: 二　乳牛の雌のうち子牛の生産の用に供されたもの
     modality: unspecified
     item_number: 2
 - number: 3
@@ -82,8 +82,8 @@ paragraphs:
     text: 税務署長は、前項の記載又は添付がない確定申告書等の提出があつた場合においても、その記載又は添付がなかつたことについてやむを得ない事情があると認めるときは、当該記載をした書類並びに同項の明細書及び証する書類の提出があつた場合に限り、第一項の規定を適用することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -127,8 +127,8 @@ paragraphs:
     text: 第二項から前項までに定めるもののほか、免税対象飼育牛の売却による利益の額の計算方法、第一項の規定の適用を受けた同項の農地所有適格法人の利益積立金額の計算その他同項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

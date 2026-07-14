@@ -34,22 +34,22 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-776-p2-kou-1
     type: kou
-    text: 刑事事件により有罪の言渡しを受けたとき。
+    text: 一　刑事事件により有罪の言渡しを受けたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-776-p2-kou-2
     type: kou
-    text: 破産手続開始の決定を受けたとき。
+    text: 二　破産手続開始の決定を受けたとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-776-p2-kou-3
     type: kou
-    text: 心身の故障のため職務の遂行に堪えないと認められるとき。
+    text: 三　心身の故障のため職務の遂行に堪えないと認められるとき。
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-776-p2-kou-4
     type: kou
-    text: 職務上の義務違反があるとき。
+    text: 四　職務上の義務違反があるとき。
     modality: unspecified
     item_number: 4
 - number: 3

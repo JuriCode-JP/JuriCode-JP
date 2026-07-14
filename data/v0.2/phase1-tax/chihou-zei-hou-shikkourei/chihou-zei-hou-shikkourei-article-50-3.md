@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-50-3-p2-kou-1
     type: kou
-    text: 運動場、体育館、プール及びこれらに附属する施設
+    text: 一　運動場、体育館、プール及びこれらに附属する施設
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-50-3-p2-kou-2
     type: kou
-    text: 健康相談所
+    text: 二　健康相談所
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-50-3-p2-kou-3
     type: kou
-    text: 専ら負傷又は疾病の治つた者を収容し、その者の体力の回復を図るための施設
+    text: 三　専ら負傷又は疾病の治つた者を収容し、その者の体力の回復を図るための施設
     modality: unspecified
     item_number: 3
 cases: []

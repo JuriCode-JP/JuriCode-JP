@@ -23,32 +23,32 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-art-1-2-p1-kou-1
     type: kou
-    text: 扶養義務者　配偶者及び民法（明治二十九年法律第八十九号）第八百七十七条（扶養義務者）に規定する親族をいう。
+    text: 一　扶養義務者　配偶者及び民法（明治二十九年法律第八十九号）第八百七十七条（扶養義務者）に規定する親族をいう。
     modality: teigi
     item_number: 1
   - id: souzoku-zei-hou-art-1-2-p1-kou-2
     type: kou
-    text: 期限内申告書　第五十条第二項の場合を除き、第二十七条第一項及び第二項、第二十八条第一項及び第二項並びに第二十九条の規定による申告書をいう。
+    text: 二　期限内申告書　第五十条第二項の場合を除き、第二十七条第一項及び第二項、第二十八条第一項及び第二項並びに第二十九条の規定による申告書をいう。
     modality: teigi
     item_number: 2
   - id: souzoku-zei-hou-art-1-2-p1-kou-3
     type: kou
-    text: 期限後申告書　国税通則法（昭和三十七年法律第六十六号）第十八条第二項（期限後申告書）に規定する期限後申告書をいう。
+    text: 三　期限後申告書　国税通則法（昭和三十七年法律第六十六号）第十八条第二項（期限後申告書）に規定する期限後申告書をいう。
     modality: teigi
     item_number: 3
   - id: souzoku-zei-hou-art-1-2-p1-kou-4
     type: kou
-    text: 修正申告書　国税通則法第十九条第三項（修正申告書）に規定する修正申告書をいう。
+    text: 四　修正申告書　国税通則法第十九条第三項（修正申告書）に規定する修正申告書をいう。
     modality: teigi
     item_number: 4
   - id: souzoku-zei-hou-art-1-2-p1-kou-5
     type: kou
-    text: 更正　国税通則法第二十四条（更正）又は第二十六条（再更正）の規定による更正をいう。
+    text: 五　更正　国税通則法第二十四条（更正）又は第二十六条（再更正）の規定による更正をいう。
     modality: teigi
     item_number: 5
   - id: souzoku-zei-hou-art-1-2-p1-kou-6
     type: kou
-    text: 決定　第三十三条の二の場合を除き、国税通則法第二十五条（決定）の規定による決定をいう。
+    text: 六　決定　第三十三条の二の場合を除き、国税通則法第二十五条（決定）の規定による決定をいう。
     modality: teigi
     item_number: 6
 cases: []

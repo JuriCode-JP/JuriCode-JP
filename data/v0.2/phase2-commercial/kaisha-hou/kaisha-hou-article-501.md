@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の場合には、清算株式会社は、同項の鑑定人の評価に従い同項の債権に係る債務を弁済しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

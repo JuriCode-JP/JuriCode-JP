@@ -36,17 +36,17 @@ paragraphs:
     - 前項
   - id: chihou-zei-hou-shikoukisoku-art-6-4-p2-kou-1
     type: kou
-    text: 請求をする法人の名称、所在地及び法人番号
+    text: 一　請求をする法人の名称、所在地及び法人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-6-4-p2-kou-2
     type: kou
-    text: 修正した分割基準の明細
+    text: 二　修正した分割基準の明細
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-6-4-p2-kou-3
     type: kou
-    text: 分割基準について誤りを生じた事情の詳細
+    text: 三　分割基準について誤りを生じた事情の詳細
     modality: unspecified
     item_number: 3
 - number: 3

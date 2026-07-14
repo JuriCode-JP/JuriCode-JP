@@ -25,37 +25,37 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-48-10-p1-kou-1
     type: kou
-    text: 申請者の住所又は居所及び氏名又は名称
+    text: 一　申請者の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-10-p1-kou-2
     type: kou
-    text: 当該保税地域の所在地
+    text: 二　当該保税地域の所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-10-p1-kou-3
     type: kou
-    text: 当該特定石炭の数量
+    text: 三　当該特定石炭の数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-48-10-p1-kou-4
     type: kou
-    text: 当該特定石炭の用途
+    text: 四　当該特定石炭の用途
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-48-10-p1-kou-5
     type: kou
-    text: 引取りの年月日
+    text: 五　引取りの年月日
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-48-10-p1-kou-6
     type: kou
-    text: 引取先に移入する者の住所又は居所及び氏名又は名称
+    text: 六　引取先に移入する者の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikkourei-art-48-10-p1-kou-7
     type: kou
-    text: 引取先の所在地及び名称
+    text: 七　引取先の所在地及び名称
     modality: unspecified
     item_number: 7
 - number: 2
@@ -69,27 +69,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-48-10-p2-kou-1
     type: kou
-    text: 移入した当該特定石炭の数量、移入の年月日並びに引渡人の住所又は居所及び氏名又は名称
+    text: 一　移入した当該特定石炭の数量、移入の年月日並びに引渡人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-10-p2-kou-2
     type: kou
-    text: 消費した当該特定石炭の数量及び消費の年月日
+    text: 二　消費した当該特定石炭の数量及び消費の年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-10-p2-kou-3
     type: kou
-    text: 貯蔵している当該特定石炭の数量
+    text: 三　貯蔵している当該特定石炭の数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-48-10-p2-kou-4
     type: kou
-    text: 当該特定石炭を消費して製造した物品の品名及び品名ごとの数量
+    text: 四　当該特定石炭を消費して製造した物品の品名及び品名ごとの数量
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-48-10-p2-kou-5
     type: kou
-    text: 当該特定石炭を法第九十条の四の二第一項の規定による免除に係る用途以外の用途に供し、又は譲り渡したときは、その事実
+    text: 五　当該特定石炭を法第九十条の四の二第一項の規定による免除に係る用途以外の用途に供し、又は譲り渡したときは、その事実
     modality: unspecified
     item_number: 5
 - number: 3
@@ -103,17 +103,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-48-10-p3-kou-1
     type: kou
-    text: 購入した当該特定石炭の数量及び用途、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
+    text: 一　購入した当該特定石炭の数量及び用途、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-10-p3-kou-2
     type: kou
-    text: 販売した当該特定石炭の数量及び用途、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
+    text: 二　販売した当該特定石炭の数量及び用途、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-10-p3-kou-3
     type: kou
-    text: 返品した当該特定石炭の数量及び用途、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
+    text: 三　返品した当該特定石炭の数量及び用途、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 3
 - number: 4
@@ -127,27 +127,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-48-10-p4-kou-1
     type: kou
-    text: 申請者の住所又は居所及び氏名又は名称
+    text: 一　申請者の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-10-p4-kou-2
     type: kou
-    text: 当該特定石炭の所在場所又は使用場所の所在地及び名称
+    text: 二　当該特定石炭の所在場所又は使用場所の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-10-p4-kou-3
     type: kou
-    text: 当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする特定石炭の数量
+    text: 三　当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする特定石炭の数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-48-10-p4-kou-4
     type: kou
-    text: 当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする理由
+    text: 四　当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする理由
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-48-10-p4-kou-5
     type: kou
-    text: 当該特定石炭の引取りにつき法第九十条の四の二第一項の承認を受けた税関及びその年月日並びに当該承認に係る承認書の番号
+    text: 五　当該特定石炭の引取りにつき法第九十条の四の二第一項の承認を受けた税関及びその年月日並びに当該承認に係る承認書の番号
     modality: unspecified
     item_number: 5
 cases: []

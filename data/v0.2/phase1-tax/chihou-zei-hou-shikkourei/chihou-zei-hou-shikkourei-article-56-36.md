@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-56-36-p1-kou-1
     type: kou
-    text: 事務所
+    text: 一　事務所
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-56-36-p1-kou-2
     type: kou
-    text: 発電施設
+    text: 二　発電施設
     modality: unspecified
     item_number: 2
 cases: []

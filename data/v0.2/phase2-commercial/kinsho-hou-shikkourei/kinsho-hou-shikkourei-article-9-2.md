@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-9-2-p1-kou-1
     type: kou
-    text: 新株予約権付社債券
+    text: 一　新株予約権付社債券
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-9-2-p1-kou-2
     type: kou
-    text: 新株予約権証券
+    text: 二　新株予約権証券
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-9-2-p1-kou-3
     type: kou
-    text: 発行者がその発行する全部又は一部の株式の内容として株主が当該発行者に対して当該株式の取得を請求することができる旨の定めを設けている場合における当該株式に係る株券
+    text: 三　発行者がその発行する全部又は一部の株式の内容として株主が当該発行者に対して当該株式の取得を請求することができる旨の定めを設けている場合における当該株式に係る株券
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-9-2-p1-kou-4
     type: kou
-    text: 発行者がその発行する全部又は一部の株式の内容として当該発行者が一定の事由が生じたことを条件として当該株式を取得することができる旨の定めを設けている場合における当該株式に係る株券
+    text: 四　発行者がその発行する全部又は一部の株式の内容として当該発行者が一定の事由が生じたことを条件として当該株式を取得することができる旨の定めを設けている場合における当該株式に係る株券
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-9-2-p1-kou-5
     type: kou
-    text: 外国の者の発行する証券又は証書で前各号に掲げる有価証券の性質を有するもの
+    text: 五　外国の者の発行する証券又は証書で前各号に掲げる有価証券の性質を有するもの
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-9-2-p1-kou-6
     type: kou
-    text: 新投資口予約権証券等
+    text: 六　新投資口予約権証券等
     modality: unspecified
     item_number: 6
 cases: []

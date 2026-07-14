@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-10-2-5-p1-kou-1
     type: kou
-    text: 政令第四十八条の九の十一に規定する届出書を提出する者の氏名及び住所若しくは居所又は名称、本店若しくは主たる事務所の所在地及び法人番号
+    text: 一　政令第四十八条の九の十一に規定する届出書を提出する者の氏名及び住所若しくは居所又は名称、本店若しくは主たる事務所の所在地及び法人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-10-2-5-p1-kou-2
     type: kou
-    text: 前号の届出書に係る事務所等の所在地
+    text: 二　前号の届出書に係る事務所等の所在地
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-10-2-5-p1-kou-3
     type: kou
-    text: 給与の支払を受ける者が常時十人未満でなくなつた事実
+    text: 三　給与の支払を受ける者が常時十人未満でなくなつた事実
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-10-2-5-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

@@ -59,47 +59,47 @@ paragraphs:
     modality: unspecified
   - id: shotoku-zei-hou-shikkourei-art-83-2-p5-kou-1
     type: kou
-    text: 合併法人　法人税法第二条第十二号（定義）に規定する合併法人をいう。
+    text: 一　合併法人　法人税法第二条第十二号（定義）に規定する合併法人をいう。
     modality: teigi
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-83-2-p5-kou-2
     type: kou
-    text: 被合併法人　法人税法第二条第十一号に規定する被合併法人をいう。
+    text: 二　被合併法人　法人税法第二条第十一号に規定する被合併法人をいう。
     modality: teigi
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-83-2-p5-kou-3
     type: kou
-    text: 分割型分割　法人税法第二条第十二号の九に規定する分割型分割をいう。
+    text: 三　分割型分割　法人税法第二条第十二号の九に規定する分割型分割をいう。
     modality: teigi
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-83-2-p5-kou-4
     type: kou
-    text: 分割法人　法人税法第二条第十二号の二に規定する分割法人をいう。
+    text: 四　分割法人　法人税法第二条第十二号の二に規定する分割法人をいう。
     modality: teigi
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-83-2-p5-kou-5
     type: kou
-    text: 分割承継法人　法人税法第二条第十二号の三に規定する分割承継法人をいう。
+    text: 五　分割承継法人　法人税法第二条第十二号の三に規定する分割承継法人をいう。
     modality: teigi
     item_number: 5
   - id: shotoku-zei-hou-shikkourei-art-83-2-p5-kou-6
     type: kou
-    text: 株式分配　法人税法第二条第十二号の十五の二に規定する株式分配をいう。
+    text: 六　株式分配　法人税法第二条第十二号の十五の二に規定する株式分配をいう。
     modality: teigi
     item_number: 6
   - id: shotoku-zei-hou-shikkourei-art-83-2-p5-kou-7
     type: kou
-    text: 現物分配法人　法人税法第二条第十二号の五の二に規定する現物分配法人をいう。
+    text: 七　現物分配法人　法人税法第二条第十二号の五の二に規定する現物分配法人をいう。
     modality: teigi
     item_number: 7
   - id: shotoku-zei-hou-shikkourei-art-83-2-p5-kou-8
     type: kou
-    text: 株式交換完全親法人　法人税法第二条第十二号の六の三に規定する株式交換完全親法人をいう。
+    text: 八　株式交換完全親法人　法人税法第二条第十二号の六の三に規定する株式交換完全親法人をいう。
     modality: teigi
     item_number: 8
   - id: shotoku-zei-hou-shikkourei-art-83-2-p5-kou-9
     type: kou
-    text: 株式交換完全子法人　法人税法第二条第十二号の六に規定する株式交換完全子法人をいう。
+    text: 九　株式交換完全子法人　法人税法第二条第十二号の六に規定する株式交換完全子法人をいう。
     modality: teigi
     item_number: 9
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-4-10-p1-kou-1
     type: kou
-    text: 申請者の住所及び氏名又は名称並びに法人にあつては、法人番号
+    text: 一　申請者の住所及び氏名又は名称並びに法人にあつては、法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-4-10-p1-kou-2
     type: kou
-    text: 当該許可を受けようとする酒類の製造場の所在地及び名称
+    text: 二　当該許可を受けようとする酒類の製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-4-10-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 2

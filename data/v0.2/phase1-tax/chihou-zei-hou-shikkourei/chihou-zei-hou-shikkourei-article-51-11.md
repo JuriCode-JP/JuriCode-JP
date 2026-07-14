@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-51-11-p1-kou-1
     type: kou
-    text: 事務所の用に供する固定資産
+    text: 一　事務所の用に供する固定資産
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-51-11-p1-kou-2
     type: kou
-    text: 宿舎の用に供する固定資産
+    text: 二　宿舎の用に供する固定資産
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-51-11-p1-kou-3
     type: kou
-    text: 職員の福利及び厚生の用に供する固定資産
+    text: 三　職員の福利及び厚生の用に供する固定資産
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-51-11-p1-kou-4
     type: kou
-    text: 日本下水道事業団法第二十六条第一項第七号に規定する業務（下水道に関する技術を担当する者の養成及び訓練に関する業務を除く。）の用に供する固定資産
+    text: 四　日本下水道事業団法第二十六条第一項第七号に規定する業務（下水道に関する技術を担当する者の養成及び訓練に関する業務を除く。）の用に供する固定資産
     modality: unspecified
     item_number: 4
 cases: []

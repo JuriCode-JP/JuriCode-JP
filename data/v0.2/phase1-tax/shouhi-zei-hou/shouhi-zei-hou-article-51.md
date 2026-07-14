@@ -25,9 +25,9 @@ paragraphs:
     override_target:
     - 前条
     references:
-    - 同項
-    - 前条
     - 次項
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -55,8 +55,8 @@ paragraphs:
     override_target:
     - 前条
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -70,8 +70,8 @@ paragraphs:
     override_target:
     - 前条
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments:
 - effective_date: '2024-10-01'

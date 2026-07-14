@@ -28,6 +28,10 @@ paragraphs:
     text: この場合において、当該車両は、当該指定された駐車を終了すべき時刻を過ぎて引き続き駐車してはならない。
     modality: gimu_negative
     depends_on: douro-koutsuu-hou-art-49-5-p1-zen
+  - id: douro-koutsuu-hou-art-49-5-supplnote-1
+    type: supplnote
+    text: （罰則　後段については第百十九条の三第一項第一号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

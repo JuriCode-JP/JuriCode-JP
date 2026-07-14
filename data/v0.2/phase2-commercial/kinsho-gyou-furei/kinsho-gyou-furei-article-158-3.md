@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-158-3-p1-kou-1
     type: kou
-    text: 顧客の氏名又は名称
+    text: 一　顧客の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-158-3-p1-kou-2
     type: kou
-    text: 確認年月日
+    text: 二　確認年月日
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-158-3-p1-kou-3
     type: kou
-    text: 取引の具体的な内容
+    text: 三　取引の具体的な内容
     modality: unspecified
     item_number: 3
 cases: []

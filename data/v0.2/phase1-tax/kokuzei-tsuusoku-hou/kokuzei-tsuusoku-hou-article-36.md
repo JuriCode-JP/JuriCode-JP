@@ -25,22 +25,22 @@ paragraphs:
     - 次条
   - id: kokuzei-tsuusoku-hou-art-36-p1-kou-1
     type: kou
-    text: 賦課課税方式による国税（過少申告加算税、無申告加算税及び前条第三項に規定する重加算税を除く。）
+    text: 一　賦課課税方式による国税（過少申告加算税、無申告加算税及び前条第三項に規定する重加算税を除く。）
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-36-p1-kou-2
     type: kou
-    text: 源泉徴収等による国税でその法定納期限までに納付されなかつたもの
+    text: 二　源泉徴収等による国税でその法定納期限までに納付されなかつたもの
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-36-p1-kou-3
     type: kou
-    text: 自動車重量税でその法定納期限までに納付されなかつたもの
+    text: 三　自動車重量税でその法定納期限までに納付されなかつたもの
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-36-p1-kou-4
     type: kou
-    text: 登録免許税でその法定納期限までに納付されなかつたもの
+    text: 四　登録免許税でその法定納期限までに納付されなかつたもの
     modality: unspecified
     item_number: 4
 - number: 2

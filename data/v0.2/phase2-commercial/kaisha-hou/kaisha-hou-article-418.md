@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-418-p1-kou-1
     type: kou
-    text: 第四百十六条第四項の規定による取締役会の決議によって委任を受けた指名委員会等設置会社の業務の執行の決定
+    text: 一　第四百十六条第四項の規定による取締役会の決議によって委任を受けた指名委員会等設置会社の業務の執行の決定
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-418-p1-kou-2
     type: kou
-    text: 指名委員会等設置会社の業務の執行
+    text: 二　指名委員会等設置会社の業務の執行
     modality: unspecified
     item_number: 2
 cases: []

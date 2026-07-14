@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-43-p1-kou-1
     type: kou
-    text: 主審問　立証すべき事項及びこれに関連する事項
+    text: 一　主審問　立証すべき事項及びこれに関連する事項
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-43-p1-kou-2
     type: kou
-    text: 反対審問　主審問に現れた事項及びこれに関連する事項並びに陳述の信用性に関する事項
+    text: 二　反対審問　主審問に現れた事項及びこれに関連する事項並びに陳述の信用性に関する事項
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-43-p1-kou-3
     type: kou
-    text: 再主審問　反対審問に現れた事項及びこれに関連する事項
+    text: 三　再主審問　反対審問に現れた事項及びこれに関連する事項
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 審判長は、前項各号に掲げる審問における質問が同項各号に定める事項以外の事項に関するものであって相当でないと認めるときは、申立てにより又は職権で、これを制限することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

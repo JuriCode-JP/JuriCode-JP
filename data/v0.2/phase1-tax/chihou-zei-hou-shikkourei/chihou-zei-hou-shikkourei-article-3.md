@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-3-p1-kou-1
     type: kou
-    text: 経営者の配偶者（婚姻の届出をしていないが、事実上婚姻関係と同様の事情にある者を含む。以下同じ。）、直系血族及び兄弟姉妹
+    text: 一　経営者の配偶者（婚姻の届出をしていないが、事実上婚姻関係と同様の事情にある者を含む。以下同じ。）、直系血族及び兄弟姉妹
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-3-p1-kou-2
     type: kou
-    text: 前号に掲げる者以外の経営者の親族で、経営者と生計を一にし、又は経営者から受ける金銭その他の財産により生計を維持しているもの
+    text: 二　前号に掲げる者以外の経営者の親族で、経営者と生計を一にし、又は経営者から受ける金銭その他の財産により生計を維持しているもの
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-3-p1-kou-3
     type: kou
-    text: 前二号に掲げる者以外の経営者の使用人その他の個人で、経営者から受ける特別の金銭その他の財産により生計を維持しているもの
+    text: 三　前二号に掲げる者以外の経営者の使用人その他の個人で、経営者から受ける特別の金銭その他の財産により生計を維持しているもの
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-3-p1-kou-4
     type: kou
-    text: 経営者に特別の金銭その他の財産を提供してその生計を維持させている個人（第一号及び第二号に掲げる者を除く。）及びその者と前三号の一に該当する関係がある個人
+    text: 四　経営者に特別の金銭その他の財産を提供してその生計を維持させている個人（第一号及び第二号に掲げる者を除く。）及びその者と前三号の一に該当する関係がある個人
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-3-p1-kou-5
     type: kou
-    text: 経営者が法人税法（昭和四十年法律第三十四号）第二条第十号に規定する会社に該当する会社（以下「同族会社」という。）である場合には、その判定の基礎となつた株主又は社員である個人及びその者と前四号の一に該当する関係がある個人
+    text: 五　経営者が法人税法（昭和四十年法律第三十四号）第二条第十号に規定する会社に該当する会社（以下「同族会社」という。）である場合には、その判定の基礎となつた株主又は社員である個人及びその者と前四号の一に該当する関係がある個人
     modality: unspecified
     item_number: 5
 cases: []

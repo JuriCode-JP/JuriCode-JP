@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-810-p1-kou-1
     type: kou
-    text: 新設合併をする場合　新設合併消滅株式会社の債権者
+    text: 一　新設合併をする場合　新設合併消滅株式会社の債権者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-810-p1-kou-2
     type: kou
-    text: 新設分割をする場合　新設分割後新設分割株式会社に対して債務の履行（当該債務の保証人として新設分割設立会社と連帯して負担する保証債務の履行を含む。）を請求することができない新設分割株式会社の債権者（第七百六十三条第一項第十二号又は第七百六十五条第一項第八号に掲げる事項についての定めがある場合にあっては、新設分割株式会社の債権者）
+    text: 二　新設分割をする場合　新設分割後新設分割株式会社に対して債務の履行（当該債務の保証人として新設分割設立会社と連帯して負担する保証債務の履行を含む。）を請求することができない新設分割株式会社の債権者（第七百六十三条第一項第十二号又は第七百六十五条第一項第八号に掲げる事項についての定めがある場合にあっては、新設分割株式会社の債権者）
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-810-p1-kou-3
     type: kou
-    text: 株式移転計画新株予約権が新株予約権付社債に付された新株予約権である場合　当該新株予約権付社債についての社債権者
+    text: 三　株式移転計画新株予約権が新株予約権付社債に付された新株予約権である場合　当該新株予約権付社債についての社債権者
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,26 +46,26 @@ paragraphs:
     text: 前項の規定により消滅株式会社等の債権者の全部又は一部が異議を述べることができる場合には、消滅株式会社等は、次に掲げる事項を官報に公告し、かつ、知れている債権者（同項の規定により異議を述べることができるものに限る。）には、各別にこれを催告しなければならない。ただし、第四号の期間は、一箇月を下ることができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-810-p2-kou-1
     type: kou
-    text: 新設合併等をする旨
+    text: 一　新設合併等をする旨
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-810-p2-kou-2
     type: kou
-    text: 他の消滅会社等及び設立会社の商号及び住所
+    text: 二　他の消滅会社等及び設立会社の商号及び住所
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-810-p2-kou-3
     type: kou
-    text: 消滅株式会社等の計算書類に関する事項として法務省令で定めるもの
+    text: 三　消滅株式会社等の計算書類に関する事項として法務省令で定めるもの
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-810-p2-kou-4
     type: kou
-    text: 債権者が一定の期間内に異議を述べることができる旨
+    text: 四　債権者が一定の期間内に異議を述べることができる旨
     modality: unspecified
     item_number: 4
 - number: 3
@@ -81,8 +81,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

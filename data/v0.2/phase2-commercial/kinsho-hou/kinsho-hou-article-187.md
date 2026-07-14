@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-187-p1-kou-1
     type: kou
-    text: 関係人若しくは参考人に出頭を命じて意見を聴取し、又はこれらの者から意見書若しくは報告書を提出させること。
+    text: 一　関係人若しくは参考人に出頭を命じて意見を聴取し、又はこれらの者から意見書若しくは報告書を提出させること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-187-p1-kou-2
     type: kou
-    text: 鑑定人に出頭を命じて鑑定させること。
+    text: 二　鑑定人に出頭を命じて鑑定させること。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-187-p1-kou-3
     type: kou
-    text: 関係人に対し帳簿書類その他の物件の提出を命じ、又は提出物件を留めて置くこと。
+    text: 三　関係人に対し帳簿書類その他の物件の提出を命じ、又は提出物件を留めて置くこと。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-187-p1-kou-4
     type: kou
-    text: 関係人の業務若しくは財産の状況又は帳簿書類その他の物件を検査すること。
+    text: 四　関係人の業務若しくは財産の状況又は帳簿書類その他の物件を検査すること。
     modality: unspecified
     item_number: 4
 - number: 2

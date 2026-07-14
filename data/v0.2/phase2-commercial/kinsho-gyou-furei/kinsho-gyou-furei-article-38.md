@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-38-p1-kou-1
     type: kou
-    text: 個人であるときは、住民票の抄本（本籍の記載のあるものに限る。）又はこれに代わる書面
+    text: 一　個人であるときは、住民票の抄本（本籍の記載のあるものに限る。）又はこれに代わる書面
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-38-p1-kou-2
     type: kou
-    text: 旧氏及び名を、氏名に併せて法第三十二条第一項の対象議決権保有届出書に記載した場合において、前号に掲げる書類が当該旧氏及び名を証するものでないときは、当該旧氏及び名を証する書面
+    text: 二　旧氏及び名を、氏名に併せて法第三十二条第一項の対象議決権保有届出書に記載した場合において、前号に掲げる書類が当該旧氏及び名を証するものでないときは、当該旧氏及び名を証する書面
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-38-p1-kou-3
     type: kou
-    text: 法人であるときは、登記事項証明書又はこれに代わる書面
+    text: 三　法人であるときは、登記事項証明書又はこれに代わる書面
     modality: unspecified
     item_number: 3
 cases: []

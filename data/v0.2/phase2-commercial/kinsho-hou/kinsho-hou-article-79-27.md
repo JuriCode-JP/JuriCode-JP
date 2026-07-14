@@ -40,8 +40,8 @@ paragraphs:
     text: 前項の規定により基金に加入する手続をとつた者は、同項の登録又は変更登録を受けた時に、当該基金の会員となる。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

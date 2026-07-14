@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: stalker-kisei-hou-art-5-p1-kou-1
     type: kou
-    text: 更に反復して当該行為をしてはならないこと。
+    text: 一　更に反復して当該行為をしてはならないこと。
     modality: unspecified
     item_number: 1
   - id: stalker-kisei-hou-art-5-p1-kou-2
     type: kou
-    text: 更に反復して当該行為が行われることを防止するために必要な事項
+    text: 二　更に反復して当該行為が行われることを防止するために必要な事項
     modality: unspecified
     item_number: 2
 - number: 2
@@ -173,8 +173,8 @@ paragraphs:
     text: 前項の場合において、同項の規定による措置を開始した日から起算して二週間を経過したときは、書類の送達があったものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 15
   has_proviso: false
   has_items: false

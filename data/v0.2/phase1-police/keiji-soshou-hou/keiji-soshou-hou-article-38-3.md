@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-38-3-p1-kou-1
     type: kou
-    text: 第三十条の規定により弁護人が選任されたことその他の事由により弁護人を付する必要がなくなつたとき。
+    text: 一　第三十条の規定により弁護人が選任されたことその他の事由により弁護人を付する必要がなくなつたとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-38-3-p1-kou-2
     type: kou
-    text: 被告人と弁護人との利益が相反する状況にあり弁護人にその職務を継続させることが相当でないとき。
+    text: 二　被告人と弁護人との利益が相反する状況にあり弁護人にその職務を継続させることが相当でないとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-38-3-p1-kou-3
     type: kou
-    text: 心身の故障その他の事由により、弁護人が職務を行うことができず、又は職務を行うことが困難となつたとき。
+    text: 三　心身の故障その他の事由により、弁護人が職務を行うことができず、又は職務を行うことが困難となつたとき。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-38-3-p1-kou-4
     type: kou
-    text: 弁護人がその任務に著しく反したことによりその職務を継続させることが相当でないとき。
+    text: 四　弁護人がその任務に著しく反したことによりその職務を継続させることが相当でないとき。
     modality: unspecified
     item_number: 4
   - id: keiji-soshou-hou-art-38-3-p1-kou-5
     type: kou
-    text: 弁護人に対する暴行、脅迫その他の被告人の責めに帰すべき事由により弁護人にその職務を継続させることが相当でないとき。
+    text: 五　弁護人に対する暴行、脅迫その他の被告人の責めに帰すべき事由により弁護人にその職務を継続させることが相当でないとき。
     modality: unspecified
     item_number: 5
 - number: 2

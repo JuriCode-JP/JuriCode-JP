@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-139-3-p2-kou-1
     type: kou
-    text: 前項の書面の閲覧の請求
+    text: 一　前項の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-139-3-p2-kou-2
     type: kou
-    text: 前項の書面の謄本又は抄本の交付の請求
+    text: 二　前項の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-139-3-p2-kou-3
     type: kou
-    text: 前項の電磁的記録に記録された事項を内閣府令で定める方法により表示したものの閲覧の請求
+    text: 三　前項の電磁的記録に記録された事項を内閣府令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-139-3-p2-kou-4
     type: kou
-    text: 前項の電磁的記録に記録された情報を電磁的方法であつて内閣府令で定めるものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前項の電磁的記録に記録された情報を電磁的方法であつて内閣府令で定めるものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 - number: 3
@@ -100,9 +100,9 @@ paragraphs:
     text: 吸収合併消滅会員金融商品取引所が前項において準用する第百一条の四第二項の規定による公告を、官報のほか、次項において準用する会社法第九百三十九条第一項の規定による定款の定めに従い、同項第二号に掲げる公告方法（会員金融商品取引所が公告（この法律の規定により官報に掲載する方法によりしなければならないものとされているものを除く。）をする方法をいう。以下この目において同じ。）によりするときは、前項において準用する第百一条の四第二項の規定による各別の催告は、することを要しない。
     modality: unspecified
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false

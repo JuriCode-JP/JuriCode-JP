@@ -43,27 +43,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-197-3-p3-kou-1
     type: kou
-    text: 法第六十七条の三第四項第三号に規定する役員等（以下この項及び次項第一号において「役員等」という。）の親族
+    text: 一　法第六十七条の三第四項第三号に規定する役員等（以下この項及び次項第一号において「役員等」という。）の親族
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-197-3-p3-kou-2
     type: kou
-    text: 役員等と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    text: 二　役員等と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-197-3-p3-kou-3
     type: kou
-    text: 役員等の使用人
+    text: 三　役員等の使用人
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-197-3-p3-kou-4
     type: kou
-    text: 前三号に掲げる者以外の者で役員等から受ける金銭その他の資産によつて生計を維持しているもの
+    text: 四　前三号に掲げる者以外の者で役員等から受ける金銭その他の資産によつて生計を維持しているもの
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-197-3-p3-kou-5
     type: kou
-    text: 前三号に掲げる者と生計を一にするこれらの者の親族
+    text: 五　前三号に掲げる者と生計を一にするこれらの者の親族
     modality: unspecified
     item_number: 5
 - number: 4
@@ -77,17 +77,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-197-3-p4-kou-1
     type: kou
-    text: 役員等（これと前項に規定する特殊の関係のある個人を含む。以下この項において「対象役員等」という。）が法人を支配している場合における当該法人
+    text: 一　役員等（これと前項に規定する特殊の関係のある個人を含む。以下この項において「対象役員等」という。）が法人を支配している場合における当該法人
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-197-3-p4-kou-2
     type: kou
-    text: 対象役員等及びこれと前号に規定する特殊の関係のある法人が他の法人を支配している場合における当該他の法人
+    text: 二　対象役員等及びこれと前号に規定する特殊の関係のある法人が他の法人を支配している場合における当該他の法人
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-197-3-p4-kou-3
     type: kou
-    text: 対象役員等及びこれと前二号に規定する特殊の関係のある法人が他の法人を支配している場合における当該他の法人
+    text: 三　対象役員等及びこれと前二号に規定する特殊の関係のある法人が他の法人を支配している場合における当該他の法人
     modality: unspecified
     item_number: 3
 - number: 5
@@ -100,8 +100,8 @@ paragraphs:
     text: 法人税法施行令第四条第三項（同族関係者の範囲）の規定は、前項第一号に規定する法人を支配している場合及び同項第二号又は第三号に規定する他の法人を支配している場合について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
@@ -141,8 +141,8 @@ paragraphs:
     text: 法第六十七条の三第二項に規定する収益の額は、第一項に規定する資産の同項の帳簿価額の合計額が同項に規定する負債の同項の帳簿価額の合計額を超える場合におけるその超える部分の金額に相当する金額とし、前項に規定する損失の額は、当該資産の帳簿価額の合計額が当該負債の帳簿価額の合計額に満たない場合におけるその満たない部分の金額に相当する金額とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 9
   has_proviso: false
   has_items: true
@@ -156,12 +156,12 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikkourei-art-197-3-p9-kou-1
     type: kou
-    text: 当該信託についての受益者等（法第六十七条の三第九項に規定する受益者等をいう。以下この項において同じ。）が一である場合には、当該信託に関する権利の全部を当該受益者等が有するものとみなす。
+    text: 一　当該信託についての受益者等（法第六十七条の三第九項に規定する受益者等をいう。以下この項において同じ。）が一である場合には、当該信託に関する権利の全部を当該受益者等が有するものとみなす。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-197-3-p9-kou-2
     type: kou
-    text: 当該信託についての受益者等が二以上ある場合には、当該信託に関する権利の全部をそれぞれの受益者等がその有する権利の内容に応じて有するものとみなす。
+    text: 二　当該信託についての受益者等が二以上ある場合には、当該信託に関する権利の全部をそれぞれの受益者等がその有する権利の内容に応じて有するものとみなす。
     modality: unspecified
     item_number: 2
 cases: []

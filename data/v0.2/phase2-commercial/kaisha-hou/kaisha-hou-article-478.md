@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-478-p1-kou-1
     type: kou
-    text: 取締役（次号又は第三号に掲げる者がある場合を除く。）
+    text: 一　取締役（次号又は第三号に掲げる者がある場合を除く。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-478-p1-kou-2
     type: kou
-    text: 定款で定める者
+    text: 二　定款で定める者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-478-p1-kou-3
     type: kou
-    text: 株主総会の決議によって選任された者
+    text: 三　株主総会の決議によって選任された者
     modality: unspecified
     item_number: 3
 - number: 2
@@ -102,17 +102,17 @@ paragraphs:
     - 第三百三十五条
   - id: kaisha-hou-art-478-p7-kou-1
     type: kou
-    text: その就任の前十年間当該監査等委員会設置会社若しくは指名委員会等設置会社又はその子会社の取締役（社外取締役を除く。）、会計参与（会計参与が法人であるときは、その職務を行うべき社員。次号において同じ。）若しくは執行役又は支配人その他の使用人であったことがないこと。
+    text: 一　その就任の前十年間当該監査等委員会設置会社若しくは指名委員会等設置会社又はその子会社の取締役（社外取締役を除く。）、会計参与（会計参与が法人であるときは、その職務を行うべき社員。次号において同じ。）若しくは執行役又は支配人その他の使用人であったことがないこと。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-478-p7-kou-2
     type: kou
-    text: その就任の前十年内のいずれかの時において当該監査等委員会設置会社若しくは指名委員会等設置会社又はその子会社の社外取締役又は監査役であったことがある者にあっては、当該社外取締役又は監査役への就任の前十年間当該監査等委員会設置会社若しくは指名委員会等設置会社又はその子会社の取締役（社外取締役を除く。）、会計参与若しくは執行役又は支配人その他の使用人であったことがないこと。
+    text: 二　その就任の前十年内のいずれかの時において当該監査等委員会設置会社若しくは指名委員会等設置会社又はその子会社の社外取締役又は監査役であったことがある者にあっては、当該社外取締役又は監査役への就任の前十年間当該監査等委員会設置会社若しくは指名委員会等設置会社又はその子会社の取締役（社外取締役を除く。）、会計参与若しくは執行役又は支配人その他の使用人であったことがないこと。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-478-p7-kou-3
     type: kou
-    text: 第二条第十六号ハからホまでに掲げる要件
+    text: 三　第二条第十六号ハからホまでに掲げる要件
     modality: unspecified
     item_number: 3
 - number: 8

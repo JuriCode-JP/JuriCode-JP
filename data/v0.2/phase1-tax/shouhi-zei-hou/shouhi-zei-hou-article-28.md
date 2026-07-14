@@ -45,12 +45,12 @@ paragraphs:
     modality: unspecified
   - id: shouhi-zei-hou-art-28-p3-kou-1
     type: kou
-    text: 第四条第五項第一号に掲げる消費又は使用　当該消費又は使用の時における当該消費し、又は使用した資産の価額に相当する金額
+    text: 一　第四条第五項第一号に掲げる消費又は使用　当該消費又は使用の時における当該消費し、又は使用した資産の価額に相当する金額
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-28-p3-kou-2
     type: kou
-    text: 第四条第五項第二号に掲げる贈与　当該贈与の時における当該贈与をした資産の価額に相当する金額
+    text: 二　第四条第五項第二号に掲げる贈与　当該贈与の時における当該贈与をした資産の価額に相当する金額
     modality: unspecified
     item_number: 2
 - number: 4

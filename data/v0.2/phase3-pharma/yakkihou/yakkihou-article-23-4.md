@@ -34,32 +34,32 @@ paragraphs:
     - 前項
   - id: yakkihou-art-23-4-p2-kou-1
     type: kou
-    text: 第二十三条の二第一項の許可（基準適合性認証を受けた品目の種類に応じた許可に限る。）について、同条第四項の規定によりその効力が失われたとき、又は第七十五条第一項の規定により取り消されたとき。
+    text: 一　第二十三条の二第一項の許可（基準適合性認証を受けた品目の種類に応じた許可に限る。）について、同条第四項の規定によりその効力が失われたとき、又は第七十五条第一項の規定により取り消されたとき。
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-23-4-p2-kou-2
     type: kou
-    text: 第二十三条の二の二十三第三項に規定する申請書若しくは添付資料のうちに虚偽の記載があり、又は重要な事実の記載が欠けていることが判明したとき。
+    text: 二　第二十三条の二の二十三第三項に規定する申請書若しくは添付資料のうちに虚偽の記載があり、又は重要な事実の記載が欠けていることが判明したとき。
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-23-4-p2-kou-3
     type: kou
-    text: 第二十三条の二の二十三第二項第五号に該当するに至つたとき。
+    text: 三　第二十三条の二の二十三第二項第五号に該当するに至つたとき。
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-23-4-p2-kou-4
     type: kou
-    text: 第二十三条の二の二十三第四項又は第六項の規定に違反したとき。
+    text: 四　第二十三条の二の二十三第四項又は第六項の規定に違反したとき。
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-23-4-p2-kou-5
     type: kou
-    text: 基準適合性認証を受けた指定高度管理医療機器等について正当な理由がなく引き続く三年間製造販売をしていないとき。
+    text: 五　基準適合性認証を受けた指定高度管理医療機器等について正当な理由がなく引き続く三年間製造販売をしていないとき。
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-23-4-p2-kou-6
     type: kou
-    text: 第二十三条の三第一項の規定により選任した製造販売業者が欠けた場合において、新たに製造販売業者を選任しなかつたとき。
+    text: 六　第二十三条の三第一項の規定により選任した製造販売業者が欠けた場合において、新たに製造販売業者を選任しなかつたとき。
     modality: unspecified
     item_number: 6
 cases: []

@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の場合には、同項の税務署長は、直ちに、再調査の請求書を当該税務署長の管轄区域を所轄する国税局長に送付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

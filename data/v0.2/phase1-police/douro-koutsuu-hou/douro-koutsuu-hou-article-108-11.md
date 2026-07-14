@@ -32,12 +32,12 @@ paragraphs:
     modality: koka_torikeshi
   - id: douro-koutsuu-hou-art-108-11-p2-kou-1
     type: kou
-    text: 第百八条の五第一項若しくは第二項、第百八条の六第一項又は前条の規定に違反したとき。
+    text: 一　第百八条の五第一項若しくは第二項、第百八条の六第一項又は前条の規定に違反したとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-108-11-p2-kou-2
     type: kou
-    text: 第百八条の五第三項又は第百八条の八第一項若しくは第二項の規定による命令に違反したとき。
+    text: 二　第百八条の五第三項又は第百八条の八第一項若しくは第二項の規定による命令に違反したとき。
     modality: unspecified
     item_number: 2
 cases: []

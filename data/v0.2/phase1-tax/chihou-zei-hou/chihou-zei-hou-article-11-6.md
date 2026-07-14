@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-11-6-p1-kou-1
     type: kou
-    text: 納税者又は特別徴収義務者が個人である場合　その者と生計を一にする配偶者その他の親族で納税者又は特別徴収義務者の経営する事業から所得を受けているもの
+    text: 一　納税者又は特別徴収義務者が個人である場合　その者と生計を一にする配偶者その他の親族で納税者又は特別徴収義務者の経営する事業から所得を受けているもの
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-11-6-p1-kou-2
     type: kou
-    text: 納税者又は特別徴収義務者がその事実があつた時の現況において同族会社である場合　その判定の基礎となつた株主又は社員
+    text: 二　納税者又は特別徴収義務者がその事実があつた時の現況において同族会社である場合　その判定の基礎となつた株主又は社員
     modality: unspecified
     item_number: 2
 cases: []

@@ -34,12 +34,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-6-p2-kou-1
     type: kou
-    text: 法第十四条第二項に規定する政令で定めるものに係る建築基準法（昭和二十五年法律第二百一号）第六条第一項に規定する確認済証の写し及び同法第七条第五項に規定する検査済証の写し
+    text: 一　法第十四条第二項に規定する政令で定めるものに係る建築基準法（昭和二十五年法律第二百一号）第六条第一項に規定する確認済証の写し及び同法第七条第五項に規定する検査済証の写し
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-6-p2-kou-2
     type: kou
-    text: 前項の国土交通大臣の証する書類
+    text: 二　前項の国土交通大臣の証する書類
     modality: unspecified
     item_number: 2
 cases: []

@@ -65,27 +65,27 @@ paragraphs:
     modality: jogai
   - id: chihou-zei-hou-art-433-p5-kou-1
     type: kou
-    text: 具体的又は個別的でない照会
+    text: 一　具体的又は個別的でない照会
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-433-p5-kou-2
     type: kou
-    text: 既にした照会と重複する照会
+    text: 二　既にした照会と重複する照会
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-433-p5-kou-3
     type: kou
-    text: 意見を求める照会
+    text: 三　意見を求める照会
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-433-p5-kou-4
     type: kou
-    text: 回答するために不相当な費用又は時間を要する照会
+    text: 四　回答するために不相当な費用又は時間を要する照会
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-433-p5-kou-5
     type: kou
-    text: 当該審査を申し出た者以外の者が所有者である固定資産に関する事項についての照会
+    text: 五　当該審査を申し出た者以外の者が所有者である固定資産に関する事項についての照会
     modality: unspecified
     item_number: 5
 - number: 6
@@ -153,8 +153,8 @@ paragraphs:
     - 第五十三条
     - 第四十四条
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 12
   has_proviso: false
   has_items: false

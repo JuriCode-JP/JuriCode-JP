@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: gyousei-tetsuzuki-hou-art-15-p1-kou-1
     type: kou
-    text: 予定される不利益処分の内容及び根拠となる法令の条項
+    text: 一　予定される不利益処分の内容及び根拠となる法令の条項
     modality: unspecified
     item_number: 1
   - id: gyousei-tetsuzuki-hou-art-15-p1-kou-2
     type: kou
-    text: 不利益処分の原因となる事実
+    text: 二　不利益処分の原因となる事実
     modality: unspecified
     item_number: 2
   - id: gyousei-tetsuzuki-hou-art-15-p1-kou-3
     type: kou
-    text: 聴聞の期日及び場所
+    text: 三　聴聞の期日及び場所
     modality: unspecified
     item_number: 3
   - id: gyousei-tetsuzuki-hou-art-15-p1-kou-4
     type: kou
-    text: 聴聞に関する事務を所掌する組織の名称及び所在地
+    text: 四　聴聞に関する事務を所掌する組織の名称及び所在地
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,12 +54,12 @@ paragraphs:
     - 前項
   - id: gyousei-tetsuzuki-hou-art-15-p2-kou-1
     type: kou
-    text: 聴聞の期日に出頭して意見を述べ、及び証拠書類又は証拠物（以下「証拠書類等」という。）を提出し、又は聴聞の期日への出頭に代えて陳述書及び証拠書類等を提出することができること。
+    text: 一　聴聞の期日に出頭して意見を述べ、及び証拠書類又は証拠物（以下「証拠書類等」という。）を提出し、又は聴聞の期日への出頭に代えて陳述書及び証拠書類等を提出することができること。
     modality: unspecified
     item_number: 1
   - id: gyousei-tetsuzuki-hou-art-15-p2-kou-2
     type: kou
-    text: 聴聞が終結する時までの間、当該不利益処分の原因となる事実を証する資料の閲覧を求めることができること。
+    text: 二　聴聞が終結する時までの間、当該不利益処分の原因となる事実を証する資料の閲覧を求めることができること。
     modality: unspecified
     item_number: 2
 - number: 3

@@ -37,37 +37,37 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-324-p2-kou-1
     type: kou
-    text: 第百十一条第二項の種類株主総会（ある種類の株式の内容として第百八条第一項第七号に掲げる事項についての定款の定めを設ける場合に限る。）
+    text: 一　第百十一条第二項の種類株主総会（ある種類の株式の内容として第百八条第一項第七号に掲げる事項についての定款の定めを設ける場合に限る。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-324-p2-kou-2
     type: kou
-    text: 第百九十九条第四項及び第二百条第四項の種類株主総会
+    text: 二　第百九十九条第四項及び第二百条第四項の種類株主総会
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-324-p2-kou-3
     type: kou
-    text: 第二百三十八条第四項及び第二百三十九条第四項の種類株主総会
+    text: 三　第二百三十八条第四項及び第二百三十九条第四項の種類株主総会
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-324-p2-kou-4
     type: kou
-    text: 第三百二十二条第一項の種類株主総会
+    text: 四　第三百二十二条第一項の種類株主総会
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-324-p2-kou-5
     type: kou
-    text: 第三百四十七条第二項の規定により読み替えて適用する第三百三十九条第一項の種類株主総会
+    text: 五　第三百四十七条第二項の規定により読み替えて適用する第三百三十九条第一項の種類株主総会
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-324-p2-kou-6
     type: kou
-    text: 第七百九十五条第四項の種類株主総会
+    text: 六　第七百九十五条第四項の種類株主総会
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-324-p2-kou-7
     type: kou
-    text: 第八百十六条の三第三項の種類株主総会
+    text: 七　第八百十六条の三第三項の種類株主総会
     modality: unspecified
     item_number: 7
 - number: 3
@@ -83,12 +83,12 @@ paragraphs:
     - 前二項
   - id: kaisha-hou-art-324-p3-kou-1
     type: kou
-    text: 第百十一条第二項の種類株主総会（ある種類の株式の内容として第百八条第一項第四号に掲げる事項についての定款の定めを設ける場合に限る。）
+    text: 一　第百十一条第二項の種類株主総会（ある種類の株式の内容として第百八条第一項第四号に掲げる事項についての定款の定めを設ける場合に限る。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-324-p3-kou-2
     type: kou
-    text: 第七百八十三条第三項及び第八百四条第三項の種類株主総会
+    text: 二　第七百八十三条第三項及び第八百四条第三項の種類株主総会
     modality: unspecified
     item_number: 2
 cases: []

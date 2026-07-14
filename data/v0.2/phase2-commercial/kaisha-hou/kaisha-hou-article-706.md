@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-706-p1-kou-1
     type: kou
-    text: 当該社債の全部についてするその支払の猶予、その債務若しくはその債務の不履行によって生じた責任の免除又は和解（次号に掲げる行為を除く。）
+    text: 一　当該社債の全部についてするその支払の猶予、その債務若しくはその債務の不履行によって生じた責任の免除又は和解（次号に掲げる行為を除く。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-706-p1-kou-2
     type: kou
-    text: 当該社債の全部についてする訴訟行為又は破産手続、再生手続、更生手続若しくは特別清算に関する手続に属する行為（前条第一項の行為を除く。）
+    text: 二　当該社債の全部についてする訴訟行為又は破産手続、再生手続、更生手続若しくは特別清算に関する手続に属する行為（前条第一項の行為を除く。）
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 社債管理者は、前項ただし書の規定により社債権者集会の決議によらずに同項第二号に掲げる行為をしたときは、遅滞なく、その旨を公告し、かつ、知れている社債権者には、各別にこれを通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false

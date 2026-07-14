@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-5-p1-kou-1
     type: kou
-    text: 会社等の資産、売上高（役務収益を含む。）、損益、利益剰余金、キャッシュ・フローその他の項目からみて、連結の範囲から除いても企業集団の財政状態、経営成績及びキャッシュ・フローの状況に関する合理的な判断を妨げない程度に重要性の乏しいこと。
+    text: 一　会社等の資産、売上高（役務収益を含む。）、損益、利益剰余金、キャッシュ・フローその他の項目からみて、連結の範囲から除いても企業集団の財政状態、経営成績及びキャッシュ・フローの状況に関する合理的な判断を妨げない程度に重要性の乏しいこと。
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-5-p1-kou-2
     type: kou
-    text: 会社等の持分が譲渡することを目的として保有されていること。
+    text: 二　会社等の持分が譲渡することを目的として保有されていること。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-27-6-p1-kou-1
     type: kou
-    text: 特定有価証券の売付け
+    text: 一　特定有価証券の売付け
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-27-6-p1-kou-2
     type: kou
-    text: 関連有価証券の売付け（特定有価証券の売買に係るオプションを表示する関連有価証券については、当該オプションの行使により当該行使をした者が当該売買において買主としての地位を取得するものに限る。）
+    text: 二　関連有価証券の売付け（特定有価証券の売買に係るオプションを表示する関連有価証券については、当該オプションの行使により当該行使をした者が当該売買において買主としての地位を取得するものに限る。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-27-6-p1-kou-3
     type: kou
-    text: 特定有価証券の売買に係るオプションを表示する関連有価証券の買付けであつて当該オプションの行使により当該行使をした者が当該売買において売主としての地位を取得するもの
+    text: 三　特定有価証券の売買に係るオプションを表示する関連有価証券の買付けであつて当該オプションの行使により当該行使をした者が当該売買において売主としての地位を取得するもの
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-27-6-p1-kou-4
     type: kou
-    text: その他前三号に掲げる取引に準ずるものとして内閣府令で定めるもの
+    text: 四　その他前三号に掲げる取引に準ずるものとして内閣府令で定めるもの
     modality: unspecified
     item_number: 4
 cases: []

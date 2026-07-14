@@ -31,8 +31,8 @@ paragraphs:
     text: 税務署長は、前項の期限までに同項の一定の事項の履行がない場合には、第四十二条第三十項の規定による通知をした日の翌日から起算して五年を経過する日までに前項の規定による通知をしたときに限り、同条第二項（第四十五条第二項において準用する場合を含む。）の規定による物納の許可を取り消すことができる。
     modality: koka_torikeshi
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

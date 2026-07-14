@@ -103,6 +103,10 @@ paragraphs:
     modality: unspecified
     references:
     - 同項
+  - id: douro-koutsuu-hou-art-63-supplnote-1
+    type: supplnote
+    text: （罰則　第一項前段については第百十九条第一項第十一号　第二項については第百十九条第一項第十二号　第七項については第百二十一条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

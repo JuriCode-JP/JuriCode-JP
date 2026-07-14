@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-22-2-p1-kou-1
     type: kou
-    text: 内国法人について再生計画認可の決定があつたこと　当該決定があつた旨を証する書類及び令第六十八条の二第四項第一号（再生計画認可の決定に準ずる事実等）に規定する価額の算定の根拠を明らかにする事項を記載した書類
+    text: 一　内国法人について再生計画認可の決定があつたこと　当該決定があつた旨を証する書類及び令第六十八条の二第四項第一号（再生計画認可の決定に準ずる事実等）に規定する価額の算定の根拠を明らかにする事項を記載した書類
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-22-2-p1-kou-2
     type: kou
-    text: 法第三十三条第四項に規定する政令で定める事実　第八条の六第三項第二号イ及びロ（資産の評価益の益金算入に関する書類等）に掲げる書類
+    text: 二　法第三十三条第四項に規定する政令で定める事実　第八条の六第三項第二号イ及びロ（資産の評価益の益金算入に関する書類等）に掲げる書類
     modality: unspecified
     item_number: 2
 cases: []

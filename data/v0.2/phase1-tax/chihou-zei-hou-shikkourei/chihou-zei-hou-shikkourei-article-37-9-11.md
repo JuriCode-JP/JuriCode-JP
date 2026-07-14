@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-37-9-11-p2-kou-1
     type: kou
-    text: 事務所の用に供する不動産
+    text: 一　事務所の用に供する不動産
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-37-9-11-p2-kou-2
     type: kou
-    text: 宿舎（業務上宿舎を使用すべき義務がある者が使用するものとされている宿舎を除く。）の用に供する不動産
+    text: 二　宿舎（業務上宿舎を使用すべき義務がある者が使用するものとされている宿舎を除く。）の用に供する不動産
     modality: unspecified
     item_number: 2
 cases: []

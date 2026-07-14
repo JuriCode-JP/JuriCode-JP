@@ -56,6 +56,10 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-18-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百十九条第一項第六号　第三項については第百十七条の二第一項第四号、第百十七条の二の二第一項第八号ロ、第百十九条第一項第六号　第四項については第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

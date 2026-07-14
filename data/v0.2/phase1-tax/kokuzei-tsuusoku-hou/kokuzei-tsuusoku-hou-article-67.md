@@ -22,8 +22,8 @@ paragraphs:
     text: 源泉徴収等による国税がその法定納期限までに完納されなかつた場合には、税務署長又は税関長は、当該納税者から、納税の告知（第三十六条第一項（納税の告知）の規定による納税の告知（同項第二号に係るものに限る。）をいう。次項において同じ。）に係る税額又はその法定納期限後に当該告知を受けることなく納付された税額に百分の十の割合を乗じて計算した金額に相当する不納付加算税を徴収する。
     modality: unspecified
     references:
-    - 同項
     - 次項
+    - 同項
   - id: kokuzei-tsuusoku-hou-art-67-p1-tadashi
     type: tadashi
     text: ただし、当該告知又は納付に係る国税を法定納期限までに納付しなかつたことについて正当な理由があると認められる場合は、この限りでない。
@@ -41,8 +41,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

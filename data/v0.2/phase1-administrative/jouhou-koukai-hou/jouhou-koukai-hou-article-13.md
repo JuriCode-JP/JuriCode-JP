@@ -32,12 +32,12 @@ paragraphs:
     modality: jogai
   - id: jouhou-koukai-hou-art-13-p2-kou-1
     type: kou
-    text: 第三者に関する情報が記録されている行政文書を開示しようとする場合であって、当該情報が第五条第一号ロ又は同条第二号ただし書に規定する情報に該当すると認められるとき。
+    text: 一　第三者に関する情報が記録されている行政文書を開示しようとする場合であって、当該情報が第五条第一号ロ又は同条第二号ただし書に規定する情報に該当すると認められるとき。
     modality: unspecified
     item_number: 1
   - id: jouhou-koukai-hou-art-13-p2-kou-2
     type: kou
-    text: 第三者に関する情報が記録されている行政文書を第七条の規定により開示しようとするとき。
+    text: 二　第三者に関する情報が記録されている行政文書を第七条の規定により開示しようとするとき。
     modality: unspecified
     item_number: 2
 - number: 3

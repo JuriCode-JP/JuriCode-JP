@@ -48,6 +48,10 @@ paragraphs:
     modality: unspecified
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-82-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条第二項第九号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

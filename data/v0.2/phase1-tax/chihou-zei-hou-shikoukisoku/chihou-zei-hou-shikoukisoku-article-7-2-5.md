@@ -25,42 +25,42 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p1-kou-1
     type: kou
-    text: 申告者の氏名又は名称、法第七十二条の七十八第二項各号に掲げる事業者の区分に応じ当該各号に定める場所（当該場所と住所等とが異なる場合には、当該場所及び住所等。以下この号において同じ。）及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び法第七十二条の七十八第二項各号に掲げる事業者の区分に応じ当該各号に定める場所）
+    text: 一　申告者の氏名又は名称、法第七十二条の七十八第二項各号に掲げる事業者の区分に応じ当該各号に定める場所（当該場所と住所等とが異なる場合には、当該場所及び住所等。以下この号において同じ。）及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び法第七十二条の七十八第二項各号に掲げる事業者の区分に応じ当該各号に定める場所）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p1-kou-2
     type: kou
-    text: 当該申告書に係る課税期間の初日及び末日の年月日
+    text: 二　当該申告書に係る課税期間の初日及び末日の年月日
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p1-kou-3
     type: kou
-    text: 当該課税期間に係る法第七十二条の八十八第一項に規定する消費税額
+    text: 三　当該課税期間に係る法第七十二条の八十八第一項に規定する消費税額
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p1-kou-4
     type: kou
-    text: 前号に掲げる消費税額を課税標準として算定した譲渡割額
+    text: 四　前号に掲げる消費税額を課税標準として算定した譲渡割額
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p1-kou-5
     type: kou
-    text: その事業者が当該課税期間につき法第七十二条の八十七各項の規定により譲渡割を納付すべき者である場合には、当該課税期間に係る法第七十二条の八十八第一項に規定する譲渡割の中間納付額
+    text: 五　その事業者が当該課税期間につき法第七十二条の八十七各項の規定により譲渡割を納付すべき者である場合には、当該課税期間に係る法第七十二条の八十八第一項に規定する譲渡割の中間納付額
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p1-kou-6
     type: kou
-    text: 前号に規定する場合にあつては、第四号に掲げる譲渡割額から前号に掲げる譲渡割の中間納付額を控除した額
+    text: 六　前号に規定する場合にあつては、第四号に掲げる譲渡割額から前号に掲げる譲渡割の中間納付額を控除した額
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p1-kou-7
     type: kou
-    text: 第四号に掲げる譲渡割額から第五号に掲げる譲渡割の中間納付額を控除してなお不足額があるときは、当該不足額
+    text: 七　第四号に掲げる譲渡割額から第五号に掲げる譲渡割の中間納付額を控除してなお不足額があるときは、当該不足額
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p1-kou-8
     type: kou
-    text: その他参考となるべき事項
+    text: 八　その他参考となるべき事項
     modality: unspecified
     item_number: 8
 - number: 2
@@ -76,32 +76,32 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p2-kou-1
     type: kou
-    text: 申告者の氏名又は名称、法第七十二条の七十八第二項各号に掲げる事業者の区分に応じ当該各号に定める場所（当該場所と住所等とが異なる場合には、当該場所及び住所等。以下この号において同じ。）及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び法第七十二条の七十八第二項各号に掲げる事業者の区分に応じ当該各号に定める場所）
+    text: 一　申告者の氏名又は名称、法第七十二条の七十八第二項各号に掲げる事業者の区分に応じ当該各号に定める場所（当該場所と住所等とが異なる場合には、当該場所及び住所等。以下この号において同じ。）及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び法第七十二条の七十八第二項各号に掲げる事業者の区分に応じ当該各号に定める場所）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p2-kou-2
     type: kou
-    text: 当該申告書に係る課税期間の初日及び末日の年月日
+    text: 二　当該申告書に係る課税期間の初日及び末日の年月日
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p2-kou-3
     type: kou
-    text: 当該課税期間に係る法第七十二条の八十八第二項に規定する不足額
+    text: 三　当該課税期間に係る法第七十二条の八十八第二項に規定する不足額
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p2-kou-4
     type: kou
-    text: 前号に掲げる不足額に七十八分の二十二を乗じて得た金額
+    text: 四　前号に掲げる不足額に七十八分の二十二を乗じて得た金額
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p2-kou-5
     type: kou
-    text: その事業者が当該課税期間につき法第七十二条の八十七各項の規定により譲渡割を納付すべき者である場合には、当該課税期間に係る法第七十二条の八十八第一項に規定する譲渡割の中間納付額
+    text: 五　その事業者が当該課税期間につき法第七十二条の八十七各項の規定により譲渡割を納付すべき者である場合には、当該課税期間に係る法第七十二条の八十八第一項に規定する譲渡割の中間納付額
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-7-2-5-p2-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

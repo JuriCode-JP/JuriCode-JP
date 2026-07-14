@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-574-p1-kou-1
     type: kou
-    text: 協定の見込みがないとき。
+    text: 一　協定の見込みがないとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-574-p1-kou-2
     type: kou
-    text: 協定の実行の見込みがないとき。
+    text: 二　協定の実行の見込みがないとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-574-p1-kou-3
     type: kou
-    text: 特別清算によることが債権者の一般の利益に反するとき。
+    text: 三　特別清算によることが債権者の一般の利益に反するとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,12 +47,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-574-p2-kou-1
     type: kou
-    text: 協定が否決されたとき。
+    text: 一　協定が否決されたとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-574-p2-kou-2
     type: kou
-    text: 協定の不認可の決定が確定したとき。
+    text: 二　協定の不認可の決定が確定したとき。
     modality: unspecified
     item_number: 2
 - number: 3
@@ -68,12 +68,12 @@ paragraphs:
     - 前二項
   - id: kaisha-hou-art-574-p3-kou-1
     type: kou
-    text: 特別清算開始の申立ての前に特別清算開始の命令の確定によって効力を失った破産手続における破産手続開始の申立てがある場合　当該破産手続開始の申立て
+    text: 一　特別清算開始の申立ての前に特別清算開始の命令の確定によって効力を失った破産手続における破産手続開始の申立てがある場合　当該破産手続開始の申立て
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-574-p3-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　特別清算開始の申立て
+    text: 二　前号に掲げる場合以外の場合　特別清算開始の申立て
     modality: unspecified
     item_number: 2
 - number: 4

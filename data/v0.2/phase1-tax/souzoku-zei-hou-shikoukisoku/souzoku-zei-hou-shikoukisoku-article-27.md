@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-27-p1-kou-1
     type: kou
-    text: 法第四十八条第一項の規定により履行を求める事項
+    text: 一　法第四十八条第一項の規定により履行を求める事項
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-27-p1-kou-2
     type: kou
-    text: 法第四十八条第一項の規定による期限
+    text: 二　法第四十八条第一項の規定による期限
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-27-p1-kou-3
     type: kou
-    text: 法第四十二条第三十項（法第四十五条第二項又は第四十八条の二第六項において準用する場合を含む。次号において同じ。）に規定する条件に係る物納財産の種類及び所在場所
+    text: 三　法第四十二条第三十項（法第四十五条第二項又は第四十八条の二第六項において準用する場合を含む。次号において同じ。）に規定する条件に係る物納財産の種類及び所在場所
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikoukisoku-art-27-p1-kou-4
     type: kou
-    text: 法第四十二条第三十項の規定による通知をした日
+    text: 四　法第四十二条第三十項の規定による通知をした日
     modality: unspecified
     item_number: 4
   - id: souzoku-zei-hou-shikoukisoku-art-27-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

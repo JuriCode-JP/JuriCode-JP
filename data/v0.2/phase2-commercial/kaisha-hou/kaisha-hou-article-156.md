@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-156-p1-kou-1
     type: kou
-    text: 取得する株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
+    text: 一　取得する株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-156-p1-kou-2
     type: kou
-    text: 株式を取得するのと引換えに交付する金銭等（当該株式会社の株式等を除く。以下この款において同じ。）の内容及びその総額
+    text: 二　株式を取得するのと引換えに交付する金銭等（当該株式会社の株式等を除く。以下この款において同じ。）の内容及びその総額
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-156-p1-kou-3
     type: kou
-    text: 株式を取得することができる期間
+    text: 三　株式を取得することができる期間
     modality: unspecified
     item_number: 3
 - number: 2

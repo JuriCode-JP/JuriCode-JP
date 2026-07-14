@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-art-27-30-5-p1-kou-1
     type: kou
-    text: 第二十七条の三十の二の電子計算機の故障その他政令で定める事由があると認められるとき。
+    text: 一　第二十七条の三十の二の電子計算機の故障その他政令で定める事由があると認められるとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-27-30-5-p1-kou-2
     type: kou
-    text: 開示用電子情報処理組織を使用して電子開示手続を行うことが著しく困難であると認められるとき。
+    text: 二　開示用電子情報処理組織を使用して電子開示手続を行うことが著しく困難であると認められるとき。
     modality: unspecified
     item_number: 2
 - number: 2

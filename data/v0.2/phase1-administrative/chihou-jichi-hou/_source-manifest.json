@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\322AC0000000067.xml",
   "source_xml_sha256": "8f6c436b87894e6d38dd763bd4784b174acbe0f5c89531666206029ca023c4be",
   "source_xml_bytes": 2465966,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:57:40+00:00",
+  "parsed_at": "2026-07-14T01:43:38+00:00",
   "version_date": "1947-04-17",
   "article_count": 516,
   "articles": [
@@ -3458,8 +3458,8 @@
       "article_id": "chihou-jichi-hou-art-282",
       "article_number": "282",
       "filename": "chihou-jichi-hou-article-282.md",
-      "ja_text_sha256": "d602f793b70e8e66c57fc6c21505da8769dd97973cedc501dd2b6797dcdc4954",
-      "ja_text_bytes": 1881,
+      "ja_text_sha256": "05d60827d0384cfaaa654a8a69bde63e3bf01194351e317187338caba55d8e39",
+      "ja_text_bytes": 1875,
       "paragraph_count": 4
     },
     {
@@ -4026,8 +4026,8 @@
       "article_id": "chihou-jichi-hou-art-9-3",
       "article_number": "9-3",
       "filename": "chihou-jichi-hou-article-9-3.md",
-      "ja_text_sha256": "935036b106adcc1475519f9144344f654bc72729527577c451ab70292cade13f",
-      "ja_text_bytes": 1891,
+      "ja_text_sha256": "0275c50c0ab8506edd3c3ed1018e60441013d86d34a78a0ab1bf1df92d8317b8",
+      "ja_text_bytes": 1882,
       "paragraph_count": 6
     },
     {

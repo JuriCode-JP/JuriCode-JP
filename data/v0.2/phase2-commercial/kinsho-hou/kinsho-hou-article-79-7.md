@@ -25,17 +25,17 @@ paragraphs:
     - 次条
   - id: kinsho-hou-art-79-7-p1-kou-1
     type: kou
-    text: 金融商品取引業者又は金融商品仲介業者の行う金融商品取引業に対する苦情の解決
+    text: 一　金融商品取引業者又は金融商品仲介業者の行う金融商品取引業に対する苦情の解決
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-7-p1-kou-2
     type: kou
-    text: 金融商品取引業者又は金融商品仲介業者の行う金融商品取引業に争いがある場合のあつせん
+    text: 二　金融商品取引業者又は金融商品仲介業者の行う金融商品取引業に争いがある場合のあつせん
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-79-7-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、金融商品取引業の健全な発展又は投資者の保護に資する業務
+    text: 三　前二号に掲げるもののほか、金融商品取引業の健全な発展又は投資者の保護に資する業務
     modality: unspecified
     item_number: 3
 - number: 2

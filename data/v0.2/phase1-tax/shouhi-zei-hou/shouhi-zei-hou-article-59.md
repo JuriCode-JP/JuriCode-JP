@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: shouhi-zei-hou-art-59-p1-kou-1
     type: kou
-    text: 第四十二条第一項、第四項若しくは第六項、第四十五条第一項又は第四十七条第一項（同条第三項の場合に限る。）の規定による申告の義務
+    text: 一　第四十二条第一項、第四項若しくは第六項、第四十五条第一項又は第四十七条第一項（同条第三項の場合に限る。）の規定による申告の義務
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-59-p1-kou-2
     type: kou
-    text: 前条の規定による記録及び帳簿の保存の義務
+    text: 二　前条の規定による記録及び帳簿の保存の義務
     modality: unspecified
     item_number: 2
 cases: []

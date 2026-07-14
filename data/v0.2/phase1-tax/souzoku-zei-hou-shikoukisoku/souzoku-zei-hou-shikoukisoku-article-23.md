@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-23-p1-kou-1
     type: kou
-    text: 物納の許可をされた者に係る第十三条第一項第三号に掲げる事項（個人番号を除く。）
+    text: 一　物納の許可をされた者に係る第十三条第一項第三号に掲げる事項（個人番号を除く。）
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-23-p1-kou-2
     type: kou
-    text: 振替の申請年月日
+    text: 二　振替の申請年月日
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-23-p1-kou-3
     type: kou
-    text: 振替の申請をした施行令第二十条第二項に規定する振替社債等の銘柄及び金額
+    text: 三　振替の申請をした施行令第二十条第二項に規定する振替社債等の銘柄及び金額
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikoukisoku-art-23-p1-kou-4
     type: kou
-    text: 振替の申請をした口座管理機関（社債、株式等の振替に関する法律第二条第四項（定義）に規定する口座管理機関をいう。）の営業所、事務所その他これらに準ずるものの名称及び所在地
+    text: 四　振替の申請をした口座管理機関（社債、株式等の振替に関する法律第二条第四項（定義）に規定する口座管理機関をいう。）の営業所、事務所その他これらに準ずるものの名称及び所在地
     modality: unspecified
     item_number: 4
   - id: souzoku-zei-hou-shikoukisoku-art-23-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

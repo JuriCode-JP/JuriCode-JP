@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: sochi-hou-art-53-p1-kou-1
     type: kou
-    text: 第四十二条の九の規定
+    text: 一　第四十二条の九の規定
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-53-p1-kou-2
     type: kou
-    text: 第四十二条の六、第四十二条の十から第四十二条の十二まで、第四十二条の十二の四、第四十二条の十二の六又は第四十三条から第四十七条までの規定
+    text: 二　第四十二条の六、第四十二条の十から第四十二条の十二まで、第四十二条の十二の四、第四十二条の十二の六又は第四十三条から第四十七条までの規定
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-53-p1-kou-3
     type: kou
-    text: 前号に掲げる規定に係る前条の規定
+    text: 三　前号に掲げる規定に係る前条の規定
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-53-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、減価償却資産に関する特例を定めている規定として政令で定める規定
+    text: 四　前三号に掲げるもののほか、減価償却資産に関する特例を定めている規定として政令で定める規定
     modality: unspecified
     item_number: 4
 - number: 2

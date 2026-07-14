@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-teigi-furei-art-26-p1-kou-1
     type: kou
-    text: 金融商品取引所
+    text: 一　金融商品取引所
     modality: unspecified
     item_number: 1
   - id: kinsho-teigi-furei-art-26-p1-kou-2
     type: kou
-    text: 法第三十条第一項の認可を受けた金融商品取引業者
+    text: 二　法第三十条第一項の認可を受けた金融商品取引業者
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-teigi-furei-art-26-p2-kou-1
     type: kou
-    text: 法第二条第四十一項の伝達に係る同項の判断を行う電子情報処理組織が設置されている施設が、前項に定める者が当該伝達を受けるための電子情報処理組織を設置する場所（これに隣接し、又は近接する場所を含む。）に所在すること。
+    text: 一　法第二条第四十一項の伝達に係る同項の判断を行う電子情報処理組織が設置されている施設が、前項に定める者が当該伝達を受けるための電子情報処理組織を設置する場所（これに隣接し、又は近接する場所を含む。）に所在すること。
     modality: unspecified
     item_number: 1
   - id: kinsho-teigi-furei-art-26-p2-kou-2
     type: kou
-    text: 法第二条第四十一項の伝達が他の伝達（有価証券の売買又は市場デリバティブ取引を行うために必要な情報の前項に定める者に対する伝達をいう。）と競合することを防ぐ仕組みが講じられていること。
+    text: 二　法第二条第四十一項の伝達が他の伝達（有価証券の売買又は市場デリバティブ取引を行うために必要な情報の前項に定める者に対する伝達をいう。）と競合することを防ぐ仕組みが講じられていること。
     modality: unspecified
     item_number: 2
 cases: []

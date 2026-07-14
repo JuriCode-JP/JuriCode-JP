@@ -76,22 +76,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-10-2-8-p6-kou-1
     type: kou
-    text: 申請をする内国法人の名称、事務所、事業所又は寮等所在の市町村及び法人番号
+    text: 一　申請をする内国法人の名称、事務所、事業所又は寮等所在の市町村及び法人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-10-2-8-p6-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-10-2-8-p6-kou-3
     type: kou
-    text: 電気通信回線の故障、災害その他の理由により法第三百二十一条の八第六十六項に規定する地方税関係手続用電子情報処理組織を使用することが困難である事情が生じた日
+    text: 三　電気通信回線の故障、災害その他の理由により法第三百二十一条の八第六十六項に規定する地方税関係手続用電子情報処理組織を使用することが困難である事情が生じた日
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-10-2-8-p6-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 7
@@ -114,27 +114,27 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-10-2-8-p8-kou-1
     type: kou
-    text: 届出をする内国法人の名称、事務所、事業所又は寮等所在の市町村及び法人番号
+    text: 一　届出をする内国法人の名称、事務所、事業所又は寮等所在の市町村及び法人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-10-2-8-p8-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-10-2-8-p8-kou-3
     type: kou
-    text: 法第三百二十一条の八第六十六項の承認を受けた日又はその承認があつたものとみなされた日
+    text: 三　法第三百二十一条の八第六十六項の承認を受けた日又はその承認があつたものとみなされた日
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-10-2-8-p8-kou-4
     type: kou
-    text: 法第三百二十一条の八第七十三項の規定の適用をやめようとする理由
+    text: 四　法第三百二十一条の八第七十三項の規定の適用をやめようとする理由
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-10-2-8-p8-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

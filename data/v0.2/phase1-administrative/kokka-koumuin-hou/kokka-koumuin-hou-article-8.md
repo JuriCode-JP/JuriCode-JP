@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: kokka-koumuin-hou-art-8-p1-kou-1
     type: kou
-    text: 第五条第三項各号の一に該当するに至つた場合
+    text: 一　第五条第三項各号の一に該当するに至つた場合
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-8-p1-kou-2
     type: kou
-    text: 国会の訴追に基き、公開の弾劾手続により罷免を可とすると決定された場合
+    text: 二　国会の訴追に基き、公開の弾劾手続により罷免を可とすると決定された場合
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-8-p1-kou-3
     type: kou
-    text: 任期が満了して、再任されず又は人事官として引き続き十二年在任するに至つた場合
+    text: 三　任期が満了して、再任されず又は人事官として引き続き十二年在任するに至つた場合
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,12 +49,12 @@ paragraphs:
     - 前項
   - id: kokka-koumuin-hou-art-8-p2-kou-1
     type: kou
-    text: 心身の故障のため、職務の遂行に堪えないこと
+    text: 一　心身の故障のため、職務の遂行に堪えないこと
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-8-p2-kou-2
     type: kou
-    text: 職務上の義務に違反し、その他人事官たるに適しない非行があること
+    text: 二　職務上の義務に違反し、その他人事官たるに適しない非行があること
     modality: unspecified
     item_number: 2
 - number: 3

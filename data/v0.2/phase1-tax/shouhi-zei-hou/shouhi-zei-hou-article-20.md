@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-art-20-p1-kou-1
     type: kou
-    text: 国内に住所を有する場合　その住所地
+    text: 一　国内に住所を有する場合　その住所地
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-20-p1-kou-2
     type: kou
-    text: 国内に住所を有せず、居所を有する場合　その居所地
+    text: 二　国内に住所を有せず、居所を有する場合　その居所地
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-art-20-p1-kou-3
     type: kou
-    text: 国内に住所及び居所を有しない者で、国内にその行う事業に係る事務所、事業所その他これらに準ずるもの（以下この号、次条第二項及び第二十二条第二号において「事務所等」という。）を有する者である場合　その事務所等の所在地（その事務所等が二以上ある場合には、主たるものの所在地）
+    text: 三　国内に住所及び居所を有しない者で、国内にその行う事業に係る事務所、事業所その他これらに準ずるもの（以下この号、次条第二項及び第二十二条第二号において「事務所等」という。）を有する者である場合　その事務所等の所在地（その事務所等が二以上ある場合には、主たるものの所在地）
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-art-20-p1-kou-4
     type: kou
-    text: 前三号に掲げる場合以外の場合　政令で定める場所
+    text: 四　前三号に掲げる場合以外の場合　政令で定める場所
     modality: unspecified
     item_number: 4
 cases:

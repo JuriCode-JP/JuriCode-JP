@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定による請求は、同項の創立総会の日の五日前までにしなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

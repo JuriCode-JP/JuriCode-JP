@@ -39,12 +39,12 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-136-p2-kou-1
     type: kou
-    text: 会員金融商品取引所と会員金融商品取引所とが合併する場合　会員金融商品取引所
+    text: 一　会員金融商品取引所と会員金融商品取引所とが合併する場合　会員金融商品取引所
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-136-p2-kou-2
     type: kou
-    text: 会員金融商品取引所と株式会社金融商品取引所とが合併する場合　株式会社金融商品取引所
+    text: 二　会員金融商品取引所と株式会社金融商品取引所とが合併する場合　株式会社金融商品取引所
     modality: unspecified
     item_number: 2
 cases: []

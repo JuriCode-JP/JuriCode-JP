@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: shotoku-zei-hou-shikkourei-art-134-2-p1-kou-1
     type: kou
-    text: 鉄骨鉄筋コンクリート造、鉄筋コンクリート造、れんが造、石造又はブロック造の建物
+    text: 一　鉄骨鉄筋コンクリート造、鉄筋コンクリート造、れんが造、石造又はブロック造の建物
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-134-2-p1-kou-2
     type: kou
-    text: 鉄骨鉄筋コンクリート造、鉄筋コンクリート造、コンクリート造、れんが造、石造又は土造の構築物又は装置
+    text: 二　鉄骨鉄筋コンクリート造、鉄筋コンクリート造、コンクリート造、れんが造、石造又は土造の構築物又は装置
     modality: unspecified
     item_number: 2
 - number: 2

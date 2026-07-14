@@ -64,8 +64,8 @@ paragraphs:
     text: この場合において、同項の指定に係る医薬品が前項に規定する厚生労働省令で定める医薬品であるときは、あらかじめ、当該医薬品に係る資料が同項の規定に適合するかどうかについての書面による調査又は実地の調査を行うものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
     depends_on: yakkihou-art-14-6-p5-zen
 - number: 6
   has_proviso: false

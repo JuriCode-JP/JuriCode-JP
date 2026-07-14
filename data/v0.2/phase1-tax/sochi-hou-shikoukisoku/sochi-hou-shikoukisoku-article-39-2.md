@@ -43,12 +43,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-39-2-p3-kou-1
     type: kou
-    text: アクリロニトリルブタジエンゴム　体積変化の測定方法において燃料油Ｃを試験用液体として測定した場合における体積変化率が二十五パーセントを超え三十五パーセント以下のもの
+    text: 一　アクリロニトリルブタジエンゴム　体積変化の測定方法において燃料油Ｃを試験用液体として測定した場合における体積変化率が二十五パーセントを超え三十五パーセント以下のもの
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-39-2-p3-kou-2
     type: kou
-    text: ふっ素ゴム　体積変化の測定方法において燃料油Ｃを試験用液体として測定した場合における体積変化率が五パーセントを超え八パーセント以下のもの
+    text: 二　ふっ素ゴム　体積変化の測定方法において燃料油Ｃを試験用液体として測定した場合における体積変化率が五パーセントを超え八パーセント以下のもの
     modality: unspecified
     item_number: 2
 - number: 4

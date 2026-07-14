@@ -22,9 +22,9 @@ paragraphs:
     text: 厚生労働大臣は、機構に、医薬品（専ら動物のために使用されることが目的とされているものを除く。次項において同じ。）若しくは医療機器（専ら動物のために使用されることが目的とされているものを除く。同項において同じ。）であつて前条第一項の厚生労働大臣が指定するもの又は再生医療等製品（専ら動物のために使用されることが目的とされているものを除く。次項において同じ。）についての前条第一項の規定による届出の受理に係る事務を行わせることができる。
     modality: kanou_kenri
     references:
-    - 同項
-    - 前条
     - 次項
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -38,9 +38,9 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

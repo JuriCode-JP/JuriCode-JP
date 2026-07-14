@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-228-3-2-p1-kou-1
     type: kou
-    text: 居住者
+    text: 一　居住者
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-228-3-2-p1-kou-2
     type: kou
-    text: 非居住者のうち、当該供与等を受けた経済的利益の価額の全部又は一部が第百六十一条第一項（国内源泉所得）に規定する国内源泉所得となるものを受けた者
+    text: 二　非居住者のうち、当該供与等を受けた経済的利益の価額の全部又は一部が第百六十一条第一項（国内源泉所得）に規定する国内源泉所得となるものを受けた者
     modality: unspecified
     item_number: 2
 cases: []

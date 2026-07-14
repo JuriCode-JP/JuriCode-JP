@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-15-9-p1-kou-1
     type: kou
-    text: 車室を備えず、かつ、輪距（二以上の輪距を有するものにあつては、その輪距のうち最大のもの）が〇・五メートル以下の原動機付自転車
+    text: 一　車室を備えず、かつ、輪距（二以上の輪距を有するものにあつては、その輪距のうち最大のもの）が〇・五メートル以下の原動機付自転車
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-15-9-p1-kou-2
     type: kou
-    text: 側面が構造上開放されている車室を備え、かつ、輪距が〇・五メートル以下の三輪の原動機付自転車
+    text: 二　側面が構造上開放されている車室を備え、かつ、輪距が〇・五メートル以下の三輪の原動機付自転車
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-15-9-p1-kou-3
     type: kou
-    text: 道路運送車両の保安基準（昭和二十六年運輸省令第六十七号）第一条第一項第十三号の六に規定する特定小型原動機付自転車
+    text: 三　道路運送車両の保安基準（昭和二十六年運輸省令第六十七号）第一条第一項第十三号の六に規定する特定小型原動機付自転車
     modality: unspecified
     item_number: 3
 cases: []

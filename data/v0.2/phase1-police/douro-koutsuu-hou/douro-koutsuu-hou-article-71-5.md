@@ -50,6 +50,10 @@ paragraphs:
     type: simple
     text: 普通自動車対応免許を受けた者で七十歳以上七十五歳未満のものは、加齢に伴つて生ずる身体の機能の低下が自動車の運転に影響を及ぼすおそれがあるときは、内閣府令で定めるところにより普通自動車の前面及び後面に内閣府令で定める様式の標識を付けて普通自動車を運転するように努めなければならない。
     modality: doryoku_gimu
+  - id: douro-koutsuu-hou-art-71-5-supplnote-1
+    type: supplnote
+    text: （罰則　第一項から第三項までについては第百二十一条第一項第十一号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

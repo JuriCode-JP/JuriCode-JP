@@ -34,27 +34,27 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-135-p2-kou-1
     type: kou
-    text: 他の会社（外国会社を含む。）の事業の全部を譲り受ける場合において当該他の会社の有する親会社株式を譲り受ける場合
+    text: 一　他の会社（外国会社を含む。）の事業の全部を譲り受ける場合において当該他の会社の有する親会社株式を譲り受ける場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-135-p2-kou-2
     type: kou
-    text: 合併後消滅する会社から親会社株式を承継する場合
+    text: 二　合併後消滅する会社から親会社株式を承継する場合
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-135-p2-kou-3
     type: kou
-    text: 吸収分割により他の会社から親会社株式を承継する場合
+    text: 三　吸収分割により他の会社から親会社株式を承継する場合
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-135-p2-kou-4
     type: kou
-    text: 新設分割により他の会社から親会社株式を承継する場合
+    text: 四　新設分割により他の会社から親会社株式を承継する場合
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-135-p2-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、法務省令で定める場合
+    text: 五　前各号に掲げるもののほか、法務省令で定める場合
     modality: unspecified
     item_number: 5
 - number: 3

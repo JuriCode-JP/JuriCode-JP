@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: keiji-soshou-hou-art-500-4-p1-kou-1
     type: kou
-    text: 第三十八条の二の規定により弁護人の選任が効力を失つたとき。
+    text: 一　第三十八条の二の規定により弁護人の選任が効力を失つたとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-500-4-p1-kou-2
     type: kou
-    text: 訴訟手続が終了する場合において、被告人に訴訟費用の負担を命ずる裁判がなされなかつたとき。
+    text: 二　訴訟手続が終了する場合において、被告人に訴訟費用の負担を命ずる裁判がなされなかつたとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-500-4-p1-kou-3
     type: kou
-    text: 訴訟費用の負担を命ぜられた者が、訴訟費用の全部について、その裁判の執行の免除を受けたとき。
+    text: 三　訴訟費用の負担を命ぜられた者が、訴訟費用の全部について、その裁判の執行の免除を受けたとき。
     modality: unspecified
     item_number: 3
 cases: []

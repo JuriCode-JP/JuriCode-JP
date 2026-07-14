@@ -31,8 +31,8 @@ paragraphs:
     text: 個人情報取扱事業者は、仮名加工情報を作成したとき、又は仮名加工情報及び当該仮名加工情報に係る削除情報等（仮名加工情報の作成に用いられた個人情報から削除された記述等及び個人識別符号並びに前項の規定により行われた加工の方法に関する情報をいう。以下この条及び次条第三項において読み替えて準用する第七項において同じ。）を取得したときは、削除情報等の漏えいを防止するために必要なものとして個人情報保護委員会規則で定める基準に従い、削除情報等の安全管理のための措置を講じなければならない。
     modality: gimu
     references:
-    - 次条
     - 前項
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false
@@ -81,8 +81,8 @@ paragraphs:
     override_target:
     - 第二十八条
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

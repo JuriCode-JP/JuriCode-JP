@@ -81,12 +81,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-39-20-5-p7-kou-1
     type: kou
-    text: 親会社等事業年度の決算に基づく所得の金額
+    text: 一　親会社等事業年度の決算に基づく所得の金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-20-5-p7-kou-2
     type: kou
-    text: 親会社等事業年度終了の時における貸借対照表に計上されている総資産の帳簿価額から総負債の帳簿価額を控除した残額
+    text: 二　親会社等事業年度終了の時における貸借対照表に計上されている総資産の帳簿価額から総負債の帳簿価額を控除した残額
     modality: unspecified
     item_number: 2
 - number: 8

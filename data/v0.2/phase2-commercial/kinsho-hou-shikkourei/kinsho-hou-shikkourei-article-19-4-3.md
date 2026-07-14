@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-19-4-3-p1-kou-1
     type: kou
-    text: 共同で金融商品取引清算機関の対象議決権（法第百五十六条の五の三第一項に規定する対象議決権をいう。以下この号において同じ。）を保有し、又は当該金融商品取引清算機関の対象議決権を行使することを合意している者（以下この条において「共同保有者」という。）の関係
+    text: 一　共同で金融商品取引清算機関の対象議決権（法第百五十六条の五の三第一項に規定する対象議決権をいう。以下この号において同じ。）を保有し、又は当該金融商品取引清算機関の対象議決権を行使することを合意している者（以下この条において「共同保有者」という。）の関係
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-19-4-3-p1-kou-2
     type: kou
-    text: 夫婦の関係
+    text: 二　夫婦の関係
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-19-4-3-p1-kou-3
     type: kou
-    text: 会社の総株主等の議決権の百分の五十を超える議決権を保有している者（以下この条において「支配株主等」という。）と当該会社（以下この条において「被支配会社」という。）との関係
+    text: 三　会社の総株主等の議決権の百分の五十を超える議決権を保有している者（以下この条において「支配株主等」という。）と当該会社（以下この条において「被支配会社」という。）との関係
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-19-4-3-p1-kou-4
     type: kou
-    text: 被支配会社とその支配株主等の他の被支配会社との関係
+    text: 四　被支配会社とその支配株主等の他の被支配会社との関係
     modality: unspecified
     item_number: 4
 - number: 2

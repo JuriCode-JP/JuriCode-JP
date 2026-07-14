@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-469-p1-kou-1
     type: kou
-    text: 第四百六十七条第一項第一号に掲げる行為をする場合において、同項の株主総会の決議と同時に第四百七十一条第三号の株主総会の決議がされたとき。
+    text: 一　第四百六十七条第一項第一号に掲げる行為をする場合において、同項の株主総会の決議と同時に第四百七十一条第三号の株主総会の決議がされたとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-469-p1-kou-2
     type: kou
-    text: 前条第二項に規定する場合（同条第三項に規定する場合を除く。）
+    text: 二　前条第二項に規定する場合（同条第三項に規定する場合を除く。）
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,16 +44,16 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-469-p2-kou-1
     type: kou
-    text: '事業譲渡等をするために株主総会（種類株主総会を含む。）の決議を要する場合　次に掲げる株主
+    text: '一　事業譲渡等をするために株主総会（種類株主総会を含む。）の決議を要する場合　次に掲げる株主
 
-      イ 当該株主総会に先立って当該事業譲渡等に反対する旨を当該株式会社に対し通知し、かつ、当該株主総会において当該事業譲渡等に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
+      イ　当該株主総会に先立って当該事業譲渡等に反対する旨を当該株式会社に対し通知し、かつ、当該株主総会において当該事業譲渡等に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
 
-      ロ 当該株主総会において議決権を行使することができない株主'
+      ロ　当該株主総会において議決権を行使することができない株主'
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-469-p2-kou-2
     type: kou
-    text: 前号に規定する場合以外の場合　全ての株主（前条第一項に規定する場合における当該特別支配会社を除く。）
+    text: 二　前号に規定する場合以外の場合　全ての株主（前条第一項に規定する場合における当該特別支配会社を除く。）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -80,12 +80,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-469-p4-kou-1
     type: kou
-    text: 事業譲渡等をする株式会社が公開会社である場合
+    text: 一　事業譲渡等をする株式会社が公開会社である場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-469-p4-kou-2
     type: kou
-    text: 事業譲渡等をする株式会社が第四百六十七条第一項の株主総会の決議によって事業譲渡等に係る契約の承認を受けた場合
+    text: 二　事業譲渡等をする株式会社が第四百六十七条第一項の株主総会の決議によって事業譲渡等に係る契約の承認を受けた場合
     modality: unspecified
     item_number: 2
 - number: 5

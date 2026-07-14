@@ -34,32 +34,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-40-8-p2-kou-1
     type: kou
-    text: 本邦から出国する大使等の氏名及び当該大使等の所属する大使館等（本邦にある外国の大使館、公使館、領事館その他これらに準ずる機関をいう。）の所在地及び名称
+    text: 一　本邦から出国する大使等の氏名及び当該大使等の所属する大使館等（本邦にある外国の大使館、公使館、領事館その他これらに準ずる機関をいう。）の所在地及び名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-40-8-p2-kou-2
     type: kou
-    text: 当該運送契約に係る前項の書類の番号
+    text: 二　当該運送契約に係る前項の書類の番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-40-8-p2-kou-3
     type: kou
-    text: 本邦から出国する目的及び年月日
+    text: 三　本邦から出国する目的及び年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-40-8-p2-kou-4
     type: kou
-    text: 本邦から出国するために乗船し、又は搭乗する船舶の名称又は航空機の便名
+    text: 四　本邦から出国するために乗船し、又は搭乗する船舶の名称又は航空機の便名
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-40-8-p2-kou-5
     type: kou
-    text: 本邦から出国する出入国港（国際観光旅客税法（平成三十年法律第十六号）第二条第一項第三号に規定する出入国港をいう。次項第四号において同じ。）の名称
+    text: 五　本邦から出国する出入国港（国際観光旅客税法（平成三十年法律第十六号）第二条第一項第三号に規定する出入国港をいう。次項第四号において同じ。）の名称
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-40-8-p2-kou-6
     type: kou
-    text: 当該運送契約を締結する年月日
+    text: 六　当該運送契約を締結する年月日
     modality: unspecified
     item_number: 6
 - number: 3
@@ -73,27 +73,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-40-8-p3-kou-1
     type: kou
-    text: 本邦から出国する国賓等の氏名
+    text: 一　本邦から出国する国賓等の氏名
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-40-8-p3-kou-2
     type: kou
-    text: 本邦から出国する年月日
+    text: 二　本邦から出国する年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-40-8-p3-kou-3
     type: kou
-    text: 本邦から出国するために乗船し、又は搭乗する船舶の名称又は航空機の便名
+    text: 三　本邦から出国するために乗船し、又は搭乗する船舶の名称又は航空機の便名
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-40-8-p3-kou-4
     type: kou
-    text: 本邦から出国する出入国港の名称
+    text: 四　本邦から出国する出入国港の名称
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-40-8-p3-kou-5
     type: kou
-    text: 当該運送契約を締結する年月日
+    text: 五　当該運送契約を締結する年月日
     modality: unspecified
     item_number: 5
 cases: []

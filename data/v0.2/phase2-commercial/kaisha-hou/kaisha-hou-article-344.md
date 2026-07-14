@@ -31,8 +31,8 @@ paragraphs:
     text: 監査役が二人以上ある場合における前項の規定の適用については、同項中「監査役が」とあるのは、「監査役の過半数をもって」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

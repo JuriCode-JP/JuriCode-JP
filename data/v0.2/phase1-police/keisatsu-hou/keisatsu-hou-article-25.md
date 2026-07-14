@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: keisatsu-hou-art-25-p1-kou-1
     type: kou
-    text: サイバー事案に関する警察に関すること。
+    text: 一　サイバー事案に関する警察に関すること。
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-25-p1-kou-2
     type: kou
-    text: 犯罪の取締りのための情報技術の解析に関すること。
+    text: 二　犯罪の取締りのための情報技術の解析に関すること。
     modality: unspecified
     item_number: 2
 cases: []

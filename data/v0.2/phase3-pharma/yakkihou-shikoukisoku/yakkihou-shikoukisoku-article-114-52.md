@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-52-p1-kou-1
     type: kou
-    text: 大学等で、物理学、化学、生物学、工学、情報学、金属学、電気学、機械学、薬学、医学又は歯学に関する専門の課程を修了した者
+    text: 一　大学等で、物理学、化学、生物学、工学、情報学、金属学、電気学、機械学、薬学、医学又は歯学に関する専門の課程を修了した者
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-52-p1-kou-2
     type: kou
-    text: 旧制中学若しくは高校又はこれと同等以上の学校で、物理学、化学、生物学、工学、情報学、金属学、電気学、機械学、薬学、医学又は歯学に関する専門の課程を修了した後、医療機器の製造に関する業務に三年以上従事した者
+    text: 二　旧制中学若しくは高校又はこれと同等以上の学校で、物理学、化学、生物学、工学、情報学、金属学、電気学、機械学、薬学、医学又は歯学に関する専門の課程を修了した後、医療機器の製造に関する業務に三年以上従事した者
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-52-p1-kou-3
     type: kou
-    text: 医療機器の製造に関する業務に五年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う講習を修了した者
+    text: 三　医療機器の製造に関する業務に五年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う講習を修了した者
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-114-52-p1-kou-4
     type: kou
-    text: 厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者
+    text: 四　厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者
     modality: unspecified
     item_number: 4
 - number: 2
@@ -57,17 +57,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-114-52-p2-kou-1
     type: kou
-    text: 旧制中学若しくは高校又はこれと同等以上の学校で、物理学、化学、生物学、工学、情報学、金属学、電気学、機械学、薬学、医学又は歯学に関する専門の課程を修了した者
+    text: 一　旧制中学若しくは高校又はこれと同等以上の学校で、物理学、化学、生物学、工学、情報学、金属学、電気学、機械学、薬学、医学又は歯学に関する専門の課程を修了した者
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-52-p2-kou-2
     type: kou
-    text: 旧制中学若しくは高校又はこれと同等以上の学校で、物理学、化学、生物学、工学、情報学、金属学、電気学、機械学、薬学、医学又は歯学に関する科目を修得した後、医療機器の製造に関する業務に三年以上従事した者
+    text: 二　旧制中学若しくは高校又はこれと同等以上の学校で、物理学、化学、生物学、工学、情報学、金属学、電気学、機械学、薬学、医学又は歯学に関する科目を修得した後、医療機器の製造に関する業務に三年以上従事した者
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-52-p2-kou-3
     type: kou
-    text: 厚生労働大臣が前二号に掲げる者と同等以上の知識経験を有すると認めた者
+    text: 三　厚生労働大臣が前二号に掲げる者と同等以上の知識経験を有すると認めた者
     modality: unspecified
     item_number: 3
 - number: 3

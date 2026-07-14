@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-164-p1-kou-1
     type: kou
-    text: 法第五十七条第一項に規定する青色事業専従者の労務に従事した期間、労務の性質及びその提供の程度
+    text: 一　法第五十七条第一項に規定する青色事業専従者の労務に従事した期間、労務の性質及びその提供の程度
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-164-p1-kou-2
     type: kou
-    text: その事業に従事する他の使用人が支払を受ける給与の状況及びその事業と同種の事業でその規模が類似するものに従事する者が支払を受ける給与の状況
+    text: 二　その事業に従事する他の使用人が支払を受ける給与の状況及びその事業と同種の事業でその規模が類似するものに従事する者が支払を受ける給与の状況
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-164-p1-kou-3
     type: kou
-    text: その事業の種類及び規模並びにその収益の状況
+    text: 三　その事業の種類及び規模並びにその収益の状況
     modality: unspecified
     item_number: 3
 - number: 2

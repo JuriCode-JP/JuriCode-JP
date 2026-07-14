@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-10-p1-kou-1
     type: kou
-    text: 非課税貯蓄者死亡届出書を提出する相続人の氏名及び住所
+    text: 一　非課税貯蓄者死亡届出書を提出する相続人の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-10-p1-kou-2
     type: kou
-    text: 被相続人の氏名、生年月日及び死亡の時における住所並びに死亡年月日
+    text: 二　被相続人の氏名、生年月日及び死亡の時における住所並びに死亡年月日
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-10-p1-kou-3
     type: kou
-    text: 当該金融機関の営業所等において預入等をした被相続人に係る預貯金等で法第十条第一項（障害者等の少額預金の利子所得等の非課税）の規定の適用に係るものの種別
+    text: 三　当該金融機関の営業所等において預入等をした被相続人に係る預貯金等で法第十条第一項（障害者等の少額預金の利子所得等の非課税）の規定の適用に係るものの種別
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-10-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,27 +52,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-10-p2-kou-1
     type: kou
-    text: 非課税貯蓄者死亡届出書を提出した者の被相続人又は死亡したことを知つた非課税貯蓄申告書を提出した個人（以下この項において「被相続人等」という。）の氏名、生年月日及び死亡の時における住所並びに死亡年月日
+    text: 一　非課税貯蓄者死亡届出書を提出した者の被相続人又は死亡したことを知つた非課税貯蓄申告書を提出した個人（以下この項において「被相続人等」という。）の氏名、生年月日及び死亡の時における住所並びに死亡年月日
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-10-p2-kou-2
     type: kou
-    text: 当該金融機関の営業所等において預入等をした被相続人等に係る預貯金等で法第十条第一項の規定の適用に係るものの種別
+    text: 二　当該金融機関の営業所等において預入等をした被相続人等に係る預貯金等で法第十条第一項の規定の適用に係るものの種別
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-10-p2-kou-3
     type: kou
-    text: 前号の預貯金等に係る法第十条第三項第三号に掲げる最高限度額（非課税貯蓄限度額変更申告書が提出されている場合には、変更後の最高限度額）
+    text: 三　前号の預貯金等に係る法第十条第三項第三号に掲げる最高限度額（非課税貯蓄限度額変更申告書が提出されている場合には、変更後の最高限度額）
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-10-p2-kou-4
     type: kou
-    text: 非課税貯蓄者死亡届出書を受理した年月日又は当該死亡したことを知つた年月日
+    text: 四　非課税貯蓄者死亡届出書を受理した年月日又は当該死亡したことを知つた年月日
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-10-p2-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

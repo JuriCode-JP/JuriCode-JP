@@ -23,32 +23,32 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-74-4-p1-kou-1
     type: kou
-    text: 酒類製造者が所持する酒類、酒母、もろみ又は酒類の製造の際生じた副産物
+    text: 一　酒類製造者が所持する酒類、酒母、もろみ又は酒類の製造の際生じた副産物
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-74-4-p1-kou-2
     type: kou
-    text: 酒母の製造者が所持する酒母
+    text: 二　酒母の製造者が所持する酒母
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-74-4-p1-kou-3
     type: kou
-    text: もろみの製造者が所持する酒母又はもろみ
+    text: 三　もろみの製造者が所持する酒母又はもろみ
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-74-4-p1-kou-4
     type: kou
-    text: 酒類の販売業者又は特例申告者が所持する酒類
+    text: 四　酒類の販売業者又は特例申告者が所持する酒類
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-art-74-4-p1-kou-5
     type: kou
-    text: 酒類、酒母若しくはもろみの製造、貯蔵若しくは販売又は酒類の保税地域からの引取りに関する一切の帳簿書類
+    text: 五　酒類、酒母若しくはもろみの製造、貯蔵若しくは販売又は酒類の保税地域からの引取りに関する一切の帳簿書類
     modality: unspecified
     item_number: 5
   - id: kokuzei-tsuusoku-hou-art-74-4-p1-kou-6
     type: kou
-    text: 酒類、酒母又はもろみの製造、貯蔵又は販売上必要な建築物、機械、器具、容器又は原料その他の物件
+    text: 六　酒類、酒母又はもろみの製造、貯蔵又は販売上必要な建築物、機械、器具、容器又は原料その他の物件
     modality: unspecified
     item_number: 6
 - number: 2
@@ -91,17 +91,17 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-art-74-4-p5-kou-1
     type: kou
-    text: 酒類の原料（原料用酒類を含む。）の容器
+    text: 一　酒類の原料（原料用酒類を含む。）の容器
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-74-4-p5-kou-2
     type: kou
-    text: 使用中の蒸留機（配管装置を含む。）及び酒類の輸送管（流量計を含む。）
+    text: 二　使用中の蒸留機（配管装置を含む。）及び酒類の輸送管（流量計を含む。）
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-74-4-p5-kou-3
     type: kou
-    text: 酒類の製造又は貯蔵に使用する機械、器具又は容器で使用を休止しているもの
+    text: 三　酒類の製造又は貯蔵に使用する機械、器具又は容器で使用を休止しているもの
     modality: unspecified
     item_number: 3
 cases: []

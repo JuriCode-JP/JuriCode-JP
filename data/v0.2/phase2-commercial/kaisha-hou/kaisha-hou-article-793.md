@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-793-p1-kou-1
     type: kou
-    text: 吸収合併（吸収合併により当該持分会社が消滅する場合に限る。）
+    text: 一　吸収合併（吸収合併により当該持分会社が消滅する場合に限る。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-793-p1-kou-2
     type: kou
-    text: 吸収分割（当該持分会社（合同会社に限る。）がその事業に関して有する権利義務の全部を他の会社に承継させる場合に限る。）
+    text: 二　吸収分割（当該持分会社（合同会社に限る。）がその事業に関して有する権利義務の全部を他の会社に承継させる場合に限る。）
     modality: unspecified
     item_number: 2
 - number: 2

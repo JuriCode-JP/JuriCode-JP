@@ -25,22 +25,22 @@ paragraphs:
     - 次条
   - id: chihou-zei-hou-shikkourei-art-35-17-p1-kou-1
     type: kou
-    text: 当該年度の前年度の十二月から二月まで
+    text: 一　当該年度の前年度の十二月から二月まで
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-35-17-p1-kou-2
     type: kou
-    text: 当該年度の前年度の三月から当該年度の五月まで
+    text: 二　当該年度の前年度の三月から当該年度の五月まで
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-35-17-p1-kou-3
     type: kou
-    text: 当該年度の六月から八月まで
+    text: 三　当該年度の六月から八月まで
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-35-17-p1-kou-4
     type: kou
-    text: 当該年度の九月から十一月まで
+    text: 四　当該年度の九月から十一月まで
     modality: unspecified
     item_number: 4
 - number: 2

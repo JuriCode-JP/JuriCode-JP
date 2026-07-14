@@ -23,28 +23,28 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-116-3-p1-kou-1
     type: kou
-    text: 法第六十六条の二十七の登録の意義
+    text: 一　法第六十六条の二十七の登録の意義
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-116-3-p1-kou-2
     type: kou
-    text: '信用格付を付与した者に関する次に掲げる事項
+    text: '二　信用格付を付与した者に関する次に掲げる事項
 
-      イ 商号、名称又は氏名
+      イ　商号、名称又は氏名
 
-      ロ 法人（法人でない団体で代表者又は管理人の定めのあるものを含む。）であるときは、役員（法人でない団体で代表者又は管理人の定めのあるものにあっては、その代表者又は管理人）の氏名又は名称
+      ロ　法人（法人でない団体で代表者又は管理人の定めのあるものを含む。）であるときは、役員（法人でない団体で代表者又は管理人の定めのあるものにあっては、その代表者又は管理人）の氏名又は名称
 
-      ハ 本店その他の主たる営業所又は事務所の名称及び所在地'
+      ハ　本店その他の主たる営業所又は事務所の名称及び所在地'
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-116-3-p1-kou-3
     type: kou
-    text: 信用格付を付与した者が当該信用格付を付与するために用いる方針及び方法の概要
+    text: 三　信用格付を付与した者が当該信用格付を付与するために用いる方針及び方法の概要
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-116-3-p1-kou-4
     type: kou
-    text: 信用格付の前提、意義及び限界
+    text: 四　信用格付の前提、意義及び限界
     modality: unspecified
     item_number: 4
 - number: 2
@@ -63,27 +63,27 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-116-3-p2-kou-1
     type: kou
-    text: 法第六十六条の二十七の登録の意義
+    text: 一　法第六十六条の二十七の登録の意義
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-116-3-p2-kou-2
     type: kou
-    text: 当該信用格付業者の商号又は名称及び登録番号
+    text: 二　当該信用格付業者の商号又は名称及び登録番号
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-116-3-p2-kou-3
     type: kou
-    text: 当該特定関係法人が信用格付業を示すものとして使用する呼称
+    text: 三　当該特定関係法人が信用格付業を示すものとして使用する呼称
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-116-3-p2-kou-4
     type: kou
-    text: 信用格付を付与した特定関係法人が当該信用格付を付与するために用いる方針及び方法の概要又は当該概要に関する情報を当該信用格付業者から入手する方法
+    text: 四　信用格付を付与した特定関係法人が当該信用格付を付与するために用いる方針及び方法の概要又は当該概要に関する情報を当該信用格付業者から入手する方法
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-116-3-p2-kou-5
     type: kou
-    text: 信用格付の前提、意義及び限界
+    text: 五　信用格付の前提、意義及び限界
     modality: unspecified
     item_number: 5
 cases: []

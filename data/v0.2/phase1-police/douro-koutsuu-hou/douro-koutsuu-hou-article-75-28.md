@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: douro-koutsuu-hou-art-75-28-p1-kou-1
     type: kou
-    text: 特定自動運行中の特定自動運行用自動車に係る交通事故があつたとき。
+    text: 一　特定自動運行中の特定自動運行用自動車に係る交通事故があつたとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-75-28-p1-kou-2
     type: kou
-    text: 特定自動運行実施者又はその特定自動運行業務従事者が、特定自動運行に関しこの法律若しくはこの法律に基づく命令の規定若しくはこの法律の規定に基づく処分又は他の法令の規定に違反したとき。
+    text: 二　特定自動運行実施者又はその特定自動運行業務従事者が、特定自動運行に関しこの法律若しくはこの法律に基づく命令の規定若しくはこの法律の規定に基づく処分又は他の法令の規定に違反したとき。
     modality: unspecified
     item_number: 2
 - number: 2

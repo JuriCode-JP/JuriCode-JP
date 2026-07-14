@@ -81,12 +81,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-444-p7-kou-1
     type: kou
-    text: 取締役会設置会社である会計監査人設置会社　第五項の承認を受けた連結計算書類
+    text: 一　取締役会設置会社である会計監査人設置会社　第五項の承認を受けた連結計算書類
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-444-p7-kou-2
     type: kou
-    text: 前号に掲げるもの以外の会計監査人設置会社　第四項の監査を受けた連結計算書類
+    text: 二　前号に掲げるもの以外の会計監査人設置会社　第四項の監査を受けた連結計算書類
     modality: unspecified
     item_number: 2
 cases: []

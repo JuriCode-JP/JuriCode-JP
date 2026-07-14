@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-210-3-p1-kou-1
     type: kou
-    text: 要指導医薬品
+    text: 一　要指導医薬品
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-210-3-p1-kou-2
     type: kou
-    text: 一般用医薬品
+    text: 二　一般用医薬品
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-210-3-p1-kou-3
     type: kou
-    text: 薬局製造販売医薬品
+    text: 三　薬局製造販売医薬品
     modality: unspecified
     item_number: 3
 cases: []

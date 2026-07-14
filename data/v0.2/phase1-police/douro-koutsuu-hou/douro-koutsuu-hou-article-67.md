@@ -54,6 +54,10 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前三項
+  - id: douro-koutsuu-hou-art-67-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条第一項第十三号　第三項については第百十八条の二）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

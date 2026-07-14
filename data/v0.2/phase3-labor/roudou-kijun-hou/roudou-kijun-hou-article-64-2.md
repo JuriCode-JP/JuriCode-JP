@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: roudou-kijun-hou-art-64-2-p1-kou-1
     type: kou
-    text: 妊娠中の女性及び坑内で行われる業務に従事しない旨を使用者に申し出た産後一年を経過しない女性　坑内で行われるすべての業務
+    text: 一　妊娠中の女性及び坑内で行われる業務に従事しない旨を使用者に申し出た産後一年を経過しない女性　坑内で行われるすべての業務
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-64-2-p1-kou-2
     type: kou
-    text: 前号に掲げる女性以外の満十八歳以上の女性　坑内で行われる業務のうち人力により行われる掘削の業務その他の女性に有害な業務として厚生労働省令で定めるもの
+    text: 二　前号に掲げる女性以外の満十八歳以上の女性　坑内で行われる業務のうち人力により行われる掘削の業務その他の女性に有害な業務として厚生労働省令で定めるもの
     modality: unspecified
     item_number: 2
 cases: []

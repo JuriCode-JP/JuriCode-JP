@@ -43,17 +43,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-63-2-p3-kou-1
     type: kou
-    text: 適格機関投資家等特例業務を休止し、又は再開したとき。
+    text: 一　適格機関投資家等特例業務を休止し、又は再開したとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-63-2-p3-kou-2
     type: kou
-    text: 適格機関投資家等特例業務を廃止したとき。
+    text: 二　適格機関投資家等特例業務を廃止したとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-63-2-p3-kou-3
     type: kou
-    text: その他内閣府令で定める場合に該当するとき。
+    text: 三　その他内閣府令で定める場合に該当するとき。
     modality: unspecified
     item_number: 3
 - number: 4

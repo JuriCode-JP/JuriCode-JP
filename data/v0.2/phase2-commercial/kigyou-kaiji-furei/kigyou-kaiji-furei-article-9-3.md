@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-9-3-p2-kou-1
     type: kou
-    text: 内国会社　第三号様式又は第四号様式により作成し、財務局長等に提出した有価証券報告書
+    text: 一　内国会社　第三号様式又は第四号様式により作成し、財務局長等に提出した有価証券報告書
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-9-3-p2-kou-2
     type: kou
-    text: 外国会社（法第二十四条第八項の規定により外国会社報告書を提出した外国会社以外のものに限る。）　第八号様式又は第九号様式により作成し、関東財務局長に提出した有価証券報告書
+    text: 二　外国会社（法第二十四条第八項の規定により外国会社報告書を提出した外国会社以外のものに限る。）　第八号様式又は第九号様式により作成し、関東財務局長に提出した有価証券報告書
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-9-3-p2-kou-3
     type: kou
-    text: 外国会社（前号に掲げる外国会社以外のものに限る。）　法第二十四条第八項の規定により関東財務局長に提出した外国会社報告書
+    text: 三　外国会社（前号に掲げる外国会社以外のものに限る。）　法第二十四条第八項の規定により関東財務局長に提出した外国会社報告書
     modality: unspecified
     item_number: 3
 - number: 3
@@ -59,12 +59,12 @@ paragraphs:
     - 前項
   - id: kigyou-kaiji-furei-art-9-3-p3-kou-1
     type: kou
-    text: 当該株式移転の日の前日においてその適格株式移転完全子会社の数がその当該株式移転完全子会社の数の三分の二以上であつたこと。
+    text: 一　当該株式移転の日の前日においてその適格株式移転完全子会社の数がその当該株式移転完全子会社の数の三分の二以上であつたこと。
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-9-3-p3-kou-2
     type: kou
-    text: 当該株式移転の日の前日においてその適格株式移転完全子会社の株主の数の合計数がその当該株式移転完全子会社の株主の数の合計数の三分の二以上であつたこと。
+    text: 二　当該株式移転の日の前日においてその適格株式移転完全子会社の株主の数の合計数がその当該株式移転完全子会社の株主の数の合計数の三分の二以上であつたこと。
     modality: unspecified
     item_number: 2
 - number: 4
@@ -77,8 +77,8 @@ paragraphs:
     text: 第一項に規定する期間継続して有価証券報告書のうち第二項に規定するものを提出している者又は前項に規定する期間継続して有価証券報告書のうち同項に規定するものを提出している者が、有価証券届出書を提出しようとする場合には、法第五条第三項の規定により、内国会社にあつては第二号の二様式、外国会社にあつては第七号の二様式により有価証券届出書を作成することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

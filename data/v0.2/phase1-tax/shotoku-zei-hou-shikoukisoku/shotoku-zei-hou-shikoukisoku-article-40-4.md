@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-1
     type: kou
-    text: 当該申請書を提出する互助会の名称、主たる事務所の所在地及び法人番号（法人番号を有しないものにあつては、名称及び主たる事務所の所在地）
+    text: 一　当該申請書を提出する互助会の名称、主たる事務所の所在地及び法人番号（法人番号を有しないものにあつては、名称及び主たる事務所の所在地）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-2
     type: kou
-    text: 前号の互助会の代表者の氏名及び住所又は居所
+    text: 二　前号の互助会の代表者の氏名及び住所又は居所
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-3
     type: kou
-    text: 令第二百八条第二号に規定する制度に関する事業の開始年月日
+    text: 三　令第二百八条第二号に規定する制度に関する事業の開始年月日
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-4
     type: kou
-    text: 当該申請書を提出する時において前号に規定する事業に加入することの見込まれる職員の数
+    text: 四　当該申請書を提出する時において前号に規定する事業に加入することの見込まれる職員の数
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-5
     type: kou
-    text: 第一号の互助会の行う令第二百八条第二号に規定する制度が同号イからハまでに掲げる要件を備えている事実
+    text: 五　第一号の互助会の行う令第二百八条第二号に規定する制度が同号イからハまでに掲げる要件を備えている事実
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-40-4-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

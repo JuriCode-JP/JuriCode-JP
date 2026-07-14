@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-7-p1-kou-1
     type: kou
-    text: 電気絶縁塗料の製造用
+    text: 一　電気絶縁塗料の製造用
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-7-p1-kou-2
     type: kou
-    text: 接着剤の製造用
+    text: 二　接着剤の製造用
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-7-p2-kou-1
     type: kou
-    text: ゴムの溶剤用又は接着剤の製造用　日本産業規格に定める燃料油の蒸留試験方法により測定した場合において、初留温度が四十度以上、終点温度が百六十度以下、十パーセントの容量の留出温度と九十七パーセントの容量の留出温度との温度差（以下この条において「温度差」という。）が五十度以内であり、かつ、ゴムの混入量が百立方センチメートル当たり百ミリグラム以上である揮発油
+    text: 一　ゴムの溶剤用又は接着剤の製造用　日本産業規格に定める燃料油の蒸留試験方法により測定した場合において、初留温度が四十度以上、終点温度が百六十度以下、十パーセントの容量の留出温度と九十七パーセントの容量の留出温度との温度差（以下この条において「温度差」という。）が五十度以内であり、かつ、ゴムの混入量が百立方センチメートル当たり百ミリグラム以上である揮発油
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-7-p2-kou-2
     type: kou
-    text: 電気絶縁塗料の製造用　日本産業規格に定める燃料油の蒸留試験方法により測定した場合において、初留温度が八十度以上、終点温度が百六十度以下、温度差が五十度以内であり、かつ、油脂の混入量が百立方センチメートル当たり百ミリグラム以上である揮発油
+    text: 二　電気絶縁塗料の製造用　日本産業規格に定める燃料油の蒸留試験方法により測定した場合において、初留温度が八十度以上、終点温度が百六十度以下、温度差が五十度以内であり、かつ、油脂の混入量が百立方センチメートル当たり百ミリグラム以上である揮発油
     modality: unspecified
     item_number: 2
 cases: []

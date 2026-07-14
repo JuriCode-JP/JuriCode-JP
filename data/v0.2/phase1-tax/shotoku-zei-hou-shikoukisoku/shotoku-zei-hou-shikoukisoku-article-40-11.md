@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-40-11-p1-kou-1
     type: kou
-    text: 令第二百二十一条の三第六項に規定する共通費用の額の配分の基礎となる費用の明細及び内容を記載した書類
+    text: 一　令第二百二十一条の三第六項に規定する共通費用の額の配分の基礎となる費用の明細及び内容を記載した書類
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-40-11-p1-kou-2
     type: kou
-    text: 令第二百二十一条の三第六項に規定する合理的と認められる基準により配分するための計算方法の明細を記載した書類
+    text: 二　令第二百二十一条の三第六項に規定する合理的と認められる基準により配分するための計算方法の明細を記載した書類
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-40-11-p1-kou-3
     type: kou
-    text: 前号の計算方法が合理的であるとする理由を記載した書類
+    text: 三　前号の計算方法が合理的であるとする理由を記載した書類
     modality: unspecified
     item_number: 3
 cases: []

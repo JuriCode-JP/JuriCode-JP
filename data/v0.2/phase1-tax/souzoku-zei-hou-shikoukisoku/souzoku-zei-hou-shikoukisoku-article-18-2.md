@@ -25,22 +25,22 @@ paragraphs:
     - 同項
   - id: souzoku-zei-hou-shikoukisoku-art-18-2-p1-kou-1
     type: kou
-    text: 当該相続税が完納されていない旨
+    text: 一　当該相続税が完納されていない旨
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-18-2-p1-kou-2
     type: kou
-    text: 当該相続税について法第三十四条第五項の規定による通知を受ける同項に規定する連帯納付義務者に同条第一項本文の規定の適用がある旨
+    text: 二　当該相続税について法第三十四条第五項の規定による通知を受ける同項に規定する連帯納付義務者に同条第一項本文の規定の適用がある旨
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-18-2-p1-kou-3
     type: kou
-    text: 当該相続税に係る被相続人の氏名
+    text: 三　当該相続税に係る被相続人の氏名
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikoukisoku-art-18-2-p1-kou-4
     type: kou
-    text: その他必要な事項
+    text: 四　その他必要な事項
     modality: unspecified
     item_number: 4
 cases: []

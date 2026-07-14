@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-36-p1-kou-1
     type: kou
-    text: 法第二十四条第一項に規定する有価証券報告書の提出期限の六週間前の日又は通知日から起算して二週間を経過した日のいずれか遅い日（当該日が当該提出期限以後の日である場合は、当該提出期限の前日）
+    text: 一　法第二十四条第一項に規定する有価証券報告書の提出期限の六週間前の日又は通知日から起算して二週間を経過した日のいずれか遅い日（当該日が当該提出期限以後の日である場合は、当該提出期限の前日）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-36-p1-kou-2
     type: kou
-    text: 法第二十四条の五第一項に規定する半期報告書の提出期限の前日
+    text: 二　法第二十四条の五第一項に規定する半期報告書の提出期限の前日
     modality: unspecified
     item_number: 2
 cases: []

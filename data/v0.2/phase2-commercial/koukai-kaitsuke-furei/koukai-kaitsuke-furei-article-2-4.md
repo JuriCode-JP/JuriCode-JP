@@ -23,58 +23,58 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-1
     type: kou
-    text: 親法人等（令第七条第一項第七号に規定する親法人等をいう。次号及び第四号において同じ。）
+    text: 一　親法人等（令第七条第一項第七号に規定する親法人等をいう。次号及び第四号において同じ。）
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-2
     type: kou
-    text: 親法人等が他の法人等に対して特別支配関係（令第七条第一項第七号に規定する特別支配関係をいう。以下この項において同じ。）を有する場合における当該他の法人等
+    text: 二　親法人等が他の法人等に対して特別支配関係（令第七条第一項第七号に規定する特別支配関係をいう。以下この項において同じ。）を有する場合における当該他の法人等
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-3
     type: kou
-    text: 前号に掲げる者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
+    text: 三　前号に掲げる者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
     modality: unspecified
     item_number: 3
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-4
     type: kou
-    text: 親法人等に対して特別支配関係を有する法人等
+    text: 四　親法人等に対して特別支配関係を有する法人等
     modality: unspecified
     item_number: 4
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-5
     type: kou
-    text: 前号に掲げる者に対して特別支配関係を有する法人等
+    text: 五　前号に掲げる者に対して特別支配関係を有する法人等
     modality: unspecified
     item_number: 5
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-6
     type: kou
-    text: 第四号に掲げる者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
+    text: 六　第四号に掲げる者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
     modality: unspecified
     item_number: 6
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-7
     type: kou
-    text: 当該株券等の買付け等を行う者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
+    text: 七　当該株券等の買付け等を行う者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
     modality: unspecified
     item_number: 7
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-8
     type: kou
-    text: 前号に掲げる者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
+    text: 八　前号に掲げる者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
     modality: unspecified
     item_number: 8
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-9
     type: kou
-    text: 前号に掲げる者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
+    text: 九　前号に掲げる者が他の法人等に対して特別支配関係を有する場合における当該他の法人等
     modality: unspecified
     item_number: 9
   - id: koukai-kaitsuke-furei-art-2-4-p1-kou-10
     type: kou
-    text: '次に掲げる者であって、当該株券等の買付け等を行う者との間で共同して当該株券等の発行者の株主としての議決権その他の権利を行使することを合意しているもの
+    text: '十　次に掲げる者であって、当該株券等の買付け等を行う者との間で共同して当該株券等の発行者の株主としての議決権その他の権利を行使することを合意しているもの
 
-      イ 当該株券等の買付け等を行う者の親族（配偶者並びに一親等内の血族及び姻族に限る。以下この号において同じ。）
+      イ　当該株券等の買付け等を行う者の親族（配偶者並びに一親等内の血族及び姻族に限る。以下この号において同じ。）
 
-      ロ 当該株券等の買付け等を行う者が個人である場合において、当該株券等の買付け等を行う者（その者の親族を含む。）が法人等に対して特別支配関係を有するときにおける当該法人等
+      ロ　当該株券等の買付け等を行う者が個人である場合において、当該株券等の買付け等を行う者（その者の親族を含む。）が法人等に対して特別支配関係を有するときにおける当該法人等
 
-      ハ 個人（その親族を含む。）が当該株券等の買付け等を行う者に対して特別支配関係を有する場合における当該個人'
+      ハ　個人（その親族を含む。）が当該株券等の買付け等を行う者に対して特別支配関係を有する場合における当該個人'
     modality: unspecified
     item_number: 10
 - number: 2

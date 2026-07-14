@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-15-p1-kou-1
     type: kou
-    text: 役員若しくは使用人である者又はこれらであった者であって会社の財務及び営業又は事業の方針の決定に関して影響を与えることができるものが、当該会社の取締役若しくは執行役又はこれらに準ずる役職に就任していること。
+    text: 一　役員若しくは使用人である者又はこれらであった者であって会社の財務及び営業又は事業の方針の決定に関して影響を与えることができるものが、当該会社の取締役若しくは執行役又はこれらに準ずる役職に就任していること。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-15-p1-kou-2
     type: kou
-    text: 会社に対して重要な融資を行っていること。
+    text: 二　会社に対して重要な融資を行っていること。
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-15-p1-kou-3
     type: kou
-    text: 会社に対して重要な技術を提供していること。
+    text: 三　会社に対して重要な技術を提供していること。
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-15-p1-kou-4
     type: kou
-    text: 会社との間に重要な営業上又は事業上の取引があること。
+    text: 四　会社との間に重要な営業上又は事業上の取引があること。
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-15-p1-kou-5
     type: kou
-    text: その他会社の財務及び営業又は事業の方針の決定に対して重要な影響を与えることができることが推測される事実が存在すること。
+    text: 五　その他会社の財務及び営業又は事業の方針の決定に対して重要な影響を与えることができることが推測される事実が存在すること。
     modality: unspecified
     item_number: 5
 cases: []

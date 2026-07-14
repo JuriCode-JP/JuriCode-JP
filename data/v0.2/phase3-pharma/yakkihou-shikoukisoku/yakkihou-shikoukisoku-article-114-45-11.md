@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-45-11-p1-kou-1
     type: kou
-    text: 法第二十三条の二の十の二第三項の確認の結果
+    text: 一　法第二十三条の二の十の二第三項の確認の結果
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-45-11-p1-kou-2
     type: kou
-    text: 医療機器等適合性確認の通知の年月日及び番号
+    text: 二　医療機器等適合性確認の通知の年月日及び番号
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-45-11-p1-kou-3
     type: kou
-    text: 令第三十七条の三十七の規定による医療機器等適合性確認の結果を通知した場合にあつては、その通知の年月日及び番号
+    text: 三　令第三十七条の三十七の規定による医療機器等適合性確認の結果を通知した場合にあつては、その通知の年月日及び番号
     modality: unspecified
     item_number: 3
 cases: []

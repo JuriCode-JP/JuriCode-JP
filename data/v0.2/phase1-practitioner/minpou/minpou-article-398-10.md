@@ -40,8 +40,8 @@ paragraphs:
     text: 前条第三項から第五項までの規定は、前二項の場合について準用する。
     modality: unspecified
     references:
-    - 前条
     - 前二項
+    - 前条
 cases: []
 amendments: []
 tags:

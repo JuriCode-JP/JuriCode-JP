@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-144-38-p1-kou-1
     type: kou
-    text: 元売業者又は元売業者の指定の申請を行つた者その他第百四十四条の七第一項各号に該当すると認められる者
+    text: 一　元売業者又は元売業者の指定の申請を行つた者その他第百四十四条の七第一項各号に該当すると認められる者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-144-38-p1-kou-2
     type: kou
-    text: 前号の者から軽油その他の石油製品の引取りを行う者
+    text: 二　前号の者から軽油その他の石油製品の引取りを行う者
     modality: unspecified
     item_number: 2
 - number: 2

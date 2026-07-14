@@ -32,7 +32,7 @@ parent_section:
   shou: 1
   shou_name_ja: 第一章　船舶
   setsu: 4
-  setsu_name_ja: 第四節　定期傭よう船
+  setsu_name_ja: 第四節　定期傭船
 ---
 
 # 商法 第706条(（費用の負担）)

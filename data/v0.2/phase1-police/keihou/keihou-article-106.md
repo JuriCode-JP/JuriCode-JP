@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: keihou-art-106-p1-kou-1
     type: kou
-    text: 首謀者は、一年以上十年以下の拘禁刑に処する。
+    text: 一　首謀者は、一年以上十年以下の拘禁刑に処する。
     modality: gimu_kei
     item_number: 1
   - id: keihou-art-106-p1-kou-2
     type: kou
-    text: 他人を指揮し、又は他人に率先して勢いを助けた者は、六月以上七年以下の拘禁刑に処する。
+    text: 二　他人を指揮し、又は他人に率先して勢いを助けた者は、六月以上七年以下の拘禁刑に処する。
     modality: gimu_kei
     item_number: 2
   - id: keihou-art-106-p1-kou-3
     type: kou
-    text: 付和随行した者は、十万円以下の罰金に処する。
+    text: 三　付和随行した者は、十万円以下の罰金に処する。
     modality: gimu_kei
     item_number: 3
 cases: []

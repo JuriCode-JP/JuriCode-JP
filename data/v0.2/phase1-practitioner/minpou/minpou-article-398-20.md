@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-398-20-p1-kou-1
     type: kou
-    text: 根抵当権者が抵当不動産について競売若しくは担保不動産収益執行又は第三百七十二条において準用する第三百四条の規定による差押えを申し立てたとき。ただし、競売手続若しくは担保不動産収益執行手続の開始又は差押えがあったときに限る。
+    text: 一　根抵当権者が抵当不動産について競売若しくは担保不動産収益執行又は第三百七十二条において準用する第三百四条の規定による差押えを申し立てたとき。ただし、競売手続若しくは担保不動産収益執行手続の開始又は差押えがあったときに限る。
     modality: unspecified
     item_number: 1
   - id: minpou-art-398-20-p1-kou-2
     type: kou
-    text: 根抵当権者が抵当不動産に対して滞納処分による差押えをしたとき。
+    text: 二　根抵当権者が抵当不動産に対して滞納処分による差押えをしたとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-398-20-p1-kou-3
     type: kou
-    text: 根抵当権者が抵当不動産に対する競売手続の開始又は滞納処分による差押えがあったことを知った時から二週間を経過したとき。
+    text: 三　根抵当権者が抵当不動産に対する競売手続の開始又は滞納処分による差押えがあったことを知った時から二週間を経過したとき。
     modality: unspecified
     item_number: 3
   - id: minpou-art-398-20-p1-kou-4
     type: kou
-    text: 債務者又は根抵当権設定者が破産手続開始の決定を受けたとき。
+    text: 四　債務者又は根抵当権設定者が破産手続開始の決定を受けたとき。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項第三号の競売手続の開始若しくは差押え又は同項第四号の破産手続開始の決定の効力が消滅したときは、担保すべき元本は、確定しなかったものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: minpou-art-398-20-p2-tadashi
     type: tadashi
     text: ただし、元本が確定したものとしてその根抵当権又はこれを目的とする権利を取得した者があるときは、この限りでない。

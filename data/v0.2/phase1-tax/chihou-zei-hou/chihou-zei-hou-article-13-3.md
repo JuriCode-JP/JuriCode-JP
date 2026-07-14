@@ -42,8 +42,8 @@ paragraphs:
     text: 第一項の換価がされたときは、執行機関に対する前項の通知は交付要求として、特別徴収義務者又は納税者に対する同項の通知は納入又は納付の告知としてそれぞれされたものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

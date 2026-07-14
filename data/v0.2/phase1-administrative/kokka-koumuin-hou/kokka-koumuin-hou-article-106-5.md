@@ -32,17 +32,17 @@ paragraphs:
     modality: unspecified
   - id: kokka-koumuin-hou-art-106-5-p2-kou-1
     type: kou
-    text: 第十八条の四の規定により委任を受けた権限に基づき調査を行うこと。
+    text: 一　第十八条の四の規定により委任を受けた権限に基づき調査を行うこと。
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-106-5-p2-kou-2
     type: kou
-    text: 第百六条の三第三項及び前条第六項の規定により委任を受けた権限に基づき承認を行うこと。
+    text: 二　第百六条の三第三項及び前条第六項の規定により委任を受けた権限に基づき承認を行うこと。
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-106-5-p2-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、この法律及び他の法律の規定によりその権限に属させられた事項を処理すること。
+    text: 三　前二号に掲げるもののほか、この法律及び他の法律の規定によりその権限に属させられた事項を処理すること。
     modality: unspecified
     item_number: 3
 cases: []

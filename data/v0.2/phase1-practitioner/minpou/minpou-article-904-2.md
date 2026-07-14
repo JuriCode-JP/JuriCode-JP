@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の協議が調わないとき、又は協議をすることができないときは、家庭裁判所は、同項に規定する寄与をした者の請求により、寄与の時期、方法及び程度、相続財産の額その他一切の事情を考慮して、寄与分を定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

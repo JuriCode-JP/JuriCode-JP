@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-252-36-p1-kou-1
     type: kou
-    text: 都道府県
+    text: 一　都道府県
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-36-p1-kou-2
     type: kou
-    text: 政令で定める市
+    text: 二　政令で定める市
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項第二号に掲げる市以外の市又は町村で、契約に基づく監査を受けることを条例により定めたものの長は、同項の政令で定めるところにより、条例で定める会計年度において、当該会計年度に係る包括外部監査契約を、速やかに、一の者と締結しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: chihou-jichi-hou-art-252-36-p2-kou
     type: kou_dan
     text: この場合においては、あらかじめ監査委員の意見を聴くとともに、議会の議決を経なければならない。
@@ -79,17 +79,17 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-252-36-p5-kou-1
     type: kou
-    text: 包括外部監査契約の期間の始期
+    text: 一　包括外部監査契約の期間の始期
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-36-p5-kou-2
     type: kou
-    text: 包括外部監査契約を締結した者に支払うべき監査に要する費用の額の算定方法
+    text: 二　包括外部監査契約を締結した者に支払うべき監査に要する費用の額の算定方法
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-252-36-p5-kou-3
     type: kou
-    text: 前二号に掲げる事項のほか、包括外部監査契約に基づく監査のために必要な事項として政令で定めるもの
+    text: 三　前二号に掲げる事項のほか、包括外部監査契約に基づく監査のために必要な事項として政令で定めるもの
     modality: unspecified
     item_number: 3
 - number: 6

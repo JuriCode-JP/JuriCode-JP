@@ -25,12 +25,12 @@ paragraphs:
     - 次条
   - id: chihou-jichi-hou-art-231-2-2-p1-kou-1
     type: kou
-    text: 歳入等の納付の通知に係る書面で総務省令で定めるものに基づき納付しようとするとき。
+    text: 一　歳入等の納付の通知に係る書面で総務省令で定めるものに基づき納付しようとするとき。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-231-2-2-p1-kou-2
     type: kou
-    text: 電子情報処理組織を使用して行う指定納付受託者に対する通知で総務省令で定めるものに基づき納付しようとするとき。
+    text: 二　電子情報処理組織を使用して行う指定納付受託者に対する通知で総務省令で定めるものに基づき納付しようとするとき。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,31 +23,31 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-66-30-p1-kou-1
     type: kou
-    text: 法人でない者
+    text: 一　法人でない者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-30-p1-kou-2
     type: kou
-    text: 第二十九条の四第一項第一号イからハまでのいずれかに該当する法人
+    text: 二　第二十九条の四第一項第一号イからハまでのいずれかに該当する法人
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-30-p1-kou-3
     type: kou
-    text: '役員のうちに次のいずれかに該当する者のある法人
+    text: '三　役員のうちに次のいずれかに該当する者のある法人
 
-      イ 心身の故障により信用格付業に係る業務を適正に行うことができない者として内閣府令で定める者
+      イ　心身の故障により信用格付業に係る業務を適正に行うことができない者として内閣府令で定める者
 
-      ロ 第二十九条の四第一項第二号ロからリまでのいずれかに該当する者'
+      ロ　第二十九条の四第一項第二号ロからリまでのいずれかに該当する者'
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-30-p1-kou-4
     type: kou
-    text: 他に行つている事業が公益に反すると認められる法人
+    text: 四　他に行つている事業が公益に反すると認められる法人
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-66-30-p1-kou-5
     type: kou
-    text: 信用格付業を公正かつ的確に遂行するための必要な体制が整備されていると認められない法人
+    text: 五　信用格付業を公正かつ的確に遂行するための必要な体制が整備されていると認められない法人
     modality: unspecified
     item_number: 5
 - number: 2

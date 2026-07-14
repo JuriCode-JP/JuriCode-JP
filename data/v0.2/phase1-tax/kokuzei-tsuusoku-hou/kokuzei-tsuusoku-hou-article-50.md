@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-art-50-p1-kou-1
     type: kou
-    text: 国債及び地方債
+    text: 一　国債及び地方債
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-50-p1-kou-2
     type: kou
-    text: 社債（特別の法律により設立された法人が発行する債券を含む。）その他の有価証券で税務署長等（国税に関する法律の規定により国税庁長官又は国税局長が担保を徴するものとされている場合には、国税庁長官又は国税局長。以下この条及び次条において同じ。）が確実と認めるもの
+    text: 二　社債（特別の法律により設立された法人が発行する債券を含む。）その他の有価証券で税務署長等（国税に関する法律の規定により国税庁長官又は国税局長が担保を徴するものとされている場合には、国税庁長官又は国税局長。以下この条及び次条において同じ。）が確実と認めるもの
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-50-p1-kou-3
     type: kou
-    text: 土地
+    text: 三　土地
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-50-p1-kou-4
     type: kou
-    text: 建物、立木及び登記される船舶並びに登録を受けた飛行機、回転翼航空機及び自動車並びに登記を受けた建設機械で、保険に附したもの
+    text: 四　建物、立木及び登記される船舶並びに登録を受けた飛行機、回転翼航空機及び自動車並びに登記を受けた建設機械で、保険に附したもの
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-art-50-p1-kou-5
     type: kou
-    text: 鉄道財団、工場財団、鉱業財団、軌道財団、運河財団、漁業財団、港湾運送事業財団、道路交通事業財団及び観光施設財団
+    text: 五　鉄道財団、工場財団、鉱業財団、軌道財団、運河財団、漁業財団、港湾運送事業財団、道路交通事業財団及び観光施設財団
     modality: unspecified
     item_number: 5
   - id: kokuzei-tsuusoku-hou-art-50-p1-kou-6
     type: kou
-    text: 税務署長等が確実と認める保証人の保証
+    text: 六　税務署長等が確実と認める保証人の保証
     modality: unspecified
     item_number: 6
   - id: kokuzei-tsuusoku-hou-art-50-p1-kou-7
     type: kou
-    text: 金銭
+    text: 七　金銭
     modality: unspecified
     item_number: 7
 cases:

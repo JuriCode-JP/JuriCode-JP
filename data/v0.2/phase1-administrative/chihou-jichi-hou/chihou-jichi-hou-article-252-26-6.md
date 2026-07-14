@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の応援を求めた普通地方公共団体の長又は委員会若しくは委員は、同項の生命等の保護の措置の実施について、当該応援に従事する者を指揮する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

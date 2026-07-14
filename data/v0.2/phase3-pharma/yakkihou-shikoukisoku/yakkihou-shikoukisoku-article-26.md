@@ -34,22 +34,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-26-p2-kou-1
     type: kou
-    text: 製造所の名称及び所在地
+    text: 一　製造所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-26-p2-kou-2
     type: kou
-    text: 許可の区分
+    text: 二　許可の区分
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-26-p2-kou-3
     type: kou
-    text: 医薬品製造管理者又は医薬部外品責任技術者の住所及び資格
+    text: 三　医薬品製造管理者又は医薬部外品責任技術者の住所及び資格
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-26-p2-kou-4
     type: kou
-    text: 法第十七条第五項ただし書第三号に該当する場合であつて、医薬品製造管理者として薬剤師以外の技術者を置くときは、当該薬剤師以外の技術者を補佐する薬剤師（以下「医薬品製造管理者補佐薬剤師」という。）の氏名及び住所並びに医薬品製造管理者補佐薬剤師が薬剤師である旨
+    text: 四　法第十七条第五項ただし書第三号に該当する場合であつて、医薬品製造管理者として薬剤師以外の技術者を置くときは、当該薬剤師以外の技術者を補佐する薬剤師（以下「医薬品製造管理者補佐薬剤師」という。）の氏名及び住所並びに医薬品製造管理者補佐薬剤師が薬剤師である旨
     modality: unspecified
     item_number: 4
 - number: 3
@@ -63,42 +63,42 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-26-p3-kou-1
     type: kou
-    text: 申請者が法人であるときは、登記事項証明書
+    text: 一　申請者が法人であるときは、登記事項証明書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-26-p3-kou-2
     type: kou
-    text: 申請者以外の者がその医薬品製造管理者又は医薬部外品等責任技術者であるときは、雇用契約書の写しその他申請者のその医薬品製造管理者又は医薬部外品等責任技術者に対する使用関係を証する書類
+    text: 二　申請者以外の者がその医薬品製造管理者又は医薬部外品等責任技術者であるときは、雇用契約書の写しその他申請者のその医薬品製造管理者又は医薬部外品等責任技術者に対する使用関係を証する書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-26-p3-kou-3
     type: kou
-    text: 医薬品製造管理者が薬剤師若しくは第八十八条に掲げる者であること又は医薬部外品等責任技術者が第九十一条に掲げる者であることを証する書類
+    text: 三　医薬品製造管理者が薬剤師若しくは第八十八条に掲げる者であること又は医薬部外品等責任技術者が第九十一条に掲げる者であることを証する書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-26-p3-kou-4
     type: kou
-    text: 法第十七条第五項ただし書第三号に該当する場合であつて、医薬品製造管理者として薬剤師以外の技術者を置くときは、当該医薬品製造管理者が第八十八条第一項第三号イ又はロに掲げる者であることを証する書類、医薬品製造管理者として薬剤師以外の技術者を置く理由を記載した書類、医薬品製造管理者補佐薬剤師の雇用契約書の写しその他の製造業者の医薬品製造管理者補佐薬剤師に対する使用関係を証する書類並びに医薬品製造管理者として法第十七条第六項に規定する能力及び経験を有する薬剤師を置くために必要な措置に関する計画
+    text: 四　法第十七条第五項ただし書第三号に該当する場合であつて、医薬品製造管理者として薬剤師以外の技術者を置くときは、当該医薬品製造管理者が第八十八条第一項第三号イ又はロに掲げる者であることを証する書類、医薬品製造管理者として薬剤師以外の技術者を置く理由を記載した書類、医薬品製造管理者補佐薬剤師の雇用契約書の写しその他の製造業者の医薬品製造管理者補佐薬剤師に対する使用関係を証する書類並びに医薬品製造管理者として法第十七条第六項に規定する能力及び経験を有する薬剤師を置くために必要な措置に関する計画
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-26-p3-kou-5
     type: kou
-    text: 製造所の構造設備に関する書類
+    text: 五　製造所の構造設備に関する書類
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-26-p3-kou-6
     type: kou
-    text: 製造しようとする品目の一覧表及び製造工程に関する書類
+    text: 六　製造しようとする品目の一覧表及び製造工程に関する書類
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-26-p3-kou-7
     type: kou
-    text: 放射性医薬品を取り扱おうとするとき（厚生労働大臣が定める数量又は濃度以下の放射性医薬品を取り扱おうとするときを除く。）は、放射性医薬品の種類及び放射性医薬品を取り扱うために必要な設備の概要を記載した書類
+    text: 七　放射性医薬品を取り扱おうとするとき（厚生労働大臣が定める数量又は濃度以下の放射性医薬品を取り扱おうとするときを除く。）は、放射性医薬品の種類及び放射性医薬品を取り扱うために必要な設備の概要を記載した書類
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-26-p3-kou-8
     type: kou
-    text: 申請者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可証又は登録証の写し
+    text: 八　申請者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可証又は登録証の写し
     modality: unspecified
     item_number: 8
 - number: 4

@@ -34,17 +34,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-77-7-p2-kou-1
     type: kou
-    text: 法第二百十四条第五項に規定する届出をした者又は通知を受けた者の氏名
+    text: 一　法第二百十四条第五項に規定する届出をした者又は通知を受けた者の氏名
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-77-7-p2-kou-2
     type: kou
-    text: 前号に規定する者の令第三百三十一条第一項第二号（非居住者が源泉徴収の免除を受けるための手続等）に規定する国内にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名
+    text: 二　前号に規定する者の令第三百三十一条第一項第二号（非居住者が源泉徴収の免除を受けるための手続等）に規定する国内にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-77-7-p2-kou-3
     type: kou
-    text: 法第二百十四条第六項第一号の有効期限
+    text: 三　法第二百十四条第六項第一号の有効期限
     modality: unspecified
     item_number: 3
 cases: []

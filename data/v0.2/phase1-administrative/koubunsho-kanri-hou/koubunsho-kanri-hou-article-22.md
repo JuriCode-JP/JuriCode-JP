@@ -24,9 +24,9 @@ paragraphs:
     applies_provisions:
     - 第九条から第十六条まで
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

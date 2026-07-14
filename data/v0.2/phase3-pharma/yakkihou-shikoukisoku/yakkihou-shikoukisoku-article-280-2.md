@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-280-2-p1-kou-1
     type: kou
-    text: 専ら他の医薬品（専ら動物のために使用されることが目的とされているものを除く。）の製造の用に供されることが目的とされている医薬品（専ら動物のために使用されることが目的とされているものを除く。）
+    text: 一　専ら他の医薬品（専ら動物のために使用されることが目的とされているものを除く。）の製造の用に供されることが目的とされている医薬品（専ら動物のために使用されることが目的とされているものを除く。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-280-2-p1-kou-2
     type: kou
-    text: これまで医薬品の製造に使用されたことのない添加剤又はこれまでの成分の配合割合と異なる添加剤
+    text: 二　これまで医薬品の製造に使用されたことのない添加剤又はこれまでの成分の配合割合と異なる添加剤
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-280-2-p1-kou-3
     type: kou
-    text: 専ら医療機器（専ら動物のために使用されることが目的とされているものを除く。）の製造の用に供されることが目的とされている原材料
+    text: 三　専ら医療機器（専ら動物のために使用されることが目的とされているものを除く。）の製造の用に供されることが目的とされている原材料
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-280-2-p1-kou-4
     type: kou
-    text: 専ら再生医療等製品（専ら動物のために使用されることが目的とされているものを除く。）の製造の用に供されることが目的とされている原材料
+    text: 四　専ら再生医療等製品（専ら動物のために使用されることが目的とされているものを除く。）の製造の用に供されることが目的とされている原材料
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-280-2-p1-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、容器その他の厚生労働大臣が指定するもの
+    text: 五　前各号に掲げるもののほか、容器その他の厚生労働大臣が指定するもの
     modality: unspecified
     item_number: 5
 cases: []

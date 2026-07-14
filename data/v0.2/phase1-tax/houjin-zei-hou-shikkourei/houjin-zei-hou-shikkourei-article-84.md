@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-84-p1-kou-1
     type: kou
-    text: 農業協同組合法第十条第一項第十号（共済に関する施設）の事業を行う農業協同組合及び農業協同組合連合会
+    text: 一　農業協同組合法第十条第一項第十号（共済に関する施設）の事業を行う農業協同組合及び農業協同組合連合会
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-84-p1-kou-2
     type: kou
-    text: 農業共済組合及び農業共済組合連合会
+    text: 二　農業共済組合及び農業共済組合連合会
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-84-p1-kou-3
     type: kou
-    text: 水産業協同組合法（昭和二十三年法律第二百四十二号）第十一条第一項第十二号（事業の種類）の事業を行う漁業協同組合及び同法第九十三条第一項第六号の二（事業の種類）の事業を行う水産加工業協同組合並びに共済水産業協同組合連合会
+    text: 三　水産業協同組合法（昭和二十三年法律第二百四十二号）第十一条第一項第十二号（事業の種類）の事業を行う漁業協同組合及び同法第九十三条第一項第六号の二（事業の種類）の事業を行う水産加工業協同組合並びに共済水産業協同組合連合会
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikkourei-art-84-p1-kou-4
     type: kou
-    text: 事業協同組合及び事業協同小組合（中小企業等協同組合法（昭和二十四年法律第百八十一号）第九条の二第七項（事業協同組合及び事業協同小組合）に規定する特定共済組合に限る。）並びに協同組合連合会（同法第九条の九第一項第三号（協同組合連合会）の事業を行う協同組合連合会及び同条第四項に規定する特定共済組合連合会に限る。）
+    text: 四　事業協同組合及び事業協同小組合（中小企業等協同組合法（昭和二十四年法律第百八十一号）第九条の二第七項（事業協同組合及び事業協同小組合）に規定する特定共済組合に限る。）並びに協同組合連合会（同法第九条の九第一項第三号（協同組合連合会）の事業を行う協同組合連合会及び同条第四項に規定する特定共済組合連合会に限る。）
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikkourei-art-84-p1-kou-5
     type: kou
-    text: 生活衛生関係営業の運営の適正化及び振興に関する法律（昭和三十二年法律第百六十四号）第八条第一項第十号（事業）に掲げる事業を行う生活衛生同業組合及び同法第五十四条第八号又は第九号（事業）に掲げる事業を行う生活衛生同業組合連合会
+    text: 五　生活衛生関係営業の運営の適正化及び振興に関する法律（昭和三十二年法律第百六十四号）第八条第一項第十号（事業）に掲げる事業を行う生活衛生同業組合及び同法第五十四条第八号又は第九号（事業）に掲げる事業を行う生活衛生同業組合連合会
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikkourei-art-84-p1-kou-6
     type: kou
-    text: 漁業共済組合及び漁業共済組合連合会
+    text: 六　漁業共済組合及び漁業共済組合連合会
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-shikkourei-art-84-p1-kou-7
     type: kou
-    text: 森林組合法（昭和五十三年法律第三十六号）第百一条第一項第十三号（事業の種類）に掲げる事業を行う森林組合連合会
+    text: 七　森林組合法（昭和五十三年法律第三十六号）第百一条第一項第十三号（事業の種類）に掲げる事業を行う森林組合連合会
     modality: unspecified
     item_number: 7
 cases: []

@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -57,8 +57,8 @@ paragraphs:
     text: 前三項に定めるもののほか、第一項又は第二項の機関の組織及び運営に関し必要な事項は、当該機関を置く地方公共団体の条例（地方自治法第二百五十二条の七第一項の規定により共同設置する機関にあっては、同項の規約）で定める。
     modality: unspecified
     references:
-    - 同項
     - 前三項
+    - 同項
 cases: []
 amendments: []
 tags:

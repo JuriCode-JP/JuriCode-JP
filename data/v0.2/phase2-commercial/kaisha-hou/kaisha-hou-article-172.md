@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-172-p1-kou-1
     type: kou
-    text: 当該株主総会に先立って当該株式会社による全部取得条項付種類株式の取得に反対する旨を当該株式会社に対し通知し、かつ、当該株主総会において当該取得に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
+    text: 一　当該株主総会に先立って当該株式会社による全部取得条項付種類株式の取得に反対する旨を当該株式会社に対し通知し、かつ、当該株主総会において当該取得に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-172-p1-kou-2
     type: kou
-    text: 当該株主総会において議決権を行使することができない株主
+    text: 二　当該株主総会において議決権を行使することができない株主
     modality: unspecified
     item_number: 2
 - number: 2

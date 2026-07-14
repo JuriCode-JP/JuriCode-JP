@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項各号に掲げる事項が社債原簿に記載され、又は記録された質権者は、社債発行会社に対し、当該質権者についての社債原簿に記載され、若しくは記録された同項各号に掲げる事項を記載した書面の交付又は当該事項を記録した電磁的記録の提供を請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

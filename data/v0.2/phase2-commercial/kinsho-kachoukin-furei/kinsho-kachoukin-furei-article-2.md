@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-2-p1-kou-1
     type: kou
-    text: 被審人の氏名又は名称及び住所並びに代理人の氏名及び住所
+    text: 一　被審人の氏名又は名称及び住所並びに代理人の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-2-p1-kou-2
     type: kou
-    text: 事件の表示
+    text: 二　事件の表示
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-2-p1-kou-3
     type: kou
-    text: 附属書類の表示
+    text: 三　附属書類の表示
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-2-p1-kou-4
     type: kou
-    text: 年月日
+    text: 四　年月日
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,8 +54,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

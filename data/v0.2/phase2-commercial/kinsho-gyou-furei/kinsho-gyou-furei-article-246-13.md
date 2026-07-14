@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-246-13-p1-kou-1
     type: kou
-    text: 法第六十三条の九第六項第二号トただし書に定めるその業務の監督を適切に行う能力を有する役員又は使用人を確保する場合　その旨及び当該役員又は使用人の氏名又は名称
+    text: 一　法第六十三条の九第六項第二号トただし書に定めるその業務の監督を適切に行う能力を有する役員又は使用人を確保する場合　その旨及び当該役員又は使用人の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-246-13-p1-kou-2
     type: kou
-    text: 法第六十三条の九第六項第三号ハただし書に定めるその業務の監督を適切に行う能力を有する者である場合　その旨
+    text: 二　法第六十三条の九第六項第三号ハただし書に定めるその業務の監督を適切に行う能力を有する者である場合　その旨
     modality: unspecified
     item_number: 2
 cases: []

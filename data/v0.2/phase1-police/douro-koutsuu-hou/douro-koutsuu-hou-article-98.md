@@ -32,17 +32,17 @@ paragraphs:
     modality: kanou_kenri
   - id: douro-koutsuu-hou-art-98-p2-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-98-p2-kou-2
     type: kou
-    text: 自動車教習所の名称及び所在地
+    text: 二　自動車教習所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-98-p2-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、内閣府令で定める事項
+    text: 三　前二号に掲げるもののほか、内閣府令で定める事項
     modality: unspecified
     item_number: 3
 - number: 3

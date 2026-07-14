@@ -81,12 +81,12 @@ paragraphs:
     - 次項
   - id: chihou-koumuin-hou-art-26-6-p7-kou-1
     type: kou
-    text: 申請期間を任用の期間（以下この条において「任期」という。）の限度として行う任期を定めた採用
+    text: 一　申請期間を任用の期間（以下この条において「任期」という。）の限度として行う任期を定めた採用
     modality: unspecified
     item_number: 1
   - id: chihou-koumuin-hou-art-26-6-p7-kou-2
     type: kou
-    text: 申請期間を任期の限度として行う臨時的任用
+    text: 二　申請期間を任期の限度として行う臨時的任用
     modality: unspecified
     item_number: 2
 - number: 8

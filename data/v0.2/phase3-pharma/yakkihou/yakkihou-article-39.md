@@ -35,9 +35,9 @@ paragraphs:
     text: 前項の許可は、営業所ごとに、その営業所の所在地の都道府県知事（その営業所の所在地が保健所を設置する市又は特別区の区域にある場合においては、市長又は区長。次項、次条第二項及び第三十九条の三第一項において同じ。）が与える。
     modality: unspecified
     references:
-    - 次条
     - 次項
     - 前項
+    - 次条
 - number: 3
   has_proviso: false
   has_items: true
@@ -49,27 +49,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-art-39-p3-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-39-p3-kou-2
     type: kou
-    text: その営業所の構造設備の概要
+    text: 二　その営業所の構造設備の概要
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-39-p3-kou-3
     type: kou
-    text: 法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    text: 三　法人にあつては、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-39-p3-kou-4
     type: kou
-    text: 次条第一項に規定する高度管理医療機器等営業所管理者の氏名
+    text: 四　次条第一項に規定する高度管理医療機器等営業所管理者の氏名
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-39-p3-kou-5
     type: kou
-    text: 第五項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
+    text: 五　第五項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 4

@@ -32,32 +32,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-21-p2-kou-1
     type: kou
-    text: 個人である生命保険募集人（保険業法第二条第十九項に規定する生命保険募集人をいい、同条第三項に規定する生命保険会社及び同条第八項に規定する外国生命保険会社等の役員及び使用人を除く。）
+    text: 一　個人である生命保険募集人（保険業法第二条第十九項に規定する生命保険募集人をいい、同条第三項に規定する生命保険会社及び同条第八項に規定する外国生命保険会社等の役員及び使用人を除く。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-21-p2-kou-2
     type: kou
-    text: 法人である生命保険募集人（保険業法第二条第十九項に規定する生命保険募集人をいう。）の代表権を有する役員
+    text: 二　法人である生命保険募集人（保険業法第二条第十九項に規定する生命保険募集人をいう。）の代表権を有する役員
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-15-21-p2-kou-3
     type: kou
-    text: 個人である損害保険代理店（保険業法第二条第二十一項に規定する損害保険代理店をいう。以下この項において同じ。）
+    text: 三　個人である損害保険代理店（保険業法第二条第二十一項に規定する損害保険代理店をいう。以下この項において同じ。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-15-21-p2-kou-4
     type: kou
-    text: 個人である損害保険代理店の使用人のうち保険業法第三百二条の規定による届出が行われているもの
+    text: 四　個人である損害保険代理店の使用人のうち保険業法第三百二条の規定による届出が行われているもの
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-15-21-p2-kou-5
     type: kou
-    text: 法人である損害保険代理店の役員又は使用人のうち保険業法第三百二条の規定による届出が行われているもの
+    text: 五　法人である損害保険代理店の役員又は使用人のうち保険業法第三百二条の規定による届出が行われているもの
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-15-21-p2-kou-6
     type: kou
-    text: 法人である損害保険代理店の代表権を有する役員
+    text: 六　法人である損害保険代理店の代表権を有する役員
     modality: unspecified
     item_number: 6
 cases: []

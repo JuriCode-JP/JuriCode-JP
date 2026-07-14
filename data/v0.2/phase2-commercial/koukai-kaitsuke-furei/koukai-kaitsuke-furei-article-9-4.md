@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-9-4-p1-kou-1
     type: kou
-    text: 公告の中断の期間
+    text: 一　公告の中断の期間
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-9-4-p1-kou-2
     type: kou
-    text: 公告の中断の原因
+    text: 二　公告の中断の原因
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-617-p1-kou-1
     type: kou
-    text: 土地の賃貸借　一年
+    text: 一　土地の賃貸借　一年
     modality: unspecified
     item_number: 1
   - id: minpou-art-617-p1-kou-2
     type: kou
-    text: 建物の賃貸借　三箇月
+    text: 二　建物の賃貸借　三箇月
     modality: unspecified
     item_number: 2
   - id: minpou-art-617-p1-kou-3
     type: kou
-    text: 動産及び貸席の賃貸借　一日
+    text: 三　動産及び貸席の賃貸借　一日
     modality: unspecified
     item_number: 3
 - number: 2

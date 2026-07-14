@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-shikkourei-art-139-3-p1-kou-1
     type: kou
-    text: 会社法第二百三十四条第一項若しくは第二項（一に満たない端数の処理）（同条第六項又は同法第二百三十五条第二項（一に満たない端数の処理）において準用する場合を含む。）又は同法第二百三十五条第一項（これらの規定を他の法律において準用する場合を含む。）
+    text: 一　会社法第二百三十四条第一項若しくは第二項（一に満たない端数の処理）（同条第六項又は同法第二百三十五条第二項（一に満たない端数の処理）において準用する場合を含む。）又は同法第二百三十五条第一項（これらの規定を他の法律において準用する場合を含む。）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-139-3-p1-kou-2
     type: kou
-    text: 投資信託及び投資法人に関する法律第八十八条第一項又は第百四十九条の十七第一項（一に満たない端数の処理）
+    text: 二　投資信託及び投資法人に関する法律第八十八条第一項又は第百四十九条の十七第一項（一に満たない端数の処理）
     modality: unspecified
     item_number: 2
 - number: 2

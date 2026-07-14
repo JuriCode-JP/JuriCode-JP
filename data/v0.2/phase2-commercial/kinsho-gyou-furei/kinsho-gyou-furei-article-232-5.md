@@ -23,72 +23,72 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-232-5-p1-kou-1
     type: kou
-    text: 電子店頭デリバティブ取引等業務の開始を決議した役員会等の議事録
+    text: 一　電子店頭デリバティブ取引等業務の開始を決議した役員会等の議事録
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-232-5-p1-kou-2
     type: kou
-    text: 本店又は電子店頭デリバティブ取引等店（法第六十条の十四第二項において読み替えて準用する法第六十条の二第一項第三号に規定する電子店頭デリバティブ取引等店をいう。以下同じ。）が所在する全ての国において登録等を受けていることを証する書面
+    text: 二　本店又は電子店頭デリバティブ取引等店（法第六十条の十四第二項において読み替えて準用する法第六十条の二第一項第三号に規定する電子店頭デリバティブ取引等店をいう。以下同じ。）が所在する全ての国において登録等を受けていることを証する書面
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-232-5-p1-kou-3
     type: kou
-    text: 全ての電子店頭デリバティブ取引等店において、電子店頭デリバティブ取引等業務と同種類の業務を一年以上継続して行っていること、又は令第十七条の十の四第二項に定める場合に該当することを証する書面
+    text: 三　全ての電子店頭デリバティブ取引等店において、電子店頭デリバティブ取引等業務と同種類の業務を一年以上継続して行っていること、又は令第十七条の十の四第二項に定める場合に該当することを証する書面
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-232-5-p1-kou-4
     type: kou
-    text: 純財産額を算出した書面
+    text: 四　純財産額を算出した書面
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-232-5-p1-kou-5
     type: kou
-    text: 役員、電子店頭デリバティブ取引等店所在国における代表者（法第六十条の十四第二項において読み替えて準用する法第六十条の二第一項第三号に規定する電子店頭デリバティブ取引等店所在国における代表者をいう。）及び国内における代表者（以下この款において「役員等」という。）の履歴書（役員が法人であるときは、当該役員の沿革を記載した書面）
+    text: 五　役員、電子店頭デリバティブ取引等店所在国における代表者（法第六十条の十四第二項において読み替えて準用する法第六十条の二第一項第三号に規定する電子店頭デリバティブ取引等店所在国における代表者をいう。）及び国内における代表者（以下この款において「役員等」という。）の履歴書（役員が法人であるときは、当該役員の沿革を記載した書面）
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-232-5-p1-kou-6
     type: kou
-    text: 役員等の住民票の抄本（役員が法人であるときは、当該役員の登記事項証明書）又はこれに代わる書面
+    text: 六　役員等の住民票の抄本（役員が法人であるときは、当該役員の登記事項証明書）又はこれに代わる書面
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-232-5-p1-kou-7
     type: kou
-    text: 役員等の旧氏及び名を当該役員等の氏名に併せて法第六十条の十四第二項において準用する法第六十条の二第一項の許可申請書に記載した場合において、前号に掲げる書類が当該役員等の旧氏及び名を証するものでないときは、当該旧氏及び名を証する書面
+    text: 七　役員等の旧氏及び名を当該役員等の氏名に併せて法第六十条の十四第二項において準用する法第六十条の二第一項の許可申請書に記載した場合において、前号に掲げる書類が当該役員等の旧氏及び名を証するものでないときは、当該旧氏及び名を証する書面
     modality: unspecified
     item_number: 7
   - id: kinsho-gyou-furei-art-232-5-p1-kou-8
     type: kou
-    text: 役員等が法第二十九条の四第一項第二号ロに該当しない旨の官公署の証明書又はこれに代わる書面
+    text: 八　役員等が法第二十九条の四第一項第二号ロに該当しない旨の官公署の証明書又はこれに代わる書面
     modality: unspecified
     item_number: 8
   - id: kinsho-gyou-furei-art-232-5-p1-kou-9
     type: kou
-    text: 役員等が法第二十九条の四第一項第二号イ又はハからリまでのいずれにも該当しない者であることを当該役員等が誓約する書面
+    text: 九　役員等が法第二十九条の四第一項第二号イ又はハからリまでのいずれにも該当しない者であることを当該役員等が誓約する書面
     modality: unspecified
     item_number: 9
   - id: kinsho-gyou-furei-art-232-5-p1-kou-10
     type: kou
-    text: 電子店頭デリバティブ取引等業務を管理する責任者の履歴書
+    text: 十　電子店頭デリバティブ取引等業務を管理する責任者の履歴書
     modality: unspecified
     item_number: 10
   - id: kinsho-gyou-furei-art-232-5-p1-kou-11
     type: kou
-    text: 電子店頭デリバティブ取引等業務に関する社内規則
+    text: 十一　電子店頭デリバティブ取引等業務に関する社内規則
     modality: unspecified
     item_number: 11
   - id: kinsho-gyou-furei-art-232-5-p1-kou-12
     type: kou
-    text: 電子店頭デリバティブ取引等業務に関し顧客と取引を行う際に使用する契約書類及びその添付書類
+    text: 十二　電子店頭デリバティブ取引等業務に関し顧客と取引を行う際に使用する契約書類及びその添付書類
     modality: unspecified
     item_number: 12
   - id: kinsho-gyou-furei-art-232-5-p1-kou-13
     type: kou
-    text: 電子店頭デリバティブ取引等業務を行う際に使用する電子情報処理組織において、不公正な取引の防止を図るために講じている措置を記載した書面
+    text: 十三　電子店頭デリバティブ取引等業務を行う際に使用する電子情報処理組織において、不公正な取引の防止を図るために講じている措置を記載した書面
     modality: unspecified
     item_number: 13
   - id: kinsho-gyou-furei-art-232-5-p1-kou-14
     type: kou
-    text: 前条第十四号に掲げるものに関する許可申請者と特別の利害関係のない者の評価書
+    text: 十四　前条第十四号に掲げるものに関する許可申請者と特別の利害関係のない者の評価書
     modality: unspecified
     item_number: 14
 cases: []

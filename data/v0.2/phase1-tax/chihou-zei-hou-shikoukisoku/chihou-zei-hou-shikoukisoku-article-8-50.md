@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-50-p1-kou-1
     type: kou
-    text: 納入を受けた軽油の引渡しを行つた者の氏名又は名称及び住所又は所在地
+    text: 一　納入を受けた軽油の引渡しを行つた者の氏名又は名称及び住所又は所在地
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-50-p1-kou-2
     type: kou
-    text: 納入を受けた軽油の納入を行つた者の氏名又は名称及び住所又は所在地
+    text: 二　納入を受けた軽油の納入を行つた者の氏名又は名称及び住所又は所在地
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-50-p1-kou-3
     type: kou
-    text: 納入を受けた年月日
+    text: 三　納入を受けた年月日
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-8-50-p1-kou-4
     type: kou
-    text: 納入を受けた軽油の数量
+    text: 四　納入を受けた軽油の数量
     modality: unspecified
     item_number: 4
 cases: []

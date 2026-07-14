@@ -73,8 +73,8 @@ paragraphs:
     text: 第三項の規定は、同項の当該対象会計年度の直前の四対象会計年度のうちに前項の規定の適用を受けることとなつた対象会計年度がない場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

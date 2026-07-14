@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-378-p1-kou-1
     type: kou
-    text: 不法に管轄又は管轄違を認めたこと。
+    text: 一　不法に管轄又は管轄違を認めたこと。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-378-p1-kou-2
     type: kou
-    text: 不法に、公訴を受理し、又はこれを棄却したこと。
+    text: 二　不法に、公訴を受理し、又はこれを棄却したこと。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-378-p1-kou-3
     type: kou
-    text: 審判の請求を受けた事件について判決をせず、又は審判の請求を受けない事件について判決をしたこと。
+    text: 三　審判の請求を受けた事件について判決をせず、又は審判の請求を受けない事件について判決をしたこと。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-378-p1-kou-4
     type: kou
-    text: 判決に理由を附せず、又は理由にくいちがいがあること。
+    text: 四　判決に理由を附せず、又は理由にくいちがいがあること。
     modality: unspecified
     item_number: 4
 cases: []

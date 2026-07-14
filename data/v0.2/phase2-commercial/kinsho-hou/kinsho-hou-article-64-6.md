@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-64-6-p1-kou-1
     type: kou
-    text: 前条第一項の規定により外務員の登録を取り消したとき。
+    text: 一　前条第一項の規定により外務員の登録を取り消したとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-64-6-p1-kou-2
     type: kou
-    text: 外務員の所属する金融商品取引業者等が解散し、又は金融商品取引業（登録金融機関にあつては、登録金融機関業務）のうち第六十四条第一項各号に掲げる行為を行う業務を廃止したとき。
+    text: 二　外務員の所属する金融商品取引業者等が解散し、又は金融商品取引業（登録金融機関にあつては、登録金融機関業務）のうち第六十四条第一項各号に掲げる行為を行う業務を廃止したとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-64-6-p1-kou-3
     type: kou
-    text: 退職その他の理由により外務員の職務を行わないこととなつた事実が確認されたとき。
+    text: 三　退職その他の理由により外務員の職務を行わないこととなつた事実が確認されたとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-64-6-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、内閣府令で定めるとき。
+    text: 四　前三号に掲げるもののほか、内閣府令で定めるとき。
     modality: unspecified
     item_number: 4
 cases: []

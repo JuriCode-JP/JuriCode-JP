@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-703-p1-kou-1
     type: kou
-    text: 銀行
+    text: 一　銀行
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-703-p1-kou-2
     type: kou
-    text: 信託会社
+    text: 二　信託会社
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-703-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、これらに準ずるものとして法務省令で定める者
+    text: 三　前二号に掲げるもののほか、これらに準ずるものとして法務省令で定める者
     modality: unspecified
     item_number: 3
 cases: []

@@ -23,42 +23,42 @@ paragraphs:
     modality: kanou_kenri
   - id: dokusen-kinshi-hou-art-84-2-p1-kou-1
     type: kou
-    text: 東京高等裁判所の管轄区域内に所在する地方裁判所（東京地方裁判所を除く。）、大阪地方裁判所、名古屋地方裁判所、広島地方裁判所、福岡地方裁判所、仙台地方裁判所、札幌地方裁判所又は高松地方裁判所　東京地方裁判所
+    text: 一　東京高等裁判所の管轄区域内に所在する地方裁判所（東京地方裁判所を除く。）、大阪地方裁判所、名古屋地方裁判所、広島地方裁判所、福岡地方裁判所、仙台地方裁判所、札幌地方裁判所又は高松地方裁判所　東京地方裁判所
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-84-2-p1-kou-2
     type: kou
-    text: 大阪高等裁判所の管轄区域内に所在する地方裁判所（大阪地方裁判所を除く。）　東京地方裁判所又は大阪地方裁判所
+    text: 二　大阪高等裁判所の管轄区域内に所在する地方裁判所（大阪地方裁判所を除く。）　東京地方裁判所又は大阪地方裁判所
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-84-2-p1-kou-3
     type: kou
-    text: 名古屋高等裁判所の管轄区域内に所在する地方裁判所（名古屋地方裁判所を除く。）　東京地方裁判所又は名古屋地方裁判所
+    text: 三　名古屋高等裁判所の管轄区域内に所在する地方裁判所（名古屋地方裁判所を除く。）　東京地方裁判所又は名古屋地方裁判所
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-84-2-p1-kou-4
     type: kou
-    text: 広島高等裁判所の管轄区域内に所在する地方裁判所（広島地方裁判所を除く。）　東京地方裁判所又は広島地方裁判所
+    text: 四　広島高等裁判所の管轄区域内に所在する地方裁判所（広島地方裁判所を除く。）　東京地方裁判所又は広島地方裁判所
     modality: unspecified
     item_number: 4
   - id: dokusen-kinshi-hou-art-84-2-p1-kou-5
     type: kou
-    text: 福岡高等裁判所の管轄区域内に所在する地方裁判所（福岡地方裁判所を除く。）　東京地方裁判所又は福岡地方裁判所
+    text: 五　福岡高等裁判所の管轄区域内に所在する地方裁判所（福岡地方裁判所を除く。）　東京地方裁判所又は福岡地方裁判所
     modality: unspecified
     item_number: 5
   - id: dokusen-kinshi-hou-art-84-2-p1-kou-6
     type: kou
-    text: 仙台高等裁判所の管轄区域内に所在する地方裁判所（仙台地方裁判所を除く。）　東京地方裁判所又は仙台地方裁判所
+    text: 六　仙台高等裁判所の管轄区域内に所在する地方裁判所（仙台地方裁判所を除く。）　東京地方裁判所又は仙台地方裁判所
     modality: unspecified
     item_number: 6
   - id: dokusen-kinshi-hou-art-84-2-p1-kou-7
     type: kou
-    text: 札幌高等裁判所の管轄区域内に所在する地方裁判所（札幌地方裁判所を除く。）　東京地方裁判所又は札幌地方裁判所
+    text: 七　札幌高等裁判所の管轄区域内に所在する地方裁判所（札幌地方裁判所を除く。）　東京地方裁判所又は札幌地方裁判所
     modality: unspecified
     item_number: 7
   - id: dokusen-kinshi-hou-art-84-2-p1-kou-8
     type: kou
-    text: 高松高等裁判所の管轄区域内に所在する地方裁判所（高松地方裁判所を除く。）　東京地方裁判所又は高松地方裁判所
+    text: 八　高松高等裁判所の管轄区域内に所在する地方裁判所（高松地方裁判所を除く。）　東京地方裁判所又は高松地方裁判所
     modality: unspecified
     item_number: 8
 - number: 2

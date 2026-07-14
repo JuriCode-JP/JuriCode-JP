@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-14-p1-kou-1
     type: kou
-    text: 特定医療機器利用者が死亡したとき。
+    text: 一　特定医療機器利用者が死亡したとき。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-14-p1-kou-2
     type: kou
-    text: 当該特定医療機器が利用に供されなくなつたとき。
+    text: 二　当該特定医療機器が利用に供されなくなつたとき。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-14-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、当該記録を保存する理由が消滅したとき。
+    text: 三　前二号に掲げるもののほか、当該記録を保存する理由が消滅したとき。
     modality: unspecified
     item_number: 3
 cases: []

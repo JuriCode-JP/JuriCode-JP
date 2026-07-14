@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-680-p1-kou-1
     type: kou
-    text: 申込者　会社の割り当てた募集社債
+    text: 一　申込者　会社の割り当てた募集社債
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-680-p1-kou-2
     type: kou
-    text: 前条の契約により募集社債の総額を引き受けた者　その者が引き受けた募集社債
+    text: 二　前条の契約により募集社債の総額を引き受けた者　その者が引き受けた募集社債
     modality: unspecified
     item_number: 2
 cases: []

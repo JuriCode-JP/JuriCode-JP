@@ -26,27 +26,27 @@ paragraphs:
     - 次条
   - id: sochi-hou-shikoukisoku-art-37-4-5-p1-kou-1
     type: kou
-    text: 届出者の住所及び氏名又は名称並びに法人にあつては、法人番号
+    text: 一　届出者の住所及び氏名又は名称並びに法人にあつては、法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-4-5-p1-kou-2
     type: kou
-    text: 当該輸出酒類販売場の所在地及び名称
+    text: 二　当該輸出酒類販売場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-4-5-p1-kou-3
     type: kou
-    text: 届出者の電子メールアドレス
+    text: 三　届出者の電子メールアドレス
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-4-5-p1-kou-4
     type: kou
-    text: 当該輸出酒類販売場に係る酒類購入記録情報の提供を承認送信事業者（施行令第四十六条の八の二第十一項に規定する承認送信事業者をいう。以下この号及び次条において同じ。）が同項前段の規定により行う場合にあつては、その旨及び当該承認送信事業者の識別符号（消費税法施行規則第六条の二第一項第四号に掲げる識別符号をいう。）
+    text: 四　当該輸出酒類販売場に係る酒類購入記録情報の提供を承認送信事業者（施行令第四十六条の八の二第十一項に規定する承認送信事業者をいう。以下この号及び次条において同じ。）が同項前段の規定により行う場合にあつては、その旨及び当該承認送信事業者の識別符号（消費税法施行規則第六条の二第一項第四号に掲げる識別符号をいう。）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-37-4-5-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -62,22 +62,22 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikoukisoku-art-37-4-5-p2-kou-1
     type: kou
-    text: 届出者の住所及び氏名又は名称並びに法人にあつては、法人番号
+    text: 一　届出者の住所及び氏名又は名称並びに法人にあつては、法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-4-5-p2-kou-2
     type: kou
-    text: 当該変更に係る輸出酒類販売場の所在地及び名称
+    text: 二　当該変更に係る輸出酒類販売場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-4-5-p2-kou-3
     type: kou
-    text: 変更の内容
+    text: 三　変更の内容
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-4-5-p2-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 3
@@ -109,12 +109,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-4-5-p5-kou-1
     type: kou
-    text: 本邦から出国する際又は免税購入対象者でなくなる際に、その出港地を所轄する税関長又はその住所若しくは居所の所在地を所轄する税務署長にその所持する旅券等を提示しなければならない旨
+    text: 一　本邦から出国する際又は免税購入対象者でなくなる際に、その出港地を所轄する税関長又はその住所若しくは居所の所在地を所轄する税務署長にその所持する旅券等を提示しなければならない旨
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-4-5-p5-kou-2
     type: kou
-    text: 免税酒類を遅滞なく輸出しなければならない旨及びそれを輸出しなかつた場合には、当該免税酒類の移出につき法第八十七条の六第一項の規定の適用により免除された酒税額に相当する額を徴収される旨
+    text: 二　免税酒類を遅滞なく輸出しなければならない旨及びそれを輸出しなかつた場合には、当該免税酒類の移出につき法第八十七条の六第一項の規定の適用により免除された酒税額に相当する額を徴収される旨
     modality: unspecified
     item_number: 2
 - number: 6

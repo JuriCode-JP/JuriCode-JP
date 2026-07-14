@@ -36,42 +36,42 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-5-4-p2-kou-1
     type: kou
-    text: 当該申告書を提出する金融商品取引業者等の営業所等の名称及び所在地並びに当該金融商品取引業者等の法人番号
+    text: 一　当該申告書を提出する金融商品取引業者等の営業所等の名称及び所在地並びに当該金融商品取引業者等の法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-5-4-p2-kou-2
     type: kou
-    text: 法第九条の五第一項の規定の適用を受けようとする公募株式等証券投資信託の受益権の名称
+    text: 二　法第九条の五第一項の規定の適用を受けようとする公募株式等証券投資信託の受益権の名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-5-4-p2-kou-3
     type: kou
-    text: 法第九条の五第一項の規定の適用を受けようとする公募株式等証券投資信託の終了又は一部の解約により支払を受ける収益の分配の額
+    text: 三　法第九条の五第一項の規定の適用を受けようとする公募株式等証券投資信託の終了又は一部の解約により支払を受ける収益の分配の額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-5-4-p2-kou-4
     type: kou
-    text: 当該公募株式等証券投資信託につき信託の設定（追加設定を含む。第六号において同じ。）があつた年月日及び当該買取りに係る顧客が当該公募株式等証券投資信託の受益権を取得した年月日（当該受益権が施行令第四条の八第七項の規定の適用を受けるものである場合には、これらの年月日に代えて、その適用を受ける旨）
+    text: 四　当該公募株式等証券投資信託につき信託の設定（追加設定を含む。第六号において同じ。）があつた年月日及び当該買取りに係る顧客が当該公募株式等証券投資信託の受益権を取得した年月日（当該受益権が施行令第四条の八第七項の規定の適用を受けるものである場合には、これらの年月日に代えて、その適用を受ける旨）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-5-4-p2-kou-5
     type: kou
-    text: 金融商品取引業者等が当該公募株式等証券投資信託の受益権を買い取つた年月日並びにその買い取つた受益権の口数及び一口当たりの買取価額
+    text: 五　金融商品取引業者等が当該公募株式等証券投資信託の受益権を買い取つた年月日並びにその買い取つた受益権の口数及び一口当たりの買取価額
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-5-4-p2-kou-6
     type: kou
-    text: 当該公募株式等証券投資信託の受益権につき、当該公募株式等証券投資信託に係る信託の設定があつた日（当該受益権が施行令第四条の八第七項の規定の適用を受けるものである場合には、平成十六年一月一日）から当該受益権を買い取つた日までの期間を通じて同条第四項各号に掲げる場合の区分に応じ当該各号に定める方法により管理されていた旨
+    text: 六　当該公募株式等証券投資信託の受益権につき、当該公募株式等証券投資信託に係る信託の設定があつた日（当該受益権が施行令第四条の八第七項の規定の適用を受けるものである場合には、平成十六年一月一日）から当該受益権を買い取つた日までの期間を通じて同条第四項各号に掲げる場合の区分に応じ当該各号に定める方法により管理されていた旨
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-5-4-p2-kou-7
     type: kou
-    text: 当該申告書の提出の際に経由すべき支払者（法第九条の五第二項に規定する支払者をいう。次項において同じ。）の名称及び所在地
+    text: 七　当該申告書の提出の際に経由すべき支払者（法第九条の五第二項に規定する支払者をいう。次項において同じ。）の名称及び所在地
     modality: unspecified
     item_number: 7
   - id: sochi-hou-shikoukisoku-art-5-4-p2-kou-8
     type: kou
-    text: その他参考となるべき事項
+    text: 八　その他参考となるべき事項
     modality: unspecified
     item_number: 8
 - number: 3

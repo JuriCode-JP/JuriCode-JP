@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kokuzei-tsuusoku-hou-art-37-p1-kou-1
     type: kou
-    text: 次条第一項若しくは第三項又は国税徴収法第百五十九条（保全差押）の規定の適用を受けた国税
+    text: 一　次条第一項若しくは第三項又は国税徴収法第百五十九条（保全差押）の規定の適用を受けた国税
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-37-p1-kou-2
     type: kou
-    text: 国税に関する法律の規定により一定の事実が生じた場合に直ちに徴収するものとされている国税
+    text: 二　国税に関する法律の規定により一定の事実が生じた場合に直ちに徴収するものとされている国税
     modality: unspecified
     item_number: 2
 - number: 2

@@ -32,17 +32,17 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-390-p2-kou-1
     type: kou
-    text: 監査報告の作成
+    text: 一　監査報告の作成
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-390-p2-kou-2
     type: kou
-    text: 常勤の監査役の選定及び解職
+    text: 二　常勤の監査役の選定及び解職
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-390-p2-kou-3
     type: kou
-    text: 監査の方針、監査役会設置会社の業務及び財産の状況の調査の方法その他の監査役の職務の執行に関する事項の決定
+    text: 三　監査の方針、監査役会設置会社の業務及び財産の状況の調査の方法その他の監査役の職務の執行に関する事項の決定
     modality: unspecified
     item_number: 3
 - number: 3

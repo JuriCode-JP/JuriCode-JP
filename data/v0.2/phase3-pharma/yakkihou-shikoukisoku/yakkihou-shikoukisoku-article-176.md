@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-176-p1-kou-1
     type: kou
-    text: 氏名又は名称及び住所
+    text: 一　氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-176-p1-kou-2
     type: kou
-    text: 営業所の名称
+    text: 二　営業所の名称
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-176-p1-kou-3
     type: kou
-    text: 法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    text: 三　法人にあつては、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-176-p1-kou-4
     type: kou
-    text: 当該営業所において第百七十五条第一項に規定する特定管理医療機器を販売提供等する場合にあつては、同条第二項に規定する特定管理医療機器営業所管理者等の氏名及び住所
+    text: 四　当該営業所において第百七十五条第一項に規定する特定管理医療機器を販売提供等する場合にあつては、同条第二項に規定する特定管理医療機器営業所管理者等の氏名及び住所
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-176-p1-kou-5
     type: kou
-    text: 営業所（管理医療機器プログラムのみを取り扱う営業所を除く。）の構造設備の概要
+    text: 五　営業所（管理医療機器プログラムのみを取り扱う営業所を除く。）の構造設備の概要
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-176-p1-kou-6
     type: kou
-    text: 兼営事業の種類
+    text: 六　兼営事業の種類
     modality: unspecified
     item_number: 6
 - number: 2

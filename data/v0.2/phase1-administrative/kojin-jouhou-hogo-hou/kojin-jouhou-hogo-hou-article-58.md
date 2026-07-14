@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kojin-jouhou-hogo-hou-art-58-p1-kou-1
     type: kou
-    text: 別表第二に掲げる法人
+    text: 一　別表第二に掲げる法人
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-58-p1-kou-2
     type: kou
-    text: 地方独立行政法人のうち地方独立行政法人法第二十一条第一号に掲げる業務を主たる目的とするもの又は同条第二号若しくは第三号（チに係る部分に限る。）に掲げる業務を目的とするもの
+    text: 二　地方独立行政法人のうち地方独立行政法人法第二十一条第一号に掲げる業務を主たる目的とするもの又は同条第二号若しくは第三号（チに係る部分に限る。）に掲げる業務を目的とするもの
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: unspecified
   - id: kojin-jouhou-hogo-hou-art-58-p2-kou-1
     type: kou
-    text: 地方公共団体の機関　医療法（昭和二十三年法律第二百五号）第一条の五第一項に規定する病院（次号において「病院」という。）及び同条第二項に規定する診療所並びに学校教育法（昭和二十二年法律第二十六号）第一条に規定する大学の運営
+    text: 一　地方公共団体の機関　医療法（昭和二十三年法律第二百五号）第一条の五第一項に規定する病院（次号において「病院」という。）及び同条第二項に規定する診療所並びに学校教育法（昭和二十二年法律第二十六号）第一条に規定する大学の運営
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-58-p2-kou-2
     type: kou
-    text: 独立行政法人労働者健康安全機構　病院の運営
+    text: 二　独立行政法人労働者健康安全機構　病院の運営
     modality: unspecified
     item_number: 2
 cases: []

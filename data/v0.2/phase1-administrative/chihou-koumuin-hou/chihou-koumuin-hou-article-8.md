@@ -23,62 +23,62 @@ paragraphs:
     modality: unspecified
   - id: chihou-koumuin-hou-art-8-p1-kou-1
     type: kou
-    text: 人事行政に関する事項について調査し、人事記録に関することを管理し、及びその他人事に関する統計報告を作成すること。
+    text: 一　人事行政に関する事項について調査し、人事記録に関することを管理し、及びその他人事に関する統計報告を作成すること。
     modality: unspecified
     item_number: 1
   - id: chihou-koumuin-hou-art-8-p1-kou-2
     type: kou
-    text: 人事評価、給与、勤務時間その他の勤務条件、研修、厚生福利制度その他職員に関する制度について絶えず研究を行い、その成果を地方公共団体の議会若しくは長又は任命権者に提出すること。
+    text: 二　人事評価、給与、勤務時間その他の勤務条件、研修、厚生福利制度その他職員に関する制度について絶えず研究を行い、その成果を地方公共団体の議会若しくは長又は任命権者に提出すること。
     modality: unspecified
     item_number: 2
   - id: chihou-koumuin-hou-art-8-p1-kou-3
     type: kou
-    text: 人事機関及び職員に関する条例の制定又は改廃に関し、地方公共団体の議会及び長に意見を申し出ること。
+    text: 三　人事機関及び職員に関する条例の制定又は改廃に関し、地方公共団体の議会及び長に意見を申し出ること。
     modality: unspecified
     item_number: 3
   - id: chihou-koumuin-hou-art-8-p1-kou-4
     type: kou
-    text: 人事行政の運営に関し、任命権者に勧告すること。
+    text: 四　人事行政の運営に関し、任命権者に勧告すること。
     modality: unspecified
     item_number: 4
   - id: chihou-koumuin-hou-art-8-p1-kou-5
     type: kou
-    text: 給与、勤務時間その他の勤務条件に関し講ずべき措置について地方公共団体の議会及び長に勧告すること。
+    text: 五　給与、勤務時間その他の勤務条件に関し講ずべき措置について地方公共団体の議会及び長に勧告すること。
     modality: unspecified
     item_number: 5
   - id: chihou-koumuin-hou-art-8-p1-kou-6
     type: kou
-    text: 職員の競争試験及び選考並びにこれらに関する事務を行うこと。
+    text: 六　職員の競争試験及び選考並びにこれらに関する事務を行うこと。
     modality: unspecified
     item_number: 6
   - id: chihou-koumuin-hou-art-8-p1-kou-7
     type: kou
-    text: 削除
+    text: 七　削除
     modality: unspecified
     item_number: 7
   - id: chihou-koumuin-hou-art-8-p1-kou-8
     type: kou
-    text: 職員の給与がこの法律及びこれに基く条例に適合して行われることを確保するため必要な範囲において、職員に対する給与の支払を監理すること。
+    text: 八　職員の給与がこの法律及びこれに基く条例に適合して行われることを確保するため必要な範囲において、職員に対する給与の支払を監理すること。
     modality: unspecified
     item_number: 8
   - id: chihou-koumuin-hou-art-8-p1-kou-9
     type: kou
-    text: 職員の給与、勤務時間その他の勤務条件に関する措置の要求を審査し、判定し、及び必要な措置を執ること。
+    text: 九　職員の給与、勤務時間その他の勤務条件に関する措置の要求を審査し、判定し、及び必要な措置を執ること。
     modality: unspecified
     item_number: 9
   - id: chihou-koumuin-hou-art-8-p1-kou-10
     type: kou
-    text: 職員に対する不利益な処分についての審査請求に対する裁決をすること。
+    text: 十　職員に対する不利益な処分についての審査請求に対する裁決をすること。
     modality: unspecified
     item_number: 10
   - id: chihou-koumuin-hou-art-8-p1-kou-11
     type: kou
-    text: 前二号に掲げるものを除くほか、職員の苦情を処理すること。
+    text: 十一　前二号に掲げるものを除くほか、職員の苦情を処理すること。
     modality: unspecified
     item_number: 11
   - id: chihou-koumuin-hou-art-8-p1-kou-12
     type: kou
-    text: 前各号に掲げるものを除く外、法律又は条例に基きその権限に属せしめられた事務
+    text: 十二　前各号に掲げるものを除く外、法律又は条例に基きその権限に属せしめられた事務
     modality: unspecified
     item_number: 12
 - number: 2
@@ -92,22 +92,22 @@ paragraphs:
     modality: unspecified
   - id: chihou-koumuin-hou-art-8-p2-kou-1
     type: kou
-    text: 職員の給与、勤務時間その他の勤務条件に関する措置の要求を審査し、判定し、及び必要な措置を執ること。
+    text: 一　職員の給与、勤務時間その他の勤務条件に関する措置の要求を審査し、判定し、及び必要な措置を執ること。
     modality: unspecified
     item_number: 1
   - id: chihou-koumuin-hou-art-8-p2-kou-2
     type: kou
-    text: 職員に対する不利益な処分についての審査請求に対する裁決をすること。
+    text: 二　職員に対する不利益な処分についての審査請求に対する裁決をすること。
     modality: unspecified
     item_number: 2
   - id: chihou-koumuin-hou-art-8-p2-kou-3
     type: kou
-    text: 前二号に掲げるものを除くほか、職員の苦情を処理すること。
+    text: 三　前二号に掲げるものを除くほか、職員の苦情を処理すること。
     modality: unspecified
     item_number: 3
   - id: chihou-koumuin-hou-art-8-p2-kou-4
     type: kou
-    text: 前三号に掲げるものを除くほか、法律に基づきその権限に属せしめられた事務
+    text: 四　前三号に掲げるものを除くほか、法律に基づきその権限に属せしめられた事務
     modality: unspecified
     item_number: 4
 - number: 3

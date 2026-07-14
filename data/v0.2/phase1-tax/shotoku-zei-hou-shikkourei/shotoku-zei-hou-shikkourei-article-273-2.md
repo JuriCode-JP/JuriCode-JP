@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-273-2-p1-kou-1
     type: kou
-    text: 相続又は遺贈により取得した財産についての権利の帰属に関する訴えについての判決があつたこと。
+    text: 一　相続又は遺贈により取得した財産についての権利の帰属に関する訴えについての判決があつたこと。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-273-2-p1-kou-2
     type: kou
-    text: 条件付の遺贈について、条件が成就したこと。
+    text: 二　条件付の遺贈について、条件が成就したこと。
     modality: unspecified
     item_number: 2
 cases: []

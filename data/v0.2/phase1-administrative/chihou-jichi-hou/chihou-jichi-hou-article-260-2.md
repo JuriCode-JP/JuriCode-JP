@@ -34,22 +34,22 @@ paragraphs:
     - 前項
   - id: chihou-jichi-hou-art-260-2-p2-kou-1
     type: kou
-    text: その区域の住民相互の連絡、環境の整備、集会施設の維持管理等良好な地域社会の維持及び形成に資する地域的な共同活動を行うことを目的とし、現にその活動を行つていると認められること。
+    text: 一　その区域の住民相互の連絡、環境の整備、集会施設の維持管理等良好な地域社会の維持及び形成に資する地域的な共同活動を行うことを目的とし、現にその活動を行つていると認められること。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-260-2-p2-kou-2
     type: kou
-    text: その区域が、住民にとつて客観的に明らかなものとして定められていること。
+    text: 二　その区域が、住民にとつて客観的に明らかなものとして定められていること。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-260-2-p2-kou-3
     type: kou
-    text: その区域に住所を有するすべての個人は、構成員となることができるものとし、その相当数の者が現に構成員となつていること。
+    text: 三　その区域に住所を有するすべての個人は、構成員となることができるものとし、その相当数の者が現に構成員となつていること。
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-260-2-p2-kou-4
     type: kou
-    text: 規約を定めていること。
+    text: 四　規約を定めていること。
     modality: unspecified
     item_number: 4
 - number: 3
@@ -63,42 +63,42 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-260-2-p3-kou-1
     type: kou
-    text: 目的
+    text: 一　目的
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-260-2-p3-kou-2
     type: kou
-    text: 名称
+    text: 二　名称
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-260-2-p3-kou-3
     type: kou
-    text: 区域
+    text: 三　区域
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-260-2-p3-kou-4
     type: kou
-    text: 主たる事務所の所在地
+    text: 四　主たる事務所の所在地
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-260-2-p3-kou-5
     type: kou
-    text: 構成員の資格に関する事項
+    text: 五　構成員の資格に関する事項
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-260-2-p3-kou-6
     type: kou
-    text: 代表者に関する事項
+    text: 六　代表者に関する事項
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-260-2-p3-kou-7
     type: kou
-    text: 会議に関する事項
+    text: 七　会議に関する事項
     modality: unspecified
     item_number: 7
   - id: chihou-jichi-hou-art-260-2-p3-kou-8
     type: kou
-    text: 資産に関する事項
+    text: 八　資産に関する事項
     modality: unspecified
     item_number: 8
 - number: 4

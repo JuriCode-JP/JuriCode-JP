@@ -31,8 +31,8 @@ paragraphs:
     text: 前項に規定するもののほか、禁止命令等に違反してつきまとい等又は位置情報無承諾取得等をすることにより、ストーカー行為をした者も、同項と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

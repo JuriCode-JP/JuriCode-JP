@@ -34,12 +34,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-455-p2-kou-1
     type: kou
-    text: 当該配当財産が市場価格のある財産である場合　当該配当財産の市場価格として法務省令で定める方法により算定される額
+    text: 一　当該配当財産が市場価格のある財産である場合　当該配当財産の市場価格として法務省令で定める方法により算定される額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-455-p2-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　株式会社の申立てにより裁判所が定める額
+    text: 二　前号に掲げる場合以外の場合　株式会社の申立てにより裁判所が定める額
     modality: unspecified
     item_number: 2
 cases: []

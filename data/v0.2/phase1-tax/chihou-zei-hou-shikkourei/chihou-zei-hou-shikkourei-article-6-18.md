@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-18-p1-kou-1
     type: kou
-    text: 法第十四条の十八第九項に規定する期限
+    text: 一　法第十四条の十八第九項に規定する期限
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-18-p1-kou-2
     type: kou
-    text: 法第七十二条の二十九第三項に規定する残余財産の最後の分配又は引渡しが行われる日の前日をもつて定めた期限
+    text: 二　法第七十二条の二十九第三項に規定する残余財産の最後の分配又は引渡しが行われる日の前日をもつて定めた期限
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-18-p1-kou-3
     type: kou
-    text: 法第三百二十一条の四第二項に規定する期限
+    text: 三　法第三百二十一条の四第二項に規定する期限
     modality: unspecified
     item_number: 3
-  - id: chihou-zei-hou-shikkourei-art-6-18-p1-kou-3
+  - id: chihou-zei-hou-shikkourei-art-6-18-p1-kou-3-2
     type: kou
-    text: 法第三百二十一条の四第五項に規定する四月三十日をもつて定めた期限
+    text: 三の二　法第三百二十一条の四第五項に規定する四月三十日をもつて定めた期限
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-6-18-p1-kou-4
     type: kou
-    text: 法第三百七十三条第六項（法第七百四十五条第一項において準用する場合を含む。）又は第七百二十八条第六項に規定する期限
+    text: 四　法第三百七十三条第六項（法第七百四十五条第一項において準用する場合を含む。）又は第七百二十八条第六項に規定する期限
     modality: unspecified
     item_number: 4
 - number: 2

@@ -23,52 +23,52 @@ paragraphs:
     modality: gimu
   - id: kinsho-teigi-furei-art-23-p1-kou-1
     type: kou
-    text: 特別の法律により特別の設立行為をもって設立された法人
+    text: 一　特別の法律により特別の設立行為をもって設立された法人
     modality: unspecified
     item_number: 1
   - id: kinsho-teigi-furei-art-23-p1-kou-2
     type: kou
-    text: 法第七十九条の二十一に規定する投資者保護基金
+    text: 二　法第七十九条の二十一に規定する投資者保護基金
     modality: unspecified
     item_number: 2
   - id: kinsho-teigi-furei-art-23-p1-kou-3
     type: kou
-    text: 預金保険機構
+    text: 三　預金保険機構
     modality: unspecified
     item_number: 3
   - id: kinsho-teigi-furei-art-23-p1-kou-4
     type: kou
-    text: 農水産業協同組合貯金保険機構
+    text: 四　農水産業協同組合貯金保険機構
     modality: unspecified
     item_number: 4
   - id: kinsho-teigi-furei-art-23-p1-kou-5
     type: kou
-    text: 保険業法第二百五十九条に規定する保険契約者保護機構
+    text: 五　保険業法第二百五十九条に規定する保険契約者保護機構
     modality: unspecified
     item_number: 5
   - id: kinsho-teigi-furei-art-23-p1-kou-6
     type: kou
-    text: 特定目的会社
+    text: 六　特定目的会社
     modality: unspecified
     item_number: 6
   - id: kinsho-teigi-furei-art-23-p1-kou-7
     type: kou
-    text: 金融商品取引所に上場されている株券の発行者である会社
+    text: 七　金融商品取引所に上場されている株券の発行者である会社
     modality: unspecified
     item_number: 7
   - id: kinsho-teigi-furei-art-23-p1-kou-8
     type: kou
-    text: 取引の状況その他の事情から合理的に判断して資本金の額が五億円以上であると見込まれる株式会社
+    text: 八　取引の状況その他の事情から合理的に判断して資本金の額が五億円以上であると見込まれる株式会社
     modality: unspecified
     item_number: 8
   - id: kinsho-teigi-furei-art-23-p1-kou-9
     type: kou
-    text: 金融商品取引業者、法第六十三条第五項に規定する特例業務届出者又は法第六十三条の九第四項に規定する海外投資家等特例業務届出者である法人
+    text: 九　金融商品取引業者、法第六十三条第五項に規定する特例業務届出者又は法第六十三条の九第四項に規定する海外投資家等特例業務届出者である法人
     modality: unspecified
     item_number: 9
   - id: kinsho-teigi-furei-art-23-p1-kou-10
     type: kou
-    text: 外国法人
+    text: 十　外国法人
     modality: unspecified
     item_number: 10
 cases: []

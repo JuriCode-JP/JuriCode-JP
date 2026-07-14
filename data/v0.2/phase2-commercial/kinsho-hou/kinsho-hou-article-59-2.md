@@ -25,49 +25,49 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-59-2-p1-kou-1
     type: kou
-    text: 商号又は氏名
+    text: 一　商号又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-59-2-p1-kou-2
     type: kou
-    text: 本店又は主たる事務所の所在の場所
+    text: 二　本店又は主たる事務所の所在の場所
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-59-2-p1-kou-3
     type: kou
-    text: 資本金の額又は出資の総額
+    text: 三　資本金の額又は出資の総額
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-59-2-p1-kou-4
     type: kou
-    text: 代表権を有する役員の役職名及び氏名
+    text: 四　代表権を有する役員の役職名及び氏名
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-59-2-p1-kou-5
     type: kou
-    text: 当該申請に係る行為を行う者の氏名及び国内の住所又は居所その他の連絡場所
+    text: 五　当該申請に係る行為を行う者の氏名及び国内の住所又は居所その他の連絡場所
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-59-2-p1-kou-6
     type: kou
-    text: '当該申請に係る行為に係る有価証券に関し予定されている次に掲げる事項
+    text: '六　当該申請に係る行為に係る有価証券に関し予定されている次に掲げる事項
 
-      イ 発行者又は所有者
+      イ　発行者又は所有者
 
-      ロ 種類
+      ロ　種類
 
-      ハ 数量及び金額
+      ハ　数量及び金額
 
-      ニ 発行又は売出しの場所
+      ニ　発行又は売出しの場所
 
-      ホ 発行又は売出しの日
+      ホ　発行又は売出しの日
 
-      ヘ 他の引受幹事金融商品取引業者（元引受契約を締結するに際し、当該有価証券の発行者又は所有者と当該元引受契約の内容を確定させるための協議を行う金融商品取引業者をいう。）'
+      ヘ　他の引受幹事金融商品取引業者（元引受契約を締結するに際し、当該有価証券の発行者又は所有者と当該元引受契約の内容を確定させるための協議を行う金融商品取引業者をいう。）'
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-59-2-p1-kou-7
     type: kou
-    text: 許可申請者が引き受けようとする額
+    text: 七　許可申請者が引き受けようとする額
     modality: unspecified
     item_number: 7
 - number: 2
@@ -94,22 +94,22 @@ paragraphs:
     - 同項
   - id: kinsho-hou-art-59-2-p3-kou-1
     type: kou
-    text: 業務の内容を記載した書類
+    text: 一　業務の内容を記載した書類
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-59-2-p3-kou-2
     type: kou
-    text: 最近一年間における引受業務の概要を記載した書類
+    text: 二　最近一年間における引受業務の概要を記載した書類
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-59-2-p3-kou-3
     type: kou
-    text: 第五十九条の四第一項第一号及び第二号のいずれにも該当しない者であること並びに役員が第二十九条の四第一項第二号イからリまでのいずれにも該当しない者であることを代表権を有する役員が誓約する書面（許可申請者が個人である場合には、当該個人が第五十九条の四第一項第一号及び第二号並びに第二十九条の四第一項第二号イからリまでのいずれにも該当しない者であることを当該個人が誓約する書面）
+    text: 三　第五十九条の四第一項第一号及び第二号のいずれにも該当しない者であること並びに役員が第二十九条の四第一項第二号イからリまでのいずれにも該当しない者であることを代表権を有する役員が誓約する書面（許可申請者が個人である場合には、当該個人が第五十九条の四第一項第一号及び第二号並びに第二十九条の四第一項第二号イからリまでのいずれにも該当しない者であることを当該個人が誓約する書面）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-59-2-p3-kou-4
     type: kou
-    text: 最近一年間に終了する各事業年度に関する貸借対照表及び損益計算書
+    text: 四　最近一年間に終了する各事業年度に関する貸借対照表及び損益計算書
     modality: unspecified
     item_number: 4
 cases: []

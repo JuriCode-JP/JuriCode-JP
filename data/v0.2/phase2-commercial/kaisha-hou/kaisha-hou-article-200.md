@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の払込金額の下限が募集株式を引き受ける者に特に有利な金額である場合には、取締役は、同項の株主総会において、当該払込金額でその者の募集をすることを必要とする理由を説明しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -48,8 +48,8 @@ paragraphs:
     text: 第一項の決議は、前条第一項第四号の期日（同号の期間を定めた場合にあっては、その期間の末日）が当該決議の日から一年以内の日である同項の募集についてのみその効力を有する。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 4
   has_proviso: true
   has_items: false

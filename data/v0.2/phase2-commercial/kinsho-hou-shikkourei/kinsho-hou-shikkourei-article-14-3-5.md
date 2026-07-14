@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-14-3-5-p1-kou-1
     type: kou
-    text: 公開買付者のために第十四条の三の三第四項に規定する事務を行う第一種金融商品取引業者又は銀行等
+    text: 一　公開買付者のために第十四条の三の三第四項に規定する事務を行う第一種金融商品取引業者又は銀行等
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-3-5-p1-kou-2
     type: kou
-    text: 公開買付者を代理して公開買付けによる上場株券等の買付け等を行う者
+    text: 二　公開買付者を代理して公開買付けによる上場株券等の買付け等を行う者
     modality: unspecified
     item_number: 2
 cases: []

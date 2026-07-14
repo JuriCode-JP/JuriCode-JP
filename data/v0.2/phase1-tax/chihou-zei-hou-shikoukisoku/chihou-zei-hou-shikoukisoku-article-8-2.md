@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-2-p1-kou-1
     type: kou
-    text: 当該売渡しに係る製造たばこが卸売販売用である旨
+    text: 一　当該売渡しに係る製造たばこが卸売販売用である旨
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-2-p1-kou-2
     type: kou
-    text: 当該売渡しに係る製造たばこの品目及び品目ごとの数量
+    text: 二　当該売渡しに係る製造たばこの品目及び品目ごとの数量
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-2-p1-kou-3
     type: kou
-    text: 当該小売販売業者である卸売販売業者等に売り渡した年月日
+    text: 三　当該小売販売業者である卸売販売業者等に売り渡した年月日
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-8-2-p1-kou-4
     type: kou
-    text: 当該小売販売業者である卸売販売業者等の住所及び氏名又は名称
+    text: 四　当該小売販売業者である卸売販売業者等の住所及び氏名又は名称
     modality: unspecified
     item_number: 4
 - number: 2

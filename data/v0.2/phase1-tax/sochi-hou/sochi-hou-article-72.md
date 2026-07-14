@@ -26,12 +26,12 @@ paragraphs:
     - 第九条
   - id: sochi-hou-art-72-p1-kou-1
     type: kou
-    text: 売買による所有権の移転の登記　千分の十五
+    text: 一　売買による所有権の移転の登記　千分の十五
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-72-p1-kou-2
     type: kou
-    text: 所有権の信託の登記　千分の三
+    text: 二　所有権の信託の登記　千分の三
     modality: unspecified
     item_number: 2
 - number: 2
@@ -47,16 +47,16 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: sochi-hou-art-72-p2-kou-1
     type: kou
-    text: 売買による所有権の移転の登記　千分の七・五
+    text: 一　売買による所有権の移転の登記　千分の七・五
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-72-p2-kou-2
     type: kou
-    text: 所有権の信託の登記　千分の一・五
+    text: 二　所有権の信託の登記　千分の一・五
     modality: unspecified
     item_number: 2
 - number: 3

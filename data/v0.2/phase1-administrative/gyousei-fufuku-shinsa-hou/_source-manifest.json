@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\426AC0000000068.xml",
   "source_xml_sha256": "fe5dd06304c4fe87861f8c5263a174bd3deedbc493c75ba348974848d89ebe58",
   "source_xml_bytes": 310506,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:57:42+00:00",
+  "parsed_at": "2026-07-14T01:43:39+00:00",
   "version_date": "2014-06-13",
   "article_count": 87,
   "articles": [
@@ -258,8 +258,8 @@
       "article_id": "gyousei-fufuku-shinsa-hou-art-37",
       "article_number": "37",
       "filename": "gyousei-fufuku-shinsa-hou-article-37.md",
-      "ja_text_sha256": "78979f5893d9dfe7264ac1df796ea49645c3be9d8515167ef31d033c7268aab7",
-      "ja_text_bytes": 1276,
+      "ja_text_sha256": "dca756006ea518649262cad22da20506118876e538d09d79905ea5577922339d",
+      "ja_text_bytes": 1270,
       "paragraph_count": 3
     },
     {

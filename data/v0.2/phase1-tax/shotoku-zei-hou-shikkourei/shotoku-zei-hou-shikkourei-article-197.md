@@ -44,8 +44,8 @@ paragraphs:
     text: 前条第一項の選択をする居住者は、同項の規定の適用を受けようとする年分の確定申告書を提出する場合には、当該申告書にその適用を受ける旨の記載をしなければならない。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

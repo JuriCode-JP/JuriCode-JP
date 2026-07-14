@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kojin-jouhou-hogo-hou-art-120-p1-kou-1
     type: kou
-    text: 偽りその他不正の手段により当該契約を締結したとき。
+    text: 一　偽りその他不正の手段により当該契約を締結したとき。
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-120-p1-kou-2
     type: kou
-    text: 第百十三条各号（第百十八条第二項において準用する場合を含む。）のいずれかに該当することとなったとき。
+    text: 二　第百十三条各号（第百十八条第二項において準用する場合を含む。）のいずれかに該当することとなったとき。
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-120-p1-kou-3
     type: kou
-    text: 当該契約において定められた事項について重大な違反があったとき。
+    text: 三　当該契約において定められた事項について重大な違反があったとき。
     modality: unspecified
     item_number: 3
 cases: []

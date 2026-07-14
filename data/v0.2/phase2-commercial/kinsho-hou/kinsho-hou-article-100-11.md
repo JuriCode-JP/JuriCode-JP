@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-100-11-p1-kou-1
     type: kou
-    text: 現務の結了
+    text: 一　現務の結了
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-100-11-p1-kou-2
     type: kou
-    text: 債権の取立て及び債務の弁済
+    text: 二　債権の取立て及び債務の弁済
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-100-11-p1-kou-3
     type: kou
-    text: 残余財産の引渡し
+    text: 三　残余財産の引渡し
     modality: unspecified
     item_number: 3
 - number: 2

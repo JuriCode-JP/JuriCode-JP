@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-72-12-p1-kou-1
     type: kou
-    text: 付加価値割　各事業年度の付加価値額
+    text: 一　付加価値割　各事業年度の付加価値額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-12-p1-kou-2
     type: kou
-    text: 資本割　各事業年度の資本金等の額
+    text: 二　資本割　各事業年度の資本金等の額
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-72-12-p1-kou-3
     type: kou
-    text: 所得割　各事業年度の所得
+    text: 三　所得割　各事業年度の所得
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-72-12-p1-kou-4
     type: kou
-    text: 収入割　各事業年度の収入金額
+    text: 四　収入割　各事業年度の収入金額
     modality: unspecified
     item_number: 4
 cases: []

@@ -43,27 +43,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-280-3-p3-kou-1
     type: kou
-    text: 当該品目を製造する製造所の名称及び所在地
+    text: 一　当該品目を製造する製造所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-280-3-p3-kou-2
     type: kou
-    text: 当該品目の安全性に関する情報
+    text: 二　当該品目の安全性に関する情報
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-280-3-p3-kou-3
     type: kou
-    text: 当該登録を受けようとする者の氏名及び住所
+    text: 三　当該登録を受けようとする者の氏名及び住所
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-280-3-p3-kou-4
     type: kou
-    text: 当該登録を受けようとする者が当該品目に係る医薬品、医療機器若しくは再生医療等製品の製造業の許可若しくは登録又は医薬品等外国製造業者、医療機器等外国製造業者若しくは再生医療等製品外国製造業者の認定若しくは登録を受けているときは、当該の許可の区分及び許可番号、登録番号又は認定の区分及び認定番号
+    text: 四　当該登録を受けようとする者が当該品目に係る医薬品、医療機器若しくは再生医療等製品の製造業の許可若しくは登録又は医薬品等外国製造業者、医療機器等外国製造業者若しくは再生医療等製品外国製造業者の認定若しくは登録を受けているときは、当該の許可の区分及び許可番号、登録番号又は認定の区分及び認定番号
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-280-3-p3-kou-5
     type: kou
-    text: 外国において原薬等を製造する者にあつては、原薬等国内管理人の氏名及び住所
+    text: 五　外国において原薬等を製造する者にあつては、原薬等国内管理人の氏名及び住所
     modality: unspecified
     item_number: 5
 - number: 4

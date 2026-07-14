@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-196-3-p1-kou-1
     type: kou
-    text: 国、都道府県知事又は市町村長（特別区の区長を含む。）
+    text: 一　国、都道府県知事又は市町村長（特別区の区長を含む。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-196-3-p1-kou-2
     type: kou
-    text: 研究施設の長又は教育機関の長であつて研究又は教育を行うに当たり必要な再生医療等製品を使用するもの
+    text: 二　研究施設の長又は教育機関の長であつて研究又は教育を行うに当たり必要な再生医療等製品を使用するもの
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-196-3-p1-kou-3
     type: kou
-    text: 医薬品、医薬部外品、化粧品又は医療機器の製造業者であつて製造を行うに当たり必要な再生医療等製品を使用するもの
+    text: 三　医薬品、医薬部外品、化粧品又は医療機器の製造業者であつて製造を行うに当たり必要な再生医療等製品を使用するもの
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-196-3-p1-kou-4
     type: kou
-    text: 前三号に掲げるものに準ずるものであつて販売等の相手方として厚生労働大臣が適当と認めるもの
+    text: 四　前三号に掲げるものに準ずるものであつて販売等の相手方として厚生労働大臣が適当と認めるもの
     modality: unspecified
     item_number: 4
 cases: []

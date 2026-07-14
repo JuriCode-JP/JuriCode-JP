@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-827-p1-kou-1
     type: kou
-    text: 外国会社の事業が不法な目的に基づいて行われたとき。
+    text: 一　外国会社の事業が不法な目的に基づいて行われたとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-827-p1-kou-2
     type: kou
-    text: 外国会社が正当な理由がないのに外国会社の登記の日から一年以内にその事業を開始せず、又は引き続き一年以上その事業を休止したとき。
+    text: 二　外国会社が正当な理由がないのに外国会社の登記の日から一年以内にその事業を開始せず、又は引き続き一年以上その事業を休止したとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-827-p1-kou-3
     type: kou
-    text: 外国会社が正当な理由がないのに支払を停止したとき。
+    text: 三　外国会社が正当な理由がないのに支払を停止したとき。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-827-p1-kou-4
     type: kou
-    text: 外国会社の日本における代表者その他その業務を執行する者が、法令で定める外国会社の権限を逸脱し若しくは濫用する行為又は刑罰法令に触れる行為をした場合において、法務大臣から書面による警告を受けたにもかかわらず、なお継続的に又は反覆して当該行為をしたとき。
+    text: 四　外国会社の日本における代表者その他その業務を執行する者が、法令で定める外国会社の権限を逸脱し若しくは濫用する行為又は刑罰法令に触れる行為をした場合において、法務大臣から書面による警告を受けたにもかかわらず、なお継続的に又は反覆して当該行為をしたとき。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -53,11 +53,11 @@ paragraphs:
     applies_provisions:
     - 前二条
     references:
-    - 次条
     - 前二条
-    - 前項
     - 同項
+    - 次条
     - 前条
+    - 前項
 cases: []
 amendments: []
 tags:

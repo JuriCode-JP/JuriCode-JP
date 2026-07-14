@@ -22,8 +22,8 @@ paragraphs:
     text: 認可地縁団体は、前条第三項の認可があつたときは、その認可の通知のあつた日から二週間以内に、財産目録を作成し、次項の規定により債権者が異議を述べることができる期間が満了するまでの間、これをその主たる事務所に備え置かなければならない。
     modality: gimu
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false

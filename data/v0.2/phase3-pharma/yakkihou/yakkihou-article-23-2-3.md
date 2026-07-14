@@ -36,32 +36,32 @@ paragraphs:
     - 前項
   - id: yakkihou-art-23-2-3-p2-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-23-2-3-p2-kou-2
     type: kou
-    text: 製造所の所在地
+    text: 二　製造所の所在地
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-23-2-3-p2-kou-3
     type: kou
-    text: 法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    text: 三　法人にあつては、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-23-2-3-p2-kou-4
     type: kou
-    text: 医療機器の製造業の登録を受けようとする者にあつては、第二十三条の二の十四第六項に規定する医療機器責任技術者の氏名
+    text: 四　医療機器の製造業の登録を受けようとする者にあつては、第二十三条の二の十四第六項に規定する医療機器責任技術者の氏名
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-23-2-3-p2-kou-5
     type: kou
-    text: 体外診断用医薬品の製造業の登録を受けようとする者にあつては、第二十三条の二の十四第十一項に規定する体外診断用医薬品製造管理者の氏名
+    text: 五　体外診断用医薬品の製造業の登録を受けようとする者にあつては、第二十三条の二の十四第十一項に規定する体外診断用医薬品製造管理者の氏名
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-23-2-3-p2-kou-6
     type: kou
-    text: 第四項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
+    text: 六　第四項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
     modality: unspecified
     item_number: 6
 - number: 3

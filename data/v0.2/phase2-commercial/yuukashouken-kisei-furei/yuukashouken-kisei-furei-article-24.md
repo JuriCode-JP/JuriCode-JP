@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yuukashouken-kisei-furei-art-24-p1-kou-1
     type: kou
-    text: 信託業を営む者が信託財産として所有する株式
+    text: 一　信託業を営む者が信託財産として所有する株式
     modality: unspecified
     item_number: 1
   - id: yuukashouken-kisei-furei-art-24-p1-kou-2
     type: kou
-    text: 有価証券関連業（法第二十八条第八項に規定する有価証券関連業をいう。第五十九条第一項第十四号ロ（１）及び第六十二条第一項第二号において同じ。）を行う者が有価証券の引受け（法第二条第八項第六号に規定する有価証券の引受けをいう。）又は売出し若しくは特定投資家向け売付け勧誘等を行う業務により取得した株式
+    text: 二　有価証券関連業（法第二十八条第八項に規定する有価証券関連業をいう。第五十九条第一項第十四号ロ（１）及び第六十二条第一項第二号において同じ。）を行う者が有価証券の引受け（法第二条第八項第六号に規定する有価証券の引受けをいう。）又は売出し若しくは特定投資家向け売付け勧誘等を行う業務により取得した株式
     modality: unspecified
     item_number: 2
   - id: yuukashouken-kisei-furei-art-24-p1-kou-3
     type: kou
-    text: 法第百五十六条の二十四第一項に規定する業務を行う者がその業務として所有する株式
+    text: 三　法第百五十六条の二十四第一項に規定する業務を行う者がその業務として所有する株式
     modality: unspecified
     item_number: 3
 cases: []

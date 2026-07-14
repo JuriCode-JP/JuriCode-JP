@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-25-2-p1-kou-1
     type: kou
-    text: 令第百二十一条の二第二項に規定する届出書を提出をする者の氏名及び住所
+    text: 一　令第百二十一条の二第二項に規定する届出書を提出をする者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-25-2-p1-kou-2
     type: kou
-    text: 令第百二十一条の二第一項に規定する旧リース期間定額法を採用しようとする資産の種類（同条第二項に規定する資産の種類をいう。）ごとの同条第三項に規定する改定取得価額の合計額
+    text: 二　令第百二十一条の二第一項に規定する旧リース期間定額法を採用しようとする資産の種類（同条第二項に規定する資産の種類をいう。）ごとの同条第三項に規定する改定取得価額の合計額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-25-2-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

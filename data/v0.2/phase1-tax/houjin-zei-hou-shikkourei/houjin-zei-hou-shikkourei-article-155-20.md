@@ -45,8 +45,8 @@ paragraphs:
     text: 第一項の規定は、同項の当該対象会計年度の直前の四対象会計年度のうちに前項の規定の適用を受けることとなつた対象会計年度がない場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -68,8 +68,8 @@ paragraphs:
     text: 法第八十二条の三第三項（国際最低課税額）の規定は、第一項の所在地国を所在地国とする同条第三項に規定する特定構成会社等がある場合について準用する。この場合において、同項中「前項第一号から第三号まで」とあるのは、「法人税法施行令第百五十五条の二十第一項から第四項まで（連結等納税規定の適用がある場合の個別計算所得等の金額の計算の特例）」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-66-p1-kou-1
     type: kou
-    text: 製造業者若しくは再生医療等製品外国製造業者（以下この条において「製造業者等」という。）又は再生医療等製品製造管理者（再生医療等製品外国製造業者にあつては、当該製造所の責任者。第三項第二号において同じ。）の氏名及び住所
+    text: 一　製造業者若しくは再生医療等製品外国製造業者（以下この条において「製造業者等」という。）又は再生医療等製品製造管理者（再生医療等製品外国製造業者にあつては、当該製造所の責任者。第三項第二号において同じ。）の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-66-p1-kou-2
     type: kou
-    text: 製造業者等が法人であるときは、薬事に関する業務に責任を有する役員の氏名
+    text: 二　製造業者等が法人であるときは、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-66-p1-kou-3
     type: kou
-    text: 製造所の名称
+    text: 三　製造所の名称
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-137-66-p1-kou-4
     type: kou
-    text: 製造所の構造設備の主要部分
+    text: 四　製造所の構造設備の主要部分
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-137-66-p1-kou-5
     type: kou
-    text: 製造業者等が他の製造業の許可、認定若しくは登録を受け、又はその製造所を廃止したときは、当該許可の区分及び許可番号、当該認定の区分及び認定番号又は当該登録の登録番号
+    text: 五　製造業者等が他の製造業の許可、認定若しくは登録を受け、又はその製造所を廃止したときは、当該許可の区分及び許可番号、当該認定の区分及び認定番号又は当該登録の登録番号
     modality: unspecified
     item_number: 5
 - number: 2
@@ -70,12 +70,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-137-66-p3-kou-1
     type: kou
-    text: 第一項第一号に掲げる製造業者等の氏名に係る届書　製造業者等の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（製造業者等が法人であるときは、登記事項証明書）
+    text: 一　第一項第一号に掲げる製造業者等の氏名に係る届書　製造業者等の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（製造業者等が法人であるときは、登記事項証明書）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-66-p3-kou-2
     type: kou
-    text: 第一項第一号に掲げる再生医療等製品製造管理者の氏名に係る届書（新たに再生医療等製品製造管理者となつた者が製造業者等である場合を除く。）　雇用契約書の写しその他の製造業者等の新たに再生医療等製品製造管理者となつた者に対する使用関係を証する書類及び新たに再生医療等製品製造管理者となつた者が法第二十三条の三十四第五項の承認を受けた者であることを証する書類
+    text: 二　第一項第一号に掲げる再生医療等製品製造管理者の氏名に係る届書（新たに再生医療等製品製造管理者となつた者が製造業者等である場合を除く。）　雇用契約書の写しその他の製造業者等の新たに再生医療等製品製造管理者となつた者に対する使用関係を証する書類及び新たに再生医療等製品製造管理者となつた者が法第二十三条の三十四第五項の承認を受けた者であることを証する書類
     modality: unspecified
     item_number: 2
 cases: []

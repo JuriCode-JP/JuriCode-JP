@@ -19,21 +19,21 @@ paragraphs:
   segments:
   - id: douro-koutsuu-hou-art-97-p1-hashira
     type: hashira
-    text: 運転免許試験は、免許の種類ごとに次の各号（小型特殊免許及び原付免許の運転免許試験にあつては第一号及び第三号、牽けん引免許の運転免許試験にあつては第一号及び第二号）に掲げる事項について行う。
+    text: 運転免許試験は、免許の種類ごとに次の各号（小型特殊免許及び原付免許の運転免許試験にあつては第一号及び第三号、牽引免許の運転免許試験にあつては第一号及び第二号）に掲げる事項について行う。
     modality: unspecified
   - id: douro-koutsuu-hou-art-97-p1-kou-1
     type: kou
-    text: 自動車等の運転について必要な適性
+    text: 一　自動車等の運転について必要な適性
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-97-p1-kou-2
     type: kou
-    text: 自動車等の運転について必要な技能
+    text: 二　自動車等の運転について必要な技能
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-97-p1-kou-3
     type: kou
-    text: 自動車等の運転について必要な知識
+    text: 三　自動車等の運転について必要な知識
     modality: unspecified
     item_number: 3
 - number: 2
@@ -89,7 +89,7 @@ parent_section:
 
 ### 第九十七条第一項
 
-運転免許試験は、免許の種類ごとに次の各号（小型特殊免許及び原付免許の運転免許試験にあつては第一号及び第三号、牽けん引免許の運転免許試験にあつては第一号及び第二号）に掲げる事項について行う。
+運転免許試験は、免許の種類ごとに次の各号（小型特殊免許及び原付免許の運転免許試験にあつては第一号及び第三号、牽引免許の運転免許試験にあつては第一号及び第二号）に掲げる事項について行う。
 
 一　自動車等の運転について必要な適性
 

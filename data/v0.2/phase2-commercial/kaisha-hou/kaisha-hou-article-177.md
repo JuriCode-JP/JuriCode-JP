@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項の規定による請求があった場合には、第百七十五条第一項第一号の株式の売買価格は、株式会社と同項第二号の者との協議によって定める。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -71,8 +71,8 @@ paragraphs:
     text: 第二項の期間内に同項の申立てがないとき（当該期間内に第一項の協議が調った場合を除く。）は、前条第一項の規定による請求は、その効力を失う。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

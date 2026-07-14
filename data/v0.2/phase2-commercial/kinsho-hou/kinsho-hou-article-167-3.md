@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu_negative
   - id: kinsho-hou-art-167-3-p1-kou-1
     type: kou
-    text: 有価証券の売買
+    text: 一　有価証券の売買
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-167-3-p1-kou-2
     type: kou
-    text: 市場デリバティブ取引
+    text: 二　市場デリバティブ取引
     modality: unspecified
     item_number: 2
 cases: []

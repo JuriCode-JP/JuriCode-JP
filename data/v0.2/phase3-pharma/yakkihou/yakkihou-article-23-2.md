@@ -34,22 +34,22 @@ paragraphs:
     - 前項
   - id: yakkihou-art-23-2-p2-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-23-2-p2-kou-2
     type: kou
-    text: 法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    text: 二　法人にあつては、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-23-2-p2-kou-3
     type: kou
-    text: 第二十三条の二の十四第二項に規定する医療機器等総括製造販売責任者の氏名
+    text: 三　第二十三条の二の十四第二項に規定する医療機器等総括製造販売責任者の氏名
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-23-2-p2-kou-4
     type: kou
-    text: 次条第二項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
+    text: 四　次条第二項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
     modality: unspecified
     item_number: 4
 - number: 3
@@ -65,22 +65,22 @@ paragraphs:
     - 前項
   - id: yakkihou-art-23-2-p3-kou-1
     type: kou
-    text: 法人にあつては、その組織図
+    text: 一　法人にあつては、その組織図
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-23-2-p3-kou-2
     type: kou
-    text: 次条第一項第一号に規定する申請に係る医療機器又は体外診断用医薬品の製造管理及び品質管理に係る体制に関する書類
+    text: 二　次条第一項第一号に規定する申請に係る医療機器又は体外診断用医薬品の製造管理及び品質管理に係る体制に関する書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-23-2-p3-kou-3
     type: kou
-    text: 次条第一項第二号に規定する申請に係る医療機器又は体外診断用医薬品の製造販売後安全管理に係る体制に関する書類
+    text: 三　次条第一項第二号に規定する申請に係る医療機器又は体外診断用医薬品の製造販売後安全管理に係る体制に関する書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-23-2-p3-kou-4
     type: kou
-    text: その他厚生労働省令で定める書類
+    text: 四　その他厚生労働省令で定める書類
     modality: unspecified
     item_number: 4
 - number: 4

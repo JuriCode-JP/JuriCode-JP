@@ -35,8 +35,8 @@ paragraphs:
     text: 前項の保険会社は、確定申告書に同項の規定により損金の額に算入される金額の計算に関する明細を記載した書類を添付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

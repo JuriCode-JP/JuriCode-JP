@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-737-p1-kou-1
     type: kou
-    text: 社債管理者がある場合　社債管理者
+    text: 一　社債管理者がある場合　社債管理者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-737-p1-kou-2
     type: kou
-    text: 社債管理補助者がある場合において、社債管理補助者の権限に属する行為に関する事項を可決する旨の社債権者集会の決議があったとき　社債管理補助者
+    text: 二　社債管理補助者がある場合において、社債管理補助者の権限に属する行為に関する事項を可決する旨の社債権者集会の決議があったとき　社債管理補助者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-737-p1-kou-3
     type: kou
-    text: 前二号に掲げる場合以外の場合　代表社債権者
+    text: 三　前二号に掲げる場合以外の場合　代表社債権者
     modality: unspecified
     item_number: 3
 - number: 2

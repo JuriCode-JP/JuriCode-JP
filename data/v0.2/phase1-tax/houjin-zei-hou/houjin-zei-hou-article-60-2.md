@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-60-2-p1-kou-1
     type: kou
-    text: その組合員その他の構成員に対しその者が当該事業年度中に取り扱つた物の数量、価額その他その協同組合等の事業を利用した分量に応じて分配する金額
+    text: 一　その組合員その他の構成員に対しその者が当該事業年度中に取り扱つた物の数量、価額その他その協同組合等の事業を利用した分量に応じて分配する金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-60-2-p1-kou-2
     type: kou
-    text: その組合員その他の構成員に対しその者が当該事業年度中にその協同組合等の事業に従事した程度に応じて分配する金額
+    text: 二　その組合員その他の構成員に対しその者が当該事業年度中にその協同組合等の事業に従事した程度に応じて分配する金額
     modality: unspecified
     item_number: 2
 cases: []

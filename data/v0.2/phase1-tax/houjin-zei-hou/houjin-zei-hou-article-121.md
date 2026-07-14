@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: houjin-zei-hou-art-121-p1-kou-1
     type: kou
-    text: 中間申告書
+    text: 一　中間申告書
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-121-p1-kou-2
     type: kou
-    text: 確定申告書
+    text: 二　確定申告書
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,12 +44,12 @@ paragraphs:
     - 前項
   - id: houjin-zei-hou-art-121-p2-kou-1
     type: kou
-    text: 退職年金等積立金中間申告書
+    text: 一　退職年金等積立金中間申告書
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-121-p2-kou-2
     type: kou
-    text: 退職年金等積立金確定申告書
+    text: 二　退職年金等積立金確定申告書
     modality: unspecified
     item_number: 2
 cases: []

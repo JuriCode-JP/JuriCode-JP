@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-103-p1-kou-1
     type: kou
-    text: 当該総収入金額報告書を提出する者の氏名、住所（国内に住所がない場合には、居所）及び個人番号（個人番号を有しない者にあつては、氏名及び住所（国内に住所がない場合には、居所））並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    text: 一　当該総収入金額報告書を提出する者の氏名、住所（国内に住所がない場合には、居所）及び個人番号（個人番号を有しない者にあつては、氏名及び住所（国内に住所がない場合には、居所））並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-103-p1-kou-2
     type: kou
-    text: その年中の不動産所得、事業所得又は山林所得に係る総収入金額（非居住者にあつては、法第百六十一条第一項（国内源泉所得）に規定する国内源泉所得に係る総収入金額に限る。）の合計額及び当該合計額の所得ごとの内訳
+    text: 二　その年中の不動産所得、事業所得又は山林所得に係る総収入金額（非居住者にあつては、法第百六十一条第一項（国内源泉所得）に規定する国内源泉所得に係る総収入金額に限る。）の合計額及び当該合計額の所得ごとの内訳
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-103-p1-kou-3
     type: kou
-    text: 不動産所得、事業所得又は山林所得の基因となる資産若しくは事業の所在地又はこれらの所得の生ずる場所
+    text: 三　不動産所得、事業所得又は山林所得の基因となる資産若しくは事業の所在地又はこれらの所得の生ずる場所
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-103-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

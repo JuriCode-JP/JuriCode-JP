@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-40-15-p1-kou-1
     type: kou
-    text: 駐車場法（昭和三十二年法律第百六号）第十二条の規定による届出に係る駐車場であること。
+    text: 一　駐車場法（昭和三十二年法律第百六号）第十二条の規定による届出に係る駐車場であること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-15-p1-kou-2
     type: kou
-    text: 建築基準法第二条第九号の二に規定する耐火建築物又は同条第九号の三に規定する準耐火建築物に該当するものであること。
+    text: 二　建築基準法第二条第九号の二に規定する耐火建築物又は同条第九号の三に規定する準耐火建築物に該当するものであること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-15-p1-kou-3
     type: kou
-    text: 地下又は複数の階に自動車の駐車の用に供する部分を設けているものであること。
+    text: 三　地下又は複数の階に自動車の駐車の用に供する部分を設けているものであること。
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-15-p1-kou-4
     type: kou
-    text: 駐車場の用に供する部分の床面積が千五百平方メートル以上であること。
+    text: 四　駐車場の用に供する部分の床面積が千五百平方メートル以上であること。
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-40-15-p1-kou-5
     type: kou
-    text: その他財務省令で定める要件
+    text: 五　その他財務省令で定める要件
     modality: unspecified
     item_number: 5
 - number: 2
@@ -59,12 +59,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-15-p2-kou-1
     type: kou
-    text: 当該特定の都市計画駐車場として使用されている建築物のうち専ら当該特定の都市計画駐車場の用に供している部分の床面積
+    text: 一　当該特定の都市計画駐車場として使用されている建築物のうち専ら当該特定の都市計画駐車場の用に供している部分の床面積
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-15-p2-kou-2
     type: kou
-    text: 前号の建築物のうち専ら当該特定の都市計画駐車場の用以外の用に供している部分の床面積
+    text: 二　前号の建築物のうち専ら当該特定の都市計画駐車場の用以外の用に供している部分の床面積
     modality: unspecified
     item_number: 2
 - number: 3

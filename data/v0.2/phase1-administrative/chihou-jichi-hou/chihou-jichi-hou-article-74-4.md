@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_kei
   - id: chihou-jichi-hou-art-74-4-p1-kou-1
     type: kou
-    text: 署名権者又は署名運動者に対し、暴行若しくは威力を加え、又はこれをかどわかしたとき。
+    text: 一　署名権者又は署名運動者に対し、暴行若しくは威力を加え、又はこれをかどわかしたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-74-4-p1-kou-2
     type: kou
-    text: 交通若しくは集会の便を妨げ、又は演説を妨害し、その他偽計詐術等不正の方法をもつて署名の自由を妨害したとき。
+    text: 二　交通若しくは集会の便を妨げ、又は演説を妨害し、その他偽計詐術等不正の方法をもつて署名の自由を妨害したとき。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-74-4-p1-kou-3
     type: kou
-    text: 署名権者若しくは署名運動者又はその関係のある社寺、学校、会社、組合、市町村等に対する用水、小作、債権、寄附その他特殊の利害関係を利用して署名権者又は署名運動者を威迫したとき。
+    text: 三　署名権者若しくは署名運動者又はその関係のある社寺、学校、会社、組合、市町村等に対する用水、小作、債権、寄附その他特殊の利害関係を利用して署名権者又は署名運動者を威迫したとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -74,12 +74,12 @@ paragraphs:
     modality: gimu_kei
   - id: chihou-jichi-hou-art-74-4-p5-kou-1
     type: kou
-    text: 国若しくは地方公共団体の公務員又は行政執行法人（独立行政法人通則法（平成十一年法律第百三号）第二条第四項に規定する行政執行法人をいう。）若しくは特定地方独立行政法人（地方独立行政法人法（平成十五年法律第百十八号）第二条第二項に規定する特定地方独立行政法人をいう。）の役員若しくは職員
+    text: 一　国若しくは地方公共団体の公務員又は行政執行法人（独立行政法人通則法（平成十一年法律第百三号）第二条第四項に規定する行政執行法人をいう。）若しくは特定地方独立行政法人（地方独立行政法人法（平成十五年法律第百十八号）第二条第二項に規定する特定地方独立行政法人をいう。）の役員若しくは職員
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-74-4-p5-kou-2
     type: kou
-    text: 沖縄振興開発金融公庫の役員又は職員
+    text: 二　沖縄振興開発金融公庫の役員又は職員
     modality: unspecified
     item_number: 2
 - number: 6

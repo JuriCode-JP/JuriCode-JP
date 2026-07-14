@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: keisatsukan-shokumu-shikkou-hou-art-3-p1-kou-1
     type: kou
-    text: 精神錯乱又は泥酔のため、自己又は他人の生命、身体又は財産に危害を及ぼすおそれのある者
+    text: 一　精神錯乱又は泥酔のため、自己又は他人の生命、身体又は財産に危害を及ぼすおそれのある者
     modality: unspecified
     item_number: 1
   - id: keisatsukan-shokumu-shikkou-hou-art-3-p1-kou-2
     type: kou
-    text: 迷い子、病人、負傷者等で適当な保護者を伴わず、応急の救護を要すると認められる者（本人がこれを拒んだ場合を除く。）
+    text: 二　迷い子、病人、負傷者等で適当な保護者を伴わず、応急の救護を要すると認められる者（本人がこれを拒んだ場合を除く。）
     modality: unspecified
     item_number: 2
 - number: 2

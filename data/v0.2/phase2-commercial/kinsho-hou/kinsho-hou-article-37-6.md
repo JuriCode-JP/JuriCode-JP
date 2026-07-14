@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-37-6-p2-kou-1
     type: kou
-    text: 書面　当該書面を発した時
+    text: 一　書面　当該書面を発した時
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-37-6-p2-kou-2
     type: kou
-    text: 記録媒体に記録された電磁的記録　当該記録媒体を発送した時
+    text: 二　記録媒体に記録された電磁的記録　当該記録媒体を発送した時
     modality: unspecified
     item_number: 2
 - number: 3

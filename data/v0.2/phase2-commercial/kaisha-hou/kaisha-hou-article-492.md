@@ -42,8 +42,8 @@ paragraphs:
     text: 清算人は、財産目録等（前項の規定の適用がある場合にあっては、同項の承認を受けたもの）を株主総会に提出し、又は提供し、その承認を受けなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

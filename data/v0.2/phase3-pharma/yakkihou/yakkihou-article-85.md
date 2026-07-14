@@ -23,52 +23,52 @@ paragraphs:
     modality: unspecified
   - id: yakkihou-art-85-p1-kou-1
     type: kou
-    text: 第三十七条第一項の規定に違反した者
+    text: 一　第三十七条第一項の規定に違反した者
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-85-p1-kou-2
     type: kou
-    text: 第四十七条の規定に違反した者
+    text: 二　第四十七条の規定に違反した者
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-85-p1-kou-3
     type: kou
-    text: 第五十五条第一項（第六十条、第六十二条、第六十四条、第六十五条の四及び第六十八条の十九において準用する場合を含む。）の規定に違反した者
+    text: 三　第五十五条第一項（第六十条、第六十二条、第六十四条、第六十五条の四及び第六十八条の十九において準用する場合を含む。）の規定に違反した者
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-85-p1-kou-4
     type: kou
-    text: 第六十六条第一項又は第三項の規定に違反した者
+    text: 四　第六十六条第一項又は第三項の規定に違反した者
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-85-p1-kou-5
     type: kou
-    text: 第六十八条の規定に違反した者
+    text: 五　第六十八条の規定に違反した者
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-85-p1-kou-6
     type: kou
-    text: 第七十二条の五第一項の規定による命令に違反した者
+    text: 六　第七十二条の五第一項の規定による命令に違反した者
     modality: unspecified
     item_number: 6
   - id: yakkihou-art-85-p1-kou-7
     type: kou
-    text: 第七十五条第一項又は第三項の規定による業務の停止命令に違反した者
+    text: 七　第七十五条第一項又は第三項の規定による業務の停止命令に違反した者
     modality: unspecified
     item_number: 7
   - id: yakkihou-art-85-p1-kou-8
     type: kou
-    text: 第七十五条の二第一項の規定による業務の停止命令に違反した者
+    text: 八　第七十五条の二第一項の規定による業務の停止命令に違反した者
     modality: unspecified
     item_number: 8
   - id: yakkihou-art-85-p1-kou-9
     type: kou
-    text: 第七十六条の五の規定に違反した者
+    text: 九　第七十六条の五の規定に違反した者
     modality: unspecified
     item_number: 9
   - id: yakkihou-art-85-p1-kou-10
     type: kou
-    text: 第七十六条の七の二第一項の規定による命令に違反した者
+    text: 十　第七十六条の七の二第一項の規定による命令に違反した者
     modality: unspecified
     item_number: 10
 cases: []

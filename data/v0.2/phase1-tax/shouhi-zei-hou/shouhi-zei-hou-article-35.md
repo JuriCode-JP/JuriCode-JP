@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: shouhi-zei-hou-art-35-p1-kou-1
     type: kou
-    text: 当該調整対象固定資産の課税仕入れの日若しくは特定課税仕入れの日又は当該調整対象固定資産に該当する課税貨物の保税地域からの引取りの日からこれらの日以後一年を経過する日までの期間　調整対象税額に相当する消費税額
+    text: 一　当該調整対象固定資産の課税仕入れの日若しくは特定課税仕入れの日又は当該調整対象固定資産に該当する課税貨物の保税地域からの引取りの日からこれらの日以後一年を経過する日までの期間　調整対象税額に相当する消費税額
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-35-p1-kou-2
     type: kou
-    text: 前号に掲げる期間の末日の翌日から同日以後一年を経過する日までの期間　調整対象税額の三分の二に相当する消費税額
+    text: 二　前号に掲げる期間の末日の翌日から同日以後一年を経過する日までの期間　調整対象税額の三分の二に相当する消費税額
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-art-35-p1-kou-3
     type: kou
-    text: 前号に掲げる期間の末日の翌日から同日以後一年を経過する日までの期間　調整対象税額の三分の一に相当する消費税額
+    text: 三　前号に掲げる期間の末日の翌日から同日以後一年を経過する日までの期間　調整対象税額の三分の一に相当する消費税額
     modality: unspecified
     item_number: 3
 cases: []

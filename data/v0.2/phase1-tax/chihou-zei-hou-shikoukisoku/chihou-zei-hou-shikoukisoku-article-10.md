@@ -110,22 +110,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-10-p9-kou-1
     type: kou
-    text: 当該認定を受けようとする者の氏名（法人にあつては、名称。以下この条において同じ。）、住所又は居所及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第十六項に規定する法人番号をいう。以下この項及び第十七項第一号において同じ。）（法人番号を有しない者にあつては、氏名及び住所又は居所。同号において同じ。）
+    text: 一　当該認定を受けようとする者の氏名（法人にあつては、名称。以下この条において同じ。）、住所又は居所及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第十六項に規定する法人番号をいう。以下この項及び第十七項第一号において同じ。）（法人番号を有しない者にあつては、氏名及び住所又は居所。同号において同じ。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-10-p9-kou-2
     type: kou
-    text: 当該認定に係る電子計算機の名称
+    text: 二　当該認定に係る電子計算機の名称
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-10-p9-kou-3
     type: kou
-    text: 当該認定に係る電子計算機が第六項の総務大臣の定める基準に適合することを証する事項
+    text: 三　当該認定に係る電子計算機が第六項の総務大臣の定める基準に適合することを証する事項
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-10-p9-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 10
@@ -138,8 +138,8 @@ paragraphs:
     text: 機構は、前項の申請があつた場合には、遅滞なく、これを審査し、当該申請に係る電子計算機について第六項の認定をし、又は当該申請に係る電子計算機が同項の総務大臣の定める基準に適合しないと認めるときは、当該申請を却下する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 11
   has_proviso: false
   has_items: false
@@ -215,27 +215,27 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-shikoukisoku-art-10-p17-kou-1
     type: kou
-    text: 当該申請等を行おうとする者の氏名、住所又は居所及び法人番号
+    text: 一　当該申請等を行おうとする者の氏名、住所又は居所及び法人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-10-p17-kou-2
     type: kou
-    text: 当該申請等に係る認定電子計算機の名称
+    text: 二　当該申請等に係る認定電子計算機の名称
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-10-p17-kou-3
     type: kou
-    text: 当該申請等に係る認定電子計算機について認定事業者の氏名及び住所又は居所
+    text: 三　当該申請等に係る認定電子計算機について認定事業者の氏名及び住所又は居所
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-10-p17-kou-4
     type: kou
-    text: 当該申請等の種別
+    text: 四　当該申請等の種別
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-10-p17-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 18
@@ -248,8 +248,8 @@ paragraphs:
     text: 前項の届出をした者は、同項第二号から第五号までの届出事項に変更が生ずることとなつたときは、遅滞なく、その旨を機構に届け出なければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 19
   has_proviso: false
   has_items: false

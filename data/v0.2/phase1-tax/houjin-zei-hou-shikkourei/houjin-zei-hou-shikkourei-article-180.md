@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-180-p1-kou-1
     type: kou
-    text: 国内において行う業務又は国内にある資産に関し受ける保険金、補償金又は損害賠償金（これらに類するものを含む。）に係る所得
+    text: 一　国内において行う業務又は国内にある資産に関し受ける保険金、補償金又は損害賠償金（これらに類するものを含む。）に係る所得
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-180-p1-kou-2
     type: kou
-    text: 国内にある資産の贈与を受けたことによる所得
+    text: 二　国内にある資産の贈与を受けたことによる所得
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-180-p1-kou-3
     type: kou
-    text: 国内において発見された埋蔵物又は国内において拾得された遺失物に係る所得
+    text: 三　国内において発見された埋蔵物又は国内において拾得された遺失物に係る所得
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikkourei-art-180-p1-kou-4
     type: kou
-    text: 国内において行う懸賞募集に基づいて懸賞として受ける金品その他の経済的な利益に係る所得
+    text: 四　国内において行う懸賞募集に基づいて懸賞として受ける金品その他の経済的な利益に係る所得
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikkourei-art-180-p1-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、国内において行う業務又は国内にある資産に関し供与を受ける経済的な利益に係る所得
+    text: 五　前各号に掲げるもののほか、国内において行う業務又は国内にある資産に関し供与を受ける経済的な利益に係る所得
     modality: unspecified
     item_number: 5
 cases: []

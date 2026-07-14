@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: shouhou-art-827-p1-kou-1
     type: kou
-    text: 当該貨物に損傷又は一部滅失がなかったとした場合の当該貨物の価額から損傷又は一部滅失後の当該貨物の価額を控除した額
+    text: 一　当該貨物に損傷又は一部滅失がなかったとした場合の当該貨物の価額から損傷又は一部滅失後の当該貨物の価額を控除した額
     modality: unspecified
     item_number: 1
   - id: shouhou-art-827-p1-kou-2
     type: kou
-    text: 当該貨物に損傷又は一部滅失がなかったとした場合の当該貨物の価額
+    text: 二　当該貨物に損傷又は一部滅失がなかったとした場合の当該貨物の価額
     modality: unspecified
     item_number: 2
 cases: []

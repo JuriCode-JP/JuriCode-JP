@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-61-11-p1-kou-1
     type: kou
-    text: 申告対象法人（法第百四十五条の六第一項各号（国内最低課税額）に掲げる外国法人をいう。次条第一号及び第二号において同じ。）の名称、納税地、本店又は主たる事務所の所在地及び法人番号並びにその納税地と国内にある事務所、事業所その他これらに準ずるもの（以下この号において「事務所等」という。）のうち主たるものの所在地とが異なる場合には、その国内にある主たる事務所等の所在地
+    text: 一　申告対象法人（法第百四十五条の六第一項各号（国内最低課税額）に掲げる外国法人をいう。次条第一号及び第二号において同じ。）の名称、納税地、本店又は主たる事務所の所在地及び法人番号並びにその納税地と国内にある事務所、事業所その他これらに準ずるもの（以下この号において「事務所等」という。）のうち主たるものの所在地とが異なる場合には、その国内にある主たる事務所等の所在地
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-61-11-p1-kou-2
     type: kou
-    text: 代表者の氏名及び恒久的施設等（法第八十二条第六号（定義）に規定する恒久的施設等をいい、その同条第七号に規定する所在地国が我が国であるものに限る。次条第一号から第三号までにおいて同じ。）を通じて行う事業の経営の責任者の氏名
+    text: 二　代表者の氏名及び恒久的施設等（法第八十二条第六号（定義）に規定する恒久的施設等をいい、その同条第七号に規定する所在地国が我が国であるものに限る。次条第一号から第三号までにおいて同じ。）を通じて行う事業の経営の責任者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-61-11-p1-kou-3
     type: kou
-    text: 当該対象会計年度の開始及び終了の日
+    text: 三　当該対象会計年度の開始及び終了の日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-61-11-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2

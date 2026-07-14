@@ -22,8 +22,8 @@ paragraphs:
     text: 貸主は、前条第二項に規定する場合において、同項の目的に従い借主が使用及び収益をするのに足りる期間を経過したときは、契約の解除をすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第十二条
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -37,8 +37,8 @@ paragraphs:
     text: 前項の規定は、行政事件訴訟法第十二条第四項の規定により同項に規定する特定管轄裁判所に開示決定等又は開示決定等若しくは開示請求に係る不作為に係る審査請求に対する裁決に係る抗告訴訟で情報公開訴訟以外のものが提起された場合について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

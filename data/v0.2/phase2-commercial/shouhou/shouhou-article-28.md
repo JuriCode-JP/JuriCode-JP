@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu_negative
   - id: shouhou-art-28-p1-kou-1
     type: kou
-    text: 自己又は第三者のためにその商人の営業の部類に属する取引をすること。
+    text: 一　自己又は第三者のためにその商人の営業の部類に属する取引をすること。
     modality: unspecified
     item_number: 1
   - id: shouhou-art-28-p1-kou-2
     type: kou
-    text: その商人の営業と同種の事業を行う会社の取締役、執行役又は業務を執行する社員となること。
+    text: 二　その商人の営業と同種の事業を行う会社の取締役、執行役又は業務を執行する社員となること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 代理商が前項の規定に違反して同項第一号に掲げる行為をしたときは、当該行為によって代理商又は第三者が得た利益の額は、商人に生じた損害の額と推定する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

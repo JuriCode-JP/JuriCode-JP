@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-20-5-p1-kou-1
     type: kou
-    text: その事業年度の前事業年度で七月以下であるもの
+    text: 一　その事業年度の前事業年度で七月以下であるもの
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-20-5-p1-kou-2
     type: kou
-    text: その事業年度の前事業年度（七月以下であるものを除く。）で法第九条の二第四項第二号に規定する六月の期間の末日（当該六月の期間の末日が次条第一項各号に掲げる場合に該当するときは当該各号に定める日）の翌日から当該前事業年度終了の日までの期間が二月未満であるもの
+    text: 二　その事業年度の前事業年度（七月以下であるものを除く。）で法第九条の二第四項第二号に規定する六月の期間の末日（当該六月の期間の末日が次条第一項各号に掲げる場合に該当するときは当該各号に定める日）の翌日から当該前事業年度終了の日までの期間が二月未満であるもの
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,17 +42,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-20-5-p2-kou-1
     type: kou
-    text: その事業年度の前々事業年度で当該事業年度の基準期間に含まれるもの
+    text: 一　その事業年度の前々事業年度で当該事業年度の基準期間に含まれるもの
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-20-5-p2-kou-2
     type: kou
-    text: その事業年度の前々事業年度（六月以下であるものを除く。）で法第九条の二第四項第三号に規定する六月の期間の末日（当該六月の期間の末日が次条第二項各号に掲げる場合に該当するときは当該各号に定める日）の翌日から当該前々事業年度の翌事業年度終了の日までの期間が二月未満であるもの
+    text: 二　その事業年度の前々事業年度（六月以下であるものを除く。）で法第九条の二第四項第三号に規定する六月の期間の末日（当該六月の期間の末日が次条第二項各号に掲げる場合に該当するときは当該各号に定める日）の翌日から当該前々事業年度の翌事業年度終了の日までの期間が二月未満であるもの
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-20-5-p2-kou-3
     type: kou
-    text: その事業年度の前々事業年度（六月以下であるものに限る。）でその翌事業年度が二月未満であるもの
+    text: 三　その事業年度の前々事業年度（六月以下であるものに限る。）でその翌事業年度が二月未満であるもの
     modality: unspecified
     item_number: 3
 cases: []

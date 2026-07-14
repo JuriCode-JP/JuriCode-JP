@@ -41,17 +41,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-4-2-p2-kou-1
     type: kou
-    text: 法第二条第二項第一号に掲げる権利　信託財産に属する資産の価額の総額
+    text: 一　法第二条第二項第一号に掲げる権利　信託財産に属する資産の価額の総額
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-4-2-p2-kou-2
     type: kou
-    text: 法第二条第二項第三号に掲げる権利　資本金の額
+    text: 二　法第二条第二項第三号に掲げる権利　資本金の額
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-4-2-p2-kou-3
     type: kou
-    text: 法第二条第二項第五号に掲げる権利　出資の総額又は拠出金の総額
+    text: 三　法第二条第二項第五号に掲げる権利　出資の総額又は拠出金の総額
     modality: unspecified
     item_number: 3
 - number: 3

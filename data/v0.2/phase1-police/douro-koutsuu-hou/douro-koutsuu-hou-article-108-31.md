@@ -34,67 +34,67 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-108-31-p2-kou-1
     type: kou
-    text: 適正な交通の方法、交通事故防止その他道路における交通の安全に関する事項について広報活動を行うこと。
+    text: 一　適正な交通の方法、交通事故防止その他道路における交通の安全に関する事項について広報活動を行うこと。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-108-31-p2-kou-2
     type: kou
-    text: 適正な交通の方法、交通事故防止その他道路における交通の安全についての啓発活動を行うこと。
+    text: 二　適正な交通の方法、交通事故防止その他道路における交通の安全についての啓発活動を行うこと。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-108-31-p2-kou-3
     type: kou
-    text: 交通事故に関する相談に応ずること。
+    text: 三　交通事故に関する相談に応ずること。
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-108-31-p2-kou-4
     type: kou
-    text: 道路における車両の駐車及び交通の規制並びに道路の使用に関する事項について照会及び相談に応ずること。
+    text: 四　道路における車両の駐車及び交通の規制並びに道路の使用に関する事項について照会及び相談に応ずること。
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-108-31-p2-kou-5
     type: kou
-    text: 道路における車両の駐車及び交通の規制並びに道路の使用に関する事項について広報活動を行うこと（第一号に該当するものを除く。）。
+    text: 五　道路における車両の駐車及び交通の規制並びに道路の使用に関する事項について広報活動を行うこと（第一号に該当するものを除く。）。
     modality: unspecified
     item_number: 5
   - id: douro-koutsuu-hou-art-108-31-p2-kou-6
     type: kou
-    text: 道路における適正な車両の駐車及び道路の使用についての啓発活動を行うこと（第二号に該当するものを除く。）。
+    text: 六　道路における適正な車両の駐車及び道路の使用についての啓発活動を行うこと（第二号に該当するものを除く。）。
     modality: unspecified
     item_number: 6
   - id: douro-koutsuu-hou-art-108-31-p2-kou-7
     type: kou
-    text: 警察署長の委託を受けて第五十六条、第五十七条第三項及び第七十七条第一項の規定による許可に関し、道路又は交通の状況について調査すること。
+    text: 七　警察署長の委託を受けて第五十六条、第五十七条第三項及び第七十七条第一項の規定による許可に関し、道路又は交通の状況について調査すること。
     modality: unspecified
     item_number: 7
   - id: douro-koutsuu-hou-art-108-31-p2-kou-8
     type: kou
-    text: 警察署長の委託を受けて道路における工作物又は物件の設置の状況について調査すること（前号の許可に係るものを除く。）。
+    text: 八　警察署長の委託を受けて道路における工作物又は物件の設置の状況について調査すること（前号の許可に係るものを除く。）。
     modality: unspecified
     item_number: 8
   - id: douro-koutsuu-hou-art-108-31-p2-kou-9
     type: kou
-    text: 運転適性指導（道路運送法第二条第二項に規定する自動車運送事業（貨物利用運送事業法第二条第八項に規定する第二種貨物利用運送事業を含む。）の用に供する自動車の運転者に対するものを除く。）を行うこと。
+    text: 九　運転適性指導（道路運送法第二条第二項に規定する自動車運送事業（貨物利用運送事業法第二条第八項に規定する第二種貨物利用運送事業を含む。）の用に供する自動車の運転者に対するものを除く。）を行うこと。
     modality: unspecified
     item_number: 9
   - id: douro-koutsuu-hou-art-108-31-p2-kou-10
     type: kou
-    text: 道路における交通の安全と円滑に資するための民間の自主的な組織活動を助けること。
+    text: 十　道路における交通の安全と円滑に資するための民間の自主的な組織活動を助けること。
     modality: unspecified
     item_number: 10
   - id: douro-koutsuu-hou-art-108-31-p2-kou-11
     type: kou
-    text: 地域交通安全活動推進委員に対する研修を行うこと。
+    text: 十一　地域交通安全活動推進委員に対する研修を行うこと。
     modality: unspecified
     item_number: 11
   - id: douro-koutsuu-hou-art-108-31-p2-kou-12
     type: kou
-    text: 地域交通安全活動推進委員協議会の事務について連絡調整を行う等その任務の遂行を助けること。
+    text: 十二　地域交通安全活動推進委員協議会の事務について連絡調整を行う等その任務の遂行を助けること。
     modality: unspecified
     item_number: 12
   - id: douro-koutsuu-hou-art-108-31-p2-kou-13
     type: kou
-    text: 前各号の事業に附帯する事業
+    text: 十三　前各号の事業に附帯する事業
     modality: unspecified
     item_number: 13
 - number: 3
@@ -152,6 +152,10 @@ paragraphs:
   - id: douro-koutsuu-hou-art-108-31-p8
     type: simple
     text: 第一項の指定の手続その他都道府県センターに関し必要な事項は、国家公安委員会規則で定める。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-108-31-supplnote-1
+    type: supplnote
+    text: （罰則　第五項については第百十七条の五第一項第二号）
     modality: unspecified
 cases: []
 amendments: []

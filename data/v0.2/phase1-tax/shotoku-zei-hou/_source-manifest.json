@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\340AC0000000033.xml",
   "source_xml_sha256": "bd173e82b6b98513de28cf2c14a7ac80e8d5cfb5febea7e6e734643422ee59cb",
   "source_xml_bytes": 16441084,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:22+00:00",
+  "parsed_at": "2026-07-14T01:44:27+00:00",
   "version_date": "1965-03-31",
   "article_count": 300,
   "articles": [
@@ -1210,16 +1210,16 @@
       "article_id": "shotoku-zei-hou-art-204",
       "article_number": "204",
       "filename": "shotoku-zei-hou-article-204.md",
-      "ja_text_sha256": "352046ac05f8140a5331823403122b4b4785b440bae6e7757e46525b2e43ef23",
-      "ja_text_bytes": 4336,
+      "ja_text_sha256": "a684748f2c5c84a09a8e911a6004f58373b1da6bc745bfd8a096b00e5910f696",
+      "ja_text_bytes": 4330,
       "paragraph_count": 3
     },
     {
       "article_id": "shotoku-zei-hou-art-205",
       "article_number": "205",
       "filename": "shotoku-zei-hou-article-205.md",
-      "ja_text_sha256": "ebfeb6fc32ec3e5f41225e68a489f9db5fef9ab65f6b6adfb07b1da1aec573e7",
-      "ja_text_bytes": 1292,
+      "ja_text_sha256": "60518870e05759b4b198c67f7338fe3771005417fc4488434d6159567df79a24",
+      "ja_text_bytes": 1286,
       "paragraph_count": 1
     },
     {

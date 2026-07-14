@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: souzoku-zei-hou-art-8-p1-kou-1
     type: kou
-    text: 債務者が資力を喪失して債務を弁済することが困難である場合において、当該債務の全部又は一部の免除を受けたとき。
+    text: 一　債務者が資力を喪失して債務を弁済することが困難である場合において、当該債務の全部又は一部の免除を受けたとき。
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-8-p1-kou-2
     type: kou
-    text: 債務者が資力を喪失して債務を弁済することが困難である場合において、その債務者の扶養義務者によつて当該債務の全部又は一部の引受け又は弁済がなされたとき。
+    text: 二　債務者が資力を喪失して債務を弁済することが困難である場合において、その債務者の扶養義務者によつて当該債務の全部又は一部の引受け又は弁済がなされたとき。
     modality: unspecified
     item_number: 2
 cases: []

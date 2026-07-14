@@ -43,17 +43,17 @@ paragraphs:
     modality: kanou_kenri
   - id: shouken-jouhou-furei-art-12-p3-kou-1
     type: kou
-    text: 当該公表情報が法令若しくは当該有価証券の発行に係る外国の法令（これに相当する国際機関の定める規則を含む。）又は当該有価証券が上場されている金融商品取引所若しくは指定外国金融商品取引所の規則に基づいて公表されていること（当該有価証券が令第二条の十二の三第一号から第三号までに掲げる有価証券である場合を除く。）。
+    text: 一　当該公表情報が法令若しくは当該有価証券の発行に係る外国の法令（これに相当する国際機関の定める規則を含む。）又は当該有価証券が上場されている金融商品取引所若しくは指定外国金融商品取引所の規則に基づいて公表されていること（当該有価証券が令第二条の十二の三第一号から第三号までに掲げる有価証券である場合を除く。）。
     modality: unspecified
     item_number: 1
   - id: shouken-jouhou-furei-art-12-p3-kou-2
     type: kou
-    text: 国内において当該公表情報をインターネットにより容易に取得することができること。
+    text: 二　国内において当該公表情報をインターネットにより容易に取得することができること。
     modality: unspecified
     item_number: 2
   - id: shouken-jouhou-furei-art-12-p3-kou-3
     type: kou
-    text: 当該公表情報が日本語又は英語で公表されていること。
+    text: 三　当該公表情報が日本語又は英語で公表されていること。
     modality: unspecified
     item_number: 3
 cases: []

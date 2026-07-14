@@ -38,12 +38,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-197-p2-kou-1
     type: kou
-    text: 厚生労働大臣が指定する医薬品（以下「指定製剤」という。）の検査の申請（当該指定製剤の検査が二以上の製造段階について行われるべき場合にあつては、最終段階の検査の申請に限る。）　申請に係る同一の製造番号又は製造記号の医薬品について作成した製品の製造及び試験の記録等を要約した書類（以下「製造・試験記録等要約書」という。）
+    text: 一　厚生労働大臣が指定する医薬品（以下「指定製剤」という。）の検査の申請（当該指定製剤の検査が二以上の製造段階について行われるべき場合にあつては、最終段階の検査の申請に限る。）　申請に係る同一の製造番号又は製造記号の医薬品について作成した製品の製造及び試験の記録等を要約した書類（以下「製造・試験記録等要約書」という。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-197-p2-kou-2
     type: kou
-    text: 前号に掲げる検査の申請以外の検査の申請　自家試験の記録を記載した書類
+    text: 二　前号に掲げる検査の申請以外の検査の申請　自家試験の記録を記載した書類
     modality: unspecified
     item_number: 2
 - number: 3
@@ -57,12 +57,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-197-p3-kou-1
     type: kou
-    text: 生物学的製剤又は抗菌性物質製剤である医薬品　当該医薬品の品目ごとに、機構又は国立健康危機管理研究機構のうち厚生労働大臣が指定するもの
+    text: 一　生物学的製剤又は抗菌性物質製剤である医薬品　当該医薬品の品目ごとに、機構又は国立健康危機管理研究機構のうち厚生労働大臣が指定するもの
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-197-p3-kou-2
     type: kou
-    text: 前号に掲げる医薬品以外の医薬品　国立医薬品食品衛生研究所
+    text: 二　前号に掲げる医薬品以外の医薬品　国立医薬品食品衛生研究所
     modality: unspecified
     item_number: 2
 - number: 4

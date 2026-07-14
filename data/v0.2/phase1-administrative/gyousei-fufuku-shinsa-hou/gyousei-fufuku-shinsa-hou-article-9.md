@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: gyousei-fufuku-shinsa-hou-art-9-p1-kou-1
     type: kou
-    text: 内閣府設置法第四十九条第一項若しくは第二項又は国家行政組織法第三条第二項に規定する委員会
+    text: 一　内閣府設置法第四十九条第一項若しくは第二項又は国家行政組織法第三条第二項に規定する委員会
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-9-p1-kou-2
     type: kou
-    text: 内閣府設置法第三十七条若しくは第五十四条又は国家行政組織法第八条に規定する機関
+    text: 二　内閣府設置法第三十七条若しくは第五十四条又は国家行政組織法第八条に規定する機関
     modality: unspecified
     item_number: 2
   - id: gyousei-fufuku-shinsa-hou-art-9-p1-kou-3
     type: kou
-    text: 地方自治法（昭和二十二年法律第六十七号）第百三十八条の四第一項に規定する委員会若しくは委員又は同条第三項に規定する機関
+    text: 三　地方自治法（昭和二十二年法律第六十七号）第百三十八条の四第一項に規定する委員会若しくは委員又は同条第三項に規定する機関
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,37 +49,37 @@ paragraphs:
     - 前項
   - id: gyousei-fufuku-shinsa-hou-art-9-p2-kou-1
     type: kou
-    text: 審査請求に係る処分若しくは当該処分に係る再調査の請求についての決定に関与した者又は審査請求に係る不作為に係る処分に関与し、若しくは関与することとなる者
+    text: 一　審査請求に係る処分若しくは当該処分に係る再調査の請求についての決定に関与した者又は審査請求に係る不作為に係る処分に関与し、若しくは関与することとなる者
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-9-p2-kou-2
     type: kou
-    text: 審査請求人
+    text: 二　審査請求人
     modality: unspecified
     item_number: 2
   - id: gyousei-fufuku-shinsa-hou-art-9-p2-kou-3
     type: kou
-    text: 審査請求人の配偶者、四親等内の親族又は同居の親族
+    text: 三　審査請求人の配偶者、四親等内の親族又は同居の親族
     modality: unspecified
     item_number: 3
   - id: gyousei-fufuku-shinsa-hou-art-9-p2-kou-4
     type: kou
-    text: 審査請求人の代理人
+    text: 四　審査請求人の代理人
     modality: unspecified
     item_number: 4
   - id: gyousei-fufuku-shinsa-hou-art-9-p2-kou-5
     type: kou
-    text: 前二号に掲げる者であった者
+    text: 五　前二号に掲げる者であった者
     modality: unspecified
     item_number: 5
   - id: gyousei-fufuku-shinsa-hou-art-9-p2-kou-6
     type: kou
-    text: 審査請求人の後見人、後見監督人、保佐人、保佐監督人、補助人又は補助監督人
+    text: 六　審査請求人の後見人、後見監督人、保佐人、保佐監督人、補助人又は補助監督人
     modality: unspecified
     item_number: 6
   - id: gyousei-fufuku-shinsa-hou-art-9-p2-kou-7
     type: kou
-    text: 第十三条第一項に規定する利害関係人
+    text: 七　第十三条第一項に規定する利害関係人
     modality: unspecified
     item_number: 7
 - number: 3
@@ -103,8 +103,8 @@ paragraphs:
     text: 前項に規定する場合において、審査庁は、必要があると認めるときは、その職員（第二項各号（第一項各号に掲げる機関の構成員にあっては、第一号を除く。）に掲げる者以外の者に限る。）に、前項において読み替えて適用する第三十一条第一項の規定による審査請求人若しくは第十三条第四項に規定する参加人の意見の陳述を聴かせ、前項において読み替えて適用する第三十四条の規定による参考人の陳述を聴かせ、同項において読み替えて適用する第三十五条第一項の規定による検証をさせ、前項において読み替えて適用する第三十六条の規定による第二十八条に規定する審理関係人に対する質問をさせ、又は同項において読み替えて適用する第三十七条第一項若しくは第二項の規定による意見の聴取を行わせることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

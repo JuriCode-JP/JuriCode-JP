@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の報告書の記載事項、提出期日その他同項の報告書の作成及び提出に関し必要な事項は、内閣府令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

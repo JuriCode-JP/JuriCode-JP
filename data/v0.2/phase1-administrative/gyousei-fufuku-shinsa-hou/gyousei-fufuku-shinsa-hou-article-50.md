@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: gyousei-fufuku-shinsa-hou-art-50-p1-kou-1
     type: kou
-    text: 主文
+    text: 一　主文
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-50-p1-kou-2
     type: kou
-    text: 事案の概要
+    text: 二　事案の概要
     modality: unspecified
     item_number: 2
   - id: gyousei-fufuku-shinsa-hou-art-50-p1-kou-3
     type: kou
-    text: 審理関係人の主張の要旨
+    text: 三　審理関係人の主張の要旨
     modality: unspecified
     item_number: 3
   - id: gyousei-fufuku-shinsa-hou-art-50-p1-kou-4
     type: kou
-    text: 理由（第一号の主文が審理員意見書又は行政不服審査会等若しくは審議会等の答申書と異なる内容である場合には、異なることとなった理由を含む。）
+    text: 四　理由（第一号の主文が審理員意見書又は行政不服審査会等若しくは審議会等の答申書と異なる内容である場合には、異なることとなった理由を含む。）
     modality: unspecified
     item_number: 4
 - number: 2

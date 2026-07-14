@@ -32,12 +32,12 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-258-p2-kou-1
     type: kou
-    text: 共有物の現物を分割する方法
+    text: 一　共有物の現物を分割する方法
     modality: unspecified
     item_number: 1
   - id: minpou-art-258-p2-kou-2
     type: kou
-    text: 共有者に債務を負担させて、他の共有者の持分の全部又は一部を取得させる方法
+    text: 二　共有者に債務を負担させて、他の共有者の持分の全部又は一部を取得させる方法
     modality: unspecified
     item_number: 2
 - number: 3

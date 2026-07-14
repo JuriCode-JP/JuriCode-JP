@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-273-p1-kou-1
     type: kou
-    text: 金融商品取引業者（有価証券等管理業務を行う者に限る。）
+    text: 一　金融商品取引業者（有価証券等管理業務を行う者に限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-273-p1-kou-2
     type: kou
-    text: 銀行
+    text: 二　銀行
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-273-p1-kou-3
     type: kou
-    text: 協同組織金融機関
+    text: 三　協同組織金融機関
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-273-p1-kou-4
     type: kou
-    text: 保険会社
+    text: 四　保険会社
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-273-p1-kou-5
     type: kou
-    text: 信託会社
+    text: 五　信託会社
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-273-p1-kou-6
     type: kou
-    text: 株式会社商工組合中央金庫
+    text: 六　株式会社商工組合中央金庫
     modality: unspecified
     item_number: 6
 cases: []

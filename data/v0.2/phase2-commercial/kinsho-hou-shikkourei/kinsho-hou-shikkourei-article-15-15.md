@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-shikkourei-art-15-15-p1-kou-1
     type: kou
-    text: 法第五十二条第一項若しくは第四項又は第五十四条の規定により法第二十九条の登録が取り消された場合
+    text: 一　法第五十二条第一項若しくは第四項又は第五十四条の規定により法第二十九条の登録が取り消された場合
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-15-p1-kou-2
     type: kou
-    text: 法第五十条の二第二項の規定により法第二十九条の登録がその効力を失つた場合
+    text: 二　法第五十条の二第二項の規定により法第二十九条の登録がその効力を失つた場合
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-15-15-p1-kou-3
     type: kou
-    text: 第二種金融商品取引業（個人が行う場合に限る。）及び投資助言・代理業以外の金融商品取引業を行うことにつき法第三十一条第四項の変更登録を受けた場合
+    text: 三　第二種金融商品取引業（個人が行う場合に限る。）及び投資助言・代理業以外の金融商品取引業を行うことにつき法第三十一条第四項の変更登録を受けた場合
     modality: unspecified
     item_number: 3
 - number: 2

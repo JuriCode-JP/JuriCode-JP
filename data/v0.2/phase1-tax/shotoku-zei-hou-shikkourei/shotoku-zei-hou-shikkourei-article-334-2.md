@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikkourei-art-334-2-p1-kou-1
     type: kou
-    text: 個人　その年において業務を営んでいた期間
+    text: 一　個人　その年において業務を営んでいた期間
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-334-2-p1-kou-2
     type: kou
-    text: 法人　法人税法第十三条（事業年度の意義）及び第十四条（事業年度の特例）に規定する事業年度
+    text: 二　法人　法人税法第十三条（事業年度の意義）及び第十四条（事業年度の特例）に規定する事業年度
     modality: unspecified
     item_number: 2
 - number: 2
@@ -54,8 +54,8 @@ paragraphs:
     text: 税務署長は、前項の場合（同項に規定する報酬等が法第二百四条第一項第六号（源泉徴収義務）に掲げる報酬又は料金である場合に限る。）において、同号に規定するホステス等のその業務を行つた期間、業務の内容及びその提供の程度により第三百二十二条の表の下欄に規定する支払金額の計算期間の日数を推計して、同条の規定を適用することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

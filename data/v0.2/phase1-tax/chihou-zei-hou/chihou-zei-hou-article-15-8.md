@@ -22,8 +22,8 @@ paragraphs:
     text: 地方団体の長は、前条第一項各号の規定により滞納処分の執行を停止した後三年以内に、その停止に係る滞納者につき同項各号に該当する事実がないと認めるときは、その執行の停止を取り消さなければならない。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

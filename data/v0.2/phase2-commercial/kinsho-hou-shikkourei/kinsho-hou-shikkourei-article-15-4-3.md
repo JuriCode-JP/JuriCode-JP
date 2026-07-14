@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-4-3-p1-kou-1
     type: kou
-    text: 法第二条第一項第一号及び第二号に掲げる有価証券
+    text: 一　法第二条第一項第一号及び第二号に掲げる有価証券
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-4-3-p1-kou-2
     type: kou
-    text: 政府が元本の償還及び利息の支払について保証している有価証券
+    text: 二　政府が元本の償還及び利息の支払について保証している有価証券
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-15-4-3-p1-kou-3
     type: kou
-    text: 第二条の十一に規定する有価証券
+    text: 三　第二条の十一に規定する有価証券
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-15-4-3-p1-kou-4
     type: kou
-    text: 法第四条第一項から第三項までの規定による届出又は発行登録（法第二十三条の三第三項に規定する発行登録をいう。）が行われている有価証券
+    text: 四　法第四条第一項から第三項までの規定による届出又は発行登録（法第二十三条の三第三項に規定する発行登録をいう。）が行われている有価証券
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-15-4-3-p1-kou-5
     type: kou
-    text: 有価証券に関して法第四条第七項に規定する開示が行われている場合（同項第二号に掲げる場合に限る。）における当該有価証券
+    text: 五　有価証券に関して法第四条第七項に規定する開示が行われている場合（同項第二号に掲げる場合に限る。）における当該有価証券
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-15-4-3-p1-kou-6
     type: kou
-    text: 法第四条第一項第四号に該当する売出しに係る有価証券
+    text: 六　法第四条第一項第四号に該当する売出しに係る有価証券
     modality: unspecified
     item_number: 6
 - number: 2

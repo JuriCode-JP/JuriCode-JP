@@ -34,27 +34,27 @@ paragraphs:
     - 前項
   - id: yakkihou-art-30-p2-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-30-p2-kou-2
     type: kou
-    text: 薬剤師又は登録販売者が配置することその他当該都道府県の区域において医薬品の配置販売を行う体制の概要
+    text: 二　薬剤師又は登録販売者が配置することその他当該都道府県の区域において医薬品の配置販売を行う体制の概要
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-30-p2-kou-3
     type: kou
-    text: 法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    text: 三　法人にあつては、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-30-p2-kou-4
     type: kou
-    text: 第三十一条の二第二項に規定する区域管理者の氏名
+    text: 四　第三十一条の二第二項に規定する区域管理者の氏名
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-30-p2-kou-5
     type: kou
-    text: 第四項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
+    text: 五　第四項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 3

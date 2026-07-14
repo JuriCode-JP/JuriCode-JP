@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-240-p1-kou-1
     type: kou
-    text: 特定生物由来製品又は人の血液を原材料として製造される生物由来製品にあつては、その出荷日から起算して少なくとも三十年間
+    text: 一　特定生物由来製品又は人の血液を原材料として製造される生物由来製品にあつては、その出荷日から起算して少なくとも三十年間
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-240-p1-kou-2
     type: kou
-    text: 生物由来製品（前号に掲げるものを除く。）にあつては、その出荷日から起算して少なくとも十年間
+    text: 二　生物由来製品（前号に掲げるものを除く。）にあつては、その出荷日から起算して少なくとも十年間
     modality: unspecified
     item_number: 2
 - number: 2

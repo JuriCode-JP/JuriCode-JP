@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_kei
   - id: kojin-jouhou-hogo-hou-art-185-p1-kou-1
     type: kou
-    text: 第三十条第二項（第三十一条第三項において準用する場合を含む。）又は第五十六条の規定に違反した者
+    text: 一　第三十条第二項（第三十一条第三項において準用する場合を含む。）又は第五十六条の規定に違反した者
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-185-p1-kou-2
     type: kou
-    text: 第五十一条第一項の規定による届出をせず、又は虚偽の届出をした者
+    text: 二　第五十一条第一項の規定による届出をせず、又は虚偽の届出をした者
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-185-p1-kou-3
     type: kou
-    text: 偽りその他不正の手段により、第八十五条第三項に規定する開示決定に基づく保有個人情報の開示を受けた者
+    text: 三　偽りその他不正の手段により、第八十五条第三項に規定する開示決定に基づく保有個人情報の開示を受けた者
     modality: unspecified
     item_number: 3
 cases: []

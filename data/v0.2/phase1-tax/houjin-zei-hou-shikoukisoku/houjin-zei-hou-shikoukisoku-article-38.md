@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-p1-kou-1
     type: kou
-    text: 請求をする内国法人の名称、納税地及び法人番号
+    text: 一　請求をする内国法人の名称、納税地及び法人番号
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-p1-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-p1-kou-3
     type: kou
-    text: 法第八十条第一項に規定する還付所得事業年度の開始及び終了の日
+    text: 三　法第八十条第一項に規定する還付所得事業年度の開始及び終了の日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-38-p1-kou-4
     type: kou
-    text: 法第八十条第一項に規定する欠損事業年度の青色申告書である確定申告書をその提出期限後に提出する場合において同項の規定による法人税の還付を請求するときは、当該申告書をその提出期限までに提出することができなかつた事情の詳細
+    text: 四　法第八十条第一項に規定する欠損事業年度の青色申告書である確定申告書をその提出期限後に提出する場合において同項の規定による法人税の還付を請求するときは、当該申告書をその提出期限までに提出することができなかつた事情の詳細
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-38-p1-kou-5
     type: kou
-    text: 法第八十条第四項の規定による法人税の還付の請求をする場合には、同項に規定する事実の生じた日及び当該事実の詳細
+    text: 五　法第八十条第四項の規定による法人税の還付の請求をする場合には、同項に規定する事実の生じた日及び当該事実の詳細
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-38-p1-kou-6
     type: kou
-    text: 法第八十条第五項の規定による法人税の還付の請求をする場合には、同項に規定する災害のあつた日及び当該災害の詳細
+    text: 六　法第八十条第五項の規定による法人税の還付の請求をする場合には、同項に規定する災害のあつた日及び当該災害の詳細
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-shikoukisoku-art-38-p1-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 cases: []

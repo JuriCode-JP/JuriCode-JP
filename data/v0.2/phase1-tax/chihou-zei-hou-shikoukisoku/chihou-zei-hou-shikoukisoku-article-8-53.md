@@ -23,52 +23,52 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-1
     type: kou
-    text: 引取りを行つた軽油の数量及び引取りを行つた年月日並びに引渡しを行つた者の氏名又は名称及び引渡しを行つた者の事務所又は事業所の名称及び所在地
+    text: 一　引取りを行つた軽油の数量及び引取りを行つた年月日並びに引渡しを行つた者の氏名又は名称及び引渡しを行つた者の事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-2
     type: kou
-    text: 納入を受けた軽油の数量及び納入を受けた年月日並びに納入を行つた者の氏名又は名称及び納入を行つた者の事務所又は事業所の名称及び所在地
+    text: 二　納入を受けた軽油の数量及び納入を受けた年月日並びに納入を行つた者の氏名又は名称及び納入を行つた者の事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-3
     type: kou
-    text: 引渡しを行つた軽油の数量及び引渡しを行つた年月日並びに引取りを行つた者の氏名又は名称及び引取りを行つた者の事務所又は事業所の名称及び所在地
+    text: 三　引渡しを行つた軽油の数量及び引渡しを行つた年月日並びに引取りを行つた者の氏名又は名称及び引取りを行つた者の事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-4
     type: kou
-    text: 納入を行つた軽油の数量及び納入を行つた年月日並びに納入を受けた者の氏名又は名称及び納入を受けた者の事務所又は事業所の名称及び所在地
+    text: 四　納入を行つた軽油の数量及び納入を行つた年月日並びに納入を受けた者の氏名又は名称及び納入を受けた者の事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-5
     type: kou
-    text: 各月末日における軽油の在庫数量
+    text: 五　各月末日における軽油の在庫数量
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-6
     type: kou
-    text: 消費した軽油の数量及び消費の年月日
+    text: 六　消費した軽油の数量及び消費の年月日
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-7
     type: kou
-    text: 引取りを行つた後返還を行つた軽油の数量及び返還を行つた年月日並びに返還を受けた者の氏名又は名称及び返還を受けた者の事務所又は事業所の名称及び所在地
+    text: 七　引取りを行つた後返還を行つた軽油の数量及び返還を行つた年月日並びに返還を受けた者の氏名又は名称及び返還を受けた者の事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-8
     type: kou
-    text: 納入を受けた後返還を行つた軽油の数量及び返還を行つた年月日並びに返還を受けた者の氏名又は名称及び返還を受けた者の事務所又は事業所の名称及び所在地
+    text: 八　納入を受けた後返還を行つた軽油の数量及び返還を行つた年月日並びに返還を受けた者の氏名又は名称及び返還を受けた者の事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-9
     type: kou
-    text: 引渡しを行つた後返還を受けた軽油の数量及び返還を受けた年月日並びに返還を行つた者の氏名又は名称及び返還を行つた者の事務所又は事業所の名称及び所在地
+    text: 九　引渡しを行つた後返還を受けた軽油の数量及び返還を受けた年月日並びに返還を行つた者の氏名又は名称及び返還を行つた者の事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 9
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p1-kou-10
     type: kou
-    text: 納入を行つた後返還を受けた軽油の数量及び返還を受けた年月日並びに返還を行つた者の氏名又は名称及び返還を行つた者の事務所又は事業所の名称及び所在地
+    text: 十　納入を行つた後返還を受けた軽油の数量及び返還を受けた年月日並びに返還を行つた者の氏名又は名称及び返還を行つた者の事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 10
 - number: 2
@@ -93,12 +93,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p3-kou-1
     type: kou
-    text: 軽油の製造を行つた事業所の名称及び所在地、製造を行つた年月日並びに事業所ごとの軽油の製造数量
+    text: 一　軽油の製造を行つた事業所の名称及び所在地、製造を行つた年月日並びに事業所ごとの軽油の製造数量
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-53-p3-kou-2
     type: kou
-    text: 軽油の輸入の許可に係る税関、輸入の許可を受けた年月日、税関ごと及び輸入の許可ごとの軽油の輸入数量並びに輸入した軽油に係る関税定率法別表の品名及び輸入統計品目表の統計番号
+    text: 二　軽油の輸入の許可に係る税関、輸入の許可を受けた年月日、税関ごと及び輸入の許可ごとの軽油の輸入数量並びに輸入した軽油に係る関税定率法別表の品名及び輸入統計品目表の統計番号
     modality: unspecified
     item_number: 2
 - number: 4

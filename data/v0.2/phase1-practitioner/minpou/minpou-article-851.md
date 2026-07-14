@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: minpou-art-851-p1-kou-1
     type: kou
-    text: 後見人の事務を監督すること。
+    text: 一　後見人の事務を監督すること。
     modality: unspecified
     item_number: 1
   - id: minpou-art-851-p1-kou-2
     type: kou
-    text: 後見人が欠けた場合に、遅滞なくその選任を家庭裁判所に請求すること。
+    text: 二　後見人が欠けた場合に、遅滞なくその選任を家庭裁判所に請求すること。
     modality: unspecified
     item_number: 2
   - id: minpou-art-851-p1-kou-3
     type: kou
-    text: 急迫の事情がある場合に、必要な処分をすること。
+    text: 三　急迫の事情がある場合に、必要な処分をすること。
     modality: unspecified
     item_number: 3
   - id: minpou-art-851-p1-kou-4
     type: kou
-    text: 後見人又はその代表する者と被後見人との利益が相反する行為について被後見人を代表すること。
+    text: 四　後見人又はその代表する者と被後見人との利益が相反する行為について被後見人を代表すること。
     modality: unspecified
     item_number: 4
 cases: []

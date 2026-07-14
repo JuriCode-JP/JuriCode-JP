@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の規定による指示の告知は、書面で行うものとし、この書面には、同項の規定によつて定めた期限及び反則金の額を記載するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

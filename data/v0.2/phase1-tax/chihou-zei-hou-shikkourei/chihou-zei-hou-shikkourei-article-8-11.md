@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の申告書に係る均等割額は、当該道府県の均等割額に法第五十三条第二項の事業年度開始の日から同項に規定する六月経過日の前日までの期間中において事務所、事業所又は寮等を有していた月数を乗じて得た金額を十二で除して得た金額とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

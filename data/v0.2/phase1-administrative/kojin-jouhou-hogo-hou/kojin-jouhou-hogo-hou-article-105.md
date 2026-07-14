@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kojin-jouhou-hogo-hou-art-105-p1-kou-1
     type: kou
-    text: 審査請求が不適法であり、却下する場合
+    text: 一　審査請求が不適法であり、却下する場合
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-105-p1-kou-2
     type: kou
-    text: 裁決で、審査請求の全部を認容し、当該審査請求に係る保有個人情報の全部を開示することとする場合（当該保有個人情報の開示について反対意見書が提出されている場合を除く。）
+    text: 二　裁決で、審査請求の全部を認容し、当該審査請求に係る保有個人情報の全部を開示することとする場合（当該保有個人情報の開示について反対意見書が提出されている場合を除く。）
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-105-p1-kou-3
     type: kou
-    text: 裁決で、審査請求の全部を認容し、当該審査請求に係る保有個人情報の訂正をすることとする場合
+    text: 三　裁決で、審査請求の全部を認容し、当該審査請求に係る保有個人情報の訂正をすることとする場合
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-105-p1-kou-4
     type: kou
-    text: 裁決で、審査請求の全部を認容し、当該審査請求に係る保有個人情報の利用停止をすることとする場合
+    text: 四　裁決で、審査請求の全部を認容し、当該審査請求に係る保有個人情報の利用停止をすることとする場合
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,17 +54,17 @@ paragraphs:
     - 前項
   - id: kojin-jouhou-hogo-hou-art-105-p2-kou-1
     type: kou
-    text: 審査請求人及び参加人（行政不服審査法第十三条第四項に規定する参加人をいう。以下この項及び第百七条第一項第二号において同じ。）
+    text: 一　審査請求人及び参加人（行政不服審査法第十三条第四項に規定する参加人をいう。以下この項及び第百七条第一項第二号において同じ。）
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-105-p2-kou-2
     type: kou
-    text: 開示請求者、訂正請求者又は利用停止請求者（これらの者が審査請求人又は参加人である場合を除く。）
+    text: 二　開示請求者、訂正請求者又は利用停止請求者（これらの者が審査請求人又は参加人である場合を除く。）
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-105-p2-kou-3
     type: kou
-    text: 当該審査請求に係る保有個人情報の開示について反対意見書を提出した第三者（当該第三者が審査請求人又は参加人である場合を除く。）
+    text: 三　当該審査請求に係る保有個人情報の開示について反対意見書を提出した第三者（当該第三者が審査請求人又は参加人である場合を除く。）
     modality: unspecified
     item_number: 3
 - number: 3

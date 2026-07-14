@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-3-14-2-p1-kou-1
     type: kou
-    text: 確定給付企業年金法施行令（平成十三年政令第四百二十四号）第五十四条の四の規定により支出した同条の掛金
+    text: 一　確定給付企業年金法施行令（平成十三年政令第四百二十四号）第五十四条の四の規定により支出した同条の掛金
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-3-14-2-p1-kou-2
     type: kou
-    text: 確定給付企業年金法施行規則（平成十四年厚生労働省令第二十二号）第六十四条の規定により支出した同条の掛金
+    text: 二　確定給付企業年金法施行規則（平成十四年厚生労働省令第二十二号）第六十四条の規定により支出した同条の掛金
     modality: unspecified
     item_number: 2
 cases: []

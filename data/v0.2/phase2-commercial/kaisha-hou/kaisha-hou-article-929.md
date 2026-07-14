@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-929-p1-kou-1
     type: kou
-    text: 清算株式会社　第五百七条第三項の承認の日
+    text: 一　清算株式会社　第五百七条第三項の承認の日
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-929-p1-kou-2
     type: kou
-    text: 清算持分会社（合名会社及び合資会社に限る。）　第六百六十七条第一項の承認の日（第六百六十八条第一項の財産の処分の方法を定めた場合にあっては、その財産の処分を完了した日）
+    text: 二　清算持分会社（合名会社及び合資会社に限る。）　第六百六十七条第一項の承認の日（第六百六十八条第一項の財産の処分の方法を定めた場合にあっては、その財産の処分を完了した日）
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-929-p1-kou-3
     type: kou
-    text: 清算持分会社（合同会社に限る。）　第六百六十七条第一項の承認の日
+    text: 三　清算持分会社（合同会社に限る。）　第六百六十七条第一項の承認の日
     modality: unspecified
     item_number: 3
 cases: []

@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-18-9-p1-kou-1
     type: kou
-    text: 破産法第百九十七条第一項（同法第二百九条第三項において準用する場合を含む。）の規定による配当の公告
+    text: 一　破産法第百九十七条第一項（同法第二百九条第三項において準用する場合を含む。）の規定による配当の公告
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-18-9-p1-kou-2
     type: kou
-    text: 法第七十九条の五十五第五項の規定による通知
+    text: 二　法第七十九条の五十五第五項の規定による通知
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-18-9-p1-kou-3
     type: kou
-    text: 会社更生法第百九十九条第一項の規定による更生計画認可の決定
+    text: 三　会社更生法第百九十九条第一項の規定による更生計画認可の決定
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-18-9-p1-kou-4
     type: kou
-    text: 民事再生法第百七十四条第一項の規定による再生計画認可の決定
+    text: 四　民事再生法第百七十四条第一項の規定による再生計画認可の決定
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-18-9-p1-kou-5
     type: kou
-    text: 社債、株式等の振替に関する法律第六十条第五項の規定により支払を行うこととなつたこと。
+    text: 五　社債、株式等の振替に関する法律第六十条第五項の規定により支払を行うこととなつたこと。
     modality: unspecified
     item_number: 5
 cases: []

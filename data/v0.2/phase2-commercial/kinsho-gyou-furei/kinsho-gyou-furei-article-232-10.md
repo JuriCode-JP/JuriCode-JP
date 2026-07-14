@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-232-10-p1-kou-1
     type: kou
-    text: 外国帳簿書類
+    text: 一　外国帳簿書類
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-232-10-p1-kou-2
     type: kou
-    text: 外国帳簿書類の様式の訳文
+    text: 二　外国帳簿書類の様式の訳文
     modality: unspecified
     item_number: 2
 - number: 2

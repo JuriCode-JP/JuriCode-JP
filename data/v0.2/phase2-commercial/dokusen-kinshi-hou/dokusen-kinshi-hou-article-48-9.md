@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: dokusen-kinshi-hou-art-48-9-p1-kou-1
     type: kou
-    text: 第四十八条の七第三項の認定を受けた排除確保措置計画に従つて排除確保措置が実施されていないと認めるとき。
+    text: 一　第四十八条の七第三項の認定を受けた排除確保措置計画に従つて排除確保措置が実施されていないと認めるとき。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-48-9-p1-kou-2
     type: kou
-    text: 第四十八条の七第三項の認定を受けた者が虚偽又は不正の事実に基づいて当該認定を受けたことが判明したとき。
+    text: 二　第四十八条の七第三項の認定を受けた者が虚偽又は不正の事実に基づいて当該認定を受けたことが判明したとき。
     modality: unspecified
     item_number: 2
 - number: 2

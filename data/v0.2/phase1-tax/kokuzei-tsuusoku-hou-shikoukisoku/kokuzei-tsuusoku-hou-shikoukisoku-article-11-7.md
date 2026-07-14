@@ -31,8 +31,8 @@ paragraphs:
     text: 法第七十四条の十三の四第一項に規定する財務省令で定める事項は、振替機関又はその下位機関（同項に規定する下位機関をいう。次項において同じ。）の加入者の同条第一項に規定する株式等の種類、銘柄及びその銘柄ごとの数又は金額を特定するために当該振替機関が定める当該加入者の記号又は番号とする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -55,12 +55,12 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikoukisoku-art-11-7-p4-kou-1
     type: kou
-    text: 電子情報処理組織を使用して送信する方法
+    text: 一　電子情報処理組織を使用して送信する方法
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikoukisoku-art-11-7-p4-kou-2
     type: kou
-    text: その提供すべき事項を記録した電磁的記録に係る記録媒体を交付する方法
+    text: 二　その提供すべき事項を記録した電磁的記録に係る記録媒体を交付する方法
     modality: unspecified
     item_number: 2
 cases: []

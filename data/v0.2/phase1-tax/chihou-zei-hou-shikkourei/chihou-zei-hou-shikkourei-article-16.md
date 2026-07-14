@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-16-p1-kou-1
     type: kou
-    text: 財産区及び港湾法（昭和二十五年法律第二百十八号）の規定による港務局
+    text: 一　財産区及び港湾法（昭和二十五年法律第二百十八号）の規定による港務局
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-16-p1-kou-2
     type: kou
-    text: 土地改良区及び土地改良区連合、水害予防組合及び水害予防組合連合並びに土地区画整理組合
+    text: 二　土地改良区及び土地改良区連合、水害予防組合及び水害予防組合連合並びに土地区画整理組合
     modality: unspecified
     item_number: 2
 cases: []

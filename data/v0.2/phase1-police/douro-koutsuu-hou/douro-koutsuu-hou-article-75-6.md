@@ -34,6 +34,10 @@ paragraphs:
     type: simple
     text: 緊急自動車以外の自動車は、緊急自動車が本線車道に入ろうとしている場合又はその通行している本線車道から出ようとしている場合においては、当該緊急自動車の通行を妨げてはならない。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-75-6-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

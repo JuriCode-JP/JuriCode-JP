@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-shikoukisoku-art-114-45-7-p1-kou-1
     type: kou
-    text: 変更計画の変更案
+    text: 一　変更計画の変更案
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-45-7-p1-kou-2
     type: kou
-    text: 変更理由
+    text: 二　変更理由
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,17 +44,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-114-45-7-p2-kou-1
     type: kou
-    text: 新たに承認申請が必要となると考えられる医療機器又は体外診断用医薬品の変更
+    text: 一　新たに承認申請が必要となると考えられる医療機器又は体外診断用医薬品の変更
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-45-7-p2-kou-2
     type: kou
-    text: 医療機器又は体外診断用医薬品の検証実施計画又は適合基準に係る変更
+    text: 二　医療機器又は体外診断用医薬品の検証実施計画又は適合基準に係る変更
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-45-7-p2-kou-3
     type: kou
-    text: 前二号に掲げる変更のほか、医療機器又は体外診断用医薬品の品質、有効性及び安全性に影響を与える変更
+    text: 三　前二号に掲げる変更のほか、医療機器又は体外診断用医薬品の品質、有効性及び安全性に影響を与える変更
     modality: unspecified
     item_number: 3
 - number: 3

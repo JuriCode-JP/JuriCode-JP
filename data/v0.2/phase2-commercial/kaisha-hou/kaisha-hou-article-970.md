@@ -31,8 +31,8 @@ paragraphs:
     text: 情を知って、前項の利益の供与を受け、又は第三者にこれを供与させた者も、同項と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -41,17 +41,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-399-2-p3-kou-1
     type: kou
-    text: 取締役（会計参与設置会社にあっては、取締役及び会計参与）の職務の執行の監査及び監査報告の作成
+    text: 一　取締役（会計参与設置会社にあっては、取締役及び会計参与）の職務の執行の監査及び監査報告の作成
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-399-2-p3-kou-2
     type: kou
-    text: 株主総会に提出する会計監査人の選任及び解任並びに会計監査人を再任しないことに関する議案の内容の決定
+    text: 二　株主総会に提出する会計監査人の選任及び解任並びに会計監査人を再任しないことに関する議案の内容の決定
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-399-2-p3-kou-3
     type: kou
-    text: 第三百四十二条の二第四項及び第三百六十一条第六項に規定する監査等委員会の意見の決定
+    text: 三　第三百四十二条の二第四項及び第三百六十一条第六項に規定する監査等委員会の意見の決定
     modality: unspecified
     item_number: 3
 - number: 4
@@ -65,17 +65,17 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-399-2-p4-kou-1
     type: kou
-    text: 費用の前払の請求
+    text: 一　費用の前払の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-399-2-p4-kou-2
     type: kou
-    text: 支出をした費用及び支出の日以後におけるその利息の償還の請求
+    text: 二　支出をした費用及び支出の日以後におけるその利息の償還の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-399-2-p4-kou-3
     type: kou
-    text: 負担した債務の債権者に対する弁済（当該債務が弁済期にない場合にあっては、相当の担保の提供）の請求
+    text: 三　負担した債務の債権者に対する弁済（当該債務が弁済期にない場合にあっては、相当の担保の提供）の請求
     modality: unspecified
     item_number: 3
 cases: []

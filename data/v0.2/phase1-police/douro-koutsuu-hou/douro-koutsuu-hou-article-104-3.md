@@ -45,6 +45,10 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-104-3-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百二十三条の二第一号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

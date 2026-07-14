@@ -60,6 +60,10 @@ paragraphs:
     references:
     - 前三項
     - 次条
+  - id: douro-koutsuu-hou-art-28-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第四項については第百十七条の二第一項第四号、第百十七条の二の二第一項第八号ヘ、第百十九条第一項第六号　第二項及び第三項については第百十九条第一項第六号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

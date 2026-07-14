@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-24-41-p1-kou-1
     type: kou
-    text: 第二十四条の四十三第一項第一号に規定する方法により納付し、又は納入する地方団体の徴収金　同号に規定する符号
+    text: 一　第二十四条の四十三第一項第一号に規定する方法により納付し、又は納入する地方団体の徴収金　同号に規定する符号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-24-41-p1-kou-2
     type: kou
-    text: 第二十四条の四十三第一項第二号に規定する方法により納付し、又は納入する地方団体の徴収金　同号柱書に規定する符号
+    text: 二　第二十四条の四十三第一項第二号に規定する方法により納付し、又は納入する地方団体の徴収金　同号柱書に規定する符号
     modality: unspecified
     item_number: 2
 cases: []

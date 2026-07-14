@@ -41,22 +41,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-27-8-p3-kou-1
     type: kou
-    text: 公開買付届出書に形式上の不備があること。
+    text: 一　公開買付届出書に形式上の不備があること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-27-8-p3-kou-2
     type: kou
-    text: 公開買付届出書に記載された買付条件等がこの節の規定に従つていないこと。
+    text: 二　公開買付届出書に記載された買付条件等がこの節の規定に従つていないこと。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-27-8-p3-kou-3
     type: kou
-    text: 訂正届出書に記載された買付条件等の変更が第二十七条の六第一項の規定に違反していること。
+    text: 三　訂正届出書に記載された買付条件等の変更が第二十七条の六第一項の規定に違反していること。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-27-8-p3-kou-4
     type: kou
-    text: 公開買付届出書に記載すべき事項の記載が不十分であること。
+    text: 四　公開買付届出書に記載すべき事項の記載が不十分であること。
     modality: unspecified
     item_number: 4
 - number: 4
@@ -72,12 +72,12 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-27-8-p4-kou-1
     type: kou
-    text: 公開買付届出書に記載された重要な事項について虚偽の記載があること。
+    text: 一　公開買付届出書に記載された重要な事項について虚偽の記載があること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-27-8-p4-kou-2
     type: kou
-    text: 公開買付届出書に記載すべき重要な事項又は誤解を生じさせないために必要な重要な事実の記載が欠けていること。
+    text: 二　公開買付届出書に記載すべき重要な事項又は誤解を生じさせないために必要な重要な事実の記載が欠けていること。
     modality: unspecified
     item_number: 2
 - number: 5

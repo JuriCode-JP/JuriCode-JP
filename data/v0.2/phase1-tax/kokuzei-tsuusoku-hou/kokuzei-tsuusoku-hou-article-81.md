@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-art-81-p1-kou-1
     type: kou
-    text: 再調査の請求に係る処分の内容
+    text: 一　再調査の請求に係る処分の内容
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-81-p1-kou-2
     type: kou
-    text: 再調査の請求に係る処分があつたことを知つた年月日（当該処分に係る通知を受けた場合には、その受けた年月日）
+    text: 二　再調査の請求に係る処分があつたことを知つた年月日（当該処分に係る通知を受けた場合には、その受けた年月日）
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-81-p1-kou-3
     type: kou
-    text: 再調査の請求の趣旨及び理由
+    text: 三　再調査の請求の趣旨及び理由
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-81-p1-kou-4
     type: kou
-    text: 再調査の請求の年月日
+    text: 四　再調査の請求の年月日
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項の書面（以下「再調査の請求書」という。）には、同項に規定する事項のほか、第七十七条第一項又は第三項（不服申立期間）に規定する期間の経過後に再調査の請求をする場合においては、同条第一項ただし書又は第三項ただし書に規定する正当な理由を記載しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

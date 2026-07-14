@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-98-p1-kou-1
     type: kou
-    text: その届出書を提出する者の氏名、住所（国内に住所がない場合には、居所）及び個人番号（個人番号を有しない者にあつては、氏名及び住所（国内に住所がない場合には、居所））並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    text: 一　その届出書を提出する者の氏名、住所（国内に住所がない場合には、居所）及び個人番号（個人番号を有しない者にあつては、氏名及び住所（国内に住所がない場合には、居所））並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-98-p1-kou-2
     type: kou
-    text: 国内において新たに事業所得等を生ずべき事業を開始し、又はその事業所得等を生ずべき事業に係る事務所等を設け、若しくはその事務所等を移転し、若しくは廃止した旨及びその開始し、又はその事務所等を設け、若しくはその事務所等を移転し、若しくは廃止した年月日
+    text: 二　国内において新たに事業所得等を生ずべき事業を開始し、又はその事業所得等を生ずべき事業に係る事務所等を設け、若しくはその事務所等を移転し、若しくは廃止した旨及びその開始し、又はその事務所等を設け、若しくはその事務所等を移転し、若しくは廃止した年月日
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-98-p1-kou-3
     type: kou
-    text: 国内において新たに事業所得等を生ずべき事業を開始した場合にはその事業所得等を生ずべき事業の概要
+    text: 三　国内において新たに事業所得等を生ずべき事業を開始した場合にはその事業所得等を生ずべき事業の概要
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-98-p1-kou-4
     type: kou
-    text: その事務所等の所在地（事務所等を移転した場合には、その移転後の事務所等の所在地）
+    text: 四　その事務所等の所在地（事務所等を移転した場合には、その移転後の事務所等の所在地）
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-98-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

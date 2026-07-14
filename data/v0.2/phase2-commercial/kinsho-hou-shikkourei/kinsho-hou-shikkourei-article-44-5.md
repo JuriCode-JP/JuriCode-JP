@@ -84,8 +84,8 @@ paragraphs:
     text: 前項の委員会の権限については、同項に規定する財務局長又は福岡財務支局長のほか、第一項又は第二項の規定により関係人等に対して調査のための処分を行つた財務局長又は福岡財務支局長も行うことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

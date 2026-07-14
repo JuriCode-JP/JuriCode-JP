@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: roudou-kijun-hou-art-21-p1-kou-1
     type: kou
-    text: 日日雇い入れられる者
+    text: 一　日日雇い入れられる者
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-21-p1-kou-2
     type: kou
-    text: 二箇月以内の期間を定めて使用される者
+    text: 二　二箇月以内の期間を定めて使用される者
     modality: unspecified
     item_number: 2
   - id: roudou-kijun-hou-art-21-p1-kou-3
     type: kou
-    text: 季節的業務に四箇月以内の期間を定めて使用される者
+    text: 三　季節的業務に四箇月以内の期間を定めて使用される者
     modality: unspecified
     item_number: 3
   - id: roudou-kijun-hou-art-21-p1-kou-4
     type: kou
-    text: 試の使用期間中の者
+    text: 四　試の使用期間中の者
     modality: unspecified
     item_number: 4
 cases: []

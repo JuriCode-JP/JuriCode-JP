@@ -71,6 +71,10 @@ paragraphs:
     type: simple
     text: 道路標識等の種類、様式、設置場所その他道路標識等について必要な事項は、内閣府令・国土交通省令で定める。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-4-supplnote-1
+    type: supplnote
+    text: （罰則　第一項後段については第百十九条第一項第一号、第百二十一条第一項第一号及び第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

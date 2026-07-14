@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-11-13-p1-kou-1
     type: kou
-    text: 医療系研究成果展開事業のうち委託開発
+    text: 一　医療系研究成果展開事業のうち委託開発
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-11-13-p1-kou-2
     type: kou
-    text: 医療分野国際科学技術共同研究開発推進事業のうち共同研究のあつせん業務
+    text: 二　医療分野国際科学技術共同研究開発推進事業のうち共同研究のあつせん業務
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-11-13-p1-kou-3
     type: kou
-    text: 先駆的医薬品・医療機器研究発掘支援事業
+    text: 三　先駆的医薬品・医療機器研究発掘支援事業
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-11-13-p1-kou-4
     type: kou
-    text: 創薬総合支援事業
+    text: 四　創薬総合支援事業
     modality: unspecified
     item_number: 4
 cases: []

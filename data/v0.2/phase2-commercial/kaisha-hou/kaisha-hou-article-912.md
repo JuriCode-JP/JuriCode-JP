@@ -23,56 +23,56 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-912-p1-kou-1
     type: kou
-    text: 目的
+    text: 一　目的
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-912-p1-kou-2
     type: kou
-    text: 商号
+    text: 二　商号
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-912-p1-kou-3
     type: kou
-    text: 本店及び支店の所在場所
+    text: 三　本店及び支店の所在場所
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-912-p1-kou-4
     type: kou
-    text: 合名会社の存続期間又は解散の事由についての定款の定めがあるときは、その定め
+    text: 四　合名会社の存続期間又は解散の事由についての定款の定めがあるときは、その定め
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-912-p1-kou-5
     type: kou
-    text: 社員の氏名又は名称及び住所
+    text: 五　社員の氏名又は名称及び住所
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-912-p1-kou-6
     type: kou
-    text: 合名会社を代表する社員の氏名又は名称（合名会社を代表しない社員がある場合に限る。）
+    text: 六　合名会社を代表する社員の氏名又は名称（合名会社を代表しない社員がある場合に限る。）
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-912-p1-kou-7
     type: kou
-    text: 合名会社を代表する社員が法人であるときは、当該社員の職務を行うべき者の氏名及び住所
+    text: 七　合名会社を代表する社員が法人であるときは、当該社員の職務を行うべき者の氏名及び住所
     modality: unspecified
     item_number: 7
   - id: kaisha-hou-art-912-p1-kou-8
     type: kou
-    text: 第九百三十九条第一項の規定による公告方法についての定款の定めがあるときは、その定め
+    text: 八　第九百三十九条第一項の規定による公告方法についての定款の定めがあるときは、その定め
     modality: unspecified
     item_number: 8
   - id: kaisha-hou-art-912-p1-kou-9
     type: kou
-    text: '前号の定款の定めが電子公告を公告方法とする旨のものであるときは、次に掲げる事項
+    text: '九　前号の定款の定めが電子公告を公告方法とする旨のものであるときは、次に掲げる事項
 
-      イ 電子公告により公告すべき内容である情報について不特定多数の者がその提供を受けるために必要な事項であって法務省令で定めるもの
+      イ　電子公告により公告すべき内容である情報について不特定多数の者がその提供を受けるために必要な事項であって法務省令で定めるもの
 
-      ロ 第九百三十九条第三項後段の規定による定款の定めがあるときは、その定め'
+      ロ　第九百三十九条第三項後段の規定による定款の定めがあるときは、その定め'
     modality: unspecified
     item_number: 9
   - id: kaisha-hou-art-912-p1-kou-10
     type: kou
-    text: 第八号の定款の定めがないときは、第九百三十九条第四項の規定により官報に掲載する方法を公告方法とする旨
+    text: 十　第八号の定款の定めがないときは、第九百三十九条第四項の規定により官報に掲載する方法を公告方法とする旨
     modality: unspecified
     item_number: 10
 cases: []

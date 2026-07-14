@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-27-7-p1-kou-1
     type: kou
-    text: 前条第一号から第三号までに掲げる取引
+    text: 一　前条第一号から第三号までに掲げる取引
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-27-7-p1-kou-2
     type: kou
-    text: その他前号に掲げる取引に準ずるものとして内閣府令で定めるもの
+    text: 二　その他前号に掲げる取引に準ずるものとして内閣府令で定めるもの
     modality: unspecified
     item_number: 2
 cases: []

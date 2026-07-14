@@ -61,12 +61,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-4-11-p5-kou-1
     type: kou
-    text: 優先出資証券　千（当該優先出資証券が特定投資家向け有価証券である場合には、千に内閣府令で定めるところにより計算した特定投資家の数を加えた数）
+    text: 一　優先出資証券　千（当該優先出資証券が特定投資家向け有価証券である場合には、千に内閣府令で定めるところにより計算した特定投資家の数を加えた数）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-4-11-p5-kou-2
     type: kou
-    text: 第一条の三の四に規定する債権　五百
+    text: 二　第一条の三の四に規定する債権　五百
     modality: unspecified
     item_number: 2
 cases: []

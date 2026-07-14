@@ -21,6 +21,30 @@ paragraphs:
     type: simple
     text: 法第四百八十五条の十三第一項に規定するたばこ税に係る課税定額は、次の算式によつて算定するものとする。
     modality: gimu
+  - id: chihou-zei-hou-shikoukisoku-art-16-4-4-p1-list-1
+    type: list
+    text: 算式
+    modality: unspecified
+  - id: chihou-zei-hou-shikoukisoku-art-16-4-4-p1-list-2
+    type: list
+    text: Ａ×（（Ｃ×２）／Ｂ）
+    modality: unspecified
+  - id: chihou-zei-hou-shikoukisoku-art-16-4-4-p1-list-3
+    type: list
+    text: 算式の符号
+    modality: unspecified
+  - id: chihou-zei-hou-shikoukisoku-art-16-4-4-p1-list-4
+    type: list
+    text: Ａ　前々年度の全国の市町村たばこ税の額の合計額として総務大臣が定める額
+    modality: unspecified
+  - id: chihou-zei-hou-shikoukisoku-art-16-4-4-p1-list-5
+    type: list
+    text: Ｂ　全国のたばこ消費基礎人口の合計
+    modality: unspecified
+  - id: chihou-zei-hou-shikoukisoku-art-16-4-4-p1-list-6
+    type: list
+    text: Ｃ　当該市町村のたばこ消費基礎人口
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false

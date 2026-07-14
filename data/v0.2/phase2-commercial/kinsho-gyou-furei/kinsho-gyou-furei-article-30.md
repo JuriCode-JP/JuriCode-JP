@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-30-p1-kou-1
     type: kou
-    text: 前条第一号に掲げる有価証券　額面金額（その権利の帰属が社債、株式等の振替に関する法律の規定による振替口座簿の記載又は記録により定まるものとされるものにあっては、振替口座簿に記載又は記録された金額。以下この条において同じ。）
+    text: 一　前条第一号に掲げる有価証券　額面金額（その権利の帰属が社債、株式等の振替に関する法律の規定による振替口座簿の記載又は記録により定まるものとされるものにあっては、振替口座簿に記載又は記録された金額。以下この条において同じ。）
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-30-p1-kou-2
     type: kou
-    text: 前条第二号に掲げる有価証券　額面金額百円につき九十円として計算した額
+    text: 二　前条第二号に掲げる有価証券　額面金額百円につき九十円として計算した額
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-30-p1-kou-3
     type: kou
-    text: 前条第三号に掲げる有価証券　額面金額百円につき九十五円として計算した額
+    text: 三　前条第三号に掲げる有価証券　額面金額百円につき九十五円として計算した額
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-30-p1-kou-4
     type: kou
-    text: 前条第四号に掲げる有価証券　額面金額百円につき八十円として計算した額
+    text: 四　前条第四号に掲げる有価証券　額面金額百円につき八十円として計算した額
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,6 +52,10 @@ paragraphs:
     modality: unspecified
     references:
     - 前項
+  - id: kinsho-gyou-furei-art-30-p2-list-1
+    type: list
+    text: （（額面金額－発行価額）／発行の日から償還の日までの年数）×発行の日から供託の日までの年数
+    modality: unspecified
 - number: 3
   has_proviso: false
   has_items: false

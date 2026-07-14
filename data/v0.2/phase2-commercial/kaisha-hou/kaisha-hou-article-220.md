@@ -37,9 +37,9 @@ paragraphs:
     text: 株券発行会社が前項の規定による公告をした場合において、同項の期間内に利害関係人が異議を述べなかったときは、前条第二項各号に定める者は、前項の請求をした者に対し、同条第二項の金銭等を交付することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

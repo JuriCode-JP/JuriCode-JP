@@ -23,72 +23,72 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-239-2-p1-kou-1
     type: kou
-    text: 出資対象事業持分の名称
+    text: 一　出資対象事業持分の名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-239-2-p1-kou-2
     type: kou
-    text: 出資対象事業の内容
+    text: 二　出資対象事業の内容
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-239-2-p1-kou-3
     type: kou
-    text: 出資対象事業を行う営業所又は事務所の所在地
+    text: 三　出資対象事業を行う営業所又は事務所の所在地
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-239-2-p1-kou-4
     type: kou
-    text: 出資者及び当該出資者から出資又は拠出を受けた金銭その他の財産の運用を行う者（以下この項において「ファンド資産運用者」という。）の商号、名称又は氏名及び住所
+    text: 四　出資者及び当該出資者から出資又は拠出を受けた金銭その他の財産の運用を行う者（以下この項において「ファンド資産運用者」という。）の商号、名称又は氏名及び住所
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-239-2-p1-kou-5
     type: kou
-    text: 出資者が出資又は拠出をする金額（金銭以外の財産を出資又は拠出の目的とするときは、その内容及び価額）
+    text: 五　出資者が出資又は拠出をする金額（金銭以外の財産を出資又は拠出の目的とするときは、その内容及び価額）
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-239-2-p1-kou-6
     type: kou
-    text: 出資対象事業持分に係る契約期間がある場合においては、当該契約期間
+    text: 六　出資対象事業持分に係る契約期間がある場合においては、当該契約期間
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-239-2-p1-kou-7
     type: kou
-    text: 出資対象事業の事業年度
+    text: 七　出資対象事業の事業年度
     modality: unspecified
     item_number: 7
   - id: kinsho-gyou-furei-art-239-2-p1-kou-8
     type: kou
-    text: ファンド資産運用者が、出資対象事業の事業年度ごとに、当該事業年度の財務諸表等を作成し、公認会計士又は監査法人の監査を受けること。
+    text: 八　ファンド資産運用者が、出資対象事業の事業年度ごとに、当該事業年度の財務諸表等を作成し、公認会計士又は監査法人の監査を受けること。
     modality: unspecified
     item_number: 8
   - id: kinsho-gyou-furei-art-239-2-p1-kou-9
     type: kou
-    text: ファンド資産運用者が、出資対象事業に係る事業年度終了後相当の期間内に、出資者に対し、財務諸表等及び前号の監査に係る報告書の写しを提供すること。
+    text: 九　ファンド資産運用者が、出資対象事業に係る事業年度終了後相当の期間内に、出資者に対し、財務諸表等及び前号の監査に係る報告書の写しを提供すること。
     modality: unspecified
     item_number: 9
   - id: kinsho-gyou-furei-art-239-2-p1-kou-10
     type: kou
-    text: ファンド資産運用者が、出資対象事業に係る事業年度終了後相当の期間内に、出資者を招集して、出資者に対し出資対象事業の運営及び財産の運用状況を報告すること。
+    text: 十　ファンド資産運用者が、出資対象事業に係る事業年度終了後相当の期間内に、出資者を招集して、出資者に対し出資対象事業の運営及び財産の運用状況を報告すること。
     modality: unspecified
     item_number: 10
   - id: kinsho-gyou-furei-art-239-2-p1-kou-11
     type: kou
-    text: 出資者から出資又は拠出を受けた金銭その他の財産を充てて有価証券その他の資産に対する投資を行う場合において、ファンド資産運用者が出資者に対し、その投資の内容を書面により通知すること。
+    text: 十一　出資者から出資又は拠出を受けた金銭その他の財産を充てて有価証券その他の資産に対する投資を行う場合において、ファンド資産運用者が出資者に対し、その投資の内容を書面により通知すること。
     modality: unspecified
     item_number: 11
   - id: kinsho-gyou-furei-art-239-2-p1-kou-12
     type: kou
-    text: 正当な事由がある場合において、出資者の有する出資対象事業持分の過半数（これを上回る割合を定めた場合には、その割合以上）の同意を得て、ファンド資産運用者を解任することができること。
+    text: 十二　正当な事由がある場合において、出資者の有する出資対象事業持分の過半数（これを上回る割合を定めた場合には、その割合以上）の同意を得て、ファンド資産運用者を解任することができること。
     modality: unspecified
     item_number: 12
   - id: kinsho-gyou-furei-art-239-2-p1-kou-13
     type: kou
-    text: ファンド資産運用者が退任した場合において、全ての出資者の同意により、新たなファンド資産運用者を選任することができること。
+    text: 十三　ファンド資産運用者が退任した場合において、全ての出資者の同意により、新たなファンド資産運用者を選任することができること。
     modality: unspecified
     item_number: 13
   - id: kinsho-gyou-furei-art-239-2-p1-kou-14
     type: kou
-    text: 出資対象事業持分に係る契約の変更（軽微な変更を除く。）をする場合において、出資者の有する出資対象事業持分の過半数（これを上回る割合を定めた場合には、その割合以上）の同意を得なければならないこと。
+    text: 十四　出資対象事業持分に係る契約の変更（軽微な変更を除く。）をする場合において、出資者の有する出資対象事業持分の過半数（これを上回る割合を定めた場合には、その割合以上）の同意を得なければならないこと。
     modality: unspecified
     item_number: 14
 - number: 2
@@ -102,12 +102,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-239-2-p2-kou-1
     type: kou
-    text: 第二百三十八条第二号ホに掲げる事項（新たに同号に規定する業務を行う場合における変更に係るものに限る。）
+    text: 一　第二百三十八条第二号ホに掲げる事項（新たに同号に規定する業務を行う場合における変更に係るものに限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-239-2-p2-kou-2
     type: kou
-    text: 第二百三十八条第三号ホに掲げる事項（新たに同号に規定する業務を行う場合における変更に係るものに限る。）
+    text: 二　第二百三十八条第三号ホに掲げる事項（新たに同号に規定する業務を行う場合における変更に係るものに限る。）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -121,12 +121,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-239-2-p3-kou-1
     type: kou
-    text: 法第六十三条第二項又は第六十三条の三第一項の規定による届出　当該届出が行われた日
+    text: 一　法第六十三条第二項又は第六十三条の三第一項の規定による届出　当該届出が行われた日
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-239-2-p3-kou-2
     type: kou
-    text: 法第六十三条第八項（法第六十三条の三第二項において準用する場合を含む。）の規定による届出（前項各号に掲げる事項の変更に係るものに限る。）　当該変更があった日
+    text: 二　法第六十三条第八項（法第六十三条の三第二項において準用する場合を含む。）の規定による届出（前項各号に掲げる事項の変更に係るものに限る。）　当該変更があった日
     modality: unspecified
     item_number: 2
 - number: 4

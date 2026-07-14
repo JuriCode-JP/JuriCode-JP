@@ -31,8 +31,8 @@ paragraphs:
     text: 市町村は、前項に定める標準税率を超える税率で軽自動車税を課する場合には、同項各号の税率に、それぞれ一・五を乗じて得た率を超える税率で課することができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

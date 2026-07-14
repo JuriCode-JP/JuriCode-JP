@@ -34,22 +34,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-352-2-p2-kou-1
     type: kou
-    text: 割引の方法により発行されるもの
+    text: 一　割引の方法により発行されるもの
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-352-2-p2-kou-2
     type: kou
-    text: 分離元本公社債（公社債で元本に係る部分と利子に係る部分とに分離されてそれぞれ独立して取引されるもののうち、当該元本に係る部分であつた公社債をいう。）
+    text: 二　分離元本公社債（公社債で元本に係る部分と利子に係る部分とに分離されてそれぞれ独立して取引されるもののうち、当該元本に係る部分であつた公社債をいう。）
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-352-2-p2-kou-3
     type: kou
-    text: 分離利子公社債（公社債で元本に係る部分と利子に係る部分とに分離されてそれぞれ独立して取引されるもののうち、当該利子に係る部分であつた公社債をいう。）
+    text: 三　分離利子公社債（公社債で元本に係る部分と利子に係る部分とに分離されてそれぞれ独立して取引されるもののうち、当該利子に係る部分であつた公社債をいう。）
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-352-2-p2-kou-4
     type: kou
-    text: 利子が支払われる公社債で、その発行価額として財務省令で定める金額の額面金額に対する割合が財務省令で定める割合以下であるもの
+    text: 四　利子が支払われる公社債で、その発行価額として財務省令で定める金額の額面金額に対する割合が財務省令で定める割合以下であるもの
     modality: unspecified
     item_number: 4
 cases: []

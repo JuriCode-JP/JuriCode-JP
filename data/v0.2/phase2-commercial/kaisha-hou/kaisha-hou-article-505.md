@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-505-p1-kou-1
     type: kou
-    text: 金銭分配請求権を行使することができる期間
+    text: 一　金銭分配請求権を行使することができる期間
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-505-p1-kou-2
     type: kou
-    text: 一定の数未満の数の株式を有する株主に対して残余財産の割当てをしないこととするときは、その旨及びその数
+    text: 二　一定の数未満の数の株式を有する株主に対して残余財産の割当てをしないこととするときは、その旨及びその数
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項に規定する場合には、清算株式会社は、同項第一号の期間の末日の二十日前までに、株主に対し、同号に掲げる事項を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -54,12 +54,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-505-p3-kou-1
     type: kou
-    text: 当該残余財産が市場価格のある財産である場合　当該残余財産の市場価格として法務省令で定める方法により算定される額
+    text: 一　当該残余財産が市場価格のある財産である場合　当該残余財産の市場価格として法務省令で定める方法により算定される額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-505-p3-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　清算株式会社の申立てにより裁判所が定める額
+    text: 二　前号に掲げる場合以外の場合　清算株式会社の申立てにより裁判所が定める額
     modality: unspecified
     item_number: 2
 cases: []

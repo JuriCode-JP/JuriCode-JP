@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-shikoukisoku-art-220-2-p1-kou-1
     type: kou
-    text: 外部の容器又は外部の被包
+    text: 一　外部の容器又は外部の被包
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-220-2-p1-kou-2
     type: kou
-    text: 直接の容器又は直接の被包に固着したタツグ又はデイスプレイカード
+    text: 二　直接の容器又は直接の被包に固着したタツグ又はデイスプレイカード
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-220-2-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののいずれをも有しない小容器の見本品にあつては、これに添付する文書
+    text: 三　前二号に掲げるもののいずれをも有しない小容器の見本品にあつては、これに添付する文書
     modality: unspecified
     item_number: 3
 cases: []

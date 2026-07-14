@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-107-p1-kou-1
     type: kou
-    text: 前年において特別農業所得者であつた居住者
+    text: 一　前年において特別農業所得者であつた居住者
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-107-p1-kou-2
     type: kou
-    text: 第百十条（特別農業所得者の申請）の規定により、その年において特別農業所得者であると見込まれることについて税務署長の承認を受けた居住者
+    text: 二　第百十条（特別農業所得者の申請）の規定により、その年において特別農業所得者であると見込まれることについて税務署長の承認を受けた居住者
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 国税通則法第十一条（災害等による期限の延長）の規定による納付に関する期限の延長（以下この項において「期限延長」という。）により、前項に規定する居住者が同項の規定により第二期において納付すべき予定納税額の納期限がその年十二月三十一日後となる場合は、当該期限延長に係る予定納税額は、ないものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

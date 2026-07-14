@@ -40,8 +40,8 @@ paragraphs:
     text: 前項に定めるもののほか、同項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

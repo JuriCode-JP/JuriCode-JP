@@ -37,8 +37,8 @@ paragraphs:
     text: 道府県は、引取りを行う当該免税軽油使用者証に係る報告対象免税軽油の数量が少量であることその他の特別の事情があると認められる免税軽油使用者証の交付を受けた者については、前項の報告書の提出の期限について、当該道府県の条例で同項に規定する期限と異なる期限を定めることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-art-70-p2-kou-1
     type: kou
-    text: 変動所得の金額の計算上生じた損失の金額
+    text: 一　変動所得の金額の計算上生じた損失の金額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-70-p2-kou-2
     type: kou
-    text: 被災事業用資産の損失の金額
+    text: 二　被災事業用資産の損失の金額
     modality: unspecified
     item_number: 2
 - number: 3

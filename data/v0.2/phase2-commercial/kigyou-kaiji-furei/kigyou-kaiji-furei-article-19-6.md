@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-19-6-p1-kou-1
     type: kou
-    text: 当該親会社等状況報告書の提出に関して当該承認を受けようとする期間
+    text: 一　当該親会社等状況報告書の提出に関して当該承認を受けようとする期間
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-19-6-p1-kou-2
     type: kou
-    text: 当該親会社等状況報告書に係る事業年度終了の日
+    text: 二　当該親会社等状況報告書に係る事業年度終了の日
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-19-6-p1-kou-3
     type: kou
-    text: 当該親会社等状況報告書の提出に関して当該承認を必要とする理由となる当該外国親会社等の本国の法令又は慣行その他やむを得ない理由に関する事項
+    text: 三　当該親会社等状況報告書の提出に関して当該承認を必要とする理由となる当該外国親会社等の本国の法令又は慣行その他やむを得ない理由に関する事項
     modality: unspecified
     item_number: 3
   - id: kigyou-kaiji-furei-art-19-6-p1-kou-4
     type: kou
-    text: 前号に規定する理由が本国の法令又は慣行である場合以外の場合には、第四項の規定による承認を受けた場合及び同号に規定する理由について消滅又は変更があつた場合に直ちにその旨を多数の者が知り得る状態に置くための方法
+    text: 四　前号に規定する理由が本国の法令又は慣行である場合以外の場合には、第四項の規定による承認を受けた場合及び同号に規定する理由について消滅又は変更があつた場合に直ちにその旨を多数の者が知り得る状態に置くための方法
     modality: unspecified
     item_number: 4
 - number: 2
@@ -63,27 +63,27 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-19-6-p3-kou-1
     type: kou
-    text: 定款
+    text: 一　定款
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-19-6-p3-kou-2
     type: kou
-    text: 当該承認申請書に記載された当該外国親会社等の代表者が当該承認申請書の提出に関し正当な権限を有する者であることを証する書面
+    text: 二　当該承認申請書に記載された当該外国親会社等の代表者が当該承認申請書の提出に関し正当な権限を有する者であることを証する書面
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-19-6-p3-kou-3
     type: kou
-    text: 当該外国親会社等が、本邦内に住所を有する者に、当該承認申請書の提出に関する一切の行為につき当該外国親会社等を代理する権限を付与したことを証する書面
+    text: 三　当該外国親会社等が、本邦内に住所を有する者に、当該承認申請書の提出に関する一切の行為につき当該外国親会社等を代理する権限を付与したことを証する書面
     modality: unspecified
     item_number: 3
   - id: kigyou-kaiji-furei-art-19-6-p3-kou-4
     type: kou
-    text: 第一項第三号に規定する理由が本国の法令又は慣行である場合には、当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
+    text: 四　第一項第三号に規定する理由が本国の法令又は慣行である場合には、当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
     modality: unspecified
     item_number: 4
   - id: kigyou-kaiji-furei-art-19-6-p3-kou-5
     type: kou
-    text: 第一項第三号に規定する理由が本国の法令又は慣行である場合以外の場合には、当該理由を証する書面
+    text: 五　第一項第三号に規定する理由が本国の法令又は慣行である場合以外の場合には、当該理由を証する書面
     modality: unspecified
     item_number: 5
 - number: 4
@@ -110,12 +110,12 @@ paragraphs:
     - 前項
   - id: kigyou-kaiji-furei-art-19-6-p5-kou-1
     type: kou
-    text: 当該事業年度中に当該承認に係る申請の理由について消滅又は変更がなかつた旨
+    text: 一　当該事業年度中に当該承認に係る申請の理由について消滅又は変更がなかつた旨
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-19-6-p5-kou-2
     type: kou
-    text: 前号に掲げる事項に関する法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
+    text: 二　前号に掲げる事項に関する法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
     modality: unspecified
     item_number: 2
 - number: 6

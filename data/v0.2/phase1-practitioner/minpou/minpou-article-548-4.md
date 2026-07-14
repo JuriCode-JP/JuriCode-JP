@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-548-4-p1-kou-1
     type: kou
-    text: 定型約款の変更が、相手方の一般の利益に適合するとき。
+    text: 一　定型約款の変更が、相手方の一般の利益に適合するとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-548-4-p1-kou-2
     type: kou
-    text: 定型約款の変更が、契約をした目的に反せず、かつ、変更の必要性、変更後の内容の相当性、この条の規定により定型約款の変更をすることがある旨の定めの有無及びその内容その他の変更に係る事情に照らして合理的なものであるとき。
+    text: 二　定型約款の変更が、契約をした目的に反せず、かつ、変更の必要性、変更後の内容の相当性、この条の規定により定型約款の変更をすることがある旨の定めの有無及びその内容その他の変更に係る事情に照らして合理的なものであるとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -52,8 +52,8 @@ paragraphs:
     text: 第一項第二号の規定による定型約款の変更は、前項の効力発生時期が到来するまでに同項の規定による周知をしなければ、その効力を生じない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

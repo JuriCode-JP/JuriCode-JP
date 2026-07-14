@@ -38,6 +38,10 @@ paragraphs:
     references:
     - 前条
     - 前項
+  - id: douro-koutsuu-hou-art-35-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十条第一項第三号、同条第三項　第二項については第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

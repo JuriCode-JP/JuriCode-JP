@@ -34,12 +34,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-9-6-p2-kou-1
     type: kou
-    text: 外国金融商品市場を開設する者
+    text: 一　外国金融商品市場を開設する者
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-9-6-p2-kou-2
     type: kou
-    text: 外国金融商品市場に準ずるものとして外国に開設された店頭売買有価証券市場（法第六十七条第二項に規定する店頭売買有価証券市場をいう。第十四条の十四の二第一項第二号において同じ。）の性質を有する市場を開設する者
+    text: 二　外国金融商品市場に準ずるものとして外国に開設された店頭売買有価証券市場（法第六十七条第二項に規定する店頭売買有価証券市場をいう。第十四条の十四の二第一項第二号において同じ。）の性質を有する市場を開設する者
     modality: unspecified
     item_number: 2
 cases: []

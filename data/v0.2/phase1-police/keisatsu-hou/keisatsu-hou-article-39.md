@@ -36,12 +36,12 @@ paragraphs:
     modality: kanou_negative
   - id: keisatsu-hou-art-39-p2-kou-1
     type: kou
-    text: 破産者で復権を得ない者
+    text: 一　破産者で復権を得ない者
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-39-p2-kou-2
     type: kou
-    text: 拘禁刑以上の刑に処せられた者
+    text: 二　拘禁刑以上の刑に処せられた者
     modality: unspecified
     item_number: 2
 - number: 3

@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: kinsho-hou-shikkourei-art-3-3-p1-kou-1
     type: kou
-    text: 新優先出資引受権証券
+    text: 一　新優先出資引受権証券
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-3-3-p1-kou-2
     type: kou
-    text: 法第二条第一項第十五号に掲げる有価証券（同項第十七号に掲げる有価証券で同項第十五号に掲げる有価証券の性質を有するものを含む。）
+    text: 二　法第二条第一項第十五号に掲げる有価証券（同項第十七号に掲げる有価証券で同項第十五号に掲げる有価証券の性質を有するものを含む。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-3-3-p1-kou-3
     type: kou
-    text: 資産流動化法に規定する特定短期社債、社債、株式等の振替に関する法律に規定する短期社債、保険業法に規定する短期社債又は投資信託及び投資法人に関する法律に規定する短期投資法人債（法第二条第一項第十七号に掲げる有価証券でこれらに準ずるものとして内閣府令で定めるものを含む。）
+    text: 三　資産流動化法に規定する特定短期社債、社債、株式等の振替に関する法律に規定する短期社債、保険業法に規定する短期社債又は投資信託及び投資法人に関する法律に規定する短期投資法人債（法第二条第一項第十七号に掲げる有価証券でこれらに準ずるものとして内閣府令で定めるものを含む。）
     modality: unspecified
     item_number: 3
 cases: []

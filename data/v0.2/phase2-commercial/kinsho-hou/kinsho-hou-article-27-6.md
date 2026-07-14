@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_negative
   - id: kinsho-hou-art-27-6-p1-kou-1
     type: kou
-    text: 買付け等の価格の引下げ（公開買付開始公告及び公開買付届出書において公開買付期間中に対象者（第二十七条の十第一項に規定する対象者をいう。）が株式の分割その他の政令で定める行為を行つたときは内閣府令で定める基準に従い買付け等の価格の引下げを行うことがある旨の条件を付した場合に行うものを除く。）
+    text: 一　買付け等の価格の引下げ（公開買付開始公告及び公開買付届出書において公開買付期間中に対象者（第二十七条の十第一項に規定する対象者をいう。）が株式の分割その他の政令で定める行為を行つたときは内閣府令で定める基準に従い買付け等の価格の引下げを行うことがある旨の条件を付した場合に行うものを除く。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-27-6-p1-kou-2
     type: kou
-    text: 買付予定の株券等の数の減少
+    text: 二　買付予定の株券等の数の減少
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-27-6-p1-kou-3
     type: kou
-    text: 買付け等の期間の短縮
+    text: 三　買付け等の期間の短縮
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-27-6-p1-kou-4
     type: kou
-    text: その他政令で定める買付条件等の変更
+    text: 四　その他政令で定める買付条件等の変更
     modality: unspecified
     item_number: 4
 - number: 2
@@ -67,8 +67,8 @@ paragraphs:
     text: 前項の規定による公告を公開買付期間の末日までに行うことが困難である場合には、公開買付者は、当該末日までに同項に規定する内容及び事項を内閣府令で定めるところにより公表し、その後直ちに同項の規定の例により公告を行わなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -35,8 +35,8 @@ paragraphs:
     text: 行政庁は、前項ただし書の場合においては、当該名あて人の所在が判明しなくなったときその他処分後において理由を示すことが困難な事情があるときを除き、処分後相当の期間内に、同項の理由を示さなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

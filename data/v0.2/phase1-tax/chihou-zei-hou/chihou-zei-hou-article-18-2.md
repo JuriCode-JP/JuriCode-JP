@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-18-2-p1-kou-1
     type: kou
-    text: 納付又は納入に関する告知　その告知に指定された納付又は納入に関する期限までの期間
+    text: 一　納付又は納入に関する告知　その告知に指定された納付又は納入に関する期限までの期間
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-18-2-p1-kou-2
     type: kou
-    text: 督促　督促状又は督促のための納付若しくは納入の催告書を発した日から起算して十日を経過した日（同日前に第十三条の二第一項各号の一に該当する事実が生じた場合において、差押えがされた場合には、そのされた日）までの期間
+    text: 二　督促　督促状又は督促のための納付若しくは納入の催告書を発した日から起算して十日を経過した日（同日前に第十三条の二第一項各号の一に該当する事実が生じた場合において、差押えがされた場合には、そのされた日）までの期間
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-18-2-p1-kou-3
     type: kou
-    text: 交付要求　その交付要求がされている期間（この法律においてその例によるものとされる国税徴収法第八十二条第二項の規定による通知がされていない期間があるときは、その期間を除く。）
+    text: 三　交付要求　その交付要求がされている期間（この法律においてその例によるものとされる国税徴収法第八十二条第二項の規定による通知がされていない期間があるときは、その期間を除く。）
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項第三号に掲げる交付要求に係る強制換価手続が取り消された場合においても、同項の規定による時効の完成猶予及び更新は、その効力を妨げられない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: true
@@ -61,12 +61,12 @@ paragraphs:
     - 前条
   - id: chihou-zei-hou-art-18-2-p3-kou-1
     type: kou
-    text: 納付又は納入に関する告知（延滞金及び加算金に係るものを除く。）　当該告知に係る文書が発せられた日
+    text: 一　納付又は納入に関する告知（延滞金及び加算金に係るものを除く。）　当該告知に係る文書が発せられた日
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-18-2-p3-kou-2
     type: kou
-    text: 申告納付又は申告納入に係る地方税の申告書の提出　当該申告書が提出された日
+    text: 二　申告納付又は申告納入に係る地方税の申告書の提出　当該申告書が提出された日
     modality: unspecified
     item_number: 2
 - number: 4

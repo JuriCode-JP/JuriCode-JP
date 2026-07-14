@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-18-5-p1-kou-1
     type: kou
-    text: 適格機関投資家
+    text: 一　適格機関投資家
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-18-5-p1-kou-2
     type: kou
-    text: 国若しくは地方公共団体又は特別の法律により特別の設立行為をもつて設立された法人（前号に掲げる者を除く。）
+    text: 二　国若しくは地方公共団体又は特別の法律により特別の設立行為をもつて設立された法人（前号に掲げる者を除く。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-18-5-p1-kou-3
     type: kou
-    text: 投資者保護基金（法第七十九条の二十一に規定する投資者保護基金をいう。第八章を除き、以下「基金」という。）
+    text: 三　投資者保護基金（法第七十九条の二十一に規定する投資者保護基金をいう。第八章を除き、以下「基金」という。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-18-5-p1-kou-4
     type: kou
-    text: 外国政府その他外国の法令上前三号に掲げる者に相当する者
+    text: 四　外国政府その他外国の法令上前三号に掲げる者に相当する者
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-18-5-p1-kou-5
     type: kou
-    text: 前各号に掲げる者のほか、金融庁長官及び財務大臣が指定する者
+    text: 五　前各号に掲げる者のほか、金融庁長官及び財務大臣が指定する者
     modality: unspecified
     item_number: 5
 cases: []

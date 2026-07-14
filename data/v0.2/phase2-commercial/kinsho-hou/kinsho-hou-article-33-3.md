@@ -25,56 +25,56 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-33-3-p1-kou-1
     type: kou
-    text: 商号又は名称
+    text: 一　商号又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-33-3-p1-kou-2
     type: kou
-    text: 資本金の額、基金の総額又は出資の総額
+    text: 二　資本金の額、基金の総額又は出資の総額
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-33-3-p1-kou-3
     type: kou
-    text: 役員の氏名又は名称
+    text: 三　役員の氏名又は名称
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-33-3-p1-kou-4
     type: kou
-    text: 会計参与設置会社にあつては、会計参与の氏名又は名称
+    text: 四　会計参与設置会社にあつては、会計参与の氏名又は名称
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-33-3-p1-kou-5
     type: kou
-    text: 第三条各号に掲げる有価証券又は金融商品取引所に上場されていない有価証券（第二十九条の二第一項第六号に規定する政令で定めるものを除く。）について、電子募集業務又は電子募集取扱業務を行う場合にあつては、その旨
+    text: 五　第三条各号に掲げる有価証券又は金融商品取引所に上場されていない有価証券（第二十九条の二第一項第六号に規定する政令で定めるものを除く。）について、電子募集業務又は電子募集取扱業務を行う場合にあつては、その旨
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-33-3-p1-kou-6
     type: kou
-    text: '高速取引行為に関する次に掲げる事項
+    text: '六　高速取引行為に関する次に掲げる事項
 
-      イ 登録金融機関業務（前条の登録に係る業務をいう。以下同じ。）として高速取引行為を行う場合にあつては、その旨
+      イ　登録金融機関業務（前条の登録に係る業務をいう。以下同じ。）として高速取引行為を行う場合にあつては、その旨
 
-      ロ イに規定する場合のほか、高速取引行為を行う場合にあつては、その旨'
+      ロ　イに規定する場合のほか、高速取引行為を行う場合にあつては、その旨'
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-33-3-p1-kou-7
     type: kou
-    text: 貸付事業等権利についての第二条第八項第七号から第九号までに掲げる行為を業として行う場合にあつては、その旨
+    text: 七　貸付事業等権利についての第二条第八項第七号から第九号までに掲げる行為を業として行う場合にあつては、その旨
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-33-3-p1-kou-8
     type: kou
-    text: 本店その他の営業所又は事務所の名称及び所在地
+    text: 八　本店その他の営業所又は事務所の名称及び所在地
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-art-33-3-p1-kou-9
     type: kou
-    text: 他に事業を行つているときは、その事業の種類
+    text: 九　他に事業を行つているときは、その事業の種類
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-art-33-3-p1-kou-10
     type: kou
-    text: その他内閣府令で定める事項
+    text: 十　その他内閣府令で定める事項
     modality: unspecified
     item_number: 10
 - number: 2
@@ -90,22 +90,22 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-33-3-p2-kou-1
     type: kou
-    text: 第三十三条の五第一項第一号及び第二号に該当しないことを誓約する書面
+    text: 一　第三十三条の五第一項第一号及び第二号に該当しないことを誓約する書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-33-3-p2-kou-2
     type: kou
-    text: 損失の危険の管理方法、業務分掌の方法その他の業務の内容及び方法として内閣府令で定めるものを記載した書類
+    text: 二　損失の危険の管理方法、業務分掌の方法その他の業務の内容及び方法として内閣府令で定めるものを記載した書類
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-33-3-p2-kou-3
     type: kou
-    text: 親法人等、子法人等その他の関係会社の状況として内閣府令で定めるものを記載した書類
+    text: 三　親法人等、子法人等その他の関係会社の状況として内閣府令で定めるものを記載した書類
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-33-3-p2-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、定款、登記事項証明書、貸借対照表、損益計算書その他内閣府令で定める書類
+    text: 四　前三号に掲げるもののほか、定款、登記事項証明書、貸借対照表、損益計算書その他内閣府令で定める書類
     modality: unspecified
     item_number: 4
 - number: 3

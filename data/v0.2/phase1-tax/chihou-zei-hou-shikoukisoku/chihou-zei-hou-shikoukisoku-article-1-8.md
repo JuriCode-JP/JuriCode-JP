@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-1-8-p1-kou-1
     type: kou
-    text: 地方団体の使用に係る電子計算機に備えられたファイルに記録された公示事項を当該公示事項の閲覧をする者の使用に係る電子計算機の映像面に表示するもの
+    text: 一　地方団体の使用に係る電子計算機に備えられたファイルに記録された公示事項を当該公示事項の閲覧をする者の使用に係る電子計算機の映像面に表示するもの
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-1-8-p1-kou-2
     type: kou
-    text: インターネットに接続された自動公衆送信装置（著作権法（昭和四十五年法律第四十八号）第二条第一項第九号の五イに規定する自動公衆送信装置をいう。第三十一条の十において同じ。）を使用するもの
+    text: 二　インターネットに接続された自動公衆送信装置（著作権法（昭和四十五年法律第四十八号）第二条第一項第九号の五イに規定する自動公衆送信装置をいう。第三十一条の十において同じ。）を使用するもの
     modality: unspecified
     item_number: 2
 - number: 2

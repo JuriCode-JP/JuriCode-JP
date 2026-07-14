@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-shikkourei-art-43-9-p1-kou-1
     type: kou
-    text: 第二十三条の規定による安定操作届出書の受理
+    text: 一　第二十三条の規定による安定操作届出書の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-43-9-p1-kou-2
     type: kou
-    text: 第二十五条の規定による安定操作報告書の受理
+    text: 二　第二十五条の規定による安定操作報告書の受理
     modality: unspecified
     item_number: 2
 cases: []

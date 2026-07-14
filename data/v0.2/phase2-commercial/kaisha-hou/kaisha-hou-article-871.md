@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-871-p1-kou-1
     type: kou
-    text: 第八百七十条第一項第一号に掲げる裁判
+    text: 一　第八百七十条第一項第一号に掲げる裁判
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-871-p1-kou-2
     type: kou
-    text: 第八百七十四条各号に掲げる裁判
+    text: 二　第八百七十四条各号に掲げる裁判
     modality: unspecified
     item_number: 2
 cases: []

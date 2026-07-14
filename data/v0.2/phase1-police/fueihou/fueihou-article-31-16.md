@@ -37,17 +37,17 @@ paragraphs:
     - 前項
   - id: fueihou-art-31-16-p2-kou-1
     type: kou
-    text: 当該施設を当該店舗型電話異性紹介営業の用以外の用に供しようとするとき。
+    text: 一　当該施設を当該店舗型電話異性紹介営業の用以外の用に供しようとするとき。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-31-16-p2-kou-2
     type: kou
-    text: 当該施設を取り壊そうとするとき。
+    text: 二　当該施設を取り壊そうとするとき。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-31-16-p2-kou-3
     type: kou
-    text: 当該施設を増築し、又は改築しようとする場合であつて、やむを得ないと認められる理由があるとき。
+    text: 三　当該施設を増築し、又は改築しようとする場合であつて、やむを得ないと認められる理由があるとき。
     modality: unspecified
     item_number: 3
 - number: 3

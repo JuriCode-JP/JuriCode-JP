@@ -36,8 +36,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -69,38 +69,38 @@ paragraphs:
     modality: jogai
   - id: houjin-zei-hou-art-66-p5-kou-1
     type: kou
-    text: 保険業法に規定する相互会社（次号ロにおいて「相互会社」という。）
+    text: 一　保険業法に規定する相互会社（次号ロにおいて「相互会社」という。）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-66-p5-kou-2
     type: kou
-    text: '大法人（次に掲げる法人をいう。以下この号及び次号において同じ。）との間に当該大法人による完全支配関係がある普通法人
+    text: '二　大法人（次に掲げる法人をいう。以下この号及び次号において同じ。）との間に当該大法人による完全支配関係がある普通法人
 
-      イ 資本金の額又は出資金の額が五億円以上である法人
+      イ　資本金の額又は出資金の額が五億円以上である法人
 
-      ロ 相互会社（これに準ずるものとして政令で定めるものを含む。）
+      ロ　相互会社（これに準ずるものとして政令で定めるものを含む。）
 
-      ハ 第四条の三（受託法人等に関するこの法律の適用）に規定する受託法人（第六号において「受託法人」という。）'
+      ハ　第四条の三（受託法人等に関するこの法律の適用）に規定する受託法人（第六号において「受託法人」という。）'
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-66-p5-kou-3
     type: kou
-    text: 普通法人との間に完全支配関係がある全ての大法人が有する株式及び出資の全部を当該全ての大法人のうちいずれか一の法人が有するものとみなした場合において当該いずれか一の法人と当該普通法人との間に当該いずれか一の法人による完全支配関係があることとなるときの当該普通法人（前号に掲げる法人を除く。）
+    text: 三　普通法人との間に完全支配関係がある全ての大法人が有する株式及び出資の全部を当該全ての大法人のうちいずれか一の法人が有するものとみなした場合において当該いずれか一の法人と当該普通法人との間に当該いずれか一の法人による完全支配関係があることとなるときの当該普通法人（前号に掲げる法人を除く。）
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-66-p5-kou-4
     type: kou
-    text: 投資法人
+    text: 四　投資法人
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-art-66-p5-kou-5
     type: kou
-    text: 特定目的会社
+    text: 五　特定目的会社
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-art-66-p5-kou-6
     type: kou
-    text: 受託法人
+    text: 六　受託法人
     modality: unspecified
     item_number: 6
 - number: 6
@@ -119,12 +119,12 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-art-66-p6-kou-1
     type: kou
-    text: 当該各事業年度終了の時における資本金の額又は出資金の額が一億円を超える法人
+    text: 一　当該各事業年度終了の時における資本金の額又は出資金の額が一億円を超える法人
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-66-p6-kou-2
     type: kou
-    text: 当該各事業年度終了の時において前項第一号から第三号まで又は第六号に掲げる法人に該当する法人
+    text: 二　当該各事業年度終了の時において前項第一号から第三号まで又は第六号に掲げる法人に該当する法人
     modality: unspecified
     item_number: 2
 - number: 7
@@ -137,16 +137,16 @@ paragraphs:
     text: 前項に規定する軽減対象所得金額とは、八百万円に第一号に掲げる金額が第二号に掲げる金額のうちに占める割合を乗じて計算した金額（同項の中小通算法人が通算子法人である場合において、同項の各事業年度終了の日が当該中小通算法人に係る通算親法人の事業年度終了の日でないときは、八百万円を十二で除し、これに当該中小通算法人の事業年度の月数を乗じて計算した金額）をいう。
     modality: teigi
     references:
-    - 同項
     - 前項
+    - 同項
   - id: houjin-zei-hou-art-66-p7-kou-1
     type: kou
-    text: 当該中小通算法人の当該各事業年度の所得の金額
+    text: 一　当該中小通算法人の当該各事業年度の所得の金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-66-p7-kou-2
     type: kou
-    text: 当該中小通算法人の当該各事業年度及び当該各事業年度終了の日において当該中小通算法人との間に通算完全支配関係がある他の中小通算法人の同日に終了する事業年度の所得の金額の合計額
+    text: 二　当該中小通算法人の当該各事業年度及び当該各事業年度終了の日において当該中小通算法人との間に通算完全支配関係がある他の中小通算法人の同日に終了する事業年度の所得の金額の合計額
     modality: unspecified
     item_number: 2
 - number: 8
@@ -159,9 +159,9 @@ paragraphs:
     text: 前二項の規定を適用する場合において、前項各号の所得の金額が同項の中小通算法人の同項第一号の各事業年度又は同項第二号の他の中小通算法人の同号に規定する日に終了する事業年度（以下この条において「通算事業年度」という。）の第七十四条第一項（確定申告）の規定による申告書に当該通算事業年度の所得の金額として記載された金額（以下この項及び第十項において「当初申告所得金額」という。）と異なるときは、当初申告所得金額を当該各号の所得の金額とみなす。
     modality: unspecified
     references:
-    - 同項
     - 前二項
     - 前項
+    - 同項
 - number: 9
   has_proviso: false
   has_items: true
@@ -172,21 +172,21 @@ paragraphs:
     text: 通算事業年度のいずれかについて修正申告書の提出又は更正がされる場合において、次に掲げる場合のいずれかに該当するときは、第七項の中小通算法人の同項第一号の各事業年度については、前項の規定は、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
   - id: houjin-zei-hou-art-66-p9-kou-1
     type: kou
-    text: 前項の規定を適用しないものとした場合における第七項第二号に掲げる金額が八百万円以下である場合
+    text: 一　前項の規定を適用しないものとした場合における第七項第二号に掲げる金額が八百万円以下である場合
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-66-p9-kou-2
     type: kou
-    text: 第六十四条の五第六項（損益通算）の規定の適用がある場合
+    text: 二　第六十四条の五第六項（損益通算）の規定の適用がある場合
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-66-p9-kou-3
     type: kou
-    text: 第六十四条の五第八項の規定の適用がある場合
+    text: 三　第六十四条の五第八項の規定の適用がある場合
     modality: unspecified
     item_number: 3
 - number: 10

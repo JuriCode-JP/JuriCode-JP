@@ -43,12 +43,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-816-3-p3-kou-1
     type: kou
-    text: 株式交付子会社の株式の譲渡人に対して交付する金銭等が株式交付親会社の株式であるとき　第七百七十四条の三第一項第三号の種類の株式
+    text: 一　株式交付子会社の株式の譲渡人に対して交付する金銭等が株式交付親会社の株式であるとき　第七百七十四条の三第一項第三号の種類の株式
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-816-3-p3-kou-2
     type: kou
-    text: 株式交付子会社の新株予約権等の譲渡人に対して交付する金銭等が株式交付親会社の株式であるとき　第七百七十四条の三第一項第八号イの種類の株式
+    text: 二　株式交付子会社の新株予約権等の譲渡人に対して交付する金銭等が株式交付親会社の株式であるとき　第七百七十四条の三第一項第八号イの種類の株式
     modality: unspecified
     item_number: 2
 cases: []

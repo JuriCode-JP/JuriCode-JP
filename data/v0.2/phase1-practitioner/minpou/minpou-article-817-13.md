@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の協議が調わないとき、又は協議をすることができないときは、家庭裁判所が、父又は母の請求により、同項の事項を定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

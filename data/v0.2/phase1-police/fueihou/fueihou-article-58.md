@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_kei
   - id: fueihou-art-58-p1-kou-1
     type: kou
-    text: 第七条第六項（第三十一条の二十三において準用する場合を含む。）の規定に違反した者
+    text: 一　第七条第六項（第三十一条の二十三において準用する場合を含む。）の規定に違反した者
     modality: unspecified
     item_number: 1
   - id: fueihou-art-58-p1-kou-2
     type: kou
-    text: 第十条第三項（第三十一条の二十三において準用する場合を含む。）の規定に違反した者
+    text: 二　第十条第三項（第三十一条の二十三において準用する場合を含む。）の規定に違反した者
     modality: unspecified
     item_number: 2
   - id: fueihou-art-58-p1-kou-3
     type: kou
-    text: 第十条の二第九項（第三十一条の二十三において準用する場合を含む。）の規定に違反した者
+    text: 三　第十条の二第九項（第三十一条の二十三において準用する場合を含む。）の規定に違反した者
     modality: unspecified
     item_number: 3
 cases: []

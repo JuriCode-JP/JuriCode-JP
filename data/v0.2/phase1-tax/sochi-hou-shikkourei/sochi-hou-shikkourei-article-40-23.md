@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-40-23-p1-kou-1
     type: kou
-    text: 当該建築物の敷地の面積が三千平方メートル以上であること。
+    text: 一　当該建築物の敷地の面積が三千平方メートル以上であること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-23-p1-kou-2
     type: kou
-    text: 当該建築物の敷地のうち法第七十一条の十四第一項第一号に規定する公開空地の面積の当該敷地の面積に対する割合が百分の三十以上であること。
+    text: 二　当該建築物の敷地のうち法第七十一条の十四第一項第一号に規定する公開空地の面積の当該敷地の面積に対する割合が百分の三十以上であること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,22 +44,22 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-23-p2-kou-1
     type: kou
-    text: 利用形態
+    text: 一　利用形態
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-23-p2-kou-2
     type: kou
-    text: 面積及び形状
+    text: 二　面積及び形状
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-23-p2-kou-3
     type: kou
-    text: 道路との位置関係及び高低差
+    text: 三　道路との位置関係及び高低差
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-23-p2-kou-4
     type: kou
-    text: その他使用の公開性を確保するために必要な事項
+    text: 四　その他使用の公開性を確保するために必要な事項
     modality: unspecified
     item_number: 4
 - number: 3
@@ -75,12 +75,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-23-p3-kou-1
     type: kou
-    text: 当該公開空地のうち当該土地等に係る部分の面積
+    text: 一　当該公開空地のうち当該土地等に係る部分の面積
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-23-p3-kou-2
     type: kou
-    text: 法第七十一条の十四第一項第一号に規定する建築物の床面積のうち当該土地等に係る部分の面積
+    text: 二　法第七十一条の十四第一項第一号に規定する建築物の床面積のうち当該土地等に係る部分の面積
     modality: unspecified
     item_number: 2
 - number: 4
@@ -94,12 +94,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-40-23-p4-kou-1
     type: kou
-    text: 当該建築物の敷地の面積が三千平方メートル以上であること又は当該特定街区の区域の面積を当該特定街区の区域内に建築された建築物の敷地の数で除して計算した面積が三千平方メートル以上であること。
+    text: 一　当該建築物の敷地の面積が三千平方メートル以上であること又は当該特定街区の区域の面積を当該特定街区の区域内に建築された建築物の敷地の数で除して計算した面積が三千平方メートル以上であること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-23-p4-kou-2
     type: kou
-    text: 当該建築物に係る特定街区の区域のうち法第七十一条の十四第一項第二号に規定する有効空地の面積の当該特定街区の区域の面積に対する割合が百分の三十以上であること。
+    text: 二　当該建築物に係る特定街区の区域のうち法第七十一条の十四第一項第二号に規定する有効空地の面積の当該特定街区の区域の面積に対する割合が百分の三十以上であること。
     modality: unspecified
     item_number: 2
 - number: 5
@@ -113,22 +113,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-40-23-p5-kou-1
     type: kou
-    text: 利用形態
+    text: 一　利用形態
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-23-p5-kou-2
     type: kou
-    text: 面積及び形状
+    text: 二　面積及び形状
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-23-p5-kou-3
     type: kou
-    text: 道路との位置関係及び高低差
+    text: 三　道路との位置関係及び高低差
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-23-p5-kou-4
     type: kou
-    text: その他使用の公開性を確保するために必要な事項
+    text: 四　その他使用の公開性を確保するために必要な事項
     modality: unspecified
     item_number: 4
 - number: 6
@@ -144,12 +144,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-23-p6-kou-1
     type: kou
-    text: 当該有効空地のうち当該土地等に係る部分の面積
+    text: 一　当該有効空地のうち当該土地等に係る部分の面積
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-23-p6-kou-2
     type: kou
-    text: 法第七十一条の十四第一項第二号に規定する建築物の床面積のうち当該土地等に係る部分の面積
+    text: 二　法第七十一条の十四第一項第二号に規定する建築物の床面積のうち当該土地等に係る部分の面積
     modality: unspecified
     item_number: 2
 - number: 7

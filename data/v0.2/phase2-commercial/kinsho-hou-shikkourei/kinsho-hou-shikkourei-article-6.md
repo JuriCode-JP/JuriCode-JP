@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-6-p1-kou-1
     type: kou
-    text: 株券、新株予約権証券及び新株予約権付社債券
+    text: 一　株券、新株予約権証券及び新株予約権付社債券
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-6-p1-kou-2
     type: kou
-    text: 外国の者の発行する証券又は証書で前号に掲げる有価証券の性質を有するもの
+    text: 二　外国の者の発行する証券又は証書で前号に掲げる有価証券の性質を有するもの
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-6-p1-kou-3
     type: kou
-    text: 投資証券等及び新投資口予約権証券等
+    text: 三　投資証券等及び新投資口予約権証券等
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-6-p1-kou-4
     type: kou
-    text: 有価証券信託受益証券で、受託有価証券が前三号に掲げる有価証券であるもの
+    text: 四　有価証券信託受益証券で、受託有価証券が前三号に掲げる有価証券であるもの
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-6-p1-kou-5
     type: kou
-    text: 法第二条第一項第二十号に掲げる有価証券で、第一号から第三号までに掲げる有価証券に係る権利を表示するもの
+    text: 五　法第二条第一項第二十号に掲げる有価証券で、第一号から第三号までに掲げる有価証券に係る権利を表示するもの
     modality: unspecified
     item_number: 5
 - number: 2
@@ -66,17 +66,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-6-p3-kou-1
     type: kou
-    text: 株券等の売買の一方の予約（当該売買を完結する権利を有し、かつ、当該権利の行使により買主としての地位を取得する場合に限る。）
+    text: 一　株券等の売買の一方の予約（当該売買を完結する権利を有し、かつ、当該権利の行使により買主としての地位を取得する場合に限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-6-p3-kou-2
     type: kou
-    text: 株券等の売買に係るオプション（法第二条第一項第十九号に規定するオプションをいう。以下同じ。）の取得（当該オプションの行使により当該行使をした者が当該売買において買主としての地位を取得するものに限る。）
+    text: 二　株券等の売買に係るオプション（法第二条第一項第十九号に規定するオプションをいう。以下同じ。）の取得（当該オプションの行使により当該行使をした者が当該売買において買主としての地位を取得するものに限る。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-6-p3-kou-3
     type: kou
-    text: その他内閣府令で定めるもの
+    text: 三　その他内閣府令で定めるもの
     modality: unspecified
     item_number: 3
 cases: []

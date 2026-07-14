@@ -25,37 +25,37 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-66-51-p1-kou-1
     type: kou
-    text: 商号、名称又は氏名
+    text: 一　商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-51-p1-kou-2
     type: kou
-    text: 法人であるときは、資本金の額又は出資の総額
+    text: 二　法人であるときは、資本金の額又は出資の総額
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-51-p1-kou-3
     type: kou
-    text: 法人であるときは、役員の氏名又は名称
+    text: 三　法人であるときは、役員の氏名又は名称
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-51-p1-kou-4
     type: kou
-    text: 主たる営業所又は事務所の名称及び所在地
+    text: 四　主たる営業所又は事務所の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-66-51-p1-kou-5
     type: kou
-    text: 高速取引行為に係る業務を行う営業所又は事務所の名称及び所在地
+    text: 五　高速取引行為に係る業務を行う営業所又は事務所の名称及び所在地
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-66-51-p1-kou-6
     type: kou
-    text: 他に事業を行つているときは、その事業の種類
+    text: 六　他に事業を行つているときは、その事業の種類
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-66-51-p1-kou-7
     type: kou
-    text: その他内閣府令で定める事項
+    text: 七　その他内閣府令で定める事項
     modality: unspecified
     item_number: 7
 - number: 2
@@ -71,22 +71,22 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-66-51-p2-kou-1
     type: kou
-    text: 第六十六条の五十三各号（第二号から第四号まで、第五号ニ及び第六号ハを除く。）のいずれにも該当しないことを誓約する書面
+    text: 一　第六十六条の五十三各号（第二号から第四号まで、第五号ニ及び第六号ハを除く。）のいずれにも該当しないことを誓約する書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-51-p2-kou-2
     type: kou
-    text: 高速取引行為に係る業務の内容及び方法として内閣府令で定めるものを記載した書類
+    text: 二　高速取引行為に係る業務の内容及び方法として内閣府令で定めるものを記載した書類
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-51-p2-kou-3
     type: kou
-    text: 法人である場合においては、定款及び法人の登記事項証明書（これらに準ずるものを含む。）
+    text: 三　法人である場合においては、定款及び法人の登記事項証明書（これらに準ずるものを含む。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-51-p2-kou-4
     type: kou
-    text: その他内閣府令で定める書類
+    text: 四　その他内閣府令で定める書類
     modality: unspecified
     item_number: 4
 - number: 3

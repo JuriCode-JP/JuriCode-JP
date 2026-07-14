@@ -23,12 +23,12 @@ paragraphs:
     modality: koka_torikeshi
   - id: minpou-art-95-p1-kou-1
     type: kou
-    text: 意思表示に対応する意思を欠く錯誤
+    text: 一　意思表示に対応する意思を欠く錯誤
     modality: unspecified
     item_number: 1
   - id: minpou-art-95-p1-kou-2
     type: kou
-    text: 表意者が法律行為の基礎とした事情についてのその認識が真実に反する錯誤
+    text: 二　表意者が法律行為の基礎とした事情についてのその認識が真実に反する錯誤
     modality: unspecified
     item_number: 2
 - number: 2
@@ -53,12 +53,12 @@ paragraphs:
     modality: kanou_negative
   - id: minpou-art-95-p3-kou-1
     type: kou
-    text: 相手方が表意者に錯誤があることを知り、又は重大な過失によって知らなかったとき。
+    text: 一　相手方が表意者に錯誤があることを知り、又は重大な過失によって知らなかったとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-95-p3-kou-2
     type: kou
-    text: 相手方が表意者と同一の錯誤に陥っていたとき。
+    text: 二　相手方が表意者と同一の錯誤に陥っていたとき。
     modality: unspecified
     item_number: 2
 - number: 4

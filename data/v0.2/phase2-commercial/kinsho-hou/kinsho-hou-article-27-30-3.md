@@ -40,8 +40,8 @@ paragraphs:
     text: 前二項の規定により行われた電子開示手続又は任意電子開示手続は、前条の電子計算機に備えられたファイル（以下この章において単に「ファイル」という。）への記録がされた時に内閣府に到達したものとみなす。
     modality: unspecified
     references:
-    - 前条
     - 前二項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-art-55-p1-kou-1
     type: kou
-    text: 納税の猶予又は滞納処分に関する猶予に係る国税
+    text: 一　納税の猶予又は滞納処分に関する猶予に係る国税
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-55-p1-kou-2
     type: kou
-    text: 納付の委託をしようとする有価証券の支払期日以後に納期限の到来する国税
+    text: 二　納付の委託をしようとする有価証券の支払期日以後に納期限の到来する国税
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-55-p1-kou-3
     type: kou
-    text: 前二号に掲げる国税のほか、滞納に係る国税で、その納付につき納税者が誠実な意思を有し、かつ、その納付の委託を受けることが国税の徴収上有利と認められるもの
+    text: 三　前二号に掲げる国税のほか、滞納に係る国税で、その納付につき納税者が誠実な意思を有し、かつ、その納付の委託を受けることが国税の徴収上有利と認められるもの
     modality: unspecified
     item_number: 3
 - number: 2

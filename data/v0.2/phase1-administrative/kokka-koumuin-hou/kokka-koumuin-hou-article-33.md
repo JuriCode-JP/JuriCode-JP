@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: kokka-koumuin-hou-art-33-p2-kou-1
     type: kou
-    text: 職員の公正な任用
+    text: 一　職員の公正な任用
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-33-p2-kou-2
     type: kou
-    text: 行政需要の変化に対応するために行う優れた人材の養成及び活用
+    text: 二　行政需要の変化に対応するために行う優れた人材の養成及び活用
     modality: unspecified
     item_number: 2
 - number: 3

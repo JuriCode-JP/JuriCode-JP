@@ -23,6 +23,10 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 次条
+  - id: douro-koutsuu-hou-art-50-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第七号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

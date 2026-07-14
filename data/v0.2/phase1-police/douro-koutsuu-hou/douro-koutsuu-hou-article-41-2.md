@@ -52,6 +52,10 @@ paragraphs:
     type: simple
     text: 消防用車両については、第八条第一項、第十七条第六項、第十八条、第二十条第一項及び第二項、第二十五条第一項及び第二項、第二十五条の二第二項、第二十六条の二第三項、第二十九条、第三十条、第三十四条第一項から第五項まで、第三十五条第一項、第三十八条第一項前段及び第三項、第四十条第一項、第六十三条の六並びに第六十三条の七の規定は、適用しない。
     modality: jogai
+  - id: douro-koutsuu-hou-art-41-2-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第二項については第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

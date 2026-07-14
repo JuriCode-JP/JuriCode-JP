@@ -42,8 +42,8 @@ paragraphs:
     text: 前項の規定は、自動車等の売主から同項の規定の適用があるべき旨の申告があり、当該申告が真実であると認められるときに限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

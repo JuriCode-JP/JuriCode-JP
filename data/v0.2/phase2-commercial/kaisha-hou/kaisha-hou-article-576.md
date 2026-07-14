@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-576-p1-kou-1
     type: kou
-    text: 目的
+    text: 一　目的
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-576-p1-kou-2
     type: kou
-    text: 商号
+    text: 二　商号
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-576-p1-kou-3
     type: kou
-    text: 本店の所在地
+    text: 三　本店の所在地
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-576-p1-kou-4
     type: kou
-    text: 社員の氏名又は名称及び住所
+    text: 四　社員の氏名又は名称及び住所
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-576-p1-kou-5
     type: kou
-    text: 社員が無限責任社員又は有限責任社員のいずれであるかの別
+    text: 五　社員が無限責任社員又は有限責任社員のいずれであるかの別
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-576-p1-kou-6
     type: kou
-    text: 社員の出資の目的（有限責任社員にあっては、金銭等に限る。）及びその価額又は評価の標準
+    text: 六　社員の出資の目的（有限責任社員にあっては、金銭等に限る。）及びその価額又は評価の標準
     modality: unspecified
     item_number: 6
 - number: 2

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-19-p1-kou-1
     type: kou
-    text: 第十七条第五号、第七号、第八号、第十号、第十一号及び第十三号に掲げるもの（上場株券等を取り扱わない場合には、第七号に掲げるものを除く。）
+    text: 一　第十七条第五号、第七号、第八号、第十号、第十一号及び第十三号に掲げるもの（上場株券等を取り扱わない場合には、第七号に掲げるものを除く。）
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-19-p1-kou-2
     type: kou
-    text: その他私設取引システム運営業務に係る取引の公正の確保に関する重要な事項
+    text: 二　その他私設取引システム運営業務に係る取引の公正の確保に関する重要な事項
     modality: unspecified
     item_number: 2
 cases: []

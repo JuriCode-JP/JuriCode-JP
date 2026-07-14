@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p1-kou-1
     type: kou
-    text: 外国法人の名称、納税地、本店又は主たる事務所の所在地及び法人番号並びにその納税地と国内にある事務所、事業所その他これらに準ずるもの（以下この号及び次項第一号において「事務所等」という。）のうち主たるものの所在地とが異なる場合には、その国内にある主たる事務所等の所在地
+    text: 一　外国法人の名称、納税地、本店又は主たる事務所の所在地及び法人番号並びにその納税地と国内にある事務所、事業所その他これらに準ずるもの（以下この号及び次項第一号において「事務所等」という。）のうち主たるものの所在地とが異なる場合には、その国内にある主たる事務所等の所在地
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p1-kou-2
     type: kou
-    text: 代表者の氏名及び法第百四十一条第一号（課税標準）に定める国内源泉所得に係る事業又は資産の経営又は管理の責任者の氏名
+    text: 二　代表者の氏名及び法第百四十一条第一号（課税標準）に定める国内源泉所得に係る事業又は資産の経営又は管理の責任者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p1-kou-3
     type: kou
-    text: 当該事業年度の開始及び終了の日
+    text: 三　当該事業年度の開始及び終了の日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p1-kou-4
     type: kou
-    text: 法第百四十四条の十三第十一項（欠損金の繰戻しによる還付）において準用する同条第一項（第一号に係る部分に限る。）及び第三項の規定により還付の請求をする法人税の額
+    text: 四　法第百四十四条の十三第十一項（欠損金の繰戻しによる還付）において準用する同条第一項（第一号に係る部分に限る。）及び第三項の規定により還付の請求をする法人税の額
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p1-kou-5
     type: kou
-    text: 法第百四十四条の十三第十一項において準用する同条第一項（第二号に係る部分に限る。）及び第四項の規定により還付の請求をする法人税の額
+    text: 五　法第百四十四条の十三第十一項において準用する同条第一項（第二号に係る部分に限る。）及び第四項の規定により還付の請求をする法人税の額
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 2
@@ -62,27 +62,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p2-kou-1
     type: kou
-    text: 外国法人の名称、納税地、本店又は主たる事務所の所在地及び法人番号並びにその納税地と国内にある事務所等のうち主たるものの所在地とが異なる場合には、その国内にある主たる事務所等の所在地
+    text: 一　外国法人の名称、納税地、本店又は主たる事務所の所在地及び法人番号並びにその納税地と国内にある事務所等のうち主たるものの所在地とが異なる場合には、その国内にある主たる事務所等の所在地
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p2-kou-2
     type: kou
-    text: 代表者の氏名及び法第百四十一条第二号に定める国内源泉所得に係る事業又は資産の経営又は管理の責任者の氏名
+    text: 二　代表者の氏名及び法第百四十一条第二号に定める国内源泉所得に係る事業又は資産の経営又は管理の責任者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p2-kou-3
     type: kou
-    text: 当該事業年度の開始及び終了の日
+    text: 三　当該事業年度の開始及び終了の日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p2-kou-4
     type: kou
-    text: 法第百四十四条の十三第十一項において準用する同条第二項及び第五項の規定により還付の請求をする法人税の額
+    text: 四　法第百四十四条の十三第十一項において準用する同条第二項及び第五項の規定により還付の請求をする法人税の額
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-61-2-p2-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 3

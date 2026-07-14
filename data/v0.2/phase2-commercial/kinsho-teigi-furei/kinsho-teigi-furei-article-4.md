@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-teigi-furei-art-4-p1-kou-1
     type: kou
-    text: 令第一条第二号に掲げる証券又は証書（以下「学校債券」という。）を発行する学校法人等（同号に規定する学校法人等をいう。以下同じ。）の名称
+    text: 一　令第一条第二号に掲げる証券又は証書（以下「学校債券」という。）を発行する学校法人等（同号に規定する学校法人等をいう。以下同じ。）の名称
     modality: unspecified
     item_number: 1
   - id: kinsho-teigi-furei-art-4-p1-kou-2
     type: kou
-    text: 当該学校債券に係る金銭債権の金額
+    text: 二　当該学校債券に係る金銭債権の金額
     modality: unspecified
     item_number: 2
   - id: kinsho-teigi-furei-art-4-p1-kou-3
     type: kou
-    text: 当該学校債券に係る金銭債権の償還の方法及び期限
+    text: 三　当該学校債券に係る金銭債権の償還の方法及び期限
     modality: unspecified
     item_number: 3
   - id: kinsho-teigi-furei-art-4-p1-kou-4
     type: kou
-    text: 当該学校債券に係る金銭債権の利息並びにその支払の方法及び期限
+    text: 四　当該学校債券に係る金銭債権の利息並びにその支払の方法及び期限
     modality: unspecified
     item_number: 4
 cases: []

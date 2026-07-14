@@ -28,12 +28,12 @@ paragraphs:
     - 次項
   - id: chihou-zei-hou-art-352-2-p1-kou-1
     type: kou
-    text: 当該共用土地に係る区分所有に係る家屋の区分所有者全員により共有されているものであること。
+    text: 一　当該共用土地に係る区分所有に係る家屋の区分所有者全員により共有されているものであること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-352-2-p1-kou-2
     type: kou
-    text: 当該共用土地に係る各共用土地納税義務者の当該共用土地に係る持分の割合が、その者の当該共用土地に係る区分所有に係る家屋の区分所有者全員の共有に属する共用部分に係る建物の区分所有等に関する法律第十四条第一項から第三項までの規定による割合と一致するものであること。
+    text: 二　当該共用土地に係る各共用土地納税義務者の当該共用土地に係る持分の割合が、その者の当該共用土地に係る区分所有に係る家屋の区分所有者全員の共有に属する共用部分に係る建物の区分所有等に関する法律第十四条第一項から第三項までの規定による割合と一致するものであること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -52,8 +52,8 @@ paragraphs:
     text: この場合において、同項中「前二項」とあるのは、「次条第一項」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前二項
+    - 同項
     - 次条
     depends_on: chihou-zei-hou-art-352-2-p2-zen
 - number: 3
@@ -115,9 +115,9 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

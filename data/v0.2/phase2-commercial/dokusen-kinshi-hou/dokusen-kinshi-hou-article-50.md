@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: dokusen-kinshi-hou-art-50-p1-kou-1
     type: kou
-    text: 予定される排除措置命令の内容
+    text: 一　予定される排除措置命令の内容
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-50-p1-kou-2
     type: kou
-    text: 公正取引委員会の認定した事実及びこれに対する法令の適用
+    text: 二　公正取引委員会の認定した事実及びこれに対する法令の適用
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-50-p1-kou-3
     type: kou
-    text: 意見聴取の期日及び場所
+    text: 三　意見聴取の期日及び場所
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-50-p1-kou-4
     type: kou
-    text: 意見聴取に関する事務を所掌する組織の名称及び所在地
+    text: 四　意見聴取に関する事務を所掌する組織の名称及び所在地
     modality: unspecified
     item_number: 4
 - number: 2
@@ -56,12 +56,12 @@ paragraphs:
     - 前項
   - id: dokusen-kinshi-hou-art-50-p2-kou-1
     type: kou
-    text: 意見聴取の期日に出頭して意見を述べ、及び証拠を提出し、又は意見聴取の期日への出頭に代えて陳述書及び証拠を提出することができること。
+    text: 一　意見聴取の期日に出頭して意見を述べ、及び証拠を提出し、又は意見聴取の期日への出頭に代えて陳述書及び証拠を提出することができること。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-50-p2-kou-2
     type: kou
-    text: 意見聴取が終結する時までの間、第五十二条の規定による証拠の閲覧又は謄写を求めることができること。
+    text: 二　意見聴取が終結する時までの間、第五十二条の規定による証拠の閲覧又は謄写を求めることができること。
     modality: unspecified
     item_number: 2
 cases: []

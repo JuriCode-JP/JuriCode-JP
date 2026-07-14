@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: kinsho-hou-shikkourei-art-36-6-p1-kou-1
     type: kou
-    text: 当該株式の発行会社又はその役員のいずれでもない者が行う議決権の代理行使の勧誘であつて、被勧誘者が十人未満である場合
+    text: 一　当該株式の発行会社又はその役員のいずれでもない者が行う議決権の代理行使の勧誘であつて、被勧誘者が十人未満である場合
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-36-6-p1-kou-2
     type: kou
-    text: 時事に関する事項を掲載する日刊新聞紙による広告を通じて行う議決権の代理行使の勧誘であつて、当該広告が発行会社の名称、広告の理由、株主総会の目的たる事項及び委任状の用紙等を提供する場所のみを表示する場合
+    text: 二　時事に関する事項を掲載する日刊新聞紙による広告を通じて行う議決権の代理行使の勧誘であつて、当該広告が発行会社の名称、広告の理由、株主総会の目的たる事項及び委任状の用紙等を提供する場所のみを表示する場合
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-36-6-p1-kou-3
     type: kou
-    text: 他人の名義により株式を有する者が、その他人に対し当該株式の議決権について、議決権の代理行使の勧誘を行う場合
+    text: 三　他人の名義により株式を有する者が、その他人に対し当該株式の議決権について、議決権の代理行使の勧誘を行う場合
     modality: unspecified
     item_number: 3
 - number: 2
@@ -48,8 +48,8 @@ paragraphs:
     text: 前項第一号に規定する場合における被勧誘者の人数の計算については、同項第三号に該当する場合における当該被勧誘者を除くものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

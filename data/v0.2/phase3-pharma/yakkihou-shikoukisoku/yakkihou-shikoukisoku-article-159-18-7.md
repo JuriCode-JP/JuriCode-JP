@@ -25,27 +25,27 @@ paragraphs:
     - 次項
   - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-1
     type: kou
-    text: 販売又は授与の方法に関する手順
+    text: 一　販売又は授与の方法に関する手順
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-2
     type: kou
-    text: 指定濫用防止医薬品を購入し、又は譲り受けようとする者への第百五十九条の十八の二の規定による情報提供及び第百五十九条の十八の五第一項各号に掲げる事項に関する確認に関する手順
+    text: 二　指定濫用防止医薬品を購入し、又は譲り受けようとする者への第百五十九条の十八の二の規定による情報提供及び第百五十九条の十八の五第一項各号に掲げる事項に関する確認に関する手順
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-3
     type: kou
-    text: 陳列に関する手順
+    text: 三　陳列に関する手順
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-4
     type: kou
-    text: 前条第一項の数量を超えて指定濫用防止医薬品を購入し、又は譲り受けようとする場合、当該数量以下の数量の指定濫用防止医薬品を頻繁に購入し、又は譲り受けようとする場合であつて適正な使用を確保することができないと認められる場合その他これに類する場合の対応に関する手順
+    text: 四　前条第一項の数量を超えて指定濫用防止医薬品を購入し、又は譲り受けようとする場合、当該数量以下の数量の指定濫用防止医薬品を頻繁に購入し、又は譲り受けようとする場合であつて適正な使用を確保することができないと認められる場合その他これに類する場合の対応に関する手順
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-159-18-7-p1-kou-5
     type: kou
-    text: その他適正な販売又は授与に関し必要と考えられる事項に関する手順
+    text: 五　その他適正な販売又は授与に関し必要と考えられる事項に関する手順
     modality: unspecified
     item_number: 5
 - number: 2

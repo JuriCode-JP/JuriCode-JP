@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-1
     type: kou
-    text: 株券（議決権のない株式として内閣府令で定めるものに係る株券を除く。）
+    text: 一　株券（議決権のない株式として内閣府令で定めるものに係る株券を除く。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-2
     type: kou
-    text: 新株予約権証券及び新株予約権付社債券（新株予約権として議決権のない株式のみを取得する権利のみを付与されているものを除く。）
+    text: 二　新株予約権証券及び新株予約権付社債券（新株予約権として議決権のない株式のみを取得する権利のみを付与されているものを除く。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-3
     type: kou
-    text: 外国の者の発行する証券又は証書で前二号に掲げる有価証券の性質を有するもの
+    text: 三　外国の者の発行する証券又は証書で前二号に掲げる有価証券の性質を有するもの
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-4
     type: kou
-    text: 投資証券等
+    text: 四　投資証券等
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-14-5-2-p1-kou-5
     type: kou
-    text: 新投資口予約権証券等
+    text: 五　新投資口予約権証券等
     modality: unspecified
     item_number: 5
 cases: []

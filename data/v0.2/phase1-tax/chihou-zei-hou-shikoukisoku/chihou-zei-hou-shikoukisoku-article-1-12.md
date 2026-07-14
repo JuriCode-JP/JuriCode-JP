@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-1-12-p1-kou-1
     type: kou
-    text: 所得税法施行令（昭和四十年政令第九十六号）第百六十七条の四に掲げる事項を記載した特定支出に関する明細書
+    text: 一　所得税法施行令（昭和四十年政令第九十六号）第百六十七条の四に掲げる事項を記載した特定支出に関する明細書
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-1-12-p1-kou-2
     type: kou
-    text: 所得税法施行令第百六十七条の五に規定する書類
+    text: 二　所得税法施行令第百六十七条の五に規定する書類
     modality: unspecified
     item_number: 2
 cases: []

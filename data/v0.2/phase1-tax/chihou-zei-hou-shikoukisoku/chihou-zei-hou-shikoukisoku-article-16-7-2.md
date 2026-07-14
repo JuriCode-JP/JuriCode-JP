@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-16-7-2-p1-kou-1
     type: kou
-    text: 廃棄物が飛散し、流出し、及び地下に浸透し、並びに悪臭が発散するおそれのない構造のものであること。
+    text: 一　廃棄物が飛散し、流出し、及び地下に浸透し、並びに悪臭が発散するおそれのない構造のものであること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-16-7-2-p1-kou-2
     type: kou
-    text: 屋根及び壁を有するものであること。
+    text: 二　屋根及び壁を有するものであること。
     modality: unspecified
     item_number: 2
 cases: []

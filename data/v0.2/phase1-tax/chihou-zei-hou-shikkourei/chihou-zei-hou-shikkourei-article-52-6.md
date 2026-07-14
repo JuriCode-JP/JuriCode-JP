@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-52-6-p2-kou-1
     type: kou
-    text: 河川法第七条の河川管理者により同法第八条の河川工事として行われる事業
+    text: 一　河川法第七条の河川管理者により同法第八条の河川工事として行われる事業
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-52-6-p2-kou-2
     type: kou
-    text: 独立行政法人水資源機構により独立行政法人水資源機構法第二条第四項に規定する特定施設の新築又は改築に係る工事として行われる事業
+    text: 二　独立行政法人水資源機構により独立行政法人水資源機構法第二条第四項に規定する特定施設の新築又は改築に係る工事として行われる事業
     modality: unspecified
     item_number: 2
 cases: []

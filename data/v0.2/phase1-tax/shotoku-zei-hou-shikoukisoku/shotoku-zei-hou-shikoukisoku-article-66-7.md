@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-66-7-p1-kou-1
     type: kou
-    text: 法第百六十五条の五第一項に規定する配賦経費の配分の基礎となる費用が同項の非居住者の恒久的施設を通じて行う事業及びそれ以外の事業に共通するものであることについての説明、その明細並びにその内容を記載した書類
+    text: 一　法第百六十五条の五第一項に規定する配賦経費の配分の基礎となる費用が同項の非居住者の恒久的施設を通じて行う事業及びそれ以外の事業に共通するものであることについての説明、その明細並びにその内容を記載した書類
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-66-7-p1-kou-2
     type: kou
-    text: 令第二百九十二条第三項（恒久的施設帰属所得についての総合課税に係る所得税の課税標準等の計算）に規定する合理的と認められる基準により配分するための計算方法の明細を記載した書類
+    text: 二　令第二百九十二条第三項（恒久的施設帰属所得についての総合課税に係る所得税の課税標準等の計算）に規定する合理的と認められる基準により配分するための計算方法の明細を記載した書類
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-66-7-p1-kou-3
     type: kou
-    text: 前号の計算方法が合理的であるとする理由を記載した書類
+    text: 三　前号の計算方法が合理的であるとする理由を記載した書類
     modality: unspecified
     item_number: 3
 cases: []

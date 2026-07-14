@@ -23,92 +23,92 @@ paragraphs:
     modality: gimu
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-1
     type: kou
-    text: 第二条第二項第一号から第三号まで、第六号、第七号、第十七号から第十九号まで、第二十一号から第二十六号まで、第二十八号から第三十二号まで及び第四十八号に掲げる特定事業者　内閣総理大臣
+    text: 一　第二条第二項第一号から第三号まで、第六号、第七号、第十七号から第十九号まで、第二十一号から第二十六号まで、第二十八号から第三十二号まで及び第四十八号に掲げる特定事業者　内閣総理大臣
     modality: unspecified
     item_number: 1
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-2
     type: kou
-    text: 第二条第二項第四号及び第五号に掲げる特定事業者　内閣総理大臣及び厚生労働大臣
+    text: 二　第二条第二項第四号及び第五号に掲げる特定事業者　内閣総理大臣及び厚生労働大臣
     modality: unspecified
     item_number: 2
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-3
     type: kou
-    text: 第二条第二項第八号及び第九号に掲げる特定事業者　農業協同組合法（昭和二十二年法律第百三十二号）第九十八条第一項に規定する行政庁
+    text: 三　第二条第二項第八号及び第九号に掲げる特定事業者　農業協同組合法（昭和二十二年法律第百三十二号）第九十八条第一項に規定する行政庁
     modality: unspecified
     item_number: 3
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-4
     type: kou
-    text: 第二条第二項第十号から第十三号まで及び第二十号に掲げる特定事業者　水産業協同組合法（昭和二十三年法律第二百四十二号）第百二十七条第一項に規定する行政庁
+    text: 四　第二条第二項第十号から第十三号まで及び第二十号に掲げる特定事業者　水産業協同組合法（昭和二十三年法律第二百四十二号）第百二十七条第一項に規定する行政庁
     modality: unspecified
     item_number: 4
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-5
     type: kou
-    text: 第二条第二項第十四号に掲げる特定事業者　農林水産大臣及び内閣総理大臣
+    text: 五　第二条第二項第十四号に掲げる特定事業者　農林水産大臣及び内閣総理大臣
     modality: unspecified
     item_number: 5
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-6
     type: kou
-    text: 第二条第二項第十五号に掲げる特定事業者　株式会社商工組合中央金庫法（平成十九年法律第七十四号）第五十六条第二項に規定する主務大臣
+    text: 六　第二条第二項第十五号に掲げる特定事業者　株式会社商工組合中央金庫法（平成十九年法律第七十四号）第五十六条第二項に規定する主務大臣
     modality: unspecified
     item_number: 6
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-7
     type: kou
-    text: 第二条第二項第十六号に掲げる特定事業者　株式会社日本政策投資銀行法（平成十九年法律第八十五号）第二十九条第一項に規定する主務大臣
+    text: 七　第二条第二項第十六号に掲げる特定事業者　株式会社日本政策投資銀行法（平成十九年法律第八十五号）第二十九条第一項に規定する主務大臣
     modality: unspecified
     item_number: 7
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-8
     type: kou
-    text: 第二条第二項第二十七号に掲げる特定事業者　不動産特定共同事業法第七十三条第一項に規定する主務大臣
+    text: 八　第二条第二項第二十七号に掲げる特定事業者　不動産特定共同事業法第七十三条第一項に規定する主務大臣
     modality: unspecified
     item_number: 8
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-9
     type: kou
-    text: 第二条第二項第三十三号に掲げる特定事業者　商品先物取引法第三百五十四条第一項に規定する主務大臣
+    text: 九　第二条第二項第三十三号に掲げる特定事業者　商品先物取引法第三百五十四条第一項に規定する主務大臣
     modality: unspecified
     item_number: 9
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-10
     type: kou
-    text: 第二条第二項第三十四号から第三十六号までに掲げる特定事業者（次号に掲げる者を除く。）　内閣総理大臣及び法務大臣
+    text: 十　第二条第二項第三十四号から第三十六号までに掲げる特定事業者（次号に掲げる者を除く。）　内閣総理大臣及び法務大臣
     modality: unspecified
     item_number: 10
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-11
     type: kou
-    text: 第二条第二項第三十四号及び第三十五号に掲げる特定事業者のうち国債を取り扱う者　内閣総理大臣、法務大臣及び財務大臣
+    text: 十一　第二条第二項第三十四号及び第三十五号に掲げる特定事業者のうち国債を取り扱う者　内閣総理大臣、法務大臣及び財務大臣
     modality: unspecified
     item_number: 11
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-12
     type: kou
-    text: 第二条第二項第三十七号に掲げる特定事業者及び同項第四十四号に掲げる特定事業者のうち顧客宛ての電話を受けてその内容を当該顧客に連絡し、又は顧客宛ての若しくは顧客からの電話を当該顧客が指定する電話番号に自動的に転送する役務を提供する業務を行う者　総務大臣
+    text: 十二　第二条第二項第三十七号に掲げる特定事業者及び同項第四十四号に掲げる特定事業者のうち顧客宛ての電話を受けてその内容を当該顧客に連絡し、又は顧客宛ての若しくは顧客からの電話を当該顧客が指定する電話番号に自動的に転送する役務を提供する業務を行う者　総務大臣
     modality: unspecified
     item_number: 12
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-13
     type: kou
-    text: 第二条第二項第三十八号及び第四十九号に掲げる特定事業者　財務大臣
+    text: 十三　第二条第二項第三十八号及び第四十九号に掲げる特定事業者　財務大臣
     modality: unspecified
     item_number: 13
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-14
     type: kou
-    text: 第二条第二項第三十九号、第四十号及び第四十三号に掲げる特定事業者並びに同項第四十四号に掲げる特定事業者のうち顧客宛ての郵便物を受け取ってこれを当該顧客に引き渡す役務を提供する業務を行う者　経済産業大臣
+    text: 十四　第二条第二項第三十九号、第四十号及び第四十三号に掲げる特定事業者並びに同項第四十四号に掲げる特定事業者のうち顧客宛ての郵便物を受け取ってこれを当該顧客に引き渡す役務を提供する業務を行う者　経済産業大臣
     modality: unspecified
     item_number: 14
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-15
     type: kou
-    text: 第二条第二項第四十一号に掲げる特定事業者　カジノ管理委員会
+    text: 十五　第二条第二項第四十一号に掲げる特定事業者　カジノ管理委員会
     modality: unspecified
     item_number: 15
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-16
     type: kou
-    text: 第二条第二項第四十二号に掲げる特定事業者　宅地建物取引業法第三条第一項の免許をした国土交通大臣又は都道府県知事（みなし宅地建物取引業者である特定事業者にあっては、国土交通大臣）
+    text: 十六　第二条第二項第四十二号に掲げる特定事業者　宅地建物取引業法第三条第一項の免許をした国土交通大臣又は都道府県知事（みなし宅地建物取引業者である特定事業者にあっては、国土交通大臣）
     modality: unspecified
     item_number: 16
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-17
     type: kou
-    text: 第二条第二項第四十六号に掲げる特定事業者　法務大臣
+    text: 十七　第二条第二項第四十六号に掲げる特定事業者　法務大臣
     modality: unspecified
     item_number: 17
   - id: hanzai-shueki-iten-boushi-hou-art-22-p1-kou-18
     type: kou
-    text: 第二条第二項第四十七号に掲げる特定事業者　都道府県知事
+    text: 十八　第二条第二項第四十七号に掲げる特定事業者　都道府県知事
     modality: unspecified
     item_number: 18
 - number: 2
@@ -124,21 +124,21 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: hanzai-shueki-iten-boushi-hou-art-22-p2-kou-1
     type: kou
-    text: 第九条に規定する特定事業者（第二条第二項第十五号に掲げる特定事業者を除く。）に係る第九条及び第十条に定める事項
+    text: 一　第九条に規定する特定事業者（第二条第二項第十五号に掲げる特定事業者を除く。）に係る第九条及び第十条に定める事項
     modality: unspecified
     item_number: 1
   - id: hanzai-shueki-iten-boushi-hou-art-22-p2-kou-2
     type: kou
-    text: 電子決済手段等取引業者に係る第十条の二に定める事項及び第十条の三に定める事項（電子決済手段等取引業者が顧客から受取顧客（他の電子決済手段等取引業者の顧客である者に限る。）に対する電子決済手段の移転の依頼を受けた場合であって、そのための電子決済手段の移転（委託又は再委託を受けた電子決済手段等取引業者によって行われるものを含む。）が本邦内においてのみ行われるときに係るものを除く。）
+    text: 二　電子決済手段等取引業者に係る第十条の二に定める事項及び第十条の三に定める事項（電子決済手段等取引業者が顧客から受取顧客（他の電子決済手段等取引業者の顧客である者に限る。）に対する電子決済手段の移転の依頼を受けた場合であって、そのための電子決済手段の移転（委託又は再委託を受けた電子決済手段等取引業者によって行われるものを含む。）が本邦内においてのみ行われるときに係るものを除く。）
     modality: unspecified
     item_number: 2
   - id: hanzai-shueki-iten-boushi-hou-art-22-p2-kou-3
     type: kou
-    text: 暗号資産交換業者に係る第十条の四に定める事項及び第十条の五に定める事項（暗号資産交換業者が顧客から受取顧客（他の暗号資産交換業者の顧客である者に限る。）に対する暗号資産の移転の依頼を受けた場合であって、そのための暗号資産の移転（委託又は再委託を受けた暗号資産交換業者によって行われるものを含む。）が本邦内においてのみ行われるときに係るものを除く。）
+    text: 三　暗号資産交換業者に係る第十条の四に定める事項及び第十条の五に定める事項（暗号資産交換業者が顧客から受取顧客（他の暗号資産交換業者の顧客である者に限る。）に対する暗号資産の移転の依頼を受けた場合であって、そのための暗号資産の移転（委託又は再委託を受けた暗号資産交換業者によって行われるものを含む。）が本邦内においてのみ行われるときに係るものを除く。）
     modality: unspecified
     item_number: 3
 - number: 3
@@ -188,12 +188,12 @@ paragraphs:
     - 前項
   - id: hanzai-shueki-iten-boushi-hou-art-22-p6-kou-1
     type: kou
-    text: 第二条第二項第二十一号、第二十三号及び第二十四号に掲げる特定事業者による行為
+    text: 一　第二条第二項第二十一号、第二十三号及び第二十四号に掲げる特定事業者による行為
     modality: unspecified
     item_number: 1
   - id: hanzai-shueki-iten-boushi-hou-art-22-p6-kou-2
     type: kou
-    text: 登録金融機関業務に係る行為
+    text: 二　登録金融機関業務に係る行為
     modality: unspecified
     item_number: 2
 - number: 7

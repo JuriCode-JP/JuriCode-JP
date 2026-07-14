@@ -23,22 +23,22 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-art-45-p1-kou-1
     type: kou
-    text: 第三十七条、第三十八条第四号から第六号まで及び第四十条第一号　金融商品取引業者等が行う金融商品取引契約の締結の勧誘の相手方
+    text: 一　第三十七条、第三十八条第四号から第六号まで及び第四十条第一号　金融商品取引業者等が行う金融商品取引契約の締結の勧誘の相手方
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-45-p1-kou-2
     type: kou
-    text: 第三十七条の二から第三十七条の六まで、第四十条の二第四項及び第四十三条の四　金融商品取引業者等が申込みを受け、又は締結した金融商品取引契約の相手方
+    text: 二　第三十七条の二から第三十七条の六まで、第四十条の二第四項及び第四十三条の四　金融商品取引業者等が申込みを受け、又は締結した金融商品取引契約の相手方
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-45-p1-kou-3
     type: kou
-    text: 第四十一条の四及び第四十一条の五　金融商品取引業者等が締結した投資顧問契約の相手方
+    text: 三　第四十一条の四及び第四十一条の五　金融商品取引業者等が締結した投資顧問契約の相手方
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-45-p1-kou-4
     type: kou
-    text: 第四十二条の五から第四十二条の七まで　金融商品取引業者等が締結した投資一任契約の相手方
+    text: 四　第四十二条の五から第四十二条の七まで　金融商品取引業者等が締結した投資一任契約の相手方
     modality: unspecified
     item_number: 4
 cases: []

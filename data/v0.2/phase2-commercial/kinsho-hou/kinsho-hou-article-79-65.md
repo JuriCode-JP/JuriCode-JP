@@ -36,12 +36,12 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-79-65-p2-kou-1
     type: kou
-    text: 第七十九条の五十六第一項の支払その他の投資者保護資金に係る業務に要する費用の予想額に照らし、長期的に基金の財政が均衡するものであること。
+    text: 一　第七十九条の五十六第一項の支払その他の投資者保護資金に係る業務に要する費用の予想額に照らし、長期的に基金の財政が均衡するものであること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-65-p2-kou-2
     type: kou
-    text: 特定の金融商品取引業者に対し差別的取扱いをしないものであること。
+    text: 二　特定の金融商品取引業者に対し差別的取扱いをしないものであること。
     modality: unspecified
     item_number: 2
 - number: 3
@@ -54,8 +54,8 @@ paragraphs:
     text: 前項の規定は、同項第一号に掲げる基準に適合するように負担金の算定方法を定めることとした場合には、これによる負担金の納付によつて会員である金融商品取引業者の経営の健全性が維持されなくなるときにおいて、当該基準に適合しない負担金の算定方法を一時的に定めることを妨げるものと解してはならない。
     modality: gimu_negative
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

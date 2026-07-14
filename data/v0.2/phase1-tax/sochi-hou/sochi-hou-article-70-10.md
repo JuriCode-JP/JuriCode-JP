@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第三十八条
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -37,8 +37,8 @@ paragraphs:
     text: 前項に規定する課税相続財産の価額のうちに不動産等の価額の占める割合が四分の三以上である場合には、当該延納税額のうち不動産等部分の税額についての相続税法第五十二条第一項の規定の適用については、同項第一号イ中「年五・四パーセント」とあるのは、「年三・六パーセント」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -25,22 +25,22 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-art-317-3-3-p1-kou-1
     type: kou
-    text: 当該公的年金等支払者の名称
+    text: 一　当該公的年金等支払者の名称
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-317-3-3-p1-kou-2
     type: kou
-    text: 特定配偶者の氏名
+    text: 二　特定配偶者の氏名
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-317-3-3-p1-kou-3
     type: kou
-    text: 扶養親族又は特定親族の氏名
+    text: 三　扶養親族又は特定親族の氏名
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-317-3-3-p1-kou-4
     type: kou
-    text: その他総務省令で定める事項
+    text: 四　その他総務省令で定める事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -53,8 +53,8 @@ paragraphs:
     text: 前項の規定による申告書を公的年金等支払者を経由して提出する場合において、当該申告書に記載すべき事項がその年の前年において当該公的年金等支払者を経由して提出した同項の規定による申告書に記載した事項と異動がないときは、公的年金等受給者は、当該公的年金等支払者が所得税法第二百三条の六第二項に規定する国税庁長官の承認を受けている場合に限り、総務省令で定めるところにより、前項の規定により記載すべき事項に代えて当該異動がない旨を記載した同項の規定による申告書を提出することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -85,8 +85,8 @@ paragraphs:
     text: 前項の規定の適用がある場合における第三項の規定の適用については、同項中「申告書が」とあるのは「申告書に記載すべき事項を」と、「公的年金等支払者に受理されたとき」とあるのは「公的年金等支払者が提供を受けたとき」と、「受理された日」とあるのは「提供を受けた日」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

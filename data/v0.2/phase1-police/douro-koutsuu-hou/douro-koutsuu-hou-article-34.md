@@ -74,6 +74,10 @@ paragraphs:
     type: simple
     text: 左折又は右折しようとする車両が、前各項の規定により、それぞれ道路の左側端、中央又は右側端に寄ろうとして手又は方向指示器による合図をした場合においては、その後方にある車両は、その速度又は方向を急に変更しなければならないこととなる場合を除き、当該合図をした車両の進路の変更を妨げてはならない。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-34-supplnote-1
+    type: supplnote
+    text: （罰則　第一項から第五項までについては第百二十一条第一項第八号　第六項については第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

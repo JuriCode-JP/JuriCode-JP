@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\340CO0000000096.xml",
   "source_xml_sha256": "c500a9b444a1ccf2e7f66202a2f0471d33ed0c36a0cb4e16c8408cd7d1dba0da",
   "source_xml_bytes": 3682626,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:25+00:00",
+  "parsed_at": "2026-07-14T01:44:30+00:00",
   "version_date": "1965-03-31",
   "article_count": 456,
   "articles": [
@@ -282,8 +282,8 @@
       "article_id": "shotoku-zei-hou-shikkourei-art-12",
       "article_number": "12",
       "filename": "shotoku-zei-hou-shikkourei-article-12.md",
-      "ja_text_sha256": "9bc6725749cdad8a18b319e565bf1885c9547e8501d139b1def388893735158c",
-      "ja_text_bytes": 732,
+      "ja_text_sha256": "3753e28de56955233bee3728a3a71ec5a83a27f3b89e29a25b45278e15d47fe2",
+      "ja_text_bytes": 726,
       "paragraph_count": 1
     },
     {
@@ -1154,8 +1154,8 @@
       "article_id": "shotoku-zei-hou-shikkourei-art-207",
       "article_number": "207",
       "filename": "shotoku-zei-hou-shikkourei-article-207.md",
-      "ja_text_sha256": "bdf320b3a0026caeac5b33897721d8935b2427130cdf80ceb7ce2724dacf88c5",
-      "ja_text_bytes": 1503,
+      "ja_text_sha256": "ae4383dd0fc84bbe5f81f33ece3c663424227875010f6da4d0478db9eb99ca80",
+      "ja_text_bytes": 1491,
       "paragraph_count": 1
     },
     {
@@ -2498,8 +2498,8 @@
       "article_id": "shotoku-zei-hou-shikkourei-art-322",
       "article_number": "322",
       "filename": "shotoku-zei-hou-shikkourei-article-322.md",
-      "ja_text_sha256": "458ba4e4d87d1e9a3f261b819de26c9bdd18a10d85fce908275976c0230ffe7c",
-      "ja_text_bytes": 2223,
+      "ja_text_sha256": "2a5f33649cac503774d245ccf5135ee940eb04f5fd7151d220ddf30d496ac04a",
+      "ja_text_bytes": 2217,
       "paragraph_count": 1
     },
     {
@@ -3410,8 +3410,8 @@
       "article_id": "shotoku-zei-hou-shikkourei-art-79",
       "article_number": "79",
       "filename": "shotoku-zei-hou-shikkourei-article-79.md",
-      "ja_text_sha256": "2b141addab5e9eef978f161d7ff22f4179f75447404e0ab685803555d4aad899",
-      "ja_text_bytes": 5194,
+      "ja_text_sha256": "915621d130989899aa4e3a17aee2539121df70bdf674419bd129048fc20d77f3",
+      "ja_text_bytes": 5191,
       "paragraph_count": 3
     },
     {
@@ -3482,8 +3482,8 @@
       "article_id": "shotoku-zei-hou-shikkourei-art-83",
       "article_number": "83",
       "filename": "shotoku-zei-hou-shikkourei-article-83.md",
-      "ja_text_sha256": "b36186f35ef5a19c6a04dbe1c96eb3023bb375b14c6a096bc017e78b44a24428",
-      "ja_text_bytes": 1930,
+      "ja_text_sha256": "a7552fa782291c803cc4341683d769fbdf71c2caff8fd1c8ea9d67ca8d99a9f0",
+      "ja_text_bytes": 1924,
       "paragraph_count": 3
     },
     {

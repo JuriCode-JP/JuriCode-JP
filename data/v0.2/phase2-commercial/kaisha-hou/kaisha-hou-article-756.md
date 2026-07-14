@@ -31,8 +31,8 @@ paragraphs:
     text: 前条第一項に規定する場合には、新設合併消滅株式会社の株主又は新設合併消滅持分会社の社員は、新設合併設立持分会社の成立の日に、同項第四号に掲げる事項についての定めに従い、当該新設合併設立持分会社の社員となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -43,8 +43,8 @@ paragraphs:
     text: 前条第一項第六号に掲げる事項についての定めがある場合には、新設合併消滅株式会社の株主又は新設合併消滅持分会社の社員は、新設合併設立持分会社の成立の日に、同項第七号に掲げる事項についての定めに従い、同項第六号の社債の社債権者となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

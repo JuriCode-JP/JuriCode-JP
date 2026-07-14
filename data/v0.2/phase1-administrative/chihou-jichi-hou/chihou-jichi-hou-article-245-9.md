@@ -34,17 +34,17 @@ paragraphs:
     - 次項
   - id: chihou-jichi-hou-art-245-9-p2-kou-1
     type: kou
-    text: 都道府県知事　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する法定受託事務
+    text: 一　都道府県知事　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する法定受託事務
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-245-9-p2-kou-2
     type: kou
-    text: 都道府県教育委員会　市町村教育委員会の担任する法定受託事務
+    text: 二　都道府県教育委員会　市町村教育委員会の担任する法定受託事務
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-245-9-p2-kou-3
     type: kou
-    text: 都道府県選挙管理委員会　市町村選挙管理委員会の担任する法定受託事務
+    text: 三　都道府県選挙管理委員会　市町村選挙管理委員会の担任する法定受託事務
     modality: unspecified
     item_number: 3
 - number: 3

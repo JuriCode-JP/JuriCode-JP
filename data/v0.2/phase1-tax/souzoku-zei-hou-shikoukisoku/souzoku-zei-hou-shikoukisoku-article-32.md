@@ -25,17 +25,17 @@ paragraphs:
     - 次項
   - id: souzoku-zei-hou-shikoukisoku-art-32-p1-kou-1
     type: kou
-    text: 資産流動化に係る業務及びその附帯業務を現に行つていること。
+    text: 一　資産流動化に係る業務及びその附帯業務を現に行つていること。
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-32-p1-kou-2
     type: kou
-    text: 資産流動化に係る業務として取得した資産以外の資産（当該資産流動化に係る業務及びその附帯業務を行うために必要と認められる資産並びにこれらの業務に係る業務上の余裕金を除く。）を保有していないこと。
+    text: 二　資産流動化に係る業務として取得した資産以外の資産（当該資産流動化に係る業務及びその附帯業務を行うために必要と認められる資産並びにこれらの業務に係る業務上の余裕金を除く。）を保有していないこと。
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-32-p1-kou-3
     type: kou
-    text: 当該有価証券の発行に際して金融商品取引法第二条第三項（定義）に規定する取得勧誘を行つていること。
+    text: 三　当該有価証券の発行に際して金融商品取引法第二条第三項（定義）に規定する取得勧誘を行つていること。
     modality: unspecified
     item_number: 3
 - number: 2

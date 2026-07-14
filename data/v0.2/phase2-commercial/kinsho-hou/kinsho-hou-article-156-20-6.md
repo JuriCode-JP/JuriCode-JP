@@ -32,32 +32,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-156-20-6-p2-kou-1
     type: kou
-    text: 金融商品債務引受業の対象とする債務の起因となる取引
+    text: 一　金融商品債務引受業の対象とする債務の起因となる取引
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-20-6-p2-kou-2
     type: kou
-    text: 清算参加者の要件に関する事項
+    text: 二　清算参加者の要件に関する事項
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-20-6-p2-kou-3
     type: kou
-    text: 金融商品債務引受業として行う引受け、更改その他の方法による債務の負担及びその履行に関する事項
+    text: 三　金融商品債務引受業として行う引受け、更改その他の方法による債務の負担及びその履行に関する事項
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-20-6-p2-kou-4
     type: kou
-    text: 清算参加者の債務の履行の確保に関する事項
+    text: 四　清算参加者の債務の履行の確保に関する事項
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-20-6-p2-kou-5
     type: kou
-    text: 有価証券等清算取次ぎに関する事項
+    text: 五　有価証券等清算取次ぎに関する事項
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-156-20-6-p2-kou-6
     type: kou
-    text: その他内閣府令で定める事項
+    text: 六　その他内閣府令で定める事項
     modality: unspecified
     item_number: 6
 cases: []

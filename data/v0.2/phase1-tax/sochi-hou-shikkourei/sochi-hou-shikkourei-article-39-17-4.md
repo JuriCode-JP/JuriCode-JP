@@ -43,17 +43,17 @@ paragraphs:
     - 次項
   - id: sochi-hou-shikkourei-art-39-17-4-p3-kou-1
     type: kou
-    text: その設立の日から同日以後五年を経過する日を含む事業年度終了の日までの期間を経過していない部分対象外国関係会社
+    text: 一　その設立の日から同日以後五年を経過する日を含む事業年度終了の日までの期間を経過していない部分対象外国関係会社
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-17-4-p3-kou-2
     type: kou
-    text: その解散の日から同日以後三年を経過する日を含む事業年度終了の日までの期間を経過していない部分対象外国関係会社（前号に掲げるものを除く。）
+    text: 二　その解散の日から同日以後三年を経過する日を含む事業年度終了の日までの期間を経過していない部分対象外国関係会社（前号に掲げるものを除く。）
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-39-17-4-p3-kou-3
     type: kou
-    text: 当該事業年度が特例清算事業年度である場合における部分対象外国関係会社（前二号に掲げるものを除く。）
+    text: 三　当該事業年度が特例清算事業年度である場合における部分対象外国関係会社（前二号に掲げるものを除く。）
     modality: unspecified
     item_number: 3
 - number: 4
@@ -66,8 +66,8 @@ paragraphs:
     text: 前項において、発行済株式等の全部を直接又は間接に保有されているかどうかの判定は、同項の一の内国法人等の部分対象外国関係会社に係る直接保有株式等保有割合（当該一の内国法人等の有する外国法人の株式等の数又は金額が当該外国法人の発行済株式等のうちに占める割合をいう。）と当該一の内国法人等の当該部分対象外国関係会社に係る間接保有株式等保有割合とを合計した割合により行うものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -119,12 +119,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-39-17-4-p9-kou-1
     type: kou
-    text: 親会社等事業年度の決算に基づく所得の金額
+    text: 一　親会社等事業年度の決算に基づく所得の金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-17-4-p9-kou-2
     type: kou
-    text: 親会社等事業年度終了の時における貸借対照表に計上されている総資産の帳簿価額から総負債の帳簿価額を控除した残額
+    text: 二　親会社等事業年度終了の時における貸借対照表に計上されている総資産の帳簿価額から総負債の帳簿価額を控除した残額
     modality: unspecified
     item_number: 2
 - number: 10

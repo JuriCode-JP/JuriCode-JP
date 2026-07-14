@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: houjin-zei-hou-shikkourei-art-131-18-p1-kou-1
     type: kou
-    text: 法第六十四条の十一第一項、第六十四条の十二第一項又は第六十四条の十三第一項に規定する時価評価資産
+    text: 一　法第六十四条の十一第一項、第六十四条の十二第一項又は第六十四条の十三第一項に規定する時価評価資産
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-131-18-p1-kou-2
     type: kou
-    text: 法第六十四条の十一第二項又は第六十四条の十二第二項に規定する株式又は出資
+    text: 二　法第六十四条の十一第二項又は第六十四条の十二第二項に規定する株式又は出資
     modality: unspecified
     item_number: 2
 - number: 2

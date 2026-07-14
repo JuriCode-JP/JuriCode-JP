@@ -23,67 +23,67 @@ paragraphs:
     modality: jogai
   - id: shouhou-art-502-p1-kou-1
     type: kou
-    text: 賃貸する意思をもってする動産若しくは不動産の有償取得若しくは賃借又はその取得し若しくは賃借したものの賃貸を目的とする行為
+    text: 一　賃貸する意思をもってする動産若しくは不動産の有償取得若しくは賃借又はその取得し若しくは賃借したものの賃貸を目的とする行為
     modality: unspecified
     item_number: 1
   - id: shouhou-art-502-p1-kou-2
     type: kou
-    text: 他人のためにする製造又は加工に関する行為
+    text: 二　他人のためにする製造又は加工に関する行為
     modality: unspecified
     item_number: 2
   - id: shouhou-art-502-p1-kou-3
     type: kou
-    text: 電気又はガスの供給に関する行為
+    text: 三　電気又はガスの供給に関する行為
     modality: unspecified
     item_number: 3
   - id: shouhou-art-502-p1-kou-4
     type: kou
-    text: 運送に関する行為
+    text: 四　運送に関する行為
     modality: unspecified
     item_number: 4
   - id: shouhou-art-502-p1-kou-5
     type: kou
-    text: 作業又は労務の請負
+    text: 五　作業又は労務の請負
     modality: unspecified
     item_number: 5
   - id: shouhou-art-502-p1-kou-6
     type: kou
-    text: 出版、印刷又は撮影に関する行為
+    text: 六　出版、印刷又は撮影に関する行為
     modality: unspecified
     item_number: 6
   - id: shouhou-art-502-p1-kou-7
     type: kou
-    text: 客の来集を目的とする場屋における取引
+    text: 七　客の来集を目的とする場屋における取引
     modality: unspecified
     item_number: 7
   - id: shouhou-art-502-p1-kou-8
     type: kou
-    text: 両替その他の銀行取引
+    text: 八　両替その他の銀行取引
     modality: unspecified
     item_number: 8
   - id: shouhou-art-502-p1-kou-9
     type: kou
-    text: 保険
+    text: 九　保険
     modality: unspecified
     item_number: 9
   - id: shouhou-art-502-p1-kou-10
     type: kou
-    text: 寄託の引受け
+    text: 十　寄託の引受け
     modality: unspecified
     item_number: 10
   - id: shouhou-art-502-p1-kou-11
     type: kou
-    text: 仲立ち又は取次ぎに関する行為
+    text: 十一　仲立ち又は取次ぎに関する行為
     modality: unspecified
     item_number: 11
   - id: shouhou-art-502-p1-kou-12
     type: kou
-    text: 商行為の代理の引受け
+    text: 十二　商行為の代理の引受け
     modality: unspecified
     item_number: 12
   - id: shouhou-art-502-p1-kou-13
     type: kou
-    text: 信託の引受け
+    text: 十三　信託の引受け
     modality: unspecified
     item_number: 13
 cases: []

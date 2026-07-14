@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: dokusen-kinshi-hou-art-48-2-p1-kou-1
     type: kou
-    text: 当該行為の概要
+    text: 一　当該行為の概要
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-48-2-p1-kou-2
     type: kou
-    text: 違反する疑いのある法令の条項
+    text: 二　違反する疑いのある法令の条項
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-48-2-p1-kou-3
     type: kou
-    text: 次条第一項の規定による認定の申請をすることができる旨
+    text: 三　次条第一項の規定による認定の申請をすることができる旨
     modality: unspecified
     item_number: 3
 cases: []

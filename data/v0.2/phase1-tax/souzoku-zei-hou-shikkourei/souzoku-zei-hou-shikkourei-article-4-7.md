@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-shikkourei-art-4-7-p1-kou-1
     type: kou
-    text: 特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書　それぞれ法第二十一条の四第一項に規定する特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書をいう。
+    text: 一　特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書　それぞれ法第二十一条の四第一項に規定する特定障害者、特別障害者、受託者、受託者の営業所等、信託受益権又は障害者非課税信託申告書をいう。
     modality: teigi
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-4-7-p1-kou-2
     type: kou
-    text: 特定障害者扶養信託契約　法第二十一条の四第二項に規定する特定障害者扶養信託契約をいう。
+    text: 二　特定障害者扶養信託契約　法第二十一条の四第二項に規定する特定障害者扶養信託契約をいう。
     modality: teigi
     item_number: 2
 cases: []

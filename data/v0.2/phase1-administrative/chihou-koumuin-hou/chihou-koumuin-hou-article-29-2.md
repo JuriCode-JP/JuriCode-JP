@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: chihou-koumuin-hou-art-29-2-p1-kou-1
     type: kou
-    text: 条件附採用期間中の職員
+    text: 一　条件附採用期間中の職員
     modality: unspecified
     item_number: 1
   - id: chihou-koumuin-hou-art-29-2-p1-kou-2
     type: kou
-    text: 臨時的に任用された職員
+    text: 二　臨時的に任用された職員
     modality: unspecified
     item_number: 2
 - number: 2

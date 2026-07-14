@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-1-12-3-p1-kou-1
     type: kou
-    text: 法第三十七条の四及び第三百十四条の九第一項の規定により所得割額から控除する株式等譲渡所得割額
+    text: 一　法第三十七条の四及び第三百十四条の九第一項の規定により所得割額から控除する株式等譲渡所得割額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-1-12-3-p1-kou-2
     type: kou
-    text: その他参考となるべき事項
+    text: 二　その他参考となるべき事項
     modality: unspecified
     item_number: 2
 - number: 2

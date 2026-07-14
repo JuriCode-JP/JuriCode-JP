@@ -57,12 +57,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-388-p4-kou-1
     type: kou
-    text: 市町村の固定資産評価員が固定資産を評価するために必要な評価の手引その他の資料を作成すること。
+    text: 一　市町村の固定資産評価員が固定資産を評価するために必要な評価の手引その他の資料を作成すること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-388-p4-kou-2
     type: kou
-    text: 市町村の固定資産評価員が評価をすることが著しく困難である固定資産の評価について市町村長から助言を求められた場合において助言を与えること。
+    text: 二　市町村の固定資産評価員が評価をすることが著しく困難である固定資産の評価について市町村長から助言を求められた場合において助言を与えること。
     modality: unspecified
     item_number: 2
 cases: []

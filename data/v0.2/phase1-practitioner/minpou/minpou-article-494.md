@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-494-p1-kou-1
     type: kou
-    text: 弁済の提供をした場合において、債権者がその受領を拒んだとき。
+    text: 一　弁済の提供をした場合において、債権者がその受領を拒んだとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-494-p1-kou-2
     type: kou
-    text: 債権者が弁済を受領することができないとき。
+    text: 二　債権者が弁済を受領することができないとき。
     modality: unspecified
     item_number: 2
 - number: 2

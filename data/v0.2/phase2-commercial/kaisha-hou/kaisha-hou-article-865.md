@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の訴えは、社債管理者が同項の行為の取消しの原因となる事実を知った時から六箇月を経過したときは、提起することができない。同項の行為の時から一年を経過したときも、同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false

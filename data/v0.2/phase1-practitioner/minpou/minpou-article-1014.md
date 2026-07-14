@@ -42,8 +42,8 @@ paragraphs:
     text: 前項の財産が預貯金債権である場合には、遺言執行者は、同項に規定する行為のほか、その預金又は貯金の払戻しの請求及びその預金又は貯金に係る契約の解約の申入れをすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: minpou-art-1014-p3-tadashi
     type: tadashi
     text: ただし、解約の申入れについては、その預貯金債権の全部が特定財産承継遺言の目的である場合に限る。

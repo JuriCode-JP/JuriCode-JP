@@ -52,12 +52,12 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-art-756-p4-kou-1
     type: kou
-    text: 第七十四条の二十四第一項の規定に該当する場合　同項に規定する計算の基礎となるべき更正による不足税額又は修正申告により増加した税額
+    text: 一　第七十四条の二十四第一項の規定に該当する場合　同項に規定する計算の基礎となるべき更正による不足税額又は修正申告により増加した税額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-756-p4-kou-2
     type: kou
-    text: 第七十四条の二十四第二項の規定に該当する場合　同項に規定する計算の基礎となるべき税額
+    text: 二　第七十四条の二十四第二項の規定に該当する場合　同項に規定する計算の基礎となるべき税額
     modality: unspecified
     item_number: 2
 - number: 5
@@ -73,12 +73,12 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-art-756-p5-kou-1
     type: kou
-    text: 第百四十四条の四十八第一項の規定に該当する場合　同項に規定する計算の基礎となるべき更正による不足金額
+    text: 一　第百四十四条の四十八第一項の規定に該当する場合　同項に規定する計算の基礎となるべき更正による不足金額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-756-p5-kou-2
     type: kou
-    text: 第百四十四条の四十八第二項の規定に該当する場合　同項に規定する計算の基礎となるべき税額
+    text: 二　第百四十四条の四十八第二項の規定に該当する場合　同項に規定する計算の基礎となるべき税額
     modality: unspecified
     item_number: 2
 - number: 6
@@ -94,12 +94,12 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-art-756-p6-kou-1
     type: kou
-    text: 第四百八十四条第一項の規定に該当する場合　同項に規定する計算の基礎となるべき更正による不足税額又は修正申告により増加した税額
+    text: 一　第四百八十四条第一項の規定に該当する場合　同項に規定する計算の基礎となるべき更正による不足税額又は修正申告により増加した税額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-756-p6-kou-2
     type: kou
-    text: 第四百八十四条第二項の規定に該当する場合　同項に規定する計算の基礎となるべき税額
+    text: 二　第四百八十四条第二項の規定に該当する場合　同項に規定する計算の基礎となるべき税額
     modality: unspecified
     item_number: 2
 - number: 7

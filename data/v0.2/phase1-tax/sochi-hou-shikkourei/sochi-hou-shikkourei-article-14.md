@@ -31,21 +31,21 @@ paragraphs:
     text: 法第二十二条第一項第一号に規定する収入金額として政令で定める金額は、同項に規定する個人が採掘した同項に規定する鉱物（以下この条において「鉱物」という。）に係るその年の同項の規定する指定期間（次項において「指定期間」という。）内の次に掲げる収入金額の合計額とする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
   - id: sochi-hou-shikkourei-art-14-p2-kou-1
     type: kou
-    text: 当該鉱物の販売による収入金額
+    text: 一　当該鉱物の販売による収入金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-14-p2-kou-2
     type: kou
-    text: 選鉱後の当該鉱物の販売による収入金額
+    text: 二　選鉱後の当該鉱物の販売による収入金額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-14-p2-kou-3
     type: kou
-    text: 当該鉱物を原材料として製造した物品の販売による収入金額のうち前号に掲げる収入金額に相当する金額として財務省令で定める金額
+    text: 三　当該鉱物を原材料として製造した物品の販売による収入金額のうち前号に掲げる収入金額に相当する金額として財務省令で定める金額
     modality: unspecified
     item_number: 3
 - number: 3
@@ -58,9 +58,9 @@ paragraphs:
     text: 法第二十二条第一項第二号に規定する所得の金額として政令で定める金額は、前項に規定する個人が採掘した鉱物に係るその年の指定期間内の同項各号に掲げる収入金額に係る所得の金額の合計額から当該収入金額に係る損失の金額の合計額を控除した残額（次項において「採掘所得金額」という。）とする。
     modality: gimu
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: true
@@ -74,16 +74,16 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: sochi-hou-shikkourei-art-14-p4-kou-1
     type: kou
-    text: 当該各年の採掘損失金額（前項に規定する損失の金額の合計額が同項に規定する所得の金額の合計額を超える場合におけるその超える部分の金額をいう。）の合計額
+    text: 一　当該各年の採掘損失金額（前項に規定する損失の金額の合計額が同項に規定する所得の金額の合計額を超える場合におけるその超える部分の金額をいう。）の合計額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-14-p4-kou-2
     type: kou
-    text: 当該各年のこの項の規定を適用しないで計算した場合における採掘所得金額の合計額
+    text: 二　当該各年のこの項の規定を適用しないで計算した場合における採掘所得金額の合計額
     modality: unspecified
     item_number: 2
 - number: 5
@@ -97,22 +97,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-14-p5-kou-1
     type: kou
-    text: 探鉱のための地質の調査
+    text: 一　探鉱のための地質の調査
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-14-p5-kou-2
     type: kou
-    text: 地震探鉱、重力探鉱その他これらに類する探鉱
+    text: 二　地震探鉱、重力探鉱その他これらに類する探鉱
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-14-p5-kou-3
     type: kou
-    text: 探鉱のためのボーリング
+    text: 三　探鉱のためのボーリング
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-14-p5-kou-4
     type: kou
-    text: 鉱量が推定されていない鉱床につき鉱量を推定するための坑道の掘削（当該推定に必要な範囲内のものに限る。）
+    text: 四　鉱量が推定されていない鉱床につき鉱量を推定するための坑道の掘削（当該推定に必要な範囲内のものに限る。）
     modality: unspecified
     item_number: 4
 - number: 6

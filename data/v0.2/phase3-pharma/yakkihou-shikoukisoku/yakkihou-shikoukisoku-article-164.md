@@ -34,27 +34,27 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-164-p2-kou-1
     type: kou
-    text: 高度管理医療機器等営業所管理者の第百六十八条に規定する研修の受講状況
+    text: 一　高度管理医療機器等営業所管理者の第百六十八条に規定する研修の受講状況
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-164-p2-kou-2
     type: kou
-    text: 営業所における品質確保の実施の状況
+    text: 二　営業所における品質確保の実施の状況
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-164-p2-kou-3
     type: kou
-    text: 苦情処理、回収処理その他不良品の処理の状況
+    text: 三　苦情処理、回収処理その他不良品の処理の状況
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-164-p2-kou-4
     type: kou
-    text: 営業所の従業者の教育訓練の実施の状況
+    text: 四　営業所の従業者の教育訓練の実施の状況
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-164-p2-kou-5
     type: kou
-    text: その他営業所の管理に関する事項
+    text: 五　その他営業所の管理に関する事項
     modality: unspecified
     item_number: 5
 - number: 3

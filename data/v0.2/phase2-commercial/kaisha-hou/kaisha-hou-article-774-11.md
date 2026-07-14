@@ -43,17 +43,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-774-11-p3-kou-1
     type: kou
-    text: 第七百七十四条の三第一項第五号イに掲げる事項についての定めがある場合　同号イの社債の社債権者
+    text: 一　第七百七十四条の三第一項第五号イに掲げる事項についての定めがある場合　同号イの社債の社債権者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-774-11-p3-kou-2
     type: kou
-    text: 第七百七十四条の三第一項第五号ロに掲げる事項についての定めがある場合　同号ロの新株予約権の新株予約権者
+    text: 二　第七百七十四条の三第一項第五号ロに掲げる事項についての定めがある場合　同号ロの新株予約権の新株予約権者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-774-11-p3-kou-3
     type: kou
-    text: 第七百七十四条の三第一項第五号ハに掲げる事項についての定めがある場合　同号ハの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
+    text: 三　第七百七十四条の三第一項第五号ハに掲げる事項についての定めがある場合　同号ハの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
     modality: unspecified
     item_number: 3
 - number: 4
@@ -67,22 +67,22 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-774-11-p4-kou-1
     type: kou
-    text: 第七百七十四条の三第一項第八号イに掲げる事項についての定めがある場合　同号イの株式の株主
+    text: 一　第七百七十四条の三第一項第八号イに掲げる事項についての定めがある場合　同号イの株式の株主
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-774-11-p4-kou-2
     type: kou
-    text: 第七百七十四条の三第一項第八号ロに掲げる事項についての定めがある場合　同号ロの社債の社債権者
+    text: 二　第七百七十四条の三第一項第八号ロに掲げる事項についての定めがある場合　同号ロの社債の社債権者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-774-11-p4-kou-3
     type: kou
-    text: 第七百七十四条の三第一項第八号ハに掲げる事項についての定めがある場合　同号ハの新株予約権の新株予約権者
+    text: 三　第七百七十四条の三第一項第八号ハに掲げる事項についての定めがある場合　同号ハの新株予約権の新株予約権者
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-774-11-p4-kou-4
     type: kou
-    text: 第七百七十四条の三第一項第八号ニに掲げる事項についての定めがある場合　同号ニの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
+    text: 四　第七百七十四条の三第一項第八号ニに掲げる事項についての定めがある場合　同号ニの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
     modality: unspecified
     item_number: 4
 - number: 5
@@ -96,22 +96,22 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-774-11-p5-kou-1
     type: kou
-    text: 効力発生日において第八百十六条の八の規定による手続が終了していない場合
+    text: 一　効力発生日において第八百十六条の八の規定による手続が終了していない場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-774-11-p5-kou-2
     type: kou
-    text: 株式交付を中止した場合
+    text: 二　株式交付を中止した場合
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-774-11-p5-kou-3
     type: kou
-    text: 効力発生日において株式交付親会社が第七百七十四条の七第二項の規定による給付を受けた株式交付子会社の株式の総数が第七百七十四条の三第一項第二号の下限の数に満たない場合
+    text: 三　効力発生日において株式交付親会社が第七百七十四条の七第二項の規定による給付を受けた株式交付子会社の株式の総数が第七百七十四条の三第一項第二号の下限の数に満たない場合
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-774-11-p5-kou-4
     type: kou
-    text: 効力発生日において第二項の規定により第七百七十四条の三第一項第三号の株式交付親会社の株式の株主となる者がない場合
+    text: 四　効力発生日において第二項の規定により第七百七十四条の三第一項第三号の株式交付親会社の株式の株主となる者がない場合
     modality: unspecified
     item_number: 4
 - number: 6

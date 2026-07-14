@@ -43,22 +43,22 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-482-p3-kou-1
     type: kou
-    text: 支配人の選任及び解任
+    text: 一　支配人の選任及び解任
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-482-p3-kou-2
     type: kou
-    text: 支店の設置、移転及び廃止
+    text: 二　支店の設置、移転及び廃止
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-482-p3-kou-3
     type: kou
-    text: 第二百九十八条第一項各号（第三百二十五条において準用する場合を含む。）に掲げる事項
+    text: 三　第二百九十八条第一項各号（第三百二十五条において準用する場合を含む。）に掲げる事項
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-482-p3-kou-4
     type: kou
-    text: 清算人の職務の執行が法令及び定款に適合することを確保するための体制その他清算株式会社の業務の適正を確保するために必要なものとして法務省令で定める体制の整備
+    text: 四　清算人の職務の執行が法令及び定款に適合することを確保するための体制その他清算株式会社の業務の適正を確保するために必要なものとして法務省令で定める体制の整備
     modality: unspecified
     item_number: 4
 - number: 4

@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: minpou-art-469-p2-kou-1
     type: kou
-    text: 対抗要件具備時より前の原因に基づいて生じた債権
+    text: 一　対抗要件具備時より前の原因に基づいて生じた債権
     modality: unspecified
     item_number: 1
   - id: minpou-art-469-p2-kou-2
     type: kou
-    text: 前号に掲げるもののほか、譲受人の取得した債権の発生原因である契約に基づいて生じた債権
+    text: 二　前号に掲げるもののほか、譲受人の取得した債権の発生原因である契約に基づいて生じた債権
     modality: unspecified
     item_number: 2
 - number: 3

@@ -36,8 +36,8 @@ paragraphs:
     text: 前項本文の場合において慣習が明らかでないときは、同項の権利を承継すべき者は、家庭裁判所が定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

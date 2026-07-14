@@ -59,6 +59,10 @@ paragraphs:
     modality: unspecified
     references:
     - 前三項
+  - id: douro-koutsuu-hou-art-107-4-supplnote-1
+    type: supplnote
+    text: （罰則　第三項については第百十九条第一項第二十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

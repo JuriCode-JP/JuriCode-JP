@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-50-p1-kou-1
     type: kou
-    text: 法第百三十一条第一項に規定する延納届出書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    text: 一　法第百三十一条第一項に規定する延納届出書を提出する者の氏名及び住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-50-p1-kou-2
     type: kou
-    text: 法第百三十一条第一項の規定による延納をしようとする所得税の額
+    text: 二　法第百三十一条第一項の規定による延納をしようとする所得税の額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-50-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

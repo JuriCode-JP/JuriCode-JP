@@ -25,11 +25,11 @@ paragraphs:
     override_target:
     - 前三条
     references:
-    - 前三条
-    - 次条
-    - 次項
     - 同項
+    - 次条
     - 前条
+    - 次項
+    - 前三条
 - number: 2
   has_proviso: false
   has_items: false
@@ -40,8 +40,8 @@ paragraphs:
     text: 前項の規定により行われた同項の申告については、申告書記載事項が記載された納税申告書等により行われたものとみなして、この法律又はこれに基づく命令の規定その他政令で定める法令の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

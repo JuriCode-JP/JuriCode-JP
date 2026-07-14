@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-101-17-p2-kou-1
     type: kou
-    text: 商号
+    text: 一　商号
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-101-17-p2-kou-2
     type: kou
-    text: 本店、支店その他の営業所の所在の場所
+    text: 二　本店、支店その他の営業所の所在の場所
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-101-17-p2-kou-3
     type: kou
-    text: 役員の氏名又は名称及び取引参加者の商号又は名称
+    text: 三　役員の氏名又は名称及び取引参加者の商号又は名称
     modality: unspecified
     item_number: 3
 - number: 3

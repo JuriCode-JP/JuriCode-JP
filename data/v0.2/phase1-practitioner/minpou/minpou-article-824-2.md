@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-824-2-p1-kou-1
     type: kou
-    text: その一方のみが親権者であるとき。
+    text: 一　その一方のみが親権者であるとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-824-2-p1-kou-2
     type: kou
-    text: 他の一方が親権を行うことができないとき。
+    text: 二　他の一方が親権を行うことができないとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-824-2-p1-kou-3
     type: kou
-    text: 子の利益のため急迫の事情があるとき。
+    text: 三　子の利益のため急迫の事情があるとき。
     modality: unspecified
     item_number: 3
 - number: 2

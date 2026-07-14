@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-4-p1-kou-1
     type: kou
-    text: ベンゾール
+    text: 一　ベンゾール
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-4-p1-kou-2
     type: kou
-    text: シクロヘキサン
+    text: 二　シクロヘキサン
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-47-4-p1-kou-3
     type: kou
-    text: ノルマルヘキサン
+    text: 三　ノルマルヘキサン
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-47-4-p1-kou-4
     type: kou
-    text: トルオール
+    text: 四　トルオール
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-47-4-p1-kou-5
     type: kou
-    text: キシロール
+    text: 五　キシロール
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-47-4-p1-kou-6
     type: kou
-    text: アルキルベンゾール
+    text: 六　アルキルベンゾール
     modality: unspecified
     item_number: 6
 - number: 2
@@ -62,17 +62,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-4-p2-kou-1
     type: kou
-    text: フェノール、合成ゴムその他炭化水素油（炭化水素とその他の物との混合物又は単一の炭化水素で、温度十五度及び一気圧において液状のものを含む。次号において同じ。）に該当しない物の製造用
+    text: 一　フェノール、合成ゴムその他炭化水素油（炭化水素とその他の物との混合物又は単一の炭化水素で、温度十五度及び一気圧において液状のものを含む。次号において同じ。）に該当しない物の製造用
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-4-p2-kou-2
     type: kou
-    text: 炭化水素油で、揮発油税法施行令第十条の三に規定する規格を有するもの、第四十七条に掲げる石油化学製品に該当するもの又は法第八十九条の三第一項若しくは法第九十条第一項に規定する用途に供するためのもので第四十七条の七第二項若しくは第四十八条第二項に規定する規格を有する揮発油の製造用
+    text: 二　炭化水素油で、揮発油税法施行令第十条の三に規定する規格を有するもの、第四十七条に掲げる石油化学製品に該当するもの又は法第八十九条の三第一項若しくは法第九十条第一項に規定する用途に供するためのもので第四十七条の七第二項若しくは第四十八条第二項に規定する規格を有する揮発油の製造用
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-47-4-p2-kou-3
     type: kou
-    text: その他財務省令で定める用途
+    text: 三　その他財務省令で定める用途
     modality: unspecified
     item_number: 3
 - number: 3

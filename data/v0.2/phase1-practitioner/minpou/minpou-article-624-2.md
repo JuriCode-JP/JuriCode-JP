@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-624-2-p1-kou-1
     type: kou
-    text: 使用者の責めに帰することができない事由によって労働に従事することができなくなったとき。
+    text: 一　使用者の責めに帰することができない事由によって労働に従事することができなくなったとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-624-2-p1-kou-2
     type: kou
-    text: 雇用が履行の中途で終了したとき。
+    text: 二　雇用が履行の中途で終了したとき。
     modality: unspecified
     item_number: 2
 cases: []

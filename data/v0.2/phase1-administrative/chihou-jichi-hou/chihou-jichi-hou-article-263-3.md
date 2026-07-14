@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の連合組織で同項の規定による届出をしたものは、地方自治に影響を及ぼす法律又は政令その他の事項に関し、総務大臣を経由して内閣に対し意見を申し出、又は国会に意見書を提出することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

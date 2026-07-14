@@ -37,9 +37,9 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -80,8 +80,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

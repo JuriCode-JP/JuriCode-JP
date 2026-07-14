@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定は、同項の危険が過失によって生じた場合における利害関係人から当該過失のある者に対する求償権の行使を妨げない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

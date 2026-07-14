@@ -41,6 +41,10 @@ paragraphs:
     type: simple
     text: 第一項の規定による立入検査の権限は、犯罪捜査のために認められたものと解してはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-15-5-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条の二の三第一号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

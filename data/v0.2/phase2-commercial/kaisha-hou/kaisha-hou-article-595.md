@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-595-p1-kou-1
     type: kou
-    text: 業務を執行する社員が自己又は第三者のために持分会社と取引をしようとするとき。
+    text: 一　業務を執行する社員が自己又は第三者のために持分会社と取引をしようとするとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-595-p1-kou-2
     type: kou
-    text: 持分会社が業務を執行する社員の債務を保証することその他社員でない者との間において持分会社と当該社員との利益が相反する取引をしようとするとき。
+    text: 二　持分会社が業務を執行する社員の債務を保証することその他社員でない者との間において持分会社と当該社員との利益が相反する取引をしようとするとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 民法第百八条の規定は、前項の承認を受けた同項各号の取引については、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

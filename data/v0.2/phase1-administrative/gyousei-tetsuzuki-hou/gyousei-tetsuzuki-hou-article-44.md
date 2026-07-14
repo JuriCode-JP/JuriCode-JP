@@ -24,8 +24,8 @@ paragraphs:
     applies_provisions:
     - 第四十二条
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

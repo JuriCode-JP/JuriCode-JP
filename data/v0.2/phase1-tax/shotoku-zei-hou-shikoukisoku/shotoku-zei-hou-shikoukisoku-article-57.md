@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-57-p1-kou-1
     type: kou
-    text: 不動産所得については、その不動産所得を生ずべき法第二十六条第一項（不動産所得）に規定する不動産等の貸付けに係る資産、負債及び資本
+    text: 一　不動産所得については、その不動産所得を生ずべき法第二十六条第一項（不動産所得）に規定する不動産等の貸付けに係る資産、負債及び資本
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-57-p1-kou-2
     type: kou
-    text: 事業所得については、その事業所得を生ずべき事業に係る資産、負債及び資本
+    text: 二　事業所得については、その事業所得を生ずべき事業に係る資産、負債及び資本
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-57-p1-kou-3
     type: kou
-    text: 山林所得については、その山林所得を生ずべき業務に係る資産、負債及び資本
+    text: 三　山林所得については、その山林所得を生ずべき業務に係る資産、負債及び資本
     modality: unspecified
     item_number: 3
 - number: 2

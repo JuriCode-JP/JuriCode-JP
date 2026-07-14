@@ -39,8 +39,8 @@ paragraphs:
     override_target:
     - 第四十九条
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false
@@ -54,8 +54,8 @@ paragraphs:
     override_target:
     - 第四十九条
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

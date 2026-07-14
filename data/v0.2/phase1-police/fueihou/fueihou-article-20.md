@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の風俗営業者は、国家公安委員会規則で定めるところにより、当該営業所における遊技機につき同項に規定する基準に該当しない旨の公安委員会の認定を受けることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -56,8 +56,8 @@ paragraphs:
     text: 前項の規格が定められた場合においては、遊技機の製造業者（外国において本邦に輸出する遊技機を製造する者を含む。）又は輸入業者は、その製造し、又は輸入する遊技機の型式が同項の規定による技術上の規格に適合しているか否かについて公安委員会の検定を受けることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

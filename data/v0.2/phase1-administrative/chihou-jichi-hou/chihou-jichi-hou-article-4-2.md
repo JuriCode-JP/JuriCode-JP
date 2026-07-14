@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: chihou-jichi-hou-art-4-2-p2-kou-1
     type: kou
-    text: 日曜日及び土曜日
+    text: 一　日曜日及び土曜日
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-4-2-p2-kou-2
     type: kou
-    text: 国民の祝日に関する法律（昭和二十三年法律第百七十八号）に規定する休日
+    text: 二　国民の祝日に関する法律（昭和二十三年法律第百七十八号）に規定する休日
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-4-2-p2-kou-3
     type: kou
-    text: 年末又は年始における日で条例で定めるもの
+    text: 三　年末又は年始における日で条例で定めるもの
     modality: unspecified
     item_number: 3
 - number: 3

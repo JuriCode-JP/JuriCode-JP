@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-265-2-p1-kou-1
     type: kou
-    text: 届出者の氏名及び住所
+    text: 一　届出者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-265-2-p1-kou-2
     type: kou
-    text: 当該医療機器等輸出業者が製造販売業者である場合（次号に掲げる場合を除く。）にあつては、主たる機能を有する事務所の名称及び所在地
+    text: 二　当該医療機器等輸出業者が製造販売業者である場合（次号に掲げる場合を除く。）にあつては、主たる機能を有する事務所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-265-2-p1-kou-3
     type: kou
-    text: 当該医療機器等輸出業者が製造業者である場合にあつては、製造所の名称及び所在地
+    text: 三　当該医療機器等輸出業者が製造業者である場合にあつては、製造所の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-265-2-p1-kou-4
     type: kou
-    text: 第二号に掲げる場合にあつては、製造販売業の許可の種類、許可番号及び許可年月日
+    text: 四　第二号に掲げる場合にあつては、製造販売業の許可の種類、許可番号及び許可年月日
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-265-2-p1-kou-5
     type: kou
-    text: 第三号に掲げる場合にあつては、製造業の登録番号及び登録年月日
+    text: 五　第三号に掲げる場合にあつては、製造業の登録番号及び登録年月日
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-265-2-p1-kou-6
     type: kou
-    text: 輸出するために製造等をし、又は輸入をしようとする医療機器又は体外診断用医薬品の品目及びその輸出先その他の当該医療機器又は体外診断用医薬品に係る情報
+    text: 六　輸出するために製造等をし、又は輸入をしようとする医療機器又は体外診断用医薬品の品目及びその輸出先その他の当該医療機器又は体外診断用医薬品に係る情報
     modality: unspecified
     item_number: 6
 - number: 2

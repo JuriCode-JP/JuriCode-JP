@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: shouhou-art-823-p1-kou-1
     type: kou
-    text: 被保険者が発航又は航海の継続を怠ったとき。
+    text: 一　被保険者が発航又は航海の継続を怠ったとき。
     modality: unspecified
     item_number: 1
   - id: shouhou-art-823-p1-kou-2
     type: kou
-    text: 被保険者が航路を変更したとき。
+    text: 二　被保険者が航路を変更したとき。
     modality: unspecified
     item_number: 2
   - id: shouhou-art-823-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、保険契約者又は被保険者が危険を著しく増加させたとき。
+    text: 三　前二号に掲げるもののほか、保険契約者又は被保険者が危険を著しく増加させたとき。
     modality: unspecified
     item_number: 3
 cases: []

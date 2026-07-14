@@ -42,8 +42,8 @@ paragraphs:
     text: 厚生労働大臣が法第八十条の十第一項の規定により機構に登録等を行わせることとした場合における前項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

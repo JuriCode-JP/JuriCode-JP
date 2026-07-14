@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-16-17-p1-kou-1
     type: kou
-    text: 第十六条の十四第一項第一号に掲げる場合　当該土地に係る政令第五十四条の三十四第二項第七号に規定する従前の不動産等（次号において「従前の不動産等」という。）の取得価額
+    text: 一　第十六条の十四第一項第一号に掲げる場合　当該土地に係る政令第五十四条の三十四第二項第七号に規定する従前の不動産等（次号において「従前の不動産等」という。）の取得価額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-16-17-p1-kou-2
     type: kou
-    text: 第十六条の十四第一項第二号に掲げる場合　当該土地に係る従前の不動産等の取得価額に当該土地に係る従前の不動産等の補償金等の額に対する当該土地の価額の割合を乗じて得た額
+    text: 二　第十六条の十四第一項第二号に掲げる場合　当該土地に係る従前の不動産等の取得価額に当該土地に係る従前の不動産等の補償金等の額に対する当該土地の価額の割合を乗じて得た額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-16-17-p2-kou-1
     type: kou
-    text: 第十六条の十四第三項第一号に掲げる場合　当該土地に係る政令第五十四条の三十四第二項第八号に規定する譲渡不動産（次号において「譲渡不動産」という。）の取得価額
+    text: 一　第十六条の十四第三項第一号に掲げる場合　当該土地に係る政令第五十四条の三十四第二項第八号に規定する譲渡不動産（次号において「譲渡不動産」という。）の取得価額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-16-17-p2-kou-2
     type: kou
-    text: 第十六条の十四第三項第二号に掲げる場合　当該土地に係る譲渡不動産の取得価額に当該土地に係る譲渡不動産の対価の額に対する当該土地の価額の割合を乗じて得た額
+    text: 二　第十六条の十四第三項第二号に掲げる場合　当該土地に係る譲渡不動産の取得価額に当該土地に係る譲渡不動産の対価の額に対する当該土地の価額の割合を乗じて得た額
     modality: unspecified
     item_number: 2
 - number: 3
@@ -61,12 +61,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-16-17-p3-kou-1
     type: kou
-    text: 第十六条の十四第四項第一号に掲げる場合　当該土地に係る政令第五十四条の三十四第二項第九号に規定する交換分合前の土地（次号において「交換分合前の土地」という。）の取得価額
+    text: 一　第十六条の十四第四項第一号に掲げる場合　当該土地に係る政令第五十四条の三十四第二項第九号に規定する交換分合前の土地（次号において「交換分合前の土地」という。）の取得価額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-16-17-p3-kou-2
     type: kou
-    text: 第十六条の十四第四項第二号に掲げる場合　当該土地に係る交換分合前の土地の取得価額に当該土地に係る交換分合前の土地の価額に対する当該土地の価額の割合を乗じて得た額
+    text: 二　第十六条の十四第四項第二号に掲げる場合　当該土地に係る交換分合前の土地の取得価額に当該土地に係る交換分合前の土地の価額に対する当該土地の価額の割合を乗じて得た額
     modality: unspecified
     item_number: 2
 cases: []

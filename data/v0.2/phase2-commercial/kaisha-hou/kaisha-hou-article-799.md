@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-799-p1-kou-1
     type: kou
-    text: 吸収合併をする場合　吸収合併存続株式会社の債権者
+    text: 一　吸収合併をする場合　吸収合併存続株式会社の債権者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-799-p1-kou-2
     type: kou
-    text: 吸収分割をする場合　吸収分割承継株式会社の債権者
+    text: 二　吸収分割をする場合　吸収分割承継株式会社の債権者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-799-p1-kou-3
     type: kou
-    text: 株式交換をする場合において、株式交換完全子会社の株主に対して交付する金銭等が株式交換完全親株式会社の株式その他これに準ずるものとして法務省令で定めるもののみである場合以外の場合又は第七百六十八条第一項第四号ハに規定する場合　株式交換完全親株式会社の債権者
+    text: 三　株式交換をする場合において、株式交換完全子会社の株主に対して交付する金銭等が株式交換完全親株式会社の株式その他これに準ずるものとして法務省令で定めるもののみである場合以外の場合又は第七百六十八条第一項第四号ハに規定する場合　株式交換完全親株式会社の債権者
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,22 +49,22 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-799-p2-kou-1
     type: kou
-    text: 吸収合併等をする旨
+    text: 一　吸収合併等をする旨
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-799-p2-kou-2
     type: kou
-    text: 消滅会社等の商号及び住所
+    text: 二　消滅会社等の商号及び住所
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-799-p2-kou-3
     type: kou
-    text: 存続株式会社等及び消滅会社等（株式会社に限る。）の計算書類に関する事項として法務省令で定めるもの
+    text: 三　存続株式会社等及び消滅会社等（株式会社に限る。）の計算書類に関する事項として法務省令で定めるもの
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-799-p2-kou-4
     type: kou
-    text: 債権者が一定の期間内に異議を述べることができる旨
+    text: 四　債権者が一定の期間内に異議を述べることができる旨
     modality: unspecified
     item_number: 4
 - number: 3
@@ -80,8 +80,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

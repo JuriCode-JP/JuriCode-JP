@@ -41,37 +41,37 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-shikoukisoku-art-38-2-p3-kou-1
     type: kou
-    text: 国等　法第八十二条第十四号イに規定する国等をいう。
+    text: 一　国等　法第八十二条第十四号イに規定する国等をいう。
     modality: teigi
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-2-p3-kou-2
     type: kou
-    text: 非営利会社等　法第八十二条第十四号ハに規定する非営利会社等をいう。
+    text: 二　非営利会社等　法第八十二条第十四号ハに規定する非営利会社等をいう。
     modality: teigi
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-2-p3-kou-3
     type: kou
-    text: 税引後当期純損益金額　令第百五十五条の十六第一項第一号（当期純損益金額）に規定する税引後当期純損益金額をいう。
+    text: 三　税引後当期純損益金額　令第百五十五条の十六第一項第一号（当期純損益金額）に規定する税引後当期純損益金額をいう。
     modality: teigi
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-38-2-p3-kou-4
     type: kou
-    text: 最終親会社等財務会計基準　令第百五十五条の十六第一項第一号に規定する最終親会社等財務会計基準をいう。
+    text: 四　最終親会社等財務会計基準　令第百五十五条の十六第一項第一号に規定する最終親会社等財務会計基準をいう。
     modality: teigi
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-38-2-p3-kou-5
     type: kou
-    text: 個別財務諸表　令第百五十五条の十六第一項第二号イに規定する個別財務諸表をいう。
+    text: 五　個別財務諸表　令第百五十五条の十六第一項第二号イに規定する個別財務諸表をいう。
     modality: teigi
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-38-2-p3-kou-6
     type: kou
-    text: 代用財務会計基準　令第百五十五条の十六第二項に規定する代用財務会計基準をいう。
+    text: 六　代用財務会計基準　令第百五十五条の十六第二項に規定する代用財務会計基準をいう。
     modality: teigi
     item_number: 6
   - id: houjin-zei-hou-shikoukisoku-art-38-2-p3-kou-7
     type: kou
-    text: 欠損の金額　欠損金額又は我が国以外の国若しくは地域の租税に関する法令におけるこれに相当するものをいう。
+    text: 七　欠損の金額　欠損金額又は我が国以外の国若しくは地域の租税に関する法令におけるこれに相当するものをいう。
     modality: teigi
     item_number: 7
 cases: []

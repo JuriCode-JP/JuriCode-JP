@@ -40,8 +40,8 @@ paragraphs:
     text: 前項の場合において、同項の受益者が内国法人であるときは、当該受益者である内国法人は、同項の資産及び負債の同項に規定する帳簿価額による引継ぎを受けたものとして、各事業年度の所得の金額を計算する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -61,8 +61,8 @@ paragraphs:
     text: 前項の規定により同項の変更後の受託者が引継ぎを受ける資産及び負債の価額その他受託法人又はその受益者の各事業年度の所得の金額の計算に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments:
 - effective_date: '2022-04-01'

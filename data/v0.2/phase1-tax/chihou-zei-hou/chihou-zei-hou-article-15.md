@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-15-p1-kou-1
     type: kou
-    text: 納税者又は特別徴収義務者がその財産につき、震災、風水害、火災その他の災害を受け、又は盗難にかかつたとき。
+    text: 一　納税者又は特別徴収義務者がその財産につき、震災、風水害、火災その他の災害を受け、又は盗難にかかつたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-15-p1-kou-2
     type: kou
-    text: 納税者若しくは特別徴収義務者又はこれらの者と生計を一にする親族が病気にかかり、又は負傷したとき。
+    text: 二　納税者若しくは特別徴収義務者又はこれらの者と生計を一にする親族が病気にかかり、又は負傷したとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-15-p1-kou-3
     type: kou
-    text: 納税者又は特別徴収義務者がその事業を廃止し、又は休止したとき。
+    text: 三　納税者又は特別徴収義務者がその事業を廃止し、又は休止したとき。
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-15-p1-kou-4
     type: kou
-    text: 納税者又は特別徴収義務者がその事業につき著しい損失を受けたとき。
+    text: 四　納税者又は特別徴収義務者がその事業につき著しい損失を受けたとき。
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-15-p1-kou-5
     type: kou
-    text: 前各号のいずれかに該当する事実に類する事実があつたとき。
+    text: 五　前各号のいずれかに該当する事実に類する事実があつたとき。
     modality: unspecified
     item_number: 5
 - number: 2

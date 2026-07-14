@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-14-14-p1-kou-1
     type: kou
-    text: 不動産賃貸の先取特権その他質権と同一の順位又はこれらに優先する順位の動産に関する特別の先取特権（前条第一項第三号から第五号までに掲げる先取特権を除く。）
+    text: 一　不動産賃貸の先取特権その他質権と同一の順位又はこれらに優先する順位の動産に関する特別の先取特権（前条第一項第三号から第五号までに掲げる先取特権を除く。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-14-14-p1-kou-2
     type: kou
-    text: 不動産売買の先取特権
+    text: 二　不動産売買の先取特権
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-14-14-p1-kou-3
     type: kou
-    text: 借地借家法（平成三年法律第九十号）第十二条又は接収不動産に関する借地借家臨時処理法（昭和三十一年法律第百三十八号）第七条に規定する先取特権
+    text: 三　借地借家法（平成三年法律第九十号）第十二条又は接収不動産に関する借地借家臨時処理法（昭和三十一年法律第百三十八号）第七条に規定する先取特権
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-14-14-p1-kou-4
     type: kou
-    text: 登記をした一般の先取特権
+    text: 四　登記をした一般の先取特権
     modality: unspecified
     item_number: 4
 - number: 2

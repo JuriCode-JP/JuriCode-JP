@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu_kei
   - id: kinsho-hou-art-208-2-p1-kou-1
     type: kou
-    text: 第七十九条の二十三第二項の規定に違反した者
+    text: 一　第七十九条の二十三第二項の規定に違反した者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-208-2-p1-kou-2
     type: kou
-    text: 第百六十二条第一項（同条第二項において準用する場合を含む。）の規定に違反した者
+    text: 二　第百六十二条第一項（同条第二項において準用する場合を含む。）の規定に違反した者
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-208-2-p1-kou-3
     type: kou
-    text: 第百六十二条の二の規定による内閣府令に違反した者
+    text: 三　第百六十二条の二の規定による内閣府令に違反した者
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-208-2-p1-kou-4
     type: kou
-    text: 第百九十三条の三第一項の規定に違反した者
+    text: 四　第百九十三条の三第一項の規定に違反した者
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-208-2-p1-kou-5
     type: kou
-    text: 第百九十三条の三第二項の規定に違反して、申出をせず、又は虚偽の申出をした者
+    text: 五　第百九十三条の三第二項の規定に違反して、申出をせず、又は虚偽の申出をした者
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-208-2-p1-kou-6
     type: kou
-    text: 第百九十三条の三第三項の規定に違反して、通知をせず、又は虚偽の通知をした者
+    text: 六　第百九十三条の三第三項の規定に違反して、通知をせず、又は虚偽の通知をした者
     modality: unspecified
     item_number: 6
 cases: []

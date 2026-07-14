@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-48-5-p1-kou-1
     type: kou
-    text: 申請者の住所及び氏名又は名称並びに法人にあつては、法人番号
+    text: 一　申請者の住所及び氏名又は名称並びに法人にあつては、法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-5-p1-kou-2
     type: kou
-    text: 移出をしようとする製造場の所在地及び名称
+    text: 二　移出をしようとする製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-5-p1-kou-3
     type: kou
-    text: 移出をしようとする揮発油の数量
+    text: 三　移出をしようとする揮発油の数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-48-5-p1-kou-4
     type: kou
-    text: 移出の年月日
+    text: 四　移出の年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-48-5-p1-kou-5
     type: kou
-    text: 移出先に移入する者の住所及び氏名又は名称
+    text: 五　移出先に移入する者の住所及び氏名又は名称
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-48-5-p1-kou-6
     type: kou
-    text: 移出先の所在地及び名称
+    text: 六　移出先の所在地及び名称
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikkourei-art-48-5-p1-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 2
@@ -69,12 +69,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-48-5-p2-kou-1
     type: kou
-    text: 法第九十条の三第一項第一号又は第二号の規定に該当する場合　揮発油を購入しようとする者がこれらの規定に掲げる者に該当すること及び当該揮発油がこれらの規定に定めるものであることを証する書類
+    text: 一　法第九十条の三第一項第一号又は第二号の規定に該当する場合　揮発油を購入しようとする者がこれらの規定に掲げる者に該当すること及び当該揮発油がこれらの規定に定めるものであることを証する書類
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-5-p2-kou-2
     type: kou
-    text: 法第九十条の三第一項第三号の規定に該当する場合　同号の指定給油所が同項第一号又は第二号に掲げる者にこれらの規定に定める揮発油を販売したことを証する書類
+    text: 二　法第九十条の三第一項第三号の規定に該当する場合　同号の指定給油所が同項第一号又は第二号に掲げる者にこれらの規定に定める揮発油を販売したことを証する書類
     modality: unspecified
     item_number: 2
 - number: 3
@@ -99,27 +99,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-48-5-p4-kou-1
     type: kou
-    text: 申請者の住所、氏名又は名称及び個人番号又は法人番号
+    text: 一　申請者の住所、氏名又は名称及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-5-p4-kou-2
     type: kou
-    text: 当該給油所の所在地及び名称
+    text: 二　当該給油所の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-5-p4-kou-3
     type: kou
-    text: 当該給油所の敷地の状況及び建物の構造を示す図面
+    text: 三　当該給油所の敷地の状況及び建物の構造を示す図面
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-48-5-p4-kou-4
     type: kou
-    text: 申請の理由
+    text: 四　申請の理由
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-48-5-p4-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 5
@@ -132,8 +132,8 @@ paragraphs:
     text: 税務署長は、前項の申請書の提出があつた場合において、その提出者又は当該申請に係る場所につき、取締り上特に不適当であると認められる事情がないときは、同項の指定をするものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

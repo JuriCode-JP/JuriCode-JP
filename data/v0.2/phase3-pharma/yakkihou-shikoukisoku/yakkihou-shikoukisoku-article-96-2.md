@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-96-2-p1-kou-1
     type: kou
-    text: 医薬品製造管理者補佐薬剤師を置くこと。
+    text: 一　医薬品製造管理者補佐薬剤師を置くこと。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-96-2-p1-kou-2
     type: kou
-    text: 医薬品製造管理者として法第十七条第六項に規定する能力及び経験を有する薬剤師を置くために必要な措置
+    text: 二　医薬品製造管理者として法第十七条第六項に規定する能力及び経験を有する薬剤師を置くために必要な措置
     modality: unspecified
     item_number: 2
 cases: []

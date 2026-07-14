@@ -52,12 +52,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-15-5-6-p4-kou-1
     type: kou
-    text: 前条第一号に掲げる場合　相続人申告事項又は不動産登記規則第百五十八条の三十第四項の規定により相続人申告登記の抹消をした旨
+    text: 一　前条第一号に掲げる場合　相続人申告事項又は不動産登記規則第百五十八条の三十第四項の規定により相続人申告登記の抹消をした旨
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-15-5-6-p4-kou-2
     type: kou
-    text: 前条第二号に掲げる場合　不動産登記規則第百五十八条の三十八第一項各号に掲げる事項
+    text: 二　前条第二号に掲げる場合　不動産登記規則第百五十八条の三十八第一項各号に掲げる事項
     modality: unspecified
     item_number: 2
 cases: []

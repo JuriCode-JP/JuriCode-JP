@@ -25,42 +25,42 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-20-2-p1-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p1-kou-2
     type: kou
-    text: 当該試験研究に要する費用の見込額（五十万円を超えるものに限る。）
+    text: 二　当該試験研究に要する費用の見込額（五十万円を超えるものに限る。）
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p1-kou-3
     type: kou
-    text: 当該試験研究の実施期間
+    text: 三　当該試験研究の実施期間
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p1-kou-4
     type: kou
-    text: 当該試験研究に係る施行令第二十七条の五第二項第二号に規定する大学等（以下この条において「大学等」という。）の名称及び所在地並びに当該大学等の長の氏名
+    text: 四　当該試験研究に係る施行令第二十七条の五第二項第二号に規定する大学等（以下この条において「大学等」という。）の名称及び所在地並びに当該大学等の長の氏名
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p1-kou-5
     type: kou
-    text: 当該試験研究の実施場所
+    text: 五　当該試験研究の実施場所
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-20-2-p1-kou-6
     type: kou
-    text: 当該試験研究の用に供される設備の明細
+    text: 六　当該試験研究の用に供される設備の明細
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-20-2-p1-kou-7
     type: kou
-    text: 当該試験研究に直接従事する研究者の氏名
+    text: 七　当該試験研究に直接従事する研究者の氏名
     modality: unspecified
     item_number: 7
   - id: sochi-hou-shikoukisoku-art-20-2-p1-kou-8
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
+    text: 八　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
     modality: unspecified
     item_number: 8
 - number: 2
@@ -85,37 +85,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p3-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p3-kou-2
     type: kou
-    text: 当該試験研究の実施期間
+    text: 二　当該試験研究の実施期間
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p3-kou-3
     type: kou
-    text: 当該試験研究に係る施行令第二十七条の五第二項第三号に規定する特定新事業開拓事業者（第十六項第三号及び第二十一項において「特定新事業開拓事業者」という。）の名称及び代表者の氏名並びに本店の所在地
+    text: 三　当該試験研究に係る施行令第二十七条の五第二項第三号に規定する特定新事業開拓事業者（第十六項第三号及び第二十一項において「特定新事業開拓事業者」という。）の名称及び代表者の氏名並びに本店の所在地
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p3-kou-4
     type: kou
-    text: 当該試験研究の実施場所
+    text: 四　当該試験研究の実施場所
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p3-kou-5
     type: kou
-    text: 当該試験研究の用に供される設備の明細
+    text: 五　当該試験研究の用に供される設備の明細
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-20-2-p3-kou-6
     type: kou
-    text: 当該試験研究に直接従事する研究者の氏名
+    text: 六　当該試験研究に直接従事する研究者の氏名
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-20-2-p3-kou-7
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
+    text: 七　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
     modality: unspecified
     item_number: 7
 - number: 4
@@ -129,17 +129,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p4-kou-1
     type: kou
-    text: 研究開発成果活用促進事業者（特別研究開発法人（科学技術・イノベーション創出の活性化に関する法律別表第三に掲げる法人をいう。以下この項において同じ。）から同法第三十四条の六第一項の規定により出資を受ける同項第三号に掲げる者に該当する法人（当該特別研究開発法人から初めて受けた出資の直前において、その資本金の額又は出資金の額が五億円未満であるものに限る。）をいう。以下この号において同じ。）のうちその役員（取締役、執行役、会計参与及び監査役をいう。次号及び第三号において同じ。）が大学等又は特別研究開発法人の職員として当該大学等を設置する法人又は当該特別研究開発法人に雇用されているもの（これらの法人からその雇用関係を証する書類の交付を受けている場合における当該研究開発成果活用促進事業者に限る。）　当該研究開発成果活用促進事業者の株主名簿等の写し等（株主名簿の写しその他の書類で株主又は社員の氏名又は名称及び住所又は事務所の所在地が確認できる書類をいう。次号及び第三号において同じ。）のうちその出資をした特別研究開発法人が株主等（法人税法第二条第十四号に規定する株主等をいう。次号及び第三号において同じ。）として記載されている書類及び当該雇用関係を証する書類の写し
+    text: 一　研究開発成果活用促進事業者（特別研究開発法人（科学技術・イノベーション創出の活性化に関する法律別表第三に掲げる法人をいう。以下この項において同じ。）から同法第三十四条の六第一項の規定により出資を受ける同項第三号に掲げる者に該当する法人（当該特別研究開発法人から初めて受けた出資の直前において、その資本金の額又は出資金の額が五億円未満であるものに限る。）をいう。以下この号において同じ。）のうちその役員（取締役、執行役、会計参与及び監査役をいう。次号及び第三号において同じ。）が大学等又は特別研究開発法人の職員として当該大学等を設置する法人又は当該特別研究開発法人に雇用されているもの（これらの法人からその雇用関係を証する書類の交付を受けている場合における当該研究開発成果活用促進事業者に限る。）　当該研究開発成果活用促進事業者の株主名簿等の写し等（株主名簿の写しその他の書類で株主又は社員の氏名又は名称及び住所又は事務所の所在地が確認できる書類をいう。次号及び第三号において同じ。）のうちその出資をした特別研究開発法人が株主等（法人税法第二条第十四号に規定する株主等をいう。次号及び第三号において同じ。）として記載されている書類及び当該雇用関係を証する書類の写し
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p4-kou-2
     type: kou
-    text: 国立大学等成果活用促進事業者（国立大学法人法第二条第一項に規定する国立大学法人から同法第二十二条第一項第八号に掲げる業務として出資を受ける同号に規定する者又は同法第二条第三項に規定する大学共同利用機関法人から同法第二十九条第一項第七号に掲げる業務として出資を受ける同号に規定する者に該当する法人（当該国立大学法人又は大学共同利用機関法人から初めて受けた出資の直前において、その資本金の額又は出資金の額が五億円未満であるものに限る。）をいう。以下この号において同じ。）のうちその役員が大学等又は特別研究開発法人の職員として当該大学等を設置する法人又は当該特別研究開発法人に雇用されているもの（これらの法人からその雇用関係を証する書類の交付を受けている場合における当該国立大学等成果活用促進事業者に限る。）　当該国立大学等成果活用促進事業者の株主名簿等の写し等のうち当該国立大学法人又は大学共同利用機関法人が株主等として記載されている書類及び当該雇用関係を証する書類の写し
+    text: 二　国立大学等成果活用促進事業者（国立大学法人法第二条第一項に規定する国立大学法人から同法第二十二条第一項第八号に掲げる業務として出資を受ける同号に規定する者又は同法第二条第三項に規定する大学共同利用機関法人から同法第二十九条第一項第七号に掲げる業務として出資を受ける同号に規定する者に該当する法人（当該国立大学法人又は大学共同利用機関法人から初めて受けた出資の直前において、その資本金の額又は出資金の額が五億円未満であるものに限る。）をいう。以下この号において同じ。）のうちその役員が大学等又は特別研究開発法人の職員として当該大学等を設置する法人又は当該特別研究開発法人に雇用されているもの（これらの法人からその雇用関係を証する書類の交付を受けている場合における当該国立大学等成果活用促進事業者に限る。）　当該国立大学等成果活用促進事業者の株主名簿等の写し等のうち当該国立大学法人又は大学共同利用機関法人が株主等として記載されている書類及び当該雇用関係を証する書類の写し
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p4-kou-3
     type: kou
-    text: 公立大学成果活用促進事業者（地方独立行政法人法第六十八条第一項に規定する公立大学法人から同法第二十一条第二号ハに掲げる出資を受ける同号ハに規定する者に該当する法人（当該公立大学法人から初めて受けた出資の直前において、その資本金の額又は出資金の額が五億円未満であるものに限る。）をいう。以下この号において同じ。）のうちその役員が大学等又は特別研究開発法人の職員として当該大学等を設置する法人又は当該特別研究開発法人に雇用されているもの（これらの法人からその雇用関係を証する書類の交付を受けている場合における当該公立大学成果活用促進事業者に限る。）　当該公立大学成果活用促進事業者の株主名簿等の写し等のうち当該公立大学法人が株主等として記載されている書類及び当該雇用関係を証する書類の写し
+    text: 三　公立大学成果活用促進事業者（地方独立行政法人法第六十八条第一項に規定する公立大学法人から同法第二十一条第二号ハに掲げる出資を受ける同号ハに規定する者に該当する法人（当該公立大学法人から初めて受けた出資の直前において、その資本金の額又は出資金の額が五億円未満であるものに限る。）をいう。以下この号において同じ。）のうちその役員が大学等又は特別研究開発法人の職員として当該大学等を設置する法人又は当該特別研究開発法人に雇用されているもの（これらの法人からその雇用関係を証する書類の交付を受けている場合における当該公立大学成果活用促進事業者に限る。）　当該公立大学成果活用促進事業者の株主名簿等の写し等のうち当該公立大学法人が株主等として記載されている書類及び当該雇用関係を証する書類の写し
     modality: unspecified
     item_number: 3
 - number: 5
@@ -153,12 +153,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p5-kou-1
     type: kou
-    text: 国立大学法人法施行令第三条第二項第一号に掲げる事業として行う研究開発
+    text: 一　国立大学法人法施行令第三条第二項第一号に掲げる事業として行う研究開発
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p5-kou-2
     type: kou
-    text: 地方独立行政法人法施行令第四条第二項第二号ロに掲げる研究開発
+    text: 二　地方独立行政法人法施行令第四条第二項第二号ロに掲げる研究開発
     modality: unspecified
     item_number: 2
 - number: 6
@@ -172,42 +172,42 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p6-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p6-kou-2
     type: kou
-    text: 当該試験研究が施行令第二十七条の五第二項第四号に規定する成果活用促進事業者（以下この条において「成果活用促進事業者」という。）の行う同号に規定する成果実用化研究開発（第十七項第二号において「成果実用化研究開発」という。）に該当する旨
+    text: 二　当該試験研究が施行令第二十七条の五第二項第四号に規定する成果活用促進事業者（以下この条において「成果活用促進事業者」という。）の行う同号に規定する成果実用化研究開発（第十七項第二号において「成果実用化研究開発」という。）に該当する旨
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p6-kou-3
     type: kou
-    text: 当該試験研究の実施期間
+    text: 三　当該試験研究の実施期間
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p6-kou-4
     type: kou
-    text: 当該試験研究に係る成果活用促進事業者の名称及び代表者の氏名並びに本店の所在地
+    text: 四　当該試験研究に係る成果活用促進事業者の名称及び代表者の氏名並びに本店の所在地
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p6-kou-5
     type: kou
-    text: 当該試験研究の実施場所
+    text: 五　当該試験研究の実施場所
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-20-2-p6-kou-6
     type: kou
-    text: 当該試験研究の用に供される設備の明細
+    text: 六　当該試験研究の用に供される設備の明細
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-20-2-p6-kou-7
     type: kou
-    text: 当該試験研究に直接従事する研究者の氏名
+    text: 七　当該試験研究に直接従事する研究者の氏名
     modality: unspecified
     item_number: 7
   - id: sochi-hou-shikoukisoku-art-20-2-p6-kou-8
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
+    text: 八　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
     modality: unspecified
     item_number: 8
 - number: 7
@@ -221,37 +221,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p7-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p7-kou-2
     type: kou
-    text: 当該試験研究の実施期間
+    text: 二　当該試験研究の実施期間
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p7-kou-3
     type: kou
-    text: 当該試験研究に係る施行令第二十七条の五第二項第五号に規定する他の者（第二十一項第四号において「他の者」という。）の氏名又は名称及び代表者の氏名並びに住所又は本店若しくは主たる事務所の所在地
+    text: 三　当該試験研究に係る施行令第二十七条の五第二項第五号に規定する他の者（第二十一項第四号において「他の者」という。）の氏名又は名称及び代表者の氏名並びに住所又は本店若しくは主たる事務所の所在地
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p7-kou-4
     type: kou
-    text: 当該試験研究の実施場所
+    text: 四　当該試験研究の実施場所
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p7-kou-5
     type: kou
-    text: 当該試験研究の用に供される設備の明細
+    text: 五　当該試験研究の用に供される設備の明細
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-20-2-p7-kou-6
     type: kou
-    text: 当該試験研究に直接従事する研究者の氏名
+    text: 六　当該試験研究に直接従事する研究者の氏名
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-20-2-p7-kou-7
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
+    text: 七　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
     modality: unspecified
     item_number: 7
 - number: 8
@@ -265,17 +265,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p8-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p8-kou-2
     type: kou
-    text: 当該試験研究の実施期間
+    text: 二　当該試験研究の実施期間
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p8-kou-3
     type: kou
-    text: 当該試験研究の実施場所
+    text: 三　当該試験研究の実施場所
     modality: unspecified
     item_number: 3
 - number: 9
@@ -291,27 +291,27 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-20-2-p9-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p9-kou-2
     type: kou
-    text: 当該試験研究に要する費用の見込額（五十万円を超えるものに限る。）
+    text: 二　当該試験研究に要する費用の見込額（五十万円を超えるものに限る。）
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p9-kou-3
     type: kou
-    text: 当該試験研究の実施期間
+    text: 三　当該試験研究の実施期間
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p9-kou-4
     type: kou
-    text: 当該試験研究に係る大学等の名称及び所在地並びに当該大学等の長の氏名
+    text: 四　当該試験研究に係る大学等の名称及び所在地並びに当該大学等の長の氏名
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p9-kou-5
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
+    text: 五　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
     modality: unspecified
     item_number: 5
 - number: 10
@@ -334,12 +334,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p11-kou-1
     type: kou
-    text: 当該試験研究を行うために必要な拠点を有していること。
+    text: 一　当該試験研究を行うために必要な拠点を有していること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p11-kou-2
     type: kou
-    text: 前号の拠点において、当該試験研究を行うために必要な設備を有していること。
+    text: 二　前号の拠点において、当該試験研究を行うために必要な設備を有していること。
     modality: unspecified
     item_number: 2
 - number: 12
@@ -353,27 +353,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p12-kou-1
     type: kou
-    text: 当該事務を履行することに対する報酬を支払うこととされていないこと（当該報酬の支払に係る債務（当該事務を処理するのに必要と認められる費用の弁償に係る債務を含む。）がその契約若しくは協定に基づく他の報酬又はその契約若しくは協定に基づき引き渡す物品の対価の支払に係る債務と区分されていないことを含む。）。
+    text: 一　当該事務を履行することに対する報酬を支払うこととされていないこと（当該報酬の支払に係る債務（当該事務を処理するのに必要と認められる費用の弁償に係る債務を含む。）がその契約若しくは協定に基づく他の報酬又はその契約若しくは協定に基づき引き渡す物品の対価の支払に係る債務と区分されていないことを含む。）。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p12-kou-2
     type: kou
-    text: 当該事務の履行により得られる成果に対する報酬、仕事の結果に対する報酬又は物品の引渡しの対価を支払うこととされていること。
+    text: 二　当該事務の履行により得られる成果に対する報酬、仕事の結果に対する報酬又は物品の引渡しの対価を支払うこととされていること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p12-kou-3
     type: kou
-    text: 当該事務に着手する時において当該事務の履行により得られる成果の内容が具体的に特定できていること（当該成果を得ること、仕事を完成すること又は物品を引き渡すことを主たる目的としている場合を含む。）。
+    text: 三　当該事務に着手する時において当該事務の履行により得られる成果の内容が具体的に特定できていること（当該成果を得ること、仕事を完成すること又は物品を引き渡すことを主たる目的としている場合を含む。）。
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p12-kou-4
     type: kou
-    text: その委託の終了後における当該事務の経過及び結果の報告を要しないこととされていること。
+    text: 四　その委託の終了後における当該事務の経過及び結果の報告を要しないこととされていること。
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p12-kou-5
     type: kou
-    text: 当該事務を履行することに対する報酬の支払及び当該事務を処理するのに必要と認められる費用の弁償を要しないこととされていること。
+    text: 五　当該事務を履行することに対する報酬の支払及び当該事務を処理するのに必要と認められる費用の弁償を要しないこととされていること。
     modality: unspecified
     item_number: 5
 - number: 13
@@ -387,27 +387,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p13-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p13-kou-2
     type: kou
-    text: 当該試験研究の実施期間
+    text: 二　当該試験研究の実施期間
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p13-kou-3
     type: kou
-    text: 当該試験研究に係る施行令第二十七条の五第二項第九号に規定する特定中小企業者等（以下この条において「特定中小企業者等」という。）の氏名又は名称及び代表者その他これに準ずる者の氏名並びに住所又は本店若しくは主たる事務所の所在地
+    text: 三　当該試験研究に係る施行令第二十七条の五第二項第九号に規定する特定中小企業者等（以下この条において「特定中小企業者等」という。）の氏名又は名称及び代表者その他これに準ずる者の氏名並びに住所又は本店若しくは主たる事務所の所在地
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p13-kou-4
     type: kou
-    text: 当該試験研究の主要な部分について再委託を行わない旨
+    text: 四　当該試験研究の主要な部分について再委託を行わない旨
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p13-kou-5
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
+    text: 五　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
     modality: unspecified
     item_number: 5
 - number: 14
@@ -421,12 +421,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p14-kou-1
     type: kou
-    text: 当該法人にとつて、基礎研究（特別な応用又は用途を直接に考慮することなく、仮説及び理論を形成するため又は現象及び観察可能な事実に関して新しい知識を得るために行われる理論的又は実験的な試験研究をいう。）又は応用研究（特定の目標を定めて実用化の可能性を確かめる試験研究又は既に実用化されている方法に関して新たな応用方法を探索する試験研究をいう。）に該当することが明らかである試験研究
+    text: 一　当該法人にとつて、基礎研究（特別な応用又は用途を直接に考慮することなく、仮説及び理論を形成するため又は現象及び観察可能な事実に関して新しい知識を得るために行われる理論的又は実験的な試験研究をいう。）又は応用研究（特定の目標を定めて実用化の可能性を確かめる試験研究又は既に実用化されている方法に関して新たな応用方法を探索する試験研究をいう。）に該当することが明らかである試験研究
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p14-kou-2
     type: kou
-    text: 当該法人にとつて、工業化研究（前号に規定する基礎研究及び応用研究並びに実際の経験から得た知識を活用し、付加的な知識を創出して、新たな製品等（製品、半製品、役務の提供、技術の提供、装置、仕組み、工程その他これらに準ずるもの及びこれらの素材をいう。以下この号において同じ。）の創出又は製品等の改良を目的とする試験研究をいう。）に該当しないことが明らかである試験研究
+    text: 二　当該法人にとつて、工業化研究（前号に規定する基礎研究及び応用研究並びに実際の経験から得た知識を活用し、付加的な知識を創出して、新たな製品等（製品、半製品、役務の提供、技術の提供、装置、仕組み、工程その他これらに準ずるもの及びこれらの素材をいう。以下この号において同じ。）の創出又は製品等の改良を目的とする試験研究をいう。）に該当しないことが明らかである試験研究
     modality: unspecified
     item_number: 2
 - number: 15
@@ -449,27 +449,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p16-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p16-kou-2
     type: kou
-    text: 当該試験研究の実施期間
+    text: 二　当該試験研究の実施期間
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p16-kou-3
     type: kou
-    text: 当該試験研究に係る特定新事業開拓事業者の名称及び代表者の氏名並びに本店の所在地
+    text: 三　当該試験研究に係る特定新事業開拓事業者の名称及び代表者の氏名並びに本店の所在地
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p16-kou-4
     type: kou
-    text: 当該試験研究の主要な部分について再委託を行わない旨
+    text: 四　当該試験研究の主要な部分について再委託を行わない旨
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p16-kou-5
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
+    text: 五　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
     modality: unspecified
     item_number: 5
 - number: 17
@@ -483,32 +483,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p17-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p17-kou-2
     type: kou
-    text: 当該試験研究が成果活用促進事業者の行う成果実用化研究開発に該当する旨
+    text: 二　当該試験研究が成果活用促進事業者の行う成果実用化研究開発に該当する旨
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p17-kou-3
     type: kou
-    text: 当該試験研究の実施期間
+    text: 三　当該試験研究の実施期間
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p17-kou-4
     type: kou
-    text: 当該試験研究に係る成果活用促進事業者の名称及び代表者の氏名並びに本店の所在地
+    text: 四　当該試験研究に係る成果活用促進事業者の名称及び代表者の氏名並びに本店の所在地
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p17-kou-5
     type: kou
-    text: 当該試験研究の主要な部分について再委託を行わない旨
+    text: 五　当該試験研究の主要な部分について再委託を行わない旨
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-20-2-p17-kou-6
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
+    text: 六　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
     modality: unspecified
     item_number: 6
 - number: 18
@@ -522,22 +522,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p18-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p18-kou-2
     type: kou
-    text: 当該試験研究の実施期間
+    text: 二　当該試験研究の実施期間
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p18-kou-3
     type: kou
-    text: 当該試験研究に係る施行令第二十七条の五第二項第十二号に規定する他の者（第二十一項第九号において「他の者」という。）の氏名又は名称及び代表者の氏名並びに住所又は本店若しくは主たる事務所の所在地
+    text: 三　当該試験研究に係る施行令第二十七条の五第二項第十二号に規定する他の者（第二十一項第九号において「他の者」という。）の氏名又は名称及び代表者の氏名並びに住所又は本店若しくは主たる事務所の所在地
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p18-kou-4
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
+    text: 四　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法
     modality: unspecified
     item_number: 4
 - number: 19
@@ -551,17 +551,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p19-kou-1
     type: kou
-    text: 施行令第二十七条の五第二項第十三号に規定する知的財産権（次号及び第二十二項において「知的財産権」という。）の設定又は許諾が当該法人が行う試験研究のためである旨並びにその試験研究の目的及び内容
+    text: 一　施行令第二十七条の五第二項第十三号に規定する知的財産権（次号及び第二十二項において「知的財産権」という。）の設定又は許諾が当該法人が行う試験研究のためである旨並びにその試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p19-kou-2
     type: kou
-    text: 当該知的財産権の設定又は許諾をする特定中小企業者等（施行令第二十七条の五第二項第九号に規定する中小事業者等（第二十二項において「中小事業者等」という。）に限る。）の氏名又は名称及び代表者の氏名並びに住所又は本店若しくは主たる事務所の所在地
+    text: 二　当該知的財産権の設定又は許諾をする特定中小企業者等（施行令第二十七条の五第二項第九号に規定する中小事業者等（第二十二項において「中小事業者等」という。）に限る。）の氏名又は名称及び代表者の氏名並びに住所又は本店若しくは主たる事務所の所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p19-kou-3
     type: kou
-    text: 当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法並びに技術に関する情報の共有の方法
+    text: 三　当該試験研究に係る定期的な進捗状況に関する報告の内容及び方法並びに技術に関する情報の共有の方法
     modality: unspecified
     item_number: 3
 - number: 20
@@ -575,17 +575,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p20-kou-1
     type: kou
-    text: 施行令第二十七条の五第二項第一号に掲げる試験研究　法第四十二条の四の二第一項の規定の適用を受けようとする法人の申請に基づき、当該法人の各事業年度の法第四十二条の四第十九項第一号に規定する試験研究費の額（次号及び第三号において「試験研究費の額」という。）のうち当該試験研究に要した費用（当該試験研究に係る施行令第二十七条の五第二項第一号に規定する契約又は協定において当該法人が負担することとされている費用に限る。）に係るものとして当該試験研究に係る施行令第二十七条の五第二項第一号イに規定する試験研究機関等（以下この号及び次号において「試験研究機関等」という。）の長若しくは当該試験研究機関等の属する国家行政組織法第三条の行政機関（次号において「行政機関」という。）に置かれる地方支分部局の長、同項第一号ロに掲げる国立研究開発法人の独立行政法人通則法第十四条第一項に規定する法人の長（次号において「国立研究開発法人の長」という。）、福島国際研究教育機構理事長又は国立健康危機管理研究機構理事長が認定した金額
+    text: 一　施行令第二十七条の五第二項第一号に掲げる試験研究　法第四十二条の四の二第一項の規定の適用を受けようとする法人の申請に基づき、当該法人の各事業年度の法第四十二条の四第十九項第一号に規定する試験研究費の額（次号及び第三号において「試験研究費の額」という。）のうち当該試験研究に要した費用（当該試験研究に係る施行令第二十七条の五第二項第一号に規定する契約又は協定において当該法人が負担することとされている費用に限る。）に係るものとして当該試験研究に係る施行令第二十七条の五第二項第一号イに規定する試験研究機関等（以下この号及び次号において「試験研究機関等」という。）の長若しくは当該試験研究機関等の属する国家行政組織法第三条の行政機関（次号において「行政機関」という。）に置かれる地方支分部局の長、同項第一号ロに掲げる国立研究開発法人の独立行政法人通則法第十四条第一項に規定する法人の長（次号において「国立研究開発法人の長」という。）、福島国際研究教育機構理事長又は国立健康危機管理研究機構理事長が認定した金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p20-kou-2
     type: kou
-    text: 施行令第二十七条の五第二項第七号に掲げる試験研究　法第四十二条の四の二第一項の規定の適用を受けようとする法人の申請に基づき、試験研究費の額のうち当該試験研究に要した費用の額（当該試験研究に係る同号に規定する契約又は協定において定められている金額を限度とする。）に係るものとして当該試験研究に係る試験研究機関等の長若しくは当該試験研究機関等の属する行政機関に置かれる地方支分部局の長、国立研究開発法人の長、福島国際研究教育機構理事長又は国立健康危機管理研究機構理事長が認定した金額
+    text: 二　施行令第二十七条の五第二項第七号に掲げる試験研究　法第四十二条の四の二第一項の規定の適用を受けようとする法人の申請に基づき、試験研究費の額のうち当該試験研究に要した費用の額（当該試験研究に係る同号に規定する契約又は協定において定められている金額を限度とする。）に係るものとして当該試験研究に係る試験研究機関等の長若しくは当該試験研究機関等の属する行政機関に置かれる地方支分部局の長、国立研究開発法人の長、福島国際研究教育機構理事長又は国立健康危機管理研究機構理事長が認定した金額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p20-kou-3
     type: kou
-    text: 施行令第二十七条の五第二項第十四号に掲げる試験研究　試験研究費の額のうち、法第四十二条の四の二第一項の規定の適用を受けようとする法人の申請に基づき当該試験研究に要した費用の額として国立研究開発法人医薬基盤・健康・栄養研究所理事長が認定した金額に係るもの
+    text: 三　施行令第二十七条の五第二項第十四号に掲げる試験研究　試験研究費の額のうち、法第四十二条の四の二第一項の規定の適用を受けようとする法人の申請に基づき当該試験研究に要した費用の額として国立研究開発法人医薬基盤・健康・栄養研究所理事長が認定した金額に係るもの
     modality: unspecified
     item_number: 3
 - number: 21
@@ -599,55 +599,55 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-20-2-p21-kou-1
     type: kou
-    text: '施行令第二十七条の五第二項第二号に掲げる試験研究　当該法人が共同して当該試験研究を行う次に掲げる当該大学等の区分に応じそれぞれ次に定める金額
+    text: '一　施行令第二十七条の五第二項第二号に掲げる試験研究　当該法人が共同して当該試験研究を行う次に掲げる当該大学等の区分に応じそれぞれ次に定める金額
 
-      イ 指定大学等（大学等のうち経済産業大臣が定める要件を満たすものとして経済産業大臣が指定するものをいう。以下この号及び第五号において同じ。）　当該法人の申請に基づき、当該法人の各事業年度の法第四十二条の四第十九項第一号に規定する試験研究費の額（以下この項において「試験研究費の額」という。）のうち当該試験研究に要した費用であつて当該法人が施行令第二十七条の五第二項第二号に規定する契約又は協定に基づいて負担したものに係るものとして当該指定大学等の長が認定した金額
+      イ　指定大学等（大学等のうち経済産業大臣が定める要件を満たすものとして経済産業大臣が指定するものをいう。以下この号及び第五号において同じ。）　当該法人の申請に基づき、当該法人の各事業年度の法第四十二条の四第十九項第一号に規定する試験研究費の額（以下この項において「試験研究費の額」という。）のうち当該試験研究に要した費用であつて当該法人が施行令第二十七条の五第二項第二号に規定する契約又は協定に基づいて負担したものに係るものとして当該指定大学等の長が認定した金額
 
-      ロ 指定大学等以外の大学等　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が施行令第二十七条の五第二項第二号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査（専門的な知識及び経験を有する者が行う検査及び適正であることの証明をいう。以下この項及び次項において同じ。）を受け、かつ、当該大学等の確認を受けた金額'
+      ロ　指定大学等以外の大学等　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が施行令第二十七条の五第二項第二号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査（専門的な知識及び経験を有する者が行う検査及び適正であることの証明をいう。以下この項及び次項において同じ。）を受け、かつ、当該大学等の確認を受けた金額'
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p21-kou-2
     type: kou
-    text: 施行令第二十七条の五第二項第三号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該特定新事業開拓事業者の確認を受けた金額
+    text: 二　施行令第二十七条の五第二項第三号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該特定新事業開拓事業者の確認を受けた金額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p21-kou-3
     type: kou
-    text: 施行令第二十七条の五第二項第四号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該成果活用促進事業者の確認を受けた金額
+    text: 三　施行令第二十七条の五第二項第四号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該成果活用促進事業者の確認を受けた金額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p21-kou-4
     type: kou
-    text: 施行令第二十七条の五第二項第五号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該他の者の確認を受けた金額
+    text: 四　施行令第二十七条の五第二項第五号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該他の者の確認を受けた金額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-20-2-p21-kou-5
     type: kou
-    text: '施行令第二十七条の五第二項第八号に掲げる試験研究　当該法人が委託する当該試験研究に係る次に掲げる当該大学等の区分に応じそれぞれ次に定める金額
+    text: '五　施行令第二十七条の五第二項第八号に掲げる試験研究　当該法人が委託する当該試験研究に係る次に掲げる当該大学等の区分に応じそれぞれ次に定める金額
 
-      イ 指定大学等　当該法人の申請に基づき、試験研究費の額のうち当該試験研究に要した費用であつて当該法人が施行令第二十七条の五第二項第八号に規定する契約又は協定に基づいて負担したものに係るものとして当該指定大学等の長が認定した金額
+      イ　指定大学等　当該法人の申請に基づき、試験研究費の額のうち当該試験研究に要した費用であつて当該法人が施行令第二十七条の五第二項第八号に規定する契約又は協定に基づいて負担したものに係るものとして当該指定大学等の長が認定した金額
 
-      ロ 指定大学等以外の大学等　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が施行令第二十七条の五第二項第八号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該大学等の確認を受けた金額'
+      ロ　指定大学等以外の大学等　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が施行令第二十七条の五第二項第八号に規定する契約又は協定に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該大学等の確認を受けた金額'
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-20-2-p21-kou-6
     type: kou
-    text: 施行令第二十七条の五第二項第九号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する委託に係る委任契約等に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該特定中小企業者等の確認を受けた金額
+    text: 六　施行令第二十七条の五第二項第九号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する委託に係る委任契約等に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該特定中小企業者等の確認を受けた金額
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-20-2-p21-kou-7
     type: kou
-    text: 施行令第二十七条の五第二項第十号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する委託に係る委任契約等に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該特定新事業開拓事業者の確認を受けた金額
+    text: 七　施行令第二十七条の五第二項第十号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する委託に係る委任契約等に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該特定新事業開拓事業者の確認を受けた金額
     modality: unspecified
     item_number: 7
   - id: sochi-hou-shikoukisoku-art-20-2-p21-kou-8
     type: kou
-    text: 施行令第二十七条の五第二項第十一号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する委託に係る委任契約等に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該成果活用促進事業者の確認を受けた金額
+    text: 八　施行令第二十七条の五第二項第十一号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する委託に係る委任契約等に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該成果活用促進事業者の確認を受けた金額
     modality: unspecified
     item_number: 8
   - id: sochi-hou-shikoukisoku-art-20-2-p21-kou-9
     type: kou
-    text: 施行令第二十七条の五第二項第十二号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する委託に係る委任契約等に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該他の者の確認を受けた金額
+    text: 九　施行令第二十七条の五第二項第十二号に掲げる試験研究　試験研究費の額のうち当該試験研究に要した費用であつて当該法人が同号に規定する委託に係る委任契約等に基づいて負担したものに係るものであることにつき、監査を受け、かつ、当該他の者の確認を受けた金額
     modality: unspecified
     item_number: 9
 - number: 22
@@ -672,22 +672,22 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-20-2-p23-kou-1
     type: kou
-    text: 当該試験研究の目的及び内容
+    text: 一　当該試験研究の目的及び内容
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-20-2-p23-kou-2
     type: kou
-    text: 当該試験研究の実施期間
+    text: 二　当該試験研究の実施期間
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-20-2-p23-kou-3
     type: kou
-    text: 当該試験研究に係る新規高度研究業務従事者の氏名及び役職
+    text: 三　当該試験研究に係る新規高度研究業務従事者の氏名及び役職
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-20-2-p23-kou-4
     type: kou
-    text: 当該試験研究に係る当該事業年度の施行令第二十七条の五第二項第十五号ロ（１）に掲げる金額
+    text: 四　当該試験研究に係る当該事業年度の施行令第二十七条の五第二項第十五号ロ（１）に掲げる金額
     modality: unspecified
     item_number: 4
 - number: 24

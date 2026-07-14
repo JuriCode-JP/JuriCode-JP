@@ -26,6 +26,10 @@ paragraphs:
     text: この場合において、当該車両等は、第三十六条第二項の規定に該当する場合のほか、交差道路を通行する車両等の進行妨害をしてはならない。
     modality: gimu_negative
     depends_on: douro-koutsuu-hou-art-43-p1-zen
+  - id: douro-koutsuu-hou-art-43-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第五号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

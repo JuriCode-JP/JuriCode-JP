@@ -25,27 +25,27 @@ paragraphs:
     - 前条
   - id: douro-koutsuu-hou-art-99-p1-kou-1
     type: kou
-    text: 政令で定める要件を備えた当該自動車教習所を管理する者が置かれていること。
+    text: 一　政令で定める要件を備えた当該自動車教習所を管理する者が置かれていること。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-99-p1-kou-2
     type: kou
-    text: 次条第四項の技能検定員資格者証の交付を受けており、同条第一項の規定により技能検定員として選任されることとなる職員が置かれていること。
+    text: 二　次条第四項の技能検定員資格者証の交付を受けており、同条第一項の規定により技能検定員として選任されることとなる職員が置かれていること。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-99-p1-kou-3
     type: kou
-    text: 第九十九条の三第四項の教習指導員資格者証の交付を受けており、同条第一項の規定により教習指導員として選任されることとなる職員が置かれていること。
+    text: 三　第九十九条の三第四項の教習指導員資格者証の交付を受けており、同条第一項の規定により教習指導員として選任されることとなる職員が置かれていること。
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-99-p1-kou-4
     type: kou
-    text: 自動車の運転に関する技能及び知識の教習並びに技能検定（自動車の運転に関する技能についての検定で、内閣府令で定めるところにより行われるものをいう。以下同じ。）のための設備が政令で定める基準に適合していること。
+    text: 四　自動車の運転に関する技能及び知識の教習並びに技能検定（自動車の運転に関する技能についての検定で、内閣府令で定めるところにより行われるものをいう。以下同じ。）のための設備が政令で定める基準に適合していること。
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-99-p1-kou-5
     type: kou
-    text: 当該自動車教習所の運営が政令で定める基準に適合していること。
+    text: 五　当該自動車教習所の運営が政令で定める基準に適合していること。
     modality: unspecified
     item_number: 5
 - number: 2
@@ -58,8 +58,8 @@ paragraphs:
     text: 公安委員会は、前項の申請に係る自動車教習所が第百条の規定により指定を取り消され、その取消しの日から三年を経過しないものであるときは、同項の規定による指定をしてはならない。
     modality: gimu_negative
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-647-p1-kou-1
     type: kou
-    text: 業務を執行する社員（次号又は第三号に掲げる者がある場合を除く。）
+    text: 一　業務を執行する社員（次号又は第三号に掲げる者がある場合を除く。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-647-p1-kou-2
     type: kou
-    text: 定款で定める者
+    text: 二　定款で定める者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-647-p1-kou-3
     type: kou
-    text: 社員（業務を執行する社員を定款で定めた場合にあっては、その社員）の過半数の同意によって定める者
+    text: 三　社員（業務を執行する社員を定款で定めた場合にあっては、その社員）の過半数の同意によって定める者
     modality: unspecified
     item_number: 3
 - number: 2

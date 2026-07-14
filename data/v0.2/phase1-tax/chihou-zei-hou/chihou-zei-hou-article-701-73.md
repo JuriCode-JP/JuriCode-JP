@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-701-73-p1-kou-1
     type: kou
-    text: 道路、都市高速鉄道、駐車場その他の交通施設の整備事業
+    text: 一　道路、都市高速鉄道、駐車場その他の交通施設の整備事業
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-701-73-p1-kou-2
     type: kou
-    text: 公園、緑地その他の公共空地の整備事業
+    text: 二　公園、緑地その他の公共空地の整備事業
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-701-73-p1-kou-3
     type: kou
-    text: 水道、下水道、廃棄物処理施設その他の供給施設又は処理施設の整備事業
+    text: 三　水道、下水道、廃棄物処理施設その他の供給施設又は処理施設の整備事業
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-701-73-p1-kou-4
     type: kou
-    text: 河川その他の水路の整備事業
+    text: 四　河川その他の水路の整備事業
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-701-73-p1-kou-5
     type: kou
-    text: 学校、図書館その他の教育文化施設の整備事業
+    text: 五　学校、図書館その他の教育文化施設の整備事業
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-701-73-p1-kou-6
     type: kou
-    text: 病院、保育所その他の医療施設又は社会福祉施設の整備事業
+    text: 六　病院、保育所その他の医療施設又は社会福祉施設の整備事業
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-art-701-73-p1-kou-7
     type: kou
-    text: 公害防止に関する事業
+    text: 七　公害防止に関する事業
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-art-701-73-p1-kou-8
     type: kou
-    text: 防災に関する事業
+    text: 八　防災に関する事業
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-art-701-73-p1-kou-9
     type: kou
-    text: 前各号に掲げるもののほか、市街地開発事業その他の都市環境の整備及び改善に必要な事業で政令で定めるもの
+    text: 九　前各号に掲げるもののほか、市街地開発事業その他の都市環境の整備及び改善に必要な事業で政令で定めるもの
     modality: unspecified
     item_number: 9
 cases: []

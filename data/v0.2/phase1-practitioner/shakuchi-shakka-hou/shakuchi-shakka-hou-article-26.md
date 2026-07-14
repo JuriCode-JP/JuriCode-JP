@@ -35,8 +35,8 @@ paragraphs:
     text: 前項の通知をした場合であっても、建物の賃貸借の期間が満了した後建物の賃借人が使用を継続する場合において、建物の賃貸人が遅滞なく異議を述べなかったときも、同項と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

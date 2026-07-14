@@ -33,9 +33,9 @@ paragraphs:
     text: 前項の規定による情報の提供については、当該情報が当該外国執行当局の職務の遂行以外に使用されず、かつ、次項の規定による同意がなければ外国の刑事事件の捜査（その対象たる犯罪事実が特定された後のものに限る。）又は審判（同項において「捜査等」という。）に使用されないよう適切な措置がとられなければならない。
     modality: gimu
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -47,17 +47,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kojin-jouhou-hogo-hou-art-172-p3-kou-1
     type: kou
-    text: 当該要請に係る刑事事件の捜査等の対象とされている犯罪が政治犯罪であるとき、又は当該要請が政治犯罪について捜査等を行う目的で行われたものと認められるとき。
+    text: 一　当該要請に係る刑事事件の捜査等の対象とされている犯罪が政治犯罪であるとき、又は当該要請が政治犯罪について捜査等を行う目的で行われたものと認められるとき。
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-172-p3-kou-2
     type: kou
-    text: 当該要請に係る刑事事件の捜査等の対象とされている犯罪に係る行為が日本国内において行われたとした場合において、その行為が日本国の法令によれば罪に当たるものでないとき。
+    text: 二　当該要請に係る刑事事件の捜査等の対象とされている犯罪に係る行為が日本国内において行われたとした場合において、その行為が日本国の法令によれば罪に当たるものでないとき。
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-172-p3-kou-3
     type: kou
-    text: 日本国が行う同種の要請に応ずる旨の要請国の保証がないとき。
+    text: 三　日本国が行う同種の要請に応ずる旨の要請国の保証がないとき。
     modality: unspecified
     item_number: 3
 - number: 4
@@ -70,8 +70,8 @@ paragraphs:
     text: 委員会は、前項の同意をする場合においては、あらかじめ、同項第一号及び第二号に該当しないことについて法務大臣の確認を、同項第三号に該当しないことについて外務大臣の確認を、それぞれ受けなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_negative
   - id: kojin-jouhou-hogo-hou-art-49-p1-kou-1
     type: kou
-    text: 第四十七条第一項各号に掲げる業務を適正かつ確実に行うに必要な業務の実施の方法が定められているものであること。
+    text: 一　第四十七条第一項各号に掲げる業務を適正かつ確実に行うに必要な業務の実施の方法が定められているものであること。
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-49-p1-kou-2
     type: kou
-    text: 第四十七条第一項各号に掲げる業務を適正かつ確実に行うに足りる知識及び能力並びに経理的基礎を有するものであること。
+    text: 二　第四十七条第一項各号に掲げる業務を適正かつ確実に行うに足りる知識及び能力並びに経理的基礎を有するものであること。
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-49-p1-kou-3
     type: kou
-    text: 第四十七条第一項各号に掲げる業務以外の業務を行っている場合には、その業務を行うことによって同項各号に掲げる業務が不公正になるおそれがないものであること。
+    text: 三　第四十七条第一項各号に掲げる業務以外の業務を行っている場合には、その業務を行うことによって同項各号に掲げる業務が不公正になるおそれがないものであること。
     modality: unspecified
     item_number: 3
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: keihou-art-77-p1-kou-1
     type: kou
-    text: 首謀者は、死刑又は無期拘禁刑に処する。
+    text: 一　首謀者は、死刑又は無期拘禁刑に処する。
     modality: gimu_kei
     item_number: 1
   - id: keihou-art-77-p1-kou-2
     type: kou
-    text: 謀議に参与し、又は群衆を指揮した者は無期又は三年以上の拘禁刑に処し、その他諸般の職務に従事した者は一年以上十年以下の拘禁刑に処する。
+    text: 二　謀議に参与し、又は群衆を指揮した者は無期又は三年以上の拘禁刑に処し、その他諸般の職務に従事した者は一年以上十年以下の拘禁刑に処する。
     modality: gimu_kei
     item_number: 2
   - id: keihou-art-77-p1-kou-3
     type: kou
-    text: 付和随行し、その他単に暴動に参加した者は、三年以下の拘禁刑に処する。
+    text: 三　付和随行し、その他単に暴動に参加した者は、三年以下の拘禁刑に処する。
     modality: gimu_kei
     item_number: 3
 - number: 2

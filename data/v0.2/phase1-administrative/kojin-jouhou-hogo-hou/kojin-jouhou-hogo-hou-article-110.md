@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: kojin-jouhou-hogo-hou-art-110-p1-kou-1
     type: kou
-    text: 第百十二条第一項の提案の募集をする個人情報ファイルである旨
+    text: 一　第百十二条第一項の提案の募集をする個人情報ファイルである旨
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-110-p1-kou-2
     type: kou
-    text: 第百十二条第一項の提案を受ける組織の名称及び所在地
+    text: 二　第百十二条第一項の提案を受ける組織の名称及び所在地
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,53 +23,53 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-755-p1-kou-1
     type: kou
-    text: 新設合併消滅会社の商号及び住所
+    text: 一　新設合併消滅会社の商号及び住所
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-755-p1-kou-2
     type: kou
-    text: 持分会社である新設合併設立会社（以下この編において「新設合併設立持分会社」という。）が合名会社、合資会社又は合同会社のいずれであるかの別
+    text: 二　持分会社である新設合併設立会社（以下この編において「新設合併設立持分会社」という。）が合名会社、合資会社又は合同会社のいずれであるかの別
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-755-p1-kou-3
     type: kou
-    text: 新設合併設立持分会社の目的、商号及び本店の所在地
+    text: 三　新設合併設立持分会社の目的、商号及び本店の所在地
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-755-p1-kou-4
     type: kou
-    text: '新設合併設立持分会社の社員についての次に掲げる事項
+    text: '四　新設合併設立持分会社の社員についての次に掲げる事項
 
-      イ 当該社員の氏名又は名称及び住所
+      イ　当該社員の氏名又は名称及び住所
 
-      ロ 当該社員が無限責任社員又は有限責任社員のいずれであるかの別
+      ロ　当該社員が無限責任社員又は有限責任社員のいずれであるかの別
 
-      ハ 当該社員の出資の価額'
+      ハ　当該社員の出資の価額'
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-755-p1-kou-5
     type: kou
-    text: 前二号に掲げるもののほか、新設合併設立持分会社の定款で定める事項
+    text: 五　前二号に掲げるもののほか、新設合併設立持分会社の定款で定める事項
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-755-p1-kou-6
     type: kou
-    text: 新設合併設立持分会社が新設合併に際して新設合併消滅株式会社の株主又は新設合併消滅持分会社の社員に対してその株式又は持分に代わる当該新設合併設立持分会社の社債を交付するときは、当該社債の種類及び種類ごとの各社債の金額の合計額又はその算定方法
+    text: 六　新設合併設立持分会社が新設合併に際して新設合併消滅株式会社の株主又は新設合併消滅持分会社の社員に対してその株式又は持分に代わる当該新設合併設立持分会社の社債を交付するときは、当該社債の種類及び種類ごとの各社債の金額の合計額又はその算定方法
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-755-p1-kou-7
     type: kou
-    text: 前号に規定する場合には、新設合併消滅株式会社の株主（新設合併消滅株式会社を除く。）又は新設合併消滅持分会社の社員に対する同号の社債の割当てに関する事項
+    text: 七　前号に規定する場合には、新設合併消滅株式会社の株主（新設合併消滅株式会社を除く。）又は新設合併消滅持分会社の社員に対する同号の社債の割当てに関する事項
     modality: unspecified
     item_number: 7
   - id: kaisha-hou-art-755-p1-kou-8
     type: kou
-    text: 新設合併消滅株式会社が新株予約権を発行しているときは、新設合併設立持分会社が新設合併に際して当該新株予約権の新株予約権者に対して交付する当該新株予約権に代わる金銭の額又はその算定方法
+    text: 八　新設合併消滅株式会社が新株予約権を発行しているときは、新設合併設立持分会社が新設合併に際して当該新株予約権の新株予約権者に対して交付する当該新株予約権に代わる金銭の額又はその算定方法
     modality: unspecified
     item_number: 8
   - id: kaisha-hou-art-755-p1-kou-9
     type: kou
-    text: 前号に規定する場合には、新設合併消滅株式会社の新株予約権の新株予約権者に対する同号の金銭の割当てに関する事項
+    text: 九　前号に規定する場合には、新設合併消滅株式会社の新株予約権の新株予約権者に対する同号の金銭の割当てに関する事項
     modality: unspecified
     item_number: 9
 - number: 2

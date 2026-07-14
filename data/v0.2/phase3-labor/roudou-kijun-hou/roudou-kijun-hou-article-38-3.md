@@ -23,32 +23,32 @@ paragraphs:
     modality: unspecified
   - id: roudou-kijun-hou-art-38-3-p1-kou-1
     type: kou
-    text: 業務の性質上その遂行の方法を大幅に当該業務に従事する労働者の裁量にゆだねる必要があるため、当該業務の遂行の手段及び時間配分の決定等に関し使用者が具体的な指示をすることが困難なものとして厚生労働省令で定める業務のうち、労働者に就かせることとする業務（以下この条において「対象業務」という。）
+    text: 一　業務の性質上その遂行の方法を大幅に当該業務に従事する労働者の裁量にゆだねる必要があるため、当該業務の遂行の手段及び時間配分の決定等に関し使用者が具体的な指示をすることが困難なものとして厚生労働省令で定める業務のうち、労働者に就かせることとする業務（以下この条において「対象業務」という。）
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-38-3-p1-kou-2
     type: kou
-    text: 対象業務に従事する労働者の労働時間として算定される時間
+    text: 二　対象業務に従事する労働者の労働時間として算定される時間
     modality: unspecified
     item_number: 2
   - id: roudou-kijun-hou-art-38-3-p1-kou-3
     type: kou
-    text: 対象業務の遂行の手段及び時間配分の決定等に関し、当該対象業務に従事する労働者に対し使用者が具体的な指示をしないこと。
+    text: 三　対象業務の遂行の手段及び時間配分の決定等に関し、当該対象業務に従事する労働者に対し使用者が具体的な指示をしないこと。
     modality: unspecified
     item_number: 3
   - id: roudou-kijun-hou-art-38-3-p1-kou-4
     type: kou
-    text: 対象業務に従事する労働者の労働時間の状況に応じた当該労働者の健康及び福祉を確保するための措置を当該協定で定めるところにより使用者が講ずること。
+    text: 四　対象業務に従事する労働者の労働時間の状況に応じた当該労働者の健康及び福祉を確保するための措置を当該協定で定めるところにより使用者が講ずること。
     modality: unspecified
     item_number: 4
   - id: roudou-kijun-hou-art-38-3-p1-kou-5
     type: kou
-    text: 対象業務に従事する労働者からの苦情の処理に関する措置を当該協定で定めるところにより使用者が講ずること。
+    text: 五　対象業務に従事する労働者からの苦情の処理に関する措置を当該協定で定めるところにより使用者が講ずること。
     modality: unspecified
     item_number: 5
   - id: roudou-kijun-hou-art-38-3-p1-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、厚生労働省令で定める事項
+    text: 六　前各号に掲げるもののほか、厚生労働省令で定める事項
     modality: unspecified
     item_number: 6
 - number: 2

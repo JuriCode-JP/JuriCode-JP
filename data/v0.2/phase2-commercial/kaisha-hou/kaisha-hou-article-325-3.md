@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-325-3-p1-kou-1
     type: kou
-    text: 第二百九十八条第一項各号に掲げる事項
+    text: 一　第二百九十八条第一項各号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-325-3-p1-kou-2
     type: kou
-    text: 第三百一条第一項に規定する場合には、株主総会参考書類及び議決権行使書面に記載すべき事項
+    text: 二　第三百一条第一項に規定する場合には、株主総会参考書類及び議決権行使書面に記載すべき事項
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-325-3-p1-kou-3
     type: kou
-    text: 第三百二条第一項に規定する場合には、株主総会参考書類に記載すべき事項
+    text: 三　第三百二条第一項に規定する場合には、株主総会参考書類に記載すべき事項
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-325-3-p1-kou-4
     type: kou
-    text: 第三百五条第一項の規定による請求があった場合には、同項の議案の要領
+    text: 四　第三百五条第一項の規定による請求があった場合には、同項の議案の要領
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-325-3-p1-kou-5
     type: kou
-    text: 株式会社が取締役会設置会社である場合において、取締役が定時株主総会を招集するときは、第四百三十七条の計算書類及び事業報告に記載され、又は記録された事項
+    text: 五　株式会社が取締役会設置会社である場合において、取締役が定時株主総会を招集するときは、第四百三十七条の計算書類及び事業報告に記載され、又は記録された事項
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-325-3-p1-kou-6
     type: kou
-    text: 株式会社が会計監査人設置会社（取締役会設置会社に限る。）である場合において、取締役が定時株主総会を招集するときは、第四百四十四条第六項の連結計算書類に記載され、又は記録された事項
+    text: 六　株式会社が会計監査人設置会社（取締役会設置会社に限る。）である場合において、取締役が定時株主総会を招集するときは、第四百四十四条第六項の連結計算書類に記載され、又は記録された事項
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-325-3-p1-kou-7
     type: kou
-    text: 前各号に掲げる事項を修正したときは、その旨及び修正前の事項
+    text: 七　前各号に掲げる事項を修正したときは、その旨及び修正前の事項
     modality: unspecified
     item_number: 7
 - number: 2

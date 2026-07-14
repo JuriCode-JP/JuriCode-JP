@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-218-2-3-p1-kou-1
     type: kou
-    text: 個人的使用に供せられ、かつ、売買の対象とならないと認められる程度の数量を超える数量の医薬品の輸入をする場合
+    text: 一　個人的使用に供せられ、かつ、売買の対象とならないと認められる程度の数量を超える数量の医薬品の輸入をする場合
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-218-2-3-p1-kou-2
     type: kou
-    text: 当該医薬品を使用しようとする者の疾病の種類及び状況、輸入しようとする医薬品及びこれに代替する医薬品の本邦における生産又は流通等を勘案して、医師、歯科医師その他の医療従事者が、疾病の診断、治療又は予防等の目的で使用するために当該医薬品を輸入する必要があると認められない場合
+    text: 二　当該医薬品を使用しようとする者の疾病の種類及び状況、輸入しようとする医薬品及びこれに代替する医薬品の本邦における生産又は流通等を勘案して、医師、歯科医師その他の医療従事者が、疾病の診断、治療又は予防等の目的で使用するために当該医薬品を輸入する必要があると認められない場合
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-218-2-3-p1-kou-3
     type: kou
-    text: 臨床試験その他の試験研究の用に供する目的で当該医薬品を輸入する必要があると認められない場合
+    text: 三　臨床試験その他の試験研究の用に供する目的で当該医薬品を輸入する必要があると認められない場合
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-218-2-3-p1-kou-4
     type: kou
-    text: 医薬品の販売その他の営業についての広告又は宣伝を目的とせず、医薬品の研究開発及び普及並びに学術研究の発展に資することを目的とした展示会、見本市その他の催しにおいて展示する目的で医薬品を輸入する必要があると認められない場合
+    text: 四　医薬品の販売その他の営業についての広告又は宣伝を目的とせず、医薬品の研究開発及び普及並びに学術研究の発展に資することを目的とした展示会、見本市その他の催しにおいて展示する目的で医薬品を輸入する必要があると認められない場合
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-218-2-3-p1-kou-5
     type: kou
-    text: 外国に輸出した医薬品を輸入する必要があると認められない場合
+    text: 五　外国に輸出した医薬品を輸入する必要があると認められない場合
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-218-2-3-p1-kou-6
     type: kou
-    text: 前各号に掲げる場合に準ずる場合
+    text: 六　前各号に掲げる場合に準ずる場合
     modality: unspecified
     item_number: 6
 - number: 2

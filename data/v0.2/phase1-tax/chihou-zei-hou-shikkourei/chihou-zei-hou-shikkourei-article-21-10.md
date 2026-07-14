@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の特定内国法人が法人税法第六十九条の規定の適用を受けない場合における同項の所得の総額は、当該特定内国法人の法の施行地外の事業に帰属する所得に対して外国において課された法人税に相当する税を損金の額に算入しないものとして計算する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

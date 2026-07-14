@@ -49,12 +49,12 @@ paragraphs:
     - 前二項
   - id: roudou-kijun-hou-art-39-p3-kou-1
     type: kou
-    text: 一週間の所定労働日数が通常の労働者の週所定労働日数に比し相当程度少ないものとして厚生労働省令で定める日数以下の労働者
+    text: 一　一週間の所定労働日数が通常の労働者の週所定労働日数に比し相当程度少ないものとして厚生労働省令で定める日数以下の労働者
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-39-p3-kou-2
     type: kou
-    text: 週以外の期間によつて所定労働日数が定められている労働者については、一年間の所定労働日数が、前号の厚生労働省令で定める日数に一日を加えた日数を一週間の所定労働日数とする労働者の一年間の所定労働日数その他の事情を考慮して厚生労働省令で定める日数以下の労働者
+    text: 二　週以外の期間によつて所定労働日数が定められている労働者については、一年間の所定労働日数が、前号の厚生労働省令で定める日数に一日を加えた日数を一週間の所定労働日数とする労働者の一年間の所定労働日数その他の事情を考慮して厚生労働省令で定める日数以下の労働者
     modality: unspecified
     item_number: 2
 - number: 4
@@ -70,17 +70,17 @@ paragraphs:
     - 前三項
   - id: roudou-kijun-hou-art-39-p4-kou-1
     type: kou
-    text: 時間を単位として有給休暇を与えることができることとされる労働者の範囲
+    text: 一　時間を単位として有給休暇を与えることができることとされる労働者の範囲
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-39-p4-kou-2
     type: kou
-    text: 時間を単位として与えることができることとされる有給休暇の日数（五日以内に限る。）
+    text: 二　時間を単位として与えることができることとされる有給休暇の日数（五日以内に限る。）
     modality: unspecified
     item_number: 2
   - id: roudou-kijun-hou-art-39-p4-kou-3
     type: kou
-    text: その他厚生労働省令で定める事項
+    text: 三　その他厚生労働省令で定める事項
     modality: unspecified
     item_number: 3
 - number: 5

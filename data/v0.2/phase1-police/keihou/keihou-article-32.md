@@ -23,32 +23,32 @@ paragraphs:
     modality: unspecified
   - id: keihou-art-32-p1-kou-1
     type: kou
-    text: 無期拘禁刑については三十年
+    text: 一　無期拘禁刑については三十年
     modality: unspecified
     item_number: 1
   - id: keihou-art-32-p1-kou-2
     type: kou
-    text: 十年以上の有期拘禁刑については二十年
+    text: 二　十年以上の有期拘禁刑については二十年
     modality: unspecified
     item_number: 2
   - id: keihou-art-32-p1-kou-3
     type: kou
-    text: 三年以上十年未満の拘禁刑については十年
+    text: 三　三年以上十年未満の拘禁刑については十年
     modality: unspecified
     item_number: 3
   - id: keihou-art-32-p1-kou-4
     type: kou
-    text: 三年未満の拘禁刑については五年
+    text: 四　三年未満の拘禁刑については五年
     modality: unspecified
     item_number: 4
   - id: keihou-art-32-p1-kou-5
     type: kou
-    text: 罰金については三年
+    text: 五　罰金については三年
     modality: unspecified
     item_number: 5
   - id: keihou-art-32-p1-kou-6
     type: kou
-    text: 拘留、科料及び没収については一年
+    text: 六　拘留、科料及び没収については一年
     modality: unspecified
     item_number: 6
 cases: []

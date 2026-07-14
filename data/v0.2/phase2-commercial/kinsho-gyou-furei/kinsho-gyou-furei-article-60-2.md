@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-60-2-p1-kou-1
     type: kou
-    text: 法第三十四条の三第十項の規定による承諾をする日（以下この条において「承諾日」という。）
+    text: 一　法第三十四条の三第十項の規定による承諾をする日（以下この条において「承諾日」という。）
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-60-2-p1-kou-2
     type: kou
-    text: 対象契約の属する契約の種類
+    text: 二　対象契約の属する契約の種類
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-60-2-p1-kou-3
     type: kou
-    text: 承諾日以後に対象契約の締結の勧誘又は締結をする場合において、法第三十四条の三第九項の規定による申出をした法人（次号において「復帰申出者」という。）を再び特定投資家以外の顧客として取り扱う旨
+    text: 三　承諾日以後に対象契約の締結の勧誘又は締結をする場合において、法第三十四条の三第九項の規定による申出をした法人（次号において「復帰申出者」という。）を再び特定投資家以外の顧客として取り扱う旨
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-60-2-p1-kou-4
     type: kou
-    text: 金融商品取引業者等が対象契約に基づき復帰申出者を代理して他の金融商品取引業者等との間で承諾日以後に締結する金融商品取引契約については、当該他の金融商品取引業者等からも再び特定投資家以外の顧客として取り扱われる旨
+    text: 四　金融商品取引業者等が対象契約に基づき復帰申出者を代理して他の金融商品取引業者等との間で承諾日以後に締結する金融商品取引契約については、当該他の金融商品取引業者等からも再び特定投資家以外の顧客として取り扱われる旨
     modality: unspecified
     item_number: 4
 cases: []

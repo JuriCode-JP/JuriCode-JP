@@ -31,8 +31,8 @@ paragraphs:
     text: 招集者は、前項の書面による通知の発出に代えて、政令で定めるところにより、同項の通知を受けるべき者の承諾を得て、電磁的方法により通知を発することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-720-p2-kou
     type: kou_dan
     text: この場合において、当該招集者は、同項の書面による通知を発したものとみなす。
@@ -50,8 +50,8 @@ paragraphs:
     text: 前二項の通知には、前条各号に掲げる事項を記載し、又は記録しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前二項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false

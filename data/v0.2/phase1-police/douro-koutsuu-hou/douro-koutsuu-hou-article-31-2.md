@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 停留所において乗客の乗降のため停車していた乗合自動車が発進するため進路を変更しようとして手又は方向指示器により合図をした場合においては、その後方にある車両は、その速度又は方向を急に変更しなければならないこととなる場合を除き、当該合図をした乗合自動車の進路の変更を妨げてはならない。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-31-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

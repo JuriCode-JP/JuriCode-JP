@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\340M50000040011.xml",
   "source_xml_sha256": "5376345747a43c686d4bfcae1cdc2ab5fa8211aab353adc9ea021ba83d721cb0",
   "source_xml_bytes": 2368786,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:26+00:00",
+  "parsed_at": "2026-07-14T01:44:31+00:00",
   "version_date": "1965-03-31",
   "article_count": 250,
   "articles": [
@@ -882,8 +882,8 @@
       "article_id": "shotoku-zei-hou-shikoukisoku-art-49",
       "article_number": "49",
       "filename": "shotoku-zei-hou-shikoukisoku-article-49.md",
-      "ja_text_sha256": "7a73bf900049fbdce1e763ae47f363378040b5952c70173343d2430c35b9afc8",
-      "ja_text_bytes": 1604,
+      "ja_text_sha256": "cb3613e2561d55fd2637e1547cc259687961e9612cb73961a96b2d39a5085eee",
+      "ja_text_bytes": 1598,
       "paragraph_count": 2
     },
     {
@@ -1770,8 +1770,8 @@
       "article_id": "shotoku-zei-hou-shikoukisoku-art-84",
       "article_number": "84",
       "filename": "shotoku-zei-hou-shikoukisoku-article-84.md",
-      "ja_text_sha256": "7e1f79ac57c969d099f205f5b1cc75aa61799b436c185fe49db314af597de621",
-      "ja_text_bytes": 2591,
+      "ja_text_sha256": "598f2e58af5263b09e0e658e1e1758cf73c135fcd311c586804000d32675dcd2",
+      "ja_text_bytes": 2585,
       "paragraph_count": 2
     },
     {

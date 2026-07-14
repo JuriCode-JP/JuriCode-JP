@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kojin-jouhou-hogo-hou-art-99-p1-kou-1
     type: kou
-    text: 利用停止請求をする者の氏名及び住所又は居所
+    text: 一　利用停止請求をする者の氏名及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-99-p1-kou-2
     type: kou
-    text: 利用停止請求に係る保有個人情報の開示を受けた日その他当該保有個人情報を特定するに足りる事項
+    text: 二　利用停止請求に係る保有個人情報の開示を受けた日その他当該保有個人情報を特定するに足りる事項
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-99-p1-kou-3
     type: kou
-    text: 利用停止請求の趣旨及び理由
+    text: 三　利用停止請求の趣旨及び理由
     modality: unspecified
     item_number: 3
 - number: 2

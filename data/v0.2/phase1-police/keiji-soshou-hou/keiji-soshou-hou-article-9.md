@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-9-p1-kou-1
     type: kou
-    text: 一人が数罪を犯したとき。
+    text: 一　一人が数罪を犯したとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-9-p1-kou-2
     type: kou
-    text: 数人が共に同一又は別個の罪を犯したとき。
+    text: 二　数人が共に同一又は別個の罪を犯したとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-9-p1-kou-3
     type: kou
-    text: 数人が通謀して各別に罪を犯したとき。
+    text: 三　数人が通謀して各別に罪を犯したとき。
     modality: unspecified
     item_number: 3
 - number: 2

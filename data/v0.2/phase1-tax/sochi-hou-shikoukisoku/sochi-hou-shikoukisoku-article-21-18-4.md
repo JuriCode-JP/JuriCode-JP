@@ -25,27 +25,27 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-21-18-4-p1-kou-1
     type: kou
-    text: 当該飲食費に係る飲食等（飲食その他これに類する行為をいう。以下この条において同じ。）のあつた年月日
+    text: 一　当該飲食費に係る飲食等（飲食その他これに類する行為をいう。以下この条において同じ。）のあつた年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-21-18-4-p1-kou-2
     type: kou
-    text: 当該飲食費に係る飲食等に参加した得意先、仕入先その他事業に関係のある者等の氏名又は名称及びその関係
+    text: 二　当該飲食費に係る飲食等に参加した得意先、仕入先その他事業に関係のある者等の氏名又は名称及びその関係
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-21-18-4-p1-kou-3
     type: kou
-    text: 当該飲食費に係る飲食等に参加した者の数
+    text: 三　当該飲食費に係る飲食等に参加した者の数
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-21-18-4-p1-kou-4
     type: kou
-    text: 当該飲食費の額並びにその飲食店、料理店等の名称（店舗を有しないことその他の理由により当該名称が明らかでないときは、領収書等に記載された支払先の氏名又は名称）及びその所在地（店舗を有しないことその他の理由により当該所在地が明らかでないときは、領収書等に記載された支払先の住所若しくは居所又は本店若しくは主たる事務所の所在地）
+    text: 四　当該飲食費の額並びにその飲食店、料理店等の名称（店舗を有しないことその他の理由により当該名称が明らかでないときは、領収書等に記載された支払先の氏名又は名称）及びその所在地（店舗を有しないことその他の理由により当該所在地が明らかでないときは、領収書等に記載された支払先の住所若しくは居所又は本店若しくは主たる事務所の所在地）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-21-18-4-p1-kou-5
     type: kou
-    text: その他飲食費であることを明らかにするために必要な事項
+    text: 五　その他飲食費であることを明らかにするために必要な事項
     modality: unspecified
     item_number: 5
 cases: []

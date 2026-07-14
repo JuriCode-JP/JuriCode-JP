@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: keihou-art-19-p1-kou-1
     type: kou
-    text: 犯罪行為を組成した物
+    text: 一　犯罪行為を組成した物
     modality: unspecified
     item_number: 1
   - id: keihou-art-19-p1-kou-2
     type: kou
-    text: 犯罪行為の用に供し、又は供しようとした物
+    text: 二　犯罪行為の用に供し、又は供しようとした物
     modality: unspecified
     item_number: 2
   - id: keihou-art-19-p1-kou-3
     type: kou
-    text: 犯罪行為によって生じ、若しくはこれによって得た物又は犯罪行為の報酬として得た物
+    text: 三　犯罪行為によって生じ、若しくはこれによって得た物又は犯罪行為の報酬として得た物
     modality: unspecified
     item_number: 3
   - id: keihou-art-19-p1-kou-4
     type: kou
-    text: 前号に掲げる物の対価として得た物
+    text: 四　前号に掲げる物の対価として得た物
     modality: unspecified
     item_number: 4
 - number: 2

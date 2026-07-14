@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: minpou-art-725-p1-kou-1
     type: kou
-    text: 六親等内の血族
+    text: 一　六親等内の血族
     modality: unspecified
     item_number: 1
   - id: minpou-art-725-p1-kou-2
     type: kou
-    text: 配偶者
+    text: 二　配偶者
     modality: unspecified
     item_number: 2
   - id: minpou-art-725-p1-kou-3
     type: kou
-    text: 三親等内の姻族
+    text: 三　三親等内の姻族
     modality: unspecified
     item_number: 3
 cases: []

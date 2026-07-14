@@ -34,27 +34,27 @@ paragraphs:
     - 前項
   - id: kinsho-hou-shikkourei-art-17-6-p2-kou-1
     type: kou
-    text: 許可申請者に合併された者
+    text: 一　許可申請者に合併された者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-17-6-p2-kou-2
     type: kou
-    text: 分割により許可申請者に引受業務と同種類の業務に係る事業の全部又は一部を承継させた者
+    text: 二　分割により許可申請者に引受業務と同種類の業務に係る事業の全部又は一部を承継させた者
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-17-6-p2-kou-3
     type: kou
-    text: 許可申請者に引受業務と同種類の業務に係る事業の全部又は一部を譲渡した者
+    text: 三　許可申請者に引受業務と同種類の業務に係る事業の全部又は一部を譲渡した者
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-17-6-p2-kou-4
     type: kou
-    text: 許可申請者の発行済株式又は出資の持分の全部を所有している者
+    text: 四　許可申請者の発行済株式又は出資の持分の全部を所有している者
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-17-6-p2-kou-5
     type: kou
-    text: 前各号に掲げる者に準ずる者として内閣府令で定める者
+    text: 五　前各号に掲げる者に準ずる者として内閣府令で定める者
     modality: unspecified
     item_number: 5
 cases: []

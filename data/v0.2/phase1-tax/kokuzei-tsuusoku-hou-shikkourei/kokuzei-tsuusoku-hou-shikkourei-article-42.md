@@ -28,8 +28,8 @@ paragraphs:
     text: この場合において、前条第一項第一号及び第二号に掲げる事項並びに同項第三号から第六号までの各号に掲げる事項ごとに一枚の証明書であるものとし、なお、その証明書が二以上の年度に係る国税に関するものであるときは、証明を受けようとする事項が未納の税額のみに係る場合を除き、その年度の数に相当する枚数の証明書であるものとして計算するものとする。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
     depends_on: kokuzei-tsuusoku-hou-shikkourei-art-42-p1-zen
 - number: 2
   has_proviso: true

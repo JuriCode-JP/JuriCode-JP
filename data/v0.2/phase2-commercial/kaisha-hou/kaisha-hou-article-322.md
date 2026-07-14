@@ -23,83 +23,83 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-322-p1-kou-1
     type: kou
-    text: '次に掲げる事項についての定款の変更（第百十一条第一項又は第二項に規定するものを除く。）
+    text: '一　次に掲げる事項についての定款の変更（第百十一条第一項又は第二項に規定するものを除く。）
 
-      イ 株式の種類の追加
+      イ　株式の種類の追加
 
-      ロ 株式の内容の変更
+      ロ　株式の内容の変更
 
-      ハ 発行可能株式総数又は発行可能種類株式総数の増加'
+      ハ　発行可能株式総数又は発行可能種類株式総数の増加'
     modality: unspecified
     item_number: 1
-  - id: kaisha-hou-art-322-p1-kou-1
+  - id: kaisha-hou-art-322-p1-kou-1-2
     type: kou
-    text: 第百七十九条の三第一項の承認
+    text: 一の二　第百七十九条の三第一項の承認
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-322-p1-kou-2
     type: kou
-    text: 株式の併合又は株式の分割
+    text: 二　株式の併合又は株式の分割
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-322-p1-kou-3
     type: kou
-    text: 第百八十五条に規定する株式無償割当て
+    text: 三　第百八十五条に規定する株式無償割当て
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-322-p1-kou-4
     type: kou
-    text: 当該株式会社の株式を引き受ける者の募集（第二百二条第一項各号に掲げる事項を定めるものに限る。）
+    text: 四　当該株式会社の株式を引き受ける者の募集（第二百二条第一項各号に掲げる事項を定めるものに限る。）
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-322-p1-kou-5
     type: kou
-    text: 当該株式会社の新株予約権を引き受ける者の募集（第二百四十一条第一項各号に掲げる事項を定めるものに限る。）
+    text: 五　当該株式会社の新株予約権を引き受ける者の募集（第二百四十一条第一項各号に掲げる事項を定めるものに限る。）
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-322-p1-kou-6
     type: kou
-    text: 第二百七十七条に規定する新株予約権無償割当て
+    text: 六　第二百七十七条に規定する新株予約権無償割当て
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-322-p1-kou-7
     type: kou
-    text: 合併
+    text: 七　合併
     modality: unspecified
     item_number: 7
   - id: kaisha-hou-art-322-p1-kou-8
     type: kou
-    text: 吸収分割
+    text: 八　吸収分割
     modality: unspecified
     item_number: 8
   - id: kaisha-hou-art-322-p1-kou-9
     type: kou
-    text: 吸収分割による他の会社がその事業に関して有する権利義務の全部又は一部の承継
+    text: 九　吸収分割による他の会社がその事業に関して有する権利義務の全部又は一部の承継
     modality: unspecified
     item_number: 9
   - id: kaisha-hou-art-322-p1-kou-10
     type: kou
-    text: 新設分割
+    text: 十　新設分割
     modality: unspecified
     item_number: 10
   - id: kaisha-hou-art-322-p1-kou-11
     type: kou
-    text: 株式交換
+    text: 十一　株式交換
     modality: unspecified
     item_number: 11
   - id: kaisha-hou-art-322-p1-kou-12
     type: kou
-    text: 株式交換による他の株式会社の発行済株式全部の取得
+    text: 十二　株式交換による他の株式会社の発行済株式全部の取得
     modality: unspecified
     item_number: 12
   - id: kaisha-hou-art-322-p1-kou-13
     type: kou
-    text: 株式移転
+    text: 十三　株式移転
     modality: unspecified
     item_number: 13
   - id: kaisha-hou-art-322-p1-kou-14
     type: kou
-    text: 株式交付
+    text: 十四　株式交付
     modality: unspecified
     item_number: 14
 - number: 2

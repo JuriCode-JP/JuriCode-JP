@@ -49,8 +49,8 @@ paragraphs:
     text: 前項の措置がとられた場合において、当該措置をとつた者がなお株式会社金融商品取引所の保有基準割合以上の数の対象議決権の保有者であるときは、当該株式会社金融商品取引所を子会社とする会社でなくなつた日を第百三条の二第四項の特定保有者となつた日とみなして、同項の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

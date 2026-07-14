@@ -36,9 +36,9 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -49,8 +49,8 @@ paragraphs:
     text: 内国法人が資産の販売等を行つた場合（当該資産の販売等に係る収益の額につき一般に公正妥当と認められる会計処理の基準に従つて第一項に規定する日又は前項に規定する近接する日の属する事業年度の確定した決算において収益として経理した場合を除く。）において、当該資産の販売等に係る同項に規定する近接する日の属する事業年度の確定申告書に当該資産の販売等に係る収益の額の益金算入に関する申告の記載があるときは、その額につき当該事業年度の確定した決算において収益として経理したものとみなして、同項の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -72,16 +72,16 @@ paragraphs:
     text: 前項の引渡しの時における価額又は通常得べき対価の額は、同項の資産の販売等につき次に掲げる事実が生ずる可能性がある場合においても、その可能性がないものとした場合における価額とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: houjin-zei-hou-art-22-2-p5-kou-1
     type: kou
-    text: 当該資産の販売等の対価の額に係る金銭債権の貸倒れ
+    text: 一　当該資産の販売等の対価の額に係る金銭債権の貸倒れ
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-22-2-p5-kou-2
     type: kou
-    text: 当該資産の販売等（資産の販売又は譲渡に限る。）に係る資産の買戻し
+    text: 二　当該資産の販売等（資産の販売又は譲渡に限る。）に係る資産の買戻し
     modality: unspecified
     item_number: 2
 - number: 6

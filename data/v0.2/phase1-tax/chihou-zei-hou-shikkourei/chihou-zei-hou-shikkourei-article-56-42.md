@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-56-42-p1-kou-1
     type: kou
-    text: 駐車場法（昭和三十二年法律第百六号）第二条第二号に規定する路外駐車場（以下本条において「特定路外駐車場」という。）で都市計画において定められたもの
+    text: 一　駐車場法（昭和三十二年法律第百六号）第二条第二号に規定する路外駐車場（以下本条において「特定路外駐車場」という。）で都市計画において定められたもの
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-56-42-p1-kou-2
     type: kou
-    text: 特定路外駐車場で駐車場法第十二条の規定により届出がなされたもの（前号に掲げるものを除く。）
+    text: 二　特定路外駐車場で駐車場法第十二条の規定により届出がなされたもの（前号に掲げるものを除く。）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-56-42-p1-kou-3
     type: kou
-    text: その他総務省令で定める特定路外駐車場
+    text: 三　その他総務省令で定める特定路外駐車場
     modality: unspecified
     item_number: 3
 cases: []

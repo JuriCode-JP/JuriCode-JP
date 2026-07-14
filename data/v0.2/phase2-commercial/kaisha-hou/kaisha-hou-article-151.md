@@ -23,72 +23,72 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-151-p1-kou-1
     type: kou
-    text: 第百六十七条第一項の規定による取得請求権付株式の取得
+    text: 一　第百六十七条第一項の規定による取得請求権付株式の取得
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-151-p1-kou-2
     type: kou
-    text: 第百七十条第一項の規定による取得条項付株式の取得
+    text: 二　第百七十条第一項の規定による取得条項付株式の取得
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-151-p1-kou-3
     type: kou
-    text: 第百七十三条第一項の規定による第百七十一条第一項に規定する全部取得条項付種類株式の取得
+    text: 三　第百七十三条第一項の規定による第百七十一条第一項に規定する全部取得条項付種類株式の取得
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-151-p1-kou-4
     type: kou
-    text: 株式の併合
+    text: 四　株式の併合
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-151-p1-kou-5
     type: kou
-    text: 株式の分割
+    text: 五　株式の分割
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-151-p1-kou-6
     type: kou
-    text: 第百八十五条に規定する株式無償割当て
+    text: 六　第百八十五条に規定する株式無償割当て
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-151-p1-kou-7
     type: kou
-    text: 第二百七十七条に規定する新株予約権無償割当て
+    text: 七　第二百七十七条に規定する新株予約権無償割当て
     modality: unspecified
     item_number: 7
   - id: kaisha-hou-art-151-p1-kou-8
     type: kou
-    text: 剰余金の配当
+    text: 八　剰余金の配当
     modality: unspecified
     item_number: 8
   - id: kaisha-hou-art-151-p1-kou-9
     type: kou
-    text: 残余財産の分配
+    text: 九　残余財産の分配
     modality: unspecified
     item_number: 9
   - id: kaisha-hou-art-151-p1-kou-10
     type: kou
-    text: 組織変更
+    text: 十　組織変更
     modality: unspecified
     item_number: 10
   - id: kaisha-hou-art-151-p1-kou-11
     type: kou
-    text: 合併（合併により当該株式会社が消滅する場合に限る。）
+    text: 十一　合併（合併により当該株式会社が消滅する場合に限る。）
     modality: unspecified
     item_number: 11
   - id: kaisha-hou-art-151-p1-kou-12
     type: kou
-    text: 株式交換
+    text: 十二　株式交換
     modality: unspecified
     item_number: 12
   - id: kaisha-hou-art-151-p1-kou-13
     type: kou
-    text: 株式移転
+    text: 十三　株式移転
     modality: unspecified
     item_number: 13
   - id: kaisha-hou-art-151-p1-kou-14
     type: kou
-    text: 株式の取得（第一号から第三号までに掲げる行為を除く。）
+    text: 十四　株式の取得（第一号から第三号までに掲げる行為を除く。）
     modality: unspecified
     item_number: 14
 - number: 2

@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-65-p1-kou-1
     type: kou
-    text: 製造販売業者の氏名及び住所
+    text: 一　製造販売業者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-65-p1-kou-2
     type: kou
-    text: 主たる機能を有する事務所の名称及び所在地
+    text: 二　主たる機能を有する事務所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-65-p1-kou-3
     type: kou
-    text: 製造販売業者が法人であるときは、薬事に関する業務に責任を有する役員の氏名
+    text: 三　製造販売業者が法人であるときは、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-137-65-p1-kou-4
     type: kou
-    text: 再生医療等製品総括製造販売責任者の氏名及び住所
+    text: 四　再生医療等製品総括製造販売責任者の氏名及び住所
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-137-65-p1-kou-5
     type: kou
-    text: 当該製造販売業者が、他の種類の製造販売業の許可を受け、又は当該許可に係る事業を廃止したときは、当該許可の種類及び許可番号
+    text: 五　当該製造販売業者が、他の種類の製造販売業の許可を受け、又は当該許可に係る事業を廃止したときは、当該許可の種類及び許可番号
     modality: unspecified
     item_number: 5
 - number: 2
@@ -70,17 +70,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-137-65-p3-kou-1
     type: kou
-    text: 第一項第一号に掲げる製造販売業者の氏名に係る届書　製造販売業者の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（製造販売業者が法人であるときは、登記事項証明書）
+    text: 一　第一項第一号に掲げる製造販売業者の氏名に係る届書　製造販売業者の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（製造販売業者が法人であるときは、登記事項証明書）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-65-p3-kou-2
     type: kou
-    text: 第一項第三号に掲げる役員に係る届書　新たに役員となつた者が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該役員に係る精神の機能の障害に関する医師の診断書
+    text: 二　第一項第三号に掲げる役員に係る届書　新たに役員となつた者が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該役員に係る精神の機能の障害に関する医師の診断書
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-65-p3-kou-3
     type: kou
-    text: 第一項第四号に掲げる事項に係る届書（新たに再生医療等製品総括製造販売責任者となつた者が製造販売業者である場合を除く。）　雇用契約書の写しその他の製造販売業者の新たに再生医療等製品総括製造販売責任者となつた者に対する使用関係を証する書類及び当該者が法第二十三条の三十四第一項に規定する者であることを証する書類
+    text: 三　第一項第四号に掲げる事項に係る届書（新たに再生医療等製品総括製造販売責任者となつた者が製造販売業者である場合を除く。）　雇用契約書の写しその他の製造販売業者の新たに再生医療等製品総括製造販売責任者となつた者に対する使用関係を証する書類及び当該者が法第二十三条の三十四第一項に規定する者であることを証する書類
     modality: unspecified
     item_number: 3
 cases: []

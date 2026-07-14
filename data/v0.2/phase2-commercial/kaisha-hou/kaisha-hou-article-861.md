@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-861-p1-kou-1
     type: kou
-    text: 第八百五十九条の訴え（次条及び第九百三十七条第一項第一号ルにおいて「持分会社の社員の除名の訴え」という。）　対象社員
+    text: 一　第八百五十九条の訴え（次条及び第九百三十七条第一項第一号ルにおいて「持分会社の社員の除名の訴え」という。）　対象社員
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-861-p1-kou-2
     type: kou
-    text: 前条の訴え（次条及び第九百三十七条第一項第一号ヲにおいて「持分会社の業務を執行する社員の業務執行権又は代表権の消滅の訴え」という。）　対象業務執行社員
+    text: 二　前条の訴え（次条及び第九百三十七条第一項第一号ヲにおいて「持分会社の業務を執行する社員の業務執行権又は代表権の消滅の訴え」という。）　対象業務執行社員
     modality: unspecified
     item_number: 2
 cases: []

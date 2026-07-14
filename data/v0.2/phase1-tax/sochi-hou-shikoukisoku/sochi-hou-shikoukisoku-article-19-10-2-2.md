@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-19-10-2-2-p1-kou-1
     type: kou
-    text: その年中に行つた施行令第二十六条の二十七の三第一項に規定する取組（次号及び次項において「取組」という。）の名称
+    text: 一　その年中に行つた施行令第二十六条の二十七の三第一項に規定する取組（次号及び次項において「取組」という。）の名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-19-10-2-2-p1-kou-2
     type: kou
-    text: 当該取組に係る事業を行つた保険者、事業者若しくは市町村（特別区を含む。）の名称又は当該取組に係る診察を行つた医療機関の名称若しくは医師の氏名
+    text: 二　当該取組に係る事業を行つた保険者、事業者若しくは市町村（特別区を含む。）の名称又は当該取組に係る診察を行つた医療機関の名称若しくは医師の氏名
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-19-10-2-2-p1-kou-3
     type: kou
-    text: その年中において支払つた法第四十一条の十七第一項に規定する特定一般用医薬品等購入費（次号及び第五号において「特定一般用医薬品等購入費」という。）の額
+    text: 三　その年中において支払つた法第四十一条の十七第一項に規定する特定一般用医薬品等購入費（次号及び第五号において「特定一般用医薬品等購入費」という。）の額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-19-10-2-2-p1-kou-4
     type: kou
-    text: 当該特定一般用医薬品等購入費に係る施行令第二十六条の二十七の三第二項、第三項又は第五項の規定により定められたこれらの規定に規定する一般用医薬品等（次号において「特定一般用医薬品等」という。）の販売を行つた者の氏名又は名称
+    text: 四　当該特定一般用医薬品等購入費に係る施行令第二十六条の二十七の三第二項、第三項又は第五項の規定により定められたこれらの規定に規定する一般用医薬品等（次号において「特定一般用医薬品等」という。）の販売を行つた者の氏名又は名称
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-19-10-2-2-p1-kou-5
     type: kou
-    text: 当該特定一般用医薬品等購入費に係る特定一般用医薬品等の名称
+    text: 五　当該特定一般用医薬品等購入費に係る特定一般用医薬品等の名称
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-19-10-2-2-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 2

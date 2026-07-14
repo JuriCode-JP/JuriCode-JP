@@ -111,12 +111,12 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-250-9-p9-kou-1
     type: kou
-    text: 委員のうち何人も属していなかつた同一の政党その他の政治団体に新たに三人以上の委員が属するに至つた場合においては、これらの者のうち二人を超える員数の委員
+    text: 一　委員のうち何人も属していなかつた同一の政党その他の政治団体に新たに三人以上の委員が属するに至つた場合においては、これらの者のうち二人を超える員数の委員
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-250-9-p9-kou-2
     type: kou
-    text: 委員のうち一人が既に属している政党その他の政治団体に新たに二人以上の委員が属するに至つた場合においては、これらの者のうち一人を超える員数の委員
+    text: 二　委員のうち一人が既に属している政党その他の政治団体に新たに二人以上の委員が属するに至つた場合においては、これらの者のうち一人を超える員数の委員
     modality: unspecified
     item_number: 2
 - number: 10

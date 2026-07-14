@@ -26,8 +26,8 @@ paragraphs:
     text: ただし、前条第一項本文に規定する場合（同項ただし書又は同条第二項に規定する場合を除く。）は、この限りでない。
     modality: jogai
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

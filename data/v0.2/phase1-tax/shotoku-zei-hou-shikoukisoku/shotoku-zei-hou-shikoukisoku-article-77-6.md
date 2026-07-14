@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-77-6-p1-kou-1
     type: kou
-    text: 法第二百三条の六第二項（公的年金等の受給者の扶養親族等申告書）に規定する公的年金等の支払者の名称、当該公的年金等に係る所得税の同項に規定する納税地及び法人番号
+    text: 一　法第二百三条の六第二項（公的年金等の受給者の扶養親族等申告書）に規定する公的年金等の支払者の名称、当該公的年金等に係る所得税の同項に規定する納税地及び法人番号
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-77-6-p1-kou-2
     type: kou
-    text: 法第二百三条の六第二項の規定による国税庁長官の承認を受けようとする事由の詳細
+    text: 二　法第二百三条の六第二項の規定による国税庁長官の承認を受けようとする事由の詳細
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-77-6-p1-kou-3
     type: kou
-    text: その受理しようとする法第二百三条の六第二項の規定による申告書の書式及びその記載の要領
+    text: 三　その受理しようとする法第二百三条の六第二項の規定による申告書の書式及びその記載の要領
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-77-6-p1-kou-4
     type: kou
-    text: 令第三百十九条の九第一項に規定する申請書を提出する日の属する年において受理した同条第二項に規定する公的年金等の受給者の扶養親族等申告書に記載された事項の記録の方法及びその内容並びに当該記録に関する書類の保存の状況
+    text: 四　令第三百十九条の九第一項に規定する申請書を提出する日の属する年において受理した同条第二項に規定する公的年金等の受給者の扶養親族等申告書に記載された事項の記録の方法及びその内容並びに当該記録に関する書類の保存の状況
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-77-6-p1-kou-5
     type: kou
-    text: 当該申請書を提出する日の属する年の前年以前三年内の各年における法第二百三条の六第二項に規定する公的年金等の支払金額及び当該公的年金等に係る法第四編第三章の二（公的年金等に係る源泉徴収）の規定により徴収した所得税の額並びにその受給者の数
+    text: 五　当該申請書を提出する日の属する年の前年以前三年内の各年における法第二百三条の六第二項に規定する公的年金等の支払金額及び当該公的年金等に係る法第四編第三章の二（公的年金等に係る源泉徴収）の規定により徴収した所得税の額並びにその受給者の数
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-77-6-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 2

@@ -157,27 +157,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-40-8-8-p15-kou-1
     type: kou
-    text: 法第七十条の七の八第二項第一号に規定する特例経営相続承継受贈者の氏名及び住所
+    text: 一　法第七十条の七の八第二項第一号に規定する特例経営相続承継受贈者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-8-8-p15-kou-2
     type: kou
-    text: 法第七十条の七の七第一項（同条第二項の規定により読み替えて適用する場合を含む。）の規定により同条第一項に規定する特例対象受贈非上場株式等の取得をしたものとみなされた年月日
+    text: 二　法第七十条の七の七第一項（同条第二項の規定により読み替えて適用する場合を含む。）の規定により同条第一項に規定する特例対象受贈非上場株式等の取得をしたものとみなされた年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-8-8-p15-kou-3
     type: kou
-    text: 特例対象相続非上場株式等に係る特例認定相続承継会社の名称及び本店の所在地
+    text: 三　特例対象相続非上場株式等に係る特例認定相続承継会社の名称及び本店の所在地
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-8-8-p15-kou-4
     type: kou
-    text: 当該届出書を提出する日の直前の法第七十条の七の八第二項第六号に規定する経営相続報告基準日（以下この号において「経営相続報告基準日」という。）までに終了する各事業年度（当該経営相続報告基準日の直前の経営相続報告基準日までに終了する事業年度を除く。）における総収入金額
+    text: 四　当該届出書を提出する日の直前の法第七十条の七の八第二項第六号に規定する経営相続報告基準日（以下この号において「経営相続報告基準日」という。）までに終了する各事業年度（当該経営相続報告基準日の直前の経営相続報告基準日までに終了する事業年度を除く。）における総収入金額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-40-8-8-p15-kou-5
     type: kou
-    text: その他財務省令で定める事項
+    text: 五　その他財務省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 16

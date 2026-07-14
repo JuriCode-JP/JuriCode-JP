@@ -36,16 +36,16 @@ paragraphs:
     text: 前項ただし書の規定による届出書を提出した任意組合等が次に掲げる場合に該当することとなつたときは、当該該当することとなつた日以後に行う課税資産の譲渡等については、同項ただし書の規定は、適用しない。この場合において、当該任意組合等の業務執行組合員は、当該該当することとなつた旨を記載した届出書を、速やかに、その納税地を所轄する税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: shouhi-zei-hou-art-57-6-p2-kou-1
     type: kou
-    text: 適格請求書発行事業者以外の事業者を新たに組合員として加入させた場合
+    text: 一　適格請求書発行事業者以外の事業者を新たに組合員として加入させた場合
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-57-6-p2-kou-2
     type: kou
-    text: 当該任意組合等の組合員のいずれかが適格請求書発行事業者でなくなつた場合
+    text: 二　当該任意組合等の組合員のいずれかが適格請求書発行事業者でなくなつた場合
     modality: unspecified
     item_number: 2
 - number: 3

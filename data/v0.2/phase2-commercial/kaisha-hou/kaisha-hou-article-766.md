@@ -102,8 +102,8 @@ paragraphs:
     text: 前条第一項に規定する場合には、新設分割会社は、新設分割設立持分会社の成立の日に、同項第三号に掲げる事項についての定めに従い、当該新設分割設立持分会社の社員となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 9
   has_proviso: false
   has_items: false
@@ -125,8 +125,8 @@ paragraphs:
     text: 二以上の株式会社又は合同会社が共同して新設分割をする場合における前項の規定の適用については、同項中「新設分割計画の定めに従い、同号」とあるのは、「同項第七号に掲げる事項についての定めに従い、同項第六号」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

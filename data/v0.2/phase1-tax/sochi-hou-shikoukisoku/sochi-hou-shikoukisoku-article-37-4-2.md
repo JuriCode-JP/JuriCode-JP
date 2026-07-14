@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-4-2-p1-kou-1
     type: kou
-    text: 法第八十七条第七項に規定する書面を提出する者（以下この項において「提出者」という。）の住所及び氏名又は名称並びに法人にあつては、法人番号
+    text: 一　法第八十七条第七項に規定する書面を提出する者（以下この項において「提出者」という。）の住所及び氏名又は名称並びに法人にあつては、法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-4-2-p1-kou-2
     type: kou
-    text: 提出者の酒類の製造場の所在地及び名称
+    text: 二　提出者の酒類の製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-4-2-p1-kou-3
     type: kou
-    text: 対象年度（法第八十七条第七項に規定する対象年度をいう。以下この項において同じ。）
+    text: 三　対象年度（法第八十七条第七項に規定する対象年度をいう。以下この項において同じ。）
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-4-2-p1-kou-4
     type: kou
-    text: 法第八十七条第三項第一号又は第二号のいずれにも該当しない旨
+    text: 四　法第八十七条第三項第一号又は第二号のいずれにも該当しない旨
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-37-4-2-p1-kou-5
     type: kou
-    text: 対象年度の前年度又は対象年度の末日において提出者との間に完全支配関係がある者がある場合には、当該完全支配関係を系統的に示した図
+    text: 五　対象年度の前年度又は対象年度の末日において提出者との間に完全支配関係がある者がある場合には、当該完全支配関係を系統的に示した図
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-37-4-2-p1-kou-6
     type: kou
-    text: 対象年度において実施した前条第二項第四号に掲げる目標を達成するための具体的措置及び当該目標の達成状況
+    text: 六　対象年度において実施した前条第二項第四号に掲げる目標を達成するための具体的措置及び当該目標の達成状況
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-37-4-2-p1-kou-7
     type: kou
-    text: 対象年度の翌年度以降において実施する前条第二項第四号に掲げる目標を達成するための具体的措置
+    text: 七　対象年度の翌年度以降において実施する前条第二項第四号に掲げる目標を達成するための具体的措置
     modality: unspecified
     item_number: 7
   - id: sochi-hou-shikoukisoku-art-37-4-2-p1-kou-8
     type: kou
-    text: 対象年度の十二月三十一日の属する年（法人にあつては、対象年度の一月一日の直前に終了した法第二条第二項第十九号に規定する事業年度）における提出者の売上高、売上原価並びに販売費及び一般管理費並びに酒類の品目別の売上金額その他の酒類製造業の経営に関する事項
+    text: 八　対象年度の十二月三十一日の属する年（法人にあつては、対象年度の一月一日の直前に終了した法第二条第二項第十九号に規定する事業年度）における提出者の売上高、売上原価並びに販売費及び一般管理費並びに酒類の品目別の売上金額その他の酒類製造業の経営に関する事項
     modality: unspecified
     item_number: 8
 - number: 2

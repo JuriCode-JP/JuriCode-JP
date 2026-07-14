@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-shikkourei-art-1-12-p1-kou-1
     type: kou
-    text: 法第九条の四第一項又は第二項の信託の受託者の住所は、当該信託の引受けをした営業所、事務所その他これらに準ずるものの所在地にあるものとする。
+    text: 一　法第九条の四第一項又は第二項の信託の受託者の住所は、当該信託の引受けをした営業所、事務所その他これらに準ずるものの所在地にあるものとする。
     modality: gimu
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-1-12-p1-kou-2
     type: kou
-    text: 法第九条の四第一項又は第二項の信託の受託者は、法第一条の三第一項第一号若しくは第二号又は第一条の四第一項第一号若しくは第二号の規定の適用については、日本国籍を有するものとする。
+    text: 二　法第九条の四第一項又は第二項の信託の受託者は、法第一条の三第一項第一号若しくは第二号又は第一条の四第一項第一号若しくは第二号の規定の適用については、日本国籍を有するものとする。
     modality: gimu
     item_number: 2
 - number: 2
@@ -51,12 +51,12 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-shikkourei-art-1-12-p3-kou-1
     type: kou
-    text: 当該信託についての受益者等が一である場合には、当該信託に関する権利の全部を当該受益者等が有するものとする。
+    text: 一　当該信託についての受益者等が一である場合には、当該信託に関する権利の全部を当該受益者等が有するものとする。
     modality: gimu
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-1-12-p3-kou-2
     type: kou
-    text: 当該信託についての受益者等が二以上存する場合には、当該信託に関する権利の全部をそれぞれの受益者等がその有する権利の内容に応じて有するものとする。
+    text: 二　当該信託についての受益者等が二以上存する場合には、当該信託に関する権利の全部をそれぞれの受益者等がその有する権利の内容に応じて有するものとする。
     modality: gimu
     item_number: 2
 - number: 4
@@ -96,8 +96,8 @@ paragraphs:
     text: 前項の場合において、同項の信託に関する権利は、当該信託の信託事務を主宰する受託者が有するものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false

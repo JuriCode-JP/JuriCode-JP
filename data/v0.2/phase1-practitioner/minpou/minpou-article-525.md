@@ -38,8 +38,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false

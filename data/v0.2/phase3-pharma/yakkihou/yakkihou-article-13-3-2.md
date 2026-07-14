@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の登録については、第十三条の二の二第二項、第三項（同項第一号及び第五号に係る部分に限る。）、第四項及び第五項の規定を準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -25,37 +25,37 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-156-20-3-p1-kou-1
     type: kou
-    text: 商号又は名称
+    text: 一　商号又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-20-3-p1-kou-2
     type: kou
-    text: 資本金の額又は出資の総額
+    text: 二　資本金の額又は出資の総額
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-20-3-p1-kou-3
     type: kou
-    text: 本店又は主たる事務所の所在の場所
+    text: 三　本店又は主たる事務所の所在の場所
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-20-3-p1-kou-4
     type: kou
-    text: 国内に事務所があるときは、その所在の場所
+    text: 四　国内に事務所があるときは、その所在の場所
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-20-3-p1-kou-5
     type: kou
-    text: 役員の役職名及び氏名
+    text: 五　役員の役職名及び氏名
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-156-20-3-p1-kou-6
     type: kou
-    text: 国内における代表者の氏名及び国内の住所
+    text: 六　国内における代表者の氏名及び国内の住所
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-156-20-3-p1-kou-7
     type: kou
-    text: 金融商品債務引受業等及びこれに附帯する業務以外の業務を行うときは、その業務の内容
+    text: 七　金融商品債務引受業等及びこれに附帯する業務以外の業務を行うときは、その業務の内容
     modality: unspecified
     item_number: 7
 - number: 2
@@ -71,37 +71,37 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-156-20-3-p2-kou-1
     type: kou
-    text: 次条第二項第一号から第四号までに掲げる要件に該当しない旨を誓約する書面
+    text: 一　次条第二項第一号から第四号までに掲げる要件に該当しない旨を誓約する書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-20-3-p2-kou-2
     type: kou
-    text: 定款（これに準ずるものを含む。以下この章において同じ。）
+    text: 二　定款（これに準ずるものを含む。以下この章において同じ。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-20-3-p2-kou-3
     type: kou
-    text: 業務方法書
+    text: 三　業務方法書
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-20-3-p2-kou-4
     type: kou
-    text: 貸借対照表及び損益計算書
+    text: 四　貸借対照表及び損益計算書
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-20-3-p2-kou-5
     type: kou
-    text: 収支の見込みを記載した書類
+    text: 五　収支の見込みを記載した書類
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-156-20-3-p2-kou-6
     type: kou
-    text: 未決済債務等（第百五十六条の二十の九第一項に規定する未決済債務等をいう。次条第一項第五号において同じ。）の決済を行うために必要な担保の徴求の方法その他の当該決済の仕組み及び当該決済の業務を行うための設備、人員その他の体制の概要を記載した書類
+    text: 六　未決済債務等（第百五十六条の二十の九第一項に規定する未決済債務等をいう。次条第一項第五号において同じ。）の決済を行うために必要な担保の徴求の方法その他の当該決済の仕組み及び当該決済の業務を行うための設備、人員その他の体制の概要を記載した書類
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-156-20-3-p2-kou-7
     type: kou
-    text: 前各号に掲げるもののほか、内閣府令で定める書類
+    text: 七　前各号に掲げるもののほか、内閣府令で定める書類
     modality: unspecified
     item_number: 7
 - number: 3

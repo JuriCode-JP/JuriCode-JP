@@ -40,8 +40,8 @@ paragraphs:
     text: 前項の場合において、同項の規定により普通地方公共団体の長の職務を代理する者がないときは、その補助機関である職員のうちから当該普通地方公共団体の規則で定めた上席の職員がその職務を代理する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

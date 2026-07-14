@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-225-8-p1-kou-1
     type: kou
-    text: 内国法人の役員としての勤務で国外において行うもの（当該役員としての勤務を行う者が同時にその内国法人の使用人として常時勤務を行う場合の当該役員としての勤務を除く。）
+    text: 一　内国法人の役員としての勤務で国外において行うもの（当該役員としての勤務を行う者が同時にその内国法人の使用人として常時勤務を行う場合の当該役員としての勤務を除く。）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-225-8-p1-kou-2
     type: kou
-    text: 居住者又は内国法人が運航する船舶又は航空機において行う勤務その他の人的役務の提供（国外における寄航地において行われる一時的な人的役務の提供を除く。）
+    text: 二　居住者又は内国法人が運航する船舶又は航空機において行う勤務その他の人的役務の提供（国外における寄航地において行われる一時的な人的役務の提供を除く。）
     modality: unspecified
     item_number: 2
 - number: 2

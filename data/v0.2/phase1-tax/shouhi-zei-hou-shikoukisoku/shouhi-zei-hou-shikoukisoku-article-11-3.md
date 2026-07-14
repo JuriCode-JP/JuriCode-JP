@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-11-3-p1-kou-1
     type: kou
-    text: 金貨又は白金貨
+    text: 一　金貨又は白金貨
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-11-3-p1-kou-2
     type: kou
-    text: 金製品又は白金製品（金又は白金の重量当たりの単価に重量を乗じて得た価額により取引されるものに限るものとし、当該事業者が製造する製品の原材料として使用されることが明らかなものを除く。）
+    text: 二　金製品又は白金製品（金又は白金の重量当たりの単価に重量を乗じて得た価額により取引されるものに限るものとし、当該事業者が製造する製品の原材料として使用されることが明らかなものを除く。）
     modality: unspecified
     item_number: 2
 cases: []

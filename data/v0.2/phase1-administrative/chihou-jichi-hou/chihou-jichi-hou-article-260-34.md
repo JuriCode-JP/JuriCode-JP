@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: chihou-jichi-hou-art-260-34-p1-kou-1
     type: kou
-    text: 仮代表者又は特別代理人の選任に関する事件
+    text: 一　仮代表者又は特別代理人の選任に関する事件
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-260-34-p1-kou-2
     type: kou
-    text: 解散及び清算の監督に関する事件
+    text: 二　解散及び清算の監督に関する事件
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-260-34-p1-kou-3
     type: kou
-    text: 清算人に関する事件
+    text: 三　清算人に関する事件
     modality: unspecified
     item_number: 3
 cases: []

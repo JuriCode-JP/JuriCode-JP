@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-252-p2-kou-1
     type: kou
-    text: 新株予約権原簿が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+    text: 一　新株予約権原簿が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-252-p2-kou-2
     type: kou
-    text: 新株予約権原簿が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    text: 二　新株予約権原簿が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
     modality: unspecified
     item_number: 2
 - number: 3
@@ -53,22 +53,22 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-252-p3-kou-1
     type: kou
-    text: 当該請求を行う株主又は債権者（以下この項において「請求者」という。）がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
+    text: 一　当該請求を行う株主又は債権者（以下この項において「請求者」という。）がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-252-p3-kou-2
     type: kou
-    text: 請求者が当該株式会社の業務の遂行を妨げ、又は株主の共同の利益を害する目的で請求を行ったとき。
+    text: 二　請求者が当該株式会社の業務の遂行を妨げ、又は株主の共同の利益を害する目的で請求を行ったとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-252-p3-kou-3
     type: kou
-    text: 請求者が新株予約権原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
+    text: 三　請求者が新株予約権原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-252-p3-kou-4
     type: kou
-    text: 請求者が、過去二年以内において、新株予約権原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。
+    text: 四　請求者が、過去二年以内において、新株予約権原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。
     modality: unspecified
     item_number: 4
 - number: 4

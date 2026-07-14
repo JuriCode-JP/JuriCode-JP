@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-48-9-17-p1-kou-1
     type: kou
-    text: 特定年金保険者（厚生労働大臣及び地方公務員共済組合（全国市町村職員共済組合連合会を含む。以下この条及び次条において同じ。）以外の年金保険者をいう。第三項第一号において同じ。）　厚生労働大臣
+    text: 一　特定年金保険者（厚生労働大臣及び地方公務員共済組合（全国市町村職員共済組合連合会を含む。以下この条及び次条において同じ。）以外の年金保険者をいう。第三項第一号において同じ。）　厚生労働大臣
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-48-9-17-p1-kou-2
     type: kou
-    text: 地方公務員共済組合　地方公務員共済組合連合会
+    text: 二　地方公務員共済組合　地方公務員共済組合連合会
     modality: unspecified
     item_number: 2
 - number: 2
@@ -55,12 +55,12 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-shikkourei-art-48-9-17-p3-kou-1
     type: kou
-    text: 特定年金保険者　厚生労働大臣
+    text: 一　特定年金保険者　厚生労働大臣
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-48-9-17-p3-kou-2
     type: kou
-    text: 地方公務員共済組合　地方公務員共済組合連合会
+    text: 二　地方公務員共済組合　地方公務員共済組合連合会
     modality: unspecified
     item_number: 2
 - number: 4

@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-193-p1-kou-1
     type: kou
-    text: 当該単元未満株式が市場価格のある株式である場合　当該単元未満株式の市場価格として法務省令で定める方法により算定される額
+    text: 一　当該単元未満株式が市場価格のある株式である場合　当該単元未満株式の市場価格として法務省令で定める方法により算定される額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-193-p1-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　株式会社と前条第一項の規定による請求をした単元未満株主との協議によって定める額
+    text: 二　前号に掲げる場合以外の場合　株式会社と前条第一項の規定による請求をした単元未満株主との協議によって定める額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -84,8 +84,8 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

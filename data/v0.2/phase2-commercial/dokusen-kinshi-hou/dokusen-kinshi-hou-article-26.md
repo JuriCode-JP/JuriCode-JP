@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の請求権は、同項の排除措置命令又は納付命令が確定した日から三年を経過したときは、時効によつて消滅する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

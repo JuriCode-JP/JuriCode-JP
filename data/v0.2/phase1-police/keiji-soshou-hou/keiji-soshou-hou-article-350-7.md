@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定により合意内容書面の取調べを請求する場合において、当該合意の当事者が第三百五十条の十第二項の規定により当該合意から離脱する旨の告知をしているときは、検察官は、あわせて、同項の書面の取調べを請求しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

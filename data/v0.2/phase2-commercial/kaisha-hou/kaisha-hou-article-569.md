@@ -22,8 +22,8 @@ paragraphs:
     text: 前条の申立てがあった場合には、裁判所は、次項の場合を除き、協定の認可の決定をする。
     modality: unspecified
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: true
@@ -35,22 +35,22 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-569-p2-kou-1
     type: kou
-    text: 特別清算の手続又は協定が法律の規定に違反し、かつ、その不備を補正することができないものであるとき。ただし、特別清算の手続が法律の規定に違反する場合において、当該違反の程度が軽微であるときは、この限りでない。
+    text: 一　特別清算の手続又は協定が法律の規定に違反し、かつ、その不備を補正することができないものであるとき。ただし、特別清算の手続が法律の規定に違反する場合において、当該違反の程度が軽微であるときは、この限りでない。
     modality: jogai
     item_number: 1
   - id: kaisha-hou-art-569-p2-kou-2
     type: kou
-    text: 協定が遂行される見込みがないとき。
+    text: 二　協定が遂行される見込みがないとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-569-p2-kou-3
     type: kou
-    text: 協定が不正の方法によって成立するに至ったとき。
+    text: 三　協定が不正の方法によって成立するに至ったとき。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-569-p2-kou-4
     type: kou
-    text: 協定が債権者の一般の利益に反するとき。
+    text: 四　協定が債権者の一般の利益に反するとき。
     modality: unspecified
     item_number: 4
 cases: []

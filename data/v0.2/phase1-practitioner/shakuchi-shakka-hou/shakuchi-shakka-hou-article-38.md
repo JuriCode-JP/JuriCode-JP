@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の規定による建物の賃貸借の契約がその内容を記録した電磁的記録によってされたときは、その契約は、書面によってされたものとみなして、同項の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

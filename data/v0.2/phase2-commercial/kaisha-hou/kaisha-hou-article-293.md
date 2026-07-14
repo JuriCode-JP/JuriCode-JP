@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-293-p1-kou-1
     type: kou
-    text: 第百七十九条の三第一項の承認　売渡新株予約権
+    text: 一　第百七十九条の三第一項の承認　売渡新株予約権
     modality: unspecified
     item_number: 1
-  - id: kaisha-hou-art-293-p1-kou-1
+  - id: kaisha-hou-art-293-p1-kou-1-2
     type: kou
-    text: 取得条項付新株予約権の取得　当該取得条項付新株予約権
+    text: 一の二　取得条項付新株予約権の取得　当該取得条項付新株予約権
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-293-p1-kou-2
     type: kou
-    text: 組織変更　全部の新株予約権
+    text: 二　組織変更　全部の新株予約権
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-293-p1-kou-3
     type: kou
-    text: 合併（合併により当該株式会社が消滅する場合に限る。）　全部の新株予約権
+    text: 三　合併（合併により当該株式会社が消滅する場合に限る。）　全部の新株予約権
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-293-p1-kou-4
     type: kou
-    text: 吸収分割　第七百五十八条第五号イに規定する吸収分割契約新株予約権
+    text: 四　吸収分割　第七百五十八条第五号イに規定する吸収分割契約新株予約権
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-293-p1-kou-5
     type: kou
-    text: 新設分割　第七百六十三条第一項第十号イに規定する新設分割計画新株予約権
+    text: 五　新設分割　第七百六十三条第一項第十号イに規定する新設分割計画新株予約権
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-293-p1-kou-6
     type: kou
-    text: 株式交換　第七百六十八条第一項第四号イに規定する株式交換契約新株予約権
+    text: 六　株式交換　第七百六十八条第一項第四号イに規定する株式交換契約新株予約権
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-293-p1-kou-7
     type: kou
-    text: 株式移転　第七百七十三条第一項第九号イに規定する株式移転計画新株予約権
+    text: 七　株式移転　第七百七十三条第一項第九号イに規定する株式移転計画新株予約権
     modality: unspecified
     item_number: 7
 - number: 2
@@ -72,42 +72,42 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-293-p2-kou-1
     type: kou
-    text: 第百七十九条の三第一項の承認　特別支配株主
+    text: 一　第百七十九条の三第一項の承認　特別支配株主
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-293-p2-kou-2
     type: kou
-    text: 取得条項付新株予約権の取得　当該株式会社
+    text: 二　取得条項付新株予約権の取得　当該株式会社
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-293-p2-kou-3
     type: kou
-    text: 組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
+    text: 三　組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-293-p2-kou-4
     type: kou
-    text: 合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
+    text: 四　合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-293-p2-kou-5
     type: kou
-    text: 吸収分割　第七百五十八条第一号に規定する吸収分割承継株式会社
+    text: 五　吸収分割　第七百五十八条第一号に規定する吸収分割承継株式会社
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-293-p2-kou-6
     type: kou
-    text: 新設分割　第七百六十三条第一項第一号に規定する新設分割設立株式会社
+    text: 六　新設分割　第七百六十三条第一項第一号に規定する新設分割設立株式会社
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-293-p2-kou-7
     type: kou
-    text: 株式交換　第七百六十八条第一項第一号に規定する株式交換完全親株式会社
+    text: 七　株式交換　第七百六十八条第一項第一号に規定する株式交換完全親株式会社
     modality: unspecified
     item_number: 7
   - id: kaisha-hou-art-293-p2-kou-8
     type: kou
-    text: 株式移転　第七百七十三条第一項第一号に規定する株式移転設立完全親会社
+    text: 八　株式移転　第七百七十三条第一項第一号に規定する株式移転設立完全親会社
     modality: unspecified
     item_number: 8
 - number: 3

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-268-p1-kou-1
     type: kou
-    text: その年分の未納の所得税で修正申告書の提出又は更正により納付すべきもの（法第百二十条第二項各号（予納税額の意義）に掲げる税額（以下この条において「予定納税額等」という。）を除く。）があるときは、当該所得税に充当する。
+    text: 一　その年分の未納の所得税で修正申告書の提出又は更正により納付すべきもの（法第百二十条第二項各号（予納税額の意義）に掲げる税額（以下この条において「予定納税額等」という。）を除く。）があるときは、当該所得税に充当する。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-268-p1-kou-2
     type: kou
-    text: 前号の充当をしてもなお還付すべき金額があるときは、その他の未納の国税及び滞納処分費に充当する。
+    text: 二　前号の充当をしてもなお還付すべき金額があるときは、その他の未納の国税及び滞納処分費に充当する。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,17 +44,17 @@ paragraphs:
     - 次項
   - id: shotoku-zei-hou-shikkourei-art-268-p2-kou-1
     type: kou
-    text: その年分の未納の所得税で修正申告書の提出又は更正により納付すべきもの（予定納税額等を除く。）があるときは、当該所得税に充当する。
+    text: 一　その年分の未納の所得税で修正申告書の提出又は更正により納付すべきもの（予定納税額等を除く。）があるときは、当該所得税に充当する。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-268-p2-kou-2
     type: kou
-    text: 前号の充当をしてもなお還付すべき金額がある場合において、その年分の予定納税額等で未納のものがあるときは、当該未納の予定納税額等に充当する。この場合において、国税通則法第二条第八号（定義）に規定する法定納期限を異にする未納の予定納税額等があるときは、その未納の予定納税額等のうち当該法定納期限がその還付の日に最も近いものから順次当該還付すべき金額に達するまでさかのぼつて求めたものに充当する。
+    text: 二　前号の充当をしてもなお還付すべき金額がある場合において、その年分の予定納税額等で未納のものがあるときは、当該未納の予定納税額等に充当する。この場合において、国税通則法第二条第八号（定義）に規定する法定納期限を異にする未納の予定納税額等があるときは、その未納の予定納税額等のうち当該法定納期限がその還付の日に最も近いものから順次当該還付すべき金額に達するまでさかのぼつて求めたものに充当する。
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-268-p2-kou-3
     type: kou
-    text: 前二号の充当をしてもなお還付すべき金額があるときは、その他の未納の国税及び滞納処分費に充当する。
+    text: 三　前二号の充当をしてもなお還付すべき金額があるときは、その他の未納の国税及び滞納処分費に充当する。
     modality: unspecified
     item_number: 3
 - number: 3
@@ -68,12 +68,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-268-p3-kou-1
     type: kou
-    text: 前項第一号に規定する所得税に充当する場合　法第百三十八条第一項の規定による還付金
+    text: 一　前項第一号に規定する所得税に充当する場合　法第百三十八条第一項の規定による還付金
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-268-p3-kou-2
     type: kou
-    text: 予定納税額等に充当する場合　法第百三十九条第一項又は第二項の規定による還付金
+    text: 二　予定納税額等に充当する場合　法第百三十九条第一項又は第二項の規定による還付金
     modality: unspecified
     item_number: 2
 cases: []

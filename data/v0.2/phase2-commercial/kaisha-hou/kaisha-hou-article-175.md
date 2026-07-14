@@ -26,12 +26,12 @@ paragraphs:
     - 次条
   - id: kaisha-hou-art-175-p1-kou-1
     type: kou
-    text: 次条第一項の規定による請求をする株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
+    text: 一　次条第一項の規定による請求をする株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-175-p1-kou-2
     type: kou
-    text: 前号の株式を有する者の氏名又は名称
+    text: 二　前号の株式を有する者の氏名又は名称
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,8 +44,8 @@ paragraphs:
     text: 前項第二号の者は、同項の株主総会において議決権を行使することができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-175-p2-tadashi
     type: tadashi
     text: ただし、同号の者以外の株主の全部が当該株主総会において議決権を行使することができない場合は、この限りでない。

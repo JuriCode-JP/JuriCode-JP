@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikkourei-art-318-3-p1-kou-1
     type: kou
-    text: その控除対象配偶者又は配偶者が当該居住者の配偶者に該当する旨を証する書類として財務省令で定めるもの
+    text: 一　その控除対象配偶者又は配偶者が当該居住者の配偶者に該当する旨を証する書類として財務省令で定めるもの
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-318-3-p1-kou-2
     type: kou
-    text: その控除対象配偶者又は配偶者が当該居住者と生計を一にすることを明らかにする書類として財務省令で定めるもの
+    text: 二　その控除対象配偶者又は配偶者が当該居住者と生計を一にすることを明らかにする書類として財務省令で定めるもの
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-925-p1-kou-1
     type: kou
-    text: 第八百四条第一項の株主総会の決議の日
+    text: 一　第八百四条第一項の株主総会の決議の日
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-925-p1-kou-2
     type: kou
-    text: 株式移転をするために種類株主総会の決議を要するときは、当該決議の日
+    text: 二　株式移転をするために種類株主総会の決議を要するときは、当該決議の日
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-925-p1-kou-3
     type: kou
-    text: 第八百六条第三項の規定による通知又は同条第四項の公告をした日から二十日を経過した日
+    text: 三　第八百六条第三項の規定による通知又は同条第四項の公告をした日から二十日を経過した日
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-925-p1-kou-4
     type: kou
-    text: 第八百八条第三項の規定による通知を受けるべき新株予約権者があるときは、同項の規定による通知をした日又は同条第四項の公告をした日から二十日を経過した日
+    text: 四　第八百八条第三項の規定による通知を受けるべき新株予約権者があるときは、同項の規定による通知をした日又は同条第四項の公告をした日から二十日を経過した日
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-925-p1-kou-5
     type: kou
-    text: 第八百十条の規定による手続をしなければならないときは、当該手続が終了した日
+    text: 五　第八百十条の規定による手続をしなければならないときは、当該手続が終了した日
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-925-p1-kou-6
     type: kou
-    text: 株式移転をする株式会社が定めた日（二以上の株式会社が共同して株式移転をする場合にあっては、当該二以上の株式移転をする株式会社が合意により定めた日）
+    text: 六　株式移転をする株式会社が定めた日（二以上の株式会社が共同して株式移転をする場合にあっては、当該二以上の株式移転をする株式会社が合意により定めた日）
     modality: unspecified
     item_number: 6
 cases: []

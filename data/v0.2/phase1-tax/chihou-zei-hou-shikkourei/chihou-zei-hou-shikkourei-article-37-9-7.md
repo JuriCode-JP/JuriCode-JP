@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-37-9-7-p1-kou-1
     type: kou
-    text: 事務所の用に供する不動産
+    text: 一　事務所の用に供する不動産
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-37-9-7-p1-kou-2
     type: kou
-    text: 宿舎の用に供する不動産
+    text: 二　宿舎の用に供する不動産
     modality: unspecified
     item_number: 2
 cases: []

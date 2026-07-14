@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定は、同項の居住者が雑損失の金額が生じた年分の所得税につき確定申告書を提出し、かつ、その後において連続して確定申告書を提出している場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

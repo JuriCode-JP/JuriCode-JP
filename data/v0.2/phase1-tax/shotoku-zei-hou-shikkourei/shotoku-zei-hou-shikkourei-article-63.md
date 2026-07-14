@@ -23,62 +23,62 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-1
     type: kou
-    text: 農業
+    text: 一　農業
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-2
     type: kou
-    text: 林業及び狩猟業
+    text: 二　林業及び狩猟業
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-3
     type: kou
-    text: 漁業及び水産養殖業
+    text: 三　漁業及び水産養殖業
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-4
     type: kou
-    text: 鉱業（土石採取業を含む。）
+    text: 四　鉱業（土石採取業を含む。）
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-5
     type: kou
-    text: 建設業
+    text: 五　建設業
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-6
     type: kou
-    text: 製造業
+    text: 六　製造業
     modality: unspecified
     item_number: 6
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-7
     type: kou
-    text: 卸売業及び小売業（飲食店業及び料理店業を含む。）
+    text: 七　卸売業及び小売業（飲食店業及び料理店業を含む。）
     modality: unspecified
     item_number: 7
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-8
     type: kou
-    text: 金融業及び保険業
+    text: 八　金融業及び保険業
     modality: unspecified
     item_number: 8
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-9
     type: kou
-    text: 不動産業
+    text: 九　不動産業
     modality: unspecified
     item_number: 9
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-10
     type: kou
-    text: 運輸通信業（倉庫業を含む。）
+    text: 十　運輸通信業（倉庫業を含む。）
     modality: unspecified
     item_number: 10
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-11
     type: kou
-    text: 医療保健業、著述業その他のサービス業
+    text: 十一　医療保健業、著述業その他のサービス業
     modality: unspecified
     item_number: 11
   - id: shotoku-zei-hou-shikkourei-art-63-p1-kou-12
     type: kou
-    text: 前各号に掲げるもののほか、対価を得て継続的に行なう事業
+    text: 十二　前各号に掲げるもののほか、対価を得て継続的に行なう事業
     modality: unspecified
     item_number: 12
 cases:

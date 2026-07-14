@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の清算持分会社が同項の規定に違反してその財産の処分をしたときは、社員の持分を差し押さえた債権者は、当該清算持分会社に対し、その持分に相当する金額の支払を請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

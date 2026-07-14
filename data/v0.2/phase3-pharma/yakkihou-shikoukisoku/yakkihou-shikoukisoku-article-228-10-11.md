@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-1
     type: kou
-    text: 医学医術に関する学術団体
+    text: 一　医学医術に関する学術団体
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-2
     type: kou
-    text: 診療又は調剤に関する学識経験者の団体その他の医薬関係者の団体
+    text: 二　診療又は調剤に関する学識経験者の団体その他の医薬関係者の団体
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-3
     type: kou
-    text: 私立学校法（昭和二十四年法律第二百七十号）第三条に規定する学校法人
+    text: 三　私立学校法（昭和二十四年法律第二百七十号）第三条に規定する学校法人
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-4
     type: kou
-    text: 国立大学法人法（平成十五年法律第百十二号）第二条第一項に規定する国立大学法人
+    text: 四　国立大学法人法（平成十五年法律第百十二号）第二条第一項に規定する国立大学法人
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-5
     type: kou
-    text: 地方独立行政法人法（平成十五年法律第百十八号）第六十八条第一項に規定する公立大学法人
+    text: 五　地方独立行政法人法（平成十五年法律第百十八号）第六十八条第一項に規定する公立大学法人
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-228-10-11-p1-kou-6
     type: kou
-    text: 独立行政法人通則法（平成十一年法律第百三号）第二条第一項に規定する独立行政法人（医療分野の研究開発に資する業務を行うものに限る。）
+    text: 六　独立行政法人通則法（平成十一年法律第百三号）第二条第一項に規定する独立行政法人（医療分野の研究開発に資する業務を行うものに限る。）
     modality: unspecified
     item_number: 6
 cases: []

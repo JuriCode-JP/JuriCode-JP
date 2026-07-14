@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_kei
   - id: dokusen-kinshi-hou-art-90-p1-kou-1
     type: kou
-    text: 第六条又は第八条第二号の規定に違反して不当な取引制限に該当する事項を内容とする国際的協定又は国際的契約をしたもの
+    text: 一　第六条又は第八条第二号の規定に違反して不当な取引制限に該当する事項を内容とする国際的協定又は国際的契約をしたもの
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-90-p1-kou-2
     type: kou
-    text: 第八条第三号又は第四号の規定に違反したもの
+    text: 二　第八条第三号又は第四号の規定に違反したもの
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-90-p1-kou-3
     type: kou
-    text: 排除措置命令又は競争回復措置命令が確定した後においてこれに従わないもの
+    text: 三　排除措置命令又は競争回復措置命令が確定した後においてこれに従わないもの
     modality: unspecified
     item_number: 3
 cases: []

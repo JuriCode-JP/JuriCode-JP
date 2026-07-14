@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第二項
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

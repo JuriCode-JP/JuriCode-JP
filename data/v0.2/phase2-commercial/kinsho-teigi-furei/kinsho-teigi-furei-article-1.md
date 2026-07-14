@@ -41,77 +41,77 @@ paragraphs:
     modality: unspecified
   - id: kinsho-teigi-furei-art-1-p3-kou-1
     type: kou
-    text: オプション　法第二条第一項第十九号に規定するオプションをいう。
+    text: 一　オプション　法第二条第一項第十九号に規定するオプションをいう。
     modality: teigi
     item_number: 1
   - id: kinsho-teigi-furei-art-1-p3-kou-2
     type: kou
-    text: 出資対象事業　法第二条第二項第五号に規定する出資対象事業をいう。
+    text: 二　出資対象事業　法第二条第二項第五号に規定する出資対象事業をいう。
     modality: teigi
     item_number: 2
-  - id: kinsho-teigi-furei-art-1-p3-kou-2
+  - id: kinsho-teigi-furei-art-1-p3-kou-2-2
     type: kou
-    text: 電子記録移転権利　法第二条第三項に規定する電子記録移転権利をいう。
+    text: 二の二　電子記録移転権利　法第二条第三項に規定する電子記録移転権利をいう。
     modality: teigi
     item_number: 2
   - id: kinsho-teigi-furei-art-1-p3-kou-3
     type: kou
-    text: 適格機関投資家　法第二条第三項第一号に規定する適格機関投資家をいう。
+    text: 三　適格機関投資家　法第二条第三項第一号に規定する適格機関投資家をいう。
     modality: teigi
     item_number: 3
-  - id: kinsho-teigi-furei-art-1-p3-kou-3
+  - id: kinsho-teigi-furei-art-1-p3-kou-3-2
     type: kou
-    text: 特定投資家等　法第二条第三項第二号ロ（２）に規定する特定投資家等をいう。
+    text: 三の二　特定投資家等　法第二条第三項第二号ロ（２）に規定する特定投資家等をいう。
     modality: teigi
     item_number: 3
-  - id: kinsho-teigi-furei-art-1-p3-kou-3
+  - id: kinsho-teigi-furei-art-1-p3-kou-3-3
     type: kou
-    text: 特定投資家向け有価証券　法第四条第三項に規定する特定投資家向け有価証券をいう。
+    text: 三の三　特定投資家向け有価証券　法第四条第三項に規定する特定投資家向け有価証券をいう。
     modality: teigi
     item_number: 3
   - id: kinsho-teigi-furei-art-1-p3-kou-4
     type: kou
-    text: 投資一任契約　法第二条第八項第十二号ロに規定する投資一任契約をいう。
+    text: 四　投資一任契約　法第二条第八項第十二号ロに規定する投資一任契約をいう。
     modality: teigi
     item_number: 4
   - id: kinsho-teigi-furei-art-1-p3-kou-5
     type: kou
-    text: 登録金融機関　法第二条第十一項に規定する登録金融機関をいう。
+    text: 五　登録金融機関　法第二条第十一項に規定する登録金融機関をいう。
     modality: teigi
     item_number: 5
   - id: kinsho-teigi-furei-art-1-p3-kou-6
     type: kou
-    text: 商品　法第二条第二十四項第三号の三に規定する商品をいう。
+    text: 六　商品　法第二条第二十四項第三号の三に規定する商品をいう。
     modality: teigi
     item_number: 6
   - id: kinsho-teigi-furei-art-1-p3-kou-7
     type: kou
-    text: 金融商品取引業者等　法第三十四条に規定する金融商品取引業者等をいう。
+    text: 七　金融商品取引業者等　法第三十四条に規定する金融商品取引業者等をいう。
     modality: teigi
     item_number: 7
   - id: kinsho-teigi-furei-art-1-p3-kou-8
     type: kou
-    text: 所管金融庁長官等　法第五十七条の二第二項に規定する特別金融商品取引業者及び金融商品取引法施行令（昭和四十年政令第三百二十一号。以下「令」という。）第四十二条第二項又は第四十三条第二項の規定により金融庁長官の指定を受けた金融商品取引業者等にあっては金融庁長官、それ以外の者にあっては現に受けている登録をした財務局長又は福岡財務支局長をいう。
+    text: 八　所管金融庁長官等　法第五十七条の二第二項に規定する特別金融商品取引業者及び金融商品取引法施行令（昭和四十年政令第三百二十一号。以下「令」という。）第四十二条第二項又は第四十三条第二項の規定により金融庁長官の指定を受けた金融商品取引業者等にあっては金融庁長官、それ以外の者にあっては現に受けている登録をした財務局長又は福岡財務支局長をいう。
     modality: teigi
     item_number: 8
   - id: kinsho-teigi-furei-art-1-p3-kou-9
     type: kou
-    text: 組合契約　民法（明治二十九年法律第八十九号）第六百六十七条第一項に規定する組合契約をいう。
+    text: 九　組合契約　民法（明治二十九年法律第八十九号）第六百六十七条第一項に規定する組合契約をいう。
     modality: teigi
     item_number: 9
   - id: kinsho-teigi-furei-art-1-p3-kou-10
     type: kou
-    text: 匿名組合契約　商法（明治三十二年法律第四十八号）第五百三十五条に規定する匿名組合契約をいう。
+    text: 十　匿名組合契約　商法（明治三十二年法律第四十八号）第五百三十五条に規定する匿名組合契約をいう。
     modality: teigi
     item_number: 10
   - id: kinsho-teigi-furei-art-1-p3-kou-11
     type: kou
-    text: 投資事業有限責任組合契約　投資事業有限責任組合契約に関する法律（平成十年法律第九十号）第三条第一項に規定する投資事業有限責任組合契約をいう。
+    text: 十一　投資事業有限責任組合契約　投資事業有限責任組合契約に関する法律（平成十年法律第九十号）第三条第一項に規定する投資事業有限責任組合契約をいう。
     modality: teigi
     item_number: 11
   - id: kinsho-teigi-furei-art-1-p3-kou-12
     type: kou
-    text: 有限責任事業組合契約　有限責任事業組合契約に関する法律（平成十七年法律第四十号）第三条第一項に規定する有限責任事業組合契約をいう。
+    text: 十二　有限責任事業組合契約　有限責任事業組合契約に関する法律（平成十七年法律第四十号）第三条第一項に規定する有限責任事業組合契約をいう。
     modality: teigi
     item_number: 12
 cases: []

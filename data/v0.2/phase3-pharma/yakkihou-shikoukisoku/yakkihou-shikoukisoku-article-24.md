@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-24-p1-kou-1
     type: kou
-    text: 許可番号及び許可年月日
+    text: 一　許可番号及び許可年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-24-p1-kou-2
     type: kou
-    text: 許可の種類
+    text: 二　許可の種類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-24-p1-kou-3
     type: kou
-    text: 製造販売業者の氏名及び住所
+    text: 三　製造販売業者の氏名及び住所
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-24-p1-kou-4
     type: kou
-    text: 医薬品等総括製造販売責任者がその業務を行う事務所（以下この章において「主たる機能を有する事務所」という。）の名称及び所在地
+    text: 四　医薬品等総括製造販売責任者がその業務を行う事務所（以下この章において「主たる機能を有する事務所」という。）の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-24-p1-kou-5
     type: kou
-    text: 医薬品等総括製造販売責任者の氏名及び住所
+    text: 五　医薬品等総括製造販売責任者の氏名及び住所
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-24-p1-kou-6
     type: kou
-    text: 法第十七条第一項ただし書第二号に該当する場合であつて、医薬品等総括製造販売責任者として薬剤師以外の技術者を置くときは、医薬品等総括製造販売責任者補佐薬剤師の氏名及び住所
+    text: 六　法第十七条第一項ただし書第二号に該当する場合であつて、医薬品等総括製造販売責任者として薬剤師以外の技術者を置くときは、医薬品等総括製造販売責任者補佐薬剤師の氏名及び住所
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-24-p1-kou-7
     type: kou
-    text: 当該製造販売業者が他の種類の製造販売業の許可を受けている場合にあつては、当該許可の種類及び許可番号
+    text: 七　当該製造販売業者が他の種類の製造販売業の許可を受けている場合にあつては、当該許可の種類及び許可番号
     modality: unspecified
     item_number: 7
 cases: []

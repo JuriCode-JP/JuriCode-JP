@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-art-13-p1-kou-1
     type: kou
-    text: 被相続人の債務で相続開始の際現に存するもの（公租公課を含む。）
+    text: 一　被相続人の債務で相続開始の際現に存するもの（公租公課を含む。）
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-13-p1-kou-2
     type: kou
-    text: 被相続人に係る葬式費用
+    text: 二　被相続人に係る葬式費用
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,27 +42,27 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-art-13-p2-kou-1
     type: kou
-    text: その財産に係る公租公課
+    text: 一　その財産に係る公租公課
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-13-p2-kou-2
     type: kou
-    text: その財産を目的とする留置権、特別の先取特権、質権又は抵当権で担保される債務
+    text: 二　その財産を目的とする留置権、特別の先取特権、質権又は抵当権で担保される債務
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-art-13-p2-kou-3
     type: kou
-    text: 前二号に掲げる債務を除くほか、その財産の取得、維持又は管理のために生じた債務
+    text: 三　前二号に掲げる債務を除くほか、その財産の取得、維持又は管理のために生じた債務
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-art-13-p2-kou-4
     type: kou
-    text: その財産に関する贈与の義務
+    text: 四　その財産に関する贈与の義務
     modality: unspecified
     item_number: 4
   - id: souzoku-zei-hou-art-13-p2-kou-5
     type: kou
-    text: 前各号に掲げる債務を除くほか、被相続人が死亡の際この法律の施行地に営業所又は事業所を有していた場合においては、当該営業所又は事業所に係る営業上又は事業上の債務
+    text: 五　前各号に掲げる債務を除くほか、被相続人が死亡の際この法律の施行地に営業所又は事業所を有していた場合においては、当該営業所又は事業所に係る営業上又は事業上の債務
     modality: unspecified
     item_number: 5
 - number: 3
@@ -75,8 +75,8 @@ paragraphs:
     text: 前条第一項第二号又は第三号に掲げる財産の取得、維持又は管理のために生じた債務の金額は、前二項の規定による控除金額に算入しない。
     modality: unspecified
     references:
-    - 前条
     - 前二項
+    - 前条
   - id: souzoku-zei-hou-art-13-p3-tadashi
     type: tadashi
     text: ただし、同条第二項の規定により同号に掲げる財産の価額を課税価格に算入した場合においては、この限りでない。

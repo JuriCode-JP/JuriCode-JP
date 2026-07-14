@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-32-p1-kou-1
     type: kou
-    text: 滅菌
+    text: 一　滅菌
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-32-p1-kou-2
     type: kou
-    text: 最終製品の保管
+    text: 二　最終製品の保管
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-32-p1-kou-3
     type: kou
-    text: その他厚生労働大臣が適当と認める製造工程
+    text: 三　その他厚生労働大臣が適当と認める製造工程
     modality: unspecified
     item_number: 3
 cases: []

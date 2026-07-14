@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-11-12-p1-kou-1
     type: kou
-    text: その長さが六メートル以上のものであり、かつ、その幅及び高さがいずれも二・四メートル以上のものであること又はその最大積載重量が十八トン以上のものであること。
+    text: 一　その長さが六メートル以上のものであり、かつ、その幅及び高さがいずれも二・四メートル以上のものであること又はその最大積載重量が十八トン以上のものであること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-11-12-p1-kou-2
     type: kou
-    text: 当該年度の初日の属する年の前年中における外国貿易のために使用された日数の全使用日数に対する割合が八十パーセントを超えるものであること。
+    text: 二　当該年度の初日の属する年の前年中における外国貿易のために使用された日数の全使用日数に対する割合が八十パーセントを超えるものであること。
     modality: unspecified
     item_number: 2
 cases: []

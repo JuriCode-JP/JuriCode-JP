@@ -23,52 +23,52 @@ paragraphs:
     modality: jogai
   - id: minpou-art-13-p1-kou-1
     type: kou
-    text: 元本を領収し、又は利用すること。
+    text: 一　元本を領収し、又は利用すること。
     modality: unspecified
     item_number: 1
   - id: minpou-art-13-p1-kou-2
     type: kou
-    text: 借財又は保証をすること。
+    text: 二　借財又は保証をすること。
     modality: unspecified
     item_number: 2
   - id: minpou-art-13-p1-kou-3
     type: kou
-    text: 不動産その他重要な財産に関する権利の得喪を目的とする行為をすること。
+    text: 三　不動産その他重要な財産に関する権利の得喪を目的とする行為をすること。
     modality: unspecified
     item_number: 3
   - id: minpou-art-13-p1-kou-4
     type: kou
-    text: 訴訟行為をすること。
+    text: 四　訴訟行為をすること。
     modality: unspecified
     item_number: 4
   - id: minpou-art-13-p1-kou-5
     type: kou
-    text: 贈与、和解又は仲裁合意（仲裁法（平成十五年法律第百三十八号）第二条第一項に規定する仲裁合意をいう。）をすること。
+    text: 五　贈与、和解又は仲裁合意（仲裁法（平成十五年法律第百三十八号）第二条第一項に規定する仲裁合意をいう。）をすること。
     modality: unspecified
     item_number: 5
   - id: minpou-art-13-p1-kou-6
     type: kou
-    text: 相続の承認若しくは放棄又は遺産の分割をすること。
+    text: 六　相続の承認若しくは放棄又は遺産の分割をすること。
     modality: unspecified
     item_number: 6
   - id: minpou-art-13-p1-kou-7
     type: kou
-    text: 贈与の申込みを拒絶し、遺贈を放棄し、負担付贈与の申込みを承諾し、又は負担付遺贈を承認すること。
+    text: 七　贈与の申込みを拒絶し、遺贈を放棄し、負担付贈与の申込みを承諾し、又は負担付遺贈を承認すること。
     modality: unspecified
     item_number: 7
   - id: minpou-art-13-p1-kou-8
     type: kou
-    text: 新築、改築、増築又は大修繕をすること。
+    text: 八　新築、改築、増築又は大修繕をすること。
     modality: unspecified
     item_number: 8
   - id: minpou-art-13-p1-kou-9
     type: kou
-    text: 第六百二条に定める期間を超える賃貸借をすること。
+    text: 九　第六百二条に定める期間を超える賃貸借をすること。
     modality: unspecified
     item_number: 9
   - id: minpou-art-13-p1-kou-10
     type: kou
-    text: 前各号に掲げる行為を制限行為能力者（未成年者、成年被後見人、被保佐人及び第十七条第一項の審判を受けた被補助人をいう。以下同じ。）の法定代理人としてすること。
+    text: 十　前各号に掲げる行為を制限行為能力者（未成年者、成年被後見人、被保佐人及び第十七条第一項の審判を受けた被補助人をいう。以下同じ。）の法定代理人としてすること。
     modality: unspecified
     item_number: 10
 - number: 2

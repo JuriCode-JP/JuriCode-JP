@@ -41,17 +41,17 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-37-2-p3-kou-1
     type: kou
-    text: 保管のみを行う製造所の責任者の履歴書
+    text: 一　保管のみを行う製造所の責任者の履歴書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-37-2-p3-kou-2
     type: kou
-    text: 登録を受けようとする保管のみを行う製造所の場所を明らかにした図面
+    text: 二　登録を受けようとする保管のみを行う製造所の場所を明らかにした図面
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-37-2-p3-kou-3
     type: kou
-    text: 当該外国製造業者が存する国が医薬品、医薬部外品又は化粧品の製造販売業の許可、製造業の許可若しくは製造販売の承認の制度又はこれに相当する制度を有する場合においては、当該国の政府機関等が発行する当該制度に係る許可証等の写し
+    text: 三　当該外国製造業者が存する国が医薬品、医薬部外品又は化粧品の製造販売業の許可、製造業の許可若しくは製造販売の承認の制度又はこれに相当する制度を有する場合においては、当該国の政府機関等が発行する当該制度に係る許可証等の写し
     modality: unspecified
     item_number: 3
 - number: 4

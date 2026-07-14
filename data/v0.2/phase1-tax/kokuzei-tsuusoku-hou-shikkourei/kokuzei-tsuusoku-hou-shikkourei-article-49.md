@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-49-p1-kou-1
     type: kou
-    text: 法第百四十五条第二項に規定する領置物件、差押物件又は記録命令付差押物件（以下この条において「還付物件」という。）を還付することができない旨
+    text: 一　法第百四十五条第二項に規定する領置物件、差押物件又は記録命令付差押物件（以下この条において「還付物件」という。）を還付することができない旨
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-49-p1-kou-2
     type: kou
-    text: 還付物件の品名及び数量
+    text: 二　還付物件の品名及び数量
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-49-p1-kou-3
     type: kou
-    text: 領置、差押え又は記録命令付差押えの年月日及び場所
+    text: 三　領置、差押え又は記録命令付差押えの年月日及び場所
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-49-p1-kou-4
     type: kou
-    text: 還付物件の所持者の氏名及び住所又は居所
+    text: 四　還付物件の所持者の氏名及び住所又は居所
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-shikkourei-art-49-p1-kou-5
     type: kou
-    text: 公告の日から六月を経過しても還付の請求がないときは、還付物件は、国庫に帰属する旨
+    text: 五　公告の日から六月を経過しても還付の請求がないときは、還付物件は、国庫に帰属する旨
     modality: unspecified
     item_number: 5
 cases: []

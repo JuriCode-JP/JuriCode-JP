@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-52-10-9-p1-kou-1
     type: kou
-    text: 滑走路、着陸帯、誘導路又はエプロンの用に供する土地及び構築物並びにこれらの土地によつて囲まれる土地
+    text: 一　滑走路、着陸帯、誘導路又はエプロンの用に供する土地及び構築物並びにこれらの土地によつて囲まれる土地
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-52-10-9-p1-kou-2
     type: kou
-    text: 排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する固定資産
+    text: 二　排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する固定資産
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-52-10-9-p1-kou-3
     type: kou
-    text: 航空保安施設の用に供する固定資産
+    text: 三　航空保安施設の用に供する固定資産
     modality: unspecified
     item_number: 3
 cases: []

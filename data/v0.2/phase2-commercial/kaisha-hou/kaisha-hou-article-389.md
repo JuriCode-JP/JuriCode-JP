@@ -57,12 +57,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-389-p4-kou-1
     type: kou
-    text: 会計帳簿又はこれに関する資料が書面をもって作成されているときは、当該書面
+    text: 一　会計帳簿又はこれに関する資料が書面をもって作成されているときは、当該書面
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-389-p4-kou-2
     type: kou
-    text: 会計帳簿又はこれに関する資料が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したもの
+    text: 二　会計帳簿又はこれに関する資料が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したもの
     modality: unspecified
     item_number: 2
 - number: 5
@@ -84,8 +84,8 @@ paragraphs:
     text: 前項の子会社は、正当な理由があるときは、同項の規定による報告又は調査を拒むことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

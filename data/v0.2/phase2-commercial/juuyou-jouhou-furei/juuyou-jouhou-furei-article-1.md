@@ -23,37 +23,37 @@ paragraphs:
     modality: unspecified
   - id: juuyou-jouhou-furei-art-1-p1-kou-1
     type: kou
-    text: 有価証券　金融商品取引法（以下「法」という。）第二条第一項に規定する有価証券及び同条第二項の規定により有価証券とみなされる権利をいう。
+    text: 一　有価証券　金融商品取引法（以下「法」という。）第二条第一項に規定する有価証券及び同条第二項の規定により有価証券とみなされる権利をいう。
     modality: teigi
     item_number: 1
   - id: juuyou-jouhou-furei-art-1-p1-kou-2
     type: kou
-    text: オプション　法第二条第一項第十九号に規定するオプションをいう。
+    text: 二　オプション　法第二条第一項第十九号に規定するオプションをいう。
     modality: teigi
     item_number: 2
   - id: juuyou-jouhou-furei-art-1-p1-kou-3
     type: kou
-    text: 店頭売買有価証券　法第二条第八項第十号ハに規定する店頭売買有価証券をいう。
+    text: 三　店頭売買有価証券　法第二条第八項第十号ハに規定する店頭売買有価証券をいう。
     modality: teigi
     item_number: 3
   - id: juuyou-jouhou-furei-art-1-p1-kou-4
     type: kou
-    text: 登録金融機関　法第二条第十一項に規定する登録金融機関をいう。
+    text: 四　登録金融機関　法第二条第十一項に規定する登録金融機関をいう。
     modality: teigi
     item_number: 4
   - id: juuyou-jouhou-furei-art-1-p1-kou-5
     type: kou
-    text: 登録金融機関業務　法第三十三条の三第一項第六号イに規定する登録金融機関業務をいう。
+    text: 五　登録金融機関業務　法第三十三条の三第一項第六号イに規定する登録金融機関業務をいう。
     modality: teigi
     item_number: 5
   - id: juuyou-jouhou-furei-art-1-p1-kou-6
     type: kou
-    text: 取扱有価証券　法第六十七条の十八第四号に規定する取扱有価証券をいう。
+    text: 六　取扱有価証券　法第六十七条の十八第四号に規定する取扱有価証券をいう。
     modality: teigi
     item_number: 6
   - id: juuyou-jouhou-furei-art-1-p1-kou-7
     type: kou
-    text: 投資法人　投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十二項に規定する投資法人をいう。
+    text: 七　投資法人　投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十二項に規定する投資法人をいう。
     modality: teigi
     item_number: 7
 - number: 2

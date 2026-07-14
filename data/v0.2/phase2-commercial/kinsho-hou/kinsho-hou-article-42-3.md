@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-42-3-p1-kou-1
     type: kou
-    text: 第二条第八項第十二号イ又はロに掲げる契約
+    text: 一　第二条第八項第十二号イ又はロに掲げる契約
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-42-3-p1-kou-2
     type: kou
-    text: 第二条第八項第十四号に規定する有価証券に表示される権利その他の政令で定める権利に係る契約
+    text: 二　第二条第八項第十四号に規定する有価証券に表示される権利その他の政令で定める権利に係る契約
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-42-3-p1-kou-3
     type: kou
-    text: 第二条第八項第十五号イからハまでに掲げる権利その他同号に規定する政令で定める権利に係る契約その他の法律行為
+    text: 三　第二条第八項第十五号イからハまでに掲げる権利その他同号に規定する政令で定める権利に係る契約その他の法律行為
     modality: unspecified
     item_number: 3
 - number: 2
@@ -57,8 +57,8 @@ paragraphs:
     text: 金融商品取引業者等が第一項の規定により委託をした場合における第四十二条第一項の規定の適用については、同項中「金融商品取引業者等」とあるのは、「金融商品取引業者等（当該金融商品取引業者等から第四十二条の三第一項の規定により委託を受けた同項に規定する政令で定める者を含む。次項及び次条において同じ。）」とする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
     - 次条
 cases: []
 amendments: []

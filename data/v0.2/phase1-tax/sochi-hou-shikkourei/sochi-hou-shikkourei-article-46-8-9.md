@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の計算に関し、同項の加熱式たばこの品目ごとの一個当たりの重量に〇・一グラム未満の端数がある場合には、その端数を切り捨てるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

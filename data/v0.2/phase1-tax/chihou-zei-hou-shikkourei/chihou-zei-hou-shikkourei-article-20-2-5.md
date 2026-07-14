@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-20-2-5-p1-kou-1
     type: kou
-    text: 当該事業年度以前の事業年度において支払われた棚卸資産等に係る支払利子の額
+    text: 一　当該事業年度以前の事業年度において支払われた棚卸資産等に係る支払利子の額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-20-2-5-p1-kou-2
     type: kou
-    text: 法人税法第五十三条第一項に規定する賃貸借取引に係る支払利子の額
+    text: 二　法人税法第五十三条第一項に規定する賃貸借取引に係る支払利子の額
     modality: unspecified
     item_number: 2
 - number: 2

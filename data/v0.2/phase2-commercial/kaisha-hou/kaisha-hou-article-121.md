@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-121-p1-kou-1
     type: kou
-    text: 株主の氏名又は名称及び住所
+    text: 一　株主の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-121-p1-kou-2
     type: kou
-    text: 前号の株主の有する株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
+    text: 二　前号の株主の有する株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-121-p1-kou-3
     type: kou
-    text: 第一号の株主が株式を取得した日
+    text: 三　第一号の株主が株式を取得した日
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-121-p1-kou-4
     type: kou
-    text: 株式会社が株券発行会社である場合には、第二号の株式（株券が発行されているものに限る。）に係る株券の番号
+    text: 四　株式会社が株券発行会社である場合には、第二号の株式（株券が発行されているものに限る。）に係る株券の番号
     modality: unspecified
     item_number: 4
 cases: []

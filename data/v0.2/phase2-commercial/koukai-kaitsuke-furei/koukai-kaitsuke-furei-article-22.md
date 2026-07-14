@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-22-p1-kou-1
     type: kou
-    text: 公開買付届出書（その訂正届出書を含む。次条において同じ。）に形式上の不備があることにより訂正届出書を提出する場合
+    text: 一　公開買付届出書（その訂正届出書を含む。次条において同じ。）に形式上の不備があることにより訂正届出書を提出する場合
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-22-p1-kou-2
     type: kou
-    text: 令第十四条第一項第四号に規定する許可等を得られたことにより訂正届出書を提出する場合（当該許可等に投資判断に重要な影響を及ぼす条件が付されていない場合に限る。）
+    text: 二　令第十四条第一項第四号に規定する許可等を得られたことにより訂正届出書を提出する場合（当該許可等に投資判断に重要な影響を及ぼす条件が付されていない場合に限る。）
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-22-p1-kou-3
     type: kou
-    text: 買付け等の期間を延長しないことについて関東財務局長の承認を受けた場合
+    text: 三　買付け等の期間を延長しないことについて関東財務局長の承認を受けた場合
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,17 +49,17 @@ paragraphs:
     - 前項
   - id: koukai-kaitsuke-furei-art-22-p2-kou-1
     type: kou
-    text: 当該公開買付けの内容
+    text: 一　当該公開買付けの内容
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-22-p2-kou-2
     type: kou
-    text: 当該訂正届出書の内容
+    text: 二　当該訂正届出書の内容
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-22-p2-kou-3
     type: kou
-    text: 当該公開買付けに関して当該承認を必要とする理由
+    text: 三　当該公開買付けに関して当該承認を必要とする理由
     modality: unspecified
     item_number: 3
 - number: 3

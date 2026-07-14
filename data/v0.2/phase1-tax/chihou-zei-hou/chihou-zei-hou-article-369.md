@@ -31,8 +31,8 @@ paragraphs:
     text: 市町村長は、納税者が前項の納期限までに納付しなかつたことについてやむを得ない事由があると認める場合においては、同項の延滞金額を減免することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

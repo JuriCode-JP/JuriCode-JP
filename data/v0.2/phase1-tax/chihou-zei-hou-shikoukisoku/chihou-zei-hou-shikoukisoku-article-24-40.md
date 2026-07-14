@@ -25,57 +25,57 @@ paragraphs:
     - 次項
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-1
     type: kou
-    text: 法第二十条の十一の規定による資料の提供
+    text: 一　法第二十条の十一の規定による資料の提供
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-2
     type: kou
-    text: 法第四十六条第五項、第六十三条第一項、第七十二条の四十九の二、第七十二条の五十九第一項、第三百二十五条、第三百五十四条の二、第六百五条及び第七百一条の五十五第一項の規定による関係書類の閲覧又は記録
+    text: 二　法第四十六条第五項、第六十三条第一項、第七十二条の四十九の二、第七十二条の五十九第一項、第三百二十五条、第三百五十四条の二、第六百五条及び第七百一条の五十五第一項の規定による関係書類の閲覧又は記録
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-3
     type: kou
-    text: 法第五十三条第六十二項及び第六十三項の規定による通知
+    text: 三　法第五十三条第六十二項及び第六十三項の規定による通知
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-4
     type: kou
-    text: 法第五十八条第六項の規定による通知
+    text: 四　法第五十八条第六項の規定による通知
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-5
     type: kou
-    text: 法第六十三条第三項及び第四項の規定による通知
+    text: 五　法第六十三条第三項及び第四項の規定による通知
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-6
     type: kou
-    text: 法第七十二条の四十八の二第八項及び第十二項の規定による通知
+    text: 六　法第七十二条の四十八の二第八項及び第十二項の規定による通知
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-7
     type: kou
-    text: 法第二百九十四条第三項の規定による通知
+    text: 七　法第二百九十四条第三項の規定による通知
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-8
     type: kou
-    text: 法第三百十七条の規定による通知
+    text: 八　法第三百十七条の規定による通知
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-9
     type: kou
-    text: 法第三百二十一条の十四第六項の規定による通知
+    text: 九　法第三百二十一条の十四第六項の規定による通知
     modality: unspecified
     item_number: 9
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-10
     type: kou
-    text: 法附則第七条第五項及び第十二項に規定する申告特例通知書の送付
+    text: 十　法附則第七条第五項及び第十二項に規定する申告特例通知書の送付
     modality: unspecified
     item_number: 10
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p1-kou-11
     type: kou
-    text: 政令第二十四条の三第六項（政令第二十四条の四第八項、第二十四条の四の二、第二十四条の四の三第三項及び第二十四条の五において準用する場合を含む。）の規定による通知
+    text: 十一　政令第二十四条の三第六項（政令第二十四条の四第八項、第二十四条の四の二、第二十四条の四の三第三項及び第二十四条の五において準用する場合を含む。）の規定による通知
     modality: unspecified
     item_number: 11
 - number: 2
@@ -100,23 +100,23 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p3-kou-1
     type: kou
-    text: '次のイからハまでの順序に従い、それぞれイからハまでに定めるところにより行うこと。
+    text: '一　次のイからハまでの順序に従い、それぞれイからハまでに定めるところにより行うこと。
 
-      イ 機構の使用に係る電子計算機に、行政機関の長の使用に係る電子計算機に備えられたファイルに記録された特定書面等地方税関係通知又は特定地方税関係通知等を行うときに通知すべきこととされている事項（ロ及びハにおいて「通知事項」という。）を送信すること。
+      イ　機構の使用に係る電子計算機に、行政機関の長の使用に係る電子計算機に備えられたファイルに記録された特定書面等地方税関係通知又は特定地方税関係通知等を行うときに通知すべきこととされている事項（ロ及びハにおいて「通知事項」という。）を送信すること。
 
-      ロ 機構の使用に係る電子計算機において、通知事項に係る通信の交換が行われ、他の行政機関の長の使用に係る電子計算機に伝送されること。
+      ロ　機構の使用に係る電子計算機において、通知事項に係る通信の交換が行われ、他の行政機関の長の使用に係る電子計算機に伝送されること。
 
-      ハ 当該他の行政機関の長の使用に係る電子計算機に備えられたファイルに通知事項が記録されること。'
+      ハ　当該他の行政機関の長の使用に係る電子計算機に備えられたファイルに通知事項が記録されること。'
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p3-kou-2
     type: kou
-    text: 前号の事務の実施に必要な電気通信回線その他の電気通信設備は、総務大臣が定める技術基準に適合するものであること。
+    text: 二　前号の事務の実施に必要な電気通信回線その他の電気通信設備は、総務大臣が定める技術基準に適合するものであること。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-24-40-p3-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、情報通信の技術の利用における安全性及び信頼性を確保するために必要な事項について、総務大臣が定める基準に適合するものであること。
+    text: 三　前二号に掲げるもののほか、情報通信の技術の利用における安全性及び信頼性を確保するために必要な事項について、総務大臣が定める基準に適合するものであること。
     modality: unspecified
     item_number: 3
 cases: []

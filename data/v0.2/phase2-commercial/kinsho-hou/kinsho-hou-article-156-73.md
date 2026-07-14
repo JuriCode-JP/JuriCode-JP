@@ -42,8 +42,8 @@ paragraphs:
     text: 前項の規定による委託を受けた者は、当該委託を受けた取引情報蓄積業務の一部を、同項に規定する委託を受けた者及び同項の取引情報蓄積機関の同意を得て、更に他の者に委託することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

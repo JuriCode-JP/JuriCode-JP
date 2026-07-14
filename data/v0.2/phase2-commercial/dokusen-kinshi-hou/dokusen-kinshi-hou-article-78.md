@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の申立てをするには、同項の訴えの提起が不正の目的（不正の利益を得る目的、他人に損害を加える目的その他の不正の目的をいう。）によるものであることを疎明しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

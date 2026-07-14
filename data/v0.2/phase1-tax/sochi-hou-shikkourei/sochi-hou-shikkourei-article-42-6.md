@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-42-6-p1-kou-1
     type: kou
-    text: 合併
+    text: 一　合併
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-42-6-p1-kou-2
     type: kou
-    text: 会社の分割
+    text: 二　会社の分割
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-42-6-p1-kou-3
     type: kou
-    text: 株式交換
+    text: 三　株式交換
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-42-6-p1-kou-4
     type: kou
-    text: 株式移転
+    text: 四　株式移転
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-42-6-p1-kou-5
     type: kou
-    text: 株式交付
+    text: 五　株式交付
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-42-6-p1-kou-6
     type: kou
-    text: 事業又は資産の譲受け又は譲渡
+    text: 六　事業又は資産の譲受け又は譲渡
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikkourei-art-42-6-p1-kou-7
     type: kou
-    text: 出資の受入れ
+    text: 七　出資の受入れ
     modality: unspecified
     item_number: 7
   - id: sochi-hou-shikkourei-art-42-6-p1-kou-8
     type: kou
-    text: 他の会社の株式又は持分の取得（当該他の会社が関係事業者である場合又は当該取得により当該他の会社が関係事業者となる場合に限る。）
+    text: 八　他の会社の株式又は持分の取得（当該他の会社が関係事業者である場合又は当該取得により当該他の会社が関係事業者となる場合に限る。）
     modality: unspecified
     item_number: 8
   - id: sochi-hou-shikkourei-art-42-6-p1-kou-9
     type: kou
-    text: 会社の設立又は清算
+    text: 九　会社の設立又は清算
     modality: unspecified
     item_number: 9
 - number: 2
@@ -79,32 +79,32 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-42-6-p2-kou-1
     type: kou
-    text: 法第八十条第一項に規定する認定事業再編計画
+    text: 一　法第八十条第一項に規定する認定事業再編計画
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-42-6-p2-kou-2
     type: kou
-    text: 造船法（昭和二十五年法律第百二十九号）第十五条の規定の適用に係る同法第十二条第二項に規定する認定事業基盤強化計画
+    text: 二　造船法（昭和二十五年法律第百二十九号）第十五条の規定の適用に係る同法第十二条第二項に規定する認定事業基盤強化計画
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-42-6-p2-kou-3
     type: kou
-    text: 食品等の持続的な供給を実現するための食品等事業者による事業活動の促進及び食品等の取引の適正化に関する法律（平成三年法律第五十九号。以下第六号までにおいて「食品等持続的供給法」という。）第十七条第一項の規定の適用に係る食品等持続的供給法第六条第一項の認定を受けた同項に規定する安定取引関係確立事業活動計画（食品等持続的供給法第七条第一項の規定による変更の認定があつたときは、その変更後のもの）
+    text: 三　食品等の持続的な供給を実現するための食品等事業者による事業活動の促進及び食品等の取引の適正化に関する法律（平成三年法律第五十九号。以下第六号までにおいて「食品等持続的供給法」という。）第十七条第一項の規定の適用に係る食品等持続的供給法第六条第一項の認定を受けた同項に規定する安定取引関係確立事業活動計画（食品等持続的供給法第七条第一項の規定による変更の認定があつたときは、その変更後のもの）
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-42-6-p2-kou-4
     type: kou
-    text: 食品等持続的供給法第十七条第二項の規定の適用に係る食品等持続的供給法第八条第一項の認定を受けた同項に規定する流通合理化事業活動計画（同条第七項において準用する食品等持続的供給法第七条第一項の規定による変更の認定があつたときは、その変更後のもの）
+    text: 四　食品等持続的供給法第十七条第二項の規定の適用に係る食品等持続的供給法第八条第一項の認定を受けた同項に規定する流通合理化事業活動計画（同条第七項において準用する食品等持続的供給法第七条第一項の規定による変更の認定があつたときは、その変更後のもの）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-42-6-p2-kou-5
     type: kou
-    text: 食品等持続的供給法第十七条第四項の規定の適用に係る食品等持続的供給法第九条第一項の認定を受けた同項に規定する環境負荷低減事業活動計画（同条第八項において準用する食品等持続的供給法第七条第一項の規定による変更の認定があつたときは、その変更後のもの）
+    text: 五　食品等持続的供給法第十七条第四項の規定の適用に係る食品等持続的供給法第九条第一項の認定を受けた同項に規定する環境負荷低減事業活動計画（同条第八項において準用する食品等持続的供給法第七条第一項の規定による変更の認定があつたときは、その変更後のもの）
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-42-6-p2-kou-6
     type: kou
-    text: 食品等持続的供給法第十七条第五項の規定の適用に係る食品等持続的供給法第十条第一項の認定を受けた同項に規定する消費者選択支援事業活動計画（同条第七項において準用する食品等持続的供給法第七条第一項の規定による変更の認定があつたときは、その変更後のもの）
+    text: 六　食品等持続的供給法第十七条第五項の規定の適用に係る食品等持続的供給法第十条第一項の認定を受けた同項に規定する消費者選択支援事業活動計画（同条第七項において準用する食品等持続的供給法第七条第一項の規定による変更の認定があつたときは、その変更後のもの）
     modality: unspecified
     item_number: 6
 - number: 3

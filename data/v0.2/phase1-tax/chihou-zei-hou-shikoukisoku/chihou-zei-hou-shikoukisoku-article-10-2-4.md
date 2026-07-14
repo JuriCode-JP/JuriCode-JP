@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p1-kou-1
     type: kou
-    text: 租税条約（法第三百二十一条の七の十三第一項に規定する租税条約をいう。次項第一号及び第三項第一号において同じ。）に規定する申立てをした市町村民税の納税義務者の氏名、住所及び個人番号
+    text: 一　租税条約（法第三百二十一条の七の十三第一項に規定する租税条約をいう。次項第一号及び第三項第一号において同じ。）に規定する申立てをした市町村民税の納税義務者の氏名、住所及び個人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p1-kou-2
     type: kou
-    text: 前号の申立てが行われた日
+    text: 二　前号の申立てが行われた日
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p1-kou-3
     type: kou
-    text: 第一号の申立てに係る所得税の額の計算の基礎となつた所得（法第三百二十一条の七の十四第一項に規定する所得税の額の計算の基礎となつた所得をいう。）の年分
+    text: 三　第一号の申立てに係る所得税の額の計算の基礎となつた所得（法第三百二十一条の七の十四第一項に規定する所得税の額の計算の基礎となつた所得をいう。）の年分
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,17 +52,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p2-kou-1
     type: kou
-    text: 租税条約に規定する申立てをした市町村民税の納税義務者の氏名、住所及び個人番号
+    text: 一　租税条約に規定する申立てをした市町村民税の納税義務者の氏名、住所及び個人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p2-kou-2
     type: kou
-    text: 前号の申立てに係る相互協議において政令第四十八条の九の十九第一項各号に掲げる場合に該当することとなつた日
+    text: 二　前号の申立てに係る相互協議において政令第四十八条の九の十九第一項各号に掲げる場合に該当することとなつた日
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p2-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 3
@@ -76,22 +76,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p3-kou-1
     type: kou
-    text: 租税条約に規定する申立てをした市町村民税の納税義務者の氏名、住所及び個人番号
+    text: 一　租税条約に規定する申立てをした市町村民税の納税義務者の氏名、住所及び個人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p3-kou-2
     type: kou
-    text: 前号の申立てに係る相互協議において法第三百二十一条の七の十三第一項に規定する合意が行われた日
+    text: 二　前号の申立てに係る相互協議において法第三百二十一条の七の十三第一項に規定する合意が行われた日
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p3-kou-3
     type: kou
-    text: 前号の合意に基づく所得税の額の計算の基礎となつた所得（法第三百二十一条の七の十四第三項に規定する所得税の額の計算の基礎となつた所得をいう。）の年分
+    text: 三　前号の合意に基づく所得税の額の計算の基礎となつた所得（法第三百二十一条の七の十四第三項に規定する所得税の額の計算の基礎となつた所得をいう。）の年分
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-10-2-4-p3-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

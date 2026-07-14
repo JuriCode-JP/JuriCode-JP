@@ -23,22 +23,22 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-art-30-p1-kou-1
     type: kou
-    text: 第二条第一項第九号に掲げる有価証券（金融商品取引所に上場されている有価証券、店頭売買有価証券その他政令で定める有価証券を除く。）
+    text: 一　第二条第一項第九号に掲げる有価証券（金融商品取引所に上場されている有価証券、店頭売買有価証券その他政令で定める有価証券を除く。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-30-p1-kou-2
     type: kou
-    text: 第二条第一項第十四号に掲げる有価証券（金融商品取引所に上場されている有価証券、店頭売買有価証券及び前号に規定する政令で定める有価証券を除く。）
+    text: 二　第二条第一項第十四号に掲げる有価証券（金融商品取引所に上場されている有価証券、店頭売買有価証券及び前号に規定する政令で定める有価証券を除く。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-30-p1-kou-3
     type: kou
-    text: 前二号に掲げる有価証券に表示されるべき権利であつて、第二条第二項の規定により有価証券とみなされるもの
+    text: 三　前二号に掲げる有価証券に表示されるべき権利であつて、第二条第二項の規定により有価証券とみなされるもの
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-30-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、当該行為を安定的に行うことが困難となつた場合であつても多数の者に影響を及ぼすおそれが少ないと認められる有価証券として政令で定めるもの
+    text: 四　前三号に掲げるもののほか、当該行為を安定的に行うことが困難となつた場合であつても多数の者に影響を及ぼすおそれが少ないと認められる有価証券として政令で定めるもの
     modality: unspecified
     item_number: 4
 - number: 2

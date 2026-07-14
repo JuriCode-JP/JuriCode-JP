@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-134-p1-kou-1
     type: kou
-    text: 取引参加者の数が五以下となつたとき（株式会社金融商品取引所の場合に限る。）。
+    text: 一　取引参加者の数が五以下となつたとき（株式会社金融商品取引所の場合に限る。）。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-134-p1-kou-2
     type: kou
-    text: 取引所金融商品市場の全部を閉鎖したとき。
+    text: 二　取引所金融商品市場の全部を閉鎖したとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-134-p1-kou-3
     type: kou
-    text: 解散したとき。
+    text: 三　解散したとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-134-p1-kou-4
     type: kou
-    text: 設立、合併（当該合併により設立される者が金融商品取引所であるものに限る。）又は新設分割（当該新設分割により設立された者が当該金融商品取引所であるものに限る。）を無効とする判決が確定したとき。
+    text: 四　設立、合併（当該合併により設立される者が金融商品取引所であるものに限る。）又は新設分割（当該新設分割により設立された者が当該金融商品取引所であるものに限る。）を無効とする判決が確定したとき。
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-134-p1-kou-5
     type: kou
-    text: 免許を受けた日から六月以内に取引所金融商品市場を開設しなかつたとき（やむを得ない理由がある場合において、あらかじめ内閣総理大臣の承認を受けた場合を除く。）。
+    text: 五　免許を受けた日から六月以内に取引所金融商品市場を開設しなかつたとき（やむを得ない理由がある場合において、あらかじめ内閣総理大臣の承認を受けた場合を除く。）。
     modality: unspecified
     item_number: 5
 - number: 2

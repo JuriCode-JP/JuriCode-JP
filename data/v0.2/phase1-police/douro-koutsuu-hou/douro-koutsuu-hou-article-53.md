@@ -57,6 +57,10 @@ paragraphs:
     type: simple
     text: 車両の運転者は、第一項又は第二項に規定する行為を終わつたときは、当該合図をやめなければならないものとし、また、これらの規定に規定する合図に係る行為をしないのにかかわらず、当該合図をしてはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-53-supplnote-1
+    type: supplnote
+    text: （罰則　第一項、第二項及び第四項については第百二十条第一項第六号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

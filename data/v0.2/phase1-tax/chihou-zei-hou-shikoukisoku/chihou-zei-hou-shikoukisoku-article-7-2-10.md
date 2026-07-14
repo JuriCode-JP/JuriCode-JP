@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: chihou-zei-hou-shikoukisoku-art-7-2-10-p2-kou-1
     type: kou
-    text: 境界変更のあつた区域が従来属していた都道府県の額の二分の一の額に、当該区域の人口を当該都道府県の人口で除して得た率を乗じて得た額
+    text: 一　境界変更のあつた区域が従来属していた都道府県の額の二分の一の額に、当該区域の人口を当該都道府県の人口で除して得た率を乗じて得た額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-7-2-10-p2-kou-2
     type: kou
-    text: 境界変更のあつた区域が従来属していた都道府県の額の二分の一の額に、当該区域の従業者数を当該都道府県の従業者数で除して得た率を乗じて得た額
+    text: 二　境界変更のあつた区域が従来属していた都道府県の額の二分の一の額に、当該区域の従業者数を当該都道府県の従業者数で除して得た率を乗じて得た額
     modality: unspecified
     item_number: 2
 cases: []

@@ -68,8 +68,8 @@ paragraphs:
     override_target:
     - 前条
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false
@@ -94,8 +94,8 @@ paragraphs:
     text: 前項に規定する外航船舶及び準外航船舶以外の船舶のうち、離島航路整備法（昭和二十七年法律第二百二十六号）第二条第二項に規定する離島航路事業者が専ら同項に規定する離島航路事業の用に供するものに対して課する固定資産税の課税標準は、前項の規定により課税標準とされる額に三分の一を乗じて得た額とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
@@ -247,8 +247,8 @@ paragraphs:
     override_target:
     - 前二条
     references:
-    - 同項
     - 前二条
+    - 同項
 - number: 18
   has_proviso: false
   has_items: false
@@ -262,8 +262,8 @@ paragraphs:
     override_target:
     - 前二条
     references:
-    - 同項
     - 前二条
+    - 同項
 - number: 19
   has_proviso: false
   has_items: false
@@ -291,8 +291,8 @@ paragraphs:
     override_target:
     - 前二条
     references:
-    - 同項
     - 前二条
+    - 同項
 - number: 21
   has_proviso: false
   has_items: false

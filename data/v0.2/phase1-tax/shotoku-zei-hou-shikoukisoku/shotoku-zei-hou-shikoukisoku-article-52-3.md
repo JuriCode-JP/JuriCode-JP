@@ -45,27 +45,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-52-3-p3-kou-1
     type: kou
-    text: 法第百三十七条の三第三項の届出書を提出する者の氏名及び住所
+    text: 一　法第百三十七条の三第三項の届出書を提出する者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-52-3-p3-kou-2
     type: kou
-    text: 法第百三十七条の三第一項又は第二項の規定の適用に係る贈与又は相続の開始があつた年月日（同条第三項第二号に掲げる者にあつては、当該年月日及び当該相続に係る法第百五十一条の五第一項（遺産分割等があつた場合の期限後申告等の特例）に規定する遺産分割等の事由が生じた年月日）
+    text: 二　法第百三十七条の三第一項又は第二項の規定の適用に係る贈与又は相続の開始があつた年月日（同条第三項第二号に掲げる者にあつては、当該年月日及び当該相続に係る法第百五十一条の五第一項（遺産分割等があつた場合の期限後申告等の特例）に規定する遺産分割等の事由が生じた年月日）
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-52-3-p3-kou-3
     type: kou
-    text: 当該贈与に係る受贈者の氏名及び住所若しくは居所又は当該相続若しくは遺贈に係る被相続人若しくは遺贈者の氏名及び死亡の時における住所若しくは居所
+    text: 三　当該贈与に係る受贈者の氏名及び住所若しくは居所又は当該相続若しくは遺贈に係る被相続人若しくは遺贈者の氏名及び死亡の時における住所若しくは居所
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-52-3-p3-kou-4
     type: kou
-    text: 当該贈与又は相続を受けた非居住者が前条第三項第三号に規定する帰国をする予定年月日（当該帰国をする予定がない場合には、その旨）
+    text: 四　当該贈与又は相続を受けた非居住者が前条第三項第三号に規定する帰国をする予定年月日（当該帰国をする予定がない場合には、その旨）
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-52-3-p3-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 4
@@ -99,22 +99,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-52-3-p6-kou-1
     type: kou
-    text: 法第百三十七条の三第七項に規定する継続適用届出書を提出する者の氏名及び住所
+    text: 一　法第百三十七条の三第七項に規定する継続適用届出書を提出する者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-52-3-p6-kou-2
     type: kou
-    text: 法第百三十七条の三第一項又は第二項の規定の適用に係る贈与又は相続の開始があつた年月日
+    text: 二　法第百三十七条の三第一項又は第二項の規定の適用に係る贈与又は相続の開始があつた年月日
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-52-3-p6-kou-3
     type: kou
-    text: 法第百三十七条の三第一項に規定する適用贈与資産又は同条第二項に規定する適用相続等資産のうち、その年十二月三十一日まで引き続き有しているものの種類別及び名称又は銘柄別の数量及び法第六十条の三第一項（贈与等により非居住者に資産が移転した場合の譲渡所得等の特例）に規定する贈与等の時における価額に相当する金額又は同条第二項若しくは第三項に規定する利益の額若しくは損失の額に相当する金額
+    text: 三　法第百三十七条の三第一項に規定する適用贈与資産又は同条第二項に規定する適用相続等資産のうち、その年十二月三十一日まで引き続き有しているものの種類別及び名称又は銘柄別の数量及び法第六十条の三第一項（贈与等により非居住者に資産が移転した場合の譲渡所得等の特例）に規定する贈与等の時における価額に相当する金額又は同条第二項若しくは第三項に規定する利益の額若しくは損失の額に相当する金額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-52-3-p6-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 7

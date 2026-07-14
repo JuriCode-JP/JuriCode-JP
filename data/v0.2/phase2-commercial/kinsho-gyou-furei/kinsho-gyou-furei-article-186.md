@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-186-p1-kou-1
     type: kou
-    text: 顧客の氏名又は名称
+    text: 一　顧客の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-186-p1-kou-2
     type: kou
-    text: 入出金及び入出庫年月日
+    text: 二　入出金及び入出庫年月日
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-186-p1-kou-3
     type: kou
-    text: 金額
+    text: 三　金額
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-186-p1-kou-4
     type: kou
-    text: 銘柄
+    text: 四　銘柄
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-186-p1-kou-5
     type: kou
-    text: 数量
+    text: 五　数量
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-186-p1-kou-6
     type: kou
-    text: 入出金及び入出庫先の氏名又は名称
+    text: 六　入出金及び入出庫先の氏名又は名称
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-186-p1-kou-7
     type: kou
-    text: 残高
+    text: 七　残高
     modality: unspecified
     item_number: 7
   - id: kinsho-gyou-furei-art-186-p1-kou-8
     type: kou
-    text: 有価証券の記号又は番号
+    text: 八　有価証券の記号又は番号
     modality: unspecified
     item_number: 8
   - id: kinsho-gyou-furei-art-186-p1-kou-9
     type: kou
-    text: 名義人の氏名又は名称
+    text: 九　名義人の氏名又は名称
     modality: unspecified
     item_number: 9
 - number: 2
@@ -79,17 +79,17 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-186-p2-kou-1
     type: kou
-    text: 顧客別に区分して作成すること。
+    text: 一　顧客別に区分して作成すること。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-186-p2-kou-2
     type: kou
-    text: 注文・清算分離行為が行われた取引に係る金額については、清算執行会員等を委託金融商品取引業者とする登録金融機関が顧客から直接受領した金額を記載すること。
+    text: 二　注文・清算分離行為が行われた取引に係る金額については、清算執行会員等を委託金融商品取引業者とする登録金融機関が顧客から直接受領した金額を記載すること。
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-186-p2-kou-3
     type: kou
-    text: 注文・清算分離行為が行われた取引については、注文執行会員等を委託金融商品取引業者とする登録金融機関は、作成することを要しない。ただし、顧客から直接金銭を受領した場合には、顧客の氏名又は名称、入出金年月日、金額、入出金先の氏名又は名称及び金銭の残高を記載すること。
+    text: 三　注文・清算分離行為が行われた取引については、注文執行会員等を委託金融商品取引業者とする登録金融機関は、作成することを要しない。ただし、顧客から直接金銭を受領した場合には、顧客の氏名又は名称、入出金年月日、金額、入出金先の氏名又は名称及び金銭の残高を記載すること。
     modality: unspecified
     item_number: 3
 - number: 3
@@ -105,17 +105,17 @@ paragraphs:
     - 前二項
   - id: kinsho-gyou-furei-art-186-p3-kou-1
     type: kou
-    text: 入庫された有価証券について、当日残高がない場合は、記号、番号及び名義人の氏名又は名称の記載を省略すること。
+    text: 一　入庫された有価証券について、当日残高がない場合は、記号、番号及び名義人の氏名又は名称の記載を省略すること。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-186-p3-kou-2
     type: kou
-    text: 業として預金又は貯金の受入れをすることができる登録金融機関において、預金又は貯金の受入れ又は払戻しに係る記録が整備されている場合には、入出金年月日、金額、入出金先の氏名又は名称及び残高の記載を省略すること。
+    text: 二　業として預金又は貯金の受入れをすることができる登録金融機関において、預金又は貯金の受入れ又は払戻しに係る記録が整備されている場合には、入出金年月日、金額、入出金先の氏名又は名称及び残高の記載を省略すること。
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-186-p3-kou-3
     type: kou
-    text: 有価証券の入出庫に係る記録が他の業務に係る帳簿等により整備されている場合には、入出庫年月日、銘柄、数量、入出庫先の氏名又は名称、残高、記号、番号及び名義人の氏名又は名称の記載を省略すること。
+    text: 三　有価証券の入出庫に係る記録が他の業務に係る帳簿等により整備されている場合には、入出庫年月日、銘柄、数量、入出庫先の氏名又は名称、残高、記号、番号及び名義人の氏名又は名称の記載を省略すること。
     modality: unspecified
     item_number: 3
 cases: []

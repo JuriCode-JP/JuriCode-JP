@@ -34,37 +34,37 @@ paragraphs:
     - 前項
   - id: kokuzei-tsuusoku-hou-art-94-p2-kou-1
     type: kou
-    text: 審査請求に係る処分又は当該処分に係る再調査の請求についての決定に関与した者
+    text: 一　審査請求に係る処分又は当該処分に係る再調査の請求についての決定に関与した者
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-94-p2-kou-2
     type: kou
-    text: 審査請求人
+    text: 二　審査請求人
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-94-p2-kou-3
     type: kou
-    text: 審査請求人の配偶者、四親等内の親族又は同居の親族
+    text: 三　審査請求人の配偶者、四親等内の親族又は同居の親族
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-94-p2-kou-4
     type: kou
-    text: 審査請求人の代理人
+    text: 四　審査請求人の代理人
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-art-94-p2-kou-5
     type: kou
-    text: 前二号に掲げる者であつた者
+    text: 五　前二号に掲げる者であつた者
     modality: unspecified
     item_number: 5
   - id: kokuzei-tsuusoku-hou-art-94-p2-kou-6
     type: kou
-    text: 審査請求人の後見人、後見監督人、保佐人、保佐監督人、補助人又は補助監督人
+    text: 六　審査請求人の後見人、後見監督人、保佐人、保佐監督人、補助人又は補助監督人
     modality: unspecified
     item_number: 6
   - id: kokuzei-tsuusoku-hou-art-94-p2-kou-7
     type: kou
-    text: 第百九条第一項（参加人）に規定する利害関係人
+    text: 七　第百九条第一項（参加人）に規定する利害関係人
     modality: unspecified
     item_number: 7
 cases: []

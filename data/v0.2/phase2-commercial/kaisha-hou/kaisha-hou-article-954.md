@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-954-p1-kou-1
     type: kou
-    text: 第九百四十三条第一号又は第三号に該当するに至ったとき。
+    text: 一　第九百四十三条第一号又は第三号に該当するに至ったとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-954-p1-kou-2
     type: kou
-    text: 第九百四十七条（電子公告関係規定において準用する場合を含む。）から第九百五十条まで、第九百五十一条第一項又は次条第一項（電子公告関係規定において準用する場合を含む。）の規定に違反したとき。
+    text: 二　第九百四十七条（電子公告関係規定において準用する場合を含む。）から第九百五十条まで、第九百五十一条第一項又は次条第一項（電子公告関係規定において準用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-954-p1-kou-3
     type: kou
-    text: 正当な理由がないのに第九百五十一条第二項各号又は次条第二項各号（電子公告関係規定において準用する場合を含む。）の規定による請求を拒んだとき。
+    text: 三　正当な理由がないのに第九百五十一条第二項各号又は次条第二項各号（電子公告関係規定において準用する場合を含む。）の規定による請求を拒んだとき。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-954-p1-kou-4
     type: kou
-    text: 第九百五十二条又は前条（電子公告関係規定において準用する場合を含む。）の命令に違反したとき。
+    text: 四　第九百五十二条又は前条（電子公告関係規定において準用する場合を含む。）の命令に違反したとき。
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-954-p1-kou-5
     type: kou
-    text: 不正の手段により第九百四十一条の登録を受けたとき。
+    text: 五　不正の手段により第九百四十一条の登録を受けたとき。
     modality: unspecified
     item_number: 5
 cases: []

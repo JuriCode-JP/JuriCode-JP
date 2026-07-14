@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-39-34-p1-kou-1
     type: kou
-    text: 固定資産の譲渡による収入金額
+    text: 一　固定資産の譲渡による収入金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-34-p1-kou-2
     type: kou
-    text: 有価証券の譲渡による収入金額
+    text: 二　有価証券の譲渡による収入金額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-39-34-p1-kou-3
     type: kou
-    text: 他の協同組合等から、その取り扱つた物の数量、価額その他当該他の協同組合等の事業を利用した分量に応じて分配を受けた金額
+    text: 三　他の協同組合等から、その取り扱つた物の数量、価額その他当該他の協同組合等の事業を利用した分量に応じて分配を受けた金額
     modality: unspecified
     item_number: 3
 - number: 2

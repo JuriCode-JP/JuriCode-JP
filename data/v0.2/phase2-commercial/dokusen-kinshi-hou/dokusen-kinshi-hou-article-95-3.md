@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定は、同項に掲げる事業者団体の理事その他の役員若しくは管理人又はその構成事業者が法人その他の団体である場合においては、当該団体の理事その他の役員又は管理人に、これを適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-14-7-p1-kou-1
     type: kou
-    text: 第八十一条（国庫補助金等に係る特別勘定の金額の取崩し）
+    text: 一　第八十一条（国庫補助金等に係る特別勘定の金額の取崩し）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-14-7-p1-kou-2
     type: kou
-    text: 第九十条（保険差益等に係る特別勘定の金額の取崩し）
+    text: 二　第九十条（保険差益等に係る特別勘定の金額の取崩し）
     modality: unspecified
     item_number: 2
 - number: 2
@@ -51,57 +51,57 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-1
     type: kou
-    text: 法第五十二条第一項及び第二項（貸倒引当金）
+    text: 一　法第五十二条第一項及び第二項（貸倒引当金）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-2
     type: kou
-    text: 法第五十七条第二項（欠損金の繰越し）
+    text: 二　法第五十七条第二項（欠損金の繰越し）
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-3
     type: kou
-    text: 法第六十一条の六第三項（繰延ヘッジ処理による利益額又は損失額の繰延べ）
+    text: 三　法第六十一条の六第三項（繰延ヘッジ処理による利益額又は損失額の繰延べ）
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-4
     type: kou
-    text: 法第八十条第四項（欠損金の繰戻しによる還付）
+    text: 四　法第八十条第四項（欠損金の繰戻しによる還付）
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-5
     type: kou
-    text: 法第百三十五条（仮装経理に基づく過大申告の場合の更正に伴う法人税額の還付の特例）
+    text: 五　法第百三十五条（仮装経理に基づく過大申告の場合の更正に伴う法人税額の還付の特例）
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-6
     type: kou
-    text: 第八十一条
+    text: 六　第八十一条
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-7
     type: kou
-    text: 第九十条
+    text: 七　第九十条
     modality: unspecified
     item_number: 7
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-8
     type: kou
-    text: 第九十六条第六項及び第八項
+    text: 八　第九十六条第六項及び第八項
     modality: unspecified
     item_number: 8
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-9
     type: kou
-    text: 第百二十一条の五第一項（繰り延べたデリバティブ取引等の決済損益額の計上時期等）（第百二十一条の三の二第五項（オプション取引を行つた場合の繰延ヘッジ処理における有効性判定方法等）の規定により読み替えて適用する場合を含む。）
+    text: 九　第百二十一条の五第一項（繰り延べたデリバティブ取引等の決済損益額の計上時期等）（第百二十一条の三の二第五項（オプション取引を行つた場合の繰延ヘッジ処理における有効性判定方法等）の規定により読み替えて適用する場合を含む。）
     modality: unspecified
     item_number: 9
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-10
     type: kou
-    text: 第百三十三条の二第四項（一括償却資産の損金算入）
+    text: 十　第百三十三条の二第四項（一括償却資産の損金算入）
     modality: unspecified
     item_number: 10
   - id: houjin-zei-hou-shikkourei-art-14-7-p3-kou-11
     type: kou
-    text: 第百三十九条の四第九項（資産に係る控除対象外消費税額等の損金算入）
+    text: 十一　第百三十九条の四第九項（資産に係る控除対象外消費税額等の損金算入）
     modality: unspecified
     item_number: 11
 - number: 4
@@ -124,12 +124,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-14-7-p5-kou-1
     type: kou
-    text: 法第百四十二条第二項（恒久的施設帰属所得に係る所得の金額の計算）の規定により法第四十三条第二項（国庫補助金等に係る特別勘定の金額の損金算入）の規定に準じて計算する場合における第八十一条の規定
+    text: 一　法第百四十二条第二項（恒久的施設帰属所得に係る所得の金額の計算）の規定により法第四十三条第二項（国庫補助金等に係る特別勘定の金額の損金算入）の規定に準じて計算する場合における第八十一条の規定
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-14-7-p5-kou-2
     type: kou
-    text: 法第百四十二条第二項の規定により法第四十八条第二項（保険差益等に係る特別勘定の金額の損金算入）の規定に準じて計算する場合における第九十条の規定
+    text: 二　法第百四十二条第二項の規定により法第四十八条第二項（保険差益等に係る特別勘定の金額の損金算入）の規定に準じて計算する場合における第九十条の規定
     modality: unspecified
     item_number: 2
 - number: 6

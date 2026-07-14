@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-39-25-p1-kou-1
     type: kou
-    text: 各事業年度においてその事業及び医療施設が医療の普及及び向上、社会福祉への貢献その他公益の増進に著しく寄与するものとして厚生労働大臣が財務大臣と協議して定める基準を満たすものである旨の厚生労働大臣の当該各事業年度に係る証明書の交付を受けること。
+    text: 一　各事業年度においてその事業及び医療施設が医療の普及及び向上、社会福祉への貢献その他公益の増進に著しく寄与するものとして厚生労働大臣が財務大臣と協議して定める基準を満たすものである旨の厚生労働大臣の当該各事業年度に係る証明書の交付を受けること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-25-p1-kou-2
     type: kou
-    text: 'その運営組織が適正であるとともに、その理事、監事、評議員その他これらの者に準ずるもの（以下この号及び次号において「役員等」という。）のうち親族関係を有する者及びこれらと次に掲げる特殊の関係がある者（同号において「親族等」という。）の数がそれぞれの役員等の数のうちに占める割合が、いずれも三分の一以下であること。
+    text: '二　その運営組織が適正であるとともに、その理事、監事、評議員その他これらの者に準ずるもの（以下この号及び次号において「役員等」という。）のうち親族関係を有する者及びこれらと次に掲げる特殊の関係がある者（同号において「親族等」という。）の数がそれぞれの役員等の数のうちに占める割合が、いずれも三分の一以下であること。
 
-      イ 当該親族関係を有する役員等と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+      イ　当該親族関係を有する役員等と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
 
-      ロ 当該親族関係を有する役員等の使用人及び使用人以外の者で当該役員等から受ける金銭その他の財産によつて生計を維持しているもの
+      ロ　当該親族関係を有する役員等の使用人及び使用人以外の者で当該役員等から受ける金銭その他の財産によつて生計を維持しているもの
 
-      ハ イ又はロに掲げる者の親族でこれらの者と生計を一にしているもの'
+      ハ　イ又はロに掲げる者の親族でこれらの者と生計を一にしているもの'
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-39-25-p1-kou-3
     type: kou
-    text: その設立者、役員等若しくは社員又はこれらの者の親族等に対し、施設の利用、金銭の貸付け、資産の譲渡、給与の支給、役員等の選任その他財産の運用及び事業の運営に関して特別の利益を与えないこと。
+    text: 三　その設立者、役員等若しくは社員又はこれらの者の親族等に対し、施設の利用、金銭の貸付け、資産の譲渡、給与の支給、役員等の選任その他財産の運用及び事業の運営に関して特別の利益を与えないこと。
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-39-25-p1-kou-4
     type: kou
-    text: その寄附行為又は定款において、当該法人が解散した場合にその残余財産が国若しくは地方公共団体又は他の医療法人（財団たる医療法人又は社団たる医療法人で持分の定めがないものに限る。）に帰属する旨の定めがあること。
+    text: 四　その寄附行為又は定款において、当該法人が解散した場合にその残余財産が国若しくは地方公共団体又は他の医療法人（財団たる医療法人又は社団たる医療法人で持分の定めがないものに限る。）に帰属する旨の定めがあること。
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-39-25-p1-kou-5
     type: kou
-    text: 'その経理に関し次に掲げる基準に適合していること。
+    text: '五　その経理に関し次に掲げる基準に適合していること。
 
-      イ 財務省令で定めるところにより、帳簿書類を備え付けてこれにその取引を記録し、かつ、当該帳簿書類を保存していること。
+      イ　財務省令で定めるところにより、帳簿書類を備え付けてこれにその取引を記録し、かつ、当該帳簿書類を保存していること。
 
-      ロ その支出した金銭でその費途が明らかでないものがあることその他の不適正な経理が行われていないこと。'
+      ロ　その支出した金銭でその費途が明らかでないものがあることその他の不適正な経理が行われていないこと。'
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-39-25-p1-kou-6
     type: kou
-    text: 当該法人につき法令に違反する事実、その帳簿書類に取引の全部又は一部を隠蔽し、又は仮装して記録又は記載をしている事実その他公益に反する事実がないこと。
+    text: 六　当該法人につき法令に違反する事実、その帳簿書類に取引の全部又は一部を隠蔽し、又は仮装して記録又は記載をしている事実その他公益に反する事実がないこと。
     modality: unspecified
     item_number: 6
 - number: 2
@@ -72,27 +72,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-39-25-p2-kou-1
     type: kou
-    text: 申請者の名称、納税地及び法人番号
+    text: 一　申請者の名称、納税地及び法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-25-p2-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-39-25-p2-kou-3
     type: kou
-    text: その設立の年月日
+    text: 三　その設立の年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-39-25-p2-kou-4
     type: kou
-    text: 申請者が現に行つている事業の概要
+    text: 四　申請者が現に行つている事業の概要
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-39-25-p2-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 3
@@ -108,17 +108,17 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-39-25-p3-kou-1
     type: kou
-    text: その寄附行為又は定款の写し
+    text: 一　その寄附行為又は定款の写し
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-25-p3-kou-2
     type: kou
-    text: その申請時の直近に終了した事業年度に係る第一項第一号に規定する証明書
+    text: 二　その申請時の直近に終了した事業年度に係る第一項第一号に規定する証明書
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-39-25-p3-kou-3
     type: kou
-    text: 第一項第二号、第三号、第五号及び第六号に掲げる要件を満たす旨を説明する書類
+    text: 三　第一項第二号、第三号、第五号及び第六号に掲げる要件を満たす旨を説明する書類
     modality: unspecified
     item_number: 3
 - number: 4
@@ -132,12 +132,12 @@ paragraphs:
     modality: kanou_negative
   - id: sochi-hou-shikkourei-art-39-25-p4-kou-1
     type: kou
-    text: 法第六十七条の二第二項の規定に基づく承認の取消しを受けた医療法人　当該取消しの日
+    text: 一　法第六十七条の二第二項の規定に基づく承認の取消しを受けた医療法人　当該取消しの日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-25-p4-kou-2
     type: kou
-    text: 第六項に規定する届出書を提出した医療法人　当該届出書を提出した日
+    text: 二　第六項に規定する届出書を提出した医療法人　当該届出書を提出した日
     modality: unspecified
     item_number: 2
 - number: 5

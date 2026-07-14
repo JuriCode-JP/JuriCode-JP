@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-109-3-p1-kou-1
     type: kou
-    text: 道路における交通の混雑の状態を予測する事業
+    text: 一　道路における交通の混雑の状態を予測する事業
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-109-3-p1-kou-2
     type: kou
-    text: 目的地に到達するまでに要する時間を予測する事業
+    text: 二　目的地に到達するまでに要する時間を予測する事業
     modality: unspecified
     item_number: 2
 - number: 2
@@ -64,6 +64,10 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前二項
+  - id: douro-koutsuu-hou-art-109-3-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条の三第二項第二号、第百二十三条　第四項については第百十九条の三第二項第三号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

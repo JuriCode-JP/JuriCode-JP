@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 分析センターの役員若しくは職員又はこれらの職にあつた者は、第百八条の十四第一号から第三号までに掲げる事業に関して知り得た秘密を漏らしてはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-108-18-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の五第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

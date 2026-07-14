@@ -34,17 +34,23 @@ paragraphs:
     - 次条
   - id: chihou-zei-hou-shikoukisoku-art-7-3-p2-kou-1
     type: kou
-    text: 専有部分の天井の高さに差違がある場合
+    text: '一　専有部分の天井の高さに差違がある場合
+
+      （（家屋の評価額－専有部分に係る附帯設備の評価額相当額の合計額－専有部分に係る仕上部分の評価額相当額の合計額）／家屋の評価額）×天井の高さの差違に応ずる数値'
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-7-3-p2-kou-2
     type: kou
-    text: 専有部分の附帯設備の程度に差違がある場合
+    text: '二　専有部分の附帯設備の程度に差違がある場合
+
+      （専有部分に係る附帯設備の評価額相当額の合計額／家屋の評価額）×（（当該専有部分に係る附帯設備の単位床面積当りの評価額相当額／専有部分に係る附帯設備の単位床面積当りの評価額相当額）－１）'
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-7-3-p2-kou-3
     type: kou
-    text: 専有部分の仕上部分の程度に差違がある場合
+    text: '三　専有部分の仕上部分の程度に差違がある場合
+
+      （専有部分に係る仕上部分の評価額相当額の合計額／家屋の評価額）×（（当該専有部分に係る仕上部分の単位床面積当りの評価額相当額／専有部分に係る仕上部分の単位床面積当りの評価額相当額）－１）'
     modality: unspecified
     item_number: 3
 - number: 3

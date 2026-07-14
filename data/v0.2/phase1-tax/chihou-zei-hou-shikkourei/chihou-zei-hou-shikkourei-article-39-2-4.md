@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-39-2-4-p1-kou-1
     type: kou
-    text: 共同住宅等以外の住宅　床面積が四十平方メートル以上二百四十平方メートル以下の住宅
+    text: 一　共同住宅等以外の住宅　床面積が四十平方メートル以上二百四十平方メートル以下の住宅
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-39-2-4-p1-kou-2
     type: kou
-    text: 共同住宅等　居住の用に供するために独立的に区画された一の部分のいずれかの床面積が、四十平方メートル以上二百四十平方メートル以下の住宅
+    text: 二　共同住宅等　居住の用に供するために独立的に区画された一の部分のいずれかの床面積が、四十平方メートル以上二百四十平方メートル以下の住宅
     modality: unspecified
     item_number: 2
 - number: 2

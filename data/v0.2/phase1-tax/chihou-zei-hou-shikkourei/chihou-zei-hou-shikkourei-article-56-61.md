@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-56-61-p1-kou-1
     type: kou
-    text: 港湾法第二条第五項第五号に掲げる施設のうち港務通信施設
+    text: 一　港湾法第二条第五項第五号に掲げる施設のうち港務通信施設
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-56-61-p1-kou-2
     type: kou
-    text: 港湾法第二条第五項第七号に掲げる施設（宿泊所にあつては、客室、食堂（専ら宿泊客の利用に供する施設に限る。）、広間（主として宿泊客以外の者の利用に供する施設を除く。）その他宿泊に係る施設で総務省令で定めるものに限る。）
+    text: 二　港湾法第二条第五項第七号に掲げる施設（宿泊所にあつては、客室、食堂（専ら宿泊客の利用に供する施設に限る。）、広間（主として宿泊客以外の者の利用に供する施設を除く。）その他宿泊に係る施設で総務省令で定めるものに限る。）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-56-61-p1-kou-3
     type: kou
-    text: 港湾法第二条第五項第八号の二に掲げる施設
+    text: 三　港湾法第二条第五項第八号の二に掲げる施設
     modality: unspecified
     item_number: 3
 cases: []

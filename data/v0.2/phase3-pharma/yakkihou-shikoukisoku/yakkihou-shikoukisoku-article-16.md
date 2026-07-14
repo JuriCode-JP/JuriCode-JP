@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-16-p1-kou-1
     type: kou
-    text: 薬局開設者の氏名（薬局開設者が法人であるときは、薬事に関する業務に責任を有する役員の氏名を含む。）又は住所
+    text: 一　薬局開設者の氏名（薬局開設者が法人であるときは、薬事に関する業務に責任を有する役員の氏名を含む。）又は住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-16-p1-kou-2
     type: kou
-    text: 薬局の構造設備の主要部分
+    text: 二　薬局の構造設備の主要部分
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-16-p1-kou-3
     type: kou
-    text: 通常の営業日及び営業時間
+    text: 三　通常の営業日及び営業時間
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-16-p1-kou-4
     type: kou
-    text: 薬局の管理者の氏名、住所又は週当たり勤務時間数
+    text: 四　薬局の管理者の氏名、住所又は週当たり勤務時間数
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-16-p1-kou-5
     type: kou
-    text: 薬局の管理者以外の当該薬局において薬事に関する実務に従事する薬剤師又は登録販売者の氏名又は週当たり勤務時間数
+    text: 五　薬局の管理者以外の当該薬局において薬事に関する実務に従事する薬剤師又は登録販売者の氏名又は週当たり勤務時間数
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-16-p1-kou-6
     type: kou
-    text: 放射性医薬品を取り扱うときは、その放射性医薬品の種類
+    text: 六　放射性医薬品を取り扱うときは、その放射性医薬品の種類
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-16-p1-kou-7
     type: kou
-    text: 当該薬局において併せ行う医薬品の販売業その他の業務の種類
+    text: 七　当該薬局において併せ行う医薬品の販売業その他の業務の種類
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-16-p1-kou-8
     type: kou
-    text: 当該薬局において販売し、又は授与する医薬品の第一条の二第三項各号に掲げる区分（特定販売を行う医薬品の区分のみを変更した場合を除く。）
+    text: 八　当該薬局において販売し、又は授与する医薬品の第一条の二第三項各号に掲げる区分（特定販売を行う医薬品の区分のみを変更した場合を除く。）
     modality: unspecified
     item_number: 8
 - number: 2
@@ -89,17 +89,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-16-p3-kou-1
     type: kou
-    text: 第一項第一号に掲げる薬局開設者の氏名に係る届書　薬局開設者の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（薬局開設者が法人であるときは、登記事項証明書）
+    text: 一　第一項第一号に掲げる薬局開設者の氏名に係る届書　薬局開設者の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（薬局開設者が法人であるときは、登記事項証明書）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-16-p3-kou-2
     type: kou
-    text: 第一項第一号に掲げる役員に係る届書　新たに役員となつた者が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該役員に係る精神の機能の障害に関する医師の診断書
+    text: 二　第一項第一号に掲げる役員に係る届書　新たに役員となつた者が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該役員に係る精神の機能の障害に関する医師の診断書
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-16-p3-kou-3
     type: kou
-    text: 第一項第四号又は第五号に掲げる事項に係る届書（新たに管理者又は当該薬局において薬事に関する実務に従事する薬剤師若しくは登録販売者となつた者が薬局開設者である場合を除く。）　雇用契約書の写しその他薬局開設者の新たに管理者又は当該薬局において薬事に関する実務に従事する薬剤師若しくは登録販売者となつた者に対する使用関係を証する書類
+    text: 三　第一項第四号又は第五号に掲げる事項に係る届書（新たに管理者又は当該薬局において薬事に関する実務に従事する薬剤師若しくは登録販売者となつた者が薬局開設者である場合を除く。）　雇用契約書の写しその他薬局開設者の新たに管理者又は当該薬局において薬事に関する実務に従事する薬剤師若しくは登録販売者となつた者に対する使用関係を証する書類
     modality: unspecified
     item_number: 3
 cases: []

@@ -81,8 +81,8 @@ paragraphs:
     text: 裁判所は、前項の規定により審理を終結したときは、裁判をする日を定め、これを同項の者に告知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
@@ -93,8 +93,8 @@ paragraphs:
     text: 裁判所は、第一項の申立てが不適法であるとき、又は申立てに理由がないことが明らかなときは、同項及び前二項の規定にかかわらず、直ちに申立てを却下することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前二項
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false

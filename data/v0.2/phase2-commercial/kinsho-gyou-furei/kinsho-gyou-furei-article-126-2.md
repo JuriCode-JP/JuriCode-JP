@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-126-2-p1-kou-1
     type: kou
-    text: 他人のために暗号資産の管理を業として行うことにつき法律に特別の規定のある者が当該管理を行う場合
+    text: 一　他人のために暗号資産の管理を業として行うことにつき法律に特別の規定のある者が当該管理を行う場合
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-126-2-p1-kou-2
     type: kou
-    text: 他人のために電子決済手段の管理を業として行うことにつき資金決済に関する法律に特別の規定のある者が当該管理を行う場合
+    text: 二　他人のために電子決済手段の管理を業として行うことにつき資金決済に関する法律に特別の規定のある者が当該管理を行う場合
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-126-2-p1-kou-3
     type: kou
-    text: 他人のために電子決済手段の管理を信託業法又は金融機関の信託業務の兼営等に関する法律の規定に基づき信託業として行う信託会社等が当該管理を行う場合
+    text: 三　他人のために電子決済手段の管理を信託業法又は金融機関の信託業務の兼営等に関する法律の規定に基づき信託業として行う信託会社等が当該管理を行う場合
     modality: unspecified
     item_number: 3
 cases: []

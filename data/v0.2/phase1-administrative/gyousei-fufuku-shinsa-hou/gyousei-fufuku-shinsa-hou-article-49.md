@@ -41,12 +41,12 @@ paragraphs:
     modality: unspecified
   - id: gyousei-fufuku-shinsa-hou-art-49-p3-kou-1
     type: kou
-    text: 不作為庁の上級行政庁である審査庁　当該不作為庁に対し、当該処分をすべき旨を命ずること。
+    text: 一　不作為庁の上級行政庁である審査庁　当該不作為庁に対し、当該処分をすべき旨を命ずること。
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-49-p3-kou-2
     type: kou
-    text: 不作為庁である審査庁　当該処分をすること。
+    text: 二　不作為庁である審査庁　当該処分をすること。
     modality: unspecified
     item_number: 2
 - number: 4

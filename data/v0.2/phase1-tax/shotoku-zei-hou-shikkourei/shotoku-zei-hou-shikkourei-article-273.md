@@ -35,8 +35,8 @@ paragraphs:
     text: 前項ただし書の方法により同項の請求書を提出した相続人は、遅滞なく、他の相続人に対し、当該請求書に記載した事項の要領を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

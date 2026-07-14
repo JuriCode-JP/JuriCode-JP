@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-25-15-p1-kou-1
     type: kou
-    text: 法人税法別表第一に掲げる法人
+    text: 一　法人税法別表第一に掲げる法人
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-25-15-p1-kou-2
     type: kou
-    text: 特別の法律により設立された法人（当該特別の法律において、その法人の名称が定められ、かつ、当該名称として用いられた文字を他の者の名称の文字として用いてはならない旨の定めのあるものに限る。）
+    text: 二　特別の法律により設立された法人（当該特別の法律において、その法人の名称が定められ、かつ、当該名称として用いられた文字を他の者の名称の文字として用いてはならない旨の定めのあるものに限る。）
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-25-15-p1-kou-3
     type: kou
-    text: 外国政府、外国の地方公共団体及び所得税法施行令第二十三条に規定する国際機関
+    text: 三　外国政府、外国の地方公共団体及び所得税法施行令第二十三条に規定する国際機関
     modality: unspecified
     item_number: 3
 - number: 2

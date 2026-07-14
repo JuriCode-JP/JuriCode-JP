@@ -23,33 +23,33 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-5-p1-kou-1
     type: kou
-    text: 公開買付者の氏名又は名称及び住所又は所在地
+    text: 一　公開買付者の氏名又は名称及び住所又は所在地
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-5-p1-kou-2
     type: kou
-    text: 公開買付けに係る株券等の種類、応募株券等の数の合計、買付け等をする株券等の数の合計及び返還する株券等の数の合計
+    text: 二　公開買付けに係る株券等の種類、応募株券等の数の合計、買付け等をする株券等の数の合計及び返還する株券等の数の合計
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-5-p1-kou-3
     type: kou
-    text: 応募株券等の全部又は一部の買付け等を行わない場合にはその理由
+    text: 三　応募株券等の全部又は一部の買付け等を行わない場合にはその理由
     modality: unspecified
     item_number: 3
   - id: koukai-kaitsuke-furei-art-5-p1-kou-4
     type: kou
-    text: '当該通知書に係る応募株主等に関する事項のうち次に掲げるもの
+    text: '四　当該通知書に係る応募株主等に関する事項のうち次に掲げるもの
 
-      イ 応募株券等の種類、応募株券等の数、買付け等をする株券等の数、買付け等の価格及び買付け等の代金（有価証券その他の金銭以外のもの（以下「有価証券等」という。）をもって買付け等の対価とする場合には、当該有価証券等の種類及び数）
+      イ　応募株券等の種類、応募株券等の数、買付け等をする株券等の数、買付け等の価格及び買付け等の代金（有価証券その他の金銭以外のもの（以下「有価証券等」という。）をもって買付け等の対価とする場合には、当該有価証券等の種類及び数）
 
-      ロ あん分比例方式により買付け等をする場合における買付け等をする株券等の数の計算方法
+      ロ　あん分比例方式により買付け等をする場合における買付け等をする株券等の数の計算方法
 
-      ハ 返還する株券等の種類及び数並びに返還の方法'
+      ハ　返還する株券等の種類及び数並びに返還の方法'
     modality: unspecified
     item_number: 4
   - id: koukai-kaitsuke-furei-art-5-p1-kou-5
     type: kou
-    text: 買付け等の決済をする金融商品取引業者又は銀行等の名称及び所在地並びに決済の開始日、方法及び場所
+    text: 五　買付け等の決済をする金融商品取引業者又は銀行等の名称及び所在地並びに決済の開始日、方法及び場所
     modality: unspecified
     item_number: 5
 - number: 2
@@ -74,17 +74,17 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-5-p3-kou-1
     type: kou
-    text: 当該株券等の買付け等の申込み又は売付け等の申込みの勧誘が行われないことに同意することにつき、当該株券等に係る種類株主総会の決議が行われている場合における当該株券等
+    text: 一　当該株券等の買付け等の申込み又は売付け等の申込みの勧誘が行われないことに同意することにつき、当該株券等に係る種類株主総会の決議が行われている場合における当該株券等
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-5-p3-kou-2
     type: kou
-    text: 当該株券等の所有者が二十五名未満である場合であって、買付け等の申込み又は売付け等の申込みの勧誘が行われないことにつき、当該株券等の全ての所有者が同意し、その旨を記載した書面を提出している場合における当該株券等
+    text: 二　当該株券等の所有者が二十五名未満である場合であって、買付け等の申込み又は売付け等の申込みの勧誘が行われないことにつき、当該株券等の全ての所有者が同意し、その旨を記載した書面を提出している場合における当該株券等
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-5-p3-kou-3
     type: kou
-    text: 当該株券等の買付け等の申込み又は売付け等の申込みの勧誘が行われないことについて関東財務局長の承認を受けた当該株券等
+    text: 三　当該株券等の買付け等の申込み又は売付け等の申込みの勧誘が行われないことについて関東財務局長の承認を受けた当該株券等
     modality: unspecified
     item_number: 3
 - number: 4
@@ -109,17 +109,17 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-5-p5-kou-1
     type: kou
-    text: 当該公開買付けの内容
+    text: 一　当該公開買付けの内容
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-5-p5-kou-2
     type: kou
-    text: 当該公開買付けに関して当該承認を受けようとする株券等の種類及びその内容
+    text: 二　当該公開買付けに関して当該承認を受けようとする株券等の種類及びその内容
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-5-p5-kou-3
     type: kou
-    text: 当該公開買付けに関して当該承認を必要とする理由
+    text: 三　当該公開買付けに関して当該承認を必要とする理由
     modality: unspecified
     item_number: 3
 - number: 6
@@ -144,12 +144,12 @@ paragraphs:
     - 次項
   - id: koukai-kaitsuke-furei-art-5-p7-kou-1
     type: kou
-    text: 当該通知書に記載すべき事項を電磁的方法により提供することについて、電磁的方法又は電話その他の方法により応募株主等から承諾を得ていること。
+    text: 一　当該通知書に記載すべき事項を電磁的方法により提供することについて、電磁的方法又は電話その他の方法により応募株主等から承諾を得ていること。
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-5-p7-kou-2
     type: kou
-    text: 応募株主等から当該通知書を交付するよう請求があるときはこれを交付する旨を応募株主等に告知していること。
+    text: 二　応募株主等から当該通知書を交付するよう請求があるときはこれを交付する旨を応募株主等に告知していること。
     modality: unspecified
     item_number: 2
 - number: 8
@@ -163,16 +163,16 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-5-p8-kou-1
     type: kou
-    text: '電子情報処理組織を使用する方法のうちイ又はロに掲げるもの
+    text: '一　電子情報処理組織を使用する方法のうちイ又はロに掲げるもの
 
-      イ 公開買付者の使用に係る電子計算機と応募株主等の使用に係る電子計算機とを接続する電気通信回線を通じて送信し、受信者の使用に係る電子計算機に備えられたファイルに記録する方法
+      イ　公開買付者の使用に係る電子計算機と応募株主等の使用に係る電子計算機とを接続する電気通信回線を通じて送信し、受信者の使用に係る電子計算機に備えられたファイルに記録する方法
 
-      ロ 公開買付者の使用に係る電子計算機に備えられたファイルに記録された通知書に記載すべき事項を電気通信回線を通じて応募株主等の閲覧に供し、当該応募株主等の使用に係る電子計算機に備えられたファイルに当該事項を記録する方法（電磁的方法による提供を受ける旨の承諾をし、又は当該通知書を交付するよう請求をする場合にあっては、公開買付者の使用に係る電子計算機に備えられたファイルにその旨を記録する方法）'
+      ロ　公開買付者の使用に係る電子計算機に備えられたファイルに記録された通知書に記載すべき事項を電気通信回線を通じて応募株主等の閲覧に供し、当該応募株主等の使用に係る電子計算機に備えられたファイルに当該事項を記録する方法（電磁的方法による提供を受ける旨の承諾をし、又は当該通知書を交付するよう請求をする場合にあっては、公開買付者の使用に係る電子計算機に備えられたファイルにその旨を記録する方法）'
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-5-p8-kou-2
     type: kou
-    text: 電磁的記録媒体をもって調製するファイルに通知書に記載すべき事項を記録したものを交付する方法
+    text: 二　電磁的記録媒体をもって調製するファイルに通知書に記載すべき事項を記録したものを交付する方法
     modality: unspecified
     item_number: 2
 - number: 9
@@ -206,12 +206,12 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-5-p11-kou-1
     type: kou
-    text: 第八項各号に規定する方法のうち公開買付者が使用するもの
+    text: 一　第八項各号に規定する方法のうち公開買付者が使用するもの
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-5-p11-kou-2
     type: kou
-    text: ファイルへの記録の方式
+    text: 二　ファイルへの記録の方式
     modality: unspecified
     item_number: 2
 - number: 12

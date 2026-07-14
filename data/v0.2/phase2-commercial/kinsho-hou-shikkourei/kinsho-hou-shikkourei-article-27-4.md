@@ -25,37 +25,37 @@ paragraphs:
     - 次条
   - id: kinsho-hou-shikkourei-art-27-4-p1-kou-1
     type: kou
-    text: 法第二条第一項第十号に掲げる有価証券で、信託財産を当該上場会社等の特定有価証券のみに対する投資として運用することを信託約款に定めた投資信託又はこれに類する外国投資信託に係るもの
+    text: 一　法第二条第一項第十号に掲げる有価証券で、信託財産を当該上場会社等の特定有価証券のみに対する投資として運用することを信託約款に定めた投資信託又はこれに類する外国投資信託に係るもの
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-27-4-p1-kou-2
     type: kou
-    text: 法第二条第一項第十一号に掲げる有価証券で、資産を当該上場会社等の特定有価証券のみに対する投資として運用することを規約に定めた投資法人又はこれに類する外国投資法人の発行するもの
+    text: 二　法第二条第一項第十一号に掲げる有価証券で、資産を当該上場会社等の特定有価証券のみに対する投資として運用することを規約に定めた投資法人又はこれに類する外国投資法人の発行するもの
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-27-4-p1-kou-3
     type: kou
-    text: 法第二条第一項第十九号に掲げる有価証券で、当該上場会社等の特定有価証券に係るオプションを表示するもの
+    text: 三　法第二条第一項第十九号に掲げる有価証券で、当該上場会社等の特定有価証券に係るオプションを表示するもの
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-27-4-p1-kou-4
     type: kou
-    text: 法第二条第一項第二十号に掲げる有価証券で、当該上場会社等の特定有価証券に係る権利を表示するもの
+    text: 四　法第二条第一項第二十号に掲げる有価証券で、当該上場会社等の特定有価証券に係る権利を表示するもの
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-27-4-p1-kou-5
     type: kou
-    text: 有価証券信託受益証券で、当該上場会社等の特定有価証券を受託有価証券とするもの
+    text: 五　有価証券信託受益証券で、当該上場会社等の特定有価証券を受託有価証券とするもの
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-27-4-p1-kou-6
     type: kou
-    text: 当該上場会社等以外の会社の発行する社債券（新株予約権付社債券を除く。）で、当該上場会社等の特定有価証券により償還することができる旨の特約が付されているもの（社債券を保有する者が当該社債券の発行会社に対し、特定有価証券による償還をさせることができる権利を有しているものに限る。）
+    text: 六　当該上場会社等以外の会社の発行する社債券（新株予約権付社債券を除く。）で、当該上場会社等の特定有価証券により償還することができる旨の特約が付されているもの（社債券を保有する者が当該社債券の発行会社に対し、特定有価証券による償還をさせることができる権利を有しているものに限る。）
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-27-4-p1-kou-7
     type: kou
-    text: 外国の者の発行する証券又は証書で前号に掲げる有価証券の性質を有するもの
+    text: 七　外国の者の発行する証券又は証書で前号に掲げる有価証券の性質を有するもの
     modality: unspecified
     item_number: 7
 cases: []

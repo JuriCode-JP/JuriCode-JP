@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p1-kou-1
     type: kou
-    text: 法第五百八十六条第二項第一号の五に規定する過疎地域のうち特定過疎地域（過疎地域の持続的発展の支援に関する特別措置法（令和三年法律第十九号）第四十二条の規定の適用を受ける区域をいう。次号において同じ。）以外の区域
+    text: 一　法第五百八十六条第二項第一号の五に規定する過疎地域のうち特定過疎地域（過疎地域の持続的発展の支援に関する特別措置法（令和三年法律第十九号）第四十二条の規定の適用を受ける区域をいう。次号において同じ。）以外の区域
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p1-kou-2
     type: kou
-    text: 特定過疎地域のうち過疎地域の持続的発展の支援に関する特別措置法第四十二条の規定の適用を受けないものとしたならば同法第三条第一項若しくは第二項（これらの規定を同法第四十三条の規定により読み替えて適用する場合を含む。）又は第四十一条第二項の規定の適用を受ける区域
+    text: 二　特定過疎地域のうち過疎地域の持続的発展の支援に関する特別措置法第四十二条の規定の適用を受けないものとしたならば同法第三条第一項若しくは第二項（これらの規定を同法第四十三条の規定により読み替えて適用する場合を含む。）又は第四十一条第二項の規定の適用を受ける区域
     modality: unspecified
     item_number: 2
 - number: 2
@@ -64,32 +64,32 @@ paragraphs:
     - 前項
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p4-kou-1
     type: kou
-    text: 工場用の建物内における生産工程と密接不可分な工業生産設備
+    text: 一　工場用の建物内における生産工程と密接不可分な工業生産設備
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p4-kou-2
     type: kou
-    text: 原材料の搬入、貯蔵又は前処理のための施設
+    text: 二　原材料の搬入、貯蔵又は前処理のための施設
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p4-kou-3
     type: kou
-    text: 製品の貯蔵又は搬出のための施設
+    text: 三　製品の貯蔵又は搬出のための施設
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p4-kou-4
     type: kou
-    text: 廃棄物処理施設
+    text: 四　廃棄物処理施設
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p4-kou-5
     type: kou
-    text: 試験研究のための施設
+    text: 五　試験研究のための施設
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p4-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、総務省令で定める施設
+    text: 六　前各号に掲げるもののほか、総務省令で定める施設
     modality: unspecified
     item_number: 6
 - number: 5
@@ -103,12 +103,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p5-kou-1
     type: kou
-    text: 当該家屋又は構築物を構成する減価償却資産（所得税法施行令第六条第一号及び第二号又は法人税法施行令第十三条第一号及び第二号に掲げるものに限る。）の取得価額の合計額が二千七百万円を超えるものであること。
+    text: 一　当該家屋又は構築物を構成する減価償却資産（所得税法施行令第六条第一号及び第二号又は法人税法施行令第十三条第一号及び第二号に掲げるものに限る。）の取得価額の合計額が二千七百万円を超えるものであること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-13-5-p5-kou-2
     type: kou
-    text: 当該対象施設に係る家屋につき当該対象施設に含まれない部分がある場合には当該家屋の床面積（機械室、廊下、階段その他共用に供されるべき部分の床面積（以下この号において「共用部分の床面積」という。）を除く。）のうちに当該対象施設に含まれる部分の床面積（共用部分の床面積を除く。）の占める割合が二分の一以上のものであり、当該対象施設に係る構築物につき当該対象施設に含まれない部分がある場合には当該構築物を構成する減価償却資産（所得税法施行令第六条第二号又は法人税法施行令第十三条第二号に掲げるものに限る。以下この号において同じ。）の取得価額の合計額のうちに当該対象施設に含まれる部分を構成する減価償却資産の取得価額の合計額の占める割合が二分の一以上のものであること。
+    text: 二　当該対象施設に係る家屋につき当該対象施設に含まれない部分がある場合には当該家屋の床面積（機械室、廊下、階段その他共用に供されるべき部分の床面積（以下この号において「共用部分の床面積」という。）を除く。）のうちに当該対象施設に含まれる部分の床面積（共用部分の床面積を除く。）の占める割合が二分の一以上のものであり、当該対象施設に係る構築物につき当該対象施設に含まれない部分がある場合には当該構築物を構成する減価償却資産（所得税法施行令第六条第二号又は法人税法施行令第十三条第二号に掲げるものに限る。以下この号において同じ。）の取得価額の合計額のうちに当該対象施設に含まれる部分を構成する減価償却資産の取得価額の合計額の占める割合が二分の一以上のものであること。
     modality: unspecified
     item_number: 2
 - number: 6

@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-209-p1-kou-1
     type: kou
-    text: 第百九十九条第一項第四号の期日を定めた場合　当該期日
+    text: 一　第百九十九条第一項第四号の期日を定めた場合　当該期日
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-209-p1-kou-2
     type: kou
-    text: 第百九十九条第一項第四号の期間を定めた場合　出資の履行をした日
+    text: 二　第百九十九条第一項第四号の期間を定めた場合　出資の履行をした日
     modality: unspecified
     item_number: 2
 - number: 2

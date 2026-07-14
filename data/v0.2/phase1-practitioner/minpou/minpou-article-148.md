@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-148-p1-kou-1
     type: kou
-    text: 強制執行
+    text: 一　強制執行
     modality: unspecified
     item_number: 1
   - id: minpou-art-148-p1-kou-2
     type: kou
-    text: 担保権の実行
+    text: 二　担保権の実行
     modality: unspecified
     item_number: 2
   - id: minpou-art-148-p1-kou-3
     type: kou
-    text: 民事執行法（昭和五十四年法律第四号）第百九十五条に規定する担保権の実行としての競売の例による競売
+    text: 三　民事執行法（昭和五十四年法律第四号）第百九十五条に規定する担保権の実行としての競売の例による競売
     modality: unspecified
     item_number: 3
   - id: minpou-art-148-p1-kou-4
     type: kou
-    text: 民事執行法第百九十六条に規定する財産開示手続又は同法第二百四条に規定する第三者からの情報取得手続
+    text: 四　民事執行法第百九十六条に規定する財産開示手続又は同法第二百四条に規定する第三者からの情報取得手続
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項の場合には、時効は、同項各号に掲げる事由が終了した時から新たにその進行を始める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: minpou-art-148-p2-tadashi
     type: tadashi
     text: ただし、申立ての取下げ又は法律の規定に従わないことによる取消しによってその事由が終了した場合は、この限りでない。

@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定は、公開会社でない株式会社において、定款によって、同項の任期を選任後十年以内に終了する事業年度のうち最終のものに関する定時株主総会の終結の時まで伸長することを妨げない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -55,22 +55,22 @@ paragraphs:
     - 前三項
   - id: kaisha-hou-art-336-p4-kou-1
     type: kou
-    text: 監査役を置く旨の定款の定めを廃止する定款の変更
+    text: 一　監査役を置く旨の定款の定めを廃止する定款の変更
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-336-p4-kou-2
     type: kou
-    text: 監査等委員会又は指名委員会等を置く旨の定款の変更
+    text: 二　監査等委員会又は指名委員会等を置く旨の定款の変更
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-336-p4-kou-3
     type: kou
-    text: 監査役の監査の範囲を会計に関するものに限定する旨の定款の定めを廃止する定款の変更
+    text: 三　監査役の監査の範囲を会計に関するものに限定する旨の定款の定めを廃止する定款の変更
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-336-p4-kou-4
     type: kou
-    text: その発行する全部の株式の内容として譲渡による当該株式の取得について当該株式会社の承認を要する旨の定款の定めを廃止する定款の変更
+    text: 四　その発行する全部の株式の内容として譲渡による当該株式の取得について当該株式会社の承認を要する旨の定款の定めを廃止する定款の変更
     modality: unspecified
     item_number: 4
 cases: []

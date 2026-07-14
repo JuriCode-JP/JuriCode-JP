@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-249-9-p1-kou-1
     type: kou
-    text: 申請者の氏名及び住所
+    text: 一　申請者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-249-9-p1-kou-2
     type: kou
-    text: 物品の名称及び形状
+    text: 二　物品の名称及び形状
     modality: unspecified
     item_number: 2
 - number: 2

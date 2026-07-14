@@ -23,22 +23,22 @@ paragraphs:
     modality: doryoku_gimu
   - id: hanzai-shueki-iten-boushi-hou-art-11-p1-kou-1
     type: kou
-    text: 使用人に対する教育訓練の実施
+    text: 一　使用人に対する教育訓練の実施
     modality: unspecified
     item_number: 1
   - id: hanzai-shueki-iten-boushi-hou-art-11-p1-kou-2
     type: kou
-    text: 取引時確認等の措置の実施に関する規程の作成
+    text: 二　取引時確認等の措置の実施に関する規程の作成
     modality: unspecified
     item_number: 2
   - id: hanzai-shueki-iten-boushi-hou-art-11-p1-kou-3
     type: kou
-    text: 取引時確認等の措置の的確な実施のために必要な監査その他の業務を統括管理する者の選任
+    text: 三　取引時確認等の措置の的確な実施のために必要な監査その他の業務を統括管理する者の選任
     modality: unspecified
     item_number: 3
   - id: hanzai-shueki-iten-boushi-hou-art-11-p1-kou-4
     type: kou
-    text: その他第三条第三項に規定する犯罪収益移転危険度調査書の内容を勘案して講ずべきものとして主務省令で定める措置
+    text: 四　その他第三条第三項に規定する犯罪収益移転危険度調査書の内容を勘案して講ずべきものとして主務省令で定める措置
     modality: unspecified
     item_number: 4
 cases: []

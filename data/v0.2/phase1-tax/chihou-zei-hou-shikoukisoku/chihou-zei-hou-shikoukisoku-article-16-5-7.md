@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-16-5-7-p1-kou-1
     type: kou
-    text: 宿泊施設　第十六条の五の五第一項第一号に規定する施設
+    text: 一　宿泊施設　第十六条の五の五第一項第一号に規定する施設
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-16-5-7-p1-kou-2
     type: kou
-    text: 集会施設　第十六条の五の五第一項第二号に規定する施設
+    text: 二　集会施設　第十六条の五の五第一項第二号に規定する施設
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-16-5-7-p1-kou-3
     type: kou
-    text: スポーツ施設　第十六条の五の五第一項第三号に規定する施設
+    text: 三　スポーツ施設　第十六条の五の五第一項第三号に規定する施設
     modality: unspecified
     item_number: 3
 - number: 2

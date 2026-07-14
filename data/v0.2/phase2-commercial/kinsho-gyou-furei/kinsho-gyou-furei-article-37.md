@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-37-p1-kou-1
     type: kou
-    text: 商号、名称又は氏名
+    text: 一　商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-37-p1-kou-2
     type: kou
-    text: 本店又は主たる事務所の所在地（個人にあっては、住所又は居所）
+    text: 二　本店又は主たる事務所の所在地（個人にあっては、住所又は居所）
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-37-p1-kou-3
     type: kou
-    text: 法人であるときは、代表者の氏名
+    text: 三　法人であるときは、代表者の氏名
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-37-p1-kou-4
     type: kou
-    text: 保有する議決権の数
+    text: 四　保有する議決権の数
     modality: unspecified
     item_number: 4
 - number: 2

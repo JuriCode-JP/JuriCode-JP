@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p1-kou-1
     type: kou
-    text: 調査の相手方である法第七十四条の九第三項第一号に掲げる納税義務者の氏名及び住所又は居所
+    text: 一　調査の相手方である法第七十四条の九第三項第一号に掲げる納税義務者の氏名及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p1-kou-2
     type: kou
-    text: 調査を行う当該職員の氏名及び所属官署（当該職員が複数であるときは、当該職員を代表する者の氏名及び所属官署）
+    text: 二　調査を行う当該職員の氏名及び所属官署（当該職員が複数であるときは、当該職員を代表する者の氏名及び所属官署）
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p1-kou-3
     type: kou
-    text: 法第七十四条の九第一項第一号又は第二号に掲げる事項の変更に関する事項
+    text: 三　法第七十四条の九第一項第一号又は第二号に掲げる事項の変更に関する事項
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-30-4-p1-kou-4
     type: kou
-    text: 法第七十四条の九第四項の規定の趣旨
+    text: 四　法第七十四条の九第四項の規定の趣旨
     modality: unspecified
     item_number: 4
 - number: 2

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu_kei
   - id: yakkihou-art-89-p1-kou-1
     type: kou
-    text: 第二十三条の五の規定による報告をせず、又は虚偽の報告をしたとき。
+    text: 一　第二十三条の五の規定による報告をせず、又は虚偽の報告をしたとき。
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-89-p1-kou-2
     type: kou
-    text: 第二十三条の十一の規定に違反して帳簿を備えず、帳簿に記載せず、若しくは帳簿に虚偽の記載をし、又は帳簿を保存しなかつたとき。
+    text: 二　第二十三条の十一の規定に違反して帳簿を備えず、帳簿に記載せず、若しくは帳簿に虚偽の記載をし、又は帳簿を保存しなかつたとき。
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-89-p1-kou-3
     type: kou
-    text: 第二十三条の十五第一項の規定による届出をせず、又は虚偽の届出をして、基準適合性認証の業務の全部又は一部を休止し、又は廃止したとき。
+    text: 三　第二十三条の十五第一項の規定による届出をせず、又は虚偽の届出をして、基準適合性認証の業務の全部又は一部を休止し、又は廃止したとき。
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-89-p1-kou-4
     type: kou
-    text: 第六十九条第七項の規定による報告をせず、若しくは虚偽の報告をし、同項の規定による立入検査を拒み、妨げ、若しくは忌避し、又は同項の規定による質問に対して、正当な理由なしに答弁せず、若しくは虚偽の答弁をしたとき。
+    text: 四　第六十九条第七項の規定による報告をせず、若しくは虚偽の報告をし、同項の規定による立入検査を拒み、妨げ、若しくは忌避し、又は同項の規定による質問に対して、正当な理由なしに答弁せず、若しくは虚偽の答弁をしたとき。
     modality: unspecified
     item_number: 4
 cases: []

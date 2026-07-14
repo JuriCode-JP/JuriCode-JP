@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: kinsho-gyou-furei-art-29-p1-kou-1
     type: kou
-    text: 国債証券
+    text: 一　国債証券
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-29-p1-kou-2
     type: kou
-    text: 地方債証券
+    text: 二　地方債証券
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-29-p1-kou-3
     type: kou
-    text: 政府保証債券（法第二条第一項第三号に掲げる有価証券のうち政府が元本の償還及び利息の支払について保証しているものをいう。第六十五条第一号ハにおいて同じ。）
+    text: 三　政府保証債券（法第二条第一項第三号に掲げる有価証券のうち政府が元本の償還及び利息の支払について保証しているものをいう。第六十五条第一号ハにおいて同じ。）
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-29-p1-kou-4
     type: kou
-    text: 金融庁長官が指定した社債券その他の債券（記名式のもの及び割引の方法により発行されるもの並びに前号に掲げるものを除く。）
+    text: 四　金融庁長官が指定した社債券その他の債券（記名式のもの及び割引の方法により発行されるもの並びに前号に掲げるものを除く。）
     modality: unspecified
     item_number: 4
 cases: []

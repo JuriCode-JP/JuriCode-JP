@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-436-p1-kou-1
     type: kou
-    text: 前条第一号又は第二号に規定する事由があるとき。
+    text: 一　前条第一号又は第二号に規定する事由があるとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-436-p1-kou-2
     type: kou
-    text: 原判決又はその証拠となつた証拠書類の作成に関与した裁判官について前条第七号に規定する事由があるとき。
+    text: 二　原判決又はその証拠となつた証拠書類の作成に関与した裁判官について前条第七号に規定する事由があるとき。
     modality: unspecified
     item_number: 2
 - number: 2

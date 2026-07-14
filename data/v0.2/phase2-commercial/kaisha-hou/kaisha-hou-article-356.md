@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-356-p1-kou-1
     type: kou
-    text: 取締役が自己又は第三者のために株式会社の事業の部類に属する取引をしようとするとき。
+    text: 一　取締役が自己又は第三者のために株式会社の事業の部類に属する取引をしようとするとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-356-p1-kou-2
     type: kou
-    text: 取締役が自己又は第三者のために株式会社と取引をしようとするとき。
+    text: 二　取締役が自己又は第三者のために株式会社と取引をしようとするとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-356-p1-kou-3
     type: kou
-    text: 株式会社が取締役の債務を保証することその他取締役以外の者との間において株式会社と当該取締役との利益が相反する取引をしようとするとき。
+    text: 三　株式会社が取締役の債務を保証することその他取締役以外の者との間において株式会社と当該取締役との利益が相反する取引をしようとするとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 民法第百八条の規定は、前項の承認を受けた同項第二号又は第三号の取引については、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

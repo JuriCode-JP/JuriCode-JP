@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-70-11-p1-kou-1
     type: kou
-    text: 小売業、飲食店業、写真業及び旅行業
+    text: 一　小売業、飲食店業、写真業及び旅行業
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-70-11-p1-kou-2
     type: kou
-    text: 道路運送法第三条第一号ハ（種類）に規定する一般乗用旅客自動車運送事業（当該一般乗用旅客自動車運送事業として行う旅客の運送の引受けが営業所のみにおいて行われるものとして同法第九条の三第一項（一般乗用旅客自動車運送事業の運賃及び料金）の国土交通大臣の認可を受けた運賃等（同項に規定する運賃等をいう。以下この号において同じ。）又は同条第三項の規定により定められた運賃等が適用されるものを除く。）
+    text: 二　道路運送法第三条第一号ハ（種類）に規定する一般乗用旅客自動車運送事業（当該一般乗用旅客自動車運送事業として行う旅客の運送の引受けが営業所のみにおいて行われるものとして同法第九条の三第一項（一般乗用旅客自動車運送事業の運賃及び料金）の国土交通大臣の認可を受けた運賃等（同項に規定する運賃等をいう。以下この号において同じ。）又は同条第三項の規定により定められた運賃等が適用されるものを除く。）
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-70-11-p1-kou-3
     type: kou
-    text: 駐車場業（不特定かつ多数の者に自動車その他の車両の駐車のための場所を提供するものに限る。）
+    text: 三　駐車場業（不特定かつ多数の者に自動車その他の車両の駐車のための場所を提供するものに限る。）
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikkourei-art-70-11-p1-kou-4
     type: kou
-    text: 前三号に掲げる事業に準ずる事業で不特定かつ多数の者に資産の譲渡等を行うもの
+    text: 四　前三号に掲げる事業に準ずる事業で不特定かつ多数の者に資産の譲渡等を行うもの
     modality: unspecified
     item_number: 4
 cases: []

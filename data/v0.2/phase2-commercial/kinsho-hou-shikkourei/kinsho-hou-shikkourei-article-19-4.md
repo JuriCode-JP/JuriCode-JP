@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-19-4-p2-kou-1
     type: kou
-    text: 認可申請者に合併された者
+    text: 一　認可申請者に合併された者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-19-4-p2-kou-2
     type: kou
-    text: 分割により認可申請者に外国金融商品市場を開設する業務の全部又は一部（内閣府令で定める場合に限る。）を承継させた者
+    text: 二　分割により認可申請者に外国金融商品市場を開設する業務の全部又は一部（内閣府令で定める場合に限る。）を承継させた者
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-19-4-p2-kou-3
     type: kou
-    text: 認可申請者に外国金融商品市場を開設する業務の全部又は一部（内閣府令で定める場合に限る。）を譲渡した者
+    text: 三　認可申請者に外国金融商品市場を開設する業務の全部又は一部（内閣府令で定める場合に限る。）を譲渡した者
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-19-4-p2-kou-4
     type: kou
-    text: 前三号に掲げる者に準ずる者として内閣府令で定める者
+    text: 四　前三号に掲げる者に準ずる者として内閣府令で定める者
     modality: unspecified
     item_number: 4
 cases: []

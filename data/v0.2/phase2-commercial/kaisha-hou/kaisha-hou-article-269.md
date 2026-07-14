@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-269-p1-kou-1
     type: kou
-    text: 質権者の氏名又は名称及び住所
+    text: 一　質権者の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-269-p1-kou-2
     type: kou
-    text: 質権の目的である新株予約権
+    text: 二　質権の目的である新株予約権
     modality: unspecified
     item_number: 2
 - number: 2

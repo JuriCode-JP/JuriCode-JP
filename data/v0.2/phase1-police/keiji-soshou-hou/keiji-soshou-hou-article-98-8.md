@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-98-8-p1-kou-1
     type: kou
-    text: 監督者が、正当な理由がなく、第九十八条の四第四項の規定による命令に違反したとき。
+    text: 一　監督者が、正当な理由がなく、第九十八条の四第四項の規定による命令に違反したとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-98-8-p1-kou-2
     type: kou
-    text: 心身の故障その他の事由により、監督者が第九十八条の四第四項の規定により命ぜられた事項をすることができない状態になつたとき。
+    text: 二　心身の故障その他の事由により、監督者が第九十八条の四第四項の規定により命ぜられた事項をすることができない状態になつたとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-98-8-p1-kou-3
     type: kou
-    text: 監督者から解任の申出があつたとき。
+    text: 三　監督者から解任の申出があつたとき。
     modality: unspecified
     item_number: 3
 - number: 2

@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の責任は、同項の登記後二年以内に請求又は請求の予告をしない持分会社の債権者に対しては、当該登記後二年を経過した時に消滅する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

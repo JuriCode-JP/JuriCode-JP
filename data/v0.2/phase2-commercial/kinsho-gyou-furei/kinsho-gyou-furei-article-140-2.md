@@ -25,21 +25,21 @@ paragraphs:
     override_target:
     - 前三条
     references:
-    - 同項
     - 前三条
+    - 同項
   - id: kinsho-gyou-furei-art-140-2-p1-kou-1
     type: kou
-    text: 店頭デリバティブ取引
+    text: 一　店頭デリバティブ取引
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-140-2-p1-kou-2
     type: kou
-    text: 外国市場デリバティブ取引
+    text: 二　外国市場デリバティブ取引
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-140-2-p1-kou-3
     type: kou
-    text: 令第十六条の十五に規定する取引
+    text: 三　令第十六条の十五に規定する取引
     modality: unspecified
     item_number: 3
 cases: []

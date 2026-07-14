@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の被疑者が、裁判所の許可を受けて同項の住居を離れ、正当な理由がなく、当該住居を離れることができる期間として指定された期間を超えて当該住居に帰着しないときも、同項と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

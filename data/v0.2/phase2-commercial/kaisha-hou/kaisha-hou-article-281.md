@@ -39,8 +39,8 @@ paragraphs:
     text: この場合において、当該財産の価額が同項第二号の価額に足りないときは、前項の払込みの取扱いの場所においてその差額に相当する金銭を払い込まなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
     depends_on: kaisha-hou-art-281-p2-zen
 - number: 3
   has_proviso: false

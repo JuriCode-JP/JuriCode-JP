@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-shikkourei-art-6-2-3-p1-kou-1
     type: kou
-    text: 滞納処分費の徴収の基因となつた地方団体の徴収金の年度及び税目
+    text: 一　滞納処分費の徴収の基因となつた地方団体の徴収金の年度及び税目
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-2-3-p1-kou-2
     type: kou
-    text: 納付すべき金額
+    text: 二　納付すべき金額
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-2-3-p1-kou-3
     type: kou
-    text: 納期限
+    text: 三　納期限
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-6-2-3-p1-kou-4
     type: kou
-    text: 納付場所
+    text: 四　納付場所
     modality: unspecified
     item_number: 4
 cases: []

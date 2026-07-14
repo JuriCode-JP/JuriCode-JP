@@ -34,27 +34,27 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-40-p2-kou-1
     type: kou
-    text: 風俗環境に関する苦情の処理に係る業務を担当する者その他都道府県協会の業務を行う者に対する研修を行うこと。
+    text: 一　風俗環境に関する苦情の処理に係る業務を担当する者その他都道府県協会の業務を行う者に対する研修を行うこと。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-40-p2-kou-2
     type: kou
-    text: この法律に違反する行為を防止するための二以上の都道府県の区域における啓発活動を行うこと。
+    text: 二　この法律に違反する行為を防止するための二以上の都道府県の区域における啓発活動を行うこと。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-40-p2-kou-3
     type: kou
-    text: 少年の健全な育成に及ぼす風俗環境の影響に関する調査研究を行うこと。
+    text: 三　少年の健全な育成に及ぼす風俗環境の影響に関する調査研究を行うこと。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-40-p2-kou-4
     type: kou
-    text: 都道府県協会の事業について、連絡調整を図ること。
+    text: 四　都道府県協会の事業について、連絡調整を図ること。
     modality: unspecified
     item_number: 4
   - id: fueihou-art-40-p2-kou-5
     type: kou
-    text: 前各号の事業に附帯する事業
+    text: 五　前各号の事業に附帯する事業
     modality: unspecified
     item_number: 5
 - number: 3

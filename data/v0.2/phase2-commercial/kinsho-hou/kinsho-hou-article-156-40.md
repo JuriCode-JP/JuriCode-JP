@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-156-40-p1-kou-1
     type: kou
-    text: 指定を受けようとする紛争解決等業務の種別
+    text: 一　指定を受けようとする紛争解決等業務の種別
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-40-p1-kou-2
     type: kou
-    text: 商号又は名称
+    text: 二　商号又は名称
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-40-p1-kou-3
     type: kou
-    text: 主たる営業所又は事務所その他紛争解決等業務を行う営業所又は事務所の名称及び所在地
+    text: 三　主たる営業所又は事務所その他紛争解決等業務を行う営業所又は事務所の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-40-p1-kou-4
     type: kou
-    text: 役員の氏名又は商号若しくは名称
+    text: 四　役員の氏名又は商号若しくは名称
     modality: unspecified
     item_number: 4
 - number: 2
@@ -56,37 +56,37 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-156-40-p2-kou-1
     type: kou
-    text: 前条第一項第三号及び第四号に掲げる要件に該当することを誓約する書面
+    text: 一　前条第一項第三号及び第四号に掲げる要件に該当することを誓約する書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-40-p2-kou-2
     type: kou
-    text: 定款及び法人の登記事項証明書（これらに準ずるものを含む。）
+    text: 二　定款及び法人の登記事項証明書（これらに準ずるものを含む。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-40-p2-kou-3
     type: kou
-    text: 業務規程
+    text: 三　業務規程
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-40-p2-kou-4
     type: kou
-    text: 組織に関する事項を記載した書類
+    text: 四　組織に関する事項を記載した書類
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-40-p2-kou-5
     type: kou
-    text: 財産目録、貸借対照表その他の紛争解決等業務を行うために必要な経理的な基礎を有することを明らかにする書類であつて内閣府令で定めるもの
+    text: 五　財産目録、貸借対照表その他の紛争解決等業務を行うために必要な経理的な基礎を有することを明らかにする書類であつて内閣府令で定めるもの
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-156-40-p2-kou-6
     type: kou
-    text: 前条第二項に規定する書類その他同条第一項第八号に掲げる要件に該当することを証する書類として内閣府令で定めるもの
+    text: 六　前条第二項に規定する書類その他同条第一項第八号に掲げる要件に該当することを証する書類として内閣府令で定めるもの
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-156-40-p2-kou-7
     type: kou
-    text: その他内閣府令で定める書類
+    text: 七　その他内閣府令で定める書類
     modality: unspecified
     item_number: 7
 - number: 3

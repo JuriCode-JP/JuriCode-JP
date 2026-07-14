@@ -43,32 +43,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-art-13-p3-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-13-p3-kou-2
     type: kou
-    text: その製造所の構造設備の概要
+    text: 二　その製造所の構造設備の概要
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-13-p3-kou-3
     type: kou
-    text: 法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    text: 三　法人にあつては、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-13-p3-kou-4
     type: kou
-    text: 医薬品の製造業の許可を受けようとする者にあつては、第十七条第六項に規定する医薬品製造管理者の氏名
+    text: 四　医薬品の製造業の許可を受けようとする者にあつては、第十七条第六項に規定する医薬品製造管理者の氏名
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-13-p3-kou-5
     type: kou
-    text: 医薬部外品又は化粧品の製造業の許可を受けようとする者にあつては、第十七条第十一項に規定する医薬部外品等責任技術者の氏名
+    text: 五　医薬部外品又は化粧品の製造業の許可を受けようとする者にあつては、第十七条第十一項に規定する医薬部外品等責任技術者の氏名
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-13-p3-kou-6
     type: kou
-    text: 第六項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
+    text: 六　第六項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
     modality: unspecified
     item_number: 6
 - number: 4

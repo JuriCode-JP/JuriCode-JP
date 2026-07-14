@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: shouhi-zei-hou-art-7-p1-kou-1
     type: kou
-    text: 本邦からの輸出として行われる資産の譲渡又は貸付け
+    text: 一　本邦からの輸出として行われる資産の譲渡又は貸付け
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-7-p1-kou-2
     type: kou
-    text: 外国貨物の譲渡又は貸付け（前号に掲げる資産の譲渡又は貸付けに該当するもの及び輸入品に対する内国消費税の徴収等に関する法律（昭和三十年法律第三十七号）第八条第一項第三号（公売又は売却等の場合における内国消費税の徴収）に掲げる場合に該当することとなつた外国貨物の譲渡を除く。）
+    text: 二　外国貨物の譲渡又は貸付け（前号に掲げる資産の譲渡又は貸付けに該当するもの及び輸入品に対する内国消費税の徴収等に関する法律（昭和三十年法律第三十七号）第八条第一項第三号（公売又は売却等の場合における内国消費税の徴収）に掲げる場合に該当することとなつた外国貨物の譲渡を除く。）
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-art-7-p1-kou-3
     type: kou
-    text: 国内及び国内以外の地域にわたつて行われる旅客若しくは貨物の輸送又は通信
+    text: 三　国内及び国内以外の地域にわたつて行われる旅客若しくは貨物の輸送又は通信
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-art-7-p1-kou-4
     type: kou
-    text: 専ら前号に規定する輸送の用に供される船舶又は航空機の譲渡若しくは貸付け又は修理で政令で定めるもの
+    text: 四　専ら前号に規定する輸送の用に供される船舶又は航空機の譲渡若しくは貸付け又は修理で政令で定めるもの
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-art-7-p1-kou-5
     type: kou
-    text: 前各号に掲げる資産の譲渡等に類するものとして政令で定めるもの
+    text: 五　前各号に掲げる資産の譲渡等に類するものとして政令で定めるもの
     modality: unspecified
     item_number: 5
 - number: 2
@@ -56,8 +56,8 @@ paragraphs:
     text: 前項の規定は、その課税資産の譲渡等が同項各号に掲げる資産の譲渡等に該当するものであることにつき、財務省令で定めるところにより証明がされたものでない場合には、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases:
 - case_id: ntt-2011-06-14-j83-27
   case_type: ruling

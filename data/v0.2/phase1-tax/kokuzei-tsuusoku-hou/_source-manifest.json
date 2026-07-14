@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\337AC0000000066.xml",
   "source_xml_sha256": "2051affbcb463a0b4b14acaf75a893696dc7e71ae30cff685bfbce44be4f3253",
   "source_xml_bytes": 934385,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:19+00:00",
+  "parsed_at": "2026-07-14T01:44:24+00:00",
   "version_date": "1962-04-02",
   "article_count": 194,
   "articles": [
@@ -266,8 +266,8 @@
       "article_id": "kokuzei-tsuusoku-hou-art-126",
       "article_number": "126",
       "filename": "kokuzei-tsuusoku-hou-article-126.md",
-      "ja_text_sha256": "71cdd83df94aabbe4c5dec18367633b27250d520fafc80148832e289915f2f20",
-      "ja_text_bytes": 569,
+      "ja_text_sha256": "62765e391599a144d6855025fafb8f8bea103492d6a5a69acc38ae0c076c6c15",
+      "ja_text_bytes": 563,
       "paragraph_count": 2
     },
     {
@@ -922,8 +922,8 @@
       "article_id": "kokuzei-tsuusoku-hou-art-5",
       "article_number": "5",
       "filename": "kokuzei-tsuusoku-hou-article-5.md",
-      "ja_text_sha256": "e9490a7a72a68f54ec3c380ffd86fa7998586b562bbb1430c886be6cb64e0694",
-      "ja_text_bytes": 1708,
+      "ja_text_sha256": "6f9dbf0605ab1991fd15e98478178dc4cff0450477c112ff855cc76171e8609b",
+      "ja_text_bytes": 1702,
       "paragraph_count": 3
     },
     {
@@ -1522,8 +1522,8 @@
       "article_id": "kokuzei-tsuusoku-hou-art-97-2",
       "article_number": "97-2",
       "filename": "kokuzei-tsuusoku-hou-article-97-2.md",
-      "ja_text_sha256": "325a71237981cd57ae40e0a1625e82730fd11c61a427c188997f62690d903c56",
-      "ja_text_bytes": 1390,
+      "ja_text_sha256": "af35fdbfc037a82a69a2db68b23399d862bfd11ee4c2df1a6d7361ce0d2b5cd4",
+      "ja_text_bytes": 1384,
       "paragraph_count": 3
     },
     {

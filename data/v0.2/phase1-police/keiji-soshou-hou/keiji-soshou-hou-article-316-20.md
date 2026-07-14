@@ -39,12 +39,12 @@ paragraphs:
     - 前項
   - id: keiji-soshou-hou-art-316-20-p2-kou-1
     type: kou
-    text: 開示の請求に係る証拠を識別するに足りる事項
+    text: 一　開示の請求に係る証拠を識別するに足りる事項
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-316-20-p2-kou-2
     type: kou
-    text: 第三百十六条の十七第一項の主張と開示の請求に係る証拠との関連性その他の被告人の防御の準備のために当該開示が必要である理由
+    text: 二　第三百十六条の十七第一項の主張と開示の請求に係る証拠との関連性その他の被告人の防御の準備のために当該開示が必要である理由
     modality: unspecified
     item_number: 2
 cases: []

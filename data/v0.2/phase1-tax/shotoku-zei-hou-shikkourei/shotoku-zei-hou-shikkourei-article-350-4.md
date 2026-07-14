@@ -22,8 +22,8 @@ paragraphs:
     text: 先物取引の差金等決済をする者は、前条の規定による告知をする際、当該告知をする商品先物取引業者等に、次項において準用する第三百三十七条第二項（告知に係る住民票の写しその他の書類の提示等）に規定する書類を提示し、又は署名用電子証明書等を送信しなければならない。
     modality: gimu
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
@@ -43,8 +43,8 @@ paragraphs:
     text: 前条第二項各号の告知をした個人が、同条第三項第一号に掲げる場合に該当することとなつた場合において、同項の規定による告知をするときは、第一項の規定による書類の提示又は署名用電子証明書等の送信に代えて、住所等変更確認書類（当該個人の変更前の氏名又は住所及び変更後の氏名又は住所を証する住民票の写しその他の財務省令で定める書類をいう。次条第一項において同じ。）の提示をすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前条
+    - 同項
     - 次条
   - id: shotoku-zei-hou-shikkourei-art-350-4-p3-kou
     type: kou_dan
@@ -64,8 +64,8 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 5
   has_proviso: true
   has_items: false
@@ -79,9 +79,9 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

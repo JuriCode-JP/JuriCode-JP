@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の規定による届出書を提出した法人は、同項の規定の適用を受けることをやめようとするとき、又は事業を廃止したときは、その旨を記載した届出書をその納税地を所轄する税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

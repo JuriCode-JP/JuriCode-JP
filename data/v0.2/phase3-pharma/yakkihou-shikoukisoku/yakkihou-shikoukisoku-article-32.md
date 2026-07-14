@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-32-p1-kou-1
     type: kou
-    text: 許可番号及び許可年月日
+    text: 一　許可番号及び許可年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-32-p1-kou-2
     type: kou
-    text: 許可の区分
+    text: 二　許可の区分
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-32-p1-kou-3
     type: kou
-    text: 製造業者の氏名及び住所
+    text: 三　製造業者の氏名及び住所
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-32-p1-kou-4
     type: kou
-    text: 製造所の名称及び所在地
+    text: 四　製造所の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-32-p1-kou-5
     type: kou
-    text: 当該製造所の医薬品製造管理者又は医薬部外品等責任技術者の氏名及び住所
+    text: 五　当該製造所の医薬品製造管理者又は医薬部外品等責任技術者の氏名及び住所
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-32-p1-kou-6
     type: kou
-    text: 法第十七条第五項ただし書第三号に該当する場合であつて、医薬品製造管理者として薬剤師以外の技術者を置くときは、医薬品製造管理者補佐薬剤師の氏名及び住所
+    text: 六　法第十七条第五項ただし書第三号に該当する場合であつて、医薬品製造管理者として薬剤師以外の技術者を置くときは、医薬品製造管理者補佐薬剤師の氏名及び住所
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-32-p1-kou-7
     type: kou
-    text: 当該製造業者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可の区分及び許可番号又は登録番号
+    text: 七　当該製造業者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可の区分及び許可番号又は登録番号
     modality: unspecified
     item_number: 7
 cases: []

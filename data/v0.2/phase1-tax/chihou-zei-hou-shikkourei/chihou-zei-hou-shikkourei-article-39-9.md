@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-39-9-p1-kou-1
     type: kou
-    text: たばこ事業法（昭和五十九年法律第六十八号）第三条第一項に規定する会社（第三号において「会社」という。）
+    text: 一　たばこ事業法（昭和五十九年法律第六十八号）第三条第一項に規定する会社（第三号において「会社」という。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-39-9-p1-kou-2
     type: kou
-    text: 加熱式たばこの喫煙用具であつて加熱により蒸気となるグリセリンその他の物品又はこれらの混合物を充塡したものを製造した特定販売業者
+    text: 二　加熱式たばこの喫煙用具であつて加熱により蒸気となるグリセリンその他の物品又はこれらの混合物を充塡したものを製造した特定販売業者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-39-9-p1-kou-3
     type: kou
-    text: 加熱式たばこの喫煙用具であつて加熱により蒸気となるグリセリンその他の物品又はこれらの混合物を充塡したものを会社又は特定販売業者から委託を受けて製造した者
+    text: 三　加熱式たばこの喫煙用具であつて加熱により蒸気となるグリセリンその他の物品又はこれらの混合物を充塡したものを会社又は特定販売業者から委託を受けて製造した者
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-39-9-p1-kou-4
     type: kou
-    text: 前三号に掲げる者に準ずる者として総務省令で定める者
+    text: 四　前三号に掲げる者に準ずる者として総務省令で定める者
     modality: unspecified
     item_number: 4
 cases: []

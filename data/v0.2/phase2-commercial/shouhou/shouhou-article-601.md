@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: shouhou-art-601-p1-kou-1
     type: kou
-    text: 寄託物の種類、品質及び数量並びにその荷造りの種類、個数及び記号
+    text: 一　寄託物の種類、品質及び数量並びにその荷造りの種類、個数及び記号
     modality: unspecified
     item_number: 1
   - id: shouhou-art-601-p1-kou-2
     type: kou
-    text: 寄託者の氏名又は名称
+    text: 二　寄託者の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: shouhou-art-601-p1-kou-3
     type: kou
-    text: 保管場所
+    text: 三　保管場所
     modality: unspecified
     item_number: 3
   - id: shouhou-art-601-p1-kou-4
     type: kou
-    text: 保管料
+    text: 四　保管料
     modality: unspecified
     item_number: 4
   - id: shouhou-art-601-p1-kou-5
     type: kou
-    text: 保管期間を定めたときは、その期間
+    text: 五　保管期間を定めたときは、その期間
     modality: unspecified
     item_number: 5
   - id: shouhou-art-601-p1-kou-6
     type: kou
-    text: 寄託物を保険に付したときは、保険金額、保険期間及び保険者の氏名又は名称
+    text: 六　寄託物を保険に付したときは、保険金額、保険期間及び保険者の氏名又は名称
     modality: unspecified
     item_number: 6
   - id: shouhou-art-601-p1-kou-7
     type: kou
-    text: 作成地及び作成の年月日
+    text: 七　作成地及び作成の年月日
     modality: unspecified
     item_number: 7
 cases: []

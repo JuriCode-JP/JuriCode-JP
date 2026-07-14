@@ -31,8 +31,8 @@ paragraphs:
     text: 前条第一項に規定する場合には、新設合併消滅株式会社の株主又は新設合併消滅持分会社の社員は、新設合併設立株式会社の成立の日に、同項第七号に掲げる事項についての定めに従い、同項第六号の株式の株主となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -46,17 +46,17 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-754-p3-kou-1
     type: kou
-    text: 前条第一項第八号イに掲げる事項についての定めがある場合　同号イの社債の社債権者
+    text: 一　前条第一項第八号イに掲げる事項についての定めがある場合　同号イの社債の社債権者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-754-p3-kou-2
     type: kou
-    text: 前条第一項第八号ロに掲げる事項についての定めがある場合　同号ロの新株予約権の新株予約権者
+    text: 二　前条第一項第八号ロに掲げる事項についての定めがある場合　同号ロの新株予約権の新株予約権者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-754-p3-kou-3
     type: kou
-    text: 前条第一項第八号ハに掲げる事項についての定めがある場合　同号ハの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
+    text: 三　前条第一項第八号ハに掲げる事項についての定めがある場合　同号ハの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
     modality: unspecified
     item_number: 3
 - number: 4
@@ -78,8 +78,8 @@ paragraphs:
     text: 前条第一項第十号イに規定する場合には、新設合併消滅株式会社の新株予約権の新株予約権者は、新設合併設立株式会社の成立の日に、同項第十一号に掲げる事項についての定めに従い、同項第十号イの新設合併設立株式会社の新株予約権の新株予約権者となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

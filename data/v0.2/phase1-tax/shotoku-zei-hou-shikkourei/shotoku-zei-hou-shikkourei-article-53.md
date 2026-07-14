@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-53-p1-kou-1
     type: kou
-    text: 納税義務者とまだ婚姻の届出をしないが事実上婚姻関係と同様の事情にある者
+    text: 一　納税義務者とまだ婚姻の届出をしないが事実上婚姻関係と同様の事情にある者
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-53-p1-kou-2
     type: kou
-    text: 納税義務者の使用人
+    text: 二　納税義務者の使用人
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-53-p1-kou-3
     type: kou
-    text: 前二号に掲げる者及び納税義務者の親族以外の者で納税義務者から受ける金銭その他の資産によつて生計を維持しているもの
+    text: 三　前二号に掲げる者及び納税義務者の親族以外の者で納税義務者から受ける金銭その他の資産によつて生計を維持しているもの
     modality: unspecified
     item_number: 3
 cases: []

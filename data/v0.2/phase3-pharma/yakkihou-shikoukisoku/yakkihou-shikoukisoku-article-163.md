@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-163-p2-kou-1
     type: kou
-    text: 営業所の名称及び所在地
+    text: 一　営業所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-163-p2-kou-2
     type: kou
-    text: 当該営業所において第百七十五条第一項に規定する特定管理医療機器を販売提供等する場合にあつては、同条第二項に規定する特定管理医療機器営業所管理者等の氏名及び住所
+    text: 二　当該営業所において第百七十五条第一項に規定する特定管理医療機器を販売提供等する場合にあつては、同条第二項に規定する特定管理医療機器営業所管理者等の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-163-p2-kou-3
     type: kou
-    text: 営業所（管理医療機器プログラムのみを取り扱う営業所を除く。次項において同じ。）の構造設備の概要
+    text: 三　営業所（管理医療機器プログラムのみを取り扱う営業所を除く。次項において同じ。）の構造設備の概要
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-163-p2-kou-4
     type: kou
-    text: 兼営事業の種類
+    text: 四　兼営事業の種類
     modality: unspecified
     item_number: 4
 - number: 3

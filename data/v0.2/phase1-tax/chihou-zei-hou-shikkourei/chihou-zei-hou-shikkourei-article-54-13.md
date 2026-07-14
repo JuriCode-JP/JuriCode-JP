@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-54-13-p1-kou-1
     type: kou
-    text: 法第五百八十六条第二項第一号イ、ハ又はニに掲げる区域　一の工業生産設備（ガスの製造又は発電に係る設備を含む。次号において同じ。）で、これを構成する減価償却資産（所得税法施行令第六条第一号から第七号まで又は法人税法施行令第十三条第一号から第七号までに掲げるものに限る。以下この項において同じ。）の取得価額の合計額が八億円を超え、かつ、これを当該事業の用に供したことに伴つて増加する雇用者（日々雇い入れられる者を除く。）の数が五十人を超えるもの
+    text: 一　法第五百八十六条第二項第一号イ、ハ又はニに掲げる区域　一の工業生産設備（ガスの製造又は発電に係る設備を含む。次号において同じ。）で、これを構成する減価償却資産（所得税法施行令第六条第一号から第七号まで又は法人税法施行令第十三条第一号から第七号までに掲げるものに限る。以下この項において同じ。）の取得価額の合計額が八億円を超え、かつ、これを当該事業の用に供したことに伴つて増加する雇用者（日々雇い入れられる者を除く。）の数が五十人を超えるもの
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-13-p1-kou-2
     type: kou
-    text: 法第五百八十六条第二項第一号ロに掲げる地区　一の工業生産設備で、これを構成する減価償却資産の取得価額の合計額が三千二百万円を超えるもの
+    text: 二　法第五百八十六条第二項第一号ロに掲げる地区　一の工業生産設備で、これを構成する減価償却資産の取得価額の合計額が三千二百万円を超えるもの
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,17 +42,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-54-13-p2-kou-1
     type: kou
-    text: 法第五百八十六条第二項第一号イに掲げる区域　当該区域において当該区域の指定の日から三年以内に土地を取得し、かつ、当該土地の上に前項第一号に規定する設備を新設し、又は増設した者
+    text: 一　法第五百八十六条第二項第一号イに掲げる区域　当該区域において当該区域の指定の日から三年以内に土地を取得し、かつ、当該土地の上に前項第一号に規定する設備を新設し、又は増設した者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-13-p2-kou-2
     type: kou
-    text: 法第五百八十六条第二項第一号ロに掲げる地区　当該地区において土地を取得し、かつ、当該土地の上に前項第二号に規定する設備を新設し、又は増設した者
+    text: 二　法第五百八十六条第二項第一号ロに掲げる地区　当該地区において土地を取得し、かつ、当該土地の上に前項第二号に規定する設備を新設し、又は増設した者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-54-13-p2-kou-3
     type: kou
-    text: 法第五百八十六条第二項第一号ハ又はニに掲げる区域　当該区域において土地を取得し、かつ、当該土地の上に前項第一号に規定する設備を新設し、又は増設した者
+    text: 三　法第五百八十六条第二項第一号ハ又はニに掲げる区域　当該区域において土地を取得し、かつ、当該土地の上に前項第一号に規定する設備を新設し、又は増設した者
     modality: unspecified
     item_number: 3
 - number: 3
@@ -66,32 +66,32 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-54-13-p3-kou-1
     type: kou
-    text: 工場用の建物内における生産工程と密接不可分な工業生産設備（ガスの製造又は発電に係る設備を含む。）
+    text: 一　工場用の建物内における生産工程と密接不可分な工業生産設備（ガスの製造又は発電に係る設備を含む。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-13-p3-kou-2
     type: kou
-    text: 原材料の搬入、貯蔵又は前処理のための施設
+    text: 二　原材料の搬入、貯蔵又は前処理のための施設
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-54-13-p3-kou-3
     type: kou
-    text: 製品の貯蔵又は搬出のための施設
+    text: 三　製品の貯蔵又は搬出のための施設
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-54-13-p3-kou-4
     type: kou
-    text: 廃棄物処理施設
+    text: 四　廃棄物処理施設
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-54-13-p3-kou-5
     type: kou
-    text: 試験研究のための施設
+    text: 五　試験研究のための施設
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-54-13-p3-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、総務省令で定める施設
+    text: 六　前各号に掲げるもののほか、総務省令で定める施設
     modality: unspecified
     item_number: 6
 cases: []

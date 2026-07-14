@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-33-p2-kou-1
     type: kou
-    text: たな卸資産（これに準ずる資産として政令で定めるものを含む。）の譲渡その他営利を目的として継続的に行なわれる資産の譲渡による所得
+    text: 一　たな卸資産（これに準ずる資産として政令で定めるものを含む。）の譲渡その他営利を目的として継続的に行なわれる資産の譲渡による所得
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-33-p2-kou-2
     type: kou
-    text: 前号に該当するもののほか、山林の伐採又は譲渡による所得
+    text: 二　前号に該当するもののほか、山林の伐採又は譲渡による所得
     modality: unspecified
     item_number: 2
 - number: 3
@@ -51,12 +51,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-33-p3-kou-1
     type: kou
-    text: 資産の譲渡（前項の規定に該当するものを除く。次号において同じ。）でその資産の取得の日以後五年以内にされたものによる所得（政令で定めるものを除く。）
+    text: 一　資産の譲渡（前項の規定に該当するものを除く。次号において同じ。）でその資産の取得の日以後五年以内にされたものによる所得（政令で定めるものを除く。）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-33-p3-kou-2
     type: kou
-    text: 資産の譲渡による所得で前号に掲げる所得以外のもの
+    text: 二　資産の譲渡による所得で前号に掲げる所得以外のもの
     modality: unspecified
     item_number: 2
 - number: 4

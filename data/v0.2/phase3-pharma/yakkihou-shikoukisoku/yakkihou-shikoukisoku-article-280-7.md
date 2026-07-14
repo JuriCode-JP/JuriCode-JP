@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-280-7-p1-kou-1
     type: kou
-    text: 登録番号及び登録年月日
+    text: 一　登録番号及び登録年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-280-7-p1-kou-2
     type: kou
-    text: 原薬等登録業者の氏名及び住所
+    text: 二　原薬等登録業者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-280-7-p1-kou-3
     type: kou
-    text: 当該品目の名称
+    text: 三　当該品目の名称
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-280-7-p1-kou-4
     type: kou
-    text: 当該品目の製造所の名称及び所在地
+    text: 四　当該品目の製造所の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-280-7-p1-kou-5
     type: kou
-    text: 原薬等登録業者が医薬品、医療機器若しくは再生医療等製品の製造業の許可若しくは登録又は医薬品等外国製造業者、医療機器等外国製造業者若しくは再生医療等製品外国製造業者の認定若しくは登録を受けているときは、当該の許可の区分及び許可番号、登録番号又は認定の区分及び認定番号
+    text: 五　原薬等登録業者が医薬品、医療機器若しくは再生医療等製品の製造業の許可若しくは登録又は医薬品等外国製造業者、医療機器等外国製造業者若しくは再生医療等製品外国製造業者の認定若しくは登録を受けているときは、当該の許可の区分及び許可番号、登録番号又は認定の区分及び認定番号
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-280-7-p1-kou-6
     type: kou
-    text: 外国において原薬等を製造する者にあつては、原薬等国内管理人の氏名及び住所
+    text: 六　外国において原薬等を製造する者にあつては、原薬等国内管理人の氏名及び住所
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-280-7-p1-kou-7
     type: kou
-    text: 当該品目の登録内容の概要
+    text: 七　当該品目の登録内容の概要
     modality: unspecified
     item_number: 7
 - number: 2
@@ -66,8 +66,8 @@ paragraphs:
     text: 厚生労働大臣が法第八十条の十第一項の規定により機構に登録等を行わせることとした場合における前項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

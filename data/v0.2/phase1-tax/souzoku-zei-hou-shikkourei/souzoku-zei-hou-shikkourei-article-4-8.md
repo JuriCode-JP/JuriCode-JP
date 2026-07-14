@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-4-8-p1-kou-1
     type: kou
-    text: 所得税法施行令第十条第一項第一号及び第二号（障害者及び特別障害者の範囲）に掲げる者
+    text: 一　所得税法施行令第十条第一項第一号及び第二号（障害者及び特別障害者の範囲）に掲げる者
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-4-8-p1-kou-2
     type: kou
-    text: 所得税法施行令第十条第一項第七号に掲げる者のうち、その障害の程度が同項第一号に掲げる者に準ずるものとして同項第七号に規定する市町村長等の認定を受けている者
+    text: 二　所得税法施行令第十条第一項第七号に掲げる者のうち、その障害の程度が同項第一号に掲げる者に準ずるものとして同項第七号に規定する市町村長等の認定を受けている者
     modality: unspecified
     item_number: 2
 cases: []

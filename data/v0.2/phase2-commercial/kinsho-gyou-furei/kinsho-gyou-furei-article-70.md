@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-70-p1-kou-1
     type: kou
-    text: 商号
+    text: 一　商号
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-70-p1-kou-2
     type: kou
-    text: 登録年月日及び登録番号
+    text: 二　登録年月日及び登録番号
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-70-p1-kou-3
     type: kou
-    text: 承認を受けようとする業務の種類
+    text: 三　承認を受けようとする業務の種類
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-70-p1-kou-4
     type: kou
-    text: 当該業務の開始予定年月日
+    text: 四　当該業務の開始予定年月日
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,34 +54,34 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-70-p2-kou-1
     type: kou
-    text: 当該業務の内容及び方法
+    text: 一　当該業務の内容及び方法
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-70-p2-kou-2
     type: kou
-    text: '当該業務に係る損失の危険の管理方法に関する次に掲げる事項
+    text: '二　当該業務に係る損失の危険の管理方法に関する次に掲げる事項
 
-      イ 当該業務に係る損失の危険相当額（第一種金融商品取引業を行う者にあっては、第百七十八条第一項第一号に規定する市場リスク相当額、同項第二号に規定する取引先リスク相当額及び同項第三号に規定する基礎的リスク相当額を含む。以下この号において同じ。）の算定方法
+      イ　当該業務に係る損失の危険相当額（第一種金融商品取引業を行う者にあっては、第百七十八条第一項第一号に規定する市場リスク相当額、同項第二号に規定する取引先リスク相当額及び同項第三号に規定する基礎的リスク相当額を含む。以下この号において同じ。）の算定方法
 
-      ロ 当該業務に係る損失の危険相当額の限度枠の設定及び適用方法
+      ロ　当該業務に係る損失の危険相当額の限度枠の設定及び適用方法
 
-      ハ 当該業務に係る損失の危険相当額の算定及び限度枠の管理を行う部署の名称及び体制
+      ハ　当該業務に係る損失の危険相当額の算定及び限度枠の管理を行う部署の名称及び体制
 
-      ニ 当該業務に係る損失の危険相当額の算定の基礎となる資料の作成及び保存の方法
+      ニ　当該業務に係る損失の危険相当額の算定の基礎となる資料の作成及び保存の方法
 
-      ホ 当該業務に係る損失の危険相当額及びその限度枠の適用状況について、検査を行う頻度、部署の名称及び体制
+      ホ　当該業務に係る損失の危険相当額及びその限度枠の適用状況について、検査を行う頻度、部署の名称及び体制
 
-      ヘ その他当該業務に係る損失の危険の管理に関する重要な事項'
+      ヘ　その他当該業務に係る損失の危険の管理に関する重要な事項'
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-70-p2-kou-3
     type: kou
-    text: 当該業務を所掌する組織及び人員配置
+    text: 三　当該業務を所掌する組織及び人員配置
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-70-p2-kou-4
     type: kou
-    text: 当該業務の運営に関する社内規則
+    text: 四　当該業務の運営に関する社内規則
     modality: unspecified
     item_number: 4
 cases: []

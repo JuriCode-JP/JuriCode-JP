@@ -22,8 +22,8 @@ paragraphs:
     text: 基準日において株主名簿に記載され、又は記録されている株主（種類株式発行会社にあっては、基準日において株主名簿に記載され、又は記録されている前条第二項第三号の種類の種類株主）は、同項第二号の日に、基準日に有する株式（種類株式発行会社にあっては、同項第三号の種類の株式。以下この項において同じ。）の数に同条第二項第一号の割合を乗じて得た数の株式を取得する。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -37,8 +37,8 @@ paragraphs:
     override_target:
     - 第四百六十六条
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-112-p1-kou-1
     type: kou
-    text: 信託会社（信託業法第三条又は第五十三条第一項の免許を受けたものに限る。）
+    text: 一　信託会社（信託業法第三条又は第五十三条第一項の免許を受けたものに限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-112-p1-kou-2
     type: kou
-    text: 信用協同組合及び信用協同組合連合会並びに業として貯金の受入れを行う農業協同組合、農業協同組合連合会、漁業協同組合、漁業協同組合連合会、水産加工業協同組合及び水産加工業協同組合連合会
+    text: 二　信用協同組合及び信用協同組合連合会並びに業として貯金の受入れを行う農業協同組合、農業協同組合連合会、漁業協同組合、漁業協同組合連合会、水産加工業協同組合及び水産加工業協同組合連合会
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-112-p1-kou-3
     type: kou
-    text: 商品先物取引法第二条第二十三項に規定する商品先物取引業者
+    text: 三　商品先物取引法第二条第二十三項に規定する商品先物取引業者
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-112-p1-kou-4
     type: kou
-    text: 商品投資に係る事業の規制に関する法律第二条第四項に規定する商品投資顧問業者
+    text: 四　商品投資に係る事業の規制に関する法律第二条第四項に規定する商品投資顧問業者
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-112-p1-kou-5
     type: kou
-    text: 金融商品取引業者（第二種金融商品取引業を行う者に限り、適格機関投資家を除く。）
+    text: 五　金融商品取引業者（第二種金融商品取引業を行う者に限り、適格機関投資家を除く。）
     modality: unspecified
     item_number: 5
 cases: []

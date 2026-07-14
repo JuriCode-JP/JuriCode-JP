@@ -52,17 +52,17 @@ paragraphs:
     modality: jogai
   - id: dokusen-kinshi-hou-art-9-p4-kou-1
     type: kou
-    text: 子会社の株式の取得価額（最終の貸借対照表において別に付した価額があるときは、その価額）の合計額の当該会社の総資産の額に対する割合が百分の五十を超える会社（次号において「持株会社」という。）　六千億円
+    text: 一　子会社の株式の取得価額（最終の貸借対照表において別に付した価額があるときは、その価額）の合計額の当該会社の総資産の額に対する割合が百分の五十を超える会社（次号において「持株会社」という。）　六千億円
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-9-p4-kou-2
     type: kou
-    text: 銀行業、保険業又は第一種金融商品取引業（金融商品取引法（昭和二十三年法律第二十五号）第二十八条第一項に規定する第一種金融商品取引業をいう。次条第三項及び第四項において同じ。）を営む会社（持株会社を除く。）　八兆円
+    text: 二　銀行業、保険業又は第一種金融商品取引業（金融商品取引法（昭和二十三年法律第二十五号）第二十八条第一項に規定する第一種金融商品取引業をいう。次条第三項及び第四項において同じ。）を営む会社（持株会社を除く。）　八兆円
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-9-p4-kou-3
     type: kou
-    text: 前二号に掲げる会社以外の会社　二兆円
+    text: 三　前二号に掲げる会社以外の会社　二兆円
     modality: unspecified
     item_number: 3
 - number: 5

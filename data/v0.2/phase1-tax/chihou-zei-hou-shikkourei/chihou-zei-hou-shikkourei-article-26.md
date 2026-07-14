@@ -30,12 +30,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-26-p1-kou-1
     type: kou
-    text: 当該中間納付額について納付された延滞金額
+    text: 一　当該中間納付額について納付された延滞金額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-26-p1-kou-2
     type: kou
-    text: 当該中間納付額のうち納付の順序に従い当該中間納付額に係る事業年度の法第七十二条の二十八第二項の申告書に記載された事業税額（次条第一項第一号の規定により充当される金額があるときは、これを加算した金額）に達するまで順次求めた各中間納付額につき、法の規定により計算される延滞金額の合計額
+    text: 二　当該中間納付額のうち納付の順序に従い当該中間納付額に係る事業年度の法第七十二条の二十八第二項の申告書に記載された事業税額（次条第一項第一号の規定により充当される金額があるときは、これを加算した金額）に達するまで順次求めた各中間納付額につき、法の規定により計算される延滞金額の合計額
     modality: unspecified
     item_number: 2
 cases: []

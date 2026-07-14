@@ -33,8 +33,8 @@ paragraphs:
     text: 財産形成非課税住宅貯蓄廃止申告書が前項の金融機関の営業所等に受理されたときは、当該申告書は、その受理された日に同項に規定する税務署長に提出されたものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

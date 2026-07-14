@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定は、同項の会員等から有価証券等清算取次ぎの委託を受けて第百五十六条の七第二項第三号に規定する清算参加者が内閣府令で定める取引を行う場合には、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

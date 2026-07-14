@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-shikoukisoku-art-211-p1-kou-1
     type: kou
-    text: 二ミリリットル以下のアンプル又はこれと同等の大きさの直接の容器若しくは直接の被包に収められた医薬品
+    text: 一　二ミリリットル以下のアンプル又はこれと同等の大きさの直接の容器若しくは直接の被包に収められた医薬品
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-211-p1-kou-2
     type: kou
-    text: 二ミリリットルを超え十ミリリットル以下のアンプル若しくはこれと同等の大きさのガラスその他これに類する材質からなる直接の容器で、その記載事項がその容器に直接印刷されているものに収められた医薬品
+    text: 二　二ミリリットルを超え十ミリリットル以下のアンプル若しくはこれと同等の大きさのガラスその他これに類する材質からなる直接の容器で、その記載事項がその容器に直接印刷されているものに収められた医薬品
     modality: unspecified
     item_number: 2
 - number: 2

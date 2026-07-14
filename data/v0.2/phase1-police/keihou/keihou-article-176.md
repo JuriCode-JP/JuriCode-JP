@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu_kei
   - id: keihou-art-176-p1-kou-1
     type: kou
-    text: 暴行若しくは脅迫を用いること又はそれらを受けたこと。
+    text: 一　暴行若しくは脅迫を用いること又はそれらを受けたこと。
     modality: unspecified
     item_number: 1
   - id: keihou-art-176-p1-kou-2
     type: kou
-    text: 心身の障害を生じさせること又はそれがあること。
+    text: 二　心身の障害を生じさせること又はそれがあること。
     modality: unspecified
     item_number: 2
   - id: keihou-art-176-p1-kou-3
     type: kou
-    text: アルコール若しくは薬物を摂取させること又はそれらの影響があること。
+    text: 三　アルコール若しくは薬物を摂取させること又はそれらの影響があること。
     modality: unspecified
     item_number: 3
   - id: keihou-art-176-p1-kou-4
     type: kou
-    text: 睡眠その他の意識が明瞭でない状態にさせること又はその状態にあること。
+    text: 四　睡眠その他の意識が明瞭でない状態にさせること又はその状態にあること。
     modality: unspecified
     item_number: 4
   - id: keihou-art-176-p1-kou-5
     type: kou
-    text: 同意しない意思を形成し、表明し又は全うするいとまがないこと。
+    text: 五　同意しない意思を形成し、表明し又は全うするいとまがないこと。
     modality: unspecified
     item_number: 5
   - id: keihou-art-176-p1-kou-6
     type: kou
-    text: 予想と異なる事態に直面させて恐怖させ、若しくは驚愕がくさせること又はその事態に直面して恐怖し、若しくは驚愕していること。
+    text: 六　予想と異なる事態に直面させて恐怖させ、若しくは驚愕させること又はその事態に直面して恐怖し、若しくは驚愕していること。
     modality: unspecified
     item_number: 6
   - id: keihou-art-176-p1-kou-7
     type: kou
-    text: 虐待に起因する心理的反応を生じさせること又はそれがあること。
+    text: 七　虐待に起因する心理的反応を生じさせること又はそれがあること。
     modality: unspecified
     item_number: 7
   - id: keihou-art-176-p1-kou-8
     type: kou
-    text: 経済的又は社会的関係上の地位に基づく影響力によって受ける不利益を憂慮させること又はそれを憂慮していること。
+    text: 八　経済的又は社会的関係上の地位に基づく影響力によって受ける不利益を憂慮させること又はそれを憂慮していること。
     modality: unspecified
     item_number: 8
 - number: 2
@@ -111,7 +111,7 @@ parent_section:
 
 五　同意しない意思を形成し、表明し又は全うするいとまがないこと。
 
-六　予想と異なる事態に直面させて恐怖させ、若しくは驚愕がくさせること又はその事態に直面して恐怖し、若しくは驚愕していること。
+六　予想と異なる事態に直面させて恐怖させ、若しくは驚愕させること又はその事態に直面して恐怖し、若しくは驚愕していること。
 
 七　虐待に起因する心理的反応を生じさせること又はそれがあること。
 

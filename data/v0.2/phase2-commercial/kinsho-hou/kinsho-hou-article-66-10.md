@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-66-10-p1-kou-1
     type: kou
-    text: 当該金融商品仲介業者の商号、名称又は氏名
+    text: 一　当該金融商品仲介業者の商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-10-p1-kou-2
     type: kou
-    text: 金融商品仲介業者である旨及び当該金融商品仲介業者の登録番号
+    text: 二　金融商品仲介業者である旨及び当該金融商品仲介業者の登録番号
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-10-p1-kou-3
     type: kou
-    text: 当該金融商品仲介業者の行う金融商品仲介業の内容に関する事項であつて、顧客の判断に影響を及ぼすこととなる重要なものとして政令で定めるもの
+    text: 三　当該金融商品仲介業者の行う金融商品仲介業の内容に関する事項であつて、顧客の判断に影響を及ぼすこととなる重要なものとして政令で定めるもの
     modality: unspecified
     item_number: 3
 - number: 2

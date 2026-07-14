@@ -51,8 +51,8 @@ paragraphs:
     text: 前項の協議が調わないとき、又は協議をすることができないときは、家庭裁判所は、同項の父若しくは母又は養親の請求によって、協議に代わる審判をすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: minpou-art-811-p4-kou
     type: kou_dan
     text: この場合においては、第八百十九条第七項の規定を準用する。

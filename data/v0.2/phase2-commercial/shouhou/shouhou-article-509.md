@@ -31,8 +31,8 @@ paragraphs:
     text: 商人が前項の通知を発することを怠ったときは、その商人は、同項の契約の申込みを承諾したものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

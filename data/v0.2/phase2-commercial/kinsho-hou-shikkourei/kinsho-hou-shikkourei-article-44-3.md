@@ -61,8 +61,8 @@ paragraphs:
     text: 前項に規定する権限のうち、居住者に係るものについては、同項に規定する財務局長又は福岡財務支局長のほか、内閣府令で定める財務局長又は財務支局長も行うことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

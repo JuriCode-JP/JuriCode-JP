@@ -25,22 +25,22 @@ paragraphs:
     - 同項
   - id: shouhi-zei-hou-shikoukisoku-art-13-p1-kou-1
     type: kou
-    text: 届出者の氏名及び納税地
+    text: 一　届出者の氏名及び納税地
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-13-p1-kou-2
     type: kou
-    text: 法第十九条第二項に規定する翌期間の初日の年月日
+    text: 二　法第十九条第二項に規定する翌期間の初日の年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-13-p1-kou-3
     type: kou
-    text: 現に適用を受けている法第十九条第一項第三号又は第三号の二の規定による届出書を提出した年月日及びその届出の効力が生じた年月日
+    text: 三　現に適用を受けている法第十九条第一項第三号又は第三号の二の規定による届出書を提出した年月日及びその届出の効力が生じた年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-13-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -56,32 +56,32 @@ paragraphs:
     - 同項
   - id: shouhi-zei-hou-shikoukisoku-art-13-p2-kou-1
     type: kou
-    text: 届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+    text: 一　届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-13-p2-kou-2
     type: kou
-    text: 事業年度の開始及び終了の日
+    text: 二　事業年度の開始及び終了の日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-13-p2-kou-3
     type: kou
-    text: 法第十九条第一項第四号又は第四号の二に定める各期間
+    text: 三　法第十九条第一項第四号又は第四号の二に定める各期間
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-13-p2-kou-4
     type: kou
-    text: 法第十九条第二項に規定する翌期間の初日の年月日
+    text: 四　法第十九条第二項に規定する翌期間の初日の年月日
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-13-p2-kou-5
     type: kou
-    text: 現に適用を受けている法第十九条第一項第四号又は第四号の二の規定による届出書を提出した年月日及びその届出の効力が生じた年月日
+    text: 五　現に適用を受けている法第十九条第一項第四号又は第四号の二の規定による届出書を提出した年月日及びその届出の効力が生じた年月日
     modality: unspecified
     item_number: 5
   - id: shouhi-zei-hou-shikoukisoku-art-13-p2-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 3
@@ -95,22 +95,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-13-p3-kou-1
     type: kou
-    text: 届出者の氏名及び納税地
+    text: 一　届出者の氏名及び納税地
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-13-p3-kou-2
     type: kou
-    text: 現に適用を受けている法第十九条第一項第三号又は第三号の二の規定による届出書を提出した年月日及びその届出の効力が生じた年月日
+    text: 二　現に適用を受けている法第十九条第一項第三号又は第三号の二の規定による届出書を提出した年月日及びその届出の効力が生じた年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-13-p3-kou-3
     type: kou
-    text: 法第十九条第四項に規定する課税期間の末日の翌日の年月日
+    text: 三　法第十九条第四項に規定する課税期間の末日の翌日の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-13-p3-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 4
@@ -124,27 +124,27 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-13-p4-kou-1
     type: kou
-    text: 届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+    text: 一　届出者の名称、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-13-p4-kou-2
     type: kou
-    text: 法第十九条第一項第四号又は第四号の二に定める各期間
+    text: 二　法第十九条第一項第四号又は第四号の二に定める各期間
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-13-p4-kou-3
     type: kou
-    text: 現に適用を受けている法第十九条第一項第四号又は第四号の二の規定による届出書を提出した年月日及びその届出の効力が生じた年月日
+    text: 三　現に適用を受けている法第十九条第一項第四号又は第四号の二の規定による届出書を提出した年月日及びその届出の効力が生じた年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-13-p4-kou-4
     type: kou
-    text: 法第十九条第四項に規定する課税期間の末日の翌日の年月日
+    text: 四　法第十九条第四項に規定する課税期間の末日の翌日の年月日
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-13-p4-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 5
@@ -158,17 +158,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-13-p5-kou-1
     type: kou
-    text: 届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-13-p5-kou-2
     type: kou
-    text: 事業を廃止した年月日
+    text: 二　事業を廃止した年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-13-p5-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

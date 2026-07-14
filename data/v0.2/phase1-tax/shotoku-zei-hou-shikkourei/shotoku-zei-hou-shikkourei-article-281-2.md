@@ -23,21 +23,21 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-281-2-p1-kou-1
     type: kou
-    text: 投資事業有限責任組合契約に関する法律第三条第一項（投資事業有限責任組合契約）に規定する投資事業有限責任組合契約
+    text: 一　投資事業有限責任組合契約に関する法律第三条第一項（投資事業有限責任組合契約）に規定する投資事業有限責任組合契約
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-281-2-p1-kou-2
     type: kou
-    text: 有限責任事業組合契約に関する法律第三条第一項（有限責任事業組合契約）に規定する有限責任事業組合契約
+    text: 二　有限責任事業組合契約に関する法律第三条第一項（有限責任事業組合契約）に規定する有限責任事業組合契約
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-281-2-p1-kou-3
     type: kou
-    text: '外国における次に掲げる契約に類する契約
+    text: '三　外国における次に掲げる契約に類する契約
 
-      イ 民法第六百六十七条第一項（組合契約）に規定する組合契約
+      イ　民法第六百六十七条第一項（組合契約）に規定する組合契約
 
-      ロ 前二号に掲げる契約'
+      ロ　前二号に掲げる契約'
     modality: unspecified
     item_number: 3
 - number: 2

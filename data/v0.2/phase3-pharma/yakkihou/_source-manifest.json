@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\335AC0000000145.xml",
   "source_xml_sha256": "b164b067f172d6e5ef43936a3af16b217a3a59ef1300fa689f0b024e3d56c281",
   "source_xml_bytes": 1498782,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:59:10+00:00",
+  "parsed_at": "2026-07-14T01:45:18+00:00",
   "version_date": "1960-08-10",
   "article_count": 356,
   "articles": [
@@ -338,8 +338,8 @@
       "article_id": "yakkihou-art-2",
       "article_number": "2",
       "filename": "yakkihou-article-2.md",
-      "ja_text_sha256": "c0bab47bdfbc8428139bb260c99e3f164abe32b4fecfa8a08b4eca476f504c18",
-      "ja_text_bytes": 10535,
+      "ja_text_sha256": "00495148acbaf4faf6de0ae4313a8fc9d45e8ad6e76025f9e59cc30a8dd0b428",
+      "ja_text_bytes": 10529,
       "paragraph_count": 19
     },
     {
@@ -2234,8 +2234,8 @@
       "article_id": "yakkihou-art-75",
       "article_number": "75",
       "filename": "yakkihou-article-75.md",
-      "ja_text_sha256": "19358491188f70473379466f19496734e81ad7ad728f4a0295eb2cc0ce760f0f",
-      "ja_text_bytes": 5510,
+      "ja_text_sha256": "f92bd8b00ec961d774f406fb24fe2ee5627ac55a541a9107b8620bbb90eb3977",
+      "ja_text_bytes": 5483,
       "paragraph_count": 5
     },
     {

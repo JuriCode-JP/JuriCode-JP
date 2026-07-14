@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の場合において、同項に規定する者を立ち会わせることができないときは、その隣人で成年に達した者又はその地の警察官若しくは地方公共団体の職員を立ち会わせなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

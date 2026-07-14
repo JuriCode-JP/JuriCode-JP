@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-465-4-p1-kou-1
     type: kou
-    text: 債権者が、保証人の財産について、金銭の支払を目的とする債権についての強制執行又は担保権の実行を申し立てたとき。
+    text: 一　債権者が、保証人の財産について、金銭の支払を目的とする債権についての強制執行又は担保権の実行を申し立てたとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-465-4-p1-kou-2
     type: kou
-    text: 保証人が破産手続開始の決定を受けたとき。
+    text: 二　保証人が破産手続開始の決定を受けたとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-465-4-p1-kou-3
     type: kou
-    text: 主たる債務者又は保証人が死亡したとき。
+    text: 三　主たる債務者又は保証人が死亡したとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,12 +49,12 @@ paragraphs:
     - 前項
   - id: minpou-art-465-4-p2-kou-1
     type: kou
-    text: 債権者が、主たる債務者の財産について、金銭の支払を目的とする債権についての強制執行又は担保権の実行を申し立てたとき。
+    text: 一　債権者が、主たる債務者の財産について、金銭の支払を目的とする債権についての強制執行又は担保権の実行を申し立てたとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-465-4-p2-kou-2
     type: kou
-    text: 主たる債務者が破産手続開始の決定を受けたとき。
+    text: 二　主たる債務者が破産手続開始の決定を受けたとき。
     modality: unspecified
     item_number: 2
 cases: []

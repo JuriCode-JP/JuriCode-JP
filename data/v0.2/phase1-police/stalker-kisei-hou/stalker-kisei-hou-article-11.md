@@ -23,22 +23,22 @@ paragraphs:
     modality: doryoku_gimu
   - id: stalker-kisei-hou-art-11-p1-kou-1
     type: kou
-    text: ストーカー行為等の実態の把握
+    text: 一　ストーカー行為等の実態の把握
     modality: unspecified
     item_number: 1
   - id: stalker-kisei-hou-art-11-p1-kou-2
     type: kou
-    text: 人材の養成及び資質の向上
+    text: 二　人材の養成及び資質の向上
     modality: unspecified
     item_number: 2
   - id: stalker-kisei-hou-art-11-p1-kou-3
     type: kou
-    text: 教育活動、広報活動等を通じた知識の普及及び啓発
+    text: 三　教育活動、広報活動等を通じた知識の普及及び啓発
     modality: unspecified
     item_number: 3
   - id: stalker-kisei-hou-art-11-p1-kou-4
     type: kou
-    text: 民間の自主的な組織活動との連携協力及びその支援
+    text: 四　民間の自主的な組織活動との連携協力及びその支援
     modality: unspecified
     item_number: 4
 cases: []

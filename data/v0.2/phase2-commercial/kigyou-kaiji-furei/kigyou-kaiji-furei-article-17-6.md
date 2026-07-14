@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-17-6-p1-kou-1
     type: kou
-    text: 公告をする者の商号又は名称
+    text: 一　公告をする者の商号又は名称
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-17-6-p1-kou-2
     type: kou
-    text: 公告をする者の本店又は主たる事務所の所在地
+    text: 二　公告をする者の本店又は主たる事務所の所在地
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-17-6-p1-kou-3
     type: kou
-    text: 電子公告による公告をすることができない理由
+    text: 三　電子公告による公告をすることができない理由
     modality: unspecified
     item_number: 3
   - id: kigyou-kaiji-furei-art-17-6-p1-kou-4
     type: kou
-    text: 電子公告に代えて公告する方法
+    text: 四　電子公告に代えて公告する方法
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,12 +52,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-17-6-p2-kou-1
     type: kou
-    text: 全国において時事に関する事項を掲載する日刊新聞紙に掲載する方法
+    text: 一　全国において時事に関する事項を掲載する日刊新聞紙に掲載する方法
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-17-6-p2-kou-2
     type: kou
-    text: 金融庁長官が指定する方法
+    text: 二　金融庁長官が指定する方法
     modality: unspecified
     item_number: 2
 cases: []

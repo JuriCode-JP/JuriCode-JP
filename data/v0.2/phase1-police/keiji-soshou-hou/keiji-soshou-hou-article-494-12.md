@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定による決定をした裁判所は、当該決定を受けた者が、正当な理由がなく、これに応じないとき、又は応じないおそれがあるときは、その者を同項の規定により指定した場所に勾引することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

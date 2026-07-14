@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-42-p1-kou-1
     type: kou
-    text: 当該家屋が前条第一号又は第二号イに該当するものであること。
+    text: 一　当該家屋が前条第一号又は第二号イに該当するものであること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-42-p1-kou-2
     type: kou
-    text: 当該家屋が建築基準法施行令第三章及び第五章の四の規定若しくは国土交通大臣が財務大臣と協議して定める地震に対する安全性に係る基準に適合するものであること又は昭和五十七年一月一日以後に建築されたものであること。
+    text: 二　当該家屋が建築基準法施行令第三章及び第五章の四の規定若しくは国土交通大臣が財務大臣と協議して定める地震に対する安全性に係る基準に適合するものであること又は昭和五十七年一月一日以後に建築されたものであること。
     modality: unspecified
     item_number: 2
 - number: 2

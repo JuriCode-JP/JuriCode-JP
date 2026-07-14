@@ -29,12 +29,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-244-2-p1-kou-1
     type: kou
-    text: 当該引受人（その子会社等を含む。）がその引き受けた募集新株予約権に係る交付株式の株主となった場合に有することとなる最も多い議決権の数
+    text: 一　当該引受人（その子会社等を含む。）がその引き受けた募集新株予約権に係る交付株式の株主となった場合に有することとなる最も多い議決権の数
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-244-2-p1-kou-2
     type: kou
-    text: 前号に規定する場合における最も多い総株主の議決権の数
+    text: 二　前号に規定する場合における最も多い総株主の議決権の数
     modality: unspecified
     item_number: 2
 - number: 2

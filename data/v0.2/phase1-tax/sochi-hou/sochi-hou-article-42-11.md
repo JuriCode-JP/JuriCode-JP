@@ -28,12 +28,12 @@ paragraphs:
     - 次項
   - id: sochi-hou-art-42-11-p1-kou-1
     type: kou
-    text: 令和六年四月一日から令和十年三月三十一日までの間に取得又は製作若しくは建設をした特定機械装置等（令和六年三月三十一日以前に受けた総合特別区域法第二十六条第一項の規定による指定に係る指定法人事業実施計画に同日において記載されている特定機械装置等を除く。）　その取得価額の百分の三十（建物及びその附属設備並びに構築物については、百分の十五）に相当する金額
+    text: 一　令和六年四月一日から令和十年三月三十一日までの間に取得又は製作若しくは建設をした特定機械装置等（令和六年三月三十一日以前に受けた総合特別区域法第二十六条第一項の規定による指定に係る指定法人事業実施計画に同日において記載されている特定機械装置等を除く。）　その取得価額の百分の三十（建物及びその附属設備並びに構築物については、百分の十五）に相当する金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-42-11-p1-kou-2
     type: kou
-    text: 前号に掲げる特定機械装置等以外の特定機械装置等　その取得価額の百分の三十四（建物及びその附属設備並びに構築物については、百分の十七）に相当する金額
+    text: 二　前号に掲げる特定機械装置等以外の特定機械装置等　その取得価額の百分の三十四（建物及びその附属設備並びに構築物については、百分の十七）に相当する金額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -49,12 +49,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-art-42-11-p2-kou-1
     type: kou
-    text: 前項第一号に掲げる特定機械装置等　百分の八（建物及びその附属設備並びに構築物については、百分の四）
+    text: 一　前項第一号に掲げる特定機械装置等　百分の八（建物及びその附属設備並びに構築物については、百分の四）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-42-11-p2-kou-2
     type: kou
-    text: 前項第二号に掲げる特定機械装置等　百分の十（建物及びその附属設備並びに構築物については、百分の五）
+    text: 二　前項第二号に掲げる特定機械装置等　百分の十（建物及びその附属設備並びに構築物については、百分の五）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -77,17 +77,17 @@ paragraphs:
     modality: jogai
   - id: sochi-hou-art-42-11-p4-kou-1
     type: kou
-    text: 前条第一項又は第二項の規定
+    text: 一　前条第一項又は第二項の規定
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-42-11-p4-kou-2
     type: kou
-    text: 前条第一項の規定に係る第五十二条の二第一項又は第四項の規定
+    text: 二　前条第一項の規定に係る第五十二条の二第一項又は第四項の規定
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-42-11-p4-kou-3
     type: kou
-    text: 前条第一項の規定に係る第五十二条の三第一項から第三項まで、第十一項又は第十二項の規定
+    text: 三　前条第一項の規定に係る第五十二条の三第一項から第三項まで、第十一項又は第十二項の規定
     modality: unspecified
     item_number: 3
 - number: 5

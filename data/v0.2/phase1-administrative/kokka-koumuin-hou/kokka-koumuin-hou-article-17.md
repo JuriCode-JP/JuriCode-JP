@@ -31,8 +31,8 @@ paragraphs:
     text: 人事院又は前項の規定により指名された者は、同項の調査に関し必要があるときは、証人を喚問し、又調査すべき事項に関係があると認められる書類若しくはその写の提出を求めることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

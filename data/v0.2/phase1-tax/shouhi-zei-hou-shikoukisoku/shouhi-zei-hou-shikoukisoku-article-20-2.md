@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p1-kou-1
     type: kou
-    text: 届出者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
+    text: 一　届出者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p1-kou-2
     type: kou
-    text: 当該届出書を提出した日以後にその末日が最初に到来する六月中間申告対象期間（法第四十二条第六項に規定する六月中間申告対象期間をいう。以下この項及び次項において同じ。）の初日及び末日の年月日
+    text: 二　当該届出書を提出した日以後にその末日が最初に到来する六月中間申告対象期間（法第四十二条第六項に規定する六月中間申告対象期間をいう。以下この項及び次項において同じ。）の初日及び末日の年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p1-kou-3
     type: kou
-    text: 前号に規定する六月中間申告対象期間の属する課税期間の直前の課税期間の初日及び末日の年月日
+    text: 三　前号に規定する六月中間申告対象期間の属する課税期間の直前の課税期間の初日及び末日の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,17 +52,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p2-kou-1
     type: kou
-    text: 届出者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
+    text: 一　届出者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p2-kou-2
     type: kou
-    text: 当該届出書を提出した日以後にその末日が最初に到来する六月中間申告対象期間の初日及び末日の年月日
+    text: 二　当該届出書を提出した日以後にその末日が最初に到来する六月中間申告対象期間の初日及び末日の年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p2-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 3
@@ -76,17 +76,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p3-kou-1
     type: kou
-    text: 届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p3-kou-2
     type: kou
-    text: 事業を廃止した年月日
+    text: 二　事業を廃止した年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-20-2-p3-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

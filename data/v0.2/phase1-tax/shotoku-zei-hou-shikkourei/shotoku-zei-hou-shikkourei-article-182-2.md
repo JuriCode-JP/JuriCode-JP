@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-shikkourei-art-182-2-p2-kou-1
     type: kou
-    text: 棚卸資産に係るものである場合
+    text: 一　棚卸資産に係るものである場合
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-182-2-p2-kou-2
     type: kou
-    text: 消費税法第五条第一項（納税義務者）に規定する特定課税仕入れに係るものである場合
+    text: 二　消費税法第五条第一項（納税義務者）に規定する特定課税仕入れに係るものである場合
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-182-2-p2-kou-3
     type: kou
-    text: 二十万円未満である場合
+    text: 三　二十万円未満である場合
     modality: unspecified
     item_number: 3
 - number: 3
@@ -57,8 +57,8 @@ paragraphs:
     text: 居住者の事業所得等を生ずべき業務を行う年において生じた資産に係る控除対象外消費税額等の合計額（前二項の規定により必要経費に算入される金額を除く。以下この項及び次項において「繰延消費税額等」という。）につきその年の年分の事業所得等の金額の計算上必要経費に算入する金額は、当該繰延消費税額等を六十で除しこれにその年において当該業務を行つていた期間の月数を乗じて計算した金額の二分の一に相当する金額とする。
     modality: gimu
     references:
-    - 次項
     - 前二項
+    - 次項
 - number: 4
   has_proviso: false
   has_items: false
@@ -89,8 +89,8 @@ paragraphs:
     text: 前項に規定する課税仕入れ等の税額に係る地方消費税の額に相当する金額又は控除をすることができない金額に係る地方消費税の額に相当する金額とは、それぞれ地方消費税を税率が百分の二・二（当該課税仕入れ等の税額に係る消費税法第二条第一項第十二号に規定する課税仕入れが他の者から受けた同項第九号の二に規定する軽減対象課税資産の譲渡等に係るものである場合及び当該課税仕入れ等の税額に係る同項第十一号に規定する課税貨物が同項第十一号の二に規定する軽減対象課税貨物に該当するものである場合には、百分の一・七六）の消費税であると仮定して消費税に関する法令の規定の例により計算した場合における同法第三十条第二項に規定する課税仕入れ等の税額に相当する金額又は同条第一項の規定による控除をすることができない金額に相当する金額をいう。
     modality: teigi
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

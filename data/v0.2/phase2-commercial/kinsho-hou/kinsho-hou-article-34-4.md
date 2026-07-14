@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-34-4-p1-kou-1
     type: kou
-    text: 商法第五百三十五条に規定する匿名組合契約を締結した営業者である個人（内閣府令で定めるものを除く。）その他これに類するものとして内閣府令で定める個人
+    text: 一　商法第五百三十五条に規定する匿名組合契約を締結した営業者である個人（内閣府令で定めるものを除く。）その他これに類するものとして内閣府令で定める個人
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-34-4-p1-kou-2
     type: kou
-    text: 前号に掲げるもののほか、その知識、経験及び財産の状況に照らして特定投資家に相当する者として内閣府令で定める要件に該当する個人
+    text: 二　前号に掲げるもののほか、その知識、経験及び財産の状況に照らして特定投資家に相当する者として内閣府令で定める要件に該当する個人
     modality: unspecified
     item_number: 2
 - number: 2

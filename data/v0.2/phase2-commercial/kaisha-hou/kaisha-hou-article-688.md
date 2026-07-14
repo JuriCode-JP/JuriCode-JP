@@ -31,8 +31,8 @@ paragraphs:
     text: 当該社債について社債券を発行する旨の定めがある場合における前項の規定の適用については、同項中「社債発行会社その他の第三者」とあるのは、「社債発行会社」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

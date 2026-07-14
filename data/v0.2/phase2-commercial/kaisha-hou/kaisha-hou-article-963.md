@@ -61,17 +61,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-963-p5-kou-1
     type: kou
-    text: 何人の名義をもってするかを問わず、株式会社の計算において不正にその株式を取得したとき。
+    text: 一　何人の名義をもってするかを問わず、株式会社の計算において不正にその株式を取得したとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-963-p5-kou-2
     type: kou
-    text: 法令又は定款の規定に違反して、剰余金の配当をしたとき。
+    text: 二　法令又は定款の規定に違反して、剰余金の配当をしたとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-963-p5-kou-3
     type: kou
-    text: 株式会社の目的の範囲外において、投機取引のために株式会社の財産を処分したとき。
+    text: 三　株式会社の目的の範囲外において、投機取引のために株式会社の財産を処分したとき。
     modality: unspecified
     item_number: 3
 cases: []

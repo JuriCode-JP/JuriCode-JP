@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-480-p1-kou-1
     type: kou
-    text: 監査役を置く旨の定款の定めを廃止する定款の変更
+    text: 一　監査役を置く旨の定款の定めを廃止する定款の変更
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-480-p1-kou-2
     type: kou
-    text: 監査役の監査の範囲を会計に関するものに限定する旨の定款の定めを廃止する定款の変更
+    text: 二　監査役の監査の範囲を会計に関するものに限定する旨の定款の定めを廃止する定款の変更
     modality: unspecified
     item_number: 2
 - number: 2

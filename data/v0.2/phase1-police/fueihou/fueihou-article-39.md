@@ -34,42 +34,42 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-39-p2-kou-1
     type: kou
-    text: 風俗環境に関する苦情を処理すること。
+    text: 一　風俗環境に関する苦情を処理すること。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-39-p2-kou-2
     type: kou
-    text: この法律に違反する行為を防止するための啓発活動を行うこと。
+    text: 二　この法律に違反する行為を防止するための啓発活動を行うこと。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-39-p2-kou-3
     type: kou
-    text: 少年指導委員の活動を助けること。
+    text: 三　少年指導委員の活動を助けること。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-39-p2-kou-4
     type: kou
-    text: 善良の風俗の保持及び風俗環境の浄化並びに少年の健全な育成に資するための民間の自主的な組織活動を助けること。
+    text: 四　善良の風俗の保持及び風俗環境の浄化並びに少年の健全な育成に資するための民間の自主的な組織活動を助けること。
     modality: unspecified
     item_number: 4
   - id: fueihou-art-39-p2-kou-5
     type: kou
-    text: 公安委員会の委託を受けて第二十四条第六項（第三十一条の二十三において準用する場合を含む。）の講習を行うこと。
+    text: 五　公安委員会の委託を受けて第二十四条第六項（第三十一条の二十三において準用する場合を含む。）の講習を行うこと。
     modality: unspecified
     item_number: 5
   - id: fueihou-art-39-p2-kou-6
     type: kou
-    text: 公安委員会の委託を受けて第三条第一項又は第三十一条の二十二の許可の申請に係る営業所に関し、第四条第二項第一号若しくは第二号又は同条第三項第二号から第四号まで（これらの規定を第三十一条の二十三において準用する場合を含む。）に該当する事由の有無について調査すること。
+    text: 六　公安委員会の委託を受けて第三条第一項又は第三十一条の二十二の許可の申請に係る営業所に関し、第四条第二項第一号若しくは第二号又は同条第三項第二号から第四号まで（これらの規定を第三十一条の二十三において準用する場合を含む。）に該当する事由の有無について調査すること。
     modality: unspecified
     item_number: 6
   - id: fueihou-art-39-p2-kou-7
     type: kou
-    text: 公安委員会の委託を受けて第九条第一項（第三十一条の二十三において準用する場合を含む。）の承認又は第十条の二第一項（第三十一条の二十三において準用する場合を含む。）の認定の申請に係る営業所の構造及び設備が第四条第二項第一号（第三十一条の二十三において準用する場合を含む。）の技術上の基準に適合しているか否かについて調査すること。
+    text: 七　公安委員会の委託を受けて第九条第一項（第三十一条の二十三において準用する場合を含む。）の承認又は第十条の二第一項（第三十一条の二十三において準用する場合を含む。）の認定の申請に係る営業所の構造及び設備が第四条第二項第一号（第三十一条の二十三において準用する場合を含む。）の技術上の基準に適合しているか否かについて調査すること。
     modality: unspecified
     item_number: 7
   - id: fueihou-art-39-p2-kou-8
     type: kou
-    text: 前各号の事業に附帯する事業
+    text: 八　前各号の事業に附帯する事業
     modality: unspecified
     item_number: 8
 - number: 3

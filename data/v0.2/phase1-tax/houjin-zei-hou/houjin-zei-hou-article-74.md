@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-art-74-p1-kou-1
     type: kou
-    text: 当該事業年度の課税標準である所得の金額又は欠損金額
+    text: 一　当該事業年度の課税標準である所得の金額又は欠損金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-74-p1-kou-2
     type: kou
-    text: 前号に掲げる所得の金額につき前節（税額の計算）の規定を適用して計算した法人税の額
+    text: 二　前号に掲げる所得の金額につき前節（税額の計算）の規定を適用して計算した法人税の額
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-74-p1-kou-3
     type: kou
-    text: 第六十八条（所得税額の控除）及び第六十九条（外国税額の控除）の規定による控除をされるべき金額で前号に掲げる法人税の額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
+    text: 三　第六十八条（所得税額の控除）及び第六十九条（外国税額の控除）の規定による控除をされるべき金額で前号に掲げる法人税の額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-74-p1-kou-4
     type: kou
-    text: その内国法人が当該事業年度につき中間申告書を提出した法人である場合には、第二号に掲げる法人税の額から当該申告書に係る中間納付額を控除した金額
+    text: 四　その内国法人が当該事業年度につき中間申告書を提出した法人である場合には、第二号に掲げる法人税の額から当該申告書に係る中間納付額を控除した金額
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-art-74-p1-kou-5
     type: kou
-    text: 前号に規定する中間納付額で同号に掲げる金額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
+    text: 五　前号に規定する中間納付額で同号に掲げる金額の計算上控除しきれなかつたものがある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-art-74-p1-kou-6
     type: kou
-    text: 前各号に掲げる金額の計算の基礎その他財務省令で定める事項
+    text: 六　前各号に掲げる金額の計算の基礎その他財務省令で定める事項
     modality: unspecified
     item_number: 6
 - number: 2
@@ -61,8 +61,8 @@ paragraphs:
     text: 清算中の内国法人につきその残余財産が確定した場合には、当該内国法人の当該残余財産の確定の日の属する事業年度（当該内国法人が通算法人である場合には、当該内国法人に係る通算親法人の事業年度終了の日に終了するものを除く。）に係る前項の規定の適用については、同項中「二月以内」とあるのは、「一月以内（当該翌日から一月以内に残余財産の最後の分配又は引渡しが行われる場合には、その行われる日の前日まで）」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

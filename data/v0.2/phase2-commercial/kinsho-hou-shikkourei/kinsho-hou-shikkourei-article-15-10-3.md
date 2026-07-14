@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-10-3-p1-kou-1
     type: kou
-    text: 発行価額の総額として内閣府令で定める方法により算定される額が五億円未満であること。
+    text: 一　発行価額の総額として内閣府令で定める方法により算定される額が五億円未満であること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-10-3-p1-kou-2
     type: kou
-    text: 取得する者（特定投資家を除く。）が払い込む額として内閣府令で定める方法により算定される額が二百万円を超えない範囲内において当該者の財産の状況に応じ内閣府令で定める額以下であること。
+    text: 二　取得する者（特定投資家を除く。）が払い込む額として内閣府令で定める方法により算定される額が二百万円を超えない範囲内において当該者の財産の状況に応じ内閣府令で定める額以下であること。
     modality: unspecified
     item_number: 2
 cases: []

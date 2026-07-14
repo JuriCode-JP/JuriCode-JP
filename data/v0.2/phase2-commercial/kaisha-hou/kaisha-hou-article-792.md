@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-792-p1-kou-1
     type: kou
-    text: 第七百五十八条第八号イ又は第七百六十条第七号イの株式の取得
+    text: 一　第七百五十八条第八号イ又は第七百六十条第七号イの株式の取得
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-792-p1-kou-2
     type: kou
-    text: 第七百五十八条第八号ロ又は第七百六十条第七号ロの剰余金の配当
+    text: 二　第七百五十八条第八号ロ又は第七百六十条第七号ロの剰余金の配当
     modality: unspecified
     item_number: 2
 cases: []

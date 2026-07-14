@@ -46,8 +46,8 @@ paragraphs:
     text: 前項本文の方法により同項に規定する申告書（法第四十五条第一項第五号又は第七号に掲げる不足額の記載のあるものに限る。）を提出するときは、当該申告書には、これらの不足額を各人別に記載しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

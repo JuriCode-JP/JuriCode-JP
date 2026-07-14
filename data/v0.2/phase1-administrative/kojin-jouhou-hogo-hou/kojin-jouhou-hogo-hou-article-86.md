@@ -32,12 +32,12 @@ paragraphs:
     modality: jogai
   - id: kojin-jouhou-hogo-hou-art-86-p2-kou-1
     type: kou
-    text: 第三者に関する情報が含まれている保有個人情報を開示しようとする場合であって、当該第三者に関する情報が第七十八条第一項第二号ロ又は同項第三号ただし書に規定する情報に該当すると認められるとき。
+    text: 一　第三者に関する情報が含まれている保有個人情報を開示しようとする場合であって、当該第三者に関する情報が第七十八条第一項第二号ロ又は同項第三号ただし書に規定する情報に該当すると認められるとき。
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-86-p2-kou-2
     type: kou
-    text: 第三者に関する情報が含まれている保有個人情報を第八十条の規定により開示しようとするとき。
+    text: 二　第三者に関する情報が含まれている保有個人情報を第八十条の規定により開示しようとするとき。
     modality: unspecified
     item_number: 2
 - number: 3

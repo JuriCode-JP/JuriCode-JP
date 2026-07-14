@@ -39,9 +39,9 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -52,16 +52,16 @@ paragraphs:
     text: 前項前段の規定にかかわらず、効力継続期間における次に掲げる規定の適用については、同項の刑は、第一項前段の規定による減軽がされ、同項後段に規定する日にその執行を受け終わったものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: keihou-art-27-7-p3-kou-1
     type: kou
-    text: 第二十五条第一項（第二号に係る部分に限る。）、第二十七条の二第一項（第三号に係る部分に限る。）及び第三項、第二十七条の四、第二十七条の五、第三十四条の二並びに第五十六条第一項の規定
+    text: 一　第二十五条第一項（第二号に係る部分に限る。）、第二十七条の二第一項（第三号に係る部分に限る。）及び第三項、第二十七条の四、第二十七条の五、第三十四条の二並びに第五十六条第一項の規定
     modality: unspecified
     item_number: 1
   - id: keihou-art-27-7-p3-kou-2
     type: kou
-    text: 人の資格に関する法令の規定
+    text: 二　人の資格に関する法令の規定
     modality: unspecified
     item_number: 2
 - number: 4

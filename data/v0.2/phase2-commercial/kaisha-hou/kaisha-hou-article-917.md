@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-917-p1-kou-1
     type: kou
-    text: 株式会社　取締役（監査等委員会設置会社にあっては、監査等委員である取締役又はそれ以外の取締役）、会計参与、監査役、代表取締役、委員（指名委員会、監査委員会又は報酬委員会の委員をいう。）、執行役又は代表執行役
+    text: 一　株式会社　取締役（監査等委員会設置会社にあっては、監査等委員である取締役又はそれ以外の取締役）、会計参与、監査役、代表取締役、委員（指名委員会、監査委員会又は報酬委員会の委員をいう。）、執行役又は代表執行役
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-917-p1-kou-2
     type: kou
-    text: 合名会社　社員
+    text: 二　合名会社　社員
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-917-p1-kou-3
     type: kou
-    text: 合資会社　社員
+    text: 三　合資会社　社員
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-917-p1-kou-4
     type: kou
-    text: 合同会社　業務を執行する社員
+    text: 四　合同会社　業務を執行する社員
     modality: unspecified
     item_number: 4
 cases: []

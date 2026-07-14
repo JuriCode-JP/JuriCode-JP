@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-176-p1-kou-1
     type: kou
-    text: 資本金
+    text: 一　資本金
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-176-p1-kou-2
     type: kou
-    text: 新株式申込証拠金
+    text: 二　新株式申込証拠金
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-176-p1-kou-3
     type: kou
-    text: 資本剰余金
+    text: 三　資本剰余金
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-176-p1-kou-4
     type: kou
-    text: 利益剰余金（社外流出予定額（配当及び役員賞与の予定額をいう。）を除く。）
+    text: 四　利益剰余金（社外流出予定額（配当及び役員賞与の予定額をいう。）を除く。）
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-176-p1-kou-5
     type: kou
-    text: その他有価証券評価差額金（貸借対照表の純資産の部に計上されるその他有価証券（財務諸表等規則第八条第二十二項に規定するその他有価証券をいう。第七号イ及び次条第一項第一号において同じ。）の評価差額が負となる場合における当該評価差額をいう。）
+    text: 五　その他有価証券評価差額金（貸借対照表の純資産の部に計上されるその他有価証券（財務諸表等規則第八条第二十二項に規定するその他有価証券をいう。第七号イ及び次条第一項第一号において同じ。）の評価差額が負となる場合における当該評価差額をいう。）
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-176-p1-kou-6
     type: kou
-    text: 自己株式
+    text: 六　自己株式
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-176-p1-kou-7
     type: kou
-    text: '次に掲げるものであって、その額（ニに掲げるものにあっては基本的項目の額の五十パーセントに相当する額（ホにおいて「算入限度額」という。）を限度とし、ホに掲げるものにあっては基本的項目の額から控除資産の額を控除した額の二百パーセントに相当する額を限度とする。）の合計額が基本的項目の額に達するまでのもの
+    text: '七　次に掲げるものであって、その額（ニに掲げるものにあっては基本的項目の額の五十パーセントに相当する額（ホにおいて「算入限度額」という。）を限度とし、ホに掲げるものにあっては基本的項目の額から控除資産の額を控除した額の二百パーセントに相当する額を限度とする。）の合計額が基本的項目の額に達するまでのもの
 
-      イ その他有価証券評価差額金（貸借対照表の純資産の部に計上されるその他有価証券の評価差額が正となる場合における当該評価差額をいう。）その他前各号に掲げるもの以外の貸借対照表の純資産の部に計上されるもの
+      イ　その他有価証券評価差額金（貸借対照表の純資産の部に計上されるその他有価証券の評価差額が正となる場合における当該評価差額をいう。）その他前各号に掲げるもの以外の貸借対照表の純資産の部に計上されるもの
 
-      ロ 第十四条第一項各号に掲げるもの
+      ロ　第十四条第一項各号に掲げるもの
 
-      ハ 一般貸倒引当金（流動資産に属する資産に係るものに限る。）
+      ハ　一般貸倒引当金（流動資産に属する資産に係るものに限る。）
 
-      ニ 長期劣後債務（残存期間が五年以内になったものにあっては、毎年、残存期間が五年になった時点における額の二十パーセントに相当する額を累積的に減価したものに限る。）
+      ニ　長期劣後債務（残存期間が五年以内になったものにあっては、毎年、残存期間が五年になった時点における額の二十パーセントに相当する額を累積的に減価したものに限る。）
 
-      ホ 短期劣後債務（長期劣後債務（第三項各号に掲げる性質のすべてを有するものに限る。）のうち、算入限度額を超える額及びニに規定する減価したものの累計額の合計額に相当するものを含む。）'
+      ホ　短期劣後債務（長期劣後債務（第三項各号に掲げる性質のすべてを有するものに限る。）のうち、算入限度額を超える額及びニに規定する減価したものの累計額の合計額に相当するものを含む。）'
     modality: unspecified
     item_number: 7
 - number: 2
@@ -79,22 +79,22 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-176-p2-kou-1
     type: kou
-    text: 担保が付されていないこと。
+    text: 一　担保が付されていないこと。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-176-p2-kou-2
     type: kou
-    text: 契約時又は発行時における借入期間又は償還期間が五年を超えるものであること。
+    text: 二　契約時又は発行時における借入期間又は償還期間が五年を超えるものであること。
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-176-p2-kou-3
     type: kou
-    text: 期限前弁済又は期限前償還（以下この条において「期限前弁済等」という。）の特約が付されている場合には、当該期限前弁済等が債務者である金融商品取引業者の任意によるものであり、かつ、当該金融商品取引業者が当該期限前弁済等を行うことについて所管金融庁長官等の承認を受けたときに限り、当該期限前弁済等を行うことができるものであること。
+    text: 三　期限前弁済又は期限前償還（以下この条において「期限前弁済等」という。）の特約が付されている場合には、当該期限前弁済等が債務者である金融商品取引業者の任意によるものであり、かつ、当該金融商品取引業者が当該期限前弁済等を行うことについて所管金融庁長官等の承認を受けたときに限り、当該期限前弁済等を行うことができるものであること。
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-176-p2-kou-4
     type: kou
-    text: 金融商品取引業者がその利金の支払を行うことにより法第四十六条の六第二項の規定に違反することとなる場合には、当該利金の支払を行わない旨の特約が付されていること。
+    text: 四　金融商品取引業者がその利金の支払を行うことにより法第四十六条の六第二項の規定に違反することとなる場合には、当該利金の支払を行わない旨の特約が付されていること。
     modality: unspecified
     item_number: 4
 - number: 3
@@ -108,22 +108,22 @@ paragraphs:
     modality: teigi
   - id: kinsho-gyou-furei-art-176-p3-kou-1
     type: kou
-    text: 担保が付されていないこと。
+    text: 一　担保が付されていないこと。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-176-p3-kou-2
     type: kou
-    text: 契約時又は発行時における借入期間又は償還期間が二年以上のものであること。
+    text: 二　契約時又は発行時における借入期間又は償還期間が二年以上のものであること。
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-176-p3-kou-3
     type: kou
-    text: 期限前弁済等の特約が付されている場合には、当該期限前弁済等が債務者である金融商品取引業者の任意によるものであり、かつ、当該金融商品取引業者が当該期限前弁済等を行うことについて所管金融庁長官等の承認を受けたときに限り、当該期限前弁済等を行うことができるものであること。
+    text: 三　期限前弁済等の特約が付されている場合には、当該期限前弁済等が債務者である金融商品取引業者の任意によるものであり、かつ、当該金融商品取引業者が当該期限前弁済等を行うことについて所管金融庁長官等の承認を受けたときに限り、当該期限前弁済等を行うことができるものであること。
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-176-p3-kou-4
     type: kou
-    text: 金融商品取引業者がその元利金の支払を行うことにより法第四十六条の六第二項の規定に違反することとなる場合には、当該元利金の支払を行わない旨の特約が付されていること。
+    text: 四　金融商品取引業者がその元利金の支払を行うことにより法第四十六条の六第二項の規定に違反することとなる場合には、当該元利金の支払を行わない旨の特約が付されていること。
     modality: unspecified
     item_number: 4
 - number: 4
@@ -139,17 +139,17 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-176-p4-kou-1
     type: kou
-    text: 劣後特約付借入金の借入先が子会社等である場合　当該劣後特約付借入金の額
+    text: 一　劣後特約付借入金の借入先が子会社等である場合　当該劣後特約付借入金の額
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-176-p4-kou-2
     type: kou
-    text: 劣後特約付社債の保有者（信託財産をもって保有する者を含む。次号において同じ。）が自己又は子会社等である場合　当該劣後特約付社債の額
+    text: 二　劣後特約付社債の保有者（信託財産をもって保有する者を含む。次号において同じ。）が自己又は子会社等である場合　当該劣後特約付社債の額
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-176-p4-kou-3
     type: kou
-    text: 劣後特約付借入金の借入先又は劣後特約付社債の保有者に意図的に資金の提供を行っている場合　当該資金の額（当該資金の額が劣後特約付借入金の額及び劣後特約付社債の額の合計額を超える場合にあっては、当該合計額）
+    text: 三　劣後特約付借入金の借入先又は劣後特約付社債の保有者に意図的に資金の提供を行っている場合　当該資金の額（当該資金の額が劣後特約付借入金の額及び劣後特約付社債の額の合計額を超える場合にあっては、当該合計額）
     modality: unspecified
     item_number: 3
 - number: 5
@@ -163,42 +163,42 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-176-p5-kou-1
     type: kou
-    text: 商号
+    text: 一　商号
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-176-p5-kou-2
     type: kou
-    text: 登録年月日及び登録番号
+    text: 二　登録年月日及び登録番号
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-176-p5-kou-3
     type: kou
-    text: 期限前弁済等の額（外貨建てである場合にあっては、期限前弁済等の額及びその円換算額）
+    text: 三　期限前弁済等の額（外貨建てである場合にあっては、期限前弁済等の額及びその円換算額）
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-176-p5-kou-4
     type: kou
-    text: 現在及び期限前弁済等を行った後の長期劣後債務又は短期劣後債務の額（外貨建てである場合にあっては、長期劣後債務又は短期劣後債務の額及びその円換算額）
+    text: 四　現在及び期限前弁済等を行った後の長期劣後債務又は短期劣後債務の額（外貨建てである場合にあっては、長期劣後債務又は短期劣後債務の額及びその円換算額）
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-176-p5-kou-5
     type: kou
-    text: 期限前弁済等を行う理由
+    text: 五　期限前弁済等を行う理由
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-176-p5-kou-6
     type: kou
-    text: 期限前弁済等の予定日
+    text: 六　期限前弁済等の予定日
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-176-p5-kou-7
     type: kou
-    text: 十分な自己資本規制比率を維持するための資本調達その他の具体的措置の内容
+    text: 七　十分な自己資本規制比率を維持するための資本調達その他の具体的措置の内容
     modality: unspecified
     item_number: 7
   - id: kinsho-gyou-furei-art-176-p5-kou-8
     type: kou
-    text: 期限前弁済等を行った後の自己資本規制比率の推定値
+    text: 八　期限前弁済等を行った後の自己資本規制比率の推定値
     modality: unspecified
     item_number: 8
 - number: 6
@@ -212,12 +212,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-176-p6-kou-1
     type: kou
-    text: 期限前弁済等を行った後において金融商品取引業者が十分な自己資本規制比率を維持することができると見込まれること。
+    text: 一　期限前弁済等を行った後において金融商品取引業者が十分な自己資本規制比率を維持することができると見込まれること。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-176-p6-kou-2
     type: kou
-    text: 期限前弁済等の額以上の額の資本調達を行うこと。
+    text: 二　期限前弁済等の額以上の額の資本調達を行うこと。
     modality: unspecified
     item_number: 2
 - number: 7
@@ -231,12 +231,12 @@ paragraphs:
     modality: teigi
   - id: kinsho-gyou-furei-art-176-p7-kou-1
     type: kou
-    text: 金融商品取引業者の子会社（財務諸表等規則第八条第三項及び第七項の規定により当該金融商品取引業者の子会社とされる者をいう。次条第六項第二号において同じ。）
+    text: 一　金融商品取引業者の子会社（財務諸表等規則第八条第三項及び第七項の規定により当該金融商品取引業者の子会社とされる者をいう。次条第六項第二号において同じ。）
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-176-p7-kou-2
     type: kou
-    text: 金融商品取引業者の関連会社（財務諸表等規則第八条第五項の規定により当該金融商品取引業者の関連会社とされる者をいう。次条第六項第三号において同じ。）
+    text: 二　金融商品取引業者の関連会社（財務諸表等規則第八条第五項の規定により当該金融商品取引業者の関連会社とされる者をいう。次条第六項第三号において同じ。）
     modality: unspecified
     item_number: 2
 - number: 8

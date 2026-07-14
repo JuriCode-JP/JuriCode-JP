@@ -33,9 +33,9 @@ paragraphs:
     text: 前項に規定する公安委員会は、同項の規定により免許申請書を提出しようとする者に対し、その者が次条第一項第一号から第二号までのいずれかに該当するかどうかの判断に必要な質問をするため、内閣府令で定める様式の質問票を交付することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 次条
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -50,6 +50,10 @@ paragraphs:
     text: この場合において、当該公安委員会は、その者が自動車の運転について必要な技能を有すると認めるときは、内閣府令で定めるところにより、その者に対しその旨を証する書面を交付するものとする。
     modality: gimu
     depends_on: douro-koutsuu-hou-art-89-p3-zen
+  - id: douro-koutsuu-hou-art-89-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十七条の四第一項第三号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

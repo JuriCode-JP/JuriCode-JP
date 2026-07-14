@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-12-p1-kou-1
     type: kou
-    text: 土地（土地の上に存する権利を含む。）
+    text: 一　土地（土地の上に存する権利を含む。）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-12-p1-kou-2
     type: kou
-    text: 次条各号に掲げる資産
+    text: 二　次条各号に掲げる資産
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-12-p1-kou-3
     type: kou
-    text: 電話加入権
+    text: 三　電話加入権
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikkourei-art-12-p1-kou-4
     type: kou
-    text: 前三号に掲げる資産に準ずるもの
+    text: 四　前三号に掲げる資産に準ずるもの
     modality: unspecified
     item_number: 4
 cases: []

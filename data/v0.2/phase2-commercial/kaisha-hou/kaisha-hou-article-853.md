@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-853-p1-kou-1
     type: kou
-    text: 株主又は株式会社等　責任追及等の訴え
+    text: 一　株主又は株式会社等　責任追及等の訴え
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-853-p1-kou-2
     type: kou
-    text: 適格旧株主　責任追及等の訴え（第八百四十七条の二第一項各号に掲げる行為の効力が生じた時までにその原因となった事実が生じた責任又は義務に係るものに限る。）
+    text: 二　適格旧株主　責任追及等の訴え（第八百四十七条の二第一項各号に掲げる行為の効力が生じた時までにその原因となった事実が生じた責任又は義務に係るものに限る。）
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-853-p1-kou-3
     type: kou
-    text: 最終完全親会社等の株主　特定責任追及の訴え
+    text: 三　最終完全親会社等の株主　特定責任追及の訴え
     modality: unspecified
     item_number: 3
 - number: 2

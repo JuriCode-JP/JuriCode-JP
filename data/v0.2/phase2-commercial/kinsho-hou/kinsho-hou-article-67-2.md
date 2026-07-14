@@ -43,12 +43,12 @@ paragraphs:
     - 前二項
   - id: kinsho-hou-art-67-2-p3-kou-1
     type: kou
-    text: 登録金融機関　登録金融機関業務
+    text: 一　登録金融機関　登録金融機関業務
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-67-2-p3-kou-2
     type: kou
-    text: 金融商品取引業又は登録金融機関業務に類するものとして内閣府令で定める業務を行う者　当該業務
+    text: 二　金融商品取引業又は登録金融機関業務に類するものとして内閣府令で定める業務を行う者　当該業務
     modality: unspecified
     item_number: 2
 cases: []

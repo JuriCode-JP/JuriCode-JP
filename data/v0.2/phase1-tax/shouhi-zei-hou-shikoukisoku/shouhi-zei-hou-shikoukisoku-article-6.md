@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-6-p2-kou-1
     type: kou
-    text: 氏名、国籍、生年月日、在留資格及び上陸年月日
+    text: 一　氏名、国籍、生年月日、在留資格及び上陸年月日
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-6-p2-kou-2
     type: kou
-    text: 旅券等の種類及び番号（旅券の写しが貼付された出入国管理及び難民認定法（昭和二十六年政令第三百十九号）第十四条の二（船舶観光上陸の許可）に規定する船舶観光上陸許可書にあつては、当該旅券の番号）
+    text: 二　旅券等の種類及び番号（旅券の写しが貼付された出入国管理及び難民認定法（昭和二十六年政令第三百十九号）第十四条の二（船舶観光上陸の許可）に規定する船舶観光上陸許可書にあつては、当該旅券の番号）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -51,24 +51,24 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-6-p3-kou-1
     type: kou
-    text: '在留証明　次に掲げる事項
+    text: '一　在留証明　次に掲げる事項
 
-      イ 在外公館の名称
+      イ　在外公館の名称
 
-      ロ 発給年月日
+      ロ　発給年月日
 
-      ハ 免税購入対象者（法第八条第一項に規定する免税購入対象者をいう。次号ロ及び第六条の三第一号において同じ。）の本籍
+      ハ　免税購入対象者（法第八条第一項に規定する免税購入対象者をいう。次号ロ及び第六条の三第一号において同じ。）の本籍
 
-      ニ 発給番号'
+      ニ　発給番号'
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-6-p3-kou-2
     type: kou
-    text: '戸籍の附票の写し　次に掲げる事項
+    text: '二　戸籍の附票の写し　次に掲げる事項
 
-      イ 作成年月日
+      イ　作成年月日
 
-      ロ 免税購入対象者の本籍'
+      ロ　免税購入対象者の本籍'
     modality: unspecified
     item_number: 2
 - number: 4
@@ -91,27 +91,27 @@ paragraphs:
     modality: teigi
   - id: shouhi-zei-hou-shikoukisoku-art-6-p5-kou-1
     type: kou
-    text: 一般物品（令第十八条第三項第一号に規定する一般物品をいう。第七項第四号及び第九項第四号において同じ。）の購入者の氏名及び所属又は機関
+    text: 一　一般物品（令第十八条第三項第一号に規定する一般物品をいう。第七項第四号及び第九項第四号において同じ。）の購入者の氏名及び所属又は機関
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-6-p5-kou-2
     type: kou
-    text: 当該一般物品を譲渡する基地内輸出物品販売場（令第十八条第三項第四号に規定する基地内輸出物品販売場をいう。次項第二号、第七項第二号及び第八項において同じ。）を経営する事業者の氏名又は名称
+    text: 二　当該一般物品を譲渡する基地内輸出物品販売場（令第十八条第三項第四号に規定する基地内輸出物品販売場をいう。次項第二号、第七項第二号及び第八項において同じ。）を経営する事業者の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-6-p5-kou-3
     type: kou
-    text: 当該一般物品の購入の年月日
+    text: 三　当該一般物品の購入の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-6-p5-kou-4
     type: kou
-    text: 当該一般物品の品名、品名ごとの数量及び価額並びに当該一般物品の価額の合計額
+    text: 四　当該一般物品の品名、品名ごとの数量及び価額並びに当該一般物品の価額の合計額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-6-p5-kou-5
     type: kou
-    text: 当該一般物品の購入者が、当該一般物品を購入後において輸出することを誓約する旨
+    text: 五　当該一般物品の購入者が、当該一般物品を購入後において輸出することを誓約する旨
     modality: unspecified
     item_number: 5
 - number: 6
@@ -125,27 +125,27 @@ paragraphs:
     modality: teigi
   - id: shouhi-zei-hou-shikoukisoku-art-6-p6-kou-1
     type: kou
-    text: 消耗品（令第十八条第二項第二号に規定する消耗品をいう。次項第四号及び第九項第四号において同じ。）の購入者の氏名及び所属又は機関
+    text: 一　消耗品（令第十八条第二項第二号に規定する消耗品をいう。次項第四号及び第九項第四号において同じ。）の購入者の氏名及び所属又は機関
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-6-p6-kou-2
     type: kou
-    text: 当該消耗品を譲渡する基地内輸出物品販売場を経営する事業者の氏名又は名称
+    text: 二　当該消耗品を譲渡する基地内輸出物品販売場を経営する事業者の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-6-p6-kou-3
     type: kou
-    text: 当該消耗品の購入の年月日
+    text: 三　当該消耗品の購入の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-6-p6-kou-4
     type: kou
-    text: 当該消耗品の品名、品名ごとの数量及び価額並びに当該消耗品の価額の合計額
+    text: 四　当該消耗品の品名、品名ごとの数量及び価額並びに当該消耗品の価額の合計額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-6-p6-kou-5
     type: kou
-    text: 当該消耗品の購入者が、当該消耗品を購入した日から三十日以内に輸出することを誓約する旨
+    text: 五　当該消耗品の購入者が、当該消耗品を購入した日から三十日以内に輸出することを誓約する旨
     modality: unspecified
     item_number: 5
 - number: 7
@@ -159,27 +159,27 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-6-p7-kou-1
     type: kou
-    text: 免税対象物品（令第十八条第二項に規定する免税対象物品をいう。以下この条及び第七条の二第二項において同じ。）の購入者の氏名、住所又は居所及び所属又は機関
+    text: 一　免税対象物品（令第十八条第二項に規定する免税対象物品をいう。以下この条及び第七条の二第二項において同じ。）の購入者の氏名、住所又は居所及び所属又は機関
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-6-p7-kou-2
     type: kou
-    text: 当該免税対象物品を譲渡する基地内輸出物品販売場を経営する事業者の氏名又は名称
+    text: 二　当該免税対象物品を譲渡する基地内輸出物品販売場を経営する事業者の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-6-p7-kou-3
     type: kou
-    text: 当該運送契約を締結した年月日
+    text: 三　当該運送契約を締結した年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-6-p7-kou-4
     type: kou
-    text: 当該免税対象物品の品名、品名ごとの数量、価額及び一般物品又は消耗品の別並びに当該免税対象物品の価額の合計額（当該免税対象物品のうちに、一般物品と消耗品とがある場合には、当該一般物品の価額と当該消耗品の価額のそれぞれの合計額。第九項第四号において同じ。）
+    text: 四　当該免税対象物品の品名、品名ごとの数量、価額及び一般物品又は消耗品の別並びに当該免税対象物品の価額の合計額（当該免税対象物品のうちに、一般物品と消耗品とがある場合には、当該一般物品の価額と当該消耗品の価額のそれぞれの合計額。第九項第四号において同じ。）
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-6-p7-kou-5
     type: kou
-    text: 当該運送契約を締結した国際第二種貨物利用運送事業者（令第十八条第三項第三号に規定する国際第二種貨物利用運送事業者をいう。第九項第五号、第七条の二第二項及び第八条第三項において同じ。）の氏名又は名称及び納税地
+    text: 五　当該運送契約を締結した国際第二種貨物利用運送事業者（令第十八条第三項第三号に規定する国際第二種貨物利用運送事業者をいう。第九項第五号、第七条の二第二項及び第八条第三項において同じ。）の氏名又は名称及び納税地
     modality: unspecified
     item_number: 5
 - number: 8
@@ -204,32 +204,32 @@ paragraphs:
     modality: teigi
   - id: shouhi-zei-hou-shikoukisoku-art-6-p9-kou-1
     type: kou
-    text: 免税対象物品を譲渡する市中輸出物品販売場（令第十八条第三項第一号に規定する市中輸出物品販売場をいう。以下第十条の六までにおいて同じ。）を経営する事業者が同号から同項第三号までの規定により提供を受けた第二項各号に掲げる事項及び第三項各号に定める事項
+    text: 一　免税対象物品を譲渡する市中輸出物品販売場（令第十八条第三項第一号に規定する市中輸出物品販売場をいう。以下第十条の六までにおいて同じ。）を経営する事業者が同号から同項第三号までの規定により提供を受けた第二項各号に掲げる事項及び第三項各号に定める事項
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-6-p9-kou-2
     type: kou
-    text: 当該市中輸出物品販売場を経営する事業者の氏名又は名称及び納税地並びに当該市中輸出物品販売場の名称（当該市中輸出物品販売場が自動販売機型輸出物品販売場（令第十八条の二第二項第三号に規定する自動販売機型輸出物品販売場をいう。以下第十条の九までにおいて同じ。）である場合にあつては、当該自動販売機型輸出物品販売場に設置している指定自動販売機（同号に規定する指定自動販売機をいう。以下第十条の二まで及び第十条の九において同じ。）を識別するための情報）、所在地及び識別符号（次条第二項の規定により通知を受けた識別符号をいう。以下この号において同じ。）（当該免税対象物品の譲渡を臨時販売場（法第八条第九項の規定により同条第七項に規定する輸出物品販売場とみなされる同条第九項に規定する臨時販売場をいう。以下この号、第十条の八第三項及び第十条の九において同じ。）において行う場合にあつては、当該臨時販売場を経営する事業者の氏名又は名称及び納税地、当該臨時販売場の名称（当該臨時販売場が自動販売機型輸出物品販売場とみなされる臨時販売場である場合にあつては、当該臨時販売場に設置している指定自動販売機を識別するための情報）及び所在地並びに法第八条第十項の承認に係る識別符号）
+    text: 二　当該市中輸出物品販売場を経営する事業者の氏名又は名称及び納税地並びに当該市中輸出物品販売場の名称（当該市中輸出物品販売場が自動販売機型輸出物品販売場（令第十八条の二第二項第三号に規定する自動販売機型輸出物品販売場をいう。以下第十条の九までにおいて同じ。）である場合にあつては、当該自動販売機型輸出物品販売場に設置している指定自動販売機（同号に規定する指定自動販売機をいう。以下第十条の二まで及び第十条の九において同じ。）を識別するための情報）、所在地及び識別符号（次条第二項の規定により通知を受けた識別符号をいう。以下この号において同じ。）（当該免税対象物品の譲渡を臨時販売場（法第八条第九項の規定により同条第七項に規定する輸出物品販売場とみなされる同条第九項に規定する臨時販売場をいう。以下この号、第十条の八第三項及び第十条の九において同じ。）において行う場合にあつては、当該臨時販売場を経営する事業者の氏名又は名称及び納税地、当該臨時販売場の名称（当該臨時販売場が自動販売機型輸出物品販売場とみなされる臨時販売場である場合にあつては、当該臨時販売場に設置している指定自動販売機を識別するための情報）及び所在地並びに法第八条第十項の承認に係る識別符号）
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-6-p9-kou-3
     type: kou
-    text: 当該免税対象物品の譲渡の年月日
+    text: 三　当該免税対象物品の譲渡の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-6-p9-kou-4
     type: kou
-    text: 当該免税対象物品の品名、品名ごとの数量、価額及び一般物品又は消耗品の別並びに当該免税対象物品の価額の合計額
+    text: 四　当該免税対象物品の品名、品名ごとの数量、価額及び一般物品又は消耗品の別並びに当該免税対象物品の価額の合計額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-6-p9-kou-5
     type: kou
-    text: 令第十八条第三項第三号に定める方法により免税対象物品の譲渡が行われた場合には、同号に規定する運送契約が締結された国際第二種貨物利用運送事業者の氏名又は名称
+    text: 五　令第十八条第三項第三号に定める方法により免税対象物品の譲渡が行われた場合には、同号に規定する運送契約が締結された国際第二種貨物利用運送事業者の氏名又は名称
     modality: unspecified
     item_number: 5
   - id: shouhi-zei-hou-shikoukisoku-art-6-p9-kou-6
     type: kou
-    text: 令第十八条の三第一項の規定により一の販売場とみなされた同項に規定する合算対象輸出物品販売場において免税対象物品の譲渡を行う場合には、その旨
+    text: 六　令第十八条の三第一項の規定により一の販売場とみなされた同項に規定する合算対象輸出物品販売場において免税対象物品の譲渡を行う場合には、その旨
     modality: unspecified
     item_number: 6
 - number: 10

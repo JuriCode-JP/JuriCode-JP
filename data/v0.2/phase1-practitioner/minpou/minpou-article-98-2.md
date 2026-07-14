@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: minpou-art-98-2-p1-kou-1
     type: kou
-    text: 相手方の法定代理人
+    text: 一　相手方の法定代理人
     modality: unspecified
     item_number: 1
   - id: minpou-art-98-2-p1-kou-2
     type: kou
-    text: 意思能力を回復し、又は行為能力者となった相手方
+    text: 二　意思能力を回復し、又は行為能力者となった相手方
     modality: unspecified
     item_number: 2
 cases: []

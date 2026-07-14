@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-75-22-p1-kou-1
     type: kou
-    text: 第四条第一項後段に規定する警察官の現場における指示
+    text: 一　第四条第一項後段に規定する警察官の現場における指示
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-75-22-p1-kou-2
     type: kou
-    text: 第六条第一項の規定による警察官等の交通整理
+    text: 二　第六条第一項の規定による警察官等の交通整理
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-75-22-p1-kou-3
     type: kou
-    text: 第七十五条の二十四の規定により読み替えて適用する第六条第二項の規定による警察官の禁止、制限又は命令
+    text: 三　第七十五条の二十四の規定により読み替えて適用する第六条第二項の規定による警察官の禁止、制限又は命令
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-75-22-p1-kou-4
     type: kou
-    text: 第七十五条の二十四の規定により読み替えて適用する第六条第三項の規定による警察官の指示
+    text: 四　第七十五条の二十四の規定により読み替えて適用する第六条第三項の規定による警察官の指示
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-75-22-p1-kou-5
     type: kou
-    text: 第六条第四項の規定による警察官の禁止又は制限
+    text: 五　第六条第四項の規定による警察官の禁止又は制限
     modality: unspecified
     item_number: 5
   - id: douro-koutsuu-hou-art-75-22-p1-kou-6
     type: kou
-    text: 第七十五条の二十四の規定により読み替えて適用する第七十五条の三の規定による警察官の禁止、制限又は命令
+    text: 六　第七十五条の二十四の規定により読み替えて適用する第七十五条の三の規定による警察官の禁止、制限又は命令
     modality: unspecified
     item_number: 6
 - number: 2

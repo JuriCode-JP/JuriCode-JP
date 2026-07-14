@@ -34,16 +34,16 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-52-p2-kou-1
     type: kou
-    text: 第二十八条第一号又は第二号に掲げる事項について第三十三条第二項の検査役の調査を経た場合
+    text: 一　第二十八条第一号又は第二号に掲げる事項について第三十三条第二項の検査役の調査を経た場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-52-p2-kou-2
     type: kou
-    text: 当該発起人又は設立時取締役がその職務を行うについて注意を怠らなかったことを証明した場合
+    text: 二　当該発起人又は設立時取締役がその職務を行うについて注意を怠らなかったことを証明した場合
     modality: unspecified
     item_number: 2
 - number: 3

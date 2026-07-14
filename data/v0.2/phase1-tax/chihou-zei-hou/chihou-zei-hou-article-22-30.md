@@ -44,8 +44,8 @@ paragraphs:
     text: 前項の領置物件、差押物件又は記録命令付差押物件が第二十二条の十六第一項の規定による保管に係るものである場合には、同項の保管証をもつて引き継ぐとともに、その旨を同項の規定により当該物件を保管させた者に通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

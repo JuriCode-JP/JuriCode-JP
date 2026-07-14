@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-15-p1-kou-1
     type: kou
-    text: 再生医療等製品を譲り受けた者の氏名又は名称及び住所
+    text: 一　再生医療等製品を譲り受けた者の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-15-p1-kou-2
     type: kou
-    text: 再生医療等製品の名称及び製造番号又は製造記号
+    text: 二　再生医療等製品の名称及び製造番号又は製造記号
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-15-p1-kou-3
     type: kou
-    text: 再生医療等製品の数量
+    text: 三　再生医療等製品の数量
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-228-15-p1-kou-4
     type: kou
-    text: 再生医療等製品を譲り渡した年月日
+    text: 四　再生医療等製品を譲り渡した年月日
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-228-15-p1-kou-5
     type: kou
-    text: 再生医療等製品の使用の期限
+    text: 五　再生医療等製品の使用の期限
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-228-15-p1-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、再生医療等製品に係る保健衛生上の危害の発生又は拡大を防止するために必要な事項
+    text: 六　前各号に掲げるもののほか、再生医療等製品に係る保健衛生上の危害の発生又は拡大を防止するために必要な事項
     modality: unspecified
     item_number: 6
 cases: []

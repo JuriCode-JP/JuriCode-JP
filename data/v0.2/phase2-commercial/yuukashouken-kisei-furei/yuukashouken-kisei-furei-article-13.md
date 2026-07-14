@@ -61,12 +61,12 @@ paragraphs:
     modality: gimu
   - id: yuukashouken-kisei-furei-art-13-p5-kou-1
     type: kou
-    text: 法第六十七条の十九に規定する最終の価格
+    text: 一　法第六十七条の十九に規定する最終の価格
     modality: unspecified
     item_number: 1
   - id: yuukashouken-kisei-furei-art-13-p5-kou-2
     type: kou
-    text: 最終の気配相場の価格
+    text: 二　最終の気配相場の価格
     modality: unspecified
     item_number: 2
 - number: 6

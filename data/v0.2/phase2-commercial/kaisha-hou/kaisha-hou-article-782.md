@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-782-p1-kou-1
     type: kou
-    text: 吸収合併消滅株式会社　吸収合併契約
+    text: 一　吸収合併消滅株式会社　吸収合併契約
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-782-p1-kou-2
     type: kou
-    text: 吸収分割株式会社　吸収分割契約
+    text: 二　吸収分割株式会社　吸収分割契約
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-782-p1-kou-3
     type: kou
-    text: 株式交換完全子会社　株式交換契約
+    text: 三　株式交換完全子会社　株式交換契約
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,27 +49,27 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-782-p2-kou-1
     type: kou
-    text: 吸収合併契約等について株主総会（種類株主総会を含む。）の決議によってその承認を受けなければならないときは、当該株主総会の日の二週間前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）
+    text: 一　吸収合併契約等について株主総会（種類株主総会を含む。）の決議によってその承認を受けなければならないときは、当該株主総会の日の二週間前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-782-p2-kou-2
     type: kou
-    text: 第七百八十五条第三項の規定による通知を受けるべき株主があるときは、同項の規定による通知の日又は同条第四項の公告の日のいずれか早い日
+    text: 二　第七百八十五条第三項の規定による通知を受けるべき株主があるときは、同項の規定による通知の日又は同条第四項の公告の日のいずれか早い日
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-782-p2-kou-3
     type: kou
-    text: 第七百八十七条第三項の規定による通知を受けるべき新株予約権者があるときは、同項の規定による通知の日又は同条第四項の公告の日のいずれか早い日
+    text: 三　第七百八十七条第三項の規定による通知を受けるべき新株予約権者があるときは、同項の規定による通知の日又は同条第四項の公告の日のいずれか早い日
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-782-p2-kou-4
     type: kou
-    text: 第七百八十九条の規定による手続をしなければならないときは、同条第二項の規定による公告の日又は同項の規定による催告の日のいずれか早い日
+    text: 四　第七百八十九条の規定による手続をしなければならないときは、同条第二項の規定による公告の日又は同項の規定による催告の日のいずれか早い日
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-782-p2-kou-5
     type: kou
-    text: 前各号に規定する場合以外の場合には、吸収分割契約又は株式交換契約の締結の日から二週間を経過した日
+    text: 五　前各号に規定する場合以外の場合には、吸収分割契約又は株式交換契約の締結の日から二週間を経過した日
     modality: unspecified
     item_number: 5
 - number: 3
@@ -83,22 +83,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-782-p3-kou-1
     type: kou
-    text: 第一項の書面の閲覧の請求
+    text: 一　第一項の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-782-p3-kou-2
     type: kou
-    text: 第一項の書面の謄本又は抄本の交付の請求
+    text: 二　第一項の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-782-p3-kou-3
     type: kou
-    text: 第一項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　第一項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-782-p3-kou-4
     type: kou
-    text: 第一項の電磁的記録に記録された事項を電磁的方法であって消滅株式会社等の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　第一項の電磁的記録に記録された事項を電磁的方法であって消滅株式会社等の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-389-p1-kou-1
     type: kou
-    text: 総務省令で定める船舶、車両その他の移動性償却資産又は可動性償却資産で二以上の市町村にわたつて使用されるもののうち総務大臣が指定するもの
+    text: 一　総務省令で定める船舶、車両その他の移動性償却資産又は可動性償却資産で二以上の市町村にわたつて使用されるもののうち総務大臣が指定するもの
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-389-p1-kou-2
     type: kou
-    text: 鉄道、軌道、発電、送電、配電若しくは電気通信の用に供する固定資産又は二以上の市町村にわたつて所在する固定資産で、その全体を一の固定資産として評価しなければ適正な評価ができないと認められるもののうち総務大臣が指定するもの
+    text: 二　鉄道、軌道、発電、送電、配電若しくは電気通信の用に供する固定資産又は二以上の市町村にわたつて所在する固定資産で、その全体を一の固定資産として評価しなければ適正な評価ができないと認められるもののうち総務大臣が指定するもの
     modality: unspecified
     item_number: 2
 - number: 2
@@ -82,22 +82,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-389-p6-kou-1
     type: kou
-    text: 第一項第一号又は第二号の規定による固定資産の指定をしようとするとき。
+    text: 一　第一項第一号又は第二号の規定による固定資産の指定をしようとするとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-389-p6-kou-2
     type: kou
-    text: 第一項の規定による固定資産の価格等の決定及び配分をしようとするとき。
+    text: 二　第一項の規定による固定資産の価格等の決定及び配分をしようとするとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-389-p6-kou-3
     type: kou
-    text: 第四項の規定による固定資産の価格等の配分の調整の申出を受けたとき。
+    text: 三　第四項の規定による固定資産の価格等の配分の調整の申出を受けたとき。
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-389-p6-kou-4
     type: kou
-    text: 前項の規定による固定資産の価格等の配分の調整をしようとするとき。
+    text: 四　前項の規定による固定資産の価格等の配分の調整をしようとするとき。
     modality: unspecified
     item_number: 4
 cases: []

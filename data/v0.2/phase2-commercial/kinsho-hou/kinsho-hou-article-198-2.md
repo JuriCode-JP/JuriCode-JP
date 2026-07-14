@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-198-2-p1-kou-1
     type: kou
-    text: 第百九十七条第一項第五号若しくは第六号若しくは第二項又は第百九十七条の二第一項第十三号の罪の犯罪行為により得た財産
+    text: 一　第百九十七条第一項第五号若しくは第六号若しくは第二項又は第百九十七条の二第一項第十三号の罪の犯罪行為により得た財産
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-198-2-p1-kou-2
     type: kou
-    text: 前号に掲げる財産の対価として得た財産又は同号に掲げる財産がオプションその他の権利である場合における当該権利の行使により得た財産
+    text: 二　前号に掲げる財産の対価として得た財産又は同号に掲げる財産がオプションその他の権利である場合における当該権利の行使により得た財産
     modality: unspecified
     item_number: 2
 - number: 2

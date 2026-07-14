@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-25-2-p1-kou-1
     type: kou
-    text: 債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
+    text: 一　債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-25-2-p1-kou-2
     type: kou
-    text: 行政機関、金融機関その他第三者のあつせんによる当事者間の協議により締結された契約でその内容が前号に準ずるもの
+    text: 二　行政機関、金融機関その他第三者のあつせんによる当事者間の協議により締結された契約でその内容が前号に準ずるもの
     modality: unspecified
     item_number: 2
 cases: []

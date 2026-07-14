@@ -23,42 +23,42 @@ paragraphs:
     modality: unspecified
   - id: keihou-art-2-p1-kou-1
     type: kou
-    text: 削除
+    text: 一　削除
     modality: unspecified
     item_number: 1
   - id: keihou-art-2-p1-kou-2
     type: kou
-    text: 第七十七条から第七十九条まで（内乱、予備及び陰謀、内乱等幇助）の罪
+    text: 二　第七十七条から第七十九条まで（内乱、予備及び陰謀、内乱等幇助）の罪
     modality: unspecified
     item_number: 2
   - id: keihou-art-2-p1-kou-3
     type: kou
-    text: 第八十一条（外患誘致）、第八十二条（外患援助）、第八十七条（未遂罪）及び第八十八条（予備及び陰謀）の罪
+    text: 三　第八十一条（外患誘致）、第八十二条（外患援助）、第八十七条（未遂罪）及び第八十八条（予備及び陰謀）の罪
     modality: unspecified
     item_number: 3
   - id: keihou-art-2-p1-kou-4
     type: kou
-    text: 第百四十八条（通貨偽造及び行使等）の罪及びその未遂罪
+    text: 四　第百四十八条（通貨偽造及び行使等）の罪及びその未遂罪
     modality: unspecified
     item_number: 4
   - id: keihou-art-2-p1-kou-5
     type: kou
-    text: 第百五十四条（詔書偽造等）、第百五十五条（公文書偽造等）、第百五十七条（公正証書原本不実記載等）、第百五十八条（偽造公文書行使等）及び公務所又は公務員によって作られるべき電磁的記録に係る第百六十一条の二（電磁的記録不正作出及び供用）の罪
+    text: 五　第百五十四条（詔書偽造等）、第百五十五条（公文書偽造等）、第百五十七条（公正証書原本不実記載等）、第百五十八条（偽造公文書行使等）及び公務所又は公務員によって作られるべき電磁的記録に係る第百六十一条の二（電磁的記録不正作出及び供用）の罪
     modality: unspecified
     item_number: 5
   - id: keihou-art-2-p1-kou-6
     type: kou
-    text: 第百六十二条（有価証券偽造等）及び第百六十三条（偽造有価証券行使等）の罪
+    text: 六　第百六十二条（有価証券偽造等）及び第百六十三条（偽造有価証券行使等）の罪
     modality: unspecified
     item_number: 6
   - id: keihou-art-2-p1-kou-7
     type: kou
-    text: 第百六十三条の二から第百六十三条の五まで（支払用カード電磁的記録不正作出等、不正電磁的記録カード所持、支払用カード電磁的記録不正作出準備、未遂罪）の罪
+    text: 七　第百六十三条の二から第百六十三条の五まで（支払用カード電磁的記録不正作出等、不正電磁的記録カード所持、支払用カード電磁的記録不正作出準備、未遂罪）の罪
     modality: unspecified
     item_number: 7
   - id: keihou-art-2-p1-kou-8
     type: kou
-    text: 第百六十四条から第百六十六条まで（御璽偽造及び不正使用等、公印偽造及び不正使用等、公記号偽造及び不正使用等）の罪並びに第百六十四条第二項、第百六十五条第二項及び第百六十六条第二項の罪の未遂罪
+    text: 八　第百六十四条から第百六十六条まで（御璽偽造及び不正使用等、公印偽造及び不正使用等、公記号偽造及び不正使用等）の罪並びに第百六十四条第二項、第百六十五条第二項及び第百六十六条第二項の罪の未遂罪
     modality: unspecified
     item_number: 8
 cases: []

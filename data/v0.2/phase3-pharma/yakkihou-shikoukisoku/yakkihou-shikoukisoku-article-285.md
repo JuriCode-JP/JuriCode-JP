@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-285-p1-kou-1
     type: kou
-    text: 品名
+    text: 一　品名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-285-p1-kou-2
     type: kou
-    text: ロツト番号（ロツトを構成しない医薬品については製造番号）
+    text: 二　ロツト番号（ロツトを構成しない医薬品については製造番号）
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-285-p1-kou-3
     type: kou
-    text: 使用の期限
+    text: 三　使用の期限
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-285-p1-kou-4
     type: kou
-    text: 数量
+    text: 四　数量
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-285-p1-kou-5
     type: kou
-    text: 移転先及び移転元の場所並びに移転の年月日
+    text: 五　移転先及び移転元の場所並びに移転の年月日
     modality: unspecified
     item_number: 5
 - number: 2

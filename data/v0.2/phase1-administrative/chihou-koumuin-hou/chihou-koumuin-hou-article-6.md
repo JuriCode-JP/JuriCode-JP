@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の任命権者は、同項に規定する権限の一部をその補助機関たる上級の地方公務員に委任することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

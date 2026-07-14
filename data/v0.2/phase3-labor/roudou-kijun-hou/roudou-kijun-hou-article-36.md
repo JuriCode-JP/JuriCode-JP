@@ -36,27 +36,27 @@ paragraphs:
     - 前項
   - id: roudou-kijun-hou-art-36-p2-kou-1
     type: kou
-    text: この条の規定により労働時間を延長し、又は休日に労働させることができることとされる労働者の範囲
+    text: 一　この条の規定により労働時間を延長し、又は休日に労働させることができることとされる労働者の範囲
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-36-p2-kou-2
     type: kou
-    text: 対象期間（この条の規定により労働時間を延長し、又は休日に労働させることができる期間をいい、一年間に限るものとする。第四号及び第六項第三号において同じ。）
+    text: 二　対象期間（この条の規定により労働時間を延長し、又は休日に労働させることができる期間をいい、一年間に限るものとする。第四号及び第六項第三号において同じ。）
     modality: unspecified
     item_number: 2
   - id: roudou-kijun-hou-art-36-p2-kou-3
     type: kou
-    text: 労働時間を延長し、又は休日に労働させることができる場合
+    text: 三　労働時間を延長し、又は休日に労働させることができる場合
     modality: unspecified
     item_number: 3
   - id: roudou-kijun-hou-art-36-p2-kou-4
     type: kou
-    text: 対象期間における一日、一箇月及び一年のそれぞれの期間について労働時間を延長して労働させることができる時間又は労働させることができる休日の日数
+    text: 四　対象期間における一日、一箇月及び一年のそれぞれの期間について労働時間を延長して労働させることができる時間又は労働させることができる休日の日数
     modality: unspecified
     item_number: 4
   - id: roudou-kijun-hou-art-36-p2-kou-5
     type: kou
-    text: 労働時間の延長及び休日の労働を適正なものとするために必要な事項として厚生労働省令で定める事項
+    text: 五　労働時間の延長及び休日の労働を適正なものとするために必要な事項として厚生労働省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 3
@@ -106,17 +106,17 @@ paragraphs:
     modality: gimu
   - id: roudou-kijun-hou-art-36-p6-kou-1
     type: kou
-    text: 坑内労働その他厚生労働省令で定める健康上特に有害な業務について、一日について労働時間を延長して労働させた時間　二時間を超えないこと。
+    text: 一　坑内労働その他厚生労働省令で定める健康上特に有害な業務について、一日について労働時間を延長して労働させた時間　二時間を超えないこと。
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-36-p6-kou-2
     type: kou
-    text: 一箇月について労働時間を延長して労働させ、及び休日において労働させた時間　百時間未満であること。
+    text: 二　一箇月について労働時間を延長して労働させ、及び休日において労働させた時間　百時間未満であること。
     modality: unspecified
     item_number: 2
   - id: roudou-kijun-hou-art-36-p6-kou-3
     type: kou
-    text: 対象期間の初日から一箇月ごとに区分した各期間に当該各期間の直前の一箇月、二箇月、三箇月、四箇月及び五箇月の期間を加えたそれぞれの期間における労働時間を延長して労働させ、及び休日において労働させた時間の一箇月当たりの平均時間　八十時間を超えないこと。
+    text: 三　対象期間の初日から一箇月ごとに区分した各期間に当該各期間の直前の一箇月、二箇月、三箇月、四箇月及び五箇月の期間を加えたそれぞれの期間における労働時間を延長して労働させ、及び休日において労働させた時間の一箇月当たりの平均時間　八十時間を超えないこと。
     modality: unspecified
     item_number: 3
 - number: 7

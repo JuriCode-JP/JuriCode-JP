@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-137-48-9-p2-kou-1
     type: kou
-    text: 再生医療等製品適合性確認に係る品目の製造管理及び品質管理に関する資料
+    text: 一　再生医療等製品適合性確認に係る品目の製造管理及び品質管理に関する資料
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-48-9-p2-kou-2
     type: kou
-    text: 再生医療等製品適合性確認に係る製造所の製造管理及び品質管理に関する資料
+    text: 二　再生医療等製品適合性確認に係る製造所の製造管理及び品質管理に関する資料
     modality: unspecified
     item_number: 2
 - number: 3

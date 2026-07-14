@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-8-3-p1-kou-1
     type: kou
-    text: 金融商品取引法（昭和二十三年法律第二十五号）第二十四条第一項（有価証券報告書の提出）に規定する有価証券報告書に記載する方法
+    text: 一　金融商品取引法（昭和二十三年法律第二十五号）第二十四条第一項（有価証券報告書の提出）に規定する有価証券報告書に記載する方法
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-8-3-p1-kou-2
     type: kou
-    text: 銀行法（昭和五十六年法律第五十九号）第二十条第一項（貸借対照表等の公告等）の規定により作成した書類及び同法第二十一条第一項（業務及び財産の状況に関する説明書類の縦覧等）に規定する説明書類を同項の規定により公衆の縦覧に供する方法（これらの書類につき同条第四項に規定する内閣府令で定める措置をとる方法を含む。）
+    text: 二　銀行法（昭和五十六年法律第五十九号）第二十条第一項（貸借対照表等の公告等）の規定により作成した書類及び同法第二十一条第一項（業務及び財産の状況に関する説明書類の縦覧等）に規定する説明書類を同項の規定により公衆の縦覧に供する方法（これらの書類につき同条第四項に規定する内閣府令で定める措置をとる方法を含む。）
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-8-3-p1-kou-3
     type: kou
-    text: 信託業法（平成十六年法律第百五十四号）第三十四条第一項（業務及び財産の状況に関する説明書類の縦覧）に規定する説明書類を同項の規定により公衆の縦覧に供する方法（当該説明書類につき同条第三項に規定する内閣府令で定める措置をとる方法を含む。）
+    text: 三　信託業法（平成十六年法律第百五十四号）第三十四条第一項（業務及び財産の状況に関する説明書類の縦覧）に規定する説明書類を同項の規定により公衆の縦覧に供する方法（当該説明書類につき同条第三項に規定する内閣府令で定める措置をとる方法を含む。）
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-8-3-p1-kou-4
     type: kou
-    text: 会社法第四百三十五条第二項（計算書類等の作成及び保存）に規定する計算書類及び事業報告並びにこれらの附属明細書を公告する方法
+    text: 四　会社法第四百三十五条第二項（計算書類等の作成及び保存）に規定する計算書類及び事業報告並びにこれらの附属明細書を公告する方法
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-8-3-p1-kou-5
     type: kou
-    text: 前各号に掲げる方法に類する方法
+    text: 五　前各号に掲げる方法に類する方法
     modality: unspecified
     item_number: 5
 - number: 2

@@ -37,12 +37,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-724-p2-kou-1
     type: kou
-    text: 第七百六条第一項各号に掲げる行為に関する事項
+    text: 一　第七百六条第一項各号に掲げる行為に関する事項
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-724-p2-kou-2
     type: kou
-    text: 第七百六条第一項、第七百十四条の四第三項（同条第二項第三号に掲げる行為に係る部分に限る。）、第七百三十六条第一項、第七百三十七条第一項ただし書及び第七百三十八条の規定により社債権者集会の決議を必要とする事項
+    text: 二　第七百六条第一項、第七百十四条の四第三項（同条第二項第三号に掲げる行為に係る部分に限る。）、第七百三十六条第一項、第七百三十七条第一項ただし書及び第七百三十八条の規定により社債権者集会の決議を必要とする事項
     modality: unspecified
     item_number: 2
 - number: 3

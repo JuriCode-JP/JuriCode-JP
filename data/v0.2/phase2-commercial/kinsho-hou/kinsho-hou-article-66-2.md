@@ -25,32 +25,32 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-66-2-p1-kou-1
     type: kou
-    text: 商号、名称又は氏名
+    text: 一　商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-2-p1-kou-2
     type: kou
-    text: 法人であるときは、その役員の氏名又は名称
+    text: 二　法人であるときは、その役員の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-2-p1-kou-3
     type: kou
-    text: 金融商品仲介業を行う営業所又は事務所の名称及び所在地
+    text: 三　金融商品仲介業を行う営業所又は事務所の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-2-p1-kou-4
     type: kou
-    text: 委託を受ける金融商品取引業者（第一種金融商品取引業又は投資運用業（第二十八条第四項に規定する投資運用業をいう。第六十六条の十四第一号ニにおいて同じ。）を行う者に限る。）又は登録金融機関（以下この章及び第四章において「所属金融商品取引業者等」という。）の商号又は名称
+    text: 四　委託を受ける金融商品取引業者（第一種金融商品取引業又は投資運用業（第二十八条第四項に規定する投資運用業をいう。第六十六条の十四第一号ニにおいて同じ。）を行う者に限る。）又は登録金融機関（以下この章及び第四章において「所属金融商品取引業者等」という。）の商号又は名称
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-66-2-p1-kou-5
     type: kou
-    text: 他に事業を行つているときは、その事業の種類
+    text: 五　他に事業を行つているときは、その事業の種類
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-66-2-p1-kou-6
     type: kou
-    text: その他内閣府令で定める事項
+    text: 六　その他内閣府令で定める事項
     modality: unspecified
     item_number: 6
 - number: 2
@@ -66,22 +66,22 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-66-2-p2-kou-1
     type: kou
-    text: 第六十六条の四第一号又は第二号に該当しないことを誓約する書面
+    text: 一　第六十六条の四第一号又は第二号に該当しないことを誓約する書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-2-p2-kou-2
     type: kou
-    text: 金融商品仲介業の業務の内容及び方法として内閣府令で定めるものを記載した書類
+    text: 二　金融商品仲介業の業務の内容及び方法として内閣府令で定めるものを記載した書類
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-2-p2-kou-3
     type: kou
-    text: 法人であるときは、定款及び会社の登記事項証明書（これらに準ずるものを含む。）
+    text: 三　法人であるときは、定款及び会社の登記事項証明書（これらに準ずるものを含む。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-2-p2-kou-4
     type: kou
-    text: その他内閣府令で定める書類
+    text: 四　その他内閣府令で定める書類
     modality: unspecified
     item_number: 4
 - number: 3

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kojin-jouhou-hogo-hou-art-62-p1-kou-1
     type: kou
-    text: 人の生命、身体又は財産の保護のために緊急に必要があるとき。
+    text: 一　人の生命、身体又は財産の保護のために緊急に必要があるとき。
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-62-p1-kou-2
     type: kou
-    text: 利用目的を本人に明示することにより、本人又は第三者の生命、身体、財産その他の権利利益を害するおそれがあるとき。
+    text: 二　利用目的を本人に明示することにより、本人又は第三者の生命、身体、財産その他の権利利益を害するおそれがあるとき。
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-62-p1-kou-3
     type: kou
-    text: 利用目的を本人に明示することにより、国の機関、独立行政法人等、地方公共団体又は地方独立行政法人が行う事務又は事業の適正な遂行に支障を及ぼすおそれがあるとき。
+    text: 三　利用目的を本人に明示することにより、国の機関、独立行政法人等、地方公共団体又は地方独立行政法人が行う事務又は事業の適正な遂行に支障を及ぼすおそれがあるとき。
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-62-p1-kou-4
     type: kou
-    text: 取得の状況からみて利用目的が明らかであると認められるとき。
+    text: 四　取得の状況からみて利用目的が明らかであると認められるとき。
     modality: unspecified
     item_number: 4
 cases: []

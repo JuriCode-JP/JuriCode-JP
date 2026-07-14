@@ -28,17 +28,17 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-239-p1-kou-1
     type: kou
-    text: その委任に基づいて募集事項の決定をすることができる募集新株予約権の内容及び数の上限
+    text: 一　その委任に基づいて募集事項の決定をすることができる募集新株予約権の内容及び数の上限
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-239-p1-kou-2
     type: kou
-    text: 前号の募集新株予約権につき金銭の払込みを要しないこととする場合には、その旨
+    text: 二　前号の募集新株予約権につき金銭の払込みを要しないこととする場合には、その旨
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-239-p1-kou-3
     type: kou
-    text: 前号に規定する場合以外の場合には、募集新株予約権の払込金額の下限
+    text: 三　前号に規定する場合以外の場合には、募集新株予約権の払込金額の下限
     modality: unspecified
     item_number: 3
 - number: 2
@@ -54,12 +54,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-239-p2-kou-1
     type: kou
-    text: 前項第二号に規定する場合において、金銭の払込みを要しないこととすることが当該者に特に有利な条件であるとき。
+    text: 一　前項第二号に規定する場合において、金銭の払込みを要しないこととすることが当該者に特に有利な条件であるとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-239-p2-kou-2
     type: kou
-    text: 前項第三号に規定する場合において、同号の払込金額の下限が当該者に特に有利な金額であるとき。
+    text: 二　前項第三号に規定する場合において、同号の払込金額の下限が当該者に特に有利な金額であるとき。
     modality: unspecified
     item_number: 2
 - number: 3

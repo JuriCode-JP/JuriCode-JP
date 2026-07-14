@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-72-95-p1-kou-1
     type: kou
-    text: 偽りその他不正の行為により、譲渡割の全部又は一部を免れたとき。
+    text: 一　偽りその他不正の行為により、譲渡割の全部又は一部を免れたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-95-p1-kou-2
     type: kou
-    text: 偽りその他不正の行為により、第七十二条の八十八第二項若しくは第三項の規定による還付を受け、又は第七十二条の九十三第一項若しくは第四項の規定による更正による還付（更正の請求に基づく更正によるものに限る。）を受けたとき。
+    text: 二　偽りその他不正の行為により、第七十二条の八十八第二項若しくは第三項の規定による還付を受け、又は第七十二条の九十三第一項若しくは第四項の規定による更正による還付（更正の請求に基づく更正によるものに限る。）を受けたとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -52,8 +52,8 @@ paragraphs:
     text: 第一項第一号の免れた税額若しくは同項第二号の還付を受けた金額又は前項の犯罪に係る還付を受けようとした金額が千万円を超える場合には、情状により、当該各項の罰金の額は、当該各項の規定にかかわらず、千万円を超える額でその免れた税額若しくは還付を受けた金額又は還付を受けようとした金額に相当する額以下の額とすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -76,8 +76,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

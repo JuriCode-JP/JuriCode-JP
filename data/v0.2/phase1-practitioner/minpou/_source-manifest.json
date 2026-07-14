@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\129AC0000000089.xml",
   "source_xml_sha256": "eb9aa81552a7bbfe16ad1b031eeddca1caa301c635c9ccd083e17c59a76c1dba",
   "source_xml_bytes": 1630083,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:57:57+00:00",
+  "parsed_at": "2026-07-14T01:43:53+00:00",
   "version_date": "1896-04-27",
   "article_count": 1165,
   "articles": [
@@ -618,8 +618,8 @@
       "article_id": "minpou-art-120",
       "article_number": "120",
       "filename": "minpou-article-120.md",
-      "ja_text_sha256": "e5c8a65337860b7dc26ea72600a59c0e08f41987ac9ab886d995794b3abf349a",
-      "ja_text_bytes": 569,
+      "ja_text_sha256": "59421dd3dea098636c3a723e6c671a5bbd5eb4c7a33000cfea0ef0bd34f6a7c9",
+      "ja_text_bytes": 563,
       "paragraph_count": 2
     },
     {
@@ -1362,8 +1362,8 @@
       "article_id": "minpou-art-210",
       "article_number": "210",
       "filename": "minpou-article-210.md",
-      "ja_text_sha256": "4e2ba8127a8989cfb54e83d6b79dd1e5d5ab7a38dd9fa57e5967ed3a66d9a9ee",
-      "ja_text_bytes": 395,
+      "ja_text_sha256": "8092a78c87f8662f594f149de9edf3a4fc66b1d8377e6cf509dfe7ed2e5656c2",
+      "ja_text_bytes": 389,
       "paragraph_count": 2
     },
     {
@@ -1418,8 +1418,8 @@
       "article_id": "minpou-art-215",
       "article_number": "215",
       "filename": "minpou-article-215.md",
-      "ja_text_sha256": "af43e259d11ef52966f28d613c441d9b053b788415e44a0c703803984bb8e337",
-      "ja_text_bytes": 243,
+      "ja_text_sha256": "0ed191414c6a16c0ccff4da99bbb49d318fcab9a2042ecaac81552f351eef326",
+      "ja_text_bytes": 237,
       "paragraph_count": 1
     },
     {
@@ -1482,8 +1482,8 @@
       "article_id": "minpou-art-222",
       "article_number": "222",
       "filename": "minpou-article-222.md",
-      "ja_text_sha256": "bde0e18f5a45af4084e51ff8e3b45a93f58f858b3a03ec2f95911356984db486",
-      "ja_text_bytes": 529,
+      "ja_text_sha256": "30c1c850263049bb0d08a7276791e9103b80bec9acf0d74ad3ed864596269870",
+      "ja_text_bytes": 523,
       "paragraph_count": 3
     },
     {
@@ -1850,8 +1850,8 @@
       "article_id": "minpou-art-262-2",
       "article_number": "262-2",
       "filename": "minpou-article-262-2.md",
-      "ja_text_sha256": "7b180a7939e73620e7bd5fb7fff12edfc3dc328c0dc0fbb8e1d6b4f6c40b82a4",
-      "ja_text_bytes": 1772,
+      "ja_text_sha256": "7ea95a9df442f2e18217254596e7f74802e6c7c774ae49c9be1466a34eb58252",
+      "ja_text_bytes": 1766,
       "paragraph_count": 5
     },
     {
@@ -2322,8 +2322,8 @@
       "article_id": "minpou-art-30",
       "article_number": "30",
       "filename": "minpou-article-30.md",
-      "ja_text_sha256": "a2e44ddad07e27522146a049e586b3e9836c0be46a8b5952c477ce555308a497",
-      "ja_text_bytes": 482,
+      "ja_text_sha256": "4e96de09581805421fcdb967085437815b1035d048a2535dd8e699a7b957b9b3",
+      "ja_text_bytes": 473,
       "paragraph_count": 2
     },
     {
@@ -2602,8 +2602,8 @@
       "article_id": "minpou-art-33",
       "article_number": "33",
       "filename": "minpou-article-33.md",
-      "ja_text_sha256": "1760a6f4d367ad4c44e0011777b911cecbf25b6f6c5e5c5654df5ed852e0970a",
-      "ja_text_bytes": 374,
+      "ja_text_sha256": "345f0cfdee03e2922a89b5f0d0c8db70e676f7a06b7ab8603e53f3a2fb336a3a",
+      "ja_text_bytes": 371,
       "paragraph_count": 2
     },
     {
@@ -6578,8 +6578,8 @@
       "article_id": "minpou-art-719",
       "article_number": "719",
       "filename": "minpou-article-719.md",
-      "ja_text_sha256": "449772c3f8183e5674497b3fedfc66f77659027ae2758ed45640ee333ec386c9",
-      "ja_text_bytes": 404,
+      "ja_text_sha256": "4fe6c5bb494e985ba44e7c5e000c772e2528e3255b78fbfd1cde86ecdf479164",
+      "ja_text_bytes": 398,
       "paragraph_count": 2
     },
     {
@@ -6610,8 +6610,8 @@
       "article_id": "minpou-art-723",
       "article_number": "723",
       "filename": "minpou-article-723.md",
-      "ja_text_sha256": "28f1a78a2976a363326cb6c37e48d938e0e5d4ef5f4d9ee5e175157957907dd6",
-      "ja_text_bytes": 234,
+      "ja_text_sha256": "5961f231f014bfd23af35926371a57866c2ee69497804d1b929d9c5abb6541ef",
+      "ja_text_bytes": 231,
       "paragraph_count": 1
     },
     {
@@ -6674,8 +6674,8 @@
       "article_id": "minpou-art-730",
       "article_number": "730",
       "filename": "minpou-article-730.md",
-      "ja_text_sha256": "4549671e4ee1188a2314544d32e55f78f7a12e692d43c328a041ee5e696e4579",
-      "ja_text_bytes": 93,
+      "ja_text_sha256": "62517d8959f4fbcf0fab9dead9dc92abeafa240a61081195470c0b2fd5451ac8",
+      "ja_text_bytes": 87,
       "paragraph_count": 1
     },
     {

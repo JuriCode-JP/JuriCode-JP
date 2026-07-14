@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-61-p1-kou-1
     type: kou
-    text: 主文
+    text: 一　主文
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-61-p1-kou-2
     type: kou
-    text: 事実及び理由
+    text: 二　事実及び理由
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-61-p1-kou-3
     type: kou
-    text: 被審人及びその代理人
+    text: 三　被審人及びその代理人
     modality: unspecified
     item_number: 3
 - number: 2
@@ -72,12 +72,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-61-p4-kou-1
     type: kou
-    text: 法第百七十八条第一項各号に掲げる事実がないこと。
+    text: 一　法第百七十八条第一項各号に掲げる事実がないこと。
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-61-p4-kou-2
     type: kou
-    text: 法第百八十五条の七第三項、第五項ただし書、第七項ただし書、第九項、第十一項ただし書、第十六項ただし書又は第十七項ただし書に該当すること。
+    text: 二　法第百八十五条の七第三項、第五項ただし書、第七項ただし書、第九項、第十一項ただし書、第十六項ただし書又は第十七項ただし書に該当すること。
     modality: unspecified
     item_number: 2
 cases: []

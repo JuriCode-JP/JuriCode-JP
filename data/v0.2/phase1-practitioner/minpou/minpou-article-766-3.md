@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-766-3-p1-kou-1
     type: kou
-    text: 父母がその協議により子の監護に要する費用の分担についての定めをした日
+    text: 一　父母がその協議により子の監護に要する費用の分担についての定めをした日
     modality: unspecified
     item_number: 1
   - id: minpou-art-766-3-p1-kou-2
     type: kou
-    text: 子の監護に要する費用の分担についての審判が確定した日
+    text: 二　子の監護に要する費用の分担についての審判が確定した日
     modality: unspecified
     item_number: 2
   - id: minpou-art-766-3-p1-kou-3
     type: kou
-    text: 子が成年に達した日
+    text: 三　子が成年に達した日
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 離婚の日の属する月又は前項各号に掲げる日のいずれか早い日の属する月における同項の額は、法務省令で定めるところにより日割りで計算する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

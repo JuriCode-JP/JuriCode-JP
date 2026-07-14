@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-13-p1-kou-1
     type: kou
-    text: 専ら当該国の施設等の用に供している建物の部分の床面積
+    text: 一　専ら当該国の施設等の用に供している建物の部分の床面積
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-13-p1-kou-2
     type: kou
-    text: 専ら当該国の施設等の用以外の用に供している建物の部分の床面積
+    text: 二　専ら当該国の施設等の用以外の用に供している建物の部分の床面積
     modality: unspecified
     item_number: 2
 - number: 2

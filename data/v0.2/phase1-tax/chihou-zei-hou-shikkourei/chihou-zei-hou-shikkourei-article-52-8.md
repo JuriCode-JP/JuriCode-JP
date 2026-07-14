@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-52-8-p1-kou-1
     type: kou
-    text: 事務所
+    text: 一　事務所
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-52-8-p1-kou-2
     type: kou
-    text: 宿舎（業務上宿舎を使用すべき義務がある者が使用するものとされている宿舎を除く。）
+    text: 二　宿舎（業務上宿舎を使用すべき義務がある者が使用するものとされている宿舎を除く。）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-52-8-p1-kou-3
     type: kou
-    text: 国その他これに準ずる者として総務大臣が定めるもの以外の者の委託を受けて行う業務の用に専ら供する家屋及び償却資産
+    text: 三　国その他これに準ずる者として総務大臣が定めるもの以外の者の委託を受けて行う業務の用に専ら供する家屋及び償却資産
     modality: unspecified
     item_number: 3
 cases: []

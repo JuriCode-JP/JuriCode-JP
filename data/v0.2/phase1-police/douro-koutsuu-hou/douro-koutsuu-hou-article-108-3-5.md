@@ -34,6 +34,10 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 次条
+  - id: douro-koutsuu-hou-art-108-3-5-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第十七号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

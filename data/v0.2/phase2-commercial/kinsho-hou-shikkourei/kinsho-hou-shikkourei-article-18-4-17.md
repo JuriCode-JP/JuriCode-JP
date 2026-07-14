@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-18-4-17-p1-kou-1
     type: kou
-    text: 名称
+    text: 一　名称
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-18-4-17-p1-kou-2
     type: kou
-    text: 主たる事務所の所在の場所
+    text: 二　主たる事務所の所在の場所
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-18-4-17-p1-kou-3
     type: kou
-    text: 代表者又は管理人の氏名
+    text: 三　代表者又は管理人の氏名
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-18-4-17-p1-kou-4
     type: kou
-    text: 認定の申請に係る業務を行おうとする事務所の所在の場所
+    text: 四　認定の申請に係る業務を行おうとする事務所の所在の場所
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-18-4-17-p1-kou-5
     type: kou
-    text: 認定の申請に係る業務の概要（特定認定業務が含まれる場合には、その種類を含む。）
+    text: 五　認定の申請に係る業務の概要（特定認定業務が含まれる場合には、その種類を含む。）
     modality: unspecified
     item_number: 5
 - number: 2
@@ -59,42 +59,42 @@ paragraphs:
     - 前項
   - id: kinsho-hou-shikkourei-art-18-4-17-p2-kou-1
     type: kou
-    text: 定款、寄附行為その他の基本約款
+    text: 一　定款、寄附行為その他の基本約款
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-18-4-17-p2-kou-2
     type: kou
-    text: 認定を受けようとする者が法第七十九条の八各号のいずれにも該当しないことを誓約する書面
+    text: 二　認定を受けようとする者が法第七十九条の八各号のいずれにも該当しないことを誓約する書面
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-18-4-17-p2-kou-3
     type: kou
-    text: 認定の申請に係る業務の実施の方法を記載した書類
+    text: 三　認定の申請に係る業務の実施の方法を記載した書類
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-18-4-17-p2-kou-4
     type: kou
-    text: 認定の申請に係る業務を適正かつ確実に行うに足りる知識及び能力を有することを明らかにする書類
+    text: 四　認定の申請に係る業務を適正かつ確実に行うに足りる知識及び能力を有することを明らかにする書類
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-18-4-17-p2-kou-5
     type: kou
-    text: 最近の事業年度における事業報告書、貸借対照表、収支決算書、財産目録その他の経理的基礎を有することを明らかにする書類（申請の日の属する事業年度に設立された法人（法第七十九条の七第一項に規定する法人をいう。）にあつては、その設立時における財産目録その他の経理的基礎を有することを明らかにする書類）
+    text: 五　最近の事業年度における事業報告書、貸借対照表、収支決算書、財産目録その他の経理的基礎を有することを明らかにする書類（申請の日の属する事業年度に設立された法人（法第七十九条の七第一項に規定する法人をいう。）にあつては、その設立時における財産目録その他の経理的基礎を有することを明らかにする書類）
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-18-4-17-p2-kou-6
     type: kou
-    text: 役員（法人でない団体で代表者又は管理人の定めのあるものの代表者又は管理人を含む。）の氏名、住所及び略歴を記載した書類
+    text: 六　役員（法人でない団体で代表者又は管理人の定めのあるものの代表者又は管理人を含む。）の氏名、住所及び略歴を記載した書類
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-18-4-17-p2-kou-7
     type: kou
-    text: 対象事業者（法第七十九条の十一第一項に規定する対象事業者をいう。）の氏名又は名称を記載した書類及び当該対象事業者が認定を受けようとする者の構成員であること又は認定の申請に係る業務の対象となることについて同意したものであることを証する書類
+    text: 七　対象事業者（法第七十九条の十一第一項に規定する対象事業者をいう。）の氏名又は名称を記載した書類及び当該対象事業者が認定を受けようとする者の構成員であること又は認定の申請に係る業務の対象となることについて同意したものであることを証する書類
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-18-4-17-p2-kou-8
     type: kou
-    text: 認定の申請に係る業務以外の業務を行つている場合は、その業務の種類及び概要を記載した書類（苦情の解決又はあつせんであつて内閣府令で定める業務を行つている場合には、当該業務を行うことによつて認定の申請に係る業務が不公正になるおそれがないことを証するものとして内閣府令で定める書類を含む。）
+    text: 八　認定の申請に係る業務以外の業務を行つている場合は、その業務の種類及び概要を記載した書類（苦情の解決又はあつせんであつて内閣府令で定める業務を行つている場合には、当該業務を行うことによつて認定の申請に係る業務が不公正になるおそれがないことを証するものとして内閣府令で定める書類を含む。）
     modality: unspecified
     item_number: 8
 - number: 3

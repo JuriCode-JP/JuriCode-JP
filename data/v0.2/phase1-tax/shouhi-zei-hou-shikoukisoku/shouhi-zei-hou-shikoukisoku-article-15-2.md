@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: shouhi-zei-hou-shikoukisoku-art-15-2-p1-kou-1
     type: kou
-    text: 銀行
+    text: 一　銀行
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-15-2-p1-kou-2
     type: kou
-    text: 協同組織金融機関の優先出資に関する法律（平成五年法律第四十四号）第二条第一項（定義）に規定する協同組織金融機関及び金融商品取引法施行令（昭和四十年政令第三百二十一号）第一条の九各号（金融機関の範囲）に掲げる金融機関
+    text: 二　協同組織金融機関の優先出資に関する法律（平成五年法律第四十四号）第二条第一項（定義）に規定する協同組織金融機関及び金融商品取引法施行令（昭和四十年政令第三百二十一号）第一条の九各号（金融機関の範囲）に掲げる金融機関
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-15-2-p1-kou-3
     type: kou
-    text: 信託会社
+    text: 三　信託会社
     modality: unspecified
     item_number: 3
 cases: []

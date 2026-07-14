@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 車両等の運転者は、当該車両等のハンドル、ブレーキその他の装置を確実に操作し、かつ、道路、交通及び当該車両等の状況に応じ、他人に危害を及ぼさないような速度と方法で運転しなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-70-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の二第一項第四号、第百十七条の二の二第一項第八号リ、第百十九条第一項第十四号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

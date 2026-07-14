@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: douro-koutsuu-hou-art-75-27-p1-kou-1
     type: kou
-    text: 特定自動運行実施者又はその特定自動運行業務従事者が、特定自動運行に関し、この法律若しくはこの法律に基づく命令の規定又はこの法律の規定に基づく処分に違反したとき。
+    text: 一　特定自動運行実施者又はその特定自動運行業務従事者が、特定自動運行に関し、この法律若しくはこの法律に基づく命令の規定又はこの法律の規定に基づく処分に違反したとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-75-27-p1-kou-2
     type: kou
-    text: 特定自動運行計画が第七十五条の十三第一項各号に掲げる基準に適合しなくなつたとき。
+    text: 二　特定自動運行計画が第七十五条の十三第一項各号に掲げる基準に適合しなくなつたとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-75-27-p1-kou-3
     type: kou
-    text: 特定自動運行実施者が第七十五条の十四各号のいずれかに該当することとなつたとき。
+    text: 三　特定自動運行実施者が第七十五条の十四各号のいずれかに該当することとなつたとき。
     modality: unspecified
     item_number: 3
 - number: 2

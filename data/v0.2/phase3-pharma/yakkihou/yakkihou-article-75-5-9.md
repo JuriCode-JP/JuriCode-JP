@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項の規定による通知を受けた者（同条第二項後段の規定により当該通知が到達したものとみなされる者を含む。次項及び第四項において「当事者」という。）は、代理人を選任することができる。
     modality: kanou_kenri
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false

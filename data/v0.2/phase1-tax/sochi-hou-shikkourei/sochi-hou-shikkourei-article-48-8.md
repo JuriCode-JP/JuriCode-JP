@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-48-8-p1-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-8-p1-kou-2
     type: kou
-    text: 申請者の住所地又は居所地以外の場所に特定用途石油製品等の輸入に係る事務所を有する場合には、その所在地
+    text: 二　申請者の住所地又は居所地以外の場所に特定用途石油製品等の輸入に係る事務所を有する場合には、その所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-8-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 2
@@ -60,17 +60,17 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-48-8-p3-kou-1
     type: kou
-    text: 提出者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　提出者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-8-p3-kou-2
     type: kou
-    text: 法第九十条の三の四第一項の承認を受けた年月日
+    text: 二　法第九十条の三の四第一項の承認を受けた年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-8-p3-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

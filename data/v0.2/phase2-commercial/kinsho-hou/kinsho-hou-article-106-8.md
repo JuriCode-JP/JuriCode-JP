@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-106-8-p1-kou-1
     type: kou
-    text: 認可を受けた日から六月以内に保有基準割合以上の数の対象議決権の保有者とならなかつたとき。
+    text: 一　認可を受けた日から六月以内に保有基準割合以上の数の対象議決権の保有者とならなかつたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-106-8-p1-kou-2
     type: kou
-    text: 保有基準割合未満の数の対象議決権の保有者となつたとき。
+    text: 二　保有基準割合未満の数の対象議決権の保有者となつたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-106-8-p1-kou-3
     type: kou
-    text: 金融商品取引所、金融商品取引所持株会社、商品取引所又は商品取引所持株会社になつたとき。
+    text: 三　金融商品取引所、金融商品取引所持株会社、商品取引所又は商品取引所持株会社になつたとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項の規定により認可が失効したとき（同項第三号に係る場合にあつては、商品取引所又は商品取引所持株会社になつたときに限る。）は、主要株主であつた者は、遅滞なく、その旨を内閣総理大臣に届け出なければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -22,9 +22,9 @@ paragraphs:
     text: 前条第一項に規定する利子等又は配当等につき支払を受ける者は、同項から同条第三項までの規定による告知をする際、当該告知をする貯蓄取扱機関等の営業所の長に、次項に規定する書類を提示し、又は署名用電子証明書等を送信しなければならない。
     modality: gimu
     references:
-    - 同項
-    - 前条
     - 次項
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: true
@@ -36,12 +36,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-337-p2-kou-1
     type: kou
-    text: 個人　当該個人の住民票の写し、行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第七項（定義）に規定する個人番号カードその他の財務省令で定める書類
+    text: 一　個人　当該個人の住民票の写し、行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第七項（定義）に規定する個人番号カードその他の財務省令で定める書類
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-337-p2-kou-2
     type: kou
-    text: 法人　当該法人の設立の登記に係る登記事項証明書、行政手続における特定の個人を識別するための番号の利用等に関する法律施行令（平成二十六年政令第百五十五号）第三十八条（法人番号の通知）の規定による通知に係る書面その他の財務省令で定める書類
+    text: 二　法人　当該法人の設立の登記に係る登記事項証明書、行政手続における特定の個人を識別するための番号の利用等に関する法律施行令（平成二十六年政令第百五十五号）第三十八条（法人番号の通知）の規定による通知に係る書面その他の財務省令で定める書類
     modality: unspecified
     item_number: 2
 - number: 3
@@ -54,8 +54,8 @@ paragraphs:
     text: 前条第二項各号の告知をした個人が、同条第三項第一号に掲げる場合に該当することとなつた場合において、同項の規定による告知をするときは、第一項の規定による書類の提示又は署名用電子証明書等の送信に代えて、住所等変更確認書類（当該個人の変更前の氏名又は住所及び変更後の氏名又は住所を証する住民票の写しその他の財務省令で定める書類をいう。次条第一項において同じ。）の提示をすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前条
+    - 同項
     - 次条
   - id: shotoku-zei-hou-shikkourei-art-337-p3-kou
     type: kou_dan
@@ -75,8 +75,8 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 5
   has_proviso: true
   has_items: false
@@ -90,9 +90,9 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 同項
-    - 前条
     - 前項
+    - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

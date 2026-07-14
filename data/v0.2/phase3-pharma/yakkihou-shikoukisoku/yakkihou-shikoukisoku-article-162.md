@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-162-p1-kou-1
     type: kou
-    text: 高度管理医療機器等（令別表第一機械器具の項第七十二号に掲げる視力補正用レンズ及び同表第七十二号の二に掲げるコンタクトレンズ（視力補正用のものを除く。）のうち厚生労働大臣が指定するもの（以下「指定視力補正用レンズ等」という。）並びにプログラム高度管理医療機器を除く。第百七十五条第一項において同じ。）の販売等に関する業務に三年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
+    text: 一　高度管理医療機器等（令別表第一機械器具の項第七十二号に掲げる視力補正用レンズ及び同表第七十二号の二に掲げるコンタクトレンズ（視力補正用のものを除く。）のうち厚生労働大臣が指定するもの（以下「指定視力補正用レンズ等」という。）並びにプログラム高度管理医療機器を除く。第百七十五条第一項において同じ。）の販売等に関する業務に三年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-162-p1-kou-2
     type: kou
-    text: 厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
+    text: 二　厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,16 +44,16 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: yakkihou-shikoukisoku-art-162-p2-kou-1
     type: kou
-    text: 高度管理医療機器等（プログラム高度管理医療機器を除く。）の販売等に関する業務に一年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
+    text: 一　高度管理医療機器等（プログラム高度管理医療機器を除く。）の販売等に関する業務に一年以上従事した後、別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-162-p2-kou-2
     type: kou
-    text: 厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
+    text: 二　厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
     modality: unspecified
     item_number: 2
 - number: 3
@@ -69,12 +69,12 @@ paragraphs:
     - 前二項
   - id: yakkihou-shikoukisoku-art-162-p3-kou-1
     type: kou
-    text: 別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
+    text: 一　別に厚生労働省令で定めるところにより厚生労働大臣の登録を受けた者が行う基礎講習を修了した者
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-162-p3-kou-2
     type: kou
-    text: 厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
+    text: 二　厚生労働大臣が前号に掲げる者と同等以上の知識及び経験を有すると認めた者
     modality: unspecified
     item_number: 2
 - number: 4

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu_kei
   - id: chihou-jichi-hou-art-260-48-p1-kou-1
     type: kou
-    text: 第二百六十条の二十二第二項又は第二百六十条の三十第一項の規定による破産手続開始の申立てを怠つたとき。
+    text: 一　第二百六十条の二十二第二項又は第二百六十条の三十第一項の規定による破産手続開始の申立てを怠つたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-260-48-p1-kou-2
     type: kou
-    text: 第二百六十条の二十八第一項又は第二百六十条の三十第一項の規定による公告を怠り、又は不正の公告をしたとき。
+    text: 二　第二百六十条の二十八第一項又は第二百六十条の三十第一項の規定による公告を怠り、又は不正の公告をしたとき。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-260-48-p1-kou-3
     type: kou
-    text: 第二百六十条の四十第一項の規定に違反して、財産目録を作成せず、若しくは備え置かず、又はこれに記載すべき事項を記載せず、若しくは虚偽の記載をしたとき。
+    text: 三　第二百六十条の四十第一項の規定に違反して、財産目録を作成せず、若しくは備え置かず、又はこれに記載すべき事項を記載せず、若しくは虚偽の記載をしたとき。
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-260-48-p1-kou-4
     type: kou
-    text: 第二百六十条の四十第二項又は第二百六十条の四十一第二項の規定に違反して、合併をしたとき。
+    text: 四　第二百六十条の四十第二項又は第二百六十条の四十一第二項の規定に違反して、合併をしたとき。
     modality: unspecified
     item_number: 4
 cases: []

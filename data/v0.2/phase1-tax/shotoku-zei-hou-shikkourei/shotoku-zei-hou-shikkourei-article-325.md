@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-325-p1-kou-1
     type: kou
-    text: その者の氏名及び住所（国内に住所がないときは、居所）
+    text: 一　その者の氏名及び住所（国内に住所がないときは、居所）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-325-p1-kou-2
     type: kou
-    text: 法第二百六条第一項に規定する要件に該当しないこととなる旨
+    text: 二　法第二百六条第一項に規定する要件に該当しないこととなる旨
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-325-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 2

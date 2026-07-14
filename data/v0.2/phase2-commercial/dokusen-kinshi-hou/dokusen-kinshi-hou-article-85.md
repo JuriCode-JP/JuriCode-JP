@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: dokusen-kinshi-hou-art-85-p1-kou-1
     type: kou
-    text: 排除措置命令等に係る行政事件訴訟法第三条第一項に規定する抗告訴訟
+    text: 一　排除措置命令等に係る行政事件訴訟法第三条第一項に規定する抗告訴訟
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-85-p1-kou-2
     type: kou
-    text: 第七十条の四第一項、第七十条の五第一項及び第二項、第九十七条並びに第九十八条に規定する事件
+    text: 二　第七十条の四第一項、第七十条の五第一項及び第二項、第九十七条並びに第九十八条に規定する事件
     modality: unspecified
     item_number: 2
 cases: []

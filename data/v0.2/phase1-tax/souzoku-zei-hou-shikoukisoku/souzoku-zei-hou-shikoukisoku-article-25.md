@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-25-p1-kou-1
     type: kou
-    text: 第十三条第一項第三号及び第四号に掲げる事項
+    text: 一　第十三条第一項第三号及び第四号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-25-p1-kou-2
     type: kou
-    text: 法第四十六条第一項の規定による物納の撤回の承認を求めようとする理由
+    text: 二　法第四十六条第一項の規定による物納の撤回の承認を求めようとする理由
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-25-p1-kou-3
     type: kou
-    text: 物納の撤回を求めようとする不動産の種類、数量、収納価額及び所在場所
+    text: 三　物納の撤回を求めようとする不動産の種類、数量、収納価額及び所在場所
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikoukisoku-art-25-p1-kou-4
     type: kou
-    text: 前号の不動産に係る物納の許可を受けた日及び法第四十三条第二項（法第四十五条第二項において準用する場合を含む。）の規定により当該財産で相続税の納付があつたものとされた日
+    text: 四　前号の不動産に係る物納の許可を受けた日及び法第四十三条第二項（法第四十五条第二項において準用する場合を含む。）の規定により当該財産で相続税の納付があつたものとされた日
     modality: unspecified
     item_number: 4
   - id: souzoku-zei-hou-shikoukisoku-art-25-p1-kou-5
     type: kou
-    text: 物納の撤回に係る相続税の額及び物納の撤回に伴い金銭で一時に納付しようとする相続税の額
+    text: 五　物納の撤回に係る相続税の額及び物納の撤回に伴い金銭で一時に納付しようとする相続税の額
     modality: unspecified
     item_number: 5
   - id: souzoku-zei-hou-shikoukisoku-art-25-p1-kou-6
     type: kou
-    text: 第三号の不動産を目的とする賃借権その他の当該不動産を使用する権利の種類並びに当該権利を有する者の氏名又は名称及び住所若しくは居所又は所在地
+    text: 六　第三号の不動産を目的とする賃借権その他の当該不動産を使用する権利の種類並びに当該権利を有する者の氏名又は名称及び住所若しくは居所又は所在地
     modality: unspecified
     item_number: 6
   - id: souzoku-zei-hou-shikoukisoku-art-25-p1-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 cases: []

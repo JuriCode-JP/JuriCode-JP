@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-251-3-p1-kou-1
     type: kou
-    text: 第二百四十五条の八第十二項において準用する同条第二項の規定による指示
+    text: 一　第二百四十五条の八第十二項において準用する同条第二項の規定による指示
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-251-3-p1-kou-2
     type: kou
-    text: 第二百四十五条の八第十二項において準用する同条第八項の規定に基づき市町村長に代わつて前号の指示に係る事項を行うこと。
+    text: 二　第二百四十五条の八第十二項において準用する同条第八項の規定に基づき市町村長に代わつて前号の指示に係る事項を行うこと。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -62,17 +62,17 @@ paragraphs:
     - 前三項
   - id: chihou-jichi-hou-art-251-3-p4-kou-1
     type: kou
-    text: 第一項の規定による申出の場合は、当該申出に係る都道府県の関与を行つた都道府県の行政庁
+    text: 一　第一項の規定による申出の場合は、当該申出に係る都道府県の関与を行つた都道府県の行政庁
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-251-3-p4-kou-2
     type: kou
-    text: 第二項の規定による申出の場合は、当該申出に係る都道府県の不作為に係る都道府県の行政庁
+    text: 二　第二項の規定による申出の場合は、当該申出に係る都道府県の不作為に係る都道府県の行政庁
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-251-3-p4-kou-3
     type: kou
-    text: 前項の規定による申出の場合は、当該申出に係る協議の相手方である都道府県の行政庁
+    text: 三　前項の規定による申出の場合は、当該申出に係る協議の相手方である都道府県の行政庁
     modality: unspecified
     item_number: 3
 - number: 5
@@ -137,8 +137,8 @@ paragraphs:
     text: 総務大臣は、前項の勧告を受けた都道府県の行政庁に対し、同項の規定により講じた措置についての説明を求めることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 11
   has_proviso: false
   has_items: false
@@ -195,37 +195,37 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-251-3-p15-kou-1
     type: kou
-    text: 第五項において準用する第二百五十条の十四第一項の規定による都道府県の関与が違法又は普通地方公共団体の自主性及び自立性を尊重する観点から不当であるかどうかについての決定及び同項の規定による勧告の決定
+    text: 一　第五項において準用する第二百五十条の十四第一項の規定による都道府県の関与が違法又は普通地方公共団体の自主性及び自立性を尊重する観点から不当であるかどうかについての決定及び同項の規定による勧告の決定
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-251-3-p15-kou-2
     type: kou
-    text: 第五項において準用する第二百五十条の十四第二項の規定による都道府県の関与が違法であるかどうかについての決定及び同項の規定による勧告の決定
+    text: 二　第五項において準用する第二百五十条の十四第二項の規定による都道府県の関与が違法であるかどうかについての決定及び同項の規定による勧告の決定
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-251-3-p15-kou-3
     type: kou
-    text: 第六項において準用する第二百五十条の十四第三項の規定による第二項の申出に理由があるかどうかについての決定及び第六項において準用する第二百五十条の十四第三項の規定による勧告の決定
+    text: 三　第六項において準用する第二百五十条の十四第三項の規定による第二項の申出に理由があるかどうかについての決定及び第六項において準用する第二百五十条の十四第三項の規定による勧告の決定
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-251-3-p15-kou-4
     type: kou
-    text: 第七項において準用する第二百五十条の十四第四項の規定による第三項の申出に係る協議について当該協議に係る市町村がその義務を果たしているかどうかについての決定
+    text: 四　第七項において準用する第二百五十条の十四第四項の規定による第三項の申出に係る協議について当該協議に係る市町村がその義務を果たしているかどうかについての決定
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-251-3-p15-kou-5
     type: kou
-    text: 第五項から第七項までにおいて準用する第二百五十条の十五第一項の規定による関係行政機関の参加についての決定
+    text: 五　第五項から第七項までにおいて準用する第二百五十条の十五第一項の規定による関係行政機関の参加についての決定
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-251-3-p15-kou-6
     type: kou
-    text: 第五項から第七項までにおいて準用する第二百五十条の十六第一項の規定による証拠調べの実施についての決定
+    text: 六　第五項から第七項までにおいて準用する第二百五十条の十六第一項の規定による証拠調べの実施についての決定
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-251-3-p15-kou-7
     type: kou
-    text: 第十一項の規定による調停案の作成及びその要旨の公表についての決定
+    text: 七　第十一項の規定による調停案の作成及びその要旨の公表についての決定
     modality: unspecified
     item_number: 7
 cases: []

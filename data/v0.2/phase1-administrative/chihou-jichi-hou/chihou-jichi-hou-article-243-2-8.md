@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-243-2-8-p1-kou-1
     type: kou
-    text: 支出負担行為
+    text: 一　支出負担行為
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-243-2-8-p1-kou-2
     type: kou
-    text: 第二百三十二条の四第一項の命令又は同条第二項の確認
+    text: 二　第二百三十二条の四第一項の命令又は同条第二項の確認
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-243-2-8-p1-kou-3
     type: kou
-    text: 支出又は支払
+    text: 三　支出又は支払
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-243-2-8-p1-kou-4
     type: kou
-    text: 第二百三十四条の二第一項の監督又は検査
+    text: 四　第二百三十四条の二第一項の監督又は検査
     modality: unspecified
     item_number: 4
 - number: 2

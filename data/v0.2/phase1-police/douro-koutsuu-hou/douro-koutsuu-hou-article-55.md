@@ -47,6 +47,10 @@ paragraphs:
     modality: gimu_negative
     references:
     - 前二項
+  - id: douro-koutsuu-hou-art-55-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第二項については第百二十条第二項第一号、第百二十三条　第三項については第百二十一条第一項第九号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -56,7 +60,7 @@ parent_section:
   shou: 3
   shou_name_ja: 第三章　車両及び路面電車の交通方法
   setsu: 11
-  setsu_name_ja: 第十一節　乗車、積載及び牽けん引
+  setsu_name_ja: 第十一節　乗車、積載及び牽引
 ---
 
 # 道路交通法 第55条(（乗車又は積載の方法）)

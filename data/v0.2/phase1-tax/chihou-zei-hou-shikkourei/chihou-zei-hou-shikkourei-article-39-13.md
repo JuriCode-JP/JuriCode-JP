@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-39-13-p1-kou-1
     type: kou
-    text: 製造し、又は輸入した製造たばこの品目、品目ごとの数量及び製造又は輸入の年月日
+    text: 一　製造し、又は輸入した製造たばこの品目、品目ごとの数量及び製造又は輸入の年月日
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-39-13-p1-kou-2
     type: kou
-    text: 各月末日において貯蔵している製造たばこの品目及び品目ごとの数量
+    text: 二　各月末日において貯蔵している製造たばこの品目及び品目ごとの数量
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-39-13-p1-kou-3
     type: kou
-    text: 売渡し又は消費等をした製造たばこの品目、品目ごとの数量及び売渡し又は消費等の年月日並びに売渡しに係る製造たばこの買受人が卸売販売業者等又は小売販売業者である場合にあつては、その住所及び氏名又は名称
+    text: 三　売渡し又は消費等をした製造たばこの品目、品目ごとの数量及び売渡し又は消費等の年月日並びに売渡しに係る製造たばこの買受人が卸売販売業者等又は小売販売業者である場合にあつては、その住所及び氏名又は名称
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-39-13-p1-kou-4
     type: kou
-    text: 返還を受けた製造たばこの品目、品目ごとの数量、返還を受けた年月日並びに返還をした者の住所及び氏名又は名称
+    text: 四　返還を受けた製造たばこの品目、品目ごとの数量、返還を受けた年月日並びに返還をした者の住所及び氏名又は名称
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,17 +52,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-39-13-p2-kou-1
     type: kou
-    text: 買い受けた製造たばこの品目、品目ごとの数量、買い受けた年月日並びに売渡人の住所及び氏名又は名称
+    text: 一　買い受けた製造たばこの品目、品目ごとの数量、買い受けた年月日並びに売渡人の住所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-39-13-p2-kou-2
     type: kou
-    text: 返還した製造たばこの品目、品目ごとの数量、返還の年月日並びに返還を受けた者の住所及び氏名又は名称
+    text: 二　返還した製造たばこの品目、品目ごとの数量、返還の年月日並びに返還を受けた者の住所及び氏名又は名称
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-39-13-p2-kou-3
     type: kou
-    text: 前項第二号から第四号までに掲げる事項
+    text: 三　前項第二号から第四号までに掲げる事項
     modality: unspecified
     item_number: 3
 - number: 3
@@ -87,12 +87,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-39-13-p4-kou-1
     type: kou
-    text: 売渡し又は消費等をした製造たばこの品目、品目ごとの数量及び売渡し又は消費等の年月日
+    text: 一　売渡し又は消費等をした製造たばこの品目、品目ごとの数量及び売渡し又は消費等の年月日
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-39-13-p4-kou-2
     type: kou
-    text: 第一項第二号並びに第二項第一号及び第二号に掲げる事項
+    text: 二　第一項第二号並びに第二項第一号及び第二号に掲げる事項
     modality: unspecified
     item_number: 2
 cases: []

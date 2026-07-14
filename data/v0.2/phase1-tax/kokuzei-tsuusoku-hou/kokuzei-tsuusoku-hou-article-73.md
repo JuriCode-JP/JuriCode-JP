@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-art-73-p1-kou-1
     type: kou
-    text: 更正又は決定　その更正又は決定により納付すべき国税の第三十五条第二項第二号（申告納税方式による国税等の納付）の規定による納期限までの期間
+    text: 一　更正又は決定　その更正又は決定により納付すべき国税の第三十五条第二項第二号（申告納税方式による国税等の納付）の規定による納期限までの期間
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-73-p1-kou-2
     type: kou
-    text: 過少申告加算税、無申告加算税又は重加算税（第六十八条第一項、第二項又は第四項（同条第一項又は第二項の重加算税に係る部分に限る。）（重加算税）の重加算税に限る。）に係る賦課決定　その賦課決定により納付すべきこれらの国税の第三十五条第三項の規定による納期限までの期間
+    text: 二　過少申告加算税、無申告加算税又は重加算税（第六十八条第一項、第二項又は第四項（同条第一項又は第二項の重加算税に係る部分に限る。）（重加算税）の重加算税に限る。）に係る賦課決定　その賦課決定により納付すべきこれらの国税の第三十五条第三項の規定による納期限までの期間
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-73-p1-kou-3
     type: kou
-    text: 納税に関する告知　その告知に指定された納付に関する期限までの期間
+    text: 三　納税に関する告知　その告知に指定された納付に関する期限までの期間
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-73-p1-kou-4
     type: kou
-    text: 督促　督促状又は督促のための納付催告書を発した日から起算して十日を経過した日（同日前に国税徴収法第四十七条第二項（差押えの要件）の規定により差押えがされた場合には、そのされた日）までの期間
+    text: 四　督促　督促状又は督促のための納付催告書を発した日から起算して十日を経過した日（同日前に国税徴収法第四十七条第二項（差押えの要件）の規定により差押えがされた場合には、そのされた日）までの期間
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-art-73-p1-kou-5
     type: kou
-    text: 交付要求　その交付要求がされている期間（国税徴収法第八十二条第二項（交付要求の手続）の通知がされていない期間があるときは、その期間を除く。）
+    text: 五　交付要求　その交付要求がされている期間（国税徴収法第八十二条第二項（交付要求の手続）の通知がされていない期間があるときは、その期間を除く。）
     modality: unspecified
     item_number: 5
 - number: 2
@@ -56,8 +56,8 @@ paragraphs:
     text: 前項第五号の交付要求に係る強制換価手続が取り消された場合においても、同項の規定による時効の完成猶予及び更新は、その効力を妨げられない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: true
@@ -69,22 +69,22 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-art-73-p3-kou-1
     type: kou
-    text: 納税申告書の提出　当該申告書が提出された日
+    text: 一　納税申告書の提出　当該申告書が提出された日
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-73-p3-kou-2
     type: kou
-    text: 更正決定等（加算税に係る賦課決定を除く。）　当該更正決定等に係る更正通知書若しくは決定通知書又は賦課決定通知書が発せられた日（当該更正決定等に係る賦課決定通知書の送達に代え、口頭で賦課決定の通知がされた場合には、当該賦課決定の通知がされた日）
+    text: 二　更正決定等（加算税に係る賦課決定を除く。）　当該更正決定等に係る更正通知書若しくは決定通知書又は賦課決定通知書が発せられた日（当該更正決定等に係る賦課決定通知書の送達に代え、口頭で賦課決定の通知がされた場合には、当該賦課決定の通知がされた日）
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-73-p3-kou-3
     type: kou
-    text: 納税に関する告知（賦課決定通知書が発せられた国税に係るもの（賦課決定通知書の送達に代え、口頭で賦課決定の通知がされた国税に係るものを含む。）を除く。）　当該告知に係る納税告知書が発せられた日（当該告知が当該告知書の送達に代え、口頭でされた場合には、当該告知がされた日）
+    text: 三　納税に関する告知（賦課決定通知書が発せられた国税に係るもの（賦課決定通知書の送達に代え、口頭で賦課決定の通知がされた国税に係るものを含む。）を除く。）　当該告知に係る納税告知書が発せられた日（当該告知が当該告知書の送達に代え、口頭でされた場合には、当該告知がされた日）
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-73-p3-kou-4
     type: kou
-    text: 納税の告知を受けることなくされた源泉徴収等による国税の納付　当該納付の日
+    text: 四　納税の告知を受けることなくされた源泉徴収等による国税の納付　当該納付の日
     modality: unspecified
     item_number: 4
 - number: 4

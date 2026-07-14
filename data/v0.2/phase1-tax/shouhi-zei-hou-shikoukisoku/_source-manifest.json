@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\363M50000040053.xml",
   "source_xml_sha256": "5407006825700a6dce5e5339919b58afc3f213a2f44805acee5724506546a2a5",
   "source_xml_bytes": 520343,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:28+00:00",
+  "parsed_at": "2026-07-14T01:44:34+00:00",
   "version_date": "1988-12-30",
   "article_count": 71,
   "articles": [
@@ -338,8 +338,8 @@
       "article_id": "shouhi-zei-hou-shikoukisoku-art-23",
       "article_number": "23",
       "filename": "shouhi-zei-hou-shikoukisoku-article-23.md",
-      "ja_text_sha256": "df22dff2ac561c4d39999db0a196a24ad51561d56a143ab76d324c2f84a69438",
-      "ja_text_bytes": 1792,
+      "ja_text_sha256": "245bebf157e76ccb62a23b3f36bc33ceedd84724982cf314119447a002e961dd",
+      "ja_text_bytes": 1786,
       "paragraph_count": 3
     },
     {

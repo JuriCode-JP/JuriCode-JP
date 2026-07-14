@@ -38,12 +38,12 @@ paragraphs:
     - 前項
   - id: dokusen-kinshi-hou-art-23-p2-kou-1
     type: kou
-    text: 当該商品が一般消費者により日常使用されるものであること。
+    text: 一　当該商品が一般消費者により日常使用されるものであること。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-23-p2-kou-2
     type: kou
-    text: 当該商品について自由な競争が行われていること。
+    text: 二　当該商品について自由な競争が行われていること。
     modality: unspecified
     item_number: 2
 - number: 3
@@ -77,67 +77,67 @@ paragraphs:
     - 前項
   - id: dokusen-kinshi-hou-art-23-p5-kou-1
     type: kou
-    text: 国家公務員法（昭和二十二年法律第百二十号）
+    text: 一　国家公務員法（昭和二十二年法律第百二十号）
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-23-p5-kou-2
     type: kou
-    text: 農業協同組合法（昭和二十二年法律第百三十二号）
+    text: 二　農業協同組合法（昭和二十二年法律第百三十二号）
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-23-p5-kou-3
     type: kou
-    text: 消費生活協同組合法（昭和二十三年法律第二百号）
+    text: 三　消費生活協同組合法（昭和二十三年法律第二百号）
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-23-p5-kou-4
     type: kou
-    text: 水産業協同組合法（昭和二十三年法律第二百四十二号）
+    text: 四　水産業協同組合法（昭和二十三年法律第二百四十二号）
     modality: unspecified
     item_number: 4
   - id: dokusen-kinshi-hou-art-23-p5-kou-5
     type: kou
-    text: 行政執行法人の労働関係に関する法律（昭和二十三年法律第二百五十七号）
+    text: 五　行政執行法人の労働関係に関する法律（昭和二十三年法律第二百五十七号）
     modality: unspecified
     item_number: 5
   - id: dokusen-kinshi-hou-art-23-p5-kou-6
     type: kou
-    text: 労働組合法（昭和二十四年法律第百七十四号）
+    text: 六　労働組合法（昭和二十四年法律第百七十四号）
     modality: unspecified
     item_number: 6
   - id: dokusen-kinshi-hou-art-23-p5-kou-7
     type: kou
-    text: 中小企業等協同組合法（昭和二十四年法律第百八十一号）
+    text: 七　中小企業等協同組合法（昭和二十四年法律第百八十一号）
     modality: unspecified
     item_number: 7
   - id: dokusen-kinshi-hou-art-23-p5-kou-8
     type: kou
-    text: 地方公務員法（昭和二十五年法律第二百六十一号）
+    text: 八　地方公務員法（昭和二十五年法律第二百六十一号）
     modality: unspecified
     item_number: 8
   - id: dokusen-kinshi-hou-art-23-p5-kou-9
     type: kou
-    text: 地方公営企業等の労働関係に関する法律（昭和二十七年法律第二百八十九号）
+    text: 九　地方公営企業等の労働関係に関する法律（昭和二十七年法律第二百八十九号）
     modality: unspecified
     item_number: 9
   - id: dokusen-kinshi-hou-art-23-p5-kou-10
     type: kou
-    text: 中小企業団体の組織に関する法律（昭和三十二年法律第百八十五号）
+    text: 十　中小企業団体の組織に関する法律（昭和三十二年法律第百八十五号）
     modality: unspecified
     item_number: 10
   - id: dokusen-kinshi-hou-art-23-p5-kou-11
     type: kou
-    text: 国家公務員共済組合法（昭和三十三年法律第百二十八号）
+    text: 十一　国家公務員共済組合法（昭和三十三年法律第百二十八号）
     modality: unspecified
     item_number: 11
   - id: dokusen-kinshi-hou-art-23-p5-kou-12
     type: kou
-    text: 地方公務員等共済組合法（昭和三十七年法律第百五十二号）
+    text: 十二　地方公務員等共済組合法（昭和三十七年法律第百五十二号）
     modality: unspecified
     item_number: 12
   - id: dokusen-kinshi-hou-art-23-p5-kou-13
     type: kou
-    text: 森林組合法（昭和五十三年法律第三十六号）
+    text: 十三　森林組合法（昭和五十三年法律第三十六号）
     modality: unspecified
     item_number: 13
 - number: 6

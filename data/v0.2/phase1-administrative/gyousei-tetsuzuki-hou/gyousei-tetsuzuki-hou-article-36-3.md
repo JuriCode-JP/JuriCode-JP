@@ -34,32 +34,32 @@ paragraphs:
     - 前項
   - id: gyousei-tetsuzuki-hou-art-36-3-p2-kou-1
     type: kou
-    text: 申出をする者の氏名又は名称及び住所又は居所
+    text: 一　申出をする者の氏名又は名称及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: gyousei-tetsuzuki-hou-art-36-3-p2-kou-2
     type: kou
-    text: 法令に違反する事実の内容
+    text: 二　法令に違反する事実の内容
     modality: unspecified
     item_number: 2
   - id: gyousei-tetsuzuki-hou-art-36-3-p2-kou-3
     type: kou
-    text: 当該処分又は行政指導の内容
+    text: 三　当該処分又は行政指導の内容
     modality: unspecified
     item_number: 3
   - id: gyousei-tetsuzuki-hou-art-36-3-p2-kou-4
     type: kou
-    text: 当該処分又は行政指導の根拠となる法令の条項
+    text: 四　当該処分又は行政指導の根拠となる法令の条項
     modality: unspecified
     item_number: 4
   - id: gyousei-tetsuzuki-hou-art-36-3-p2-kou-5
     type: kou
-    text: 当該処分又は行政指導がされるべきであると思料する理由
+    text: 五　当該処分又は行政指導がされるべきであると思料する理由
     modality: unspecified
     item_number: 5
   - id: gyousei-tetsuzuki-hou-art-36-3-p2-kou-6
     type: kou
-    text: その他参考となる事項
+    text: 六　その他参考となる事項
     modality: unspecified
     item_number: 6
 - number: 3

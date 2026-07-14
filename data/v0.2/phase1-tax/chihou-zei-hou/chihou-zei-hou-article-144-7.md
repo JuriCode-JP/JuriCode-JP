@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-144-7-p1-kou-1
     type: kou
-    text: 軽油を製造することを業とする者（軽油の製造量その他の事項について総務省令で定める基準に該当する者に限る。）
+    text: 一　軽油を製造することを業とする者（軽油の製造量その他の事項について総務省令で定める基準に該当する者に限る。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-144-7-p1-kou-2
     type: kou
-    text: 軽油を輸入することを業とする者（軽油の輸入量その他の事項について総務省令で定める基準に該当する者に限る。）
+    text: 二　軽油を輸入することを業とする者（軽油の輸入量その他の事項について総務省令で定める基準に該当する者に限る。）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-144-7-p1-kou-3
     type: kou
-    text: 軽油を販売することを業とする者（軽油の販売量その他の事項について総務省令で定める基準に該当する者に限る。）
+    text: 三　軽油を販売することを業とする者（軽油の販売量その他の事項について総務省令で定める基準に該当する者に限る。）
     modality: unspecified
     item_number: 3
 - number: 2

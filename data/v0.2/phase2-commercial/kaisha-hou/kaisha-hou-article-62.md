@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-62-p1-kou-1
     type: kou
-    text: 申込者　発起人の割り当てた設立時募集株式の数
+    text: 一　申込者　発起人の割り当てた設立時募集株式の数
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-62-p1-kou-2
     type: kou
-    text: 前条の契約により設立時募集株式の総数を引き受けた者　その者が引き受けた設立時募集株式の数
+    text: 二　前条の契約により設立時募集株式の総数を引き受けた者　その者が引き受けた設立時募集株式の数
     modality: unspecified
     item_number: 2
 cases: []

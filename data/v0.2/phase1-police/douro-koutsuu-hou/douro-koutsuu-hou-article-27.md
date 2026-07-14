@@ -33,6 +33,10 @@ paragraphs:
     override_flag: true
     override_target:
     - 第十八条
+  - id: douro-koutsuu-hou-art-27-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-27-p1-kou-1
     type: kou
-    text: 令第百二十二条第二項に規定する申請書を提出する者の氏名及び住所
+    text: 一　令第百二十二条第二項に規定する申請書を提出する者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-27-p1-kou-2
     type: kou
-    text: 前号の申請書を提出する日の属する年の一月一日における令第百二十二条第一項の規定の適用を受けようとする減価償却資産の種類ごとの数量並びにその取得価額の合計額及び償却後の価額の合計額
+    text: 二　前号の申請書を提出する日の属する年の一月一日における令第百二十二条第一項の規定の適用を受けようとする減価償却資産の種類ごとの数量並びにその取得価額の合計額及び償却後の価額の合計額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-27-p1-kou-3
     type: kou
-    text: 令第百二十二条第一項の認定を受けようとする償却率
+    text: 三　令第百二十二条第一項の認定を受けようとする償却率
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-27-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

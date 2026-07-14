@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-1-22-p1-kou-1
     type: kou
-    text: 法第二条第四十一項第一号に掲げる行為を行うことを内容とした金銭その他の財産の運用（その指図を含む。）を行うこと（同号に掲げるものを除く。）。
+    text: 一　法第二条第四十一項第一号に掲げる行為を行うことを内容とした金銭その他の財産の運用（その指図を含む。）を行うこと（同号に掲げるものを除く。）。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-1-22-p1-kou-2
     type: kou
-    text: 法第二条第四十一項第一号に掲げる行為を行う者を相手方として店頭デリバティブ取引を行うことその他の方法により、当該者に同号に掲げる行為を行わせることとなる取引又は行為を行うこと。
+    text: 二　法第二条第四十一項第一号に掲げる行為を行う者を相手方として店頭デリバティブ取引を行うことその他の方法により、当該者に同号に掲げる行為を行わせることとなる取引又は行為を行うこと。
     modality: unspecified
     item_number: 2
 cases: []

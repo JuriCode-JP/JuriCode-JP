@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-213-p1-kou-1
     type: kou
-    text: 当該募集株式の引受人の募集に関する職務を行った業務執行取締役（指名委員会等設置会社にあっては、執行役。以下この号において同じ。）その他当該業務執行取締役の行う業務の執行に職務上関与した者として法務省令で定めるもの
+    text: 一　当該募集株式の引受人の募集に関する職務を行った業務執行取締役（指名委員会等設置会社にあっては、執行役。以下この号において同じ。）その他当該業務執行取締役の行う業務の執行に職務上関与した者として法務省令で定めるもの
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-213-p1-kou-2
     type: kou
-    text: 現物出資財産の価額の決定に関する株主総会の決議があったときは、当該株主総会に議案を提案した取締役として法務省令で定めるもの
+    text: 二　現物出資財産の価額の決定に関する株主総会の決議があったときは、当該株主総会に議案を提案した取締役として法務省令で定めるもの
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-213-p1-kou-3
     type: kou
-    text: 現物出資財産の価額の決定に関する取締役会の決議があったときは、当該取締役会に議案を提案した取締役（指名委員会等設置会社にあっては、取締役又は執行役）として法務省令で定めるもの
+    text: 三　現物出資財産の価額の決定に関する取締役会の決議があったときは、当該取締役会に議案を提案した取締役（指名委員会等設置会社にあっては、取締役又は執行役）として法務省令で定めるもの
     modality: unspecified
     item_number: 3
 - number: 2
@@ -51,16 +51,16 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-213-p2-kou-1
     type: kou
-    text: 現物出資財産の価額について第二百七条第二項の検査役の調査を経た場合
+    text: 一　現物出資財産の価額について第二百七条第二項の検査役の調査を経た場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-213-p2-kou-2
     type: kou
-    text: 当該取締役等がその職務を行うについて注意を怠らなかったことを証明した場合
+    text: 二　当該取締役等がその職務を行うについて注意を怠らなかったことを証明した場合
     modality: unspecified
     item_number: 2
 - number: 3
@@ -91,12 +91,12 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-213-p4-kou-1
     type: kou
-    text: 取締役等　第一項の義務
+    text: 一　取締役等　第一項の義務
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-213-p4-kou-2
     type: kou
-    text: 証明者　前項本文の義務
+    text: 二　証明者　前項本文の義務
     modality: unspecified
     item_number: 2
 cases: []

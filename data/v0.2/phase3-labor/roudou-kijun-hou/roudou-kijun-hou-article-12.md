@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: roudou-kijun-hou-art-12-p1-kou-1
     type: kou
-    text: 賃金が、労働した日若しくは時間によつて算定され、又は出来高払制その他の請負制によつて定められた場合においては、賃金の総額をその期間中に労働した日数で除した金額の百分の六十
+    text: 一　賃金が、労働した日若しくは時間によつて算定され、又は出来高払制その他の請負制によつて定められた場合においては、賃金の総額をその期間中に労働した日数で除した金額の百分の六十
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-12-p1-kou-2
     type: kou
-    text: 賃金の一部が、月、週その他一定の期間によつて定められた場合においては、その部分の総額をその期間の総日数で除した金額と前号の金額の合算額
+    text: 二　賃金の一部が、月、週その他一定の期間によつて定められた場合においては、その部分の総額をその期間の総日数で除した金額と前号の金額の合算額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -55,27 +55,27 @@ paragraphs:
     - 前二項
   - id: roudou-kijun-hou-art-12-p3-kou-1
     type: kou
-    text: 業務上負傷し、又は疾病にかかり療養のために休業した期間
+    text: 一　業務上負傷し、又は疾病にかかり療養のために休業した期間
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-12-p3-kou-2
     type: kou
-    text: 産前産後の女性が第六十五条の規定によつて休業した期間
+    text: 二　産前産後の女性が第六十五条の規定によつて休業した期間
     modality: unspecified
     item_number: 2
   - id: roudou-kijun-hou-art-12-p3-kou-3
     type: kou
-    text: 使用者の責めに帰すべき事由によつて休業した期間
+    text: 三　使用者の責めに帰すべき事由によつて休業した期間
     modality: unspecified
     item_number: 3
   - id: roudou-kijun-hou-art-12-p3-kou-4
     type: kou
-    text: 育児休業、介護休業等育児又は家族介護を行う労働者の福祉に関する法律（平成三年法律第七十六号）第二条第一号に規定する育児休業又は同条第二号に規定する介護休業（同法第六十一条第三項に規定する行政執行法人介護休業及び同法第六十一条の二第三項に規定する介護をするための休業を含む。第三十九条第十項において同じ。）をした期間
+    text: 四　育児休業、介護休業等育児又は家族介護を行う労働者の福祉に関する法律（平成三年法律第七十六号）第二条第一号に規定する育児休業又は同条第二号に規定する介護休業（同法第六十一条第三項に規定する行政執行法人介護休業及び同法第六十一条の二第三項に規定する介護をするための休業を含む。第三十九条第十項において同じ。）をした期間
     modality: unspecified
     item_number: 4
   - id: roudou-kijun-hou-art-12-p3-kou-5
     type: kou
-    text: 試みの使用期間
+    text: 五　試みの使用期間
     modality: unspecified
     item_number: 5
 - number: 4

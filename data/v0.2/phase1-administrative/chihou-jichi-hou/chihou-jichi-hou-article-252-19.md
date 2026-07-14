@@ -23,102 +23,102 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-jichi-hou-art-252-19-p1-kou-1
     type: kou
-    text: 児童福祉に関する事務
+    text: 一　児童福祉に関する事務
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-19-p1-kou-2
     type: kou
-    text: 民生委員に関する事務
+    text: 二　民生委員に関する事務
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-252-19-p1-kou-3
     type: kou
-    text: 身体障害者の福祉に関する事務
+    text: 三　身体障害者の福祉に関する事務
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-252-19-p1-kou-4
     type: kou
-    text: 生活保護に関する事務
+    text: 四　生活保護に関する事務
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-252-19-p1-kou-5
     type: kou
-    text: 行旅病人及び行旅死亡人の取扱に関する事務
+    text: 五　行旅病人及び行旅死亡人の取扱に関する事務
     modality: unspecified
     item_number: 5
-  - id: chihou-jichi-hou-art-252-19-p1-kou-5
+  - id: chihou-jichi-hou-art-252-19-p1-kou-5-2
     type: kou
-    text: 社会福祉事業に関する事務
+    text: 五の二　社会福祉事業に関する事務
     modality: unspecified
     item_number: 5
-  - id: chihou-jichi-hou-art-252-19-p1-kou-5
+  - id: chihou-jichi-hou-art-252-19-p1-kou-5-3
     type: kou
-    text: 知的障害者の福祉に関する事務
+    text: 五の三　知的障害者の福祉に関する事務
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-252-19-p1-kou-6
     type: kou
-    text: 母子家庭及び父子家庭並びに寡婦の福祉に関する事務
+    text: 六　母子家庭及び父子家庭並びに寡婦の福祉に関する事務
     modality: unspecified
     item_number: 6
-  - id: chihou-jichi-hou-art-252-19-p1-kou-6
+  - id: chihou-jichi-hou-art-252-19-p1-kou-6-2
     type: kou
-    text: 老人福祉に関する事務
+    text: 六の二　老人福祉に関する事務
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-252-19-p1-kou-7
     type: kou
-    text: 母子保健に関する事務
+    text: 七　母子保健に関する事務
     modality: unspecified
     item_number: 7
-  - id: chihou-jichi-hou-art-252-19-p1-kou-7
+  - id: chihou-jichi-hou-art-252-19-p1-kou-7-2
     type: kou
-    text: 介護保険に関する事務
+    text: 七の二　介護保険に関する事務
     modality: unspecified
     item_number: 7
   - id: chihou-jichi-hou-art-252-19-p1-kou-8
     type: kou
-    text: 障害者の自立支援に関する事務
+    text: 八　障害者の自立支援に関する事務
     modality: unspecified
     item_number: 8
-  - id: chihou-jichi-hou-art-252-19-p1-kou-8
+  - id: chihou-jichi-hou-art-252-19-p1-kou-8-2
     type: kou
-    text: 生活困窮者の自立支援に関する事務
+    text: 八の二　生活困窮者の自立支援に関する事務
     modality: unspecified
     item_number: 8
   - id: chihou-jichi-hou-art-252-19-p1-kou-9
     type: kou
-    text: 食品衛生に関する事務
+    text: 九　食品衛生に関する事務
     modality: unspecified
     item_number: 9
-  - id: chihou-jichi-hou-art-252-19-p1-kou-9
+  - id: chihou-jichi-hou-art-252-19-p1-kou-9-2
     type: kou
-    text: 医療に関する事務
+    text: 九の二　医療に関する事務
     modality: unspecified
     item_number: 9
   - id: chihou-jichi-hou-art-252-19-p1-kou-10
     type: kou
-    text: 精神保健及び精神障害者の福祉に関する事務
+    text: 十　精神保健及び精神障害者の福祉に関する事務
     modality: unspecified
     item_number: 10
   - id: chihou-jichi-hou-art-252-19-p1-kou-11
     type: kou
-    text: 結核の予防に関する事務
+    text: 十一　結核の予防に関する事務
     modality: unspecified
     item_number: 11
-  - id: chihou-jichi-hou-art-252-19-p1-kou-11
+  - id: chihou-jichi-hou-art-252-19-p1-kou-11-2
     type: kou
-    text: 難病の患者に対する医療等に関する事務
+    text: 十一の二　難病の患者に対する医療等に関する事務
     modality: unspecified
     item_number: 11
   - id: chihou-jichi-hou-art-252-19-p1-kou-12
     type: kou
-    text: 土地区画整理事業に関する事務
+    text: 十二　土地区画整理事業に関する事務
     modality: unspecified
     item_number: 12
   - id: chihou-jichi-hou-art-252-19-p1-kou-13
     type: kou
-    text: 屋外広告物の規制に関する事務
+    text: 十三　屋外広告物の規制に関する事務
     modality: unspecified
     item_number: 13
 - number: 2

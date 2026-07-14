@@ -36,8 +36,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false
@@ -63,8 +63,8 @@ paragraphs:
     text: 法人の代表者、代理人、使用人その他の従業者が、その法人の業務に関して前項の違反行為をしたときは、その行為者を罰するほか、その法人に対して同項の刑を科する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

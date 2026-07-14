@@ -57,8 +57,8 @@ paragraphs:
     text: 前項の場合において、同項において準用する第一項の承諾は、書面でしなければ、その効力を生じない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -69,8 +69,8 @@ paragraphs:
     text: 前項の承諾がその内容を記録した電磁的記録によってされたときは、その承諾は、書面によってされたものとみなして、同項の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

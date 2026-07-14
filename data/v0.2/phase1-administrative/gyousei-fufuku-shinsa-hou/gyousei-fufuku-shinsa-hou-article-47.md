@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_negative
   - id: gyousei-fufuku-shinsa-hou-art-47-p1-kou-1
     type: kou
-    text: 処分庁以外の審査庁　当該処分庁に対し、当該事実上の行為の全部若しくは一部を撤廃し、又はこれを変更すべき旨を命ずること。
+    text: 一　処分庁以外の審査庁　当該処分庁に対し、当該事実上の行為の全部若しくは一部を撤廃し、又はこれを変更すべき旨を命ずること。
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-47-p1-kou-2
     type: kou
-    text: 処分庁である審査庁　当該事実上の行為の全部若しくは一部を撤廃し、又はこれを変更すること。
+    text: 二　処分庁である審査庁　当該事実上の行為の全部若しくは一部を撤廃し、又はこれを変更すること。
     modality: unspecified
     item_number: 2
 cases: []

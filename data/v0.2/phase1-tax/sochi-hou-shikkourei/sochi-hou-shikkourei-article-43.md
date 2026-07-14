@@ -51,8 +51,8 @@ paragraphs:
     text: 国土交通大臣は、前項の規定により同項の対象船舶を指定したときは、これを告示する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

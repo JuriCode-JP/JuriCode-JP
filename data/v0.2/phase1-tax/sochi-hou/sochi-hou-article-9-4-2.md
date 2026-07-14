@@ -25,12 +25,12 @@ paragraphs:
     - 次項
   - id: sochi-hou-art-9-4-2-p1-kou-1
     type: kou
-    text: 公社債投資信託以外の証券投資信託でその設定に係る受益権の募集が第九条の三第二号に規定する公募により行われたもの（特定株式投資信託を除く。）
+    text: 一　公社債投資信託以外の証券投資信託でその設定に係る受益権の募集が第九条の三第二号に規定する公募により行われたもの（特定株式投資信託を除く。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-9-4-2-p1-kou-2
     type: kou
-    text: 特定受益証券発行信託
+    text: 二　特定受益証券発行信託
     modality: unspecified
     item_number: 2
 - number: 2

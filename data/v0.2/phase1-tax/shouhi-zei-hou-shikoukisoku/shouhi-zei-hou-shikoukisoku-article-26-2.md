@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p1-kou-1
     type: kou
-    text: 申請者の氏名又は名称（代表者の氏名を含む。以下この号、次項第一号及び第三項第一号において同じ。）（国外事業者にあつては、日本語及び英語で記載されたものに限る。以下この条において同じ。）、納税地（納税地と住所若しくは居所又は本店若しくは主たる事務所の所在地（以下この号において「住所等」という。）とが異なる場合には、納税地及び住所等（国外事業者にあつては、日本語及び英語で記載されたものに限る。）。以下この号において同じ。）及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　申請者の氏名又は名称（代表者の氏名を含む。以下この号、次項第一号及び第三項第一号において同じ。）（国外事業者にあつては、日本語及び英語で記載されたものに限る。以下この条において同じ。）、納税地（納税地と住所若しくは居所又は本店若しくは主たる事務所の所在地（以下この号において「住所等」という。）とが異なる場合には、納税地及び住所等（国外事業者にあつては、日本語及び英語で記載されたものに限る。）。以下この号において同じ。）及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p1-kou-2
     type: kou
-    text: 申請者が特定国外事業者（法第五十七条の二第五項第一号に規定する特定国外事業者をいう。次号において同じ。）である場合には、その旨並びに税務代理人（同項第二号イに規定する税務代理人をいう。次条第一号において同じ。）の氏名又は名称並びに事務所の名称及び所在地
+    text: 二　申請者が特定国外事業者（法第五十七条の二第五項第一号に規定する特定国外事業者をいう。次号において同じ。）である場合には、その旨並びに税務代理人（同項第二号イに規定する税務代理人をいう。次条第一号において同じ。）の氏名又は名称並びに事務所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p1-kou-3
     type: kou
-    text: 申請者が特定国外事業者以外の国外事業者である場合には、国内において行う資産の譲渡等に係る事務所、事業所その他これらに準ずるもの（第二十六条の七第一項及び第二十六条の九において「事務所等」という。）の所在地
+    text: 三　申請者が特定国外事業者以外の国外事業者である場合には、国内において行う資産の譲渡等に係る事務所、事業所その他これらに準ずるもの（第二十六条の七第一項及び第二十六条の九において「事務所等」という。）の所在地
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,17 +52,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p2-kou-1
     type: kou
-    text: 届出者の氏名又は名称、納税地、登録番号（法第五十七条の二第四項の登録番号をいう。以下この条及び第二十六条の九第一項第三号において同じ。）及び法人番号（法人番号を有しない者にあつては、氏名又は名称、納税地及び登録番号）
+    text: 一　届出者の氏名又は名称、納税地、登録番号（法第五十七条の二第四項の登録番号をいう。以下この条及び第二十六条の九第一項第三号において同じ。）及び法人番号（法人番号を有しない者にあつては、氏名又は名称、納税地及び登録番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p2-kou-2
     type: kou
-    text: 変更の内容
+    text: 二　変更の内容
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p2-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 3
@@ -76,17 +76,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p3-kou-1
     type: kou
-    text: 届出者の氏名又は名称、納税地、登録番号及び法人番号（法人番号を有しない者にあつては、氏名又は名称、納税地及び登録番号）
+    text: 一　届出者の氏名又は名称、納税地、登録番号及び法人番号（法人番号を有しない者にあつては、氏名又は名称、納税地及び登録番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p3-kou-2
     type: kou
-    text: 法第五十七条の二第一項の登録の取消しを求める旨
+    text: 二　法第五十七条の二第一項の登録の取消しを求める旨
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p3-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 4
@@ -100,22 +100,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p4-kou-1
     type: kou
-    text: 届出者の氏名、住所又は居所及び個人番号（個人番号を有しない者にあつては、氏名及び住所又は居所）
+    text: 一　届出者の氏名、住所又は居所及び個人番号（個人番号を有しない者にあつては、氏名及び住所又は居所）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p4-kou-2
     type: kou
-    text: 死亡した個人事業者の氏名、納税地及び登録番号
+    text: 二　死亡した個人事業者の氏名、納税地及び登録番号
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p4-kou-3
     type: kou
-    text: 当該個人事業者が死亡した年月日
+    text: 三　当該個人事業者が死亡した年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-26-2-p4-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

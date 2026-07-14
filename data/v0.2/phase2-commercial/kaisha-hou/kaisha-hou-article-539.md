@@ -31,8 +31,8 @@ paragraphs:
     text: 担保権者は、前項の期間内に処分をしないときは、同項の権利を失う。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

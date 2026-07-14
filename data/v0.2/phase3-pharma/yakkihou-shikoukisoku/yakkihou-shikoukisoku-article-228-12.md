@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-12-p2-kou-1
     type: kou
-    text: 特定医療機器承認取得者等及び記録等の事務を受託する者（以下この条において「受託者」という。）の氏名及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　特定医療機器承認取得者等及び記録等の事務を受託する者（以下この条において「受託者」という。）の氏名及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-12-p2-kou-2
     type: kou
-    text: 当該特定医療機器の名称、承認番号及び承認年月日
+    text: 二　当該特定医療機器の名称、承認番号及び承認年月日
     modality: unspecified
     item_number: 2
 - number: 3
@@ -62,17 +62,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-228-12-p4-kou-1
     type: kou
-    text: 受託者の住民票の写し（受託者が法人であるときは、登記事項証明書）
+    text: 一　受託者の住民票の写し（受託者が法人であるときは、登記事項証明書）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-12-p4-kou-2
     type: kou
-    text: 受託者が第一項に定める基準に適合することを証する書類
+    text: 二　受託者が第一項に定める基準に適合することを証する書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-12-p4-kou-3
     type: kou
-    text: 委託契約書の写し
+    text: 三　委託契約書の写し
     modality: unspecified
     item_number: 3
 cases: []

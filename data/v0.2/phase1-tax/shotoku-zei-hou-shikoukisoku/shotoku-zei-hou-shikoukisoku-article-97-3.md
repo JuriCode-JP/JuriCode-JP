@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-97-3-p1-kou-1
     type: kou
-    text: 当該株式無償割当てを受けた者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地）
+    text: 一　当該株式無償割当てを受けた者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-97-3-p1-kou-2
     type: kou
-    text: 当該株式無償割当ての効力を生ずる年月日
+    text: 二　当該株式無償割当ての効力を生ずる年月日
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-97-3-p1-kou-3
     type: kou
-    text: 当該株式無償割当てに係る会社法第三百二十二条第一項の決議（同条第二項の規定による定款の定めがある場合にあつては、当該株式無償割当てに係る決定をした取締役会の決議又は取締役の決定）をした年月日
+    text: 三　当該株式無償割当てに係る会社法第三百二十二条第一項の決議（同条第二項の規定による定款の定めがある場合にあつては、当該株式無償割当てに係る決定をした取締役会の決議又は取締役の決定）をした年月日
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-97-3-p1-kou-4
     type: kou
-    text: 当該株式無償割当てにより交付をした株式の種類及び数
+    text: 四　当該株式無償割当てにより交付をした株式の種類及び数
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-97-3-p1-kou-5
     type: kou
-    text: 前号の株式と引換えに払い込まれるべき額がある場合には、その額
+    text: 五　前号の株式と引換えに払い込まれるべき額がある場合には、その額
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-97-3-p1-kou-6
     type: kou
-    text: 当該株式無償割当ての効力を生ずる日における第四号の株式の一株当たりの価額
+    text: 六　当該株式無償割当ての効力を生ずる日における第四号の株式の一株当たりの価額
     modality: unspecified
     item_number: 6
   - id: shotoku-zei-hou-shikoukisoku-art-97-3-p1-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 2

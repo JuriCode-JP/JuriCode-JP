@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-38-2-p1-kou-1
     type: kou
-    text: スチレンの製造用
+    text: 一　スチレンの製造用
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-38-2-p1-kou-2
     type: kou
-    text: 試験研究用
+    text: 二　試験研究用
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-38-2-p1-kou-3
     type: kou
-    text: その他揮発油税及び地方揮発油税の確保上支障がないものとして国税庁長官が定める用途
+    text: 三　その他揮発油税及び地方揮発油税の確保上支障がないものとして国税庁長官が定める用途
     modality: unspecified
     item_number: 3
 cases: []

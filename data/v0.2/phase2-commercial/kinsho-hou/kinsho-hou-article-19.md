@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-19-p1-kou-1
     type: kou
-    text: 前条の規定により損害賠償を請求する時における市場価額（市場価額がないときは、その時における処分推定価額）
+    text: 一　前条の規定により損害賠償を請求する時における市場価額（市場価額がないときは、その時における処分推定価額）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-19-p1-kou-2
     type: kou
-    text: 前号の時前に当該有価証券を処分した場合においては、その処分価額
+    text: 二　前号の時前に当該有価証券を処分した場合においては、その処分価額
     modality: unspecified
     item_number: 2
 - number: 2

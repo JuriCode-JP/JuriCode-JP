@@ -51,12 +51,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-22-20-2-p3-kou-1
     type: kou
-    text: 計算規則第六十五条第一項第一号に掲げる前期繰越損失の額　当該前期繰越損失の額
+    text: 一　計算規則第六十五条第一項第一号に掲げる前期繰越損失の額　当該前期繰越損失の額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-22-20-2-p3-kou-2
     type: kou
-    text: 計算規則第五十八条第三項の規定により同項の減損損失に細分された金額　当該細分された金額の百分の七十に相当する金額
+    text: 二　計算規則第五十八条第三項の規定により同項の減損損失に細分された金額　当該細分された金額の百分の七十に相当する金額
     modality: unspecified
     item_number: 2
 - number: 4

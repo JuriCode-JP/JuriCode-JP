@@ -63,17 +63,17 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-art-64-p5-kou-1
     type: kou
-    text: 法人課税信託の受託者については、法人税法第四条の二（法人課税信託の受託者に関するこの法律の適用）の規定により、各法人課税信託の同条第一項に規定する信託資産等及び同項に規定する固有資産等ごとに、それぞれ別の者とみなす。
+    text: 一　法人課税信託の受託者については、法人税法第四条の二（法人課税信託の受託者に関するこの法律の適用）の規定により、各法人課税信託の同条第一項に規定する信託資産等及び同項に規定する固有資産等ごとに、それぞれ別の者とみなす。
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-64-p5-kou-2
     type: kou
-    text: 法人税法第四条の三（受託法人等に関するこの法律の適用）の規定を準用する。
+    text: 二　法人税法第四条の三（受託法人等に関するこの法律の適用）の規定を準用する。
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-art-64-p5-kou-3
     type: kou
-    text: 前二号に定めるもののほか、法人課税信託の受託者又は第九条の二第一項に規定する受益者等についての前各項の規定の適用に関し必要な事項は、政令で定める。
+    text: 三　前二号に定めるもののほか、法人課税信託の受託者又は第九条の二第一項に規定する受益者等についての前各項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     item_number: 3
 cases: []

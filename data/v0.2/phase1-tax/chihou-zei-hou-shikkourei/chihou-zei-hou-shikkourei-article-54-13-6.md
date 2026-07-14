@@ -57,27 +57,27 @@ paragraphs:
     - 前項
   - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-1
     type: kou
-    text: 原材料の搬入、貯蔵又は前処理のための施設
+    text: 一　原材料の搬入、貯蔵又は前処理のための施設
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-2
     type: kou
-    text: 製品の貯蔵又は搬出のための施設
+    text: 二　製品の貯蔵又は搬出のための施設
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-3
     type: kou
-    text: 廃棄物処理施設
+    text: 三　廃棄物処理施設
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-4
     type: kou
-    text: 試験研究のための施設
+    text: 四　試験研究のための施設
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-54-13-6-p4-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、総務省令で定める施設
+    text: 五　前各号に掲げるもののほか、総務省令で定める施設
     modality: unspecified
     item_number: 5
 - number: 5
@@ -102,12 +102,12 @@ paragraphs:
     - 前項
   - id: chihou-zei-hou-shikkourei-art-54-13-6-p6-kou-1
     type: kou
-    text: 当該家屋又は構築物を構成する減価償却資産（所得税法施行令第六条第一号及び第二号又は法人税法施行令第十三条第一号及び第二号に掲げるものに限る。）の取得価額の合計額が五千五百万円を超えるものであること。
+    text: 一　当該家屋又は構築物を構成する減価償却資産（所得税法施行令第六条第一号及び第二号又は法人税法施行令第十三条第一号及び第二号に掲げるものに限る。）の取得価額の合計額が五千五百万円を超えるものであること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-13-6-p6-kou-2
     type: kou
-    text: 当該対象施設に係る家屋につき当該対象施設に含まれない部分がある場合には当該家屋の床面積（機械室、廊下、階段その他共用に供されるべき部分の床面積（以下この号において「共用部分の床面積」という。）を除く。）のうちに当該対象施設に含まれる部分の床面積（共用部分の床面積を除く。）の占める割合が二分の一以上のものであり、当該対象施設に係る構築物につき当該対象施設に含まれない部分がある場合には当該構築物を構成する減価償却資産（所得税法施行令第六条第二号又は法人税法施行令第十三条第二号に掲げるものに限る。以下この号において同じ。）の取得価額の合計額のうちに当該対象施設に含まれる部分を構成する減価償却資産の取得価額の合計額の占める割合が二分の一以上のものであること。
+    text: 二　当該対象施設に係る家屋につき当該対象施設に含まれない部分がある場合には当該家屋の床面積（機械室、廊下、階段その他共用に供されるべき部分の床面積（以下この号において「共用部分の床面積」という。）を除く。）のうちに当該対象施設に含まれる部分の床面積（共用部分の床面積を除く。）の占める割合が二分の一以上のものであり、当該対象施設に係る構築物につき当該対象施設に含まれない部分がある場合には当該構築物を構成する減価償却資産（所得税法施行令第六条第二号又は法人税法施行令第十三条第二号に掲げるものに限る。以下この号において同じ。）の取得価額の合計額のうちに当該対象施設に含まれる部分を構成する減価償却資産の取得価額の合計額の占める割合が二分の一以上のものであること。
     modality: unspecified
     item_number: 2
 - number: 7

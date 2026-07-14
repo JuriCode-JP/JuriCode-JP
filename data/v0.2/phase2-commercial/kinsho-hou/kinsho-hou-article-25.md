@@ -25,52 +25,52 @@ paragraphs:
     - 次条
   - id: kinsho-hou-art-25-p1-kou-1
     type: kou
-    text: 第五条第一項及び第十三項の規定による届出書及びその添付書類並びにこれらの訂正届出書　五年
+    text: 一　第五条第一項及び第十三項の規定による届出書及びその添付書類並びにこれらの訂正届出書　五年
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-25-p1-kou-2
     type: kou
-    text: 発行登録書及びその添付書類、発行登録追補書類及びその添付書類並びにこれらの訂正発行登録書　五年
+    text: 二　発行登録書及びその添付書類、発行登録追補書類及びその添付書類並びにこれらの訂正発行登録書　五年
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-25-p1-kou-3
     type: kou
-    text: 有価証券報告書及びその添付書類並びにこれらの訂正報告書　五年
+    text: 三　有価証券報告書及びその添付書類並びにこれらの訂正報告書　五年
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-25-p1-kou-4
     type: kou
-    text: 第二十四条の四の二の規定による確認書及びその訂正確認書　五年
+    text: 四　第二十四条の四の二の規定による確認書及びその訂正確認書　五年
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-25-p1-kou-5
     type: kou
-    text: 内部統制報告書及びその添付書類並びにこれらの訂正報告書　五年
+    text: 五　内部統制報告書及びその添付書類並びにこれらの訂正報告書　五年
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-25-p1-kou-6
     type: kou
-    text: 半期報告書及びその訂正報告書　五年
+    text: 六　半期報告書及びその訂正報告書　五年
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-25-p1-kou-7
     type: kou
-    text: 第二十四条の五の二において準用する第二十四条の四の二の規定による確認書及びその訂正確認書　五年
+    text: 七　第二十四条の五の二において準用する第二十四条の四の二の規定による確認書及びその訂正確認書　五年
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-25-p1-kou-8
     type: kou
-    text: 臨時報告書及びその訂正報告書　五年
+    text: 八　臨時報告書及びその訂正報告書　五年
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-art-25-p1-kou-9
     type: kou
-    text: 自己株券買付状況報告書及びその訂正報告書　一年
+    text: 九　自己株券買付状況報告書及びその訂正報告書　一年
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-art-25-p1-kou-10
     type: kou
-    text: 親会社等状況報告書及びその訂正報告書　五年
+    text: 十　親会社等状況報告書及びその訂正報告書　五年
     modality: unspecified
     item_number: 10
 - number: 2
@@ -83,8 +83,8 @@ paragraphs:
     text: 有価証券の発行者で前項第一号から第九号までに掲げる書類を提出したもの及び有価証券の発行者の親会社等が同項第十号に掲げる書類を提出した場合の当該発行者は、これらの書類の写しを、内閣府令で定めるところにより、当該発行者の本店及び主要な支店に備え置き、これらの書類を内閣総理大臣に提出した日から当該各号に掲げる期間を経過する日までの間、公衆の縦覧に供しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -106,8 +106,8 @@ paragraphs:
     text: 有価証券の発行者で第一項第一号から第八号までに掲げる書類を提出したもの及び親会社等で同項第十号に掲げる書類を提出したものがその事業上の秘密の保持の必要により前三項に規定する書類の一部について公衆の縦覧に供しないことを内閣総理大臣に申請し、内閣総理大臣が当該申請を承認した場合においては、前三項の規定にかかわらず、その一部は、公衆の縦覧に供しないものとする。
     modality: gimu
     references:
-    - 同項
     - 前三項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -134,22 +134,22 @@ paragraphs:
     - 第一項
   - id: kinsho-hou-art-25-p6-kou-1
     type: kou
-    text: 第九条第一項又は第十条第一項の規定による訂正届出書の提出命令
+    text: 一　第九条第一項又は第十条第一項の規定による訂正届出書の提出命令
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-25-p6-kou-2
     type: kou
-    text: 第二十三条の九第一項若しくは第二十三条の十第一項の規定又は同条第五項において準用する同条第一項の規定による訂正発行登録書の提出命令
+    text: 二　第二十三条の九第一項若しくは第二十三条の十第一項の規定又は同条第五項において準用する同条第一項の規定による訂正発行登録書の提出命令
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-25-p6-kou-3
     type: kou
-    text: 第二十四条の二第一項、第二十四条の四の五第一項、第二十四条の五第五項、第二十四条の六第二項又は前条第三項（同条第六項において準用する場合を含む。）において準用する第九条第一項又は第十条第一項の規定による訂正報告書の提出命令
+    text: 三　第二十四条の二第一項、第二十四条の四の五第一項、第二十四条の五第五項、第二十四条の六第二項又は前条第三項（同条第六項において準用する場合を含む。）において準用する第九条第一項又は第十条第一項の規定による訂正報告書の提出命令
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-25-p6-kou-4
     type: kou
-    text: 第二十四条の四の三第一項において準用する第九条第一項又は第十条第一項の規定による訂正確認書の提出命令
+    text: 四　第二十四条の四の三第一項において準用する第九条第一項又は第十条第一項の規定による訂正確認書の提出命令
     modality: unspecified
     item_number: 4
 - number: 7
@@ -162,9 +162,9 @@ paragraphs:
     text: 前項の場合において、内閣総理大臣は、第二項の規定により当該縦覧書類の写しを公衆の縦覧に供する者（当該縦覧書類が親会社等状況報告書又はその訂正報告書である場合にあつては、これらの縦覧書類を提出した者及びこれらの縦覧書類の写しを公衆の縦覧に供する者。次項において「提出者等」という。）及び第三項の規定により当該縦覧書類の写しを公衆の縦覧に供する金融商品取引所又は同項の政令で定める認可金融商品取引業協会に対し、当該縦覧書類の全部又は一部を公衆の縦覧に供しないこととした旨を通知するものとする。
     modality: gimu
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false

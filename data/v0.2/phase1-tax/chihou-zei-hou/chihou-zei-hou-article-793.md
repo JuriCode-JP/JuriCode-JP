@@ -57,8 +57,8 @@ paragraphs:
     text: この場合においては、前項の規定（同項の規定による公告に係る部分に限る。）は、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
     depends_on: chihou-zei-hou-art-793-p4-zen
 cases: []
 amendments: []

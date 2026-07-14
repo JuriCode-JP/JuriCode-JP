@@ -23,22 +23,22 @@ paragraphs:
     modality: koka_torikeshi
   - id: kokuzei-tsuusoku-hou-art-34-7-p1-kou-1
     type: kou
-    text: 第三十四条の四第一項に規定する指定の要件に該当しなくなつたとき。
+    text: 一　第三十四条の四第一項に規定する指定の要件に該当しなくなつたとき。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-34-7-p1-kou-2
     type: kou
-    text: 第三十四条の五第二項（納付受託者の納付）又は前条第二項の規定による報告をせず、又は虚偽の報告をしたとき。
+    text: 二　第三十四条の五第二項（納付受託者の納付）又は前条第二項の規定による報告をせず、又は虚偽の報告をしたとき。
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-34-7-p1-kou-3
     type: kou
-    text: 前条第一項の規定に違反して、帳簿を備え付けず、帳簿に記載せず、若しくは帳簿に虚偽の記載をし、又は帳簿を保存しなかつたとき。
+    text: 三　前条第一項の規定に違反して、帳簿を備え付けず、帳簿に記載せず、若しくは帳簿に虚偽の記載をし、又は帳簿を保存しなかつたとき。
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-34-7-p1-kou-4
     type: kou
-    text: 前条第三項の規定による立入り若しくは検査を拒み、妨げ、若しくは忌避し、又は同項の規定による質問に対して陳述をせず、若しくは虚偽の陳述をしたとき。
+    text: 四　前条第三項の規定による立入り若しくは検査を拒み、妨げ、若しくは忌避し、又は同項の規定による質問に対して陳述をせず、若しくは虚偽の陳述をしたとき。
     modality: unspecified
     item_number: 4
 - number: 2

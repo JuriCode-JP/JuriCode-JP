@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-497-p1-kou-1
     type: kou
-    text: その物が供託に適しないとき。
+    text: 一　その物が供託に適しないとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-497-p1-kou-2
     type: kou
-    text: その物について滅失、損傷その他の事由による価格の低落のおそれがあるとき。
+    text: 二　その物について滅失、損傷その他の事由による価格の低落のおそれがあるとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-497-p1-kou-3
     type: kou
-    text: その物の保存について過分の費用を要するとき。
+    text: 三　その物の保存について過分の費用を要するとき。
     modality: unspecified
     item_number: 3
   - id: minpou-art-497-p1-kou-4
     type: kou
-    text: 前三号に掲げる場合のほか、その物を供託することが困難な事情があるとき。
+    text: 四　前三号に掲げる場合のほか、その物を供託することが困難な事情があるとき。
     modality: unspecified
     item_number: 4
 cases: []

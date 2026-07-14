@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-65-p1-kou-1
     type: kou
-    text: 貸借対照表及び損益計算書
+    text: 一　貸借対照表及び損益計算書
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-65-p1-kou-2
     type: kou
-    text: 不動産所得の金額、事業所得の金額又は山林所得の金額の計算に関する明細書（事業所得の金額のうちに変動所得の金額又は臨時所得の金額がある場合には、当該変動所得の金額又は臨時所得の金額とその他の事業所得の金額とに区分し、不動産所得の金額のうちに臨時所得の金額がある場合には、当該臨時所得の金額とその他の不動産所得の金額とに区分した明細書）
+    text: 二　不動産所得の金額、事業所得の金額又は山林所得の金額の計算に関する明細書（事業所得の金額のうちに変動所得の金額又は臨時所得の金額がある場合には、当該変動所得の金額又は臨時所得の金額とその他の事業所得の金額とに区分し、不動産所得の金額のうちに臨時所得の金額がある場合には、当該臨時所得の金額とその他の不動産所得の金額とに区分した明細書）
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-65-p1-kou-3
     type: kou
-    text: 純損失の金額の計算に関する明細書
+    text: 三　純損失の金額の計算に関する明細書
     modality: unspecified
     item_number: 3
 - number: 2

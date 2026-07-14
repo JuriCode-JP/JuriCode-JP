@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-1-23-p1-kou-1
     type: kou
-    text: 当該売買等をした者の親会社
+    text: 一　当該売買等をした者の親会社
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-1-23-p1-kou-2
     type: kou
-    text: 当該売買等をした者の子会社
+    text: 二　当該売買等をした者の子会社
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-1-23-p1-kou-3
     type: kou
-    text: 当該売買等をした者と同一の親会社をもつ会社等
+    text: 三　当該売買等をした者と同一の親会社をもつ会社等
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-1-23-p1-kou-4
     type: kou
-    text: 当該売買等をした者（個人に限る。以下この号において同じ。）の同族会社（法人税法第二条第十号に規定する同族会社をいい、当該売買等をした者が支配していないことが明らかであると認められる会社を除く。）
+    text: 四　当該売買等をした者（個人に限る。以下この号において同じ。）の同族会社（法人税法第二条第十号に規定する同族会社をいい、当該売買等をした者が支配していないことが明らかであると認められる会社を除く。）
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,27 +52,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-1-23-p2-kou-1
     type: kou
-    text: 当該売買等をした者（個人に限る。）の親族
+    text: 一　当該売買等をした者（個人に限る。）の親族
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-1-23-p2-kou-2
     type: kou
-    text: 当該売買等をした者（個人に限る。）と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    text: 二　当該売買等をした者（個人に限る。）と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-1-23-p2-kou-3
     type: kou
-    text: 当該売買等をした者の役員等
+    text: 三　当該売買等をした者の役員等
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-1-23-p2-kou-4
     type: kou
-    text: 前三号に掲げる者以外の者で当該売買等をした者（個人に限る。）から受ける金銭その他の資産によって生計を維持しているもの
+    text: 四　前三号に掲げる者以外の者で当該売買等をした者（個人に限る。）から受ける金銭その他の資産によって生計を維持しているもの
     modality: unspecified
     item_number: 4
   - id: kinsho-kachoukin-furei-art-1-23-p2-kou-5
     type: kou
-    text: 前三号に掲げる者と生計を一にするこれらの者の親族
+    text: 五　前三号に掲げる者と生計を一にするこれらの者の親族
     modality: unspecified
     item_number: 5
 - number: 3
@@ -86,22 +86,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-1-23-p3-kou-1
     type: kou
-    text: 当該買付け等又は売付け等をした者の親会社
+    text: 一　当該買付け等又は売付け等をした者の親会社
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-1-23-p3-kou-2
     type: kou
-    text: 当該買付け等又は売付け等をした者の子会社
+    text: 二　当該買付け等又は売付け等をした者の子会社
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-1-23-p3-kou-3
     type: kou
-    text: 当該買付け等又は売付け等をした者と同一の親会社をもつ会社等
+    text: 三　当該買付け等又は売付け等をした者と同一の親会社をもつ会社等
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-1-23-p3-kou-4
     type: kou
-    text: 当該買付け等又は売付け等をした者（個人に限る。以下この号において同じ。）の同族会社（法人税法第二条第十号に規定する同族会社をいい、当該買付け等又は売付け等をした者が支配していないことが明らかであると認められる会社を除く。）
+    text: 四　当該買付け等又は売付け等をした者（個人に限る。以下この号において同じ。）の同族会社（法人税法第二条第十号に規定する同族会社をいい、当該買付け等又は売付け等をした者が支配していないことが明らかであると認められる会社を除く。）
     modality: unspecified
     item_number: 4
 - number: 4
@@ -115,27 +115,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-1-23-p4-kou-1
     type: kou
-    text: 当該買付け等又は売付け等をした者（個人に限る。）の親族
+    text: 一　当該買付け等又は売付け等をした者（個人に限る。）の親族
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-1-23-p4-kou-2
     type: kou
-    text: 当該買付け等又は売付け等をした者（個人に限る。）と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    text: 二　当該買付け等又は売付け等をした者（個人に限る。）と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-1-23-p4-kou-3
     type: kou
-    text: 当該買付け等又は売付け等をした者の役員等
+    text: 三　当該買付け等又は売付け等をした者の役員等
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-1-23-p4-kou-4
     type: kou
-    text: 前三号に掲げる者以外の者で当該買付け等又は売付け等をした者（個人に限る。）から受ける金銭その他の資産によって生計を維持しているもの
+    text: 四　前三号に掲げる者以外の者で当該買付け等又は売付け等をした者（個人に限る。）から受ける金銭その他の資産によって生計を維持しているもの
     modality: unspecified
     item_number: 4
   - id: kinsho-kachoukin-furei-art-1-23-p4-kou-5
     type: kou
-    text: 前三号に掲げる者と生計を一にするこれらの者の親族
+    text: 五　前三号に掲げる者と生計を一にするこれらの者の親族
     modality: unspecified
     item_number: 5
 cases: []

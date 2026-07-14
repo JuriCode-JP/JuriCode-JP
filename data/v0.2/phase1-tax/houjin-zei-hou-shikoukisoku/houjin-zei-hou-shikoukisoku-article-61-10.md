@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-61-10-p1-kou-1
     type: kou
-    text: 当該対象会計年度の外国法人の属する特定多国籍企業グループ等の法第八十二条第十号（定義）に規定する最終親会社等に係る同条第一号に規定する連結等財務諸表
+    text: 一　当該対象会計年度の外国法人の属する特定多国籍企業グループ等の法第八十二条第十号（定義）に規定する最終親会社等に係る同条第一号に規定する連結等財務諸表
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-61-10-p1-kou-2
     type: kou
-    text: 当該対象会計年度の前号の外国法人の第三十八条の五十第一項第一号（国際最低課税残余額）に規定する個別財務諸表
+    text: 二　当該対象会計年度の前号の外国法人の第三十八条の五十第一項第一号（国際最低課税残余額）に規定する個別財務諸表
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-61-10-p1-kou-3
     type: kou
-    text: 当該対象会計年度の第一号の外国法人の恒久的施設等の第三十八条の五十第一項第二号に規定する恒久的施設等計算書類
+    text: 三　当該対象会計年度の第一号の外国法人の恒久的施設等の第三十八条の五十第一項第二号に規定する恒久的施設等計算書類
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-61-10-p1-kou-4
     type: kou
-    text: 前二号に掲げるものに係る勘定科目内訳明細書
+    text: 四　前二号に掲げるものに係る勘定科目内訳明細書
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-61-10-p1-kou-5
     type: kou
-    text: その他参考となるべき事項を記載した書類
+    text: 五　その他参考となるべき事項を記載した書類
     modality: unspecified
     item_number: 5
 - number: 2

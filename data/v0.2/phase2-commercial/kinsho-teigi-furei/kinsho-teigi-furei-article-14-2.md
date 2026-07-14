@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-teigi-furei-art-14-2-p1-kou-1
     type: kou
-    text: 新株予約権付社債券
+    text: 一　新株予約権付社債券
     modality: unspecified
     item_number: 1
   - id: kinsho-teigi-furei-art-14-2-p1-kou-2
     type: kou
-    text: 外国の者の発行する証券又は証書で新株予約権証券又は新株予約権付社債券の性質を有するもの
+    text: 二　外国の者の発行する証券又は証書で新株予約権証券又は新株予約権付社債券の性質を有するもの
     modality: unspecified
     item_number: 2
   - id: kinsho-teigi-furei-art-14-2-p1-kou-3
     type: kou
-    text: 新投資口予約権証券
+    text: 三　新投資口予約権証券
     modality: unspecified
     item_number: 3
   - id: kinsho-teigi-furei-art-14-2-p1-kou-4
     type: kou
-    text: 外国投資証券で新投資口予約権証券に類する証券
+    text: 四　外国投資証券で新投資口予約権証券に類する証券
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,17 +52,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-teigi-furei-art-14-2-p2-kou-1
     type: kou
-    text: 外国の者に対する権利で新株予約権の性質を有するもの
+    text: 一　外国の者に対する権利で新株予約権の性質を有するもの
     modality: unspecified
     item_number: 1
   - id: kinsho-teigi-furei-art-14-2-p2-kou-2
     type: kou
-    text: 新投資口予約権
+    text: 二　新投資口予約権
     modality: unspecified
     item_number: 2
   - id: kinsho-teigi-furei-art-14-2-p2-kou-3
     type: kou
-    text: 外国投資法人に対する権利で新投資口予約権の性質を有するもの
+    text: 三　外国投資法人に対する権利で新投資口予約権の性質を有するもの
     modality: unspecified
     item_number: 3
 cases: []

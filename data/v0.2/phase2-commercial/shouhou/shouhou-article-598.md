@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定は、場屋営業者が同項に規定する物品の滅失又は損傷につき悪意であった場合には、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

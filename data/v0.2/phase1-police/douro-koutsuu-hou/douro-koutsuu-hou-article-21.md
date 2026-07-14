@@ -39,17 +39,17 @@ paragraphs:
     - 前項
   - id: douro-koutsuu-hou-art-21-p2-kou-1
     type: kou
-    text: 当該道路の左側部分から軌道敷を除いた部分の幅員が当該車両の通行のため十分なものでないとき。
+    text: 一　当該道路の左側部分から軌道敷を除いた部分の幅員が当該車両の通行のため十分なものでないとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-21-p2-kou-2
     type: kou
-    text: 当該車両が、道路の損壊、道路工事その他の障害のため当該道路の左側部分から軌道敷を除いた部分を通行することができないとき。
+    text: 二　当該車両が、道路の損壊、道路工事その他の障害のため当該道路の左側部分から軌道敷を除いた部分を通行することができないとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-21-p2-kou-3
     type: kou
-    text: 道路標識等により軌道敷内を通行することができることとされている自動車が通行するとき。
+    text: 三　道路標識等により軌道敷内を通行することができることとされている自動車が通行するとき。
     modality: unspecified
     item_number: 3
 - number: 3
@@ -61,6 +61,10 @@ paragraphs:
     type: simple
     text: 軌道敷内を通行する車両は、後方から路面電車が接近してきたときは、当該路面電車の正常な運行に支障を及ぼさないように、すみやかに軌道敷外に出るか、又は当該路面電車から必要な距離を保つようにしなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-21-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十一条第一項第八号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

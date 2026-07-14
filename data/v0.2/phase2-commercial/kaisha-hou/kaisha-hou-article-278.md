@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-278-p1-kou-1
     type: kou
-    text: 株主に割り当てる新株予約権の内容及び数又はその算定方法
+    text: 一　株主に割り当てる新株予約権の内容及び数又はその算定方法
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-278-p1-kou-2
     type: kou
-    text: 前号の新株予約権が新株予約権付社債に付されたものであるときは、当該新株予約権付社債についての社債の種類及び各社債の金額の合計額又はその算定方法
+    text: 二　前号の新株予約権が新株予約権付社債に付されたものであるときは、当該新株予約権付社債についての社債の種類及び各社債の金額の合計額又はその算定方法
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-278-p1-kou-3
     type: kou
-    text: 当該新株予約権無償割当てがその効力を生ずる日
+    text: 三　当該新株予約権無償割当てがその効力を生ずる日
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-278-p1-kou-4
     type: kou
-    text: 株式会社が種類株式発行会社である場合には、当該新株予約権無償割当てを受ける株主の有する株式の種類
+    text: 四　株式会社が種類株式発行会社である場合には、当該新株予約権無償割当てを受ける株主の有する株式の種類
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項第一号及び第二号に掲げる事項についての定めは、当該株式会社以外の株主（種類株式発行会社にあっては、同項第四号の種類の種類株主）の有する株式（種類株式発行会社にあっては、同項第四号の種類の株式）の数に応じて同項第一号の新株予約権及び同項第二号の社債を割り当てることを内容とするものでなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false

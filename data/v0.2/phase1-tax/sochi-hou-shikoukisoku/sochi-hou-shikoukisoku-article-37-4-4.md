@@ -43,24 +43,24 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-4-4-p3-kou-1
     type: kou
-    text: '在留証明　次に掲げる事項
+    text: '一　在留証明　次に掲げる事項
 
-      イ 在外公館の名称
+      イ　在外公館の名称
 
-      ロ 発給年月日
+      ロ　発給年月日
 
-      ハ 免税購入対象者（法第八十七条の六第一項に規定する免税購入対象者をいう。次号ロ及び次条第五項第一号において同じ。）の本籍
+      ハ　免税購入対象者（法第八十七条の六第一項に規定する免税購入対象者をいう。次号ロ及び次条第五項第一号において同じ。）の本籍
 
-      ニ 発給番号'
+      ニ　発給番号'
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-4-4-p3-kou-2
     type: kou
-    text: '戸籍の附票の写し　次に掲げる事項
+    text: '二　戸籍の附票の写し　次に掲げる事項
 
-      イ 作成年月日
+      イ　作成年月日
 
-      ロ 免税購入対象者の本籍'
+      ロ　免税購入対象者の本籍'
     modality: unspecified
     item_number: 2
 - number: 4

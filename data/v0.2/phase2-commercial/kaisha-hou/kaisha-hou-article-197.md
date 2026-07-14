@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-197-p1-kou-1
     type: kou
-    text: その株式の株主に対して前条第一項又は第二百九十四条第二項の規定により通知及び催告をすることを要しないもの
+    text: 一　その株式の株主に対して前条第一項又は第二百九十四条第二項の規定により通知及び催告をすることを要しないもの
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-197-p1-kou-2
     type: kou
-    text: その株式の株主が継続して五年間剰余金の配当を受領しなかったもの
+    text: 二　その株式の株主が継続して五年間剰余金の配当を受領しなかったもの
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 株式会社は、前項の規定による競売に代えて、市場価格のある同項の株式については市場価格として法務省令で定める方法により算定される額をもって、市場価格のない同項の株式については裁判所の許可を得て競売以外の方法により、これを売却することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-197-p2-kou
     type: kou_dan
     text: この場合において、当該許可の申立ては、取締役が二人以上あるときは、その全員の同意によってしなければならない。
@@ -61,12 +61,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-197-p3-kou-1
     type: kou
-    text: 買い取る株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
+    text: 一　買い取る株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-197-p3-kou-2
     type: kou
-    text: 前号の株式の買取りをするのと引換えに交付する金銭の総額
+    text: 二　前号の株式の買取りをするのと引換えに交付する金銭の総額
     modality: unspecified
     item_number: 2
 - number: 4
@@ -94,12 +94,12 @@ paragraphs:
     - 第二項
   - id: kaisha-hou-art-197-p5-kou-1
     type: kou
-    text: 前条第三項において準用する同条第一項の規定により通知又は催告をすることを要しない者
+    text: 一　前条第三項において準用する同条第一項の規定により通知又は催告をすることを要しない者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-197-p5-kou-2
     type: kou
-    text: 継続して五年間第百五十四条第一項の規定により受領することができる剰余金の配当を受領しなかった者
+    text: 二　継続して五年間第百五十四条第一項の規定により受領することができる剰余金の配当を受領しなかった者
     modality: unspecified
     item_number: 2
 cases: []

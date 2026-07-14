@@ -52,6 +52,10 @@ paragraphs:
     type: simple
     text: 第一項の許可証の様式その他制限外許可の手続について必要な事項は、内閣府令で定める。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-58-supplnote-1
+    type: supplnote
+    text: （罰則　第三項については第百二十一条第二項第二号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -61,7 +65,7 @@ parent_section:
   shou: 3
   shou_name_ja: 第三章　車両及び路面電車の交通方法
   setsu: 11
-  setsu_name_ja: 第十一節　乗車、積載及び牽けん引
+  setsu_name_ja: 第十一節　乗車、積載及び牽引
 ---
 
 # 道路交通法 第58条(（制限外許可証の交付等）)

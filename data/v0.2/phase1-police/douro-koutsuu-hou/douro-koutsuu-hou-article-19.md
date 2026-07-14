@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 軽車両は、軽車両が並進することとなる場合においては、他の軽車両と並進してはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-19-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十一条第一項第八号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -25,37 +25,37 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-19-6-p1-kou-1
     type: kou
-    text: その支払を受ける者の氏名及び住所（国内に住所を有しない者にあつては、所得税法施行規則第八十一条第一号又は第二号に定める場所）
+    text: 一　その支払を受ける者の氏名及び住所（国内に住所を有しない者にあつては、所得税法施行規則第八十一条第一号又は第二号に定める場所）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-19-6-p1-kou-2
     type: kou
-    text: その支払の確定した特定割引債の償還金の額及びその支払の確定した日
+    text: 二　その支払の確定した特定割引債の償還金の額及びその支払の確定した日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-19-6-p1-kou-3
     type: kou
-    text: 前号の金額につき所得税法第二条第一項第四十五号に規定する源泉徴収をされる所得税の額
+    text: 三　前号の金額につき所得税法第二条第一項第四十五号に規定する源泉徴収をされる所得税の額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-19-6-p1-kou-4
     type: kou
-    text: 種類別及び名称別の法第四十一条の十二の二第三項に規定する特定割引債の額面金額
+    text: 四　種類別及び名称別の法第四十一条の十二の二第三項に規定する特定割引債の額面金額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-19-6-p1-kou-5
     type: kou
-    text: その支払の際に課された外国所得税（法第四十一条の十二の二第五項に規定する外国所得税の額をいう。）の額
+    text: 五　その支払の際に課された外国所得税（法第四十一条の十二の二第五項に規定する外国所得税の額をいう。）の額
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-19-6-p1-kou-6
     type: kou
-    text: その支払を受ける者が国税通則法第百十七条第二項の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
+    text: 六　その支払を受ける者が国税通則法第百十七条第二項の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-19-6-p1-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 2
@@ -68,8 +68,8 @@ paragraphs:
     text: 法第四十一条の十二の二第九項の規定により同項の通知書を同一の者に対してその年中に支払つた特定割引債の償還金の額の合計額で作成し、交付する場合における前項の規定の適用については、同項第二号中「その支払の確定した特定割引債の償還金」とあるのは、「その年中に支払の確定した特定割引債の償還金」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -119,12 +119,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-19-6-p6-kou-1
     type: kou
-    text: 第四条の四第七項各号に掲げる方法のうち当該償還金の支払者が使用するもの
+    text: 一　第四条の四第七項各号に掲げる方法のうち当該償還金の支払者が使用するもの
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-19-6-p6-kou-2
     type: kou
-    text: 第四条の四第七項第一号イに規定する記載情報の同号イに規定する受信者ファイルへの記録の方式
+    text: 二　第四条の四第七項第一号イに規定する記載情報の同号イに規定する受信者ファイルへの記録の方式
     modality: unspecified
     item_number: 2
 - number: 7
@@ -137,8 +137,8 @@ paragraphs:
     text: 施行令第二十六条の十七第十三項に規定する償還金の支払者が、同項に規定する支払を受ける者から前項の規定による承諾を得ようとする場合において、当該償還金の支払者が定める期限までに当該承諾をしない旨の回答がないときは当該承諾があつたものとみなす旨の通知をし、当該期限までに当該支払を受ける者から当該回答がなかつたときは、当該承諾を得たものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

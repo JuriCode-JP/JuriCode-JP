@@ -48,17 +48,17 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-333-p3-kou-1
     type: kou
-    text: 株式会社又はその子会社の取締役、監査役若しくは執行役又は支配人その他の使用人
+    text: 一　株式会社又はその子会社の取締役、監査役若しくは執行役又は支配人その他の使用人
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-333-p3-kou-2
     type: kou
-    text: 業務の停止の処分を受け、その停止の期間を経過しない者
+    text: 二　業務の停止の処分を受け、その停止の期間を経過しない者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-333-p3-kou-3
     type: kou
-    text: 税理士法（昭和二十六年法律第二百三十七号）第四十三条の規定により同法第二条第二項に規定する税理士業務を行うことができない者
+    text: 三　税理士法（昭和二十六年法律第二百三十七号）第四十三条の規定により同法第二条第二項に規定する税理士業務を行うことができない者
     modality: unspecified
     item_number: 3
 cases: []

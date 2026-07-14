@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-24-10-p1-kou-1
     type: kou
-    text: 次号に掲げる特定工場以外の工場又は事業場　工場立地法（昭和三十四年法律第二十四号）第四条第一項に規定する経済産業大臣及び製造業等を所管する大臣
+    text: 一　次号に掲げる特定工場以外の工場又は事業場　工場立地法（昭和三十四年法律第二十四号）第四条第一項に規定する経済産業大臣及び製造業等を所管する大臣
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-24-10-p1-kou-2
     type: kou
-    text: 工場立地法第六条第一項に規定する特定工場　同項に規定する当該特定工場の設置の場所を管轄する市町村長
+    text: 二　工場立地法第六条第一項に規定する特定工場　同項に規定する当該特定工場の設置の場所を管轄する市町村長
     modality: unspecified
     item_number: 2
 cases: []

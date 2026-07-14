@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-48-9-14-p1-kou-1
     type: kou
-    text: 国民年金法による老齢基礎年金
+    text: 一　国民年金法による老齢基礎年金
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-48-9-14-p1-kou-2
     type: kou
-    text: 旧国民年金法による老齢年金又は通算老齢年金
+    text: 二　旧国民年金法による老齢年金又は通算老齢年金
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-48-9-14-p1-kou-3
     type: kou
-    text: 旧厚生年金保険法による老齢年金、通算老齢年金又は特例老齢年金
+    text: 三　旧厚生年金保険法による老齢年金、通算老齢年金又は特例老齢年金
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-48-9-14-p1-kou-4
     type: kou
-    text: 旧船員保険法による老齢年金又は通算老齢年金
+    text: 四　旧船員保険法による老齢年金又は通算老齢年金
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-48-9-14-p1-kou-5
     type: kou
-    text: 旧国共済法等による退職年金、減額退職年金又は通算退職年金（厚生年金保険法等の一部を改正する法律（平成八年法律第八十二号）附則第十六条第三項の規定により厚生年金保険の実施者たる政府が支給するものとされたものに限る。）
+    text: 五　旧国共済法等による退職年金、減額退職年金又は通算退職年金（厚生年金保険法等の一部を改正する法律（平成八年法律第八十二号）附則第十六条第三項の規定により厚生年金保険の実施者たる政府が支給するものとされたものに限る。）
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-48-9-14-p1-kou-6
     type: kou
-    text: 旧国共済法等による退職年金、減額退職年金又は通算退職年金（前号に掲げる年金を除く。）
+    text: 六　旧国共済法等による退職年金、減額退職年金又は通算退職年金（前号に掲げる年金を除く。）
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikkourei-art-48-9-14-p1-kou-7
     type: kou
-    text: 移行農林年金のうち、退職年金、減額退職年金又は通算退職年金
+    text: 七　移行農林年金のうち、退職年金、減額退職年金又は通算退職年金
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-shikkourei-art-48-9-14-p1-kou-8
     type: kou
-    text: 旧私学共済法による退職年金、減額退職年金又は通算退職年金
+    text: 八　旧私学共済法による退職年金、減額退職年金又は通算退職年金
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-shikkourei-art-48-9-14-p1-kou-9
     type: kou
-    text: 旧地共済法等による退職年金、減額退職年金又は通算退職年金
+    text: 九　旧地共済法等による退職年金、減額退職年金又は通算退職年金
     modality: unspecified
     item_number: 9
 cases: []

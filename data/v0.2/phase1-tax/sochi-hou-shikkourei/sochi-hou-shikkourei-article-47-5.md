@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-5-p1-kou-1
     type: kou
-    text: 提出者の住所、氏名又は名称及び個人番号又は法人番号
+    text: 一　提出者の住所、氏名又は名称及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-5-p1-kou-2
     type: kou
-    text: 移出をした製造場の所在地及び名称
+    text: 二　移出をした製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-47-5-p1-kou-3
     type: kou
-    text: その月中において当該製造場から移出した特定石油化学製品の種類及び種類ごとの数量
+    text: 三　その月中において当該製造場から移出した特定石油化学製品の種類及び種類ごとの数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-47-5-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -63,20 +63,20 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-5-p3-kou-1
     type: kou
-    text: '当該特定石油化学製品を移出した者と当該特定石油化学製品を移入した者が同一である場合　次に掲げる事項を記載した書類
+    text: '一　当該特定石油化学製品を移出した者と当該特定石油化学製品を移入した者が同一である場合　次に掲げる事項を記載した書類
 
-      イ 移入した場所の所在地及び名称
+      イ　移入した場所の所在地及び名称
 
-      ロ 移入した特定石油化学製品の種類及び種類ごとの数量
+      ロ　移入した特定石油化学製品の種類及び種類ごとの数量
 
-      ハ 移入の年月日
+      ハ　移入の年月日
 
-      ニ その他参考となるべき事項'
+      ニ　その他参考となるべき事項'
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-5-p3-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　当該特定石油化学製品が法第八十九条の二第四項ただし書に規定する場所に移入されたこと及び当該特定石油化学製品に係る同号イからハまでに掲げる事項を当該特定石油化学製品を移入した者が証する書類（その作成に代えて電磁的記録（電子的方式、磁気的方式その他人の知覚によつては認識することができない方式で作られる記録であつて、電子計算機による情報処理の用に供されるものをいう。以下この号、第四十七条の八第一項第二号及び第四十八条の二第一項第二号において同じ。）の作成がされている場合における当該電磁的記録であつて、当該特定石油化学製品を移入した者により、当該電磁的記録に記録された情報に電子署名（電子署名及び認証業務に関する法律（平成十二年法律第百二号）第二条第一項に規定する電子署名をいう。以下この号、第四十七条の八第一項第二号及び第四十八条の二第一項第二号において同じ。）が行われ、かつ、当該電子署名に係る電子証明書（電子署名を行つた者を確認するために用いられる事項が当該者に係るものであることを証明するために作成された電磁的記録であつて財務省令で定めるものをいう。第四十七条の八第一項第二号及び第四十八条の二第一項第二号において同じ。）が提供されているものを含む。第七項第二号において「特定石油化学製品移入証明書」という。）に基づき、前号イからニまでに掲げる事項並びに当該特定石油化学製品を移入した者の住所及び氏名又は名称を記載した書類
+    text: 二　前号に掲げる場合以外の場合　当該特定石油化学製品が法第八十九条の二第四項ただし書に規定する場所に移入されたこと及び当該特定石油化学製品に係る同号イからハまでに掲げる事項を当該特定石油化学製品を移入した者が証する書類（その作成に代えて電磁的記録（電子的方式、磁気的方式その他人の知覚によつては認識することができない方式で作られる記録であつて、電子計算機による情報処理の用に供されるものをいう。以下この号、第四十七条の八第一項第二号及び第四十八条の二第一項第二号において同じ。）の作成がされている場合における当該電磁的記録であつて、当該特定石油化学製品を移入した者により、当該電磁的記録に記録された情報に電子署名（電子署名及び認証業務に関する法律（平成十二年法律第百二号）第二条第一項に規定する電子署名をいう。以下この号、第四十七条の八第一項第二号及び第四十八条の二第一項第二号において同じ。）が行われ、かつ、当該電子署名に係る電子証明書（電子署名を行つた者を確認するために用いられる事項が当該者に係るものであることを証明するために作成された電磁的記録であつて財務省令で定めるものをいう。第四十七条の八第一項第二号及び第四十八条の二第一項第二号において同じ。）が提供されているものを含む。第七項第二号において「特定石油化学製品移入証明書」という。）に基づき、前号イからニまでに掲げる事項並びに当該特定石油化学製品を移入した者の住所及び氏名又は名称を記載した書類
     modality: unspecified
     item_number: 2
 - number: 4
@@ -119,12 +119,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-5-p7-kou-1
     type: kou
-    text: 当該特定石油化学製品を移出した者と当該特定石油化学製品を移入した者が同一である場合　第三項第一号イからニまでに掲げる事項を帳簿に記載する方法
+    text: 一　当該特定石油化学製品を移出した者と当該特定石油化学製品を移入した者が同一である場合　第三項第一号イからニまでに掲げる事項を帳簿に記載する方法
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-5-p7-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　特定石油化学製品移入証明書に基づいて、第三項第一号イからニまでに掲げる事項並びに当該特定石油化学製品を移入した者の住所及び氏名又は名称を帳簿に記載する方法
+    text: 二　前号に掲げる場合以外の場合　特定石油化学製品移入証明書に基づいて、第三項第一号イからニまでに掲げる事項並びに当該特定石油化学製品を移入した者の住所及び氏名又は名称を帳簿に記載する方法
     modality: unspecified
     item_number: 2
 - number: 8
@@ -138,32 +138,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-5-p8-kou-1
     type: kou
-    text: 申請者の住所及び氏名又は名称並びに法人にあつては、法人番号
+    text: 一　申請者の住所及び氏名又は名称並びに法人にあつては、法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-5-p8-kou-2
     type: kou
-    text: 移出する製造場の所在地及び名称
+    text: 二　移出する製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-47-5-p8-kou-3
     type: kou
-    text: 移出先の所在地及び名称並びに当該移出先が当該特定石油化学製品を継続して移入する場所であることの事実
+    text: 三　移出先の所在地及び名称並びに当該移出先が当該特定石油化学製品を継続して移入する場所であることの事実
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-47-5-p8-kou-4
     type: kou
-    text: 移出先に移入する者の住所及び氏名又は名称
+    text: 四　移出先に移入する者の住所及び氏名又は名称
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-47-5-p8-kou-5
     type: kou
-    text: 申請の理由
+    text: 五　申請の理由
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-47-5-p8-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 9
@@ -177,32 +177,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-5-p9-kou-1
     type: kou
-    text: 申請者の住所、氏名又は名称及び個人番号又は法人番号
+    text: 一　申請者の住所、氏名又は名称及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-5-p9-kou-2
     type: kou
-    text: 移入場所の所在地及び名称並びに当該移入場所が当該特定石油化学製品を継続して移入する場所であることの事実
+    text: 二　移入場所の所在地及び名称並びに当該移入場所が当該特定石油化学製品を継続して移入する場所であることの事実
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-47-5-p9-kou-3
     type: kou
-    text: 移出者の住所及び氏名又は名称
+    text: 三　移出者の住所及び氏名又は名称
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-47-5-p9-kou-4
     type: kou
-    text: 移出する製造場の所在地及び名称
+    text: 四　移出する製造場の所在地及び名称
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-47-5-p9-kou-5
     type: kou
-    text: 申請の理由
+    text: 五　申請の理由
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-47-5-p9-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 10
@@ -236,37 +236,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-5-p12-kou-1
     type: kou
-    text: 届出者の住所及び氏名又は名称並びに法人にあつては、法人番号
+    text: 一　届出者の住所及び氏名又は名称並びに法人にあつては、法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-5-p12-kou-2
     type: kou
-    text: 当該承認に係る製造場の所在地及び名称
+    text: 二　当該承認に係る製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-47-5-p12-kou-3
     type: kou
-    text: 当該承認に係る移出先の所在地及び名称並びに当該移出先に移入していた者の住所及び氏名又は名称
+    text: 三　当該承認に係る移出先の所在地及び名称並びに当該移出先に移入していた者の住所及び氏名又は名称
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-47-5-p12-kou-4
     type: kou
-    text: 当該承認を受けた年月日
+    text: 四　当該承認を受けた年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-47-5-p12-kou-5
     type: kou
-    text: 届出の理由
+    text: 五　届出の理由
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-47-5-p12-kou-6
     type: kou
-    text: 法第八十九条の二第十二項の規定の適用を受けないこととなる年月日
+    text: 六　法第八十九条の二第十二項の規定の適用を受けないこととなる年月日
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikkourei-art-47-5-p12-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 13
@@ -280,32 +280,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-5-p13-kou-1
     type: kou
-    text: 届出者の住所、氏名又は名称及び個人番号又は法人番号
+    text: 一　届出者の住所、氏名又は名称及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-5-p13-kou-2
     type: kou
-    text: 当該承認に係る移入場所の所在地及び名称
+    text: 二　当該承認に係る移入場所の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-47-5-p13-kou-3
     type: kou
-    text: 当該承認を受けた年月日
+    text: 三　当該承認を受けた年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-47-5-p13-kou-4
     type: kou
-    text: 届出の理由
+    text: 四　届出の理由
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-47-5-p13-kou-5
     type: kou
-    text: 法第八十九条の二第十三項の規定の適用を受けないこととなる年月日
+    text: 五　法第八十九条の二第十三項の規定の適用を受けないこととなる年月日
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-47-5-p13-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-19-3-4-2-p1-kou-1
     type: kou
-    text: 共同で会社の対象議決権を取得し、若しくは保有し、又は当該会社の対象議決権を行使することを合意している者（以下この条において「共同保有者」という。）の関係
+    text: 一　共同で会社の対象議決権を取得し、若しくは保有し、又は当該会社の対象議決権を行使することを合意している者（以下この条において「共同保有者」という。）の関係
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-19-3-4-2-p1-kou-2
     type: kou
-    text: 会社の総株主等の議決権の百分の五十を超える議決権を保有している者（以下この条において「支配株主等」という。）と当該会社（以下この条において「被支配会社」という。）との関係
+    text: 二　会社の総株主等の議決権の百分の五十を超える議決権を保有している者（以下この条において「支配株主等」という。）と当該会社（以下この条において「被支配会社」という。）との関係
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-19-3-4-2-p1-kou-3
     type: kou
-    text: 被支配会社とその支配株主等の他の被支配会社との関係
+    text: 三　被支配会社とその支配株主等の他の被支配会社との関係
     modality: unspecified
     item_number: 3
 - number: 2

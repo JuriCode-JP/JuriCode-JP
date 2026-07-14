@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-354-p1-kou-1
     type: kou
-    text: 新株予約権を引き受ける者に特に有利な条件又は金額であることとされる当該新株予約権
+    text: 一　新株予約権を引き受ける者に特に有利な条件又は金額であることとされる当該新株予約権
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-354-p1-kou-2
     type: kou
-    text: 役務の提供その他の行為に係る対価の全部又は一部として発行又は割当てをすることとされる新株予約権（前号に該当するものを除く。）
+    text: 二　役務の提供その他の行為に係る対価の全部又は一部として発行又は割当てをすることとされる新株予約権（前号に該当するものを除く。）
     modality: unspecified
     item_number: 2
 - number: 2

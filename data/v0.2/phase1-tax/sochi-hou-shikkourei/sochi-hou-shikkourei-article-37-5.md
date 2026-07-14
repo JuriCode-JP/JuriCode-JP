@@ -34,17 +34,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-37-5-p2-kou-1
     type: kou
-    text: カレンダー、手帳、扇子、うちわ、手拭いその他これらに類する物品を贈与するために通常要する費用
+    text: 一　カレンダー、手帳、扇子、うちわ、手拭いその他これらに類する物品を贈与するために通常要する費用
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-37-5-p2-kou-2
     type: kou
-    text: 会議に関連して、茶菓、弁当その他これらに類する飲食物を供与するために通常要する費用
+    text: 二　会議に関連して、茶菓、弁当その他これらに類する飲食物を供与するために通常要する費用
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-37-5-p2-kou-3
     type: kou
-    text: 新聞、雑誌等の出版物又は放送番組を編集するために行われる座談会その他記事の収集のために、又は放送のための取材に通常要する費用
+    text: 三　新聞、雑誌等の出版物又は放送番組を編集するために行われる座談会その他記事の収集のために、又は放送のための取材に通常要する費用
     modality: unspecified
     item_number: 3
 cases: []

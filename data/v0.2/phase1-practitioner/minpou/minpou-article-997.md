@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の場合において、同項に規定する権利を取得することができないとき、又はこれを取得するについて過分の費用を要するときは、遺贈義務者は、その価額を弁償しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: minpou-art-997-p2-tadashi
     type: tadashi
     text: ただし、遺言者がその遺言に別段の意思を表示したときは、その意思に従う。

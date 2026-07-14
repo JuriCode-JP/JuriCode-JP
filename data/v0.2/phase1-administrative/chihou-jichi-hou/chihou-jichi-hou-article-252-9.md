@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-252-9-p1-kou-1
     type: kou
-    text: 規約で定める普通地方公共団体の議会が選挙すること。
+    text: 一　規約で定める普通地方公共団体の議会が選挙すること。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-9-p1-kou-2
     type: kou
-    text: 関係普通地方公共団体の長が協議により定めた共通の候補者について、すべての関係普通地方公共団体の議会が選挙すること。
+    text: 二　関係普通地方公共団体の長が協議により定めた共通の候補者について、すべての関係普通地方公共団体の議会が選挙すること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-252-9-p2-kou-1
     type: kou
-    text: 規約で定める普通地方公共団体の長が当該普通地方公共団体の議会の同意を得て選任すること。
+    text: 一　規約で定める普通地方公共団体の長が当該普通地方公共団体の議会の同意を得て選任すること。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-9-p2-kou-2
     type: kou
-    text: 関係普通地方公共団体の長が協議により定めた共通の候補者について、それぞれの関係普通地方公共団体の長が当該普通地方公共団体の議会の同意を得た上、規約で定める普通地方公共団体の長が選任すること。
+    text: 二　関係普通地方公共団体の長が協議により定めた共通の候補者について、それぞれの関係普通地方公共団体の長が当該普通地方公共団体の議会の同意を得た上、規約で定める普通地方公共団体の長が選任すること。
     modality: unspecified
     item_number: 2
 - number: 3
@@ -61,12 +61,12 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-252-9-p3-kou-1
     type: kou
-    text: 規約で定める普通地方公共団体の長、委員会又は委員が選任すること。
+    text: 一　規約で定める普通地方公共団体の長、委員会又は委員が選任すること。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-9-p3-kou-2
     type: kou
-    text: 関係普通地方公共団体の長、委員会又は委員が協議により定めた者について、規約で定める普通地方公共団体の長、委員会又は委員がこれを選任すること。
+    text: 二　関係普通地方公共団体の長、委員会又は委員が協議により定めた者について、規約で定める普通地方公共団体の長、委員会又は委員がこれを選任すること。
     modality: unspecified
     item_number: 2
 - number: 4

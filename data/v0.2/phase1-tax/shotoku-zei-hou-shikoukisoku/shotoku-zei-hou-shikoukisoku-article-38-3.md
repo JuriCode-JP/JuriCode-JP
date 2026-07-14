@@ -36,12 +36,12 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-shikoukisoku-art-38-3-p2-kou-1
     type: kou
-    text: 契約対象者　年金の支払の基礎となる損害保険契約等においてその者の生存が支払の条件とされている者をいう。
+    text: 一　契約対象者　年金の支払の基礎となる損害保険契約等においてその者の生存が支払の条件とされている者をいう。
     modality: teigi
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-38-3-p2-kou-2
     type: kou
-    text: 保証期間　有期の年金の支払開始の日以後一定期間をいう。
+    text: 二　保証期間　有期の年金の支払開始の日以後一定期間をいう。
     modality: teigi
     item_number: 2
 cases: []

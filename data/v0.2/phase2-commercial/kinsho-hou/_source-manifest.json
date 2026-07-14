@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\323AC0000000025.xml",
   "source_xml_sha256": "c7e0749bd3ccd7427ce9da436dac74e01e27cbaabd6e7937a7a891198b65f19b",
   "source_xml_bytes": 4553018,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:59:02+00:00",
+  "parsed_at": "2026-07-14T01:45:10+00:00",
   "version_date": "1948-04-13",
   "article_count": 1101,
   "articles": [
@@ -3458,16 +3458,16 @@
       "article_id": "kinsho-hou-art-185-7",
       "article_number": "185-7",
       "filename": "kinsho-hou-article-185-7.md",
-      "ja_text_sha256": "cd731ea743bd5d7270da461f3d1386433404c229ddba8e431e4b502ba8b574e6",
-      "ja_text_bytes": 45596,
+      "ja_text_sha256": "7c8bc7a73390891cabd5470cce832a4543b9e5f8585a1dfb36913381d0237844",
+      "ja_text_bytes": 45548,
       "paragraph_count": 31
     },
     {
       "article_id": "kinsho-hou-art-185-8",
       "article_number": "185-8",
       "filename": "kinsho-hou-article-185-8.md",
-      "ja_text_sha256": "3decfb0ce6643ce0439ae5d7c822fae3dd1a7a5b46210c446bbab3c42032b9d9",
-      "ja_text_bytes": 7180,
+      "ja_text_sha256": "46f935fc9781eba7444a37e596d4b73ec53381f7e5b3e50e52398d8fd818715a",
+      "ja_text_bytes": 7174,
       "paragraph_count": 12
     },
     {

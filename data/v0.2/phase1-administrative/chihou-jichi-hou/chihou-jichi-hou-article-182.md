@@ -31,8 +31,8 @@ paragraphs:
     text: 議会は、前項の規定による選挙を行う場合においては、同時に、同項に規定する者のうちから委員と同数の補充員を選挙しなければならない。補充員がすべてなくなつたときも、また、同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-144-5-p1-kou-1
     type: kou
-    text: 軽油の引取りで本邦からの輸出として行われたもの
+    text: 一　軽油の引取りで本邦からの輸出として行われたもの
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-144-5-p1-kou-2
     type: kou
-    text: 既に軽油引取税を課された軽油に係る引取り
+    text: 二　既に軽油引取税を課された軽油に係る引取り
     modality: unspecified
     item_number: 2
 cases: []

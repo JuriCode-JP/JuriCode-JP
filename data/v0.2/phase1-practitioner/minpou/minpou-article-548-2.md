@@ -25,12 +25,12 @@ paragraphs:
     - 次条
   - id: minpou-art-548-2-p1-kou-1
     type: kou
-    text: 定型約款を契約の内容とする旨の合意をしたとき。
+    text: 一　定型約款を契約の内容とする旨の合意をしたとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-548-2-p1-kou-2
     type: kou
-    text: 定型約款を準備した者（以下「定型約款準備者」という。）があらかじめその定型約款を契約の内容とする旨を相手方に表示していたとき。
+    text: 二　定型約款を準備した者（以下「定型約款準備者」という。）があらかじめその定型約款を契約の内容とする旨を相手方に表示していたとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

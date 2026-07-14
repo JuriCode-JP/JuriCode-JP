@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-167-3-p1-kou-1
     type: kou
-    text: 交通機関を利用する場合（第三号に掲げる場合に該当する場合を除く。）　その年中の運賃及び料金（特別車両料金その他の客室の特別の設備の利用についての料金として財務省令で定めるもの（以下この号において「特別車両料金等」という。）を除く。）の額の合計額（当該合計額が法第五十七条の二第二項第一号の証明がされた経路及び方法による一月当たりの定期乗車券又は定期乗船券の価額（特別車両料金等に係る部分を除く。）の合計額を超えるときは、当該合計額）
+    text: 一　交通機関を利用する場合（第三号に掲げる場合に該当する場合を除く。）　その年中の運賃及び料金（特別車両料金その他の客室の特別の設備の利用についての料金として財務省令で定めるもの（以下この号において「特別車両料金等」という。）を除く。）の額の合計額（当該合計額が法第五十七条の二第二項第一号の証明がされた経路及び方法による一月当たりの定期乗車券又は定期乗船券の価額（特別車両料金等に係る部分を除く。）の合計額を超えるときは、当該合計額）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-167-3-p1-kou-2
     type: kou
-    text: 自動車その他の交通用具を使用する場合（次号に掲げる場合に該当する場合を除く。）　法第五十七条の二第二項第一号の証明がされた経路及び方法により交通用具を使用するために支出する燃料費及び有料の道路の料金の額並びに当該交通用具の修理のための支出（第百八十一条各号（資本的支出）に掲げる金額に相当する部分及びその者の故意又は重大な過失により生じた事故に係るものを除く。次項第三号において同じ。）でその者の通勤に係る部分の額のその年中の合計額
+    text: 二　自動車その他の交通用具を使用する場合（次号に掲げる場合に該当する場合を除く。）　法第五十七条の二第二項第一号の証明がされた経路及び方法により交通用具を使用するために支出する燃料費及び有料の道路の料金の額並びに当該交通用具の修理のための支出（第百八十一条各号（資本的支出）に掲げる金額に相当する部分及びその者の故意又は重大な過失により生じた事故に係るものを除く。次項第三号において同じ。）でその者の通勤に係る部分の額のその年中の合計額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-167-3-p1-kou-3
     type: kou
-    text: 交通機関を利用するほか、併せて自動車その他の交通用具を使用する場合　前二号の規定に準じて計算した金額
+    text: 三　交通機関を利用するほか、併せて自動車その他の交通用具を使用する場合　前二号の規定に準じて計算した金額
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,17 +47,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-167-3-p2-kou-1
     type: kou
-    text: 当該旅行に要する運賃及び料金（特別車両料金その他の客室の特別の設備の利用についての料金として財務省令で定めるものを除く。次項第一号及び第五項第一号において同じ。）
+    text: 一　当該旅行に要する運賃及び料金（特別車両料金その他の客室の特別の設備の利用についての料金として財務省令で定めるものを除く。次項第一号及び第五項第一号において同じ。）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-167-3-p2-kou-2
     type: kou
-    text: 当該旅行に要する自動車その他の交通用具の使用に係る燃料費及び有料の道路の料金
+    text: 二　当該旅行に要する自動車その他の交通用具の使用に係る燃料費及び有料の道路の料金
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-167-3-p2-kou-3
     type: kou
-    text: 前号の交通用具の修理のための支出（当該旅行に係る部分に限る。）
+    text: 三　前号の交通用具の修理のための支出（当該旅行に係る部分に限る。）
     modality: unspecified
     item_number: 3
 - number: 3
@@ -73,22 +73,22 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikkourei-art-167-3-p3-kou-1
     type: kou
-    text: 当該転居のための旅行に通常必要であると認められる運賃及び料金の額
+    text: 一　当該転居のための旅行に通常必要であると認められる運賃及び料金の額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-167-3-p3-kou-2
     type: kou
-    text: 当該転居のために自動車を使用することにより支出する燃料費及び有料の道路の料金の額
+    text: 二　当該転居のために自動車を使用することにより支出する燃料費及び有料の道路の料金の額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-167-3-p3-kou-3
     type: kou
-    text: 当該転居に伴う宿泊費の額（通常必要であると認められる額を著しく超える部分を除く。）
+    text: 三　当該転居に伴う宿泊費の額（通常必要であると認められる額を著しく超える部分を除く。）
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-167-3-p3-kou-4
     type: kou
-    text: 当該転居のための生活の用に供する家具その他の資産の運送に要した費用（これに付随するものを含む。）の額
+    text: 四　当該転居のための生活の用に供する家具その他の資産の運送に要した費用（これに付随するものを含む。）の額
     modality: unspecified
     item_number: 4
 - number: 4
@@ -111,12 +111,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-167-3-p5-kou-1
     type: kou
-    text: 当該旅行に要する運賃及び料金
+    text: 一　当該旅行に要する運賃及び料金
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-167-3-p5-kou-2
     type: kou
-    text: 当該旅行に要する自動車その他の交通用具の使用に係る燃料費及び有料の道路の料金
+    text: 二　当該旅行に要する自動車その他の交通用具の使用に係る燃料費及び有料の道路の料金
     modality: unspecified
     item_number: 2
 - number: 6
@@ -130,17 +130,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-167-3-p6-kou-1
     type: kou
-    text: 書籍
+    text: 一　書籍
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-167-3-p6-kou-2
     type: kou
-    text: 新聞、雑誌その他の定期刊行物
+    text: 二　新聞、雑誌その他の定期刊行物
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-167-3-p6-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、不特定多数の者に販売することを目的として発行される図書
+    text: 三　前二号に掲げるもののほか、不特定多数の者に販売することを目的として発行される図書
     modality: unspecified
     item_number: 3
 - number: 7
@@ -154,22 +154,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-167-3-p7-kou-1
     type: kou
-    text: 制服
+    text: 一　制服
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-167-3-p7-kou-2
     type: kou
-    text: 事務服
+    text: 二　事務服
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-167-3-p7-kou-3
     type: kou
-    text: 作業服
+    text: 三　作業服
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-167-3-p7-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、法第五十七条の二第二項に規定する給与等の支払者により勤務場所において着用することが必要とされる衣服
+    text: 四　前三号に掲げるもののほか、法第五十七条の二第二項に規定する給与等の支払者により勤務場所において着用することが必要とされる衣服
     modality: unspecified
     item_number: 4
 cases: []

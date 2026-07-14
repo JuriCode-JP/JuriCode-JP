@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-218-p1-kou-1
     type: kou
-    text: その株式（種類株式発行会社にあっては、全部の種類の株式）に係る株券を発行する旨の定款の定めを廃止する旨
+    text: 一　その株式（種類株式発行会社にあっては、全部の種類の株式）に係る株券を発行する旨の定款の定めを廃止する旨
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-218-p1-kou-2
     type: kou
-    text: 定款の変更がその効力を生ずる日
+    text: 二　定款の変更がその効力を生ずる日
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-218-p1-kou-3
     type: kou
-    text: 前号の日において当該株式会社の株券は無効となる旨
+    text: 三　前号の日において当該株式会社の株券は無効となる旨
     modality: unspecified
     item_number: 3
 - number: 2

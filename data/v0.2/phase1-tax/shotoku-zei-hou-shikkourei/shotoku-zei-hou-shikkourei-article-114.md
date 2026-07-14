@@ -25,12 +25,12 @@ paragraphs:
     - 次項
   - id: shotoku-zei-hou-shikkourei-art-114-p1-kou-1
     type: kou
-    text: 当該払戻し等が二以上の種類の株式を発行していた法人が行つた資本の払戻しである場合　当該旧株に係る第六十一条第二項第四号ロに規定する種類払戻割合
+    text: 一　当該払戻し等が二以上の種類の株式を発行していた法人が行つた資本の払戻しである場合　当該旧株に係る第六十一条第二項第四号ロに規定する種類払戻割合
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-114-p1-kou-2
     type: kou
-    text: 当該払戻し等が法第二十四条第一項（配当所得）に規定する出資等減少分配である場合　第六十一条第二項第五号に規定する割合
+    text: 二　当該払戻し等が法第二十四条第一項（配当所得）に規定する出資等減少分配である場合　第六十一条第二項第五号に規定する割合
     modality: unspecified
     item_number: 2
 - number: 2
@@ -43,8 +43,8 @@ paragraphs:
     text: 前項に規定する旧株を発行した法人は、同項に規定する払戻し等を行つた場合には、当該払戻し等を受けた個人に対し、当該払戻し等に係る払戻等割合を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -75,8 +75,8 @@ paragraphs:
     text: 前項に規定する旧受益権に係る特定受益証券発行信託の受託者は、同項に規定する払戻しを行つた場合には、当該払戻しを受けた個人に対し、元本減少割合を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

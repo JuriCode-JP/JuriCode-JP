@@ -25,12 +25,12 @@ paragraphs:
     - 本条
   - id: kojin-jouhou-hogo-hou-art-184-p1-kou-1
     type: kou
-    text: 第百七十八条及び第百七十九条　一億円以下の罰金刑
+    text: 一　第百七十八条及び第百七十九条　一億円以下の罰金刑
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-184-p1-kou-2
     type: kou
-    text: 第百八十二条　同条の罰金刑
+    text: 二　第百八十二条　同条の罰金刑
     modality: unspecified
     item_number: 2
 - number: 2

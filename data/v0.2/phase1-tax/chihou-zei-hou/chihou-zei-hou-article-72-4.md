@@ -23,32 +23,32 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-72-4-p1-kou-1
     type: kou
-    text: 都道府県、市町村、特別区、これらの組合及び合併特例区その他政令で定める公共団体
+    text: 一　都道府県、市町村、特別区、これらの組合及び合併特例区その他政令で定める公共団体
     modality: unspecified
     item_number: 1
-  - id: chihou-zei-hou-art-72-4-p1-kou-1
+  - id: chihou-zei-hou-art-72-4-p1-kou-1-2
     type: kou
-    text: 地方独立行政法人
+    text: 一の二　地方独立行政法人
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-4-p1-kou-2
     type: kou
-    text: 法人税法別表第一に規定する独立行政法人
+    text: 二　法人税法別表第一に規定する独立行政法人
     modality: unspecified
     item_number: 2
-  - id: chihou-zei-hou-art-72-4-p1-kou-2
+  - id: chihou-zei-hou-art-72-4-p1-kou-2-2
     type: kou
-    text: 国立大学法人等及び日本司法支援センター
+    text: 二の二　国立大学法人等及び日本司法支援センター
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-72-4-p1-kou-3
     type: kou
-    text: 沖縄振興開発金融公庫、株式会社国際協力銀行、株式会社日本政策金融公庫、日本年金機構、地方住宅供給公社、地方道路公社、土地開発公社、地方公共団体金融機構、地方公共団体情報システム機構、地方税共同機構、福島国際研究教育機構及び国立健康危機管理研究機構
+    text: 三　沖縄振興開発金融公庫、株式会社国際協力銀行、株式会社日本政策金融公庫、日本年金機構、地方住宅供給公社、地方道路公社、土地開発公社、地方公共団体金融機構、地方公共団体情報システム機構、地方税共同機構、福島国際研究教育機構及び国立健康危機管理研究機構
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-72-4-p1-kou-4
     type: kou
-    text: 社会保険診療報酬支払基金、日本放送協会、日本中央競馬会及び日本下水道事業団
+    text: 四　社会保険診療報酬支払基金、日本放送協会、日本中央競馬会及び日本下水道事業団
     modality: unspecified
     item_number: 4
 - number: 2
@@ -62,12 +62,12 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-72-4-p2-kou-1
     type: kou
-    text: 林業
+    text: 一　林業
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-4-p2-kou-2
     type: kou
-    text: 鉱物の掘採事業
+    text: 二　鉱物の掘採事業
     modality: unspecified
     item_number: 2
 - number: 3

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-132-p1-kou-1
     type: kou
-    text: 株式を発行した場合
+    text: 一　株式を発行した場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-132-p1-kou-2
     type: kou
-    text: 当該株式会社の株式を取得した場合
+    text: 二　当該株式会社の株式を取得した場合
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-132-p1-kou-3
     type: kou
-    text: 自己株式を処分した場合
+    text: 三　自己株式を処分した場合
     modality: unspecified
     item_number: 3
 - number: 2

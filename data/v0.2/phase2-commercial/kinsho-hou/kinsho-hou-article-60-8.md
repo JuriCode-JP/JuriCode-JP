@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-60-8-p1-kou-1
     type: kou
-    text: 第六十条の三第一項第一号（ハ及びヌを除く。）、第二号又は第三号に該当することとなつたとき。
+    text: 一　第六十条の三第一項第一号（ハ及びヌを除く。）、第二号又は第三号に該当することとなつたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-60-8-p1-kou-2
     type: kou
-    text: 不正の手段により第六十条第一項の許可を受けたとき。
+    text: 二　不正の手段により第六十条第一項の許可を受けたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-60-8-p1-kou-3
     type: kou
-    text: 取引所取引業務又はこれに付随する業務に関し法令（外国の法令を含む。）又は当該法令に基づく行政官庁の処分に違反したとき（第四十六条の六第二項の規定に違反したときを除く。）。
+    text: 三　取引所取引業務又はこれに付随する業務に関し法令（外国の法令を含む。）又は当該法令に基づく行政官庁の処分に違反したとき（第四十六条の六第二項の規定に違反したときを除く。）。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-60-8-p1-kou-4
     type: kou
-    text: 業務又は財産の状況に照らし支払不能に陥るおそれがあるとき。
+    text: 四　業務又は財産の状況に照らし支払不能に陥るおそれがあるとき。
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-60-8-p1-kou-5
     type: kou
-    text: 第六十条第一項の許可に付した条件に違反したとき。
+    text: 五　第六十条第一項の許可に付した条件に違反したとき。
     modality: unspecified
     item_number: 5
 - number: 2

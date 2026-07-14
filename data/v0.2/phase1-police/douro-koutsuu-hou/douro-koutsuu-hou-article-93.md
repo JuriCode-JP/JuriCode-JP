@@ -25,27 +25,27 @@ paragraphs:
     - 次条
   - id: douro-koutsuu-hou-art-93-p1-kou-1
     type: kou
-    text: 免許証の番号
+    text: 一　免許証の番号
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-93-p1-kou-2
     type: kou
-    text: 免許の年月日並びに免許証の交付年月日及び有効期間の末日
+    text: 二　免許の年月日並びに免許証の交付年月日及び有効期間の末日
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-93-p1-kou-3
     type: kou
-    text: 免許の種類
+    text: 三　免許の種類
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-93-p1-kou-4
     type: kou
-    text: 免許を受けた者の本籍、住所、氏名及び生年月日
+    text: 四　免許を受けた者の本籍、住所、氏名及び生年月日
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-93-p1-kou-5
     type: kou
-    text: 免許を受けた者が第九十五条の六第一項の表の備考一のロに規定する優良運転者（第百一条第三項及び第百一条の二の二第一項において単に「優良運転者」という。）である場合にあつては、その旨
+    text: 五　免許を受けた者が第九十五条の六第一項の表の備考一のロに規定する優良運転者（第百一条第三項及び第百一条の二の二第一項において単に「優良運転者」という。）である場合にあつては、その旨
     modality: unspecified
     item_number: 5
 - number: 2

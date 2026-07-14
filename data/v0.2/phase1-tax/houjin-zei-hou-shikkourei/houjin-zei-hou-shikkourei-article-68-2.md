@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-68-2-p2-kou-1
     type: kou
-    text: 再生計画認可の決定があつたこと　内国法人がその有する法第三十三条第四項に規定する資産の価額につき当該再生計画認可の決定があつた時の価額により行う評定
+    text: 一　再生計画認可の決定があつたこと　内国法人がその有する法第三十三条第四項に規定する資産の価額につき当該再生計画認可の決定があつた時の価額により行う評定
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-68-2-p2-kou-2
     type: kou
-    text: 法第三十三条第四項に規定する政令で定める事実　内国法人が第二十四条の二第一項第一号イに規定する事項に従つて行う同項第二号の資産評定
+    text: 二　法第三十三条第四項に規定する政令で定める事実　内国法人が第二十四条の二第一項第一号イに規定する事項に従つて行う同項第二号の資産評定
     modality: unspecified
     item_number: 2
 - number: 3
@@ -60,12 +60,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-68-2-p4-kou-1
     type: kou
-    text: 再生計画認可の決定があつたこと　法第三十三条第四項に規定する資産の当該再生計画認可の決定があつた時の直前の帳簿価額が当該再生計画認可の決定があつた時の価額を超える場合のその超える部分の金額
+    text: 一　再生計画認可の決定があつたこと　法第三十三条第四項に規定する資産の当該再生計画認可の決定があつた時の直前の帳簿価額が当該再生計画認可の決定があつた時の価額を超える場合のその超える部分の金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-68-2-p4-kou-2
     type: kou
-    text: 法第三十三条第四項に規定する政令で定める事実　同項に規定する資産の当該事実が生じた時の直前のその帳簿価額が第二十四条の二第一項第二号の貸借対照表に計上されている価額を超える場合のその超える部分の金額
+    text: 二　法第三十三条第四項に規定する政令で定める事実　同項に規定する資産の当該事実が生じた時の直前のその帳簿価額が第二十四条の二第一項第二号の貸借対照表に計上されている価額を超える場合のその超える部分の金額
     modality: unspecified
     item_number: 2
 - number: 5

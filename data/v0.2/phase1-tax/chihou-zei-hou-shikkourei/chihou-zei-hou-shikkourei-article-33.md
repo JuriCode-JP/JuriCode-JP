@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-shikkourei-art-33-p1-kou-1
     type: kou
-    text: 主宰者と親族であつた者
+    text: 一　主宰者と親族であつた者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-33-p1-kou-2
     type: kou
-    text: 婚姻の届出をしていないが、主宰者と事実上婚姻関係と同様の事情にあり、又はあつた者及びこれらの者と生計を一にするこれらの者の親族であり、又はあつた者
+    text: 二　婚姻の届出をしていないが、主宰者と事実上婚姻関係と同様の事情にあり、又はあつた者及びこれらの者と生計を一にするこれらの者の親族であり、又はあつた者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-33-p1-kou-3
     type: kou
-    text: 主宰者の使用人、使用人以外の者で当該主宰者から受ける金銭その他の財産によつて生計を維持するもの若しくは雇主であり、又はこれらであつたもの及びこれらの者と生計を一にするこれらの者の親族であり、又はあつた者
+    text: 三　主宰者の使用人、使用人以外の者で当該主宰者から受ける金銭その他の財産によつて生計を維持するもの若しくは雇主であり、又はこれらであつたもの及びこれらの者と生計を一にするこれらの者の親族であり、又はあつた者
     modality: unspecified
     item_number: 3
 cases: []

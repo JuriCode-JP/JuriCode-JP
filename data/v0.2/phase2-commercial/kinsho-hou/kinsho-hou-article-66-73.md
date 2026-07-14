@@ -25,12 +25,12 @@ paragraphs:
     - 次条
   - id: kinsho-hou-art-66-73-p1-kou-1
     type: kou
-    text: 前条第一項各号に掲げる事項
+    text: 一　前条第一項各号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-73-p1-kou-2
     type: kou
-    text: 登録年月日及び登録番号
+    text: 二　登録年月日及び登録番号
     modality: unspecified
     item_number: 2
 - number: 2

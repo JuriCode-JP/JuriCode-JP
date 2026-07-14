@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-32-p1-kou-1
     type: kou
-    text: 発起人が割当てを受ける設立時発行株式の数
+    text: 一　発起人が割当てを受ける設立時発行株式の数
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-32-p1-kou-2
     type: kou
-    text: 前号の設立時発行株式と引換えに払い込む金銭の額
+    text: 二　前号の設立時発行株式と引換えに払い込む金銭の額
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-32-p1-kou-3
     type: kou
-    text: 成立後の株式会社の資本金及び資本準備金の額に関する事項
+    text: 三　成立後の株式会社の資本金及び資本準備金の額に関する事項
     modality: unspecified
     item_number: 3
 - number: 2

@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: keiji-soshou-hou-art-403-3-p1-kou-1
     type: kou
-    text: 拘禁刑以上の刑に処する原判決を破棄する判決
+    text: 一　拘禁刑以上の刑に処する原判決を破棄する判決
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-403-3-p1-kou-2
     type: kou
-    text: 拘禁刑以上の刑に処する原判決に係る被告事件についての公訴を棄却する決定
+    text: 二　拘禁刑以上の刑に処する原判決に係る被告事件についての公訴を棄却する決定
     modality: unspecified
     item_number: 2
 - number: 2

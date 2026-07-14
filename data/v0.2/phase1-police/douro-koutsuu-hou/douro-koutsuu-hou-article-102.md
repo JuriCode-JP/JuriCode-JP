@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-102-p1-kou-1
     type: kou
-    text: この条（第五項を除く。）の規定による適性検査（第四項の規定によるものにあつては、その者が第百三条第一項第一号の二に該当することとなつた疑いがあることを理由としたものに限る。）を受け、又はこの項から第四項までの規定により診断書（同項に規定する診断書にあつては、その者が同号に該当するかどうかを診断したものに限る。）を提出したとき。
+    text: 一　この条（第五項を除く。）の規定による適性検査（第四項の規定によるものにあつては、その者が第百三条第一項第一号の二に該当することとなつた疑いがあることを理由としたものに限る。）を受け、又はこの項から第四項までの規定により診断書（同項に規定する診断書にあつては、その者が同号に該当するかどうかを診断したものに限る。）を提出したとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-102-p1-kou-2
     type: kou
-    text: 認知機能検査等を受け、基準該当者に該当しないこととなつたとき。
+    text: 二　認知機能検査等を受け、基準該当者に該当しないこととなつたとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-102-p2-kou-1
     type: kou
-    text: 当該認知機能検査等を受けた日以後に前項各号のいずれかに該当することとなつたとき。
+    text: 一　当該認知機能検査等を受けた日以後に前項各号のいずれかに該当することとなつたとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-102-p2-kou-2
     type: kou
-    text: 次項の規定による適性検査を受け、又は同項の規定により診断書を提出することとされているとき。
+    text: 二　次項の規定による適性検査を受け、又は同項の規定により診断書を提出することとされているとき。
     modality: unspecified
     item_number: 2
 - number: 3

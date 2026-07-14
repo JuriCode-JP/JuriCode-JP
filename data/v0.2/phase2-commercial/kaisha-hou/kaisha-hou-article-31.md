@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-31-p2-kou-1
     type: kou
-    text: 定款が書面をもって作成されているときは、当該書面の閲覧の請求
+    text: 一　定款が書面をもって作成されているときは、当該書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-31-p2-kou-2
     type: kou
-    text: 前号の書面の謄本又は抄本の交付の請求
+    text: 二　前号の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-31-p2-kou-3
     type: kou
-    text: 定款が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　定款が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-31-p2-kou-4
     type: kou
-    text: 前号の電磁的記録に記録された事項を電磁的方法であって発起人（株式会社の成立後にあっては、当該株式会社）の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前号の電磁的記録に記録された事項を電磁的方法であって発起人（株式会社の成立後にあっては、当該株式会社）の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 - number: 3

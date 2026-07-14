@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-84-p2-kou-1
     type: kou
-    text: 金融商品、金融指標又はオプション（以下この章において「金融商品等」という。）の上場及び上場廃止に関する業務（内閣府令で定めるものを除く。）
+    text: 一　金融商品、金融指標又はオプション（以下この章において「金融商品等」という。）の上場及び上場廃止に関する業務（内閣府令で定めるものを除く。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-84-p2-kou-2
     type: kou
-    text: 会員等の法令、法令に基づく行政官庁の処分若しくは定款その他の規則又は取引の信義則の遵守の状況の調査
+    text: 二　会員等の法令、法令に基づく行政官庁の処分若しくは定款その他の規則又は取引の信義則の遵守の状況の調査
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-84-p2-kou-3
     type: kou
-    text: その他取引所金融商品市場における取引の公正を確保するために必要な業務として内閣府令で定めるもの
+    text: 三　その他取引所金融商品市場における取引の公正を確保するために必要な業務として内閣府令で定めるもの
     modality: unspecified
     item_number: 3
 cases: []

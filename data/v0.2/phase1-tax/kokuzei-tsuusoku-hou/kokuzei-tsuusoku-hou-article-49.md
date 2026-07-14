@@ -23,32 +23,32 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-49-p1-kou-1
     type: kou
-    text: 第三十八条第一項各号（繰上請求）のいずれかに該当する事実がある場合において、その者がその猶予に係る国税を猶予期間内に完納することができないと認められるとき。
+    text: 一　第三十八条第一項各号（繰上請求）のいずれかに該当する事実がある場合において、その者がその猶予に係る国税を猶予期間内に完納することができないと認められるとき。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-49-p1-kou-2
     type: kou
-    text: 第四十七条第一項（納税の猶予の通知等）の規定により通知された分割納付の各納付期限ごとの納付金額をその納付期限までに納付しないとき（税務署長等がやむを得ない理由があると認めるときを除く。）。
+    text: 二　第四十七条第一項（納税の猶予の通知等）の規定により通知された分割納付の各納付期限ごとの納付金額をその納付期限までに納付しないとき（税務署長等がやむを得ない理由があると認めるときを除く。）。
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-49-p1-kou-3
     type: kou
-    text: その猶予に係る国税につき提供された担保について税務署長等が第五十一条第一項（担保の変更等）の規定によつてした命令に応じないとき。
+    text: 三　その猶予に係る国税につき提供された担保について税務署長等が第五十一条第一項（担保の変更等）の規定によつてした命令に応じないとき。
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-49-p1-kou-4
     type: kou
-    text: 新たにその猶予に係る国税以外の国税を滞納したとき（税務署長等がやむを得ない理由があると認めるときを除く。）。
+    text: 四　新たにその猶予に係る国税以外の国税を滞納したとき（税務署長等がやむを得ない理由があると認めるときを除く。）。
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-art-49-p1-kou-5
     type: kou
-    text: 偽りその他不正な手段によりその猶予又はその猶予の期間の延長の申請がされ、その申請に基づきその猶予をし、又はその猶予期間の延長をしたことが判明したとき。
+    text: 五　偽りその他不正な手段によりその猶予又はその猶予の期間の延長の申請がされ、その申請に基づきその猶予をし、又はその猶予期間の延長をしたことが判明したとき。
     modality: unspecified
     item_number: 5
   - id: kokuzei-tsuusoku-hou-art-49-p1-kou-6
     type: kou
-    text: 前各号に掲げる場合を除き、その者の財産の状況その他の事情の変化によりその猶予を継続することが適当でないと認められるとき。
+    text: 六　前各号に掲げる場合を除き、その者の財産の状況その他の事情の変化によりその猶予を継続することが適当でないと認められるとき。
     modality: unspecified
     item_number: 6
 - number: 2

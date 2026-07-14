@@ -32,32 +32,32 @@ paragraphs:
     modality: kanou_negative
   - id: gyousei-tetsuzuki-hou-art-19-p2-kou-1
     type: kou
-    text: 当該聴聞の当事者又は参加人
+    text: 一　当該聴聞の当事者又は参加人
     modality: unspecified
     item_number: 1
   - id: gyousei-tetsuzuki-hou-art-19-p2-kou-2
     type: kou
-    text: 前号に規定する者の配偶者、四親等内の親族又は同居の親族
+    text: 二　前号に規定する者の配偶者、四親等内の親族又は同居の親族
     modality: unspecified
     item_number: 2
   - id: gyousei-tetsuzuki-hou-art-19-p2-kou-3
     type: kou
-    text: 第一号に規定する者の代理人又は次条第三項に規定する補佐人
+    text: 三　第一号に規定する者の代理人又は次条第三項に規定する補佐人
     modality: unspecified
     item_number: 3
   - id: gyousei-tetsuzuki-hou-art-19-p2-kou-4
     type: kou
-    text: 前三号に規定する者であった者
+    text: 四　前三号に規定する者であった者
     modality: unspecified
     item_number: 4
   - id: gyousei-tetsuzuki-hou-art-19-p2-kou-5
     type: kou
-    text: 第一号に規定する者の後見人、後見監督人、保佐人、保佐監督人、補助人又は補助監督人
+    text: 五　第一号に規定する者の後見人、後見監督人、保佐人、保佐監督人、補助人又は補助監督人
     modality: unspecified
     item_number: 5
   - id: gyousei-tetsuzuki-hou-art-19-p2-kou-6
     type: kou
-    text: 参加人以外の関係人
+    text: 六　参加人以外の関係人
     modality: unspecified
     item_number: 6
 cases: []

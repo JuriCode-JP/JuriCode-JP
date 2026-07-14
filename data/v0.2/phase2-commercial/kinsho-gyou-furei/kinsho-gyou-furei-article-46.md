@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-46-p1-kou-1
     type: kou
-    text: 商号又は名称
+    text: 一　商号又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-46-p1-kou-2
     type: kou
-    text: 資本金の額、基金の総額又は出資の総額
+    text: 二　資本金の額、基金の総額又は出資の総額
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-46-p1-kou-3
     type: kou
-    text: 本店又は主たる事務所の所在地
+    text: 三　本店又は主たる事務所の所在地
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-46-p1-kou-4
     type: kou
-    text: 事業の種類
+    text: 四　事業の種類
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-46-p1-kou-5
     type: kou
-    text: 登録申請者と関係会社との間の資本関係、人的関係及び最近一年間の業務上の関係
+    text: 五　登録申請者と関係会社との間の資本関係、人的関係及び最近一年間の業務上の関係
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-46-p1-kou-6
     type: kou
-    text: 親法人等、子法人等又は持株会社のいずれに該当するかの別
+    text: 六　親法人等、子法人等又は持株会社のいずれに該当するかの別
     modality: unspecified
     item_number: 6
 cases: []

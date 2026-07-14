@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: shotoku-zei-hou-shikkourei-art-324-p1-kou-1
     type: kou
-    text: その者の氏名及び住所（国内に住所がないときは、居所）
+    text: 一　その者の氏名及び住所（国内に住所がないときは、居所）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-324-p1-kou-2
     type: kou
-    text: 法第二百六条第一項に規定する報酬又は料金がその者の備え付ける帳簿に明確に記録されていることの事実の詳細
+    text: 二　法第二百六条第一項に規定する報酬又は料金がその者の備え付ける帳簿に明確に記録されていることの事実の詳細
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-324-p1-kou-3
     type: kou
-    text: その者が現に行つている事業の概要及び前条各号の要件のいずれかに該当する事情の詳細
+    text: 三　その者が現に行つている事業の概要及び前条各号の要件のいずれかに該当する事情の詳細
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-324-p1-kou-4
     type: kou
-    text: 交付を受けようとする当該証明書の部数及び当該証明書を二部以上必要とするときは、その必要とする事情の詳細
+    text: 四　交付を受けようとする当該証明書の部数及び当該証明書を二部以上必要とするときは、その必要とする事情の詳細
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-324-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

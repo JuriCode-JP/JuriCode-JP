@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: keisatsu-hou-art-77-p1-kou-1
     type: kou
-    text: 警部補、巡査部長又は巡査である警察官
+    text: 一　警部補、巡査部長又は巡査である警察官
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-77-p1-kou-2
     type: kou
-    text: 警視又は警部である警察官
+    text: 二　警視又は警部である警察官
     modality: unspecified
     item_number: 2
   - id: keisatsu-hou-art-77-p1-kou-3
     type: kou
-    text: その他の職員
+    text: 三　その他の職員
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項の規定を適用する場合においては、同項第一号に掲げる職員は恩給法第二十三条に規定する警察監獄職員とみなし、同項第二号及び第三号に掲げる職員は同法第二十条第一項に規定する文官とみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false

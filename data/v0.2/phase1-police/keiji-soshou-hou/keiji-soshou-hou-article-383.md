@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-383-p1-kou-1
     type: kou
-    text: 再審の請求をすることができる場合にあたる事由があること。
+    text: 一　再審の請求をすることができる場合にあたる事由があること。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-383-p1-kou-2
     type: kou
-    text: 判決があつた後に刑の廃止若しくは変更又は大赦があつたこと。
+    text: 二　判決があつた後に刑の廃止若しくは変更又は大赦があつたこと。
     modality: unspecified
     item_number: 2
 cases: []

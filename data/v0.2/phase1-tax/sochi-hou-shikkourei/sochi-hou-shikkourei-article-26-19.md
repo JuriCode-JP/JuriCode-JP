@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-26-19-p1-kou-1
     type: kou
-    text: 当該割引債の社債発行差金（第二十六条の九の二第一項第一号イに規定する社債発行差金をいう。）
+    text: 一　当該割引債の社債発行差金（第二十六条の九の二第一項第一号イに規定する社債発行差金をいう。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-19-p1-kou-2
     type: kou
-    text: 前号に掲げる金額のうち当該外国法人の恒久的施設を通じて行う事業に係る部分の金額
+    text: 二　前号に掲げる金額のうち当該外国法人の恒久的施設を通じて行う事業に係る部分の金額
     modality: unspecified
     item_number: 2
 cases: []

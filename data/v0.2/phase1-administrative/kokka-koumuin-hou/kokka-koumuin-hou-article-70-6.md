@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: kokka-koumuin-hou-art-70-6-p1-kou-1
     type: kou
-    text: 国民全体の奉仕者としての使命の自覚及び多角的な視点等を有する職員の育成並びに研修の方法に関する専門的知見を活用して行う職員の効果的な育成
+    text: 一　国民全体の奉仕者としての使命の自覚及び多角的な視点等を有する職員の育成並びに研修の方法に関する専門的知見を活用して行う職員の効果的な育成
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-70-6-p1-kou-2
     type: kou
-    text: 各行政機関の課程対象者の政府全体を通じた育成又は内閣の重要政策に関する理解を深めることを通じた行政各部の施策の統一性の確保
+    text: 二　各行政機関の課程対象者の政府全体を通じた育成又は内閣の重要政策に関する理解を深めることを通じた行政各部の施策の統一性の確保
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-70-6-p1-kou-3
     type: kou
-    text: 行政機関が行うその職員の育成又は行政機関がその所掌事務について行うその職員及び他の行政機関の職員に対する知識及び技能の付与
+    text: 三　行政機関が行うその職員の育成又は行政機関がその所掌事務について行うその職員及び他の行政機関の職員に対する知識及び技能の付与
     modality: unspecified
     item_number: 3
 - number: 2
@@ -48,8 +48,8 @@ paragraphs:
     text: 前項の計画は、同項の目的を達成するために必要かつ適切な職員の研修の機会が確保されるものでなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

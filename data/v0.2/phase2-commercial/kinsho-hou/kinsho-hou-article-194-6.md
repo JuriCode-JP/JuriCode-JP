@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-194-6-p1-kou-1
     type: kou
-    text: 売買又はその媒介、取次ぎ若しくは代理
+    text: 一　売買又はその媒介、取次ぎ若しくは代理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-194-6-p1-kou-2
     type: kou
-    text: 募集又は私募
+    text: 二　募集又は私募
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-194-6-p1-kou-3
     type: kou
-    text: 売出し
+    text: 三　売出し
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-194-6-p1-kou-4
     type: kou
-    text: 募集若しくは売出しの取扱い又は私募の取扱い
+    text: 四　募集若しくは売出しの取扱い又は私募の取扱い
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,12 +52,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-194-6-p2-kou-1
     type: kou
-    text: 第二条第八項第七号に掲げる行為（投資事業有限責任組合契約に関する法律第三条第一項に規定する投資事業有限責任組合契約に基づく権利で第二条第二項第五号に該当するもの（以下この条において「投資事業有限責任組合権利」という。）に係るものに限る。）
+    text: 一　第二条第八項第七号に掲げる行為（投資事業有限責任組合契約に関する法律第三条第一項に規定する投資事業有限責任組合契約に基づく権利で第二条第二項第五号に該当するもの（以下この条において「投資事業有限責任組合権利」という。）に係るものに限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-194-6-p2-kou-2
     type: kou
-    text: 第二条第八項第十五号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
+    text: 二　第二条第八項第十五号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -73,12 +73,12 @@ paragraphs:
     - 同項
   - id: kinsho-hou-art-194-6-p3-kou-1
     type: kou
-    text: 第六十三条第一項第一号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
+    text: 一　第六十三条第一項第一号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-194-6-p3-kou-2
     type: kou
-    text: 第六十三条第一項第二号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
+    text: 二　第六十三条第一項第二号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
     modality: unspecified
     item_number: 2
 - number: 4
@@ -94,12 +94,12 @@ paragraphs:
     - 同項
   - id: kinsho-hou-art-194-6-p4-kou-1
     type: kou
-    text: 第六十三条の八第一項第一号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
+    text: 一　第六十三条の八第一項第一号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-194-6-p4-kou-2
     type: kou
-    text: 第六十三条の八第一項第二号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
+    text: 二　第六十三条の八第一項第二号に掲げる行為（投資事業有限責任組合権利に係るものに限る。）
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: yakkihou-shikoukisoku-art-159-8-p1-kou-1
     type: kou
-    text: 登録番号及び登録年月日
+    text: 一　登録番号及び登録年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-159-8-p1-kou-2
     type: kou
-    text: 本籍地都道府県名、氏名、生年月日及び性別
+    text: 二　本籍地都道府県名、氏名、生年月日及び性別
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-159-8-p1-kou-3
     type: kou
-    text: 登録販売者試験合格の年月及び試験施行地都道府県名
+    text: 三　登録販売者試験合格の年月及び試験施行地都道府県名
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-159-8-p1-kou-4
     type: kou
-    text: 前各号に掲げるもののほか、適正に医薬品を販売するに足るものであることを確認するために都道府県知事が必要と認める事項
+    text: 四　前各号に掲げるもののほか、適正に医薬品を販売するに足るものであることを確認するために都道府県知事が必要と認める事項
     modality: unspecified
     item_number: 4
 - number: 2

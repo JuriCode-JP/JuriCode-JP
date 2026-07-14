@@ -25,42 +25,42 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-66-72-p1-kou-1
     type: kou
-    text: 商号、名称又は氏名
+    text: 一　商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-72-p1-kou-2
     type: kou
-    text: 財産的基礎に係る事項として内閣府令で定めるもの
+    text: 二　財産的基礎に係る事項として内閣府令で定めるもの
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-72-p1-kou-3
     type: kou
-    text: 法人であるときは、役員の氏名又は名称
+    text: 三　法人であるときは、役員の氏名又は名称
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-72-p1-kou-4
     type: kou
-    text: 主たる営業所又は事務所（外国法人又は外国に住所を有する個人にあつては、主たる営業所又は事務所及び国内における主たる営業所又は事務所）の名称及び所在地
+    text: 四　主たる営業所又は事務所（外国法人又は外国に住所を有する個人にあつては、主たる営業所又は事務所及び国内における主たる営業所又は事務所）の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-66-72-p1-kou-5
     type: kou
-    text: 登録申請の対象となる投資運用関係業務受託業を行う営業所又は事務所の名称及び所在地
+    text: 五　登録申請の対象となる投資運用関係業務受託業を行う営業所又は事務所の名称及び所在地
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-66-72-p1-kou-6
     type: kou
-    text: 業務の種別（第二条第四十三項各号に掲げる業務の種別をいう。）
+    text: 六　業務の種別（第二条第四十三項各号に掲げる業務の種別をいう。）
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-66-72-p1-kou-7
     type: kou
-    text: 他に事業を行つているときは、その事業の種類
+    text: 七　他に事業を行つているときは、その事業の種類
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-66-72-p1-kou-8
     type: kou
-    text: その他内閣府令で定める事項
+    text: 八　その他内閣府令で定める事項
     modality: unspecified
     item_number: 8
 - number: 2
@@ -76,22 +76,22 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-66-72-p2-kou-1
     type: kou
-    text: 第六十六条の七十四各号（第二号から第五号まで、第七号ハ及び第八号ハを除く。）のいずれにも該当しないことを誓約する書面
+    text: 一　第六十六条の七十四各号（第二号から第五号まで、第七号ハ及び第八号ハを除く。）のいずれにも該当しないことを誓約する書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-72-p2-kou-2
     type: kou
-    text: 投資運用関係業務受託業の業務の内容及び方法として内閣府令で定めるものを記載した書類
+    text: 二　投資運用関係業務受託業の業務の内容及び方法として内閣府令で定めるものを記載した書類
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-72-p2-kou-3
     type: kou
-    text: 法人である場合においては、定款及び法人の登記事項証明書（これらに準ずるものを含む。）
+    text: 三　法人である場合においては、定款及び法人の登記事項証明書（これらに準ずるものを含む。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-72-p2-kou-4
     type: kou
-    text: その他内閣府令で定める書類
+    text: 四　その他内閣府令で定める書類
     modality: unspecified
     item_number: 4
 - number: 3

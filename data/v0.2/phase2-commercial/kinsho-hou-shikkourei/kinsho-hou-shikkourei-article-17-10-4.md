@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-17-10-4-p2-kou-1
     type: kou
-    text: 許可申請者に組織変更したと認められる者又は許可申請者に合併された会社
+    text: 一　許可申請者に組織変更したと認められる者又は許可申請者に合併された会社
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-17-10-4-p2-kou-2
     type: kou
-    text: 分割により許可申請者に電子店頭デリバティブ取引等業務と同種類の業務に係る事業の全部又は一部を承継させた者
+    text: 二　分割により許可申請者に電子店頭デリバティブ取引等業務と同種類の業務に係る事業の全部又は一部を承継させた者
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-17-10-4-p2-kou-3
     type: kou
-    text: 許可申請者に電子店頭デリバティブ取引等業務と同種類の業務に係る事業の全部又は一部を譲渡した者
+    text: 三　許可申請者に電子店頭デリバティブ取引等業務と同種類の業務に係る事業の全部又は一部を譲渡した者
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-17-10-4-p2-kou-4
     type: kou
-    text: 許可申請者の発行済株式の全部を所有している者
+    text: 四　許可申請者の発行済株式の全部を所有している者
     modality: unspecified
     item_number: 4
 cases: []

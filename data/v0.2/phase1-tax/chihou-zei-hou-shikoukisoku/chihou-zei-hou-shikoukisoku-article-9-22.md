@@ -55,12 +55,12 @@ paragraphs:
     modality: teigi
   - id: chihou-zei-hou-shikoukisoku-art-9-22-p4-kou-1
     type: kou
-    text: 特定特別徴収義務者が、当該通知事項の提供を受けるべき納税義務者に係る通知事項及び二次元コードを印刷したものを交付して行う方法
+    text: 一　特定特別徴収義務者が、当該通知事項の提供を受けるべき納税義務者に係る通知事項及び二次元コードを印刷したものを交付して行う方法
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-9-22-p4-kou-2
     type: kou
-    text: 特定特別徴収義務者が、当該通知情報の提供を受けるべき納税義務者に係る前項の方法により送信すべき通知情報を記録した電磁的記録媒体（法第七百六十二条第一号ロに規定する電磁的記録に係る記録媒体をいう。）を交付して行う方法
+    text: 二　特定特別徴収義務者が、当該通知情報の提供を受けるべき納税義務者に係る前項の方法により送信すべき通知情報を記録した電磁的記録媒体（法第七百六十二条第一号ロに規定する電磁的記録に係る記録媒体をいう。）を交付して行う方法
     modality: unspecified
     item_number: 2
 - number: 5

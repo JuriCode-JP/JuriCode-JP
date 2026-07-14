@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: minpou-art-1028-p1-kou-1
     type: kou
-    text: 遺産の分割によって配偶者居住権を取得するものとされたとき。
+    text: 一　遺産の分割によって配偶者居住権を取得するものとされたとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-1028-p1-kou-2
     type: kou
-    text: 配偶者居住権が遺贈の目的とされたとき。
+    text: 二　配偶者居住権が遺贈の目的とされたとき。
     modality: unspecified
     item_number: 2
 - number: 2

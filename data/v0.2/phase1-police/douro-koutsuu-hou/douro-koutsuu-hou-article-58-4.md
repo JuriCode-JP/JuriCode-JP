@@ -32,7 +32,7 @@ parent_section:
   shou: 3
   shou_name_ja: 第三章　車両及び路面電車の交通方法
   setsu: 11
-  setsu_name_ja: 第十一節　乗車、積載及び牽けん引
+  setsu_name_ja: 第十一節　乗車、積載及び牽引
 ---
 
 # 道路交通法 第58-4条(（過積載車両に係る指示）)

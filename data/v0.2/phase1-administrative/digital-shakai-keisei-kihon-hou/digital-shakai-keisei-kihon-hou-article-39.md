@@ -32,87 +32,87 @@ paragraphs:
     modality: gimu
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-1
     type: kou
-    text: デジタル社会の形成のために政府が迅速かつ重点的に実施すべき施策に関する基本的な方針
+    text: 一　デジタル社会の形成のために政府が迅速かつ重点的に実施すべき施策に関する基本的な方針
     modality: unspecified
     item_number: 1
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-2
     type: kou
-    text: 世界最高水準の高度情報通信ネットワークの形成の促進に関し政府が迅速かつ重点的に講ずべき施策
+    text: 二　世界最高水準の高度情報通信ネットワークの形成の促進に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 2
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-3
     type: kou
-    text: 多様な主体による情報の円滑な流通の確保に関し政府が迅速かつ重点的に講ずべき施策
+    text: 三　多様な主体による情報の円滑な流通の確保に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 3
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-4
     type: kou
-    text: 高度情報通信ネットワークの利用及び情報通信技術を用いた情報の活用の機会の確保に関し政府が迅速かつ重点的に講ずべき施策
+    text: 四　高度情報通信ネットワークの利用及び情報通信技術を用いた情報の活用の機会の確保に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 4
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-5
     type: kou
-    text: 教育及び学習の振興に関し政府が迅速かつ重点的に講ずべき施策
+    text: 五　教育及び学習の振興に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 5
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-6
     type: kou
-    text: 人材の育成に関し政府が迅速かつ重点的に講ずべき施策
+    text: 六　人材の育成に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 6
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-7
     type: kou
-    text: 経済活動の促進に関し政府が迅速かつ重点的に講ずべき施策
+    text: 七　経済活動の促進に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 7
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-8
     type: kou
-    text: 事業者の経営の効率化、事業の高度化及び生産性の向上に関し政府が迅速かつ重点的に講ずべき施策
+    text: 八　事業者の経営の効率化、事業の高度化及び生産性の向上に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 8
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-9
     type: kou
-    text: 生活の利便性の向上等に関し政府が迅速かつ重点的に講ずべき施策
+    text: 九　生活の利便性の向上等に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 9
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-10
     type: kou
-    text: 国及び地方公共団体の情報システムの共同化等に関し政府が迅速かつ重点的に講ずべき施策
+    text: 十　国及び地方公共団体の情報システムの共同化等に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 10
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-11
     type: kou
-    text: 国民による国及び地方公共団体が保有する情報の活用に関し政府が迅速かつ重点的に講ずべき施策
+    text: 十一　国民による国及び地方公共団体が保有する情報の活用に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 11
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-12
     type: kou
-    text: 公的基礎情報データベースの整備等に関し政府が迅速かつ重点的に講ずべき施策
+    text: 十二　公的基礎情報データベースの整備等に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 12
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-13
     type: kou
-    text: 特定公共分野（サービスの多様化及び質の向上を図るために特に重点的に取り組むべき公共分野をいう。）におけるサービスの多様化及び質の向上に関し政府が迅速かつ重点的に講ずべき施策
+    text: 十三　特定公共分野（サービスの多様化及び質の向上を図るために特に重点的に取り組むべき公共分野をいう。）におけるサービスの多様化及び質の向上に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 13
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-14
     type: kou
-    text: サイバーセキュリティの確保等に関し政府が迅速かつ重点的に講ずべき施策
+    text: 十四　サイバーセキュリティの確保等に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 14
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-15
     type: kou
-    text: データの品質の確保に関し政府が迅速かつ重点的に講ずべき施策
+    text: 十五　データの品質の確保に関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 15
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-16
     type: kou
-    text: 情報通信技術の効果的な活用のための規制の見直しに関し政府が迅速かつ重点的に講ずべき施策
+    text: 十六　情報通信技術の効果的な活用のための規制の見直しに関し政府が迅速かつ重点的に講ずべき施策
     modality: unspecified
     item_number: 16
   - id: digital-shakai-keisei-kihon-hou-art-39-p2-kou-17
     type: kou
-    text: 前各号に定めるもののほか、デジタル社会の形成に関する施策を政府が迅速かつ重点的に推進するために必要な事項
+    text: 十七　前各号に定めるもののほか、デジタル社会の形成に関する施策を政府が迅速かつ重点的に推進するために必要な事項
     modality: unspecified
     item_number: 17
 - number: 3

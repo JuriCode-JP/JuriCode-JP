@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-510-p1-kou-1
     type: kou
-    text: 清算の遂行に著しい支障を来すべき事情があること。
+    text: 一　清算の遂行に著しい支障を来すべき事情があること。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-510-p1-kou-2
     type: kou
-    text: 債務超過（清算株式会社の財産がその債務を完済するのに足りない状態をいう。次条第二項において同じ。）の疑いがあること。
+    text: 二　債務超過（清算株式会社の財産がその債務を完済するのに足りない状態をいう。次条第二項において同じ。）の疑いがあること。
     modality: unspecified
     item_number: 2
 cases: []

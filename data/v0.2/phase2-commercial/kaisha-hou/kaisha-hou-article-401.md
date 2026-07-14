@@ -31,8 +31,8 @@ paragraphs:
     text: 前条第一項に規定する各委員会の委員の員数（定款で四人以上の員数を定めたときは、その員数）が欠けた場合には、任期の満了又は辞任により退任した委員は、新たに選定された委員（次項の一時委員の職務を行うべき者を含む。）が就任するまで、なお委員としての権利義務を有する。
     modality: unspecified
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

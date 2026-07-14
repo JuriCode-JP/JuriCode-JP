@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-833-p1-kou-1
     type: kou
-    text: 株式会社が業務の執行において著しく困難な状況に至り、当該株式会社に回復することができない損害が生じ、又は生ずるおそれがあるとき。
+    text: 一　株式会社が業務の執行において著しく困難な状況に至り、当該株式会社に回復することができない損害が生じ、又は生ずるおそれがあるとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-833-p1-kou-2
     type: kou
-    text: 株式会社の財産の管理又は処分が著しく失当で、当該株式会社の存立を危うくするとき。
+    text: 二　株式会社の財産の管理又は処分が著しく失当で、当該株式会社の存立を危うくするとき。
     modality: unspecified
     item_number: 2
 - number: 2

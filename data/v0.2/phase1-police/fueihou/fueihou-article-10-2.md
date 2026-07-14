@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: fueihou-art-10-2-p1-kou-1
     type: kou
-    text: 当該風俗営業の許可（第七条第一項、第七条の二第一項又は第七条の三第一項の承認を受けて営んでいる風俗営業にあつては、当該承認）を受けてから十年以上経過していること。
+    text: 一　当該風俗営業の許可（第七条第一項、第七条の二第一項又は第七条の三第一項の承認を受けて営んでいる風俗営業にあつては、当該承認）を受けてから十年以上経過していること。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-10-2-p1-kou-2
     type: kou
-    text: 過去十年以内にこの法律に基づく処分（指示を含む。以下同じ。）を受けたことがなく、かつ、受けるべき事由が現にないこと。
+    text: 二　過去十年以内にこの法律に基づく処分（指示を含む。以下同じ。）を受けたことがなく、かつ、受けるべき事由が現にないこと。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-10-2-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、当該風俗営業に関し法令及びこの法律に基づく条例の遵守の状況が優良な者として国家公安委員会規則で定める基準に適合する者であること。
+    text: 三　前二号に掲げるもののほか、当該風俗営業に関し法令及びこの法律に基づく条例の遵守の状況が優良な者として国家公安委員会規則で定める基準に適合する者であること。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -54,17 +54,17 @@ paragraphs:
     depends_on: fueihou-art-10-2-p2-zen
   - id: fueihou-art-10-2-p2-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: fueihou-art-10-2-p2-kou-2
     type: kou
-    text: 営業所の名称及び所在地
+    text: 二　営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: fueihou-art-10-2-p2-kou-3
     type: kou
-    text: 営業所の構造及び設備の概要
+    text: 三　営業所の構造及び設備の概要
     modality: unspecified
     item_number: 3
 - number: 3
@@ -105,22 +105,22 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-10-2-p6-kou-1
     type: kou
-    text: 偽りその他不正の手段により当該認定を受けたことが判明したこと。
+    text: 一　偽りその他不正の手段により当該認定を受けたことが判明したこと。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-10-2-p6-kou-2
     type: kou
-    text: 当該風俗営業の許可が取り消されたこと。
+    text: 二　当該風俗営業の許可が取り消されたこと。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-10-2-p6-kou-3
     type: kou
-    text: この法律に基づく処分を受けたこと。
+    text: 三　この法律に基づく処分を受けたこと。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-10-2-p6-kou-4
     type: kou
-    text: 第一項第三号に該当しなくなつたこと。
+    text: 四　第一項第三号に該当しなくなつたこと。
     modality: unspecified
     item_number: 4
 - number: 7
@@ -134,17 +134,17 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-10-2-p7-kou-1
     type: kou
-    text: 当該風俗営業を廃止したとき。
+    text: 一　当該風俗営業を廃止したとき。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-10-2-p7-kou-2
     type: kou
-    text: 認定が取り消されたとき。
+    text: 二　認定が取り消されたとき。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-10-2-p7-kou-3
     type: kou
-    text: 認定証の再交付を受けた場合において、亡失した認定証を発見し、又は回復したとき。
+    text: 三　認定証の再交付を受けた場合において、亡失した認定証を発見し、又は回復したとき。
     modality: unspecified
     item_number: 3
 - number: 8
@@ -169,17 +169,17 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-10-2-p9-kou-1
     type: kou
-    text: 死亡した場合　同居の親族又は法定代理人
+    text: 一　死亡した場合　同居の親族又は法定代理人
     modality: unspecified
     item_number: 1
   - id: fueihou-art-10-2-p9-kou-2
     type: kou
-    text: 法人が合併以外の事由により解散した場合　清算人又は破産管財人
+    text: 二　法人が合併以外の事由により解散した場合　清算人又は破産管財人
     modality: unspecified
     item_number: 2
   - id: fueihou-art-10-2-p9-kou-3
     type: kou
-    text: 法人が合併により消滅した場合　合併後存続し、又は合併により設立された法人の代表者
+    text: 三　法人が合併により消滅した場合　合併後存続し、又は合併により設立された法人の代表者
     modality: unspecified
     item_number: 3
 cases: []

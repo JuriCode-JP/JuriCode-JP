@@ -25,12 +25,12 @@ paragraphs:
     - 次条
   - id: minpou-art-1042-p1-kou-1
     type: kou
-    text: 直系尊属のみが相続人である場合　三分の一
+    text: 一　直系尊属のみが相続人である場合　三分の一
     modality: unspecified
     item_number: 1
   - id: minpou-art-1042-p1-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　二分の一
+    text: 二　前号に掲げる場合以外の場合　二分の一
     modality: unspecified
     item_number: 2
 - number: 2

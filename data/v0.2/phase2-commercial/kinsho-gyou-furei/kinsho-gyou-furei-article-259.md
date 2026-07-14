@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-259-p1-kou-1
     type: kou
-    text: 業務の内容及び方法
+    text: 一　業務の内容及び方法
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-259-p1-kou-2
     type: kou
-    text: 法人であるときは、業務分掌の方法
+    text: 二　法人であるときは、業務分掌の方法
     modality: unspecified
     item_number: 2
 cases: []

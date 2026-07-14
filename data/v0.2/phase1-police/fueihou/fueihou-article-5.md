@@ -28,32 +28,32 @@ paragraphs:
     depends_on: fueihou-art-5-p1-zen
   - id: fueihou-art-5-p1-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: fueihou-art-5-p1-kou-2
     type: kou
-    text: 営業所の名称及び所在地
+    text: 二　営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: fueihou-art-5-p1-kou-3
     type: kou
-    text: 風俗営業の種別
+    text: 三　風俗営業の種別
     modality: unspecified
     item_number: 3
   - id: fueihou-art-5-p1-kou-4
     type: kou
-    text: 営業所の構造及び設備の概要
+    text: 四　営業所の構造及び設備の概要
     modality: unspecified
     item_number: 4
   - id: fueihou-art-5-p1-kou-5
     type: kou
-    text: 第二十四条第一項の管理者の氏名及び住所
+    text: 五　第二十四条第一項の管理者の氏名及び住所
     modality: unspecified
     item_number: 5
   - id: fueihou-art-5-p1-kou-6
     type: kou
-    text: 法人にあつては、その役員の氏名及び住所
+    text: 六　法人にあつては、その役員の氏名及び住所
     modality: unspecified
     item_number: 6
 - number: 2

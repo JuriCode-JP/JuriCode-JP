@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu_negative
   - id: yakkihou-art-65-p1-kou-1
     type: kou
-    text: 第四十一条第三項の規定によりその基準が定められた医療機器であつて、その性状、品質又は性能がその基準に適合しないもの
+    text: 一　第四十一条第三項の規定によりその基準が定められた医療機器であつて、その性状、品質又は性能がその基準に適合しないもの
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-65-p1-kou-2
     type: kou
-    text: 第二十三条の二の五若しくは第二十三条の二の十七の厚生労働大臣の承認を受けた医療機器又は第二十三条の二の二十三の認証を受けた医療機器であつて、その性状、品質又は性能がその承認又は認証の内容と異なるもの（第二十三条の二の五第十四項（第二十三条の二の十七第五項において準用する場合を含む。）又は第二十三条の二の二十三第八項の規定に違反していないものを除く。）
+    text: 二　第二十三条の二の五若しくは第二十三条の二の十七の厚生労働大臣の承認を受けた医療機器又は第二十三条の二の二十三の認証を受けた医療機器であつて、その性状、品質又は性能がその承認又は認証の内容と異なるもの（第二十三条の二の五第十四項（第二十三条の二の十七第五項において準用する場合を含む。）又は第二十三条の二の二十三第八項の規定に違反していないものを除く。）
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-65-p1-kou-3
     type: kou
-    text: 第四十二条第二項の規定によりその基準が定められた医療機器であつて、その基準に適合しないもの
+    text: 三　第四十二条第二項の規定によりその基準が定められた医療機器であつて、その基準に適合しないもの
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-65-p1-kou-4
     type: kou
-    text: その全部又は一部が不潔な物質又は変質若しくは変敗した物質から成つている医療機器
+    text: 四　その全部又は一部が不潔な物質又は変質若しくは変敗した物質から成つている医療機器
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-65-p1-kou-5
     type: kou
-    text: 異物が混入し、又は付着している医療機器
+    text: 五　異物が混入し、又は付着している医療機器
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-65-p1-kou-6
     type: kou
-    text: 病原微生物その他疾病の原因となるものにより汚染され、又は汚染されているおそれがある医療機器
+    text: 六　病原微生物その他疾病の原因となるものにより汚染され、又は汚染されているおそれがある医療機器
     modality: unspecified
     item_number: 6
   - id: yakkihou-art-65-p1-kou-7
     type: kou
-    text: その使用によつて保健衛生上の危険を生ずるおそれがある医療機器
+    text: 七　その使用によつて保健衛生上の危険を生ずるおそれがある医療機器
     modality: unspecified
     item_number: 7
 cases: []

@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-30-2-p1-kou-1
     type: kou
-    text: 当該登記を受ける事項が法第八十条第一項の規定に該当する旨
+    text: 一　当該登記を受ける事項が法第八十条第一項の規定に該当する旨
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-30-2-p1-kou-2
     type: kou
-    text: 当該登記を受ける事項が記載された施行令第四十二条の六第二項各号に掲げる計画に係る認定の日
+    text: 二　当該登記を受ける事項が記載された施行令第四十二条の六第二項各号に掲げる計画に係る認定の日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-30-2-p1-kou-3
     type: kou
-    text: 当該登記を受ける者に係る施行令第四十二条の六第二項に規定する金額（同項各号に掲げる計画について既に法第八十条第一項第一号から第三号までの規定の適用を受けたことがある場合には、当該金額のほか、その旨及びその適用に係る資本金の額の増加の内容）
+    text: 三　当該登記を受ける者に係る施行令第四十二条の六第二項に規定する金額（同項各号に掲げる計画について既に法第八十条第一項第一号から第三号までの規定の適用を受けたことがある場合には、当該金額のほか、その旨及びその適用に係る資本金の額の増加の内容）
     modality: unspecified
     item_number: 3
 - number: 2

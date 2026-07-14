@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-4-4-p1-kou-1
     type: kou
-    text: 主として金銭の貸付けを行う事業であるもの
+    text: 一　主として金銭の貸付けを行う事業であるもの
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-4-4-p1-kou-2
     type: kou
-    text: 主として貸付債権の取得を行う事業であるもの
+    text: 二　主として貸付債権の取得を行う事業であるもの
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-15-4-4-p1-kou-3
     type: kou
-    text: 前二号に掲げるものに類するものとして内閣府令で定めるもの
+    text: 三　前二号に掲げるものに類するものとして内閣府令で定めるもの
     modality: unspecified
     item_number: 3
 cases: []

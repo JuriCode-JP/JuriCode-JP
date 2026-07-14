@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-67-p1-kou-1
     type: kou
-    text: 外国商品市場取引
+    text: 一　外国商品市場取引
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-67-p1-kou-2
     type: kou
-    text: 店頭商品デリバティブ取引
+    text: 二　店頭商品デリバティブ取引
     modality: unspecified
     item_number: 2
 cases: []

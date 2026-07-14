@@ -26,27 +26,27 @@ paragraphs:
     - 次条
   - id: sochi-hou-shikkourei-art-48-7-p1-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-7-p1-kou-2
     type: kou
-    text: 当該特定用途石油製品等の製造場又は採取場の所在地及び名称
+    text: 二　当該特定用途石油製品等の製造場又は採取場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-7-p1-kou-3
     type: kou
-    text: 法第九十条の三の四第一項の表の各号の下欄に掲げる用途に供された当該特定用途石油製品等（当該特定用途石油製品等が次項前段に規定するガス状炭化水素である場合には、同項前段に規定する混合ガス。第四項、第五項及び第七項の各号において同じ。）の数量
+    text: 三　法第九十条の三の四第一項の表の各号の下欄に掲げる用途に供された当該特定用途石油製品等（当該特定用途石油製品等が次項前段に規定するガス状炭化水素である場合には、同項前段に規定する混合ガス。第四項、第五項及び第七項の各号において同じ。）の数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-48-7-p1-kou-4
     type: kou
-    text: 還付を受けようとする金額
+    text: 四　還付を受けようとする金額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-48-7-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -76,12 +76,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-48-7-p3-kou-1
     type: kou
-    text: 当該苛性ソーダの製造業を営む者によりその発行済株式（議決権のあるものに限る。次号において同じ。）の総数の百分の五十を超える数の株式を保有されている者
+    text: 一　当該苛性ソーダの製造業を営む者によりその発行済株式（議決権のあるものに限る。次号において同じ。）の総数の百分の五十を超える数の株式を保有されている者
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-7-p3-kou-2
     type: kou
-    text: 当該苛性ソーダの製造業を営む者によりその発行済株式の一部を保有されている者で、当該苛性ソーダの製造業を営む者の役員（法人税法第二条第十五号に規定する役員をいう。以下この号において同じ。）又は使用人が役員として派遣されているもの（前号に掲げる者及び電気事業法（昭和三十九年法律第百七十号）第二条第一項第十五号に規定する発電事業者を除く。）
+    text: 二　当該苛性ソーダの製造業を営む者によりその発行済株式の一部を保有されている者で、当該苛性ソーダの製造業を営む者の役員（法人税法第二条第十五号に規定する役員をいう。以下この号において同じ。）又は使用人が役員として派遣されているもの（前号に掲げる者及び電気事業法（昭和三十九年法律第百七十号）第二条第一項第十五号に規定する発電事業者を除く。）
     modality: unspecified
     item_number: 2
 - number: 4
@@ -97,17 +97,17 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-48-7-p4-kou-1
     type: kou
-    text: 移入した当該特定用途石油製品等の品名、品名ごとの数量、移入の年月日並びに引渡人の住所又は居所及び氏名又は名称
+    text: 一　移入した当該特定用途石油製品等の品名、品名ごとの数量、移入の年月日並びに引渡人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-7-p4-kou-2
     type: kou
-    text: 消費した当該特定用途石油製品等の品名、品名ごとの数量、消費の年月日及びその用途
+    text: 二　消費した当該特定用途石油製品等の品名、品名ごとの数量、消費の年月日及びその用途
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-7-p4-kou-3
     type: kou
-    text: 貯蔵している当該特定用途石油製品等の品名及び品名ごとの数量
+    text: 三　貯蔵している当該特定用途石油製品等の品名及び品名ごとの数量
     modality: unspecified
     item_number: 3
 - number: 5
@@ -123,22 +123,22 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-48-7-p5-kou-1
     type: kou
-    text: '苛性ソーダの製造業を営む者　次に掲げる事項
+    text: '一　苛性ソーダの製造業を営む者　次に掲げる事項
 
-      イ 当該特定用途石油製品等を消費して発電した電気の量
+      イ　当該特定用途石油製品等を消費して発電した電気の量
 
-      ロ イに掲げる電気の量のうち苛性ソーダの製造に使用した電気の量'
+      ロ　イに掲げる電気の量のうち苛性ソーダの製造に使用した電気の量'
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-7-p5-kou-2
     type: kou
-    text: '第三項各号に掲げる者　次に掲げる事項
+    text: '二　第三項各号に掲げる者　次に掲げる事項
 
-      イ 苛性ソーダの製造業を営む者に供給した電気の量
+      イ　苛性ソーダの製造業を営む者に供給した電気の量
 
-      ロ イに掲げる電気の量のうち当該特定用途石油製品等を消費して発電した電気の量
+      ロ　イに掲げる電気の量のうち当該特定用途石油製品等を消費して発電した電気の量
 
-      ハ イに規定する苛性ソーダの製造業を営む者の住所及び名称並びに当該苛性ソーダの製造場の所在地及び名称'
+      ハ　イに規定する苛性ソーダの製造業を営む者の住所及び名称並びに当該苛性ソーダの製造場の所在地及び名称'
     modality: unspecified
     item_number: 2
 - number: 6
@@ -152,17 +152,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-48-7-p6-kou-1
     type: kou
-    text: 製造した当該特定用途石油製品等の品名、品名ごとの数量及び製造の年月日
+    text: 一　製造した当該特定用途石油製品等の品名、品名ごとの数量及び製造の年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-7-p6-kou-2
     type: kou
-    text: 貯蔵している当該特定用途石油製品等の品名及び品名ごとの数量
+    text: 二　貯蔵している当該特定用途石油製品等の品名及び品名ごとの数量
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-7-p6-kou-3
     type: kou
-    text: 移出した当該特定用途石油製品等の品名、品名ごとの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称
+    text: 三　移出した当該特定用途石油製品等の品名、品名ごとの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 3
 - number: 7
@@ -176,17 +176,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-48-7-p7-kou-1
     type: kou
-    text: 購入した当該特定用途石油製品等の品名、品名ごとの数量、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
+    text: 一　購入した当該特定用途石油製品等の品名、品名ごとの数量、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-48-7-p7-kou-2
     type: kou
-    text: 販売した当該特定用途石油製品等の品名、品名ごとの数量、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
+    text: 二　販売した当該特定用途石油製品等の品名、品名ごとの数量、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-48-7-p7-kou-3
     type: kou
-    text: 返品した当該特定用途石油製品等の品名、品名ごとの数量、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
+    text: 三　返品した当該特定用途石油製品等の品名、品名ごとの数量、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 3
 - number: 8

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-art-47-p1-kou-1
     type: kou
-    text: 当該引取りに係る課税貨物の品名並びに品名ごとの数量、課税標準である金額（次号において「課税標準額」という。）及び税率
+    text: 一　当該引取りに係る課税貨物の品名並びに品名ごとの数量、課税標準である金額（次号において「課税標準額」という。）及び税率
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-47-p1-kou-2
     type: kou
-    text: 課税標準額に対する消費税額及び当該消費税額の合計額
+    text: 二　課税標準額に対する消費税額及び当該消費税額の合計額
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-art-47-p1-kou-3
     type: kou
-    text: 前二号に掲げる金額の計算の基礎その他財務省令で定める事項
+    text: 三　前二号に掲げる金額の計算の基礎その他財務省令で定める事項
     modality: unspecified
     item_number: 3
 - number: 2

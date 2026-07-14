@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-774-7-p1-kou-1
     type: kou
-    text: 申込者　第七百七十四条の五第二項の規定により通知を受けた株式交付子会社の株式の数
+    text: 一　申込者　第七百七十四条の五第二項の規定により通知を受けた株式交付子会社の株式の数
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-774-7-p1-kou-2
     type: kou
-    text: 前条の契約により株式交付親会社が株式交付に際して譲り受ける株式交付子会社の株式の総数を譲り渡すことを約した者　その者が譲り渡すことを約した株式交付子会社の株式の数
+    text: 二　前条の契約により株式交付親会社が株式交付に際して譲り受ける株式交付子会社の株式の総数を譲り渡すことを約した者　その者が譲り渡すことを約した株式交付子会社の株式の数
     modality: unspecified
     item_number: 2
 - number: 2

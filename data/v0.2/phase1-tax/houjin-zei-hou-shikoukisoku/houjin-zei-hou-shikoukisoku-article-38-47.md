@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-47-p1-kou-1
     type: kou
-    text: 当該対象会計年度の内国法人の属する特定多国籍企業グループ等の最終親会社等に係る連結等財務諸表
+    text: 一　当該対象会計年度の内国法人の属する特定多国籍企業グループ等の最終親会社等に係る連結等財務諸表
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-47-p1-kou-2
     type: kou
-    text: 当該対象会計年度の前号の特定多国籍企業グループ等に係る共同支配親会社等の連結等財務諸表
+    text: 二　当該対象会計年度の前号の特定多国籍企業グループ等に係る共同支配親会社等の連結等財務諸表
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-47-p1-kou-3
     type: kou
-    text: 当該対象会計年度前の対象会計年度に係る前二号に掲げるものに表示すべき事項の修正の内容
+    text: 三　当該対象会計年度前の対象会計年度に係る前二号に掲げるものに表示すべき事項の修正の内容
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-38-47-p1-kou-4
     type: kou
-    text: 第一号及び第二号に掲げるものに係る勘定科目内訳明細書
+    text: 四　第一号及び第二号に掲げるものに係る勘定科目内訳明細書
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-38-47-p1-kou-5
     type: kou
-    text: その他参考となるべき事項を記載した書類
+    text: 五　その他参考となるべき事項を記載した書類
     modality: unspecified
     item_number: 5
 - number: 2

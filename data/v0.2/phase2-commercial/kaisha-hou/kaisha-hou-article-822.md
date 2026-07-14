@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-822-p1-kou-1
     type: kou
-    text: 外国会社が第八百二十七条第一項の規定による命令を受けた場合
+    text: 一　外国会社が第八百二十七条第一項の規定による命令を受けた場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-822-p1-kou-2
     type: kou
-    text: 外国会社が日本において取引を継続してすることをやめた場合
+    text: 二　外国会社が日本において取引を継続してすることをやめた場合
     modality: unspecified
     item_number: 2
 - number: 2

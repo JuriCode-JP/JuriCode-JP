@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-19-4-5-p2-kou-1
     type: kou
-    text: 連携清算機関等に合併された者
+    text: 一　連携清算機関等に合併された者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-19-4-5-p2-kou-2
     type: kou
-    text: 分割により連携清算機関等に金融商品債務引受業と同種類の業務の全部又は一部（内閣府令で定める場合に限る。）を承継させた者
+    text: 二　分割により連携清算機関等に金融商品債務引受業と同種類の業務の全部又は一部（内閣府令で定める場合に限る。）を承継させた者
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-19-4-5-p2-kou-3
     type: kou
-    text: 連携清算機関等に金融商品債務引受業と同種類の業務の全部又は一部（内閣府令で定める場合に限る。）を譲渡した者
+    text: 三　連携清算機関等に金融商品債務引受業と同種類の業務の全部又は一部（内閣府令で定める場合に限る。）を譲渡した者
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-19-4-5-p2-kou-4
     type: kou
-    text: 前三号に掲げる者に準ずる者として内閣府令で定める者
+    text: 四　前三号に掲げる者に準ずる者として内閣府令で定める者
     modality: unspecified
     item_number: 4
 cases: []

@@ -32,12 +32,12 @@ paragraphs:
     modality: kanou_negative
   - id: kinsho-hou-art-101-4-p2-kou-1
     type: kou
-    text: 組織変更をする旨
+    text: 一　組織変更をする旨
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-101-4-p2-kou-2
     type: kou
-    text: 債権者が一定の期間内に異議を述べることができる旨
+    text: 二　債権者が一定の期間内に異議を述べることができる旨
     modality: unspecified
     item_number: 2
 - number: 3

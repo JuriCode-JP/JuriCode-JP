@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-196-12-p1-kou-1
     type: kou
-    text: 再生医療等製品の販売業者の氏名（当該販売業者が法人であるときは、薬事に関する業務に責任を有する役員の氏名を含む。）又は住所
+    text: 一　再生医療等製品の販売業者の氏名（当該販売業者が法人であるときは、薬事に関する業務に責任を有する役員の氏名を含む。）又は住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-196-12-p1-kou-2
     type: kou
-    text: 営業所の名称
+    text: 二　営業所の名称
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-196-12-p1-kou-3
     type: kou
-    text: 営業所の構造設備の主要部分
+    text: 三　営業所の構造設備の主要部分
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-196-12-p1-kou-4
     type: kou
-    text: 再生医療等製品営業所管理者の氏名又は住所
+    text: 四　再生医療等製品営業所管理者の氏名又は住所
     modality: unspecified
     item_number: 4
 - number: 2
@@ -55,8 +55,8 @@ paragraphs:
     text: この場合において、同条第二項中「前項第四号」とあるのは「第百九十六条の十二第一項第四号」と、同条第三項各号列記以外の部分中「都道府県知事（その所在地が保健所を設置する市又は特別区の区域にある場合においては、市長又は区長。以下この項において同じ。）」とあるのは「都道府県知事」と、同項第一号及び第二号中「第一項第一号」とあるのは「第百九十六条の十二第一項第一号」と、同項第三号中「第一項第四号又は第五号」とあるのは「第百九十六条の十二第一項第四号」と、「管理者又は当該薬局において薬事に関する実務に従事する薬剤師若しくは登録販売者」とあるのは「再生医療等製品営業所管理者」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
     depends_on: yakkihou-shikoukisoku-art-196-12-p2-zen
 cases: []
 amendments: []

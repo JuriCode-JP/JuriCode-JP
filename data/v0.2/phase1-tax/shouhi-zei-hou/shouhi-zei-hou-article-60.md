@@ -71,8 +71,8 @@ paragraphs:
     text: 前項の場合において、同項に規定する課税仕入れ等の税額から同項に規定する政令で定めるところにより計算した金額を控除して控除しきれない金額があるときは、当該控除しきれない金額を課税資産の譲渡等に係る消費税額とみなして同項の課税期間の課税標準額に対する消費税額に加算する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

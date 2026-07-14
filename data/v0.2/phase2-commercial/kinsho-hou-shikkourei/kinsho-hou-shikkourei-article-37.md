@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-37-p1-kou-1
     type: kou
-    text: 商品投資により運用することを目的とするもの
+    text: 一　商品投資により運用することを目的とするもの
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-37-p1-kou-2
     type: kou
-    text: '次に掲げるいずれかの物品の取得（生産を含む。）をし、譲渡をし、使用をし、又は使用をさせることにより運用することを目的とするもの
+    text: '二　次に掲げるいずれかの物品の取得（生産を含む。）をし、譲渡をし、使用をし、又は使用をさせることにより運用することを目的とするもの
 
-      イ 特定商品（商品投資に係る事業の規制に関する法律第二条第一項第一号に規定する特定商品をいう。）
+      イ　特定商品（商品投資に係る事業の規制に関する法律第二条第一項第一号に規定する特定商品をいう。）
 
-      ロ 競走用馬
+      ロ　競走用馬
 
-      ハ 映画
+      ハ　映画
 
-      ニ 絵画
+      ニ　絵画
 
-      ホ 鉱業権'
+      ホ　鉱業権'
     modality: unspecified
     item_number: 2
 - number: 2
@@ -54,57 +54,57 @@ paragraphs:
     - 同項
   - id: kinsho-hou-shikkourei-art-37-p2-kou-1
     type: kou
-    text: 法第三十七条第一項の内閣府令
+    text: 一　法第三十七条第一項の内閣府令
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-37-p2-kou-2
     type: kou
-    text: 法第三十七条第二項の内閣府令
+    text: 二　法第三十七条第二項の内閣府令
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-37-p2-kou-3
     type: kou
-    text: 法第三十七条の三第一項本文の内閣府令
+    text: 三　法第三十七条の三第一項本文の内閣府令
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-37-p2-kou-4
     type: kou
-    text: 法第三十七条の三第一項ただし書の内閣府令
+    text: 四　法第三十七条の三第一項ただし書の内閣府令
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-37-p2-kou-5
     type: kou
-    text: 法第三十七条の三第一項第四号の内閣府令
+    text: 五　法第三十七条の三第一項第四号の内閣府令
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-37-p2-kou-6
     type: kou
-    text: 法第三十七条の三第一項第七号の内閣府令
+    text: 六　法第三十七条の三第一項第七号の内閣府令
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-37-p2-kou-7
     type: kou
-    text: 法第三十七条の三第二項本文の内閣府令
+    text: 七　法第三十七条の三第二項本文の内閣府令
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-37-p2-kou-8
     type: kou
-    text: 法第三十七条の三第二項ただし書の内閣府令
+    text: 八　法第三十七条の三第二項ただし書の内閣府令
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-shikkourei-art-37-p2-kou-9
     type: kou
-    text: 法第三十七条の四本文の内閣府令
+    text: 九　法第三十七条の四本文の内閣府令
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-shikkourei-art-37-p2-kou-10
     type: kou
-    text: 法第三十七条の四ただし書の内閣府令
+    text: 十　法第三十七条の四ただし書の内閣府令
     modality: unspecified
     item_number: 10
   - id: kinsho-hou-shikkourei-art-37-p2-kou-11
     type: kou
-    text: 法第四十条の三の内閣府令
+    text: 十一　法第四十条の三の内閣府令
     modality: unspecified
     item_number: 11
 - number: 3
@@ -118,32 +118,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-37-p3-kou-1
     type: kou
-    text: 法第五十一条の規定に基づく命令
+    text: 一　法第五十一条の規定に基づく命令
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-37-p3-kou-2
     type: kou
-    text: 法第五十一条の二の規定に基づく命令
+    text: 二　法第五十一条の二の規定に基づく命令
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-37-p3-kou-3
     type: kou
-    text: 法第五十二条第一項の規定に基づく処分
+    text: 三　法第五十二条第一項の規定に基づく処分
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-37-p3-kou-4
     type: kou
-    text: 法第五十二条第二項の規定に基づく命令
+    text: 四　法第五十二条第二項の規定に基づく命令
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-37-p3-kou-5
     type: kou
-    text: 法第五十二条の二第一項の規定に基づく処分
+    text: 五　法第五十二条の二第一項の規定に基づく処分
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-37-p3-kou-6
     type: kou
-    text: 法第五十二条の二第二項の規定に基づく命令
+    text: 六　法第五十二条の二第二項の規定に基づく命令
     modality: unspecified
     item_number: 6
 - number: 4
@@ -157,32 +157,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-37-p4-kou-1
     type: kou
-    text: 法第三十一条第一項
+    text: 一　法第三十一条第一項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-37-p4-kou-2
     type: kou
-    text: 法第三十一条第三項
+    text: 二　法第三十一条第三項
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-37-p4-kou-3
     type: kou
-    text: 法第三十三条の六第一項
+    text: 三　法第三十三条の六第一項
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-37-p4-kou-4
     type: kou
-    text: 法第三十三条の六第三項
+    text: 四　法第三十三条の六第三項
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-37-p4-kou-5
     type: kou
-    text: 法第五十条第一項
+    text: 五　法第五十条第一項
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-37-p4-kou-6
     type: kou
-    text: 法第五十条の二第一項
+    text: 六　法第五十条の二第一項
     modality: unspecified
     item_number: 6
 - number: 5
@@ -196,17 +196,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-37-p5-kou-1
     type: kou
-    text: 農林水産関係商品投資関連業務（第一項第二号ロに掲げる物品又は商品投資に係る事業の規制に関する法律施行令（平成四年政令第四十五号）第十一条第二項第一号に規定する農林水産関係商品等のみに係る商品投資関連業務をいう。以下同じ。）のみに関する事項に係る内閣府令　農林水産大臣
+    text: 一　農林水産関係商品投資関連業務（第一項第二号ロに掲げる物品又は商品投資に係る事業の規制に関する法律施行令（平成四年政令第四十五号）第十一条第二項第一号に規定する農林水産関係商品等のみに係る商品投資関連業務をいう。以下同じ。）のみに関する事項に係る内閣府令　農林水産大臣
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-37-p5-kou-2
     type: kou
-    text: 経済産業関係商品投資関連業務（第一項第二号ハからホまでに掲げる物品又は商品投資に係る事業の規制に関する法律施行令第十一条第一項ただし書に規定する経済産業関係商品等のみに係る商品投資関連業務をいう。以下同じ。）のみに関する事項に係る内閣府令　経済産業大臣
+    text: 二　経済産業関係商品投資関連業務（第一項第二号ハからホまでに掲げる物品又は商品投資に係る事業の規制に関する法律施行令第十一条第一項ただし書に規定する経済産業関係商品等のみに係る商品投資関連業務をいう。以下同じ。）のみに関する事項に係る内閣府令　経済産業大臣
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-37-p5-kou-3
     type: kou
-    text: 前二号以外の商品投資関連業務に関する事項に係る内閣府令　農林水産大臣及び経済産業大臣
+    text: 三　前二号以外の商品投資関連業務に関する事項に係る内閣府令　農林水産大臣及び経済産業大臣
     modality: unspecified
     item_number: 3
 - number: 6
@@ -220,17 +220,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-37-p6-kou-1
     type: kou
-    text: 農林水産関係商品投資関連業務に関し行われる処分　農林水産大臣
+    text: 一　農林水産関係商品投資関連業務に関し行われる処分　農林水産大臣
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-37-p6-kou-2
     type: kou
-    text: 経済産業関係商品投資関連業務に関し行われる処分　経済産業大臣
+    text: 二　経済産業関係商品投資関連業務に関し行われる処分　経済産業大臣
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-37-p6-kou-3
     type: kou
-    text: 前二号以外の商品投資関連業務に関し行われる処分　農林水産大臣及び経済産業大臣
+    text: 三　前二号以外の商品投資関連業務に関し行われる処分　農林水産大臣及び経済産業大臣
     modality: unspecified
     item_number: 3
 - number: 7
@@ -244,17 +244,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-37-p7-kou-1
     type: kou
-    text: 農林水産関係商品投資関連業務に関する届出又は登録若しくは変更登録の申請　農林水産大臣
+    text: 一　農林水産関係商品投資関連業務に関する届出又は登録若しくは変更登録の申請　農林水産大臣
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-37-p7-kou-2
     type: kou
-    text: 経済産業関係商品投資関連業務に関する届出又は登録若しくは変更登録の申請　経済産業大臣
+    text: 二　経済産業関係商品投資関連業務に関する届出又は登録若しくは変更登録の申請　経済産業大臣
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-37-p7-kou-3
     type: kou
-    text: 前二号以外の商品投資関連業務に関する届出又は登録若しくは変更登録の申請　農林水産大臣及び経済産業大臣
+    text: 三　前二号以外の商品投資関連業務に関する届出又は登録若しくは変更登録の申請　農林水産大臣及び経済産業大臣
     modality: unspecified
     item_number: 3
 cases: []

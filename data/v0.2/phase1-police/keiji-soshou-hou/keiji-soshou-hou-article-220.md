@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: keiji-soshou-hou-art-220-p1-kou-1
     type: kou
-    text: 人の住居又は人の看守する邸宅、建造物若しくは船舶内に入り被疑者の捜索をすること。
+    text: 一　人の住居又は人の看守する邸宅、建造物若しくは船舶内に入り被疑者の捜索をすること。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-220-p1-kou-2
     type: kou
-    text: 逮捕の現場で差押、捜索又は検証をすること。
+    text: 二　逮捕の現場で差押、捜索又は検証をすること。
     modality: unspecified
     item_number: 2
 - number: 2

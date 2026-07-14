@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-66-5-p1-kou-1
     type: kou
-    text: 令第二百九十二条の三第四項の規定の適用を受けようとする非居住者の氏名及び居所
+    text: 一　令第二百九十二条の三第四項の規定の適用を受けようとする非居住者の氏名及び居所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-66-5-p1-kou-2
     type: kou
-    text: 恒久的施設を通じて行う事業の経営の責任者の氏名
+    text: 二　恒久的施設を通じて行う事業の経営の責任者の氏名
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-66-5-p1-kou-3
     type: kou
-    text: 令第二百九十二条の三第四項の規定の適用を受けようとする最初の年
+    text: 三　令第二百九十二条の三第四項の規定の適用を受けようとする最初の年
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-66-5-p1-kou-4
     type: kou
-    text: 令第二百九十二条の三第四項に規定する一定の日
+    text: 四　令第二百九十二条の三第四項に規定する一定の日
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-66-5-p1-kou-5
     type: kou
-    text: 令第二百九十二条の三第四項に規定する確定申告期限までに同項に規定する危険勘案資産額を計算することが困難である理由
+    text: 五　令第二百九十二条の三第四項に規定する確定申告期限までに同項に規定する危険勘案資産額を計算することが困難である理由
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-66-5-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

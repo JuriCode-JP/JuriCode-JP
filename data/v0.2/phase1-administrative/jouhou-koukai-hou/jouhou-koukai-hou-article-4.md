@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: jouhou-koukai-hou-art-4-p1-kou-1
     type: kou
-    text: 開示請求をする者の氏名又は名称及び住所又は居所並びに法人その他の団体にあっては代表者の氏名
+    text: 一　開示請求をする者の氏名又は名称及び住所又は居所並びに法人その他の団体にあっては代表者の氏名
     modality: unspecified
     item_number: 1
   - id: jouhou-koukai-hou-art-4-p1-kou-2
     type: kou
-    text: 行政文書の名称その他の開示請求に係る行政文書を特定するに足りる事項
+    text: 二　行政文書の名称その他の開示請求に係る行政文書を特定するに足りる事項
     modality: unspecified
     item_number: 2
 - number: 2

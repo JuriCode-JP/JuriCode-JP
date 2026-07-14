@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-shikoukisoku-art-228-5-p1-kou-1
     type: kou
-    text: 二ミリリツトル以下のアンプル又はこれと同等の大きさの直接の容器若しくは直接の被包に収められた再生医療等製品
+    text: 一　二ミリリツトル以下のアンプル又はこれと同等の大きさの直接の容器若しくは直接の被包に収められた再生医療等製品
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-5-p1-kou-2
     type: kou
-    text: 二ミリリツトルを超え十ミリリツトル以下のアンプル若しくはこれと同等の大きさのガラスその他これに類する材質からなる直接の容器で、その記載事項がその容器に直接印刷されているものに収められた再生医療等製品
+    text: 二　二ミリリツトルを超え十ミリリツトル以下のアンプル若しくはこれと同等の大きさのガラスその他これに類する材質からなる直接の容器で、その記載事項がその容器に直接印刷されているものに収められた再生医療等製品
     modality: unspecified
     item_number: 2
 - number: 2

@@ -22,32 +22,32 @@ paragraphs:
     text: 取締役（前条第四項の規定により株主が株主総会を招集する場合にあっては、当該株主。次項本文及び次条から第三百二条までにおいて同じ。）は、株主総会を招集する場合には、次に掲げる事項を定めなければならない。
     modality: gimu
     references:
-    - 前条
     - 次項
+    - 前条
     - 次条
   - id: kaisha-hou-art-298-p1-kou-1
     type: kou
-    text: 株主総会の日時及び場所
+    text: 一　株主総会の日時及び場所
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-298-p1-kou-2
     type: kou
-    text: 株主総会の目的である事項があるときは、当該事項
+    text: 二　株主総会の目的である事項があるときは、当該事項
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-298-p1-kou-3
     type: kou
-    text: 株主総会に出席しない株主が書面によって議決権を行使することができることとするときは、その旨
+    text: 三　株主総会に出席しない株主が書面によって議決権を行使することができることとするときは、その旨
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-298-p1-kou-4
     type: kou
-    text: 株主総会に出席しない株主が電磁的方法によって議決権を行使することができることとするときは、その旨
+    text: 四　株主総会に出席しない株主が電磁的方法によって議決権を行使することができることとするときは、その旨
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-298-p1-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、法務省令で定める事項
+    text: 五　前各号に掲げるもののほか、法務省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -76,8 +76,8 @@ paragraphs:
     text: 取締役会設置会社における前項の規定の適用については、同項中「株主総会において決議をすることができる事項」とあるのは、「前項第二号に掲げる事項」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

@@ -34,8 +34,8 @@ paragraphs:
     text: 令第百六十七条の六第一項に規定する財務省令で定めるところにより帳簿書類その他の財務省令で定める書類に記載した場合は、同項に規定する先物外国為替契約（次項において「先物外国為替契約」という。）の締結の日において、次項に規定する書類に同条第一項の規定に該当する旨、同項に規定する外貨建資産・負債の取得又は発生の基因となる外貨建取引の種類及びその金額その他参考となるべき事項を記載した場合とする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -47,12 +47,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-36-7-p3-kou-1
     type: kou
-    text: 不動産所得、事業所得又は山林所得を生ずべき業務を行う居住者　その者の当該業務に係る先物外国為替契約の締結に関する帳簿書類
+    text: 一　不動産所得、事業所得又は山林所得を生ずべき業務を行う居住者　その者の当該業務に係る先物外国為替契約の締結に関する帳簿書類
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-36-7-p3-kou-2
     type: kou
-    text: 雑所得を生ずべき業務を行う居住者　その者の当該業務に係る先物外国為替契約の締結に関する書類
+    text: 二　雑所得を生ずべき業務を行う居住者　その者の当該業務に係る先物外国為替契約の締結に関する書類
     modality: unspecified
     item_number: 2
 cases: []

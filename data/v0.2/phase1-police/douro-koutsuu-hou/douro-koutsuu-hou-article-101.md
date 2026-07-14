@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定により免許証等の更新を受けようとする者の誕生日が二月二十九日である場合における同項の規定の適用については、その者のうるう年以外の年における誕生日は二月二十八日であるものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -72,8 +72,8 @@ paragraphs:
     text: 前項の規定による適性検査の結果又は第百一条の二の二第五項の規定により通知された適性検査の結果（同条第七項の規定による適性検査を行つた場合には、当該通知された適性検査の結果及び同項の規定による適性検査の結果）から判断して、当該免許証等の更新を受けようとする者が自動車等を運転することが支障がないと認めたときは、当該公安委員会は、当該免許証等の更新をしなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: douro-koutsuu-hou-art-101-p6-kou
     type: kou_dan
     text: この場合において、当該公安委員会は、その者が同条第三項の規定による申出をしていたときは、同条第七項の規定による適性検査を行つた場合その他内閣府令で定める場合を除き、当該申出に係る経由地公安委員会（同条第一項に規定する経由地公安委員会をいう。）に当該免許情報記録の有効期間の更新をすべき旨を通知して、当該経由地公安委員会に第百一条の四の二第三項の規定による免許情報記録の書換えを行わせるものとする。
@@ -103,6 +103,10 @@ paragraphs:
   - id: douro-koutsuu-hou-art-101-p8
     type: simple
     text: 前各項に定めるもののほか、免許証等の更新の申請及び適性検査について必要な事項は、内閣府令で定める。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-101-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十七条の四第一項第三号）
     modality: unspecified
 cases: []
 amendments: []

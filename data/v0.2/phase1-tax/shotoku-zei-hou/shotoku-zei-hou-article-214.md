@@ -33,8 +33,8 @@ paragraphs:
     text: 前項に規定する非居住者で同項に規定する証明書の交付を受けたものが、その交付を受けた後、同項に規定する要件に該当しないこととなり、又は恒久的施設を有しないこととなつた場合には、その該当しないこととなつた日又は有しないこととなつた日以後遅滞なく、政令で定めるところにより、その旨を納税地の所轄税務署長に届け出るとともに、その証明書の提示先にその旨を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -56,8 +56,8 @@ paragraphs:
     text: 前項の場合において、同項に規定する通知を受けた者は、当該通知を受けた日以後遅滞なく、第一項に規定する証明書の提示先に当該通知を受けた旨を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -78,12 +78,12 @@ paragraphs:
     modality: unspecified
   - id: shotoku-zei-hou-art-214-p6-kou-1
     type: kou
-    text: 当該証明書につき納税地の所轄税務署長が定めた有効期限を経過したとき。
+    text: 一　当該証明書につき納税地の所轄税務署長が定めた有効期限を経過したとき。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-214-p6-kou-2
     type: kou
-    text: 前項の規定による公示があつたとき。
+    text: 二　前項の規定による公示があつたとき。
     modality: unspecified
     item_number: 2
 cases:

@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-775-p2-kou-1
     type: kou
-    text: 組織変更計画について組織変更をする株式会社の総株主の同意を得た日
+    text: 一　組織変更計画について組織変更をする株式会社の総株主の同意を得た日
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-775-p2-kou-2
     type: kou
-    text: 組織変更をする株式会社が新株予約権を発行しているときは、第七百七十七条第三項の規定による通知の日又は同条第四項の公告の日のいずれか早い日
+    text: 二　組織変更をする株式会社が新株予約権を発行しているときは、第七百七十七条第三項の規定による通知の日又は同条第四項の公告の日のいずれか早い日
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-775-p2-kou-3
     type: kou
-    text: 第七百七十九条第二項の規定による公告の日又は同項の規定による催告の日のいずれか早い日
+    text: 三　第七百七十九条第二項の規定による公告の日又は同項の規定による催告の日のいずれか早い日
     modality: unspecified
     item_number: 3
 - number: 3
@@ -58,22 +58,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-775-p3-kou-1
     type: kou
-    text: 第一項の書面の閲覧の請求
+    text: 一　第一項の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-775-p3-kou-2
     type: kou
-    text: 第一項の書面の謄本又は抄本の交付の請求
+    text: 二　第一項の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-775-p3-kou-3
     type: kou
-    text: 第一項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　第一項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-775-p3-kou-4
     type: kou
-    text: 第一項の電磁的記録に記録された事項を電磁的方法であって株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　第一項の電磁的記録に記録された事項を電磁的方法であって株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 cases: []

@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: shouhi-zei-hou-shikkourei-art-33-p1-kou-1
     type: kou
-    text: 当該個人事業者（法第九条第一項本文の規定により消費税を納める義務が免除される個人事業者を除く。）が同項本文の規定の適用を受けることとなつた場合
+    text: 一　当該個人事業者（法第九条第一項本文の規定により消費税を納める義務が免除される個人事業者を除く。）が同項本文の規定の適用を受けることとなつた場合
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-33-p1-kou-2
     type: kou
-    text: 当該個人事業者（法第九条第一項本文の規定により消費税を納める義務が免除される個人事業者に限る。）が同項本文の規定の適用を受けないこととなつた場合
+    text: 二　当該個人事業者（法第九条第一項本文の規定により消費税を納める義務が免除される個人事業者に限る。）が同項本文の規定の適用を受けないこととなつた場合
     modality: unspecified
     item_number: 2
 cases: []

@@ -36,17 +36,17 @@ paragraphs:
     - 前項
   - id: kinsho-hou-shikkourei-art-4-p2-kou-1
     type: kou
-    text: 清算中の者
+    text: 一　清算中の者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-4-p2-kou-2
     type: kou
-    text: 相当の期間事業を休止している者
+    text: 二　相当の期間事業を休止している者
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-4-p2-kou-3
     type: kou
-    text: 法第二十四条第一項第三号に掲げる有価証券の発行者で、内閣府令で定めるところにより算定した当該有価証券の所有者の数が内閣府令で定める数未満である者
+    text: 三　法第二十四条第一項第三号に掲げる有価証券の発行者で、内閣府令で定めるところにより算定した当該有価証券の所有者の数が内閣府令で定める数未満である者
     modality: unspecified
     item_number: 3
 - number: 3
@@ -59,8 +59,8 @@ paragraphs:
     text: 前項の承認は、同項の者が内閣府令で定めるところにより毎事業年度（同項に規定する申請があつた日の属する事業年度及び当該事業年度終了の日後内閣府令で定める期間内に終了するものに限る。）経過後三月以内（その者が外国の者である場合には、第三条の四に定める期間内）に株主名簿の写しその他の内閣府令で定める書類を金融庁長官に提出することを条件として、行われるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

@@ -32,12 +32,12 @@ paragraphs:
     modality: unspecified
   - id: sochi-hou-art-41-4-2-p2-kou-1
     type: kou
-    text: 組合契約　民法第六百六十七条第一項に規定する組合契約及び投資事業有限責任組合契約に関する法律第三条第一項に規定する投資事業有限責任組合契約並びに外国におけるこれらに類する契約（政令で定めるものを含む。）をいう。
+    text: 一　組合契約　民法第六百六十七条第一項に規定する組合契約及び投資事業有限責任組合契約に関する法律第三条第一項に規定する投資事業有限責任組合契約並びに外国におけるこれらに類する契約（政令で定めるものを含む。）をいう。
     modality: teigi
     item_number: 1
   - id: sochi-hou-art-41-4-2-p2-kou-2
     type: kou
-    text: 組合事業　各組合契約に基づいて営まれる事業をいう。
+    text: 二　組合事業　各組合契約に基づいて営まれる事業をいう。
     modality: teigi
     item_number: 2
 - number: 3

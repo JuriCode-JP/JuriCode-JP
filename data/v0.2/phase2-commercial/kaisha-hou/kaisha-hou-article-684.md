@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-684-p2-kou-1
     type: kou
-    text: 社債原簿が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+    text: 一　社債原簿が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-684-p2-kou-2
     type: kou
-    text: 社債原簿が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    text: 二　社債原簿が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
     modality: unspecified
     item_number: 2
 - number: 3
@@ -53,17 +53,17 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-684-p3-kou-1
     type: kou
-    text: 当該請求を行う者がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
+    text: 一　当該請求を行う者がその権利の確保又は行使に関する調査以外の目的で請求を行ったとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-684-p3-kou-2
     type: kou
-    text: 当該請求を行う者が社債原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
+    text: 二　当該請求を行う者が社債原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報するため請求を行ったとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-684-p3-kou-3
     type: kou
-    text: 当該請求を行う者が、過去二年以内において、社債原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。
+    text: 三　当該請求を行う者が、過去二年以内において、社債原簿の閲覧又は謄写によって知り得た事実を利益を得て第三者に通報したことがあるものであるとき。
     modality: unspecified
     item_number: 3
 - number: 4

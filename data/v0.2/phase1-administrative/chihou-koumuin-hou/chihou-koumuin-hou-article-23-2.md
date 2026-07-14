@@ -40,8 +40,8 @@ paragraphs:
     text: 前項の場合において、任命権者が地方公共団体の長及び議会の議長以外の者であるときは、同項に規定する事項について、あらかじめ、地方公共団体の長に協議しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

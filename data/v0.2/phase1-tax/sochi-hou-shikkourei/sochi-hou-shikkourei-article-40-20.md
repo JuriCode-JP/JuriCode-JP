@@ -45,12 +45,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-20-p3-kou-1
     type: kou
-    text: 当該木材市場等として使用されている建物等のうち専ら当該木材市場等の用に供している部分の床面積
+    text: 一　当該木材市場等として使用されている建物等のうち専ら当該木材市場等の用に供している部分の床面積
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-20-p3-kou-2
     type: kou
-    text: 前号の建物等のうち専ら当該木材市場等の用以外の用に供している部分の床面積
+    text: 二　前号の建物等のうち専ら当該木材市場等の用以外の用に供している部分の床面積
     modality: unspecified
     item_number: 2
 - number: 4

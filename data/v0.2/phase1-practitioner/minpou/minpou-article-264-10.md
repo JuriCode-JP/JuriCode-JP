@@ -32,12 +32,12 @@ paragraphs:
     modality: kanou_negative
   - id: minpou-art-264-10-p2-kou-1
     type: kou
-    text: 保存行為
+    text: 一　保存行為
     modality: unspecified
     item_number: 1
   - id: minpou-art-264-10-p2-kou-2
     type: kou
-    text: 管理不全土地等の性質を変えない範囲内において、その利用又は改良を目的とする行為
+    text: 二　管理不全土地等の性質を変えない範囲内において、その利用又は改良を目的とする行為
     modality: unspecified
     item_number: 2
 - number: 3

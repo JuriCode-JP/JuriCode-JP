@@ -34,17 +34,17 @@ paragraphs:
     modality: gimu
   - id: dokusen-kinshi-hou-art-48-3-p2-kou-1
     type: kou
-    text: 排除措置の内容
+    text: 一　排除措置の内容
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-48-3-p2-kou-2
     type: kou
-    text: 排除措置の実施期限
+    text: 二　排除措置の実施期限
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-48-3-p2-kou-3
     type: kou
-    text: その他公正取引委員会規則で定める事項
+    text: 三　その他公正取引委員会規則で定める事項
     modality: unspecified
     item_number: 3
 - number: 3
@@ -58,12 +58,12 @@ paragraphs:
     modality: gimu
   - id: dokusen-kinshi-hou-art-48-3-p3-kou-1
     type: kou
-    text: 排除措置が疑いの理由となつた行為を排除するために十分なものであること。
+    text: 一　排除措置が疑いの理由となつた行為を排除するために十分なものであること。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-48-3-p3-kou-2
     type: kou
-    text: 排除措置が確実に実施されると見込まれるものであること。
+    text: 二　排除措置が確実に実施されると見込まれるものであること。
     modality: unspecified
     item_number: 2
 - number: 4

@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -47,17 +47,17 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-shikkourei-art-43-10-p3-kou-1
     type: kou
-    text: 法第百六十四条第四項の規定による利益関係書類の写し及び同項に規定する情報の送付並びに法第百六十五条の二第九項の規定による組合利益関係書類の写し及び同項に規定する情報の送付
+    text: 一　法第百六十四条第四項の規定による利益関係書類の写し及び同項に規定する情報の送付並びに法第百六十五条の二第九項の規定による組合利益関係書類の写し及び同項に規定する情報の送付
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-43-10-p3-kou-2
     type: kou
-    text: 法第百六十四条第五項及び第百六十五条の二第十項の規定による申立ての受理
+    text: 二　法第百六十四条第五項及び第百六十五条の二第十項の規定による申立ての受理
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-43-10-p3-kou-3
     type: kou
-    text: 法第百六十四条第八項及び第百六十五条の二第十三項の規定による情報の提供の求めの受理
+    text: 三　法第百六十四条第八項及び第百六十五条の二第十三項の規定による情報の提供の求めの受理
     modality: unspecified
     item_number: 3
 cases: []

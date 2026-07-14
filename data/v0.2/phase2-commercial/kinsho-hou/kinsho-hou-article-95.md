@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-95-p1-kou-1
     type: kou
-    text: 金融商品取引業者等に該当しないこととなること。
+    text: 一　金融商品取引業者等に該当しないこととなること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-95-p1-kou-2
     type: kou
-    text: 解散
+    text: 二　解散
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-95-p1-kou-3
     type: kou
-    text: 除名
+    text: 三　除名
     modality: unspecified
     item_number: 3
 cases: []

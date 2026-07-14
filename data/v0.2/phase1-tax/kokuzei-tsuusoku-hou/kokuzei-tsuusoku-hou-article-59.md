@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_negative
   - id: kokuzei-tsuusoku-hou-art-59-p1-kou-1
     type: kou
-    text: 納付すべき税額の確定した国税で、その納期が到来していないもの
+    text: 一　納付すべき税額の確定した国税で、その納期が到来していないもの
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-59-p1-kou-2
     type: kou
-    text: 最近において納付すべき税額の確定することが確実であると認められる国税
+    text: 二　最近において納付すべき税額の確定することが確実であると認められる国税
     modality: unspecified
     item_number: 2
 - number: 2

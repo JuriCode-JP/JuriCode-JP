@@ -31,8 +31,8 @@ paragraphs:
     text: 厚生労働大臣又は都道府県知事は、前項の規定による命令を受けた者がその命令に従わない場合であつて、公衆衛生上の危険の発生を防止するため必要があると認めるときは、当該職員に、同項に規定する物を廃棄させ、若しくは回収させ、又はその他の必要な処分をさせることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

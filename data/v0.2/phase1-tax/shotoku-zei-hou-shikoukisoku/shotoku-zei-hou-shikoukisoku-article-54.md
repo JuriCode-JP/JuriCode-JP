@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-54-p1-kou-1
     type: kou
-    text: 法第百四十二条第一項に規定する還付請求書を提出する者の氏名、住所（国内に住所がない場合には、居所）及び個人番号（個人番号を有しない者にあつては、氏名及び住所（国内に住所がない場合には、居所）。次項第一号において同じ。）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    text: 一　法第百四十二条第一項に規定する還付請求書を提出する者の氏名、住所（国内に住所がない場合には、居所）及び個人番号（個人番号を有しない者にあつては、氏名及び住所（国内に住所がない場合には、居所）。次項第一号において同じ。）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-54-p1-kou-2
     type: kou
-    text: 前号の請求書に係る純損失の金額を生じた年の前年分の総所得金額、退職所得金額又は山林所得金額に係る所得税の額
+    text: 二　前号の請求書に係る純損失の金額を生じた年の前年分の総所得金額、退職所得金額又は山林所得金額に係る所得税の額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-54-p1-kou-3
     type: kou
-    text: 法第百四十条第一項若しくは第五項（純損失の繰戻しによる還付の請求）の規定の適用を受けようとする純損失の金額
+    text: 三　法第百四十条第一項若しくは第五項（純損失の繰戻しによる還付の請求）の規定の適用を受けようとする純損失の金額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-54-p1-kou-4
     type: kou
-    text: 第一号の請求書に係る青色申告書がその提出期限後に提出された場合において、当該請求書を提出しようとするときは、当該青色申告書がその提出期限までに提出されなかつた事情の詳細
+    text: 四　第一号の請求書に係る青色申告書がその提出期限後に提出された場合において、当該請求書を提出しようとするときは、当該青色申告書がその提出期限までに提出されなかつた事情の詳細
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-54-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -59,22 +59,22 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-shikoukisoku-art-54-p2-kou-1
     type: kou
-    text: 各相続人の氏名、住所（国内に住所がない場合には、居所）及び個人番号並びに被相続人との続柄
+    text: 一　各相続人の氏名、住所（国内に住所がない場合には、居所）及び個人番号並びに被相続人との続柄
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-54-p2-kou-2
     type: kou
-    text: 法第百四十一条第一項又は第四項の規定の適用を受けようとする純損失の金額
+    text: 二　法第百四十一条第一項又は第四項の規定の適用を受けようとする純損失の金額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-54-p2-kou-3
     type: kou
-    text: 法第百四十一条第一項又は第四項に規定する死亡をした者の氏名及びその死亡の時における住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
+    text: 三　法第百四十一条第一項又は第四項に規定する死亡をした者の氏名及びその死亡の時における住所（国内に住所がない場合には、居所）並びに住所地（国内に住所がない場合には、居所地）と納税地とが異なる場合には、その納税地
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-54-p2-kou-4
     type: kou
-    text: 相続人が二人以上ある場合には、各相続人別の還付を受けようとする所得税の額
+    text: 四　相続人が二人以上ある場合には、各相続人別の還付を受けようとする所得税の額
     modality: unspecified
     item_number: 4
 - number: 3
@@ -87,8 +87,8 @@ paragraphs:
     text: 令第二百七十三条第一項ただし書（相続人等による還付の請求）の方法により同項の請求書を提出する場合には、当該請求書には、前項第一号に掲げる事項のうち同条第一項ただし書の規定により氏名を付記する他の相続人の個人番号は、記載することを要しない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

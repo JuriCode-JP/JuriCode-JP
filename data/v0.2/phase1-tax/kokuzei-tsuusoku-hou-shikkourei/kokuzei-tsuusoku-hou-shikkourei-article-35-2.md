@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-35-2-p1-kou-1
     type: kou
-    text: 交付に係る法第九十七条の三第一項に規定する書類（以下この条において「対象書類」という。）又は交付に係る同項に規定する電磁的記録（以下この条において「対象電磁的記録」という。）を特定するに足りる事項
+    text: 一　交付に係る法第九十七条の三第一項に規定する書類（以下この条において「対象書類」という。）又は交付に係る同項に規定する電磁的記録（以下この条において「対象電磁的記録」という。）を特定するに足りる事項
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-35-2-p1-kou-2
     type: kou
-    text: 対象書類又は対象電磁的記録について求める交付の方法（次項各号に掲げる交付の方法をいう。）
+    text: 二　対象書類又は対象電磁的記録について求める交付の方法（次項各号に掲げる交付の方法をいう。）
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-35-2-p1-kou-3
     type: kou
-    text: 対象書類又は対象電磁的記録について第八項に規定する送付による交付を求める場合にあつては、その旨
+    text: 三　対象書類又は対象電磁的記録について第八項に規定する送付による交付を求める場合にあつては、その旨
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,12 +47,12 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-shikkourei-art-35-2-p2-kou-1
     type: kou
-    text: 対象書類の写しの交付にあつては、当該対象書類を複写機により用紙の片面又は両面に白黒又はカラーで複写したものの交付
+    text: 一　対象書類の写しの交付にあつては、当該対象書類を複写機により用紙の片面又は両面に白黒又はカラーで複写したものの交付
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-35-2-p2-kou-2
     type: kou
-    text: 対象電磁的記録に記録された事項を記載した書面の交付にあつては、当該事項を用紙の片面又は両面に白黒又はカラーで出力したものの交付
+    text: 二　対象電磁的記録に記録された事項を記載した書面の交付にあつては、当該事項を用紙の片面又は両面に白黒又はカラーで出力したものの交付
     modality: unspecified
     item_number: 2
 - number: 3
@@ -80,12 +80,12 @@ paragraphs:
     modality: jogai
   - id: kokuzei-tsuusoku-hou-shikkourei-art-35-2-p4-kou-1
     type: kou
-    text: 手数料の納付について収入印紙によることが適当でない審査請求として国税庁長官がその範囲及び手数料の納付の方法を官報により公示した場合において、公示された方法により手数料を納付する場合
+    text: 一　手数料の納付について収入印紙によることが適当でない審査請求として国税庁長官がその範囲及び手数料の納付の方法を官報により公示した場合において、公示された方法により手数料を納付する場合
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-35-2-p4-kou-2
     type: kou
-    text: 国税不服審判所の事務所において手数料の納付を現金ですることが可能である旨及び当該事務所の所在地を国税庁長官が官報により公示した場合において、手数料を当該事務所において現金で納付する場合
+    text: 二　国税不服審判所の事務所において手数料の納付を現金ですることが可能である旨及び当該事務所の所在地を国税庁長官が官報により公示した場合において、手数料を当該事務所において現金で納付する場合
     modality: unspecified
     item_number: 2
 - number: 5

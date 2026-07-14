@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-15-p1-kou-1
     type: kou
-    text: 買付け等の申込み又は売付け等の申込みの勧誘
+    text: 一　買付け等の申込み又は売付け等の申込みの勧誘
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-15-p1-kou-2
     type: kou
-    text: 公開買付説明書の交付
+    text: 二　公開買付説明書の交付
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-15-p1-kou-3
     type: kou
-    text: 買付け等の申込みの承諾を受け付けること又は売付け等の申込みを受け付けること
+    text: 三　買付け等の申込みの承諾を受け付けること又は売付け等の申込みを受け付けること
     modality: unspecified
     item_number: 3
   - id: koukai-kaitsuke-furei-art-15-p1-kou-4
     type: kou
-    text: 応募株券等の受入れ
+    text: 四　応募株券等の受入れ
     modality: unspecified
     item_number: 4
 cases: []

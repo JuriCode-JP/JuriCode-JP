@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-497-p1-kou-1
     type: kou
-    text: 第四百九十五条第一項に規定する監査役設置会社（清算人会設置会社を除く。）　同項の監査を受けた貸借対照表及び事務報告
+    text: 一　第四百九十五条第一項に規定する監査役設置会社（清算人会設置会社を除く。）　同項の監査を受けた貸借対照表及び事務報告
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-497-p1-kou-2
     type: kou
-    text: 清算人会設置会社　第四百九十五条第二項の承認を受けた貸借対照表及び事務報告
+    text: 二　清算人会設置会社　第四百九十五条第二項の承認を受けた貸借対照表及び事務報告
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-497-p1-kou-3
     type: kou
-    text: 前二号に掲げるもの以外の清算株式会社　第四百九十四条第一項の貸借対照表及び事務報告
+    text: 三　前二号に掲げるもの以外の清算株式会社　第四百九十四条第一項の貸借対照表及び事務報告
     modality: unspecified
     item_number: 3
 - number: 2

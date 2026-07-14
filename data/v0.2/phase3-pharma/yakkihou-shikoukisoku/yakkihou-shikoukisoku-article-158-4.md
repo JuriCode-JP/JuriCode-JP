@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-158-4-p1-kou-1
     type: kou
-    text: 品名
+    text: 一　品名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-158-4-p1-kou-2
     type: kou
-    text: ロツト番号（ロツトを構成しない医薬品については製造番号）
+    text: 二　ロツト番号（ロツトを構成しない医薬品については製造番号）
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-158-4-p1-kou-3
     type: kou
-    text: 使用の期限
+    text: 三　使用の期限
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-158-4-p1-kou-4
     type: kou
-    text: 数量
+    text: 四　数量
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-158-4-p1-kou-5
     type: kou
-    text: 購入若しくは譲受け又は販売若しくは授与の年月日
+    text: 五　購入若しくは譲受け又は販売若しくは授与の年月日
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-158-4-p1-kou-6
     type: kou
-    text: 購入者等の氏名又は名称、住所又は所在地及び電話番号その他の連絡先（次項ただし書の規定により同項に規定する確認を行わないこととされた場合にあつては、氏名又は名称以外の事項は、その記載を省略することができる。）
+    text: 六　購入者等の氏名又は名称、住所又は所在地及び電話番号その他の連絡先（次項ただし書の規定により同項に規定する確認を行わないこととされた場合にあつては、氏名又は名称以外の事項は、その記載を省略することができる。）
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-158-4-p1-kou-7
     type: kou
-    text: 前号に掲げる事項の内容を確認するために提示を受けた資料（次項ただし書の規定により同項に規定する確認を行わないこととされた場合を除く。）
+    text: 七　前号に掲げる事項の内容を確認するために提示を受けた資料（次項ただし書の規定により同項に規定する確認を行わないこととされた場合を除く。）
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-158-4-p1-kou-8
     type: kou
-    text: 購入者等が自然人であり、かつ、購入者等以外の者が医薬品の取引の任に当たる場合及び購入者等が法人である場合にあつては、医薬品の取引の任に当たる自然人が、購入者等と雇用関係にあること又は購入者等から医薬品の取引に係る指示を受けたことを示す資料
+    text: 八　購入者等が自然人であり、かつ、購入者等以外の者が医薬品の取引の任に当たる場合及び購入者等が法人である場合にあつては、医薬品の取引の任に当たる自然人が、購入者等と雇用関係にあること又は購入者等から医薬品の取引に係る指示を受けたことを示す資料
     modality: unspecified
     item_number: 8
 - number: 2

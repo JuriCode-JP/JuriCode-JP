@@ -32,17 +32,17 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-art-110-p2-kou-1
     type: kou
-    text: 再調査審理庁において当該審査請求がされた日以前に再調査の請求に係る処分の全部を取り消す旨の再調査決定書の謄本を発している場合　当該審査請求
+    text: 一　再調査審理庁において当該審査請求がされた日以前に再調査の請求に係る処分の全部を取り消す旨の再調査決定書の謄本を発している場合　当該審査請求
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-110-p2-kou-2
     type: kou
-    text: 再調査審理庁において当該審査請求がされた日以前に再調査の請求に係る処分の一部を取り消す旨の再調査決定書の謄本を発している場合　その部分についての審査請求
+    text: 二　再調査審理庁において当該審査請求がされた日以前に再調査の請求に係る処分の一部を取り消す旨の再調査決定書の謄本を発している場合　その部分についての審査請求
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-110-p2-kou-3
     type: kou
-    text: その他の場合　その決定を経ないで当該審査請求がされた再調査の請求
+    text: 三　その他の場合　その決定を経ないで当該審査請求がされた再調査の請求
     modality: unspecified
     item_number: 3
 cases: []

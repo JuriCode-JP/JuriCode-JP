@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-439-p1-kou-1
     type: kou
-    text: 検察官
+    text: 一　検察官
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-439-p1-kou-2
     type: kou
-    text: 有罪の言渡を受けた者
+    text: 二　有罪の言渡を受けた者
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-439-p1-kou-3
     type: kou
-    text: 有罪の言渡を受けた者の法定代理人及び保佐人
+    text: 三　有罪の言渡を受けた者の法定代理人及び保佐人
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-439-p1-kou-4
     type: kou
-    text: 有罪の言渡を受けた者が死亡し、又は心神喪失の状態に在る場合には、その配偶者、直系の親族及び兄弟姉妹
+    text: 四　有罪の言渡を受けた者が死亡し、又は心神喪失の状態に在る場合には、その配偶者、直系の親族及び兄弟姉妹
     modality: unspecified
     item_number: 4
 - number: 2

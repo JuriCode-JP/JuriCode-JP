@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-171-2-p1-kou-1
     type: kou
-    text: 前条第一項の株主総会の日の二週間前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）
+    text: 一　前条第一項の株主総会の日の二週間前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-171-2-p1-kou-2
     type: kou
-    text: 第百七十二条第二項の規定による通知の日又は同条第三項の公告の日のいずれか早い日
+    text: 二　第百七十二条第二項の規定による通知の日又は同条第三項の公告の日のいずれか早い日
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,22 +44,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-171-2-p2-kou-1
     type: kou
-    text: 前項の書面の閲覧の請求
+    text: 一　前項の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-171-2-p2-kou-2
     type: kou
-    text: 前項の書面の謄本又は抄本の交付の請求
+    text: 二　前項の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-171-2-p2-kou-3
     type: kou
-    text: 前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-171-2-p2-kou-4
     type: kou
-    text: 前項の電磁的記録に記録された事項を電磁的方法であって株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前項の電磁的記録に記録された事項を電磁的方法であって株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 cases: []

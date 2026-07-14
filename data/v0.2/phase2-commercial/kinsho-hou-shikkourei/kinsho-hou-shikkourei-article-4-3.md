@@ -32,32 +32,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-4-3-p2-kou-1
     type: kou
-    text: 金融商品取引所に上場されている投資証券（投資信託及び投資法人に関する法律に規定する投資証券をいう。以下この項において同じ。）
+    text: 一　金融商品取引所に上場されている投資証券（投資信託及び投資法人に関する法律に規定する投資証券をいう。以下この項において同じ。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-4-3-p2-kou-2
     type: kou
-    text: 店頭売買有価証券に該当する投資証券
+    text: 二　店頭売買有価証券に該当する投資証券
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-4-3-p2-kou-3
     type: kou
-    text: 有価証券信託受益証券で、受託有価証券が金融商品取引所に上場されている株券若しくは前項に規定する株券又は前二号に掲げる投資証券であるもの
+    text: 三　有価証券信託受益証券で、受託有価証券が金融商品取引所に上場されている株券若しくは前項に規定する株券又は前二号に掲げる投資証券であるもの
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-4-3-p2-kou-4
     type: kou
-    text: 有価証券信託受益証券（受託有価証券が株券又は投資証券であるものに限り、前号に該当するものを除く。）で、上場有価証券（金融商品取引所に上場されている有価証券をいう。第六号において同じ。）又は店頭売買有価証券に該当するもの
+    text: 四　有価証券信託受益証券（受託有価証券が株券又は投資証券であるものに限り、前号に該当するものを除く。）で、上場有価証券（金融商品取引所に上場されている有価証券をいう。第六号において同じ。）又は店頭売買有価証券に該当するもの
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-4-3-p2-kou-5
     type: kou
-    text: 法第二条第一項第二十号に掲げる有価証券で、金融商品取引所に上場されている株券若しくは前項に規定する株券又は第一号若しくは第二号に掲げる投資証券に係る権利を表示するもの
+    text: 五　法第二条第一項第二十号に掲げる有価証券で、金融商品取引所に上場されている株券若しくは前項に規定する株券又は第一号若しくは第二号に掲げる投資証券に係る権利を表示するもの
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-4-3-p2-kou-6
     type: kou
-    text: 法第二条第一項第二十号に掲げる有価証券（株券又は投資証券に係る権利を表示するものに限り、前号に該当するものを除く。）で、上場有価証券又は店頭売買有価証券に該当するもの
+    text: 六　法第二条第一項第二十号に掲げる有価証券（株券又は投資証券に係る権利を表示するものに限り、前号に該当するものを除く。）で、上場有価証券又は店頭売買有価証券に該当するもの
     modality: unspecified
     item_number: 6
 - number: 3

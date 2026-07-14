@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: shouhou-art-577-p2-kou-1
     type: kou
-    text: 物品運送契約の締結の当時、運送品が高価品であることを運送人が知っていたとき。
+    text: 一　物品運送契約の締結の当時、運送品が高価品であることを運送人が知っていたとき。
     modality: unspecified
     item_number: 1
   - id: shouhou-art-577-p2-kou-2
     type: kou
-    text: 運送人の故意又は重大な過失によって高価品の滅失、損傷又は延着が生じたとき。
+    text: 二　運送人の故意又は重大な過失によって高価品の滅失、損傷又は延着が生じたとき。
     modality: unspecified
     item_number: 2
 cases: []

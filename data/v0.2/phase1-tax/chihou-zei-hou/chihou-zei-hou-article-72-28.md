@@ -36,8 +36,8 @@ paragraphs:
     text: 第七十二条の二十五第二項から第十三項まで及び第十六項から第十八項までの規定は、前項の規定により法人がすべき申告納付及び同項の場合において当該法人が事務所又は事業所所在地の道府県知事に提出すべき申告書について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

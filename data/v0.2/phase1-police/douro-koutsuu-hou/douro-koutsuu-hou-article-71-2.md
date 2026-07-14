@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 自動車又は原動機付自転車（これらのうち内閣府令で定めるものを除く。以下この条において同じ。）の運転者は、道路運送車両法第四十一条第一項第十一号又は第四十四条第八号に規定する消音器を備えていない自動車又は原動機付自転車（当該消音器を切断したものその他の消音器の機能に著しい支障を及ぼす改造等で内閣府令で定めるものを加えた当該消音器を備えている自動車又は原動機付自転車を含む。）を運転してはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-71-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

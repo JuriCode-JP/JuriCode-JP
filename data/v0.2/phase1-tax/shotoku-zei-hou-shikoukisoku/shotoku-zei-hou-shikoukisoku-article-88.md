@@ -25,22 +25,22 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikoukisoku-art-88-p1-kou-1
     type: kou
-    text: その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
+    text: 一　その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-88-p1-kou-2
     type: kou
-    text: その年中に支払の確定した報酬の金額
+    text: 二　その年中に支払の確定した報酬の金額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-88-p1-kou-3
     type: kou
-    text: その報酬の金額の計算の基礎
+    text: 三　その報酬の金額の計算の基礎
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-88-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -53,8 +53,8 @@ paragraphs:
     text: 前項の場合において、同一人に対するその年中の同項に規定する報酬の支払金額が二十万円以下であるときは、その報酬に係る同項の調書は、提出することを要しない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

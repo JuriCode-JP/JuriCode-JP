@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-928-p1-kou-1
     type: kou
-    text: 清算人の氏名
+    text: 一　清算人の氏名
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-928-p1-kou-2
     type: kou
-    text: 代表清算人の氏名及び住所
+    text: 二　代表清算人の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-928-p1-kou-3
     type: kou
-    text: 清算株式会社が清算人会設置会社であるときは、その旨
+    text: 三　清算株式会社が清算人会設置会社であるときは、その旨
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,17 +47,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-928-p2-kou-1
     type: kou
-    text: 清算人の氏名又は名称及び住所
+    text: 一　清算人の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-928-p2-kou-2
     type: kou
-    text: 清算持分会社を代表する清算人の氏名又は名称（清算持分会社を代表しない清算人がある場合に限る。）
+    text: 二　清算持分会社を代表する清算人の氏名又は名称（清算持分会社を代表しない清算人がある場合に限る。）
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-928-p2-kou-3
     type: kou
-    text: 清算持分会社を代表する清算人が法人であるときは、清算人の職務を行うべき者の氏名及び住所
+    text: 三　清算持分会社を代表する清算人が法人であるときは、清算人の職務を行うべき者の氏名及び住所
     modality: unspecified
     item_number: 3
 - number: 3

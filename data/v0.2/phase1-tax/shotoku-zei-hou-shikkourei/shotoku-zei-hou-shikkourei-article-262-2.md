@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-262-2-p1-kou-1
     type: kou
-    text: 法第百五十七条第一項第一号（同族会社の行為又は計算の否認）に規定する同族会社である法人の役員
+    text: 一　法第百五十七条第一項第一号（同族会社の行為又は計算の否認）に規定する同族会社である法人の役員
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-262-2-p1-kou-2
     type: kou
-    text: 前号の役員の親族であり又はあつた者
+    text: 二　前号の役員の親族であり又はあつた者
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-262-2-p1-kou-3
     type: kou
-    text: 第一号の役員とまだ婚姻の届出をしないが事実上婚姻関係と同様の事情にあり又はあつた者
+    text: 三　第一号の役員とまだ婚姻の届出をしないが事実上婚姻関係と同様の事情にあり又はあつた者
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-262-2-p1-kou-4
     type: kou
-    text: 第一号の役員から受ける金銭その他の資産によつて生計を維持している者
+    text: 四　第一号の役員から受ける金銭その他の資産によつて生計を維持している者
     modality: unspecified
     item_number: 4
 cases: []

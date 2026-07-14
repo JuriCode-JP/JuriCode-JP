@@ -23,42 +23,42 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-shikkourei-art-43-2-3-p1-kou-1
     type: kou
-    text: 法第六十六条の五十一第一項の規定による登録申請書の受理
+    text: 一　法第六十六条の五十一第一項の規定による登録申請書の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-43-2-3-p1-kou-2
     type: kou
-    text: 法第六十六条の五十二第一項及び第六十六条の五十四第二項の規定による登録
+    text: 二　法第六十六条の五十二第一項及び第六十六条の五十四第二項の規定による登録
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-43-2-3-p1-kou-3
     type: kou
-    text: 法第六十六条の五十二第二項の規定による高速取引行為者登録簿の縦覧
+    text: 三　法第六十六条の五十二第二項の規定による高速取引行為者登録簿の縦覧
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-43-2-3-p1-kou-4
     type: kou
-    text: 法第六十六条の五十三の規定による登録の拒否
+    text: 四　法第六十六条の五十三の規定による登録の拒否
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-43-2-3-p1-kou-5
     type: kou
-    text: 法第六十六条の六十六の規定による登録の抹消
+    text: 五　法第六十六条の六十六の規定による登録の抹消
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-43-2-3-p1-kou-6
     type: kou
-    text: 法第六十六条の六十九において準用する法第五十七条第一項の規定による審問
+    text: 六　法第六十六条の六十九において準用する法第五十七条第一項の規定による審問
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-43-2-3-p1-kou-7
     type: kou
-    text: 法第六十六条の六十九において準用する法第五十七条第三項の規定による通知（法第六十六条の五十の登録に係るものに限る。）
+    text: 七　法第六十六条の六十九において準用する法第五十七条第三項の規定による通知（法第六十六条の五十の登録に係るものに限る。）
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-43-2-3-p1-kou-8
     type: kou
-    text: 法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第六号に規定する審問に係るもの
+    text: 八　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第六号に規定する審問に係るもの
     modality: unspecified
     item_number: 8
 - number: 2
@@ -72,47 +72,47 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-shikkourei-art-43-2-3-p2-kou-1
     type: kou
-    text: 法第六十六条の五十四第一項及び第三項、第六十六条の六十並びに第六十六条の六十一第一項の規定による届出の受理
+    text: 一　法第六十六条の五十四第一項及び第三項、第六十六条の六十並びに第六十六条の六十一第一項の規定による届出の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-43-2-3-p2-kou-2
     type: kou
-    text: 法第六十六条の五十九の規定による書類の受理
+    text: 二　法第六十六条の五十九の規定による書類の受理
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-43-2-3-p2-kou-3
     type: kou
-    text: 法第六十六条の六十二、第六十六条の六十三第一項から第三項まで及び第六十六条の六十四の規定による処分
+    text: 三　法第六十六条の六十二、第六十六条の六十三第一項から第三項まで及び第六十六条の六十四の規定による処分
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-43-2-3-p2-kou-4
     type: kou
-    text: 法第六十六条の六十五の規定による公告
+    text: 四　法第六十六条の六十五の規定による公告
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-43-2-3-p2-kou-5
     type: kou
-    text: 法第六十六条の六十七の規定による報告及び資料の提出の命令並びに検査（法第百九十四条の七第二項第三号の三の規定及び第三十八条の二第二項の規定により委員会に委任されたものを除く。）
+    text: 五　法第六十六条の六十七の規定による報告及び資料の提出の命令並びに検査（法第百九十四条の七第二項第三号の三の規定及び第三十八条の二第二項の規定により委員会に委任されたものを除く。）
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-43-2-3-p2-kou-6
     type: kou
-    text: 法第六十六条の六十九において準用する法第五十七条第二項の規定による聴聞
+    text: 六　法第六十六条の六十九において準用する法第五十七条第二項の規定による聴聞
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-43-2-3-p2-kou-7
     type: kou
-    text: 法第六十六条の六十九において準用する法第五十七条第三項の規定による通知（法第六十六条の五十の登録に係るものを除く。）
+    text: 七　法第六十六条の六十九において準用する法第五十七条第三項の規定による通知（法第六十六条の五十の登録に係るものを除く。）
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-43-2-3-p2-kou-8
     type: kou
-    text: 法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第六号に規定する聴聞に係るもの
+    text: 八　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第六号に規定する聴聞に係るもの
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-shikkourei-art-43-2-3-p2-kou-9
     type: kou
-    text: 第十八条の四の十一ただし書の規定による承認
+    text: 九　第十八条の四の十一ただし書の規定による承認
     modality: unspecified
     item_number: 9
 - number: 3

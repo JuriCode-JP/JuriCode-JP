@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-131-p1-kou-1
     type: kou
-    text: 権利者のため運用を行う権限の全部又は一部の委託（当該委託に係る権限の一部を更に委託するものを含む。以下この条において同じ。）をする旨及びその委託先の商号又は名称（当該委託先が適格投資家向け投資運用業を行うことにつき法第二十九条の登録を受けた金融商品取引業者であるときは、その旨を含む。）
+    text: 一　権利者のため運用を行う権限の全部又は一部の委託（当該委託に係る権限の一部を更に委託するものを含む。以下この条において同じ。）をする旨及びその委託先の商号又は名称（当該委託先が適格投資家向け投資運用業を行うことにつき法第二十九条の登録を受けた金融商品取引業者であるときは、その旨を含む。）
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-131-p1-kou-2
     type: kou
-    text: 委託の概要
+    text: 二　委託の概要
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-131-p1-kou-3
     type: kou
-    text: 委託に係る報酬を運用財産から支払う場合には、当該報酬の額（あらかじめ報酬の額が確定しない場合においては、当該報酬の額の計算方法）
+    text: 三　委託に係る報酬を運用財産から支払う場合には、当該報酬の額（あらかじめ報酬の額が確定しない場合においては、当該報酬の額の計算方法）
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,17 +47,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-131-p2-kou-1
     type: kou
-    text: 委託先の選定の基準及び委託先との連絡体制の整備
+    text: 一　委託先の選定の基準及び委託先との連絡体制の整備
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-131-p2-kou-2
     type: kou
-    text: 委託先の業務遂行能力及び委託契約の遵守の状況を継続的に確認するための体制の整備
+    text: 二　委託先の業務遂行能力及び委託契約の遵守の状況を継続的に確認するための体制の整備
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-131-p2-kou-3
     type: kou
-    text: 委託先が当該委託に係る業務を適正に遂行することができないと認められる場合の対応策の整備
+    text: 三　委託先が当該委託に係る業務を適正に遂行することができないと認められる場合の対応策の整備
     modality: unspecified
     item_number: 3
 cases: []

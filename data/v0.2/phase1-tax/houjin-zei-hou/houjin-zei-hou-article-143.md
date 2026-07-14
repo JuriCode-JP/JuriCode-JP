@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-art-143-p1-kou-1
     type: kou
-    text: 第百四十一条第一号イ（課税標準）に掲げる国内源泉所得
+    text: 一　第百四十一条第一号イ（課税標準）に掲げる国内源泉所得
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-143-p1-kou-2
     type: kou
-    text: 第百四十一条第一号ロに掲げる国内源泉所得
+    text: 二　第百四十一条第一号ロに掲げる国内源泉所得
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-143-p1-kou-3
     type: kou
-    text: 第百四十一条第二号に定める国内源泉所得
+    text: 三　第百四十一条第二号に定める国内源泉所得
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,8 +49,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -61,8 +61,8 @@ paragraphs:
     text: 事業年度が一年に満たない外国法人に対する前項の規定の適用については、同項中「年八百万円」とあるのは、「八百万円を十二で除し、これに当該事業年度の月数を乗じて計算した金額」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -85,28 +85,28 @@ paragraphs:
     modality: jogai
   - id: houjin-zei-hou-art-143-p5-kou-1
     type: kou
-    text: 保険業法に規定する相互会社に準ずるものとして政令で定めるもの
+    text: 一　保険業法に規定する相互会社に準ずるものとして政令で定めるもの
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-143-p5-kou-2
     type: kou
-    text: '大法人（次に掲げる法人をいう。以下この号及び次号において同じ。）との間に当該大法人による完全支配関係がある外国法人
+    text: '二　大法人（次に掲げる法人をいう。以下この号及び次号において同じ。）との間に当該大法人による完全支配関係がある外国法人
 
-      イ 資本金の額又は出資金の額が五億円以上である法人
+      イ　資本金の額又は出資金の額が五億円以上である法人
 
-      ロ 保険業法に規定する相互会社（前号に掲げる法人を含む。）
+      ロ　保険業法に規定する相互会社（前号に掲げる法人を含む。）
 
-      ハ 第四条の三（受託法人等に関するこの法律の適用）に規定する受託法人（第四号において「受託法人」という。）'
+      ハ　第四条の三（受託法人等に関するこの法律の適用）に規定する受託法人（第四号において「受託法人」という。）'
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-143-p5-kou-3
     type: kou
-    text: 普通法人との間に完全支配関係がある全ての大法人が有する株式及び出資の全部を当該全ての大法人のうちいずれか一の法人が有するものとみなした場合において当該いずれか一の法人と当該普通法人との間に当該いずれか一の法人による完全支配関係があることとなるときの当該普通法人（前号に掲げる法人を除く。）
+    text: 三　普通法人との間に完全支配関係がある全ての大法人が有する株式及び出資の全部を当該全ての大法人のうちいずれか一の法人が有するものとみなした場合において当該いずれか一の法人と当該普通法人との間に当該いずれか一の法人による完全支配関係があることとなるときの当該普通法人（前号に掲げる法人を除く。）
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-143-p5-kou-4
     type: kou
-    text: 受託法人
+    text: 四　受託法人
     modality: unspecified
     item_number: 4
 cases: []

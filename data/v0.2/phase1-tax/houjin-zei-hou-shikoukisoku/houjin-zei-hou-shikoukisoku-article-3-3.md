@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-3-3-p2-kou-1
     type: kou
-    text: 会社法（平成十七年法律第八十六号）第八百七十九条第三項（特別清算事件の管轄）の規定により議決権を有するものとみなされる株式
+    text: 一　会社法（平成十七年法律第八十六号）第八百七十九条第三項（特別清算事件の管轄）の規定により議決権を有するものとみなされる株式
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-3-3-p2-kou-2
     type: kou
-    text: 会社法第百九条第二項（株主の平等）の規定により株主総会において決議をすることができる事項の全部につき議決権を行使することができない旨を定められた株主が有する株式
+    text: 二　会社法第百九条第二項（株主の平等）の規定により株主総会において決議をすることができる事項の全部につき議決権を行使することができない旨を定められた株主が有する株式
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-3-3-p2-kou-3
     type: kou
-    text: 単元株式数に満たない株式
+    text: 三　単元株式数に満たない株式
     modality: unspecified
     item_number: 3
 - number: 3
@@ -56,12 +56,12 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-shikoukisoku-art-3-3-p3-kou-1
     type: kou
-    text: 会社法第百三十五条第三項（親会社株式の取得の禁止）その他の法令の規定により当該株主等による保有の制限をされる株式
+    text: 一　会社法第百三十五条第三項（親会社株式の取得の禁止）その他の法令の規定により当該株主等による保有の制限をされる株式
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-3-3-p3-kou-2
     type: kou
-    text: 当該株主等が発行した株式
+    text: 二　当該株主等が発行した株式
     modality: unspecified
     item_number: 2
 cases: []

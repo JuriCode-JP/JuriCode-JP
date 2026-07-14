@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-234-p1-kou-1
     type: kou
-    text: 第百七十条第一項の規定による株式の取得　当該株式会社の株主
+    text: 一　第百七十条第一項の規定による株式の取得　当該株式会社の株主
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-234-p1-kou-2
     type: kou
-    text: 第百七十三条第一項の規定による株式の取得　当該株式会社の株主
+    text: 二　第百七十三条第一項の規定による株式の取得　当該株式会社の株主
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-234-p1-kou-3
     type: kou
-    text: 第百八十五条に規定する株式無償割当て　当該株式会社の株主
+    text: 三　第百八十五条に規定する株式無償割当て　当該株式会社の株主
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-234-p1-kou-4
     type: kou
-    text: 第二百七十五条第一項の規定による新株予約権の取得　第二百三十六条第一項第七号イの新株予約権の新株予約権者
+    text: 四　第二百七十五条第一項の規定による新株予約権の取得　第二百三十六条第一項第七号イの新株予約権の新株予約権者
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-234-p1-kou-5
     type: kou
-    text: 合併（合併により当該株式会社が存続する場合に限る。）　合併後消滅する会社の株主又は社員
+    text: 五　合併（合併により当該株式会社が存続する場合に限る。）　合併後消滅する会社の株主又は社員
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-234-p1-kou-6
     type: kou
-    text: 合併契約に基づく設立時発行株式の発行　合併後消滅する会社の株主又は社員
+    text: 六　合併契約に基づく設立時発行株式の発行　合併後消滅する会社の株主又は社員
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-234-p1-kou-7
     type: kou
-    text: 株式交換による他の株式会社の発行済株式全部の取得　株式交換をする株式会社の株主
+    text: 七　株式交換による他の株式会社の発行済株式全部の取得　株式交換をする株式会社の株主
     modality: unspecified
     item_number: 7
   - id: kaisha-hou-art-234-p1-kou-8
     type: kou
-    text: 株式移転計画に基づく設立時発行株式の発行　株式移転をする株式会社の株主
+    text: 八　株式移転計画に基づく設立時発行株式の発行　株式移転をする株式会社の株主
     modality: unspecified
     item_number: 8
   - id: kaisha-hou-art-234-p1-kou-9
     type: kou
-    text: 株式交付　株式交付親会社（第七百七十四条の三第一項第一号に規定する株式交付親会社をいう。）に株式交付に際して株式交付子会社（同号に規定する株式交付子会社をいう。）の株式又は新株予約権等（同項第七号に規定する新株予約権等をいう。）を譲り渡した者
+    text: 九　株式交付　株式交付親会社（第七百七十四条の三第一項第一号に規定する株式交付親会社をいう。）に株式交付に際して株式交付子会社（同号に規定する株式交付子会社をいう。）の株式又は新株予約権等（同項第七号に規定する新株予約権等をいう。）を譲り渡した者
     modality: unspecified
     item_number: 9
 - number: 2
@@ -76,8 +76,8 @@ paragraphs:
     text: 株式会社は、前項の規定による競売に代えて、市場価格のある同項の株式については市場価格として法務省令で定める方法により算定される額をもって、市場価格のない同項の株式については裁判所の許可を得て競売以外の方法により、これを売却することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-234-p2-kou
     type: kou_dan
     text: この場合において、当該許可の申立ては、取締役が二人以上あるときは、その全員の同意によってしなければならない。
@@ -93,8 +93,8 @@ paragraphs:
     text: 前項の規定により第一項の株式を売却した場合における同項の規定の適用については、同項中「競売により」とあるのは、「売却により」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: true
@@ -106,12 +106,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-234-p4-kou-1
     type: kou
-    text: 買い取る株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
+    text: 一　買い取る株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-234-p4-kou-2
     type: kou
-    text: 前号の株式の買取りをするのと引換えに交付する金銭の総額
+    text: 二　前号の株式の買取りをするのと引換えに交付する金銭の総額
     modality: unspecified
     item_number: 2
 - number: 5

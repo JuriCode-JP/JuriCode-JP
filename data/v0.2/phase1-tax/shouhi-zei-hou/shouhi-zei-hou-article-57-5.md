@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_negative
   - id: shouhi-zei-hou-art-57-5-p1-kou-1
     type: kou
-    text: 適格請求書発行事業者が作成した適格請求書又は適格簡易請求書であると誤認されるおそれのある表示をした書類
+    text: 一　適格請求書発行事業者が作成した適格請求書又は適格簡易請求書であると誤認されるおそれのある表示をした書類
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-57-5-p1-kou-2
     type: kou
-    text: 偽りの記載をした適格請求書又は適格簡易請求書
+    text: 二　偽りの記載をした適格請求書又は適格簡易請求書
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-art-57-5-p1-kou-3
     type: kou
-    text: 第一号に掲げる書類の記載事項又は前号に掲げる書類の記載事項に係る電磁的記録
+    text: 三　第一号に掲げる書類の記載事項又は前号に掲げる書類の記載事項に係る電磁的記録
     modality: unspecified
     item_number: 3
 cases: []

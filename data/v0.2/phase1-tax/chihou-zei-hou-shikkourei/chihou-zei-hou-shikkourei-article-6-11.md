@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-11-p1-kou-1
     type: kou
-    text: 担保されるべき地方団体の徴収金の税目及び金額
+    text: 一　担保されるべき地方団体の徴収金の税目及び金額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-11-p1-kou-2
     type: kou
-    text: 提供すべき担保の種類
+    text: 二　提供すべき担保の種類
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-11-p1-kou-3
     type: kou
-    text: 担保を提供すべき期限
+    text: 三　担保を提供すべき期限
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項第三号に掲げる期限は、同項の文書を発する日から起算して七日を経過した日以後の日としなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: chihou-zei-hou-shikkourei-art-6-11-p2-tadashi
     type: tadashi
     text: ただし、納税者又は特別徴収義務者につき法第十三条の二第一項各号のいずれかに該当する事実が生じたときは、この期限を繰り上げることができる。

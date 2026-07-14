@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-8-3-3-p1-kou-1
     type: kou
-    text: 法第十四条第八項の書類の提出をする同項に規定する通算親法人等の名称、納税地及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律（平成二十五年法律第二十七号）第二条第十六項（定義）に規定する法人番号をいう。以下同じ。）並びに代表者の氏名
+    text: 一　法第十四条第八項の書類の提出をする同項に規定する通算親法人等の名称、納税地及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律（平成二十五年法律第二十七号）第二条第十六項（定義）に規定する法人番号をいう。以下同じ。）並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-8-3-3-p1-kou-2
     type: kou
-    text: 法第十四条第八項に規定する内国法人及び同項第一号に規定する他の内国法人（既に前号の通算親法人等により提出された同項の書類にその名称が記載されたものを除く。）の名称及び納税地並びに代表者の氏名
+    text: 二　法第十四条第八項に規定する内国法人及び同項第一号に規定する他の内国法人（既に前号の通算親法人等により提出された同項の書類にその名称が記載されたものを除く。）の名称及び納税地並びに代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-8-3-3-p1-kou-3
     type: kou
-    text: 前号の内国法人及び他の内国法人の法第十四条第八項に規定する加入日（次号において「加入日」という。）
+    text: 三　前号の内国法人及び他の内国法人の法第十四条第八項に規定する加入日（次号において「加入日」という。）
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-8-3-3-p1-kou-4
     type: kou
-    text: 第二号の他の内国法人の加入日の前日から法第十四条第八項第一号に規定する特例決算期間の末日までの期間内の日の属する各適用後事業年度（同項の規定を適用するものとした場合における事業年度をいう。）開始の日及び終了の日
+    text: 四　第二号の他の内国法人の加入日の前日から法第十四条第八項第一号に規定する特例決算期間の末日までの期間内の日の属する各適用後事業年度（同項の規定を適用するものとした場合における事業年度をいう。）開始の日及び終了の日
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-8-3-3-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

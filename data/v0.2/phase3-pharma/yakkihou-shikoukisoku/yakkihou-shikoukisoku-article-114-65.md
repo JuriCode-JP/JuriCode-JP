@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-65-p1-kou-1
     type: kou
-    text: 再委託する業務（以下この条において「再委託安全確保業務」という。）を適正かつ円滑に遂行しうる能力を有する者であること。
+    text: 一　再委託する業務（以下この条において「再委託安全確保業務」という。）を適正かつ円滑に遂行しうる能力を有する者であること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-65-p1-kou-2
     type: kou
-    text: 再委託安全確保業務を適正かつ円滑に遂行しうる能力を有する当該業務の実施に係る責任者（以下この条において「再受託安全管理実施責任者」という。）を置いていること。
+    text: 二　再委託安全確保業務を適正かつ円滑に遂行しうる能力を有する当該業務の実施に係る責任者（以下この条において「再受託安全管理実施責任者」という。）を置いていること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-65-p1-kou-3
     type: kou
-    text: 再委託安全確保業務に係る次項の手順書その他再委託安全確保業務に必要な文書（以下この条において「製造販売後安全管理業務手順書等」という。）の写しを再委託安全確保業務を行う事務所に備え付けていること。
+    text: 三　再委託安全確保業務に係る次項の手順書その他再委託安全確保業務に必要な文書（以下この条において「製造販売後安全管理業務手順書等」という。）の写しを再委託安全確保業務を行う事務所に備え付けていること。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,47 +47,47 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-65-p2-kou-1
     type: kou
-    text: 安全管理情報の収集に関する手順
+    text: 一　安全管理情報の収集に関する手順
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-65-p2-kou-2
     type: kou
-    text: 安全管理情報の検討及びその結果に基づく安全確保措置の立案に関する手順
+    text: 二　安全管理情報の検討及びその結果に基づく安全確保措置の立案に関する手順
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-65-p2-kou-3
     type: kou
-    text: 安全確保措置の実施に関する手順
+    text: 三　安全確保措置の実施に関する手順
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-114-65-p2-kou-4
     type: kou
-    text: 再受託安全管理実施責任者から受託安全管理実施責任者への報告に関する手順
+    text: 四　再受託安全管理実施責任者から受託安全管理実施責任者への報告に関する手順
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-114-65-p2-kou-5
     type: kou
-    text: 医療機器等リスク管理又は医薬品リスク管理に関する手順
+    text: 五　医療機器等リスク管理又は医薬品リスク管理に関する手順
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-114-65-p2-kou-6
     type: kou
-    text: 再委託の手順
+    text: 六　再委託の手順
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-114-65-p2-kou-7
     type: kou
-    text: 再委託安全確保業務に係る記録の保存に関する手順
+    text: 七　再委託安全確保業務に係る記録の保存に関する手順
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-114-65-p2-kou-8
     type: kou
-    text: 受託者の国内品質業務運営責任者その他の高度管理医療機器又は処方箋体外診断用医薬品の製造販売に係る業務の責任者との相互の連携に関する手順
+    text: 八　受託者の国内品質業務運営責任者その他の高度管理医療機器又は処方箋体外診断用医薬品の製造販売に係る業務の責任者との相互の連携に関する手順
     modality: unspecified
     item_number: 8
   - id: yakkihou-shikoukisoku-art-114-65-p2-kou-9
     type: kou
-    text: その他再委託安全確保業務を適正かつ円滑に行うために必要な手順
+    text: 九　その他再委託安全確保業務を適正かつ円滑に行うために必要な手順
     modality: unspecified
     item_number: 9
 - number: 3
@@ -101,42 +101,42 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-65-p3-kou-1
     type: kou
-    text: 再委託安全確保業務の範囲
+    text: 一　再委託安全確保業務の範囲
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-65-p3-kou-2
     type: kou
-    text: 再受託安全管理実施責任者の設置及び当該者の実施する再委託安全確保業務の範囲に関する事項
+    text: 二　再受託安全管理実施責任者の設置及び当該者の実施する再委託安全確保業務の範囲に関する事項
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-65-p3-kou-3
     type: kou
-    text: 再委託安全確保業務に係る前項各号（第五号を除く。）に掲げる手順に関する事項
+    text: 三　再委託安全確保業務に係る前項各号（第五号を除く。）に掲げる手順に関する事項
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-114-65-p3-kou-4
     type: kou
-    text: 再委託安全確保業務の実施の指示に関する事項
+    text: 四　再委託安全確保業務の実施の指示に関する事項
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-114-65-p3-kou-5
     type: kou
-    text: 次項第三号の報告及び同項第四号の確認に関する事項
+    text: 五　次項第三号の報告及び同項第四号の確認に関する事項
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-114-65-p3-kou-6
     type: kou
-    text: 第六項の指示及び第七項の確認に関する事項
+    text: 六　第六項の指示及び第七項の確認に関する事項
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-114-65-p3-kou-7
     type: kou
-    text: 第八項の情報提供に関する事項
+    text: 七　第八項の情報提供に関する事項
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-114-65-p3-kou-8
     type: kou
-    text: その他必要な事項
+    text: 八　その他必要な事項
     modality: unspecified
     item_number: 8
 - number: 4
@@ -152,27 +152,27 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-114-65-p4-kou-1
     type: kou
-    text: 再委託安全確保業務を統括すること。
+    text: 一　再委託安全確保業務を統括すること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-65-p4-kou-2
     type: kou
-    text: 再受託安全管理実施責任者に再委託安全確保業務の実施につき文書により指示するとともに、その写しを保存すること（第百十四条の五十九第一号に掲げる業務を委託する場合を除く。）。
+    text: 二　再受託安全管理実施責任者に再委託安全確保業務の実施につき文書により指示するとともに、その写しを保存すること（第百十四条の五十九第一号に掲げる業務を委託する場合を除く。）。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-65-p4-kou-3
     type: kou
-    text: 再受託安全管理実施責任者に再委託安全確保業務に関する記録を作成させ、文書により報告させること。
+    text: 三　再受託安全管理実施責任者に再委託安全確保業務に関する記録を作成させ、文書により報告させること。
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-114-65-p4-kou-4
     type: kou
-    text: 再受託者が再委託安全確保業務を適正かつ円滑に行つているかどうかを確認し、その記録を作成すること。
+    text: 四　再受託者が再委託安全確保業務を適正かつ円滑に行つているかどうかを確認し、その記録を作成すること。
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-114-65-p4-kou-5
     type: kou
-    text: 第三号の報告及び前号の記録を保存するとともに、受託者及び受託者の医薬品等総括製造販売責任者に文書により報告すること。
+    text: 五　第三号の報告及び前号の記録を保存するとともに、受託者及び受託者の医薬品等総括製造販売責任者に文書により報告すること。
     modality: unspecified
     item_number: 5
 - number: 5
@@ -186,12 +186,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-65-p5-kou-1
     type: kou
-    text: 再委託安全確保業務の範囲
+    text: 一　再委託安全確保業務の範囲
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-65-p5-kou-2
     type: kou
-    text: その他必要な事項
+    text: 二　その他必要な事項
     modality: unspecified
     item_number: 2
 - number: 6

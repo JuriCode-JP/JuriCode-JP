@@ -23,22 +23,22 @@ paragraphs:
     modality: doryoku_gimu
   - id: kokka-koumuin-hou-art-73-p1-kou-1
     type: kou
-    text: 職員の保健に関する事項
+    text: 一　職員の保健に関する事項
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-73-p1-kou-2
     type: kou
-    text: 職員のレクリエーションに関する事項
+    text: 二　職員のレクリエーションに関する事項
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-73-p1-kou-3
     type: kou
-    text: 職員の安全保持に関する事項
+    text: 三　職員の安全保持に関する事項
     modality: unspecified
     item_number: 3
   - id: kokka-koumuin-hou-art-73-p1-kou-4
     type: kou
-    text: 職員の厚生に関する事項
+    text: 四　職員の厚生に関する事項
     modality: unspecified
     item_number: 4
 - number: 2

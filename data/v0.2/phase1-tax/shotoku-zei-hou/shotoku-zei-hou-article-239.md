@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の免れた所得税の額が百万円を超えるときは、情状により、同項の罰金は、百万円を超えその免れた所得税の額に相当する金額以下とすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -52,8 +52,8 @@ paragraphs:
     text: 前項の免れた所得税の額が五十万円を超えるときは、情状により、同項の罰金は、五十万円を超えその免れた所得税の額に相当する金額以下とすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments:
 - effective_date: '2025-06-01'

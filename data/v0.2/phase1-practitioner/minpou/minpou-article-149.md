@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-149-p1-kou-1
     type: kou
-    text: 仮差押え
+    text: 一　仮差押え
     modality: unspecified
     item_number: 1
   - id: minpou-art-149-p1-kou-2
     type: kou
-    text: 仮処分
+    text: 二　仮処分
     modality: unspecified
     item_number: 2
 cases: []

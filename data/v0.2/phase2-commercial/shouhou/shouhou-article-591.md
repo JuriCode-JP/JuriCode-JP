@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: shouhou-art-591-p2-kou-1
     type: kou
-    text: 大規模な火災、震災その他の災害が発生し、又は発生するおそれがある場合において運送を行うとき。
+    text: 一　大規模な火災、震災その他の災害が発生し、又は発生するおそれがある場合において運送を行うとき。
     modality: unspecified
     item_number: 1
   - id: shouhou-art-591-p2-kou-2
     type: kou
-    text: 運送に伴い通常生ずる振動その他の事情により生命又は身体に重大な危険が及ぶおそれがある者の運送を行うとき。
+    text: 二　運送に伴い通常生ずる振動その他の事情により生命又は身体に重大な危険が及ぶおそれがある者の運送を行うとき。
     modality: unspecified
     item_number: 2
 cases: []

@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: yakkihou-shikoukisoku-art-197-5-p1-kou-1
     type: kou
-    text: 当該品目について法第十四条第十三項の承認を受けた場合
+    text: 一　当該品目について法第十四条第十三項の承認を受けた場合
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-197-5-p1-kou-2
     type: kou
-    text: 当該品目について法第十四条第十四項で定める軽微な変更が行われることにより製造・試験記録等要約書の様式の変更が必要となる場合
+    text: 二　当該品目について法第十四条第十四項で定める軽微な変更が行われることにより製造・試験記録等要約書の様式の変更が必要となる場合
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-197-5-p1-kou-3
     type: kou
-    text: その他製造・試験記録等要約書の様式の変更が必要となる場合
+    text: 三　その他製造・試験記録等要約書の様式の変更が必要となる場合
     modality: unspecified
     item_number: 3
 - number: 2
@@ -52,17 +52,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-197-5-p2-kou-1
     type: kou
-    text: 当該品目に係る承認書の写し（当該品目に係る検査機関が国立健康危機管理研究機構又は国立医薬品食品衛生研究所である場合に限る。）
+    text: 一　当該品目に係る承認書の写し（当該品目に係る検査機関が国立健康危機管理研究機構又は国立医薬品食品衛生研究所である場合に限る。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-197-5-p2-kou-2
     type: kou
-    text: 当該品目に係る製造・試験記録等要約書の変更後の様式の案（変更の必要がないときは、その旨）
+    text: 二　当該品目に係る製造・試験記録等要約書の変更後の様式の案（変更の必要がないときは、その旨）
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-197-5-p2-kou-3
     type: kou
-    text: その他製造・試験記録等要約書の様式の変更のために必要な資料
+    text: 三　その他製造・試験記録等要約書の様式の変更のために必要な資料
     modality: unspecified
     item_number: 3
 - number: 3
@@ -93,17 +93,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-197-5-p4-kou-1
     type: kou
-    text: 当該品目の承認書及び法第十四条第十三項の承認に係る申請書の写し（当該品目に係る検査機関が国立健康危機管理研究機構又は国立医薬品食品衛生研究所である場合に限る。）
+    text: 一　当該品目の承認書及び法第十四条第十三項の承認に係る申請書の写し（当該品目に係る検査機関が国立健康危機管理研究機構又は国立医薬品食品衛生研究所である場合に限る。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-197-5-p4-kou-2
     type: kou
-    text: 当該品目に係る製造・試験記録等要約書の変更後の様式の案（変更の必要がないときは、その旨）
+    text: 二　当該品目に係る製造・試験記録等要約書の変更後の様式の案（変更の必要がないときは、その旨）
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-197-5-p4-kou-3
     type: kou
-    text: その他製造・試験記録等要約書の様式の変更のために必要な資料
+    text: 三　その他製造・試験記録等要約書の様式の変更のために必要な資料
     modality: unspecified
     item_number: 3
 - number: 5

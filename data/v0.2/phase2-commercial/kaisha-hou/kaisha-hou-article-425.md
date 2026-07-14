@@ -28,18 +28,18 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-425-p1-kou-1
     type: kou
-    text: '当該役員等がその在職中に株式会社から職務執行の対価として受け、又は受けるべき財産上の利益の一年間当たりの額に相当する額として法務省令で定める方法により算定される額に、次のイからハまでに掲げる役員等の区分に応じ、当該イからハまでに定める数を乗じて得た額
+    text: '一　当該役員等がその在職中に株式会社から職務執行の対価として受け、又は受けるべき財産上の利益の一年間当たりの額に相当する額として法務省令で定める方法により算定される額に、次のイからハまでに掲げる役員等の区分に応じ、当該イからハまでに定める数を乗じて得た額
 
-      イ 代表取締役又は代表執行役　六
+      イ　代表取締役又は代表執行役　六
 
-      ロ 代表取締役以外の取締役（業務執行取締役等であるものに限る。）又は代表執行役以外の執行役　四
+      ロ　代表取締役以外の取締役（業務執行取締役等であるものに限る。）又は代表執行役以外の執行役　四
 
-      ハ 取締役（イ及びロに掲げるものを除く。）、会計参与、監査役又は会計監査人　二'
+      ハ　取締役（イ及びロに掲げるものを除く。）、会計参与、監査役又は会計監査人　二'
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-425-p1-kou-2
     type: kou
-    text: 当該役員等が当該株式会社の新株予約権を引き受けた場合（第二百三十八条第三項各号に掲げる場合に限る。）における当該新株予約権に関する財産上の利益に相当する額として法務省令で定める方法により算定される額
+    text: 二　当該役員等が当該株式会社の新株予約権を引き受けた場合（第二百三十八条第三項各号に掲げる場合に限る。）における当該新株予約権に関する財産上の利益に相当する額として法務省令で定める方法により算定される額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -52,21 +52,21 @@ paragraphs:
     text: 前項の場合には、取締役（株式会社に最終完全親会社等がある場合において、同項の規定により免除しようとする責任が特定責任であるときにあっては、当該株式会社及び当該最終完全親会社等の取締役）は、同項の株主総会において次に掲げる事項を開示しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-425-p2-kou-1
     type: kou
-    text: 責任の原因となった事実及び賠償の責任を負う額
+    text: 一　責任の原因となった事実及び賠償の責任を負う額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-425-p2-kou-2
     type: kou
-    text: 前項の規定により免除することができる額の限度及びその算定の根拠
+    text: 二　前項の規定により免除することができる額の限度及びその算定の根拠
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-425-p2-kou-3
     type: kou
-    text: 責任を免除すべき理由及び免除額
+    text: 三　責任を免除すべき理由及び免除額
     modality: unspecified
     item_number: 3
 - number: 3
@@ -80,17 +80,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-425-p3-kou-1
     type: kou
-    text: 監査役設置会社　監査役（監査役が二人以上ある場合にあっては、各監査役）
+    text: 一　監査役設置会社　監査役（監査役が二人以上ある場合にあっては、各監査役）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-425-p3-kou-2
     type: kou
-    text: 監査等委員会設置会社　各監査等委員
+    text: 二　監査等委員会設置会社　各監査等委員
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-425-p3-kou-3
     type: kou
-    text: 指名委員会等設置会社　各監査委員
+    text: 三　指名委員会等設置会社　各監査委員
     modality: unspecified
     item_number: 3
 - number: 4

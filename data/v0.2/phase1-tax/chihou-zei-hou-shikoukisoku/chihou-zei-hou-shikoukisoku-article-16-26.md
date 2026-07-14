@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: chihou-zei-hou-shikoukisoku-art-16-26-p1-kou-1
     type: kou
-    text: すでに納付の確定した遊休土地に対して課する特別土地保有税の税額
+    text: 一　すでに納付の確定した遊休土地に対して課する特別土地保有税の税額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-16-26-p1-kou-2
     type: kou
-    text: 遊休土地に対して課する特別土地保有税の課税標準額及び税額
+    text: 二　遊休土地に対して課する特別土地保有税の課税標準額及び税額
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-16-26-p1-kou-3
     type: kou
-    text: 前号の特別土地保有税額に相当する金額から第一号の特別土地保有税額に相当する金額を控除した金額
+    text: 三　前号の特別土地保有税額に相当する金額から第一号の特別土地保有税額に相当する金額を控除した金額
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-16-26-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

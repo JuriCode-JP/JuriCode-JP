@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-60-2-p1-kou-1
     type: kou
-    text: 債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
+    text: 一　債権者集会の協議決定で合理的な基準により債務者の負債整理を定めているもの
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-60-2-p1-kou-2
     type: kou
-    text: 行政機関、金融機関その他第三者のあつせんによる当事者間の協議による前号に準ずる内容の契約の締結
+    text: 二　行政機関、金融機関その他第三者のあつせんによる当事者間の協議による前号に準ずる内容の契約の締結
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,22 +42,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-60-2-p2-kou-1
     type: kou
-    text: 請求をする内国法人の名称、納税地及び法人番号
+    text: 一　請求をする内国法人の名称、納税地及び法人番号
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-60-2-p2-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-60-2-p2-kou-3
     type: kou
-    text: 法第百三十五条第四項に規定する事実の生じた日及び当該事実の詳細
+    text: 三　法第百三十五条第四項に規定する事実の生じた日及び当該事実の詳細
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-60-2-p2-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

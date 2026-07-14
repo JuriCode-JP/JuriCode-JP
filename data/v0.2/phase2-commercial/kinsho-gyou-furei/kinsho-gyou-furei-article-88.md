@@ -25,27 +25,27 @@ paragraphs:
     - 前条
   - id: kinsho-gyou-furei-art-88-p1-kou-1
     type: kou
-    text: 外国出資対象事業持分に係る契約その他の法律行為の準拠法の名称及びその主な内容
+    text: 一　外国出資対象事業持分に係る契約その他の法律行為の準拠法の名称及びその主な内容
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-88-p1-kou-2
     type: kou
-    text: 外国出資対象事業持分の発行者が監督を受けている外国の当局の有無並びに当該当局がある場合にあっては、その名称及び当該監督の主な内容
+    text: 二　外国出資対象事業持分の発行者が監督を受けている外国の当局の有無並びに当該当局がある場合にあっては、その名称及び当該監督の主な内容
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-88-p1-kou-3
     type: kou
-    text: 配当等、売却代金その他の送金についての為替管理上の取扱い
+    text: 三　配当等、売却代金その他の送金についての為替管理上の取扱い
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-88-p1-kou-4
     type: kou
-    text: 本邦内に住所を有する者であって、裁判上及び裁判外において当該外国出資対象事業持分の発行者を代理する権限を有する者の有無並びに当該者がある場合にあっては、その氏名又は名称及び住所並びに当該権限の内容
+    text: 四　本邦内に住所を有する者であって、裁判上及び裁判外において当該外国出資対象事業持分の発行者を代理する権限を有する者の有無並びに当該者がある場合にあっては、その氏名又は名称及び住所並びに当該権限の内容
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-88-p1-kou-5
     type: kou
-    text: 当該外国出資対象事業持分に係る契約その他の法律行為に当該外国出資対象事業持分に関する訴訟について管轄権を有する裁判所の定めがある場合にあっては、その名称及び所在地並びに執行の手続
+    text: 五　当該外国出資対象事業持分に係る契約その他の法律行為に当該外国出資対象事業持分に関する訴訟について管轄権を有する裁判所の定めがある場合にあっては、その名称及び所在地並びに執行の手続
     modality: unspecified
     item_number: 5
 - number: 2
@@ -58,8 +58,8 @@ paragraphs:
     text: 第八十三条第二項の規定は、外国出資対象事業持分の売買その他の取引について準用する。この場合において、同項中「前項各号」とあるのは、「第八十八条第一項各号」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

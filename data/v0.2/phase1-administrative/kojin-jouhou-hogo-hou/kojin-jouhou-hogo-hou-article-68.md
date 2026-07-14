@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: kojin-jouhou-hogo-hou-art-68-p2-kou-1
     type: kou
-    text: 本人への通知が困難な場合であって、本人の権利利益を保護するため必要なこれに代わるべき措置をとるとき。
+    text: 一　本人への通知が困難な場合であって、本人の権利利益を保護するため必要なこれに代わるべき措置をとるとき。
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-68-p2-kou-2
     type: kou
-    text: 当該保有個人情報に第七十八条第一項各号に掲げる情報のいずれかが含まれるとき。
+    text: 二　当該保有個人情報に第七十八条第一項各号に掲げる情報のいずれかが含まれるとき。
     modality: unspecified
     item_number: 2
 cases: []

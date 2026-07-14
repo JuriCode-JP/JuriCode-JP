@@ -31,8 +31,8 @@ paragraphs:
     text: 前項に規定する親族以外の親族との間で犯した同項に規定する罪は、告訴がなければ公訴を提起することができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

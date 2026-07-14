@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-18-5-p2-kou-1
     type: kou
-    text: 所得税法施行令第百三十八条又は第百三十九条の規定
+    text: 一　所得税法施行令第百三十八条又は第百三十九条の規定
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-18-5-p2-kou-2
     type: kou
-    text: 法第三十三条の六第一項、第三十七条の三第一項又は第三十七条の五第四項の規定
+    text: 二　法第三十三条の六第一項、第三十七条の三第一項又は第三十七条の五第四項の規定
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-18-5-p2-kou-3
     type: kou
-    text: 第十六条の三第六項又は第十八条の七第七項の規定
+    text: 三　第十六条の三第六項又は第十八条の七第七項の規定
     modality: unspecified
     item_number: 3
 - number: 3

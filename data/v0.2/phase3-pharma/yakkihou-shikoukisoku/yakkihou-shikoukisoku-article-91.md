@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-91-p1-kou-1
     type: kou
-    text: 薬剤師
+    text: 一　薬剤師
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-91-p1-kou-2
     type: kou
-    text: 大学等で、薬学又は化学に関する専門の課程を修了した者
+    text: 二　大学等で、薬学又は化学に関する専門の課程を修了した者
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-91-p1-kou-3
     type: kou
-    text: 旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する専門の課程を修了した後、医薬品又は医薬部外品の製造に関する業務に三年以上従事した者
+    text: 三　旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する専門の課程を修了した後、医薬品又は医薬部外品の製造に関する業務に三年以上従事した者
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-91-p1-kou-4
     type: kou
-    text: 厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者
+    text: 四　厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,22 +52,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-91-p2-kou-1
     type: kou
-    text: 薬剤師
+    text: 一　薬剤師
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-91-p2-kou-2
     type: kou
-    text: 旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する専門の課程を修了した者
+    text: 二　旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する専門の課程を修了した者
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-91-p2-kou-3
     type: kou
-    text: 旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する科目を修得した後、医薬品、医薬部外品又は化粧品の製造に関する業務に三年以上従事した者
+    text: 三　旧制中学若しくは高校又はこれと同等以上の学校で、薬学又は化学に関する科目を修得した後、医薬品、医薬部外品又は化粧品の製造に関する業務に三年以上従事した者
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-91-p2-kou-4
     type: kou
-    text: 厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者
+    text: 四　厚生労働大臣が前三号に掲げる者と同等以上の知識経験を有すると認めた者
     modality: unspecified
     item_number: 4
 cases: []

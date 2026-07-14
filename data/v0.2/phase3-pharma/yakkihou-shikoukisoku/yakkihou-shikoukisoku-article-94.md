@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-94-p1-kou-1
     type: kou
-    text: 法第十四条第一項若しくは第十三項（法第十九条の二第五項において準用する場合を含む。）の承認又はその申請
+    text: 一　法第十四条第一項若しくは第十三項（法第十九条の二第五項において準用する場合を含む。）の承認又はその申請
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-94-p1-kou-2
     type: kou
-    text: 法第十四条の九第一項又は第二項の届出
+    text: 二　法第十四条の九第一項又は第二項の届出
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-94-p1-kou-3
     type: kou
-    text: 法第十九条の二第一項の承認又はその申請
+    text: 三　法第十九条の二第一項の承認又はその申請
     modality: unspecified
     item_number: 3
 cases: []

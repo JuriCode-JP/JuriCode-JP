@@ -34,22 +34,22 @@ paragraphs:
     - 前項
   - id: sochi-hou-art-61-p2-kou-1
     type: kou
-    text: 第四十二条の十第一項若しくは第二項又は第四十二条の十一第一項若しくは第二項の規定
+    text: 一　第四十二条の十第一項若しくは第二項又は第四十二条の十一第一項若しくは第二項の規定
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-61-p2-kou-2
     type: kou
-    text: 第四十二条の十第一項又は第四十二条の十一第一項の規定に係る第五十二条の二第一項又は第四項の規定
+    text: 二　第四十二条の十第一項又は第四十二条の十一第一項の規定に係る第五十二条の二第一項又は第四項の規定
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-61-p2-kou-3
     type: kou
-    text: 第四十二条の十第一項又は第四十二条の十一第一項の規定に係る第五十二条の三第一項から第三項まで、第十一項又は第十二項の規定
+    text: 三　第四十二条の十第一項又は第四十二条の十一第一項の規定に係る第五十二条の三第一項から第三項まで、第十一項又は第十二項の規定
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-61-p2-kou-4
     type: kou
-    text: 第五十九条の三第一項又は前条第一項若しくは第二項の規定
+    text: 四　第五十九条の三第一項又は前条第一項若しくは第二項の規定
     modality: unspecified
     item_number: 4
 - number: 3
@@ -65,12 +65,12 @@ paragraphs:
     - 次項
   - id: sochi-hou-art-61-p3-kou-1
     type: kou
-    text: 他の対象通算法人の他の事業年度（当該通算法人の対象事業年度終了の日に終了する事業年度をいう。次号及び次項において同じ。）において特定事業等に係る通算前欠損金額が生ずる場合
+    text: 一　他の対象通算法人の他の事業年度（当該通算法人の対象事業年度終了の日に終了する事業年度をいう。次号及び次項において同じ。）において特定事業等に係る通算前欠損金額が生ずる場合
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-61-p3-kou-2
     type: kou
-    text: 他の通算法人の他の事業年度において通算前欠損金額が生ずる場合
+    text: 二　他の通算法人の他の事業年度において通算前欠損金額が生ずる場合
     modality: unspecified
     item_number: 2
 - number: 4
@@ -97,12 +97,12 @@ paragraphs:
     - 次項
   - id: sochi-hou-art-61-p5-kou-1
     type: kou
-    text: 他の通算法人（過大申告の場合又は期限後欠損金額の場合に係るものに限る。次号において「事由該当通算法人」という。）に係る通算不足欠損金額又は期限後欠損金額の合計額
+    text: 一　他の通算法人（過大申告の場合又は期限後欠損金額の場合に係るものに限る。次号において「事由該当通算法人」という。）に係る通算不足欠損金額又は期限後欠損金額の合計額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-61-p5-kou-2
     type: kou
-    text: 事由該当通算法人につき法人税法第六十四条の五第五項の規定を適用しないものとした場合の当該内国法人の当該適用事業年度の同項の規定を適用した同条第二項に規定する割合
+    text: 二　事由該当通算法人につき法人税法第六十四条の五第五項の規定を適用しないものとした場合の当該内国法人の当該適用事業年度の同項の規定を適用した同条第二項に規定する割合
     modality: unspecified
     item_number: 2
 - number: 6
@@ -115,8 +115,8 @@ paragraphs:
     text: 前項の内国法人の同項に規定する調整事業年度の同項の規定の適用において、同項第一号に規定する事由該当通算法人の同項に規定する他の適用事業年度において生じた通算前欠損金額が既確定通算前欠損金額（当該調整事業年度終了の日以前に提出された当該他の適用事業年度の確定申告書等若しくは修正申告書に添付された書類又は同日以前にされた国税通則法第二十四条若しくは第二十六条の規定による更正に係る同法第二十八条第二項に規定する更正通知書に添付された書類のうち、最も新しいものに通算前欠損金額として記載された金額をいう。以下この項において同じ。）と異なる場合には、当該既確定通算前欠損金額を当該他の適用事業年度において生じた通算前欠損金額とみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
@@ -131,8 +131,8 @@ paragraphs:
     text: この場合において、当該対象事業年度を第五項に規定する適用事業年度とする同項の内国法人の同項に規定する調整事業年度については、前二項の規定は、適用がないものとする。
     modality: gimu
     references:
-    - 同項
     - 前二項
+    - 同項
     depends_on: sochi-hou-art-61-p7-zen
 - number: 8
   has_proviso: false
@@ -162,8 +162,8 @@ paragraphs:
     text: 税務署長は、前項の記載又は添付がない確定申告書等の提出があつた場合においても、その記載又は添付がなかつたことについてやむを得ない事情があると認めるときは、当該記載をした書類及び同項の明細書の提出があつた場合に限り、第一項の規定を適用することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 10
   has_proviso: false
   has_items: false

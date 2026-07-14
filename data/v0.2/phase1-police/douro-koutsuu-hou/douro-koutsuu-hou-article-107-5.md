@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: douro-koutsuu-hou-art-107-5-p1-kou-1
     type: kou
-    text: 国際運転免許証等の発給の条件が満たされなくなつたことが明らかになつたとき（その者が第百三条第一項第一号から第三号までのいずれかに該当することとなつたときに限る。）。
+    text: 一　国際運転免許証等の発給の条件が満たされなくなつたことが明らかになつたとき（その者が第百三条第一項第一号から第三号までのいずれかに該当することとなつたときに限る。）。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-107-5-p1-kou-2
     type: kou
-    text: 自動車等の運転に関しこの法律若しくはこの法律に基づく命令の規定又はこの法律の規定に基づく処分に違反したとき（次項各号のいずれかに該当する場合を除く。）。
+    text: 二　自動車等の運転に関しこの法律若しくはこの法律に基づく命令の規定又はこの法律の規定に基づく処分に違反したとき（次項各号のいずれかに該当する場合を除く。）。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,22 +44,22 @@ paragraphs:
     modality: kanou_kenri
   - id: douro-koutsuu-hou-art-107-5-p2-kou-1
     type: kou
-    text: 自動車等の運転により人を死傷させ、又は建造物を損壊させる行為で故意によるものをしたとき。
+    text: 一　自動車等の運転により人を死傷させ、又は建造物を損壊させる行為で故意によるものをしたとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-107-5-p2-kou-2
     type: kou
-    text: 自動車等の運転に関し自動車の運転により人を死傷させる行為等の処罰に関する法律第二条から第四条までの罪に当たる行為をしたとき。
+    text: 二　自動車等の運転に関し自動車の運転により人を死傷させる行為等の処罰に関する法律第二条から第四条までの罪に当たる行為をしたとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-107-5-p2-kou-3
     type: kou
-    text: 自動車等の運転に関し第百十七条の二第一項第一号、第三号又は第四号の違反行為をしたとき（前二号のいずれかに該当する場合を除く。）。
+    text: 三　自動車等の運転に関し第百十七条の二第一項第一号、第三号又は第四号の違反行為をしたとき（前二号のいずれかに該当する場合を除く。）。
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-107-5-p2-kou-4
     type: kou
-    text: 自動車等の運転に関し第百十七条第一項又は第二項の違反行為をしたとき。
+    text: 四　自動車等の運転に関し第百十七条第一項又は第二項の違反行為をしたとき。
     modality: unspecified
     item_number: 4
 - number: 3
@@ -83,8 +83,8 @@ paragraphs:
     applies_provisions:
     - 第百四条
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -157,6 +157,10 @@ paragraphs:
   - id: douro-koutsuu-hou-art-107-5-p11
     type: junyou
     text: 第百四条の三の規定は、第一項若しくは第二項の規定又は第九項において準用する第百三条第四項の規定により自動車等の運転の禁止をした場合について準用する。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-107-5-supplnote-1
+    type: supplnote
+    text: （罰則　第五項、第七項及び第十項については第百二十一条第一項第十号　第十一項については第百二十三条の二第一号）
     modality: unspecified
 cases: []
 amendments: []

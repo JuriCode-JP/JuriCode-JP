@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-252-8-p1-kou-1
     type: kou
-    text: 共同設置する機関の名称
+    text: 一　共同設置する機関の名称
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-8-p1-kou-2
     type: kou
-    text: 共同設置する機関を設ける普通地方公共団体
+    text: 二　共同設置する機関を設ける普通地方公共団体
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-252-8-p1-kou-3
     type: kou
-    text: 共同設置する機関の執務場所
+    text: 三　共同設置する機関の執務場所
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-252-8-p1-kou-4
     type: kou
-    text: 共同設置する機関を組織する委員その他の構成員の選任の方法及びその身分取扱い
+    text: 四　共同設置する機関を組織する委員その他の構成員の選任の方法及びその身分取扱い
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-252-8-p1-kou-5
     type: kou
-    text: 前各号に掲げるものを除くほか、共同設置する機関と関係普通地方公共団体との関係その他共同設置する機関に関し必要な事項
+    text: 五　前各号に掲げるものを除くほか、共同設置する機関と関係普通地方公共団体との関係その他共同設置する機関に関し必要な事項
     modality: unspecified
     item_number: 5
 cases: []

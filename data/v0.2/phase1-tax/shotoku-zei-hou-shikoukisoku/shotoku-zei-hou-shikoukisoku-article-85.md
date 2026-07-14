@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-85-p1-kou-1
     type: kou
-    text: その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
+    text: 一　その支払を受ける者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-85-p1-kou-2
     type: kou
-    text: その年中に支払の確定した利益の分配の金額
+    text: 二　その年中に支払の確定した利益の分配の金額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-85-p1-kou-3
     type: kou
-    text: 前号の利益の分配につき源泉徴収をされる所得税の額
+    text: 三　前号の利益の分配につき源泉徴収をされる所得税の額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-85-p1-kou-4
     type: kou
-    text: 第二号の利益の分配の基因となつた出資の金額及び当該利益の分配の計算の基礎
+    text: 四　第二号の利益の分配の基因となつた出資の金額及び当該利益の分配の計算の基礎
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-85-p1-kou-5
     type: kou
-    text: 支払の確定した日
+    text: 五　支払の確定した日
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-85-p1-kou-6
     type: kou
-    text: その支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
+    text: 六　その支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
     modality: unspecified
     item_number: 6
   - id: shotoku-zei-hou-shikoukisoku-art-85-p1-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 2
@@ -66,8 +66,8 @@ paragraphs:
     text: 前項の場合において、同一人に対するその年中の同項に規定する利益の分配の支払金額が五万円以下であるときは、その利益の分配に係る同項の調書は、提出することを要しない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

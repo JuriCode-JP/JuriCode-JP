@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-831-p1-kou-1
     type: kou
-    text: 株主総会等の招集の手続又は決議の方法が法令若しくは定款に違反し、又は著しく不公正なとき。
+    text: 一　株主総会等の招集の手続又は決議の方法が法令若しくは定款に違反し、又は著しく不公正なとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-831-p1-kou-2
     type: kou
-    text: 株主総会等の決議の内容が定款に違反するとき。
+    text: 二　株主総会等の決議の内容が定款に違反するとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-831-p1-kou-3
     type: kou
-    text: 株主総会等の決議について特別の利害関係を有する者が議決権を行使したことによって、著しく不当な決議がされたとき。
+    text: 三　株主総会等の決議について特別の利害関係を有する者が議決権を行使したことによって、著しく不当な決議がされたとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項の訴えの提起があった場合において、株主総会等の招集の手続又は決議の方法が法令又は定款に違反するときであっても、裁判所は、その違反する事実が重大でなく、かつ、決議に影響を及ぼさないものであると認めるときは、同項の規定による請求を棄却することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

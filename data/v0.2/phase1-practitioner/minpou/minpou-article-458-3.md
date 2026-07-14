@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の期間内に同項の通知をしなかったときは、債権者は、保証人に対し、主たる債務者が期限の利益を喪失した時から同項の通知を現にするまでに生じた遅延損害金（期限の利益を喪失しなかったとしても生ずべきものを除く。）に係る保証債務の履行を請求することができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

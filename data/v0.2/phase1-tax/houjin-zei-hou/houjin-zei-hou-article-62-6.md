@@ -34,17 +34,17 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-62-6-p2-kou-1
     type: kou
-    text: 当該分割により交付を受けた分割対価資産の全部をその株主等に交付した法人　分割型分割
+    text: 一　当該分割により交付を受けた分割対価資産の全部をその株主等に交付した法人　分割型分割
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-62-6-p2-kou-2
     type: kou
-    text: 当該分割により交付を受けた分割対価資産をその株主等に交付しなかつた法人　分社型分割
+    text: 二　当該分割により交付を受けた分割対価資産をその株主等に交付しなかつた法人　分社型分割
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-62-6-p2-kou-3
     type: kou
-    text: 当該分割により交付を受けた分割対価資産の一部のみをその株主等に交付した法人　分割型分割及び分社型分割の双方
+    text: 三　当該分割により交付を受けた分割対価資産の一部のみをその株主等に交付した法人　分割型分割及び分社型分割の双方
     modality: unspecified
     item_number: 3
 - number: 3

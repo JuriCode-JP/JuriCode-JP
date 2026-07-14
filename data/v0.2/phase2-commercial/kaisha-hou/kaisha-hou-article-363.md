@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-363-p1-kou-1
     type: kou
-    text: 代表取締役
+    text: 一　代表取締役
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-363-p1-kou-2
     type: kou
-    text: 代表取締役以外の取締役であって、取締役会の決議によって取締役会設置会社の業務を執行する取締役として選定されたもの
+    text: 二　代表取締役以外の取締役であって、取締役会の決議によって取締役会設置会社の業務を執行する取締役として選定されたもの
     modality: unspecified
     item_number: 2
 - number: 2

@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-308-2-p1-kou-1
     type: kou
-    text: 第七百五十二条の規定による夫婦間の協力及び扶助の義務
+    text: 一　第七百五十二条の規定による夫婦間の協力及び扶助の義務
     modality: unspecified
     item_number: 1
   - id: minpou-art-308-2-p1-kou-2
     type: kou
-    text: 第七百六十条の規定による婚姻から生ずる費用の分担の義務
+    text: 二　第七百六十条の規定による婚姻から生ずる費用の分担の義務
     modality: unspecified
     item_number: 2
   - id: minpou-art-308-2-p1-kou-3
     type: kou
-    text: 第七百六十六条及び第七百六十六条の三（これらの規定を第七百四十九条、第七百七十一条及び第七百八十八条において準用する場合を含む。）の規定による子の監護に関する義務
+    text: 三　第七百六十六条及び第七百六十六条の三（これらの規定を第七百四十九条、第七百七十一条及び第七百八十八条において準用する場合を含む。）の規定による子の監護に関する義務
     modality: unspecified
     item_number: 3
   - id: minpou-art-308-2-p1-kou-4
     type: kou
-    text: 第八百七十七条から第八百八十条までの規定による扶養の義務
+    text: 四　第八百七十七条から第八百八十条までの規定による扶養の義務
     modality: unspecified
     item_number: 4
 cases: []

@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: minpou-art-117-p2-kou-1
     type: kou
-    text: 他人の代理人として契約をした者が代理権を有しないことを相手方が知っていたとき。
+    text: 一　他人の代理人として契約をした者が代理権を有しないことを相手方が知っていたとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-117-p2-kou-2
     type: kou
-    text: 他人の代理人として契約をした者が代理権を有しないことを相手方が過失によって知らなかったとき。ただし、他人の代理人として契約をした者が自己に代理権がないことを知っていたときは、この限りでない。
+    text: 二　他人の代理人として契約をした者が代理権を有しないことを相手方が過失によって知らなかったとき。ただし、他人の代理人として契約をした者が自己に代理権がないことを知っていたときは、この限りでない。
     modality: jogai
     item_number: 2
   - id: minpou-art-117-p2-kou-3
     type: kou
-    text: 他人の代理人として契約をした者が行為能力の制限を受けていたとき。
+    text: 三　他人の代理人として契約をした者が行為能力の制限を受けていたとき。
     modality: unspecified
     item_number: 3
 cases: []

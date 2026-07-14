@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定は、確定申告書に同項に規定する減額し又は経理した金額に相当する金額の損金算入に関する明細の記載がある場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

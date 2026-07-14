@@ -49,12 +49,12 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-art-21-16-p3-kou-1
     type: kou
-    text: 当該財産の価額は、第一項の贈与の時における価額とする。
+    text: 一　当該財産の価額は、第一項の贈与の時における価額とする。
     modality: gimu
     item_number: 1
   - id: souzoku-zei-hou-art-21-16-p3-kou-2
     type: kou
-    text: 当該財産の価額から第二十一条の十一の二第一項の規定による控除をした残額を第十一条の二の相続税の課税価格に算入する。
+    text: 二　当該財産の価額から第二十一条の十一の二第一項の規定による控除をした残額を第十一条の二の相続税の課税価格に算入する。
     modality: unspecified
     item_number: 2
 - number: 4

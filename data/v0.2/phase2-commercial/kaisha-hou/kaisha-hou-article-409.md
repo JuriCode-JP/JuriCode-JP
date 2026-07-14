@@ -43,36 +43,36 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-409-p3-kou-1
     type: kou
-    text: 額が確定しているもの　個人別の額
+    text: 一　額が確定しているもの　個人別の額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-409-p3-kou-2
     type: kou
-    text: 額が確定していないもの　個人別の具体的な算定方法
+    text: 二　額が確定していないもの　個人別の具体的な算定方法
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-409-p3-kou-3
     type: kou
-    text: 当該株式会社の募集株式　当該募集株式の数（種類株式発行会社にあっては、募集株式の種類及び種類ごとの数）その他法務省令で定める事項
+    text: 三　当該株式会社の募集株式　当該募集株式の数（種類株式発行会社にあっては、募集株式の種類及び種類ごとの数）その他法務省令で定める事項
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-409-p3-kou-4
     type: kou
-    text: 当該株式会社の募集新株予約権　当該募集新株予約権の数その他法務省令で定める事項
+    text: 四　当該株式会社の募集新株予約権　当該募集新株予約権の数その他法務省令で定める事項
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-409-p3-kou-5
     type: kou
-    text: '次のイ又はロに掲げるものと引換えにする払込みに充てるための金銭　当該イ又はロに定める事項
+    text: '五　次のイ又はロに掲げるものと引換えにする払込みに充てるための金銭　当該イ又はロに定める事項
 
-      イ 当該株式会社の募集株式　執行役等が引き受ける当該募集株式の数（種類株式発行会社にあっては、募集株式の種類及び種類ごとの数）その他法務省令で定める事項
+      イ　当該株式会社の募集株式　執行役等が引き受ける当該募集株式の数（種類株式発行会社にあっては、募集株式の種類及び種類ごとの数）その他法務省令で定める事項
 
-      ロ 当該株式会社の募集新株予約権　執行役等が引き受ける当該募集新株予約権の数その他法務省令で定める事項'
+      ロ　当該株式会社の募集新株予約権　執行役等が引き受ける当該募集新株予約権の数その他法務省令で定める事項'
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-409-p3-kou-6
     type: kou
-    text: 金銭でないもの（当該株式会社の募集株式及び募集新株予約権を除く。）　個人別の具体的な内容
+    text: 六　金銭でないもの（当該株式会社の募集株式及び募集新株予約権を除く。）　個人別の具体的な内容
     modality: unspecified
     item_number: 6
 cases: []

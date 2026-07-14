@@ -26,12 +26,12 @@ paragraphs:
     - 第三百六十九条
   - id: kaisha-hou-art-373-p1-kou-1
     type: kou
-    text: 取締役の数が六人以上であること。
+    text: 一　取締役の数が六人以上であること。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-373-p1-kou-2
     type: kou
-    text: 取締役のうち一人以上が社外取締役であること。
+    text: 二　取締役のうち一人以上が社外取締役であること。
     modality: unspecified
     item_number: 2
 - number: 2

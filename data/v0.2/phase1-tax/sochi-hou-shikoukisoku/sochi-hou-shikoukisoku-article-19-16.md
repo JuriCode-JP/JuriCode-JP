@@ -22,8 +22,8 @@ paragraphs:
     text: 法第四十二条の二の二第一項に規定する財務省令で定めるところにより算出した数は、同項に規定する調書等（以下この項及び次項において「調書等」という。）の提出期限の属する年の前々年の一月一日から十二月三十一日までの間にその者が提出すべきであつた当該調書等の枚数を別表第五から別表第七（一）まで、別表第七（三）及び別表第八（二）の表ごとに計算した数とする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -34,8 +34,8 @@ paragraphs:
     text: 調書等を提出すべき者が法第四十二条の二の二第一項第一号に規定する電子情報処理組織を使用して同項に規定する記載事項（次項、第四項及び第六項第三号において「記載事項」という。）を同条第一項に規定する税務署長に提供しようとする場合における届出その他の手続については、次項第一号に掲げる方法により提供しようとする場合には国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第四条第一項から第三項まで、第六項及び第七項の規定の例により、次項第二号に掲げる方法により提供しようとする場合には同条第四項及び第六項の規定の例による。
     modality: unspecified
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -47,12 +47,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-19-16-p3-kou-1
     type: kou
-    text: 国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条第一項の定めるところにより記載事項を送信する方法
+    text: 一　国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条第一項の定めるところにより記載事項を送信する方法
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-19-16-p3-kou-2
     type: kou
-    text: 国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条の二第一項の定めるところにより、同項に規定する特定ファイルに記載事項を記録し、かつ、税務署長に対して、当該特定ファイルに記録された当該記載事項を閲覧し、及び国税庁の使用に係る電子計算機に備えられたファイルに記録する権限を付与する方法
+    text: 二　国税関係法令に係る情報通信技術を活用した行政の推進等に関する省令第五条の二第一項の定めるところにより、同項に規定する特定ファイルに記載事項を記録し、かつ、税務署長に対して、当該特定ファイルに記録された当該記載事項を閲覧し、及び国税庁の使用に係る電子計算機に備えられたファイルに記録する権限を付与する方法
     modality: unspecified
     item_number: 2
 - number: 4
@@ -86,27 +86,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-19-16-p6-kou-1
     type: kou
-    text: 施行令第二十七条の三第一項の申請書を提出する者の名称、所在地及び法人番号
+    text: 一　施行令第二十七条の三第一項の申請書を提出する者の名称、所在地及び法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-19-16-p6-kou-2
     type: kou
-    text: 法第四十二条の二の二第三項の承認を受けようとする旨
+    text: 二　法第四十二条の二の二第三項の承認を受けようとする旨
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-19-16-p6-kou-3
     type: kou
-    text: 記載事項を提供しようとする税務署長及び当該税務署長に提供しようとする理由
+    text: 三　記載事項を提供しようとする税務署長及び当該税務署長に提供しようとする理由
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-19-16-p6-kou-4
     type: kou
-    text: 法第四十二条の二の二第一項各号に掲げる方法のうちいずれの方法によるかの別
+    text: 四　法第四十二条の二の二第一項各号に掲げる方法のうちいずれの方法によるかの別
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-19-16-p6-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 7

@@ -22,26 +22,26 @@ paragraphs:
     text: 委員会は、審査を行うため必要があると認めるときは、国の関与に関する審査の申出をした普通地方公共団体の長その他の執行機関、相手方である国の行政庁若しくは前条第一項の規定により当該審査の手続に参加した関係行政機関（以下本条において「参加行政機関」という。）の申立てにより又は職権で、次に掲げる証拠調べをすることができる。
     modality: kanou_kenri
     references:
-    - 前条
     - 本条
+    - 前条
   - id: chihou-jichi-hou-art-250-16-p1-kou-1
     type: kou
-    text: 適当と認める者に、参考人としてその知つている事実を陳述させ、又は鑑定を求めること。
+    text: 一　適当と認める者に、参考人としてその知つている事実を陳述させ、又は鑑定を求めること。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-250-16-p1-kou-2
     type: kou
-    text: 書類その他の物件の所持人に対し、その物件の提出を求め、又はその提出された物件を留め置くこと。
+    text: 二　書類その他の物件の所持人に対し、その物件の提出を求め、又はその提出された物件を留め置くこと。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-250-16-p1-kou-3
     type: kou
-    text: 必要な場所につき検証をすること。
+    text: 三　必要な場所につき検証をすること。
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-250-16-p1-kou-4
     type: kou
-    text: 国の関与に関する審査の申出をした普通地方公共団体の長その他の執行機関、相手方である国の行政庁若しくは参加行政機関又はこれらの職員を審尋すること。
+    text: 四　国の関与に関する審査の申出をした普通地方公共団体の長その他の執行機関、相手方である国の行政庁若しくは参加行政機関又はこれらの職員を審尋すること。
     modality: unspecified
     item_number: 4
 - number: 2

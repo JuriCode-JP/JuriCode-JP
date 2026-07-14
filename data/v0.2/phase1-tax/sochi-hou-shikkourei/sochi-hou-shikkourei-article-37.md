@@ -62,17 +62,17 @@ paragraphs:
     - 次項
   - id: sochi-hou-shikkourei-art-37-p4-kou-1
     type: kou
-    text: 他の対象通算法人（法第六十一条第三項に規定する他の対象通算法人をいう。以下この項及び第六項において同じ。）の特定事業等欠損金額（当該他の対象通算法人の特定事業等により生じた所得のみについて法人税を課するものとした場合における他の事業年度（同条第三項第一号に規定する他の事業年度をいう。第三号及び次項において同じ。）において生ずる通算前欠損金額をいう。）の合計額
+    text: 一　他の対象通算法人（法第六十一条第三項に規定する他の対象通算法人をいう。以下この項及び第六項において同じ。）の特定事業等欠損金額（当該他の対象通算法人の特定事業等により生じた所得のみについて法人税を課するものとした場合における他の事業年度（同条第三項第一号に規定する他の事業年度をいう。第三号及び次項において同じ。）において生ずる通算前欠損金額をいう。）の合計額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-37-p4-kou-2
     type: kou
-    text: 当該通算法人の当該対象事業年度に係る軽減対象所得金額
+    text: 二　当該通算法人の当該対象事業年度に係る軽減対象所得金額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-37-p4-kou-3
     type: kou
-    text: 他の対象通算法人の他の軽減対象所得金額（当該他の対象通算法人の特定事業等により生じた所得のみについて法人税を課するものとした場合に課税標準となるべき他の事業年度の所得の金額をいう。）の合計額
+    text: 三　他の対象通算法人の他の軽減対象所得金額（当該他の対象通算法人の特定事業等により生じた所得のみについて法人税を課するものとした場合に課税標準となるべき他の事業年度の所得の金額をいう。）の合計額
     modality: unspecified
     item_number: 3
 - number: 5
@@ -86,17 +86,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-37-p5-kou-1
     type: kou
-    text: 他の通算法人（法第六十一条第三項に規定する他の通算法人をいう。第三号において同じ。）の他の事業年度において生ずる通算前欠損金額の合計額
+    text: 一　他の通算法人（法第六十一条第三項に規定する他の通算法人をいう。第三号において同じ。）の他の事業年度において生ずる通算前欠損金額の合計額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-37-p5-kou-2
     type: kou
-    text: 当該通算法人の当該対象事業年度の通算前所得金額
+    text: 二　当該通算法人の当該対象事業年度の通算前所得金額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-37-p5-kou-3
     type: kou
-    text: 他の通算法人の他の事業年度の通算前所得金額の合計額
+    text: 三　他の通算法人の他の事業年度の通算前所得金額の合計額
     modality: unspecified
     item_number: 3
 - number: 6

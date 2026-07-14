@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-p1-kou-1
     type: kou
-    text: 申請者の住所又は居所及び氏名
+    text: 一　申請者の住所又は居所及び氏名
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-p1-kou-2
     type: kou
-    text: 亡失の事情及びその場所
+    text: 二　亡失の事情及びその場所
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-p1-kou-3
     type: kou
-    text: 当該物品の購入の年月日
+    text: 三　当該物品の購入の年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-p1-kou-4
     type: kou
-    text: 当該物品の品名並びに品名ごとの数量及び価額
+    text: 四　当該物品の品名並びに品名ごとの数量及び価額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-37-p1-kou-5
     type: kou
-    text: 当該物品を購入した海軍販売所等（施行令第四十六条第一項に規定する海軍販売所等をいう。次条において同じ。）の名称及び所在地
+    text: 五　当該物品を購入した海軍販売所等（施行令第四十六条第一項に規定する海軍販売所等をいう。次条において同じ。）の名称及び所在地
     modality: unspecified
     item_number: 5
 - number: 2
@@ -59,12 +59,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikoukisoku-art-37-p2-kou-1
     type: kou
-    text: 提出者の住所又は居所及び氏名
+    text: 一　提出者の住所又は居所及び氏名
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-p2-kou-2
     type: kou
-    text: 前項第二号から第五号までに掲げる事項
+    text: 二　前項第二号から第五号までに掲げる事項
     modality: unspecified
     item_number: 2
 cases: []

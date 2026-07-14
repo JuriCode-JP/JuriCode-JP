@@ -25,47 +25,47 @@ paragraphs:
     - 次項
   - id: yakkihou-shikoukisoku-art-228-22-p1-kou-1
     type: kou
-    text: 回収を行う者の氏名及び住所
+    text: 一　回収を行う者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-22-p1-kou-2
     type: kou
-    text: 回収の対象となる医薬品、医薬部外品、化粧品、医療機器又は再生医療等製品の名称、当該品目の製造販売又は製造に係る許可番号及び許可年月日又は登録番号及び登録年月日並びに当該品目の承認番号及び承認年月日、認証番号及び認証年月日又は届出年月日
+    text: 二　回収の対象となる医薬品、医薬部外品、化粧品、医療機器又は再生医療等製品の名称、当該品目の製造販売又は製造に係る許可番号及び許可年月日又は登録番号及び登録年月日並びに当該品目の承認番号及び承認年月日、認証番号及び認証年月日又は届出年月日
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-22-p1-kou-3
     type: kou
-    text: 回収の対象となる当該品目の数量、製造番号又は製造記号及び製造販売、製造又は輸入年月日
+    text: 三　回収の対象となる当該品目の数量、製造番号又は製造記号及び製造販売、製造又は輸入年月日
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-228-22-p1-kou-4
     type: kou
-    text: 当該品目の製造所及び主たる機能を有する事務所の名称及び所在地
+    text: 四　当該品目の製造所及び主たる機能を有する事務所の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-228-22-p1-kou-5
     type: kou
-    text: 当該品目が輸出されたものである場合にあつては、当該輸出先の国名
+    text: 五　当該品目が輸出されたものである場合にあつては、当該輸出先の国名
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-228-22-p1-kou-6
     type: kou
-    text: 回収に着手した年月日
+    text: 六　回収に着手した年月日
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-228-22-p1-kou-7
     type: kou
-    text: 回収の方法
+    text: 七　回収の方法
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-228-22-p1-kou-8
     type: kou
-    text: 回収終了予定日
+    text: 八　回収終了予定日
     modality: unspecified
     item_number: 8
   - id: yakkihou-shikoukisoku-art-228-22-p1-kou-9
     type: kou
-    text: その他保健衛生上の被害の発生又は拡大の防止のために講じようとする措置の内容
+    text: 九　その他保健衛生上の被害の発生又は拡大の防止のために講じようとする措置の内容
     modality: unspecified
     item_number: 9
 - number: 2
@@ -79,17 +79,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-22-p2-kou-1
     type: kou
-    text: 前項各号に掲げる報告事項に変更（軽微な変更を除く。）が生じたとき
+    text: 一　前項各号に掲げる報告事項に変更（軽微な変更を除く。）が生じたとき
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-22-p2-kou-2
     type: kou
-    text: 回収に着手した時点では想定していなかつた健康被害の発生のおそれを知つたとき
+    text: 二　回収に着手した時点では想定していなかつた健康被害の発生のおそれを知つたとき
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-22-p2-kou-3
     type: kou
-    text: その他厚生労働大臣が必要があると認めて回収の状況の報告を求めたとき
+    text: 三　その他厚生労働大臣が必要があると認めて回収の状況の報告を求めたとき
     modality: unspecified
     item_number: 3
 - number: 3

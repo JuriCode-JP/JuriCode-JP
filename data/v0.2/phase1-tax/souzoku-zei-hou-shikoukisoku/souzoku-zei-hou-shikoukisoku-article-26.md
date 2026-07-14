@@ -25,32 +25,32 @@ paragraphs:
     - 同項
   - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-1
     type: kou
-    text: 第十三条第一項第三号及び第四号に掲げる事項
+    text: 一　第十三条第一項第三号及び第四号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-2
     type: kou
-    text: 第二十条第一項第五号から第七号までに掲げる事項
+    text: 二　第二十条第一項第五号から第七号までに掲げる事項
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-3
     type: kou
-    text: 物納の撤回に係る相続税額
+    text: 三　物納の撤回に係る相続税額
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-4
     type: kou
-    text: 法第四十七条第五項に規定する未経過延納税額のうち金銭で一時に納付することを困難とする金額及びその困難とする事由
+    text: 四　法第四十七条第五項に規定する未経過延納税額のうち金銭で一時に納付することを困難とする金額及びその困難とする事由
     modality: unspecified
     item_number: 4
   - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-5
     type: kou
-    text: 施行令第二十五条の五第一項において準用する施行令第十二条第一項第二号に掲げる額及びその計算の明細
+    text: 五　施行令第二十五条の五第一項において準用する施行令第十二条第一項第二号に掲げる額及びその計算の明細
     modality: unspecified
     item_number: 5
   - id: souzoku-zei-hou-shikoukisoku-art-26-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

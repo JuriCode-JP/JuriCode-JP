@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikkourei-art-221-2-p1-kou-1
     type: kou
-    text: 法第九十五条第四項第一号に掲げる国外源泉所得
+    text: 一　法第九十五条第四項第一号に掲げる国外源泉所得
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-221-2-p1-kou-2
     type: kou
-    text: 法第九十五条第四項第二号から第十七号までに掲げる国外源泉所得（同項第二号から第十四号まで、第十六号及び第十七号に掲げる国外源泉所得にあつては、同項第一号に掲げる国外源泉所得に該当するものを除く。）
+    text: 二　法第九十五条第四項第二号から第十七号までに掲げる国外源泉所得（同項第二号から第十四号まで、第十六号及び第十七号に掲げる国外源泉所得にあつては、同項第一号に掲げる国外源泉所得に該当するものを除く。）
     modality: unspecified
     item_number: 2
 cases: []

@@ -26,17 +26,17 @@ paragraphs:
     - 第十二項
   - id: yakkihou-art-23-26-p1-kou-1
     type: kou
-    text: 申請に係る再生医療等製品が均質でないこと。
+    text: 一　申請に係る再生医療等製品が均質でないこと。
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-23-26-p1-kou-2
     type: kou
-    text: 申請に係る効能、効果又は性能を有すると推定されるものであること。
+    text: 二　申請に係る効能、効果又は性能を有すると推定されるものであること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-23-26-p1-kou-3
     type: kou
-    text: 申請に係る効能、効果又は性能に比して著しく有害な作用を有することにより再生医療等製品として使用価値がないと推定されるものでないこと。
+    text: 三　申請に係る効能、効果又は性能に比して著しく有害な作用を有することにより再生医療等製品として使用価値がないと推定されるものでないこと。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -89,8 +89,8 @@ paragraphs:
     text: 前項の申請があつた場合において、同項に規定する期限内にその申請に対する処分がされないときは、第一項の規定により条件及び期限を付した第二十三条の二十五第一項の承認は、当該期限の到来後もその処分がされるまでの間は、なおその効力を有する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

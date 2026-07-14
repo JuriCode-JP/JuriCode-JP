@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-27-2-p1-kou-1
     type: kou
-    text: 次号に掲げる場合以外の場合　二百十三万円
+    text: 一　次号に掲げる場合以外の場合　二百十三万円
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-27-2-p1-kou-2
     type: kou
-    text: 法第四十一条の十五の三第二項第一号に規定する場合に該当する場合　二百四十二万円（法第四十一条の十六の二第三項に規定する公的年金等が所得税法施行令第三百十九条の六第一項各号又は第二項第一号に掲げるものである場合には、百六十三万円）
+    text: 二　法第四十一条の十五の三第二項第一号に規定する場合に該当する場合　二百四十二万円（法第四十一条の十六の二第三項に規定する公的年金等が所得税法施行令第三百十九条の六第一項各号又は第二項第一号に掲げるものである場合には、百六十三万円）
     modality: unspecified
     item_number: 2
 - number: 2

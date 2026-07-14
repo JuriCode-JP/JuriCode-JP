@@ -54,17 +54,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-14-3-3-p4-kou-1
     type: kou
-    text: 応募上場株券等（法第二十七条の二十二の二第二項において読み替えて準用する法第二十七条の十二第三項に規定する応募上場株券等をいう。）の保管及び返還
+    text: 一　応募上場株券等（法第二十七条の二十二の二第二項において読み替えて準用する法第二十七条の十二第三項に規定する応募上場株券等をいう。）の保管及び返還
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-3-3-p4-kou-2
     type: kou
-    text: 買付け等の代金の支払（有価証券その他金銭以外のものをもつて買付け等の対価とする場合における当該有価証券その他金銭以外のものの引渡しを含む。）
+    text: 二　買付け等の代金の支払（有価証券その他金銭以外のものをもつて買付け等の対価とする場合における当該有価証券その他金銭以外のものの引渡しを含む。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-14-3-3-p4-kou-3
     type: kou
-    text: あん分比例方式（法第二十七条の二十二の二第二項において準用する法第二十七条の十三第五項に規定するあん分比例方式をいう。）により買付け等を行う上場株券等の数を確定させる事務
+    text: 三　あん分比例方式（法第二十七条の二十二の二第二項において準用する法第二十七条の十三第五項に規定するあん分比例方式をいう。）により買付け等を行う上場株券等の数を確定させる事務
     modality: unspecified
     item_number: 3
 - number: 5
@@ -78,12 +78,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-14-3-3-p5-kou-1
     type: kou
-    text: 買付け等の期間が終了したときは、遅滞なく、買付け等をする上場株券等の数その他の内閣府令で定める事項を記載した買付け等に関する通知書を応募株主等に送付すること。
+    text: 一　買付け等の期間が終了したときは、遅滞なく、買付け等をする上場株券等の数その他の内閣府令で定める事項を記載した買付け等に関する通知書を応募株主等に送付すること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-3-3-p5-kou-2
     type: kou
-    text: 買付け等に係る受渡しその他の決済は、買付け等の期間が終了した後、遅滞なく行うこと。
+    text: 二　買付け等に係る受渡しその他の決済は、買付け等の期間が終了した後、遅滞なく行うこと。
     modality: unspecified
     item_number: 2
 - number: 6

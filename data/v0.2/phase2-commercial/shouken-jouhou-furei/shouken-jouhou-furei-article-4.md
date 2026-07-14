@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: shouken-jouhou-furei-art-4-p2-kou-1
     type: kou
-    text: 特定上場有価証券等　特定取引所規則において定める方法
+    text: 一　特定上場有価証券等　特定取引所規則において定める方法
     modality: unspecified
     item_number: 1
   - id: shouken-jouhou-furei-art-4-p2-kou-2
     type: kou
-    text: 特定店頭売買有価証券等　特定協会規則において定める方法
+    text: 二　特定店頭売買有価証券等　特定協会規則において定める方法
     modality: unspecified
     item_number: 2
   - id: shouken-jouhou-furei-art-4-p2-kou-3
     type: kou
-    text: 前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法
+    text: 三　前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法
     modality: unspecified
     item_number: 3
 - number: 3
@@ -56,12 +56,12 @@ paragraphs:
     modality: gimu
   - id: shouken-jouhou-furei-art-4-p3-kou-1
     type: kou
-    text: 有価証券（次号に掲げる有価証券を除く。）　第二条第二項第一号ハ及びニに掲げる事項に関する情報
+    text: 一　有価証券（次号に掲げる有価証券を除く。）　第二条第二項第一号ハ及びニに掲げる事項に関する情報
     modality: unspecified
     item_number: 1
   - id: shouken-jouhou-furei-art-4-p3-kou-2
     type: kou
-    text: 特定有価証券　第二条第二項第二号ハ及びニに掲げる事項に関する情報
+    text: 二　特定有価証券　第二条第二項第二号ハ及びニに掲げる事項に関する情報
     modality: unspecified
     item_number: 2
 cases: []

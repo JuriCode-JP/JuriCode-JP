@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の協議が調わないとき、又は協議をすることができないときは、同項の権利を承継すべき者は、家庭裁判所がこれを定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-748-p1-kou-1
     type: kou
-    text: 第七十四条の十七に規定する卸売販売業者等又は小売販売業者　同条に規定する帳簿
+    text: 一　第七十四条の十七に規定する卸売販売業者等又は小売販売業者　同条に規定する帳簿
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-748-p1-kou-2
     type: kou
-    text: 第百四十四条の三十二第三項に規定する同条第一項の承認を受けた者　同条第三項に規定する帳簿
+    text: 二　第百四十四条の三十二第三項に規定する同条第一項の承認を受けた者　同条第三項に規定する帳簿
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-748-p1-kou-3
     type: kou
-    text: 第百四十四条の三十六に規定する元売業者、特約業者、石油製品販売業者又は軽油製造業者等　同条に規定する帳簿
+    text: 三　第百四十四条の三十六に規定する元売業者、特約業者、石油製品販売業者又は軽油製造業者等　同条に規定する帳簿
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-748-p1-kou-4
     type: kou
-    text: 附則第十二条の二の八第五項に規定する同条第三項の規定による届出をした特例対象事業者　同条第五項に規定する帳簿
+    text: 四　附則第十二条の二の八第五項に規定する同条第三項の規定による届出をした特例対象事業者　同条第五項に規定する帳簿
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,12 +52,12 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-748-p2-kou-1
     type: kou
-    text: 第七十四条の二第一項に規定する卸売販売業者等　第七十四条の六第二項に規定する書類
+    text: 一　第七十四条の二第一項に規定する卸売販売業者等　第七十四条の六第二項に規定する書類
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-748-p2-kou-2
     type: kou
-    text: 第四百六十五条第一項に規定する卸売販売業者等　第四百六十九条第二項に規定する書類
+    text: 二　第四百六十五条第一項に規定する卸売販売業者等　第四百六十九条第二項に規定する書類
     modality: unspecified
     item_number: 2
 - number: 3

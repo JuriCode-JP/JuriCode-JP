@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: keihou-art-27-4-p1-kou-1
     type: kou
-    text: 猶予の言渡し後に更に罪を犯し、拘禁刑以上の刑に処せられたとき。
+    text: 一　猶予の言渡し後に更に罪を犯し、拘禁刑以上の刑に処せられたとき。
     modality: unspecified
     item_number: 1
   - id: keihou-art-27-4-p1-kou-2
     type: kou
-    text: 猶予の言渡し前に犯した他の罪について拘禁刑以上の刑に処せられたとき。
+    text: 二　猶予の言渡し前に犯した他の罪について拘禁刑以上の刑に処せられたとき。
     modality: unspecified
     item_number: 2
   - id: keihou-art-27-4-p1-kou-3
     type: kou
-    text: 猶予の言渡し前に他の罪について拘禁刑以上の刑に処せられ、その刑の全部について執行猶予の言渡しがないことが発覚したとき。
+    text: 三　猶予の言渡し前に他の罪について拘禁刑以上の刑に処せられ、その刑の全部について執行猶予の言渡しがないことが発覚したとき。
     modality: unspecified
     item_number: 3
 cases: []

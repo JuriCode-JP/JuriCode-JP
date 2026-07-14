@@ -22,8 +22,8 @@ paragraphs:
     text: 株式会社は、前条第一項各号に掲げる事項を定めたときは、同項第二号の者に対し、同項第一号の株式を当該株式会社に売り渡すことを請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前条
+    - 同項
   - id: kaisha-hou-art-176-p1-tadashi
     type: tadashi
     text: ただし、当該株式会社が相続その他の一般承継があったことを知った日から一年を経過したときは、この限りでない。

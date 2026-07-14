@@ -32,32 +32,32 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-189-p2-kou-1
     type: kou
-    text: 第百七十一条第一項第一号に規定する取得対価の交付を受ける権利
+    text: 一　第百七十一条第一項第一号に規定する取得対価の交付を受ける権利
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-189-p2-kou-2
     type: kou
-    text: 株式会社による取得条項付株式の取得と引換えに金銭等の交付を受ける権利
+    text: 二　株式会社による取得条項付株式の取得と引換えに金銭等の交付を受ける権利
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-189-p2-kou-3
     type: kou
-    text: 第百八十五条に規定する株式無償割当てを受ける権利
+    text: 三　第百八十五条に規定する株式無償割当てを受ける権利
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-189-p2-kou-4
     type: kou
-    text: 第百九十二条第一項の規定により単元未満株式を買い取ることを請求する権利
+    text: 四　第百九十二条第一項の規定により単元未満株式を買い取ることを請求する権利
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-189-p2-kou-5
     type: kou
-    text: 残余財産の分配を受ける権利
+    text: 五　残余財産の分配を受ける権利
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-189-p2-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、法務省令で定める権利
+    text: 六　前各号に掲げるもののほか、法務省令で定める権利
     modality: unspecified
     item_number: 6
 - number: 3

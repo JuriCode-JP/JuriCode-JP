@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-55-p1-kou-1
     type: kou
-    text: 薬事に関する法令に従い適正に製造販売が行われるよう必要な配慮をすること。
+    text: 一　薬事に関する法令に従い適正に製造販売が行われるよう必要な配慮をすること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-55-p1-kou-2
     type: kou
-    text: 製造販売しようとする製品の品質管理を適正に行うこと。
+    text: 二　製造販売しようとする製品の品質管理を適正に行うこと。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-55-p1-kou-3
     type: kou
-    text: 製造販売しようとする製品の製造販売後安全管理を適正に行うこと。
+    text: 三　製造販売しようとする製品の製造販売後安全管理を適正に行うこと。
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-137-55-p1-kou-4
     type: kou
-    text: 再生医療等製品総括製造販売責任者、再生医療等製品品質保証責任者及び再生医療等製品安全管理責任者のいずれもその製造販売する品目の特性に関する専門的知識を有しない場合にあつては、再生医療等製品総括製造販売責任者を補佐する者として当該専門的知識を有する者を置くこと。
+    text: 四　再生医療等製品総括製造販売責任者、再生医療等製品品質保証責任者及び再生医療等製品安全管理責任者のいずれもその製造販売する品目の特性に関する専門的知識を有しない場合にあつては、再生医療等製品総括製造販売責任者を補佐する者として当該専門的知識を有する者を置くこと。
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-137-55-p1-kou-5
     type: kou
-    text: 再生医療等製品総括製造販売責任者、再生医療等製品品質保証責任者及び再生医療等製品安全管理責任者がそれぞれ相互に連携協力し、その業務を行うことができるよう必要な配慮をすること。
+    text: 五　再生医療等製品総括製造販売責任者、再生医療等製品品質保証責任者及び再生医療等製品安全管理責任者がそれぞれ相互に連携協力し、その業務を行うことができるよう必要な配慮をすること。
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-137-55-p1-kou-6
     type: kou
-    text: 再生医療等製品総括製造販売責任者が第百三十七条の五十一の規定による責務を果たすために必要な配慮をすること。
+    text: 六　再生医療等製品総括製造販売責任者が第百三十七条の五十一の規定による責務を果たすために必要な配慮をすること。
     modality: unspecified
     item_number: 6
 cases: []

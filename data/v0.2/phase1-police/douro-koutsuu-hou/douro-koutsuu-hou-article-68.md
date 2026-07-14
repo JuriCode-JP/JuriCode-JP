@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 二人以上の自動車又は原動機付自転車の運転者は、道路において二台以上の自動車又は原動機付自転車を連ねて通行させ、又は並進させる場合において、共同して、著しく道路における交通の危険を生じさせ、又は著しく他人に迷惑を及ぼすこととなる行為をしてはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-68-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の三）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

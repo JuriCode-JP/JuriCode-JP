@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu_kei
   - id: kinsho-hou-art-207-3-p1-kou-1
     type: kou
-    text: 第七十三条又は第百五十三条（第百五十三条の四において準用する場合を含む。）の規定による命令に違反したとき。
+    text: 一　第七十三条又は第百五十三条（第百五十三条の四において準用する場合を含む。）の規定による命令に違反したとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-207-3-p1-kou-2
     type: kou
-    text: 第百一条の八に規定する資本準備金の額を計上しなかつたとき。
+    text: 二　第百一条の八に規定する資本準備金の額を計上しなかつたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-207-3-p1-kou-3
     type: kou
-    text: 第百一条の十第一項又は第四項の規定による通知をしなかつたとき。
+    text: 三　第百一条の十第一項又は第四項の規定による通知をしなかつたとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-207-3-p1-kou-4
     type: kou
-    text: 第百一条の二十第一項の規定による登記をすることを怠つたとき。
+    text: 四　第百一条の二十第一項の規定による登記をすることを怠つたとき。
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-207-3-p1-kou-5
     type: kou
-    text: 第百二条の三十一第一項又は第百五条の十六第一項の規定に違反して、議事録を備え置かなかつたとき。
+    text: 五　第百二条の三十一第一項又は第百五条の十六第一項の規定に違反して、議事録を備え置かなかつたとき。
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-207-3-p1-kou-6
     type: kou
-    text: 第百五条の五第一項の規定に違反して、自主規制委員の過半数を社外取締役から選定しなかつたとき。
+    text: 六　第百五条の五第一項の規定に違反して、自主規制委員の過半数を社外取締役から選定しなかつたとき。
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-207-3-p1-kou-7
     type: kou
-    text: 第百五条の十八の規定による名簿を公衆の縦覧に供することを怠つたとき。
+    text: 七　第百五条の十八の規定による名簿を公衆の縦覧に供することを怠つたとき。
     modality: unspecified
     item_number: 7
 cases: []

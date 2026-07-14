@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-166-p1-kou-1
     type: kou
-    text: 債権者が権利を行使することができることを知った時から五年間行使しないとき。
+    text: 一　債権者が権利を行使することができることを知った時から五年間行使しないとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-166-p1-kou-2
     type: kou
-    text: 権利を行使することができる時から十年間行使しないとき。
+    text: 二　権利を行使することができる時から十年間行使しないとき。
     modality: unspecified
     item_number: 2
 - number: 2

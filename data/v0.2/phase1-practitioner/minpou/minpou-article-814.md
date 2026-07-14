@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-814-p1-kou-1
     type: kou
-    text: 他の一方から悪意で遺棄されたとき。
+    text: 一　他の一方から悪意で遺棄されたとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-814-p1-kou-2
     type: kou
-    text: 他の一方の生死が三年以上明らかでないとき。
+    text: 二　他の一方の生死が三年以上明らかでないとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-814-p1-kou-3
     type: kou
-    text: その他縁組を継続し難い重大な事由があるとき。
+    text: 三　その他縁組を継続し難い重大な事由があるとき。
     modality: unspecified
     item_number: 3
 - number: 2

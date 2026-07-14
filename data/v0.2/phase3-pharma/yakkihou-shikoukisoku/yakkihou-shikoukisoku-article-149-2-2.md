@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-149-2-2-p1-kou-1
     type: kou
-    text: 法第三十一条の五第一項第一号に規定する区域管理者が有する権限に係る業務
+    text: 一　法第三十一条の五第一項第一号に規定する区域管理者が有する権限に係る業務
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-149-2-2-p1-kou-2
     type: kou
-    text: 第百四十九条の四第二項の規定による帳簿の記載
+    text: 二　第百四十九条の四第二項の規定による帳簿の記載
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-149-2-2-p2-kou-1
     type: kou
-    text: 保健衛生上支障を生ずるおそれがないように、その業務に関し配置員その他の従業者を監督し、医薬品その他の物品を管理し、その他その区域の業務につき、必要な注意をすること。
+    text: 一　保健衛生上支障を生ずるおそれがないように、その業務に関し配置員その他の従業者を監督し、医薬品その他の物品を管理し、その他その区域の業務につき、必要な注意をすること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-149-2-2-p2-kou-2
     type: kou
-    text: 法第三十一条の三第二項の規定により配置販売業者に対して述べる意見を記載した書面の写しを三年間保存すること。
+    text: 二　法第三十一条の三第二項の規定により配置販売業者に対して述べる意見を記載した書面の写しを三年間保存すること。
     modality: unspecified
     item_number: 2
 cases: []

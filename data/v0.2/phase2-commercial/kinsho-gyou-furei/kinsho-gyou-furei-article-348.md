@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-348-p2-kou-1
     type: kou
-    text: 登録申請の対象となる投資運用関係業務受託業に係る投資運用関係業務の内容
+    text: 一　登録申請の対象となる投資運用関係業務受託業に係る投資運用関係業務の内容
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-348-p2-kou-2
     type: kou
-    text: 登録申請者が外国法人であって国内における代表者を定めていない者又は外国に住所を有する個人である場合には、国内における代理人の氏名、商号又は名称
+    text: 二　登録申請者が外国法人であって国内における代表者を定めていない者又は外国に住所を有する個人である場合には、国内における代理人の氏名、商号又は名称
     modality: unspecified
     item_number: 2
 cases: []

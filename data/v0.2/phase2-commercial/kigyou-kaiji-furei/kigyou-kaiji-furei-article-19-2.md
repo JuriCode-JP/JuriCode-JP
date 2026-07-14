@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kigyou-kaiji-furei-art-19-2-p1-kou-1
     type: kou
-    text: 第二号の四様式により作成された有価証券届出書を提出した場合　第二号の四様式第四部
+    text: 一　第二号の四様式により作成された有価証券届出書を提出した場合　第二号の四様式第四部
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-19-2-p1-kou-2
     type: kou
-    text: 第二号の七様式により作成された有価証券届出書を提出した場合　第二号の七様式第六部
+    text: 二　第二号の七様式により作成された有価証券届出書を提出した場合　第二号の七様式第六部
     modality: unspecified
     item_number: 2
 cases: []

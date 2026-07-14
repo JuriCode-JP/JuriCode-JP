@@ -39,16 +39,16 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: chihou-zei-hou-art-22-28-p2-kou-1
     type: kou
-    text: 情状が拘禁刑に処すべきものであるとき。
+    text: 一　情状が拘禁刑に処すべきものであるとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-22-28-p2-kou-2
     type: kou
-    text: 犯則者が通告の旨を履行する資力がないとき。
+    text: 二　犯則者が通告の旨を履行する資力がないとき。
     modality: unspecified
     item_number: 2
 - number: 3
@@ -61,8 +61,8 @@ paragraphs:
     text: 地方団体の長は、第一項の規定による通告に計算違い、誤記その他これらに類する明白な誤りがあるときは、犯則者が当該通告の旨を履行し、又は前項若しくは次条の規定により告発するまでの間、職権で、当該通告を更正することができる。
     modality: kanou_kenri
     references:
-    - 次条
     - 前項
+    - 次条
 - number: 4
   has_proviso: false
   has_items: false

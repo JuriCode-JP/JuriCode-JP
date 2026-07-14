@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-30-2-p1-kou-1
     type: kou
-    text: 各部の接続部分
+    text: 一　各部の接続部分
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-30-2-p1-kou-2
     type: kou
-    text: 留出液のたれ口
+    text: 二　留出液のたれ口
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-30-2-p1-kou-3
     type: kou
-    text: 留出液の試験採取口
+    text: 三　留出液の試験採取口
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-30-2-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、蒸留物を取り出すことができる箇所
+    text: 四　前三号に掲げるもののほか、蒸留物を取り出すことができる箇所
     modality: unspecified
     item_number: 4
 cases: []

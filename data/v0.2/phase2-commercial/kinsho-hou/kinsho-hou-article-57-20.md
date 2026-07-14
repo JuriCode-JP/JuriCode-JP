@@ -23,26 +23,26 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-57-20-p1-kou-1
     type: kou
-    text: 役員のうちに第二十九条の四第一項第二号イからリまでのいずれかに該当する者があるとき。
+    text: 一　役員のうちに第二十九条の四第一項第二号イからリまでのいずれかに該当する者があるとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-57-20-p1-kou-2
     type: kou
-    text: その行う事業が公益に反すると認められるとき。
+    text: 二　その行う事業が公益に反すると認められるとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-57-20-p1-kou-3
     type: kou
-    text: 指定親会社の人的構成に照らして、対象特別金融商品取引業者の業務の健全かつ適切な運営を損なうおそれがあるとき。
+    text: 三　指定親会社の人的構成に照らして、対象特別金融商品取引業者の業務の健全かつ適切な運営を損なうおそれがあるとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-57-20-p1-kou-4
     type: kou
-    text: '内国会社である場合においては、株式会社（次に掲げる機関を置くものに限る。）でないとき。
+    text: '四　内国会社である場合においては、株式会社（次に掲げる機関を置くものに限る。）でないとき。
 
-      イ 取締役会
+      イ　取締役会
 
-      ロ 監査役、監査等委員会又は指名委員会等'
+      ロ　監査役、監査等委員会又は指名委員会等'
     modality: unspecified
     item_number: 4
 - number: 2
@@ -56,12 +56,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-57-20-p2-kou-1
     type: kou
-    text: 法令又は法令に基づいてする内閣総理大臣の処分に違反したとき。
+    text: 一　法令又は法令に基づいてする内閣総理大臣の処分に違反したとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-57-20-p2-kou-2
     type: kou
-    text: 業務又は財産の状況に照らし支払不能に陥るおそれがあるとき。
+    text: 二　業務又は財産の状況に照らし支払不能に陥るおそれがあるとき。
     modality: unspecified
     item_number: 2
 - number: 3

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-83-2-p1-kou-1
     type: kou
-    text: 取締役会
+    text: 一　取締役会
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-83-2-p1-kou-2
     type: kou
-    text: 監査役会、監査等委員会又は指名委員会等
+    text: 二　監査役会、監査等委員会又は指名委員会等
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-83-2-p1-kou-3
     type: kou
-    text: 会計監査人
+    text: 三　会計監査人
     modality: unspecified
     item_number: 3
 cases: []

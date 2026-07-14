@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: fueihou-art-13-p1-kou-1
     type: kou
-    text: 都道府県が習俗的行事その他の特別な事情のある日として当該条例で定める日　当該事情のある地域として当該条例で定める地域
+    text: 一　都道府県が習俗的行事その他の特別な事情のある日として当該条例で定める日　当該事情のある地域として当該条例で定める地域
     modality: unspecified
     item_number: 1
   - id: fueihou-art-13-p1-kou-2
     type: kou
-    text: 前号に掲げる日以外の日　午前零時以後において風俗営業を営むことが許容される特別な事情のある地域として政令で定める基準に従い当該条例で定める地域
+    text: 二　前号に掲げる日以外の日　午前零時以後において風俗営業を営むことが許容される特別な事情のある地域として政令で定める基準に従い当該条例で定める地域
     modality: unspecified
     item_number: 2
 - number: 2

@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikoukisoku-art-95-2-p1-kou-1
     type: kou
-    text: 第九十二条の二第一項各号（支払通知書に記載すべき事項の提供に係る電磁的方法）に掲げる方法のうち当該給与等、退職手当等又は公的年金等の支払をする者が使用するもの
+    text: 一　第九十二条の二第一項各号（支払通知書に記載すべき事項の提供に係る電磁的方法）に掲げる方法のうち当該給与等、退職手当等又は公的年金等の支払をする者が使用するもの
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-95-2-p1-kou-2
     type: kou
-    text: 記載情報の受信者ファイルへの記録の方式
+    text: 二　記載情報の受信者ファイルへの記録の方式
     modality: unspecified
     item_number: 2
 - number: 2

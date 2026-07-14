@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: chihou-zei-hou-shikoukisoku-art-8-46-p1-kou-1
     type: kou
-    text: 元売業者、特約業者、石油製品販売業者及び軽油製造業者等の氏名又は名称及び住所又は所在地
+    text: 一　元売業者、特約業者、石油製品販売業者及び軽油製造業者等の氏名又は名称及び住所又は所在地
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-46-p1-kou-2
     type: kou
-    text: 事務所又は事業所の名称及び所在地
+    text: 二　事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-46-p1-kou-3
     type: kou
-    text: 事業の開始若しくは廃止の年月日又は休止期間
+    text: 三　事業の開始若しくは廃止の年月日又は休止期間
     modality: unspecified
     item_number: 3
 - number: 2
@@ -51,12 +51,12 @@ paragraphs:
     - 前条
   - id: chihou-zei-hou-shikoukisoku-art-8-46-p2-kou-1
     type: kou
-    text: 契約の当事者それぞれの氏名又は名称及び住所又は所在地
+    text: 一　契約の当事者それぞれの氏名又は名称及び住所又は所在地
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-46-p2-kou-2
     type: kou
-    text: 契約の締結又は終了の年月日
+    text: 二　契約の締結又は終了の年月日
     modality: unspecified
     item_number: 2
 - number: 3

@@ -34,37 +34,37 @@ paragraphs:
     modality: gimu_negative
   - id: fueihou-art-31-13-p2-kou-1
     type: kou
-    text: 当該営業に関し客引きをすること。
+    text: 一　当該営業に関し客引きをすること。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-31-13-p2-kou-2
     type: kou
-    text: 当該営業に関し客引きをするため、道路その他公共の場所で、人の身辺に立ちふさがり、又はつきまとうこと。
+    text: 二　当該営業に関し客引きをするため、道路その他公共の場所で、人の身辺に立ちふさがり、又はつきまとうこと。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-31-13-p2-kou-3
     type: kou
-    text: 営業所で十八歳未満の者を客に接する業務に従事させること。
+    text: 三　営業所で十八歳未満の者を客に接する業務に従事させること。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-31-13-p2-kou-4
     type: kou
-    text: 十八歳未満の従業者を第二条第九項の規定によりその機会を提供する会話の当事者にすること。
+    text: 四　十八歳未満の従業者を第二条第九項の規定によりその機会を提供する会話の当事者にすること。
     modality: unspecified
     item_number: 4
   - id: fueihou-art-31-13-p2-kou-5
     type: kou
-    text: 十八歳未満の者を営業所に客として立ち入らせること。
+    text: 五　十八歳未満の者を営業所に客として立ち入らせること。
     modality: unspecified
     item_number: 5
   - id: fueihou-art-31-13-p2-kou-6
     type: kou
-    text: 営業所で二十歳未満の者に酒類又はたばこを提供すること。
+    text: 六　営業所で二十歳未満の者に酒類又はたばこを提供すること。
     modality: unspecified
     item_number: 6
   - id: fueihou-art-31-13-p2-kou-7
     type: kou
-    text: 十八歳未満の者からの第二条第九項に規定する会話の申込みを取り次ぐこと。
+    text: 七　十八歳未満の者からの第二条第九項に規定する会話の申込みを取り次ぐこと。
     modality: unspecified
     item_number: 7
 - number: 3

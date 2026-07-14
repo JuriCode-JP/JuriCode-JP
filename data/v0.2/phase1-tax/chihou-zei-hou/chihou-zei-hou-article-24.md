@@ -23,42 +23,42 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-24-p1-kou-1
     type: kou
-    text: 道府県内に住所を有する個人
+    text: 一　道府県内に住所を有する個人
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-24-p1-kou-2
     type: kou
-    text: 道府県内に事務所、事業所又は家屋敷を有する個人で当該事務所、事業所又は家屋敷を有する市町村内に住所を有しない者
+    text: 二　道府県内に事務所、事業所又は家屋敷を有する個人で当該事務所、事業所又は家屋敷を有する市町村内に住所を有しない者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-24-p1-kou-3
     type: kou
-    text: 道府県内に事務所又は事業所を有する法人
+    text: 三　道府県内に事務所又は事業所を有する法人
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-24-p1-kou-4
     type: kou
-    text: 道府県内に寮、宿泊所、クラブその他これらに類する施設（「寮等」という。以下道府県民税について同じ。）を有する法人で当該道府県内に事務所又は事業所を有しないもの
+    text: 四　道府県内に寮、宿泊所、クラブその他これらに類する施設（「寮等」という。以下道府県民税について同じ。）を有する法人で当該道府県内に事務所又は事業所を有しないもの
     modality: unspecified
     item_number: 4
-  - id: chihou-zei-hou-art-24-p1-kou-4
+  - id: chihou-zei-hou-art-24-p1-kou-4-2
     type: kou
-    text: 法人課税信託（法人税法第二条第二十九号の二に規定する法人課税信託をいう。以下この節において同じ。）の引受けを行うことにより法人税を課される個人で道府県内に事務所又は事業所を有するもの
+    text: 四の二　法人課税信託（法人税法第二条第二十九号の二に規定する法人課税信託をいう。以下この節において同じ。）の引受けを行うことにより法人税を課される個人で道府県内に事務所又は事業所を有するもの
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-24-p1-kou-5
     type: kou
-    text: 利子等の支払又はその取扱いをする者の営業所等で道府県内に所在するものを通じて利子等の支払を受ける個人
+    text: 五　利子等の支払又はその取扱いをする者の営業所等で道府県内に所在するものを通じて利子等の支払を受ける個人
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-24-p1-kou-6
     type: kou
-    text: 特定配当等の支払を受ける個人で当該特定配当等の支払を受けるべき日現在において道府県内に住所を有するもの
+    text: 六　特定配当等の支払を受ける個人で当該特定配当等の支払を受けるべき日現在において道府県内に住所を有するもの
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-art-24-p1-kou-7
     type: kou
-    text: 特定株式等譲渡対価等の支払を受ける個人で当該特定株式等譲渡対価等の支払を受けるべき日の属する年の一月一日現在において道府県内に住所を有するもの
+    text: 七　特定株式等譲渡対価等の支払を受ける個人で当該特定株式等譲渡対価等の支払を受けるべき日の属する年の一月一日現在において道府県内に住所を有するもの
     modality: unspecified
     item_number: 7
 - number: 2

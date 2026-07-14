@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-166-p1-kou-1
     type: kou
-    text: 預託を受けた年月日
+    text: 一　預託を受けた年月日
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-166-p1-kou-2
     type: kou
-    text: 預託先の氏名又は名称
+    text: 二　預託先の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-166-p1-kou-3
     type: kou
-    text: 銘柄、数量、券面額、記号、番号その他の当該証券若しくは証書、電子記録移転権利又は権利を特定するために必要な事項
+    text: 三　銘柄、数量、券面額、記号、番号その他の当該証券若しくは証書、電子記録移転権利又は権利を特定するために必要な事項
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-166-p1-kou-4
     type: kou
-    text: 記名式であるときは、名義人の氏名又は名称
+    text: 四　記名式であるときは、名義人の氏名又は名称
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-166-p1-kou-5
     type: kou
-    text: 保管方法
+    text: 五　保管方法
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-166-p1-kou-6
     type: kou
-    text: 引出年月日
+    text: 六　引出年月日
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-166-p1-kou-7
     type: kou
-    text: 引出事由
+    text: 七　引出事由
     modality: unspecified
     item_number: 7
 - number: 2
@@ -69,17 +69,17 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-166-p2-kou-1
     type: kou
-    text: 顧客ごとに作成すること。
+    text: 一　顧客ごとに作成すること。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-166-p2-kou-2
     type: kou
-    text: 引出事由には、顧客からの返還請求、売却依頼及び保証金代用有価証券への振替え指示その他の引出しの事由を具体的に判別できるよう記載すること。
+    text: 二　引出事由には、顧客からの返還請求、売却依頼及び保証金代用有価証券への振替え指示その他の引出しの事由を具体的に判別できるよう記載すること。
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-166-p2-kou-3
     type: kou
-    text: 混合寄託に係る有価証券の売付け又は買付けについては、券面額、記号、番号及び名義人以外の事項について記載することとし、混合寄託である旨を明確に表示しなければならない。
+    text: 三　混合寄託に係る有価証券の売付け又は買付けについては、券面額、記号、番号及び名義人以外の事項について記載することとし、混合寄託である旨を明確に表示しなければならない。
     modality: gimu
     item_number: 3
 cases: []

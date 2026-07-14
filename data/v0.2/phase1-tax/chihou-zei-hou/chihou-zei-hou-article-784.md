@@ -59,12 +59,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-784-p5-kou-1
     type: kou
-    text: 第七百六十九条第一項第二号から第四号までに掲げる事項
+    text: 一　第七百六十九条第一項第二号から第四号までに掲げる事項
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-784-p5-kou-2
     type: kou
-    text: その他定款で定める事項
+    text: 二　その他定款で定める事項
     modality: unspecified
     item_number: 2
 - number: 6
@@ -77,8 +77,8 @@ paragraphs:
     text: 理事長は、前項第一号に掲げる事項について代表者会議の議決を求めるときは、運営審議会が当該事項について同項の規定により述べた意見を報告しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

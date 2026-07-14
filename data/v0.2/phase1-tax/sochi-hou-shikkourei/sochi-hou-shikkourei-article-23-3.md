@@ -34,12 +34,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-23-3-p2-kou-1
     type: kou
-    text: 都市計画法第七条第一項の市街化区域と定められた区域
+    text: 一　都市計画法第七条第一項の市街化区域と定められた区域
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-23-3-p2-kou-2
     type: kou
-    text: 都市計画法第七条第一項に規定する区域区分に関する同法第四条第一項に規定する都市計画が定められていない同条第二項に規定する都市計画区域のうち、同法第八条第一項第一号に規定する用途地域が定められている区域
+    text: 二　都市計画法第七条第一項に規定する区域区分に関する同法第四条第一項に規定する都市計画が定められていない同条第二項に規定する都市計画区域のうち、同法第八条第一項第一号に規定する用途地域が定められている区域
     modality: unspecified
     item_number: 2
 cases: []

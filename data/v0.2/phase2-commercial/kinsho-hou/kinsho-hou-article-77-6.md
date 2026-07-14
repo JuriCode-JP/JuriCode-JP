@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-77-6-p1-kou-1
     type: kou
-    text: 定款に定める事由の発生
+    text: 一　定款に定める事由の発生
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-77-6-p1-kou-2
     type: kou
-    text: 総会の決議
+    text: 二　総会の決議
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-77-6-p1-kou-3
     type: kou
-    text: 協会員の数が五以下となつたこと。
+    text: 三　協会員の数が五以下となつたこと。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-77-6-p1-kou-4
     type: kou
-    text: 破産手続開始の決定
+    text: 四　破産手続開始の決定
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-77-6-p1-kou-5
     type: kou
-    text: 認可協会の設立の認可の取消し
+    text: 五　認可協会の設立の認可の取消し
     modality: unspecified
     item_number: 5
 - number: 2

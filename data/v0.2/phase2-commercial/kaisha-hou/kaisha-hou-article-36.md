@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定による通知は、同項に規定する期日の二週間前までにしなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

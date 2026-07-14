@@ -23,12 +23,12 @@ paragraphs:
     modality: koka_mukou
   - id: minpou-art-802-p1-kou-1
     type: kou
-    text: 人違いその他の事由によって当事者間に縁組をする意思がないとき。
+    text: 一　人違いその他の事由によって当事者間に縁組をする意思がないとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-802-p1-kou-2
     type: kou
-    text: 当事者が縁組の届出をしないとき。ただし、その届出が第七百九十九条において準用する第七百三十九条第二項に定める方式を欠くだけであるときは、縁組は、そのためにその効力を妨げられない。
+    text: 二　当事者が縁組の届出をしないとき。ただし、その届出が第七百九十九条において準用する第七百三十九条第二項に定める方式を欠くだけであるときは、縁組は、そのためにその効力を妨げられない。
     modality: unspecified
     item_number: 2
 cases: []

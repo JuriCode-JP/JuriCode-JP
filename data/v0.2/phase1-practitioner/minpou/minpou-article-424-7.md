@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: minpou-art-424-7-p1-kou-1
     type: kou
-    text: 受益者に対する詐害行為取消請求に係る訴え　受益者
+    text: 一　受益者に対する詐害行為取消請求に係る訴え　受益者
     modality: unspecified
     item_number: 1
   - id: minpou-art-424-7-p1-kou-2
     type: kou
-    text: 転得者に対する詐害行為取消請求に係る訴え　その詐害行為取消請求の相手方である転得者
+    text: 二　転得者に対する詐害行為取消請求に係る訴え　その詐害行為取消請求の相手方である転得者
     modality: unspecified
     item_number: 2
 - number: 2

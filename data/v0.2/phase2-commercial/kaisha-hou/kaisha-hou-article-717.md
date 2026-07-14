@@ -44,12 +44,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-717-p3-kou-1
     type: kou
-    text: 次条第一項の規定による請求があった場合
+    text: 一　次条第一項の規定による請求があった場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-717-p3-kou-2
     type: kou
-    text: 第七百十四条の七において準用する第七百十一条第一項の社債権者集会の同意を得るため必要がある場合
+    text: 二　第七百十四条の七において準用する第七百十一条第一項の社債権者集会の同意を得るため必要がある場合
     modality: unspecified
     item_number: 2
 cases: []

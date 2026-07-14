@@ -36,12 +36,12 @@ paragraphs:
     - 前項
   - id: souzoku-zei-hou-shikoukisoku-art-12-5-p2-kou-1
     type: kou
-    text: 有期定期金　定期金給付契約に関する権利を取得した時における当該契約に基づき定期金の給付を受けるべき残りの期間に係る年数（一年未満の端数があるときは、これを切り上げた年数）
+    text: 一　有期定期金　定期金給付契約に関する権利を取得した時における当該契約に基づき定期金の給付を受けるべき残りの期間に係る年数（一年未満の端数があるときは、これを切り上げた年数）
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-12-5-p2-kou-2
     type: kou
-    text: 終身定期金　定期金給付契約に関する権利を取得した時におけるその目的とされた者に係る施行令第五条の八に規定する余命年数
+    text: 二　終身定期金　定期金給付契約に関する権利を取得した時におけるその目的とされた者に係る施行令第五条の八に規定する余命年数
     modality: unspecified
     item_number: 2
 cases: []

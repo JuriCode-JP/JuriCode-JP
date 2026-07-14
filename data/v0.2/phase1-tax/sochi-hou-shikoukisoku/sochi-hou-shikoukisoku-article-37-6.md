@@ -23,23 +23,23 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-6-p1-kou-1
     type: kou
-    text: 当該申請に係るバイオエタノール等の貯蔵場所の所在地及び名称
+    text: 一　当該申請に係るバイオエタノール等の貯蔵場所の所在地及び名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-6-p1-kou-2
     type: kou
-    text: '次に掲げる場合の区分に応じ、それぞれ次に定める事項
+    text: '二　次に掲げる場合の区分に応じ、それぞれ次に定める事項
 
-      イ 当該申請に係るバイオエタノール等が申請者が製造したものである場合　その旨
+      イ　当該申請に係るバイオエタノール等が申請者が製造したものである場合　その旨
 
-      ロ 当該申請に係るバイオエタノール等が申請者が輸入したものである場合　その輸出者の住所及び氏名又は名称並びに積込地及び陸揚地
+      ロ　当該申請に係るバイオエタノール等が申請者が輸入したものである場合　その輸出者の住所及び氏名又は名称並びに積込地及び陸揚地
 
-      ハ 当該申請に係るバイオエタノール等が移入したものである場合　その引渡人の住所及び氏名又は名称並びに移入先の所在地及び名称'
+      ハ　当該申請に係るバイオエタノール等が移入したものである場合　その引渡人の住所及び氏名又は名称並びに移入先の所在地及び名称'
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-6-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 2
@@ -75,31 +75,31 @@ paragraphs:
     modality: unspecified
   - id: sochi-hou-shikoukisoku-art-37-6-p4-kou-1
     type: kou
-    text: 証明の年月日
+    text: 一　証明の年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-6-p4-kou-2
     type: kou
-    text: 証明の番号
+    text: 二　証明の番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-6-p4-kou-3
     type: kou
-    text: 証明を受ける者の住所及び氏名又は名称
+    text: 三　証明を受ける者の住所及び氏名又は名称
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-6-p4-kou-4
     type: kou
-    text: バイオエタノール等の貯蔵場所の所在地及び名称並びにバイオエタノール等揮発油の製造場の所在地及び名称
+    text: 四　バイオエタノール等の貯蔵場所の所在地及び名称並びにバイオエタノール等揮発油の製造場の所在地及び名称
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-37-6-p4-kou-5
     type: kou
-    text: '次に掲げる場合の区分に応じ、それぞれ次に定める事項
+    text: '五　次に掲げる場合の区分に応じ、それぞれ次に定める事項
 
-      イ バイオエタノール又はカーボンリサイクルエタノール（それぞれ法第八十八条の七第一項第一号又は第二号に規定するバイオエタノール又はカーボンリサイクルエタノールをいう。イにおいて同じ。）について証明する場合　当該バイオエタノール又は当該カーボンリサイクルエタノールの規格及び数量
+      イ　バイオエタノール又はカーボンリサイクルエタノール（それぞれ法第八十八条の七第一項第一号又は第二号に規定するバイオエタノール又はカーボンリサイクルエタノールをいう。イにおいて同じ。）について証明する場合　当該バイオエタノール又は当該カーボンリサイクルエタノールの規格及び数量
 
-      ロ エチル―ターシャリ―ブチルエーテル（法第八十八条の七第一項第三号に規定するエチル―ターシャリ―ブチルエーテルをいう。ロにおいて同じ。）について証明する場合　当該エチル―ターシャリ―ブチルエーテルとその他の物との混合物の数量並びに当該混合物に占めるエチル―ターシャリ―ブチルエーテルの割合及び数量'
+      ロ　エチル―ターシャリ―ブチルエーテル（法第八十八条の七第一項第三号に規定するエチル―ターシャリ―ブチルエーテルをいう。ロにおいて同じ。）について証明する場合　当該エチル―ターシャリ―ブチルエーテルとその他の物との混合物の数量並びに当該混合物に占めるエチル―ターシャリ―ブチルエーテルの割合及び数量'
     modality: unspecified
     item_number: 5
 - number: 5
@@ -113,27 +113,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-6-p5-kou-1
     type: kou
-    text: 譲渡者の住所及び氏名又は名称
+    text: 一　譲渡者の住所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-6-p5-kou-2
     type: kou
-    text: 譲渡の年月日
+    text: 二　譲渡の年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-6-p5-kou-3
     type: kou
-    text: 譲渡する証明済バイオエタノール等（法第八十八条の七第一項に規定する証明済バイオエタノール等をいう。以下この項において同じ。）の種類、規格及び数量並びに当該証明済バイオエタノール等の証明事項の異なるごとの数量
+    text: 三　譲渡する証明済バイオエタノール等（法第八十八条の七第一項に規定する証明済バイオエタノール等をいう。以下この項において同じ。）の種類、規格及び数量並びに当該証明済バイオエタノール等の証明事項の異なるごとの数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-6-p5-kou-4
     type: kou
-    text: 譲受人の住所及び氏名又は名称
+    text: 四　譲受人の住所及び氏名又は名称
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-37-6-p5-kou-5
     type: kou
-    text: 譲受人が証明済バイオエタノール等を移入する場所の所在地及び名称
+    text: 五　譲受人が証明済バイオエタノール等を移入する場所の所在地及び名称
     modality: unspecified
     item_number: 5
 - number: 6
@@ -147,32 +147,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-6-p6-kou-1
     type: kou
-    text: 移出者の住所及び氏名又は名称
+    text: 一　移出者の住所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-6-p6-kou-2
     type: kou
-    text: 移出の年月日
+    text: 二　移出の年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-6-p6-kou-3
     type: kou
-    text: 移出する製造場の所在地及び名称
+    text: 三　移出する製造場の所在地及び名称
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-6-p6-kou-4
     type: kou
-    text: 移出する揮発油の規格及び数量
+    text: 四　移出する揮発油の規格及び数量
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-37-6-p6-kou-5
     type: kou
-    text: 移出先に移入する者の住所及び氏名又は名称
+    text: 五　移出先に移入する者の住所及び氏名又は名称
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-37-6-p6-kou-6
     type: kou
-    text: 移出先の所在地及び名称
+    text: 六　移出先の所在地及び名称
     modality: unspecified
     item_number: 6
 cases: []

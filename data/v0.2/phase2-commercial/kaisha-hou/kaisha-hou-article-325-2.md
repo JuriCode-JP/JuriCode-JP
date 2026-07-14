@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-325-2-p1-kou-1
     type: kou
-    text: 株主総会参考書類
+    text: 一　株主総会参考書類
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-325-2-p1-kou-2
     type: kou
-    text: 議決権行使書面
+    text: 二　議決権行使書面
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-325-2-p1-kou-3
     type: kou
-    text: 第四百三十七条の計算書類及び事業報告
+    text: 三　第四百三十七条の計算書類及び事業報告
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-325-2-p1-kou-4
     type: kou
-    text: 第四百四十四条第六項の連結計算書類
+    text: 四　第四百四十四条第六項の連結計算書類
     modality: unspecified
     item_number: 4
 cases: []

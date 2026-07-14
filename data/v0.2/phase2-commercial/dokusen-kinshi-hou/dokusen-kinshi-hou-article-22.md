@@ -23,22 +23,22 @@ paragraphs:
     modality: jogai
   - id: dokusen-kinshi-hou-art-22-p1-kou-1
     type: kou
-    text: 小規模の事業者又は消費者の相互扶助を目的とすること。
+    text: 一　小規模の事業者又は消費者の相互扶助を目的とすること。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-22-p1-kou-2
     type: kou
-    text: 任意に設立され、かつ、組合員が任意に加入し、又は脱退することができること。
+    text: 二　任意に設立され、かつ、組合員が任意に加入し、又は脱退することができること。
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-22-p1-kou-3
     type: kou
-    text: 各組合員が平等の議決権を有すること。
+    text: 三　各組合員が平等の議決権を有すること。
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-22-p1-kou-4
     type: kou
-    text: 組合員に対して利益分配を行う場合には、その限度が法令又は定款に定められていること。
+    text: 四　組合員に対して利益分配を行う場合には、その限度が法令又は定款に定められていること。
     modality: unspecified
     item_number: 4
 cases: []

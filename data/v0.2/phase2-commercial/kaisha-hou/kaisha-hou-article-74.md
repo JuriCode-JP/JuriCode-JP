@@ -95,12 +95,12 @@ paragraphs:
     - 次条
   - id: kaisha-hou-art-74-p7-kou-1
     type: kou
-    text: 代理権を証明する書面の閲覧又は謄写の請求
+    text: 一　代理権を証明する書面の閲覧又は謄写の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-74-p7-kou-2
     type: kou
-    text: 前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    text: 二　前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
     modality: unspecified
     item_number: 2
 cases: []

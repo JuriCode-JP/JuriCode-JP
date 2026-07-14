@@ -25,17 +25,17 @@ paragraphs:
     - 次条
   - id: kojin-jouhou-hogo-hou-art-47-p1-kou-1
     type: kou
-    text: 業務の対象となる個人情報取扱事業者等（以下この節において「対象事業者」という。）の個人情報等の取扱いに関する第五十三条の規定による苦情の処理
+    text: 一　業務の対象となる個人情報取扱事業者等（以下この節において「対象事業者」という。）の個人情報等の取扱いに関する第五十三条の規定による苦情の処理
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-47-p1-kou-2
     type: kou
-    text: 個人情報等の適正な取扱いの確保に寄与する事項についての対象事業者に対する情報の提供
+    text: 二　個人情報等の適正な取扱いの確保に寄与する事項についての対象事業者に対する情報の提供
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-47-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、対象事業者の個人情報等の適正な取扱いの確保に関し必要な業務
+    text: 三　前二号に掲げるもののほか、対象事業者の個人情報等の適正な取扱いの確保に関し必要な業務
     modality: unspecified
     item_number: 3
 - number: 2

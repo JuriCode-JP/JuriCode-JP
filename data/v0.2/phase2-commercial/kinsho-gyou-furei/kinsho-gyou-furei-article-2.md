@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の場合において、金融庁長官等は、公益又は投資者保護のため必要かつ適当であると認めるときは、同項の規定の適用を受ける者に対し、当該規定の適用がある書類の全部又は一部について、その概要の訳文を付すことを求めることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false

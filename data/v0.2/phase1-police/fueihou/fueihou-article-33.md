@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-33-p1-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: fueihou-art-33-p1-kou-2
     type: kou
-    text: 営業所の名称及び所在地
+    text: 二　営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: fueihou-art-33-p1-kou-3
     type: kou
-    text: 営業所の構造及び設備の概要
+    text: 三　営業所の構造及び設備の概要
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項の届出書を提出した者は、当該営業を廃止したとき、又は同項各号（同項第二号に掲げる事項にあつては、営業所の名称に限る。）に掲げる事項に変更（内閣府令で定める軽微な変更を除く。）があつたときは、公安委員会に、廃止又は変更に係る事項その他の内閣府令で定める事項を記載した届出書を提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

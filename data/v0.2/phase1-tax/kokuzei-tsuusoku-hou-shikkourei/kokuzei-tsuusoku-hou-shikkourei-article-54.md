@@ -38,8 +38,8 @@ paragraphs:
     text: 前項の書面には、法第百五十七条第一項に規定する理由及び納付すべき旨のほか、通告を受けるべき者の氏名及び住所又は居所、犯則についての詳細な事実並びに同項の規定により納付すべき期間及び場所を記載しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

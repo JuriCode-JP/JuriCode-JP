@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-9-3-p1-kou-1
     type: kou
-    text: 申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-9-3-p1-kou-2
     type: kou
-    text: その採用しようとする償却の方法が令第五十九条第一項第一号又は第二号（事業年度の中途で事業の用に供した減価償却資産の償却限度額の特例）に掲げる償却の方法のいずれに類するかの別
+    text: 二　その採用しようとする償却の方法が令第五十九条第一項第一号又は第二号（事業年度の中途で事業の用に供した減価償却資産の償却限度額の特例）に掲げる償却の方法のいずれに類するかの別
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-9-3-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

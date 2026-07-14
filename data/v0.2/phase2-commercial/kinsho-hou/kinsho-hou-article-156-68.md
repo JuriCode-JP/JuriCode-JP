@@ -25,27 +25,27 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-156-68-p1-kou-1
     type: kou
-    text: 商号又は名称
+    text: 一　商号又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-68-p1-kou-2
     type: kou
-    text: 主たる営業所又は事務所その他取引情報蓄積業務を行う営業所又は事務所の名称及び所在地
+    text: 二　主たる営業所又は事務所その他取引情報蓄積業務を行う営業所又は事務所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-68-p1-kou-3
     type: kou
-    text: 役員の氏名又は商号若しくは名称
+    text: 三　役員の氏名又は商号若しくは名称
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-68-p1-kou-4
     type: kou
-    text: 取引情報蓄積業務の対象とする取引
+    text: 四　取引情報蓄積業務の対象とする取引
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-68-p1-kou-5
     type: kou
-    text: 取引情報蓄積業務及び取引情報蓄積業務に付随する業務以外の業務を行うときは、その業務の内容
+    text: 五　取引情報蓄積業務及び取引情報蓄積業務に付随する業務以外の業務を行うときは、その業務の内容
     modality: unspecified
     item_number: 5
 - number: 2
@@ -61,32 +61,32 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-156-68-p2-kou-1
     type: kou
-    text: 前条第一項第三号及び第四号に掲げる要件に該当することを誓約する書面
+    text: 一　前条第一項第三号及び第四号に掲げる要件に該当することを誓約する書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-68-p2-kou-2
     type: kou
-    text: 定款及び法人の登記事項証明書（これらに準ずるものを含む。）
+    text: 二　定款及び法人の登記事項証明書（これらに準ずるものを含む。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-68-p2-kou-3
     type: kou
-    text: 業務規程
+    text: 三　業務規程
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-68-p2-kou-4
     type: kou
-    text: 財産目録、貸借対照表及び損益計算書又は収支計算書並びに事業報告書
+    text: 四　財産目録、貸借対照表及び損益計算書又は収支計算書並びに事業報告書
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-68-p2-kou-5
     type: kou
-    text: 収支の見込みを記載した書類
+    text: 五　収支の見込みを記載した書類
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-156-68-p2-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、内閣府令で定める書類
+    text: 六　前各号に掲げるもののほか、内閣府令で定める書類
     modality: unspecified
     item_number: 6
 - number: 3

@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: minpou-art-765-p1-kou-1
     type: kou
-    text: 親権者の定めがされていること。
+    text: 一　親権者の定めがされていること。
     modality: unspecified
     item_number: 1
   - id: minpou-art-765-p1-kou-2
     type: kou
-    text: 親権者の指定を求める家事審判又は家事調停の申立てがされていること。
+    text: 二　親権者の指定を求める家事審判又は家事調停の申立てがされていること。
     modality: unspecified
     item_number: 2
 - number: 2

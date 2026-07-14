@@ -25,27 +25,27 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-39-24-3-p1-kou-1
     type: kou
-    text: 譲渡又は除却をしたこと。
+    text: 一　譲渡又は除却をしたこと。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-24-3-p1-kou-2
     type: kou
-    text: 適格分割型分割により分割承継法人へ移転をしたこと。
+    text: 二　適格分割型分割により分割承継法人へ移転をしたこと。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-39-24-3-p1-kou-3
     type: kou
-    text: その帳簿に記載された金額が一円となり、又はその帳簿に記載されなくなつたこと。
+    text: 三　その帳簿に記載された金額が一円となり、又はその帳簿に記載されなくなつたこと。
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-39-24-3-p1-kou-4
     type: kou
-    text: 法人税法第二十五条第三項に規定する資産に該当し、当該資産の同項に規定する評価益の額として政令で定める金額が益金の額に算入されたこと。
+    text: 四　法人税法第二十五条第三項に規定する資産に該当し、当該資産の同項に規定する評価益の額として政令で定める金額が益金の額に算入されたこと。
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-39-24-3-p1-kou-5
     type: kou
-    text: 法人税法第三十三条第二項に規定する評価換えによりその帳簿価額を減額され、当該資産の同項に規定する差額に達するまでの金額が損金の額に算入されたこと又は同条第四項に規定する資産に該当し、当該資産の同項に規定する評価損の額として政令で定める金額が損金の額に算入されたこと。
+    text: 五　法人税法第三十三条第二項に規定する評価換えによりその帳簿価額を減額され、当該資産の同項に規定する差額に達するまでの金額が損金の額に算入されたこと又は同条第四項に規定する資産に該当し、当該資産の同項に規定する評価損の額として政令で定める金額が損金の額に算入されたこと。
     modality: unspecified
     item_number: 5
 - number: 2

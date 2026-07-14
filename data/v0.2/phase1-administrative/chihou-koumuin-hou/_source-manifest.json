@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\325AC0000000261.xml",
   "source_xml_sha256": "795cbca7671007d9adfa5125fc8601b8d4cac1b4bd129a791af34b00caa58efd",
   "source_xml_bytes": 474070,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:57:41+00:00",
+  "parsed_at": "2026-07-14T01:43:39+00:00",
   "version_date": "1950-12-13",
   "article_count": 106,
   "articles": [
@@ -714,8 +714,8 @@
       "article_id": "chihou-koumuin-hou-art-55",
       "article_number": "55",
       "filename": "chihou-koumuin-hou-article-55.md",
-      "ja_text_sha256": "4930a7630637ba5e844f437f312b1b3a12fdebb2c16db9bfc6129d2c83668eec",
-      "ja_text_bytes": 2687,
+      "ja_text_sha256": "f256aff054e3c353eb1010664787de2362e5ab49b873220f223eb0eb9a5f3566",
+      "ja_text_bytes": 2681,
       "paragraph_count": 11
     },
     {
@@ -794,8 +794,8 @@
       "article_id": "chihou-koumuin-hou-art-62",
       "article_number": "62",
       "filename": "chihou-koumuin-hou-article-62.md",
-      "ja_text_sha256": "409d81588818c30dbfe2296de06b3033113f8514316eaf9322a7bda045de2933",
-      "ja_text_bytes": 258,
+      "ja_text_sha256": "af0a107356135d701fb502e789268451932bfb049819ee61a29a632f0ba5e73e",
+      "ja_text_bytes": 252,
       "paragraph_count": 1
     },
     {

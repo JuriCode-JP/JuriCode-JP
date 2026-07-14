@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-165-2-p1-kou-1
     type: kou
-    text: 高度管理医療機器等の販売業者等の氏名又は名称及び住所
+    text: 一　高度管理医療機器等の販売業者等の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-165-2-p1-kou-2
     type: kou
-    text: 電話番号その他連絡先
+    text: 二　電話番号その他連絡先
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-165-2-p1-kou-3
     type: kou
-    text: その他必要な事項
+    text: 三　その他必要な事項
     modality: unspecified
     item_number: 3
 cases: []

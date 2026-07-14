@@ -23,22 +23,22 @@ paragraphs:
     modality: jogai
   - id: chihou-jichi-hou-art-180-6-p1-kou-1
     type: kou
-    text: 普通地方公共団体の予算を調製し、及びこれを執行すること。
+    text: 一　普通地方公共団体の予算を調製し、及びこれを執行すること。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-180-6-p1-kou-2
     type: kou
-    text: 普通地方公共団体の議会の議決を経べき事件につきその議案を提出すること。
+    text: 二　普通地方公共団体の議会の議決を経べき事件につきその議案を提出すること。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-180-6-p1-kou-3
     type: kou
-    text: 地方税を賦課徴収し、分担金若しくは加入金を徴収し、又は過料を科すること。
+    text: 三　地方税を賦課徴収し、分担金若しくは加入金を徴収し、又は過料を科すること。
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-180-6-p1-kou-4
     type: kou
-    text: 普通地方公共団体の決算を議会の認定に付すること。
+    text: 四　普通地方公共団体の決算を議会の認定に付すること。
     modality: unspecified
     item_number: 4
 cases: []

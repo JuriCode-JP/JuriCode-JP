@@ -40,8 +40,8 @@ paragraphs:
     text: 取締役は、前項の者に対し、同項の株主総会を招集する旨及び第二百九十八条第一項第一号に掲げる事項を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

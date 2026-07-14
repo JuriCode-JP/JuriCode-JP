@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-74-7-p1-kou-1
     type: kou
-    text: 法第百九十五条の四第一項の規定による申告書を提出する者（次号において「申告者」という。）の氏名及び住所
+    text: 一　法第百九十五条の四第一項の規定による申告書を提出する者（次号において「申告者」という。）の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-74-7-p1-kou-2
     type: kou
-    text: 申告者の合計所得金額の見積額に応じ、法第八十六条（基礎控除）の規定に準じて計算した基礎控除の額に相当する金額及びその計算の基礎
+    text: 二　申告者の合計所得金額の見積額に応じ、法第八十六条（基礎控除）の規定に準じて計算した基礎控除の額に相当する金額及びその計算の基礎
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-74-7-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 2

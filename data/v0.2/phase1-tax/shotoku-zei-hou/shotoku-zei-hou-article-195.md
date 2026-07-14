@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: shotoku-zei-hou-art-195-p1-kou-1
     type: kou
-    text: 当該従たる給与等の支払者の氏名又は名称
+    text: 一　当該従たる給与等の支払者の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-195-p1-kou-2
     type: kou
-    text: 源泉控除対象配偶者又は源泉控除対象親族の氏名及び個人番号（個人番号を有しない者にあつては、氏名）
+    text: 二　源泉控除対象配偶者又は源泉控除対象親族の氏名及び個人番号（個人番号を有しない者にあつては、氏名）
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-195-p1-kou-3
     type: kou
-    text: 源泉控除対象配偶者又は源泉控除対象親族のうち、当該従たる給与等の支払者から支払を受ける給与等について第百八十三条第一項（源泉徴収義務）の規定により徴収される所得税の額の計算の基礎としようとするものの氏名
+    text: 三　源泉控除対象配偶者又は源泉控除対象親族のうち、当該従たる給与等の支払者から支払を受ける給与等について第百八十三条第一項（源泉徴収義務）の規定により徴収される所得税の額の計算の基礎としようとするものの氏名
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-art-195-p1-kou-4
     type: kou
-    text: 前号に規定する源泉控除対象配偶者が非居住者である場合にはその旨並びに同号に規定する源泉控除対象親族が非居住者である親族である場合にはその旨及び源泉控除対象親族に該当する事実
+    text: 四　前号に規定する源泉控除対象配偶者が非居住者である場合にはその旨並びに同号に規定する源泉控除対象親族が非居住者である親族である場合にはその旨及び源泉控除対象親族に該当する事実
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-art-195-p1-kou-5
     type: kou
-    text: その他財務省令で定める事項
+    text: 五　その他財務省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -56,9 +56,9 @@ paragraphs:
     text: 前項の規定による申告書を同項の給与等の支払者を経由して提出する場合において、当該申告書に記載すべき事項がその年の前年において当該支払者を経由して提出した同項の規定による申告書（その者が当該前年の中途において次項の規定による申告書を当該支払者を経由して提出した場合には、当該前年の最後に提出した同項の規定による申告書）に記載した事項と異動がないときは、居住者は、前項の規定により記載すべき事項に代えて当該異動がない旨を記載した同項の規定による申告書を提出することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -80,9 +80,9 @@ paragraphs:
     text: 前項に定めるもののほか、第一項の規定による申告書を提出した居住者が、その年において提出した給与所得者の扶養控除等申告書に記載した前条第一項第六号に規定する源泉控除対象配偶者又は源泉控除対象親族を第一項第三号に規定する源泉控除対象配偶者又は源泉控除対象親族として同項の規定による申告書に追加して記載する必要が生じた場合の申告その他同項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

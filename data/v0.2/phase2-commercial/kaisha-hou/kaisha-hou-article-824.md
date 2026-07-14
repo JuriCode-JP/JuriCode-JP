@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-824-p1-kou-1
     type: kou
-    text: 会社の設立が不法な目的に基づいてされたとき。
+    text: 一　会社の設立が不法な目的に基づいてされたとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-824-p1-kou-2
     type: kou
-    text: 会社が正当な理由がないのにその成立の日から一年以内にその事業を開始せず、又は引き続き一年以上その事業を休止したとき。
+    text: 二　会社が正当な理由がないのにその成立の日から一年以内にその事業を開始せず、又は引き続き一年以上その事業を休止したとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-824-p1-kou-3
     type: kou
-    text: 業務執行取締役、執行役又は業務を執行する社員が、法令若しくは定款で定める会社の権限を逸脱し若しくは濫用する行為又は刑罰法令に触れる行為をした場合において、法務大臣から書面による警告を受けたにもかかわらず、なお継続的に又は反覆して当該行為をしたとき。
+    text: 三　業務執行取締役、執行役又は業務を執行する社員が、法令若しくは定款で定める会社の権限を逸脱し若しくは濫用する行為又は刑罰法令に触れる行為をした場合において、法務大臣から書面による警告を受けたにもかかわらず、なお継続的に又は反覆して当該行為をしたとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 株主、社員、債権者その他の利害関係人が前項の申立てをしたときは、裁判所は、会社の申立てにより、同項の申立てをした者に対し、相当の担保を立てるべきことを命ずることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

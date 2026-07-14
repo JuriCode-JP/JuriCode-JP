@@ -34,37 +34,37 @@ paragraphs:
     - 前項
   - id: chihou-jichi-hou-art-170-p2-kou-1
     type: kou
-    text: 現金（現金に代えて納付される証券及び基金に属する現金を含む。）の出納及び保管を行うこと。
+    text: 一　現金（現金に代えて納付される証券及び基金に属する現金を含む。）の出納及び保管を行うこと。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-170-p2-kou-2
     type: kou
-    text: 小切手を振り出すこと。
+    text: 二　小切手を振り出すこと。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-170-p2-kou-3
     type: kou
-    text: 有価証券（公有財産又は基金に属するものを含む。）の出納及び保管を行うこと。
+    text: 三　有価証券（公有財産又は基金に属するものを含む。）の出納及び保管を行うこと。
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-170-p2-kou-4
     type: kou
-    text: 物品（基金に属する動産を含む。）の出納及び保管（使用中の物品に係る保管を除く。）を行うこと。
+    text: 四　物品（基金に属する動産を含む。）の出納及び保管（使用中の物品に係る保管を除く。）を行うこと。
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-170-p2-kou-5
     type: kou
-    text: 現金及び財産の記録管理を行うこと。
+    text: 五　現金及び財産の記録管理を行うこと。
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-170-p2-kou-6
     type: kou
-    text: 支出負担行為に関する確認を行うこと。
+    text: 六　支出負担行為に関する確認を行うこと。
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-170-p2-kou-7
     type: kou
-    text: 決算を調製し、これを普通地方公共団体の長に提出すること。
+    text: 七　決算を調製し、これを普通地方公共団体の長に提出すること。
     modality: unspecified
     item_number: 7
 - number: 3

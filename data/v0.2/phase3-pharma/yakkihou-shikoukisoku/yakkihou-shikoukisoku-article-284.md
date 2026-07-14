@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定により同項の表の下欄に掲げる書類に代えて電磁的記録媒体等が提出される場合においては、当該電磁的記録媒体等は当該書類とみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

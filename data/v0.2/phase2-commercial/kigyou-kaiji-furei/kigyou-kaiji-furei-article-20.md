@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-20-p1-kou-1
     type: kou
-    text: 資本金の額、基金の総額又は出資の総額（会社（指定法人を含む。）の成立前に提出しようとするときは、成立後の資本金の額、基金の総額又は出資の総額）が五十億円未満の会社（指定法人を含む。）
+    text: 一　資本金の額、基金の総額又は出資の総額（会社（指定法人を含む。）の成立前に提出しようとするときは、成立後の資本金の額、基金の総額又は出資の総額）が五十億円未満の会社（指定法人を含む。）
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-20-p1-kou-2
     type: kou
-    text: その発行する有価証券で金融商品取引所に上場されているものがない会社（指定法人を含む。）
+    text: 二　その発行する有価証券で金融商品取引所に上場されているものがない会社（指定法人を含む。）
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項に規定する書類を提出する場合において、その提出会社が同項に規定する会社以外の会社であるときは、関東財務局長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

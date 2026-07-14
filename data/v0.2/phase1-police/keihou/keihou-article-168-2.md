@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu_kei
   - id: keihou-art-168-2-p1-kou-1
     type: kou
-    text: 人が電子計算機を使用するに際してその意図に沿うべき動作をさせず、又はその意図に反する動作をさせるべき不正な指令を与える電磁的記録
+    text: 一　人が電子計算機を使用するに際してその意図に沿うべき動作をさせず、又はその意図に反する動作をさせるべき不正な指令を与える電磁的記録
     modality: unspecified
     item_number: 1
   - id: keihou-art-168-2-p1-kou-2
     type: kou
-    text: 前号に掲げるもののほか、同号の不正な指令を記述した電磁的記録その他の記録
+    text: 二　前号に掲げるもののほか、同号の不正な指令を記述した電磁的記録その他の記録
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 正当な理由がないのに、前項第一号に掲げる電磁的記録を人の電子計算機における実行の用に供した者も、同項と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

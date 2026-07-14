@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kokuzei-tsuusoku-hou-art-76-p1-kou-1
     type: kou
-    text: この節又は行政不服審査法（平成二十六年法律第六十八号）の規定による処分その他前条の規定による不服申立て（第八十条第三項（行政不服審査法との関係）を除き、以下「不服申立て」という。）についてした処分
+    text: 一　この節又は行政不服審査法（平成二十六年法律第六十八号）の規定による処分その他前条の規定による不服申立て（第八十条第三項（行政不服審査法との関係）を除き、以下「不服申立て」という。）についてした処分
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-76-p1-kou-2
     type: kou
-    text: 行政不服審査法第七条第一項第七号（適用除外）に掲げる処分
+    text: 二　行政不服審査法第七条第一項第七号（適用除外）に掲げる処分
     modality: unspecified
     item_number: 2
 - number: 2

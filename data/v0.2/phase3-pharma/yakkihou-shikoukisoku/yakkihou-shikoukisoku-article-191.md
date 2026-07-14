@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-191-p1-kou-1
     type: kou
-    text: 業務の内容に関する文書
+    text: 一　業務の内容に関する文書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-191-p1-kou-2
     type: kou
-    text: 修理手順その他修理の作業について記載した文書
+    text: 二　修理手順その他修理の作業について記載した文書
     modality: unspecified
     item_number: 2
 - number: 2
@@ -53,12 +53,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-191-p3-kou-1
     type: kou
-    text: 苦情に係る事項の原因を究明し、修理に係る作業管理又は品質管理に関し改善が必要な場合には、所要の措置を講ずること。
+    text: 一　苦情に係る事項の原因を究明し、修理に係る作業管理又は品質管理に関し改善が必要な場合には、所要の措置を講ずること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-191-p3-kou-2
     type: kou
-    text: 当該医療機器に係る苦情の内容、原因究明の結果及び改善措置を記載した苦情処理記録を作成し、その作成の日から三年間保存すること。
+    text: 二　当該医療機器に係る苦情の内容、原因究明の結果及び改善措置を記載した苦情処理記録を作成し、その作成の日から三年間保存すること。
     modality: unspecified
     item_number: 2
 - number: 4
@@ -72,17 +72,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-191-p4-kou-1
     type: kou
-    text: 回収に至つた原因を究明し、修理に係る作業管理又は品質管理に関し改善が必要な場合には、所要の措置を講ずること。
+    text: 一　回収に至つた原因を究明し、修理に係る作業管理又は品質管理に関し改善が必要な場合には、所要の措置を講ずること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-191-p4-kou-2
     type: kou
-    text: 回収した医療機器を区分して一定期間保管した後、適切に処理すること。
+    text: 二　回収した医療機器を区分して一定期間保管した後、適切に処理すること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-191-p4-kou-3
     type: kou
-    text: 当該医療機器に係る回収の内容、原因究明の結果及び改善措置を記載した回収処理記録を作成し、その作成の日から三年間保存すること。
+    text: 三　当該医療機器に係る回収の内容、原因究明の結果及び改善措置を記載した回収処理記録を作成し、その作成の日から三年間保存すること。
     modality: unspecified
     item_number: 3
 - number: 5
@@ -96,12 +96,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-191-p5-kou-1
     type: kou
-    text: 作業員に対して、医療機器の修理に係る作業管理及び品質管理に関する教育訓練を実施すること。
+    text: 一　作業員に対して、医療機器の修理に係る作業管理及び品質管理に関する教育訓練を実施すること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-191-p5-kou-2
     type: kou
-    text: 教育訓練の実施の記録を作成し、その作成の日から三年間保存すること。
+    text: 二　教育訓練の実施の記録を作成し、その作成の日から三年間保存すること。
     modality: unspecified
     item_number: 2
 - number: 6

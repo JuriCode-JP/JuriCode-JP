@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\329M50000002023.xml",
   "source_xml_sha256": "a6bf787d18f934ae319c55b7d3db471f83a9731a84cbaaa8975d2e1c997545ad",
   "source_xml_bytes": 4113749,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:11+00:00",
+  "parsed_at": "2026-07-14T01:44:13+00:00",
   "version_date": "1954-05-13",
   "article_count": 418,
   "articles": [
@@ -578,8 +578,8 @@
       "article_id": "chihou-zei-hou-shikoukisoku-art-10-7",
       "article_number": "10-7",
       "filename": "chihou-zei-hou-shikoukisoku-article-10-7.md",
-      "ja_text_sha256": "9e49598d9fefba75c91abc4b9fab641ed84ac65544d7ec75233945cf75df78a8",
-      "ja_text_bytes": 621,
+      "ja_text_sha256": "9c355007e792589a15c42822cf0da4d688f7c78fec9c0840ef27d28e7436cf4e",
+      "ja_text_bytes": 615,
       "paragraph_count": 1
     },
     {
@@ -1362,8 +1362,8 @@
       "article_id": "chihou-zei-hou-shikoukisoku-art-16-6",
       "article_number": "16-6",
       "filename": "chihou-zei-hou-shikoukisoku-article-16-6.md",
-      "ja_text_sha256": "bbbde1b0bb712f588be46c1c36287c935fadd3279584a3cea90a8160cc9ba99a",
-      "ja_text_bytes": 16038,
+      "ja_text_sha256": "a2e29ddb4065a60f15649ce99db0d911344199ec485c6a14c6c372565ce0acec",
+      "ja_text_bytes": 15771,
       "paragraph_count": 13
     },
     {
@@ -2538,8 +2538,8 @@
       "article_id": "chihou-zei-hou-shikoukisoku-art-6-2-2",
       "article_number": "6-2-2",
       "filename": "chihou-zei-hou-shikoukisoku-article-6-2-2.md",
-      "ja_text_sha256": "4d03af3577fe5bbcd9814db28cbbaef5b268fdce7ab83975a863aadd9adfc7f1",
-      "ja_text_bytes": 3500,
+      "ja_text_sha256": "00e164959371b0f7a84f4ccbf2412270200a88a08c6ff90eefab940800790d20",
+      "ja_text_bytes": 3494,
       "paragraph_count": 6
     },
     {
@@ -3178,8 +3178,8 @@
       "article_id": "chihou-zei-hou-shikoukisoku-art-8-54",
       "article_number": "8-54",
       "filename": "chihou-zei-hou-shikoukisoku-article-8-54.md",
-      "ja_text_sha256": "3893fc67dbb9652c41902c49724bd2b07544be9e94af91ddcb4b3301d98fae14",
-      "ja_text_bytes": 324,
+      "ja_text_sha256": "db6a66d998907c69c94875b1a2956a105b0e377cac863d06809b962d39efe3d3",
+      "ja_text_bytes": 315,
       "paragraph_count": 1
     },
     {

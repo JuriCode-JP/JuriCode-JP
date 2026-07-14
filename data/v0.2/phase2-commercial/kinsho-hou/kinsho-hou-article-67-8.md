@@ -23,87 +23,87 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-67-8-p1-kou-1
     type: kou
-    text: 目的
+    text: 一　目的
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-67-8-p1-kou-2
     type: kou
-    text: 名称
+    text: 二　名称
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-67-8-p1-kou-3
     type: kou
-    text: 事務所の所在地
+    text: 三　事務所の所在地
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-67-8-p1-kou-4
     type: kou
-    text: 協会員に関する事項
+    text: 四　協会員に関する事項
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-67-8-p1-kou-5
     type: kou
-    text: 総会に関する事項
+    text: 五　総会に関する事項
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-67-8-p1-kou-6
     type: kou
-    text: 役員に関する事項
+    text: 六　役員に関する事項
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-67-8-p1-kou-7
     type: kou
-    text: 理事会その他の会議に関する事項
+    text: 七　理事会その他の会議に関する事項
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-67-8-p1-kou-8
     type: kou
-    text: 業務の執行に関する事項
+    text: 八　業務の執行に関する事項
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-art-67-8-p1-kou-9
     type: kou
-    text: 協会員の役員及び使用人並びに金融商品仲介業者（協会員を所属金融商品取引業者等とする金融商品仲介業者に限る。以下この節において同じ。）並びにその役員及び使用人の資質の向上に関する事項
+    text: 九　協会員の役員及び使用人並びに金融商品仲介業者（協会員を所属金融商品取引業者等とする金融商品仲介業者に限る。以下この節において同じ。）並びにその役員及び使用人の資質の向上に関する事項
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-art-67-8-p1-kou-10
     type: kou
-    text: 規則の作成に関する事項
+    text: 十　規則の作成に関する事項
     modality: unspecified
     item_number: 10
   - id: kinsho-hou-art-67-8-p1-kou-11
     type: kou
-    text: 協会員及び金融商品仲介業者の業務に対する投資者からの苦情及び紛争の解決に関する事項
+    text: 十一　協会員及び金融商品仲介業者の業務に対する投資者からの苦情及び紛争の解決に関する事項
     modality: unspecified
     item_number: 11
   - id: kinsho-hou-art-67-8-p1-kou-12
     type: kou
-    text: 協会員及び金融商品仲介業者の有価証券の売買その他の取引の勧誘に関する事項
+    text: 十二　協会員及び金融商品仲介業者の有価証券の売買その他の取引の勧誘に関する事項
     modality: unspecified
     item_number: 12
   - id: kinsho-hou-art-67-8-p1-kou-13
     type: kou
-    text: 店頭売買有価証券市場に関する事項
+    text: 十三　店頭売買有価証券市場に関する事項
     modality: unspecified
     item_number: 13
   - id: kinsho-hou-art-67-8-p1-kou-14
     type: kou
-    text: 協会員及び金融商品仲介業者の法令、法令に基づく行政官庁の処分若しくは定款その他の規則又は取引の信義則の遵守の状況の調査に関する事項
+    text: 十四　協会員及び金融商品仲介業者の法令、法令に基づく行政官庁の処分若しくは定款その他の規則又は取引の信義則の遵守の状況の調査に関する事項
     modality: unspecified
     item_number: 14
   - id: kinsho-hou-art-67-8-p1-kou-15
     type: kou
-    text: 会費に関する事項
+    text: 十五　会費に関する事項
     modality: unspecified
     item_number: 15
   - id: kinsho-hou-art-67-8-p1-kou-16
     type: kou
-    text: 会計及び資産に関する事項
+    text: 十六　会計及び資産に関する事項
     modality: unspecified
     item_number: 16
   - id: kinsho-hou-art-67-8-p1-kou-17
     type: kou
-    text: 公告の方法
+    text: 十七　公告の方法
     modality: unspecified
     item_number: 17
 - number: 2

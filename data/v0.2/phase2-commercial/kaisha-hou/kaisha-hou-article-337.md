@@ -48,17 +48,17 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-337-p3-kou-1
     type: kou
-    text: 公認会計士法の規定により、第四百三十五条第二項に規定する計算書類について監査をすることができない者
+    text: 一　公認会計士法の規定により、第四百三十五条第二項に規定する計算書類について監査をすることができない者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-337-p3-kou-2
     type: kou
-    text: 株式会社の子会社若しくはその取締役、会計参与、監査役若しくは執行役から公認会計士若しくは監査法人の業務以外の業務により継続的な報酬を受けている者又はその配偶者
+    text: 二　株式会社の子会社若しくはその取締役、会計参与、監査役若しくは執行役から公認会計士若しくは監査法人の業務以外の業務により継続的な報酬を受けている者又はその配偶者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-337-p3-kou-3
     type: kou
-    text: 監査法人でその社員の半数以上が前号に掲げる者であるもの
+    text: 三　監査法人でその社員の半数以上が前号に掲げる者であるもの
     modality: unspecified
     item_number: 3
 cases: []

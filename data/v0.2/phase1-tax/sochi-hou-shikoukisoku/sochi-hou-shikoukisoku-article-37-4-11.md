@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-4-11-p1-kou-1
     type: kou
-    text: 届出者の住所及び氏名又は名称並びに法人にあつては、法人番号
+    text: 一　届出者の住所及び氏名又は名称並びに法人にあつては、法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-4-11-p1-kou-2
     type: kou
-    text: 法第八十七条の六第一項の規定の適用を受けることをやめようとする輸出酒類販売場の所在地及び名称
+    text: 二　法第八十七条の六第一項の規定の適用を受けることをやめようとする輸出酒類販売場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-4-11-p1-kou-3
     type: kou
-    text: 当該輸出酒類販売場に係る法第八十七条の六第八項の許可を受けた年月日
+    text: 三　当該輸出酒類販売場に係る法第八十七条の六第八項の許可を受けた年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-4-11-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

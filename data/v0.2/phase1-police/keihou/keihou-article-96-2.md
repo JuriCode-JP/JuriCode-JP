@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: keihou-art-96-2-p1-kou-1
     type: kou
-    text: 強制執行を受け、若しくは受けるべき財産を隠匿し、損壊し、若しくはその譲渡を仮装し、又は債務の負担を仮装する行為
+    text: 一　強制執行を受け、若しくは受けるべき財産を隠匿し、損壊し、若しくはその譲渡を仮装し、又は債務の負担を仮装する行為
     modality: unspecified
     item_number: 1
   - id: keihou-art-96-2-p1-kou-2
     type: kou
-    text: 強制執行を受け、又は受けるべき財産について、その現状を改変して、価格を減損し、又は強制執行の費用を増大させる行為
+    text: 二　強制執行を受け、又は受けるべき財産について、その現状を改変して、価格を減損し、又は強制執行の費用を増大させる行為
     modality: unspecified
     item_number: 2
   - id: keihou-art-96-2-p1-kou-3
     type: kou
-    text: 金銭執行を受けるべき財産について、無償その他の不利益な条件で、譲渡をし、又は権利の設定をする行為
+    text: 三　金銭執行を受けるべき財産について、無償その他の不利益な条件で、譲渡をし、又は権利の設定をする行為
     modality: unspecified
     item_number: 3
 cases: []

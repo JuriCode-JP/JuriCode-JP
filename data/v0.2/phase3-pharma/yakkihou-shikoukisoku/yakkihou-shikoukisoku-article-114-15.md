@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-15-p2-kou-1
     type: kou
-    text: 製造所の名称及び所在地
+    text: 一　製造所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-15-p2-kou-2
     type: kou
-    text: 登録の区分
+    text: 二　登録の区分
     modality: unspecified
     item_number: 2
 - number: 3
@@ -51,12 +51,12 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-114-15-p3-kou-1
     type: kou
-    text: 製造所の責任者の履歴書
+    text: 一　製造所の責任者の履歴書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-15-p3-kou-2
     type: kou
-    text: 登録を受けようとする製造所の場所を明らかにした図面
+    text: 二　登録を受けようとする製造所の場所を明らかにした図面
     modality: unspecified
     item_number: 2
 cases: []

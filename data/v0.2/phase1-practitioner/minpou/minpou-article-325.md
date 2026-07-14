@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-325-p1-kou-1
     type: kou
-    text: 不動産の保存
+    text: 一　不動産の保存
     modality: unspecified
     item_number: 1
   - id: minpou-art-325-p1-kou-2
     type: kou
-    text: 不動産の工事
+    text: 二　不動産の工事
     modality: unspecified
     item_number: 2
   - id: minpou-art-325-p1-kou-3
     type: kou
-    text: 不動産の売買
+    text: 三　不動産の売買
     modality: unspecified
     item_number: 3
 cases: []

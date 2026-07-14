@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-939-p1-kou-1
     type: kou
-    text: 官報に掲載する方法
+    text: 一　官報に掲載する方法
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-939-p1-kou-2
     type: kou
-    text: 時事に関する事項を掲載する日刊新聞紙に掲載する方法
+    text: 二　時事に関する事項を掲載する日刊新聞紙に掲載する方法
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-939-p1-kou-3
     type: kou
-    text: 電子公告
+    text: 三　電子公告
     modality: unspecified
     item_number: 3
 - number: 2

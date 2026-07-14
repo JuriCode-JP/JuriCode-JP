@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-27-17-3-p1-kou-1
     type: kou
-    text: 令第百三十三条の二第二項及び第七項第二号ロに規定する移転する事業の用に供するために取得した減価償却資産又はこれらの規定に規定する移転する資産に係るものであること。
+    text: 一　令第百三十三条の二第二項及び第七項第二号ロに規定する移転する事業の用に供するために取得した減価償却資産又はこれらの規定に規定する移転する資産に係るものであること。
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-27-17-3-p1-kou-2
     type: kou
-    text: 前号の要件を満たすことを明らかにする書類を保存していること。
+    text: 二　前号の要件を満たすことを明らかにする書類を保存していること。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-11-p1-kou-1
     type: kou
-    text: 当該提出日前に発生した当該有価証券届出書又はその添付書類に記載すべき重要な事実で、これらの書類を提出する時にはその内容を記載することができなかつたものにつき、記載することができる状態になつたこと。
+    text: 一　当該提出日前に発生した当該有価証券届出書又はその添付書類に記載すべき重要な事実で、これらの書類を提出する時にはその内容を記載することができなかつたものにつき、記載することができる状態になつたこと。
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-11-p1-kou-2
     type: kou
-    text: 当該有価証券届出書又はその添付書類に記載すべき事項に関し重要な事実が発生したこと。
+    text: 二　当該有価証券届出書又はその添付書類に記載すべき事項に関し重要な事実が発生したこと。
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-11-p1-kou-3
     type: kou
-    text: 第九条各号に定める事項で当該有価証券届出書に記載しなかつたものにつき、その内容が決定したこと。
+    text: 三　第九条各号に定める事項で当該有価証券届出書に記載しなかつたものにつき、その内容が決定したこと。
     modality: unspecified
     item_number: 3
 cases: []

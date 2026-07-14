@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-7-15-5-p1-kou-1
     type: kou
-    text: 法第三十四条第七項第一号イに掲げる契約の内容と同項第三号イに掲げる契約の内容とが一体となつて効力を有する一の保険契約のうち、特定介護医療保険契約に係る保険料
+    text: 一　法第三十四条第七項第一号イに掲げる契約の内容と同項第三号イに掲げる契約の内容とが一体となつて効力を有する一の保険契約のうち、特定介護医療保険契約に係る保険料
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-7-15-5-p1-kou-2
     type: kou
-    text: 法第三十四条第七項第一号ハに掲げる契約の内容と同項第三号ロに掲げる生命共済契約等の内容とが一体となつて効力を有する一の共済に係る契約のうち、特定介護医療共済契約に係る掛金
+    text: 二　法第三十四条第七項第一号ハに掲げる契約の内容と同項第三号ロに掲げる生命共済契約等の内容とが一体となつて効力を有する一の共済に係る契約のうち、特定介護医療共済契約に係る掛金
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: roudou-kijun-hou-art-95-p1-kou-1
     type: kou
-    text: 起床、就寝、外出及び外泊に関する事項
+    text: 一　起床、就寝、外出及び外泊に関する事項
     modality: unspecified
     item_number: 1
   - id: roudou-kijun-hou-art-95-p1-kou-2
     type: kou
-    text: 行事に関する事項
+    text: 二　行事に関する事項
     modality: unspecified
     item_number: 2
   - id: roudou-kijun-hou-art-95-p1-kou-3
     type: kou
-    text: 食事に関する事項
+    text: 三　食事に関する事項
     modality: unspecified
     item_number: 3
   - id: roudou-kijun-hou-art-95-p1-kou-4
     type: kou
-    text: 安全及び衛生に関する事項
+    text: 四　安全及び衛生に関する事項
     modality: unspecified
     item_number: 4
   - id: roudou-kijun-hou-art-95-p1-kou-5
     type: kou
-    text: 建設物及び設備の管理に関する事項
+    text: 五　建設物及び設備の管理に関する事項
     modality: unspecified
     item_number: 5
 - number: 2

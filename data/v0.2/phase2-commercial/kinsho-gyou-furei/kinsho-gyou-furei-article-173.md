@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-173-p1-kou-1
     type: kou
-    text: 別紙様式第十三号により作成した関係会社に関する報告書　毎事業年度経過後四月以内
+    text: 一　別紙様式第十三号により作成した関係会社に関する報告書　毎事業年度経過後四月以内
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-173-p1-kou-2
     type: kou
-    text: 別紙様式第十四号により作成した国際業務に関する報告書　毎事業年度経過後四月以内
+    text: 二　別紙様式第十四号により作成した国際業務に関する報告書　毎事業年度経過後四月以内
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-173-p1-kou-3
     type: kou
-    text: 別紙様式第十四号の二により作成した私設取引システム運営業務に係る売買高に関する報告書　四半期（法第四十六条の六第三項に規定する四半期をいう。第二百八条の十一及び第二百八条の十四において同じ。）経過後一月以内
+    text: 三　別紙様式第十四号の二により作成した私設取引システム運営業務に係る売買高に関する報告書　四半期（法第四十六条の六第三項に規定する四半期をいう。第二百八条の十一及び第二百八条の十四において同じ。）経過後一月以内
     modality: unspecified
     item_number: 3
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-60-p1-kou-1
     type: kou
-    text: 届出をする内国法人の名称、納税地及び法人番号
+    text: 一　届出をする内国法人の名称、納税地及び法人番号
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-60-p1-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-60-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

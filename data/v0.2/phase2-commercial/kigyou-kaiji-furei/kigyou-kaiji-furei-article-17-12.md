@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-17-12-p2-kou-1
     type: kou
-    text: 「１　有価証券報告書の記載内容の適正性に関する事項」
+    text: 一　「１　有価証券報告書の記載内容の適正性に関する事項」
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-17-12-p2-kou-2
     type: kou
-    text: 「２　特記事項」
+    text: 二　「２　特記事項」
     modality: unspecified
     item_number: 2
 - number: 3
@@ -51,12 +51,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-17-12-p3-kou-1
     type: kou
-    text: 第九号の二様式による確認書に記載すべき事項と当該事項に相当する外国会社確認書の記載事項との対照表
+    text: 一　第九号の二様式による確認書に記載すべき事項と当該事項に相当する外国会社確認書の記載事項との対照表
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-17-12-p3-kou-2
     type: kou
-    text: 金融庁長官が公益又は投資者保護の観点から必要と認めて指示する事項を日本語によつて記載したもの
+    text: 二　金融庁長官が公益又は投資者保護の観点から必要と認めて指示する事項を日本語によつて記載したもの
     modality: unspecified
     item_number: 2
 - number: 4

@@ -43,17 +43,17 @@ paragraphs:
     modality: gimu
   - id: keisatsu-hou-art-56-p3-kou-1
     type: kou
-    text: その職務を遂行するに当たつて、法令又は条例の規定に違反した場合
+    text: 一　その職務を遂行するに当たつて、法令又は条例の規定に違反した場合
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-56-p3-kou-2
     type: kou
-    text: 前号に掲げるもののほか、職務上の義務に違反し、又は職務を怠つた場合
+    text: 二　前号に掲げるもののほか、職務上の義務に違反し、又は職務を怠つた場合
     modality: unspecified
     item_number: 2
   - id: keisatsu-hou-art-56-p3-kou-3
     type: kou
-    text: 全体の奉仕者たるにふさわしくない非行のあつた場合
+    text: 三　全体の奉仕者たるにふさわしくない非行のあつた場合
     modality: unspecified
     item_number: 3
 cases: []

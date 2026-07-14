@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: douro-koutsuu-hou-art-106-4-p1-kou-1
     type: kou
-    text: 前条第一項第一号又は第二号に該当することとなつたとき。
+    text: 一　前条第一項第一号又は第二号に該当することとなつたとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-106-4-p1-kou-2
     type: kou
-    text: 第九十条第五項、第百三条第一項若しくは第四項、第百四条の二の三第一項若しくは第三項又は同条第五項において準用する第百三条第四項の規定により免許の効力が停止されたとき。
+    text: 二　第九十条第五項、第百三条第一項若しくは第四項、第百四条の二の三第一項若しくは第三項又は同条第五項において準用する第百三条第四項の規定により免許の効力が停止されたとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-106-4-p1-kou-3
     type: kou
-    text: 免許情報記録の有効期間が満了したとき（第一号に該当する場合を除く。）。
+    text: 三　免許情報記録の有効期間が満了したとき（第一号に該当する場合を除く。）。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,8 +49,12 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
+  - id: douro-koutsuu-hou-art-106-4-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十一条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

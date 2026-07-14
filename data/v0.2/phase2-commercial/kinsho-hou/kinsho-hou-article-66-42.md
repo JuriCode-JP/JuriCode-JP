@@ -23,32 +23,32 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-66-42-p1-kou-1
     type: kou
-    text: 第六十六条の三十第一項各号（第三号を除く。）のいずれかに該当することとなつたとき。
+    text: 一　第六十六条の三十第一項各号（第三号を除く。）のいずれかに該当することとなつたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-42-p1-kou-2
     type: kou
-    text: 第六十六条の三十第二項の規定により登録を拒否すべき事由に該当することとなつたとき。
+    text: 二　第六十六条の三十第二項の規定により登録を拒否すべき事由に該当することとなつたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-42-p1-kou-3
     type: kou
-    text: 不正の手段により第六十六条の二十七の登録を受けたとき。
+    text: 三　不正の手段により第六十六条の二十七の登録を受けたとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-42-p1-kou-4
     type: kou
-    text: 信用格付業に関し法令又は法令に基づいてする行政官庁の処分に違反したとき。
+    text: 四　信用格付業に関し法令又は法令に基づいてする行政官庁の処分に違反したとき。
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-66-42-p1-kou-5
     type: kou
-    text: 信用格付業の運営に関し、投資者の利益を害する事実があるとき。
+    text: 五　信用格付業の運営に関し、投資者の利益を害する事実があるとき。
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-66-42-p1-kou-6
     type: kou
-    text: 信用格付業に関し、不正又は著しく不当な行為をした場合において、その情状が特に重いとき。
+    text: 六　信用格付業に関し、不正又は著しく不当な行為をした場合において、その情状が特に重いとき。
     modality: unspecified
     item_number: 6
 - number: 2

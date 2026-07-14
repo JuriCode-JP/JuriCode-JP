@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-135-p1-kou-1
     type: kou
-    text: 公開の議場における戒告
+    text: 一　公開の議場における戒告
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-135-p1-kou-2
     type: kou
-    text: 公開の議場における陳謝
+    text: 二　公開の議場における陳謝
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-135-p1-kou-3
     type: kou
-    text: 一定期間の出席停止
+    text: 三　一定期間の出席停止
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-135-p1-kou-4
     type: kou
-    text: 除名
+    text: 四　除名
     modality: unspecified
     item_number: 4
 - number: 2

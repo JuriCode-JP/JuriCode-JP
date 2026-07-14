@@ -31,8 +31,8 @@ paragraphs:
     text: 公開会社でない株式会社における前項の規定の適用については、同項中「六箇月（これを下回る期間を定款で定めた場合にあっては、その期間）前から引き続き株式を有する株主」とあるのは、「株主」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

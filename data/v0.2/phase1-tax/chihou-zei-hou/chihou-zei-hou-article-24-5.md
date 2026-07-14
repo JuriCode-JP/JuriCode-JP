@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: chihou-zei-hou-art-24-5-p1-kou-1
     type: kou
-    text: 生活保護法（昭和二十五年法律第百四十四号）の規定による生活扶助を受けている者
+    text: 一　生活保護法（昭和二十五年法律第百四十四号）の規定による生活扶助を受けている者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-24-5-p1-kou-2
     type: kou
-    text: 障害者、未成年者、寡婦又はひとり親（これらの者の前年の合計所得金額が百三十五万円を超える場合を除く。）
+    text: 二　障害者、未成年者、寡婦又はひとり親（これらの者の前年の合計所得金額が百三十五万円を超える場合を除く。）
     modality: unspecified
     item_number: 2
 - number: 2

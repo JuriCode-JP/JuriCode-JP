@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項から第四項までの規定は、法第九条の六の二第一項の規定により投資法人（同項に規定する投資法人をいう。以下この条において同じ。）が納付した外国法人税の額を当該投資法人の配当等に係る所得税の額から控除する場合について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -93,8 +93,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 9
   has_proviso: false
   has_items: false
@@ -139,8 +139,8 @@ paragraphs:
     text: 前項本文の場合において、同項に規定する投資法人は、第七項から第九項までの規定による通知をしたものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 13
   has_proviso: false
   has_items: false
@@ -162,8 +162,8 @@ paragraphs:
     text: 前項の規定による承諾を得た同項に規定する投資法人は、同項の個人又は法人から書面又は電磁的方法により第十一項本文の規定による電磁的方法による提供を受けない旨の申出があつたときは、当該個人又は法人に対し、同項の書面に記載すべき事項の提供を電磁的方法によつてしてはならない。
     modality: gimu_negative
     references:
-    - 同項
     - 前項
+    - 同項
   - id: sochi-hou-shikkourei-art-4-10-p14-tadashi
     type: tadashi
     text: ただし、当該個人又は法人が再び前項の規定による承諾をした場合は、この限りでない。

@@ -31,8 +31,8 @@ paragraphs:
     text: 審判手続開始の決定に係る決定書（次項及び第百八十三条において「審判手続開始決定書」という。）には、最初の審判手続の期日及び場所、課徴金に係る前条第一項各号に掲げる事実並びに納付すべき課徴金の額及びその計算の基礎を記載しなければならない。
     modality: gimu
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

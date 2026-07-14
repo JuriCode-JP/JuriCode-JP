@@ -26,12 +26,12 @@ paragraphs:
     - 第二十三条
   - id: sochi-hou-art-87-2-p1-kou-1
     type: kou
-    text: アルコール分が十一度未満のもの　十万円
+    text: 一　アルコール分が十一度未満のもの　十万円
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-87-2-p1-kou-2
     type: kou
-    text: アルコール分が十一度以上十三度未満のもの　十万円にアルコール分が十度を超える一度ごとに一万円を加えた金額
+    text: 二　アルコール分が十一度以上十三度未満のもの　十万円にアルコール分が十度を超える一度ごとに一万円を加えた金額
     modality: unspecified
     item_number: 2
 cases: []

@@ -45,8 +45,8 @@ paragraphs:
     text: 前項の規定による定款の定めがある場合には、同項の株主が有する株式を同項の権利に関する事項について内容の異なる種類の株式とみなして、この編及び第五編の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

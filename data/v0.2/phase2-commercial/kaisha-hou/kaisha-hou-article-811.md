@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-811-p1-kou-1
     type: kou
-    text: 新設分割株式会社　新設分割により新設分割設立会社が承継した新設分割株式会社の権利義務その他の新設分割に関する事項として法務省令で定める事項を記載し、又は記録した書面又は電磁的記録
+    text: 一　新設分割株式会社　新設分割により新設分割設立会社が承継した新設分割株式会社の権利義務その他の新設分割に関する事項として法務省令で定める事項を記載し、又は記録した書面又は電磁的記録
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-811-p1-kou-2
     type: kou
-    text: 株式移転完全子会社　株式移転により株式移転設立完全親会社が取得した株式移転完全子会社の株式の数その他の株式移転に関する事項として法務省令で定める事項を記載し、又は記録した書面又は電磁的記録
+    text: 二　株式移転完全子会社　株式移転により株式移転設立完全親会社が取得した株式移転完全子会社の株式の数その他の株式移転に関する事項として法務省令で定める事項を記載し、又は記録した書面又は電磁的記録
     modality: unspecified
     item_number: 2
 - number: 2
@@ -53,22 +53,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-811-p3-kou-1
     type: kou
-    text: 前項の書面の閲覧の請求
+    text: 一　前項の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-811-p3-kou-2
     type: kou
-    text: 前項の書面の謄本又は抄本の交付の請求
+    text: 二　前項の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-811-p3-kou-3
     type: kou
-    text: 前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-811-p3-kou-4
     type: kou
-    text: 前項の電磁的記録に記録された事項を電磁的方法であって新設分割株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前項の電磁的記録に記録された事項を電磁的方法であって新設分割株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 - number: 4
@@ -81,8 +81,8 @@ paragraphs:
     text: 前項の規定は、株式移転完全子会社について準用する。この場合において、同項中「新設分割株式会社の株主、債権者その他の利害関係人」とあるのは、「株式移転設立完全親会社の成立の日に株式移転完全子会社の株主又は新株予約権者であった者」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

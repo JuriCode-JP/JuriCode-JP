@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-147-p1-kou-1
     type: kou
-    text: 自己の配偶者、三親等内の血族若しくは二親等内の姻族又は自己とこれらの親族関係があつた者
+    text: 一　自己の配偶者、三親等内の血族若しくは二親等内の姻族又は自己とこれらの親族関係があつた者
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-147-p1-kou-2
     type: kou
-    text: 自己の後見人、後見監督人又は保佐人
+    text: 二　自己の後見人、後見監督人又は保佐人
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-147-p1-kou-3
     type: kou
-    text: 自己を後見人、後見監督人又は保佐人とする者
+    text: 三　自己を後見人、後見監督人又は保佐人とする者
     modality: unspecified
     item_number: 3
 cases: []

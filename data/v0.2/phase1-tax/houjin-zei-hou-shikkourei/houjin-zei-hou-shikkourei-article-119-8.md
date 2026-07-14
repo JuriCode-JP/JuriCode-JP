@@ -33,8 +33,8 @@ paragraphs:
     text: 前項に規定する所有株式を発行した法人は、分割型分割を行つた場合には、当該所有株式を有していた法人に対し、当該分割型分割に係る同項に規定する割合を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

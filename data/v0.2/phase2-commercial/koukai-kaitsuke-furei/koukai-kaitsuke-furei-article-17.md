@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-17-p1-kou-1
     type: kou
-    text: 第二号様式のうち「第１　公開買付要項」の「１０　買付け等の対価とする有価証券の発行者の状況」の（１）から（５）までの記載事項
+    text: 一　第二号様式のうち「第１　公開買付要項」の「１０　買付け等の対価とする有価証券の発行者の状況」の（１）から（５）までの記載事項
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-17-p1-kou-2
     type: kou
-    text: 定款
+    text: 二　定款
     modality: unspecified
     item_number: 2
 cases: []

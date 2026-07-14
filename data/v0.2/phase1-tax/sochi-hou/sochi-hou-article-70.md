@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -60,8 +60,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -128,8 +128,8 @@ paragraphs:
     text: 第一項、第二項及び第五項から前項までの規定は、相続又は遺贈により財産を取得した者が、当該財産の全部又は一部を第一項に規定する申告書の提出期限までに特定非営利活動促進法第二条第三項に規定する認定特定非営利活動法人に対し、当該認定特定非営利活動法人の行う同条第一項に規定する特定非営利活動に係る事業に関連する贈与をした場合について準用する。この場合において、第二項中「同項の規定」とあるのは「第十項において準用する前項の規定」と、第五項中「第一項又は第三項」とあるのは「第十項において準用する第一項」と、「同項の贈与又は第三項の支出」とあるのは「第十項の贈与」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

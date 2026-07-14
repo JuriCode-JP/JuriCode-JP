@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-56-40-p2-kou-1
     type: kou
-    text: 事務所
+    text: 一　事務所
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-56-40-p2-kou-2
     type: kou
-    text: 研究施設
+    text: 二　研究施設
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-56-40-p2-kou-3
     type: kou
-    text: 研修施設
+    text: 三　研修施設
     modality: unspecified
     item_number: 3
 cases: []

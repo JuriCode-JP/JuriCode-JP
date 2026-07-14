@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-32-p1-kou-1
     type: kou
-    text: 届出者の名称及び本店又は主たる事務所の所在地並びに国内にある事務所又は事業所の名称及び所在地
+    text: 一　届出者の名称及び本店又は主たる事務所の所在地並びに国内にある事務所又は事業所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-32-p1-kou-2
     type: kou
-    text: 届出者の代表者の氏名並びに国内において行う事業又は国内にある資産の経営若しくは管理の責任者の氏名及び住所又は居所
+    text: 二　届出者の代表者の氏名並びに国内において行う事業又は国内にある資産の経営若しくは管理の責任者の氏名及び住所又は居所
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-32-p1-kou-3
     type: kou
-    text: 法別表第三第一号の表に掲げる法人のうち、届出者に類似するものの名称
+    text: 三　法別表第三第一号の表に掲げる法人のうち、届出者に類似するものの名称
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-32-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

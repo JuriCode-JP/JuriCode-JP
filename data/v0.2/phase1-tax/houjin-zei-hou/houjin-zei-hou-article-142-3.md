@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: houjin-zei-hou-art-142-3-p2-kou-1
     type: kou
-    text: 前項に規定する満たない部分に相当する金額が同項に規定する恒久的施設に帰せられるべき金額として政令で定めるところにより計算した金額の百分の十以下であるとき。
+    text: 一　前項に規定する満たない部分に相当する金額が同項に規定する恒久的施設に帰せられるべき金額として政令で定めるところにより計算した金額の百分の十以下であるとき。
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-142-3-p2-kou-2
     type: kou
-    text: 前項に規定する満たない部分に相当する金額に係る収益の額として政令で定めるところにより計算した金額が千万円以下であるとき。
+    text: 二　前項に規定する満たない部分に相当する金額に係る収益の額として政令で定めるところにより計算した金額が千万円以下であるとき。
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-142-3-p2-kou-3
     type: kou
-    text: 当該事業年度の恒久的施設に係る総資産の額が当該事業年度の当該恒久的施設に係る負債の額及び純資産の額の合計額を上回る場合として政令で定める場合に該当するとき。
+    text: 三　当該事業年度の恒久的施設に係る総資産の額が当該事業年度の当該恒久的施設に係る負債の額及び純資産の額の合計額を上回る場合として政令で定める場合に該当するとき。
     modality: unspecified
     item_number: 3
 - number: 3
@@ -57,8 +57,8 @@ paragraphs:
     text: 前項の規定は、同項各号に掲げる場合のいずれかに該当する旨を記載した書類及びその計算に関する書類を保存している場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

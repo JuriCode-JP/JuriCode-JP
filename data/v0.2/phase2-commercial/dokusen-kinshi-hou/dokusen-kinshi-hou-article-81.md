@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: dokusen-kinshi-hou-art-81-p1-kou-1
     type: kou
-    text: 既に提出され、若しくは提出されるべき準備書面に当事者の保有する営業秘密が記載され、又は既に取り調べられ、若しくは取り調べられるべき証拠（前条第三項の規定により開示された書類又は電磁的記録を含む。）の内容に当事者の保有する営業秘密が含まれること。
+    text: 一　既に提出され、若しくは提出されるべき準備書面に当事者の保有する営業秘密が記載され、又は既に取り調べられ、若しくは取り調べられるべき証拠（前条第三項の規定により開示された書類又は電磁的記録を含む。）の内容に当事者の保有する営業秘密が含まれること。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-81-p1-kou-2
     type: kou
-    text: 前号の営業秘密が当該訴訟の追行の目的以外の目的で使用され、又は当該営業秘密が開示されることにより、当該営業秘密に基づく当事者の事業活動に支障を生ずるおそれがあり、これを防止するため当該営業秘密の使用又は開示を制限する必要があること。
+    text: 二　前号の営業秘密が当該訴訟の追行の目的以外の目的で使用され、又は当該営業秘密が開示されることにより、当該営業秘密に基づく当事者の事業活動に支障を生ずるおそれがあり、これを防止するため当該営業秘密の使用又は開示を制限する必要があること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,17 +44,17 @@ paragraphs:
     - 前項
   - id: dokusen-kinshi-hou-art-81-p2-kou-1
     type: kou
-    text: 秘密保持命令を受けるべき者
+    text: 一　秘密保持命令を受けるべき者
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-81-p2-kou-2
     type: kou
-    text: 秘密保持命令の対象となるべき営業秘密を特定するに足りる事実
+    text: 二　秘密保持命令の対象となるべき営業秘密を特定するに足りる事実
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-81-p2-kou-3
     type: kou
-    text: 前項各号に掲げる事由に該当する事実
+    text: 三　前項各号に掲げる事由に該当する事実
     modality: unspecified
     item_number: 3
 - number: 3

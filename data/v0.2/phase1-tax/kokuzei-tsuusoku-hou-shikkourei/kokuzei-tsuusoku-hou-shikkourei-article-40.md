@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-40-p2-kou-1
     type: kou
-    text: 前項に規定する国税
+    text: 一　前項に規定する国税
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-40-p2-kou-2
     type: kou
-    text: 所得税法第百九十条又は第百九十二条（年末調整に係る不足額の源泉徴収義務）の規定により徴収する所得税
+    text: 二　所得税法第百九十条又は第百九十二条（年末調整に係る不足額の源泉徴収義務）の規定により徴収する所得税
     modality: unspecified
     item_number: 2
 cases: []

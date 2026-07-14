@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-3-16-p2-kou-1
     type: kou
-    text: 会社法第四百四十七条の規定により資本金の額を減少した場合　会社計算規則第二十七条第一項第一号に規定する額
+    text: 一　会社法第四百四十七条の規定により資本金の額を減少した場合　会社計算規則第二十七条第一項第一号に規定する額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-3-16-p2-kou-2
     type: kou
-    text: 会社法第四百四十八条の規定により準備金の額を減少した場合　会社計算規則第二十七条第一項第二号に規定する額
+    text: 二　会社法第四百四十八条の規定により準備金の額を減少した場合　会社計算規則第二十七条第一項第二号に規定する額
     modality: unspecified
     item_number: 2
 - number: 3

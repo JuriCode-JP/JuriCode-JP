@@ -38,27 +38,27 @@ paragraphs:
     modality: jogai
   - id: yakkihou-art-63-2-p2-kou-1
     type: kou
-    text: 使用方法その他使用及び取扱い上の必要な注意
+    text: 一　使用方法その他使用及び取扱い上の必要な注意
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-63-2-p2-kou-2
     type: kou
-    text: 厚生労働大臣の指定する医療機器にあつては、その保守点検に関する事項
+    text: 二　厚生労働大臣の指定する医療機器にあつては、その保守点検に関する事項
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-63-2-p2-kou-3
     type: kou
-    text: 第四十一条第三項の規定によりその基準が定められた医療機器にあつては、その基準において当該医療機器の品質、有効性及び安全性に関連する事項として記載するように定められた事項
+    text: 三　第四十一条第三項の規定によりその基準が定められた医療機器にあつては、その基準において当該医療機器の品質、有効性及び安全性に関連する事項として記載するように定められた事項
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-63-2-p2-kou-4
     type: kou
-    text: 第四十二条第二項の規定によりその基準が定められた医療機器にあつては、その基準において当該医療機器の品質、有効性及び安全性に関連する事項として記載するように定められた事項
+    text: 四　第四十二条第二項の規定によりその基準が定められた医療機器にあつては、その基準において当該医療機器の品質、有効性及び安全性に関連する事項として記載するように定められた事項
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-63-2-p2-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、厚生労働省令で定める事項
+    text: 五　前各号に掲げるもののほか、厚生労働省令で定める事項
     modality: unspecified
     item_number: 5
 cases: []

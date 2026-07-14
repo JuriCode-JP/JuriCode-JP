@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: yakkihou-art-68-18-p1-kou-1
     type: kou
-    text: 生物由来製品の特性に関して注意を促すための厚生労働省令で定める事項
+    text: 一　生物由来製品の特性に関して注意を促すための厚生労働省令で定める事項
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-68-18-p1-kou-2
     type: kou
-    text: 次条において準用する第四十二条第一項の規定によりその基準が定められた生物由来製品にあつては、その基準において当該生物由来製品の品質、有効性及び安全性に関連する事項として記載するように定められた事項
+    text: 二　次条において準用する第四十二条第一項の規定によりその基準が定められた生物由来製品にあつては、その基準において当該生物由来製品の品質、有効性及び安全性に関連する事項として記載するように定められた事項
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-68-18-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、厚生労働省令で定める事項
+    text: 三　前二号に掲げるもののほか、厚生労働省令で定める事項
     modality: unspecified
     item_number: 3
 cases: []

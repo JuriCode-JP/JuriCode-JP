@@ -22,16 +22,16 @@ paragraphs:
     text: 次に掲げる職員の分限（定年に係るものを除く。次項において同じ。）については、第七十五条、第七十八条から前条まで及び第八十九条並びに行政不服審査法（平成二十六年法律第六十八号）の規定は、適用しない。
     modality: jogai
     references:
-    - 前条
     - 次項
+    - 前条
   - id: kokka-koumuin-hou-art-81-p1-kou-1
     type: kou
-    text: 臨時的職員
+    text: 一　臨時的職員
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-81-p1-kou-2
     type: kou
-    text: 条件付採用期間中の職員
+    text: 二　条件付採用期間中の職員
     modality: unspecified
     item_number: 2
 - number: 2

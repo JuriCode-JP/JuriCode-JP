@@ -23,26 +23,26 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-16-p1-kou-1
     type: kou
-    text: その親会社等
+    text: 一　その親会社等
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-16-p1-kou-2
     type: kou
-    text: その親会社等の子会社等（自己並びに前号及び次項第一号に掲げる者を除く。）
+    text: 二　その親会社等の子会社等（自己並びに前号及び次項第一号に掲げる者を除く。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-15-16-p1-kou-3
     type: kou
-    text: その親会社等の関連会社等（次項第二号に掲げる者を除く。）
+    text: 三　その親会社等の関連会社等（次項第二号に掲げる者を除く。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-15-16-p1-kou-4
     type: kou
-    text: 'その特定個人株主に係る次に掲げる会社、組合その他これらに準ずる事業体（外国におけるこれらに相当するものを含み、自己並びに前三号及び次項各号に掲げる者を除く。以下この号において「会社等」という。）
+    text: '四　その特定個人株主に係る次に掲げる会社、組合その他これらに準ずる事業体（外国におけるこれらに相当するものを含み、自己並びに前三号及び次項各号に掲げる者を除く。以下この号において「会社等」という。）
 
-      イ 当該特定個人株主が総株主等の議決権の百分の五十を超える議決権を保有する会社等（当該会社等の子会社等及び関連会社等を含む。）
+      イ　当該特定個人株主が総株主等の議決権の百分の五十を超える議決権を保有する会社等（当該会社等の子会社等及び関連会社等を含む。）
 
-      ロ 当該特定個人株主が総株主等の議決権の百分の二十以上百分の五十以下の議決権を保有する会社等'
+      ロ　当該特定個人株主が総株主等の議決権の百分の二十以上百分の五十以下の議決権を保有する会社等'
     modality: unspecified
     item_number: 4
 - number: 2
@@ -56,12 +56,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-16-p2-kou-1
     type: kou
-    text: その子会社等
+    text: 一　その子会社等
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-16-p2-kou-2
     type: kou
-    text: その関連会社等
+    text: 二　その関連会社等
     modality: unspecified
     item_number: 2
 - number: 3

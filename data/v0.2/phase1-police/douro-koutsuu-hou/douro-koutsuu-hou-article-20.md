@@ -52,6 +52,10 @@ paragraphs:
     text: この場合において、追越しをするときは、その通行している車両通行帯の直近の右側の車両通行帯を通行しなければならない。
     modality: gimu
     depends_on: douro-koutsuu-hou-art-20-p3-zen
+  - id: douro-koutsuu-hou-art-20-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第三号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -23,47 +23,47 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-219-p1-kou-1
     type: kou
-    text: 第百七条第一項第一号に掲げる事項についての定款の定めを設ける定款の変更　全部の株式（種類株式発行会社にあっては、当該事項についての定めを設ける種類の株式）
+    text: 一　第百七条第一項第一号に掲げる事項についての定款の定めを設ける定款の変更　全部の株式（種類株式発行会社にあっては、当該事項についての定めを設ける種類の株式）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-219-p1-kou-2
     type: kou
-    text: 株式の併合　全部の株式（種類株式発行会社にあっては、第百八十条第二項第三号の種類の株式）
+    text: 二　株式の併合　全部の株式（種類株式発行会社にあっては、第百八十条第二項第三号の種類の株式）
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-219-p1-kou-3
     type: kou
-    text: 第百七十一条第一項に規定する全部取得条項付種類株式の取得　当該全部取得条項付種類株式
+    text: 三　第百七十一条第一項に規定する全部取得条項付種類株式の取得　当該全部取得条項付種類株式
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-219-p1-kou-4
     type: kou
-    text: 取得条項付株式の取得　当該取得条項付株式
+    text: 四　取得条項付株式の取得　当該取得条項付株式
     modality: unspecified
     item_number: 4
-  - id: kaisha-hou-art-219-p1-kou-4
+  - id: kaisha-hou-art-219-p1-kou-4-2
     type: kou
-    text: 第百七十九条の三第一項の承認　売渡株式
+    text: 四の二　第百七十九条の三第一項の承認　売渡株式
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-219-p1-kou-5
     type: kou
-    text: 組織変更　全部の株式
+    text: 五　組織変更　全部の株式
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-219-p1-kou-6
     type: kou
-    text: 合併（合併により当該株式会社が消滅する場合に限る。）　全部の株式
+    text: 六　合併（合併により当該株式会社が消滅する場合に限る。）　全部の株式
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-219-p1-kou-7
     type: kou
-    text: 株式交換　全部の株式
+    text: 七　株式交換　全部の株式
     modality: unspecified
     item_number: 7
   - id: kaisha-hou-art-219-p1-kou-8
     type: kou
-    text: 株式移転　全部の株式
+    text: 八　株式移転　全部の株式
     modality: unspecified
     item_number: 8
 - number: 2
@@ -77,32 +77,32 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-219-p2-kou-1
     type: kou
-    text: 前項第一号から第四号までに掲げる行為　当該株券発行会社
+    text: 一　前項第一号から第四号までに掲げる行為　当該株券発行会社
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-219-p2-kou-2
     type: kou
-    text: 第百七十九条の三第一項の承認　特別支配株主
+    text: 二　第百七十九条の三第一項の承認　特別支配株主
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-219-p2-kou-3
     type: kou
-    text: 組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
+    text: 三　組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-219-p2-kou-4
     type: kou
-    text: 合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
+    text: 四　合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-219-p2-kou-5
     type: kou
-    text: 株式交換　第七百六十七条に規定する株式交換完全親会社
+    text: 五　株式交換　第七百六十七条に規定する株式交換完全親会社
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-219-p2-kou-6
     type: kou
-    text: 株式移転　第七百七十三条第一項第一号に規定する株式移転設立完全親会社
+    text: 六　株式移転　第七百七十三条第一項第一号に規定する株式移転設立完全親会社
     modality: unspecified
     item_number: 6
 - number: 3

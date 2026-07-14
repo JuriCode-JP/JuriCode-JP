@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-187-p1-kou-1
     type: kou
-    text: 許可番号及び許可年月日
+    text: 一　許可番号及び許可年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-187-p1-kou-2
     type: kou
-    text: 修理区分
+    text: 二　修理区分
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-187-p1-kou-3
     type: kou
-    text: 修理業者の氏名及び住所
+    text: 三　修理業者の氏名及び住所
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-187-p1-kou-4
     type: kou
-    text: 事業所の名称及び所在地
+    text: 四　事業所の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-187-p1-kou-5
     type: kou
-    text: 当該事業所の医療機器修理責任技術者の氏名及び住所
+    text: 五　当該事業所の医療機器修理責任技術者の氏名及び住所
     modality: unspecified
     item_number: 5
 cases: []

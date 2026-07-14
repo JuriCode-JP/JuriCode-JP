@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-art-150-p1-kou-1
     type: kou
-    text: その納税地
+    text: 一　その納税地
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-150-p1-kou-2
     type: kou
-    text: その事業の目的
+    text: 二　その事業の目的
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-150-p1-kou-3
     type: kou
-    text: その収益事業の種類
+    text: 三　その収益事業の種類
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-150-p1-kou-4
     type: kou
-    text: その収益事業を開始した日
+    text: 四　その収益事業を開始した日
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,22 +52,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-art-150-p2-kou-1
     type: kou
-    text: その納税地
+    text: 一　その納税地
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-150-p2-kou-2
     type: kou
-    text: その事業の目的
+    text: 二　その事業の目的
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-150-p2-kou-3
     type: kou
-    text: その収益事業の種類
+    text: 三　その収益事業の種類
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-150-p2-kou-4
     type: kou
-    text: その該当することとなつた日
+    text: 四　その該当することとなつた日
     modality: unspecified
     item_number: 4
 - number: 3
@@ -81,17 +81,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-art-150-p3-kou-1
     type: kou
-    text: その納税地
+    text: 一　その納税地
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-150-p3-kou-2
     type: kou
-    text: その事業の目的
+    text: 二　その事業の目的
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-150-p3-kou-3
     type: kou
-    text: その該当することとなつた日
+    text: 三　その該当することとなつた日
     modality: unspecified
     item_number: 3
 - number: 4
@@ -121,8 +121,8 @@ paragraphs:
     text: 前項ただし書の規定により同項に規定する届出書の提出を要しないこととされた外国法人が租税条約等の規定により法人税を課さないこととされる特定国内源泉所得以外の特定国内源泉所得を有することとなつた場合には、その有することとなつた日以後二月以内に、第一項各号に掲げる事項に準ずる事項を記載した届出書にその有することとなつた時における収益事業に係る貸借対照表その他の財務省令で定める書類を添付し、これを納税地の所轄税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments:
 - effective_date: '2023-04-01'

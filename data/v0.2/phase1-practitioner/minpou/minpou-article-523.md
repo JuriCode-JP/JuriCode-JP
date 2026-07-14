@@ -35,8 +35,8 @@ paragraphs:
     text: 申込者が前項の申込みに対して同項の期間内に承諾の通知を受けなかったときは、その申込みは、その効力を失う。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-art-75-p2-kou-1
     type: kou
-    text: 小規模企業共済法（昭和四十年法律第百二号）第二条第二項（定義）に規定する共済契約（政令で定めるものを除く。）に基づく掛金
+    text: 一　小規模企業共済法（昭和四十年法律第百二号）第二条第二項（定義）に規定する共済契約（政令で定めるものを除く。）に基づく掛金
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-75-p2-kou-2
     type: kou
-    text: 確定拠出年金法（平成十三年法律第八十八号）第三条第三項第七号の二（規約の承認）に規定する企業型年金加入者掛金又は同法第五十五条第二項第四号（規約の承認）に規定する個人型年金加入者掛金
+    text: 二　確定拠出年金法（平成十三年法律第八十八号）第三条第三項第七号の二（規約の承認）に規定する企業型年金加入者掛金又は同法第五十五条第二項第四号（規約の承認）に規定する個人型年金加入者掛金
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-75-p2-kou-3
     type: kou
-    text: 第九条第一項第三号ハ（年金等の非課税）に規定する政令で定める共済制度に係る契約に基づく掛金
+    text: 三　第九条第一項第三号ハ（年金等の非課税）に規定する政令で定める共済制度に係る契約に基づく掛金
     modality: unspecified
     item_number: 3
 - number: 3

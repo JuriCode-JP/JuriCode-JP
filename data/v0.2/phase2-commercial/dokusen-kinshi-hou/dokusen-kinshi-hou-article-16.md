@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu_negative
   - id: dokusen-kinshi-hou-art-16-p1-kou-1
     type: kou
-    text: 他の会社の事業の全部又は重要部分の譲受け
+    text: 一　他の会社の事業の全部又は重要部分の譲受け
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-16-p1-kou-2
     type: kou
-    text: 他の会社の事業上の固定資産の全部又は重要部分の譲受け
+    text: 二　他の会社の事業上の固定資産の全部又は重要部分の譲受け
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-16-p1-kou-3
     type: kou
-    text: 他の会社の事業の全部又は重要部分の賃借
+    text: 三　他の会社の事業の全部又は重要部分の賃借
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-16-p1-kou-4
     type: kou
-    text: 他の会社の事業の全部又は重要部分についての経営の受任
+    text: 四　他の会社の事業の全部又は重要部分についての経営の受任
     modality: unspecified
     item_number: 4
   - id: dokusen-kinshi-hou-art-16-p1-kou-5
     type: kou
-    text: 他の会社と事業上の損益全部を共通にする契約の締結
+    text: 五　他の会社と事業上の損益全部を共通にする契約の締結
     modality: unspecified
     item_number: 5
 - number: 2
@@ -57,12 +57,12 @@ paragraphs:
     modality: jogai
   - id: dokusen-kinshi-hou-art-16-p2-kou-1
     type: kou
-    text: 国内売上高が三十億円を下回らない範囲内において政令で定める金額を超える他の会社の事業の全部の譲受けをしようとする場合
+    text: 一　国内売上高が三十億円を下回らない範囲内において政令で定める金額を超える他の会社の事業の全部の譲受けをしようとする場合
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-16-p2-kou-2
     type: kou
-    text: 他の会社の事業の重要部分又は事業上の固定資産の全部若しくは重要部分の譲受けをしようとする場合であつて、当該譲受けの対象部分に係る国内売上高が三十億円を下回らない範囲内において政令で定める金額を超えるとき。
+    text: 二　他の会社の事業の重要部分又は事業上の固定資産の全部若しくは重要部分の譲受けをしようとする場合であつて、当該譲受けの対象部分に係る国内売上高が三十億円を下回らない範囲内において政令で定める金額を超えるとき。
     modality: unspecified
     item_number: 2
 - number: 3

@@ -22,16 +22,16 @@ paragraphs:
     text: 株式会社は、第百七条第二項第三号イの事由が生じた日（同号ハに掲げる事項についての定めがある場合にあっては、第一号に掲げる日又は第二号に掲げる日のいずれか遅い日。次項及び第五項において同じ。）に、取得条項付株式（同条第二項第三号ハに掲げる事項についての定めがある場合にあっては、前条第一項の規定により決定したもの。次項において同じ。）を取得する。
     modality: unspecified
     references:
-    - 前条
     - 次項
+    - 前条
   - id: kaisha-hou-art-170-p1-kou-1
     type: kou
-    text: 第百七条第二項第三号イの事由が生じた日
+    text: 一　第百七条第二項第三号イの事由が生じた日
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-170-p1-kou-2
     type: kou
-    text: 前条第三項の規定による通知の日又は同条第四項の公告の日から二週間を経過した日
+    text: 二　前条第三項の規定による通知の日又は同条第四項の公告の日から二週間を経過した日
     modality: unspecified
     item_number: 2
 - number: 2
@@ -45,22 +45,22 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-170-p2-kou-1
     type: kou
-    text: 第百七条第二項第三号ニに掲げる事項についての定めがある場合　同号ニの社債の社債権者
+    text: 一　第百七条第二項第三号ニに掲げる事項についての定めがある場合　同号ニの社債の社債権者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-170-p2-kou-2
     type: kou
-    text: 第百七条第二項第三号ホに掲げる事項についての定めがある場合　同号ホの新株予約権の新株予約権者
+    text: 二　第百七条第二項第三号ホに掲げる事項についての定めがある場合　同号ホの新株予約権の新株予約権者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-170-p2-kou-3
     type: kou
-    text: 第百七条第二項第三号ヘに掲げる事項についての定めがある場合　同号ヘの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
+    text: 三　第百七条第二項第三号ヘに掲げる事項についての定めがある場合　同号ヘの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-170-p2-kou-4
     type: kou
-    text: 第百八条第二項第六号ロに掲げる事項についての定めがある場合　同号ロの他の株式の株主
+    text: 四　第百八条第二項第六号ロに掲げる事項についての定めがある場合　同号ロの他の株式の株主
     modality: unspecified
     item_number: 4
 - number: 3

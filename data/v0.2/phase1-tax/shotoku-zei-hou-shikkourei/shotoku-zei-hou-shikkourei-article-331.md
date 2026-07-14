@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-331-p1-kou-1
     type: kou
-    text: その者の氏名及び住所並びに国内に居所があるときは当該居所
+    text: 一　その者の氏名及び住所並びに国内に居所があるときは当該居所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-331-p1-kou-2
     type: kou
-    text: その者の恒久的施設を通じて行う事業に係る事務所、事業所その他これらに準ずるもの（これらが二以上あるときは、そのうち主たるもの。第三百三十三条第一項第一号（非居住者が源泉徴収の免除の要件に該当しなくなつた場合の手続等）において「国内にある事務所等」という。）の名称及び所在地並びにその代表者その他の責任者の氏名並びに国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が当該責任者と異なるときは、納税管理人の氏名
+    text: 二　その者の恒久的施設を通じて行う事業に係る事務所、事業所その他これらに準ずるもの（これらが二以上あるときは、そのうち主たるもの。第三百三十三条第一項第一号（非居住者が源泉徴収の免除の要件に該当しなくなつた場合の手続等）において「国内にある事務所等」という。）の名称及び所在地並びにその代表者その他の責任者の氏名並びに国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が当該責任者と異なるときは、納税管理人の氏名
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-331-p1-kou-3
     type: kou
-    text: 前条第一号に規定する届出書を提出した年月日
+    text: 三　前条第一号に規定する届出書を提出した年月日
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-331-p1-kou-4
     type: kou
-    text: 前条第四号に掲げる要件に該当する事情の概要
+    text: 四　前条第四号に掲げる要件に該当する事情の概要
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-331-p1-kou-5
     type: kou
-    text: 前条第六号の記録を確実に行う旨
+    text: 五　前条第六号の記録を確実に行う旨
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikkourei-art-331-p1-kou-6
     type: kou
-    text: 当該証明書により法第二百十四条第一項の規定の適用を受けようとする同項に規定する対象国内源泉所得のうち主たるものの支払者の氏名又は名称、その住所、事務所、事業所その他当該対象国内源泉所得の支払の場所及びその支払の宛先並びに当該対象国内源泉所得の種類及び当該対象国内源泉所得の支払を受ける見込期間
+    text: 六　当該証明書により法第二百十四条第一項の規定の適用を受けようとする同項に規定する対象国内源泉所得のうち主たるものの支払者の氏名又は名称、その住所、事務所、事業所その他当該対象国内源泉所得の支払の場所及びその支払の宛先並びに当該対象国内源泉所得の種類及び当該対象国内源泉所得の支払を受ける見込期間
     modality: unspecified
     item_number: 6
   - id: shotoku-zei-hou-shikkourei-art-331-p1-kou-7
     type: kou
-    text: 当該証明書により法第二百十四条第一項の規定の適用を受けようとする国内源泉所得がその者の同項に規定する対象国内源泉所得に該当する事情
+    text: 七　当該証明書により法第二百十四条第一項の規定の適用を受けようとする国内源泉所得がその者の同項に規定する対象国内源泉所得に該当する事情
     modality: unspecified
     item_number: 7
   - id: shotoku-zei-hou-shikkourei-art-331-p1-kou-8
     type: kou
-    text: その他参考となるべき事項
+    text: 八　その他参考となるべき事項
     modality: unspecified
     item_number: 8
 - number: 2

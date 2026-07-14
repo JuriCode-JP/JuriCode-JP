@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shouhou-art-546-p1-kou-1
     type: kou
-    text: 各当事者の氏名又は名称
+    text: 一　各当事者の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: shouhou-art-546-p1-kou-2
     type: kou
-    text: 当該行為の年月日及びその要領
+    text: 二　当該行為の年月日及びその要領
     modality: unspecified
     item_number: 2
 - number: 2

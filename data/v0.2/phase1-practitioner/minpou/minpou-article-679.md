@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: minpou-art-679-p1-kou-1
     type: kou
-    text: 死亡
+    text: 一　死亡
     modality: unspecified
     item_number: 1
   - id: minpou-art-679-p1-kou-2
     type: kou
-    text: 破産手続開始の決定を受けたこと。
+    text: 二　破産手続開始の決定を受けたこと。
     modality: unspecified
     item_number: 2
   - id: minpou-art-679-p1-kou-3
     type: kou
-    text: 後見開始の審判を受けたこと。
+    text: 三　後見開始の審判を受けたこと。
     modality: unspecified
     item_number: 3
   - id: minpou-art-679-p1-kou-4
     type: kou
-    text: 除名
+    text: 四　除名
     modality: unspecified
     item_number: 4
 cases: []

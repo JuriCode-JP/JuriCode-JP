@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-1
     type: kou
-    text: 商品取引業
+    text: 一　商品取引業
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-2
     type: kou
-    text: 不動産売買業
+    text: 二　不動産売買業
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-3
     type: kou
-    text: 広告業
+    text: 三　広告業
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-4
     type: kou
-    text: 興信所業
+    text: 四　興信所業
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-5
     type: kou
-    text: 案内業
+    text: 五　案内業
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-10-7-p1-kou-6
     type: kou
-    text: 冠婚葬祭業
+    text: 六　冠婚葬祭業
     modality: unspecified
     item_number: 6
 cases: []

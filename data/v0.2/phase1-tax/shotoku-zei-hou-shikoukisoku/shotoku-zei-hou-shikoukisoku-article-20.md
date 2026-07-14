@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-20-p1-kou-1
     type: kou
-    text: 交付を受けた法第四十二条第一項に規定する国庫補助金等の額及びその交付の目的
+    text: 一　交付を受けた法第四十二条第一項に規定する国庫補助金等の額及びその交付の目的
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-20-p1-kou-2
     type: kou
-    text: 法第四十二条第一項の規定の適用を受けた固定資産に関する明細
+    text: 二　法第四十二条第一項の規定の適用を受けた固定資産に関する明細
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-20-p1-kou-3
     type: kou
-    text: 法第四十二条第二項に規定する固定資産の取得をした場合には、その取得の事由及びその資産の価額
+    text: 三　法第四十二条第二項に規定する固定資産の取得をした場合には、その取得の事由及びその資産の価額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-20-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

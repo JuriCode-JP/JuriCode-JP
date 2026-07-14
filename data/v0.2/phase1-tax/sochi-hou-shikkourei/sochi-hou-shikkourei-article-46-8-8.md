@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-46-8-8-p1-kou-1
     type: kou
-    text: 当該混和前の蒸留酒類（酒税法第三条第五号に規定する蒸留酒類をいう。次号及び次項において同じ。）は、アルコール分（同条第一号に規定するアルコール分をいう。第三号において同じ。）が二十度以上のもの（酒類の製造場から移出されたことにより酒税が納付された、若しくは納付されるべき又は保税地域から引き取られたことにより酒税が納付された、若しくは納付されるべき若しくは徴収された、若しくは徴収されるべきものに限る。）であること。
+    text: 一　当該混和前の蒸留酒類（酒税法第三条第五号に規定する蒸留酒類をいう。次号及び次項において同じ。）は、アルコール分（同条第一号に規定するアルコール分をいう。第三号において同じ。）が二十度以上のもの（酒類の製造場から移出されたことにより酒税が納付された、若しくは納付されるべき又は保税地域から引き取られたことにより酒税が納付された、若しくは納付されるべき若しくは徴収された、若しくは徴収されるべきものに限る。）であること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-46-8-8-p1-kou-2
     type: kou
-    text: 蒸留酒類と混和をする物品は、糖類、梅その他財務省令で定めるものであること。
+    text: 二　蒸留酒類と混和をする物品は、糖類、梅その他財務省令で定めるものであること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-46-8-8-p1-kou-3
     type: kou
-    text: 混和後新たにアルコール分が一度以上の発酵がないものであること。
+    text: 三　混和後新たにアルコール分が一度以上の発酵がないものであること。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -56,22 +56,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-46-8-8-p3-kou-1
     type: kou
-    text: 申告者の住所、氏名又は名称及び個人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第五項に規定する個人番号をいう。以下この章において同じ。）又は法人番号（同条第十六項に規定する法人番号をいう。以下この章において同じ。）
+    text: 一　申告者の住所、氏名又は名称及び個人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第五項に規定する個人番号をいう。以下この章において同じ。）又は法人番号（同条第十六項に規定する法人番号をいう。以下この章において同じ。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-46-8-8-p3-kou-2
     type: kou
-    text: 特例適用混和を開始する営業場の所在地及び名称
+    text: 二　特例適用混和を開始する営業場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-46-8-8-p3-kou-3
     type: kou
-    text: 特例適用混和の開始の年月日
+    text: 三　特例適用混和の開始の年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-46-8-8-p3-kou-4
     type: kou
-    text: 特例適用混和の方法
+    text: 四　特例適用混和の方法
     modality: unspecified
     item_number: 4
 - number: 4
@@ -85,17 +85,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-46-8-8-p4-kou-1
     type: kou
-    text: 申告者の住所、氏名又は名称及び個人番号又は法人番号
+    text: 一　申告者の住所、氏名又は名称及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-46-8-8-p4-kou-2
     type: kou
-    text: 特例適用混和を休止する営業場の所在地及び名称
+    text: 二　特例適用混和を休止する営業場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-46-8-8-p4-kou-3
     type: kou
-    text: 特例適用混和の休止の期間
+    text: 三　特例適用混和の休止の期間
     modality: unspecified
     item_number: 3
 - number: 5
@@ -109,17 +109,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-46-8-8-p5-kou-1
     type: kou
-    text: 申告者の住所、氏名又は名称及び個人番号又は法人番号
+    text: 一　申告者の住所、氏名又は名称及び個人番号又は法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-46-8-8-p5-kou-2
     type: kou
-    text: 特例適用混和を終了した営業場の所在地及び名称
+    text: 二　特例適用混和を終了した営業場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-46-8-8-p5-kou-3
     type: kou
-    text: 特例適用混和の終了の年月日
+    text: 三　特例適用混和の終了の年月日
     modality: unspecified
     item_number: 3
 - number: 6

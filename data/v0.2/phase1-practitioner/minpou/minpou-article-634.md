@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-634-p1-kou-1
     type: kou
-    text: 注文者の責めに帰することができない事由によって仕事を完成することができなくなったとき。
+    text: 一　注文者の責めに帰することができない事由によって仕事を完成することができなくなったとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-634-p1-kou-2
     type: kou
-    text: 請負が仕事の完成前に解除されたとき。
+    text: 二　請負が仕事の完成前に解除されたとき。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-249-10-p1-kou-1
     type: kou
-    text: 製造し、輸入し、販売し、授与し、販売若しくは授与の目的で陳列し、又は広告すること（以下この条及び次条において「製造等」という。）を禁止される者の氏名及び住所
+    text: 一　製造し、輸入し、販売し、授与し、販売若しくは授与の目的で陳列し、又は広告すること（以下この条及び次条において「製造等」という。）を禁止される者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-249-10-p1-kou-2
     type: kou
-    text: 製造等を禁止する物品の名称及び形状
+    text: 二　製造等を禁止する物品の名称及び形状
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-249-10-p1-kou-3
     type: kou
-    text: 製造等を禁止する理由
+    text: 三　製造等を禁止する理由
     modality: unspecified
     item_number: 3
 cases: []

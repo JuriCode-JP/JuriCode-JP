@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yuukashouken-kisei-furei-art-15-p1-kou-1
     type: kou
-    text: 第九条の三第一項各号（第十八号を除く。）に掲げる取引
+    text: 一　第九条の三第一項各号（第十八号を除く。）に掲げる取引
     modality: unspecified
     item_number: 1
   - id: yuukashouken-kisei-furei-art-15-p1-kou-2
     type: kou
-    text: 法第二条第三項第一号に規定する適格機関投資家（これに類する外国法人を含む。）に該当しない者が行う信用取引（売付けの数量が金融商品取引所の定める売買単位の五十倍以内である場合に限る。）
+    text: 二　法第二条第三項第一号に規定する適格機関投資家（これに類する外国法人を含む。）に該当しない者が行う信用取引（売付けの数量が金融商品取引所の定める売買単位の五十倍以内である場合に限る。）
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: yuukashouken-kisei-furei-art-15-p2-kou-1
     type: kou
-    text: 第九条の三第二項各号（第六号を除く。）に掲げる取引
+    text: 一　第九条の三第二項各号（第六号を除く。）に掲げる取引
     modality: unspecified
     item_number: 1
   - id: yuukashouken-kisei-furei-art-15-p2-kou-2
     type: kou
-    text: 法第二条第三項第一号に規定する適格機関投資家（これに類する外国法人を含む。）に該当しない者が行う信用取引（売付けの数量が認可金融商品取引業協会の定める売買単位の五十倍以内である場合に限る。）
+    text: 二　法第二条第三項第一号に規定する適格機関投資家（これに類する外国法人を含む。）に該当しない者が行う信用取引（売付けの数量が認可金融商品取引業協会の定める売買単位の五十倍以内である場合に限る。）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -61,12 +61,12 @@ paragraphs:
     modality: gimu
   - id: yuukashouken-kisei-furei-art-15-p3-kou-1
     type: kou
-    text: 第九条の三第三項各号（第五号を除く。）に掲げる取引
+    text: 一　第九条の三第三項各号（第五号を除く。）に掲げる取引
     modality: unspecified
     item_number: 1
   - id: yuukashouken-kisei-furei-art-15-p3-kou-2
     type: kou
-    text: 法第二条第三項第一号に規定する適格機関投資家（これに類する外国法人を含む。）に該当しない者が行う信用取引（売付けの数量が法第三十条第一項の認可を受けた金融商品取引業者の定める売買単位の五十倍以内である場合に限る。）
+    text: 二　法第二条第三項第一号に規定する適格機関投資家（これに類する外国法人を含む。）に該当しない者が行う信用取引（売付けの数量が法第三十条第一項の認可を受けた金融商品取引業者の定める売買単位の五十倍以内である場合に限る。）
     modality: unspecified
     item_number: 2
 cases: []

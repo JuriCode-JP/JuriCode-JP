@@ -43,12 +43,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-718-p3-kou-1
     type: kou
-    text: 第一項の規定による請求の後遅滞なく招集の手続が行われない場合
+    text: 一　第一項の規定による請求の後遅滞なく招集の手続が行われない場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-718-p3-kou-2
     type: kou
-    text: 第一項の規定による請求があった日から八週間以内の日を社債権者集会の日とする社債権者集会の招集の通知が発せられない場合
+    text: 二　第一項の規定による請求があった日から八週間以内の日を社債権者集会の日とする社債権者集会の招集の通知が発せられない場合
     modality: unspecified
     item_number: 2
 - number: 4

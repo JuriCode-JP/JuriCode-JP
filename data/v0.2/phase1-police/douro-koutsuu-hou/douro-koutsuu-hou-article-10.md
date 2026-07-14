@@ -39,12 +39,12 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-10-p2-kou-1
     type: kou
-    text: 車道を横断するとき。
+    text: 一　車道を横断するとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-10-p2-kou-2
     type: kou
-    text: 道路工事等のため歩道等を通行することができないとき、その他やむを得ないとき。
+    text: 二　道路工事等のため歩道等を通行することができないとき、その他やむを得ないとき。
     modality: unspecified
     item_number: 2
 - number: 3

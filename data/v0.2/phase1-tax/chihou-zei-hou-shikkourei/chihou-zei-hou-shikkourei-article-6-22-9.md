@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-22-9-p1-kou-1
     type: kou
-    text: ゴルフ場利用税
+    text: 一　ゴルフ場利用税
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-22-9-p1-kou-2
     type: kou
-    text: 軽油引取税
+    text: 二　軽油引取税
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-22-9-p1-kou-3
     type: kou
-    text: 入湯税
+    text: 三　入湯税
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-6-22-9-p1-kou-4
     type: kou
-    text: 道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの
+    text: 四　道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの
     modality: unspecified
     item_number: 4
 cases: []

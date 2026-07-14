@@ -38,17 +38,17 @@ paragraphs:
     - 前項
   - id: minpou-art-415-p2-kou-1
     type: kou
-    text: 債務の履行が不能であるとき。
+    text: 一　債務の履行が不能であるとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-415-p2-kou-2
     type: kou
-    text: 債務者がその債務の履行を拒絶する意思を明確に表示したとき。
+    text: 二　債務者がその債務の履行を拒絶する意思を明確に表示したとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-415-p2-kou-3
     type: kou
-    text: 債務が契約によって生じたものである場合において、その契約が解除され、又は債務の不履行による契約の解除権が発生したとき。
+    text: 三　債務が契約によって生じたものである場合において、その契約が解除され、又は債務の不履行による契約の解除権が発生したとき。
     modality: unspecified
     item_number: 3
 cases: []

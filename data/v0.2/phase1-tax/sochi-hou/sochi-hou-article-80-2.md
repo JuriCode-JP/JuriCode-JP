@@ -26,42 +26,42 @@ paragraphs:
     - 第九条
   - id: sochi-hou-art-80-2-p1-kou-1
     type: kou
-    text: 株式会社の設立又は資本金の額の増加（次号及び第三号に掲げるものを除く。）　千分の三・五
+    text: 一　株式会社の設立又は資本金の額の増加（次号及び第三号に掲げるものを除く。）　千分の三・五
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-80-2-p1-kou-2
     type: kou
-    text: 合併による株式会社の設立又は資本金の額の増加　千分の一（それぞれ資本金の額又は合併により増加した資本金の額のうち、合併により消滅した会社の当該合併の直前における資本金の額として財務省令で定めるものを超える資本金の額に対応する部分については、千分の三・五）
+    text: 二　合併による株式会社の設立又は資本金の額の増加　千分の一（それぞれ資本金の額又は合併により増加した資本金の額のうち、合併により消滅した会社の当該合併の直前における資本金の額として財務省令で定めるものを超える資本金の額に対応する部分については、千分の三・五）
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-80-2-p1-kou-3
     type: kou
-    text: 分割による株式会社の設立又は資本金の額の増加　千分の五
+    text: 三　分割による株式会社の設立又は資本金の額の増加　千分の五
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-80-2-p1-kou-4
     type: kou
-    text: 合併による不動産の所有権の取得　千分の二
+    text: 四　合併による不動産の所有権の取得　千分の二
     modality: unspecified
     item_number: 4
   - id: sochi-hou-art-80-2-p1-kou-5
     type: kou
-    text: 分割による不動産の所有権の取得　千分の四
+    text: 五　分割による不動産の所有権の取得　千分の四
     modality: unspecified
     item_number: 5
   - id: sochi-hou-art-80-2-p1-kou-6
     type: kou
-    text: 法人の設立、資本金若しくは出資金の額の増加又は事業に必要な資産の譲受けの場合における抵当権の取得（次号及び第八号に掲げるものを除く。）　千分の一・五
+    text: 六　法人の設立、資本金若しくは出資金の額の増加又は事業に必要な資産の譲受けの場合における抵当権の取得（次号及び第八号に掲げるものを除く。）　千分の一・五
     modality: unspecified
     item_number: 6
   - id: sochi-hou-art-80-2-p1-kou-7
     type: kou
-    text: 合併による抵当権の取得　千分の〇・五
+    text: 七　合併による抵当権の取得　千分の〇・五
     modality: unspecified
     item_number: 7
   - id: sochi-hou-art-80-2-p1-kou-8
     type: kou
-    text: 分割による抵当権の取得　千分の一
+    text: 八　分割による抵当権の取得　千分の一
     modality: unspecified
     item_number: 8
 cases: []

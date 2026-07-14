@@ -66,12 +66,12 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikkourei-art-129-p5-kou-1
     type: kou
-    text: 当該適用開始事業年度以後のいずれかの事業年度の確定した決算において第三項に規定する工事進行基準の方法により経理した場合　その経理した決算に係る事業年度
+    text: 一　当該適用開始事業年度以後のいずれかの事業年度の確定した決算において第三項に規定する工事進行基準の方法により経理した場合　その経理した決算に係る事業年度
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-129-p5-kou-2
     type: kou
-    text: 当該適用開始事業年度以後のいずれかの事業年度において本文の規定の適用を受けなかつた場合　その適用を受けなかつた事業年度
+    text: 二　当該適用開始事業年度以後のいずれかの事業年度において本文の規定の適用を受けなかつた場合　その適用を受けなかつた事業年度
     modality: unspecified
     item_number: 2
 - number: 6

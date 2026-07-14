@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-11-p1-kou-1
     type: kou
-    text: 特定医療機器利用者の氏名、住所、生年月日及び性別
+    text: 一　特定医療機器利用者の氏名、住所、生年月日及び性別
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-11-p1-kou-2
     type: kou
-    text: 特定医療機器の名称及び製造番号若しくは製造記号又はこれに代わるもの
+    text: 二　特定医療機器の名称及び製造番号若しくは製造記号又はこれに代わるもの
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-11-p1-kou-3
     type: kou
-    text: 特定医療機器の植込みを行つた年月日
+    text: 三　特定医療機器の植込みを行つた年月日
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-228-11-p1-kou-4
     type: kou
-    text: 植込みを行つた医療機関の名称及び所在地
+    text: 四　植込みを行つた医療機関の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-228-11-p1-kou-5
     type: kou
-    text: その他特定医療機器に係る保健衛生上の危害の発生を防止するために必要な事項
+    text: 五　その他特定医療機器に係る保健衛生上の危害の発生を防止するために必要な事項
     modality: unspecified
     item_number: 5
 cases: []

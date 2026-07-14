@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-37-2-5-p1-kou-1
     type: kou
-    text: 事務所の用に供する不動産
+    text: 一　事務所の用に供する不動産
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-37-2-5-p1-kou-2
     type: kou
-    text: 宿舎（業務上宿舎を使用すべき義務がある者が使用するものとされている宿舎その他これに準ずる宿舎で総務省令で定めるものを除く。）の用に供する不動産
+    text: 二　宿舎（業務上宿舎を使用すべき義務がある者が使用するものとされている宿舎その他これに準ずる宿舎で総務省令で定めるものを除く。）の用に供する不動産
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-37-2-5-p1-kou-3
     type: kou
-    text: その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する不動産
+    text: 三　その利用について対価又は負担として支払うべき金額の定めのある駐車施設その他の施設で総務省令で定めるものの用に供する不動産
     modality: unspecified
     item_number: 3
 cases: []

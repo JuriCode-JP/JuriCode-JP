@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-32-p1-kou-1
     type: kou
-    text: 所得税法等の一部を改正する法律（令和三年法律第十一号）附則第五十条第八項の規定によりなおその効力を有するものとされる同法第七条の規定による改正前の租税特別措置法第四十五条の規定
+    text: 一　所得税法等の一部を改正する法律（令和三年法律第十一号）附則第五十条第八項の規定によりなおその効力を有するものとされる同法第七条の規定による改正前の租税特別措置法第四十五条の規定
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-32-p1-kou-2
     type: kou
-    text: 所得税法等の一部を改正する法律（令和五年法律第三号）附則第四十二条第二項の規定によりなおその効力を有するものとされる同法第十条の規定による改正前の租税特別措置法第四十三条の二の規定
+    text: 二　所得税法等の一部を改正する法律（令和五年法律第三号）附則第四十二条第二項の規定によりなおその効力を有するものとされる同法第十条の規定による改正前の租税特別措置法第四十三条の二の規定
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-32-p1-kou-3
     type: kou
-    text: 所得税法等の一部を改正する法律（令和八年法律第十二号）附則第五十九条第一項の規定によりなおその効力を有するものとされる同法第七条の規定による改正前の租税特別措置法第四十八条の規定
+    text: 三　所得税法等の一部を改正する法律（令和八年法律第十二号）附則第五十九条第一項の規定によりなおその効力を有するものとされる同法第七条の規定による改正前の租税特別措置法第四十八条の規定
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-32-p1-kou-4
     type: kou
-    text: 前三号に掲げる規定に係る法第五十二条の三の規定
+    text: 四　前三号に掲げる規定に係る法第五十二条の三の規定
     modality: unspecified
     item_number: 4
 - number: 2

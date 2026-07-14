@@ -28,12 +28,12 @@ paragraphs:
     - 次項
   - id: kinsho-hou-art-65-5-p1-kou-1
     type: kou
-    text: 売買（デリバティブ取引に該当するものを除く。）又はその代理若しくは媒介
+    text: 一　売買（デリバティブ取引に該当するものを除く。）又はその代理若しくは媒介
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-65-5-p1-kou-2
     type: kou
-    text: 第二条第八項第八号又は第九号に掲げる行為
+    text: 二　第二条第八項第八号又は第九号に掲げる行為
     modality: unspecified
     item_number: 2
 - number: 2
@@ -57,8 +57,8 @@ paragraphs:
     text: 独立行政法人住宅金融支援機構（次項において「機構」という。）が、独立行政法人住宅金融支援機構法（平成十七年法律第八十二号）第二十二条の規定による第二条第一項第十四号に掲げる有価証券若しくは同項第十七号に掲げる有価証券（同項第十四号に掲げる有価証券の性質を有するものに限る。）に表示される権利又は同条第二項第一号若しくは第二号に掲げる権利の販売（次項において「信託受益権の販売」という。）を行う場合には、第二十九条の規定は、適用しない。
     modality: jogai
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

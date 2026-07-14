@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の子が出生した場合において、第七百七十二条の規定によりその子の父が定められるときは、同項の規定による認知は、その効力を生じない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

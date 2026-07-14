@@ -33,8 +33,8 @@ paragraphs:
     text: 前項に規定する障害者とは、精神上の障害により事理を弁識する能力を欠く常況にある者、失明者その他の精神又は身体に障害がある者で政令で定めるものをいい、同項に規定する特別障害者とは、同項の障害者のうち精神又は身体に重度の障害がある者で政令で定めるものをいう。
     modality: teigi
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-454-p1-kou-1
     type: kou
-    text: 配当財産の種類（当該株式会社の株式等を除く。）及び帳簿価額の総額
+    text: 一　配当財産の種類（当該株式会社の株式等を除く。）及び帳簿価額の総額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-454-p1-kou-2
     type: kou
-    text: 株主に対する配当財産の割当てに関する事項
+    text: 二　株主に対する配当財産の割当てに関する事項
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-454-p1-kou-3
     type: kou
-    text: 当該剰余金の配当がその効力を生ずる日
+    text: 三　当該剰余金の配当がその効力を生ずる日
     modality: unspecified
     item_number: 3
 - number: 2
@@ -48,16 +48,16 @@ paragraphs:
     text: 前項に規定する場合において、剰余金の配当について内容の異なる二以上の種類の株式を発行しているときは、株式会社は、当該種類の株式の内容に応じ、同項第二号に掲げる事項として、次に掲げる事項を定めることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-454-p2-kou-1
     type: kou
-    text: ある種類の株式の株主に対して配当財産の割当てをしないこととするときは、その旨及び当該株式の種類
+    text: 一　ある種類の株式の株主に対して配当財産の割当てをしないこととするときは、その旨及び当該株式の種類
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-454-p2-kou-2
     type: kou
-    text: 前号に掲げる事項のほか、配当財産の割当てについて株式の種類ごとに異なる取扱いを行うこととするときは、その旨及び当該異なる取扱いの内容
+    text: 二　前号に掲げる事項のほか、配当財産の割当てについて株式の種類ごとに異なる取扱いを行うこととするときは、その旨及び当該異なる取扱いの内容
     modality: unspecified
     item_number: 2
 - number: 3
@@ -82,12 +82,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-454-p4-kou-1
     type: kou
-    text: 株主に対して金銭分配請求権（当該配当財産に代えて金銭を交付することを株式会社に対して請求する権利をいう。以下この章において同じ。）を与えるときは、その旨及び金銭分配請求権を行使することができる期間
+    text: 一　株主に対して金銭分配請求権（当該配当財産に代えて金銭を交付することを株式会社に対して請求する権利をいう。以下この章において同じ。）を与えるときは、その旨及び金銭分配請求権を行使することができる期間
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-454-p4-kou-2
     type: kou
-    text: 一定の数未満の数の株式を有する株主に対して配当財産の割当てをしないこととするときは、その旨及びその数
+    text: 二　一定の数未満の数の株式を有する株主に対して配当財産の割当てをしないこととするときは、その旨及びその数
     modality: unspecified
     item_number: 2
 - number: 5

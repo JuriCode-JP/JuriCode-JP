@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: sochi-hou-art-71-17-p1-kou-1
     type: kou
-    text: 地価税法第十八条第一項第一号に掲げる金額に相当する金額
+    text: 一　地価税法第十八条第一項第一号に掲げる金額に相当する金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-71-17-p1-kou-2
     type: kou
-    text: 当該合併の直前において有していた土地等につき地価税法その他地価税に関する法令の規定の例により計算した当該合併の直前における課税価格に相当する金額
+    text: 二　当該合併の直前において有していた土地等につき地価税法その他地価税に関する法令の規定の例により計算した当該合併の直前における課税価格に相当する金額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の規定は、同項の規定の適用を受けようとする課税時期に係る地価税の申告書に同項の規定の適用を受けようとする旨の記載があり、かつ、同項第二号の合併の直前において有していた土地等の明細その他の事項を記載した書類その他の財務省令で定める書類の添付がある場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -53,8 +53,8 @@ paragraphs:
     text: 税務署長は、地価税の申告書の提出がなかつた場合又は前項の記載若しくは添付がない地価税の申告書の提出があつた場合においても、その提出又は記載若しくは添付がなかつたことについてやむを得ない事情があると認めるときは、当該記載をした書類及び同項の財務省令で定める書類の提出があつた場合に限り、第一項の規定を適用することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -25,32 +25,32 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-shikkourei-art-49-4-p1-kou-1
     type: kou
-    text: 倉庫
+    text: 一　倉庫
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-49-4-p1-kou-2
     type: kou
-    text: ダム（ダムと一体となつてその効用を全うする施設及び工作物を含む。以下この項、第五十一条の十六の二第三号、第五十一条の十六の四第三号及び第五十二条の十の二において同じ。）の用に供する固定資産（当該ダムが発電、水道又は工業用水道の用に供される場合には、当該固定資産のうち、当該固定資産の価格に当該ダムの新築又は改築に要する費用の額につき当該ダムを発電、水道又は工業用水道の用に供する者が負担する額の当該費用の額に対する割合を乗じて得た価格に相当する部分を除く。）
+    text: 二　ダム（ダムと一体となつてその効用を全うする施設及び工作物を含む。以下この項、第五十一条の十六の二第三号、第五十一条の十六の四第三号及び第五十二条の十の二において同じ。）の用に供する固定資産（当該ダムが発電、水道又は工業用水道の用に供される場合には、当該固定資産のうち、当該固定資産の価格に当該ダムの新築又は改築に要する費用の額につき当該ダムを発電、水道又は工業用水道の用に供する者が負担する額の当該費用の額に対する割合を乗じて得た価格に相当する部分を除く。）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-49-4-p1-kou-3
     type: kou
-    text: 堰せき、湖沼水位調節施設及び水路施設並びにこれらの用に供する土地
+    text: 三　堰、湖沼水位調節施設及び水路施設並びにこれらの用に供する土地
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-49-4-p1-kou-4
     type: kou
-    text: 前号の施設の操作又は監視の用に供する固定資産
+    text: 四　前号の施設の操作又は監視の用に供する固定資産
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-49-4-p1-kou-5
     type: kou
-    text: ダム、堰せき、湖沼水位調節施設及び水路施設に係る工事の用に供する家屋又はこれらの施設の維持の用に供する家屋
+    text: 五　ダム、堰、湖沼水位調節施設及び水路施設に係る工事の用に供する家屋又はこれらの施設の維持の用に供する家屋
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-49-4-p1-kou-6
     type: kou
-    text: 水資源の開発又は利用に関する調査の用に供する家屋
+    text: 六　水資源の開発又は利用に関する調査の用に供する家屋
     modality: unspecified
     item_number: 6
 - number: 2
@@ -64,22 +64,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-49-4-p2-kou-1
     type: kou
-    text: 事務所及び倉庫
+    text: 一　事務所及び倉庫
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-49-4-p2-kou-2
     type: kou
-    text: 農業用用排水施設及びその用に供する土地
+    text: 二　農業用用排水施設及びその用に供する土地
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-49-4-p2-kou-3
     type: kou
-    text: 前号の施設の操作又は監視の用に供する固定資産
+    text: 三　前号の施設の操作又は監視の用に供する固定資産
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-49-4-p2-kou-4
     type: kou
-    text: 防風林及び土砂防止林
+    text: 四　防風林及び土砂防止林
     modality: unspecified
     item_number: 4
 - number: 3
@@ -93,12 +93,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-49-4-p3-kou-1
     type: kou
-    text: 公有地の拡大の推進に関する法律第十七条第一項第一号に規定する業務の用に供する同号イからニまでに掲げる土地（同号ニに掲げる土地にあつては、同号ニに規定する政令で定める事業の用に供する土地を除く。）
+    text: 一　公有地の拡大の推進に関する法律第十七条第一項第一号に規定する業務の用に供する同号イからニまでに掲げる土地（同号ニに掲げる土地にあつては、同号ニに規定する政令で定める事業の用に供する土地を除く。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-49-4-p3-kou-2
     type: kou
-    text: 公有地の拡大の推進に関する法律施行令第七条第二項各号に掲げる土地
+    text: 二　公有地の拡大の推進に関する法律施行令第七条第二項各号に掲げる土地
     modality: unspecified
     item_number: 2
 cases: []
@@ -125,11 +125,11 @@ parent_section:
 
 二　ダム（ダムと一体となつてその効用を全うする施設及び工作物を含む。以下この項、第五十一条の十六の二第三号、第五十一条の十六の四第三号及び第五十二条の十の二において同じ。）の用に供する固定資産（当該ダムが発電、水道又は工業用水道の用に供される場合には、当該固定資産のうち、当該固定資産の価格に当該ダムの新築又は改築に要する費用の額につき当該ダムを発電、水道又は工業用水道の用に供する者が負担する額の当該費用の額に対する割合を乗じて得た価格に相当する部分を除く。）
 
-三　堰せき、湖沼水位調節施設及び水路施設並びにこれらの用に供する土地
+三　堰、湖沼水位調節施設及び水路施設並びにこれらの用に供する土地
 
 四　前号の施設の操作又は監視の用に供する固定資産
 
-五　ダム、堰せき、湖沼水位調節施設及び水路施設に係る工事の用に供する家屋又はこれらの施設の維持の用に供する家屋
+五　ダム、堰、湖沼水位調節施設及び水路施設に係る工事の用に供する家屋又はこれらの施設の維持の用に供する家屋
 
 六　水資源の開発又は利用に関する調査の用に供する家屋
 

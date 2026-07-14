@@ -32,12 +32,12 @@ paragraphs:
     modality: unspecified
   - id: keiji-soshou-hou-art-495-p2-kou-1
     type: kou
-    text: 検察官が上訴を申し立てたとき。
+    text: 一　検察官が上訴を申し立てたとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-495-p2-kou-2
     type: kou
-    text: 検察官以外の者が上訴を申し立てた場合においてその上訴審において原判決が破棄されたとき。
+    text: 二　検察官以外の者が上訴を申し立てた場合においてその上訴審において原判決が破棄されたとき。
     modality: unspecified
     item_number: 2
 - number: 3

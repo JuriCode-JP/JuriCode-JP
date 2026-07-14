@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-35-3-p1-kou-1
     type: kou
-    text: 調査（法第七十二条の四十九の六第一項第一号に規定する調査をいう。以下この条において同じ。）の相手方である同項に規定する納税義務者の氏名及び住所又は居所
+    text: 一　調査（法第七十二条の四十九の六第一項第一号に規定する調査をいう。以下この条において同じ。）の相手方である同項に規定する納税義務者の氏名及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-35-3-p1-kou-2
     type: kou
-    text: 調査を行う総務省指定職員の氏名（総務省指定職員が複数であるときは、総務省指定職員を代表する者の氏名）
+    text: 二　調査を行う総務省指定職員の氏名（総務省指定職員が複数であるときは、総務省指定職員を代表する者の氏名）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-35-3-p1-kou-3
     type: kou
-    text: 法第七十二条の四十九の六第一項第一号又は第二号に掲げる事項の変更に関する事項
+    text: 三　法第七十二条の四十九の六第一項第一号又は第二号に掲げる事項の変更に関する事項
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-35-3-p1-kou-4
     type: kou
-    text: 法第七十二条の四十九の六第三項の規定の趣旨
+    text: 四　法第七十二条の四十九の六第三項の規定の趣旨
     modality: unspecified
     item_number: 4
 - number: 2

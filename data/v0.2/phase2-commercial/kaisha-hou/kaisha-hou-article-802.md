@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-802-p1-kou-1
     type: kou
-    text: 吸収合併（吸収合併により当該持分会社が存続する場合に限る。）　第七百五十一条第一項第二号に規定する場合
+    text: 一　吸収合併（吸収合併により当該持分会社が存続する場合に限る。）　第七百五十一条第一項第二号に規定する場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-802-p1-kou-2
     type: kou
-    text: 吸収分割による他の会社がその事業に関して有する権利義務の全部又は一部の承継　第七百六十条第四号に規定する場合
+    text: 二　吸収分割による他の会社がその事業に関して有する権利義務の全部又は一部の承継　第七百六十条第四号に規定する場合
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-802-p1-kou-3
     type: kou
-    text: 株式交換による株式会社の発行済株式の全部の取得　第七百七十条第一項第二号に規定する場合
+    text: 三　株式交換による株式会社の発行済株式の全部の取得　第七百七十条第一項第二号に規定する場合
     modality: unspecified
     item_number: 3
 - number: 2

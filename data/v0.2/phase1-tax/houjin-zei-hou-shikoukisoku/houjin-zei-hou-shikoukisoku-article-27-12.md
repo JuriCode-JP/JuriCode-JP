@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-27-12-p1-kou-1
     type: kou
-    text: その償還が外国通貨で行われる債券
+    text: 一　その償還が外国通貨で行われる債券
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-27-12-p1-kou-2
     type: kou
-    text: 残余財産の分配が外国通貨で行われる株式
+    text: 二　残余財産の分配が外国通貨で行われる株式
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-27-12-p1-kou-3
     type: kou
-    text: 前二号に掲げる有価証券に準ずる有価証券
+    text: 三　前二号に掲げる有価証券に準ずる有価証券
     modality: unspecified
     item_number: 3
 cases: []

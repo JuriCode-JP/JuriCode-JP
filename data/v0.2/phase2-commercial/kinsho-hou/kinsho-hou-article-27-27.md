@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-27-27-p1-kou-1
     type: kou
-    text: 金融商品取引所に上場されている株券等の発行者が発行する株券等　当該金融商品取引所
+    text: 一　金融商品取引所に上場されている株券等の発行者が発行する株券等　当該金融商品取引所
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-27-27-p1-kou-2
     type: kou
-    text: 流通状況が前号に掲げる株券等に準ずるものとして政令で定める株券等の発行者が発行する株券等　政令で定める認可金融商品取引業協会
+    text: 二　流通状況が前号に掲げる株券等に準ずるものとして政令で定める株券等の発行者が発行する株券等　政令で定める認可金融商品取引業協会
     modality: unspecified
     item_number: 2
 cases: []

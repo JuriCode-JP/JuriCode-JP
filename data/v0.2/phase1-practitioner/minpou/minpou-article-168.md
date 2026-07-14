@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-168-p1-kou-1
     type: kou
-    text: 債権者が定期金の債権から生ずる金銭その他の物の給付を目的とする各債権を行使することができることを知った時から十年間行使しないとき。
+    text: 一　債権者が定期金の債権から生ずる金銭その他の物の給付を目的とする各債権を行使することができることを知った時から十年間行使しないとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-168-p1-kou-2
     type: kou
-    text: 前号に規定する各債権を行使することができる時から二十年間行使しないとき。
+    text: 二　前号に規定する各債権を行使することができる時から二十年間行使しないとき。
     modality: unspecified
     item_number: 2
 - number: 2

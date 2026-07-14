@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: minpou-art-509-p1-kou-1
     type: kou
-    text: 悪意による不法行為に基づく損害賠償の債務
+    text: 一　悪意による不法行為に基づく損害賠償の債務
     modality: unspecified
     item_number: 1
   - id: minpou-art-509-p1-kou-2
     type: kou
-    text: 人の生命又は身体の侵害による損害賠償の債務（前号に掲げるものを除く。）
+    text: 二　人の生命又は身体の侵害による損害賠償の債務（前号に掲げるものを除く。）
     modality: unspecified
     item_number: 2
 cases: []

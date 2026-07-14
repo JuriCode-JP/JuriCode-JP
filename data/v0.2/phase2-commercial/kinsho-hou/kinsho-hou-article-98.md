@@ -31,8 +31,8 @@ paragraphs:
     text: 理事及び監事は、次項の規定により選任される理事を除き、定款の定めるところにより、会員が選挙し、理事長は、定款の定めるところにより、理事（同項の規定により選任される理事を除く。）が選挙する。
     modality: unspecified
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -53,12 +53,12 @@ paragraphs:
     modality: kanou_negative
   - id: kinsho-hou-art-98-p4-kou-1
     type: kou
-    text: 心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
+    text: 一　心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-98-p4-kou-2
     type: kou
-    text: 第二十九条の四第一項第二号ロからリまで又は会社法第三百三十一条第一項第三号のいずれかに該当する者
+    text: 二　第二十九条の四第一項第二号ロからリまで又は会社法第三百三十一条第一項第三号のいずれかに該当する者
     modality: unspecified
     item_number: 2
 - number: 5

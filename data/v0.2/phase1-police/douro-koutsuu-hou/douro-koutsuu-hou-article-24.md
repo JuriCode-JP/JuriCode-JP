@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 車両等の運転者は、危険を防止するためやむを得ない場合を除き、その車両等を急に停止させ、又はその速度を急激に減ずることとなるような急ブレーキをかけてはならない。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-24-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の二第一項第四号、第百十七条の二の二第一項第八号ハ、第百十九条第一項第三号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

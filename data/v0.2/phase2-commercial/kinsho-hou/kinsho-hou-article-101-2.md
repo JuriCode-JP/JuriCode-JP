@@ -56,56 +56,56 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-101-2-p4-kou-1
     type: kou
-    text: 組織変更後株式会社金融商品取引所の目的、商号、本店の所在地及び発行可能株式総数
+    text: 一　組織変更後株式会社金融商品取引所の目的、商号、本店の所在地及び発行可能株式総数
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-101-2-p4-kou-2
     type: kou
-    text: 前号に掲げるもののほか、組織変更後株式会社金融商品取引所の定款で定める事項
+    text: 二　前号に掲げるもののほか、組織変更後株式会社金融商品取引所の定款で定める事項
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-101-2-p4-kou-3
     type: kou
-    text: 組織変更後株式会社金融商品取引所の取締役の氏名及び会計監査人の氏名又は名称
+    text: 三　組織変更後株式会社金融商品取引所の取締役の氏名及び会計監査人の氏名又は名称
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-101-2-p4-kou-4
     type: kou
-    text: '次のイ及びロに掲げる場合の区分に応じ、それぞれ当該イ及びロに定める事項
+    text: '四　次のイ及びロに掲げる場合の区分に応じ、それぞれ当該イ及びロに定める事項
 
-      イ 組織変更後株式会社金融商品取引所が会計参与設置会社である場合　組織変更後株式会社金融商品取引所の会計参与の氏名又は名称
+      イ　組織変更後株式会社金融商品取引所が会計参与設置会社である場合　組織変更後株式会社金融商品取引所の会計参与の氏名又は名称
 
-      ロ 組織変更後株式会社金融商品取引所が監査役設置会社である場合　組織変更後株式会社金融商品取引所の監査役の氏名'
+      ロ　組織変更後株式会社金融商品取引所が監査役設置会社である場合　組織変更後株式会社金融商品取引所の監査役の氏名'
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-101-2-p4-kou-5
     type: kou
-    text: 組織変更をする会員金融商品取引所の会員が組織変更に際して取得する組織変更後株式会社金融商品取引所の株式の数（組織変更後株式会社金融商品取引所が種類株式発行会社である場合にあつては、株式の種類及び種類ごとの数）又はその数の算定方法
+    text: 五　組織変更をする会員金融商品取引所の会員が組織変更に際して取得する組織変更後株式会社金融商品取引所の株式の数（組織変更後株式会社金融商品取引所が種類株式発行会社である場合にあつては、株式の種類及び種類ごとの数）又はその数の算定方法
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-101-2-p4-kou-6
     type: kou
-    text: 組織変更をする会員金融商品取引所の会員に対する前号の株式の割当てに関する事項
+    text: 六　組織変更をする会員金融商品取引所の会員に対する前号の株式の割当てに関する事項
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-101-2-p4-kou-7
     type: kou
-    text: 組織変更後株式会社金融商品取引所が組織変更に際して組織変更をする会員金融商品取引所の会員に対して金銭を交付するときは、その額又はその算定方法
+    text: 七　組織変更後株式会社金融商品取引所が組織変更に際して組織変更をする会員金融商品取引所の会員に対して金銭を交付するときは、その額又はその算定方法
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-101-2-p4-kou-8
     type: kou
-    text: 前号に規定する場合には、組織変更をする会員金融商品取引所の会員に対する同号の金銭の割当てに関する事項
+    text: 八　前号に規定する場合には、組織変更をする会員金融商品取引所の会員に対する同号の金銭の割当てに関する事項
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-art-101-2-p4-kou-9
     type: kou
-    text: 組織変更後株式会社金融商品取引所の資本金及び準備金の額に関する事項
+    text: 九　組織変更後株式会社金融商品取引所の資本金及び準備金の額に関する事項
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-art-101-2-p4-kou-10
     type: kou
-    text: 組織変更がその効力を生ずる日（以下この目において「効力発生日」という。）その他内閣府令で定める事項
+    text: 十　組織変更がその効力を生ずる日（以下この目において「効力発生日」という。）その他内閣府令で定める事項
     modality: unspecified
     item_number: 10
 - number: 5

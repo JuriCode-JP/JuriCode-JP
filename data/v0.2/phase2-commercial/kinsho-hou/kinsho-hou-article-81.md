@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-81-p1-kou-1
     type: kou
-    text: 名称又は商号
+    text: 一　名称又は商号
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-81-p1-kou-2
     type: kou
-    text: 事務所又は本店、支店その他の営業所の所在の場所
+    text: 二　事務所又は本店、支店その他の営業所の所在の場所
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-81-p1-kou-3
     type: kou
-    text: 役員の氏名又は名称及び会員又は取引参加者（以下「会員等」という。）の商号、名称又は氏名
+    text: 三　役員の氏名又は名称及び会員又は取引参加者（以下「会員等」という。）の商号、名称又は氏名
     modality: unspecified
     item_number: 3
 - number: 2

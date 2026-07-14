@@ -32,17 +32,17 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-jichi-hou-art-245-5-p2-kou-1
     type: kou
-    text: 市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する事務（第一号法定受託事務を除く。次号及び第三号において同じ。）　都道府県知事
+    text: 一　市町村長その他の市町村の執行機関（教育委員会及び選挙管理委員会を除く。）の担任する事務（第一号法定受託事務を除く。次号及び第三号において同じ。）　都道府県知事
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-245-5-p2-kou-2
     type: kou
-    text: 市町村教育委員会の担任する事務　都道府県教育委員会
+    text: 二　市町村教育委員会の担任する事務　都道府県教育委員会
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-245-5-p2-kou-3
     type: kou
-    text: 市町村選挙管理委員会の担任する事務　都道府県選挙管理委員会
+    text: 三　市町村選挙管理委員会の担任する事務　都道府県選挙管理委員会
     modality: unspecified
     item_number: 3
 - number: 3

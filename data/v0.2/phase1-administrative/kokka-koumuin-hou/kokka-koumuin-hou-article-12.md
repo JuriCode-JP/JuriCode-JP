@@ -70,82 +70,82 @@ paragraphs:
     modality: gimu
   - id: kokka-koumuin-hou-art-12-p6-kou-1
     type: kou
-    text: 人事院規則の制定及び改廃
+    text: 一　人事院規則の制定及び改廃
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-12-p6-kou-2
     type: kou
-    text: 削除
+    text: 二　削除
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-12-p6-kou-3
     type: kou
-    text: 第二十二条の規定による関係大臣その他の機関の長に対する勧告
+    text: 三　第二十二条の規定による関係大臣その他の機関の長に対する勧告
     modality: unspecified
     item_number: 3
   - id: kokka-koumuin-hou-art-12-p6-kou-4
     type: kou
-    text: 第二十三条の規定による国会及び内閣に対する意見の申出
+    text: 四　第二十三条の規定による国会及び内閣に対する意見の申出
     modality: unspecified
     item_number: 4
   - id: kokka-koumuin-hou-art-12-p6-kou-5
     type: kou
-    text: 第二十四条の規定による国会及び内閣に対する報告
+    text: 五　第二十四条の規定による国会及び内閣に対する報告
     modality: unspecified
     item_number: 5
   - id: kokka-koumuin-hou-art-12-p6-kou-6
     type: kou
-    text: 第二十八条の規定による国会及び内閣に対する勧告
+    text: 六　第二十八条の規定による国会及び内閣に対する勧告
     modality: unspecified
     item_number: 6
   - id: kokka-koumuin-hou-art-12-p6-kou-7
     type: kou
-    text: 第四十八条の規定による試験機関の指定
+    text: 七　第四十八条の規定による試験機関の指定
     modality: unspecified
     item_number: 7
   - id: kokka-koumuin-hou-art-12-p6-kou-8
     type: kou
-    text: 第六十条の規定による臨時的任用及びその更新に対する承認、臨時的任用に係る職員の員数の制限及びその資格要件の決定並びに臨時的任用の取消（人事院規則の定める場合を除く。）
+    text: 八　第六十条の規定による臨時的任用及びその更新に対する承認、臨時的任用に係る職員の員数の制限及びその資格要件の決定並びに臨時的任用の取消（人事院規則の定める場合を除く。）
     modality: unspecified
     item_number: 8
   - id: kokka-koumuin-hou-art-12-p6-kou-9
     type: kou
-    text: 第六十七条の規定による給与に関する法律に定める事項の改定案の作成並びに国会及び内閣に対する勧告
+    text: 九　第六十七条の規定による給与に関する法律に定める事項の改定案の作成並びに国会及び内閣に対する勧告
     modality: unspecified
     item_number: 9
   - id: kokka-koumuin-hou-art-12-p6-kou-10
     type: kou
-    text: 第八十七条の規定による事案の判定
+    text: 十　第八十七条の規定による事案の判定
     modality: unspecified
     item_number: 10
   - id: kokka-koumuin-hou-art-12-p6-kou-11
     type: kou
-    text: 第九十二条の規定による処分の判定
+    text: 十一　第九十二条の規定による処分の判定
     modality: unspecified
     item_number: 11
   - id: kokka-koumuin-hou-art-12-p6-kou-12
     type: kou
-    text: 第九十五条の規定による補償に関する重要事項の立案
+    text: 十二　第九十五条の規定による補償に関する重要事項の立案
     modality: unspecified
     item_number: 12
   - id: kokka-koumuin-hou-art-12-p6-kou-13
     type: kou
-    text: 第百三条第五項の審査請求に対する裁決
+    text: 十三　第百三条第五項の審査請求に対する裁決
     modality: unspecified
     item_number: 13
   - id: kokka-koumuin-hou-art-12-p6-kou-14
     type: kou
-    text: 第百八条の規定による国会及び内閣に対する意見の申出
+    text: 十四　第百八条の規定による国会及び内閣に対する意見の申出
     modality: unspecified
     item_number: 14
   - id: kokka-koumuin-hou-art-12-p6-kou-15
     type: kou
-    text: 第百八条の三第六項の規定による職員団体の登録の効力の停止及び取消し
+    text: 十五　第百八条の三第六項の規定による職員団体の登録の効力の停止及び取消し
     modality: unspecified
     item_number: 15
   - id: kokka-koumuin-hou-art-12-p6-kou-16
     type: kou
-    text: その他人事院の議決によりその議決を必要とされた事項
+    text: 十六　その他人事院の議決によりその議決を必要とされた事項
     modality: unspecified
     item_number: 16
 cases: []

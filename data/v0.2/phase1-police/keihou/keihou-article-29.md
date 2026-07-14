@@ -23,22 +23,22 @@ paragraphs:
     modality: koka_torikeshi
   - id: keihou-art-29-p1-kou-1
     type: kou
-    text: 仮釈放中に更に罪を犯し、罰金以上の刑に処せられたとき。
+    text: 一　仮釈放中に更に罪を犯し、罰金以上の刑に処せられたとき。
     modality: unspecified
     item_number: 1
   - id: keihou-art-29-p1-kou-2
     type: kou
-    text: 仮釈放前に犯した他の罪について罰金以上の刑に処せられたとき。
+    text: 二　仮釈放前に犯した他の罪について罰金以上の刑に処せられたとき。
     modality: unspecified
     item_number: 2
   - id: keihou-art-29-p1-kou-3
     type: kou
-    text: 仮釈放前に他の罪について罰金以上の刑に処せられた者に対し、その刑の執行をすべきとき。
+    text: 三　仮釈放前に他の罪について罰金以上の刑に処せられた者に対し、その刑の執行をすべきとき。
     modality: unspecified
     item_number: 3
   - id: keihou-art-29-p1-kou-4
     type: kou
-    text: 仮釈放中に遵守すべき事項を遵守しなかったとき。
+    text: 四　仮釈放中に遵守すべき事項を遵守しなかったとき。
     modality: unspecified
     item_number: 4
 - number: 2

@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-60-p1-kou-1
     type: kou
-    text: 被告人が定まつた住居を有しないとき。
+    text: 一　被告人が定まつた住居を有しないとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-60-p1-kou-2
     type: kou
-    text: 被告人が罪証を隠滅すると疑うに足りる相当な理由があるとき。
+    text: 二　被告人が罪証を隠滅すると疑うに足りる相当な理由があるとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-60-p1-kou-3
     type: kou
-    text: 被告人が逃亡し又は逃亡すると疑うに足りる相当な理由があるとき。
+    text: 三　被告人が逃亡し又は逃亡すると疑うに足りる相当な理由があるとき。
     modality: unspecified
     item_number: 3
 - number: 2

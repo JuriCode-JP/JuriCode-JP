@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-68-13-p2-kou-1
     type: kou
-    text: 第六十八条の二第三項第一号ロで示された試験の結果が判定基準に適合していることを説明する資料
+    text: 一　第六十八条の二第三項第一号ロで示された試験の結果が判定基準に適合していることを説明する資料
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-68-13-p2-kou-2
     type: kou
-    text: 法第十四条の七の二第三項に基づき、厚生労働省令で定める基準に適合している旨の確認を受けた場合には、その結果に関する書類
+    text: 二　法第十四条の七の二第三項に基づき、厚生労働省令で定める基準に適合している旨の確認を受けた場合には、その結果に関する書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-68-13-p2-kou-3
     type: kou
-    text: その他届出に係る変更が変更計画に従つた変更であることの確認の際に必要な資料
+    text: 三　その他届出に係る変更が変更計画に従つた変更であることの確認の際に必要な資料
     modality: unspecified
     item_number: 3
 - number: 3
@@ -60,17 +60,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-68-13-p3-kou-1
     type: kou
-    text: 当該資料は、これを作成することを目的として行われた調査又は試験において得られた結果に基づき正確に作成されたものであること。
+    text: 一　当該資料は、これを作成することを目的として行われた調査又は試験において得られた結果に基づき正確に作成されたものであること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-68-13-p3-kou-2
     type: kou
-    text: 前号の調査又は試験において、届出に係る医薬品、医薬部外品又は化粧品についてその届出に係る品質、有効性及び安全性を有することを疑わせる調査結果、試験成績等が得られた場合には、当該調査結果、試験成績等についても検討及び評価が行われ、その結果が当該資料に記載されていること。
+    text: 二　前号の調査又は試験において、届出に係る医薬品、医薬部外品又は化粧品についてその届出に係る品質、有効性及び安全性を有することを疑わせる調査結果、試験成績等が得られた場合には、当該調査結果、試験成績等についても検討及び評価が行われ、その結果が当該資料に記載されていること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-68-13-p3-kou-3
     type: kou
-    text: 当該資料の根拠となつた資料は、第一項の届書を提出した日から前条に定める日数が経過する日まで保存されていること。ただし、資料の性質上その保存が著しく困難であると認められるものにあつては、この限りでない。
+    text: 三　当該資料の根拠となつた資料は、第一項の届書を提出した日から前条に定める日数が経過する日まで保存されていること。ただし、資料の性質上その保存が著しく困難であると認められるものにあつては、この限りでない。
     modality: jogai
     item_number: 3
 - number: 4

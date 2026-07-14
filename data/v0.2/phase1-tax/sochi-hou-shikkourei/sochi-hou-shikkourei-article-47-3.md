@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-47-3-p2-kou-1
     type: kou
-    text: 当該揮発油の受入数量、消費数量及び貯蔵数量並びに受入れ及び消費の年月日
+    text: 一　当該揮発油の受入数量、消費数量及び貯蔵数量並びに受入れ及び消費の年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-47-3-p2-kou-2
     type: kou
-    text: 当該揮発油を消費して製造した石油化学製品の種類、種類ごとの数量、製造の年月日、販売数量、販売の年月日その他参考となるべき事項
+    text: 二　当該揮発油を消費して製造した石油化学製品の種類、種類ごとの数量、製造の年月日、販売数量、販売の年月日その他参考となるべき事項
     modality: unspecified
     item_number: 2
 cases: []

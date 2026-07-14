@@ -34,47 +34,47 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-89-2-p2-kou-1
     type: kou
-    text: 目的
+    text: 一　目的
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-89-2-p2-kou-2
     type: kou
-    text: 名称
+    text: 二　名称
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-89-2-p2-kou-3
     type: kou
-    text: 事務所の所在場所
+    text: 三　事務所の所在場所
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-89-2-p2-kou-4
     type: kou
-    text: 存立の時期又は解散の事由を定めたときは、その時期又は事由
+    text: 四　存立の時期又は解散の事由を定めたときは、その時期又は事由
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-89-2-p2-kou-5
     type: kou
-    text: 基本金及び払い込んだ出資金額
+    text: 五　基本金及び払い込んだ出資金額
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-89-2-p2-kou-6
     type: kou
-    text: 出資一口の金額及びその払込方法
+    text: 六　出資一口の金額及びその払込方法
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-89-2-p2-kou-7
     type: kou
-    text: 代表権を有する者の氏名、住所及び資格
+    text: 七　代表権を有する者の氏名、住所及び資格
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-89-2-p2-kou-8
     type: kou
-    text: 代表権の範囲又は制限に関する定めがあるときは、その定め
+    text: 八　代表権の範囲又は制限に関する定めがあるときは、その定め
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-art-89-2-p2-kou-9
     type: kou
-    text: 公告方法
+    text: 九　公告方法
     modality: unspecified
     item_number: 9
 cases: []

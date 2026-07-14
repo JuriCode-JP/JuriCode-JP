@@ -23,22 +23,22 @@ paragraphs:
     modality: jogai
   - id: kojin-jouhou-hogo-hou-art-57-p1-kou-1
     type: kou
-    text: 放送機関、新聞社、通信社その他の報道機関（報道を業として行う個人を含む。）　報道の用に供する目的
+    text: 一　放送機関、新聞社、通信社その他の報道機関（報道を業として行う個人を含む。）　報道の用に供する目的
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-57-p1-kou-2
     type: kou
-    text: 著述を業として行う者　著述の用に供する目的
+    text: 二　著述を業として行う者　著述の用に供する目的
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-57-p1-kou-3
     type: kou
-    text: 宗教団体　宗教活動（これに付随する活動を含む。）の用に供する目的
+    text: 三　宗教団体　宗教活動（これに付随する活動を含む。）の用に供する目的
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-57-p1-kou-4
     type: kou
-    text: 政治団体　政治活動（これに付随する活動を含む。）の用に供する目的
+    text: 四　政治団体　政治活動（これに付随する活動を含む。）の用に供する目的
     modality: unspecified
     item_number: 4
 - number: 2

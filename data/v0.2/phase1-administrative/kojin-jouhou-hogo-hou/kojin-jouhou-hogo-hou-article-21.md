@@ -57,22 +57,22 @@ paragraphs:
     - 前三項
   - id: kojin-jouhou-hogo-hou-art-21-p4-kou-1
     type: kou
-    text: 利用目的を本人に通知し、又は公表することにより本人又は第三者の生命、身体、財産その他の権利利益を害するおそれがある場合
+    text: 一　利用目的を本人に通知し、又は公表することにより本人又は第三者の生命、身体、財産その他の権利利益を害するおそれがある場合
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-21-p4-kou-2
     type: kou
-    text: 利用目的を本人に通知し、又は公表することにより当該個人情報取扱事業者の権利又は正当な利益を害するおそれがある場合
+    text: 二　利用目的を本人に通知し、又は公表することにより当該個人情報取扱事業者の権利又は正当な利益を害するおそれがある場合
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-21-p4-kou-3
     type: kou
-    text: 国の機関又は地方公共団体が法令の定める事務を遂行することに対して協力する必要がある場合であって、利用目的を本人に通知し、又は公表することにより当該事務の遂行に支障を及ぼすおそれがあるとき。
+    text: 三　国の機関又は地方公共団体が法令の定める事務を遂行することに対して協力する必要がある場合であって、利用目的を本人に通知し、又は公表することにより当該事務の遂行に支障を及ぼすおそれがあるとき。
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-21-p4-kou-4
     type: kou
-    text: 取得の状況からみて利用目的が明らかであると認められる場合
+    text: 四　取得の状況からみて利用目的が明らかであると認められる場合
     modality: unspecified
     item_number: 4
 cases: []

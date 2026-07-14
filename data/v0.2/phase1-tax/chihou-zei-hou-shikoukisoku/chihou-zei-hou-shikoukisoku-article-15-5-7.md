@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-15-5-7-p1-kou-1
     type: kou
-    text: 住所の削除
+    text: 一　住所の削除
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-15-5-7-p1-kou-2
     type: kou
-    text: 住所に代わるものとして市町村長が適当と認める事項の記載
+    text: 二　住所に代わるものとして市町村長が適当と認める事項の記載
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-15-5-7-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、市町村長が適当と認める措置
+    text: 三　前二号に掲げるもののほか、市町村長が適当と認める措置
     modality: unspecified
     item_number: 3
 cases: []

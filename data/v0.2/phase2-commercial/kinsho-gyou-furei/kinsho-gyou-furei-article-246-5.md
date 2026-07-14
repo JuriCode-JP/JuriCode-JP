@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-246-5-p1-kou-1
     type: kou
-    text: 当該特例業務届出者又は金融商品取引業者等の住所又は所在地に係る部分
+    text: 一　当該特例業務届出者又は金融商品取引業者等の住所又は所在地に係る部分
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-246-5-p1-kou-2
     type: kou
-    text: 国内における代表者又は国内における代理人の状況のうち住所又は所在地に係る部分
+    text: 二　国内における代表者又は国内における代理人の状況のうち住所又は所在地に係る部分
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-246-5-p1-kou-3
     type: kou
-    text: 株主の状況のうち住所又は所在地に係る部分
+    text: 三　株主の状況のうち住所又は所在地に係る部分
     modality: unspecified
     item_number: 3
 - number: 2

@@ -39,42 +39,42 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-125-8-p2-kou-1
     type: kou
-    text: 三月以下の場合　三千億円
+    text: 一　三月以下の場合　三千億円
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-125-8-p2-kou-2
     type: kou
-    text: 三月を超え六月以下の場合　六百億円
+    text: 二　三月を超え六月以下の場合　六百億円
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-125-8-p2-kou-3
     type: kou
-    text: 六月を超え一年以下の場合　五百五十億円
+    text: 三　六月を超え一年以下の場合　五百五十億円
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-125-8-p2-kou-4
     type: kou
-    text: 一年を超え二年以下の場合　五百億円
+    text: 四　一年を超え二年以下の場合　五百億円
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-125-8-p2-kou-5
     type: kou
-    text: 二年を超え五年以下の場合　二百億円
+    text: 五　二年を超え五年以下の場合　二百億円
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-125-8-p2-kou-6
     type: kou
-    text: 五年を超え十年以下の場合　百億円
+    text: 六　五年を超え十年以下の場合　百億円
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-125-8-p2-kou-7
     type: kou
-    text: 十年を超え三十年以下の場合　五十億円
+    text: 七　十年を超え三十年以下の場合　五十億円
     modality: unspecified
     item_number: 7
   - id: kinsho-gyou-furei-art-125-8-p2-kou-8
     type: kou
-    text: 三十年を超える場合　二十億円
+    text: 八　三十年を超える場合　二十億円
     modality: unspecified
     item_number: 8
 cases: []

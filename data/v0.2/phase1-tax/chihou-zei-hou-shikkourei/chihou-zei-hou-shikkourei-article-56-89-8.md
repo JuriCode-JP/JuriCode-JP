@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-56-89-8-p1-kou-1
     type: kou
-    text: 法第七百十八条の八第一項第一号に掲げる者　当該年度の初日の属する年の前年の十月一日
+    text: 一　法第七百十八条の八第一項第一号に掲げる者　当該年度の初日の属する年の前年の十月一日
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-56-89-8-p1-kou-2
     type: kou
-    text: 法第七百十八条の八第一項第二号に掲げる者　当該年度の初日の属する年の前年の十二月一日
+    text: 二　法第七百十八条の八第一項第二号に掲げる者　当該年度の初日の属する年の前年の十二月一日
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-56-89-8-p1-kou-3
     type: kou
-    text: 法第七百十八条の八第一項第三号に掲げる者　当該年度の初日の属する年の二月一日
+    text: 三　法第七百十八条の八第一項第三号に掲げる者　当該年度の初日の属する年の二月一日
     modality: unspecified
     item_number: 3
 cases: []

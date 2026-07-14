@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-785-p1-kou-1
     type: kou
-    text: 第七百八十三条第二項に規定する場合
+    text: 一　第七百八十三条第二項に規定する場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-785-p1-kou-2
     type: kou
-    text: 第七百八十四条第二項に規定する場合
+    text: 二　第七百八十四条第二項に規定する場合
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,20 +41,20 @@ paragraphs:
     text: 前項に規定する「反対株主」とは、次の各号に掲げる場合における当該各号に定める株主（第七百八十三条第四項に規定する場合における同項に規定する持分等の割当てを受ける株主を除く。）をいう。
     modality: teigi
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-785-p2-kou-1
     type: kou
-    text: '吸収合併等をするために株主総会（種類株主総会を含む。）の決議を要する場合　次に掲げる株主
+    text: '一　吸収合併等をするために株主総会（種類株主総会を含む。）の決議を要する場合　次に掲げる株主
 
-      イ 当該株主総会に先立って当該吸収合併等に反対する旨を当該消滅株式会社等に対し通知し、かつ、当該株主総会において当該吸収合併等に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
+      イ　当該株主総会に先立って当該吸収合併等に反対する旨を当該消滅株式会社等に対し通知し、かつ、当該株主総会において当該吸収合併等に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
 
-      ロ 当該株主総会において議決権を行使することができない株主'
+      ロ　当該株主総会において議決権を行使することができない株主'
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-785-p2-kou-2
     type: kou
-    text: 前号に規定する場合以外の場合　全ての株主（第七百八十四条第一項本文に規定する場合における当該特別支配会社を除く。）
+    text: 二　前号に規定する場合以外の場合　全ての株主（第七百八十四条第一項本文に規定する場合における当該特別支配会社を除く。）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -85,12 +85,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-785-p4-kou-1
     type: kou
-    text: 消滅株式会社等が公開会社である場合
+    text: 一　消滅株式会社等が公開会社である場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-785-p4-kou-2
     type: kou
-    text: 消滅株式会社等が第七百八十三条第一項の株主総会の決議によって吸収合併契約等の承認を受けた場合
+    text: 二　消滅株式会社等が第七百八十三条第一項の株主総会の決議によって吸収合併契約等の承認を受けた場合
     modality: unspecified
     item_number: 2
 - number: 5

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_kei
   - id: kaisha-hou-art-978-p1-kou-1
     type: kou
-    text: 第六条第三項の規定に違反して、他の種類の会社であると誤認されるおそれのある文字をその商号中に用いた者
+    text: 一　第六条第三項の規定に違反して、他の種類の会社であると誤認されるおそれのある文字をその商号中に用いた者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-978-p1-kou-2
     type: kou
-    text: 第七条の規定に違反して、会社であると誤認されるおそれのある文字をその名称又は商号中に使用した者
+    text: 二　第七条の規定に違反して、会社であると誤認されるおそれのある文字をその名称又は商号中に使用した者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-978-p1-kou-3
     type: kou
-    text: 第八条第一項の規定に違反して、他の会社（外国会社を含む。）であると誤認されるおそれのある名称又は商号を使用した者
+    text: 三　第八条第一項の規定に違反して、他の会社（外国会社を含む。）であると誤認されるおそれのある名称又は商号を使用した者
     modality: unspecified
     item_number: 3
 cases: []

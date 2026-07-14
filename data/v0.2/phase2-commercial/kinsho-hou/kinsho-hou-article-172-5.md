@@ -25,12 +25,12 @@ paragraphs:
     - 次条
   - id: kinsho-hou-art-172-5-p1-kou-1
     type: kou
-    text: 当該公開買付開始公告を行わないでした株券等又は上場株券等の買付け等の価格に当該買付け等の数量を乗じて得た額
+    text: 一　当該公開買付開始公告を行わないでした株券等又は上場株券等の買付け等の価格に当該買付け等の数量を乗じて得た額
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-172-5-p1-kou-2
     type: kou
-    text: 百分の二十五
+    text: 二　百分の二十五
     modality: unspecified
     item_number: 2
 cases: []

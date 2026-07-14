@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-shikoukisoku-art-114-49-2-p1-kou-1
     type: kou
-    text: 大学等で、薬学又は化学に関する専門の課程を修了した者
+    text: 一　大学等で、薬学又は化学に関する専門の課程を修了した者
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-49-2-p1-kou-2
     type: kou
-    text: 厚生労働大臣が前号に掲げる者と同等以上の知識経験を有すると認めた者
+    text: 二　厚生労働大臣が前号に掲げる者と同等以上の知識経験を有すると認めた者
     modality: unspecified
     item_number: 2
 - number: 2

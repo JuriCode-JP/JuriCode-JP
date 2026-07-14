@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-260-12-p1-kou-1
     type: kou
-    text: 財産の状況を監査すること。
+    text: 一　財産の状況を監査すること。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-260-12-p1-kou-2
     type: kou
-    text: 代表者の業務の執行の状況を監査すること。
+    text: 二　代表者の業務の執行の状況を監査すること。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-260-12-p1-kou-3
     type: kou
-    text: 財産の状況又は業務の執行について、法令若しくは規約に違反し、又は著しく不当な事項があると認めるときは、総会に報告をすること。
+    text: 三　財産の状況又は業務の執行について、法令若しくは規約に違反し、又は著しく不当な事項があると認めるときは、総会に報告をすること。
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-260-12-p1-kou-4
     type: kou
-    text: 前号の報告をするため必要があるときは、総会を招集すること。
+    text: 四　前号の報告をするため必要があるときは、総会を招集すること。
     modality: unspecified
     item_number: 4
 cases: []

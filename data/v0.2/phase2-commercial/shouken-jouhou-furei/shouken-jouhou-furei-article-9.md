@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: shouken-jouhou-furei-art-9-p1-kou-1
     type: kou
-    text: 特定上場有価証券等　特定取引所規則において定める方法
+    text: 一　特定上場有価証券等　特定取引所規則において定める方法
     modality: unspecified
     item_number: 1
   - id: shouken-jouhou-furei-art-9-p1-kou-2
     type: kou
-    text: 特定店頭売買有価証券等　特定協会規則において定める方法
+    text: 二　特定店頭売買有価証券等　特定協会規則において定める方法
     modality: unspecified
     item_number: 2
   - id: shouken-jouhou-furei-art-9-p1-kou-3
     type: kou
-    text: 前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法
+    text: 三　前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法
     modality: unspecified
     item_number: 3
 cases: []

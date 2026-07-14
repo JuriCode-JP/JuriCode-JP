@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定は、確定申告書等に同項の規定により損金の額に算入される金額の損金算入に関する申告の記載があり、かつ、当該確定申告書等にその損金の額に算入される金額の計算に関する明細書の添付がある場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

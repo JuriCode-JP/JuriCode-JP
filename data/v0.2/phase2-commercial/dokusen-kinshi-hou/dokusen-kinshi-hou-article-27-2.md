@@ -25,32 +25,32 @@ paragraphs:
     - 前条
   - id: dokusen-kinshi-hou-art-27-2-p1-kou-1
     type: kou
-    text: 私的独占の規制に関すること。
+    text: 一　私的独占の規制に関すること。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-27-2-p1-kou-2
     type: kou
-    text: 不当な取引制限の規制に関すること。
+    text: 二　不当な取引制限の規制に関すること。
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-27-2-p1-kou-3
     type: kou
-    text: 不公正な取引方法の規制に関すること。
+    text: 三　不公正な取引方法の規制に関すること。
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-27-2-p1-kou-4
     type: kou
-    text: 独占的状態に係る規制に関すること。
+    text: 四　独占的状態に係る規制に関すること。
     modality: unspecified
     item_number: 4
   - id: dokusen-kinshi-hou-art-27-2-p1-kou-5
     type: kou
-    text: 所掌事務に係る国際協力に関すること。
+    text: 五　所掌事務に係る国際協力に関すること。
     modality: unspecified
     item_number: 5
   - id: dokusen-kinshi-hou-art-27-2-p1-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、法律（法律に基づく命令を含む。）に基づき、公正取引委員会に属させられた事務
+    text: 六　前各号に掲げるもののほか、法律（法律に基づく命令を含む。）に基づき、公正取引委員会に属させられた事務
     modality: unspecified
     item_number: 6
 cases: []

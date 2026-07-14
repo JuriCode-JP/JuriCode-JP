@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定により同項の調査記録簿等の引継ぎを受けた調査機関は、法務省令で定めるところにより、その調査記録簿等を保存しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

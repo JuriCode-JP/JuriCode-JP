@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-330-p1-kou-1
     type: kou
-    text: 不動産の賃貸、旅館の宿泊及び運輸の先取特権
+    text: 一　不動産の賃貸、旅館の宿泊及び運輸の先取特権
     modality: unspecified
     item_number: 1
   - id: minpou-art-330-p1-kou-2
     type: kou
-    text: 動産の保存の先取特権
+    text: 二　動産の保存の先取特権
     modality: unspecified
     item_number: 2
   - id: minpou-art-330-p1-kou-3
     type: kou
-    text: 動産の売買、種苗又は肥料の供給、農業の労務及び工業の労務の先取特権
+    text: 三　動産の売買、種苗又は肥料の供給、農業の労務及び工業の労務の先取特権
     modality: unspecified
     item_number: 3
 - number: 2

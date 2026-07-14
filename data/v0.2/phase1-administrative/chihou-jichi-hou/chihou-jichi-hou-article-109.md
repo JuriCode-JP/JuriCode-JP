@@ -41,17 +41,17 @@ paragraphs:
     modality: unspecified
   - id: chihou-jichi-hou-art-109-p3-kou-1
     type: kou
-    text: 議会の運営に関する事項
+    text: 一　議会の運営に関する事項
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-109-p3-kou-2
     type: kou
-    text: 議会の会議規則、委員会に関する条例等に関する事項
+    text: 二　議会の会議規則、委員会に関する条例等に関する事項
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-109-p3-kou-3
     type: kou
-    text: 議長の諮問に関する事項
+    text: 三　議長の諮問に関する事項
     modality: unspecified
     item_number: 3
 - number: 4

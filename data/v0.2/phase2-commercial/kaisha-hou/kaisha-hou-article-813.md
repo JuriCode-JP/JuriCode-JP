@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-813-p1-kou-1
     type: kou
-    text: 新設合併
+    text: 一　新設合併
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-813-p1-kou-2
     type: kou
-    text: 新設分割（当該持分会社（合同会社に限る。）がその事業に関して有する権利義務の全部を他の会社に承継させる場合に限る。）
+    text: 二　新設分割（当該持分会社（合同会社に限る。）がその事業に関して有する権利義務の全部を他の会社に承継させる場合に限る。）
     modality: unspecified
     item_number: 2
 - number: 2

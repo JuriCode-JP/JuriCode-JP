@@ -23,42 +23,42 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-311-p1-kou-1
     type: kou
-    text: 不動産の賃貸借
+    text: 一　不動産の賃貸借
     modality: unspecified
     item_number: 1
   - id: minpou-art-311-p1-kou-2
     type: kou
-    text: 旅館の宿泊
+    text: 二　旅館の宿泊
     modality: unspecified
     item_number: 2
   - id: minpou-art-311-p1-kou-3
     type: kou
-    text: 旅客又は荷物の運輸
+    text: 三　旅客又は荷物の運輸
     modality: unspecified
     item_number: 3
   - id: minpou-art-311-p1-kou-4
     type: kou
-    text: 動産の保存
+    text: 四　動産の保存
     modality: unspecified
     item_number: 4
   - id: minpou-art-311-p1-kou-5
     type: kou
-    text: 動産の売買
+    text: 五　動産の売買
     modality: unspecified
     item_number: 5
   - id: minpou-art-311-p1-kou-6
     type: kou
-    text: 種苗又は肥料（蚕種又は蚕の飼養に供した桑葉を含む。以下同じ。）の供給
+    text: 六　種苗又は肥料（蚕種又は蚕の飼養に供した桑葉を含む。以下同じ。）の供給
     modality: unspecified
     item_number: 6
   - id: minpou-art-311-p1-kou-7
     type: kou
-    text: 農業の労務
+    text: 七　農業の労務
     modality: unspecified
     item_number: 7
   - id: minpou-art-311-p1-kou-8
     type: kou
-    text: 工業の労務
+    text: 八　工業の労務
     modality: unspecified
     item_number: 8
 cases: []

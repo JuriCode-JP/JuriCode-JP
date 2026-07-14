@@ -27,12 +27,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-449-p1-kou-1
     type: kou
-    text: 定時株主総会において前条第一項各号に掲げる事項を定めること。
+    text: 一　定時株主総会において前条第一項各号に掲げる事項を定めること。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-449-p1-kou-2
     type: kou
-    text: 前条第一項第一号の額が前号の定時株主総会の日（第四百三十九条前段に規定する場合にあっては、第四百三十六条第三項の承認があった日）における欠損の額として法務省令で定める方法により算定される額を超えないこと。
+    text: 二　前条第一項第一号の額が前号の定時株主総会の日（第四百三十九条前段に規定する場合にあっては、第四百三十六条第三項の承認があった日）における欠損の額として法務省令で定める方法により算定される額を超えないこと。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -48,17 +48,17 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-449-p2-kou-1
     type: kou
-    text: 当該資本金等の額の減少の内容
+    text: 一　当該資本金等の額の減少の内容
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-449-p2-kou-2
     type: kou
-    text: 当該株式会社の計算書類に関する事項として法務省令で定めるもの
+    text: 二　当該株式会社の計算書類に関する事項として法務省令で定めるもの
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-449-p2-kou-3
     type: kou
-    text: 債権者が一定の期間内に異議を述べることができる旨
+    text: 三　債権者が一定の期間内に異議を述べることができる旨
     modality: unspecified
     item_number: 3
 - number: 3
@@ -74,8 +74,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -111,12 +111,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-449-p6-kou-1
     type: kou
-    text: 資本金の額の減少　第四百四十七条第一項第三号の日
+    text: 一　資本金の額の減少　第四百四十七条第一項第三号の日
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-449-p6-kou-2
     type: kou
-    text: 準備金の額の減少　前条第一項第三号の日
+    text: 二　準備金の額の減少　前条第一項第三号の日
     modality: unspecified
     item_number: 2
 - number: 7

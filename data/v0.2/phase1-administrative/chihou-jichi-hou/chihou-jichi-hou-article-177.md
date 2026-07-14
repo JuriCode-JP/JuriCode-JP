@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-177-p1-kou-1
     type: kou
-    text: 法令により負担する経費、法律の規定に基づき当該行政庁の職権により命ずる経費その他の普通地方公共団体の義務に属する経費
+    text: 一　法令により負担する経費、法律の規定に基づき当該行政庁の職権により命ずる経費その他の普通地方公共団体の義務に属する経費
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-177-p1-kou-2
     type: kou
-    text: 非常の災害による応急若しくは復旧の施設のために必要な経費又は感染症予防のために必要な経費
+    text: 二　非常の災害による応急若しくは復旧の施設のために必要な経費又は感染症予防のために必要な経費
     modality: unspecified
     item_number: 2
 - number: 2

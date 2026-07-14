@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-2-14-p1-kou-1
     type: kou
-    text: 提出者の氏名及び住所並びにその者の賃金の支払者及び勤務先等の名称及び所在地
+    text: 一　提出者の氏名及び住所並びにその者の賃金の支払者及び勤務先等の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-2-14-p1-kou-2
     type: kou
-    text: その金融機関の営業所等の名称及び所在地
+    text: 二　その金融機関の営業所等の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-2-14-p1-kou-3
     type: kou
-    text: 財産形成住宅貯蓄のうち、提出者が財産形成非課税住宅貯蓄申告書に記載したもの
+    text: 三　財産形成住宅貯蓄のうち、提出者が財産形成非課税住宅貯蓄申告書に記載したもの
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-2-14-p1-kou-4
     type: kou
-    text: 財産形成非課税住宅貯蓄申告書に記載した法第四条の二第四項第三号に掲げる最高限度額（当該申告書につき既に財産形成非課税住宅貯蓄限度額変更申告書を提出している場合には、当該財産形成非課税住宅貯蓄限度額変更申告書に記載した変更後の最高限度額）
+    text: 四　財産形成非課税住宅貯蓄申告書に記載した法第四条の二第四項第三号に掲げる最高限度額（当該申告書につき既に財産形成非課税住宅貯蓄限度額変更申告書を提出している場合には、当該財産形成非課税住宅貯蓄限度額変更申告書に記載した変更後の最高限度額）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-2-14-p1-kou-5
     type: kou
-    text: 変更後の最高限度額
+    text: 五　変更後の最高限度額
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-2-14-p1-kou-6
     type: kou
-    text: 既に財産形成非課税年金貯蓄申告書を提出している場合には、当該申告書に記載した法第四条の三第四項第三号に掲げる最高限度額（当該申告書につき既に財産形成非課税年金貯蓄限度額変更申告書を提出している場合には、当該財産形成非課税年金貯蓄限度額変更申告書に記載した変更後の最高限度額）
+    text: 六　既に財産形成非課税年金貯蓄申告書を提出している場合には、当該申告書に記載した法第四条の三第四項第三号に掲げる最高限度額（当該申告書につき既に財産形成非課税年金貯蓄限度額変更申告書を提出している場合には、当該財産形成非課税年金貯蓄限度額変更申告書に記載した変更後の最高限度額）
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikkourei-art-2-14-p1-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 2

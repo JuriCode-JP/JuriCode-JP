@@ -36,17 +36,17 @@ paragraphs:
     modality: kanou_negative
   - id: fueihou-art-24-p2-kou-1
     type: kou
-    text: 未成年者
+    text: 一　未成年者
     modality: unspecified
     item_number: 1
   - id: fueihou-art-24-p2-kou-2
     type: kou
-    text: 第四条第一項第一号から第四号まで、第六号又は第八号から第十号までのいずれかに該当する者
+    text: 二　第四条第一項第一号から第四号まで、第六号又は第八号から第十号までのいずれかに該当する者
     modality: unspecified
     item_number: 2
   - id: fueihou-art-24-p2-kou-3
     type: kou
-    text: 心身の故障により管理者の業務を適正に実施することができない者として国家公安委員会規則で定めるもの
+    text: 三　心身の故障により管理者の業務を適正に実施することができない者として国家公安委員会規則で定めるもの
     modality: unspecified
     item_number: 3
 - number: 3

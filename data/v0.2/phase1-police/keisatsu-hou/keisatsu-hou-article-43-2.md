@@ -42,8 +42,8 @@ paragraphs:
     text: 都道府県公安委員会は、都道府県警察の職員（第六十条第一項の規定による援助の要求により派遣された警察庁の職員を含む。）に、前項の規定により指名された委員の同項に規定する事務を補助させることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

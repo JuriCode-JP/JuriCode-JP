@@ -34,27 +34,27 @@ paragraphs:
     modality: gimu
   - id: koubunsho-kanri-hou-art-27-p2-kou-1
     type: kou
-    text: 保存に関する事項
+    text: 一　保存に関する事項
     modality: unspecified
     item_number: 1
   - id: koubunsho-kanri-hou-art-27-p2-kou-2
     type: kou
-    text: 第二十条に規定する手数料その他一般の利用に関する事項
+    text: 二　第二十条に規定する手数料その他一般の利用に関する事項
     modality: unspecified
     item_number: 2
   - id: koubunsho-kanri-hou-art-27-p2-kou-3
     type: kou
-    text: 特定歴史公文書等を移管した行政機関の長又は独立行政法人等による当該特定歴史公文書等の利用に関する事項
+    text: 三　特定歴史公文書等を移管した行政機関の長又は独立行政法人等による当該特定歴史公文書等の利用に関する事項
     modality: unspecified
     item_number: 3
   - id: koubunsho-kanri-hou-art-27-p2-kou-4
     type: kou
-    text: 廃棄に関する事項
+    text: 四　廃棄に関する事項
     modality: unspecified
     item_number: 4
   - id: koubunsho-kanri-hou-art-27-p2-kou-5
     type: kou
-    text: 保存及び利用の状況の報告に関する事項
+    text: 五　保存及び利用の状況の報告に関する事項
     modality: unspecified
     item_number: 5
 - number: 3

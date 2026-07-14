@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-4-p1-kou-1
     type: kou
-    text: 特定障害者の氏名、住所又は居所及び個人番号
+    text: 一　特定障害者の氏名、住所又は居所及び個人番号
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-4-p1-kou-2
     type: kou
-    text: 前号の特定障害者が既に提出した障害者非課税信託申告書に係る特定障害者扶養信託契約に基づく信託の委託者の氏名及び住所又は居所並びに当該信託の受託者の名称及び所在地並びに現に当該信託に関する事務を取り扱う受託者の営業所等の名称及び所在地
+    text: 二　前号の特定障害者が既に提出した障害者非課税信託申告書に係る特定障害者扶養信託契約に基づく信託の委託者の氏名及び住所又は居所並びに当該信託の受託者の名称及び所在地並びに現に当該信託に関する事務を取り扱う受託者の営業所等の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-4-p1-kou-3
     type: kou
-    text: 前号の特定障害者扶養信託契約に基づいて信託された財産の種類、数量、所在場所の明細及びその信託された年月日並びに当該財産に係る信託受益権の価額及び当該信託受益権の価額のうち同号の障害者非課税信託申告書の提出により法第二十一条の四第一項の規定の適用を受けた部分の価額
+    text: 三　前号の特定障害者扶養信託契約に基づいて信託された財産の種類、数量、所在場所の明細及びその信託された年月日並びに当該財産に係る信託受益権の価額及び当該信託受益権の価額のうち同号の障害者非課税信託申告書の提出により法第二十一条の四第一項の規定の適用を受けた部分の価額
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikoukisoku-art-4-p1-kou-4
     type: kou
-    text: 前号の信託受益権がないこととなつた事情又は施行令第四条の十五第一項の遺留分侵害額の請求の基因となつた事情の詳細及びその事情の生じた年月日
+    text: 四　前号の信託受益権がないこととなつた事情又は施行令第四条の十五第一項の遺留分侵害額の請求の基因となつた事情の詳細及びその事情の生じた年月日
     modality: unspecified
     item_number: 4
   - id: souzoku-zei-hou-shikoukisoku-art-4-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2

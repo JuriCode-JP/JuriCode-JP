@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-724-p1-kou-1
     type: kou
-    text: 被害者又はその法定代理人が損害及び加害者を知った時から三年間行使しないとき。
+    text: 一　被害者又はその法定代理人が損害及び加害者を知った時から三年間行使しないとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-724-p1-kou-2
     type: kou
-    text: 不法行為の時から二十年間行使しないとき。
+    text: 二　不法行為の時から二十年間行使しないとき。
     modality: unspecified
     item_number: 2
 cases: []

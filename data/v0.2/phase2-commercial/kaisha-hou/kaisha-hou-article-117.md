@@ -43,9 +43,9 @@ paragraphs:
     override_target:
     - 前条
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

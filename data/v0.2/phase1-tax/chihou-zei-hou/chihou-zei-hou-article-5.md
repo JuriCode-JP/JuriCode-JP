@@ -32,32 +32,32 @@ paragraphs:
     modality: jogai
   - id: chihou-zei-hou-art-5-p2-kou-1
     type: kou
-    text: 市町村民税
+    text: 一　市町村民税
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-5-p2-kou-2
     type: kou
-    text: 固定資産税
+    text: 二　固定資産税
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-5-p2-kou-3
     type: kou
-    text: 軽自動車税
+    text: 三　軽自動車税
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-5-p2-kou-4
     type: kou
-    text: 市町村たばこ税
+    text: 四　市町村たばこ税
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-5-p2-kou-5
     type: kou
-    text: 鉱産税
+    text: 五　鉱産税
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-5-p2-kou-6
     type: kou
-    text: 特別土地保有税
+    text: 六　特別土地保有税
     modality: unspecified
     item_number: 6
 - number: 3
@@ -102,27 +102,27 @@ paragraphs:
     - 前二項
   - id: chihou-zei-hou-art-5-p6-kou-1
     type: kou
-    text: 都市計画税
+    text: 一　都市計画税
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-5-p6-kou-2
     type: kou
-    text: 水利地益税
+    text: 二　水利地益税
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-5-p6-kou-3
     type: kou
-    text: 共同施設税
+    text: 三　共同施設税
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-5-p6-kou-4
     type: kou
-    text: 宅地開発税
+    text: 四　宅地開発税
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-5-p6-kou-5
     type: kou
-    text: 国民健康保険税
+    text: 五　国民健康保険税
     modality: unspecified
     item_number: 5
 - number: 7

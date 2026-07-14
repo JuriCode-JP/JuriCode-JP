@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-148-p2-kou-1
     type: kou
-    text: 営業の区域
+    text: 一　営業の区域
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-148-p2-kou-2
     type: kou
-    text: 通常の営業日及び営業時間
+    text: 二　通常の営業日及び営業時間
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-148-p2-kou-3
     type: kou
-    text: 相談時及び緊急時の連絡先
+    text: 三　相談時及び緊急時の連絡先
     modality: unspecified
     item_number: 3
 - number: 3
@@ -56,60 +56,60 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-148-p3-kou-1
     type: kou
-    text: 法人にあつては、登記事項証明書
+    text: 一　法人にあつては、登記事項証明書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-148-p3-kou-2
     type: kou
-    text: 法第三十一条の二第一項の規定により区域管理者を指定してその業務に係る都道府県の区域（以下単に「区域」という。）を管理させる場合にあつては、その区域管理者の氏名及び住所を記載した書類
+    text: 二　法第三十一条の二第一項の規定により区域管理者を指定してその業務に係る都道府県の区域（以下単に「区域」という。）を管理させる場合にあつては、その区域管理者の氏名及び住所を記載した書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-148-p3-kou-3
     type: kou
-    text: 区域管理者（法第三十一条の二第一項の規定によりその区域を管理する配置販売業者を含む。次号を除き、以下同じ。）の週当たり勤務時間数並びに薬剤師名簿の登録番号及び登録年月日又は販売従事登録の登録番号及び登録年月日を記載した書類
+    text: 三　区域管理者（法第三十一条の二第一項の規定によりその区域を管理する配置販売業者を含む。次号を除き、以下同じ。）の週当たり勤務時間数並びに薬剤師名簿の登録番号及び登録年月日又は販売従事登録の登録番号及び登録年月日を記載した書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-148-p3-kou-4
     type: kou
-    text: 法第三十一条の二第一項の規定により区域管理者を指定してその区域を管理させる場合にあつては、その区域管理者の雇用契約書の写しその他申請者のその区域管理者に対する使用関係を証する書類
+    text: 四　法第三十一条の二第一項の規定により区域管理者を指定してその区域を管理させる場合にあつては、その区域管理者の雇用契約書の写しその他申請者のその区域管理者に対する使用関係を証する書類
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-148-p3-kou-5
     type: kou
-    text: 区域管理者以外にその区域において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の氏名及び住所を記載した書類
+    text: 五　区域管理者以外にその区域において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の氏名及び住所を記載した書類
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-148-p3-kou-6
     type: kou
-    text: 区域管理者以外にその区域において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の別、週当たり勤務時間数並びに薬剤師名簿の登録番号及び登録年月日又は販売従事登録の登録番号及び登録年月日を記載した書類
+    text: 六　区域管理者以外にその区域において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の別、週当たり勤務時間数並びに薬剤師名簿の登録番号及び登録年月日又は販売従事登録の登録番号及び登録年月日を記載した書類
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-148-p3-kou-7
     type: kou
-    text: 区域管理者以外にその区域において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の雇用契約書の写しその他申請者のその薬剤師又は登録販売者に対する使用関係を証する書類
+    text: 七　区域管理者以外にその区域において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の雇用契約書の写しその他申請者のその薬剤師又は登録販売者に対する使用関係を証する書類
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-148-p3-kou-8
     type: kou
-    text: 'その区域において配置販売によつて販売し、又は授与する医薬品の次に掲げる区分を記載した書類
+    text: '八　その区域において配置販売によつて販売し、又は授与する医薬品の次に掲げる区分を記載した書類
 
-      イ 第一類医薬品
+      イ　第一類医薬品
 
-      ロ 指定第二類医薬品
+      ロ　指定第二類医薬品
 
-      ハ 第二類医薬品（指定第二類医薬品を除く。）
+      ハ　第二類医薬品（指定第二類医薬品を除く。）
 
-      ニ 第三類医薬品'
+      ニ　第三類医薬品'
     modality: unspecified
     item_number: 8
   - id: yakkihou-shikoukisoku-art-148-p3-kou-9
     type: kou
-    text: その区域において配置販売業以外の医薬品の販売業その他の業務を併せ行う場合にあつては、その業務の種類を記載した書類
+    text: 九　その区域において配置販売業以外の医薬品の販売業その他の業務を併せ行う場合にあつては、その業務の種類を記載した書類
     modality: unspecified
     item_number: 9
   - id: yakkihou-shikoukisoku-art-148-p3-kou-10
     type: kou
-    text: 申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
+    text: 十　申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
     modality: unspecified
     item_number: 10
 - number: 4

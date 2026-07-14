@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項の規定により電子提供措置をとる場合における第二百九十九条第一項の規定の適用については、同項中「二週間（前条第一項第三号又は第四号に掲げる事項を定めたときを除き、公開会社でない株式会社にあっては、一週間（当該株式会社が取締役会設置会社以外の株式会社である場合において、これを下回る期間を定款で定めた場合にあっては、その期間））」とあるのは、「二週間」とする。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: true
@@ -37,21 +37,21 @@ paragraphs:
     override_target:
     - 第二百九十九条
     references:
-    - 同項
     - 前条
+    - 同項
   - id: kaisha-hou-art-325-4-p2-kou-1
     type: kou
-    text: 電子提供措置をとっているときは、その旨
+    text: 一　電子提供措置をとっているときは、その旨
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-325-4-p2-kou-2
     type: kou
-    text: 前条第三項の手続を開示用電子情報処理組織を使用して行ったときは、その旨
+    text: 二　前条第三項の手続を開示用電子情報処理組織を使用して行ったときは、その旨
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-325-4-p2-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、法務省令で定める事項
+    text: 三　前二号に掲げるもののほか、法務省令で定める事項
     modality: unspecified
     item_number: 3
 - number: 3

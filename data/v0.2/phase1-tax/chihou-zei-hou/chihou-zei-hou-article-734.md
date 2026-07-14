@@ -38,12 +38,12 @@ paragraphs:
     - 第一条
   - id: chihou-zei-hou-art-734-p2-kou-1
     type: kou
-    text: 第四条第二項第一号に掲げる税のうち個人に対して課するもの
+    text: 一　第四条第二項第一号に掲げる税のうち個人に対して課するもの
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-734-p2-kou-2
     type: kou
-    text: 第四条第二項第一号に掲げる税及び第五条第二項第一号に掲げる税のうち、それぞれ法人に対して課するもの
+    text: 二　第四条第二項第一号に掲げる税及び第五条第二項第一号に掲げる税のうち、それぞれ法人に対して課するもの
     modality: unspecified
     item_number: 2
 - number: 3
@@ -56,8 +56,8 @@ paragraphs:
     text: 前項の場合において、同項第一号に掲げるものについては、第二章第一節第一款（法人の道府県民税に関する部分の規定を除く。）、第二款及び第四款から第六款まで並びに次節の規定を準用するものとし、同項第二号に掲げるものについては、同号に掲げる税を合わせて一の税とみなして、第三章第一節（個人の市町村民税に関する部分の規定を除く。）の規定を準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: chihou-zei-hou-art-734-p3-kou
     type: kou_dan
     text: この場合において、次の表の上欄に掲げる規定中同表の中欄に掲げる字句は、それぞれ同表の下欄に掲げる字句に読み替えるものとする。

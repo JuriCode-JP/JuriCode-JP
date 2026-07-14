@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: minpou-art-873-2-p1-kou-1
     type: kou
-    text: 相続財産に属する特定の財産の保存に必要な行為
+    text: 一　相続財産に属する特定の財産の保存に必要な行為
     modality: unspecified
     item_number: 1
   - id: minpou-art-873-2-p1-kou-2
     type: kou
-    text: 相続財産に属する債務（弁済期が到来しているものに限る。）の弁済
+    text: 二　相続財産に属する債務（弁済期が到来しているものに限る。）の弁済
     modality: unspecified
     item_number: 2
   - id: minpou-art-873-2-p1-kou-3
     type: kou
-    text: その死体の火葬又は埋葬に関する契約の締結その他相続財産の保存に必要な行為（前二号に掲げる行為を除く。）
+    text: 三　その死体の火葬又は埋葬に関する契約の締結その他相続財産の保存に必要な行為（前二号に掲げる行為を除く。）
     modality: unspecified
     item_number: 3
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-58-p1-kou-1
     type: kou
-    text: 当該日
+    text: 一　当該日
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-58-p1-kou-2
     type: kou
-    text: 次項に規定する日を期限日（法第三十四条の三第二項第二号に規定する期限日をいう。次条第二項及び第六十条において同じ。）とする旨
+    text: 二　次項に規定する日を期限日（法第三十四条の三第二項第二号に規定する期限日をいう。次条第二項及び第六十条において同じ。）とする旨
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 法第三十四条の三第二項に規定する内閣府令で定める日は、金融商品取引業者等が前項の規定により定めた日であって承諾日（同条第二項第一号に規定する承諾日をいう。次条第二項第五号及び第六十条において同じ。）から起算して一年以内の日のうち最も遅い日とする。
     modality: gimu
     references:
-    - 次条
     - 前項
+    - 次条
 cases: []
 amendments: []
 tags:

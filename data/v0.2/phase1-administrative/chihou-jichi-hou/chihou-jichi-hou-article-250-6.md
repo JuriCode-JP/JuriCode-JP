@@ -35,8 +35,8 @@ paragraphs:
     text: 前項ただし書の場合においては、国の行政機関は、自ら当該事務を処理した後相当の期間内に、同項の通知をしなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

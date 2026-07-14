@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-38-3-p1-kou-1
     type: kou
-    text: 揮発油を消費して製造された特定石油化学製品が消費又は移出をされた場合　当該特定石油化学製品の製造の際に消費された揮発油（法第八十九条の二第一項の規定の適用を受けたものに限る。次号において同じ。）の数量に、当該特定石油化学製品の重量と当該特定石油化学製品と同時に製造された他の物の重量との合計重量のうちに占める当該特定石油化学製品の重量の割合を乗じて計算する方法
+    text: 一　揮発油を消費して製造された特定石油化学製品が消費又は移出をされた場合　当該特定石油化学製品の製造の際に消費された揮発油（法第八十九条の二第一項の規定の適用を受けたものに限る。次号において同じ。）の数量に、当該特定石油化学製品の重量と当該特定石油化学製品と同時に製造された他の物の重量との合計重量のうちに占める当該特定石油化学製品の重量の割合を乗じて計算する方法
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-38-3-p1-kou-2
     type: kou
-    text: 施行令第四十七条各号に掲げる石油化学製品を消費して製造された特定石油化学製品が消費又は移出をされた場合　当該石油化学製品の製造の際に消費された揮発油の数量のうち当該石油化学製品の数量に対応するものとして前号に掲げる方法に準じて計算した数量に、当該特定石油化学製品の重量と当該特定石油化学製品と同時に製造された他の物の重量との合計重量のうちに占める当該特定石油化学製品の重量の割合を乗じて計算する方法
+    text: 二　施行令第四十七条各号に掲げる石油化学製品を消費して製造された特定石油化学製品が消費又は移出をされた場合　当該石油化学製品の製造の際に消費された揮発油の数量のうち当該石油化学製品の数量に対応するものとして前号に掲げる方法に準じて計算した数量に、当該特定石油化学製品の重量と当該特定石油化学製品と同時に製造された他の物の重量との合計重量のうちに占める当該特定石油化学製品の重量の割合を乗じて計算する方法
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の場合において、特定石油化学製品の製造方法又は製造工程が明らかでないことその他の事情により、同項の計算ができないときは、同項の財務省令で定めるところにより計算した数量は、法第八十九条の二第四項に規定する消費又は移出に係る特定石油化学製品の数量に相当する数量とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -56,22 +56,22 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikoukisoku-art-38-3-p3-kou-1
     type: kou
-    text: ベンゾール　一・一四リットル
+    text: 一　ベンゾール　一・一四リットル
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-38-3-p3-kou-2
     type: kou
-    text: シクロヘキサン　一・二八リットル
+    text: 二　シクロヘキサン　一・二八リットル
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-38-3-p3-kou-3
     type: kou
-    text: ノルマルヘキサン　一・四八リットル
+    text: 三　ノルマルヘキサン　一・四八リットル
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-38-3-p3-kou-4
     type: kou
-    text: トルオール、キシロール及びアルキルベンゾール　一・一五リットル
+    text: 四　トルオール、キシロール及びアルキルベンゾール　一・一五リットル
     modality: unspecified
     item_number: 4
 cases: []

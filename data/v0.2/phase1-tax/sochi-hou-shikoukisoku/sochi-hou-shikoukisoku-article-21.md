@@ -44,8 +44,8 @@ paragraphs:
     text: 施行令第三十二条の二第六項に規定する財務省令で定めるところにより証明がされた法人は、その資本金の額又は出資金の額を超えて法第五十五条第二項第一号の資源開発事業法人（同項第二号に規定する他の法人及び外国政府を含む。）に対する同項第二号に規定する投融資等（以下この項において「投融資等」という。）を行つているものであることにつき、当該資源開発事業法人に対する投融資等の金額の明細を明らかにする書類を、同条第一項に規定する内国法人の当該投融資等に係る株式（出資を含む。次項において「株式等」という。）を取得した日を含む事業年度の確定申告書等に添付することにより証明がされた法人とする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -79,32 +79,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-21-p6-kou-1
     type: kou
-    text: 法第五十五条第八項の規定の適用を受けようとする法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　法第五十五条第八項の規定の適用を受けようとする法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-21-p6-kou-2
     type: kou
-    text: 法第五十五条第八項に規定する分割承継法人、被現物出資法人又は被現物分配法人の名称及び納税地並びに代表者の氏名
+    text: 二　法第五十五条第八項に規定する分割承継法人、被現物出資法人又は被現物分配法人の名称及び納税地並びに代表者の氏名
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-21-p6-kou-3
     type: kou
-    text: 法第五十五条第八項に規定する適格分割、適格現物出資又は適格現物分配の年月日
+    text: 三　法第五十五条第八項に規定する適格分割、適格現物出資又は適格現物分配の年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-21-p6-kou-4
     type: kou
-    text: 法第五十五条第八項に規定する特定法人の名称
+    text: 四　法第五十五条第八項に規定する特定法人の名称
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-21-p6-kou-5
     type: kou
-    text: 法第五十五条第八項の海外投資等損失準備金として積み立てた金額及びその積み立てた金額の計算に関する明細
+    text: 五　法第五十五条第八項の海外投資等損失準備金として積み立てた金額及びその積み立てた金額の計算に関する明細
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-21-p6-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 7

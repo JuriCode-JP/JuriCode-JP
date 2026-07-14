@@ -30,6 +30,10 @@ paragraphs:
     type: simple
     text: 自動運行装置を備えている自動車の使用者は、作動状態記録装置により記録された記録を、内閣府令で定めるところにより保存しなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-63-2-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第二項第三号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

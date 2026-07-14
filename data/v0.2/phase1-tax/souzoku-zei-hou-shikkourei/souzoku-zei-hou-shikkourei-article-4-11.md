@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-1
     type: kou
-    text: 金銭
+    text: 一　金銭
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-2
     type: kou
-    text: 有価証券
+    text: 二　有価証券
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-3
     type: kou
-    text: 金銭債権
+    text: 三　金銭債権
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-4
     type: kou
-    text: 立木及び当該立木の生立する土地（当該立木とともに信託されるものに限る。）
+    text: 四　立木及び当該立木の生立する土地（当該立木とともに信託されるものに限る。）
     modality: unspecified
     item_number: 4
   - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-5
     type: kou
-    text: 継続的に相当の対価を得て他人に使用させる不動産
+    text: 五　継続的に相当の対価を得て他人に使用させる不動産
     modality: unspecified
     item_number: 5
   - id: souzoku-zei-hou-shikkourei-art-4-11-p1-kou-6
     type: kou
-    text: 特定障害者扶養信託契約に基づく信託の受益者である特定障害者の居住の用に供する不動産（当該特定障害者扶養信託契約に基づいて前各号に掲げる財産のいずれかとともに信託されるものに限る。）
+    text: 六　特定障害者扶養信託契約に基づく信託の受益者である特定障害者の居住の用に供する不動産（当該特定障害者扶養信託契約に基づいて前各号に掲げる財産のいずれかとともに信託されるものに限る。）
     modality: unspecified
     item_number: 6
 cases: []

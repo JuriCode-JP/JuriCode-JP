@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: shotoku-zei-hou-art-140-p1-kou-1
     type: kou
-    text: その年の前年分の課税総所得金額、課税退職所得金額及び課税山林所得金額につき第三章第一節（税率）の規定を適用して計算した所得税の額
+    text: 一　その年の前年分の課税総所得金額、課税退職所得金額及び課税山林所得金額につき第三章第一節（税率）の規定を適用して計算した所得税の額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-140-p1-kou-2
     type: kou
-    text: その年の前年分の課税総所得金額、課税退職所得金額及び課税山林所得金額から当該純損失の金額の全部又は一部を控除した金額につき第三章第一節の規定に準じて計算した所得税の額
+    text: 二　その年の前年分の課税総所得金額、課税退職所得金額及び課税山林所得金額から当該純損失の金額の全部又は一部を控除した金額につき第三章第一節の規定に準じて計算した所得税の額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の場合において、同項に規定する控除した金額に相当する所得税の額がその年の前年分の課税総所得金額、課税退職所得金額及び課税山林所得金額に係る所得税の額（附帯税の額を除く。）をこえるときは、同項の還付の請求をすることができる金額は、当該所得税の額に相当する金額を限度とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

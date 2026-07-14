@@ -40,27 +40,27 @@ paragraphs:
     - 前項
   - id: houjin-zei-hou-art-75-4-p2-kou-1
     type: kou
-    text: 当該事業年度開始の時における資本金の額又は出資金の額が一億円を超える法人
+    text: 一　当該事業年度開始の時における資本金の額又は出資金の額が一億円を超える法人
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-75-4-p2-kou-2
     type: kou
-    text: 通算法人（前号に掲げる法人を除く。）
+    text: 二　通算法人（前号に掲げる法人を除く。）
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-75-4-p2-kou-3
     type: kou
-    text: 保険業法に規定する相互会社（前号に掲げる法人を除く。）
+    text: 三　保険業法に規定する相互会社（前号に掲げる法人を除く。）
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-75-4-p2-kou-4
     type: kou
-    text: 投資法人（第一号に掲げる法人を除く。）
+    text: 四　投資法人（第一号に掲げる法人を除く。）
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-art-75-4-p2-kou-5
     type: kou
-    text: 特定目的会社（第一号に掲げる法人を除く。）
+    text: 五　特定目的会社（第一号に掲げる法人を除く。）
     modality: unspecified
     item_number: 5
 - number: 3

@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-art-93-p1-kou-1
     type: kou
-    text: 所得税法第百三十一条第三項、第百三十六条第一項各号、第百三十七条の二第十二項及び第百三十七条の三第十四項（これらの規定を同法第百六十六条において準用する場合を含む。）
+    text: 一　所得税法第百三十一条第三項、第百三十六条第一項各号、第百三十七条の二第十二項及び第百三十七条の三第十四項（これらの規定を同法第百六十六条において準用する場合を含む。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-93-p1-kou-2
     type: kou
-    text: 法人税法第七十五条第七項（同法第七十五条の二第八項及び第十項（同法第百四十四条の八において準用する場合を含む。）において準用する場合並びに同法第百四十四条の七において準用する場合を含む。以下この号において同じ。）及び地方法人税法第十九条第四項において準用する法人税法第七十五条第七項
+    text: 二　法人税法第七十五条第七項（同法第七十五条の二第八項及び第十項（同法第百四十四条の八において準用する場合を含む。）において準用する場合並びに同法第百四十四条の七において準用する場合を含む。以下この号において同じ。）及び地方法人税法第十九条第四項において準用する法人税法第七十五条第七項
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-93-p1-kou-3
     type: kou
-    text: 相続税法第五十一条の二第一項第二号、第五十二条第四項並びに第五十三条第一項、第四項第一号及び第二号イ、第六項並びに第七項
+    text: 三　相続税法第五十一条の二第一項第二号、第五十二条第四項並びに第五十三条第一項、第四項第一号及び第二号イ、第六項並びに第七項
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-93-p1-kou-4
     type: kou
-    text: 消費税法第四十五条の二第四項
+    text: 四　消費税法第四十五条の二第四項
     modality: unspecified
     item_number: 4
   - id: sochi-hou-art-93-p1-kou-5
     type: kou
-    text: 第七十条の七の二第十四項第十号ロ（第七十条の七の四第十一項において準用する場合を含む。）
+    text: 五　第七十条の七の二第十四項第十号ロ（第七十条の七の四第十一項において準用する場合を含む。）
     modality: unspecified
     item_number: 5
 - number: 2
@@ -68,37 +68,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-art-93-p3-kou-1
     type: kou
-    text: 相続税法第五十二条第一項第一号
+    text: 一　相続税法第五十二条第一項第一号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-93-p3-kou-2
     type: kou
-    text: 第七十条の六第三十八項第三号
+    text: 二　第七十条の六第三十八項第三号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-93-p3-kou-3
     type: kou
-    text: 第七十条の七の二第十四項第十号前段（第七十条の七の四第十一項において準用する場合を含む。）
+    text: 三　第七十条の七の二第十四項第十号前段（第七十条の七の四第十一項において準用する場合を含む。）
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-93-p3-kou-4
     type: kou
-    text: 第七十条の八の二第三項（同条第九項において準用する場合を含む。）
+    text: 四　第七十条の八の二第三項（同条第九項において準用する場合を含む。）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-art-93-p3-kou-5
     type: kou
-    text: 第七十条の九第一項（同条第四項において準用する場合を含む。）
+    text: 五　第七十条の九第一項（同条第四項において準用する場合を含む。）
     modality: unspecified
     item_number: 5
   - id: sochi-hou-art-93-p3-kou-6
     type: kou
-    text: 第七十条の十第二項（同条第五項において準用する場合を含む。）
+    text: 六　第七十条の十第二項（同条第五項において準用する場合を含む。）
     modality: unspecified
     item_number: 6
   - id: sochi-hou-art-93-p3-kou-7
     type: kou
-    text: 第七十条の十一
+    text: 七　第七十条の十一
     modality: unspecified
     item_number: 7
 - number: 4
@@ -114,12 +114,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-art-93-p4-kou-1
     type: kou
-    text: 分納期間　相続税法第五十二条第一項第一号又は第二号に規定する分納税額に併せて納付しなければならない利子税の額の計算の基礎となる期間をいう。
+    text: 一　分納期間　相続税法第五十二条第一項第一号又は第二号に規定する分納税額に併せて納付しなければならない利子税の額の計算の基礎となる期間をいう。
     modality: teigi
     item_number: 1
   - id: sochi-hou-art-93-p4-kou-2
     type: kou
-    text: 延納特例基準割合　各分納期間の開始の日の属する年の利子税特例基準割合（第二項に規定する利子税特例基準割合をいう。次項において同じ。）をいう。
+    text: 二　延納特例基準割合　各分納期間の開始の日の属する年の利子税特例基準割合（第二項に規定する利子税特例基準割合をいう。次項において同じ。）をいう。
     modality: teigi
     item_number: 2
 - number: 5

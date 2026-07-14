@@ -23,32 +23,32 @@ paragraphs:
     modality: unspecified
   - id: dokusen-kinshi-hou-art-31-p1-kou-1
     type: kou
-    text: 破産手続開始の決定を受けた場合
+    text: 一　破産手続開始の決定を受けた場合
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-31-p1-kou-2
     type: kou
-    text: 懲戒免官の処分を受けた場合
+    text: 二　懲戒免官の処分を受けた場合
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-31-p1-kou-3
     type: kou
-    text: この法律の規定に違反して刑に処せられた場合
+    text: 三　この法律の規定に違反して刑に処せられた場合
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-31-p1-kou-4
     type: kou
-    text: 拘禁刑以上の刑に処せられた場合
+    text: 四　拘禁刑以上の刑に処せられた場合
     modality: unspecified
     item_number: 4
   - id: dokusen-kinshi-hou-art-31-p1-kou-5
     type: kou
-    text: 公正取引委員会により、心身の故障のため職務を執ることができないと決定された場合
+    text: 五　公正取引委員会により、心身の故障のため職務を執ることができないと決定された場合
     modality: unspecified
     item_number: 5
   - id: dokusen-kinshi-hou-art-31-p1-kou-6
     type: kou
-    text: 前条第四項の場合において、両議院の事後の承認を得られなかつたとき。
+    text: 六　前条第四項の場合において、両議院の事後の承認を得られなかつたとき。
     modality: unspecified
     item_number: 6
 cases: []

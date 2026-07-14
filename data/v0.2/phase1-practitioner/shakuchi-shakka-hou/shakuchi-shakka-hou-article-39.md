@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の特約は、同項の建物を取り壊すべき事由を記載した書面によってしなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -46,8 +46,8 @@ paragraphs:
     text: 第一項の特約がその内容及び前項に規定する事由を記録した電磁的記録によってされたときは、その特約は、同項の書面によってされたものとみなして、同項の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

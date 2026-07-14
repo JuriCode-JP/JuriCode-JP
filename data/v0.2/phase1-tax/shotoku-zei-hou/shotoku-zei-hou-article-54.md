@@ -42,8 +42,8 @@ paragraphs:
     text: 前項の規定により取りくずすべきこととなつた退職給与引当金勘定の金額又は同項の規定に該当しないで取りくずした退職給与引当金勘定の金額は、それぞれその取りくずすべきこととなつた日又は取りくずした日の属する年分の事業所得の金額の計算上、総収入金額に算入する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

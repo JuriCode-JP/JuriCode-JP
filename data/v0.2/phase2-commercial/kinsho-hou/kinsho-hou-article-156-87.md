@@ -34,42 +34,42 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-156-87-p2-kou-1
     type: kou
-    text: 特定金融指標の算出及び公表に係る方針及び方法に関する事項
+    text: 一　特定金融指標の算出及び公表に係る方針及び方法に関する事項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-87-p2-kou-2
     type: kou
-    text: 特定金融指標算出業務を適正に遂行するための業務管理体制に関する事項
+    text: 二　特定金融指標算出業務を適正に遂行するための業務管理体制に関する事項
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-87-p2-kou-3
     type: kou
-    text: 特定金融指標算出者に対して算出基礎情報（第三十八条第七号に規定する算出基礎情報をいう。第百五十六条の八十九第二項において同じ。）を提供する者（次号及び同項において「情報提供者」という。）が遵守すべき事項（同号において「行動規範」という。）
+    text: 三　特定金融指標算出者に対して算出基礎情報（第三十八条第七号に規定する算出基礎情報をいう。第百五十六条の八十九第二項において同じ。）を提供する者（次号及び同項において「情報提供者」という。）が遵守すべき事項（同号において「行動規範」という。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-87-p2-kou-4
     type: kou
-    text: 情報提供者との間の契約（行動規範に係るものを含む。）の締結に関する事項
+    text: 四　情報提供者との間の契約（行動規範に係るものを含む。）の締結に関する事項
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-87-p2-kou-5
     type: kou
-    text: 特定金融指標算出業務の委託に関する事項
+    text: 五　特定金融指標算出業務の委託に関する事項
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-156-87-p2-kou-6
     type: kou
-    text: 特定金融指標算出業務に係る監査に関する事項
+    text: 六　特定金融指標算出業務に係る監査に関する事項
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-156-87-p2-kou-7
     type: kou
-    text: 特定金融指標算出業務に係る説明書類の公衆縦覧に関する事項
+    text: 七　特定金融指標算出業務に係る説明書類の公衆縦覧に関する事項
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-156-87-p2-kou-8
     type: kou
-    text: 特定金融指標算出業務の休止又は廃止に関する事項
+    text: 八　特定金融指標算出業務の休止又は廃止に関する事項
     modality: unspecified
     item_number: 8
 - number: 3

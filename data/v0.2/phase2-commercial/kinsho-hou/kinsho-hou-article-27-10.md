@@ -32,12 +32,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-27-10-p2-kou-1
     type: kou
-    text: 公開買付者に対する質問
+    text: 一　公開買付者に対する質問
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-27-10-p2-kou-2
     type: kou
-    text: 公開買付開始公告に記載された買付け等の期間を政令で定める期間に延長することを請求する旨及びその理由（当該買付け等の期間が政令で定める期間より短い場合に限る。）
+    text: 二　公開買付開始公告に記載された買付け等の期間を政令で定める期間に延長することを請求する旨及びその理由（当該買付け等の期間が政令で定める期間より短い場合に限る。）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -50,8 +50,8 @@ paragraphs:
     text: 前項の規定により意見表明報告書に同項第二号に掲げる請求をする旨の記載があり、かつ、第二十七条の十四第一項の規定により内閣総理大臣が当該意見表明報告書を公衆の縦覧に供したときは、公開買付者は、買付け等の期間を政令で定める期間に延長しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -62,8 +62,8 @@ paragraphs:
     text: 対象者は、第二項の規定により意見表明報告書に同項第二号に掲げる請求をする旨の記載をした場合には、第一項に規定する期間の末日の翌日までに、政令で定めるところにより、前項の規定による延長後の買付け等の期間その他の内閣府令で定める事項を公告しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

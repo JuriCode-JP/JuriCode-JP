@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: shotoku-zei-hou-art-173-p1-kou-1
     type: kou
-    text: 前条第二項第一号に掲げる退職手当等の総額及び所得税の額
+    text: 一　前条第二項第一号に掲げる退職手当等の総額及び所得税の額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-173-p1-kou-2
     type: kou
-    text: 前条第二項第二号に掲げる所得税の額
+    text: 二　前条第二項第二号に掲げる所得税の額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-173-p1-kou-3
     type: kou
-    text: 前号に掲げる所得税の額から第一号に掲げる所得税の額を控除した金額
+    text: 三　前号に掲げる所得税の額から第一号に掲げる所得税の額を控除した金額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-art-173-p1-kou-4
     type: kou
-    text: 前条第二項第四号及び第五号に掲げる事項その他財務省令で定める事項
+    text: 四　前条第二項第四号及び第五号に掲げる事項その他財務省令で定める事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項の規定による申告書の提出があつた場合には、税務署長は、同項第三号に掲げる金額に相当する所得税を還付する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -63,8 +63,8 @@ paragraphs:
     text: 前項の場合において、同項の申告書に記載された第一項第二号に掲げる所得税の額（次編第五章の規定により徴収されるべきものに限る。）のうちにまだ納付されていないものがあるときは、前項の規定による還付金の額のうちその納付されていない部分の金額に相当する金額については、その納付があるまでは、還付しない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -86,8 +86,8 @@ paragraphs:
     text: 前二項に定めるもののほか、第二項の還付の手続その他同項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前二項
+    - 同項
 cases: []
 amendments: []
 tags:

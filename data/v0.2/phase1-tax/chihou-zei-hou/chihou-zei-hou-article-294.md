@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-294-p1-kou-1
     type: kou
-    text: 市町村内に住所を有する個人
+    text: 一　市町村内に住所を有する個人
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-294-p1-kou-2
     type: kou
-    text: 市町村内に事務所、事業所又は家屋敷を有する個人で当該市町村内に住所を有しない者
+    text: 二　市町村内に事務所、事業所又は家屋敷を有する個人で当該市町村内に住所を有しない者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-294-p1-kou-3
     type: kou
-    text: 市町村内に事務所又は事業所を有する法人
+    text: 三　市町村内に事務所又は事業所を有する法人
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-294-p1-kou-4
     type: kou
-    text: 市町村内に寮、宿泊所、クラブその他これらに類する施設（以下この節において「寮等」という。）を有する法人で当該市町村内に事務所又は事業所を有しないもの
+    text: 四　市町村内に寮、宿泊所、クラブその他これらに類する施設（以下この節において「寮等」という。）を有する法人で当該市町村内に事務所又は事業所を有しないもの
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-294-p1-kou-5
     type: kou
-    text: 法人課税信託（法人税法第二条第二十九号の二に規定する法人課税信託をいう。以下この節において同じ。）の引受けを行うことにより法人税を課される個人で市町村内に事務所又は事業所を有するもの
+    text: 五　法人課税信託（法人税法第二条第二十九号の二に規定する法人課税信託をいう。以下この節において同じ。）の引受けを行うことにより法人税を課される個人で市町村内に事務所又は事業所を有するもの
     modality: unspecified
     item_number: 5
 - number: 2

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-20-p1-kou-1
     type: kou
-    text: 申告者の氏名又は名称（代表者の氏名を含む。以下第二十二条まで、第二十三条の二及び第二十三条の五において同じ。）、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　申告者の氏名又は名称（代表者の氏名を含む。以下第二十二条まで、第二十三条の二及び第二十三条の五において同じ。）、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-20-p1-kou-2
     type: kou
-    text: 当該課税期間の初日及び末日の年月日
+    text: 二　当該課税期間の初日及び末日の年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-20-p1-kou-3
     type: kou
-    text: 法第四十三条第一項に規定する中間申告対象期間の初日及び末日の年月日
+    text: 三　法第四十三条第一項に規定する中間申告対象期間の初日及び末日の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-20-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

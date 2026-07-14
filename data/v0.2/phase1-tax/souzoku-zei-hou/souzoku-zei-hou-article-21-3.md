@@ -23,32 +23,32 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-art-21-3-p1-kou-1
     type: kou
-    text: 法人からの贈与により取得した財産及び公益信託から給付を受けた財産
+    text: 一　法人からの贈与により取得した財産及び公益信託から給付を受けた財産
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-21-3-p1-kou-2
     type: kou
-    text: 扶養義務者相互間において生活費又は教育費に充てるためにした贈与により取得した財産のうち通常必要と認められるもの
+    text: 二　扶養義務者相互間において生活費又は教育費に充てるためにした贈与により取得した財産のうち通常必要と認められるもの
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-art-21-3-p1-kou-3
     type: kou
-    text: 宗教、慈善、学術その他公益を目的とする事業を行う者で政令で定めるものが贈与により取得した財産で当該公益を目的とする事業の用に供することが確実なもの（次号に掲げるものを除く。）
+    text: 三　宗教、慈善、学術その他公益を目的とする事業を行う者で政令で定めるものが贈与により取得した財産で当該公益を目的とする事業の用に供することが確実なもの（次号に掲げるものを除く。）
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-art-21-3-p1-kou-4
     type: kou
-    text: 公益信託の受託者が贈与により取得した財産（その信託財産として取得したものに限る。）
+    text: 四　公益信託の受託者が贈与により取得した財産（その信託財産として取得したものに限る。）
     modality: unspecified
     item_number: 4
   - id: souzoku-zei-hou-art-21-3-p1-kou-5
     type: kou
-    text: 条例の規定により地方公共団体が精神又は身体に障害のある者に関して実施する共済制度で政令で定めるものに基づいて支給される給付金を受ける権利
+    text: 五　条例の規定により地方公共団体が精神又は身体に障害のある者に関して実施する共済制度で政令で定めるものに基づいて支給される給付金を受ける権利
     modality: unspecified
     item_number: 5
   - id: souzoku-zei-hou-art-21-3-p1-kou-6
     type: kou
-    text: 公職選挙法（昭和二十五年法律第百号）の適用を受ける選挙における公職の候補者が選挙運動に関し贈与により取得した金銭、物品その他の財産上の利益で同法第百八十九条（選挙運動に関する収入及び支出の報告書の提出）の規定による報告がなされたもの
+    text: 六　公職選挙法（昭和二十五年法律第百号）の適用を受ける選挙における公職の候補者が選挙運動に関し贈与により取得した金銭、物品その他の財産上の利益で同法第百八十九条（選挙運動に関する収入及び支出の報告書の提出）の規定による報告がなされたもの
     modality: unspecified
     item_number: 6
 - number: 2
@@ -61,8 +61,8 @@ paragraphs:
     text: 第十二条第二項の規定は、前項第三号に掲げる財産について準用する。この場合において、同条第二項中「同項」とあるのは「第二十一条の三第一項」と、「相続税」とあるのは「贈与税」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases:
 - case_id: ntt-2011-06-10-j83-20
   case_type: ruling

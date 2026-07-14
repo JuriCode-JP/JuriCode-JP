@@ -25,17 +25,17 @@ paragraphs:
     - 前三条
   - id: yakkihou-shikoukisoku-art-114-64-p1-kou-1
     type: kou
-    text: 生物由来製品（次号及び第三号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
+    text: 一　生物由来製品（次号及び第三号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-64-p1-kou-2
     type: kou
-    text: 特定生物由来製品に係る記録　利用しなくなつた日から三十年間
+    text: 二　特定生物由来製品に係る記録　利用しなくなつた日から三十年間
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-64-p1-kou-3
     type: kou
-    text: 特定保守管理医療機器及び設置管理医療機器（前号に掲げるものを除く。）に係る記録　利用しなくなつた日から十五年間
+    text: 三　特定保守管理医療機器及び設置管理医療機器（前号に掲げるものを除く。）に係る記録　利用しなくなつた日から十五年間
     modality: unspecified
     item_number: 3
 - number: 2

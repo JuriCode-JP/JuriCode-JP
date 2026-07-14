@@ -44,8 +44,8 @@ paragraphs:
     text: 前項の規定により同項に規定する事件に係る議案の提出を受けた構成団体の議会は、当該事件を議決するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

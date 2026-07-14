@@ -41,12 +41,12 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-113-p3-kou-1
     type: kou
-    text: 公開会社が定款を変更して発行可能株式総数を増加する場合
+    text: 一　公開会社が定款を変更して発行可能株式総数を増加する場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-113-p3-kou-2
     type: kou
-    text: 公開会社でない株式会社が定款を変更して公開会社となる場合
+    text: 二　公開会社でない株式会社が定款を変更して公開会社となる場合
     modality: unspecified
     item_number: 2
 - number: 4

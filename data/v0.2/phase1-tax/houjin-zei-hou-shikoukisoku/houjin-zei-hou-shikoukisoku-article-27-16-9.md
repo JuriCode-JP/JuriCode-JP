@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-27-16-9-p1-kou-1
     type: kou
-    text: 法第六十四条の十第二項の申請をする同項に規定する通算法人の全ての名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　法第六十四条の十第二項の申請をする同項に規定する通算法人の全ての名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-27-16-9-p1-kou-2
     type: kou
-    text: その他参考となるべき事項
+    text: 二　その他参考となるべき事項
     modality: unspecified
     item_number: 2
 cases: []

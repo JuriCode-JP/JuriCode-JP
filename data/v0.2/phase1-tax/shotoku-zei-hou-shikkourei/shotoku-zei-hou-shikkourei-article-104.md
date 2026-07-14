@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: shotoku-zei-hou-shikkourei-art-104-p1-kou-1
     type: kou
-    text: 当該資産が災害により著しく損傷したこと。
+    text: 一　当該資産が災害により著しく損傷したこと。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-104-p1-kou-2
     type: kou
-    text: 当該資産が著しく陳腐化したこと。
+    text: 二　当該資産が著しく陳腐化したこと。
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-104-p1-kou-3
     type: kou
-    text: 前二号に準ずる特別の事実
+    text: 三　前二号に準ずる特別の事実
     modality: unspecified
     item_number: 3
 cases: []

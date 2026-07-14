@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-1-5-p1-kou-1
     type: kou
-    text: 企業内容等の開示に関する内閣府令（昭和四十八年大蔵省令第五号）第十九条第二項各号（同条第三項において準用する場合を含む。）に定める事項
+    text: 一　企業内容等の開示に関する内閣府令（昭和四十八年大蔵省令第五号）第十九条第二項各号（同条第三項において準用する場合を含む。）に定める事項
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-1-5-p1-kou-2
     type: kou
-    text: 企業内容等の開示に関する内閣府令第十九条の二各号に定める部分に記載すべき事項又は当該各号に定める部分に記載された内容に生じた変更の内容
+    text: 二　企業内容等の開示に関する内閣府令第十九条の二各号に定める部分に記載すべき事項又は当該各号に定める部分に記載された内容に生じた変更の内容
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-1-5-p1-kou-3
     type: kou
-    text: 外国債等の発行者の内容等の開示に関する内閣府令（昭和四十七年大蔵省令第二十六号）第十六条各号に掲げる事項
+    text: 三　外国債等の発行者の内容等の開示に関する内閣府令（昭和四十七年大蔵省令第二十六号）第十六条各号に掲げる事項
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-1-5-p1-kou-4
     type: kou
-    text: 特定有価証券の内容等の開示に関する内閣府令（平成五年大蔵省令第二十二号）第二十九条第二項各号（同条第五項において読み替えて適用する場合を含む。）に定める事項
+    text: 四　特定有価証券の内容等の開示に関する内閣府令（平成五年大蔵省令第二十二号）第二十九条第二項各号（同条第五項において読み替えて適用する場合を含む。）に定める事項
     modality: unspecified
     item_number: 4
 cases: []

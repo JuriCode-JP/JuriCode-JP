@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: keisatsu-hou-art-41-p1-kou-1
     type: kou
-    text: 第三十九条第二項各号のいずれかに該当するに至つた場合
+    text: 一　第三十九条第二項各号のいずれかに該当するに至つた場合
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-41-p1-kou-2
     type: kou
-    text: 当該都道府県の議会の議員の被選挙権を有する者でなくなつた場合（第三十九条第一項ただし書に規定する委員については、当該指定市の議会の議員の被選挙権を有する者でなくなつた場合）
+    text: 二　当該都道府県の議会の議員の被選挙権を有する者でなくなつた場合（第三十九条第一項ただし書に規定する委員については、当該指定市の議会の議員の被選挙権を有する者でなくなつた場合）
     modality: unspecified
     item_number: 2
 - number: 2

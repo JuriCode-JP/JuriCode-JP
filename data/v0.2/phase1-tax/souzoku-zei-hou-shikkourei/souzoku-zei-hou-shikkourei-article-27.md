@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の請求をしようとする者は、同項の開示請求書に法第四十九条第一項に規定する被相続人に係る相続時精算課税適用者であることを明らかにする書類、当該被相続人から相続若しくは遺贈により財産を取得したことを証する書類その他の財務省令で定める書類を添付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -59,17 +59,17 @@ paragraphs:
     - 同項
   - id: souzoku-zei-hou-shikkourei-art-27-p4-kou-1
     type: kou
-    text: 法の施行地に当該被相続人の住所がある場合　当該住所地
+    text: 一　法の施行地に当該被相続人の住所がある場合　当該住所地
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-27-p4-kou-2
     type: kou
-    text: 法の施行地に当該被相続人の住所がなく、居所がある場合　当該居所地
+    text: 二　法の施行地に当該被相続人の住所がなく、居所がある場合　当該居所地
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikkourei-art-27-p4-kou-3
     type: kou
-    text: 法の施行地に当該被相続人の住所及び居所がない場合　財務省令で定める場所
+    text: 三　法の施行地に当該被相続人の住所及び居所がない場合　財務省令で定める場所
     modality: unspecified
     item_number: 3
 - number: 5

@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-573-p1-kou-1
     type: kou
-    text: 特別清算が結了したとき。
+    text: 一　特別清算が結了したとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-573-p1-kou-2
     type: kou
-    text: 特別清算の必要がなくなったとき。
+    text: 二　特別清算の必要がなくなったとき。
     modality: unspecified
     item_number: 2
 cases: []

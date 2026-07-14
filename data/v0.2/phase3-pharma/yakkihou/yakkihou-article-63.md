@@ -23,42 +23,42 @@ paragraphs:
     modality: jogai
   - id: yakkihou-art-63-p1-kou-1
     type: kou
-    text: 製造販売業者の氏名又は名称及び住所
+    text: 一　製造販売業者の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-63-p1-kou-2
     type: kou
-    text: 名称
+    text: 二　名称
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-63-p1-kou-3
     type: kou
-    text: 製造番号又は製造記号
+    text: 三　製造番号又は製造記号
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-63-p1-kou-4
     type: kou
-    text: 厚生労働大臣の指定する医療機器にあつては、重量、容量又は個数等の内容量
+    text: 四　厚生労働大臣の指定する医療機器にあつては、重量、容量又は個数等の内容量
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-63-p1-kou-5
     type: kou
-    text: 第四十一条第三項の規定によりその基準が定められた医療機器にあつては、その基準においてその医療機器又はその直接の容器若しくは直接の被包に記載するように定められた事項
+    text: 五　第四十一条第三項の規定によりその基準が定められた医療機器にあつては、その基準においてその医療機器又はその直接の容器若しくは直接の被包に記載するように定められた事項
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-63-p1-kou-6
     type: kou
-    text: 第四十二条第二項の規定によりその基準が定められた医療機器にあつては、その基準においてその医療機器又はその直接の容器若しくは直接の被包に記載するように定められた事項
+    text: 六　第四十二条第二項の規定によりその基準が定められた医療機器にあつては、その基準においてその医療機器又はその直接の容器若しくは直接の被包に記載するように定められた事項
     modality: unspecified
     item_number: 6
   - id: yakkihou-art-63-p1-kou-7
     type: kou
-    text: 厚生労働大臣の指定する医療機器にあつては、その使用の期限
+    text: 七　厚生労働大臣の指定する医療機器にあつては、その使用の期限
     modality: unspecified
     item_number: 7
   - id: yakkihou-art-63-p1-kou-8
     type: kou
-    text: 前各号に掲げるもののほか、厚生労働省令で定める事項
+    text: 八　前各号に掲げるもののほか、厚生労働省令で定める事項
     modality: unspecified
     item_number: 8
 - number: 2
@@ -71,8 +71,8 @@ paragraphs:
     text: 前項の医療機器が特定保守管理医療機器である場合においては、その医療機器に、同項第一号から第三号まで及び第八号に掲げる事項が記載されていなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: yakkihou-art-63-p2-tadashi
     type: tadashi
     text: ただし、厚生労働省令で別段の定めをしたときは、この限りでない。

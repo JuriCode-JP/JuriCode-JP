@@ -48,9 +48,9 @@ paragraphs:
     text: 前条第九項の規定は、前項に規定する個人が同項の所轄税務署長の承認を受けた場合について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

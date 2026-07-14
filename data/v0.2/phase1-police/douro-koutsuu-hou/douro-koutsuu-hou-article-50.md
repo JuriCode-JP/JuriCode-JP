@@ -30,6 +30,10 @@ paragraphs:
     type: simple
     text: 車両等は、その進行しようとする進路の前方の車両等の状況により、横断歩道、自転車横断帯、踏切又は道路標示によつて区画された部分に入つた場合においてはその部分で停止することとなるおそれがあるときは、これらの部分に入つてはならない。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-50-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第五号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

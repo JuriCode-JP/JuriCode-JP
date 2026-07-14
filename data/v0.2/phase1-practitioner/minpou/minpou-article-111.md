@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-111-p1-kou-1
     type: kou
-    text: 本人の死亡
+    text: 一　本人の死亡
     modality: unspecified
     item_number: 1
   - id: minpou-art-111-p1-kou-2
     type: kou
-    text: 代理人の死亡又は代理人が破産手続開始の決定若しくは後見開始の審判を受けたこと。
+    text: 二　代理人の死亡又は代理人が破産手続開始の決定若しくは後見開始の審判を受けたこと。
     modality: unspecified
     item_number: 2
 - number: 2

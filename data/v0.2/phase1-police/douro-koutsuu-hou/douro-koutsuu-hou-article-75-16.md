@@ -57,6 +57,10 @@ paragraphs:
     type: simple
     text: 特定自動運行実施者は、第七十五条の十二第二項第一号に掲げる事項を変更したときは、内閣府令で定めるところにより、変更の日から三十日以内に、公安委員会に届け出なければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-75-16-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十七条の二第二項第四号及び第五号、第百二十三条　第三項及び第四項については第百十九条の二の三第二号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

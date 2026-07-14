@@ -31,21 +31,21 @@ paragraphs:
     text: 個人情報取扱事業者は、前項の規定による請求を受けたときは、本人に対し、同項の規定により当該本人が請求した方法（当該方法による開示に多額の費用を要する場合その他の当該方法による開示が困難である場合にあっては、書面の交付による方法）により、遅滞なく、当該保有個人データを開示しなければならない。ただし、開示することにより次の各号のいずれかに該当する場合は、その全部又は一部を開示しないことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kojin-jouhou-hogo-hou-art-33-p2-kou-1
     type: kou
-    text: 本人又は第三者の生命、身体、財産その他の権利利益を害するおそれがある場合
+    text: 一　本人又は第三者の生命、身体、財産その他の権利利益を害するおそれがある場合
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-33-p2-kou-2
     type: kou
-    text: 当該個人情報取扱事業者の業務の適正な実施に著しい支障を及ぼすおそれがある場合
+    text: 二　当該個人情報取扱事業者の業務の適正な実施に著しい支障を及ぼすおそれがある場合
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-33-p2-kou-3
     type: kou
-    text: 他の法令に違反することとなる場合
+    text: 三　他の法令に違反することとなる場合
     modality: unspecified
     item_number: 3
 - number: 3

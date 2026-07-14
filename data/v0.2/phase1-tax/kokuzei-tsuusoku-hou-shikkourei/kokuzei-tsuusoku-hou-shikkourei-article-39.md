@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-39-p1-kou-1
     type: kou
-    text: 納税者の納税地
+    text: 一　納税者の納税地
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-39-p1-kou-2
     type: kou
-    text: 個人である納税者が法の施行地に住所及び居所（事務所及び事業所を除く。以下この号において同じ。）を有しないこととなる場合には、法の施行地外における住所又は居所となるべき場所
+    text: 二　個人である納税者が法の施行地に住所及び居所（事務所及び事業所を除く。以下この号において同じ。）を有しないこととなる場合には、法の施行地外における住所又は居所となるべき場所
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-39-p1-kou-3
     type: kou
-    text: 納税管理人の氏名及び住所又は居所
+    text: 三　納税管理人の氏名及び住所又は居所
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-39-p1-kou-4
     type: kou
-    text: 納税管理人を定めた理由
+    text: 四　納税管理人を定めた理由
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,17 +52,17 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-39-p2-kou-1
     type: kou
-    text: 納税者の納税地
+    text: 一　納税者の納税地
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-39-p2-kou-2
     type: kou
-    text: 解任した納税管理人の氏名及び住所又は居所
+    text: 二　解任した納税管理人の氏名及び住所又は居所
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-39-p2-kou-3
     type: kou
-    text: 納税管理人を解任した理由
+    text: 三　納税管理人を解任した理由
     modality: unspecified
     item_number: 3
 cases: []

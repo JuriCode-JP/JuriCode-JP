@@ -33,8 +33,8 @@ paragraphs:
     text: 前項に規定する所有株式を発行した法人は、株式分配を行つた場合には、当該所有株式を有していた法人に対し、当該株式分配に係る同項に規定する割合を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

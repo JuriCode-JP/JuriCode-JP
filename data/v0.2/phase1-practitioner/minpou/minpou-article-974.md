@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_negative
   - id: minpou-art-974-p1-kou-1
     type: kou
-    text: 未成年者
+    text: 一　未成年者
     modality: unspecified
     item_number: 1
   - id: minpou-art-974-p1-kou-2
     type: kou
-    text: 推定相続人及び受遺者並びにこれらの配偶者及び直系血族
+    text: 二　推定相続人及び受遺者並びにこれらの配偶者及び直系血族
     modality: unspecified
     item_number: 2
   - id: minpou-art-974-p1-kou-3
     type: kou
-    text: 公証人の配偶者、四親等内の親族、書記及び使用人
+    text: 三　公証人の配偶者、四親等内の親族、書記及び使用人
     modality: unspecified
     item_number: 3
 cases: []

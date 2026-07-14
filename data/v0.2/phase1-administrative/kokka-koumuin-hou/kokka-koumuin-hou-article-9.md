@@ -40,8 +40,8 @@ paragraphs:
     text: 国会は、前項の場合においては、同項に規定する書面の写を訴追に係る人事官に送付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

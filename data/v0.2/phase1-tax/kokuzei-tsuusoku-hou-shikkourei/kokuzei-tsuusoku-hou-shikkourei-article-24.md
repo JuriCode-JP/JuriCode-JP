@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p1-kou-1
     type: kou
-    text: 予定納税に係る所得税（当該所得税に係る延滞税及び滞納処分費を含む。）に係る過納金
+    text: 一　予定納税に係る所得税（当該所得税に係る延滞税及び滞納処分費を含む。）に係る過納金
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p1-kou-2
     type: kou
-    text: 自動車重量税法（昭和四十六年法律第八十九号）第十二条第一項（税額の認定）の規定による通知に基づいて納付した自動車重量税に係る過納金
+    text: 二　自動車重量税法（昭和四十六年法律第八十九号）第十二条第一項（税額の認定）の規定による通知に基づいて納付した自動車重量税に係る過納金
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p1-kou-3
     type: kou
-    text: 登録免許税法第二十六条第一項（課税標準及び税額の認定）の規定による通知に基づいて納付した登録免許税に係る過納金
+    text: 三　登録免許税法第二十六条第一項（課税標準及び税額の認定）の規定による通知に基づいて納付した登録免許税に係る過納金
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p1-kou-4
     type: kou
-    text: 第二次納税義務者が納付した国税の額につき生じた過納金
+    text: 四　第二次納税義務者が納付した国税の額につき生じた過納金
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,27 +52,27 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p2-kou-1
     type: kou
-    text: 納税申告書の提出により納付すべき税額が確定した国税（当該国税に係る延滞税及び利子税を含む。）に係る過納金　その更正があつた日
+    text: 一　納税申告書の提出により納付すべき税額が確定した国税（当該国税に係る延滞税及び利子税を含む。）に係る過納金　その更正があつた日
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p2-kou-2
     type: kou
-    text: 源泉徴収等による国税（当該国税に係る延滞税を含む。）に係る過誤納金（法第五十八条第一項第一号ロに掲げる過納金及び同条第四項の規定の適用がある過納金を除く。）及び国際観光旅客税法第十八条第一項（国際観光旅客等による納付）の規定により納付すべき国際観光旅客税（納税の告知がされたものを除く。）に係る過誤納金　税務署長又は税関長がその過誤納の事実の確認をした日
+    text: 二　源泉徴収等による国税（当該国税に係る延滞税を含む。）に係る過誤納金（法第五十八条第一項第一号ロに掲げる過納金及び同条第四項の規定の適用がある過納金を除く。）及び国際観光旅客税法第十八条第一項（国際観光旅客等による納付）の規定により納付すべき国際観光旅客税（納税の告知がされたものを除く。）に係る過誤納金　税務署長又は税関長がその過誤納の事実の確認をした日
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p2-kou-3
     type: kou
-    text: 自動車重量税法第十六条第一項（過誤納の確認等）の規定による請求をすることができる自動車重量税に係る過誤納金　当該過誤納金につき、同条第三項の規定による証明書又は書面の提出があつた日
+    text: 三　自動車重量税法第十六条第一項（過誤納の確認等）の規定による請求をすることができる自動車重量税に係る過誤納金　当該過誤納金につき、同条第三項の規定による証明書又は書面の提出があつた日
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p2-kou-4
     type: kou
-    text: 登録免許税法第三十一条第二項（過誤納金の還付等）の規定による請求をすることができる登録免許税に係る過誤納金　当該過誤納金につき、当該請求があつた日（当該請求がないときは、同条第一項の通知があつた日）
+    text: 四　登録免許税法第三十一条第二項（過誤納金の還付等）の規定による請求をすることができる登録免許税に係る過誤納金　当該過誤納金につき、当該請求があつた日（当該請求がないときは、同条第一項の通知があつた日）
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p2-kou-5
     type: kou
-    text: 法第五十八条第一項第三号に掲げる過誤納金のうち前各号に掲げる過誤納金以外のもの　当該過誤納金に係る国税の納付（法第五十九条第二項（国税の予納額の還付の特例）その他国税に関する法律の規定により過誤納があつたものとみなされる場合には、その過誤納）があつた日
+    text: 五　法第五十八条第一項第三号に掲げる過誤納金のうち前各号に掲げる過誤納金以外のもの　当該過誤納金に係る国税の納付（法第五十九条第二項（国税の予納額の還付の特例）その他国税に関する法律の規定により過誤納があつたものとみなされる場合には、その過誤納）があつた日
     modality: unspecified
     item_number: 5
 - number: 3
@@ -88,22 +88,22 @@ paragraphs:
     - 前項
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p3-kou-1
     type: kou
-    text: 過誤納に係る国税の税目、当該国税に係る納付した税額、当該税額のうち過誤納となつた金額及びその納付した年月日
+    text: 一　過誤納に係る国税の税目、当該国税に係る納付した税額、当該税額のうち過誤納となつた金額及びその納付した年月日
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p3-kou-2
     type: kou
-    text: 過誤納となつた理由
+    text: 二　過誤納となつた理由
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p3-kou-3
     type: kou
-    text: 当該過誤納金の還付のための支払を受けようとする銀行又は郵便局（簡易郵便局法（昭和二十四年法律第二百十三号）第二条（定義）に規定する郵便窓口業務を行う日本郵便株式会社の営業所であつて郵政民営化法（平成十七年法律第九十七号）第九十四条（定義）に規定する郵便貯金銀行を銀行法（昭和五十六年法律第五十九号）第二条第十六項（定義等）に規定する所属銀行とする同条第十四項に規定する銀行代理業の業務を行うものをいう。）の名称及び所在地
+    text: 三　当該過誤納金の還付のための支払を受けようとする銀行又は郵便局（簡易郵便局法（昭和二十四年法律第二百十三号）第二条（定義）に規定する郵便窓口業務を行う日本郵便株式会社の営業所であつて郵政民営化法（平成十七年法律第九十七号）第九十四条（定義）に規定する郵便貯金銀行を銀行法（昭和五十六年法律第五十九号）第二条第十六項（定義等）に規定する所属銀行とする同条第十四項に規定する銀行代理業の業務を行うものをいう。）の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-24-p3-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 4

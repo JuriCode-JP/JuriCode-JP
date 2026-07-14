@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第四十九条
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: true
@@ -37,16 +37,16 @@ paragraphs:
     text: 前項に規定する特定都市再生建築物とは、次に掲げる地域内において、都市再生特別措置法（平成十四年法律第二十二号）第二十五条に規定する認定計画（第一号に掲げる地域については同法第十九条の二第十一項の規定により公表された同法第十九条の十第二項に規定する整備計画及び国家戦略特別区域法（平成二十五年法律第百七号）第二十五条第一項の認定を受けた同項に規定する国家戦略民間都市再生事業を定めた同項の区域計画を、第二号に掲げる地域については当該区域計画を、それぞれ含む。）に基づいて行われる都市再生特別措置法第二十条第一項に規定する都市再生事業（政令で定める要件を満たすものに限る。）により整備される建築物で政令で定めるものに係る建物及びその附属設備をいう。
     modality: teigi
     references:
-    - 同項
     - 前項
+    - 同項
   - id: sochi-hou-art-14-p2-kou-1
     type: kou
-    text: 都市再生特別措置法第二条第五項に規定する特定都市再生緊急整備地域
+    text: 一　都市再生特別措置法第二条第五項に規定する特定都市再生緊急整備地域
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-14-p2-kou-2
     type: kou
-    text: 都市再生特別措置法第二条第三項に規定する都市再生緊急整備地域（前号に掲げる地域に該当するものを除く。）
+    text: 二　都市再生特別措置法第二条第三項に規定する都市再生緊急整備地域（前号に掲げる地域に該当するものを除く。）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -59,8 +59,8 @@ paragraphs:
     text: 前条第二項の規定は、第一項の規定の適用を受ける同項の特定都市再生建築物の償却費の額を計算する場合について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

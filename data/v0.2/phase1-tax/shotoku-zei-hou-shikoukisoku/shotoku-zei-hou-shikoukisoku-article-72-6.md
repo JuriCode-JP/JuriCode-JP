@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-72-6-p1-kou-1
     type: kou
-    text: 法第百八十条の二第一項に規定する外国信託会社（次項第一号において「外国信託会社」という。）の名称及び国内にある主たる事務所の所在地
+    text: 一　法第百八十条の二第一項に規定する外国信託会社（次項第一号において「外国信託会社」という。）の名称及び国内にある主たる事務所の所在地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-72-6-p1-kou-2
     type: kou
-    text: 法第百八十条の二第一項に規定する証券投資信託の信託された営業所の名称及び所在地並びに当該証券投資信託に係る信託契約の委託者の氏名又は名称
+    text: 二　法第百八十条の二第一項に規定する証券投資信託の信託された営業所の名称及び所在地並びに当該証券投資信託に係る信託契約の委託者の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-72-6-p1-kou-3
     type: kou
-    text: 法第百八十条の二第一項の規定による登載をした年月日
+    text: 三　法第百八十条の二第一項の規定による登載をした年月日
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,17 +47,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-72-6-p2-kou-1
     type: kou
-    text: 外国信託会社の名称及び国内にある主たる事務所の所在地
+    text: 一　外国信託会社の名称及び国内にある主たる事務所の所在地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-72-6-p2-kou-2
     type: kou
-    text: 法第百八十条の二第二項に規定する退職年金等信託の信託された営業所の名称及び所在地並びに当該退職年金等信託に係る信託契約の種類
+    text: 二　法第百八十条の二第二項に規定する退職年金等信託の信託された営業所の名称及び所在地並びに当該退職年金等信託に係る信託契約の種類
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-72-6-p2-kou-3
     type: kou
-    text: 法第百八十条の二第二項の規定による登載をした年月日
+    text: 三　法第百八十条の二第二項の規定による登載をした年月日
     modality: unspecified
     item_number: 3
 - number: 3

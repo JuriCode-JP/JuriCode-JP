@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-37-2-p1-kou-1
     type: kou
-    text: 取引の開始及び終了
+    text: 一　取引の開始及び終了
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-37-2-p1-kou-2
     type: kou
-    text: 相場の変動又は決済を結了していない取引の数量の制限に関する事項
+    text: 二　相場の変動又は決済を結了していない取引の数量の制限に関する事項
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-37-2-p2-kou-1
     type: kou
-    text: 取引の開始及び終了についての業務規程の変更命令
+    text: 一　取引の開始及び終了についての業務規程の変更命令
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-37-2-p2-kou-2
     type: kou
-    text: 相場の変動又は決済の結了していない取引の数量の制限に関する事項についての業務規程又はその細則を委ねた規則の変更命令
+    text: 二　相場の変動又は決済の結了していない取引の数量の制限に関する事項についての業務規程又はその細則を委ねた規則の変更命令
     modality: unspecified
     item_number: 2
 cases: []

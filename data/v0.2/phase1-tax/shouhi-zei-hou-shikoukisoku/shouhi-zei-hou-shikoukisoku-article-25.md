@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-25-p1-kou-1
     type: kou
-    text: 申請者の氏名又は名称及び住所等又は引取りに係る事務所等の所在地
+    text: 一　申請者の氏名又は名称及び住所等又は引取りに係る事務所等の所在地
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-25-p1-kou-2
     type: kou
-    text: 納期限の延長を受けようとする課税貨物に係る法第四十七条第一項の規定による申告書（同条第三項の場合を除く。）の提出の年月日及び当該申告書の番号
+    text: 二　納期限の延長を受けようとする課税貨物に係る法第四十七条第一項の規定による申告書（同条第三項の場合を除く。）の提出の年月日及び当該申告書の番号
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-25-p1-kou-3
     type: kou
-    text: 納期限の延長を受けようとする期間の末日
+    text: 三　納期限の延長を受けようとする期間の末日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-25-p1-kou-4
     type: kou
-    text: 納期限の延長を受けようとする消費税額
+    text: 四　納期限の延長を受けようとする消費税額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-25-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -57,27 +57,27 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-25-p2-kou-1
     type: kou
-    text: 申請者の氏名又は名称及び住所等又は引取りに係る事務所等の所在地
+    text: 一　申請者の氏名又は名称及び住所等又は引取りに係る事務所等の所在地
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-25-p2-kou-2
     type: kou
-    text: 納期限の延長を受けようとする特定月（法第五十一条第二項に規定する特定月をいう。）
+    text: 二　納期限の延長を受けようとする特定月（法第五十一条第二項に規定する特定月をいう。）
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-25-p2-kou-3
     type: kou
-    text: 納期限の延長を受けようとする期間の末日
+    text: 三　納期限の延長を受けようとする期間の末日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-25-p2-kou-4
     type: kou
-    text: 納期限の延長を受けようとする消費税額の合計額
+    text: 四　納期限の延長を受けようとする消費税額の合計額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-25-p2-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 3
@@ -91,27 +91,27 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-25-p3-kou-1
     type: kou
-    text: 申請者の氏名又は名称及び住所等又は引取りに係る事務所等の所在地
+    text: 一　申請者の氏名又は名称及び住所等又は引取りに係る事務所等の所在地
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-25-p3-kou-2
     type: kou
-    text: 納期限の延長を受けようとする課税貨物に係る特例申告書の提出の年月日及びその特例申告書の番号
+    text: 二　納期限の延長を受けようとする課税貨物に係る特例申告書の提出の年月日及びその特例申告書の番号
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-25-p3-kou-3
     type: kou
-    text: 納期限の延長を受けようとする期間の末日
+    text: 三　納期限の延長を受けようとする期間の末日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-25-p3-kou-4
     type: kou
-    text: 納期限の延長を受けようとする消費税額
+    text: 四　納期限の延長を受けようとする消費税額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-25-p3-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

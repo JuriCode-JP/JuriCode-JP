@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-19-2-p1-kou-1
     type: kou
-    text: 法第二十九条第一号に規定する公式参加者の令和九年に開催される二千二十七年国際園芸博覧会の会場における展示について責任を有すること。
+    text: 一　法第二十九条第一号に規定する公式参加者の令和九年に開催される二千二十七年国際園芸博覧会の会場における展示について責任を有すること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-19-2-p1-kou-2
     type: kou
-    text: 前号の展示の内容を二千二十七年国際園芸博覧会政府委員に通知すること。
+    text: 二　前号の展示の内容を二千二十七年国際園芸博覧会政府委員に通知すること。
     modality: unspecified
     item_number: 2
 cases: []

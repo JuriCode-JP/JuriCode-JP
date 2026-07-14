@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-3-2-p1-kou-1
     type: kou
-    text: 届出者の名称（代表者の氏名を含む。以下この号及び次項第一号において同じ。）、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
+    text: 一　届出者の名称（代表者の氏名を含む。以下この号及び次項第一号において同じ。）、納税地及び法人番号（法人番号を有しない者にあつては、名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-3-2-p1-kou-2
     type: kou
-    text: 設立の年月日
+    text: 二　設立の年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-3-2-p1-kou-3
     type: kou
-    text: 課税期間の初日及び末日
+    text: 三　課税期間の初日及び末日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-3-2-p1-kou-4
     type: kou
-    text: 法第八十六条の五第四項の規定の適用を受けようとする各課税期間のうち最初の課税期間の初日の年月日
+    text: 四　法第八十六条の五第四項の規定の適用を受けようとする各課税期間のうち最初の課税期間の初日の年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-37-3-2-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -57,22 +57,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-3-2-p2-kou-1
     type: kou
-    text: 届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-3-2-p2-kou-2
     type: kou
-    text: 課税期間の初日及び末日
+    text: 二　課税期間の初日及び末日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-3-2-p2-kou-3
     type: kou
-    text: 法第八十六条の五第五項又は第六項の規定の適用を受けようとする各課税期間のうち最初の課税期間の初日の年月日
+    text: 三　法第八十六条の五第五項又は第六項の規定の適用を受けようとする各課税期間のうち最初の課税期間の初日の年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-37-3-2-p2-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

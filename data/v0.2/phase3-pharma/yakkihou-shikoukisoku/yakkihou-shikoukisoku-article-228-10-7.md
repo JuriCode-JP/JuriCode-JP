@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: yakkihou-shikoukisoku-art-228-10-7-p1-kou-1
     type: kou
-    text: 当該医薬品、医療機器又は再生医療等製品の名称
+    text: 一　当該医薬品、医療機器又は再生医療等製品の名称
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-10-7-p1-kou-2
     type: kou
-    text: 当該医薬品、医療機器又は再生医療等製品に係る使用及び取扱い上の必要な注意
+    text: 二　当該医薬品、医療機器又は再生医療等製品に係る使用及び取扱い上の必要な注意
     modality: unspecified
     item_number: 2
 - number: 2
@@ -43,8 +43,8 @@ paragraphs:
     text: 法第六十八条の二の四第一項の規定により機構に法第六十八条の二の三第一項の規定による届出の受理に係る事務を行わせることとした場合における前項の規定の適用については、同項中「厚生労働大臣」とあるのは、「機構」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

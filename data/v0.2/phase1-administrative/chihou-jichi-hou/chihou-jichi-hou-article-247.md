@@ -36,12 +36,12 @@ paragraphs:
     - 前項
   - id: chihou-jichi-hou-art-247-p2-kou-1
     type: kou
-    text: 普通地方公共団体に対しその場において完了する行為を求めるもの
+    text: 一　普通地方公共団体に対しその場において完了する行為を求めるもの
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-247-p2-kou-2
     type: kou
-    text: 既に書面により当該普通地方公共団体に通知されている事項と同一の内容であるもの
+    text: 二　既に書面により当該普通地方公共団体に通知されている事項と同一の内容であるもの
     modality: unspecified
     item_number: 2
 - number: 3

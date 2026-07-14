@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-68-8-p1-kou-1
     type: kou
-    text: 確認番号及び確認年月日
+    text: 一　確認番号及び確認年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-68-8-p1-kou-2
     type: kou
-    text: 確認を受けた者の氏名及び住所
+    text: 二　確認を受けた者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-68-8-p1-kou-3
     type: kou
-    text: 確認を受けた者の製造販売業の許可の種類及び許可番号
+    text: 三　確認を受けた者の製造販売業の許可の種類及び許可番号
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-68-8-p1-kou-4
     type: kou
-    text: 当該品目の製造所の名称
+    text: 四　当該品目の製造所の名称
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-68-8-p1-kou-5
     type: kou
-    text: 当該品目の製造所が受けている製造業者の許可の区分及び許可番号、医薬品等外国製造業者の認定の区分及び認定番号又は保管のみを行う製造所に係る登録番号
+    text: 五　当該品目の製造所が受けている製造業者の許可の区分及び許可番号、医薬品等外国製造業者の認定の区分及び認定番号又は保管のみを行う製造所に係る登録番号
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-68-8-p1-kou-6
     type: kou
-    text: 当該品目の名称
+    text: 六　当該品目の名称
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-68-8-p1-kou-7
     type: kou
-    text: 当該品目の成分及び分量
+    text: 七　当該品目の成分及び分量
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-68-8-p1-kou-8
     type: kou
-    text: 当該品目の規格及び試験方法
+    text: 八　当該品目の規格及び試験方法
     modality: unspecified
     item_number: 8
 cases: []

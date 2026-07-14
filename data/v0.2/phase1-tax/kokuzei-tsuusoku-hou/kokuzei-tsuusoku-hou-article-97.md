@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-97-p1-kou-1
     type: kou
-    text: 審査請求人若しくは原処分庁（第四項において「審査請求人等」という。）又は関係人その他の参考人に質問すること。
+    text: 一　審査請求人若しくは原処分庁（第四項において「審査請求人等」という。）又は関係人その他の参考人に質問すること。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-97-p1-kou-2
     type: kou
-    text: 前号に規定する者の帳簿書類その他の物件につき、その所有者、所持者若しくは保管者に対し、相当の期間を定めて、当該物件の提出を求め、又はこれらの者が提出した物件を留め置くこと。
+    text: 二　前号に規定する者の帳簿書類その他の物件につき、その所有者、所持者若しくは保管者に対し、相当の期間を定めて、当該物件の提出を求め、又はこれらの者が提出した物件を留め置くこと。
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-97-p1-kou-3
     type: kou
-    text: 第一号に規定する者の帳簿書類その他の物件を検査すること。
+    text: 三　第一号に規定する者の帳簿書類その他の物件を検査すること。
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-97-p1-kou-4
     type: kou
-    text: 鑑定人に鑑定させること。
+    text: 四　鑑定人に鑑定させること。
     modality: unspecified
     item_number: 4
 - number: 2

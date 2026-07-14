@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の方法により、財産上不法の利益を得、又は他人にこれを得させた者も、同項と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-849-2-p1-kou-1
     type: kou
-    text: 監査役設置会社　監査役（監査役が二人以上ある場合にあっては、各監査役）
+    text: 一　監査役設置会社　監査役（監査役が二人以上ある場合にあっては、各監査役）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-849-2-p1-kou-2
     type: kou
-    text: 監査等委員会設置会社　各監査等委員
+    text: 二　監査等委員会設置会社　各監査等委員
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-849-2-p1-kou-3
     type: kou
-    text: 指名委員会等設置会社　各監査委員
+    text: 三　指名委員会等設置会社　各監査委員
     modality: unspecified
     item_number: 3
 cases: []

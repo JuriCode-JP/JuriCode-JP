@@ -51,8 +51,8 @@ paragraphs:
     applies_provisions:
     - 第六百四十六条から第六百五十条まで
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

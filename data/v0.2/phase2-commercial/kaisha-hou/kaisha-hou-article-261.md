@@ -29,17 +29,17 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-261-p1-kou-1
     type: kou
-    text: 当該新株予約権取得者が当該譲渡制限新株予約権を取得することについて次条の承認を受けていること。
+    text: 一　当該新株予約権取得者が当該譲渡制限新株予約権を取得することについて次条の承認を受けていること。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-261-p1-kou-2
     type: kou
-    text: 当該新株予約権取得者が当該譲渡制限新株予約権を取得したことについて第二百六十三条第一項の承認を受けていること。
+    text: 二　当該新株予約権取得者が当該譲渡制限新株予約権を取得したことについて第二百六十三条第一項の承認を受けていること。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-261-p1-kou-3
     type: kou
-    text: 当該新株予約権取得者が相続その他の一般承継により譲渡制限新株予約権を取得した者であること。
+    text: 三　当該新株予約権取得者が相続その他の一般承継により譲渡制限新株予約権を取得した者であること。
     modality: unspecified
     item_number: 3
 cases: []

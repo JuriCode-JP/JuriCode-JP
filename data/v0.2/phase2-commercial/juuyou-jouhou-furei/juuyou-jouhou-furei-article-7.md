@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: juuyou-jouhou-furei-art-7-p1-kou-1
     type: kou
-    text: 当該上場会社等に係る上場有価証券等（当該上場会社等が発行するものに限る。）の保有者（当該者が第四条各号に掲げる者である場合にあっては、前条に規定する金融商品取引業に係る業務に従事していない者に限る。）
+    text: 一　当該上場会社等に係る上場有価証券等（当該上場会社等が発行するものに限る。）の保有者（当該者が第四条各号に掲げる者である場合にあっては、前条に規定する金融商品取引業に係る業務に従事していない者に限る。）
     modality: unspecified
     item_number: 1
   - id: juuyou-jouhou-furei-art-7-p1-kou-2
     type: kou
-    text: 法第二条第三項第一号に規定する適格機関投資家（当該者が第四条各号に掲げる者である場合にあっては、前条に規定する金融商品取引業に係る業務に従事していない者に限る。）
+    text: 二　法第二条第三項第一号に規定する適格機関投資家（当該者が第四条各号に掲げる者である場合にあっては、前条に規定する金融商品取引業に係る業務に従事していない者に限る。）
     modality: unspecified
     item_number: 2
   - id: juuyou-jouhou-furei-art-7-p1-kou-3
     type: kou
-    text: 有価証券に対する投資を行うことを主たる目的とする法人その他の団体（外国の法令に準拠して設立されたものを含む。）
+    text: 三　有価証券に対する投資を行うことを主たる目的とする法人その他の団体（外国の法令に準拠して設立されたものを含む。）
     modality: unspecified
     item_number: 3
   - id: juuyou-jouhou-furei-art-7-p1-kou-4
     type: kou
-    text: 上場会社等の運営、業務又は財産に関する情報を特定の投資者等に提供することを目的とした会合の出席者（当該会合に出席している間に限る。）
+    text: 四　上場会社等の運営、業務又は財産に関する情報を特定の投資者等に提供することを目的とした会合の出席者（当該会合に出席している間に限る。）
     modality: unspecified
     item_number: 4
 cases: []

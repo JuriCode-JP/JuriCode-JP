@@ -23,31 +23,31 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-47-4-p1-kou-1
     type: kou
-    text: 法第百二十条第七項の申告書を提出する者の氏名、国籍及び住所又は居所
+    text: 一　法第百二十条第七項の申告書を提出する者の氏名、国籍及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-47-4-p1-kou-2
     type: kou
-    text: その年の前年以前十年内の各年において、国内に住所又は居所を有することとなつた日及び有しないこととなつた日並びに国内に住所又は居所を有していた期間
+    text: 二　その年の前年以前十年内の各年において、国内に住所又は居所を有することとなつた日及び有しないこととなつた日並びに国内に住所又は居所を有していた期間
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-47-4-p1-kou-3
     type: kou
-    text: その年において非永住者（法第二条第一項第四号（定義）に規定する非永住者をいう。以下この号及び次号において同じ。）、非永住者以外の居住者及び非居住者であつたそれぞれの期間
+    text: 三　その年において非永住者（法第二条第一項第四号（定義）に規定する非永住者をいう。以下この号及び次号において同じ。）、非永住者以外の居住者及び非居住者であつたそれぞれの期間
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-47-4-p1-kou-4
     type: kou
-    text: 'その年において非永住者であつた期間内に生じた次に掲げる金額
+    text: '四　その年において非永住者であつた期間内に生じた次に掲げる金額
 
-      イ 法第七条第一項第二号（課税所得の範囲）に規定する国外源泉所得（ロにおいて「国外源泉所得」という。）以外の所得の金額
+      イ　法第七条第一項第二号（課税所得の範囲）に規定する国外源泉所得（ロにおいて「国外源泉所得」という。）以外の所得の金額
 
-      ロ 国外源泉所得の金額並びに当該金額のうち、国内において支払われた金額及び国外から送金された金額'
+      ロ　国外源泉所得の金額並びに当該金額のうち、国内において支払われた金額及び国外から送金された金額'
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-47-4-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -60,8 +60,8 @@ paragraphs:
     text: 前項の規定は、法第百二十二条第三項（還付等を受けるための申告）、第百二十三条第三項（確定損失申告）、第百二十五条第四項（年の中途で死亡した場合の確定申告）及び第百二十七条第四項（年の中途で出国をする場合の確定申告）において準用する法第百二十条第七項の規定により確定申告書に添付すべき同項の書類に記載する同項に規定する財務省令で定める事項について、それぞれ準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -67,12 +67,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-22-2-p5-kou-1
     type: kou
-    text: 法第三十三条の二第一項又は同条第二項において準用する法第三十三条第一項若しくは第二項の規定の適用を受ける場合　当該確定申告書の提出の日
+    text: 一　法第三十三条の二第一項又は同条第二項において準用する法第三十三条第一項若しくは第二項の規定の適用を受ける場合　当該確定申告書の提出の日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-22-2-p5-kou-2
     type: kou
-    text: 法第三十三条の二第二項において準用する法第三十三条第三項の規定の適用を受ける場合　法第三十三条の二第二項に規定する代替資産の取得をした日から四月を経過する日
+    text: 二　法第三十三条の二第二項において準用する法第三十三条第三項の規定の適用を受ける場合　法第三十三条の二第二項に規定する代替資産の取得をした日から四月を経過する日
     modality: unspecified
     item_number: 2
 cases: []

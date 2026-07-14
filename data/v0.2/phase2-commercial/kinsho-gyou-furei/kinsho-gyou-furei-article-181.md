@@ -23,35 +23,35 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-181-p1-kou-1
     type: kou
-    text: 第百五十七条第一項第一号、第一号の二、第二号（同号ハを除く。）及び第二号の二（第百五十三条第一項第七号イの規定による同意に関して顧客から得た電磁的記録を除く。）に掲げる帳簿書類
+    text: 一　第百五十七条第一項第一号、第一号の二、第二号（同号ハを除く。）及び第二号の二（第百五十三条第一項第七号イの規定による同意に関して顧客から得た電磁的記録を除く。）に掲げる帳簿書類
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-181-p1-kou-2
     type: kou
-    text: '第二種金融商品取引業を行う者であるときは、次に掲げる帳簿書類
+    text: '二　第二種金融商品取引業を行う者であるときは、次に掲げる帳簿書類
 
-      イ 第百五十七条第一項第三号から第十二号までに掲げる帳簿書類
+      イ　第百五十七条第一項第三号から第十二号までに掲げる帳簿書類
 
-      ロ 特定有価証券等管理行為に係る分別管理の状況の記録'
+      ロ　特定有価証券等管理行為に係る分別管理の状況の記録'
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-181-p1-kou-3
     type: kou
-    text: 投資助言・代理業を行う者であるときは、第百五十七条第一項第十六号に掲げる帳簿書類
+    text: 三　投資助言・代理業を行う者であるときは、第百五十七条第一項第十六号に掲げる帳簿書類
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-181-p1-kou-4
     type: kou
-    text: 投資運用業を行う者であるときは、第百五十七条第一項第十七号及び第十七号の二に掲げる帳簿書類
+    text: 四　投資運用業を行う者であるときは、第百五十七条第一項第十七号及び第十七号の二に掲げる帳簿書類
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-181-p1-kou-5
     type: kou
-    text: '電子募集業務又は電子募集取扱業務を行う者であるときは、次に掲げるもの
+    text: '五　電子募集業務又は電子募集取扱業務を行う者であるときは、次に掲げるもの
 
-      イ 第七十条の二第二項第二号に規定する措置に基づく審査に係る記録
+      イ　第七十条の二第二項第二号に規定する措置に基づく審査に係る記録
 
-      ロ 第百四十六条の二第一項の規定により電子計算機の映像面に表示されたものの記録'
+      ロ　第百四十六条の二第一項の規定により電子計算機の映像面に表示されたものの記録'
     modality: unspecified
     item_number: 5
 - number: 2
@@ -68,12 +68,12 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-181-p2-kou-1
     type: kou
-    text: 外国帳簿書類
+    text: 一　外国帳簿書類
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-181-p2-kou-2
     type: kou
-    text: 外国帳簿書類の様式の訳文
+    text: 二　外国帳簿書類の様式の訳文
     modality: unspecified
     item_number: 2
 - number: 3

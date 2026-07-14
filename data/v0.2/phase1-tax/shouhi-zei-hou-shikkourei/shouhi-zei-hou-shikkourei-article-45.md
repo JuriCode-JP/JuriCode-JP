@@ -32,27 +32,27 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-45-p2-kou-1
     type: kou
-    text: 代物弁済による資産の譲渡　当該代物弁済により消滅する債務の額（当該代物弁済により譲渡される資産の価額が当該債務の額を超える額に相当する金額につき支払を受ける場合は、当該支払を受ける金額を加算した金額）に相当する金額
+    text: 一　代物弁済による資産の譲渡　当該代物弁済により消滅する債務の額（当該代物弁済により譲渡される資産の価額が当該債務の額を超える額に相当する金額につき支払を受ける場合は、当該支払を受ける金額を加算した金額）に相当する金額
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-45-p2-kou-2
     type: kou
-    text: 負担付き贈与による資産の譲渡　当該負担付き贈与に係る負担の価額に相当する金額
+    text: 二　負担付き贈与による資産の譲渡　当該負担付き贈与に係る負担の価額に相当する金額
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-45-p2-kou-3
     type: kou
-    text: 金銭以外の資産の出資　当該出資により取得する株式（出資を含む。）の取得の時における価額に相当する金額
+    text: 三　金銭以外の資産の出資　当該出資により取得する株式（出資を含む。）の取得の時における価額に相当する金額
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikkourei-art-45-p2-kou-4
     type: kou
-    text: 資産の交換　当該交換により取得する資産の取得の時における価額（当該交換により譲渡する資産の価額と当該交換により取得する資産の価額との差額を補うための金銭を取得する場合は当該取得する金銭の額を加算した金額とし、当該差額を補うための金銭を支払う場合は当該支払う金銭の額を控除した金額とする。）に相当する金額
+    text: 四　資産の交換　当該交換により取得する資産の取得の時における価額（当該交換により譲渡する資産の価額と当該交換により取得する資産の価額との差額を補うための金銭を取得する場合は当該取得する金銭の額を加算した金額とし、当該差額を補うための金銭を支払う場合は当該支払う金銭の額を控除した金額とする。）に相当する金額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikkourei-art-45-p2-kou-5
     type: kou
-    text: 第二条第一項第三号に掲げる資産の移転又は出資があつたものとみなされるもの　当該資産の移転の時又は同号に規定する受益者がその信託財産に属する資産を有するものとみなされる信託が同号の法人課税信託に該当することとなつた時における当該資産の価額に相当する金額
+    text: 五　第二条第一項第三号に掲げる資産の移転又は出資があつたものとみなされるもの　当該資産の移転の時又は同号に規定する受益者がその信託財産に属する資産を有するものとみなされる信託が同号の法人課税信託に該当することとなつた時における当該資産の価額に相当する金額
     modality: unspecified
     item_number: 5
 - number: 3
@@ -66,17 +66,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-45-p3-kou-1
     type: kou
-    text: 課税資産の譲渡等（特定資産の譲渡等及び軽減対象課税資産の譲渡等に該当するものを除く。）に係る資産
+    text: 一　課税資産の譲渡等（特定資産の譲渡等及び軽減対象課税資産の譲渡等に該当するものを除く。）に係る資産
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-45-p3-kou-2
     type: kou
-    text: 軽減対象課税資産の譲渡等に係る資産
+    text: 二　軽減対象課税資産の譲渡等に係る資産
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-45-p3-kou-3
     type: kou
-    text: 課税資産の譲渡等以外の資産の譲渡等に係る資産
+    text: 三　課税資産の譲渡等以外の資産の譲渡等に係る資産
     modality: unspecified
     item_number: 3
 cases: []

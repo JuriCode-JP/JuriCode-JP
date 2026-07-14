@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定により委託した事務を変更し、又はその事務の委託を廃止しようとするときは、関係普通地方公共団体は、同項の例により、協議してこれを行わなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

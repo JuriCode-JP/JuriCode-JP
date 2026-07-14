@@ -74,12 +74,12 @@ paragraphs:
     modality: doryoku_gimu
   - id: kinsho-hou-art-64-7-p6-kou-1
     type: kou
-    text: 第六十六条の二十五において準用する第一項の規定による同項に規定する登録事務を行う協会
+    text: 一　第六十六条の二十五において準用する第一項の規定による同項に規定する登録事務を行う協会
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-64-7-p6-kou-2
     type: kou
-    text: 金融サービスの提供及び利用環境の整備等に関する法律第七十八条第一項又は第二項の規定による同条第一項に規定する登録事務を行う同項に規定する認定金融サービス仲介業協会等
+    text: 二　金融サービスの提供及び利用環境の整備等に関する法律第七十八条第一項又は第二項の規定による同条第一項に規定する登録事務を行う同項に規定する認定金融サービス仲介業協会等
     modality: unspecified
     item_number: 2
 - number: 7

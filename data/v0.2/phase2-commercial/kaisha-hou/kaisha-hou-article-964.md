@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-964-p1-kou-1
     type: kou
-    text: 第九百六十条第一項第一号から第七号までに掲げる者
+    text: 一　第九百六十条第一項第一号から第七号までに掲げる者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-964-p1-kou-2
     type: kou
-    text: 持分会社の業務を執行する社員
+    text: 二　持分会社の業務を執行する社員
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-964-p1-kou-3
     type: kou
-    text: 民事保全法第五十六条に規定する仮処分命令により選任された持分会社の業務を執行する社員の職務を代行する者
+    text: 三　民事保全法第五十六条に規定する仮処分命令により選任された持分会社の業務を執行する社員の職務を代行する者
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-964-p1-kou-4
     type: kou
-    text: 株式、新株予約権、社債又は新株予約権付社債を引き受ける者の募集の委託を受けた者
+    text: 四　株式、新株予約権、社債又は新株予約権付社債を引き受ける者の募集の委託を受けた者
     modality: unspecified
     item_number: 4
 - number: 2

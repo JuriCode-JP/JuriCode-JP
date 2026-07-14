@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\322AC0000000120.xml",
   "source_xml_sha256": "af3aa1d139b064f1019161c3939e36ac5036bfff0a7962d4aa35cfd2f014223a",
   "source_xml_bytes": 676427,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:57:44+00:00",
+  "parsed_at": "2026-07-14T01:43:41+00:00",
   "version_date": "1947-10-21",
   "article_count": 184,
   "articles": [
@@ -18,8 +18,8 @@
       "article_id": "kokka-koumuin-hou-art-1",
       "article_number": "1",
       "filename": "kokka-koumuin-hou-article-1.md",
-      "ja_text_sha256": "469977a8604620d4841899e5e13937278cd47d4833a9d18c038d56da9b3d7851",
-      "ja_text_bytes": 1349,
+      "ja_text_sha256": "faa2178272298ef907eb9874948df170370b835043c5b3f6f14e7012b6d70bbf",
+      "ja_text_bytes": 1343,
       "paragraph_count": 5
     },
     {
@@ -394,8 +394,8 @@
       "article_id": "kokka-koumuin-hou-art-111",
       "article_number": "111",
       "filename": "kokka-koumuin-hou-article-111.md",
-      "ja_text_sha256": "280848de4160a461f7101978aadbbbf679e7c2cdb5700a0600c1bfee96a75659",
-      "ja_text_bytes": 351,
+      "ja_text_sha256": "4b379cd28375895780d9846ad8b815b7836848962bba6f30aa55c4de46f123cb",
+      "ja_text_bytes": 345,
       "paragraph_count": 1
     },
     {

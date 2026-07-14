@@ -44,8 +44,8 @@ paragraphs:
     text: 前項の規定により難い場合における改訂の方法その他同項の規定による改訂について必要な事項は、厚生労働省令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

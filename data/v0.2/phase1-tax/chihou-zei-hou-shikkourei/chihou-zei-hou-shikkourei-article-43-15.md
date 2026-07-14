@@ -166,27 +166,27 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-43-15-p15-kou-1
     type: kou
-    text: 免税軽油使用者が地方税に関する法令の規定に違反したことにより法第百四十四条の二十一第四項の規定により免税軽油使用者証及び免税証の返納を命ぜられ、その日から起算して二年を経過しない者であるとき。
+    text: 一　免税軽油使用者が地方税に関する法令の規定に違反したことにより法第百四十四条の二十一第四項の規定により免税軽油使用者証及び免税証の返納を命ぜられ、その日から起算して二年を経過しない者であるとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-43-15-p15-kou-2
     type: kou
-    text: 免税軽油使用者が国税又は地方税の滞納処分を受け、その滞納処分の日から起算して二年を経過しない者であるとき。
+    text: 二　免税軽油使用者が国税又は地方税の滞納処分を受け、その滞納処分の日から起算して二年を経過しない者であるとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-43-15-p15-kou-3
     type: kou
-    text: 免税軽油使用者が国税若しくは地方税に関する法令の規定により罰金以上の刑に処せられ、又は国税通則法第百五十七条第一項、関税法第百四十六条第一項（とん税法第十四条及び特別とん税法第十二条において準用する場合を含む。）若しくは法第二十二条の二十八第一項の規定により通告処分を受け、それぞれ、その刑の執行を終わり、若しくは執行を受けることがなくなつた日又はその通告の旨を履行した日から起算して三年を経過しない者であるとき。
+    text: 三　免税軽油使用者が国税若しくは地方税に関する法令の規定により罰金以上の刑に処せられ、又は国税通則法第百五十七条第一項、関税法第百四十六条第一項（とん税法第十四条及び特別とん税法第十二条において準用する場合を含む。）若しくは法第二十二条の二十八第一項の規定により通告処分を受け、それぞれ、その刑の執行を終わり、若しくは執行を受けることがなくなつた日又はその通告の旨を履行した日から起算して三年を経過しない者であるとき。
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-43-15-p15-kou-4
     type: kou
-    text: 免税軽油使用者が法人であつて、その役員のうちに前三号のいずれかに該当する者があるとき。
+    text: 四　免税軽油使用者が法人であつて、その役員のうちに前三号のいずれかに該当する者があるとき。
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-43-15-p15-kou-5
     type: kou
-    text: 前各号に掲げるときのほか、免税軽油使用者証を交付することが軽油引取税の取締り又は保全上特に不適当と認めるとき。
+    text: 五　前各号に掲げるときのほか、免税軽油使用者証を交付することが軽油引取税の取締り又は保全上特に不適当と認めるとき。
     modality: unspecified
     item_number: 5
 - number: 16
@@ -200,17 +200,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-43-15-p16-kou-1
     type: kou
-    text: 免税軽油使用者が前項第一号から第四号までのいずれかに該当するに至つたとき。
+    text: 一　免税軽油使用者が前項第一号から第四号までのいずれかに該当するに至つたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-43-15-p16-kou-2
     type: kou
-    text: 免税軽油使用者が法第百四十四条の二十七第一項の規定に違反して報告書を提出しないとき。
+    text: 二　免税軽油使用者が法第百四十四条の二十七第一項の規定に違反して報告書を提出しないとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-43-15-p16-kou-3
     type: kou
-    text: 前二号に掲げるときのほか、免税証を交付することが軽油引取税の取締り又は保全上特に不適当と認めるとき。
+    text: 三　前二号に掲げるときのほか、免税証を交付することが軽油引取税の取締り又は保全上特に不適当と認めるとき。
     modality: unspecified
     item_number: 3
 - number: 17

@@ -36,8 +36,8 @@ paragraphs:
     text: 前項に規定する株式会社又は親法人及び同項に規定する株式会社が他の株式会社の総株主の議決権の過半数を有する場合には、当該他の株式会社についての特別清算開始の申立ては、親法人の特別清算事件等が係属している地方裁判所にもすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

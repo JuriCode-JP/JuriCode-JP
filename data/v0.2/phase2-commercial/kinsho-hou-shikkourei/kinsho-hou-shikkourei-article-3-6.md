@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-3-6-p2-kou-1
     type: kou
-    text: 法第二条第二項第一号に掲げる権利（有価証券信託受益証券であつて受託有価証券が株券であるものに限る。）　五億円
+    text: 一　法第二条第二項第一号に掲げる権利（有価証券信託受益証券であつて受託有価証券が株券であるものに限る。）　五億円
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-3-6-p2-kou-2
     type: kou
-    text: 法第二条第二項第三号に掲げる権利　一億円
+    text: 二　法第二条第二項第三号に掲げる権利　一億円
     modality: unspecified
     item_number: 2
 - number: 3
@@ -80,12 +80,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-3-6-p6-kou-1
     type: kou
-    text: 株券、有価証券信託受益証券であつて受託有価証券が株券であるもの及び法第二条第一項第二十号に掲げる有価証券で株券に係る権利を表示するもの　千（これらの有価証券が特定投資家向け有価証券である場合には、千に内閣府令で定めるところにより計算した特定投資家の数を加えた数）
+    text: 一　株券、有価証券信託受益証券であつて受託有価証券が株券であるもの及び法第二条第一項第二十号に掲げる有価証券で株券に係る権利を表示するもの　千（これらの有価証券が特定投資家向け有価証券である場合には、千に内閣府令で定めるところにより計算した特定投資家の数を加えた数）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-3-6-p6-kou-2
     type: kou
-    text: 前号に掲げる有価証券以外の有価証券　五百
+    text: 二　前号に掲げる有価証券以外の有価証券　五百
     modality: unspecified
     item_number: 2
 cases: []

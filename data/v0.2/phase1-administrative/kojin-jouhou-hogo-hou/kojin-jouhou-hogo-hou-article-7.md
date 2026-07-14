@@ -32,42 +32,42 @@ paragraphs:
     modality: gimu
   - id: kojin-jouhou-hogo-hou-art-7-p2-kou-1
     type: kou
-    text: 個人情報の保護に関する施策の推進に関する基本的な方向
+    text: 一　個人情報の保護に関する施策の推進に関する基本的な方向
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-7-p2-kou-2
     type: kou
-    text: 国が講ずべき個人情報の保護のための措置に関する事項
+    text: 二　国が講ずべき個人情報の保護のための措置に関する事項
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-7-p2-kou-3
     type: kou
-    text: 地方公共団体が講ずべき個人情報の保護のための措置に関する基本的な事項
+    text: 三　地方公共団体が講ずべき個人情報の保護のための措置に関する基本的な事項
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-7-p2-kou-4
     type: kou
-    text: 独立行政法人等が講ずべき個人情報の保護のための措置に関する基本的な事項
+    text: 四　独立行政法人等が講ずべき個人情報の保護のための措置に関する基本的な事項
     modality: unspecified
     item_number: 4
   - id: kojin-jouhou-hogo-hou-art-7-p2-kou-5
     type: kou
-    text: 地方独立行政法人が講ずべき個人情報の保護のための措置に関する基本的な事項
+    text: 五　地方独立行政法人が講ずべき個人情報の保護のための措置に関する基本的な事項
     modality: unspecified
     item_number: 5
   - id: kojin-jouhou-hogo-hou-art-7-p2-kou-6
     type: kou
-    text: 第十六条第二項に規定する個人情報取扱事業者、同条第五項に規定する仮名加工情報取扱事業者及び同条第六項に規定する匿名加工情報取扱事業者並びに第五十一条第一項に規定する認定個人情報保護団体が講ずべき個人情報の保護のための措置に関する基本的な事項
+    text: 六　第十六条第二項に規定する個人情報取扱事業者、同条第五項に規定する仮名加工情報取扱事業者及び同条第六項に規定する匿名加工情報取扱事業者並びに第五十一条第一項に規定する認定個人情報保護団体が講ずべき個人情報の保護のための措置に関する基本的な事項
     modality: unspecified
     item_number: 6
   - id: kojin-jouhou-hogo-hou-art-7-p2-kou-7
     type: kou
-    text: 個人情報の取扱いに関する苦情の円滑な処理に関する事項
+    text: 七　個人情報の取扱いに関する苦情の円滑な処理に関する事項
     modality: unspecified
     item_number: 7
   - id: kojin-jouhou-hogo-hou-art-7-p2-kou-8
     type: kou
-    text: その他個人情報の保護に関する施策の推進に関する重要事項
+    text: 八　その他個人情報の保護に関する施策の推進に関する重要事項
     modality: unspecified
     item_number: 8
 - number: 3

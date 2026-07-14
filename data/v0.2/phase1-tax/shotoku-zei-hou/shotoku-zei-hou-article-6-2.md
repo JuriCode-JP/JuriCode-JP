@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の場合において、各法人課税信託の信託資産等及び固有資産等は、同項の規定によりみなされた各別の者にそれぞれ帰属するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -40,8 +40,8 @@ paragraphs:
     text: 監督委員は、前項の許可を得ないで同項に規定する行為をしたときは、費用及び報酬の支払を受けることができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

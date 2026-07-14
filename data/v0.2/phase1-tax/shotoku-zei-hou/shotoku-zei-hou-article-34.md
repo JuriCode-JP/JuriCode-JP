@@ -40,8 +40,8 @@ paragraphs:
     text: 前項に規定する一時所得の特別控除額は、五十万円（同項に規定する残額が五十万円に満たない場合には、当該残額）とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases:
 - case_id: ntt-2010-02-19-j79-19
   case_type: ruling

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-195-4-p1-kou-1
     type: kou
-    text: 当該給与等の支払者の氏名又は名称
+    text: 一　当該給与等の支払者の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-195-4-p1-kou-2
     type: kou
-    text: その居住者のその年の合計所得金額の見積額
+    text: 二　その居住者のその年の合計所得金額の見積額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-195-4-p1-kou-3
     type: kou
-    text: その他財務省令で定める事項
+    text: 三　その他財務省令で定める事項
     modality: unspecified
     item_number: 3
 - number: 2

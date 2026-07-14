@@ -43,27 +43,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-156-50-p3-kou-1
     type: kou
-    text: 弁護士であつてその職務に従事した期間が通算して五年以上である者
+    text: 一　弁護士であつてその職務に従事した期間が通算して五年以上である者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-50-p3-kou-2
     type: kou
-    text: 金融商品取引業等業務に従事した期間が通算して十年以上である者
+    text: 二　金融商品取引業等業務に従事した期間が通算して十年以上である者
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-50-p3-kou-3
     type: kou
-    text: 消費生活に関する消費者と事業者との間に生じた苦情に係る相談その他の消費生活に関する事項について専門的な知識経験を有する者として内閣府令で定める者
+    text: 三　消費生活に関する消費者と事業者との間に生じた苦情に係る相談その他の消費生活に関する事項について専門的な知識経験を有する者として内閣府令で定める者
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-50-p3-kou-4
     type: kou
-    text: 当該申立てが司法書士法第三条第一項第七号に規定する紛争に係るものである場合にあつては、同条第二項に規定する司法書士であつて同項に規定する簡裁訴訟代理等関係業務に従事した期間が通算して五年以上である者
+    text: 四　当該申立てが司法書士法第三条第一項第七号に規定する紛争に係るものである場合にあつては、同条第二項に規定する司法書士であつて同項に規定する簡裁訴訟代理等関係業務に従事した期間が通算して五年以上である者
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-50-p3-kou-5
     type: kou
-    text: 前各号に掲げる者に準ずる者として内閣府令で定める者
+    text: 五　前各号に掲げる者に準ずる者として内閣府令で定める者
     modality: unspecified
     item_number: 5
 - number: 4
@@ -125,17 +125,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-156-50-p8-kou-1
     type: kou
-    text: 当該顧客が支払う料金に関する事項
+    text: 一　当該顧客が支払う料金に関する事項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-50-p8-kou-2
     type: kou
-    text: 第百五十六条の四十四第四項第六号に規定する紛争解決手続の開始から終了に至るまでの標準的な手続の進行
+    text: 二　第百五十六条の四十四第四項第六号に規定する紛争解決手続の開始から終了に至るまでの標準的な手続の進行
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-50-p8-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、内閣府令で定める事項
+    text: 三　前二号に掲げるもののほか、内閣府令で定める事項
     modality: unspecified
     item_number: 3
 - number: 9
@@ -149,32 +149,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-156-50-p9-kou-1
     type: kou
-    text: 金融商品取引業等業務関連紛争の当事者が紛争解決手続の申立てをした年月日
+    text: 一　金融商品取引業等業務関連紛争の当事者が紛争解決手続の申立てをした年月日
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-50-p9-kou-2
     type: kou
-    text: 金融商品取引業等業務関連紛争の当事者及びその代理人の氏名、商号又は名称
+    text: 二　金融商品取引業等業務関連紛争の当事者及びその代理人の氏名、商号又は名称
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-50-p9-kou-3
     type: kou
-    text: 紛争解決委員の氏名
+    text: 三　紛争解決委員の氏名
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-50-p9-kou-4
     type: kou
-    text: 紛争解決手続の実施の経緯
+    text: 四　紛争解決手続の実施の経緯
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-50-p9-kou-5
     type: kou
-    text: 紛争解決手続の結果（紛争解決手続の終了の理由及びその年月日を含む。）
+    text: 五　紛争解決手続の結果（紛争解決手続の終了の理由及びその年月日を含む。）
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-156-50-p9-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、実施した紛争解決手続の内容を明らかにするために必要な事項であつて内閣府令で定めるもの
+    text: 六　前各号に掲げるもののほか、実施した紛争解決手続の内容を明らかにするために必要な事項であつて内閣府令で定めるもの
     modality: unspecified
     item_number: 6
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: shouhou-art-694-p1-kou-1
     type: kou
-    text: 新たな航海（船舶共有者の間で予定されていなかったものに限る。）をすること。
+    text: 一　新たな航海（船舶共有者の間で予定されていなかったものに限る。）をすること。
     modality: unspecified
     item_number: 1
   - id: shouhou-art-694-p1-kou-2
     type: kou
-    text: 船舶の大修繕をすること。
+    text: 二　船舶の大修繕をすること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の規定による請求をしようとする者は、同項の決定の日（当該決定に加わらなかった場合にあっては、当該決定の通知を受けた日の翌日）から三日以内に、他の船舶共有者又は船舶管理人に対してその旨の通知を発しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

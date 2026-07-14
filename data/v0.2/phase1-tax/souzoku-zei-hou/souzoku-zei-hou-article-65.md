@@ -45,8 +45,8 @@ paragraphs:
     text: 前二項の規定は、第一項に規定する持分の定めのない法人の設立があつた場合において、同項の法人から特別の利益を受ける者が当該法人の設立により受ける利益について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前二項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

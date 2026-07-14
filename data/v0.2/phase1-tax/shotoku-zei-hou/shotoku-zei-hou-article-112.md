@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の申請書には、取引の記録等に基づいて同項の申告納税見積額の計算の基礎となる事実を記載した書類を添附しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -27,12 +27,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-206-2-p1-kou-1
     type: kou
-    text: 当該引受人（その子会社等を含む。）がその引き受けた募集株式の株主となった場合に有することとなる議決権の数
+    text: 一　当該引受人（その子会社等を含む。）がその引き受けた募集株式の株主となった場合に有することとなる議決権の数
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-206-2-p1-kou-2
     type: kou
-    text: 当該募集株式の引受人の全員がその引き受けた募集株式の株主となった場合における総株主の議決権の数
+    text: 二　当該募集株式の引受人の全員がその引き受けた募集株式の株主となった場合における総株主の議決権の数
     modality: unspecified
     item_number: 2
 - number: 2

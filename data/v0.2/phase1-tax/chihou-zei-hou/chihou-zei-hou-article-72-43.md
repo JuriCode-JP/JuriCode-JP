@@ -55,17 +55,17 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-72-43-p4-kou-1
     type: kou
-    text: 合併等をした法人又は合併等により資産及び負債の移転を受けた法人
+    text: 一　合併等をした法人又は合併等により資産及び負債の移転を受けた法人
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-43-p4-kou-2
     type: kou
-    text: 合併等により交付された株式を発行した法人（前号に掲げる法人を除く。）
+    text: 二　合併等により交付された株式を発行した法人（前号に掲げる法人を除く。）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-72-43-p4-kou-3
     type: kou
-    text: 前二号に掲げる法人の株主等（株主又は合名会社、合資会社若しくは合同会社の社員その他法人の出資者をいう。）である法人（前二号に掲げる法人を除く。）
+    text: 三　前二号に掲げる法人の株主等（株主又は合名会社、合資会社若しくは合同会社の社員その他法人の出資者をいう。）である法人（前二号に掲げる法人を除く。）
     modality: unspecified
     item_number: 3
 cases: []

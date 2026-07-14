@@ -46,22 +46,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-205-p3-kou-1
     type: kou
-    text: 商号、名称又は氏名
+    text: 一　商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-205-p3-kou-2
     type: kou
-    text: 登録年月日及び登録番号
+    text: 二　登録年月日及び登録番号
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-205-p3-kou-3
     type: kou
-    text: 該当事由
+    text: 三　該当事由
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-205-p3-kou-4
     type: kou
-    text: 該当事由の発生予定年月日
+    text: 四　該当事由の発生予定年月日
     modality: unspecified
     item_number: 4
 - number: 4

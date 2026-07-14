@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: dokusen-kinshi-hou-art-47-p1-kou-1
     type: kou
-    text: 事件関係人又は参考人に出頭を命じて審尋し、又はこれらの者から意見若しくは報告を徴すること。
+    text: 一　事件関係人又は参考人に出頭を命じて審尋し、又はこれらの者から意見若しくは報告を徴すること。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-47-p1-kou-2
     type: kou
-    text: 鑑定人に出頭を命じて鑑定させること。
+    text: 二　鑑定人に出頭を命じて鑑定させること。
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-47-p1-kou-3
     type: kou
-    text: 帳簿書類その他の物件の所持者に対し、当該物件の提出を命じ、又は提出物件を留めて置くこと。
+    text: 三　帳簿書類その他の物件の所持者に対し、当該物件の提出を命じ、又は提出物件を留めて置くこと。
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-47-p1-kou-4
     type: kou
-    text: 事件関係人の営業所その他必要な場所に立ち入り、業務及び財産の状況、帳簿書類その他の物件を検査すること。
+    text: 四　事件関係人の営業所その他必要な場所に立ち入り、業務及び財産の状況、帳簿書類その他の物件を検査すること。
     modality: unspecified
     item_number: 4
 - number: 2

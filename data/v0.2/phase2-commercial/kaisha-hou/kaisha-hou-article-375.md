@@ -31,8 +31,8 @@ paragraphs:
     text: 監査役会設置会社における前項の規定の適用については、同項中「株主（監査役設置会社にあっては、監査役）」とあるのは、「監査役会」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

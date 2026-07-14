@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-11-p1-kou-1
     type: kou
-    text: 申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-11-p1-kou-2
     type: kou
-    text: 令第四十九条第二項に規定する取替法を採用しようとする事業年度開始の時において見込まれる同条第一項の規定の適用を受けようとする減価償却資産の種類ごとの数量並びにその取得価額の合計額及び帳簿価額の合計額
+    text: 二　令第四十九条第二項に規定する取替法を採用しようとする事業年度開始の時において見込まれる同条第一項の規定の適用を受けようとする減価償却資産の種類ごとの数量並びにその取得価額の合計額及び帳簿価額の合計額
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-11-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

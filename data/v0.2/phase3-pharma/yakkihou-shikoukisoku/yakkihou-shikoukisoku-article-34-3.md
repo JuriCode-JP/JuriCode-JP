@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-34-3-p2-kou-1
     type: kou
-    text: 製造所の名称及び所在地
+    text: 一　製造所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-34-3-p2-kou-2
     type: kou
-    text: 医薬品製造管理者又は医薬部外品等責任技術者の住所及び資格
+    text: 二　医薬品製造管理者又は医薬部外品等責任技術者の住所及び資格
     modality: unspecified
     item_number: 2
 - number: 3
@@ -51,27 +51,27 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-34-3-p3-kou-1
     type: kou
-    text: 申請者が法人であるときは、登記事項証明書
+    text: 一　申請者が法人であるときは、登記事項証明書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-34-3-p3-kou-2
     type: kou
-    text: 申請者以外の者がその医薬品製造管理者又は医薬部外品等責任技術者であるときは、雇用契約書の写しその他の申請者のその医薬品製造管理者又は医薬部外品等責任技術者に対する使用関係を証する書類
+    text: 二　申請者以外の者がその医薬品製造管理者又は医薬部外品等責任技術者であるときは、雇用契約書の写しその他の申請者のその医薬品製造管理者又は医薬部外品等責任技術者に対する使用関係を証する書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-34-3-p3-kou-3
     type: kou
-    text: 医薬品製造管理者が薬剤師若しくは第八十八条に掲げる者であること又は医薬部外品等責任技術者が第九十一条若しくは第九十一条の二に掲げる者であることを証する書類
+    text: 三　医薬品製造管理者が薬剤師若しくは第八十八条に掲げる者であること又は医薬部外品等責任技術者が第九十一条若しくは第九十一条の二に掲げる者であることを証する書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-34-3-p3-kou-4
     type: kou
-    text: 登録を受けようとする保管のみを行う製造所の場所を明らかにした図面
+    text: 四　登録を受けようとする保管のみを行う製造所の場所を明らかにした図面
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-34-3-p3-kou-5
     type: kou
-    text: 申請者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可証又は登録証の写し
+    text: 五　申請者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可証又は登録証の写し
     modality: unspecified
     item_number: 5
 - number: 4

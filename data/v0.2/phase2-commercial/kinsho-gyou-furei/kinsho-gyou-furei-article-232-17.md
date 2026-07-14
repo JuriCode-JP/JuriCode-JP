@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-232-17-p1-kou-1
     type: kou
-    text: 顧客の特定店頭デリバティブ取引等に関し、受渡状況その他の顧客に必要な情報を適切に通知していないと認められる状況
+    text: 一　顧客の特定店頭デリバティブ取引等に関し、受渡状況その他の顧客に必要な情報を適切に通知していないと認められる状況
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-232-17-p1-kou-2
     type: kou
-    text: 電子店頭デリバティブ取引等業務に係る電子情報処理組織の管理が十分でないと認められる状況
+    text: 二　電子店頭デリバティブ取引等業務に係る電子情報処理組織の管理が十分でないと認められる状況
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-232-17-p1-kou-3
     type: kou
-    text: 電子店頭デリバティブ取引等許可業者が、電気通信回線に接続している電子計算機を利用してその業務を行う場合において、顧客が当該電子店頭デリバティブ取引等許可業者を他の者と誤認することを防止するための適切な措置を講じていないと認められる状況
+    text: 三　電子店頭デリバティブ取引等許可業者が、電気通信回線に接続している電子計算機を利用してその業務を行う場合において、顧客が当該電子店頭デリバティブ取引等許可業者を他の者と誤認することを防止するための適切な措置を講じていないと認められる状況
     modality: unspecified
     item_number: 3
 cases: []

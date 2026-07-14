@@ -83,12 +83,12 @@ paragraphs:
     modality: unspecified
   - id: sochi-hou-shikkourei-art-18-7-p7-kou-1
     type: kou
-    text: 法第二十八条の三第一項に規定する減価償却資産　当該減価償却資産に係る同項に規定する減価補塡金の交付を受けた日
+    text: 一　法第二十八条の三第一項に規定する減価償却資産　当該減価償却資産に係る同項に規定する減価補塡金の交付を受けた日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-18-7-p7-kou-2
     type: kou
-    text: 法第二十八条の三第二項の規定の適用に係る同項の資産　当該資産の同項の取得又は改良の日
+    text: 二　法第二十八条の三第二項の規定の適用に係る同項の資産　当該資産の同項の取得又は改良の日
     modality: unspecified
     item_number: 2
 - number: 8
@@ -101,8 +101,8 @@ paragraphs:
     text: 前項各号に掲げる資産について償却費の額を計算する場合又は事業所得の金額、譲渡所得の金額若しくは雑所得の金額を計算する場合には、確定申告書に当該資産の取得に要した金額又は改良費の額が同項の規定により計算されている旨及びその計算の明細を記載するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 9
   has_proviso: false
   has_items: false

@@ -36,8 +36,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -80,9 +80,9 @@ paragraphs:
     text: 当該年度の初日の属する年の前年の十月一日からその翌年の三月三十一日までの間において、第七百六条第二項又は第三項の規定により前項の規定により読み替えて適用される第七百十八条の三第二項に規定する支払回数割保険税額を徴収する場合における第一項の規定の適用については、同項中「第七百十八条の三第二項（前条において準用する場合を含む。）」とあるのは、「第五項の規定により読み替えて適用される第七百十八条の三第二項」とする。
     modality: gimu
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

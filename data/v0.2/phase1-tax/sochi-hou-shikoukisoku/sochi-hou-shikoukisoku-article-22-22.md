@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-22-22-p1-kou-1
     type: kou
-    text: 公益法人等の名称、主たる事務所の所在地及び法人番号（法人番号を有しない公益法人等にあつては、名称及び主たる事務所の所在地）
+    text: 一　公益法人等の名称、主たる事務所の所在地及び法人番号（法人番号を有しない公益法人等にあつては、名称及び主たる事務所の所在地）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-22-22-p1-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-22-22-p1-kou-3
     type: kou
-    text: 当該事業年度の開始及び終了の日
+    text: 三　当該事業年度の開始及び終了の日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-22-22-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2

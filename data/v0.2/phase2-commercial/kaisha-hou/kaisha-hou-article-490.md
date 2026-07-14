@@ -35,8 +35,8 @@ paragraphs:
     text: 前項ただし書に規定する場合には、同項ただし書の規定により定められた清算人（以下この項において「招集権者」という。）以外の清算人は、招集権者に対し、清算人会の目的である事項を示して、清算人会の招集を請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

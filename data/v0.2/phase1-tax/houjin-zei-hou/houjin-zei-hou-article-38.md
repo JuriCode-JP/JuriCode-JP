@@ -23,32 +23,32 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-38-p1-kou-1
     type: kou
-    text: 退職年金等積立金に対する法人税
+    text: 一　退職年金等積立金に対する法人税
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-38-p1-kou-2
     type: kou
-    text: 国税通則法第三十五条第二項（申告納税方式による国税等の納付）の規定により納付すべき金額のうち同法第十九条第四項第二号ハ（修正申告）又は第二十八条第二項第三号ハ（更正又は決定の手続）に掲げる金額に相当する法人税
+    text: 二　国税通則法第三十五条第二項（申告納税方式による国税等の納付）の規定により納付すべき金額のうち同法第十九条第四項第二号ハ（修正申告）又は第二十八条第二項第三号ハ（更正又は決定の手続）に掲げる金額に相当する法人税
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-38-p1-kou-3
     type: kou
-    text: 第七十五条第七項（確定申告書の提出期限の延長）（第七十五条の二第八項又は第十項（確定申告書の提出期限の延長の特例）において準用する場合を含む。）の規定による利子税
+    text: 三　第七十五条第七項（確定申告書の提出期限の延長）（第七十五条の二第八項又は第十項（確定申告書の提出期限の延長の特例）において準用する場合を含む。）の規定による利子税
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-38-p1-kou-4
     type: kou
-    text: 第一号に掲げる法人税に係る地方法人税
+    text: 四　第一号に掲げる法人税に係る地方法人税
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-art-38-p1-kou-5
     type: kou
-    text: 国税通則法第三十五条第二項の規定により納付すべき金額のうち同法第十九条第四項第二号ハ又は第二十八条第二項第三号ハに掲げる金額に相当する地方法人税
+    text: 五　国税通則法第三十五条第二項の規定により納付すべき金額のうち同法第十九条第四項第二号ハ又は第二十八条第二項第三号ハに掲げる金額に相当する地方法人税
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-art-38-p1-kou-6
     type: kou
-    text: 地方法人税法第十九条第四項（確定申告）において準用する第七十五条第七項（第七十五条の二第八項又は第十項において準用する場合を含む。）の規定による利子税
+    text: 六　地方法人税法第十九条第四項（確定申告）において準用する第七十五条第七項（第七十五条の二第八項又は第十項において準用する場合を含む。）の規定による利子税
     modality: unspecified
     item_number: 6
 - number: 2
@@ -62,12 +62,12 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-38-p2-kou-1
     type: kou
-    text: 相続税法（昭和二十五年法律第七十三号）第九条の四（受益者等が存しない信託等の特例）、第六十六条（人格のない社団又は財団等に対する課税）又は第六十六条の二（特定の一般社団法人等に対する課税）の規定による贈与税及び相続税
+    text: 一　相続税法（昭和二十五年法律第七十三号）第九条の四（受益者等が存しない信託等の特例）、第六十六条（人格のない社団又は財団等に対する課税）又は第六十六条の二（特定の一般社団法人等に対する課税）の規定による贈与税及び相続税
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-38-p2-kou-2
     type: kou
-    text: 地方税法の規定による道府県民税及び市町村民税（都民税を含むものとし、退職年金等積立金に対する法人税に係るものを除く。）
+    text: 二　地方税法の規定による道府県民税及び市町村民税（都民税を含むものとし、退職年金等積立金に対する法人税に係るものを除く。）
     modality: unspecified
     item_number: 2
 - number: 3

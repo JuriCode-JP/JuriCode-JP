@@ -25,12 +25,12 @@ paragraphs:
     - 本条
   - id: chihou-zei-hou-shikkourei-art-56-16-p1-kou-1
     type: kou
-    text: 当該事業所部分の延べ面積
+    text: 一　当該事業所部分の延べ面積
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-56-16-p1-kou-2
     type: kou
-    text: 当該各共同の用に供する部分の延べ面積に、当該事業所部分の延べ面積の当該家屋の共同の用に供する部分以外の部分で当該各共同の用に供する部分に係るものの延べ面積に対する割合を乗じて得た面積
+    text: 二　当該各共同の用に供する部分の延べ面積に、当該事業所部分の延べ面積の当該家屋の共同の用に供する部分以外の部分で当該各共同の用に供する部分に係るものの延べ面積に対する割合を乗じて得た面積
     modality: unspecified
     item_number: 2
 cases: []

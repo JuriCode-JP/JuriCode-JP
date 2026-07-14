@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-24-5-p1-kou-1
     type: kou
-    text: 法第四十三条第八項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　法第四十三条第八項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-24-5-p1-kou-2
     type: kou
-    text: 法第四十三条第八項第二号に掲げる適格分割等（次号において「適格分割等」という。）に係る同項第二号イの分割承継法人等又は同号ロの分割承継法人若しくは被現物出資法人の名称及び納税地並びに代表者の氏名
+    text: 二　法第四十三条第八項第二号に掲げる適格分割等（次号において「適格分割等」という。）に係る同項第二号イの分割承継法人等又は同号ロの分割承継法人若しくは被現物出資法人の名称及び納税地並びに代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-24-5-p1-kou-3
     type: kou
-    text: 適格分割等の日
+    text: 三　適格分割等の日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-24-5-p1-kou-4
     type: kou
-    text: 法第四十三条第八項第二号に規定する国庫補助金等の名称、交付をした者及び交付を受けた日
+    text: 四　法第四十三条第八項第二号に規定する国庫補助金等の名称、交付をした者及び交付を受けた日
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-24-5-p1-kou-5
     type: kou
-    text: 法第四十三条第八項第二号ロに掲げる場合に該当する場合には、同号ロに規定する取得又は改良をすることが見込まれる同号ロに規定する固定資産の種類、構造及び規模並びに当該取得又は改良に要することが見込まれる金額及び当該取得又は改良予定日
+    text: 五　法第四十三条第八項第二号ロに掲げる場合に該当する場合には、同号ロに規定する取得又は改良をすることが見込まれる同号ロに規定する固定資産の種類、構造及び規模並びに当該取得又は改良に要することが見込まれる金額及び当該取得又は改良予定日
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-24-5-p1-kou-6
     type: kou
-    text: 法第四十三条第八項第二号イの分割承継法人等又は同号ロの分割承継法人若しくは被現物出資法人に引き継ぐこれらの規定に定める特別勘定の金額
+    text: 六　法第四十三条第八項第二号イの分割承継法人等又は同号ロの分割承継法人若しくは被現物出資法人に引き継ぐこれらの規定に定める特別勘定の金額
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-shikoukisoku-art-24-5-p1-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 cases: []

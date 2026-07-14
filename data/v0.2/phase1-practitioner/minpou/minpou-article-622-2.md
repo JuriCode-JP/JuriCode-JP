@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: minpou-art-622-2-p1-kou-1
     type: kou
-    text: 賃貸借が終了し、かつ、賃貸物の返還を受けたとき。
+    text: 一　賃貸借が終了し、かつ、賃貸物の返還を受けたとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-622-2-p1-kou-2
     type: kou
-    text: 賃借人が適法に賃借権を譲り渡したとき。
+    text: 二　賃借人が適法に賃借権を譲り渡したとき。
     modality: unspecified
     item_number: 2
 - number: 2

@@ -34,22 +34,22 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-158-p2-kou-1
     type: kou
-    text: 従事者から卸売販売業者への事故報告の体制の整備
+    text: 一　従事者から卸売販売業者への事故報告の体制の整備
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-158-p2-kou-2
     type: kou
-    text: 医薬品の貯蔵設備を設ける区域に立ち入ることができる者の特定
+    text: 二　医薬品の貯蔵設備を設ける区域に立ち入ることができる者の特定
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-158-p2-kou-3
     type: kou
-    text: 医薬品の適正管理のための業務に関する手順書の作成及び当該手順書に基づく業務の実施
+    text: 三　医薬品の適正管理のための業務に関する手順書の作成及び当該手順書に基づく業務の実施
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-158-p2-kou-4
     type: kou
-    text: 医薬品の適正管理のために必要となる情報の収集その他医薬品の適正管理の確保を目的とした改善のための方策の実施
+    text: 四　医薬品の適正管理のために必要となる情報の収集その他医薬品の適正管理の確保を目的とした改善のための方策の実施
     modality: unspecified
     item_number: 4
 cases: []

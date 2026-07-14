@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-424-3-p1-kou-1
     type: kou
-    text: その行為が、債務者が支払不能（債務者が、支払能力を欠くために、その債務のうち弁済期にあるものにつき、一般的かつ継続的に弁済することができない状態をいう。次項第一号において同じ。）の時に行われたものであること。
+    text: 一　その行為が、債務者が支払不能（債務者が、支払能力を欠くために、その債務のうち弁済期にあるものにつき、一般的かつ継続的に弁済することができない状態をいう。次項第一号において同じ。）の時に行われたものであること。
     modality: unspecified
     item_number: 1
   - id: minpou-art-424-3-p1-kou-2
     type: kou
-    text: その行為が、債務者と受益者とが通謀して他の債権者を害する意図をもって行われたものであること。
+    text: 二　その行為が、債務者と受益者とが通謀して他の債権者を害する意図をもって行われたものであること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,16 +44,16 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: minpou-art-424-3-p2-kou-1
     type: kou
-    text: その行為が、債務者が支払不能になる前三十日以内に行われたものであること。
+    text: 一　その行為が、債務者が支払不能になる前三十日以内に行われたものであること。
     modality: unspecified
     item_number: 1
   - id: minpou-art-424-3-p2-kou-2
     type: kou
-    text: その行為が、債務者と受益者とが通謀して他の債権者を害する意図をもって行われたものであること。
+    text: 二　その行為が、債務者と受益者とが通謀して他の債権者を害する意図をもって行われたものであること。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-11-p1-kou-1
     type: kou
-    text: 当該申告書を提出した卸売販売業者等が卸売販売業者等に卸売販売用として売り渡した製造たばこの数量及び小売販売業者である卸売販売業者等に小売販売用として売り渡した製造たばこの数量
+    text: 一　当該申告書を提出した卸売販売業者等が卸売販売業者等に卸売販売用として売り渡した製造たばこの数量及び小売販売業者である卸売販売業者等に小売販売用として売り渡した製造たばこの数量
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-11-p1-kou-2
     type: kou
-    text: 当該申告書を提出した卸売販売業者等が卸売販売業者等から買い受けた製造たばこの数量
+    text: 二　当該申告書を提出した卸売販売業者等が卸売販売業者等から買い受けた製造たばこの数量
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-11-p1-kou-3
     type: kou
-    text: 当該申告書を提出した卸売販売業者等が小売販売業者若しくは卸売販売業者等及び小売販売業者以外の者に売渡しをし、又は消費等をした製造たばこの道府県ごとの数量
+    text: 三　当該申告書を提出した卸売販売業者等が小売販売業者若しくは卸売販売業者等及び小売販売業者以外の者に売渡しをし、又は消費等をした製造たばこの道府県ごとの数量
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-8-11-p1-kou-4
     type: kou
-    text: その他必要と認める事項
+    text: 四　その他必要と認める事項
     modality: unspecified
     item_number: 4
 cases: []

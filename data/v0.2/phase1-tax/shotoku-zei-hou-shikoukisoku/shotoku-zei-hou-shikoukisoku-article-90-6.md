@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-90-6-p1-kou-1
     type: kou
-    text: その支払を受ける者の氏名、住所（国内に住所を有しない者にあつては、第八十一条の三十七（金地金等の譲渡の対価の受領者が国内に住所を有しない場合の告知すべき居所地等）において準用する第八十一条（国内に住所を有しない者の告知すべき居所地等）に規定する場所。以下この号において同じ。）及び個人番号（個人番号を有しない者にあつては、氏名及び住所）
+    text: 一　その支払を受ける者の氏名、住所（国内に住所を有しない者にあつては、第八十一条の三十七（金地金等の譲渡の対価の受領者が国内に住所を有しない場合の告知すべき居所地等）において準用する第八十一条（国内に住所を有しない者の告知すべき居所地等）に規定する場所。以下この号において同じ。）及び個人番号（個人番号を有しない者にあつては、氏名及び住所）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-90-6-p1-kou-2
     type: kou
-    text: その支払の確定した金地金等の譲渡の対価の額及びその確定した日
+    text: 二　その支払の確定した金地金等の譲渡の対価の額及びその確定した日
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-90-6-p1-kou-3
     type: kou
-    text: 前号の金地金等の重量及び数
+    text: 三　前号の金地金等の重量及び数
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-90-6-p1-kou-4
     type: kou
-    text: その支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
+    text: 四　その支払を受ける者が国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-90-6-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

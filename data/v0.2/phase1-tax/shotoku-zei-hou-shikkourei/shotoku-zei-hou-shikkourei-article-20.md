@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-20-p1-kou-1
     type: kou
-    text: 恩給法の一部を改正する法律（昭和二十八年法律第百五十五号）附則第二十二条第一項（旧軍人等に対する増加恩給等の給付等）の規定による傷病年金
+    text: 一　恩給法の一部を改正する法律（昭和二十八年法律第百五十五号）附則第二十二条第一項（旧軍人等に対する増加恩給等の給付等）の規定による傷病年金
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-20-p1-kou-2
     type: kou
-    text: 労働基準法第八章（災害補償）の規定により受ける療養の給付若しくは費用、休業補償、障害補償、打切補償又は分割補償（障害補償に係る部分に限る。）
+    text: 二　労働基準法第八章（災害補償）の規定により受ける療養の給付若しくは費用、休業補償、障害補償、打切補償又は分割補償（障害補償に係る部分に限る。）
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-20-p1-kou-3
     type: kou
-    text: 船員法第十章（災害補償）の規定により受ける療養の給付若しくは費用、傷病手当、予後手当又は障害手当
+    text: 三　船員法第十章（災害補償）の規定により受ける療養の給付若しくは費用、傷病手当、予後手当又は障害手当
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-20-p1-kou-4
     type: kou
-    text: 条例の規定により地方公共団体から支払われる給付で法第九条第一項第三号イに規定する増加恩給又は傷病賜金に準ずるもの
+    text: 四　条例の規定により地方公共団体から支払われる給付で法第九条第一項第三号イに規定する増加恩給又は傷病賜金に準ずるもの
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,27 +52,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-20-p2-kou-1
     type: kou
-    text: 心身障害者の扶養のための給付金（その給付金の支給開始前に心身障害者が死亡した場合に加入者に対して支給される弔慰金を含む。）のみを支給するものであること。
+    text: 一　心身障害者の扶養のための給付金（その給付金の支給開始前に心身障害者が死亡した場合に加入者に対して支給される弔慰金を含む。）のみを支給するものであること。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-20-p2-kou-2
     type: kou
-    text: 前号の給付金の額は、心身障害者の生活のために通常必要とされる費用を満たす金額（同号の弔慰金にあつては、掛金の累積額に比して相当と認められる金額）を超えず、かつ、その額について、特定の者につき不当に差別的な取扱いをしないこと。
+    text: 二　前号の給付金の額は、心身障害者の生活のために通常必要とされる費用を満たす金額（同号の弔慰金にあつては、掛金の累積額に比して相当と認められる金額）を超えず、かつ、その額について、特定の者につき不当に差別的な取扱いをしないこと。
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-20-p2-kou-3
     type: kou
-    text: 第一号の給付金（同号の弔慰金を除く。次号において同じ。）の支給は、加入者の死亡、重度の障害その他地方公共団体の長が認定した特別の事故を原因として開始されるものであること。
+    text: 三　第一号の給付金（同号の弔慰金を除く。次号において同じ。）の支給は、加入者の死亡、重度の障害その他地方公共団体の長が認定した特別の事故を原因として開始されるものであること。
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-20-p2-kou-4
     type: kou
-    text: 第一号の給付金の受取人は、心身障害者又は前号の事故発生後において心身障害者を扶養する者とするものであること。
+    text: 四　第一号の給付金の受取人は、心身障害者又は前号の事故発生後において心身障害者を扶養する者とするものであること。
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-20-p2-kou-5
     type: kou
-    text: 第一号の給付金に関する経理は、他の経理と区分して行い、かつ、掛金その他の資金が銀行その他の金融機関に対する運用の委託、生命保険への加入その他これらに準ずる方法を通じて確実に運用されるものであること。
+    text: 五　第一号の給付金に関する経理は、他の経理と区分して行い、かつ、掛金その他の資金が銀行その他の金融機関に対する運用の委託、生命保険への加入その他これらに準ずる方法を通じて確実に運用されるものであること。
     modality: unspecified
     item_number: 5
 cases: []

@@ -25,32 +25,32 @@ paragraphs:
     - 前条
   - id: kojin-jouhou-hogo-hou-art-113-p1-kou-1
     type: kou
-    text: 未成年者
+    text: 一　未成年者
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-113-p1-kou-2
     type: kou
-    text: 心身の故障により前条第一項の提案に係る行政機関等匿名加工情報をその用に供して行う事業を適正に行うことができない者として個人情報保護委員会規則で定めるもの
+    text: 二　心身の故障により前条第一項の提案に係る行政機関等匿名加工情報をその用に供して行う事業を適正に行うことができない者として個人情報保護委員会規則で定めるもの
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-113-p1-kou-3
     type: kou
-    text: 破産手続開始の決定を受けて復権を得ない者
+    text: 三　破産手続開始の決定を受けて復権を得ない者
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-113-p1-kou-4
     type: kou
-    text: 拘禁刑以上の刑に処せられ、又はこの法律の規定により刑に処せられ、その執行を終わり、又は執行を受けることがなくなった日から起算して二年を経過しない者
+    text: 四　拘禁刑以上の刑に処せられ、又はこの法律の規定により刑に処せられ、その執行を終わり、又は執行を受けることがなくなった日から起算して二年を経過しない者
     modality: unspecified
     item_number: 4
   - id: kojin-jouhou-hogo-hou-art-113-p1-kou-5
     type: kou
-    text: 第百二十条の規定により行政機関等匿名加工情報の利用に関する契約を解除され、その解除の日から起算して二年を経過しない者
+    text: 五　第百二十条の規定により行政機関等匿名加工情報の利用に関する契約を解除され、その解除の日から起算して二年を経過しない者
     modality: unspecified
     item_number: 5
   - id: kojin-jouhou-hogo-hou-art-113-p1-kou-6
     type: kou
-    text: 法人その他の団体であって、その役員のうちに前各号のいずれかに該当する者があるもの
+    text: 六　法人その他の団体であって、その役員のうちに前各号のいずれかに該当する者があるもの
     modality: unspecified
     item_number: 6
 cases: []

@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-7-2-7-p1-kou-1
     type: kou
-    text: 申告者の氏名又は名称及び住所等又は法第七十二条の七十八第一項に規定する課税貨物（第三号及び第四号において「課税貨物」という。）の引取りに係る事務所、事業所その他これらに準ずるものの所在地
+    text: 一　申告者の氏名又は名称及び住所等又は法第七十二条の七十八第一項に規定する課税貨物（第三号及び第四号において「課税貨物」という。）の引取りに係る事務所、事業所その他これらに準ずるものの所在地
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-7-2-7-p1-kou-2
     type: kou
-    text: 引取りをしようとする法第七十二条の七十八第一項に規定する保税地域の所在地
+    text: 二　引取りをしようとする法第七十二条の七十八第一項に規定する保税地域の所在地
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-7-2-7-p1-kou-3
     type: kou
-    text: 当該保税地域から引き取ろうとする課税貨物の品名及び品名ごとの数量
+    text: 三　当該保税地域から引き取ろうとする課税貨物の品名及び品名ごとの数量
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-7-2-7-p1-kou-4
     type: kou
-    text: 当該課税貨物の品名ごとの法第七十二条の百一に規定する消費税額
+    text: 四　当該課税貨物の品名ごとの法第七十二条の百一に規定する消費税額
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-7-2-7-p1-kou-5
     type: kou
-    text: 前号に掲げる消費税額を課税標準として算定した貨物割額及び当該貨物割額の合計額
+    text: 五　前号に掲げる消費税額を課税標準として算定した貨物割額及び当該貨物割額の合計額
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-7-2-7-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

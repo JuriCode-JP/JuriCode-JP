@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: gyousei-tetsuzuki-hou-art-43-p1-kou-1
     type: kou
-    text: 命令等の題名
+    text: 一　命令等の題名
     modality: unspecified
     item_number: 1
   - id: gyousei-tetsuzuki-hou-art-43-p1-kou-2
     type: kou
-    text: 命令等の案の公示の日
+    text: 二　命令等の案の公示の日
     modality: unspecified
     item_number: 2
   - id: gyousei-tetsuzuki-hou-art-43-p1-kou-3
     type: kou
-    text: 提出意見（提出意見がなかった場合にあっては、その旨）
+    text: 三　提出意見（提出意見がなかった場合にあっては、その旨）
     modality: unspecified
     item_number: 3
   - id: gyousei-tetsuzuki-hou-art-43-p1-kou-4
     type: kou
-    text: 提出意見を考慮した結果（意見公募手続を実施した命令等の案と定めた命令等との差異を含む。）及びその理由
+    text: 四　提出意見を考慮した結果（意見公募手続を実施した命令等の案と定めた命令等との差異を含む。）及びその理由
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,8 +54,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -89,12 +89,12 @@ paragraphs:
     - 同項
   - id: gyousei-tetsuzuki-hou-art-43-p5-kou-1
     type: kou
-    text: 命令等の題名及び趣旨
+    text: 一　命令等の題名及び趣旨
     modality: unspecified
     item_number: 1
   - id: gyousei-tetsuzuki-hou-art-43-p5-kou-2
     type: kou
-    text: 意見公募手続を実施しなかった旨及びその理由
+    text: 二　意見公募手続を実施しなかった旨及びその理由
     modality: unspecified
     item_number: 2
 cases: []

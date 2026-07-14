@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-1
     type: kou
-    text: なつ染用銅ロール
+    text: 一　なつ染用銅ロール
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-2
     type: kou
-    text: 映画用フイルム（二以上の常設館において順次上映されるものに限る。）
+    text: 二　映画用フイルム（二以上の常設館において順次上映されるものに限る。）
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-3
     type: kou
-    text: 非鉄金属圧延用ロール（電線圧延用ロールを除く。）
+    text: 三　非鉄金属圧延用ロール（電線圧延用ロールを除く。）
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-4
     type: kou
-    text: 短期間にその型等が変更される製品でその生産期間があらかじめ生産計画に基づき定められているものの生産のために使用する金型その他の工具で、当該製品以外の製品の生産のために使用することが著しく困難であるもの
+    text: 四　短期間にその型等が変更される製品でその生産期間があらかじめ生産計画に基づき定められているものの生産のために使用する金型その他の工具で、当該製品以外の製品の生産のために使用することが著しく困難であるもの
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-12-p1-kou-5
     type: kou
-    text: 漁網、活字に常用されている金属及び前各号に掲げる資産に類するもの
+    text: 五　漁網、活字に常用されている金属及び前各号に掲げる資産に類するもの
     modality: unspecified
     item_number: 5
 cases: []

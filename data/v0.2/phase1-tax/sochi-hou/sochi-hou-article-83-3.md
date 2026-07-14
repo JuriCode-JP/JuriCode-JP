@@ -25,26 +25,26 @@ paragraphs:
     override_target:
     - 第九条
     references:
-    - 同項
     - 次項
+    - 同項
   - id: sochi-hou-art-83-3-p1-kou-1
     type: kou
-    text: 建替え（建替えが必要な建築物として政令で定めるものの当該建替えに限る。）その他財務省令で定める行為により建築物（都市機能の向上に資する建築物として政令で定めるものに限る。第三号及び次項において「特定建築物」という。）の新築又は改築をする場合において、当該特定建築物の敷地の用に供することとされている土地で政令で定めるもの
+    text: 一　建替え（建替えが必要な建築物として政令で定めるものの当該建替えに限る。）その他財務省令で定める行為により建築物（都市機能の向上に資する建築物として政令で定めるものに限る。第三号及び次項において「特定建築物」という。）の新築又は改築をする場合において、当該特定建築物の敷地の用に供することとされている土地で政令で定めるもの
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-83-3-p1-kou-2
     type: kou
-    text: 前号に掲げる土地を敷地とする同号の建替えが必要な建築物として政令で定めるもの
+    text: 二　前号に掲げる土地を敷地とする同号の建替えが必要な建築物として政令で定めるもの
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-83-3-p1-kou-3
     type: kou
-    text: 特定建築物とするために増築、修繕又は模様替で政令で定めるもの（次項において「特定増築等」という。）をすることが必要な建築物として政令で定めるもの
+    text: 三　特定建築物とするために増築、修繕又は模様替で政令で定めるもの（次項において「特定増築等」という。）をすることが必要な建築物として政令で定めるもの
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-83-3-p1-kou-4
     type: kou
-    text: 前号に掲げる建築物の敷地の用に供されている土地で政令で定めるもの
+    text: 四　前号に掲げる建築物の敷地の用に供されている土地で政令で定めるもの
     modality: unspecified
     item_number: 4
 - number: 2
@@ -60,8 +60,8 @@ paragraphs:
     override_target:
     - 第九条
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -78,12 +78,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-art-83-3-p3-kou-1
     type: kou
-    text: 建替えにより政令で定める用途に供する建築物（次号及び次項において「特例建築物」という。）の新築又は改築をする場合における当該建替えが必要な建築物として政令で定めるもの
+    text: 一　建替えにより政令で定める用途に供する建築物（次号及び次項において「特例建築物」という。）の新築又は改築をする場合における当該建替えが必要な建築物として政令で定めるもの
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-83-3-p3-kou-2
     type: kou
-    text: 特例建築物とするために増築、修繕又は模様替で政令で定めるもの（次項において「特例増築等」という。）をすることが必要な建築物として政令で定めるもの
+    text: 二　特例建築物とするために増築、修繕又は模様替で政令で定めるもの（次項において「特例増築等」という。）をすることが必要な建築物として政令で定めるもの
     modality: unspecified
     item_number: 2
 - number: 4
@@ -99,8 +99,8 @@ paragraphs:
     override_target:
     - 第九条
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

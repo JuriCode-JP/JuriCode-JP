@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-shikkourei-art-42-2-p1-kou-1
     type: kou
-    text: 法第三十二条第一項（法第三十二条の四及び第五十七条の二十六第一項において準用する場合を含む。）の規定による対象議決権保有届出書の受理
+    text: 一　法第三十二条第一項（法第三十二条の四及び第五十七条の二十六第一項において準用する場合を含む。）の規定による対象議決権保有届出書の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-42-2-p1-kou-2
     type: kou
-    text: 法第三十二条第三項並びに第三十二条の三第一項（法第三十二条の四及び第五十七条の二十六第一項において準用する場合を含む。）及び第二項の規定による届出の受理
+    text: 二　法第三十二条第三項並びに第三十二条の三第一項（法第三十二条の四及び第五十七条の二十六第一項において準用する場合を含む。）及び第二項の規定による届出の受理
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-42-2-p1-kou-3
     type: kou
-    text: 法第五十六条の二第二項及び第五十七条の二十六第二項の規定による報告及び資料の提出の命令並びに検査（第三十八条の二第二項の規定により委員会に委任されたものを除く。）
+    text: 三　法第五十六条の二第二項及び第五十七条の二十六第二項の規定による報告及び資料の提出の命令並びに検査（第三十八条の二第二項の規定により委員会に委任されたものを除く。）
     modality: unspecified
     item_number: 3
 - number: 2

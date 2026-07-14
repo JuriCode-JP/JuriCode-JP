@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-29-p1-kou-1
     type: kou
-    text: 当該使用人（法第九条第一項第十五号ロに規定する使用人をいう。以下この項において同じ。）の親族
+    text: 一　当該使用人（法第九条第一項第十五号ロに規定する使用人をいう。以下この項において同じ。）の親族
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-29-p1-kou-2
     type: kou
-    text: 当該使用人と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者及びその者の直系血族
+    text: 二　当該使用人と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者及びその者の直系血族
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-29-p1-kou-3
     type: kou
-    text: 当該使用人の直系血族と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    text: 三　当該使用人の直系血族と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-29-p1-kou-4
     type: kou
-    text: 前三号に掲げる者以外の者で、当該使用人から受ける金銭その他の財産によつて生計を維持しているもの及びその者の直系血族
+    text: 四　前三号に掲げる者以外の者で、当該使用人から受ける金銭その他の財産によつて生計を維持しているもの及びその者の直系血族
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-29-p1-kou-5
     type: kou
-    text: 前各号に掲げる者以外の者で、当該使用人の直系血族から受ける金銭その他の財産によつて生計を維持しているもの
+    text: 五　前各号に掲げる者以外の者で、当該使用人の直系血族から受ける金銭その他の財産によつて生計を維持しているもの
     modality: unspecified
     item_number: 5
 - number: 2

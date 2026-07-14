@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kojin-jouhou-hogo-hou-art-163-p1-kou-1
     type: kou
-    text: 送達を受けるべき者の住所、居所その他送達をすべき場所が知れない場合
+    text: 一　送達を受けるべき者の住所、居所その他送達をすべき場所が知れない場合
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-163-p1-kou-2
     type: kou
-    text: 外国（本邦の域外にある国又は地域をいう。以下同じ。）においてすべき送達について、前条において読み替えて準用する民事訴訟法第百八条の規定によることができず、又はこれによっても送達をすることができないと認めるべき場合
+    text: 二　外国（本邦の域外にある国又は地域をいう。以下同じ。）においてすべき送達について、前条において読み替えて準用する民事訴訟法第百八条の規定によることができず、又はこれによっても送達をすることができないと認めるべき場合
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-163-p1-kou-3
     type: kou
-    text: 前条において読み替えて準用する民事訴訟法第百八条の規定により外国の管轄官庁に嘱託を発した後六月を経過してもその送達を証する書面の送付がない場合
+    text: 三　前条において読み替えて準用する民事訴訟法第百八条の規定により外国の管轄官庁に嘱託を発した後六月を経過してもその送達を証する書面の送付がない場合
     modality: unspecified
     item_number: 3
 - number: 2

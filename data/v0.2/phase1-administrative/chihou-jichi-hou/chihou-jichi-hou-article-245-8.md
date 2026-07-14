@@ -31,8 +31,8 @@ paragraphs:
     text: 各大臣は、都道府県知事が前項の期限までに同項の規定による勧告に係る事項を行わないときは、文書により、当該都道府県知事に対し、期限を定めて当該事項を行うべきことを指示することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

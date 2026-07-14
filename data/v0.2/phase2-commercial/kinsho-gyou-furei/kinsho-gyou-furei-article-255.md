@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-255-p1-kou-1
     type: kou
-    text: 登録事務に係る外務員の所属する金融商品取引業者等の商号、名称又は氏名
+    text: 一　登録事務に係る外務員の所属する金融商品取引業者等の商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-255-p1-kou-2
     type: kou
-    text: 登録事務に係る外務員の氏名及び生年月日
+    text: 二　登録事務に係る外務員の氏名及び生年月日
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-255-p1-kou-3
     type: kou
-    text: 処理した登録事務の内容及び処理した年月日
+    text: 三　処理した登録事務の内容及び処理した年月日
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-255-p1-kou-4
     type: kou
-    text: 前号の登録事務の内容が職務の停止の命令又は登録の抹消である場合には、その理由
+    text: 四　前号の登録事務の内容が職務の停止の命令又は登録の抹消である場合には、その理由
     modality: unspecified
     item_number: 4
 cases: []

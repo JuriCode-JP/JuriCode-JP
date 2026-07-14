@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-275-p1-kou-1
     type: kou
-    text: 当該株主等の親族
+    text: 一　当該株主等の親族
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-275-p1-kou-2
     type: kou
-    text: 当該株主等と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    text: 二　当該株主等と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-275-p1-kou-3
     type: kou
-    text: 当該株主等の使用人
+    text: 三　当該株主等の使用人
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-275-p1-kou-4
     type: kou
-    text: 前三号に掲げる者以外の者で当該株主等から受ける金銭その他の資産によつて生計を維持しているもの
+    text: 四　前三号に掲げる者以外の者で当該株主等から受ける金銭その他の資産によつて生計を維持しているもの
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-275-p1-kou-5
     type: kou
-    text: 前三号に掲げる者と生計を一にするこれらの者の親族
+    text: 五　前三号に掲げる者と生計を一にするこれらの者の親族
     modality: unspecified
     item_number: 5
 cases: []

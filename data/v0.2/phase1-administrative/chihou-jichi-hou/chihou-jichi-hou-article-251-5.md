@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-251-5-p1-kou-1
     type: kou
-    text: 第二百五十条の十四第一項から第三項までの規定による委員会の審査の結果又は勧告に不服があるとき。
+    text: 一　第二百五十条の十四第一項から第三項までの規定による委員会の審査の結果又は勧告に不服があるとき。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-251-5-p1-kou-2
     type: kou
-    text: 第二百五十条の十八第一項の規定による国の行政庁の措置に不服があるとき。
+    text: 二　第二百五十条の十八第一項の規定による国の行政庁の措置に不服があるとき。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-251-5-p1-kou-3
     type: kou
-    text: 当該審査の申出をした日から九十日を経過しても、委員会が第二百五十条の十四第一項から第三項までの規定による審査又は勧告を行わないとき。
+    text: 三　当該審査の申出をした日から九十日を経過しても、委員会が第二百五十条の十四第一項から第三項までの規定による審査又は勧告を行わないとき。
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-251-5-p1-kou-4
     type: kou
-    text: 国の行政庁が第二百五十条の十八第一項の規定による措置を講じないとき。
+    text: 四　国の行政庁が第二百五十条の十八第一項の規定による措置を講じないとき。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,22 +54,22 @@ paragraphs:
     - 前項
   - id: chihou-jichi-hou-art-251-5-p2-kou-1
     type: kou
-    text: 前項第一号の場合は、第二百五十条の十四第一項から第三項までの規定による委員会の審査の結果又は勧告の内容の通知があつた日から三十日以内
+    text: 一　前項第一号の場合は、第二百五十条の十四第一項から第三項までの規定による委員会の審査の結果又は勧告の内容の通知があつた日から三十日以内
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-251-5-p2-kou-2
     type: kou
-    text: 前項第二号の場合は、第二百五十条の十八第一項の規定による委員会の通知があつた日から三十日以内
+    text: 二　前項第二号の場合は、第二百五十条の十八第一項の規定による委員会の通知があつた日から三十日以内
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-251-5-p2-kou-3
     type: kou
-    text: 前項第三号の場合は、当該審査の申出をした日から九十日を経過した日から三十日以内
+    text: 三　前項第三号の場合は、当該審査の申出をした日から九十日を経過した日から三十日以内
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-251-5-p2-kou-4
     type: kou
-    text: 前項第四号の場合は、第二百五十条の十四第一項から第三項までの規定による委員会の勧告に示された期間を経過した日から三十日以内
+    text: 四　前項第四号の場合は、第二百五十条の十四第一項から第三項までの規定による委員会の勧告に示された期間を経過した日から三十日以内
     modality: unspecified
     item_number: 4
 - number: 3

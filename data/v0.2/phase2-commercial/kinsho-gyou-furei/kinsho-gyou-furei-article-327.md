@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-327-p1-kou-1
     type: kou
-    text: 外国法人であって国内における代表者を定めていない者又は外国に住所を有する個人であるときは、国内における代理人の氏名、商号又は名称
+    text: 一　外国法人であって国内における代表者を定めていない者又は外国に住所を有する個人であるときは、国内における代理人の氏名、商号又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-327-p1-kou-2
     type: kou
-    text: 外国法人又は外国に住所を有する個人であるときは、国内における主たる営業所又は事務所の名称及び所在地
+    text: 二　外国法人又は外国に住所を有する個人であるときは、国内における主たる営業所又は事務所の名称及び所在地
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,23 +23,23 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-72-24-7-p1-kou-1
     type: kou
-    text: '第七十二条の二第一項第一号イに掲げる法人　次に掲げる金額の合計額
+    text: '一　第七十二条の二第一項第一号イに掲げる法人　次に掲げる金額の合計額
 
-      イ 各事業年度の付加価値額に百分の一・二の標準税率により定めた率を乗じて得た金額
+      イ　各事業年度の付加価値額に百分の一・二の標準税率により定めた率を乗じて得た金額
 
-      ロ 各事業年度の資本金等の額に百分の〇・五の標準税率により定めた率を乗じて得た金額
+      ロ　各事業年度の資本金等の額に百分の〇・五の標準税率により定めた率を乗じて得た金額
 
-      ハ 各事業年度の所得に百分の一の標準税率により定めた率を乗じて得た金額'
+      ハ　各事業年度の所得に百分の一の標準税率により定めた率を乗じて得た金額'
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-24-7-p1-kou-2
     type: kou
-    text: 特別法人　次の表の上欄に掲げる金額の区分により各事業年度の所得を区分し、当該区分に応ずる同表の下欄に掲げる標準税率により定めた率を乗じて計算した金額の合計額
+    text: 二　特別法人　次の表の上欄に掲げる金額の区分により各事業年度の所得を区分し、当該区分に応ずる同表の下欄に掲げる標準税率により定めた率を乗じて計算した金額の合計額
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-72-24-7-p1-kou-3
     type: kou
-    text: その他の法人　次の表の上欄に掲げる金額の区分により各事業年度の所得を区分し、当該区分に応ずる同表の下欄に掲げる標準税率により定めた率を乗じて計算した金額の合計額
+    text: 三　その他の法人　次の表の上欄に掲げる金額の区分により各事業年度の所得を区分し、当該区分に応ずる同表の下欄に掲げる標準税率により定めた率を乗じて計算した金額の合計額
     modality: unspecified
     item_number: 3
 - number: 2
@@ -62,22 +62,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-72-24-7-p3-kou-1
     type: kou
-    text: '第七十二条の二第一項第三号イに掲げる法人　次に掲げる金額の合計額
+    text: '一　第七十二条の二第一項第三号イに掲げる法人　次に掲げる金額の合計額
 
-      イ 各事業年度の収入金額に百分の〇・七五の標準税率により定めた率を乗じて得た金額
+      イ　各事業年度の収入金額に百分の〇・七五の標準税率により定めた率を乗じて得た金額
 
-      ロ 各事業年度の付加価値額に百分の〇・三七の標準税率により定めた率を乗じて得た金額
+      ロ　各事業年度の付加価値額に百分の〇・三七の標準税率により定めた率を乗じて得た金額
 
-      ハ 各事業年度の資本金等の額に百分の〇・一五の標準税率により定めた率を乗じて得た金額'
+      ハ　各事業年度の資本金等の額に百分の〇・一五の標準税率により定めた率を乗じて得た金額'
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-24-7-p3-kou-2
     type: kou
-    text: '第七十二条の二第一項第三号ロに掲げる法人　次に掲げる金額の合計額
+    text: '二　第七十二条の二第一項第三号ロに掲げる法人　次に掲げる金額の合計額
 
-      イ 各事業年度の収入金額に百分の〇・七五の標準税率により定めた率を乗じて得た金額
+      イ　各事業年度の収入金額に百分の〇・七五の標準税率により定めた率を乗じて得た金額
 
-      ロ 各事業年度の所得に百分の一・八五の標準税率により定めた率を乗じて得た金額'
+      ロ　各事業年度の所得に百分の一・八五の標準税率により定めた率を乗じて得た金額'
     modality: unspecified
     item_number: 2
 - number: 4
@@ -91,17 +91,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-72-24-7-p4-kou-1
     type: kou
-    text: 各事業年度の収入金額に百分の〇・四八の標準税率により定めた率を乗じて得た金額
+    text: 一　各事業年度の収入金額に百分の〇・四八の標準税率により定めた率を乗じて得た金額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-24-7-p4-kou-2
     type: kou
-    text: 各事業年度の付加価値額に百分の〇・七七の標準税率により定めた率を乗じて得た金額
+    text: 二　各事業年度の付加価値額に百分の〇・七七の標準税率により定めた率を乗じて得た金額
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-72-24-7-p4-kou-3
     type: kou
-    text: 各事業年度の資本金等の額に百分の〇・三二の標準税率により定めた率を乗じて得た金額
+    text: 三　各事業年度の資本金等の額に百分の〇・三二の標準税率により定めた率を乗じて得た金額
     modality: unspecified
     item_number: 3
 - number: 5
@@ -118,12 +118,12 @@ paragraphs:
     - 第一項
   - id: chihou-zei-hou-art-72-24-7-p5-kou-1
     type: kou
-    text: 特別法人　各事業年度の所得に百分の四・九の標準税率により定めた率を乗じて得た金額
+    text: 一　特別法人　各事業年度の所得に百分の四・九の標準税率により定めた率を乗じて得た金額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-24-7-p5-kou-2
     type: kou
-    text: 特別法人以外の法人　各事業年度の所得に百分の七の標準税率により定めた率を乗じて得た金額
+    text: 二　特別法人以外の法人　各事業年度の所得に百分の七の標準税率により定めた率を乗じて得た金額
     modality: unspecified
     item_number: 2
 - number: 6
@@ -148,57 +148,57 @@ paragraphs:
     modality: teigi
   - id: chihou-zei-hou-art-72-24-7-p7-kou-1
     type: kou
-    text: 農業協同組合、農業協同組合連合会（特定農業協同組合連合会を除く。）及び農事組合法人（農業協同組合法第七十二条の十第一項第二号の事業を行う農事組合法人でその事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）並びにたばこ耕作組合
+    text: 一　農業協同組合、農業協同組合連合会（特定農業協同組合連合会を除く。）及び農事組合法人（農業協同組合法第七十二条の十第一項第二号の事業を行う農事組合法人でその事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）並びにたばこ耕作組合
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-24-7-p7-kou-2
     type: kou
-    text: 消費生活協同組合及び消費生活協同組合連合会
+    text: 二　消費生活協同組合及び消費生活協同組合連合会
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-72-24-7-p7-kou-3
     type: kou
-    text: 信用金庫、信用金庫連合会、労働金庫及び労働金庫連合会
+    text: 三　信用金庫、信用金庫連合会、労働金庫及び労働金庫連合会
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-72-24-7-p7-kou-4
     type: kou
-    text: 中小企業等協同組合（企業組合を除く。）、出資組合である商工組合及び商工組合連合会、商店街振興組合、商店街振興組合連合会、内航海運組合、内航海運組合連合会、出資組合である生活衛生同業組合及び生活衛生同業組合連合会並びに生活衛生同業小組合
+    text: 四　中小企業等協同組合（企業組合を除く。）、出資組合である商工組合及び商工組合連合会、商店街振興組合、商店街振興組合連合会、内航海運組合、内航海運組合連合会、出資組合である生活衛生同業組合及び生活衛生同業組合連合会並びに生活衛生同業小組合
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-72-24-7-p7-kou-5
     type: kou
-    text: 出資組合である輸出組合及び輸入組合
+    text: 五　出資組合である輸出組合及び輸入組合
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-72-24-7-p7-kou-6
     type: kou
-    text: 船主相互保険組合
+    text: 六　船主相互保険組合
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-art-72-24-7-p7-kou-7
     type: kou
-    text: 漁業協同組合、漁業協同組合連合会、漁業生産組合（当該組合の事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）、水産加工業協同組合、水産加工業協同組合連合会、共済水産業協同組合連合会及び輸出水産業組合
+    text: 七　漁業協同組合、漁業協同組合連合会、漁業生産組合（当該組合の事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）、水産加工業協同組合、水産加工業協同組合連合会、共済水産業協同組合連合会及び輸出水産業組合
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-art-72-24-7-p7-kou-8
     type: kou
-    text: 森林組合、森林組合連合会及び生産森林組合（当該組合の事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）
+    text: 八　森林組合、森林組合連合会及び生産森林組合（当該組合の事業に従事する組合員に対し俸給、給料、賃金、賞与その他これらの性質を有する給与を支給するものを除く。）
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-art-72-24-7-p7-kou-9
     type: kou
-    text: 農林中央金庫
+    text: 九　農林中央金庫
     modality: unspecified
     item_number: 9
   - id: chihou-zei-hou-art-72-24-7-p7-kou-10
     type: kou
-    text: 医療法人
+    text: 十　医療法人
     modality: unspecified
     item_number: 10
   - id: chihou-zei-hou-art-72-24-7-p7-kou-11
     type: kou
-    text: 労働者協同組合連合会
+    text: 十一　労働者協同組合連合会
     modality: unspecified
     item_number: 11
 - number: 8
@@ -221,12 +221,12 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-72-24-7-p9-kou-1
     type: kou
-    text: 第一項各号（第一号ハを除く。）に掲げる法人の区分に応じて当該各号に定める率、第二項に規定する率、第三項各号に掲げる法人の区分に応じて当該各号に定める率、第四項各号に規定する率及び第五項各号に掲げる法人の区分に応じて当該各号に定める率　一・二
+    text: 一　第一項各号（第一号ハを除く。）に掲げる法人の区分に応じて当該各号に定める率、第二項に規定する率、第三項各号に掲げる法人の区分に応じて当該各号に定める率、第四項各号に規定する率及び第五項各号に掲げる法人の区分に応じて当該各号に定める率　一・二
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-24-7-p9-kou-2
     type: kou
-    text: 第一項第一号ハに定める率　一・七
+    text: 二　第一項第一号ハに定める率　一・七
     modality: unspecified
     item_number: 2
 - number: 10

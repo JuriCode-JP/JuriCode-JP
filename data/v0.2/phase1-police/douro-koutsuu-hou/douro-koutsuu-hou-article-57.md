@@ -48,6 +48,10 @@ paragraphs:
     references:
     - 前二項
     - 前項
+  - id: douro-koutsuu-hou-art-57-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十八条第二項第一号、第百十九条第二項第一号、第百二十条第二項第二号、第百二十三条　第二項については第百二十一条第二項第一号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -57,7 +61,7 @@ parent_section:
   shou: 3
   shou_name_ja: 第三章　車両及び路面電車の交通方法
   setsu: 11
-  setsu_name_ja: 第十一節　乗車、積載及び牽けん引
+  setsu_name_ja: 第十一節　乗車、積載及び牽引
 ---
 
 # 道路交通法 第57条(（乗車又は積載の制限等）)

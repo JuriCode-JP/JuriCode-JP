@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-157-p1-kou-1
     type: kou
-    text: 取得する株式の数（種類株式発行会社にあっては、株式の種類及び数）
+    text: 一　取得する株式の数（種類株式発行会社にあっては、株式の種類及び数）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-157-p1-kou-2
     type: kou
-    text: 株式一株を取得するのと引換えに交付する金銭等の内容及び数若しくは額又はこれらの算定方法
+    text: 二　株式一株を取得するのと引換えに交付する金銭等の内容及び数若しくは額又はこれらの算定方法
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-157-p1-kou-3
     type: kou
-    text: 株式を取得するのと引換えに交付する金銭等の総額
+    text: 三　株式を取得するのと引換えに交付する金銭等の総額
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-157-p1-kou-4
     type: kou
-    text: 株式の譲渡しの申込みの期日
+    text: 四　株式の譲渡しの申込みの期日
     modality: unspecified
     item_number: 4
 - number: 2

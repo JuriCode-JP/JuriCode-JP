@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-291-4-p1-kou-1
     type: kou
-    text: 広域連合の名称
+    text: 一　広域連合の名称
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-291-4-p1-kou-2
     type: kou
-    text: 広域連合を組織する地方公共団体
+    text: 二　広域連合を組織する地方公共団体
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-291-4-p1-kou-3
     type: kou
-    text: 広域連合の区域
+    text: 三　広域連合の区域
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-291-4-p1-kou-4
     type: kou
-    text: 広域連合の処理する事務
+    text: 四　広域連合の処理する事務
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-291-4-p1-kou-5
     type: kou
-    text: 広域連合の作成する広域計画の項目
+    text: 五　広域連合の作成する広域計画の項目
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-291-4-p1-kou-6
     type: kou
-    text: 広域連合の事務所の位置
+    text: 六　広域連合の事務所の位置
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-291-4-p1-kou-7
     type: kou
-    text: 広域連合の議会の組織及び議員の選挙の方法
+    text: 七　広域連合の議会の組織及び議員の選挙の方法
     modality: unspecified
     item_number: 7
   - id: chihou-jichi-hou-art-291-4-p1-kou-8
     type: kou
-    text: 広域連合の長、選挙管理委員会その他執行機関の組織及び選任の方法
+    text: 八　広域連合の長、選挙管理委員会その他執行機関の組織及び選任の方法
     modality: unspecified
     item_number: 8
   - id: chihou-jichi-hou-art-291-4-p1-kou-9
     type: kou
-    text: 広域連合の経費の支弁の方法
+    text: 九　広域連合の経費の支弁の方法
     modality: unspecified
     item_number: 9
 - number: 2

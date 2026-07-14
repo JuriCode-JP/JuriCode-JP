@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-79-59-p2-kou-1
     type: kou
-    text: 返還資金融資が行われることが顧客資産の返還に係る債務の迅速な履行に必要であると認められること。
+    text: 一　返還資金融資が行われることが顧客資産の返還に係る債務の迅速な履行に必要であると認められること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-59-p2-kou-2
     type: kou
-    text: 返還資金融資による貸付金が顧客資産の返還に係る債務の迅速な履行のために使用されることが確実であると認められること。
+    text: 二　返還資金融資による貸付金が顧客資産の返還に係る債務の迅速な履行のために使用されることが確実であると認められること。
     modality: unspecified
     item_number: 2
 - number: 3

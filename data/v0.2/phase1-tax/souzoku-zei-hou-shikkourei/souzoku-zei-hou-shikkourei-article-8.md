@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-8-p1-kou-1
     type: kou
-    text: 物納に充てた財産が土地である場合において、当該土地の土壌が土壌汚染対策法（平成十四年法律第五十三号）第二条第一項（定義）に規定する特定有害物質その他これに類する有害物質により汚染されていることが判明したこと。
+    text: 一　物納に充てた財産が土地である場合において、当該土地の土壌が土壌汚染対策法（平成十四年法律第五十三号）第二条第一項（定義）に規定する特定有害物質その他これに類する有害物質により汚染されていることが判明したこと。
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-8-p1-kou-2
     type: kou
-    text: 物納に充てた財産が土地である場合において、当該土地の地下に廃棄物の処理及び清掃に関する法律（昭和四十五年法律第百三十七号）第二条第一項（定義）に規定する廃棄物その他の物で除去しなければ当該土地の通常の使用ができないものがあることが判明したこと。
+    text: 二　物納に充てた財産が土地である場合において、当該土地の地下に廃棄物の処理及び清掃に関する法律（昭和四十五年法律第百三十七号）第二条第一項（定義）に規定する廃棄物その他の物で除去しなければ当該土地の通常の使用ができないものがあることが判明したこと。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,17 +42,17 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-8-p2-kou-1
     type: kou
-    text: 相続若しくは遺贈又は贈与により取得した財産についての権利の帰属に関する訴えについての判決があつたこと。
+    text: 一　相続若しくは遺贈又は贈与により取得した財産についての権利の帰属に関する訴えについての判決があつたこと。
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-8-p2-kou-2
     type: kou
-    text: 民法第七百七十八条の四（相続の開始後に新たに子と推定された者の価額の支払請求権）又は第九百十条（相続の開始後に認知された者の価額の支払請求権）の規定による請求があつたことにより弁済すべき額が確定したこと。
+    text: 二　民法第七百七十八条の四（相続の開始後に新たに子と推定された者の価額の支払請求権）又は第九百十条（相続の開始後に認知された者の価額の支払請求権）の規定による請求があつたことにより弁済すべき額が確定したこと。
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikkourei-art-8-p2-kou-3
     type: kou
-    text: 条件付の遺贈について、条件が成就したこと。
+    text: 三　条件付の遺贈について、条件が成就したこと。
     modality: unspecified
     item_number: 3
 - number: 3

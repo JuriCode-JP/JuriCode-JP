@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-15-7-p1-kou-1
     type: kou
-    text: 滞納処分をすることができる財産がないとき。
+    text: 一　滞納処分をすることができる財産がないとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-15-7-p1-kou-2
     type: kou
-    text: 滞納処分をすることによつてその生活を著しく窮迫させるおそれがあるとき。
+    text: 二　滞納処分をすることによつてその生活を著しく窮迫させるおそれがあるとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-15-7-p1-kou-3
     type: kou
-    text: その所在及び滞納処分をすることができる財産がともに不明であるとき。
+    text: 三　その所在及び滞納処分をすることができる財産がともに不明であるとき。
     modality: unspecified
     item_number: 3
 - number: 2

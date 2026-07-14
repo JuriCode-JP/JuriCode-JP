@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-100-p1-kou-1
     type: kou
-    text: 当該種類の設立時発行株式の設立時種類株主
+    text: 一　当該種類の設立時発行株式の設立時種類株主
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-100-p1-kou-2
     type: kou
-    text: 第百八条第二項第五号ロの他の株式を当該種類の株式とする定めがある取得請求権付株式の設立時種類株主
+    text: 二　第百八条第二項第五号ロの他の株式を当該種類の株式とする定めがある取得請求権付株式の設立時種類株主
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-100-p1-kou-3
     type: kou
-    text: 第百八条第二項第六号ロの他の株式を当該種類の株式とする定めがある取得条項付株式の設立時種類株主
+    text: 三　第百八条第二項第六号ロの他の株式を当該種類の株式とする定めがある取得条項付株式の設立時種類株主
     modality: unspecified
     item_number: 3
 - number: 2

@@ -45,22 +45,22 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-769-p3-kou-1
     type: kou
-    text: 前条第一項第二号イに掲げる事項についての定めがある場合　同号イの株式の株主
+    text: 一　前条第一項第二号イに掲げる事項についての定めがある場合　同号イの株式の株主
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-769-p3-kou-2
     type: kou
-    text: 前条第一項第二号ロに掲げる事項についての定めがある場合　同号ロの社債の社債権者
+    text: 二　前条第一項第二号ロに掲げる事項についての定めがある場合　同号ロの社債の社債権者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-769-p3-kou-3
     type: kou
-    text: 前条第一項第二号ハに掲げる事項についての定めがある場合　同号ハの新株予約権の新株予約権者
+    text: 三　前条第一項第二号ハに掲げる事項についての定めがある場合　同号ハの新株予約権の新株予約権者
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-769-p3-kou-4
     type: kou
-    text: 前条第一項第二号ニに掲げる事項についての定めがある場合　同号ニの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
+    text: 四　前条第一項第二号ニに掲げる事項についての定めがある場合　同号ニの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
     modality: unspecified
     item_number: 4
 - number: 4
@@ -73,8 +73,8 @@ paragraphs:
     text: 前条第一項第四号に規定する場合には、効力発生日に、株式交換契約新株予約権は、消滅し、当該株式交換契約新株予約権の新株予約権者は、同項第五号に掲げる事項についての定めに従い、同項第四号ロの株式交換完全親株式会社の新株予約権の新株予約権者となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

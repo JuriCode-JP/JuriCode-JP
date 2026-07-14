@@ -36,26 +36,26 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: minpou-art-563-p2-kou-1
     type: kou
-    text: 履行の追完が不能であるとき。
+    text: 一　履行の追完が不能であるとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-563-p2-kou-2
     type: kou
-    text: 売主が履行の追完を拒絶する意思を明確に表示したとき。
+    text: 二　売主が履行の追完を拒絶する意思を明確に表示したとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-563-p2-kou-3
     type: kou
-    text: 契約の性質又は当事者の意思表示により、特定の日時又は一定の期間内に履行をしなければ契約をした目的を達することができない場合において、売主が履行の追完をしないでその時期を経過したとき。
+    text: 三　契約の性質又は当事者の意思表示により、特定の日時又は一定の期間内に履行をしなければ契約をした目的を達することができない場合において、売主が履行の追完をしないでその時期を経過したとき。
     modality: unspecified
     item_number: 3
   - id: minpou-art-563-p2-kou-4
     type: kou
-    text: 前三号に掲げる場合のほか、買主が前項の催告をしても履行の追完を受ける見込みがないことが明らかであるとき。
+    text: 四　前三号に掲げる場合のほか、買主が前項の催告をしても履行の追完を受ける見込みがないことが明らかであるとき。
     modality: unspecified
     item_number: 4
 - number: 3

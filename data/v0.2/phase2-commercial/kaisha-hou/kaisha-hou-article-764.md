@@ -102,8 +102,8 @@ paragraphs:
     text: 前条第一項に規定する場合には、新設分割会社は、新設分割設立株式会社の成立の日に、新設分割計画の定めに従い、同項第六号の株式の株主となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 9
   has_proviso: false
   has_items: true
@@ -115,17 +115,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-764-p9-kou-1
     type: kou
-    text: 前条第一項第八号イに掲げる事項についての定めがある場合　同号イの社債の社債権者
+    text: 一　前条第一項第八号イに掲げる事項についての定めがある場合　同号イの社債の社債権者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-764-p9-kou-2
     type: kou
-    text: 前条第一項第八号ロに掲げる事項についての定めがある場合　同号ロの新株予約権の新株予約権者
+    text: 二　前条第一項第八号ロに掲げる事項についての定めがある場合　同号ロの新株予約権の新株予約権者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-764-p9-kou-3
     type: kou
-    text: 前条第一項第八号ハに掲げる事項についての定めがある場合　同号ハの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
+    text: 三　前条第一項第八号ハに掲げる事項についての定めがある場合　同号ハの新株予約権付社債についての社債の社債権者及び当該新株予約権付社債に付された新株予約権の新株予約権者
     modality: unspecified
     item_number: 3
 - number: 10
@@ -138,10 +138,10 @@ paragraphs:
     text: 二以上の株式会社又は合同会社が共同して新設分割をする場合における前二項の規定の適用については、第八項中「新設分割計画の定め」とあるのは「同項第七号に掲げる事項についての定め」と、前項中「新設分割計画の定め」とあるのは「前条第一項第九号に掲げる事項についての定め」とする。
     modality: gimu
     references:
-    - 同項
-    - 前条
-    - 前二項
     - 前項
+    - 前二項
+    - 前条
+    - 同項
 - number: 11
   has_proviso: false
   has_items: false
@@ -152,8 +152,8 @@ paragraphs:
     text: 前条第一項第十号に規定する場合には、新設分割設立株式会社の成立の日に、新設分割計画新株予約権は、消滅し、当該新設分割計画新株予約権の新株予約権者は、同項第十一号に掲げる事項についての定めに従い、同項第十号ロの新設分割設立株式会社の新株予約権の新株予約権者となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

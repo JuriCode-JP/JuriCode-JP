@@ -25,31 +25,31 @@ paragraphs:
     override_target:
     - 第二項
     references:
-    - 同項
     - 次項
+    - 同項
   - id: sochi-hou-art-42-6-p1-kou-1
     type: kou
-    text: 機械及び装置（その管理のおおむね全部を他の者に委託するものであることその他の政令で定める要件に該当するものを除く。）
+    text: 一　機械及び装置（その管理のおおむね全部を他の者に委託するものであることその他の政令で定める要件に該当するものを除く。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-42-6-p1-kou-2
     type: kou
-    text: 工具（製品の品質管理の向上等に資するものとして財務省令で定めるものに限る。）
+    text: 二　工具（製品の品質管理の向上等に資するものとして財務省令で定めるものに限る。）
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-42-6-p1-kou-3
     type: kou
-    text: ソフトウエア（政令で定めるものに限る。）
+    text: 三　ソフトウエア（政令で定めるものに限る。）
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-42-6-p1-kou-4
     type: kou
-    text: 車両及び運搬具（貨物の運送の用に供される自動車で輸送の効率化等に資するものとして財務省令で定めるものに限る。）
+    text: 四　車両及び運搬具（貨物の運送の用に供される自動車で輸送の効率化等に資するものとして財務省令で定めるものに限る。）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-art-42-6-p1-kou-5
     type: kou
-    text: 政令で定める海上運送業の用に供される船舶（輸送の効率化等に資するものとして政令で定める船舶にあつては、環境への負荷の状況が明らかにされた船舶として政令で定めるものに限る。）
+    text: 五　政令で定める海上運送業の用に供される船舶（輸送の効率化等に資するものとして政令で定める船舶にあつては、環境への負荷の状況が明らかにされた船舶として政令で定めるものに限る。）
     modality: unspecified
     item_number: 5
 - number: 2

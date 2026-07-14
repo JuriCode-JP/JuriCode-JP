@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-teigi-furei-art-16-2-p1-kou-1
     type: kou
-    text: 法第二条第二項第三号及び第四号に掲げる権利以外のものが当該財産的価値に表示される場合
+    text: 一　法第二条第二項第三号及び第四号に掲げる権利以外のものが当該財産的価値に表示される場合
     modality: unspecified
     item_number: 1
   - id: kinsho-teigi-furei-art-16-2-p1-kou-2
     type: kou
-    text: 法第二条第二項第三号に掲げる権利が当該財産的価値に表示される場合において、その財産的価値の全てが第九条の二第一項第二号イ又はロに掲げる要件に該当するとき。
+    text: 二　法第二条第二項第三号に掲げる権利が当該財産的価値に表示される場合において、その財産的価値の全てが第九条の二第一項第二号イ又はロに掲げる要件に該当するとき。
     modality: unspecified
     item_number: 2
 cases: []

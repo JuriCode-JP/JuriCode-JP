@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-18-24-p1-kou-1
     type: kou
-    text: 総収入金額については、当該組合事業又は信託から生ずる不動産所得に係る賃貸料その他の収入の別
+    text: 一　総収入金額については、当該組合事業又は信託から生ずる不動産所得に係る賃貸料その他の収入の別
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-24-p1-kou-2
     type: kou
-    text: 必要経費については、当該組合事業又は信託から生ずる不動産所得に係る減価償却費、貸倒金、借入金利子及びその他の経費の別
+    text: 二　必要経費については、当該組合事業又は信託から生ずる不動産所得に係る減価償却費、貸倒金、借入金利子及びその他の経費の別
     modality: unspecified
     item_number: 2
 - number: 2

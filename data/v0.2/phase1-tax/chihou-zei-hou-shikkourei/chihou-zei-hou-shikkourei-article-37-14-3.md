@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-37-14-3-p2-kou-1
     type: kou
-    text: 当該信託契約において、当該原委託者により当該受託信託会社等から買い戻されなければならない旨が定められていること。
+    text: 一　当該信託契約において、当該原委託者により当該受託信託会社等から買い戻されなければならない旨が定められていること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-37-14-3-p2-kou-2
     type: kou
-    text: 当該信託契約の締結に際し、当該受託信託会社等が当該特定資産を当該原委託者に売り戻すことができる権利を当該原委託者が当該受託信託会社等に付与していること。
+    text: 二　当該信託契約の締結に際し、当該受託信託会社等が当該特定資産を当該原委託者に売り戻すことができる権利を当該原委託者が当該受託信託会社等に付与していること。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: dokusen-kinshi-hou-art-100-p1-kou-1
     type: kou
-    text: 違反行為に供せられた特許権の特許又は特許発明の専用実施権若しくは通常実施権は取り消されるべき旨
+    text: 一　違反行為に供せられた特許権の特許又は特許発明の専用実施権若しくは通常実施権は取り消されるべき旨
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-100-p1-kou-2
     type: kou
-    text: 判決確定後六月以上三年以下の期間、政府との間に契約をすることができない旨
+    text: 二　判決確定後六月以上三年以下の期間、政府との間に契約をすることができない旨
     modality: unspecified
     item_number: 2
 - number: 2

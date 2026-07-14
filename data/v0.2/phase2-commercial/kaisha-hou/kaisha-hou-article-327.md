@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-327-p1-kou-1
     type: kou
-    text: 公開会社
+    text: 一　公開会社
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-327-p1-kou-2
     type: kou
-    text: 監査役会設置会社
+    text: 二　監査役会設置会社
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-327-p1-kou-3
     type: kou
-    text: 監査等委員会設置会社
+    text: 三　監査等委員会設置会社
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-327-p1-kou-4
     type: kou
-    text: 指名委員会等設置会社
+    text: 四　指名委員会等設置会社
     modality: unspecified
     item_number: 4
 - number: 2

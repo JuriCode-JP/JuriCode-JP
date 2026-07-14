@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-169-p1-kou-1
     type: kou
-    text: 代理又は媒介を行った年月日
+    text: 一　代理又は媒介を行った年月日
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-169-p1-kou-2
     type: kou
-    text: 顧客の氏名又は名称
+    text: 二　顧客の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-169-p1-kou-3
     type: kou
-    text: 代理又は媒介の別
+    text: 三　代理又は媒介の別
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-169-p1-kou-4
     type: kou
-    text: 代理又は媒介の内容
+    text: 四　代理又は媒介の内容
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-169-p1-kou-5
     type: kou
-    text: 代理又は媒介に関して受け取る手数料、報酬その他の対価の額
+    text: 五　代理又は媒介に関して受け取る手数料、報酬その他の対価の額
     modality: unspecified
     item_number: 5
 cases: []

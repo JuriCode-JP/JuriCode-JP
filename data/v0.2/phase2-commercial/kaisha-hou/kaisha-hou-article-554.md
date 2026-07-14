@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-554-p1-kou-1
     type: kou
-    text: 出席した議決権者（議決権を行使することができる協定債権者をいう。以下この款及び次款において同じ。）の過半数の同意
+    text: 一　出席した議決権者（議決権を行使することができる協定債権者をいう。以下この款及び次款において同じ。）の過半数の同意
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-554-p1-kou-2
     type: kou
-    text: 出席した議決権者の議決権の総額の二分の一を超える議決権を有する者の同意
+    text: 二　出席した議決権者の議決権の総額の二分の一を超える議決権を有する者の同意
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 第五百五十八条第一項の規定によりその有する議決権の一部のみを前項の事項に同意するものとして行使した議決権者（その余の議決権を行使しなかったものを除く。）があるときの同項第一号の規定の適用については、当該議決権者一人につき、出席した議決権者の数に一を、同意をした議決権者の数に二分の一を、それぞれ加算するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

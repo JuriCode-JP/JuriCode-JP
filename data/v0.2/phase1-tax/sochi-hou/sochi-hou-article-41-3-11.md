@@ -31,8 +31,8 @@ paragraphs:
     text: その年分の給与所得控除後の給与等の金額及び公的年金等に係る雑所得の金額がある居住者で、当該給与所得控除後の給与等の金額及び当該公的年金等に係る雑所得の金額の合計額が十万円を超えるものに係る総所得金額を計算する場合には、当該給与所得控除後の給与等の金額（当該給与所得控除後の給与等の金額が十万円を超える場合には、十万円）及び当該公的年金等に係る雑所得の金額（当該公的年金等に係る雑所得の金額が十万円を超える場合には、十万円）の合計額から十万円を控除した残額を、その年分の給与所得の金額（前項の規定の適用がある場合には、同項の規定による控除をした残額）から控除する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false
@@ -57,37 +57,37 @@ paragraphs:
     modality: unspecified
   - id: sochi-hou-art-41-3-11-p4-kou-1
     type: kou
-    text: 給与等　所得税法第二十八条第一項に規定する給与等をいう。
+    text: 一　給与等　所得税法第二十八条第一項に規定する給与等をいう。
     modality: teigi
     item_number: 1
   - id: sochi-hou-art-41-3-11-p4-kou-2
     type: kou
-    text: 特別障害者　所得税法第二条第一項第二十九号に規定する特別障害者をいう。
+    text: 二　特別障害者　所得税法第二条第一項第二十九号に規定する特別障害者をいう。
     modality: teigi
     item_number: 2
   - id: sochi-hou-art-41-3-11-p4-kou-3
     type: kou
-    text: 扶養親族　所得税法第二条第一項第三十四号に規定する扶養親族をいう。
+    text: 三　扶養親族　所得税法第二条第一項第三十四号に規定する扶養親族をいう。
     modality: teigi
     item_number: 3
   - id: sochi-hou-art-41-3-11-p4-kou-4
     type: kou
-    text: 同一生計配偶者　所得税法第二条第一項第三十三号に規定する同一生計配偶者をいう。
+    text: 四　同一生計配偶者　所得税法第二条第一項第三十三号に規定する同一生計配偶者をいう。
     modality: teigi
     item_number: 4
   - id: sochi-hou-art-41-3-11-p4-kou-5
     type: kou
-    text: 給与所得控除後の給与等の金額　給与等の収入金額から所得税法第二十八条第三項に規定する給与所得控除額を控除した残額（同条第四項の規定の適用がある場合には、同項に規定する給与所得控除後の給与等の金額に相当する金額）をいう。
+    text: 五　給与所得控除後の給与等の金額　給与等の収入金額から所得税法第二十八条第三項に規定する給与所得控除額を控除した残額（同条第四項の規定の適用がある場合には、同項に規定する給与所得控除後の給与等の金額に相当する金額）をいう。
     modality: teigi
     item_number: 5
   - id: sochi-hou-art-41-3-11-p4-kou-6
     type: kou
-    text: 公的年金等に係る雑所得の金額　所得税法第三十五条第二項第一号に掲げる金額をいう。
+    text: 六　公的年金等に係る雑所得の金額　所得税法第三十五条第二項第一号に掲げる金額をいう。
     modality: teigi
     item_number: 6
   - id: sochi-hou-art-41-3-11-p4-kou-7
     type: kou
-    text: 出国　所得税法第二条第一項第四十二号に規定する出国をいう。
+    text: 七　出国　所得税法第二条第一項第四十二号に規定する出国をいう。
     modality: teigi
     item_number: 7
 - number: 5

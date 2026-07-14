@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第百三十二条
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -52,8 +52,8 @@ paragraphs:
     override_target:
     - 第二百五十九条
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -79,8 +79,8 @@ paragraphs:
     override_target:
     - 第二百五十九条
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

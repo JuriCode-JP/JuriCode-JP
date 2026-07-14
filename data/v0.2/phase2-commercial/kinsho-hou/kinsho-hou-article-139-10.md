@@ -36,12 +36,12 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-139-10-p2-kou-1
     type: kou
-    text: 吸収合併存続株式会社金融商品取引所が公開会社である場合
+    text: 一　吸収合併存続株式会社金融商品取引所が公開会社である場合
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-139-10-p2-kou-2
     type: kou
-    text: 吸収合併存続株式会社金融商品取引所が第百三十九条の八第一項の株主総会の決議によつて吸収合併契約の承認を受けた場合
+    text: 二　吸収合併存続株式会社金融商品取引所が第百三十九条の八第一項の株主総会の決議によつて吸収合併契約の承認を受けた場合
     modality: unspecified
     item_number: 2
 - number: 3

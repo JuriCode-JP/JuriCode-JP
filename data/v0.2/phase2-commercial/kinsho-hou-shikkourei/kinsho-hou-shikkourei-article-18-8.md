@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-18-8-p1-kou-1
     type: kou
-    text: 法第七十九条の五十六第一項の請求の届出方法
+    text: 一　法第七十九条の五十六第一項の請求の届出方法
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-18-8-p1-kou-2
     type: kou
-    text: 法第七十九条の五十六第一項の金額の支払期間、支払場所及び支払方法
+    text: 二　法第七十九条の五十六第一項の金額の支払期間、支払場所及び支払方法
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-18-8-p1-kou-3
     type: kou
-    text: 一般顧客が法第七十九条の五十六第一項の請求の際に基金に対し提出又は提示をすべき書類その他のもの
+    text: 三　一般顧客が法第七十九条の五十六第一項の請求の際に基金に対し提出又は提示をすべき書類その他のもの
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-18-8-p1-kou-4
     type: kou
-    text: その他基金が必要と認める事項
+    text: 四　その他基金が必要と認める事項
     modality: unspecified
     item_number: 4
 cases: []

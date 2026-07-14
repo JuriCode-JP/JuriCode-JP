@@ -23,32 +23,32 @@ paragraphs:
     modality: unspecified
   - id: fueihou-art-50-p1-kou-1
     type: kou
-    text: 第三十一条の十三第一項において準用する第二十八条第一項の規定に違反したとき。
+    text: 一　第三十一条の十三第一項において準用する第二十八条第一項の規定に違反したとき。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-50-p1-kou-2
     type: kou
-    text: 第三十一条の十三第一項において準用する第二十八条第二項の規定に基づく都道府県の条例の規定に違反したとき。
+    text: 二　第三十一条の十三第一項において準用する第二十八条第二項の規定に基づく都道府県の条例の規定に違反したとき。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-50-p1-kou-3
     type: kou
-    text: 第三十一条の十五、第三十一条の二十、第三十一条の二十一第二項第二号、第三十一条の二十五、第三十四条第二項、第三十五条、第三十五条の二又は第三十五条の四第二項若しくは第四項第二号の規定による公安委員会の処分に違反したとき。
+    text: 三　第三十一条の十五、第三十一条の二十、第三十一条の二十一第二項第二号、第三十一条の二十五、第三十四条第二項、第三十五条、第三十五条の二又は第三十五条の四第二項若しくは第四項第二号の規定による公安委員会の処分に違反したとき。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-50-p1-kou-4
     type: kou
-    text: 第三十一条の二十二の規定に違反して同条の許可を受けないで特定遊興飲食店営業を営んだとき。
+    text: 四　第三十一条の二十二の規定に違反して同条の許可を受けないで特定遊興飲食店営業を営んだとき。
     modality: unspecified
     item_number: 4
   - id: fueihou-art-50-p1-kou-5
     type: kou
-    text: 偽りその他不正の手段により第三十一条の二十二の許可又は第三十一条の二十三において準用する第七条第一項、第七条の二第一項若しくは第七条の三第一項の承認を受けたとき。
+    text: 五　偽りその他不正の手段により第三十一条の二十二の許可又は第三十一条の二十三において準用する第七条第一項、第七条の二第一項若しくは第七条の三第一項の承認を受けたとき。
     modality: unspecified
     item_number: 5
   - id: fueihou-art-50-p1-kou-6
     type: kou
-    text: 第三十一条の二十三において準用する第十一条の規定に違反したとき。
+    text: 六　第三十一条の二十三において準用する第十一条の規定に違反したとき。
     modality: unspecified
     item_number: 6
 cases: []

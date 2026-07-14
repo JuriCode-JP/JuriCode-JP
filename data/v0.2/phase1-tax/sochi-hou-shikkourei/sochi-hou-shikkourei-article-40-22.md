@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-40-22-p1-kou-1
     type: kou
-    text: 建築基準法第二条第九号の二に規定する耐火建築物又は同条第九号の三に規定する準耐火建築物に該当するものであること。
+    text: 一　建築基準法第二条第九号の二に規定する耐火建築物又は同条第九号の三に規定する準耐火建築物に該当するものであること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-22-p1-kou-2
     type: kou
-    text: 地下又は複数の階に自動車の駐車の用に供する部分を設けているものであること。
+    text: 二　地下又は複数の階に自動車の駐車の用に供する部分を設けているものであること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-40-22-p1-kou-3
     type: kou
-    text: 駐車場の用に供する部分の床面積が千五百平方メートル以上であること。
+    text: 三　駐車場の用に供する部分の床面積が千五百平方メートル以上であること。
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-40-22-p1-kou-4
     type: kou
-    text: その他財務省令で定める要件
+    text: 四　その他財務省令で定める要件
     modality: unspecified
     item_number: 4
 - number: 2
@@ -65,12 +65,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-40-22-p3-kou-1
     type: kou
-    text: 当該特定の附置義務駐車施設として使用されている建築物のうち専ら当該特定の附置義務駐車施設の用に供している部分の床面積
+    text: 一　当該特定の附置義務駐車施設として使用されている建築物のうち専ら当該特定の附置義務駐車施設の用に供している部分の床面積
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-22-p3-kou-2
     type: kou
-    text: 前号の建築物のうち専ら当該特定の附置義務駐車施設の用以外の用に供している部分の床面積
+    text: 二　前号の建築物のうち専ら当該特定の附置義務駐車施設の用以外の用に供している部分の床面積
     modality: unspecified
     item_number: 2
 - number: 4

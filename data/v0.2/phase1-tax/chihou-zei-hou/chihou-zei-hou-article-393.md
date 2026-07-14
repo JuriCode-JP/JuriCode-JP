@@ -43,8 +43,8 @@ paragraphs:
     text: 前項の規定により行われた通知は、同項に規定する固定資産の所有者の使用に係る電子計算機（入出力装置を含む。）に備えられたファイルへの記録がされた時に当該所有者に到達したものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

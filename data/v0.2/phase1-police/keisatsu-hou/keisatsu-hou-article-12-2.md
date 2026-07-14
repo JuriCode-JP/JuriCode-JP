@@ -44,8 +44,8 @@ paragraphs:
     text: 国家公安委員会は、警察庁の職員に、前項の規定により指名された委員の同項に規定する事務を補助させることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

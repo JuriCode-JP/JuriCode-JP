@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-357-p2-kou-1
     type: kou
-    text: 第三百四十九条各号に掲げるものを記載した書類
+    text: 一　第三百四十九条各号に掲げるものを記載した書類
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-357-p2-kou-2
     type: kou
-    text: 第三百五十条第一項各号に掲げる書類
+    text: 二　第三百五十条第一項各号に掲げる書類
     modality: unspecified
     item_number: 2
 - number: 3

@@ -34,16 +34,16 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-shikoukisoku-art-34-p2-kou-1
     type: kou
-    text: '当該機械及び装置に属する個々の機械及び装置ごとにイに掲げる時間にロに掲げる割合を乗じて計算した時間の合計時間
+    text: '一　当該機械及び装置に属する個々の機械及び装置ごとにイに掲げる時間にロに掲げる割合を乗じて計算した時間の合計時間
 
-      イ 当該個々の機械及び装置のその年における平均超過使用時間（当該個々の機械及び装置が当該機械及び装置の通常の経済事情における一日当たりの平均的な使用時間を超えてその年において使用された場合におけるその超えて使用された時間の合計時間を当該個々の機械及び装置のその年において通常使用されるべき日数で除して計算した時間をいう。次号において同じ。）
+      イ　当該個々の機械及び装置のその年における平均超過使用時間（当該個々の機械及び装置が当該機械及び装置の通常の経済事情における一日当たりの平均的な使用時間を超えてその年において使用された場合におけるその超えて使用された時間の合計時間を当該個々の機械及び装置のその年において通常使用されるべき日数で除して計算した時間をいう。次号において同じ。）
 
-      ロ 当該機械及び装置の取得価額（減価償却資産の償却費の計算の基礎となる取得価額をいい、令第百三十条第九項（耐用年数の短縮）の規定の適用がある場合には同項の規定の適用がないものとした場合に減価償却資産の償却費の計算の基礎となる取得価額となる金額とする。以下この号において同じ。）のうちに当該個々の機械及び装置の取得価額の占める割合'
+      ロ　当該機械及び装置の取得価額（減価償却資産の償却費の計算の基礎となる取得価額をいい、令第百三十条第九項（耐用年数の短縮）の規定の適用がある場合には同項の規定の適用がないものとした場合に減価償却資産の償却費の計算の基礎となる取得価額となる金額とする。以下この号において同じ。）のうちに当該個々の機械及び装置の取得価額の占める割合'
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-34-p2-kou-2
     type: kou
-    text: 当該機械及び装置に属する個々の機械及び装置のその年における平均超過使用時間の合計時間をその年十二月三十一日（その居住者が年の中途において死亡し又は出国をした場合には、その死亡又は出国の時）における当該個々の機械及び装置の総数で除して計算した時間
+    text: 二　当該機械及び装置に属する個々の機械及び装置のその年における平均超過使用時間の合計時間をその年十二月三十一日（その居住者が年の中途において死亡し又は出国をした場合には、その死亡又は出国の時）における当該個々の機械及び装置の総数で除して計算した時間
     modality: unspecified
     item_number: 2
 - number: 3
@@ -57,47 +57,47 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-34-p3-kou-1
     type: kou
-    text: 令第百三十三条に規定する書類を提出する者の氏名及び住所
+    text: 一　令第百三十三条に規定する書類を提出する者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-34-p3-kou-2
     type: kou
-    text: 令第百三十三条の規定の適用を受けようとする機械及び装置の設備の種類及び名称並びに所在する場所
+    text: 二　令第百三十三条の規定の適用を受けようとする機械及び装置の設備の種類及び名称並びに所在する場所
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-34-p3-kou-3
     type: kou
-    text: 第一号の者の営む事業の通常の経済事情における当該機械及び装置の一日当たりの平均的な使用時間
+    text: 三　第一号の者の営む事業の通常の経済事情における当該機械及び装置の一日当たりの平均的な使用時間
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-34-p3-kou-4
     type: kou
-    text: その年における当該機械及び装置を通常使用すべき日数
+    text: 四　その年における当該機械及び装置を通常使用すべき日数
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-34-p3-kou-5
     type: kou
-    text: その年における当該機械及び装置の第三号の平均的な使用時間を超えて使用した時間の合計時間
+    text: 五　その年における当該機械及び装置の第三号の平均的な使用時間を超えて使用した時間の合計時間
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-34-p3-kou-6
     type: kou
-    text: 当該機械及び装置の一日当たりの超過使用時間
+    text: 六　当該機械及び装置の一日当たりの超過使用時間
     modality: unspecified
     item_number: 6
   - id: shotoku-zei-hou-shikoukisoku-art-34-p3-kou-7
     type: kou
-    text: その年における当該機械及び装置に係る第一項の増加償却割合
+    text: 七　その年における当該機械及び装置に係る第一項の増加償却割合
     modality: unspecified
     item_number: 7
   - id: shotoku-zei-hou-shikoukisoku-art-34-p3-kou-8
     type: kou
-    text: 当該機械及び装置を第三号の平均的な使用時間を超えて使用したことを証する書類として保存するものの名称
+    text: 八　当該機械及び装置を第三号の平均的な使用時間を超えて使用したことを証する書類として保存するものの名称
     modality: unspecified
     item_number: 8
   - id: shotoku-zei-hou-shikoukisoku-art-34-p3-kou-9
     type: kou
-    text: その他参考となるべき事項
+    text: 九　その他参考となるべき事項
     modality: unspecified
     item_number: 9
 cases: []

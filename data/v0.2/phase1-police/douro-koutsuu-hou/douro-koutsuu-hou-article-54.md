@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-54-p1-kou-1
     type: kou
-    text: 左右の見とおしのきかない交差点、見とおしのきかない道路のまがりかど又は見とおしのきかない上り坂の頂上で道路標識等により指定された場所を通行しようとするとき。
+    text: 一　左右の見とおしのきかない交差点、見とおしのきかない道路のまがりかど又は見とおしのきかない上り坂の頂上で道路標識等により指定された場所を通行しようとするとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-54-p1-kou-2
     type: kou
-    text: 山地部の道路その他曲折が多い道路について道路標識等により指定された区間における左右の見とおしのきかない交差点、見とおしのきかない道路のまがりかど又は見とおしのきかない上り坂の頂上を通行しようとするとき。
+    text: 二　山地部の道路その他曲折が多い道路について道路標識等により指定された区間における左右の見とおしのきかない交差点、見とおしのきかない道路のまがりかど又は見とおしのきかない上り坂の頂上を通行しようとするとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,6 +44,10 @@ paragraphs:
     type: tadashi
     text: ただし、危険を防止するためやむを得ないときは、この限りでない。
     modality: jogai
+  - id: douro-koutsuu-hou-art-54-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十条第一項第六号、同条第三項　第二項については第百十七条の二第一項第四号、第百十七条の二の二第一項第八号チ、第百二十一条第一項第九号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-350-25-p1-kou-1
     type: kou
-    text: 判決の言渡し前に、被告人又は弁護人が即決裁判手続によることについての同意を撤回したとき。
+    text: 一　判決の言渡し前に、被告人又は弁護人が即決裁判手続によることについての同意を撤回したとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-350-25-p1-kou-2
     type: kou
-    text: 判決の言渡し前に、被告人が起訴状に記載された訴因について有罪である旨の陳述を撤回したとき。
+    text: 二　判決の言渡し前に、被告人が起訴状に記載された訴因について有罪である旨の陳述を撤回したとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-350-25-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、当該事件が即決裁判手続によることができないものであると認めるとき。
+    text: 三　前二号に掲げるもののほか、当該事件が即決裁判手続によることができないものであると認めるとき。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-350-25-p1-kou-4
     type: kou
-    text: 当該事件が即決裁判手続によることが相当でないものであると認めるとき。
+    text: 四　当該事件が即決裁判手続によることが相当でないものであると認めるとき。
     modality: unspecified
     item_number: 4
 - number: 2

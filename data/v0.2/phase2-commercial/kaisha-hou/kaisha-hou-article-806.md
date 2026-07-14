@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-806-p1-kou-1
     type: kou
-    text: 第八百四条第二項に規定する場合
+    text: 一　第八百四条第二項に規定する場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-806-p1-kou-2
     type: kou
-    text: 第八百五条に規定する場合
+    text: 二　第八百五条に規定する場合
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,12 +44,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-806-p2-kou-1
     type: kou
-    text: 第八百四条第一項の株主総会（新設合併等をするために種類株主総会の決議を要する場合にあっては、当該種類株主総会を含む。）に先立って当該新設合併等に反対する旨を当該消滅株式会社等に対し通知し、かつ、当該株主総会において当該新設合併等に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
+    text: 一　第八百四条第一項の株主総会（新設合併等をするために種類株主総会の決議を要する場合にあっては、当該種類株主総会を含む。）に先立って当該新設合併等に反対する旨を当該消滅株式会社等に対し通知し、かつ、当該株主総会において当該新設合併等に反対した株主（当該株主総会において議決権を行使することができるものに限る。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-806-p2-kou-2
     type: kou
-    text: 当該株主総会において議決権を行使することができない株主
+    text: 二　当該株主総会において議決権を行使することができない株主
     modality: unspecified
     item_number: 2
 - number: 3

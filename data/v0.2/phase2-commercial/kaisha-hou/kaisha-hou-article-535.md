@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-535-p1-kou-1
     type: kou
-    text: 財産の処分（次条第一項各号に掲げる行為を除く。）
+    text: 一　財産の処分（次条第一項各号に掲げる行為を除く。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-535-p1-kou-2
     type: kou
-    text: 借財
+    text: 二　借財
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-535-p1-kou-3
     type: kou
-    text: 訴えの提起
+    text: 三　訴えの提起
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-535-p1-kou-4
     type: kou
-    text: 和解又は仲裁合意（仲裁法（平成十五年法律第百三十八号）第二条第一項に規定する仲裁合意をいう。）
+    text: 四　和解又は仲裁合意（仲裁法（平成十五年法律第百三十八号）第二条第一項に規定する仲裁合意をいう。）
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-535-p1-kou-5
     type: kou
-    text: 権利の放棄
+    text: 五　権利の放棄
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-535-p1-kou-6
     type: kou
-    text: その他裁判所の指定する行為
+    text: 六　その他裁判所の指定する行為
     modality: unspecified
     item_number: 6
 - number: 2
@@ -64,16 +64,16 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-535-p2-kou-1
     type: kou
-    text: 最高裁判所規則で定める額以下の価額を有するものに関するとき。
+    text: 一　最高裁判所規則で定める額以下の価額を有するものに関するとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-535-p2-kou-2
     type: kou
-    text: 前号に掲げるもののほか、裁判所が前項の許可を要しないものとしたものに関するとき。
+    text: 二　前号に掲げるもののほか、裁判所が前項の許可を要しないものとしたものに関するとき。
     modality: unspecified
     item_number: 2
 - number: 3

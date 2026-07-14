@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-10-2-14-p1-kou-1
     type: kou
-    text: 当該個人（未成年者である場合にあつては、その法定代理人を含む。次号において同じ。）に対する書面の送付
+    text: 一　当該個人（未成年者である場合にあつては、その法定代理人を含む。次号において同じ。）に対する書面の送付
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-10-2-14-p1-kou-2
     type: kou
-    text: 当該個人への訪問
+    text: 二　当該個人への訪問
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-10-2-14-p1-kou-3
     type: kou
-    text: 官公署に対する書面の送付その他の措置
+    text: 三　官公署に対する書面の送付その他の措置
     modality: unspecified
     item_number: 3
 cases: []

@@ -46,6 +46,10 @@ paragraphs:
     type: simple
     text: 車両等は、横断歩道等及びその手前の側端から前に三十メートル以内の道路の部分においては、第三十条第三号の規定に該当する場合のほか、その前方を進行している他の車両等（特定小型原動機付自転車等を除く。）の側方を通過してその前方に出てはならない。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-38-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第五号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

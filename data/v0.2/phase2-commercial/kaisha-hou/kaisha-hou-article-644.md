@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-644-p1-kou-1
     type: kou
-    text: 解散した場合（第六百四十一条第五号に掲げる事由によって解散した場合及び破産手続開始の決定により解散した場合であって当該破産手続が終了していない場合を除く。）
+    text: 一　解散した場合（第六百四十一条第五号に掲げる事由によって解散した場合及び破産手続開始の決定により解散した場合であって当該破産手続が終了していない場合を除く。）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-644-p1-kou-2
     type: kou
-    text: 設立の無効の訴えに係る請求を認容する判決が確定した場合
+    text: 二　設立の無効の訴えに係る請求を認容する判決が確定した場合
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-644-p1-kou-3
     type: kou
-    text: 設立の取消しの訴えに係る請求を認容する判決が確定した場合
+    text: 三　設立の取消しの訴えに係る請求を認容する判決が確定した場合
     modality: unspecified
     item_number: 3
 cases: []

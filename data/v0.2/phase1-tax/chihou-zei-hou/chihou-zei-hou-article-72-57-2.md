@@ -64,27 +64,27 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-72-57-2-p4-kou-1
     type: kou
-    text: 第一項の申立てを取り下げたとき。
+    text: 一　第一項の申立てを取り下げたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-57-2-p4-kou-2
     type: kou
-    text: 第十三条の二第一項各号のいずれかに該当する事実がある場合において、その者がその猶予に係る事業税額を猶予期間内に完納することができないと認められるとき。
+    text: 二　第十三条の二第一項各号のいずれかに該当する事実がある場合において、その者がその猶予に係る事業税額を猶予期間内に完納することができないと認められるとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-72-57-2-p4-kou-3
     type: kou
-    text: 前項において準用する第十六条第三項の規定による担保の提供又は変更その他担保を確保するため必要な行為に関する道府県知事の求めに応じないとき。
+    text: 三　前項において準用する第十六条第三項の規定による担保の提供又は変更その他担保を確保するため必要な行為に関する道府県知事の求めに応じないとき。
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-72-57-2-p4-kou-4
     type: kou
-    text: 新たにその猶予に係る事業税額以外の当該道府県に係る地方団体の徴収金を滞納したとき（道府県知事がやむを得ない理由があると認めるときを除く。）。
+    text: 四　新たにその猶予に係る事業税額以外の当該道府県に係る地方団体の徴収金を滞納したとき（道府県知事がやむを得ない理由があると認めるときを除く。）。
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-72-57-2-p4-kou-5
     type: kou
-    text: 徴収の猶予を受けた者の財産の状況その他の事情の変化によりその猶予を継続することが適当でないと認められるとき。
+    text: 五　徴収の猶予を受けた者の財産の状況その他の事情の変化によりその猶予を継続することが適当でないと認められるとき。
     modality: unspecified
     item_number: 5
 - number: 5

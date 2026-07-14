@@ -45,12 +45,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-7-p3-kou-1
     type: kou
-    text: 有形資産（次号に掲げるものを除く。）
+    text: 一　有形資産（次号に掲げるものを除く。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-7-p3-kou-2
     type: kou
-    text: 現金、預貯金、売掛金、貸付金、所得税法第二条第一項第十七号に規定する有価証券、法人税法第六十一条の五第一項に規定するデリバティブ取引に係る権利その他の金融資産として財務省令で定める資産
+    text: 二　現金、預貯金、売掛金、貸付金、所得税法第二条第一項第十七号に規定する有価証券、法人税法第六十一条の五第一項に規定するデリバティブ取引に係る権利その他の金融資産として財務省令で定める資産
     modality: unspecified
     item_number: 2
 - number: 4

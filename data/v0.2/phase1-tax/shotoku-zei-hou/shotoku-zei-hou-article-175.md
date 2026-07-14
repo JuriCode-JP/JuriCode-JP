@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-175-p1-kou-1
     type: kou
-    text: 前条第一号に掲げる利子等又は同条第三号から第八号までに掲げる給付補てん金、利息、利益若しくは差益　その金額に百分の十五の税率を乗じて計算した金額
+    text: 一　前条第一号に掲げる利子等又は同条第三号から第八号までに掲げる給付補てん金、利息、利益若しくは差益　その金額に百分の十五の税率を乗じて計算した金額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-175-p1-kou-2
     type: kou
-    text: 前条第二号に掲げる配当等又は同条第九号に掲げる利益の分配　その金額に百分の二十の税率を乗じて計算した金額
+    text: 二　前条第二号に掲げる配当等又は同条第九号に掲げる利益の分配　その金額に百分の二十の税率を乗じて計算した金額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-175-p1-kou-3
     type: kou
-    text: 前条第十号に掲げる賞金　その金額から政令で定める金額を控除した残額に百分の十の税率を乗じて計算した金額
+    text: 三　前条第十号に掲げる賞金　その金額から政令で定める金額を控除した残額に百分の十の税率を乗じて計算した金額
     modality: unspecified
     item_number: 3
 cases: []

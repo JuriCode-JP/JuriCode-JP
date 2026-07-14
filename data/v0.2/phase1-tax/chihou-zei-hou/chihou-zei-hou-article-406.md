@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-406-p1-kou-1
     type: kou
-    text: 国会議員及び地方団体の議会の議員
+    text: 一　国会議員及び地方団体の議会の議員
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-406-p1-kou-2
     type: kou
-    text: 農業委員会の委員
+    text: 二　農業委員会の委員
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-406-p1-kou-3
     type: kou
-    text: 固定資産評価審査委員会の委員
+    text: 三　固定資産評価審査委員会の委員
     modality: unspecified
     item_number: 3
 - number: 2

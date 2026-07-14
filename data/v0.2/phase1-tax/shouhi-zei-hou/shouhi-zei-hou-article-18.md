@@ -42,8 +42,8 @@ paragraphs:
     text: 前項に定めるもののほか、第一項の規定の適用を受ける個人事業者がその適用を受けないこととなつた場合の資産の譲渡等及び課税仕入れを行つた時期の特例その他同項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments:
 - effective_date: '2022-01-01'

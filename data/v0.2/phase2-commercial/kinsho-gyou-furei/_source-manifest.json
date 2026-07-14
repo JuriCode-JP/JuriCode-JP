@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\419M60000002052.xml",
   "source_xml_sha256": "3ccca4f3f3ddaf6ab52d87bfc0de84d9b37623eaf8797d469520e3b5c0e43e5a",
   "source_xml_bytes": 4376187,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:57+00:00",
+  "parsed_at": "2026-07-14T01:45:04+00:00",
   "version_date": "2007-08-06",
   "article_count": 555,
   "articles": [
@@ -1074,8 +1074,8 @@
       "article_id": "kinsho-gyou-furei-art-177",
       "article_number": "177",
       "filename": "kinsho-gyou-furei-article-177.md",
-      "ja_text_sha256": "47d41ce99617de6beb0a6310e08016a1b450250e905169f34817e3d02dd376d0",
-      "ja_text_bytes": 7593,
+      "ja_text_sha256": "8550ad0c837d05fcf9f6fb45505c573cbee2ed4fe68020854d7bfc140e8f864f",
+      "ja_text_bytes": 7587,
       "paragraph_count": 8
     },
     {

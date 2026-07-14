@@ -37,12 +37,12 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-117-2-p2-kou-1
     type: kou
-    text: 有価証券の売買の受託の制限に関する事項
+    text: 一　有価証券の売買の受託の制限に関する事項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-117-2-p2-kou-2
     type: kou
-    text: 特定上場有価証券の発行者が提供又は公表をすべき特定証券情報及び発行者情報の内容、提供又は公表の方法及び時期その他特定上場有価証券に係る情報の提供又は公表に関し必要な事項
+    text: 二　特定上場有価証券の発行者が提供又は公表をすべき特定証券情報及び発行者情報の内容、提供又は公表の方法及び時期その他特定上場有価証券に係る情報の提供又は公表に関し必要な事項
     modality: unspecified
     item_number: 2
 cases: []

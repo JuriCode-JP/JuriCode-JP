@@ -34,17 +34,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-72-5-p2-kou-1
     type: kou
-    text: 法第百八十条第五項に規定する届出をした者又は通知を受けた者の名称
+    text: 一　法第百八十条第五項に規定する届出をした者又は通知を受けた者の名称
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-72-5-p2-kou-2
     type: kou
-    text: 前号に規定する者の令第三百五条第一項第二号（外国法人が課税の特例の適用を受けるための手続等）に規定する納税地にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名
+    text: 二　前号に規定する者の令第三百五条第一項第二号（外国法人が課税の特例の適用を受けるための手続等）に規定する納税地にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-72-5-p2-kou-3
     type: kou
-    text: 法第百八十条第六項第一号の有効期限
+    text: 三　法第百八十条第六項第一号の有効期限
     modality: unspecified
     item_number: 3
 cases: []

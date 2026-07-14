@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-682-p1-kou-1
     type: kou
-    text: 組合の目的である事業の成功又はその成功の不能
+    text: 一　組合の目的である事業の成功又はその成功の不能
     modality: unspecified
     item_number: 1
   - id: minpou-art-682-p1-kou-2
     type: kou
-    text: 組合契約で定めた存続期間の満了
+    text: 二　組合契約で定めた存続期間の満了
     modality: unspecified
     item_number: 2
   - id: minpou-art-682-p1-kou-3
     type: kou
-    text: 組合契約で定めた解散の事由の発生
+    text: 三　組合契約で定めた解散の事由の発生
     modality: unspecified
     item_number: 3
   - id: minpou-art-682-p1-kou-4
     type: kou
-    text: 総組合員の同意
+    text: 四　総組合員の同意
     modality: unspecified
     item_number: 4
 cases: []

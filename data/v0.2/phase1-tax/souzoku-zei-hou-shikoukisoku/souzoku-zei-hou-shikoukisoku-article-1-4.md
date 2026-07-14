@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-1-4-p1-kou-1
     type: kou
-    text: 各信託の信託財産の種類及び課税価格に算入すべき価額
+    text: 一　各信託の信託財産の種類及び課税価格に算入すべき価額
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-1-4-p1-kou-2
     type: kou
-    text: 各信託の信託財産について法第二十一条の八の規定の適用がある場合には、同条の規定により控除すべき金額
+    text: 二　各信託の信託財産について法第二十一条の八の規定の適用がある場合には、同条の規定により控除すべき金額
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-1-4-p1-kou-3
     type: kou
-    text: 各信託に係る施行令第一条の十第八項に規定する信託財産責任負担債務の額
+    text: 三　各信託に係る施行令第一条の十第八項に規定する信託財産責任負担債務の額
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,12 +47,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-1-4-p2-kou-1
     type: kou
-    text: 前項第一号及び第三号に掲げる事項
+    text: 一　前項第一号及び第三号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-1-4-p2-kou-2
     type: kou
-    text: 各信託の信託財産について法第二十条の二の規定の適用がある場合には、同条の規定により控除すべき金額
+    text: 二　各信託の信託財産について法第二十条の二の規定の適用がある場合には、同条の規定により控除すべき金額
     modality: unspecified
     item_number: 2
 cases: []

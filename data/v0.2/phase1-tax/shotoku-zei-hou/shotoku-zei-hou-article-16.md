@@ -22,8 +22,8 @@ paragraphs:
     text: 国内に住所のほか居所を有する納税義務者（第十八条第一項（納税地の指定）の規定により納税地の指定を受けている納税義務者を除く。次項において同じ。）は、前条第一号の規定にかかわらず、その住所地に代え、その居所地を納税地とすることができる。
     modality: kanou_kenri
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false

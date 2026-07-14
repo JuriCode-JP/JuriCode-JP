@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-14-p1-kou-1
     type: kou
-    text: 登録番号及び登録年月日
+    text: 一　登録番号及び登録年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-14-p1-kou-2
     type: kou
-    text: 製造業者の氏名及び住所
+    text: 二　製造業者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-14-p1-kou-3
     type: kou
-    text: 製造所の名称及び所在地
+    text: 三　製造所の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-114-14-p1-kou-4
     type: kou
-    text: 当該製造所の医療機器責任技術者又は体外診断用医薬品製造管理者の氏名及び住所
+    text: 四　当該製造所の医療機器責任技術者又は体外診断用医薬品製造管理者の氏名及び住所
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-114-14-p1-kou-5
     type: kou
-    text: 法第二十三条の二の十四第十項ただし書第二号に該当する場合であつて、体外診断用医薬品製造管理者として薬剤師以外の技術者を置くときは、体外診断用医薬品製造管理者補佐薬剤師の氏名及び住所
+    text: 五　法第二十三条の二の十四第十項ただし書第二号に該当する場合であつて、体外診断用医薬品製造管理者として薬剤師以外の技術者を置くときは、体外診断用医薬品製造管理者補佐薬剤師の氏名及び住所
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-114-14-p1-kou-6
     type: kou
-    text: 当該製造業者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可の区分及び許可番号又は登録番号
+    text: 六　当該製造業者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可の区分及び許可番号又は登録番号
     modality: unspecified
     item_number: 6
 cases: []

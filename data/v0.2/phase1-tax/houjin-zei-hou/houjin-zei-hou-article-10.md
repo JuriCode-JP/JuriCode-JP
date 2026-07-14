@@ -32,17 +32,17 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-10-p2-kou-1
     type: kou
-    text: 第五十七条第一項（欠損金の繰越し）
+    text: 一　第五十七条第一項（欠損金の繰越し）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-10-p2-kou-2
     type: kou
-    text: 第五十九条（会社更生等による債務免除等があつた場合の欠損金の損金算入）
+    text: 二　第五十九条（会社更生等による債務免除等があつた場合の欠損金の損金算入）
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-10-p2-kou-3
     type: kou
-    text: 第八十条
+    text: 三　第八十条
     modality: unspecified
     item_number: 3
 - number: 3
@@ -65,27 +65,27 @@ paragraphs:
     modality: jogai
   - id: houjin-zei-hou-art-10-p4-kou-1
     type: kou
-    text: 第百四十二条第二項（恒久的施設帰属所得に係る所得の金額の計算）の規定により第五十七条の規定に準じて計算する場合における同条第一項の規定
+    text: 一　第百四十二条第二項（恒久的施設帰属所得に係る所得の金額の計算）の規定により第五十七条の規定に準じて計算する場合における同条第一項の規定
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-10-p4-kou-2
     type: kou
-    text: 第百四十二条第二項の規定により第五十九条の規定に準じて計算する場合における同条の規定
+    text: 二　第百四十二条第二項の規定により第五十九条の規定に準じて計算する場合における同条の規定
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-10-p4-kou-3
     type: kou
-    text: 第百四十二条の二第二項（還付金等の益金不算入）の規定
+    text: 三　第百四十二条の二第二項（還付金等の益金不算入）の規定
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-10-p4-kou-4
     type: kou
-    text: 第百四十四条の二第二項、第三項及び第八項（外国法人に係る外国税額の控除）の規定
+    text: 四　第百四十四条の二第二項、第三項及び第八項（外国法人に係る外国税額の控除）の規定
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-art-10-p4-kou-5
     type: kou
-    text: 第百四十四条の十三第一項（第一号に係る部分に限り、同条第九項又は第十一項において準用する場合を含む。）、第三項（同条第九項又は第十一項において準用する場合を含む。）、第六項（同条第十一項において準用する場合を含む。）及び第十二項の規定
+    text: 五　第百四十四条の十三第一項（第一号に係る部分に限り、同条第九項又は第十一項において準用する場合を含む。）、第三項（同条第九項又は第十一項において準用する場合を含む。）、第六項（同条第十一項において準用する場合を含む。）及び第十二項の規定
     modality: unspecified
     item_number: 5
 - number: 5

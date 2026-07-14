@@ -55,8 +55,8 @@ paragraphs:
     text: 前項の規定は、債務者が債務を履行しない場合において、同項に規定する第三者が相当の期間を定めて譲渡人への履行の催告をし、その期間内に履行がないときは、その債務者については、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

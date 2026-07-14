@@ -31,8 +31,8 @@ paragraphs:
     text: 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者がその法人又は人の業務に関して前項の違反行為をした場合には、その行為者を罰するほか、その法人又は人に対し、同項の罰金刑を科する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -43,8 +43,8 @@ paragraphs:
     text: 前項の規定により第一項の違反行為につき法人又は人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

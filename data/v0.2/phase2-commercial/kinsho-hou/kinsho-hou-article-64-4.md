@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-64-4-p1-kou-1
     type: kou
-    text: 第六十四条第三項第三号イ又はロに掲げる事項に変更があつたとき。
+    text: 一　第六十四条第三項第三号イ又はロに掲げる事項に変更があつたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-64-4-p1-kou-2
     type: kou
-    text: 第二十九条の四第一項第二号イに該当するおそれがあるものとして内閣府令で定める場合に該当することとなつたとき。
+    text: 二　第二十九条の四第一項第二号イに該当するおそれがあるものとして内閣府令で定める場合に該当することとなつたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-64-4-p1-kou-3
     type: kou
-    text: 第二十九条の四第一項第二号ロからリまでのいずれかに該当することとなつたとき。
+    text: 三　第二十九条の四第一項第二号ロからリまでのいずれかに該当することとなつたとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-64-4-p1-kou-4
     type: kou
-    text: 退職その他の理由により外務員の職務を行わないこととなつたとき。
+    text: 四　退職その他の理由により外務員の職務を行わないこととなつたとき。
     modality: unspecified
     item_number: 4
 cases: []

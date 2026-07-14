@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の場合には、同項の株主に対する株式会社の義務の履行を行う場所は、株式会社の住所地とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

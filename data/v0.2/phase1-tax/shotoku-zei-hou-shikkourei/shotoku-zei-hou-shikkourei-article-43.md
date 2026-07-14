@@ -26,12 +26,12 @@ paragraphs:
     - 次条
   - id: shotoku-zei-hou-shikkourei-art-43-p1-kou-1
     type: kou
-    text: その者の氏名又は住所の変更をした場合（住所の変更については、国内における住所の変更及び国外の場所から従前の住所地以外の国内の場所への住所の変更に限る。）
+    text: 一　その者の氏名又は住所の変更をした場合（住所の変更については、国内における住所の変更及び国外の場所から従前の住所地以外の国内の場所への住所の変更に限る。）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-43-p1-kou-2
     type: kou
-    text: その者の個人番号の変更をした場合
+    text: 二　その者の個人番号の変更をした場合
     modality: unspecified
     item_number: 2
 - number: 2
@@ -56,22 +56,22 @@ paragraphs:
     - 次項
   - id: shotoku-zei-hou-shikkourei-art-43-p3-kou-1
     type: kou
-    text: 法律の規定に基づく措置として当該特定業務の停止を命ぜられたこと。
+    text: 一　法律の規定に基づく措置として当該特定業務の停止を命ぜられたこと。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-43-p3-kou-2
     type: kou
-    text: 当該特定業務を廃止したこと。
+    text: 二　当該特定業務を廃止したこと。
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-43-p3-kou-3
     type: kou
-    text: 当該特定業務に係る免許、認可、承認又は登録が取り消されたこと（既に前号に掲げる事由が生じている場合を除く。）。
+    text: 三　当該特定業務に係る免許、認可、承認又は登録が取り消されたこと（既に前号に掲げる事由が生じている場合を除く。）。
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-43-p3-kou-4
     type: kou
-    text: 当該特定業務を行う特定営業所等に係る特定金融機関が解散したこと（既に前二号に掲げる事由が生じている場合を除く。）。
+    text: 四　当該特定業務を行う特定営業所等に係る特定金融機関が解散したこと（既に前二号に掲げる事由が生じている場合を除く。）。
     modality: unspecified
     item_number: 4
 - number: 4
@@ -102,8 +102,8 @@ paragraphs:
     text: 前項後段の規定の適用を受ける個人は、同項に規定する移管があつた日以後、遅滞なく、法第十条及びこの節に定めるところにより、同項後段の規定により変更があつたものとみなされる変更後の最高限度額につき、非課税貯蓄限度額変更申告書を提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: shotoku-zei-hou-shikkourei-art-43-p5-kou
     type: kou_dan
     text: この場合において、当該申告書には、この項の規定の適用を受けて提出するものである旨を表示しなければならない。

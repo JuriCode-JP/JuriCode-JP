@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-24-6-p1-kou-1
     type: kou
-    text: 貨物取扱施設、航空機部品の整備及び保管のための施設、整備用資材の保管のための施設、地上作業用機材の整備のための施設、車庫、変電所及び配電所
+    text: 一　貨物取扱施設、航空機部品の整備及び保管のための施設、整備用資材の保管のための施設、地上作業用機材の整備のための施設、車庫、変電所及び配電所
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-24-6-p1-kou-2
     type: kou
-    text: 旅客カウンター、チケットロビー、キャッシャールーム、遺失物保管室及び手荷物取扱施設
+    text: 二　旅客カウンター、チケットロビー、キャッシャールーム、遺失物保管室及び手荷物取扱施設
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-24-6-p1-kou-3
     type: kou
-    text: 待合室、ロビー及び通路、階段等無償で旅客又は一般公衆の用に供する施設（政令第五十六条の四十三第二項に規定する消防用設備等又は同条第三項に規定する防災に関する施設若しくは設備に係る部分を除く。）
+    text: 三　待合室、ロビー及び通路、階段等無償で旅客又は一般公衆の用に供する施設（政令第五十六条の四十三第二項に規定する消防用設備等又は同条第三項に規定する防災に関する施設若しくは設備に係る部分を除く。）
     modality: unspecified
     item_number: 3
 - number: 2

@@ -33,8 +33,8 @@ paragraphs:
     text: 税務署長等は、前項の規定により保証人に同項の国税を納付させる場合には、政令で定めるところにより、その者に対し、納付させる金額、納付の期限、納付場所その他必要な事項を記載した納付通知書による告知をしなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kokuzei-tsuusoku-hou-art-52-p2-kou
     type: kou_dan
     text: この場合においては、その者の住所又は居所の所在地を所轄する税務署長に対し、その旨を通知しなければならない。
@@ -77,8 +77,8 @@ paragraphs:
     text: 前項の規定により保証人に対して滞納処分を執行する場合には、税務署長等は、同項の担保を提供した者の財産を換価に付した後でなければ、その保証人の財産を換価に付することができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

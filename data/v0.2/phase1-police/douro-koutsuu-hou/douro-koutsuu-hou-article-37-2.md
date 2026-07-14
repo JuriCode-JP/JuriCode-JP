@@ -50,6 +50,10 @@ paragraphs:
     override_flag: true
     override_target:
     - 第三十六条
+  - id: douro-koutsuu-hou-art-37-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第六号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

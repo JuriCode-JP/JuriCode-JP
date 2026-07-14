@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-287-p1-kou-1
     type: kou
-    text: 一部事務組合の名称
+    text: 一　一部事務組合の名称
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-287-p1-kou-2
     type: kou
-    text: 一部事務組合の構成団体
+    text: 二　一部事務組合の構成団体
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-287-p1-kou-3
     type: kou
-    text: 一部事務組合の共同処理する事務
+    text: 三　一部事務組合の共同処理する事務
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-287-p1-kou-4
     type: kou
-    text: 一部事務組合の事務所の位置
+    text: 四　一部事務組合の事務所の位置
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-287-p1-kou-5
     type: kou
-    text: 一部事務組合の議会の組織及び議員の選挙の方法
+    text: 五　一部事務組合の議会の組織及び議員の選挙の方法
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-287-p1-kou-6
     type: kou
-    text: 一部事務組合の執行機関の組織及び選任の方法
+    text: 六　一部事務組合の執行機関の組織及び選任の方法
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-287-p1-kou-7
     type: kou
-    text: 一部事務組合の経費の支弁の方法
+    text: 七　一部事務組合の経費の支弁の方法
     modality: unspecified
     item_number: 7
 - number: 2

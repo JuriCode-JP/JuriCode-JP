@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の場合において、相続税法第一条の四の規定の適用については、同項に規定する認定医療法人は日本国籍を有するものと、当該認定医療法人の住所はその主たる事務所の所在地にあるものと、それぞれみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

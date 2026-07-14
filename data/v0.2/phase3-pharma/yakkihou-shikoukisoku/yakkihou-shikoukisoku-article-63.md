@@ -34,52 +34,52 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-63-p2-kou-1
     type: kou
-    text: 当該医療用医薬品又は成分同一物（以下この項において「当該医療用医薬品等」という。）の名称
+    text: 一　当該医療用医薬品又は成分同一物（以下この項において「当該医療用医薬品等」という。）の名称
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-63-p2-kou-2
     type: kou
-    text: 承認年月日及び承認番号（成分同一物にあつては、当該外国において製造又は販売することが認められた年月日）
+    text: 二　承認年月日及び承認番号（成分同一物にあつては、当該外国において製造又は販売することが認められた年月日）
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-63-p2-kou-3
     type: kou
-    text: 調査期間及び調査症例数
+    text: 三　調査期間及び調査症例数
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-63-p2-kou-4
     type: kou
-    text: 当該医療用医薬品等の出荷数量
+    text: 四　当該医療用医薬品等の出荷数量
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-63-p2-kou-5
     type: kou
-    text: 調査結果の概要及び解析結果
+    text: 五　調査結果の概要及び解析結果
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-63-p2-kou-6
     type: kou
-    text: 当該医療用医薬品等の副作用等の種類別発現状況
+    text: 六　当該医療用医薬品等の副作用等の種類別発現状況
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-63-p2-kou-7
     type: kou
-    text: 当該医療用医薬品等の副作用等の発現症例一覧
+    text: 七　当該医療用医薬品等の副作用等の発現症例一覧
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-63-p2-kou-8
     type: kou
-    text: 当該医療用医薬品等による保健衛生上の危害の発生若しくは拡大の防止又は当該医療用医薬品等の適正な使用のために行われた措置
+    text: 八　当該医療用医薬品等による保健衛生上の危害の発生若しくは拡大の防止又は当該医療用医薬品等の適正な使用のために行われた措置
     modality: unspecified
     item_number: 8
   - id: yakkihou-shikoukisoku-art-63-p2-kou-9
     type: kou
-    text: 当該医療用医薬品等の注意事項等情報
+    text: 九　当該医療用医薬品等の注意事項等情報
     modality: unspecified
     item_number: 9
   - id: yakkihou-shikoukisoku-art-63-p2-kou-10
     type: kou
-    text: 当該医療用医薬品等の品質、有効性及び安全性に関する事項その他当該医療用医薬品の適正な使用のために必要な情報
+    text: 十　当該医療用医薬品等の品質、有効性及び安全性に関する事項その他当該医療用医薬品の適正な使用のために必要な情報
     modality: unspecified
     item_number: 10
 - number: 3

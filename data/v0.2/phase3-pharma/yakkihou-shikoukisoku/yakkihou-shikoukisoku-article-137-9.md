@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-9-p2-kou-1
     type: kou
-    text: 製造所の名称及び所在地
+    text: 一　製造所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-9-p2-kou-2
     type: kou
-    text: 再生医療等製品製造管理者の住所及び資格
+    text: 二　再生医療等製品製造管理者の住所及び資格
     modality: unspecified
     item_number: 2
 - number: 3
@@ -51,32 +51,32 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-137-9-p3-kou-1
     type: kou
-    text: 申請者が法人であるときは、登記事項証明書
+    text: 一　申請者が法人であるときは、登記事項証明書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-9-p3-kou-2
     type: kou
-    text: 申請者以外の者がその再生医療等製品製造管理者であるときは、雇用契約書の写しその他申請者のその再生医療等製品製造管理者に対する使用関係を証する書類
+    text: 二　申請者以外の者がその再生医療等製品製造管理者であるときは、雇用契約書の写しその他申請者のその再生医療等製品製造管理者に対する使用関係を証する書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-9-p3-kou-3
     type: kou
-    text: 再生医療等製品製造管理者が法第二十三条の三十四第五項の承認を受けた者であることを証する書類
+    text: 三　再生医療等製品製造管理者が法第二十三条の三十四第五項の承認を受けた者であることを証する書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-137-9-p3-kou-4
     type: kou
-    text: 製造所の構造設備に関する書類
+    text: 四　製造所の構造設備に関する書類
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-137-9-p3-kou-5
     type: kou
-    text: 製造しようとする品目の一覧表及び製造工程に関する書類
+    text: 五　製造しようとする品目の一覧表及び製造工程に関する書類
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-137-9-p3-kou-6
     type: kou
-    text: 申請者が他の製造業の許可若しくは登録又は再生医療等の安全性の確保等に関する法律（平成二十五年法律第八十五号。以下「再生医療等安全性確保法」という。）第三十五条第一項の特定細胞加工物等の製造の許可を受けている場合にあつては、当該製造業の許可証若しくは登録証又は当該特定細胞加工物等の製造の許可証の写し
+    text: 六　申請者が他の製造業の許可若しくは登録又は再生医療等の安全性の確保等に関する法律（平成二十五年法律第八十五号。以下「再生医療等安全性確保法」という。）第三十五条第一項の特定細胞加工物等の製造の許可を受けている場合にあつては、当該製造業の許可証若しくは登録証又は当該特定細胞加工物等の製造の許可証の写し
     modality: unspecified
     item_number: 6
 - number: 4

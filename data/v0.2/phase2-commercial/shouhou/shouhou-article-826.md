@@ -23,27 +23,27 @@ paragraphs:
     modality: jogai
   - id: shouhou-art-826-p1-kou-1
     type: kou
-    text: 保険の目的物の性質若しくは瑕疵又はその通常の損耗によって生じた損害
+    text: 一　保険の目的物の性質若しくは瑕疵又はその通常の損耗によって生じた損害
     modality: unspecified
     item_number: 1
   - id: shouhou-art-826-p1-kou-2
     type: kou
-    text: 保険契約者又は被保険者の故意又は重大な過失（責任保険契約にあっては、故意）によって生じた損害
+    text: 二　保険契約者又は被保険者の故意又は重大な過失（責任保険契約にあっては、故意）によって生じた損害
     modality: unspecified
     item_number: 2
   - id: shouhou-art-826-p1-kou-3
     type: kou
-    text: 戦争その他の変乱によって生じた損害
+    text: 三　戦争その他の変乱によって生じた損害
     modality: unspecified
     item_number: 3
   - id: shouhou-art-826-p1-kou-4
     type: kou
-    text: 船舶保険契約にあっては、発航の当時第七百三十九条第一項各号（第七百七条及び第七百五十六条第一項において準用する場合を含む。）に掲げる事項を欠いたことにより生じた損害
+    text: 四　船舶保険契約にあっては、発航の当時第七百三十九条第一項各号（第七百七条及び第七百五十六条第一項において準用する場合を含む。）に掲げる事項を欠いたことにより生じた損害
     modality: unspecified
     item_number: 4
   - id: shouhou-art-826-p1-kou-5
     type: kou
-    text: 貨物保険契約にあっては、貨物の荷造りの不完全によって生じた損害
+    text: 五　貨物保険契約にあっては、貨物の荷造りの不完全によって生じた損害
     modality: unspecified
     item_number: 5
 cases: []

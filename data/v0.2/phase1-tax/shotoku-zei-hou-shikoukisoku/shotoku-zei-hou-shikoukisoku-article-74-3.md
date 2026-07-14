@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-74-3-p1-kou-1
     type: kou
-    text: 法第百九十五条の二第一項の規定による申告書を提出する者の氏名及び住所
+    text: 一　法第百九十五条の二第一項の規定による申告書を提出する者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-74-3-p1-kou-2
     type: kou
-    text: 控除対象配偶者又は法第八十三条の二第一項（配偶者特別控除）に規定する生計を一にする配偶者の生年月日及び住所
+    text: 二　控除対象配偶者又は法第八十三条の二第一項（配偶者特別控除）に規定する生計を一にする配偶者の生年月日及び住所
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-74-3-p1-kou-3
     type: kou
-    text: 控除対象配偶者又は前号の配偶者の合計所得金額又はその見積額に応じ、法第八十三条（配偶者控除）又は第八十三条の二の規定に準じて計算した配偶者控除の額又は配偶者特別控除の額に相当する金額及びその計算の基礎
+    text: 三　控除対象配偶者又は前号の配偶者の合計所得金額又はその見積額に応じ、法第八十三条（配偶者控除）又は第八十三条の二の規定に準じて計算した配偶者控除の額又は配偶者特別控除の額に相当する金額及びその計算の基礎
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-74-3-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2

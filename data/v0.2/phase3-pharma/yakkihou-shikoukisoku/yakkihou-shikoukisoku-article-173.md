@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-173-p1-kou-1
     type: kou
-    text: 品名
+    text: 一　品名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-173-p1-kou-2
     type: kou
-    text: 数量
+    text: 二　数量
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-173-p1-kou-3
     type: kou
-    text: 製造番号又は製造記号
+    text: 三　製造番号又は製造記号
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-173-p1-kou-4
     type: kou
-    text: 購入、譲受け、販売、授与若しくは貸与又は電気通信回線を通じた提供の年月日
+    text: 四　購入、譲受け、販売、授与若しくは貸与又は電気通信回線を通じた提供の年月日
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-173-p1-kou-5
     type: kou
-    text: 購入者等若しくは貸与された者又は電気通信回線を通じて提供を受けた者の氏名及び住所
+    text: 五　購入者等若しくは貸与された者又は電気通信回線を通じて提供を受けた者の氏名及び住所
     modality: unspecified
     item_number: 5
 - number: 2
@@ -59,22 +59,22 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-173-p2-kou-1
     type: kou
-    text: 品名
+    text: 一　品名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-173-p2-kou-2
     type: kou
-    text: 数量
+    text: 二　数量
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-173-p2-kou-3
     type: kou
-    text: 販売、授与若しくは貸与又は電気通信回線を通じた提供の年月日
+    text: 三　販売、授与若しくは貸与又は電気通信回線を通じた提供の年月日
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-173-p2-kou-4
     type: kou
-    text: 販売、授与若しくは貸与又は電気通信回線を通じた提供を受けた者の氏名及び住所
+    text: 四　販売、授与若しくは貸与又は電気通信回線を通じた提供を受けた者の氏名及び住所
     modality: unspecified
     item_number: 4
 - number: 3

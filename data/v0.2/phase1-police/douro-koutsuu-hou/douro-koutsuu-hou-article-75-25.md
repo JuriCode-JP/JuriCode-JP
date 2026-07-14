@@ -50,6 +50,10 @@ paragraphs:
     type: simple
     text: 公安委員会は、この章の規定の施行のため必要があると認めるときは、官庁、公共団体その他の者に照会し、又は協力を求めることができる。
     modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-75-25-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条の二の三第三号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

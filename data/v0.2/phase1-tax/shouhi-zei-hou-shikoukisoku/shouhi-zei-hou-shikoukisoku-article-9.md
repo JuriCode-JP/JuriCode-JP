@@ -25,42 +25,42 @@ paragraphs:
     - 同項
   - id: shouhi-zei-hou-shikoukisoku-art-9-p1-kou-1
     type: kou
-    text: 申請者の氏名等、住所若しくは居所又は本店若しくは主たる事務所の所在地（以下この章において「住所等」という。）及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名等及び住所等）
+    text: 一　申請者の氏名等、住所若しくは居所又は本店若しくは主たる事務所の所在地（以下この章において「住所等」という。）及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名等及び住所等）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-9-p1-kou-2
     type: kou
-    text: 当該物品の所在場所
+    text: 二　当該物品の所在場所
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-9-p1-kou-3
     type: kou
-    text: 当該物品の購入の年月日
+    text: 三　当該物品の購入の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-9-p1-kou-4
     type: kou
-    text: 当該物品の品名並びに品名ごとの数量及び価額
+    text: 四　当該物品の品名並びに品名ごとの数量及び価額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-9-p1-kou-5
     type: kou
-    text: 当該物品を購入した輸出物品販売場を経営する事業者の氏名又は名称及び当該輸出物品販売場の所在地
+    text: 五　当該物品を購入した輸出物品販売場を経営する事業者の氏名又は名称及び当該輸出物品販売場の所在地
     modality: unspecified
     item_number: 5
   - id: shouhi-zei-hou-shikoukisoku-art-9-p1-kou-6
     type: kou
-    text: 当該物品の法第八条第四項に規定する譲渡又は譲受けに係る者の氏名又は名称及び住所等
+    text: 六　当該物品の法第八条第四項に規定する譲渡又は譲受けに係る者の氏名又は名称及び住所等
     modality: unspecified
     item_number: 6
   - id: shouhi-zei-hou-shikoukisoku-art-9-p1-kou-7
     type: kou
-    text: 前号の譲渡又は譲受けの理由
+    text: 七　前号の譲渡又は譲受けの理由
     modality: unspecified
     item_number: 7
   - id: shouhi-zei-hou-shikoukisoku-art-9-p1-kou-8
     type: kou
-    text: その他参考となるべき事項
+    text: 八　その他参考となるべき事項
     modality: unspecified
     item_number: 8
 cases: []

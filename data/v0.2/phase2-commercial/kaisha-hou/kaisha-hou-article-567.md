@@ -26,12 +26,12 @@ paragraphs:
     - 第五百五十四条
   - id: kaisha-hou-art-567-p1-kou-1
     type: kou
-    text: 出席した議決権者の過半数の同意
+    text: 一　出席した議決権者の過半数の同意
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-567-p1-kou-2
     type: kou
-    text: 議決権者の議決権の総額の三分の二以上の議決権を有する者の同意
+    text: 二　議決権者の議決権の総額の三分の二以上の議決権を有する者の同意
     modality: unspecified
     item_number: 2
 - number: 2

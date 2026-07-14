@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-52-3-2-p1-kou-1
     type: kou
-    text: 原子力発電施設の用に供する設備
+    text: 一　原子力発電施設の用に供する設備
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-52-3-2-p1-kou-2
     type: kou
-    text: 発電用施設周辺地域整備法施行令第三条各号に規定する施設の用に供する設備
+    text: 二　発電用施設周辺地域整備法施行令第三条各号に規定する施設の用に供する設備
     modality: unspecified
     item_number: 2
 cases: []

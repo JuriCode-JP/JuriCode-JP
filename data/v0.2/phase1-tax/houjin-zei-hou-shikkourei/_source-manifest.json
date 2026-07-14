@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\340CO0000000097.xml",
   "source_xml_sha256": "d727e349824300a82bbec048afe5f1357561e3ffa2839cc45c73eb3d000cc946",
   "source_xml_bytes": 6124217,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:16+00:00",
+  "parsed_at": "2026-07-14T01:44:20+00:00",
   "version_date": "1965-03-31",
   "article_count": 459,
   "articles": [
@@ -1018,16 +1018,16 @@
       "article_id": "houjin-zei-hou-shikkourei-art-138",
       "article_number": "138",
       "filename": "houjin-zei-hou-shikkourei-article-138.md",
-      "ja_text_sha256": "afd808cd9a4846e0eb668a31252de57e8e2f3ba6e22d6b286a941a566b14c386",
-      "ja_text_bytes": 8980,
+      "ja_text_sha256": "beab1b617581fd52f0266cff076984c2295bda2099bcc07ff351a5e5c1f2b975",
+      "ja_text_bytes": 8977,
       "paragraph_count": 4
     },
     {
       "article_id": "houjin-zei-hou-shikkourei-art-139-10",
       "article_number": "139-10",
       "filename": "houjin-zei-hou-shikkourei-article-139-10.md",
-      "ja_text_sha256": "18f5f9a7bd559bbb4d8b7600070d542f859a124bf9b0c6c3755e520861e599c4",
-      "ja_text_bytes": 7982,
+      "ja_text_sha256": "442f124049092cb518ece33a4abca7bfae02334433a18f49887b558ea7c1b8e2",
+      "ja_text_bytes": 7976,
       "paragraph_count": 2
     },
     {
@@ -1586,8 +1586,8 @@
       "article_id": "houjin-zei-hou-shikkourei-art-155-19",
       "article_number": "155-19",
       "filename": "houjin-zei-hou-shikkourei-article-155-19.md",
-      "ja_text_sha256": "bfd28ad85d2444e8293eea8d204f315f223f6def23215c2fae10f8b88a73da1e",
-      "ja_text_bytes": 6661,
+      "ja_text_sha256": "4c1cab053fcd8f80c3533c23bb5aa426a50ec560a1da62bf8db7c9c08853dfd4",
+      "ja_text_bytes": 6652,
       "paragraph_count": 5
     },
     {

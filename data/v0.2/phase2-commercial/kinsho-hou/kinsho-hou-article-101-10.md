@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-101-10-p1-kou-1
     type: kou
-    text: 組織変更後株式会社金融商品取引所の商号
+    text: 一　組織変更後株式会社金融商品取引所の商号
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-101-10-p1-kou-2
     type: kou
-    text: 前条各号に掲げる事項
+    text: 二　前条各号に掲げる事項
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-101-10-p1-kou-3
     type: kou
-    text: 金銭の払込みをすべきときは、払込みの取扱いの場所
+    text: 三　金銭の払込みをすべきときは、払込みの取扱いの場所
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-101-10-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、内閣府令で定める事項
+    text: 四　前三号に掲げるもののほか、内閣府令で定める事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,12 +52,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-101-10-p2-kou-1
     type: kou
-    text: 申込みをする者の氏名又は名称及び住所
+    text: 一　申込みをする者の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-101-10-p2-kou-2
     type: kou
-    text: 引き受けようとする組織変更時発行株式の数
+    text: 二　引き受けようとする組織変更時発行株式の数
     modality: unspecified
     item_number: 2
 - number: 3
@@ -70,8 +70,8 @@ paragraphs:
     text: 前項の申込みをする者は、同項の書面の交付に代えて、政令で定めるところにより、会員金融商品取引所の承諾を得て、同項の書面に記載すべき事項を電磁的方法により提供することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kinsho-hou-art-101-10-p3-kou
     type: kou_dan
     text: この場合において、当該申込みをした者は、同項の書面を交付したものとみなす。

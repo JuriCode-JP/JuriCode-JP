@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: kokuzei-tsuusoku-hou-art-115-p1-kou-1
     type: kou
-    text: 国税不服審判所長又は国税庁長官に対して審査請求がされた日の翌日から起算して三月を経過しても裁決がないとき。
+    text: 一　国税不服審判所長又は国税庁長官に対して審査請求がされた日の翌日から起算して三月を経過しても裁決がないとき。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-115-p1-kou-2
     type: kou
-    text: 更正決定等の取消しを求める訴えを提起した者が、その訴訟の係属している間に当該更正決定等に係る国税の課税標準等又は税額等についてされた他の更正決定等の取消しを求めようとするとき。
+    text: 二　更正決定等の取消しを求める訴えを提起した者が、その訴訟の係属している間に当該更正決定等に係る国税の課税標準等又は税額等についてされた他の更正決定等の取消しを求めようとするとき。
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-115-p1-kou-3
     type: kou
-    text: 審査請求についての裁決を経ることにより生ずる著しい損害を避けるため緊急の必要があるとき、その他その裁決を経ないことにつき正当な理由があるとき。
+    text: 三　審査請求についての裁決を経ることにより生ずる著しい損害を避けるため緊急の必要があるとき、その他その裁決を経ないことにつき正当な理由があるとき。
     modality: unspecified
     item_number: 3
 - number: 2

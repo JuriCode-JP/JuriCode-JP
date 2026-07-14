@@ -45,27 +45,27 @@ paragraphs:
     - 次条
   - id: chihou-jichi-hou-art-252-27-p3-kou-1
     type: kou
-    text: 第二百五十二条の三十九第一項に規定する普通地方公共団体　第七十五条第一項の請求
+    text: 一　第二百五十二条の三十九第一項に規定する普通地方公共団体　第七十五条第一項の請求
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-27-p3-kou-2
     type: kou
-    text: 第二百五十二条の四十第一項に規定する普通地方公共団体　第九十八条第二項の請求
+    text: 二　第二百五十二条の四十第一項に規定する普通地方公共団体　第九十八条第二項の請求
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-252-27-p3-kou-3
     type: kou
-    text: 第二百五十二条の四十一第一項に規定する普通地方公共団体　第百九十九条第六項の要求
+    text: 三　第二百五十二条の四十一第一項に規定する普通地方公共団体　第百九十九条第六項の要求
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-252-27-p3-kou-4
     type: kou
-    text: 第二百五十二条の四十二第一項に規定する普通地方公共団体　第百九十九条第七項の要求
+    text: 四　第二百五十二条の四十二第一項に規定する普通地方公共団体　第百九十九条第七項の要求
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-252-27-p3-kou-5
     type: kou
-    text: 第二百五十二条の四十三第一項に規定する普通地方公共団体　第二百四十二条第一項の請求
+    text: 五　第二百五十二条の四十三第一項に規定する普通地方公共団体　第二百四十二条第一項の請求
     modality: unspecified
     item_number: 5
 cases: []

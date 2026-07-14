@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-1
     type: kou
-    text: 農業協同組合連合会又は農事組合法人（農業協同組合法第七十二条の十第一項第一号に規定する事業を行う農事組合法人に限る。）
+    text: 一　農業協同組合連合会又は農事組合法人（農業協同組合法第七十二条の十第一項第一号に規定する事業を行う農事組合法人に限る。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-2
     type: kou
-    text: 漁業協同組合又は漁業協同組合連合会
+    text: 二　漁業協同組合又は漁業協同組合連合会
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-3
     type: kou
-    text: 水産加工業協同組合又は水産加工業協同組合連合会
+    text: 三　水産加工業協同組合又は水産加工業協同組合連合会
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-4
     type: kou
-    text: 森林組合又は森林組合連合会
+    text: 四　森林組合又は森林組合連合会
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-52-2-2-p1-kou-5
     type: kou
-    text: 協業組合又は出資組合である商工組合
+    text: 五　協業組合又は出資組合である商工組合
     modality: unspecified
     item_number: 5
 - number: 2

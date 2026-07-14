@@ -25,32 +25,32 @@ paragraphs:
     - 前条
   - id: houjin-zei-hou-shikkourei-art-57-p1-kou-1
     type: kou
-    text: 当該資産の材質又は製作方法がこれと種類及び構造を同じくする他の減価償却資産の通常の材質又は製作方法と著しく異なることにより、その使用可能期間が法定耐用年数に比して著しく短いこと。
+    text: 一　当該資産の材質又は製作方法がこれと種類及び構造を同じくする他の減価償却資産の通常の材質又は製作方法と著しく異なることにより、その使用可能期間が法定耐用年数に比して著しく短いこと。
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-57-p1-kou-2
     type: kou
-    text: 当該資産の存する地盤が隆起し、又は沈下したことにより、その使用可能期間が法定耐用年数に比して著しく短いこととなつたこと。
+    text: 二　当該資産の存する地盤が隆起し、又は沈下したことにより、その使用可能期間が法定耐用年数に比して著しく短いこととなつたこと。
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-57-p1-kou-3
     type: kou
-    text: 当該資産が陳腐化したことにより、その使用可能期間が法定耐用年数に比して著しく短いこととなつたこと。
+    text: 三　当該資産が陳腐化したことにより、その使用可能期間が法定耐用年数に比して著しく短いこととなつたこと。
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikkourei-art-57-p1-kou-4
     type: kou
-    text: 当該資産がその使用される場所の状況に基因して著しく腐食したことにより、その使用可能期間が法定耐用年数に比して著しく短いこととなつたこと。
+    text: 四　当該資産がその使用される場所の状況に基因して著しく腐食したことにより、その使用可能期間が法定耐用年数に比して著しく短いこととなつたこと。
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikkourei-art-57-p1-kou-5
     type: kou
-    text: 当該資産が通常の修理又は手入れをしなかつたことに基因して著しく損耗したことにより、その使用可能期間が法定耐用年数に比して著しく短いこととなつたこと。
+    text: 五　当該資産が通常の修理又は手入れをしなかつたことに基因して著しく損耗したことにより、その使用可能期間が法定耐用年数に比して著しく短いこととなつたこと。
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikkourei-art-57-p1-kou-6
     type: kou
-    text: 前各号に掲げる事由以外の事由で財務省令で定めるものにより、当該資産の使用可能期間が法定耐用年数に比して著しく短いこと又は短いこととなつたこと。
+    text: 六　前各号に掲げる事由以外の事由で財務省令で定めるものにより、当該資産の使用可能期間が法定耐用年数に比して著しく短いこと又は短いこととなつたこと。
     modality: unspecified
     item_number: 6
 - number: 2
@@ -63,8 +63,8 @@ paragraphs:
     text: 前項の承認を受けようとする内国法人は、同項の規定の適用を受けようとする減価償却資産の種類及び名称、その所在する場所、その使用可能期間、その未経過使用可能期間その他財務省令で定める事項を記載した申請書に当該資産が前項各号に掲げる事由のいずれかに該当することを証する書類を添付し、納税地の所轄税務署長を経由して、これを納税地の所轄国税局長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -158,8 +158,8 @@ paragraphs:
     text: 内国法人の有する第四十八条の三第二項各号（適格分社型分割等があつた場合の減価償却資産の償却の方法）に掲げる減価償却資産につき当該各号に定める償却の額がある場合には、当該減価償却資産に係る前項の規定の適用については、当該償却の額に相当する金額は、当該減価償却資産についてした同項に規定する償却の額に含まれるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 11
   has_proviso: false
   has_items: false

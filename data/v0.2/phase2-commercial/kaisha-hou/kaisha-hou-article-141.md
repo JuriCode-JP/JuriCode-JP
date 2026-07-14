@@ -62,9 +62,9 @@ paragraphs:
     text: 前項の譲渡等承認請求者が同項の期間内に同項の規定による供託をしなかったときは、株券発行会社は、前条第一項第二号の対象株式の売買契約を解除することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

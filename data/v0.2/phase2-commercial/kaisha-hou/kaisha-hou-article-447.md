@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-447-p1-kou-1
     type: kou
-    text: 減少する資本金の額
+    text: 一　減少する資本金の額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-447-p1-kou-2
     type: kou
-    text: 減少する資本金の額の全部又は一部を準備金とするときは、その旨及び準備金とする額
+    text: 二　減少する資本金の額の全部又は一部を準備金とするときは、その旨及び準備金とする額
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-447-p1-kou-3
     type: kou
-    text: 資本金の額の減少がその効力を生ずる日
+    text: 三　資本金の額の減少がその効力を生ずる日
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項第一号の額は、同項第三号の日における資本金の額を超えてはならない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

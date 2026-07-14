@@ -32,6 +32,10 @@ paragraphs:
     modality: gimu_negative
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-51-15-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百十七条の四第一項第一号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

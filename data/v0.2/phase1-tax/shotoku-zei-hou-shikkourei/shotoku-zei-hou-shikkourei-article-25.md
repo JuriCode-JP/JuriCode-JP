@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-25-p1-kou-1
     type: kou
-    text: 貴石、半貴石、貴金属、真珠及びこれらの製品、べつこう製品、さんご製品、こはく製品、ぞうげ製品並びに七宝製品
+    text: 一　貴石、半貴石、貴金属、真珠及びこれらの製品、べつこう製品、さんご製品、こはく製品、ぞうげ製品並びに七宝製品
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-25-p1-kou-2
     type: kou
-    text: 書画、こつとう及び美術工芸品
+    text: 二　書画、こつとう及び美術工芸品
     modality: unspecified
     item_number: 2
 cases: []

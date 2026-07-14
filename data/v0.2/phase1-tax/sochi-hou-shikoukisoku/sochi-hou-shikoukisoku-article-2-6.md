@@ -22,8 +22,8 @@ paragraphs:
     text: 施行令第二条の五第二項に規定する財務省令で定める取得勧誘は、同項の受益権の募集に係る金融商品取引法第二条第三項に規定する取得勧誘（以下この項において「取得勧誘」という。）が同条第三項第一号に掲げる場合に該当し、かつ、委託者指図型投資信託約款（投資信託及び投資法人に関する法律第四条第一項に規定する委託者指図型投資信託約款をいう。次項第二号において同じ。）にその取得勧誘が金融商品取引法第二条第三項第一号に掲げる場合に該当するものである旨の記載がなされて行われるものとする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: true
@@ -35,12 +35,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-2-6-p2-kou-1
     type: kou
-    text: その信託財産の運用の基本方針が、安定した収益の確保を目的として安定運用を行うものであること。
+    text: 一　その信託財産の運用の基本方針が、安定した収益の確保を目的として安定運用を行うものであること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-2-6-p2-kou-2
     type: kou
-    text: 前号に掲げる要件が、その委託者指図型投資信託約款に記載されていること。
+    text: 二　前号に掲げる要件が、その委託者指図型投資信託約款に記載されていること。
     modality: unspecified
     item_number: 2
 cases: []

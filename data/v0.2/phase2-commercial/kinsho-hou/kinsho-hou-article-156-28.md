@@ -41,17 +41,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-156-28-p3-kou-1
     type: kou
-    text: 第百五十六条の二十四第二項第二号又は第三号に掲げる事項に変更があつたとき。
+    text: 一　第百五十六条の二十四第二項第二号又は第三号に掲げる事項に変更があつたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-28-p3-kou-2
     type: kou
-    text: 前条第二項の届出に係る業務を廃止したとき。
+    text: 二　前条第二項の届出に係る業務を廃止したとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-28-p3-kou-3
     type: kou
-    text: 前条第三項の承認に係る業務を廃止したとき。
+    text: 三　前条第三項の承認に係る業務を廃止したとき。
     modality: unspecified
     item_number: 3
 cases: []

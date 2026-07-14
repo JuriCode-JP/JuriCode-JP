@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-9-p1-kou-1
     type: kou
-    text: 戸籍の謄本又は抄本及び戸籍の附票の写し（法第二十一条の六第一項の財産の贈与を受けた日から十日を経過した日以後に作成されたものに限る。）
+    text: 一　戸籍の謄本又は抄本及び戸籍の附票の写し（法第二十一条の六第一項の財産の贈与を受けた日から十日を経過した日以後に作成されたものに限る。）
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-9-p1-kou-2
     type: kou
-    text: 法第二十一条の六第一項の財産の贈与を受けた者が取得した同項に規定する居住用不動産に関する登記事項証明書その他の書類で当該贈与を受けた者が当該居住用不動産を取得したことを証するもの
+    text: 二　法第二十一条の六第一項の財産の贈与を受けた者が取得した同項に規定する居住用不動産に関する登記事項証明書その他の書類で当該贈与を受けた者が当該居住用不動産を取得したことを証するもの
     modality: unspecified
     item_number: 2
 cases: []

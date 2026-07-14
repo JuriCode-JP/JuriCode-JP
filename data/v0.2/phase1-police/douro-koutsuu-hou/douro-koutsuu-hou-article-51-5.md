@@ -34,6 +34,10 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 前条
+  - id: douro-koutsuu-hou-art-51-5-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条の三第二項第一号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

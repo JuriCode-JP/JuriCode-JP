@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-331-p1-kou-1
     type: kou
-    text: 滞納者が督促を受け、その督促状を発した日から起算して十日を経過した日までにその督促に係る市町村民税に係る地方団体の徴収金を完納しないとき。
+    text: 一　滞納者が督促を受け、その督促状を発した日から起算して十日を経過した日までにその督促に係る市町村民税に係る地方団体の徴収金を完納しないとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-331-p1-kou-2
     type: kou
-    text: 滞納者が繰上徴収に係る告知により指定された納期限までに市町村民税に係る地方団体の徴収金を完納しないとき。
+    text: 二　滞納者が繰上徴収に係る告知により指定された納期限までに市町村民税に係る地方団体の徴収金を完納しないとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 第二次納税義務者又は保証人について前項の規定を適用する場合には、同項第一号中「督促状」とあるのは、「納付又は納入の催告書」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

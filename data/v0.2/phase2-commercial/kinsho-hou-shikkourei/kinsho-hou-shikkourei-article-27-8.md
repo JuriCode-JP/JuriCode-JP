@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-27-8-p1-kou-1
     type: kou
-    text: 民法第六百六十七条第一項に規定する組合契約によつて成立する組合
+    text: 一　民法第六百六十七条第一項に規定する組合契約によつて成立する組合
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-27-8-p1-kou-2
     type: kou
-    text: 投資事業有限責任組合契約に関する法律第二条第二項に規定する投資事業有限責任組合
+    text: 二　投資事業有限責任組合契約に関する法律第二条第二項に規定する投資事業有限責任組合
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-27-8-p1-kou-3
     type: kou
-    text: 有限責任事業組合契約に関する法律第二条に規定する有限責任事業組合
+    text: 三　有限責任事業組合契約に関する法律第二条に規定する有限責任事業組合
     modality: unspecified
     item_number: 3
 cases: []

@@ -32,56 +32,56 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-1
     type: kou
-    text: 特定財務会計基準　法第八十二条第一号イに規定する特定財務会計基準をいう。
+    text: 一　特定財務会計基準　法第八十二条第一号イに規定する特定財務会計基準をいう。
     modality: teigi
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-2
     type: kou
-    text: 会社等　法第八十二条第一号ハに規定する会社等をいう。
+    text: 二　会社等　法第八十二条第一号ハに規定する会社等をいう。
     modality: teigi
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-3
     type: kou
-    text: 収入等　法第八十二条第五号に規定する収入等をいう。
+    text: 三　収入等　法第八十二条第五号に規定する収入等をいう。
     modality: teigi
     item_number: 3
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-4
     type: kou
-    text: 設立国　法第八十二条第五号イに規定する設立国をいう。
+    text: 四　設立国　法第八十二条第五号イに規定する設立国をいう。
     modality: teigi
     item_number: 4
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-5
     type: kou
-    text: 年金基金　法第八十二条第十四号ニに規定する年金基金をいう。
+    text: 五　年金基金　法第八十二条第十四号ニに規定する年金基金をいう。
     modality: teigi
     item_number: 5
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-6
     type: kou
-    text: 共同支配親会社等　法第八十二条第十五号イに掲げる共同支配会社等をいう。
+    text: 六　共同支配親会社等　法第八十二条第十五号イに掲げる共同支配会社等をいう。
     modality: teigi
     item_number: 6
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-7
     type: kou
-    text: 当期純損益金額　法第八十二条第二十六号に規定する当期純損益金額をいう。
+    text: 七　当期純損益金額　法第八十二条第二十六号に規定する当期純損益金額をいう。
     modality: teigi
     item_number: 7
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-8
     type: kou
-    text: 特定連結等財務諸表　法第八十二条第二十六号に規定する特定連結等財務諸表をいう。
+    text: 八　特定連結等財務諸表　法第八十二条第二十六号に規定する特定連結等財務諸表をいう。
     modality: teigi
     item_number: 8
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-9
     type: kou
-    text: '移行対象会計年度　次に掲げる特定多国籍企業グループ等に属する構成会社等又は当該特定多国籍企業グループ等に係る共同支配会社等の区分に応じそれぞれ次に定める対象会計年度をいう。
+    text: '九　移行対象会計年度　次に掲げる特定多国籍企業グループ等に属する構成会社等又は当該特定多国籍企業グループ等に係る共同支配会社等の区分に応じそれぞれ次に定める対象会計年度をいう。
 
-      イ 構成会社等又は共同支配会社等（ロに掲げる会社等を除く。）　特定多国籍企業グループ等に属する構成会社等又は当該特定多国籍企業グループ等に係る共同支配会社等の全てが所在地国としていなかつた国又は地域を当該特定多国籍企業グループ等に属する構成会社等又は当該特定多国籍企業グループ等に係る共同支配会社等のいずれかが最初に所在地国とした当該構成会社等又は当該共同支配会社等に係る対象会計年度
+      イ　構成会社等又は共同支配会社等（ロに掲げる会社等を除く。）　特定多国籍企業グループ等に属する構成会社等又は当該特定多国籍企業グループ等に係る共同支配会社等の全てが所在地国としていなかつた国又は地域を当該特定多国籍企業グループ等に属する構成会社等又は当該特定多国籍企業グループ等に係る共同支配会社等のいずれかが最初に所在地国とした当該構成会社等又は当該共同支配会社等に係る対象会計年度
 
-      ロ 無国籍構成会社等又は無国籍共同支配会社等　特定多国籍企業グループ等に属する構成会社等となつた又は当該特定多国籍企業グループ等に係る共同支配会社等となつた最初の対象会計年度'
+      ロ　無国籍構成会社等又は無国籍共同支配会社等　特定多国籍企業グループ等に属する構成会社等となつた又は当該特定多国籍企業グループ等に係る共同支配会社等となつた最初の対象会計年度'
     modality: unspecified
     item_number: 9
   - id: houjin-zei-hou-shikkourei-art-155-3-p2-kou-10
     type: kou
-    text: 特定多国籍企業グループ等報告事項等　グループ国際最低課税額等報告事項等又はグループ国内最低課税額報告事項等をいう。
+    text: 十　特定多国籍企業グループ等報告事項等　グループ国際最低課税額等報告事項等又はグループ国内最低課税額報告事項等をいう。
     modality: teigi
     item_number: 10
 cases: []

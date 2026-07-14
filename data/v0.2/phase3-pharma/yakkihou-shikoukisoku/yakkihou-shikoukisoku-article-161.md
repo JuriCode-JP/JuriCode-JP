@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-161-p1-kou-1
     type: kou
-    text: 許可番号及び許可年月日
+    text: 一　許可番号及び許可年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-161-p1-kou-2
     type: kou
-    text: 許可の別
+    text: 二　許可の別
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-161-p1-kou-3
     type: kou
-    text: 高度管理医療機器等の販売業者等の氏名及び住所
+    text: 三　高度管理医療機器等の販売業者等の氏名及び住所
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-161-p1-kou-4
     type: kou
-    text: 営業所の名称及び所在地
+    text: 四　営業所の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-161-p1-kou-5
     type: kou
-    text: 高度管理医療機器等営業所管理者の氏名及び住所
+    text: 五　高度管理医療機器等営業所管理者の氏名及び住所
     modality: unspecified
     item_number: 5
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-350-22-p1-kou-1
     type: kou
-    text: 第三百五十条の十六第二項又は第四項の同意が撤回されたとき。
+    text: 一　第三百五十条の十六第二項又は第四項の同意が撤回されたとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-350-22-p1-kou-2
     type: kou
-    text: 第三百五十条の二十第一項に規定する場合において、同項の同意がされなかつたとき、又はその同意が撤回されたとき。
+    text: 二　第三百五十条の二十第一項に規定する場合において、同項の同意がされなかつたとき、又はその同意が撤回されたとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-350-22-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、当該事件が即決裁判手続によることができないものであると認めるとき。
+    text: 三　前二号に掲げるもののほか、当該事件が即決裁判手続によることができないものであると認めるとき。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-350-22-p1-kou-4
     type: kou
-    text: 当該事件が即決裁判手続によることが相当でないものであると認めるとき。
+    text: 四　当該事件が即決裁判手続によることが相当でないものであると認めるとき。
     modality: unspecified
     item_number: 4
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: shouhou-art-741-p1-kou-1
     type: kou
-    text: 運送賃、付随の費用及び立替金の額
+    text: 一　運送賃、付随の費用及び立替金の額
     modality: unspecified
     item_number: 1
   - id: shouhou-art-741-p1-kou-2
     type: kou
-    text: 運送品の価格に応じて支払うべき救助料の額及び共同海損の分担額
+    text: 二　運送品の価格に応じて支払うべき救助料の額及び共同海損の分担額
     modality: unspecified
     item_number: 2
 - number: 2

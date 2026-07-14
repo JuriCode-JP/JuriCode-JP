@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-9-5-p2-kou-1
     type: kou
-    text: 公告をした日
+    text: 一　公告をした日
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-9-5-p2-kou-2
     type: kou
-    text: 電子公告アドレス
+    text: 二　電子公告アドレス
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-9-5-p2-kou-3
     type: kou
-    text: その他必要な事項
+    text: 三　その他必要な事項
     modality: unspecified
     item_number: 3
 - number: 3
@@ -76,21 +76,21 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
   - id: koukai-kaitsuke-furei-art-9-5-p5-kou-1
     type: kou
-    text: 公告の中断が生ずることにつき電子公告による公告をする者が善意でかつ重大な過失がないこと又は電子公告による公告をする者に正当な理由があること。
+    text: 一　公告の中断が生ずることにつき電子公告による公告をする者が善意でかつ重大な過失がないこと又は電子公告による公告をする者に正当な理由があること。
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-9-5-p5-kou-2
     type: kou
-    text: 公告の中断が生じた時間の合計が公告期間の十分の一を超えないこと。
+    text: 二　公告の中断が生じた時間の合計が公告期間の十分の一を超えないこと。
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-9-5-p5-kou-3
     type: kou
-    text: 電子公告による公告をする者が公告の中断が生じたことを知った後速やかにその旨、公告の中断の期間並びに公告の中断の原因を公告したこと。
+    text: 三　電子公告による公告をする者が公告の中断が生じたことを知った後速やかにその旨、公告の中断の期間並びに公告の中断の原因を公告したこと。
     modality: unspecified
     item_number: 3
 cases: []

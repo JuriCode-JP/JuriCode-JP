@@ -34,42 +34,42 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-108-32-p2-kou-1
     type: kou
-    text: 交通事故に関する相談に応ずる業務を担当する者、道路における車両の駐車及び交通の規制並びに道路の使用に関する事項について照会及び相談に応ずる業務を担当する者、運転適性指導の業務を担当する者その他都道府県センターの業務を行う者に対する研修を行うこと。
+    text: 一　交通事故に関する相談に応ずる業務を担当する者、道路における車両の駐車及び交通の規制並びに道路の使用に関する事項について照会及び相談に応ずる業務を担当する者、運転適性指導の業務を担当する者その他都道府県センターの業務を行う者に対する研修を行うこと。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-108-32-p2-kou-2
     type: kou
-    text: 適正な交通の方法、交通事故防止その他道路における交通の安全に関する事項について二以上の都道府県の区域における広報活動を行うこと。
+    text: 二　適正な交通の方法、交通事故防止その他道路における交通の安全に関する事項について二以上の都道府県の区域における広報活動を行うこと。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-108-32-p2-kou-3
     type: kou
-    text: 適正な交通の方法、交通事故防止その他道路における交通の安全についての二以上の都道府県の区域における啓発活動を行うこと。
+    text: 三　適正な交通の方法、交通事故防止その他道路における交通の安全についての二以上の都道府県の区域における啓発活動を行うこと。
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-108-32-p2-kou-4
     type: kou
-    text: 道路における適正な車両の駐車及び道路の使用についての二以上の都道府県の区域における啓発活動を行うこと（前号に該当するものを除く。）。
+    text: 四　道路における適正な車両の駐車及び道路の使用についての二以上の都道府県の区域における啓発活動を行うこと（前号に該当するものを除く。）。
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-108-32-p2-kou-5
     type: kou
-    text: 道路における車両の駐車及び交通の規制並びに道路の使用並びに運転適性指導に関する調査研究を行うこと。
+    text: 五　道路における車両の駐車及び交通の規制並びに道路の使用並びに運転適性指導に関する調査研究を行うこと。
     modality: unspecified
     item_number: 5
   - id: douro-koutsuu-hou-art-108-32-p2-kou-6
     type: kou
-    text: 道路を通行する者に対する交通安全教育を行う者の資質の向上に必要とされる技能及び知識に関する研修（道路運送法及び貨物自動車運送事業法に規定する運行管理者に対するものその他国家公安委員会規則で定めるものを除く。）を行うこと。
+    text: 六　道路を通行する者に対する交通安全教育を行う者の資質の向上に必要とされる技能及び知識に関する研修（道路運送法及び貨物自動車運送事業法に規定する運行管理者に対するものその他国家公安委員会規則で定めるものを除く。）を行うこと。
     modality: unspecified
     item_number: 6
   - id: douro-koutsuu-hou-art-108-32-p2-kou-7
     type: kou
-    text: 都道府県センターの事業について、連絡調整を行うこと。
+    text: 七　都道府県センターの事業について、連絡調整を行うこと。
     modality: unspecified
     item_number: 7
   - id: douro-koutsuu-hou-art-108-32-p2-kou-8
     type: kou
-    text: 前各号の事業に附帯する事業
+    text: 八　前各号の事業に附帯する事業
     modality: unspecified
     item_number: 8
 - number: 3

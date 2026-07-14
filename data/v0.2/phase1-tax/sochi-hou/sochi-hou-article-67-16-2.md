@@ -22,21 +22,21 @@ paragraphs:
     text: 次に掲げる外国法人の各事業年度の法人税法第百三十八条第一項第一号に掲げる国内源泉所得又は同項第六号に掲げる国内源泉所得のうち政令で定めるもの（これらの国内源泉所得のうち令和七年四月一日から令和十年三月三十一日までの間に行う第二十九条に規定する博覧会関連業務に係るものに限る。次項において「対象国内源泉所得」という。）については、法人税を課さない。
     modality: unspecified
     references:
-    - 同項
     - 次項
+    - 同項
   - id: sochi-hou-art-67-16-2-p1-kou-1
     type: kou
-    text: 第二十九条第一号に規定する公式参加者
+    text: 一　第二十九条第一号に規定する公式参加者
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-67-16-2-p1-kou-2
     type: kou
-    text: 第二十九条第二号に規定する財務省令で定める外国法人
+    text: 二　第二十九条第二号に規定する財務省令で定める外国法人
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-67-16-2-p1-kou-3
     type: kou
-    text: 博覧会国際事務局
+    text: 三　博覧会国際事務局
     modality: unspecified
     item_number: 3
 - number: 2

@@ -37,27 +37,27 @@ paragraphs:
     - 前項
   - id: shouhi-zei-hou-art-46-2-p2-kou-1
     type: kou
-    text: 当該事業年度開始の時における資本金の額、出資の金額その他これらに類するものとして政令で定める金額が一億円を超える法人（法人税法第二条第四号（定義）に規定する外国法人を除く。）
+    text: 一　当該事業年度開始の時における資本金の額、出資の金額その他これらに類するものとして政令で定める金額が一億円を超える法人（法人税法第二条第四号（定義）に規定する外国法人を除く。）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-46-2-p2-kou-2
     type: kou
-    text: 保険業法（平成七年法律第百五号）第二条第五項（定義）に規定する相互会社
+    text: 二　保険業法（平成七年法律第百五号）第二条第五項（定義）に規定する相互会社
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-art-46-2-p2-kou-3
     type: kou
-    text: 投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十二項（定義）に規定する投資法人（第一号に掲げる法人を除く。）
+    text: 三　投資信託及び投資法人に関する法律（昭和二十六年法律第百九十八号）第二条第十二項（定義）に規定する投資法人（第一号に掲げる法人を除く。）
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-art-46-2-p2-kou-4
     type: kou
-    text: 資産の流動化に関する法律（平成十年法律第百五号）第二条第三項（定義）に規定する特定目的会社（第一号に掲げる法人を除く。）
+    text: 四　資産の流動化に関する法律（平成十年法律第百五号）第二条第三項（定義）に規定する特定目的会社（第一号に掲げる法人を除く。）
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-art-46-2-p2-kou-5
     type: kou
-    text: 国又は地方公共団体
+    text: 五　国又は地方公共団体
     modality: unspecified
     item_number: 5
 - number: 3

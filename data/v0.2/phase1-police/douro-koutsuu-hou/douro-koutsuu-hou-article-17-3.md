@@ -35,6 +35,10 @@ paragraphs:
     modality: gimu
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-17-3-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百二十一条第一項第八号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

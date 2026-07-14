@@ -34,12 +34,12 @@ paragraphs:
     modality: kanou_negative
   - id: minpou-art-264-3-p2-kou-1
     type: kou
-    text: 保存行為
+    text: 一　保存行為
     modality: unspecified
     item_number: 1
   - id: minpou-art-264-3-p2-kou-2
     type: kou
-    text: 所有者不明土地等の性質を変えない範囲内において、その利用又は改良を目的とする行為
+    text: 二　所有者不明土地等の性質を変えない範囲内において、その利用又は改良を目的とする行為
     modality: unspecified
     item_number: 2
 cases: []

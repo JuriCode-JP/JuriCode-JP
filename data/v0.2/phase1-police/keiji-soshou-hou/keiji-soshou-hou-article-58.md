@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-58-p1-kou-1
     type: kou
-    text: 被告人が定まつた住居を有しないとき。
+    text: 一　被告人が定まつた住居を有しないとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-58-p1-kou-2
     type: kou
-    text: 被告人が、正当な理由がなく、召喚に応じないとき、又は応じないおそれがあるとき。
+    text: 二　被告人が、正当な理由がなく、召喚に応じないとき、又は応じないおそれがあるとき。
     modality: unspecified
     item_number: 2
 cases: []

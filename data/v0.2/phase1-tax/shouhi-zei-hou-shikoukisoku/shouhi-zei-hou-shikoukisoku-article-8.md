@@ -25,27 +25,27 @@ paragraphs:
     - 同項
   - id: shouhi-zei-hou-shikoukisoku-art-8-p1-kou-1
     type: kou
-    text: 申請者の氏名及び住所又は居所
+    text: 一　申請者の氏名及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-8-p1-kou-2
     type: kou
-    text: 亡失の事情及びその場所
+    text: 二　亡失の事情及びその場所
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-8-p1-kou-3
     type: kou
-    text: 当該物品の購入の年月日
+    text: 三　当該物品の購入の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-8-p1-kou-4
     type: kou
-    text: 当該物品の品名並びに品名ごとの数量及び価額
+    text: 四　当該物品の品名並びに品名ごとの数量及び価額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-8-p1-kou-5
     type: kou
-    text: 当該物品を購入した輸出物品販売場を経営する事業者の氏名又は名称及び当該輸出物品販売場の所在地
+    text: 五　当該物品を購入した輸出物品販売場を経営する事業者の氏名又は名称及び当該輸出物品販売場の所在地
     modality: unspecified
     item_number: 5
 - number: 2
@@ -61,12 +61,12 @@ paragraphs:
     - 前項
   - id: shouhi-zei-hou-shikoukisoku-art-8-p2-kou-1
     type: kou
-    text: 提出者の氏名及び住所又は居所
+    text: 一　提出者の氏名及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-8-p2-kou-2
     type: kou
-    text: 前項第二号から第五号までに掲げる事項
+    text: 二　前項第二号から第五号までに掲げる事項
     modality: unspecified
     item_number: 2
 - number: 3
@@ -80,27 +80,27 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-8-p3-kou-1
     type: kou
-    text: 申請者の氏名等、納税地及び個人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第五項（定義）に規定する個人番号をいう。以下同じ。）又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名等及び納税地）
+    text: 一　申請者の氏名等、納税地及び個人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第五項（定義）に規定する個人番号をいう。以下同じ。）又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名等及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-8-p3-kou-2
     type: kou
-    text: 亡失の事情及びその場所
+    text: 二　亡失の事情及びその場所
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-8-p3-kou-3
     type: kou
-    text: 当該物品に係る令第十八条第三項第三号又は第六号に規定する運送契約を締結した年月日
+    text: 三　当該物品に係る令第十八条第三項第三号又は第六号に規定する運送契約を締結した年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-8-p3-kou-4
     type: kou
-    text: 当該物品の品名並びに品名ごとの数量及び価額
+    text: 四　当該物品の品名並びに品名ごとの数量及び価額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-8-p3-kou-5
     type: kou
-    text: 当該物品に係る輸出物品販売場を経営する事業者の氏名又は名称並びに納税地及び当該輸出物品販売場の所在地
+    text: 五　当該物品に係る輸出物品販売場を経営する事業者の氏名又は名称並びに納税地及び当該輸出物品販売場の所在地
     modality: unspecified
     item_number: 5
 cases: []

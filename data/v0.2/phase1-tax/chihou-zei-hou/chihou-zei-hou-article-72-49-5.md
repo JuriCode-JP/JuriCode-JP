@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-72-49-5-p1-kou-1
     type: kou
-    text: 法人の行う事業に対する事業税の納税義務者又は納税義務があると認められる法人
+    text: 一　法人の行う事業に対する事業税の納税義務者又は納税義務があると認められる法人
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-49-5-p1-kou-2
     type: kou
-    text: 前号に規定する法人に金銭又は物品を給付する義務があると認められる者
+    text: 二　前号に規定する法人に金銭又は物品を給付する義務があると認められる者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-72-49-5-p1-kou-3
     type: kou
-    text: 前二号に掲げる者以外の者で当該事業税の賦課徴収に関し直接関係があると認められる者
+    text: 三　前二号に掲げる者以外の者で当該事業税の賦課徴収に関し直接関係があると認められる者
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項第一号に掲げる法人を分割法人とする分割に係る分割承継法人及び同号に掲げる法人を分割承継法人とする分割に係る分割法人は、同項第二号に規定する金銭又は物品を給付する義務があると認められる者に含まれるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

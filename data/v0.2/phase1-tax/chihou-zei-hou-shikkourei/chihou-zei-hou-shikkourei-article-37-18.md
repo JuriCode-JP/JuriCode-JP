@@ -41,12 +41,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-37-18-p3-kou-1
     type: kou
-    text: 昭和五十七年一月一日以後に新築されたものであること。
+    text: 一　昭和五十七年一月一日以後に新築されたものであること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-37-18-p3-kou-2
     type: kou
-    text: 前項の基準に適合することにつき総務省令で定めるところにより証明がされたものであること。
+    text: 二　前項の基準に適合することにつき総務省令で定めるところにより証明がされたものであること。
     modality: unspecified
     item_number: 2
 cases: []

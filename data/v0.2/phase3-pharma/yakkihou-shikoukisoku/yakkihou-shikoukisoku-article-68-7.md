@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-shikoukisoku-art-68-7-p1-kou-1
     type: kou
-    text: 変更計画の変更案
+    text: 一　変更計画の変更案
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-68-7-p1-kou-2
     type: kou
-    text: 変更理由
+    text: 二　変更理由
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,22 +44,22 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-68-7-p2-kou-1
     type: kou
-    text: 医薬品、医薬部外品又は化粧品の製造方法又は品質に及ぼす影響を評価するための試験の内容及び方法の重要な変更
+    text: 一　医薬品、医薬部外品又は化粧品の製造方法又は品質に及ぼす影響を評価するための試験の内容及び方法の重要な変更
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-68-7-p2-kou-2
     type: kou
-    text: 前号の試験に係る判定基準を緩和する変更
+    text: 二　前号の試験に係る判定基準を緩和する変更
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-68-7-p2-kou-3
     type: kou
-    text: 確認された変更計画に含まれる製造工程の稼働性能又は製品の品質を保証するための管理に係る重要な変更
+    text: 三　確認された変更計画に含まれる製造工程の稼働性能又は製品の品質を保証するための管理に係る重要な変更
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-68-7-p2-kou-4
     type: kou
-    text: その他前各号に掲げる変更とみなされる変更
+    text: 四　その他前各号に掲げる変更とみなされる変更
     modality: unspecified
     item_number: 4
 - number: 3

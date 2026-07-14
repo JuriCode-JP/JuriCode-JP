@@ -25,37 +25,37 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-57-13-p1-kou-1
     type: kou
-    text: 商号又は名称
+    text: 一　商号又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-57-13-p1-kou-2
     type: kou
-    text: 資本金の額又は出資の総額
+    text: 二　資本金の額又は出資の総額
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-57-13-p1-kou-3
     type: kou
-    text: 役員の氏名又は名称
+    text: 三　役員の氏名又は名称
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-57-13-p1-kou-4
     type: kou
-    text: 本店又は主たる事務所の名称及び所在地
+    text: 四　本店又は主たる事務所の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-57-13-p1-kou-5
     type: kou
-    text: 当該指定親会社及びその子法人等の集団が、その業務の運営及び財産の状況について、他の法令に基づいて行政機関の監督を受けている場合（外国の法令に基づいて外国の行政機関その他これに準ずるものの監督を受けている場合を含む。）には、その旨
+    text: 五　当該指定親会社及びその子法人等の集団が、その業務の運営及び財産の状況について、他の法令に基づいて行政機関の監督を受けている場合（外国の法令に基づいて外国の行政機関その他これに準ずるものの監督を受けている場合を含む。）には、その旨
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-57-13-p1-kou-6
     type: kou
-    text: 当該指定親会社による対象特別金融商品取引業者の経営管理又は当該指定親会社若しくはその子法人等による対象特別金融商品取引業者に対する資金調達に関する支援の内容及び方法として内閣府令で定める事項
+    text: 六　当該指定親会社による対象特別金融商品取引業者の経営管理又は当該指定親会社若しくはその子法人等による対象特別金融商品取引業者に対する資金調達に関する支援の内容及び方法として内閣府令で定める事項
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-57-13-p1-kou-7
     type: kou
-    text: その他内閣府令で定める事項
+    text: 七　その他内閣府令で定める事項
     modality: unspecified
     item_number: 7
 - number: 2
@@ -71,12 +71,12 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-57-13-p2-kou-1
     type: kou
-    text: 第五十七条の二十第一項第一号及び第四号（外国会社にあつては、同項第一号）のいずれにも該当しないことを誓約する書面
+    text: 一　第五十七条の二十第一項第一号及び第四号（外国会社にあつては、同項第一号）のいずれにも該当しないことを誓約する書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-57-13-p2-kou-2
     type: kou
-    text: 定款、登記事項証明書その他内閣府令で定める書類
+    text: 二　定款、登記事項証明書その他内閣府令で定める書類
     modality: unspecified
     item_number: 2
 - number: 3

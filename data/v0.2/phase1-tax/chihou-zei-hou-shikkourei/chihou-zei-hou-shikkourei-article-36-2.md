@@ -23,57 +23,57 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-1
     type: kou
-    text: 消火設備
+    text: 一　消火設備
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-2
     type: kou
-    text: 空気調和設備
+    text: 二　空気調和設備
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-3
     type: kou
-    text: 衛生設備
+    text: 三　衛生設備
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-4
     type: kou
-    text: じんかい処理設備
+    text: 四　じんかい処理設備
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-5
     type: kou
-    text: 電気設備
+    text: 五　電気設備
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-6
     type: kou
-    text: 避雷針設備
+    text: 六　避雷針設備
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-7
     type: kou
-    text: 運搬設備（昇降の設備を除く。）
+    text: 七　運搬設備（昇降の設備を除く。）
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-8
     type: kou
-    text: 給排水設備
+    text: 八　給排水設備
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-9
     type: kou
-    text: ガス設備
+    text: 九　ガス設備
     modality: unspecified
     item_number: 9
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-10
     type: kou
-    text: 造付金庫
+    text: 十　造付金庫
     modality: unspecified
     item_number: 10
   - id: chihou-zei-hou-shikkourei-art-36-2-p1-kou-11
     type: kou
-    text: 固定座席設備、回転舞台設備及び背景吊つり下設備
+    text: 十一　固定座席設備、回転舞台設備及び背景吊下設備
     modality: unspecified
     item_number: 11
 cases: []
@@ -116,4 +116,4 @@ parent_section:
 
 十　造付金庫
 
-十一　固定座席設備、回転舞台設備及び背景吊つり下設備
+十一　固定座席設備、回転舞台設備及び背景吊下設備

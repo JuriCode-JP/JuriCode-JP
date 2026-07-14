@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-247-p1-kou-1
     type: kou
-    text: 当該新株予約権の発行が法令又は定款に違反する場合
+    text: 一　当該新株予約権の発行が法令又は定款に違反する場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-247-p1-kou-2
     type: kou
-    text: 当該新株予約権の発行が著しく不公正な方法により行われる場合
+    text: 二　当該新株予約権の発行が著しく不公正な方法により行われる場合
     modality: unspecified
     item_number: 2
 cases: []

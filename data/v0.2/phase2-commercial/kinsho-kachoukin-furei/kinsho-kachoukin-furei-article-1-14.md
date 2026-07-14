@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-1-14-p1-kou-1
     type: kou
-    text: 違反者の親会社
+    text: 一　違反者の親会社
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-1-14-p1-kou-2
     type: kou
-    text: 違反者の子会社
+    text: 二　違反者の子会社
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-1-14-p1-kou-3
     type: kou
-    text: 違反者と同一の親会社をもつ会社等
+    text: 三　違反者と同一の親会社をもつ会社等
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-1-14-p1-kou-4
     type: kou
-    text: 違反者（個人に限る。以下この号において同じ。）の同族会社（法人税法第二条第十号に規定する同族会社をいい、違反者が支配していないことが明らかであると認められる会社を除く。）
+    text: 四　違反者（個人に限る。以下この号において同じ。）の同族会社（法人税法第二条第十号に規定する同族会社をいい、違反者が支配していないことが明らかであると認められる会社を除く。）
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,27 +52,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-1-14-p2-kou-1
     type: kou
-    text: 違反者（個人に限る。）の親族
+    text: 一　違反者（個人に限る。）の親族
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-1-14-p2-kou-2
     type: kou
-    text: 違反者（個人に限る。）と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    text: 二　違反者（個人に限る。）と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-1-14-p2-kou-3
     type: kou
-    text: 違反者の役員等
+    text: 三　違反者の役員等
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-1-14-p2-kou-4
     type: kou
-    text: 前三号に掲げる者以外の者で違反者（個人に限る。）から受ける金銭その他の資産によって生計を維持しているもの
+    text: 四　前三号に掲げる者以外の者で違反者（個人に限る。）から受ける金銭その他の資産によって生計を維持しているもの
     modality: unspecified
     item_number: 4
   - id: kinsho-kachoukin-furei-art-1-14-p2-kou-5
     type: kou
-    text: 前三号に掲げる者と生計を一にするこれらの者の親族
+    text: 五　前三号に掲げる者と生計を一にするこれらの者の親族
     modality: unspecified
     item_number: 5
 cases: []

@@ -26,17 +26,17 @@ paragraphs:
     - 第九条
   - id: sochi-hou-art-84-6-p1-kou-1
     type: kou
-    text: 動産の譲渡の登記　一件につき七千五百円
+    text: 一　動産の譲渡の登記　一件につき七千五百円
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-84-6-p1-kou-2
     type: kou
-    text: 債権の譲渡又は質権の設定の登記　一件につき七千五百円
+    text: 二　債権の譲渡又は質権の設定の登記　一件につき七千五百円
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-84-6-p1-kou-3
     type: kou
-    text: 前二号に掲げる登記の存続期間を延長する登記　一件につき三千円
+    text: 三　前二号に掲げる登記の存続期間を延長する登記　一件につき三千円
     modality: unspecified
     item_number: 3
 - number: 2

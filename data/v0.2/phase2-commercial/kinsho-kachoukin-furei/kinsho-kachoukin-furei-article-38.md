@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-38-p1-kou-1
     type: kou
-    text: 被審人の表示
+    text: 一　被審人の表示
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-38-p1-kou-2
     type: kou
-    text: 出頭すべき日時及び場所
+    text: 二　出頭すべき日時及び場所
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-38-p1-kou-3
     type: kou
-    text: 出頭しない場合における法律上の制裁
+    text: 三　出頭しない場合における法律上の制裁
     modality: unspecified
     item_number: 3
 cases: []

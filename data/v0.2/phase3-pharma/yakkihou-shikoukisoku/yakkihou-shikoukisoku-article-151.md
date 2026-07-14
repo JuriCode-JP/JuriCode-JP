@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-151-p2-kou-1
     type: kou
-    text: 申請前六月以内に撮影した無帽、正面、上三分身、無背景の縦の長さ三センチメートル、横の長さ二・四センチメートルの写真
+    text: 一　申請前六月以内に撮影した無帽、正面、上三分身、無背景の縦の長さ三センチメートル、横の長さ二・四センチメートルの写真
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-151-p2-kou-2
     type: kou
-    text: 申請者が配置員であるときは、雇用契約書の写しその他配置販売業者のその配置員に対する使用関係を証する書類
+    text: 二　申請者が配置員であるときは、雇用契約書の写しその他配置販売業者のその配置員に対する使用関係を証する書類
     modality: unspecified
     item_number: 2
 cases: []

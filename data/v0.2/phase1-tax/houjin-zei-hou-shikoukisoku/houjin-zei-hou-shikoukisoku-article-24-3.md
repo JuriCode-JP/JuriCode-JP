@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-24-3-p1-kou-1
     type: kou
-    text: 法第四十二条第五項又は第六項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　法第四十二条第五項又は第六項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-24-3-p1-kou-2
     type: kou
-    text: 法第四十二条第五項に規定する適格分割等（次号及び第四号において「適格分割等」という。）に係る同項に規定する分割承継法人等（第四号において「分割承継法人等」という。）の名称及び納税地並びに代表者の氏名
+    text: 二　法第四十二条第五項に規定する適格分割等（次号及び第四号において「適格分割等」という。）に係る同項に規定する分割承継法人等（第四号において「分割承継法人等」という。）の名称及び納税地並びに代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-24-3-p1-kou-3
     type: kou
-    text: 適格分割等の日
+    text: 三　適格分割等の日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-24-3-p1-kou-4
     type: kou
-    text: 適格分割等により分割承継法人等に移転をする固定資産に係る法第四十二条第五項又は第六項に規定する帳簿価額を減額した金額に相当する金額及び当該金額の計算に関する明細
+    text: 四　適格分割等により分割承継法人等に移転をする固定資産に係る法第四十二条第五項又は第六項に規定する帳簿価額を減額した金額に相当する金額及び当該金額の計算に関する明細
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-24-3-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

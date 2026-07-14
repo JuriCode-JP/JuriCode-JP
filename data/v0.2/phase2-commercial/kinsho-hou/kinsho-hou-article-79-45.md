@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-79-45-p2-kou-1
     type: kou
-    text: 第七十九条の五十四の規定により行う認定を行う場合
+    text: 一　第七十九条の五十四の規定により行う認定を行う場合
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-45-p2-kou-2
     type: kou
-    text: 第七十九条の五十五第一項の規定により定めるべき事項を定める場合
+    text: 二　第七十九条の五十五第一項の規定により定めるべき事項を定める場合
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-79-45-p2-kou-3
     type: kou
-    text: 第七十九条の五十九の規定による貸付けを行うかどうかの決定を行う場合
+    text: 三　第七十九条の五十九の規定による貸付けを行うかどうかの決定を行う場合
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-79-45-p2-kou-4
     type: kou
-    text: その他基金の業務の運営に関する重要事項を決定する場合として定款の定める場合
+    text: 四　その他基金の業務の運営に関する重要事項を決定する場合として定款の定める場合
     modality: unspecified
     item_number: 4
 - number: 3

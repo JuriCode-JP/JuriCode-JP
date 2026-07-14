@@ -34,22 +34,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-art-23-17-p2-kou-1
     type: kou
-    text: 財務諸表等が書面をもつて作成されているときは、当該書面の閲覧又は謄写の請求
+    text: 一　財務諸表等が書面をもつて作成されているときは、当該書面の閲覧又は謄写の請求
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-23-17-p2-kou-2
     type: kou
-    text: 前号の書面の謄本又は抄本の請求
+    text: 二　前号の書面の謄本又は抄本の請求
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-23-17-p2-kou-3
     type: kou
-    text: 財務諸表等が電磁的記録をもつて作成されているときは、当該電磁的記録に記録された事項を厚生労働省令で定める方法により表示したものの閲覧又は謄写の請求
+    text: 三　財務諸表等が電磁的記録をもつて作成されているときは、当該電磁的記録に記録された事項を厚生労働省令で定める方法により表示したものの閲覧又は謄写の請求
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-23-17-p2-kou-4
     type: kou
-    text: 前号の電磁的記録に記録された事項を電磁的方法であつて厚生労働省令で定めるものにより提供することの請求又は当該事項を記載した書面の交付の請求
+    text: 四　前号の電磁的記録に記録された事項を電磁的方法であつて厚生労働省令で定めるものにより提供することの請求又は当該事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 cases: []

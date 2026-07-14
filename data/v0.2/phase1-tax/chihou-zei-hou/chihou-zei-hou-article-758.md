@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-758-p1-kou-1
     type: kou
-    text: 税負担軽減措置等に該当する措置又は特例ごとの適用額の総額
+    text: 一　税負担軽減措置等に該当する措置又は特例ごとの適用額の総額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-758-p1-kou-2
     type: kou
-    text: 適用実態調査情報に基づき推計した租税特別措置（所得税又は法人税に係るもので財務大臣が適用実態調査を実施したものに限る。次号及び次条において同じ。）ごとの道府県民税、事業税又は市町村民税への影響額
+    text: 二　適用実態調査情報に基づき推計した租税特別措置（所得税又は法人税に係るもので財務大臣が適用実態調査を実施したものに限る。次号及び次条において同じ。）ごとの道府県民税、事業税又は市町村民税への影響額
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-758-p1-kou-3
     type: kou
-    text: その他税負担軽減措置等の適用の状況及び租税特別措置の道府県民税、事業税又は市町村民税への影響の状況の透明化を図るために必要な事項
+    text: 三　その他税負担軽減措置等の適用の状況及び租税特別措置の道府県民税、事業税又は市町村民税への影響の状況の透明化を図るために必要な事項
     modality: unspecified
     item_number: 3
 - number: 2

@@ -25,12 +25,12 @@ paragraphs:
     - 次項
   - id: souzoku-zei-hou-art-59-p1-kou-1
     type: kou
-    text: 保険会社等　支払つた保険金（退職手当金等に該当するものを除く。）に関する受取人別の調書
+    text: 一　保険会社等　支払つた保険金（退職手当金等に該当するものを除く。）に関する受取人別の調書
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-59-p1-kou-2
     type: kou
-    text: 退職手当金等を支給した者　支給した退職手当金等に関する受給者別の調書
+    text: 二　退職手当金等を支給した者　支給した退職手当金等に関する受給者別の調書
     modality: unspecified
     item_number: 2
 - number: 2
@@ -57,22 +57,22 @@ paragraphs:
     modality: jogai
   - id: souzoku-zei-hou-art-59-p3-kou-1
     type: kou
-    text: 信託の効力が生じたこと（当該信託が遺言によりされた場合にあつては、当該信託の引受けがあつたこと。）。
+    text: 一　信託の効力が生じたこと（当該信託が遺言によりされた場合にあつては、当該信託の引受けがあつたこと。）。
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-59-p3-kou-2
     type: kou
-    text: 第九条の二第一項に規定する受益者等が変更されたこと（同項に規定する受益者等が存するに至つた場合又は存しなくなつた場合を含む。）。
+    text: 二　第九条の二第一項に規定する受益者等が変更されたこと（同項に規定する受益者等が存するに至つた場合又は存しなくなつた場合を含む。）。
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-art-59-p3-kou-3
     type: kou
-    text: 信託が終了したこと（信託に関する権利の放棄があつた場合その他政令で定める場合を含む。）。
+    text: 三　信託が終了したこと（信託に関する権利の放棄があつた場合その他政令で定める場合を含む。）。
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-art-59-p3-kou-4
     type: kou
-    text: 信託に関する権利の内容に変更があつたこと。
+    text: 四　信託に関する権利の内容に変更があつたこと。
     modality: unspecified
     item_number: 4
 - number: 4
@@ -95,12 +95,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-art-59-p5-kou-1
     type: kou
-    text: 財務省令で定めるところによりあらかじめ税務署長に届け出て行う電子情報処理組織（情報通信技術を活用した行政の推進等に関する法律（平成十四年法律第百五十一号）第六条第一項（電子情報処理組織による申請等）に規定する電子情報処理組織をいう。）を使用する方法として財務省令で定める方法
+    text: 一　財務省令で定めるところによりあらかじめ税務署長に届け出て行う電子情報処理組織（情報通信技術を活用した行政の推進等に関する法律（平成十四年法律第百五十一号）第六条第一項（電子情報処理組織による申請等）に規定する電子情報処理組織をいう。）を使用する方法として財務省令で定める方法
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-59-p5-kou-2
     type: kou
-    text: 当該記載事項を記録した光ディスクその他の財務省令で定める記録用の媒体（以下この条において「光ディスク等」という。）を提出する方法
+    text: 二　当該記載事項を記録した光ディスクその他の財務省令で定める記録用の媒体（以下この条において「光ディスク等」という。）を提出する方法
     modality: unspecified
     item_number: 2
 - number: 6

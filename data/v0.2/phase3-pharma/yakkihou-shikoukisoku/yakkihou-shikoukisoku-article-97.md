@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-97-p1-kou-1
     type: kou
-    text: 医薬品、医薬部外品又は化粧品の品質、有効性及び安全性に関する事項その他医薬品、医薬部外品又は化粧品の適正な使用のために必要な情報（以下この章において「安全管理情報」という。）の収集
+    text: 一　医薬品、医薬部外品又は化粧品の品質、有効性及び安全性に関する事項その他医薬品、医薬部外品又は化粧品の適正な使用のために必要な情報（以下この章において「安全管理情報」という。）の収集
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-97-p1-kou-2
     type: kou
-    text: 安全管理情報の解析
+    text: 二　安全管理情報の解析
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-97-p1-kou-3
     type: kou
-    text: 安全管理情報の検討の結果に基づく必要な措置の実施
+    text: 三　安全管理情報の検討の結果に基づく必要な措置の実施
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-97-p1-kou-4
     type: kou
-    text: 収集した安全管理情報の保存その他の前三号に附帯する業務
+    text: 四　収集した安全管理情報の保存その他の前三号に附帯する業務
     modality: unspecified
     item_number: 4
 cases: []

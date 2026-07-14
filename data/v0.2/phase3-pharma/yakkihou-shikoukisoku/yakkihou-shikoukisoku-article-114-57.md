@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-57-p1-kou-1
     type: kou
-    text: 法第二十三条の二の五第一項若しくは第十三項（法第二十三条の二の十七第五項において準用する場合を含む。）の承認又はその申請
+    text: 一　法第二十三条の二の五第一項若しくは第十三項（法第二十三条の二の十七第五項において準用する場合を含む。）の承認又はその申請
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-57-p1-kou-2
     type: kou
-    text: 法第二十三条の二の十二第一項又は第二項の届出
+    text: 二　法第二十三条の二の十二第一項又は第二項の届出
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-57-p1-kou-3
     type: kou
-    text: 法第二十三条の二の十七第一項の承認又はその申請
+    text: 三　法第二十三条の二の十七第一項の承認又はその申請
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-114-57-p1-kou-4
     type: kou
-    text: 基準適合性認証又はその申請
+    text: 四　基準適合性認証又はその申請
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-114-57-p1-kou-5
     type: kou
-    text: 法第八十条の六第一項又は第八十条の八第一項の登録
+    text: 五　法第八十条の六第一項又は第八十条の八第一項の登録
     modality: unspecified
     item_number: 5
 cases: []

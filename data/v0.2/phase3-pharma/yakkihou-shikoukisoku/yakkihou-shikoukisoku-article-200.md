@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-200-p2-kou-1
     type: kou
-    text: 医薬品、医療機器又は再生医療等製品の名称
+    text: 一　医薬品、医療機器又は再生医療等製品の名称
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-200-p2-kou-2
     type: kou
-    text: 製造販売業者又は選任外国製造医薬品等製造販売業者の名称
+    text: 二　製造販売業者又は選任外国製造医薬品等製造販売業者の名称
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-200-p2-kou-3
     type: kou
-    text: 製造番号又は製造記号
+    text: 三　製造番号又は製造記号
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-200-p2-kou-4
     type: kou
-    text: 検査の合格年月日
+    text: 四　検査の合格年月日
     modality: unspecified
     item_number: 4
 cases: []

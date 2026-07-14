@@ -23,18 +23,18 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-69-p1-kou-1
     type: kou
-    text: '当該業務を開始した場合　次に掲げる事項を記載した書類
+    text: '一　当該業務を開始した場合　次に掲げる事項を記載した書類
 
-      イ 当該業務の方法
+      イ　当該業務の方法
 
-      ロ 当該業務の損失の危険の管理方法
+      ロ　当該業務の損失の危険の管理方法
 
-      ハ 当該業務を行う部署の名称及び人員配置'
+      ハ　当該業務を行う部署の名称及び人員配置'
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-69-p1-kou-2
     type: kou
-    text: 当該業務を廃止した場合　当該業務の廃止に伴う顧客勘定の処理の方法を記載した書面
+    text: 二　当該業務を廃止した場合　当該業務の廃止に伴う顧客勘定の処理の方法を記載した書面
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-5-3-p1-kou-1
     type: kou
-    text: 当該届出書を提出する者が製造するバイオエタノール等揮発油（法第八十八条の七第一項に規定するバイオエタノール等揮発油をいう。以下この条、次条第四項及び第三十七条の七において同じ。）の規格及び規格ごとの一年間の製造見込数量
+    text: 一　当該届出書を提出する者が製造するバイオエタノール等揮発油（法第八十八条の七第一項に規定するバイオエタノール等揮発油をいう。以下この条、次条第四項及び第三十七条の七において同じ。）の規格及び規格ごとの一年間の製造見込数量
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-5-3-p1-kou-2
     type: kou
-    text: バイオエタノール等揮発油の製造の用に供するバイオエタノール等（施行令第四十六条の十三第一項に規定するバイオエタノール等をいう。第三項、次条第一項及び第四項並びに第三十七条の七において同じ。）の調達方法
+    text: 二　バイオエタノール等揮発油の製造の用に供するバイオエタノール等（施行令第四十六条の十三第一項に規定するバイオエタノール等をいう。第三項、次条第一項及び第四項並びに第三十七条の七において同じ。）の調達方法
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-5-3-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,17 +47,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-5-3-p2-kou-1
     type: kou
-    text: 当該届出書を提出する者が製造場から移出するバイオエタノール等揮発油の規格及び規格ごとの一年間の移出見込数量
+    text: 一　当該届出書を提出する者が製造場から移出するバイオエタノール等揮発油の規格及び規格ごとの一年間の移出見込数量
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-5-3-p2-kou-2
     type: kou
-    text: 法第八十八条の七第一項の規定の適用を受けようとするバイオエタノール等揮発油の調達方法
+    text: 二　法第八十八条の七第一項の規定の適用を受けようとするバイオエタノール等揮発油の調達方法
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-5-3-p2-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 3

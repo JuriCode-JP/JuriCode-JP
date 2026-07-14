@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定により他の道府県に支払うべき金額と同項の規定により他の道府県から支払を受けるべき金額は、関係道府県間で、それぞれ相殺するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

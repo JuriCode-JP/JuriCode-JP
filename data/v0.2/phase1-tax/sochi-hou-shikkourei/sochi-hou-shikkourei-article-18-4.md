@@ -34,17 +34,17 @@ paragraphs:
     - 次項
   - id: sochi-hou-shikkourei-art-18-4-p2-kou-1
     type: kou
-    text: 公害の発生による損失を補塡するための業務又は公害の発生の防止に資するための業務
+    text: 一　公害の発生による損失を補塡するための業務又は公害の発生の防止に資するための業務
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-18-4-p2-kou-2
     type: kou
-    text: 商品の価格の安定に資するための業務
+    text: 二　商品の価格の安定に資するための業務
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-18-4-p2-kou-3
     type: kou
-    text: 商品の価格の変動による異常な損失を補塡するための業務
+    text: 三　商品の価格の変動による異常な損失を補塡するための業務
     modality: unspecified
     item_number: 3
 - number: 3
@@ -58,17 +58,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-18-4-p3-kou-1
     type: kou
-    text: 当該公益法人等の業務に係る基金が法令の規定に基づいて行われる業務に係るものであること又は当該基金の額の相当部分が国若しくは地方公共団体により交付されているものであること。
+    text: 一　当該公益法人等の業務に係る基金が法令の規定に基づいて行われる業務に係るものであること又は当該基金の額の相当部分が国若しくは地方公共団体により交付されているものであること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-18-4-p3-kou-2
     type: kou
-    text: 当該公益法人等の業務に係る基金が当該業務の目的以外の目的に使用してはならない旨が当該公益法人等の定款等（法人税法第十三条第一項に規定する定款等をいう。次号において同じ。）において定められていることその他適正な方法で管理されていること。
+    text: 二　当該公益法人等の業務に係る基金が当該業務の目的以外の目的に使用してはならない旨が当該公益法人等の定款等（法人税法第十三条第一項に規定する定款等をいう。次号において同じ。）において定められていることその他適正な方法で管理されていること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-18-4-p3-kou-3
     type: kou
-    text: 当該公益法人等が解散した場合にその残余財産の額（出資の金額に相当する金額を除く。）が国若しくは地方公共団体又は前項各号に掲げる業務を行うことを主たる目的とする他の公益法人等に帰属する旨が法令又は当該公益法人等の定款等において定められていること。
+    text: 三　当該公益法人等が解散した場合にその残余財産の額（出資の金額に相当する金額を除く。）が国若しくは地方公共団体又は前項各号に掲げる業務を行うことを主たる目的とする他の公益法人等に帰属する旨が法令又は当該公益法人等の定款等において定められていること。
     modality: unspecified
     item_number: 3
 - number: 4

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_kei
   - id: kaisha-hou-art-967-p1-kou-1
     type: kou
-    text: 第九百六十条第一項各号又は第二項各号に掲げる者
+    text: 一　第九百六十条第一項各号又は第二項各号に掲げる者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-967-p1-kou-2
     type: kou
-    text: 第九百六十一条に規定する者
+    text: 二　第九百六十一条に規定する者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-967-p1-kou-3
     type: kou
-    text: 会計監査人又は第三百四十六条第四項の規定により選任された一時会計監査人の職務を行うべき者
+    text: 三　会計監査人又は第三百四十六条第四項の規定により選任された一時会計監査人の職務を行うべき者
     modality: unspecified
     item_number: 3
 - number: 2

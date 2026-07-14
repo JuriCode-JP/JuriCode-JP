@@ -25,32 +25,32 @@ paragraphs:
     - 次項
   - id: sochi-hou-art-91-2-p1-kou-1
     type: kou
-    text: 自然災害により滅失した建物又は自然災害により損壊したため取り壊した建物（第三号において「滅失等建物」という。）が所在した土地を譲渡する場合
+    text: 一　自然災害により滅失した建物又は自然災害により損壊したため取り壊した建物（第三号において「滅失等建物」という。）が所在した土地を譲渡する場合
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-91-2-p1-kou-2
     type: kou
-    text: 自然災害により損壊した建物（第六号において「損壊建物」という。）を譲渡する場合
+    text: 二　自然災害により損壊した建物（第六号において「損壊建物」という。）を譲渡する場合
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-91-2-p1-kou-3
     type: kou
-    text: 滅失等建物に代わるものとして政令で定める建物（以下この項において「代替建物」という。）の敷地の用に供する土地を取得する場合
+    text: 三　滅失等建物に代わるものとして政令で定める建物（以下この項において「代替建物」という。）の敷地の用に供する土地を取得する場合
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-91-2-p1-kou-4
     type: kou
-    text: 代替建物を取得する場合
+    text: 四　代替建物を取得する場合
     modality: unspecified
     item_number: 4
   - id: sochi-hou-art-91-2-p1-kou-5
     type: kou
-    text: 代替建物を新築する場合
+    text: 五　代替建物を新築する場合
     modality: unspecified
     item_number: 5
   - id: sochi-hou-art-91-2-p1-kou-6
     type: kou
-    text: 損壊建物を修繕する場合
+    text: 六　損壊建物を修繕する場合
     modality: unspecified
     item_number: 6
 - number: 2
@@ -63,8 +63,8 @@ paragraphs:
     text: 前項の場合において、同項の規定の適用を受ける被災者（以下この項において「非課税被災者」という。）と当該非課税被災者以外の者とが共同で作成した不動産譲渡契約書等については、当該非課税被災者が保存するものは当該非課税被災者が作成したものとみなし、当該非課税被災者以外の者が保存するものは当該非課税被災者以外の者が作成したものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

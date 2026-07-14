@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定による申告書（以下この節において「障害者非課税信託廃止申告書」という。）が同項に規定する税務署長に提出された場合には、同項に規定する受託者の営業所等においてこれを受理した日にその提出があつたものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -25,27 +25,27 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-106-11-p1-kou-1
     type: kou
-    text: 商号
+    text: 一　商号
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-106-11-p1-kou-2
     type: kou
-    text: 資本金の額
+    text: 二　資本金の額
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-106-11-p1-kou-3
     type: kou
-    text: 取締役及び監査役（監査等委員会設置会社にあつては取締役、指名委員会等設置会社にあつては取締役及び執行役）の氏名
+    text: 三　取締役及び監査役（監査等委員会設置会社にあつては取締役、指名委員会等設置会社にあつては取締役及び執行役）の氏名
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-106-11-p1-kou-4
     type: kou
-    text: 会計参与設置会社にあつては、会計参与の氏名又は名称
+    text: 四　会計参与設置会社にあつては、会計参与の氏名又は名称
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-106-11-p1-kou-5
     type: kou
-    text: 本店その他の営業所の名称及び所在地
+    text: 五　本店その他の営業所の名称及び所在地
     modality: unspecified
     item_number: 5
 - number: 2

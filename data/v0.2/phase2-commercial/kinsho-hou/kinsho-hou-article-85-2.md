@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-85-2-p1-kou-1
     type: kou
-    text: 名称
+    text: 一　名称
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-85-2-p1-kou-2
     type: kou
-    text: 委託する自主規制法人（以下この章において「受託自主規制法人」という。）の名称
+    text: 二　委託する自主規制法人（以下この章において「受託自主規制法人」という。）の名称
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-85-2-p1-kou-3
     type: kou
-    text: 委託する自主規制業務の内容
+    text: 三　委託する自主規制業務の内容
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-85-2-p1-kou-4
     type: kou
-    text: その他内閣府令で定める事項
+    text: 四　その他内閣府令で定める事項
     modality: unspecified
     item_number: 4
 - number: 2

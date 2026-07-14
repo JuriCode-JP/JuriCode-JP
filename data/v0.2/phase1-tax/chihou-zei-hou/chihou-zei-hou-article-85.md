@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu_kei
   - id: chihou-zei-hou-art-85-p1-kou-1
     type: kou
-    text: 前条第一項の規定による登録の申請をしなかつたとき。
+    text: 一　前条第一項の規定による登録の申請をしなかつたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-85-p1-kou-2
     type: kou
-    text: 前条第三項から第五項までの規定のいずれかに違反したとき。
+    text: 二　前条第三項から第五項までの規定のいずれかに違反したとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者がその法人又は人の業務に関して前項の違反行為をした場合には、その行為者を罰するほか、その法人又は人に対し、同項の罰金刑を科する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

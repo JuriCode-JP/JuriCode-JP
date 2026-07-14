@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-179-p1-kou-1
     type: kou
-    text: 自己資本規制比率が百四十パーセントを下回った場合
+    text: 一　自己資本規制比率が百四十パーセントを下回った場合
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-179-p1-kou-2
     type: kou
-    text: 自己資本規制比率が百四十パーセント以上に回復した場合
+    text: 二　自己資本規制比率が百四十パーセント以上に回復した場合
     modality: unspecified
     item_number: 2
 - number: 2
@@ -62,12 +62,12 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-179-p4-kou-1
     type: kou
-    text: 自己資本規制比率が百四十パーセントを下回った場合（次号に掲げる場合を除く。）　自己資本規制比率の状況を維持するために自らとるべき具体的措置に関する計画書
+    text: 一　自己資本規制比率が百四十パーセントを下回った場合（次号に掲げる場合を除く。）　自己資本規制比率の状況を維持するために自らとるべき具体的措置に関する計画書
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-179-p4-kou-2
     type: kou
-    text: 自己資本規制比率が百二十パーセントを下回った場合　自己資本規制比率の状況を回復させるために自らとるべき具体的措置に関する計画書
+    text: 二　自己資本規制比率が百二十パーセントを下回った場合　自己資本規制比率の状況を回復させるために自らとるべき具体的措置に関する計画書
     modality: unspecified
     item_number: 2
 - number: 5

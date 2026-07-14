@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p1-kou-1
     type: kou
-    text: 申請者の氏名等、納税地及び法人番号（法人番号を有しない者にあつては、氏名等及び納税地）
+    text: 一　申請者の氏名等、納税地及び法人番号（法人番号を有しない者にあつては、氏名等及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p1-kou-2
     type: kou
-    text: 申請者の電子メールアドレス
+    text: 二　申請者の電子メールアドレス
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,17 +47,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p2-kou-1
     type: kou
-    text: 購入記録情報の提供に使用する電子計算機及びプログラム（電子計算機に対する指令であつて、一の結果を得ることができるように組み合わされたものをいう。）の概要を記載した書類
+    text: 一　購入記録情報の提供に使用する電子計算機及びプログラム（電子計算機に対する指令であつて、一の結果を得ることができるように組み合わされたものをいう。）の概要を記載した書類
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p2-kou-2
     type: kou
-    text: 購入記録情報の提供に関する事務手続の概要を明らかにした書類
+    text: 二　購入記録情報の提供に関する事務手続の概要を明らかにした書類
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p2-kou-3
     type: kou
-    text: その他参考となるべき書類
+    text: 三　その他参考となるべき書類
     modality: unspecified
     item_number: 3
 - number: 3
@@ -80,17 +80,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p4-kou-1
     type: kou
-    text: 届出者の氏名等、納税地及び法人番号（法人番号を有しない者にあつては、氏名等及び納税地）
+    text: 一　届出者の氏名等、納税地及び法人番号（法人番号を有しない者にあつては、氏名等及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p4-kou-2
     type: kou
-    text: 変更の内容
+    text: 二　変更の内容
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p4-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 5
@@ -104,17 +104,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p5-kou-1
     type: kou
-    text: 届出者の氏名等、納税地及び法人番号（法人番号を有しない者にあつては、氏名等及び納税地）
+    text: 一　届出者の氏名等、納税地及び法人番号（法人番号を有しない者にあつては、氏名等及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p5-kou-2
     type: kou
-    text: 当該承認送信事業者に係る令第十八条の四第四項の承認を受けた年月日
+    text: 二　当該承認送信事業者に係る令第十八条の四第四項の承認を受けた年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-7-p5-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

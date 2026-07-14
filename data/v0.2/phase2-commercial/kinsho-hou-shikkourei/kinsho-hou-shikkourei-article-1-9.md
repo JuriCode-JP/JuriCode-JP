@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-1-9-p1-kou-1
     type: kou
-    text: 株式会社商工組合中央金庫
+    text: 一　株式会社商工組合中央金庫
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-1-9-p1-kou-2
     type: kou
-    text: 保険会社（保険業法第二条第二項に規定する保険会社をいい、同条第七項に規定する外国保険会社等を含む。以下同じ。）
+    text: 二　保険会社（保険業法第二条第二項に規定する保険会社をいい、同条第七項に規定する外国保険会社等を含む。以下同じ。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-1-9-p1-kou-3
     type: kou
-    text: 無尽会社
+    text: 三　無尽会社
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-1-9-p1-kou-4
     type: kou
-    text: 証券金融会社
+    text: 四　証券金融会社
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-1-9-p1-kou-5
     type: kou
-    text: 主としてコール資金の貸付け又はその貸借の媒介を業として行う者のうち金融庁長官の指定するもの
+    text: 五　主としてコール資金の貸付け又はその貸借の媒介を業として行う者のうち金融庁長官の指定するもの
     modality: unspecified
     item_number: 5
 cases: []

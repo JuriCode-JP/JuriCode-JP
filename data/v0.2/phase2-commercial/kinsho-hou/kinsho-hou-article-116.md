@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の規定により金融商品取引所が他の会員等に同項に規定する取引を結了させるときは、本人又はその一般承継人と他の会員等との間に、委任契約が成立していたものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

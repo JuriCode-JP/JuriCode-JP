@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-59-p1-kou-1
     type: kou
-    text: 定款の認証の年月日及びその認証をした公証人の氏名
+    text: 一　定款の認証の年月日及びその認証をした公証人の氏名
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-59-p1-kou-2
     type: kou
-    text: 第二十七条各号、第二十八条各号、第三十二条第一項各号及び前条第一項各号に掲げる事項
+    text: 二　第二十七条各号、第二十八条各号、第三十二条第一項各号及び前条第一項各号に掲げる事項
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-59-p1-kou-3
     type: kou
-    text: 発起人が出資した財産の価額
+    text: 三　発起人が出資した財産の価額
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-59-p1-kou-4
     type: kou
-    text: 第六十三条第一項の規定による払込みの取扱いの場所
+    text: 四　第六十三条第一項の規定による払込みの取扱いの場所
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-59-p1-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、法務省令で定める事項
+    text: 五　前各号に掲げるもののほか、法務省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -68,12 +68,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-59-p3-kou-1
     type: kou
-    text: 申込みをする者の氏名又は名称及び住所
+    text: 一　申込みをする者の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-59-p3-kou-2
     type: kou
-    text: 引き受けようとする設立時募集株式の数
+    text: 二　引き受けようとする設立時募集株式の数
     modality: unspecified
     item_number: 2
 - number: 4
@@ -86,8 +86,8 @@ paragraphs:
     text: 前項の申込みをする者は、同項の書面の交付に代えて、政令で定めるところにより、発起人の承諾を得て、同項の書面に記載すべき事項を電磁的方法により提供することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-59-p4-kou
     type: kou_dan
     text: この場合において、当該申込みをした者は、同項の書面を交付したものとみなす。

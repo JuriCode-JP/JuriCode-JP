@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-25-p1-kou-1
     type: kou
-    text: 事件の表示
+    text: 一　事件の表示
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-25-p1-kou-2
     type: kou
-    text: 審判官及び審判手続の事務を行う職員の氏名
+    text: 二　審判官及び審判手続の事務を行う職員の氏名
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-25-p1-kou-3
     type: kou
-    text: 指定職員の氏名
+    text: 三　指定職員の氏名
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-25-p1-kou-4
     type: kou
-    text: 出頭した被審人、代理人及び通訳人の氏名
+    text: 四　出頭した被審人、代理人及び通訳人の氏名
     modality: unspecified
     item_number: 4
   - id: kinsho-kachoukin-furei-art-25-p1-kou-5
     type: kou
-    text: 審判手続の期日及び場所
+    text: 五　審判手続の期日及び場所
     modality: unspecified
     item_number: 5
   - id: kinsho-kachoukin-furei-art-25-p1-kou-6
     type: kou
-    text: 審判手続の期日を公開したこと又は公開しなかったときはその旨及びその理由
+    text: 六　審判手続の期日を公開したこと又は公開しなかったときはその旨及びその理由
     modality: unspecified
     item_number: 6
   - id: kinsho-kachoukin-furei-art-25-p1-kou-7
     type: kou
-    text: 法第百八十条の二第一項に規定する方法により審判手続を行ったときは、その旨及び第十八条の二第一項第二号に掲げる事項
+    text: 七　法第百八十条の二第一項に規定する方法により審判手続を行ったときは、その旨及び第十八条の二第一項第二号に掲げる事項
     modality: unspecified
     item_number: 7
 - number: 2

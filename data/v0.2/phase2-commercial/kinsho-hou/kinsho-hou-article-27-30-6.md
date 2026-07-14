@@ -35,8 +35,8 @@ paragraphs:
     text: 前項の規定による通知は、ファイルへの記録がされた時に同項の電子開示手続又は任意電子開示手続を行つた者から発せられたものとみなし、当該記録がされた後通常その出力に要する時間が経過した時に当該通知の相手方に到達したものと推定する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-18-2-p1-kou-1
     type: kou
-    text: 通話者
+    text: 一　通話者
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-18-2-p1-kou-2
     type: kou
-    text: 通話者の所在する場所の状況が当該方法によって審判手続を行うために適切なものであること。
+    text: 二　通話者の所在する場所の状況が当該方法によって審判手続を行うために適切なものであること。
     modality: unspecified
     item_number: 2
 - number: 2

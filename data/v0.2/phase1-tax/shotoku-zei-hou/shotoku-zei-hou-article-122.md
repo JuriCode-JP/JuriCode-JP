@@ -25,22 +25,22 @@ paragraphs:
     - 次条
   - id: shotoku-zei-hou-art-122-p1-kou-1
     type: kou
-    text: 第百二十条第一項第三号に掲げる所得税の額の計算上控除しきれなかつた外国税額控除の額がある場合には、その控除しきれなかつた金額
+    text: 一　第百二十条第一項第三号に掲げる所得税の額の計算上控除しきれなかつた外国税額控除の額がある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-122-p1-kou-2
     type: kou
-    text: 第百二十条第一項第四号に掲げる金額の計算上控除しきれなかつた同号に規定する源泉徴収税額がある場合には、その控除しきれなかつた金額
+    text: 二　第百二十条第一項第四号に掲げる金額の計算上控除しきれなかつた同号に規定する源泉徴収税額がある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-122-p1-kou-3
     type: kou
-    text: 第百二十条第一項第五号に掲げる金額の計算上控除しきれなかつた同条第二項に規定する予納税額がある場合には、その控除しきれなかつた金額
+    text: 三　第百二十条第一項第五号に掲げる金額の計算上控除しきれなかつた同条第二項に規定する予納税額がある場合には、その控除しきれなかつた金額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-art-122-p1-kou-4
     type: kou
-    text: 前三号に掲げる金額の計算の基礎その他財務省令で定める事項
+    text: 四　前三号に掲げる金額の計算の基礎その他財務省令で定める事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -53,8 +53,8 @@ paragraphs:
     text: 居住者は、第百二十条第一項の規定による申告書を提出すべき場合及び前項又は次条第一項の規定による申告書を提出することができる場合に該当しない場合においても、その年の翌年分以後の各年分の所得税について第九十五条第二項又は第三項（外国税額控除）の規定の適用を受けるため必要があるときは、税務署長に対し、第百二十条第一項各号に掲げる事項を記載した申告書を提出することができる。
     modality: kanou_kenri
     references:
-    - 次条
     - 前項
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false

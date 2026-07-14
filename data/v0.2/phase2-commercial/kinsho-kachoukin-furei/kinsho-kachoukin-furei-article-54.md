@@ -35,8 +35,8 @@ paragraphs:
     text: 審判手続の事務を行う職員は、前項の書面について同項の申出をする者の相手方に送付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

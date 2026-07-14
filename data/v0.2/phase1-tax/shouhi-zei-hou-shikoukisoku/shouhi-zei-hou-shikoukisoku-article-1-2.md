@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-1-2-p1-kou-1
     type: kou
-    text: 六十歳以上の者
+    text: 一　六十歳以上の者
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-1-2-p1-kou-2
     type: kou
-    text: 介護保険法（平成九年法律第百二十三号）第十九条第一項（市町村の認定）に規定する要介護認定又は同条第二項に規定する要支援認定を受けている六十歳未満の者
+    text: 二　介護保険法（平成九年法律第百二十三号）第十九条第一項（市町村の認定）に規定する要介護認定又は同条第二項に規定する要支援認定を受けている六十歳未満の者
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-1-2-p1-kou-3
     type: kou
-    text: 前二号のいずれかに該当する者と同居している配偶者（前二号のいずれかに該当する者を除き、その者と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者を含む。）
+    text: 三　前二号のいずれかに該当する者と同居している配偶者（前二号のいずれかに該当する者を除き、その者と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者を含む。）
     modality: unspecified
     item_number: 3
 cases: []

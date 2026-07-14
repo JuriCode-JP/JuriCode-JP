@@ -23,12 +23,12 @@ paragraphs:
     modality: koka_torikeshi
   - id: chihou-jichi-hou-art-260-45-p1-kou-1
     type: kou
-    text: 第二百六十条の三十九第三項の認可をした日から六月を経過しても第二百六十条の四十一第三項の規定による届出がないとき。
+    text: 一　第二百六十条の三十九第三項の認可をした日から六月を経過しても第二百六十条の四十一第三項の規定による届出がないとき。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-260-45-p1-kou-2
     type: kou
-    text: 認可地縁団体が不正な手段により第二百六十条の三十九第三項の認可を受けたとき。
+    text: 二　認可地縁団体が不正な手段により第二百六十条の三十九第三項の認可を受けたとき。
     modality: unspecified
     item_number: 2
 - number: 2

@@ -25,17 +25,17 @@ paragraphs:
     - 次条
   - id: chihou-zei-hou-art-26-p1-kou-1
     type: kou
-    text: 納税義務者又は納税義務があると認められる者
+    text: 一　納税義務者又は納税義務があると認められる者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-26-p1-kou-2
     type: kou
-    text: 特別徴収義務者
+    text: 二　特別徴収義務者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-26-p1-kou-3
     type: kou
-    text: 前二号に掲げる者以外の者で当該道府県民税の賦課徴収に関し直接関係があると認められる者
+    text: 三　前二号に掲げる者以外の者で当該道府県民税の賦課徴収に関し直接関係があると認められる者
     modality: unspecified
     item_number: 3
 - number: 2

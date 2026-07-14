@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-150-p1-kou-1
     type: kou
-    text: 財務に関する事務その他総務省令で定める事務
+    text: 一　財務に関する事務その他総務省令で定める事務
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-150-p1-kou-2
     type: kou
-    text: 前号に掲げるもののほか、その管理及び執行が法令に適合し、かつ、適正に行われることを特に確保する必要がある事務として当該都道府県知事又は指定都市の市長が認めるもの
+    text: 二　前号に掲げるもののほか、その管理及び執行が法令に適合し、かつ、適正に行われることを特に確保する必要がある事務として当該都道府県知事又は指定都市の市長が認めるもの
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: doryoku_gimu
   - id: chihou-jichi-hou-art-150-p2-kou-1
     type: kou
-    text: 前項第一号に掲げる事務
+    text: 一　前項第一号に掲げる事務
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-150-p2-kou-2
     type: kou
-    text: 前号に掲げるもののほか、その管理及び執行が法令に適合し、かつ、適正に行われることを特に確保する必要がある事務として当該市町村長が認めるもの
+    text: 二　前号に掲げるもののほか、その管理及び執行が法令に適合し、かつ、適正に行われることを特に確保する必要がある事務として当該市町村長が認めるもの
     modality: unspecified
     item_number: 2
 - number: 3

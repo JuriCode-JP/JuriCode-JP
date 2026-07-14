@@ -31,8 +31,8 @@ paragraphs:
     text: 税務署長は、前項の規定による還付金の還付をする場合において、同項の中間申告書に係る中間納付額について納付された延滞税があるときは、その額のうち、同項の規定により還付される中間納付額に対応するものとして政令で定めるところにより計算した金額を併せて還付する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: true
@@ -44,12 +44,12 @@ paragraphs:
     modality: unspecified
   - id: shouhi-zei-hou-art-53-p3-kou-1
     type: kou
-    text: 第四十五条第一項の規定による申告書（当該申告書の提出期限内に提出されたものを除く。）　当該申告書の提出期限の翌日からその提出された日までの日数
+    text: 一　第四十五条第一項の規定による申告書（当該申告書の提出期限内に提出されたものを除く。）　当該申告書の提出期限の翌日からその提出された日までの日数
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-53-p3-kou-2
     type: kou
-    text: 第四十六条第一項の規定による申告書で当該申告書に係る課税期間の末日の翌日から二月を経過する日の翌日以後に提出されたもの　当該翌日からその提出された日までの日数
+    text: 二　第四十六条第一項の規定による申告書で当該申告書に係る課税期間の末日の翌日から二月を経過する日の翌日以後に提出されたもの　当該翌日からその提出された日までの日数
     modality: unspecified
     item_number: 2
 - number: 4
@@ -80,8 +80,8 @@ paragraphs:
     text: 前三項に定めるもののほか、第一項又は第二項の還付の手続、第一項の規定による還付金（これに係る還付加算金を含む。）につき充当をする場合の方法その他同項又は第二項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前三項
+    - 同項
 cases: []
 amendments:
 - effective_date: '2020-04-01'

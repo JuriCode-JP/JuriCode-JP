@@ -23,32 +23,32 @@ paragraphs:
     modality: koka_torikeshi
   - id: keiji-soshou-hou-art-96-p1-kou-1
     type: kou
-    text: 被告人が、召喚を受け正当な理由がなく出頭しないとき。
+    text: 一　被告人が、召喚を受け正当な理由がなく出頭しないとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-96-p1-kou-2
     type: kou
-    text: 被告人が逃亡し又は逃亡すると疑うに足りる相当な理由があるとき。
+    text: 二　被告人が逃亡し又は逃亡すると疑うに足りる相当な理由があるとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-96-p1-kou-3
     type: kou
-    text: 被告人が罪証を隠滅し又は罪証を隠滅すると疑うに足りる相当な理由があるとき。
+    text: 三　被告人が罪証を隠滅し又は罪証を隠滅すると疑うに足りる相当な理由があるとき。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-96-p1-kou-4
     type: kou
-    text: 被告人が、被害者その他事件の審判に必要な知識を有すると認められる者若しくはその親族の身体若しくは財産に害を加え若しくは加えようとし、又はこれらの者を畏怖させる行為をしたとき。
+    text: 四　被告人が、被害者その他事件の審判に必要な知識を有すると認められる者若しくはその親族の身体若しくは財産に害を加え若しくは加えようとし、又はこれらの者を畏怖させる行為をしたとき。
     modality: unspecified
     item_number: 4
   - id: keiji-soshou-hou-art-96-p1-kou-5
     type: kou
-    text: 被告人が、正当な理由がなく前条第一項の規定による報告をせず、又は虚偽の報告をしたとき。
+    text: 五　被告人が、正当な理由がなく前条第一項の規定による報告をせず、又は虚偽の報告をしたとき。
     modality: unspecified
     item_number: 5
   - id: keiji-soshou-hou-art-96-p1-kou-6
     type: kou
-    text: 被告人が住居の制限その他裁判所の定めた条件に違反したとき。
+    text: 六　被告人が住居の制限その他裁判所の定めた条件に違反したとき。
     modality: unspecified
     item_number: 6
 - number: 2

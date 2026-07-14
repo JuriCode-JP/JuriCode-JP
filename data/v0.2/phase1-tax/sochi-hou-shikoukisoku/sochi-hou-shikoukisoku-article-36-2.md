@@ -22,8 +22,8 @@ paragraphs:
     text: 施行令第四十五条の四第一項に規定する財務省令で定める証明書は、その者が法第八十六条第一項に規定する外国の大使館等又は大使等に該当すること及び外交、領事その他の任務を遂行するために必要なものとして資産の購入等（同項に規定する課税資産の譲渡等に係る資産を譲り受け、若しくは借り受け、又は当該課税資産の譲渡等に係る役務の提供を受けることをいう。次項において同じ。）をするものであることにつき外務省大臣官房儀典総括官から交付を受けた証明書とする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 2
   has_proviso: false
   has_items: true
@@ -35,27 +35,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-36-2-p2-kou-1
     type: kou
-    text: 資産の購入等をする者の氏名又は名称（資産等の購入をする者が法第八十六条第一項に規定する大使等である場合には、同項に規定する大使館等の名称を含む。）
+    text: 一　資産の購入等をする者の氏名又は名称（資産等の購入をする者が法第八十六条第一項に規定する大使等である場合には、同項に規定する大使館等の名称を含む。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-36-2-p2-kou-2
     type: kou
-    text: 資産の購入等に係る施行令第四十五条の四第一項に規定する証明書の番号
+    text: 二　資産の購入等に係る施行令第四十五条の四第一項に規定する証明書の番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-36-2-p2-kou-3
     type: kou
-    text: 資産の購入等の相手方の氏名又は名称
+    text: 三　資産の購入等の相手方の氏名又は名称
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-36-2-p2-kou-4
     type: kou
-    text: 資産の購入等を行つた年月日
+    text: 四　資産の購入等を行つた年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-36-2-p2-kou-5
     type: kou
-    text: 資産の購入等に係る資産又は役務の内容（資産にあつては、数量を含む。）及び価額
+    text: 五　資産の購入等に係る資産又は役務の内容（資産にあつては、数量を含む。）及び価額
     modality: unspecified
     item_number: 5
 - number: 3
@@ -82,8 +82,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

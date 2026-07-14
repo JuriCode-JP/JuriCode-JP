@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-24-42-p1-kou-1
     type: kou
-    text: 法第七百四十七条の六第二項に規定する特定徴収金（以下「特定徴収金」という。）の納付又は納入を行つた者の名称（次条第一項第一号に規定する方法により納付し、又は納入する場合に限る。）
+    text: 一　法第七百四十七条の六第二項に規定する特定徴収金（以下「特定徴収金」という。）の納付又は納入を行つた者の名称（次条第一項第一号に規定する方法により納付し、又は納入する場合に限る。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-24-42-p1-kou-2
     type: kou
-    text: 特定徴収金の納付又は納入が行われた日
+    text: 二　特定徴収金の納付又は納入が行われた日
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-24-42-p1-kou-3
     type: kou
-    text: 特定徴収金の収納を行つた法第七百四十七条の六第三項に規定する特定金融機関等（第三十一条の五第四号及び第三十一条の六第四号において「特定金融機関等」という。）又は特定徴収金の納付若しくは納入の委託を受けた法第七百四十七条の八第一項に規定する機構指定納付受託者（以下「機構指定納付受託者」という。）の名称その他のこれらの者を識別するための事項
+    text: 三　特定徴収金の収納を行つた法第七百四十七条の六第三項に規定する特定金融機関等（第三十一条の五第四号及び第三十一条の六第四号において「特定金融機関等」という。）又は特定徴収金の納付若しくは納入の委託を受けた法第七百四十七条の八第一項に規定する機構指定納付受託者（以下「機構指定納付受託者」という。）の名称その他のこれらの者を識別するための事項
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-24-42-p1-kou-4
     type: kou
-    text: 特定徴収金の税目（税目を識別するための符号その他の事項を含む。）及び金額
+    text: 四　特定徴収金の税目（税目を識別するための符号その他の事項を含む。）及び金額
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-24-42-p1-kou-5
     type: kou
-    text: 前条第一号又は第二号に規定する符号
+    text: 五　前条第一号又は第二号に規定する符号
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-24-42-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 2

@@ -37,9 +37,9 @@ paragraphs:
     text: 募集株式の引受人が前条第一項各号に規定する支払をする義務を負う場合において、前項に規定する者が同項の義務を負うときは、これらの者は、連帯債務者とする。
     modality: gimu
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

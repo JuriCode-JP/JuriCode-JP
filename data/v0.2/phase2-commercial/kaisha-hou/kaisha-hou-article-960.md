@@ -23,42 +23,42 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-960-p1-kou-1
     type: kou
-    text: 発起人
+    text: 一　発起人
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-960-p1-kou-2
     type: kou
-    text: 設立時取締役又は設立時監査役
+    text: 二　設立時取締役又は設立時監査役
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-960-p1-kou-3
     type: kou
-    text: 取締役、会計参与、監査役又は執行役
+    text: 三　取締役、会計参与、監査役又は執行役
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-960-p1-kou-4
     type: kou
-    text: 民事保全法第五十六条に規定する仮処分命令により選任された取締役、監査役又は執行役の職務を代行する者
+    text: 四　民事保全法第五十六条に規定する仮処分命令により選任された取締役、監査役又は執行役の職務を代行する者
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-960-p1-kou-5
     type: kou
-    text: 第三百四十六条第二項、第三百五十一条第二項又は第四百一条第三項（第四百三条第三項及び第四百二十条第三項において準用する場合を含む。）の規定により選任された一時取締役（監査等委員会設置会社にあっては、監査等委員である取締役又はそれ以外の取締役）、会計参与、監査役、代表取締役、委員（指名委員会、監査委員会又は報酬委員会の委員をいう。）、執行役又は代表執行役の職務を行うべき者
+    text: 五　第三百四十六条第二項、第三百五十一条第二項又は第四百一条第三項（第四百三条第三項及び第四百二十条第三項において準用する場合を含む。）の規定により選任された一時取締役（監査等委員会設置会社にあっては、監査等委員である取締役又はそれ以外の取締役）、会計参与、監査役、代表取締役、委員（指名委員会、監査委員会又は報酬委員会の委員をいう。）、執行役又は代表執行役の職務を行うべき者
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-960-p1-kou-6
     type: kou
-    text: 支配人
+    text: 六　支配人
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-960-p1-kou-7
     type: kou
-    text: 事業に関するある種類又は特定の事項の委任を受けた使用人
+    text: 七　事業に関するある種類又は特定の事項の委任を受けた使用人
     modality: unspecified
     item_number: 7
   - id: kaisha-hou-art-960-p1-kou-8
     type: kou
-    text: 検査役
+    text: 八　検査役
     modality: unspecified
     item_number: 8
 - number: 2
@@ -74,32 +74,32 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-960-p2-kou-1
     type: kou
-    text: 清算株式会社の清算人
+    text: 一　清算株式会社の清算人
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-960-p2-kou-2
     type: kou
-    text: 民事保全法第五十六条に規定する仮処分命令により選任された清算株式会社の清算人の職務を代行する者
+    text: 二　民事保全法第五十六条に規定する仮処分命令により選任された清算株式会社の清算人の職務を代行する者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-960-p2-kou-3
     type: kou
-    text: 第四百七十九条第四項において準用する第三百四十六条第二項又は第四百八十三条第六項において準用する第三百五十一条第二項の規定により選任された一時清算人又は代表清算人の職務を行うべき者
+    text: 三　第四百七十九条第四項において準用する第三百四十六条第二項又は第四百八十三条第六項において準用する第三百五十一条第二項の規定により選任された一時清算人又は代表清算人の職務を行うべき者
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-960-p2-kou-4
     type: kou
-    text: 清算人代理
+    text: 四　清算人代理
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-960-p2-kou-5
     type: kou
-    text: 監督委員
+    text: 五　監督委員
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-960-p2-kou-6
     type: kou
-    text: 調査委員
+    text: 六　調査委員
     modality: unspecified
     item_number: 6
 cases: []

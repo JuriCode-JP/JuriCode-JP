@@ -33,16 +33,16 @@ paragraphs:
     text: 前項に規定する調整控除額とは、その年分において同項の特定贈与者から取得した財産の価額から法第二十一条の十一の二第一項の規定により控除した金額に当該年分における第一号に掲げる価額が当該年分における第二号に掲げる金額のうちに占める割合を乗じて計算した金額をいう。
     modality: teigi
     references:
-    - 同項
     - 前項
+    - 同項
   - id: souzoku-zei-hou-shikkourei-art-5-2-2-p2-kou-1
     type: kou
-    text: 一親等時贈与財産の価額
+    text: 一　一親等時贈与財産の価額
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-5-2-2-p2-kou-2
     type: kou
-    text: 一親等時贈与財産の価額と一親等時贈与財産以外の財産の価額との合計額
+    text: 二　一親等時贈与財産の価額と一親等時贈与財産以外の財産の価額との合計額
     modality: unspecified
     item_number: 2
 cases: []

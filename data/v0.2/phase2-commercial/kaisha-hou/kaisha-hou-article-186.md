@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-186-p1-kou-1
     type: kou
-    text: 株主に割り当てる株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）又はその数の算定方法
+    text: 一　株主に割り当てる株式の数（種類株式発行会社にあっては、株式の種類及び種類ごとの数）又はその数の算定方法
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-186-p1-kou-2
     type: kou
-    text: 当該株式無償割当てがその効力を生ずる日
+    text: 二　当該株式無償割当てがその効力を生ずる日
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-186-p1-kou-3
     type: kou
-    text: 株式会社が種類株式発行会社である場合には、当該株式無償割当てを受ける株主の有する株式の種類
+    text: 三　株式会社が種類株式発行会社である場合には、当該株式無償割当てを受ける株主の有する株式の種類
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項第一号に掲げる事項についての定めは、当該株式会社以外の株主（種類株式発行会社にあっては、同項第三号の種類の種類株主）の有する株式（種類株式発行会社にあっては、同項第三号の種類の株式）の数に応じて同項第一号の株式を割り当てることを内容とするものでなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false

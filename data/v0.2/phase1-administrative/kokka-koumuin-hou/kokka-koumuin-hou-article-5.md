@@ -41,17 +41,17 @@ paragraphs:
     modality: kanou_negative
   - id: kokka-koumuin-hou-art-5-p3-kou-1
     type: kou
-    text: 破産手続開始の決定を受けて復権を得ない者
+    text: 一　破産手続開始の決定を受けて復権を得ない者
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-5-p3-kou-2
     type: kou
-    text: 拘禁刑以上の刑に処せられた者又は第四章に規定する罪を犯し、刑に処せられた者
+    text: 二　拘禁刑以上の刑に処せられた者又は第四章に規定する罪を犯し、刑に処せられた者
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-5-p3-kou-3
     type: kou
-    text: 第三十八条第二号又は第四号に該当する者
+    text: 三　第三十八条第二号又は第四号に該当する者
     modality: unspecified
     item_number: 3
 - number: 4

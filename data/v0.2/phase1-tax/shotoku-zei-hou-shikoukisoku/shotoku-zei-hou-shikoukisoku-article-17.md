@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-17-p1-kou-1
     type: kou
-    text: 令第五十一条の五第二項の規定による申請書を提出する農業協同組合連合会（以下この条において「申請法人」という。）の名称及び主たる事務所の所在地
+    text: 一　令第五十一条の五第二項の規定による申請書を提出する農業協同組合連合会（以下この条において「申請法人」という。）の名称及び主たる事務所の所在地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-17-p1-kou-2
     type: kou
-    text: 申請法人が設置する病院又は診療所の名称及び所在地
+    text: 二　申請法人が設置する病院又は診療所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-17-p1-kou-3
     type: kou
-    text: 申請法人が農業協同組合法（昭和二十二年法律第百三十二号）第十条第一項第十二号（老人の福祉に関する施設）に掲げる事業を行う場合には、その設置する老人の福祉に関する施設の名称及び所在地
+    text: 三　申請法人が農業協同組合法（昭和二十二年法律第百三十二号）第十条第一項第十二号（老人の福祉に関する施設）に掲げる事業を行う場合には、その設置する老人の福祉に関する施設の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-17-p1-kou-4
     type: kou
-    text: 申請法人の理事の氏名及び住所又は居所
+    text: 四　申請法人の理事の氏名及び住所又は居所
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-17-p1-kou-5
     type: kou
-    text: 申請法人の行う事業の概要
+    text: 五　申請法人の行う事業の概要
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-17-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 2

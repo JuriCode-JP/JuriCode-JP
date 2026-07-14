@@ -23,27 +23,27 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-art-156-86-p1-kou-1
     type: kou
-    text: 商号、名称又は氏名
+    text: 一　商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-86-p1-kou-2
     type: kou
-    text: 法人であるときは、資本金の額又は出資の総額
+    text: 二　法人であるときは、資本金の額又は出資の総額
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-86-p1-kou-3
     type: kou
-    text: 法人であるときは、役員の氏名又は名称
+    text: 三　法人であるときは、役員の氏名又は名称
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-86-p1-kou-4
     type: kou
-    text: 本店又は主たる営業所若しくは事務所の名称及び所在地
+    text: 四　本店又は主たる営業所若しくは事務所の名称及び所在地
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-86-p1-kou-5
     type: kou
-    text: その他内閣府令で定める事項
+    text: 五　その他内閣府令で定める事項
     modality: unspecified
     item_number: 5
 - number: 2

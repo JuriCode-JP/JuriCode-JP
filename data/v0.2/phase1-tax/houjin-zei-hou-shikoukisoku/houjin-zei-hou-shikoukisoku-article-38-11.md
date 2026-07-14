@@ -34,12 +34,12 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p2-kou-1
     type: kou
-    text: 令第百五十五条の十二第二項第一号に定める割合
+    text: 一　令第百五十五条の十二第二項第一号に定める割合
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p2-kou-2
     type: kou
-    text: 令第百五十五条の十二第二項第二号に定める割合
+    text: 二　令第百五十五条の十二第二項第二号に定める割合
     modality: unspecified
     item_number: 2
 - number: 3
@@ -55,12 +55,12 @@ paragraphs:
     - 前項
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p3-kou-1
     type: kou
-    text: 令第百五十五条の十二第二項第一号に掲げる権利のみを有する場合　前項中「第一号に掲げる割合に三分の二を乗じて計算した割合と第二号に掲げる割合に三分の一を乗じて計算した割合との合計割合」とあるのは、「第一号に掲げる割合」とする。
+    text: 一　令第百五十五条の十二第二項第一号に掲げる権利のみを有する場合　前項中「第一号に掲げる割合に三分の二を乗じて計算した割合と第二号に掲げる割合に三分の一を乗じて計算した割合との合計割合」とあるのは、「第一号に掲げる割合」とする。
     modality: gimu
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p3-kou-2
     type: kou
-    text: 令第百五十五条の十二第二項第二号に掲げる権利のみを有する場合　前項中「第一号に掲げる割合に三分の二を乗じて計算した割合と第二号に掲げる割合に三分の一を乗じて計算した割合との合計割合」とあるのは、「第二号に掲げる割合」とする。
+    text: 二　令第百五十五条の十二第二項第二号に掲げる権利のみを有する場合　前項中「第一号に掲げる割合に三分の二を乗じて計算した割合と第二号に掲げる割合に三分の一を乗じて計算した割合との合計割合」とあるのは、「第二号に掲げる割合」とする。
     modality: gimu
     item_number: 2
 - number: 4
@@ -76,17 +76,17 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p4-kou-1
     type: kou
-    text: 令第百五十五条の十二第二項に規定する当該直前の対象会計年度に生じた利益の配当を受ける権利　その権利に基づき受けることができる金額の合計額がその権利に基づき受けることができる金額の総額のうちに占める割合
+    text: 一　令第百五十五条の十二第二項に規定する当該直前の対象会計年度に生じた利益の配当を受ける権利　その権利に基づき受けることができる金額の合計額がその権利に基づき受けることができる金額の総額のうちに占める割合
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p4-kou-2
     type: kou
-    text: 令第百五十五条の十二第二項に規定する当該それ以外の権利　その権利に基づき受けることができる金額の合計額がその権利に基づき受けることができる金額の総額のうちに占める割合
+    text: 二　令第百五十五条の十二第二項に規定する当該それ以外の権利　その権利に基づき受けることができる金額の合計額がその権利に基づき受けることができる金額の総額のうちに占める割合
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p4-kou-3
     type: kou
-    text: 令第百五十五条の十二第二項第二号に掲げる権利　その権利に基づき受けることができる金額の合計額がその権利に基づき受けることができる金額の総額のうちに占める割合
+    text: 三　令第百五十五条の十二第二項第二号に掲げる権利　その権利に基づき受けることができる金額の合計額がその権利に基づき受けることができる金額の総額のうちに占める割合
     modality: unspecified
     item_number: 3
 - number: 5
@@ -102,12 +102,12 @@ paragraphs:
     - 前項
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p5-kou-1
     type: kou
-    text: 前項各号に掲げる権利のうちいずれか一つのみを有する場合　同項中「に三分の一を乗じて計算した割合の合計割合」とあるのは、「（その権利を有するものに係るものに限る。）」とする。
+    text: 一　前項各号に掲げる権利のうちいずれか一つのみを有する場合　同項中「に三分の一を乗じて計算した割合の合計割合」とあるのは、「（その権利を有するものに係るものに限る。）」とする。
     modality: gimu
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p5-kou-2
     type: kou
-    text: 前項各号に掲げる権利のうちいずれか一つのみを有しない場合　同項中「に三分の一」とあるのは、「（その権利を有するものに係るものに限る。）に二分の一」とする。
+    text: 二　前項各号に掲げる権利のうちいずれか一つのみを有しない場合　同項中「に三分の一」とあるのは、「（その権利を有するものに係るものに限る。）に二分の一」とする。
     modality: gimu
     item_number: 2
 - number: 6
@@ -121,17 +121,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p6-kou-1
     type: kou
-    text: 当該会社等が主として令第百五十五条の十二第三項第三号に規定する除外会社等の事業に付随する事業を行うものであること。
+    text: 一　当該会社等が主として令第百五十五条の十二第三項第三号に規定する除外会社等の事業に付随する事業を行うものであること。
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p6-kou-2
     type: kou
-    text: 当該会社等の事業のおおむね全部が令第百五十五条の十二第三項第三号に規定する除外会社等のために行われる資産の運用又は保有であること。
+    text: 二　当該会社等の事業のおおむね全部が令第百五十五条の十二第三項第三号に規定する除外会社等のために行われる資産の運用又は保有であること。
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-11-p6-kou-3
     type: kou
-    text: 当該会社等の各対象会計年度に係る収益の額のおおむね全部が令第百五十五条の十三第四項各号（各種投資会社等の範囲）に掲げる金額のいずれかであること。
+    text: 三　当該会社等の各対象会計年度に係る収益の額のおおむね全部が令第百五十五条の十三第四項各号（各種投資会社等の範囲）に掲げる金額のいずれかであること。
     modality: unspecified
     item_number: 3
 cases: []

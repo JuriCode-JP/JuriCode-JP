@@ -33,26 +33,26 @@ paragraphs:
     text: 法第九十条の六第一項の規定により同項の石油石炭税額に相当する金額の還付を受けようとする重油の製造者は、当該重油が同項に規定する方法により購入された日から一年以内に、次に掲げる事項を記載した申請書に前項に規定する書類を添付して、当該重油の製造場（財務省令で定めるところにより国税庁長官の承認を受けたときは、当該承認を受けた場所）の所在地の所轄税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: sochi-hou-shikkourei-art-50-p2-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-p2-kou-2
     type: kou
-    text: 当該重油の製造場の所在地及び名称
+    text: 二　当該重油の製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-p2-kou-3
     type: kou
-    text: 法第九十条の六第一項に規定する方法により購入された当該重油の数量
+    text: 三　法第九十条の六第一項に規定する方法により購入された当該重油の数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-50-p2-kou-4
     type: kou
-    text: 還付を受けようとする金額
+    text: 四　還付を受けようとする金額
     modality: unspecified
     item_number: 4
 - number: 3
@@ -68,17 +68,17 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-50-p3-kou-1
     type: kou
-    text: 製造した当該重油の数量及び製造の年月日
+    text: 一　製造した当該重油の数量及び製造の年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-p3-kou-2
     type: kou
-    text: 貯蔵している当該重油の数量
+    text: 二　貯蔵している当該重油の数量
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-p3-kou-3
     type: kou
-    text: 移出した当該重油の数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称
+    text: 三　移出した当該重油の数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 3
 - number: 4
@@ -94,17 +94,17 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-50-p4-kou-1
     type: kou
-    text: 購入した当該重油の数量、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
+    text: 一　購入した当該重油の数量、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-p4-kou-2
     type: kou
-    text: 販売した当該重油の数量、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
+    text: 二　販売した当該重油の数量、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-p4-kou-3
     type: kou
-    text: 返品した当該重油の数量、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
+    text: 三　返品した当該重油の数量、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 3
 - number: 5
@@ -118,22 +118,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-50-p5-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-p5-kou-2
     type: kou
-    text: 当該重油の所在場所又は使用場所の所在地及び名称
+    text: 二　当該重油の所在場所又は使用場所の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-p5-kou-3
     type: kou
-    text: 当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする当該重油の数量
+    text: 三　当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする当該重油の数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-50-p5-kou-4
     type: kou
-    text: 当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする理由
+    text: 四　当該用途以外の用途に供し、又は当該用途以外の用途に供するため譲渡をしようとする理由
     modality: unspecified
     item_number: 4
 cases: []

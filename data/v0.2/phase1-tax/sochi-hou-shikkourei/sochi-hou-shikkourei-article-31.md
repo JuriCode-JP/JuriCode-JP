@@ -36,12 +36,12 @@ paragraphs:
     - 次項
   - id: sochi-hou-shikkourei-art-31-p2-kou-1
     type: kou
-    text: 当該特別償却対象資産に係る法人税法施行令第七十九条の二第一号、第八十二条第一号、第八十二条の三第一号、第八十三条の四第一号又は第八十五条第一項第三号に掲げる金額
+    text: 一　当該特別償却対象資産に係る法人税法施行令第七十九条の二第一号、第八十二条第一号、第八十二条の三第一号、第八十三条の四第一号又は第八十五条第一項第三号に掲げる金額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-31-p2-kou-2
     type: kou
-    text: 当該特別償却対象資産につき法人税法施行令第五十四条第三項の規定により同条第一項各号に定める金額から控除した金額
+    text: 二　当該特別償却対象資産につき法人税法施行令第五十四条第三項の規定により同条第一項各号に定める金額から控除した金額
     modality: unspecified
     item_number: 2
 - number: 3

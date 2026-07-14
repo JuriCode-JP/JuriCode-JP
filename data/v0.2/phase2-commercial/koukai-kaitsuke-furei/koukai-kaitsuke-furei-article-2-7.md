@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-2-7-p1-kou-1
     type: kou
-    text: 第二条の二第一号に規定する社債券の取得をしている場合
+    text: 一　第二条の二第一号に規定する社債券の取得をしている場合
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-2-7-p1-kou-2
     type: kou
-    text: 株券等を所有する法人等の株式又は出資の有償の取得をしている場合であって、第二条の二第二号に該当するとき（当該法人等が株券等の買付け等を行う者の特別関係者（法第二十七条の二第一項第一号に規定する特別関係者をいう。）である場合を除く。）。
+    text: 二　株券等を所有する法人等の株式又は出資の有償の取得をしている場合であって、第二条の二第二号に該当するとき（当該法人等が株券等の買付け等を行う者の特別関係者（法第二十七条の二第一項第一号に規定する特別関係者をいう。）である場合を除く。）。
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-2-7-p1-kou-3
     type: kou
-    text: 株券等の発行者との間で当該発行者が新たに発行する株券等の取得について合意している場合
+    text: 三　株券等の発行者との間で当該発行者が新たに発行する株券等の取得について合意している場合
     modality: unspecified
     item_number: 3
 cases: []

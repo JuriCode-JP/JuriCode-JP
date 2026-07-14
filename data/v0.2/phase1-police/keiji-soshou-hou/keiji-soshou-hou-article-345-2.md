@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の被告人について、保釈を許し、又は勾留の執行停止をする場合において、罰金の裁判の確定後に罰金を完納することができないこととなるおそれがあると認めるときも、同項と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p1-kou-1
     type: kou
-    text: 申請者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
+    text: 一　申請者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p1-kou-2
     type: kou
-    text: 設置しようとする免税手続カウンター（令第十八条の二第二項第二号に規定する免税手続カウンターをいう。以下第十条の四までにおいて同じ。）の所在地
+    text: 二　設置しようとする免税手続カウンター（令第十八条の二第二項第二号に規定する免税手続カウンターをいう。以下第十条の四までにおいて同じ。）の所在地
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p1-kou-3
     type: kou
-    text: 当該免税手続カウンターに係る特定商業施設の名称及び所在地
+    text: 三　当該免税手続カウンターに係る特定商業施設の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p1-kou-4
     type: kou
-    text: 当該特定商業施設が令第十八条の二第四項各号のいずれに該当するかの別
+    text: 四　当該特定商業施設が令第十八条の二第四項各号のいずれに該当するかの別
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p1-kou-5
     type: kou
-    text: 当該特定商業施設が令第十八条の二第六項の規定の適用を受ける場合にあつては、その旨
+    text: 五　当該特定商業施設が令第十八条の二第六項の規定の適用を受ける場合にあつては、その旨
     modality: unspecified
     item_number: 5
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 2
@@ -62,41 +62,41 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p2-kou-1
     type: kou
-    text: 設置しようとする免税手続カウンターの見取図
+    text: 一　設置しようとする免税手続カウンターの見取図
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p2-kou-2
     type: kou
-    text: 当該免税手続カウンターに係る特定商業施設の見取図又はこれに類する書類
+    text: 二　当該免税手続カウンターに係る特定商業施設の見取図又はこれに類する書類
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p2-kou-3
     type: kou
-    text: 免税販売手続に関する事務手続の概要を明らかにした書類
+    text: 三　免税販売手続に関する事務手続の概要を明らかにした書類
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p2-kou-4
     type: kou
-    text: '次に掲げる特定商業施設の区分に応じ次に定める書類
+    text: '四　次に掲げる特定商業施設の区分に応じ次に定める書類
 
-      イ 令第十八条の二第四項第一号に規定する地区又は同項第二号に規定する地域　当該地区又は当該地域に係る組合の定款の写し
+      イ　令第十八条の二第四項第一号に規定する地区又は同項第二号に規定する地域　当該地区又は当該地域に係る組合の定款の写し
 
-      ロ 令第十八条の二第四項第三号に規定する大規模小売店舗又は同項第四号に規定する一棟の建物　当該特定商業施設が同項第三号又は第四号に該当する特定商業施設である旨を証する書類'
+      ロ　令第十八条の二第四項第三号に規定する大規模小売店舗又は同項第四号に規定する一棟の建物　当該特定商業施設が同項第三号又は第四号に該当する特定商業施設である旨を証する書類'
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p2-kou-5
     type: kou
-    text: 特定商業施設が令第十八条の二第四項第二号に規定する地域である場合にあつては、当該地域に一の商店街が形成されている旨を証する書類
+    text: 五　特定商業施設が令第十八条の二第四項第二号に規定する地域である場合にあつては、当該地域に一の商店街が形成されている旨を証する書類
     modality: unspecified
     item_number: 5
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p2-kou-6
     type: kou
-    text: 特定商業施設が令第十八条の二第六項の規定の適用を受ける場合にあつては、同項の規定に該当する旨を証する書類
+    text: 六　特定商業施設が令第十八条の二第六項の規定の適用を受ける場合にあつては、同項の規定に該当する旨を証する書類
     modality: unspecified
     item_number: 6
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p2-kou-7
     type: kou
-    text: その他参考となるべき書類
+    text: 七　その他参考となるべき書類
     modality: unspecified
     item_number: 7
 - number: 3
@@ -121,26 +121,26 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p4-kou-1
     type: kou
-    text: '旧承認（令第十八条の二第十二項に規定する旧承認をいう。次号及び第三号において同じ。）に係る特定商業施設内において同項に規定する承認免税手続事業者が現に免税販売手続を代理する手続委託型輸出物品販売場の別に次に掲げる事項を記載した書類
+    text: '一　旧承認（令第十八条の二第十二項に規定する旧承認をいう。次号及び第三号において同じ。）に係る特定商業施設内において同項に規定する承認免税手続事業者が現に免税販売手続を代理する手続委託型輸出物品販売場の別に次に掲げる事項を記載した書類
 
-      イ 当該手続委託型輸出物品販売場を経営する事業者の氏名又は名称及び納税地並びに当該手続委託型輸出物品販売場の名称及び所在地
+      イ　当該手続委託型輸出物品販売場を経営する事業者の氏名又は名称及び納税地並びに当該手続委託型輸出物品販売場の名称及び所在地
 
-      ロ 当該承認免税手続事業者が令第十八条の二第十二項に規定する新承認に係る特定商業施設内において引き続き免税販売手続を代理することに対する当該手続委託型輸出物品販売場を経営する事業者の同意又は不同意の別'
+      ロ　当該承認免税手続事業者が令第十八条の二第十二項に規定する新承認に係る特定商業施設内において引き続き免税販売手続を代理することに対する当該手続委託型輸出物品販売場を経営する事業者の同意又は不同意の別'
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p4-kou-2
     type: kou
-    text: 旧承認に係る令第十八条の二第十二項に規定する大規模小売店舗を設置している者が同項の地区等に係る商店街振興組合又は事業協同組合の組合員であることを証する書類
+    text: 二　旧承認に係る令第十八条の二第十二項に規定する大規模小売店舗を設置している者が同項の地区等に係る商店街振興組合又は事業協同組合の組合員であることを証する書類
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p4-kou-3
     type: kou
-    text: 旧承認に係る特定商業施設の見取図又はこれに類する書類
+    text: 三　旧承認に係る特定商業施設の見取図又はこれに類する書類
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p4-kou-4
     type: kou
-    text: その他参考となるべき書類
+    text: 四　その他参考となるべき書類
     modality: unspecified
     item_number: 4
 - number: 5
@@ -165,33 +165,33 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p6-kou-1
     type: kou
-    text: 届出者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
+    text: 一　届出者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p6-kou-2
     type: kou
-    text: '次に掲げる場合の区分に応じ次に定める事項
+    text: '二　次に掲げる場合の区分に応じ次に定める事項
 
-      イ 免税手続カウンターを移転しようとする場合　移転前の免税手続カウンターの所在地及び移転後の免税手続カウンターの所在地並びに移転しようとする年月日
+      イ　免税手続カウンターを移転しようとする場合　移転前の免税手続カウンターの所在地及び移転後の免税手続カウンターの所在地並びに移転しようとする年月日
 
-      ロ 免税手続カウンターを新たに設置しようとする場合　設置しようとする免税手続カウンターの所在地及び設置しようとする年月日
+      ロ　免税手続カウンターを新たに設置しようとする場合　設置しようとする免税手続カウンターの所在地及び設置しようとする年月日
 
-      ハ 免税手続カウンターを廃止しようとする場合　廃止しようとする免税手続カウンターの所在地及び廃止しようとする年月日'
+      ハ　免税手続カウンターを廃止しようとする場合　廃止しようとする免税手続カウンターの所在地及び廃止しようとする年月日'
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p6-kou-3
     type: kou
-    text: 当該免税手続カウンターに係る特定商業施設の名称及び所在地
+    text: 三　当該免税手続カウンターに係る特定商業施設の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p6-kou-4
     type: kou
-    text: 当該特定商業施設に係る令第十八条の二第七項の承認を受けた年月日
+    text: 四　当該特定商業施設に係る令第十八条の二第七項の承認を受けた年月日
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p6-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 7
@@ -205,16 +205,16 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p7-kou-1
     type: kou
-    text: '次に掲げる場合の区分に応じ次に定める書類
+    text: '一　次に掲げる場合の区分に応じ次に定める書類
 
-      イ 免税手続カウンターを移転しようとする場合　移転後の免税手続カウンターの見取図及び当該免税手続カウンターに係る特定商業施設の見取図又はこれに類する書類
+      イ　免税手続カウンターを移転しようとする場合　移転後の免税手続カウンターの見取図及び当該免税手続カウンターに係る特定商業施設の見取図又はこれに類する書類
 
-      ロ 免税手続カウンターを新たに設置しようとする場合　設置しようとする免税手続カウンターの見取図及び当該免税手続カウンターに係る特定商業施設の見取図又はこれに類する書類'
+      ロ　免税手続カウンターを新たに設置しようとする場合　設置しようとする免税手続カウンターの見取図及び当該免税手続カウンターに係る特定商業施設の見取図又はこれに類する書類'
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p7-kou-2
     type: kou
-    text: その他参考となるべき書類
+    text: 二　その他参考となるべき書類
     modality: unspecified
     item_number: 2
 - number: 8
@@ -228,32 +228,32 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p8-kou-1
     type: kou
-    text: 届出者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
+    text: 一　届出者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p8-kou-2
     type: kou
-    text: 当該変更に係る自動販売機型輸出物品販売場の所在地及び識別符号（第六条の二第二項の規定により通知を受けた識別符号をいう。）
+    text: 二　当該変更に係る自動販売機型輸出物品販売場の所在地及び識別符号（第六条の二第二項の規定により通知を受けた識別符号をいう。）
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p8-kou-3
     type: kou
-    text: 変更前の指定自動販売機を識別するための情報及び変更後の指定自動販売機を識別するための情報
+    text: 三　変更前の指定自動販売機を識別するための情報及び変更後の指定自動販売機を識別するための情報
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p8-kou-4
     type: kou
-    text: 当該自動販売機型輸出物品販売場に係る法第八条第七項の許可を受けた年月日
+    text: 四　当該自動販売機型輸出物品販売場に係る法第八条第七項の許可を受けた年月日
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p8-kou-5
     type: kou
-    text: 指定自動販売機を変更した年月日
+    text: 五　指定自動販売機を変更した年月日
     modality: unspecified
     item_number: 5
   - id: shouhi-zei-hou-shikoukisoku-art-10-2-p8-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

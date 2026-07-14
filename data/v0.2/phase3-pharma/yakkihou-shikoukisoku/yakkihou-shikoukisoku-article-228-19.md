@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-19-p1-kou-1
     type: kou
-    text: 指定再生医療等製品又は人の血液を原材料として製造される再生医療等製品にあつては、その出荷日から起算して少なくとも三十年間
+    text: 一　指定再生医療等製品又は人の血液を原材料として製造される再生医療等製品にあつては、その出荷日から起算して少なくとも三十年間
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-19-p1-kou-2
     type: kou
-    text: 再生医療等製品（前号に掲げるものを除く。）にあつては、その出荷日から起算して少なくとも十年間
+    text: 二　再生医療等製品（前号に掲げるものを除く。）にあつては、その出荷日から起算して少なくとも十年間
     modality: unspecified
     item_number: 2
 - number: 2

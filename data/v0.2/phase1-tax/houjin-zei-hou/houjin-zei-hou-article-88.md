@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-art-88-p1-kou-1
     type: kou
-    text: 当該事業年度開始の日以後六月の期間を一事業年度とみなして計算した場合における当該期間に係る課税標準である退職年金等積立金の額
+    text: 一　当該事業年度開始の日以後六月の期間を一事業年度とみなして計算した場合における当該期間に係る課税標準である退職年金等積立金の額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-88-p1-kou-2
     type: kou
-    text: 前号に掲げる退職年金等積立金の額につき前条の規定を適用して計算した法人税の額
+    text: 二　前号に掲げる退職年金等積立金の額につき前条の規定を適用して計算した法人税の額
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-88-p1-kou-3
     type: kou
-    text: 前二号に掲げる金額の計算の基礎その他財務省令で定める事項
+    text: 三　前二号に掲げる金額の計算の基礎その他財務省令で定める事項
     modality: unspecified
     item_number: 3
 cases: []

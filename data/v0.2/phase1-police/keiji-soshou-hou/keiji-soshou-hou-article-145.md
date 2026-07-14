@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: keiji-soshou-hou-art-145-p1-kou-1
     type: kou
-    text: 衆議院若しくは参議院の議員又はその職に在つた者
+    text: 一　衆議院若しくは参議院の議員又はその職に在つた者
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-145-p1-kou-2
     type: kou
-    text: 内閣総理大臣その他の国務大臣又はその職に在つた者
+    text: 二　内閣総理大臣その他の国務大臣又はその職に在つた者
     modality: unspecified
     item_number: 2
 - number: 2

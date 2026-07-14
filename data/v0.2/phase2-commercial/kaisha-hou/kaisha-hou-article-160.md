@@ -45,8 +45,8 @@ paragraphs:
     text: 前項の株主は、第一項の特定の株主に自己をも加えたものを同項の株主総会の議案とすることを、法務省令で定める時までに、請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: true
   has_items: false

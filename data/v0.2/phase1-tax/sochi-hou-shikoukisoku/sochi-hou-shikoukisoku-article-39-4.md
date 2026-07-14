@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-39-4-p1-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-39-4-p1-kou-2
     type: kou
-    text: 承認を受けようとする場所の所在地
+    text: 二　承認を受けようとする場所の所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-39-4-p1-kou-3
     type: kou
-    text: 当該承認を受けようとする場所を便宜とする事情
+    text: 三　当該承認を受けようとする場所を便宜とする事情
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-39-4-p1-kou-4
     type: kou
-    text: 申請者が住所地若しくは居所地又は第二号に掲げる場所以外の場所に事務所若しくは事業所を有する場合には、これらの所在地
+    text: 四　申請者が住所地若しくは居所地又は第二号に掲げる場所以外の場所に事務所若しくは事業所を有する場合には、これらの所在地
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-39-4-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -79,17 +79,17 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-39-4-p4-kou-1
     type: kou
-    text: 提出者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　提出者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-39-4-p4-kou-2
     type: kou
-    text: 施行令第四十八条の七第一項の承認を受けた年月日
+    text: 二　施行令第四十八条の七第一項の承認を受けた年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-39-4-p4-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

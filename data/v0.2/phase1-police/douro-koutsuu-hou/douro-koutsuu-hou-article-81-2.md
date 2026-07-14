@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の場合において、当該転落積載物等の占有者等の氏名及び住所を知ることができないため、これらの者に対し、同項の規定による措置を採ることを命ずることができないときは、警察署長は、自ら当該措置を採ることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: douro-koutsuu-hou-art-81-2-p2-kou
     type: kou_dan
     text: この場合において、転落積載物等を除去したときは、警察署長は、当該転落積載物等を保管しなければならない。
@@ -52,6 +52,10 @@ paragraphs:
     references:
     - 前条
     - 前項
+  - id: douro-koutsuu-hou-art-81-2-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条第二項第九号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

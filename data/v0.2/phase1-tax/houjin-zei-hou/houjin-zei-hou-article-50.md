@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-50-p1-kou-1
     type: kou
-    text: 土地（建物又は構築物の所有を目的とする地上権及び賃借権並びに農地法（昭和二十七年法律第二百二十九号）第二条第一項（定義）に規定する農地（同法第四十三条第一項（農作物栽培高度化施設に関する特例）の規定により農作物の栽培を耕作に該当するものとみなして適用する同法第二条第一項に規定する農地を含む。）の上に存する耕作（同法第四十三条第一項の規定により耕作に該当するものとみなされる農作物の栽培を含む。）に関する権利を含む。）
+    text: 一　土地（建物又は構築物の所有を目的とする地上権及び賃借権並びに農地法（昭和二十七年法律第二百二十九号）第二条第一項（定義）に規定する農地（同法第四十三条第一項（農作物栽培高度化施設に関する特例）の規定により農作物の栽培を耕作に該当するものとみなして適用する同法第二条第一項に規定する農地を含む。）の上に存する耕作（同法第四十三条第一項の規定により耕作に該当するものとみなされる農作物の栽培を含む。）に関する権利を含む。）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-50-p1-kou-2
     type: kou
-    text: 建物（これに附属する設備及び構築物を含む。）
+    text: 二　建物（これに附属する設備及び構築物を含む。）
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-50-p1-kou-3
     type: kou
-    text: 機械及び装置
+    text: 三　機械及び装置
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-50-p1-kou-4
     type: kou
-    text: 船舶
+    text: 四　船舶
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-art-50-p1-kou-5
     type: kou
-    text: 鉱業権（租鉱権及び採石権その他土石を採掘し、又は採取する権利を含む。）
+    text: 五　鉱業権（租鉱権及び採石権その他土石を採掘し、又は採取する権利を含む。）
     modality: unspecified
     item_number: 5
 - number: 2
@@ -89,8 +89,8 @@ paragraphs:
     text: 内国法人が、適格分割、適格現物出資又は適格現物分配（以下この項及び次項において「適格分割等」という。）により取得資産（当該適格分割等の日の属する事業年度開始の時から当該適格分割等の直前の時までの期間内に、第一項に規定する交換により取得をし、譲渡資産の譲渡の直前の用途と同一の用途に供したものに限る。）を分割承継法人、被現物出資法人又は被現物分配法人に移転する場合において、当該取得資産につき、同項に規定する計算した金額に相当する金額の範囲内でその帳簿価額を減額したときは、当該減額した金額に相当する金額は、当該事業年度の所得の金額の計算上、損金の額に算入する。
     modality: unspecified
     references:
-    - 同項
     - 次項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
@@ -101,8 +101,8 @@ paragraphs:
     text: 前項の規定は、同項の内国法人が適格分割等の日以後二月以内に同項に規定する減額した金額に相当する金額その他の財務省令で定める事項を記載した書類を納税地の所轄税務署長に提出した場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

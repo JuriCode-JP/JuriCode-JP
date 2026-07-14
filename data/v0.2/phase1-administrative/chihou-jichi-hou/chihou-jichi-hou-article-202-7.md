@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-jichi-hou-art-202-7-p1-kou-1
     type: kou
-    text: 地域自治区の事務所が所掌する事務に関する事項
+    text: 一　地域自治区の事務所が所掌する事務に関する事項
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-202-7-p1-kou-2
     type: kou
-    text: 前号に掲げるもののほか、市町村が処理する地域自治区の区域に係る事務に関する事項
+    text: 二　前号に掲げるもののほか、市町村が処理する地域自治区の区域に係る事務に関する事項
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-202-7-p1-kou-3
     type: kou
-    text: 市町村の事務処理に当たつての地域自治区の区域内に住所を有する者との連携の強化に関する事項
+    text: 三　市町村の事務処理に当たつての地域自治区の区域内に住所を有する者との連携の強化に関する事項
     modality: unspecified
     item_number: 3
 - number: 2

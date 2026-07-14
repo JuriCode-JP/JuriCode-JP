@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項の罪は、日本国外において同項の罪を犯した者にも適用する。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

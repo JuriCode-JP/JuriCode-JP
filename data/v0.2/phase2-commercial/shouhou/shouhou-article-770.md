@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: shouhou-art-770-p2-kou-1
     type: kou
-    text: 第七百五十八条第一項各号（第十一号を除く。）に掲げる事項（運送品の受取があった旨を記載した海上運送状にあっては、同項第七号及び第八号に掲げる事項を除く。）
+    text: 一　第七百五十八条第一項各号（第十一号を除く。）に掲げる事項（運送品の受取があった旨を記載した海上運送状にあっては、同項第七号及び第八号に掲げる事項を除く。）
     modality: unspecified
     item_number: 1
   - id: shouhou-art-770-p2-kou-2
     type: kou
-    text: 数通の海上運送状を作成したときは、その数
+    text: 二　数通の海上運送状を作成したときは、その数
     modality: unspecified
     item_number: 2
 - number: 3

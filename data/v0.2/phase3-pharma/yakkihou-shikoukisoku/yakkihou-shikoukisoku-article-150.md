@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-150-p1-kou-1
     type: kou
-    text: 配置販売業者の氏名及び住所
+    text: 一　配置販売業者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-150-p1-kou-2
     type: kou
-    text: 配置販売に従事する者の氏名及び住所
+    text: 二　配置販売に従事する者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-150-p1-kou-3
     type: kou
-    text: 配置販売に従事する区域及びその期間
+    text: 三　配置販売に従事する区域及びその期間
     modality: unspecified
     item_number: 3
 cases: []

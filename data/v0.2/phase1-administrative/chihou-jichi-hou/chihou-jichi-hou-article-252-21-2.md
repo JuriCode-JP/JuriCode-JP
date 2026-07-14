@@ -32,12 +32,12 @@ paragraphs:
     modality: unspecified
   - id: chihou-jichi-hou-art-252-21-2-p2-kou-1
     type: kou
-    text: 指定都市の市長
+    text: 一　指定都市の市長
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-21-2-p2-kou-2
     type: kou
-    text: 包括都道府県の知事
+    text: 二　包括都道府県の知事
     modality: unspecified
     item_number: 2
 - number: 3
@@ -51,37 +51,37 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-jichi-hou-art-252-21-2-p3-kou-1
     type: kou
-    text: 指定都市の市長以外の指定都市の執行機関が当該執行機関の委員長（教育委員会にあつては、教育長）、委員若しくは当該執行機関の事務を補助する職員又は当該執行機関の管理に属する機関の職員のうちから選任した者
+    text: 一　指定都市の市長以外の指定都市の執行機関が当該執行機関の委員長（教育委員会にあつては、教育長）、委員若しくは当該執行機関の事務を補助する職員又は当該執行機関の管理に属する機関の職員のうちから選任した者
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-21-2-p3-kou-2
     type: kou
-    text: 指定都市の市長がその補助機関である職員のうちから選任した者
+    text: 二　指定都市の市長がその補助機関である職員のうちから選任した者
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-252-21-2-p3-kou-3
     type: kou
-    text: 指定都市の議会が当該指定都市の議会の議員のうちから選挙により選出した者
+    text: 三　指定都市の議会が当該指定都市の議会の議員のうちから選挙により選出した者
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-252-21-2-p3-kou-4
     type: kou
-    text: 包括都道府県の知事以外の包括都道府県の執行機関が当該執行機関の委員長（教育委員会にあつては、教育長）、委員若しくは当該執行機関の事務を補助する職員又は当該執行機関の管理に属する機関の職員のうちから選任した者
+    text: 四　包括都道府県の知事以外の包括都道府県の執行機関が当該執行機関の委員長（教育委員会にあつては、教育長）、委員若しくは当該執行機関の事務を補助する職員又は当該執行機関の管理に属する機関の職員のうちから選任した者
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-252-21-2-p3-kou-5
     type: kou
-    text: 包括都道府県の知事がその補助機関である職員のうちから選任した者
+    text: 五　包括都道府県の知事がその補助機関である職員のうちから選任した者
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-252-21-2-p3-kou-6
     type: kou
-    text: 包括都道府県の議会が当該包括都道府県の議会の議員のうちから選挙により選出した者
+    text: 六　包括都道府県の議会が当該包括都道府県の議会の議員のうちから選挙により選出した者
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-252-21-2-p3-kou-7
     type: kou
-    text: 学識経験を有する者
+    text: 七　学識経験を有する者
     modality: unspecified
     item_number: 7
 - number: 4

@@ -21,6 +21,26 @@ paragraphs:
     type: simple
     text: 警察庁に、長官官房及び次の五局を置く。
     modality: unspecified
+  - id: keisatsu-hou-art-19-p1-list-1
+    type: list
+    text: 生活安全局
+    modality: unspecified
+  - id: keisatsu-hou-art-19-p1-list-2
+    type: list
+    text: 刑事局
+    modality: unspecified
+  - id: keisatsu-hou-art-19-p1-list-3
+    type: list
+    text: 交通局
+    modality: unspecified
+  - id: keisatsu-hou-art-19-p1-list-4
+    type: list
+    text: 警備局
+    modality: unspecified
+  - id: keisatsu-hou-art-19-p1-list-5
+    type: list
+    text: サイバー警察局
+    modality: unspecified
 - number: 2
   has_proviso: false
   has_items: false

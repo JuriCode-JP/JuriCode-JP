@@ -23,62 +23,62 @@ paragraphs:
     modality: gimu
   - id: shouhou-art-758-p1-kou-1
     type: kou
-    text: 運送品の種類
+    text: 一　運送品の種類
     modality: unspecified
     item_number: 1
   - id: shouhou-art-758-p1-kou-2
     type: kou
-    text: 運送品の容積若しくは重量又は包若しくは個品の数及び運送品の記号
+    text: 二　運送品の容積若しくは重量又は包若しくは個品の数及び運送品の記号
     modality: unspecified
     item_number: 2
   - id: shouhou-art-758-p1-kou-3
     type: kou
-    text: 外部から認められる運送品の状態
+    text: 三　外部から認められる運送品の状態
     modality: unspecified
     item_number: 3
   - id: shouhou-art-758-p1-kou-4
     type: kou
-    text: 荷送人又は傭船者の氏名又は名称
+    text: 四　荷送人又は傭船者の氏名又は名称
     modality: unspecified
     item_number: 4
   - id: shouhou-art-758-p1-kou-5
     type: kou
-    text: 荷受人の氏名又は名称
+    text: 五　荷受人の氏名又は名称
     modality: unspecified
     item_number: 5
   - id: shouhou-art-758-p1-kou-6
     type: kou
-    text: 運送人の氏名又は名称
+    text: 六　運送人の氏名又は名称
     modality: unspecified
     item_number: 6
   - id: shouhou-art-758-p1-kou-7
     type: kou
-    text: 船舶の名称
+    text: 七　船舶の名称
     modality: unspecified
     item_number: 7
   - id: shouhou-art-758-p1-kou-8
     type: kou
-    text: 船積港及び船積みの年月日
+    text: 八　船積港及び船積みの年月日
     modality: unspecified
     item_number: 8
   - id: shouhou-art-758-p1-kou-9
     type: kou
-    text: 陸揚港
+    text: 九　陸揚港
     modality: unspecified
     item_number: 9
   - id: shouhou-art-758-p1-kou-10
     type: kou
-    text: 運送賃
+    text: 十　運送賃
     modality: unspecified
     item_number: 10
   - id: shouhou-art-758-p1-kou-11
     type: kou
-    text: 数通の船荷証券を作成したときは、その数
+    text: 十一　数通の船荷証券を作成したときは、その数
     modality: unspecified
     item_number: 11
   - id: shouhou-art-758-p1-kou-12
     type: kou
-    text: 作成地及び作成の年月日
+    text: 十二　作成地及び作成の年月日
     modality: unspecified
     item_number: 12
 - number: 2

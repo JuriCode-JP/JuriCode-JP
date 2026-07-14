@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-50-p1-kou-1
     type: kou
-    text: 大学等で医学、歯学、薬学、獣医学又は生物学に関する専門の課程を修了した者
+    text: 一　大学等で医学、歯学、薬学、獣医学又は生物学に関する専門の課程を修了した者
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-50-p1-kou-2
     type: kou
-    text: 旧制中学若しくは高校又はこれと同等以上の学校で、医学、歯学、薬学、獣医学又は生物学に関する専門の課程を修了した後、医薬品、医療機器又は再生医療等製品の品質管理又は製造販売後安全管理に関する業務に三年以上従事した者
+    text: 二　旧制中学若しくは高校又はこれと同等以上の学校で、医学、歯学、薬学、獣医学又は生物学に関する専門の課程を修了した後、医薬品、医療機器又は再生医療等製品の品質管理又は製造販売後安全管理に関する業務に三年以上従事した者
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-50-p1-kou-3
     type: kou
-    text: 厚生労働大臣が前二号に掲げる者と同等以上の知識経験を有すると認めた者
+    text: 三　厚生労働大臣が前二号に掲げる者と同等以上の知識経験を有すると認めた者
     modality: unspecified
     item_number: 3
 cases: []

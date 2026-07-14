@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-105-p1-kou-1
     type: kou
-    text: 剰余金の配当を受ける権利
+    text: 一　剰余金の配当を受ける権利
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-105-p1-kou-2
     type: kou
-    text: 残余財産の分配を受ける権利
+    text: 二　残余財産の分配を受ける権利
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-105-p1-kou-3
     type: kou
-    text: 株主総会における議決権
+    text: 三　株主総会における議決権
     modality: unspecified
     item_number: 3
 - number: 2

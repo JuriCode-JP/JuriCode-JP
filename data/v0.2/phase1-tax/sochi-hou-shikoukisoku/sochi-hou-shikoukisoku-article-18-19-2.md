@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-19-2-p2-kou-1
     type: kou
-    text: 法第四十条の三の二第一項の贈与をした資産の種類、数量及び当該贈与の時における価額
+    text: 一　法第四十条の三の二第一項の贈与をした資産の種類、数量及び当該贈与の時における価額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-19-2-p2-kou-2
     type: kou
-    text: 当該資産の贈与を受けた法第四十条の三の二第一項の内国法人の名称及び本店又は主たる事務所の所在地
+    text: 二　当該資産の贈与を受けた法第四十条の三の二第一項の内国法人の名称及び本店又は主たる事務所の所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-19-2-p2-kou-3
     type: kou
-    text: 当該資産の贈与の年月日及び取得の年月日
+    text: 三　当該資産の贈与の年月日及び取得の年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-19-2-p2-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 3

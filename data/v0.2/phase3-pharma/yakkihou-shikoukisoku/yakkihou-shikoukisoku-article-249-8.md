@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-249-8-p1-kou-1
     type: kou
-    text: 検査を受けるべき者の氏名及び住所（法人にあつては、その名称、主たる事務所の所在地及び代表者の氏名。次条第一号、第二百四十九条の四第一号及び第二百四十九条の五において同じ。）
+    text: 一　検査を受けるべき者の氏名及び住所（法人にあつては、その名称、主たる事務所の所在地及び代表者の氏名。次条第一号、第二百四十九条の四第一号及び第二百四十九条の五において同じ。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-249-8-p1-kou-2
     type: kou
-    text: 検査を受けるべき物品の名称及び形状
+    text: 二　検査を受けるべき物品の名称及び形状
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-249-8-p1-kou-3
     type: kou
-    text: 検査を受けるべきことを命ずる理由
+    text: 三　検査を受けるべきことを命ずる理由
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-249-8-p1-kou-4
     type: kou
-    text: 次項の検査の申請書の提出先
+    text: 四　次項の検査の申請書の提出先
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-249-8-p1-kou-5
     type: kou
-    text: 次項の検査の申請書の提出期限
+    text: 五　次項の検査の申請書の提出期限
     modality: unspecified
     item_number: 5
 - number: 2

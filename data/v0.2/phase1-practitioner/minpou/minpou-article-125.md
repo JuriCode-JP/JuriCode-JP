@@ -23,32 +23,32 @@ paragraphs:
     modality: jogai
   - id: minpou-art-125-p1-kou-1
     type: kou
-    text: 全部又は一部の履行
+    text: 一　全部又は一部の履行
     modality: unspecified
     item_number: 1
   - id: minpou-art-125-p1-kou-2
     type: kou
-    text: 履行の請求
+    text: 二　履行の請求
     modality: unspecified
     item_number: 2
   - id: minpou-art-125-p1-kou-3
     type: kou
-    text: 更改
+    text: 三　更改
     modality: unspecified
     item_number: 3
   - id: minpou-art-125-p1-kou-4
     type: kou
-    text: 担保の供与
+    text: 四　担保の供与
     modality: unspecified
     item_number: 4
   - id: minpou-art-125-p1-kou-5
     type: kou
-    text: 取り消すことができる行為によって取得した権利の全部又は一部の譲渡
+    text: 五　取り消すことができる行為によって取得した権利の全部又は一部の譲渡
     modality: unspecified
     item_number: 5
   - id: minpou-art-125-p1-kou-6
     type: kou
-    text: 強制執行
+    text: 六　強制執行
     modality: unspecified
     item_number: 6
 cases: []

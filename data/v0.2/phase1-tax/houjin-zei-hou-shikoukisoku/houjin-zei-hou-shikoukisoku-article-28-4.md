@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-28-4-p1-kou-1
     type: kou
-    text: 令第百三十九条の四第十二項第二号ロの規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　令第百三十九条の四第十二項第二号ロの規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-28-4-p1-kou-2
     type: kou
-    text: 令第百三十九条の四第十二項第二号ロに規定する適格分割等（次号及び第四号において「適格分割等」という。）に係る同項第二号ロに規定する分割承継法人等（第四号において「分割承継法人等」という。）の名称及び納税地並びに代表者の氏名
+    text: 二　令第百三十九条の四第十二項第二号ロに規定する適格分割等（次号及び第四号において「適格分割等」という。）に係る同項第二号ロに規定する分割承継法人等（第四号において「分割承継法人等」という。）の名称及び納税地並びに代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-28-4-p1-kou-3
     type: kou
-    text: 適格分割等の日
+    text: 三　適格分割等の日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-28-4-p1-kou-4
     type: kou
-    text: 適格分割等により分割承継法人等に引き継ぐ令第百三十九条の四第十二項第二号ロに規定する繰延消費税額等（次号において「繰延消費税額等」という。）
+    text: 四　適格分割等により分割承継法人等に引き継ぐ令第百三十九条の四第十二項第二号ロに規定する繰延消費税額等（次号において「繰延消費税額等」という。）
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-28-4-p1-kou-5
     type: kou
-    text: 繰延消費税額等の生じた事業年度開始の日及び終了の日
+    text: 五　繰延消費税額等の生じた事業年度開始の日及び終了の日
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-28-4-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

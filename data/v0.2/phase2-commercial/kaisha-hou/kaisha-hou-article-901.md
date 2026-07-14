@@ -53,8 +53,8 @@ paragraphs:
     text: この場合において、前項の協定の認可の決定に対する即時抗告の期間は、同項の規定による公告が効力を生じた日から起算して二週間とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
     depends_on: kaisha-hou-art-901-p4-zen
 - number: 5
   has_proviso: false

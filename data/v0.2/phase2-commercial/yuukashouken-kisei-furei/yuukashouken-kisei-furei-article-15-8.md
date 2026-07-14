@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yuukashouken-kisei-furei-art-15-8-p1-kou-1
     type: kou
-    text: 前条第二号イからルまでに掲げる有価証券につき空売りを行う取引
+    text: 一　前条第二号イからルまでに掲げる有価証券につき空売りを行う取引
     modality: unspecified
     item_number: 1
   - id: yuukashouken-kisei-furei-art-15-8-p1-kou-2
     type: kou
-    text: 店頭売買有価証券市場における売買のうち、システム売買が行われていない時間帯における店頭売買有価証券の空売りを行う取引
+    text: 二　店頭売買有価証券市場における売買のうち、システム売買が行われていない時間帯における店頭売買有価証券の空売りを行う取引
     modality: unspecified
     item_number: 2
 cases: []

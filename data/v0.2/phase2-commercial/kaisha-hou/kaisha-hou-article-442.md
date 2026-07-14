@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-442-p1-kou-1
     type: kou
-    text: 各事業年度に係る計算書類及び事業報告並びにこれらの附属明細書（第四百三十六条第一項又は第二項の規定の適用がある場合にあっては、監査報告又は会計監査報告を含む。）　定時株主総会の日の一週間（取締役会設置会社にあっては、二週間）前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）から五年間
+    text: 一　各事業年度に係る計算書類及び事業報告並びにこれらの附属明細書（第四百三十六条第一項又は第二項の規定の適用がある場合にあっては、監査報告又は会計監査報告を含む。）　定時株主総会の日の一週間（取締役会設置会社にあっては、二週間）前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）から五年間
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-442-p1-kou-2
     type: kou
-    text: 臨時計算書類（前条第二項の規定の適用がある場合にあっては、監査報告又は会計監査報告を含む。）　臨時計算書類を作成した日から五年間
+    text: 二　臨時計算書類（前条第二項の規定の適用がある場合にあっては、監査報告又は会計監査報告を含む。）　臨時計算書類を作成した日から五年間
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,12 +44,12 @@ paragraphs:
     - 次項
   - id: kaisha-hou-art-442-p2-kou-1
     type: kou
-    text: 前項第一号に掲げる計算書類等　定時株主総会の日の一週間（取締役会設置会社にあっては、二週間）前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）から三年間
+    text: 一　前項第一号に掲げる計算書類等　定時株主総会の日の一週間（取締役会設置会社にあっては、二週間）前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）から三年間
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-442-p2-kou-2
     type: kou
-    text: 前項第二号に掲げる計算書類等　同号の臨時計算書類を作成した日から三年間
+    text: 二　前項第二号に掲げる計算書類等　同号の臨時計算書類を作成した日から三年間
     modality: unspecified
     item_number: 2
 - number: 3
@@ -63,22 +63,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-442-p3-kou-1
     type: kou
-    text: 計算書類等が書面をもって作成されているときは、当該書面又は当該書面の写しの閲覧の請求
+    text: 一　計算書類等が書面をもって作成されているときは、当該書面又は当該書面の写しの閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-442-p3-kou-2
     type: kou
-    text: 前号の書面の謄本又は抄本の交付の請求
+    text: 二　前号の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-442-p3-kou-3
     type: kou
-    text: 計算書類等が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　計算書類等が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-442-p3-kou-4
     type: kou
-    text: 前号の電磁的記録に記録された事項を電磁的方法であって株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前号の電磁的記録に記録された事項を電磁的方法であって株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 - number: 4

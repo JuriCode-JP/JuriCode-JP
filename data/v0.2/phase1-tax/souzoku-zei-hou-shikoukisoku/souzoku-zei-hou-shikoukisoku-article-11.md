@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-11-p2-kou-1
     type: kou
-    text: 法第二十一条の十八第一項の規定により相続時精算課税選択届出書を提出する者の戸籍の謄本又は抄本その他の書類で同項に規定する被相続人の全ての相続人を明らかにする書類
+    text: 一　法第二十一条の十八第一項の規定により相続時精算課税選択届出書を提出する者の戸籍の謄本又は抄本その他の書類で同項に規定する被相続人の全ての相続人を明らかにする書類
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-11-p2-kou-2
     type: kou
-    text: 前号の被相続人の戸籍の謄本又は抄本その他の書類で当該被相続人の氏名、生年月日及びその死亡の年月日並びに当該被相続人が法第二十一条の九第一項の贈与をした者の推定相続人に該当することを証する書類
+    text: 二　前号の被相続人の戸籍の謄本又は抄本その他の書類で当該被相続人の氏名、生年月日及びその死亡の年月日並びに当該被相続人が法第二十一条の九第一項の贈与をした者の推定相続人に該当することを証する書類
     modality: unspecified
     item_number: 2
 cases: []

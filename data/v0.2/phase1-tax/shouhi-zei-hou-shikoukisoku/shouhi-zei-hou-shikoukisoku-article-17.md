@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-17-p1-kou-1
     type: kou
-    text: 届出者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
+    text: 一　届出者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-17-p1-kou-2
     type: kou
-    text: 届出者の行う事業の内容及び令第五十七条第五項第一号から第六号までに掲げる事業の種類
+    text: 二　届出者の行う事業の内容及び令第五十七条第五項第一号から第六号までに掲げる事業の種類
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-17-p1-kou-3
     type: kou
-    text: 法第三十七条第一項に規定する翌課税期間の初日の年月日
+    text: 三　法第三十七条第一項に規定する翌課税期間の初日の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-17-p1-kou-4
     type: kou
-    text: 前号に規定する翌課税期間の基準期間における課税売上高（法第九条第一項に規定する基準期間における課税売上高をいう。以下この条及び次条において同じ。）
+    text: 四　前号に規定する翌課税期間の基準期間における課税売上高（法第九条第一項に規定する基準期間における課税売上高をいう。以下この条及び次条において同じ。）
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-17-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -57,22 +57,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-17-p2-kou-1
     type: kou
-    text: 届出者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
+    text: 一　届出者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-17-p2-kou-2
     type: kou
-    text: 法第三十七条第一項に規定する翌課税期間の初日の年月日
+    text: 二　法第三十七条第一項に規定する翌課税期間の初日の年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-17-p2-kou-3
     type: kou
-    text: 法第三十七条第七項に規定する課税期間の末日の翌日の年月日
+    text: 三　法第三十七条第七項に規定する課税期間の末日の翌日の年月日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-17-p2-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 3
@@ -86,17 +86,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-17-p3-kou-1
     type: kou
-    text: 届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　届出者の氏名又は名称、納税地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-17-p3-kou-2
     type: kou
-    text: 事業を廃止した年月日
+    text: 二　事業を廃止した年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-17-p3-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 4
@@ -110,28 +110,28 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-17-p4-kou-1
     type: kou
-    text: '令第五十七条の二第一項の承認を受けようとする事業者　次に掲げる事項
+    text: '一　令第五十七条の二第一項の承認を受けようとする事業者　次に掲げる事項
 
-      イ 申請者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
+      イ　申請者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
 
-      ロ 申請者の行う事業の内容及び令第五十七条第五項第一号から第六号までに掲げる事業の種類
+      ロ　申請者の行う事業の内容及び令第五十七条第五項第一号から第六号までに掲げる事業の種類
 
-      ハ 法第三十七条第一項の規定の適用を受けようとする課税期間の基準期間における課税売上高
+      ハ　法第三十七条第一項の規定の適用を受けようとする課税期間の基準期間における課税売上高
 
-      ニ その他参考となるべき事項'
+      ニ　その他参考となるべき事項'
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-17-p4-kou-2
     type: kou
-    text: '令第五十七条の二第二項の承認を受けようとする事業者　次に掲げる事項
+    text: '二　令第五十七条の二第二項の承認を受けようとする事業者　次に掲げる事項
 
-      イ 申請者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
+      イ　申請者の氏名又は名称及び納税地（法人番号を有する者にあつては、名称、納税地及び法人番号）
 
-      ロ 法第三十七条第一項に規定する翌課税期間の初日の年月日
+      ロ　法第三十七条第一項に規定する翌課税期間の初日の年月日
 
-      ハ 法第三十七条第一項の規定の適用を受けることをやめようとする課税期間の基準期間における課税売上高
+      ハ　法第三十七条第一項の規定の適用を受けることをやめようとする課税期間の基準期間における課税売上高
 
-      ニ その他参考となるべき事項'
+      ニ　その他参考となるべき事項'
     modality: unspecified
     item_number: 2
 - number: 5

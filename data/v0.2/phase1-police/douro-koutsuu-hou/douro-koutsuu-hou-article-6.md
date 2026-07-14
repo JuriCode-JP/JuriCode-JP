@@ -64,6 +64,10 @@ paragraphs:
     type: simple
     text: 第一項の手信号等の意味は、政令で定める。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-6-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百二十条第一項第一号　第四項については第百十九条第一項第一号、第百二十一条第一項第一号及び第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

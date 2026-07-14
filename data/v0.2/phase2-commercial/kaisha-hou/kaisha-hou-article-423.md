@@ -43,17 +43,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-423-p3-kou-1
     type: kou
-    text: 第三百五十六条第一項（第四百十九条第二項において準用する場合を含む。）の取締役又は執行役
+    text: 一　第三百五十六条第一項（第四百十九条第二項において準用する場合を含む。）の取締役又は執行役
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-423-p3-kou-2
     type: kou
-    text: 株式会社が当該取引をすることを決定した取締役又は執行役
+    text: 二　株式会社が当該取引をすることを決定した取締役又は執行役
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-423-p3-kou-3
     type: kou
-    text: 当該取引に関する取締役会の承認の決議に賛成した取締役（指名委員会等設置会社においては、当該取引が指名委員会等設置会社と取締役との間の取引又は指名委員会等設置会社と取締役との利益が相反する取引である場合に限る。）
+    text: 三　当該取引に関する取締役会の承認の決議に賛成した取締役（指名委員会等設置会社においては、当該取引が指名委員会等設置会社と取締役との間の取引又は指名委員会等設置会社と取締役との利益が相反する取引である場合に限る。）
     modality: unspecified
     item_number: 3
 - number: 4
@@ -66,8 +66,8 @@ paragraphs:
     text: 前項の規定は、第三百五十六条第一項第二号又は第三号に掲げる場合において、同項の取締役（監査等委員であるものを除く。）が当該取引につき監査等委員会の承認を受けたときは、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-16-5-2-p1-kou-1
     type: kou
-    text: 電気、ガス、工業用水道若しくは水道を事業の用に供するための施設又はこれらに附属する施設
+    text: 一　電気、ガス、工業用水道若しくは水道を事業の用に供するための施設又はこれらに附属する施設
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-16-5-2-p1-kou-2
     type: kou
-    text: ばい煙若しくは粉じんの処理又は騒音の防止のための施設
+    text: 二　ばい煙若しくは粉じんの処理又は騒音の防止のための施設
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-16-5-2-p1-kou-3
     type: kou
-    text: 生産設備に関する保安を確保するために必要な施設
+    text: 三　生産設備に関する保安を確保するために必要な施設
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-16-5-2-p1-kou-4
     type: kou
-    text: 職業訓練施設
+    text: 四　職業訓練施設
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-16-5-2-p1-kou-5
     type: kou
-    text: 駐車場、車庫、食堂、休憩所、浴場、洗面所その他これらに類する施設
+    text: 五　駐車場、車庫、食堂、休憩所、浴場、洗面所その他これらに類する施設
     modality: unspecified
     item_number: 5
 cases: []

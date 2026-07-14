@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-135-p1-kou-1
     type: kou
-    text: 金融商品取引所の解散についての総会の決議
+    text: 一　金融商品取引所の解散についての総会の決議
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-135-p1-kou-2
     type: kou
-    text: 金融商品取引所を全部又は一部の当事者とする合併（第百四十条第一項の合併を除く。）
+    text: 二　金融商品取引所を全部又は一部の当事者とする合併（第百四十条第一項の合併を除く。）
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,17 +42,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-135-p2-kou-1
     type: kou
-    text: 定款で定めた解散の事由の発生
+    text: 一　定款で定めた解散の事由の発生
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-135-p2-kou-2
     type: kou
-    text: 会員の数が五以下となつたこと。
+    text: 二　会員の数が五以下となつたこと。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-135-p2-kou-3
     type: kou
-    text: 解散を命ずる裁判
+    text: 三　解散を命ずる裁判
     modality: unspecified
     item_number: 3
 cases: []

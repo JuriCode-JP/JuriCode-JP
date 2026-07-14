@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shouken-jouhou-furei-art-16-p1-kou-1
     type: kou
-    text: 当該有価証券に関して開示が行われている場合（法第四条第七項に規定する開示が行われている場合に該当する場合をいう。）に該当する場合
+    text: 一　当該有価証券に関して開示が行われている場合（法第四条第七項に規定する開示が行われている場合に該当する場合をいう。）に該当する場合
     modality: unspecified
     item_number: 1
   - id: shouken-jouhou-furei-art-16-p1-kou-2
     type: kou
-    text: 第十三条第二号から第四号までに掲げる場合
+    text: 二　第十三条第二号から第四号までに掲げる場合
     modality: unspecified
     item_number: 2
   - id: shouken-jouhou-furei-art-16-p1-kou-3
     type: kou
-    text: 国内における当該有価証券の所有者（当該有価証券に係る外国証券売出しを行った金融商品取引業者等に当該有価証券の保管を委託している者及び第十四条に掲げる者に限る。）が五十名未満の場合
+    text: 三　国内における当該有価証券の所有者（当該有価証券に係る外国証券売出しを行った金融商品取引業者等に当該有価証券の保管を委託している者及び第十四条に掲げる者に限る。）が五十名未満の場合
     modality: unspecified
     item_number: 3
 cases: []

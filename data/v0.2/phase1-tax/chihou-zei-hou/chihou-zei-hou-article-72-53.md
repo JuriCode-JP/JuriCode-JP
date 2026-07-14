@@ -31,8 +31,8 @@ paragraphs:
     text: 道府県知事は、前項の納税者が納期限までに税金を納付しなかつたことについてやむを得ない事由があると認める場合においては、同項の延滞金額を減免することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

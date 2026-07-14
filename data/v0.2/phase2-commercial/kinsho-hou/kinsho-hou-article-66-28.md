@@ -25,27 +25,27 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-66-28-p1-kou-1
     type: kou
-    text: 商号又は名称
+    text: 一　商号又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-28-p1-kou-2
     type: kou
-    text: 役員（法人でない団体で代表者又は管理人の定めのあるものの代表者又は管理人を含む。以下この章において同じ。）の氏名又は名称
+    text: 二　役員（法人でない団体で代表者又は管理人の定めのあるものの代表者又は管理人を含む。以下この章において同じ。）の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-28-p1-kou-3
     type: kou
-    text: 信用格付業を行う営業所又は事務所（外国法人にあつては、本店及び国内における主たる営業所又は事務所その他の営業所又は事務所）の名称及び所在地
+    text: 三　信用格付業を行う営業所又は事務所（外国法人にあつては、本店及び国内における主たる営業所又は事務所その他の営業所又は事務所）の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-28-p1-kou-4
     type: kou
-    text: 他に事業を行つているときは、その事業の種類
+    text: 四　他に事業を行つているときは、その事業の種類
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-66-28-p1-kou-5
     type: kou
-    text: その他内閣府令で定める事項
+    text: 五　その他内閣府令で定める事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -61,22 +61,22 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-66-28-p2-kou-1
     type: kou
-    text: 第六十六条の三十第一項第二号及び第三号に該当しないことを誓約する書面
+    text: 一　第六十六条の三十第一項第二号及び第三号に該当しないことを誓約する書面
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-28-p2-kou-2
     type: kou
-    text: 信用格付業の業務の内容及び方法として内閣府令で定める事項を記載した書類
+    text: 二　信用格付業の業務の内容及び方法として内閣府令で定める事項を記載した書類
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-28-p2-kou-3
     type: kou
-    text: 定款及び会社の登記事項証明書（これらに準ずるものを含む。）
+    text: 三　定款及び会社の登記事項証明書（これらに準ずるものを含む。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-28-p2-kou-4
     type: kou
-    text: その他内閣府令で定める書類
+    text: 四　その他内閣府令で定める書類
     modality: unspecified
     item_number: 4
 - number: 3

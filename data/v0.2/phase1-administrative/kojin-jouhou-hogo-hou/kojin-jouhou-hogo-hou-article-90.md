@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kojin-jouhou-hogo-hou-art-90-p1-kou-1
     type: kou
-    text: 開示決定に基づき開示を受けた保有個人情報
+    text: 一　開示決定に基づき開示を受けた保有個人情報
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-90-p1-kou-2
     type: kou
-    text: 開示決定に係る保有個人情報であって、第八十八条第一項の他の法令の規定により開示を受けたもの
+    text: 二　開示決定に係る保有個人情報であって、第八十八条第一項の他の法令の規定により開示を受けたもの
     modality: unspecified
     item_number: 2
 - number: 2

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-57-22-p1-kou-1
     type: kou
-    text: 第五十七条の二十第一項の規定により措置をとるべきことを命じたとき。
+    text: 一　第五十七条の二十第一項の規定により措置をとるべきことを命じたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-57-22-p1-kou-2
     type: kou
-    text: 第五十七条の二十第二項の規定により措置をとるべきことを命じ、又は業務の全部若しくは一部の停止を命じたとき。
+    text: 二　第五十七条の二十第二項の規定により措置をとるべきことを命じ、又は業務の全部若しくは一部の停止を命じたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-57-22-p1-kou-3
     type: kou
-    text: 前条第二項の規定により措置をとるべきことを命じたとき。
+    text: 三　前条第二項の規定により措置をとるべきことを命じたとき。
     modality: unspecified
     item_number: 3
 cases: []

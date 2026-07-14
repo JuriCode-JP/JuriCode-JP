@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-16-p1-kou-1
     type: kou
-    text: 納付すべき課徴金の額に対する答弁
+    text: 一　納付すべき課徴金の額に対する答弁
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-16-p1-kou-2
     type: kou
-    text: 第十四条第一項第二号に掲げる事項に対する認否
+    text: 二　第十四条第一項第二号に掲げる事項に対する認否
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-16-p1-kou-3
     type: kou
-    text: 第十四条第一項第三号及び第四号に掲げる事項に関する主張
+    text: 三　第十四条第一項第三号及び第四号に掲げる事項に関する主張
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-16-p1-kou-4
     type: kou
-    text: 被審人の主張（前号に掲げるものを除く。）
+    text: 四　被審人の主張（前号に掲げるものを除く。）
     modality: unspecified
     item_number: 4
 - number: 2

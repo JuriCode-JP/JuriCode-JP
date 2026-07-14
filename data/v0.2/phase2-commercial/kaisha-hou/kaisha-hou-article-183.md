@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-183-p2-kou-1
     type: kou
-    text: 株式の分割により増加する株式の総数の株式の分割前の発行済株式（種類株式発行会社にあっては、第三号の種類の発行済株式）の総数に対する割合及び当該株式の分割に係る基準日
+    text: 一　株式の分割により増加する株式の総数の株式の分割前の発行済株式（種類株式発行会社にあっては、第三号の種類の発行済株式）の総数に対する割合及び当該株式の分割に係る基準日
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-183-p2-kou-2
     type: kou
-    text: 株式の分割がその効力を生ずる日
+    text: 二　株式の分割がその効力を生ずる日
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-183-p2-kou-3
     type: kou
-    text: 株式会社が種類株式発行会社である場合には、分割する株式の種類
+    text: 三　株式会社が種類株式発行会社である場合には、分割する株式の種類
     modality: unspecified
     item_number: 3
 cases: []

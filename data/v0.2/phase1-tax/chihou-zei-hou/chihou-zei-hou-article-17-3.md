@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-17-3-p1-kou-1
     type: kou
-    text: 納付し、又は納入すべき額が確定しているが、その納期が到来していない地方団体の徴収金
+    text: 一　納付し、又は納入すべき額が確定しているが、その納期が到来していない地方団体の徴収金
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-17-3-p1-kou-2
     type: kou
-    text: 最近において納付し、又は納入すべき額の確定が確実であると認められる地方団体の徴収金
+    text: 二　最近において納付し、又は納入すべき額の確定が確実であると認められる地方団体の徴収金
     modality: unspecified
     item_number: 2
 - number: 2

@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: keihou-art-25-p1-kou-1
     type: kou
-    text: 前に拘禁刑以上の刑に処せられたことがない者
+    text: 一　前に拘禁刑以上の刑に処せられたことがない者
     modality: unspecified
     item_number: 1
   - id: keihou-art-25-p1-kou-2
     type: kou
-    text: 前に拘禁刑以上の刑に処せられたことがあっても、その執行を終わった日又はその執行の免除を得た日から五年以内に拘禁刑以上の刑に処せられたことがない者
+    text: 二　前に拘禁刑以上の刑に処せられたことがあっても、その執行を終わった日又はその執行の免除を得た日から五年以内に拘禁刑以上の刑に処せられたことがない者
     modality: unspecified
     item_number: 2
 - number: 2

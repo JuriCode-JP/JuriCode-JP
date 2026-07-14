@@ -23,42 +23,42 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-shikkourei-art-43-2-4-p1-kou-1
     type: kou
-    text: 法第六十六条の七十二第一項の規定による登録申請書の受理
+    text: 一　法第六十六条の七十二第一項の規定による登録申請書の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-43-2-4-p1-kou-2
     type: kou
-    text: 法第六十六条の七十三第一項（法第六十六条の七十五第五項において準用する場合を含む。）及び第六十六条の七十五第二項の規定による登録
+    text: 二　法第六十六条の七十三第一項（法第六十六条の七十五第五項において準用する場合を含む。）及び第六十六条の七十五第二項の規定による登録
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-43-2-4-p1-kou-3
     type: kou
-    text: 法第六十六条の七十三第二項（法第六十六条の七十五第五項において準用する場合を含む。）の規定による投資運用関係業務受託業者登録簿の縦覧
+    text: 三　法第六十六条の七十三第二項（法第六十六条の七十五第五項において準用する場合を含む。）の規定による投資運用関係業務受託業者登録簿の縦覧
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-43-2-4-p1-kou-4
     type: kou
-    text: 法第六十六条の七十四の規定による登録の拒否
+    text: 四　法第六十六条の七十四の規定による登録の拒否
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-43-2-4-p1-kou-5
     type: kou
-    text: 法第六十六条の八十七の規定による登録の抹消
+    text: 五　法第六十六条の八十七の規定による登録の抹消
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-43-2-4-p1-kou-6
     type: kou
-    text: 法第六十六条の八十九第一項の規定による審問（法第六十六条の七十一の登録の拒否に係るものに限る。）
+    text: 六　法第六十六条の八十九第一項の規定による審問（法第六十六条の七十一の登録の拒否に係るものに限る。）
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-43-2-4-p1-kou-7
     type: kou
-    text: 法第六十六条の八十九第三項の規定による通知（法第六十六条の七十一の登録に係るものに限る。）
+    text: 七　法第六十六条の八十九第三項の規定による通知（法第六十六条の七十一の登録に係るものに限る。）
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-43-2-4-p1-kou-8
     type: kou
-    text: 法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第六号に規定する審問に係るもの
+    text: 八　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第六号に規定する審問に係るもの
     modality: unspecified
     item_number: 8
 cases: []

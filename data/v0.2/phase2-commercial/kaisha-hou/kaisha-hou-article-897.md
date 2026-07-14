@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の裁判及び同項の即時抗告についての裁判があった場合には、その裁判書を当事者に送達しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

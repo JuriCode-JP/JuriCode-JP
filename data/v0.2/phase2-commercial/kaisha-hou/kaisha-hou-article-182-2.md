@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: kaisha-hou-art-182-2-p1-kou-1
     type: kou
-    text: 第百八十条第二項の株主総会（株式の併合をするために種類株主総会の決議を要する場合にあっては、当該種類株主総会を含む。第百八十二条の四第二項において同じ。）の日の二週間前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）
+    text: 一　第百八十条第二項の株主総会（株式の併合をするために種類株主総会の決議を要する場合にあっては、当該種類株主総会を含む。第百八十二条の四第二項において同じ。）の日の二週間前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-182-2-p1-kou-2
     type: kou
-    text: 第百八十二条の四第三項の規定により読み替えて適用する第百八十一条第一項の規定による株主に対する通知の日又は第百八十一条第二項の公告の日のいずれか早い日
+    text: 二　第百八十二条の四第三項の規定により読み替えて適用する第百八十一条第一項の規定による株主に対する通知の日又は第百八十一条第二項の公告の日のいずれか早い日
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,22 +44,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-182-2-p2-kou-1
     type: kou
-    text: 前項の書面の閲覧の請求
+    text: 一　前項の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-182-2-p2-kou-2
     type: kou
-    text: 前項の書面の謄本又は抄本の交付の請求
+    text: 二　前項の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-182-2-p2-kou-3
     type: kou
-    text: 前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-182-2-p2-kou-4
     type: kou
-    text: 前項の電磁的記録に記録された事項を電磁的方法であって株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前項の電磁的記録に記録された事項を電磁的方法であって株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 cases: []

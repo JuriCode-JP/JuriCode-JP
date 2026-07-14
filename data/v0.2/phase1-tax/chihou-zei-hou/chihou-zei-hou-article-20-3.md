@@ -25,12 +25,12 @@ paragraphs:
     - 本条
   - id: chihou-zei-hou-art-20-3-p1-kou-1
     type: kou
-    text: 道府県税の納税義務者又は特別徴収義務者の住所、居所、家屋敷、事務所、事業所又は財産が当該道府県の徴税吏員による賦課徴収を著しく困難とする地域に在ること。
+    text: 一　道府県税の納税義務者又は特別徴収義務者の住所、居所、家屋敷、事務所、事業所又は財産が当該道府県の徴税吏員による賦課徴収を著しく困難とする地域に在ること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-20-3-p1-kou-2
     type: kou
-    text: 市町村が道府県税の賦課徴収に関する事務の一部を処理することに同意したこと。
+    text: 二　市町村が道府県税の賦課徴収に関する事務の一部を処理することに同意したこと。
     modality: unspecified
     item_number: 2
 - number: 2

@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-514-p1-kou-1
     type: kou
-    text: 特別清算の手続の費用の予納がないとき。
+    text: 一　特別清算の手続の費用の予納がないとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-514-p1-kou-2
     type: kou
-    text: 特別清算によっても清算を結了する見込みがないことが明らかであるとき。
+    text: 二　特別清算によっても清算を結了する見込みがないことが明らかであるとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-514-p1-kou-3
     type: kou
-    text: 特別清算によることが債権者の一般の利益に反することが明らかであるとき。
+    text: 三　特別清算によることが債権者の一般の利益に反することが明らかであるとき。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-514-p1-kou-4
     type: kou
-    text: 不当な目的で特別清算開始の申立てがされたとき、その他申立てが誠実にされたものでないとき。
+    text: 四　不当な目的で特別清算開始の申立てがされたとき、その他申立てが誠実にされたものでないとき。
     modality: unspecified
     item_number: 4
 cases: []

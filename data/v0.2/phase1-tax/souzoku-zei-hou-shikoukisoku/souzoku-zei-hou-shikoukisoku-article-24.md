@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-24-p1-kou-1
     type: kou
-    text: 第十三条第一項第三号及び第四号に掲げる事項
+    text: 一　第十三条第一項第三号及び第四号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-24-p1-kou-2
     type: kou
-    text: 過誤納額
+    text: 二　過誤納額
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-24-p1-kou-3
     type: kou
-    text: 還付を受けようとする財産の種類及び当該財産の物納の許可の申請をした時における所在場所
+    text: 三　還付を受けようとする財産の種類及び当該財産の物納の許可の申請をした時における所在場所
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikoukisoku-art-24-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

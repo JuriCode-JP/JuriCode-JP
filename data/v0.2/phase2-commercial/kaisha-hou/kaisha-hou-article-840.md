@@ -38,8 +38,8 @@ paragraphs:
     text: 前項の金銭の金額が同項の判決が確定した時における会社財産の状況に照らして著しく不相当であるときは、裁判所は、同項前段の株式会社又は株主の申立てにより、当該金額の増減を命ずることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -50,8 +50,8 @@ paragraphs:
     text: 前項の申立ては、同項の判決が確定した日から六箇月以内にしなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -73,8 +73,8 @@ paragraphs:
     text: 第一項前段に規定する場合には、前項の質権の登録株式質権者は、第一項前段の株式会社から同項の金銭を受領し、他の債権者に先立って自己の債権の弁済に充てることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
@@ -85,8 +85,8 @@ paragraphs:
     text: 前項の債権の弁済期が到来していないときは、同項の登録株式質権者は、第一項前段の株式会社に同項の金銭に相当する金額を供託させることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-840-p6-kou
     type: kou_dan
     text: この場合において、質権は、その供託金について存在する。

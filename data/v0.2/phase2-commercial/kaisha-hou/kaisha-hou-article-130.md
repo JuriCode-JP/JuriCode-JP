@@ -31,8 +31,8 @@ paragraphs:
     text: 株券発行会社における前項の規定の適用については、同項中「株式会社その他の第三者」とあるのは、「株式会社」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

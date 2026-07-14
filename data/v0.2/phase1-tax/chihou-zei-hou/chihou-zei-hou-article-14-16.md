@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: chihou-zei-hou-art-14-16-p2-kou-1
     type: kou
-    text: 前項の譲渡に係る財産の換価代金から同項に規定する債権が配当を受けるべき金額
+    text: 一　前項の譲渡に係る財産の換価代金から同項に規定する債権が配当を受けるべき金額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-14-16-p2-kou-2
     type: kou
-    text: 前号の財産を納税者又は特別徴収義務者の財産とみなし、その財産の換価代金につき前項の地方団体の徴収金の交付要求があつたものとした場合に同項の債権が配当を受けるべき金額
+    text: 二　前号の財産を納税者又は特別徴収義務者の財産とみなし、その財産の換価代金につき前項の地方団体の徴収金の交付要求があつたものとした場合に同項の債権が配当を受けるべき金額
     modality: unspecified
     item_number: 2
 - number: 3

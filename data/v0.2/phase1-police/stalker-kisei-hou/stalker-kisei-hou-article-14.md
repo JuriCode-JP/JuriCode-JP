@@ -37,12 +37,12 @@ paragraphs:
     - 前項
   - id: stalker-kisei-hou-art-14-p2-kou-1
     type: kou
-    text: 当該聴聞に係る第三条の規定に違反する行為の相手方がその住所又は居所を他の公安委員会の管轄区域内に移転したこと。
+    text: 一　当該聴聞に係る第三条の規定に違反する行為の相手方がその住所又は居所を他の公安委員会の管轄区域内に移転したこと。
     modality: unspecified
     item_number: 1
   - id: stalker-kisei-hou-art-14-p2-kou-2
     type: kou
-    text: 当該聴聞に係る第三条の規定に違反する行為をした者がその住所（日本国内に住所がないとき又は住所が知れないときは居所）を他の公安委員会の管轄区域内に移転したこと。
+    text: 二　当該聴聞に係る第三条の規定に違反する行為をした者がその住所（日本国内に住所がないとき又は住所が知れないときは居所）を他の公安委員会の管轄区域内に移転したこと。
     modality: unspecified
     item_number: 2
 - number: 3

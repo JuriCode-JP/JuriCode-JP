@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: minpou-art-786-p1-kou-1
     type: kou
-    text: 子又はその法定代理人　子又はその法定代理人が認知を知った時
+    text: 一　子又はその法定代理人　子又はその法定代理人が認知を知った時
     modality: unspecified
     item_number: 1
   - id: minpou-art-786-p1-kou-2
     type: kou
-    text: 認知をした者　認知の時
+    text: 二　認知をした者　認知の時
     modality: unspecified
     item_number: 2
   - id: minpou-art-786-p1-kou-3
     type: kou
-    text: 子の母　子の母が認知を知った時
+    text: 三　子の母　子の母が認知を知った時
     modality: unspecified
     item_number: 3
 - number: 2
@@ -61,8 +61,8 @@ paragraphs:
     text: 前項の規定は、同項に規定する子の法定代理人が第一項の認知の無効の訴えを提起する場合には、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

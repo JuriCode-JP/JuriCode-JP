@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu_kei
   - id: kojin-jouhou-hogo-hou-art-182-p1-kou-1
     type: kou
-    text: 第百四十六条第一項の規定による報告若しくは資料の提出をせず、若しくは虚偽の報告をし、若しくは虚偽の資料を提出し、又は当該職員の質問に対して答弁をせず、若しくは虚偽の答弁をし、若しくは検査を拒み、妨げ、若しくは忌避したとき。
+    text: 一　第百四十六条第一項の規定による報告若しくは資料の提出をせず、若しくは虚偽の報告をし、若しくは虚偽の資料を提出し、又は当該職員の質問に対して答弁をせず、若しくは虚偽の答弁をし、若しくは検査を拒み、妨げ、若しくは忌避したとき。
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-182-p1-kou-2
     type: kou
-    text: 第百五十三条の規定による報告をせず、又は虚偽の報告をしたとき。
+    text: 二　第百五十三条の規定による報告をせず、又は虚偽の報告をしたとき。
     modality: unspecified
     item_number: 2
 cases: []

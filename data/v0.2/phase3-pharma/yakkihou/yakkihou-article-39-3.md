@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: yakkihou-art-39-3-p1-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-39-3-p1-kou-2
     type: kou
-    text: 法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    text: 二　法人にあつては、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-39-3-p1-kou-3
     type: kou
-    text: その他厚生労働省令で定める事項
+    text: 三　その他厚生労働省令で定める事項
     modality: unspecified
     item_number: 3
 - number: 2

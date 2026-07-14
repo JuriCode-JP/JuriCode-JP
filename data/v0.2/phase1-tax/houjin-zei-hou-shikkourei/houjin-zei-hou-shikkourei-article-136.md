@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-shikkourei-art-136-p1-kou-1
     type: kou
-    text: 当該資金に充てるために徴収される負担金の額が当該業務の内容からみて適正であること。
+    text: 一　当該資金に充てるために徴収される負担金の額が当該業務の内容からみて適正であること。
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-136-p1-kou-2
     type: kou
-    text: 当該資金の額が当該業務に必要な金額を超えることとなるときは、その負担金の徴収の停止その他必要な措置が講じられることとなつていること。
+    text: 二　当該資金の額が当該業務に必要な金額を超えることとなるときは、その負担金の徴収の停止その他必要な措置が講じられることとなつていること。
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-136-p1-kou-3
     type: kou
-    text: 当該資金が当該業務の目的に従つて適正な方法で管理されていること。
+    text: 三　当該資金が当該業務の目的に従つて適正な方法で管理されていること。
     modality: unspecified
     item_number: 3
 cases: []

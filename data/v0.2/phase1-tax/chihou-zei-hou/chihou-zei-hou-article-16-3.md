@@ -23,32 +23,32 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-zei-hou-art-16-3-p1-kou-1
     type: kou
-    text: 道府県たばこ税
+    text: 一　道府県たばこ税
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-16-3-p1-kou-2
     type: kou
-    text: ゴルフ場利用税
+    text: 二　ゴルフ場利用税
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-16-3-p1-kou-3
     type: kou
-    text: 軽油引取税
+    text: 三　軽油引取税
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-16-3-p1-kou-4
     type: kou
-    text: 市町村たばこ税
+    text: 四　市町村たばこ税
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-16-3-p1-kou-5
     type: kou
-    text: 入湯税
+    text: 五　入湯税
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-16-3-p1-kou-6
     type: kou
-    text: 特別徴収の方法によつて徴収する道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税
+    text: 六　特別徴収の方法によつて徴収する道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税
     modality: unspecified
     item_number: 6
 - number: 2
@@ -92,8 +92,8 @@ paragraphs:
     text: 前項の通知があつたときは、その通知を受けた納税者又は特別徴収義務者は、同項の抵当権を設定したものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: chihou-zei-hou-art-16-3-p5-kou
     type: kou_dan
     text: この場合において、地方団体の長は、抵当権の設定の登記を関係機関に嘱託しなければならない。
@@ -109,9 +109,9 @@ paragraphs:
     text: 前項後段の場合（次項に規定する場合を除く。）においては、その嘱託に係る書面には、第四項の文書が同項の納税者又は特別徴収義務者に到達したことを証する書面を添付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false

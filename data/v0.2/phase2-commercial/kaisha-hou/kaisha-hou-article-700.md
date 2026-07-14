@@ -35,8 +35,8 @@ paragraphs:
     text: 前項の利札の所持人は、いつでも、社債発行会社に対し、これと引換えに同項の規定により控除しなければならない額の支払を請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

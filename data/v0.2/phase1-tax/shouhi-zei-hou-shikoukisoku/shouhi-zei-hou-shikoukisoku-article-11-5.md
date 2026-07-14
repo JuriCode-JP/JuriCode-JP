@@ -23,26 +23,26 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p1-kou-1
     type: kou
-    text: 届出者の氏名又は名称（国外事業者にあつては、日本語及び英語で記載されたものに限る。以下この条において同じ。）、納税地（納税地と住所等とが異なる場合には、納税地及び住所等（国外事業者にあつては、日本語及び英語で記載されたものに限る。）。以下この号において同じ。）及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　届出者の氏名又は名称（国外事業者にあつては、日本語及び英語で記載されたものに限る。以下この条において同じ。）、納税地（納税地と住所等とが異なる場合には、納税地及び住所等（国外事業者にあつては、日本語及び英語で記載されたものに限る。）。以下この号において同じ。）及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p1-kou-2
     type: kou
-    text: その提供するデジタルプラットフォーム（法第十五条の二第一項に規定するデジタルプラットフォームをいう。以下この条において同じ。）の名称
+    text: 二　その提供するデジタルプラットフォーム（法第十五条の二第一項に規定するデジタルプラットフォームをいう。以下この条において同じ。）の名称
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p1-kou-3
     type: kou
-    text: '次に掲げる者の区分に応じそれぞれ次に定める事項
+    text: '三　次に掲げる者の区分に応じそれぞれ次に定める事項
 
-      イ 法第十五条の二第二項に規定する合計額が五十億円を超えることとなつた同条第一項に規定するプラットフォーム事業者　その課税期間の初日及び末日並びに当該合計額
+      イ　法第十五条の二第二項に規定する合計額が五十億円を超えることとなつた同条第一項に規定するプラットフォーム事業者　その課税期間の初日及び末日並びに当該合計額
 
-      ロ 令第二十九条第一項の規定の適用を受けることとなつた同項に規定する合併法人等　その合併若しくは分割又は譲受けがあつた年月日及びその事業を承継させ、又は譲り渡した法第十五条の二第一項に規定する特定プラットフォーム事業者の氏名又は名称'
+      ロ　令第二十九条第一項の規定の適用を受けることとなつた同項に規定する合併法人等　その合併若しくは分割又は譲受けがあつた年月日及びその事業を承継させ、又は譲り渡した法第十五条の二第一項に規定する特定プラットフォーム事業者の氏名又は名称'
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -56,17 +56,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p2-kou-1
     type: kou
-    text: 届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p2-kou-2
     type: kou
-    text: 変更の内容
+    text: 二　変更の内容
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p2-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 3
@@ -80,22 +80,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p3-kou-1
     type: kou
-    text: 申請者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　申請者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p3-kou-2
     type: kou
-    text: その提供するデジタルプラットフォームの名称
+    text: 二　その提供するデジタルプラットフォームの名称
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p3-kou-3
     type: kou
-    text: 法第十五条の二第七項に規定する合計額が五十億円以下である場合に該当する各課税期間の初日及び末日
+    text: 三　法第十五条の二第七項に規定する合計額が五十億円以下である場合に該当する各課税期間の初日及び末日
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p3-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 4
@@ -109,22 +109,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p4-kou-1
     type: kou
-    text: 届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
+    text: 一　届出者の氏名又は名称、納税地及び法人番号（法人番号を有しない者にあつては、氏名又は名称及び納税地）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p4-kou-2
     type: kou
-    text: そのデジタルプラットフォームに係る事業を廃止した年月日
+    text: 二　そのデジタルプラットフォームに係る事業を廃止した年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p4-kou-3
     type: kou
-    text: 前号のデジタルプラットフォームの名称
+    text: 三　前号のデジタルプラットフォームの名称
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p4-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 5
@@ -138,12 +138,12 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p5-kou-1
     type: kou
-    text: その課税期間において法第十五条の二第一項の規定の適用を受ける電気通信利用役務の提供に係る同条第二項に規定する対価の額の合計額及びその明細
+    text: 一　その課税期間において法第十五条の二第一項の規定の適用を受ける電気通信利用役務の提供に係る同条第二項に規定する対価の額の合計額及びその明細
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-11-5-p5-kou-2
     type: kou
-    text: その他参考となるべき事項
+    text: 二　その他参考となるべき事項
     modality: unspecified
     item_number: 2
 cases: []

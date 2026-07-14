@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-137-34-2-p2-kou-1
     type: kou
-    text: 再生医療等製品区分適合性調査に係る品目の製造管理及び品質管理に関する資料
+    text: 一　再生医療等製品区分適合性調査に係る品目の製造管理及び品質管理に関する資料
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-34-2-p2-kou-2
     type: kou
-    text: 再生医療等製品区分適合性調査に係る製造業者及び製造所における製造管理及び品質管理に関する資料
+    text: 二　再生医療等製品区分適合性調査に係る製造業者及び製造所における製造管理及び品質管理に関する資料
     modality: unspecified
     item_number: 2
 cases: []

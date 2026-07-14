@@ -36,17 +36,17 @@ paragraphs:
     - 同項
   - id: kokuzei-tsuusoku-hou-shikkourei-art-4-p2-kou-1
     type: kou
-    text: 被相続人の氏名、死亡時の住所又は居所（事務所及び事業所を含む。以下同じ。）、納税地及び死亡年月日
+    text: 一　被相続人の氏名、死亡時の住所又は居所（事務所及び事業所を含む。以下同じ。）、納税地及び死亡年月日
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-4-p2-kou-2
     type: kou
-    text: 各相続人の氏名、住所又は居所、被相続人との続柄及び法第五条第二項（相続による納税義務の承継）に規定する相続分
+    text: 二　各相続人の氏名、住所又は居所、被相続人との続柄及び法第五条第二項（相続による納税義務の承継）に規定する相続分
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-4-p2-kou-3
     type: kou
-    text: 相続人の代表者の氏名及び住所又は居所
+    text: 三　相続人の代表者の氏名及び住所又は居所
     modality: unspecified
     item_number: 3
 - number: 3
@@ -83,17 +83,17 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-4-p5-kou-1
     type: kou
-    text: 被相続人の氏名及び死亡時の住所又は居所
+    text: 一　被相続人の氏名及び死亡時の住所又は居所
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-4-p5-kou-2
     type: kou
-    text: 各相続人の氏名及び住所又は居所並びに被相続人との続柄その他参考となるべき事項
+    text: 二　各相続人の氏名及び住所又は居所並びに被相続人との続柄その他参考となるべき事項
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-4-p5-kou-3
     type: kou
-    text: 相続人の代表者の氏名及び住所又は居所
+    text: 三　相続人の代表者の氏名及び住所又は居所
     modality: unspecified
     item_number: 3
 - number: 6

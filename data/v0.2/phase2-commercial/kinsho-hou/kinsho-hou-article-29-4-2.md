@@ -110,12 +110,12 @@ paragraphs:
     - 前二項
   - id: kinsho-hou-art-29-4-2-p9-kou-1
     type: kou
-    text: 第二条第一項第九号に掲げる有価証券
+    text: 一　第二条第一項第九号に掲げる有価証券
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-29-4-2-p9-kou-2
     type: kou
-    text: 第二条第二項の規定により有価証券とみなされる同項第五号又は第六号に掲げる権利（電子記録移転権利に該当するものに限る。）
+    text: 二　第二条第二項の規定により有価証券とみなされる同項第五号又は第六号に掲げる権利（電子記録移転権利に該当するものに限る。）
     modality: unspecified
     item_number: 2
 cases: []

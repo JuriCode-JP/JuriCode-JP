@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-9-8-5-p1-kou-1
     type: kou
-    text: 特別清算開始の決定があつたこと。
+    text: 一　特別清算開始の決定があつたこと。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-9-8-5-p1-kou-2
     type: kou
-    text: 法人税法施行令第二十四条の二第一項に規定する事実
+    text: 二　法人税法施行令第二十四条の二第一項に規定する事実
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-9-8-5-p1-kou-3
     type: kou
-    text: 法令の規定による整理手続によらない負債の整理に関する計画の決定又は契約の締結で、第三者が関与する協議によるものとして総務省令で定めるものがあつたこと（前号に掲げるものを除く。）。
+    text: 三　法令の規定による整理手続によらない負債の整理に関する計画の決定又は契約の締結で、第三者が関与する協議によるものとして総務省令で定めるものがあつたこと（前号に掲げるものを除く。）。
     modality: unspecified
     item_number: 3
 cases: []

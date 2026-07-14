@@ -25,12 +25,12 @@ paragraphs:
     - 次項
   - id: douro-koutsuu-hou-art-36-p1-kou-1
     type: kou
-    text: 車両である場合　その通行している道路と交差する道路（以下「交差道路」という。）を左方から進行してくる車両及び交差道路を通行する路面電車
+    text: 一　車両である場合　その通行している道路と交差する道路（以下「交差道路」という。）を左方から進行してくる車両及び交差道路を通行する路面電車
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-36-p1-kou-2
     type: kou
-    text: 路面電車である場合　交差道路を左方から進行してくる路面電車
+    text: 二　路面電車である場合　交差道路を左方から進行してくる路面電車
     modality: unspecified
     item_number: 2
 - number: 2
@@ -60,6 +60,10 @@ paragraphs:
     type: simple
     text: 車両等は、交差点に入ろうとし、及び交差点内を通行するときは、当該交差点の状況に応じ、交差道路を通行する車両等、反対方向から進行してきて右折する車両等及び当該交差点又はその直近で道路を横断する歩行者に特に注意し、かつ、できる限り安全な速度と方法で進行しなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-36-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十条第一項第二号　第二項から第四項までについては第百十九条第一項第六号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

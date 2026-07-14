@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-947-p1-kou-1
     type: kou
-    text: 当該調査機関
+    text: 一　当該調査機関
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-947-p1-kou-2
     type: kou
-    text: 当該調査機関が株式会社である場合における親株式会社（当該調査機関を子会社とする株式会社をいう。）
+    text: 二　当該調査機関が株式会社である場合における親株式会社（当該調査機関を子会社とする株式会社をいう。）
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-947-p1-kou-3
     type: kou
-    text: 理事等又は職員（過去二年間にそのいずれかであった者を含む。次号において同じ。）が当該調査機関の理事等に占める割合が二分の一を超える法人
+    text: 三　理事等又は職員（過去二年間にそのいずれかであった者を含む。次号において同じ。）が当該調査機関の理事等に占める割合が二分の一を超える法人
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-947-p1-kou-4
     type: kou
-    text: 理事等又は職員のうちに当該調査機関（法人であるものを除く。）又は当該調査機関の代表権を有する理事等が含まれている法人
+    text: 四　理事等又は職員のうちに当該調査機関（法人であるものを除く。）又は当該調査機関の代表権を有する理事等が含まれている法人
     modality: unspecified
     item_number: 4
 cases: []

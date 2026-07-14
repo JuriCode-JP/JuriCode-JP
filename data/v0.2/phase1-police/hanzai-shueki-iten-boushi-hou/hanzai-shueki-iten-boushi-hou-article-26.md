@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: hanzai-shueki-iten-boushi-hou-art-26-p1-kou-1
     type: kou
-    text: 第十五条若しくは第十九条第二項の規定による報告若しくは資料の提出をせず、又は虚偽の報告若しくは資料の提出をしたとき。
+    text: 一　第十五条若しくは第十九条第二項の規定による報告若しくは資料の提出をせず、又は虚偽の報告若しくは資料の提出をしたとき。
     modality: unspecified
     item_number: 1
   - id: hanzai-shueki-iten-boushi-hou-art-26-p1-kou-2
     type: kou
-    text: 第十六条第一項若しくは第十九条第三項の規定による当該職員の質問に対して答弁をせず、若しくは虚偽の答弁をし、又はこれらの規定による検査を拒み、妨げ、若しくは忌避したとき。
+    text: 二　第十六条第一項若しくは第十九条第三項の規定による当該職員の質問に対して答弁をせず、若しくは虚偽の答弁をし、又はこれらの規定による検査を拒み、妨げ、若しくは忌避したとき。
     modality: unspecified
     item_number: 2
 cases: []

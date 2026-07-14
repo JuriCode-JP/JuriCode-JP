@@ -25,27 +25,27 @@ paragraphs:
     - 前条
   - id: shotoku-zei-hou-shikoukisoku-art-99-p1-kou-1
     type: kou
-    text: その届出書を提出する者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地）
+    text: 一　その届出書を提出する者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び個人番号又は法人番号（個人番号及び法人番号を有しない者にあつては、氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-99-p1-kou-2
     type: kou
-    text: 給与支払事務所等を設け、又はこれを移転し、若しくは廃止した旨及びその年月日
+    text: 二　給与支払事務所等を設け、又はこれを移転し、若しくは廃止した旨及びその年月日
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-99-p1-kou-3
     type: kou
-    text: 給与支払事務所等の所在地（給与支払事務所等を移転する場合には、その移転前の給与支払事務所等の所在地及びその移転後の給与支払事務所等の所在地）
+    text: 三　給与支払事務所等の所在地（給与支払事務所等を移転する場合には、その移転前の給与支払事務所等の所在地及びその移転後の給与支払事務所等の所在地）
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-99-p1-kou-4
     type: kou
-    text: その届出書を提出する日の現況におけるその給与支払事務所等において給与等の支払を受ける者の職種等の別の人員数
+    text: 四　その届出書を提出する日の現況におけるその給与支払事務所等において給与等の支払を受ける者の職種等の別の人員数
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-99-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

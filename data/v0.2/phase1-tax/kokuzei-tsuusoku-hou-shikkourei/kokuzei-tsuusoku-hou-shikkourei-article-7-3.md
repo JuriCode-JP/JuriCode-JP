@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-7-3-p1-kou-1
     type: kou
-    text: 納付受託者が法第三十四条の三第一項（第一号に係る部分に限る。）（納付受託者に対する納付の委託）の規定により国税を納付しようとする者の委託に基づき当該国税の額に相当する金銭の交付を受けたとき　当該交付を受けた日
+    text: 一　納付受託者が法第三十四条の三第一項（第一号に係る部分に限る。）（納付受託者に対する納付の委託）の規定により国税を納付しようとする者の委託に基づき当該国税の額に相当する金銭の交付を受けたとき　当該交付を受けた日
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-7-3-p1-kou-2
     type: kou
-    text: 納付受託者が法第三十四条の三第一項（第二号に係る部分に限る。）の規定により国税を納付しようとする者の委託を受けたとき　当該委託を受けた日
+    text: 二　納付受託者が法第三十四条の三第一項（第二号に係る部分に限る。）の規定により国税を納付しようとする者の委託を受けたとき　当該委託を受けた日
     modality: unspecified
     item_number: 2
 cases: []

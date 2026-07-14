@@ -32,22 +32,22 @@ paragraphs:
     modality: unspecified
   - id: keiji-soshou-hou-art-212-p2-kou-1
     type: kou
-    text: 犯人として追呼されているとき。
+    text: 一　犯人として追呼されているとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-212-p2-kou-2
     type: kou
-    text: 贓物又は明らかに犯罪の用に供したと思われる兇器その他の物を所持しているとき。
+    text: 二　贓物又は明らかに犯罪の用に供したと思われる兇器その他の物を所持しているとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-212-p2-kou-3
     type: kou
-    text: 身体又は被服に犯罪の顕著な証跡があるとき。
+    text: 三　身体又は被服に犯罪の顕著な証跡があるとき。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-212-p2-kou-4
     type: kou
-    text: 誰何されて逃走しようとするとき。
+    text: 四　誰何されて逃走しようとするとき。
     modality: unspecified
     item_number: 4
 cases: []

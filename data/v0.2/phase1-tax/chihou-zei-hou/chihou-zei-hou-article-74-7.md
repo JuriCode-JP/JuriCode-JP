@@ -25,22 +25,22 @@ paragraphs:
     - 次条
   - id: chihou-zei-hou-art-74-7-p1-kou-1
     type: kou
-    text: 納税義務者又は納税義務があると認められる者
+    text: 一　納税義務者又は納税義務があると認められる者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-74-7-p1-kou-2
     type: kou
-    text: 小売販売業者
+    text: 二　小売販売業者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-74-7-p1-kou-3
     type: kou
-    text: 第一号に掲げる者に金銭若しくは物品を給付する義務があると認められる者又は同号に掲げる者から金銭若しくは物品を受け取る権利があると認められる者（前号に掲げる者を除く。）
+    text: 三　第一号に掲げる者に金銭若しくは物品を給付する義務があると認められる者又は同号に掲げる者から金銭若しくは物品を受け取る権利があると認められる者（前号に掲げる者を除く。）
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-74-7-p1-kou-4
     type: kou
-    text: 前三号に掲げる者以外の者で当該たばこ税の賦課徴収に関し直接関係があると認められるもの
+    text: 四　前三号に掲げる者以外の者で当該たばこ税の賦課徴収に関し直接関係があると認められるもの
     modality: unspecified
     item_number: 4
 - number: 2
@@ -53,8 +53,8 @@ paragraphs:
     text: 前項第一号に掲げる者を分割法人（分割によりその有する資産及び負債の移転を行つた法人をいう。以下本項において同じ。）とする分割に係る分割承継法人（分割により分割法人から資産及び負債の移転を受けた法人をいう。以下本項において同じ。）は前項第三号に規定する物品を受け取る権利があると認められる者に、同項第一号に掲げる者を分割承継法人とする分割に係る分割法人は同項第三号に規定する物品を給付する義務があると認められる者にそれぞれ含まれるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

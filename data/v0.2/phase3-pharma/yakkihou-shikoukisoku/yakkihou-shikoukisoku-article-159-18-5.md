@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-159-18-5-p1-kou-1
     type: kou
-    text: その薬局において指定濫用防止医薬品を購入し、又は譲り受けようとする者が次条第二項に規定する年齢に満たない者である場合は当該者の氏名
+    text: 一　その薬局において指定濫用防止医薬品を購入し、又は譲り受けようとする者が次条第二項に規定する年齢に満たない者である場合は当該者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-159-18-5-p1-kou-2
     type: kou
-    text: 当該指定濫用防止医薬品を購入し、若しくは譲り受けようとする者又は当該指定濫用防止医薬品を使用しようとする者の当該指定濫用防止医薬品及び当該指定濫用防止医薬品以外の指定濫用防止医薬品の購入又は譲受けの状況
+    text: 二　当該指定濫用防止医薬品を購入し、若しくは譲り受けようとする者又は当該指定濫用防止医薬品を使用しようとする者の当該指定濫用防止医薬品及び当該指定濫用防止医薬品以外の指定濫用防止医薬品の購入又は譲受けの状況
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-159-18-5-p1-kou-3
     type: kou
-    text: 当該指定濫用防止医薬品をその薬局において購入し、又は譲り受けようとする者が、次条第一項の数量を超えて当該指定濫用防止医薬品を購入し、又は譲り受けようとする場合はその理由
+    text: 三　当該指定濫用防止医薬品をその薬局において購入し、又は譲り受けようとする者が、次条第一項の数量を超えて当該指定濫用防止医薬品を購入し、又は譲り受けようとする場合はその理由
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-159-18-5-p1-kou-4
     type: kou
-    text: 当該指定濫用防止医薬品の適正な使用を目的とする購入又は譲受けであることを確認するために必要な事項
+    text: 四　当該指定濫用防止医薬品の適正な使用を目的とする購入又は譲受けであることを確認するために必要な事項
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-159-18-5-p1-kou-5
     type: kou
-    text: その他法第三十六条の十一第一項の規定による情報の提供を行うために確認が必要な事項
+    text: 五　その他法第三十六条の十一第一項の規定による情報の提供を行うために確認が必要な事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -56,8 +56,8 @@ paragraphs:
     text: 要指導医薬品における前項の規定の適用については、同項本文中「第百五十八条の十第一項の規定により読み替えて適用される第百五十八条の八第四項各号」とあるのは「第百五十八条の十二第四項各号」と、同項第一号及び第三号中「薬局」とあるのは「薬局又は店舗」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

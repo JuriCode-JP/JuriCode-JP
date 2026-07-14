@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-23-p1-kou-1
     type: kou
-    text: 商号
+    text: 一　商号
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-23-p1-kou-2
     type: kou
-    text: 登録年月日及び登録番号
+    text: 二　登録年月日及び登録番号
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-23-p1-kou-3
     type: kou
-    text: 変更の内容及び理由
+    text: 三　変更の内容及び理由
     modality: unspecified
     item_number: 3
 - number: 2

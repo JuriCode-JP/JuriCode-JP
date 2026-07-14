@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-155-10-p1-kou-1
     type: kou
-    text: 第百五十五条の三第一項各号に掲げる基準に適合しなくなつたとき。
+    text: 一　第百五十五条の三第一項各号に掲げる基準に適合しなくなつたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-155-10-p1-kou-2
     type: kou
-    text: 第百五十五条の三第二項第二号から第五号までに該当することとなつたとき。
+    text: 二　第百五十五条の三第二項第二号から第五号までに該当することとなつたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-155-10-p1-kou-3
     type: kou
-    text: 認可に付した条件に違反したとき。
+    text: 三　認可に付した条件に違反したとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-155-10-p1-kou-4
     type: kou
-    text: 法令等若しくは業務規則に違反したとき、又は外国金融商品取引所参加者が法令等若しくは業務規則に違反する行為をしたにもかかわらず、これに対し法令等若しくは業務規則を遵守させるために当該外国金融商品取引所に認められた権能を行使せずその他必要な措置をとることを怠つたとき。
+    text: 四　法令等若しくは業務規則に違反したとき、又は外国金融商品取引所参加者が法令等若しくは業務規則に違反する行為をしたにもかかわらず、これに対し法令等若しくは業務規則を遵守させるために当該外国金融商品取引所に認められた権能を行使せずその他必要な措置をとることを怠つたとき。
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-155-10-p1-kou-5
     type: kou
-    text: 外国金融商品取引所の行為又はその開設する外国金融商品市場における外国市場取引の状況が公益又は投資者保護のため有害であると認めるとき。
+    text: 五　外国金融商品取引所の行為又はその開設する外国金融商品市場における外国市場取引の状況が公益又は投資者保護のため有害であると認めるとき。
     modality: unspecified
     item_number: 5
 - number: 2

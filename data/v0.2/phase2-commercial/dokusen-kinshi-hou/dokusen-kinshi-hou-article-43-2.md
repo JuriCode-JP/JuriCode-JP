@@ -40,17 +40,17 @@ paragraphs:
     - 前項
   - id: dokusen-kinshi-hou-art-43-2-p2-kou-1
     type: kou
-    text: 当該外国競争当局が、公正取引委員会に対し、前項に規定する情報の提供に相当する情報の提供を行うことができること。
+    text: 一　当該外国競争当局が、公正取引委員会に対し、前項に規定する情報の提供に相当する情報の提供を行うことができること。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-43-2-p2-kou-2
     type: kou
-    text: 当該外国において、前項の規定により提供する情報のうち秘密として提供するものについて、当該外国の法令により、我が国と同じ程度の秘密の保持が担保されていること。
+    text: 二　当該外国において、前項の規定により提供する情報のうち秘密として提供するものについて、当該外国の法令により、我が国と同じ程度の秘密の保持が担保されていること。
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-43-2-p2-kou-3
     type: kou
-    text: 当該外国競争当局において、前項の規定により提供する情報が、その職務の遂行に資する目的以外の目的で使用されないこと。
+    text: 三　当該外国競争当局において、前項の規定により提供する情報が、その職務の遂行に資する目的以外の目的で使用されないこと。
     modality: unspecified
     item_number: 3
 - number: 3

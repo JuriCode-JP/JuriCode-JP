@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kojin-jouhou-hogo-hou-art-32-p1-kou-1
     type: kou
-    text: 当該個人情報取扱事業者の氏名又は名称及び住所並びに法人にあっては、その代表者の氏名
+    text: 一　当該個人情報取扱事業者の氏名又は名称及び住所並びに法人にあっては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-32-p1-kou-2
     type: kou
-    text: 全ての保有個人データの利用目的（第二十一条第四項第一号から第三号までに該当する場合を除く。）
+    text: 二　全ての保有個人データの利用目的（第二十一条第四項第一号から第三号までに該当する場合を除く。）
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-32-p1-kou-3
     type: kou
-    text: 次項の規定による求め又は次条第一項（同条第五項において準用する場合を含む。）、第三十四条第一項若しくは第三十五条第一項、第三項若しくは第五項の規定による請求に応じる手続（第三十八条第二項の規定により手数料の額を定めたときは、その手数料の額を含む。）
+    text: 三　次項の規定による求め又は次条第一項（同条第五項において準用する場合を含む。）、第三十四条第一項若しくは第三十五条第一項、第三項若しくは第五項の規定による請求に応じる手続（第三十八条第二項の規定により手数料の額を定めたときは、その手数料の額を含む。）
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-32-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、保有個人データの適正な取扱いの確保に関し必要な事項として政令で定めるもの
+    text: 四　前三号に掲げるもののほか、保有個人データの適正な取扱いの確保に関し必要な事項として政令で定めるもの
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,12 +52,12 @@ paragraphs:
     modality: jogai
   - id: kojin-jouhou-hogo-hou-art-32-p2-kou-1
     type: kou
-    text: 前項の規定により当該本人が識別される保有個人データの利用目的が明らかな場合
+    text: 一　前項の規定により当該本人が識別される保有個人データの利用目的が明らかな場合
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-32-p2-kou-2
     type: kou
-    text: 第二十一条第四項第一号から第三号までに該当する場合
+    text: 二　第二十一条第四項第一号から第三号までに該当する場合
     modality: unspecified
     item_number: 2
 - number: 3

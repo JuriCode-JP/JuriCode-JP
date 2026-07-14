@@ -51,7 +51,7 @@ parent_section:
   setsu_name_ja: 第四節　地方機関
 ---
 
-# 警察法 第33条(（<!-- segment: simple id: keisatsu-hou-art-33-p2 -->
+# 警察法 第33条(（東京都警察情報通信部及び北海道警察情報通信部）)
 <!-- segment: simple id: keisatsu-hou-art-33-p3 -->
 東京都警察情報通信部及び北海道警察情報通信部）)
 

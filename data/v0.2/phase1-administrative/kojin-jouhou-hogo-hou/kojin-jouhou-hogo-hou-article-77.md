@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kojin-jouhou-hogo-hou-art-77-p1-kou-1
     type: kou
-    text: 開示請求をする者の氏名及び住所又は居所
+    text: 一　開示請求をする者の氏名及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-77-p1-kou-2
     type: kou
-    text: 開示請求に係る保有個人情報が記録されている行政文書等の名称その他の開示請求に係る保有個人情報を特定するに足りる事項
+    text: 二　開示請求に係る保有個人情報が記録されている行政文書等の名称その他の開示請求に係る保有個人情報を特定するに足りる事項
     modality: unspecified
     item_number: 2
 - number: 2

@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-638-p1-kou-1
     type: kou
-    text: 有限責任社員を加入させる定款の変更　合資会社
+    text: 一　有限責任社員を加入させる定款の変更　合資会社
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-638-p1-kou-2
     type: kou
-    text: その社員の一部を有限責任社員とする定款の変更　合資会社
+    text: 二　その社員の一部を有限責任社員とする定款の変更　合資会社
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-638-p1-kou-3
     type: kou
-    text: その社員の全部を有限責任社員とする定款の変更　合同会社
+    text: 三　その社員の全部を有限責任社員とする定款の変更　合同会社
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,12 +47,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-638-p2-kou-1
     type: kou
-    text: その社員の全部を無限責任社員とする定款の変更　合名会社
+    text: 一　その社員の全部を無限責任社員とする定款の変更　合名会社
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-638-p2-kou-2
     type: kou
-    text: その社員の全部を有限責任社員とする定款の変更　合同会社
+    text: 二　その社員の全部を有限責任社員とする定款の変更　合同会社
     modality: unspecified
     item_number: 2
 - number: 3
@@ -66,17 +66,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-638-p3-kou-1
     type: kou
-    text: その社員の全部を無限責任社員とする定款の変更　合名会社
+    text: 一　その社員の全部を無限責任社員とする定款の変更　合名会社
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-638-p3-kou-2
     type: kou
-    text: 無限責任社員を加入させる定款の変更　合資会社
+    text: 二　無限責任社員を加入させる定款の変更　合資会社
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-638-p3-kou-3
     type: kou
-    text: その社員の一部を無限責任社員とする定款の変更　合資会社
+    text: 三　その社員の一部を無限責任社員とする定款の変更　合資会社
     modality: unspecified
     item_number: 3
 cases: []

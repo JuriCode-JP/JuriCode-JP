@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-30-4-p1-kou-1
     type: kou
-    text: 損失の危険の管理に関し、適切な体制及び規則の整備を行つていること。
+    text: 一　損失の危険の管理に関し、適切な体制及び規則の整備を行つていること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-30-4-p1-kou-2
     type: kou
-    text: 資本金の額が、公益又は投資者保護のため必要かつ適当なものとして政令で定める金額以上であること。
+    text: 二　資本金の額が、公益又は投資者保護のため必要かつ適当なものとして政令で定める金額以上であること。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-30-4-p1-kou-3
     type: kou
-    text: 純財産額が前号に規定する金額以上であること。
+    text: 三　純財産額が前号に規定する金額以上であること。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-30-4-p1-kou-4
     type: kou
-    text: 第四十六条の六第二項の規定に違反していないこと。
+    text: 四　第四十六条の六第二項の規定に違反していないこと。
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-30-4-p1-kou-5
     type: kou
-    text: 認可申請者の売買価格の決定方法、受渡しその他の決済の方法その他内閣府令で定める業務の内容及び方法が、公益又は投資者保護のため必要かつ適当なものであること。
+    text: 五　認可申請者の売買価格の決定方法、受渡しその他の決済の方法その他内閣府令で定める業務の内容及び方法が、公益又は投資者保護のため必要かつ適当なものであること。
     modality: unspecified
     item_number: 5
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: koka_torikeshi
   - id: kaisha-hou-art-898-p1-kou-1
     type: kou
-    text: 第五百四十条第一項又は第二項の規定による保全処分
+    text: 一　第五百四十条第一項又は第二項の規定による保全処分
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-898-p1-kou-2
     type: kou
-    text: 第五百四十一条第一項又は第二項の規定による処分
+    text: 二　第五百四十一条第一項又は第二項の規定による処分
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-898-p1-kou-3
     type: kou
-    text: 第五百四十二条第一項又は第二項の規定による保全処分
+    text: 三　第五百四十二条第一項又は第二項の規定による保全処分
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-898-p1-kou-4
     type: kou
-    text: 第五百四十三条の規定による処分
+    text: 四　第五百四十三条の規定による処分
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項各号に掲げる裁判及び同項の規定による決定に対しては、即時抗告をすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

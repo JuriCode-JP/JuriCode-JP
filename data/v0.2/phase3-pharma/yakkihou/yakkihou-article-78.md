@@ -23,177 +23,177 @@ paragraphs:
     modality: gimu
   - id: yakkihou-art-78-p1-kou-1
     type: kou
-    text: 第十二条第四項の許可の更新を申請する者
+    text: 一　第十二条第四項の許可の更新を申請する者
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-78-p1-kou-2
     type: kou
-    text: 第十三条第四項の許可の更新を申請する者
+    text: 二　第十三条第四項の許可の更新を申請する者
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-78-p1-kou-3
     type: kou
-    text: 第十三条第八項の許可の区分の変更の許可を申請する者
+    text: 三　第十三条第八項の許可の区分の変更の許可を申請する者
     modality: unspecified
     item_number: 3
-  - id: yakkihou-art-78-p1-kou-3
+  - id: yakkihou-art-78-p1-kou-3-2
     type: kou
-    text: 第十三条の二の二第四項の登録の更新を申請する者
+    text: 三の二　第十三条の二の二第四項の登録の更新を申請する者
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-78-p1-kou-4
     type: kou
-    text: 第十三条の三第一項の認定を申請する者
+    text: 四　第十三条の三第一項の認定を申請する者
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-78-p1-kou-5
     type: kou
-    text: 第十三条の三第三項において準用する第十三条第四項の認定の更新を申請する者
+    text: 五　第十三条の三第三項において準用する第十三条第四項の認定の更新を申請する者
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-78-p1-kou-6
     type: kou
-    text: 第十三条の三第三項において準用する第十三条第八項の認定の区分の変更又は追加の認定を申請する者
+    text: 六　第十三条の三第三項において準用する第十三条第八項の認定の区分の変更又は追加の認定を申請する者
     modality: unspecified
     item_number: 6
-  - id: yakkihou-art-78-p1-kou-6
+  - id: yakkihou-art-78-p1-kou-6-2
     type: kou
-    text: 第十三条の三の二第二項において準用する第十三条の二の二第四項の登録の更新を申請する者
+    text: 六の二　第十三条の三の二第二項において準用する第十三条の二の二第四項の登録の更新を申請する者
     modality: unspecified
     item_number: 6
   - id: yakkihou-art-78-p1-kou-7
     type: kou
-    text: 第十四条又は第十九条の二の承認を申請する者
+    text: 七　第十四条又は第十九条の二の承認を申請する者
     modality: unspecified
     item_number: 7
   - id: yakkihou-art-78-p1-kou-8
     type: kou
-    text: 第十四条第六項（同条第十三項（第十九条の二第五項において準用する場合を含む。）及び第十九条の二第五項において準用する場合を含む。）若しくは第八項（第十九条の二第五項において準用する場合を含む。）、第十四条の二の二第三項（第十九条の二第五項及び第六項において準用する場合を含む。）又は第十四条の二の二の二第二項（第十四条の三第二項（第二十条第一項において準用する場合を含む。）及び第十九条の二第五項において準用する場合を含む。）の調査を受けようとする者
+    text: 八　第十四条第六項（同条第十三項（第十九条の二第五項において準用する場合を含む。）及び第十九条の二第五項において準用する場合を含む。）若しくは第八項（第十九条の二第五項において準用する場合を含む。）、第十四条の二の二第三項（第十九条の二第五項及び第六項において準用する場合を含む。）又は第十四条の二の二の二第二項（第十四条の三第二項（第二十条第一項において準用する場合を含む。）及び第十九条の二第五項において準用する場合を含む。）の調査を受けようとする者
     modality: unspecified
     item_number: 8
-  - id: yakkihou-art-78-p1-kou-8
+  - id: yakkihou-art-78-p1-kou-8-2
     type: kou
-    text: 第十四条の二第一項（第二十三条の二十五の二において準用する場合を含む。）の確認を受けようとする者
+    text: 八の二　第十四条の二第一項（第二十三条の二十五の二において準用する場合を含む。）の確認を受けようとする者
     modality: unspecified
     item_number: 8
   - id: yakkihou-art-78-p1-kou-9
     type: kou
-    text: 第十四条の四（第十九条の四において準用する場合を含む。）の再審査を申請する者
+    text: 九　第十四条の四（第十九条の四において準用する場合を含む。）の再審査を申請する者
     modality: unspecified
     item_number: 9
-  - id: yakkihou-art-78-p1-kou-9
+  - id: yakkihou-art-78-p1-kou-9-2
     type: kou
-    text: 第十四条の七の二第一項又は第三項（これらの規定を第十九条の四において準用する場合を含む。）の確認を受けようとする者
+    text: 九の二　第十四条の七の二第一項又は第三項（これらの規定を第十九条の四において準用する場合を含む。）の確認を受けようとする者
     modality: unspecified
     item_number: 9
   - id: yakkihou-art-78-p1-kou-10
     type: kou
-    text: 第二十三条の二第四項の許可の更新を申請する者
+    text: 十　第二十三条の二第四項の許可の更新を申請する者
     modality: unspecified
     item_number: 10
   - id: yakkihou-art-78-p1-kou-11
     type: kou
-    text: 第二十三条の二の三第三項（第二十三条の二の四第二項において準用する場合を含む。）の登録の更新を申請する者
+    text: 十一　第二十三条の二の三第三項（第二十三条の二の四第二項において準用する場合を含む。）の登録の更新を申請する者
     modality: unspecified
     item_number: 11
   - id: yakkihou-art-78-p1-kou-12
     type: kou
-    text: 第二十三条の二の四第一項の登録を申請する者
+    text: 十二　第二十三条の二の四第一項の登録を申請する者
     modality: unspecified
     item_number: 12
   - id: yakkihou-art-78-p1-kou-13
     type: kou
-    text: 第二十三条の二の五又は第二十三条の二の十七の承認を申請する者
+    text: 十三　第二十三条の二の五又は第二十三条の二の十七の承認を申請する者
     modality: unspecified
     item_number: 13
   - id: yakkihou-art-78-p1-kou-14
     type: kou
-    text: 第二十三条の二の五第六項若しくは第八項（これらの規定を同条第十三項（第二十三条の二の十七第五項において準用する場合を含む。）及び第二十三条の二の十七第五項において準用する場合を含む。）、第二十三条の二の六の二第三項（第二十三条の二の十七第五項及び第六項において準用する場合を含む。）又は第二十三条の二の六の三第二項（第二十三条の二の八第二項（第二十三条の二の二十第一項において準用する場合を含む。）及び第二十三条の二の十七第五項において準用する場合を含む。）の調査を受けようとする者
+    text: 十四　第二十三条の二の五第六項若しくは第八項（これらの規定を同条第十三項（第二十三条の二の十七第五項において準用する場合を含む。）及び第二十三条の二の十七第五項において準用する場合を含む。）、第二十三条の二の六の二第三項（第二十三条の二の十七第五項及び第六項において準用する場合を含む。）又は第二十三条の二の六の三第二項（第二十三条の二の八第二項（第二十三条の二の二十第一項において準用する場合を含む。）及び第二十三条の二の十七第五項において準用する場合を含む。）の調査を受けようとする者
     modality: unspecified
     item_number: 14
   - id: yakkihou-art-78-p1-kou-15
     type: kou
-    text: 第二十三条の二の九（第二十三条の二の十九において準用する場合を含む。）の使用成績に関する評価を申請する者
+    text: 十五　第二十三条の二の九（第二十三条の二の十九において準用する場合を含む。）の使用成績に関する評価を申請する者
     modality: unspecified
     item_number: 15
-  - id: yakkihou-art-78-p1-kou-15
+  - id: yakkihou-art-78-p1-kou-15-2
     type: kou
-    text: 第二十三条の二の十の二第一項又は第三項（これらの規定を第二十三条の二の十九において準用する場合を含む。）の確認を受けようとする者
+    text: 十五の二　第二十三条の二の十の二第一項又は第三項（これらの規定を第二十三条の二の十九において準用する場合を含む。）の確認を受けようとする者
     modality: unspecified
     item_number: 15
   - id: yakkihou-art-78-p1-kou-16
     type: kou
-    text: 第二十三条の十八第一項の基準適合性認証を申請する者
+    text: 十六　第二十三条の十八第一項の基準適合性認証を申請する者
     modality: unspecified
     item_number: 16
   - id: yakkihou-art-78-p1-kou-17
     type: kou
-    text: 第二十三条の二十第四項の許可の更新を申請する者
+    text: 十七　第二十三条の二十第四項の許可の更新を申請する者
     modality: unspecified
     item_number: 17
   - id: yakkihou-art-78-p1-kou-18
     type: kou
-    text: 第二十三条の二十二第四項の許可の更新を申請する者
+    text: 十八　第二十三条の二十二第四項の許可の更新を申請する者
     modality: unspecified
     item_number: 18
   - id: yakkihou-art-78-p1-kou-19
     type: kou
-    text: 第二十三条の二十二第八項の許可の区分の変更の許可を申請する者
+    text: 十九　第二十三条の二十二第八項の許可の区分の変更の許可を申請する者
     modality: unspecified
     item_number: 19
   - id: yakkihou-art-78-p1-kou-20
     type: kou
-    text: 第二十三条の二十四第一項の認定を申請する者
+    text: 二十　第二十三条の二十四第一項の認定を申請する者
     modality: unspecified
     item_number: 20
   - id: yakkihou-art-78-p1-kou-21
     type: kou
-    text: 第二十三条の二十四第三項において準用する第二十三条の二十二第四項の認定の更新を申請する者
+    text: 二十一　第二十三条の二十四第三項において準用する第二十三条の二十二第四項の認定の更新を申請する者
     modality: unspecified
     item_number: 21
   - id: yakkihou-art-78-p1-kou-22
     type: kou
-    text: 第二十三条の二十四第三項において準用する第二十三条の二十二第八項の認定の区分の変更又は追加の認定を申請する者
+    text: 二十二　第二十三条の二十四第三項において準用する第二十三条の二十二第八項の認定の区分の変更又は追加の認定を申請する者
     modality: unspecified
     item_number: 22
   - id: yakkihou-art-78-p1-kou-23
     type: kou
-    text: 第二十三条の二十五又は第二十三条の三十七の承認を申請する者
+    text: 二十三　第二十三条の二十五又は第二十三条の三十七の承認を申請する者
     modality: unspecified
     item_number: 23
   - id: yakkihou-art-78-p1-kou-24
     type: kou
-    text: 第二十三条の二十五第六項（同条第十三項（第二十三条の三十七第五項において準用する場合を含む。）及び第二十三条の三十七第五項において準用する場合を含む。）若しくは第八項（第二十三条の三十七第五項において準用する場合を含む。）又は第二十三条の二十六の二第二項（第二十三条の二十八第二項（第二十三条の四十第一項において準用する場合を含む。）及び第二十三条の三十七第五項において準用する場合を含む。）の調査を受けようとする者
+    text: 二十四　第二十三条の二十五第六項（同条第十三項（第二十三条の三十七第五項において準用する場合を含む。）及び第二十三条の三十七第五項において準用する場合を含む。）若しくは第八項（第二十三条の三十七第五項において準用する場合を含む。）又は第二十三条の二十六の二第二項（第二十三条の二十八第二項（第二十三条の四十第一項において準用する場合を含む。）及び第二十三条の三十七第五項において準用する場合を含む。）の調査を受けようとする者
     modality: unspecified
     item_number: 24
   - id: yakkihou-art-78-p1-kou-25
     type: kou
-    text: 第二十三条の二十九（第二十三条の三十九において準用する場合を含む。）の再審査を申請する者
+    text: 二十五　第二十三条の二十九（第二十三条の三十九において準用する場合を含む。）の再審査を申請する者
     modality: unspecified
     item_number: 25
-  - id: yakkihou-art-78-p1-kou-25
+  - id: yakkihou-art-78-p1-kou-25-2
     type: kou
-    text: 第二十三条の三十二の二第一項又は第三項（これらの規定を第二十三条の三十九において準用する場合を含む。）の確認を受けようとする者
+    text: 二十五の二　第二十三条の三十二の二第一項又は第三項（これらの規定を第二十三条の三十九において準用する場合を含む。）の確認を受けようとする者
     modality: unspecified
     item_number: 25
   - id: yakkihou-art-78-p1-kou-26
     type: kou
-    text: 第四十条の二第一項の許可を申請する者
+    text: 二十六　第四十条の二第一項の許可を申請する者
     modality: unspecified
     item_number: 26
   - id: yakkihou-art-78-p1-kou-27
     type: kou
-    text: 第四十条の二第四項の許可の更新を申請する者
+    text: 二十七　第四十条の二第四項の許可の更新を申請する者
     modality: unspecified
     item_number: 27
   - id: yakkihou-art-78-p1-kou-28
     type: kou
-    text: 第四十条の二第七項の修理区分の変更又は追加の許可を申請する者
+    text: 二十八　第四十条の二第七項の修理区分の変更又は追加の許可を申請する者
     modality: unspecified
     item_number: 28
   - id: yakkihou-art-78-p1-kou-29
     type: kou
-    text: 第八十条第一項から第三項までの調査を申請する者
+    text: 二十九　第八十条第一項から第三項までの調査を申請する者
     modality: unspecified
     item_number: 29
 - number: 2

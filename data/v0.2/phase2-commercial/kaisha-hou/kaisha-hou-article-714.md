@@ -28,22 +28,22 @@ paragraphs:
     depends_on: kaisha-hou-art-714-p1-zen
   - id: kaisha-hou-art-714-p1-kou-1
     type: kou
-    text: 第七百三条各号に掲げる者でなくなったとき。
+    text: 一　第七百三条各号に掲げる者でなくなったとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-714-p1-kou-2
     type: kou
-    text: 第七百十一条第三項の規定により辞任したとき。
+    text: 二　第七百十一条第三項の規定により辞任したとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-714-p1-kou-3
     type: kou
-    text: 前条の規定により解任されたとき。
+    text: 三　前条の規定により解任されたとき。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-714-p1-kou-4
     type: kou
-    text: 解散したとき。
+    text: 四　解散したとき。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -56,8 +56,8 @@ paragraphs:
     text: 社債発行会社は、前項前段に規定する場合において、同項各号のいずれかに該当することとなった日後二箇月以内に、同項後段の規定による招集をせず、又は同項後段の申立てをしなかったときは、当該社債の総額について期限の利益を喪失する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

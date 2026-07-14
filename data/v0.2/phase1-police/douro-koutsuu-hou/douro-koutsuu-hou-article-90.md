@@ -25,48 +25,48 @@ paragraphs:
     - 前条
   - id: douro-koutsuu-hou-art-90-p1-kou-1
     type: kou
-    text: '次に掲げる病気にかかつている者
+    text: '一　次に掲げる病気にかかつている者
 
-      イ 幻覚の症状を伴う精神病であつて政令で定めるもの
+      イ　幻覚の症状を伴う精神病であつて政令で定めるもの
 
-      ロ 発作により意識障害又は運動障害をもたらす病気であつて政令で定めるもの
+      ロ　発作により意識障害又は運動障害をもたらす病気であつて政令で定めるもの
 
-      ハ イ又はロに掲げるもののほか、自動車等の安全な運転に支障を及ぼすおそれがある病気として政令で定めるもの'
+      ハ　イ又はロに掲げるもののほか、自動車等の安全な運転に支障を及ぼすおそれがある病気として政令で定めるもの'
     modality: unspecified
     item_number: 1
-  - id: douro-koutsuu-hou-art-90-p1-kou-1
+  - id: douro-koutsuu-hou-art-90-p1-kou-1-2
     type: kou
-    text: 介護保険法（平成九年法律第百二十三号）第五条の二第一項に規定する認知症（第百二条第一項及び第百三条第一項第一号の二において単に「認知症」という。）である者
+    text: 一の二　介護保険法（平成九年法律第百二十三号）第五条の二第一項に規定する認知症（第百二条第一項及び第百三条第一項第一号の二において単に「認知症」という。）である者
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-90-p1-kou-2
     type: kou
-    text: アルコール、麻薬、大麻、あへん又は覚醒剤の中毒者
+    text: 二　アルコール、麻薬、大麻、あへん又は覚醒剤の中毒者
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-90-p1-kou-3
     type: kou
-    text: 第八項の規定による命令に違反した者
+    text: 三　第八項の規定による命令に違反した者
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-90-p1-kou-4
     type: kou
-    text: 自動車等の運転に関しこの法律若しくはこの法律に基づく命令の規定又はこの法律の規定に基づく処分に違反する行為（次項第一号から第四号までに規定する行為を除く。）をした者
+    text: 四　自動車等の運転に関しこの法律若しくはこの法律に基づく命令の規定又はこの法律の規定に基づく処分に違反する行為（次項第一号から第四号までに規定する行為を除く。）をした者
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-90-p1-kou-5
     type: kou
-    text: 自動車等の運転者を唆してこの法律の規定に違反する行為で重大なものとして政令で定めるもの（以下この号において「重大違反」という。）をさせ、又は自動車等の運転者が重大違反をした場合において当該重大違反を助ける行為（以下「重大違反唆し等」という。）をした者
+    text: 五　自動車等の運転者を唆してこの法律の規定に違反する行為で重大なものとして政令で定めるもの（以下この号において「重大違反」という。）をさせ、又は自動車等の運転者が重大違反をした場合において当該重大違反を助ける行為（以下「重大違反唆し等」という。）をした者
     modality: unspecified
     item_number: 5
   - id: douro-koutsuu-hou-art-90-p1-kou-6
     type: kou
-    text: 道路以外の場所において自動車等をその本来の用い方に従つて用いることにより人を死傷させる行為（以下「道路外致死傷」という。）で次項第五号に規定する行為以外のものをした者
+    text: 六　道路以外の場所において自動車等をその本来の用い方に従つて用いることにより人を死傷させる行為（以下「道路外致死傷」という。）で次項第五号に規定する行為以外のものをした者
     modality: unspecified
     item_number: 6
   - id: douro-koutsuu-hou-art-90-p1-kou-7
     type: kou
-    text: 第百二条第一項から第四項までの規定による命令を受け、又は同条第六項の規定による通知を受けた者
+    text: 七　第百二条第一項から第四項までの規定による命令を受け、又は同条第六項の規定による通知を受けた者
     modality: unspecified
     item_number: 7
 - number: 2
@@ -82,27 +82,27 @@ paragraphs:
     - 前項
   - id: douro-koutsuu-hou-art-90-p2-kou-1
     type: kou
-    text: 自動車等の運転により人を死傷させ、又は建造物を損壊させる行為で故意によるものをした者
+    text: 一　自動車等の運転により人を死傷させ、又は建造物を損壊させる行為で故意によるものをした者
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-90-p2-kou-2
     type: kou
-    text: 自動車等の運転に関し自動車の運転により人を死傷させる行為等の処罰に関する法律（平成二十五年法律第八十六号）第二条から第四条までの罪に当たる行為をした者
+    text: 二　自動車等の運転に関し自動車の運転により人を死傷させる行為等の処罰に関する法律（平成二十五年法律第八十六号）第二条から第四条までの罪に当たる行為をした者
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-90-p2-kou-3
     type: kou
-    text: 自動車等の運転に関し第百十七条の二第一項第一号、第三号又は第四号の違反行為をした者（前二号のいずれかに該当する者を除く。）
+    text: 三　自動車等の運転に関し第百十七条の二第一項第一号、第三号又は第四号の違反行為をした者（前二号のいずれかに該当する者を除く。）
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-90-p2-kou-4
     type: kou
-    text: 自動車等の運転に関し第百十七条第一項又は第二項の違反行為をした者
+    text: 四　自動車等の運転に関し第百十七条第一項又は第二項の違反行為をした者
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-90-p2-kou-5
     type: kou
-    text: 道路外致死傷で故意によるもの又は自動車の運転により人を死傷させる行為等の処罰に関する法律第二条から第四条までの罪に当たるものをした者
+    text: 五　道路外致死傷で故意によるもの又は自動車の運転により人を死傷させる行為等の処罰に関する法律第二条から第四条までの罪に当たるものをした者
     modality: unspecified
     item_number: 5
 - number: 3
@@ -159,8 +159,8 @@ paragraphs:
     text: この場合において、第三項中「第一項ただし書」とあるのは「第五項」と、「同項第四号」とあるのは「第一項第四号」と、第四項中「第一項ただし書」とあるのは「次項」と、「第二項」とあるのは「第六項」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 次項
+    - 同項
     depends_on: douro-koutsuu-hou-art-90-p7-zen
 - number: 8
   has_proviso: false

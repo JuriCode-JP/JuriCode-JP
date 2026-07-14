@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-teigi-furei-art-21-p1-kou-1
     type: kou
-    text: 為替取引の制限又は禁止
+    text: 一　為替取引の制限又は禁止
     modality: unspecified
     item_number: 1
   - id: kinsho-teigi-furei-art-21-p1-kou-2
     type: kou
-    text: 私人の債務の支払の猶予又は免除について講ずる措置
+    text: 二　私人の債務の支払の猶予又は免除について講ずる措置
     modality: unspecified
     item_number: 2
   - id: kinsho-teigi-furei-art-21-p1-kou-3
     type: kou
-    text: その債務に係る債務不履行宣言
+    text: 三　その債務に係る債務不履行宣言
     modality: unspecified
     item_number: 3
 cases: []

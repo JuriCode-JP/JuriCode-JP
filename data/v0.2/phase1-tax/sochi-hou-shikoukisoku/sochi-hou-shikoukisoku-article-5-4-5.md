@@ -53,8 +53,8 @@ paragraphs:
     text: 前条第三項及び第四項の規定は、施行令第五条第十一項ただし書の規定による同項ただし書の書面の通知について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

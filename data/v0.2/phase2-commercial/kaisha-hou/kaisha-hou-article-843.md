@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-843-p1-kou-1
     type: kou
-    text: 会社の吸収合併　吸収合併後存続する会社
+    text: 一　会社の吸収合併　吸収合併後存続する会社
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-843-p1-kou-2
     type: kou
-    text: 会社の新設合併　新設合併により設立する会社
+    text: 二　会社の新設合併　新設合併により設立する会社
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-843-p1-kou-3
     type: kou
-    text: 会社の吸収分割　吸収分割をする会社がその事業に関して有する権利義務の全部又は一部を当該会社から承継する会社
+    text: 三　会社の吸収分割　吸収分割をする会社がその事業に関して有する権利義務の全部又は一部を当該会社から承継する会社
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-843-p1-kou-4
     type: kou
-    text: 会社の新設分割　新設分割により設立する会社
+    text: 四　会社の新設分割　新設分割により設立する会社
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項に規定する場合には、同項各号に掲げる行為の効力が生じた日後に当該各号に定める会社が取得した財産は、当該行為をした会社の共有に属する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-843-p2-tadashi
     type: tadashi
     text: ただし、同項第四号に掲げる行為を一の会社がした場合には、同号に定める会社が取得した財産は、当該行為をした一の会社に属する。

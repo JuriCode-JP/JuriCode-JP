@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-32-p1-kou-1
     type: kou
-    text: 株券（外国の者の発行する証券又は証書で株券の性質を有するものを含む。以下この条において同じ。）
+    text: 一　株券（外国の者の発行する証券又は証書で株券の性質を有するものを含む。以下この条において同じ。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-32-p1-kou-2
     type: kou
-    text: 株券に係る権利を表示する法第二条第一項第二十号に掲げる有価証券
+    text: 二　株券に係る権利を表示する法第二条第一項第二十号に掲げる有価証券
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-32-p1-kou-3
     type: kou
-    text: 株券を受託有価証券とする有価証券信託受益証券
+    text: 三　株券を受託有価証券とする有価証券信託受益証券
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-32-p1-kou-4
     type: kou
-    text: 投資証券等
+    text: 四　投資証券等
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-32-p1-kou-5
     type: kou
-    text: 投資証券等に係る権利を表示する法第二条第一項第二十号に掲げる有価証券
+    text: 五　投資証券等に係る権利を表示する法第二条第一項第二十号に掲げる有価証券
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-32-p1-kou-6
     type: kou
-    text: 投資証券等を受託有価証券とする有価証券信託受益証券
+    text: 六　投資証券等を受託有価証券とする有価証券信託受益証券
     modality: unspecified
     item_number: 6
 cases: []

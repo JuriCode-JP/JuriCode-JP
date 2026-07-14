@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の場合において、事業を行つた期間が一年に満たないときは、同項に規定する控除額は、二百九十万円に当該年において事業を行つた月数を乗じて得た額を十二で除して算定した金額とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

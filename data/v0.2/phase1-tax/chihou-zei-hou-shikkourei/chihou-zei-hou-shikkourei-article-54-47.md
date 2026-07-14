@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-54-47-p1-kou-1
     type: kou
-    text: その構造及び工法からみて仮設のものでないこと。
+    text: 一　その構造及び工法からみて仮設のものでないこと。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-47-p1-kou-2
     type: kou
-    text: その利用が相当の期間にわたると認められること。
+    text: 二　その利用が相当の期間にわたると認められること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,17 +42,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-54-47-p2-kou-1
     type: kou
-    text: その整備状況が同一又は類似の用途に供される施設について通常必要とされる整備の水準と同程度の水準に達しているものであること。
+    text: 一　その整備状況が同一又は類似の用途に供される施設について通常必要とされる整備の水準と同程度の水準に達しているものであること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-47-p2-kou-2
     type: kou
-    text: その利用が相当の期間にわたると認められること。
+    text: 二　その利用が相当の期間にわたると認められること。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-54-47-p2-kou-3
     type: kou
-    text: その効用を維持するため通常必要とされる管理が行われると認められること。
+    text: 三　その効用を維持するため通常必要とされる管理が行われると認められること。
     modality: unspecified
     item_number: 3
 cases: []

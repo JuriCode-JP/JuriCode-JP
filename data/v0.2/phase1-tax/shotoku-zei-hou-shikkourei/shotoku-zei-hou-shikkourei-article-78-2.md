@@ -45,17 +45,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-78-2-p3-kou-1
     type: kou
-    text: 分収造林契約又は分収育林契約の目的となつた山林の伐採又は譲渡前にその契約に定める一定の割合により分収する金額（第九十四条第一項各号に掲げるものを除く。）
+    text: 一　分収造林契約又は分収育林契約の目的となつた山林の伐採又は譲渡前にその契約に定める一定の割合により分収する金額（第九十四条第一項各号に掲げるものを除く。）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-78-2-p3-kou-2
     type: kou
-    text: 分収造林契約又は分収育林契約の締結の期間中引き続きその契約に係る地代、利息その他の対価（当該契約に基づく造林又は育林に係るものを除く。）に相当する金額の支払を受ける者が当該契約に定める一定の割合により分収する金額
+    text: 二　分収造林契約又は分収育林契約の締結の期間中引き続きその契約に係る地代、利息その他の対価（当該契約に基づく造林又は育林に係るものを除く。）に相当する金額の支払を受ける者が当該契約に定める一定の割合により分収する金額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-78-2-p3-kou-3
     type: kou
-    text: 分収造林契約又は分収育林契約に係る権利を取得した日以後五年以内にその契約に定める一定の割合により分収する金額
+    text: 三　分収造林契約又は分収育林契約に係る権利を取得した日以後五年以内にその契約に定める一定の割合により分収する金額
     modality: unspecified
     item_number: 3
 cases: []

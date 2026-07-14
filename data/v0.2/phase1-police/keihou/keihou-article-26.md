@@ -25,17 +25,17 @@ paragraphs:
     - 次条
   - id: keihou-art-26-p1-kou-1
     type: kou
-    text: 猶予の期間内に更に罪を犯して拘禁刑以上の刑に処せられ、その刑の全部について執行猶予の言渡しがないとき。
+    text: 一　猶予の期間内に更に罪を犯して拘禁刑以上の刑に処せられ、その刑の全部について執行猶予の言渡しがないとき。
     modality: unspecified
     item_number: 1
   - id: keihou-art-26-p1-kou-2
     type: kou
-    text: 猶予の言渡し前に犯した他の罪について拘禁刑以上の刑に処せられ、その刑の全部について執行猶予の言渡しがないとき。
+    text: 二　猶予の言渡し前に犯した他の罪について拘禁刑以上の刑に処せられ、その刑の全部について執行猶予の言渡しがないとき。
     modality: unspecified
     item_number: 2
   - id: keihou-art-26-p1-kou-3
     type: kou
-    text: 猶予の言渡し前に他の罪について拘禁刑以上の刑に処せられたことが発覚したとき。
+    text: 三　猶予の言渡し前に他の罪について拘禁刑以上の刑に処せられたことが発覚したとき。
     modality: unspecified
     item_number: 3
 cases: []

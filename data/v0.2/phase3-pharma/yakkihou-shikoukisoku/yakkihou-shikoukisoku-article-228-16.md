@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-16-p1-kou-1
     type: kou
-    text: 指定再生医療等製品の使用の対象者の氏名及び住所
+    text: 一　指定再生医療等製品の使用の対象者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-16-p1-kou-2
     type: kou
-    text: 指定再生医療等製品の名称及び製造番号又は製造記号
+    text: 二　指定再生医療等製品の名称及び製造番号又は製造記号
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-228-16-p1-kou-3
     type: kou
-    text: 指定再生医療等製品の使用の対象者に使用した年月日
+    text: 三　指定再生医療等製品の使用の対象者に使用した年月日
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-228-16-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、指定再生医療等製品に係る保健衛生上の危害の発生又は拡大を防止するために必要な事項
+    text: 四　前三号に掲げるもののほか、指定再生医療等製品に係る保健衛生上の危害の発生又は拡大を防止するために必要な事項
     modality: unspecified
     item_number: 4
 cases: []

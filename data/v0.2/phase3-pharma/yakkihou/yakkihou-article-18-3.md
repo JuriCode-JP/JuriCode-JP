@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定による報告をした者は、同項の規定により報告した事項について変更が生じたときは、直ちに、厚生労働省令で定めるところにより、厚生労働大臣にその旨を報告しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

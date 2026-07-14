@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-89-p1-kou-1
     type: kou
-    text: 被告人が死刑又は無期若しくは短期一年以上の拘禁刑に当たる罪を犯したものであるとき。
+    text: 一　被告人が死刑又は無期若しくは短期一年以上の拘禁刑に当たる罪を犯したものであるとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-89-p1-kou-2
     type: kou
-    text: 被告人が前に死刑又は無期若しくは長期十年を超える拘禁刑に当たる罪につき有罪の宣告を受けたことがあるとき。
+    text: 二　被告人が前に死刑又は無期若しくは長期十年を超える拘禁刑に当たる罪につき有罪の宣告を受けたことがあるとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-89-p1-kou-3
     type: kou
-    text: 被告人が常習として長期三年以上の拘禁刑に当たる罪を犯したものであるとき。
+    text: 三　被告人が常習として長期三年以上の拘禁刑に当たる罪を犯したものであるとき。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-89-p1-kou-4
     type: kou
-    text: 被告人が罪証を隠滅すると疑うに足りる相当な理由があるとき。
+    text: 四　被告人が罪証を隠滅すると疑うに足りる相当な理由があるとき。
     modality: unspecified
     item_number: 4
   - id: keiji-soshou-hou-art-89-p1-kou-5
     type: kou
-    text: 被告人が、被害者その他事件の審判に必要な知識を有すると認められる者若しくはその親族の身体若しくは財産に害を加え又はこれらの者を畏怖させる行為をすると疑うに足りる相当な理由があるとき。
+    text: 五　被告人が、被害者その他事件の審判に必要な知識を有すると認められる者若しくはその親族の身体若しくは財産に害を加え又はこれらの者を畏怖させる行為をすると疑うに足りる相当な理由があるとき。
     modality: unspecified
     item_number: 5
   - id: keiji-soshou-hou-art-89-p1-kou-6
     type: kou
-    text: 被告人の氏名又は住居が分からないとき。
+    text: 六　被告人の氏名又は住居が分からないとき。
     modality: unspecified
     item_number: 6
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: koubunsho-kanri-hou-art-29-p1-kou-1
     type: kou
-    text: 第二条第一項第四号若しくは第五号、第三項第二号、第四項第三号若しくは第五項第三号若しくは第四号、第五条第一項若しくは第三項から第五項まで、第七条、第十条第二項第七号、第十一条第二項から第四項まで、第十五条第四項、第十七条、第十八条第一項から第三項まで、第十九条又は第二十条第一項の政令の制定又は改廃の立案をしようとするとき。
+    text: 一　第二条第一項第四号若しくは第五号、第三項第二号、第四項第三号若しくは第五項第三号若しくは第四号、第五条第一項若しくは第三項から第五項まで、第七条、第十条第二項第七号、第十一条第二項から第四項まで、第十五条第四項、第十七条、第十八条第一項から第三項まで、第十九条又は第二十条第一項の政令の制定又は改廃の立案をしようとするとき。
     modality: unspecified
     item_number: 1
   - id: koubunsho-kanri-hou-art-29-p1-kou-2
     type: kou
-    text: 第十条第三項、第二十五条又は第二十七条第三項の規定による同意をしようとするとき。
+    text: 二　第十条第三項、第二十五条又は第二十七条第三項の規定による同意をしようとするとき。
     modality: unspecified
     item_number: 2
   - id: koubunsho-kanri-hou-art-29-p1-kou-3
     type: kou
-    text: 第三十一条の規定による勧告をしようとするとき。
+    text: 三　第三十一条の規定による勧告をしようとするとき。
     modality: unspecified
     item_number: 3
 cases: []

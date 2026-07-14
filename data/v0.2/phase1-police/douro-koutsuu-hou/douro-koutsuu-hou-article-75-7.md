@@ -35,6 +35,10 @@ paragraphs:
     text: この場合において、減速車線が設けられているときは、その減速車線を通行しなければならない。
     modality: gimu
     depends_on: douro-koutsuu-hou-art-75-7-p2-zen
+  - id: douro-koutsuu-hou-art-75-7-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十一条第一項第八号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

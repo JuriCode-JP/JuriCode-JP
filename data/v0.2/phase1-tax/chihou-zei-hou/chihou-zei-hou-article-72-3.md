@@ -35,8 +35,8 @@ paragraphs:
     text: 信託の変更をする権限（軽微な変更をする権限として政令で定めるものを除く。）を現に有し、かつ、当該信託の信託財産の給付を受けることとされている者（受益者を除く。）は、前項に規定する受益者とみなして、同項の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

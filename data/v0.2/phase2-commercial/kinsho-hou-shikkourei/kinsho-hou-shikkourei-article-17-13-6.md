@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-17-13-6-p1-kou-1
     type: kou
-    text: 海外投資家等特例業務に関し、法令等を遵守させるための指導に関する業務を統括する者その他これに準ずる者として内閣府令で定める者
+    text: 一　海外投資家等特例業務に関し、法令等を遵守させるための指導に関する業務を統括する者その他これに準ずる者として内閣府令で定める者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-17-13-6-p1-kou-2
     type: kou
-    text: 海外投資家等特例業務に関し、運用を行う部門を統括する者その他これに準ずる者として内閣府令で定める者
+    text: 二　海外投資家等特例業務に関し、運用を行う部門を統括する者その他これに準ずる者として内閣府令で定める者
     modality: unspecified
     item_number: 2
 cases: []

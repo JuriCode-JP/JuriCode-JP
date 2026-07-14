@@ -47,8 +47,8 @@ paragraphs:
     text: 第二百五十二条の二の二第二項及び第三項本文の規定は、前項の場合について準用する。ただし、次条第二号（第二百五十二条の十三において準用する場合を含む。）に掲げる事項のみに係る規約の変更については、第二百五十二条の二の二第三項本文の規定は、準用しない。
     modality: unspecified
     references:
-    - 次条
     - 前項
+    - 次条
 - number: 4
   has_proviso: false
   has_items: false

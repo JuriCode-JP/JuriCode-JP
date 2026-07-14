@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-12-p1-kou-1
     type: kou
-    text: 法第十六条の四第一項の規定により決定した金額
+    text: 一　法第十六条の四第一項の規定により決定した金額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-12-p1-kou-2
     type: kou
-    text: 前号の金額の決定の基因となつた地方団体の徴収金の年度及び税目
+    text: 二　前号の金額の決定の基因となつた地方団体の徴収金の年度及び税目
     modality: unspecified
     item_number: 2
 - number: 2

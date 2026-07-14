@@ -25,12 +25,12 @@ paragraphs:
     - 前三条
   - id: yakkihou-shikoukisoku-art-98-5-p1-kou-1
     type: kou
-    text: 生物由来製品（次号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
+    text: 一　生物由来製品（次号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-98-5-p1-kou-2
     type: kou
-    text: 特定生物由来製品に係る記録　利用しなくなつた日から三十年間
+    text: 二　特定生物由来製品に係る記録　利用しなくなつた日から三十年間
     modality: unspecified
     item_number: 2
 - number: 2

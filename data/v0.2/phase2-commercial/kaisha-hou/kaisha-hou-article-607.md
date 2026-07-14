@@ -25,42 +25,42 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-607-p1-kou-1
     type: kou
-    text: 定款で定めた事由の発生
+    text: 一　定款で定めた事由の発生
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-607-p1-kou-2
     type: kou
-    text: 総社員の同意
+    text: 二　総社員の同意
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-607-p1-kou-3
     type: kou
-    text: 死亡
+    text: 三　死亡
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-607-p1-kou-4
     type: kou
-    text: 合併（合併により当該法人である社員が消滅する場合に限る。）
+    text: 四　合併（合併により当該法人である社員が消滅する場合に限る。）
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-607-p1-kou-5
     type: kou
-    text: 破産手続開始の決定
+    text: 五　破産手続開始の決定
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-607-p1-kou-6
     type: kou
-    text: 解散（前二号に掲げる事由によるものを除く。）
+    text: 六　解散（前二号に掲げる事由によるものを除く。）
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-607-p1-kou-7
     type: kou
-    text: 後見開始の審判を受けたこと。
+    text: 七　後見開始の審判を受けたこと。
     modality: unspecified
     item_number: 7
   - id: kaisha-hou-art-607-p1-kou-8
     type: kou
-    text: 除名
+    text: 八　除名
     modality: unspecified
     item_number: 8
 - number: 2

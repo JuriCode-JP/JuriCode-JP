@@ -34,22 +34,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-6-5-p2-kou-1
     type: kou
-    text: 新たな製品のうち当該個人の既存の製品と構造、品種その他の特性が著しく異なるものの製造を目的として行う試験研究
+    text: 一　新たな製品のうち当該個人の既存の製品と構造、品種その他の特性が著しく異なるものの製造を目的として行う試験研究
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-6-5-p2-kou-2
     type: kou
-    text: 新たな製品を製造するために行う新たな資源の利用方法の研究
+    text: 二　新たな製品を製造するために行う新たな資源の利用方法の研究
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-6-5-p2-kou-3
     type: kou
-    text: 新たな製品を製造するために現に企業化されている製造方法その他の生産技術を改善することを目的として行う試験研究
+    text: 三　新たな製品を製造するために現に企業化されている製造方法その他の生産技術を改善することを目的として行う試験研究
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-6-5-p2-kou-4
     type: kou
-    text: 新たな技術のうち当該個人の既存の技術と原理又は方法が異なるものの発明を目的として行う試験研究
+    text: 四　新たな技術のうち当該個人の既存の技術と原理又は方法が異なるものの発明を目的として行う試験研究
     modality: unspecified
     item_number: 4
 - number: 3

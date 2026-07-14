@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-26-3-p1-kou-1
     type: kou
-    text: 税務代理人が申請者の消費税に関する税務代理（法第五十七条の二第五項第二号イに規定する税務代理をいう。）の権限を有することを証する書面（同条第六項第二号ハに規定する書面をいう。）
+    text: 一　税務代理人が申請者の消費税に関する税務代理（法第五十七条の二第五項第二号イに規定する税務代理をいう。）の権限を有することを証する書面（同条第六項第二号ハに規定する書面をいう。）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-26-3-p1-kou-2
     type: kou
-    text: その他参考となるべき書類
+    text: 二　その他参考となるべき書類
     modality: unspecified
     item_number: 2
 cases: []

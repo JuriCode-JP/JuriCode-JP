@@ -33,6 +33,10 @@ paragraphs:
     references:
     - 前条
     - 前項
+  - id: douro-koutsuu-hou-art-114-5-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十八条の三）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

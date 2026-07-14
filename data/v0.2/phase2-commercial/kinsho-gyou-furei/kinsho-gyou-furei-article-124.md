@@ -23,52 +23,52 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-124-p1-kou-1
     type: kou
-    text: 株券
+    text: 一　株券
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-124-p1-kou-2
     type: kou
-    text: 新株予約権付社債券
+    text: 二　新株予約権付社債券
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-124-p1-kou-3
     type: kou
-    text: 新株予約権証券
+    text: 三　新株予約権証券
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-124-p1-kou-4
     type: kou
-    text: 法第二条第一項第六号に掲げる有価証券
+    text: 四　法第二条第一項第六号に掲げる有価証券
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-124-p1-kou-5
     type: kou
-    text: 優先出資証券
+    text: 五　優先出資証券
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-124-p1-kou-6
     type: kou
-    text: 投資信託又は外国投資信託の受益証券
+    text: 六　投資信託又は外国投資信託の受益証券
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-124-p1-kou-7
     type: kou
-    text: 投資証券又は外国投資証券で投資証券に類する証券
+    text: 七　投資証券又は外国投資証券で投資証券に類する証券
     modality: unspecified
     item_number: 7
   - id: kinsho-gyou-furei-art-124-p1-kou-8
     type: kou
-    text: 新投資口予約権証券又は外国投資証券で新投資口予約権証券に類する証券
+    text: 八　新投資口予約権証券又は外国投資証券で新投資口予約権証券に類する証券
     modality: unspecified
     item_number: 8
   - id: kinsho-gyou-furei-art-124-p1-kou-9
     type: kou
-    text: 法第二条第一項第十四号に掲げる有価証券
+    text: 九　法第二条第一項第十四号に掲げる有価証券
     modality: unspecified
     item_number: 9
   - id: kinsho-gyou-furei-art-124-p1-kou-10
     type: kou
-    text: 法第二条第一項第十七号に掲げる有価証券で第一号から第五号まで又は前号に掲げる有価証券の性質を有するもの
+    text: 十　法第二条第一項第十七号に掲げる有価証券で第一号から第五号まで又は前号に掲げる有価証券の性質を有するもの
     modality: unspecified
     item_number: 10
 - number: 2
@@ -82,22 +82,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-124-p2-kou-1
     type: kou
-    text: '当該執行の方法が複数の取引所金融商品市場等（社内取引システムを含む。以下この号において同じ。）から最も有利な価格で執行するための取引所金融商品市場等を電子情報処理組織により自動的に選択する方法を用いるものである場合　その旨及び次に掲げる事項
+    text: '一　当該執行の方法が複数の取引所金融商品市場等（社内取引システムを含む。以下この号において同じ。）から最も有利な価格で執行するための取引所金融商品市場等を電子情報処理組織により自動的に選択する方法を用いるものである場合　その旨及び次に掲げる事項
 
-      イ 当該方法において価格を比較する取引所金融商品市場等
+      イ　当該方法において価格を比較する取引所金融商品市場等
 
-      ロ 当該方法における取引所金融商品市場等の選択の方法及び順序（複数の取引所金融商品市場等における最も有利な価格が同一である場合におけるものを含むものに限る。）
+      ロ　当該方法における取引所金融商品市場等の選択の方法及び順序（複数の取引所金融商品市場等における最も有利な価格が同一である場合におけるものを含むものに限る。）
 
-      ハ 注文の執行に要する時間の差により生ずる金融商品市場における相場に係る変動、市場間の格差等を利用した取引戦略への対応方針及び対応策の概要'
+      ハ　注文の執行に要する時間の差により生ずる金融商品市場における相場に係る変動、市場間の格差等を利用した取引戦略への対応方針及び対応策の概要'
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-124-p2-kou-2
     type: kou
-    text: '当該執行の方法が個人である顧客の注文に係るものである場合において、次のいずれかに該当するとき　その旨
+    text: '二　当該執行の方法が個人である顧客の注文に係るものである場合において、次のいずれかに該当するとき　その旨
 
-      イ 社内取引システムを使用して行うものであるとき。
+      イ　社内取引システムを使用して行うものであるとき。
 
-      ロ 最良の取引の条件として最も有利な価格で執行すること以外の顧客の利益となる事項を主として考慮して行うものであるとき。'
+      ロ　最良の取引の条件として最も有利な価格で執行すること以外の顧客の利益となる事項を主として考慮して行うものであるとき。'
     modality: unspecified
     item_number: 2
 - number: 3
@@ -111,25 +111,25 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-124-p3-kou-1
     type: kou
-    text: 金融商品取引業者等の本店等において最良執行方針等（法第四十条の二第一項に規定する最良執行方針等をいう。以下この条において同じ。）を見やすいように掲示する方法又は最良執行方針等を閲覧に供する方法
+    text: 一　金融商品取引業者等の本店等において最良執行方針等（法第四十条の二第一項に規定する最良執行方針等をいう。以下この条において同じ。）を見やすいように掲示する方法又は最良執行方針等を閲覧に供する方法
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-124-p3-kou-2
     type: kou
-    text: 金融商品取引業者等がその営業所、事務所その他の場所（その本店等を除く。以下この項において「営業所等」という。）において有価証券等取引（法第四十条の二第一項に規定する有価証券等取引をいう。第六項第一号において同じ。）に関する顧客の注文（以下この項において「顧客の注文」という。）を受ける場合にあっては、顧客の注文を受ける営業所等ごとに、最良執行方針等を見やすいように掲示する方法又は最良執行方針等を閲覧に供する方法
+    text: 二　金融商品取引業者等がその営業所、事務所その他の場所（その本店等を除く。以下この項において「営業所等」という。）において有価証券等取引（法第四十条の二第一項に規定する有価証券等取引をいう。第六項第一号において同じ。）に関する顧客の注文（以下この項において「顧客の注文」という。）を受ける場合にあっては、顧客の注文を受ける営業所等ごとに、最良執行方針等を見やすいように掲示する方法又は最良執行方針等を閲覧に供する方法
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-124-p3-kou-3
     type: kou
-    text: '次のいずれにも該当する場合を除き、最良執行方針等を金融商品取引業者等のウェブサイトに掲載する方法
+    text: '三　次のいずれにも該当する場合を除き、最良執行方針等を金融商品取引業者等のウェブサイトに掲載する方法
 
-      イ 次に掲げる場合
+      イ　次に掲げる場合
 
-      （１） 金融商品取引業者等の常時使用する従業員の数が二十人以下である場合
+      （１）　金融商品取引業者等の常時使用する従業員の数が二十人以下である場合
 
-      （２） 金融商品取引業者等のウェブサイトがない場合
+      （２）　金融商品取引業者等のウェブサイトがない場合
 
-      ロ 金融商品取引業者等が、電子情報処理組織を使用する方法により顧客の注文（現にその本店等又は営業所等にいる顧客から受けるものを除く。）を受けない場合'
+      ロ　金融商品取引業者等が、電子情報処理組織を使用する方法により顧客の注文（現にその本店等又は営業所等にいる顧客から受けるものを除く。）を受けない場合'
     modality: unspecified
     item_number: 3
 - number: 4
@@ -143,12 +143,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-124-p4-kou-1
     type: kou
-    text: 最良執行方針等を記載した書面の交付
+    text: 一　最良執行方針等を記載した書面の交付
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-124-p4-kou-2
     type: kou
-    text: 前号の書面に記載すべき事項の電磁的方法による提供
+    text: 二　前号の書面に記載すべき事項の電磁的方法による提供
     modality: unspecified
     item_number: 2
 - number: 5
@@ -161,8 +161,8 @@ paragraphs:
     text: 第七十九条第二項の規定は、前項に規定する情報の提供を同項第二号に規定する方法により行おうとする金融商品取引業者等について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
@@ -183,27 +183,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-124-p7-kou-1
     type: kou
-    text: 注文に係る有価証券等取引の銘柄、数量及び売付け又は買付けの別
+    text: 一　注文に係る有価証券等取引の銘柄、数量及び売付け又は買付けの別
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-124-p7-kou-2
     type: kou
-    text: 受注日時
+    text: 二　受注日時
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-124-p7-kou-3
     type: kou
-    text: 約定日時及び執行した金融商品市場（社内取引システムを使用して行ったときは、その社内取引システムを含む。）その他執行の方法
+    text: 三　約定日時及び執行した金融商品市場（社内取引システムを使用して行ったときは、その社内取引システムを含む。）その他執行の方法
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-124-p7-kou-4
     type: kou
-    text: 執行の方法が第二項第一号の方法を用いたものである場合には、約定価格及び当該方法において比較した各取引所金融商品市場等における最も有利な価格
+    text: 四　執行の方法が第二項第一号の方法を用いたものである場合には、約定価格及び当該方法において比較した各取引所金融商品市場等における最も有利な価格
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-124-p7-kou-5
     type: kou
-    text: 当該注文が最良執行方針等に従って執行された旨の説明
+    text: 五　当該注文が最良執行方針等に従って執行された旨の説明
     modality: unspecified
     item_number: 5
 - number: 8
@@ -228,12 +228,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-124-p9-kou-1
     type: kou
-    text: 法第四十条の二第五項に規定する事項を記載した書面の交付
+    text: 一　法第四十条の二第五項に規定する事項を記載した書面の交付
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-124-p9-kou-2
     type: kou
-    text: 前号の書面に記載すべき事項の電磁的方法による提供
+    text: 二　前号の書面に記載すべき事項の電磁的方法による提供
     modality: unspecified
     item_number: 2
 - number: 10
@@ -246,8 +246,8 @@ paragraphs:
     text: 第七十九条第二項の規定は、前項に規定する情報の提供を同項第二号に規定する方法により行おうとする金融商品取引業者等について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

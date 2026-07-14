@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p1-kou-1
     type: kou
-    text: 製造を行つた年月日
+    text: 一　製造を行つた年月日
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p1-kou-2
     type: kou
-    text: 製造を行つた場所
+    text: 二　製造を行つた場所
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p1-kou-3
     type: kou
-    text: 製造に使用した炭化水素油その他の原材料の性状及び数量
+    text: 三　製造に使用した炭化水素油その他の原材料の性状及び数量
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p1-kou-4
     type: kou
-    text: 炭化水素油の製造方法
+    text: 四　炭化水素油の製造方法
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p1-kou-5
     type: kou
-    text: 製造に使用した炭化水素油その他の原材料の仕入先の氏名又は名称及び住所又は所在地並びに仕入先ごとの仕入数量
+    text: 五　製造に使用した炭化水素油その他の原材料の仕入先の氏名又は名称及び住所又は所在地並びに仕入先ごとの仕入数量
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p1-kou-6
     type: kou
-    text: 製造した炭化水素油の性状及び数量
+    text: 六　製造した炭化水素油の性状及び数量
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p1-kou-7
     type: kou
-    text: 製造した炭化水素油の用途
+    text: 七　製造した炭化水素油の用途
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p1-kou-8
     type: kou
-    text: 製造した炭化水素油の貯蔵場所及び在庫数量
+    text: 八　製造した炭化水素油の貯蔵場所及び在庫数量
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p1-kou-9
     type: kou
-    text: 製造した炭化水素油を譲渡し、又は消費したときは、その譲渡先の氏名又は名称及び住所又は所在地、その譲渡又は消費の年月日並びにその譲渡数量又は消費数量
+    text: 九　製造した炭化水素油を譲渡し、又は消費したときは、その譲渡先の氏名又は名称及び住所又は所在地、その譲渡又は消費の年月日並びにその譲渡数量又は消費数量
     modality: unspecified
     item_number: 9
 - number: 2
@@ -77,32 +77,32 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p2-kou-1
     type: kou
-    text: 譲渡を行つた年月日
+    text: 一　譲渡を行つた年月日
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p2-kou-2
     type: kou
-    text: 譲渡を行つた場所
+    text: 二　譲渡を行つた場所
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p2-kou-3
     type: kou
-    text: 譲渡した燃料炭化水素油の性状及び数量
+    text: 三　譲渡した燃料炭化水素油の性状及び数量
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p2-kou-4
     type: kou
-    text: 譲渡した相手方の氏名又は名称及び住所又は所在地並びに当該譲渡に係る自動車の自動車登録番号
+    text: 四　譲渡した相手方の氏名又は名称及び住所又は所在地並びに当該譲渡に係る自動車の自動車登録番号
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p2-kou-5
     type: kou
-    text: 交付した自動車用炭化水素油譲渡証の番号
+    text: 五　交付した自動車用炭化水素油譲渡証の番号
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p2-kou-6
     type: kou
-    text: 燃料炭化水素油の貯蔵場所及び在庫数量
+    text: 六　燃料炭化水素油の貯蔵場所及び在庫数量
     modality: unspecified
     item_number: 6
 - number: 3
@@ -116,22 +116,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p3-kou-1
     type: kou
-    text: 消費を行つた年月日
+    text: 一　消費を行つた年月日
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p3-kou-2
     type: kou
-    text: 消費した燃料炭化水素油の性状及び数量
+    text: 二　消費した燃料炭化水素油の性状及び数量
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p3-kou-3
     type: kou
-    text: 消費に係る自動車の自動車登録番号
+    text: 三　消費に係る自動車の自動車登録番号
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-8-44-p3-kou-4
     type: kou
-    text: 燃料炭化水素油の在庫数量
+    text: 四　燃料炭化水素油の在庫数量
     modality: unspecified
     item_number: 4
 - number: 4

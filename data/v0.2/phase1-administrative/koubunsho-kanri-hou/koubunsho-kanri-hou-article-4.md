@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: koubunsho-kanri-hou-art-4-p1-kou-1
     type: kou
-    text: 法令の制定又は改廃及びその経緯
+    text: 一　法令の制定又は改廃及びその経緯
     modality: unspecified
     item_number: 1
   - id: koubunsho-kanri-hou-art-4-p1-kou-2
     type: kou
-    text: 前号に定めるもののほか、閣議、関係行政機関の長で構成される会議又は省議（これらに準ずるものを含む。）の決定又は了解及びその経緯
+    text: 二　前号に定めるもののほか、閣議、関係行政機関の長で構成される会議又は省議（これらに準ずるものを含む。）の決定又は了解及びその経緯
     modality: unspecified
     item_number: 2
   - id: koubunsho-kanri-hou-art-4-p1-kou-3
     type: kou
-    text: 複数の行政機関による申合せ又は他の行政機関若しくは地方公共団体に対して示す基準の設定及びその経緯
+    text: 三　複数の行政機関による申合せ又は他の行政機関若しくは地方公共団体に対して示す基準の設定及びその経緯
     modality: unspecified
     item_number: 3
   - id: koubunsho-kanri-hou-art-4-p1-kou-4
     type: kou
-    text: 個人又は法人の権利義務の得喪及びその経緯
+    text: 四　個人又は法人の権利義務の得喪及びその経緯
     modality: unspecified
     item_number: 4
   - id: koubunsho-kanri-hou-art-4-p1-kou-5
     type: kou
-    text: 職員の人事に関する事項
+    text: 五　職員の人事に関する事項
     modality: unspecified
     item_number: 5
 cases: []

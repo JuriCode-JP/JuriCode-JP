@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-art-10-p1-kou-1
     type: kou
-    text: 期間の初日は、算入しない。ただし、その期間が午前零時から始まるとき、又は国税に関する法律に別段の定めがあるときは、この限りでない。
+    text: 一　期間の初日は、算入しない。ただし、その期間が午前零時から始まるとき、又は国税に関する法律に別段の定めがあるときは、この限りでない。
     modality: jogai
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-10-p1-kou-2
     type: kou
-    text: 期間を定めるのに月又は年をもつてしたときは、暦に従う。
+    text: 二　期間を定めるのに月又は年をもつてしたときは、暦に従う。
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-10-p1-kou-3
     type: kou
-    text: 前号の場合において、月又は年の始めから期間を起算しないときは、その期間は、最後の月又は年においてその起算日に応当する日の前日に満了する。ただし、最後の月にその応当する日がないときは、その月の末日に満了する。
+    text: 三　前号の場合において、月又は年の始めから期間を起算しないときは、その期間は、最後の月又は年においてその起算日に応当する日の前日に満了する。ただし、最後の月にその応当する日がないときは、その月の末日に満了する。
     modality: unspecified
     item_number: 3
 - number: 2

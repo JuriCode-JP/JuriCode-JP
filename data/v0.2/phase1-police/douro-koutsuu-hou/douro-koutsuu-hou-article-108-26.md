@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-108-26-p1-kou-1
     type: kou
-    text: 道路を通行する者に対する交通安全教育
+    text: 一　道路を通行する者に対する交通安全教育
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-108-26-p1-kou-2
     type: kou
-    text: 歩行者の誘導その他の道路を通行する者の通行の安全を確保するための活動
+    text: 二　歩行者の誘導その他の道路を通行する者の通行の安全を確保するための活動
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-108-26-p1-kou-3
     type: kou
-    text: 適正な交通の方法又は交通事故防止についての広報活動その他道路における交通の安全と円滑に資するための広報活動
+    text: 三　適正な交通の方法又は交通事故防止についての広報活動その他道路における交通の安全と円滑に資するための広報活動
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-108-26-p1-kou-4
     type: kou
-    text: 道路における適正な車両の駐車又は道路の使用についての啓発活動、特定小型原動機付自転車又は自転車の適正な通行についての啓発活動その他道路における交通の安全と円滑に資するための啓発活動
+    text: 四　道路における適正な車両の駐車又は道路の使用についての啓発活動、特定小型原動機付自転車又は自転車の適正な通行についての啓発活動その他道路における交通の安全と円滑に資するための啓発活動
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-108-26-p1-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、道路における交通の安全と円滑に資するための活動
+    text: 五　前各号に掲げるもののほか、道路における交通の安全と円滑に資するための活動
     modality: unspecified
     item_number: 5
 - number: 2

@@ -37,12 +37,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-396-p2-kou-1
     type: kou
-    text: 会計帳簿又はこれに関する資料が書面をもって作成されているときは、当該書面
+    text: 一　会計帳簿又はこれに関する資料が書面をもって作成されているときは、当該書面
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-396-p2-kou-2
     type: kou
-    text: 会計帳簿又はこれに関する資料が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したもの
+    text: 二　会計帳簿又はこれに関する資料が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したもの
     modality: unspecified
     item_number: 2
 - number: 3
@@ -64,8 +64,8 @@ paragraphs:
     text: 前項の子会社は、正当な理由があるときは、同項の報告又は調査を拒むことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: true
@@ -77,17 +77,17 @@ paragraphs:
     modality: gimu_negative
   - id: kaisha-hou-art-396-p5-kou-1
     type: kou
-    text: 第三百三十七条第三項第一号又は第二号に掲げる者
+    text: 一　第三百三十七条第三項第一号又は第二号に掲げる者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-396-p5-kou-2
     type: kou
-    text: 会計監査人設置会社又はその子会社の取締役、会計参与、監査役若しくは執行役又は支配人その他の使用人である者
+    text: 二　会計監査人設置会社又はその子会社の取締役、会計参与、監査役若しくは執行役又は支配人その他の使用人である者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-396-p5-kou-3
     type: kou
-    text: 会計監査人設置会社又はその子会社から公認会計士又は監査法人の業務以外の業務により継続的な報酬を受けている者
+    text: 三　会計監査人設置会社又はその子会社から公認会計士又は監査法人の業務以外の業務により継続的な報酬を受けている者
     modality: unspecified
     item_number: 3
 - number: 6

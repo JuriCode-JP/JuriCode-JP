@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 警察官は、自動車又は一般原動機付自転車の運転者が自動車又は一般原動機付自転車の運転に関しこの法律の罰則に触れる行為をしたと認めるときは、その現場において、内閣府令で定めるところにより、その者に対し、日時及び場所を指定して、第百三条第一項第五号に掲げる事由に係る事実の確認その他の必要な措置を受けるために出頭すべき旨を命ずることができる。
     modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-109-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十三条の二第一号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

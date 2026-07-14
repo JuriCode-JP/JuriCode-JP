@@ -23,27 +23,27 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-429-p1-kou-1
     type: kou
-    text: 忌避の申立てを却下する裁判
+    text: 一　忌避の申立てを却下する裁判
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-429-p1-kou-2
     type: kou
-    text: 勾留、保釈、押収又は押収物の還付に関する裁判
+    text: 二　勾留、保釈、押収又は押収物の還付に関する裁判
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-429-p1-kou-3
     type: kou
-    text: 鑑定のため留置を命ずる裁判
+    text: 三　鑑定のため留置を命ずる裁判
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-429-p1-kou-4
     type: kou
-    text: 証人、鑑定人、通訳人又は翻訳人に対して過料又は費用の賠償を命ずる裁判
+    text: 四　証人、鑑定人、通訳人又は翻訳人に対して過料又は費用の賠償を命ずる裁判
     modality: unspecified
     item_number: 4
   - id: keiji-soshou-hou-art-429-p1-kou-5
     type: kou
-    text: 身体の検査を受ける者に対して過料又は費用の賠償を命ずる裁判
+    text: 五　身体の検査を受ける者に対して過料又は費用の賠償を命ずる裁判
     modality: unspecified
     item_number: 5
 - number: 2

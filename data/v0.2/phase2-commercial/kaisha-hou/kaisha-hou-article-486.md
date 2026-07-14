@@ -31,8 +31,8 @@ paragraphs:
     text: 清算人が第四百八十二条第四項において準用する第三百五十六条第一項の規定に違反して同項第一号の取引をしたときは、当該取引により清算人又は第三者が得た利益の額は、前項の損害の額と推定する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -44,17 +44,17 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-486-p3-kou-1
     type: kou
-    text: 第四百八十二条第四項において準用する第三百五十六条第一項の清算人
+    text: 一　第四百八十二条第四項において準用する第三百五十六条第一項の清算人
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-486-p3-kou-2
     type: kou
-    text: 清算株式会社が当該取引をすることを決定した清算人
+    text: 二　清算株式会社が当該取引をすることを決定した清算人
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-486-p3-kou-3
     type: kou
-    text: 当該取引に関する清算人会の承認の決議に賛成した清算人
+    text: 三　当該取引に関する清算人会の承認の決議に賛成した清算人
     modality: unspecified
     item_number: 3
 - number: 4

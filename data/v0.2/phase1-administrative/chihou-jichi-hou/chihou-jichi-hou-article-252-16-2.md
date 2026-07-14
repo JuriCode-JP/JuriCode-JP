@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定により事務の代替執行をする事務（以下この款において「代替執行事務」という。）を変更し、又は事務の代替執行を廃止しようとするときは、関係普通地方公共団体は、同項の例により、協議してこれを行わなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -41,47 +41,47 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-129-p3-kou-1
     type: kou
-    text: 基準適合性認証の実施方法
+    text: 一　基準適合性認証の実施方法
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-129-p3-kou-2
     type: kou
-    text: 基準適合性認証に関する料金
+    text: 二　基準適合性認証に関する料金
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-129-p3-kou-3
     type: kou
-    text: 基準適合性認証の一部変更又は取消しの実施方法
+    text: 三　基準適合性認証の一部変更又は取消しの実施方法
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-129-p3-kou-4
     type: kou
-    text: 内部監査の実施方法
+    text: 四　内部監査の実施方法
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-129-p3-kou-5
     type: kou
-    text: 基準適合性認証の業務の範囲に応じた審査員の資格要件
+    text: 五　基準適合性認証の業務の範囲に応じた審査員の資格要件
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-129-p3-kou-6
     type: kou
-    text: 審査員の選任及び解任に関する事項
+    text: 六　審査員の選任及び解任に関する事項
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-129-p3-kou-7
     type: kou
-    text: 審査員の能力の維持管理の方法
+    text: 七　審査員の能力の維持管理の方法
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-129-p3-kou-8
     type: kou
-    text: 異議申立て及び苦情処理の実施方法
+    text: 八　異議申立て及び苦情処理の実施方法
     modality: unspecified
     item_number: 8
   - id: yakkihou-shikoukisoku-art-129-p3-kou-9
     type: kou
-    text: 基準適合性認証に関する記録の保管及び管理の実施方法
+    text: 九　基準適合性認証に関する記録の保管及び管理の実施方法
     modality: unspecified
     item_number: 9
 cases: []

@@ -45,12 +45,12 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikkourei-art-120-p3-kou-1
     type: kou
-    text: 法第六十一条の五第一項に規定する為替予約取引等
+    text: 一　法第六十一条の五第一項に規定する為替予約取引等
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-120-p3-kou-2
     type: kou
-    text: 法第六十一条の六第一項若しくは第二項（繰延ヘッジ処理による利益額又は損失額の繰延べ）又は第六十一条の七第一項若しくは第二項（時価ヘッジ処理による売買目的外有価証券の評価益又は評価損の計上）の規定の適用に係る法第六十一条の六第四項に規定するデリバティブ取引等
+    text: 二　法第六十一条の六第一項若しくは第二項（繰延ヘッジ処理による利益額又は損失額の繰延べ）又は第六十一条の七第一項若しくは第二項（時価ヘッジ処理による売買目的外有価証券の評価益又は評価損の計上）の規定の適用に係る法第六十一条の六第四項に規定するデリバティブ取引等
     modality: unspecified
     item_number: 2
 cases: []

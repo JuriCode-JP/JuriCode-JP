@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-37-9-4-p1-kou-1
     type: kou
-    text: 宿舎の用に供する不動産
+    text: 一　宿舎の用に供する不動産
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-37-9-4-p1-kou-2
     type: kou
-    text: 他の者に貸し付ける不動産（国又は地方公共団体に無償で貸し付けるものを除く。）
+    text: 二　他の者に貸し付ける不動産（国又は地方公共団体に無償で貸し付けるものを除く。）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-37-9-4-p1-kou-3
     type: kou
-    text: 職員の福利及び厚生の用に供する不動産
+    text: 三　職員の福利及び厚生の用に供する不動産
     modality: unspecified
     item_number: 3
 cases: []

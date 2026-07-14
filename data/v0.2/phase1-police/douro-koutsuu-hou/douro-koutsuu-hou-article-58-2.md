@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 警察官は、第五十七条第一項の積載物の重量の制限を超える積載をしていると認められる車両が運転されているときは、当該車両を停止させ、並びに当該車両の運転者に対し、自動車検査証（道路運送車両法第六十条の自動車検査証をいう。第六十三条第一項において同じ。）その他政令で定める書類の提示を求め、及び当該車両の積載物の重量を測定することができる。
     modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-58-2-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第八号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -30,7 +34,7 @@ parent_section:
   shou: 3
   shou_name_ja: 第三章　車両及び路面電車の交通方法
   setsu: 11
-  setsu_name_ja: 第十一節　乗車、積載及び牽けん引
+  setsu_name_ja: 第十一節　乗車、積載及び牽引
 ---
 
 # 道路交通法 第58-2条(（積載物の重量の測定等）)

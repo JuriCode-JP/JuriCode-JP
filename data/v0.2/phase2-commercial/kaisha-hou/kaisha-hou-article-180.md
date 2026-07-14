@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-180-p2-kou-1
     type: kou
-    text: 併合の割合
+    text: 一　併合の割合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-180-p2-kou-2
     type: kou
-    text: 株式の併合がその効力を生ずる日（以下この款において「効力発生日」という。）
+    text: 二　株式の併合がその効力を生ずる日（以下この款において「効力発生日」という。）
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-180-p2-kou-3
     type: kou
-    text: 株式会社が種類株式発行会社である場合には、併合する株式の種類
+    text: 三　株式会社が種類株式発行会社である場合には、併合する株式の種類
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-180-p2-kou-4
     type: kou
-    text: 効力発生日における発行可能株式総数
+    text: 四　効力発生日における発行可能株式総数
     modality: unspecified
     item_number: 4
 - number: 3

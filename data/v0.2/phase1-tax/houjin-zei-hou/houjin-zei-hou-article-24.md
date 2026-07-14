@@ -23,37 +23,37 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-24-p1-kou-1
     type: kou
-    text: 合併（適格合併を除く。）
+    text: 一　合併（適格合併を除く。）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-24-p1-kou-2
     type: kou
-    text: 分割型分割（適格分割型分割を除く。）
+    text: 二　分割型分割（適格分割型分割を除く。）
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-24-p1-kou-3
     type: kou
-    text: 株式分配（適格株式分配を除く。）
+    text: 三　株式分配（適格株式分配を除く。）
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-art-24-p1-kou-4
     type: kou
-    text: 資本の払戻し（剰余金の配当（資本剰余金の額の減少に伴うものに限る。）のうち分割型分割によるもの及び株式分配以外のもの並びに出資等減少分配をいう。）又は解散による残余財産の分配
+    text: 四　資本の払戻し（剰余金の配当（資本剰余金の額の減少に伴うものに限る。）のうち分割型分割によるもの及び株式分配以外のもの並びに出資等減少分配をいう。）又は解散による残余財産の分配
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-art-24-p1-kou-5
     type: kou
-    text: 自己の株式又は出資の取得（金融商品取引法第二条第十六項（定義）に規定する金融商品取引所の開設する市場における購入による取得その他の政令で定める取得及び第六十一条の二第十四項第一号から第三号まで（有価証券の譲渡益又は譲渡損の益金又は損金算入）に掲げる株式又は出資の同項に規定する場合に該当する場合における取得を除く。）
+    text: 五　自己の株式又は出資の取得（金融商品取引法第二条第十六項（定義）に規定する金融商品取引所の開設する市場における購入による取得その他の政令で定める取得及び第六十一条の二第十四項第一号から第三号まで（有価証券の譲渡益又は譲渡損の益金又は損金算入）に掲げる株式又は出資の同項に規定する場合に該当する場合における取得を除く。）
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-art-24-p1-kou-6
     type: kou
-    text: 出資の消却（取得した出資について行うものを除く。）、出資の払戻し、社員その他法人の出資者の退社又は脱退による持分の払戻しその他株式又は出資をその発行した法人が取得することなく消滅させること。
+    text: 六　出資の消却（取得した出資について行うものを除く。）、出資の払戻し、社員その他法人の出資者の退社又は脱退による持分の払戻しその他株式又は出資をその発行した法人が取得することなく消滅させること。
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-art-24-p1-kou-7
     type: kou
-    text: 組織変更（当該組織変更に際して当該組織変更をした法人の株式又は出資以外の資産を交付したものに限る。）
+    text: 七　組織変更（当該組織変更に際して当該組織変更をした法人の株式又は出資以外の資産を交付したものに限る。）
     modality: unspecified
     item_number: 7
 - number: 2

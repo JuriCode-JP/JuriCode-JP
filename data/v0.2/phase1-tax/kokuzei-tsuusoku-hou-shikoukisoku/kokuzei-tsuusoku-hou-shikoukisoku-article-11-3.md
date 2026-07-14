@@ -34,17 +34,17 @@ paragraphs:
     - 次条
   - id: kokuzei-tsuusoku-hou-shikoukisoku-art-11-3-p2-kou-1
     type: kou
-    text: 破産手続開始の決定又は後見開始の審判を受けたこと。
+    text: 一　破産手続開始の決定又は後見開始の審判を受けたこと。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikoukisoku-art-11-3-p2-kou-2
     type: kou
-    text: 税理士法（昭和二十六年法律第二百三十七号）第二十六条第一項各号（登録の抹消）のいずれかに該当することとなつたこと。
+    text: 二　税理士法（昭和二十六年法律第二百三十七号）第二十六条第一項各号（登録の抹消）のいずれかに該当することとなつたこと。
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikoukisoku-art-11-3-p2-kou-3
     type: kou
-    text: 税理士法第四十三条（業務の停止）の規定に該当することとなつたこと、同法第四十五条（脱税相談等をした場合の懲戒）若しくは第四十六条（一般の懲戒）の規定による税理士業務の停止の処分を受けたこと又は同法第四十八条の二十第一項（違法行為等についての処分）の規定による業務の停止を命ぜられたこと。
+    text: 三　税理士法第四十三条（業務の停止）の規定に該当することとなつたこと、同法第四十五条（脱税相談等をした場合の懲戒）若しくは第四十六条（一般の懲戒）の規定による税理士業務の停止の処分を受けたこと又は同法第四十八条の二十第一項（違法行為等についての処分）の規定による業務の停止を命ぜられたこと。
     modality: unspecified
     item_number: 3
 cases: []

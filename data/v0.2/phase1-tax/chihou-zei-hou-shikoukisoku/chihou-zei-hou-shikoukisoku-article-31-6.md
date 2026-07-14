@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-31-6-p1-kou-1
     type: kou
-    text: 機構を経由して行つている地方税関係申告等及び地方税関係通知の状況に関する記録
+    text: 一　機構を経由して行つている地方税関係申告等及び地方税関係通知の状況に関する記録
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-31-6-p1-kou-2
     type: kou
-    text: 地方税関係手続用電子情報処理組織の運用状況に関する記録
+    text: 二　地方税関係手続用電子情報処理組織の運用状況に関する記録
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-31-6-p1-kou-3
     type: kou
-    text: 法第七百四十七条の六第一項の規定に基づき行つている特定徴収金の収納の事務の状況に関する記録
+    text: 三　法第七百四十七条の六第一項の規定に基づき行つている特定徴収金の収納の事務の状況に関する記録
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-31-6-p1-kou-4
     type: kou
-    text: 法第七百四十七条の六第三項の規定に基づき行つている特定徴収金の収納の事務の特定金融機関等への委託に関する記録
+    text: 四　法第七百四十七条の六第三項の規定に基づき行つている特定徴収金の収納の事務の特定金融機関等への委託に関する記録
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-31-6-p1-kou-5
     type: kou
-    text: 法第七百四十七条の八第一項の規定に基づき行つている機構指定納付受託者の指定に関する記録
+    text: 五　法第七百四十七条の八第一項の規定に基づき行つている機構指定納付受託者の指定に関する記録
     modality: unspecified
     item_number: 5
 cases: []

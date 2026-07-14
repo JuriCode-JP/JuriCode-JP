@@ -27,12 +27,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-162-p1-kou-1
     type: kou
-    text: 株式会社が公開会社である場合
+    text: 一　株式会社が公開会社である場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-162-p1-kou-2
     type: kou
-    text: 当該相続人その他の一般承継人が株主総会又は種類株主総会において当該株式について議決権を行使した場合
+    text: 二　当該相続人その他の一般承継人が株主総会又は種類株主総会において当該株式について議決権を行使した場合
     modality: unspecified
     item_number: 2
 cases: []

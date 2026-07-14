@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定は、同項に規定する申告書を提出した居住者が、同項に規定する納付の期限までに納税地の所轄税務署長に対し、第百二十八条の規定により納付すべき税額、当該税額のうち当該期限までに納付する金額その他財務省令で定める事項を記載した延納届出書を提出した場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

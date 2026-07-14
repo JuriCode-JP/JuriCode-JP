@@ -52,17 +52,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-131-14-p4-kou-1
     type: kou
-    text: 通算子法人が通算親法人との間に通算完全支配関係を有しなくなつたこと　当該通算親法人
+    text: 一　通算子法人が通算親法人との間に通算完全支配関係を有しなくなつたこと　当該通算親法人
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-131-14-p4-kou-2
     type: kou
-    text: 法第六十四条の九第二項（通算承認）に規定する他の内国法人が通算親法人又は同項の申請を行つた同条第一項に規定する親法人との間に当該通算親法人又は当該親法人による完全支配関係（同項に規定する政令で定める関係に限る。）を有しなくなつたこと　当該通算親法人又は当該親法人
+    text: 二　法第六十四条の九第二項（通算承認）に規定する他の内国法人が通算親法人又は同項の申請を行つた同条第一項に規定する親法人との間に当該通算親法人又は当該親法人による完全支配関係（同項に規定する政令で定める関係に限る。）を有しなくなつたこと　当該通算親法人又は当該親法人
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-131-14-p4-kou-3
     type: kou
-    text: 通算親法人につき法第六十四条の十第六項第七号に掲げる事実が生じたこと　当該通算親法人
+    text: 三　通算親法人につき法第六十四条の十第六項第七号に掲げる事実が生じたこと　当該通算親法人
     modality: unspecified
     item_number: 3
 cases: []

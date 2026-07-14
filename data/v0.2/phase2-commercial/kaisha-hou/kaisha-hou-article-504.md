@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-504-p1-kou-1
     type: kou
-    text: 残余財産の種類
+    text: 一　残余財産の種類
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-504-p1-kou-2
     type: kou
-    text: 株主に対する残余財産の割当てに関する事項
+    text: 二　株主に対する残余財産の割当てに関する事項
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,16 +41,16 @@ paragraphs:
     text: 前項に規定する場合において、残余財産の分配について内容の異なる二以上の種類の株式を発行しているときは、清算株式会社は、当該種類の株式の内容に応じ、同項第二号に掲げる事項として、次に掲げる事項を定めることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-504-p2-kou-1
     type: kou
-    text: ある種類の株式の株主に対して残余財産の割当てをしないこととするときは、その旨及び当該株式の種類
+    text: 一　ある種類の株式の株主に対して残余財産の割当てをしないこととするときは、その旨及び当該株式の種類
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-504-p2-kou-2
     type: kou
-    text: 前号に掲げる事項のほか、残余財産の割当てについて株式の種類ごとに異なる取扱いを行うこととするときは、その旨及び当該異なる取扱いの内容
+    text: 二　前号に掲げる事項のほか、残余財産の割当てについて株式の種類ごとに異なる取扱いを行うこととするときは、その旨及び当該異なる取扱いの内容
     modality: unspecified
     item_number: 2
 - number: 3

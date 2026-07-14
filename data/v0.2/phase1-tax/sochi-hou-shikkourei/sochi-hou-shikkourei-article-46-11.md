@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-46-11-p1-kou-1
     type: kou
-    text: 揮発油税法第十四条第一項第五号の規定による承認を受けた場所その他財務省令で定める場所（次号において「特定蔵置場」という。）以外の場所
+    text: 一　揮発油税法第十四条第一項第五号の規定による承認を受けた場所その他財務省令で定める場所（次号において「特定蔵置場」という。）以外の場所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-46-11-p1-kou-2
     type: kou
-    text: 特定蔵置場のうち、二以上の者が揮発油を混合して蔵置する場所その他の財務省令で定める場所
+    text: 二　特定蔵置場のうち、二以上の者が揮発油を混合して蔵置する場所その他の財務省令で定める場所
     modality: unspecified
     item_number: 2
 cases: []

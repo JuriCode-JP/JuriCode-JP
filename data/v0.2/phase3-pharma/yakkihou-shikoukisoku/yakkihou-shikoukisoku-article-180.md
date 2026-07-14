@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-180-p2-kou-1
     type: kou
-    text: 事業所の名称及び所在地
+    text: 一　事業所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-180-p2-kou-2
     type: kou
-    text: 特定保守管理医療機器に係る区分
+    text: 二　特定保守管理医療機器に係る区分
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-180-p2-kou-3
     type: kou
-    text: 特定保守管理医療機器以外の医療機器に係る修理区分
+    text: 三　特定保守管理医療機器以外の医療機器に係る修理区分
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-180-p2-kou-4
     type: kou
-    text: 責任技術者の氏名、住所及び資格
+    text: 四　責任技術者の氏名、住所及び資格
     modality: unspecified
     item_number: 4
 - number: 3
@@ -61,22 +61,22 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-180-p3-kou-1
     type: kou
-    text: 事業所の構造設備に関する書類
+    text: 一　事業所の構造設備に関する書類
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-180-p3-kou-2
     type: kou
-    text: 申請者が法人であるときは、登記事項証明書
+    text: 二　申請者が法人であるときは、登記事項証明書
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-180-p3-kou-3
     type: kou
-    text: 事業所の医療機器修理責任技術者が第百八十八条第一号又は第二号に掲げる者であることを証する書類
+    text: 三　事業所の医療機器修理責任技術者が第百八十八条第一号又は第二号に掲げる者であることを証する書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-180-p3-kou-4
     type: kou
-    text: 申請者以外の者がその事業所の医療機器修理責任技術者であるときは、雇用契約書の写しその他申請者のその医療機器修理責任技術者に対する使用関係を証する書類
+    text: 四　申請者以外の者がその事業所の医療機器修理責任技術者であるときは、雇用契約書の写しその他申請者のその医療機器修理責任技術者に対する使用関係を証する書類
     modality: unspecified
     item_number: 4
 - number: 4

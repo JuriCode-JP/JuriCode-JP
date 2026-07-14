@@ -32,27 +32,27 @@ paragraphs:
     modality: jogai
   - id: kinsho-kachoukin-furei-art-44-p2-kou-1
     type: kou
-    text: 参考人を侮辱し、又は困惑させる質問
+    text: 一　参考人を侮辱し、又は困惑させる質問
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-44-p2-kou-2
     type: kou
-    text: 誘導質問
+    text: 二　誘導質問
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-44-p2-kou-3
     type: kou
-    text: 既にした質問と重複する質問
+    text: 三　既にした質問と重複する質問
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-44-p2-kou-4
     type: kou
-    text: 争点に関係ない質問
+    text: 四　争点に関係ない質問
     modality: unspecified
     item_number: 4
   - id: kinsho-kachoukin-furei-art-44-p2-kou-5
     type: kou
-    text: 意見の陳述を求める質問
+    text: 五　意見の陳述を求める質問
     modality: unspecified
     item_number: 5
 - number: 3

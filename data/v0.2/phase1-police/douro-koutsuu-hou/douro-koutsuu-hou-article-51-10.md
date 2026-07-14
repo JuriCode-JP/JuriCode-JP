@@ -23,27 +23,27 @@ paragraphs:
     modality: koka_torikeshi
   - id: douro-koutsuu-hou-art-51-10-p1-kou-1
     type: kou
-    text: 第五十一条の八第三項第二号に該当するに至つたとき。
+    text: 一　第五十一条の八第三項第二号に該当するに至つたとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-51-10-p1-kou-2
     type: kou
-    text: 前条の規定による命令に違反したとき。
+    text: 二　前条の規定による命令に違反したとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-51-10-p1-kou-3
     type: kou
-    text: 次条第一項の規定による報告をせず、若しくは虚偽の報告をし、又は同項の規定による検査を拒み、妨げ、若しくは忌避したとき。
+    text: 三　次条第一項の規定による報告をせず、若しくは虚偽の報告をし、又は同項の規定による検査を拒み、妨げ、若しくは忌避したとき。
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-51-10-p1-kou-4
     type: kou
-    text: 第五十一条の十二第二項から第四項までの規定に違反したとき。
+    text: 四　第五十一条の十二第二項から第四項までの規定に違反したとき。
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-51-10-p1-kou-5
     type: kou
-    text: 偽りその他不正の手段により登録を受けたとき。
+    text: 五　偽りその他不正の手段により登録を受けたとき。
     modality: unspecified
     item_number: 5
 cases: []

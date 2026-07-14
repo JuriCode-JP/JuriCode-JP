@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-179-7-p1-kou-1
     type: kou
-    text: 株式売渡請求が法令に違反する場合
+    text: 一　株式売渡請求が法令に違反する場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-179-7-p1-kou-2
     type: kou
-    text: 対象会社が第百七十九条の四第一項第一号（売渡株主に対する通知に係る部分に限る。）又は第百七十九条の五の規定に違反した場合
+    text: 二　対象会社が第百七十九条の四第一項第一号（売渡株主に対する通知に係る部分に限る。）又は第百七十九条の五の規定に違反した場合
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-179-7-p1-kou-3
     type: kou
-    text: 第百七十九条の二第一項第二号又は第三号に掲げる事項が対象会社の財産の状況その他の事情に照らして著しく不当である場合
+    text: 三　第百七十九条の二第一項第二号又は第三号に掲げる事項が対象会社の財産の状況その他の事情に照らして著しく不当である場合
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,17 +47,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-179-7-p2-kou-1
     type: kou
-    text: 新株予約権売渡請求が法令に違反する場合
+    text: 一　新株予約権売渡請求が法令に違反する場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-179-7-p2-kou-2
     type: kou
-    text: 対象会社が第百七十九条の四第一項第一号（売渡新株予約権者に対する通知に係る部分に限る。）又は第百七十九条の五の規定に違反した場合
+    text: 二　対象会社が第百七十九条の四第一項第一号（売渡新株予約権者に対する通知に係る部分に限る。）又は第百七十九条の五の規定に違反した場合
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-179-7-p2-kou-3
     type: kou
-    text: 第百七十九条の二第一項第四号ロ又はハに掲げる事項が対象会社の財産の状況その他の事情に照らして著しく不当である場合
+    text: 三　第百七十九条の二第一項第四号ロ又はハに掲げる事項が対象会社の財産の状況その他の事情に照らして著しく不当である場合
     modality: unspecified
     item_number: 3
 cases: []

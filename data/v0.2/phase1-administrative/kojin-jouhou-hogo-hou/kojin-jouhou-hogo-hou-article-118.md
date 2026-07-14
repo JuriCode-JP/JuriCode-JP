@@ -35,8 +35,8 @@ paragraphs:
     applies_provisions:
     - 第百十三条から第百十五条まで
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

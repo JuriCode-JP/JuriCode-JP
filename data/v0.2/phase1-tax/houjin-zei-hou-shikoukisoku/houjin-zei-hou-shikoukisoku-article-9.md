@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-9-p1-kou-1
     type: kou
-    text: 申請をする内国法人の名称、納税地及び法人番号並びに代表者（人格のない社団等で代表者の定めがなく、管理人の定めがあるものについては、管理人。以下同じ。）の氏名
+    text: 一　申請をする内国法人の名称、納税地及び法人番号並びに代表者（人格のない社団等で代表者の定めがなく、管理人の定めがあるものについては、管理人。以下同じ。）の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-9-p1-kou-2
     type: kou
-    text: その他参考となるべき事項
+    text: 二　その他参考となるべき事項
     modality: unspecified
     item_number: 2
 cases: []

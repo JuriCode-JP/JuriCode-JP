@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-96-p1-kou-1
     type: kou
-    text: 専らねずみ、はえ、蚊、のみその他これらに類する生物の防除のために使用されることが目的とされている医薬品（以下「防除用医薬品」という。）のうち、人の身体に直接使用されることのないもの
+    text: 一　専らねずみ、はえ、蚊、のみその他これらに類する生物の防除のために使用されることが目的とされている医薬品（以下「防除用医薬品」という。）のうち、人の身体に直接使用されることのないもの
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-96-p1-kou-2
     type: kou
-    text: 専ら滅菌又は消毒に使用されることが目的とされている医薬品（以下「滅菌消毒用医薬品」という。）のうち、人の身体に直接使用されることのないもの
+    text: 二　専ら滅菌又は消毒に使用されることが目的とされている医薬品（以下「滅菌消毒用医薬品」という。）のうち、人の身体に直接使用されることのないもの
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-96-p1-kou-3
     type: kou
-    text: 専ら前二号に掲げる医薬品の製造の用に供されることが目的とされている原薬たる医薬品
+    text: 三　専ら前二号に掲げる医薬品の製造の用に供されることが目的とされている原薬たる医薬品
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-96-p1-kou-4
     type: kou
-    text: 生薬を粉末にし、又は刻む工程のみを行う製造所において製造される医薬品
+    text: 四　生薬を粉末にし、又は刻む工程のみを行う製造所において製造される医薬品
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-96-p1-kou-5
     type: kou
-    text: 薬局製造販売医薬品
+    text: 五　薬局製造販売医薬品
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-96-p1-kou-6
     type: kou
-    text: 医療の用に供するガス類のうち、厚生労働大臣が指定するもの
+    text: 六　医療の用に供するガス類のうち、厚生労働大臣が指定するもの
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-96-p1-kou-7
     type: kou
-    text: 前各号に掲げるもののほか、日本薬局方に収められている物のうち、人体に対する作用が緩和なものとして厚生労働大臣が指定するもの
+    text: 七　前各号に掲げるもののほか、日本薬局方に収められている物のうち、人体に対する作用が緩和なものとして厚生労働大臣が指定するもの
     modality: unspecified
     item_number: 7
 cases: []

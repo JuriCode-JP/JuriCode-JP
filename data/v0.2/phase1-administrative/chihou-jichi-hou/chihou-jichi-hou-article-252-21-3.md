@@ -33,8 +33,8 @@ paragraphs:
     text: 指定都市の市長又は包括都道府県の知事は、前項の規定による勧告の求め（以下この条及び次条において「勧告の求め」という。）をしようとするときは、あらかじめ、当該指定都市又は包括都道府県の議会の議決を経なければならない。
     modality: gimu
     references:
-    - 次条
     - 前項
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu_negative
   - id: fueihou-art-23-p1-kou-1
     type: kou
-    text: 現金又は有価証券を賞品として提供すること。
+    text: 一　現金又は有価証券を賞品として提供すること。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-23-p1-kou-2
     type: kou
-    text: 客に提供した賞品を買い取ること。
+    text: 二　客に提供した賞品を買い取ること。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-23-p1-kou-3
     type: kou
-    text: 遊技の用に供する玉、メダルその他これらに類する物（次号において「遊技球等」という。）を客に営業所外に持ち出させること。
+    text: 三　遊技の用に供する玉、メダルその他これらに類する物（次号において「遊技球等」という。）を客に営業所外に持ち出させること。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-23-p1-kou-4
     type: kou
-    text: 遊技球等を客のために保管したことを表示する書面を客に発行すること。
+    text: 四　遊技球等を客のために保管したことを表示する書面を客に発行すること。
     modality: unspecified
     item_number: 4
 - number: 2

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-40-25-p1-kou-1
     type: kou
-    text: 電波法第二条第一号に規定する電波を空間へ放射する無線設備で財務省令で定めるものに該当するものであること。
+    text: 一　電波法第二条第一号に規定する電波を空間へ放射する無線設備で財務省令で定めるものに該当するものであること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-40-25-p1-kou-2
     type: kou
-    text: 当該無線設備の用に供されている土地等の利用に相当の制約を伴うものであること。
+    text: 二　当該無線設備の用に供されている土地等の利用に相当の制約を伴うものであること。
     modality: unspecified
     item_number: 2
 - number: 2

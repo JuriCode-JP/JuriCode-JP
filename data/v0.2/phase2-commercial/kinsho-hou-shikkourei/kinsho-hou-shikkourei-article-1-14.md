@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-1-14-p1-kou-1
     type: kou
-    text: 暴風、豪雨、豪雪、洪水、高潮、地震、津波、噴火その他の異常な自然現象
+    text: 一　暴風、豪雨、豪雪、洪水、高潮、地震、津波、噴火その他の異常な自然現象
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-1-14-p1-kou-2
     type: kou
-    text: 戦争、革命、内乱、暴動、騒乱その他これらに準ずるものとして内閣府令で定める事由
+    text: 二　戦争、革命、内乱、暴動、騒乱その他これらに準ずるものとして内閣府令で定める事由
     modality: unspecified
     item_number: 2
 cases: []

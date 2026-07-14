@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-79-3-p1-kou-1
     type: kou
-    text: 第七十八条第二項に規定する業務に関する事項
+    text: 一　第七十八条第二項に規定する業務に関する事項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-3-p1-kou-2
     type: kou
-    text: 売買その他の取引の勧誘を行うことが禁じられない株券、新株予約権付社債券その他内閣府令で定める有価証券（金融商品取引所に上場されている有価証券及び店頭売買有価証券を除く。）の種類に関する事項
+    text: 二　売買その他の取引の勧誘を行うことが禁じられない株券、新株予約権付社債券その他内閣府令で定める有価証券（金融商品取引所に上場されている有価証券及び店頭売買有価証券を除く。）の種類に関する事項
     modality: unspecified
     item_number: 2
 - number: 2

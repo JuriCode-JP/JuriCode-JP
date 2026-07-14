@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-195-p1-kou-1
     type: kou
-    text: 修理業者又は医療機器修理責任技術者の氏名又は住所
+    text: 一　修理業者又は医療機器修理責任技術者の氏名又は住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-195-p1-kou-2
     type: kou
-    text: 修理業者が法人であるときは、薬事に関する業務に責任を有する役員の氏名
+    text: 二　修理業者が法人であるときは、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-195-p1-kou-3
     type: kou
-    text: 事業所の名称
+    text: 三　事業所の名称
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-195-p1-kou-4
     type: kou
-    text: 事業所の構造設備の主要部分
+    text: 四　事業所の構造設備の主要部分
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-195-p1-kou-5
     type: kou
-    text: 修理業者が他の区分の修理業の許可を受け、又はその事業所を廃止したときは、当該許可の区分及び許可番号
+    text: 五　修理業者が他の区分の修理業の許可を受け、又はその事業所を廃止したときは、当該許可の区分及び許可番号
     modality: unspecified
     item_number: 5
 - number: 2
@@ -70,12 +70,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-195-p3-kou-1
     type: kou
-    text: 第一項第一号に掲げる修理業者の氏名に係る届書　修理業者の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（修理業者が法人であるときは、登記事項証明書）
+    text: 一　第一項第一号に掲げる修理業者の氏名に係る届書　修理業者の戸籍謄本、戸籍抄本又は戸籍記載事項証明書（修理業者が法人であるときは、登記事項証明書）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-195-p3-kou-2
     type: kou
-    text: 第一項第一号に掲げる医療機器修理責任技術者の氏名に係る届書（新たに医療機器修理責任技術者となつた者が修理業者である場合を除く。）　雇用契約書の写しその他の修理業者の新たに医療機器修理責任技術者となつた者に対する使用関係を証する書類及び当該者が第百八十八条第一号又は第二号に掲げる者であることを証する書類
+    text: 二　第一項第一号に掲げる医療機器修理責任技術者の氏名に係る届書（新たに医療機器修理責任技術者となつた者が修理業者である場合を除く。）　雇用契約書の写しその他の修理業者の新たに医療機器修理責任技術者となつた者に対する使用関係を証する書類及び当該者が第百八十八条第一号又は第二号に掲げる者であることを証する書類
     modality: unspecified
     item_number: 2
 cases: []

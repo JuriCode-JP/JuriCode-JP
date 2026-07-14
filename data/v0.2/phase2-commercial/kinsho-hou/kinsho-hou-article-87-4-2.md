@@ -34,22 +34,22 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-87-4-2-p2-kou-1
     type: kou
-    text: 金融商品取引所グループの経営の基本方針その他これに準ずる方針として内閣府令で定めるものの策定及びその適正な実施の確保
+    text: 一　金融商品取引所グループの経営の基本方針その他これに準ずる方針として内閣府令で定めるものの策定及びその適正な実施の確保
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-87-4-2-p2-kou-2
     type: kou
-    text: 金融商品取引所グループに属する会社（金融商品会員制法人を含む。）相互の利益が相反する場合における必要な調整
+    text: 二　金融商品取引所グループに属する会社（金融商品会員制法人を含む。）相互の利益が相反する場合における必要な調整
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-87-4-2-p2-kou-3
     type: kou
-    text: 金融商品取引所グループの業務の執行が法令に適合することを確保するために必要なものとして内閣府令で定める体制の整備
+    text: 三　金融商品取引所グループの業務の執行が法令に適合することを確保するために必要なものとして内閣府令で定める体制の整備
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-87-4-2-p2-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、金融商品取引所グループの業務の公共性に対する信頼及び健全かつ適切な運営の確保に資するものとして内閣府令で定めるもの
+    text: 四　前三号に掲げるもののほか、金融商品取引所グループの業務の公共性に対する信頼及び健全かつ適切な運営の確保に資するものとして内閣府令で定めるもの
     modality: unspecified
     item_number: 4
 cases: []

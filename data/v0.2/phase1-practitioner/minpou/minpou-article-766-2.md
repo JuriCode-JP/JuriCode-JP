@@ -37,12 +37,12 @@ paragraphs:
     - 前項
   - id: minpou-art-766-2-p2-kou-1
     type: kou
-    text: 父母
+    text: 一　父母
     modality: unspecified
     item_number: 1
   - id: minpou-art-766-2-p2-kou-2
     type: kou
-    text: 父母以外の子の親族（子の直系尊属及び兄弟姉妹以外の者にあっては、過去に当該子を監護していた者に限る。）
+    text: 二　父母以外の子の親族（子の直系尊属及び兄弟姉妹以外の者にあっては、過去に当該子を監護していた者に限る。）
     modality: unspecified
     item_number: 2
 cases: []

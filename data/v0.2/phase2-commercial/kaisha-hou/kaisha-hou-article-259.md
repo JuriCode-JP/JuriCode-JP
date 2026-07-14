@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-259-p1-kou-1
     type: kou
-    text: 当該株式会社の新株予約権を取得した場合
+    text: 一　当該株式会社の新株予約権を取得した場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-259-p1-kou-2
     type: kou
-    text: 自己新株予約権を処分した場合
+    text: 二　自己新株予約権を処分した場合
     modality: unspecified
     item_number: 2
 - number: 2

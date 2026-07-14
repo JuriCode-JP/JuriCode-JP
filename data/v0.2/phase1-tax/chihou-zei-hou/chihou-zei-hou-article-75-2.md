@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-75-2-p1-kou-1
     type: kou
-    text: 年齢十八歳未満の者
+    text: 一　年齢十八歳未満の者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-75-2-p1-kou-2
     type: kou
-    text: 年齢七十歳以上の者
+    text: 二　年齢七十歳以上の者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-75-2-p1-kou-3
     type: kou
-    text: 第二十三条第一項第十号に規定する障害者（前二号に掲げる者を除く。）
+    text: 三　第二十三条第一項第十号に規定する障害者（前二号に掲げる者を除く。）
     modality: unspecified
     item_number: 3
 cases: []

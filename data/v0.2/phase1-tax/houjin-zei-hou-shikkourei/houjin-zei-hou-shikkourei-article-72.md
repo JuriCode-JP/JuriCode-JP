@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-72-p1-kou-1
     type: kou
-    text: 役員の親族
+    text: 一　役員の親族
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-72-p1-kou-2
     type: kou
-    text: 役員と事実上婚姻関係と同様の関係にある者
+    text: 二　役員と事実上婚姻関係と同様の関係にある者
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-72-p1-kou-3
     type: kou
-    text: 前二号に掲げる者以外の者で役員から生計の支援を受けているもの
+    text: 三　前二号に掲げる者以外の者で役員から生計の支援を受けているもの
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikkourei-art-72-p1-kou-4
     type: kou
-    text: 前二号に掲げる者と生計を一にするこれらの者の親族
+    text: 四　前二号に掲げる者と生計を一にするこれらの者の親族
     modality: unspecified
     item_number: 4
 cases: []

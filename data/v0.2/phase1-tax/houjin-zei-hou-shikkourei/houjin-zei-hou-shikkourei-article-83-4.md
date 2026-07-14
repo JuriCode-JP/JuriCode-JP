@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikkourei-art-83-4-p1-kou-1
     type: kou
-    text: 当該固定資産の取得又は改良をするために要した金額
+    text: 一　当該固定資産の取得又は改良をするために要した金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-83-4-p1-kou-2
     type: kou
-    text: 当該賦課に基づいて納付された金額のうち前号に掲げる金額に達するまでの金額
+    text: 二　当該賦課に基づいて納付された金額のうち前号に掲げる金額に達するまでの金額
     modality: unspecified
     item_number: 2
 cases: []

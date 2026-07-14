@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: keiji-soshou-hou-art-342-8-p1-kou-1
     type: kou
-    text: 当該被告人について勾留状が発せられていない場合　勾留する決定
+    text: 一　当該被告人について勾留状が発せられていない場合　勾留する決定
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-342-8-p1-kou-2
     type: kou
-    text: 当該被告人が保釈されている場合　保釈を取り消す決定
+    text: 二　当該被告人が保釈されている場合　保釈を取り消す決定
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-342-8-p1-kou-3
     type: kou
-    text: 当該被告人が勾留の執行停止をされている場合　勾留の執行停止を取り消す決定
+    text: 三　当該被告人が勾留の執行停止をされている場合　勾留の執行停止を取り消す決定
     modality: unspecified
     item_number: 3
 - number: 2

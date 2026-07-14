@@ -45,8 +45,8 @@ paragraphs:
     text: 前項の規定により通行指示書の交付を受けた車両の運転者は、同項の規定による命令に係る運転に当たつては、当該通行指示書を携帯していなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
@@ -58,6 +58,10 @@ paragraphs:
     modality: unspecified
     references:
     - 同項
+  - id: douro-koutsuu-hou-art-58-3-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第二項については第百十九条第一項第九号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:
@@ -67,7 +71,7 @@ parent_section:
   shou: 3
   shou_name_ja: 第三章　車両及び路面電車の交通方法
   setsu: 11
-  setsu_name_ja: 第十一節　乗車、積載及び牽けん引
+  setsu_name_ja: 第十一節　乗車、積載及び牽引
 ---
 
 # 道路交通法 第58-3条(（過積載車両に係る措置命令）)

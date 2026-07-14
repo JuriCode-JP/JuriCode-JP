@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-1047-p1-kou-1
     type: kou
-    text: 受遺者と受贈者とがあるときは、受遺者が先に負担する。
+    text: 一　受遺者と受贈者とがあるときは、受遺者が先に負担する。
     modality: unspecified
     item_number: 1
   - id: minpou-art-1047-p1-kou-2
     type: kou
-    text: 受遺者が複数あるとき、又は受贈者が複数ある場合においてその贈与が同時にされたものであるときは、受遺者又は受贈者がその目的の価額の割合に応じて負担する。ただし、遺言者がその遺言に別段の意思を表示したときは、その意思に従う。
+    text: 二　受遺者が複数あるとき、又は受贈者が複数ある場合においてその贈与が同時にされたものであるときは、受遺者又は受贈者がその目的の価額の割合に応じて負担する。ただし、遺言者がその遺言に別段の意思を表示したときは、その意思に従う。
     modality: unspecified
     item_number: 2
   - id: minpou-art-1047-p1-kou-3
     type: kou
-    text: 受贈者が複数あるとき（前号に規定する場合を除く。）は、後の贈与に係る受贈者から順次前の贈与に係る受贈者が負担する。
+    text: 三　受贈者が複数あるとき（前号に規定する場合を除く。）は、後の贈与に係る受贈者から順次前の贈与に係る受贈者が負担する。
     modality: unspecified
     item_number: 3
 - number: 2

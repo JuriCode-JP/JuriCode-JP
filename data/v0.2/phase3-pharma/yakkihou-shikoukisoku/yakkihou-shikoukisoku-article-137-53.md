@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-53-p1-kou-1
     type: kou
-    text: 再生医療等製品の製造管理及び品質管理の基準に関する省令（平成二十六年厚生労働省令第九十三号）により再生医療等製品製造管理者が行うこととされた業務
+    text: 一　再生医療等製品の製造管理及び品質管理の基準に関する省令（平成二十六年厚生労働省令第九十三号）により再生医療等製品製造管理者が行うこととされた業務
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-53-p1-kou-2
     type: kou
-    text: 法第二十三条の三十五の二第三項第一号に規定する再生医療等製品製造管理者が有する権限に係る業務
+    text: 二　法第二十三条の三十五の二第三項第一号に規定する再生医療等製品製造管理者が有する権限に係る業務
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-53-p2-kou-1
     type: kou
-    text: 製造の管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+    text: 一　製造の管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-53-p2-kou-2
     type: kou
-    text: 法第二十三条の三十四第七項の規定により製造業者に対して述べる意見を記載した書面の写しを五年間保存すること。
+    text: 二　法第二十三条の三十四第七項の規定により製造業者に対して述べる意見を記載した書面の写しを五年間保存すること。
     modality: unspecified
     item_number: 2
 cases: []

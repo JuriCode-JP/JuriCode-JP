@@ -23,42 +23,42 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-782-p1-kou-1
     type: kou
-    text: 機構処理税務事務を行うこと。
+    text: 一　機構処理税務事務を行うこと。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-782-p1-kou-2
     type: kou
-    text: 地方団体の職員に対する地方税に関する教育及び研修
+    text: 二　地方団体の職員に対する地方税に関する教育及び研修
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-782-p1-kou-3
     type: kou
-    text: 地方税に関する調査研究
+    text: 三　地方税に関する調査研究
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-782-p1-kou-4
     type: kou
-    text: 地方税に関する広報その他の啓発活動
+    text: 四　地方税に関する広報その他の啓発活動
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-782-p1-kou-5
     type: kou
-    text: 地方税に関する情報システムの開発及び運用
+    text: 五　地方税に関する情報システムの開発及び運用
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-782-p1-kou-6
     type: kou
-    text: 地方税に関する情報システムに関する事務の受託
+    text: 六　地方税に関する情報システムに関する事務の受託
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-art-782-p1-kou-7
     type: kou
-    text: 地方団体に対する地方税に関する情報の提供その他の支援
+    text: 七　地方団体に対する地方税に関する情報の提供その他の支援
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-art-782-p1-kou-8
     type: kou
-    text: 前各号に掲げる業務に附帯する業務
+    text: 八　前各号に掲げる業務に附帯する業務
     modality: unspecified
     item_number: 8
 cases: []

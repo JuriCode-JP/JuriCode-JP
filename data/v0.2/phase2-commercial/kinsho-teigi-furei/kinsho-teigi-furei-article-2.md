@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-teigi-furei-art-2-p1-kou-1
     type: kou
-    text: 銀行
+    text: 一　銀行
     modality: unspecified
     item_number: 1
   - id: kinsho-teigi-furei-art-2-p1-kou-2
     type: kou
-    text: 信用金庫及び信用金庫連合会並びに労働金庫及び労働金庫連合会
+    text: 二　信用金庫及び信用金庫連合会並びに労働金庫及び労働金庫連合会
     modality: unspecified
     item_number: 2
   - id: kinsho-teigi-furei-art-2-p1-kou-3
     type: kou
-    text: 農林中央金庫及び株式会社商工組合中央金庫
+    text: 三　農林中央金庫及び株式会社商工組合中央金庫
     modality: unspecified
     item_number: 3
   - id: kinsho-teigi-furei-art-2-p1-kou-4
     type: kou
-    text: 信用協同組合及び信用協同組合連合会並びに業として預金又は貯金の受入れをすることができる農業協同組合、農業協同組合連合会、漁業協同組合、漁業協同組合連合会、水産加工業協同組合及び水産加工業協同組合連合会
+    text: 四　信用協同組合及び信用協同組合連合会並びに業として預金又は貯金の受入れをすることができる農業協同組合、農業協同組合連合会、漁業協同組合、漁業協同組合連合会、水産加工業協同組合及び水産加工業協同組合連合会
     modality: unspecified
     item_number: 4
 cases: []

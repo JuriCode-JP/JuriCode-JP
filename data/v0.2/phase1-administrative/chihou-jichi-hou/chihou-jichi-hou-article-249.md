@@ -37,8 +37,8 @@ paragraphs:
     text: 前項ただし書の場合においては、国の行政機関又は都道府県の機関は、是正の要求等をした後相当の期間内に、同項の書面を交付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

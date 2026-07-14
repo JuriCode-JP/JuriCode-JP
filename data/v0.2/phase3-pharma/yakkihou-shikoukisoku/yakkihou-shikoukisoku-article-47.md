@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-47-p1-kou-1
     type: kou
-    text: 当該品目の本質、特性及び安全性に影響を与える製造方法等の変更
+    text: 一　当該品目の本質、特性及び安全性に影響を与える製造方法等の変更
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-47-p1-kou-2
     type: kou
-    text: 病原因子の不活化又は除去方法に関する変更
+    text: 二　病原因子の不活化又は除去方法に関する変更
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-47-p1-kou-3
     type: kou
-    text: 用法若しくは用量又は効能若しくは効果に関する追加、変更又は削除
+    text: 三　用法若しくは用量又は効能若しくは効果に関する追加、変更又は削除
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-47-p1-kou-4
     type: kou
-    text: 前各号に掲げる変更のほか、製品の品質、有効性及び安全性に影響を与えるおそれのあるもの
+    text: 四　前各号に掲げる変更のほか、製品の品質、有効性及び安全性に影響を与えるおそれのあるもの
     modality: unspecified
     item_number: 4
 cases: []

@@ -22,8 +22,8 @@ paragraphs:
     text: 共有物の管理に関する事項（次条第一項に規定する共有物の管理者の選任及び解任を含み、共有物に前条第一項に規定する変更を加えるものを除く。次項において同じ。）は、各共有者の持分の価格に従い、その過半数で決する。共有物を使用する共有者があるときも、同様とする。
     modality: gimu
     references:
-    - 前条
     - 次項
+    - 前条
     - 次条
 - number: 2
   has_proviso: false
@@ -36,12 +36,12 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-252-p2-kou-1
     type: kou
-    text: 共有者が他の共有者を知ることができず、又はその所在を知ることができないとき。
+    text: 一　共有者が他の共有者を知ることができず、又はその所在を知ることができないとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-252-p2-kou-2
     type: kou
-    text: 共有者が他の共有者に対し相当の期間を定めて共有物の管理に関する事項を決することについて賛否を明らかにすべき旨を催告した場合において、当該他の共有者がその期間内に賛否を明らかにしないとき。
+    text: 二　共有者が他の共有者に対し相当の期間を定めて共有物の管理に関する事項を決することについて賛否を明らかにすべき旨を催告した場合において、当該他の共有者がその期間内に賛否を明らかにしないとき。
     modality: unspecified
     item_number: 2
 - number: 3
@@ -68,22 +68,22 @@ paragraphs:
     - 前三項
   - id: minpou-art-252-p4-kou-1
     type: kou
-    text: 樹木の栽植又は伐採を目的とする山林の賃借権等　十年
+    text: 一　樹木の栽植又は伐採を目的とする山林の賃借権等　十年
     modality: unspecified
     item_number: 1
   - id: minpou-art-252-p4-kou-2
     type: kou
-    text: 前号に掲げる賃借権等以外の土地の賃借権等　五年
+    text: 二　前号に掲げる賃借権等以外の土地の賃借権等　五年
     modality: unspecified
     item_number: 2
   - id: minpou-art-252-p4-kou-3
     type: kou
-    text: 建物の賃借権等　三年
+    text: 三　建物の賃借権等　三年
     modality: unspecified
     item_number: 3
   - id: minpou-art-252-p4-kou-4
     type: kou
-    text: 動産の賃借権等　六箇月
+    text: 四　動産の賃借権等　六箇月
     modality: unspecified
     item_number: 4
 - number: 5

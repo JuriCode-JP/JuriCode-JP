@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-49-p1-kou-1
     type: kou
-    text: 軽油の納入先の氏名又は名称及び住所又は所在地
+    text: 一　軽油の納入先の氏名又は名称及び住所又は所在地
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-49-p1-kou-2
     type: kou
-    text: 納入を行つた年月日
+    text: 二　納入を行つた年月日
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-49-p1-kou-3
     type: kou
-    text: 納入を行つた軽油の数量
+    text: 三　納入を行つた軽油の数量
     modality: unspecified
     item_number: 3
 cases: []

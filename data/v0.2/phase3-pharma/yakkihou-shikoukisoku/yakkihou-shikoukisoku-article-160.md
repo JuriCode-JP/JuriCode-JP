@@ -37,17 +37,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-160-p2-kou-1
     type: kou
-    text: 営業所の名称及び所在地
+    text: 一　営業所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-160-p2-kou-2
     type: kou
-    text: 高度管理医療機器等営業所管理者の住所
+    text: 二　高度管理医療機器等営業所管理者の住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-160-p2-kou-3
     type: kou
-    text: 兼営事業の種類
+    text: 三　兼営事業の種類
     modality: unspecified
     item_number: 3
 - number: 3
@@ -61,27 +61,27 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-160-p3-kou-1
     type: kou
-    text: 営業所（高度管理医療機器プログラムのみを取り扱う営業所を除く。）の構造設備に関する書類
+    text: 一　営業所（高度管理医療機器プログラムのみを取り扱う営業所を除く。）の構造設備に関する書類
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-160-p3-kou-2
     type: kou
-    text: 申請者が法人であるときは、登記事項証明書
+    text: 二　申請者が法人であるときは、登記事項証明書
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-160-p3-kou-3
     type: kou
-    text: 申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
+    text: 三　申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-160-p3-kou-4
     type: kou
-    text: 高度管理医療機器等営業所管理者が第百六十二条第一項各号（同項第一号に規定する指定視力補正用レンズ等のみの販売、授与又は貸与（以下「販売等」という。）を実地に管理する者にあつては同項各号又は同条第二項各号、プログラム高度管理医療機器（高度管理医療機器プログラム又はこれを記録した記録媒体たる医療機器をいう。以下同じ。）のみの販売等又は電気通信回線を通じた提供（以下「販売提供等」という。）を実地に管理する者にあつては同条第一項各号又は第三項各号、指定視力補正用レンズ等及びプログラム高度管理医療機器のみの販売提供等を実地に管理する者にあつては同条第一項各号又は同条第二項各号及び第三項各号）に掲げる者であることを証する書類
+    text: 四　高度管理医療機器等営業所管理者が第百六十二条第一項各号（同項第一号に規定する指定視力補正用レンズ等のみの販売、授与又は貸与（以下「販売等」という。）を実地に管理する者にあつては同項各号又は同条第二項各号、プログラム高度管理医療機器（高度管理医療機器プログラム又はこれを記録した記録媒体たる医療機器をいう。以下同じ。）のみの販売等又は電気通信回線を通じた提供（以下「販売提供等」という。）を実地に管理する者にあつては同条第一項各号又は第三項各号、指定視力補正用レンズ等及びプログラム高度管理医療機器のみの販売提供等を実地に管理する者にあつては同条第一項各号又は同条第二項各号及び第三項各号）に掲げる者であることを証する書類
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-160-p3-kou-5
     type: kou
-    text: 申請者以外の者がその営業所の高度管理医療機器等営業所管理者であるときは、雇用契約書の写しその他申請者のその営業所の高度管理医療機器等営業所管理者に対する使用関係を証する書類
+    text: 五　申請者以外の者がその営業所の高度管理医療機器等営業所管理者であるときは、雇用契約書の写しその他申請者のその営業所の高度管理医療機器等営業所管理者に対する使用関係を証する書類
     modality: unspecified
     item_number: 5
 - number: 4

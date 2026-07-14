@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-53-11-p1-kou-1
     type: kou
-    text: 第五十三条の九の規定による調査に関する資料
+    text: 一　第五十三条の九の規定による調査に関する資料
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-53-11-p1-kou-2
     type: kou
-    text: 医薬品の使用成績に関する資料、当該医薬品の副作用等の発現状況並びに品質、有効性及び安全性に関する情報の検出又は確認のために行う調査に関する資料、当該医薬品の効能又は効果及び安全性に関しその製造販売の承認後に得られた研究報告に関する資料その他の当該医薬品の品質、有効性及び安全性に関する資料
+    text: 二　医薬品の使用成績に関する資料、当該医薬品の副作用等の発現状況並びに品質、有効性及び安全性に関する情報の検出又は確認のために行う調査に関する資料、当該医薬品の効能又は効果及び安全性に関しその製造販売の承認後に得られた研究報告に関する資料その他の当該医薬品の品質、有効性及び安全性に関する資料
     modality: unspecified
     item_number: 2
 - number: 2

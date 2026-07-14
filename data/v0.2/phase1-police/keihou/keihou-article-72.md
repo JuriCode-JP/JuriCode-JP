@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: keihou-art-72-p1-kou-1
     type: kou
-    text: 再犯加重
+    text: 一　再犯加重
     modality: unspecified
     item_number: 1
   - id: keihou-art-72-p1-kou-2
     type: kou
-    text: 法律上の減軽
+    text: 二　法律上の減軽
     modality: unspecified
     item_number: 2
   - id: keihou-art-72-p1-kou-3
     type: kou
-    text: 併合罪の加重
+    text: 三　併合罪の加重
     modality: unspecified
     item_number: 3
   - id: keihou-art-72-p1-kou-4
     type: kou
-    text: 酌量減軽
+    text: 四　酌量減軽
     modality: unspecified
     item_number: 4
 cases: []

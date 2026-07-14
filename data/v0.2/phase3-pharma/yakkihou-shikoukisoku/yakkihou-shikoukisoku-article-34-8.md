@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-34-8-p1-kou-1
     type: kou
-    text: 登録番号及び登録年月日
+    text: 一　登録番号及び登録年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-34-8-p1-kou-2
     type: kou
-    text: 保管のみを行う製造所に係る製造業者の氏名及び住所
+    text: 二　保管のみを行う製造所に係る製造業者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-34-8-p1-kou-3
     type: kou
-    text: 保管のみを行う製造所の名称及び所在地
+    text: 三　保管のみを行う製造所の名称及び所在地
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-34-8-p1-kou-4
     type: kou
-    text: 当該保管のみを行う製造所の医薬品製造管理者又は医薬部外品等責任技術者の氏名及び住所
+    text: 四　当該保管のみを行う製造所の医薬品製造管理者又は医薬部外品等責任技術者の氏名及び住所
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-34-8-p1-kou-5
     type: kou
-    text: 当該保管のみを行う製造所に係る製造業者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可の区分及び許可番号又は登録番号
+    text: 五　当該保管のみを行う製造所に係る製造業者が他の製造業の許可又は登録を受けている場合にあつては、当該製造業の許可の区分及び許可番号又は登録番号
     modality: unspecified
     item_number: 5
 cases: []

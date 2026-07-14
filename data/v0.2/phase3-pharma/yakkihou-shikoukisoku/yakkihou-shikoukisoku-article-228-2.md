@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-228-2-p1-kou-1
     type: kou
-    text: 再生医療等製品（指定再生医療等製品を除く。）にあつては、白地に黒枠、黒字をもつて記載する「再生等」の文字
+    text: 一　再生医療等製品（指定再生医療等製品を除く。）にあつては、白地に黒枠、黒字をもつて記載する「再生等」の文字
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-228-2-p1-kou-2
     type: kou
-    text: 指定再生医療等製品にあつては、白地に黒枠、黒字をもつて記載する「指定再生等」の文字
+    text: 二　指定再生医療等製品にあつては、白地に黒枠、黒字をもつて記載する「指定再生等」の文字
     modality: unspecified
     item_number: 2
 cases: []

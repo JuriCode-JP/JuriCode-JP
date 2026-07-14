@@ -22,16 +22,16 @@ paragraphs:
     text: 法第四十七条の三の規定により金融商品取引業者は、別紙様式第十五号の二により作成した説明書類又は前条第一項の事業報告書（次に掲げる部分を除く。次項において同じ。）の写しを全ての営業所若しくは事務所に備え置く方法その他の方法により法第四十七条の三の説明書類を公衆の縦覧に供し、又はインターネットの利用その他の方法により、投資者が常に容易に閲覧することができるよう公表しなければならない。
     modality: gimu
     references:
-    - 前条
     - 次項
+    - 前条
   - id: kinsho-gyou-furei-art-183-p1-kou-1
     type: kou
-    text: 当該金融商品取引業者の所在地に係る部分
+    text: 一　当該金融商品取引業者の所在地に係る部分
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-183-p1-kou-2
     type: kou
-    text: 株主の状況のうち住所又は所在地に係る部分
+    text: 二　株主の状況のうち住所又は所在地に係る部分
     modality: unspecified
     item_number: 2
 - number: 2

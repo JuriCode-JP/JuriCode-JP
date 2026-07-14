@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-177-p1-kou-1
     type: kou
-    text: 事件関係人若しくは参考人に出頭を求め、質問をし、又はこれらの者から意見若しくは報告を徴すること。
+    text: 一　事件関係人若しくは参考人に出頭を求め、質問をし、又はこれらの者から意見若しくは報告を徴すること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-177-p1-kou-2
     type: kou
-    text: 事件関係人に対し帳簿書類その他の物件の提出を命じ、又は提出物件を留めて置くこと。
+    text: 二　事件関係人に対し帳簿書類その他の物件の提出を命じ、又は提出物件を留めて置くこと。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-177-p1-kou-3
     type: kou
-    text: 事件関係人の営業所その他必要な場所に立ち入り、帳簿書類その他の物件を検査すること。
+    text: 三　事件関係人の営業所その他必要な場所に立ち入り、帳簿書類その他の物件を検査すること。
     modality: unspecified
     item_number: 3
 - number: 2

@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-106-p1-kou-1
     type: kou
-    text: 法第十九条の二第一項の規定により当該品目について承認された事項及び同条第五項において準用する法第十四条第十三項の規定によりその変更があつた場合にあつては、その変更された事項及び変更理由
+    text: 一　法第十九条の二第一項の規定により当該品目について承認された事項及び同条第五項において準用する法第十四条第十三項の規定によりその変更があつた場合にあつては、その変更された事項及び変更理由
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-106-p1-kou-2
     type: kou
-    text: 法第十九条の二第五項において準用する法第十四条の二の二の二第四項の規定により厚生労働大臣に報告した事項
+    text: 二　法第十九条の二第五項において準用する法第十四条の二の二の二第四項の規定により厚生労働大臣に報告した事項
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-106-p1-kou-3
     type: kou
-    text: 法第十九条の二第一項及び同条第五項において準用する法第十四条第十三項の承認の申請に際して提出した資料の写し、法第十九条の四において準用する法第十四条の四第一項の再審査の申請に際して提出した資料の写し並びに法第十九条の四において準用する法第十四条の六第一項の再評価の申請に際して提出した資料の写し
+    text: 三　法第十九条の二第一項及び同条第五項において準用する法第十四条第十三項の承認の申請に際して提出した資料の写し、法第十九条の四において準用する法第十四条の四第一項の再審査の申請に際して提出した資料の写し並びに法第十九条の四において準用する法第十四条の六第一項の再評価の申請に際して提出した資料の写し
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-106-p1-kou-4
     type: kou
-    text: 法第十九条の四において準用する法第十四条の四第七項又は第十四条の五第二項の規定により厚生労働大臣又は機構に報告した事項
+    text: 四　法第十九条の四において準用する法第十四条の四第七項又は第十四条の五第二項の規定により厚生労働大臣又は機構に報告した事項
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-106-p1-kou-5
     type: kou
-    text: 法第五十条、第五十九条、第六十一条又は第六十八条の十七に規定する事項を記載するために必要な情報及びその変更があつた場合にあつてはその変更理由
+    text: 五　法第五十条、第五十九条、第六十一条又は第六十八条の十七に規定する事項を記載するために必要な情報及びその変更があつた場合にあつてはその変更理由
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-106-p1-kou-6
     type: kou
-    text: 法第五十二条（法第六十条又は第六十二条において準用する場合を含む。）又は第六十八条の十八に規定する事項に関する情報及びその変更があつた場合にあつてはその変更理由
+    text: 六　法第五十二条（法第六十条又は第六十二条において準用する場合を含む。）又は第六十八条の十八に規定する事項に関する情報及びその変更があつた場合にあつてはその変更理由
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-106-p1-kou-7
     type: kou
-    text: 法第六十九条第一項、第四項、第五項若しくは第六項又は第七十五条の二の二第一項第二号の規定により厚生労働大臣に報告した事項
+    text: 七　法第六十九条第一項、第四項、第五項若しくは第六項又は第七十五条の二の二第一項第二号の規定により厚生労働大臣に報告した事項
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-106-p1-kou-8
     type: kou
-    text: 前各号に掲げるもののほか、選任外国製造医薬品等製造販売業者が業務を行うために必要な情報
+    text: 八　前各号に掲げるもののほか、選任外国製造医薬品等製造販売業者が業務を行うために必要な情報
     modality: unspecified
     item_number: 8
 - number: 2

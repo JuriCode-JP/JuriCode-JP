@@ -23,6 +23,10 @@ paragraphs:
     modality: gimu_negative
     references:
     - 次条
+  - id: douro-koutsuu-hou-art-62-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第二項第二号、同条第三項、第百二十条第一項第七号、同条第三項、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

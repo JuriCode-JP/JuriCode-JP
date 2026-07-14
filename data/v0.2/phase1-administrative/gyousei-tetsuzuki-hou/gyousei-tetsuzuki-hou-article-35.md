@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: gyousei-tetsuzuki-hou-art-35-p2-kou-1
     type: kou
-    text: 当該権限を行使し得る根拠となる法令の条項
+    text: 一　当該権限を行使し得る根拠となる法令の条項
     modality: unspecified
     item_number: 1
   - id: gyousei-tetsuzuki-hou-art-35-p2-kou-2
     type: kou
-    text: 前号の条項に規定する要件
+    text: 二　前号の条項に規定する要件
     modality: unspecified
     item_number: 2
   - id: gyousei-tetsuzuki-hou-art-35-p2-kou-3
     type: kou
-    text: 当該権限の行使が前号の要件に適合する理由
+    text: 三　当該権限の行使が前号の要件に適合する理由
     modality: unspecified
     item_number: 3
 - number: 3
@@ -69,12 +69,12 @@ paragraphs:
     - 前項
   - id: gyousei-tetsuzuki-hou-art-35-p4-kou-1
     type: kou
-    text: 相手方に対しその場において完了する行為を求めるもの
+    text: 一　相手方に対しその場において完了する行為を求めるもの
     modality: unspecified
     item_number: 1
   - id: gyousei-tetsuzuki-hou-art-35-p4-kou-2
     type: kou
-    text: 既に文書（前項の書面を含む。）又は電磁的記録（電子的方式、磁気的方式その他人の知覚によっては認識することができない方式で作られる記録であって、電子計算機による情報処理の用に供されるものをいう。）によりその相手方に通知されている事項と同一の内容を求めるもの
+    text: 二　既に文書（前項の書面を含む。）又は電磁的記録（電子的方式、磁気的方式その他人の知覚によっては認識することができない方式で作られる記録であって、電子計算機による情報処理の用に供されるものをいう。）によりその相手方に通知されている事項と同一の内容を求めるもの
     modality: unspecified
     item_number: 2
 cases: []

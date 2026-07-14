@@ -38,8 +38,8 @@ paragraphs:
     text: 担当審判官は、前項の規定による閲覧をさせ、又は同項の規定による交付をしようとするときは、当該閲覧又は交付に係る書類その他の物件の提出人の意見を聴かなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kokuzei-tsuusoku-hou-art-97-3-p2-tadashi
     type: tadashi
     text: ただし、担当審判官が、その必要がないと認めるときは、この限りでない。

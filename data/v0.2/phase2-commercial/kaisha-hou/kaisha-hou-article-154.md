@@ -31,31 +31,31 @@ paragraphs:
     text: 株式会社が次の各号に掲げる行為をした場合において、前項の債権の弁済期が到来していないときは、登録株式質権者は、当該各号に定める者に同項に規定する金銭等に相当する金額を供託させることができる。この場合において、質権は、その供託金について存在する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-154-p2-kou-1
     type: kou
-    text: 第百五十一条第一項第一号から第六号まで、第八号、第九号又は第十四号に掲げる行為　当該株式会社
+    text: 一　第百五十一条第一項第一号から第六号まで、第八号、第九号又は第十四号に掲げる行為　当該株式会社
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-154-p2-kou-2
     type: kou
-    text: 組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
+    text: 二　組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-154-p2-kou-3
     type: kou
-    text: 合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
+    text: 三　合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-154-p2-kou-4
     type: kou
-    text: 株式交換　第七百六十七条に規定する株式交換完全親会社
+    text: 四　株式交換　第七百六十七条に規定する株式交換完全親会社
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-154-p2-kou-5
     type: kou
-    text: 株式移転　第七百七十三条第一項第一号に規定する株式移転設立完全親会社
+    text: 五　株式移転　第七百七十三条第一項第一号に規定する株式移転設立完全親会社
     modality: unspecified
     item_number: 5
 - number: 3

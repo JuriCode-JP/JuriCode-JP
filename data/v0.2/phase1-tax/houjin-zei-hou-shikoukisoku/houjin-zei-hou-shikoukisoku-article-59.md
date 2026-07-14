@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-59-p1-kou-1
     type: kou
-    text: 第五十四条（取引に関する帳簿及び記載事項）に規定する帳簿並びに当該青色申告法人の資産、負債及び資本に影響を及ぼす一切の取引に関して作成されたその他の帳簿
+    text: 一　第五十四条（取引に関する帳簿及び記載事項）に規定する帳簿並びに当該青色申告法人の資産、負債及び資本に影響を及ぼす一切の取引に関して作成されたその他の帳簿
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-59-p1-kou-2
     type: kou
-    text: 棚卸表、貸借対照表及び損益計算書並びに決算に関して作成されたその他の書類
+    text: 二　棚卸表、貸借対照表及び損益計算書並びに決算に関して作成されたその他の書類
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-59-p1-kou-3
     type: kou
-    text: 取引に関して、相手方から受け取つた注文書、契約書、送り状、領収書、見積書その他これらに準ずる書類及び自己の作成したこれらの書類でその写しのあるものはその写し
+    text: 三　取引に関して、相手方から受け取つた注文書、契約書、送り状、領収書、見積書その他これらに準ずる書類及び自己の作成したこれらの書類でその写しのあるものはその写し
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,12 +49,12 @@ paragraphs:
     - 前項
   - id: houjin-zei-hou-shikoukisoku-art-59-p2-kou-1
     type: kou
-    text: 法第七十四条第一項（確定申告）の規定による申告書の提出期限が法第七十五条の二第一項（確定申告書の提出期限の延長の特例）の規定により延長されている事業年度　その延長に係る月数に二を加えた月数
+    text: 一　法第七十四条第一項（確定申告）の規定による申告書の提出期限が法第七十五条の二第一項（確定申告書の提出期限の延長の特例）の規定により延長されている事業年度　その延長に係る月数に二を加えた月数
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-59-p2-kou-2
     type: kou
-    text: 清算中の内国法人の残余財産の確定の日の属する事業年度（当該内国法人が通算法人である場合には、当該内国法人に係る通算親法人の事業年度終了の日に終了するものを除く。）　一月
+    text: 二　清算中の内国法人の残余財産の確定の日の属する事業年度（当該内国法人が通算法人である場合には、当該内国法人に係る通算親法人の事業年度終了の日に終了するものを除く。）　一月
     modality: unspecified
     item_number: 2
 - number: 3

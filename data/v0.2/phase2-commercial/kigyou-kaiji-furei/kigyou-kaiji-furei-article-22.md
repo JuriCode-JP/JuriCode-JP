@@ -25,12 +25,12 @@ paragraphs:
     - 次項
   - id: kigyou-kaiji-furei-art-22-p1-kou-1
     type: kou
-    text: 法第二十五条第一項第一号から第九号までに掲げる書類　当該内国会社
+    text: 一　法第二十五条第一項第一号から第九号までに掲げる書類　当該内国会社
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-22-p1-kou-2
     type: kou
-    text: 法第二十五条第一項第十号に掲げる書類　当該内国親会社等の提出子会社
+    text: 二　法第二十五条第一項第十号に掲げる書類　当該内国親会社等の提出子会社
     modality: unspecified
     item_number: 2
 - number: 2

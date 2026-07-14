@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-595-p1-kou-1
     type: kou
-    text: 地方自治法第二百五十二条の十九第一項の市の区又は総合区の区域　二千平方メートル
+    text: 一　地方自治法第二百五十二条の十九第一項の市の区又は総合区の区域　二千平方メートル
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-595-p1-kou-2
     type: kou
-    text: 都市計画法第五条に規定する都市計画区域を有する市町村の区域（前号の区域を除く。）　五千平方メートル
+    text: 二　都市計画法第五条に規定する都市計画区域を有する市町村の区域（前号の区域を除く。）　五千平方メートル
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-595-p1-kou-3
     type: kou
-    text: その他の市町村の区域　一万平方メートル
+    text: 三　その他の市町村の区域　一万平方メートル
     modality: unspecified
     item_number: 3
 cases: []

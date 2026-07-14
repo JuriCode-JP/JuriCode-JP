@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\322AC0000000049.xml",
   "source_xml_sha256": "0d33ccba0a0d7ba441aeab9a9ed94d4afdb5235a29d8f7580bd0efc4602aba24",
   "source_xml_bytes": 401565,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:59:08+00:00",
+  "parsed_at": "2026-07-14T01:45:16+00:00",
   "version_date": "1947-04-07",
   "article_count": 122,
   "articles": [
@@ -658,8 +658,8 @@
       "article_id": "roudou-kijun-hou-art-64-3",
       "article_number": "64-3",
       "filename": "roudou-kijun-hou-article-64-3.md",
-      "ja_text_sha256": "66f81e308bcf9c1acb37b56b14afd7612f2a2ab1251c4b3a8d3dbb6d1e488704",
-      "ja_text_bytes": 712,
+      "ja_text_sha256": "2239482591bd18a1cd38c73ce159619b36960be90619be34928bdec889e6fdd7",
+      "ja_text_bytes": 709,
       "paragraph_count": 3
     },
     {

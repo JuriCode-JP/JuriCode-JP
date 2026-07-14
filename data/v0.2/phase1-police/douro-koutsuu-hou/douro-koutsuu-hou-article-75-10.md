@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 自動車の運転者は、高速自動車国道等において自動車を運転しようとするときは、あらかじめ、燃料、冷却水若しくは原動機のオイルの量又は貨物の積載の状態を点検し、必要がある場合においては、高速自動車国道等において燃料、冷却水若しくは原動機のオイルの量の不足のため当該自動車を運転することができなくなること又は積載している物を転落させ、若しくは飛散させることを防止するための措置を講じなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-75-10-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第十九号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

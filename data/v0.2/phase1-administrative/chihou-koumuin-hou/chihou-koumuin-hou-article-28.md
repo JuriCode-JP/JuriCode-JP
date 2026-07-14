@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-koumuin-hou-art-28-p1-kou-1
     type: kou
-    text: 人事評価又は勤務の状況を示す事実に照らして、勤務実績がよくない場合
+    text: 一　人事評価又は勤務の状況を示す事実に照らして、勤務実績がよくない場合
     modality: unspecified
     item_number: 1
   - id: chihou-koumuin-hou-art-28-p1-kou-2
     type: kou
-    text: 心身の故障のため、職務の遂行に支障があり、又はこれに堪えない場合
+    text: 二　心身の故障のため、職務の遂行に支障があり、又はこれに堪えない場合
     modality: unspecified
     item_number: 2
   - id: chihou-koumuin-hou-art-28-p1-kou-3
     type: kou
-    text: 前二号に規定する場合のほか、その職に必要な適格性を欠く場合
+    text: 三　前二号に規定する場合のほか、その職に必要な適格性を欠く場合
     modality: unspecified
     item_number: 3
   - id: chihou-koumuin-hou-art-28-p1-kou-4
     type: kou
-    text: 職制若しくは定数の改廃又は予算の減少により廃職又は過員を生じた場合
+    text: 四　職制若しくは定数の改廃又は予算の減少により廃職又は過員を生じた場合
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,12 +52,12 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-koumuin-hou-art-28-p2-kou-1
     type: kou
-    text: 心身の故障のため、長期の休養を要する場合
+    text: 一　心身の故障のため、長期の休養を要する場合
     modality: unspecified
     item_number: 1
   - id: chihou-koumuin-hou-art-28-p2-kou-2
     type: kou
-    text: 刑事事件に関し起訴された場合
+    text: 二　刑事事件に関し起訴された場合
     modality: unspecified
     item_number: 2
 - number: 3

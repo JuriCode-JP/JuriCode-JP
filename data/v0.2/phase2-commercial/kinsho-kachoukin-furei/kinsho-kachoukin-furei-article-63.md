@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-63-p1-kou-1
     type: kou
-    text: 相手方の氏名又は名称
+    text: 一　相手方の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-63-p1-kou-2
     type: kou
-    text: 相手方に求める事項
+    text: 二　相手方に求める事項
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-63-p1-kou-3
     type: kou
-    text: 出頭すべき日時及び場所
+    text: 三　出頭すべき日時及び場所
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-63-p1-kou-4
     type: kou
-    text: 出頭しない場合における法律上の制裁
+    text: 四　出頭しない場合における法律上の制裁
     modality: unspecified
     item_number: 4
 cases: []

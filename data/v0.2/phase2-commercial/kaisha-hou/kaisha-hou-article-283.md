@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-283-p1-kou-1
     type: kou
-    text: 当該株式が市場価格のある株式である場合　当該株式一株の市場価格として法務省令で定める方法により算定される額
+    text: 一　当該株式が市場価格のある株式である場合　当該株式一株の市場価格として法務省令で定める方法により算定される額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-283-p1-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　一株当たり純資産額
+    text: 二　前号に掲げる場合以外の場合　一株当たり純資産額
     modality: unspecified
     item_number: 2
 cases: []

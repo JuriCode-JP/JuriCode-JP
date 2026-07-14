@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-333-p1-kou-1
     type: kou
-    text: その者の国内にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名並びに国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が当該責任者と異なるときは、納税管理人の氏名
+    text: 一　その者の国内にある事務所等の名称及び所在地並びにその代表者その他の責任者の氏名並びに国税通則法第百十七条第二項（納税管理人）の規定により届け出た納税管理人が当該責任者と異なるときは、納税管理人の氏名
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-333-p1-kou-2
     type: kou
-    text: 第三百三十条各号（非居住者が源泉徴収の免除を受けるための要件）に掲げる要件に該当しないこととなり、又は恒久的施設を有しないこととなつた事情の詳細
+    text: 二　第三百三十条各号（非居住者が源泉徴収の免除を受けるための要件）に掲げる要件に該当しないこととなり、又は恒久的施設を有しないこととなつた事情の詳細
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-333-p1-kou-3
     type: kou
-    text: その者が当該証明書を提示した国内源泉所得の支払者の氏名又は名称及びその住所、事務所、事業所その他当該国内源泉所得の支払の場所
+    text: 三　その者が当該証明書を提示した国内源泉所得の支払者の氏名又は名称及びその住所、事務所、事業所その他当該国内源泉所得の支払の場所
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-333-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項に規定する者は、同項の証明書に係る第三百三十一条第一項（非居住者が源泉徴収の免除を受けるための手続等）の申請書に記載した同項第一号又は第二号に掲げる事項に変更があつた場合には、遅滞なく、その旨を記載した届出書を納税地の所轄税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

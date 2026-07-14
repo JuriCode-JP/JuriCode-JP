@@ -41,12 +41,12 @@ paragraphs:
     modality: unspecified
   - id: keisatsu-hou-art-9-p3-kou-1
     type: kou
-    text: 委員のうち何人も所属していなかつた同一の政党に新たに三人以上の委員が所属するに至つた場合においては、これらの者のうち二人をこえる員数の委員
+    text: 一　委員のうち何人も所属していなかつた同一の政党に新たに三人以上の委員が所属するに至つた場合においては、これらの者のうち二人をこえる員数の委員
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-9-p3-kou-2
     type: kou
-    text: 委員のうち一人がすでに所属している政党に新たに二人以上の委員が所属するに至つた場合においては、これらの者のうち一人をこえる員数の委員
+    text: 二　委員のうち一人がすでに所属している政党に新たに二人以上の委員が所属するに至つた場合においては、これらの者のうち一人をこえる員数の委員
     modality: unspecified
     item_number: 2
 - number: 4

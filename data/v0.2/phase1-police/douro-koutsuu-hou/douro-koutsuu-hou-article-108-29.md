@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: douro-koutsuu-hou-art-108-29-p1-kou-1
     type: kou
-    text: 人格及び行動について、社会的信望を有すること。
+    text: 一　人格及び行動について、社会的信望を有すること。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-108-29-p1-kou-2
     type: kou
-    text: 職務の遂行に必要な熱意及び時間的余裕を有すること。
+    text: 二　職務の遂行に必要な熱意及び時間的余裕を有すること。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-108-29-p1-kou-3
     type: kou
-    text: 生活が安定していること。
+    text: 三　生活が安定していること。
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-108-29-p1-kou-4
     type: kou
-    text: 健康で活動力を有すること。
+    text: 四　健康で活動力を有すること。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,27 +52,27 @@ paragraphs:
     modality: unspecified
   - id: douro-koutsuu-hou-art-108-29-p2-kou-1
     type: kou
-    text: 適正な交通の方法及び交通事故防止について住民の理解を深めるための住民に対する交通安全教育
+    text: 一　適正な交通の方法及び交通事故防止について住民の理解を深めるための住民に対する交通安全教育
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-108-29-p2-kou-2
     type: kou
-    text: 高齢者、障害者その他その通行に支障のある者の通行の安全を確保するための方法について住民の理解を深めるための運動の推進
+    text: 二　高齢者、障害者その他その通行に支障のある者の通行の安全を確保するための方法について住民の理解を深めるための運動の推進
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-108-29-p2-kou-3
     type: kou
-    text: 道路における適正な車両の駐車及び道路の使用の方法について住民の理解を深めるための運動の推進
+    text: 三　道路における適正な車両の駐車及び道路の使用の方法について住民の理解を深めるための運動の推進
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-108-29-p2-kou-4
     type: kou
-    text: 特定小型原動機付自転車又は自転車の適正な通行の方法について住民の理解を深めるための運動の推進
+    text: 四　特定小型原動機付自転車又は自転車の適正な通行の方法について住民の理解を深めるための運動の推進
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-108-29-p2-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、地域における交通の安全と円滑に資するための活動で国家公安委員会規則で定めるもの
+    text: 五　前各号に掲げるもののほか、地域における交通の安全と円滑に資するための活動で国家公安委員会規則で定めるもの
     modality: unspecified
     item_number: 5
 - number: 3
@@ -106,17 +106,17 @@ paragraphs:
     modality: kanou_kenri
   - id: douro-koutsuu-hou-art-108-29-p5-kou-1
     type: kou
-    text: 第一項各号のいずれかの要件を欠くに至つたとき。
+    text: 一　第一項各号のいずれかの要件を欠くに至つたとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-108-29-p5-kou-2
     type: kou
-    text: 職務上の義務に違反し、又はその職務を怠つたとき。
+    text: 二　職務上の義務に違反し、又はその職務を怠つたとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-108-29-p5-kou-3
     type: kou
-    text: 地域交通安全活動推進委員たるにふさわしくない非行のあつたとき。
+    text: 三　地域交通安全活動推進委員たるにふさわしくない非行のあつたとき。
     modality: unspecified
     item_number: 3
 - number: 6

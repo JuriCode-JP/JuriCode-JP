@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-104-p1-kou-1
     type: kou
-    text: 法第三十七条の三第一項第五号及び第六号に掲げる事項
+    text: 一　法第三十七条の三第一項第五号及び第六号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-104-p1-kou-2
     type: kou
-    text: 第八十三条第一項第一号並びに第九十一条第一項第一号、第五号、第十六号、第十八号ロ（２）及び（４）から（６）まで並びに第二十号に掲げる事項
+    text: 二　第八十三条第一項第一号並びに第九十一条第一項第一号、第五号、第十六号、第十八号ロ（２）及び（４）から（６）まで並びに第二十号に掲げる事項
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-104-p1-kou-3
     type: kou
-    text: 当該商品ファンド関連受益権に係る第九十一条第四項第一号イ若しくはロに掲げる行為による運用、同項第二号の投資又は同項第三号の事業の内容
+    text: 三　当該商品ファンド関連受益権に係る第九十一条第四項第一号イ若しくはロに掲げる行為による運用、同項第二号の投資又は同項第三号の事業の内容
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-104-p1-kou-4
     type: kou
-    text: 商品ファンドの収益の分配の方法
+    text: 四　商品ファンドの収益の分配の方法
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-104-p1-kou-5
     type: kou
-    text: 満期時の償還金の支払方法及び繰上償還がある場合にあっては、当該償還金の支払方法
+    text: 五　満期時の償還金の支払方法及び繰上償還がある場合にあっては、当該償還金の支払方法
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-104-p1-kou-6
     type: kou
-    text: 配当及び償還金に対する課税方法及び税率
+    text: 六　配当及び償還金に対する課税方法及び税率
     modality: unspecified
     item_number: 6
 - number: 2

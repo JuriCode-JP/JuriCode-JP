@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikkourei-art-79-2-p1-kou-1
     type: kou
-    text: 当該固定資産の取得又は改良をするために要した金額
+    text: 一　当該固定資産の取得又は改良をするために要した金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-79-2-p1-kou-2
     type: kou
-    text: その返還を要しないこととなつた当該国庫補助金等の額
+    text: 二　その返還を要しないこととなつた当該国庫補助金等の額
     modality: unspecified
     item_number: 2
 cases: []

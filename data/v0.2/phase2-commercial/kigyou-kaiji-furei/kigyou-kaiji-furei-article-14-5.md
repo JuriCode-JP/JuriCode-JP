@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-14-5-p1-kou-1
     type: kou
-    text: 記載された発行予定額のうちの未発行分の一部を発行予定期間内に発行する見込みがなくなつたこと。
+    text: 一　記載された発行予定額のうちの未発行分の一部を発行予定期間内に発行する見込みがなくなつたこと。
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-14-5-p1-kou-2
     type: kou
-    text: 記載された発行残高の上限を減額しなければならない事情が生じたこと。
+    text: 二　記載された発行残高の上限を減額しなければならない事情が生じたこと。
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-14-5-p1-kou-3
     type: kou
-    text: 記載された引受けを予定する金融商品取引業者のうちの主たるものに異動があつたこと。
+    text: 三　記載された引受けを予定する金融商品取引業者のうちの主たるものに異動があつたこと。
     modality: unspecified
     item_number: 3
   - id: kigyou-kaiji-furei-art-14-5-p1-kou-4
     type: kou
-    text: 記載された発行登録の効力発生予定日に変更があつたこと。
+    text: 四　記載された発行登録の効力発生予定日に変更があつたこと。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -61,17 +61,17 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-14-5-p3-kou-1
     type: kou
-    text: 発行予定額又は発行残高の上限の増額
+    text: 一　発行予定額又は発行残高の上限の増額
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-14-5-p3-kou-2
     type: kou
-    text: 発行予定期間の変更
+    text: 二　発行予定期間の変更
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-14-5-p3-kou-3
     type: kou
-    text: 有価証券の種類の変更
+    text: 三　有価証券の種類の変更
     modality: unspecified
     item_number: 3
 cases: []

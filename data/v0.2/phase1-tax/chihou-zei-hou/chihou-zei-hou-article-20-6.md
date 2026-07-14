@@ -44,8 +44,8 @@ paragraphs:
     text: 前項の場合において、第三者が納税者又は特別徴収義務者の地方団体の徴収金の一部を納付し、又は納入したときは、その残余の地方団体の徴収金は、同項の規定により代位した第三者の債権に先だつて徴収する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

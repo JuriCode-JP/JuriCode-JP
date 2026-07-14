@@ -31,8 +31,8 @@ paragraphs:
     text: 特別徴収義務者の財産を占有する第三者が特別徴収義務者に滞納処分の執行を免れさせる目的で前項の行為をしたときも、同項と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

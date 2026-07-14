@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-24-30-p1-kou-1
     type: kou
-    text: 飛行場及び航空保安施設（これらに附帯する施設を含む。）
+    text: 一　飛行場及び航空保安施設（これらに附帯する施設を含む。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-24-30-p1-kou-2
     type: kou
-    text: 一般旅客自動車運送事業の用に供する施設
+    text: 二　一般旅客自動車運送事業の用に供する施設
     modality: unspecified
     item_number: 2
 cases: []

@@ -44,8 +44,8 @@ paragraphs:
     text: 前項の規定は、同項に規定する修正申告書の提出期限前に第三十五条第二項第五号の規定による更正があつた場合には、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

@@ -82,6 +82,10 @@ paragraphs:
     modality: unspecified
     references:
     - 前条
+  - id: douro-koutsuu-hou-art-78-supplnote-1
+    type: supplnote
+    text: （罰則　第四項については第百二十一条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

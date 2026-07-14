@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-106-4-p1-kou-1
     type: kou
-    text: 認可申請者がその対象議決権を行使することにより、株式会社金融商品取引所の業務の健全かつ適切な運営を損なうおそれがないこと。
+    text: 一　認可申請者がその対象議決権を行使することにより、株式会社金融商品取引所の業務の健全かつ適切な運営を損なうおそれがないこと。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-106-4-p1-kou-2
     type: kou
-    text: 認可申請者が金融商品取引所の業務の公共性に関し十分な理解を有すること。
+    text: 二　認可申請者が金融商品取引所の業務の公共性に関し十分な理解を有すること。
     modality: unspecified
     item_number: 2
 - number: 2

@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-art-23-2-14-p1-kou-1
     type: kou
-    text: その製造管理及び品質管理並びに製造販売後安全管理に関し薬剤師を必要としないものとして厚生労働省令で定める体外診断用医薬品についてのみその製造販売をする場合
+    text: 一　その製造管理及び品質管理並びに製造販売後安全管理に関し薬剤師を必要としないものとして厚生労働省令で定める体外診断用医薬品についてのみその製造販売をする場合
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-23-2-14-p1-kou-2
     type: kou
-    text: 薬剤師を置くことが著しく困難であると認められる場合その他の厚生労働省令で定める場合
+    text: 二　薬剤師を置くことが著しく困難であると認められる場合その他の厚生労働省令で定める場合
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,9 +41,9 @@ paragraphs:
     text: 前項の規定により医療機器又は体外診断用医薬品の製造管理及び品質管理並びに製造販売後安全管理を行う者として置かれる者（以下「医療機器等総括製造販売責任者」という。）は、次項に規定する義務及び第四項に規定する厚生労働省令で定める業務を遂行し、並びに同項に規定する厚生労働省令で定める事項を遵守するために必要な能力及び経験を有する者でなければならない。
     modality: gimu
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -81,9 +81,9 @@ paragraphs:
     text: 前項の規定により医療機器の製造を管理する者として置かれる者（以下「医療機器責任技術者」という。）は、次項及び第八項において準用する第八条第一項に規定する義務並びに第九項に規定する厚生労働省令で定める業務を遂行し、並びに同項に規定する厚生労働省令で定める事項を遵守するために必要な能力及び経験を有する者でなければならない。
     modality: gimu
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 7
   has_proviso: false
   has_items: false
@@ -122,12 +122,12 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-art-23-2-14-p10-kou-1
     type: kou
-    text: その製造の管理について薬剤師を必要としない体外診断用医薬品を製造する場合
+    text: 一　その製造の管理について薬剤師を必要としない体外診断用医薬品を製造する場合
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-23-2-14-p10-kou-2
     type: kou
-    text: 薬剤師を置くことが著しく困難であると認められる場合その他の厚生労働省令で定める場合
+    text: 二　薬剤師を置くことが著しく困難であると認められる場合その他の厚生労働省令で定める場合
     modality: unspecified
     item_number: 2
 - number: 11
@@ -140,9 +140,9 @@ paragraphs:
     text: 前項の規定により体外診断用医薬品の製造を管理する者として置かれる者（以下「体外診断用医薬品製造管理者」という。）は、次項及び第十三項において準用する第八条第一項に規定する義務並びに第十四項に規定する厚生労働省令で定める業務を遂行し、並びに同項に規定する厚生労働省令で定める事項を遵守するために必要な能力及び経験を有する者でなければならない。
     modality: gimu
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 12
   has_proviso: false
   has_items: false

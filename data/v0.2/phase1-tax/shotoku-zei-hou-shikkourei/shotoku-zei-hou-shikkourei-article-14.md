@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: shotoku-zei-hou-shikkourei-art-14-p1-kou-1
     type: kou
-    text: その者が国内において、継続して一年以上居住することを通常必要とする職業を有すること。
+    text: 一　その者が国内において、継続して一年以上居住することを通常必要とする職業を有すること。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-14-p1-kou-2
     type: kou
-    text: その者が日本の国籍を有し、かつ、その者が国内において生計を一にする配偶者その他の親族を有することその他国内におけるその者の職業及び資産の有無等の状況に照らし、その者が国内において継続して一年以上居住するものと推測するに足りる事実があること。
+    text: 二　その者が日本の国籍を有し、かつ、その者が国内において生計を一にする配偶者その他の親族を有することその他国内におけるその者の職業及び資産の有無等の状況に照らし、その者が国内において継続して一年以上居住するものと推測するに足りる事実があること。
     modality: unspecified
     item_number: 2
 - number: 2

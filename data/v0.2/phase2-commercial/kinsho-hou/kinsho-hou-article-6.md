@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-6-p1-kou-1
     type: kou
-    text: 金融商品取引所に上場されている有価証券　当該金融商品取引所
+    text: 一　金融商品取引所に上場されている有価証券　当該金融商品取引所
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-6-p1-kou-2
     type: kou
-    text: 流通状況が前号に掲げる有価証券に準ずるものとして政令で定める有価証券　政令で定める認可金融商品取引業協会
+    text: 二　流通状況が前号に掲げる有価証券に準ずるものとして政令で定める有価証券　政令で定める認可金融商品取引業協会
     modality: unspecified
     item_number: 2
 cases: []

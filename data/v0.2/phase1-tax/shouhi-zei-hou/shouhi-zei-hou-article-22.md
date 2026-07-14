@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-art-22-p1-kou-1
     type: kou
-    text: 国内に本店又は主たる事務所を有する法人（次号において「内国法人」という。）である場合　その本店又は主たる事務所の所在地
+    text: 一　国内に本店又は主たる事務所を有する法人（次号において「内国法人」という。）である場合　その本店又は主たる事務所の所在地
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-22-p1-kou-2
     type: kou
-    text: 内国法人以外の法人で国内に事務所等を有する法人である場合　その事務所等の所在地（その事務所等が二以上ある場合には、主たるものの所在地）
+    text: 二　内国法人以外の法人で国内に事務所等を有する法人である場合　その事務所等の所在地（その事務所等が二以上ある場合には、主たるものの所在地）
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-art-22-p1-kou-3
     type: kou
-    text: 前二号に掲げる場合以外の場合　政令で定める場所
+    text: 三　前二号に掲げる場合以外の場合　政令で定める場所
     modality: unspecified
     item_number: 3
 cases: []

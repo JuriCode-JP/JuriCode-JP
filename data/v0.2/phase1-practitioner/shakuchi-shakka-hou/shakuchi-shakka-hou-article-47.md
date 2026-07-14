@@ -32,12 +32,12 @@ paragraphs:
     modality: jogai
   - id: shakuchi-shakka-hou-art-47-p2-kou-1
     type: kou
-    text: 地方裁判所が特別の知識経験を有する者その他適当な者の中から毎年あらかじめ選任した者
+    text: 一　地方裁判所が特別の知識経験を有する者その他適当な者の中から毎年あらかじめ選任した者
     modality: unspecified
     item_number: 1
   - id: shakuchi-shakka-hou-art-47-p2-kou-2
     type: kou
-    text: 当事者が合意によって選定した者
+    text: 二　当事者が合意によって選定した者
     modality: unspecified
     item_number: 2
 - number: 3

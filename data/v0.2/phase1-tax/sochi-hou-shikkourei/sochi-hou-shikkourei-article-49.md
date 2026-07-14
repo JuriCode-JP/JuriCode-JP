@@ -34,22 +34,22 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-49-p2-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-49-p2-kou-2
     type: kou
-    text: 当該石油化学製品の製造場の所在地及び名称
+    text: 二　当該石油化学製品の製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-49-p2-kou-3
     type: kou
-    text: 製造する石油化学製品の品名及び数量並びにその原料とする特定揮発油等（法第九十条の五第一項に規定する特定揮発油等をいう。以下この条において同じ。）の品名及び品名ごとの数量
+    text: 三　製造する石油化学製品の品名及び数量並びにその原料とする特定揮発油等（法第九十条の五第一項に規定する特定揮発油等をいう。以下この条において同じ。）の品名及び品名ごとの数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-49-p2-kou-4
     type: kou
-    text: 製造の期間
+    text: 四　製造の期間
     modality: unspecified
     item_number: 4
 - number: 3
@@ -65,22 +65,22 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-49-p3-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-49-p3-kou-2
     type: kou
-    text: 当該特定揮発油等の製造場の所在地及び名称
+    text: 二　当該特定揮発油等の製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-49-p3-kou-3
     type: kou
-    text: 当該石油化学製品の原料とした当該特定揮発油等の数量
+    text: 三　当該石油化学製品の原料とした当該特定揮発油等の数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-49-p3-kou-4
     type: kou
-    text: 還付を受けようとする金額
+    text: 四　還付を受けようとする金額
     modality: unspecified
     item_number: 4
 - number: 4
@@ -96,22 +96,22 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-49-p4-kou-1
     type: kou
-    text: 移入した当該特定揮発油等の品名、品名ごとの数量、移入の年月日並びに引渡人の住所又は居所及び氏名又は名称
+    text: 一　移入した当該特定揮発油等の品名、品名ごとの数量、移入の年月日並びに引渡人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-49-p4-kou-2
     type: kou
-    text: 消費した当該特定揮発油等の品名、品名ごとの数量及び消費の年月日
+    text: 二　消費した当該特定揮発油等の品名、品名ごとの数量及び消費の年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-49-p4-kou-3
     type: kou
-    text: 貯蔵している当該特定揮発油等の品名及び品名ごとの数量
+    text: 三　貯蔵している当該特定揮発油等の品名及び品名ごとの数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-49-p4-kou-4
     type: kou
-    text: 当該特定揮発油等を消費して製造した石油化学製品の品名、品名ごとの数量及び製造の年月日
+    text: 四　当該特定揮発油等を消費して製造した石油化学製品の品名、品名ごとの数量及び製造の年月日
     modality: unspecified
     item_number: 4
 - number: 5
@@ -125,17 +125,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-49-p5-kou-1
     type: kou
-    text: 製造した当該特定揮発油等の品名、品名ごとの数量及び製造の年月日
+    text: 一　製造した当該特定揮発油等の品名、品名ごとの数量及び製造の年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-49-p5-kou-2
     type: kou
-    text: 貯蔵している当該特定揮発油等の品名及び品名ごとの数量
+    text: 二　貯蔵している当該特定揮発油等の品名及び品名ごとの数量
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-49-p5-kou-3
     type: kou
-    text: 移出した当該特定揮発油等の品名、品名ごとの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称
+    text: 三　移出した当該特定揮発油等の品名、品名ごとの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 3
 - number: 6
@@ -151,17 +151,17 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-49-p6-kou-1
     type: kou
-    text: 購入した当該特定揮発油等の品名、品名ごとの数量、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
+    text: 一　購入した当該特定揮発油等の品名、品名ごとの数量、購入の年月日並びに売渡人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-49-p6-kou-2
     type: kou
-    text: 販売した当該特定揮発油等の品名、品名ごとの数量、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
+    text: 二　販売した当該特定揮発油等の品名、品名ごとの数量、販売の年月日並びに買受人の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-49-p6-kou-3
     type: kou
-    text: 返品した当該特定揮発油等の品名、品名ごとの数量、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
+    text: 三　返品した当該特定揮発油等の品名、品名ごとの数量、返品の年月日並びに返品先の者の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 3
 cases: []

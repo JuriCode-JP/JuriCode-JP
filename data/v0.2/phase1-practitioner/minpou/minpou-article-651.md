@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: minpou-art-651-p2-kou-1
     type: kou
-    text: 相手方に不利な時期に委任を解除したとき。
+    text: 一　相手方に不利な時期に委任を解除したとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-651-p2-kou-2
     type: kou
-    text: 委任者が受任者の利益（専ら報酬を得ることによるものを除く。）をも目的とする委任を解除したとき。
+    text: 二　委任者が受任者の利益（専ら報酬を得ることによるものを除く。）をも目的とする委任を解除したとき。
     modality: unspecified
     item_number: 2
 cases: []

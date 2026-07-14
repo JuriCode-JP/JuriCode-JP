@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定は、金融商品取引業者が同項に規定する他の業務を兼業する場合において、当該業務に関する法律の適用を排除するものと解してはならない。
     modality: gimu_negative
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_negative
   - id: kinsho-hou-art-157-p1-kou-1
     type: kou
-    text: 有価証券の売買その他の取引又はデリバティブ取引等について、不正の手段、計画又は技巧をすること。
+    text: 一　有価証券の売買その他の取引又はデリバティブ取引等について、不正の手段、計画又は技巧をすること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-157-p1-kou-2
     type: kou
-    text: 有価証券の売買その他の取引又はデリバティブ取引等について、重要な事項について虚偽の表示があり、又は誤解を生じさせないために必要な重要な事実の表示が欠けている文書その他の表示を使用して金銭その他の財産を取得すること。
+    text: 二　有価証券の売買その他の取引又はデリバティブ取引等について、重要な事項について虚偽の表示があり、又は誤解を生じさせないために必要な重要な事実の表示が欠けている文書その他の表示を使用して金銭その他の財産を取得すること。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-157-p1-kou-3
     type: kou
-    text: 有価証券の売買その他の取引又はデリバティブ取引等を誘引する目的をもつて、虚偽の相場を利用すること。
+    text: 三　有価証券の売買その他の取引又はデリバティブ取引等を誘引する目的をもつて、虚偽の相場を利用すること。
     modality: unspecified
     item_number: 3
 cases: []

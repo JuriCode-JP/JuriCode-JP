@@ -25,22 +25,22 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikkourei-art-323-p1-kou-1
     type: kou
-    text: 映画又はレコード（録音のテープ及びワイヤーを含む。）の製作を主たる事業としていること。
+    text: 一　映画又はレコード（録音のテープ及びワイヤーを含む。）の製作を主たる事業としていること。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-323-p1-kou-2
     type: kou
-    text: 自ら主催してその所有する劇場において定期的に演劇の公演を行なつていること。
+    text: 二　自ら主催してその所有する劇場において定期的に演劇の公演を行なつていること。
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-323-p1-kou-3
     type: kou
-    text: 自ら主催して興行場において定期的に演劇の公演を行なうことを主たる事業としていること。
+    text: 三　自ら主催して興行場において定期的に演劇の公演を行なうことを主たる事業としていること。
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-323-p1-kou-4
     type: kou
-    text: 主として自己に専属する芸能人をもつて演劇の製作及びその製作した演劇の公演を行なうことを主たる事業としていること。
+    text: 四　主として自己に専属する芸能人をもつて演劇の製作及びその製作した演劇の公演を行なうことを主たる事業としていること。
     modality: unspecified
     item_number: 4
 cases: []

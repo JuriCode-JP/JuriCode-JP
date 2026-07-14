@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-208-6-p1-kou-1
     type: kou
-    text: 疾病にかかつたこと又は身体の傷害を受けたことを原因とする人の状態に基因して生ずる法第七十六条第二項に規定する医療費その他の費用を支払つたこと。
+    text: 一　疾病にかかつたこと又は身体の傷害を受けたことを原因とする人の状態に基因して生ずる法第七十六条第二項に規定する医療費その他の費用を支払つたこと。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-208-6-p1-kou-2
     type: kou
-    text: 疾病若しくは身体の傷害又はこれらを原因とする人の状態（法第七十六条第七項に規定する介護医療保険契約等に係る約款に、これらの事由に基因して一定額の保険金等を支払う旨の定めがある場合に限る。）
+    text: 二　疾病若しくは身体の傷害又はこれらを原因とする人の状態（法第七十六条第七項に規定する介護医療保険契約等に係る約款に、これらの事由に基因して一定額の保険金等を支払う旨の定めがある場合に限る。）
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-208-6-p1-kou-3
     type: kou
-    text: 疾病又は身体の傷害により就業することができなくなつたこと。
+    text: 三　疾病又は身体の傷害により就業することができなくなつたこと。
     modality: unspecified
     item_number: 3
 cases: []

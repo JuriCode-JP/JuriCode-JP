@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-21-2-p1-kou-1
     type: kou
-    text: 法第四十四条の二第一項の債務の免除を受けた年月日
+    text: 一　法第四十四条の二第一項の債務の免除を受けた年月日
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-21-2-p1-kou-2
     type: kou
-    text: 法第四十四条の二第一項の債務の免除により受ける経済的な利益の価額
+    text: 二　法第四十四条の二第一項の債務の免除により受ける経済的な利益の価額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-21-2-p1-kou-3
     type: kou
-    text: 資力を喪失して債務を弁済することが著しく困難である事情の詳細
+    text: 三　資力を喪失して債務を弁済することが著しく困難である事情の詳細
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-21-2-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

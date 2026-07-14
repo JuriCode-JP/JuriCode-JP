@@ -25,22 +25,22 @@ paragraphs:
     - 次条
   - id: kinsho-hou-shikkourei-art-26-2-2-p1-kou-1
     type: kou
-    text: 有価証券を有しないで又は有価証券を借り入れてする有価証券の売付け（有価証券等清算取次ぎを除く。）
+    text: 一　有価証券を有しないで又は有価証券を借り入れてする有価証券の売付け（有価証券等清算取次ぎを除く。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-26-2-2-p1-kou-2
     type: kou
-    text: 前条に規定する場合における有価証券の売付け（有価証券等清算取次ぎを除く。）
+    text: 二　前条に規定する場合における有価証券の売付け（有価証券等清算取次ぎを除く。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-26-2-2-p1-kou-3
     type: kou
-    text: 有価証券を有しないで又は有価証券を借り入れてする清算取次ぎ委託
+    text: 三　有価証券を有しないで又は有価証券を借り入れてする清算取次ぎ委託
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-26-2-2-p1-kou-4
     type: kou
-    text: 清算取次ぎ委託後遅滞なく有価証券を提供できることが明らかでなく行う清算取次ぎ委託
+    text: 四　清算取次ぎ委託後遅滞なく有価証券を提供できることが明らかでなく行う清算取次ぎ委託
     modality: unspecified
     item_number: 4
 - number: 2

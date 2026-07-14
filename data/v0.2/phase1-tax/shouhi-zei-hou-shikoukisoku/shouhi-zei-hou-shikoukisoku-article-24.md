@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-24-p1-kou-1
     type: kou
-    text: 申告者の氏名又は名称及び住所若しくは居所若しくは本店若しくは主たる事務所の所在地（次条において「住所等」という。）又は課税貨物の引取りに係る事務所、事業所その他これらに準ずるもの（同条において「引取りに係る事務所等」という。）の所在地
+    text: 一　申告者の氏名又は名称及び住所若しくは居所若しくは本店若しくは主たる事務所の所在地（次条において「住所等」という。）又は課税貨物の引取りに係る事務所、事業所その他これらに準ずるもの（同条において「引取りに係る事務所等」という。）の所在地
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-24-p1-kou-2
     type: kou
-    text: 引取りに係る保税地域の所在地
+    text: 二　引取りに係る保税地域の所在地
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-24-p1-kou-3
     type: kou
-    text: 当該課税貨物の仕出国名
+    text: 三　当該課税貨物の仕出国名
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-24-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2

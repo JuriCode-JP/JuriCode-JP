@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-66-40-p1-kou-1
     type: kou
-    text: 信用格付業を廃止したとき（分割により事業（信用格付業に係るものに限る。以下この条において同じ。）の全部を承継させたとき、又は事業の全部を譲渡したときを含む。）　その信用格付業を廃止し、又は承継をさせ、若しくは譲渡をした法人
+    text: 一　信用格付業を廃止したとき（分割により事業（信用格付業に係るものに限る。以下この条において同じ。）の全部を承継させたとき、又は事業の全部を譲渡したときを含む。）　その信用格付業を廃止し、又は承継をさせ、若しくは譲渡をした法人
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-40-p1-kou-2
     type: kou
-    text: 信用格付業者である法人が合併により消滅したとき　その法人を代表する役員であつた者
+    text: 二　信用格付業者である法人が合併により消滅したとき　その法人を代表する役員であつた者
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-40-p1-kou-3
     type: kou
-    text: 信用格付業者である法人が破産手続開始の決定により解散したとき　その破産管財人
+    text: 三　信用格付業者である法人が破産手続開始の決定により解散したとき　その破産管財人
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-40-p1-kou-4
     type: kou
-    text: 信用格付業者である法人が合併及び破産手続開始の決定以外の理由により解散したとき　その清算人
+    text: 四　信用格付業者である法人が合併及び破産手続開始の決定以外の理由により解散したとき　その清算人
     modality: unspecified
     item_number: 4
 - number: 2

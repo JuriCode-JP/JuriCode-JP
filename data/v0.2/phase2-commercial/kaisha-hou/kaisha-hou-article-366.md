@@ -35,8 +35,8 @@ paragraphs:
     text: 前項ただし書に規定する場合には、同項ただし書の規定により定められた取締役（以下この章において「招集権者」という。）以外の取締役は、招集権者に対し、取締役会の目的である事項を示して、取締役会の招集を請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

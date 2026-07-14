@@ -53,8 +53,8 @@ paragraphs:
     text: 前項の規定による通知があつたときは、当該普通地方公共団体の長は、当該通知があつた日から二十日以内に議会を招集し、同項の規定による監査委員の意見を付けて、当該事務の監査の請求に係る個別外部監査の請求について監査委員の監査に代えて個別外部監査契約に基づく監査によることについて、議会に付議し、その結果を監査委員に通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -97,22 +97,22 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-252-39-p8-kou-1
     type: kou
-    text: 事務の監査の請求に係る個別外部監査の請求に係る事項
+    text: 一　事務の監査の請求に係る個別外部監査の請求に係る事項
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-39-p8-kou-2
     type: kou
-    text: 個別外部監査契約の期間
+    text: 二　個別外部監査契約の期間
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-252-39-p8-kou-3
     type: kou
-    text: 個別外部監査契約を締結した者に支払うべき監査に要する費用の額の算定方法
+    text: 三　個別外部監査契約を締結した者に支払うべき監査に要する費用の額の算定方法
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-252-39-p8-kou-4
     type: kou
-    text: 前三号に掲げる事項のほか、個別外部監査契約に基づく監査のために必要な事項として政令で定めるもの
+    text: 四　前三号に掲げる事項のほか、個別外部監査契約に基づく監査のために必要な事項として政令で定めるもの
     modality: unspecified
     item_number: 4
 - number: 9

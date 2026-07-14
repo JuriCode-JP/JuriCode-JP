@@ -36,27 +36,27 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-281-3-p2-kou-1
     type: kou
-    text: 暗号等資産は本邦通貨又は外国通貨ではないこと。
+    text: 一　暗号等資産は本邦通貨又は外国通貨ではないこと。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-281-3-p2-kou-2
     type: kou
-    text: 暗号等資産の価値の変動を直接の原因として損失が生ずるおそれがあるときは、その旨及びその理由
+    text: 二　暗号等資産の価値の変動を直接の原因として損失が生ずるおそれがあるときは、その旨及びその理由
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-281-3-p2-kou-3
     type: kou
-    text: 暗号等資産は代価の弁済を受ける者の同意がある場合に限り代価の弁済に使用することができること。
+    text: 三　暗号等資産は代価の弁済を受ける者の同意がある場合に限り代価の弁済に使用することができること。
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-281-3-p2-kou-4
     type: kou
-    text: 当該暗号等資産関連行為に関する暗号等資産の概要及び特性（当該暗号等資産が、特定の者によりその価値を保証されていない場合にあっては、その旨又は特定の者によりその価値を保証されている場合にあっては、当該者の氏名、商号若しくは名称及び当該保証の内容を含む。）
+    text: 四　当該暗号等資産関連行為に関する暗号等資産の概要及び特性（当該暗号等資産が、特定の者によりその価値を保証されていない場合にあっては、その旨又は特定の者によりその価値を保証されている場合にあっては、当該者の氏名、商号若しくは名称及び当該保証の内容を含む。）
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-281-3-p2-kou-5
     type: kou
-    text: その他暗号等資産の性質に関し顧客の注意を喚起すべき事項
+    text: 五　その他暗号等資産の性質に関し顧客の注意を喚起すべき事項
     modality: unspecified
     item_number: 5
 cases: []

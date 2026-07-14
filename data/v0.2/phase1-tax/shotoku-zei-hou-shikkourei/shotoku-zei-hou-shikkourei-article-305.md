@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-305-p1-kou-1
     type: kou
-    text: その法人の名称、本店又は主たる事務所の所在地及び法人番号
+    text: 一　その法人の名称、本店又は主たる事務所の所在地及び法人番号
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-305-p1-kou-2
     type: kou
-    text: その法人の法人税法第十七条第一号（外国法人の納税地）に規定する事務所、事業所その他これらに準ずるもの（これらが二以上あるときは、そのうち主たるもの。次条第一項第一号において「納税地にある事務所等」という。）の名称及び所在地並びにその代表者その他の責任者の氏名
+    text: 二　その法人の法人税法第十七条第一号（外国法人の納税地）に規定する事務所、事業所その他これらに準ずるもの（これらが二以上あるときは、そのうち主たるもの。次条第一項第一号において「納税地にある事務所等」という。）の名称及び所在地並びにその代表者その他の責任者の氏名
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-305-p1-kou-3
     type: kou
-    text: 前条第一号に規定する届出書を提出した年月日及び同条第二号に規定する登記をした年月日（当該登記をすることができない法人については、そのできない事情の詳細）
+    text: 三　前条第一号に規定する届出書を提出した年月日及び同条第二号に規定する登記をした年月日（当該登記をすることができない法人については、そのできない事情の詳細）
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-305-p1-kou-4
     type: kou
-    text: 前条第三号に掲げる要件に該当する事情の概要
+    text: 四　前条第三号に掲げる要件に該当する事情の概要
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-305-p1-kou-5
     type: kou
-    text: 前条第五号の記録を確実に行う旨
+    text: 五　前条第五号の記録を確実に行う旨
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikkourei-art-305-p1-kou-6
     type: kou
-    text: その法人が恒久的施設を通じて行う事業の内容が前条第一号の規定による届出書を提出した当時の当該事業の内容と異なつている場合には、その現在の事業の概要
+    text: 六　その法人が恒久的施設を通じて行う事業の内容が前条第一号の規定による届出書を提出した当時の当該事業の内容と異なつている場合には、その現在の事業の概要
     modality: unspecified
     item_number: 6
   - id: shotoku-zei-hou-shikkourei-art-305-p1-kou-7
     type: kou
-    text: 当該証明書により法第百八十条第一項の規定の適用を受けようとする同項に規定する対象国内源泉所得のうち主たるものの支払者の氏名又は名称、その住所、事務所、事業所その他当該対象国内源泉所得の支払の場所及びその支払の宛先並びに当該対象国内源泉所得の種類及び当該対象国内源泉所得の支払を受ける見込期間
+    text: 七　当該証明書により法第百八十条第一項の規定の適用を受けようとする同項に規定する対象国内源泉所得のうち主たるものの支払者の氏名又は名称、その住所、事務所、事業所その他当該対象国内源泉所得の支払の場所及びその支払の宛先並びに当該対象国内源泉所得の種類及び当該対象国内源泉所得の支払を受ける見込期間
     modality: unspecified
     item_number: 7
   - id: shotoku-zei-hou-shikkourei-art-305-p1-kou-8
     type: kou
-    text: 当該証明書により法第百八十条第一項の規定の適用を受けようとする国内源泉所得がその法人の同項に規定する対象国内源泉所得に該当する事情
+    text: 八　当該証明書により法第百八十条第一項の規定の適用を受けようとする国内源泉所得がその法人の同項に規定する対象国内源泉所得に該当する事情
     modality: unspecified
     item_number: 8
   - id: shotoku-zei-hou-shikkourei-art-305-p1-kou-9
     type: kou
-    text: その他参考となるべき事項
+    text: 九　その他参考となるべき事項
     modality: unspecified
     item_number: 9
 - number: 2
@@ -76,9 +76,9 @@ paragraphs:
     text: 前項の所轄税務署長は、同項の申請書の提出があつた場合において、当該申請書を提出した法人が前条各号に定める要件を備えていると認めるときは、同項の証明書を交付するものとする。
     modality: gimu
     references:
-    - 同項
     - 前条
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

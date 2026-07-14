@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-243-2-5-p1-kou-1
     type: kou
-    text: 指定公金事務取扱者が収納することにより、その収入の確保及び住民の便益の増進に寄与すると認められるもの
+    text: 一　指定公金事務取扱者が収納することにより、その収入の確保及び住民の便益の増進に寄与すると認められるもの
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-243-2-5-p1-kou-2
     type: kou
-    text: その性質上その収納に関する事務を委託することが適当でないものとして総務省令で定めるもの以外のもの
+    text: 二　その性質上その収納に関する事務を委託することが適当でないものとして総務省令で定めるもの以外のもの
     modality: unspecified
     item_number: 2
 - number: 2

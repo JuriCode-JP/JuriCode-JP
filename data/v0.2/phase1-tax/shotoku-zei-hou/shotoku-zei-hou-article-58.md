@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: shotoku-zei-hou-art-58-p1-kou-1
     type: kou
-    text: 土地（建物又は構築物の所有を目的とする地上権及び賃借権並びに農地法（昭和二十七年法律第二百二十九号）第二条第一項（定義）に規定する農地（同法第四十三条第一項（農作物栽培高度化施設に関する特例）の規定により農作物の栽培を耕作に該当するものとみなして適用する同法第二条第一項に規定する農地を含む。）の上に存する耕作（同法第四十三条第一項の規定により耕作に該当するものとみなされる農作物の栽培を含む。）に関する権利を含む。）
+    text: 一　土地（建物又は構築物の所有を目的とする地上権及び賃借権並びに農地法（昭和二十七年法律第二百二十九号）第二条第一項（定義）に規定する農地（同法第四十三条第一項（農作物栽培高度化施設に関する特例）の規定により農作物の栽培を耕作に該当するものとみなして適用する同法第二条第一項に規定する農地を含む。）の上に存する耕作（同法第四十三条第一項の規定により耕作に該当するものとみなされる農作物の栽培を含む。）に関する権利を含む。）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-58-p1-kou-2
     type: kou
-    text: 建物（これに附属する設備及び構築物を含む。）
+    text: 二　建物（これに附属する設備及び構築物を含む。）
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-58-p1-kou-3
     type: kou
-    text: 機械及び装置
+    text: 三　機械及び装置
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-art-58-p1-kou-4
     type: kou
-    text: 船舶
+    text: 四　船舶
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-art-58-p1-kou-5
     type: kou
-    text: 鉱業権（租鉱権及び採石権その他土石を採掘し、又は採取する権利を含む。）
+    text: 五　鉱業権（租鉱権及び採石権その他土石を採掘し、又は採取する権利を含む。）
     modality: unspecified
     item_number: 5
 - number: 2
@@ -56,8 +56,8 @@ paragraphs:
     text: 前項の規定は、同項の交換の時における取得資産の価額と譲渡資産の価額との差額がこれらの価額のうちいずれか多い価額の百分の二十に相当する金額を超える場合には、適用しない。
     modality: jogai
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

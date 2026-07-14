@@ -32,27 +32,27 @@ paragraphs:
     modality: kanou_kenri
   - id: chihou-koumuin-hou-art-36-p2-kou-1
     type: kou
-    text: 公の選挙又は投票において投票をするように、又はしないように勧誘運動をすること。
+    text: 一　公の選挙又は投票において投票をするように、又はしないように勧誘運動をすること。
     modality: unspecified
     item_number: 1
   - id: chihou-koumuin-hou-art-36-p2-kou-2
     type: kou
-    text: 署名運動を企画し、又は主宰する等これに積極的に関与すること。
+    text: 二　署名運動を企画し、又は主宰する等これに積極的に関与すること。
     modality: unspecified
     item_number: 2
   - id: chihou-koumuin-hou-art-36-p2-kou-3
     type: kou
-    text: 寄附金その他の金品の募集に関与すること。
+    text: 三　寄附金その他の金品の募集に関与すること。
     modality: unspecified
     item_number: 3
   - id: chihou-koumuin-hou-art-36-p2-kou-4
     type: kou
-    text: 文書又は図画を地方公共団体又は特定地方独立行政法人の庁舎（特定地方独立行政法人にあつては、事務所。以下この号において同じ。）、施設等に掲示し、又は掲示させ、その他地方公共団体又は特定地方独立行政法人の庁舎、施設、資材又は資金を利用し、又は利用させること。
+    text: 四　文書又は図画を地方公共団体又は特定地方独立行政法人の庁舎（特定地方独立行政法人にあつては、事務所。以下この号において同じ。）、施設等に掲示し、又は掲示させ、その他地方公共団体又は特定地方独立行政法人の庁舎、施設、資材又は資金を利用し、又は利用させること。
     modality: unspecified
     item_number: 4
   - id: chihou-koumuin-hou-art-36-p2-kou-5
     type: kou
-    text: 前各号に定めるものを除く外、条例で定める政治的行為
+    text: 五　前各号に定めるものを除く外、条例で定める政治的行為
     modality: unspecified
     item_number: 5
 - number: 3

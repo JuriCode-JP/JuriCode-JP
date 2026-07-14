@@ -32,17 +32,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-63-13-p2-kou-1
     type: kou
-    text: 海外投資家等特例業務に関し法令又は法令に基づいてする行政官庁の処分に違反したとき。
+    text: 一　海外投資家等特例業務に関し法令又は法令に基づいてする行政官庁の処分に違反したとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-63-13-p2-kou-2
     type: kou
-    text: 海外投資家等特例業務の運営に関し、投資者の利益を害する事実があるとき。
+    text: 二　海外投資家等特例業務の運営に関し、投資者の利益を害する事実があるとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-63-13-p2-kou-3
     type: kou
-    text: 海外投資家等特例業務に関し、不正又は著しく不当な行為をした場合において、その情状が特に重いとき。
+    text: 三　海外投資家等特例業務に関し、不正又は著しく不当な行為をした場合において、その情状が特に重いとき。
     modality: unspecified
     item_number: 3
 - number: 3

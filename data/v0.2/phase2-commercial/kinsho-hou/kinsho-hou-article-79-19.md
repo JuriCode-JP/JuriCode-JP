@@ -23,22 +23,22 @@ paragraphs:
     modality: koka_torikeshi
   - id: kinsho-hou-art-79-19-p1-kou-1
     type: kou
-    text: 第七十九条の八第一号又は第三号に該当するに至つたとき。
+    text: 一　第七十九条の八第一号又は第三号に該当するに至つたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-19-p1-kou-2
     type: kou
-    text: 第七十九条の九各号のいずれかに適合しなくなつたとき。
+    text: 二　第七十九条の九各号のいずれかに適合しなくなつたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-79-19-p1-kou-3
     type: kou
-    text: 前条の規定による命令に従わないとき。
+    text: 三　前条の規定による命令に従わないとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-79-19-p1-kou-4
     type: kou
-    text: 不正の手段により第七十九条の七第一項の認定を受けたとき。
+    text: 四　不正の手段により第七十九条の七第一項の認定を受けたとき。
     modality: unspecified
     item_number: 4
 - number: 2

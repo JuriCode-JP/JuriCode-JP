@@ -52,42 +52,42 @@ paragraphs:
     - 前二項
   - id: chihou-jichi-hou-art-240-p4-kou-1
     type: kou
-    text: 地方税法の規定に基づく徴収金に係る債権
+    text: 一　地方税法の規定に基づく徴収金に係る債権
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-240-p4-kou-2
     type: kou
-    text: 過料に係る債権
+    text: 二　過料に係る債権
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-240-p4-kou-3
     type: kou
-    text: 証券に化体されている債権（国債に関する法律（明治三十九年法律第三十四号）の規定により登録されたもの及び社債、株式等の振替に関する法律の規定により振替口座簿に記載され、又は記録されたものを含む。）
+    text: 三　証券に化体されている債権（国債に関する法律（明治三十九年法律第三十四号）の規定により登録されたもの及び社債、株式等の振替に関する法律の規定により振替口座簿に記載され、又は記録されたものを含む。）
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-240-p4-kou-4
     type: kou
-    text: 電子記録債権法（平成十九年法律第百二号）第二条第一項に規定する電子記録債権
+    text: 四　電子記録債権法（平成十九年法律第百二号）第二条第一項に規定する電子記録債権
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-240-p4-kou-5
     type: kou
-    text: 預金に係る債権
+    text: 五　預金に係る債権
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-240-p4-kou-6
     type: kou
-    text: 歳入歳出外現金となるべき金銭の給付を目的とする債権
+    text: 六　歳入歳出外現金となるべき金銭の給付を目的とする債権
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-240-p4-kou-7
     type: kou
-    text: 寄附金に係る債権
+    text: 七　寄附金に係る債権
     modality: unspecified
     item_number: 7
   - id: chihou-jichi-hou-art-240-p4-kou-8
     type: kou
-    text: 基金に属する債権
+    text: 八　基金に属する債権
     modality: unspecified
     item_number: 8
 cases: []

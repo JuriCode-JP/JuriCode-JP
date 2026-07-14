@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kokka-koumuin-hou-art-78-p1-kou-1
     type: kou
-    text: 人事評価又は勤務の状況を示す事実に照らして、勤務実績がよくない場合
+    text: 一　人事評価又は勤務の状況を示す事実に照らして、勤務実績がよくない場合
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-78-p1-kou-2
     type: kou
-    text: 心身の故障のため、職務の遂行に支障があり、又はこれに堪えない場合
+    text: 二　心身の故障のため、職務の遂行に支障があり、又はこれに堪えない場合
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-78-p1-kou-3
     type: kou
-    text: その他その官職に必要な適格性を欠く場合
+    text: 三　その他その官職に必要な適格性を欠く場合
     modality: unspecified
     item_number: 3
   - id: kokka-koumuin-hou-art-78-p1-kou-4
     type: kou
-    text: 官制若しくは定員の改廃又は予算の減少により廃職又は過員を生じた場合
+    text: 四　官制若しくは定員の改廃又は予算の減少により廃職又は過員を生じた場合
     modality: unspecified
     item_number: 4
 cases: []

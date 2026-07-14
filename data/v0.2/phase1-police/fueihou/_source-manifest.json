@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\323AC0000000122.xml",
   "source_xml_sha256": "e6a6f841dac9f226fbae3bde5b8063dd291477139fec2a495fb4431124dc4866",
   "source_xml_bytes": 452832,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:57:47+00:00",
+  "parsed_at": "2026-07-14T01:43:44+00:00",
   "version_date": "1948-07-10",
   "article_count": 99,
   "articles": [
@@ -154,8 +154,8 @@
       "article_id": "fueihou-art-22-2",
       "article_number": "22-2",
       "filename": "fueihou-article-22-2.md",
-      "ja_text_sha256": "55d8e62b75c9a79e7c00baa67cc0d533ce9cb763849f3845e3785076423c31c2",
-      "ja_text_bytes": 1835,
+      "ja_text_sha256": "ba38b5f360689834e933b4f8c3d3651899e5233c910c49800be8b2cf4ec3fa07",
+      "ja_text_bytes": 1829,
       "paragraph_count": 1
     },
     {
@@ -578,8 +578,8 @@
       "article_id": "fueihou-art-4",
       "article_number": "4",
       "filename": "fueihou-article-4.md",
-      "ja_text_sha256": "7b463f397d53f5393d6593ba90d78c20ac39cdda21a81b6f5038236bb931a74b",
-      "ja_text_bytes": 12642,
+      "ja_text_sha256": "a8b2c4fa6a9749ffb4545bbe0196d1960fbeb0624c2862bc6bd987aadcbcede4",
+      "ja_text_bytes": 12636,
       "paragraph_count": 4
     },
     {

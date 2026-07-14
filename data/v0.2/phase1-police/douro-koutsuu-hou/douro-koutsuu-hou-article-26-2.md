@@ -41,14 +41,18 @@ paragraphs:
     modality: gimu_negative
   - id: douro-koutsuu-hou-art-26-2-p3-kou-1
     type: kou
-    text: 第四十条の規定により道路の左側若しくは右側に寄るとき、又は道路の損壊、道路工事その他の障害のためその通行している車両通行帯を通行することができないとき。
+    text: 一　第四十条の規定により道路の左側若しくは右側に寄るとき、又は道路の損壊、道路工事その他の障害のためその通行している車両通行帯を通行することができないとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-26-2-p3-kou-2
     type: kou
-    text: 第四十条の規定に従うため、又は道路の損壊、道路工事その他の障害のため、通行することができなかつた車両通行帯を通行の区分に関する規定に従つて通行しようとするとき。
+    text: 二　第四十条の規定に従うため、又は道路の損壊、道路工事その他の障害のため、通行することができなかつた車両通行帯を通行の区分に関する規定に従つて通行しようとするとき。
     modality: unspecified
     item_number: 2
+  - id: douro-koutsuu-hou-art-26-2-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百十七条の二第一項第四号、第百十七条の二の二第一項第八号ホ、第百二十条第一項第二号　第三項については第百二十条第一項第三号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

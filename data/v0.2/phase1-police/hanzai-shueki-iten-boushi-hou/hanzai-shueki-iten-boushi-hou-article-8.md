@@ -32,17 +32,17 @@ paragraphs:
     modality: jogai
   - id: hanzai-shueki-iten-boushi-hou-art-8-p2-kou-1
     type: kou
-    text: 第二条第二項第四十七号に掲げる特定事業者　行政書士法（昭和二十六年法律第四号）第十二条
+    text: 一　第二条第二項第四十七号に掲げる特定事業者　行政書士法（昭和二十六年法律第四号）第十二条
     modality: unspecified
     item_number: 1
   - id: hanzai-shueki-iten-boushi-hou-art-8-p2-kou-2
     type: kou
-    text: 第二条第二項第四十八号に掲げる特定事業者　公認会計士法第二十七条（同法第十六条の二第六項において準用する場合を含む。）
+    text: 二　第二条第二項第四十八号に掲げる特定事業者　公認会計士法第二十七条（同法第十六条の二第六項において準用する場合を含む。）
     modality: unspecified
     item_number: 2
   - id: hanzai-shueki-iten-boushi-hou-art-8-p2-kou-3
     type: kou
-    text: 第二条第二項第四十九号に掲げる特定事業者　税理士法（昭和二十六年法律第二百三十七号）第三十八条
+    text: 三　第二条第二項第四十九号に掲げる特定事業者　税理士法（昭和二十六年法律第二百三十七号）第三十八条
     modality: unspecified
     item_number: 3
 - number: 3
@@ -85,8 +85,8 @@ paragraphs:
     text: 行政庁（都道府県知事及び都道府県公安委員会を除く。）又は前項の主務大臣（国家公安委員会を除く。）は、疑わしい取引の届出又は同項の通知を受けたときは、速やかに、当該疑わしい取引の届出又は通知に係る事項を国家公安委員会に通知するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

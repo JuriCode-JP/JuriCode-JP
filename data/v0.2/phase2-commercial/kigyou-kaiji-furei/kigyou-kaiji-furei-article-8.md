@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-8-p1-kou-1
     type: kou
-    text: 発行者が内国会社である場合（次号及び第三号に掲げる場合を除く。）　第二号様式
+    text: 一　発行者が内国会社である場合（次号及び第三号に掲げる場合を除く。）　第二号様式
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-8-p1-kou-2
     type: kou
-    text: 発行者が内国会社であつて法第五条第二項の規定による有価証券届出書を提出しようとする場合　第二号の五様式
+    text: 二　発行者が内国会社であつて法第五条第二項の規定による有価証券届出書を提出しようとする場合　第二号の五様式
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-8-p1-kou-3
     type: kou
-    text: 発行者が内国会社であつて、特定組織再編成発行手続、特定組織再編成交付手続若しくは株式交付を行う場合又は法第二十七条の四第一項の場合において、有価証券届出書を提出しようとするとき（前号に掲げる場合を除く。）　第二号の六様式
+    text: 三　発行者が内国会社であつて、特定組織再編成発行手続、特定組織再編成交付手続若しくは株式交付を行う場合又は法第二十七条の四第一項の場合において、有価証券届出書を提出しようとするとき（前号に掲げる場合を除く。）　第二号の六様式
     modality: unspecified
     item_number: 3
   - id: kigyou-kaiji-furei-art-8-p1-kou-4
     type: kou
-    text: 発行者が外国会社である場合（次号に掲げる場合を除く。）　第七号様式
+    text: 四　発行者が外国会社である場合（次号に掲げる場合を除く。）　第七号様式
     modality: unspecified
     item_number: 4
   - id: kigyou-kaiji-furei-art-8-p1-kou-5
     type: kou
-    text: 発行者が外国会社であつて、特定組織再編成発行手続、特定組織再編成交付手続若しくは株式交付を行う場合又は法第二十七条の四第一項の場合において、有価証券届出書を提出しようとするとき　第七号の四様式
+    text: 五　発行者が外国会社であつて、特定組織再編成発行手続、特定組織再編成交付手続若しくは株式交付を行う場合又は法第二十七条の四第一項の場合において、有価証券届出書を提出しようとするとき　第七号の四様式
     modality: unspecified
     item_number: 5
 - number: 2
@@ -62,12 +62,12 @@ paragraphs:
     - 前項
   - id: kigyou-kaiji-furei-art-8-p2-kou-1
     type: kou
-    text: 当該募集又は売出しが特定組織再編成発行手続若しくは特定組織再編成交付手続に該当しない場合又は株式交付に際して行われるものでない場合　第二号の四様式
+    text: 一　当該募集又は売出しが特定組織再編成発行手続若しくは特定組織再編成交付手続に該当しない場合又は株式交付に際して行われるものでない場合　第二号の四様式
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-8-p2-kou-2
     type: kou
-    text: 当該募集又は売出しが特定組織再編成発行手続若しくは特定組織再編成交付手続に該当する場合又は株式交付に際して行われるものである場合　第二号の七様式
+    text: 二　当該募集又は売出しが特定組織再編成発行手続若しくは特定組織再編成交付手続に該当する場合又は株式交付に際して行われるものである場合　第二号の七様式
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kokka-koumuin-hou-art-79-p1-kou-1
     type: kou
-    text: 心身の故障のため、長期の休養を要する場合
+    text: 一　心身の故障のため、長期の休養を要する場合
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-79-p1-kou-2
     type: kou
-    text: 刑事事件に関し起訴された場合
+    text: 二　刑事事件に関し起訴された場合
     modality: unspecified
     item_number: 2
 cases: []

@@ -41,6 +41,10 @@ paragraphs:
     modality: gimu
     references:
     - 前二項
+  - id: douro-koutsuu-hou-art-47-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条の三第一項第四号　第二項及び第三項については第百十九条の二の四第一項第二号、第百十九条の三第一項第四号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

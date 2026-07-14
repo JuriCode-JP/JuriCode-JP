@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-38-p1-kou-1
     type: kou
-    text: 法第六十四条第二項に規定する譲渡をした資産の数量及び譲渡金額並びに保証債務の履行に伴う求償権の全部又は一部を行使することができないこととなつた金額
+    text: 一　法第六十四条第二項に規定する譲渡をした資産の数量及び譲渡金額並びに保証債務の履行に伴う求償権の全部又は一部を行使することができないこととなつた金額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-38-p1-kou-2
     type: kou
-    text: 主たる債務者及び債権者の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地
+    text: 二　主たる債務者及び債権者の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-38-p1-kou-3
     type: kou
-    text: 保証債務の履行に伴う求償権の全部又は一部を行使することができないこととなつた年月日
+    text: 三　保証債務の履行に伴う求償権の全部又は一部を行使することができないこととなつた年月日
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-38-p1-kou-4
     type: kou
-    text: 第一号に規定する資産の譲渡の年月日及び取得の年月日
+    text: 四　第一号に規定する資産の譲渡の年月日及び取得の年月日
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-38-p1-kou-5
     type: kou
-    text: 求償権の行使ができないこととなつた事情の説明
+    text: 五　求償権の行使ができないこととなつた事情の説明
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-38-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

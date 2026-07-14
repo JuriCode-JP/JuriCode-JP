@@ -25,12 +25,12 @@ paragraphs:
     - 次条
   - id: douro-koutsuu-hou-art-126-p1-kou-1
     type: kou
-    text: その者の居所又は氏名が明らかでないとき。
+    text: 一　その者の居所又は氏名が明らかでないとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-126-p1-kou-2
     type: kou
-    text: その者が逃亡するおそれがあるとき。
+    text: 二　その者が逃亡するおそれがあるとき。
     modality: unspecified
     item_number: 2
 - number: 2

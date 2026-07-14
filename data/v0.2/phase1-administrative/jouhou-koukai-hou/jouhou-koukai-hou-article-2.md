@@ -23,32 +23,32 @@ paragraphs:
     modality: teigi
   - id: jouhou-koukai-hou-art-2-p1-kou-1
     type: kou
-    text: 法律の規定に基づき内閣に置かれる機関（内閣府を除く。）及び内閣の所轄の下に置かれる機関
+    text: 一　法律の規定に基づき内閣に置かれる機関（内閣府を除く。）及び内閣の所轄の下に置かれる機関
     modality: unspecified
     item_number: 1
   - id: jouhou-koukai-hou-art-2-p1-kou-2
     type: kou
-    text: 内閣府、宮内庁並びに内閣府設置法（平成十一年法律第八十九号）第四十九条第一項及び第二項に規定する機関（これらの機関のうち第四号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）
+    text: 二　内閣府、宮内庁並びに内閣府設置法（平成十一年法律第八十九号）第四十九条第一項及び第二項に規定する機関（これらの機関のうち第四号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）
     modality: unspecified
     item_number: 2
   - id: jouhou-koukai-hou-art-2-p1-kou-3
     type: kou
-    text: 国家行政組織法（昭和二十三年法律第百二十号）第三条第二項に規定する機関（第五号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）
+    text: 三　国家行政組織法（昭和二十三年法律第百二十号）第三条第二項に規定する機関（第五号の政令で定める機関が置かれる機関にあっては、当該政令で定める機関を除く。）
     modality: unspecified
     item_number: 3
   - id: jouhou-koukai-hou-art-2-p1-kou-4
     type: kou
-    text: 内閣府設置法第三十九条及び第五十五条並びに宮内庁法（昭和二十二年法律第七十号）第十六条第二項の機関並びに内閣府設置法第四十条及び第五十六条（宮内庁法第十八条第一項において準用する場合を含む。）の特別の機関で、政令で定めるもの
+    text: 四　内閣府設置法第三十九条及び第五十五条並びに宮内庁法（昭和二十二年法律第七十号）第十六条第二項の機関並びに内閣府設置法第四十条及び第五十六条（宮内庁法第十八条第一項において準用する場合を含む。）の特別の機関で、政令で定めるもの
     modality: unspecified
     item_number: 4
   - id: jouhou-koukai-hou-art-2-p1-kou-5
     type: kou
-    text: 国家行政組織法第八条の二の施設等機関及び同法第八条の三の特別の機関で、政令で定めるもの
+    text: 五　国家行政組織法第八条の二の施設等機関及び同法第八条の三の特別の機関で、政令で定めるもの
     modality: unspecified
     item_number: 5
   - id: jouhou-koukai-hou-art-2-p1-kou-6
     type: kou
-    text: 会計検査院
+    text: 六　会計検査院
     modality: unspecified
     item_number: 6
 - number: 2
@@ -62,17 +62,17 @@ paragraphs:
     modality: unspecified
   - id: jouhou-koukai-hou-art-2-p2-kou-1
     type: kou
-    text: 官報、白書、新聞、雑誌、書籍その他不特定多数の者に販売することを目的として発行されるもの
+    text: 一　官報、白書、新聞、雑誌、書籍その他不特定多数の者に販売することを目的として発行されるもの
     modality: unspecified
     item_number: 1
   - id: jouhou-koukai-hou-art-2-p2-kou-2
     type: kou
-    text: 公文書等の管理に関する法律（平成二十一年法律第六十六号）第二条第七項に規定する特定歴史公文書等
+    text: 二　公文書等の管理に関する法律（平成二十一年法律第六十六号）第二条第七項に規定する特定歴史公文書等
     modality: unspecified
     item_number: 2
   - id: jouhou-koukai-hou-art-2-p2-kou-3
     type: kou
-    text: 政令で定める研究所その他の施設において、政令で定めるところにより、歴史的若しくは文化的な資料又は学術研究用の資料として特別の管理がされているもの（前号に掲げるものを除く。）
+    text: 三　政令で定める研究所その他の施設において、政令で定めるところにより、歴史的若しくは文化的な資料又は学術研究用の資料として特別の管理がされているもの（前号に掲げるものを除く。）
     modality: unspecified
     item_number: 3
 cases: []

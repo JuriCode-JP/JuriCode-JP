@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: yakkihou-shikoukisoku-art-98-12-p1-kou-1
     type: kou
-    text: 出荷の停止又は制限をした理由
+    text: 一　出荷の停止又は制限をした理由
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-98-12-p1-kou-2
     type: kou
-    text: 出荷の停止又は制限の解除が可能となると見込まれる時期
+    text: 二　出荷の停止又は制限の解除が可能となると見込まれる時期
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-13-6-p1-kou-1
     type: kou
-    text: 特定口座源泉徴収選択届出書の提出をする者の氏名、生年月日及び住所
+    text: 一　特定口座源泉徴収選択届出書の提出をする者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-13-6-p1-kou-2
     type: kou
-    text: 特定口座源泉徴収選択届出書の提出先の金融商品取引業者等の営業所の名称及び所在地
+    text: 二　特定口座源泉徴収選択届出書の提出先の金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-13-6-p1-kou-3
     type: kou
-    text: 法第三十七条の十一の四第一項の規定の適用を受ける特定口座の名称及び記号又は番号
+    text: 三　法第三十七条の十一の四第一項の規定の適用を受ける特定口座の名称及び記号又は番号
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-13-6-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,27 +52,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-13-6-p2-kou-1
     type: kou
-    text: 法第三十七条の十一の四第一項の規定により徴収した所得税を納付する金融商品取引業者等の営業所の名称及び所在地
+    text: 一　法第三十七条の十一の四第一項の規定により徴収した所得税を納付する金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-13-6-p2-kou-2
     type: kou
-    text: その年（施行令第二十五条の十の十一第二項各号に規定する事由が生じた源泉徴収選択口座（法第三十七条の十一の四第一項に規定する源泉徴収選択口座をいう。第四項及び次条において同じ。）にあつては、当該事由が生じた日までの期間に限る。以下この項及び第五項において同じ。）において法第三十七条の十一の四第一項の規定により所得税を徴収して納付すべき者の数
+    text: 二　その年（施行令第二十五条の十の十一第二項各号に規定する事由が生じた源泉徴収選択口座（法第三十七条の十一の四第一項に規定する源泉徴収選択口座をいう。第四項及び次条において同じ。）にあつては、当該事由が生じた日までの期間に限る。以下この項及び第五項において同じ。）において法第三十七条の十一の四第一項の規定により所得税を徴収して納付すべき者の数
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-13-6-p2-kou-3
     type: kou
-    text: その年において法第三十七条の十一の四第一項の規定により徴収して納付すべき所得税の額（施行令第二十五条の十の十一第九項の規定の適用がある場合には、当該所得税の額から同項に規定する還付すべき金額に相当する金額を控除した金額）
+    text: 三　その年において法第三十七条の十一の四第一項の規定により徴収して納付すべき所得税の額（施行令第二十五条の十の十一第九項の規定の適用がある場合には、当該所得税の額から同項に規定する還付すべき金額に相当する金額を控除した金額）
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-13-6-p2-kou-4
     type: kou
-    text: その年において生じた法第三十七条の十一の四第一項に規定する源泉徴収選択口座内調整所得金額の総額（施行令第二十五条の十の十一第九項の規定の適用がある場合には、当該源泉徴収選択口座内調整所得金額の総額からその年の同項に規定する還付すべき金額に相当する金額の計算の基礎となつた金額（その年において生じた法第三十七条の十一の四第三項に規定する満たない部分の金額及び特定費用の金額をいう。第四項第四号及び第五項第三号において同じ。）の総額を控除した金額）
+    text: 四　その年において生じた法第三十七条の十一の四第一項に規定する源泉徴収選択口座内調整所得金額の総額（施行令第二十五条の十の十一第九項の規定の適用がある場合には、当該源泉徴収選択口座内調整所得金額の総額からその年の同項に規定する還付すべき金額に相当する金額の計算の基礎となつた金額（その年において生じた法第三十七条の十一の四第三項に規定する満たない部分の金額及び特定費用の金額をいう。第四項第四号及び第五項第三号において同じ。）の総額を控除した金額）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-13-6-p2-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 3
@@ -99,37 +99,37 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-18-13-6-p4-kou-1
     type: kou
-    text: 当該居住者又は恒久的施設を有する非居住者の氏名、生年月日及び住所
+    text: 一　当該居住者又は恒久的施設を有する非居住者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-13-6-p4-kou-2
     type: kou
-    text: 法第三十七条の十一の四第一項に規定する源泉徴収選択口座内調整所得金額及び同項の規定により徴収をすべき所得税の額
+    text: 二　法第三十七条の十一の四第一項に規定する源泉徴収選択口座内調整所得金額及び同項の規定により徴収をすべき所得税の額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-13-6-p4-kou-3
     type: kou
-    text: 法第三十七条の十一の四第一項の規定により徴収をした所得税の額及びその徴収をした年月日
+    text: 三　法第三十七条の十一の四第一項の規定により徴収をした所得税の額及びその徴収をした年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-13-6-p4-kou-4
     type: kou
-    text: 法第三十七条の十一の四第三項の規定により還付をすべき所得税の額及び当該所得税の額に係る還付すべき金額に相当する金額の計算の基礎となつた金額
+    text: 四　法第三十七条の十一の四第三項の規定により還付をすべき所得税の額及び当該所得税の額に係る還付すべき金額に相当する金額の計算の基礎となつた金額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-13-6-p4-kou-5
     type: kou
-    text: 法第三十七条の十一の四第三項の規定により還付をした所得税の額及びその還付をした年月日
+    text: 五　法第三十七条の十一の四第三項の規定により還付をした所得税の額及びその還付をした年月日
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-18-13-6-p4-kou-6
     type: kou
-    text: 法第三十七条の十一の四第一項の規定により納付をした所得税の額及びその納付をした年月日
+    text: 六　法第三十七条の十一の四第一項の規定により納付をした所得税の額及びその納付をした年月日
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-18-13-6-p4-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 5
@@ -143,22 +143,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-13-6-p5-kou-1
     type: kou
-    text: その年において法第三十七条の十一の四第三項の規定により所得税の還付をすべき者の数
+    text: 一　その年において法第三十七条の十一の四第三項の規定により所得税の還付をすべき者の数
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-13-6-p5-kou-2
     type: kou
-    text: その年の施行令第二十五条の十の十一第九項に規定する還付すべき金額に相当する金額の総額
+    text: 二　その年の施行令第二十五条の十の十一第九項に規定する還付すべき金額に相当する金額の総額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-13-6-p5-kou-3
     type: kou
-    text: その年の還付すべき金額に相当する金額の計算の基礎となつた金額の総額
+    text: 三　その年の還付すべき金額に相当する金額の計算の基礎となつた金額の総額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-13-6-p5-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

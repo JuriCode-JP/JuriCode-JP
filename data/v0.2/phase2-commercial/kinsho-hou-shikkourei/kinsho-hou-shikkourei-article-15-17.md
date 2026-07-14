@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-17-p1-kou-1
     type: kou
-    text: 保険業法第六十一条の十第一項に規定する短期社債
+    text: 一　保険業法第六十一条の十第一項に規定する短期社債
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-17-p1-kou-2
     type: kou
-    text: 法第二条第一項第四号に掲げる有価証券に準ずるものとして内閣府令で定めるもの
+    text: 二　法第二条第一項第四号に掲げる有価証券に準ずるものとして内閣府令で定めるもの
     modality: unspecified
     item_number: 2
 - number: 2

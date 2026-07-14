@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-52-2-p1-kou-1
     type: kou
-    text: 第三十四条第一項の規定による払込みを仮装した場合　払込みを仮装した出資に係る金銭の全額の支払
+    text: 一　第三十四条第一項の規定による払込みを仮装した場合　払込みを仮装した出資に係る金銭の全額の支払
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-52-2-p1-kou-2
     type: kou
-    text: 第三十四条第一項の規定による給付を仮装した場合　給付を仮装した出資に係る金銭以外の財産の全部の給付（株式会社が当該給付に代えて当該財産の価額に相当する金銭の支払を請求した場合にあっては、当該金銭の全額の支払）
+    text: 二　第三十四条第一項の規定による給付を仮装した場合　給付を仮装した出資に係る金銭以外の財産の全部の給付（株式会社が当該給付に代えて当該財産の価額に相当する金銭の支払を請求した場合にあっては、当該金銭の全額の支払）
     modality: unspecified
     item_number: 2
 - number: 2
@@ -56,8 +56,8 @@ paragraphs:
     text: 発起人が第一項各号に規定する支払をする義務を負う場合において、前項に規定する者が同項の義務を負うときは、これらの者は、連帯債務者とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

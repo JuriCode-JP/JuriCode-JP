@@ -30,6 +30,10 @@ paragraphs:
     type: simple
     text: 車両は、道路標識等により横断、転回又は後退が禁止されている道路の部分においては、当該禁止された行為をしてはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-25-2-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条第一項第六号　第二項については第百二十条第一項第四号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

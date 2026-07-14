@@ -23,33 +23,33 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-27-p1-kou-1
     type: kou
-    text: 公開買付者の氏名又は名称及び住所又は所在地
+    text: 一　公開買付者の氏名又は名称及び住所又は所在地
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-27-p1-kou-2
     type: kou
-    text: '公開買付けの内容に関する事項のうち次に掲げるもの
+    text: '二　公開買付けの内容に関する事項のうち次に掲げるもの
 
-      イ 対象者の名称
+      イ　対象者の名称
 
-      ロ 買付け等に係る株券等の種類
+      ロ　買付け等に係る株券等の種類
 
-      ハ 公開買付期間'
+      ハ　公開買付期間'
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-27-p1-kou-3
     type: kou
-    text: 公開買付けの撤回等を行う旨及びその理由
+    text: 三　公開買付けの撤回等を行う旨及びその理由
     modality: unspecified
     item_number: 3
   - id: koukai-kaitsuke-furei-art-27-p1-kou-4
     type: kou
-    text: 応募株券等の返還の開始日、方法及び場所
+    text: 四　応募株券等の返還の開始日、方法及び場所
     modality: unspecified
     item_number: 4
   - id: koukai-kaitsuke-furei-art-27-p1-kou-5
     type: kou
-    text: 公開買付撤回届出書の写しを縦覧に供する場所
+    text: 五　公開買付撤回届出書の写しを縦覧に供する場所
     modality: unspecified
     item_number: 5
 cases: []

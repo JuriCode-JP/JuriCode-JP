@@ -36,12 +36,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-68-p2-kou-1
     type: kou
-    text: 前条第一項第三号又は第四号に掲げる事項を定めた場合
+    text: 一　前条第一項第三号又は第四号に掲げる事項を定めた場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-68-p2-kou-2
     type: kou
-    text: 設立しようとする株式会社が取締役会設置会社である場合
+    text: 二　設立しようとする株式会社が取締役会設置会社である場合
     modality: unspecified
     item_number: 2
 - number: 3
@@ -72,8 +72,8 @@ paragraphs:
     text: 前二項の通知には、前条第一項各号に掲げる事項を記載し、又は記録しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前二項
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false

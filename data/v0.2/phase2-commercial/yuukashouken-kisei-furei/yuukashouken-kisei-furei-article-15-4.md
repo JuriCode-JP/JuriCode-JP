@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yuukashouken-kisei-furei-art-15-4-p1-kou-1
     type: kou
-    text: 当該残高情報に係る空売り残高割合が〇・〇〇五以上であること。
+    text: 一　当該残高情報に係る空売り残高割合が〇・〇〇五以上であること。
     modality: unspecified
     item_number: 1
   - id: yuukashouken-kisei-furei-art-15-4-p1-kou-2
     type: kou
-    text: 当該残高情報に係る空売り残高割合が〇・〇〇五未満又は当該残高情報に係る第十五条の二第七項に規定する空売り残高売買単位数が五十以下であり、かつ、当該残高情報に係る直近空売り残高割合が〇・〇〇五以上であること。
+    text: 二　当該残高情報に係る空売り残高割合が〇・〇〇五未満又は当該残高情報に係る第十五条の二第七項に規定する空売り残高売買単位数が五十以下であり、かつ、当該残高情報に係る直近空売り残高割合が〇・〇〇五以上であること。
     modality: unspecified
     item_number: 2
 - number: 2

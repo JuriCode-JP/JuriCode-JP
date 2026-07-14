@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikoukisoku-art-28-10-p1-kou-1
     type: kou
-    text: 当該内国法人の当該事業年度終了の時の法第六十九条第四項第一号（外国税額の控除）に規定する当該国外事業所等に帰せられる貸出債権の額について、第二十八条の六第一号に掲げる危険を勘案して計算した金額
+    text: 一　当該内国法人の当該事業年度終了の時の法第六十九条第四項第一号（外国税額の控除）に規定する当該国外事業所等に帰せられる貸出債権の額について、第二十八条の六第一号に掲げる危険を勘案して計算した金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-28-10-p1-kou-2
     type: kou
-    text: 貸出債権リスク額
+    text: 二　貸出債権リスク額
     modality: unspecified
     item_number: 2
 - number: 2

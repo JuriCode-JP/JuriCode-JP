@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-246-p1-kou-1
     type: kou
-    text: 法第六十三条の三第二項において準用する法第六十三条の二第三項第一号に該当する場合　休止の期間又は再開の年月日及び休止又は再開の理由
+    text: 一　法第六十三条の三第二項において準用する法第六十三条の二第三項第一号に該当する場合　休止の期間又は再開の年月日及び休止又は再開の理由
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-246-p1-kou-2
     type: kou
-    text: 法第六十三条の三第二項において準用する法第六十三条の二第三項第二号に該当する場合　廃止の年月日及び理由
+    text: 二　法第六十三条の三第二項において準用する法第六十三条の二第三項第二号に該当する場合　廃止の年月日及び理由
     modality: unspecified
     item_number: 2
 cases: []

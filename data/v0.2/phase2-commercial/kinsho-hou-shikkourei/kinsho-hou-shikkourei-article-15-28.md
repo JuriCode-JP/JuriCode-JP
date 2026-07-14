@@ -32,28 +32,28 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-28-p2-kou-1
     type: kou
-    text: 第一条の九各号に掲げる者
+    text: 一　第一条の九各号に掲げる者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-28-p2-kou-2
     type: kou
-    text: 特例業務届出者（法第六十三条第五項に規定する特例業務届出者をいう。以下同じ。）
+    text: 二　特例業務届出者（法第六十三条第五項に規定する特例業務届出者をいう。以下同じ。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-15-28-p2-kou-3
     type: kou
-    text: 海外投資家等特例業務届出者（法第六十三条の九第四項に規定する海外投資家等特例業務届出者をいう。以下同じ。）
+    text: 三　海外投資家等特例業務届出者（法第六十三条の九第四項に規定する海外投資家等特例業務届出者をいう。以下同じ。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-15-28-p2-kou-4
     type: kou
-    text: '外国の法令に準拠して外国において次に掲げる事業を行う者（金融商品取引業者、銀行、協同組織金融機関及び前三号に掲げる者を除く。）
+    text: '四　外国の法令に準拠して外国において次に掲げる事業を行う者（金融商品取引業者、銀行、協同組織金融機関及び前三号に掲げる者を除く。）
 
-      イ 金融商品取引業
+      イ　金融商品取引業
 
-      ロ 銀行法（昭和五十六年法律第五十九号）第二条第二項に規定する銀行業
+      ロ　銀行法（昭和五十六年法律第五十九号）第二条第二項に規定する銀行業
 
-      ハ 保険業法第二条第一項に規定する保険業'
+      ハ　保険業法第二条第一項に規定する保険業'
     modality: unspecified
     item_number: 4
 - number: 3

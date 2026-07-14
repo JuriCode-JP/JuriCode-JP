@@ -50,12 +50,12 @@ paragraphs:
     - 同項
   - id: yakkihou-art-75-5-2-p3-kou-1
     type: kou
-    text: 第七十二条の四第一項又は第七十二条の五第一項の命令をする場合（保健衛生上の危害の発生又は拡大に与える影響が軽微であると認められる場合に限る。）
+    text: 一　第七十二条の四第一項又は第七十二条の五第一項の命令をする場合（保健衛生上の危害の発生又は拡大に与える影響が軽微であると認められる場合に限る。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-75-5-2-p3-kou-2
     type: kou
-    text: 第七十五条第一項又は第七十五条の二第一項の処分をする場合
+    text: 二　第七十五条第一項又は第七十五条の二第一項の処分をする場合
     modality: unspecified
     item_number: 2
 - number: 4

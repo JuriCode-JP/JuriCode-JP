@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-4-15-p1-kou-1
     type: kou
-    text: 葉たばこ
+    text: 一　葉たばこ
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-4-15-p1-kou-2
     type: kou
-    text: 加熱により蒸気となるグリセリンその他の物品又はこれらの混合物
+    text: 二　加熱により蒸気となるグリセリンその他の物品又はこれらの混合物
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-4-15-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、香味を付けること等により喫煙の効用に直接的な影響を与えるものと認められるもの
+    text: 三　前二号に掲げるもののほか、香味を付けること等により喫煙の効用に直接的な影響を与えるものと認められるもの
     modality: unspecified
     item_number: 3
 cases: []

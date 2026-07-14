@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: chihou-jichi-hou-art-242-2-p1-kou-1
     type: kou
-    text: 当該執行機関又は職員に対する当該行為の全部又は一部の差止めの請求
+    text: 一　当該執行機関又は職員に対する当該行為の全部又は一部の差止めの請求
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-242-2-p1-kou-2
     type: kou
-    text: 行政処分たる当該行為の取消し又は無効確認の請求
+    text: 二　行政処分たる当該行為の取消し又は無効確認の請求
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-242-2-p1-kou-3
     type: kou
-    text: 当該執行機関又は職員に対する当該怠る事実の違法確認の請求
+    text: 三　当該執行機関又は職員に対する当該怠る事実の違法確認の請求
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-242-2-p1-kou-4
     type: kou
-    text: 当該職員又は当該行為若しくは怠る事実に係る相手方に損害賠償又は不当利得返還の請求をすることを当該普通地方公共団体の執行機関又は職員に対して求める請求。ただし、当該職員又は当該行為若しくは怠る事実に係る相手方が第二百四十三条の二の八第三項の規定による賠償の命令の対象となる者である場合には、当該賠償の命令をすることを求める請求
+    text: 四　当該職員又は当該行為若しくは怠る事実に係る相手方に損害賠償又は不当利得返還の請求をすることを当該普通地方公共団体の執行機関又は職員に対して求める請求。ただし、当該職員又は当該行為若しくは怠る事実に係る相手方が第二百四十三条の二の八第三項の規定による賠償の命令の対象となる者である場合には、当該賠償の命令をすることを求める請求
     modality: unspecified
     item_number: 4
 - number: 2
@@ -56,22 +56,22 @@ paragraphs:
     - 前項
   - id: chihou-jichi-hou-art-242-2-p2-kou-1
     type: kou
-    text: 監査委員の監査の結果又は勧告に不服がある場合　当該監査の結果又は当該勧告の内容の通知があつた日から三十日以内
+    text: 一　監査委員の監査の結果又は勧告に不服がある場合　当該監査の結果又は当該勧告の内容の通知があつた日から三十日以内
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-242-2-p2-kou-2
     type: kou
-    text: 監査委員の勧告を受けた議会、長その他の執行機関又は職員の措置に不服がある場合　当該措置に係る監査委員の通知があつた日から三十日以内
+    text: 二　監査委員の勧告を受けた議会、長その他の執行機関又は職員の措置に不服がある場合　当該措置に係る監査委員の通知があつた日から三十日以内
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-242-2-p2-kou-3
     type: kou
-    text: 監査委員が請求をした日から六十日を経過しても監査又は勧告を行わない場合　当該六十日を経過した日から三十日以内
+    text: 三　監査委員が請求をした日から六十日を経過しても監査又は勧告を行わない場合　当該六十日を経過した日から三十日以内
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-242-2-p2-kou-4
     type: kou
-    text: 監査委員の勧告を受けた議会、長その他の執行機関又は職員が措置を講じない場合　当該勧告に示された期間を経過した日から三十日以内
+    text: 四　監査委員の勧告を受けた議会、長その他の執行機関又は職員が措置を講じない場合　当該勧告に示された期間を経過した日から三十日以内
     modality: unspecified
     item_number: 4
 - number: 3

@@ -25,12 +25,12 @@ paragraphs:
     - 次条
   - id: kaisha-hou-art-860-p1-kou-1
     type: kou
-    text: 前条各号に掲げる事由があるとき。
+    text: 一　前条各号に掲げる事由があるとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-860-p1-kou-2
     type: kou
-    text: 持分会社の業務を執行し、又は持分会社を代表することに著しく不適任なとき。
+    text: 二　持分会社の業務を執行し、又は持分会社を代表することに著しく不適任なとき。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-52-10-7-p1-kou-1
     type: kou
-    text: 滑走路、着陸帯、誘導路又はエプロンの用に供する土地及び構築物並びにこれらの土地によつて囲まれる土地
+    text: 一　滑走路、着陸帯、誘導路又はエプロンの用に供する土地及び構築物並びにこれらの土地によつて囲まれる土地
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-52-10-7-p1-kou-2
     type: kou
-    text: 排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する固定資産（関空等統合法附則第十九条の規定による廃止前の関西国際空港株式会社法第七条第一項に規定する特定事業が行われる区域として同項の規定により告示された区域及び大阪国際空港の区域内にあるものに限る。）
+    text: 二　排水施設、照明施設、護岸その他前号の施設の機能を補完する施設として総務省令で定めるものの用に供する固定資産（関空等統合法附則第十九条の規定による廃止前の関西国際空港株式会社法第七条第一項に規定する特定事業が行われる区域として同項の規定により告示された区域及び大阪国際空港の区域内にあるものに限る。）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-52-10-7-p1-kou-3
     type: kou
-    text: 両空港航空保安施設の用に供する固定資産
+    text: 三　両空港航空保安施設の用に供する固定資産
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-52-10-7-p1-kou-4
     type: kou
-    text: 関空等統合法第九条第一項第四号イに掲げる事業により造成及び管理する緩衝地帯の用に供する土地であつて、他の者に貸し付ける土地以外のもの
+    text: 四　関空等統合法第九条第一項第四号イに掲げる事業により造成及び管理する緩衝地帯の用に供する土地であつて、他の者に貸し付ける土地以外のもの
     modality: unspecified
     item_number: 4
 cases: []

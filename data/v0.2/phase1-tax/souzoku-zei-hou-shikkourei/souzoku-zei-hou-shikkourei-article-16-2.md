@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-16-2-p1-kou-1
     type: kou
-    text: 延納の許可の申請に係る手続を行う者が死亡したこと。
+    text: 一　延納の許可の申請に係る手続を行う者が死亡したこと。
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-16-2-p1-kou-2
     type: kou
-    text: 延納の許可の申請に対する処分に係る不服申立て又は訴えの提起があつたこと。
+    text: 二　延納の許可の申請に対する処分に係る不服申立て又は訴えの提起があつたこと。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,52 +42,52 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-1
     type: kou
-    text: 法第三十九条第五項に定める担保提供関係書類の提出の期限
+    text: 一　法第三十九条第五項に定める担保提供関係書類の提出の期限
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-2
     type: kou
-    text: 法第三十九条第七項に定める担保提供関係書類（同条第六項に規定する担保提供関係書類提出期限延長届出書（同条第八項の規定により読み替えて適用する同条第六項の規定により提出されたものを含む。）に係るものに限る。）の提出期限
+    text: 二　法第三十九条第七項に定める担保提供関係書類（同条第六項に規定する担保提供関係書類提出期限延長届出書（同条第八項の規定により読み替えて適用する同条第六項の規定により提出されたものを含む。）に係るものに限る。）の提出期限
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-3
     type: kou
-    text: 法第三十九条第八項の規定により読み替えて適用する同条第六項に定める担保提供関係書類提出期限延長届出書の提出期限
+    text: 三　法第三十九条第八項の規定により読み替えて適用する同条第六項に定める担保提供関係書類提出期限延長届出書の提出期限
     modality: unspecified
     item_number: 3
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-4
     type: kou
-    text: 法第三十九条第十二項に定める申請書の訂正又は担保提供関係書類の訂正若しくは提出の期限
+    text: 四　法第三十九条第十二項に定める申請書の訂正又は担保提供関係書類の訂正若しくは提出の期限
     modality: unspecified
     item_number: 4
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-5
     type: kou
-    text: 法第三十九条第十三項に定める担保提供関係書類補完期限延長届出書の提出の期限
+    text: 五　法第三十九条第十三項に定める担保提供関係書類補完期限延長届出書の提出の期限
     modality: unspecified
     item_number: 5
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-6
     type: kou
-    text: 法第三十九条第十四項に定める担保提供関係書類（同条第十三項に規定する担保提供関係書類補完期限延長届出書（同条第十五項の規定により読み替えて適用する同条第十三項の規定により提出されたものを含む。）に係るものに限る。）の訂正又は提出の期限
+    text: 六　法第三十九条第十四項に定める担保提供関係書類（同条第十三項に規定する担保提供関係書類補完期限延長届出書（同条第十五項の規定により読み替えて適用する同条第十三項の規定により提出されたものを含む。）に係るものに限る。）の訂正又は提出の期限
     modality: unspecified
     item_number: 6
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-7
     type: kou
-    text: 法第三十九条第十五項の規定により読み替えて適用する同条第十三項に定める担保提供関係書類補完期限延長届出書の提出の期限
+    text: 七　法第三十九条第十五項の規定により読み替えて適用する同条第十三項に定める担保提供関係書類補完期限延長届出書の提出の期限
     modality: unspecified
     item_number: 7
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-8
     type: kou
-    text: 法第三十九条第十八項に定める変更担保提供関係書類提出期限延長届出書の提出の期限
+    text: 八　法第三十九条第十八項に定める変更担保提供関係書類提出期限延長届出書の提出の期限
     modality: unspecified
     item_number: 8
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-9
     type: kou
-    text: 法第三十九条第十九項に定める担保提供関係書類（同条第十八項に規定する変更担保提供関係書類提出期限延長届出書（同条第二十項の規定により読み替えて適用する同条第十八項の規定により提出されたものを含む。）に係るものに限る。）の提出期限
+    text: 九　法第三十九条第十九項に定める担保提供関係書類（同条第十八項に規定する変更担保提供関係書類提出期限延長届出書（同条第二十項の規定により読み替えて適用する同条第十八項の規定により提出されたものを含む。）に係るものに限る。）の提出期限
     modality: unspecified
     item_number: 9
   - id: souzoku-zei-hou-shikkourei-art-16-2-p2-kou-10
     type: kou
-    text: 法第三十九条第二十項の規定により読み替えて適用する同条第十八項に定める変更担保提供関係書類提出期限延長届出書の提出の期限
+    text: 十　法第三十九条第二十項の規定により読み替えて適用する同条第十八項に定める変更担保提供関係書類提出期限延長届出書の提出の期限
     modality: unspecified
     item_number: 10
 - number: 3
@@ -101,16 +101,16 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-16-2-p3-kou-1
     type: kou
-    text: '第一項第一号に掲げる事由に該当する場合　次のイ又はロに掲げる期間のうちいずれか長い期間
+    text: '一　第一項第一号に掲げる事由に該当する場合　次のイ又はロに掲げる期間のうちいずれか長い期間
 
-      イ 第一項第一号の者が死亡した日の翌日から同日以後十月を経過する日までの期間
+      イ　第一項第一号の者が死亡した日の翌日から同日以後十月を経過する日までの期間
 
-      ロ イの者が死亡した日の翌日から当該者の相続財産について民法第九百五十二条第二項（相続財産の清算人の選任）の規定による公告があつた日までの期間'
+      ロ　イの者が死亡した日の翌日から当該者の相続財産について民法第九百五十二条第二項（相続財産の清算人の選任）の規定による公告があつた日までの期間'
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-16-2-p3-kou-2
     type: kou
-    text: 第一項第二号に掲げる事由に該当する場合　同号の処分があつた日の翌日から同号の不服申立て又は訴えについての決定若しくは裁決又は判決が確定する日までの期間
+    text: 二　第一項第二号に掲げる事由に該当する場合　同号の処分があつた日の翌日から同号の不服申立て又は訴えについての決定若しくは裁決又は判決が確定する日までの期間
     modality: unspecified
     item_number: 2
 cases: []

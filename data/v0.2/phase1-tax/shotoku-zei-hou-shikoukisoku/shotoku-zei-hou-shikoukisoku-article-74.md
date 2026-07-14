@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-74-p1-kou-1
     type: kou
-    text: 法第百九十五条第一項の規定による申告書を提出する者（以下この項において「申告者」という。）の氏名、住所及び個人番号
+    text: 一　法第百九十五条第一項の規定による申告書を提出する者（以下この項において「申告者」という。）の氏名、住所及び個人番号
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-74-p1-kou-2
     type: kou
-    text: 源泉控除対象配偶者の生年月日、住所及びその合計所得金額の見積額
+    text: 二　源泉控除対象配偶者の生年月日、住所及びその合計所得金額の見積額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-74-p1-kou-3
     type: kou
-    text: 源泉控除対象親族の生年月日、住所、申告者との続柄及びその合計所得金額の見積額
+    text: 三　源泉控除対象親族の生年月日、住所、申告者との続柄及びその合計所得金額の見積額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-74-p1-kou-4
     type: kou
-    text: 法第百九十四条第一項（給与所得者の扶養控除等申告書）に規定する主たる給与等の支払者の氏名又は名称並びにその支払者からその年中に支払を受けるべき給与等の収入金額の見積額、当該見積額から当該給与等から控除される法第七十四条第二項（社会保険料控除）に規定する社会保険料の金額の見積額及び法第七十五条第二項（小規模企業共済等掛金控除）に規定する小規模企業共済等掛金の額の見積額を控除した金額並びに申告者につき認められる障害者控除の額、寡婦控除の額、ひとり親控除の額、勤労学生控除の額、源泉控除対象配偶者について控除を受ける配偶者控除の額又は配偶者特別控除の額、源泉控除対象親族について控除を受ける扶養控除の額又は特定親族特別控除の額及び基礎控除の額に相当する金額の合計額
+    text: 四　法第百九十四条第一項（給与所得者の扶養控除等申告書）に規定する主たる給与等の支払者の氏名又は名称並びにその支払者からその年中に支払を受けるべき給与等の収入金額の見積額、当該見積額から当該給与等から控除される法第七十四条第二項（社会保険料控除）に規定する社会保険料の金額の見積額及び法第七十五条第二項（小規模企業共済等掛金控除）に規定する小規模企業共済等掛金の額の見積額を控除した金額並びに申告者につき認められる障害者控除の額、寡婦控除の額、ひとり親控除の額、勤労学生控除の額、源泉控除対象配偶者について控除を受ける配偶者控除の額又は配偶者特別控除の額、源泉控除対象親族について控除を受ける扶養控除の額又は特定親族特別控除の額及び基礎控除の額に相当する金額の合計額
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-74-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -57,17 +57,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-74-p2-kou-1
     type: kou
-    text: 法第百九十五条第三項の規定による申告書を提出する者の氏名、住所及び個人番号
+    text: 一　法第百九十五条第三項の規定による申告書を提出する者の氏名、住所及び個人番号
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-74-p2-kou-2
     type: kou
-    text: 法第百九十五条第三項の規定により経由すべき同条第一項に規定する従たる給与等の支払者の氏名又は名称
+    text: 二　法第百九十五条第三項の規定により経由すべき同条第一項に規定する従たる給与等の支払者の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-74-p2-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 3

@@ -32,6 +32,10 @@ paragraphs:
     modality: gimu_negative
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-64-2-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十八条第一項第二号　第二項については第百十八条第一項第三号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

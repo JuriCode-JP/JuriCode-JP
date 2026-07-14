@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 高齢運転者等専用時間制限駐車区間においては、高齢運転者等標章自動車以外の車両は、駐車をしてはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-49-4-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条の二の四第一項第一号、同条第三項、第百十九条の三第一項第一号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

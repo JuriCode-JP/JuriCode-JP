@@ -38,42 +38,42 @@ paragraphs:
     - 前項
   - id: dokusen-kinshi-hou-art-8-4-p2-kou-1
     type: kou
-    text: 資産及び収支その他の経理の状況
+    text: 一　資産及び収支その他の経理の状況
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-8-4-p2-kou-2
     type: kou
-    text: 役員及び従業員の状況
+    text: 二　役員及び従業員の状況
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-8-4-p2-kou-3
     type: kou
-    text: 工場、事業場及び事務所の位置その他の立地条件
+    text: 三　工場、事業場及び事務所の位置その他の立地条件
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-8-4-p2-kou-4
     type: kou
-    text: 事業設備の状況
+    text: 四　事業設備の状況
     modality: unspecified
     item_number: 4
   - id: dokusen-kinshi-hou-art-8-4-p2-kou-5
     type: kou
-    text: 特許権、商標権その他の無体財産権の内容及び技術上の特質
+    text: 五　特許権、商標権その他の無体財産権の内容及び技術上の特質
     modality: unspecified
     item_number: 5
   - id: dokusen-kinshi-hou-art-8-4-p2-kou-6
     type: kou
-    text: 生産、販売等の能力及び状況
+    text: 六　生産、販売等の能力及び状況
     modality: unspecified
     item_number: 6
   - id: dokusen-kinshi-hou-art-8-4-p2-kou-7
     type: kou
-    text: 資金、原材料等の取得の能力及び状況
+    text: 七　資金、原材料等の取得の能力及び状況
     modality: unspecified
     item_number: 7
   - id: dokusen-kinshi-hou-art-8-4-p2-kou-8
     type: kou
-    text: 商品又は役務の供給及び流通の状況
+    text: 八　商品又は役務の供給及び流通の状況
     modality: unspecified
     item_number: 8
 cases: []

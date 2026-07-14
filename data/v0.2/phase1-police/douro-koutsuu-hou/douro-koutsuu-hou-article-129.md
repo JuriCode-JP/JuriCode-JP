@@ -46,8 +46,8 @@ paragraphs:
     text: 第一項の規定による仮納付をした者について当該告知に係る第百二十七条第一項前段の規定による通告があつたときは、当該仮納付をした者は、前条第一項の規定により当該通告に係る反則金を納付した者とみなし、当該反則金に相当する金額の仮納付は、同項の規定による反則金の納付とみなす。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

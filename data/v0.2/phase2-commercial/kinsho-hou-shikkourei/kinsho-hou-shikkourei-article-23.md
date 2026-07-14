@@ -25,12 +25,12 @@ paragraphs:
     - 次条
   - id: kinsho-hou-shikkourei-art-23-p1-kou-1
     type: kou
-    text: 上場有価証券　当該安定操作有価証券を上場する各金融商品取引所
+    text: 一　上場有価証券　当該安定操作有価証券を上場する各金融商品取引所
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-23-p1-kou-2
     type: kou
-    text: 店頭売買有価証券　当該安定操作有価証券を登録する各認可金融商品取引業協会
+    text: 二　店頭売買有価証券　当該安定操作有価証券を登録する各認可金融商品取引業協会
     modality: unspecified
     item_number: 2
 cases: []

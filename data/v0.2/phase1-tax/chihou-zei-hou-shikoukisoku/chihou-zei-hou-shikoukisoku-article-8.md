@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-p1-kou-1
     type: kou
-    text: 当該小売販売業者の営業所ごとの当該小売販売業者への売渡しに係る製造たばこの品目及び品目ごとの数量
+    text: 一　当該小売販売業者の営業所ごとの当該小売販売業者への売渡しに係る製造たばこの品目及び品目ごとの数量
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-p1-kou-2
     type: kou
-    text: 当該小売販売業者に売り渡した年月日
+    text: 二　当該小売販売業者に売り渡した年月日
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-8-p1-kou-3
     type: kou
-    text: 当該売渡しに係る小売販売業者の営業所の所在地及び名称
+    text: 三　当該売渡しに係る小売販売業者の営業所の所在地及び名称
     modality: unspecified
     item_number: 3
 - number: 2

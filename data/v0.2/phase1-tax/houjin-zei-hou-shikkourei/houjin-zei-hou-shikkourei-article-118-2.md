@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-118-2-p1-kou-1
     type: kou
-    text: 当該事業年度において保険契約に基づき保険契約者に対して分配する金額
+    text: 一　当該事業年度において保険契約に基づき保険契約者に対して分配する金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-118-2-p1-kou-2
     type: kou
-    text: 当該事業年度において受けた法第二十三条第一項に規定する配当等の額のうち当該会社が同条の規定により益金の額に算入しないこととしている金額
+    text: 二　当該事業年度において受けた法第二十三条第一項に規定する配当等の額のうち当該会社が同条の規定により益金の額に算入しないこととしている金額
     modality: unspecified
     item_number: 2
 cases: []

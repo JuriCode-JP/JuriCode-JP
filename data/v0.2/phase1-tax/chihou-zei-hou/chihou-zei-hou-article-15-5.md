@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-15-5-p1-kou-1
     type: kou
-    text: その財産の換価を直ちにすることによりその事業の継続又はその生活の維持を困難にするおそれがあるとき。
+    text: 一　その財産の換価を直ちにすることによりその事業の継続又はその生活の維持を困難にするおそれがあるとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-15-5-p1-kou-2
     type: kou
-    text: その財産の換価を猶予することが、直ちにその換価をすることに比して、滞納に係る地方団体の徴収金及び最近において納付し、又は納入すべきこととなる他の地方団体の徴収金の徴収上有利であるとき。
+    text: 二　その財産の換価を猶予することが、直ちにその換価をすることに比して、滞納に係る地方団体の徴収金及び最近において納付し、又は納入すべきこととなる他の地方団体の徴収金の徴収上有利であるとき。
     modality: unspecified
     item_number: 2
 - number: 2

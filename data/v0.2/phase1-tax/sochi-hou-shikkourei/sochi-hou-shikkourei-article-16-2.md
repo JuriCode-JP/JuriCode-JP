@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-16-2-p1-kou-1
     type: kou
-    text: 農業経営基盤強化促進法（昭和五十五年法律第六十五号）第四条第一項第一号に規定する農用地で法第二十四条の三第一項に規定する地域計画の区域において当該個人の利用が見込まれるもの（当該農用地に係る賃借権を含む。）
+    text: 一　農業経営基盤強化促進法（昭和五十五年法律第六十五号）第四条第一項第一号に規定する農用地で法第二十四条の三第一項に規定する地域計画の区域において当該個人の利用が見込まれるもの（当該農用地に係る賃借権を含む。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-16-2-p1-kou-2
     type: kou
-    text: 法第二十四条の三第一項に規定する特定農業用機械等
+    text: 二　法第二十四条の三第一項に規定する特定農業用機械等
     modality: unspecified
     item_number: 2
 - number: 2

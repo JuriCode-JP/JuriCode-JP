@@ -32,77 +32,77 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-88-3-p2-kou-1
     type: kou
-    text: 目的
+    text: 一　目的
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-88-3-p2-kou-2
     type: kou
-    text: 名称
+    text: 二　名称
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-88-3-p2-kou-3
     type: kou
-    text: 事務所の所在地
+    text: 三　事務所の所在地
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-88-3-p2-kou-4
     type: kou
-    text: 基本金及び出資に関する事項
+    text: 四　基本金及び出資に関する事項
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-88-3-p2-kou-5
     type: kou
-    text: 会員等に関する事項
+    text: 五　会員等に関する事項
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-88-3-p2-kou-6
     type: kou
-    text: 会員等の法令、法令に基づく行政官庁の処分若しくは定款その他の規則又は取引の信義則の遵守の状況の調査に関する事項
+    text: 六　会員等の法令、法令に基づく行政官庁の処分若しくは定款その他の規則又は取引の信義則の遵守の状況の調査に関する事項
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-88-3-p2-kou-7
     type: kou
-    text: 信認金に関する事項
+    text: 七　信認金に関する事項
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-88-3-p2-kou-8
     type: kou
-    text: 経費の分担に関する事項
+    text: 八　経費の分担に関する事項
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-art-88-3-p2-kou-9
     type: kou
-    text: 役員に関する事項
+    text: 九　役員に関する事項
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-art-88-3-p2-kou-10
     type: kou
-    text: 会議に関する事項
+    text: 十　会議に関する事項
     modality: unspecified
     item_number: 10
   - id: kinsho-hou-art-88-3-p2-kou-11
     type: kou
-    text: 業務の執行に関する事項
+    text: 十一　業務の執行に関する事項
     modality: unspecified
     item_number: 11
   - id: kinsho-hou-art-88-3-p2-kou-12
     type: kou
-    text: 規則の作成に関する事項
+    text: 十二　規則の作成に関する事項
     modality: unspecified
     item_number: 12
   - id: kinsho-hou-art-88-3-p2-kou-13
     type: kou
-    text: 取引所金融商品市場に関する事項
+    text: 十三　取引所金融商品市場に関する事項
     modality: unspecified
     item_number: 13
   - id: kinsho-hou-art-88-3-p2-kou-14
     type: kou
-    text: 会計に関する事項
+    text: 十四　会計に関する事項
     modality: unspecified
     item_number: 14
   - id: kinsho-hou-art-88-3-p2-kou-15
     type: kou
-    text: 公告方法（金融商品会員制法人が公告（この法律の規定により官報に掲載する方法によりしなければならないものとされているものを除く。）をする方法をいう。第八十九条の二第二項第九号において同じ。）
+    text: 十五　公告方法（金融商品会員制法人が公告（この法律の規定により官報に掲載する方法によりしなければならないものとされているものを除く。）をする方法をいう。第八十九条の二第二項第九号において同じ。）
     modality: unspecified
     item_number: 15
 - number: 3

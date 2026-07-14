@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-66-85-p1-kou-1
     type: kou
-    text: 第六十六条の七十四各号（第七号イを除く。）のいずれかに該当することとなつたとき。
+    text: 一　第六十六条の七十四各号（第七号イを除く。）のいずれかに該当することとなつたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-85-p1-kou-2
     type: kou
-    text: 不正の手段により第六十六条の七十一の登録を受けたとき。
+    text: 二　不正の手段により第六十六条の七十一の登録を受けたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-85-p1-kou-3
     type: kou
-    text: 投資運用関係業務受託業に関し法令又は法令に基づいてする行政官庁の処分に違反したとき。
+    text: 三　投資運用関係業務受託業に関し法令又は法令に基づいてする行政官庁の処分に違反したとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-85-p1-kou-4
     type: kou
-    text: 投資運用関係業務受託業に関し、不正又は著しく不当な行為をした場合において、その情状が特に重いとき。
+    text: 四　投資運用関係業務受託業に関し、不正又は著しく不当な行為をした場合において、その情状が特に重いとき。
     modality: unspecified
     item_number: 4
 - number: 2

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-17-10-p1-kou-1
     type: kou
-    text: 内国会社である場合　第四号の二様式
+    text: 一　内国会社である場合　第四号の二様式
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-17-10-p1-kou-2
     type: kou
-    text: 外国会社である場合　第九号の二様式
+    text: 二　外国会社である場合　第九号の二様式
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-17-10-p2-kou-1
     type: kou
-    text: 当該確認書に記載された当該外国会社の代表者が当該確認書の提出に関し正当な権限を有する者であることを証する書面
+    text: 一　当該確認書に記載された当該外国会社の代表者が当該確認書の提出に関し正当な権限を有する者であることを証する書面
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-17-10-p2-kou-2
     type: kou
-    text: 当該外国会社が、本邦内に住所を有する者に、当該確認書の提出に関する一切の行為につき当該外国会社を代理する権限を付与したことを証する書面
+    text: 二　当該外国会社が、本邦内に住所を有する者に、当該確認書の提出に関する一切の行為につき当該外国会社を代理する権限を付与したことを証する書面
     modality: unspecified
     item_number: 2
 - number: 3

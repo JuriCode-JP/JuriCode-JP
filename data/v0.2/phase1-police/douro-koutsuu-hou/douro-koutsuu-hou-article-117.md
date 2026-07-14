@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の場合において、同項の人の死傷が当該運転者の運転に起因するものであるときは、十年以下の拘禁刑又は百万円以下の罰金に処する。
     modality: gimu_kei
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

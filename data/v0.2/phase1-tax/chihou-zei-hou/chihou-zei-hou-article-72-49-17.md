@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-72-49-17-p1-kou-1
     type: kou
-    text: 第一種事業を行う個人　所得に百分の五の標準税率によつて定めた率を乗じて得た金額
+    text: 一　第一種事業を行う個人　所得に百分の五の標準税率によつて定めた率を乗じて得た金額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-72-49-17-p1-kou-2
     type: kou
-    text: 第二種事業を行う個人　所得に百分の四の標準税率によつて定めた率を乗じて得た金額
+    text: 二　第二種事業を行う個人　所得に百分の四の標準税率によつて定めた率を乗じて得た金額
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-72-49-17-p1-kou-3
     type: kou
-    text: 第三種事業（次号に掲げるものを除く。）を行う個人　所得に百分の五の標準税率によつて定めた率を乗じて得た金額
+    text: 三　第三種事業（次号に掲げるものを除く。）を行う個人　所得に百分の五の標準税率によつて定めた率を乗じて得た金額
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-72-49-17-p1-kou-4
     type: kou
-    text: 第三種事業のうち第七十二条の二第十項第五号及び第七号に掲げる事業を行う個人　所得に百分の三の標準税率によつて定めた率を乗じて得た金額
+    text: 四　第三種事業のうち第七十二条の二第十項第五号及び第七号に掲げる事業を行う個人　所得に百分の三の標準税率によつて定めた率を乗じて得た金額
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項の規定により区分された事業を併せて行う場合における同項各号に掲げる税率を適用すべき所得は、当該個人の事業の所得をそれぞれの事業につき第七十二条の四十九の十二第一項から第三項までの規定によつて計算した所得金額に按分して算定するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-671-p1-kou-1
     type: kou
-    text: 国税又は他の地方税と課税標準を同じくし、かつ、住民の負担が著しく過重となること。
+    text: 一　国税又は他の地方税と課税標準を同じくし、かつ、住民の負担が著しく過重となること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-671-p1-kou-2
     type: kou
-    text: 地方団体間における物の流通に重大な障害を与えること。
+    text: 二　地方団体間における物の流通に重大な障害を与えること。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-671-p1-kou-3
     type: kou
-    text: 前二号に掲げるものを除くほか、国の経済施策に照らして適当でないこと。
+    text: 三　前二号に掲げるものを除くほか、国の経済施策に照らして適当でないこと。
     modality: unspecified
     item_number: 3
 cases: []

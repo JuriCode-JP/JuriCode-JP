@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-16-p1-kou-1
     type: kou
-    text: 法第三十九条第一項の申請書について、その記載に不備があること。
+    text: 一　法第三十九条第一項の申請書について、その記載に不備があること。
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-16-p1-kou-2
     type: kou
-    text: 法第三十九条第一項に規定する担保提供関係書類について、その記載に不備があること又はその全部若しくは一部の提出がないこと。
+    text: 二　法第三十九条第一項に規定する担保提供関係書類について、その記載に不備があること又はその全部若しくは一部の提出がないこと。
     modality: unspecified
     item_number: 2
 cases: []

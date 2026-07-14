@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: shouhou-art-698-p1-kou-1
     type: kou
-    text: 船舶を賃貸し、又はこれについて抵当権を設定すること。
+    text: 一　船舶を賃貸し、又はこれについて抵当権を設定すること。
     modality: unspecified
     item_number: 1
   - id: shouhou-art-698-p1-kou-2
     type: kou
-    text: 船舶を保険に付すること。
+    text: 二　船舶を保険に付すること。
     modality: unspecified
     item_number: 2
   - id: shouhou-art-698-p1-kou-3
     type: kou
-    text: 新たな航海（船舶共有者の間で予定されていなかったものに限る。）をすること。
+    text: 三　新たな航海（船舶共有者の間で予定されていなかったものに限る。）をすること。
     modality: unspecified
     item_number: 3
   - id: shouhou-art-698-p1-kou-4
     type: kou
-    text: 船舶の大修繕をすること。
+    text: 四　船舶の大修繕をすること。
     modality: unspecified
     item_number: 4
   - id: shouhou-art-698-p1-kou-5
     type: kou
-    text: 借財をすること。
+    text: 五　借財をすること。
     modality: unspecified
     item_number: 5
 - number: 2

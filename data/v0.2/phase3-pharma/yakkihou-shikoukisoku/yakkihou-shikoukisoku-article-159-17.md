@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-159-17-p1-kou-1
     type: kou
-    text: 第一類医薬品の情報の提供については、その薬局又は店舗において医薬品の販売又は授与に従事する薬剤師に行わせること。
+    text: 一　第一類医薬品の情報の提供については、その薬局又は店舗において医薬品の販売又は授与に従事する薬剤師に行わせること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-159-17-p1-kou-2
     type: kou
-    text: 第二類医薬品又は第三類医薬品の情報の提供については、その薬局又は店舗において医薬品の販売又は授与に従事する薬剤師又は登録販売者に行わせること。
+    text: 二　第二類医薬品又は第三類医薬品の情報の提供については、その薬局又は店舗において医薬品の販売又は授与に従事する薬剤師又は登録販売者に行わせること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-159-17-p1-kou-3
     type: kou
-    text: 当該一般用医薬品の使用に当たり保健衛生上の危害の発生を防止するために必要な事項について説明を行わせること。
+    text: 三　当該一般用医薬品の使用に当たり保健衛生上の危害の発生を防止するために必要な事項について説明を行わせること。
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-159-17-p1-kou-4
     type: kou
-    text: 当該一般用医薬品の用法、用量、使用上の注意、当該一般用医薬品との併用を避けるべき医薬品その他の当該一般用医薬品の適正な使用のために必要な情報を、その薬局若しくは店舗において当該一般用医薬品を購入し、若しくは譲り受けようとする者又はその薬局若しくは店舗において当該一般用医薬品を購入し、若しくは譲り受けた者若しくはこれらの者によつて購入され、若しくは譲り受けられた当該一般用医薬品を使用する者の状況に応じて個別に提供させること。
+    text: 四　当該一般用医薬品の用法、用量、使用上の注意、当該一般用医薬品との併用を避けるべき医薬品その他の当該一般用医薬品の適正な使用のために必要な情報を、その薬局若しくは店舗において当該一般用医薬品を購入し、若しくは譲り受けようとする者又はその薬局若しくは店舗において当該一般用医薬品を購入し、若しくは譲り受けた者若しくはこれらの者によつて購入され、若しくは譲り受けられた当該一般用医薬品を使用する者の状況に応じて個別に提供させること。
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-159-17-p1-kou-5
     type: kou
-    text: 当該一般用医薬品を使用しようとする者が手帳を所持する場合は、必要に応じ、当該手帳を活用した情報の提供を行わせること。
+    text: 五　当該一般用医薬品を使用しようとする者が手帳を所持する場合は、必要に応じ、当該手帳を活用した情報の提供を行わせること。
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-159-17-p1-kou-6
     type: kou
-    text: 必要に応じて、医師又は歯科医師の診断を受けることを勧めさせること。
+    text: 六　必要に応じて、医師又は歯科医師の診断を受けることを勧めさせること。
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-159-17-p1-kou-7
     type: kou
-    text: 当該情報の提供を行つた薬剤師又は登録販売者の氏名を伝えさせること。
+    text: 七　当該情報の提供を行つた薬剤師又は登録販売者の氏名を伝えさせること。
     modality: unspecified
     item_number: 7
 - number: 2

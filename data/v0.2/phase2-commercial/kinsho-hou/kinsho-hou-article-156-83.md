@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-156-83-p1-kou-1
     type: kou
-    text: 第百五十六条の六十七第一項第三号から第六号までに掲げる要件に該当しないこととなつたとき、又は指定を受けた時点において同項各号のいずれかに該当していなかつたことが判明したとき。
+    text: 一　第百五十六条の六十七第一項第三号から第六号までに掲げる要件に該当しないこととなつたとき、又は指定を受けた時点において同項各号のいずれかに該当していなかつたことが判明したとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-83-p1-kou-2
     type: kou
-    text: 不正の手段により第百五十六条の六十七第一項の規定による指定を受けたとき。
+    text: 二　不正の手段により第百五十六条の六十七第一項の規定による指定を受けたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-83-p1-kou-3
     type: kou
-    text: 法令又は法令に基づく処分に違反したとき。
+    text: 三　法令又は法令に基づく処分に違反したとき。
     modality: unspecified
     item_number: 3
 - number: 2

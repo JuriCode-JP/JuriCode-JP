@@ -35,8 +35,8 @@ paragraphs:
     text: 前項の不適合が買主の責めに帰すべき事由によるものであるときは、買主は、同項の規定による履行の追完の請求をすることができない。
     modality: kanou_negative
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

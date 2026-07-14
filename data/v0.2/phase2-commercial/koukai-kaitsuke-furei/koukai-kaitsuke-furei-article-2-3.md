@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-2-3-p1-kou-1
     type: kou
-    text: 新株予約権証券及び新株予約権付社債券
+    text: 一　新株予約権証券及び新株予約権付社債券
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-2-3-p1-kou-2
     type: kou
-    text: 外国の者の発行する証券又は証書で前号に掲げる有価証券の性質を有するもの
+    text: 二　外国の者の発行する証券又は証書で前号に掲げる有価証券の性質を有するもの
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-2-3-p1-kou-3
     type: kou
-    text: 新投資口予約権証券等（令第一条の四第二号に規定する新投資口予約権証券等をいう。以下同じ。）
+    text: 三　新投資口予約権証券等（令第一条の四第二号に規定する新投資口予約権証券等をいう。以下同じ。）
     modality: unspecified
     item_number: 3
   - id: koukai-kaitsuke-furei-art-2-3-p1-kou-4
     type: kou
-    text: 令第二条の三第三号に規定する有価証券信託受益証券で、受託有価証券が前三号に掲げる有価証券であるもの
+    text: 四　令第二条の三第三号に規定する有価証券信託受益証券で、受託有価証券が前三号に掲げる有価証券であるもの
     modality: unspecified
     item_number: 4
   - id: koukai-kaitsuke-furei-art-2-3-p1-kou-5
     type: kou
-    text: 法第二条第一項第二十号に掲げる有価証券で、第一号から第三号までに掲げる有価証券に係る権利を表示するもの
+    text: 五　法第二条第一項第二十号に掲げる有価証券で、第一号から第三号までに掲げる有価証券に係る権利を表示するもの
     modality: unspecified
     item_number: 5
 - number: 2

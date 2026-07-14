@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-66-61-p1-kou-1
     type: kou
-    text: 高速取引行為者である個人が死亡したとき　その相続人
+    text: 一　高速取引行為者である個人が死亡したとき　その相続人
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-66-61-p1-kou-2
     type: kou
-    text: 高速取引行為に係る業務を廃止したとき　その法人又は個人
+    text: 二　高速取引行為に係る業務を廃止したとき　その法人又は個人
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-66-61-p1-kou-3
     type: kou
-    text: 高速取引行為者である法人が合併により消滅したとき　その法人を代表する役員であつた者
+    text: 三　高速取引行為者である法人が合併により消滅したとき　その法人を代表する役員であつた者
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-66-61-p1-kou-4
     type: kou
-    text: 高速取引行為者である法人が破産手続開始の決定により解散したとき　その破産管財人
+    text: 四　高速取引行為者である法人が破産手続開始の決定により解散したとき　その破産管財人
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-66-61-p1-kou-5
     type: kou
-    text: 高速取引行為者である法人が合併及び破産手続開始の決定以外の理由により解散したとき　その清算人
+    text: 五　高速取引行為者である法人が合併及び破産手続開始の決定以外の理由により解散したとき　その清算人
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-66-61-p1-kou-6
     type: kou
-    text: 高速取引行為者である法人が分割により事業の全部を承継させたとき　その法人
+    text: 六　高速取引行為者である法人が分割により事業の全部を承継させたとき　その法人
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-66-61-p1-kou-7
     type: kou
-    text: 事業の全部を譲渡したとき　その法人又は個人
+    text: 七　事業の全部を譲渡したとき　その法人又は個人
     modality: unspecified
     item_number: 7
 - number: 2

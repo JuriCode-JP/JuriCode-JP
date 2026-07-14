@@ -26,17 +26,17 @@ paragraphs:
     - 次条
   - id: chihou-zei-hou-shikkourei-art-27-p1-kou-1
     type: kou
-    text: 還付すべき中間納付額に係る事業年度分の事業税額で法第七十二条の三十一第二項若しくは第三項の規定により納付すべきもの又は法第七十二条の四十四の規定により徴収すべきものがあるときは、当該事業税額に充当する。
+    text: 一　還付すべき中間納付額に係る事業年度分の事業税額で法第七十二条の三十一第二項若しくは第三項の規定により納付すべきもの又は法第七十二条の四十四の規定により徴収すべきものがあるときは、当該事業税額に充当する。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-27-p1-kou-2
     type: kou
-    text: 前号の充当をしてもなお還付すべき金額がある場合において、当該事業年度分の中間納付額で未納のものがあるときは、当該未納の中間納付額に充当する。
+    text: 二　前号の充当をしてもなお還付すべき金額がある場合において、当該事業年度分の中間納付額で未納のものがあるときは、当該未納の中間納付額に充当する。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-27-p1-kou-3
     type: kou
-    text: 前二号の充当をしてもなお還付すべき金額があるときは、その他の未納に係る地方団体の徴収金に充当する。
+    text: 三　前二号の充当をしてもなお還付すべき金額があるときは、その他の未納に係る地方団体の徴収金に充当する。
     modality: unspecified
     item_number: 3
 - number: 2

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-16-2-p1-kou-1
     type: kou
-    text: 徴収の猶予、職権による換価の猶予又は申請による換価の猶予に係る地方団体の徴収金
+    text: 一　徴収の猶予、職権による換価の猶予又は申請による換価の猶予に係る地方団体の徴収金
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-16-2-p1-kou-2
     type: kou
-    text: 納付又は納入の委託をしようとする有価証券の支払期日以後に納期限の到来する地方団体の徴収金
+    text: 二　納付又は納入の委託をしようとする有価証券の支払期日以後に納期限の到来する地方団体の徴収金
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-16-2-p1-kou-3
     type: kou
-    text: 滞納に係る地方団体の徴収金（第一号に掲げるものを除く。）で、その納付又は納入につき納税者又は特別徴収義務者が誠実な意思を有し、かつ、その納付又は納入の委託を受けることが地方団体の徴収金の徴収上有利と認められるもの
+    text: 三　滞納に係る地方団体の徴収金（第一号に掲げるものを除く。）で、その納付又は納入につき納税者又は特別徴収義務者が誠実な意思を有し、かつ、その納付又は納入の委託を受けることが地方団体の徴収金の徴収上有利と認められるもの
     modality: unspecified
     item_number: 3
 - number: 2
@@ -66,8 +66,8 @@ paragraphs:
     text: 第一項の委託があつた場合において、その委託に係る有価証券の提供により同項第一号に掲げる地方団体の徴収金につき前条第一項各号に掲げる担保の提供の必要がないと認められるに至つたときは、その認められる限度において当該担保の提供があつたものとすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

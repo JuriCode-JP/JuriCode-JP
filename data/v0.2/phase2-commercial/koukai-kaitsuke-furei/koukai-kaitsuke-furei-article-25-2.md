@@ -23,31 +23,31 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-25-2-p1-kou-1
     type: kou
-    text: 対象者の名称及び所在地
+    text: 一　対象者の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-25-2-p1-kou-2
     type: kou
-    text: 法第二十七条の十第二項の規定により意見表明報告書に同項第二号の規定による請求をする旨の記載をした旨
+    text: 二　法第二十七条の十第二項の規定により意見表明報告書に同項第二号の規定による請求をする旨の記載をした旨
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-25-2-p1-kou-3
     type: kou
-    text: 法第二十七条の十第三項の規定による延長後の買付け等の期間が三十日（行政機関の休日の日数は、算入しない。）となる旨
+    text: 三　法第二十七条の十第三項の規定による延長後の買付け等の期間が三十日（行政機関の休日の日数は、算入しない。）となる旨
     modality: unspecified
     item_number: 3
   - id: koukai-kaitsuke-furei-art-25-2-p1-kou-4
     type: kou
-    text: 延長後の公開買付期間の末日
+    text: 四　延長後の公開買付期間の末日
     modality: unspecified
     item_number: 4
   - id: koukai-kaitsuke-furei-art-25-2-p1-kou-5
     type: kou
-    text: '公開買付けに関する事項のうち次に掲げるもの
+    text: '五　公開買付けに関する事項のうち次に掲げるもの
 
-      イ 公開買付者の氏名又は名称及び住所又は所在地
+      イ　公開買付者の氏名又は名称及び住所又は所在地
 
-      ロ 買付け等を行う株券等の種類'
+      ロ　買付け等を行う株券等の種類'
     modality: unspecified
     item_number: 5
 cases: []

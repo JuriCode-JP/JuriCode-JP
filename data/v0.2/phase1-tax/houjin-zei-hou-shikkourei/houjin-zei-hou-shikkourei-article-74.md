@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-74-p1-kou-1
     type: kou
-    text: 国家公務員共済組合及び国家公務員共済組合連合会
+    text: 一　国家公務員共済組合及び国家公務員共済組合連合会
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-74-p1-kou-2
     type: kou
-    text: 地方公務員共済組合及び全国市町村職員共済組合連合会
+    text: 二　地方公務員共済組合及び全国市町村職員共済組合連合会
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-74-p1-kou-3
     type: kou
-    text: 日本私立学校振興・共済事業団
+    text: 三　日本私立学校振興・共済事業団
     modality: unspecified
     item_number: 3
 cases: []

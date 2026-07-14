@@ -41,12 +41,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-243-p2-kou-1
     type: kou
-    text: 募集新株予約権の目的である株式の全部又は一部が譲渡制限株式である場合
+    text: 一　募集新株予約権の目的である株式の全部又は一部が譲渡制限株式である場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-243-p2-kou-2
     type: kou
-    text: 募集新株予約権が譲渡制限新株予約権（新株予約権であって、譲渡による当該新株予約権の取得について株式会社の承認を要する旨の定めがあるものをいう。以下この章において同じ。）である場合
+    text: 二　募集新株予約権が譲渡制限新株予約権（新株予約権であって、譲渡による当該新株予約権の取得について株式会社の承認を要する旨の定めがあるものをいう。以下この章において同じ。）である場合
     modality: unspecified
     item_number: 2
 - number: 3

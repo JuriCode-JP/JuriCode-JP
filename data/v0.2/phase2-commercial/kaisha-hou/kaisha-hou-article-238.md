@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-238-p1-kou-1
     type: kou
-    text: 募集新株予約権の内容及び数
+    text: 一　募集新株予約権の内容及び数
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-238-p1-kou-2
     type: kou
-    text: 募集新株予約権と引換えに金銭の払込みを要しないこととする場合には、その旨
+    text: 二　募集新株予約権と引換えに金銭の払込みを要しないこととする場合には、その旨
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-238-p1-kou-3
     type: kou
-    text: 前号に規定する場合以外の場合には、募集新株予約権の払込金額（募集新株予約権一個と引換えに払い込む金銭の額をいう。以下この章において同じ。）又はその算定方法
+    text: 三　前号に規定する場合以外の場合には、募集新株予約権の払込金額（募集新株予約権一個と引換えに払い込む金銭の額をいう。以下この章において同じ。）又はその算定方法
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-238-p1-kou-4
     type: kou
-    text: 募集新株予約権を割り当てる日（以下この節において「割当日」という。）
+    text: 四　募集新株予約権を割り当てる日（以下この節において「割当日」という。）
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-238-p1-kou-5
     type: kou
-    text: 募集新株予約権と引換えにする金銭の払込みの期日を定めるときは、その期日
+    text: 五　募集新株予約権と引換えにする金銭の払込みの期日を定めるときは、その期日
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-238-p1-kou-6
     type: kou
-    text: 募集新株予約権が新株予約権付社債に付されたものである場合には、第六百七十六条各号に掲げる事項
+    text: 六　募集新株予約権が新株予約権付社債に付されたものである場合には、第六百七十六条各号に掲げる事項
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-238-p1-kou-7
     type: kou
-    text: 前号に規定する場合において、同号の新株予約権付社債に付された募集新株予約権についての第百十八条第一項、第百七十九条第二項、第七百七十七条第一項、第七百八十七条第一項又は第八百八条第一項の規定による請求の方法につき別段の定めをするときは、その定め
+    text: 七　前号に規定する場合において、同号の新株予約権付社債に付された募集新株予約権についての第百十八条第一項、第百七十九条第二項、第七百七十七条第一項、第七百八十七条第一項又は第八百八条第一項の規定による請求の方法につき別段の定めをするときは、その定め
     modality: unspecified
     item_number: 7
 - number: 2
@@ -78,12 +78,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-238-p3-kou-1
     type: kou
-    text: 第一項第二号に規定する場合において、金銭の払込みを要しないこととすることが当該者に特に有利な条件であるとき。
+    text: 一　第一項第二号に規定する場合において、金銭の払込みを要しないこととすることが当該者に特に有利な条件であるとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-238-p3-kou-2
     type: kou
-    text: 第一項第三号に規定する場合において、同号の払込金額が当該者に特に有利な金額であるとき。
+    text: 二　第一項第三号に規定する場合において、同号の払込金額が当該者に特に有利な金額であるとき。
     modality: unspecified
     item_number: 2
 - number: 4

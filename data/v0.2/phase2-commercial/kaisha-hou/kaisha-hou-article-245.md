@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-245-p1-kou-1
     type: kou
-    text: 申込者　株式会社の割り当てた募集新株予約権
+    text: 一　申込者　株式会社の割り当てた募集新株予約権
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-245-p1-kou-2
     type: kou
-    text: 第二百四十四条第一項の契約により募集新株予約権の総数を引き受けた者　その者が引き受けた募集新株予約権
+    text: 二　第二百四十四条第一項の契約により募集新株予約権の総数を引き受けた者　その者が引き受けた募集新株予約権
     modality: unspecified
     item_number: 2
 - number: 2

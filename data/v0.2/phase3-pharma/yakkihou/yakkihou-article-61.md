@@ -23,37 +23,37 @@ paragraphs:
     modality: jogai
   - id: yakkihou-art-61-p1-kou-1
     type: kou
-    text: 製造販売業者の氏名又は名称及び住所
+    text: 一　製造販売業者の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-61-p1-kou-2
     type: kou
-    text: 名称
+    text: 二　名称
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-61-p1-kou-3
     type: kou
-    text: 製造番号又は製造記号
+    text: 三　製造番号又は製造記号
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-61-p1-kou-4
     type: kou
-    text: 厚生労働大臣の指定する成分を含有する化粧品にあつては、その成分の名称
+    text: 四　厚生労働大臣の指定する成分を含有する化粧品にあつては、その成分の名称
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-61-p1-kou-5
     type: kou
-    text: 厚生労働大臣の指定する化粧品にあつては、その使用の期限
+    text: 五　厚生労働大臣の指定する化粧品にあつては、その使用の期限
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-61-p1-kou-6
     type: kou
-    text: 第四十二条第二項の規定によりその基準が定められた化粧品にあつては、その基準において直接の容器又は直接の被包に記載するように定められた事項
+    text: 六　第四十二条第二項の規定によりその基準が定められた化粧品にあつては、その基準において直接の容器又は直接の被包に記載するように定められた事項
     modality: unspecified
     item_number: 6
   - id: yakkihou-art-61-p1-kou-7
     type: kou
-    text: 前各号に掲げるもののほか、厚生労働省令で定める事項
+    text: 七　前各号に掲げるもののほか、厚生労働省令で定める事項
     modality: unspecified
     item_number: 7
 cases: []

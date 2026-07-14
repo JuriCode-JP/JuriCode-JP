@@ -47,8 +47,8 @@ paragraphs:
     text: 勧誘者は、前項前段の規定により同項に規定する事項を提供しようとするときは、内閣府令で定めるところにより、あらかじめ、当該被勧誘者に対し、その用いる電磁的方法の種類及び内容を示し、書面又は電磁的方法による承諾を得なければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: true
   has_items: false

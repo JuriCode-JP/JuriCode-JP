@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-153-p1-kou-1
     type: kou
-    text: 労働協約により定められる退職給与の支給に関する規程
+    text: 一　労働協約により定められる退職給与の支給に関する規程
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-153-p1-kou-2
     type: kou
-    text: 労働基準法第八十九条（就業規則の作成及び届出の義務）又は船員法第九十七条第二項（就業規則の作成及び届出）の規定により行政官庁に届け出られた就業規則により定められる退職給与の支給に関する規程
+    text: 二　労働基準法第八十九条（就業規則の作成及び届出の義務）又は船員法第九十七条第二項（就業規則の作成及び届出）の規定により行政官庁に届け出られた就業規則により定められる退職給与の支給に関する規程
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-153-p1-kou-3
     type: kou
-    text: 労働基準法第八十九条又は船員法第九十七条の規定の適用を受けない居住者がその作成した退職給与の支給に関する規程をあらかじめ納税地の所轄税務署長に届け出た場合における当該規程
+    text: 三　労働基準法第八十九条又は船員法第九十七条の規定の適用を受けない居住者がその作成した退職給与の支給に関する規程をあらかじめ納税地の所轄税務署長に届け出た場合における当該規程
     modality: unspecified
     item_number: 3
 cases: []

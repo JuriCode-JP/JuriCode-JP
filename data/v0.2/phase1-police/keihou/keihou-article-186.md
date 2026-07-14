@@ -39,7 +39,7 @@ parent_section:
   hen: 2
   hen_name_ja: 第二編　罪
   shou: 23
-  shou_name_ja: 第二十三章　賭と博及び富くじに関する罪
+  shou_name_ja: 第二十三章　賭博及び富くじに関する罪
 ---
 
 # 刑法 第186条(（常習賭博及び賭博場開張等図利）)

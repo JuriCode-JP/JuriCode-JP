@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-1-15-p1-kou-1
     type: kou
-    text: 預金保険法（昭和四十六年法律第三十四号）第二条第二項に規定する預金等及び農水産業協同組合貯金保険法（昭和四十八年法律第五十三号）第二条第二項に規定する貯金等の受入れを内容とする取引に付随する法第二条第二十二項第三号（ロを除く。）に掲げる取引（通貨の売買に係るものに限る。）
+    text: 一　預金保険法（昭和四十六年法律第三十四号）第二条第二項に規定する預金等及び農水産業協同組合貯金保険法（昭和四十八年法律第五十三号）第二条第二項に規定する貯金等の受入れを内容とする取引に付随する法第二条第二十二項第三号（ロを除く。）に掲げる取引（通貨の売買に係るものに限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-1-15-p1-kou-2
     type: kou
-    text: 保険業法第二条第一項に規定する保険業及び同項各号に掲げる事業に係る契約の締結
+    text: 二　保険業法第二条第一項に規定する保険業及び同項各号に掲げる事業に係る契約の締結
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-1-15-p1-kou-3
     type: kou
-    text: 債務の保証に係る契約の締結
+    text: 三　債務の保証に係る契約の締結
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-1-15-p1-kou-4
     type: kou
-    text: 貸付けに係る債務の全部又は一部の弁済がなされないこととなつた場合において、その債権者に対してその弁済がなされないこととなつた額の一部を補てんすることを内容とする契約の締結（前号に掲げるものを除く。）
+    text: 四　貸付けに係る債務の全部又は一部の弁済がなされないこととなつた場合において、その債権者に対してその弁済がなされないこととなつた額の一部を補てんすることを内容とする契約の締結（前号に掲げるものを除く。）
     modality: unspecified
     item_number: 4
 cases: []

@@ -23,53 +23,53 @@ paragraphs:
     modality: kanou_negative
   - id: douro-koutsuu-hou-art-103-p1-kou-1
     type: kou
-    text: '次に掲げる病気にかかつている者であることが判明したとき。
+    text: '一　次に掲げる病気にかかつている者であることが判明したとき。
 
-      イ 幻覚の症状を伴う精神病であつて政令で定めるもの
+      イ　幻覚の症状を伴う精神病であつて政令で定めるもの
 
-      ロ 発作により意識障害又は運動障害をもたらす病気であつて政令で定めるもの
+      ロ　発作により意識障害又は運動障害をもたらす病気であつて政令で定めるもの
 
-      ハ イ及びロに掲げるもののほか、自動車等の安全な運転に支障を及ぼすおそれがある病気として政令で定めるもの'
+      ハ　イ及びロに掲げるもののほか、自動車等の安全な運転に支障を及ぼすおそれがある病気として政令で定めるもの'
     modality: unspecified
     item_number: 1
-  - id: douro-koutsuu-hou-art-103-p1-kou-1
+  - id: douro-koutsuu-hou-art-103-p1-kou-1-2
     type: kou
-    text: 認知症であることが判明したとき。
+    text: 一の二　認知症であることが判明したとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-103-p1-kou-2
     type: kou
-    text: 目が見えないことその他自動車等の安全な運転に支障を及ぼすおそれがある身体の障害として政令で定めるものが生じている者であることが判明したとき。
+    text: 二　目が見えないことその他自動車等の安全な運転に支障を及ぼすおそれがある身体の障害として政令で定めるものが生じている者であることが判明したとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-103-p1-kou-3
     type: kou
-    text: アルコール、麻薬、大麻、あへん又は覚醒剤の中毒者であることが判明したとき。
+    text: 三　アルコール、麻薬、大麻、あへん又は覚醒剤の中毒者であることが判明したとき。
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-103-p1-kou-4
     type: kou
-    text: 第六項の規定による命令に違反したとき。
+    text: 四　第六項の規定による命令に違反したとき。
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-103-p1-kou-5
     type: kou
-    text: 自動車等の運転に関しこの法律若しくはこの法律に基づく命令の規定又はこの法律の規定に基づく処分に違反したとき（次項第一号から第四号までのいずれかに該当する場合を除く。）。
+    text: 五　自動車等の運転に関しこの法律若しくはこの法律に基づく命令の規定又はこの法律の規定に基づく処分に違反したとき（次項第一号から第四号までのいずれかに該当する場合を除く。）。
     modality: unspecified
     item_number: 5
   - id: douro-koutsuu-hou-art-103-p1-kou-6
     type: kou
-    text: 重大違反唆し等をしたとき。
+    text: 六　重大違反唆し等をしたとき。
     modality: unspecified
     item_number: 6
   - id: douro-koutsuu-hou-art-103-p1-kou-7
     type: kou
-    text: 道路外致死傷をしたとき（次項第五号に該当する場合を除く。）。
+    text: 七　道路外致死傷をしたとき（次項第五号に該当する場合を除く。）。
     modality: unspecified
     item_number: 7
   - id: douro-koutsuu-hou-art-103-p1-kou-8
     type: kou
-    text: 前各号に掲げるもののほか、免許を受けた者が自動車等を運転することが著しく道路における交通の危険を生じさせるおそれがあるとき。
+    text: 八　前各号に掲げるもののほか、免許を受けた者が自動車等を運転することが著しく道路における交通の危険を生じさせるおそれがあるとき。
     modality: unspecified
     item_number: 8
 - number: 2
@@ -83,27 +83,27 @@ paragraphs:
     modality: koka_torikeshi
   - id: douro-koutsuu-hou-art-103-p2-kou-1
     type: kou
-    text: 自動車等の運転により人を死傷させ、又は建造物を損壊させる行為で故意によるものをしたとき。
+    text: 一　自動車等の運転により人を死傷させ、又は建造物を損壊させる行為で故意によるものをしたとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-103-p2-kou-2
     type: kou
-    text: 自動車等の運転に関し自動車の運転により人を死傷させる行為等の処罰に関する法律第二条から第四条までの罪に当たる行為をしたとき。
+    text: 二　自動車等の運転に関し自動車の運転により人を死傷させる行為等の処罰に関する法律第二条から第四条までの罪に当たる行為をしたとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-103-p2-kou-3
     type: kou
-    text: 自動車等の運転に関し第百十七条の二第一項第一号、第三号又は第四号の違反行為をしたとき（前二号のいずれかに該当する場合を除く。）。
+    text: 三　自動車等の運転に関し第百十七条の二第一項第一号、第三号又は第四号の違反行為をしたとき（前二号のいずれかに該当する場合を除く。）。
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-103-p2-kou-4
     type: kou
-    text: 自動車等の運転に関し第百十七条第一項又は第二項の違反行為をしたとき。
+    text: 四　自動車等の運転に関し第百十七条第一項又は第二項の違反行為をしたとき。
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-103-p2-kou-5
     type: kou
-    text: 道路外致死傷で故意によるもの又は自動車の運転により人を死傷させる行為等の処罰に関する法律第二条から第四条までの罪に当たるものをしたとき。
+    text: 五　道路外致死傷で故意によるもの又は自動車の運転により人を死傷させる行為等の処罰に関する法律第二条から第四条までの罪に当たるものをしたとき。
     modality: unspecified
     item_number: 5
 - number: 3
@@ -130,8 +130,8 @@ paragraphs:
     override_target:
     - 第二項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

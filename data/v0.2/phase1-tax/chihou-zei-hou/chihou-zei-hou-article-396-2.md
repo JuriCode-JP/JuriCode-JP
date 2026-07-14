@@ -25,37 +25,37 @@ paragraphs:
     - 前条
   - id: chihou-zei-hou-art-396-2-p1-kou-1
     type: kou
-    text: 質問検査等を行う実地の調査（以下この項及び第三項において単に「調査」という。）を開始する日時
+    text: 一　質問検査等を行う実地の調査（以下この項及び第三項において単に「調査」という。）を開始する日時
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-396-2-p1-kou-2
     type: kou
-    text: 調査を行う場所
+    text: 二　調査を行う場所
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-396-2-p1-kou-3
     type: kou
-    text: 調査の目的
+    text: 三　調査の目的
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-396-2-p1-kou-4
     type: kou
-    text: 固定資産税に関する調査である旨
+    text: 四　固定資産税に関する調査である旨
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-396-2-p1-kou-5
     type: kou
-    text: 調査の対象となる期間
+    text: 五　調査の対象となる期間
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-396-2-p1-kou-6
     type: kou
-    text: 調査の対象となる帳簿書類その他の物件
+    text: 六　調査の対象となる帳簿書類その他の物件
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-art-396-2-p1-kou-7
     type: kou
-    text: その他調査の適正かつ円滑な実施に必要なものとして政令で定める事項
+    text: 七　その他調査の適正かつ円滑な実施に必要なものとして政令で定める事項
     modality: unspecified
     item_number: 7
 - number: 2
@@ -68,8 +68,8 @@ paragraphs:
     text: 総務大臣は、前項の規定による通知を受けた納税義務者から合理的な理由を付して同項第一号又は第二号に掲げる事項について変更するよう求めがあつた場合には、当該事項について協議するよう努めるものとする。
     modality: doryoku_gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

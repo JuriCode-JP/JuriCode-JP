@@ -34,8 +34,8 @@ paragraphs:
     text: 前項に規定する主要な事業として行われる貸付けに該当するかどうかの判定その他同項の規定の適用に関し必要な事項は、財務省令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases:
 - case_id: ntt-2012-02-06-j86-15
   case_type: ruling

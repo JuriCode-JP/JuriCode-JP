@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_kei
   - id: kaisha-hou-art-977-p1-kou-1
     type: kou
-    text: 第九百四十六条第三項の規定に違反して、報告をせず、又は虚偽の報告をした者
+    text: 一　第九百四十六条第三項の規定に違反して、報告をせず、又は虚偽の報告をした者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-977-p1-kou-2
     type: kou
-    text: 第九百五十一条第一項の規定に違反して、財務諸表等（同項に規定する財務諸表等をいう。以下同じ。）を備え置かず、又は財務諸表等に記載し、若しくは記録すべき事項を記載せず、若しくは記録せず、若しくは虚偽の記載若しくは記録をした者
+    text: 二　第九百五十一条第一項の規定に違反して、財務諸表等（同項に規定する財務諸表等をいう。以下同じ。）を備え置かず、又は財務諸表等に記載し、若しくは記録すべき事項を記載せず、若しくは記録せず、若しくは虚偽の記載若しくは記録をした者
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-977-p1-kou-3
     type: kou
-    text: 正当な理由がないのに、第九百五十一条第二項各号又は第九百五十五条第二項各号に掲げる請求を拒んだ者
+    text: 三　正当な理由がないのに、第九百五十一条第二項各号又は第九百五十五条第二項各号に掲げる請求を拒んだ者
     modality: unspecified
     item_number: 3
 cases: []

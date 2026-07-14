@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-50-p1-kou-1
     type: kou
-    text: 医療機器及び体外診断用医薬品の製造管理及び品質管理の基準に関する省令（平成十六年厚生労働省令第百六十九号）により医療機器等総括製造販売責任者が行うこととされた業務
+    text: 一　医療機器及び体外診断用医薬品の製造管理及び品質管理の基準に関する省令（平成十六年厚生労働省令第百六十九号）により医療機器等総括製造販売責任者が行うこととされた業務
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-50-p1-kou-2
     type: kou
-    text: 医薬品、医薬部外品、化粧品、医療機器及び再生医療等製品の製造販売後安全管理の基準に関する省令により医療機器等総括製造販売責任者が行うこととされた業務
+    text: 二　医薬品、医薬部外品、化粧品、医療機器及び再生医療等製品の製造販売後安全管理の基準に関する省令により医療機器等総括製造販売責任者が行うこととされた業務
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-50-p1-kou-3
     type: kou
-    text: 法第二十三条の二の十五の二第一項第一号に規定する医療機器等総括製造販売責任者が有する権限に係る業務
+    text: 三　法第二十三条の二の十五の二第一項第一号に規定する医療機器等総括製造販売責任者が有する権限に係る業務
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,17 +47,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-50-p2-kou-1
     type: kou
-    text: 製造管理及び品質管理並びに製造販売後安全管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
+    text: 一　製造管理及び品質管理並びに製造販売後安全管理に係る業務に関する法令及び実務に精通し、公正かつ適正に当該業務を行うこと。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-50-p2-kou-2
     type: kou
-    text: 法第二十三条の二の十四第三項の規定により製造販売業者に対して述べる意見を記載した書面の写しを五年間保存すること。
+    text: 二　法第二十三条の二の十四第三項の規定により製造販売業者に対して述べる意見を記載した書面の写しを五年間保存すること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-50-p2-kou-3
     type: kou
-    text: 医療機器又は体外診断用医薬品の国内における品質管理に関する業務の責任者（以下「国内品質業務運営責任者」という。）及び医療機器又は体外診断用医薬品の製造販売後安全管理に関する業務の責任者（以下「医療機器等安全管理責任者」という。）との相互の密接な連携を図ること。
+    text: 三　医療機器又は体外診断用医薬品の国内における品質管理に関する業務の責任者（以下「国内品質業務運営責任者」という。）及び医療機器又は体外診断用医薬品の製造販売後安全管理に関する業務の責任者（以下「医療機器等安全管理責任者」という。）との相互の密接な連携を図ること。
     modality: unspecified
     item_number: 3
 cases: []

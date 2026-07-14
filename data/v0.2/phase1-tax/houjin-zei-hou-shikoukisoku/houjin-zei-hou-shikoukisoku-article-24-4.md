@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-24-4-p1-kou-1
     type: kou
-    text: 法第四十三条第六項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　法第四十三条第六項の規定の適用を受けようとする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-24-4-p1-kou-2
     type: kou
-    text: 法第四十三条第六項に規定する適格分割等（次号において「適格分割等」という。）に係る同項第一号に規定する分割承継法人等の名称及び納税地並びに代表者の氏名
+    text: 二　法第四十三条第六項に規定する適格分割等（次号において「適格分割等」という。）に係る同項第一号に規定する分割承継法人等の名称及び納税地並びに代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-24-4-p1-kou-3
     type: kou
-    text: 適格分割等の日
+    text: 三　適格分割等の日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-24-4-p1-kou-4
     type: kou
-    text: 法第四十三条第六項第二号に規定する取得又は改良をすることが見込まれる同号に規定する固定資産の種類、構造及び規模並びに当該取得又は改良に要することが見込まれる金額及び当該取得又は改良予定日
+    text: 四　法第四十三条第六項第二号に規定する取得又は改良をすることが見込まれる同号に規定する固定資産の種類、構造及び規模並びに当該取得又は改良に要することが見込まれる金額及び当該取得又は改良予定日
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-24-4-p1-kou-5
     type: kou
-    text: 法第四十三条第六項に規定する期中特別勘定の金額に相当する金額及び当該金額の計算に関する明細
+    text: 五　法第四十三条第六項に規定する期中特別勘定の金額に相当する金額及び当該金額の計算に関する明細
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-24-4-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

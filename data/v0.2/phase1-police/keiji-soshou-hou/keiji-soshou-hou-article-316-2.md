@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の決定又は同項の請求を却下する決定をするには、裁判所の規則の定めるところにより、あらかじめ、検察官及び被告人又は弁護人の意見を聴かなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

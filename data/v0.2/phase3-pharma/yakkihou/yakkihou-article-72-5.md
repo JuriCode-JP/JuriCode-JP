@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-art-72-5-p1-kou-1
     type: kou
-    text: 当該違反行為をした者
+    text: 一　当該違反行為をした者
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-72-5-p1-kou-2
     type: kou
-    text: 当該違反行為をした者が法人である場合において、当該法人が合併により消滅したときにおける合併後存続し、又は合併により設立された法人
+    text: 二　当該違反行為をした者が法人である場合において、当該法人が合併により消滅したときにおける合併後存続し、又は合併により設立された法人
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-72-5-p1-kou-3
     type: kou
-    text: 当該違反行為をした者が法人である場合において、当該法人から分割により当該違反行為に係る事業の全部又は一部を承継した法人
+    text: 三　当該違反行為をした者が法人である場合において、当該法人から分割により当該違反行為に係る事業の全部又は一部を承継した法人
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-72-5-p1-kou-4
     type: kou
-    text: 当該違反行為をした者から当該違反行為に係る事業の全部又は一部を譲り受けた者
+    text: 四　当該違反行為をした者から当該違反行為に係る事業の全部又は一部を譲り受けた者
     modality: unspecified
     item_number: 4
 - number: 2

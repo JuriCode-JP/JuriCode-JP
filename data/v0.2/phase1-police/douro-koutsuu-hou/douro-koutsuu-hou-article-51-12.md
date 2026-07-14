@@ -92,6 +92,10 @@ paragraphs:
     modality: gimu
     references:
     - 同項
+  - id: douro-koutsuu-hou-art-51-12-supplnote-1
+    type: supplnote
+    text: （罰則　第六項については第百十七条の四第一項第一号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

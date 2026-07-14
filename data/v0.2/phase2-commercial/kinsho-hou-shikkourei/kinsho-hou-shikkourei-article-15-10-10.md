@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-10-10-p1-kou-1
     type: kou
-    text: 金融商品取引業者等（投資運用業を行う者に限る。）
+    text: 一　金融商品取引業者等（投資運用業を行う者に限る。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-10-10-p1-kou-2
     type: kou
-    text: 外国の法令に準拠して設立された法人で外国において投資運用業を行う者（前号に掲げる者を除く。）
+    text: 二　外国の法令に準拠して設立された法人で外国において投資運用業を行う者（前号に掲げる者を除く。）
     modality: unspecified
     item_number: 2
 cases: []

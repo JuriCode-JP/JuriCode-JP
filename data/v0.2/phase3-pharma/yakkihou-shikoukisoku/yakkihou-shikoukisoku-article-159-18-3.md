@@ -31,8 +31,8 @@ paragraphs:
     text: 要指導医薬品における前項の規定の適用については、同項中「第百五十八条の八第二項」とあるのは「第百五十八条の十二第二項各号」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

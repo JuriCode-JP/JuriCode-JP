@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-25-p1-kou-1
     type: kou
-    text: 請求をする法人の名称、当該道府県内の主たる事務所又は事業所の所在地及び法人番号
+    text: 一　請求をする法人の名称、当該道府県内の主たる事務所又は事業所の所在地及び法人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-25-p1-kou-2
     type: kou
-    text: 請求をする法人の代表者（法の施行地に主たる事務所又は事業所を有しない法人にあつては、法の施行地における資産又は事業の管理又は経営の責任者）の氏名及び住所又は居所
+    text: 二　請求をする法人の代表者（法の施行地に主たる事務所又は事業所を有しない法人にあつては、法の施行地における資産又は事業の管理又は経営の責任者）の氏名及び住所又は居所
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-25-p1-kou-3
     type: kou
-    text: 還付を受けようとする金額
+    text: 三　還付を受けようとする金額
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-25-p1-kou-4
     type: kou
-    text: 銀行又は郵便局（簡易郵便局法第二条に規定する郵便窓口業務を行う日本郵便株式会社の営業所であつて郵政民営化法第九十四条に規定する郵便貯金銀行を銀行法第二条第十六項に規定する所属銀行とする同条第十四項に規定する銀行代理業の業務を行うものをいう。）において還付を受けようとするときは、当該銀行又は郵便局の名称及び所在地
+    text: 四　銀行又は郵便局（簡易郵便局法第二条に規定する郵便窓口業務を行う日本郵便株式会社の営業所であつて郵政民営化法第九十四条に規定する郵便貯金銀行を銀行法第二条第十六項に規定する所属銀行とする同条第十四項に規定する銀行代理業の業務を行うものをいう。）において還付を受けようとするときは、当該銀行又は郵便局の名称及び所在地
     modality: unspecified
     item_number: 4
 - number: 2

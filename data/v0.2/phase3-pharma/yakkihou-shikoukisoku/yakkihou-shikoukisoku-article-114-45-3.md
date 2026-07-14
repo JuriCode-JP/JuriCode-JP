@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-1
     type: kou
-    text: 使用目的又は効果
+    text: 一　使用目的又は効果
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-2
     type: kou
-    text: 形状、構造及び原理
+    text: 二　形状、構造及び原理
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-3
     type: kou
-    text: 原材料
+    text: 三　原材料
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-4
     type: kou
-    text: 性能及び安全性に関する規格
+    text: 四　性能及び安全性に関する規格
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-5
     type: kou
-    text: 使用方法
+    text: 五　使用方法
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-6
     type: kou
-    text: 保管方法
+    text: 六　保管方法
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-7
     type: kou
-    text: 有効期間
+    text: 七　有効期間
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-8
     type: kou
-    text: 製造方法
+    text: 八　製造方法
     modality: unspecified
     item_number: 8
   - id: yakkihou-shikoukisoku-art-114-45-3-p1-kou-9
     type: kou
-    text: 製造販売する品目の製造所
+    text: 九　製造販売する品目の製造所
     modality: unspecified
     item_number: 9
 - number: 2
@@ -77,47 +77,47 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-1
     type: kou
-    text: 使用目的
+    text: 一　使用目的
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-2
     type: kou
-    text: 形状、構造及び原理
+    text: 二　形状、構造及び原理
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-3
     type: kou
-    text: 反応系に関与する成分
+    text: 三　反応系に関与する成分
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-4
     type: kou
-    text: 品目仕様
+    text: 四　品目仕様
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-5
     type: kou
-    text: 使用方法
+    text: 五　使用方法
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-6
     type: kou
-    text: 保管方法
+    text: 六　保管方法
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-7
     type: kou
-    text: 有効期間
+    text: 七　有効期間
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-8
     type: kou
-    text: 製造方法
+    text: 八　製造方法
     modality: unspecified
     item_number: 8
   - id: yakkihou-shikoukisoku-art-114-45-3-p2-kou-9
     type: kou
-    text: 製造販売する品目の製造所
+    text: 九　製造販売する品目の製造所
     modality: unspecified
     item_number: 9
 cases: []

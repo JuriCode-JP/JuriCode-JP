@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 前条
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
@@ -37,8 +37,8 @@ paragraphs:
     text: その年分以後の各年分の所得税につき前項の規定の適用を受けようとする居住者は、その年三月十五日まで（その年一月十六日以後新たに同項の事業を開始した場合には、その事業を開始した日から二月以内）に、青色事業専従者の氏名、その職務の内容及び給与の金額並びにその給与の支給期その他財務省令で定める事項を記載した書類を納税地の所轄税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -52,16 +52,16 @@ paragraphs:
     - 前条
   - id: shotoku-zei-hou-art-57-p3-kou-1
     type: kou
-    text: '次に掲げる事業専従者の区分に応じそれぞれ次に定める金額
+    text: '一　次に掲げる事業専従者の区分に応じそれぞれ次に定める金額
 
-      イ その居住者の配偶者である事業専従者　八十六万円
+      イ　その居住者の配偶者である事業専従者　八十六万円
 
-      ロ イに掲げる者以外の事業専従者　五十万円'
+      ロ　イに掲げる者以外の事業専従者　五十万円'
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-57-p3-kou-2
     type: kou
-    text: その年分の当該事業に係る不動産所得の金額、事業所得の金額又は山林所得の金額（この項の規定を適用しないで計算した場合の金額とする。）を当該事業に係る事業専従者の数に一を加えた数で除して計算した金額
+    text: 二　その年分の当該事業に係る不動産所得の金額、事業所得の金額又は山林所得の金額（この項の規定を適用しないで計算した場合の金額とする。）を当該事業に係る事業専従者の数に一を加えた数で除して計算した金額
     modality: unspecified
     item_number: 2
 - number: 4
@@ -74,8 +74,8 @@ paragraphs:
     text: 前項の規定の適用があつた場合には、各事業専従者につき同項の規定により必要経費とみなされた金額は、当該各事業専従者の当該年分の各種所得の金額の計算については、当該各事業専従者の給与所得に係る収入金額とみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

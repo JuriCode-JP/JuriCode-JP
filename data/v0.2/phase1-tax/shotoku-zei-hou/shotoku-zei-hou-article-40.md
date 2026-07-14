@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: shotoku-zei-hou-art-40-p1-kou-1
     type: kou
-    text: 贈与（相続人に対する贈与で被相続人である贈与者の死亡により効力を生ずるものを除く。）又は遺贈（包括遺贈及び相続人に対する特定遺贈を除く。）　当該贈与又は遺贈の時におけるそのたな卸資産の価額
+    text: 一　贈与（相続人に対する贈与で被相続人である贈与者の死亡により効力を生ずるものを除く。）又は遺贈（包括遺贈及び相続人に対する特定遺贈を除く。）　当該贈与又は遺贈の時におけるそのたな卸資産の価額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-40-p1-kou-2
     type: kou
-    text: 著しく低い価額の対価による譲渡　当該対価の額と当該譲渡の時におけるそのたな卸資産の価額との差額のうち実質的に贈与をしたと認められる金額
+    text: 二　著しく低い価額の対価による譲渡　当該対価の額と当該譲渡の時におけるそのたな卸資産の価額との差額のうち実質的に贈与をしたと認められる金額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,12 +44,12 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-art-40-p2-kou-1
     type: kou
-    text: 前項第一号に掲げる贈与又は遺贈により取得したたな卸資産については、同号に掲げる金額をもつて取得したものとみなす。
+    text: 一　前項第一号に掲げる贈与又は遺贈により取得したたな卸資産については、同号に掲げる金額をもつて取得したものとみなす。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-40-p2-kou-2
     type: kou
-    text: 前項第二号に掲げる譲渡により取得したたな卸資産については、当該譲渡の対価の額と同号に掲げる金額との合計額をもつて取得したものとみなす。
+    text: 二　前項第二号に掲げる譲渡により取得したたな卸資産については、当該譲渡の対価の額と同号に掲げる金額との合計額をもつて取得したものとみなす。
     modality: unspecified
     item_number: 2
 cases: []

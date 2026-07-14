@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-775-p1-kou-1
     type: kou
-    text: 父の否認権　子又は親権を行う母
+    text: 一　父の否認権　子又は親権を行う母
     modality: unspecified
     item_number: 1
   - id: minpou-art-775-p1-kou-2
     type: kou
-    text: 子の否認権　父
+    text: 二　子の否認権　父
     modality: unspecified
     item_number: 2
   - id: minpou-art-775-p1-kou-3
     type: kou
-    text: 母の否認権　父
+    text: 三　母の否認権　父
     modality: unspecified
     item_number: 3
   - id: minpou-art-775-p1-kou-4
     type: kou
-    text: 前夫の否認権　父及び子又は親権を行う母
+    text: 四　前夫の否認権　父及び子又は親権を行う母
     modality: unspecified
     item_number: 4
 - number: 2

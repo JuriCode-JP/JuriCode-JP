@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shouken-jouhou-furei-art-8-p1-kou-1
     type: kou
-    text: 当該有価証券又は当該発行者が発行する他の有価証券について開示が行われている場合に該当する場合
+    text: 一　当該有価証券又は当該発行者が発行する他の有価証券について開示が行われている場合に該当する場合
     modality: unspecified
     item_number: 1
   - id: shouken-jouhou-furei-art-8-p1-kou-2
     type: kou
-    text: 当該有価証券がその特定勧誘等につき法第二十七条の三十一第一項の規定の適用を受けることにより、同条第二項の規定により提供又は公表が行われた特定証券情報に、当該特定証券情報の提供又は公表が行われた日の属する事業年度の直前事業年度に係る第二条第二項第一号ニ又は第二号ハに掲げる事項に関する情報が含まれている場合
+    text: 二　当該有価証券がその特定勧誘等につき法第二十七条の三十一第一項の規定の適用を受けることにより、同条第二項の規定により提供又は公表が行われた特定証券情報に、当該特定証券情報の提供又は公表が行われた日の属する事業年度の直前事業年度に係る第二条第二項第一号ニ又は第二号ハに掲げる事項に関する情報が含まれている場合
     modality: unspecified
     item_number: 2
   - id: shouken-jouhou-furei-art-8-p1-kou-3
     type: kou
-    text: 当該有価証券が法第四条第三項第三号に掲げる有価証券に該当することにより特定投資家向け有価証券となった場合
+    text: 三　当該有価証券が法第四条第三項第三号に掲げる有価証券に該当することにより特定投資家向け有価証券となった場合
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,17 +49,17 @@ paragraphs:
     - 次条
   - id: shouken-jouhou-furei-art-8-p2-kou-1
     type: kou
-    text: 特定上場有価証券等　特定取引所規則において定める公表の方法
+    text: 一　特定上場有価証券等　特定取引所規則において定める公表の方法
     modality: unspecified
     item_number: 1
   - id: shouken-jouhou-furei-art-8-p2-kou-2
     type: kou
-    text: 特定店頭売買有価証券等　特定協会規則において定める公表の方法
+    text: 二　特定店頭売買有価証券等　特定協会規則において定める公表の方法
     modality: unspecified
     item_number: 2
   - id: shouken-jouhou-furei-art-8-p2-kou-3
     type: kou
-    text: 前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法
+    text: 三　前二号に掲げる有価証券以外の有価証券　金融庁長官が指定する方法
     modality: unspecified
     item_number: 3
 cases: []

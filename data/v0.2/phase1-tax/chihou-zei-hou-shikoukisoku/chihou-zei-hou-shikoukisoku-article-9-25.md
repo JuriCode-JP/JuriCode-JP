@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-9-25-p1-kou-1
     type: kou
-    text: 特別徴収対象年金所得者　当該特別徴収対象年金所得者の氏名及び住所、当該特別徴収対象年金所得者に係る特別徴収対象年金給付の種類並びに当該年金保険者の名称及び法人番号
+    text: 一　特別徴収対象年金所得者　当該特別徴収対象年金所得者の氏名及び住所、当該特別徴収対象年金所得者に係る特別徴収対象年金給付の種類並びに当該年金保険者の名称及び法人番号
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-9-25-p1-kou-2
     type: kou
-    text: 年金保険者　前号に掲げる事項のほか、当該特別徴収対象年金所得者の性別、生年月日及び個人番号並びに当該特別徴収対象年金所得者に係る特別徴収対象年金給付の額
+    text: 二　年金保険者　前号に掲げる事項のほか、当該特別徴収対象年金所得者の性別、生年月日及び個人番号並びに当該特別徴収対象年金所得者に係る特別徴収対象年金給付の額
     modality: unspecified
     item_number: 2
 cases: []

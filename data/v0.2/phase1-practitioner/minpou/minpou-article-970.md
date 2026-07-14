@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: minpou-art-970-p1-kou-1
     type: kou
-    text: 遺言者が、その証書に署名し、印を押すこと。
+    text: 一　遺言者が、その証書に署名し、印を押すこと。
     modality: unspecified
     item_number: 1
   - id: minpou-art-970-p1-kou-2
     type: kou
-    text: 遺言者が、その証書を封じ、証書に用いた印章をもってこれに封印すること。
+    text: 二　遺言者が、その証書を封じ、証書に用いた印章をもってこれに封印すること。
     modality: unspecified
     item_number: 2
   - id: minpou-art-970-p1-kou-3
     type: kou
-    text: 遺言者が、公証人一人及び証人二人以上の前に封書を提出して、自己の遺言書である旨並びにその筆者の氏名及び住所を申述すること。
+    text: 三　遺言者が、公証人一人及び証人二人以上の前に封書を提出して、自己の遺言書である旨並びにその筆者の氏名及び住所を申述すること。
     modality: unspecified
     item_number: 3
   - id: minpou-art-970-p1-kou-4
     type: kou
-    text: 公証人が、その証書を提出した日付及び遺言者の申述を封紙に記載した後、遺言者及び証人とともにこれに署名し、印を押すこと。
+    text: 四　公証人が、その証書を提出した日付及び遺言者の申述を封紙に記載した後、遺言者及び証人とともにこれに署名し、印を押すこと。
     modality: unspecified
     item_number: 4
 - number: 2

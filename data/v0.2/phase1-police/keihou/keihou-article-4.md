@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: keihou-art-4-p1-kou-1
     type: kou
-    text: 第百一条（看守者等による逃走援助）の罪及びその未遂罪
+    text: 一　第百一条（看守者等による逃走援助）の罪及びその未遂罪
     modality: unspecified
     item_number: 1
   - id: keihou-art-4-p1-kou-2
     type: kou
-    text: 第百五十六条（虚偽公文書作成等）の罪
+    text: 二　第百五十六条（虚偽公文書作成等）の罪
     modality: unspecified
     item_number: 2
   - id: keihou-art-4-p1-kou-3
     type: kou
-    text: 第百九十三条（公務員職権濫用）、第百九十五条第二項（特別公務員暴行陵虐）及び第百九十七条から第百九十七条の四まで（収賄、受託収賄及び事前収賄、第三者供賄、加重収賄及び事後収賄、あっせん収賄）の罪並びに第百九十五条第二項の罪に係る第百九十六条（特別公務員職権濫用等致死傷）の罪
+    text: 三　第百九十三条（公務員職権濫用）、第百九十五条第二項（特別公務員暴行陵虐）及び第百九十七条から第百九十七条の四まで（収賄、受託収賄及び事前収賄、第三者供賄、加重収賄及び事後収賄、あっせん収賄）の罪並びに第百九十五条第二項の罪に係る第百九十六条（特別公務員職権濫用等致死傷）の罪
     modality: unspecified
     item_number: 3
 cases: []

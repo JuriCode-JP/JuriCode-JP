@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-11-4-p1-kou-1
     type: kou
-    text: その株式又は出資を再度換価に付してもなお買受人がないこと。
+    text: 一　その株式又は出資を再度換価に付してもなお買受人がないこと。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-11-4-p1-kou-2
     type: kou
-    text: その株式若しくは出資の譲渡につき法律若しくは定款に制限があり、又は株券の発行がないため、これらを譲渡することにつき支障があること。
+    text: 二　その株式若しくは出資の譲渡につき法律若しくは定款に制限があり、又は株券の発行がないため、これらを譲渡することにつき支障があること。
     modality: unspecified
     item_number: 2
 - number: 2

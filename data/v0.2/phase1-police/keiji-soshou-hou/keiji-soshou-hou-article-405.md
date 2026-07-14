@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-405-p1-kou-1
     type: kou
-    text: 憲法の違反があること又は憲法の解釈に誤があること。
+    text: 一　憲法の違反があること又は憲法の解釈に誤があること。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-405-p1-kou-2
     type: kou
-    text: 最高裁判所の判例と相反する判断をしたこと。
+    text: 二　最高裁判所の判例と相反する判断をしたこと。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-405-p1-kou-3
     type: kou
-    text: 最高裁判所の判例がない場合に、大審院若しくは上告裁判所たる高等裁判所の判例又はこの法律施行後の控訴裁判所たる高等裁判所の判例と相反する判断をしたこと。
+    text: 三　最高裁判所の判例がない場合に、大審院若しくは上告裁判所たる高等裁判所の判例又はこの法律施行後の控訴裁判所たる高等裁判所の判例と相反する判断をしたこと。
     modality: unspecified
     item_number: 3
 cases: []

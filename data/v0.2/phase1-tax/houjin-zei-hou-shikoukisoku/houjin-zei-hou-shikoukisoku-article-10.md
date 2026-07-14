@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-10-p1-kou-1
     type: kou
-    text: 鉄道設備又は軌道設備に属する構築物のうち、軌条及びその附属品、まくら木、分岐器、ボンド、信号機、通信線、信号線、電灯電力線、送配電線、き電線、電車線、第三軌条並びに電線支持物（鉄柱、鉄塔、コンクリート柱及びコンクリート塔を除く。）
+    text: 一　鉄道設備又は軌道設備に属する構築物のうち、軌条及びその附属品、まくら木、分岐器、ボンド、信号機、通信線、信号線、電灯電力線、送配電線、き電線、電車線、第三軌条並びに電線支持物（鉄柱、鉄塔、コンクリート柱及びコンクリート塔を除く。）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-10-p1-kou-2
     type: kou
-    text: 送電設備に属する構築物のうち、木柱、がい子、送電線、地線及び添架電話線
+    text: 二　送電設備に属する構築物のうち、木柱、がい子、送電線、地線及び添架電話線
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-10-p1-kou-3
     type: kou
-    text: 配電設備に属する構築物のうち、木柱、配電線、引込線及び添架電話線
+    text: 三　配電設備に属する構築物のうち、木柱、配電線、引込線及び添架電話線
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-10-p1-kou-4
     type: kou
-    text: 電気事業用配電設備に属する機械及び装置のうち、計器、柱上変圧器、保安開閉装置、電力用蓄電器及び屋内配線
+    text: 四　電気事業用配電設備に属する機械及び装置のうち、計器、柱上変圧器、保安開閉装置、電力用蓄電器及び屋内配線
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-10-p1-kou-5
     type: kou
-    text: ガス又はコークスの製造設備及びガスの供給設備に属する機械及び装置のうち、鋳鉄ガス導管（口径二十・三二センチメートル以下のものに限る。）、鋼鉄ガス導管及び需要者用ガス計量器
+    text: 五　ガス又はコークスの製造設備及びガスの供給設備に属する機械及び装置のうち、鋳鉄ガス導管（口径二十・三二センチメートル以下のものに限る。）、鋼鉄ガス導管及び需要者用ガス計量器
     modality: unspecified
     item_number: 5
 cases: []

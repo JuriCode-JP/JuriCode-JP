@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の一親等の血族には、同項の被相続人の直系卑属が当該被相続人の養子となつている場合を含まないものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
   - id: souzoku-zei-hou-art-18-p2-tadashi
     type: tadashi
     text: ただし、当該被相続人の直系卑属が相続開始以前に死亡し、又は相続権を失つたため、代襲して相続人となつている場合は、この限りでない。

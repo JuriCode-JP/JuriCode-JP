@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-158-4-p1-kou-1
     type: kou
-    text: 顧客の氏名又は名称
+    text: 一　顧客の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-158-4-p1-kou-2
     type: kou
-    text: 確認年月日
+    text: 二　確認年月日
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-158-4-p1-kou-3
     type: kou
-    text: 有価証券の管理の方法
+    text: 三　有価証券の管理の方法
     modality: unspecified
     item_number: 3
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-51-15-3-p1-kou-1
     type: kou
-    text: 事務所の用に供する固定資産
+    text: 一　事務所の用に供する固定資産
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-51-15-3-p1-kou-2
     type: kou
-    text: 宿舎（機構法第十二条第一項第五号に規定する水産に関する学理及び技術の教授を受ける者のための宿舎を除く。）の用に供する固定資産
+    text: 二　宿舎（機構法第十二条第一項第五号に規定する水産に関する学理及び技術の教授を受ける者のための宿舎を除く。）の用に供する固定資産
     modality: unspecified
     item_number: 2
 cases: []

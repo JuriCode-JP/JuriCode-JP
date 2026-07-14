@@ -30,6 +30,10 @@ paragraphs:
     type: simple
     text: 自動車の運転者は、故障その他の理由により本線車道等において運転することができなくなつたときは、速やかに当該自動車を本線車道等以外の場所に移動するため必要な措置を講じなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-75-11-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百二十条第一項第十三号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

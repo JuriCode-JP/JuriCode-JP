@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-158-2-p1-kou-1
     type: kou
-    text: 顧客の氏名又は名称
+    text: 一　顧客の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-158-2-p1-kou-2
     type: kou
-    text: 確認年月日
+    text: 二　確認年月日
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-158-2-p1-kou-3
     type: kou
-    text: 決済措置に係る有価証券の調達先
+    text: 三　決済措置に係る有価証券の調達先
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-158-2-p1-kou-4
     type: kou
-    text: 令第二十六条の二の二第一項又は第二項（これらの規定を同条第六項及び第七項において準用する場合を含む。）の規定により確認した決済措置の内容
+    text: 四　令第二十六条の二の二第一項又は第二項（これらの規定を同条第六項及び第七項において準用する場合を含む。）の規定により確認した決済措置の内容
     modality: unspecified
     item_number: 4
 cases: []

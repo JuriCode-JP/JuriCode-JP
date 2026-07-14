@@ -25,22 +25,22 @@ paragraphs:
     - 次条
   - id: chihou-zei-hou-art-674-p1-kou-1
     type: kou
-    text: 納税義務者又は納税義務があると認められる者
+    text: 一　納税義務者又は納税義務があると認められる者
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-674-p1-kou-2
     type: kou
-    text: 特別徴収義務者
+    text: 二　特別徴収義務者
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-674-p1-kou-3
     type: kou
-    text: 前二号に掲げる者に金銭又は物品を給付する義務があると認められる者
+    text: 三　前二号に掲げる者に金銭又は物品を給付する義務があると認められる者
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-674-p1-kou-4
     type: kou
-    text: 前三号に掲げる者以外の者で当該市町村法定外普通税の賦課徴収に関し直接関係があると認められる者
+    text: 四　前三号に掲げる者以外の者で当該市町村法定外普通税の賦課徴収に関し直接関係があると認められる者
     modality: unspecified
     item_number: 4
 - number: 2
@@ -53,8 +53,8 @@ paragraphs:
     text: 前項第一号又は第二号に掲げる者を分割法人（分割によりその有する資産及び負債の移転を行つた法人をいう。以下本項において同じ。）とする分割に係る分割承継法人（分割により分割法人から資産及び負債の移転を受けた法人をいう。以下本項において同じ。）及び前項第一号又は第二号に掲げる者を分割承継法人とする分割に係る分割法人は、同項第三号に規定する金銭又は物品を給付する義務があると認められる者に含まれるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

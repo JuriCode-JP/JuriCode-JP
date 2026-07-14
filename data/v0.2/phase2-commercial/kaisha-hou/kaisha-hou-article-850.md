@@ -46,8 +46,8 @@ paragraphs:
     text: 株式会社等が前項の期間内に書面により異議を述べなかったときは、同項の規定による通知の内容で株主等が和解をすることを承認したものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

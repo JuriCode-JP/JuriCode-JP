@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: kinsho-hou-art-153-2-p1-kou-1
     type: kou
-    text: 委託契約の内容が、受託自主規制法人における自主規制業務の適正な実施を確保するためには不十分であると認めるに至つた場合
+    text: 一　委託契約の内容が、受託自主規制法人における自主規制業務の適正な実施を確保するためには不十分であると認めるに至つた場合
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-153-2-p1-kou-2
     type: kou
-    text: その他受託自主規制法人による自主規制業務が、自主規制業務の履行の状況として適当と認められない場合
+    text: 二　その他受託自主規制法人による自主規制業務が、自主規制業務の履行の状況として適当と認められない場合
     modality: unspecified
     item_number: 2
 cases: []

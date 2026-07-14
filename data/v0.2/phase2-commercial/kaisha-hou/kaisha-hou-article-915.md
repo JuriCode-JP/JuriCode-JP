@@ -51,12 +51,12 @@ paragraphs:
     - 第一項
   - id: kaisha-hou-art-915-p3-kou-1
     type: kou
-    text: 新株予約権の行使
+    text: 一　新株予約権の行使
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-915-p3-kou-2
     type: kou
-    text: 第百六十六条第一項の規定による請求（株式の内容として第百七条第二項第二号ハ若しくはニ又は第百八条第二項第五号ロに掲げる事項についての定めがある場合に限る。）
+    text: 二　第百六十六条第一項の規定による請求（株式の内容として第百七条第二項第二号ハ若しくはニ又は第百八条第二項第五号ロに掲げる事項についての定めがある場合に限る。）
     modality: unspecified
     item_number: 2
 cases: []

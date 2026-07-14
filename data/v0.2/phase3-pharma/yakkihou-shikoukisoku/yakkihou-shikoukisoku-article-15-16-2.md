@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-15-16-2-p1-kou-1
     type: kou
-    text: 地域連携薬局等である旨
+    text: 一　地域連携薬局等である旨
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-15-16-2-p1-kou-2
     type: kou
-    text: 地域連携薬局等の機能に係る説明
+    text: 二　地域連携薬局等の機能に係る説明
     modality: unspecified
     item_number: 2
 cases: []

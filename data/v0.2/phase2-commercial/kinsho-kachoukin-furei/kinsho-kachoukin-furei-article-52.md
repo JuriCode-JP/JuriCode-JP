@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-52-p1-kou-1
     type: kou
-    text: 書類等の表示
+    text: 一　書類等の表示
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-52-p1-kou-2
     type: kou
-    text: 書類等の趣旨
+    text: 二　書類等の趣旨
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-52-p1-kou-3
     type: kou
-    text: 書類等の所持者
+    text: 三　書類等の所持者
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-52-p1-kou-4
     type: kou
-    text: 証明すべき事実
+    text: 四　証明すべき事実
     modality: unspecified
     item_number: 4
 - number: 2

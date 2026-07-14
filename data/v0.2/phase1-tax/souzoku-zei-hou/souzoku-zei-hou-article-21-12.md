@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: souzoku-zei-hou-art-21-12-p1-kou-1
     type: kou
-    text: 二千五百万円（既にこの条の規定の適用を受けて控除した金額がある場合には、その金額の合計額を控除した残額）
+    text: 一　二千五百万円（既にこの条の規定の適用を受けて控除した金額がある場合には、その金額の合計額を控除した残額）
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-21-12-p1-kou-2
     type: kou
-    text: 特定贈与者ごとの前条第一項の規定による控除後の贈与税の課税価格
+    text: 二　特定贈与者ごとの前条第一項の規定による控除後の贈与税の課税価格
     modality: unspecified
     item_number: 2
 - number: 2
@@ -43,8 +43,8 @@ paragraphs:
     text: 前項の規定は、期限内申告書に同項の規定により控除を受ける金額、既に同項の規定の適用を受けて控除した金額がある場合の控除した金額その他財務省令で定める事項の記載がある場合に限り、適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

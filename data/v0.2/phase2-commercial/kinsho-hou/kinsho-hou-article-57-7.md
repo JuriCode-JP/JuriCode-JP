@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-57-7-p1-kou-1
     type: kou
-    text: 前条第一項の規定により業務の全部又は一部の停止を命じたとき。
+    text: 一　前条第一項の規定により業務の全部又は一部の停止を命じたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-57-7-p1-kou-2
     type: kou
-    text: 前条第三項の規定により第二十九条の登録を取り消したとき。
+    text: 二　前条第三項の規定により第二十九条の登録を取り消したとき。
     modality: unspecified
     item_number: 2
 cases: []

@@ -46,8 +46,8 @@ paragraphs:
     text: 組合契約を締結している組合員である個人は、前項の確定申告書を提出する場合を除き、財務省令で定めるところにより、その年中の組合事業による不動産所得、事業所得又は山林所得に係る同項の書類を、その年の翌年三月十五日までに、税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

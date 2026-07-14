@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-7-p1-kou-1
     type: kou
-    text: 納税者又は特別徴収義務者の氏名及び住所又は居所
+    text: 一　納税者又は特別徴収義務者の氏名及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-7-p1-kou-2
     type: kou
-    text: 滞納に係る地方団体の徴収金の年度、税目、納期限及び金額
+    text: 二　滞納に係る地方団体の徴収金の年度、税目、納期限及び金額
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-7-p1-kou-3
     type: kou
-    text: 譲渡担保財産の名称、数量、性質及び所在
+    text: 三　譲渡担保財産の名称、数量、性質及び所在
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-6-7-p1-kou-4
     type: kou
-    text: 第二号の金額のうち法第十四条の十八第一項の規定により徴収しようとする金額
+    text: 四　第二号の金額のうち法第十四条の十八第一項の規定により徴収しようとする金額
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,17 +52,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-7-p2-kou-1
     type: kou
-    text: 前項第二号から第四号までに掲げる事項
+    text: 一　前項第二号から第四号までに掲げる事項
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-7-p2-kou-2
     type: kou
-    text: 譲渡担保権者の氏名及び住所又は居所
+    text: 二　譲渡担保権者の氏名及び住所又は居所
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-7-p2-kou-3
     type: kou
-    text: 法第十四条の十八第二項の告知書を発した年月日
+    text: 三　法第十四条の十八第二項の告知書を発した年月日
     modality: unspecified
     item_number: 3
 - number: 3
@@ -76,17 +76,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-7-p3-kou-1
     type: kou
-    text: 第一項各号に掲げる事項
+    text: 一　第一項各号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-7-p3-kou-2
     type: kou
-    text: 前項第二号及び第三号に掲げる事項
+    text: 二　前項第二号及び第三号に掲げる事項
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-7-p3-kou-3
     type: kou
-    text: 法第十四条の十八第一項の納税者又は特別徴収義務者の財産として差押えをした年月日（国税徴収法に規定する滞納処分の例により差押えのために債権差押通知書又は差押通知書の送達を行う場合には、これらの発送年月日）
+    text: 三　法第十四条の十八第一項の納税者又は特別徴収義務者の財産として差押えをした年月日（国税徴収法に規定する滞納処分の例により差押えのために債権差押通知書又は差押通知書の送達を行う場合には、これらの発送年月日）
     modality: unspecified
     item_number: 3
 - number: 4

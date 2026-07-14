@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-24-p1-kou-1
     type: kou
-    text: 当該公開買付届出書に記載すべき事項から第三十三条第四項の規定により公衆の縦覧に供しないこととされた事項を除いたもの
+    text: 一　当該公開買付届出書に記載すべき事項から第三十三条第四項の規定により公衆の縦覧に供しないこととされた事項を除いたもの
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-24-p1-kou-2
     type: kou
-    text: 公開買付者に係る事業内容の概要及び主要な経営指標等の推移の的確かつ簡明な説明（当該公開買付届出書に第二号様式のうち「第２　公開買付者の状況」の「１　会社の場合」の（１）及び（２）の記載事項が記載されている場合を除く。）
+    text: 二　公開買付者に係る事業内容の概要及び主要な経営指標等の推移の的確かつ簡明な説明（当該公開買付届出書に第二号様式のうち「第２　公開買付者の状況」の「１　会社の場合」の（１）及び（２）の記載事項が記載されている場合を除く。）
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-24-p1-kou-3
     type: kou
-    text: 対象者に係る主要な経営指標等の推移の的確かつ簡明な説明（当該公開買付届出書に第二号様式のうち「第５　対象者の状況」の「１　最近３年間の損益状況等」及び「３　株主の状況」の記載事項が記載されている場合を除く。）
+    text: 三　対象者に係る主要な経営指標等の推移の的確かつ簡明な説明（当該公開買付届出書に第二号様式のうち「第５　対象者の状況」の「１　最近３年間の損益状況等」及び「３　株主の状況」の記載事項が記載されている場合を除く。）
     modality: unspecified
     item_number: 3
   - id: koukai-kaitsuke-furei-art-24-p1-kou-4
     type: kou
-    text: 第二号様式記載上の注意（１０）ｃに規定する第三者に係る事業内容の概要の的確かつ簡明な説明（当該第三者について当該公開買付届出書に第二号様式のうち「第２　公開買付者の状況」の「１　会社の場合」の（１）の記載事項と同一の事項に相当する事項が記載されている場合を除く。）
+    text: 四　第二号様式記載上の注意（１０）ｃに規定する第三者に係る事業内容の概要の的確かつ簡明な説明（当該第三者について当該公開買付届出書に第二号様式のうち「第２　公開買付者の状況」の「１　会社の場合」の（１）の記載事項と同一の事項に相当する事項が記載されている場合を除く。）
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,12 +52,12 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-24-p2-kou-1
     type: kou
-    text: 当該公開買付けが法第二章の二第一節の規定の適用を受ける公開買付けである旨
+    text: 一　当該公開買付けが法第二章の二第一節の規定の適用を受ける公開買付けである旨
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-24-p2-kou-2
     type: kou
-    text: 当該公開買付説明書が法第二十七条の九の規定による公開買付説明書である旨
+    text: 二　当該公開買付説明書が法第二十七条の九の規定による公開買付説明書である旨
     modality: unspecified
     item_number: 2
 - number: 3
@@ -100,17 +100,17 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-24-p6-kou-1
     type: kou
-    text: 公開買付届出書（その訂正届出書を含む。）に形式上の不備があることにより訂正届出書を提出する場合
+    text: 一　公開買付届出書（その訂正届出書を含む。）に形式上の不備があることにより訂正届出書を提出する場合
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-24-p6-kou-2
     type: kou
-    text: 令第十四条第一項第四号に規定する許可等を得られたことにより訂正届出書を提出する場合（当該許可等に投資判断に重要な影響を及ぼす条件が付されていない場合に限る。）
+    text: 二　令第十四条第一項第四号に規定する許可等を得られたことにより訂正届出書を提出する場合（当該許可等に投資判断に重要な影響を及ぼす条件が付されていない場合に限る。）
     modality: unspecified
     item_number: 2
   - id: koukai-kaitsuke-furei-art-24-p6-kou-3
     type: kou
-    text: 第二十二条第一項第三号に規定する承認を受けた場合
+    text: 三　第二十二条第一項第三号に規定する承認を受けた場合
     modality: unspecified
     item_number: 3
 - number: 7

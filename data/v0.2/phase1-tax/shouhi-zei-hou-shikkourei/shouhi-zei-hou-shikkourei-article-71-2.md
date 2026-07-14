@@ -23,52 +23,52 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-1
     type: kou
-    text: 法第八条第二項に規定する電磁的記録
+    text: 一　法第八条第二項に規定する電磁的記録
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-2
     type: kou
-    text: 法第三十条第九項第二号に掲げる電磁的記録
+    text: 二　法第三十条第九項第二号に掲げる電磁的記録
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-3
     type: kou
-    text: 法第五十七条の四第五項に規定する電磁的記録
+    text: 三　法第五十七条の四第五項に規定する電磁的記録
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-4
     type: kou
-    text: 租税特別措置法第八十六条第二項（外国公館等に対する課税資産の譲渡等に係る免税）に規定する電磁的記録
+    text: 四　租税特別措置法第八十六条第二項（外国公館等に対する課税資産の譲渡等に係る免税）に規定する電磁的記録
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-5
     type: kou
-    text: 所得税法等の一部を改正する法律（平成二十八年法律第十五号）附則第五十二条第一項及び第五十三条第一項（適格請求書発行事業者以外の者から行つた課税仕入れに係る税額控除に関する経過措置）に規定する電磁的記録
+    text: 五　所得税法等の一部を改正する法律（平成二十八年法律第十五号）附則第五十二条第一項及び第五十三条第一項（適格請求書発行事業者以外の者から行つた課税仕入れに係る税額控除に関する経過措置）に規定する電磁的記録
     modality: unspecified
     item_number: 5
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-6
     type: kou
-    text: 第十八条の四第二項に規定する購入記録情報
+    text: 六　第十八条の四第二項に規定する購入記録情報
     modality: unspecified
     item_number: 6
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-7
     type: kou
-    text: 第四十九条第七項及び第十項に規定する電磁的記録
+    text: 七　第四十九条第七項及び第十項に規定する電磁的記録
     modality: unspecified
     item_number: 7
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-8
     type: kou
-    text: 第五十条第二項に規定する電磁的記録
+    text: 八　第五十条第二項に規定する電磁的記録
     modality: unspecified
     item_number: 8
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-9
     type: kou
-    text: 第七十条の十二第一項後段及び第五項後段の規定により保存すべきこととされている電磁的記録
+    text: 九　第七十条の十二第一項後段及び第五項後段の規定により保存すべきこととされている電磁的記録
     modality: unspecified
     item_number: 9
   - id: shouhi-zei-hou-shikkourei-art-71-2-p1-kou-10
     type: kou
-    text: その他財務省令で定める電磁的記録
+    text: 十　その他財務省令で定める電磁的記録
     modality: unspecified
     item_number: 10
 - number: 2
@@ -82,12 +82,12 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-71-2-p2-kou-1
     type: kou
-    text: 国税通則法第六十八条第一項又は第二項（重加算税）に規定する隠蔽し、又は仮装されていない事実（以下この号において「隠蔽仮装されていない事実」という。）がある場合　当該隠蔽仮装されていない事実及び電磁的記録に記録された事項に係る事実（法第五十九条の二第一項に規定する電磁的記録に記録された事項に係る事実をいう。次号において同じ。）のみに基づいて期限後申告等（法第五十九条の二第一項に規定する期限後申告等をいう。以下この号及び次号において同じ。）があつたものとした場合における当該期限後申告等に基づき国税通則法第三十五条第二項（申告納税方式による国税等の納付）の規定により納付すべき税額（以下この号及び次号において「納付すべき税額」という。）から当該隠蔽仮装されていない事実のみに基づいて期限後申告等があつたものとした場合における当該期限後申告等に基づき納付すべき税額を控除した税額
+    text: 一　国税通則法第六十八条第一項又は第二項（重加算税）に規定する隠蔽し、又は仮装されていない事実（以下この号において「隠蔽仮装されていない事実」という。）がある場合　当該隠蔽仮装されていない事実及び電磁的記録に記録された事項に係る事実（法第五十九条の二第一項に規定する電磁的記録に記録された事項に係る事実をいう。次号において同じ。）のみに基づいて期限後申告等（法第五十九条の二第一項に規定する期限後申告等をいう。以下この号及び次号において同じ。）があつたものとした場合における当該期限後申告等に基づき国税通則法第三十五条第二項（申告納税方式による国税等の納付）の規定により納付すべき税額（以下この号及び次号において「納付すべき税額」という。）から当該隠蔽仮装されていない事実のみに基づいて期限後申告等があつたものとした場合における当該期限後申告等に基づき納付すべき税額を控除した税額
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-71-2-p2-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　電磁的記録に記録された事項に係る事実のみに基づいて期限後申告等があつたものとした場合における当該期限後申告等に基づき納付すべき税額
+    text: 二　前号に掲げる場合以外の場合　電磁的記録に記録された事項に係る事実のみに基づいて期限後申告等があつたものとした場合における当該期限後申告等に基づき納付すべき税額
     modality: unspecified
     item_number: 2
 - number: 3

@@ -36,17 +36,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-197-4-p2-kou-1
     type: kou
-    text: 当該品目に係る法第十四条の承認の際に交付される書類（当該品目について法第十四条第十四項の届出を行つている場合には、当該届書（当該交付される書類に記載されていない内容に係るものに限る。）の写しを含む。第五項及び次条において「承認書」という。）の写し（当該品目に係る検査機関が国立健康危機管理研究機構又は国立医薬品食品衛生研究所である場合に限る。）
+    text: 一　当該品目に係る法第十四条の承認の際に交付される書類（当該品目について法第十四条第十四項の届出を行つている場合には、当該届書（当該交付される書類に記載されていない内容に係るものに限る。）の写しを含む。第五項及び次条において「承認書」という。）の写し（当該品目に係る検査機関が国立健康危機管理研究機構又は国立医薬品食品衛生研究所である場合に限る。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-197-4-p2-kou-2
     type: kou
-    text: 当該品目に係る製造・試験記録等要約書の様式の案
+    text: 二　当該品目に係る製造・試験記録等要約書の様式の案
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-197-4-p2-kou-3
     type: kou
-    text: その他製造・試験記録等要約書の様式の作成に必要な資料
+    text: 三　その他製造・試験記録等要約書の様式の作成に必要な資料
     modality: unspecified
     item_number: 3
 - number: 3
@@ -76,17 +76,17 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-197-4-p4-kou-1
     type: kou
-    text: 当該品目の法第十四条第一項の承認に係る申請書の写し（当該品目に係る検査機関が国立健康危機管理研究機構又は国立医薬品食品衛生研究所である場合に限る。）
+    text: 一　当該品目の法第十四条第一項の承認に係る申請書の写し（当該品目に係る検査機関が国立健康危機管理研究機構又は国立医薬品食品衛生研究所である場合に限る。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-197-4-p4-kou-2
     type: kou
-    text: 当該品目に係る製造・試験記録等要約書の様式の案
+    text: 二　当該品目に係る製造・試験記録等要約書の様式の案
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-197-4-p4-kou-3
     type: kou
-    text: その他製造・試験記録等要約書の様式の作成に必要な資料
+    text: 三　その他製造・試験記録等要約書の様式の作成に必要な資料
     modality: unspecified
     item_number: 3
 - number: 5

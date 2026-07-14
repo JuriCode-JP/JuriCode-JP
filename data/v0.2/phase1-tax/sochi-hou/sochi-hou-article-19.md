@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: sochi-hou-art-19-p1-kou-1
     type: kou
-    text: 第十条の三から第十条の五まで、第十条の五の三、第十条の五の五又は第十一条から第十四条までの規定
+    text: 一　第十条の三から第十条の五まで、第十条の五の三、第十条の五の五又は第十一条から第十四条までの規定
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-19-p1-kou-2
     type: kou
-    text: 前号に掲げるもののほか、減価償却資産に関する特例を定めている規定として政令で定める規定
+    text: 二　前号に掲げるもののほか、減価償却資産に関する特例を定めている規定として政令で定める規定
     modality: unspecified
     item_number: 2
 - number: 2

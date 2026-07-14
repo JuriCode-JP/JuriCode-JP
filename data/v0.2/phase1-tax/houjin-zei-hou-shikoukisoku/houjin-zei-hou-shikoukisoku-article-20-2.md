@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-20-2-p1-kou-1
     type: kou
-    text: 届出をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　届出をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-20-2-p1-kou-2
     type: kou
-    text: 令第六十条の規定の適用を受けようとする機械及び装置の設備の種類及び名称並びに所在する場所
+    text: 二　令第六十条の規定の適用を受けようとする機械及び装置の設備の種類及び名称並びに所在する場所
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-20-2-p1-kou-3
     type: kou
-    text: 届出をする内国法人の営む事業の通常の経済事情における当該機械及び装置の一日当たりの平均的な使用時間
+    text: 三　届出をする内国法人の営む事業の通常の経済事情における当該機械及び装置の一日当たりの平均的な使用時間
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-20-2-p1-kou-4
     type: kou
-    text: 当該事業年度における当該機械及び装置を通常使用すべき日数
+    text: 四　当該事業年度における当該機械及び装置を通常使用すべき日数
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-20-2-p1-kou-5
     type: kou
-    text: 当該事業年度における当該機械及び装置の第三号の平均的な使用時間を超えて使用した時間の合計時間
+    text: 五　当該事業年度における当該機械及び装置の第三号の平均的な使用時間を超えて使用した時間の合計時間
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-20-2-p1-kou-6
     type: kou
-    text: 当該機械及び装置の前条第一項に規定する一日当たりの超過使用時間
+    text: 六　当該機械及び装置の前条第一項に規定する一日当たりの超過使用時間
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-shikoukisoku-art-20-2-p1-kou-7
     type: kou
-    text: 当該事業年度における当該機械及び装置の増加償却割合
+    text: 七　当該事業年度における当該機械及び装置の増加償却割合
     modality: unspecified
     item_number: 7
   - id: houjin-zei-hou-shikoukisoku-art-20-2-p1-kou-8
     type: kou
-    text: 当該機械及び装置を第三号の平均的な使用時間を超えて使用したことを証する書類として保存するものの名称
+    text: 八　当該機械及び装置を第三号の平均的な使用時間を超えて使用したことを証する書類として保存するものの名称
     modality: unspecified
     item_number: 8
   - id: houjin-zei-hou-shikoukisoku-art-20-2-p1-kou-9
     type: kou
-    text: その他参考となるべき事項
+    text: 九　その他参考となるべき事項
     modality: unspecified
     item_number: 9
 cases: []

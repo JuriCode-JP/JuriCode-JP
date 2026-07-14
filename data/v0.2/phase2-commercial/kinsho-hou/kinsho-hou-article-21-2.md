@@ -37,8 +37,8 @@ paragraphs:
     text: 前項の場合において、賠償の責めに任ずべき者は、当該書類の虚偽記載等について故意又は過失がなかつたことを証明したときは、同項に規定する賠償の責めに任じない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

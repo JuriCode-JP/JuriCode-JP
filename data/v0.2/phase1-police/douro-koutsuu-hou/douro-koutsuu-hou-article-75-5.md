@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 自動車は、本線車道においては、横断し、転回し、又は後退してはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-75-5-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第六号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

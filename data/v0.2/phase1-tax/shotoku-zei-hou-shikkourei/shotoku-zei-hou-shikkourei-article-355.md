@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の所轄の税務署長は、同項の申請書の提出があつた場合において、その申請につき承認をし、又は承認をしないこととしたときは、その申請をした者に対し、その旨を書面により通知するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の証明書の交付を受けた居住者がその交付を受けた後同項に規定する要件に該当しないこととなつた場合には、その該当しないこととなつた日後遅滞なく、政令で定めるところにより、その旨を納税地の所轄税務署長に届け出なければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -47,17 +47,17 @@ paragraphs:
     modality: unspecified
   - id: shotoku-zei-hou-art-206-p3-kou-1
     type: kou
-    text: 納税地の所轄税務署長が当該証明書につき有効期限を定めた場合において、その有効期限を経過したとき。
+    text: 一　納税地の所轄税務署長が当該証明書につき有効期限を定めた場合において、その有効期限を経過したとき。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-206-p3-kou-2
     type: kou
-    text: 前項の規定による届出があつたとき。
+    text: 二　前項の規定による届出があつたとき。
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-206-p3-kou-3
     type: kou
-    text: 納税地の所轄税務署長において、当該証明書の交付を受けた居住者がその交付を受けた後第一項に規定する要件に該当しないこととなつたものと認めて、その者にその旨を通知したとき。
+    text: 三　納税地の所轄税務署長において、当該証明書の交付を受けた居住者がその交付を受けた後第一項に規定する要件に該当しないこととなつたものと認めて、その者にその旨を通知したとき。
     modality: unspecified
     item_number: 3
 cases: []

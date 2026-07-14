@@ -44,8 +44,8 @@ paragraphs:
     text: 前項の規定による請求を受けた任命権者は、その日から十五日以内に、同項の説明書を交付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

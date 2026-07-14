@@ -43,27 +43,27 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-art-28-p3-kou-1
     type: kou
-    text: 前項に規定する収入金額が百九十万円以下である場合　六十五万円
+    text: 一　前項に規定する収入金額が百九十万円以下である場合　六十五万円
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-28-p3-kou-2
     type: kou
-    text: 前項に規定する収入金額が百九十万円を超え三百六十万円以下である場合　六十五万円と当該収入金額から百九十万円を控除した金額の百分の三十に相当する金額との合計額
+    text: 二　前項に規定する収入金額が百九十万円を超え三百六十万円以下である場合　六十五万円と当該収入金額から百九十万円を控除した金額の百分の三十に相当する金額との合計額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-28-p3-kou-3
     type: kou
-    text: 前項に規定する収入金額が三百六十万円を超え六百六十万円以下である場合　百十六万円と当該収入金額から三百六十万円を控除した金額の百分の二十に相当する金額との合計額
+    text: 三　前項に規定する収入金額が三百六十万円を超え六百六十万円以下である場合　百十六万円と当該収入金額から三百六十万円を控除した金額の百分の二十に相当する金額との合計額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-art-28-p3-kou-4
     type: kou
-    text: 前項に規定する収入金額が六百六十万円を超え八百五十万円以下である場合　百七十六万円と当該収入金額から六百六十万円を控除した金額の百分の十に相当する金額との合計額
+    text: 四　前項に規定する収入金額が六百六十万円を超え八百五十万円以下である場合　百七十六万円と当該収入金額から六百六十万円を控除した金額の百分の十に相当する金額との合計額
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-art-28-p3-kou-5
     type: kou
-    text: 前項に規定する収入金額が八百五十万円を超える場合　百九十五万円
+    text: 五　前項に規定する収入金額が八百五十万円を超える場合　百九十五万円
     modality: unspecified
     item_number: 5
 - number: 4

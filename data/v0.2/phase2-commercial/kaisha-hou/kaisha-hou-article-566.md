@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-566-p1-kou-1
     type: kou
-    text: 第五百二十二条第二項に規定する担保権を有する債権者
+    text: 一　第五百二十二条第二項に規定する担保権を有する債権者
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-566-p1-kou-2
     type: kou
-    text: 一般の先取特権その他一般の優先権がある債権を有する債権者
+    text: 二　一般の先取特権その他一般の優先権がある債権を有する債権者
     modality: unspecified
     item_number: 2
 cases: []

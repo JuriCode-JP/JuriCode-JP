@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-18-23-7-p1-kou-1
     type: kou
-    text: 厚生年金保険法等の一部を改正する法律（平成八年法律第八十二号）附則第三十二条第二項に規定する存続組合又は同法附則第四十八条第一項に規定する指定基金が支給する同法附則第三十三条第一項に規定する特例年金給付である公的年金等
+    text: 一　厚生年金保険法等の一部を改正する法律（平成八年法律第八十二号）附則第三十二条第二項に規定する存続組合又は同法附則第四十八条第一項に規定する指定基金が支給する同法附則第三十三条第一項に規定する特例年金給付である公的年金等
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-23-7-p1-kou-2
     type: kou
-    text: 総務大臣が外国人（日本国政府又はその機関との契約に基づき勤務した外国人が退職した場合におけるその勤務した期間が十七年以上であり、かつ、その勤務した期間における功績が顕著であると総務大臣が認めた当該外国人に限る。）に支給する終身の年金である公的年金等
+    text: 二　総務大臣が外国人（日本国政府又はその機関との契約に基づき勤務した外国人が退職した場合におけるその勤務した期間が十七年以上であり、かつ、その勤務した期間における功績が顕著であると総務大臣が認めた当該外国人に限る。）に支給する終身の年金である公的年金等
     modality: unspecified
     item_number: 2
 - number: 2
@@ -44,22 +44,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-23-7-p2-kou-1
     type: kou
-    text: 法第四十一条の三の九第五項に規定する特定公的年金等の支払者の氏名又は名称
+    text: 一　法第四十一条の三の九第五項に規定する特定公的年金等の支払者の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-23-7-p2-kou-2
     type: kou
-    text: 法第四十一条の三の九第五項に規定する地方税法の規定に基づく公的年金等受給者の扶養親族等申告書を提出する居住者（次号において「申告者」という。）の氏名及び住所
+    text: 二　法第四十一条の三の九第五項に規定する地方税法の規定に基づく公的年金等受給者の扶養親族等申告書を提出する居住者（次号において「申告者」という。）の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-23-7-p2-kou-3
     type: kou
-    text: 法第四十一条の三の九第六項に規定する扶養親族の生年月日、住所、個人番号及び申告者との続柄（個人番号を有しない者にあつては、生年月日、住所及び申告者との続柄）並びにその合計所得金額の見積額
+    text: 三　法第四十一条の三の九第六項に規定する扶養親族の生年月日、住所、個人番号及び申告者との続柄（個人番号を有しない者にあつては、生年月日、住所及び申告者との続柄）並びにその合計所得金額の見積額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-23-7-p2-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

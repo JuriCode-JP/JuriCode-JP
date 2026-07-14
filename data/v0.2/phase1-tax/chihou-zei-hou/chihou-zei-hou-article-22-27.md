@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-22-27-p1-kou-1
     type: kou
-    text: 犯則嫌疑者の居所が明らかでないとき。
+    text: 一　犯則嫌疑者の居所が明らかでないとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-22-27-p1-kou-2
     type: kou
-    text: 犯則嫌疑者が逃走するおそれがあるとき。
+    text: 二　犯則嫌疑者が逃走するおそれがあるとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-22-27-p1-kou-3
     type: kou
-    text: 証拠となると認められるものを隠滅するおそれがあるとき。
+    text: 三　証拠となると認められるものを隠滅するおそれがあるとき。
     modality: unspecified
     item_number: 3
 cases: []

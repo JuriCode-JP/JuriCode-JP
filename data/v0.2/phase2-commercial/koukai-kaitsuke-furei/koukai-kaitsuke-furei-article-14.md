@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: koukai-kaitsuke-furei-art-14-p1-kou-1
     type: kou
-    text: 土曜日
+    text: 一　土曜日
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-14-p1-kou-2
     type: kou
-    text: 行政機関の休日に関する法律（昭和六十三年法律第九十一号）に規定する休日（以下「行政機関の休日」という。）のうち、日曜日及び前号に掲げる日を除く日
+    text: 二　行政機関の休日に関する法律（昭和六十三年法律第九十一号）に規定する休日（以下「行政機関の休日」という。）のうち、日曜日及び前号に掲げる日を除く日
     modality: unspecified
     item_number: 2
 cases: []

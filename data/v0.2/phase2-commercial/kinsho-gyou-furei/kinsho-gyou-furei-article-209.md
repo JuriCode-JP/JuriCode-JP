@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-209-p1-kou-1
     type: kou
-    text: 銀行
+    text: 一　銀行
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-209-p1-kou-2
     type: kou
-    text: 保険会社
+    text: 二　保険会社
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-209-p1-kou-3
     type: kou
-    text: 信用金庫及び信用金庫連合会
+    text: 三　信用金庫及び信用金庫連合会
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-209-p1-kou-4
     type: kou
-    text: 労働金庫及び労働金庫連合会
+    text: 四　労働金庫及び労働金庫連合会
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-209-p1-kou-5
     type: kou
-    text: 農林中央金庫
+    text: 五　農林中央金庫
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-209-p1-kou-6
     type: kou
-    text: 株式会社商工組合中央金庫
+    text: 六　株式会社商工組合中央金庫
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-209-p1-kou-7
     type: kou
-    text: 信用協同組合及び信用協同組合連合会（中小企業等協同組合法第九条の九第一項第一号の事業を行う協同組合連合会をいう。）
+    text: 七　信用協同組合及び信用協同組合連合会（中小企業等協同組合法第九条の九第一項第一号の事業を行う協同組合連合会をいう。）
     modality: unspecified
     item_number: 7
   - id: kinsho-gyou-furei-art-209-p1-kou-8
     type: kou
-    text: 業として貯金の受入れをすることができる農業協同組合及び農業協同組合連合会
+    text: 八　業として貯金の受入れをすることができる農業協同組合及び農業協同組合連合会
     modality: unspecified
     item_number: 8
 cases: []

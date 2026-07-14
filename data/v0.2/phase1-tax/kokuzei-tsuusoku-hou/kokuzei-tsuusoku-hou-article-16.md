@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-art-16-p1-kou-1
     type: kou
-    text: 申告納税方式　納付すべき税額が納税者のする申告により確定することを原則とし、その申告がない場合又はその申告に係る税額の計算が国税に関する法律の規定に従つていなかつた場合その他当該税額が税務署長又は税関長の調査したところと異なる場合に限り、税務署長又は税関長の処分により確定する方式をいう。
+    text: 一　申告納税方式　納付すべき税額が納税者のする申告により確定することを原則とし、その申告がない場合又はその申告に係る税額の計算が国税に関する法律の規定に従つていなかつた場合その他当該税額が税務署長又は税関長の調査したところと異なる場合に限り、税務署長又は税関長の処分により確定する方式をいう。
     modality: teigi
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-16-p1-kou-2
     type: kou
-    text: 賦課課税方式　納付すべき税額がもつぱら税務署長又は税関長の処分により確定する方式をいう。
+    text: 二　賦課課税方式　納付すべき税額がもつぱら税務署長又は税関長の処分により確定する方式をいう。
     modality: teigi
     item_number: 2
 - number: 2
@@ -45,12 +45,12 @@ paragraphs:
     - 前項
   - id: kokuzei-tsuusoku-hou-art-16-p2-kou-1
     type: kou
-    text: 納税義務が成立する場合において、納税者が、国税に関する法律の規定により、納付すべき税額を申告すべきものとされている国税　申告納税方式
+    text: 一　納税義務が成立する場合において、納税者が、国税に関する法律の規定により、納付すべき税額を申告すべきものとされている国税　申告納税方式
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-16-p2-kou-2
     type: kou
-    text: 前号に掲げる国税以外の国税　賦課課税方式
+    text: 二　前号に掲げる国税以外の国税　賦課課税方式
     modality: unspecified
     item_number: 2
 cases:

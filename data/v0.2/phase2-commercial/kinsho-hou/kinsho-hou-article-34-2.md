@@ -45,22 +45,22 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-34-2-p3-kou-1
     type: kou
-    text: 前項の規定により承諾する日（以下この条において「承諾日」という。）
+    text: 一　前項の規定により承諾する日（以下この条において「承諾日」という。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-34-2-p3-kou-2
     type: kou
-    text: 対象契約の属する契約の種類
+    text: 二　対象契約の属する契約の種類
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-34-2-p3-kou-3
     type: kou
-    text: 承諾日以後に対象契約の締結の勧誘又は締結をする場合において、当該申出者を特定投資家以外の顧客として取り扱う旨
+    text: 三　承諾日以後に対象契約の締結の勧誘又は締結をする場合において、当該申出者を特定投資家以外の顧客として取り扱う旨
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-34-2-p3-kou-4
     type: kou
-    text: その他内閣府令で定める事項
+    text: 四　その他内閣府令で定める事項
     modality: unspecified
     item_number: 4
 - number: 4
@@ -90,12 +90,12 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-34-2-p5-kou-1
     type: kou
-    text: 当該金融商品取引業者等が承諾日以後に行う対象契約の締結の勧誘の相手方
+    text: 一　当該金融商品取引業者等が承諾日以後に行う対象契約の締結の勧誘の相手方
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-34-2-p5-kou-2
     type: kou
-    text: 当該金融商品取引業者等が承諾日以後に締結する対象契約の相手方
+    text: 二　当該金融商品取引業者等が承諾日以後に締結する対象契約の相手方
     modality: unspecified
     item_number: 2
 - number: 6

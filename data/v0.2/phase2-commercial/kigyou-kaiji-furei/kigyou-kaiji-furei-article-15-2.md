@@ -25,22 +25,22 @@ paragraphs:
     - 同項
   - id: kigyou-kaiji-furei-art-15-2-p1-kou-1
     type: kou
-    text: 当該有価証券報告書の提出に関して当該承認を受けようとする期間
+    text: 一　当該有価証券報告書の提出に関して当該承認を受けようとする期間
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-15-2-p1-kou-2
     type: kou
-    text: 当該有価証券報告書に係る事業年度終了の日
+    text: 二　当該有価証券報告書に係る事業年度終了の日
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-15-2-p1-kou-3
     type: kou
-    text: 当該有価証券報告書の提出に関して当該承認を必要とする理由
+    text: 三　当該有価証券報告書の提出に関して当該承認を必要とする理由
     modality: unspecified
     item_number: 3
   - id: kigyou-kaiji-furei-art-15-2-p1-kou-4
     type: kou
-    text: 第三項の規定による承認を受けた場合及び前号に規定する理由について消滅又は変更があつた場合に直ちにその旨を多数の者が知り得る状態に置くための方法
+    text: 四　第三項の規定による承認を受けた場合及び前号に規定する理由について消滅又は変更があつた場合に直ちにその旨を多数の者が知り得る状態に置くための方法
     modality: unspecified
     item_number: 4
 - number: 2
@@ -56,12 +56,12 @@ paragraphs:
     - 前項
   - id: kigyou-kaiji-furei-art-15-2-p2-kou-1
     type: kou
-    text: 定款又はこれに準ずるもの
+    text: 一　定款又はこれに準ずるもの
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-15-2-p2-kou-2
     type: kou
-    text: 前項第三号に規定する理由を証する書面
+    text: 二　前項第三号に規定する理由を証する書面
     modality: unspecified
     item_number: 2
 - number: 3

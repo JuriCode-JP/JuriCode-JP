@@ -41,22 +41,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-29-3-p3-kou-1
     type: kou
-    text: 当該上場投資法人等との間における不動産、不動産の賃借権又は地上権（次号において「不動産等」という。）の取得又は譲渡の取引
+    text: 一　当該上場投資法人等との間における不動産、不動産の賃借権又は地上権（次号において「不動産等」という。）の取得又は譲渡の取引
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-29-3-p3-kou-2
     type: kou
-    text: 当該上場投資法人等との間における不動産等を信託する信託の受益権の取得又は譲渡の取引
+    text: 二　当該上場投資法人等との間における不動産等を信託する信託の受益権の取得又は譲渡の取引
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-29-3-p3-kou-3
     type: kou
-    text: 当該上場投資法人等との間における不動産の貸借の取引
+    text: 三　当該上場投資法人等との間における不動産の貸借の取引
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-29-3-p3-kou-4
     type: kou
-    text: 当該上場投資法人等の特定資産である第二号に規定する信託の受益権に係る信託の受託者との間における当該信託の信託財産である不動産の貸借の取引
+    text: 四　当該上場投資法人等の特定資産である第二号に規定する信託の受益権に係る信託の受託者との間における当該信託の信託財産である不動産の貸借の取引
     modality: unspecified
     item_number: 4
 cases: []

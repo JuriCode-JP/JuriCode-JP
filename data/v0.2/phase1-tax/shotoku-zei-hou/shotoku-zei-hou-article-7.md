@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: shotoku-zei-hou-art-7-p1-kou-1
     type: kou
-    text: 非永住者以外の居住者　全ての所得
+    text: 一　非永住者以外の居住者　全ての所得
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-7-p1-kou-2
     type: kou
-    text: 非永住者　第九十五条第一項（外国税額控除）に規定する国外源泉所得（国外にある有価証券の譲渡により生ずる所得として政令で定めるものを含む。以下この号において「国外源泉所得」という。）以外の所得及び国外源泉所得で国内において支払われ、又は国外から送金されたもの
+    text: 二　非永住者　第九十五条第一項（外国税額控除）に規定する国外源泉所得（国外にある有価証券の譲渡により生ずる所得として政令で定めるものを含む。以下この号において「国外源泉所得」という。）以外の所得及び国外源泉所得で国内において支払われ、又は国外から送金されたもの
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-7-p1-kou-3
     type: kou
-    text: 非居住者　第百六十四条第一項各号（非居住者に対する課税の方法）に掲げる非居住者の区分に応じそれぞれ同項各号及び同条第二項各号に定める国内源泉所得
+    text: 三　非居住者　第百六十四条第一項各号（非居住者に対する課税の方法）に掲げる非居住者の区分に応じそれぞれ同項各号及び同条第二項各号に定める国内源泉所得
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-art-7-p1-kou-4
     type: kou
-    text: 内国法人　国内において支払われる第百七十四条各号（内国法人に係る所得税の課税標準）に掲げる利子等、配当等、給付補塡金、利息、利益、差益、利益の分配及び賞金
+    text: 四　内国法人　国内において支払われる第百七十四条各号（内国法人に係る所得税の課税標準）に掲げる利子等、配当等、給付補塡金、利息、利益、差益、利益の分配及び賞金
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-art-7-p1-kou-5
     type: kou
-    text: 外国法人　第百六十一条第一項（国内源泉所得）に規定する国内源泉所得のうち同項第四号から第十一号まで及び第十三号から第十六号までに掲げるもの
+    text: 五　外国法人　第百六十一条第一項（国内源泉所得）に規定する国内源泉所得のうち同項第四号から第十一号まで及び第十三号から第十六号までに掲げるもの
     modality: unspecified
     item_number: 5
 - number: 2

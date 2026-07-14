@@ -36,8 +36,8 @@ paragraphs:
     text: 発起人は、前項の設立時株主が他人のために設立時発行株式を引き受けた者でないときは、当該設立時株主が同項の規定によりその有する議決権を統一しないで行使することを拒むことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

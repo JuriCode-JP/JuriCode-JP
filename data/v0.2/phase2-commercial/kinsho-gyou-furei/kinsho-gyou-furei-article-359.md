@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-359-p1-kou-1
     type: kou
-    text: 当該投資運用関係業務受託業者から投資運用関係業務の委託を受ける者（その者から委託（二以上の段階にわたる委託を含む。）を受ける者を含む。以下この条において「再委託先」という。）の商号、名称又は氏名及び主たる営業所又は事務所の所在地
+    text: 一　当該投資運用関係業務受託業者から投資運用関係業務の委託を受ける者（その者から委託（二以上の段階にわたる委託を含む。）を受ける者を含む。以下この条において「再委託先」という。）の商号、名称又は氏名及び主たる営業所又は事務所の所在地
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-359-p1-kou-2
     type: kou
-    text: 再委託先に委託する投資運用関係業務（以下この条において「再委託投資運用関係業務」という。）の内容
+    text: 二　再委託先に委託する投資運用関係業務（以下この条において「再委託投資運用関係業務」という。）の内容
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-359-p1-kou-3
     type: kou
-    text: 再委託先が投資運用関係業務受託業者以外の者である場合には、当該再委託先を選定した理由及び再委託投資運用関係業務の適正な遂行を確保するための方策
+    text: 三　再委託先が投資運用関係業務受託業者以外の者である場合には、当該再委託先を選定した理由及び再委託投資運用関係業務の適正な遂行を確保するための方策
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,22 +49,22 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-359-p2-kou-1
     type: kou
-    text: 再委託投資運用関係業務の委託契約に係る契約書の写し
+    text: 一　再委託投資運用関係業務の委託契約に係る契約書の写し
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-359-p2-kou-2
     type: kou
-    text: 再委託先が法人であるときは、当該再委託先の登記事項証明書又はこれに代わる書面
+    text: 二　再委託先が法人であるときは、当該再委託先の登記事項証明書又はこれに代わる書面
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-359-p2-kou-3
     type: kou
-    text: 再委託先が個人であるときは、当該再委託先の住民票の抄本又はこれに代わる書面
+    text: 三　再委託先が個人であるときは、当該再委託先の住民票の抄本又はこれに代わる書面
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-359-p2-kou-4
     type: kou
-    text: 再委託先における再委託投資運用関係業務を所掌する組織及び人員配置を記載した書面
+    text: 四　再委託先における再委託投資運用関係業務を所掌する組織及び人員配置を記載した書面
     modality: unspecified
     item_number: 4
 cases: []

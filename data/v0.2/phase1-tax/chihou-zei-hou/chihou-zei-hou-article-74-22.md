@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-74-22-p1-kou-1
     type: kou
-    text: その提出期限までに提出した申告書に係る税額　当該税額に係る第七十四条の十第一項又は第三項の納期限の翌日から一月を経過する日までの期間
+    text: 一　その提出期限までに提出した申告書に係る税額　当該税額に係る第七十四条の十第一項又は第三項の納期限の翌日から一月を経過する日までの期間
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-74-22-p1-kou-2
     type: kou
-    text: その提出期限後に提出した申告書に係る税額　当該提出した日までの期間又はその日の翌日から一月を経過する日までの期間
+    text: 二　その提出期限後に提出した申告書に係る税額　当該提出した日までの期間又はその日の翌日から一月を経過する日までの期間
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-74-22-p1-kou-3
     type: kou
-    text: 修正申告書に係る税額　修正申告書を提出した日までの期間又はその日の翌日から一月を経過する日までの期間
+    text: 三　修正申告書に係る税額　修正申告書を提出した日までの期間又はその日の翌日から一月を経過する日までの期間
     modality: unspecified
     item_number: 3
 - number: 2

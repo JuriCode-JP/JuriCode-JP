@@ -25,22 +25,22 @@ paragraphs:
     - 次条
   - id: sochi-hou-shikoukisoku-art-18-15-10-p1-kou-1
     type: kou
-    text: 金融商品取引業者等、営業所又は振替口座簿　それぞれ法第三十七条の十四第一項に規定する金融商品取引業者等、営業所又は振替口座簿をいう。
+    text: 一　金融商品取引業者等、営業所又は振替口座簿　それぞれ法第三十七条の十四第一項に規定する金融商品取引業者等、営業所又は振替口座簿をいう。
     modality: teigi
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p1-kou-2
     type: kou
-    text: 未成年者口座内上場株式等　法第三十七条の十四の二第一項に規定する未成年者口座内上場株式等をいう。
+    text: 二　未成年者口座内上場株式等　法第三十七条の十四の二第一項に規定する未成年者口座内上場株式等をいう。
     modality: teigi
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p1-kou-3
     type: kou
-    text: 未成年者口座、未成年者口座開設届出書、未成年者口座管理契約、非課税管理勘定、継続管理勘定、課税未成年者口座、未成年者非課税適用確認書又は未成年者口座廃止通知書　それぞれ法第三十七条の十四の二第五項に規定する未成年者口座、未成年者口座開設届出書、未成年者口座管理契約、非課税管理勘定、継続管理勘定、課税未成年者口座、未成年者非課税適用確認書又は未成年者口座廃止通知書をいう。
+    text: 三　未成年者口座、未成年者口座開設届出書、未成年者口座管理契約、非課税管理勘定、継続管理勘定、課税未成年者口座、未成年者非課税適用確認書又は未成年者口座廃止通知書　それぞれ法第三十七条の十四の二第五項に規定する未成年者口座、未成年者口座開設届出書、未成年者口座管理契約、非課税管理勘定、継続管理勘定、課税未成年者口座、未成年者非課税適用確認書又は未成年者口座廃止通知書をいう。
     modality: teigi
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p1-kou-4
     type: kou
-    text: 未成年者口座廃止届出書　法第三十七条の十四の二第二十項に規定する未成年者口座廃止届出書をいう。
+    text: 四　未成年者口座廃止届出書　法第三十七条の十四の二第二十項に規定する未成年者口座廃止届出書をいう。
     modality: teigi
     item_number: 4
 - number: 2
@@ -54,32 +54,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p2-kou-1
     type: kou
-    text: 未成年者口座開設届出書の提出（法第三十七条の十四の二第五項第一号に規定する提出をいう。以下この項において同じ。）をする者の氏名、生年月日、住所（国内に住所を有しない者にあつては、第十八条の十五の三第二十一項各号に掲げる者の区分に応じ当該各号に定める場所。以下この条及び次条において同じ。）及び個人番号（施行令第二十五条の十三の八第二十項において準用する施行令第二十五条の十三第三十三項の規定に該当する者にあつては、氏名、生年月日及び住所）
+    text: 一　未成年者口座開設届出書の提出（法第三十七条の十四の二第五項第一号に規定する提出をいう。以下この項において同じ。）をする者の氏名、生年月日、住所（国内に住所を有しない者にあつては、第十八条の十五の三第二十一項各号に掲げる者の区分に応じ当該各号に定める場所。以下この条及び次条において同じ。）及び個人番号（施行令第二十五条の十三の八第二十項において準用する施行令第二十五条の十三第三十三項の規定に該当する者にあつては、氏名、生年月日及び住所）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p2-kou-2
     type: kou
-    text: 当該未成年者口座開設届出書の提出先の金融商品取引業者等の営業所の名称及び所在地
+    text: 二　当該未成年者口座開設届出書の提出先の金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p2-kou-3
     type: kou
-    text: 未成年者口座管理契約に基づき当該口座に係る振替口座簿に記載若しくは記録がされ、又は当該口座に保管の委託がされている上場株式等（施行令第二十五条の十三の八第二項に規定する上場株式等をいう。以下この条において同じ。）の法第九条の八各号に掲げる配当等に係る配当所得及び当該上場株式等の譲渡（法第三十七条の十四第一項に規定する譲渡をいう。次条第二項第五号において同じ。）による事業所得、譲渡所得又は雑所得について法第九条の九及び第三十七条の十四の二第一項から第四項までの規定の適用を受ける旨
+    text: 三　未成年者口座管理契約に基づき当該口座に係る振替口座簿に記載若しくは記録がされ、又は当該口座に保管の委託がされている上場株式等（施行令第二十五条の十三の八第二項に規定する上場株式等をいう。以下この条において同じ。）の法第九条の八各号に掲げる配当等に係る配当所得及び当該上場株式等の譲渡（法第三十七条の十四第一項に規定する譲渡をいう。次条第二項第五号において同じ。）による事業所得、譲渡所得又は雑所得について法第九条の九及び第三十七条の十四の二第一項から第四項までの規定の適用を受ける旨
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p2-kou-4
     type: kou
-    text: 当該未成年者口座開設届出書の提出年月日
+    text: 四　当該未成年者口座開設届出書の提出年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p2-kou-5
     type: kou
-    text: 未成年者口座を設定しようとする日の属する年
+    text: 五　未成年者口座を設定しようとする日の属する年
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-18-15-10-p2-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 3
@@ -93,27 +93,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p3-kou-1
     type: kou
-    text: 施行令第二十五条の十三の八第三項の書類（次号において「未成年者口座内上場株式等移管依頼書」という。）の提出（同項に規定する提出をいう。同号において同じ。）をする者の氏名、生年月日及び住所
+    text: 一　施行令第二十五条の十三の八第三項の書類（次号において「未成年者口座内上場株式等移管依頼書」という。）の提出（同項に規定する提出をいう。同号において同じ。）をする者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p3-kou-2
     type: kou
-    text: 当該未成年者口座内上場株式等移管依頼書の提出先の金融商品取引業者等の営業所の名称及び所在地
+    text: 二　当該未成年者口座内上場株式等移管依頼書の提出先の金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p3-kou-3
     type: kou
-    text: 当該未成年者口座に設けられた非課税管理勘定に係る未成年者口座内上場株式等を当該未成年者口座に係る他の年分の非課税管理勘定又は継続管理勘定に移管することを依頼する旨及びその移管を希望する年月日
+    text: 三　当該未成年者口座に設けられた非課税管理勘定に係る未成年者口座内上場株式等を当該未成年者口座に係る他の年分の非課税管理勘定又は継続管理勘定に移管することを依頼する旨及びその移管を希望する年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p3-kou-4
     type: kou
-    text: 当該移管しようとする未成年者口座内上場株式等の種類、銘柄及び数若しくは持分の割合又は価額並びに当該未成年者口座内上場株式等の受入れをする非課税管理勘定又は継続管理勘定が設けられた日の属する年
+    text: 四　当該移管しようとする未成年者口座内上場株式等の種類、銘柄及び数若しくは持分の割合又は価額並びに当該未成年者口座内上場株式等の受入れをする非課税管理勘定又は継続管理勘定が設けられた日の属する年
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p3-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 4
@@ -127,27 +127,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p4-kou-1
     type: kou
-    text: 施行令第二十五条の十三の八第五項第二号に規定する特定口座以外の他の保管口座への未成年者口座内上場株式等移管依頼書（次号において「特定口座以外の他の保管口座への未成年者口座内上場株式等移管依頼書」という。）の提出（同項第二号に規定する提出をいう。次号において同じ。）をする者の氏名、生年月日及び住所
+    text: 一　施行令第二十五条の十三の八第五項第二号に規定する特定口座以外の他の保管口座への未成年者口座内上場株式等移管依頼書（次号において「特定口座以外の他の保管口座への未成年者口座内上場株式等移管依頼書」という。）の提出（同項第二号に規定する提出をいう。次号において同じ。）をする者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p4-kou-2
     type: kou
-    text: 当該特定口座以外の他の保管口座への未成年者口座内上場株式等移管依頼書の提出先の金融商品取引業者等の営業所の名称及び所在地
+    text: 二　当該特定口座以外の他の保管口座への未成年者口座内上場株式等移管依頼書の提出先の金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p4-kou-3
     type: kou
-    text: 当該未成年者口座に設けられた非課税管理勘定に係る未成年者口座内上場株式等を課税未成年者口座を構成する施行令第二十五条の十三の八第五項第二号に規定する特定口座以外の他の保管口座に移管することを依頼する旨
+    text: 三　当該未成年者口座に設けられた非課税管理勘定に係る未成年者口座内上場株式等を課税未成年者口座を構成する施行令第二十五条の十三の八第五項第二号に規定する特定口座以外の他の保管口座に移管することを依頼する旨
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p4-kou-4
     type: kou
-    text: 当該移管しようとする未成年者口座内上場株式等の種類、銘柄及び数若しくは持分の割合又は価額
+    text: 四　当該移管しようとする未成年者口座内上場株式等の種類、銘柄及び数若しくは持分の割合又は価額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p4-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 5
@@ -160,8 +160,8 @@ paragraphs:
     text: 前項の規定は、施行令第二十五条の十三の八第六項第二号（同条第七項において準用する場合を含む。）に規定する財務省令で定める事項について準用する。この場合において、前項第一号中「施行令第二十五条の十三の八第五項第二号」とあるのは「施行令第二十五条の十三の八第六項第二号」と、同項第三号中「課税未成年者口座を構成する施行令第二十五条の十三の八第五項第二号」とあるのは「施行令第二十五条の十三の八第六項第二号」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: true
@@ -175,22 +175,22 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-18-15-10-p6-kou-1
     type: kou
-    text: その者の氏名、生年月日及び住所
+    text: 一　その者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p6-kou-2
     type: kou
-    text: 現に当該未成年者口座を開設している金融商品取引業者等の営業所の名称及び所在地
+    text: 二　現に当該未成年者口座を開設している金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p6-kou-3
     type: kou
-    text: 施行令第二十五条の十三の八第八項各号に掲げる事由の詳細及びその事由が生じた年月日
+    text: 三　施行令第二十五条の十三の八第八項各号に掲げる事由の詳細及びその事由が生じた年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p6-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 7
@@ -224,27 +224,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p9-kou-1
     type: kou
-    text: 施行令第二十五条の十三の八第十二項第三号の書類の提出（同号に規定する提出をいう。次号において同じ。）をする者の氏名、生年月日及び住所
+    text: 一　施行令第二十五条の十三の八第十二項第三号の書類の提出（同号に規定する提出をいう。次号において同じ。）をする者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p9-kou-2
     type: kou
-    text: 前号の書類の提出先の金融商品取引業者等の営業所の名称及び所在地
+    text: 二　前号の書類の提出先の金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p9-kou-3
     type: kou
-    text: 当該未成年者口座に設けられた非課税管理勘定に係る未成年者口座内上場株式等を当該未成年者口座に係る継続管理勘定に移管しないことを依頼する旨
+    text: 三　当該未成年者口座に設けられた非課税管理勘定に係る未成年者口座内上場株式等を当該未成年者口座に係る継続管理勘定に移管しないことを依頼する旨
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p9-kou-4
     type: kou
-    text: 当該移管しない未成年者口座内上場株式等の種類、銘柄及び数若しくは持分の割合又は価額
+    text: 四　当該移管しない未成年者口座内上場株式等の種類、銘柄及び数若しくは持分の割合又は価額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p9-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 10
@@ -258,37 +258,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p10-kou-1
     type: kou
-    text: 出国移管依頼書（施行令第二十五条の十三の八第十二項第四号に規定する出国移管依頼書をいう。以下この項において同じ。）の提出（同号に規定する提出をいう。以下この項において同じ。）をする者の氏名、生年月日及び住所
+    text: 一　出国移管依頼書（施行令第二十五条の十三の八第十二項第四号に規定する出国移管依頼書をいう。以下この項において同じ。）の提出（同号に規定する提出をいう。以下この項において同じ。）をする者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p10-kou-2
     type: kou
-    text: 当該出国移管依頼書の提出先の金融商品取引業者等の営業所の名称及び所在地
+    text: 二　当該出国移管依頼書の提出先の金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p10-kou-3
     type: kou
-    text: 前号の金融商品取引業者等の営業所に開設されている未成年者口座の記号又は番号
+    text: 三　前号の金融商品取引業者等の営業所に開設されている未成年者口座の記号又は番号
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p10-kou-4
     type: kou
-    text: 出国をする予定年月日及び帰国をする予定年月日並びに出国後の国外における連絡先
+    text: 四　出国をする予定年月日及び帰国をする予定年月日並びに出国後の国外における連絡先
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p10-kou-5
     type: kou
-    text: 出国移管依頼書の提出をする者が、その出国の日の属する年分の所得税につき所得税法第六十条の二第一項第二号に掲げる場合に該当して同項の規定の適用を受ける場合には、その旨
+    text: 五　出国移管依頼書の提出をする者が、その出国の日の属する年分の所得税につき所得税法第六十条の二第一項第二号に掲げる場合に該当して同項の規定の適用を受ける場合には、その旨
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-18-15-10-p10-kou-6
     type: kou
-    text: 出国移管依頼書の提出をする者が国税通則法第百十七条第二項の規定による納税管理人の届出をしている場合には、その納税管理人の氏名及び住所
+    text: 六　出国移管依頼書の提出をする者が国税通則法第百十七条第二項の規定による納税管理人の届出をしている場合には、その納税管理人の氏名及び住所
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-18-15-10-p10-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 11
@@ -302,22 +302,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p11-kou-1
     type: kou
-    text: 施行令第二十五条の十三の八第十二項第六号に規定する未成年者帰国届出書の同号に規定する提出をする者の氏名、生年月日及び住所
+    text: 一　施行令第二十五条の十三の八第十二項第六号に規定する未成年者帰国届出書の同号に規定する提出をする者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p11-kou-2
     type: kou
-    text: 前項第二号に掲げる事項
+    text: 二　前項第二号に掲げる事項
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p11-kou-3
     type: kou
-    text: 出国をした年月日及び帰国をした年月日
+    text: 三　出国をした年月日及び帰国をした年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p11-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 12
@@ -340,22 +340,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p13-kou-1
     type: kou
-    text: 当該未成年者非課税適用確認書に係る法第三十七条の十四の二第十二項の申請書の提出（同項に規定する提出をいう。第十七項及び第十八項において同じ。）をした者の氏名及び生年月日
+    text: 一　当該未成年者非課税適用確認書に係る法第三十七条の十四の二第十二項の申請書の提出（同項に規定する提出をいう。第十七項及び第十八項において同じ。）をした者の氏名及び生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p13-kou-2
     type: kou
-    text: 法第三十七条の十四の二第十六項の所轄税務署長が当該未成年者非課税適用確認書を作成した年月日
+    text: 二　法第三十七条の十四の二第十六項の所轄税務署長が当該未成年者非課税適用確認書を作成した年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p13-kou-3
     type: kou
-    text: 整理番号
+    text: 三　整理番号
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p13-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 14
@@ -369,32 +369,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p14-kou-1
     type: kou
-    text: 当該未成年者口座廃止通知書に係る未成年者口座廃止届出書の提出（法第三十七条の十四の二第二十項に規定する提出をいう。第二十二項及び次条第二項において同じ。）をした者（次号において「提出者」という。）の氏名及び生年月日
+    text: 一　当該未成年者口座廃止通知書に係る未成年者口座廃止届出書の提出（法第三十七条の十四の二第二十項に規定する提出をいう。第二十二項及び次条第二項において同じ。）をした者（次号において「提出者」という。）の氏名及び生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p14-kou-2
     type: kou
-    text: 当該提出者からその未成年者口座廃止届出書の法第三十七条の十四の二第二十項に規定する提出の日以前の直近に提出を受けた未成年者非課税適用確認書又は未成年者口座廃止通知書に記載された整理番号
+    text: 二　当該提出者からその未成年者口座廃止届出書の法第三十七条の十四の二第二十項に規定する提出の日以前の直近に提出を受けた未成年者非課税適用確認書又は未成年者口座廃止通知書に記載された整理番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p14-kou-3
     type: kou
-    text: 当該未成年者口座廃止届出書に係る未成年者口座が廃止された年月日
+    text: 三　当該未成年者口座廃止届出書に係る未成年者口座が廃止された年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p14-kou-4
     type: kou
-    text: 当該未成年者口座を廃止した日の属する年分の非課税管理勘定への上場株式等の受入れの有無
+    text: 四　当該未成年者口座を廃止した日の属する年分の非課税管理勘定への上場株式等の受入れの有無
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p14-kou-5
     type: kou
-    text: 当該未成年者口座廃止通知書を作成した金融商品取引業者等の営業所の名称及び所在地並びにその作成した年月日
+    text: 五　当該未成年者口座廃止通知書を作成した金融商品取引業者等の営業所の名称及び所在地並びにその作成した年月日
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-18-15-10-p14-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 15
@@ -408,27 +408,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p15-kou-1
     type: kou
-    text: 法第三十七条の十四の二第八項の規定により徴収した所得税を納付する金融商品取引業者等の営業所の名称及び所在地
+    text: 一　法第三十七条の十四の二第八項の規定により徴収した所得税を納付する金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p15-kou-2
     type: kou
-    text: その月において法第三十七条の十四の二第八項の規定により所得税を徴収して納付すべき者の数
+    text: 二　その月において法第三十七条の十四の二第八項の規定により所得税を徴収して納付すべき者の数
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p15-kou-3
     type: kou
-    text: その月において法第三十七条の十四の二第八項の規定により徴収して納付すべき所得税の額
+    text: 三　その月において法第三十七条の十四の二第八項の規定により徴収して納付すべき所得税の額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p15-kou-4
     type: kou
-    text: その月において法第三十七条の十四の二第八項の規定により所得税を徴収すべき未成年者口座に係る同項第一号に掲げる金額から同項第二号に掲げる金額を控除した金額の総額
+    text: 四　その月において法第三十七条の十四の二第八項の規定により所得税を徴収すべき未成年者口座に係る同項第一号に掲げる金額から同項第二号に掲げる金額を控除した金額の総額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p15-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 16
@@ -453,22 +453,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p17-kou-1
     type: kou
-    text: 法第三十七条の十四の二第十二項の申請書の提出をする者の氏名、生年月日、住所及び個人番号（施行令第二十五条の十三の八第二十項において準用する施行令第二十五条の十三第三十三項の規定に該当する者にあつては、氏名、生年月日及び住所）
+    text: 一　法第三十七条の十四の二第十二項の申請書の提出をする者の氏名、生年月日、住所及び個人番号（施行令第二十五条の十三の八第二十項において準用する施行令第二十五条の十三第三十三項の規定に該当する者にあつては、氏名、生年月日及び住所）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p17-kou-2
     type: kou
-    text: 法第三十七条の十四の二第十二項の申請書の提出先の金融商品取引業者等の営業所の名称及び所在地
+    text: 二　法第三十七条の十四の二第十二項の申請書の提出先の金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p17-kou-3
     type: kou
-    text: 未成年者非課税適用確認書の交付を受けたい旨
+    text: 三　未成年者非課税適用確認書の交付を受けたい旨
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p17-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 18
@@ -482,17 +482,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p18-kou-1
     type: kou
-    text: 法第三十七条の十四の二第十二項の申請書の提出をした者の氏名、生年月日及び住所
+    text: 一　法第三十七条の十四の二第十二項の申請書の提出をした者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p18-kou-2
     type: kou
-    text: 未成年者非課税適用確認書の交付を行わない理由
+    text: 二　未成年者非課税適用確認書の交付を行わない理由
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p18-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 19
@@ -515,22 +515,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p20-kou-1
     type: kou
-    text: 施行令第二十五条の十三の八第二十九項に規定する所轄税務署長が同項に規定する金融商品取引業者等の営業所の長を経由して交付する同項に規定する書類又は書面の別
+    text: 一　施行令第二十五条の十三の八第二十九項に規定する所轄税務署長が同項に規定する金融商品取引業者等の営業所の長を経由して交付する同項に規定する書類又は書面の別
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p20-kou-2
     type: kou
-    text: 前号の書類に記載された整理番号
+    text: 二　前号の書類に記載された整理番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p20-kou-3
     type: kou
-    text: 第一号の金融商品取引業者等の営業所の長が、同号の所轄税務署長に対して法第三十七条の十四の二第十五項の規定による申請事項の提供をする際に、当該申請事項が記載された同条第十二項の申請書を識別するための記号又は番号を提供している場合には、当該記号又は番号
+    text: 三　第一号の金融商品取引業者等の営業所の長が、同号の所轄税務署長に対して法第三十七条の十四の二第十五項の規定による申請事項の提供をする際に、当該申請事項が記載された同条第十二項の申請書を識別するための記号又は番号を提供している場合には、当該記号又は番号
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p20-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 21
@@ -544,37 +544,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p21-kou-1
     type: kou
-    text: 当該未成年者非課税適用確認書の提出をした者の氏名、生年月日、住所及び個人番号
+    text: 一　当該未成年者非課税適用確認書の提出をした者の氏名、生年月日、住所及び個人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p21-kou-2
     type: kou
-    text: 当該未成年者非課税適用確認書に記載された整理番号
+    text: 二　当該未成年者非課税適用確認書に記載された整理番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p21-kou-3
     type: kou
-    text: 当該未成年者非課税適用確認書に記載された氏名が変更されている場合には、その旨及び当該未成年者非課税適用確認書に記載された氏名
+    text: 三　当該未成年者非課税適用確認書に記載された氏名が変更されている場合には、その旨及び当該未成年者非課税適用確認書に記載された氏名
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p21-kou-4
     type: kou
-    text: 当該未成年者非課税適用確認書の提出を受けた金融商品取引業者等の営業所の名称及び当該金融商品取引業者等の法人番号
+    text: 四　当該未成年者非課税適用確認書の提出を受けた金融商品取引業者等の営業所の名称及び当該金融商品取引業者等の法人番号
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p21-kou-5
     type: kou
-    text: 当該未成年者非課税適用確認書の提出年月日
+    text: 五　当該未成年者非課税適用確認書の提出年月日
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-18-15-10-p21-kou-6
     type: kou
-    text: 当該未成年者非課税適用確認書の受理後に非課税管理勘定が設定された日又は設定予定年月日及び当該非課税管理勘定が設定された未成年者口座の記号又は番号
+    text: 六　当該未成年者非課税適用確認書の受理後に非課税管理勘定が設定された日又は設定予定年月日及び当該非課税管理勘定が設定された未成年者口座の記号又は番号
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-18-15-10-p21-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 22
@@ -588,27 +588,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p22-kou-1
     type: kou
-    text: 未成年者口座廃止届出書の提出をする者の氏名、生年月日及び住所
+    text: 一　未成年者口座廃止届出書の提出をする者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p22-kou-2
     type: kou
-    text: 当該未成年者口座廃止届出書の提出先の金融商品取引業者等の営業所の名称及び所在地
+    text: 二　当該未成年者口座廃止届出書の提出先の金融商品取引業者等の営業所の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p22-kou-3
     type: kou
-    text: 未成年者口座を廃止する旨並びに法第九条の九及び第三十七条の十四の二第一項から第四項までの規定の適用を受けることをやめようとする当該未成年者口座の記号又は番号
+    text: 三　未成年者口座を廃止する旨並びに法第九条の九及び第三十七条の十四の二第一項から第四項までの規定の適用を受けることをやめようとする当該未成年者口座の記号又は番号
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p22-kou-4
     type: kou
-    text: 当該未成年者口座に現に設けられている非課税管理勘定又は継続管理勘定の年分
+    text: 四　当該未成年者口座に現に設けられている非課税管理勘定又は継続管理勘定の年分
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p22-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 23
@@ -622,37 +622,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p23-kou-1
     type: kou
-    text: 未成年者口座廃止届出書の法第三十七条の十四の二第二十項に規定する提出（以下この項において「未成年者口座廃止届出書の提出」という。）をした者（以下この項において「提出者」という。）の氏名、生年月日及び個人番号
+    text: 一　未成年者口座廃止届出書の法第三十七条の十四の二第二十項に規定する提出（以下この項において「未成年者口座廃止届出書の提出」という。）をした者（以下この項において「提出者」という。）の氏名、生年月日及び個人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p23-kou-2
     type: kou
-    text: 当該提出者からその未成年者口座廃止届出書の提出の日以前の直近に提出を受けた未成年者非課税適用確認書又は未成年者口座廃止通知書に記載された整理番号
+    text: 二　当該提出者からその未成年者口座廃止届出書の提出の日以前の直近に提出を受けた未成年者非課税適用確認書又は未成年者口座廃止通知書に記載された整理番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p23-kou-3
     type: kou
-    text: 当該未成年者口座廃止届出書の提出を受けた金融商品取引業者等の営業所の名称及び当該金融商品取引業者等の法人番号
+    text: 三　当該未成年者口座廃止届出書の提出を受けた金融商品取引業者等の営業所の名称及び当該金融商品取引業者等の法人番号
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p23-kou-4
     type: kou
-    text: 当該未成年者口座廃止届出書の提出により当該未成年者口座を廃止した旨及びその提出年月日
+    text: 四　当該未成年者口座廃止届出書の提出により当該未成年者口座を廃止した旨及びその提出年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p23-kou-5
     type: kou
-    text: 当該提出者に対する未成年者口座廃止通知書の交付の有無
+    text: 五　当該提出者に対する未成年者口座廃止通知書の交付の有無
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-18-15-10-p23-kou-6
     type: kou
-    text: 当該提出者に未成年者口座廃止通知書を交付する場合には、当該未成年者口座を廃止した日の属する年分の非課税管理勘定への上場株式等の受入れの有無
+    text: 六　当該提出者に未成年者口座廃止通知書を交付する場合には、当該未成年者口座を廃止した日の属する年分の非課税管理勘定への上場株式等の受入れの有無
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-18-15-10-p23-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 24
@@ -666,37 +666,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p24-kou-1
     type: kou
-    text: 未成年者口座廃止通知書を提出した者の氏名、生年月日及び個人番号
+    text: 一　未成年者口座廃止通知書を提出した者の氏名、生年月日及び個人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p24-kou-2
     type: kou
-    text: 当該未成年者口座廃止通知書に記載された整理番号
+    text: 二　当該未成年者口座廃止通知書に記載された整理番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p24-kou-3
     type: kou
-    text: 当該未成年者口座廃止通知書に記載された氏名が変更されている場合には、その旨及び当該未成年者口座廃止通知書に記載された氏名
+    text: 三　当該未成年者口座廃止通知書に記載された氏名が変更されている場合には、その旨及び当該未成年者口座廃止通知書に記載された氏名
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p24-kou-4
     type: kou
-    text: 当該未成年者口座廃止通知書の提出を受けた金融商品取引業者等の営業所の名称及びその提出年月日並びに当該金融商品取引業者等の法人番号
+    text: 四　当該未成年者口座廃止通知書の提出を受けた金融商品取引業者等の営業所の名称及びその提出年月日並びに当該金融商品取引業者等の法人番号
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p24-kou-5
     type: kou
-    text: 当該未成年者口座廃止通知書の提出を受けた旨及び当該未成年者口座廃止通知書に記載された第十四項第三号に規定する廃止された年月日
+    text: 五　当該未成年者口座廃止通知書の提出を受けた旨及び当該未成年者口座廃止通知書に記載された第十四項第三号に規定する廃止された年月日
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-18-15-10-p24-kou-6
     type: kou
-    text: 当該未成年者口座廃止通知書の提出により最初に設けようとする非課税管理勘定の年分及び当該非課税管理勘定が設けられる未成年者口座の記号又は番号
+    text: 六　当該未成年者口座廃止通知書の提出により最初に設けようとする非課税管理勘定の年分及び当該非課税管理勘定が設けられる未成年者口座の記号又は番号
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-18-15-10-p24-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 25
@@ -732,32 +732,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-18-15-10-p27-kou-1
     type: kou
-    text: 未成年者出国届出書（施行令第二十五条の十三の八第三十項に規定する未成年者出国届出書をいう。以下この項及び次条第二項第十一号において同じ。）の提出（施行令第二十五条の十三の八第三十項に規定する提出をいう。以下この項及び同号において同じ。）をする者の氏名、生年月日及び住所
+    text: 一　未成年者出国届出書（施行令第二十五条の十三の八第三十項に規定する未成年者出国届出書をいう。以下この項及び次条第二項第十一号において同じ。）の提出（施行令第二十五条の十三の八第三十項に規定する提出をいう。以下この項及び同号において同じ。）をする者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-18-15-10-p27-kou-2
     type: kou
-    text: 未成年者出国届出書の提出をする者が開設している未成年者口座の記号又は番号
+    text: 二　未成年者出国届出書の提出をする者が開設している未成年者口座の記号又は番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-18-15-10-p27-kou-3
     type: kou
-    text: 出国をする予定年月日及び出国後の国外における連絡先
+    text: 三　出国をする予定年月日及び出国後の国外における連絡先
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-18-15-10-p27-kou-4
     type: kou
-    text: 未成年者出国届出書の提出をする者が、その出国の日の属する年分の所得税につき所得税法第六十条の二第一項第二号に掲げる場合に該当して同項の規定の適用を受ける場合には、その旨
+    text: 四　未成年者出国届出書の提出をする者が、その出国の日の属する年分の所得税につき所得税法第六十条の二第一項第二号に掲げる場合に該当して同項の規定の適用を受ける場合には、その旨
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-18-15-10-p27-kou-5
     type: kou
-    text: 未成年者出国届出書の提出をする者が国税通則法第百十七条第二項の規定による納税管理人の届出をしている場合には、その納税管理人の氏名及び住所
+    text: 五　未成年者出国届出書の提出をする者が国税通則法第百十七条第二項の規定による納税管理人の届出をしている場合には、その納税管理人の氏名及び住所
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-18-15-10-p27-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

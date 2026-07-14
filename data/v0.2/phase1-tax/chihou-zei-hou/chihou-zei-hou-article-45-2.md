@@ -25,42 +25,42 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-art-45-2-p1-kou-1
     type: kou
-    text: 前年の総所得金額、退職所得金額又は山林所得金額
+    text: 一　前年の総所得金額、退職所得金額又は山林所得金額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-45-2-p1-kou-2
     type: kou
-    text: 青色専従者給与額（所得税法第五十七条第一項の規定による計算の例により算定した同項の必要経費に算入される金額をいう。）又は事業専従者控除額に関する事項
+    text: 二　青色専従者給与額（所得税法第五十七条第一項の規定による計算の例により算定した同項の必要経費に算入される金額をいう。）又は事業専従者控除額に関する事項
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-45-2-p1-kou-3
     type: kou
-    text: 第三十二条第八項に規定する純損失の金額の控除に関する事項
+    text: 三　第三十二条第八項に規定する純損失の金額の控除に関する事項
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-45-2-p1-kou-4
     type: kou
-    text: 第三十二条第九項に規定する純損失又は雑損失の金額の控除に関する事項
+    text: 四　第三十二条第九項に規定する純損失又は雑損失の金額の控除に関する事項
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-45-2-p1-kou-5
     type: kou
-    text: 雑損控除額、医療費控除額、社会保険料控除額、小規模企業共済等掛金控除額、生命保険料控除額、地震保険料控除額、障害者控除額、寡婦控除額、ひとり親控除額、勤労学生控除額、配偶者控除額、配偶者特別控除額、扶養控除額又は特定親族特別控除額の控除に関する事項
+    text: 五　雑損控除額、医療費控除額、社会保険料控除額、小規模企業共済等掛金控除額、生命保険料控除額、地震保険料控除額、障害者控除額、寡婦控除額、ひとり親控除額、勤労学生控除額、配偶者控除額、配偶者特別控除額、扶養控除額又は特定親族特別控除額の控除に関する事項
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-45-2-p1-kou-6
     type: kou
-    text: 寄附金税額控除額の控除に関する事項
+    text: 六　寄附金税額控除額の控除に関する事項
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-art-45-2-p1-kou-7
     type: kou
-    text: 扶養親族に関する事項
+    text: 七　扶養親族に関する事項
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-art-45-2-p1-kou-8
     type: kou
-    text: 前各号に掲げるもののほか、道府県民税の賦課徴収について必要な事項
+    text: 八　前各号に掲げるもののほか、道府県民税の賦課徴収について必要な事項
     modality: unspecified
     item_number: 8
 - number: 2
@@ -73,8 +73,8 @@ paragraphs:
     text: 市町村長は、第三百十七条の六第一項の給与支払報告書又は同条第四項の公的年金等支払報告書が一月三十一日までに提出されなかつた場合において、道府県民税の賦課徴収について必要があると認めるときは、これらの規定により給与支払報告書又は公的年金等支払報告書を提出する義務がある者から一月一日現在において給与又は公的年金等の支払を受けている者で前年中において給与所得以外の所得又は公的年金等に係る所得以外の所得を有しなかつたものを指定し、その者に、前項の道府県民税に関する申告書を、第三百十七条の二第二項の市町村民税に関する申告書と併せて同項の期限までに提出させることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

@@ -23,52 +23,52 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-1
     type: kou
-    text: 起原又は発見の経緯及び外国における使用状況等に関する資料
+    text: 一　起原又は発見の経緯及び外国における使用状況等に関する資料
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-2
     type: kou
-    text: 製造方法並びに規格及び試験方法等に関する資料
+    text: 二　製造方法並びに規格及び試験方法等に関する資料
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-3
     type: kou
-    text: 安定性に関する資料
+    text: 三　安定性に関する資料
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-4
     type: kou
-    text: 効能、効果又は性能に関する資料
+    text: 四　効能、効果又は性能に関する資料
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-5
     type: kou
-    text: 体内動態に関する資料
+    text: 五　体内動態に関する資料
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-6
     type: kou
-    text: 非臨床安全性に関する資料
+    text: 六　非臨床安全性に関する資料
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-7
     type: kou
-    text: 臨床試験の試験成績に関する資料
+    text: 七　臨床試験の試験成績に関する資料
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-8
     type: kou
-    text: 前号以外の臨床等で得られた品質、有効性及び安全性に関する成績に関する資料（診療等により得られる個人の心身の状態に関する情報を分析して作成された資料を含む。）
+    text: 八　前号以外の臨床等で得られた品質、有効性及び安全性に関する成績に関する資料（診療等により得られる個人の心身の状態に関する情報を分析して作成された資料を含む。）
     modality: unspecified
     item_number: 8
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-9
     type: kou
-    text: リスク分析に関する資料
+    text: 九　リスク分析に関する資料
     modality: unspecified
     item_number: 9
   - id: yakkihou-shikoukisoku-art-137-23-p1-kou-10
     type: kou
-    text: 法第六十八条の二第二項に規定する注意事項等情報に関する資料
+    text: 十　法第六十八条の二第二項に規定する注意事項等情報に関する資料
     modality: unspecified
     item_number: 10
 - number: 2

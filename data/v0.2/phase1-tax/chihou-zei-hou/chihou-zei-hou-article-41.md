@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の場合において、個人の道府県民税及び個人の市町村民税に係る第三百二十一条第二項の規定による納期前の納付に対する報奨金の計算については、個人の道府県民税及び個人の市町村民税の額の合算額により同項の規定を適用するものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

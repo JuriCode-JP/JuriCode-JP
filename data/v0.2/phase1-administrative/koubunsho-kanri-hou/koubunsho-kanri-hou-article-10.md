@@ -34,37 +34,37 @@ paragraphs:
     modality: gimu
   - id: koubunsho-kanri-hou-art-10-p2-kou-1
     type: kou
-    text: 作成に関する事項
+    text: 一　作成に関する事項
     modality: unspecified
     item_number: 1
   - id: koubunsho-kanri-hou-art-10-p2-kou-2
     type: kou
-    text: 整理に関する事項
+    text: 二　整理に関する事項
     modality: unspecified
     item_number: 2
   - id: koubunsho-kanri-hou-art-10-p2-kou-3
     type: kou
-    text: 保存に関する事項
+    text: 三　保存に関する事項
     modality: unspecified
     item_number: 3
   - id: koubunsho-kanri-hou-art-10-p2-kou-4
     type: kou
-    text: 行政文書ファイル管理簿に関する事項
+    text: 四　行政文書ファイル管理簿に関する事項
     modality: unspecified
     item_number: 4
   - id: koubunsho-kanri-hou-art-10-p2-kou-5
     type: kou
-    text: 移管又は廃棄に関する事項
+    text: 五　移管又は廃棄に関する事項
     modality: unspecified
     item_number: 5
   - id: koubunsho-kanri-hou-art-10-p2-kou-6
     type: kou
-    text: 管理状況の報告に関する事項
+    text: 六　管理状況の報告に関する事項
     modality: unspecified
     item_number: 6
   - id: koubunsho-kanri-hou-art-10-p2-kou-7
     type: kou
-    text: その他政令で定める事項
+    text: 七　その他政令で定める事項
     modality: unspecified
     item_number: 7
 - number: 3

@@ -34,12 +34,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-2-p2-kou-1
     type: kou
-    text: 法第三条第一項第一号に規定する特定公社債以外の公社債の利子の支払をした法人（同族会社に該当するものに限る。）又は施行令第一条の四第五項第一号に規定する対象者等同族会社の同号に規定する株主等のうち、その者を法人税法施行令（昭和四十年政令第九十七号）第七十一条第一項の役員であるとした場合に同項第五号イに掲げる要件を満たすこととなる当該株主等（次号において「特定株主等」という。）である個人
+    text: 一　法第三条第一項第一号に規定する特定公社債以外の公社債の利子の支払をした法人（同族会社に該当するものに限る。）又は施行令第一条の四第五項第一号に規定する対象者等同族会社の同号に規定する株主等のうち、その者を法人税法施行令（昭和四十年政令第九十七号）第七十一条第一項の役員であるとした場合に同項第五号イに掲げる要件を満たすこととなる当該株主等（次号において「特定株主等」という。）である個人
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-2-p2-kou-2
     type: kou
-    text: 特定株主等である法人が個人と施行令第一条の四第三項に規定する特殊の関係のある法人となる場合における当該個人
+    text: 二　特定株主等である法人が個人と施行令第一条の四第三項に規定する特殊の関係のある法人となる場合における当該個人
     modality: unspecified
     item_number: 2
 - number: 3
@@ -53,37 +53,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-2-p3-kou-1
     type: kou
-    text: 施行令第一条の四第六項第二号に規定する特定法人公社債の利子の法第三条第一項第五号に規定する支払の確定した日において、第一項に規定する方法により判定した場合に当該特定法人公社債の利子の支払をした同号に規定する特定法人が同族会社に該当することとなるときにおける当該判定の基礎となる法人税法第二条第十四号に規定する株主等のうち、その者を法人税法施行令第七十一条第一項の役員であるとした場合に同項第五号イに掲げる要件を満たすこととなる当該株主等（次号において「特定株主等」という。）である個人
+    text: 一　施行令第一条の四第六項第二号に規定する特定法人公社債の利子の法第三条第一項第五号に規定する支払の確定した日において、第一項に規定する方法により判定した場合に当該特定法人公社債の利子の支払をした同号に規定する特定法人が同族会社に該当することとなるときにおける当該判定の基礎となる法人税法第二条第十四号に規定する株主等のうち、その者を法人税法施行令第七十一条第一項の役員であるとした場合に同項第五号イに掲げる要件を満たすこととなる当該株主等（次号において「特定株主等」という。）である個人
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-2-p3-kou-2
     type: kou
-    text: 特定株主等である法人が個人と施行令第一条の四第七項において準用する同条第三項に規定する特殊の関係のある法人となる場合における当該個人
+    text: 二　特定株主等である法人が個人と施行令第一条の四第七項において準用する同条第三項に規定する特殊の関係のある法人となる場合における当該個人
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-2-p3-kou-3
     type: kou
-    text: 前二号に掲げる個人（以下この項において「特定個人」という。）の親族
+    text: 三　前二号に掲げる個人（以下この項において「特定個人」という。）の親族
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-2-p3-kou-4
     type: kou
-    text: 特定個人と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    text: 四　特定個人と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-2-p3-kou-5
     type: kou
-    text: 特定個人の使用人
+    text: 五　特定個人の使用人
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-2-p3-kou-6
     type: kou
-    text: 前三号に掲げる者以外の者で、特定個人から受ける金銭その他の資産によつて生計を維持しているもの
+    text: 六　前三号に掲げる者以外の者で、特定個人から受ける金銭その他の資産によつて生計を維持しているもの
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-2-p3-kou-7
     type: kou
-    text: 前三号に掲げる者と生計を一にするこれらの者の親族
+    text: 七　前三号に掲げる者と生計を一にするこれらの者の親族
     modality: unspecified
     item_number: 7
 cases: []

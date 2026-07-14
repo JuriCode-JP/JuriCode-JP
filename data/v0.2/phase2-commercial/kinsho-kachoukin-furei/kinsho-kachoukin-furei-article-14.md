@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-14-p1-kou-1
     type: kou
-    text: 納付すべき課徴金の額
+    text: 一　納付すべき課徴金の額
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-14-p1-kou-2
     type: kou
-    text: 課徴金に係る法第百七十八条第一項各号に掲げる事実
+    text: 二　課徴金に係る法第百七十八条第一項各号に掲げる事実
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-14-p1-kou-3
     type: kou
-    text: 法令の適用
+    text: 三　法令の適用
     modality: unspecified
     item_number: 3
   - id: kinsho-kachoukin-furei-art-14-p1-kou-4
     type: kou
-    text: 課徴金の計算の基礎
+    text: 四　課徴金の計算の基礎
     modality: unspecified
     item_number: 4
   - id: kinsho-kachoukin-furei-art-14-p1-kou-5
     type: kou
-    text: 最初の審判手続の期日及び場所
+    text: 五　最初の審判手続の期日及び場所
     modality: unspecified
     item_number: 5
 - number: 2
@@ -57,12 +57,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-kachoukin-furei-art-14-p2-kou-1
     type: kou
-    text: 被審人又はその代理人が審判手続の期日に出頭すべき旨
+    text: 一　被審人又はその代理人が審判手続の期日に出頭すべき旨
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-14-p2-kou-2
     type: kou
-    text: 答弁書を提出すべき期限
+    text: 二　答弁書を提出すべき期限
     modality: unspecified
     item_number: 2
 cases: []

@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の場合において、同項の確定申告書に記載された第百二十二条第一項第二号又は第百二十三条第二項第七号に規定する源泉徴収税額のうちにまだ納付されていないものがあるときは、前項の規定による還付金の額のうちその納付されていない部分の金額に相当する金額については、その納付があるまでは、還付しない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -46,12 +46,12 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-art-138-p3-kou-1
     type: kou
-    text: 第一項の確定申告書がその確定申告期限までに提出された場合　その確定申告期限
+    text: 一　第一項の確定申告書がその確定申告期限までに提出された場合　その確定申告期限
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-138-p3-kou-2
     type: kou
-    text: 第一項の確定申告書がその確定申告期限後に提出された場合　その提出の日
+    text: 二　第一項の確定申告書がその確定申告期限後に提出された場合　その提出の日
     modality: unspecified
     item_number: 2
 - number: 4
@@ -75,8 +75,8 @@ paragraphs:
     text: 前三項に定めるもののほか、第一項の還付の手続、同項の規定による還付金（これに係る還付加算金を含む。）につき充当をする場合の方法その他同項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前三項
+    - 同項
 cases:
 - case_id: ntt-2013-11-28-j93-1
   case_type: ruling

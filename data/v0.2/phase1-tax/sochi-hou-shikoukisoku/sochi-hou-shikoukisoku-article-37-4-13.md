@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-4-13-p1-kou-1
     type: kou
-    text: 米、麦、あわ、とうもろこし、こうりやん、きび、ひえ若しくはでん粉又はこれらのこうじ
+    text: 一　米、麦、あわ、とうもろこし、こうりやん、きび、ひえ若しくはでん粉又はこれらのこうじ
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-4-13-p1-kou-2
     type: kou
-    text: ぶどう（やまぶどうを含む。）
+    text: 二　ぶどう（やまぶどうを含む。）
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-4-13-p1-kou-3
     type: kou
-    text: アミノ酸若しくはその塩類、ビタミン類、核酸分解物若しくはその塩類、有機酸若しくはその塩類、無機塩類、色素、香料又は酒類のかす
+    text: 三　アミノ酸若しくはその塩類、ビタミン類、核酸分解物若しくはその塩類、有機酸若しくはその塩類、無機塩類、色素、香料又は酒類のかす
     modality: unspecified
     item_number: 3
 cases: []

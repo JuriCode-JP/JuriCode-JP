@@ -25,22 +25,22 @@ paragraphs:
     - 同項
   - id: kinsho-hou-shikkourei-art-17-14-p1-kou-1
     type: kou
-    text: 市場デリバティブ取引若しくは外国市場デリバティブ取引又はその媒介、取次ぎ若しくは代理
+    text: 一　市場デリバティブ取引若しくは外国市場デリバティブ取引又はその媒介、取次ぎ若しくは代理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-17-14-p1-kou-2
     type: kou
-    text: 市場デリバティブ取引又は外国市場デリバティブ取引の委託の媒介、取次ぎ又は代理
+    text: 二　市場デリバティブ取引又は外国市場デリバティブ取引の委託の媒介、取次ぎ又は代理
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-17-14-p1-kou-3
     type: kou
-    text: 市場デリバティブ取引若しくは外国市場デリバティブ取引又はその媒介、取次ぎ若しくは代理の申込みの勧誘
+    text: 三　市場デリバティブ取引若しくは外国市場デリバティブ取引又はその媒介、取次ぎ若しくは代理の申込みの勧誘
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-17-14-p1-kou-4
     type: kou
-    text: 市場デリバティブ取引又は外国市場デリバティブ取引の委託の勧誘
+    text: 四　市場デリバティブ取引又は外国市場デリバティブ取引の委託の勧誘
     modality: unspecified
     item_number: 4
 cases: []

@@ -36,32 +36,32 @@ paragraphs:
     - 前項
   - id: yakkihou-art-26-p2-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-26-p2-kou-2
     type: kou
-    text: その店舗の名称及び所在地
+    text: 二　その店舗の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-26-p2-kou-3
     type: kou
-    text: その店舗の構造設備の概要
+    text: 三　その店舗の構造設備の概要
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-26-p2-kou-4
     type: kou
-    text: その店舗において医薬品の販売又は授与の業務を行う体制の概要
+    text: 四　その店舗において医薬品の販売又は授与の業務を行う体制の概要
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-26-p2-kou-5
     type: kou
-    text: 法人にあつては、薬事に関する業務に責任を有する役員の氏名
+    text: 五　法人にあつては、薬事に関する業務に責任を有する役員の氏名
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-26-p2-kou-6
     type: kou
-    text: 第五項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
+    text: 六　第五項において準用する第五条第三号イからトまでに該当しない旨その他厚生労働省令で定める事項
     modality: unspecified
     item_number: 6
 - number: 3
@@ -77,32 +77,32 @@ paragraphs:
     - 前項
   - id: yakkihou-art-26-p3-kou-1
     type: kou
-    text: その店舗の平面図
+    text: 一　その店舗の平面図
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-26-p3-kou-2
     type: kou
-    text: 第二十八条第一項の規定によりその店舗をその指定する者に実地に管理させる場合にあつては、その指定する者の氏名及び住所を記載した書類
+    text: 二　第二十八条第一項の規定によりその店舗をその指定する者に実地に管理させる場合にあつては、その指定する者の氏名及び住所を記載した書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-26-p3-kou-3
     type: kou
-    text: 第一項の許可を受けようとする者及び前号の者以外にその店舗において薬事に関する実務に従事する薬剤師又は登録販売者（第四条第五項第一号に規定する登録販売者をいう。以下同じ。）を置く場合にあつては、その薬剤師又は登録販売者の氏名及び住所を記載した書類
+    text: 三　第一項の許可を受けようとする者及び前号の者以外にその店舗において薬事に関する実務に従事する薬剤師又は登録販売者（第四条第五項第一号に規定する登録販売者をいう。以下同じ。）を置く場合にあつては、その薬剤師又は登録販売者の氏名及び住所を記載した書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-26-p3-kou-4
     type: kou
-    text: その店舗において販売し、又は授与する医薬品の要指導医薬品及び一般用医薬品に係る厚生労働省令で定める区分を記載した書類
+    text: 四　その店舗において販売し、又は授与する医薬品の要指導医薬品及び一般用医薬品に係る厚生労働省令で定める区分を記載した書類
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-26-p3-kou-5
     type: kou
-    text: その店舗においてその店舗以外の場所にいる者に対して要指導医薬品（特定要指導医薬品を除く。）又は一般用医薬品を販売し、又は授与する場合にあつては、その者との間の通信手段その他の厚生労働省令で定める事項を記載した書類
+    text: 五　その店舗においてその店舗以外の場所にいる者に対して要指導医薬品（特定要指導医薬品を除く。）又は一般用医薬品を販売し、又は授与する場合にあつては、その者との間の通信手段その他の厚生労働省令で定める事項を記載した書類
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-26-p3-kou-6
     type: kou
-    text: その他厚生労働省令で定める書類
+    text: 六　その他厚生労働省令で定める書類
     modality: unspecified
     item_number: 6
 - number: 4
@@ -116,12 +116,12 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-art-26-p4-kou-1
     type: kou
-    text: その店舗の構造設備が、厚生労働省令で定める基準に適合しないとき。
+    text: 一　その店舗の構造設備が、厚生労働省令で定める基準に適合しないとき。
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-26-p4-kou-2
     type: kou
-    text: 薬剤師又は登録販売者を置くことその他その店舗において医薬品の販売又は授与の業務を行う体制が適切に医薬品を販売し、又は授与するために必要な基準として厚生労働省令で定めるものに適合しないとき。
+    text: 二　薬剤師又は登録販売者を置くことその他その店舗において医薬品の販売又は授与の業務を行う体制が適切に医薬品を販売し、又は授与するために必要な基準として厚生労働省令で定めるものに適合しないとき。
     modality: unspecified
     item_number: 2
 - number: 5

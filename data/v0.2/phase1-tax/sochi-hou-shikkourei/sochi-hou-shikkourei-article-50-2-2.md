@@ -25,27 +25,27 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-50-2-2-p1-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-2-2-p1-kou-2
     type: kou
-    text: 当該非製品ガスの製造場の所在地及び名称
+    text: 二　当該非製品ガスの製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-2-2-p1-kou-3
     type: kou
-    text: 当該非製品ガスの製造に使用する原料の種類
+    text: 三　当該非製品ガスの製造に使用する原料の種類
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-50-2-2-p1-kou-4
     type: kou
-    text: 当該非製品ガスの数量の計測方法及び計測場所
+    text: 四　当該非製品ガスの数量の計測方法及び計測場所
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-50-2-2-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -79,27 +79,27 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-50-2-2-p4-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-2-2-p4-kou-2
     type: kou
-    text: 当該非製品ガスを製造した製造場の所在地及び名称
+    text: 二　当該非製品ガスを製造した製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-2-2-p4-kou-3
     type: kou
-    text: 製造した当該非製品ガスの数量
+    text: 三　製造した当該非製品ガスの数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-50-2-2-p4-kou-4
     type: kou
-    text: 還付を受けようとする金額
+    text: 四　還付を受けようとする金額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-50-2-2-p4-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 5
@@ -112,8 +112,8 @@ paragraphs:
     text: 前項の規定による申請書には、同項第四号に掲げる金額の計算の基礎を記載した書類を添付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
@@ -152,17 +152,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-50-2-2-p9-kou-1
     type: kou
-    text: 非製品ガスの製造に使用された原料の種類、種類ごとの数量及び密度並びに使用の年月日
+    text: 一　非製品ガスの製造に使用された原料の種類、種類ごとの数量及び密度並びに使用の年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-2-2-p9-kou-2
     type: kou
-    text: 製造した非製品ガスの数量、重量及び製造の年月日
+    text: 二　製造した非製品ガスの数量、重量及び製造の年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-2-2-p9-kou-3
     type: kou
-    text: 移出した非製品ガスの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称並びに移出先の所在地及び名称
+    text: 三　移出した非製品ガスの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称並びに移出先の所在地及び名称
     modality: unspecified
     item_number: 3
 - number: 10

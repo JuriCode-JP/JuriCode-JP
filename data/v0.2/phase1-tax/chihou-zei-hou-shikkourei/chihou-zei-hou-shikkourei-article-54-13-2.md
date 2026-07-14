@@ -51,9 +51,9 @@ paragraphs:
     text: 法第五百八十六条第二項第一号の二に規定する政令で定める者は、同号に規定する地区において、土地を取得し、かつ、当該土地の上に前項に規定する設備を新設し、又は増設した者（当該土地の取得の日の翌日から起算して一年以内に、当該土地を敷地とする同号に規定する工場用の建物（以下この項及び第六項において「工場用の建物」という。）若しくは次項に規定する建物の建設に着手し、又は当該土地に取得時に現に存した建物の全部若しくは一部を工場用の建物若しくは同項に規定する建物の用に供した者に限る。）とする。
     modality: gimu
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false
@@ -76,32 +76,32 @@ paragraphs:
     - 前項
   - id: chihou-zei-hou-shikkourei-art-54-13-2-p6-kou-1
     type: kou
-    text: 工場用の建物内における生産工程と密接不可分な工業生産設備（ガスの製造又は発電に係る設備を含む。）
+    text: 一　工場用の建物内における生産工程と密接不可分な工業生産設備（ガスの製造又は発電に係る設備を含む。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-54-13-2-p6-kou-2
     type: kou
-    text: 原材料の搬入、貯蔵又は前処理のための施設
+    text: 二　原材料の搬入、貯蔵又は前処理のための施設
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-54-13-2-p6-kou-3
     type: kou
-    text: 製品の貯蔵又は搬出のための施設
+    text: 三　製品の貯蔵又は搬出のための施設
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-54-13-2-p6-kou-4
     type: kou
-    text: 廃棄物処理施設
+    text: 四　廃棄物処理施設
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-54-13-2-p6-kou-5
     type: kou
-    text: 試験研究のための施設
+    text: 五　試験研究のための施設
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-54-13-2-p6-kou-6
     type: kou
-    text: 前各号に掲げるもののほか、総務省令で定める施設
+    text: 六　前各号に掲げるもののほか、総務省令で定める施設
     modality: unspecified
     item_number: 6
 cases: []

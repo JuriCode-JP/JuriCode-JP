@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の賃金又は金品に関して争がある場合においては、使用者は、異議のない部分を、同項の期間中に支払い、又は返還しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

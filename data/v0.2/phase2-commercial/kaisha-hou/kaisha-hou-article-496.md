@@ -22,8 +22,8 @@ paragraphs:
     text: 清算株式会社は、第四百九十四条第一項に規定する各清算事務年度に係る貸借対照表及び事務報告並びにこれらの附属明細書（前条第一項の規定の適用がある場合にあっては、監査報告を含む。以下この条において「貸借対照表等」という。）を、定時株主総会の日の一週間前の日（第三百十九条第一項の場合にあっては、同項の提案があった日）からその本店の所在地における清算結了の登記の時までの間、その本店に備え置かなければならない。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: true
   has_items: true
@@ -35,22 +35,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-496-p2-kou-1
     type: kou
-    text: 貸借対照表等が書面をもって作成されているときは、当該書面の閲覧の請求
+    text: 一　貸借対照表等が書面をもって作成されているときは、当該書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-496-p2-kou-2
     type: kou
-    text: 前号の書面の謄本又は抄本の交付の請求
+    text: 二　前号の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-496-p2-kou-3
     type: kou
-    text: 貸借対照表等が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　貸借対照表等が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-496-p2-kou-4
     type: kou
-    text: 前号の電磁的記録に記録された事項を電磁的方法であって清算株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前号の電磁的記録に記録された事項を電磁的方法であって清算株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 - number: 3

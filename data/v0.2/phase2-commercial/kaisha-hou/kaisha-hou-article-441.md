@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-441-p1-kou-1
     type: kou
-    text: 臨時決算日における貸借対照表
+    text: 一　臨時決算日における貸借対照表
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-441-p1-kou-2
     type: kou
-    text: 臨時決算日の属する事業年度の初日から臨時決算日までの期間に係る損益計算書
+    text: 二　臨時決算日の属する事業年度の初日から臨時決算日までの期間に係る損益計算書
     modality: unspecified
     item_number: 2
 - number: 2
@@ -50,8 +50,8 @@ paragraphs:
     text: 取締役会設置会社においては、臨時計算書類（前項の規定の適用がある場合にあっては、同項の監査を受けたもの）は、取締役会の承認を受けなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: true
   has_items: true
@@ -63,17 +63,17 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-441-p4-kou-1
     type: kou
-    text: 第四百三十六条第一項に規定する監査役設置会社又は会計監査人設置会社（いずれも取締役会設置会社を除く。）　第二項の監査を受けた臨時計算書類
+    text: 一　第四百三十六条第一項に規定する監査役設置会社又は会計監査人設置会社（いずれも取締役会設置会社を除く。）　第二項の監査を受けた臨時計算書類
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-441-p4-kou-2
     type: kou
-    text: 取締役会設置会社　前項の承認を受けた臨時計算書類
+    text: 二　取締役会設置会社　前項の承認を受けた臨時計算書類
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-441-p4-kou-3
     type: kou
-    text: 前二号に掲げるもの以外の株式会社　第一項の臨時計算書類
+    text: 三　前二号に掲げるもの以外の株式会社　第一項の臨時計算書類
     modality: unspecified
     item_number: 3
 cases: []

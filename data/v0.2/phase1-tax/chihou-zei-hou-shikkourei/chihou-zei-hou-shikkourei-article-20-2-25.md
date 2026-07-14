@@ -47,8 +47,8 @@ paragraphs:
     text: 第二十条の二の二十一第三項から第五項までの規定は、前項の規定の適用がある場合における同項の事務所又は事業所の従業者の数について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

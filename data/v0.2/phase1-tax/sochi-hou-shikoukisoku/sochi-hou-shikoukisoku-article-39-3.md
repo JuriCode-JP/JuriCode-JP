@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-39-3-p1-kou-1
     type: kou
-    text: 法第九十条の三第一項第一号に規定する大使館又は公使館の長の公用品である自動車（第三号に掲げる自動車を除く。）　一月につき六百リットルの割合で計算した数量
+    text: 一　法第九十条の三第一項第一号に規定する大使館又は公使館の長の公用品である自動車（第三号に掲げる自動車を除く。）　一月につき六百リットルの割合で計算した数量
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-39-3-p1-kou-2
     type: kou
-    text: 前号及び次号に掲げる自動車以外の自動車　一月につき四百リットルの割合で計算した数量
+    text: 二　前号及び次号に掲げる自動車以外の自動車　一月につき四百リットルの割合で計算した数量
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-39-3-p1-kou-3
     type: kou
-    text: 二輪又は三輪の自動車　一月につき二百リットルの割合で計算した数量
+    text: 三　二輪又は三輪の自動車　一月につき二百リットルの割合で計算した数量
     modality: unspecified
     item_number: 3
 cases: []

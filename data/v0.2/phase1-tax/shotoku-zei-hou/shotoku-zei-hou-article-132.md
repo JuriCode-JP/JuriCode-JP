@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: shotoku-zei-hou-art-132-p1-kou-1
     type: kou
-    text: その延払条件付譲渡をした日の属する年分の所得税に係る第百二十条第一項（確定所得申告）の規定による申告書（第百二十六条第一項（確定申告書を提出すべき者が出国をする場合の確定申告）の規定に該当して提出すべきものを除く。）又は第百二十五条第一項（年の中途で死亡した場合の確定申告）の規定による申告書をこれらの申告書の提出期限までに提出したこと。
+    text: 一　その延払条件付譲渡をした日の属する年分の所得税に係る第百二十条第一項（確定所得申告）の規定による申告書（第百二十六条第一項（確定申告書を提出すべき者が出国をする場合の確定申告）の規定に該当して提出すべきものを除く。）又は第百二十五条第一項（年の中途で死亡した場合の確定申告）の規定による申告書をこれらの申告書の提出期限までに提出したこと。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-132-p1-kou-2
     type: kou
-    text: 延払条件付譲渡に係る税額が前号に規定する申告書に記載された第百二十条第一項第三号に掲げる所得税の額の二分の一に相当する金額を超えること。
+    text: 二　延払条件付譲渡に係る税額が前号に規定する申告書に記載された第百二十条第一項第三号に掲げる所得税の額の二分の一に相当する金額を超えること。
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-132-p1-kou-3
     type: kou
-    text: 延払条件付譲渡に係る税額が三十万円を超えること。
+    text: 三　延払条件付譲渡に係る税額が三十万円を超えること。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -62,17 +62,17 @@ paragraphs:
     modality: teigi
   - id: shotoku-zei-hou-art-132-p3-kou-1
     type: kou
-    text: 月賦、年賦その他の賦払の方法により三回以上に分割して対価の支払を受けること。
+    text: 一　月賦、年賦その他の賦払の方法により三回以上に分割して対価の支払を受けること。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-132-p3-kou-2
     type: kou
-    text: その譲渡の目的物の引渡しの期日の翌日から最後の賦払金の支払の期日までの期間が二年以上であること。
+    text: 二　その譲渡の目的物の引渡しの期日の翌日から最後の賦払金の支払の期日までの期間が二年以上であること。
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-132-p3-kou-3
     type: kou
-    text: その他政令で定める要件
+    text: 三　その他政令で定める要件
     modality: unspecified
     item_number: 3
 - number: 4

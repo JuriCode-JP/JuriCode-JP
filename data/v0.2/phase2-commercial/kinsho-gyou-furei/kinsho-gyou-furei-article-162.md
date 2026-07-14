@@ -25,37 +25,37 @@ paragraphs:
     - 同項
   - id: kinsho-gyou-furei-art-162-p1-kou-1
     type: kou
-    text: 顧客の氏名又は名称
+    text: 一　顧客の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-162-p1-kou-2
     type: kou
-    text: 銘柄
+    text: 二　銘柄
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-162-p1-kou-3
     type: kou
-    text: 募集若しくは売出し若しくは私募若しくは特定投資家向け売付け勧誘等又は買取り若しくは解約若しくは払戻し（次項において「募集等」という。）の別
+    text: 三　募集若しくは売出し若しくは私募若しくは特定投資家向け売付け勧誘等又は買取り若しくは解約若しくは払戻し（次項において「募集等」という。）の別
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-162-p1-kou-4
     type: kou
-    text: 受注数量（数量がない場合にあっては、件数又は数量に準ずるもの。第三項第一号において同じ。）、受注単価及び受注金額
+    text: 四　受注数量（数量がない場合にあっては、件数又は数量に準ずるもの。第三項第一号において同じ。）、受注単価及び受注金額
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-162-p1-kou-5
     type: kou
-    text: 約定数量（数量がない場合にあっては、件数又は数量に準ずるもの。第三項第一号において同じ。）、約定単価及び約定金額
+    text: 五　約定数量（数量がない場合にあっては、件数又は数量に準ずるもの。第三項第一号において同じ。）、約定単価及び約定金額
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-162-p1-kou-6
     type: kou
-    text: 受注日時
+    text: 六　受注日時
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-162-p1-kou-7
     type: kou
-    text: 約定日時
+    text: 七　約定日時
     modality: unspecified
     item_number: 7
 - number: 2
@@ -71,21 +71,21 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-162-p2-kou-1
     type: kou
-    text: 原則として募集等に係る申込みを受けたときに、速やかに作成すること。
+    text: 一　原則として募集等に係る申込みを受けたときに、速やかに作成すること。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-162-p2-kou-2
     type: kou
-    text: 約定が不成立の場合には、その旨を表示すること。
+    text: 二　約定が不成立の場合には、その旨を表示すること。
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-162-p2-kou-3
     type: kou
-    text: '募集若しくは売出し又は私募若しくは特定投資家向け売付け勧誘等に係る取引記録を電磁的記録により作成する場合は、前二号に掲げるところによるほか、次に掲げるところにより作成すること。
+    text: '三　募集若しくは売出し又は私募若しくは特定投資家向け売付け勧誘等に係る取引記録を電磁的記録により作成する場合は、前二号に掲げるところによるほか、次に掲げるところにより作成すること。
 
-      イ 前項各号（第五号及び第七号を除く。）に掲げる事項は、募集等に係る申込みを受けたときに電子計算機へ入力すること。
+      イ　前項各号（第五号及び第七号を除く。）に掲げる事項は、募集等に係る申込みを受けたときに電子計算機へ入力すること。
 
-      ロ 募集等に係る申込みを電子計算機へ入力した日付及び時刻が自動的に記録されること。'
+      ロ　募集等に係る申込みを電子計算機へ入力した日付及び時刻が自動的に記録されること。'
     modality: unspecified
     item_number: 3
 - number: 3
@@ -101,12 +101,12 @@ paragraphs:
     - 前二項
   - id: kinsho-gyou-furei-art-162-p3-kou-1
     type: kou
-    text: 同一日において価格が変動しない投資信託受益証券等に係る第一項第四号から第七号までに掲げる事項　当該各号に掲げる事項に代えて、受注数量、約定数量、受注日及び約定日を記載すること。
+    text: 一　同一日において価格が変動しない投資信託受益証券等に係る第一項第四号から第七号までに掲げる事項　当該各号に掲げる事項に代えて、受注数量、約定数量、受注日及び約定日を記載すること。
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-162-p3-kou-2
     type: kou
-    text: 前項第三号の規定により電磁的記録により作成されている事項　当該電磁的記録により作成されている事項を電子計算機の映像面へ表示し、又は書面へ出力する場合においては、一覧表により表示し、又は出力すること。
+    text: 二　前項第三号の規定により電磁的記録により作成されている事項　当該電磁的記録により作成されている事項を電子計算機の映像面へ表示し、又は書面へ出力する場合においては、一覧表により表示し、又は出力すること。
     modality: unspecified
     item_number: 2
 cases: []

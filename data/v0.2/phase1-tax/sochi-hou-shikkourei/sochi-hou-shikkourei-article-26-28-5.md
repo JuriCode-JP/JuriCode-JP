@@ -54,17 +54,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p4-kou-1
     type: kou
-    text: 高齢者等居住改修工事等の法第四十一条の十九の三第一項に規定する標準的費用額が五十万円を超えること。
+    text: 一　高齢者等居住改修工事等の法第四十一条の十九の三第一項に規定する標準的費用額が五十万円を超えること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p4-kou-2
     type: kou
-    text: 高齢者等居住改修工事等をした家屋が居住用家屋（法第四十一条の十九の三第一項に規定する居住用家屋をいう。以下この条において同じ。）に該当すること。
+    text: 二　高齢者等居住改修工事等をした家屋が居住用家屋（法第四十一条の十九の三第一項に規定する居住用家屋をいう。以下この条において同じ。）に該当すること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-26-28-5-p4-kou-3
     type: kou
-    text: 高齢者等居住改修工事等をした家屋の当該高齢者等居住改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該高齢者等居住改修工事等に要した費用の額が当該高齢者等居住改修工事等に要した費用の額の二分の一以上であること。
+    text: 三　高齢者等居住改修工事等をした家屋の当該高齢者等居住改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該高齢者等居住改修工事等に要した費用の額が当該高齢者等居住改修工事等に要した費用の額の二分の一以上であること。
     modality: unspecified
     item_number: 3
 - number: 5
@@ -100,17 +100,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p7-kou-1
     type: kou
-    text: 一般断熱改修工事等の法第四十一条の十九の三第二項に規定する断熱改修標準的費用額が五十万円を超えること。
+    text: 一　一般断熱改修工事等の法第四十一条の十九の三第二項に規定する断熱改修標準的費用額が五十万円を超えること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p7-kou-2
     type: kou
-    text: 一般断熱改修工事等をした家屋が居住用家屋に該当すること。
+    text: 二　一般断熱改修工事等をした家屋が居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-26-28-5-p7-kou-3
     type: kou
-    text: 一般断熱改修工事等をした家屋の当該一般断熱改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該一般断熱改修工事等に要した費用の額が当該一般断熱改修工事等に要した費用の額の二分の一以上であること。
+    text: 三　一般断熱改修工事等をした家屋の当該一般断熱改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該一般断熱改修工事等に要した費用の額が当該一般断熱改修工事等に要した費用の額の二分の一以上であること。
     modality: unspecified
     item_number: 3
 - number: 8
@@ -144,17 +144,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p10-kou-1
     type: kou
-    text: 多世帯同居改修工事等の法第四十一条の十九の三第三項に規定する多世帯同居改修標準的費用額が五十万円を超えること。
+    text: 一　多世帯同居改修工事等の法第四十一条の十九の三第三項に規定する多世帯同居改修標準的費用額が五十万円を超えること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p10-kou-2
     type: kou
-    text: 多世帯同居改修工事等をした家屋が居住用家屋に該当すること。
+    text: 二　多世帯同居改修工事等をした家屋が居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-26-28-5-p10-kou-3
     type: kou
-    text: 多世帯同居改修工事等をした家屋の当該多世帯同居改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該多世帯同居改修工事等に要した費用の額が当該多世帯同居改修工事等に要した費用の額の二分の一以上であること。
+    text: 三　多世帯同居改修工事等をした家屋の当該多世帯同居改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該多世帯同居改修工事等に要した費用の額が当該多世帯同居改修工事等に要した費用の額の二分の一以上であること。
     modality: unspecified
     item_number: 3
 - number: 11
@@ -168,17 +168,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p11-kou-1
     type: kou
-    text: 法第四十一条の十九の三第四項の住宅耐震改修（以下この項及び第二十二項第二号において「住宅耐震改修」という。）の同条第四項の耐震改修標準的費用額が五十万円を超えること。
+    text: 一　法第四十一条の十九の三第四項の住宅耐震改修（以下この項及び第二十二項第二号において「住宅耐震改修」という。）の同条第四項の耐震改修標準的費用額が五十万円を超えること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p11-kou-2
     type: kou
-    text: 住宅耐震改修をした家屋が居住用家屋に該当すること。
+    text: 二　住宅耐震改修をした家屋が居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-26-28-5-p11-kou-3
     type: kou
-    text: 住宅耐震改修をした家屋の当該住宅耐震改修に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該住宅耐震改修に要した費用の額が当該住宅耐震改修に要した費用の額の二分の一以上であること。
+    text: 三　住宅耐震改修をした家屋の当該住宅耐震改修に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該住宅耐震改修に要した費用の額が当該住宅耐震改修に要した費用の額の二分の一以上であること。
     modality: unspecified
     item_number: 3
 - number: 12
@@ -212,17 +212,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p14-kou-1
     type: kou
-    text: 耐久性向上改修工事等の法第四十一条の十九の三第四項に規定する耐久性向上改修標準的費用額が五十万円を超えること。
+    text: 一　耐久性向上改修工事等の法第四十一条の十九の三第四項に規定する耐久性向上改修標準的費用額が五十万円を超えること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p14-kou-2
     type: kou
-    text: 耐久性向上改修工事等をした家屋が居住用家屋に該当すること。
+    text: 二　耐久性向上改修工事等をした家屋が居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-26-28-5-p14-kou-3
     type: kou
-    text: 耐久性向上改修工事等をした家屋の当該耐久性向上改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該耐久性向上改修工事等に要した費用の額が当該耐久性向上改修工事等に要した費用の額の二分の一以上であること。
+    text: 三　耐久性向上改修工事等をした家屋の当該耐久性向上改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該耐久性向上改修工事等に要した費用の額が当該耐久性向上改修工事等に要した費用の額の二分の一以上であること。
     modality: unspecified
     item_number: 3
 - number: 15
@@ -256,17 +256,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p17-kou-1
     type: kou
-    text: 子育て対応改修工事等の法第四十一条の十九の三第七項に規定する子育て対応改修標準的費用額が五十万円を超えること。
+    text: 一　子育て対応改修工事等の法第四十一条の十九の三第七項に規定する子育て対応改修標準的費用額が五十万円を超えること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p17-kou-2
     type: kou
-    text: 子育て対応改修工事等をした家屋が居住用家屋に該当すること。
+    text: 二　子育て対応改修工事等をした家屋が居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-26-28-5-p17-kou-3
     type: kou
-    text: 子育て対応改修工事等をした家屋の当該子育て対応改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該子育て対応改修工事等に要した費用の額が当該子育て対応改修工事等に要した費用の額の二分の一以上であること。
+    text: 三　子育て対応改修工事等をした家屋の当該子育て対応改修工事等に係る部分のうちにその者の居住の用以外の用に供する部分がある場合には、当該居住の用に供する部分に係る当該子育て対応改修工事等に要した費用の額が当該子育て対応改修工事等に要した費用の額の二分の一以上であること。
     modality: unspecified
     item_number: 3
 - number: 18
@@ -289,12 +289,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p19-kou-1
     type: kou
-    text: 第四項第一号及び第三号に掲げる要件
+    text: 一　第四項第一号及び第三号に掲げる要件
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p19-kou-2
     type: kou
-    text: 高齢者等居住改修工事等をした家屋が小規模居住用家屋（法第四十一条の十九の三第十項に規定する小規模居住用家屋をいう。以下この条において同じ。）に該当すること。
+    text: 二　高齢者等居住改修工事等をした家屋が小規模居住用家屋（法第四十一条の十九の三第十項に規定する小規模居住用家屋をいう。以下この条において同じ。）に該当すること。
     modality: unspecified
     item_number: 2
 - number: 20
@@ -308,12 +308,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p20-kou-1
     type: kou
-    text: 第七項第一号及び第三号に掲げる要件
+    text: 一　第七項第一号及び第三号に掲げる要件
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p20-kou-2
     type: kou
-    text: 一般断熱改修工事等をした家屋が小規模居住用家屋に該当すること。
+    text: 二　一般断熱改修工事等をした家屋が小規模居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
 - number: 21
@@ -327,12 +327,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p21-kou-1
     type: kou
-    text: 第十項第一号及び第三号に掲げる要件
+    text: 一　第十項第一号及び第三号に掲げる要件
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p21-kou-2
     type: kou
-    text: 多世帯同居改修工事等をした家屋が小規模居住用家屋に該当すること。
+    text: 二　多世帯同居改修工事等をした家屋が小規模居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
 - number: 22
@@ -346,12 +346,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p22-kou-1
     type: kou
-    text: 第十一項第一号及び第三号に掲げる要件
+    text: 一　第十一項第一号及び第三号に掲げる要件
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p22-kou-2
     type: kou
-    text: 住宅耐震改修をした家屋が小規模居住用家屋に該当すること。
+    text: 二　住宅耐震改修をした家屋が小規模居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
 - number: 23
@@ -365,12 +365,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p23-kou-1
     type: kou
-    text: 第十四項第一号及び第三号に掲げる要件
+    text: 一　第十四項第一号及び第三号に掲げる要件
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p23-kou-2
     type: kou
-    text: 耐久性向上改修工事等をした家屋が小規模居住用家屋に該当すること。
+    text: 二　耐久性向上改修工事等をした家屋が小規模居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
 - number: 24
@@ -384,12 +384,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-26-28-5-p24-kou-1
     type: kou
-    text: 第十七項第一号及び第三号に掲げる要件
+    text: 一　第十七項第一号及び第三号に掲げる要件
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-28-5-p24-kou-2
     type: kou
-    text: 子育て対応改修工事等をした家屋が小規模居住用家屋に該当すること。
+    text: 二　子育て対応改修工事等をした家屋が小規模居住用家屋に該当すること。
     modality: unspecified
     item_number: 2
 - number: 25

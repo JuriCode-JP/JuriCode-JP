@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-215-p1-kou-1
     type: kou
-    text: 歳入歳出予算
+    text: 一　歳入歳出予算
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-215-p1-kou-2
     type: kou
-    text: 継続費
+    text: 二　継続費
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-215-p1-kou-3
     type: kou
-    text: 繰越明許費
+    text: 三　繰越明許費
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-215-p1-kou-4
     type: kou
-    text: 債務負担行為
+    text: 四　債務負担行為
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-215-p1-kou-5
     type: kou
-    text: 地方債
+    text: 五　地方債
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-215-p1-kou-6
     type: kou
-    text: 一時借入金
+    text: 六　一時借入金
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-215-p1-kou-7
     type: kou
-    text: 歳出予算の各項の経費の金額の流用
+    text: 七　歳出予算の各項の経費の金額の流用
     modality: unspecified
     item_number: 7
 cases: []

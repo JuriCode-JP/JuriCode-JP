@@ -92,6 +92,10 @@ paragraphs:
     type: simple
     text: 第一項及び第二項の乗車用ヘルメットの基準は、内閣府令で定める。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-71-4-supplnote-1
+    type: supplnote
+    text: （罰則　第四項から第七項までについては第百十九条の三第一項第五号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

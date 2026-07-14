@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-31-p1-kou-1
     type: kou
-    text: 法第六十条第四項に規定する特定収入又は令第七十五条第一項各号に掲げる収入（以下この条において「特定収入等」という。）に係る相手方の氏名又は名称
+    text: 一　法第六十条第四項に規定する特定収入又は令第七十五条第一項各号に掲げる収入（以下この条において「特定収入等」という。）に係る相手方の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-31-p1-kou-2
     type: kou
-    text: 特定収入等を受けた年月日
+    text: 二　特定収入等を受けた年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-31-p1-kou-3
     type: kou
-    text: 特定収入等の内容
+    text: 三　特定収入等の内容
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikoukisoku-art-31-p1-kou-4
     type: kou
-    text: 特定収入等の金額
+    text: 四　特定収入等の金額
     modality: unspecified
     item_number: 4
   - id: shouhi-zei-hou-shikoukisoku-art-31-p1-kou-5
     type: kou
-    text: 特定収入等の使途
+    text: 五　特定収入等の使途
     modality: unspecified
     item_number: 5
 - number: 2
@@ -59,8 +59,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

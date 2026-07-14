@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-8-30-p1-kou-1
     type: kou
-    text: 石油の備蓄の確保等に関する法律第十六条の規定による登録を受けた者であること。
+    text: 一　石油の備蓄の確保等に関する法律第十六条の規定による登録を受けた者であること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-8-30-p1-kou-2
     type: kou
-    text: 最近の三年における軽油の年間の輸入量の平均が五万キロリットル以上であること。
+    text: 二　最近の三年における軽油の年間の輸入量の平均が五万キロリットル以上であること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 法第百四十四条の七第一項の規定により同項第二号に該当する者として元売業者の指定を受けている法人が最近の三年において合併した場合における当該合併後存続する法人又は当該合併により設立した法人に係る前項第二号の規定の適用については、同号中「最近の三年における軽油の年間の輸入量の平均が五万キロリットル」とあるのは、「合併により消滅した法人及び合併後存続する法人の当該合併前の軽油の輸入量と当該合併により設立した法人又は当該合併後存続する法人の当該合併後の軽油の輸入量の最近の三年における合計が十五万キロリットル」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

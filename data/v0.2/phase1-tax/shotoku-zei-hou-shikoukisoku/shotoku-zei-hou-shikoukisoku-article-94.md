@@ -23,36 +23,36 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-94-p1-kou-1
     type: kou
-    text: '次に掲げる源泉徴収票の区分に応じそれぞれ次に定める事項
+    text: '一　次に掲げる源泉徴収票の区分に応じそれぞれ次に定める事項
 
-      イ 所轄税務署長に提出する源泉徴収票　その退職手当等の支払を受ける者の氏名、住所又は居所及び個人番号並びにその退職手当等の支払をする者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地、個人番号又は法人番号及び電話番号
+      イ　所轄税務署長に提出する源泉徴収票　その退職手当等の支払を受ける者の氏名、住所又は居所及び個人番号並びにその退職手当等の支払をする者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地、個人番号又は法人番号及び電話番号
 
-      ロ 退職手当等の支払を受ける者に交付する源泉徴収票　その退職手当等の支払を受ける者の氏名及び住所又は居所並びにその退職手当等の支払をする者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び電話番号'
+      ロ　退職手当等の支払を受ける者に交付する源泉徴収票　その退職手当等の支払を受ける者の氏名及び住所又は居所並びにその退職手当等の支払をする者の氏名又は名称、住所若しくは居所又は本店若しくは主たる事務所の所在地及び電話番号'
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-94-p1-kou-2
     type: kou
-    text: その年中に支払の確定した退職手当等の金額及びその退職手当等につき法第二百一条第一項第一号若しくは第二号又は同条第三項（徴収税額）の規定の適用を受けるものの区分
+    text: 二　その年中に支払の確定した退職手当等の金額及びその退職手当等につき法第二百一条第一項第一号若しくは第二号又は同条第三項（徴収税額）の規定の適用を受けるものの区分
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-94-p1-kou-3
     type: kou
-    text: 前号の退職手当等につき同号の区分ごとに法第四編第三章（退職所得に係る源泉徴収）の規定により徴収される所得税の額
+    text: 三　前号の退職手当等につき同号の区分ごとに法第四編第三章（退職所得に係る源泉徴収）の規定により徴収される所得税の額
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-94-p1-kou-4
     type: kou
-    text: 法第二百一条第二項に規定する勤続年数に準ずる勤続年数及びその計算の明細
+    text: 四　法第二百一条第二項に規定する勤続年数に準ずる勤続年数及びその計算の明細
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-94-p1-kou-5
     type: kou
-    text: 法第三十条第六項第一号（退職所得）に掲げる場合に該当するときは、法第二百一条第二項に規定する退職所得控除額の計算の基礎
+    text: 五　法第三十条第六項第一号（退職所得）に掲げる場合に該当するときは、法第二百一条第二項に規定する退職所得控除額の計算の基礎
     modality: unspecified
     item_number: 5
   - id: shotoku-zei-hou-shikoukisoku-art-94-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 2

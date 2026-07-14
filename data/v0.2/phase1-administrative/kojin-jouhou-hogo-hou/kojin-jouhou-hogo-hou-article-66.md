@@ -34,27 +34,27 @@ paragraphs:
     - 前項
   - id: kojin-jouhou-hogo-hou-art-66-p2-kou-1
     type: kou
-    text: 行政機関等から個人情報の取扱いの委託を受けた者　当該委託を受けた業務
+    text: 一　行政機関等から個人情報の取扱いの委託を受けた者　当該委託を受けた業務
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-66-p2-kou-2
     type: kou
-    text: 指定管理者（地方自治法（昭和二十二年法律第六十七号）第二百四十四条の二第三項に規定する指定管理者をいう。）　公の施設（同法第二百四十四条第一項に規定する公の施設をいう。）の管理の業務
+    text: 二　指定管理者（地方自治法（昭和二十二年法律第六十七号）第二百四十四条の二第三項に規定する指定管理者をいう。）　公の施設（同法第二百四十四条第一項に規定する公の施設をいう。）の管理の業務
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-66-p2-kou-3
     type: kou
-    text: 第五十八条第一項各号に掲げる者　法令に基づき行う業務であって政令で定めるもの
+    text: 三　第五十八条第一項各号に掲げる者　法令に基づき行う業務であって政令で定めるもの
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-66-p2-kou-4
     type: kou
-    text: 第五十八条第二項各号に掲げる者　同項各号に定める業務のうち法令に基づき行う業務であって政令で定めるもの
+    text: 四　第五十八条第二項各号に掲げる者　同項各号に定める業務のうち法令に基づき行う業務であって政令で定めるもの
     modality: unspecified
     item_number: 4
   - id: kojin-jouhou-hogo-hou-art-66-p2-kou-5
     type: kou
-    text: 前各号に掲げる者から当該各号に定める業務の委託（二以上の段階にわたる委託を含む。）を受けた者　当該委託を受けた業務
+    text: 五　前各号に掲げる者から当該各号に定める業務の委託（二以上の段階にわたる委託を含む。）を受けた者　当該委託を受けた業務
     modality: unspecified
     item_number: 5
 cases: []

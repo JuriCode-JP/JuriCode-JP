@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-594-p1-kou-1
     type: kou
-    text: 自己又は第三者のために持分会社の事業の部類に属する取引をすること。
+    text: 一　自己又は第三者のために持分会社の事業の部類に属する取引をすること。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-594-p1-kou-2
     type: kou
-    text: 持分会社の事業と同種の事業を目的とする会社の取締役、執行役又は業務を執行する社員となること。
+    text: 二　持分会社の事業と同種の事業を目的とする会社の取締役、執行役又は業務を執行する社員となること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 業務を執行する社員が前項の規定に違反して同項第一号に掲げる行為をしたときは、当該行為によって当該業務を執行する社員又は第三者が得た利益の額は、持分会社に生じた損害の額と推定する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

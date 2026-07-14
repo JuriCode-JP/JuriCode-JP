@@ -45,12 +45,12 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-31-p3-kou-1
     type: kou
-    text: 主として理学療法又は作業療法を行う病院
+    text: 一　主として理学療法又は作業療法を行う病院
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-31-p3-kou-2
     type: kou
-    text: その施設の全てが児童福祉法第七条第一項に規定する児童福祉施設である病院
+    text: 二　その施設の全てが児童福祉法第七条第一項に規定する児童福祉施設である病院
     modality: unspecified
     item_number: 2
 - number: 4

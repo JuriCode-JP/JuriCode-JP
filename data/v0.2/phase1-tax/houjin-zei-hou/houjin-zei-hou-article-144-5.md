@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-144-5-p1-kou-1
     type: kou
-    text: 恒久的施設を有する外国法人である普通法人　第百四十四条の三第一項各号（中間申告）に掲げる事項
+    text: 一　恒久的施設を有する外国法人である普通法人　第百四十四条の三第一項各号（中間申告）に掲げる事項
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-144-5-p1-kou-2
     type: kou
-    text: 恒久的施設を有しない外国法人である普通法人　第百四十四条の三第二項各号に掲げる事項
+    text: 二　恒久的施設を有しない外国法人である普通法人　第百四十四条の三第二項各号に掲げる事項
     modality: unspecified
     item_number: 2
 cases: []

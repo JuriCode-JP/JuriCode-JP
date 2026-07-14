@@ -56,8 +56,8 @@ paragraphs:
     text: 前条第一項第三号イに掲げる事項についての定めがある場合には、吸収合併消滅株式会社の株主又は吸収合併消滅持分会社の社員は、効力発生日に、同項第四号に掲げる事項についての定めに従い、同項第三号イの社債の社債権者となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

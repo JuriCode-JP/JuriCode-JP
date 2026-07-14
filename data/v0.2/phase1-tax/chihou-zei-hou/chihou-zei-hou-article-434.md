@@ -31,8 +31,8 @@ paragraphs:
     text: 第四百三十二条第一項の規定により固定資産評価審査委員会に審査を申し出ることができる事項について不服がある固定資産税の納税者は、同項及び前項の規定によることによつてのみ争うことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

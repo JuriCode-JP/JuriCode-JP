@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-14-2-2-p1-kou-1
     type: kou
-    text: 新株予約権付社債券
+    text: 一　新株予約権付社債券
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-14-2-2-p1-kou-2
     type: kou
-    text: 外国の者の発行する新株予約権証券
+    text: 二　外国の者の発行する新株予約権証券
     modality: unspecified
     item_number: 2
 - number: 2

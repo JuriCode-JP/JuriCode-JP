@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-art-155-p1-kou-1
     type: kou
-    text: 間接国税以外の国税に関する犯則事件
+    text: 一　間接国税以外の国税に関する犯則事件
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-155-p1-kou-2
     type: kou
-    text: 申告納税方式による間接国税に関する犯則事件（酒税法第五十五条第一項又は第三項（罰則）の罪その他の政令で定める罪に係る事件に限る。）
+    text: 二　申告納税方式による間接国税に関する犯則事件（酒税法第五十五条第一項又は第三項（罰則）の罪その他の政令で定める罪に係る事件に限る。）
     modality: unspecified
     item_number: 2
 cases: []

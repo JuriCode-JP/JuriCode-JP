@@ -26,6 +26,10 @@ paragraphs:
     - 前条
     references:
     - 前条
+  - id: douro-koutsuu-hou-art-48-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条の二の四第一項第一号、同条第三項、第百十九条の三第一項第一号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

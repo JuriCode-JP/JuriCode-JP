@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-147-p1-kou-1
     type: kou
-    text: 裁判上の請求
+    text: 一　裁判上の請求
     modality: unspecified
     item_number: 1
   - id: minpou-art-147-p1-kou-2
     type: kou
-    text: 支払督促
+    text: 二　支払督促
     modality: unspecified
     item_number: 2
   - id: minpou-art-147-p1-kou-3
     type: kou
-    text: 民事訴訟法第二百七十五条第一項の和解又は民事調停法（昭和二十六年法律第二百二十二号）若しくは家事事件手続法（平成二十三年法律第五十二号）による調停
+    text: 三　民事訴訟法第二百七十五条第一項の和解又は民事調停法（昭和二十六年法律第二百二十二号）若しくは家事事件手続法（平成二十三年法律第五十二号）による調停
     modality: unspecified
     item_number: 3
   - id: minpou-art-147-p1-kou-4
     type: kou
-    text: 破産手続参加、再生手続参加又は更生手続参加
+    text: 四　破産手続参加、再生手続参加又は更生手続参加
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 前項の場合において、確定判決又は確定判決と同一の効力を有するものによって権利が確定したときは、時効は、同項各号に掲げる事由が終了した時から新たにその進行を始める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases:
 - case_id: ntt-2010-02-22-j79-9
   case_type: ruling

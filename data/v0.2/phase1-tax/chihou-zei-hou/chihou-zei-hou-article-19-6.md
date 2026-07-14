@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の規定は、同項に規定する審査請求に対する裁決の権限を有する者が当該審査請求に対する裁決をした場合に準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

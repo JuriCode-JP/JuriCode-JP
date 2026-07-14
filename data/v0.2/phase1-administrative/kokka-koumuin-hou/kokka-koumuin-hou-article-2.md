@@ -41,127 +41,127 @@ paragraphs:
     modality: gimu
   - id: kokka-koumuin-hou-art-2-p3-kou-1
     type: kou
-    text: 内閣総理大臣
+    text: 一　内閣総理大臣
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-2-p3-kou-2
     type: kou
-    text: 国務大臣
+    text: 二　国務大臣
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-2-p3-kou-3
     type: kou
-    text: 人事官及び検査官
+    text: 三　人事官及び検査官
     modality: unspecified
     item_number: 3
   - id: kokka-koumuin-hou-art-2-p3-kou-4
     type: kou
-    text: 内閣法制局長官
+    text: 四　内閣法制局長官
     modality: unspecified
     item_number: 4
   - id: kokka-koumuin-hou-art-2-p3-kou-5
     type: kou
-    text: 内閣官房副長官
+    text: 五　内閣官房副長官
     modality: unspecified
     item_number: 5
-  - id: kokka-koumuin-hou-art-2-p3-kou-5
+  - id: kokka-koumuin-hou-art-2-p3-kou-5-2
     type: kou
-    text: 内閣危機管理監
+    text: 五の二　内閣危機管理監
     modality: unspecified
     item_number: 5
-  - id: kokka-koumuin-hou-art-2-p3-kou-5
+  - id: kokka-koumuin-hou-art-2-p3-kou-5-3
     type: kou
-    text: 国家安全保障局長
+    text: 五の三　国家安全保障局長
     modality: unspecified
     item_number: 5
-  - id: kokka-koumuin-hou-art-2-p3-kou-5
+  - id: kokka-koumuin-hou-art-2-p3-kou-5-4
     type: kou
-    text: 内閣官房副長官補、内閣広報官、内閣情報官及び内閣サイバー官
+    text: 五の四　内閣官房副長官補、内閣広報官、内閣情報官及び内閣サイバー官
     modality: unspecified
     item_number: 5
   - id: kokka-koumuin-hou-art-2-p3-kou-6
     type: kou
-    text: 内閣総理大臣補佐官
+    text: 六　内閣総理大臣補佐官
     modality: unspecified
     item_number: 6
   - id: kokka-koumuin-hou-art-2-p3-kou-7
     type: kou
-    text: 副大臣
+    text: 七　副大臣
     modality: unspecified
     item_number: 7
-  - id: kokka-koumuin-hou-art-2-p3-kou-7
+  - id: kokka-koumuin-hou-art-2-p3-kou-7-2
     type: kou
-    text: 大臣政務官
+    text: 七の二　大臣政務官
     modality: unspecified
     item_number: 7
-  - id: kokka-koumuin-hou-art-2-p3-kou-7
+  - id: kokka-koumuin-hou-art-2-p3-kou-7-3
     type: kou
-    text: 大臣補佐官
+    text: 七の三　大臣補佐官
     modality: unspecified
     item_number: 7
-  - id: kokka-koumuin-hou-art-2-p3-kou-7
+  - id: kokka-koumuin-hou-art-2-p3-kou-7-4
     type: kou
-    text: デジタル監
+    text: 七の四　デジタル監
     modality: unspecified
     item_number: 7
   - id: kokka-koumuin-hou-art-2-p3-kou-8
     type: kou
-    text: 内閣総理大臣秘書官及び国務大臣秘書官並びに特別職たる機関の長の秘書官のうち人事院規則で指定するもの
+    text: 八　内閣総理大臣秘書官及び国務大臣秘書官並びに特別職たる機関の長の秘書官のうち人事院規則で指定するもの
     modality: unspecified
     item_number: 8
   - id: kokka-koumuin-hou-art-2-p3-kou-9
     type: kou
-    text: 就任について選挙によることを必要とし、あるいは国会の両院又は一院の議決又は同意によることを必要とする職員
+    text: 九　就任について選挙によることを必要とし、あるいは国会の両院又は一院の議決又は同意によることを必要とする職員
     modality: unspecified
     item_number: 9
   - id: kokka-koumuin-hou-art-2-p3-kou-10
     type: kou
-    text: 宮内庁長官、侍従長、東宮大夫、式部官長及び侍従次長並びに法律又は人事院規則で指定する宮内庁のその他の職員
+    text: 十　宮内庁長官、侍従長、東宮大夫、式部官長及び侍従次長並びに法律又は人事院規則で指定する宮内庁のその他の職員
     modality: unspecified
     item_number: 10
   - id: kokka-koumuin-hou-art-2-p3-kou-11
     type: kou
-    text: 特命全権大使、特命全権公使、特派大使、政府代表、全権委員、政府代表又は全権委員の代理並びに特派大使、政府代表又は全権委員の顧問及び随員
+    text: 十一　特命全権大使、特命全権公使、特派大使、政府代表、全権委員、政府代表又は全権委員の代理並びに特派大使、政府代表又は全権委員の顧問及び随員
     modality: unspecified
     item_number: 11
-  - id: kokka-koumuin-hou-art-2-p3-kou-11
+  - id: kokka-koumuin-hou-art-2-p3-kou-11-2
     type: kou
-    text: 日本ユネスコ国内委員会の委員
+    text: 十一の二　日本ユネスコ国内委員会の委員
     modality: unspecified
     item_number: 11
   - id: kokka-koumuin-hou-art-2-p3-kou-12
     type: kou
-    text: 日本学士院会員
+    text: 十二　日本学士院会員
     modality: unspecified
     item_number: 12
-  - id: kokka-koumuin-hou-art-2-p3-kou-12
+  - id: kokka-koumuin-hou-art-2-p3-kou-12-2
     type: kou
-    text: 日本学術会議会員
+    text: 十二の二　日本学術会議会員
     modality: unspecified
     item_number: 12
   - id: kokka-koumuin-hou-art-2-p3-kou-13
     type: kou
-    text: 裁判官及びその他の裁判所職員
+    text: 十三　裁判官及びその他の裁判所職員
     modality: unspecified
     item_number: 13
   - id: kokka-koumuin-hou-art-2-p3-kou-14
     type: kou
-    text: 国会職員
+    text: 十四　国会職員
     modality: unspecified
     item_number: 14
   - id: kokka-koumuin-hou-art-2-p3-kou-15
     type: kou
-    text: 国会議員の秘書
+    text: 十五　国会議員の秘書
     modality: unspecified
     item_number: 15
   - id: kokka-koumuin-hou-art-2-p3-kou-16
     type: kou
-    text: 防衛省の職員（防衛省に置かれる合議制の機関で防衛省設置法（昭和二十九年法律第百六十四号）第四十一条の政令で定めるものの委員及び同法第四条第一項第二十四号又は第二十五号に掲げる事務に従事する職員で同法第四十一条の政令で定めるもののうち、人事院規則で指定するものを除く。）
+    text: 十六　防衛省の職員（防衛省に置かれる合議制の機関で防衛省設置法（昭和二十九年法律第百六十四号）第四十一条の政令で定めるものの委員及び同法第四条第一項第二十四号又は第二十五号に掲げる事務に従事する職員で同法第四十一条の政令で定めるもののうち、人事院規則で指定するものを除く。）
     modality: unspecified
     item_number: 16
   - id: kokka-koumuin-hou-art-2-p3-kou-17
     type: kou
-    text: 独立行政法人通則法（平成十一年法律第百三号）第二条第四項に規定する行政執行法人（以下「行政執行法人」という。）の役員
+    text: 十七　独立行政法人通則法（平成十一年法律第百三号）第二条第四項に規定する行政執行法人（以下「行政執行法人」という。）の役員
     modality: unspecified
     item_number: 17
 - number: 4

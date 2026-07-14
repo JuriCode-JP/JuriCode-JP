@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-207-p1-kou-1
     type: kou
-    text: 第七十六条第六項第一号から第四号まで（生命保険料控除）に掲げる契約
+    text: 一　第七十六条第六項第一号から第四号まで（生命保険料控除）に掲げる契約
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-207-p1-kou-2
     type: kou
-    text: 第七十七条第二項各号（地震保険料控除）に掲げる契約
+    text: 二　第七十七条第二項各号（地震保険料控除）に掲げる契約
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-207-p1-kou-3
     type: kou
-    text: 前二号に掲げる契約に類する契約で政令で定めるもの
+    text: 三　前二号に掲げる契約に類する契約で政令で定めるもの
     modality: unspecified
     item_number: 3
 cases:

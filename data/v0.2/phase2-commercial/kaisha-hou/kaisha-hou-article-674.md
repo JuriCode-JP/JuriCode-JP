@@ -23,22 +23,22 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-674-p1-kou-1
     type: kou
-    text: 第四章第一節
+    text: 一　第四章第一節
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-674-p1-kou-2
     type: kou
-    text: 第六百六条、第六百七条第一項（第三号及び第四号を除く。）及び第六百九条
+    text: 二　第六百六条、第六百七条第一項（第三号及び第四号を除く。）及び第六百九条
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-674-p1-kou-3
     type: kou
-    text: 第五章第三節（第六百十七条第四項、第六百十八条及び第六百十九条を除く。）から第六節まで及び第七節第二款
+    text: 三　第五章第三節（第六百十七条第四項、第六百十八条及び第六百十九条を除く。）から第六節まで及び第七節第二款
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-674-p1-kou-4
     type: kou
-    text: 第六百三十八条第一項第三号及び第二項第二号
+    text: 四　第六百三十八条第一項第三号及び第二項第二号
     modality: unspecified
     item_number: 4
 cases: []

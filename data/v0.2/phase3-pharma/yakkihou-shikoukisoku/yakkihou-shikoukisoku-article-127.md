@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-127-p1-kou-1
     type: kou
-    text: 法第二十三条の八第二項に規定する事項
+    text: 一　法第二十三条の八第二項に規定する事項
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-127-p1-kou-2
     type: kou
-    text: 役員（持分会社にあつては、業務を執行する社員）又は事業主
+    text: 二　役員（持分会社にあつては、業務を執行する社員）又は事業主
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-127-p1-kou-3
     type: kou
-    text: 審査員の氏名又はその担当する業務の範囲
+    text: 三　審査員の氏名又はその担当する業務の範囲
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-127-p1-kou-4
     type: kou
-    text: 基準適合性認証審査の業務以外の業務
+    text: 四　基準適合性認証審査の業務以外の業務
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-127-p1-kou-5
     type: kou
-    text: 基準適合性認証の業務を行う指定高度管理医療機器等の範囲
+    text: 五　基準適合性認証の業務を行う指定高度管理医療機器等の範囲
     modality: unspecified
     item_number: 5
 cases: []

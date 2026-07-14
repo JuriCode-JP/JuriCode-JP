@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_negative
   - id: kinsho-hou-art-156-14-p1-kou-1
     type: kou
-    text: 心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
+    text: 一　心身の故障のため職務を適正に執行することができない者として内閣府令で定める者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-14-p1-kou-2
     type: kou
-    text: 第八十二条第二項第三号イからヘまでのいずれかに該当する者
+    text: 二　第八十二条第二項第三号イからヘまでのいずれかに該当する者
     modality: unspecified
     item_number: 2
 - number: 2

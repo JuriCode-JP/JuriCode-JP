@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-17-p1-kou-1
     type: kou
-    text: 利子等に係る道府県民税
+    text: 一　利子等に係る道府県民税
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-17-p1-kou-2
     type: kou
-    text: 特定配当等に係る道府県民税
+    text: 二　特定配当等に係る道府県民税
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-17-p1-kou-3
     type: kou
-    text: 特定株式等譲渡所得金額に係る道府県民税
+    text: 三　特定株式等譲渡所得金額に係る道府県民税
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-6-17-p1-kou-4
     type: kou
-    text: 道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの
+    text: 四　道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,47 +52,47 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-1
     type: kou
-    text: 利子等に係る道府県民税
+    text: 一　利子等に係る道府県民税
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-2
     type: kou
-    text: 特定配当等に係る道府県民税
+    text: 二　特定配当等に係る道府県民税
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-3
     type: kou
-    text: 特定株式等譲渡所得金額に係る道府県民税
+    text: 三　特定株式等譲渡所得金額に係る道府県民税
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-4
     type: kou
-    text: 道府県たばこ税
+    text: 四　道府県たばこ税
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-5
     type: kou
-    text: ゴルフ場利用税
+    text: 五　ゴルフ場利用税
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-6
     type: kou
-    text: 軽油引取税
+    text: 六　軽油引取税
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-7
     type: kou
-    text: 市町村たばこ税
+    text: 七　市町村たばこ税
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-8
     type: kou
-    text: 入湯税
+    text: 八　入湯税
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-shikkourei-art-6-17-p2-kou-9
     type: kou
-    text: 道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの
+    text: 九　道府県法定外普通税若しくは市町村法定外普通税又は法定外目的税であつて、条例で指定するもの
     modality: unspecified
     item_number: 9
 cases: []

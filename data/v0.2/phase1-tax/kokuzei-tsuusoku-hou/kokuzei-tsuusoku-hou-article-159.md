@@ -44,8 +44,8 @@ paragraphs:
     text: 前項の領置物件、差押物件又は記録命令付差押物件が第百四十四条第一項（領置物件等の処置）の規定による保管に係るものである場合においては、同項の保管証をもつて引き継ぐとともに、その旨を同項の規定により当該物件を保管させた者に通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

@@ -36,8 +36,8 @@ paragraphs:
     text: 前項後段の予告は、同項の社員が、同項の債権者に対し、弁済し、又は相当の担保を提供したときは、その効力を失う。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

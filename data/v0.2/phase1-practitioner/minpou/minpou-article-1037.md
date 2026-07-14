@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: minpou-art-1037-p1-kou-1
     type: kou
-    text: 居住建物について配偶者を含む共同相続人間で遺産の分割をすべき場合　遺産の分割により居住建物の帰属が確定した日又は相続開始の時から六箇月を経過する日のいずれか遅い日
+    text: 一　居住建物について配偶者を含む共同相続人間で遺産の分割をすべき場合　遺産の分割により居住建物の帰属が確定した日又は相続開始の時から六箇月を経過する日のいずれか遅い日
     modality: unspecified
     item_number: 1
   - id: minpou-art-1037-p1-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　第三項の申入れの日から六箇月を経過する日
+    text: 二　前号に掲げる場合以外の場合　第三項の申入れの日から六箇月を経過する日
     modality: unspecified
     item_number: 2
 - number: 2

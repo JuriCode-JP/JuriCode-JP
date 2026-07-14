@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-180-p2-kou-1
     type: kou
-    text: 固定化されていない自己資本の額
+    text: 一　固定化されていない自己資本の額
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-180-p2-kou-2
     type: kou
-    text: 市場リスク相当額、取引先リスク相当額及び基礎的リスク相当額並びにこれらの合計額
+    text: 二　市場リスク相当額、取引先リスク相当額及び基礎的リスク相当額並びにこれらの合計額
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-180-p2-kou-3
     type: kou
-    text: 自己資本規制比率
+    text: 三　自己資本規制比率
     modality: unspecified
     item_number: 3
 - number: 3
@@ -58,17 +58,17 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-180-p3-kou-1
     type: kou
-    text: 当該劣後債務の金額
+    text: 一　当該劣後債務の金額
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-180-p3-kou-2
     type: kou
-    text: 当該劣後債務の契約日又は発行日
+    text: 二　当該劣後債務の契約日又は発行日
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-180-p3-kou-3
     type: kou
-    text: 当該劣後債務の弁済期日又は償還期日
+    text: 三　当該劣後債務の弁済期日又は償還期日
     modality: unspecified
     item_number: 3
 cases: []

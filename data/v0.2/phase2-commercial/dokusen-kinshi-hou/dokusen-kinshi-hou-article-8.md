@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu_negative
   - id: dokusen-kinshi-hou-art-8-p1-kou-1
     type: kou
-    text: 一定の取引分野における競争を実質的に制限すること。
+    text: 一　一定の取引分野における競争を実質的に制限すること。
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-8-p1-kou-2
     type: kou
-    text: 第六条に規定する国際的協定又は国際的契約をすること。
+    text: 二　第六条に規定する国際的協定又は国際的契約をすること。
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-8-p1-kou-3
     type: kou
-    text: 一定の事業分野における現在又は将来の事業者の数を制限すること。
+    text: 三　一定の事業分野における現在又は将来の事業者の数を制限すること。
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-8-p1-kou-4
     type: kou
-    text: 構成事業者（事業者団体の構成員である事業者をいう。以下同じ。）の機能又は活動を不当に制限すること。
+    text: 四　構成事業者（事業者団体の構成員である事業者をいう。以下同じ。）の機能又は活動を不当に制限すること。
     modality: unspecified
     item_number: 4
   - id: dokusen-kinshi-hou-art-8-p1-kou-5
     type: kou
-    text: 事業者に不公正な取引方法に該当する行為をさせるようにすること。
+    text: 五　事業者に不公正な取引方法に該当する行為をさせるようにすること。
     modality: unspecified
     item_number: 5
 cases: []

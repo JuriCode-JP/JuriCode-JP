@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: kinsho-hou-art-156-20-p1-kou-1
     type: kou
-    text: 不正の手段により前条第一項の承認を受けたとき。
+    text: 一　不正の手段により前条第一項の承認を受けたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-20-p1-kou-2
     type: kou
-    text: 第八十条第一項の免許を取り消されたとき。
+    text: 二　第八十条第一項の免許を取り消されたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-20-p1-kou-3
     type: kou
-    text: 第百三十四条第一項各号のいずれかに該当するとき。
+    text: 三　第百三十四条第一項各号のいずれかに該当するとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -48,8 +48,8 @@ paragraphs:
     text: 内閣総理大臣は、前条第二項の承認を受けた商品市場開設金融商品取引所が法令、法令に基づく行政官庁の処分又は同項の承認に付した条件に違反したときは、同項の承認を取り消すことができる。
     modality: koka_torikeshi
     references:
-    - 同項
     - 前条
+    - 同項
 cases: []
 amendments: []
 tags:

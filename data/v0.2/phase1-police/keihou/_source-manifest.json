@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\140AC0000000045.xml",
   "source_xml_sha256": "35cee3ca40da218768af5a5e183d24759b3c4973103142653387621c46c3f7f6",
   "source_xml_bytes": 386219,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:57:48+00:00",
+  "parsed_at": "2026-07-14T01:43:46+00:00",
   "version_date": "1907-04-24",
   "article_count": 298,
   "articles": [
@@ -346,8 +346,8 @@
       "article_id": "keihou-art-134",
       "article_number": "134",
       "filename": "keihou-article-134.md",
-      "ja_text_sha256": "f84539cb2244c6b7299d5a3f6bea85b5836cdb0f00feb97c5ef7633301523a3c",
-      "ja_text_bytes": 596,
+      "ja_text_sha256": "0d8ca555a83b385d89c6e46e7484dee141441a7540e8faeb128085adcf21eef7",
+      "ja_text_bytes": 587,
       "paragraph_count": 2
     },
     {
@@ -770,16 +770,16 @@
       "article_id": "keihou-art-176",
       "article_number": "176",
       "filename": "keihou-article-176.md",
-      "ja_text_sha256": "979debc29ac4b2017633e9e78776c44f8b287e4171cf82c0a8ce814b9138ea69",
-      "ja_text_bytes": 1840,
+      "ja_text_sha256": "aa5be3f0bac2cd4d59733fb97ca6290f0e643f89ddbe7c07ad5db5d1c16cd8a4",
+      "ja_text_bytes": 1834,
       "paragraph_count": 3
     },
     {
       "article_id": "keihou-art-177",
       "article_number": "177",
       "filename": "keihou-article-177.md",
-      "ja_text_sha256": "ba0ec1f3f05c05bc05003901f3f7274757b5b3fca408d9c1a24e39daee822694",
-      "ja_text_bytes": 1177,
+      "ja_text_sha256": "d5c7b5e70a91e86193c7a98227e16550f7d230ec4dba35e530eff7a31a8174c4",
+      "ja_text_bytes": 1159,
       "paragraph_count": 3
     },
     {
@@ -826,16 +826,16 @@
       "article_id": "keihou-art-182",
       "article_number": "182",
       "filename": "keihou-article-182.md",
-      "ja_text_sha256": "fdea8fa00308e8d74f8365d3a8426c55a908fccf00aadb165c403edfd5cbaae3",
-      "ja_text_bytes": 1858,
+      "ja_text_sha256": "ddf5aa99a6a888e8840980fe4fe7d225748a7c0f784b0a726c6b1da89bfb3653",
+      "ja_text_bytes": 1852,
       "paragraph_count": 3
     },
     {
       "article_id": "keihou-art-183",
       "article_number": "183",
       "filename": "keihou-article-183.md",
-      "ja_text_sha256": "899a6c59953a95bd129549b901e7898500f5fc5b032ff206e45c5c7daf0b7743",
-      "ja_text_bytes": 168,
+      "ja_text_sha256": "a3c36e513c0a94c7bedd71fceb56bc06a9ec8032e2e323adf374298726493034",
+      "ja_text_bytes": 162,
       "paragraph_count": 1
     },
     {
@@ -850,8 +850,8 @@
       "article_id": "keihou-art-185",
       "article_number": "185",
       "filename": "keihou-article-185.md",
-      "ja_text_sha256": "346dcb0472933e9c9566e5f350555a3838fe56f18180cb1711085f4bbbffaa14",
-      "ja_text_bytes": 189,
+      "ja_text_sha256": "f09a03847564dbd560d796bf6dd8c38c9ab15eb1395f2bd95a88079cd1f18aed",
+      "ja_text_bytes": 183,
       "paragraph_count": 1
     },
     {
@@ -874,8 +874,8 @@
       "article_id": "keihou-art-188",
       "article_number": "188",
       "filename": "keihou-article-188.md",
-      "ja_text_sha256": "fb837548c4a70b715c93ee9a6c58e8743c59d894030ed8dfb59b06a87160e4aa",
-      "ja_text_bytes": 293,
+      "ja_text_sha256": "75c3488d6c045dbb47d03eb9d850deb993099f19e77d083c17c7777099aa64bb",
+      "ja_text_bytes": 290,
       "paragraph_count": 2
     },
     {
@@ -1122,8 +1122,8 @@
       "article_id": "keihou-art-21",
       "article_number": "21",
       "filename": "keihou-article-21.md",
-      "ja_text_sha256": "2dea62c956106326012bb2a7f5315d9bc336f9dbb5f14317a9c15963e34ac8b4",
-      "ja_text_bytes": 102,
+      "ja_text_sha256": "79fbc1b6092b09d75542573a9e56edf0e6855e453134cd53a515246ff1e51731",
+      "ja_text_bytes": 96,
       "paragraph_count": 1
     },
     {
@@ -1442,8 +1442,8 @@
       "article_id": "keihou-art-239",
       "article_number": "239",
       "filename": "keihou-article-239.md",
-      "ja_text_sha256": "96ada7d4efeca969e88c435f86dd196b429799f06d1748c7a128908428962c1c",
-      "ja_text_bytes": 90,
+      "ja_text_sha256": "bb8bc5e33c83e0143dd9394118250b988957ab84f6a2ca778296b8204a4bac63",
+      "ja_text_bytes": 84,
       "paragraph_count": 1
     },
     {
@@ -1770,8 +1770,8 @@
       "article_id": "keihou-art-28",
       "article_number": "28",
       "filename": "keihou-article-28.md",
-      "ja_text_sha256": "1b89f648f751e00b8f090fbc89b20b37e54310265cff874233d81768276169b6",
-      "ja_text_bytes": 255,
+      "ja_text_sha256": "e78badab357d720e79b855e097261aad169c7f6a9628058886e8f449f94e1939",
+      "ja_text_bytes": 246,
       "paragraph_count": 1
     },
     {
@@ -1794,8 +1794,8 @@
       "article_id": "keihou-art-3",
       "article_number": "3",
       "filename": "keihou-article-3.md",
-      "ja_text_sha256": "83c77e60da5b9cbc114d6c8937dc649fdc583cb6727c398e27616751c1df3f4e",
-      "ja_text_bytes": 2568,
+      "ja_text_sha256": "62d517f234e5bb448a1f26067466da2ab1d50d21dd48e838ce0c559d063c86da",
+      "ja_text_bytes": 2562,
       "paragraph_count": 1
     },
     {
@@ -2098,8 +2098,8 @@
       "article_id": "keihou-art-62",
       "article_number": "62",
       "filename": "keihou-article-62.md",
-      "ja_text_sha256": "d4bf9306a6383759dcc9d2933e5a04578cb8fcbaf29cc82ca62aa732ae5aabd9",
-      "ja_text_bytes": 116,
+      "ja_text_sha256": "6eadfc3a3fd93715d5ca4b92ed798364461b51d15a42eab0b86ee04649ba9934",
+      "ja_text_bytes": 110,
       "paragraph_count": 2
     },
     {

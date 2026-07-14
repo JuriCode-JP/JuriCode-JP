@@ -40,8 +40,8 @@ paragraphs:
     text: 合併法人等についての法第十五条の二第三項本文、第四項及び第五項の規定の適用については、同条第三項本文中「前項の規定により特定プラットフォーム事業者として指定を受けるべき者は、その課税期間に係る第四十五条第一項の規定による申告書の提出期限（同項の規定による申告の義務がない場合にあつては、当該申告の義務があるとした場合の同項の規定による申告書の提出期限）までに」とあるのは「消費税法施行令第二十九条第一項に規定する合併法人等に該当することとなつた者は、その合併若しくは分割又は譲受けの日後遅滞なく」と、同条第四項中「第二項の規定により」とあるのは「消費税法施行令第二十九条第一項の規定により第二項の規定による指定を受けたものとみなされる」と、「指定した」とあるのは「把握した」と、同条第五項中「前項の通知を受けた」とあるのは「前項の」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -71,17 +71,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-29-p5-kou-1
     type: kou
-    text: 特定プラットフォーム事業者に係るデジタルプラットフォームの名称
+    text: 一　特定プラットフォーム事業者に係るデジタルプラットフォームの名称
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-29-p5-kou-2
     type: kou
-    text: 特定プラットフォーム事業者の氏名又は名称
+    text: 二　特定プラットフォーム事業者の氏名又は名称
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-29-p5-kou-3
     type: kou
-    text: 法第十五条の二第二項の指定の効力が生ずる年月日
+    text: 三　法第十五条の二第二項の指定の効力が生ずる年月日
     modality: unspecified
     item_number: 3
 cases: []

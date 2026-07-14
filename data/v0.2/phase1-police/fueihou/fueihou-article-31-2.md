@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-31-2-p1-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: fueihou-art-31-2-p1-kou-2
     type: kou
-    text: 当該営業につき広告又は宣伝をする場合に当該営業を示すものとして使用する呼称（当該呼称が二以上ある場合にあつては、それら全部の呼称）
+    text: 二　当該営業につき広告又は宣伝をする場合に当該営業を示すものとして使用する呼称（当該呼称が二以上ある場合にあつては、それら全部の呼称）
     modality: unspecified
     item_number: 2
   - id: fueihou-art-31-2-p1-kou-3
     type: kou
-    text: 事務所の所在地
+    text: 三　事務所の所在地
     modality: unspecified
     item_number: 3
   - id: fueihou-art-31-2-p1-kou-4
     type: kou
-    text: 無店舗型性風俗特殊営業の種別
+    text: 四　無店舗型性風俗特殊営業の種別
     modality: unspecified
     item_number: 4
   - id: fueihou-art-31-2-p1-kou-5
     type: kou
-    text: 客の依頼を受ける方法
+    text: 五　客の依頼を受ける方法
     modality: unspecified
     item_number: 5
   - id: fueihou-art-31-2-p1-kou-6
     type: kou
-    text: 客の依頼を受けるための電話番号その他の連絡先
+    text: 六　客の依頼を受けるための電話番号その他の連絡先
     modality: unspecified
     item_number: 6
   - id: fueihou-art-31-2-p1-kou-7
     type: kou
-    text: 第二条第七項第一号の営業につき、受付所（同号に規定する役務の提供以外の客に接する業務を行うための施設をいう。以下同じ。）又は待機所（客の依頼を受けて派遣される同号に規定する役務を行う者を待機させるための施設をいう。第三十七条第二項第三号において同じ。）を設ける場合にあつては、その旨及びこれらの所在地
+    text: 七　第二条第七項第一号の営業につき、受付所（同号に規定する役務の提供以外の客に接する業務を行うための施設をいう。以下同じ。）又は待機所（客の依頼を受けて派遣される同号に規定する役務を行う者を待機させるための施設をいう。第三十七条第二項第三号において同じ。）を設ける場合にあつては、その旨及びこれらの所在地
     modality: unspecified
     item_number: 7
 - number: 2
@@ -66,8 +66,8 @@ paragraphs:
     text: 前項の届出書を提出した者は、当該無店舗型性風俗特殊営業を廃止したとき、又は同項各号（第四号を除く。）に掲げる事項に変更があつたときは、公安委員会（公安委員会の管轄区域を異にして事務所を変更したときは、変更した後の事務所の所在地を管轄する公安委員会）に、廃止又は変更に係る事項その他の内閣府令で定める事項を記載した届出書を提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

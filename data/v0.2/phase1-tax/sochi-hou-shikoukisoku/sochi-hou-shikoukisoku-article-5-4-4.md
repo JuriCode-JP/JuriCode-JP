@@ -43,52 +43,52 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-1
     type: kou
-    text: 特定目的信託の剰余金の配当の支払を受ける者の氏名又は名称及び住所（国内に住所を有しない者にあつては、所得税法施行規則第八十一条に規定する場所）
+    text: 一　特定目的信託の剰余金の配当の支払を受ける者の氏名又は名称及び住所（国内に住所を有しない者にあつては、所得税法施行規則第八十一条に規定する場所）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-2
     type: kou
-    text: その支払の確定した剰余金の配当の額及びその支払の確定した日（無記名株式等の剰余金の配当（所得税法第二百二十五条第一項に規定する無記名株式等の剰余金の配当をいう。第五号及び第六号において同じ。）については、その支払をした剰余金の配当の額及びその支払をした日）
+    text: 二　その支払の確定した剰余金の配当の額及びその支払の確定した日（無記名株式等の剰余金の配当（所得税法第二百二十五条第一項に規定する無記名株式等の剰余金の配当をいう。第五号及び第六号において同じ。）については、その支払をした剰余金の配当の額及びその支払をした日）
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-3
     type: kou
-    text: 前号の剰余金の配当の額につき所得税法第二条第一項第四十五号に規定する源泉徴収をされる所得税の額
+    text: 三　前号の剰余金の配当の額につき所得税法第二条第一項第四十五号に規定する源泉徴収をされる所得税の額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-4
     type: kou
-    text: 種類別及び名称別の特定目的信託の受益権の口数その他第二号の剰余金の配当の額の計算の基礎
+    text: 四　種類別及び名称別の特定目的信託の受益権の口数その他第二号の剰余金の配当の額の計算の基礎
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-5
     type: kou
-    text: その支払の確定した剰余金の配当（無記名株式等の剰余金の配当については、その支払をした剰余金の配当）に係る施行令第四条の十一第十項に規定する通知外国法人税相当額
+    text: 五　その支払の確定した剰余金の配当（無記名株式等の剰余金の配当については、その支払をした剰余金の配当）に係る施行令第四条の十一第十項に規定する通知外国法人税相当額
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-6
     type: kou
-    text: 無記名株式等の剰余金の配当の支払を受けた者が、元本の所有者と異なる場合には、その元本の所有者の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地
+    text: 六　無記名株式等の剰余金の配当の支払を受けた者が、元本の所有者と異なる場合には、その元本の所有者の氏名又は名称及び住所若しくは居所又は本店若しくは主たる事務所の所在地
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-7
     type: kou
-    text: その支払を受ける者が国税通則法第百十七条第二項の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
+    text: 七　その支払を受ける者が国税通則法第百十七条第二項の規定により届け出た納税管理人が明らかな場合には、その氏名及び住所又は居所
     modality: unspecified
     item_number: 7
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-8
     type: kou
-    text: 施行令第四条の十一第七項から第九項まで又は第十一項ただし書の規定に基づく通知である旨
+    text: 八　施行令第四条の十一第七項から第九項まで又は第十一項ただし書の規定に基づく通知である旨
     modality: unspecified
     item_number: 8
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-9
     type: kou
-    text: その支払を受ける者の再発行の請求を受けて作成された書面による通知である場合には、その旨
+    text: 九　その支払を受ける者の再発行の請求を受けて作成された書面による通知である場合には、その旨
     modality: unspecified
     item_number: 9
   - id: sochi-hou-shikoukisoku-art-5-4-4-p3-kou-10
     type: kou
-    text: その他参考となるべき事項
+    text: 十　その他参考となるべき事項
     modality: unspecified
     item_number: 10
 - number: 4
@@ -112,8 +112,8 @@ paragraphs:
     text: 前二項の規定は、施行令第四条の十一第十一項ただし書の規定による同項ただし書の書面の通知について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前二項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

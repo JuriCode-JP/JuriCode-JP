@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: yakkihou-shikoukisoku-art-137-62-p1-kou-1
     type: kou
-    text: 再生医療等製品（次号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
+    text: 一　再生医療等製品（次号に掲げるものを除く。）に係る記録　利用しなくなつた日から十年間
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-62-p1-kou-2
     type: kou
-    text: 指定再生医療等製品に係る記録　利用しなくなつた日から三十年間
+    text: 二　指定再生医療等製品に係る記録　利用しなくなつた日から三十年間
     modality: unspecified
     item_number: 2
 - number: 2

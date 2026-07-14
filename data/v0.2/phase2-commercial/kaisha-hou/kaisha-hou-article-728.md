@@ -36,8 +36,8 @@ paragraphs:
     text: 招集者は、前項の社債権者が他人のために社債を有する者でないときは、当該社債権者が同項の規定によりその有する議決権を統一しないで行使することを拒むことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-149-16-p2-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-149-16-p2-kou-2
     type: kou
-    text: 研修の実施場所
+    text: 二　研修の実施場所
     modality: unspecified
     item_number: 2
 - number: 3
@@ -56,33 +56,33 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-149-16-p3-kou-1
     type: kou
-    text: '研修は次に掲げる事項について講義により行うものとし、総時間数が十二時間以上であること。
+    text: '一　研修は次に掲げる事項について講義により行うものとし、総時間数が十二時間以上であること。
 
-      イ 医薬品に共通する特性と基本的な知識
+      イ　医薬品に共通する特性と基本的な知識
 
-      ロ 人体の働きと医薬品
+      ロ　人体の働きと医薬品
 
-      ハ 主な医薬品とその作用
+      ハ　主な医薬品とその作用
 
-      ニ 薬事に関する法規と制度
+      ニ　薬事に関する法規と制度
 
-      ホ 医薬品の適正使用と安全対策
+      ホ　医薬品の適正使用と安全対策
 
-      ヘ リスク区分等の変更があつた医薬品
+      ヘ　リスク区分等の変更があつた医薬品
 
-      ト 区域の管理に関する事項
+      ト　区域の管理に関する事項
 
-      チ その他登録販売者として求められる理念、倫理、関連法規等'
+      チ　その他登録販売者として求められる理念、倫理、関連法規等'
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-149-16-p3-kou-2
     type: kou
-    text: 前号イからチまでに掲げる事項を教授するのに適当な講師を有すること。
+    text: 二　前号イからチまでに掲げる事項を教授するのに適当な講師を有すること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-149-16-p3-kou-3
     type: kou
-    text: 正当な理由なく受講を制限するものでないこと。
+    text: 三　正当な理由なく受講を制限するものでないこと。
     modality: unspecified
     item_number: 3
 - number: 4

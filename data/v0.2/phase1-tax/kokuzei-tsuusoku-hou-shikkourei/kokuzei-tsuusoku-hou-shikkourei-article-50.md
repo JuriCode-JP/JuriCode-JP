@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-50-p1-kou-1
     type: kou
-    text: 犯則嫌疑者の氏名
+    text: 一　犯則嫌疑者の氏名
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-50-p1-kou-2
     type: kou
-    text: 罪名及び犯則事実の要旨
+    text: 二　罪名及び犯則事実の要旨
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-50-p1-kou-3
     type: kou
-    text: 破壊すべき物件
+    text: 三　破壊すべき物件
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-50-p1-kou-4
     type: kou
-    text: 鑑定人の氏名及び職業
+    text: 四　鑑定人の氏名及び職業
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-shikkourei-art-50-p1-kou-5
     type: kou
-    text: 請求者の官職氏名
+    text: 五　請求者の官職氏名
     modality: unspecified
     item_number: 5
   - id: kokuzei-tsuusoku-hou-shikkourei-art-50-p1-kou-6
     type: kou
-    text: 許可状が七日を超える有効期間を必要とするときは、その旨及び事由
+    text: 六　許可状が七日を超える有効期間を必要とするときは、その旨及び事由
     modality: unspecified
     item_number: 6
 cases: []

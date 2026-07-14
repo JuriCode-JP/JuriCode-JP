@@ -38,17 +38,17 @@ paragraphs:
     - 前項
   - id: kinsho-hou-art-171-2-p2-kou-1
     type: kou
-    text: 金融商品取引所に上場されている有価証券
+    text: 一　金融商品取引所に上場されている有価証券
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-171-2-p2-kou-2
     type: kou
-    text: 店頭売買有価証券又は取扱有価証券
+    text: 二　店頭売買有価証券又は取扱有価証券
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-171-2-p2-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、その売買価格又は発行者に関する情報を容易に取得することができる有価証券として政令で定める有価証券
+    text: 三　前二号に掲げるもののほか、その売買価格又は発行者に関する情報を容易に取得することができる有価証券として政令で定める有価証券
     modality: unspecified
     item_number: 3
 cases: []

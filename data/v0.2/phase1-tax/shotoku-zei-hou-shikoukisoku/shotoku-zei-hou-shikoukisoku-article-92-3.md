@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: shotoku-zei-hou-shikoukisoku-art-92-3-p1-kou-1
     type: kou
-    text: 前条第一項各号に掲げる方法のうち当該支払をする者が使用するもの
+    text: 一　前条第一項各号に掲げる方法のうち当該支払をする者が使用するもの
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-92-3-p1-kou-2
     type: kou
-    text: 記載情報の受信者ファイルへの記録の方式
+    text: 二　記載情報の受信者ファイルへの記録の方式
     modality: unspecified
     item_number: 2
 - number: 2
@@ -43,8 +43,8 @@ paragraphs:
     text: 令第三百五十二条の四第一項に規定する支払をする者が、同項に規定する支払を受ける者から前項の規定による承諾を得ようとする場合において、当該支払をする者が定める期限までに当該承諾をしない旨の回答がないときは当該承諾があつたものとみなす旨の通知をし、当該期限までに当該支払を受ける者から当該回答がなかつたときは、当該承諾を得たものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -82,8 +82,8 @@ paragraphs:
     text: 前項の特別徴収義務者は、総務省令で定めるところにより、同項の規定により提出を受けた書類を保存しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false

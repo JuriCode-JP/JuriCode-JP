@@ -33,8 +33,8 @@ paragraphs:
     text: 募集新株予約権が新株予約権付社債に付されたものである場合における前項の規定の適用については、同項中「の引受け」とあるのは、「及び当該募集新株予約権を付した社債の総額の引受け」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: true
@@ -48,12 +48,12 @@ paragraphs:
     - 同項
   - id: kaisha-hou-art-244-p3-kou-1
     type: kou
-    text: 募集新株予約権の目的である株式の全部又は一部が譲渡制限株式であるとき。
+    text: 一　募集新株予約権の目的である株式の全部又は一部が譲渡制限株式であるとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-244-p3-kou-2
     type: kou
-    text: 募集新株予約権が譲渡制限新株予約権であるとき。
+    text: 二　募集新株予約権が譲渡制限新株予約権であるとき。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-19-p1-kou-1
     type: kou
-    text: 先の納税申告書の提出により納付すべきものとしてこれに記載した税額に不足額があるとき。
+    text: 一　先の納税申告書の提出により納付すべきものとしてこれに記載した税額に不足額があるとき。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-19-p1-kou-2
     type: kou
-    text: 先の納税申告書に記載した純損失等の金額が過大であるとき。
+    text: 二　先の納税申告書に記載した純損失等の金額が過大であるとき。
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-19-p1-kou-3
     type: kou
-    text: 先の納税申告書に記載した還付金の額に相当する税額が過大であるとき。
+    text: 三　先の納税申告書に記載した還付金の額に相当する税額が過大であるとき。
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-19-p1-kou-4
     type: kou
-    text: 先の納税申告書に当該申告書の提出により納付すべき税額を記載しなかつた場合において、その納付すべき税額があるとき。
+    text: 四　先の納税申告書に当該申告書の提出により納付すべき税額を記載しなかつた場合において、その納付すべき税額があるとき。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,22 +52,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-19-p2-kou-1
     type: kou
-    text: その更正又は決定により納付すべきものとしてその更正又は決定に係る更正通知書又は決定通知書に記載された税額に不足額があるとき。
+    text: 一　その更正又は決定により納付すべきものとしてその更正又は決定に係る更正通知書又は決定通知書に記載された税額に不足額があるとき。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-19-p2-kou-2
     type: kou
-    text: その更正に係る更正通知書に記載された純損失等の金額が過大であるとき。
+    text: 二　その更正に係る更正通知書に記載された純損失等の金額が過大であるとき。
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-19-p2-kou-3
     type: kou
-    text: その更正又は決定に係る更正通知書又は決定通知書に記載された還付金の額に相当する税額が過大であるとき。
+    text: 三　その更正又は決定に係る更正通知書又は決定通知書に記載された還付金の額に相当する税額が過大であるとき。
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-19-p2-kou-4
     type: kou
-    text: 納付すべき税額がない旨の更正を受けた場合において、納付すべき税額があるとき。
+    text: 四　納付すべき税額がない旨の更正を受けた場合において、納付すべき税額があるとき。
     modality: unspecified
     item_number: 4
 - number: 3
@@ -92,28 +92,28 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-art-19-p4-kou-1
     type: kou
-    text: その申告後の課税標準等及び税額等
+    text: 一　その申告後の課税標準等及び税額等
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-19-p4-kou-2
     type: kou
-    text: 'その申告に係る次に掲げる金額
+    text: '二　その申告に係る次に掲げる金額
 
-      イ その申告前の納付すべき税額がその申告により増加するときは、その増加する部分の税額
+      イ　その申告前の納付すべき税額がその申告により増加するときは、その増加する部分の税額
 
-      ロ その申告前の還付金の額に相当する税額がその申告により減少するときは、その減少する部分の税額
+      ロ　その申告前の還付金の額に相当する税額がその申告により減少するときは、その減少する部分の税額
 
-      ハ 所得税法第百四十二条第二項（純損失の繰戻しによる還付の手続等）（同法第百六十六条（申告、納付及び還付）において準用する場合を含む。）又は法人税法第八十条第十項（欠損金の繰戻しによる還付）（同法第百四十四条の十三第十三項（欠損金の繰戻しによる還付）において準用する場合を含む。）若しくは地方法人税法（平成二十六年法律第十一号）第二十三条第一項（欠損金の繰戻しによる法人税の還付があつた場合の還付）の規定により還付する金額（以下「純損失の繰戻し等による還付金額」という。）に係る第五十八条第一項（還付加算金）に規定する還付加算金があるときは、その還付加算金のうちロに掲げる税額に対応する部分の金額'
+      ハ　所得税法第百四十二条第二項（純損失の繰戻しによる還付の手続等）（同法第百六十六条（申告、納付及び還付）において準用する場合を含む。）又は法人税法第八十条第十項（欠損金の繰戻しによる還付）（同法第百四十四条の十三第十三項（欠損金の繰戻しによる還付）において準用する場合を含む。）若しくは地方法人税法（平成二十六年法律第十一号）第二十三条第一項（欠損金の繰戻しによる法人税の還付があつた場合の還付）の規定により還付する金額（以下「純損失の繰戻し等による還付金額」という。）に係る第五十八条第一項（還付加算金）に規定する還付加算金があるときは、その還付加算金のうちロに掲げる税額に対応する部分の金額'
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-19-p4-kou-3
     type: kou
-    text: その申告前の納付すべき税額及び還付金の額に相当する税額
+    text: 三　その申告前の納付すべき税額及び還付金の額に相当する税額
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-19-p4-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、当該期限内申告書に記載すべきものとされている事項でその申告に係るものその他参考となるべき事項
+    text: 四　前三号に掲げるもののほか、当該期限内申告書に記載すべきものとされている事項でその申告に係るものその他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases:

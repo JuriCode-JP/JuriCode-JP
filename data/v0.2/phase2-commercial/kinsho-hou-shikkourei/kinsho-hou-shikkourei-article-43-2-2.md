@@ -23,72 +23,72 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-1
     type: kou
-    text: 法第六十六条の二第一項の規定による登録申請書の受理
+    text: 一　法第六十六条の二第一項の規定による登録申請書の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-2
     type: kou
-    text: 法第六十六条の三第一項及び第六十六条の五第二項の規定による登録
+    text: 二　法第六十六条の三第一項及び第六十六条の五第二項の規定による登録
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-3
     type: kou
-    text: 法第六十六条の三第二項の規定による金融商品仲介業者登録簿の縦覧
+    text: 三　法第六十六条の三第二項の規定による金融商品仲介業者登録簿の縦覧
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-4
     type: kou
-    text: 法第六十六条の四の規定による登録の拒否
+    text: 四　法第六十六条の四の規定による登録の拒否
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-5
     type: kou
-    text: 法第六十六条の五第一項及び第三項並びに第六十六条の十九第一項の規定による届出の受理
+    text: 五　法第六十六条の五第一項及び第三項並びに第六十六条の十九第一項の規定による届出の受理
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-6
     type: kou
-    text: 法第六十六条の十五において準用する法第三十九条第三項ただし書の規定による確認及び同条第七項の規定による申請書の受理
+    text: 六　法第六十六条の十五において準用する法第三十九条第三項ただし書の規定による確認及び同条第七項の規定による申請書の受理
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-7
     type: kou
-    text: 法第六十六条の十七第一項の規定による書類の受理
+    text: 七　法第六十六条の十七第一項の規定による書類の受理
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-8
     type: kou
-    text: 法第六十六条の二十の規定による処分
+    text: 八　法第六十六条の二十の規定による処分
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-9
     type: kou
-    text: 法第六十六条の二十一の規定による登録の抹消
+    text: 九　法第六十六条の二十一の規定による登録の抹消
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-10
     type: kou
-    text: 法第六十六条の二十二の規定による報告及び資料の提出の命令並びに検査（法第百九十四条の七第二項第三号の規定及び第三十八条の二第二項の規定により委員会に委任されたものを除く。）
+    text: 十　法第六十六条の二十二の規定による報告及び資料の提出の命令並びに検査（法第百九十四条の七第二項第三号の規定及び第三十八条の二第二項の規定により委員会に委任されたものを除く。）
     modality: unspecified
     item_number: 10
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-11
     type: kou
-    text: 法第六十六条の二十三において準用する法第五十七条第一項の規定による審問
+    text: 十一　法第六十六条の二十三において準用する法第五十七条第一項の規定による審問
     modality: unspecified
     item_number: 11
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-12
     type: kou
-    text: 法第六十六条の二十三において準用する法第五十七条第二項の規定による聴聞
+    text: 十二　法第六十六条の二十三において準用する法第五十七条第二項の規定による聴聞
     modality: unspecified
     item_number: 12
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-13
     type: kou
-    text: 法第六十六条の二十三において準用する法第五十七条第三項の規定による通知
+    text: 十三　法第六十六条の二十三において準用する法第五十七条第三項の規定による通知
     modality: unspecified
     item_number: 13
   - id: kinsho-hou-shikkourei-art-43-2-2-p1-kou-14
     type: kou
-    text: 法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第十一号に規定する審問及び第十二号に規定する聴聞に係るもの
+    text: 十四　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第十一号に規定する審問及び第十二号に規定する聴聞に係るもの
     modality: unspecified
     item_number: 14
 - number: 2
@@ -101,8 +101,8 @@ paragraphs:
     text: 前項第十号に掲げる権限で金融商品仲介業者の本店等以外の支店その他の営業所若しくは事務所又は当該金融商品仲介業者と取引をする者（以下この条において「支店等」という。）に関するものについては、同項に規定する財務局長又は福岡財務支局長のほか、当該支店等の所在地（当該取引をする者が個人の場合にあつては、その住所又は居所）を管轄する財務局長（当該所在地が福岡財務支局の管轄区域内にある場合にあつては福岡財務支局長、当該所在地が国外にある場合にあつては関東財務局長）も行うことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -125,52 +125,52 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-1
     type: kou
-    text: 法第六十六条の二十五において準用する法第六十四条第三項の規定による登録申請書の受理
+    text: 一　法第六十六条の二十五において準用する法第六十四条第三項の規定による登録申請書の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-2
     type: kou
-    text: 法第六十六条の二十五において準用する法第六十四条第五項の規定による登録
+    text: 二　法第六十六条の二十五において準用する法第六十四条第五項の規定による登録
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-3
     type: kou
-    text: 法第六十六条の二十五において準用する法第六十四条第六項、第六十四条の二第三項及び第六十四条の五第三項の規定による通知
+    text: 三　法第六十六条の二十五において準用する法第六十四条第六項、第六十四条の二第三項及び第六十四条の五第三項の規定による通知
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-4
     type: kou
-    text: 法第六十六条の二十五において準用する法第六十四条の二第一項の規定による登録の拒否
+    text: 四　法第六十六条の二十五において準用する法第六十四条の二第一項の規定による登録の拒否
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-5
     type: kou
-    text: 法第六十六条の二十五において準用する法第六十四条の二第二項の規定による審問
+    text: 五　法第六十六条の二十五において準用する法第六十四条の二第二項の規定による審問
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-6
     type: kou
-    text: 法第六十六条の二十五において準用する法第六十四条の四の規定による届出の受理
+    text: 六　法第六十六条の二十五において準用する法第六十四条の四の規定による届出の受理
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-7
     type: kou
-    text: 法第六十六条の二十五において準用する法第六十四条の五第一項の規定による登録の取消し及び職務の停止の命令
+    text: 七　法第六十六条の二十五において準用する法第六十四条の五第一項の規定による登録の取消し及び職務の停止の命令
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-8
     type: kou
-    text: 法第六十六条の二十五において準用する法第六十四条の五第二項の規定による聴聞
+    text: 八　法第六十六条の二十五において準用する法第六十四条の五第二項の規定による聴聞
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-9
     type: kou
-    text: 法第六十六条の二十五において準用する法第六十四条の六の規定による登録の抹消
+    text: 九　法第六十六条の二十五において準用する法第六十四条の六の規定による登録の抹消
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-shikkourei-art-43-2-2-p4-kou-10
     type: kou
-    text: 法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第五号に規定する審問及び第八号に規定する聴聞に係るもの
+    text: 十　法第百八十七条第一項の規定による処分及び同条第二項の規定による報告の求めのうち第五号に規定する審問及び第八号に規定する聴聞に係るもの
     modality: unspecified
     item_number: 10
 cases: []

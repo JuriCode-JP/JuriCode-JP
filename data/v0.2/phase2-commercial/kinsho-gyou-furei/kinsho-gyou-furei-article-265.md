@@ -41,17 +41,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-265-p3-kou-1
     type: kou
-    text: 金融商品仲介業者である旨
+    text: 一　金融商品仲介業者である旨
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-265-p3-kou-2
     type: kou
-    text: 登録番号
+    text: 二　登録番号
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-265-p3-kou-3
     type: kou
-    text: 所属金融商品取引業者等の商号又は名称
+    text: 三　所属金融商品取引業者等の商号又は名称
     modality: unspecified
     item_number: 3
 - number: 4
@@ -65,12 +65,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-265-p4-kou-1
     type: kou
-    text: その常時使用する従業員の数が二十人以下である場合
+    text: 一　その常時使用する従業員の数が二十人以下である場合
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-265-p4-kou-2
     type: kou
-    text: そのウェブサイトがない場合
+    text: 二　そのウェブサイトがない場合
     modality: unspecified
     item_number: 2
 cases: []

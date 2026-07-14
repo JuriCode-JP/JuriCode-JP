@@ -60,8 +60,8 @@ paragraphs:
     text: 前項の規定は、同項（この項において準用する場合を含む。）の規定により出資対象投資信託受益権等とみなされた投資信託受益権等に係る財産が他の投資信託受益権等に対して出資され、又は拠出される場合について準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

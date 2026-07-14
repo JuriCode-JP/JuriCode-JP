@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-195-3-p1-kou-1
     type: kou
-    text: 当該給与等の支払者の氏名又は名称
+    text: 一　当該給与等の支払者の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-195-3-p1-kou-2
     type: kou
-    text: 第八十四条の二第一項（特定親族特別控除）に規定する特定親族（次項において「特定親族」という。）の氏名及び個人番号（個人番号を有しない者にあつては、氏名）並びにその者のその年の合計所得金額又はその見積額並びにその者が非居住者である親族である場合にはその旨
+    text: 二　第八十四条の二第一項（特定親族特別控除）に規定する特定親族（次項において「特定親族」という。）の氏名及び個人番号（個人番号を有しない者にあつては、氏名）並びにその者のその年の合計所得金額又はその見積額並びにその者が非居住者である親族である場合にはその旨
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-195-3-p1-kou-3
     type: kou
-    text: その他財務省令で定める事項
+    text: 三　その他財務省令で定める事項
     modality: unspecified
     item_number: 3
 - number: 2

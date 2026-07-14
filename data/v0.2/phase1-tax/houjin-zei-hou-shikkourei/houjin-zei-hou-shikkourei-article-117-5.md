@@ -25,17 +25,17 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikkourei-art-117-5-p1-kou-1
     type: kou
-    text: 適用年度終了の時における前事業年度以前の事業年度から繰り越された欠損金額の合計額（当該適用年度終了の時における資本金等の額が零以下である場合には、当該欠損金額の合計額から当該資本金等の額を減算した金額）
+    text: 一　適用年度終了の時における前事業年度以前の事業年度から繰り越された欠損金額の合計額（当該適用年度終了の時における資本金等の額が零以下である場合には、当該欠損金額の合計額から当該資本金等の額を減算した金額）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-117-5-p1-kou-2
     type: kou
-    text: 法第五十七条第一項（欠損金の繰越し）の規定により適用年度の所得の金額の計算上損金の額に算入される欠損金額
+    text: 二　法第五十七条第一項（欠損金の繰越し）の規定により適用年度の所得の金額の計算上損金の額に算入される欠損金額
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-117-5-p1-kou-3
     type: kou
-    text: 適用年度に係る法第六十四条の七第一項第四号に規定する損金算入欠損金額の合計額
+    text: 三　適用年度に係る法第六十四条の七第一項第四号に規定する損金算入欠損金額の合計額
     modality: unspecified
     item_number: 3
 cases: []

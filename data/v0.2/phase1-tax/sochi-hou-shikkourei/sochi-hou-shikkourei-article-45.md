@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-45-p1-kou-1
     type: kou
-    text: 酒類及び製造たばこ
+    text: 一　酒類及び製造たばこ
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-45-p1-kou-2
     type: kou
-    text: 関税法（昭和二十九年法律第六十一号）第二条第一項第九号及び第十号に規定する船用品及び機用品（前号に掲げる物品を除く。）
+    text: 二　関税法（昭和二十九年法律第六十一号）第二条第一項第九号及び第十号に規定する船用品及び機用品（前号に掲げる物品を除く。）
     modality: unspecified
     item_number: 2
 - number: 2

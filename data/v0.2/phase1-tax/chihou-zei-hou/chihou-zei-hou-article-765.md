@@ -23,67 +23,67 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-765-p1-kou-1
     type: kou
-    text: 目的
+    text: 一　目的
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-765-p1-kou-2
     type: kou
-    text: 名称
+    text: 二　名称
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-765-p1-kou-3
     type: kou
-    text: 事務所の所在地
+    text: 三　事務所の所在地
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-765-p1-kou-4
     type: kou
-    text: 資産に関する事項
+    text: 四　資産に関する事項
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-765-p1-kou-5
     type: kou
-    text: 代表者会議の委員の定数及び任期、議決の方法その他の代表者会議に関する事項
+    text: 五　代表者会議の委員の定数及び任期、議決の方法その他の代表者会議に関する事項
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-765-p1-kou-6
     type: kou
-    text: 役員の定数、任期、職務の分担その他の役員に関する事項
+    text: 六　役員の定数、任期、職務の分担その他の役員に関する事項
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-art-765-p1-kou-7
     type: kou
-    text: 業務及びその執行に関する事項
+    text: 七　業務及びその執行に関する事項
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-art-765-p1-kou-8
     type: kou
-    text: 運営審議会の委員の定数その他の運営審議会に関する事項
+    text: 八　運営審議会の委員の定数その他の運営審議会に関する事項
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-art-765-p1-kou-9
     type: kou
-    text: 財務及び会計に関する事項
+    text: 九　財務及び会計に関する事項
     modality: unspecified
     item_number: 9
   - id: chihou-zei-hou-art-765-p1-kou-10
     type: kou
-    text: 定款の変更に関する事項
+    text: 十　定款の変更に関する事項
     modality: unspecified
     item_number: 10
   - id: chihou-zei-hou-art-765-p1-kou-11
     type: kou
-    text: 第七百九十四条の規定による地方団体の費用の負担に関する事項
+    text: 十一　第七百九十四条の規定による地方団体の費用の負担に関する事項
     modality: unspecified
     item_number: 11
   - id: chihou-zei-hou-art-765-p1-kou-12
     type: kou
-    text: 公告及び公表の方法
+    text: 十二　公告及び公表の方法
     modality: unspecified
     item_number: 12
   - id: chihou-zei-hou-art-765-p1-kou-13
     type: kou
-    text: 機構の保有する情報の公開に関する事項
+    text: 十三　機構の保有する情報の公開に関する事項
     modality: unspecified
     item_number: 13
 - number: 2

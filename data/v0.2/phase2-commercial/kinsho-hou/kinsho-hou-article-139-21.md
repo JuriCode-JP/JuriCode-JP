@@ -43,22 +43,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-139-21-p3-kou-1
     type: kou
-    text: 前項の書面の閲覧の請求
+    text: 一　前項の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-139-21-p3-kou-2
     type: kou
-    text: 前項の書面の謄本又は抄本の交付の請求
+    text: 二　前項の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-139-21-p3-kou-3
     type: kou
-    text: 前項の電磁的記録に記録された事項を内閣府令で定める方法により表示したものの閲覧の請求
+    text: 三　前項の電磁的記録に記録された事項を内閣府令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-139-21-p3-kou-4
     type: kou
-    text: 前項の電磁的記録に記録された事項を電磁的方法であつて内閣府令で定めるものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前項の電磁的記録に記録された事項を電磁的方法であつて内閣府令で定めるものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 cases: []

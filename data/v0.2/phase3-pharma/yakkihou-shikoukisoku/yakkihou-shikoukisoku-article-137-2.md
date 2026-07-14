@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-2-p2-kou-1
     type: kou
-    text: 主たる機能を有する事務所の名称及び所在地
+    text: 一　主たる機能を有する事務所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-2-p2-kou-2
     type: kou
-    text: 許可の種類
+    text: 二　許可の種類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-2-p2-kou-3
     type: kou
-    text: 再生医療等製品総括製造販売責任者の住所及び資格
+    text: 三　再生医療等製品総括製造販売責任者の住所及び資格
     modality: unspecified
     item_number: 3
 - number: 3
@@ -56,27 +56,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-2-p3-kou-1
     type: kou
-    text: 申請者が法人であるときは、登記事項証明書
+    text: 一　申請者が法人であるときは、登記事項証明書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-2-p3-kou-2
     type: kou
-    text: 申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
+    text: 二　申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-2-p3-kou-3
     type: kou
-    text: 申請者が現に製造販売業の許可を受けている場合にあつては、当該製造販売業の許可証の写し
+    text: 三　申請者が現に製造販売業の許可を受けている場合にあつては、当該製造販売業の許可証の写し
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-137-2-p3-kou-4
     type: kou
-    text: 申請者以外の者がその再生医療等製品総括製造販売責任者であるときは、雇用契約書の写しその他申請者のその再生医療等製品総括製造販売責任者に対する使用関係を証する書類
+    text: 四　申請者以外の者がその再生医療等製品総括製造販売責任者であるときは、雇用契約書の写しその他申請者のその再生医療等製品総括製造販売責任者に対する使用関係を証する書類
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-137-2-p3-kou-5
     type: kou
-    text: 再生医療等製品総括製造販売責任者が法第二十三条の三十四第一項に規定する者であることを証する書類
+    text: 五　再生医療等製品総括製造販売責任者が法第二十三条の三十四第一項に規定する者であることを証する書類
     modality: unspecified
     item_number: 5
 - number: 4

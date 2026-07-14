@@ -36,12 +36,12 @@ paragraphs:
     - 前項
   - id: shouhi-zei-hou-art-9-2-p2-kou-1
     type: kou
-    text: 特定期間中に行つた第三十八条第一項に規定する売上げに係る対価の返還等の金額
+    text: 一　特定期間中に行つた第三十八条第一項に規定する売上げに係る対価の返還等の金額
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-9-2-p2-kou-2
     type: kou
-    text: 特定期間中に行つた第三十八条第一項に規定する売上げに係る対価の返還等の金額に係る消費税額に七十八分の百を乗じて算出した金額
+    text: 二　特定期間中に行つた第三十八条第一項に規定する売上げに係る対価の返還等の金額に係る消費税額に七十八分の百を乗じて算出した金額
     modality: unspecified
     item_number: 2
 - number: 3
@@ -57,8 +57,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: true
@@ -72,17 +72,17 @@ paragraphs:
     - 前三項
   - id: shouhi-zei-hou-art-9-2-p4-kou-1
     type: kou
-    text: 個人事業者　その年の前年一月一日から六月三十日までの期間
+    text: 一　個人事業者　その年の前年一月一日から六月三十日までの期間
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-art-9-2-p4-kou-2
     type: kou
-    text: その事業年度の前事業年度（七月以下であるものその他の政令で定めるもの（次号において「短期事業年度」という。）を除く。）がある法人　当該前事業年度開始の日以後六月の期間
+    text: 二　その事業年度の前事業年度（七月以下であるものその他の政令で定めるもの（次号において「短期事業年度」という。）を除く。）がある法人　当該前事業年度開始の日以後六月の期間
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-art-9-2-p4-kou-3
     type: kou
-    text: その事業年度の前事業年度が短期事業年度である法人　その事業年度の前々事業年度（その事業年度の基準期間に含まれるものその他の政令で定めるものを除く。）開始の日以後六月の期間（当該前々事業年度が六月以下の場合には、当該前々事業年度開始の日からその終了の日までの期間）
+    text: 三　その事業年度の前事業年度が短期事業年度である法人　その事業年度の前々事業年度（その事業年度の基準期間に含まれるものその他の政令で定めるものを除く。）開始の日以後六月の期間（当該前々事業年度が六月以下の場合には、当該前々事業年度開始の日からその終了の日までの期間）
     modality: unspecified
     item_number: 3
 - number: 5

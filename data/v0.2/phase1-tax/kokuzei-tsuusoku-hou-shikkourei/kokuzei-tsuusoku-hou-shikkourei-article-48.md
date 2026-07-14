@@ -32,27 +32,27 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-48-p2-kou-1
     type: kou
-    text: 公売に付そうとする領置物件等の品名及び数量
+    text: 一　公売に付そうとする領置物件等の品名及び数量
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-48-p2-kou-2
     type: kou
-    text: 公売の日時、場所、方法及び事由
+    text: 二　公売の日時、場所、方法及び事由
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-48-p2-kou-3
     type: kou
-    text: 買受代金の納付の期限
+    text: 三　買受代金の納付の期限
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-48-p2-kou-4
     type: kou
-    text: 保証金に関する事項
+    text: 四　保証金に関する事項
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-shikkourei-art-48-p2-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、公売に関し必要な事項
+    text: 五　前各号に掲げるもののほか、公売に関し必要な事項
     modality: unspecified
     item_number: 5
 - number: 3

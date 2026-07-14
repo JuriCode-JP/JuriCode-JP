@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-14-3-4-p1-kou-1
     type: kou
-    text: 内閣府令で定めるところにより、開示用電子情報処理組織を使用する方法により不特定多数の者が公告すべき内容である情報の提供を受けることができる状態に置く措置をとる方法（第三項から第五項までにおいて「電子公告」という。）
+    text: 一　内閣府令で定めるところにより、開示用電子情報処理組織を使用する方法により不特定多数の者が公告すべき内容である情報の提供を受けることができる状態に置く措置をとる方法（第三項から第五項までにおいて「電子公告」という。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-3-4-p1-kou-2
     type: kou
-    text: 内閣府令で定めるところにより、時事に関する事項を掲載する日刊新聞紙に掲載する方法
+    text: 二　内閣府令で定めるところにより、時事に関する事項を掲載する日刊新聞紙に掲載する方法
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の公告のうち法第二十七条の二十二の二第二項において準用する法第二十七条の八第十一項本文の規定によるものは、同項の訂正届出書を提出した後直ちにしなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -63,12 +63,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-14-3-4-p4-kou-1
     type: kou
-    text: 法第二十七条の二十二の二第二項において準用する法第二十七条の三第一項、第二十七条の六第二項、第二十七条の八第十一項及び第二十七条の十一第二項の規定による公告　公開買付期間の末日
+    text: 一　法第二十七条の二十二の二第二項において準用する法第二十七条の三第一項、第二十七条の六第二項、第二十七条の八第十一項及び第二十七条の十一第二項の規定による公告　公開買付期間の末日
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-3-4-p4-kou-2
     type: kou
-    text: 法第二十七条の二十二の二第二項において準用する法第二十七条の十三第一項の規定による公告　当該公告の開始後一月を経過する日
+    text: 二　法第二十七条の二十二の二第二項において準用する法第二十七条の十三第一項の規定による公告　当該公告の開始後一月を経過する日
     modality: unspecified
     item_number: 2
 - number: 5

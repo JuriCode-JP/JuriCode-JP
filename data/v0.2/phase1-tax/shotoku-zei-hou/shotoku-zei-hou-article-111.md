@@ -32,12 +32,12 @@ paragraphs:
     modality: kanou_kenri
   - id: shotoku-zei-hou-art-111-p2-kou-1
     type: kou
-    text: 第百四条第一項の規定による納付をすべき居住者　予定納税基準額（前項の承認を受けた居住者については、その承認に係る申告納税見積額）
+    text: 一　第百四条第一項の規定による納付をすべき居住者　予定納税基準額（前項の承認を受けた居住者については、その承認に係る申告納税見積額）
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-111-p2-kou-2
     type: kou
-    text: 第百七条第一項（特別農業所得者の予定納税額の納付）の規定による納付をすべき居住者　予定納税基準額
+    text: 二　第百七条第一項（特別農業所得者の予定納税額の納付）の規定による納付をすべき居住者　予定納税基準額
     modality: unspecified
     item_number: 2
 - number: 3

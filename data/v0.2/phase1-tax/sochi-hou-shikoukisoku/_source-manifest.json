@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\332M50000040015.xml",
   "source_xml_sha256": "a1413d43a70978035a64b48e3e8024424750ab3cd47c3872edc5c947dab7833c",
   "source_xml_bytes": 7939837,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:45+00:00",
+  "parsed_at": "2026-07-14T01:44:51+00:00",
   "version_date": "1957-03-31",
   "article_count": 400,
   "articles": [
@@ -138,8 +138,8 @@
       "article_id": "sochi-hou-shikoukisoku-art-14",
       "article_number": "14",
       "filename": "sochi-hou-shikoukisoku-article-14.md",
-      "ja_text_sha256": "f29cecd379fca5518b6ef3cf81edf80b6361d755754945572fea7972abd2659d",
-      "ja_text_bytes": 50802,
+      "ja_text_sha256": "845c85aef6570fb3bda1a5871b95f53fae8ce2f7fd0d81b4212b53a0d49e848b",
+      "ja_text_bytes": 50796,
       "paragraph_count": 9
     },
     {
@@ -714,8 +714,8 @@
       "article_id": "sochi-hou-shikoukisoku-art-19-11-2",
       "article_number": "19-11-2",
       "filename": "sochi-hou-shikoukisoku-article-19-11-2.md",
-      "ja_text_sha256": "22d36b0e719046db09067b1fdb13f86966fc6ad73b1dfc54127ae5404cd8b065",
-      "ja_text_bytes": 3339,
+      "ja_text_sha256": "9415919834a711df479be4467c284b7baea2f6dc7c1799aa12fb2019b4caf5bc",
+      "ja_text_bytes": 3333,
       "paragraph_count": 4
     },
     {
@@ -1026,8 +1026,8 @@
       "article_id": "sochi-hou-shikoukisoku-art-20-4",
       "article_number": "20-4",
       "filename": "sochi-hou-shikoukisoku-article-20-4.md",
-      "ja_text_sha256": "86390e740410fb5aaeec7cc0feb5ce349f08f93d3c6e927133a6540d0c49a9ae",
-      "ja_text_bytes": 8905,
+      "ja_text_sha256": "c7bd6c9cd4151774a730b8c84a4ac43188c9dffb274a85b63d830ba40a70bc52",
+      "ja_text_bytes": 8902,
       "paragraph_count": 8
     },
     {
@@ -1138,8 +1138,8 @@
       "article_id": "sochi-hou-shikoukisoku-art-21-17",
       "article_number": "21-17",
       "filename": "sochi-hou-shikoukisoku-article-21-17.md",
-      "ja_text_sha256": "bf1397d23e931c446a0d050d649c652ec7326e76b2158fdce0ea1780175dc0db",
-      "ja_text_bytes": 14554,
+      "ja_text_sha256": "11e7c5f029f46458c4ee3c765133017258f9f28723056465f3feddf6f6c87635",
+      "ja_text_bytes": 14542,
       "paragraph_count": 6
     },
     {
@@ -1402,8 +1402,8 @@
       "article_id": "sochi-hou-shikoukisoku-art-22-2",
       "article_number": "22-2",
       "filename": "sochi-hou-shikoukisoku-article-22-2.md",
-      "ja_text_sha256": "c59a04de2d8b4681370426ad179d10ed0760ee45a617ac42b7187257926f8cd1",
-      "ja_text_bytes": 23526,
+      "ja_text_sha256": "62cc3fbd2f30db727cac2b814fa3f41c0e7ea9445e63b994c556833641158aa3",
+      "ja_text_bytes": 23520,
       "paragraph_count": 13
     },
     {
@@ -1450,16 +1450,16 @@
       "article_id": "sochi-hou-shikoukisoku-art-22-3",
       "article_number": "22-3",
       "filename": "sochi-hou-shikoukisoku-article-22-3.md",
-      "ja_text_sha256": "9a7886f360aaae30fd144c46310ecdfc7af8be483d730c8b4ee12a5169963f0f",
-      "ja_text_bytes": 2989,
+      "ja_text_sha256": "7a6b4a8a3758190b20487c449cf0204d410efabaa0c83442e07fc2c5f6b747f2",
+      "ja_text_bytes": 2983,
       "paragraph_count": 5
     },
     {
       "article_id": "sochi-hou-shikoukisoku-art-22-4",
       "article_number": "22-4",
       "filename": "sochi-hou-shikoukisoku-article-22-4.md",
-      "ja_text_sha256": "db9e05863e08285b6c34cc386d07f422b95d417eaac80f4ca67eeab1b9da49c2",
-      "ja_text_bytes": 9888,
+      "ja_text_sha256": "23c29002310b664f1e24573875f8d0aab7e8034333cb31cd5a7f4e384f26e41e",
+      "ja_text_bytes": 9882,
       "paragraph_count": 3
     },
     {
@@ -1674,8 +1674,8 @@
       "article_id": "sochi-hou-shikoukisoku-art-23-2",
       "article_number": "23-2",
       "filename": "sochi-hou-shikoukisoku-article-23-2.md",
-      "ja_text_sha256": "20e3ba48ed088abefca4f3e2a758aa011ca165766f93030b39ca75f8aed216c9",
-      "ja_text_bytes": 12794,
+      "ja_text_sha256": "2674ab3706e4cf9a8b53d0b21193ea190b4bffd1d35ecca9f3eb96f2f3fc2339",
+      "ja_text_bytes": 12788,
       "paragraph_count": 9
     },
     {
@@ -1826,8 +1826,8 @@
       "article_id": "sochi-hou-shikoukisoku-art-23-8-6",
       "article_number": "23-8-6",
       "filename": "sochi-hou-shikoukisoku-article-23-8-6.md",
-      "ja_text_sha256": "cd7dcb238fcca7913cdeec7349c08d225c69b2eb32eb2f33af7f3efce39a3314",
-      "ja_text_bytes": 42528,
+      "ja_text_sha256": "dbf4e0cc4c18e2f6499b962902d96bb7c1068430b7e56647cee129882c340f63",
+      "ja_text_bytes": 42522,
       "paragraph_count": 31
     },
     {
@@ -1842,8 +1842,8 @@
       "article_id": "sochi-hou-shikoukisoku-art-23-8-8",
       "article_number": "23-8-8",
       "filename": "sochi-hou-shikoukisoku-article-23-8-8.md",
-      "ja_text_sha256": "22fe29520f0195bbc4b8cd83107435ba368bc67895e883689052c39ea10ce634",
-      "ja_text_bytes": 38818,
+      "ja_text_sha256": "7b8ba1a3bd7174107c5db920b4c661b56f67226ce75e3d88b5e1d786101c1d42",
+      "ja_text_bytes": 38812,
       "paragraph_count": 31
     },
     {

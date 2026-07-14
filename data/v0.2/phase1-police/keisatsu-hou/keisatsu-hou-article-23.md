@@ -23,47 +23,47 @@ paragraphs:
     modality: unspecified
   - id: keisatsu-hou-art-23-p1-kou-1
     type: kou
-    text: 刑事警察に関すること。
+    text: 一　刑事警察に関すること。
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-23-p1-kou-2
     type: kou
-    text: 犯罪鑑識に関すること。
+    text: 二　犯罪鑑識に関すること。
     modality: unspecified
     item_number: 2
   - id: keisatsu-hou-art-23-p1-kou-3
     type: kou
-    text: 犯罪統計に関すること。
+    text: 三　犯罪統計に関すること。
     modality: unspecified
     item_number: 3
   - id: keisatsu-hou-art-23-p1-kou-4
     type: kou
-    text: 暴力団対策に関すること。
+    text: 四　暴力団対策に関すること。
     modality: unspecified
     item_number: 4
   - id: keisatsu-hou-art-23-p1-kou-5
     type: kou
-    text: 薬物及び銃器に関する犯罪の取締りに関すること。
+    text: 五　薬物及び銃器に関する犯罪の取締りに関すること。
     modality: unspecified
     item_number: 5
   - id: keisatsu-hou-art-23-p1-kou-6
     type: kou
-    text: 組織犯罪の取締りに関すること（他局の所掌に属するものを除く。）。
+    text: 六　組織犯罪の取締りに関すること（他局の所掌に属するものを除く。）。
     modality: unspecified
     item_number: 6
   - id: keisatsu-hou-art-23-p1-kou-7
     type: kou
-    text: 犯罪による収益の移転防止に関すること。
+    text: 七　犯罪による収益の移転防止に関すること。
     modality: unspecified
     item_number: 7
   - id: keisatsu-hou-art-23-p1-kou-8
     type: kou
-    text: 国際捜査共助に関すること。
+    text: 八　国際捜査共助に関すること。
     modality: unspecified
     item_number: 8
   - id: keisatsu-hou-art-23-p1-kou-9
     type: kou
-    text: 重大な犯罪を防止し、及びこれと戦う上での協力の強化に関する日本国政府とアメリカ合衆国政府との間の協定の実施に関する法律（平成二十六年法律第五十七号）第二条第一号に規定する合衆国連絡部局との連絡に関すること。
+    text: 九　重大な犯罪を防止し、及びこれと戦う上での協力の強化に関する日本国政府とアメリカ合衆国政府との間の協定の実施に関する法律（平成二十六年法律第五十七号）第二条第一号に規定する合衆国連絡部局との連絡に関すること。
     modality: unspecified
     item_number: 9
 - number: 2
@@ -76,16 +76,16 @@ paragraphs:
     text: 組織犯罪対策部においては、前項第一号に掲げる事務のうち次に掲げるもの及び同項第四号から第九号までに掲げる事務をつかさどる。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: keisatsu-hou-art-23-p2-kou-1
     type: kou
-    text: 国際的な犯罪捜査に関すること。
+    text: 一　国際的な犯罪捜査に関すること。
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-23-p2-kou-2
     type: kou
-    text: 国際刑事警察機構との連絡に関すること。
+    text: 二　国際刑事警察機構との連絡に関すること。
     modality: unspecified
     item_number: 2
 cases: []

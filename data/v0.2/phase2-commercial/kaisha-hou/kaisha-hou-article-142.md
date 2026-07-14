@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-142-p1-kou-1
     type: kou
-    text: 指定買取人として指定を受けた旨
+    text: 一　指定買取人として指定を受けた旨
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-142-p1-kou-2
     type: kou
-    text: 指定買取人が買い取る対象株式の数（種類株式発行会社にあっては、対象株式の種類及び種類ごとの数）
+    text: 二　指定買取人が買い取る対象株式の数（種類株式発行会社にあっては、対象株式の種類及び種類ごとの数）
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 指定買取人は、前項の規定による通知をしようとするときは、一株当たり純資産額に同項第二号の対象株式の数を乗じて得た額を株式会社の本店の所在地の供託所に供託し、かつ、当該供託を証する書面を譲渡等承認請求者に交付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -69,8 +69,8 @@ paragraphs:
     text: 前項の譲渡等承認請求者が同項の期間内に同項の規定による供託をしなかったときは、指定買取人は、第一項第二号の対象株式の売買契約を解除することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

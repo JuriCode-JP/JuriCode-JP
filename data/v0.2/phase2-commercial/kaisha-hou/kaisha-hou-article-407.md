@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の場合において、裁判所が仮処分をもって同項の執行役又は取締役に対し、その行為をやめることを命ずるときは、担保を立てさせないものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

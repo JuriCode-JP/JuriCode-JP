@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定の適用がある場合の非居住者の恒久的施設における資産の取得価額その他同項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -43,27 +43,27 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-114-72-p3-kou-1
     type: kou
-    text: 申請者が法人であるときは、法人であることを証する書類
+    text: 一　申請者が法人であるときは、法人であることを証する書類
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-72-p3-kou-2
     type: kou
-    text: 申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員を含む。）が、法第二十三条の二の十七第二項に規定する者であるかないかを明らかにする書類
+    text: 二　申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員を含む。）が、法第二十三条の二の十七第二項に規定する者であるかないかを明らかにする書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-114-72-p3-kou-3
     type: kou
-    text: 選任外国製造医療機器等製造販売業者を選任したことを証する書類
+    text: 三　選任外国製造医療機器等製造販売業者を選任したことを証する書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-114-72-p3-kou-4
     type: kou
-    text: 当該選任外国製造医療機器等製造販売業者が受けている製造販売業の許可証の写し
+    text: 四　当該選任外国製造医療機器等製造販売業者が受けている製造販売業の許可証の写し
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-114-72-p3-kou-5
     type: kou
-    text: 法第二十三条の二の二十において準用する法第二十三条の二の八第一項の規定により法第二十三条の二の十七第一項の承認を申請しようとするときは、申請者が製造販売しようとする物が、法第二十三条の二の八第一項第二号に掲げる医療機器又は体外診断用医薬品であることを証する書類その他必要な書類
+    text: 五　法第二十三条の二の二十において準用する法第二十三条の二の八第一項の規定により法第二十三条の二の十七第一項の承認を申請しようとするときは、申請者が製造販売しようとする物が、法第二十三条の二の八第一項第二号に掲げる医療機器又は体外診断用医薬品であることを証する書類その他必要な書類
     modality: unspecified
     item_number: 5
 cases: []

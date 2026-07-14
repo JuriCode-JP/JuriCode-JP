@@ -43,37 +43,37 @@ paragraphs:
     modality: gimu
   - id: chihou-koumuin-hou-art-25-p3-kou-1
     type: kou
-    text: 給料表
+    text: 一　給料表
     modality: unspecified
     item_number: 1
   - id: chihou-koumuin-hou-art-25-p3-kou-2
     type: kou
-    text: 等級別基準職務表
+    text: 二　等級別基準職務表
     modality: unspecified
     item_number: 2
   - id: chihou-koumuin-hou-art-25-p3-kou-3
     type: kou
-    text: 昇給の基準に関する事項
+    text: 三　昇給の基準に関する事項
     modality: unspecified
     item_number: 3
   - id: chihou-koumuin-hou-art-25-p3-kou-4
     type: kou
-    text: 時間外勤務手当、夜間勤務手当及び休日勤務手当に関する事項
+    text: 四　時間外勤務手当、夜間勤務手当及び休日勤務手当に関する事項
     modality: unspecified
     item_number: 4
   - id: chihou-koumuin-hou-art-25-p3-kou-5
     type: kou
-    text: 前号に規定するものを除くほか、地方自治法第二百四条第二項に規定する手当を支給する場合には、当該手当に関する事項
+    text: 五　前号に規定するものを除くほか、地方自治法第二百四条第二項に規定する手当を支給する場合には、当該手当に関する事項
     modality: unspecified
     item_number: 5
   - id: chihou-koumuin-hou-art-25-p3-kou-6
     type: kou
-    text: 非常勤の職その他勤務条件の特別な職があるときは、これらについて行う給与の調整に関する事項
+    text: 六　非常勤の職その他勤務条件の特別な職があるときは、これらについて行う給与の調整に関する事項
     modality: unspecified
     item_number: 6
   - id: chihou-koumuin-hou-art-25-p3-kou-7
     type: kou
-    text: 前各号に規定するものを除くほか、給与の支給方法及び支給条件に関する事項
+    text: 七　前各号に規定するものを除くほか、給与の支給方法及び支給条件に関する事項
     modality: unspecified
     item_number: 7
 - number: 4

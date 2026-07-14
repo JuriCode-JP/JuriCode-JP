@@ -54,22 +54,22 @@ paragraphs:
     - 前二項
   - id: kaisha-hou-art-626-p4-kou-1
     type: kou
-    text: 資産の額
+    text: 一　資産の額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-626-p4-kou-2
     type: kou
-    text: 負債の額
+    text: 二　負債の額
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-626-p4-kou-3
     type: kou
-    text: 資本金の額
+    text: 三　資本金の額
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-626-p4-kou-4
     type: kou
-    text: 前二号に掲げるもののほか、法務省令で定める各勘定科目に計上した額の合計額
+    text: 四　前二号に掲げるもののほか、法務省令で定める各勘定科目に計上した額の合計額
     modality: unspecified
     item_number: 4
 cases: []

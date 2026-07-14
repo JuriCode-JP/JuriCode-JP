@@ -43,12 +43,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-401-2-p3-kou-1
     type: kou
-    text: 道府県知事が定める第三百八十八条第一項の固定資産評価基準の細目に関すること。
+    text: 一　道府県知事が定める第三百八十八条第一項の固定資産評価基準の細目に関すること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-401-2-p3-kou-2
     type: kou
-    text: 第四百十九条第一項の勧告
+    text: 二　第四百十九条第一項の勧告
     modality: unspecified
     item_number: 2
 - number: 4

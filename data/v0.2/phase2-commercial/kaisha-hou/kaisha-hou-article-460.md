@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項の規定による定款の定めがある場合には、株式会社は、同項各号に掲げる事項を株主総会の決議によっては定めない旨を定款で定めることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

@@ -25,52 +25,52 @@ paragraphs:
     - 次条
   - id: sochi-hou-art-91-p1-kou-1
     type: kou
-    text: 十万円を超え五十万円以下のもの　二百円
+    text: 一　十万円を超え五十万円以下のもの　二百円
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-91-p1-kou-2
     type: kou
-    text: 五十万円を超え百万円以下のもの　五百円
+    text: 二　五十万円を超え百万円以下のもの　五百円
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-91-p1-kou-3
     type: kou
-    text: 百万円を超え五百万円以下のもの　千円
+    text: 三　百万円を超え五百万円以下のもの　千円
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-91-p1-kou-4
     type: kou
-    text: 五百万円を超え千万円以下のもの　五千円
+    text: 四　五百万円を超え千万円以下のもの　五千円
     modality: unspecified
     item_number: 4
   - id: sochi-hou-art-91-p1-kou-5
     type: kou
-    text: 千万円を超え五千万円以下のもの　一万円
+    text: 五　千万円を超え五千万円以下のもの　一万円
     modality: unspecified
     item_number: 5
   - id: sochi-hou-art-91-p1-kou-6
     type: kou
-    text: 五千万円を超え一億円以下のもの　三万円
+    text: 六　五千万円を超え一億円以下のもの　三万円
     modality: unspecified
     item_number: 6
   - id: sochi-hou-art-91-p1-kou-7
     type: kou
-    text: 一億円を超え五億円以下のもの　六万円
+    text: 七　一億円を超え五億円以下のもの　六万円
     modality: unspecified
     item_number: 7
   - id: sochi-hou-art-91-p1-kou-8
     type: kou
-    text: 五億円を超え十億円以下のもの　十六万円
+    text: 八　五億円を超え十億円以下のもの　十六万円
     modality: unspecified
     item_number: 8
   - id: sochi-hou-art-91-p1-kou-9
     type: kou
-    text: 十億円を超え五十億円以下のもの　三十二万円
+    text: 九　十億円を超え五十億円以下のもの　三十二万円
     modality: unspecified
     item_number: 9
   - id: sochi-hou-art-91-p1-kou-10
     type: kou
-    text: 五十億円を超えるもの　四十八万円
+    text: 十　五十億円を超えるもの　四十八万円
     modality: unspecified
     item_number: 10
 - number: 2
@@ -86,52 +86,52 @@ paragraphs:
     - 次条
   - id: sochi-hou-art-91-p2-kou-1
     type: kou
-    text: 百万円を超え二百万円以下のもの　二百円
+    text: 一　百万円を超え二百万円以下のもの　二百円
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-91-p2-kou-2
     type: kou
-    text: 二百万円を超え三百万円以下のもの　五百円
+    text: 二　二百万円を超え三百万円以下のもの　五百円
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-91-p2-kou-3
     type: kou
-    text: 三百万円を超え五百万円以下のもの　千円
+    text: 三　三百万円を超え五百万円以下のもの　千円
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-91-p2-kou-4
     type: kou
-    text: 五百万円を超え千万円以下のもの　五千円
+    text: 四　五百万円を超え千万円以下のもの　五千円
     modality: unspecified
     item_number: 4
   - id: sochi-hou-art-91-p2-kou-5
     type: kou
-    text: 千万円を超え五千万円以下のもの　一万円
+    text: 五　千万円を超え五千万円以下のもの　一万円
     modality: unspecified
     item_number: 5
   - id: sochi-hou-art-91-p2-kou-6
     type: kou
-    text: 五千万円を超え一億円以下のもの　三万円
+    text: 六　五千万円を超え一億円以下のもの　三万円
     modality: unspecified
     item_number: 6
   - id: sochi-hou-art-91-p2-kou-7
     type: kou
-    text: 一億円を超え五億円以下のもの　六万円
+    text: 七　一億円を超え五億円以下のもの　六万円
     modality: unspecified
     item_number: 7
   - id: sochi-hou-art-91-p2-kou-8
     type: kou
-    text: 五億円を超え十億円以下のもの　十六万円
+    text: 八　五億円を超え十億円以下のもの　十六万円
     modality: unspecified
     item_number: 8
   - id: sochi-hou-art-91-p2-kou-9
     type: kou
-    text: 十億円を超え五十億円以下のもの　三十二万円
+    text: 九　十億円を超え五十億円以下のもの　三十二万円
     modality: unspecified
     item_number: 9
   - id: sochi-hou-art-91-p2-kou-10
     type: kou
-    text: 五十億円を超えるもの　四十八万円
+    text: 十　五十億円を超えるもの　四十八万円
     modality: unspecified
     item_number: 10
 - number: 3
@@ -144,8 +144,8 @@ paragraphs:
     text: 前二項の規定の適用がある場合における印紙税法第四条第四項及び別表第一の課税物件表の適用に関する通則３の規定の適用については、同項第一号中「十万円」とあるのは「十万円（当該課税文書が租税特別措置法（昭和三十二年法律第二十六号）第九十一条第一項に規定する不動産譲渡契約書である場合にあつては、五十万円）」と、同項第二号中「百万円」とあるのは「百万円（当該課税文書が租税特別措置法第九十一条第二項に規定する建設工事請負契約書である場合にあつては、二百万円）」と、同法別表第一の課税物件表の適用に関する通則３ホ中「十万円」とあるのは「十万円（同号に掲げる文書が租税特別措置法第九十一条第一項に規定する不動産譲渡契約書である場合にあつては、五十万円）」と、「契約金額が百万円」とあるのは「契約金額が百万円（同号に掲げる文書が同条第二項に規定する建設工事請負契約書である場合にあつては、二百万円）」とする。
     modality: gimu
     references:
-    - 同項
     - 前二項
+    - 同項
 cases: []
 amendments: []
 tags:

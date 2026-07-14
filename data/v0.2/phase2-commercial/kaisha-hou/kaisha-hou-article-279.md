@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項第一号の新株予約権の割当てを受けた株主は、同項第三号の日に、同項第一号の新株予約権の新株予約権者（同項第二号に規定する場合にあっては、同項第一号の新株予約権の新株予約権者及び同項第二号の社債の社債権者）となる。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -34,8 +34,8 @@ paragraphs:
     text: 株式会社は、前条第一項第三号の日後遅滞なく、株主（種類株式発行会社にあっては、同項第四号の種類の種類株主）及びその登録株式質権者に対し、当該株主が割当てを受けた新株予約権の内容及び数（同項第二号に規定する場合にあっては、当該株主が割当てを受けた社債の種類及び各社債の金額の合計額を含む。）を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

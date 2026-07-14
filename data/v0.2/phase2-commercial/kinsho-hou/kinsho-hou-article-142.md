@@ -68,12 +68,12 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-142-p6-kou-1
     type: kou
-    text: 第百三十九条第二号イ　同条第三号に掲げる事項
+    text: 一　第百三十九条第二号イ　同条第三号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-142-p6-kou-2
     type: kou
-    text: 第百三十九条の二第一項第六号　同項第七号に掲げる事項
+    text: 二　第百三十九条の二第一項第六号　同項第七号に掲げる事項
     modality: unspecified
     item_number: 2
 - number: 7
@@ -119,12 +119,12 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-art-142-p10-kou-1
     type: kou
-    text: 第百三十九条の三第六項若しくは第百三十九条の四第五項において準用する第百一条の四又は第百三十九条の十二（第百三十九条の十九において準用する場合を含む。）の規定による手続が終了していない場合
+    text: 一　第百三十九条の三第六項若しくは第百三十九条の四第五項において準用する第百一条の四又は第百三十九条の十二（第百三十九条の十九において準用する場合を含む。）の規定による手続が終了していない場合
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-142-p10-kou-2
     type: kou
-    text: 吸収合併を中止した場合
+    text: 二　吸収合併を中止した場合
     modality: unspecified
     item_number: 2
 cases: []

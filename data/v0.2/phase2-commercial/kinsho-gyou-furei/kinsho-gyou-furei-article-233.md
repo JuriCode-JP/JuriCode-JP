@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-233-p1-kou-1
     type: kou
-    text: 外国の法令に準拠し、外国において法第二条第八項第七号又は第十七号に掲げる行為を業として行う者
+    text: 一　外国の法令に準拠し、外国において法第二条第八項第七号又は第十七号に掲げる行為を業として行う者
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-233-p1-kou-2
     type: kou
-    text: 外国の法令に準拠し、外国において法第二条第八項第十六号に掲げる行為（その行う同項第一号から第十号までに掲げる行為（法第二十八条第八項各号に掲げる行為に該当するものを除く。）に関して、顧客から金銭の預託を受けることを除く。）又は令第一条の十二第二号に掲げる行為を業として行う者
+    text: 二　外国の法令に準拠し、外国において法第二条第八項第十六号に掲げる行為（その行う同項第一号から第十号までに掲げる行為（法第二十八条第八項各号に掲げる行為に該当するものを除く。）に関して、顧客から金銭の預託を受けることを除く。）又は令第一条の十二第二号に掲げる行為を業として行う者
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-233-p1-kou-3
     type: kou
-    text: 外国の法令に準拠し、外国において信託会社が営む業務と同種類の業務を営む者
+    text: 三　外国の法令に準拠し、外国において信託会社が営む業務と同種類の業務を営む者
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,42 +47,42 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-233-p2-kou-1
     type: kou
-    text: 商号、名称又は氏名
+    text: 一　商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-233-p2-kou-2
     type: kou
-    text: 本店又は主たる事務所の所在の場所
+    text: 二　本店又は主たる事務所の所在の場所
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-233-p2-kou-3
     type: kou
-    text: 業務の内容
+    text: 三　業務の内容
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-233-p2-kou-4
     type: kou
-    text: 資本金の額又は出資の総額
+    text: 四　資本金の額又は出資の総額
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-233-p2-kou-5
     type: kou
-    text: 代表権を有する役員の役職名及び氏名
+    text: 五　代表権を有する役員の役職名及び氏名
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-233-p2-kou-6
     type: kou
-    text: '国内に設置しようとする施設に関する次に掲げる事項
+    text: '六　国内に設置しようとする施設に関する次に掲げる事項
 
-      イ 名称
+      イ　名称
 
-      ロ 代表者の氏名及び国内の住所
+      ロ　代表者の氏名及び国内の住所
 
-      ハ 設置しようとする理由
+      ハ　設置しようとする理由
 
-      ニ 従業員数
+      ニ　従業員数
 
-      ホ 設置予定年月日'
+      ホ　設置予定年月日'
     modality: unspecified
     item_number: 6
 cases: []

@@ -47,12 +47,12 @@ paragraphs:
     - 前項
   - id: gyousei-fufuku-shinsa-hou-art-29-p3-kou-1
     type: kou
-    text: 処分についての審査請求に対する弁明書　処分の内容及び理由
+    text: 一　処分についての審査請求に対する弁明書　処分の内容及び理由
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-29-p3-kou-2
     type: kou
-    text: 不作為についての審査請求に対する弁明書　処分をしていない理由並びに予定される処分の時期、内容及び理由
+    text: 二　不作為についての審査請求に対する弁明書　処分をしていない理由並びに予定される処分の時期、内容及び理由
     modality: unspecified
     item_number: 2
 - number: 4
@@ -68,12 +68,12 @@ paragraphs:
     - 前項
   - id: gyousei-fufuku-shinsa-hou-art-29-p4-kou-1
     type: kou
-    text: 行政手続法（平成五年法律第八十八号）第二十四条第一項の調書及び同条第三項の報告書
+    text: 一　行政手続法（平成五年法律第八十八号）第二十四条第一項の調書及び同条第三項の報告書
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-29-p4-kou-2
     type: kou
-    text: 行政手続法第二十九条第一項に規定する弁明書
+    text: 二　行政手続法第二十九条第一項に規定する弁明書
     modality: unspecified
     item_number: 2
 - number: 5

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-52-p1-kou-1
     type: kou
-    text: 当該対象会計年度の内国法人の属する特定多国籍企業グループ等の最終親会社等に係る連結等財務諸表
+    text: 一　当該対象会計年度の内国法人の属する特定多国籍企業グループ等の最終親会社等に係る連結等財務諸表
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-52-p1-kou-2
     type: kou
-    text: 当該対象会計年度の前号の内国法人の第三十八条の五十第一項第一号（国際最低課税残余額）に規定する個別財務諸表
+    text: 二　当該対象会計年度の前号の内国法人の第三十八条の五十第一項第一号（国際最低課税残余額）に規定する個別財務諸表
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-52-p1-kou-3
     type: kou
-    text: 前号に掲げるものに係る勘定科目内訳明細書
+    text: 三　前号に掲げるものに係る勘定科目内訳明細書
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-38-52-p1-kou-4
     type: kou
-    text: その他参考となるべき事項を記載した書類
+    text: 四　その他参考となるべき事項を記載した書類
     modality: unspecified
     item_number: 4
 - number: 2

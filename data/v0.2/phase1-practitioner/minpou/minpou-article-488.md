@@ -60,22 +60,22 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-488-p4-kou-1
     type: kou
-    text: 債務の中に弁済期にあるものと弁済期にないものとがあるときは、弁済期にあるものに先に充当する。
+    text: 一　債務の中に弁済期にあるものと弁済期にないものとがあるときは、弁済期にあるものに先に充当する。
     modality: unspecified
     item_number: 1
   - id: minpou-art-488-p4-kou-2
     type: kou
-    text: 全ての債務が弁済期にあるとき、又は弁済期にないときは、債務者のために弁済の利益が多いものに先に充当する。
+    text: 二　全ての債務が弁済期にあるとき、又は弁済期にないときは、債務者のために弁済の利益が多いものに先に充当する。
     modality: unspecified
     item_number: 2
   - id: minpou-art-488-p4-kou-3
     type: kou
-    text: 債務者のために弁済の利益が相等しいときは、弁済期が先に到来したもの又は先に到来すべきものに先に充当する。
+    text: 三　債務者のために弁済の利益が相等しいときは、弁済期が先に到来したもの又は先に到来すべきものに先に充当する。
     modality: unspecified
     item_number: 3
   - id: minpou-art-488-p4-kou-4
     type: kou
-    text: 前二号に掲げる事項が相等しい債務の弁済は、各債務の額に応じて充当する。
+    text: 四　前二号に掲げる事項が相等しい債務の弁済は、各債務の額に応じて充当する。
     modality: unspecified
     item_number: 4
 cases: []

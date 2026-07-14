@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-208-7-p1-kou-1
     type: kou
-    text: 法第七十六条第五項第一号に掲げる契約の内容と同条第七項第一号に掲げる契約の内容とが一体となつて効力を有する一の保険契約のうち、特定介護医療保険契約に係る保険料
+    text: 一　法第七十六条第五項第一号に掲げる契約の内容と同条第七項第一号に掲げる契約の内容とが一体となつて効力を有する一の保険契約のうち、特定介護医療保険契約に係る保険料
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-208-7-p1-kou-2
     type: kou
-    text: 法第七十六条第五項第三号に掲げる契約の内容と同条第七項第二号に掲げる生命共済契約等の内容とが一体となつて効力を有する一の共済に係る契約のうち、特定介護医療共済契約に係る掛金
+    text: 二　法第七十六条第五項第三号に掲げる契約の内容と同条第七項第二号に掲げる生命共済契約等の内容とが一体となつて効力を有する一の共済に係る契約のうち、特定介護医療共済契約に係る掛金
     modality: unspecified
     item_number: 2
 cases: []

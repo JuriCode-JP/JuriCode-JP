@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: shouhou-art-739-p1-kou-1
     type: kou
-    text: 船舶を航海に堪える状態に置くこと。
+    text: 一　船舶を航海に堪える状態に置くこと。
     modality: unspecified
     item_number: 1
   - id: shouhou-art-739-p1-kou-2
     type: kou
-    text: 船員の乗組み、船舶の艤装及び需品の補給を適切に行うこと。
+    text: 二　船員の乗組み、船舶の艤装及び需品の補給を適切に行うこと。
     modality: unspecified
     item_number: 2
   - id: shouhou-art-739-p1-kou-3
     type: kou
-    text: 船倉、冷蔵室その他運送品を積み込む場所を運送品の受入れ、運送及び保存に適する状態に置くこと。
+    text: 三　船倉、冷蔵室その他運送品を積み込む場所を運送品の受入れ、運送及び保存に適する状態に置くこと。
     modality: unspecified
     item_number: 3
 - number: 2

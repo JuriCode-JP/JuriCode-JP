@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-580-p1-kou-1
     type: kou
-    text: 当該持分会社の財産をもってその債務を完済することができない場合
+    text: 一　当該持分会社の財産をもってその債務を完済することができない場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-580-p1-kou-2
     type: kou
-    text: 当該持分会社の財産に対する強制執行がその効を奏しなかった場合（社員が、当該持分会社に弁済をする資力があり、かつ、強制執行が容易であることを証明した場合を除く。）
+    text: 二　当該持分会社の財産に対する強制執行がその効を奏しなかった場合（社員が、当該持分会社に弁済をする資力があり、かつ、強制執行が容易であることを証明した場合を除く。）
     modality: unspecified
     item_number: 2
 - number: 2

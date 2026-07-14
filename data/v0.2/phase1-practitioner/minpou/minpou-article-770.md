@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-770-p1-kou-1
     type: kou
-    text: 配偶者に不貞な行為があったとき。
+    text: 一　配偶者に不貞な行為があったとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-770-p1-kou-2
     type: kou
-    text: 配偶者から悪意で遺棄されたとき。
+    text: 二　配偶者から悪意で遺棄されたとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-770-p1-kou-3
     type: kou
-    text: 配偶者の生死が三年以上明らかでないとき。
+    text: 三　配偶者の生死が三年以上明らかでないとき。
     modality: unspecified
     item_number: 3
   - id: minpou-art-770-p1-kou-4
     type: kou
-    text: その他婚姻を継続し難い重大な事由があるとき。
+    text: 四　その他婚姻を継続し難い重大な事由があるとき。
     modality: unspecified
     item_number: 4
 - number: 2

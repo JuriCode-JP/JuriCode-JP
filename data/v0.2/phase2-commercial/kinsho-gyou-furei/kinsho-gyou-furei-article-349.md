@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-349-p1-kou-1
     type: kou
-    text: 業務運営に関する基本原則
+    text: 一　業務運営に関する基本原則
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-349-p1-kou-2
     type: kou
-    text: 業務執行の方法
+    text: 二　業務執行の方法
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-349-p1-kou-3
     type: kou
-    text: 業務分掌の方法
+    text: 三　業務分掌の方法
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-349-p1-kou-4
     type: kou
-    text: 投資運用関係業務受託業に係る投資運用関係業務の内容
+    text: 四　投資運用関係業務受託業に係る投資運用関係業務の内容
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-349-p1-kou-5
     type: kou
-    text: 第三百五十八条第二号から第五号までに規定する措置の内容
+    text: 五　第三百五十八条第二号から第五号までに規定する措置の内容
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-349-p1-kou-6
     type: kou
-    text: 投資運用関係業務受託業に係る投資運用関係業務を管理する責任者の氏名及び役職名
+    text: 六　投資運用関係業務受託業に係る投資運用関係業務を管理する責任者の氏名及び役職名
     modality: unspecified
     item_number: 6
 cases: []

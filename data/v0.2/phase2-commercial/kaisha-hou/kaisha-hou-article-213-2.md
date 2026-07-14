@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-213-2-p1-kou-1
     type: kou
-    text: 第二百八条第一項の規定による払込みを仮装した場合　払込みを仮装した払込金額の全額の支払
+    text: 一　第二百八条第一項の規定による払込みを仮装した場合　払込みを仮装した払込金額の全額の支払
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-213-2-p1-kou-2
     type: kou
-    text: 第二百八条第二項の規定による給付を仮装した場合　給付を仮装した現物出資財産の給付（株式会社が当該給付に代えて当該現物出資財産の価額に相当する金銭の支払を請求した場合にあっては、当該金銭の全額の支払）
+    text: 二　第二百八条第二項の規定による給付を仮装した場合　給付を仮装した現物出資財産の給付（株式会社が当該給付に代えて当該現物出資財産の価額に相当する金銭の支払を請求した場合にあっては、当該金銭の全額の支払）
     modality: unspecified
     item_number: 2
 - number: 2

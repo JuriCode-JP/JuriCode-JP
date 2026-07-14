@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-494-5-p1-kou-1
     type: kou
-    text: 第三百四十五条の二又は第四百九十四条の三の規定による決定を受けた者であつて、裁判所の許可を受けないで本邦から出国し又は出国しようとしたもの
+    text: 一　第三百四十五条の二又は第四百九十四条の三の規定による決定を受けた者であつて、裁判所の許可を受けないで本邦から出国し又は出国しようとしたもの
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-494-5-p1-kou-2
     type: kou
-    text: 第三百四十五条の二又は第四百九十四条の三の許可を取り消された者
+    text: 二　第三百四十五条の二又は第四百九十四条の三の許可を取り消された者
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-494-5-p1-kou-3
     type: kou
-    text: 正当な理由がなく、指定期間内に本邦に帰国せず又は上陸しなかつた者
+    text: 三　正当な理由がなく、指定期間内に本邦に帰国せず又は上陸しなかつた者
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-494-5-p1-kou-4
     type: kou
-    text: 前三号に掲げる者のほか、第三百四十五条の二又は第四百九十四条の三の規定による決定を受けた者であつて、逃亡し又は逃亡すると疑うに足りる相当な理由があるもの
+    text: 四　前三号に掲げる者のほか、第三百四十五条の二又は第四百九十四条の三の規定による決定を受けた者であつて、逃亡し又は逃亡すると疑うに足りる相当な理由があるもの
     modality: unspecified
     item_number: 4
 cases: []

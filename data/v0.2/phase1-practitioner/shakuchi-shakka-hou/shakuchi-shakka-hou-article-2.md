@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: shakuchi-shakka-hou-art-2-p1-kou-1
     type: kou
-    text: 借地権　建物の所有を目的とする地上権又は土地の賃借権をいう。
+    text: 一　借地権　建物の所有を目的とする地上権又は土地の賃借権をいう。
     modality: teigi
     item_number: 1
   - id: shakuchi-shakka-hou-art-2-p1-kou-2
     type: kou
-    text: 借地権者　借地権を有する者をいう。
+    text: 二　借地権者　借地権を有する者をいう。
     modality: teigi
     item_number: 2
   - id: shakuchi-shakka-hou-art-2-p1-kou-3
     type: kou
-    text: 借地権設定者　借地権者に対して借地権を設定している者をいう。
+    text: 三　借地権設定者　借地権者に対して借地権を設定している者をいう。
     modality: teigi
     item_number: 3
   - id: shakuchi-shakka-hou-art-2-p1-kou-4
     type: kou
-    text: 転借地権　建物の所有を目的とする土地の賃借権で借地権者が設定しているものをいう。
+    text: 四　転借地権　建物の所有を目的とする土地の賃借権で借地権者が設定しているものをいう。
     modality: teigi
     item_number: 4
   - id: shakuchi-shakka-hou-art-2-p1-kou-5
     type: kou
-    text: 転借地権者　転借地権を有する者をいう。
+    text: 五　転借地権者　転借地権を有する者をいう。
     modality: teigi
     item_number: 5
 cases:

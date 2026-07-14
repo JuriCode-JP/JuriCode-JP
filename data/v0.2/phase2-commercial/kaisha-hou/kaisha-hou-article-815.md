@@ -41,17 +41,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-815-p3-kou-1
     type: kou
-    text: 新設合併設立株式会社　第一項の書面又は電磁的記録及び新設合併契約の内容その他法務省令で定める事項を記載し、又は記録した書面又は電磁的記録
+    text: 一　新設合併設立株式会社　第一項の書面又は電磁的記録及び新設合併契約の内容その他法務省令で定める事項を記載し、又は記録した書面又は電磁的記録
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-815-p3-kou-2
     type: kou
-    text: 新設分割設立株式会社　前項又は第八百十一条第一項第一号の書面又は電磁的記録
+    text: 二　新設分割設立株式会社　前項又は第八百十一条第一項第一号の書面又は電磁的記録
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-815-p3-kou-3
     type: kou
-    text: 株式移転設立完全親会社　第八百十一条第一項第二号の書面又は電磁的記録
+    text: 三　株式移転設立完全親会社　第八百十一条第一項第二号の書面又は電磁的記録
     modality: unspecified
     item_number: 3
 - number: 4
@@ -65,22 +65,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-815-p4-kou-1
     type: kou
-    text: 前項第一号の書面の閲覧の請求
+    text: 一　前項第一号の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-815-p4-kou-2
     type: kou
-    text: 前項第一号の書面の謄本又は抄本の交付の請求
+    text: 二　前項第一号の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-815-p4-kou-3
     type: kou
-    text: 前項第一号の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　前項第一号の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-815-p4-kou-4
     type: kou
-    text: 前項第一号の電磁的記録に記録された事項を電磁的方法であって新設合併設立株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前項第一号の電磁的記録に記録された事項を電磁的方法であって新設合併設立株式会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 - number: 5
@@ -93,8 +93,8 @@ paragraphs:
     text: 前項の規定は、新設分割設立株式会社について準用する。この場合において、同項中「株主及び債権者」とあるのは「株主、債権者その他の利害関係人」と、同項各号中「前項第一号」とあるのは「前項第二号」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
@@ -105,8 +105,8 @@ paragraphs:
     text: 第四項の規定は、株式移転設立完全親会社について準用する。この場合において、同項中「株主及び債権者」とあるのは「株主及び新株予約権者」と、同項各号中「前項第一号」とあるのは「前項第三号」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

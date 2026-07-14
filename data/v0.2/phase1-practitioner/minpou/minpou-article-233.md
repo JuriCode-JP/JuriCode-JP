@@ -43,17 +43,17 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-233-p3-kou-1
     type: kou
-    text: 竹木の所有者に枝を切除するよう催告したにもかかわらず、竹木の所有者が相当の期間内に切除しないとき。
+    text: 一　竹木の所有者に枝を切除するよう催告したにもかかわらず、竹木の所有者が相当の期間内に切除しないとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-233-p3-kou-2
     type: kou
-    text: 竹木の所有者を知ることができず、又はその所在を知ることができないとき。
+    text: 二　竹木の所有者を知ることができず、又はその所在を知ることができないとき。
     modality: unspecified
     item_number: 2
   - id: minpou-art-233-p3-kou-3
     type: kou
-    text: 急迫の事情があるとき。
+    text: 三　急迫の事情があるとき。
     modality: unspecified
     item_number: 3
 - number: 4

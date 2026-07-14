@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-27-p1-kou-1
     type: kou
-    text: 目的
+    text: 一　目的
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-27-p1-kou-2
     type: kou
-    text: 商号
+    text: 二　商号
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-27-p1-kou-3
     type: kou
-    text: 本店の所在地
+    text: 三　本店の所在地
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-27-p1-kou-4
     type: kou
-    text: 設立に際して出資される財産の価額又はその最低額
+    text: 四　設立に際して出資される財産の価額又はその最低額
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-27-p1-kou-5
     type: kou
-    text: 発起人の氏名又は名称及び住所
+    text: 五　発起人の氏名又は名称及び住所
     modality: unspecified
     item_number: 5
 cases: []

@@ -32,6 +32,10 @@ paragraphs:
     type: simple
     text: 特定講習の業務に従事する指定講習機関の役員又は職員は、刑法その他の罰則の適用については、法令により公務に従事する職員とみなす。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-108-7-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十七条の五第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

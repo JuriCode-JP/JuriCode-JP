@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-210-p1-kou-1
     type: kou
-    text: 当該株式の発行又は自己株式の処分が法令又は定款に違反する場合
+    text: 一　当該株式の発行又は自己株式の処分が法令又は定款に違反する場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-210-p1-kou-2
     type: kou
-    text: 当該株式の発行又は自己株式の処分が著しく不公正な方法により行われる場合
+    text: 二　当該株式の発行又は自己株式の処分が著しく不公正な方法により行われる場合
     modality: unspecified
     item_number: 2
 cases: []

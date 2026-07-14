@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-380-p1-kou-1
     type: kou
-    text: 費用の前払の請求
+    text: 一　費用の前払の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-380-p1-kou-2
     type: kou
-    text: 支出した費用及び支出の日以後におけるその利息の償還の請求
+    text: 二　支出した費用及び支出の日以後におけるその利息の償還の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-380-p1-kou-3
     type: kou
-    text: 負担した債務の債権者に対する弁済（当該債務が弁済期にない場合にあっては、相当の担保の提供）の請求
+    text: 三　負担した債務の債権者に対する弁済（当該債務が弁済期にない場合にあっては、相当の担保の提供）の請求
     modality: unspecified
     item_number: 3
 cases: []

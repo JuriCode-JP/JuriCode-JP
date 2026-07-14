@@ -36,17 +36,17 @@ paragraphs:
     - 前項
   - id: kojin-jouhou-hogo-hou-art-75-p2-kou-1
     type: kou
-    text: 前条第二項第一号から第十号までに掲げる個人情報ファイル
+    text: 一　前条第二項第一号から第十号までに掲げる個人情報ファイル
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-75-p2-kou-2
     type: kou
-    text: 前項の規定による公表に係る個人情報ファイルに記録されている記録情報の全部又は一部を記録した個人情報ファイルであって、その利用目的、記録項目及び記録範囲が当該公表に係るこれらの事項の範囲内のもの
+    text: 二　前項の規定による公表に係る個人情報ファイルに記録されている記録情報の全部又は一部を記録した個人情報ファイルであって、その利用目的、記録項目及び記録範囲が当該公表に係るこれらの事項の範囲内のもの
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-75-p2-kou-3
     type: kou
-    text: 前号に掲げる個人情報ファイルに準ずるものとして政令で定める個人情報ファイル
+    text: 三　前号に掲げる個人情報ファイルに準ずるものとして政令で定める個人情報ファイル
     modality: unspecified
     item_number: 3
 - number: 3

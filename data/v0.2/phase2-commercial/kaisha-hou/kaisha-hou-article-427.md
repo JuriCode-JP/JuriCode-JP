@@ -57,17 +57,17 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-427-p4-kou-1
     type: kou
-    text: 第四百二十五条第二項第一号及び第二号に掲げる事項
+    text: 一　第四百二十五条第二項第一号及び第二号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-427-p4-kou-2
     type: kou
-    text: 当該契約の内容及び当該契約を締結した理由
+    text: 二　当該契約の内容及び当該契約を締結した理由
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-427-p4-kou-3
     type: kou
-    text: 第四百二十三条第一項の損害のうち、当該非業務執行取締役等が賠償する責任を負わないとされた額
+    text: 三　第四百二十三条第一項の損害のうち、当該非業務執行取締役等が賠償する責任を負わないとされた額
     modality: unspecified
     item_number: 3
 - number: 5

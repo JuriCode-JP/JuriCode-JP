@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-65-p1-kou-1
     type: kou
-    text: 法第百五十条第一項に規定するその開始した時における収益事業に係る貸借対照表（その貸借対照表が電磁的記録で作成されている場合には、その電磁的記録に記録された情報の内容を記載した書類。以下この条において同じ。）
+    text: 一　法第百五十条第一項に規定するその開始した時における収益事業に係る貸借対照表（その貸借対照表が電磁的記録で作成されている場合には、その電磁的記録に記録された情報の内容を記載した書類。以下この条において同じ。）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-65-p1-kou-2
     type: kou
-    text: 定款等の写し
+    text: 二　定款等の写し
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-65-p2-kou-1
     type: kou
-    text: 法第百五十条第二項に規定する該当することとなつた時における収益事業に係る貸借対照表
+    text: 一　法第百五十条第二項に規定する該当することとなつた時における収益事業に係る貸借対照表
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-65-p2-kou-2
     type: kou
-    text: 定款等の写し
+    text: 二　定款等の写し
     modality: unspecified
     item_number: 2
 - number: 3
@@ -61,12 +61,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-65-p3-kou-1
     type: kou
-    text: 法第百五十条第三項に規定する該当することとなつた時における貸借対照表
+    text: 一　法第百五十条第三項に規定する該当することとなつた時における貸借対照表
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-65-p3-kou-2
     type: kou
-    text: 定款等の写し
+    text: 二　定款等の写し
     modality: unspecified
     item_number: 2
 - number: 4

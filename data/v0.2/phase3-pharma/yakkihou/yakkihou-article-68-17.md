@@ -23,22 +23,22 @@ paragraphs:
     modality: jogai
   - id: yakkihou-art-68-17-p1-kou-1
     type: kou
-    text: 生物由来製品（特定生物由来製品を除く。）にあつては、生物由来製品であることを示す厚生労働省令で定める表示
+    text: 一　生物由来製品（特定生物由来製品を除く。）にあつては、生物由来製品であることを示す厚生労働省令で定める表示
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-68-17-p1-kou-2
     type: kou
-    text: 特定生物由来製品にあつては、特定生物由来製品であることを示す厚生労働省令で定める表示
+    text: 二　特定生物由来製品にあつては、特定生物由来製品であることを示す厚生労働省令で定める表示
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-68-17-p1-kou-3
     type: kou
-    text: 第六十八条の十九において準用する第四十二条第一項の規定によりその基準が定められた生物由来製品にあつては、その基準において直接の容器又は直接の被包に記載するように定められた事項
+    text: 三　第六十八条の十九において準用する第四十二条第一項の規定によりその基準が定められた生物由来製品にあつては、その基準において直接の容器又は直接の被包に記載するように定められた事項
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-68-17-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、厚生労働省令で定める事項
+    text: 四　前三号に掲げるもののほか、厚生労働省令で定める事項
     modality: unspecified
     item_number: 4
 cases: []

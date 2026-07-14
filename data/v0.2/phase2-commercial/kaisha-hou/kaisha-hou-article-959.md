@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-959-p1-kou-1
     type: kou
-    text: 登録をしたとき。
+    text: 一　登録をしたとき。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-959-p1-kou-2
     type: kou
-    text: 第九百四十五条第一項の規定により登録が効力を失ったことを確認したとき。
+    text: 二　第九百四十五条第一項の規定により登録が効力を失ったことを確認したとき。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-959-p1-kou-3
     type: kou
-    text: 第九百四十八条又は第九百五十条の届出があったとき。
+    text: 三　第九百四十八条又は第九百五十条の届出があったとき。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-959-p1-kou-4
     type: kou
-    text: 第九百五十四条の規定により登録を取り消し、又は電子公告調査の業務の全部若しくは一部の停止を命じたとき。
+    text: 四　第九百五十四条の規定により登録を取り消し、又は電子公告調査の業務の全部若しくは一部の停止を命じたとき。
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-959-p1-kou-5
     type: kou
-    text: 第九百五十七条第一項の規定により法務大臣が電子公告調査の業務の全部若しくは一部を自ら行うものとするとき、又は自ら行っていた電子公告調査の業務の全部若しくは一部を行わないこととするとき。
+    text: 五　第九百五十七条第一項の規定により法務大臣が電子公告調査の業務の全部若しくは一部を自ら行うものとするとき、又は自ら行っていた電子公告調査の業務の全部若しくは一部を行わないこととするとき。
     modality: unspecified
     item_number: 5
 cases: []

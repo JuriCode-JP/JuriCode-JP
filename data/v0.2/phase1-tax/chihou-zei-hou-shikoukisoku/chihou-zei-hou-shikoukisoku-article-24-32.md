@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-24-32-p1-kou-1
     type: kou
-    text: 特別徴収対象被保険者の氏名、性別、生年月日及び住所
+    text: 一　特別徴収対象被保険者の氏名、性別、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-24-32-p1-kou-2
     type: kou
-    text: 特別徴収対象年金給付の種類及び額並びに当該特別徴収対象被保険者に係る老齢等年金給付の支払をする者（以下「年金保険者」という。）の名称
+    text: 二　特別徴収対象年金給付の種類及び額並びに当該特別徴収対象被保険者に係る老齢等年金給付の支払をする者（以下「年金保険者」という。）の名称
     modality: unspecified
     item_number: 2
 cases: []

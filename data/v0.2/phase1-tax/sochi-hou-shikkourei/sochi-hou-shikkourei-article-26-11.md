@@ -29,9 +29,9 @@ paragraphs:
     text: この場合において、同条第一項第一号中「法人」とあるのは「租税特別措置法第四十一条の十二第七項（償還差益等に係る分離課税等）に規定する割引債（第三項において「割引債」という。）の償還差益（同条第七項に規定する償還差益をいう。次項及び第三項において同じ。）、法人」と、同条第二項中「月数のうち」とあるのは「月数（当該配当等が短期公社債（租税特別措置法施行令（昭和三十二年政令第四十三号）第二十六条の十一第三項（償還差益に対する所得税額の法人税額からの控除）に規定する短期公社債をいう。次項において同じ。）に係る償還差益であるときは、日数。以下この項において同じ。）のうち」と、同条第三項中「所得税の額を前項」とあるのは「所得税の額（短期公社債の償還差益に対する所得税の額を除く。）を前項」と、「株式及び」とあるのは「割引債、株式及び」と、「と集団投資信託の受益権と」とあるのは「又は集団投資信託の受益権の三種類」と、同項第一号中「の数（」とあるのは「の数（割引債については額面金額とし、」と、「、金額」とあるのは「金額とする」とする。
     modality: gimu
     references:
-    - 同項
     - 次項
     - 前項
+    - 同項
     depends_on: sochi-hou-shikkourei-art-26-11-p1-zen
 - number: 2
   has_proviso: false
@@ -53,37 +53,37 @@ paragraphs:
     modality: teigi
   - id: sochi-hou-shikkourei-art-26-11-p3-kou-1
     type: kou
-    text: 国債
+    text: 一　国債
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-26-11-p3-kou-2
     type: kou
-    text: 社債、株式等の振替に関する法律第六十六条第一号に規定する短期社債又は同法附則第三十六条第一項に規定する振替外債のうち財務省令で定める要件を満たすもの
+    text: 二　社債、株式等の振替に関する法律第六十六条第一号に規定する短期社債又は同法附則第三十六条第一項に規定する振替外債のうち財務省令で定める要件を満たすもの
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-26-11-p3-kou-3
     type: kou
-    text: 投資信託及び投資法人に関する法律第百三十九条の十二第一項に規定する短期投資法人債
+    text: 三　投資信託及び投資法人に関する法律第百三十九条の十二第一項に規定する短期投資法人債
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-26-11-p3-kou-4
     type: kou
-    text: 信用金庫法第五十四条の四第一項に規定する短期債
+    text: 四　信用金庫法第五十四条の四第一項に規定する短期債
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-26-11-p3-kou-5
     type: kou
-    text: 保険業法第六十一条の十第一項に規定する短期社債
+    text: 五　保険業法第六十一条の十第一項に規定する短期社債
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-26-11-p3-kou-6
     type: kou
-    text: 資産の流動化に関する法律第二条第八項に規定する特定短期社債
+    text: 六　資産の流動化に関する法律第二条第八項に規定する特定短期社債
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikkourei-art-26-11-p3-kou-7
     type: kou
-    text: 農林中央金庫法第六十二条の二第一項に規定する短期農林債
+    text: 七　農林中央金庫法第六十二条の二第一項に規定する短期農林債
     modality: unspecified
     item_number: 7
 cases: []

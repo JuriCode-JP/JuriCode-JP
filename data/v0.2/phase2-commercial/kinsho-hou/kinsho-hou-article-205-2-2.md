@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_kei
   - id: kinsho-hou-art-205-2-2-p1-kou-1
     type: kou
-    text: 第百五十六条の二十の十五の認可を受けないで金融商品債務引受業を廃止したとき。
+    text: 一　第百五十六条の二十の十五の認可を受けないで金融商品債務引受業を廃止したとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-205-2-2-p1-kou-2
     type: kou
-    text: 第百五十六条の六十第一項の認可を受けないで紛争解決等業務（第百五十六条の三十八第十一項に規定する紛争解決等業務をいう。）の全部若しくは一部の休止又は廃止をしたとき。
+    text: 二　第百五十六条の六十第一項の認可を受けないで紛争解決等業務（第百五十六条の三十八第十一項に規定する紛争解決等業務をいう。）の全部若しくは一部の休止又は廃止をしたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-205-2-2-p1-kou-3
     type: kou
-    text: 第百五十六条の八十二第一項の認可を受けないで取引情報蓄積業務の全部若しくは一部の休止又は廃止をしたとき。
+    text: 三　第百五十六条の八十二第一項の認可を受けないで取引情報蓄積業務の全部若しくは一部の休止又は廃止をしたとき。
     modality: unspecified
     item_number: 3
 cases: []

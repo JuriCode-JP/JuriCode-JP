@@ -45,17 +45,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-52-2-p3-kou-1
     type: kou
-    text: 生徒等に対して無利息で行われる学資としての資金の貸付けであること。
+    text: 一　生徒等に対して無利息で行われる学資としての資金の貸付けであること。
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-52-2-p3-kou-2
     type: kou
-    text: 特定の法人等（法人その他の団体又は個人をいう。）の従業者の親族のみを対象とする貸付けその他当該従業者の福利厚生のための貸付けと認められるものでないこと。
+    text: 二　特定の法人等（法人その他の団体又は個人をいう。）の従業者の親族のみを対象とする貸付けその他当該従業者の福利厚生のための貸付けと認められるものでないこと。
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-52-2-p3-kou-3
     type: kou
-    text: 貸主（当該貸主が実施する学資としての資金の貸付けに係る事業を委託した者を含む。）への就職を条件とする貸付けその他卒業後に当該貸主に直接的な利益をもたらす条件を付したものでないこと。
+    text: 三　貸主（当該貸主が実施する学資としての資金の貸付けに係る事業を委託した者を含む。）への就職を条件とする貸付けその他卒業後に当該貸主に直接的な利益をもたらす条件を付したものでないこと。
     modality: unspecified
     item_number: 3
 - number: 4

@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の納付しなかつた所得税の額が二百万円を超えるときは、情状により、同項の罰金は、二百万円を超えその納付しなかつた所得税の額に相当する金額以下とすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

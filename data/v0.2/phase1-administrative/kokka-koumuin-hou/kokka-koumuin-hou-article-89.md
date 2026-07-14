@@ -31,8 +31,8 @@ paragraphs:
     text: 職員が前項に規定する著しく不利益な処分を受けたと思料する場合には、同項の説明書の交付を請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

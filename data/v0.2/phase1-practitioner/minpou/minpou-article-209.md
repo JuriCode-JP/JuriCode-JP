@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_negative
   - id: minpou-art-209-p1-kou-1
     type: kou
-    text: 境界又はその付近における障壁、建物その他の工作物の築造、収去又は修繕
+    text: 一　境界又はその付近における障壁、建物その他の工作物の築造、収去又は修繕
     modality: unspecified
     item_number: 1
   - id: minpou-art-209-p1-kou-2
     type: kou
-    text: 境界標の調査又は境界に関する測量
+    text: 二　境界標の調査又は境界に関する測量
     modality: unspecified
     item_number: 2
   - id: minpou-art-209-p1-kou-3
     type: kou
-    text: 第二百三十三条第三項の規定による枝の切取り
+    text: 三　第二百三十三条第三項の規定による枝の切取り
     modality: unspecified
     item_number: 3
 - number: 2

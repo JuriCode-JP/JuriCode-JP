@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: yakkihou-art-23-2-2-p1-kou-1
     type: kou
-    text: 申請に係る医療機器又は体外診断用医薬品の製造管理又は品質管理に係る業務を行う体制が、厚生労働省令で定める基準に適合しないとき。
+    text: 一　申請に係る医療機器又は体外診断用医薬品の製造管理又は品質管理に係る業務を行う体制が、厚生労働省令で定める基準に適合しないとき。
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-23-2-2-p1-kou-2
     type: kou
-    text: 申請に係る医療機器又は体外診断用医薬品の製造販売後安全管理の方法が、厚生労働省令で定める基準に適合しないとき。
+    text: 二　申請に係る医療機器又は体外診断用医薬品の製造販売後安全管理の方法が、厚生労働省令で定める基準に適合しないとき。
     modality: unspecified
     item_number: 2
 - number: 2

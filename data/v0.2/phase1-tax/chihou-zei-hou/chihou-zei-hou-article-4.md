@@ -32,47 +32,47 @@ paragraphs:
     modality: jogai
   - id: chihou-zei-hou-art-4-p2-kou-1
     type: kou
-    text: 道府県民税
+    text: 一　道府県民税
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-4-p2-kou-2
     type: kou
-    text: 事業税
+    text: 二　事業税
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-4-p2-kou-3
     type: kou
-    text: 地方消費税
+    text: 三　地方消費税
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-4-p2-kou-4
     type: kou
-    text: 不動産取得税
+    text: 四　不動産取得税
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-4-p2-kou-5
     type: kou
-    text: 道府県たばこ税
+    text: 五　道府県たばこ税
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-4-p2-kou-6
     type: kou
-    text: ゴルフ場利用税
+    text: 六　ゴルフ場利用税
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-art-4-p2-kou-7
     type: kou
-    text: 軽油引取税
+    text: 七　軽油引取税
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-art-4-p2-kou-8
     type: kou
-    text: 自動車税
+    text: 八　自動車税
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-art-4-p2-kou-9
     type: kou
-    text: 鉱区税
+    text: 九　鉱区税
     modality: unspecified
     item_number: 9
 - number: 3

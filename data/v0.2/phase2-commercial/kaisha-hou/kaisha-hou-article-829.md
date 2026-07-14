@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-829-p1-kou-1
     type: kou
-    text: 株式会社の成立後における株式の発行
+    text: 一　株式会社の成立後における株式の発行
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-829-p1-kou-2
     type: kou
-    text: 自己株式の処分
+    text: 二　自己株式の処分
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-829-p1-kou-3
     type: kou
-    text: 新株予約権の発行
+    text: 三　新株予約権の発行
     modality: unspecified
     item_number: 3
 cases: []

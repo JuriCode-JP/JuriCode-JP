@@ -36,8 +36,8 @@ paragraphs:
     text: 船舶先取特権を有する者が前項の期間内に同項の申出をしなかったときは、その船舶先取特権は、消滅する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

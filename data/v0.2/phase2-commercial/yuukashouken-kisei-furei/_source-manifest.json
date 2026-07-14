@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\419M60000002059.xml",
   "source_xml_sha256": "cfe22fc537db6ef69fab959571e91f6cd5cd9750daec756ba9e2bd8f7b395f32",
   "source_xml_bytes": 741394,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:59:08+00:00",
+  "parsed_at": "2026-07-14T01:45:16+00:00",
   "version_date": "2007-08-08",
   "article_count": 84,
   "articles": [

@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-19-p2-kou-1
     type: kou
-    text: 製造所の名称及び所在地
+    text: 一　製造所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-19-p2-kou-2
     type: kou
-    text: 認定の区分
+    text: 二　認定の区分
     modality: unspecified
     item_number: 2
 - number: 3
@@ -51,22 +51,22 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-137-19-p3-kou-1
     type: kou
-    text: 製造所の責任者の履歴書
+    text: 一　製造所の責任者の履歴書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-19-p3-kou-2
     type: kou
-    text: 製造品目の一覧表及び製造工程に関する書類
+    text: 二　製造品目の一覧表及び製造工程に関する書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-19-p3-kou-3
     type: kou
-    text: 製造所の構造設備に関する書類
+    text: 三　製造所の構造設備に関する書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-137-19-p3-kou-4
     type: kou
-    text: 当該再生医療等製品外国製造業者が存する国が再生医療等製品の製造販売業の許可、製造業の許可、製造販売の承認の制度又はこれに相当する制度を有する場合においては、当該国の政府機関等が発行する当該制度に係る許可証等の写し
+    text: 四　当該再生医療等製品外国製造業者が存する国が再生医療等製品の製造販売業の許可、製造業の許可、製造販売の承認の制度又はこれに相当する制度を有する場合においては、当該国の政府機関等が発行する当該制度に係る許可証等の写し
     modality: unspecified
     item_number: 4
 cases: []

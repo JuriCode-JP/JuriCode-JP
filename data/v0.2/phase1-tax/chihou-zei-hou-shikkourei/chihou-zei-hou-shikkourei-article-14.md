@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-14-p1-kou-1
     type: kou
-    text: 歯科衛生士業
+    text: 一　歯科衛生士業
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-14-p1-kou-2
     type: kou
-    text: 歯科技工士業
+    text: 二　歯科技工士業
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-14-p1-kou-3
     type: kou
-    text: 測量士業
+    text: 三　測量士業
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-14-p1-kou-4
     type: kou
-    text: 土地家屋調査士業
+    text: 四　土地家屋調査士業
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-14-p1-kou-5
     type: kou
-    text: 海事代理士業
+    text: 五　海事代理士業
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-14-p1-kou-6
     type: kou
-    text: 印刷製版業
+    text: 六　印刷製版業
     modality: unspecified
     item_number: 6
 cases: []

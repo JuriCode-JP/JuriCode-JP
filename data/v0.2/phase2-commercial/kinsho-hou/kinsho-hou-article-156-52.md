@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-156-52-p1-kou-1
     type: kou
-    text: 当該金融商品取引業等業務関連紛争について、当該金融商品取引業等業務関連紛争の当事者間において紛争解決手続が実施されていること。
+    text: 一　当該金融商品取引業等業務関連紛争について、当該金融商品取引業等業務関連紛争の当事者間において紛争解決手続が実施されていること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-52-p1-kou-2
     type: kou
-    text: 前号の場合のほか、当該金融商品取引業等業務関連紛争の当事者間に紛争解決手続によつて当該金融商品取引業等業務関連紛争の解決を図る旨の合意があること。
+    text: 二　前号の場合のほか、当該金融商品取引業等業務関連紛争の当事者間に紛争解決手続によつて当該金融商品取引業等業務関連紛争の解決を図る旨の合意があること。
     modality: unspecified
     item_number: 2
 - number: 2

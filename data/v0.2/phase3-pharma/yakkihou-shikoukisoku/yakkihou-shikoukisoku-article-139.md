@@ -43,27 +43,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-139-p3-kou-1
     type: kou
-    text: 要指導医薬品
+    text: 一　要指導医薬品
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-139-p3-kou-2
     type: kou
-    text: 第一類医薬品
+    text: 二　第一類医薬品
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-139-p3-kou-3
     type: kou
-    text: 指定第二類医薬品
+    text: 三　指定第二類医薬品
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-139-p3-kou-4
     type: kou
-    text: 第二類医薬品（指定第二類医薬品を除く。次項第二号ニ及び第百四十七条の七第三号において同じ。）
+    text: 四　第二類医薬品（指定第二類医薬品を除く。次項第二号ニ及び第百四十七条の七第三号において同じ。）
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-139-p3-kou-5
     type: kou
-    text: 第三類医薬品
+    text: 五　第三類医薬品
     modality: unspecified
     item_number: 5
 - number: 4
@@ -77,42 +77,42 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-139-p4-kou-1
     type: kou
-    text: 特定販売を行う際に使用する通信手段
+    text: 一　特定販売を行う際に使用する通信手段
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-139-p4-kou-2
     type: kou
-    text: '次のイからホまでに掲げる特定販売を行う医薬品の区分
+    text: '二　次のイからホまでに掲げる特定販売を行う医薬品の区分
 
-      イ 要指導医薬品（特定要指導医薬品を除く。）
+      イ　要指導医薬品（特定要指導医薬品を除く。）
 
-      ロ 第一類医薬品
+      ロ　第一類医薬品
 
-      ハ 指定第二類医薬品
+      ハ　指定第二類医薬品
 
-      ニ 第二類医薬品
+      ニ　第二類医薬品
 
-      ホ 第三類医薬品'
+      ホ　第三類医薬品'
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-139-p4-kou-3
     type: kou
-    text: 特定販売を行う時間及び営業時間のうち特定販売のみを行う時間がある場合はその時間
+    text: 三　特定販売を行う時間及び営業時間のうち特定販売のみを行う時間がある場合はその時間
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-139-p4-kou-4
     type: kou
-    text: 特定販売を行うことについての広告に、法第二十六条第二項の申請書に記載する店舗の名称と異なる名称を表示するときは、その名称
+    text: 四　特定販売を行うことについての広告に、法第二十六条第二項の申請書に記載する店舗の名称と異なる名称を表示するときは、その名称
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-139-p4-kou-5
     type: kou
-    text: 特定販売を行うことについてインターネットを利用して広告をするときは、主たるホームページアドレス及び主たるホームページの構成の概要
+    text: 五　特定販売を行うことについてインターネットを利用して広告をするときは、主たるホームページアドレス及び主たるホームページの構成の概要
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-139-p4-kou-6
     type: kou
-    text: 都道府県知事（その店舗の所在地が保健所を設置する市又は特別区の区域にある場合においては、市長又は区長。第百四十七条の七第四号において同じ。）又は厚生労働大臣が特定販売の実施方法に関する適切な監督を行うために必要な設備の概要（その店舗の営業時間のうち特定販売のみを行う時間がある場合に限る。）
+    text: 六　都道府県知事（その店舗の所在地が保健所を設置する市又は特別区の区域にある場合においては、市長又は区長。第百四十七条の七第四号において同じ。）又は厚生労働大臣が特定販売の実施方法に関する適切な監督を行うために必要な設備の概要（その店舗の営業時間のうち特定販売のみを行う時間がある場合に限る。）
     modality: unspecified
     item_number: 6
 - number: 5
@@ -126,37 +126,37 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-139-p5-kou-1
     type: kou
-    text: 法人にあつては、登記事項証明書
+    text: 一　法人にあつては、登記事項証明書
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-139-p5-kou-2
     type: kou
-    text: 店舗管理者（法第二十八条第一項の規定によりその店舗を実地に管理する店舗販売業者を含む。次号を除き、以下同じ。）の週当たり勤務時間数並びに薬剤師名簿の登録番号及び登録年月日又は販売従事登録の登録番号及び登録年月日を記載した書類
+    text: 二　店舗管理者（法第二十八条第一項の規定によりその店舗を実地に管理する店舗販売業者を含む。次号を除き、以下同じ。）の週当たり勤務時間数並びに薬剤師名簿の登録番号及び登録年月日又は販売従事登録の登録番号及び登録年月日を記載した書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-139-p5-kou-3
     type: kou
-    text: 法第二十八条第一項の規定により店舗管理者を指定してその店舗を実地に管理させる場合にあつては、その店舗管理者の雇用契約書の写しその他申請者のその店舗管理者に対する使用関係を証する書類
+    text: 三　法第二十八条第一項の規定により店舗管理者を指定してその店舗を実地に管理させる場合にあつては、その店舗管理者の雇用契約書の写しその他申請者のその店舗管理者に対する使用関係を証する書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-139-p5-kou-4
     type: kou
-    text: 店舗管理者以外にその店舗において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の別、週当たり勤務時間数並びに薬剤師名簿の登録番号及び登録年月日又は販売従事登録の登録番号及び登録年月日を記載した書類
+    text: 四　店舗管理者以外にその店舗において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の別、週当たり勤務時間数並びに薬剤師名簿の登録番号及び登録年月日又は販売従事登録の登録番号及び登録年月日を記載した書類
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-139-p5-kou-5
     type: kou
-    text: 店舗管理者以外にその店舗において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の雇用契約書の写しその他申請者のその薬剤師又は登録販売者に対する使用関係を証する書類
+    text: 五　店舗管理者以外にその店舗において薬事に関する実務に従事する薬剤師又は登録販売者を置く場合にあつては、その薬剤師又は登録販売者の雇用契約書の写しその他申請者のその薬剤師又は登録販売者に対する使用関係を証する書類
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-139-p5-kou-6
     type: kou
-    text: その店舗において店舗販売業以外の医薬品の販売業その他の業務を併せ行う場合にあつては、その業務の種類を記載した書類
+    text: 六　その店舗において店舗販売業以外の医薬品の販売業その他の業務を併せ行う場合にあつては、その業務の種類を記載した書類
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-139-p5-kou-7
     type: kou
-    text: 申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
+    text: 七　申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
     modality: unspecified
     item_number: 7
 - number: 6

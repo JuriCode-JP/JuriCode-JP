@@ -28,12 +28,12 @@ paragraphs:
     - 前条
   - id: kojin-jouhou-hogo-hou-art-103-p1-kou-1
     type: kou
-    text: この条の規定を適用する旨及びその理由
+    text: 一　この条の規定を適用する旨及びその理由
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-103-p1-kou-2
     type: kou
-    text: 利用停止決定等をする期限
+    text: 二　利用停止決定等をする期限
     modality: unspecified
     item_number: 2
 cases: []

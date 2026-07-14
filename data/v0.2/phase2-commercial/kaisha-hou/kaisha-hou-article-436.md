@@ -34,12 +34,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-436-p2-kou-1
     type: kou
-    text: 前条第二項の計算書類及びその附属明細書　監査役（監査等委員会設置会社にあっては監査等委員会、指名委員会等設置会社にあっては監査委員会）及び会計監査人
+    text: 一　前条第二項の計算書類及びその附属明細書　監査役（監査等委員会設置会社にあっては監査等委員会、指名委員会等設置会社にあっては監査委員会）及び会計監査人
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-436-p2-kou-2
     type: kou
-    text: 前条第二項の事業報告及びその附属明細書　監査役（監査等委員会設置会社にあっては監査等委員会、指名委員会等設置会社にあっては監査委員会）
+    text: 二　前条第二項の事業報告及びその附属明細書　監査役（監査等委員会設置会社にあっては監査等委員会、指名委員会等設置会社にあっては監査委員会）
     modality: unspecified
     item_number: 2
 - number: 3

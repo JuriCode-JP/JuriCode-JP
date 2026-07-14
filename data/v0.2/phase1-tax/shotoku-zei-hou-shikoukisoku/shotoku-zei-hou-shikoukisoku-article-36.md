@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-36-p1-kou-1
     type: kou
-    text: 令第百四十四条第一項各号に掲げる事実が生じていることを証する書類
+    text: 一　令第百四十四条第一項各号に掲げる事実が生じていることを証する書類
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-36-p1-kou-2
     type: kou
-    text: 担保権の実行、保証債務の履行その他により取立て又は弁済の見込みがあると認められる部分の金額がある場合には、その金額を明らかにする書類
+    text: 二　担保権の実行、保証債務の履行その他により取立て又は弁済の見込みがあると認められる部分の金額がある場合には、その金額を明らかにする書類
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,37 +23,37 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-102-35-p1-kou-1
     type: kou
-    text: 定款で定めた解散の事由の発生
+    text: 一　定款で定めた解散の事由の発生
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-102-35-p1-kou-2
     type: kou
-    text: 総会の決議
+    text: 二　総会の決議
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-102-35-p1-kou-3
     type: kou
-    text: 会員が存在しなくなつたこと。
+    text: 三　会員が存在しなくなつたこと。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-102-35-p1-kou-4
     type: kou
-    text: 破産手続開始の決定
+    text: 四　破産手続開始の決定
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-102-35-p1-kou-5
     type: kou
-    text: 成立の日から六月以内に第百二条の十五第一項の規定による認可の申請を行わなかつたこと。
+    text: 五　成立の日から六月以内に第百二条の十五第一項の規定による認可の申請を行わなかつたこと。
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-102-35-p1-kou-6
     type: kou
-    text: 内閣総理大臣が第百二条の十四の認可を与えないこととしたこと。
+    text: 六　内閣総理大臣が第百二条の十四の認可を与えないこととしたこと。
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-102-35-p1-kou-7
     type: kou
-    text: 第百二条の十四の認可の取消し
+    text: 七　第百二条の十四の認可の取消し
     modality: unspecified
     item_number: 7
 - number: 2

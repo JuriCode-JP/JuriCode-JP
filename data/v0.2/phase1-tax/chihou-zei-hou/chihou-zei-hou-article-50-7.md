@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-50-7-p1-kou-1
     type: kou
-    text: その退職手当等の支払者の氏名又は名称
+    text: 一　その退職手当等の支払者の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-50-7-p1-kou-2
     type: kou
-    text: 前条第一項第一号に規定する支払済みの他の退職手当等があるかどうか並びに当該支払済みの他の退職手当等があるときは当該支払済みの他の退職手当等が所得税法第三十条第七項に規定する一般退職手当等、同条第四項に規定する短期退職手当等又は同条第五項に規定する特定役員退職手当等のいずれに該当するかの別及びその金額
+    text: 二　前条第一項第一号に規定する支払済みの他の退職手当等があるかどうか並びに当該支払済みの他の退職手当等があるときは当該支払済みの他の退職手当等が所得税法第三十条第七項に規定する一般退職手当等、同条第四項に規定する短期退職手当等又は同条第五項に規定する特定役員退職手当等のいずれに該当するかの別及びその金額
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-50-7-p1-kou-3
     type: kou
-    text: 前条第三項に規定する退職所得控除額の計算の基礎となる勤続年数
+    text: 三　前条第三項に規定する退職所得控除額の計算の基礎となる勤続年数
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-50-7-p1-kou-4
     type: kou
-    text: その者が所得税法第三十条第六項第三号に掲げる場合に該当するかどうか及びこれに該当するときはその該当する事実
+    text: 四　その者が所得税法第三十条第六項第三号に掲げる場合に該当するかどうか及びこれに該当するときはその該当する事実
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-50-7-p1-kou-5
     type: kou
-    text: その他総務省令で定める事項
+    text: 五　その他総務省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -56,8 +56,8 @@ paragraphs:
     text: 前項の場合において、退職所得申告書がその提出の際に経由すべき退職手当等の支払者に受理されたときは、その申告書は、その受理された時に同項に規定する市町村長に提出されたものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -77,8 +77,8 @@ paragraphs:
     text: 前項の規定の適用がある場合における第二項の規定の適用については、同項中「退職所得申告書が」とあるのは「退職所得申告書に記載すべき事項を」と、「支払者に受理されたとき」とあるのは「支払者が提供を受けたとき」と、「受理された時」とあるのは「提供を受けた時」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

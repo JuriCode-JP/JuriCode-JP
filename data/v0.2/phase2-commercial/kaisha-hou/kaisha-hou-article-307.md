@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-307-p1-kou-1
     type: kou
-    text: 一定の期間内に株主総会を招集すること。
+    text: 一　一定の期間内に株主総会を招集すること。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-307-p1-kou-2
     type: kou
-    text: 前条第五項の調査の結果を株主に通知すること。
+    text: 二　前条第五項の調査の結果を株主に通知すること。
     modality: unspecified
     item_number: 2
 - number: 2

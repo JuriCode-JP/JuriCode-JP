@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-4-4-2-p1-kou-1
     type: kou
-    text: 贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第一号の規定に該当する者である場合　当該贈与により取得した財産
+    text: 一　贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第一号の規定に該当する者である場合　当該贈与により取得した財産
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-4-4-2-p1-kou-2
     type: kou
-    text: 贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第三号の規定に該当する者である場合　当該贈与により取得した財産で法の施行地にあるもの
+    text: 二　贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第三号の規定に該当する者である場合　当該贈与により取得した財産で法の施行地にあるもの
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikkourei-art-4-4-2-p2-kou-1
     type: kou
-    text: 贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第二号の規定に該当する者である場合　当該贈与により取得した財産
+    text: 一　贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第二号の規定に該当する者である場合　当該贈与により取得した財産
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikkourei-art-4-4-2-p2-kou-2
     type: kou
-    text: 贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第四号の規定に該当する者である場合　当該贈与により取得した財産で法の施行地にあるもの
+    text: 二　贈与により財産を取得した者が当該贈与により財産を取得した時において法第一条の四第一項第四号の規定に該当する者である場合　当該贈与により取得した財産で法の施行地にあるもの
     modality: unspecified
     item_number: 2
 cases: []

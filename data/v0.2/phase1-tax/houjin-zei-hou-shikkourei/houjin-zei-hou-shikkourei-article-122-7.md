@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-122-7-p1-kou-1
     type: kou
-    text: 第百二十二条の四第一号及び第五号に掲げる外貨建資産等　法第六十一条の九第一項第一号ロに掲げる期末時換算法
+    text: 一　第百二十二条の四第一号及び第五号に掲げる外貨建資産等　法第六十一条の九第一項第一号ロに掲げる期末時換算法
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-122-7-p1-kou-2
     type: kou
-    text: 外貨建資産等のうち前号に掲げるもの以外のもの　法第六十一条の九第一項第一号イに掲げる発生時換算法
+    text: 二　外貨建資産等のうち前号に掲げるもの以外のもの　法第六十一条の九第一項第一号イに掲げる発生時換算法
     modality: unspecified
     item_number: 2
 cases: []

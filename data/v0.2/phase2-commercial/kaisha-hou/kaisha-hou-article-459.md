@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-459-p1-kou-1
     type: kou
-    text: 第百六十条第一項の規定による決定をする場合以外の場合における第百五十六条第一項各号に掲げる事項
+    text: 一　第百六十条第一項の規定による決定をする場合以外の場合における第百五十六条第一項各号に掲げる事項
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-459-p1-kou-2
     type: kou
-    text: 第四百四十九条第一項第二号に該当する場合における第四百四十八条第一項第一号及び第三号に掲げる事項
+    text: 二　第四百四十九条第一項第二号に該当する場合における第四百四十八条第一項第一号及び第三号に掲げる事項
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-459-p1-kou-3
     type: kou
-    text: 第四百五十二条後段の事項
+    text: 三　第四百五十二条後段の事項
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-459-p1-kou-4
     type: kou
-    text: 第四百五十四条第一項各号及び同条第四項各号に掲げる事項。ただし、配当財産が金銭以外の財産であり、かつ、株主に対して金銭分配請求権を与えないこととする場合を除く。
+    text: 四　第四百五十四条第一項各号及び同条第四項各号に掲げる事項。ただし、配当財産が金銭以外の財産であり、かつ、株主に対して金銭分配請求権を与えないこととする場合を除く。
     modality: unspecified
     item_number: 4
 - number: 2

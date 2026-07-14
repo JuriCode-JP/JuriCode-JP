@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-161-p1-kou-1
     type: kou
-    text: 委託者の氏名又は名称
+    text: 一　委託者の氏名又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-161-p1-kou-2
     type: kou
-    text: 銘柄
+    text: 二　銘柄
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-161-p1-kou-3
     type: kou
-    text: 数量（数量がない場合にあっては、件数又は数量に準ずるもの）
+    text: 三　数量（数量がない場合にあっては、件数又は数量に準ずるもの）
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-161-p1-kou-4
     type: kou
-    text: 受渡金額
+    text: 四　受渡金額
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-161-p1-kou-5
     type: kou
-    text: 受渡年月日
+    text: 五　受渡年月日
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-161-p1-kou-6
     type: kou
-    text: 受渡しの相手方
+    text: 六　受渡しの相手方
     modality: unspecified
     item_number: 6
 cases: []

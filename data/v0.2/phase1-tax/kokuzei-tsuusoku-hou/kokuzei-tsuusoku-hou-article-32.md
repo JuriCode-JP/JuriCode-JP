@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-art-32-p1-kou-1
     type: kou
-    text: 課税標準申告書の提出があつた場合において、当該申告書に記載された課税標準が税務署長の調査したところと同じであるとき。　納付すべき税額
+    text: 一　課税標準申告書の提出があつた場合において、当該申告書に記載された課税標準が税務署長の調査したところと同じであるとき。　納付すべき税額
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-32-p1-kou-2
     type: kou
-    text: 課税標準申告書を提出すべきものとされている国税につき当該申告書の提出がないとき、又は当該申告書の提出があつた場合において、当該申告書に記載された課税標準が税務署長の調査したところと異なるとき。　課税標準及び納付すべき税額
+    text: 二　課税標準申告書を提出すべきものとされている国税につき当該申告書の提出がないとき、又は当該申告書の提出があつた場合において、当該申告書に記載された課税標準が税務署長の調査したところと異なるとき。　課税標準及び納付すべき税額
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-32-p1-kou-3
     type: kou
-    text: 課税標準申告書の提出を要しないとき。　課税標準（第六十九条（加算税の税目）に規定する加算税及び過怠税については、その計算の基礎となる税額。以下この条において同じ。）及び納付すべき税額
+    text: 三　課税標準申告書の提出を要しないとき。　課税標準（第六十九条（加算税の税目）に規定する加算税及び過怠税については、その計算の基礎となる税額。以下この条において同じ。）及び納付すべき税額
     modality: unspecified
     item_number: 3
 - number: 2
@@ -67,17 +67,17 @@ paragraphs:
     modality: unspecified
   - id: kokuzei-tsuusoku-hou-art-32-p4-kou-1
     type: kou
-    text: その決定前の課税標準及び納付すべき税額
+    text: 一　その決定前の課税標準及び納付すべき税額
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-32-p4-kou-2
     type: kou
-    text: その決定後の課税標準及び納付すべき税額
+    text: 二　その決定後の課税標準及び納付すべき税額
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-32-p4-kou-3
     type: kou
-    text: その決定前の納付すべき税額がその決定により増加し、又は減少するときは、その増加し、又は減少する納付すべき税額
+    text: 三　その決定前の納付すべき税額がその決定により増加し、又は減少するときは、その増加し、又は減少する納付すべき税額
     modality: unspecified
     item_number: 3
 - number: 5

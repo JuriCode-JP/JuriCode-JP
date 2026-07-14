@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-12-p1-kou-1
     type: kou
-    text: 第二種金融商品取引業（法第二十八条第二項に規定する第二種金融商品取引業をいい、第二種少額電子募集取扱業務を除く。）を行う個人　千万円
+    text: 一　第二種金融商品取引業（法第二十八条第二項に規定する第二種金融商品取引業をいい、第二種少額電子募集取扱業務を除く。）を行う個人　千万円
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-12-p1-kou-2
     type: kou
-    text: 投資助言・代理業（法第二十八条第三項に規定する投資助言・代理業をいう。以下同じ。）のみを行う者　五百万円
+    text: 二　投資助言・代理業（法第二十八条第三項に規定する投資助言・代理業をいう。以下同じ。）のみを行う者　五百万円
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-15-12-p1-kou-3
     type: kou
-    text: 第二種少額電子募集取扱業務を行う個人（第一号に掲げる者を除く。）　五百万円
+    text: 三　第二種少額電子募集取扱業務を行う個人（第一号に掲げる者を除く。）　五百万円
     modality: unspecified
     item_number: 3
 cases: []

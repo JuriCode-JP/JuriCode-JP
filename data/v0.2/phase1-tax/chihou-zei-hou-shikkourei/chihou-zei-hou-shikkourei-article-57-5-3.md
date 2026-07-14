@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-57-5-3-p1-kou-1
     type: kou
-    text: 法第七百四十七条の八第一項に規定する納付等事務（次号において「納付等事務」という。）を適切かつ確実に遂行することができる財産的基礎を有すること。
+    text: 一　法第七百四十七条の八第一項に規定する納付等事務（次号において「納付等事務」という。）を適切かつ確実に遂行することができる財産的基礎を有すること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-57-5-3-p1-kou-2
     type: kou
-    text: その人的構成等に照らして、納付等事務を適切かつ確実に遂行することができる知識及び経験を有し、かつ、十分な社会的信用を有すること。
+    text: 二　その人的構成等に照らして、納付等事務を適切かつ確実に遂行することができる知識及び経験を有し、かつ、十分な社会的信用を有すること。
     modality: unspecified
     item_number: 2
 cases: []

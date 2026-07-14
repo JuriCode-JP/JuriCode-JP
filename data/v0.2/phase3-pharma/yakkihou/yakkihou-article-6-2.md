@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: yakkihou-art-6-2-p1-kou-1
     type: kou
-    text: 構造設備が、薬剤及び医薬品について情報の提供又は薬学的知見に基づく指導を受ける者（次号及び次条第一項において「利用者」という。）の心身の状況に配慮する観点から必要なものとして厚生労働省令で定める基準に適合するものであること。
+    text: 一　構造設備が、薬剤及び医薬品について情報の提供又は薬学的知見に基づく指導を受ける者（次号及び次条第一項において「利用者」という。）の心身の状況に配慮する観点から必要なものとして厚生労働省令で定める基準に適合するものであること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-6-2-p1-kou-2
     type: kou
-    text: 利用者の薬剤及び医薬品の使用に関する情報を他の医療提供施設と共有する体制が、厚生労働省令で定める基準に適合するものであること。
+    text: 二　利用者の薬剤及び医薬品の使用に関する情報を他の医療提供施設と共有する体制が、厚生労働省令で定める基準に適合するものであること。
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-6-2-p1-kou-3
     type: kou
-    text: 地域の患者に対し安定的に薬剤を供給するための調剤及び調剤された薬剤の販売又は授与の業務を行う体制が、厚生労働省令で定める基準に適合するものであること。
+    text: 三　地域の患者に対し安定的に薬剤を供給するための調剤及び調剤された薬剤の販売又は授与の業務を行う体制が、厚生労働省令で定める基準に適合するものであること。
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-6-2-p1-kou-4
     type: kou
-    text: 居宅等（薬剤師法（昭和三十五年法律第百四十六号）第二十二条に規定する居宅等をいう。以下同じ。）における調剤並びに情報の提供及び薬学的知見に基づく指導を行う体制が、厚生労働省令で定める基準に適合するものであること。
+    text: 四　居宅等（薬剤師法（昭和三十五年法律第百四十六号）第二十二条に規定する居宅等をいう。以下同じ。）における調剤並びに情報の提供及び薬学的知見に基づく指導を行う体制が、厚生労働省令で定める基準に適合するものであること。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,22 +54,22 @@ paragraphs:
     - 前項
   - id: yakkihou-art-6-2-p2-kou-1
     type: kou
-    text: 氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-6-2-p2-kou-2
     type: kou
-    text: その薬局の名称及び所在地
+    text: 二　その薬局の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-6-2-p2-kou-3
     type: kou
-    text: 前項各号に掲げる事項の概要
+    text: 三　前項各号に掲げる事項の概要
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-6-2-p2-kou-4
     type: kou
-    text: その他厚生労働省令で定める事項
+    text: 四　その他厚生労働省令で定める事項
     modality: unspecified
     item_number: 4
 - number: 3

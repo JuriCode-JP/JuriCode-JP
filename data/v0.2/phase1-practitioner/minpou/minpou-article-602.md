@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: minpou-art-602-p1-kou-1
     type: kou
-    text: 樹木の栽植又は伐採を目的とする山林の賃貸借　十年
+    text: 一　樹木の栽植又は伐採を目的とする山林の賃貸借　十年
     modality: unspecified
     item_number: 1
   - id: minpou-art-602-p1-kou-2
     type: kou
-    text: 前号に掲げる賃貸借以外の土地の賃貸借　五年
+    text: 二　前号に掲げる賃貸借以外の土地の賃貸借　五年
     modality: unspecified
     item_number: 2
   - id: minpou-art-602-p1-kou-3
     type: kou
-    text: 建物の賃貸借　三年
+    text: 三　建物の賃貸借　三年
     modality: unspecified
     item_number: 3
   - id: minpou-art-602-p1-kou-4
     type: kou
-    text: 動産の賃貸借　六箇月
+    text: 四　動産の賃貸借　六箇月
     modality: unspecified
     item_number: 4
 cases: []

@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-13-p2-kou-1
     type: kou
-    text: 予定納税に係る所得税　その年分の所得税に係る所得税法第二条第一項第四十一号（定義）に規定する確定申告期限までの期間
+    text: 一　予定納税に係る所得税　その年分の所得税に係る所得税法第二条第一項第四十一号（定義）に規定する確定申告期限までの期間
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-13-p2-kou-2
     type: kou
-    text: 次条第二項第一号に掲げる法人税　その事業年度の法人税法第七十四条第一項（確定申告）、第八十九条（退職年金等積立金に係る確定申告）（同法第百四十五条の十三（申告及び納付）において準用する場合を含む。）又は第百四十四条の六第一項若しくは第二項（確定申告）の規定による申告書の提出期限までの期間
+    text: 二　次条第二項第一号に掲げる法人税　その事業年度の法人税法第七十四条第一項（確定申告）、第八十九条（退職年金等積立金に係る確定申告）（同法第百四十五条の十三（申告及び納付）において準用する場合を含む。）又は第百四十四条の六第一項若しくは第二項（確定申告）の規定による申告書の提出期限までの期間
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-shikkourei-art-13-p2-kou-3
     type: kou
-    text: 次条第二項第二号に掲げる地方法人税　その課税事業年度の地方法人税法第十九条第一項又は第五項（確定申告）の規定による申告書の提出期限までの期間
+    text: 三　次条第二項第二号に掲げる地方法人税　その課税事業年度の地方法人税法第十九条第一項又は第五項（確定申告）の規定による申告書の提出期限までの期間
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-shikkourei-art-13-p2-kou-4
     type: kou
-    text: 次条第二項第三号に掲げる消費税　その課税期間の消費税法第四十五条第一項（課税資産の譲渡等及び特定課税仕入れについての確定申告）の規定による申告書の提出期限までの期間
+    text: 四　次条第二項第三号に掲げる消費税　その課税期間の消費税法第四十五条第一項（課税資産の譲渡等及び特定課税仕入れについての確定申告）の規定による申告書の提出期限までの期間
     modality: unspecified
     item_number: 4
 cases: []

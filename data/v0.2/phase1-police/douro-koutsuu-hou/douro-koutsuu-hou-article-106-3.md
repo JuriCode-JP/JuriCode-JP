@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-106-3-p1-kou-1
     type: kou
-    text: 免許が取り消されたとき。
+    text: 一　免許が取り消されたとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-106-3-p1-kou-2
     type: kou
-    text: 免許が失効したとき。
+    text: 二　免許が失効したとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-106-3-p1-kou-3
     type: kou
-    text: 免許証の再交付を受けた後において亡失した免許証を発見し、又は回復したとき。
+    text: 三　免許証の再交付を受けた後において亡失した免許証を発見し、又は回復したとき。
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-106-3-p1-kou-4
     type: kou
-    text: 免許証の有効期間が満了したとき（第二号に該当する場合を除く。）。
+    text: 四　免許証の有効期間が満了したとき（第二号に該当する場合を除く。）。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -92,6 +92,10 @@ paragraphs:
   - id: douro-koutsuu-hou-art-106-3-p6
     type: simple
     text: 第三項において準用する第九十五条の二第六項の申出の手続について必要な事項は、内閣府令で定める。
+    modality: unspecified
+  - id: douro-koutsuu-hou-art-106-3-supplnote-1
+    type: supplnote
+    text: （罰則　第一項及び第四項については第百二十一条第一項第十号）
     modality: unspecified
 cases: []
 amendments: []

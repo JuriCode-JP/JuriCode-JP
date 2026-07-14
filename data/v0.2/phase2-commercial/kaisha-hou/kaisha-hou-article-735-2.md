@@ -31,8 +31,8 @@ paragraphs:
     text: 社債発行会社は、前項の規定により社債権者集会の決議があったものとみなされた日から十年間、同項の書面又は電磁的記録をその本店に備え置かなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -44,12 +44,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-735-2-p3-kou-1
     type: kou
-    text: 前項の書面の閲覧又は謄写の請求
+    text: 一　前項の書面の閲覧又は謄写の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-735-2-p3-kou-2
     type: kou
-    text: 前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    text: 二　前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
     modality: unspecified
     item_number: 2
 - number: 4

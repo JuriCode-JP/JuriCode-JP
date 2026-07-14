@@ -43,12 +43,12 @@ paragraphs:
     modality: gimu
   - id: fueihou-art-9-p3-kou-1
     type: kou
-    text: 第五条第一項各号（第三号及び第四号を除く。）に掲げる事項（同項第二号に掲げる事項にあつては、営業所の名称に限る。）に変更があつたとき。
+    text: 一　第五条第一項各号（第三号及び第四号を除く。）に掲げる事項（同項第二号に掲げる事項にあつては、営業所の名称に限る。）に変更があつたとき。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-9-p3-kou-2
     type: kou
-    text: 営業所の構造又は設備につき第一項の軽微な変更をしたとき。
+    text: 二　営業所の構造又は設備につき第一項の軽微な変更をしたとき。
     modality: unspecified
     item_number: 2
 - number: 4

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-57-3-p1-kou-1
     type: kou
-    text: 法第三十七条の二第六項に規定する災害その他やむを得ない理由の生じた日から当該災害その他やむを得ない理由のやんだ日までの間に開始した課税期間であること。
+    text: 一　法第三十七条の二第六項に規定する災害その他やむを得ない理由の生じた日から当該災害その他やむを得ない理由のやんだ日までの間に開始した課税期間であること。
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-57-3-p1-kou-2
     type: kou
-    text: 前号の災害その他やむを得ない理由の生じた日の属する課税期間（法第三十七条の二第六項の承認を受けた課税期間に限る。）の翌課税期間以後の課税期間でないこと。
+    text: 二　前号の災害その他やむを得ない理由の生じた日の属する課税期間（法第三十七条の二第六項の承認を受けた課税期間に限る。）の翌課税期間以後の課税期間でないこと。
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-57-3-p1-kou-3
     type: kou
-    text: 法第三十七条第六項に規定する翌課税期間の初日から同日以後二年を経過する日までの間に開始した課税期間であること。
+    text: 三　法第三十七条第六項に規定する翌課税期間の初日から同日以後二年を経過する日までの間に開始した課税期間であること。
     modality: unspecified
     item_number: 3
 - number: 2

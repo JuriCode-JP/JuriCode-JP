@@ -23,37 +23,37 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-272-p1-kou-1
     type: kou
-    text: 新株予約権の取得
+    text: 一　新株予約権の取得
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-272-p1-kou-2
     type: kou
-    text: 組織変更
+    text: 二　組織変更
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-272-p1-kou-3
     type: kou
-    text: 合併（合併により当該株式会社が消滅する場合に限る。）
+    text: 三　合併（合併により当該株式会社が消滅する場合に限る。）
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-272-p1-kou-4
     type: kou
-    text: 吸収分割
+    text: 四　吸収分割
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-272-p1-kou-5
     type: kou
-    text: 新設分割
+    text: 五　新設分割
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-272-p1-kou-6
     type: kou
-    text: 株式交換
+    text: 六　株式交換
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-272-p1-kou-7
     type: kou
-    text: 株式移転
+    text: 七　株式移転
     modality: unspecified
     item_number: 7
 - number: 2
@@ -77,21 +77,21 @@ paragraphs:
     text: 株式会社が次の各号に掲げる行為をした場合において、前項の債権の弁済期が到来していないときは、登録新株予約権質権者は、当該各号に定める者に同項に規定する金銭等に相当する金額を供託させることができる。この場合において、質権は、その供託金について存在する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-272-p3-kou-1
     type: kou
-    text: 新株予約権の取得　当該株式会社
+    text: 一　新株予約権の取得　当該株式会社
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-272-p3-kou-2
     type: kou
-    text: 組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
+    text: 二　組織変更　第七百四十四条第一項第一号に規定する組織変更後持分会社
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-272-p3-kou-3
     type: kou
-    text: 合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
+    text: 三　合併（合併により当該株式会社が消滅する場合に限る。）　第七百四十九条第一項に規定する吸収合併存続会社又は第七百五十三条第一項に規定する新設合併設立会社
     modality: unspecified
     item_number: 3
 - number: 4

@@ -32,42 +32,42 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-156-7-p2-kou-1
     type: kou
-    text: 前条第一項の業務を行う場合にあつては、その旨
+    text: 一　前条第一項の業務を行う場合にあつては、その旨
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-7-p2-kou-2
     type: kou
-    text: 金融商品債務引受業（前条第一項の業務を行う場合にあつては、金融商品債務引受業等。以下この項、第百五十六条の十及び第百五十六条の十一の二第一項において同じ。）の対象とする債務の起因となる取引
+    text: 二　金融商品債務引受業（前条第一項の業務を行う場合にあつては、金融商品債務引受業等。以下この項、第百五十六条の十及び第百五十六条の十一の二第一項において同じ。）の対象とする債務の起因となる取引
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-7-p2-kou-3
     type: kou
-    text: 金融商品債務引受業の相手方とする者（以下「清算参加者」という。）の要件に関する事項
+    text: 三　金融商品債務引受業の相手方とする者（以下「清算参加者」という。）の要件に関する事項
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-7-p2-kou-4
     type: kou
-    text: 金融商品債務引受業として行う引受け、更改その他の方法による債務の負担及びその履行に関する事項
+    text: 四　金融商品債務引受業として行う引受け、更改その他の方法による債務の負担及びその履行に関する事項
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-156-7-p2-kou-5
     type: kou
-    text: 清算参加者の債務の履行の確保に関する事項
+    text: 五　清算参加者の債務の履行の確保に関する事項
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-156-7-p2-kou-6
     type: kou
-    text: 有価証券等清算取次ぎに関する事項
+    text: 六　有価証券等清算取次ぎに関する事項
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-156-7-p2-kou-7
     type: kou
-    text: 連携金融商品債務引受業務（第百五十六条の二十の十六第一項に規定する連携金融商品債務引受業務をいう。以下この号において同じ。）を行う場合にあつては、連携金融商品債務引受業務に関する事項
+    text: 七　連携金融商品債務引受業務（第百五十六条の二十の十六第一項に規定する連携金融商品債務引受業務をいう。以下この号において同じ。）を行う場合にあつては、連携金融商品債務引受業務に関する事項
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-156-7-p2-kou-8
     type: kou
-    text: その他内閣府令で定める事項
+    text: 八　その他内閣府令で定める事項
     modality: unspecified
     item_number: 8
 cases: []

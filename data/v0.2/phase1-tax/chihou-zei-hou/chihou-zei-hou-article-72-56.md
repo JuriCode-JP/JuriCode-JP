@@ -31,8 +31,8 @@ paragraphs:
     text: 人の代理人、使用人その他の従業者がその人の業務又は財産に関して前項の違反行為をした場合には、その行為者を罰するほか、その人に対し、同項の罰金刑を科する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

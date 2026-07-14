@@ -119,8 +119,8 @@ paragraphs:
     text: 前二項の規定によつて特別土地保有税に係る地方団体の徴収金を還付し、又は充当する場合には、第七項の規定による還付の申請があつた日から起算して十日を経過した日を第十七条の四第一項各号に掲げる日とみなして、同項の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前二項
+    - 同項
 - number: 10
   has_proviso: false
   has_items: false

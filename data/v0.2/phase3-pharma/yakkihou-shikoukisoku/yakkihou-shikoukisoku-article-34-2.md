@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-34-2-p1-kou-1
     type: kou
-    text: 最終製品（他の医薬品、医薬部外品又は化粧品の製造所に出荷されるものを除く。）の保管
+    text: 一　最終製品（他の医薬品、医薬部外品又は化粧品の製造所に出荷されるものを除く。）の保管
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-34-2-p1-kou-2
     type: kou
-    text: 令第八十条第二項第三号イからニまでに掲げる医薬品の製造工程における保管
+    text: 二　令第八十条第二項第三号イからニまでに掲げる医薬品の製造工程における保管
     modality: unspecified
     item_number: 2
 cases: []

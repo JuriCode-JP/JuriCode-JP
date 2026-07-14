@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-464-p1-kou-1
     type: kou
-    text: 製造たばこ　たばこ事業法第二条第三号に規定する製造たばこ（同法第三十八条第二項に規定する製造たばこ代用品を含む。）をいう。
+    text: 一　製造たばこ　たばこ事業法第二条第三号に規定する製造たばこ（同法第三十八条第二項に規定する製造たばこ代用品を含む。）をいう。
     modality: teigi
     item_number: 1
   - id: chihou-zei-hou-art-464-p1-kou-2
     type: kou
-    text: 特定販売業者　たばこ事業法第十四条第一項に規定する特定販売業者をいう。
+    text: 二　特定販売業者　たばこ事業法第十四条第一項に規定する特定販売業者をいう。
     modality: teigi
     item_number: 2
   - id: chihou-zei-hou-art-464-p1-kou-3
     type: kou
-    text: 卸売販売業者　たばこ事業法第九条第一項に規定する卸売販売業者をいう。
+    text: 三　卸売販売業者　たばこ事業法第九条第一項に規定する卸売販売業者をいう。
     modality: teigi
     item_number: 3
   - id: chihou-zei-hou-art-464-p1-kou-4
     type: kou
-    text: 小売販売業者　たばこ事業法第九条第六項に規定する小売販売業者をいう。
+    text: 四　小売販売業者　たばこ事業法第九条第六項に規定する小売販売業者をいう。
     modality: teigi
     item_number: 4
   - id: chihou-zei-hou-art-464-p1-kou-5
     type: kou
-    text: 小売販売業者の営業所　たばこ事業法第二十二条第一項に規定する営業所をいう。
+    text: 五　小売販売業者の営業所　たばこ事業法第二十二条第一項に規定する営業所をいう。
     modality: teigi
     item_number: 5
 - number: 2
@@ -57,27 +57,27 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-464-p2-kou-1
     type: kou
-    text: '喫煙用の製造たばこ
+    text: '一　喫煙用の製造たばこ
 
-      イ 紙巻たばこ
+      イ　紙巻たばこ
 
-      ロ 葉巻たばこ
+      ロ　葉巻たばこ
 
-      ハ パイプたばこ
+      ハ　パイプたばこ
 
-      ニ 刻みたばこ
+      ニ　刻みたばこ
 
-      ホ 加熱式たばこ'
+      ホ　加熱式たばこ'
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-464-p2-kou-2
     type: kou
-    text: かみ用の製造たばこ
+    text: 二　かみ用の製造たばこ
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-464-p2-kou-3
     type: kou
-    text: かぎ用の製造たばこ
+    text: 三　かぎ用の製造たばこ
     modality: unspecified
     item_number: 3
 cases: []

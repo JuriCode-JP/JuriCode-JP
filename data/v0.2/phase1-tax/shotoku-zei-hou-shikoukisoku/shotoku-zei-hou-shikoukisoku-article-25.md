@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-25-p1-kou-1
     type: kou
-    text: 令第百二十一条第四項に規定する申請書を提出する者の氏名及び住所
+    text: 一　令第百二十一条第四項に規定する申請書を提出する者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-25-p1-kou-2
     type: kou
-    text: 令第百二十一条第二項に規定する取替法を採用しようとする年の一月一日（年の中途において事業所得を生ずべき事業を開始した場合には、その日。第二十七条（特別な償却率の認定申請書の記載事項）において同じ。）において見込まれる令第百二十一条第一項の規定の適用を受けようとする減価償却資産の種類ごとの数量並びにその取得価額の合計額及び償却後の価額の合計額
+    text: 二　令第百二十一条第二項に規定する取替法を採用しようとする年の一月一日（年の中途において事業所得を生ずべき事業を開始した場合には、その日。第二十七条（特別な償却率の認定申請書の記載事項）において同じ。）において見込まれる令第百二十一条第一項の規定の適用を受けようとする減価償却資産の種類ごとの数量並びにその取得価額の合計額及び償却後の価額の合計額
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-25-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

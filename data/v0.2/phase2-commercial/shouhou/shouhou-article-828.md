@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: shouhou-art-828-p1-kou-1
     type: kou
-    text: 保険価額（約定保険価額があるときは、当該約定保険価額）
+    text: 一　保険価額（約定保険価額があるときは、当該約定保険価額）
     modality: unspecified
     item_number: 1
   - id: shouhou-art-828-p1-kou-2
     type: kou
-    text: 当該貨物の売却によって得た代価から運送賃その他の費用を控除した額
+    text: 二　当該貨物の売却によって得た代価から運送賃その他の費用を控除した額
     modality: unspecified
     item_number: 2
 cases: []

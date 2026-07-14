@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-690-p1-kou-1
     type: kou
-    text: 当該社債発行会社の社債を取得した場合
+    text: 一　当該社債発行会社の社債を取得した場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-690-p1-kou-2
     type: kou
-    text: 当該社債発行会社が有する自己の社債を処分した場合
+    text: 二　当該社債発行会社が有する自己の社債を処分した場合
     modality: unspecified
     item_number: 2
 - number: 2

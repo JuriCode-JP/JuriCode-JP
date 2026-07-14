@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-art-27-32-p1-kou-1
     type: kou
-    text: 特定投資家向け有価証券の発行者　当該発行者の発行する特定投資家向け有価証券
+    text: 一　特定投資家向け有価証券の発行者　当該発行者の発行する特定投資家向け有価証券
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-27-32-p1-kou-2
     type: kou
-    text: 前条第二項に定めるところにより特定証券情報の提供又は公表をした発行者（前号に掲げるものを除く。）　当該提供又は公表をした特定証券情報に係る有価証券
+    text: 二　前条第二項に定めるところにより特定証券情報の提供又は公表をした発行者（前号に掲げるものを除く。）　当該提供又は公表をした特定証券情報に係る有価証券
     modality: unspecified
     item_number: 2
 - number: 2

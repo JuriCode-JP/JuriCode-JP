@@ -23,27 +23,27 @@ paragraphs:
     modality: unspecified
   - id: chihou-koumuin-hou-art-15-2-p1-kou-1
     type: kou
-    text: 採用　職員以外の者を職員の職に任命すること（臨時的任用を除く。）をいう。
+    text: 一　採用　職員以外の者を職員の職に任命すること（臨時的任用を除く。）をいう。
     modality: teigi
     item_number: 1
   - id: chihou-koumuin-hou-art-15-2-p1-kou-2
     type: kou
-    text: 昇任　職員をその職員が現に任命されている職より上位の職制上の段階に属する職員の職に任命することをいう。
+    text: 二　昇任　職員をその職員が現に任命されている職より上位の職制上の段階に属する職員の職に任命することをいう。
     modality: teigi
     item_number: 2
   - id: chihou-koumuin-hou-art-15-2-p1-kou-3
     type: kou
-    text: 降任　職員をその職員が現に任命されている職より下位の職制上の段階に属する職員の職に任命することをいう。
+    text: 三　降任　職員をその職員が現に任命されている職より下位の職制上の段階に属する職員の職に任命することをいう。
     modality: teigi
     item_number: 3
   - id: chihou-koumuin-hou-art-15-2-p1-kou-4
     type: kou
-    text: 転任　職員をその職員が現に任命されている職以外の職員の職に任命することであつて前二号に定めるものに該当しないものをいう。
+    text: 四　転任　職員をその職員が現に任命されている職以外の職員の職に任命することであつて前二号に定めるものに該当しないものをいう。
     modality: teigi
     item_number: 4
   - id: chihou-koumuin-hou-art-15-2-p1-kou-5
     type: kou
-    text: 標準職務遂行能力　職制上の段階の標準的な職（職員の職に限る。以下同じ。）の職務を遂行する上で発揮することが求められる能力として任命権者が定めるものをいう。
+    text: 五　標準職務遂行能力　職制上の段階の標準的な職（職員の職に限る。以下同じ。）の職務を遂行する上で発揮することが求められる能力として任命権者が定めるものをいう。
     modality: teigi
     item_number: 5
 - number: 2

@@ -32,37 +32,37 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-6-p2-kou-1
     type: kou
-    text: 滞納者の配偶者、直系血族及び兄弟姉妹
+    text: 一　滞納者の配偶者、直系血族及び兄弟姉妹
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-6-p2-kou-2
     type: kou
-    text: 前号に掲げる者以外の滞納者の親族で、滞納者と生計を一にし、又は滞納者から受ける金銭その他の財産により生計を維持しているもの
+    text: 二　前号に掲げる者以外の滞納者の親族で、滞納者と生計を一にし、又は滞納者から受ける金銭その他の財産により生計を維持しているもの
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-6-p2-kou-3
     type: kou
-    text: 前二号に掲げる者以外の滞納者の使用人その他の個人で、滞納者から受ける特別の金銭その他の財産により生計を維持しているもの
+    text: 三　前二号に掲げる者以外の滞納者の使用人その他の個人で、滞納者から受ける特別の金銭その他の財産により生計を維持しているもの
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikkourei-art-6-p2-kou-4
     type: kou
-    text: 滞納者に特別の金銭その他の財産を提供してその生計を維持させている個人（第一号及び第二号に掲げる者を除く。）及びその者と前三号のいずれかに該当する関係がある個人
+    text: 四　滞納者に特別の金銭その他の財産を提供してその生計を維持させている個人（第一号及び第二号に掲げる者を除く。）及びその者と前三号のいずれかに該当する関係がある個人
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikkourei-art-6-p2-kou-5
     type: kou
-    text: 滞納者が同族会社である場合には、その判定の基礎となつた株主又は社員である個人及びその者と前各号のいずれかに該当する関係がある個人
+    text: 五　滞納者が同族会社である場合には、その判定の基礎となつた株主又は社員である個人及びその者と前各号のいずれかに該当する関係がある個人
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikkourei-art-6-p2-kou-6
     type: kou
-    text: 滞納者を判定の基礎として同族会社に該当する会社
+    text: 六　滞納者を判定の基礎として同族会社に該当する会社
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikkourei-art-6-p2-kou-7
     type: kou
-    text: 滞納者が同族会社である場合において、その判定の基礎となつた株主又は社員（これらの者と第一号から第四号までに該当する関係がある個人及びこれらの者を判定の基礎として同族会社に該当する他の会社を含む。）の全部又は一部を判定の基礎として同族会社に該当する他の会社
+    text: 七　滞納者が同族会社である場合において、その判定の基礎となつた株主又は社員（これらの者と第一号から第四号までに該当する関係がある個人及びこれらの者を判定の基礎として同族会社に該当する他の会社を含む。）の全部又は一部を判定の基礎として同族会社に該当する他の会社
     modality: unspecified
     item_number: 7
 cases: []

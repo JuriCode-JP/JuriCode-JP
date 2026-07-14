@@ -32,20 +32,20 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-18-3-p2-kou-1
     type: kou
-    text: '第九号の三様式　次に掲げる項目に記載すべき事項に相当する事項
+    text: '一　第九号の三様式　次に掲げる項目に記載すべき事項に相当する事項
 
-      イ 「第一部　企業情報」の「第２　企業の概況」の「１　主要な経営指標等の推移」及び「２　事業の内容」
+      イ　「第一部　企業情報」の「第２　企業の概況」の「１　主要な経営指標等の推移」及び「２　事業の内容」
 
-      ロ 「第一部　企業情報」の「第３　事業の状況」の「１　事業等のリスク」'
+      ロ　「第一部　企業情報」の「第３　事業の状況」の「１　事業等のリスク」'
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-18-3-p2-kou-2
     type: kou
-    text: '第十号様式　次に掲げる項目に記載すべき事項に相当する事項
+    text: '二　第十号様式　次に掲げる項目に記載すべき事項に相当する事項
 
-      イ 「第一部　企業情報」の「第２　企業の概況」の「１　主要な経営指標等の推移」及び「２　事業の内容」
+      イ　「第一部　企業情報」の「第２　企業の概況」の「１　主要な経営指標等の推移」及び「２　事業の内容」
 
-      ロ 「第一部　企業情報」の「第３　事業の状況」の「２　事業等のリスク」'
+      ロ　「第一部　企業情報」の「第３　事業の状況」の「２　事業等のリスク」'
     modality: unspecified
     item_number: 2
 - number: 3
@@ -71,12 +71,12 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-18-3-p4-kou-1
     type: kou
-    text: 不記載事項（第二項に定める事項を除く。）を日本語又は英語によつて記載したもの
+    text: 一　不記載事項（第二項に定める事項を除く。）を日本語又は英語によつて記載したもの
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-18-3-p4-kou-2
     type: kou
-    text: 発行者情報と当該事項に相当する外国会社半期報告書の記載事項との対照表
+    text: 二　発行者情報と当該事項に相当する外国会社半期報告書の記載事項との対照表
     modality: unspecified
     item_number: 2
 - number: 5

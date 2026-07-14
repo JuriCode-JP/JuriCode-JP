@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-37-14-p1-kou-1
     type: kou
-    text: 当該分割により分割事業（分割法人の分割前に営む事業のうち、当該分割により分割承継法人において営まれることとなるものをいう。以下この条において同じ。）に係る主要な資産及び負債が分割承継法人に移転していること。
+    text: 一　当該分割により分割事業（分割法人の分割前に営む事業のうち、当該分割により分割承継法人において営まれることとなるものをいう。以下この条において同じ。）に係る主要な資産及び負債が分割承継法人に移転していること。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-37-14-p1-kou-2
     type: kou
-    text: 当該分割に係る分割事業が分割承継法人において当該分割後に引き続き営まれることが見込まれていること。
+    text: 二　当該分割に係る分割事業が分割承継法人において当該分割後に引き続き営まれることが見込まれていること。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-37-14-p1-kou-3
     type: kou
-    text: 当該分割の直前の分割事業に係る従業者のうち、その総数のおおむね百分の八十以上に相当する数の者が当該分割後に分割承継法人の業務に従事することが見込まれていること。
+    text: 三　当該分割の直前の分割事業に係る従業者のうち、その総数のおおむね百分の八十以上に相当する数の者が当該分割後に分割承継法人の業務に従事することが見込まれていること。
     modality: unspecified
     item_number: 3
 cases: []

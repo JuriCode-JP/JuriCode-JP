@@ -36,42 +36,42 @@ paragraphs:
     - 前項
   - id: kojin-jouhou-hogo-hou-art-112-p2-kou-1
     type: kou
-    text: 提案をする者の氏名又は名称及び住所又は居所並びに法人その他の団体にあっては、その代表者の氏名
+    text: 一　提案をする者の氏名又は名称及び住所又は居所並びに法人その他の団体にあっては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-112-p2-kou-2
     type: kou
-    text: 提案に係る個人情報ファイルの名称
+    text: 二　提案に係る個人情報ファイルの名称
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-112-p2-kou-3
     type: kou
-    text: 提案に係る行政機関等匿名加工情報の本人の数
+    text: 三　提案に係る行政機関等匿名加工情報の本人の数
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-112-p2-kou-4
     type: kou
-    text: 前号に掲げるもののほか、提案に係る行政機関等匿名加工情報の作成に用いる第百十六条第一項の規定による加工の方法を特定するに足りる事項
+    text: 四　前号に掲げるもののほか、提案に係る行政機関等匿名加工情報の作成に用いる第百十六条第一項の規定による加工の方法を特定するに足りる事項
     modality: unspecified
     item_number: 4
   - id: kojin-jouhou-hogo-hou-art-112-p2-kou-5
     type: kou
-    text: 提案に係る行政機関等匿名加工情報の利用の目的及び方法その他当該行政機関等匿名加工情報がその用に供される事業の内容
+    text: 五　提案に係る行政機関等匿名加工情報の利用の目的及び方法その他当該行政機関等匿名加工情報がその用に供される事業の内容
     modality: unspecified
     item_number: 5
   - id: kojin-jouhou-hogo-hou-art-112-p2-kou-6
     type: kou
-    text: 提案に係る行政機関等匿名加工情報を前号の事業の用に供しようとする期間
+    text: 六　提案に係る行政機関等匿名加工情報を前号の事業の用に供しようとする期間
     modality: unspecified
     item_number: 6
   - id: kojin-jouhou-hogo-hou-art-112-p2-kou-7
     type: kou
-    text: 提案に係る行政機関等匿名加工情報の漏えいの防止その他当該行政機関等匿名加工情報の適切な管理のために講ずる措置
+    text: 七　提案に係る行政機関等匿名加工情報の漏えいの防止その他当該行政機関等匿名加工情報の適切な管理のために講ずる措置
     modality: unspecified
     item_number: 7
   - id: kojin-jouhou-hogo-hou-art-112-p2-kou-8
     type: kou
-    text: 前各号に掲げるもののほか、個人情報保護委員会規則で定める事項
+    text: 八　前各号に掲げるもののほか、個人情報保護委員会規則で定める事項
     modality: unspecified
     item_number: 8
 - number: 3
@@ -87,12 +87,12 @@ paragraphs:
     - 前項
   - id: kojin-jouhou-hogo-hou-art-112-p3-kou-1
     type: kou
-    text: 第一項の提案をする者が次条各号のいずれにも該当しないことを誓約する書面
+    text: 一　第一項の提案をする者が次条各号のいずれにも該当しないことを誓約する書面
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-112-p3-kou-2
     type: kou
-    text: 前項第五号の事業が新たな産業の創出又は活力ある経済社会若しくは豊かな国民生活の実現に資するものであることを明らかにする書面
+    text: 二　前項第五号の事業が新たな産業の創出又は活力ある経済社会若しくは豊かな国民生活の実現に資するものであることを明らかにする書面
     modality: unspecified
     item_number: 2
 cases: []

@@ -31,8 +31,8 @@ paragraphs:
     text: 厚生労働大臣は、前項の登録の申請があつたときは、次条第一項の規定により申請を却下する場合を除き、前項の厚生労働省令で定める事項を原薬等登録原簿に登録するものとする。
     modality: gimu
     references:
-    - 次条
     - 前項
+    - 次条
 - number: 3
   has_proviso: false
   has_items: false

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-46-14-p1-kou-1
     type: kou
-    text: バイオエタノール等揮発油の戻入れ又は移入の数量
+    text: 一　バイオエタノール等揮発油の戻入れ又は移入の数量
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-46-14-p1-kou-2
     type: kou
-    text: バイオエタノール等の製造、移出、消費、戻入れ又は移入の数量
+    text: 二　バイオエタノール等の製造、移出、消費、戻入れ又は移入の数量
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-46-14-p1-kou-3
     type: kou
-    text: バイオエタノール等揮発油の製造見込数量
+    text: 三　バイオエタノール等揮発油の製造見込数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-46-14-p1-kou-4
     type: kou
-    text: その他財務省令で定める事項
+    text: 四　その他財務省令で定める事項
     modality: unspecified
     item_number: 4
 cases: []

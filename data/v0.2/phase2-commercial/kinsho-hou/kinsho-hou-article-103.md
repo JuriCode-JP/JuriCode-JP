@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-103-p1-kou-1
     type: kou
-    text: 取引参加者の法令、法令に基づく行政官庁の処分若しくは定款その他の規則又は取引の信義則の遵守の状況の調査に関する事項
+    text: 一　取引参加者の法令、法令に基づく行政官庁の処分若しくは定款その他の規則又は取引の信義則の遵守の状況の調査に関する事項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-103-p1-kou-2
     type: kou
-    text: 規則の作成に関する事項
+    text: 二　規則の作成に関する事項
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-103-p1-kou-3
     type: kou
-    text: 取引所金融商品市場に関する事項
+    text: 三　取引所金融商品市場に関する事項
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-103-p1-kou-4
     type: kou
-    text: 自主規制委員会を設置する場合にあつては、その旨
+    text: 四　自主規制委員会を設置する場合にあつては、その旨
     modality: unspecified
     item_number: 4
 cases: []

@@ -54,12 +54,12 @@ paragraphs:
     modality: unspecified
   - id: souzoku-zei-hou-art-48-2-p4-kou-1
     type: kou
-    text: 前項の規定により申請の却下がされる日、第六項において準用する第四十二条第十項の規定により申請を取り下げたものとみなされる日又は自ら申請を取り下げる日　これらの日の翌日から起算して一月を経過する日
+    text: 一　前項の規定により申請の却下がされる日、第六項において準用する第四十二条第十項の規定により申請を取り下げたものとみなされる日又は自ら申請を取り下げる日　これらの日の翌日から起算して一月を経過する日
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-art-48-2-p4-kou-2
     type: kou
-    text: 第六項において準用する第四十三条第二項の規定により相続税の納付があつたものとされる日　当該納付があつたものとされる日
+    text: 二　第六項において準用する第四十三条第二項の規定により相続税の納付があつたものとされる日　当該納付があつたものとされる日
     modality: unspecified
     item_number: 2
 - number: 5

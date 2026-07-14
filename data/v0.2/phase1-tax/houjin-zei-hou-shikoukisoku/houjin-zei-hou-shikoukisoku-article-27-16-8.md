@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p1-kou-1
     type: kou
-    text: 法第六十四条の九第二項の申請をする同条第一項に規定する親法人及び同条第二項に規定する他の内国法人（以下この項及び次項において「申請法人」という。）の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　法第六十四条の九第二項の申請をする同条第一項に規定する親法人及び同条第二項に規定する他の内国法人（以下この項及び次項において「申請法人」という。）の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p1-kou-2
     type: kou
-    text: 法第二編第一章第一節第十一款第一目（損益通算及び欠損金の通算）の規定の適用を受けようとする最初の事業年度開始の日及び終了の日
+    text: 二　法第二編第一章第一節第十一款第一目（損益通算及び欠損金の通算）の規定の適用を受けようとする最初の事業年度開始の日及び終了の日
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p1-kou-3
     type: kou
-    text: 第一号の親法人の申請時における発行済株式又は出資の総数又は総額並びにその主要な株主等の氏名又は名称及びその保有する株式又は出資の数又は金額
+    text: 三　第一号の親法人の申請時における発行済株式又は出資の総数又は総額並びにその主要な株主等の氏名又は名称及びその保有する株式又は出資の数又は金額
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p1-kou-4
     type: kou
-    text: 第一号の他の内国法人の申請時における発行済株式又は出資の総数又は総額、当該他の内国法人が有する自己の株式又は出資の数又は金額及び令第百三十一条の十一第二項（通算法人の範囲）の規定により読み替えられた令第四条の二第二項各号（支配関係及び完全支配関係）に掲げる株式の数並びに当該他の内国法人の発行済株式又は出資を保有する申請法人の名称及びその保有する株式又は出資の数又は金額
+    text: 四　第一号の他の内国法人の申請時における発行済株式又は出資の総数又は総額、当該他の内国法人が有する自己の株式又は出資の数又は金額及び令第百三十一条の十一第二項（通算法人の範囲）の規定により読み替えられた令第四条の二第二項各号（支配関係及び完全支配関係）に掲げる株式の数並びに当該他の内国法人の発行済株式又は出資を保有する申請法人の名称及びその保有する株式又は出資の数又は金額
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p1-kou-5
     type: kou
-    text: 申請法人のうち法第六十四条の十第一項（通算制度の取りやめ等）の承認を受けたことがあるものにあつては、当該申請法人の名称及びその承認を受けた日
+    text: 五　申請法人のうち法第六十四条の十第一項（通算制度の取りやめ等）の承認を受けたことがあるものにあつては、当該申請法人の名称及びその承認を受けた日
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p1-kou-6
     type: kou
-    text: 申請法人のうち法第百二十七条第二項（青色申告の承認の取消し）の規定による通知を受けたことがあるものにあつては、当該申請法人の名称及びその通知を受けた日
+    text: 六　申請法人のうち法第百二十七条第二項（青色申告の承認の取消し）の規定による通知を受けたことがあるものにあつては、当該申請法人の名称及びその通知を受けた日
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p1-kou-7
     type: kou
-    text: 申請法人のうち法第百二十八条（青色申告の取りやめ）に規定する届出書の提出をしたことがあるものにあつては、当該申請法人の名称及びその届出書を提出した日
+    text: 七　申請法人のうち法第百二十八条（青色申告の取りやめ）に規定する届出書の提出をしたことがあるものにあつては、当該申請法人の名称及びその届出書を提出した日
     modality: unspecified
     item_number: 7
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p1-kou-8
     type: kou
-    text: その他参考となるべき事項
+    text: 八　その他参考となるべき事項
     modality: unspecified
     item_number: 8
 - number: 2
@@ -72,22 +72,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p2-kou-1
     type: kou
-    text: 法第六十四条の九第八項の書類を提出する同項に規定する親法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　法第六十四条の九第八項の書類を提出する同項に規定する親法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p2-kou-2
     type: kou
-    text: 前号の親法人の設立の日
+    text: 二　前号の親法人の設立の日
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p2-kou-3
     type: kou
-    text: 申請法人のうち、法第六十四条の九第十項第一号に掲げる法人に該当するものがある場合には、その該当する申請法人の名称
+    text: 三　申請法人のうち、法第六十四条の九第十項第一号に掲げる法人に該当するものがある場合には、その該当する申請法人の名称
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p2-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 3
@@ -101,47 +101,47 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p3-kou-1
     type: kou
-    text: 令第百三十一条の十二第三項の通算親法人又は親法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　令第百三十一条の十二第三項の通算親法人又は親法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p3-kou-2
     type: kou
-    text: 令第百三十一条の十二第三項の他の内国法人（以下この項において「他の内国法人」という。）の名称及び納税地並びに代表者の氏名
+    text: 二　令第百三十一条の十二第三項の他の内国法人（以下この項において「他の内国法人」という。）の名称及び納税地並びに代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p3-kou-3
     type: kou
-    text: 令第百三十一条の十二第三項に規定する完全支配関係を有することとなつた日における当該他の内国法人の発行済株式又は出資の総数又は総額、当該他の内国法人が有する自己の株式又は出資の数又は金額及び令第百三十一条の十一第二項の規定により読み替えられた令第四条の二第二項各号に掲げる株式の数並びに当該他の内国法人の発行済株式又は出資を保有する法人の名称及びその保有する株式又は出資の数又は金額
+    text: 三　令第百三十一条の十二第三項に規定する完全支配関係を有することとなつた日における当該他の内国法人の発行済株式又は出資の総数又は総額、当該他の内国法人が有する自己の株式又は出資の数又は金額及び令第百三十一条の十一第二項の規定により読み替えられた令第四条の二第二項各号に掲げる株式の数並びに当該他の内国法人の発行済株式又は出資を保有する法人の名称及びその保有する株式又は出資の数又は金額
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p3-kou-4
     type: kou
-    text: 当該他の内国法人が法第六十四条の十第一項の承認を受けたことがある場合には、その承認を受けた日
+    text: 四　当該他の内国法人が法第六十四条の十第一項の承認を受けたことがある場合には、その承認を受けた日
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p3-kou-5
     type: kou
-    text: 当該他の内国法人が法第百二十七条第二項の規定による通知を受けたことがある場合には、その通知を受けた日
+    text: 五　当該他の内国法人が法第百二十七条第二項の規定による通知を受けたことがある場合には、その通知を受けた日
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p3-kou-6
     type: kou
-    text: 当該他の内国法人が法第百二十八条に規定する届出書の提出をしたことがある場合には、その届出書を提出した日
+    text: 六　当該他の内国法人が法第百二十八条に規定する届出書の提出をしたことがある場合には、その届出書を提出した日
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p3-kou-7
     type: kou
-    text: 当該他の内国法人が法第六十四条の十第六項（第六号に係る部分に限るものとし、その発行済株式又は出資を直接又は間接に保有する通算子法人の破産手続開始の決定による解散に基因して同号に掲げる事実が生じた場合を除く。）の規定により法第六十四条の九第一項の規定による承認の効力を失つたことがある場合には、その効力を失つた日並びにその効力を失つた直前において当該他の内国法人に係る通算親法人であつたものの名称及び納税地
+    text: 七　当該他の内国法人が法第六十四条の十第六項（第六号に係る部分に限るものとし、その発行済株式又は出資を直接又は間接に保有する通算子法人の破産手続開始の決定による解散に基因して同号に掲げる事実が生じた場合を除く。）の規定により法第六十四条の九第一項の規定による承認の効力を失つたことがある場合には、その効力を失つた日並びにその効力を失つた直前において当該他の内国法人に係る通算親法人であつたものの名称及び納税地
     modality: unspecified
     item_number: 7
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p3-kou-8
     type: kou
-    text: 当該他の内国法人が法第十四条第八項（事業年度の特例）の規定の適用を受ける場合には、その旨並びに当該他の内国法人の同項に規定する加入日の前日から同項第一号に規定する特例決算期間の末日までの期間内の日の属する各適用後事業年度（同項の規定を適用するものとした場合における事業年度をいう。）開始の日及び終了の日
+    text: 八　当該他の内国法人が法第十四条第八項（事業年度の特例）の規定の適用を受ける場合には、その旨並びに当該他の内国法人の同項に規定する加入日の前日から同項第一号に規定する特例決算期間の末日までの期間内の日の属する各適用後事業年度（同項の規定を適用するものとした場合における事業年度をいう。）開始の日及び終了の日
     modality: unspecified
     item_number: 8
   - id: houjin-zei-hou-shikoukisoku-art-27-16-8-p3-kou-9
     type: kou
-    text: その他参考となるべき事項
+    text: 九　その他参考となるべき事項
     modality: unspecified
     item_number: 9
 cases: []

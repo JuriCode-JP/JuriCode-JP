@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-310-p1-kou-1
     type: kou
-    text: 法人、当該法人が発行する有価証券又は当該法人に対する債権の信用状態に関する評価が信用格付の対象となる事項である場合における当該法人の組織形態並びに主要な資産及び負債の構成
+    text: 一　法人、当該法人が発行する有価証券又は当該法人に対する債権の信用状態に関する評価が信用格付の対象となる事項である場合における当該法人の組織形態並びに主要な資産及び負債の構成
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-310-p1-kou-2
     type: kou
-    text: 金融商品又は法人の信用状態に関する評価が信用格付の対象となる事項である場合における当該金融商品又は当該法人の設計に関する重要な事項
+    text: 二　金融商品又は法人の信用状態に関する評価が信用格付の対象となる事項である場合における当該金融商品又は当該法人の設計に関する重要な事項
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-208-4-p1-kou-1
     type: kou
-    text: 資本金の額又は出資の総額
+    text: 一　資本金の額又は出資の総額
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-208-4-p1-kou-2
     type: kou
-    text: 本店又は主たる事務所（外国会社にあっては、国内に事務所があるときは、国内における主たる事務所を含む。）の名称及び所在地
+    text: 二　本店又は主たる事務所（外国会社にあっては、国内に事務所があるときは、国内における主たる事務所を含む。）の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-208-4-p1-kou-3
     type: kou
-    text: 事業の内容
+    text: 三　事業の内容
     modality: unspecified
     item_number: 3
 cases: []

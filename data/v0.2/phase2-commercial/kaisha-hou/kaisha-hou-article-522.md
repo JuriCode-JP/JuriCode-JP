@@ -23,32 +23,32 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-522-p1-kou-1
     type: kou
-    text: 特別清算開始に至った事情
+    text: 一　特別清算開始に至った事情
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-522-p1-kou-2
     type: kou
-    text: 清算株式会社の業務及び財産の状況
+    text: 二　清算株式会社の業務及び財産の状況
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-522-p1-kou-3
     type: kou
-    text: 第五百四十条第一項の規定による保全処分をする必要があるかどうか。
+    text: 三　第五百四十条第一項の規定による保全処分をする必要があるかどうか。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-522-p1-kou-4
     type: kou
-    text: 第五百四十二条第一項の規定による保全処分をする必要があるかどうか。
+    text: 四　第五百四十二条第一項の規定による保全処分をする必要があるかどうか。
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-522-p1-kou-5
     type: kou
-    text: 第五百四十五条第一項に規定する役員等責任査定決定をする必要があるかどうか。
+    text: 五　第五百四十五条第一項に規定する役員等責任査定決定をする必要があるかどうか。
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-522-p1-kou-6
     type: kou
-    text: その他特別清算に必要な事項で裁判所の指定するもの
+    text: 六　その他特別清算に必要な事項で裁判所の指定するもの
     modality: unspecified
     item_number: 6
 - number: 2

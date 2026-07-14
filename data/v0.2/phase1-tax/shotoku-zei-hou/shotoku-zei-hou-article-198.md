@@ -45,8 +45,8 @@ paragraphs:
     text: 前項の規定の適用がある場合における第一項の規定の適用については、同項中「申告書が」とあるのは「申告書に記載すべき事項を」と、「支払者に受理されたとき」とあるのは「支払者が提供を受けたとき」と、「受理された日」とあるのは「提供を受けた日」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: true
   has_items: true
@@ -61,17 +61,17 @@ paragraphs:
     - 第一項
   - id: shotoku-zei-hou-art-198-p4-kou-1
     type: kou
-    text: 扶養控除等申告書
+    text: 一　扶養控除等申告書
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-198-p4-kou-2
     type: kou
-    text: 退職所得の受給に関する申告書
+    text: 二　退職所得の受給に関する申告書
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-198-p4-kou-3
     type: kou
-    text: 公的年金等の受給者の扶養親族等申告書
+    text: 三　公的年金等の受給者の扶養親族等申告書
     modality: unspecified
     item_number: 3
 - number: 5

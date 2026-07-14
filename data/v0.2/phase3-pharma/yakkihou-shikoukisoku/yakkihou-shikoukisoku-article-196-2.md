@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-196-2-p2-kou-1
     type: kou
-    text: 営業所の名称及び所在地
+    text: 一　営業所の名称及び所在地
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-196-2-p2-kou-2
     type: kou
-    text: 再生医療等製品営業所管理者の住所及び資格
+    text: 二　再生医療等製品営業所管理者の住所及び資格
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-196-2-p2-kou-3
     type: kou
-    text: 兼営事業の種類
+    text: 三　兼営事業の種類
     modality: unspecified
     item_number: 3
 - number: 3
@@ -56,22 +56,22 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-196-2-p3-kou-1
     type: kou
-    text: 営業所の平面図
+    text: 一　営業所の平面図
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-196-2-p3-kou-2
     type: kou
-    text: 法人にあつては、登記事項証明書
+    text: 二　法人にあつては、登記事項証明書
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-196-2-p3-kou-3
     type: kou
-    text: 申請者以外の者がその再生医療等製品営業所管理者である場合にあつては、当該再生医療等製品営業所管理者の雇用契約書の写しその他申請者の当該再生医療等製品営業所管理者に対する使用関係を証する書類
+    text: 三　申請者以外の者がその再生医療等製品営業所管理者である場合にあつては、当該再生医療等製品営業所管理者の雇用契約書の写しその他申請者の当該再生医療等製品営業所管理者に対する使用関係を証する書類
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-196-2-p3-kou-4
     type: kou
-    text: 申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
+    text: 四　申請者（申請者が法人であるときは、薬事に関する業務に責任を有する役員）が精神の機能の障害により業務を適正に行うに当たつて必要な認知、判断及び意思疎通を適切に行うことができないおそれがある者である場合は、当該申請者に係る精神の機能の障害に関する医師の診断書
     modality: unspecified
     item_number: 4
 - number: 4

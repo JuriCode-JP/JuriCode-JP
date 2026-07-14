@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の場合には、親権を行う者（子の監護をすべき者を除く。）は、子の監護をすべき者が同項後段の規定による行為をすることを妨げてはならない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

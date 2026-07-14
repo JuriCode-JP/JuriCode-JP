@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-shikkourei-art-43-5-p1-kou-1
     type: kou
-    text: 法第百三条の三第一項及び第百六条の十五の規定による届出の受理
+    text: 一　法第百三条の三第一項及び第百六条の十五の規定による届出の受理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-43-5-p1-kou-2
     type: kou
-    text: 法第百三条の四、第百六条の六第一項（同条第二項において準用する場合を含む。）、第百六条の十六及び第百六条の二十第一項（同条第二項において準用する場合を含む。）の規定による報告及び資料の提出の命令並びに検査（第三十八条の二第二項の規定により委員会に委任されたものを除く。）
+    text: 二　法第百三条の四、第百六条の六第一項（同条第二項において準用する場合を含む。）、第百六条の十六及び第百六条の二十第一項（同条第二項において準用する場合を含む。）の規定による報告及び資料の提出の命令並びに検査（第三十八条の二第二項の規定により委員会に委任されたものを除く。）
     modality: unspecified
     item_number: 2
 - number: 2

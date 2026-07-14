@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-25-p1-kou-1
     type: kou
-    text: 次節から第八節までに規定するところにより、発起人が設立時発行株式（株式会社の設立に際して発行する株式をいう。以下同じ。）の全部を引き受ける方法
+    text: 一　次節から第八節までに規定するところにより、発起人が設立時発行株式（株式会社の設立に際して発行する株式をいう。以下同じ。）の全部を引き受ける方法
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-25-p1-kou-2
     type: kou
-    text: 次節、第三節、第三十九条及び第六節から第九節までに規定するところにより、発起人が設立時発行株式を引き受けるほか、設立時発行株式を引き受ける者の募集をする方法
+    text: 二　次節、第三節、第三十九条及び第六節から第九節までに規定するところにより、発起人が設立時発行株式を引き受けるほか、設立時発行株式を引き受ける者の募集をする方法
     modality: unspecified
     item_number: 2
 - number: 2

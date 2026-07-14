@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: sochi-hou-art-29-p1-kou-1
     type: kou
-    text: 公式参加者（日本国政府からの二千二十七年国際園芸博覧会への参加の公式の招請を受け入れた外国又は国際機関（外国法人に限る。）をいう。次号及び第三号において同じ。）に勤務する者
+    text: 一　公式参加者（日本国政府からの二千二十七年国際園芸博覧会への参加の公式の招請を受け入れた外国又は国際機関（外国法人に限る。）をいう。次号及び第三号において同じ。）に勤務する者
     modality: unspecified
     item_number: 1
   - id: sochi-hou-art-29-p1-kou-2
     type: kou
-    text: 公式参加者の博覧会関連業務を行う外国法人で財務省令で定めるものに勤務する者
+    text: 二　公式参加者の博覧会関連業務を行う外国法人で財務省令で定めるものに勤務する者
     modality: unspecified
     item_number: 2
   - id: sochi-hou-art-29-p1-kou-3
     type: kou
-    text: 公式参加者が当該公式参加者の二千二十七年国際園芸博覧会の会場における展示について責任を有することその他の政令で定める任務のために任命する者又はその者の当該任務に係る事務の代理をする者
+    text: 三　公式参加者が当該公式参加者の二千二十七年国際園芸博覧会の会場における展示について責任を有することその他の政令で定める任務のために任命する者又はその者の当該任務に係る事務の代理をする者
     modality: unspecified
     item_number: 3
   - id: sochi-hou-art-29-p1-kou-4
     type: kou
-    text: 博覧会国際事務局の事務局長又は博覧会国際事務局の事務局の職員
+    text: 四　博覧会国際事務局の事務局長又は博覧会国際事務局の事務局の職員
     modality: unspecified
     item_number: 4
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu_negative
   - id: dokusen-kinshi-hou-art-15-3-p1-kou-1
     type: kou
-    text: 当該共同株式移転によつて一定の取引分野における競争を実質的に制限することとなる場合
+    text: 一　当該共同株式移転によつて一定の取引分野における競争を実質的に制限することとなる場合
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-15-3-p1-kou-2
     type: kou
-    text: 当該共同株式移転が不公正な取引方法によるものである場合
+    text: 二　当該共同株式移転が不公正な取引方法によるものである場合
     modality: unspecified
     item_number: 2
 - number: 2

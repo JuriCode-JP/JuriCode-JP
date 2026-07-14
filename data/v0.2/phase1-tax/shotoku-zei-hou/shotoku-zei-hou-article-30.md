@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-art-30-p2-kou-1
     type: kou
-    text: 当該退職手当等の収入金額から退職所得控除額を控除した残額が三百万円以下である場合　当該残額の二分の一に相当する金額
+    text: 一　当該退職手当等の収入金額から退職所得控除額を控除した残額が三百万円以下である場合　当該残額の二分の一に相当する金額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-30-p2-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　百五十万円と当該退職手当等の収入金額から三百万円に退職所得控除額を加算した金額を控除した残額との合計額
+    text: 二　前号に掲げる場合以外の場合　百五十万円と当該退職手当等の収入金額から三百万円に退職所得控除額を加算した金額を控除した残額との合計額
     modality: unspecified
     item_number: 2
 - number: 3
@@ -53,12 +53,12 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-art-30-p3-kou-1
     type: kou
-    text: 政令で定める勤続年数（以下この項及び第七項において「勤続年数」という。）が二十年以下である場合　四十万円に当該勤続年数を乗じて計算した金額
+    text: 一　政令で定める勤続年数（以下この項及び第七項において「勤続年数」という。）が二十年以下である場合　四十万円に当該勤続年数を乗じて計算した金額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-30-p3-kou-2
     type: kou
-    text: 勤続年数が二十年を超える場合　八百万円と七十万円に当該勤続年数から二十年を控除した年数を乗じて計算した金額との合計額
+    text: 二　勤続年数が二十年を超える場合　八百万円と七十万円に当該勤続年数から二十年を控除した年数を乗じて計算した金額との合計額
     modality: unspecified
     item_number: 2
 - number: 4
@@ -84,17 +84,17 @@ paragraphs:
     modality: teigi
   - id: shotoku-zei-hou-art-30-p5-kou-1
     type: kou
-    text: 法人税法第二条第十五号（定義）に規定する役員
+    text: 一　法人税法第二条第十五号（定義）に規定する役員
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-30-p5-kou-2
     type: kou
-    text: 国会議員及び地方公共団体の議会の議員
+    text: 二　国会議員及び地方公共団体の議会の議員
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-30-p5-kou-3
     type: kou
-    text: 国家公務員及び地方公務員
+    text: 三　国家公務員及び地方公務員
     modality: unspecified
     item_number: 3
 - number: 6
@@ -111,17 +111,17 @@ paragraphs:
     - 第三項
   - id: shotoku-zei-hou-art-30-p6-kou-1
     type: kou
-    text: その年の前年以前に他の退職手当等の支払を受けている場合で政令で定める場合　第三項の規定により計算した金額から、当該他の退職手当等につき政令で定めるところにより同項の規定に準じて計算した金額を控除した金額
+    text: 一　その年の前年以前に他の退職手当等の支払を受けている場合で政令で定める場合　第三項の規定により計算した金額から、当該他の退職手当等につき政令で定めるところにより同項の規定に準じて計算した金額を控除した金額
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-30-p6-kou-2
     type: kou
-    text: 第三項及び前号の規定により計算した金額が八十万円に満たない場合（次号に該当する場合を除く。）　八十万円
+    text: 二　第三項及び前号の規定により計算した金額が八十万円に満たない場合（次号に該当する場合を除く。）　八十万円
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-art-30-p6-kou-3
     type: kou
-    text: 障害者になつたことに直接基因して退職したと認められる場合で政令で定める場合　第三項及び第一号の規定により計算した金額（当該金額が八十万円に満たない場合には、八十万円）に百万円を加算した金額
+    text: 三　障害者になつたことに直接基因して退職したと認められる場合で政令で定める場合　第三項及び第一号の規定により計算した金額（当該金額が八十万円に満たない場合には、八十万円）に百万円を加算した金額
     modality: unspecified
     item_number: 3
 - number: 7

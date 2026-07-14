@@ -28,12 +28,12 @@ paragraphs:
     - 前条
   - id: jouhou-koukai-hou-art-11-p1-kou-1
     type: kou
-    text: 本条を適用する旨及びその理由
+    text: 一　本条を適用する旨及びその理由
     modality: unspecified
     item_number: 1
   - id: jouhou-koukai-hou-art-11-p1-kou-2
     type: kou
-    text: 残りの行政文書について開示決定等をする期限
+    text: 二　残りの行政文書について開示決定等をする期限
     modality: unspecified
     item_number: 2
 cases: []

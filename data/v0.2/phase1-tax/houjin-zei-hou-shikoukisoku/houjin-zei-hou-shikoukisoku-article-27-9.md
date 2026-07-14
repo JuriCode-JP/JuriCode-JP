@@ -44,8 +44,8 @@ paragraphs:
     text: 令第百二十一条の六第一項第一号（時価ヘッジ処理における売買目的外有価証券の評価額と円換算額等）に規定する財務省令で定めるところにより帳簿書類に記載した場合は、そのデリバティブ取引等を行つた日において前項に規定する帳簿書類に、同号に規定する旨及びそのデリバディブ取引等によつて減少させようとするその損失の基因となる同号に規定する特定事由を記載した場合とし、令第百二十一条の七第二項に規定する財務省令で定めるところにより帳簿書類に記載した場合は、そのデリバティブ取引等を行つた日において、当該帳簿書類に同項に規定する旨及びそのデリバディブ取引等によつて減少させようとするその損失の基因となる同項に規定する特定事由を記載した場合とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: true
@@ -57,22 +57,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p4-kou-1
     type: kou
-    text: 届出をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　届出をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p4-kou-2
     type: kou
-    text: 令第百二十一条の九の二第一項に規定する変動差額比較法（次項第二号において「変動差額比較法」という。）により令第百二十一条の七第一項に規定する有効性判定（次項第二号において「有効性判定」という。）を行おうとする令第百二十一条の九の二第一項に規定するオプション取引の種類及びそのオプション取引によりヘッジ対象有価証券損失額を減少させようとする法第六十一条の七第一項に規定する売買目的外有価証券の範囲
+    text: 二　令第百二十一条の九の二第一項に規定する変動差額比較法（次項第二号において「変動差額比較法」という。）により令第百二十一条の七第一項に規定する有効性判定（次項第二号において「有効性判定」という。）を行おうとする令第百二十一条の九の二第一項に規定するオプション取引の種類及びそのオプション取引によりヘッジ対象有価証券損失額を減少させようとする法第六十一条の七第一項に規定する売買目的外有価証券の範囲
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p4-kou-3
     type: kou
-    text: 令第百二十一条の九の二第一項の規定の適用を受けようとする最初の事業年度開始の日及び終了の日
+    text: 三　令第百二十一条の九の二第一項の規定の適用を受けようとする最初の事業年度開始の日及び終了の日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p4-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 5
@@ -86,17 +86,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p5-kou-1
     type: kou
-    text: 届出をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　届出をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p5-kou-2
     type: kou
-    text: 変動差額比較法により有効性判定を行うことをやめようとする旨並びにそのやめようとする前項第二号のオプション取引の種類及び売買目的外有価証券の範囲
+    text: 二　変動差額比較法により有効性判定を行うことをやめようとする旨並びにそのやめようとする前項第二号のオプション取引の種類及び売買目的外有価証券の範囲
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p5-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 6
@@ -110,22 +110,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p6-kou-1
     type: kou
-    text: 申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　申請をする内国法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p6-kou-2
     type: kou
-    text: 令第百二十一条の八（時価ヘッジ処理に係るヘッジが有効であると認められる場合）（令第百二十一条の九の二第四項の規定により読み替えて適用する場合を含む。）に規定する場合に代えて、その採用しようとする場合をもつてそのヘッジ対象有価証券損失額を減少させるために有効であると認められる場合とする旨
+    text: 二　令第百二十一条の八（時価ヘッジ処理に係るヘッジが有効であると認められる場合）（令第百二十一条の九の二第四項の規定により読み替えて適用する場合を含む。）に規定する場合に代えて、その採用しようとする場合をもつてそのヘッジ対象有価証券損失額を減少させるために有効であると認められる場合とする旨
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p6-kou-3
     type: kou
-    text: 令第百二十一条の九（売買目的外有価証券の含み損益のうちデリバティブ取引等に係る利益額又は損失額に対応する部分の金額）（令第百二十一条の九の二第四項の規定により読み替えて適用する場合を含む。）の規定により計算した金額に代えて、その採用しようとする方法により計算した金額をもつて法第六十一条の六第一項（繰延ヘッジ処理による利益額又は損失額の繰延べ）に規定する利益額又は損失額に対応する部分の金額とする旨
+    text: 三　令第百二十一条の九（売買目的外有価証券の含み損益のうちデリバティブ取引等に係る利益額又は損失額に対応する部分の金額）（令第百二十一条の九の二第四項の規定により読み替えて適用する場合を含む。）の規定により計算した金額に代えて、その採用しようとする方法により計算した金額をもつて法第六十一条の六第一項（繰延ヘッジ処理による利益額又は損失額の繰延べ）に規定する利益額又は損失額に対応する部分の金額とする旨
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-27-9-p6-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 cases: []

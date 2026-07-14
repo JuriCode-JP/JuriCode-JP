@@ -55,8 +55,8 @@ paragraphs:
     text: 前項の規定により第二項の違反行為につき法人又は人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

@@ -25,17 +25,17 @@ paragraphs:
     - 次項
   - id: houjin-zei-hou-shikkourei-art-154-p1-kou-1
     type: kou
-    text: 当該還付金の計算の基礎とされた中間納付額に係る事業年度の所得に対する法人税で修正申告書の提出又は更正により納付すべきもの（中間納付額を除く。）があるときは、当該法人税に充当する。
+    text: 一　当該還付金の計算の基礎とされた中間納付額に係る事業年度の所得に対する法人税で修正申告書の提出又は更正により納付すべきもの（中間納付額を除く。）があるときは、当該法人税に充当する。
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-154-p1-kou-2
     type: kou
-    text: 前号の充当をしてもなお還付すべき金額がある場合において、同号に規定する中間納付額で未納のものがあるときは、当該未納の中間納付額に充当する。
+    text: 二　前号の充当をしてもなお還付すべき金額がある場合において、同号に規定する中間納付額で未納のものがあるときは、当該未納の中間納付額に充当する。
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-154-p1-kou-3
     type: kou
-    text: 前二号の充当をしてもなお還付すべき金額があるときは、その他の未納の国税及び滞納処分費に充当する。
+    text: 三　前二号の充当をしてもなお還付すべき金額があるときは、その他の未納の国税及び滞納処分費に充当する。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,12 +49,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-154-p2-kou-1
     type: kou
-    text: 第百五十二条第一号（還付すべき所得税額等の充当の順序）に規定する法人税に充当する場合　法第七十八条第一項の規定による還付金
+    text: 一　第百五十二条第一号（還付すべき所得税額等の充当の順序）に規定する法人税に充当する場合　法第七十八条第一項の規定による還付金
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-154-p2-kou-2
     type: kou
-    text: 中間納付額に充当する場合　法第七十九条第一項又は第二項の規定による還付金
+    text: 二　中間納付額に充当する場合　法第七十九条第一項又は第二項の規定による還付金
     modality: unspecified
     item_number: 2
 cases: []

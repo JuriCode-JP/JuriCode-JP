@@ -23,17 +23,17 @@ paragraphs:
     modality: kanou_kenri
   - id: houjin-zei-hou-art-132-2-p1-kou-1
     type: kou
-    text: 合併等をした法人又は合併等により資産及び負債の移転を受けた法人
+    text: 一　合併等をした法人又は合併等により資産及び負債の移転を受けた法人
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-132-2-p1-kou-2
     type: kou
-    text: 合併等により交付された株式を発行した法人（前号に掲げる法人を除く。）
+    text: 二　合併等により交付された株式を発行した法人（前号に掲げる法人を除く。）
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-132-2-p1-kou-3
     type: kou
-    text: 前二号に掲げる法人の株主等である法人（前二号に掲げる法人を除く。）
+    text: 三　前二号に掲げる法人の株主等である法人（前二号に掲げる法人を除く。）
     modality: unspecified
     item_number: 3
 cases: []

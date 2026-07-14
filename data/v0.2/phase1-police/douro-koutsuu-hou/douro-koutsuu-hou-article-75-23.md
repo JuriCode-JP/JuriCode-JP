@@ -87,8 +87,12 @@ paragraphs:
     applies_provisions:
     - 第七十三条
     references:
-    - 同項
     - 前条
+    - 同項
+  - id: douro-koutsuu-hou-art-75-23-supplnote-1
+    type: supplnote
+    text: （罰則　第一項前段及び第三項前段については第百十七条第三項、第百十七条の五第二項、第百二十三条　第一項後段及び第三項後段については第百十九条第二項第六号、第百二十三条　第二項については第百十七条の五第二項、第百二十三条　第四項については第百二十条第二項第四号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

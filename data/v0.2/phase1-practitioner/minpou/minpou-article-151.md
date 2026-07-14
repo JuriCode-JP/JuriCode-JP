@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-151-p1-kou-1
     type: kou
-    text: その合意があった時から一年を経過した時
+    text: 一　その合意があった時から一年を経過した時
     modality: unspecified
     item_number: 1
   - id: minpou-art-151-p1-kou-2
     type: kou
-    text: その合意において当事者が協議を行う期間（一年に満たないものに限る。）を定めたときは、その期間を経過した時
+    text: 二　その合意において当事者が協議を行う期間（一年に満たないものに限る。）を定めたときは、その期間を経過した時
     modality: unspecified
     item_number: 2
   - id: minpou-art-151-p1-kou-3
     type: kou
-    text: 当事者の一方から相手方に対して協議の続行を拒絶する旨の通知が書面でされたときは、その通知の時から六箇月を経過した時
+    text: 三　当事者の一方から相手方に対して協議の続行を拒絶する旨の通知が書面でされたときは、その通知の時から六箇月を経過した時
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 前項の規定により時効の完成が猶予されている間にされた再度の同項の合意は、同項の規定による時効の完成猶予の効力を有する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: minpou-art-151-p2-tadashi
     type: tadashi
     text: ただし、その効力は、時効の完成が猶予されなかったとすれば時効が完成すべき時から通じて五年を超えることができない。

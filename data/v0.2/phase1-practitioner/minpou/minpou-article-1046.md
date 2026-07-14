@@ -32,17 +32,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-1046-p2-kou-1
     type: kou
-    text: 遺留分権利者が受けた遺贈又は第九百三条第一項に規定する贈与の価額
+    text: 一　遺留分権利者が受けた遺贈又は第九百三条第一項に規定する贈与の価額
     modality: unspecified
     item_number: 1
   - id: minpou-art-1046-p2-kou-2
     type: kou
-    text: 第九百条から第九百二条まで、第九百三条及び第九百四条の規定により算定した相続分に応じて遺留分権利者が取得すべき遺産の価額
+    text: 二　第九百条から第九百二条まで、第九百三条及び第九百四条の規定により算定した相続分に応じて遺留分権利者が取得すべき遺産の価額
     modality: unspecified
     item_number: 2
   - id: minpou-art-1046-p2-kou-3
     type: kou
-    text: 被相続人が相続開始の時において有した債務のうち、第八百九十九条の規定により遺留分権利者が承継する債務（次条第三項において「遺留分権利者承継債務」という。）の額
+    text: 三　被相続人が相続開始の時において有した債務のうち、第八百九十九条の規定により遺留分権利者が承継する債務（次条第三項において「遺留分権利者承継債務」という。）の額
     modality: unspecified
     item_number: 3
 cases: []

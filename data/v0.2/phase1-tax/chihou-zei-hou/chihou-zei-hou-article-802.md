@@ -23,42 +23,42 @@ paragraphs:
     modality: gimu_kei
   - id: chihou-zei-hou-art-802-p1-kou-1
     type: kou
-    text: 第七百六十五条第二項の規定に違反して定款の変更の認可を受けなかつたとき。
+    text: 一　第七百六十五条第二項の規定に違反して定款の変更の認可を受けなかつたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-802-p1-kou-2
     type: kou
-    text: 第七百六十六条第一項の規定に違反して登記をすることを怠つたとき。
+    text: 二　第七百六十六条第一項の規定に違反して登記をすることを怠つたとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-802-p1-kou-3
     type: kou
-    text: 第七百七十三条第三項、第七百七十六条第四項、第七百八十三条第一項又は第七百九十二条第二項の規定による届出をせず、又は虚偽の届出をしたとき。
+    text: 三　第七百七十三条第三項、第七百七十六条第四項、第七百八十三条第一項又は第七百九十二条第二項の規定による届出をせず、又は虚偽の届出をしたとき。
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-802-p1-kou-4
     type: kou
-    text: 第七百八十二条に規定する業務以外の業務を行つたとき。
+    text: 四　第七百八十二条に規定する業務以外の業務を行つたとき。
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-802-p1-kou-5
     type: kou
-    text: 第七百八十三条第三項又は第七百九十二条第三項の規定による公表をせず、又は虚偽の公表をしたとき。
+    text: 五　第七百八十三条第三項又は第七百九十二条第三項の規定による公表をせず、又は虚偽の公表をしたとき。
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-802-p1-kou-6
     type: kou
-    text: 第七百九十三条第一項又は第二項の規定に違反して、これらの規定に規定する書類の提出をせず、又はこれらの書類に記載すべき事項を記載せず、若しくは虚偽の記載をしてこれらの書類を提出したとき。
+    text: 六　第七百九十三条第一項又は第二項の規定に違反して、これらの規定に規定する書類の提出をせず、又はこれらの書類に記載すべき事項を記載せず、若しくは虚偽の記載をしてこれらの書類を提出したとき。
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-art-802-p1-kou-7
     type: kou
-    text: 第七百九十三条第三項の規定に違反して、財務諸表の公告をせず、又は同項に規定する書類を備え置かず、若しくは縦覧に供しなかつたとき。
+    text: 七　第七百九十三条第三項の規定に違反して、財務諸表の公告をせず、又は同項に規定する書類を備え置かず、若しくは縦覧に供しなかつたとき。
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-art-802-p1-kou-8
     type: kou
-    text: 第七百九十七条第二項の規定による報告をせず、又は虚偽の報告をしたとき。
+    text: 八　第七百九十七条第二項の規定による報告をせず、又は虚偽の報告をしたとき。
     modality: unspecified
     item_number: 8
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-8-p1-kou-1
     type: kou
-    text: 人口五万以上を有すること。
+    text: 一　人口五万以上を有すること。
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-8-p1-kou-2
     type: kou
-    text: 当該普通地方公共団体の中心の市街地を形成している区域内に在る戸数が、全戸数の六割以上であること。
+    text: 二　当該普通地方公共団体の中心の市街地を形成している区域内に在る戸数が、全戸数の六割以上であること。
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-8-p1-kou-3
     type: kou
-    text: 商工業その他の都市的業態に従事する者及びその者と同一世帯に属する者の数が、全人口の六割以上であること。
+    text: 三　商工業その他の都市的業態に従事する者及びその者と同一世帯に属する者の数が、全人口の六割以上であること。
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-8-p1-kou-4
     type: kou
-    text: 前各号に定めるものの外、当該都道府県の条例で定める都市的施設その他の都市としての要件を具えていること。
+    text: 四　前各号に定めるものの外、当該都道府県の条例で定める都市的施設その他の都市としての要件を具えていること。
     modality: unspecified
     item_number: 4
 - number: 2

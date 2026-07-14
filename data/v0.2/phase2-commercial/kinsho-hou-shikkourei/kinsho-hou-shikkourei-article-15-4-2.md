@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-4-2-p1-kou-1
     type: kou
-    text: 当該登録申請者の役員（法第二十九条の二第一項第三号に規定する役員をいい、役員が法人であるときは、その職務を行うべき社員を含む。第十六条の十第二号及び第十八条の二第二号において同じ。）又は使用人
+    text: 一　当該登録申請者の役員（法第二十九条の二第一項第三号に規定する役員をいい、役員が法人であるときは、その職務を行うべき社員を含む。第十六条の十第二号及び第十八条の二第二号において同じ。）又は使用人
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-4-2-p1-kou-2
     type: kou
-    text: 当該登録申請者の親法人等（法第三十一条の四第三項に規定する親法人等をいう。以下同じ。）又は子法人等（同条第四項に規定する子法人等をいう。以下同じ。）
+    text: 二　当該登録申請者の親法人等（法第三十一条の四第三項に規定する親法人等をいう。以下同じ。）又は子法人等（同条第四項に規定する子法人等をいう。以下同じ。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-15-4-2-p1-kou-3
     type: kou
-    text: 当該登録申請者の特定個人株主（総株主等の議決権の百分の五十を超える議決権を保有する個人をいう。以下同じ。）（第一号に掲げる者を除く。）
+    text: 三　当該登録申請者の特定個人株主（総株主等の議決権の百分の五十を超える議決権を保有する個人をいう。以下同じ。）（第一号に掲げる者を除く。）
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-15-4-2-p1-kou-4
     type: kou
-    text: 前三号に掲げる者に準ずる者として内閣府令で定める者
+    text: 四　前三号に掲げる者に準ずる者として内閣府令で定める者
     modality: unspecified
     item_number: 4
 cases: []

@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\325CO0000000245.xml",
   "source_xml_sha256": "0d8d042bf96f544a2753681b4c6fbe4f7be49468fc70d1a98a4eaa3bb97f2782",
   "source_xml_bytes": 7514701,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:09+00:00",
+  "parsed_at": "2026-07-14T01:44:09+00:00",
   "version_date": "1950-07-31",
   "article_count": 844,
   "articles": [
@@ -34,8 +34,8 @@
       "article_id": "chihou-zei-hou-shikkourei-art-1-4",
       "article_number": "1-4",
       "filename": "chihou-zei-hou-shikkourei-article-1-4.md",
-      "ja_text_sha256": "544fdcefe0c803156d5fde69555ff4fc75d56229baae7dfe83a7a3873e95f554",
-      "ja_text_bytes": 648,
+      "ja_text_sha256": "46160d62bb6f622af2efebfe3877534569c58117d66049ec4b450011065bd652",
+      "ja_text_bytes": 642,
       "paragraph_count": 1
     },
     {
@@ -1226,16 +1226,16 @@
       "article_id": "chihou-zei-hou-shikkourei-art-36-2",
       "article_number": "36-2",
       "filename": "chihou-zei-hou-shikkourei-article-36-2.md",
-      "ja_text_sha256": "ef2fa8902072fbf098c34a55b0f4e14aeeb3f9586d75a4f15e97f47d32cb372d",
-      "ja_text_bytes": 483,
+      "ja_text_sha256": "5b68fa8a911d6e47ce3fe033a241fd2b0696214f1b7538347eaa8fc7b78f71da",
+      "ja_text_bytes": 477,
       "paragraph_count": 1
     },
     {
       "article_id": "chihou-zei-hou-shikkourei-art-36-3",
       "article_number": "36-3",
       "filename": "chihou-zei-hou-shikkourei-article-36-3.md",
-      "ja_text_sha256": "8ff5e9e32cec20c922da4f09797fd6344d0825b7d321fe2873c2fc5f0727ee10",
-      "ja_text_bytes": 11330,
+      "ja_text_sha256": "658abbd24c9b2c6cc5b720129b19bdc99436192de70f1defe6b93b55d34f9b87",
+      "ja_text_bytes": 11324,
       "paragraph_count": 8
     },
     {
@@ -3090,8 +3090,8 @@
       "article_id": "chihou-zei-hou-shikkourei-art-49-4",
       "article_number": "49-4",
       "filename": "chihou-zei-hou-shikkourei-article-49-4.md",
-      "ja_text_sha256": "19f7c32b90fa45bd0154c3332ea708eb815a155ed8f23058ed1166e076c53c55",
-      "ja_text_bytes": 3259,
+      "ja_text_sha256": "524ff89d80ac21032ce85aaa194b590a74311000000c962a5e1a41cdae2a8ec5",
+      "ja_text_bytes": 3247,
       "paragraph_count": 3
     },
     {
@@ -3114,8 +3114,8 @@
       "article_id": "chihou-zei-hou-shikkourei-art-49-7",
       "article_number": "49-7",
       "filename": "chihou-zei-hou-shikkourei-article-49-7.md",
-      "ja_text_sha256": "9f71d7d98b70640f0b0108bf9ba8c0626613e7812501c510dbbbbb41d93bb4da",
-      "ja_text_bytes": 795,
+      "ja_text_sha256": "33d9d251d85c870fa802a04b91e9d4ea60041248d719ad49dba8ebcbac45220d",
+      "ja_text_bytes": 783,
       "paragraph_count": 1
     },
     {
@@ -4658,8 +4658,8 @@
       "article_id": "chihou-zei-hou-shikkourei-art-56-43",
       "article_number": "56-43",
       "filename": "chihou-zei-hou-shikkourei-article-56-43.md",
-      "ja_text_sha256": "eea02c9159680834f7d5472c3239dede31554579f55d5c070dbe36286104572a",
-      "ja_text_bytes": 5080,
+      "ja_text_sha256": "9addd7d1a3939ebc07e2d553278a6f37a28d78f036338dd4352e0553caa607ab",
+      "ja_text_bytes": 5074,
       "paragraph_count": 4
     },
     {
@@ -5794,8 +5794,8 @@
       "article_id": "chihou-zei-hou-shikkourei-art-7-14",
       "article_number": "7-14",
       "filename": "chihou-zei-hou-shikkourei-article-7-14.md",
-      "ja_text_sha256": "7c5817ebc703483994bdd0a1acef6554f3c9ec2944048190a676f383dac9441b",
-      "ja_text_bytes": 1344,
+      "ja_text_sha256": "46f60e9842086046771ac2f8100e6ebd1d80bf1ad0a9e5bdd1ac5ae9bb92118b",
+      "ja_text_bytes": 1326,
       "paragraph_count": 1
     },
     {

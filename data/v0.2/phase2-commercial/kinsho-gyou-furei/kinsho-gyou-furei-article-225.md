@@ -25,12 +25,12 @@ paragraphs:
     - 次項
   - id: kinsho-gyou-furei-art-225-p1-kou-1
     type: kou
-    text: 外国帳簿書類
+    text: 一　外国帳簿書類
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-225-p1-kou-2
     type: kou
-    text: 外国帳簿書類の様式の訳文
+    text: 二　外国帳簿書類の様式の訳文
     modality: unspecified
     item_number: 2
 - number: 2
@@ -43,8 +43,8 @@ paragraphs:
     text: 前項に規定する帳簿書類は、第百五十七条第一項第三号に掲げる帳簿書類及びこれに類する外国帳簿書類等にあっては、その作成の日から七年間、同項第四号、第六号、第九号、第十号及び第十三号に掲げる帳簿書類並びにこれらに類する外国帳簿書類等にあっては、その作成の日から十年間保存しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

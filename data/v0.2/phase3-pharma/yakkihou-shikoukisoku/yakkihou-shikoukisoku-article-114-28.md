@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-114-28-p2-kou-1
     type: kou
-    text: 医療機器等適合性調査に係る品目の製造管理及び品質管理に関する資料
+    text: 一　医療機器等適合性調査に係る品目の製造管理及び品質管理に関する資料
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-114-28-p2-kou-2
     type: kou
-    text: 医療機器等適合性調査に係る製造販売業者及び全ての製造所（法第二十三条の二の三第一項に規定する製造所をいう。以下この章において同じ。）における製造管理及び品質管理に関する資料
+    text: 二　医療機器等適合性調査に係る製造販売業者及び全ての製造所（法第二十三条の二の三第一項に規定する製造所をいう。以下この章において同じ。）における製造管理及び品質管理に関する資料
     modality: unspecified
     item_number: 2
 - number: 3

@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-118-p1-kou-1
     type: kou
-    text: その発行する全部の株式の内容として第百七条第一項第一号に掲げる事項についての定めを設ける定款の変更　全部の新株予約権
+    text: 一　その発行する全部の株式の内容として第百七条第一項第一号に掲げる事項についての定めを設ける定款の変更　全部の新株予約権
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-118-p1-kou-2
     type: kou
-    text: ある種類の株式の内容として第百八条第一項第四号又は第七号に掲げる事項についての定款の定めを設ける定款の変更　当該種類の株式を目的とする新株予約権
+    text: 二　ある種類の株式の内容として第百八条第一項第四号又は第七号に掲げる事項についての定款の定めを設ける定款の変更　当該種類の株式を目的とする新株予約権
     modality: unspecified
     item_number: 2
 - number: 2

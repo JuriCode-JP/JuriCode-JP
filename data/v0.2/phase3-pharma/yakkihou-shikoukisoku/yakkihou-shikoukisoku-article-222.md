@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-222-p1-kou-1
     type: kou
-    text: 高度管理医療機器、管理医療機器又は一般医療機器の別
+    text: 一　高度管理医療機器、管理医療機器又は一般医療機器の別
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-222-p1-kou-2
     type: kou
-    text: 法第二十三条の二の十七第一項の承認を受けた医療機器にあつては、外国製造医療機器等特例承認取得者の氏名及びその住所地の国名並びに選任外国製造医療機器等製造販売業者の氏名及び住所
+    text: 二　法第二十三条の二の十七第一項の承認を受けた医療機器にあつては、外国製造医療機器等特例承認取得者の氏名及びその住所地の国名並びに選任外国製造医療機器等製造販売業者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-222-p1-kou-3
     type: kou
-    text: 法第二十三条の二の二十三第一項の認証を受けた指定高度管理医療機器等（体外診断用医薬品を除く。）であつて本邦に輸出されるものにあつては、外国製造医療機器等特例認証取得者の氏名及びその住所地の国名並びに選任外国製造指定高度管理医療機器等製造販売業者の氏名及び住所
+    text: 三　法第二十三条の二の二十三第一項の認証を受けた指定高度管理医療機器等（体外診断用医薬品を除く。）であつて本邦に輸出されるものにあつては、外国製造医療機器等特例認証取得者の氏名及びその住所地の国名並びに選任外国製造指定高度管理医療機器等製造販売業者の氏名及び住所
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-222-p1-kou-4
     type: kou
-    text: 特定保守管理医療機器にあつては、その旨
+    text: 四　特定保守管理医療機器にあつては、その旨
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-222-p1-kou-5
     type: kou
-    text: 単回使用の医療機器にあつては、その旨
+    text: 五　単回使用の医療機器にあつては、その旨
     modality: unspecified
     item_number: 5
 cases: []

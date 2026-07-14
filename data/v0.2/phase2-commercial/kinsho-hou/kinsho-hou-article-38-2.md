@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu_negative
   - id: kinsho-hou-art-38-2-p1-kou-1
     type: kou
-    text: 投資顧問契約、投資一任契約若しくは第二条第八項第十二号イに掲げる契約の締結又は解約に関し、偽計を用い、又は暴行若しくは脅迫をする行為
+    text: 一　投資顧問契約、投資一任契約若しくは第二条第八項第十二号イに掲げる契約の締結又は解約に関し、偽計を用い、又は暴行若しくは脅迫をする行為
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-38-2-p1-kou-2
     type: kou
-    text: 顧客を勧誘するに際し、顧客に対して、損失の全部又は一部を補てんする旨を約束する行為
+    text: 二　顧客を勧誘するに際し、顧客に対して、損失の全部又は一部を補てんする旨を約束する行為
     modality: unspecified
     item_number: 2
 cases: []

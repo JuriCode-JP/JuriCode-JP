@@ -22,8 +22,8 @@ paragraphs:
     text: 業務を執行する社員を定款で定めた場合において、業務を執行する社員が二人以上あるときは、持分会社の業務は、定款に別段の定めがある場合を除き、業務を執行する社員の過半数をもって決定する。この場合における前条第三項の規定の適用については、同項中「社員」とあるのは、「業務を執行する社員」とする。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: true
   has_items: false
@@ -37,8 +37,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

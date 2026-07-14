@@ -23,6 +23,10 @@ paragraphs:
     modality: unspecified
     references:
     - 同項
+  - id: douro-koutsuu-hou-art-73-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

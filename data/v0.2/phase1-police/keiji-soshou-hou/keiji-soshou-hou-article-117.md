@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: keiji-soshou-hou-art-117-p1-kou-1
     type: kou
-    text: 賭博、富くじ又は風俗を害する行為に常用されるものと認められる場所
+    text: 一　賭博、富くじ又は風俗を害する行為に常用されるものと認められる場所
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-117-p1-kou-2
     type: kou
-    text: 旅館、飲食店その他夜間でも公衆が出入りすることができる場所。ただし、公開した時間内に限る。
+    text: 二　旅館、飲食店その他夜間でも公衆が出入りすることができる場所。ただし、公開した時間内に限る。
     modality: unspecified
     item_number: 2
 cases: []

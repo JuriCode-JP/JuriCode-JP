@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-11-2-p1-kou-1
     type: kou
-    text: 無動力漁船若しくは総トン数十トン未満の動力漁船（とう載漁船を除く。）を使用して、又は漁船を使用しないで行う水産動植物の採捕の事業
+    text: 一　無動力漁船若しくは総トン数十トン未満の動力漁船（とう載漁船を除く。）を使用して、又は漁船を使用しないで行う水産動植物の採捕の事業
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-11-2-p1-kou-2
     type: kou
-    text: 漁具を定置して行う水産動物の採捕の事業（前号に該当するものを除く。）
+    text: 二　漁具を定置して行う水産動物の採捕の事業（前号に該当するものを除く。）
     modality: unspecified
     item_number: 2
 cases: []

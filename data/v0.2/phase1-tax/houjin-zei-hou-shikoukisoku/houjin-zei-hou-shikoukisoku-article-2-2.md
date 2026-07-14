@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-1
     type: kou
-    text: 当該理事（清算人を含む。以下この項において同じ。）の配偶者
+    text: 一　当該理事（清算人を含む。以下この項において同じ。）の配偶者
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-2
     type: kou
-    text: 当該理事の三親等以内の親族
+    text: 二　当該理事の三親等以内の親族
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-3
     type: kou
-    text: 当該理事と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
+    text: 三　当該理事と婚姻の届出をしていないが事実上婚姻関係と同様の事情にある者
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-4
     type: kou
-    text: 当該理事の使用人
+    text: 四　当該理事の使用人
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-5
     type: kou
-    text: 前各号に掲げる者以外の者で当該理事から受ける金銭その他の資産によつて生計を維持しているもの
+    text: 五　前各号に掲げる者以外の者で当該理事から受ける金銭その他の資産によつて生計を維持しているもの
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-2-2-p1-kou-6
     type: kou
-    text: 前三号に掲げる者と生計を一にするこれらの者の配偶者又は三親等以内の親族
+    text: 六　前三号に掲げる者と生計を一にするこれらの者の配偶者又は三親等以内の親族
     modality: unspecified
     item_number: 6
 - number: 2

@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_negative
   - id: kaisha-hou-art-230-p1-kou-1
     type: kou
-    text: 当該株券喪失登録が抹消された日
+    text: 一　当該株券喪失登録が抹消された日
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-230-p1-kou-2
     type: kou
-    text: 株券喪失登録日の翌日から起算して一年を経過した日
+    text: 二　株券喪失登録日の翌日から起算して一年を経過した日
     modality: unspecified
     item_number: 2
 - number: 2

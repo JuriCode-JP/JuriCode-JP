@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-208-27-p1-kou-1
     type: kou
-    text: 商号又は名称
+    text: 一　商号又は名称
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-208-27-p1-kou-2
     type: kou
-    text: 説明書類の縦覧に関し当該承認を受けようとする期間
+    text: 二　説明書類の縦覧に関し当該承認を受けようとする期間
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-208-27-p1-kou-3
     type: kou
-    text: 説明書類に係る事業年度終了の日
+    text: 三　説明書類に係る事業年度終了の日
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-208-27-p1-kou-4
     type: kou
-    text: 説明書類の縦覧に関し当該承認を必要とする理由
+    text: 四　説明書類の縦覧に関し当該承認を必要とする理由
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,22 +54,22 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-208-27-p2-kou-1
     type: kou
-    text: 定款又はこれに代わる書面
+    text: 一　定款又はこれに代わる書面
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-208-27-p2-kou-2
     type: kou
-    text: 当該承認申請書に記載された当該最終指定親会社の代表者が当該承認申請書の提出に関し正当な権限を有する者であることを証する書面
+    text: 二　当該承認申請書に記載された当該最終指定親会社の代表者が当該承認申請書の提出に関し正当な権限を有する者であることを証する書面
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-208-27-p2-kou-3
     type: kou
-    text: 前項第四号の理由が当該最終指定親会社の本国の法令又は慣行によるものである場合には、当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
+    text: 三　前項第四号の理由が当該最終指定親会社の本国の法令又は慣行によるものである場合には、当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-208-27-p2-kou-4
     type: kou
-    text: 前項第四号の理由が当該最終指定親会社の本国の法令又は慣行によるものである場合以外の場合には、当該理由を証する書面
+    text: 四　前項第四号の理由が当該最終指定親会社の本国の法令又は慣行によるものである場合以外の場合には、当該理由を証する書面
     modality: unspecified
     item_number: 4
 - number: 3
@@ -96,12 +96,12 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-208-27-p4-kou-1
     type: kou
-    text: 当該事業年度中に当該承認に係る申請の理由について消滅又は変更がなかった旨
+    text: 一　当該事業年度中に当該承認に係る申請の理由について消滅又は変更がなかった旨
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-208-27-p4-kou-2
     type: kou
-    text: 前号に掲げる事項に関する法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
+    text: 二　前号に掲げる事項に関する法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
     modality: unspecified
     item_number: 2
 cases: []

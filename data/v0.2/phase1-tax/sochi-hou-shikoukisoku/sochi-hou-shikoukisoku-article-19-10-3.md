@@ -26,22 +26,22 @@ paragraphs:
     - 次条
   - id: sochi-hou-shikoukisoku-art-19-10-3-p1-kou-1
     type: kou
-    text: その政党等に対する寄附金を支出した者の氏名及び住所
+    text: 一　その政党等に対する寄附金を支出した者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-19-10-3-p1-kou-2
     type: kou
-    text: その政党等に対する寄附金の額
+    text: 二　その政党等に対する寄附金の額
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-19-10-3-p1-kou-3
     type: kou
-    text: その政党等に対する寄附金を受領した団体がその受領した年月日
+    text: 三　その政党等に対する寄附金を受領した団体がその受領した年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-19-10-3-p1-kou-4
     type: kou
-    text: その政党等に対する寄附金を受領した団体の名称及び主たる事務所の所在地
+    text: 四　その政党等に対する寄附金を受領した団体の名称及び主たる事務所の所在地
     modality: unspecified
     item_number: 4
 cases: []

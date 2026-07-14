@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: keiji-soshou-hou-art-95-4-p1-kou-1
     type: kou
-    text: 裁判所の指定する時期に、当該時期における当該事項について報告をすること。
+    text: 一　裁判所の指定する時期に、当該時期における当該事項について報告をすること。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-95-4-p1-kou-2
     type: kou
-    text: 当該事項に変更が生じたときは、速やかに、その変更の内容について報告をすること。
+    text: 二　当該事項に変更が生じたときは、速やかに、その変更の内容について報告をすること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 裁判所は、前項の場合において、必要と認めるときは、同項の被告人に対し、同項の規定による報告を裁判所の指定する日時及び場所に出頭してすることを命ずることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

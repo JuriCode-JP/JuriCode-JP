@@ -37,12 +37,12 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-57-2-8-p2-kou-1
     type: kou
-    text: 前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額（還付金支出額がある場合には、当該還付金支出額を控除した額。次号において同じ。）に当該年度の標準税率超過率を乗じて得た額
+    text: 一　前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額（還付金支出額がある場合には、当該還付金支出額を控除した額。次号において同じ。）に当該年度の標準税率超過率を乗じて得た額
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-57-2-8-p2-kou-2
     type: kou
-    text: 前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額に前年度の標準税率超過率を乗じて得た額
+    text: 二　前年度三月から当該年度二月までの間に収入した法人の行う事業に対する事業税の額に前年度の標準税率超過率を乗じて得た額
     modality: unspecified
     item_number: 2
 - number: 3

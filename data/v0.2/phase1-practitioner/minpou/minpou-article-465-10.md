@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: minpou-art-465-10-p1-kou-1
     type: kou
-    text: 財産及び収支の状況
+    text: 一　財産及び収支の状況
     modality: unspecified
     item_number: 1
   - id: minpou-art-465-10-p1-kou-2
     type: kou
-    text: 主たる債務以外に負担している債務の有無並びにその額及び履行状況
+    text: 二　主たる債務以外に負担している債務の有無並びにその額及び履行状況
     modality: unspecified
     item_number: 2
   - id: minpou-art-465-10-p1-kou-3
     type: kou
-    text: 主たる債務の担保として他に提供し、又は提供しようとするものがあるときは、その旨及びその内容
+    text: 三　主たる債務の担保として他に提供し、又は提供しようとするものがあるときは、その旨及びその内容
     modality: unspecified
     item_number: 3
 - number: 2

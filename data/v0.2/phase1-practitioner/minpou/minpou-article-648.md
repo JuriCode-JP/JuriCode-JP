@@ -45,12 +45,12 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-648-p3-kou-1
     type: kou
-    text: 委任者の責めに帰することができない事由によって委任事務の履行をすることができなくなったとき。
+    text: 一　委任者の責めに帰することができない事由によって委任事務の履行をすることができなくなったとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-648-p3-kou-2
     type: kou
-    text: 委任が履行の中途で終了したとき。
+    text: 二　委任が履行の中途で終了したとき。
     modality: unspecified
     item_number: 2
 cases: []

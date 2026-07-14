@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-133-p2-kou-1
     type: kou
-    text: 有価証券の売買又は市場デリバティブ取引の受託の条件
+    text: 一　有価証券の売買又は市場デリバティブ取引の受託の条件
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-133-p2-kou-2
     type: kou
-    text: 有価証券の売買又は市場デリバティブ取引の受渡しその他の決済方法
+    text: 二　有価証券の売買又は市場デリバティブ取引の受渡しその他の決済方法
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-133-p2-kou-3
     type: kou
-    text: 有価証券の売買の受託についての信用の供与に関する事項
+    text: 三　有価証券の売買の受託についての信用の供与に関する事項
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-133-p2-kou-4
     type: kou
-    text: 前三号に掲げる事項のほか、有価証券の売買又は市場デリバティブ取引の受託に関し必要な事項
+    text: 四　前三号に掲げる事項のほか、有価証券の売買又は市場デリバティブ取引の受託に関し必要な事項
     modality: unspecified
     item_number: 4
 cases: []

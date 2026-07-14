@@ -32,37 +32,37 @@ paragraphs:
     modality: jogai
   - id: fueihou-art-37-p2-kou-1
     type: kou
-    text: 風俗営業の営業所
+    text: 一　風俗営業の営業所
     modality: unspecified
     item_number: 1
   - id: fueihou-art-37-p2-kou-2
     type: kou
-    text: 店舗型性風俗特殊営業の営業所
+    text: 二　店舗型性風俗特殊営業の営業所
     modality: unspecified
     item_number: 2
   - id: fueihou-art-37-p2-kou-3
     type: kou
-    text: 第二条第七項第一号の営業の事務所、受付所又は待機所
+    text: 三　第二条第七項第一号の営業の事務所、受付所又は待機所
     modality: unspecified
     item_number: 3
   - id: fueihou-art-37-p2-kou-4
     type: kou
-    text: 店舗型電話異性紹介営業の営業所
+    text: 四　店舗型電話異性紹介営業の営業所
     modality: unspecified
     item_number: 4
   - id: fueihou-art-37-p2-kou-5
     type: kou
-    text: 特定遊興飲食店営業の営業所
+    text: 五　特定遊興飲食店営業の営業所
     modality: unspecified
     item_number: 5
   - id: fueihou-art-37-p2-kou-6
     type: kou
-    text: 第三十三条第六項に規定する酒類提供飲食店営業の営業所
+    text: 六　第三十三条第六項に規定する酒類提供飲食店営業の営業所
     modality: unspecified
     item_number: 6
   - id: fueihou-art-37-p2-kou-7
     type: kou
-    text: 前各号に掲げるもののほか、設備を設けて客に飲食をさせる営業の営業所（深夜において営業しているものに限る。）
+    text: 七　前各号に掲げるもののほか、設備を設けて客に飲食をさせる営業の営業所（深夜において営業しているものに限る。）
     modality: unspecified
     item_number: 7
 - number: 3

@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-9-p2-kou-1
     type: kou
-    text: その者の役員（取締役、執行役、会計参与及び監査役（理事及び監事その他これらに準ずる者を含む。）をいう。）
+    text: 一　その者の役員（取締役、執行役、会計参与及び監査役（理事及び監事その他これらに準ずる者を含む。）をいう。）
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-9-p2-kou-2
     type: kou
-    text: その者が他の法人等に対して特別資本関係を有する場合（当該株券等の買付け等を行うことにより特別資本関係を有することとなる場合を除く。）における当該他の法人等
+    text: 二　その者が他の法人等に対して特別資本関係を有する場合（当該株券等の買付け等を行うことにより特別資本関係を有することとなる場合を除く。）における当該他の法人等
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-9-p2-kou-3
     type: kou
-    text: その者に対して特別資本関係を有する個人及び法人等
+    text: 三　その者に対して特別資本関係を有する個人及び法人等
     modality: unspecified
     item_number: 3
 - number: 3

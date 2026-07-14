@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 公安委員会は、免許を受けた者が第百三条第一項第一号、第一号の二又は第三号のいずれかに該当するかどうかを調査するため必要があると認めるときは、内閣府令で定めるところにより、その者に対し、必要な報告を求めることができる。
     modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-101-5-supplnote-1
+    type: supplnote
+    text: （罰則　第百十七条の四第一項第三号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

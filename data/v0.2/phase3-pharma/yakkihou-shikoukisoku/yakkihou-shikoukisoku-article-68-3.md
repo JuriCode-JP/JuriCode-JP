@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-68-3-p1-kou-1
     type: kou
-    text: 成分及び分量又は本質（有効成分を除く。）
+    text: 一　成分及び分量又は本質（有効成分を除く。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-68-3-p1-kou-2
     type: kou
-    text: 製造方法
+    text: 二　製造方法
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-68-3-p1-kou-3
     type: kou
-    text: 貯蔵方法及び有効期間
+    text: 三　貯蔵方法及び有効期間
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-68-3-p1-kou-4
     type: kou
-    text: 規格及び試験方法
+    text: 四　規格及び試験方法
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-68-3-p1-kou-5
     type: kou
-    text: 製造販売する品目の製造所
+    text: 五　製造販売する品目の製造所
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-68-3-p1-kou-6
     type: kou
-    text: 原薬の製造所
+    text: 六　原薬の製造所
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-68-3-p1-kou-7
     type: kou
-    text: 前各号に掲げるもののほか、最終的な製品の有効性及び安全性に影響を与えないと認められる事項
+    text: 七　前各号に掲げるもののほか、最終的な製品の有効性及び安全性に影響を与えないと認められる事項
     modality: unspecified
     item_number: 7
 cases: []

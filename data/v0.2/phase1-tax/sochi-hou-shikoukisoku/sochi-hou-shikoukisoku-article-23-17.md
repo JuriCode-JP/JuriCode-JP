@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-1
     type: kou
-    text: 物納に充てようとする特定登録美術品について美術品の美術館における公開の促進に関する法律施行規則第十六条第一項の規定による価格の評価の申請を行つた個人の氏名及び住所又は居所
+    text: 一　物納に充てようとする特定登録美術品について美術品の美術館における公開の促進に関する法律施行規則第十六条第一項の規定による価格の評価の申請を行つた個人の氏名及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-2
     type: kou
-    text: 当該特定登録美術品の名称、員数及び種類
+    text: 二　当該特定登録美術品の名称、員数及び種類
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-3
     type: kou
-    text: 当該特定登録美術品の寸法、重量、材質その他の特徴
+    text: 三　当該特定登録美術品の寸法、重量、材質その他の特徴
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-4
     type: kou
-    text: 当該特定登録美術品につき相続税の課税価格に算入した価額
+    text: 四　当該特定登録美術品につき相続税の課税価格に算入した価額
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-5
     type: kou
-    text: 美術品の美術館における公開の促進に関する法律施行規則第三条の美術品登録簿に記載された当該特定登録美術品の登録年月日及び登録番号
+    text: 五　美術品の美術館における公開の促進に関する法律施行規則第三条の美術品登録簿に記載された当該特定登録美術品の登録年月日及び登録番号
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-23-17-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

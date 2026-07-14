@@ -25,22 +25,22 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-19-10-4-p1-kou-1
     type: kou
-    text: その寄附金の額
+    text: 一　その寄附金の額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-19-10-4-p1-kou-2
     type: kou
-    text: その寄附金を受領した旨及びその受領した年月日
+    text: 二　その寄附金を受領した旨及びその受領した年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-19-10-4-p1-kou-3
     type: kou
-    text: その寄附金が当該認定特定非営利活動法人等の法第四十一条の十八の二第一項に規定する特定非営利活動に係る事業に関連する寄附に係る支出金に該当するものである旨
+    text: 三　その寄附金が当該認定特定非営利活動法人等の法第四十一条の十八の二第一項に規定する特定非営利活動に係る事業に関連する寄附に係る支出金に該当するものである旨
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-19-10-4-p1-kou-4
     type: kou
-    text: その寄附金を受領した当該認定特定非営利活動法人等の名称
+    text: 四　その寄附金を受領した当該認定特定非営利活動法人等の名称
     modality: unspecified
     item_number: 4
 cases: []

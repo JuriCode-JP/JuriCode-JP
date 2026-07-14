@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-933-p1-kou-1
     type: kou
-    text: 日本に営業所を設けていない場合　日本における代表者（日本に住所を有するものに限る。以下この節において同じ。）の住所地
+    text: 一　日本に営業所を設けていない場合　日本における代表者（日本に住所を有するものに限る。以下この節において同じ。）の住所地
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-933-p1-kou-2
     type: kou
-    text: 日本に営業所を設けた場合　当該営業所の所在地
+    text: 二　日本に営業所を設けた場合　当該営業所の所在地
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,41 +42,41 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-933-p2-kou-1
     type: kou
-    text: 外国会社の設立の準拠法
+    text: 一　外国会社の設立の準拠法
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-933-p2-kou-2
     type: kou
-    text: 日本における代表者の氏名及び住所
+    text: 二　日本における代表者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-933-p2-kou-3
     type: kou
-    text: 日本における同種の会社又は最も類似する会社が株式会社であるときは、第一号に規定する準拠法の規定による公告をする方法
+    text: 三　日本における同種の会社又は最も類似する会社が株式会社であるときは、第一号に規定する準拠法の規定による公告をする方法
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-933-p2-kou-4
     type: kou
-    text: 前号に規定する場合において、第八百十九条第三項に規定する措置をとることとするときは、同条第一項に規定する貸借対照表に相当するものの内容である情報について不特定多数の者がその提供を受けるために必要な事項であって法務省令で定めるもの
+    text: 四　前号に規定する場合において、第八百十九条第三項に規定する措置をとることとするときは、同条第一項に規定する貸借対照表に相当するものの内容である情報について不特定多数の者がその提供を受けるために必要な事項であって法務省令で定めるもの
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-933-p2-kou-5
     type: kou
-    text: 第九百三十九条第二項の規定による公告方法についての定めがあるときは、その定め
+    text: 五　第九百三十九条第二項の規定による公告方法についての定めがあるときは、その定め
     modality: unspecified
     item_number: 5
   - id: kaisha-hou-art-933-p2-kou-6
     type: kou
-    text: '前号の定めが電子公告を公告方法とする旨のものであるときは、次に掲げる事項
+    text: '六　前号の定めが電子公告を公告方法とする旨のものであるときは、次に掲げる事項
 
-      イ 電子公告により公告すべき内容である情報について不特定多数の者がその提供を受けるために必要な事項であって法務省令で定めるもの
+      イ　電子公告により公告すべき内容である情報について不特定多数の者がその提供を受けるために必要な事項であって法務省令で定めるもの
 
-      ロ 第九百三十九条第三項後段の規定による定めがあるときは、その定め'
+      ロ　第九百三十九条第三項後段の規定による定めがあるときは、その定め'
     modality: unspecified
     item_number: 6
   - id: kaisha-hou-art-933-p2-kou-7
     type: kou
-    text: 第五号の定めがないときは、第九百三十九条第四項の規定により官報に掲載する方法を公告方法とする旨
+    text: 七　第五号の定めがないときは、第九百三十九条第四項の規定により官報に掲載する方法を公告方法とする旨
     modality: unspecified
     item_number: 7
 - number: 3

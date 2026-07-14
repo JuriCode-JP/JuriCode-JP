@@ -26,12 +26,12 @@ paragraphs:
     - 第八十条
   - id: kinsho-hou-art-155-p1-kou-1
     type: kou
-    text: 金融商品取引業者
+    text: 一　金融商品取引業者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-155-p1-kou-2
     type: kou
-    text: 登録金融機関
+    text: 二　登録金融機関
     modality: unspecified
     item_number: 2
 - number: 2

@@ -26,17 +26,17 @@ paragraphs:
     - 第十七条
   - id: douro-koutsuu-hou-art-63-4-p1-kou-1
     type: kou
-    text: 道路標識等により普通自転車が当該歩道を通行することができることとされているとき。
+    text: 一　道路標識等により普通自転車が当該歩道を通行することができることとされているとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-63-4-p1-kou-2
     type: kou
-    text: 当該普通自転車の運転者が、児童、幼児その他の普通自転車により車道を通行することが危険であると認められるものとして政令で定める者であるとき。
+    text: 二　当該普通自転車の運転者が、児童、幼児その他の普通自転車により車道を通行することが危険であると認められるものとして政令で定める者であるとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-63-4-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、車道又は交通の状況に照らして当該普通自転車の通行の安全を確保するため当該普通自転車が歩道を通行することがやむを得ないと認められるとき。
+    text: 三　前二号に掲げるもののほか、車道又は交通の状況に照らして当該普通自転車の通行の安全を確保するため当該普通自転車が歩道を通行することがやむを得ないと認められるとき。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -54,6 +54,10 @@ paragraphs:
     type: tadashi
     text: ただし、普通自転車通行指定部分については、当該普通自転車通行指定部分を通行し、又は通行しようとする歩行者がないときは、歩道の状況に応じた安全な速度と方法で進行することができる。
     modality: kanou_kenri
+  - id: douro-koutsuu-hou-art-63-4-supplnote-1
+    type: supplnote
+    text: （罰則　第二項については第百二十一条第一項第八号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

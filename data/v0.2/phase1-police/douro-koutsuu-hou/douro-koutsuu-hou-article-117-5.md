@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu_kei
   - id: douro-koutsuu-hou-art-117-5-p1-kou-1
     type: kou
-    text: 第七十二条（交通事故の場合の措置）第一項前段の規定に違反した者（第百十七条第一項又は第二項に該当する者を除く。）
+    text: 一　第七十二条（交通事故の場合の措置）第一項前段の規定に違反した者（第百十七条第一項又は第二項に該当する者を除く。）
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-117-5-p1-kou-2
     type: kou
-    text: 第百八条の三の四（講習通知事務の委託）第二項、第百八条の七（秘密保持義務等）第一項、第百八条の十八（秘密保持義務）又は第百八条の三十一（都道府県交通安全活動推進センター）第五項の規定に違反した者
+    text: 二　第百八条の三の四（講習通知事務の委託）第二項、第百八条の七（秘密保持義務等）第一項、第百八条の十八（秘密保持義務）又は第百八条の三十一（都道府県交通安全活動推進センター）第五項の規定に違反した者
     modality: unspecified
     item_number: 2
 - number: 2

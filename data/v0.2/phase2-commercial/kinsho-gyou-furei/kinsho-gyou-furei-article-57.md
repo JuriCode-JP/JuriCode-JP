@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-57-p1-kou-1
     type: kou
-    text: 前条第一項各号又は第五十七条の三第一項各号に掲げる方法のうち金融商品取引業者等が使用するもの
+    text: 一　前条第一項各号又は第五十七条の三第一項各号に掲げる方法のうち金融商品取引業者等が使用するもの
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-57-p1-kou-2
     type: kou
-    text: ファイルへの記録の方式
+    text: 二　ファイルへの記録の方式
     modality: unspecified
     item_number: 2
 cases: []

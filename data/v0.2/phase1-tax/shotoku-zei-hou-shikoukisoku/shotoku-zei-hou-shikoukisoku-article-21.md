@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-21-p1-kou-1
     type: kou
-    text: 交付を受けた法第四十三条第一項に規定する国庫補助金等の額、その交付の目的及びその交付の条件
+    text: 一　交付を受けた法第四十三条第一項に規定する国庫補助金等の額、その交付の目的及びその交付の条件
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-21-p1-kou-2
     type: kou
-    text: 前号の国庫補助金等をもつて取得又は改良をしようとする法第四十三条第一項に規定する固定資産の取得予定年月日又は改良予定年月日並びにその取得に要する金額の見込額及びその内訳
+    text: 二　前号の国庫補助金等をもつて取得又は改良をしようとする法第四十三条第一項に規定する固定資産の取得予定年月日又は改良予定年月日並びにその取得に要する金額の見込額及びその内訳
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-21-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

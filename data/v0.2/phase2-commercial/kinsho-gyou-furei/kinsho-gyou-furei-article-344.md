@@ -23,55 +23,55 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-344-p1-kou-1
     type: kou
-    text: 法第六十六条の六十一第一項第一号に該当する場合　その旨及び死亡の年月日
+    text: 一　法第六十六条の六十一第一項第一号に該当する場合　その旨及び死亡の年月日
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-344-p1-kou-2
     type: kou
-    text: 法第六十六条の六十一第一項第二号に該当する場合　廃止の年月日及び理由
+    text: 二　法第六十六条の六十一第一項第二号に該当する場合　廃止の年月日及び理由
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-344-p1-kou-3
     type: kou
-    text: '法第六十六条の六十一第一項第三号に該当する場合　次に掲げる事項
+    text: '三　法第六十六条の六十一第一項第三号に該当する場合　次に掲げる事項
 
-      イ 合併の相手方の商号又は名称
+      イ　合併の相手方の商号又は名称
 
-      ロ 合併の年月日及び理由
+      ロ　合併の年月日及び理由
 
-      ハ 合併の方法'
+      ハ　合併の方法'
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-344-p1-kou-4
     type: kou
-    text: '法第六十六条の六十一第一項第四号に該当する場合　次に掲げる事項
+    text: '四　法第六十六条の六十一第一項第四号に該当する場合　次に掲げる事項
 
-      イ 破産手続開始の申立てを行った年月日
+      イ　破産手続開始の申立てを行った年月日
 
-      ロ 破産手続開始の決定を受けた年月日'
+      ロ　破産手続開始の決定を受けた年月日'
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-344-p1-kou-5
     type: kou
-    text: 法第六十六条の六十一第一項第五号に該当する場合　解散の年月日及び理由
+    text: 五　法第六十六条の六十一第一項第五号に該当する場合　解散の年月日及び理由
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-344-p1-kou-6
     type: kou
-    text: '法第六十六条の六十一第一項第六号に該当する場合　次に掲げる事項
+    text: '六　法第六十六条の六十一第一項第六号に該当する場合　次に掲げる事項
 
-      イ 承継先の商号又は名称
+      イ　承継先の商号又は名称
 
-      ロ 分割の年月日及び理由'
+      ロ　分割の年月日及び理由'
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-344-p1-kou-7
     type: kou
-    text: '法第六十六条の六十一第一項第七号に該当する場合　次に掲げる事項
+    text: '七　法第六十六条の六十一第一項第七号に該当する場合　次に掲げる事項
 
-      イ 譲渡先の商号、名称又は氏名
+      イ　譲渡先の商号、名称又は氏名
 
-      ロ 譲渡の年月日及び理由'
+      ロ　譲渡の年月日及び理由'
     modality: unspecified
     item_number: 7
 - number: 2
@@ -87,27 +87,27 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-344-p2-kou-1
     type: kou
-    text: 法第六十六条の六十一第一項第一号又は第二号に該当する場合　最近の日計表
+    text: 一　法第六十六条の六十一第一項第一号又は第二号に該当する場合　最近の日計表
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-344-p2-kou-2
     type: kou
-    text: 法第六十六条の六十一第一項第三号に該当する場合　合併契約の内容及び合併の手続を記載した書面
+    text: 二　法第六十六条の六十一第一項第三号に該当する場合　合併契約の内容及び合併の手続を記載した書面
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-344-p2-kou-3
     type: kou
-    text: 法第六十六条の六十一第一項第四号に該当する場合　破産手続開始の決定の裁判書の写し又は破産手続開始の決定の内容を記載した書面
+    text: 三　法第六十六条の六十一第一項第四号に該当する場合　破産手続開始の決定の裁判書の写し又は破産手続開始の決定の内容を記載した書面
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-344-p2-kou-4
     type: kou
-    text: 法第六十六条の六十一第一項第六号に該当する場合　新設分割計画又は吸収分割契約の内容及び分割の手続を記載した書面
+    text: 四　法第六十六条の六十一第一項第六号に該当する場合　新設分割計画又は吸収分割契約の内容及び分割の手続を記載した書面
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-344-p2-kou-5
     type: kou
-    text: 法第六十六条の六十一第一項第七号に該当する場合　事業譲渡契約の内容を記載した書面
+    text: 五　法第六十六条の六十一第一項第七号に該当する場合　事業譲渡契約の内容を記載した書面
     modality: unspecified
     item_number: 5
 - number: 3

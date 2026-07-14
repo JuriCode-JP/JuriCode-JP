@@ -32,12 +32,12 @@ paragraphs:
     modality: koka_torikeshi
   - id: keiji-soshou-hou-art-342-7-p2-kou-1
     type: kou
-    text: 第三百四十二条の二の許可を受けた者が、正当な理由がなく、指定期間内に本邦に帰国せず又は上陸しないと疑うに足りる相当な理由があるとき。
+    text: 一　第三百四十二条の二の許可を受けた者が、正当な理由がなく、指定期間内に本邦に帰国せず又は上陸しないと疑うに足りる相当な理由があるとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-342-7-p2-kou-2
     type: kou
-    text: 第三百四十二条の二の許可を受けた者が渡航先の制限その他裁判所の定めた条件に違反したとき。
+    text: 二　第三百四十二条の二の許可を受けた者が渡航先の制限その他裁判所の定めた条件に違反したとき。
     modality: unspecified
     item_number: 2
 - number: 3

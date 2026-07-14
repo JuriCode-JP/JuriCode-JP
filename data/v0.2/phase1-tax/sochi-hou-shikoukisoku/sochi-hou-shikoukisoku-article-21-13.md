@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-21-13-p1-kou-1
     type: kou
-    text: 法第五十七条の六第八項の規定の適用を受けようとする法人の名称、納税地及び法人番号並びに代表者の氏名
+    text: 一　法第五十七条の六第八項の規定の適用を受けようとする法人の名称、納税地及び法人番号並びに代表者の氏名
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-21-13-p1-kou-2
     type: kou
-    text: 法第五十七条の六第八項に規定する分割承継法人又は被現物出資法人の名称及び納税地並びに代表者の氏名
+    text: 二　法第五十七条の六第八項に規定する分割承継法人又は被現物出資法人の名称及び納税地並びに代表者の氏名
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-21-13-p1-kou-3
     type: kou
-    text: 法第五十七条の六第八項に規定する分割又は現物出資の年月日
+    text: 三　法第五十七条の六第八項に規定する分割又は現物出資の年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-21-13-p1-kou-4
     type: kou
-    text: 法第五十七条の六第八項に規定する保険契約の種類
+    text: 四　法第五十七条の六第八項に規定する保険契約の種類
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-21-13-p1-kou-5
     type: kou
-    text: 法第五十七条の六第八項の異常危険準備金として積み立てた金額及びその積み立てた金額の計算に関する明細
+    text: 五　法第五十七条の六第八項の異常危険準備金として積み立てた金額及びその積み立てた金額の計算に関する明細
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-21-13-p1-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 cases: []

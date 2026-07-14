@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-618-p1-kou-1
     type: kou
-    text: 計算書類が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
+    text: 一　計算書類が書面をもって作成されているときは、当該書面の閲覧又は謄写の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-618-p1-kou-2
     type: kou
-    text: 計算書類が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
+    text: 二　計算書類が電磁的記録をもって作成されているときは、当該電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧又は謄写の請求
     modality: unspecified
     item_number: 2
 - number: 2

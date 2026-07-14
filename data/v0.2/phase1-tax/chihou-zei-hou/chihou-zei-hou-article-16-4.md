@@ -36,8 +36,8 @@ paragraphs:
     text: 地方団体の長は、前項の規定により保全差押金額を決定するときは、当該保全差押金額を同項に規定する納付又は納入の義務があると認められる者に文書で通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -60,17 +60,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-16-4-p4-kou-1
     type: kou
-    text: 第一項の規定による差押えを受けた者が、前項に規定する担保を提供して、その差押えの解除を請求したとき。
+    text: 一　第一項の規定による差押えを受けた者が、前項に規定する担保を提供して、その差押えの解除を請求したとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-16-4-p4-kou-2
     type: kou
-    text: 第二項の通知をした日から一年を経過した日までに、その差押えに係る地方団体の徴収金の納付し、又は納入すべき額の確定がされないとき。
+    text: 二　第二項の通知をした日から一年を経過した日までに、その差押えに係る地方団体の徴収金の納付し、又は納入すべき額の確定がされないとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-16-4-p4-kou-3
     type: kou
-    text: 第二項の通知をした日から一年を経過した日までに、保全差押金額について提供されている担保に係る地方団体の徴収金の納付し、又は納入すべき額の確定がされないとき。
+    text: 三　第二項の通知をした日から一年を経過した日までに、保全差押金額について提供されている担保に係る地方団体の徴収金の納付し、又は納入すべき額の確定がされないとき。
     modality: unspecified
     item_number: 3
 - number: 5

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-196-10-p1-kou-1
     type: kou
-    text: 品名
+    text: 一　品名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-196-10-p1-kou-2
     type: kou
-    text: 数量
+    text: 二　数量
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-196-10-p1-kou-3
     type: kou
-    text: 購入若しくは譲受け又は販売若しくは授与の年月日
+    text: 三　購入若しくは譲受け又は販売若しくは授与の年月日
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-196-10-p1-kou-4
     type: kou
-    text: 購入者等の氏名
+    text: 四　購入者等の氏名
     modality: unspecified
     item_number: 4
 - number: 2

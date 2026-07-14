@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-39-28-p1-kou-1
     type: kou
-    text: 常時使用する従業員の数が四百人以下の法人（特定法人（法人税法第七十五条の四第二項に規定する特定法人をいう。次号において同じ。）を除く。）
+    text: 一　常時使用する従業員の数が四百人以下の法人（特定法人（法人税法第七十五条の四第二項に規定する特定法人をいう。次号において同じ。）を除く。）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-28-p1-kou-2
     type: kou
-    text: 常時使用する従業員の数が三百人以下の特定法人
+    text: 二　常時使用する従業員の数が三百人以下の特定法人
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,17 +42,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-39-28-p2-kou-1
     type: kou
-    text: 法人税法施行令第百三十三条又は第百三十三条の二の規定
+    text: 一　法人税法施行令第百三十三条又は第百三十三条の二の規定
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-39-28-p2-kou-2
     type: kou
-    text: 法第六十一条の三第一項、法第六十四条第一項（法第六十四条の二第七項又は第六十五条第三項において準用する場合を含む。）、法第六十五条の七第一項（法第六十五条の八第七項において準用する場合を含む。）又は法第六十七条の四第二項（同条第九項において準用する場合を含む。）の規定
+    text: 二　法第六十一条の三第一項、法第六十四条第一項（法第六十四条の二第七項又は第六十五条第三項において準用する場合を含む。）、法第六十五条の七第一項（法第六十五条の八第七項において準用する場合を含む。）又は法第六十七条の四第二項（同条第九項において準用する場合を含む。）の規定
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-39-28-p2-kou-3
     type: kou
-    text: 法第六十四条第九項（法第六十四条の二第八項又は第六十五条第三項において準用する場合を含む。）、法第六十五条の七第九項（法第六十五条の八第八項において準用する場合を含む。）又は法第六十七条の四第三項（同条第十項において準用する場合を含む。）の規定
+    text: 三　法第六十四条第九項（法第六十四条の二第八項又は第六十五条第三項において準用する場合を含む。）、法第六十五条の七第九項（法第六十五条の八第八項において準用する場合を含む。）又は法第六十七条の四第三項（同条第十項において準用する場合を含む。）の規定
     modality: unspecified
     item_number: 3
 - number: 3

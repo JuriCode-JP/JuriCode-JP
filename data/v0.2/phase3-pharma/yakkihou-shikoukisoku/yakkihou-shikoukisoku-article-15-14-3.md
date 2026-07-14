@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-15-14-3-p1-kou-1
     type: kou
-    text: 法第九条の四第一項、第四項又は第五項の規定による情報の提供及び指導を行つた年月日
+    text: 一　法第九条の四第一項、第四項又は第五項の規定による情報の提供及び指導を行つた年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-15-14-3-p1-kou-2
     type: kou
-    text: 前号の情報の提供及び指導の内容の要点
+    text: 二　前号の情報の提供及び指導の内容の要点
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-15-14-3-p1-kou-3
     type: kou
-    text: 第一号の情報の提供及び指導を行つた薬剤師の氏名
+    text: 三　第一号の情報の提供及び指導を行つた薬剤師の氏名
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-15-14-3-p1-kou-4
     type: kou
-    text: 第一号の情報の提供及び指導を受けた者の氏名及び年齢
+    text: 四　第一号の情報の提供及び指導を受けた者の氏名及び年齢
     modality: unspecified
     item_number: 4
 - number: 2

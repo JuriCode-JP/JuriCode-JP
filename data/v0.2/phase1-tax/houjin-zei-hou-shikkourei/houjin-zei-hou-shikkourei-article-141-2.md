@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikkourei-art-141-2-p1-kou-1
     type: kou
-    text: 法第六十九条第四項第一号に掲げる国外源泉所得
+    text: 一　法第六十九条第四項第一号に掲げる国外源泉所得
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-141-2-p1-kou-2
     type: kou
-    text: 法第六十九条第四項第二号から第十六号までに掲げる国外源泉所得（同項第二号から第十三号まで、第十五号及び第十六号に掲げる国外源泉所得にあつては、同項第一号に掲げる国外源泉所得に該当するものを除く。）
+    text: 二　法第六十九条第四項第二号から第十六号までに掲げる国外源泉所得（同項第二号から第十三号まで、第十五号及び第十六号に掲げる国外源泉所得にあつては、同項第一号に掲げる国外源泉所得に該当するものを除く。）
     modality: unspecified
     item_number: 2
 cases: []

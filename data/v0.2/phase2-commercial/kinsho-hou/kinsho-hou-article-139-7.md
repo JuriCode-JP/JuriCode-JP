@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-139-7-p1-kou-1
     type: kou
-    text: 吸収合併契約について株主総会（種類株主総会を含む。以下この号において同じ。）の決議によつてその承認を受けなければならないときは、当該株主総会の日の二週間前の日
+    text: 一　吸収合併契約について株主総会（種類株主総会を含む。以下この号において同じ。）の決議によつてその承認を受けなければならないときは、当該株主総会の日の二週間前の日
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-139-7-p1-kou-2
     type: kou
-    text: 第百三十九条の十第一項の規定による通知の日又は同条第二項の公告の日のいずれか早い日
+    text: 二　第百三十九条の十第一項の規定による通知の日又は同条第二項の公告の日のいずれか早い日
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-139-7-p1-kou-3
     type: kou
-    text: 第百三十九条の十二の規定による手続をしなければならないときは、同条第二項の規定による公告の日又は同項の規定による催告の日のいずれか早い日
+    text: 三　第百三十九条の十二の規定による手続をしなければならないときは、同条第二項の規定による公告の日又は同項の規定による催告の日のいずれか早い日
     modality: unspecified
     item_number: 3
 - number: 2
@@ -47,22 +47,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-139-7-p2-kou-1
     type: kou
-    text: 前項の書面の閲覧の請求
+    text: 一　前項の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-139-7-p2-kou-2
     type: kou
-    text: 前項の書面の謄本又は抄本の交付の請求
+    text: 二　前項の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-139-7-p2-kou-3
     type: kou
-    text: 前項の電磁的記録に記録された事項を内閣府令で定める方法により表示したものの閲覧の請求
+    text: 三　前項の電磁的記録に記録された事項を内閣府令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-139-7-p2-kou-4
     type: kou
-    text: 前項の電磁的記録に記録された事項を電磁的方法であつて内閣府令で定めるものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前項の電磁的記録に記録された事項を電磁的方法であつて内閣府令で定めるものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-112-p1-kou-1
     type: kou
-    text: 金融商品取引業者及び取引所取引許可業者
+    text: 一　金融商品取引業者及び取引所取引許可業者
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-112-p1-kou-2
     type: kou
-    text: 登録金融機関
+    text: 二　登録金融機関
     modality: unspecified
     item_number: 2
 - number: 2

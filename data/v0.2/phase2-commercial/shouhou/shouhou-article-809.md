@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhou-art-809-p1-kou-1
     type: kou
-    text: 船舶　到達の地及び時における当該船舶の価格
+    text: 一　船舶　到達の地及び時における当該船舶の価格
     modality: unspecified
     item_number: 1
   - id: shouhou-art-809-p1-kou-2
     type: kou
-    text: 積荷　陸揚げの地及び時における当該積荷の価格
+    text: 二　積荷　陸揚げの地及び時における当該積荷の価格
     modality: unspecified
     item_number: 2
   - id: shouhou-art-809-p1-kou-3
     type: kou
-    text: 積荷以外の船舶内にある物　到達の地及び時における当該物の価格
+    text: 三　積荷以外の船舶内にある物　到達の地及び時における当該物の価格
     modality: unspecified
     item_number: 3
   - id: shouhou-art-809-p1-kou-4
     type: kou
-    text: 運送賃　陸揚げの地及び時において請求することができる運送賃の額
+    text: 四　運送賃　陸揚げの地及び時において請求することができる運送賃の額
     modality: unspecified
     item_number: 4
 - number: 2
@@ -61,22 +61,22 @@ paragraphs:
     modality: unspecified
   - id: shouhou-art-809-p3-kou-1
     type: kou
-    text: '次に掲げる物に加えた損害。ただし、次のハに掲げる物にあっては第五百七十七条第二項第一号に掲げる場合を、次のニに掲げる物にあっては甲板積みをする商慣習がある場合を除く。
+    text: '一　次に掲げる物に加えた損害。ただし、次のハに掲げる物にあっては第五百七十七条第二項第一号に掲げる場合を、次のニに掲げる物にあっては甲板積みをする商慣習がある場合を除く。
 
-      イ 船舶所有者に無断で船積みがされた積荷
+      イ　船舶所有者に無断で船積みがされた積荷
 
-      ロ 船積みに際して故意に虚偽の申告がされた積荷
+      ロ　船積みに際して故意に虚偽の申告がされた積荷
 
-      ハ 高価品である積荷であって、荷送人又は傭船者が運送を委託するに当たりその種類及び価額を通知していないもの
+      ハ　高価品である積荷であって、荷送人又は傭船者が運送を委託するに当たりその種類及び価額を通知していないもの
 
-      ニ 甲板上の積荷
+      ニ　甲板上の積荷
 
-      ホ 属具目録に記載がない属具'
+      ホ　属具目録に記載がない属具'
     modality: unspecified
     item_number: 1
   - id: shouhou-art-809-p3-kou-2
     type: kou
-    text: 特別補償料
+    text: 二　特別補償料
     modality: unspecified
     item_number: 2
 cases: []

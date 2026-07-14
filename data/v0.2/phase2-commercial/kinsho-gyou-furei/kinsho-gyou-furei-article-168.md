@@ -23,47 +23,47 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-168-p1-kou-1
     type: kou
-    text: 受渡年月日
+    text: 一　受渡年月日
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-168-p1-kou-2
     type: kou
-    text: 約定年月日
+    text: 二　約定年月日
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-168-p1-kou-3
     type: kou
-    text: 銘柄
+    text: 三　銘柄
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-168-p1-kou-4
     type: kou
-    text: 相手方の氏名又は名称
+    text: 四　相手方の氏名又は名称
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-168-p1-kou-5
     type: kou
-    text: スタート又はエンドの別
+    text: 五　スタート又はエンドの別
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-168-p1-kou-6
     type: kou
-    text: 借方又は貸方の区分
+    text: 六　借方又は貸方の区分
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-168-p1-kou-7
     type: kou
-    text: 数量、単価、経過利息、金額及び現先レート
+    text: 七　数量、単価、経過利息、金額及び現先レート
     modality: unspecified
     item_number: 7
   - id: kinsho-gyou-furei-art-168-p1-kou-8
     type: kou
-    text: 借方の残数量及び残金額
+    text: 八　借方の残数量及び残金額
     modality: unspecified
     item_number: 8
   - id: kinsho-gyou-furei-art-168-p1-kou-9
     type: kou
-    text: 貸方の残数量及び残金額
+    text: 九　貸方の残数量及び残金額
     modality: unspecified
     item_number: 9
 - number: 2

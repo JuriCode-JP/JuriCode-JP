@@ -23,19 +23,23 @@ paragraphs:
     modality: gimu_negative
   - id: douro-koutsuu-hou-art-30-p1-kou-1
     type: kou
-    text: 道路の曲がり角付近、上り坂の頂上付近又は勾配の急な下り坂
+    text: 一　道路の曲がり角付近、上り坂の頂上付近又は勾配の急な下り坂
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-30-p1-kou-2
     type: kou
-    text: トンネル（車両通行帯の設けられた道路以外の道路の部分に限る。）
+    text: 二　トンネル（車両通行帯の設けられた道路以外の道路の部分に限る。）
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-30-p1-kou-3
     type: kou
-    text: 交差点（当該車両が第三十六条第二項に規定する優先道路を通行している場合における当該優先道路にある交差点を除く。）、踏切、横断歩道又は自転車横断帯及びこれらの手前の側端から前に三十メートル以内の部分
+    text: 三　交差点（当該車両が第三十六条第二項に規定する優先道路を通行している場合における当該優先道路にある交差点を除く。）、踏切、横断歩道又は自転車横断帯及びこれらの手前の側端から前に三十メートル以内の部分
     modality: unspecified
     item_number: 3
+  - id: douro-koutsuu-hou-art-30-supplnote-1
+    type: supplnote
+    text: （罰則　第百十九条第一項第五号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

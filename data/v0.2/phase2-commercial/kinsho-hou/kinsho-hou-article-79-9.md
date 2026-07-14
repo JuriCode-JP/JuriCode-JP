@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu_negative
   - id: kinsho-hou-art-79-9-p1-kou-1
     type: kou
-    text: 第七十九条の七第一項各号に掲げる業務を適正かつ確実に行うに必要な業務の実施の方法を定めているものであること。
+    text: 一　第七十九条の七第一項各号に掲げる業務を適正かつ確実に行うに必要な業務の実施の方法を定めているものであること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-9-p1-kou-2
     type: kou
-    text: 第七十九条の七第一項各号に掲げる業務を適正かつ確実に行うに足りる知識及び能力並びに経理的基礎を有するものであること。
+    text: 二　第七十九条の七第一項各号に掲げる業務を適正かつ確実に行うに足りる知識及び能力並びに経理的基礎を有するものであること。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-79-9-p1-kou-3
     type: kou
-    text: 第七十九条の七第一項各号に掲げる業務以外の業務を行つている場合には、その業務を行うことによつて当該各号に掲げる業務が不公正になるおそれがないものであること。
+    text: 三　第七十九条の七第一項各号に掲げる業務以外の業務を行つている場合には、その業務を行うことによつて当該各号に掲げる業務が不公正になるおそれがないものであること。
     modality: unspecified
     item_number: 3
 cases: []

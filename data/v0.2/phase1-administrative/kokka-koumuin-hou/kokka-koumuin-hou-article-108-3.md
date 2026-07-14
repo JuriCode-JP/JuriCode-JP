@@ -32,52 +32,52 @@ paragraphs:
     modality: gimu
   - id: kokka-koumuin-hou-art-108-3-p2-kou-1
     type: kou
-    text: 名称
+    text: 一　名称
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-108-3-p2-kou-2
     type: kou
-    text: 目的及び業務
+    text: 二　目的及び業務
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-108-3-p2-kou-3
     type: kou
-    text: 主なる事務所の所在地
+    text: 三　主なる事務所の所在地
     modality: unspecified
     item_number: 3
   - id: kokka-koumuin-hou-art-108-3-p2-kou-4
     type: kou
-    text: 構成員の範囲及びその資格の得喪に関する規定
+    text: 四　構成員の範囲及びその資格の得喪に関する規定
     modality: unspecified
     item_number: 4
   - id: kokka-koumuin-hou-art-108-3-p2-kou-5
     type: kou
-    text: 理事その他の役員に関する規定
+    text: 五　理事その他の役員に関する規定
     modality: unspecified
     item_number: 5
   - id: kokka-koumuin-hou-art-108-3-p2-kou-6
     type: kou
-    text: 次項に規定する事項を含む業務執行、会議及び投票に関する規定
+    text: 六　次項に規定する事項を含む業務執行、会議及び投票に関する規定
     modality: unspecified
     item_number: 6
   - id: kokka-koumuin-hou-art-108-3-p2-kou-7
     type: kou
-    text: 経費及び会計に関する規定
+    text: 七　経費及び会計に関する規定
     modality: unspecified
     item_number: 7
   - id: kokka-koumuin-hou-art-108-3-p2-kou-8
     type: kou
-    text: 他の職員団体との連合に関する規定
+    text: 八　他の職員団体との連合に関する規定
     modality: unspecified
     item_number: 8
   - id: kokka-koumuin-hou-art-108-3-p2-kou-9
     type: kou
-    text: 規約の変更に関する規定
+    text: 九　規約の変更に関する規定
     modality: unspecified
     item_number: 9
   - id: kokka-koumuin-hou-art-108-3-p2-kou-10
     type: kou
-    text: 解散に関する規定
+    text: 十　解散に関する規定
     modality: unspecified
     item_number: 10
 - number: 3

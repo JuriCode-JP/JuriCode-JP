@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-63-p1-kou-1
     type: kou
-    text: 当該日
+    text: 一　当該日
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-63-p1-kou-2
     type: kou
-    text: 次項に規定する日を期限日（法第三十四条の四第六項において準用する法第三十四条の三第二項第二号に規定する期限日をいう。次条第二項及び第六十四条の二において同じ。）とする旨
+    text: 二　次項に規定する日を期限日（法第三十四条の四第六項において準用する法第三十四条の三第二項第二号に規定する期限日をいう。次条第二項及び第六十四条の二において同じ。）とする旨
     modality: unspecified
     item_number: 2
 - number: 2

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-377-p1-kou-1
     type: kou
-    text: 法律に従つて判決裁判所を構成しなかつたこと。
+    text: 一　法律に従つて判決裁判所を構成しなかつたこと。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-377-p1-kou-2
     type: kou
-    text: 法令により判決に関与することができない裁判官が判決に関与したこと。
+    text: 二　法令により判決に関与することができない裁判官が判決に関与したこと。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-377-p1-kou-3
     type: kou
-    text: 審判の公開に関する規定に違反したこと。
+    text: 三　審判の公開に関する規定に違反したこと。
     modality: unspecified
     item_number: 3
 cases: []

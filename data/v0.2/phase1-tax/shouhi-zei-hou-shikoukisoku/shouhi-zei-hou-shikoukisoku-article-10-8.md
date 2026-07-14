@@ -23,24 +23,24 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p1-kou-1
     type: kou
-    text: '令第十八条の五第二項第一号に係る法第八条第十項の承認を受けようとする事業者　次に掲げる事項
+    text: '一　令第十八条の五第二項第一号に係る法第八条第十項の承認を受けようとする事業者　次に掲げる事項
 
-      イ 申請者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
+      イ　申請者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
 
-      ロ 一般型輸出物品販売場又は手続委託型輸出物品販売場に係る法第八条第七項の許可を受けた年月日
+      ロ　一般型輸出物品販売場又は手続委託型輸出物品販売場に係る法第八条第七項の許可を受けた年月日
 
-      ハ その他参考となるべき事項'
+      ハ　その他参考となるべき事項'
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p1-kou-2
     type: kou
-    text: '令第十八条の五第二項第二号に係る法第八条第十項の承認を受けようとする事業者　次に掲げる事項
+    text: '二　令第十八条の五第二項第二号に係る法第八条第十項の承認を受けようとする事業者　次に掲げる事項
 
-      イ 申請者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
+      イ　申請者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
 
-      ロ 一般型輸出物品販売場、手続委託型輸出物品販売場又は自動販売機型輸出物品販売場に係る法第八条第七項の許可を受けた年月日
+      ロ　一般型輸出物品販売場、手続委託型輸出物品販売場又は自動販売機型輸出物品販売場に係る法第八条第七項の許可を受けた年月日
 
-      ハ その他参考となるべき事項'
+      ハ　その他参考となるべき事項'
     modality: unspecified
     item_number: 2
 - number: 2
@@ -54,17 +54,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p2-kou-1
     type: kou
-    text: 次項各号に掲げる要件を満たすことを証する書類
+    text: 一　次項各号に掲げる要件を満たすことを証する書類
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p2-kou-2
     type: kou
-    text: 七月以内の期間を定めて設置する販売場を設置した事実又は設置する意思を有する旨を証する書類
+    text: 二　七月以内の期間を定めて設置する販売場を設置した事実又は設置する意思を有する旨を証する書類
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p2-kou-3
     type: kou
-    text: その他参考となるべき書類
+    text: 三　その他参考となるべき書類
     modality: unspecified
     item_number: 3
 - number: 3
@@ -78,12 +78,12 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p3-kou-1
     type: kou
-    text: 臨時販売場において行つた免税販売手続（令第十八条第七項に規定する免税販売手続をいう。次号において同じ。）について検証を行うための必要な体制が整備されていること。
+    text: 一　臨時販売場において行つた免税販売手続（令第十八条第七項に規定する免税販売手続をいう。次号において同じ。）について検証を行うための必要な体制が整備されていること。
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p3-kou-2
     type: kou
-    text: 手続委託型輸出物品販売場のみを経営する事業者にあつては、臨時販売場において自ら免税販売手続を行うための必要な体制が整備されていること。
+    text: 二　手続委託型輸出物品販売場のみを経営する事業者にあつては、臨時販売場において自ら免税販売手続を行うための必要な体制が整備されていること。
     modality: unspecified
     item_number: 2
 - number: 4
@@ -97,17 +97,17 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p4-kou-1
     type: kou
-    text: 届出者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
+    text: 一　届出者の氏名等及び納税地（法人番号を有する者にあつては、氏名等、納税地及び法人番号）
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p4-kou-2
     type: kou
-    text: 令第十八条の五第二項第一号又は第二号に係る法第八条第十項の承認を受けた年月日
+    text: 二　令第十八条の五第二項第一号又は第二号に係る法第八条第十項の承認を受けた年月日
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikoukisoku-art-10-8-p4-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

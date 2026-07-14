@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: kaisha-hou-art-179-5-p1-kou-1
     type: kou
-    text: 特別支配株主の氏名又は名称及び住所
+    text: 一　特別支配株主の氏名又は名称及び住所
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-179-5-p1-kou-2
     type: kou
-    text: 第百七十九条の二第一項各号に掲げる事項
+    text: 二　第百七十九条の二第一項各号に掲げる事項
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-179-5-p1-kou-3
     type: kou
-    text: 第百七十九条の三第一項の承認をした旨
+    text: 三　第百七十九条の三第一項の承認をした旨
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-179-5-p1-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、法務省令で定める事項
+    text: 四　前三号に掲げるもののほか、法務省令で定める事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,22 +54,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-179-5-p2-kou-1
     type: kou
-    text: 前項の書面の閲覧の請求
+    text: 一　前項の書面の閲覧の請求
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-179-5-p2-kou-2
     type: kou
-    text: 前項の書面の謄本又は抄本の交付の請求
+    text: 二　前項の書面の謄本又は抄本の交付の請求
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-179-5-p2-kou-3
     type: kou
-    text: 前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
+    text: 三　前項の電磁的記録に記録された事項を法務省令で定める方法により表示したものの閲覧の請求
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-179-5-p2-kou-4
     type: kou
-    text: 前項の電磁的記録に記録された事項を電磁的方法であって対象会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
+    text: 四　前項の電磁的記録に記録された事項を電磁的方法であって対象会社の定めたものにより提供することの請求又はその事項を記載した書面の交付の請求
     modality: unspecified
     item_number: 4
 cases: []

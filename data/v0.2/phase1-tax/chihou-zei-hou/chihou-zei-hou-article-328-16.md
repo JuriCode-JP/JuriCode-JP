@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu_kei
   - id: chihou-zei-hou-art-328-16-p2-kou-1
     type: kou
-    text: 第三百二十八条の十四に規定する特別徴収票をその提出期限までに市町村長に提出せず、又は当該特別徴収票に偽りの記載をして市町村長に提出したとき。
+    text: 一　第三百二十八条の十四に規定する特別徴収票をその提出期限までに市町村長に提出せず、又は当該特別徴収票に偽りの記載をして市町村長に提出したとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-328-16-p2-kou-2
     type: kou
-    text: 第三百二十八条の十四に規定する特別徴収票をその交付の期限までに同条に規定する退職手当等の支払を受ける者に交付せず、又は当該特別徴収票に偽りの記載をして当該支払を受ける者に交付したとき。
+    text: 二　第三百二十八条の十四に規定する特別徴収票をその交付の期限までに同条に規定する退職手当等の支払を受ける者に交付せず、又は当該特別徴収票に偽りの記載をして当該支払を受ける者に交付したとき。
     modality: unspecified
     item_number: 2
 - number: 3
@@ -73,8 +73,8 @@ paragraphs:
     text: 前項の規定により第一項の違反行為につき法人又は人に罰金刑を科する場合における時効の期間は、同項の罪についての時効の期間による。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

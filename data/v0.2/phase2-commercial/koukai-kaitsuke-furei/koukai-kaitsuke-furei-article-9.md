@@ -37,12 +37,12 @@ paragraphs:
     modality: kanou_kenri
   - id: koukai-kaitsuke-furei-art-9-p2-kou-1
     type: kou
-    text: 時事に関する事項を掲載する日刊新聞紙
+    text: 一　時事に関する事項を掲載する日刊新聞紙
     modality: unspecified
     item_number: 1
   - id: koukai-kaitsuke-furei-art-9-p2-kou-2
     type: kou
-    text: 産業及び経済に関する事項を全般的に報道する日刊新聞紙
+    text: 二　産業及び経済に関する事項を全般的に報道する日刊新聞紙
     modality: unspecified
     item_number: 2
 - number: 3

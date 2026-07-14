@@ -25,12 +25,12 @@ paragraphs:
     - 前条
   - id: shotoku-zei-hou-art-197-p1-kou-1
     type: kou
-    text: 第百八十四条（源泉徴収を要しない給与等の支払者）の規定によりその所得税を徴収して納付することを要しないものとされる給与等
+    text: 一　第百八十四条（源泉徴収を要しない給与等の支払者）の規定によりその所得税を徴収して納付することを要しないものとされる給与等
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-art-197-p1-kou-2
     type: kou
-    text: 第百八十五条第一項第三号（労働した日ごとに支払われる給与等）に掲げる給与等
+    text: 二　第百八十五条第一項第三号（労働した日ごとに支払われる給与等）に掲げる給与等
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-156-27-p1-kou-1
     type: kou
-    text: 有価証券の貸借（第百五十六条の二十四第一項に規定する業務を除く。）又は有価証券の貸借の媒介若しくは代理
+    text: 一　有価証券の貸借（第百五十六条の二十四第一項に規定する業務を除く。）又は有価証券の貸借の媒介若しくは代理
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-27-p1-kou-2
     type: kou
-    text: 金融商品取引業者に対する金銭の貸付け（第百五十六条の二十四第一項に規定する業務を除く。）
+    text: 二　金融商品取引業者に対する金銭の貸付け（第百五十六条の二十四第一項に規定する業務を除く。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-156-27-p1-kou-3
     type: kou
-    text: 金融商品取引業者の顧客に対する金銭の貸付け
+    text: 三　金融商品取引業者の顧客に対する金銭の貸付け
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-156-27-p1-kou-4
     type: kou
-    text: その他内閣府令で定める業務
+    text: 四　その他内閣府令で定める業務
     modality: unspecified
     item_number: 4
 - number: 2

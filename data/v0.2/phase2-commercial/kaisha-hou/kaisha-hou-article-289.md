@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-289-p1-kou-1
     type: kou
-    text: 株式会社の商号
+    text: 一　株式会社の商号
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-289-p1-kou-2
     type: kou
-    text: 当該新株予約権証券に係る証券発行新株予約権の内容及び数
+    text: 二　当該新株予約権証券に係る証券発行新株予約権の内容及び数
     modality: unspecified
     item_number: 2
 cases: []

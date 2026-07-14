@@ -37,27 +37,27 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-50-2-p2-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-2-p2-kou-2
     type: kou
-    text: 当該石油アスファルト等の製造場の所在地及び名称
+    text: 二　当該石油アスファルト等の製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-2-p2-kou-3
     type: kou
-    text: 製造する石油アスファルト等の石油アスファルト又は石油コークスの別（以下この条において「石油アスファルト等の種別」という。）
+    text: 三　製造する石油アスファルト等の石油アスファルト又は石油コークスの別（以下この条において「石油アスファルト等の種別」という。）
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-50-2-p2-kou-4
     type: kou
-    text: 当該石油アスファルト等の製造に使用する原料の種類
+    text: 四　当該石油アスファルト等の製造に使用する原料の種類
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-50-2-p2-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 3
@@ -84,22 +84,22 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikkourei-art-50-2-p4-kou-1
     type: kou
-    text: 申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
+    text: 一　申請者の住所又は居所、氏名又は名称及び個人番号又は法人番号（個人番号を有しない個人にあつては、住所又は居所及び氏名）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-2-p4-kou-2
     type: kou
-    text: 当該石油アスファルト等を製造した製造場の所在地及び名称
+    text: 二　当該石油アスファルト等を製造した製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-2-p4-kou-3
     type: kou
-    text: 移出し、又は消費した当該石油アスファルト等の種別及び当該石油アスファルト等の種別ごとの数量
+    text: 三　移出し、又は消費した当該石油アスファルト等の種別及び当該石油アスファルト等の種別ごとの数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-50-2-p4-kou-4
     type: kou
-    text: 還付を受けようとする金額
+    text: 四　還付を受けようとする金額
     modality: unspecified
     item_number: 4
 - number: 5
@@ -112,8 +112,8 @@ paragraphs:
     text: 前項の規定による申請書には、同項第四号に掲げる金額の計算の基礎その他財務省令で定める事項を記載した書類を添付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false
@@ -147,12 +147,12 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-50-2-p8-kou-1
     type: kou
-    text: 石油コークス　当該石油コークスの重量一・三七キログラムにつき、容量一リットルとして計算する方法
+    text: 一　石油コークス　当該石油コークスの重量一・三七キログラムにつき、容量一リットルとして計算する方法
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-2-p8-kou-2
     type: kou
-    text: 石油アスファルト　当該石油アスファルトの重量一・〇三キログラムにつき、容量一リットルとして計算する方法
+    text: 二　石油アスファルト　当該石油アスファルトの重量一・〇三キログラムにつき、容量一リットルとして計算する方法
     modality: unspecified
     item_number: 2
 - number: 9
@@ -184,37 +184,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-50-2-p11-kou-1
     type: kou
-    text: 提出者の住所又は居所及び氏名又は名称並びに法人にあつては、法人番号
+    text: 一　提出者の住所又は居所及び氏名又は名称並びに法人にあつては、法人番号
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-2-p11-kou-2
     type: kou
-    text: 移入した製造場の所在地及び名称
+    text: 二　移入した製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-2-p11-kou-3
     type: kou
-    text: 移入の年月日
+    text: 三　移入の年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-50-2-p11-kou-4
     type: kou
-    text: 移入した石油等の残留物（法第九十条の六の二第三項に規定する石油等の残留物をいう。以下この条において同じ。）の種類
+    text: 四　移入した石油等の残留物（法第九十条の六の二第三項に規定する石油等の残留物をいう。以下この条において同じ。）の種類
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-50-2-p11-kou-5
     type: kou
-    text: 当該石油等の残留物を当該製造場に移出した者（第十四項において「移出者」という。）の住所又は居所及び氏名又は名称
+    text: 五　当該石油等の残留物を当該製造場に移出した者（第十四項において「移出者」という。）の住所又は居所及び氏名又は名称
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikkourei-art-50-2-p11-kou-6
     type: kou
-    text: 当該移出がされた場所の所在地及び名称
+    text: 六　当該移出がされた場所の所在地及び名称
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikkourei-art-50-2-p11-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 12
@@ -237,27 +237,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikkourei-art-50-2-p13-kou-1
     type: kou
-    text: 石油アスファルト等の製造のため使用した原料の種類、種類ごとの数量及び使用の年月日
+    text: 一　石油アスファルト等の製造のため使用した原料の種類、種類ごとの数量及び使用の年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-2-p13-kou-2
     type: kou
-    text: 製造した石油アスファルト等の種別、石油アスファルト等の種別ごとの数量及び製造の年月日
+    text: 二　製造した石油アスファルト等の種別、石油アスファルト等の種別ごとの数量及び製造の年月日
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-2-p13-kou-3
     type: kou
-    text: 貯蔵している石油アスファルト等の種別及び石油アスファルト等の種別ごとの数量
+    text: 三　貯蔵している石油アスファルト等の種別及び石油アスファルト等の種別ごとの数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-50-2-p13-kou-4
     type: kou
-    text: 消費した石油アスファルト等の種別、石油アスファルト等の種別ごとの消費数量、消費の年月日及びその用途
+    text: 四　消費した石油アスファルト等の種別、石油アスファルト等の種別ごとの消費数量、消費の年月日及びその用途
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-50-2-p13-kou-5
     type: kou
-    text: 移出した石油アスファルト等の種別、石油アスファルト等の種別ごとの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称並びに移出先の所在地及び名称
+    text: 五　移出した石油アスファルト等の種別、石油アスファルト等の種別ごとの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称並びに移出先の所在地及び名称
     modality: unspecified
     item_number: 5
 - number: 14
@@ -273,27 +273,27 @@ paragraphs:
     - 前項
   - id: sochi-hou-shikkourei-art-50-2-p14-kou-1
     type: kou
-    text: 移入した石油等の残留物の種類、種類ごとの数量及び移入の年月日並びに移出者の住所又は居所及び氏名又は名称並びに当該移出がされた場所の所在地及び名称
+    text: 一　移入した石油等の残留物の種類、種類ごとの数量及び移入の年月日並びに移出者の住所又は居所及び氏名又は名称並びに当該移出がされた場所の所在地及び名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-50-2-p14-kou-2
     type: kou
-    text: 貯蔵している石油等の残留物の種類及び種類ごとの数量
+    text: 二　貯蔵している石油等の残留物の種類及び種類ごとの数量
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-50-2-p14-kou-3
     type: kou
-    text: 消費した石油等の残留物の種類、種類ごとの消費数量、消費の年月日及びその用途
+    text: 三　消費した石油等の残留物の種類、種類ごとの消費数量、消費の年月日及びその用途
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-50-2-p14-kou-4
     type: kou
-    text: 移入した石油等の残留物を消費して製造した石油アスファルト等の種別、石油アスファルト等の種別ごとの数量及び製造の年月日
+    text: 四　移入した石油等の残留物を消費して製造した石油アスファルト等の種別、石油アスファルト等の種別ごとの数量及び製造の年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-50-2-p14-kou-5
     type: kou
-    text: 移出した石油等の残留物の種類、種類ごとの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称並びに移出先の所在地及び名称
+    text: 五　移出した石油等の残留物の種類、種類ごとの数量及び移出の年月日並びに受取人の住所又は居所及び氏名又は名称並びに移出先の所在地及び名称
     modality: unspecified
     item_number: 5
 - number: 15

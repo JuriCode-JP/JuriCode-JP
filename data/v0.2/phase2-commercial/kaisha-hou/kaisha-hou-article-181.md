@@ -22,8 +22,8 @@ paragraphs:
     text: 株式会社は、効力発生日の二週間前までに、株主（種類株式発行会社にあっては、前条第二項第三号の種類の種類株主。以下この款において同じ。）及びその登録株式質権者に対し、同項各号に掲げる事項を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

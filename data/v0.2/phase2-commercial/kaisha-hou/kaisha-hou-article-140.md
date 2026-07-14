@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-140-p1-kou-1
     type: kou
-    text: 対象株式を買い取る旨
+    text: 一　対象株式を買い取る旨
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-140-p1-kou-2
     type: kou
-    text: 株式会社が買い取る対象株式の数（種類株式発行会社にあっては、対象株式の種類及び種類ごとの数）
+    text: 二　株式会社が買い取る対象株式の数（種類株式発行会社にあっては、対象株式の種類及び種類ごとの数）
     modality: unspecified
     item_number: 2
 - number: 2

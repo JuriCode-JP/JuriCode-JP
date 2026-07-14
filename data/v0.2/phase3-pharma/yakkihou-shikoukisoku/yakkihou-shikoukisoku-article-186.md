@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-186-p2-kou-1
     type: kou
-    text: 許可証
+    text: 一　許可証
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-186-p2-kou-2
     type: kou
-    text: 変更し、又は追加しようとする修理区分に係る事業所の構造設備に関する書類
+    text: 二　変更し、又は追加しようとする修理区分に係る事業所の構造設備に関する書類
     modality: unspecified
     item_number: 2
 cases: []

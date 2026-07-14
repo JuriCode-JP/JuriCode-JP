@@ -23,52 +23,52 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-117-p1-kou-1
     type: kou
-    text: 認証番号及び認証年月日
+    text: 一　認証番号及び認証年月日
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-117-p1-kou-2
     type: kou
-    text: 基準適合性認証を受けた者の氏名及び住所
+    text: 二　基準適合性認証を受けた者の氏名及び住所
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-117-p1-kou-3
     type: kou
-    text: 基準適合性認証を受けた者（外国指定高度管理医療機器製造等事業者を除く。）の製造販売業の許可の種類及び許可番号
+    text: 三　基準適合性認証を受けた者（外国指定高度管理医療機器製造等事業者を除く。）の製造販売業の許可の種類及び許可番号
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-117-p1-kou-4
     type: kou
-    text: 当該品目の製造所の名称
+    text: 四　当該品目の製造所の名称
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-117-p1-kou-5
     type: kou
-    text: 当該品目の製造所が受けている製造業者又は医療機器等外国製造業者の登録番号
+    text: 五　当該品目の製造所が受けている製造業者又は医療機器等外国製造業者の登録番号
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-117-p1-kou-6
     type: kou
-    text: 当該品目の名称
+    text: 六　当該品目の名称
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-117-p1-kou-7
     type: kou
-    text: 当該品目の形状、構造及び原理
+    text: 七　当該品目の形状、構造及び原理
     modality: unspecified
     item_number: 7
   - id: yakkihou-shikoukisoku-art-117-p1-kou-8
     type: kou
-    text: 当該品目の反応系に関与する成分（体外診断用医薬品に限る。）
+    text: 八　当該品目の反応系に関与する成分（体外診断用医薬品に限る。）
     modality: unspecified
     item_number: 8
   - id: yakkihou-shikoukisoku-art-117-p1-kou-9
     type: kou
-    text: 当該品目の使用目的又は効果
+    text: 九　当該品目の使用目的又は効果
     modality: unspecified
     item_number: 9
   - id: yakkihou-shikoukisoku-art-117-p1-kou-10
     type: kou
-    text: 当該品目の使用方法
+    text: 十　当該品目の使用方法
     modality: unspecified
     item_number: 10
 - number: 2
@@ -82,12 +82,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-117-p2-kou-1
     type: kou
-    text: 法第二十三条の三第一項の規定により選任された製造販売業者（以下「選任外国製造指定高度管理医療機器等製造販売業者」という。）の氏名及び住所
+    text: 一　法第二十三条の三第一項の規定により選任された製造販売業者（以下「選任外国製造指定高度管理医療機器等製造販売業者」という。）の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-117-p2-kou-2
     type: kou
-    text: 当該選任外国製造指定高度管理医療機器等製造販売業者が受けている製造販売業の許可の種類及び許可番号
+    text: 二　当該選任外国製造指定高度管理医療機器等製造販売業者が受けている製造販売業の許可の種類及び許可番号
     modality: unspecified
     item_number: 2
 - number: 3

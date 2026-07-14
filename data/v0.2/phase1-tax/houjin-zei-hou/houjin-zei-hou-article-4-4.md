@@ -31,8 +31,8 @@ paragraphs:
     text: 前項に規定する場合には、同項の各受託者は、同項の法人課税信託の信託事務を主宰する受託者を納税義務者として当該法人課税信託に係る法人税を納めるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments:
 - effective_date: '2022-04-01'

@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の個人が所得税法第九十五条の規定の適用を受けない場合における同項の所得の総額は、当該個人の法の施行地外の事業に帰属する所得に対して外国において課された所得税に相当する税を必要な経費に算入しないものとして計算する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

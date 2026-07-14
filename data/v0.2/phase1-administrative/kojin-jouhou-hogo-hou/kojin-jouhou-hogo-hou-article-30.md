@@ -23,12 +23,12 @@ paragraphs:
     modality: jogai
   - id: kojin-jouhou-hogo-hou-art-30-p1-kou-1
     type: kou
-    text: 当該第三者の氏名又は名称及び住所並びに法人にあっては、その代表者の氏名
+    text: 一　当該第三者の氏名又は名称及び住所並びに法人にあっては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-30-p1-kou-2
     type: kou
-    text: 当該第三者による当該個人データの取得の経緯
+    text: 二　当該第三者による当該個人データの取得の経緯
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の第三者は、個人情報取扱事業者が同項の規定による確認を行う場合において、当該個人情報取扱事業者に対して、当該確認に係る事項を偽ってはならない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

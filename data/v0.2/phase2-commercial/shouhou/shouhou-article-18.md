@@ -31,8 +31,8 @@ paragraphs:
     text: 譲受人が前項の規定により譲渡人の債務を弁済する責任を負う場合には、譲渡人の責任は、同項の広告があった日後二年以内に請求又は請求の予告をしない債権者に対しては、その期間を経過した時に消滅する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

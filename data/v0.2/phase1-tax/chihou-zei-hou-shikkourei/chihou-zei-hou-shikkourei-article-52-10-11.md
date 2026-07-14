@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-52-10-11-p1-kou-1
     type: kou
-    text: 医療分野の基礎研究又は医療分野の基盤的研究開発（医療分野の共通的な研究開発又は医療分野の研究開発であつて多数部門の協力を要する総合的なものをいう。）に係る業務
+    text: 一　医療分野の基礎研究又は医療分野の基盤的研究開発（医療分野の共通的な研究開発又は医療分野の研究開発であつて多数部門の協力を要する総合的なものをいう。）に係る業務
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-52-10-11-p1-kou-2
     type: kou
-    text: 治験又は臨床研究に係る業務（その実施に要する費用について国から出資又は補助を受けて行われるものに限る。）
+    text: 二　治験又は臨床研究に係る業務（その実施に要する費用について国から出資又は補助を受けて行われるものに限る。）
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-52-10-11-p1-kou-3
     type: kou
-    text: 前二号に掲げるもののほか、企業化が困難な技術に関する医療分野の研究開発（その実施に要する費用の全額について国から出資又は補助を受けて行われるものに限る。）
+    text: 三　前二号に掲げるもののほか、企業化が困難な技術に関する医療分野の研究開発（その実施に要する費用の全額について国から出資又は補助を受けて行われるものに限る。）
     modality: unspecified
     item_number: 3
 cases: []

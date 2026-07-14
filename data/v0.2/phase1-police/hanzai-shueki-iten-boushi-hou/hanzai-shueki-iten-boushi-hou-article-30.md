@@ -31,8 +31,8 @@ paragraphs:
     text: 相手方に前項前段の目的があることの情を知って、その者に暗号資産交換用情報を提供した者も、同項と同様とする。通常の商取引として行われるものであることその他の正当な理由がないのに、有償で、暗号資産交換用情報を提供した者も、同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

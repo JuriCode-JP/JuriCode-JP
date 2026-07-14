@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-11-3-p2-kou-1
     type: kou
-    text: 訂正の対象となる外国会社届出書及びその補足書類の提出日
+    text: 一　訂正の対象となる外国会社届出書及びその補足書類の提出日
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-11-3-p2-kou-2
     type: kou
-    text: 訂正の理由
+    text: 二　訂正の理由
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-11-3-p2-kou-3
     type: kou
-    text: 訂正の箇所及びその内容
+    text: 三　訂正の箇所及びその内容
     modality: unspecified
     item_number: 3
 cases: []

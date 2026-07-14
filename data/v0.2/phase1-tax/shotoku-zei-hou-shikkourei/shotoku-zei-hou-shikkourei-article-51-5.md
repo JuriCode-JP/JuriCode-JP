@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-51-5-p1-kou-1
     type: kou
-    text: 当該農業協同組合連合会の行う事業は、農業協同組合法第十条第一項第十一号（医療に関する施設）に掲げる事業（これに附帯する事業を含む。）又は当該事業及び同項第十二号（老人の福祉に関する施設）に掲げる事業（これらに附帯する事業を含む。）に限る旨の定め
+    text: 一　当該農業協同組合連合会の行う事業は、農業協同組合法第十条第一項第十一号（医療に関する施設）に掲げる事業（これに附帯する事業を含む。）又は当該事業及び同項第十二号（老人の福祉に関する施設）に掲げる事業（これらに附帯する事業を含む。）に限る旨の定め
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-51-5-p1-kou-2
     type: kou
-    text: 当該農業協同組合連合会は、剰余金の配当（出資に係るものに限る。）を行わない旨の定め
+    text: 二　当該農業協同組合連合会は、剰余金の配当（出資に係るものに限る。）を行わない旨の定め
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-51-5-p1-kou-3
     type: kou
-    text: 当該農業協同組合連合会が解散したときは、その残余財産が国若しくは地方公共団体又は第一号に規定する事業を行う他の農業協同組合連合会に帰属する旨の定め
+    text: 三　当該農業協同組合連合会が解散したときは、その残余財産が国若しくは地方公共団体又は第一号に規定する事業を行う他の農業協同組合連合会に帰属する旨の定め
     modality: unspecified
     item_number: 3
 - number: 2

@@ -30,6 +30,10 @@ paragraphs:
     type: simple
     text: 路面電車又はトロリーバスは、軌道法（大正十年法律第七十六号）第十四条（同法第三十一条において準用する場合を含む。第六十二条において同じ。）の規定に基づく命令で定める最高速度をこえない範囲内で道路標識等によりその最高速度が指定されている道路においてはその最高速度を、その他の道路においては当該命令で定める最高速度をこえる速度で進行してはならない。
     modality: gimu_negative
+  - id: douro-koutsuu-hou-art-22-supplnote-1
+    type: supplnote
+    text: （罰則　第百十八条第一項第一号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

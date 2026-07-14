@@ -23,67 +23,67 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-79-34-p1-kou-1
     type: kou
-    text: 目的
+    text: 一　目的
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-34-p1-kou-2
     type: kou
-    text: 名称
+    text: 二　名称
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-79-34-p1-kou-3
     type: kou
-    text: 事務所の所在地
+    text: 三　事務所の所在地
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-79-34-p1-kou-4
     type: kou
-    text: 会員に関する事項（業務の種類に関する特別の事由等により会員の加入を制限する場合は、当該特別の事由等を含む。）
+    text: 四　会員に関する事項（業務の種類に関する特別の事由等により会員の加入を制限する場合は、当該特別の事由等を含む。）
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-79-34-p1-kou-5
     type: kou
-    text: 総会に関する事項
+    text: 五　総会に関する事項
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-79-34-p1-kou-6
     type: kou
-    text: 役員に関する事項
+    text: 六　役員に関する事項
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-79-34-p1-kou-7
     type: kou
-    text: 運営審議会に関する事項
+    text: 七　運営審議会に関する事項
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-79-34-p1-kou-8
     type: kou
-    text: 業務及びその執行に関する事項
+    text: 八　業務及びその執行に関する事項
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-art-79-34-p1-kou-9
     type: kou
-    text: 負担金に関する事項
+    text: 九　負担金に関する事項
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-art-79-34-p1-kou-10
     type: kou
-    text: 財務及び会計に関する事項
+    text: 十　財務及び会計に関する事項
     modality: unspecified
     item_number: 10
   - id: kinsho-hou-art-79-34-p1-kou-11
     type: kou
-    text: 定款の変更に関する事項
+    text: 十一　定款の変更に関する事項
     modality: unspecified
     item_number: 11
   - id: kinsho-hou-art-79-34-p1-kou-12
     type: kou
-    text: 解散に関する事項
+    text: 十二　解散に関する事項
     modality: unspecified
     item_number: 12
   - id: kinsho-hou-art-79-34-p1-kou-13
     type: kou
-    text: 公告の方法
+    text: 十三　公告の方法
     modality: unspecified
     item_number: 13
 - number: 2

@@ -32,22 +32,22 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p2-kou-1
     type: kou
-    text: 児童福祉法第六条の二の二第一項に規定する障害児通所支援事業（同条第二項に規定する児童発達支援を行う事業に限る。）が行われる施設
+    text: 一　児童福祉法第六条の二の二第一項に規定する障害児通所支援事業（同条第二項に規定する児童発達支援を行う事業に限る。）が行われる施設
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p2-kou-2
     type: kou
-    text: 児童福祉法第六条の三第九項に規定する家庭的保育事業、同条第十項に規定する小規模保育事業、同条第十一項に規定する居宅訪問型保育事業又は同条第十二項に規定する事業所内保育事業に係る施設
+    text: 二　児童福祉法第六条の三第九項に規定する家庭的保育事業、同条第十項に規定する小規模保育事業、同条第十一項に規定する居宅訪問型保育事業又は同条第十二項に規定する事業所内保育事業に係る施設
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p2-kou-3
     type: kou
-    text: 児童福祉法第五十九条の二第一項に規定する施設であつて、子ども・子育て支援法（平成二十四年法律第六十五号）第六十一条第一項に規定する市町村子ども・子育て支援事業計画において教育・保育を目的とする施設として定められているもの
+    text: 三　児童福祉法第五十九条の二第一項に規定する施設であつて、子ども・子育て支援法（平成二十四年法律第六十五号）第六十一条第一項に規定する市町村子ども・子育て支援事業計画において教育・保育を目的とする施設として定められているもの
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-5-3-p2-kou-4
     type: kou
-    text: 児童福祉法第五十九条の二第一項に規定する施設であつて、内閣総理大臣及び文部科学大臣が財務大臣と協議して定める事項に該当するもの（前号に掲げるものを除く。）
+    text: 四　児童福祉法第五十九条の二第一項に規定する施設であつて、内閣総理大臣及び文部科学大臣が財務大臣と協議して定める事項に該当するもの（前号に掲げるものを除く。）
     modality: unspecified
     item_number: 4
 - number: 3
@@ -70,12 +70,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p4-kou-1
     type: kou
-    text: 普通預金（普通貯金を含む。）又は貯蓄預金（貯蓄貯金を含む。）に係る契約
+    text: 一　普通預金（普通貯金を含む。）又は貯蓄預金（貯蓄貯金を含む。）に係る契約
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p4-kou-2
     type: kou
-    text: 定期預金（定期貯金を含む。）又は通知預金（通知貯金を含む。）に係る契約
+    text: 二　定期預金（定期貯金を含む。）又は通知預金（通知貯金を含む。）に係る契約
     modality: unspecified
     item_number: 2
 - number: 5
@@ -89,37 +89,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p5-kou-1
     type: kou
-    text: 法第七十条の二の二第二項第二号に規定する受贈者（以下この条において「受贈者」という。）の氏名、住所又は居所及び個人番号（個人番号を有しない者にあつては、氏名及び住所又は居所。以下この条において同じ。）並びに生年月日
+    text: 一　法第七十条の二の二第二項第二号に規定する受贈者（以下この条において「受贈者」という。）の氏名、住所又は居所及び個人番号（個人番号を有しない者にあつては、氏名及び住所又は居所。以下この条において同じ。）並びに生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p5-kou-2
     type: kou
-    text: 法第七十条の二の二第十二項に規定する贈与者（以下この条において「贈与者」という。）の氏名、住所又は居所、生年月日及び前号の受贈者との続柄
+    text: 二　法第七十条の二の二第十二項に規定する贈与者（以下この条において「贈与者」という。）の氏名、住所又は居所、生年月日及び前号の受贈者との続柄
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p5-kou-3
     type: kou
-    text: 前号の贈与者からの信託又は書面による贈与（贈与をした者の死亡により効力を生ずる贈与を除く。以下この条において同じ。）により取得をした法第七十条の二の二第一項に規定する信託受益権（以下この条において「信託受益権」という。）、金銭又は同項に規定する金銭等（以下この条において「金銭等」という。）の価額及び当該信託受益権、金銭又は金銭等の価額のうち同項本文の規定の適用を受けようとする価額
+    text: 三　前号の贈与者からの信託又は書面による贈与（贈与をした者の死亡により効力を生ずる贈与を除く。以下この条において同じ。）により取得をした法第七十条の二の二第一項に規定する信託受益権（以下この条において「信託受益権」という。）、金銭又は同項に規定する金銭等（以下この条において「金銭等」という。）の価額及び当該信託受益権、金銭又は金銭等の価額のうち同項本文の規定の適用を受けようとする価額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-5-3-p5-kou-4
     type: kou
-    text: 第二号の贈与者からの書面による贈与により金銭又は金銭等の取得をした場合にあつては、当該取得の年月日
+    text: 四　第二号の贈与者からの書面による贈与により金銭又は金銭等の取得をした場合にあつては、当該取得の年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-23-5-3-p5-kou-5
     type: kou
-    text: 法第七十条の二の二第二項第五号に規定する取扱金融機関（以下この条において「取扱金融機関」という。）の法第七十条の二の二第一項に規定する営業所等（以下この条において「営業所等」という。）の名称及び所在地
+    text: 五　法第七十条の二の二第二項第五号に規定する取扱金融機関（以下この条において「取扱金融機関」という。）の法第七十条の二の二第一項に規定する営業所等（以下この条において「営業所等」という。）の名称及び所在地
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-23-5-3-p5-kou-6
     type: kou
-    text: 第一号の受贈者が施行令第四十条の四の三第三項第六号に規定する教育資金非課税申告書等（以下この条において「教育資金非課税申告書等」という。）を提出したことがある場合にあつては、当該教育資金非課税申告書等に記載した法第七十条の二の二第二項第四号に規定する非課税拠出額（以下この条において「非課税拠出額」という。）並びに取扱金融機関の営業所等の名称及び所在地並びに当該教育資金非課税申告書等を提出した税務署の名称
+    text: 六　第一号の受贈者が施行令第四十条の四の三第三項第六号に規定する教育資金非課税申告書等（以下この条において「教育資金非課税申告書等」という。）を提出したことがある場合にあつては、当該教育資金非課税申告書等に記載した法第七十条の二の二第二項第四号に規定する非課税拠出額（以下この条において「非課税拠出額」という。）並びに取扱金融機関の営業所等の名称及び所在地並びに当該教育資金非課税申告書等を提出した税務署の名称
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-23-5-3-p5-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 6
@@ -133,32 +133,32 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p6-kou-1
     type: kou
-    text: 受贈者の氏名、住所又は居所及び個人番号並びに生年月日
+    text: 一　受贈者の氏名、住所又は居所及び個人番号並びに生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p6-kou-2
     type: kou
-    text: 贈与者の氏名、住所又は居所、生年月日及び前号の受贈者との続柄
+    text: 二　贈与者の氏名、住所又は居所、生年月日及び前号の受贈者との続柄
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p6-kou-3
     type: kou
-    text: 前号の贈与者からの信託又は書面による贈与により新たに取得をした信託受益権、金銭又は金銭等の価額及び当該信託受益権、金銭又は金銭等の価額のうち新たに法第七十条の二の二第一項本文の規定の適用を受けようとする価額
+    text: 三　前号の贈与者からの信託又は書面による贈与により新たに取得をした信託受益権、金銭又は金銭等の価額及び当該信託受益権、金銭又は金銭等の価額のうち新たに法第七十条の二の二第一項本文の規定の適用を受けようとする価額
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-5-3-p6-kou-4
     type: kou
-    text: 第二号の贈与者からの書面による贈与により金銭又は金銭等の取得をした場合にあつては、当該取得の年月日
+    text: 四　第二号の贈与者からの書面による贈与により金銭又は金銭等の取得をした場合にあつては、当該取得の年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-23-5-3-p6-kou-5
     type: kou
-    text: 第一号の受贈者が既に提出した教育資金非課税申告書等に記載した非課税拠出額並びに取扱金融機関の営業所等の名称及び所在地並びに当該教育資金非課税申告書等を提出した税務署の名称
+    text: 五　第一号の受贈者が既に提出した教育資金非課税申告書等に記載した非課税拠出額並びに取扱金融機関の営業所等の名称及び所在地並びに当該教育資金非課税申告書等を提出した税務署の名称
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-23-5-3-p6-kou-6
     type: kou
-    text: その他参考となるべき事項
+    text: 六　その他参考となるべき事項
     modality: unspecified
     item_number: 6
 - number: 7
@@ -220,12 +220,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p11-kou-1
     type: kou
-    text: 領収書等　当該領収書等又はその写しを各人別に整理し保存する方法
+    text: 一　領収書等　当該領収書等又はその写しを各人別に整理し保存する方法
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p11-kou-2
     type: kou
-    text: 法第七十条の二の二第十項に規定する記録　当該記録を各人別に整理し保存する方法
+    text: 二　法第七十条の二の二第十項に規定する記録　当該記録を各人別に整理し保存する方法
     modality: unspecified
     item_number: 2
 - number: 12
@@ -252,16 +252,16 @@ paragraphs:
     - 同項
   - id: sochi-hou-shikoukisoku-art-23-5-3-p13-kou-1
     type: kou
-    text: '法第七十条の二の二第十五項第一号の贈与者に係る相続税の課税価格の合計額（同条第十三項ただし書に規定する贈与者に係る相続税の課税価格の合計額をいう。以下この項及び第二十五項第四号イにおいて同じ。）が五億円を超える場合　その旨を記載した書類及び次に掲げる場合の区分に応じ、それぞれ次に定める書類
+    text: '一　法第七十条の二の二第十五項第一号の贈与者に係る相続税の課税価格の合計額（同条第十三項ただし書に規定する贈与者に係る相続税の課税価格の合計額をいう。以下この項及び第二十五項第四号イにおいて同じ。）が五億円を超える場合　その旨を記載した書類及び次に掲げる場合の区分に応じ、それぞれ次に定める書類
 
-      イ 受贈者が法第七十条の二の二第十五項の贈与者の死亡に係る相続税法第二十七条第一項の規定による申告書を提出している場合　当該申告書の写し
+      イ　受贈者が法第七十条の二の二第十五項の贈与者の死亡に係る相続税法第二十七条第一項の規定による申告書を提出している場合　当該申告書の写し
 
-      ロ イに掲げる場合以外の場合　当該贈与者に係る相続税の課税価格の合計額の計算に関する明細を記載した書類'
+      ロ　イに掲げる場合以外の場合　当該贈与者に係る相続税の課税価格の合計額の計算に関する明細を記載した書類'
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p13-kou-2
     type: kou
-    text: 前号に掲げる場合以外の場合　法第七十条の二の二第十五項第一号の贈与者に係る相続税の課税価格の合計額が五億円を超えない旨を記載した書類
+    text: 二　前号に掲げる場合以外の場合　法第七十条の二の二第十五項第一号の贈与者に係る相続税の課税価格の合計額が五億円を超えない旨を記載した書類
     modality: unspecified
     item_number: 2
 - number: 14
@@ -284,12 +284,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p15-kou-1
     type: kou
-    text: 受贈者の氏名、住所又は居所及び生年月日
+    text: 一　受贈者の氏名、住所又は居所及び生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p15-kou-2
     type: kou
-    text: 前号の受贈者が三十歳に達した日において在学していた法第七十条の二の二第二項第一号イに規定する学校等（次項第二号において「学校等」という。）の名称及び所在地又は受講していた同条第十三項第三号に規定する教育訓練（次項第二号において「教育訓練」という。）の講座名及び指定番号並びに当該教育訓練に係る教育訓練施設の名称及び所在地
+    text: 二　前号の受贈者が三十歳に達した日において在学していた法第七十条の二の二第二項第一号イに規定する学校等（次項第二号において「学校等」という。）の名称及び所在地又は受講していた同条第十三項第三号に規定する教育訓練（次項第二号において「教育訓練」という。）の講座名及び指定番号並びに当該教育訓練に係る教育訓練施設の名称及び所在地
     modality: unspecified
     item_number: 2
 - number: 16
@@ -303,12 +303,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p16-kou-1
     type: kou
-    text: 受贈者の氏名、住所又は居所及び生年月日
+    text: 一　受贈者の氏名、住所又は居所及び生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p16-kou-2
     type: kou
-    text: 前号の受贈者がその年において在学していた学校等の名称及び所在地又は受講していた教育訓練の講座名及び指定番号並びに当該教育訓練に係る教育訓練施設の名称及び所在地
+    text: 二　前号の受贈者がその年において在学していた学校等の名称及び所在地又は受講していた教育訓練の講座名及び指定番号並びに当該教育訓練に係る教育訓練施設の名称及び所在地
     modality: unspecified
     item_number: 2
 - number: 17
@@ -333,27 +333,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p18-kou-1
     type: kou
-    text: 受贈者の氏名、住所又は居所及び個人番号並びに生年月日
+    text: 一　受贈者の氏名、住所又は居所及び個人番号並びに生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p18-kou-2
     type: kou
-    text: 前号の受贈者が既に提出した教育資金非課税申告書等に係る取扱金融機関の営業所等の名称及び所在地
+    text: 二　前号の受贈者が既に提出した教育資金非課税申告書等に係る取扱金融機関の営業所等の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p18-kou-3
     type: kou
-    text: 前号の教育資金非課税申告書等に記載した非課税拠出額、贈与者の氏名及び当該教育資金非課税申告書等を提出した税務署の名称
+    text: 三　前号の教育資金非課税申告書等に記載した非課税拠出額、贈与者の氏名及び当該教育資金非課税申告書等を提出した税務署の名称
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-5-3-p18-kou-4
     type: kou
-    text: 施行令第四十条の四の三第二十七項の取消権の行使又は同項の遺留分侵害額の請求の基因となつた事情の詳細及びその事情の生じた年月日
+    text: 四　施行令第四十条の四の三第二十七項の取消権の行使又は同項の遺留分侵害額の請求の基因となつた事情の詳細及びその事情の生じた年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-23-5-3-p18-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 19
@@ -367,27 +367,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p19-kou-1
     type: kou
-    text: 受贈者の氏名、住所又は居所及び個人番号並びに生年月日
+    text: 一　受贈者の氏名、住所又は居所及び個人番号並びに生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p19-kou-2
     type: kou
-    text: 前号の受贈者が既に提出した教育資金非課税申告書等に係る取扱金融機関の営業所等の名称及び所在地
+    text: 二　前号の受贈者が既に提出した教育資金非課税申告書等に係る取扱金融機関の営業所等の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p19-kou-3
     type: kou
-    text: 前号の教育資金非課税申告書等に記載した非課税拠出額、贈与者の氏名及び当該教育資金非課税申告書等を提出した税務署の名称
+    text: 三　前号の教育資金非課税申告書等に記載した非課税拠出額、贈与者の氏名及び当該教育資金非課税申告書等を提出した税務署の名称
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-5-3-p19-kou-4
     type: kou
-    text: 前号の非課税拠出額がないこととなつた事情又は施行令第四十条の四の三第三十項の遺留分侵害額の請求の基因となつた事情の詳細及びその事情の生じた年月日
+    text: 四　前号の非課税拠出額がないこととなつた事情又は施行令第四十条の四の三第三十項の遺留分侵害額の請求の基因となつた事情の詳細及びその事情の生じた年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-23-5-3-p19-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 20
@@ -401,17 +401,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p20-kou-1
     type: kou
-    text: 受贈者の氏名、住所又は居所及び個人番号並びに生年月日（当該受贈者が氏名又は住所若しくは居所の変更をした場合には、当該受贈者の氏名、住所又は居所及び生年月日）
+    text: 一　受贈者の氏名、住所又は居所及び個人番号並びに生年月日（当該受贈者が氏名又は住所若しくは居所の変更をした場合には、当該受贈者の氏名、住所又は居所及び生年月日）
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p20-kou-2
     type: kou
-    text: 施行令第四十条の四の三第三十三項に規定する変更前の氏名、住所若しくは居所又は個人番号及び変更後の氏名、住所若しくは居所又は個人番号
+    text: 二　施行令第四十条の四の三第三十三項に規定する変更前の氏名、住所若しくは居所又は個人番号及び変更後の氏名、住所若しくは居所又は個人番号
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p20-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 21
@@ -434,17 +434,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p22-kou-1
     type: kou
-    text: 受贈者の氏名、住所又は居所及び個人番号並びに生年月日
+    text: 一　受贈者の氏名、住所又は居所及び個人番号並びに生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p22-kou-2
     type: kou
-    text: 施行令第四十条の四の三第三十四項に規定する移管前の営業所等の名称及び所在地並びに同項に規定する移管先の営業所等の名称及び所在地
+    text: 二　施行令第四十条の四の三第三十四項に規定する移管前の営業所等の名称及び所在地並びに同項に規定する移管先の営業所等の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p22-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 23
@@ -458,27 +458,27 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p23-kou-1
     type: kou
-    text: 教育資金管理契約に関する事務の全部の移管がされた施行令第四十条の四の三第三十九項に規定する移管先の営業所等の名称、所在地及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第十六項に規定する法人番号をいう。以下この章において同じ。）並びにその移管がされた年月日
+    text: 一　教育資金管理契約に関する事務の全部の移管がされた施行令第四十条の四の三第三十九項に規定する移管先の営業所等の名称、所在地及び法人番号（行政手続における特定の個人を識別するための番号の利用等に関する法律第二条第十六項に規定する法人番号をいう。以下この章において同じ。）並びにその移管がされた年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p23-kou-2
     type: kou
-    text: 前号の教育資金管理契約に関する事務の全部の移管をした取扱金融機関の営業所等の名称及び所在地
+    text: 二　前号の教育資金管理契約に関する事務の全部の移管をした取扱金融機関の営業所等の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p23-kou-3
     type: kou
-    text: 第一号の移管があつた教育資金管理契約に係る教育資金非課税申告書等を提出した受贈者の氏名及び住所又は居所並びに生年月日
+    text: 三　第一号の移管があつた教育資金管理契約に係る教育資金非課税申告書等を提出した受贈者の氏名及び住所又は居所並びに生年月日
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-5-3-p23-kou-4
     type: kou
-    text: 前号の受贈者が既に提出した教育資金非課税申告書等に記載した非課税拠出額並びに取扱金融機関の営業所等の名称及び所在地並びに当該教育資金非課税申告書等を提出した税務署の名称
+    text: 四　前号の受贈者が既に提出した教育資金非課税申告書等に記載した非課税拠出額並びに取扱金融機関の営業所等の名称及び所在地並びに当該教育資金非課税申告書等を提出した税務署の名称
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-23-5-3-p23-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 24
@@ -492,37 +492,37 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p24-kou-1
     type: kou
-    text: 法第七十条の二の二第十九項に規定する教育資金管理契約の終了に関する調書に係る教育資金管理契約が終了した日における当該教育資金管理契約に係る受贈者の氏名、住所又は居所及び個人番号並びに生年月日
+    text: 一　法第七十条の二の二第十九項に規定する教育資金管理契約の終了に関する調書に係る教育資金管理契約が終了した日における当該教育資金管理契約に係る受贈者の氏名、住所又は居所及び個人番号並びに生年月日
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p24-kou-2
     type: kou
-    text: 前号の教育資金管理契約に係る贈与者の氏名
+    text: 二　前号の教育資金管理契約に係る贈与者の氏名
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p24-kou-3
     type: kou
-    text: 第一号の教育資金管理契約が終了した事由及び終了した日（当該教育資金管理契約が法第七十条の二の二第十六項第四号に掲げる事由により終了した場合にあつては、当該教育資金管理契約が終了した日及び取扱金融機関の営業所等の長が当該事由を知つた日）
+    text: 三　第一号の教育資金管理契約が終了した事由及び終了した日（当該教育資金管理契約が法第七十条の二の二第十六項第四号に掲げる事由により終了した場合にあつては、当該教育資金管理契約が終了した日及び取扱金融機関の営業所等の長が当該事由を知つた日）
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-5-3-p24-kou-4
     type: kou
-    text: 第一号の教育資金管理契約に係る非課税拠出額及び法第七十条の二の二第二項第五号に規定する教育資金支出額（同項第一号ロに掲げる教育資金については、五百万円を限度とする。）
+    text: 四　第一号の教育資金管理契約に係る非課税拠出額及び法第七十条の二の二第二項第五号に規定する教育資金支出額（同項第一号ロに掲げる教育資金については、五百万円を限度とする。）
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikoukisoku-art-23-5-3-p24-kou-5
     type: kou
-    text: 第二号の贈与者が第一号の教育資金管理契約の終了の日までに死亡した場合において、その死亡につき法第七十条の二の二第十二項第二号の規定の適用があつたときは、当該贈与者の氏名、当該贈与者が死亡した年月日及び同号の規定により相続又は遺贈により取得したものとみなされた当該贈与者に係る同項第一号に規定する管理残額
+    text: 五　第二号の贈与者が第一号の教育資金管理契約の終了の日までに死亡した場合において、その死亡につき法第七十条の二の二第十二項第二号の規定の適用があつたときは、当該贈与者の氏名、当該贈与者が死亡した年月日及び同号の規定により相続又は遺贈により取得したものとみなされた当該贈与者に係る同項第一号に規定する管理残額
     modality: unspecified
     item_number: 5
   - id: sochi-hou-shikoukisoku-art-23-5-3-p24-kou-6
     type: kou
-    text: 第一号の教育資金管理契約に係る教育資金非課税申告書等、施行令第四十条の四の三第二十八項に規定する教育資金非課税取消申告書又は同条第三十五項に規定する教育資金管理契約に関する異動申告書を提出した税務署の名称及び提出年月日
+    text: 六　第一号の教育資金管理契約に係る教育資金非課税申告書等、施行令第四十条の四の三第二十八項に規定する教育資金非課税取消申告書又は同条第三十五項に規定する教育資金管理契約に関する異動申告書を提出した税務署の名称及び提出年月日
     modality: unspecified
     item_number: 6
   - id: sochi-hou-shikoukisoku-art-23-5-3-p24-kou-7
     type: kou
-    text: その他参考となるべき事項
+    text: 七　その他参考となるべき事項
     modality: unspecified
     item_number: 7
 - number: 25
@@ -536,50 +536,50 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-23-5-3-p25-kou-1
     type: kou
-    text: '税務署長が法第七十条の二の二第二十項第一号に掲げる事実を知つた場合　次に掲げる事項
+    text: '一　税務署長が法第七十条の二の二第二十項第一号に掲げる事実を知つた場合　次に掲げる事項
 
-      イ 受贈者が教育資金の支払に充てるために取扱金融機関の営業所等から払い出した金銭が教育資金の支払に充てられていない旨
+      イ　受贈者が教育資金の支払に充てるために取扱金融機関の営業所等から払い出した金銭が教育資金の支払に充てられていない旨
 
-      ロ イの受贈者の氏名、住所又は居所及び生年月日
+      ロ　イの受贈者の氏名、住所又は居所及び生年月日
 
-      ハ イの教育資金の支払に充てられていない金銭の額
+      ハ　イの教育資金の支払に充てられていない金銭の額
 
-      ニ その他参考となるべき事項'
+      ニ　その他参考となるべき事項'
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-23-5-3-p25-kou-2
     type: kou
-    text: '税務署長が法第七十条の二の二第二十項第二号に掲げる事実を知つた場合　次に掲げる事項
+    text: '二　税務署長が法第七十条の二の二第二十項第二号に掲げる事実を知つた場合　次に掲げる事項
 
-      イ 受贈者に係る教育資金非課税申告書等が二以上の取扱金融機関の営業所等に提出された旨又は受贈者に係る教育資金非課税申告書等に記載された非課税拠出額が千五百万円を超えている旨
+      イ　受贈者に係る教育資金非課税申告書等が二以上の取扱金融機関の営業所等に提出された旨又は受贈者に係る教育資金非課税申告書等に記載された非課税拠出額が千五百万円を超えている旨
 
-      ロ イの受贈者の氏名、住所又は居所及び生年月日
+      ロ　イの受贈者の氏名、住所又は居所及び生年月日
 
-      ハ その他参考となるべき事項'
+      ハ　その他参考となるべき事項'
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-23-5-3-p25-kou-3
     type: kou
-    text: '税務署長が法第七十条の二の二第二十項第三号に掲げる事実を知つた場合　次に掲げる事項
+    text: '三　税務署長が法第七十条の二の二第二十項第三号に掲げる事実を知つた場合　次に掲げる事項
 
-      イ 受贈者が贈与者から法第七十条の二の二第一項本文の規定の適用に係る信託受益権、金銭又は金銭等を取得した日の属する年の前年分の当該受贈者の所得税に係る所得税法第二条第一項第三十号の合計所得金額が千万円を超えている旨
+      イ　受贈者が贈与者から法第七十条の二の二第一項本文の規定の適用に係る信託受益権、金銭又は金銭等を取得した日の属する年の前年分の当該受贈者の所得税に係る所得税法第二条第一項第三十号の合計所得金額が千万円を超えている旨
 
-      ロ イの受贈者の氏名、住所又は居所及び生年月日
+      ロ　イの受贈者の氏名、住所又は居所及び生年月日
 
-      ハ その他参考となるべき事項'
+      ハ　その他参考となるべき事項'
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikoukisoku-art-23-5-3-p25-kou-4
     type: kou
-    text: '税務署長が法第七十条の二の二第二十項第四号に掲げる事実を知つた場合　次に掲げる事項
+    text: '四　税務署長が法第七十条の二の二第二十項第四号に掲げる事実を知つた場合　次に掲げる事項
 
-      イ 受贈者の贈与者に係る相続税の課税価格の合計額が五億円を超えた旨又は五億円以下となつた旨
+      イ　受贈者の贈与者に係る相続税の課税価格の合計額が五億円を超えた旨又は五億円以下となつた旨
 
-      ロ イの受贈者の氏名、住所又は居所及び生年月日
+      ロ　イの受贈者の氏名、住所又は居所及び生年月日
 
-      ハ 当該事実に係る贈与者の氏名及び当該贈与者が死亡した年月日
+      ハ　当該事実に係る贈与者の氏名及び当該贈与者が死亡した年月日
 
-      ニ その他参考となるべき事項'
+      ニ　その他参考となるべき事項'
     modality: unspecified
     item_number: 4
 - number: 26

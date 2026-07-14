@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: chihou-jichi-hou-art-180-5-p1-kou-1
     type: kou
-    text: 教育委員会
+    text: 一　教育委員会
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-180-5-p1-kou-2
     type: kou
-    text: 選挙管理委員会
+    text: 二　選挙管理委員会
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-180-5-p1-kou-3
     type: kou
-    text: 人事委員会又は人事委員会を置かない普通地方公共団体にあつては公平委員会
+    text: 三　人事委員会又は人事委員会を置かない普通地方公共団体にあつては公平委員会
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-180-5-p1-kou-4
     type: kou
-    text: 監査委員
+    text: 四　監査委員
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,27 +54,27 @@ paragraphs:
     - 前項
   - id: chihou-jichi-hou-art-180-5-p2-kou-1
     type: kou
-    text: 公安委員会
+    text: 一　公安委員会
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-180-5-p2-kou-2
     type: kou
-    text: 労働委員会
+    text: 二　労働委員会
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-180-5-p2-kou-3
     type: kou
-    text: 収用委員会
+    text: 三　収用委員会
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-180-5-p2-kou-4
     type: kou
-    text: 海区漁業調整委員会
+    text: 四　海区漁業調整委員会
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-180-5-p2-kou-5
     type: kou
-    text: 内水面漁場管理委員会
+    text: 五　内水面漁場管理委員会
     modality: unspecified
     item_number: 5
 - number: 3
@@ -88,12 +88,12 @@ paragraphs:
     modality: unspecified
   - id: chihou-jichi-hou-art-180-5-p3-kou-1
     type: kou
-    text: 農業委員会
+    text: 一　農業委員会
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-180-5-p3-kou-2
     type: kou
-    text: 固定資産評価審査委員会
+    text: 二　固定資産評価審査委員会
     modality: unspecified
     item_number: 2
 - number: 4
@@ -135,8 +135,8 @@ paragraphs:
     text: 法律に特別の定めがあるものを除くほか、普通地方公共団体の委員会の委員（教育委員会にあつては、教育長及び委員）又は委員が前項の規定に該当するときは、その職を失う。その同項の規定に該当するかどうかは、その選任権者がこれを決定しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false

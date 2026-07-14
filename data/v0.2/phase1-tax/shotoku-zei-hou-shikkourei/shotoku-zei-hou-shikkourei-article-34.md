@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-1
     type: kou
-    text: 提出者の氏名、生年月日及び住所
+    text: 一　提出者の氏名、生年月日及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-2
     type: kou
-    text: 障害者等に該当する事実
+    text: 二　障害者等に該当する事実
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-3
     type: kou
-    text: 預貯金等のうち、提出者がその金融機関の営業所等を経由して提出した非課税貯蓄申告書に記載したものの種別
+    text: 三　預貯金等のうち、提出者がその金融機関の営業所等を経由して提出した非課税貯蓄申告書に記載したものの種別
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-4
     type: kou
-    text: 預入等をする前号の預貯金等で法第十条第一項の規定の適用を受けようとするものの金額（当該預貯金等が有価証券である場合には、その額面金額等）
+    text: 四　預入等をする前号の預貯金等で法第十条第一項の規定の適用を受けようとするものの金額（当該預貯金等が有価証券である場合には、その額面金額等）
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikkourei-art-34-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 - number: 2

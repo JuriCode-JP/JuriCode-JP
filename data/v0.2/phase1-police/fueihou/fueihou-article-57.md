@@ -25,12 +25,12 @@ paragraphs:
     - 本条
   - id: fueihou-art-57-p1-kou-1
     type: kou
-    text: 第四十九条　三億円以下の罰金刑
+    text: 一　第四十九条　三億円以下の罰金刑
     modality: unspecified
     item_number: 1
   - id: fueihou-art-57-p1-kou-2
     type: kou
-    text: 第五十条、第五十一条第一項又は第五十三条から前条まで　各本条の罰金刑
+    text: 二　第五十条、第五十一条第一項又は第五十三条から前条まで　各本条の罰金刑
     modality: unspecified
     item_number: 2
 - number: 2

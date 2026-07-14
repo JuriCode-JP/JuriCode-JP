@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-199-p1-kou-1
     type: kou
-    text: 出願者の氏名
+    text: 一　出願者の氏名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-199-p1-kou-2
     type: kou
-    text: 医薬品、医療機器又は再生医療等製品の名称
+    text: 二　医薬品、医療機器又は再生医療等製品の名称
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-199-p1-kou-3
     type: kou
-    text: 製造番号又は製造記号
+    text: 三　製造番号又は製造記号
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-199-p1-kou-4
     type: kou
-    text: 製造年月日
+    text: 四　製造年月日
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-199-p1-kou-5
     type: kou
-    text: 採取量
+    text: 五　採取量
     modality: unspecified
     item_number: 5
 cases: []

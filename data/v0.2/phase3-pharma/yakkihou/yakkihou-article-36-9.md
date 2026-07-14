@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-art-36-9-p1-kou-1
     type: kou
-    text: 第一類医薬品　薬剤師
+    text: 一　第一類医薬品　薬剤師
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-36-9-p1-kou-2
     type: kou
-    text: 第二類医薬品及び第三類医薬品　薬剤師又は登録販売者
+    text: 二　第二類医薬品及び第三類医薬品　薬剤師又は登録販売者
     modality: unspecified
     item_number: 2
 cases: []

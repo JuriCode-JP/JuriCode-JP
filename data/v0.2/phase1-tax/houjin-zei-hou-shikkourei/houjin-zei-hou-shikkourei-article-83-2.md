@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-83-2-p1-kou-1
     type: kou
-    text: 電気通信事業法第九条第一号（電気通信事業の登録）に規定する電気通信回線設備を設置して同法第二条第三号（定義）に規定する電気通信役務を提供する同条第四号に規定する電気通信事業
+    text: 一　電気通信事業法第九条第一号（電気通信事業の登録）に規定する電気通信回線設備を設置して同法第二条第三号（定義）に規定する電気通信役務を提供する同条第四号に規定する電気通信事業
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-83-2-p1-kou-2
     type: kou
-    text: 電気通信事業法第二条第五号に規定する電気通信事業者が行う事業のうち放送法（昭和二十五年法律第百三十二号）の規定に基づき設立された日本放送協会から委託を受けて行う同法第二条第五号（定義）に規定する国際放送のための施設に係るもの
+    text: 二　電気通信事業法第二条第五号に規定する電気通信事業者が行う事業のうち放送法（昭和二十五年法律第百三十二号）の規定に基づき設立された日本放送協会から委託を受けて行う同法第二条第五号（定義）に規定する国際放送のための施設に係るもの
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikkourei-art-83-2-p1-kou-3
     type: kou
-    text: 有線電気通信設備を用いて放送法第二条第十八号に規定するテレビジョン放送を行う事業
+    text: 三　有線電気通信設備を用いて放送法第二条第十八号に規定するテレビジョン放送を行う事業
     modality: unspecified
     item_number: 3
 cases: []

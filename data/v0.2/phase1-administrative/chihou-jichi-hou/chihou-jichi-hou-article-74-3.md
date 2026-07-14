@@ -23,12 +23,12 @@ paragraphs:
     modality: koka_mukou
   - id: chihou-jichi-hou-art-74-3-p1-kou-1
     type: kou
-    text: 法令の定める成規の手続によらない署名
+    text: 一　法令の定める成規の手続によらない署名
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-74-3-p1-kou-2
     type: kou
-    text: 何人であるかを確認し難い署名
+    text: 二　何人であるかを確認し難い署名
     modality: unspecified
     item_number: 2
 - number: 2

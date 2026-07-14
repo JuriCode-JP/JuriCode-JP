@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: shouhou-art-602-p1-kou-1
     type: kou
-    text: 前条第一号、第二号及び第四号から第六号までに掲げる事項
+    text: 一　前条第一号、第二号及び第四号から第六号までに掲げる事項
     modality: unspecified
     item_number: 1
   - id: shouhou-art-602-p1-kou-2
     type: kou
-    text: 倉荷証券の番号及び作成の年月日
+    text: 二　倉荷証券の番号及び作成の年月日
     modality: unspecified
     item_number: 2
 cases: []

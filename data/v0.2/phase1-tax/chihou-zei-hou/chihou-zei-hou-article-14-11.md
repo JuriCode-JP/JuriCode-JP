@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定は、登記をすることができる質権以外の質権については、その質権者が、強制換価手続において、その執行機関に対し、同項の譲受前にその質権が設定されている事実を証明した場合に限り適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: chihou-zei-hou-art-14-11-p2-kou
     type: kou_dan
     text: この場合においては、第十四条の九第三項後段及び第四項の規定を準用する。

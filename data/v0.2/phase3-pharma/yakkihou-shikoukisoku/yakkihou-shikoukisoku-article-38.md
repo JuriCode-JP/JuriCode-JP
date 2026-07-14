@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: yakkihou-shikoukisoku-art-38-p2-kou-1
     type: kou
-    text: 当該品目に係る製造販売業の許可証の写し
+    text: 一　当該品目に係る製造販売業の許可証の写し
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-38-p2-kou-2
     type: kou
-    text: 法第十四条の三第一項の規定により法第十四条第一項の承認を申請しようとするときは、申請者が製造販売しようとする物が、法第十四条の三第一項第二号に規定する医薬品であることを明らかにする書類その他必要な書類
+    text: 二　法第十四条の三第一項の規定により法第十四条第一項の承認を申請しようとするときは、申請者が製造販売しようとする物が、法第十四条の三第一項第二号に規定する医薬品であることを明らかにする書類その他必要な書類
     modality: unspecified
     item_number: 2
 cases: []

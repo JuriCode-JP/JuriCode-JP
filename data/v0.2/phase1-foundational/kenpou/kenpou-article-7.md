@@ -23,52 +23,52 @@ paragraphs:
     modality: unspecified
   - id: kenpou-art-7-p1-kou-1
     type: kou
-    text: 憲法改正、法律、政令及び条約を公布すること。
+    text: 一　憲法改正、法律、政令及び条約を公布すること。
     modality: unspecified
     item_number: 1
   - id: kenpou-art-7-p1-kou-2
     type: kou
-    text: 国会を召集すること。
+    text: 二　国会を召集すること。
     modality: unspecified
     item_number: 2
   - id: kenpou-art-7-p1-kou-3
     type: kou
-    text: 衆議院を解散すること。
+    text: 三　衆議院を解散すること。
     modality: unspecified
     item_number: 3
   - id: kenpou-art-7-p1-kou-4
     type: kou
-    text: 国会議員の総選挙の施行を公示すること。
+    text: 四　国会議員の総選挙の施行を公示すること。
     modality: unspecified
     item_number: 4
   - id: kenpou-art-7-p1-kou-5
     type: kou
-    text: 国務大臣及び法律の定めるその他の官吏の任免並びに全権委任状及び大使及び公使の信任状を認証すること。
+    text: 五　国務大臣及び法律の定めるその他の官吏の任免並びに全権委任状及び大使及び公使の信任状を認証すること。
     modality: unspecified
     item_number: 5
   - id: kenpou-art-7-p1-kou-6
     type: kou
-    text: 大赦、特赦、減刑、刑の執行の免除及び復権を認証すること。
+    text: 六　大赦、特赦、減刑、刑の執行の免除及び復権を認証すること。
     modality: unspecified
     item_number: 6
   - id: kenpou-art-7-p1-kou-7
     type: kou
-    text: 栄典を授与すること。
+    text: 七　栄典を授与すること。
     modality: unspecified
     item_number: 7
   - id: kenpou-art-7-p1-kou-8
     type: kou
-    text: 批准書及び法律の定めるその他の外交文書を認証すること。
+    text: 八　批准書及び法律の定めるその他の外交文書を認証すること。
     modality: unspecified
     item_number: 8
   - id: kenpou-art-7-p1-kou-9
     type: kou
-    text: 外国の大使及び公使を接受すること。
+    text: 九　外国の大使及び公使を接受すること。
     modality: unspecified
     item_number: 9
   - id: kenpou-art-7-p1-kou-10
     type: kou
-    text: 儀式を行ふこと。
+    text: 十　儀式を行ふこと。
     modality: unspecified
     item_number: 10
 cases: []

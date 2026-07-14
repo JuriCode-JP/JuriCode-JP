@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-155-8-p1-kou-1
     type: kou
-    text: 外国市場取引を行う外国金融商品取引所参加者がなくなつたとき。
+    text: 一　外国市場取引を行う外国金融商品取引所参加者がなくなつたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-155-8-p1-kou-2
     type: kou
-    text: 外国市場取引が行われる外国金融商品市場の全部を閉鎖したとき。
+    text: 二　外国市場取引が行われる外国金融商品市場の全部を閉鎖したとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-155-8-p1-kou-3
     type: kou
-    text: 解散したとき。
+    text: 三　解散したとき。
     modality: unspecified
     item_number: 3
 - number: 2

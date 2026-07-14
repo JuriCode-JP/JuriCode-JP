@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-513-p1-kou-1
     type: kou
-    text: 従前の給付の内容について重要な変更をするもの
+    text: 一　従前の給付の内容について重要な変更をするもの
     modality: unspecified
     item_number: 1
   - id: minpou-art-513-p1-kou-2
     type: kou
-    text: 従前の債務者が第三者と交替するもの
+    text: 二　従前の債務者が第三者と交替するもの
     modality: unspecified
     item_number: 2
   - id: minpou-art-513-p1-kou-3
     type: kou
-    text: 従前の債権者が第三者と交替するもの
+    text: 三　従前の債権者が第三者と交替するもの
     modality: unspecified
     item_number: 3
 cases: []

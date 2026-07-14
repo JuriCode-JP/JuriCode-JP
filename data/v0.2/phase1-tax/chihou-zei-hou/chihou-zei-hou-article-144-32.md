@@ -25,22 +25,22 @@ paragraphs:
     - 同項
   - id: chihou-zei-hou-art-144-32-p1-kou-1
     type: kou
-    text: 軽油と軽油以外の炭化水素油を混和して炭化水素油を製造するとき。
+    text: 一　軽油と軽油以外の炭化水素油を混和して炭化水素油を製造するとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-144-32-p1-kou-2
     type: kou
-    text: 前号に掲げる場合のほか、軽油を製造するとき。
+    text: 二　前号に掲げる場合のほか、軽油を製造するとき。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-144-32-p1-kou-3
     type: kou
-    text: 燃料炭化水素油を自動車の内燃機関の燃料として譲渡するとき。
+    text: 三　燃料炭化水素油を自動車の内燃機関の燃料として譲渡するとき。
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-144-32-p1-kou-4
     type: kou
-    text: 燃料炭化水素油（この項の承認を受けて譲渡された前号の燃料炭化水素油を除く。）を自動車の内燃機関の燃料として消費するとき。
+    text: 四　燃料炭化水素油（この項の承認を受けて譲渡された前号の燃料炭化水素油を除く。）を自動車の内燃機関の燃料として消費するとき。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -53,8 +53,8 @@ paragraphs:
     text: 前項の場合において、道府県知事は、軽油引取税の取締り又は保全上特に必要があると認めるときを除き、同項の承認を与えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

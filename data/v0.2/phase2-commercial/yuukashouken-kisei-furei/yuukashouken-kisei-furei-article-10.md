@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yuukashouken-kisei-furei-art-10-p1-kou-1
     type: kou
-    text: 定義府令第十七条各号に掲げる方法（第三号に掲げる方法を除く。）
+    text: 一　定義府令第十七条各号に掲げる方法（第三号に掲げる方法を除く。）
     modality: unspecified
     item_number: 1
   - id: yuukashouken-kisei-furei-art-10-p1-kou-2
     type: kou
-    text: 競売買の方法又は前号に掲げる方法に類似する方法（次号に掲げる方法を除く。）
+    text: 二　競売買の方法又は前号に掲げる方法に類似する方法（次号に掲げる方法を除く。）
     modality: unspecified
     item_number: 2
   - id: yuukashouken-kisei-furei-art-10-p1-kou-3
     type: kou
-    text: 法第二条第八項第十号に掲げる行為（令第七条第五項第二号ロに定める要件を満たすものとして同号の規定に基づき金融庁長官が指定する電子情報処理組織を使用して行われるものに限る。）において用いられる方法
+    text: 三　法第二条第八項第十号に掲げる行為（令第七条第五項第二号ロに定める要件を満たすものとして同号の規定に基づき金融庁長官が指定する電子情報処理組織を使用して行われるものに限る。）において用いられる方法
     modality: unspecified
     item_number: 3
 cases: []

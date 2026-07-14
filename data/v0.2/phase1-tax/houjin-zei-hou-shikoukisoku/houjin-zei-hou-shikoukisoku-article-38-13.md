@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-13-p1-kou-1
     type: kou
-    text: 売上高の額から売上原価の額を減算した額
+    text: 一　売上高の額から売上原価の額を減算した額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-13-p1-kou-2
     type: kou
-    text: 販売費及び一般管理費の額
+    text: 二　販売費及び一般管理費の額
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,12 +42,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-13-p2-kou-1
     type: kou
-    text: 構成会社等と他の構成会社等との間又は共同支配会社等と当該共同支配会社等に係る他の共同支配会社等との間の取引に係る金額を相殺することその他これに類する会計処理
+    text: 一　構成会社等と他の構成会社等との間又は共同支配会社等と当該共同支配会社等に係る他の共同支配会社等との間の取引に係る金額を相殺することその他これに類する会計処理
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-13-p2-kou-2
     type: kou
-    text: 会社等が企業グループ等に新たに属することとなる場合において、当該企業グループ等に係る最終親会社等の連結等財務諸表（法第八十二条第一号イ又はロ（定義）に掲げるものに限る。第四項において同じ。）における当該会社等の資産及び負債の帳簿価額を時価により評価した価額とすることその他これに類する会計処理
+    text: 二　会社等が企業グループ等に新たに属することとなる場合において、当該企業グループ等に係る最終親会社等の連結等財務諸表（法第八十二条第一号イ又はロ（定義）に掲げるものに限る。第四項において同じ。）における当該会社等の資産及び負債の帳簿価額を時価により評価した価額とすることその他これに類する会計処理
     modality: unspecified
     item_number: 2
 - number: 3

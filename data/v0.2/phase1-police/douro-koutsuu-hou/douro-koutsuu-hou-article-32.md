@@ -21,6 +21,10 @@ paragraphs:
     type: simple
     text: 車両は、法令の規定若しくは警察官の命令により、又は危険を防止するため、停止し、若しくは停止しようとして徐行している車両等又はこれらに続いて停止し、若しくは徐行している車両等に追いついたときは、その前方にある車両等の側方を通過して当該車両等の前方に割り込み、又はその前方を横切つてはならない。
     modality: unspecified
+  - id: douro-koutsuu-hou-art-32-supplnote-1
+    type: supplnote
+    text: （罰則　第百二十条第一項第二号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

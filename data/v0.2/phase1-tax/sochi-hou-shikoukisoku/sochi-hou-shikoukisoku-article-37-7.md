@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-37-7-p1-kou-1
     type: kou
-    text: 移入に係るバイオエタノール等又はバイオエタノール等揮発油の引渡人の住所及び氏名又は名称並びに移入先の所在地及び名称
+    text: 一　移入に係るバイオエタノール等又はバイオエタノール等揮発油の引渡人の住所及び氏名又は名称並びに移入先の所在地及び名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-37-7-p1-kou-2
     type: kou
-    text: 移出に係るバイオエタノール等又はバイオエタノール等揮発油の受取人の住所及び氏名又は名称並びに移出先の所在地及び名称
+    text: 二　移出に係るバイオエタノール等又はバイオエタノール等揮発油の受取人の住所及び氏名又は名称並びに移出先の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikoukisoku-art-37-7-p1-kou-3
     type: kou
-    text: その他揮発油税及び地方揮発油税の取締り上参考となるべき事項
+    text: 三　その他揮発油税及び地方揮発油税の取締り上参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

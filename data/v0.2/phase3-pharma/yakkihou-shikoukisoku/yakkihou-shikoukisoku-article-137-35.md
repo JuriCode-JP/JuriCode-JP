@@ -34,37 +34,37 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-35-p2-kou-1
     type: kou
-    text: 当該再生医療等製品の名称
+    text: 一　当該再生医療等製品の名称
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-35-p2-kou-2
     type: kou
-    text: 承認番号及び承認年月日
+    text: 二　承認番号及び承認年月日
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-137-35-p2-kou-3
     type: kou
-    text: 調査期間及び調査症例数
+    text: 三　調査期間及び調査症例数
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-137-35-p2-kou-4
     type: kou
-    text: 当該再生医療等製品の出荷数量
+    text: 四　当該再生医療等製品の出荷数量
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-137-35-p2-kou-5
     type: kou
-    text: 調査結果の概要及び解析結果
+    text: 五　調査結果の概要及び解析結果
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-137-35-p2-kou-6
     type: kou
-    text: 不具合等の種類別発現状況
+    text: 六　不具合等の種類別発現状況
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-137-35-p2-kou-7
     type: kou
-    text: 不具合等の発現症例一覧
+    text: 七　不具合等の発現症例一覧
     modality: unspecified
     item_number: 7
 - number: 3

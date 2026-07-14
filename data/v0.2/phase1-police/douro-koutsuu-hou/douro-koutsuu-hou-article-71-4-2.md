@@ -32,19 +32,23 @@ paragraphs:
     modality: jogai
   - id: douro-koutsuu-hou-art-71-4-2-p2-kou-1
     type: kou
-    text: 当該自動車が整備不良車両に該当しないこと。
+    text: 一　当該自動車が整備不良車両に該当しないこと。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-71-4-2-p2-kou-2
     type: kou
-    text: 当該自動運行装置に係る使用条件を満たしていること。
+    text: 二　当該自動運行装置に係る使用条件を満たしていること。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-71-4-2-p2-kou-3
     type: kou
-    text: 当該運転者が、前二号のいずれかに該当しなくなつた場合において、直ちに、そのことを認知するとともに、当該自動運行装置以外の当該自動車の装置を確実に操作することができる状態にあること。
+    text: 三　当該運転者が、前二号のいずれかに該当しなくなつた場合において、直ちに、そのことを認知するとともに、当該自動運行装置以外の当該自動車の装置を確実に操作することができる状態にあること。
     modality: unspecified
     item_number: 3
+  - id: douro-koutsuu-hou-art-71-4-2-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条第一項第十六号、同条第三項）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

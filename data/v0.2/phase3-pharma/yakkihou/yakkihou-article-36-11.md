@@ -23,17 +23,17 @@ paragraphs:
     modality: jogai
   - id: yakkihou-art-36-11-p1-kou-1
     type: kou
-    text: 薬局開設者が当該薬局における設備及び器具をもつて製造し、当該薬局において直接需要者に販売し、又は授与する医薬品（体外診断用医薬品を除き、厚生労働大臣の指定する有効成分以外の有効成分を含有しない医薬品に限る。）
+    text: 一　薬局開設者が当該薬局における設備及び器具をもつて製造し、当該薬局において直接需要者に販売し、又は授与する医薬品（体外診断用医薬品を除き、厚生労働大臣の指定する有効成分以外の有効成分を含有しない医薬品に限る。）
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-36-11-p1-kou-2
     type: kou
-    text: 要指導医薬品
+    text: 二　要指導医薬品
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-36-11-p1-kou-3
     type: kou
-    text: 一般用医薬品
+    text: 三　一般用医薬品
     modality: unspecified
     item_number: 3
 - number: 2
@@ -58,12 +58,12 @@ paragraphs:
     modality: jogai
   - id: yakkihou-art-36-11-p3-kou-1
     type: kou
-    text: 薬剤師等に販売し、又は授与するとき。
+    text: 一　薬剤師等に販売し、又は授与するとき。
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-36-11-p3-kou-2
     type: kou
-    text: その薬局若しくは店舗において又は配置販売によつて指定濫用防止医薬品を購入し、又は譲り受けようとする者が厚生労働省令で定める年齢以上の者その他厚生労働省令で定める者である場合において、その薬局若しくは店舗又はその業務に係る都道府県の区域において医薬品の販売若しくは授与又は配置販売に従事する薬剤師又は登録販売者に、対面等により、第一項本文の規定による情報の提供を行わせるとき。
+    text: 二　その薬局若しくは店舗において又は配置販売によつて指定濫用防止医薬品を購入し、又は譲り受けようとする者が厚生労働省令で定める年齢以上の者その他厚生労働省令で定める者である場合において、その薬局若しくは店舗又はその業務に係る都道府県の区域において医薬品の販売若しくは授与又は配置販売に従事する薬剤師又は登録販売者に、対面等により、第一項本文の規定による情報の提供を行わせるとき。
     modality: unspecified
     item_number: 2
 - number: 4

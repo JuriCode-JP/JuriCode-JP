@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-62-p1-kou-1
     type: kou
-    text: 法第十四条の四第一項第一号に規定する新医薬品　同号に規定する調査期間（同条第三項の規定による延長が行われたときは、その延長後の期間）
+    text: 一　法第十四条の四第一項第一号に規定する新医薬品　同号に規定する調査期間（同条第三項の規定による延長が行われたときは、その延長後の期間）
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-62-p1-kou-2
     type: kou
-    text: 法第十四条の四第一項第二号の規定により厚生労働大臣が指示した医薬品　その製造販売の承認を受けた日から同号に規定する厚生労働大臣の指示する期間の開始の日の前日まで
+    text: 二　法第十四条の四第一項第二号の規定により厚生労働大臣が指示した医薬品　その製造販売の承認を受けた日から同号に規定する厚生労働大臣の指示する期間の開始の日の前日まで
     modality: unspecified
     item_number: 2
 - number: 2
@@ -42,37 +42,37 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-62-p2-kou-1
     type: kou
-    text: 当該医薬品の名称
+    text: 一　当該医薬品の名称
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-62-p2-kou-2
     type: kou
-    text: 承認番号及び承認年月日
+    text: 二　承認番号及び承認年月日
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-62-p2-kou-3
     type: kou
-    text: 調査期間及び調査症例数
+    text: 三　調査期間及び調査症例数
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-62-p2-kou-4
     type: kou
-    text: 当該医薬品の出荷数量
+    text: 四　当該医薬品の出荷数量
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-62-p2-kou-5
     type: kou
-    text: 調査結果の概要及び解析結果
+    text: 五　調査結果の概要及び解析結果
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-62-p2-kou-6
     type: kou
-    text: 副作用等の種類別発現状況
+    text: 六　副作用等の種類別発現状況
     modality: unspecified
     item_number: 6
   - id: yakkihou-shikoukisoku-art-62-p2-kou-7
     type: kou
-    text: 副作用等の発現症例一覧
+    text: 七　副作用等の発現症例一覧
     modality: unspecified
     item_number: 7
 - number: 3

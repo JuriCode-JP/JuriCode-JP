@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikkourei-art-9-p1-kou-1
     type: kou
-    text: 法第三十八条第三項の規定により決定した金額
+    text: 一　法第三十八条第三項の規定により決定した金額
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikkourei-art-9-p1-kou-2
     type: kou
-    text: 前号の金額の決定の基因となつた国税の年度及び税目
+    text: 二　前号の金額の決定の基因となつた国税の年度及び税目
     modality: unspecified
     item_number: 2
 cases: []

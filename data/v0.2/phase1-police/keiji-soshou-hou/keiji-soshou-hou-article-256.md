@@ -32,17 +32,17 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-256-p2-kou-1
     type: kou
-    text: 被告人の氏名その他被告人を特定するに足りる事項
+    text: 一　被告人の氏名その他被告人を特定するに足りる事項
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-256-p2-kou-2
     type: kou
-    text: 公訴事実
+    text: 二　公訴事実
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-256-p2-kou-3
     type: kou
-    text: 罪名
+    text: 三　罪名
     modality: unspecified
     item_number: 3
 - number: 3

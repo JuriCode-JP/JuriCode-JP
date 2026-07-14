@@ -34,12 +34,12 @@ paragraphs:
     - 前項
   - id: shotoku-zei-hou-shikkourei-art-100-p2-kou-1
     type: kou
-    text: 新たに事業所得を生ずべき事業を開始した居住者　当該事業を開始した日
+    text: 一　新たに事業所得を生ずべき事業を開始した居住者　当該事業を開始した日
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-100-p2-kou-2
     type: kou
-    text: 前号の事業を開始した後新たに他の種類の事業を開始し又は事業の種類を変更した居住者　当該他の種類の事業を開始し又は事業の種類を変更した日
+    text: 二　前号の事業を開始した後新たに他の種類の事業を開始し又は事業の種類を変更した居住者　当該他の種類の事業を開始し又は事業の種類を変更した日
     modality: unspecified
     item_number: 2
 cases: []

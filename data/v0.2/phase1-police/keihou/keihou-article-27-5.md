@@ -23,12 +23,12 @@ paragraphs:
     modality: koka_torikeshi
   - id: keihou-art-27-5-p1-kou-1
     type: kou
-    text: 猶予の言渡し後に更に罪を犯し、罰金に処せられたとき。
+    text: 一　猶予の言渡し後に更に罪を犯し、罰金に処せられたとき。
     modality: unspecified
     item_number: 1
   - id: keihou-art-27-5-p1-kou-2
     type: kou
-    text: 第二十七条の三第一項の規定により保護観察に付せられた者が遵守すべき事項を遵守しなかったとき。
+    text: 二　第二十七条の三第一項の規定により保護観察に付せられた者が遵守すべき事項を遵守しなかったとき。
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-71-p1-kou-1
     type: kou
-    text: 選任外国製造再生医療等製品製造販売業者の氏名又は住所
+    text: 一　選任外国製造再生医療等製品製造販売業者の氏名又は住所
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-71-p1-kou-2
     type: kou
-    text: 選任外国製造再生医療等製品製造販売業者が受けている製造販売業の許可の種類及び許可番号
+    text: 二　選任外国製造再生医療等製品製造販売業者が受けている製造販売業の許可の種類及び許可番号
     modality: unspecified
     item_number: 2
 - number: 2

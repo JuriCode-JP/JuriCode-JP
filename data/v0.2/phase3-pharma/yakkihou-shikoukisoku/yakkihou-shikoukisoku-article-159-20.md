@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-159-20-p1-kou-1
     type: kou
-    text: 相談時及び緊急時の電話番号その他連絡先
+    text: 一　相談時及び緊急時の電話番号その他連絡先
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-159-20-p1-kou-2
     type: kou
-    text: 特定販売の実施の有無
+    text: 二　特定販売の実施の有無
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-159-20-p1-kou-3
     type: kou
-    text: 第百三十九条第四項各号に掲げる事項（主たるホームページの構成の概要を除く。）
+    text: 三　第百三十九条第四項各号に掲げる事項（主たるホームページの構成の概要を除く。）
     modality: unspecified
     item_number: 3
 - number: 2

@@ -25,27 +25,27 @@ paragraphs:
     - 次条
   - id: sochi-hou-shikkourei-art-46-13-p1-kou-1
     type: kou
-    text: 申請者の住所及び氏名又は名称
+    text: 一　申請者の住所及び氏名又は名称
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikkourei-art-46-13-p1-kou-2
     type: kou
-    text: 当該申請に係るバイオエタノール等揮発油の製造場の所在地及び名称
+    text: 二　当該申請に係るバイオエタノール等揮発油の製造場の所在地及び名称
     modality: unspecified
     item_number: 2
   - id: sochi-hou-shikkourei-art-46-13-p1-kou-3
     type: kou
-    text: 当該バイオエタノール等の種類、規格及び数量
+    text: 三　当該バイオエタノール等の種類、規格及び数量
     modality: unspecified
     item_number: 3
   - id: sochi-hou-shikkourei-art-46-13-p1-kou-4
     type: kou
-    text: 当該バイオエタノール等を揮発油に混和する年月日
+    text: 四　当該バイオエタノール等を揮発油に混和する年月日
     modality: unspecified
     item_number: 4
   - id: sochi-hou-shikkourei-art-46-13-p1-kou-5
     type: kou
-    text: その他財務省令で定める事項
+    text: 五　その他財務省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 2
@@ -58,8 +58,8 @@ paragraphs:
     text: 前項の規定は、法第八十八条の七第六項の証明を受けようとする者について準用する。この場合において、前項第二号中「当該申請に係るバイオエタノール等揮発油の製造場」とあるのは「当該バイオエタノール等の貯蔵場所」と、同項第四号中「揮発油に混和する年月日」とあるのは「移出する年月日並びに受取人の住所及び氏名又は名称」と読み替えるものとする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

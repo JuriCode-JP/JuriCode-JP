@@ -37,107 +37,107 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-1
     type: kou
-    text: 食料品製造業
+    text: 一　食料品製造業
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-2
     type: kou
-    text: 飲料・たばこ・飼料製造業
+    text: 二　飲料・たばこ・飼料製造業
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-3
     type: kou
-    text: 繊維工業
+    text: 三　繊維工業
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-4
     type: kou
-    text: 木材・木製品製造業
+    text: 四　木材・木製品製造業
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-5
     type: kou
-    text: 家具・装備品製造業
+    text: 五　家具・装備品製造業
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-6
     type: kou
-    text: パルプ・紙・紙加工品製造業
+    text: 六　パルプ・紙・紙加工品製造業
     modality: unspecified
     item_number: 6
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-7
     type: kou
-    text: 印刷・同関連業
+    text: 七　印刷・同関連業
     modality: unspecified
     item_number: 7
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-8
     type: kou
-    text: 化学工業
+    text: 八　化学工業
     modality: unspecified
     item_number: 8
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-9
     type: kou
-    text: 石油製品・石炭製品製造業
+    text: 九　石油製品・石炭製品製造業
     modality: unspecified
     item_number: 9
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-10
     type: kou
-    text: プラスチック製品製造業
+    text: 十　プラスチック製品製造業
     modality: unspecified
     item_number: 10
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-11
     type: kou
-    text: ゴム製品製造業
+    text: 十一　ゴム製品製造業
     modality: unspecified
     item_number: 11
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-12
     type: kou
-    text: なめし革・同製品・毛皮製造業
+    text: 十二　なめし革・同製品・毛皮製造業
     modality: unspecified
     item_number: 12
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-13
     type: kou
-    text: 窯業・土石製品製造業
+    text: 十三　窯業・土石製品製造業
     modality: unspecified
     item_number: 13
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-14
     type: kou
-    text: 鉄鋼業
+    text: 十四　鉄鋼業
     modality: unspecified
     item_number: 14
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-15
     type: kou
-    text: 非鉄金属製造業
+    text: 十五　非鉄金属製造業
     modality: unspecified
     item_number: 15
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-16
     type: kou
-    text: 金属製品製造業
+    text: 十六　金属製品製造業
     modality: unspecified
     item_number: 16
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-17
     type: kou
-    text: 機械器具製造業
+    text: 十七　機械器具製造業
     modality: unspecified
     item_number: 17
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-18
     type: kou
-    text: その他の製造業
+    text: 十八　その他の製造業
     modality: unspecified
     item_number: 18
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-19
     type: kou
-    text: 自動車整備業
+    text: 十九　自動車整備業
     modality: unspecified
     item_number: 19
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-20
     type: kou
-    text: 機械修理業
+    text: 二十　機械修理業
     modality: unspecified
     item_number: 20
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p2-kou-21
     type: kou
-    text: 電気機械器具修理業
+    text: 二十一　電気機械器具修理業
     modality: unspecified
     item_number: 21
 - number: 3
@@ -167,7 +167,7 @@ paragraphs:
   segments:
   - id: chihou-zei-hou-shikoukisoku-art-6-2-2-p5
     type: simple
-    text: 電気供給業の事業所等ごとの固定資産の価額についてその区分が困難な場合において総務大臣の承認を受けたときは、前項に規定する当該事業年度終了の日において貸借対照表に記載されている固定資産の価額を左の表の上欄に掲げる設備ごとに分別し、その分別された価格を下欄に掲げる基準の各事業年度終了の日現在の数値により按あん分した額とすることができる。
+    text: 電気供給業の事業所等ごとの固定資産の価額についてその区分が困難な場合において総務大臣の承認を受けたときは、前項に規定する当該事業年度終了の日において貸借対照表に記載されている固定資産の価額を左の表の上欄に掲げる設備ごとに分別し、その分別された価格を下欄に掲げる基準の各事業年度終了の日現在の数値により按分した額とすることができる。
     modality: kanou_kenri
     references:
     - 前項
@@ -253,7 +253,7 @@ tags:
 
 ### 第六条の二の二第五項
 
-電気供給業の事業所等ごとの固定資産の価額についてその区分が困難な場合において総務大臣の承認を受けたときは、前項に規定する当該事業年度終了の日において貸借対照表に記載されている固定資産の価額を左の表の上欄に掲げる設備ごとに分別し、その分別された価格を下欄に掲げる基準の各事業年度終了の日現在の数値により按あん分した額とすることができる。
+電気供給業の事業所等ごとの固定資産の価額についてその区分が困難な場合において総務大臣の承認を受けたときは、前項に規定する当該事業年度終了の日において貸借対照表に記載されている固定資産の価額を左の表の上欄に掲げる設備ごとに分別し、その分別された価格を下欄に掲げる基準の各事業年度終了の日現在の数値により按分した額とすることができる。
 
 | （一） 発電設備 | 発電所及び蓄電用の施設の認可出力 |
 | --- | --- |

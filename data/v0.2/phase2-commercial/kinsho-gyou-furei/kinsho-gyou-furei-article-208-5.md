@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-208-5-p1-kou-1
     type: kou
-    text: 別紙様式第十七号の二
+    text: 一　別紙様式第十七号の二
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-208-5-p1-kou-2
     type: kou
-    text: 別紙様式第十七号の三
+    text: 二　別紙様式第十七号の三
     modality: unspecified
     item_number: 2
 cases: []

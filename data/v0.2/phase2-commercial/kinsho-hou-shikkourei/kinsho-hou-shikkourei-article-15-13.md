@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-15-13-p1-kou-1
     type: kou
-    text: 法第三十一条の二第四項の規定による命令を受けたときは、当該金融商品取引業者のために当該命令に係る額の営業保証金が遅滞なく供託されるものであること。
+    text: 一　法第三十一条の二第四項の規定による命令を受けたときは、当該金融商品取引業者のために当該命令に係る額の営業保証金が遅滞なく供託されるものであること。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-15-13-p1-kou-2
     type: kou
-    text: 一年以上の期間にわたつて有効な契約であること。
+    text: 二　一年以上の期間にわたつて有効な契約であること。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-15-13-p1-kou-3
     type: kou
-    text: 金融庁長官の承認を受けた場合を除き、契約を解除し、又は契約の内容を変更することができないものであること。
+    text: 三　金融庁長官の承認を受けた場合を除き、契約を解除し、又は契約の内容を変更することができないものであること。
     modality: unspecified
     item_number: 3
 cases: []

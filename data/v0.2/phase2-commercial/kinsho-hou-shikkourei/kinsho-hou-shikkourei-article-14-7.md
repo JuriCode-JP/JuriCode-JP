@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-14-7-p1-kou-1
     type: kou
-    text: 会社の総株主等の議決権の数の百分の五十を超える数の議決権に係る株式又は出資を自己又は他人（仮設人を含む。次項において同じ。）の名義をもつて所有している者（次号及び同項において「支配株主等」という。）と当該会社（同号及び同項において「被支配会社」という。）との関係
+    text: 一　会社の総株主等の議決権の数の百分の五十を超える数の議決権に係る株式又は出資を自己又は他人（仮設人を含む。次項において同じ。）の名義をもつて所有している者（次号及び同項において「支配株主等」という。）と当該会社（同号及び同項において「被支配会社」という。）との関係
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-7-p1-kou-2
     type: kou
-    text: 被支配会社とその支配株主等の他の被支配会社との関係
+    text: 二　被支配会社とその支配株主等の他の被支配会社との関係
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-14-7-p1-kou-3
     type: kou
-    text: その他前二号に掲げる関係に準ずるものとして内閣府令で定める関係
+    text: 三　その他前二号に掲げる関係に準ずるものとして内閣府令で定める関係
     modality: unspecified
     item_number: 3
 - number: 2

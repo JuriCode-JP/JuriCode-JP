@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-5-p1-kou-1
     type: kou
-    text: 特定障害者の氏名、住所又は居所及び個人番号（当該特定障害者が氏名又は住所若しくは居所の変更をした場合には、当該特定障害者の氏名及び住所又は居所）
+    text: 一　特定障害者の氏名、住所又は居所及び個人番号（当該特定障害者が氏名又は住所若しくは居所の変更をした場合には、当該特定障害者の氏名及び住所又は居所）
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-5-p1-kou-2
     type: kou
-    text: 施行令第四条の十六第一項に規定する変更前の氏名、住所若しくは居所又は個人番号及び当該変更後の氏名、住所若しくは居所又は個人番号
+    text: 二　施行令第四条の十六第一項に規定する変更前の氏名、住所若しくは居所又は個人番号及び当該変更後の氏名、住所若しくは居所又は個人番号
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-5-p1-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 - number: 2
@@ -56,17 +56,17 @@ paragraphs:
     modality: gimu
   - id: souzoku-zei-hou-shikoukisoku-art-5-p3-kou-1
     type: kou
-    text: 特定障害者の氏名、住所又は居所及び個人番号
+    text: 一　特定障害者の氏名、住所又は居所及び個人番号
     modality: unspecified
     item_number: 1
   - id: souzoku-zei-hou-shikoukisoku-art-5-p3-kou-2
     type: kou
-    text: 施行令第四条の十六第二項に規定する前の営業所等及び同項に規定する受託者の他の営業所等の名称及び所在地
+    text: 二　施行令第四条の十六第二項に規定する前の営業所等及び同項に規定する受託者の他の営業所等の名称及び所在地
     modality: unspecified
     item_number: 2
   - id: souzoku-zei-hou-shikoukisoku-art-5-p3-kou-3
     type: kou
-    text: その他参考となるべき事項
+    text: 三　その他参考となるべき事項
     modality: unspecified
     item_number: 3
 cases: []

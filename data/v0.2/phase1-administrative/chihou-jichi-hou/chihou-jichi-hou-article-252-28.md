@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-jichi-hou-art-252-28-p1-kou-1
     type: kou
-    text: 弁護士（弁護士となる資格を有する者を含む。）
+    text: 一　弁護士（弁護士となる資格を有する者を含む。）
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-28-p1-kou-2
     type: kou
-    text: 公認会計士（公認会計士となる資格を有する者を含む。）
+    text: 二　公認会計士（公認会計士となる資格を有する者を含む。）
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-252-28-p1-kou-3
     type: kou
-    text: 国の行政機関において会計検査に関する行政事務に従事した者又は地方公共団体において監査若しくは財務に関する行政事務に従事した者であつて、監査に関する実務に精通しているものとして政令で定めるもの
+    text: 三　国の行政機関において会計検査に関する行政事務に従事した者又は地方公共団体において監査若しくは財務に関する行政事務に従事した者であつて、監査に関する実務に精通しているものとして政令で定めるもの
     modality: unspecified
     item_number: 3
 - number: 2
@@ -49,8 +49,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -64,62 +64,62 @@ paragraphs:
     - 前二項
   - id: chihou-jichi-hou-art-252-28-p3-kou-1
     type: kou
-    text: 拘禁刑以上の刑に処せられ、その執行を終わり、又は執行を受けることがなくなつてから三年を経過しない者
+    text: 一　拘禁刑以上の刑に処せられ、その執行を終わり、又は執行を受けることがなくなつてから三年を経過しない者
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-252-28-p3-kou-2
     type: kou
-    text: 破産手続開始の決定を受けて復権を得ない者
+    text: 二　破産手続開始の決定を受けて復権を得ない者
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-252-28-p3-kou-3
     type: kou
-    text: 国家公務員法（昭和二十二年法律第百二十号）又は地方公務員法の規定により懲戒免職の処分を受け、当該処分の日から三年を経過しない者
+    text: 三　国家公務員法（昭和二十二年法律第百二十号）又は地方公務員法の規定により懲戒免職の処分を受け、当該処分の日から三年を経過しない者
     modality: unspecified
     item_number: 3
   - id: chihou-jichi-hou-art-252-28-p3-kou-4
     type: kou
-    text: 弁護士法（昭和二十四年法律第二百五号）、公認会計士法（昭和二十三年法律第百三号）又は税理士法（昭和二十六年法律第二百三十七号）の規定による懲戒処分により、弁護士会からの除名、公認会計士の登録の抹消又は税理士の業務の禁止の処分を受けた者で、これらの処分を受けた日から三年を経過しないもの（これらの法律の規定により再び業務を営むことができることとなつた者を除く。）
+    text: 四　弁護士法（昭和二十四年法律第二百五号）、公認会計士法（昭和二十三年法律第百三号）又は税理士法（昭和二十六年法律第二百三十七号）の規定による懲戒処分により、弁護士会からの除名、公認会計士の登録の抹消又は税理士の業務の禁止の処分を受けた者で、これらの処分を受けた日から三年を経過しないもの（これらの法律の規定により再び業務を営むことができることとなつた者を除く。）
     modality: unspecified
     item_number: 4
   - id: chihou-jichi-hou-art-252-28-p3-kou-5
     type: kou
-    text: 税理士法第四十八条第一項の規定により同法第四十四条第三号に掲げる処分を受けるべきであつたことについて決定を受けた者で、当該決定を受けた日から三年を経過しないもの
+    text: 五　税理士法第四十八条第一項の規定により同法第四十四条第三号に掲げる処分を受けるべきであつたことについて決定を受けた者で、当該決定を受けた日から三年を経過しないもの
     modality: unspecified
     item_number: 5
   - id: chihou-jichi-hou-art-252-28-p3-kou-6
     type: kou
-    text: 懲戒処分により、弁護士、公認会計士又は税理士の業務を停止された者で、現にその処分を受けているもの
+    text: 六　懲戒処分により、弁護士、公認会計士又は税理士の業務を停止された者で、現にその処分を受けているもの
     modality: unspecified
     item_number: 6
   - id: chihou-jichi-hou-art-252-28-p3-kou-7
     type: kou
-    text: 税理士法第四十八条第一項の規定により同法第四十四条第二号に掲げる処分を受けるべきであつたことについて決定を受けた者で、同項後段の規定により明らかにされた期間を経過しないもの
+    text: 七　税理士法第四十八条第一項の規定により同法第四十四条第二号に掲げる処分を受けるべきであつたことについて決定を受けた者で、同項後段の規定により明らかにされた期間を経過しないもの
     modality: unspecified
     item_number: 7
   - id: chihou-jichi-hou-art-252-28-p3-kou-8
     type: kou
-    text: 当該普通地方公共団体の議会の議員
+    text: 八　当該普通地方公共団体の議会の議員
     modality: unspecified
     item_number: 8
   - id: chihou-jichi-hou-art-252-28-p3-kou-9
     type: kou
-    text: 当該普通地方公共団体の職員
+    text: 九　当該普通地方公共団体の職員
     modality: unspecified
     item_number: 9
   - id: chihou-jichi-hou-art-252-28-p3-kou-10
     type: kou
-    text: 当該普通地方公共団体の職員で政令で定めるものであつた者
+    text: 十　当該普通地方公共団体の職員で政令で定めるものであつた者
     modality: unspecified
     item_number: 10
   - id: chihou-jichi-hou-art-252-28-p3-kou-11
     type: kou
-    text: 当該普通地方公共団体の長、副知事若しくは副市町村長、会計管理者又は監査委員と親子、夫婦又は兄弟姉妹の関係にある者
+    text: 十一　当該普通地方公共団体の長、副知事若しくは副市町村長、会計管理者又は監査委員と親子、夫婦又は兄弟姉妹の関係にある者
     modality: unspecified
     item_number: 11
   - id: chihou-jichi-hou-art-252-28-p3-kou-12
     type: kou
-    text: 当該普通地方公共団体に対し請負（外部監査契約に基づくものを除く。）をする者及びその支配人又は主として同一の行為をする法人の無限責任社員、取締役、執行役若しくは監査役若しくはこれらに準ずべき者、支配人及び清算人
+    text: 十二　当該普通地方公共団体に対し請負（外部監査契約に基づくものを除く。）をする者及びその支配人又は主として同一の行為をする法人の無限責任社員、取締役、執行役若しくは監査役若しくはこれらに準ずべき者、支配人及び清算人
     modality: unspecified
     item_number: 12
 cases: []

@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu_kei
   - id: dokusen-kinshi-hou-art-94-p1-kou-1
     type: kou
-    text: 第四十七条第一項第一号又は第二項の規定による事件関係人又は参考人に対する処分に違反して出頭せず、陳述をせず、若しくは虚偽の陳述をし、又は報告をせず、若しくは虚偽の報告をした者
+    text: 一　第四十七条第一項第一号又は第二項の規定による事件関係人又は参考人に対する処分に違反して出頭せず、陳述をせず、若しくは虚偽の陳述をし、又は報告をせず、若しくは虚偽の報告をした者
     modality: unspecified
     item_number: 1
   - id: dokusen-kinshi-hou-art-94-p1-kou-2
     type: kou
-    text: 第四十七条第一項第二号又は第二項の規定による鑑定人に対する処分に違反して出頭せず、鑑定をせず、又は虚偽の鑑定をした者
+    text: 二　第四十七条第一項第二号又は第二項の規定による鑑定人に対する処分に違反して出頭せず、鑑定をせず、又は虚偽の鑑定をした者
     modality: unspecified
     item_number: 2
   - id: dokusen-kinshi-hou-art-94-p1-kou-3
     type: kou
-    text: 第四十七条第一項第三号又は第二項の規定による物件の所持者に対する処分に違反して物件を提出しない者
+    text: 三　第四十七条第一項第三号又は第二項の規定による物件の所持者に対する処分に違反して物件を提出しない者
     modality: unspecified
     item_number: 3
   - id: dokusen-kinshi-hou-art-94-p1-kou-4
     type: kou
-    text: 第四十七条第一項第四号又は第二項の規定による検査を拒み、妨げ、又は忌避した者
+    text: 四　第四十七条第一項第四号又は第二項の規定による検査を拒み、妨げ、又は忌避した者
     modality: unspecified
     item_number: 4
 cases: []

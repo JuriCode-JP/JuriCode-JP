@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-49-p1-kou-1
     type: kou
-    text: 申請をする内国法人の名称、納税地及び法人番号
+    text: 一　申請をする内国法人の名称、納税地及び法人番号
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-49-p1-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-49-p1-kou-3
     type: kou
-    text: 電気通信回線の故障、災害その他の理由により法第八十二条の八第一項に規定する電子情報処理組織を使用することが困難である事情が生じた日
+    text: 三　電気通信回線の故障、災害その他の理由により法第八十二条の八第一項に規定する電子情報処理組織を使用することが困難である事情が生じた日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-38-49-p1-kou-4
     type: kou
-    text: その他参考となるべき事項
+    text: 四　その他参考となるべき事項
     modality: unspecified
     item_number: 4
 - number: 2
@@ -61,27 +61,27 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-49-p3-kou-1
     type: kou
-    text: 届出をする内国法人の名称、納税地及び法人番号
+    text: 一　届出をする内国法人の名称、納税地及び法人番号
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-49-p3-kou-2
     type: kou
-    text: 代表者の氏名
+    text: 二　代表者の氏名
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-49-p3-kou-3
     type: kou
-    text: 法第八十二条の八第一項の承認を受けた日又はその承認があつたものとみなされた日
+    text: 三　法第八十二条の八第一項の承認を受けた日又はその承認があつたものとみなされた日
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-38-49-p3-kou-4
     type: kou
-    text: 法第八十二条の八第一項の規定の適用をやめようとする理由
+    text: 四　法第八十二条の八第一項の規定の適用をやめようとする理由
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-38-49-p3-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

@@ -32,32 +32,32 @@ paragraphs:
     modality: gimu
   - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-1
     type: kou
-    text: 審査請求人の氏名又は名称及び住所又は居所
+    text: 一　審査請求人の氏名又は名称及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-2
     type: kou
-    text: 審査請求に係る処分の内容
+    text: 二　審査請求に係る処分の内容
     modality: unspecified
     item_number: 2
   - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-3
     type: kou
-    text: 審査請求に係る処分（当該処分について再調査の請求についての決定を経たときは、当該決定）があったことを知った年月日
+    text: 三　審査請求に係る処分（当該処分について再調査の請求についての決定を経たときは、当該決定）があったことを知った年月日
     modality: unspecified
     item_number: 3
   - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-4
     type: kou
-    text: 審査請求の趣旨及び理由
+    text: 四　審査請求の趣旨及び理由
     modality: unspecified
     item_number: 4
   - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-5
     type: kou
-    text: 処分庁の教示の有無及びその内容
+    text: 五　処分庁の教示の有無及びその内容
     modality: unspecified
     item_number: 5
   - id: gyousei-fufuku-shinsa-hou-art-19-p2-kou-6
     type: kou
-    text: 審査請求の年月日
+    text: 六　審査請求の年月日
     modality: unspecified
     item_number: 6
 - number: 3
@@ -71,17 +71,17 @@ paragraphs:
     modality: gimu
   - id: gyousei-fufuku-shinsa-hou-art-19-p3-kou-1
     type: kou
-    text: 審査請求人の氏名又は名称及び住所又は居所
+    text: 一　審査請求人の氏名又は名称及び住所又は居所
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-19-p3-kou-2
     type: kou
-    text: 当該不作為に係る処分についての申請の内容及び年月日
+    text: 二　当該不作為に係る処分についての申請の内容及び年月日
     modality: unspecified
     item_number: 2
   - id: gyousei-fufuku-shinsa-hou-art-19-p3-kou-3
     type: kou
-    text: 審査請求の年月日
+    text: 三　審査請求の年月日
     modality: unspecified
     item_number: 3
 - number: 4
@@ -108,17 +108,17 @@ paragraphs:
     - 前項
   - id: gyousei-fufuku-shinsa-hou-art-19-p5-kou-1
     type: kou
-    text: 第五条第二項第一号の規定により再調査の請求についての決定を経ないで審査請求をする場合　再調査の請求をした年月日
+    text: 一　第五条第二項第一号の規定により再調査の請求についての決定を経ないで審査請求をする場合　再調査の請求をした年月日
     modality: unspecified
     item_number: 1
   - id: gyousei-fufuku-shinsa-hou-art-19-p5-kou-2
     type: kou
-    text: 第五条第二項第二号の規定により再調査の請求についての決定を経ないで審査請求をする場合　その決定を経ないことについての正当な理由
+    text: 二　第五条第二項第二号の規定により再調査の請求についての決定を経ないで審査請求をする場合　その決定を経ないことについての正当な理由
     modality: unspecified
     item_number: 2
   - id: gyousei-fufuku-shinsa-hou-art-19-p5-kou-3
     type: kou
-    text: 審査請求期間の経過後において審査請求をする場合　前条第一項ただし書又は第二項ただし書に規定する正当な理由
+    text: 三　審査請求期間の経過後において審査請求をする場合　前条第一項ただし書又は第二項ただし書に規定する正当な理由
     modality: unspecified
     item_number: 3
 cases: []

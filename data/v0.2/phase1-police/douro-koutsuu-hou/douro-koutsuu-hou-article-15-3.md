@@ -25,32 +25,32 @@ paragraphs:
     - 次条
   - id: douro-koutsuu-hou-art-15-3-p1-kou-1
     type: kou
-    text: 遠隔操作型小型車の使用者の氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
+    text: 一　遠隔操作型小型車の使用者の氏名又は名称及び住所並びに法人にあつては、その代表者の氏名
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-15-3-p1-kou-2
     type: kou
-    text: 遠隔操作型小型車を遠隔操作により通行させようとする場所
+    text: 二　遠隔操作型小型車を遠隔操作により通行させようとする場所
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-15-3-p1-kou-3
     type: kou
-    text: 遠隔操作型小型車の遠隔操作を行う場所の所在地及び連絡先並びに遠隔操作のための装置、人員その他の体制
+    text: 三　遠隔操作型小型車の遠隔操作を行う場所の所在地及び連絡先並びに遠隔操作のための装置、人員その他の体制
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-15-3-p1-kou-4
     type: kou
-    text: 運送される人又は物の別及び当該人又は物の運送の方法
+    text: 四　運送される人又は物の別及び当該人又は物の運送の方法
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-15-3-p1-kou-5
     type: kou
-    text: 非常停止装置の位置及び形状
+    text: 五　非常停止装置の位置及び形状
     modality: unspecified
     item_number: 5
   - id: douro-koutsuu-hou-art-15-3-p1-kou-6
     type: kou
-    text: 遠隔操作型小型車の仕様に関する事項として内閣府令で定める事項
+    text: 六　遠隔操作型小型車の仕様に関する事項として内閣府令で定める事項
     modality: unspecified
     item_number: 6
 - number: 2
@@ -75,6 +75,10 @@ paragraphs:
     modality: gimu
     references:
     - 次条
+  - id: douro-koutsuu-hou-art-15-3-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条の二の二第一号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

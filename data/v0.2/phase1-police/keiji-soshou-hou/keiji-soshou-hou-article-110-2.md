@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: keiji-soshou-hou-art-110-2-p1-kou-1
     type: kou
-    text: 差し押さえるべき記録媒体に記録された電磁的記録を他の記録媒体に複写し、印刷し、又は移転した上、当該他の記録媒体を差し押さえること。
+    text: 一　差し押さえるべき記録媒体に記録された電磁的記録を他の記録媒体に複写し、印刷し、又は移転した上、当該他の記録媒体を差し押さえること。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-110-2-p1-kou-2
     type: kou
-    text: 差押えを受ける者に差し押さえるべき記録媒体に記録された電磁的記録を他の記録媒体に複写させ、印刷させ、又は移転させた上、当該他の記録媒体を差し押さえること。
+    text: 二　差押えを受ける者に差し押さえるべき記録媒体に記録された電磁的記録を他の記録媒体に複写させ、印刷させ、又は移転させた上、当該他の記録媒体を差し押さえること。
     modality: unspecified
     item_number: 2
 cases: []

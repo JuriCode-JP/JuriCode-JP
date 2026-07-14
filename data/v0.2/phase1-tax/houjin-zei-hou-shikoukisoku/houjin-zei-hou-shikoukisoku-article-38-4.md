@@ -34,82 +34,82 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-1
     type: kou
-    text: アメリカ合衆国
+    text: 一　アメリカ合衆国
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-2
     type: kou
-    text: インド
+    text: 二　インド
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-3
     type: kou
-    text: 英国
+    text: 三　英国
     modality: unspecified
     item_number: 3
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-4
     type: kou
-    text: オーストラリア
+    text: 四　オーストラリア
     modality: unspecified
     item_number: 4
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-5
     type: kou
-    text: カナダ
+    text: 五　カナダ
     modality: unspecified
     item_number: 5
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-6
     type: kou
-    text: シンガポール
+    text: 六　シンガポール
     modality: unspecified
     item_number: 6
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-7
     type: kou
-    text: スイス
+    text: 七　スイス
     modality: unspecified
     item_number: 7
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-8
     type: kou
-    text: 大韓民国
+    text: 八　大韓民国
     modality: unspecified
     item_number: 8
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-9
     type: kou
-    text: 中華人民共和国
+    text: 九　中華人民共和国
     modality: unspecified
     item_number: 9
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-10
     type: kou
-    text: ニュージーランド
+    text: 十　ニュージーランド
     modality: unspecified
     item_number: 10
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-11
     type: kou
-    text: ブラジル
+    text: 十一　ブラジル
     modality: unspecified
     item_number: 11
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-12
     type: kou
-    text: 香港
+    text: 十二　香港
     modality: unspecified
     item_number: 12
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-13
     type: kou
-    text: メキシコ
+    text: 十三　メキシコ
     modality: unspecified
     item_number: 13
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-14
     type: kou
-    text: ロシア
+    text: 十四　ロシア
     modality: unspecified
     item_number: 14
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-15
     type: kou
-    text: 欧州連合の加盟国
+    text: 十五　欧州連合の加盟国
     modality: unspecified
     item_number: 15
   - id: houjin-zei-hou-shikoukisoku-art-38-4-p2-kou-16
     type: kou
-    text: 欧州経済領域の加盟国（前号に掲げる国を除く。）
+    text: 十六　欧州経済領域の加盟国（前号に掲げる国を除く。）
     modality: unspecified
     item_number: 16
 cases: []

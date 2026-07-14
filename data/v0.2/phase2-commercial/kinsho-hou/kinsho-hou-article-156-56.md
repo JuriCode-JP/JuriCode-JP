@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-156-56-p1-kou-1
     type: kou
-    text: 金融商品取引関係業者と手続実施基本契約を締結したとき、又は当該手続実施基本契約を終了したとき。
+    text: 一　金融商品取引関係業者と手続実施基本契約を締結したとき、又は当該手続実施基本契約を終了したとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-156-56-p1-kou-2
     type: kou
-    text: 前号に掲げるもののほか、内閣府令で定めるとき。
+    text: 二　前号に掲げるもののほか、内閣府令で定めるとき。
     modality: unspecified
     item_number: 2
 cases: []

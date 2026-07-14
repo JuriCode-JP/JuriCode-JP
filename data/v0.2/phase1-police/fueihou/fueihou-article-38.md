@@ -23,22 +23,22 @@ paragraphs:
     modality: kanou_kenri
   - id: fueihou-art-38-p1-kou-1
     type: kou
-    text: 人格及び行動について、社会的信望を有すること。
+    text: 一　人格及び行動について、社会的信望を有すること。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-38-p1-kou-2
     type: kou
-    text: 職務の遂行に必要な熱意及び時間的余裕を有すること。
+    text: 二　職務の遂行に必要な熱意及び時間的余裕を有すること。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-38-p1-kou-3
     type: kou
-    text: 生活が安定していること。
+    text: 三　生活が安定していること。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-38-p1-kou-4
     type: kou
-    text: 健康で活動力を有すること。
+    text: 四　健康で活動力を有すること。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -52,27 +52,27 @@ paragraphs:
     modality: unspecified
   - id: fueihou-art-38-p2-kou-1
     type: kou
-    text: 飲酒若しくは喫煙をしている少年、風俗営業、店舗型性風俗特殊営業、店舗型電話異性紹介営業若しくは特定遊興飲食店営業の営業所若しくは第二条第七項第一号の営業の受付所に客として出入りし、又はこれらの営業所若しくは受付所の付近をはいかいしている十八歳未満の者その他少年の健全な育成の観点から障害があると認められる行為を行つている少年の補導を行うこと。
+    text: 一　飲酒若しくは喫煙をしている少年、風俗営業、店舗型性風俗特殊営業、店舗型電話異性紹介営業若しくは特定遊興飲食店営業の営業所若しくは第二条第七項第一号の営業の受付所に客として出入りし、又はこれらの営業所若しくは受付所の付近をはいかいしている十八歳未満の者その他少年の健全な育成の観点から障害があると認められる行為を行つている少年の補導を行うこと。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-38-p2-kou-2
     type: kou
-    text: 風俗営業若しくは性風俗関連特殊営業等を営む者又はその代理人等に対し、少年の健全な育成に障害を及ぼす行為を防止するために必要な助言を行うこと。
+    text: 二　風俗営業若しくは性風俗関連特殊営業等を営む者又はその代理人等に対し、少年の健全な育成に障害を及ぼす行為を防止するために必要な助言を行うこと。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-38-p2-kou-3
     type: kou
-    text: 少年の健全な育成に障害を及ぼす行為により被害を受けた少年に対し、助言及び指導その他の援助を行うこと。
+    text: 三　少年の健全な育成に障害を及ぼす行為により被害を受けた少年に対し、助言及び指導その他の援助を行うこと。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-38-p2-kou-4
     type: kou
-    text: 少年の健全な育成に資するための地方公共団体の施策及び民間団体の活動への協力を行うこと。
+    text: 四　少年の健全な育成に資するための地方公共団体の施策及び民間団体の活動への協力を行うこと。
     modality: unspecified
     item_number: 4
   - id: fueihou-art-38-p2-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、少年の健全な育成に障害を及ぼす行為を防止し、又は少年の健全な育成に資するための活動で国家公安委員会規則で定めるものを行うこと。
+    text: 五　前各号に掲げるもののほか、少年の健全な育成に障害を及ぼす行為を防止し、又は少年の健全な育成に資するための活動で国家公安委員会規則で定めるものを行うこと。
     modality: unspecified
     item_number: 5
 - number: 3
@@ -113,17 +113,17 @@ paragraphs:
     modality: kanou_kenri
   - id: fueihou-art-38-p6-kou-1
     type: kou
-    text: 第一項各号のいずれかの要件を欠くに至つたとき。
+    text: 一　第一項各号のいずれかの要件を欠くに至つたとき。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-38-p6-kou-2
     type: kou
-    text: 職務上の義務に違反し、又はその職務を怠つたとき。
+    text: 二　職務上の義務に違反し、又はその職務を怠つたとき。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-38-p6-kou-3
     type: kou
-    text: 少年指導委員たるにふさわしくない非行のあつたとき。
+    text: 三　少年指導委員たるにふさわしくない非行のあつたとき。
     modality: unspecified
     item_number: 3
 cases: []

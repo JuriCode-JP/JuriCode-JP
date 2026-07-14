@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kojin-jouhou-hogo-hou-art-107-p1-kou-1
     type: kou
-    text: 開示決定に対する第三者からの審査請求を却下し、又は棄却する裁決
+    text: 一　開示決定に対する第三者からの審査請求を却下し、又は棄却する裁決
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-107-p1-kou-2
     type: kou
-    text: 審査請求に係る開示決定等（開示請求に係る保有個人情報の全部を開示する旨の決定を除く。）を変更し、当該審査請求に係る保有個人情報を開示する旨の裁決（第三者である参加人が当該第三者に関する情報の開示に反対の意思を表示している場合に限る。）
+    text: 二　審査請求に係る開示決定等（開示請求に係る保有個人情報の全部を開示する旨の決定を除く。）を変更し、当該審査請求に係る保有個人情報を開示する旨の裁決（第三者である参加人が当該第三者に関する情報の開示に反対の意思を表示している場合に限る。）
     modality: unspecified
     item_number: 2
 - number: 2

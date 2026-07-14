@@ -23,32 +23,32 @@ paragraphs:
     modality: unspecified
   - id: fueihou-art-49-p1-kou-1
     type: kou
-    text: 第三条第一項の規定に違反して同項の許可を受けないで風俗営業を営んだとき。
+    text: 一　第三条第一項の規定に違反して同項の許可を受けないで風俗営業を営んだとき。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-49-p1-kou-2
     type: kou
-    text: 偽りその他不正の手段により第三条第一項の許可又は第七条第一項、第七条の二第一項若しくは第七条の三第一項の承認を受けたとき。
+    text: 二　偽りその他不正の手段により第三条第一項の許可又は第七条第一項、第七条の二第一項若しくは第七条の三第一項の承認を受けたとき。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-49-p1-kou-3
     type: kou
-    text: 第十一条の規定に違反したとき。
+    text: 三　第十一条の規定に違反したとき。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-49-p1-kou-4
     type: kou
-    text: 第二十六条、第三十条、第三十一条の五第一項若しくは第二項又は第三十一条の六第二項第二号若しくは第三号の規定による公安委員会の処分に違反したとき。
+    text: 四　第二十六条、第三十条、第三十一条の五第一項若しくは第二項又は第三十一条の六第二項第二号若しくは第三号の規定による公安委員会の処分に違反したとき。
     modality: unspecified
     item_number: 4
   - id: fueihou-art-49-p1-kou-5
     type: kou
-    text: 第二十八条第一項（第三十一条の三第二項の規定により適用する場合を含む。）の規定に違反したとき。
+    text: 五　第二十八条第一項（第三十一条の三第二項の規定により適用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 5
   - id: fueihou-art-49-p1-kou-6
     type: kou
-    text: 第二十八条第二項（第三十一条の三第二項の規定により適用する場合を含む。）の規定に基づく都道府県の条例の規定に違反したとき。
+    text: 六　第二十八条第二項（第三十一条の三第二項の規定により適用する場合を含む。）の規定に基づく都道府県の条例の規定に違反したとき。
     modality: unspecified
     item_number: 6
 cases: []

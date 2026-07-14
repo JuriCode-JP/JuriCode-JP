@@ -23,57 +23,57 @@ paragraphs:
     modality: gimu_kei
   - id: yakkihou-art-86-3-p1-kou-1
     type: kou
-    text: 第十四条の二の二第五項（第十九条の二第五項及び第六項において準用する場合を含む。）の規定に違反したとき。
+    text: 一　第十四条の二の二第五項（第十九条の二第五項及び第六項において準用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 1
   - id: yakkihou-art-86-3-p1-kou-2
     type: kou
-    text: 第十四条の四第八項（第十九条の四において準用する場合を含む。）の規定に違反したとき。
+    text: 二　第十四条の四第八項（第十九条の四において準用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 2
   - id: yakkihou-art-86-3-p1-kou-3
     type: kou
-    text: 第十四条の六第六項（第十九条の四において準用する場合を含む。）の規定に違反したとき。
+    text: 三　第十四条の六第六項（第十九条の四において準用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 3
   - id: yakkihou-art-86-3-p1-kou-4
     type: kou
-    text: 第二十三条の二の六の二第五項（第二十三条の二の十七第五項及び第六項において準用する場合を含む。）の規定に違反したとき。
+    text: 四　第二十三条の二の六の二第五項（第二十三条の二の十七第五項及び第六項において準用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 4
   - id: yakkihou-art-86-3-p1-kou-5
     type: kou
-    text: 第二十三条の二の九第七項（第二十三条の二の十九において準用する場合を含む。）の規定に違反したとき。
+    text: 五　第二十三条の二の九第七項（第二十三条の二の十九において準用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 5
   - id: yakkihou-art-86-3-p1-kou-6
     type: kou
-    text: 第二十三条の二十九第七項（第二十三条の三十九において準用する場合を含む。）の規定に違反したとき。
+    text: 六　第二十三条の二十九第七項（第二十三条の三十九において準用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 6
   - id: yakkihou-art-86-3-p1-kou-7
     type: kou
-    text: 第二十三条の三十一第六項（第二十三条の三十九において準用する場合を含む。）の規定に違反したとき。
+    text: 七　第二十三条の三十一第六項（第二十三条の三十九において準用する場合を含む。）の規定に違反したとき。
     modality: unspecified
     item_number: 7
   - id: yakkihou-art-86-3-p1-kou-8
     type: kou
-    text: 第六十八条の五第五項の規定に違反したとき。
+    text: 八　第六十八条の五第五項の規定に違反したとき。
     modality: unspecified
     item_number: 8
   - id: yakkihou-art-86-3-p1-kou-9
     type: kou
-    text: 第六十八条の七第七項の規定に違反したとき。
+    text: 九　第六十八条の七第七項の規定に違反したとき。
     modality: unspecified
     item_number: 9
   - id: yakkihou-art-86-3-p1-kou-10
     type: kou
-    text: 第六十八条の二十二第七項の規定に違反したとき。
+    text: 十　第六十八条の二十二第七項の規定に違反したとき。
     modality: unspecified
     item_number: 10
   - id: yakkihou-art-86-3-p1-kou-11
     type: kou
-    text: 第八十条の二第十項の規定に違反したとき。
+    text: 十一　第八十条の二第十項の規定に違反したとき。
     modality: unspecified
     item_number: 11
 - number: 2

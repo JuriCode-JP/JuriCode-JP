@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kigyou-kaiji-furei-art-14-9-2-p1-kou-1
     type: kou
-    text: 円建てで発行されるものであること。
+    text: 一　円建てで発行されるものであること。
     modality: unspecified
     item_number: 1
   - id: kigyou-kaiji-furei-art-14-9-2-p1-kou-2
     type: kou
-    text: 各振替外債の金額が一億円を下回らないこと。
+    text: 二　各振替外債の金額が一億円を下回らないこと。
     modality: unspecified
     item_number: 2
   - id: kigyou-kaiji-furei-art-14-9-2-p1-kou-3
     type: kou
-    text: 元本の償還について、振替外債の総額の払込みのあつた日から一年未満の日とする確定期限の定めがあり、かつ、分割払の定めがないこと。
+    text: 三　元本の償還について、振替外債の総額の払込みのあつた日から一年未満の日とする確定期限の定めがあり、かつ、分割払の定めがないこと。
     modality: unspecified
     item_number: 3
   - id: kigyou-kaiji-furei-art-14-9-2-p1-kou-4
     type: kou
-    text: 利息の支払期限を、前号の元本の償還期限と同じ日とする旨の定めがあること。
+    text: 四　利息の支払期限を、前号の元本の償還期限と同じ日とする旨の定めがあること。
     modality: unspecified
     item_number: 4
 cases: []

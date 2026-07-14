@@ -25,12 +25,12 @@ paragraphs:
     - 同項
   - id: houjin-zei-hou-shikkourei-art-82-3-p1-kou-1
     type: kou
-    text: 当該固定資産の取得をするために要した金額
+    text: 一　当該固定資産の取得をするために要した金額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-82-3-p1-kou-2
     type: kou
-    text: 当該交付を受けた金銭の額又は資材の価額のうち、前号に掲げる金額に達するまでの金額
+    text: 二　当該交付を受けた金銭の額又は資材の価額のうち、前号に掲げる金額に達するまでの金額
     modality: unspecified
     item_number: 2
 cases: []

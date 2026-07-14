@@ -36,8 +36,8 @@ paragraphs:
     text: 委員会は、前項の勧告を受けた国の行政庁に対し、同項の規定により講じた措置についての説明を求めることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

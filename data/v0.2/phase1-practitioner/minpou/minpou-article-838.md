@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: minpou-art-838-p1-kou-1
     type: kou
-    text: 未成年者に対して親権を行う者がないとき、又は親権を行う者が管理権を有しないとき。
+    text: 一　未成年者に対して親権を行う者がないとき、又は親権を行う者が管理権を有しないとき。
     modality: unspecified
     item_number: 1
   - id: minpou-art-838-p1-kou-2
     type: kou
-    text: 後見開始の審判があったとき。
+    text: 二　後見開始の審判があったとき。
     modality: unspecified
     item_number: 2
 cases: []

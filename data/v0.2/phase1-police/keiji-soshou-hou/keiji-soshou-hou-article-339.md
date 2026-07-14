@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-339-p1-kou-1
     type: kou
-    text: 第二百七十一条第二項の規定により公訴の提起がその効力を失つたとき。
+    text: 一　第二百七十一条第二項の規定により公訴の提起がその効力を失つたとき。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-339-p1-kou-2
     type: kou
-    text: 起訴状に記載された事実が真実であつても、何らの罪となるべき事実を包含していないとき。
+    text: 二　起訴状に記載された事実が真実であつても、何らの罪となるべき事実を包含していないとき。
     modality: unspecified
     item_number: 2
   - id: keiji-soshou-hou-art-339-p1-kou-3
     type: kou
-    text: 公訴が取り消されたとき。
+    text: 三　公訴が取り消されたとき。
     modality: unspecified
     item_number: 3
   - id: keiji-soshou-hou-art-339-p1-kou-4
     type: kou
-    text: 被告人が死亡し、又は被告人たる法人が存続しなくなつたとき。
+    text: 四　被告人が死亡し、又は被告人たる法人が存続しなくなつたとき。
     modality: unspecified
     item_number: 4
   - id: keiji-soshou-hou-art-339-p1-kou-5
     type: kou
-    text: 第十条又は第十一条の規定により審判してはならないとき。
+    text: 五　第十条又は第十一条の規定により審判してはならないとき。
     modality: unspecified
     item_number: 5
 - number: 2

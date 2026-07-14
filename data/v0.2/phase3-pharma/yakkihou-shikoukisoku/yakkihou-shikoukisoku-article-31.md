@@ -32,17 +32,17 @@ paragraphs:
     modality: jogai
   - id: yakkihou-shikoukisoku-art-31-p2-kou-1
     type: kou
-    text: 許可証
+    text: 一　許可証
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-31-p2-kou-2
     type: kou
-    text: 変更又は追加に係る製造品目の一覧表及び製造工程に関する書類
+    text: 二　変更又は追加に係る製造品目の一覧表及び製造工程に関する書類
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-31-p2-kou-3
     type: kou
-    text: 変更し、又は追加しようとする許可の区分に係る製造所の構造設備に関する書類
+    text: 三　変更し、又は追加しようとする許可の区分に係る製造所の構造設備に関する書類
     modality: unspecified
     item_number: 3
 cases: []

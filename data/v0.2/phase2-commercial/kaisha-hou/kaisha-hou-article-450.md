@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-450-p1-kou-1
     type: kou
-    text: 減少する剰余金の額
+    text: 一　減少する剰余金の額
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-450-p1-kou-2
     type: kou
-    text: 資本金の額の増加がその効力を生ずる日
+    text: 二　資本金の額の増加がその効力を生ずる日
     modality: unspecified
     item_number: 2
 - number: 2

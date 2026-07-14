@@ -31,8 +31,8 @@ paragraphs:
     text: 内閣総理大臣は、前項の規定による督促をしたときは、同項の課徴金の額につき年十四・五パーセントの割合で、納付期限の翌日からその納付の日までの日数により計算した延滞金を徴収することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kinsho-hou-art-185-14-p2-tadashi
     type: tadashi
     text: ただし、延滞金の額が千円未満であるときは、この限りでない。

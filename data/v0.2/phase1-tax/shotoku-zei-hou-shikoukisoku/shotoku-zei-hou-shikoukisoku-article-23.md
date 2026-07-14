@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-23-p1-kou-1
     type: kou
-    text: 令第百一条第二項に規定する申請書を提出する者の氏名及び住所
+    text: 一　令第百一条第二項に規定する申請書を提出する者の氏名及び住所
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-23-p1-kou-2
     type: kou
-    text: その評価の方法を変更しようとする事業の種類並びに商品又は製品（副産物及び作業くずを除く。）、半製品、仕掛品（半成工事を含む。）、主要原材料及び補助原材料その他の棚卸資産の区分
+    text: 二　その評価の方法を変更しようとする事業の種類並びに商品又は製品（副産物及び作業くずを除く。）、半製品、仕掛品（半成工事を含む。）、主要原材料及び補助原材料その他の棚卸資産の区分
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-23-p1-kou-3
     type: kou
-    text: 現によつている評価の方法及びその評価の方法を採用した年月日
+    text: 三　現によつている評価の方法及びその評価の方法を採用した年月日
     modality: unspecified
     item_number: 3
   - id: shotoku-zei-hou-shikoukisoku-art-23-p1-kou-4
     type: kou
-    text: 採用しようとする新たな評価の方法
+    text: 四　採用しようとする新たな評価の方法
     modality: unspecified
     item_number: 4
   - id: shotoku-zei-hou-shikoukisoku-art-23-p1-kou-5
     type: kou
-    text: その他参考となるべき事項
+    text: 五　その他参考となるべき事項
     modality: unspecified
     item_number: 5
 cases: []

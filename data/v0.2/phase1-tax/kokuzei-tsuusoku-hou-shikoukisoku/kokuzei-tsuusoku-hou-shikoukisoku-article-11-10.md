@@ -32,12 +32,12 @@ paragraphs:
     modality: gimu
   - id: kokuzei-tsuusoku-hou-shikoukisoku-art-11-10-p2-kou-1
     type: kou
-    text: 令第三十五条の二第一項第一号に規定する対象書類を複写し、又は同号に規定する対象電磁的記録に記録された事項を出力した用紙について法第九十七条の三第一項の規定による交付を求める枚数
+    text: 一　令第三十五条の二第一項第一号に規定する対象書類を複写し、又は同号に規定する対象電磁的記録に記録された事項を出力した用紙について法第九十七条の三第一項の規定による交付を求める枚数
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-shikoukisoku-art-11-10-p2-kou-2
     type: kou
-    text: 令第三十五条の二第三項に規定する手数料の額
+    text: 二　令第三十五条の二第三項に規定する手数料の額
     modality: unspecified
     item_number: 2
 - number: 3

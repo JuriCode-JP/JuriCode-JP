@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の規定による処分に係る聴聞において行政手続法第十五条第一項の通知があつた場合における同法第三章第二節の規定の適用については、当該有価証券の発行者は、同項の通知を受けた者とみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

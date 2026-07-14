@@ -27,12 +27,12 @@ paragraphs:
     modality: jogai
   - id: kaisha-hou-art-847-3-p1-kou-1
     type: kou
-    text: 特定責任追及の訴えが当該株主若しくは第三者の不正な利益を図り又は当該株式会社若しくは当該最終完全親会社等に損害を加えることを目的とする場合
+    text: 一　特定責任追及の訴えが当該株主若しくは第三者の不正な利益を図り又は当該株式会社若しくは当該最終完全親会社等に損害を加えることを目的とする場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-847-3-p1-kou-2
     type: kou
-    text: 当該特定責任の原因となった事実によって当該最終完全親会社等に損害が生じていない場合
+    text: 二　当該特定責任の原因となった事実によって当該最終完全親会社等に損害が生じていない場合
     modality: unspecified
     item_number: 2
 - number: 2
@@ -48,12 +48,12 @@ paragraphs:
     - 前項
   - id: kaisha-hou-art-847-3-p2-kou-1
     type: kou
-    text: 完全親会社
+    text: 一　完全親会社
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-847-3-p2-kou-2
     type: kou
-    text: 株式会社の発行済株式の全部を他の株式会社及びその完全子会社等（株式会社がその株式又は持分の全部を有する法人をいう。以下この条及び第八百四十九条第三項において同じ。）又は他の株式会社の完全子会社等が有する場合における当該他の株式会社（完全親会社を除く。）
+    text: 二　株式会社の発行済株式の全部を他の株式会社及びその完全子会社等（株式会社がその株式又は持分の全部を有する法人をいう。以下この条及び第八百四十九条第三項において同じ。）又は他の株式会社の完全子会社等が有する場合における当該他の株式会社（完全親会社を除く。）
     modality: unspecified
     item_number: 2
 - number: 3
@@ -89,8 +89,8 @@ paragraphs:
     text: 最終完全親会社等が、発起人等の責任の原因となった事実が生じた日において最終完全親会社等であった株式会社をその完全子会社等としたものである場合には、前項の規定の適用については、当該最終完全親会社等であった株式会社を同項の最終完全親会社等とみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 6
   has_proviso: false
   has_items: false

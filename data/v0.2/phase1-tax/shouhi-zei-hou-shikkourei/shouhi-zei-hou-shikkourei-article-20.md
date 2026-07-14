@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: shouhi-zei-hou-shikkourei-art-20-p1-kou-1
     type: kou
-    text: 事業者が国内において課税資産の譲渡等に係る事業を開始した日の属する課税期間
+    text: 一　事業者が国内において課税資産の譲渡等に係る事業を開始した日の属する課税期間
     modality: unspecified
     item_number: 1
   - id: shouhi-zei-hou-shikkourei-art-20-p1-kou-2
     type: kou
-    text: 個人事業者が相続により法第九条第四項の規定の適用を受けていた被相続人の事業を承継した場合における当該相続があつた日の属する課税期間
+    text: 二　個人事業者が相続により法第九条第四項の規定の適用を受けていた被相続人の事業を承継した場合における当該相続があつた日の属する課税期間
     modality: unspecified
     item_number: 2
   - id: shouhi-zei-hou-shikkourei-art-20-p1-kou-3
     type: kou
-    text: 法人が合併（合併により法人を設立する場合を除く。）により法第九条第四項の規定の適用を受けていた被合併法人の事業を承継した場合における当該合併があつた日の属する課税期間
+    text: 三　法人が合併（合併により法人を設立する場合を除く。）により法第九条第四項の規定の適用を受けていた被合併法人の事業を承継した場合における当該合併があつた日の属する課税期間
     modality: unspecified
     item_number: 3
   - id: shouhi-zei-hou-shikkourei-art-20-p1-kou-4
     type: kou
-    text: 法人が吸収分割により法第九条第四項の規定の適用を受けていた分割法人の事業を承継した場合における当該吸収分割があつた日の属する課税期間
+    text: 四　法人が吸収分割により法第九条第四項の規定の適用を受けていた分割法人の事業を承継した場合における当該吸収分割があつた日の属する課税期間
     modality: unspecified
     item_number: 4
 cases:

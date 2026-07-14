@@ -7,10 +7,10 @@
   "source_xml_path": "..\\..\\..\\cache\\laws\\332CO0000000043.xml",
   "source_xml_sha256": "d55e52efb2f79f4d6cca842f013efe3b46f559b771b8f9fa343344bc52d3a727",
   "source_xml_bytes": 13939227,
-  "source_fetched_at": "2026-07-13",
+  "source_fetched_at": "2026-07-14",
   "parser": "tools/parse/v0.2/segment_parser.py",
   "parser_version": "tools/parse/v0.2/rebuild_md_from_xml.py@0.2.0",
-  "parsed_at": "2026-07-13T13:58:40+00:00",
+  "parsed_at": "2026-07-14T01:44:47+00:00",
   "version_date": "1957-03-31",
   "article_count": 518,
   "articles": [
@@ -1234,8 +1234,8 @@
       "article_id": "sochi-hou-shikkourei-art-25",
       "article_number": "25",
       "filename": "sochi-hou-shikkourei-article-25.md",
-      "ja_text_sha256": "f8768b3535ec4873bc802e7bb01a90a279bfe3da82a96fb29c293b1694b3b376",
-      "ja_text_bytes": 17439,
+      "ja_text_sha256": "28a7f1aae8cf0e64d4ed390f8c868d1e69ef2d94f53adc0b8cae98d337a3ba6e",
+      "ja_text_bytes": 17430,
       "paragraph_count": 24
     },
     {
@@ -2650,8 +2650,8 @@
       "article_id": "sochi-hou-shikkourei-art-39-7",
       "article_number": "39-7",
       "filename": "sochi-hou-shikkourei-article-39-7.md",
-      "ja_text_sha256": "0024ee35aabd30761080c0aef1d5dea81f7c60173a0457939763c9ce7d924f2a",
-      "ja_text_bytes": 46988,
+      "ja_text_sha256": "3b264285c9dcf8264509670745d3749496a7d716bd1e06d67eda737f22a0082d",
+      "ja_text_bytes": 46979,
       "paragraph_count": 45
     },
     {
@@ -2938,8 +2938,8 @@
       "article_id": "sochi-hou-shikkourei-art-40-4-2",
       "article_number": "40-4-2",
       "filename": "sochi-hou-shikkourei-article-40-4-2.md",
-      "ja_text_sha256": "2e1412962056d2191bbcd9ae6ba17fbb19945d2bc9159311782b0284d629ada2",
-      "ja_text_bytes": 15038,
+      "ja_text_sha256": "026d471108e81d2f47c56e2a5db6f30a9e34698ad1ecbe2bb3a565054349c887",
+      "ja_text_bytes": 15032,
       "paragraph_count": 16
     },
     {
@@ -3018,8 +3018,8 @@
       "article_id": "sochi-hou-shikkourei-art-40-5",
       "article_number": "40-5",
       "filename": "sochi-hou-shikkourei-article-40-5.md",
-      "ja_text_sha256": "56ae57e2420e9e38fcd4e4d78d3b8c901d59570dfbc75dec6fea3aecd57d1271",
-      "ja_text_bytes": 16652,
+      "ja_text_sha256": "e5c76456035a9e2a1114b135a8c0613698016fd60d273ea6c5e121daf8ed11b4",
+      "ja_text_bytes": 16646,
       "paragraph_count": 16
     },
     {
@@ -3258,8 +3258,8 @@
       "article_id": "sochi-hou-shikkourei-art-42-2-2",
       "article_number": "42-2-2",
       "filename": "sochi-hou-shikkourei-article-42-2-2.md",
-      "ja_text_sha256": "c1e0f8f9ae4e4f5d1b0e4003a3947ab634800fe50708825aba7e2c7d6a4ae790",
-      "ja_text_bytes": 4802,
+      "ja_text_sha256": "141554ce2413664d0f8f4dab559707bb3606fe875867afbc730b27e61e12d20b",
+      "ja_text_bytes": 4796,
       "paragraph_count": 4
     },
     {
@@ -3386,8 +3386,8 @@
       "article_id": "sochi-hou-shikkourei-art-44-3",
       "article_number": "44-3",
       "filename": "sochi-hou-shikkourei-article-44-3.md",
-      "ja_text_sha256": "a3efd169b5c333465075cc2dcd9152a1486a48c74946d5efb91ba19ed5d078db",
-      "ja_text_bytes": 1059,
+      "ja_text_sha256": "7edee19e54280630d18fd6bd07f618b262235696b684cf633e6b8c3406d08a53",
+      "ja_text_bytes": 1053,
       "paragraph_count": 1
     },
     {

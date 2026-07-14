@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: shotoku-zei-hou-shikoukisoku-art-72-3-p1-kou-1
     type: kou
-    text: 内国信託会社の名称及び本店の所在地
+    text: 一　内国信託会社の名称及び本店の所在地
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-72-3-p1-kou-2
     type: kou
-    text: 法第百七十六条第二項に規定する退職年金等信託の信託された営業所の名称及び所在地並びに当該退職年金等信託に係る信託契約の種類
+    text: 二　法第百七十六条第二項に規定する退職年金等信託の信託された営業所の名称及び所在地並びに当該退職年金等信託に係る信託契約の種類
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-72-3-p1-kou-3
     type: kou
-    text: 法第百七十六条第二項の規定による登載をした年月日
+    text: 三　法第百七十六条第二項の規定による登載をした年月日
     modality: unspecified
     item_number: 3
 cases: []

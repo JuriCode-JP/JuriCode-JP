@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikkourei-art-117-2-p1-kou-1
     type: kou
-    text: 再生手続開始の決定があつたこと　民事再生法第八十四条（再生債権となる請求権）に規定する再生債権（同法に規定する共益債権及び同法第百二十二条第一項（一般優先債権）に規定する一般優先債権で、その再生手続開始前の原因に基づいて生じたものを含む。）
+    text: 一　再生手続開始の決定があつたこと　民事再生法第八十四条（再生債権となる請求権）に規定する再生債権（同法に規定する共益債権及び同法第百二十二条第一項（一般優先債権）に規定する一般優先債権で、その再生手続開始前の原因に基づいて生じたものを含む。）
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikkourei-art-117-2-p1-kou-2
     type: kou
-    text: 法第五十九条第二項に規定する政令で定める事実　当該事実の発生前の原因に基づいて生じた債権
+    text: 二　法第五十九条第二項に規定する政令で定める事実　当該事実の発生前の原因に基づいて生じた債権
     modality: unspecified
     item_number: 2
 cases: []

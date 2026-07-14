@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: minpou-art-969-p1-kou-1
     type: kou
-    text: 証人二人以上の立会いがあること。
+    text: 一　証人二人以上の立会いがあること。
     modality: unspecified
     item_number: 1
   - id: minpou-art-969-p1-kou-2
     type: kou
-    text: 遺言者が遺言の趣旨を公証人に口授すること。
+    text: 二　遺言者が遺言の趣旨を公証人に口授すること。
     modality: unspecified
     item_number: 2
 - number: 2

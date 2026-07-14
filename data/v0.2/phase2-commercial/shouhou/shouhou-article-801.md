@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_negative
   - id: shouhou-art-801-p1-kou-1
     type: kou
-    text: 故意に海難を発生させたとき。
+    text: 一　故意に海難を発生させたとき。
     modality: unspecified
     item_number: 1
   - id: shouhou-art-801-p1-kou-2
     type: kou
-    text: 正当な事由により救助を拒まれたにもかかわらず、救助したとき。
+    text: 二　正当な事由により救助を拒まれたにもかかわらず、救助したとき。
     modality: unspecified
     item_number: 2
 cases: []

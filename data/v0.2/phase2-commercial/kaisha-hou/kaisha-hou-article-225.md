@@ -35,8 +35,8 @@ paragraphs:
     text: 前項の規定による申請をしようとする者は、株券発行会社に対し、同項の株券を提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

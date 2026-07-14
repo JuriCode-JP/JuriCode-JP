@@ -36,8 +36,8 @@ paragraphs:
     text: 制限行為能力者の相手方が、制限行為能力者が行為能力者とならない間に、その法定代理人、保佐人又は補助人に対し、その権限内の行為について前項に規定する催告をした場合において、これらの者が同項の期間内に確答を発しないときも、同項後段と同様とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

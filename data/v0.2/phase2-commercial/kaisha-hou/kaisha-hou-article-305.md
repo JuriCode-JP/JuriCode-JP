@@ -35,8 +35,8 @@ paragraphs:
     text: 公開会社でない取締役会設置会社における前項ただし書の規定の適用については、同項ただし書中「六箇月（これを下回る期間を定款で定めた場合にあっては、その期間）前から引き続き有する」とあるのは、「有する」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -61,22 +61,22 @@ paragraphs:
     - 前三項
   - id: kaisha-hou-art-305-p4-kou-1
     type: kou
-    text: 取締役、会計参与、監査役又は会計監査人（次号において「役員等」という。）の選任に関する議案　当該議案の数にかかわらず、これを一の議案とみなす。
+    text: 一　取締役、会計参与、監査役又は会計監査人（次号において「役員等」という。）の選任に関する議案　当該議案の数にかかわらず、これを一の議案とみなす。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-305-p4-kou-2
     type: kou
-    text: 役員等の解任に関する議案　当該議案の数にかかわらず、これを一の議案とみなす。
+    text: 二　役員等の解任に関する議案　当該議案の数にかかわらず、これを一の議案とみなす。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-305-p4-kou-3
     type: kou
-    text: 会計監査人を再任しないことに関する議案　当該議案の数にかかわらず、これを一の議案とみなす。
+    text: 三　会計監査人を再任しないことに関する議案　当該議案の数にかかわらず、これを一の議案とみなす。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-305-p4-kou-4
     type: kou
-    text: 定款の変更に関する二以上の議案　当該二以上の議案について異なる議決がされたとすれば当該議決の内容が相互に矛盾する可能性がある場合には、これらを一の議案とみなす。
+    text: 四　定款の変更に関する二以上の議案　当該二以上の議案について異なる議決がされたとすれば当該議決の内容が相互に矛盾する可能性がある場合には、これらを一の議案とみなす。
     modality: unspecified
     item_number: 4
 - number: 5

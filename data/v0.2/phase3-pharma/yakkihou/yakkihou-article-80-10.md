@@ -59,8 +59,8 @@ paragraphs:
     text: 機構は、前項の申請に係る登録をしたとき、若しくは申請を却下したとき、同項の届出を受理したとき、又は登録を抹消したときは、厚生労働省令で定めるところにより、厚生労働大臣にその旨を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 5
   has_proviso: false
   has_items: false

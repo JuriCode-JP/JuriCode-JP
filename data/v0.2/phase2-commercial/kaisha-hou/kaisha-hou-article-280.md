@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-280-p1-kou-1
     type: kou
-    text: その行使に係る新株予約権の内容及び数
+    text: 一　その行使に係る新株予約権の内容及び数
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-280-p1-kou-2
     type: kou
-    text: 新株予約権を行使する日
+    text: 二　新株予約権を行使する日
     modality: unspecified
     item_number: 2
 - number: 2

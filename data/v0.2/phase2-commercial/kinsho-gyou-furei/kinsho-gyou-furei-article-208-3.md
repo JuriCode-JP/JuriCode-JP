@@ -32,32 +32,32 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-208-3-p2-kou-1
     type: kou
-    text: 商号
+    text: 一　商号
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-208-3-p2-kou-2
     type: kou
-    text: 登録年月日及び登録番号
+    text: 二　登録年月日及び登録番号
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-208-3-p2-kou-3
     type: kou
-    text: 当該親会社の商号又は名称
+    text: 三　当該親会社の商号又は名称
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-208-3-p2-kou-4
     type: kou
-    text: 特定書類（令第十七条の二の三第一項に規定する特定書類をいう。第六号及び第四項において同じ。）の提出に関し当該承認を受けようとする期間
+    text: 四　特定書類（令第十七条の二の三第一項に規定する特定書類をいう。第六号及び第四項において同じ。）の提出に関し当該承認を受けようとする期間
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-208-3-p2-kou-5
     type: kou
-    text: 届出日（法第五十七条の二第二項に規定する届出日をいう。以下この節において同じ。）
+    text: 五　届出日（法第五十七条の二第二項に規定する届出日をいう。以下この節において同じ。）
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-208-3-p2-kou-6
     type: kou
-    text: 特定書類の提出に関し当該承認を必要とする理由
+    text: 六　特定書類の提出に関し当該承認を必要とする理由
     modality: unspecified
     item_number: 6
 - number: 3
@@ -73,17 +73,17 @@ paragraphs:
     - 前項
   - id: kinsho-gyou-furei-art-208-3-p3-kou-1
     type: kou
-    text: 当該親会社の定款又はこれに代わる書面
+    text: 一　当該親会社の定款又はこれに代わる書面
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-208-3-p3-kou-2
     type: kou
-    text: 前項第六号の理由が当該親会社の本国の法令又は慣行によるものである場合には、当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
+    text: 二　前項第六号の理由が当該親会社の本国の法令又は慣行によるものである場合には、当該承認申請書に記載された法令又は慣行に関する事項が真実かつ正確であることについての法律専門家の法律意見書及び当該法律意見書に掲げられた関係法令の関係条文
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-208-3-p3-kou-3
     type: kou
-    text: 前項第六号の理由が当該親会社の本国の法令又は慣行によるものである場合以外の場合には、当該理由を証する書面
+    text: 三　前項第六号の理由が当該親会社の本国の法令又は慣行によるものである場合以外の場合には、当該理由を証する書面
     modality: unspecified
     item_number: 3
 - number: 4

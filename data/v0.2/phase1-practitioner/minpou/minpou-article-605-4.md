@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_kenri
   - id: minpou-art-605-4-p1-kou-1
     type: kou
-    text: その不動産の占有を第三者が妨害しているとき　その第三者に対する妨害の停止の請求
+    text: 一　その不動産の占有を第三者が妨害しているとき　その第三者に対する妨害の停止の請求
     modality: unspecified
     item_number: 1
   - id: minpou-art-605-4-p1-kou-2
     type: kou
-    text: その不動産を第三者が占有しているとき　その第三者に対する返還の請求
+    text: 二　その不動産を第三者が占有しているとき　その第三者に対する返還の請求
     modality: unspecified
     item_number: 2
 cases: []

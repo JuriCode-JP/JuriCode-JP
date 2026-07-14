@@ -34,12 +34,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-868-p2-kou-1
     type: kou
-    text: 当該書面の閲覧若しくは謄写又はその謄本若しくは抄本の交付
+    text: 一　当該書面の閲覧若しくは謄写又はその謄本若しくは抄本の交付
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-868-p2-kou-2
     type: kou
-    text: 当該電磁的記録に記録された事項を表示したものの閲覧若しくは謄写又は電磁的方法による当該事項の提供若しくは当該事項を記載した書面の交付
+    text: 二　当該電磁的記録に記録された事項を表示したものの閲覧若しくは謄写又は電磁的方法による当該事項の提供若しくは当該事項を記載した書面の交付
     modality: unspecified
     item_number: 2
 - number: 3

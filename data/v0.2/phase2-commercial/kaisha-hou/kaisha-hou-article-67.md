@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-67-p1-kou-1
     type: kou
-    text: 創立総会の日時及び場所
+    text: 一　創立総会の日時及び場所
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-67-p1-kou-2
     type: kou
-    text: 創立総会の目的である事項
+    text: 二　創立総会の目的である事項
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-67-p1-kou-3
     type: kou
-    text: 創立総会に出席しない設立時株主が書面によって議決権を行使することができることとするときは、その旨
+    text: 三　創立総会に出席しない設立時株主が書面によって議決権を行使することができることとするときは、その旨
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-67-p1-kou-4
     type: kou
-    text: 創立総会に出席しない設立時株主が電磁的方法によって議決権を行使することができることとするときは、その旨
+    text: 四　創立総会に出席しない設立時株主が電磁的方法によって議決権を行使することができることとするときは、その旨
     modality: unspecified
     item_number: 4
   - id: kaisha-hou-art-67-p1-kou-5
     type: kou
-    text: 前各号に掲げるもののほか、法務省令で定める事項
+    text: 五　前各号に掲げるもののほか、法務省令で定める事項
     modality: unspecified
     item_number: 5
 - number: 2

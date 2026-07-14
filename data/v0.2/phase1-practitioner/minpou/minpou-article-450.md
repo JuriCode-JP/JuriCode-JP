@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: minpou-art-450-p1-kou-1
     type: kou
-    text: 行為能力者であること。
+    text: 一　行為能力者であること。
     modality: unspecified
     item_number: 1
   - id: minpou-art-450-p1-kou-2
     type: kou
-    text: 弁済をする資力を有すること。
+    text: 二　弁済をする資力を有すること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 保証人が前項第二号に掲げる要件を欠くに至ったときは、債権者は、同項各号に掲げる要件を具備する者をもってこれに代えることを請求することができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

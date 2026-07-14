@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-26-p1-kou-1
     type: kou
-    text: 安定操作届出書　当該安定操作届出書を金融庁長官が受理した日
+    text: 一　安定操作届出書　当該安定操作届出書を金融庁長官が受理した日
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-26-p1-kou-2
     type: kou
-    text: 安定操作報告書　安定操作期間が終了した日の翌日
+    text: 二　安定操作報告書　安定操作期間が終了した日の翌日
     modality: unspecified
     item_number: 2
 - number: 2

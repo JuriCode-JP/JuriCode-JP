@@ -25,17 +25,17 @@ paragraphs:
     - 次項
   - id: shotoku-zei-hou-shikoukisoku-art-34-2-p1-kou-1
     type: kou
-    text: 当該居住者に対して資産の譲渡又は役務の提供を行う者の当該資産の譲渡又は役務の提供の業務の用に専ら供する資産の貸付け
+    text: 一　当該居住者に対して資産の譲渡又は役務の提供を行う者の当該資産の譲渡又は役務の提供の業務の用に専ら供する資産の貸付け
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikoukisoku-art-34-2-p1-kou-2
     type: kou
-    text: 継続的に当該居住者の経営資源（業務の用に供される設備（その貸付けの用に供する資産を除く。）、業務に関する当該居住者又はその従業者の有する技能又は知識（租税に関するものを除く。）その他これらに準ずるものをいう。）を活用して行い、又は行うことが見込まれる業務としての資産の貸付け
+    text: 二　継続的に当該居住者の経営資源（業務の用に供される設備（その貸付けの用に供する資産を除く。）、業務に関する当該居住者又はその従業者の有する技能又は知識（租税に関するものを除く。）その他これらに準ずるものをいう。）を活用して行い、又は行うことが見込まれる業務としての資産の貸付け
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikoukisoku-art-34-2-p1-kou-3
     type: kou
-    text: 当該居住者が行う主要な業務に付随して行う資産の貸付け
+    text: 三　当該居住者が行う主要な業務に付随して行う資産の貸付け
     modality: unspecified
     item_number: 3
 - number: 2

@@ -23,32 +23,32 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-38-p1-kou-1
     type: kou
-    text: 納税者の財産につき強制換価手続が開始されたとき（仮登記担保契約に関する法律（昭和五十三年法律第七十八号）第二条第一項（所有権移転の効力の制限等）（同法第二十条（土地等の所有権以外の権利を目的とする契約への準用）において準用する場合を含む。）の規定による通知がされたときを含む。）。
+    text: 一　納税者の財産につき強制換価手続が開始されたとき（仮登記担保契約に関する法律（昭和五十三年法律第七十八号）第二条第一項（所有権移転の効力の制限等）（同法第二十条（土地等の所有権以外の権利を目的とする契約への準用）において準用する場合を含む。）の規定による通知がされたときを含む。）。
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-38-p1-kou-2
     type: kou
-    text: 納税者が死亡した場合において、その相続人が限定承認をしたとき。
+    text: 二　納税者が死亡した場合において、その相続人が限定承認をしたとき。
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-38-p1-kou-3
     type: kou
-    text: 法人である納税者が解散したとき。
+    text: 三　法人である納税者が解散したとき。
     modality: unspecified
     item_number: 3
   - id: kokuzei-tsuusoku-hou-art-38-p1-kou-4
     type: kou
-    text: その納める義務が信託財産責任負担債務である国税に係る信託が終了したとき（信託法第百六十三条第五号（信託の終了事由）に掲げる事由によつて終了したときを除く。）。
+    text: 四　その納める義務が信託財産責任負担債務である国税に係る信託が終了したとき（信託法第百六十三条第五号（信託の終了事由）に掲げる事由によつて終了したときを除く。）。
     modality: unspecified
     item_number: 4
   - id: kokuzei-tsuusoku-hou-art-38-p1-kou-5
     type: kou
-    text: 納税者が納税管理人を定めないでこの法律の施行地に住所及び居所を有しないこととなるとき。
+    text: 五　納税者が納税管理人を定めないでこの法律の施行地に住所及び居所を有しないこととなるとき。
     modality: unspecified
     item_number: 5
   - id: kokuzei-tsuusoku-hou-art-38-p1-kou-6
     type: kou
-    text: 納税者が偽りその他不正の行為により国税を免れ、若しくは免れようとし、若しくは国税の還付を受け、若しくは受けようとしたと認められるとき、又は納税者が国税の滞納処分の執行を免れ、若しくは免れようとしたと認められるとき。
+    text: 六　納税者が偽りその他不正の行為により国税を免れ、若しくは免れようとし、若しくは国税の還付を受け、若しくは受けようとしたと認められるとき、又は納税者が国税の滞納処分の執行を免れ、若しくは免れようとしたと認められるとき。
     modality: unspecified
     item_number: 6
 - number: 2
@@ -61,8 +61,8 @@ paragraphs:
     text: 前項の規定による請求は、税務署長が、納付すべき税額、その繰上げに係る期限及び納付場所を記載した繰上請求書（源泉徴収等による国税で納税の告知がされていないものについて同項の規定による請求をする場合には、当該請求をする旨を付記した納税告知書）を送達して行う。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: true
@@ -74,17 +74,17 @@ paragraphs:
     modality: kanou_kenri
   - id: kokuzei-tsuusoku-hou-art-38-p3-kou-1
     type: kou
-    text: 納税義務の成立した国税（課税資産の譲渡等に係る消費税を除く。）
+    text: 一　納税義務の成立した国税（課税資産の譲渡等に係る消費税を除く。）
     modality: unspecified
     item_number: 1
   - id: kokuzei-tsuusoku-hou-art-38-p3-kou-2
     type: kou
-    text: 課税期間が経過した課税資産の譲渡等に係る消費税
+    text: 二　課税期間が経過した課税資産の譲渡等に係る消費税
     modality: unspecified
     item_number: 2
   - id: kokuzei-tsuusoku-hou-art-38-p3-kou-3
     type: kou
-    text: 納税義務の成立した消費税法第四十二条第一項、第四項又は第六項（課税資産の譲渡等及び特定課税仕入れについての中間申告）の規定による申告書に係る消費税
+    text: 三　納税義務の成立した消費税法第四十二条第一項、第四項又は第六項（課税資産の譲渡等及び特定課税仕入れについての中間申告）の規定による申告書に係る消費税
     modality: unspecified
     item_number: 3
 - number: 4

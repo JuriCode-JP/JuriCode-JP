@@ -43,17 +43,17 @@ paragraphs:
     modality: unspecified
   - id: kinsho-kachoukin-furei-art-42-p3-kou-1
     type: kou
-    text: 審問の申出をした者の審問（主審問）
+    text: 一　審問の申出をした者の審問（主審問）
     modality: unspecified
     item_number: 1
   - id: kinsho-kachoukin-furei-art-42-p3-kou-2
     type: kou
-    text: 相手方の審問（反対審問）
+    text: 二　相手方の審問（反対審問）
     modality: unspecified
     item_number: 2
   - id: kinsho-kachoukin-furei-art-42-p3-kou-3
     type: kou
-    text: 審問の申出をした者の再度の審問（再主審問）
+    text: 三　審問の申出をした者の再度の審問（再主審問）
     modality: unspecified
     item_number: 3
 - number: 4

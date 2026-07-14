@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kaisha-hou-art-206-p1-kou-1
     type: kou
-    text: 申込者　株式会社の割り当てた募集株式の数
+    text: 一　申込者　株式会社の割り当てた募集株式の数
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-206-p1-kou-2
     type: kou
-    text: 前条第一項の契約により募集株式の総数を引き受けた者　その者が引き受けた募集株式の数
+    text: 二　前条第一項の契約により募集株式の総数を引き受けた者　その者が引き受けた募集株式の数
     modality: unspecified
     item_number: 2
 cases: []

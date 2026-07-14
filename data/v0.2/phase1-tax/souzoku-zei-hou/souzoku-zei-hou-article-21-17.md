@@ -37,8 +37,8 @@ paragraphs:
     text: 前項本文の場合において、相続時精算課税適用者の相続人が限定承認をしたときは、当該相続人は、相続により取得した財産（当該相続時精算課税適用者からの遺贈又は贈与により取得した財産を含む。）の限度においてのみ同項の納税に係る権利又は義務を承継する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

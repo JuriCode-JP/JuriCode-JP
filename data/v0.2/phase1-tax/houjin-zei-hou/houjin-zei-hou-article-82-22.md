@@ -23,17 +23,17 @@ paragraphs:
     modality: unspecified
   - id: houjin-zei-hou-art-82-22-p1-kou-1
     type: kou
-    text: 当該対象会計年度の課税標準である内国法人に係る課税標準国内最低課税額
+    text: 一　当該対象会計年度の課税標準である内国法人に係る課税標準国内最低課税額
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-82-22-p1-kou-2
     type: kou
-    text: 前号に掲げる内国法人に係る課税標準国内最低課税額につき前条の規定を適用して計算した法人税の額
+    text: 二　前号に掲げる内国法人に係る課税標準国内最低課税額につき前条の規定を適用して計算した法人税の額
     modality: unspecified
     item_number: 2
   - id: houjin-zei-hou-art-82-22-p1-kou-3
     type: kou
-    text: 前二号に掲げる金額の計算の基礎その他財務省令で定める事項
+    text: 三　前二号に掲げる金額の計算の基礎その他財務省令で定める事項
     modality: unspecified
     item_number: 3
 - number: 2
@@ -46,8 +46,8 @@ paragraphs:
     text: 申告対象法人が、前項の規定による申告書を最初に提出すべき対象会計年度において当該申告書を提出する場合（過去対象会計年度において当該申告対象法人又は当該申告対象法人の特定多国籍企業グループ等に属する構成会社等であつた他の内国法人若しくは外国法人（我が国を所在地国とする恒久的施設等を有していたものに限る。以下この項において同じ。）若しくは当該特定多国籍企業グループ等に係る共同支配会社等であつた他の内国法人若しくは外国法人が第百五十条の三第九項（特定多国籍企業グループ等に係る報告事項等の提供）の規定の適用を受けていなかつた場合に限る。）には、当該申告対象法人の当該最初に提出すべき対象会計年度に係る前項の規定の適用については、同項中「一年三月」とあるのは、「一年六月」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

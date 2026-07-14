@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-76-p1-kou-1
     type: kou
-    text: 前事業年度の事業概況報告書及び当該事業年度の事業計画書
+    text: 一　前事業年度の事業概況報告書及び当該事業年度の事業計画書
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-76-p1-kou-2
     type: kou
-    text: 前事業年度末における財産目録
+    text: 二　前事業年度末における財産目録
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-76-p1-kou-3
     type: kou
-    text: 前事業年度の収支決算書及び当該事業年度の収支予算書
+    text: 三　前事業年度の収支決算書及び当該事業年度の収支予算書
     modality: unspecified
     item_number: 3
 cases: []

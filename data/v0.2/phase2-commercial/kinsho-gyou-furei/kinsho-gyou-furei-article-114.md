@@ -23,37 +23,37 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-114-p1-kou-1
     type: kou
-    text: 当該金融商品取引業者等の商号、名称又は氏名
+    text: 一　当該金融商品取引業者等の商号、名称又は氏名
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-114-p1-kou-2
     type: kou
-    text: 顧客が当該金融商品取引業者等に連絡する方法
+    text: 二　顧客が当該金融商品取引業者等に連絡する方法
     modality: unspecified
     item_number: 2
   - id: kinsho-gyou-furei-art-114-p1-kou-3
     type: kou
-    text: 顧客の氏名又は名称
+    text: 三　顧客の氏名又は名称
     modality: unspecified
     item_number: 3
   - id: kinsho-gyou-furei-art-114-p1-kou-4
     type: kou
-    text: 当該金融商品取引業者等が保証金（前条に規定するものに限る。以下この項において同じ。）を受領した日付
+    text: 四　当該金融商品取引業者等が保証金（前条に規定するものに限る。以下この項において同じ。）を受領した日付
     modality: unspecified
     item_number: 4
   - id: kinsho-gyou-furei-art-114-p1-kou-5
     type: kou
-    text: 保証金に係る取引の種類及び取引の対象とする金融商品又は金融指標の種類
+    text: 五　保証金に係る取引の種類及び取引の対象とする金融商品又は金融指標の種類
     modality: unspecified
     item_number: 5
   - id: kinsho-gyou-furei-art-114-p1-kou-6
     type: kou
-    text: 保証金に係る取引が市場デリバティブ取引又は外国市場デリバティブ取引に係るものであるときは、当該市場デリバティブ取引又は外国市場デリバティブ取引に係る金融商品市場又は外国金融商品市場を開設する者の商号又は名称
+    text: 六　保証金に係る取引が市場デリバティブ取引又は外国市場デリバティブ取引に係るものであるときは、当該市場デリバティブ取引又は外国市場デリバティブ取引に係る金融商品市場又は外国金融商品市場を開設する者の商号又は名称
     modality: unspecified
     item_number: 6
   - id: kinsho-gyou-furei-art-114-p1-kou-7
     type: kou
-    text: 保証金の金銭又は有価証券等（有価証券その他の金銭以外の財産をいう。以下この号において同じ。）の別並びに当該保証金が有価証券等であるときは、その種類（有価証券にあっては、銘柄）、数量及び代用価格
+    text: 七　保証金の金銭又は有価証券等（有価証券その他の金銭以外の財産をいう。以下この号において同じ。）の別並びに当該保証金が有価証券等であるときは、その種類（有価証券にあっては、銘柄）、数量及び代用価格
     modality: unspecified
     item_number: 7
 - number: 2

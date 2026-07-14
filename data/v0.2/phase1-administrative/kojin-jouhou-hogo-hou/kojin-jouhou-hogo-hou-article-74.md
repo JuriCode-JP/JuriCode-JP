@@ -23,57 +23,57 @@ paragraphs:
     modality: gimu
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-1
     type: kou
-    text: 個人情報ファイルの名称
+    text: 一　個人情報ファイルの名称
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-2
     type: kou
-    text: 当該機関の名称及び個人情報ファイルが利用に供される事務をつかさどる組織の名称
+    text: 二　当該機関の名称及び個人情報ファイルが利用に供される事務をつかさどる組織の名称
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-3
     type: kou
-    text: 個人情報ファイルの利用目的
+    text: 三　個人情報ファイルの利用目的
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-4
     type: kou
-    text: 個人情報ファイルに記録される項目（以下この節において「記録項目」という。）及び本人（他の個人の氏名、生年月日その他の記述等によらないで検索し得る者に限る。次項第九号において同じ。）として個人情報ファイルに記録される個人の範囲（以下この節において「記録範囲」という。）
+    text: 四　個人情報ファイルに記録される項目（以下この節において「記録項目」という。）及び本人（他の個人の氏名、生年月日その他の記述等によらないで検索し得る者に限る。次項第九号において同じ。）として個人情報ファイルに記録される個人の範囲（以下この節において「記録範囲」という。）
     modality: unspecified
     item_number: 4
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-5
     type: kou
-    text: 個人情報ファイルに記録される個人情報（以下この節において「記録情報」という。）の収集方法
+    text: 五　個人情報ファイルに記録される個人情報（以下この節において「記録情報」という。）の収集方法
     modality: unspecified
     item_number: 5
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-6
     type: kou
-    text: 記録情報に要配慮個人情報が含まれるときは、その旨
+    text: 六　記録情報に要配慮個人情報が含まれるときは、その旨
     modality: unspecified
     item_number: 6
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-7
     type: kou
-    text: 記録情報を当該機関以外の者に経常的に提供する場合には、その提供先
+    text: 七　記録情報を当該機関以外の者に経常的に提供する場合には、その提供先
     modality: unspecified
     item_number: 7
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-8
     type: kou
-    text: 次条第三項の規定に基づき、記録項目の一部若しくは第五号若しくは前号に掲げる事項を次条第一項に規定する個人情報ファイル簿に記載しないこととするとき、又は個人情報ファイルを同項に規定する個人情報ファイル簿に掲載しないこととするときは、その旨
+    text: 八　次条第三項の規定に基づき、記録項目の一部若しくは第五号若しくは前号に掲げる事項を次条第一項に規定する個人情報ファイル簿に記載しないこととするとき、又は個人情報ファイルを同項に規定する個人情報ファイル簿に掲載しないこととするときは、その旨
     modality: unspecified
     item_number: 8
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-9
     type: kou
-    text: 第七十六条第一項、第九十条第一項又は第九十八条第一項の規定による請求を受理する組織の名称及び所在地
+    text: 九　第七十六条第一項、第九十条第一項又は第九十八条第一項の規定による請求を受理する組織の名称及び所在地
     modality: unspecified
     item_number: 9
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-10
     type: kou
-    text: 第九十条第一項ただし書又は第九十八条第一項ただし書に該当するときは、その旨
+    text: 十　第九十条第一項ただし書又は第九十八条第一項ただし書に該当するときは、その旨
     modality: unspecified
     item_number: 10
   - id: kojin-jouhou-hogo-hou-art-74-p1-kou-11
     type: kou
-    text: その他政令で定める事項
+    text: 十一　その他政令で定める事項
     modality: unspecified
     item_number: 11
 - number: 2
@@ -89,57 +89,57 @@ paragraphs:
     - 前項
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-1
     type: kou
-    text: 国の安全、外交上の秘密その他の国の重大な利益に関する事項を記録する個人情報ファイル
+    text: 一　国の安全、外交上の秘密その他の国の重大な利益に関する事項を記録する個人情報ファイル
     modality: unspecified
     item_number: 1
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-2
     type: kou
-    text: 犯罪の捜査、租税に関する法律の規定に基づく犯則事件の調査又は公訴の提起若しくは維持のために作成し、又は取得する個人情報ファイル
+    text: 二　犯罪の捜査、租税に関する法律の規定に基づく犯則事件の調査又は公訴の提起若しくは維持のために作成し、又は取得する個人情報ファイル
     modality: unspecified
     item_number: 2
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-3
     type: kou
-    text: 当該機関の職員又は職員であった者に係る個人情報ファイルであって、専らその人事、給与若しくは福利厚生に関する事項又はこれらに準ずる事項を記録するもの（当該機関が行う職員の採用試験に関する個人情報ファイルを含む。）
+    text: 三　当該機関の職員又は職員であった者に係る個人情報ファイルであって、専らその人事、給与若しくは福利厚生に関する事項又はこれらに準ずる事項を記録するもの（当該機関が行う職員の採用試験に関する個人情報ファイルを含む。）
     modality: unspecified
     item_number: 3
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-4
     type: kou
-    text: 専ら試験的な電子計算機処理の用に供するための個人情報ファイル
+    text: 四　専ら試験的な電子計算機処理の用に供するための個人情報ファイル
     modality: unspecified
     item_number: 4
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-5
     type: kou
-    text: 前項の規定による通知に係る個人情報ファイルに記録されている記録情報の全部又は一部を記録した個人情報ファイルであって、その利用目的、記録項目及び記録範囲が当該通知に係るこれらの事項の範囲内のもの
+    text: 五　前項の規定による通知に係る個人情報ファイルに記録されている記録情報の全部又は一部を記録した個人情報ファイルであって、その利用目的、記録項目及び記録範囲が当該通知に係るこれらの事項の範囲内のもの
     modality: unspecified
     item_number: 5
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-6
     type: kou
-    text: 一年以内に消去することとなる記録情報のみを記録する個人情報ファイル
+    text: 六　一年以内に消去することとなる記録情報のみを記録する個人情報ファイル
     modality: unspecified
     item_number: 6
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-7
     type: kou
-    text: 資料その他の物品若しくは金銭の送付又は業務上必要な連絡のために利用する記録情報を記録した個人情報ファイルであって、送付又は連絡の相手方の氏名、住所その他の送付又は連絡に必要な事項のみを記録するもの
+    text: 七　資料その他の物品若しくは金銭の送付又は業務上必要な連絡のために利用する記録情報を記録した個人情報ファイルであって、送付又は連絡の相手方の氏名、住所その他の送付又は連絡に必要な事項のみを記録するもの
     modality: unspecified
     item_number: 7
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-8
     type: kou
-    text: 職員が学術研究の用に供するためその発意に基づき作成し、又は取得する個人情報ファイルであって、記録情報を専ら当該学術研究の目的のために利用するもの
+    text: 八　職員が学術研究の用に供するためその発意に基づき作成し、又は取得する個人情報ファイルであって、記録情報を専ら当該学術研究の目的のために利用するもの
     modality: unspecified
     item_number: 8
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-9
     type: kou
-    text: 本人の数が政令で定める数に満たない個人情報ファイル
+    text: 九　本人の数が政令で定める数に満たない個人情報ファイル
     modality: unspecified
     item_number: 9
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-10
     type: kou
-    text: 第三号から前号までに掲げる個人情報ファイルに準ずるものとして政令で定める個人情報ファイル
+    text: 十　第三号から前号までに掲げる個人情報ファイルに準ずるものとして政令で定める個人情報ファイル
     modality: unspecified
     item_number: 10
   - id: kojin-jouhou-hogo-hou-art-74-p2-kou-11
     type: kou
-    text: 第六十条第二項第二号に係る個人情報ファイル
+    text: 十一　第六十条第二項第二号に係る個人情報ファイル
     modality: unspecified
     item_number: 11
 - number: 3

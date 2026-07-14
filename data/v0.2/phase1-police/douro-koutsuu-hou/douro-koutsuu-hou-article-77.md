@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: douro-koutsuu-hou-art-77-p1-kou-1
     type: kou
-    text: 道路において工事若しくは作業をしようとする者又は当該工事若しくは作業の請負人
+    text: 一　道路において工事若しくは作業をしようとする者又は当該工事若しくは作業の請負人
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-77-p1-kou-2
     type: kou
-    text: 道路に石碑、銅像、広告板、アーチその他これらに類する工作物を設けようとする者
+    text: 二　道路に石碑、銅像、広告板、アーチその他これらに類する工作物を設けようとする者
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-77-p1-kou-3
     type: kou
-    text: 場所を移動しないで、道路に露店、屋台店その他これらに類する店を出そうとする者
+    text: 三　場所を移動しないで、道路に露店、屋台店その他これらに類する店を出そうとする者
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-77-p1-kou-4
     type: kou
-    text: 前各号に掲げるもののほか、道路において祭礼行事をし、又はロケーシヨンをする等一般交通に著しい影響を及ぼすような通行の形態若しくは方法により道路を使用する行為又は道路に人が集まり一般交通に著しい影響を及ぼすような行為で、公安委員会が、その土地の道路又は交通の状況により、道路における危険を防止し、その他交通の安全と円滑を図るため必要と認めて定めたものをしようとする者
+    text: 四　前各号に掲げるもののほか、道路において祭礼行事をし、又はロケーシヨンをする等一般交通に著しい影響を及ぼすような通行の形態若しくは方法により道路を使用する行為又は道路に人が集まり一般交通に著しい影響を及ぼすような行為で、公安委員会が、その土地の道路又は交通の状況により、道路における危険を防止し、その他交通の安全と円滑を図るため必要と認めて定めたものをしようとする者
     modality: unspecified
     item_number: 4
 - number: 2
@@ -54,17 +54,17 @@ paragraphs:
     - 前項
   - id: douro-koutsuu-hou-art-77-p2-kou-1
     type: kou
-    text: 当該申請に係る行為が現に交通の妨害となるおそれがないと認められるとき。
+    text: 一　当該申請に係る行為が現に交通の妨害となるおそれがないと認められるとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-77-p2-kou-2
     type: kou
-    text: 当該申請に係る行為が許可に付された条件に従つて行なわれることにより交通の妨害となるおそれがなくなると認められるとき。
+    text: 二　当該申請に係る行為が許可に付された条件に従つて行なわれることにより交通の妨害となるおそれがなくなると認められるとき。
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-77-p2-kou-3
     type: kou
-    text: 当該申請に係る行為が現に交通の妨害となるおそれはあるが公益上又は社会の慣習上やむを得ないものであると認められるとき。
+    text: 三　当該申請に係る行為が現に交通の妨害となるおそれはあるが公益上又は社会の慣習上やむを得ないものであると認められるとき。
     modality: unspecified
     item_number: 3
 - number: 3
@@ -124,6 +124,10 @@ paragraphs:
     type: simple
     text: 第一項の規定による許可を受けた者は、当該許可の期間が満了したとき、又は第五項の規定により当該許可が取り消されたときは、すみやかに当該工作物の除去その他道路を原状に回復する措置を講じなければならない。
     modality: gimu
+  - id: douro-koutsuu-hou-art-77-supplnote-1
+    type: supplnote
+    text: （罰則　第一項については第百十九条第二項第七号、第百二十三条　第三項及び第四項については第百十九条第二項第八号、第百二十三条　第七項については第百二十条第二項第五号、第百二十三条）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

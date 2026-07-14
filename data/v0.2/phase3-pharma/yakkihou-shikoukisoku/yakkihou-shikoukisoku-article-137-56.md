@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-137-56-p1-kou-1
     type: kou
-    text: 法第二十三条の二十五第一項若しくは第十三項（法第二十三条の三十七第五項において準用する場合を含む。）の承認又はその申請
+    text: 一　法第二十三条の二十五第一項若しくは第十三項（法第二十三条の三十七第五項において準用する場合を含む。）の承認又はその申請
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-137-56-p1-kou-2
     type: kou
-    text: 法第二十三条の三十七第一項の承認又はその申請
+    text: 二　法第二十三条の三十七第一項の承認又はその申請
     modality: unspecified
     item_number: 2
 cases: []

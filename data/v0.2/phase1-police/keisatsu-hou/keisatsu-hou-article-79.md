@@ -43,17 +43,17 @@ paragraphs:
     - 前二項
   - id: keisatsu-hou-art-79-p3-kou-1
     type: kou
-    text: 申出が警察の事務の適正な遂行を妨げる目的で行われたと認められるとき。
+    text: 一　申出が警察の事務の適正な遂行を妨げる目的で行われたと認められるとき。
     modality: unspecified
     item_number: 1
   - id: keisatsu-hou-art-79-p3-kou-2
     type: kou
-    text: 申出者の所在が不明であるとき。
+    text: 二　申出者の所在が不明であるとき。
     modality: unspecified
     item_number: 2
   - id: keisatsu-hou-art-79-p3-kou-3
     type: kou
-    text: 申出者が他の者と共同で苦情の申出を行つたと認められる場合において、当該他の者に当該苦情に係る処理の結果を通知したとき。
+    text: 三　申出者が他の者と共同で苦情の申出を行つたと認められる場合において、当該他の者に当該苦情に係る処理の結果を通知したとき。
     modality: unspecified
     item_number: 3
 cases: []

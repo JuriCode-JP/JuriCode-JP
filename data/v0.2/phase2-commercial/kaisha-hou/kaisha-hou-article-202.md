@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-202-p1-kou-1
     type: kou
-    text: 株主に対し、次条第二項の申込みをすることにより当該株式会社の募集株式（種類株式発行会社にあっては、当該株主の有する種類の株式と同一の種類のもの）の割当てを受ける権利を与える旨
+    text: 一　株主に対し、次条第二項の申込みをすることにより当該株式会社の募集株式（種類株式発行会社にあっては、当該株主の有する種類の株式と同一の種類のもの）の割当てを受ける権利を与える旨
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-202-p1-kou-2
     type: kou
-    text: 前号の募集株式の引受けの申込みの期日
+    text: 二　前号の募集株式の引受けの申込みの期日
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の場合には、同項第一号の株主（当該株式会社を除く。）は、その有する株式の数に応じて募集株式の割当てを受ける権利を有する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
   - id: kaisha-hou-art-202-p2-tadashi
     type: tadashi
     text: ただし、当該株主が割当てを受ける募集株式の数に一株に満たない端数があるときは、これを切り捨てるものとする。
@@ -60,22 +60,22 @@ paragraphs:
     - 同項
   - id: kaisha-hou-art-202-p3-kou-1
     type: kou
-    text: 当該募集事項及び第一項各号に掲げる事項を取締役の決定によって定めることができる旨の定款の定めがある場合（株式会社が取締役会設置会社である場合を除く。）　取締役の決定
+    text: 一　当該募集事項及び第一項各号に掲げる事項を取締役の決定によって定めることができる旨の定款の定めがある場合（株式会社が取締役会設置会社である場合を除く。）　取締役の決定
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-202-p3-kou-2
     type: kou
-    text: 当該募集事項及び第一項各号に掲げる事項を取締役会の決議によって定めることができる旨の定款の定めがある場合（次号に掲げる場合を除く。）　取締役会の決議
+    text: 二　当該募集事項及び第一項各号に掲げる事項を取締役会の決議によって定めることができる旨の定款の定めがある場合（次号に掲げる場合を除く。）　取締役会の決議
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-202-p3-kou-3
     type: kou
-    text: 株式会社が公開会社である場合　取締役会の決議
+    text: 三　株式会社が公開会社である場合　取締役会の決議
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-202-p3-kou-4
     type: kou
-    text: 前三号に掲げる場合以外の場合　株主総会の決議
+    text: 四　前三号に掲げる場合以外の場合　株主総会の決議
     modality: unspecified
     item_number: 4
 - number: 4
@@ -91,17 +91,17 @@ paragraphs:
     - 同項
   - id: kaisha-hou-art-202-p4-kou-1
     type: kou
-    text: 募集事項
+    text: 一　募集事項
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-202-p4-kou-2
     type: kou
-    text: 当該株主が割当てを受ける募集株式の数
+    text: 二　当該株主が割当てを受ける募集株式の数
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-202-p4-kou-3
     type: kou
-    text: 第一項第二号の期日
+    text: 三　第一項第二号の期日
     modality: unspecified
     item_number: 3
 - number: 5

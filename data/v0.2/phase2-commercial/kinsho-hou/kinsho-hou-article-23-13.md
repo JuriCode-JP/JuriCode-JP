@@ -23,32 +23,32 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-art-23-13-p1-kou-1
     type: kou
-    text: 第二条第三項第二号イに掲げる場合
+    text: 一　第二条第三項第二号イに掲げる場合
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-23-13-p1-kou-2
     type: kou
-    text: 第二条第三項第二号ハに掲げる場合（同項第一号の規定により多数の者から適格機関投資家を除くことにより同号に掲げる場合に該当しないこととなる場合に限る。）
+    text: 二　第二条第三項第二号ハに掲げる場合（同項第一号の規定により多数の者から適格機関投資家を除くことにより同号に掲げる場合に該当しないこととなる場合に限る。）
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-23-13-p1-kou-3
     type: kou
-    text: 第二条第四項第二号イに掲げる場合
+    text: 三　第二条第四項第二号イに掲げる場合
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-23-13-p1-kou-4
     type: kou
-    text: 第二条第四項第二号ハに掲げる場合（同項第一号の規定により多数の者から適格機関投資家を除くことにより同号に掲げる場合に該当しないこととなる場合に限る。）
+    text: 四　第二条第四項第二号ハに掲げる場合（同項第一号の規定により多数の者から適格機関投資家を除くことにより同号に掲げる場合に該当しないこととなる場合に限る。）
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-23-13-p1-kou-5
     type: kou
-    text: 第二条の三第四項第二号イに掲げる場合
+    text: 五　第二条の三第四項第二号イに掲げる場合
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-23-13-p1-kou-6
     type: kou
-    text: 第二条の三第五項第二号イに掲げる場合
+    text: 六　第二条の三第五項第二号イに掲げる場合
     modality: unspecified
     item_number: 6
 - number: 2
@@ -61,8 +61,8 @@ paragraphs:
     text: 前項本文の規定の適用を受ける適格機関投資家向け勧誘を行う者は、当該適格機関投資家向け勧誘により有価証券を取得させ、又は売り付ける場合には、あらかじめ又は同時にその相手方に対し、同項の規定により告知すべき事項を記載した書面を交付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: true
@@ -74,12 +74,12 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-art-23-13-p3-kou-1
     type: kou
-    text: 特定投資家向け取得勧誘又は特定投資家向け売付け勧誘等　当該特定投資家向け取得勧誘又は当該特定投資家向け売付け勧誘等に関し第四条第一項の規定による届出が行われていないことその他の内閣府令で定める事項
+    text: 一　特定投資家向け取得勧誘又は特定投資家向け売付け勧誘等　当該特定投資家向け取得勧誘又は当該特定投資家向け売付け勧誘等に関し第四条第一項の規定による届出が行われていないことその他の内閣府令で定める事項
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-23-13-p3-kou-2
     type: kou
-    text: 特定投資家向け有価証券の有価証券交付勧誘等であつて、特定投資家向け売付け勧誘等及び特定投資家等取得有価証券一般勧誘（第四条第三項本文の規定の適用を受けるものに限る。）のいずれにも該当しないもの　当該特定投資家向け有価証券に関して開示が行われている場合に該当しないことその他の内閣府令で定める事項
+    text: 二　特定投資家向け有価証券の有価証券交付勧誘等であつて、特定投資家向け売付け勧誘等及び特定投資家等取得有価証券一般勧誘（第四条第三項本文の規定の適用を受けるものに限る。）のいずれにも該当しないもの　当該特定投資家向け有価証券に関して開示が行われている場合に該当しないことその他の内閣府令で定める事項
     modality: unspecified
     item_number: 2
 - number: 4
@@ -93,24 +93,24 @@ paragraphs:
     modality: jogai
   - id: kinsho-hou-art-23-13-p4-kou-1
     type: kou
-    text: '第一項有価証券　次のいずれかの場合
+    text: '一　第一項有価証券　次のいずれかの場合
 
-      イ 第二条第三項第二号ハに該当する場合
+      イ　第二条第三項第二号ハに該当する場合
 
-      ロ 第二条第四項第二号ハに該当する場合
+      ロ　第二条第四項第二号ハに該当する場合
 
-      ハ 第二条の三第四項第二号ロに該当する場合
+      ハ　第二条の三第四項第二号ロに該当する場合
 
-      ニ 第二条の三第五項第二号ロに該当する場合'
+      ニ　第二条の三第五項第二号ロに該当する場合'
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-23-13-p4-kou-2
     type: kou
-    text: '第二項有価証券　次のいずれかの場合
+    text: '二　第二項有価証券　次のいずれかの場合
 
-      イ 第二条第三項第三号に掲げる場合に該当しない場合
+      イ　第二条第三項第三号に掲げる場合に該当しない場合
 
-      ロ 第二条の三第四項第三号に掲げる場合に該当しない場合'
+      ロ　第二条の三第四項第三号に掲げる場合に該当しない場合'
     modality: unspecified
     item_number: 2
 - number: 5
@@ -123,8 +123,8 @@ paragraphs:
     text: 前項本文の規定の適用を受ける少人数向け勧誘を行う者は、当該少人数向け勧誘により有価証券を取得させ、又は売り付ける場合には、あらかじめ又は同時にその相手方に対し、同項の規定により告知すべき事項を記載した書面を交付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

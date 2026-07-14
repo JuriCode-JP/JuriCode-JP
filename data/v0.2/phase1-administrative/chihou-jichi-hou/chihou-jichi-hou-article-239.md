@@ -23,17 +23,17 @@ paragraphs:
     modality: teigi
   - id: chihou-jichi-hou-art-239-p1-kou-1
     type: kou
-    text: 現金（現金に代えて納付される証券を含む。）
+    text: 一　現金（現金に代えて納付される証券を含む。）
     modality: unspecified
     item_number: 1
   - id: chihou-jichi-hou-art-239-p1-kou-2
     type: kou
-    text: 公有財産に属するもの
+    text: 二　公有財産に属するもの
     modality: unspecified
     item_number: 2
   - id: chihou-jichi-hou-art-239-p1-kou-3
     type: kou
-    text: 基金に属するもの
+    text: 三　基金に属するもの
     modality: unspecified
     item_number: 3
 - number: 2

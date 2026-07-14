@@ -34,17 +34,17 @@ paragraphs:
     - 前項
   - id: chihou-zei-hou-shikkourei-art-56-68-p2-kou-1
     type: kou
-    text: 心身障害者　障害者の雇用の促進等に関する法律（昭和三十五年法律第百二十三号）第三十七条第二項に規定する対象障害者をいう。
+    text: 一　心身障害者　障害者の雇用の促進等に関する法律（昭和三十五年法律第百二十三号）第三十七条第二項に規定する対象障害者をいう。
     modality: teigi
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-56-68-p2-kou-2
     type: kou
-    text: 短時間労働者　障害者の雇用の促進等に関する法律第四十三条第三項に規定する短時間労働者をいう。
+    text: 二　短時間労働者　障害者の雇用の促進等に関する法律第四十三条第三項に規定する短時間労働者をいう。
     modality: teigi
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-56-68-p2-kou-3
     type: kou
-    text: 重度心身障害者　障害者の雇用の促進等に関する法律第二条第三号に規定する重度身体障害者又は同条第五号に規定する重度知的障害者をいう。
+    text: 三　重度心身障害者　障害者の雇用の促進等に関する法律第二条第三号に規定する重度身体障害者又は同条第五号に規定する重度知的障害者をいう。
     modality: teigi
     item_number: 3
 cases: []

@@ -31,8 +31,8 @@ paragraphs:
     text: 公開会社でない株式会社における前項の規定の適用については、同項中「六箇月（これを下回る期間を定款で定めた場合にあっては、その期間）前から引き続き有する」とあるのは、「有する」とする。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false
@@ -55,12 +55,12 @@ paragraphs:
     modality: kanou_kenri
   - id: kaisha-hou-art-297-p4-kou-1
     type: kou
-    text: 第一項の規定による請求の後遅滞なく招集の手続が行われない場合
+    text: 一　第一項の規定による請求の後遅滞なく招集の手続が行われない場合
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-297-p4-kou-2
     type: kou
-    text: 第一項の規定による請求があった日から八週間（これを下回る期間を定款で定めた場合にあっては、その期間）以内の日を株主総会の日とする株主総会の招集の通知が発せられない場合
+    text: 二　第一項の規定による請求があった日から八週間（これを下回る期間を定款で定めた場合にあっては、その期間）以内の日を株主総会の日とする株主総会の招集の通知が発せられない場合
     modality: unspecified
     item_number: 2
 cases: []

@@ -23,27 +23,27 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-shikkourei-art-14-4-p1-kou-1
     type: kou
-    text: 株券、新株予約権証券及び新株予約権付社債券
+    text: 一　株券、新株予約権証券及び新株予約権付社債券
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-shikkourei-art-14-4-p1-kou-2
     type: kou
-    text: 外国の者の発行する証券又は証書で前号に掲げる有価証券の性質を有するもの
+    text: 二　外国の者の発行する証券又は証書で前号に掲げる有価証券の性質を有するもの
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-shikkourei-art-14-4-p1-kou-3
     type: kou
-    text: 投資証券等及び新投資口予約権証券等
+    text: 三　投資証券等及び新投資口予約権証券等
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-shikkourei-art-14-4-p1-kou-4
     type: kou
-    text: 有価証券信託受益証券で、受託有価証券が前三号に掲げる有価証券であるもの
+    text: 四　有価証券信託受益証券で、受託有価証券が前三号に掲げる有価証券であるもの
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-shikkourei-art-14-4-p1-kou-5
     type: kou
-    text: 法第二条第一項第二十号に掲げる有価証券で、第一号から第三号までに掲げる有価証券に係る権利を表示するもの
+    text: 五　法第二条第一項第二十号に掲げる有価証券で、第一号から第三号までに掲げる有価証券に係る権利を表示するもの
     modality: unspecified
     item_number: 5
 - number: 2

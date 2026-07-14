@@ -23,22 +23,22 @@ paragraphs:
     modality: unspecified
   - id: shouhou-art-569-p1-kou-1
     type: kou
-    text: 運送人　陸上運送、海上運送又は航空運送の引受けをすることを業とする者をいう。
+    text: 一　運送人　陸上運送、海上運送又は航空運送の引受けをすることを業とする者をいう。
     modality: teigi
     item_number: 1
   - id: shouhou-art-569-p1-kou-2
     type: kou
-    text: 陸上運送　陸上における物品又は旅客の運送をいう。
+    text: 二　陸上運送　陸上における物品又は旅客の運送をいう。
     modality: teigi
     item_number: 2
   - id: shouhou-art-569-p1-kou-3
     type: kou
-    text: 海上運送　第六百八十四条に規定する船舶（第七百四十七条に規定する非航海船を含む。）による物品又は旅客の運送をいう。
+    text: 三　海上運送　第六百八十四条に規定する船舶（第七百四十七条に規定する非航海船を含む。）による物品又は旅客の運送をいう。
     modality: teigi
     item_number: 3
   - id: shouhou-art-569-p1-kou-4
     type: kou
-    text: 航空運送　航空法（昭和二十七年法律第二百三十一号）第二条第一項に規定する航空機による物品又は旅客の運送をいう。
+    text: 四　航空運送　航空法（昭和二十七年法律第二百三十一号）第二条第一項に規定する航空機による物品又は旅客の運送をいう。
     modality: teigi
     item_number: 4
 cases: []

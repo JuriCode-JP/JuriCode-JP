@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu_negative
   - id: kaisha-hou-art-12-p1-kou-1
     type: kou
-    text: 自ら営業を行うこと。
+    text: 一　自ら営業を行うこと。
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-12-p1-kou-2
     type: kou
-    text: 自己又は第三者のために会社の事業の部類に属する取引をすること。
+    text: 二　自己又は第三者のために会社の事業の部類に属する取引をすること。
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-12-p1-kou-3
     type: kou
-    text: 他の会社又は商人（会社を除く。第二十四条において同じ。）の使用人となること。
+    text: 三　他の会社又は商人（会社を除く。第二十四条において同じ。）の使用人となること。
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-12-p1-kou-4
     type: kou
-    text: 他の会社の取締役、執行役又は業務を執行する社員となること。
+    text: 四　他の会社の取締役、執行役又は業務を執行する社員となること。
     modality: unspecified
     item_number: 4
 - number: 2
@@ -51,8 +51,8 @@ paragraphs:
     text: 支配人が前項の規定に違反して同項第二号に掲げる行為をしたときは、当該行為によって支配人又は第三者が得た利益の額は、会社に生じた損害の額と推定する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

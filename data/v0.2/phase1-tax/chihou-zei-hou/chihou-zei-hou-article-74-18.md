@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu_kei
   - id: chihou-zei-hou-art-74-18-p1-kou-1
     type: kou
-    text: 第七十四条の十六の規定による報告をせず、又は偽つたとき。
+    text: 一　第七十四条の十六の規定による報告をせず、又は偽つたとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-74-18-p1-kou-2
     type: kou
-    text: 前条の規定に違反して、帳簿を備えず、若しくは帳簿の記載をせず、若しくは偽り、又はその帳簿を隠匿したとき。
+    text: 二　前条の規定に違反して、帳簿を備えず、若しくは帳簿の記載をせず、若しくは偽り、又はその帳簿を隠匿したとき。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -41,8 +41,8 @@ paragraphs:
     text: 法人の代表者又は法人若しくは人の代理人、使用人その他の従業者がその法人又は人の業務又は財産に関して前項の違反行為をした場合には、その行為者を罰するほか、その法人又は人に対し、同項の罰金刑を科する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

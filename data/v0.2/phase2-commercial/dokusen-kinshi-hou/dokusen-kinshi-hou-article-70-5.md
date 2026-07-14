@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項の規定による裁判については、裁判所の定める保証金又は有価証券（社債、株式等の振替に関する法律第二百七十八条第一項に規定する振替債を含む。次項において同じ。）を供託して、その執行を免れることができる。
     modality: kanou_kenri
     references:
-    - 前条
     - 次項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
@@ -46,8 +46,8 @@ paragraphs:
     text: 前条第二項の規定は、前二項の規定による裁判について準用する。
     modality: unspecified
     references:
-    - 前条
     - 前二項
+    - 前条
 cases: []
 amendments: []
 tags:

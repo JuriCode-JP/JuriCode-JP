@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の承認を受けようとする内国法人は、同項の適格分割等の日以後二月以内に、その採用しようとする方法の内容、その方法を採用しようとする理由その他の財務省令で定める事項を記載した申請書を納税地の所轄税務署長に提出しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

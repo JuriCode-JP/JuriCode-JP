@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: minpou-art-37-p1-kou-1
     type: kou
-    text: 外国法人の設立の準拠法
+    text: 一　外国法人の設立の準拠法
     modality: unspecified
     item_number: 1
   - id: minpou-art-37-p1-kou-2
     type: kou
-    text: 目的
+    text: 二　目的
     modality: unspecified
     item_number: 2
   - id: minpou-art-37-p1-kou-3
     type: kou
-    text: 名称
+    text: 三　名称
     modality: unspecified
     item_number: 3
   - id: minpou-art-37-p1-kou-4
     type: kou
-    text: 事務所の所在場所
+    text: 四　事務所の所在場所
     modality: unspecified
     item_number: 4
   - id: minpou-art-37-p1-kou-5
     type: kou
-    text: 存続期間を定めたときは、その定め
+    text: 五　存続期間を定めたときは、その定め
     modality: unspecified
     item_number: 5
   - id: minpou-art-37-p1-kou-6
     type: kou
-    text: 代表者の氏名及び住所
+    text: 六　代表者の氏名及び住所
     modality: unspecified
     item_number: 6
 - number: 2

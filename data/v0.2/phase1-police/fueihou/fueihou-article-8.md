@@ -25,22 +25,22 @@ paragraphs:
     - 前条
   - id: fueihou-art-8-p1-kou-1
     type: kou
-    text: 偽りその他不正の手段により当該許可又は承認を受けたこと。
+    text: 一　偽りその他不正の手段により当該許可又は承認を受けたこと。
     modality: unspecified
     item_number: 1
   - id: fueihou-art-8-p1-kou-2
     type: kou
-    text: 第四条第一項各号に掲げる者のいずれかに該当していること。
+    text: 二　第四条第一項各号に掲げる者のいずれかに該当していること。
     modality: unspecified
     item_number: 2
   - id: fueihou-art-8-p1-kou-3
     type: kou
-    text: 正当な事由がないのに、当該許可を受けてから六月以内に営業を開始せず、又は引き続き六月以上営業を休止し、現に営業を営んでいないこと。
+    text: 三　正当な事由がないのに、当該許可を受けてから六月以内に営業を開始せず、又は引き続き六月以上営業を休止し、現に営業を営んでいないこと。
     modality: unspecified
     item_number: 3
   - id: fueihou-art-8-p1-kou-4
     type: kou
-    text: 三月以上所在不明であること。
+    text: 四　三月以上所在不明であること。
     modality: unspecified
     item_number: 4
 cases: []

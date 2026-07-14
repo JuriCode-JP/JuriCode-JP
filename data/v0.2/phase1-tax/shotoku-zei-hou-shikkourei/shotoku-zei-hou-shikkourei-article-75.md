@@ -25,17 +25,17 @@ paragraphs:
     - 前条
   - id: shotoku-zei-hou-shikkourei-art-75-p1-kou-1
     type: kou
-    text: 当該特定退職金共済団体の退職金共済規程のうち第七十三条第一項各号（特定退職金共済団体の要件）に掲げる要件に係る事項について前条第五項の規定による承認を受けないで変更をしたこと。
+    text: 一　当該特定退職金共済団体の退職金共済規程のうち第七十三条第一項各号（特定退職金共済団体の要件）に掲げる要件に係る事項について前条第五項の規定による承認を受けないで変更をしたこと。
     modality: unspecified
     item_number: 1
   - id: shotoku-zei-hou-shikkourei-art-75-p1-kou-2
     type: kou
-    text: 当該特定退職金共済団体の退職金共済事業につき第七十三条第一項第一号、第四号、第五号、第十号又は第十一号に掲げる要件に反する事実があること。
+    text: 二　当該特定退職金共済団体の退職金共済事業につき第七十三条第一項第一号、第四号、第五号、第十号又は第十一号に掲げる要件に反する事実があること。
     modality: unspecified
     item_number: 2
   - id: shotoku-zei-hou-shikkourei-art-75-p1-kou-3
     type: kou
-    text: 当該特定退職金共済団体の全ての被共済者につき第七十三条第一項第二号、第三号又は第六号から第八号までに掲げる要件に反する事実があること。
+    text: 三　当該特定退職金共済団体の全ての被共済者につき第七十三条第一項第二号、第三号又は第六号から第八号までに掲げる要件に反する事実があること。
     modality: unspecified
     item_number: 3
 - number: 2
@@ -48,8 +48,8 @@ paragraphs:
     text: 税務署長は、前項の規定による承認の取消しの処分をするときは、同項の特定退職金共済団体に対し、書面によりその旨を通知する。
     modality: tetsuduki
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

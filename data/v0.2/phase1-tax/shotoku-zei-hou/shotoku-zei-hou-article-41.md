@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の農産物は、同項に規定する時にその収穫価額をもつて取得したものとみなす。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

@@ -23,17 +23,17 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-shikkourei-art-43-3-p1-kou-1
     type: kou
-    text: 温度十五度における比重が〇・八七六二を超えないこと。
+    text: 一　温度十五度における比重が〇・八七六二を超えないこと。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-shikkourei-art-43-3-p1-kou-2
     type: kou
-    text: 分留性状九十パーセント留出温度が二百六十七度を超えないこと。
+    text: 二　分留性状九十パーセント留出温度が二百六十七度を超えないこと。
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-shikkourei-art-43-3-p1-kou-3
     type: kou
-    text: 残留炭素分が〇・二パーセントを超えないこと。
+    text: 三　残留炭素分が〇・二パーセントを超えないこと。
     modality: unspecified
     item_number: 3
 - number: 2

@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: keiji-soshou-hou-art-266-p1-kou-1
     type: kou
-    text: 請求が法令上の方式に違反し、若しくは請求権の消滅後にされたものであるとき、又は請求が理由のないときは、請求を棄却する。
+    text: 一　請求が法令上の方式に違反し、若しくは請求権の消滅後にされたものであるとき、又は請求が理由のないときは、請求を棄却する。
     modality: unspecified
     item_number: 1
   - id: keiji-soshou-hou-art-266-p1-kou-2
     type: kou
-    text: 請求が理由のあるときは、事件を管轄地方裁判所の審判に付する。
+    text: 二　請求が理由のあるときは、事件を管轄地方裁判所の審判に付する。
     modality: unspecified
     item_number: 2
 cases: []

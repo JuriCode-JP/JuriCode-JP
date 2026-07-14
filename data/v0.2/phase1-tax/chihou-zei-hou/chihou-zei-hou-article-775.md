@@ -23,12 +23,12 @@ paragraphs:
     modality: kanou_negative
   - id: chihou-zei-hou-art-775-p1-kou-1
     type: kou
-    text: 政府又は地方公共団体の職員（非常勤の者を除く。）
+    text: 一　政府又は地方公共団体の職員（非常勤の者を除く。）
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-775-p1-kou-2
     type: kou
-    text: 代表者会議の委員
+    text: 二　代表者会議の委員
     modality: unspecified
     item_number: 2
 cases: []

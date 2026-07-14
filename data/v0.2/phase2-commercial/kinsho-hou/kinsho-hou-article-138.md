@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kinsho-hou-art-138-p1-kou-1
     type: kou
-    text: 新設合併により消滅する会員金融商品取引所（以下この款において「新設合併消滅会員金融商品取引所」という。）の名称及び住所
+    text: 一　新設合併により消滅する会員金融商品取引所（以下この款において「新設合併消滅会員金融商品取引所」という。）の名称及び住所
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-138-p1-kou-2
     type: kou
-    text: 新設合併により設立する会員金融商品取引所（以下この款において「新設合併設立会員金融商品取引所」という。）の目的、名称及び主たる事務所の所在地
+    text: 二　新設合併により設立する会員金融商品取引所（以下この款において「新設合併設立会員金融商品取引所」という。）の目的、名称及び主たる事務所の所在地
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-138-p1-kou-3
     type: kou
-    text: 前号に掲げるもののほか、新設合併設立会員金融商品取引所の定款で定める事項
+    text: 三　前号に掲げるもののほか、新設合併設立会員金融商品取引所の定款で定める事項
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-138-p1-kou-4
     type: kou
-    text: 新設合併設立会員金融商品取引所の設立に際して理事長、理事及び監事となる者の氏名その他内閣府令で定める事項
+    text: 四　新設合併設立会員金融商品取引所の設立に際して理事長、理事及び監事となる者の氏名その他内閣府令で定める事項
     modality: unspecified
     item_number: 4
 cases: []
@@ -57,7 +57,7 @@ parent_section:
   moku_name_ja: 第二目　会員金融商品取引所と会員金融商品取引所との合併
 ---
 
-# 金融商品取引法 第138条(（<!-- segment: hashira id: kinsho-hou-art-138-p1-hashira -->
+# 金融商品取引法 第138条(（会員金融商品取引所と会員金融商品取引所との新設合併契約）)
 会員金融商品取引所と会員金融商品取引所との新設合併契約）)
 
 ## 原文 (日本語)

@@ -34,27 +34,27 @@ paragraphs:
     - 前項
   - id: douro-koutsuu-hou-art-95-2-p2-kou-1
     type: kou
-    text: 免許情報記録（個人番号カードに記録された特定免許情報に係る記録をいう。以下同じ。）の番号
+    text: 一　免許情報記録（個人番号カードに記録された特定免許情報に係る記録をいう。以下同じ。）の番号
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-95-2-p2-kou-2
     type: kou
-    text: 免許の年月日及び免許情報記録の有効期間の末日
+    text: 二　免許の年月日及び免許情報記録の有効期間の末日
     modality: unspecified
     item_number: 2
   - id: douro-koutsuu-hou-art-95-2-p2-kou-3
     type: kou
-    text: 免許の種類
+    text: 三　免許の種類
     modality: unspecified
     item_number: 3
   - id: douro-koutsuu-hou-art-95-2-p2-kou-4
     type: kou
-    text: 第九十三条第二項に規定する条件に係る事項
+    text: 四　第九十三条第二項に規定する条件に係る事項
     modality: unspecified
     item_number: 4
   - id: douro-koutsuu-hou-art-95-2-p2-kou-5
     type: kou
-    text: 第九十三条第三項の規定により免許証（仮免許に係るものを除く。以下この条及び第九十五条の四において同じ。）に記載され、又は表示される事項であつて内閣府令で定めるもの
+    text: 五　第九十三条第三項の規定により免許証（仮免許に係るものを除く。以下この条及び第九十五条の四において同じ。）に記載され、又は表示される事項であつて内閣府令で定めるもの
     modality: unspecified
     item_number: 5
 - number: 3
@@ -70,12 +70,12 @@ paragraphs:
     - 前項
   - id: douro-koutsuu-hou-art-95-2-p3-kou-1
     type: kou
-    text: 免許の効力が停止されているとき。
+    text: 一　免許の効力が停止されているとき。
     modality: unspecified
     item_number: 1
   - id: douro-koutsuu-hou-art-95-2-p3-kou-2
     type: kou
-    text: 当該個人番号カードが行政手続における特定の個人を識別するための番号の利用等に関する法律第十七条第十項の規定により効力を失つていること、当該個人番号カードの区分部分における他の事項が記録されていない領域が特定免許情報を記録するために十分でないことその他の公安委員会が個人番号カードの区分部分に特定免許情報を記録することができない事情として内閣府令で定めるものがあるとき。
+    text: 二　当該個人番号カードが行政手続における特定の個人を識別するための番号の利用等に関する法律第十七条第十項の規定により効力を失つていること、当該個人番号カードの区分部分における他の事項が記録されていない領域が特定免許情報を記録するために十分でないことその他の公安委員会が個人番号カードの区分部分に特定免許情報を記録することができない事情として内閣府令で定めるものがあるとき。
     modality: unspecified
     item_number: 2
 - number: 4
@@ -180,6 +180,10 @@ paragraphs:
     modality: unspecified
     references:
     - 前項
+  - id: douro-koutsuu-hou-art-95-2-supplnote-1
+    type: supplnote
+    text: （罰則　第八項については第百二十条第一項第十号）
+    modality: unspecified
 cases: []
 amendments: []
 tags:

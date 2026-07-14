@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: houjin-zei-hou-shikoukisoku-art-28-2-p1-kou-1
     type: kou
-    text: 令第百三十九条の四第七項及び第十二項第二号ロに規定する移転する資産に係るものであること。
+    text: 一　令第百三十九条の四第七項及び第十二項第二号ロに規定する移転する資産に係るものであること。
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-shikoukisoku-art-28-2-p1-kou-2
     type: kou
-    text: 前号の要件を満たすことを明らかにする書類を保存していること。
+    text: 二　前号の要件を満たすことを明らかにする書類を保存していること。
     modality: unspecified
     item_number: 2
 cases: []

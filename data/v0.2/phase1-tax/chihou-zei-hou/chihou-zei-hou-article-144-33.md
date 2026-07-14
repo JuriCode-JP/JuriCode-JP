@@ -22,8 +22,8 @@ paragraphs:
     text: 前条第一項の規定に違反して道府県知事の承認を受けないで同項第一号若しくは第二号の行為を行つたとき、又は偽りその他不正の手段により同項の承認を受け同項第一号若しくは第二号の行為を行つたときは、その違反行為をした者は、十年以下の拘禁刑若しくは千万円以下の罰金に処し、又はこれを併科する。
     modality: unspecified
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -54,8 +54,8 @@ paragraphs:
     text: 前条第一項の規定に違反して道府県知事の承認を受けないで同項第三号若しくは第四号の行為を行つたとき、又は偽りその他不正の手段により同項の承認を受けたときは、その違反行為をした者は、二年以下の拘禁刑又は百万円以下の罰金に処する。
     modality: gimu_kei
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 5
   has_proviso: false
   has_items: true
@@ -67,12 +67,12 @@ paragraphs:
     modality: gimu_kei
   - id: chihou-zei-hou-art-144-33-p5-kou-1
     type: kou
-    text: 前条第三項の規定に違反して、帳簿を備えず、若しくは帳簿の記載をせず、若しくは偽り、又はその帳簿を隠匿したとき。
+    text: 一　前条第三項の規定に違反して、帳簿を備えず、若しくは帳簿の記載をせず、若しくは偽り、又はその帳簿を隠匿したとき。
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-144-33-p5-kou-2
     type: kou
-    text: 前条第五項から第八項までの規定に違反したとき。
+    text: 二　前条第五項から第八項までの規定に違反したとき。
     modality: unspecified
     item_number: 2
 - number: 6
@@ -86,22 +86,22 @@ paragraphs:
     modality: unspecified
   - id: chihou-zei-hou-art-144-33-p6-kou-1
     type: kou
-    text: 第一項の違反行為　三億円以下の罰金刑
+    text: 一　第一項の違反行為　三億円以下の罰金刑
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-144-33-p6-kou-2
     type: kou
-    text: 第二項の違反行為　二億円以下の罰金刑
+    text: 二　第二項の違反行為　二億円以下の罰金刑
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-144-33-p6-kou-3
     type: kou
-    text: 第三項の違反行為　一億円以下の罰金刑
+    text: 三　第三項の違反行為　一億円以下の罰金刑
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-144-33-p6-kou-4
     type: kou
-    text: 前二項の違反行為　当該各項の罰金刑
+    text: 四　前二項の違反行為　当該各項の罰金刑
     modality: unspecified
     item_number: 4
 - number: 7

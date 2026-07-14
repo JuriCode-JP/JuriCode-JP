@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: sochi-hou-shikoukisoku-art-9-p1-kou-1
     type: kou
-    text: 当該物品の原材料である当該個人の採掘した鉱物に係るその採掘から選鉱までに要した原材料費、労務費及び経費の額の合計額
+    text: 一　当該物品の原材料である当該個人の採掘した鉱物に係るその採掘から選鉱までに要した原材料費、労務費及び経費の額の合計額
     modality: unspecified
     item_number: 1
   - id: sochi-hou-shikoukisoku-art-9-p1-kou-2
     type: kou
-    text: 当該物品の製造に要した原材料費、労務費及び経費の額の合計額（当該物品の原材料として購入した鉱物等がある場合には、当該鉱物等の取得に要した金額を控除した金額）
+    text: 二　当該物品の製造に要した原材料費、労務費及び経費の額の合計額（当該物品の原材料として購入した鉱物等がある場合には、当該鉱物等の取得に要した金額を控除した金額）
     modality: unspecified
     item_number: 2
 cases: []

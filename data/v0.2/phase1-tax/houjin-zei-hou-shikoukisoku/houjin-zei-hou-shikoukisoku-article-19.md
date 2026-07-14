@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の場合において、内国法人がその有する機械及び装置の種類の区分について旧耐用年数省令に定められている設備の種類の区分によつているときは、同項に規定する減価償却資産の種類の区分は、旧耐用年数省令に定められている設備の種類の区分とすることができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

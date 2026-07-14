@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: chihou-zei-hou-art-769-p1-kou-1
     type: kou
-    text: 定款の変更
+    text: 一　定款の変更
     modality: unspecified
     item_number: 1
   - id: chihou-zei-hou-art-769-p1-kou-2
     type: kou
-    text: 業務方法書の作成又は変更
+    text: 二　業務方法書の作成又は変更
     modality: unspecified
     item_number: 2
   - id: chihou-zei-hou-art-769-p1-kou-3
     type: kou
-    text: 予算及び事業計画の作成又は変更
+    text: 三　予算及び事業計画の作成又は変更
     modality: unspecified
     item_number: 3
   - id: chihou-zei-hou-art-769-p1-kou-4
     type: kou
-    text: 決算
+    text: 四　決算
     modality: unspecified
     item_number: 4
   - id: chihou-zei-hou-art-769-p1-kou-5
     type: kou
-    text: 役員の報酬及び退職金
+    text: 五　役員の報酬及び退職金
     modality: unspecified
     item_number: 5
   - id: chihou-zei-hou-art-769-p1-kou-6
     type: kou
-    text: その他代表者会議が特に必要と認めた事項
+    text: 六　その他代表者会議が特に必要と認めた事項
     modality: unspecified
     item_number: 6
 - number: 2

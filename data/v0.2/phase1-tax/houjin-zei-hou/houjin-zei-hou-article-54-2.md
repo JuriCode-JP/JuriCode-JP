@@ -25,12 +25,12 @@ paragraphs:
     - 次項
   - id: houjin-zei-hou-art-54-2-p1-kou-1
     type: kou
-    text: 当該譲渡制限付新株予約権と引換えにする払込みに代えて当該役務の提供の対価として当該個人に生ずる債権をもつて相殺されること。
+    text: 一　当該譲渡制限付新株予約権と引換えにする払込みに代えて当該役務の提供の対価として当該個人に生ずる債権をもつて相殺されること。
     modality: unspecified
     item_number: 1
   - id: houjin-zei-hou-art-54-2-p1-kou-2
     type: kou
-    text: 前号に掲げるもののほか、当該譲渡制限付新株予約権が実質的に当該役務の提供の対価と認められるものであること。
+    text: 二　前号に掲げるもののほか、当該譲渡制限付新株予約権が実質的に当該役務の提供の対価と認められるものであること。
     modality: unspecified
     item_number: 2
 - number: 2
@@ -43,8 +43,8 @@ paragraphs:
     text: 前項に規定する場合において、同項の個人において同項の役務の提供につき給与等課税事由が生じないときは、当該役務の提供を受ける内国法人の当該役務の提供を受けたことによる費用の額又は当該役務の全部若しくは一部の提供を受けられなかつたことによる損失の額は、当該内国法人の各事業年度の所得の金額の計算上、損金の額に算入しない。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

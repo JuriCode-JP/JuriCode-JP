@@ -54,8 +54,8 @@ paragraphs:
     text: 前項の子会社は、正当な理由があるときは、同項の報告又は調査を拒むことができる。
     modality: kanou_kenri
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

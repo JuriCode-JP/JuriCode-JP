@@ -32,22 +32,22 @@ paragraphs:
     modality: unspecified
   - id: kokka-koumuin-hou-art-106-14-p2-kou-1
     type: kou
-    text: 第百六条の三第四項及び第百六条の四第七項の規定により委任を受けた権限に基づき承認を行うこと。
+    text: 一　第百六条の三第四項及び第百六条の四第七項の規定により委任を受けた権限に基づき承認を行うこと。
     modality: unspecified
     item_number: 1
   - id: kokka-koumuin-hou-art-106-14-p2-kou-2
     type: kou
-    text: 第百六条の四第九項の規定による届出を受理すること。
+    text: 二　第百六条の四第九項の規定による届出を受理すること。
     modality: unspecified
     item_number: 2
   - id: kokka-koumuin-hou-art-106-14-p2-kou-3
     type: kou
-    text: 第百六条の十九及び第百六条の二十第一項の規定による調査を行うこと。
+    text: 三　第百六条の十九及び第百六条の二十第一項の規定による調査を行うこと。
     modality: unspecified
     item_number: 3
   - id: kokka-koumuin-hou-art-106-14-p2-kou-4
     type: kou
-    text: 前三号に掲げるもののほか、この法律及び他の法律の規定によりその権限に属させられた事項を処理すること。
+    text: 四　前三号に掲げるもののほか、この法律及び他の法律の規定によりその権限に属させられた事項を処理すること。
     modality: unspecified
     item_number: 4
 - number: 3

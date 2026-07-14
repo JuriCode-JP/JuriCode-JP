@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第二十二条
     references:
-    - 同項
     - 次項
+    - 同項
     - 次条
 - number: 2
   has_proviso: false
@@ -38,8 +38,8 @@ paragraphs:
     text: 前項の規定は、特定非常災害発生日前に民法第九百五十八条の二第一項の規定により同項に規定する相続財産の全部又は一部を与えられた者があり、かつ、当該相続財産の全部又は一部の遺贈に係る相続税法第二十九条第一項又は第三十一条第二項の規定により提出すべき申告書の提出期限が当該特定非常災害発生日以後である場合において、当該相続財産の全部又は一部で当該特定非常災害発生日においてその者が所有していたもののうちに特定土地等又は特定株式等があるときについて準用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: true
   has_items: false

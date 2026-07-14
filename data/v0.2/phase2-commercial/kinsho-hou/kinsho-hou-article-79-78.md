@@ -23,12 +23,12 @@ paragraphs:
     modality: unspecified
   - id: kinsho-hou-art-79-78-p1-kou-1
     type: kou
-    text: 総会の議決
+    text: 一　総会の議決
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-79-78-p1-kou-2
     type: kou
-    text: 設立の認可の取消し
+    text: 二　設立の認可の取消し
     modality: unspecified
     item_number: 2
 - number: 2

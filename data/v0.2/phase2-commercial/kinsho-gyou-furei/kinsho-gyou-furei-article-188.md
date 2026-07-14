@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: kinsho-gyou-furei-art-188-p1-kou-1
     type: kou
-    text: 別紙様式第十三号により作成した関係会社に関する報告書　毎事業年度経過後四月以内
+    text: 一　別紙様式第十三号により作成した関係会社に関する報告書　毎事業年度経過後四月以内
     modality: unspecified
     item_number: 1
   - id: kinsho-gyou-furei-art-188-p1-kou-2
     type: kou
-    text: 別紙様式第十七号により作成した業務又は財産の状況に関する報告書　毎月のものを翌月二十日まで
+    text: 二　別紙様式第十七号により作成した業務又は財産の状況に関する報告書　毎月のものを翌月二十日まで
     modality: unspecified
     item_number: 2
 cases: []

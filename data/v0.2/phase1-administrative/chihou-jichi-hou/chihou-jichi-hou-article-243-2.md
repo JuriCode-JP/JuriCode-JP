@@ -94,8 +94,8 @@ paragraphs:
     text: 前項の規定により公金事務の一部の再委託を受けた者は、当該公金事務の一部の委託を受けた者とみなして、同項の規定を適用する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 8
   has_proviso: false
   has_items: false

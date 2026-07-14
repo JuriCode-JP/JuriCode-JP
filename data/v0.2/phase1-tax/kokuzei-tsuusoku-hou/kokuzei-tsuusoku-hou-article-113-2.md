@@ -47,8 +47,8 @@ paragraphs:
     text: 前項の場合には、同項の税務署長は、直ちに、審査請求書を国税庁長官に送付しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

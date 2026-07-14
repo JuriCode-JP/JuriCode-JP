@@ -31,8 +31,8 @@ paragraphs:
     text: 特定販売業者又は卸売販売業者は、前項の規定により報告した事項に異動を生じた場合には、総務省令で定めるところにより、遅滞なく、その旨を同項に規定する道府県知事に報告しなければならない。
     modality: gimu
     references:
-    - 同項
     - 前項
+    - 同項
 cases: []
 amendments: []
 tags:

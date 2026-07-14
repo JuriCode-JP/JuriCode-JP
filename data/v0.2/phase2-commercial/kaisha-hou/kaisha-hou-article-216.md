@@ -23,22 +23,22 @@ paragraphs:
     modality: gimu
   - id: kaisha-hou-art-216-p1-kou-1
     type: kou
-    text: 株券発行会社の商号
+    text: 一　株券発行会社の商号
     modality: unspecified
     item_number: 1
   - id: kaisha-hou-art-216-p1-kou-2
     type: kou
-    text: 当該株券に係る株式の数
+    text: 二　当該株券に係る株式の数
     modality: unspecified
     item_number: 2
   - id: kaisha-hou-art-216-p1-kou-3
     type: kou
-    text: 譲渡による当該株券に係る株式の取得について株式会社の承認を要することを定めたときは、その旨
+    text: 三　譲渡による当該株券に係る株式の取得について株式会社の承認を要することを定めたときは、その旨
     modality: unspecified
     item_number: 3
   - id: kaisha-hou-art-216-p1-kou-4
     type: kou
-    text: 種類株式発行会社にあっては、当該株券に係る株式の種類及びその内容
+    text: 四　種類株式発行会社にあっては、当該株券に係る株式の種類及びその内容
     modality: unspecified
     item_number: 4
 cases: []

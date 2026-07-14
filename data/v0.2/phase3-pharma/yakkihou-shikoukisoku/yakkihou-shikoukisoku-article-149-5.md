@@ -23,32 +23,32 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-149-5-p1-kou-1
     type: kou
-    text: 品名
+    text: 一　品名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-149-5-p1-kou-2
     type: kou
-    text: 数量
+    text: 二　数量
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-149-5-p1-kou-3
     type: kou
-    text: 購入又は譲受けの年月日
+    text: 三　購入又は譲受けの年月日
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-149-5-p1-kou-4
     type: kou
-    text: 当該配置販売業者に対して医薬品を販売又は授与した者の氏名又は名称、住所又は所在地及び電話番号その他の連絡先（次項ただし書の規定により同項に規定する確認を行わないこととされた場合にあつては、氏名又は名称以外の事項は、その記載を省略することができる。）
+    text: 四　当該配置販売業者に対して医薬品を販売又は授与した者の氏名又は名称、住所又は所在地及び電話番号その他の連絡先（次項ただし書の規定により同項に規定する確認を行わないこととされた場合にあつては、氏名又は名称以外の事項は、その記載を省略することができる。）
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-149-5-p1-kou-5
     type: kou
-    text: 前号に掲げる事項の内容を確認するために提示を受けた資料（次項ただし書の規定により同項に規定する確認を行わないこととされた場合を除く。）
+    text: 五　前号に掲げる事項の内容を確認するために提示を受けた資料（次項ただし書の規定により同項に規定する確認を行わないこととされた場合を除く。）
     modality: unspecified
     item_number: 5
   - id: yakkihou-shikoukisoku-art-149-5-p1-kou-6
     type: kou
-    text: 当該配置販売業者に対して医薬品を販売又は授与した者が自然人であり、かつ、当該者以外の者が医薬品の取引の任に当たる場合及び当該者が法人である場合にあつては、医薬品の取引の任に当たる自然人が、購入者等と雇用関係にあること又は当該者から医薬品の取引に係る指示を受けたことを示す資料
+    text: 六　当該配置販売業者に対して医薬品を販売又は授与した者が自然人であり、かつ、当該者以外の者が医薬品の取引の任に当たる場合及び当該者が法人である場合にあつては、医薬品の取引の任に当たる自然人が、購入者等と雇用関係にあること又は当該者から医薬品の取引に係る指示を受けたことを示す資料
     modality: unspecified
     item_number: 6
 - number: 2
@@ -77,27 +77,27 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-149-5-p3-kou-1
     type: kou
-    text: 品名
+    text: 一　品名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-149-5-p3-kou-2
     type: kou
-    text: 数量
+    text: 二　数量
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-149-5-p3-kou-3
     type: kou
-    text: 配置した日時
+    text: 三　配置した日時
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-149-5-p3-kou-4
     type: kou
-    text: 配置した薬剤師の氏名及び法第三十六条の十第七項において準用する同条第一項の規定による情報の提供を行つた薬剤師の氏名
+    text: 四　配置した薬剤師の氏名及び法第三十六条の十第七項において準用する同条第一項の規定による情報の提供を行つた薬剤師の氏名
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-149-5-p3-kou-5
     type: kou
-    text: 第一類医薬品を配置販売によつて購入し、又は譲り受けようとする者が、法第三十六条の十第七項において準用する同条第一項の規定による情報の提供の内容を理解したことの確認の結果
+    text: 五　第一類医薬品を配置販売によつて購入し、又は譲り受けようとする者が、法第三十六条の十第七項において準用する同条第一項の規定による情報の提供の内容を理解したことの確認の結果
     modality: unspecified
     item_number: 5
 - number: 4
@@ -122,27 +122,27 @@ paragraphs:
     modality: doryoku_gimu
   - id: yakkihou-shikoukisoku-art-149-5-p5-kou-1
     type: kou
-    text: 品名
+    text: 一　品名
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-149-5-p5-kou-2
     type: kou
-    text: 数量
+    text: 二　数量
     modality: unspecified
     item_number: 2
   - id: yakkihou-shikoukisoku-art-149-5-p5-kou-3
     type: kou
-    text: 配置した日時
+    text: 三　配置した日時
     modality: unspecified
     item_number: 3
   - id: yakkihou-shikoukisoku-art-149-5-p5-kou-4
     type: kou
-    text: 配置した薬剤師又は登録販売者の氏名及び法第三十六条の十第七項において準用する同条第三項の規定による情報の提供を行つた薬剤師又は登録販売者の氏名
+    text: 四　配置した薬剤師又は登録販売者の氏名及び法第三十六条の十第七項において準用する同条第三項の規定による情報の提供を行つた薬剤師又は登録販売者の氏名
     modality: unspecified
     item_number: 4
   - id: yakkihou-shikoukisoku-art-149-5-p5-kou-5
     type: kou
-    text: 第二類医薬品を配置販売によつて購入し、又は譲り受けようとする者が、法第三十六条の十第七項において準用する同条第三項の規定による情報の提供の内容を理解したことの確認の結果
+    text: 五　第二類医薬品を配置販売によつて購入し、又は譲り受けようとする者が、法第三十六条の十第七項において準用する同条第三項の規定による情報の提供の内容を理解したことの確認の結果
     modality: unspecified
     item_number: 5
 - number: 6

@@ -37,8 +37,8 @@ paragraphs:
     text: 前項ただし書の許可に係る事件は、同項の売買の目的物の所在地を管轄する地方裁判所が管轄する。
     modality: unspecified
     references:
-    - 同項
     - 前項
+    - 同項
 - number: 3
   has_proviso: false
   has_items: false

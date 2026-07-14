@@ -24,9 +24,9 @@ paragraphs:
     applies_provisions:
     - 第八条
     references:
-    - 同項
-    - 前条
     - 次項
+    - 前条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

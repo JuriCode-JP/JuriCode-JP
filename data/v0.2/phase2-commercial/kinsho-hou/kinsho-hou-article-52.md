@@ -23,62 +23,62 @@ paragraphs:
     modality: kanou_kenri
   - id: kinsho-hou-art-52-p1-kou-1
     type: kou
-    text: 第二十九条の四第一項第一号から第三号までのいずれかに該当することとなつたとき。
+    text: 一　第二十九条の四第一項第一号から第三号までのいずれかに該当することとなつたとき。
     modality: unspecified
     item_number: 1
   - id: kinsho-hou-art-52-p1-kou-2
     type: kou
-    text: 第一種金融商品取引業、第二種金融商品取引業又は投資運用業を行う金融商品取引業者が、第二十九条の四第一項第四号に該当することとなつたとき。
+    text: 二　第一種金融商品取引業、第二種金融商品取引業又は投資運用業を行う金融商品取引業者が、第二十九条の四第一項第四号に該当することとなつたとき。
     modality: unspecified
     item_number: 2
   - id: kinsho-hou-art-52-p1-kou-3
     type: kou
-    text: 第一種金融商品取引業又は投資運用業を行う金融商品取引業者が、第二十九条の四第一項第五号イ又はロに該当することとなつたとき。
+    text: 三　第一種金融商品取引業又は投資運用業を行う金融商品取引業者が、第二十九条の四第一項第五号イ又はロに該当することとなつたとき。
     modality: unspecified
     item_number: 3
   - id: kinsho-hou-art-52-p1-kou-4
     type: kou
-    text: 第一種金融商品取引業を行う金融商品取引業者が、第二十九条の四第一項第六号ロに該当することとなつたとき。
+    text: 四　第一種金融商品取引業を行う金融商品取引業者が、第二十九条の四第一項第六号ロに該当することとなつたとき。
     modality: unspecified
     item_number: 4
   - id: kinsho-hou-art-52-p1-kou-5
     type: kou
-    text: 第二種金融商品取引業として高速取引行為を行う金融商品取引業者が、第二十九条の四第一項第七号に該当することとなつたとき。
+    text: 五　第二種金融商品取引業として高速取引行為を行う金融商品取引業者が、第二十九条の四第一項第七号に該当することとなつたとき。
     modality: unspecified
     item_number: 5
   - id: kinsho-hou-art-52-p1-kou-6
     type: kou
-    text: 不正の手段により第二十九条の登録を受けたとき。
+    text: 六　不正の手段により第二十九条の登録を受けたとき。
     modality: unspecified
     item_number: 6
   - id: kinsho-hou-art-52-p1-kou-7
     type: kou
-    text: 金融商品取引業又はこれに付随する業務に関し法令（第四十六条の六第二項を除く。）又は法令に基づいてする行政官庁の処分に違反したとき。
+    text: 七　金融商品取引業又はこれに付随する業務に関し法令（第四十六条の六第二項を除く。）又は法令に基づいてする行政官庁の処分に違反したとき。
     modality: unspecified
     item_number: 7
   - id: kinsho-hou-art-52-p1-kou-8
     type: kou
-    text: 業務又は財産の状況に照らし支払不能に陥るおそれがあるとき。
+    text: 八　業務又は財産の状況に照らし支払不能に陥るおそれがあるとき。
     modality: unspecified
     item_number: 8
   - id: kinsho-hou-art-52-p1-kou-9
     type: kou
-    text: 投資助言・代理業又は投資運用業の運営に関し、投資者の利益を害する事実があるとき。
+    text: 九　投資助言・代理業又は投資運用業の運営に関し、投資者の利益を害する事実があるとき。
     modality: unspecified
     item_number: 9
   - id: kinsho-hou-art-52-p1-kou-10
     type: kou
-    text: 金融商品取引業に関し、不正又は著しく不当な行為をした場合において、その情状が特に重いとき。
+    text: 十　金融商品取引業に関し、不正又は著しく不当な行為をした場合において、その情状が特に重いとき。
     modality: unspecified
     item_number: 10
   - id: kinsho-hou-art-52-p1-kou-11
     type: kou
-    text: 第三十条第一項の認可に付した条件に違反したとき。
+    text: 十一　第三十条第一項の認可に付した条件に違反したとき。
     modality: unspecified
     item_number: 11
   - id: kinsho-hou-art-52-p1-kou-12
     type: kou
-    text: 第三十条第一項の認可を受けた金融商品取引業者が第三十条の四第一号から第三号まで又は第五号に掲げる基準に適合しないこととなつたとき。
+    text: 十二　第三十条第一項の認可を受けた金融商品取引業者が第三十条の四第一号から第三号まで又は第五号に掲げる基準に適合しないこととなつたとき。
     modality: unspecified
     item_number: 12
 - number: 2

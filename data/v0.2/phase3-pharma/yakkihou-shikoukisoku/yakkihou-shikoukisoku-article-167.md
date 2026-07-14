@@ -23,12 +23,12 @@ paragraphs:
     modality: gimu
   - id: yakkihou-shikoukisoku-art-167-p1-kou-1
     type: kou
-    text: 回収に至つた原因を究明し、当該営業所の品質確保の方法に関し改善が必要な場合には、所要の措置を講ずること。
+    text: 一　回収に至つた原因を究明し、当該営業所の品質確保の方法に関し改善が必要な場合には、所要の措置を講ずること。
     modality: unspecified
     item_number: 1
   - id: yakkihou-shikoukisoku-art-167-p1-kou-2
     type: kou
-    text: 回収した医療機器（医療機器プログラムを除く。）を区分して一定期間保管した後、適切に処理すること。
+    text: 二　回収した医療機器（医療機器プログラムを除く。）を区分して一定期間保管した後、適切に処理すること。
     modality: unspecified
     item_number: 2
 cases: []

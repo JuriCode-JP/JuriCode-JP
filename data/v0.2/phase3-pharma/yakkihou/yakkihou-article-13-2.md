@@ -51,8 +51,8 @@ paragraphs:
     text: 厚生労働大臣が第一項の規定により機構に調査を行わせることとしたときは、同項の政令で定める医薬品、医薬部外品又は化粧品に係る前条第一項若しくは第八項の許可又は同条第四項の許可の更新の申請者は、機構が行う当該調査を受けなければならない。
     modality: gimu
     references:
-    - 同項
     - 前条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false
