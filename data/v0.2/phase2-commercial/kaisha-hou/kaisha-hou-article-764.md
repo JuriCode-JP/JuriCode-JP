@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false
@@ -70,8 +70,8 @@ paragraphs:
     text: 前項の規定は、前条第一項第十二号に掲げる事項についての定めがある場合には、適用しない。
     modality: jogai
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 6
   has_proviso: false
   has_items: false
@@ -138,10 +138,10 @@ paragraphs:
     text: 二以上の株式会社又は合同会社が共同して新設分割をする場合における前二項の規定の適用については、第八項中「新設分割計画の定め」とあるのは「同項第七号に掲げる事項についての定め」と、前項中「新設分割計画の定め」とあるのは「前条第一項第九号に掲げる事項についての定め」とする。
     modality: gimu
     references:
-    - 前項
     - 前二項
-    - 前条
     - 同項
+    - 前項
+    - 前条
 - number: 11
   has_proviso: false
   has_items: false

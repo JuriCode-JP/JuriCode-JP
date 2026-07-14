@@ -108,8 +108,8 @@ paragraphs:
     text: 法第六十六条の四の五第一項の規定による事業概況報告事項（同項に規定する事業概況報告事項をいう。次項において同じ。）の提供は、日本語又は英語により行うものとする。
     modality: gimu
     references:
-    - 次項
     - 同項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: true

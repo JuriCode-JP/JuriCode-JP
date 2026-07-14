@@ -22,8 +22,8 @@ paragraphs:
     text: 厚生労働大臣は、機構に、治験の対象とされる薬物等（専ら動物のために使用されることが目的とされているものを除く。以下この条及び次条において同じ。）のうち政令で定めるものに係る治験の計画についての前条第三項後段の規定による調査を行わせることができる。
     modality: kanou_kenri
     references:
-    - 前条
     - 次条
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
@@ -57,8 +57,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 前条
     - 同項
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false

@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の取下をした者は、その事件について更に前条第一項の請求をすることができない。
     modality: kanou_negative
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

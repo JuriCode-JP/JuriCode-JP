@@ -94,8 +94,8 @@ paragraphs:
     text: 法第七十条の四の二第一項の規定の適用を受ける猶予適用者が、法第七十条の四第二十七項の規定により提出する同項の届出書には、前条第六十三項に規定する事項のほか特定貸付農地等に係る特定貸付けに関する事項その他の財務省令で定める事項を記載しなければならない。
     modality: gimu
     references:
-    - 前条
     - 同項
+    - 前条
 - number: 9
   has_proviso: false
   has_items: false

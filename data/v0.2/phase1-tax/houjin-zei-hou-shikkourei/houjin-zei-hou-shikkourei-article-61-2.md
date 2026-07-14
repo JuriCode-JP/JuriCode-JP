@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 前二条
     references:
-    - 前二条
     - 前条
+    - 前二条
   - id: houjin-zei-hou-shikkourei-art-61-2-p1-kou-1
     type: kou
     text: 一　鉄骨鉄筋コンクリート造、鉄筋コンクリート造、れんが造、石造又はブロック造の建物

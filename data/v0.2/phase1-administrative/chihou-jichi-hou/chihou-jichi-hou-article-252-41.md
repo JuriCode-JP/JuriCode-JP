@@ -36,8 +36,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 本条
     - 前項
+    - 本条
     - 同項
 - number: 3
   has_proviso: false

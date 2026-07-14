@@ -36,8 +36,8 @@ paragraphs:
     text: 前項の「課税総所得金額」、「課税退職所得金額」又は「課税山林所得金額」とは、それぞれ前条の規定による控除後の前年の総所得金額、退職所得金額又は山林所得金額をいう。
     modality: teigi
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

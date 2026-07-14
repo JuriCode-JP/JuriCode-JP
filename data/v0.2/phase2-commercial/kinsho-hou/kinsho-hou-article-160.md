@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の規定による賠償の請求権は、請求権者が前条の規定に違反する行為があつたことを知つた時から一年間又は当該行為があつた時から三年間、これを行わないときは、時効によつて消滅する。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

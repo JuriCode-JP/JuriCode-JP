@@ -81,8 +81,8 @@ paragraphs:
     override_target:
     - 第二十八条
     references:
-    - 前条
     - 同項
+    - 前条
 - number: 7
   has_proviso: false
   has_items: false

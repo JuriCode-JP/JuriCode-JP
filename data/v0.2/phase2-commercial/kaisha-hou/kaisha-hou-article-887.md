@@ -41,9 +41,9 @@ paragraphs:
     text: 前項の申立てがあったときは、その申立てについての裁判が確定するまで、利害関係人（同項の申立てをした者及び清算株式会社を除く。次項において同じ。）は、支障部分の閲覧等の請求をすることができない。
     modality: kanou_negative
     references:
-    - 次項
     - 前項
     - 同項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

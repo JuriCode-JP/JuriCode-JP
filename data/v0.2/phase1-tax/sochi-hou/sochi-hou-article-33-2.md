@@ -53,8 +53,8 @@ paragraphs:
     text: 前条第五項及び第六項の規定は、前二項の規定を適用する場合について準用する。
     modality: unspecified
     references:
-    - 前二項
     - 前条
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false

@@ -109,8 +109,8 @@ paragraphs:
     text: 前項に定めるもののほか、猶予適用者及び旧法猶予適用者に係る前条第三十二項の届出書の提出その他の第一項及び第二項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の場合において、開示請求をする者は、政令で定めるところにより、開示請求に係る保有個人情報の本人であること（前条第二項の規定による開示請求にあっては、開示請求に係る保有個人情報の本人の代理人であること）を示す書類を提示し、又は提出しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

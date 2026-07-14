@@ -109,8 +109,8 @@ paragraphs:
     text: 前項後段の場合（次項に規定する場合を除く。）においては、その嘱託に係る書面には、第四項の文書が同項の納税者又は特別徴収義務者に到達したことを証する書面を添付しなければならない。
     modality: gimu
     references:
-    - 次項
     - 前項
+    - 次項
     - 同項
 - number: 7
   has_proviso: false

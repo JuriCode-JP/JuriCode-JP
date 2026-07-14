@@ -348,8 +348,8 @@ paragraphs:
     text: 施行令第二十五条の十二第八項ただし書の方法により同項の請求書を提出する場合には、当該請求書には、前項第一号に掲げる事項のうち同条第八項ただし書の規定により氏名を付記する他の相続人等の個人番号は、記載することを要しない。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 13
   has_proviso: false
   has_items: true

@@ -33,8 +33,8 @@ paragraphs:
     text: 前項の場合には、設備の設置又は使用の場所及び方法は、他の土地又は他人が所有する設備（次項において「他の土地等」という。）のために損害が最も少ないものを選ばなければならない。
     modality: gimu
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

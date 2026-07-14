@@ -38,8 +38,8 @@ paragraphs:
     text: 管海官庁は、前項の規定による異議の申立てを理由があると認めるときは、前条の案を更正することができる。
     modality: kanou_kenri
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

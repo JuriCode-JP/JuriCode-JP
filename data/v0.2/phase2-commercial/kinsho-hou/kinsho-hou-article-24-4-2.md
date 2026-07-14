@@ -23,8 +23,8 @@ paragraphs:
     modality: gimu
     references:
     - 次項
-    - 同項
     - 次条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false

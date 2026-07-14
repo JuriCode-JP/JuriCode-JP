@@ -39,8 +39,8 @@ paragraphs:
     modality: unspecified
     references:
     - 前条
-    - 前項
     - 次条
+    - 前項
 - number: 3
   has_proviso: false
   has_items: true

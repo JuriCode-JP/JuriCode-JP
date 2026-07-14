@@ -334,8 +334,8 @@ paragraphs:
     text: 法第四十条第五項第一号に規定する財務省令で定めるものは、同条第三項に規定する公益法人等が同項の贈与又は遺贈を受けた同号に規定する財産（次項において「譲渡財産」という。）が株式である場合における公社債及び投資信託の受益権とする。
     modality: gimu
     references:
-    - 次項
     - 同項
+    - 次項
 - number: 12
   has_proviso: false
   has_items: true

@@ -41,8 +41,8 @@ paragraphs:
     text: 前項の手数料は、収入印紙を前条第四項の請求書に貼つて、納めなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
   - id: kokuzei-tsuusoku-hou-shikkourei-art-42-p2-tadashi
     type: tadashi
     text: ただし、国税局又は税務署の事務所において前項の手数料の納付を現金ですることが可能である旨及び当該事務所の所在地を国税庁長官が官報で公示した場合には、当該事務所において現金をもつて納めることができる。

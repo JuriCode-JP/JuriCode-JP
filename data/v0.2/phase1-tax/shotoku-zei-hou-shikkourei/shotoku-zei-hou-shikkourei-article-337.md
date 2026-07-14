@@ -22,9 +22,9 @@ paragraphs:
     text: 前条第一項に規定する利子等又は配当等につき支払を受ける者は、同項から同条第三項までの規定による告知をする際、当該告知をする貯蓄取扱機関等の営業所の長に、次項に規定する書類を提示し、又は署名用電子証明書等を送信しなければならない。
     modality: gimu
     references:
-    - 次項
     - 前条
     - 同項
+    - 次項
 - number: 2
   has_proviso: false
   has_items: true
@@ -90,9 +90,9 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 前項
     - 前条
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

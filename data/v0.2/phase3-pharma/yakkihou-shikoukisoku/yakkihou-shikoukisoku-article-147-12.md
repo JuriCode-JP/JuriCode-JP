@@ -22,8 +22,8 @@ paragraphs:
     text: 法第二十九条の四の規定による掲示（次条に規定するものを除く。）は、次項に定める事項を表示した掲示板によるものとする。
     modality: gimu
     references:
-    - 次項
     - 次条
+    - 次項
 - number: 2
   has_proviso: false
   has_items: false

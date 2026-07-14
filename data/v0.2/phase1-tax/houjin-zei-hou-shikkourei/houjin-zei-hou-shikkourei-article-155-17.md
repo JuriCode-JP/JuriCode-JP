@@ -83,8 +83,8 @@ paragraphs:
     text: 第一項の規定は、同項の当該対象会計年度の直前の四対象会計年度のうちに前項の規定の適用を受けることとなつた対象会計年度がない場合に限り、適用する。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false

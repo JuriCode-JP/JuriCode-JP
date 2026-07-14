@@ -47,8 +47,8 @@ paragraphs:
     text: 前項の出資対象投資信託受益権等に係る財産が他の投資信託受益権等に対して出資され、又は拠出される場合には、当該他の投資信託受益権等を出資対象投資信託受益権等とみなして、前二項の規定を適用する。
     modality: unspecified
     references:
-    - 前二項
     - 前項
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: false

@@ -87,8 +87,8 @@ paragraphs:
     text: 法第七十三条の四第一項第二十三号に規定する関空等統合法第十二条第一項第一号に規定する指定会社が同項第二号に掲げる事業の用に供する不動産で政令で定めるものは、当該事業の用に供する不動産のうち前項第二号に掲げるものとする。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 4
   has_proviso: false
   has_items: true

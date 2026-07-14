@@ -51,8 +51,8 @@ paragraphs:
     modality: gimu
     references:
     - 前二項
-    - 前項
     - 次条
+    - 前項
 cases: []
 amendments: []
 tags:

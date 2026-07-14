@@ -82,8 +82,8 @@ paragraphs:
     text: 公的年金等支払者は、前項の帳簿を、最後に第二項の規定の適用を受けて提出された公的年金等受給者の扶養親族等申告書に係る前条第二項ただし書の規定による期限まで保存しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false

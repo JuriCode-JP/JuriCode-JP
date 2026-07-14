@@ -34,8 +34,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false
@@ -70,8 +70,8 @@ paragraphs:
     text: 前項の規定は、前条第八号に掲げる事項についての定めがある場合には、適用しない。
     modality: jogai
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 6
   has_proviso: false
   has_items: false

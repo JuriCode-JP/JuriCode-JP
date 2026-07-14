@@ -31,8 +31,8 @@ paragraphs:
     text: 法第二十二条第一項第一号に規定する収入金額として政令で定める金額は、同項に規定する個人が採掘した同項に規定する鉱物（以下この条において「鉱物」という。）に係るその年の同項の規定する指定期間（次項において「指定期間」という。）内の次に掲げる収入金額の合計額とする。
     modality: gimu
     references:
-    - 次項
     - 同項
+    - 次項
   - id: sochi-hou-shikkourei-art-14-p2-kou-1
     type: kou
     text: 一　当該鉱物の販売による収入金額
@@ -58,9 +58,9 @@ paragraphs:
     text: 法第二十二条第一項第二号に規定する所得の金額として政令で定める金額は、前項に規定する個人が採掘した鉱物に係るその年の指定期間内の同項各号に掲げる収入金額に係る所得の金額の合計額から当該収入金額に係る損失の金額の合計額を控除した残額（次項において「採掘所得金額」という。）とする。
     modality: gimu
     references:
-    - 次項
     - 前項
     - 同項
+    - 次項
 - number: 4
   has_proviso: false
   has_items: true
@@ -74,8 +74,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 同項
+    - 前項
   - id: sochi-hou-shikkourei-art-14-p4-kou-1
     type: kou
     text: 一　当該各年の採掘損失金額（前項に規定する損失の金額の合計額が同項に規定する所得の金額の合計額を超える場合におけるその超える部分の金額をいう。）の合計額

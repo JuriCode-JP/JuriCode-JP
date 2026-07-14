@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の退職金共済規程は、その退職金共済事業が前条第一項各号に掲げる要件に該当するかどうかを判定するために必要な事項につき規定したものでなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: true
   has_items: false

@@ -22,8 +22,8 @@ paragraphs:
     text: 居住者が有する減価償却資産（次条の規定に該当するものを除く。以下この条において同じ。）について支出する金額のうちに第百八十一条（資本的支出）の規定によりその支出する日の属する年分の不動産所得の金額、事業所得の金額、山林所得の金額又は雑所得の金額の計算上必要経費に算入されなかつた金額がある場合には、当該金額を前条第一項の規定による取得価額として、その有する減価償却資産と種類及び耐用年数を同じくする減価償却資産を新たに取得したものとする。
     modality: gimu
     references:
-    - 前条
     - 次条
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false
@@ -37,9 +37,9 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前条
     - 前項
     - 同項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
@@ -80,8 +80,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 前条
     - 同項
+    - 前条
 - number: 6
   has_proviso: false
   has_items: false
@@ -95,8 +95,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

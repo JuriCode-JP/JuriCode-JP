@@ -39,8 +39,8 @@ paragraphs:
     override_target:
     - 第九条
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

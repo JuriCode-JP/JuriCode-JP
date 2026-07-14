@@ -22,8 +22,8 @@ paragraphs:
     text: 法第二十三条第一項（受取配当等の益金不算入）に規定する政令で定めるところにより計算した金額は、同項に規定する配当等の額（次項及び第四項において「配当等の額」という。）の百分の四に相当する金額とする。
     modality: gimu
     references:
-    - 次項
     - 同項
+    - 次項
 - number: 2
   has_proviso: false
   has_items: true

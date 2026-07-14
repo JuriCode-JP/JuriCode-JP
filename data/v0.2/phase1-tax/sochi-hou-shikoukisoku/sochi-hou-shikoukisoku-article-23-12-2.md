@@ -260,8 +260,8 @@ paragraphs:
     modality: gimu
     references:
     - 次項
-    - 前項
     - 次条
+    - 前項
   - id: sochi-hou-shikoukisoku-art-23-12-2-p18-kou-1
     type: kou
     text: 一　当該合併又は株式交換等に係る合併契約書又は株式交換契約書若しくは株式移転計画書の写し

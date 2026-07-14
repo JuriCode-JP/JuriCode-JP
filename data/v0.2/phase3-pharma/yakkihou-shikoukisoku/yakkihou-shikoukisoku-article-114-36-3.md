@@ -40,8 +40,8 @@ paragraphs:
     text: 医療機器等条件付承認を受けた者が、法第二十三条の二の九第一項の指定を受けた医療機器又は体外診断用医薬品について、同項の使用成績に関する評価の申請をしたときは、前二項の規定による資料が提出されたものとみなす。
     modality: unspecified
     references:
-    - 前二項
     - 同項
+    - 前二項
 cases: []
 amendments: []
 tags:

@@ -114,8 +114,8 @@ paragraphs:
     text: 所得税法第二十五条第一項の規定により剰余金の配当、利益の配当、剰余金の分配又は金銭の分配とみなされるもの（同項第四号に規定する資本の払戻しによるものを除く。）に係る配当等については、法第八条の五第一項第一号に規定する配当計算期間を十二月として同号の規定及び前項の規定を適用する。
     modality: unspecified
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false

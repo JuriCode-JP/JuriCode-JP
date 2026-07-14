@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 前二条
     references:
-    - 前二条
     - 同項
+    - 前二条
 cases: []
 amendments: []
 tags:

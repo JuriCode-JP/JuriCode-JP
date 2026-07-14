@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第四十九条
     references:
-    - 次項
     - 同項
+    - 次項
   - id: sochi-hou-art-10-3-p1-kou-1
     type: kou
     text: 一　機械及び装置（その管理のおおむね全部を他の者に委託するものであることその他の政令で定める要件に該当するものを除く。）

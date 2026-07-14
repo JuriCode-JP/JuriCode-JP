@@ -84,8 +84,8 @@ paragraphs:
     text: 前項の仮停止通知書の送付を受けた公安委員会は、当該事案について前条第三項（同条第五項において準用する場合を含む。）の規定により処分移送通知書を送付するときは、併せて当該送付を受けた仮停止通知書を送付しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 7
   has_proviso: false
   has_items: false

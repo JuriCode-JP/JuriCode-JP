@@ -33,8 +33,8 @@ paragraphs:
     text: 前項において準用する前条第一項又は第二項の規定による公告をした日から六箇月以内に前項の交付又は複写の請求がないときは、その交付をし、又は複写をさせることを要しない。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -83,8 +83,8 @@ paragraphs:
     text: 第一項各号の行為をしようとする株式会社は、当該行為が効力を生ずる日（以下この条及び次条において「効力発生日」という。）の二十日前までに、同項各号に定める株式の株主に対し、当該行為をする旨を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 次条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

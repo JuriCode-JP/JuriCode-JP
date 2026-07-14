@@ -86,8 +86,8 @@ paragraphs:
     text: 第二項の規定により同項の帳簿を作成した金地金等の譲渡の対価の支払者は、前項の届出書を受理した場合には、当該帳簿の第二項各号に掲げる事項を、当該届出書に記載されている事項に訂正しておかなければならない。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
 - number: 5
   has_proviso: false
   has_items: false

@@ -130,9 +130,9 @@ paragraphs:
     override_target:
     - 第四項
     references:
-    - 次項
     - 同項
     - 次条
+    - 次項
   - id: shouhi-zei-hou-shikkourei-art-18-2-p6-kou-1
     type: kou
     text: 一　当該地区等に隣接する他の地区等（当該隣接する他の地区等に隣接する他の地区等を含む。）

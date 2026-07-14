@@ -114,8 +114,8 @@ paragraphs:
     text: ただし、当該提出をされた日前に当該申告書が提出（当該申告書の提出に代えて行う前項において準用する前条第七項に規定する電磁的方法による当該申告書に記載すべき事項の提供を含む。）をされた場合は、この限りでない。
     modality: jogai
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 8
   has_proviso: false
   has_items: false

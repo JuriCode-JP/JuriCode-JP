@@ -159,8 +159,8 @@ paragraphs:
     text: この場合において、当該特定対象事業年度又は特例対象事業年度を第六項に規定する適用事業年度とする同項の内国法人の同項に規定する調整事業年度については、前二項の規定は、適用がないものとする。
     modality: gimu
     references:
-    - 前二項
     - 同項
+    - 前二項
     depends_on: sochi-hou-art-60-p8-zen
 - number: 9
   has_proviso: false

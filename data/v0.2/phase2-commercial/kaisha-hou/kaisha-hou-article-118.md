@@ -56,8 +56,8 @@ paragraphs:
     text: 第一項各号に掲げる定款の変更をしようとする株式会社は、当該定款の変更が効力を生ずる日（以下この条及び次条において「定款変更日」という。）の二十日前までに、同項各号に定める新株予約権の新株予約権者に対し、当該定款の変更を行う旨を通知しなければならない。
     modality: gimu
     references:
-    - 同項
     - 次条
+    - 同項
 - number: 4
   has_proviso: false
   has_items: false

@@ -44,8 +44,8 @@ paragraphs:
     - 第一項
     references:
     - 次項
-    - 前条
     - 次条
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false

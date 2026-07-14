@@ -22,8 +22,8 @@ paragraphs:
     text: 前条の規定によつて算定した一般国道等の面積は、次項以下に規定する方法によつて、補正するものとする。
     modality: gimu
     references:
-    - 次項
     - 前条
+    - 次項
 - number: 2
   has_proviso: false
   has_items: true

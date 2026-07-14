@@ -53,8 +53,8 @@ paragraphs:
     override_target:
     - 前条
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
@@ -247,8 +247,8 @@ paragraphs:
     override_target:
     - 前二条
     references:
-    - 前二条
     - 同項
+    - 前二条
 - number: 18
   has_proviso: false
   has_items: false
@@ -262,8 +262,8 @@ paragraphs:
     override_target:
     - 前二条
     references:
-    - 前二条
     - 同項
+    - 前二条
 - number: 19
   has_proviso: false
   has_items: false
@@ -291,8 +291,8 @@ paragraphs:
     override_target:
     - 前二条
     references:
-    - 前二条
     - 同項
+    - 前二条
 - number: 21
   has_proviso: false
   has_items: false

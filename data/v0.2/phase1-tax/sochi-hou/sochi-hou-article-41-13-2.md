@@ -33,9 +33,9 @@ paragraphs:
     applies_provisions:
     - 第百八十条
     references:
+    - 次条
     - 前二条
     - 同項
-    - 次条
 cases: []
 amendments: []
 tags:

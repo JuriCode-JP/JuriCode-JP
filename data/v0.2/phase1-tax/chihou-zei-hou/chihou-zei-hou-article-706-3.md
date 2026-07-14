@@ -34,8 +34,8 @@ paragraphs:
     text: 前項の規定による修正の申出があつた場合において、当該申出について相当の理由があると認められるときは、市町村長は、当該年度分の国民健康保険税額の見積額を基礎として、前条第一項の規定によつて徴収する国民健康保険税額を修正しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

@@ -43,8 +43,8 @@ paragraphs:
     text: 前項の基準適合証の有効期間は、前条第四項に規定する政令で定める期間とする。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

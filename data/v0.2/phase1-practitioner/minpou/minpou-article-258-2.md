@@ -36,8 +36,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
@@ -48,8 +48,8 @@ paragraphs:
     text: 相続人が前項ただし書の申出をする場合には、当該申出は、当該相続人が前条第一項の規定による請求を受けた裁判所から当該請求があった旨の通知を受けた日から二箇月以内に当該裁判所にしなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

@@ -38,8 +38,8 @@ paragraphs:
     text: 前項の規定により個別外部監査契約に基づく監査によることが求められた第九十八条第二項の請求（以下本条において「議会からの個別外部監査の請求」という。）については、監査委員は、当該議会からの個別外部監査の請求に係る事項についての監査及び監査の結果に関する報告は行わない。
     modality: unspecified
     references:
-    - 本条
     - 前項
+    - 本条
 - number: 3
   has_proviso: false
   has_items: false
@@ -72,8 +72,8 @@ paragraphs:
     text: 前項において準用する前条第五項の個別外部監査契約を締結した者は、当該個別外部監査契約で定める個別外部監査契約の期間内に、議会からの個別外部監査の請求に係る事項につき監査しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 6
   has_proviso: false
   has_items: false

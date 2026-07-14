@@ -42,8 +42,8 @@ paragraphs:
     text: 第一項の還付の手続、同項の規定による還付金（これに係る還付加算金を含む。）につき充当をする場合の方法その他前二項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前二項
     - 同項
+    - 前二項
 cases: []
 amendments: []
 tags:

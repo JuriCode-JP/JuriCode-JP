@@ -42,8 +42,8 @@ paragraphs:
     text: 第一項の「同族会社」とは、法人税法第二条第十号の同族会社をいい、同族会社又は前項の法人であるかどうかの判定は、前二項の行為又は計算の事実のあつたときの現況によるものとする。
     modality: gimu
     references:
-    - 前二項
     - 前項
+    - 前二項
 - number: 4
   has_proviso: false
   has_items: true

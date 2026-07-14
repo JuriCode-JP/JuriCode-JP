@@ -35,8 +35,8 @@ paragraphs:
     text: 前項の許可は、営業所ごとに、その営業所の所在地の都道府県知事（その営業所の所在地が保健所を設置する市又は特別区の区域にある場合においては、市長又は区長。次項、次条第二項及び第三十九条の三第一項において同じ。）が与える。
     modality: unspecified
     references:
-    - 次項
     - 前項
+    - 次項
     - 次条
 - number: 3
   has_proviso: false

@@ -54,10 +54,10 @@ paragraphs:
     - 前二条
     references:
     - 前二条
-    - 同項
-    - 次条
-    - 前条
     - 前項
+    - 前条
+    - 次条
+    - 同項
 cases: []
 amendments: []
 tags:

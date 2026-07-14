@@ -22,8 +22,8 @@ paragraphs:
     text: 前条の規定により委託する普通地方公共団体の事務（以下本条中「委託事務」という。）の委託に関する規約には、次に掲げる事項につき規定を設けなければならない。
     modality: gimu
     references:
-    - 本条
     - 前条
+    - 本条
   - id: chihou-jichi-hou-art-252-15-p1-kou-1
     type: kou
     text: 一　委託する普通地方公共団体及び委託を受ける普通地方公共団体

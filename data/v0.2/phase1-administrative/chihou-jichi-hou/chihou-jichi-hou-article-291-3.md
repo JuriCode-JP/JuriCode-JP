@@ -26,8 +26,8 @@ paragraphs:
     text: ただし、次条第一項第六号若しくは第九号に掲げる事項又は前条第一項若しくは第二項の規定により広域連合が新たに事務を処理することとされた場合（変更された場合を含む。）における当該事務のみに係る広域連合の規約を変更しようとするときは、この限りでない。
     modality: jogai
     references:
-    - 前条
     - 次条
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false

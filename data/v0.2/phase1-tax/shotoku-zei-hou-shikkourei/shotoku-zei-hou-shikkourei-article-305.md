@@ -76,9 +76,9 @@ paragraphs:
     text: 前項の所轄税務署長は、同項の申請書の提出があつた場合において、当該申請書を提出した法人が前条各号に定める要件を備えていると認めるときは、同項の証明書を交付するものとする。
     modality: gimu
     references:
-    - 前条
     - 前項
     - 同項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false

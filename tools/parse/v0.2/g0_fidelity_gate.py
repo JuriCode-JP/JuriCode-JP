@@ -621,6 +621,50 @@ def check_ruby_contamination(article: Any, md_text: str) -> list[dict]:
 
 
 # ============================================================
+# G0-e: 正本 md の「ファイル全体」を見る (セクション外の残骸)
+# ============================================================
+
+#: frontmatter デリミタ。
+_FM_RE = re.compile(r"^---\n.*?\n---\n", re.DOTALL)
+#: `## 原文 (日本語)` 見出し行。
+_JA_HEADING_RE = re.compile(r"^##\s*原文", re.MULTILINE)
+
+
+def check_file_level_residue(md_text: str) -> dict:
+    """G0-e: md **ファイル全体**に残骸が無いか.
+
+    Why これが要るのか (今日 3 回目の同型の失敗):
+      G0-a〜d は「`## 原文` セクションの中身」しか見ていない。**検査範囲の外にある
+      ものは、ゲートが緑でも永久に残り続ける**。実際、2026-07-14 に G0-a/b/c/d を
+      すべて緑にして「マーカー 0」と報告した後、**セクション外に内部マーカー 1 件と
+      本文の残骸 17 件が残っていた**ことが MCP セッションで発覚した。
+
+      同型の失敗:
+        1. verify.py は md <-> manifest の自己整合しか見ない -> 原典との欠落が見えない
+        2. eval の gold に枝番・号が無い                    -> corpus の穴が見えない
+        3. G0-a〜d は本文セクションしか見ない               -> セクション外の残骸が見えない
+      共通の型: **検査範囲の外にあるものは、永久に見えない**。範囲を「ファイル全体」に
+      広げることでしか閉じられない。
+
+    検査項目:
+      1. ファイル全体に内部マーカー (`<!-- ... -->`) が 0 であること。
+      2. frontmatter と `## 原文` の間に、H1 見出し以外の非空行が 0 であること
+         (この領域は H1 のみ = format-spec §5.1)。
+    """
+    body = _FM_RE.sub("", md_text, count=1)
+    markers = MARKER_RE.findall(body)
+
+    junk: list[str] = []
+    m = _JA_HEADING_RE.search(body)
+    if m:
+        for ln in body[: m.start()].splitlines():
+            if ln.strip() and not ln.startswith("# "):
+                junk.append(ln.strip()[:80])
+
+    return {"markers": len(markers), "junk_lines": junk}
+
+
+# ============================================================
 # law 単位の実行
 # ============================================================
 
@@ -674,6 +718,7 @@ def process_law(
     g0a: dict[str, dict] = {}
     g0b: dict[str, dict] = {}
     ruby_hits: dict[str, list[dict]] = {}
+    file_residue: dict[str, dict] = {}
     marker_lines_total = 0
     files_with_markers = 0
 
@@ -687,6 +732,9 @@ def process_law(
             hits = check_ruby_contamination(art_el, md_text)
             if hits:
                 ruby_hits[num] = hits
+        residue = check_file_level_residue(md_text)
+        if residue["markers"] or residue["junk_lines"]:
+            file_residue[num] = residue
         md_paras, marker_lines = md_paragraph_texts(md_text)
         marker_lines_total += marker_lines
         if marker_lines:
@@ -705,6 +753,7 @@ def process_law(
     report["marker_lines_total"] = marker_lines_total
     report["files_with_markers"] = files_with_markers
     report["ruby_hits"] = ruby_hits
+    report["file_residue"] = file_residue
     report["g0a"] = g0a
     report["g0b"] = g0b
     return report
@@ -736,6 +785,10 @@ def aggregate(reports: list[dict]) -> dict:
         "g0c_violation_samples": [],
         "marker_lines_total": 0,
         "files_with_markers": 0,
+        "g0e_marker_articles": 0,
+        "g0e_marker_occurrences": 0,
+        "g0e_junk_articles": 0,
+        "g0e_samples": [],
         "ruby_contaminated_articles": 0,
         "ruby_contaminated_occurrences": 0,
         "ruby_by_law": {},
@@ -750,6 +803,18 @@ def aggregate(reports: list[dict]) -> dict:
         agg["articles_md_only"] += len(r["articles_md_only"])
         agg["marker_lines_total"] += r["marker_lines_total"]
         agg["files_with_markers"] += r["files_with_markers"]
+        fr = r.get("file_residue") or {}
+        for num, res in fr.items():
+            if res["markers"]:
+                agg["g0e_marker_articles"] += 1
+                agg["g0e_marker_occurrences"] += res["markers"]
+            if res["junk_lines"]:
+                agg["g0e_junk_articles"] += 1
+            if len(agg["g0e_samples"]) < 10:
+                agg["g0e_samples"].append(
+                    f"{r['law_abbrev']} 第{num}条: markers={res['markers']} "
+                    f"junk={res['junk_lines'][:1]}"
+                )
         rh = r.get("ruby_hits") or {}
         if rh:
             n_occ = sum(len(v) for v in rh.values())
@@ -847,6 +912,12 @@ def render_summary_md(agg: dict, skipped_no_xml: list[str]) -> str:
         "",
         f"- マーカー行合計: {agg['marker_lines_total']}",
         f"- マーカーを含む md ファイル: {agg['files_with_markers']}",
+        "",
+        "## G0-e: 正本 md の**ファイル全体**に残骸が無いか (セクション外も見る)",
+        "",
+        f"- 内部マーカーが残る条: {agg['g0e_marker_articles']} ({agg['g0e_marker_occurrences']} 箇所)",
+        f"- `## 原文` の外に本文由来のゴミ行がある条: {agg['g0e_junk_articles']}",
+        *[f"  - {s}" for s in agg["g0e_samples"]],
         "",
         "## G0-d: ルビ (振り仮名) の読みが本文に混入していないか",
         "",

@@ -55,8 +55,8 @@ paragraphs:
     text: 前項に規定する主要な業務として行われる貸付けに該当するかどうかの判定その他前二項の規定の適用に関し必要な事項は、財務省令で定める。
     modality: unspecified
     references:
-    - 前二項
     - 前項
+    - 前二項
 cases: []
 amendments: []
 tags:

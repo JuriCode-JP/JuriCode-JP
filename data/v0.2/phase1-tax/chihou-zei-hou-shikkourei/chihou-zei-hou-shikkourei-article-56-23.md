@@ -23,8 +23,8 @@ paragraphs:
     modality: gimu
     references:
     - 本条
-    - 前条
     - 同項
+    - 前条
 cases: []
 amendments: []
 tags:

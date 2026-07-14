@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定による請求は、取締役（前条第一項ただし書に規定する場合にあっては、招集権者）に対し、取締役会の目的である事項を示して行わなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
@@ -54,8 +54,8 @@ paragraphs:
     text: 第一項の規定による請求を行った株主は、当該請求に基づき招集され、又は前項において準用する前条第三項の規定により招集した取締役会に出席し、意見を述べることができる。
     modality: kanou_kenri
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

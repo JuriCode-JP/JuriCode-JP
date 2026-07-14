@@ -85,8 +85,8 @@ paragraphs:
     modality: gimu
     references:
     - 次項
-    - 前三項
     - 前項
+    - 前三項
 - number: 5
   has_proviso: false
   has_items: true

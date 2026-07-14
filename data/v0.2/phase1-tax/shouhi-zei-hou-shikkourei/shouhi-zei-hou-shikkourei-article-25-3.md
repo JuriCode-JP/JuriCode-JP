@@ -72,8 +72,8 @@ paragraphs:
     text: 第一項各号及び前項各号に規定する他の法人を完全に支配している場合とは、前条第三項各号に掲げる場合のいずれかに該当する場合をいう。
     modality: teigi
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

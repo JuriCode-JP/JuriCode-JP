@@ -25,8 +25,8 @@ paragraphs:
     override_target:
     - 第四十九条
     references:
-    - 次項
     - 同項
+    - 次項
 - number: 2
   has_proviso: false
   has_items: true
@@ -71,8 +71,8 @@ paragraphs:
     text: 第十一条第三項の規定は、第一項の規定又は前項において準用する前条第二項の規定を適用する場合について準用する。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false

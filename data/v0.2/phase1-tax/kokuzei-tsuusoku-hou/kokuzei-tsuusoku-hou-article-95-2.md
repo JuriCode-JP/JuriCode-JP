@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の規定による意見の陳述（次項及び第九十七条の四第二項第二号（審理手続の終結）において「口頭意見陳述」という。）に際し、前項の申立てをした者は、担当審判官の許可を得て、審査請求に係る事件に関し、原処分庁に対して、質問を発することができる。
     modality: kanou_kenri
     references:
-    - 次項
     - 前項
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

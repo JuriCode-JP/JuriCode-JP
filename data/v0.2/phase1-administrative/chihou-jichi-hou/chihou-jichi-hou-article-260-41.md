@@ -46,8 +46,8 @@ paragraphs:
     text: 合併しようとする各認可地縁団体は、前条及び前二項の規定による手続が終了した場合には、総務省令で定めるところにより、共同で、遅滞なく、その旨を市町村長に届け出なければならない。
     modality: gimu
     references:
-    - 前二項
     - 前条
+    - 前二項
 cases: []
 amendments: []
 tags:

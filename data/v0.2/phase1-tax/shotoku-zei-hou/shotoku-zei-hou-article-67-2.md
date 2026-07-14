@@ -61,8 +61,8 @@ paragraphs:
     text: 前項第二号の資産の使用に伴つて生ずる費用を実質的に負担すべきこととされているかどうかの判定その他前三項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前三項
     - 前項
+    - 前三項
 cases: []
 amendments: []
 tags:

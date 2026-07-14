@@ -31,15 +31,15 @@ paragraphs:
     text: 前項の規定により財務局長又は財務支局長が指定した者（以下この章において「財務局等職員」という。）は、委員会職員とみなして第二百十条から前条までの規定を適用する。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
   - id: kinsho-hou-art-224-p2-kou
     type: kou_dan
     text: この場合において、第二百十一条第一項中「委員会の」とあるのは「その所属する財務局又は財務支局の」と、第二百二十二条第二項中「委員会」とあるのは「財務局長又は財務支局長」と、第二百二十二条の三第二項中「委員会」とあるのは「第二百二十四条第二項の規定により前項の委員会職員とみなされる同条第二項に規定する財務局等職員の所属する財務局又は財務支局」と、前条中「委員会に」とあるのは「財務局長又は財務支局長に」とする。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
     depends_on: kinsho-hou-art-224-p2-zen
 - number: 3
   has_proviso: false
@@ -51,8 +51,8 @@ paragraphs:
     text: 財務局長又は財務支局長は、前項において読み替えて適用される前条の規定による財務局等職員の報告を受けたときは、委員会にその内容を報告しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false

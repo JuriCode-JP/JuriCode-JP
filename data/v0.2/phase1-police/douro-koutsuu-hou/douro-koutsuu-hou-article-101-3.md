@@ -29,8 +29,8 @@ paragraphs:
     text: ただし、更新期間が満了する日（第百一条の二第一項の規定による免許証等の更新の申請をしようとする者にあつては、当該申請をする日。次条第一項から第三項まで及び第百八条の二第一項第十二号において同じ。）前六月以内に同項第十二号に掲げる講習を受けた者その他の同項第十一号に掲げる講習を受ける必要がないものとして政令で定める者は、この限りでない。
     modality: jogai
     references:
-    - 同項
     - 次条
+    - 同項
 - number: 2
   has_proviso: false
   has_items: false
@@ -44,9 +44,9 @@ paragraphs:
     override_target:
     - 第四項
     references:
-    - 前項
     - 前条
     - 同項
+    - 前項
 cases: []
 amendments: []
 tags:

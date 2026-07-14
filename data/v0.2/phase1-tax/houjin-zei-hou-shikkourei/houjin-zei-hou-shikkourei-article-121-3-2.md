@@ -92,8 +92,8 @@ paragraphs:
     modality: gimu
     references:
     - 前二条
-    - 前条
     - 同項
+    - 前条
     - 次条
 - number: 6
   has_proviso: false

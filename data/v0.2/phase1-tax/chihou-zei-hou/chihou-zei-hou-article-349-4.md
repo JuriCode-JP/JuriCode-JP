@@ -26,8 +26,8 @@ paragraphs:
     - 前条
     references:
     - 次項
-    - 前条
     - 次条
+    - 前条
 - number: 2
   has_proviso: false
   has_items: false

@@ -62,8 +62,8 @@ paragraphs:
     override_target:
     - 同項
     references:
-    - 前条
     - 前項
+    - 前条
     - 同項
 - number: 3
   has_proviso: false
@@ -75,8 +75,8 @@ paragraphs:
     text: 第百三十二条（年の中途で業務の用に供した減価償却資産等の償却費の特例）の規定は、前項の規定の適用を受ける減価償却資産について準用する。この場合において、同条第一項中「前条」とあるのは、「第百三十四条第二項」と読み替えるものとする。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:

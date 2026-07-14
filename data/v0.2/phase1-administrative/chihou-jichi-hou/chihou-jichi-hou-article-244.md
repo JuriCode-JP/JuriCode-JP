@@ -31,8 +31,8 @@ paragraphs:
     text: 普通地方公共団体（次条第三項に規定する指定管理者を含む。次項において同じ。）は、正当な理由がない限り、住民が公の施設を利用することを拒んではならない。
     modality: unspecified
     references:
-    - 次項
     - 次条
+    - 次項
 - number: 3
   has_proviso: false
   has_items: false

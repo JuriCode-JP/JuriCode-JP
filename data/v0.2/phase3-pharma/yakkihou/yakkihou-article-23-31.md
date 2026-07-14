@@ -64,8 +64,8 @@ paragraphs:
     text: この場合において、同項の指定に係る再生医療等製品が前項に規定する厚生労働省令で定める再生医療等製品であるときは、あらかじめ、当該再生医療等製品に係る資料が同項の規定に適合するかどうかについての書面による調査又は実地の調査を行うものとする。
     modality: gimu
     references:
-    - 前項
     - 同項
+    - 前項
     depends_on: yakkihou-art-23-31-p5-zen
 - number: 6
   has_proviso: false

@@ -51,8 +51,8 @@ paragraphs:
     text: 受益者が二以上ある場合における第一項の規定の適用、前項に規定する信託財産の給付を受けることとされている者に該当するかどうかの判定その他前二項の規定の適用に関し必要な事項は、政令で定める。
     modality: unspecified
     references:
-    - 前二項
     - 前項
+    - 前二項
 cases: []
 amendments:
 - effective_date: '2026-04-01'

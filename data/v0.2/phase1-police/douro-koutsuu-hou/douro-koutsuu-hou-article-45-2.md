@@ -23,8 +23,8 @@ paragraphs:
     modality: kanou_kenri
     references:
     - 次項
-    - 前条
     - 同項
+    - 前条
   - id: douro-koutsuu-hou-art-45-2-p1-kou-1
     type: kou
     text: 一　第七十一条の五第三項に規定する普通自動車対応免許（以下この条において単に「普通自動車対応免許」という。）を受けた者で七十歳以上のもの

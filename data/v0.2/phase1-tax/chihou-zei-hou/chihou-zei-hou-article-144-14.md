@@ -62,9 +62,9 @@ paragraphs:
     text: 次条第三項に規定する登録特別徴収義務者は、第二項の期間について当該登録に係る道府県に納入すべき軽油引取税額がない場合においても、同項及び前項の規定に準じて納入申告書を提出しなければならない。
     modality: gimu
     references:
-    - 前項
-    - 同項
     - 次条
+    - 同項
+    - 前項
 - number: 6
   has_proviso: false
   has_items: false

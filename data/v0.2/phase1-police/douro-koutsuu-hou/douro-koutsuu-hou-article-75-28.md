@@ -59,8 +59,8 @@ paragraphs:
     text: 仮停止は、前項の規定により報告を受けた公安委員会が当該仮停止の期間内に当該事案について第七十五条の二十六第一項又は前条第一項の規定による処分をしたときは、その効力を失う。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 5
   has_proviso: false
   has_items: false

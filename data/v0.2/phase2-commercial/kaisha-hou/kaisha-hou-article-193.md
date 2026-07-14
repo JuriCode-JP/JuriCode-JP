@@ -43,8 +43,8 @@ paragraphs:
     text: 前項第二号に掲げる場合には、前条第一項の規定による請求をした単元未満株主又は株式会社は、当該請求をした日から二十日以内に、裁判所に対し、価格の決定の申立てをすることができる。
     modality: kanou_kenri
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 3
   has_proviso: false
   has_items: false
@@ -55,8 +55,8 @@ paragraphs:
     text: 裁判所は、前項の決定をするには、前条第一項の規定による請求の時における株式会社の資産状態その他一切の事情を考慮しなければならない。
     modality: gimu
     references:
-    - 前条
     - 前項
+    - 前条
 - number: 4
   has_proviso: false
   has_items: false
@@ -84,8 +84,8 @@ paragraphs:
     override_target:
     - 第一項
     references:
-    - 前条
     - 同項
+    - 前条
 - number: 6
   has_proviso: false
   has_items: false

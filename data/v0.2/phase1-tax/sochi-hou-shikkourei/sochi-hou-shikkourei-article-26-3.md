@@ -22,8 +22,8 @@ paragraphs:
     text: 法第四十一条の二の三第一項に規定する政令で定める者は、同項に規定する住宅借入金等に係る前条第一項に規定する債権者とする。
     modality: gimu
     references:
-    - 前条
     - 同項
+    - 前条
 - number: 2
   has_proviso: false
   has_items: true

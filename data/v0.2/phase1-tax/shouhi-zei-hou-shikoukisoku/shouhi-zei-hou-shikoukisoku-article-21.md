@@ -65,8 +65,8 @@ paragraphs:
     override_target:
     - 前項
     references:
-    - 前項
     - 同項
+    - 前項
   - id: shouhi-zei-hou-shikoukisoku-art-21-p3-kou-1
     type: kou
     text: 一　当該中間申告書に係る中間申告対象期間の法第四十五条第一項第二号に掲げる税率の異なるごとに区分した課税標準額に対する消費税額の計算に関する明細

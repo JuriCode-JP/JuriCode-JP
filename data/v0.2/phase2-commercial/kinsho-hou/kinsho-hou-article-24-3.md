@@ -24,8 +24,8 @@ paragraphs:
     applies_provisions:
     - 第十一条
     references:
-    - 前条
     - 次条
+    - 前条
 cases: []
 amendments: []
 tags:

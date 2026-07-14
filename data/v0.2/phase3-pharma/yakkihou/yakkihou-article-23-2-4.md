@@ -31,8 +31,8 @@ paragraphs:
     text: 前項の登録については、前条第二項（第一号、第二号及び第六号に係る部分に限る。）、第三項及び第四項の規定を準用する。
     modality: unspecified
     references:
-    - 前条
     - 前項
+    - 前条
 cases: []
 amendments: []
 tags:
