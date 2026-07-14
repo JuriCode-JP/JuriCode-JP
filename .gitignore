@@ -25,9 +25,15 @@ __pycache__/
 dist/
 # `dist/` above is the setuptools build-output pattern, but it also matched
 # `tools/dist/` -- the publication tooling (leak scanner + uploader). Those files
-# gate an irreversible public upload and were therefore living OUTSIDE version
-# control: `git add tools/dist` silently did nothing (found 2026-07-15).
+# gate an irreversible public upload and were living OUTSIDE version control:
+# `git add tools/dist` silently did nothing (found 2026-07-15). Re-include the
+# directory so the source is tracked...
 !tools/dist/
+# ...but keep the build artifacts a real package build would drop here OUT of git
+# (only the source .py under tools/dist/ belongs in the repo).
+tools/dist/*.whl
+tools/dist/*.tar.gz
+tools/dist/*.egg-info/
 
 # build/ は原則すべて derived (再生成できる) ので ignore する。
 # ただし NTA / 国税不服審判所から取得してパースしたストアだけは例外で追跡する
