@@ -23,6 +23,11 @@ __pycache__/
 *.egg-info/
 .eggs/
 dist/
+# `dist/` above is the setuptools build-output pattern, but it also matched
+# `tools/dist/` -- the publication tooling (leak scanner + uploader). Those files
+# gate an irreversible public upload and were therefore living OUTSIDE version
+# control: `git add tools/dist` silently did nothing (found 2026-07-15).
+!tools/dist/
 
 # build/ は原則すべて derived (再生成できる) ので ignore する。
 # ただし NTA / 国税不服審判所から取得してパースしたストアだけは例外で追跡する
