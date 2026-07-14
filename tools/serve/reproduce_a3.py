@@ -45,11 +45,35 @@ from juricode_shared.safe_write import safe_write_text  # noqa: E402
 
 OUT = REPO / "build" / "v8-a3-results"
 V8B_PREFIX = REPO / "build" / "embeddings" / "v0.2-aug-v8b-gemini"
-CORPUS = REPO / "build" / "corpus-v8-embed.jsonl"
+V9_PREFIX = REPO / "build" / "embeddings" / "v0.2-aug-v9-gemini"
+CORPUS_V8 = REPO / "build" / "corpus-v8-embed.jsonl"
+CORPUS_V9 = REPO / "build" / "corpus-v11-embed.jsonl"
 
-# Locked targets (build/v8-a3-results/compare_v8b_dedup.json, dense+dedup, fold OFF).
-TARGET = {"N": 97, "R@10": 84, "R@20": 87}
-NEWLAYER_TARGET = {"tsutatsu": {"N": 15, "R@20": 15}, "taxanswer": {"N": 17, "R@20": 17}}
+# Back-compat aliases (older call sites).
+CORPUS = CORPUS_V8
+
+# Pass lines are per index. A pass line measured on one index says nothing about
+# another: the corpora differ in what they contain, so the population differs.
+#
+#   v8b -- the corpus behind this index had no item-level (号) or sub-item text, and
+#          branch-numbered articles (e.g. 132-2) were absent from the index entirely.
+#          Kept so that `--index <v8b>` still reproduces the historical numbers.
+#   v9  -- item and sub-item text is first-class; branch-numbered articles are present.
+#          Fidelity gates G0-a/b/c/d/e pass with zero violations. These numbers are
+#          lower than v8b's. They are the pass line anyway: the index is more correct,
+#          and a pass line exists to detect drift, not to flatter the build.
+TARGETS: dict[str, dict] = {
+    "v0.2-aug-v8b-gemini": {
+        "honbun": {"N": 97, "R@10": 84, "R@20": 87},
+        "newlayer": {"tsutatsu": {"N": 15, "R@20": 15}, "taxanswer": {"N": 17, "R@20": 17}},
+        "note": "measured on the index built before item-level chunks existed",
+    },
+    "v0.2-aug-v9-gemini": {
+        "honbun": {"N": 97, "R@10": 78, "R@20": 85},
+        "newlayer": {"tsutatsu": {"N": 15, "R@20": 15}, "taxanswer": {"N": 17, "R@20": 17}},
+        "note": "measured 2026-07-15 on corpus-v11 (item-level chunks present)",
+    },
+}
 
 
 def _rss_mb() -> float | None:
@@ -171,12 +195,26 @@ def _newlayer(svc: S.RetrievalService, embs_cache: dict) -> dict:
 def main() -> int:
     ap = argparse.ArgumentParser(description="T6 A-3 reproduction through the service.")
     ap.add_argument("--http-sample", type=int, default=0, help="live HTTP round-trips for latency")
+    ap.add_argument("--index", type=Path, default=V9_PREFIX, help="索引 prefix (既定 v9)")
+    ap.add_argument("--corpus", type=Path, default=CORPUS_V9, help="索引の入力 corpus (既定 v11)")
     args = ap.parse_args()
+
+    # 合格線は索引ごと。未知の索引に「それらしい既定値」を当てると、別の母集団の値と
+    # 比べて緑/赤を出すことになる。知らない索引なら知らないと言って止まる。
+    if args.index.name not in TARGETS:
+        print(
+            f"STOP: no pass line is recorded for index {args.index.name!r}. "
+            f"Known: {sorted(TARGETS)}. Measure it first, then record it in TARGETS.",
+            file=sys.stderr,
+        )
+        return 1
+    target = TARGETS[args.index.name]["honbun"]
+    newlayer_target = TARGETS[args.index.name]["newlayer"]
 
     OUT.mkdir(parents=True, exist_ok=True)
     t_start = time.perf_counter()
-    print(f"[startup] building service on {V8B_PREFIX.name} ...", file=sys.stderr)
-    svc = S.RetrievalService(V8B_PREFIX, CORPUS, default_fold=False)
+    print(f"[startup] building service on {args.index.name} ...", file=sys.stderr)
+    svc = S.RetrievalService(args.index, args.corpus, default_fold=False)
     startup_s = time.perf_counter() - t_start
     print(f"[startup] done in {startup_s:.1f}s, RSS={_rss_mb()} MB", file=sys.stderr)
 
@@ -200,7 +238,7 @@ def main() -> int:
 
     rss = _rss_mb()
     report = {
-        "index": V8B_PREFIX.name,
+        "index": args.index.name,
         "startup_seconds": round(startup_s, 2),
         "rss_mb": round(rss, 1) if rss else None,
         "matrix_bytes": int(svc._norm_matrix.nbytes),
@@ -212,7 +250,8 @@ def main() -> int:
         },
         "new_layer": newlayer,
         "http_full_path_latency_ms": http_latency,
-        "target": TARGET,
+        "target": target,
+        "target_note": TARGETS[args.index.name]["note"],
     }
     safe_write_text(
         OUT / "service-a3-repro.json", json.dumps(report, ensure_ascii=False, indent=2) + "\n"
@@ -221,20 +260,21 @@ def main() -> int:
     # ---- verdict ----
     off = honbun_off["recall"]
     ok = (
-        off["R@10"] == TARGET["R@10"]
-        and off["R@20"] == TARGET["R@20"]
-        and honbun_off["n"] == TARGET["N"]
+        off["R@10"] == target["R@10"]
+        and off["R@20"] == target["R@20"]
+        and honbun_off["n"] == target["N"]
     )
     print("\n=== T6: A-3 reproduction through the service ===")
-    print(f"  honbun N={honbun_off['n']} (target {TARGET['N']})")
+    print(f"  index: {args.index.name}")
+    print(f"  honbun N={honbun_off['n']} (target {target['N']})")
     print(
-        f"  fold OFF: R@10={off['R@10']} R@20={off['R@20']}  (target R@10={TARGET['R@10']} R@20={TARGET['R@20']})"
+        f"  fold OFF: R@10={off['R@10']} R@20={off['R@20']}  (target R@10={target['R@10']} R@20={target['R@20']})"
     )
     print(
         f"  fold ON : R@10={honbun_on['recall']['R@10']} R@20={honbun_on['recall']['R@20']}  (report only)"
     )
     for g, d in newlayer.items():
-        t = NEWLAYER_TARGET.get(g, {})
+        t = newlayer_target.get(g, {})
         print(
             f"  new-layer {g}: N={d['fold_off']['n']} fold_off R@20={d['fold_off']['recall']['R@20']} "
             f"fold_on R@20={d['fold_on']['recall']['R@20']}  (target N={t.get('N')} R@20={t.get('R@20')})"
@@ -250,7 +290,12 @@ def main() -> int:
             "\n*** T6 FAILED: service does not reproduce the A-3 numbers. STOP (do not tune). ***"
         )
         return 1
-    print("\n*** T6 PASS: service reproduces A-3 dense+dedup honbun R@10=84/97, R@20=87/97. ***")
+    # 合格線は索引ごとに違う。ここに数値をハードコードすると、別の索引で通したときに
+    # **緑のログが嘘をつく** (実際 2026-07-15 に、78/85 で通ったのに 84/87 と表示した)。
+    print(
+        f"\n*** T6 PASS: {args.index.name} reproduces its pass line "
+        f"(honbun R@10={target['R@10']}/{target['N']}, R@20={target['R@20']}/{target['N']}). ***"
+    )
     return 0
 
 

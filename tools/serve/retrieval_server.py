@@ -539,17 +539,22 @@ def main() -> int:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
+    # 索引・corpus に既定値を持たせない (L-INDEX)。
+    # Why: 既定があると、呼び出し側が指定を忘れたときに **黙って別の索引で答える**。
+    # 索引が変われば返る条文が変わる。どの索引で答えたのかは、サービスが暗黙に決めて
+    # よいことではない。指定が無ければ起動時に落とす。
+    # (どの索引で答えたかは、全レスポンスの meta.index にも出している。)
     ap.add_argument(
         "--index",
         type=Path,
-        default=REPO / "build" / "embeddings" / "v0.2-aug-v8b-gemini",
-        help="embedding 索引プレフィックス (.npy/.meta.jsonl/.vec.pkl)",
+        required=True,
+        help="embedding 索引プレフィックス (.npy/.meta.jsonl/.vec.pkl)。既定値なし",
     )
     ap.add_argument(
         "--corpus",
         type=Path,
-        default=REPO / "build" / "corpus-v8-embed.jsonl",
-        help="行アライン corpus (layer/corpus_group/directive_id/text の供給元)",
+        required=True,
+        help="行アライン corpus (layer/corpus_group/directive_id/text の供給元)。既定値なし",
     )
     ap.add_argument("--host", type=str, default="127.0.0.1")
     ap.add_argument(
